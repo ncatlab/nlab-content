@@ -84,6 +84,17 @@ but which in notation common around the [[Adams spectral sequence]] would be
   }
 \]
 
+So in terms of [[stable homotopy groups]] of this spectrum we have the $(\mathrm{U},fr)$-[[cobordism ring]] 
+
+\[
+  \label{UFrCobordismRing}
+  \Omega^{\mathrm{U},fr}_{\bullet}
+  \;\coloneqq\;
+  \pi_{\bullet}
+  \big(
+    M\mathrm{U}/\mathbb{S}
+  \big)
+\]
 
 ### Boundary morphism to $MFr$
   {#BoundaryMorphism}
@@ -168,7 +179,7 @@ Namely, $\partial$ is the second next step in the long [[homotopy cofiber]]-sequ
 +-- {: .num_remark}  
 ###### Remark
 
-The implicit idea in [Conner-Floyd 66, p. 99](#ConnerFloyd66) must be to see $\partial$ (eq:BoundaryCohomologyOperation) in terms of forming actual [[boundaries]] of representative [[manifolds with boundaries]] under a version of the [[Pontrjagin-Thom construction]]. This is certainly plausible, but not proven either, as they "forego the tedious details" on [p. 97](#ConnerFloyd66). NB: for the purpose on p. 99 they might just _define_ $\partial$ in this geometric way, but then the claim wrapping around p. 100-101 needs proof.  This claim however is immediate from the abstract homotopy theory, namely it is just the continuation yet one step further along the long cofiber sequence -- this is Prop. \ref{BoundaryOperationFromFrBordToUFrBordIsSurjective} below.
+The implicit idea in [Conner-Floyd 66, p. 99](#ConnerFloyd66) must be to see $\partial$ (eq:BoundaryCohomologyOperation) in terms of forming actual [[boundaries]] of representative [[manifolds with boundaries]] under a version of the [[Pontrjagin-Thom construction]]. This is certainly plausible, but not proven either, as they "forego the tedious details" on [p. 97](#ConnerFloyd66). NB: for the purpose on p. 99 they might just _define_ $\partial$ in this geometric way, but then the claim wrapping around p. 100-101 needs proof.  This claim however is immediate from the abstract homotopy theory, namely it is just the continuation yet one step further along the long cofiber sequence -- this is Prop. \ref{AShortExactSequenceOfUFrBordismRings} below.
 
 =--
 
@@ -178,44 +189,157 @@ The implicit idea in [Conner-Floyd 66, p. 99](#ConnerFloyd66) must be to see $\p
 
 ### Relation to $MU$ and $MFr$
 
-The [[bordism rings]] for [[MU]], $MUFr$ and [[MFr]] sit in a [[short exact sequence]] of the form
++-- {: .num_prop #AShortExactSequenceOfUFrBordismRings} 
+###### Proposition
+
+In [[positive number|positive]] degree, the underling [[abelian groups]] of the [[bordism rings]] for [[MU]], [[MFr]] and $MUFr$ (eq:UFrCobordismRing) sit in [[short exact sequences]] of this form:
 
 \[
   \label{ShortExactSequenceOfUFrBordismRings}
   0 
   \to
-  \Omega^U_{2\bullet}
+  \Omega^{\mathrm{U}}_{2n + 2}
   \overset{i}{\longrightarrow}
-  \Omega^{U,fr}_{2\bullet}
+  \Omega^{\mathrm{U},fr}_{2n + 2}
   \overset{\partial}{
     \longrightarrow
   }
-  \Omega^{fr}_{2\bullet - 1}
+  \Omega^{fr}_{2n + 1}
   \to
   0
+  \,,
+  \phantom{AAAA}
+  n \in \mathbb{N}
   \,,
 \]
 
 where $i$ is the evident inclusion, while $\partial$ is the [[boundary]] homomorphism from [above](#BoundaryMorphism). 
 
-This is stated without comment in [Conner-Floyd 66, p. 99](#ConnerFloyd66). The non-trivial part of this statement is this:
-
-+-- {: .num_prop #BoundaryOperationFromFrBordToUFrBordIsSurjective} 
-###### Proposition
-
-The boundary operation $\partial$ in (eq:ShortExactSequenceOfUFrBordismRings) is [[surjective function|surjective]], hence every bordism class of a $fr$-manifold of [[odd number|odd]] [[dimension]] is the [[boundary]] of a $(U,fr)$-manifold of [[even number|even]] dimension.
-
 =--
 
-The beginning of the argument appears inside the proof of [Conner-Floyd 66, Thm. 16.2](#ConnerFloyd66), attributed there to [[Peter Landweber]].
-The following is a complete and quick proof using the formulation (eq:BoundaryOperationViaPastingLaw) via abstract homotopy [above](#BoundaryMorphism):
+This is stated without comment in [Conner-Floyd 66, p. 99](#ConnerFloyd66).  The beginning of an argument appears inside the proof of [CF66, Thm. 16.2  (p. 100)](#ConnerFloyd66), attributed there to [[Peter Landweber]] (see Remark \ref{BoundaryOperationFromFrBordToUFrBordIsSurjective} below). The idea for how to complete the argument is a little more explicit in [Stong 68, p. 102](#Stong68).
+
+The following is the complete and quick proof using the formulation (eq:BoundaryOperationViaPastingLaw) via abstract homotopy [above](#BoundaryMorphism):
 
 +-- {: .proof}
 ###### Proof
 
-The statement follows immediately from the [[long exact sequence of homotopy groups]] of $M \mathrm{U} \to M \mathrm{U}/\mathbb{S} \overset{\partial}{\to} \Sigma \mathbb{S}$, using that $\pi_{2\bullet + 1} MU  = 0$. 
+We have the [[long exact sequence of homotopy groups]] obtained from the [[cofiber sequence]] $\mathbb{S} \overset{1^{M\mathrm{U}}}{\longrightarrow} M \mathrm{U} \to M \mathrm{U}/\mathbb{S} \overset{\partial}{\to} \Sigma \mathbb{S}$ (eq:BoundaryOperationViaPastingLaw), the relevant part of which looks as follows:
 
-We spell this out more explicitly:
+\[
+  \label{SToMULongExactSequenceOfHomotopyGroups}
+  \array{
+    \overset{
+      \mathclap{
+        \color{darkblue}
+        pure \; torsion
+      }
+    }{
+      \overbrace{
+        \pi_{2d+2}
+        \big(
+          \mathbb{S}
+        \big)
+      }
+    }
+    &
+    \overset{
+      1^{M\mathrm{U}}
+    }{
+      \longrightarrow
+    }
+    &
+    \overset{
+      \mathclap{
+        \color{darkblue}
+        free \; abelian
+      }
+    }{
+      \overbrace{
+      \pi_{2d+2}
+      \big( 
+        M\mathrm{U}
+      \big)
+      }
+    }
+    &
+    \overset{
+    }{\longrightarrow}
+    &
+    \pi_{2d+2}
+    \big(
+      M\mathrm{U}/\mathbb{S}
+    \big)
+    &
+    \overset{
+      \partial
+    }{\longrightarrow}
+    &
+    \pi_{2d+1}\big(\mathbb{S}\big)
+    &\longrightarrow&
+    \overset{
+      \color{darkblue}
+      trivial
+    }{
+      \overbrace{
+        \pi_{2d+1}\big(M\mathrm{U}\big)  
+      }
+    }
+    \\
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    &&
+    \big\downarrow{}^{\mathrlap{=}}
+    \\
+    \Omega^{fr}_{2d+2}
+    &
+    \underset{
+      \color{green}
+      0
+    }{
+      \longrightarrow
+    }
+    &
+    \Omega^{\mathrm{U}}_{2d+2}
+    &
+    \underset{
+      i
+    }{\longrightarrow}
+    &
+    \Omega^{(\mathrm{U},fr)}_{2d+2}
+    &
+    \underset{
+      \partial
+    }{\longrightarrow}
+    &   
+    \Omega^{fr}_{2d + 1}
+    &
+    \underset{
+      \color{green}
+      0
+    }{\longrightarrow}
+    &   
+    0
+  }
+\]
+
+Observing now that the [[stable homotopy groups]] of $M\mathrm{U}$ are [[free abelian groups]] concentrated in [[even number|even]] degrees (by [this theorem](MU#RelationToCobordismRing) at _[[MU]]_) it follows that:
+
+1. the rightmost morphism shown in (eq:SToMULongExactSequenceOfHomotopyGroups) is the [[zero morphism]] since its [[codomain]] is [[zero object|zero]];
+
+1. the leftmost morphism shown in (eq:SToMULongExactSequenceOfHomotopyGroups) is the [[zero morphism]], since the [[stable homotopy groups of spheres]] are all pure [[torsion groups]] in [[positive number|positive]] degrees (by the [[Serre finiteness theorem]]), and the only morphism from a torsion group to a [[free abelian group]] is the zero morphism.
+
+=--
+
++-- {: .num_remark #BoundaryOperationFromFrBordToUFrBordIsSurjective} 
+###### Remark
+
+Here is an explicit construction of a [[lift]] through the boundary map in (eq:ShortExactSequenceOfUFrBordismRings), depending on a choice of trivialization in $\pi_{2d-1}\big( M\mathrm{U}\big)$ (essentially a streamlined version of the construction in the first half of the proof of [Conner-Floyd 66, Thm. 16.2](#ConnerFloyd66)): 
 
 Let 
 
@@ -291,11 +415,11 @@ Under the [[Pontrjagin-Thom isomorphism]] between the [[framed bordism ring]] an
   0 
   \to
   &
-  \Omega^U_{\bullet+1}
+  \Omega^{\mathrm{U}}_{\bullet+1}
   &
   \overset{i}{\longrightarrow}
   &
-  \Omega^{U,fr}_{\bullet+1}
+  \Omega^{\mathrm{U},fr}_{\bullet+1}
   &
   \overset{\partial}{
     \longrightarrow
@@ -361,6 +485,10 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
 The concept of $(U,fr)$-bordism theory and its relation to the [[e-invariant]] originates with:
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 16 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+Analogous discussion for [[MOFr]] is in 
+
+* {#Stong68} [[Robert Stong]], p. 102 of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
 
 Generalization to [[manifolds with corners]] and relation to the [[f-invariant]]:
 
