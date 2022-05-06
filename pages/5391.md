@@ -25,11 +25,20 @@ The dual problem is the problem of [[lifting]] a morphism $f: Y\to B$ through an
 
 ### Extension of an object by another object 
 
-In a [[category]] $C$ with a notion of [[short exact sequence]] (e.g. any [[semiabelian category]], [[Quillen exact category]] etc.) an **extension** of an object $Q$ by an object $K$ is any object $X$ fitting in a short exact sequence
+In a [[category]] $C$ with a notion of [[short exact sequence]] (e.g. any [[semiabelian category]], [[Quillen exact category]] etc.) an **extension** of an object $Q$ by an object $K$ is any object $X$ fitting in a [[short exact sequence]] of the form
 
 $$ 
-K \stackrel{i}\to X \stackrel{p}\to Q
+  K 
+  \stackrel{i}
+  \to
+  X 
+  \stackrel{p}
+  \to 
+  Q
+  \,.
 $$
+
+See at _[[algebra extension]]_.
 
 
 Classification of extensions in many categories is obtained using a [[forgetful functor]] $C\to D$ to a simpler category $D$, which preserves short exact sequences. For example, if all extensions in $D$ are isomorphic to $K\coprod Q$, then one looks for an additional structure in $C$ needed to equip the coproduct $K \coprod Q$ with a structure of an object in $C$ such that the $i$ and $p$ are morphisms in
