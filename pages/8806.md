@@ -51,6 +51,8 @@ See at _[[Koszul-Malgrange theorem]]_.
 
   * [[holomorphic vector bundle]]
 
+  * [[complex oriented cohomology theory]]
+
 * [[real vector bundle]]
 
 * [[quaternionic vector bundle]]
