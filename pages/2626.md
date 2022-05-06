@@ -89,7 +89,7 @@ For introductions to Knot Theory,
 
  * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
-These do not, of course, handle more modern developments.
+These do not, of course, handle some of the more modern developments.
 
 Other classic sources are 
 
