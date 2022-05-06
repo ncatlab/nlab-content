@@ -102,7 +102,7 @@ A resolution was proposed in ([Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinas
 
 1. the correct bulk anomaly inflow is not just that from $I_8$ itself, but includes also a contribution from the class $G_4$ of the [[supergravity C-field]], as per (eq:FiberIntegration) below ([Monnier 13, around (3.11)](#Monnier13));
 
-1. for $G^{M5}_4$ the "restriction" of the class of the [[supergravity C-field]] to $Q_{M5}$, the term $I^{M5}_{C}$ in (eq:IM5) should have a further summand $-\tfrac{1}{2}\big( G_4^{M5} \big)^2$ ([Monnier 13, around (3.7)](#Monnier13));
+1. for $G^{M5}_4$ the "restriction" of the class of the [[supergravity C-field]] to $Q_{M5}$, the term $I^{M5}_{C}$ in (eq:IM5) should have a further summand $-\tfrac{1}{2}\big( G_4^{M5} \big)^2$ ([Monnier 13, around (3.7)](#Monnier13), using [Monnier 14b, (2.13)](#Monnier14b))
 
 1. for 11d spacetime a [[4-sphere]]-[[fiber bundle]], 
 
@@ -188,7 +188,11 @@ For further discussion see
 
 In relation to the [[quantum anomaly]] of the [[M5-brane]]:
 
+The original computation of the total M5-brane anomaly due to 
+
 * [Witten 96](#Witten96)
+
+left a remnant term of $\tfrac{1}{24} p_2$. It was argued in
 
 * {#FreedHarveyMinasianMoore98} [[Dan Freed]], [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Gravitational Anomaly Cancellation for M-Theory Fivebranes_, Adv.Theor.Math.Phys.2:601-618, 1998 ([arXiv:hep-th/9803205](https://arxiv.org/abs/hep-th/9803205))
 
@@ -196,9 +200,24 @@ In relation to the [[quantum anomaly]] of the [[M5-brane]]:
 
 * {#BilalMetzger03} [[Adel Bilal]], Steffen Metzger, _Anomaly cancellation in M-theory: a critical review_, Nucl.Phys. B675 (2003) 416-446 ([arXiv:hep-th/0307152](https://arxiv.org/abs/hep-th/0307152))
 
+that this term disappears (cancels) when properly taking into account the singularity of the [[supergravity C-field]] at the locus of the [[black brane|black]] [[M5-brane]].
+
+A more transparent version of this argument was offered in
+
 * {#Monnier13} Samuel Monnier, _Global gravitational anomaly cancellation for five-branes_, Advances in Theoretical and Mathematical Physics, Volume 19 (2015) 3 ([arXiv:1310.2250](https://arxiv.org/abs/1310.2250)) 
 
+based on a refined discussion of the quantum anomaly of the [[self-dual higher gauge field]] on the M5-brane in 
+
+
+* {#Monnier14a} Samuel Monnier, _The anomaly line bundle of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 41-72 ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
+
+* {#Monnier14b} Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_, Comm. Math. Phys. 325 (2014) 73-104 ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
+
+See also
+
 * {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+
+heory Inflow_ ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
 
 
 [[!redirects one-loop anomaly polynomial I8]]
