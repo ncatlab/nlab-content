@@ -862,4 +862,7 @@ _L'int&#233;gration locale des alg&#232;bres de Leibniz_, Thesis (2010), [pdf](h
 
 [[!redirects Lie integrations]]
 
+[[!redirects higher Lie integration]]
+[[!redirects higher Lie integrations]]
+
 category: Lie theory
