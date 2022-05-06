@@ -98,6 +98,8 @@ $$
 
 * [[Klein geometry]], [[Cartan geometry]]
 
+* [[BN-pair]]
+
 ## References
 
 See also
