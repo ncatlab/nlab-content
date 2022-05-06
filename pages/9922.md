@@ -31,7 +31,7 @@ A Lie algebra [[homomorphism]] $\mathfrak{g} \to end(V)$ to the [[endomorphism L
 ### In terms of string diagrams / Jacobi diagrams
  {#InTermsOfStringDiagrams}
 
-In [[string diagram]]-notation for [[Lie algebra objects]] [[internalization|interal]] to [[tensor categories]], the [[Lie action property]] looks as follows:
+In [[string diagram]]-notation for [[Lie algebra objects]] [[internalization|internal]] to [[tensor categories]], the [[Lie action property]] looks as follows:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/LieActionPropertyAsSTURelation.jpg" width="500">
