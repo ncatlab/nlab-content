@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[Arne Strom|Arne Strøm]] has proven that the [[category]] [[Top]] of *all* [[topological spaces]] has a structure of a Quillen [[model category]] where 
+[[Arne Strom|Arne Strøm]] proved that the [[category]] [[Top]] of *all* [[topological spaces]] has a structure of a Quillen [[model category]] where 
 
 * fibrations are [[Hurewicz fibrations]], 
 
@@ -29,9 +29,9 @@
 
   (as opposed to the [[weak homotopy equivalences]] of the "standard" [[Quillen model structure on topological spaces]]).
 
-The theorem might have been a [[folklore]] at the time, but the actual paper has a number of subtleties.
+The theorem might have been a [[folklore]] at the time, but the paper ([Strøm 1972](#Strom72)) has a number of subtleties.
 
-Str&#248;m's proofs are not that well-known today and use techniques better known to the topologists of that time, and there is consequently a slight controversy among topologists now.  One of these is that there are modern reproofs, but these modern techniques essentially use [[compactly generated spaces]], while Str&#248;m's proofs succeeded in avoiding that assumption. 
+Strøm's proofs are not that well-known today and use techniques better known to the topologists of that time, and there is consequently a slight controversy among topologists now.  One of these is that there are modern reproofs, but these modern techniques essentially use [[compactly generated spaces]], while Strøm's proofs succeeded in avoiding that assumption. 
 
 However, for many applications nowadays, one is mainly interested in the analogous model structure on the category of [[k-spaces]], or of [[compactly generated space]]s ([[weak Hausdorff space|weak Hausdorff]] [[k-spaces]]).  Note that any cofibration in the latter category is closed.
 
@@ -43,7 +43,7 @@ However, for many applications nowadays, one is mainly interested in the analogo
 +-- {: .num_prop}
 ###### Observation
 
-In the Str&#248;m model structure, _every_ object is both a [[fibrant object]] and a [[cofibrant object]].
+In the Strøm model structure, _every_ object is both a [[fibrant object]] and a [[cofibrant object]].
 
 =--
 
@@ -51,12 +51,12 @@ This is a most rare property for a non-trivial model structure.
  
 ### Monoidal structure
 
-The Str&#248;m model structure on the category of [[compactly generated spaces]] is a [[monoidal model category]].  This is proven in section 6.4 of [[A Concise Course in Algebraic Topology]] (without that language) using the fact that a subspace inclusion is a Hurewicz cofibration if and only if it is an [[NDR-pair]].
+The Strøm model structure on the category of [[compactly generated spaces]] is a [[monoidal model category]].  This is proven in section 6.4 of [[A Concise Course in Algebraic Topology]] (without that language) using the fact that a subspace inclusion is a Hurewicz cofibration if and only if it is an [[NDR-pair]].
 
 ### Quillen adjunctions
  {#QuillenAdjunctions}
 
-The identity functor $id \colon Top \to Top$ is [[Quillen adjunction|left Quillen]] from the [[Quillen model structure on topological spaces]] (or the mixed model structure) to the Str&#248;m model structure, and of course right Quillen in the other direction.  
+The identity functor $id \colon Top \to Top$ is [[Quillen adjunction|left Quillen]] from the [[Quillen model structure on topological spaces]] (or the mixed model structure) to the Strøm model structure, and of course right Quillen in the other direction.  
 
 $$
   Top_{Strom}
@@ -68,7 +68,7 @@ $$
 
 This is just the observation that any [[Hurewicz fibration]] is a [[Serre fibration]], and any [[homotopy equivalence]] is a [[weak homotopy equivalence]]---or dually, that any [[retract]] of a [[relative cell complex]] inclusion is a Hurewicz cofibration.
 
-It follows, by composition, that the ([[geometric realization]] $\dashv$ [[singular simplicial complex]])-[[adjunction]] $ {\vert-\vert} \colon sSet \leftrightarrows Top : Sing$ is a [[Quillen adjunction]] between the [[classical model structure on simplicial sets]] and the Str&#248;m model structure.
+It follows, by composition, that the ([[geometric realization]] $\dashv$ [[singular simplicial complex]])-[[adjunction]] $ {\vert-\vert} \colon sSet \leftrightarrows Top : Sing$ is a [[Quillen adjunction]] between the [[classical model structure on simplicial sets]] and the Strøm model structure.
 
 $$
   Top_{Strom}
@@ -82,7 +82,7 @@ $$
 
 ### Simplicial structure
 
-If $Top$ denotes the category of [[compactly generated space]]s, then [[geometric realization]] $ {|-|} \colon sSet \to Top$ preserves finite [[products]], and hence is a [[strong monoidal functor]].  Therefore, in this case the adjunction ${|-|} \dashv Sing$ is a [[strong monoidal Quillen adjunction]], and hence makes the Str&#248;m model structure into a [[simplicial model category]].
+If $Top$ denotes the category of [[compactly generated space]]s, then [[geometric realization]] $ {|-|} \colon sSet \to Top$ preserves finite [[products]], and hence is a [[strong monoidal functor]].  Therefore, in this case the adjunction ${|-|} \dashv Sing$ is a [[strong monoidal Quillen adjunction]], and hence makes the Strøm model structure into a [[simplicial model category]].
 
 ### Geometric realization is a Reedy cofibrant replacement
 
@@ -130,11 +130,11 @@ See [[geometric realization of simplicial topological spaces]] for more details.
 
 The main article is 
 
-* [[Arne Strøm]], _The homotopy category is a homotopy category_ , Archiv der Mathematik 23 (1972)
+* {#Strom72} [[Arne Strøm]], _The homotopy category is a homotopy category_ , Archiv der Mathematik 23 (1972)
 
 but it depends on earlier results of several authors and mostly his own earlier papers
 
-* Arne Str&#248;m, 
+* [[Arne Strøm]], 
 
   * _Note on cofibrations_,  Math. Scand.  19  1966 11--14 ([file](http://www.mscand.dk/article.php?id=1782) MR0211403 (35 #2284)); 
 
@@ -142,12 +142,12 @@ but it depends on earlier results of several authors and mostly his own earlier 
 
 One modern re-proof can be found in
 
-* [[Peter May|May]] and Sigurdsson, _Parametrized homotopy theory_
+* [[Peter May]] and Johann Sigurdsson, _Parametrized homotopy theory_
 ([web](http://www.math.uiuc.edu/K-theory/0716/))
 
 A review is in section 2 and a generalization in section 5 of
 
-* [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_ ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427))
+* [[Tobias Barthel]] and [[Emily Riehl]], _On the construction of functorial factorizations for model categories_ ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427))
  {#BarthelRiehl}
 
 [[!redirects Strøm's model category]]
