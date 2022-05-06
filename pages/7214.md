@@ -16,34 +16,74 @@
 
 ## Definition
 
-+-- {: .num_defn} 
++-- {: .num_defn #DeltaGeneratedSpace} 
 ###### Definition
-**($\Delta$-Generated space)**
+**($\Delta$-Generated spaces)**
 
-A **$\Delta$-generated space** is a [[topological space]] $X$ whose topology is the [[final structure|final topology]] induced by all [[continuous functions]] $\Delta^n_{top} \to X$, where $\Delta^n_{top}$ are the standard [[topological simplices]].
+A **$\Delta$-generated space** ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[final structure|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
+
+A [[morphism]] between $\Delta$-generated spaces is just a [[continuous function]], hence the [[category]] of $\Delta$-generated spaces is the [[full subcategory]] on these spaces inside all [[Top|TopologicalSpaces]], 
 
 =--
 
-Equivalently, the class of $\Delta$-generated spaces is the closure of the set of [[topological simplices]] $\Delta^n_{top}$ under [[small colimits]] in [[topological spaces]] (see at _[[Top]] -- [universal constructions](Top#UniversalConstructions)_).
++-- {: .num_remark} 
+###### Remark
 
+Equivalently, the [[class]] of $\Delta$-generated spaces is the closure of the set of [[topological simplices]] $\Delta^n_{top}$ under [[small colimits]] in [[topological spaces]] (see at _[[Top]] -- [universal constructions](Top#UniversalConstructions)_).
+
+=--
+
++-- {: .num_remark #AsEuclideanGeneratedSpaces} 
+###### Remark
+**(as Euclidean-generated spaces)**
+
+For each $n$ the [[topological simplex]] $\Delta^n$ is a [[retract]] of the ambient [[Euclidean space]]/[[Cartesian space]] $\mathbb{R}^n$ (as a [[inhabited|non-empty]] [[convex subset]] of a [[Euclidean space]] it is in fact an [[absolute retract]]). Hence the [[identity function]] on $\Delta^n$ factors as
+
+$$
+  id 
+  \;\colon\; 
+  \Delta^n_{top}
+  \overset{i_n}{\hookrightarrow}
+  \mathbb{R}^n
+  \overset{p_n}{\longrightarrow}
+  \Delta^n_{top}
+  \,.
+$$
+
+It follows that every [[continuous function]] $f$ with [[domain]] the [[topological simplex]] [[extension|extends]] as a [[continuous function]] to [[Euclidean space]]:
+
+$$
+  \array{
+    \Delta^m_{top}
+    &\overset{f}{\longrightarrow}&
+    X
+    \\
+    \mathllap{{}^{i_n}}\big\downarrow & \nearrow _{\mathrlap{\exists}}
+    \\
+    \mathbb{R}^n
+  }
+$$
+
+Therefore the condition that a topological space $X$ be $\Delta$-generated (Def. \ref{DeltaGeneratedSpace}) is equivalent to saying that its topology is [[final topology|final]] with respect to all continuous functions $\mathbb{R}^n \to X$ out of [[Euclidean spaces|Euclidean]]/[[Cartesian spaces]]. 
+
+We might thus equivalently speak of _Euclidean-generated spaces_.
+
+=--
 
 
 ## Properties
 
-### A nice category of topological spaces
+### As a nice category of topological spaces
 
 +-- {: .num_prop }
 ###### Proposition
 
-The category of $\Delta$-generated spaces is 
+The [[category]] of $\Delta$-generated spaces is 
+a [[convenient category of topological spaces]] in that it is:
 
-* [[coreflective subcategory|coreflective]] in [[Top]].
+* [[locally presentable category|locally presentable]],
 
-* [[locally presentable category|locally presentable]] 
-
-* [[cartesian closed]],
-
-* thus a [[nice category of spaces]],
+* [[cartesian closed]].
 
 =--
 
@@ -62,21 +102,27 @@ The category of $\Delta$-generated spaces is
 +-- {: .num_prop }
 ###### Proposition
 
-The category of $\Delta$-generated spaces carries the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] with the same generating (acyclic) cofibrations as for the [[classical model structure on topological spaces]] and such that the [[coreflective subcategory|coreflection]] (Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces}) is a [[Quillen equivalence]] to the [[classical model structure on topological spaces]].
+The category of $\Delta$-generated spaces carries the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] with the same generating (acyclic) cofibrations as for the [[classical model structure on topological spaces]] and such that the [[coreflective subcategory|coreflection]] into all [[Top|TopologicalSpaces]] (Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces}) is a [[Quillen equivalence]] to the [[classical model structure on topological spaces]].
 
 =--
 
 ([Haraguchi 13, Theorem 3.3](#Haraguchi13))
 
 
+## Related concepts
+
+* [[Euclidean-generated ∞-groupoid]]
+
 
 ## References
 
 ### General
 
-$\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a [[nice category of spaces]] for [[homotopy theory]].  An account is in
+$\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a [[nice category of spaces]] for [[homotopy theory]].  
 
-* [[Daniel Dugger]], _Notes on Delta-generated spaces_, 2003 ([web](https://pages.uoregon.edu/ddugger/delta.html), [[DuggerDeltaGenerated.pdf:file]])
+* {#Smith} [[Jeff Smith]], _A really convenient category of topological spaces_ (unpublished and possibly non-existent, according to [Dugger 03, p. 4](#Dugger03))
+
+* {#Dugger03} [[Daniel Dugger]], _Notes on Delta-generated spaces_, 2003 ([web](https://pages.uoregon.edu/ddugger/delta.html), [[DuggerDeltaGenerated.pdf:file]])
 
 A [[proof]] that the category of $\Delta$-generated spaces is [[locally presentable category|locally presentable]] is in:
 
