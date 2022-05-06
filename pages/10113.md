@@ -92,6 +92,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 ### General
 
+* Claude Amsler, _The Quark Structure of Hadrons: An Introduction to the Phenomenology and Spectroscopy_, Lecture Notes in Physics 949 ([doi:10.1007/978-3-319-98527-5](https://link.springer.com/book/10.1007/978-3-319-98527-5))
+
 See also:
 
 * Wikipedia, _[Hadron](http://en.wikipedia.org/wiki/Meson)_
