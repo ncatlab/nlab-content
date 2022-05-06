@@ -45,7 +45,8 @@ be a [[spherical fibration]] of [[topological spaces]] such that $X$ admits a [[
 
 If $n = 2k+1$ is an [[odd number]], then
 
-$$
+\[
+  \label{SullivanModelForOddDimensionalSphericalFibration}
   A_E 
   \;=\;
   A_X 
@@ -57,7 +58,7 @@ $$
   \big(
     d \omega_{2k+1} = c_{2k+2}
   \big)
-$$
+\]
 
 for some 
 
@@ -183,6 +184,18 @@ Moreover, if the [[spherical fibration]] $E \to X$ happens to be the [[unit sphe
 
 This may be found as [Félix-Halperin-Thomas 00, 15, Example 4, p. 202](#FelixHalperinThomas00), see also [Félix-Oprea-Tanré 16, Prop. 2.3](#FelixOpreaTanre16). The fiber integral (eq:FiberIntegrationOfOddGenerator) follows by [this Prop.](Euler+class#TrivializationOfEulerFormOnUnitSphereBundle).
 
++-- {: .num_remark #NonMinimalityOfSullivanModels}
+###### Remark
+
+Beware that the Sullivan models for spherical fibrations in Prop. \ref{SullivanModelForSphericalFibration} are not in general _minimal_ Sullivan models. 
+
+For example over the [[classifying space]] $B SO(8)$ of [[SO(8)]] with indecomposable [[Euler class]] generator $\chi_8$ the equation $d \omega_7 = \chi_8$ (eq:SullivanModelForOddDimensionalSphericalFibration) for the univeral 7-sperical fibration $S^7 \sslash SO(8) \to B SO(8)$ violates the Sullivan minimality condition (which requires that the right hand side is at least a binary wedge product of generators, or equivalently that the degree of the new generator $\omega_7$ is greater than that of any previous generators).
+
+But the Sullivan models in Prop. \ref{SullivanModelForSphericalFibration} are _relative_ minimal models, relative to the Sullivan model for the base.
+
+This means in particular that the new generators of these models reflect non-[[torsion subgroup|torsion]] [[relative homotopy groups]], but not in general non-torsion absolute homotopy groups.
+
+=--
 
 ### Relation to rational mapping space of spheres
 
