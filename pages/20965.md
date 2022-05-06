@@ -20,6 +20,11 @@ Review:
 
 * {#Maldacena18} [[Juan Maldacena]], _Toy models for black holes II_, talk at PiTP 2018 _From QBits to spacetime_ ([recording](https://video.ias.edu/PiTP/2018/0726-JuanMaldacena))
 
+* Dmitrii A. Trunin, _Pedagogical introduction to SYK model and 2D Dilaton Gravity_ ([arXiv:2002.12187](https://arxiv.org/abs/2002.12187))
+
+
+
+
 Relation to [[black holes in string theory]] and [[random matrix theory]]:
 
 
