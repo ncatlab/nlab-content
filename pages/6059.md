@@ -35,7 +35,7 @@ This example of [[D-brane charge]] used to be one of the main motivations for fi
 
 * [[differential K-theory]]
 
-* **twisted differential K-theory**
+* [[twisted ordinary differential cohomology]]
 
 ## References
 
