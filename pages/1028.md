@@ -87,7 +87,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-A category has equalizers if it has [[product]]s and [[pullback]]s.
+A category has equalizers if it has binary [[product]]s and [[pullback]]s.
 
 =--
 
@@ -127,7 +127,14 @@ One checks that the vertical morphism $eq(f,g) \to S$ equalizes $f$ and $g$ and 
 
 +-- {: .num_prop}
 ###### Proposition
-If a category has products and equalizers, then it has [[limits]].
+If a category has equalizers and finite products, then it has finite [[limits]].
+=--
+
+Equivalently:
+
++-- {: .num_prop}
+###### Proposition
+If a category has equalizers, binary products and a terminal object, then it has finite [[limits]].
 =--
 
 
