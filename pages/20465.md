@@ -19,7 +19,9 @@
 
 ## Idea
 
-A [[duality in string theory]]: relation between the 3d [[superconformal geometry|superconformal]] [[worldvolume]] [[quantum field theory]] on [[M5-brane]] [[wrapped brane|wrapped]] on a ([[hyperbolic 3-manifold|hyperbolic]]) [[3-manifold]] and 3d [[Chern-Simons theory]]/[[analytically continued Chern-Simons theory]]. 
+A [[duality in string theory]]: relation between the
+[[D=3 N=2 super Yang-Mills theory|D=3 N=2 SYM]]
+[[worldvolume]] [[quantum field theory]] on [[M5-brane]] [[wrapped brane|wrapped]] on a ([[hyperbolic 3-manifold|hyperbolic]]) [[3-manifold]] and 3d [[Chern-Simons theory]]/[[analytically continued Chern-Simons theory]]. 
 
 ## Properties
 
