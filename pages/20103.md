@@ -117,6 +117,9 @@ $$
 ### Splitting principle
  {#SplittingPrinciple}
 
+
+> see at [Symonds' explicit Brauer induction](Brauer+induction+theorem#SymondExplicitBrauerInduction)
+
 Let $G$ be a [[finite group]], let the [[ground field]] to be the [[complex numbers]].
 
 Then by the [[Brauer induction theorem]] every [[virtual representation]]
@@ -219,62 +222,6 @@ Here over the brace we used that the $W_i$ are 1-dimensional, so that at most th
 
 Notice that the transfer maps (eq:MultiplicativeTransfer) are multiplicative under [[cup product]] ([Evens 63, prop. 4](#Evens63)), whence [Symonds 91](#Symonds91) refers to them as the "mutliplicative transfer".
 
-**Example** 
-
-> or not, check
-
-If $[V]$ is a [[virtual representation|virtual]] [[permutation representation]], so that all the $W_i$ may be taken to be [[trivial representations]] $W_i = \mathbf{1}_{H_i} \in Rep(H_i)$ (see at _[[induced representation of the trivial representation]]_)
-then (eq:SplittingFormulaForChernCharacterOfLinearRepresentation) becomes
-
-$$ 
- ch
-  \left(
-     V
-  \right)
-  \;=\;
-  \underset{ 
-     \mathclap{
-         {H_i \hookrightarrow G} 
-     }
-   }{\prod}
-   \underset{
-     = 1
-   }{
-     \underbrace{
-       \mathcal{N}_{H_i}^G
-       \Big(
-         \underset{
-            = 1
-         }{
-           \underbrace{
-             \underset{
-               = 1
-             }{
-               \underbrace{
-                 c(\mathbf{1})
-               }
-             }^{\alpha(W_i)}
-           }
-         }
-       \Big)
-     }
-   }
-   \;=\;
-   \pm 1
-  \,,
-$$
-
-where under the braces we used, succesively
-
-1. that the [[total Chern class]] of the trivial rank-1 bundle is 1;
-
-1. that any power of 1 is 1
-
-1. that the transfer $\mathcal{N}_H^G$ is multiplicative, hence sends the idempotent 1 to an idempotent (see also [Evens 63, Remark 1 on p. 10](#Evens63)) which in $H^0(B G, \mathbb{Z}) \simeq \mathbb{Z}$ must be $1$
-
-and finally again that any power of 1 is 1.
-
-(...)
 
 
 
