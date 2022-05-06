@@ -42,11 +42,11 @@ The [[fuzzy spheres]] appear in [[D-brane geometry]]:
 
 * Chien-Hao Liu, _Azumaya noncommutative geometry and D-branes - an origin of the master nature of D-branes_ ([arXiv:1112.4317](http://arxiv.org/abs/1112.4317))
 
-With emphasis on the [[IKKT matrix model]]:
+With emphasis on the [[IKKT matrix model]] and the [[noncommutative geometry]] of [[fuzzy spheres]]:
 
 * {#Steinacker10} [[Harold Steinacker]], _Emergent Geometry and Gravity from Matrix Models: an Introduction_, Class. Quant. Grav.27: 133001, 2010 ([arXiv:1003.4134](https://arxiv.org/abs/1003.4134))
 
-with further emphasis on [[noncommutative geometry]] ([[fuzzy spheres]]):
-
 * [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
+
+* {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
