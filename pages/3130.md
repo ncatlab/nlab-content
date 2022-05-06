@@ -272,6 +272,12 @@ The observation putting this into the general context of [[differential cohomolo
 based on [Bunke-Gepner 13](#BunkeGepner13).
 
 
+The Chern-Dold character in [[equivariant cohomology]]:
+
+* [[Wolfgang Lück]], _Chern characters for proper equivariant homology theories and applications to K- and L-theory_, Journal für die reine und angewandte Mathematik, Volume 2002: Issue 543 ([doi:10.1515/crll.2002.015](https://doi.org/10.1515/crll.2002.015), [pdf](https://www.him.uni-bonn.de/lueck/data/eh.pdf))
+
+* [[Wolfgang Lück]], _Equivariant Chern characters_, 2006 ([pdf](https://www.him.uni-bonn.de/lueck/data/goettingen_equi_Chern061130trans.pdf), [[LuckEquivariantChernCharacters.pdf:file]])
+
 
 
 
