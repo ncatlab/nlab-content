@@ -57,3 +57,8 @@ The theory and its relation to [[Yangians]] and [[integrable system|integrable]]
 Discussion of realizations of semi-holomorphic 4d Chern-Simons theory as the [[worldvolume]] theory of [[intersecting brane|intersecting]] [[D-brane]]/[[NS5-brane]] models
 
 * [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], Qin Zhao, _Branes and Categorifying Integrable Lattice Models_ ([arXiv:1806.02821](https://arxiv.org/abs/1806.02821))
+
+and further relating to the [[quantum geometric Langlands correspondence]]:
+
+* [[Meer Ashwinkumar]], [[Meng-Chwan Tan]], _Unifying Lattice Models, Links and Quantum Geometric Langlands via Branes in String Theory_ ([arXiv:1910.01134](https://arxiv.org/abs/1910.01134))
+
