@@ -366,7 +366,6 @@ For $C$ a [[locally cartesian closed category]] $C$, it becomes a model for [[de
 
 =--
 
-
 +-- {: .num_remark}
 ###### Remark
 
@@ -376,8 +375,8 @@ Given $E\to C$, one construction due to [[Benabou]] (called the "right adjoint s
 
 A different construction (due to [[John Power]], called the "left adjoint splitting") defines an object of $E'$ over $\Gamma\in C$ to consist of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), and it was proven by [Lumsdaine and Warren](#LumsdaineWarren13) that essentially all type formers can be extended to it from $E$.
 
-
 =--
+
 
 ### Universes
 
@@ -402,6 +401,81 @@ Define the functor $E\to C^I$ to take $(\Gamma,A)$ to the projection $\Gamma\tim
 
 The dependent type theory which results from this structure "has no nontrivial dependency".  That is, whenever we have a dependent type $\Gamma \vdash (A \;type)$, it is already the case that $A$ is a type in the empty context (that is, we have $\vdash (A\; type)$), and so it cannot depend nontrivially on $\Gamma$.  In effect, it is not really a dependent type theory, but a *simple* (non-dependent) type theory --- hence the name "simple fibration".
 
+
+### The big model of locally cartesian closed categories
+
++-- {: .num_example #BigModelLocallyCartesianClosed}
+###### Example
+
+Ignoring coherence issues, the CwF induced by a locally cartesian closed (lcc) category $\mathcal{C}$ (example \ref{TypeTheoryModelFromLocallyCartesianClosedCategory}) is given explicitly by the "Explicit" column of the following table:
+
+|                   | In $\mathcal{C}$: Explicit                                                             | In terms of slices of $\mathcal{C}$                                                                                | Big model                                                                         |
+| ----------------- |----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| Contexts          | Objects $\Gamma \in \mathcal{C}$                                     | Slice categories $\mathcal{C}_{/ \Gamma}$                                                         | Lcc categories $\Gamma$                                                           |
+| Context Morphisms | Morphisms $f : \Gamma \rightarrow \Delta$                            | Lcc functors $f^* : \mathcal{C}_{/ \Delta} \rightarrow \mathcal{C}_{/ \Gamma}$ over $\mathcal{C}$ | Lcc functors $f : \Delta \rightarrow \Gamma$                                      |
+| Types             | Morphisms $\sigma : \operatorname{dom} \sigma \rightarrow \Gamma$    | Objects $\sigma \in \mathcal{C}_{/ \Gamma}$                                                       | Objects $\sigma \in \Gamma$                                                       |
+| Terms             | Sections $s : \Gamma \leftrightarrows \operatorname{dom} \sigma : \sigma$ | Morphisms $s : \mathrm{id}_\sigma \rightarrow \sigma$ in $\mathcal{C}_{/ \Gamma}$                 | Morphisms $s : 1 \rightarrow \sigma$ in $\Gamma$, where $1$ is a terminal object. |
+| Substitution      | Pullback along $f$                                                   | Application of $f^*$                                                                              | Application of $f$
+
+The next column describes the same CwF in the terminology of slice categories:
+Every object of $\mathcal{C}$ corresponds to a slice category $\mathcal{C}_{/ \Gamma}$ over $\mathcal{C}$, and $\mathcal{C}_{/ \Gamma}$ is also lcc.
+Every morphism $f : \Gamma \rightarrow \Delta$ in $\mathcal{C}$ induces a pullback functor $f^* : \mathcal{C}_{/ \Delta} \rightarrow \mathcal{C}_{/ \Gamma}$.
+$f^*$ preserves the finite limits and dependent products of $\mathcal{C}_{/ \Delta}$ (i.e. it is an lcc functor), and the diagram
+$$
+  \array{
+    && \mathcal{C}
+    \\
+    & {}_{\Delta^*} \swarrow && \searrow_{\Gamma^*}
+    \\
+    \mathcal{C}_{/ \Delta} && \stackrel{\to}{f^*} && \mathcal{C}_{/ \Gamma}
+}
+$$
+commutes (up to unique isomorphism).
+Conversely, every lcc functor $\mathcal{C}_{/ \Delta} \rightarrow \mathcal{C}_{/ \Gamma}$ under $\mathcal{C}$ is uniquely isomorphic to the pullback functor along some morphism $\Gamma \rightarrow \Delta$.
+
+The last column describes the **big model** of type theory in the opposite category of lcc categories and lcc functors.
+Since the contexts of this model are itself models of type theory, it can be understood as a "model of models".
+The definition of the big model can be arrived at by removing all reference to the fixed lcc category $\mathcal{C}$ in the previous column.
+Instead of just the slice categories of $\mathcal{C}$, now all lcc categories are allowed as contexts.
+Context morphisms are generalized to general lcc functors instead of just the pullback functors of $\mathcal{C}$.
+The identity morphism on an object $\Gamma$ of $\mathcal{C}$ is a terminal object in the slice category $\mathcal{C}_{/ \Gamma}$ and is thus generalized to a terminal object in any lcc category.
+
+The usual model in a fixed lcc category $\mathcal{C}$ can be recovered from the big model by slicing:
+The contextual core (example \ref{ContextualFromAttributes}) of the slice of the big model over $\mathcal{C}$ is equivalent to $\mathcal{C}$.
+
+However, the naive definition of the big model above suffers from the same coherence issues as the standard models in individual lcc categories:
+Lcc functors preserve lcc structure (i.e. type formers) up to isomorphism, but not necessarily up to equality.
+These coherence problems can be resolved by working with a suitable model categorical presentation of the $(2, 1)$-category of lcc categories, lcc functors and natural isomorphisms.
+Note that the [[model category]] presenting a higher category is unique up to zick-zack of Quillen equivalences, but that the underlying 1-categories of these model categories can vary non-trivially.
+Because coherence issues are ultimately about equations in the underlying 1-category, we can thus hope that some model categories presenting the category of lcc categories will be better behaved than others for our purpose.
+
+One possible way to construct such a well-behaved model category is as follows (see ([Bidlingmaier 2020](#Bidlingmaier20)) for details):
+
+1. First one defines a model category $\mathrm{Lcc}$ of lcc sketches.
+   An **lcc sketch** is a category with some diagrams [marked](#Isaev2016) as finite limits cones and evalution maps of dependent products.
+   These marked diagrams do not need to satisfy the corresponding universal property, however.
+   The model category structure is set up such that every object is cofibrant, and the fibrant objects are precisely the lcc categories with diagrams marked if and only if they satisfy the corresponding universal property.
+   Thus the subcategory of fibrant objects of $\mathrm{Lcc}$ corresponds to the usual category of lcc categories.
+   Note however, that lcc categories in the sense of fibrant lcc sketches "have" finite limits and dependent products in the sense that these universal objects _merely exist_; there are no distinguished/assigned choices of universal objects.
+   Thus preservation of universal objects by functors up to equality (i.e. strictness of substitution) cannot even be stated in $\mathrm{Lcc}$.
+2. The model category $\mathrm{sLcc}$ of **strict lcc categories** is defined as the category of [[algebraically fibrant objects]] of $\mathrm{Lcc}$; it is Quillen equivalent to $\mathrm{Lcc}$.
+   Assigned lifts against the trivial cofibrations of $\mathrm{Lcc}$ correspond to distinguished choices of universal objects, and these choices are preserved by the morphisms of $\mathrm{sLcc}$, the **strict lcc functors**.
+   Thus $\mathrm{sLcc}$ supports substitutions that preserve type formers up to equality.
+
+   However, it does not support some dependent type formers in any obvious way, notably not $\Sigma$ and $\Pi$ types.
+   The problem is that the context extension $\Gamma.\sigma$ of some $\Gamma \in \operatorname{Ob} \mathrm{sLcc}$ by a type (i.e. object) $\sigma$ of $\Gamma$ is given by freely (in the 1-categorical sense) adjoining a morphism $1 \rightarrow \sigma$ to $\Gamma$.
+   To interpret $\Sigma$ and $\Pi$ types, one has to relate $\Gamma.\sigma$ with the slice category $\Gamma_{/ \sigma}$ in some way, and it appears that this is not generally possible.
+   Note that $\Gamma_{/ \sigma}$ has the universal property of a context extension in the higher/bicategorical sense, but that $\Gamma.\sigma$ is defined purely 1-categorically.
+3. To reconcile context extensions $\Gamma.\sigma$ with slice categories $\Gamma_{/ \sigma}$, one can work with the [algebraically cofibrant objects](#ChingRiehl2014) of $\mathrm{sLcc}$.
+   An algebraically cofibrant object of $\mathrm{sLcc}$ is a coalgebra for a fixed cofibrant replacement comonad.
+   The category of such coalgebras has model category structure, and this model category is again Quillen equivalent to $\mathrm{sLcc}$.
+
+   A cofibrant object $\Gamma$ of $\mathrm{sLcc}$ has the property that every non-strict lcc functor (i.e. morphism of underlying lcc sketches) out of $\Gamma$ is isomorphic to a strict lcc functor.
+   This property turns out to be sufficient to construct a weak equivalence $\Gamma.\sigma \rightarrow \Gamma_{/ \sigma}$ in $\mathrm{sLcc}$.
+   For _algebraically_ cofibrant $\Gamma$, this weak equivalence is structure and hence preserved by coalgebra morphisms up to equality.
+   This turns out to be sufficient to endow the category of algebraically cofibrant objects of $\mathrm{sLcc}$ with CwF structure that supports finite limit, $\Sigma$ and $\Pi$ type constructors.
+
+=--
 
 ## Related pages
 
@@ -522,9 +596,11 @@ Recent work on abstract definitions of (models of) type theory include:
 
 A category with families structure is constructed on the $(2,1)$-category of all locally cartesian closed categories, which since locally presentable may be treated via model categories, in:
 
-* Martin Bidlingmaier, _An interpretation of dependent type theory in a model category of locally cartesian closed categories_, ([arXiv:2007.02900](https://arxiv.org/abs/2007.02900))
+* {#Bidlingmaier20} Martin Bidlingmaier, _An interpretation of dependent type theory in a model category of locally cartesian closed categories_, ([arXiv:2007.02900](https://arxiv.org/abs/2007.02900))
 
- 
+* {#ChingRiehl2014} Michael Ching, Emily Riehl, _Coalgebraic models for combinatorial model categories_ [arXiv:1403.5303](https://arxiv.org/abs/1403.5303) 
+
+* {#Isaev2016} Valery Isaev, _Model category of marked objects_ [arXiv:1610.08459](https://arxiv.org/abs/1610.08459)
 
 
 
