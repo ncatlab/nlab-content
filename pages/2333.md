@@ -106,7 +106,7 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * {#Jacobs} [[Bart Jacobs]], _Duality for convexity_ [arXiv/0911.3834](http://arxiv.org/abs/0911.3834)
 
-* {#Sturtz} Kirk Sturtz, _The factorization of the Giry monad and Convex Spaces_ [arXiv/1707.00488] (https://arxiv.org/abs/1707.00488)
+* {#Sturtz} Kirk Sturtz, _The factorization of the Giry monad,  Advances in Mathematics, Vol. 340, Dec. 2018, pp 76--105.
 
 * Shiri Artstein-Avidan, Vitali Milman, _The concept of duality in convex analysis, and the characterization of the Legendre transform_, Annals of Math. __169__, n.2, 661-674 (2009) 
 
