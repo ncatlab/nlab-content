@@ -105,7 +105,7 @@ The original idea is advertised in
 
 and has been re-emphasized in various forms in the writing of [[William Lawvere]], notably:
 
-* {#Lawvere03} [[William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, [Categories Mailing List](https://www.mta.ca/~cat-dist/), March 2003, ([gmane archive](http://permalink.gmane.org/gmane.science.mathematics.categories/2228)).
+* {#Lawvere03} [[William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, [Categories Mailing List](https://www.mta.ca/~cat-dist/), March 2003, ([cat-dist:03-3](https://www.mta.ca/~cat-dist/archive/2003/03-3)).
 
 * {#Lawvere16} [[William Lawvere]], email to [[Adeel Khan]], March 2016 ([web excerpt](https://nforum.ncatlab.org/discussion/7521/functorial-geometry/?Focus=69419#Comment_69419))
 
