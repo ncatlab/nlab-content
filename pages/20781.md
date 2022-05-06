@@ -1,3 +1,5 @@
+_This article is on prisms as a geometric shape. A different sense of 'prism' is studied in [[prismatic cohomology]]._ 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
