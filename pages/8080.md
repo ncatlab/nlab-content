@@ -72,3 +72,7 @@ Closed duals play a central role in [[six operations]] yoga, notably in
 [[!redirects dual in a closed category]]
 [[!redirects duals in a closed category]]
 [[!redirects duals in closed categories]]
+
+[[!redirects algebraic dual]]
+[[!redirects algebraic duals]]
+
