@@ -41,7 +41,7 @@ When combined with the result that $Imm^f(S^k,\mathbb{R}^{n+k}) \to Map(S^k, V_k
 
 * [[John Francis]], _The h-principle, lectures 1 and 2: overview_, ([pdf](https://sites.math.northwestern.edu/~jnkf/classes/hprin/1overview.pdf))
 
-* Konrad Voelkel and Helene Sigloch, _Homotopy sheaves and h-principles_, ([pdf](https://www.konradvoelkel.com/wp-content/uploads/homotopy-sheaves.pdf))
+* [[Konrad Voelkel]], Helene Sigloch, _Homotopy sheaves and h-principles_, ([pdf](https://www.konradvoelkel.com/wp-content/uploads/homotopy-sheaves.pdf))
 
 * {#Laudenbach17} Francois Laudenbach, _René Thom and an anticipated h-principle_, ([arXiv:1703.08108](https://arxiv.org/abs/1703.08108))
 
