@@ -228,7 +228,7 @@ $$
      \\
      && \downarrow && \downarrow && \downarrow 
      \\
-     0 &\to& \frac{A_{n-1}}{im(d)(A_n)} &\to& \frac{B_{n-1}}{im(d)(B_n)} &\to & \frac{C_{n-1}}{im(d)(C_n)} &\to & 0 
+     && \frac{A_{n-1}}{im(d)(A_n)} &\to& \frac{B_{n-1}}{im(d)(B_n)} &\to & \frac{C_{n-1}}{im(d)(C_n)} &\to & 0 
      \\
      && \downarrow && \downarrow && \downarrow 
      \\
