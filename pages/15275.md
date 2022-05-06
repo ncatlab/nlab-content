@@ -113,7 +113,7 @@ Original articles include
 * {#KashaevTirkkonen99} [[Rinat Kashaev]], O. Tirkkonen, _Proof of the volume conjecture for torus knots_, Journal of Mathematical Sciences (2003) 115: 2033 ([arXiv:math/9912210](http://arxiv.org/abs/math/9912210))
 
 
-* {#MurakamiMurakami01} [[Hitoshi Murakami]] and [[Jun Murakami]], _The Colored Jones Polynomial And The Simplicial Volume Of A Knot_, Acta Math. 186 (2001) 85-104.
+* {#MurakamiMurakami01} [[Hitoshi Murakami]], [[Jun Murakami]], _The Colored Jones Polynomial And The Simplicial Volume Of A Knot_, Acta Math. 186 (2001) 85-104 ([euclid.acta/1485891370](https://projecteuclid.org/euclid.acta/1485891370))
 
 * {#MMOTY02} [[Hitoshi Murakami]], [[Jun Murakami]], M. Okamoto, T. Takata, and Y. Yokota, _Kashaev's Conjecture And The Chern-Simons Invariants Of Knots And Links_, Experiment. Math. 11 (2002) 427-435 ([arXiv:math/0203119](https://arxiv.org/abs/math/0203119))
 
