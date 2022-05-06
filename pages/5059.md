@@ -1214,25 +1214,25 @@ Discussion including also the [[RR-field]] background includes
 ### Relation to AdS-CFT
  {#ReferencesRelationToAdSCFT}
 
-The emergence of [[conformal field theory]] in the perturbations of the [[super-membrane]] around a classical solution stretched along the asymptotic boundary of [[anti de Sitter spacetime]] is due to 
+The emergence of [[conformal field theory]] in the perturbations of the [[super-membrane]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]] is due to 
 
 * {#DuffSutton88} [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire:268230](http://inspirehep.net/record/268230?ln=en))
 
 predating the modern formulation of the [[AdS-CFT correspondence]]. The relation was amplified in 
 
-* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int.J.Mod.Phys.A14:815-844,1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int. J. Mod. Phys. A14:815-844, 1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
 
 Further discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce -- after restricting to small fluctuations about a background solution and after [[diffeomorphism]] [[gauge fixing]] -- superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
 
 for the [[M2-brane]]:
 
-* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys. B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
-* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_, Talk given by D.S. at the International Workshop ``Supersymmetry and Quantum Symmetries'', JINR, Dubna, Russia, July 26-31, 1999 ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
+* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_, Talk given by D.S. at the International Workshop "Supersymmetry and Quantum Symmetries", JINR, Dubna, Russia, July 26-31, 1999 ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
 
 for the [[M5-brane]]:
 
-* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
+* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
 
 and more generally:
 
@@ -1287,9 +1287,9 @@ The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Carta
 
 Discussion from the point of view of [[D'Auria-Fré formulation of supergravity]] is in
 
-* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194,1999, ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys. B542:157-194,1999, ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
-* {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl.Phys.B763:1-34,2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
+* {#FreGrassi07} [[Pietro Fré]], [[Pietro Antonio Grassi]], _Pure Spinors, Free Differential Algebras, and the Supermembrane_, Nucl. Phys. B763:1-34,2007 ([arXiv:hep-th/0606171](http://arxiv.org/abs/hep-th/0606171))
 
 
 ### Open branes ending on other branes
@@ -1298,7 +1298,7 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 
 * C.S. Chu, [[Ergin Sezgin]], _M-Fivebrane from the Open Supermembrane_,  JHEP 9712 (1997) 001 ([arXiv:hep-th/9710223](http://arxiv.org/abs/hep-th/9710223))
 
-* Ph. Brax, J. Mourad, _Open Supermembranes Coupled to M-Theory Five-Branes_, Phys.Lett. B416 (1998) 295-302 ([arXiv:hep-th/9707246](http://arxiv.org/abs/hep-th/9707246))
+* Ph. Brax, J. Mourad, _Open Supermembranes Coupled to M-Theory Five-Branes_, Phys. Lett. B416 (1998) 295-302 ([arXiv:hep-th/9707246](http://arxiv.org/abs/hep-th/9707246))
 
 
 
