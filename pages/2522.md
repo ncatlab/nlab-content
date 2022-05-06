@@ -1054,7 +1054,7 @@ More mathematical accounts:
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 3.1 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004 ([doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011))
 
 
-* C. Carmeli, L. Caston, R. Fioresi, _Mathematical foundation of supersymmetry_, with an appendix by I. Dimitrov, EMS Series of Lectures in Mathematics (European Mathematical Society, Zurich, 2011)
+* C. Carmeli, L. Caston, R. Fioresi, _Mathematical foundation of supersymmetry_, with an appendix by I. Dimitrov, EMS Series of Lectures in Mathematics (European Mathematical Society, Zurich, 2011) ([arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
 
 * {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS (1999)
 
