@@ -194,7 +194,7 @@ The above Def. \ref{ConfigurationSpacesOfnPoints} is less general but possibly m
   Notice here that when $Y$ happens to have [[empty space|empty]] [[boundary]], $\partial Y = \emptyset$, then the [[pushout]] 
 
 $$
-  X / \partial Y \coloneqq Y \underset{\partial Y}{\sqcup} \ast
+  Y / \partial Y \coloneqq Y \underset{\partial Y}{\sqcup} \ast
 $$
  
 is $Y$ with a [disjoint basepoint attached](pointed+topological+space#ForgettingAndAdjoiningBasepoints). Notably for $Y =\ast$ the [[point space]], we have that 
@@ -343,4 +343,4 @@ Further generalization and interpretation in terms of the [[Goodwillie-Taylor to
 * {#Ching05} [[Michael Ching]], _Calculus of Functors and Configuration Spaces_, Conference on Pure and Applied Topology Isle of Skye, Scotland, 21-25 June, 2005 ([pdf](https://www3.amherst.edu/~mching/Work/skye.pdf))
 
 
-[[!redirects stable splitting of mapping spaces]]
+[[!redirects stable splittings of mapping spaces]]
