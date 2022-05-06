@@ -42,7 +42,7 @@ Thus by making our lab book public, we hope that casual passers-by will stop, re
 
 There are three things to say about this that are worth making very clear.
 
-1. Our reasons for having the $n$Lab are ultimately selfish.  We have set it up and run it to make it easier to our research.
+1. Our reasons for having the $n$Lab are ultimately selfish.  We have set it up and run it to make it easier for us to do our research.
 2. But to make it _work_ properly in public, we need to make it attractive to others so that they will stop by, read our jottings, and scribble something of their own.
 3. We aim to achieve a system whereby those who put most in are also those who get most out.
 
@@ -91,7 +91,7 @@ Many entries are [stubs](http://en.wikipedia.org/wiki/Wikipedia:Stub)!
 
 **If you find yourself annoyed by the state any given entry is in**, for whatever reason, please feel encouraged to edit it in order to improve the situation. 
 
-**Notice**: an entry being in a pitiful state is usually more a sign of nobody having spared the time and energy to work on it, than of our joint incompetence to write a decent entry if we were being paid for doing it. So if you find your eyebrows raised by some entry, don't turn away to be the next one _not_ to work on it. Instead, improve it. We all do this voluntarily. We all have other duties to look after. So don't be annoyed with "us", help us.
+**Notice**: an entry being in a pitiful state is usually more a sign of nobody having spared the time and energy to work on it, than of our joint incompetence to write a decent entry if we were being paid for doing it. So if you find your eyebrows raised by some entry, don't turn away to be the next one _not_ to work on it. Instead, improve it. We all do this voluntarily. Most of us have other duties to attend. So don't be annoyed with "us", help us.
 
 So if you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add a new paragraph, headed by a suitable headline. **Be bold**: The $n$Lab will be the better the more people decide to contribute to it.
 
