@@ -401,6 +401,10 @@ is in the wiki
 
 * _[UF-IAS-2012](http://uf-ias-2012.wikispaces.com/)_ .
 
+A FAQ of sorts, with tips for those getting started in the field, is being maintained at
+
+* _[What I wish I knew when learning HoTT](https://abooij.github.io/wiwikwlhott/)_.
+
 
 ### Models and categorical semantics
 
