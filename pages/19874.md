@@ -61,6 +61,9 @@ Leptoquark [[effective field theory]]:
 
 * Valerio Gherardi, David Marzocca, Elena Venturini, _Matching scalar leptoquarks to the SMEFT at one loop_ ([arXiv:2003.12525](https://arxiv.org/abs/2003.12525))
 
+* [[Andreas Crivellin]], Christoph Greub, Dario Müller, Francesco Saturnino, _Scalar Leptoquarks in Leptonic Processes_ ([arXiv:2010.06593](https://arxiv.org/abs/2010.06593))
+
+
 
 See also 
 
