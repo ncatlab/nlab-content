@@ -121,7 +121,7 @@ it is argued that quantum mechanics cannot be a complete description of fundamen
 
 the contrary is argued. In
 
-* {#Bohr49} [[Nils Bohr]]  _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
+* {#Bohr49} [[Nils Bohr]], _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
  
 
 is the famous assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms".
