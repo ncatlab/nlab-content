@@ -2,12 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
+=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -16,6 +21,12 @@
 ## Idea
 
 The [[physics]] of [[solid]] condensed [[matter]] (made of [[fermions]], due to the [[Pauli exclusion principle]]), also _[[continuum mechanics]]_.
+
+## Properties
+
+### Topological phases of matter
+
+See at _[[K-theory classification of topological phases of matter]]_.
 
 ## Related concepts
 
