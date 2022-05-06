@@ -18,7 +18,7 @@
 
 ## Idea
 
-The [[Thom spectrum]] for stable [[Sp(n)]]-[[G-structure|structure]], [[Brown representability theorem|representing]] what is called "symplectic" or "quaternionic" [[cobordism cohomology theory]].
+By $MSp$ one denotes the [[Thom spectrum]] for stable [[Sp(n)]]-[[G-structure|structure]], [[Brown representability theorem|representing]] what is called "symplectic" or "quaternionic" [[cobordism cohomology theory]]. The coefficient ring is, accordingly, the "quaternionic"/"symplectic" [[bordism ring]], usually denoted $\Omega^{Sp}_\bullet$.
 
 ## Related entries
 
@@ -48,6 +48,9 @@ Vol. 86, No. 1 (1964), pp. 1-16 ([jstor:2373032](https://www.jstor.org/stable/23
 
 * [[Stanley Kochman]], _The symplectic cobordism ring II_, Memoirs of the American Mathematical Society 1982 
 Volume 40, Number 271 ([doi:10.1090/memo/0271](http://dx.doi.org/10.1090/memo/0271))
+
+* [[Andrew Baker]], _Some chromatic phenomena in the homotopy of $MSp$_, in: N. Ray, G. Walker (eds.), _Adams Memorial Symposium on Algebraic Topology, Vol. 2_ editors, Cambridge University Press (1992), 263–80 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/bpmsp.pdf), [[BakerMSp.pdf:file]])
+
 
 * {#GorbunovRay92} [[Vassily Gorbunov]], [[Nigel Ray]], _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]], [doi: 10.2977/prims/1195168855](https://www.ems-ph.org/journals/show_abstract.php?issn=0034-5318&vol=28&iss=1&rank=4))
 
