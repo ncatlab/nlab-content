@@ -211,9 +211,15 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 * Of course, [[Ab]] is abelian, 
 
-* the [[category of modules]] over any [[ring]] is abelian
+* the [[category of modules|category $R$Mod of (left) modules]] over any [[ring]] $R$ is abelian
 
-* Therefore in particular the category [[Vect]] of vector spaces is an abelian category
+* Therefore in particular the category [[Vect]] of vector spaces over any field is an abelian category
+
+* The full subcategory of $R$Mod whose objects are the Noetherian left $R$-modules is abelian, since it contains any submodule or quotient module of any of its objects (see Theorem 2.3.8 p.103 of Berrick and Keating in the textbook references below).
+
+* Similarly, the full subcategory of $R$Mod whose objects are the Artinian left $R$-modules is abelian, since it contains any submodule or quotient module of any of its objects (loc. cit.).
+
+* Also similarly, the full subcategory of $R$Mod whose objects are the Artinian semisimple modules is abelian, since it contains any submodule or quotient module of any of its objects (loc. cit.) . 
 
 * as is the [[category of representations]] of a [[group]] (e.g. [here](https://unapologetic.wordpress.com/2008/12/15/the-category-of-representations-is-abelian/))
 
@@ -257,6 +263,8 @@ Other classic references, now available online, include:
   
 
 Textbook accounts include
+
+* A.J. Berrick and M.E. Keating, Categories and Modules, with K-theory in View, Cambridge studies in advanced mathematics Vol 67, Cambridge University Press 2000.
 
 * [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
 
