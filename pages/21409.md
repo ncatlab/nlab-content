@@ -17,6 +17,11 @@
 
 * [[Kaluza-Klein theory]]
 
+## Related concepts
+
+* [[Randall-Sundrum model]]
+
+
 ## References
 
 * [[Paul Wesson]], _Space-Time-Matter: Modern Kaluza-Klein Theory_, World Scientific 1989 ([doi:10.1142/3889](https://doi.org/10.1142/3889))
