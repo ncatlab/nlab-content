@@ -79,6 +79,8 @@ Condition 4 is a straightforward reformulation of condition 3.
 
 =--
 
+For a more detailed discussion, see [Blechschmidt](#Blechschmidt18).
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -112,6 +114,12 @@ Flabby sheaves were probably first studied in [[Tohoku]], where flabby [[resolut
 * [[Günter Tamme]], section I 3.5 of _[[Introduction to Étale Cohomology]]_
 * [wikipedia](https://en.wikipedia.org/wiki/Injective_sheaf#Flasque_or_flabby_sheaves)
 * [EOM](https://www.encyclopediaofmath.org/index.php/Flabby_sheaf)
+
+Recent work relating flabby sheaves to the internal logic of a topos include:
+
+* {#Blechschmidt18} [[Ingo Blechschmidt]], *Flabby and injective objects in toposes*, [arXiv:1810.12708](https://arxiv.org/abs/1810.12708)
+
+* {#Escardo19} [[Martin Escardo]], *Injectives types in univalent mathematics*, [arxiv:1903.01211](https://arxiv.org/abs/1903.01211)
 
 category: sheaf theory
 
