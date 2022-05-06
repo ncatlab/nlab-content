@@ -66,8 +66,9 @@ Let $\mathcal{E}$ be a [[Grothendieck topos]]. Then $Mod_{\mathbb{K}}(\mathcal{E
 The [[classifying topos]] $Set[\mathbb{K}]$ is the presheaf topos on the opposite of the category of finitely presentable categories in $Set$.
 =--
 
-This follows from the fact that the classifying toposes of [[cartesian theory|cartesian theories]] are generally given as the presheaf toposes on the opposite of the category of finitely presentable models in $Set$ (cf. Johnstone [2002](#J02), p.891). The proposition holds more generally with $Set$ replaced by an arbitrary topos $\mathcal{E}$ with a [[natural numbers object]] (cf. Johnstone-Wraith [1978](#JW78), p.226).$\qed$
+This follows from the fact that the classifying toposes of [[cartesian theory|cartesian theories]] are generally given as the presheaf toposes on the opposite of the category of finitely presentable models in $Set$ (cf. Johnstone [2002](#J02), p.891).[^diss] The proposition holds more generally with $Set$ replaced by an arbitrary topos $\mathcal{E}$ with a [[natural numbers object]] (cf. Johnstone-Wraith [1978](#JW78), p.226).$\qed$
 
+[^diss]: Apparently $Set[\mathbb{K}]$ made its first appearance in Johnstone's 1974 Cambridge dissertation on "Internal category Theory" (cf. Tierney [1976](#Tierney76)). 
 
 ## Some related theories
 
@@ -147,10 +148,10 @@ d_0(f_1)=d_0(f_2)\wedge d_1(f_1)=d_1(f_2)\vdash \exists f_3\exists f_4\big (C(f_
 
 * {#JW78}[[Peter Johnstone]], [[Gavin Wraith]], _Algebraic Theories in Toposes_ , pp.141-242 in Johnstone, Paré (eds.), _Indexed Categories and Their Applications_ , Springer LNM **661** Heidelberg 1978.
 
-* {#Law63}F. W. Lawvere, _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
+* {#Law63}[[F. W. Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
 
-* {#Law66}F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
+* {#Law66}[[F. W. Lawvere]], _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
 
-
+* {#Tierney76}[[Miles Tierney]], _Forcing Topologies and Classifying Toposes_ , pp.211-219 in Heller, Tierney (eds.), _Algebra, Topology and Category Theory_  , Academic Press New York 1976.
 
 
