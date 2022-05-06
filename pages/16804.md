@@ -23,7 +23,7 @@
 ## Idea
  {#Idea}
 
-A _chord diagram_ is a trivalent undirected [[graph]] with an embedded [[orientation|oriented]] [[circle]] and all [[vertices]] on that circle. 
+A _chord diagram_ is a trivalent undirected [[graph]] with an embedded [[orientation|oriented]] [[circle]] and all [[vertices]] on that circle, regarded modulo cyclic identifications, if any. 
 
 A typical chord diagram looks like this:
 
@@ -33,7 +33,7 @@ A typical chord diagram looks like this:
 
 Chord diagrams are a basic object of study in [[combinatorics]] with remarkably many applications in [[mathematics]] and [[physics]], notably in [[knot theory]] and [[Chern-Simons theory]].
 
-
+If also (trivalent) internal vertices are considered, one speaks of _[[Jacobi diagrams]]_.
 
 
 ## Definitions
@@ -153,7 +153,7 @@ Given a [[horizontal chord diagram]] on $n$ strands and given any choice of [[cy
 The following graphics shows basic examples of the trace operation for [[cyclic permutation]] of strands one step to the right:
 
 <center>
-<img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagramsExamplesI.jpg" width="800">
+<img src="https://ncatlab.org/nlab/files/TracingHorizontalChordDiagramsExamplesI.jpg" width="700">
 </center>
 
 This defines a [[function]]
