@@ -79,7 +79,9 @@ See also
 
 ### Modular flow
 
-* [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
+On [[Tomita-Takesaki modular flow]] as emergent [[time]] evolution in [[quantum physics]] ([[AQFT]]):
+
+* {#Longo19} [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
 
 
 [[!redirects modular conjugation]]
@@ -89,4 +91,5 @@ See also
 [[!redirects Tomita-Takesaki theory]]
 
 [[!redirects modular flow]]
+[[!redirects Tomita-Takesaki modular flow]]
 
