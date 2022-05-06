@@ -758,9 +758,6 @@ Discussion of the dual 6-form field to the 3-form C-field (required notably in t
 
 * [[Eric Bergshoeff]], Mees de Roo, [[Olaf Hohm]], _Can dual gravity be reconciled with E11?_, 	Phys.Lett.B675:371-376,2009 ([arXiv:0903.4384](http://arxiv.org/abs/0903.4384))
 
-Discussion of [[discrete torsion]] ([[orbifold]] [[equivariant cohomology|equivariance]] for the C-field) is  in
-
-
 Discussion of [[discrete torsion]] ([[orbifold]] [[equivariant cohomology|equivariance]]) for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]] is discussed in
 
 * [[Eric Sharpe]], _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys.Rev. D68 (2003) 126004 ([arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170))
