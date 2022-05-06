@@ -119,6 +119,17 @@ With the [[equivariant Hopf degree theorem]] the above example has the following
 </center>
 
 
+Further by the [[equivariant Hopf degree theorem]] (see [there](equivariant+Hopf+degree+theorem#EquivariantCohomotopyOfRepresentationTori)), this example generalizes to [[equivariant cohomotopy]] of [[toroidal orbifold|toroidal]] [[orientifolds]]:
+
+
+{#EquivariantnCohomotopyOfToroidalNOrientifoldIllustration}$\,$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfToroidalOrientifold.jpg" width="850">
+</center>
+
+
+\linebreak
 
 ### Relation to configuration spaces
   {#RelationToConfigurationSpaces}
