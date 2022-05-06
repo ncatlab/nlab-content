@@ -84,6 +84,8 @@ bosinos:
 
 * [[leptoquark]]
 
+* [[Z'-boson]]
+
 **[[auxiliary fields]]**
 
 * [[ghost field]]
