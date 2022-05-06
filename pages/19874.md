@@ -163,6 +163,8 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * Leandro Da Rold, Federico Lamagna, _A vector leptoquark for the B-physics anomalies from a composite GUT_ ([arXiv:1906.11666](https://arxiv.org/abs/1906.11666))
 
+* C. Hati, J. Kriewald, J. Orloff, A.M. Teixeira, _A nonunitary interpretation for a single vector leptoquark combined explanation to the B-decay anomalies_ ([arXiv:1907.05511](https://arxiv.org/abs/1907.05511))
+
 
 
 and within [[Randall-Sundrum models]]
