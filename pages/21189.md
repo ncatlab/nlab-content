@@ -19,7 +19,17 @@
 
 ## Idea
 
-What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector, where the effective [[field (physics)|fields]] are [[hadrons]]: [[light meson|light]] [[scalar mesons]] are the [[Goldstone bosons]] of the [[spontaneous symmetry breaking|spontaneously broken]] [[chiral symmetry]] (see below),  [[vector mesons]] are [[gauge fields]] of a [[hidden local symmetry]], [[baryons]] (specifically [[nuclei]]) are [[solitons]] in the meson-fields (called [[Skyrmions]]), and [[heavy mesons]] appear as further [[field (physics)|fields]]. Hence some authors also speak of _[[quantum hadrodynamics]]_.
+What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector, where the [[effective field theory|effective]] [[field (physics)|fields]] are [[hadrons]]: 
+
+* [[light meson|light]] [[scalar mesons]] appear as the [[Goldstone bosons]] of the [[spontaneous symmetry breaking|spontaneously broken]] [[chiral symmetry]] (see below),  
+
+* [[vector mesons]] appear as [[gauge fields]] of a [[hidden local symmetry]]
+
+* [[baryons]] (specifically [[nuclei]]) appear as [[solitons]] in the meson-fields (called [[Skyrmions]]), 
+
+* [[heavy mesons]] appear as further [[field (physics)|fields]]. 
+
+Hence some authors also speak of _[[quantum hadrodynamics]]_.
 
 This is thus [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the [[light quarks]], which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]].
 
