@@ -356,12 +356,25 @@ Sketch of a derivation of AdS/CFT:
 
 * {#Nastase18} [[Horatiu Nastase]], _Towards deriving the AdS/CFT correspondence_ ([arXiv:1812.10347](https://arxiv.org/abs/1812.10347))
 
+
+Further references include:
+ 
+
+* [[Edward Witten]], _Three-dimensional gravity revisited_, [arxiv/0706.3359](http://arxiv.org/abs/0706.3359)
+
+* C.R. Graham, [[Edward Witten]], _Conformal anomaly of submanifold observables in AdS/CFT correspondence_, [hepth/9901021](http://arxiv.org/abs/hep-th/9901021).
+
+* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
+
+
 ### Introductions and surveys
 
 Surveys and introductions include
 
+
 * [[Alexander Polyakov]], _The wall of the cave_, Int. J. Mod. Phys. A14 (1999) 645-658 ([arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057))
 
+* Jens L. Petersen, _Introduction to the Maldacena Conjecture on AdS/CFT_, Int.J.Mod.Phys. A14 (1999) 3597-3672, [hep-th/9902131](http://arxiv.org/abs/hep-th/9902131) , [doi](http://dx.doi.org/10.1142/S0217751X99001676)
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. 323:183-386, 2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
@@ -370,28 +383,21 @@ Surveys and introductions include
 * [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
 
 
-* [[Gaston Giribet]], _Black hole physics and $AdS^3/CFT_2$_, lectures and proceedings of [[Croatian black hole school]]. 
+* [[Jan de Boer]], _Introduction to AdS/CFT correspondence_, [pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf)
 
-* Jens L. Petersen, _Introduction to the Maldacena Conjecture on AdS/CFT_, Int.J.Mod.Phys. A14 (1999) 3597-3672, [hep-th/9902131](http://arxiv.org/abs/hep-th/9902131) , [doi](http://dx.doi.org/10.1142/S0217751X99001676)
+* [[Gary Horowitz]], [[Joseph Polchinski]], _Gauge/gravity duality_ ([gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037))
 
-* Jan de Boer, _Introduction to AdS/CFT correspondence_, [pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf)
+* [[Joseph Polchinski]], _Introduction to Gauge/Gravity Duality_ ([arXiv:1010.6134](https://arxiv.org/abs/1010.6134))
 
 * {#Natsuume15} [[Makoto Natsuume]], _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
 
-* Wikipedia: [AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)
+* Sebastian De Haro, Daniel R. Mayerson, [[Jeremy Butterfield]], _Conceptual Aspects of Gauge/Gravity Duality_, Foundations of Physics (2016), 46 (11), pp. 1381-1425 ([arXiv:1509.09231](https://arxiv.org/abs/1509.09231))
 
-* an AdS/CFT [bibliography](http://www.personal.uni-jena.de/~p5thul2/notes/adscft.html)
+* Johanna Erdmenger, _Introduction to Gauge/Gravity Duality_,  	PoS (TASI2017) 001 ([arXiv:1807.09872](https://arxiv.org/abs/1807.09872))
 
-Further references include:
+See also
 
-* Gary T. Horowitz, [[Joseph Polchinski]], _Gauge/gravity duality_, [gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037)
- 
-
-* [[Edward Witten]], _Three-dimensional gravity revisited_, [arxiv/0706.3359](http://arxiv.org/abs/0706.3359)
-
-* C.R. Graham, [[Edward Witten]], _Conformal anomaly of submanifold observables in AdS/CFT correspondence_, [hepth/9901021](http://arxiv.org/abs/hep-th/9901021).
-
-* [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
+* Wikipedia, _[AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)_
 
 Review of [[lattice gauge theory]]-numerics:
 
