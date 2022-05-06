@@ -36,3 +36,12 @@ The full proof is due to
 The weaker version for [[Lie algebra weight systems]] was proven in:
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
+
+Version for [[Rozansky-Witten weight systems]]:
+
+* {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], Section 8 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
+
+Review: 
+
+* {#Roberts01} [[Justin Roberts]], Section 8 if: _Rozansky-Witten theory_ ([arXiv:math/0112209](https://arxiv.org/abs/math/0112209))
+
