@@ -19,7 +19,11 @@ What is called _general topology_ or _point-set topology_ is the study of the ba
 
 The study of generalizations of topological spaces in the guise of [[sets]] with [[extra structure]], such as to  [[nearness spaces]], [[uniform space|uniformities]], [[bitopological spaces]] and so on, may still be regarded as the subject of "point-set topology".
 
-There is also the point-less formulation of generalized topological spaces in terms of [[locales]]. This might still be regarded as part of _general topology_, but it is manifestly not to be counted as "point-set topology".
+There is also the point-less formulation of generalized topological spaces in terms of [[locales]]. This might still be regarded as part of _general topology_, but it is manifestly not to be counted as "point-set topology",
+and is known insteasd as [[pointfree topology]] (or [[pointless topology]]).
+
+Other non-point-set approaches include [[formal topology]]
+and [[abstract Stone duality]].
 
 There is also the term _set-theoretic topology_, but that tends to allude to additional [[foundations|foundational axioms]] being considered or other logical (say [[constructive mathematics|intuitionistic]]) or set-theoretical considerations ([[large cardinals]] for example). 
 
