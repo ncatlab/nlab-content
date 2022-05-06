@@ -46,14 +46,13 @@ See the references at _[[chiral perturbation theory]]_
 
 The original articles on [[quantum hadrodynamics]] with explicit [[nucleon]] [[field (physics)|fields]] (as opposed to [[soliton|solitonic]] [[Skyrmions]]):
 
-The _QHD-I model_, with [[nucleons]] coupled to [[sigma-meson]] and [[omega-meson]]:
+The original [[Walecka model]] (*QHD-I model*), with [[nucleons]] coupled to [[sigma-meson]] and [[omega-meson]]:
 
 * [[John Dirk Walecka]], _A Theory of highly condensed matter_, Annals Phys. 83 (1974) 491 ([spire:91609](http://inspirehep.net/record/91609?ln=en), <a href="https://doi.org/10.1016/0003-4916(74)90208-5">dpi:10.1016/0003-4916(74)90208-5</a>)
 
 Inclusion also of the [[pion]] and the [[rho-meson]] (the _QHD-II model_):
 
-* [[Brian Serot]], _A relativistic nuclear field theory with $\pi$ and $\rho$ mesons_, Physics Letters B
-Volume 86, Issue 2, 24 (1979), Pages 146-150 (<a href="https://doi.org/10.1016/0370-2693(79)90804-9">doi:10.1016/0370-2693(79)90804-9</a>)
+* [[Brian Serot]], _A relativistic nuclear field theory with $\pi$ and $\rho$ mesons_, Physics Letters B Volume 86, Issue 2, 24 (1979), Pages 146-150 (<a href="https://doi.org/10.1016/0370-2693(79)90804-9">doi:10.1016/0370-2693(79)90804-9</a>)
 
 
 
