@@ -47,6 +47,9 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 * [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]
 
+## Related concepts
+
+[[!include chord diagrams and weight systems -- table]]
 
 ## References
 
