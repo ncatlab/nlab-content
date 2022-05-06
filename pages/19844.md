@@ -661,6 +661,10 @@ explanations via assumption of [[Z'-bosons]]:
 
 * {#WangYangYuan19} Dong-Yang Wang, Ya-Dong Yang, Xing-Bo Yuan, _$b \to c \tau \bar \nu$ decays in supersymmetry with R-parity violation_ ([arXiv:1905.08784](https://arxiv.org/abs/1905.08784))
 
+* Quan-Yi Hu, Lin-Lin Huang, 
+_Explaining $b\to s \ell^+ \ell^-$ data by sneutrinos in the R-parity violating MSSM_ ([arXiv:1912.03676](https://arxiv.org/abs/1912.03676))
+
+
 [[Horava-Witten theory]]-type [[KK-compactification]]:
 
 * Jong-Phil Lee, _$B$ anomalies in the nonminimal universal extra dimension model_ ([arXiv:1906.07345](https://arxiv.org/abs/1906.07345)) 
