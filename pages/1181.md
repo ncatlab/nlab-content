@@ -266,7 +266,7 @@ where the [[inverse image]] form the [[product]] with $X$. Hence for $\mathbb{N}
 
 ### Relation to object of integers
 
-Given a natural numbers object $\mathbb{N}$ in a [[pretopos]], we can construct an [[integers]] object as follows.  Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of the [[congruence]] $(\pi_1 \circ a, \pi_2 \circ b), (\pi_1 \circ b, \pi_2 \circ a)\colon E \to \mathbb{N} \times \mathbb{N}$.  A similar construction yields a [[rational numbers]] object $\mathbb{Q}$. 
+Given a natural numbers object $\mathbb{N}$ in a [[pretopos]], we can construct an [[integers]] [[integers object|object]] as follows.  Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of the [[congruence]] $(\pi_1 \circ a, \pi_2 \circ b), (\pi_1 \circ b, \pi_2 \circ a)\colon E \to \mathbb{N} \times \mathbb{N}$.  A similar construction yields a [[rational numbers]] object $\mathbb{Q}$. 
 
 For a [[real numbers]] object, rather more care is needed; see [[real numbers object]].
 
