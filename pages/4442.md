@@ -271,6 +271,8 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 [[!include table of branes]]
 
+\linebreak
+
 ## References
 
 ### Original articles
@@ -370,9 +372,13 @@ Review of [[Yangian]] symmetry:
  {#ReferencesAdS2CFT1}
 
 
-Via [[Jackiw-Teitelboim gravity]]:
+On [[Jackiw-Teitelboim gravity]] dual to [[random matrix theory]]:
 
 * {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
+
+On  $AdS_2/CFT_1$ with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
+
+* [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
 
 
 ### On $AdS_3 / CFT_2$
