@@ -794,6 +794,8 @@ Review:
 
 * {#CaiLi17} Wenhe Cai, Si-wen Li, _Holographic three flavor baryon in the Witten-Sakai-Sugimoto model with the D0-D4 background_, Eur. Phys. J. C (2018) 78: 446 ([arXiv:1712.06304](https://arxiv.org/abs/1712.06304))
 
+* Valery E. Lyubovitskij, Ivan Schmidt, _Gluon parton densities in soft-wall AdS/QCD_ ([arXiv:2012.01334](https://arxiv.org/abs/2012.01334))
+
 
 
 
