@@ -13,7 +13,7 @@
 
 This entry is about the article
 
-* [[Michael Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216))
+* [[Michael Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908))
 
 which discusses ([[ordinary differential cohomology|ordinary]]) [[differential cohomology]] refinements of [[generalized (Eilenberg-Steenrod) cohomology]] and uses it to study [[quadratic refinements]] (via [[characteristic element of a bilinear form|characteristic cohomology classes]]) of [[intersection pairings]] $(x,y) \mapsto \int_\Sigma x \cup y$ in [[ordinary cohomology]]. [[mathematics|Mathematically]] this refines the construction of [[Theta characteristics]] to [[ordinary differential cohomology]] and to higher [[intermediate Jacobians]]. [[physics|Physically]] it is motivated from and related to [[self-dual higher gauge theory]] (see there for more) appearing in [[string theory]] and the corresponding [[quantum anomaly|quantum anomalies]]. In particular it makes rigorous the construction ([Witten 96](#M5-brane#Witten96)) of the [[partition function]] of the [[self-dual higher gauge field|self-dual]] [[B-field]] in the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]] via [[geometric quantization]] of abelian [[7d Chern-Simons theory]].
 
