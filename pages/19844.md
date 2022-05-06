@@ -61,7 +61,7 @@ is essentially equal to 1. Any [[statistical significance|significant]] departur
 
 > graphics from [Altmannshofer 14](flavor+problem#Altmannshofer14)
 
-Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with high-luminosity/high-precision [[experiments]], complementary to the traditional high-energy direct detection measurements.
+Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with indirect high-luminosity/high-precision [[experiments]] (see e.g. [AHRS 20](#AHRS20)), complementary to the traditional high-energy direct detection measurements.
 
 Notice that the channel $R_K$ (eq:RKInIntroduction) is just one of many in which flavour anomalies may and have been seen. There are other decay channels of [[B-mesons]] and there are also flavour anomalies in decays of, for instance,  [[kaons]] ([Buras 16](kaon#Buras16), [Buras 18](kaon#Buras18)).
 
@@ -546,6 +546,7 @@ General [[effective field theory]] parametrization:
 
 * Soumia Lebbal, Noureddine Mebarki, Jamal Mimouni, _Lepton Flavor Universality Violation in a 331 Model in $b \to s l^+ l^-$ Processes_ ([arXiv:2003.03230](https://arxiv.org/abs/2003.03230))
 
+* {#AHRS20} Rafael Aoude, Tobias Hurth, Sophie Renner, William Shepherd, _The impact of flavour data on global fits of the MFV SMEFT_ ([arXiv:2003.05432](https://arxiv.org/abs/2003.05432))
 
 
 
