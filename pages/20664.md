@@ -162,3 +162,6 @@ Discussion specifically of [[D1-D5-brane bound states]]
 [[!redirects D4-D8-brane intersection]]
 [[!redirects D4-D8-brane intersections]]
 
+[[!redirects D4/D8-brane intersection]]
+[[!redirects D4/D8-brane intersections]]
+
