@@ -100,6 +100,9 @@ See also
 
 * F. R. Klinkhamer, _IIB matrix model: Extracting spacetime points_ ([arXiv:2008.01058](https://arxiv.org/abs/2008.01058))
 
+* F. R. Klinkhamer, _Regularized big bang and IIB matrix model_ ([arXiv:2009.06525](https://arxiv.org/abs/2009.06525))
+
+
 
 ### Computer simulation
  {#ReferencesComputerSimulation}
