@@ -533,6 +533,7 @@ The special case of $S_4$ is made explicit for $k =\mathbb{R}$ in [Montaldi](#Mo
 
 * [[permutation D-brane]]
 
+* [[RR-field tadpole cancellation]]
 
 ## References
 
