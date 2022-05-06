@@ -114,7 +114,7 @@ See at _[[cohesive topos]]_ [this prop.](cohesive+topos#PiecesHavePointsEquivale
 ## Relation to Aufhebung of the initial opposition
  {#RelationToAufhebung}
 
-For a cohesive 1-topos, if the pieces-to-points transform is an [[epimorphism]] then there is [[Aufhebung]] of the initial opposition $(\emptyset \dashv \ast)$ in that $\sharp \emptyset \simeq \emptyset$ ([Lawvere-Menni 15, lemma 4.1](#LawvereMenni15)). Conversely, if the [[base topos]] is a [[Boolean topos]], then this Aufhebung implies that the pieces-to-points transform is epi ([Lawvere-Menni 15, lemma 4.2](#LawvereMenni15)).
+For a cohesive 1-topos, if the pieces-to-points transform is an [[epimorphism]] then there is [[Aufhebung]] of the initial opposition $(\emptyset \dashv \ast)$ in that $\sharp \emptyset \simeq \emptyset$ ([Lawvere-Menni 15, lemma 4.1](#LawvereMenni15), see also [Shulman 15, section 3](#Shulman15)). Conversely, if the [[base topos]] is a [[Boolean topos]], then this Aufhebung implies that the pieces-to-points transform is an [[epimorphism]] ([Lawvere-Menni 15, lemma 4.2](#LawvereMenni15)).
 
 ## Examples
 
@@ -170,8 +170,10 @@ In [[infinitesimal cohesion]] the points-to-pieces transform is an [[equivalence
 
 ## References
 
+
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 [[!redirects points-to-pieces transforms]]
 
 [[!redirects points-to-pieces transformation]]
