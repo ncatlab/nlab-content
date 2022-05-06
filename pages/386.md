@@ -318,7 +318,7 @@ There are important standard functors from $\Delta$ to other categories which _[
 
 * The functor $|\cdot| : \Delta \to $ [[Top]]
 
-  sends $[n]$ to the standard topological $n$-simplex $[n] \mapsto \{x_0 \leq x_1 \leq \cdots \leq x_n \leq 1\}\subset \mathbb{R}^{n}$. This functor induced [[geometric realization]] of [[simplicial sets]].
+  sends $[n]$ to the standard topological $n$-simplex $[n] \mapsto \{(x_0, ... x_n) : 0 \leq x_0 \leq x_1 \leq \cdots \leq x_n \leq 1\}\subset \mathbb{R}^{n}$. This functor induced [[geometric realization]] of [[simplicial sets]].
 
 * The functor $O : \Delta \to Str\omega Cat $
   sends $[n]$ to the $n$th [[oriental]]. This induces simplicial [[nerves]] of [[omega-category|omega-categories]].
