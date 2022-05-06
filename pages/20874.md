@@ -23,6 +23,8 @@ In [[knot theory]] the _2-term relations_ on [[horizontal chord diagrams]] are t
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram2TRelation.jpg" width="600">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 Together with the horizontal [[4T relations]] these are the relations respected by [[horizontal weight systems]].
 
 ## Related concepts
