@@ -23,7 +23,7 @@
 
 A _regular category_ is a [[finitely complete category]] which admits a good notion of [[image]] factorization. A primary _raison d'&#234;tre_ behind regular categories $C$ is to have a decently behaved _calculus of [[relation]]s_ in $C$.  
 
-Regular categories also provide a natural [[semantics|semantic]] environment to [[interpretation|interpret]] a particularly well behaved positive [[fragment]] of [[first order logic]] having connectives $\top,\wedge,\exists$ ; in other words, their [[internal logic]] is [[regular logic]].
+Regular categories also provide a natural [[semantics|semantic]] environment to [[interpretation|interpret]] a particularly well behaved positive [[fragment]] of [[first order logic]] having connectives $\top$, ${\wedge}$, $\exists$; in other words, their [[internal logic]] is [[regular logic]].
 
 ## Definition
 
@@ -32,7 +32,7 @@ Regular categories also provide a natural [[semantics|semantic]] environment to 
 
 A [[category]] $C$ is called **regular** if 
 
-1. It is [[finitely complete category|finitely complete]]; 
+1. it is [[finitely complete category|finitely complete]]; 
 
 1. the [[kernel pair]] 
 
@@ -54,7 +54,7 @@ A [[category]] $C$ is called **regular** if
 
 We make the following remarks:
 
-* The kernel pair is always an [[congruence]] on $d$ in $C$; informally, $\ker(f) = d\times_c d$ is the [[subobject]] of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the 'kernel' of a function in [[Set]]). The coequalizer above is supposed to be the "object of equivalence classes" of $\ker(f)$ as an internal [[equivalence relation]].
+* The kernel pair is always a [[congruence]] on $d$ in $C$; informally, $\ker(f) = d\times_c d$ is the [[subobject]] of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the "kernel" of a function in [[Set]]). The coequalizer above is supposed to be the "object of equivalence classes" of $\ker(f)$ as an internal [[equivalence relation]].
 
 * A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every coequalizer is the coequalizer of its kernel pair. (See for instance Lemma 5.6.6 in _[[Practical Foundations]]_.)
 
