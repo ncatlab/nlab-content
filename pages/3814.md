@@ -162,7 +162,6 @@ See
 
 * [[standard model of cosmology]]
 
-
 * [string theory FAQ -- Did string theory provide any insight relevant in experimental particle physics?](string+theory+FAQ#InsightInParticlePhysics)
 
 [[!include standard model of fundamental physics - table]]
