@@ -128,6 +128,9 @@ Volume 30, Issue 6, 10 November 1969, Pages 426-429 (<a href="https://doi.org/10
 
 * J. T. Dakin, M. G. Hauser, M. N. Kreisler, R. E. Mischke, _Measurement of the Branching Ratios for ω Neutral Decays_, Phys. Rev. D 6, 2321 (1972) ([doi:10.1103/PhysRevD.6.2321](https://doi.org/10.1103/PhysRevD.6.2321))
 
+* S. Leupold, M.F.M. Lutz, _Hadronic three-body decays of light vector mesons_, Eur. Phys. J. A39:205-212, 2009 ([arXiv:0807.4686](https://arxiv.org/abs/0807.4686))
+
+
 * Florian Jonas, _Measurement of $\omega$ and $\eta$ mesons via their three pion decay with ALICE in pp collisions at $\sqrt{s} = t TeV$_, 2018 ([cds:2653176](https://cds.cern.ch/record/2653176))
 
 [[!redirects ω-mesons]]
