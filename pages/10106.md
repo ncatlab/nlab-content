@@ -16,9 +16,11 @@
 
 ## Idea
 
-A [[homomorphism]] between [[algebraic groups]] that is a [[surjection]] and has a [[finite set|finite]] [[kernel]].
+An isogeny is a rational [[homomorphism]] between [[algebraic groups]]. For [[elliptic curve|elliptic curves]] this is equivalently a [[surjection]] that has a [[finite set|finite]] [[kernel]].
 
 ## References
+
+* This Stack Exchange discussion, _[What is isogeny?](https://math.stackexchange.com/questions/36724/what-is-isogeny)_
 
 * Wikipedia, _[Isogeny](http://en.wikipedia.org/wiki/Isogeny)_
 
