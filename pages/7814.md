@@ -50,7 +50,7 @@ support = [[n-truncated object in an (infinity,1)-category|(-1)-truncation]]
 
 ## References
 
-* Wikipedia, _[Support (mathematics)](https://en.wikipedia.org/wiki/Support_(mathematics))_
+* Wikipedia, _[Support (mathematics)](https://en.wikipedia.org/wiki/Support_%28mathematics%29)_
 
 
 [[!redirects supports]]
