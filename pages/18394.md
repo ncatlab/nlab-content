@@ -1,6 +1,6 @@
 ## Idea
 
-Formally, a cotopology of a topological space $X$ is a coarser topological space $^*X$ on the same set $X$ that does not forget too many sets.
+Formally, a cotopology of a topological space $(X, \mathcal{T})$ is a coarser topology $\mathcal{T}^*$ on the same set $X$ that does not forget too many sets.
 The approach was introduced by J. D. Weston.
 It can be used to generalize the [[Baire category theorem]] and to characterize [[topologically complete space|topological completeness]]. The pair of both topologies, the original and the coarser one, constitute an example of a [[bitopological space]].
 
@@ -9,21 +9,19 @@ It can be used to generalize the [[Baire category theorem]] and to characterize 
 
 +-- {: .num_defn}
 ###### Definition
-Let $X$ be a topological space and set $\mathcal{O} = Op(X)$.
-A topology $^*\mathcal{O}$ on $X$ is called a **cotopology** of $\mathcal{O}$---and $^*X = (X, ^*\mathcal{O})$ is called a **cospace** of $X$---if
+Let $(X, \mathcal{T})$ be a topological space.
+A topology $\mathcal{T}^*$ on $X$ is called a __cotopology__ of $\mathcal{T}$---and $(X, \mathcal{T}^*)$ is called a __cospace__ of $(X, \mathcal{T}$---if
 
-1. $^*\mathcal{O}$ is coarser than $\mathcal{O}$, i.e., $^*\mathcal{O} \subseteq \mathcal{O}$; 
-1. for each point $x$ and each $\mathcal{O}$-closed neighborhood $V$ of $x$ in $X$ there exists a $^*\mathcal{O}$-closed $\mathcal{O}$-neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
+1. $\mathcal{T}^*$ is coarser than $\mathcal{T}$, i.e., $\mathcal{T}^* \subseteq \mathcal{T}$; 
+1. for each point $x$ and each $\mathcal{T}$-closed $\mathcal{T}$-neighborhood $V$ of $x$ in $X$ there exists a $\mathcal{T}^*$-closed $\mathcal{T}$-neighborhood $U$ of $x$ in $X$ such that $U$ is contained in $V$.
 =--
 
-The last condition is equivalent to
-
-* Each point $x$ has a neighborhood base in $X$ the elements of which are closed in $^*X$.
+If $\mathcal{T}$ is regular, the last condition is equivalent to $\mathcal{T}$ being [[bitopological space#Compatibility conditions for topologies|regular with respect to]] $\mathcal{T}^*$, i.e. each point $x$ has a neighborhood base in $X$ the elements of which are closed in $^*X$.
 
 
 +-- {: .num_defn}
 ###### Definition
-A topological space $X$ is called **cocompact** if there is a cospace $^*X$ of $X$ which is [[compact space|compact]].
+A topological space $X$ is called **cocompact** if there is a cotopology $\mathcal{T}^*$ on $X$ which is [[compact space|compact]].
 
 =--
 
@@ -37,18 +35,17 @@ A space that admits only Hausdorff cospaces is equivalently an H-closed space, i
 
 The concept first appeared in
 
-* J. D. Weston, _On the comparison of topologies_ 1956, 
+* J. D. Weston, _On the comparison of topologies_ 1956, Journal of the London Mathematical Society, vol. s1-32 no. 3, pp. 342-354.
 
-de Groot used it to give a unifying and generalizing version of the [[Baire category theorem]]
+De Groot used it to give a unifying and generalizing version of the [[Baire category theorem]]
 
-* de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767,
+* de Groot, _Subcompactness and the Baire category theorem_ 1963, Nederl. Akad. Wetensch. Proc., Ser. A66 = Indag. Math., vol. 25, pp. 761-767.
 
-further developments include
+Further developments include
 
 * Aarts, de Groot, McDowell, _Cotopology for metrizable spaces_ 1970, Duke Mathematical Journal vol. 37.
 
-* [[George Strecker]] and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969, Proceedings of the American Mathematical Society
-Vol. 21 No. 3.
+* [[George Strecker]] and G. Viglino, _Cotopology and Minimal Hausdorff Spaces_ 1969, Proceedings of the American Mathematical Society Vol. 21 No. 3.
 
 
 [[!redirects cocompact space]]
