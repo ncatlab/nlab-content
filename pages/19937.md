@@ -17,13 +17,13 @@
 
 ## Idea
 
-Solutions to [[Einstein's equations]] which are [[black holes]] in [[spacetimes]] that far away from the black hole are asymptiotic (not to [[Minkowski spacetime]] but) to [[anti de Sitter spacetime]].
+These are solutions to [[Einstein's equations]] which are [[black holes]] in [[spacetimes]] that far away from the black hole are asymptotic (not to [[Minkowski spacetime]] but) to [[anti de Sitter spacetime]].
 
 ## Properties
 
 ### In AdS/CFT
 
-Unde the [[AdS-CFT correspondence]] black holes in the anti-de Sitter spacetime translate to the [[conformal field theory]] on the [[asymptotic boundary]] being at [[thermal field theory|positive temperature]] (e.g. [Duff 99, section 6](#Duff99), [Natsuume 15, section 7](#Natsuume15)). 
+Under the [[AdS-CFT correspondence]] black holes in the anti-de Sitter spacetime translate to the [[conformal field theory]] on the [[asymptotic boundary]] being at [[thermal field theory|positive temperature]] (e.g. [Duff 99, section 6](#Duff99), [Natsuume 15, section 7](#Natsuume15)). 
 
 ## Related concepts
 
