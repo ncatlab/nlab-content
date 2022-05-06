@@ -54,19 +54,19 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 ## Related concepts
 
-* [[geometry]] modeled on the formal dual of the ring of integers is [[arithmetic geometry]]
+* [[infinite cyclic group]]
 
 * [[even number]], [[odd number]]
 
 * [[natural number]], [[rational number]], [[real number]]
-
-* [[Spec(Z)]]
 
 * [[algebraic integer]]
 
 * [[ring of integers]]
 
 * [[cyclotomic integer]]
+
+* [[geometry]] modeled on the [[formal duality|formal dual]], [[Spec(Z)]], of the ring of integers is [[arithmetic geometry]]
 
 ## References
 
