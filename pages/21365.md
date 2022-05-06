@@ -3,11 +3,11 @@
 ### Baryon chiral perturbation theory
  {#BaryonChiralPerturbationTheoryReferences}
 
-Discussion of [[baryon chiral perturbation theory]], i.e of [[chiral perturbation theory]] with explicit [[effective field theory|effective]] (as opposed to or in addition to implicit [[Skyrmion|skyrmionic]]) [[baryon]] [[field (physics)|fields]] included:
+Discussion of [[baryon chiral perturbation theory]], i.e of [[chiral perturbation theory]] with explicit [[effective field theory|effective]] (as opposed to or in addition to implicit [[Skyrmion|skyrmionic]]) [[baryon]] [[field (physics)|fields]] included (see also _[[Walecka model]]_ and _[[quantum hadrodynamics]]_):
 
 Review:
 
-* [[Ulf-G. Meissner]], _Chiral QCD: Baryon dynamics_,in:  At The Frontier of Particle Physics, pp. 417-505 (2001) ([arxiv:hep-ph/0007092](https://arxiv.org/abs/hep-ph/0007092))
+* [[Ulf-G. Meissner]], _Chiral QCD: Baryon dynamics_, in:  At The Frontier of Particle Physics, pp. 417-505 (2001) ([arxiv:hep-ph/0007092](https://arxiv.org/abs/hep-ph/0007092))
 
 
 * [[Véronique Bernard]], _Chiral Perturbation Theory and Baryon Properties_, Prog. Part. Nucl. Phys. 60:82-160, 2008 ([arXiv:0706.0312](https://arxiv.org/abs/0706.0312))
