@@ -244,11 +244,11 @@ then the corresponding **[[connecting homomorphism]]** is the composite
 $$
   \partial 
     \;\colon\; 
-  E^\bullet(X)
+  \widetilde  E^\bullet(X)
    \stackrel{\sigma}{\longrightarrow}
-  E^{\bullet+1}(\Sigma X)
+  \widetilde  E^{\bullet+1}(\Sigma X)
    \stackrel{coker(g)^\ast}{\longrightarrow}
-  E^{\bullet+1}(Z)
+  \widetilde E^{\bullet+1}(Z)
   \,.
 $$
 
@@ -262,13 +262,13 @@ The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomology
 $$
   \cdots
    \stackrel{\partial}{\longrightarrow}
-  E^{\bullet}(Z) 
+  \widetilde E^{\bullet}(Z) 
     \longrightarrow 
-  E^\bullet(Y) 
+  \widetilde E^\bullet(Y) 
     \longrightarrow 
-  E^\bullet(X)
+  \widetilde  E^\bullet(X)
     \stackrel{\partial}{\longrightarrow}
-  E^{\bullet+1}(Z)
+  \widetilde  E^{\bullet+1}(Z)
    \to \cdots
   \,.
 $$
