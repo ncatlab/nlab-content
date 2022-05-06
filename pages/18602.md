@@ -118,6 +118,10 @@ See also
 
 * Wikipedia, _[Anomalous magnetic dipole moment](https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment)_
 
+Comprehensive discussion for the [[muon]]:
+
+* T. Aoyama et al., _The anomalous magnetic moment of the muon in the Standard Model_ ([arXiv:2006.04822](https://arxiv.org/abs/2006.04822))
+
 
 ### Experiment and deviation
 
