@@ -38,7 +38,12 @@ In [[constructive mathematics]], it is necessary that $I$ have [[decidable equal
 
 ## Related concepts
 
+* [[Einstein summation convention]]
+
+* [[Levi-Civita symbol]]
+
 * [[Dirac delta distribution]]
+
 * [[graph of a functor]]
 
 ## References
