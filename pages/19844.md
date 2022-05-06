@@ -328,6 +328,7 @@ Outlook:
 
 * {#Grinstein19} [[Benjamin Grinstein]], _A path to flavor_, talk at _[Implications of LHCb measurement and future prospects](https://indico.cern.ch/event/769902/)_ CERN 2019 ([pdf](https://indico.cern.ch/event/769902/contributions/3582540/attachments/1926501/3193107/Grinstein-high-res.pdf), [[GrinsteinFlavor2019.pdf:file]], [indico:3582540](https://indico.cern.ch/event/769902/contributions/3582540))
 
+* Monika Blanke, _Flavour Physics from Present to Future Colliders_ ([arxiv:1910.10662](https://arxiv.org/abs/1910.10662))
 
 Emphasis of [[non-perturbative effects]]:
 
