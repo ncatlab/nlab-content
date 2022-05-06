@@ -235,6 +235,8 @@ See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#Fo
 
 [[!include square roots of line bundles - table]]
 
+* [[Perry-Schwarz action]]
+
 * [[Kervaire invariant]]
 
 * [[bosonization]]
@@ -278,9 +280,9 @@ following
 
   (which did not yet have the [[Hopf-Wess-Zumino term]])
 
-and following the non-covariant form of the [[self-dual higher gauge field|self-duality mechanism]] of
+and following the non-covariant form of the [[self-dual higher gauge field|self-duality mechanism]] ([[Perry-Schwarz action]]) of
 
-* {#PerrySchwarz96} Malcolm Perry, [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
+* {#PerrySchwarz96} [[Malcolm Perry]], [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
 
 * {#Schwarz97} [[John Schwarz]], _Coupling a Self-Dual Tensor to Gravity in Six Dimensions_, Phys.Lett.B395:191-195,1997
 
