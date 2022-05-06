@@ -85,7 +85,8 @@ In [[intersecting D-brane models]] [[Yukawa couplings]] are encoded by [[worldsh
 
 > table grabbed from [Marchesano 03](#Marchesano03)
 
-realistic [[Yukawa couplings]] are considered in [Mayes 19](#Mayes19)
+Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-Salam GUT model]] with 3 [[generations of fermions]] realized on [[intersecting D-brane model|intersecting]] [[D6-branes]] [[KK-compactification|KK-compactified]] on a [[toroidal orbifold]] $T^6\sslash (\mathbb{Z}_2 \times \mathbb{Z}_2)$ are claimed in
+in [Mayes 19](#Mayes19), [Gemill-Howington-Mayes 19](#GemillHowingtonMayes19), based on [Chen-Li-Mayes-Nanopoulos 07a](#ChenLiMayesNanopoulos07a), [Chen-Li-Mayes-Nanopoulos 07b](#ChenLiMayesNanopoulos07b).
 
 \linebreak
 
@@ -255,8 +256,6 @@ See also
 
 * Ching-Ming Chen, Tianjun Li, Dimitri V. Nanopoulos, _Standard-Like Model Building on Type II Orientifolds_, Nucl.Phys.B732:224-242,2006 ([arXiv:hep-th/0509059](http://arxiv.org/abs/hep-th/0509059))
 
-* Ching-Ming Chen, Tianjun Li, V. E. Mayes, Dimitri V. Nanopoulos, _A Realistic World from Intersecting D6-Branes_, Phys.Lett.B665:267-270, 2008 ([arXiv:hep-th/0703280](https://arxiv.org/abs/hep-th/0703280))
-
 * [[Angel Uranga]], _The standard model from D-branes in string theory_, talk at Padova, January 2008 ([pdf](http://active.pd.infn.it/g4/seminars/2008/files/uranga.pdf))
 
 * {#DolanKrippendorfQuevedo11} Matthew J. Dolan, Sven Krippendorf, Fernando Quevedo, _Towards a Systematic Construction of Realistic D-brane Models on a del Pezzo Singularity_, JHEP 1110 (2011) 024 ([arXiv:1106.6039](http://arxiv.org/abs/1106.6039))
@@ -275,11 +274,6 @@ Intersection with [[O8-planes]]/[[D8-branes]] ([[M-theory on S1/G_HW times H/G_A
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
-Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] are considered in
-
-* {#Mayes19} Van E. Mayes, _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
-
-
 ### The landscape of models
 
 On the [[landscape of string theory vacua|landscape]] of intersecting D-brane models:
@@ -296,6 +290,21 @@ Computer scan of [[toroidal orbifold]]-[[KK compactifications]] is discussed in
 * [[Ralph Blumenhagen]], [[Florian Gmeiner]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _The Statistics of Supersymmetric D-brane Models_, Nucl.Phys.B713:83-135, 2005 ([arXiv:hep-th/0411173](https://arxiv.org/abs/hep-th/0411173))
 
 * {#GBHLW05} [[Florian Gmeiner]], [[Ralph Blumenhagen]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], _One in a Billion: MSSM-like D-Brane Statistics_, JHEP 0601:004, 2006 ([arXiv:hep-th/0510170](https://arxiv.org/abs/hep-th/0510170))
+
+
+
+### Detailed realistic models
+ {#ReferencesDetailedRealisticModels}
+
+Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-Salam GUT model]] with 3 [[generations of fermions]] realized on [[intersecting D-brane model|intersecting]] [[D6-branes]] [[KK-compactification|KK-compactified]] on a [[toroidal orbifold]] $T^6\sslash (\mathbb{Z}_2 \times \mathbb{Z}_2)$ are claimed in
+
+* {#ChenLiMayesNanopoulos07a} Ching-Ming Chen, Tianjun Li, [[Van Eric Mayes]], [[Dimitri Nanopoulos]], _A Realistic World from Intersecting D6-Branes_, Phys.Lett.B665:267-270, 2008 ([arXiv:hep-th/0703280](https://arxiv.org/abs/hep-th/0703280), [doi:10.1016/j.physletb.2008.06.024](https://doi.org/10.1016/j.physletb.2008.06.024))
+
+* {#ChenLiMayesNanopoulos07b} Ching-Ming Chen, Tianjun Li, [[Van Eric Mayes]], [[Dimitri Nanopoulos]], _Realistic Yukawa Textures and SUSY Spectra from Intersecting Branes_, Phys.Rev.D77:125023, 2008 ([arXiv:0711.0396](https://arxiv.org/abs/0711.0396))
+
+* {#Mayes19} [[Van Eric Mayes]], _All Fermion Masses and Mixings in an Intersecting D-brane World_ ([arXiv:1902.00983](https://arxiv.org/abs/1902.00983))
+
+* {#GemillHowingtonMayes19} Jordan Gemmill, Evan Howington, Van E. Mayes, _One String to Rule Them All: Neutrino Masses and Mixing Angles_ ([arXiv:1907.07106](https://arxiv.org/abs/1907.07106))
 
 
 
