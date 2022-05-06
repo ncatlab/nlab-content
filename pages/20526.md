@@ -75,9 +75,12 @@ $$
 
 The [[Chern character]] in general does have non-trivial [[cokernel]] ("swampland RR-fields") and [[kernel]] (choices of [[UV-completion]] of the effective RR-fields). In fact it fits not just in a [[short exact sequence]], but in the [[differential cohomology hexagon]] (see there for more) of [[K-theory]].
 
+In contrast to this example, the literature on the "swampland" phenomenon is currently dominated by informal hand-wavy arguments. Starting with [Ooguri-Vafa 06](#OoguriVafa06) is an attempt to guess semi-precise rules-of-thumb for recognizing [[effective field theory|EFTs]] in the swampland, now known as the _swampland conjectures_. Motivated by the re-opening of the question whether [[de Sitter spacetime]] actually appears in [[string theory vacua]] or not ([Danielsson-van Riet 18](#DanielssonVanRiet18)), these swampland conjecture currently revolve around bounds on the [[cosmological constant]] in relation to [[scalar fields]] in the theory.
 
 
 ## References
+
+### General
 
 The terminology originates with
 
@@ -87,15 +90,30 @@ Comprehensive review is in:
 
 * Eran Palti, _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
 
-Beware that the landscape literature is presently compltely dominated by non-rigorous hand-wavy [[string phenomenology]].
+Further discussion includes
 
-See also
+* {#OoguriVafa06} [[Hirosi Ooguri]], [[Cumrun Vafa]], _On the Geometry of the String Landscape and the Swampland_, Nucl.Phys.B766:21-33, 2007 ([arXiv:hep-th/0605264](https://arxiv.org/abs/hep-th/0605264))
 
 * {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
 
 * Ben Heidenreich, [[Matthew Reece]], Tom Rudelius, _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
 
-Implications of the possible non-existence of [[de Sitter spacetime]] [[string theory vacua]] are explored in
+
+See also 
+
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Swampland_(physics)">Swampland_(physics)</a>_
+
+Beware that the landscape literature is presently completly dominated by non-rigorous hand-wavy [[string phenomenology]].
+
+### de Sitter vacua
+
+One question is if [[de Sitter spacetime]]-vacua belong to the swampland or not:
+
+* {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_, International Journal of Modern Physics D, Vol. 27, No. 12, 1830007 (2018)  ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120), [doi:10.1142/S0218271818300070](https://doi.org/10.1142/S0218271818300070))
+
+* {#vanRiet18} [[Thomas Van Riet]], _Is dS space in the Swampland_, talk at [StringPheno18](http://sp18.fuw.edu.pl/) ([pdf slides](http://sp18.fuw.edu.pl/wp-content/uploads/participants-database/thomasvanriet.pdf))
+
+* {#vanRiet18a} [[Thomas Van Riet]], _Status of KKLT_, talk at _[Simons summer workshop 2018](http://scgp.stonybrook.edu/archives/24870)_ ([recording](http://scgp.stonybrook.edu/video_portal/video.php?id=3730))
 
 * {#ObiedOoguriSpodyneikoVafa18} Georges Obied, [[Hirosi Ooguri]], Lev Spodyneiko, [[Cumrun Vafa]], _De Sitter Space and the Swampland_ ([arXiv:1806.08362](https://arxiv.org/abs/1806.08362))
 
@@ -104,4 +122,6 @@ Implications of the possible non-existence of [[de Sitter spacetime]] [[string t
 * {#Vafa18} [[Cumrun Vafa]], _Cosmology and the String Swampland_, talk at _[Strings 2018](https://indico.oist.jp/indico/event/5/)_ ([pdf slides](https://indico.oist.jp/indico/event/5/picture/96.pdf), [recording](https://www.youtube.com/watch?v=fU8sJRCRz24&t=1904s))
 
 * [[Frederik Denef]], Arthur Hebecker, Timm Wrase, _The dS swampland conjecture and the Higgs potential_ ([arXiv:1807.06581](https://arxiv.org/abs/1807.06581))
+
+
 
