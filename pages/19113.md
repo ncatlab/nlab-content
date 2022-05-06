@@ -397,7 +397,7 @@ The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Pl
 * {#ConwaySmith03} [[John Conway]], D. A. Smith, _On quaternions and octonions: their geometry, arithmetic and 
 symmetry_ A K Peters Ltd., Natick, MA, 2003
 
-* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], appendix B of _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+* {#MFF12} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], appendix B of _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 
 * {#SadocMosseri89} J. F. Sadoc, R. Mosseri, _Icosahedral order, curved space and quasicrystals_, in Jaric, Gratias (eds.) _Extended icosahedral structures_, 1989 ([GoogleBooks](https://books.google.co.uk/books?id=HWyIUglWeXsC&pg=PA172&lpg=PA172#v=onepage&q&f=false))
