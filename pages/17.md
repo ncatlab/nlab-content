@@ -644,89 +644,160 @@ If you want to include multiple contents pages, you can repeat the four lines fr
 
 #### Tikz
 
-As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see the code for the figures. 
+As of 2019, one can use tikz or tikzcd exactly as one would in LaTeX. The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
+
+Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.
+
+##### Examples
 
 Picture:
 
 \begin{centre}
     \begin{tikzpicture}
-        \draw[blue, ->] (0,0) -- (1,0) -- (1,-1);
+      \draw[blue, ->] (0,0) -- (1,0) -- (1,-1);
     \end{tikzpicture}
 \end{centre}
 
-single [[morphism]]
+Source:
 
-\begin{tikzcd}
-  x \ar[r] & y
-\end{tikzcd}
+```
+<nowiki>\begin{centre}
+    \begin{tikzpicture}
+        \draw[blue, ->] (0,0) -- (1,0) -- (1,-1);
+    \end{tikzpicture}
+\end{centre}
+</nowiki>
+```
 
-{#TypesetAdjointFunctors} [[adjoint functors]]:
+Single [[morphism]]:
 
+\begin{centre}
+    \begin{tikzcd}
+        x \ar[r] & y
+    \end{tikzcd}
+\end{centre}
 
-\begin{tikzcd}
-  \mathcal{D}
-   \arrow[r, shift right=7pt, "R"', "\bot"]
-  & 
-  \mathcal{C}
-   \arrow[l, shift right=7pt, "L"']
-\end{tikzcd}
+Source:
 
+```
+<nowiki>\begin{centre}
+    \begin{tikzcd}
+        x \ar[r] & y
+    \end{tikzcd}
+\end{centre}
+</nowiki>
+```
 
-The only difference to LaTeX is that ```\usetikzlibrary``` lines should be put _inside_ the blocks. 
+Diagram of [[adjoint functors]] {#TypesetAdjointFunctors}:
 
-Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.
+\begin{centre}
+    \begin{tikzcd}
+        \mathcal{D} \arrow[r, shift right=7pt, "R"', "\bot"] & 
+            \mathcal{C} \arrow[l, shift right=7pt, "L"']
+    \end{tikzcd}
+\end{centre}
+
+Source:
+
+```
+<nowiki>\begin{centre}
+    \begin{tikzcd}
+        \mathcal{D} \arrow[r, shift right=7pt, "R"', "\bot"] & 
+            \mathcal{C} \arrow[l, shift right=7pt, "L"']
+    \end{tikzcd}
+\end{centre}
+</nowiki>
+```
 
 #### Xymatrix
 
-As of 2019 you can format commutative diagrams in the nLab using the xymatrix command, almost as you would in a latex document. Take a look at the [source](https://ncatlab.org/nlab/source/HowTo) of this page to see the code for the figures.
+As of 2019 you can format commutative diagrams in the nLab using xymatrix command, almost as you would in a LaTeX document. The only significant differences are:
 
-Single diagram:
+1. Use a `<nowiki>\begin{xymatrix} ... \end{xymatrix}</nowiki>` block rather than a `\xymatrix{...}` block. 
+
+1. Some global parameters can be passed inside the `<nowiki>\begin{xymatrix}</nowiki>` tag. For example, as usual, one can use `@=1.5em` to increase row and column separation, replacing `@` by `@C` (resp. `@R`) for column (resp. row=) separation. Thus one writes: `<nowiki>\begin{xymatrix@=1.5em}</nowiki>`. In addition, unlike in LaTeX, one can pass parameters in square brackets: `<nowiki>\begin{xymatrix[font = \large, border = 2em]</nowiki>` or `<nowiki>\begin{xymatrix@=1.5em[font = \large, border = 2em]}</nowiki>`. Here the value of `font` controls the font size throughout the diagram, and `border` adds some whitespace around the figure, which is sometimes needed when using curved arrows. One can use only one of the two parameters instead of both.
+
+Under the hood, this works by running pdflatex and then generating an SVG from the resulting pdf, which is included in the HTML source of the rendered page.
+
+Use Tikz rather than Xymatrix if you do not have a strong preference or have not used either before. But it is fine to use Xymatrix if this is what you are used to.
+
+##### Examples
+
+Triangle:
 
 \begin{centre}
-
-\begin{xymatrix}
-
-A \ar[r] \ar[dr] & B \ar[d] \\ & C
-
-\end{xymatrix}
-
+    \begin{xymatrix}
+        A \ar[r] \ar[dr] & B \ar[d] \\ & C
+    \end{xymatrix}
 \end{centre}
+
+Source:
+
+```
+<nowiki>\begin{centre}
+    \begin{xymatrix}
+        A \ar[r] \ar[dr] & B \ar[d] \\ & C
+    \end{xymatrix}
+\end{centre}
+</nowiki>
+```
 
 Bent arrows:
 
 \begin{centre}
-
-\begin{xymatrix[border = 2pc]}
-
-A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B
-
-\end{xymatrix}
-
+    \begin{xymatrix[border = 2pc]}
+        A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B
+    \end{xymatrix}
 \end{centre}
+
+Source:
+
+```
+<nowiki>\begin{centre}
+    \begin{xymatrix[border = 2pc]}
+        A \ar@/^2.0pc/[r] \ar@/_2.0pc/[r] & B
+    \end{xymatrix}
+\end{centre}
+</nowiki>
+```
 
 Parallel arrows:
 
 \begin{centre}
-
-\begin{xymatrix}
-
-A \ar@<.6ex>[r] \ar@<-.6ex>[r] & B
-
-\end{xymatrix}
-
+    \begin{xymatrix}
+        A \ar@<.6ex>[r] \ar@<-.6ex>[r] & B
+    \end{xymatrix}
 \end{centre}
+
+Source:
+  
+```
+<nowiki>\begin{centre}
+    \begin{xymatrix}
+        A \ar@<.6ex>[r] \ar@<-.6ex>[r] & B
+    \end{xymatrix}
+\end{centre}
+</nowiki>
+```
 
 2-cell:
 
 \begin{centre}
-
-\begin{xymatrix[font = \large]@C+2pc}
-
-A \rtwocell^f_g{\alpha} & B
-
-\end{xymatrix}
-
+    \begin{xymatrix[font = \large]@C+2pc}
+        A \rtwocell^f_g{\alpha} & B
+    \end{xymatrix}
 \end{centre}
+
+Source:
+
+```
+<nowiki>\begin{centre}
+    \begin{xymatrix[font = \large]@C+2pc}
+        A \rtwocell^f_g{\alpha} & B
+    \end{xymatrix}
+\end{centre}
+</nowiki>
+```
 
 #### Older workaround for commutative diagrams
 
