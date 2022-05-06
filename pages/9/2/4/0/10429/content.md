@@ -22,8 +22,24 @@
 
 ## Idea
 
-We include here a phase of matter which is, at long distance
-and low energy, described by a [[topological quantum field theory]] (invariant under small smooth deformations of space-time) as well as the phases related to [[symmetry protected trivial order]]s (SPT orders). For the first see [[topological order]]. The ground state is typically degenerate (for reasonably nontrivial orders).
+In [[solid state physics]], a [[phase of matter]] is called *topological* in a given energy bound $\Delta$ (the "gap") if external [[adiabatic]] deformations of the system that are gentle enough not to excite modes above the [[ground state]] of energy $\gt \Delta$ leave the properties of the system invariant if the deformations are small, and have the sole effect of possibly transforming a degenerate ground state if one goes around in a loop in the space of such deformations, this transformation then being a function only of the [[homotopy class]] of that loop.
+
+Concretely, a [[crystal|crystalline]] material which is an [[insulator]] in that its [[chemical potential]] lies entirely in a gap between two [[electronic energy bands]] (then called the *[[valence band]]* and the *[[conduction band]]*) has a well-defined [[valence bundle]] of filled [[Bloch states]] over its [[Brillouin torus]], and the ([[twisted equivariant K-theory|twisted equivariant]]) [[topological K-theory]]-class of this bundle is thought to be an invariant of the system under all gentle external deformations that do not cause excitations above the gap size. If this class is non-trivial, then such a material is said to be in a [[topological insulator]]-phase, now a prime example of a topological phase of matter. See also at *[[K-theory classification of topological phases of matter]]*.
+
+More generally, if there is such a gap *except* over a [[codimension]]$\geq 2$ [[submanifold]] of "nodal loci" inside the [[Brillouin torus]] where it closes right at the [[chemical potential]], then the [[valence bundle]] is well-defined (only) on the [[complement]] of these "nodal" points as before and as such again invariant under gentle deformations, but now these external deformations may move the position of the nodal points. In this case one speaks of a *topological [[semi-metal]]*-phase. If a loop of such deformations has the effect of [[braid group|braiding]] these nodal points around each other then it may in total have the effect of having transformed the [[ground state]] by an operation in a [[braid group representation]]. If this is non-abelian, it follows in particular that the ground state is "degenerate", hence has "multiplicity", hence that there is a [[Hilbert space]] of states, all of the ground state energy at the chemical potential, whose [[dimension of a vector space|dimension]] is $\gt 1$. 
+
+The first and archetypical example of both these special cases of topological phases of matter is seen in *[[graphene]]*, where a band gap *almost* closes over two *[[Dirac points]]* (up to a tiny lift by the [[spin-orbit coupling]]).
+
+Technically one says that the topological order of graphene is "symmetry protected", because any [[complex vector bundle]] (such as the [[valence bundle]] may naively seem to be) is necessarily [[trivial bundle|trivial]] over the [[complement]] of two Dirac points inside the Brillouin [[2-torus]] (a punctured torus, see [[torus#AsAHomotopyType|here]]), but the dynamics of electrons in graphene is "$T I$"-symmetric which forces the valence bundle to be a [[real vector bundle]] with a class not in [[KU-theory]] but in [[KO-theory]], which can be non-trivial over a punctured torus. This non-triviality of the $T I$-symmetric valence bundles is exhibited by non-trivial [[Berry phases]] around the two nodal points.
+
+Generally, it is expected that [[codimension]]=2 [[defects]] in a topological state of matter exhibit such a ([[symmetry protected topological order|symmetry protected]]) *[[topological order]]* in that the adiabatic [[braid group|braiding]] of them around each other inside the topological host material constitutes a [[braid group representation]] on the systems [[ground state]]. In this case one refers to these defects also a *[[anyons]]*. The idea to use the [[braid representations]] that these form as [[quantum gates]] in a [[quantum computer]] underlies the subject of [[topological quantum computation]].
+
+
+
+(...)
+
+(...)
+
 
 Examples of topological states of matter: [[quantum Hall effect]], [[topological insulator]], [[quantum spin Hall effect]]
 
@@ -89,6 +105,8 @@ Review and survey:
 * Shou-cheng Zhang, _Viewpoint: Topological states of quantum matter_,  APS Physics 1, 6 (2008) [doi:10.1103/Physics.1.6](http://dx.doi.org/10.1103/Physics.1.6)
 
 * Vishal Bhardwaj, Ratnamala Chatterjee, *Topological Materials -- New Quantum Phases of Matter*, Resonance **25** (2020) 431–441  ([doi:10.1007/s12045-020-0955-5](https://doi.org/10.1007/s12045-020-0955-5), [pdf](https://www.ias.ac.in/article/fulltext/reso/025/03/0431-0441))
+
+* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
 
 See also:
