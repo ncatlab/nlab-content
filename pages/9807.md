@@ -266,7 +266,7 @@ With this one defines the sub-[[chain complex]] of _[[horizontal differential fo
 
 (this subspace need not be preserved by the differential, but the following further subspace is)
 
-and the further sub-[[dgc-algebra]] of _basic differential forms_, which are in addition in the [[kernel]] of the [[Lie derivatives]] (eq:WeilModelLieDerivative)
+and the further sub-[[dgc-algebra]] of _[[basic differential forms]]_, which are in addition in the [[kernel]] of the [[Lie derivatives]] (eq:WeilModelLieDerivative)
 
 \[
   \label{WeilModelBasicForms}
@@ -336,7 +336,7 @@ Reviews include ([Mathai-Quillen 86, Sec. 5](#MathaiQuillen86), [Kalkman 93, sec
 ##### Via horizontal projection of the Weil model
   {#LabelCartanViaHorizontalProjection}
 
-The _Cartan model_ arises form the Weil model [above](#TheWeilModel) by the observation that the first of the two constraints defining basic differential forms (eq:WeilModelBasicForms), namely the constrain for [[horizontal differential forms]] (eq:WeilModelHorizontalForms), may be uniformly solved:
+The _Cartan model_ arises form the Weil model [above](#TheWeilModel) by the observation that the first of the two constraints defining [[basic differential forms]] (eq:WeilModelBasicForms), namely the constrain for [[horizontal differential forms]] (eq:WeilModelHorizontalForms), may be uniformly solved:
 
 +-- {: .num_lemma #ProjectionOntoHorizontalDifferentialForms}
 ###### Lemma
@@ -399,7 +399,7 @@ We have:
      \big( CE(\mathfrak{g}) \otimes \Omega^\bullet(X) \big)_{hor}    
    $$
 
-1. The operator commutes with the [[Lie derivative]] (eq:WeilModelLieDerivative) and hence restricts to an isomorphism onto the sub-[[dgc-algebra]] of basic differential forms (eq:WeilModelBasicForms)
+1. The operator commutes with the [[Lie derivative]] (eq:WeilModelLieDerivative) and hence restricts to an isomorphism onto the sub-[[dgc-algebra]] of [[basic differential forms]] (eq:WeilModelBasicForms)
 
    \[
      \label{IsomorphisamCartanToWeilModel}
@@ -823,6 +823,10 @@ based on the [[simplicial de Rham complex]]
 see also
 
 * Hugo Garcia-Compean, Pablo Paniagua, [[Bernardo Uribe]], _Equivariant extensions of differential forms for non-compact Lie groups_ ([arXiv:1304.3226](https://arxiv.org/abs/1304.3226))
+
+Some related discussion for equivariant [[Riemannian geometry]] in
+
+* [[Peter Michor]], _Basic Differential Forms for Actions of Lie Groups_, Proceedings of the American Mathematical Society Vol. 124, No. 5 (May, 1996), pp. 1633-1642 ([jstor:](ttps://www.jstor.org/stable/2161476))
 
 Discussion in the broader context of [[equivariant cohomology|equivariant]] [[differential cohomology]] is in
 
