@@ -56,7 +56,7 @@ As [[linear representations]] of the [[Lorentz group]] ([[Pin group]]) and [[iso
 
 Here $\mathbf{n}$ denotes an [[irreducible representation]] of [[dimension]] $n$, and the subscript ${}_{\mathrm{sgn}}$ indicates the one of the two irreps of that dimension which pick up an extra sign under [[orientation]]-reversal ($\mathbf{4}_{{}_{sgn}} = \mathbf{4} \otimes \mathbf{1}_{{}_{sgn}}$ for $\mathbf{1}_{{}_{sgn}}$ the [[sign representation]]).
 
-So the [[pion]] is a [[Lorentz group|Lorentz]]-[[pseodoscalar]], and the [[omega-meson]] and [[rho-meson]] are [[Lorentz group|Lorentz]] [[pseudovector]]  [[field (physics)|fields]].
+So the [[pion]] is a [[Lorentz group|Lorentz]]-[[pseudoscalar]], and the [[omega-meson]] and [[rho-meson]] are [[Lorentz group|Lorentz]] [[pseudovector]]  [[field (physics)|fields]].
 
 As bilinears in the [[up-quark]] [[Weyl spinor]] [[field (physics)|field]] $u$ and [[down-quark]] [[Weyl spinor]] [[field (physics)|field]]  $d$ these [[meson]] [[field (physics)|fields]] are given as follows (with $(\sigma^0, \sigma^1, \sigma^2, \sigma^3)$ the [[Pauli matrices]]):
 
