@@ -137,6 +137,8 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
 
 ## Related concepts
 
+
+
 * [[EHP spectral sequence]]
 
 * [[loop space object]], [[free loop space object]],
@@ -154,6 +156,8 @@ Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)
     * [[Spanier-Whitehead category]]
 
     * [[suspension isomorphism]]
+
+    * [[Sullivan model of suspensions]]
 
   * [[suspension of a chain complex]]
 
