@@ -58,11 +58,15 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 * [[Dan Freed]], _On Wigner's theorem_ ([arXiv:1112.2133](http://arxiv.org/abs/1112.2133))
 
+* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics_ 2nd Ed. 2018 Springer, ch.12
+
 For [[quaternions|quaternionic]] Hilbert spaces
 
 * C. S. Sharma and D. F. Almeida, _Additive isometries on a quaternionic Hilbert space_, Journal of Mathematical Physics 31, 1035 (1990) ([doi:10.1063/1.528779](https://doi.org/10.1063/1.528779))
 
-See also 
+
+
+See also, 
 
 * Wikipedia, _[Wigner's theorem](https://en.wikipedia.org/wiki/Wigner%27s_theorem#Statement)_
 
