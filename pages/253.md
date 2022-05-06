@@ -44,7 +44,7 @@ f&\mapsto&1_y\circ f\\
 \theta&\mapsto&1_{1_y} \circ \theta
 \end{array}
 \right):B(x,y)\rightarrow B(x,y)$
-*  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B_{y,z} \times B_{x,y} \times B_{w,x}$ to $B_{w,z}$ built out of ${\circ}$; such that
+*  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B(y,z) \times B(x,y) \times B(w,x)$ to $B(w,z)$ built out of ${\circ}$; such that
 *  Such that the [[pentagon identity]] is satisfied by the [[associators]].
 *  And such that the triangle identity is satisfied by the [[unitors]].
 
