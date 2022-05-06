@@ -19,7 +19,11 @@ This page collects links related to
 
   _Stable homotopy and generalized homology_, 
 
-  Chicago Lectures in mathematics, 1974
+  Chicago Lectures in Mathematics, 1974
+
+  The University of Chicago Press 1974
+
+  ([ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html))
 
 
 on [[stable homotopy theory]] and [[generalised homology]] theory, with emphasis on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]] (today: "[[chromatic homotopy theory]]").
