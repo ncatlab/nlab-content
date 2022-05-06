@@ -29,6 +29,14 @@ Related $n$Lab entries include [[Picard-Vessiot theory]], [[Riemann-Hilbert prob
   
 * B. Gambier, _Sur les équations différentielles du second ordre et du premier degré dont l'intégrale générale est à points critiques fixes_ Acta Math. __33__ (1910) 1–55
 
+#### Collection 1hundred years
+
+* _The Painleve property, one century later_, Robert Conte, ed. CRM Series in Mathematical Physics, Springer, 199 [doi](https://doi.org/10.1007/978-1-4612-1532-5)
+
+Among the papers:
+
+* [[Boris Dubrovin]], _Painlevé transcendents in two-dimensional topological field theory_, 287-412
+
 #### Contemporary works
 
 * Martin D. Kruskal, Nalini Joshi, Rod Halburd, _Analytic and asymptotic methods for nonlinear singularity analysis: a review and extensions of tests for the Painlev&#233; property_, 1996 [pdf](http://www.ucl.ac.uk/~ucahrha/Publications/Pond-97.pdf)
