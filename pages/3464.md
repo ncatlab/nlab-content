@@ -61,6 +61,6 @@ The preface is
 
 About the geographic place see wikipedia: [Como](http://en.wikipedia.org/wiki/Como) and the conference centre : [Villa Olmo](http://en.wikipedia.org/wiki/Villa_Olmo).
 
-In 2018, a [school and conference](http://tcsc.lakecomoschool.org/) on topos theory was hosted in Como.
+In 2018, a [school and conference](http://tcsc.lakecomoschool.org/) on topos theory was hosted in Como ([video playlist](https://www.youtube.com/playlist?list=PLh_3Q6ZRqWs0LBptMGClJ8OArR0fBT6Pp)).
 
 category: reference
