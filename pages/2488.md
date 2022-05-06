@@ -154,6 +154,7 @@ Notice that this expected statement does require the assumption that $X$ is $k$-
 
 ## Properties
 
+
 ### Recursive definition 
  {#RecursiveDefinition}
 
@@ -304,6 +305,38 @@ $$
 ### Properties {#Properties}
 
 #### General {#GeneralPropsTruncation}
+
+
++-- {: .num_prop}
+###### Proposition
+
+For any small $\infty$-category $C$,
+$\tau_{\leq n} PSh(C, \infty Grpd) \simeq PSh(C, n Grpd) $,
+and truncation acts pointwise.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+If $P$ is an $n$-truncated ∞-presheaf, then
+$P(c) \simeq PSh(C)(C(-, c), P)$ is $n$-truncated; thus
+$P$ takes values in $n Grpd$.
+
+Conversely, if $P$ takes values in $n Grpd$, then 
+the fact every presheaf is a colimit of representables
+implies $hom(Q, P)$ is a limit of $n$-truncated spaces, and is thus
+$n$-truncated.
+
+Given this identification of the subcategory of $n$-truncated objects,
+we can see that the truncation-inclusion adjunction between
+$n Grpd$ and $\infty Grpd$ induces an adjunction whose right
+adjoint is the inclusion $PSh(C, n Grpd) \to 
+PSh(C, \infty Grpd)$
+
+=--
+
 
 
 +-- {: .num_corollary}
