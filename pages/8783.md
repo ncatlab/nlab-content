@@ -154,6 +154,8 @@ For [[genus]] $g\geq 2$ the moduli stack of [[complex structures]] is equivalent
 
 * [[moduli space]], [[moduli stack]], [[mapping class group]], [[enumerative geometry]], [[Mumford class]], [[Deligne-Mumford stack]]
 
+* [[moduli space of super Riemann surfaces]]
+
 * [[moduli space of (higher) line bundles]]
 
 * [[Witten conjecture]]
