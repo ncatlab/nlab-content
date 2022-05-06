@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[connection on a bundle]] may be understood as a construction that serves to interpolate between a [[principal bundle]] and its [[characteristic class]] in real cohomology, represented by [[curvature characteristic form]]s of the connection.
+A [[connection on a bundle]] may be understood as a construction that serves to interpolate between a [[principal bundle]] and its [[characteristic class]] in [[real cohomology]], represented by [[curvature characteristic form]]s of the connection.
 
 If one allows (and it makes good sense to allow this) curvature characteristic forms to be represented not necessarily by globally defined forms, but by [[cocycle]]s in the [[abelian sheaf cohomology]] of the truncated [[de Rham complex]] $\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2(-) \to \cdots \to \Omega^n_{cl}(X)$ then a weaker notion than that of a connection serves the same purpose: that of a _pseudo-connection_ .
 
