@@ -64,6 +64,8 @@ See also
 
 * Wikipedia, _[Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)_
 
+* Good Calculators, _[Standard deviation calculator](https://goodcalculators.com/standard-deviation-calculator/)_
+
 [[!redirects Gaussian probability measure]]
 [[!redirects Gaussian probability measures]]
 
