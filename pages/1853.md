@@ -244,8 +244,97 @@ See for instance section 3.2 of
 
 
 ### In Whitehead-generalized cohomology
+  {#CupProductInWhiteheadGeneralizedCohomologyTheory}
 
-For the cup product in [[multiplicative cohomology theory|multiplicative]] [[Whitehead-generalized cohomology theories]]... see [here](suspension+spectrum#SmashMonoidalDiagonals).
+For the cup product in [[multiplicative cohomology theory|multiplicative]] [[Whitehead-generalized cohomology theories]] is defined by the same recipe of "cocycles pre-composed by diagonal and post-composed by product operation", one just has to observe that [[symmetric monoidal smash product|symmetric smash-]][[monoidal category with diagonals|monoidal diagonals]] on [[suspension spectra]] 
+
+\[
+  \label{SmashMonoidalDiagonalOnSuspensionSpectra}
+  \Sigma^\infty X
+  \overset{ \;\; D_X \;\; }{\longrightarrow}
+  \big(
+    \Sigma^\infty X 
+  \big)
+  \wedge
+  \big(
+    \Sigma^\infty X 
+  \big)  
+\]
+
+do exists. This is discussed at _[suspension spectrum -- Smash-monoidal diagonals](suspension spectrum#SmashMonoidalDiagonals)_.
+
+
+With this, given a [[Whitehead-generalized cohomology theory]] $\widetilde E$ [[Brown representability theorem|represented]] by a  [[ring spectrum]]  
+
+$$
+  \big(E, 1^E, m^E \big)
+  \;\;
+  \in
+  \;
+  SymmetricMonoids
+  \big(
+    Ho(Spectra), \mathbb{S}, \wedge 
+  \big)
+$$
+
+the smash-monoidal diagonal structure (eq:SmashMonoidalDiagonalOnSuspensionSpectra) on suspension spectra serves to define the cup product $(-)\cup (-)$ in the corresponding [[multiplicative cohomology theory|multiplicative cohomology theory structure]] by:
+
+$$
+  \begin{aligned}
+  &
+  \big[
+    \Sigma^\infty X
+    \overset{c_i}{\longrightarrow}
+    \Sigma^{n_i} E
+  \big] 
+  \,\in\, {\widetilde E}{}^{n_i}(X) 
+  \\
+  &
+  \Rightarrow
+  \;\;
+  [c_1] \cup [c_2]
+  \,
+    \coloneqq
+  \,
+  \Big[
+    \Sigma^\infty X
+    \overset{
+      \Sigma^\infty(D_X)
+    }{\longrightarrow}
+    \big(
+      \Sigma^\infty X
+    \big)
+      \wedge
+    \big(
+      \Sigma^\infty X
+    \big)
+    \overset{
+      ( c_1 \wedge c_2 )
+    }{\longrightarrow}
+    \big(
+      \Sigma^{n_1} E
+    \big)
+      \wedge
+    \big(
+      \Sigma^{n_2} E
+    \big)  
+    \overset{
+      m^E
+    }{\longrightarrow}
+    \Sigma^{n_1 + n_2}E
+  \Big]
+  \;\;
+  \in
+  \,
+  {\widetilde E}{}^{n_1+n_2}(X)
+  \,.
+  \end{aligned}
+$$
+
+
+
+
+
 
 ## In abelian sheaf cohomology ##
 
