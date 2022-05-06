@@ -30,7 +30,7 @@ Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces
 
 > graphics grabbed from [Hyde-Ramsden-Robins 14](#HydeRamsdenRobins14)
 
-This turns out to be broadly captured([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
+This turns out to be broadly captured ([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
 The word _orbifold_ was introduced in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _global quotient orbifolds_.  
 
@@ -119,16 +119,17 @@ Orbifolds in [[string theory]]:
 
 * [[orientifold]]
 
+
+
 ## References
 
 ### General
 
-The concept originates in
+The original articles:
 
-* {#Satake} I. Satake, _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359]( https://doi.org/10.1073/pnas.42.6.359))
- 
+* {#Satake} [[Ichiro Satake]], _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359]( https://doi.org/10.1073/pnas.42.6.359))
 
-* I. Satake, _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan 9 (1957), 464&#8211;492.
+* [[Ichiro Satake]], _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan 9 (1957), 464&#8211;492 ([euclid:1261153826](https://projecteuclid.org/euclid.jmsj/1261153826))
 
 * {#Thurston} [[William Thurston]], _Three-dimensional geometry and topology,_ preliminary draft, University of Minnesota, Minnesota, (1992)
   
@@ -136,7 +137,11 @@ The concept originates in
 
   _The Geometry and Topology of Three-Manifolds;_ ([web](http://library.msri.org/books/gt3m/))
 
-  in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf).
+  in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf)
+
+* [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116 (1984), p. 70-97 ([numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/))
+
+For careful comparative review of the definitions in these original articles see [IKZ 10](#IKZ10).
 
 Survey of basic orbifold theory:
 
@@ -196,14 +201,22 @@ A reference dealing with the [[string topology]] of orbifolds is
  {#ReferencesAsLieGroupoids}
 
 
-Discussion of orbifold as [[Lie groupoids]]/[[differentiable stacks]] is in
+Discussion of orbifolds as [[Lie groupoids]]/[[differentiable stacks]]:
  
-
 * {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
 
 * {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, [[Alejandro Adem]], [[Jack Morava]], Yongbin Ruan (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
 
 * {#Lerman08} [[Eugene Lerman]], _Orbifolds as stacks?_, Enseign. Math. (2), 56 3-4 (2010) ([arXiv:0806.4160](http://arxiv.org/abs/0806.4160), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
+
+Review:
+
+* Alexander Amenta, _The Geometry of Orbifolds via Lie Groupoids_, ANU 2012 ([arXiv:1309.6367](https://arxiv.org/abs/1309.6367))
+
+Analogous discussion for topological orbifolds as [[topological stacks]]:
+
+* Vesta Coufal, [[Dorette Pronk]], Carmen Rovi, [[Laura Scull]], Courtney Thatcher, _Orbispaces and their Mapping Spaces via Groupoids: A Categorical Approach_, Contemporary Mathematics 641 (2015): 135-166 ([arXiv:1401.4772](https://arxiv.org/abs/1401.4772))
+
 
 Discussion of the corresponding perspective in [[algebraic geometry]], via [[Deligne-Mumford stacks]]:
 
