@@ -19,6 +19,14 @@ On [[string phenomenology]] in [[heterotic M-theory]]:
 
 * {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
 
+and with emphasis on [[heterotic line bundles]] in the [[hidden sector]]:
+
+On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]:
+
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_ ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455))
+
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
+
 
 On [[heterotic M-theory on ADE-orbifolds]]:
 
