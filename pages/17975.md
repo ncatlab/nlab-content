@@ -47,6 +47,11 @@ The suggestion that fuzzy dark matter induces the observed almost-flat galactic 
 
 > There are many works explaining the rotation curves of dwarf [17, 23, 69], and large galaxies [29, 43, 70–78] in this model.
 
+More recently, detection of the [[21cm hydrogen line]] from cosmic dawn indicates that star formation set in earlier than compatible with fuzzy dark matter models ([Nebrin 17](#Nebrin17), [Nebrin-Ghara-Mellema 18](#NebrinGharaMellema18)). This would rule out substantial contributions of fuzzy dark matter.
+
+<br/>
+
+
 ## References
  {#References}
 
@@ -72,6 +77,10 @@ A detailed discussion is in
 
 * {#HOTW16} [[Lam Hui]], [[Jeremiah Ostriker]], [[Scott Tremaine]], [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_,  Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
+Some thoughts on the quantum [[measurement problem]] for fuzzy DM particles with huge macroscopic [[Compton wavelengths]] is in 
+
+* Adam D. Helfer, _Quantum measurement and fuzzy dark matter_ ([arXiv:1809.04946](https://arxiv.org/abs/1809.04946))
+
 ### MOND Phenomenology
 
 Discussion of how [[superfluid]] aspects of [[axion|axionic]] fuzzy dark matter reproduce [[MOND]] [[phenomenology]] is in 
@@ -83,6 +92,19 @@ Discussion of how [[superfluid]] aspects of [[axion|axionic]] fuzzy dark matter 
 * JiJi Fan, _Ultralight Repulsive Dark Matter and BEC_ ([arXiv:1603.06580](https://arxiv.org/abs/1603.06580))
 
 * Andrea Addazi, Antonino Marciano, _UV completion of a theory of Superfluid Dark Matter_ ([arXiv:1801.04083](https://arxiv.org/abs/1801.04083))
+
+### Tension with 21cm hydrogen line
+ {#ReferencesTensionWithHydrogenLineSpectroscopy}
+
+Strong constraints on fuzzy dark matter from observation of the cosmic [[21cm hydrogen line]]  are claimed and discussed in 
+
+* Adam Lidz, [[Lam Hui]], _The Implications of a Pre-reionization 21 cm Absorption Signal for Fuzzy Dark Matter_, Phys. Rev. D 98, 023011 (2018) ([arXiv:1805.01253](https://arxiv.org/abs/1805.01253))
+
+* {#Nebrin17} Olof Nebrin, _Cosmic Dawn in a Fuzzy Universe: Constraining the nature of Dark Matterwith 21 cm Cosmology_, Stockholm 2017 ([diva2:1195402](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1195402&dswid=-8037), [urn:nbn:se:su:diva-154861](http://su.diva-portal.org/smash/record.jsf?pid=diva2%3A1195402&dswid=6755))
+
+* {#NebrinGharaMellema18} Olof Nebrin, Raghunath Ghara, Garrelt Mellema, _Fuzzy Dark Matter at Cosmic Dawn: New 21-cm Constraints_ ([arXiv:1812.09760](https://arxiv.org/abs/1812.09760), [reddit](https://www.reddit.com/r/Physics/comments/a9zeeb/my_first_paper_fuzzy_dark_matter_at_cosmic_dawn/))
+
+
 
 ### Review
 
