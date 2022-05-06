@@ -181,7 +181,7 @@ $$
 
 For $p$ a [[prime number]], then a _$p$-typical $\Lambda$-ring_ is 
 
-* a [[commutative ring]] $R$ 
+* a [[commutative ring]] $A$ 
 
 * equipped with an [[endomorphism]] $F_A \colon A \to A$
 
