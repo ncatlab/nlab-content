@@ -23,7 +23,7 @@ This is in contrast to [[scalar mesons]].
 
 ## Examples
 
-Examples of [[pseudo-vector mesons]]:
+Examples of [[vector mesons]]:
 
 * [[omega meson]]
 
@@ -31,14 +31,14 @@ Examples of [[pseudo-vector mesons]]:
 
 * [[K* meson]]
 
-Examples of [[vector mesons]]:
+Examples of [[pseudo-vector mesons]]:
 
 * [[a1-meson]]
 
 * [[f1-meson]]
 
 \begin{imagefromfile}
-    "file_name": "LightAndChiralPartnerMesonFieldsPinII.jpg",
+    "file_name": "LightAndChiralPartnerMesonFieldsPinIII.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
