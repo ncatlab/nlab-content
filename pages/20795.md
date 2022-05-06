@@ -96,7 +96,15 @@ For parallel intersection:
 
 * {#GavaNarainSarmadi97}  E. Gava, K.S. Narain, M.H. Sarmadi, _On the Bound States of $p$- and $(p+2)$-Branes_, Nucl. Phys. B504 (1997) 214-238 ([arxiv:hep-th/9704006](https://arxiv.org/abs/hep-th/9704006))
 
-### Relation to monopoles
+### For transversal intersections
+
+### As spikes/BIons
+
+On [[Dp-D(p+2) brane intersections]] as spikes/[[BIons]] from the [[M5-brane]]:
+
+* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Self-Dual String Soliton_, Nucl. Phys. B515 (1998) 203-216 ([arXiv:hep-th/9709014](https://arxiv.org/abs/hep-th/9709014))
+
+#### Relation to monopoles
  {#ReferencesRelationToMonopoles}
 
 On transversal [[brane intersection|intersection]] of D$p$/D$(p+2)$-branes as [[Yang-Mills monopoles]]:
@@ -126,7 +134,7 @@ and as transversal [[D6-D8-brane bound states]] on a [[half NS5-brane]] in [[typ
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arxiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
 
-### Relation to Vassiliev braid invariants
+#### Relation to Vassiliev braid invariants
  {#ReferencesRelationToKnotInvariants}
 
 Relation of [[Dp-D(p+2)-brane bound states]] ([hence](#ReferencesRelationToMonopoles)
@@ -140,7 +148,7 @@ Relation of [[Dp-D(p+2)-brane bound states]] ([hence](#ReferencesRelationToMonop
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
-### Lift to M2-M5-brane bound states
+#### Lift to M2-M5-brane bound states
  {#ReferencesLiftToMTheory}
 
 The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-brane bound states]]/[[E-strings]] in  [[M-theory]], under [[duality between M-theory and type IIA string theory]]+[[T-duality]], via generalization of [[Nahm's equation]] (this eventually motivated the [[BLG-model]]/[[ABJM model]]):
@@ -158,8 +166,17 @@ The lift of [[Dp-D(p+2)-brane bound states]] in [[string theory]] to [[M2-M5-bra
 [[!redirects Dp-Dp+2-brane bound state]]
 [[!redirects Dp-Dp+2-brane bound states]]
 
+[[!redirects DpDp2-brane bound state]]
+
+
 [[!redirects Dp/D(p+2)-bound state]]
 [[!redirects Dp/D(p+2)-bound states]]
+
+
+[[!redirects Dp-D(p+2) brane intersection]]
+[[!redirects Dp-D(p+2) brane intersections]]
+[[!redirects Dp/D(p+2) brane intersection]]
+[[!redirects Dp/D(p+2) brane intersections]]
 
 
 [[!redirects Dp-D(p+2)-brane intersection]]
