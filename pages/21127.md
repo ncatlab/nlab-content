@@ -35,7 +35,10 @@ Classification of [[condensed matter physics|condensed matter]] with [[gapped Ha
 
 * [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
-* Guo Chuan Thiang, _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincare 17(4) 757-794 (2016) ([arXiv:1406.7366](https://arxiv.org/abs/1406.7366))
+* [[Guo Chuan Thiang]], _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincare 17(4) 757-794 (2016) ([arXiv:1406.7366](https://arxiv.org/abs/1406.7366))
+
+* [[Guo Chuan Thiang]], _Topological phases: isomorphism, homotopy and K-theory_, Int. J. Geom. Methods Mod. Phys. 12 1550098 (2015) ([arXiv:1412.4191](https://arxiv.org/abs/1412.4191))
+
 
 * Ralph M. Kaufmann, Dan Li, Birgit Wehefritz-Kaufmann, _Topological insulators and K-theory_ ([arXiv:1510.08001](https://arxiv.org/abs/1510.08001), [spire:1401095/](http://inspirehep.net/record/1401095/))
 
