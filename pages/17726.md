@@ -12,6 +12,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 **Synthetic topology**, like [[synthetic domain theory]], [[synthetic differential geometry]], and [[synthetic computability]], are part of [[synthetic mathematics]]. It uses the internal logic of a topos to develop a part of mathematics. In this case topology. This is closely related to topology via logic and [[abstract Stone duality]].
