@@ -465,13 +465,20 @@ See also [[Moufang loop]].
 
 ## References
 
-* Markus Rost, _On the dimension of a composition algebra_, Documenta  Mathematica __1__ (1996), 209-214, [files](http://www.math.uni-bielefeld.de/documenta/vol-01/10.html) Abstract: "The possible dimensions of a composition algebra are 1, 2, 4, or 8. We give a tensor categorical argument."
+* {#Rost96} Markus Rost, _On the dimension of a composition algebra_, Documenta  Mathematica __1__ (1996), 209-214, [files](http://www.math.uni-bielefeld.de/documenta/vol-01/10.html) Abstract: "The possible dimensions of a composition algebra are 1, 2, 4, or 8. We give a tensor categorical argument."
+
+A general abstract formulation of [Rost 96](#Rost96) in terms of [[string diagrams]] in [[additive category|additive]] [[braided monoidal categories]] is in
+
+* {#Street18} [[Ross Street]], _Vector product and composition algebras in braided monoidal additive categories_ ([arXiv:1812.04143](https://arxiv.org/abs/1812.04143))
+
 
 An exposition of the [[string diagram]] proof of the [Hurwitz' theorem](HurwitzTheoremSection) on the classification of compositon algebras is given in
 
 * [[Bruce Westbury]], _Hurwitz' theorem on composition algebras_ ([arXiv:1011.6197](http://arxiv.org/abs/1011.6197))
 
 * [[John Baez]]'s [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
+
+See also
 
 * [[John Conway]], Derek A. Smith, _On Quaternions and Octonions_, A.K. Peters, 2003. 
 
