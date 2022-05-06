@@ -298,7 +298,7 @@ $$
   SU(6)/ SO(4) 
 $$
 
-is the Grassmannian of those [[Cayley 4-planes]] that are also [[special Lagrangian submanifolds]] ([BBMOOY 96, p. 8](Cayley+form#BBMOOY96)).
+is the Grassmannian of those [[Cayley 4-planes]] that are also [[special Lagrangian submanifolds]] ([BBMOOY 96, p. 7 (8 of 17)](Cayley+form#BBMOOY96)).
 
 
 Moreover, 
