@@ -38,6 +38,9 @@ In the context of [[M-theory on G2-manifolds]] (the [[G2-MSSM]]) a generic solut
 
 * {#Strassler} [[Matthew Strassler]], _The Hierarchy Problem_ ([web](http://profmattstrassler.com/articles-and-posts/particle-physics-basics/the-hierarchy-problem/))
 
+* Seth Koren, _The Hierarchy Problem: From the Fundamentals to the Frontiers_ ([arXiv:2009.11870](https://arxiv.org/abs/2009.11870))
+
+
 In the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]] a solution is proposed in 
 
 * {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], Piyush Kumar, section V.A.2 (p. 10-11) of _Compactified String Theories -- Generic Predictions for Particle Physics_,  Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
