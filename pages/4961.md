@@ -66,11 +66,13 @@ The terminology _chaotic topology_ is motivated (see also at _[[chaos]]_) in
 
 and via footnote 1 (page 3) in
 
-* [[William Lawvere]],  _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf))
+* [[William Lawvere]],  _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf)).
 
-and appears for instance in 
+In the context of [[Grothendieck topologies]], this appears for instance in 
 
 * [[The Stacks Project]], _[Example 7.6.6](https://stacks.math.columbia.edu/tag/07GE)_
+
+following [[SGA4|SGA4-1, 1.1.4]].
 
 [[!redirects discrete topology]]
 
