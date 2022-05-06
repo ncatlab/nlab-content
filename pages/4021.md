@@ -112,6 +112,9 @@ For more details on Giry's monad and its variants see [[Giry's monad]].
 
 * [[synthetic probability theory]]
 
+* [[statistical significance]]
+
+* [[p-value]]
 
 ## References
 
