@@ -279,8 +279,11 @@ Theories_, Addison-Wesley Publ. Comp., (1987)
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+Review specifically for [[supergravity]]:
 
-A survey of the history of the role of the KK-mechanism in theoretical physics is
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
+
+A survey of the history of the role of the KK-mechanism in theoretical physics:
 
 * {#Duff94} [[Michael Duff]], _Kaluza-Klein Theory in Perspective_, Proc. of the Symposium: _The Oskar Klein Centenary_, World Scientific, Singapore. 1994. ([arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046))
 
