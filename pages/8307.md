@@ -222,9 +222,9 @@ A proof is spelled out for instance as ([Conrad, theorem 4.1](#Conrad)).
 
 ## References
 
-An exposition is in 
+An exposition (in the case of vector spaces) is in 
 
-* Collin Roberts, _Introduction to the tensor product_
+* Tim Gowers, _How to lose your fear of tensor products_, ([web](https://www.dpmms.cam.ac.uk/~wtg10/tensors3.html))
 
 and, in the further generality of the [[tensor product of modules]], in 
 
