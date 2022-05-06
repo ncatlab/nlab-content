@@ -183,7 +183,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[stack]]
 
-### B2 Internal and localy internal categories
+### B2 Internal and locally internal categories
 
 #### B2.1 Review of enriched categories
 
