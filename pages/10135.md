@@ -381,7 +381,32 @@ Here we used the various [[(∞,1)-adjunctions]] and the [[(∞,1)-Yoneda lemma]
 
 =--
 
+
 $\,$
+
+### $G$-Equivariant cohesive toposes
+
+By the [[(n-connected, n-truncated) factorization system]], a [[1-morphism]] in an [[(∞,1)-topos]] is [[n-truncated object in an (infinity,1)-category|0-truncated]] precisely if it has the [[right lifting property]] again every morphism that is [[n-connected object of an (infinity,1)-topos|0-connected]].
+
++-- {: .num_example}
+###### Example
+**([[faithful functors]] are the [[n-truncated object in an (infinity,1)-category|0-truncated]]-[[morphisms]] between [[groupoids]])
+
+In the [[(∞,1)-topos]] [[∞Groupoids]] a morphism between 1-truncated objects ([[groupoids]]) is 0-truncated precisely if, regarded as a [[functor]] between [[small categories]], is a [[faithful functor]].
+
+=--
+
+Therefore one might say "[[faithful morphism]]" for every [[n-truncated object in an (infinity,1)-category|0-truncated]] morphism in an [[(∞,1)-topos]]. But the terminology "faithful" is used with other meanings, too:
+
++-- {: .num_example}
+###### Example
+
+(...)
+
+
+=--
+
+
 
 ### Orbifolds
 
@@ -401,9 +426,9 @@ $$
 
 which  is
 
-1. [[n-truncated object in an (infinity,1)-category|0-truncated]];
+1. [[n-truncated object in an (infinity,1)-category|0-truncated]] (as an object of the [[slice (infinity,1)-topos|slice]]);
 
-1.  $sharp_{sing}$-[[modal object|modal]] (hence "$Singularity$-[[codiscrete object|codiscrete]]").
+1.  $\sharp_{sing}$-[[modal object|modal]] (hence "$Singularity$-[[codiscrete object|codiscrete]]").
 
 Given such an orbifold, we say that its _underlying [[geometric stack|geometric groupoid]]_ is its $Singularities$-[[flat modality|flat]] aspect:
 
@@ -424,10 +449,11 @@ If $\mathbf{H}$ is moreover [[differential cohesion|differentially cohesive]] an
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #GlobalHomotopyQuotientOrbifold}
 ###### Example
+**(global [[homotopy quotient]]-[[orbifolds]])**
 
-Let $X \in \mathbf{H}$ be [[n-truncated object in an (infinity,1)-category|0-truncated]] and equipped with a $G$-[[∞-action|action]], with [[homotopy quotient]] $(X \sslash \mathbf{B}G \to \mathbf{B}G \in \mathbf{H}_{/\mathbf{B}G}$. Then
+Let $X \in \mathbf{H}$ be [[n-truncated object in an (infinity,1)-category|0-truncated]] and equipped with a $G$-[[∞-action|action]], with [[homotopy quotient]] $(X \sslash \mathbf{B}G \to \mathbf{B}G) \in \mathbf{H}_{/\mathbf{B}G}$. Then
 
 $$
   \mathcal{X}
@@ -454,14 +480,7 @@ $$
   \right)
 $$
 
-is an [[orbifold]] with isotropy groups in $G$, according to Def. \ref{Orbifold}.  Here on the right we used Prop. \ref{SingularitiesAsCoDisc}.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-In Def. \ref{Orbifold} the condition of [[n-truncated object in an (infinity,1)-category|0-truncation]] is crucial. 
+is an [[orbifold]] with isotropy groups in $G$, according to Def. \ref{Orbifold}.  Here on the right we identified the slice using Prop. \ref{SingularitiesAsCoDisc}.
 
 =--
 
