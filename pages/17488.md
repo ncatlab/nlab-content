@@ -245,9 +245,10 @@ A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]
 
 1. pointed [[continuous functions]]
 
-   $$
+   \[
+     \label{AdjunctStructureMaps}
      \tilde \sigma_n \colon X_n \to Maps(S^1,X_{n+1})_\ast
-   $$
+   \]   
 
    for all $n \in \mathbb{N}$ (the **adjunct structure maps**) from one component space to the pointed [[mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) out of $S^1$ into the next component space.
 
@@ -602,7 +603,7 @@ $$
   \pi_{q+k+1}(X_{k+1})
 $$
 
-and equivalently are given in terms of the adjunct structure maps of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} by
+and equivalently are given in terms of the adjunct structure maps (eq:AdjunctStructureMaps) of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} by
 
 $$
   \pi_{q+k}(X_k)
@@ -831,7 +832,7 @@ $$
 
 for all $n \in \mathbb{N}$.
 
-Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} such that all adjunct structure maps are weak homotopy equivalences.
+Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} such that all adjunct structure maps (eq:AdjunctStructureMaps) are weak homotopy equivalences.
 
 =--
 
@@ -857,10 +858,10 @@ Omega-spectra are singled out among all sequential pre-spectra as having good be
 +-- {: .num_example #StableHomotopyGroupsOfOmegaSpectrum}
 ###### Example
 
-If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, then its colimiting [[stable homotopy groups]] reduce to the actual homotopy groups of the component spaces, in that:
+If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, then its colimiting [[stable homotopy groups]] reduce to the actual [[homotopy groups]] of the component spaces, in that:
 
 $$
-  X \; \text{Omega-spectrum}
+  X \; \text{is Omega-spectrum}
   \;\;\;\;\;
    \Rightarrow
   \;\;\;\;\;
@@ -868,9 +869,18 @@ $$
     \simeq
   \left\{
     \array{
-      \pi_k X_0  & if\; k \geq 0
+      \pi_{k+n}\big( X_n \big)
+      &\vert& 
+      k + n \geq 0
       \\
-      \pi_0 X_{\vert k \vert}  & if \; k \lt 0
+      \pi_k\big(X_0\big)
+      &\vert& 
+      k \geq 0
+      \\
+      \pi_0 X_{\vert k \vert}  
+      &\vert&  
+      k \lt 0
+      \\
     }
   \right.
   \,.
@@ -884,7 +894,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-For an Omega-spectrum, the adjunct structure maps $\tilde \sigma_X$ are [[weak homotopy equivalences]], by definition, hence are classical weak equivalences. Hence $[S^1, \tilde \sigma_n]_\ast$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)). Therefore, by prop. \ref{TwoVersionsOfComponentsForStableHomotopyGroupsAgree}, the [[sequential colimit]] in def. \ref{StableHomotopyGroups} is entirely over isomorphisms and hence is given already by the first object of the sequence.
+For an Omega-spectrum, the adjunct structure maps $\tilde \sigma_X$ (eq:AdjunctStructureMaps) are [[weak homotopy equivalences]], by definition, hence are classical weak equivalences. Hence $[S^1, \tilde \sigma_n]_\ast$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)). Therefore, by prop. \ref{TwoVersionsOfComponentsForStableHomotopyGroupsAgree}, the [[sequential colimit]] in def. \ref{StableHomotopyGroups} is entirely over isomorphisms and hence is given already by the first object of the sequence.
 
 =--
 
