@@ -198,7 +198,7 @@ $\Sigma^0_1$-induction scheme.
 * KP$\omega$ is Kripke-Platek set theory, whose universe is an admissible set containing $\omega$.
 * KPl asserts that the universe is a limit of admissible sets
 * KPi asserts that the universe is inaccessible sets
-* KPh asserts that the universe is hyperinaccessible: a limit of inaccessible sets
+* KPh asserts that the universe is hyperinaccessible: an inaccessible set and a limit of inaccessible sets
 * KPm asserts that the universe is a Mahlo set
 
 A superscript zero indidcates that $\in$-induction is removed.
