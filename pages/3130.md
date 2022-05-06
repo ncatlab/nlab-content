@@ -103,10 +103,7 @@ $$
 $$
 
 that defines the Chern-character map is induced by a canonical cocycle on the [[spectrum]] $E$ that is called the **fundamental cocycle**.
-This is also called the _Chern-Dold character_ ([Upmeier 14](#Upmeier14), [Gross 19, Def. 2.5](#Gross19))
-
-
-spring
+This is also called the _[[Chern-Dold character]]_ ([Rudyak 98, II.3.17](#Rudyak98) [Upmeier 14](#Upmeier14), [Gross 19, Def. 2.5](#Gross19)).
 
 This is described for instance in section [4.8, page 47](http://arxiv.org/PS_cache/math/pdf/0211/0211216v2.pdf#page=47) of Hopkins-Singer [[Quadratic Functions in Geometry, Topology,and M-Theory]].
 
@@ -165,11 +162,11 @@ On the Chern character for [[generalized (Eilenberg-Steenrod) cohomology theory]
 
 * {#BunkeGepner13} [[Ulrich Bunke]], [[David Gepner]], around def. 2.1 of: _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_ ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247))
 
-based on the Dold-Chern character:
+based on the [[Chern-Dold character]]:
 
 * [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_, Matematika, 9:2 (1965), 8–14; Colloq. algebr. Topology, Aarhus Universitet, 1962, 2–9 ([mathnet:mat350](http://mi.mathnet.ru/eng/mat350)), reprinted in: J. Adams & G. Shepherd (Authors), _Algebraic Topology: A Student's Guide_ (London Mathematical Society Lecture Note Series, pp. 166-177). Cambridge: Cambridge University Press 1972 ([doi:10.1017/CBO9780511662584.015](https://doi.org/10.1017/CBO9780511662584.015)) 
 
-* [[Yuli Rudyak]], II.7.13 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
+* {#Rudyak98} [[Yuli Rudyak]], II.7.13 in: _On Thom Spectra, Orientability, and Cobordism_, Springer 1998 ([doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9))
 
 * {#Upmeier14} Markus Upmeier, _Refinements of the Chern-Dold Character: Cocycle Additions in Differential Cohomology_,  J. Homotopy Relat. Struct. 11, 291–307 (2016). ([arXiv:1404.2027](https://arxiv.org/abs/1404.2027), [doi:10.1007/s40062-015-0106-y](https://doi.org/10.1007/s40062-015-0106-y))
 
@@ -210,6 +207,13 @@ See also
 
 [[!redirects Chern character map]]
 [[!redirects Chern character maps]]
+
+[[!redirects Chern-Dold character]]
+[[!redirects Chern-Dold characters]]
+
+[[!redirects Chern-Dold character map]]
+[[!redirects Chern-Dold character maps]]
+
 
 [[!redirects Dold-Chern character]]
 [[!redirects Dold-Chern characters]]
