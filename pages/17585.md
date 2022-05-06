@@ -17,6 +17,8 @@
 
 In [[rational homotopy theory]], given a [[rational topological space]] modeled by a [[Sullivan model]] [[dg-algebra]], there is an explicit description of the Sullivan model of its [[free loop space]].
 
+This is a special class of cases of the general notion of [[Sullivan models of mapping spaces]].
+
 ## Construction
 
 +-- {: .num_prop #SullivanModelForTheFreeLoopSpace}
