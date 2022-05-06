@@ -34,9 +34,9 @@ To the extent that [[K-theory]] is given by [[equivalence classes]] of [[virtual
 
 The [[Bott periodicity]] of plain K-theory generalizes to equivariant K-theory:
 
-Complex equivariant K-theory is invariant under smashing with [[representation spheres]] of complex representations, while real equivariant K-theory is invariant under smashing with representation spheres of real 8d reps with spin structure (...).
+Complex equivariant K-theory is invariant under smashing with [[representation spheres]] of complex representations ([Atiyah 68, Theorem 4.3](#Atiyah68)), while real equivariant K-theory is invariant under smashing with representation spheres of real 8d reps with spin structure ([Atiyah 68, Theorem 6.1](#Atiyah68)).
 
-(e.g. [Karoubi 05, Section 5](#Karoubi05))
+Review in [Karoubi 05, Section 5](#Karoubi05).
 
 ### Complex orientation
 
@@ -333,7 +333,10 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 
 * {#Wilson16} [[Dylan Wilson]], _Equivariant K-theory_, 2016 ([pdf](https://www.math.uchicago.edu/~dwilson/notes/equivariant-k-theory-talk.pdf), [[WilsonKTheory16.pdf:file]])
 
-Also:
+On [[Bott periodicity]] in equivariant K-theory:
+
+* {#Atiyah68} [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, Volume 19, Issue 1, 1968, Pages 113–140 ([doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113))
+
 
 * {#Karoubi05} [[Max Karoubi]], _Bott Periodicity in Topological, Algebraic and Hermitian K-Theory_,  In: Friedlander E., Grayson D. (eds) [[Handbook of K-Theory]], Springer 2005 ([doi:10.1007/978-3-540-27855-9_4](https://doi.org/10.1007/978-3-540-27855-9_4))
 
