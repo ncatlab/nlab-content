@@ -47,3 +47,5 @@ Now that we have interpreted raw terms as semantic terms and semantic types, we 
 * For an extended context $(\Gamma, x:A)$, with variables $V \cup \{x\}$ where $x\notin V$, we inductively have $\llbracket \Gamma \rrbracket \subseteq Tm^V$.  We also have (as defined above inductively) $\llbracket A \rrbracket^V_{type} : Tm^V \rightharpoonup Ty$.  Let $U$ be the intersection of $\llbracket \Gamma \rrbracket$ and the domain of $\llbracket A \rrbracket^V_{type}$, and let $\llbracket \Gamma, x:A \rrbracket$ be defined by the following pullback, where the bottom arrow is the composite $U \hookrightarrow Tm^V \overset{\llbracket A \rrbracket^V_{type}}{\rightharpoonup} Ty $.
   $$ \array { \llbracket \Gamma, x:A \rrbracket & \to & Tm \\ \downarrow & & \downarrow \\ U & \to & Ty }$$
   We equip it with the composite $\llbracket \Gamma, x:A \rrbracket \to U \times Tm \to Tm^V \times Tm$, which is a composite of two monomorphisms and hence itself a monomorphism.  Thus $\llbracket \Gamma, x:A \rrbracket$ is indeed a sub-presheaf of $Tm^{V\cup \{x\}} \cong Tm^V \times Tm$ as intended.
+
+category: Initiality Project
