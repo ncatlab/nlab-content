@@ -235,6 +235,10 @@ Explicit models of $E_\infty$-operads include
 
 ## References
 
+Review includes
+
+* {#Fresse18} [[Benoit Fresse]], _Little discs operads, graph complexes and Grothendieck--Teichmüller groups_, in [[Haynes Miller]] (ed.) _[[Handbook of Homotopy Theory]]_ ([arXiv:1811.12536](https://arxiv.org/abs/1811.12536))
+
 A standard textbook reference is chapter 4 of 
 
 * {#May} [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
@@ -273,8 +277,7 @@ An elementary computation of the [[homology]] of the little $n$-disk operad in t
 
 For the relation to Poisson Operads see
 
-* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]])) 
-
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ 
 
 [[!redirects little k-cubes operad]]
 [[!redirects little n-cubes operad]]
