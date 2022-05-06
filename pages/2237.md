@@ -215,6 +215,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 * [[orbifold cohomology]]
 
+* [[Chen-Ruan cohomology]], [[delocalized equivariant cohomology]]
+
 [[!include homotopy type representation theory -- table]]
 
 ## References
