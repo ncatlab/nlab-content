@@ -101,15 +101,38 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-**Slides and Talk notes:**
+**Abstracts, Slides and Talk notes:**
+ {#Abstracts2020}
+
+\linebreak
 
 * [[Michael Duff]]:
 
-  _[[Duff interview at M-Theory-Mathematics 2020|opening remarks on early history]]_
+  _[[Duff interview at M-Theory-Mathematics 2020|Perspectives on M-Theory]]_
+
+\linebreak
+
+* [[Domenico Fiorenza]]:
+
+  _Twisted Cohomotopy implies level quantization of the 6d WZ term of the M5-brane_ 
+
+  [[FiorenzaSlidesAtMTheoryMathematics2020.pdf:file]]
+
+  **Abstract.** The 6d Wess-Zumino term in the action functional for theM5-brane is anomalous as traditionally defined. What has been missing is a condition implying a higher analogue of level quantization familiar from the 2d Wess-Zumino term. We prove that such an anomaly cancellation condition is implied by the hypothesis thatt he C-field is charge-quantized in twisted cohomotopy theory. The proof follows by a twisted/parametrized generalization of the Hopf invariant, after identifying the 6d Wess-Zumino term with a twisted homotopy Whitehead integral formula, which we establish. Joint work with Hisham Sati and Urs Schreiber, [[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|arXiv:1906.07417]].
+
+\linebreak
 
 * [[Urs Schreiber]]: 
 
   _[[schreiber:Microscopic Brane Physics from Cohomotopy]]_
+
+  [talk slides](https://ncatlab.org/schreiber/files/Schreiber-MTheoryMathematics2020-v200126.pdf)
+
+  **Abstract.** As reviewed in [[nLab:Hisham Sati|H. Sati]]'s talk, assuming that the [[nLab:supergravity C-field|C-field]] is [[nLab:Dirac charge quantization|charge-quantized]] in the [[nLab:generalized cohomology theory]] called [[nLab:J-homomorphism|J-]][[nLab:twisted cohomotopy|twisted]] [[nLab:Cohomotopy]] ("[[schreiber:Hypothesis H]]") implies a list of [[nLab:M-theory|M-theoretic]] [[nLab:anomaly cancellation]] conditions, such as [[nLab:shifted C-field flux quantization]], DMW anomaly cancellation and [[nLab:C-field tadpole cancellation]] [[nLab:M-theory on 8-manifolds|on 8-manifolds]]. In this talk I review the further [[nLab:(infinity,1)-topos|geometric]] refinement of the [[nLab:cohomology|cohomology theory]] to [[nLab:equivariant|equivariant Cohomotoy theory]] and to [[nLab:differential cohomotopy|differential Cohomotopy theory]]. Now we find that [[schreiber:Hypothesis H]] implies also the Witten mechanism of multiple [[nLab:M5-branes]] on [[nLab:MO5]]-[[nLab:orientifolds]] in [[nLab:heterotic M-theory on ADE-orbifolds]], hence [[nLab:RR-field tadpole cancellation]] in [[nLab:type I' string theory]]; as well as a multitude of effects associated with [[nLab:Dp-D(p+2) brane bound state|Dp/D(p+2)-brane intersections]]: [[nLab:Chan-Paton factors]], [[nLab:BMN matrix model]] [[nLab:fuzzy funnel]] states and [[nLab:BLG 3-algebras]], the [[nLab:Hanany-Witten rules]], [[nLab:AdS3/CFT2|AdS3-gravity]] observables, [[nLab:supersymmetric indices]] of [[nLab:Coulomb branches]] as well as [[nLab:AdS/CFT|gauge/gravity duality]] between all these.
+This suggests that [[schreiber:Hypothesis H]] is a correct assumption about the elusive mathematical fomulation of [[nLab:M-theory]].
+This is joint work with [[nLab:Hisham Sati|H. Sati]] ([[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation|arxiv:1909.12277]], [[schreiber:Differential Cohomotopy implies intersecting brane observables|arxiv:1912.10425]]).
+
+\linebreak
 
 more to appear here...
 
