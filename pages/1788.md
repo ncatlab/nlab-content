@@ -5,3 +5,10 @@ TA \arrow[ru] \arrow[dd] & & TD\arrow[dd] & & TA \arrow[rd] \arrow[ru] \arrow[dd
 A \arrow[ru] \arrow[rd] & & D & & A \arrow[rd] \ar[shorten <=4mm,shorten >=4mm, Rightarrow, ur] && D \\
  & C \arrow[ru] & & & & C \arrow[ru] & 
 \end{tikzcd}
+
+\begin{xymatrix}
+A\downarrow{a}\ar[r]^q \ar@/_2pc/[dd]_{p} \ar@<-.5ex>[d]
+& V\ar[d]^e \\
+E\ar[r]_q\ar[d]_p& U\\
+A&
+\end{xymatrix}
