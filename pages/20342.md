@@ -50,7 +50,7 @@ The [[scanning map]]-equivalences on [[configuration spaces of points]] may be r
 
 Let 
 
-1. $X^n$ be a [[closed manifold]] of [[dimension]] $n$;
+1. $X^n$ be a [[smooth manifold|smooth]] [[closed manifold]] of [[dimension]] $n$;
 
 1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
 
