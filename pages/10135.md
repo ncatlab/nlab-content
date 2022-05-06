@@ -108,7 +108,7 @@ Removing the magnifying glass, what one sees with the bare eye depends on how on
 
 * The Lie geometer says that what he sees is a point transforming under the $G$-[[action]] that fixes it, hence the [[homotopy quotient]] [[groupoid]] $\mathbf{B}G =\ast \sslash G$.
 
-These two aspects are two [[adjoint modality|opposite extreme aspects]] of the orbifold singularity $\mathbb{B}G$, but the orbifold singularity is more than both of these aspects. The real nature of an orbifold singularity is in fact a point, not a big [[classifying space]] $B G$ (recall that already $\mathbf{B}\mathbb{Z}_2 = \mathbb{R}P^\infty$), but it is a point that also remembers the group [[action]], for that characterizes how the singularity is being singular.
+These are two [[adjoint modality|opposite extreme aspects]] of the orbifold singularity $\mathbb{B}G$, but the orbifold singularity itself is more than both of these aspects. The real nature of an orbifold singularity is in fact a point, not a big [[classifying space]] $\mathbf{B} G$ (recall that already $\mathbf{B}\mathbb{Z}_2 = \mathbb{R}P^\infty$), but it is a point that also remembers the group [[action]], for that characterizes how the singularity is being singular.
 
 $$
    \array{
@@ -127,7 +127,7 @@ $$
 ## Definition
   {#Definition}
 
-The definition of obifold cohomology below in Def. \ref{OrbifoldCohomology} is the canonical [[cohomology]] in a [[slice (infinity,1)-topos|slice]] of the [[globally equivariant homotopy theory]] $\mathbf{H}_{sing}$ of the given ambient [[cohesive (∞,1)-topos]] $\mathbf{H}$. 
+The definition of orbifold cohomology below in Def. \ref{OrbifoldCohomology} is the canonical [[cohomology]] in a [[slice (infinity,1)-topos|slice]] of the [[globally equivariant homotopy theory]] $\mathbf{H}_{sing}$ of the given ambient [[cohesive (∞,1)-topos]] $\mathbf{H}$. 
 
 For completeness, we first introduce/recall $\mathbf{H}_{sing}$ in Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory} below, as well as its slices to $G$-[[equivariant homotopy theory]] $\mathbf{H}_G$ (Def. \ref{GEquivariantHomotopyTheoryOfCohesiveInfinityTopos} below), following [Rezk 14](#Rezk14).
 
