@@ -14,7 +14,7 @@ Harcourt Brace Jovanovich, Publishers
 
 Perspectives in Mathematics, Volume 4
 
-[Electronic version](https://ivv5hpp.uni-muenster.de/u/pschnei/publ/beilinson-volume/)
+[Electronic version](https://ivv5hpp.uni-muenster.de/u/pschnei/publ/beilinson-volume/) (Note that the book is out of print and unavailable from [the publisher](https://www.sciencedirect.com/book/9780125811200/beilinsons-conjectures-on-special-values-of-l-functions), even electronically.)
 
 ## Preface
 
