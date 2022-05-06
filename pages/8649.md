@@ -54,3 +54,6 @@ Review is for instance in
 * [[Daniel Freed]], section 2 of _[[Dirac charge quantization and generalized differential cohomology]]_
 
 [[!redirects Dirac's charge quantization]]
+
+[[!redirects charge quantization]]
+[[!redirects charge quantizations]]
