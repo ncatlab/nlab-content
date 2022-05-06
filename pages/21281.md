@@ -40,3 +40,9 @@ Inclusion of further [[heavy flavor|heavy]] [[flavor (particle physics)|flavors]
 
 * Yongseok Oh, Byung-Yoon Park, Dong-Pil Min, _Heavy Baryons as Skyrmion with $1/m_Q$ Corrections_, Phys. Rev. D49 (1994) 4649-4658 ([arXiv:hep-ph/9402205](https://arxiv.org/abs/hep-ph/9402205))
 
+Review:
+
+* [[Mannque Rho]], _Massive-quark baryons as Skyrmions_,  Modern Physics Letters A, Vol. 06, No. 23 (1991) ([doi:10.1142/S0217732391002268](https://doi.org/10.1142/S0217732391002268))
+
+
+
