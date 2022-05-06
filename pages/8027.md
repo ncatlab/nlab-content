@@ -71,7 +71,12 @@ The [[2d TQFT]] obtained from this by forming the 4d index is discussed in
 
 * {#GPRR10} Abhijit Gadde, Elli Pomoni, Leonardo Rastelli, Shlomo S. Razamat, _S-duality and 2d Topological QFT_, JHEP 1003:032, 2010 ([arXiv:0910.2225](http://arxiv.org/abs/0910.2225))
 
- 
+Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] and the [[3d-3d correspondence]]:
+
+* [[Clay Cordova]], [[Daniel Jafferis]], _Toda Theory From Six Dimensions_, J. High Energ. Phys. (2017) 2017: 106 ([arxiv:1605.03997](https://arxiv.org/abs/1605.03997))
+
+* Sam van Leuven, Gerben Oling, _Generalized Toda Theory from Six Dimensions and the Conifold_, J. High Energ. Phys. (2017) 2017: 50 ([arxiv:1708.07840](https://arxiv.org/abs/1708.07840))
+
 Brief surveys include
 
 * {#Tachikawa10} [[Yuji Tachikawa]], _M5-branes, 4d gauge theory and 2d CFT_, 2010 ([pdf](http://member.ipmu.jp/yuji.tachikawa/transp/4d-2d-caltech.pdf))
@@ -120,7 +125,10 @@ The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]]
 
 * G. Vartanov, [[Jörg Teschner]], _Supersymmetric gauge theories, quantization of moduli spaces of flat connections, and conformal field theory_, [arxiv/1302.3778](http://arxiv.org/abs/1302.3778)
  
+
 category: physics
+
+[[!redirects AGT-correspondence]]
 
 [[!redirects AGT conjecture]]
 [[!redirects Class S]]
