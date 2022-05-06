@@ -3,6 +3,7 @@
 
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -22,7 +23,7 @@
 
 The _Hadamard lemma_ says that the [[Taylor series]] of a [[smooth function]] on the [[real line]] around the origin has a remainder at order $n$ which is the product of $x^{n+1}$ (for $x$ the canonical [[coordinate]] function) with another [[smooth function]].
 
-Simple as this may sound, it has profound consequences, as it means that [[smooth functions]] behave more like [[polynomials]] than the classical definition might suggest. For instance the Hadamard lemma directly implies that
+Simple as this may sound, it has profound consequences, as it means that [[smooth functions]] behave more like [[polynomials]] than the classical definition might suggest. For instance the Hadamard lemma directly implies that:
 
 1. [[derivations of smooth functions are vector fields]]: For $X$ a [[smooth manifold]] and $C^\infty(X)$ its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] (under pointwise multiplication), then there is a [[natural bijection]] between the smooth [[tangent vector fields]] on $X$ and the purely algebraic [[derivations]] of the algebra $C^\infty(X)$;
 
@@ -149,7 +150,6 @@ The Hadamard lemma is what makes the standard _convenient models_ for [[syntheti
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
 
-[[!redirects Hadamard lemma]]
 [[!redirects Hadamard's lemma]]
 [[!redirects Hadamard\'s lemma]]
 [[!redirects Hadamard's lemma]]
