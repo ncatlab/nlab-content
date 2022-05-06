@@ -331,6 +331,9 @@ See also
 
 * {#Anderson08} [[Lara Anderson]], _Heterotic and M-theory Compactifications for String Phenomenology_ ([arXiv:0808.3621](https://arxiv.org/abs/0808.3621))
 
+Alternatively, discussion in [[Hořava-Witten theory]]:
+
+* {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_ ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892))
 
 #### Non-supersymmetric models
 
