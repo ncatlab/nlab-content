@@ -135,5 +135,10 @@ The following article discusses which of the Pin groups are in fact compatible w
 * Bas Janssens, _The Pin Groups in General Relativity_ ([arXiv:1709.02742](https://arxiv.org/abs/1709.02742))
 
 
+[[!redirects pin groups]]
+
 [[!redirects Pin group]]
+[[!redirects Pin groups]]
+
+
 
