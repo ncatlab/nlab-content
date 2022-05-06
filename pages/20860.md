@@ -127,6 +127,8 @@ $$
 
 * [[weight systems are cohomology of knot graph complex]]
 
+* [[stringy weight systems span classical Lie algebra weight systems]]
+
 
 ## Related concepts
 
