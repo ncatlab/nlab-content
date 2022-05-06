@@ -59,6 +59,7 @@ $$
 ## Properties
 
 ### Relation between horizontal and round 4T relations
+ {#RelationBetweenHorizontalAndRound4TRelations}
 
 The 4T-relations for [[round chord diagrams]] are the image of the
 4T relations for [[horizontal chord diagrams]] under [[tracing horizontal to round chord diagrams]]:
