@@ -24,7 +24,7 @@ Due to the [[Meissner-Ochsenfeld effect]], a [[superconductor]] placed in a suff
 \end{imagefromfile}
 
 
-In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic flux]] enter the superconductor, carried by little _flux tubes_ inside _[[vortices]]_ of electric currents (about a [[micron]] in diameter, e.g. [Chapman 00, p. 559](superconductivity#Chapman00)). Each vortex core carries one unit of magnetic flux -- also called a _fluxon_ --  while at some small finite distance away from all vortices, the bulk magnetic flux in the superconductor still vanishes (mathematically: it [[vanishes at infinity]]):
+In this mixed regime, a _[[finite number]]_ of elementary units of [[magnetic flux]] enter the superconductor, carried by little _flux tubes_ inside _[[vortices]]_ of electric currents: _[[vortex strings]]_ (about a [[micron]] in diameter, e.g. [Chapman 00, p. 559](superconductivity#Chapman00)). Each vortex core carries one unit of magnetic flux -- also called a _fluxon_ --  while at some small finite distance away from all vortices, the bulk magnetic flux in the superconductor still vanishes (mathematically: it [[vanishes at infinity]]):
 
 \begin{imagefromfile}
     "file_name": "SuperconductorVortexStructure.jpg",
