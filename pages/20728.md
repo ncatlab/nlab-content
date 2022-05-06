@@ -77,7 +77,7 @@ See [the table below](#detailed_list) for more details.
  </tr>
  <tr>
   <th markdown="1">[[Giry monad]]</th>
-  <td markdown="1">[[Pol]]</td>
+  <td markdown="1">[[Polish space|Pol]]</td>
   <td markdown="1">[[Borel measure|Borel probability measures]]</td>
   <td markdown="1">[[initial topology]] of integration maps</td>
   <td markdown="1">...</td>
