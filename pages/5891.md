@@ -217,6 +217,8 @@ See _[[categorical semantics of homotopy type theory]]_.
 
 * [[categorical model of dependent types]]
 
+* [[initiality conjecture]]
+
 * [[Awodey's conjecture]]
 
 
