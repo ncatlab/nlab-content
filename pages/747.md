@@ -404,9 +404,8 @@ On the other hand the cofibrancy condition on objects is entirely _trivial_ in t
 
 But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[Čech nerve]]s of any _[[good cover]]_ (see below for more details) is a projectively cofibrant object.
 
-A **cofibrant replacement** functor in the local projective structure  is discussed in 
+A **cofibrant replacement** functor in the local projective structure  is discussed in [Dugger 01](#Dugger01).
 
-* [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
 
 
 Something related to a **fibrant replacement** functor ("$\infty$-stackification") is discussed in section 6.5.3 of 
@@ -455,7 +454,7 @@ where $X_k^{nd}$ is the presheaf of non-degenerate $k$-cells and $X_k^{dg}$ is a
 
 In the _projective_ [[local model structure on simplicial presheaves|local model structure]] all objects that are 
 
-1. degreewise [[coproduct]]s of [[representable functor|representable]]s 
+1. degreewise [[coproducts]] of [[representable functor|representables]]
 
 1. and whose degenerate cells split off
 
@@ -463,9 +462,8 @@ are cofibrant.
 
 =--
 
-This is in the proof of lemma 2.7 in section 9 of
+This is in [Dugger 01, Cor. 9.4](#Dugger01).
 
-* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
 
 +-- {: .num_example }
@@ -1337,7 +1335,8 @@ Detailed discussion of the injective model structures on simplicial presheaves i
 
 The projective model structure is discussed in
 
-* [[Dan Dugger]], _[[Universal Homotopy Theories]]_
+* {#Dugger01} [[Daniel Dugger]], _Universal homotopy theories_, Advances in Mathematics Volume 164, Issue 1, (2001) Pages 144-176  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf), [arXiv:math/0007070](https://arxiv.org/abs/math/0007070), [doi:10.1006/aima.2001.2014](https://doi.org/10.1006/aima.2001.2014))
+
 
 See also
 
