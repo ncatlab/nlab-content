@@ -115,6 +115,11 @@ following
 
 * {#ChasSullivan02} [[Moira Chas]], [[Dennis Sullivan]], _Closed string operators in topology leading to Lie bialgebras and higher string algebra_,  In: O.A. Laudal , R. Piene (eds.) _The Legacy of Niels Henrik Abel_, Springer 2004 ([arXiv:math/0212358](https://arxiv.org/abs/math/0212358), [doi:10.1007/978-3-642-18908-1_27](https://doi.org/10.1007/978-3-642-18908-1_27))
 
+Also:
+
+* [[Ralph Kaufmann]], Def. 1.4 of: _Moduli space actions on the Hochschild Co-Chains of a Frobenius algebra I: Cell Operads_ ([arXiv:math/0606064](https://arxiv.org/abs/math/0606064))
+
+
 Review:
 
 * [[Ralph Cohen]], [[Alexander Voronov]], around Def. 3.2.2 in: _Notes on string topology_ ([arXiv:math/0503625](https://arxiv.org/abs/math/0503625))
