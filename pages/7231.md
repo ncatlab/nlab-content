@@ -194,7 +194,7 @@ The [[Weyl group]] of $G_2$ is the [[dihedral group]] of [[order of a group|orde
 
 $\,$
 
-The [[coset space]] $G_2/SU(3)$ is the [[6-sphere]]. See there for pointers.
+The [[coset space]] $G_2/SU(3)$ is the unit tangent bundle to the [[6-sphere]]. See there for pointers.
 
 
 ### Supgroups
