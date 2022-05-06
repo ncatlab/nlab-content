@@ -110,8 +110,14 @@ Often, the fibrant and cofibrant objects are the ones one is "really" interested
 ### Slight variations on the axioms
 
 Quillen's original definition required only [[finite limits]] and [[finite colimits]], which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.
+This change was popularized by [[Dwyer]], [[Hirschhorn]], [[Kan]], and [[Smith]]
+in their book [[Homotopy Limit Functors on Model Categories and Homotopical Categories]]
 
-Some authors, notably [[Mark Hovey]], require that the factorizations given by (ii) are actually _[[functorial factorization systems]]_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
+[[Robert W. Thomason]] proposed to require that the factorizations given by (ii) are actually _[[functorial factorization systems]]_,
+resulting in the notion of a [[Thomason model category]].
+[[Mark Hovey]] later included the data of such a functorial factorization
+(and not just its existence) into his definition of a model category.
+In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
 
 ### Enhancements of the axioms
 
@@ -139,9 +145,14 @@ There are several notions of [[category with weak equivalences]] with similar bu
 
 * A [[Waldhausen category]] dually has a notion of weak equivalences and cofibrations, and all of its objects are cofibrant.
 
-There is also a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
+* There is also a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
 
+* [[Semimodel categories]] relax some of the conditions on lifting properties.
 
+* [[Weak model categories]] relax these conditions even further.
+
+* [[Premodel categories]] are an even weaker notion that allows
+for a nice [[2-categorical]] treatment.
 
 
 ## Properties
