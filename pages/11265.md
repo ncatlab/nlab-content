@@ -39,7 +39,7 @@ Discussion relating to [[computability theory]], [[Type Two Theory of Effectivit
 
 * Herman Geuvers, Milad Niqui, [[Bas Spitters]], [[Freek Wiedijk]], _Constructive analysis, types and exact real numbers_, 2006 ([pdf](http://www.cs.ru.nl/~spitters/editorial.pdf))
 
-* The Haskel Wiki, _[Exact real arithmetic](http://www.haskell.org/haskellwiki/Exact_real_arithmetic)_
+* The Haskell Wiki, _[Exact real arithmetic](http://www.haskell.org/haskellwiki/Exact_real_arithmetic)_
 
 A collection of further references is listed at
 
