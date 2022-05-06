@@ -167,7 +167,7 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 ## References
 
 
-* Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
+* [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], _Gravitation, gauge theories and differential geometry_, Physics Reports Volume 66, Issue 6, December 1980, Pages 213-393 (<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>)
 
 * [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Theories and Fibre Bundles - Applications to Particle Dynamics_, Springer "Lecture Notes in Physics", 188 (1983) ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://link.springer.com/book/10.1007/3-540-12724-0))
 
@@ -180,6 +180,9 @@ __
 
 
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_,  Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+
+* Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
+
 
 * {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
