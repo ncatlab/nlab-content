@@ -41,7 +41,7 @@ More details are understood in the special case of [[fractional D-branes]] stuck
 
 In this case tadpole cancellation conditions are given by [[representation theory|representation theoretic]] [[equations]], constraining the [[character of a linear representation|characters]] of the [[linear representations]] corresponding to the [[fractional D-branes]].
 
-Detailed review of this is in [Marchesano 03, Section 4](#Marchesano03), based on
+Detailed review of this is in [Marchesano 03, Section 4](#Marchesano03), based on [ABIU 99](#ABIU99), [Honecker 02](#Honecker02).
 
 Let $G$ be a [[finite group]]. Let 
 
@@ -125,12 +125,65 @@ $$
 
 ### Examples
 
+#### At a $2 D_4$-orientifold singularity
+ {#At2d4Singularity}
+
+For $G = 2 D_4 = Q_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_4\vert}$ (equivalently: the [[quaternion group]]), the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.1](#BurtonSatiSchreiber18))
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | 
+|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $-1$ | $\phantom{-}1$ |  $-1$ |
+| $\chi_{V_3} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $-1$ | $-1$ |  $\phantom{-}1$ | 
+| $\chi_{V_4} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $-1$ | 
+| $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | 
+
+By [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
+
+One sees from immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_4$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1 
+      +
+    1 \cdot V_2
+      + 
+    1 \cdot V_3
+      + 
+    1 \cdot V_4
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+whose minimal [[mass]] (net brane number) is
+
+
+$$
+  \begin{aligned}
+    dim(V)
+    & = 
+    \chi_V\left( [\langle e\rangle]\right) 
+    & =
+    1 + 1 + 1 + 1 + 4 
+    \\
+    & = 8
+  \end{aligned}
+$$
+
+
 #### At a $2 D_6$-orientifold singularity
+  {#At2D6Singularity}
 
-For example, for $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_6\vert} = 12$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.2](permutation+representation#BurtonSatiSchreiber18))
+For $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_6\vert} = 12$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.2](#BurtonSatiSchreiber18))
 
 
-| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ | $\left[\langle g_6\rangle\right]$ |
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |
 |--|--|--|--|--|--|--|
 | $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |
 | $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $-1$ | $\phantom{-}1$ |
@@ -138,9 +191,9 @@ For example, for $G = 2 D_6$ the [[binary dihedral group]] of [[order of a group
 | $\chi_{V_4} =$ | $\phantom{-}2$ |  $-2$ |  $\phantom{-}2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $-2$ |
 | $\chi_{V_5} =$ | $\phantom{-}4$ |  $-4$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}2$ |
 
-By [BSS 18, Theorem 4.1](permutation+representation#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
+By [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
 
-One sees from immediate inspection, that this general solution to the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
+One sees from immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_6$ is
 
 $$
   V 
@@ -162,7 +215,7 @@ $$
   n \in \mathbb{Z}
 $$
 
-whose minimal brane number is
+whose minimal [[mass]] (net brane number) is
 
 $$
   \begin{aligned}
@@ -189,6 +242,76 @@ $$
 $$
 
 
+#### At a $2 D_8$-orientifold singularity
+  {#At2D8Singularity}
+
+For $G = 2 D_8$ the [[binary dihedral group]] of [[order of a group|order]] ${\vert 2 D_8\vert} = 16$, the [[character of a linear representation|characters]]/[[D-brane charges]] of the [[virtual representation|virtual]] [[permutation representations]] are ([BSS 18, 4.3](#BurtonSatiSchreiber18))
+
+
+| $[H] = $ | $\left[\langle e\rangle\right]$ | $\left[\langle g_1\rangle\right]$ |  $\left[\langle g_2\rangle\right]$ | $\left[\langle g_3\rangle\right]$ | $\left[\langle g_4\rangle\right]$ | $\left[\langle g_5\rangle\right]$ |  $\left[\langle g_5\rangle\right]$ |
+|--|--|--|--|--|--|--|--|
+| $\chi_{V_1} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |$\phantom{-}1$ |
+| $\chi_{V_2} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $\phantom{-}1$ | $-1$ | $-1$ |
+| $\chi_{V_3} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $-1$ |  $-1$ | $\phantom{-}1$ | $\phantom{-}1$ |
+| $\chi_{V_4} =$ | $\phantom{-}1$ |  $\phantom{-}1$ |  $\phantom{-}1$ | $\phantom{-}1$ |  $-1$ | $-1$ | $-1$ |
+| $\chi_{V_5} =$ | $\phantom{-}2$ |  $\phantom{-}2$ |  $-2$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
+| $\chi_{V_6} =$ | $\phantom{-}8$ |  $-8$ |  $\phantom{-}0$ | $\phantom{-}0$ |  $\phantom{-}0$ | $\phantom{-}0$ | $\phantom{-}0$ |
+
+
+
+By [BSS 18, Theorem 4.1](#BurtonSatiSchreiber18) these [[virtual representation|virtual]] [[permutation representations]] span precisely the sub charge lattice of integral (non-irrational) characters/RR-charges in the [[orientifold]] charge lattice. Since the tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) in particular requires the characters/charges to be integral (specifically: zero) the general solution to the tadpole cancellation condition is indeed in this sub-lattice.
+
+One sees from immediate inspection, that the general solution to the (homogenous part of the) tadpole cancellation condition (eq:VanishingOfCharacterValuesOnNontrivialSubgroups) for $G =2 D_8$ is
+
+$$
+  V 
+  \;=\;
+  n
+  \Big(
+    1 \cdot V_1 
+      +
+    1 \cdot V_2
+      + 
+    1 \cdot V_3
+      + 
+    1 \cdot V_4
+      + 
+    2 \cdot V_5
+      + 
+    1 \cdot V_6
+  \Big)
+  \,,
+  \phantom{AAA}
+  n \in \mathbb{Z}
+$$
+
+whose minimal [[mass]] (net brane number) is
+
+$$
+  \begin{aligned}
+    dim(V) 
+      & =
+    \chi_V([\langle e\rangle]) 
+    \\
+      & =
+      1 \cdot 1 
+        +
+      1 \cdot 1
+        + 
+      1 \cdot 1
+        + 
+      1 \cdot 1
+        + 
+      2 \cdot 2
+        + 
+      1 \cdot 8
+      & 
+      \\
+      & 
+      =
+      16
+  \end{aligned}
+$$
 
 
 
@@ -223,15 +346,22 @@ Quick illustrations include:
 
 See also
 
-* G. Aldazabal, D. Badagnani, [[Luis Ibáñez]], [[Angel Uranga]], _Tadpole versus anomaly cancellation in $D=4,6$ compact IIB orientifolds_, JHEP 9906:031, 1999 ([arXiv:hep-th/9904071](https://arxiv.org/abs/hep-th/9904071))
+* {#ABIU99} G. Aldazabal, D. Badagnani, [[Luis Ibáñez]], [[Angel Uranga]], _Tadpole versus anomaly cancellation in $D=4,6$ compact IIB orientifolds_, JHEP 9906:031, 1999 ([arXiv:hep-th/9904071](https://arxiv.org/abs/hep-th/9904071))
 
 * {#Uranga00} [[Angel Uranga]], _D-brane probes, RR tadpole cancellation and K-theory charge_, Nucl.Phys.B598:225-246, 2001 ([arXiv:hep-th/0011048](https://arxiv.org/abs/hep-th/0011048))
+
+* {#Honecker02} Gabriele Honecker, _Intersecting brane world models from D8-branes on $(T^2 \times T^4\mathbb{Z}_3)/\Omega\mathcal{R}_1$ type IIA orientifolds_, JHEP 0201 (2002) 025 ([arXiv:hep-th/0201037](https://arxiv.org/abs/hep-th/0201037))
 
 * {#GarciaUranga05} Inaki Garcia-Etxebarria, [[Angel Uranga]], _From F/M-theory to K-theory and back_, JHEP 0602:008, 2006 ([arXiv:hep-th/0510073](https://arxiv.org/abs/hep-th/0510073))
 
 * {#Marchesano03} [[Fernando Marchesano]], section 4 of _Intersecting D-brane Models_ ([arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252))
 
 * {#MaidenShiuStefanski06} John Maiden, Gary Shiu, [[Bogdan Stefanski]], _D-brane Spectrum and K-theory Constraints of D=4, N=1 Orientifolds_, JHEP0604:052,2006 ([arXiv:hep-th/0602038](https://arxiv.org/abs/hep-th/0602038))
+
+The character tables for [[virtual representation|virtual]] [[permutation representations]] above are taken from
+
+* {#BurtonSatiSchreiber18} [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The image of the Burnside ring in the Representation ring|The image of the Burnside ring in the Representation ring -- for binary Platonic groups]]_ ([arXiv:1812.09679](https://arxiv.org/abs/1812.09679), [Python code](https://arxiv.org/src/1812.09679v1/anc))
+
 
 [[!redirects RR-field tadpole cancellations]]
 
