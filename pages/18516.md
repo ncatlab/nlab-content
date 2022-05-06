@@ -297,9 +297,7 @@ $$
 
 ## Related concepts
 
-* [[Wick algebra]]
-
-* [[time-ordered products]]
+[[!include states and observables -- content]]
 
 
 ## References
