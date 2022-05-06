@@ -42,6 +42,8 @@ The [[physics]] of [[solid]] condensed [[matter]] (made of [[fermions]], due to 
 
 ## References
 
+### General
+
 
 
 * {#LandauLifshitz59} [[Lev Landau]], [[Evgeny Lifshitz]], _Theory of Elasticity_, part VII of  _[[Course of Theoretical Physics]]_, 1959, 1970
@@ -52,10 +54,19 @@ See also:
 
 * Wikipedia, _[Solid state physics](http://en.wikipedia.org/wiki/Solid_state_physics)_
 
+
+### AdS/CMT correspondence
+
 On [[AdS/CFT in condensed matter physics]]:
 
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+
+### Examples and applications
+
+Discussion of possible realization of the [[SYK-model]] in [[condensed matter physics]]:
+
+* D. I. Pikulin, M. Franz, _Black hole on a chip: proposal for a physical realization of the SYK model in a solid-state system_, Phys. Rev. X 7, 031006 (2017) ([arXiv:1702.04426](https://arxiv.org/abs/1702.04426))
 
 
 
