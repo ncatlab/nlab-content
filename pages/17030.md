@@ -35,6 +35,9 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 
 * [[rational parameterized stable homotopy theory]]
 
+* [[equivariant differential topology]]
+
+
 ## References
   {#References}
 
