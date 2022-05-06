@@ -26,7 +26,7 @@ In fact, intuitionistic logic proves that there is no truth value that is neithe
 ## Relation to the axiom of choice
  {#RelationToTheAxiomOfChoice}
 
-Excluded middle can be seen as a very weak form of the [[axiom of choice]] (a slightly more controversial principle, doubted or denied by a slightly larger minority, and true internally in even fewer categories).  In fact, the following are equivalent. (see also [McLarty, theorem 19.7](#McLarty), due to Diaconescu 1975)
+Excluded middle can be seen as a very weak form of the [[axiom of choice]] (a slightly more controversial principle, doubted or denied by a slightly larger minority, and true internally in even fewer categories).  In fact, the following are equivalent. (this is the [[Diaconescu-Goodman-Myhill theorem]] due to [Diaconescu 75](#Diaconescu75), see also [McLarty 96, theorem 19.7](#McLarty96), )
 
 1. The principle of excluded middle.
 1. [[finite set|Finitely indexed]] sets are [[projective object|projective]] (in fact, it suffices 2-indexed sets to be projective).
@@ -79,9 +79,17 @@ This is related to the above valid statement by a [[double-negation shift]]; and
 
 ### General
 
-Discussion in [[toposes]] is for instance in 
+* {#McLarty96} [[Colin McLarty]], _Elementary Categories, Elementary Toposes_, Oxford University Press, 1996
 
-* {#McLarty} [[Colin McLarty]], _Elementary Categories, Elementary Toposes_
+### Relation to the axiom of choice
+
+Relation to the [[axiom of choice]] ([[Diaconescu-Goodman-Myhill theorem]]):
+
+* {#Diaconescu75} [[Radu Diaconescu]], _Axiom of choice and complementation_, Proceedings of the American Mathematical Society 51:176-178 (1975) ([doi:10.1090/S0002-9939-1975-0373893-X](https://doi.org/10.1090/S0002-9939-1975-0373893-X))
+
+* {#GoodmanMyhill78} N. D. Goodman J. Myhill, _Choice Implies Excluded Middle_, Zeitschrift fuer Mathematische Logik und Grundlagen der Mathematik 24:461 (1978)
+
+Discussion in [[toposes]] is for instance in 
 
 
 ### In homotopy type theory
