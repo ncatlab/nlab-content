@@ -19,7 +19,7 @@
 
 ## Idea
 
-A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way -- an [[inductive type]].  In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist. In particular W-types can be used to provide a [[constructive mathematics|constructive]] counterpart of the [[classical logic|classical]] notion of a [[well-ordering]] and to uniformly define a variety of [[inductive types]].
+A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way -- an [[inductive type]].  In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist. In particular W-types can be used to provide a [[constructive mathematics|constructive]] counterpart of the [[classical logic|classical]] notion of a [[well-ordering]] and to uniformly define a variety of [[inductive types]]. More complex inductive types, such as strictly positive inductive types, can be reduced to W-types. [AAG](#AAG)
 
 The [[terms]]/[[elements]] of a W-type can be considered to be "rooted well-founded [[trees]]" with a certain branching type; different W-types are distinguished by their branching signatures.  A branching signature is represented essentially by a [[family of sets]] $\{A_b\}_{b\in B}$ which can be interpreted as requiring that each *node* of the tree is labeled with an element of the set $B$, and that if a node is labeled by $b$ then it has exactly ${|A_b|}$ outgoing edges, each labeled by an element of $A_b$.  From a more computational point of view, the W-type can be viewed as a data type, where $B$ indexes the set of *constructors* and $A_b$ is the *arity* of the constructor $b$.
 
@@ -178,6 +178,10 @@ Dependent W-type were introduced in
 
 * [[Nicola Gambino]], [[Martin Hyland]], _Wellfounded trees and dependent polynomial functors_. In Types for proofs and programs, volume 3085 of Lecture Notes in Comput. Sci., pages 210&#8211;225. Springer-Verlag, Berlin, 2004 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.98.4534))
  {#GambinoHyland04}
+
+Related work is:
+Michael Abbott, Thorsten Altenkirch, and Neil Ghani, _Representing Nested Inductive Types using W-types_
+[PDF](www.cs.nott.ac.uk/~psztxa/publ/icalp04.pdf)
 
 Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 
