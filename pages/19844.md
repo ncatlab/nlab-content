@@ -237,7 +237,7 @@ Attempts to explain the anomaly include
 * Seungwon Baek, _Scalar dark matter behind $b \to s \mu \mu$ anomaly_
  ([arXiv:1901.04761](https://arxiv.org/abs/1901.04761))
 
-right-handed [[neutrinos]]:
+[[right-handed neutrino]]:
 
 * Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
 
