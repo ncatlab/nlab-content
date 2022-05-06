@@ -1,7 +1,7 @@
 
 * [website](http://www.math.uni-bonn.de/~schwede/)
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[symmetric spectrum]], [[model structure on symmetric spectra]]
 
@@ -16,13 +16,23 @@
 
 * [[equivariant stable homotopy theory]]
 
-## Lectures and textbooks
+## Selected writings
+
+### Lectures and textbooks
 
 * _[[Symmetric spectra]]_
 
 * _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
 * _[[Global homotopy theory]]_
+
+### Articles
+
+On [[orbispaces]]:
+
+* {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_, Mathematische Zeitschrift 294 (2020), 71-107 ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
+
+
 
 ## Selected writings
 
