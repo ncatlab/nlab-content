@@ -32,7 +32,7 @@ The [[standard model of cosmology]], which involves an [[FRW model]] of [[spacet
 
 ## References
 
-* Wikipedia, _[Big Bang](en.wikipedia.org/wiki/Big_Bang)_
+* Wikipedia, _[Big Bang](https://en.wikipedia.org/wiki/Big_Bang)_
 
 
 [[!redirects big bang]]
