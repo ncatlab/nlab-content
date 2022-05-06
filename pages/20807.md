@@ -215,7 +215,7 @@ Comparison with the definition of $\mathrm{sl}(2)$-weight system Vassiliev invar
 
 ## References
 
-### Gereneral
+### General
 
 * [[John Madore]], _The Fuzzy sphere_, Class. Quant. Grav. 9 (1992) 69-88 ([spire:314358](http://inspirehep.net/record/314358))
 
