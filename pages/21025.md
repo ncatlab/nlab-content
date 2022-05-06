@@ -112,11 +112,12 @@ A **conference series on [[M-theory]] and [[mathematics]]**.
 
 \linebreak
 
-* [[Domenico Fiorenza]]:
+* {#Fiorenza2020} [[Domenico Fiorenza]]:
 
   _Twisted Cohomotopy implies level quantization of the 6d WZ term of the M5-brane_ 
 
-  [[FiorenzaSlidesAtMTheoryMathematics2020.pdf:file]]
+  [[FiorenzaSlidesAtMTheoryMathematics2020v2.pdf:file]]
+
 
   **Abstract.** The 6d Wess-Zumino term in the action functional for theM5-brane is anomalous as traditionally defined. What has been missing is a condition implying a higher analogue of level quantization familiar from the 2d Wess-Zumino term. We prove that such an anomaly cancellation condition is implied by the hypothesis thatt he C-field is charge-quantized in twisted cohomotopy theory. The proof follows by a twisted/parametrized generalization of the Hopf invariant, after identifying the 6d Wess-Zumino term with a twisted homotopy Whitehead integral formula, which we establish. Joint work with Hisham Sati and Urs Schreiber, [[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|arXiv:1906.07417]].
 
