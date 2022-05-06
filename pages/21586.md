@@ -1,7 +1,7 @@
 
 ## Selected writings
 
-On [[flux compactifications]] and [[Calabi-Yau structure]] via [[G-structures]] and [[generalised complex geometry]]:
+On [[flux compactifications]] and ([[generalized Calabi-Yau structure|generalized]]) [[Calabi-Yau structure]] via [[G-structures]] and [[generalised complex geometry]]:
 
 * [[Daniël Prins]], [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with $SU(4)$ structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
 
