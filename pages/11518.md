@@ -37,11 +37,11 @@ There are various equivalent ways to present genuine $G$-spectra.
 ### Indexed on all representations
  {#IndexedOnAllRepresentations}
 
-([May 96, chapter XII](#May96))
+([May 96, chapter XII](#May96), [Greenlees-May, section 2](#GreenleesMay)) 
 
 Fix a [[G-universe]]. For $V$ any [[orthogonal group|orthogonal]] [[representation]] in the universe, write $S^V$ for its [[representation sphere]]. For $V \hookrightarrow W$ a subrepresentation, write $W-V$ for the [[orthogonal complement]] representation. 
 
-A _$G$-prespectrum_ $E$ is an assignment of a [[pointed topological space]] $E_V$ to each representation $V$ (in the given [[G-universe]]), equipped for each subrepresentation $V \hookrightarrow W$ with a pointed $G$-equivariant [[continuous function]]
+A _$G$-prespectrum_ $E$ is an assignment of a [[pointed topological space|pointed]] [[G-space]] $E_V$ to each $G$-[[representation]] $V$ (in the given [[G-universe]]), equipped for each subrepresentation $V \hookrightarrow W$ with a pointed $G$-equivariant [[continuous function]]
 
 $$
   \sigma_{V,W}
