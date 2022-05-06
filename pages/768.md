@@ -895,6 +895,8 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
   * [[acyclic group]]
 
+  * [[Sullivan model of classifying space]]
+
 * [[classifying topos]]
 
 * [[universal principal bundle]], [[universal principal ∞-bundle]]
