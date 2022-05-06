@@ -866,9 +866,9 @@ which presented a [[light-cone gauge quantization]] of superstring with manifest
 
 The observation that this has a [[general covariance|generally covariant]] formulation lead to what is now called the Green-Schwarz action functional proper, for the superstring:
 
-* {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
+* {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([spire:193596](http://inspirehep.net/record/193596), <a href="https://doi.org/10.1016/0370-2693(84)92021-5">arXiv;10.1016/0370-2693(84)92021-5</a>)
 
-* {#GreenSchwarzWitten} [[Michael Green]], [[John Schwarz]], _Properties of the Covariant Formulation of Superstring Theories_, Nucl. Phys. B 243 (1984) 285.
+* {#GreenSchwarz84b} [[Michael Green]], [[John Schwarz]], _Properties of the Covariant Formulation of Superstring Theories_, Nucl. Phys. B 243 (1984) 285 ([spire:196623](http://inspirehep.net/record/196623), <a href="https://doi.org/10.1016/0550-3213(84)90030-0">doi:10.1016/0550-3213(84)90030-0</a>)
 
 See also the historical comments in
 
@@ -877,7 +877,7 @@ See also the historical comments in
 
 A standard textbook reference for the GS superstring is
 
-* [[Michael Green]], [[John Schwarz]], [[Edward Witten]], volume 1, section 5 of _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
+* {#GreenSchwarzWitten} [[Michael Green]], [[John Schwarz]], [[Edward Witten]], volume 1, section 5 of _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics
 
 and a brief paragraph in Volume II, section 10.2, page 983 of
 
@@ -934,7 +934,7 @@ Discussion of [[T-duality]] for the Green-Schwarz string is in
 The WZW nature of the second term in the GS action, recognized in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) is
 discussed in
 
-* {#Rabin87} [[Jeffrey Rabin]], _Supermanifold Cohomology and the Wess-Zumino Term of the Covariant Superstring Action_, Commun Math. Phys. 108, 375-389 (1987) ([Euclid](https://projecteuclid.org/euclid.cmp/1104116532))
+* {#Rabin87} [[Jeffrey Rabin]], _Supermanifold Cohomology and the Wess-Zumino Term of the Covariant Superstring Action_, Commun Math. Phys. 108, 375-389 (1987) ([Euclid:1104116532](https://projecteuclid.org/euclid.cmp/1104116532))
 
 * {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989) ([spire](http://inspirehep.net/record/284635?ln=en))
 
