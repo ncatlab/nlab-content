@@ -257,6 +257,8 @@ More recent work in the type-theoretic literature includes:
 
 * M. Gaboardi et al., _Linear Dependent Types for Differential Privacy_, in POPL '13, 2013.
 
+* Peng Fu, Kohei Kishida, Peter Selinger, _Linear Dependent Type Theory for Quantum Programming Languages_, in LICS 2020; [DOI](https://dl.acm.org/doi/10.1145/3373718.3394765), [PDF](https://depend.cs.uni-saarland.de/lics-icalp/papers/B5.F), [video](https://www.youtube.com/watch?v=GUT8j4V6Nzg).
+
 Proposals for a genuine [[syntax]] for dependent linear type theory are in
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
