@@ -130,6 +130,8 @@ See for instance ([MRS 09](#MRS09)) and citations given there.
 
 ## Related concepts
 
+* [[string inspired model]]
+
 * [string theory FAQ -- Is string theory testable?](string+theory+FAQ#IsStringTheoryTestable)
 
 * [string theory FAQ - Did string theory provide any insight relevant in experimental particle physics?](string+theory+FAQ#InsightInParticlePhysics)
