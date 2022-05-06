@@ -95,6 +95,10 @@ See also
 
 * Wikipedia, _[Quark-Gluon plasma](http://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma)_
 
+On the [[rho-meson]]  and its [[chiral partner]] [[a1-meson]] in the [[quark-gluon plasma]]:
+
+* [[Robert Pisarski]], _Where does the Rho Go? Chirally Symmetric Vector Mesons in the Quark-Gluon Plasma_, Phys. Rev. D52 (1995) 3773-3776 ([arXiv:hep-ph/9503328](https://arxiv.org/abs/hep-ph/9503328))
+
 
 ### Non-perturbative aspects
 
