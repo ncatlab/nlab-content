@@ -249,19 +249,23 @@ Much computational detail is displayed in
 	
 Bosonic solutions of eleven-dimensional supergravity were studied in the 1980s in the context of [[Kaluza-Klein mechanism|Kaluza-Klein]] supergravity. The topic received renewed attention in the mid-to-late 1990s as a result of the [[branes]] and duality paradigm and the [[AdS/CFT correspondence]].
 
-One of the earliest solutions of eleven-dimensional supergravity is the maximally supersymmetric Freund-Rubin background with geometry $AdS_4 \times S^7$ and 4-form [[flux]] proportional to the [[volume form]] on $AdS_4$. 
+One of the earliest solutions of eleven-dimensional supergravity is the maximally supersymmetric [[Freund-Rubin compactification]] with geometry $AdS_4 \times S^7$ and 4-form [[flux]] proportional to the [[volume form]] on $AdS_4$. 
 
-* Peter Freund, Mark Rubin, _Dynamics of Dimensional Reduction_ Phys.Lett. B97 (1980) 233-235 ([inSpire](http://inspirehep.net/record/154579?ln=en))
+* [[Peter Freund]], Mark Rubin, _Dynamics of Dimensional Reduction_ Phys.Lett. B97 (1980) 233-235 ([inSpire](http://inspirehep.net/record/154579?ln=en))
 
-The radii of curvatures of the two factors are furthermore in a ratio of 1:2. The modern avatar of this solution is as the near-horizon limit of coincident [[M2-branes]].
+The radii of curvatures of the two factors are furthermore in a ratio of 1:2. The modern avatar of this solution is as the [[near-horizon geometry]] of coincident [[M2-branes]].
 
-* [[Mike Duff]], [[Kellogg Stelle]], _Multimembrane solutions of D = 11 supergravity_ , Phys.Lett. B253 (1991) 113-118 ([web](http://adsabs.harvard.edu/abs/1991PhLB..253..113D))
+* {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
 
 Shortly after the original Freund-Rubin solution was discovered, Englert discovered a deformation of this solution where one could turn on [[flux]] on the $S^7$; namely, singling out one of the [[Killing spinors]] of the solution, a suitable multiple of the 4-form one constructs by squaring the [[spinor]] can be added to the [[volume form]] in $AdS_4$ and the resulting 4-form still obeys the supergravity [[Euler-Lagrange equations|field equations]], albeit with a different relation between the radii of [[curvature]] of the two factors. The flux breaks the [[special orthogonal group|SO(8)]] symmetry of the [[sphere]] to an $SO(7)$ subgroup.
 
 * [[Francois Englert]], _Spontaneous Compactification of Eleven-Dimensional Supergravity_ Phys.Lett. B119 (1982) 339 ([inSPIRE](http://inspirehep.net/record/180130))
 
 Some of the above is taken from [this TP.SE thread](http://theoreticalphysics.stackexchange.com/questions/329/modern-avatar-of-englerts-solution).
+
+See also
+
+* {#Page83} [[Don Page]], _Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity_, Phys. Rev. D 28, 2976 (1983) ([spire:14480](http://inspirehep.net/record/14480) [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976))
 
 A classification of symmetric solutions is discussed in
 
@@ -338,6 +342,10 @@ Computation of [[Feynman amplitudes]]/[[scattering amplitudes]] and [[effective 
 * Hamid R. Bakhtiarizadeh, _Gauge field corrections to eleven dimensional supergravity via dimensional reduction_ ([arXiv:1711.11313](https://arxiv.org/abs/1711.11313))
 
 ### Truncations and compactifications
+
+[[Kaluza-Klein compactifications]] of supergravity and its consistent truncations:
+
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
 
 * [[Hermann Nicolai]], Krzysztof Pilch, _Consistent truncation of $d = 11$ supergravity on $AdS_4 \times S^7$_ ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
 
