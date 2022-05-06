@@ -20,7 +20,7 @@ such that $\sigma e_0 = \sigma e_1 = Id_C$.
 
 * A cylinder functor functorially provides _[[cylinder objects]]_ used for talking about [[homotopy]].
 
-* The notation is supposed to be suggestive of a [[product]] with an object $I$. While this is the motivating example, the interval functor need not be of that form.
+* The notation is supposed to be suggestive of a [[product]] with an object $I$. While this is the motivating example, the cylinder functor need not be of that form.
 
 ##Cylindrical model structures
 
