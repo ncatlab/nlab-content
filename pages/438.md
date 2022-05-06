@@ -40,7 +40,7 @@ Other goodies there include parts of a draft monograph on [profinite algebraic h
 I have also put the start of a brief discussion of the relationships between the Cech and Vietoris methods and the newly developed methods of Topological Data Analysis.
 
 ###List of Goodies!!###
-Please go to [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) for downloads and more details.
+Please go to [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage) for more downloads and fuller details.
 
 * _The [[Menagerie]]_: a set of notes on crossed modules, higher dimensional analogues, simplicial techniques, homotopy coherence, and non-Abelian cohomology of various sorts. This version consists of 10 chapter. It will be updated periodically.
 
@@ -58,6 +58,8 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 *  _Profinite Algebraic Homotopy_.   There is a link to  eight chapters of a draft monograph.  Hopefully, this is likely to be published, so this is an incomplete version. (At present count the full version will probably have more than 1000 pages.) I have added new sections and even chapters to the earlier part, so the first 8 chapters of the current version do not correspond to these here.
 
 * Grothendieck's letters. Thirty years ago I was involved in a brief exchange of letters with Alexander Grothendieck. I will be putting up some excerpts. It may happen that commented versions of these will be made available by the _Documents math&#233;matiques_ project. 
+
+* [[Spaces as infinity-groupoids.pdf|Spaces as Inifinity Groupoids:file]]: this is a draft chapter of a (hopefully) forthcoming book, _New Spaces in Mathematics and Physics_.
 
 
 ##More Information
