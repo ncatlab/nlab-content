@@ -291,9 +291,11 @@ The [[connecting homomorphism]] of the [[long exact sequence in homology]] induc
 
 * [[long exact sequence of homotopy groups]]
 
-* [[long exact sequence in cohomology]]
+* [[long exact sequence in homology]]/[[long exact sequence in homology|in cohomology]]
 
-* [[long exact sequence in homology]]
+  * [[long exact sequence in chain homology]]
+
+  * [[long exact sequence in generalized homology]]
 
 * [[Serre long exact sequence]]
 
