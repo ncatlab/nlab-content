@@ -19,6 +19,13 @@ On [[gauged supergravity|gauged]] [[D=5 supergravity]]:
 
 * [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598 ([spire:219727](http://inspirehep.net/record/219727), <a href="https://doi.org/10.1016/0550-3213(86)90237-3">doi:10.1016/0550-3213(86)90237-3</a>)
 
+On [[E-strings]] as [[M5-branes]] [[wrapped brane|wrapped]] on a [[half K3]]:
+
+* J. A. Minahan, D. Nemeschansky, [[Nicholas Warner]], _Partition Functions for BPS States of the Non-Critical $E_8$ String_, Adv. Theor. Math. Phys.1:167-183, 1998 ([arXiv:hep-th/9707149](https://arxiv.org/abs/hep-th/9707149))
+
+* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], [[Nicholas Warner]], _E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
+
+
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] vacua in [[string theory]]:
 
 * Iosif Bena, Krzysztof Pilch, [[Nicholas Warner]], _Brane-Jet Instabilities_ ([arXiv:2003.02851](https://arxiv.org/abs/2003.02851))
