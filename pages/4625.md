@@ -16,7 +16,7 @@
 
 ## Definition
 
-The __empty category__ is [[the]] [[category]] with no [[objects]], and hence no [[morphisms]], i.e. the catgegory whose [[class]] of objects is the [[empty set]].
+The __empty category__ is [[the]] [[category]] with no [[objects]], and hence no [[morphisms]], i.e. the category whose [[class]] of objects is the [[empty set]].
 
 This is the [[initial object]] in [[Cat]].
 
