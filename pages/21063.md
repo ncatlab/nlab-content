@@ -43,6 +43,8 @@ See also
 
   also:
 
-  CERN courier, _[LHCb explores the beauty of lepton universality](https://home.cern/news/news/physics/lhcb-explores-beauty-lepton-universality)_
+  CERN courier, _[Debut for baryons in flavour puzzle](https://cerncourier.com/a/debut-for-baryons-in-flavour-puzzle/)_, 20 Dec. 2019
+
+  CERN news, _[LHCb explores the beauty of lepton universality](https://home.cern/news/news/physics/lhcb-explores-beauty-lepton-universality)_, 15 Jan 2020
 
   (first measurement of lepton universality for $\Lambda^0_b$ [[Lambda baryons]], finding the [[flavour anomaly]] at (only) 1 [[standard deviation|sigma]] but pointing in the same direct
