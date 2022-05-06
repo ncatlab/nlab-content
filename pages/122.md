@@ -78,7 +78,13 @@ In fact, [[Cat]] is a 2-category (a $Cat$-enriched category) _because_ it is (ca
 ### In terms of morphismwise components
 {#morphismwiseDefn}
 
-An alternative but ultimately equivalent way to define a natural transformation $\alpha : F \rightarrow G$ is as an assignment to every morphism $m : x \rightarrow y$ in $C$ of a morphism $\alpha(m) : F(x) \rightarrow G(y)$, in such a way as that $\alpha(m_0 m_1 m_2) = G(m_0) \alpha(m_1) F(m_2)$ for every ternary composition $m_0m_1m_2$ in $C$. The relation of this to the previous definition is that the commutative squares in the previous definition for any morphism $f$ give the value $\alpha(f) = G(f) \circ \alpha_x = \alpha_y \circ F(f)$, and the identity morphisms for any object $x$ give the component $\alpha_x = \alpha(id_x)$. Composition of natural transformations can be specified directly in terms of this account as well: specifically, an $n$-ary composition $\alpha_1 ... \alpha_n$ of natural transformations is uniquely determined by the property that $(\alpha_1 ... \alpha_n)(m_1 ... m_n) = \alpha_1(m_1) ... \alpha_n(m_n)$, for every $n$-ary composition $m_1 ... m_n$ in $C$.
+An alternative but ultimately equivalent way to define a natural transformation $\alpha : F \rightarrow G$ is as an assignment to every morphism $m : x \rightarrow y$ in $C$ of a morphism $\alpha(m) : F(x) \rightarrow G(y)$, in such a way as that $G(m_1)\alpha(m_0) = \alpha(m_1)F(m_0)$ for every binary composition $m_1 m_0$ in $C$ (or equivalently $\alpha(m_2 m_1 m_0) = G(m_2) \alpha(m_1) F(m_0)$ for every ternary composition $m_2m_1m_0$ in $C$).
+
+The relation of this to the previous definition is that the commutative squares in the previous definition for any morphism $f$ give the value $\alpha(f) = G(f) \circ \alpha_x = \alpha_y \circ F(f)$, and the identity morphisms for any object $x$ give the component $\alpha_x = \alpha(id_x)$.
+
+Vertical composition of natural transformations can be specified directly in terms of this account as well: specifically, an $n$-ary composition $\alpha_1 ... \alpha_n$ of natural transformations is uniquely determined by the property that $(\alpha_1 ... \alpha_n)(m_1 ... m_n) = \alpha_1(m_1) ... \alpha_n(m_n)$, for every $n$-ary composition $m_1 ... m_n$ in $C$.
+
+Horizontal composition is even easier, as the horizontal composite of $\alpha_1, ..., \alpha_n$ is just $\alpha_1 ... \alpha_n$.
 
 ### In terms of the cartesian closed monoidal structure on $Cat$ {#InTermsOfCartMon}
 
