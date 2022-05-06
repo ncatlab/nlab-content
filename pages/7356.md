@@ -126,12 +126,12 @@ More generally, heterotic string theory on an elliptically fibered Calabi-Yau $Z
 A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]] is originally due to ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)). A review of this is in ([Donagi 98](#Donagi98)).
 
 
-### The singular locus of the elliptic fibration and the D7-branes
+### Singular locus of the elliptic fibration and D7-branes
  {#SingularLocusAndD7Branes}
 
 In passing from [[M-theory]] to [[type IIA string theory]], the locus of any [[Kaluza-Klein monopole]] in 11d becomes the locus of [[D6-branes]] in 10d. The locus of the [[Kaluza-Klein monopole]] in turn (as discussed there) is the locus where the $S^1_A$-circle fibration degenerates. Hence in F-theory this is the locus where the fiber of the $S^1_A \times S^1_B$-[[elliptic fibration]] degenerates to the [[nodal curve]]. Since the [[T-duality|T-dual]] of [[D6-branes]] are [[D7-branes]], it follows that [[D7-branes]] in F-theory "are" the singular locus of the elliptic fibration.
 
-Now an [[elliptic fibration|elliptically fibered]] complex [[K3-surface]] 
+Now an [[elliptically fibered complex K3-surface]] 
 
 $$
   \array{
@@ -175,7 +175,7 @@ The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal cur
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
-Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_ ([Sen 96, page 5](#Sen96), [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04), [Denef 08, around (3.41)](#Denef08), [Douglas-Park-Schnell 14](duality+between+M%2FF-theory+and+heterotic+string+theory#DouglasParkSchnell14); for mathematical accounts see [Propp 18, p. 4](K3-spectrum#Propp18)).
+Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$, see at _[[elliptically fibered K3-surface]]  -- [singular points](elliptic+fibration+of+a+K3-surface#SingularPoints)_) there are necessarily _24 D7-branes_ ([Sen 96, page 5](#Sen96), [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04), [Denef 08, around (3.41)](#Denef08), [Douglas-Park-Schnell 14](duality+between+M%2FF-theory+and+heterotic+string+theory#DouglasParkSchnell14)).
 
 Under [[T-duality]] this translates to 24 [[D6-branes]] in [[type IIA string theory]] on [[K3]] ([Vafa 96, Footnote 2 on p. 6](#Vafa96)).
 
