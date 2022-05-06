@@ -54,6 +54,8 @@ which is a statement of the physical phenomenon of _charge conservation_ .
 
 ## Related concepts
 
+* [[hypercharge]]
+
 * [[conserved current]], [[charge]]
 
 * **electric charge**, [[magnetic charge]]
