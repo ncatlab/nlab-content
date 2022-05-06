@@ -27,6 +27,8 @@ In the context of the [[quantization of Yang-Mills theory]], the _mass gap probl
 
 ## References
 
+### Mathematics
+
 A survey and problem description is in
 
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
@@ -49,5 +51,18 @@ See also
 * Wikipedia, _[Mass gap](https://en.wikipedia.org/wiki/Mass_gap)_.
 
 * Wikipedia, _[Yang-Mills existence and the mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap)_
+
+### Phenomenology
+ {#Phenomenology}
+
+In the application of [[QCD]] to [[particle physics]] [[phenomenology]], the mass gap problem is incarnated in the open problem of demonstrating [[confinement]] of [[quarks]] at low energies to colour-neutral [[bound states]], hence to [[hadrons]]/[[baryons]] (hence the existence of ordinary [[matter]]!).  There does exist some qualitative understanding as well as computer simulations in [[lattice QCD]], but there remain fundamental issues with deriving basic properties of [[hadrons]] such as their [[mass]] (e.g. [Kutschke 96, Section 3.1](#Kutschke96)) and [[spin]] (the "[[proton spin crisis]]").
+
+This is widely and well known, but particle physics does not quite share the mathematician's culture of succinctly highlighting open problems. Here are some sources that make this explicit:
+
+* {#Kutschke96} Robert Kutschke, section 3.1 _Heavy flavour spectroscopy_, in D. Bugg (ed.), _Hadron Spectroscopy and the Confinement Problem_, Proceedings of a NATO Advanced Study Institute, Plenum Press 1996  ([doi:10.1007/978-1-4613-0375-6](https://www.springer.com/cn/book/9780306453038))
+
+> While it is generally believed that QCD is the correct fundamental theory of the strong interactions there are, as yet, no practical means to produce full QCD calculations of hadron masses and their decay widths.
+
+(...)
 
 [[!redirects mass gap problem]]
