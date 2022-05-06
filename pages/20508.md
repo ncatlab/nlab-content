@@ -1,4 +1,8 @@
 
+> This page is about the statement in Riemannian geometry. For the [[splitting principle]] (in algebraic topology) see there.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
