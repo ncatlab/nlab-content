@@ -126,6 +126,8 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 
 * Any of the varieties of [[constructive mathematics]] that contradict excluded middle necessarily contradict choice, but they are usually (if not always) consistent with DC (and even COSHEP).
 
+* The existence of a [[elementary embedding#Inconsistency|Reinhardt cardinal]] contradicts AC.  
+
 ### In higher category theory
 
 To formulate a version of the axiom of choice in a higher category, one has to make an appropriate choice of the meaning of "epimorphism".  In most cases, it is best to choose [[effective epimorphisms|effective epimorphism in an (infinity,1)-category]] or a related notion such as [[eso morphisms]].
