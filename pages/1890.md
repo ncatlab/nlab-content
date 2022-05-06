@@ -97,10 +97,9 @@ Then the [usual diagrams](#concrete_definition) that specify a strong monad
 A _strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}:A \otimes T B \to T(A\otimes B)$, called the _strength_, such that the following diagrams commute.
 
 "Strengthening with 1 is irrelevant" (and plays well with the [[unitors]]):
-\begin{tikzcd}[sep=small, nodes={scale=1.25}]
-1 \otimes TA \ar{dd}[swap]{t_{1,A}} \ar{dr}{\cong} \\
-& TA \ar{dl}{\cong} \\
-T(1\otimes A)
+\begin{tikzcd}[column sep=small, nodes={scale=1.25}]
+& TA \ar{ddr}{\cong} \ar{ddl}[swap]{\cong} \\ \\
+1 \otimes TA \ar{rr}{t_{1,A}} && T(1\otimes A)
 \end{tikzcd}
 
 "Consecutive applications of strength commute" (and play well with the [[associators]]):
@@ -136,7 +135,7 @@ In particular, the underlying [[endofunctor]] of a strong monad is a [[strong fu
 
 A _costrength_ for the monad $T$ is a natural transformation $s_{A,B}:T A \otimes B \to T(A\otimes B)$ satisfying analogous diagrams to those for the strength.
 
-Note that the "co-" in "costrength" does _not_ refer to the [[opposite category]]. The terminology makes more sense in the context of [[closed monoidal categories]], where strength and costrength appear on the two sides of the [[internal hom]]. See [the dedicated section](#on_closed_monoidal_categories) for the details.
+Note that the "co-" in "costrength" does _not_ refer to the [[opposite category]]. The terminology makes more sense in the context of [[closed monoidal categories]], where strength and costrength appear on the two sides of the [[internal hom]]. See [the dedicated section](#costrength_and_pointwise_structure) for the details.
 
 When the category $C$ is [[symmetric monoidal category|symmetric monoidal]], the [[braiding]] $b$ allows to obtain a strength from a costrength and vice versa,
 \begin{tikzcd}
@@ -243,8 +242,6 @@ X \times T Y \ar{r}{\eta\times \mathrm{id}} & \mathrm{Hom}(Y,X\times Y) \times T
 
 ### Costrength and pointwise structure
 
-(Work in progress!)
-
 The reference for this part can be found in [Kock '71, Section 1](#kock71). 
 
 Let's give a preliminary definition. A _pointwise structure_ or _cotensorial strength_ ([Kock '72](#kock72)) of a [[monad]] $T$ on a [[closed category]] $C$ is a [[natural transformation]]
@@ -273,54 +270,62 @@ T{[1,X]} \ar{rr}{s'} && {[1,T X]}
 \end{tikzcd}
 
 * Compatibility with the (curried) composition morphism of the closed structure, the morphism $l:[Y,Z]\to [[X,Y],[Y,Z]]$ (see [[closed category#basic_definition]]):
-\begin{tikzcd}[row sep=large, nodes={scale=1.25}]
-T{[Y,Z]} \ar{dd}{s'} \ar{r}{Tl} & T{[{[X,Y]}, {[X,Z]}]} \ar{d}{s'} \\
-& {[{[X,Y]}, T{[X,Z]}]} \ar{d}{{[\mathrm{id}, s']}} \\
-{[Y, T Z]} \ar{r}{l} & {[{[X,Y]}, {[X, T Z]}]}
+\begin{tikzcd}[sep=large, nodes={scale=1.25}]
+T{[Y,Z]} \ar{rr}{s'} \ar{d}{Tl} && {[Y, T Z]}  \ar{d}{l} \\
+T{[{[X,Y]}, {[X,Z]}]} \ar{r}{s'} & {[{[X,Y]}, T{[X,Z]}]} \ar{r}{{[\mathrm{id}, s']}} & {[{[X,Y]}, {[X, T Z]}]}
 \end{tikzcd}
 
 
+#### Equivalence with the notion of costrength
+
+Suppose now that $C$ is a [[monoidal closed category]]. In this case, a pointwise structure and a costrength coincide. Let's see how.
+Given a costrength $s:T X\otimes Y \to T(X\otimes Y)$ we can obtain a pointwise structure as follows,
+\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+T{[X,Y]} \ar{r}{\eta} & {[X,T{[X,Y]}\otimes X]} \ar{r}{{[X,s]}} & {[X,T({[X,Y]}\otimes X)]} \ar{r}{{[X,T\epsilon]}} & {[X,TY]} .
+\end{tikzcd}
+
+Conversely, given a pointwise structure $s':T[X,Y]\to [X,TY]$ we can obtain a costrength as
+\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
+TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otimes Y} & {[Y,T(X\otimes Y)]} \otimes Y \ar{r}{\epsilon} & T(X\otimes B ) .
+\end{tikzcd}
+
+By [[currying]] it can be shown that the respective diagrams of costrength and pointwise structure are equivalent (the unit condition corresponds to the unit condition, and so on).
+
+
+
+#### Algebra structure on the internal homs
+
+A pointwise structure allows in particular to _form pointwise algebra structures_, in the following sense. Given a $T$-[[algebra over a monad|algebra]] $(A,a)$, and any object $X$, we can canonically define an algebra structure on $[X,A]$, given by
 
 \begin{tikzcd}[nodes={scale=1.25}, column sep=large]
-T{[X,Y]} \ar{r}{\eta} & {[X,T{[X,Y]}\otimes X]} \ar{r}{{[X,s]}} & {[X,T({[X,Y]}\otimes X)]} \ar{r}{{[X,T\epsilon]}} & {[X,TY]} 
+T{[X,A]} \ar{r} & {[X,TA]} \ar{r}{{[X,a]}} & {[X,A]} .
 \end{tikzcd}
 
-(...)
+The diagrams above assure us that  
 
+* This map gives indeed a $T$-algebra;
+* $A$ and $[1,A]$ are canonically isomorphic as $T$-algebras too;
+* The internal precomposition with a morphism $f:W\to X$ gives a morphism of $T$-algebras $[X,A]\to [W,A]$.
 
-\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
-T{[X,A]} \ar{r} & {[X,TA]} \ar{r}{{[X,a]}} & {[X,A]}
-\end{tikzcd}
-
-(...)
-
-\begin{tikzcd}[nodes={scale=1.25}, column sep=large]
-TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otimes Y} & {[Y,T(X\otimes Y)]} \otimes Y \ar{r}{\epsilon} & T(X\otimes B ) 
-\end{tikzcd}
-
-(...)
 
 
 #### Example in Set
 
-(...)
-
-
-
+Consider the [[list monad]] on [[Set]]. The usual costrength gives the following pointwise structure:
 \begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
 L{[X,Y]} \ar{r}{\eta} & {[X,L{[X,Y]}\times X]} \ar{r}{{[X,s]}} & {[X,L({[X,Y]}\times X)]} \ar{r}{{[X,L\epsilon]}} & {[X,LY]} \\
 {[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto ({[f,g,h]},x) \big) \ar[mapsto]{r} & \big( x\mapsto {[(f,x), (g,x), (h,x)]}\big) \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) 
 \end{tikzcd}
 
-(...)
+Indeed, this turns a list of functions into a function into lists, that maps $x\in X$ to the list of the results. 
 
-
+If $(A,a)$ is an $L$-[[algebra over a monad|algebra]], i.e. a [[monoid]], this allows to equip function spaces with a monoid structure as follows: 
 \begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
 L{[X,A]} \ar{r} & {[X,LA]} \ar{r}{{[X,a]}} & {[X,A]} \\
 {[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) \ar[mapsto]{r} & \big( x\mapsto f(x) + g(x) + h(x) \big)
 \end{tikzcd}
 
-(...)
+In other words, functions into a monoid for canonically a monoid under _pointwise addition_ (or multiplication).  
 
 
 ## Moggi's typing rules and parameterized definition
