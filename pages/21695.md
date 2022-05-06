@@ -32,7 +32,7 @@ $$ x \mapsto C + \int_a^x f(t) \,\mathrm{d}t .$$
 We may write this value as $C + \int_a f(x) \,\mathrm{d}x$ for short.
 =--
 
-This is only one of the meanings of 'indefinite integral', but it is the only one that doesn\'t have alternative unambiguous terminolgy.  Note that $C$ is the value of the indefinite integral at $a$; thus, $C$ is the initial value if $a$ is the initial point.  But for authors who use this concept, there is often no need to mention either $a$ or $C$ (and hence no terminology needed for them), because they are interested only in whether some other function $F$ is an indefinite integral of $f$, where $f$ is a locally integrable function on some closed interval.
+This is only one of the meanings of 'indefinite integral', but it is the only one that doesn\'t have alternative unambiguous terminology.  Note that $C$ is the value of the indefinite integral at $a$; thus, $C$ is the initial value if $a$ is the initial point.  But for authors who use this concept, there is often no need to mention either $a$ or $C$ (and hence no terminology needed for them), because they are interested only in whether some other function $F$ is an indefinite integral of $f$, where $f$ is a locally integrable function on some closed interval.
 
 +-- {: .num_defn #antider}
 If $F$ is a partial function from $\mathbb{R}$ to $\mathbb{R}$, then $F$ is an __antiderivative__ of $f$ if $f$ is the [[derivative]] of $F$ on its domain:
