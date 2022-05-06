@@ -359,6 +359,8 @@ Notice that this statement, once realized, makes (or would make) Univalent HoTT+
 
 ## Related concepts
 
+* [[initiality conjecture]]
+
 * [[categorical model of dependent types]]
 
 * [[syntax-semantics duality]]
