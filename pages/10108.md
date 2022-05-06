@@ -73,7 +73,7 @@ A survey and problem description of the [[non-perturbative quantum field theory|
 and a report on the progress (essentially none) is in 
 
 * {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills
-Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
+Millennium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/files/ym2.pdf))
 
 Notes reviewing more technical details of the problem are in 
 
