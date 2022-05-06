@@ -26,7 +26,7 @@ The concept was introduced in ([Makkai 96](#Makkai96)). There is no connection t
 
 * [[Marcelo Fiore]], Philip Saville, _A type theory for cartesian closed bicategories_, ([arXiv:1904.06538](https://arxiv.org/abs/1904.06538))
 
-* Philip Saville, _Cartesian closed bicategories: type theory and coherence_, ([PhD thesis](http://homepages.inf.ed.ac.uk/psaville/thesis-for-print.pdf))
+* Philip Saville, _Cartesian closed bicategories: type theory and coherence_, ([PhD thesis](http://homepages.inf.ed.ac.uk/psaville/thesis-for-print.pdf), [arXiv:2007.00624](https://arxiv.org/abs/2007.00624))
 
 Discussion of the example of generalised species:
 
