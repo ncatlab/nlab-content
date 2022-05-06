@@ -186,6 +186,12 @@ See also
 
 * Wikipedia, _[Pion](https://en.wikipedia.org/wiki/Pion)_
 
+### Decays
+
+On $\gamma \to \pi^0 + \pi^+ + \pi^-$:
+
+* {#BDDL09}  M. Benayoun, P. David, L. DelBuono, O. Leitner, _A Global Treatment Of VMD Physics Up To The $\phi$: I. $e^+ e^-$ Annihilations, Anomalies And Vector Meson Partial Widths_, Eur. Phys. J. C65:211-245, 2010 ([arXiv:0907.4047](https://arxiv.org/abs/0907.4047))
+
 ### Exponentiated pion field and Skyrmions
 
 Discussion of the exponentiated pion field ("chiral field") in [[chiral perturbation theory]] and the interpretation of its [[winding number]] as [[Skyrmion]]-number / [[baryon]]
@@ -197,7 +203,6 @@ Discussion of the exponentiated pion field ("chiral field") in [[chiral perturba
 * {#AdkinsNappi84} [[Gregory Adkins]], [[Chiara Nappi]], _Stabilization of Chiral Solitons via Vector Mesons_, Phys. Lett. 137B (1984) 251-256 ([spire:194727](http://inspirehep.net/record/194727), <a href="https://doi.org/10.1016/0370-2693(84)90239-9">doi:10.1016/0370-2693(84)90239-9</a>)
 
   (beware that the two copies of the text at these two sources differ!)
-
 
 * {#RhoEtAl16} [[Mannque Rho]] et al., _Introduction_, In: [[Mannque Rho]] et al. (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
