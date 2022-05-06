@@ -25,6 +25,11 @@
 
 **Makkai duality** is a kind of [[syntax-semantics duality]], due to [[Michael Makkai]], relating [[pretoposes]] (categories having to do with the [[syntax]] of [[first-order logic]]) and [[ultracategories]] (which are a way of capturing the [[semantics]] of first-order logic). This leads to a proof of [[conceptual completeness]] for first-order logic.
 
+## Related entries
+
+* [[Łoś ultraproduct theorem]]
+
+* [[Stone duality]]
 
 ## References
 
@@ -36,7 +41,12 @@
 
 * [[Jacob Lurie]], _Lecture 29X-Makkai Duality_, ([lecture notes](http://www.math.harvard.edu/~lurie/278xnotes/Lecture29X-ConceptualCompleteness.pdf))
 
+* [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
+
+* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, ([thesis](https://dalspace.library.dal.ca/handle/10222/55092), poor quality photocopy).
+
 Some more general variants are achieved in 
 
 * Marek W. Zawadowski, _Descent and duality_, Annals of Pure and Applied Logic __71__, n.2 (1995), 131&#8211;188
+
 * Henrik Forssell, _First-order logical duality_, Ph.D. thesis, Carnegie Mellon U. 2008, [pdf](http://www.andrew.cmu.edu/user/awodey/students/forssell.pdf)
