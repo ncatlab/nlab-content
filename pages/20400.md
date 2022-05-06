@@ -291,6 +291,27 @@ $$\begin{gathered}
 
 ### Booleans
 
+$$\frac{}{\Gamma \vdash tru \Vdash Bool} \qquad
+\frac{}{\Gamma \vdash fls \Vdash Bool}$$
+
+Exercise: Does the following rule express ($Bool \subseteq Comp$), ($Bool \lt\!\!:\;Comp$), or ($Bool \sqsubseteq Comp$)?
+
+$$\frac{\Gamma \vdash b \Vdash Bool}{\Gamma \vdash b \Vdash Comp}$$
+
+Our elimination rule is intuitively characterizing $Bool$ as the least type containing $tru$ and $fls$. The usual elimination rule is derived; it's derivable because Church booleans actually work.
+
+$$\frac{\Gamma,x:Bool \vdash C\,type \qquad
+\Gamma \vdash c \Vdash C[tru/x] \qquad
+\Gamma \vdash c \Vdash C[fls/x] \qquad
+\Gamma \vdash b \Vdash Bool}
+{\Gamma \vdash c \Vdash C[b/x]}$$
+
+An [[ex falso quodlibet]] rule, which is technically about booleans, because of how we defined $\bottom$. Note that this makes $\bottom$ the minimum PER, ordered by inclusion, subtyping, or refinement.
+
+$$\frac{\Gamma \vdash T\,type \qquad
+\Gamma \vdash p \Vdash \bottom}
+{\Gamma \vdash t \Vdash T}$$
+
 ## References
 
 * {#AnandRahliITP14} Abhishek Anand, Vincent Rahli, _Towards a Formally Verified Proof Assistant_, Interactive Theorem Proving (ITP) 2014 ([project web](http://www.nuprl.org/html/Nuprl2Coq/), [paper web](http://www.nuprl.org/KB/show.php?ID=726), [pdf](http://www.nuprl.org/documents/Anand/TowardsAFormallyVerifiedProofAssistant.pdf))
