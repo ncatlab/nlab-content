@@ -97,6 +97,8 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 <img src="https://ncatlab.org/nlab/files/PontrjaginThomConstructionI.jpg" width="800">
 </center>
 
+> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
+
 Here the [[normal framing]] of the submanifolds plays the role of the [[charge]] in [[Cohomotopy]] which they carry:
 
 {#nCohomotopyChargeOfSubmanifoldsIsNormalFraming}$\,$
@@ -104,6 +106,9 @@ Here the [[normal framing]] of the submanifolds plays the role of the [[charge]]
 <center>
 <img src="https://ncatlab.org/nlab/files/nCohomotopyChargeOfSubmanifoldsIsNormalFraming.jpg" width="800">
 </center>
+
+> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
+
 
 For example:
 
@@ -113,6 +118,9 @@ For example:
 <center>
 <img src="https://ncatlab.org/nlab/files/nCohomotopyOfEuclideanNSpace.jpg" width="840">
 </center>
+
+> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
+
 
 This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
 
@@ -125,6 +133,8 @@ With the [[equivariant Hopf degree theorem]] the above example has the following
 <img src="https://ncatlab.org/nlab/files/EquivariantNCohomotopyOfEuclideanNOrientifold.jpg" width="840">
 </center>
 
+> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
+
 
 Further by the [[equivariant Hopf degree theorem]] (see [there](equivariant+Hopf+degree+theorem#EquivariantCohomotopyOfRepresentationTori)), this example generalizes to [[equivariant cohomotopy]] of [[toroidal orbifold|toroidal]] [[orientifolds]]:
 
@@ -134,6 +144,8 @@ Further by the [[equivariant Hopf degree theorem]] (see [there](equivariant+Hopf
 <center>
 <img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfToroidalOrientifold.jpg" width="850">
 </center>
+
+> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
 
 
 \linebreak
@@ -270,6 +282,7 @@ and in terms of [[twisted cohomotopy]]:
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
 
+* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
 
 
 
