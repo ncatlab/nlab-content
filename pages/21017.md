@@ -42,7 +42,7 @@ Here we are using the [[string diagram]]/[[Penrose notation]] from _[[metric Lie
 {#Attribution} **Attribution.** In ['t Hooft 74](#tHooft74) this is observed for the [[unitary Lie algebra]] $\mathfrak{g} = \mathfrak{u}(N)$, in which case only the first summand of the expressions [above](#MetricContractionOfFundamentalLieAction) appears. The generalization to arbitrary [[semisimple Lie algebras]] is observed in [Cvitanović 76, Fig. 14](#Cvitanovic76), reviewed for [[special unitary Lie algebra|su(N)]], [[special orthogonal Lie algebra|so(N)]] and [[symplectic Lie algebra|sp(N)]] in [Cvitanović 08 (9.57), (10.13) and (12.9)](#Cvitanovic08) and for [[special linear Lie algebra|sl(N)]] and [[special orthogonal Lie algebra|so(N)]] in [Chmutov-Duzhin-Mostovoy 11, 6.2.6](#ChmutovDuzhinMostovoy11).
 For the case $\mathfrak{so}(N)$ see also 
 [Bar-Natan 95, Section 6.3](#BarNatan95) (with an eye towards [[Vassiliev knot invariants]]) and
- [Ita-Nieder-Oz 02, Figure 3](#ItaNiederOz02), [McGreevy-Swingle 08, Figure 10](#McGreevySwingle08) (with more discussion of [[AdS/CFT duality]]).
+[Cicuta 82](#Cicuta82), [Ita-Nieder-Oz 02, Figure 3](#ItaNiederOz02), [McGreevy-Swingle 08, Figure 10](#McGreevySwingle08) (with more discussion of the [[large N limit]]).
 
 ### Surface notation
 
@@ -117,7 +117,9 @@ of which a textbook account is in
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
 
-Further discussion of the case of $\mathfrak{so}(N)$ in the context of the [[large N limit]] and [[AdS-CFT duality]]:
+Further discussion of the case of $\mathfrak{so}(N)$ in the context of the [[large N limit]]:
+
+* {#Cicuta82} G.M. Cicuta, _Topological Expansion for $SO(N)$ and $Sp(2n)$ Gauge Theories_, Lett. Nuovo Cim. 35 (1982) 87 ([spire:177713](http://inspirehep.net/record/177713), [doi:10.1007/BF02754653](https://doi.org/10.1007/BF02754653))
 
 * {#ItaNiederOz02} Harald Ita, Harald Nieder, [[Yaron Oz]], _Perturbative Computation of Glueball Superpotentials for $SO(N)$ and $USp(N)$_, JHEP 0301:018, 2003 ([arXiv:hep-th/0211261](https://arxiv.org/abs/hep-th/0211261))
 
