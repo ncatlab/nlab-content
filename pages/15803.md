@@ -97,7 +97,3 @@ Application to [[baryogenesis]] is due to
 [[!redirects axial anomaly]]
 [[!redirects axial anomalies]]
 
-[[!redirects chiral symmetry breaking]]
-
-[[!redirects chiral symmetry]]
-[[!redirects chiral symmetries]]
