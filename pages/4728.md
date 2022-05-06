@@ -33,6 +33,8 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[Klein bottle]]
 
+* [[3-manifold]], [[4-manifold]], [[8-manifold]]
+
 ## Related concepts
 
 * analog for dimension 1: [[curve]], [[algebraic curve]]
