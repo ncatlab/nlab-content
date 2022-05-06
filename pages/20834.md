@@ -6,12 +6,13 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
-#### Gravity
-+--{: .hide}
-[[!include gravity contents]]
+#### Cosmology
++-- {: .hide}
+[[!include cosmology -- contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
