@@ -47,7 +47,7 @@ This is valid even in characteristic $2$, but unfortunately then it is fairly us
 
 ## References
 
-*  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/HTML/DOCS.HTM)
+*  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/html/docs.htm)
 {#Richman}
 
 
