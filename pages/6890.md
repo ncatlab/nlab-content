@@ -65,9 +65,11 @@ Similar but non-dependent type theory software includes _[[Haskell]]_.
 
 * [Coq home page](http://coq.inria.fr/)
 
+* {#jsCoq} [jsCoq](https://x80.org/rhino-coq/), a read-to-use online Coq environment
+
 * [Cocorico](http://coq.inria.fr/cocorico), the Coq wiki
 
-A web-based version of Coq for HoTT and online documentation can be found [here](https://github.com/HoTT/HoTT/wiki).
+A web-based version of Coq for [[HoTT]] and online documentation can be found [here](https://github.com/HoTT/HoTT/wiki).
 
 * A [discussion](http://r6.ca/blog/20091101T231201Z.html) about Coq's predicativity issues.
 
