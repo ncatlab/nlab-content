@@ -66,6 +66,11 @@ Three examples of cones admitted by [[simply-connected]] [[G2-manifolds]] seem t
 
 ## References
 
+Discussion in the context of [[3-manifolds]] and [[orbifolds]]:
+
+* Daryl Cooper, Craig Hodgson, Steve Kerckhoff, _Three-dimensional Orbifolds and Cone-Manifolds_,  MSJ Memoirs Volume 5, 2000 ([pdf](https://web.math.ucsb.edu/~cooper/37.pdf), [euclid:1389985812](https://projecteuclid.org/euclid.msjm/1389985812))
+
+
 Discussion of [[supergravity]] [[black brane]]-solutions at conical singularities ([[cone branes]]) includes the following (see also at _[[far-horizon geometry]]_)
 
 * [[Bobby Acharya]], [[Jose Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, _Branes at conical singularities and holography_, Adv. Theor.Math. Phys.2:1249-1286, 1999 ([arXiv:hep-th/9808014](https://arxiv.org/abs/hep-th/9808014))
