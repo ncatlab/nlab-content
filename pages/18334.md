@@ -46,6 +46,8 @@ in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum 
 
 * {#Schenkel17b} [[Alexander Schenkel]], _From Fredenhagen's universal algebra to homotopy theory and operads_, talk at _Quantum Physics meets Mathematics_, Hamburg, December 2017 ([pdf slides](http://aschenkel.eu/Hamburg17.pdf))
 
+* {#BeniniSchenkel19} [[Marco Benini]], [[Alexander Schenkel]], _Higher Structures in Algebraic Quantum Field Theory_,  Proceedings of LMS/EPSRC Symposium _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortschritte der Physik 2019  ([arXiv:1903.02878](https://arxiv.org/abs/1903.02878))
+
 Construction and axiomatization of gauge field AQFT via [[homotopy theory]] and [[homotopical algebra]] is being developed in
 
 * {#BDS} [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
