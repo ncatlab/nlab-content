@@ -396,6 +396,10 @@ A survey with an eye towards [[higher algebra]] is in
 
 * [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
 
+A survey on various notions of Homotopical category:
+
+* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_ ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
+
 Lecture notes are in 
 
 * [[Dylan Wilson]], _Lectures on higher categories_ ([pdf](https://sites.google.com/a/uw.edu/dwilson/notes))
