@@ -19,6 +19,8 @@ A statement about sufficient data for extensions of a [[smooth function]] from a
 
 ## Related concepts
 
+[[!include extension theorems -- table]]
+
 * [[Hadamard lemma]],
 
 * [[Borel's theorem]]
