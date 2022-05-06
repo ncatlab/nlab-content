@@ -91,7 +91,7 @@ A [[no-go theorem]] for [[KK-compactifications]] of [[supergravity]] down to de 
 * {#MaldacenaNunez01} [[Juan Maldacena]], Carlos Nunez, _Supergravity description of field theories on curved manifolds and a no go theorem_, Int.J.Mod.Phys. A16 (2001) 822-855 ([arXiv:hep-th/0007018](https://arxiv.org/abs/hep-th/0007018))
 
 
-Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] includes
+Discussion of de Sitter [[perturbative string theory vacua]] and their role in the [[landscape of string theory vacua]] or else in the [[swampland]]:
 
 
 * [[David Kutasov]], Travis Maxfield, Ilarion Melnikov, [[Savdeep Sethi]], _Constraining de Sitter Space in String Theory_, Phys. Rev. Lett. 115, 071305 (2015) ([arXiv:1504.00056](https://arxiv.org/abs/1504.00056))
