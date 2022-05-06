@@ -70,7 +70,7 @@ Generally definition \ref{LocallyCompactSpace} implies definition \ref{LocalComp
 
 Hence assume that for every point $x \in X$ then every open neighbourhood $U_x \supset \{x\}$ contains a compact neighbourhood. We need to show that it then also contains the closure $Cl(V_x)$ of a smaller open neighbourhood and such that this closure is compact.
 
-So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbouhood
+So let $K_x \subset U_x$ be a compact neighbourhood. Being a neighbourhood, it has a non-trivial [[interior]] which is an open neighbourhood
 
 $$
   \{x\} \subset Int(K_x) \subset K_x \subset U_x \subset X
@@ -119,14 +119,14 @@ Every [[open subset|open]] [[topological subspace]] $X \underset{\text{open}}{\s
 
 In particular every [[compact Hausdorff space]] itself is [[locally compact topological space|locally compact]].
 
-Conversely, every locally compact Haudorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$. See there _[this example](one-point+compactification#LocallyCompatcHausdorffSpaceIsOpenSubspaceOfCompactHausdorffSpace)_.
+Conversely, every locally compact Hausdorff space $X$ arises in this way, since it can be considered an open subspace in its [[one-point compactification]] $X \sqcup \{\infty\}$. See there _[this example](one-point+compactification#LocallyCompatcHausdorffSpaceIsOpenSubspaceOfCompactHausdorffSpace)_.
 
 =--
 
 +-- {: .num_example #real}
 ###### Example
 
-The [[real numbers]], [[complex numbers]], and $\mathfrak{p}$-[[adic completions]] of [[algebraic number fields]] (with respect to a [[prime ideal]] $\mathfrak{p}$ in the [[ring of integers]]) are locally compact. In [[positive characteristic]] $p$, the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a [[finite field]] with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called [[local fields]]
+The [[real numbers]], [[complex numbers]], and $\mathfrak{p}$-[[adic completions]] of [[algebraic number fields]] (with respect to a [[prime ideal]] $\mathfrak{p}$ in the [[ring of integers]]) are locally compact. In [[positive characteristic]] $p$, the field of [[Laurent series]] $\mathbb{F}_q((t))$ over a [[finite field]] with $q$ elements, topologized with respect to a discrete valuation, is locally compact. In fact, any non-discrete locally compact [[field]] must be of one of these types; they are called [[local fields]].
 
 =-- 
 
