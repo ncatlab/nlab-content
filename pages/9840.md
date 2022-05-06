@@ -1,4 +1,4 @@
-__A. P. Balachandran__ is an indian-american theoretical physicist, retired from the Syracuse University.
+__A. P. Balachandran__ is an indian-american theoretical physicist, retired from the Syracuse University. Balachandran's Wikipedia page (https://en.wikipedia.org/wiki/A._P._Balachandran).
 
 ## selected writings
 
