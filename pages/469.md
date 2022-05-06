@@ -172,7 +172,11 @@ Since the vertical functors are comonadic, the (dual of the) [[adjoint lifting t
 
 * [[string diagram]], [[Kelly-Mac Lane diagram]], [[linguistics|natural language syntax]]
 
-##References#
+##References 
+
+Textbook account for symmetric closed categories:
+
+* {#Borceux94} [[Francis Borceux]], vol 2 section 6.1 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 Original articles studying monoidal biclosed categories are
 
