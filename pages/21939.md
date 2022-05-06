@@ -17,7 +17,7 @@
 
 ## Idea
 
-In joint generalization of the [[cobordism cohomology theories]] [[MU]] and [[MFr]] of [[closed manifold|closed]] $U$-manifolds and of $Fr$-manifolds, rspectively, a _$(U,fr)$-manifold_ ([Conner-Floyd 66, Section 16](#ConnerFloyd66)) is a [[compact topological space|compact]] [[manifold with boundary]] equipped with [[unitary group]]-[[tangential structure]] on its [[stable tangent bundle]] and equipped with a [[trivial vector bundle|trivialization]] (stable [[framed manifold|framing]]) of that over the [[boundary]].
+In joint generalization of the [[cobordism cohomology theories]] [[MU]] and [[MFr]] of [[closed manifold|closed]] $U$-manifolds and of $Fr$-manifolds, respectively, a _$(U,fr)$-manifold_ ([Conner-Floyd 66, Section 16](#ConnerFloyd66)) is a [[compact topological space|compact]] [[manifold with boundary]] equipped with [[unitary group]]-[[tangential structure]] on its [[stable tangent bundle]] and equipped with a [[trivial vector bundle|trivialization]] (stable [[framed manifold|framing]]) of that over the [[boundary]].
 
 The corresponding [[bordism classes]] form a [[bordism ring]] denoted $\Omega^{U,fr}_\bullet$.
 
@@ -25,7 +25,7 @@ The corresponding [[bordism classes]] form a [[bordism ring]] denoted $\Omega^{U
 
 ### Representing spectrum
 
-In generalization to how $\Omega^U_{2k}$ is represented by [[homotopy classes]] of [[maps]] into the [[Thom spectrum]] [[MO]], so $\Omega^{U,fr}_{2k}$ is represented by maps into the [[quotient spaces]] $MU_{2k}/S^{2k}$ (for $S^{2k} = Th(\mathbb{C}^{k}) \to Th( \mathbb{C}^k \times_{U(k)} E U(k) ) = MU_{2k}$ the canonical inclusion):
+In generalization to how $\Omega^U_{2k}$ is represented by [[homotopy classes]] of [[maps]] into the [[Thom spectrum]] [[MU]], so $\Omega^{U,fr}_{2k}$ is represented by maps into the [[quotient spaces]] $MU_{2k}/S^{2k}$ (for $S^{2k} = Th(\mathbb{C}^{k}) \to Th( \mathbb{C}^k \times_{U(k)} E U(k) ) = MU_{2k}$ the canonical inclusion):
 
 \[
   \label{InTermsOfHomotopyGroupsOfQuotientedThomSpace}
@@ -55,7 +55,7 @@ The [[bordism rings]] for [[MU]], $MUFr$ and [[MFr]] sit in a [[short exact sequ
   \to
   \Omega^U_{\bullet+1}
   \overset{i}{\longrightarrow}
-  \Omega^{U,f}_{\bullet+1}
+  \Omega^{U,fr}_{\bullet+1}
   \overset{\partial}{
     \longrightarrow
   }
@@ -147,6 +147,9 @@ The first step in the proof of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRi
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
+## Related concepts
+
+[[!include flavours of cobordism cohomology theories -- table]]
 
 ## References
 
