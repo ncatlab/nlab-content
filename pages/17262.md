@@ -72,7 +72,7 @@ Among the [[finite subgroups of SU(2)]] (hence among all "finite quaternion grou
 
   * $Q_8 \subset 2 T$ the [[binary tetrahedral group]] ([[normal subgroup|normal]]),
 
-  * $Q_8 \subset 2 O$ the [[binary octahedral group]] (not [[normal subgroup|normal]])
+  * $Q_8 \subset 2 O$ the [[binary octahedral group]] ([[normal subgroup|normal]])
 
   * $Q_8 \subset 2 I$ the [[binary icosahedral group]] (not [[normal subgroup|normal]])
 
