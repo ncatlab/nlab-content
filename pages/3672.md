@@ -60,7 +60,7 @@ Combining this, one finds that [[supergravity]] coupled to [[super Yang-Mills th
 
 The relation between [[supersymmetry and division algebras]] was gradually established by a variety of authors, including
 
-* {#KugoTownsend82} [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1982) p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
+* {#KugoTownsend82} [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1982) p. 357-380. ([spire:181889](https://inspirehep.net/literature/181889), <a href="https://doi.org/10.1016/0550-3213(83)90584-9">doi:10.1016/0550-3213(83)90584-9</a>, [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
 
 * {#Sudbery84} A. Sudbery, _Division algebras, (pseudo)orthogonal groups and spinors_, Jour. Phys. A17 (1984),
 939&#8211;955.
@@ -79,7 +79,7 @@ Adv. Appl. Clifford Algebras 10 (2000), 193&#8211;216 ([arXiv:math/0006069](http
 
 Streamlined proof and exposition regarding is in
 
-* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C*$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C^*\ast$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
