@@ -424,7 +424,7 @@ A review of some aspects is in
 
 The relation to [[Khovanov homology]] is discussed in 
 
-* {#Witten11} [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216), [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1))
  
 
 * {#GukovSchwarzVafa} [[Sergei Gukov]], [[Albert Schwarz]], [[Cumrun Vafa]], _Khovanov-Rozansky Homology And Topological Strings_ , Lett. Math. Phys. 74 (2005) 53-74, ([arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243))
