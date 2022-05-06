@@ -15,7 +15,7 @@
 
 ## Idea
 
-What is called the _ultraviolet catastrophe_ is a [[paradox]] in [[classical mechanics|classical]] [[statistical mechanics]] which contradicts [[experimental observation]] and which is corrected by passing from classical to [[quantum mechanics]].
+What is called the _ultraviolet catastrophe_ is a [[paradox]] in [[classical mechanics|classical]] [[statistical mechanics]] which contradicts [[experimental observation]] ([[null result]]) and which is corrected by passing from [[classical physics]] to [[quantum physics]].
 
 ## References
 
