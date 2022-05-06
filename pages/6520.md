@@ -84,9 +84,9 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 ### In quantum field theory and specifically Yang-Mills theory
 
-* [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
+* [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
 
-* Nicholas Manton, Paul M. Sutcliffe, _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
+* [[Nicholas Manton]], [[Paul Sutcliffe]], _Topological solitons_, Cambridge Monographs on Math. Physics, [gBooks](http://books.google.com/books?id=e2tPhFdSUf8C)
 
 * [[Werner Nahm]], _Self-dual monopoles and calorons_, in _Group theoretical methods in physics_ (Trieste, 1983), pages 189-200. Springer, Berlin (1984) ([journal](http://www.springerlink.com/index/y005405w74862327.pdf))
 
