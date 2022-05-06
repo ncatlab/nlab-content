@@ -33,7 +33,7 @@ For $\mathcal{C}$ a [[permutative category]] its [[nerve]]/[[geometric realizati
 $$
   (\mathbb{K}\mathcal{C})_0
   \;\coloneqq\; 
-  \Omega B {\vert C\vert}
+  \Omega B {\vert \mathcal{C}\vert}
   \,,
 $$
 
