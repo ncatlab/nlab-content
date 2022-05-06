@@ -234,8 +234,9 @@ where in the second line we used (eq:ContractionIntoVolumeForm).
 
 #### Properties
 
-+-- {: .num_prop} 
++-- {: .num_prop #HodgePairing} 
 ###### Proposition
+**(Hodge pairing)**
 
 For a [[differential p-form]]
 $
@@ -355,8 +356,9 @@ Here the sign in the last lines arises from the [[Minkowski spacetime|Minkowski]
 
 =--
 
-+-- {: .num_prop} 
++-- {: .num_prop #HodgeStarFollowedByHodgeStar}  
 ###### Proposition
+**(double Hodge dual)**
 
 For a [[differential p-form]] 
 $
