@@ -77,7 +77,12 @@ But, by definition, $U_x$ contains an open neighbourhood of $x$ and by assumptio
 
 ## Examples
 
-* Trivially, [[every discrete topological space is locally connected]].
++-- {: .num_example #LocallyConnectedEuclideanSpace}
+###### Example
+
+Every [[discrete topological space]] is locally connected.
+
+=--
 
 +-- {: .num_example #LocallyConnectedEuclideanSpace}
 ###### Example
