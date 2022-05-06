@@ -39,7 +39,7 @@ Each operator is furthermore associated with a **signature** or **generalized ar
 1. A natural number $n$, the **argument arity**.
 2. A [[function]] from $[n]=\{1,\dots,n\}$ to $Sort$, the **argument sorts**.
 3. A natural number $m$, the **binding arity**.
-4. A [[relation]] $\lhd$ between $[n]$ and $[m]$ called **scoping**.  If $j\lhd k$ we say that the $j^{th}$ argument is *in the scope of* the $k^{th}$ binder.
+4. A decidable [[relation]] $\lhd$ between $[n]$ and $[m]$ called **scoping**.  If $j\lhd k$ we say that the $j^{th}$ argument is *in the scope of* the $k^{th}$ binder.
 
 Often (e.g. in [[PFPL]]) the scoping relation is a [[function]] from $[m]$ to $[n]$, i.e. each binder has exactly one subterm in its scope.  However, it is convenient to be more general; e.g. in a fully-annotated $\lambda$-abstraction $\lambda(x:A.B).M$ it is natural to consider $B$ and $M$ to be both in the scope of the variable $x$, rather than requiring this to be desugared to a form such as $\lambda(A,x.B,x'.M)$ in which potentially-different variables are bound in $B$ and $M$.  Thus, we will represent $\lambda$ as an operator with 3 arguments, two of sort $ty$ and one of sort $tm$, with binding arity 1, and scoping relations $2\lhd 1$ and $3\lhd 1$.
 
