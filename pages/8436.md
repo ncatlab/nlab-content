@@ -48,7 +48,7 @@ The [[physics]] of [[solid]] condensed [[matter]] (made of [[fermions]], due to 
 
 * {#LandauLifshitz59} [[Lev Landau]], [[Evgeny Lifshitz]], _Theory of Elasticity_, part VII of  _[[Course of Theoretical Physics]]_, 1959, 1970
 
-* Ulrich R&#246;ssler, _Solid State Theory: An Introduction_, 2009
+* Ulrich R&#246;ssler, _Solid State Theory: An Introduction_, 2009 ([doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4))
 
 See also:
 
@@ -73,9 +73,6 @@ Discussion of possible realization of the [[SYK-model]] in [[condensed matter ph
 Discussion if exotic [[phases of matter]] via [[tensor network states]]:
 
 Review:
-
-* [[Jens Eisert]], M. Cramer, M.B. Plenio, _Area laws for the entanglement entropy - a review_, Rev. Mod. Phys. 82, 277 (2010) ([arXiv:0808.3773](https://arxiv.org/abs/0808.3773))
-
 
 * [[Roman Orus]], _A Practical Introduction to Tensor Networks: Matrix Product States and Projected Entangled Pair States_, 	Annals of Physics 349 (2014) 117-158  ([arXiv:1306.2164](https://arxiv.org/abs/1306.2164))
 
