@@ -171,7 +171,7 @@ for all $x\in X$ and $y\in P Y$. This strength is [[commutative monad|commutativ
 (Note that the category [[Meas]] has another [[monoidal structure]], which is closed, different from the [[cartesian product]]. For that monoidal structure, the Giry monad is not strong - see [Sato '16](#sato).)
 
 
-## On closed monoidal categories
+## On closed and monoidal closed categories
 
 If the category $C$ is [[closed monoidal category|monoidal closed]], strength and costrength induce particular structures on the [[internal homs]]. 
 
@@ -261,12 +261,23 @@ T{[X,Y]}  \ar{rr}[swap]{s'} && {[X,TY]}
 
 * Compatibility with the multiplication of the monad $\mu^T$:
 \begin{tikzcd}[row sep=large, nodes={scale=1.25}]
-TT{[X,A]} \ar{dd}{\mu^T} \ar{rr}{Ts'} && T{[X,TA]} \ar{d}{s'} \\
-&& {[X,TTA]} \ar{d}{{[X,\mu^T]}} \\
-T{[X,A]} \ar{rr}{s'} && {[X,TA]}
+TT{[X,Y]} \ar{dd}{\mu^T} \ar{rr}{Ts'} && T{[X,TY]} \ar{d}{s'} \\
+&& {[X,TTY]} \ar{d}{{[X,\mu^T]}} \\
+T{[X,Y]} \ar{rr}{s'} && {[X,TY]}
 \end{tikzcd}
 
-(...)
+* Compatibility with the "unitor of the closed structure", the natural isomorphism $i:X\to [1,X]$ (see [[closed category#basic_definition]]):
+\begin{tikzcd}[column sep=small, row sep=large, nodes={scale=1.25}]
+& T X \ar{dl}[swap]{Ti} \ar{dr}{i} \\
+T{[1,X]} \ar{rr}{s'} && {[1,T X]}
+\end{tikzcd}
+
+* Compatibility with the (curried) composition morphism of the closed structure, the morphism $l:[Y,Z]\to [[X,Y],[Y,Z]]$ (see [[closed category#basic_definition]]):
+\begin{tikzcd}[row sep=large, nodes={scale=1.25}]
+T{[Y,Z]} \ar{dd}{s'} \ar{r}{Tl} & T{[{[X,Y]}, {[X,Z]}]} \ar{d}{s'} \\
+& {[{[X,Y]}, T{[X,Z]}]} \ar{d}{{[\mathrm{id}, s']}} \\
+{[Y, T Z]} \ar{r}{l} & {[{[X,Y]}, {[X, T Z]}]}
+\end{tikzcd}
 
 
 
@@ -422,3 +433,7 @@ More in-text references:
 [[!redirects co-strong monads]]
 [[!redirects costrength of a monad]]
 [[!redirects co-strength of a monad]]
+[[!redirects strength and costrength]]
+[[!redirects strengths and costrengths]]
+[[!redirects strength and costrength of a monad]]
+[[!redirects strengths and costrengths of monads]]
