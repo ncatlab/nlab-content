@@ -34,7 +34,7 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 * Define $\alpha$-equivalence and capture-avoiding substitution in [[Initiality Project - Raw Syntax]] ([[John Dougherty]])
 * Define a morphism of CwFs in [[Initiality Project - Semantics]] ([[Paolo Capriotti]]).
 * Define $\Pi$-type structure on a CwF in [[Initiality Project - Semantics - Pi-types]].
-* Write out the equality rules at [[Initiality Project - Type Theory]].
+* Write out the equality rules at [[Initiality Project - Type Theory]] ([[Kenji Maillard]]).
 * Define signatures to give arities to constants, and write out the constant rules at [[Initiality Project - Type Theory]].
 * Write out the $\Pi$-type congruence rules at [[Initiality Project - Type Theory - Pi-types]].
 * Prove some admissible rules, etc. at [[Initiality Project - Type Theory]].
