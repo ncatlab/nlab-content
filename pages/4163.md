@@ -165,7 +165,7 @@ The relation of the construction via [[causal perturbation theory]] to the [[Fey
 ### Non-convergence of the perturbation series
  {#ReferencesNonConvergenceOfThePerturbationSeries}
 
-The argument that the perturbation series of realistic pQFTs necessarily [[divergent series|diverges]] (is at best an [[asymptotic series]]) goes back to 
+The argument that the perturbation series of realistic pQFTs necessarily [[divergent series|diverges]], in fact has vanishing [[radius of convergence]] (is at best an [[asymptotic series]]) goes back to 
 
 * {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
 
