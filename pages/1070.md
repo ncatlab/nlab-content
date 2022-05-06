@@ -191,7 +191,7 @@ is an [[equivalence of categories]].
 
 =--
 
-For instance ([Schapira, cor. 7.3.2](#Schapira)).
+For instance ([Schapira, cor. 7.2.3](#Schapira)).
 
 
 ## Related concepts
