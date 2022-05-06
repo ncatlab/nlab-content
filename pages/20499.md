@@ -63,7 +63,8 @@ which hence introduced the terminology "Hopf-Wess-Zumino term". Followup to this
 
 * Shan Hu, Dimitri Nanopoulos, _Hopf-Wess-Zumino term in the effective action of the 6d, (2, 0) field theory revisted_, JHEP 1110:054, 2011 ([arXiv:1110.0861](https://arxiv.org/abs/1110.0861))
 
-* [[Alex Arvanitakis]], Section 4.1 of _Brane Wess-Zumino terms from AKSZ and exceptional generalised geometry as an $L_\infty$-algebroid_ ([arXiv:1804.07303](https://arxiv.org/abs/1804.07303))
+* [[Alex Arvanitakis]], Section 4.1 of _Brane Wess-Zumino terms from AKSZ and exceptional generalised geometry as an $L_\infty$-algebroid_, Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 5 ([arXiv:1804.07303](https://arxiv.org/abs/1804.07303), [doi:10.4310/ATMP.2019.v23.n5.a1](https://dx.doi.org/10.4310/ATMP.2019.v23.n5.a1))
+
 
 More on the relation to the Hopf invariant in
 
