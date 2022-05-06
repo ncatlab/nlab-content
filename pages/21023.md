@@ -41,13 +41,22 @@ Here the [[arithmetic geometry]]-version of the [[bulk]] [[AdS spacetime]] is id
 
 ## References
 
-* [[Steven Gubser]], Johannes Knaute, Sarthak Parikh, Andreas Samberg, Przemek Witaszczyk, _$p$-adic AdS/CFT_ ([arXiv:1605.01061](https://arxiv.org/abs/1605.01061))
+* [[Steven Gubser]], Johannes Knaute, Sarthak Parikh, Andreas Samberg, Przemek Witaszczyk, _$p$-adic AdS/CFT_, Communications in Mathematical Physics volume 352, pages 1019–1059 (2017) ([arXiv:1605.01061](https://arxiv.org/abs/1605.01061))
 
 * [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
 
 * [[Steven Gubser]], Sarthak Parikh, _Geodesic bulk diagrams on the Bruhat-Tits tree_ ([arXiv:1704.01149](https://arxiv.org/abs/1704.01149))
 
-* Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and (p-adic) AdS/CFT_, ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
+* Arpan Bhattacharyya, Ling-Yan Hung, Yang Lei, Wei Li, _Tensor network and ($p$-adic) AdS/CFT_, JHEP 1801 (2018) 139 ([arXiv:1703.05445](https://arxiv.org/abs/1703.05445))
+
+  (relation to [[tensor networks]])
+
+
+* [[Steven Gubser]], Christian Jepsen, Brian Trundy, _Spin in $p$-adic AdS/CFT_, Journal of Physics A: Mathematical and Theoretical, Volume 52, Number 14 ([arXiv:1811.02538](https://arxiv.org/abs/1811.02538))
+
+  (including [[spinors]])
+
+
 
 An expository account is given in
 
