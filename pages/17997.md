@@ -9,15 +9,14 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
 
+
 ## Idea
 
-For $X$ a [[compact Hausdorff space]] The _fundamental product theorem in topological K-theory_ identifies 
+For $X$ a [[compact Hausdorff space]], the _fundamental product theorem in topological K-theory_ identifies 
 
 1. the [[topological K-theory]]-[[commutative ring|ring]] $K(X \times S^2)$ of the [[product topological space]] $X \times S^2$ with the [[2-sphere]] $S^2 $;
 
@@ -30,7 +29,7 @@ $$
   \,.
 $$
 
-This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]] (cor \ref{BottPeriodicity} below).
+This theorem in particular serves as a substantial step in a [[proof]] of [[Bott periodicity]] for [[topological K-theory]] (cor. \ref{BottPeriodicity} below).
 
 The usual [[proof]] proceeds by 
 
@@ -323,6 +322,9 @@ $$
 =--
 
 
+## Related concepts
+
+* [[equivariant K-theory of projective G-space]]
 
 
 
@@ -330,9 +332,9 @@ $$
 
 Expositions include:
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], section 6 (from p. 19 on) in _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 6 (from p. 19 on) in: _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
-* {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#Hatcher} [[Allen Hatcher]], section 2.1 (from p. 45 on) in: _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 
 
