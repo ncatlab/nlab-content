@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
-=--
 #### Duality in string theory
 +-- {: .hide}
 [[!include duality in string theory -- contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
