@@ -49,7 +49,7 @@ a weak homotopy equivalence.
 +-- {: .num_prop #nConnectedCWApproximationOfContinuousFunction}
 ###### Proposition
 
-Let $f \;\colon\; A \longrightarrow X$ be a [[continuous function]] between [[topological spaces]]. Then there exists for each $n \in \mathbb{N}$ a [[relative CW-complex]] $\hat f \colon A \hookrightarrow \hat Y$ together with an [[extension]] $\phi \colon Y \to X$, i.e.
+Let $f \;\colon\; A \longrightarrow X$ be a [[continuous function]] between [[topological spaces]]. Then there exists for each $n \in \mathbb{N}$ a [[relative CW-complex]] $\hat f \colon A \hookrightarrow \hat X$ together with an [[extension]] $\phi \colon \hat X \to X$, i.e.
 
 $$
   \array{
