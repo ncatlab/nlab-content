@@ -102,6 +102,15 @@ After averaging over the $n!$ permutations of the ordering of the $n$ external v
 
 This means that [[stringy weight systems]] pull back to ordinary [[weight systems]] along this map, corresponding to taking their [[worldline formalism|point-particle limit]]. Under this map [[stringy weight systems span classical Lie algebra weight systems]].
 
+\linebreak
+
+Of course, the ’t Hooft double line construction applies not just to [[Jacobi diagrams]] but also to [[Sullivan chord diagrams]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ClosingHorizontalChordsToSullivanChordsIII.jpg" width="800">
+</center>
+
+> from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
 
