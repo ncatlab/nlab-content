@@ -30,7 +30,8 @@ Let $E$ be a [[multiplicative cohomology theory]], such that the [[d-invariant]]
 
 The archetypical example is $f \;\colon\; S^{2n-1} \to S^{2n}$ a map out of an [[odd integer|odd]]-[[dimension|dimensional]] [[sphere]] and $E = KU$ [[complex topological K-theory]].
 
-### As an extension of Adams-operation modules
+### As an extension of generalized Adams-operation modules
+ {#AsAnExtensionOfAdamsOperationModules}
 
 Writing $C_f$ for the [[homotopy cofiber]] of $f$
 
@@ -51,7 +52,8 @@ $$
 
 this implies that the [[long exact sequence in cohomology]] corresponding to the pair $(Y, C_f)$ truncates to a [[short exact sequence]] of the form
 
-$$
+\[
+  \label{TheShortExactSequenceInETheory}
   0 
   \to
   E^\bullet(\Sigma X)
@@ -62,7 +64,7 @@ $$
   \to 
   0
   \,.
-$$
+\]
 
 This is hence an [[algebra extension|extension]] of $E^\bullet(Y)$ by $E^\bullet(\Sigma X)$ in any [[category]] in which $f^\ast$ is a [[homomorphism]], for instance that of modules over the [[E-Steenrod algebra]].  For the case of $E = KU$ take the category of [[graded abelian groups]] equipped with [[Adams operations]]. 
 
@@ -81,6 +83,225 @@ $$
 and this is the e-invariant of $f$.
 
 (Discussion in this generality includes [BL 09, Sec. 2](#BL09)).
+
+### As an extension of complex topological K-cohomology groups
+
+We discuss this in more detail for the case of [[complex topological K-theory]] $E = KU$, and for $f \;\colon\; S^{2(n + n')-1} \to S^{2n}$ a map between [[spheres]].
+
+We follow [Hopkins-Mathew 12, Lecture 11](#HopkinsMathew12).
+
+
++-- {: .num_defn #AbelianGroupWithAdamsOperations} 
+###### Definition
+**(abelian group with Adams operations)**
+
+We say that an _abelian group with Adams operation_ $\big(A,\{\psi_A^k\}_{k \in \mathbb{N}}\big)$ is an [[abelian group]] $A$ equipped with an [[action]] of the [[multiplicative group|multiplicative]] [[monoid]] $(\mathbb{N}, \cdot)$ of [[natural numbers]], hence equipped with [[group homomorphisms]]
+
+$$
+  \psi_A^k \;\colon\; A \to A
+  \,,
+  \;\;\;\;\;\;\;
+  \text{for all}
+  \;
+  k \in \mathbb{N}
+$$
+
+such that 
+
+$$
+  \psi_A^{k_1}
+  \circ
+  \psi_A^{k_2}
+  \;=\;
+  \psi_A^{ k_1 \cdot k_2 }
+  \,,
+  \;\;\;\;\;\;\;\;\;
+  \text{for all}
+  \;
+  k_1, k_2 \,\in\, \mathbb{N}
+  \,.
+$$
+
+Moreover, for $\big(A,\{\psi_A^k\}_{k \in \mathbb{N}}\big), \, \big(A',\{\psi_{A'}^k\}_{k \in \mathbb{N}}\big)$ two abelian groups with Adams operations, a [[homomorphism]] between them is a [[group homomorphism]] (a [[linear map]]) $\phi \;\colon\; A \to A'$ which respect these operations, hence such that the following [[commuting square|squares commute]]:
+
+$$
+  \array{
+    A &\overset{\;\;\;\phi\;\;\;}{\longrightarrow}& A'
+    \\
+    {}^{\mathllap{ \psi^k_A }}  
+    \big\downarrow 
+    && 
+    \big\downarrow
+    {}^{\mathrlap{\psi_{A'}^k}}
+    \\
+    A &\overset{\;\;\;\phi\;\;\;}{\longrightarrow}& A'
+    \,,
+  }
+  \;\;\;\;\;\;\;\;
+  \text{for all}
+  \;
+  k \in \mathbb{N}
+  \,.
+$$
+
+This makes an [[abelian category]] which we denoted $Ab_{Adams}$.
+
+=--
+
++-- {: .num_example #IntegersEquippedWithHomogeneousAdamsOperations} 
+###### Example
+
+For $n \in \mathbb{N}$, the additive abelian group of [[integers]] $\mathbb{Z}$ becomes an _abelian group with Adams operations_ 
+
+$$
+  \mathbb{Z}(n)
+  \;\coloneqq\;
+  \big(
+    \mathbb{Z},\,
+    \{\psi^k_{\mathbb{Z}}_k\}
+  \big)
+$$
+
+in the sense of Def. \ref{AbelianGroupWithAdamsOperations} by setting
+
+$$
+  \array{
+    \mathbb{Z}
+    &
+    \overset{\;\;\; \psi^k\;\;\;}{\longrightarrow}
+    &
+    \mathbb{Z}
+    \\
+    r &\mapsto& k^n \cdot r
+    \,.
+  }
+$$
+
+=--
+
+
++-- {: .num_example #AdamsOperationsOnComplexTopologicalKTheoryGroups} 
+###### Example
+**([[Adams operations]] on [[complex topological K-theory]] [[cohomology groups|groups]])**
+
+For $X$ a [[compact topological space|compact]] [[pointed topological space]], the  [[complex topological K-theory]] [[cohomology group|group]] $K(X)$ becomes an abelian group with Adams operations in the sense of Def. \ref{AbelianGroupWithAdamsOperations}, 
+via the actual [[Adams operations]], 
+
+$$
+  K(X),
+  \widetilde K(X)
+  \;\in\;
+  Ab_{Adams}
+$$
+
+and hence so does the [[reduced K-theory]] $\widetilde K(X)$:
+
+$$
+  \array{
+    \widetilde K(X)
+    &\overset{\;\;ker(i^\ast)\;\;}{\longrightarrow}&
+    K(X)
+    &\overset{\;i^\ast\;}{\longrightarrow}&
+    K(\ast)
+    \\
+    \big\downarrow
+    {}^{\mathrlap{\psi^k_{\widetilde K(X)}}}
+    &&
+    \big\downarrow
+    {}^{\mathrlap{\psi^k_{K(X)}}}
+    &&
+    \big\downarrow
+    {}^{\mathrlap{\psi^k_{K(\ast)}}}
+    \\
+    \widetilde K(X)
+    &\underset{\;\;ker(i^\ast)\;\;}{\longrightarrow}&
+    K(X)
+    &\underset{\;i^\ast\;}{\longrightarrow}&
+    K(\ast)
+    \,,
+  }
+$$
+
+Moreover, for each (pointed) [[continuous function]] $X \overset{f}{\longrightarrow} Y$ the corresponding [[pullback in cohomology]] respects the Adams operations and hence yields a morphism
+
+$$
+  \widetilde K(X)
+  \overset{\;\;f^\ast\;\;}{\longrightarrow}
+  \widetilde K(Y)
+  \,,
+  \;\;\;\;
+  \in 
+  \;
+  Ab_{Adams}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #AdamsOperationOnComplexTopologicalKtheoryOfnSpheres} 
+###### Proposition
+**([[Adams operations]] on [[complex topological K-theory]] of [[n-spheres]])**
+
+For $n \in \mathbb{N}$, the [[Adams operations]] on the [[reduced K-theory]] (Example \ref{AdamsOperationsOnComplexTopologicalKTheoryGroups}) of the [[n-sphere|2n-sphere]] are given by:
+
+$$
+  \array{
+    \widetilde K
+    \big( 
+      S^{2n}
+    \big)
+    &
+    \overset{ \;\;\; \psi^k\;\;\; }{\longrightarrow}
+    &
+    \widetilde K
+    \big( 
+      S^{2n}
+    \big)
+    \\
+    V &\mapsto& k^n \cdot V
+  }
+$$
+
+and hence are [[isomorphism|isomorphic]] to the objects from Example \ref{IntegersEquippedWithHomogeneousAdamsOperations}:
+
+$$
+  \widetilde K
+  \big( 
+    S^n
+  \big)
+  \;\simeq\;
+  \mathbb{Z}
+  \;\;\;\;
+  \in
+  \;
+  Ab_{Adams}
+  \,.
+$$
+
+=--
+
+
+
+Hence the [[short exact sequence]] (eq:TheShortExactSequenceInETheory) becomes short exact sequence in the [[abelian category]] of abelian groups with Adams operations (Def. \ref{AbelianGroupWithAdamsOperations}):
+
+\[
+  \label{ShortExactSequenceForComplexTopologicalKTheory}
+  0 
+  \to
+  \widetilde K\big( S^{2(n + n')} \big)
+  \overset{\;\;\;\;\;\;}{\longrightarrow}
+  \widetilde K\big( C_f \big)
+  \overset{\;\;\;\;\;\;}{\longrightarrow}
+  \widetilde K\big( S^{2n} \big)
+  \to
+  0
+  \,,
+  \;\;\;\;\;\;\;\;
+  \in
+  \;
+  Ab_{Adams}
+  \,.
+\]
 
 
 ### As a cobordism invariant of manifolds with boundary
@@ -147,11 +368,11 @@ Review:
 
 * [[Ulrich Bunke]], Section 2 of: _Differential cohomology in geometry and analysis_, talk 2008 ([pdf](https://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf), [[BunkeEInvariantErlangen2008.pdf:file]])
 
-* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 11 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+* {#HopkinsMathew12} [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 11 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
 
-* [[Gereon Quick]], _The $e$-invariant_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariant.pdf:file]])
+* {#Quick14EInvariant} [[Gereon Quick]], _The $e$-invariant_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariant.pdf:file]])
 
-* [[Gereon Quick]], _The $e$-invariant and the $J$-homomorphism_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariantAndJHomomorphism.pdf:file]])
+* {#Quick14JHomomorphism} [[Gereon Quick]], _The $e$-invariant and the $J$-homomorphism_, lecture notes in: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014 ([[QuickEInvariantAndJHomomorphism.pdf:file]])
 
 
 
