@@ -44,6 +44,32 @@ In the [[(∞,1)-category]] [[∞Grpd]] every [[weak homotopy equivalence]] is a
 
 =--
 
+## Simplicial version
+
+\begin{theorem}
+A [[simplicial map]] $f\colon X\to Y$ between [[Kan complexes]]
+is a [[simplicial homotopy equivalence]] if and only if
+for any $a$ and $b$ that make the following square commute
+$$\array{
+\partial\Delta^n&\stackrel{a}{\to}&X\\
+\downarrow^\iota&{}^{\exists d}\nearrow&\downarrow^f\\
+\Delta^n &\stackrel{b}{\to}&Y\\
+}
+$$
+there is a diagonal arrow $d$ that makes the upper triangle
+commutative and the lower triangle commutative up to a homotopy
+$h\colon \Delta^1\times\Delta^n\to Y$
+that is constant on the boundary $\Delta^1\times\partial\Delta^n$.
+\end{theorem}
+
+Of course, this statement can be reformulated using
+homotopy groups like the version for topological spaces,
+but the above statement is more practical.
+
+If $X$ or $Y$ is not a [[Kan complex]],
+one can formulate a similar criterion
+using [[barycentric subdivisions]] of $\partial\Delta^n$ and $\Delta^n$.
+
 ## Equivariant version
 
 In $G$-[[equivariant homotopy theory]] the statement is that $G$-homotopy equivalences between [[G-CW complexes]] are equivalent to maps that are weak homotopy equivalences on [[fixed point]] spaces for all closed subgroups (e.g. [Greenlees-May 95, theorem 2.4](#GreenleesMay95)). See at _[[equivariant Whitehead theorem]]_.
