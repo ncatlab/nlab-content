@@ -1,3 +1,4 @@
+[[!redirects N=4 D=4 super Yang-Mills theory]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
