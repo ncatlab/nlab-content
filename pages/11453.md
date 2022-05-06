@@ -324,7 +324,7 @@ The [[Witten-Sakai-Sugimoto model]] for [[QCD]] on O-planes:
 
 ### Lift to M-theory
 
-Lift to [[M-theory]]:
+Lift to [[M-theory]] ([[MO5]], [[MO9]]):
 
 * {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
 
