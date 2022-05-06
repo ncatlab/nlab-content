@@ -301,7 +301,7 @@ from the normalized chain complex, def. \ref{NormalizedChainComplexOnGeneralGrou
 
 =--
 
-e.g. ([Goerss-Jardine, theorem III 2.1](#GoerssJardine)).
+([Goerss-Jardine, theorem III 2.1](#GoerssJardine), see also [Schwede-Shipley 03, Section 2.1](#SchwedeShipley03)).
 
 
 +-- {: .num_cor #SplittingOffDegenerateCells}
@@ -612,6 +612,12 @@ A standard textbook reference for the abelian version is
 
 
 Notice that these authors write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss--Jardine call "Moore complex" is sometime maybe just called "alternating sum complex".
+
+See also
+
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], Section 2.1 of: _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv:math.AT/0209342](http://arxiv.org/abs/math.AT/0209342), [euclid:euclid.agt/1513882376](https://projecteuclid.org/euclid.agt/1513882376))
+
+
 
 A discussion with an emphasis of the generalization to non-abelian simplicial groups is in section 1.3.3 of
 
