@@ -84,9 +84,14 @@ So that then finally is the relation, in the ADE classification, between the sim
 
 ## Related concepts
 
-* [[wrapped brane]]
+* [[McKay quiver]]
 
 * [[ADE classification]]
+
+* [[quiver gauge theory]]
+
+* [[wrapped brane]]
+
 
 ## References
 
