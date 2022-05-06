@@ -37,7 +37,7 @@ This property can be considered an instance of [[Scott topology|Scott continuity
 
 Every [[Radon measure]] on a [[Hausdorff space]] is $\tau$-additive. This includes most regular measures of common use, such as
 
-* the [[Dirac distribution|Dirac measures]],
+* the [[Dirac measures]],
 * the [[Lebesgue measure]] on the real line,
 * the measure induced by the [[volume form]] of a Riemannian manifold,
 * the [[Haar measure]] on a Lie group (or more generally a locally compact Hausdorff topological group).
