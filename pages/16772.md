@@ -93,6 +93,10 @@ $$
 In the [[ADE-classification]] this is the entry [[D4]].
 
 
+[[!include character table of 2D4=Dic2=Q8]]
+
+
+
 
 ## Related concepts
 
