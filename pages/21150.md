@@ -8,11 +8,25 @@ This page collectes material related to the book
 
   [doi:10.1142/9710](https://doi.org/10.1142/9710)
 
-on [[Skyrmions]].
+on [[Skyrmions]], particularly as a model for [[confinement]] in [[QCD]] of [[quarks]] within [[hadrons]] (but also in [[solid state physics]]) and their origin as [[instantons]] of a [[AdS/CFT|holographic]] 5d [[Yang-Mills theory]] ([[holographic QCD]], [[AdS/QCD correspondence]]).
 
 #Contents#
 * table of contents
 {:toc}
+
+### Introduction
+
+* {#RhoEtAl16} [[Mannque Rho]] et al., _Introduction_
+
+> One can make $[$[[chiral perturbation theory]]$]$ consistent with [[QCD]] by suitably matching the [[correlators]] of the [[effective field theory|effective theory]] to those of [[QCD]] at a [[scale]] near $\Lambda$. Clearly this procedure is not limited to only one set of [[vector mesons]]; in fact, one can readily generalize it to an infinite number of hidden [[gauge fields]] in an [[effective field theory|effective]] [[Lagrangian density|Lagrangian]]. In so doing, it turns out that a fifth dimension is "deconstructed" in a (4+1)-dimensional (or 5D) [[Yang-Mills theory|Yang–Mills]] type form. We will see in Part III that such a structure arises, [[top-down model building|top-down]], in [[string theory]].
+
+> $[...]$
+
+> $[$this [[holographic QCD]]$]$ model comes out to describe — unexpectedly well — low-energy properties of both [[mesons]] and [[baryons]], in particular those properties reliably described in quenched [[lattice QCD]] simulations.
+
+> $[...]$
+
+> One of the most noticeable results of this [[AdS/QCD|holographic model]] is the first derivation of [[vector meson dominance|vector dominance]] (VD) that holds both for [[mesons]] and for [[baryons]]. It has been somewhat of an oddity and a puzzle that Sakurai’s [[vector meson dominance|vector dominance]] — with the lowest [[vector mesons]] [[rho meson|ρ]] and ω — which held very well for [[pion|pionic]] [[form factors]] at low momentum transfers famously failed for nucleon form factors. In this [[AdS/QCD|holographic model]], the [[vector meson dominance|VD]] comes out automatically for both the [[pion]] and the [[nucleon]] provided that the infinite $[$[[Kaluza-Klein mechanism|KK-]]$]$tower is included. While the [[vector meson dominance|VD]] for the [[pion]] with the infinite tower is not surprising given the successful Sakurai VD, that the [[vector meson dominance|VD]] holds also for the [[nucleons]] is highly nontrivial. $[...]$ It turns out to be a consequence of a [[AdS/QCD|holographic]] [[Cheshire cat principle|Cheshire Cat phenomenon]] 
 
 
 ### Hadrons and Nuclear Matter
@@ -76,6 +90,13 @@ both the [[pion]] decay constant $f_\pi$ and the [[mass]] of the first [[vector 
 
 > As we saw in this note, for low momentum processes, such as soft [[pion]] [[scattering amplitude|processes]], soft [[rho meson]] exchanges, and soft elastic scattering of [[photons]], the $[$holographic [[WSS model|WSS]]-$]$model's predictions compare extremely well with experimental data. It is somewhat mysterious that the [[baryon]] sector works out almost as well as the [[meson]] sector
 
+\linebreak
+
+**Chapter 17**
+
+On deriving the [[Cheshire cat principle]] of the [[quark bag model]] from [[AdS/QCD]]:
+
+* Holger Bech Nielsen, [[Ismail Zahed]], _The Cheshire Cat Principle from Holography_ ([doi:10.1142/9789814280709_0017](https://doi.org/10.1142/9789814280709_0017), [arXiv:0904.0429](https://arxiv.org/abs/0904.0429)), Chapter 17 in: _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 (...)
 
