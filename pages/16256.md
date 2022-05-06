@@ -34,7 +34,105 @@ Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monop
 
 [[!include KK-monopole geometries -- table]]
 
-## Relation to the D6-brane in type IIA string theory 
+## Properties
+
+(For the moment the following is all about the KK-monopoles in [[11d supergravity]]/[[M-theory]].)
+
+### Near-horizon geometry
+ {#NearHorizonGeometry}
+
+We discuss the [[near horizon geometry]] of coincident MK6-branes.
+
+The [[metric tensor]] of $N$ coincident [[KK-monopoles]] in [[11-dimensional supergravity]] in the limit that $\ell_{th} \coloneqq N \ell_P \to 0$ is
+
+\[
+  \label{SmallNMK6}
+  g_{MK6} 
+    \;=\;
+  g_{\mathbb{R}^{6,1}}
+  +
+  (d y)^2
+  + 
+  y^2
+  \big(
+    (d \theta)^2
+    + 
+    (\sin \theta)^2 (d \varphi)^2
+    + 
+    (\cos \theta)^2 (d \phi)^2
+  \big)
+\] 
+
+subject to the identification
+
+\[
+  \label{OrbifoldIdentificationForKKMonopole}
+  (\varphi, \phi)
+  \;\sim\;
+  (\varphi, \phi) + (2\pi/N ,2\pi/N)
+  \,.
+\]
+
+This is equation (47) in [IMSY 98](#IMSY98), which applies subject to the condition 
+
+$$
+  U/\left(\frac{N}{g^{2/3}_{YM}}\right) 
+  \;=\; 
+  U/\left(\frac{N}{(2\pi)^{4/3} \ell_P}\right) 
+  \;\gg\; 
+  1
+$$ 
+
+from a few lines above. Inserting this condition into the definition $y^2 \coloneqq 2 N \ell^3_P U $ right above (47) shows that
+
+$$
+  \begin{aligned}
+  y^2 
+  & =
+  2 N \ell^3_P U
+  \\
+  & =
+  2(2\pi)^{-4/3} N^2 \ell_P^2 
+  \;
+  \underset{
+    \gg 1
+  }{
+  \underbrace{
+     \left(U/\left(\frac{N}{ (2 \pi)^{4/3} \ell_P}\right)\right)
+  }}
+  \end{aligned}
+$$
+
+hence that the distance $y$ from the locus of the MK6-brane is large in units of
+
+$$
+  \ell_{th} \;=\; \sqrt{2} (2\pi)^{-2/3} N \ell_P
+  \,.
+$$
+
+The identification (eq:OrbifoldIdentificationForKKMonopole) means that this is the [[orbifold]] [[metric cone]] $\mathbb{R}^{6,1} \times \left( \mathbb{R}^4/(\mathbb{Z}_N)\right)$, hence an [[ADE classification|
+A-type]] [[ADE-singularity]]. To make this more explicit, introduce the complex coordinates
+
+$$
+  v \;\coloneqq\; y \, e^{i \varphi} \sin \theta
+  \;\;\;
+  w \;\coloneqq\; y \, e^{i \phi} \cos \theta
+$$
+
+on $\mathbb{R}^4 \simeq \mathbb{C}^2$, in terms of which (eq:SmallNMK6) becomes
+
+$$
+  g_{MK6} 
+  \;\coloneqq\;
+  d v d \overline v
+  + 
+  d w d \overline w
+$$
+
+and which exhibit the identification (eq:OrbifoldIdentificationForKKMonopole) as indeed that of the [[ADE classification|A-type]] $\mathbb{Z}_N$-action ([Asano 00, around (18)](#Asano00)).
+
+
+### Relation to the D6-brane in type IIA string theory 
  {#RelationToTheD6Brane}
 
 Under the relation between [[M-theory]] and [[type IIA superstring theory]] an [[ADE orbifold]] of the 11d KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] ([Townsend 95, p. 6](#Townsend95), [Atiyah-Witten 01, p. 17-18](#AtiyahWitten01) see also e.g. [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
@@ -80,13 +178,13 @@ Discussion dealing carefully with the perspective where the locus of the [[D6-br
 For more on this see at _[D6-brane -- Relation to other branes](D6-brane#RelationToOtherBranes)_ and at _[[M-theory lift of gauge enhancement on D6-branes]]_.
 
 
-## Relation to the D7-brane in type IIB string theory/F-theory
+### Relation to the D7-brane in type IIB string theory/F-theory
 
 Under further [[T-duality]] to [[type IIB superstring theory]]/[[F-theory]] these D6-branes  become the [[D7-branes]].
 
 [[!include F-branes -- table]]
 
-## Brane charges
+### Other Brane charges (?)
 
 In ([Hull 97](#Hull97)) it was argued that the KK-monopole in [[11-dimensional supergravity]] is the object which carries the 6-form charge [[Poincaré duality|Poincaré dual]] to the time-component of the 5-form charge of the [[M5-brane]] as appearing in the [[M-theory super Lie algebra]] via
 
