@@ -51,6 +51,8 @@ A **Segal category** is
      X_1 \times_{X_0} \cdots \times_{X_0} X_1 \;\;(k factors)
   $$
 
+(With the defintion of X_k, shouldn't X_k be equal to X_1 \times_{X_0}... X_1?)
+
   induced by the [[spine]] inclusions $Sp[k] \hookrightarrow \Delta[k]$ are [[model structure on simplicial sets|weak equivalences of simplicial sets]] for $k \geq 2$.
 
 =--
