@@ -1043,13 +1043,22 @@ There are generalizations for $d$-algebras (algebras over little disc operad in 
 
 ## Related concepts
 
+* [[configuration space of points]]
+
+* [[Fulton-MacPherson operad]]
+
+* [[Chern-Simons propagator]]
+
+* [[correlator as differential form on configuration space of points]]
+
+
 * [[Kontsevich formality]]
 
 * [[Rozansky-Witten theory]]
 
 * [[formal noncommutative symplectic geometry]] 
 
-* [[Fulton-MacPherson operad]]
+
 
 
 ## References
