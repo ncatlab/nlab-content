@@ -23,7 +23,7 @@
 
 ## Idea
 
-_String diagrams_ constitute a graphical calculus for expressing operations in [[monoidal categories]]. The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
+_String diagrams_ (also _[[Penrose notation]]_ or _[[tensor networks]]_) constitute a graphical calculus for expressing operations in [[monoidal categories]]. The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
 
 * putting strings next to each other denotes the monoidal product, and having no string at all denotes the unit;
 
@@ -187,6 +187,12 @@ Introductions to and surveys of string diagram calculus:
 * [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier 1996 ([pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3))
 
   (discusses string diagrams in the generality of [[bicategories]])
+
+* [[Jacob Biamonte]], Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
+
+* [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
+
+  (terminology: [[tensor network]])
 
 Some philosophical discussion is given in  
 
