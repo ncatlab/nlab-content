@@ -161,6 +161,8 @@ There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard m
 
 > slide grabbed from [Descotes-Genon 19b](#DescotesGenon19b)
 
+and also that the discrepancy increases further with [[QED]]-corrections taken into account ([Mishra-Mahajan 20,p. 20-21](#MishraMahajan20)).
+
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
@@ -536,7 +538,7 @@ Emphasis of effects of [[hadron|hadronic]] [[form factors]]:
 
 Emphasis of [[QED]]-corrections:
 
-* Dayanand Mishra, Namit Mahajan
+* {#MishraMahajan20} Dayanand Mishra, Namit Mahajan
 On the Impact of Soft Photons on  $B \to K \ell^+ \ell^-$ ([arXiv:2010.10853](https://arxiv.org/abs/2010.10853))
 
 
