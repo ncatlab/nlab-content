@@ -1,7 +1,3 @@
-[[!redirects Thomas van Riet]]
-[[!redirects Thomas van Riet]]
-[[!redirects Thomas van Riet]]
-[[!redirects Thomas van Riet]]
 
 * [webpage](https://www.kuleuven.be/wieiswie/en/person/00055735)
 
@@ -23,4 +19,9 @@
 
 * [[de Sitter spacetime]]
 
+* [[cosmic inhomogeneity]]
+
+
 category: people
+
+[[!redirects Thomas van Riet]]
