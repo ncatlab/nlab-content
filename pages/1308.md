@@ -108,7 +108,7 @@ Due to
 
 * [[Beno Eckmann]], [[Peter Hilton]], ...
 
-An expositions of the argument is given here:
+Expositions of the argument are given here:
 
 * [[The Catsters]]
 
