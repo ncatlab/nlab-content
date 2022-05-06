@@ -28,11 +28,16 @@ $$
 
 where $Q$ denotes the quark charge matrix (e.g. [Piller-Weise 90](#PillerWeise90)).
 
+(This is in contrast, for instance, to the _[[lepton current]]_, given by the analogous expression, but with [[leptons]] instead of [[quarks]].)
+
+
 In [[confinement|confined]] [[chiral perturbation theory]] the hadron current is given by [[vector mesons]] ([[vector meson dominance]]), and including the $A$-variation of the [[chiral anomaly]] [[WZW term]] (see e.g. [Wakamatsu 11](#Wakamatsu11)).
 
 
 
 ## Related concepts
+
+* [[lepton current]]
 
 * [[vector meson dominance]]
 
