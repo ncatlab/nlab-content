@@ -69,20 +69,30 @@ Conversely via the [[Brown representability theorem]] a spectrum representing a 
 
 * [[multiplicative spectral sequence]]
 
+
+
 ## Reference
+
+The notion of (commutative) homotopy ring spectra, i.e. ([[commutative monoid|commutative]]) [[monoids]] in the [[stable homotopy category]] with respect to the [[smash product of spectra]]:
 
 * {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974 ([pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf))
 
-* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], appendix C of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+  > (attributed there to [[George Whitehead]])
 
+Review:
 
-* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
-
-Quick survey includes
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Appendix C.2 of: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
 * {#Malkiewich14} [[Cary Malkiewich]], section 1.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
-Discussion of connective ring spectra as monoids with respect to a smash product on [[Gamma-spaces]] is in
+* [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]] -- [Homotopy ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra)_, 2016
+
+On [[H-infinity ring spectra]]:
+
+* {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405),  [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
+
+
+Discussion of connective ring spectra as monoids with respect to a smash product on [[Gamma-spaces]]:
 
 * {#Schwede99} [[Stefan Schwede]], _Stable homotopical algebra and $\Gamma$-spaces_, Math. Proc. Camb. Phil. Soc. (1999), 126, 329 ([pdf](http://www.math.uni-bonn.de/people/schwede/Gamma.pdf))
 
@@ -98,7 +108,7 @@ See also
 
 * {#BakerRichter} [[Andrew Baker]], [[Birgit Richter]] _Structured ring spectra_, London Mathematical Society Lecture Notes Series 315, Springer 2004
 
-A comprehensive account for for [[symmetric spectra]] is in
+A comprehensive account for [[symmetric spectra]] is in
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
