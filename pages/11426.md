@@ -80,7 +80,13 @@ Review:
 
 * {#Malkiewich11} [[Cary Malkiewich]], section 2 of: _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
-In the incarnation of $MO$ as a [[symmetric spectrum]] is discussed in
+Discussion of [[MO]]-bordism with [[MSO]]-boundaries:
+
+* G. E. Mitchell, _Bordism of Manifolds with Oriented Boundaries_, Proceedings of the American Mathematical Society Vol. 47, No. 1 (Jan., 1975), pp. 208-214 ([doi:10.2307/2040234](https://doi.org/10.2307/2040234))
+
+
+
+In the incarnation of $MO$ as a [[symmetric spectrum]]:
 
 * {#Schwede12} [[Stefan Schwede]], Example I.2.8 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
