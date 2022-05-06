@@ -245,7 +245,7 @@ $$
     &\overset{\;\;\;\psi^k_H\;\;\;}{\longrightarrow}&
     H^{2r}(X;\mathbb{Q})
     \\
-    \alpha_{2k} &\mapsto& k^{r} \cdot \alpha
+    \alpha_{2k} &\mapsto& k^{r} \cdot \alpha_{2r}
     \,.
   }
 $$
