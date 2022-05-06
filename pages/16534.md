@@ -19,7 +19,10 @@
 
 ## Examples
 
-### 1/2 M5-brane
+[[!include brane bound states -- table]]
+
+
+More:
 
 [[M5-brane]] with [[KK-monopole]]:
 
@@ -39,34 +42,18 @@ $$
 
 For more see at _[Half NS5-branes](NS5-brane#NSHalfBranes)_
 
-### E-String
-
-See at _[[E-string]]_
-
-### String network
-
-See at _[[string network]]_.
-
-### Membrane triple junction
-
-see at _[[membrane triple junction]]_.
-
-### D4-branes ending on D6-branes
+\linebreak
 
 [[D4-branes]] ending on [[D6-branes]] from [[M5-branes]] in [[MK6-branes]]:
 
 [Hashimoto 98](#Hashimotop98), see also [Smith 02 (245)](#Smith02)
 
 
-### Dp-D(p+4) brane intersections
-
-[[!include Dp-D(p+4)-brane bound states -- contents]]
 
 ## Related concepts
 
-* [[intersecting D-brane model]]
+[[!include brane bound states -- table]]
 
-* [[D1-D5 brane bound state]]
 
 
 
