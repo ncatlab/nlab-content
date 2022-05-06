@@ -171,7 +171,7 @@ The 1-categorical notion has been described by [[Bill Lawvere]] in a series of t
 
 A comprehensive discussion is in
 
-\bibitem{SCT} [[Marta Bunge]] and [[Jonathon Funk]], _Singular coverings of toposes_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (chap. 1)
+* [[Marta Bunge]] and [[Jonathon Funk]], _Singular coverings of toposes_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (chap. 1)
 
 See also:
 
