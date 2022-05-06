@@ -19,7 +19,7 @@ On [[quantum anomalies]] via [[index theory]]:
 * [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([doi:10.1073/pnas.81.8.2597]( https://doi.org/10.1073/pnas.81.8.2597), [jstor:23378](https://www.jstor.org/stable/23378))
 
 
-On [[moment maps]] and [[equivariant de Rham cohomology]]
+On [[moment maps]], [[equivariant de Rham cohomology]] and [[equivariant localization]]:
 
 * {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology 23, 1 (1984) (<a href="https://doi.org/10.1016/0040-9383(84)90021-1">doi:10.1016/0040-9383(84)90021-1</a>, [pdf](https://www.math.stonybrook.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
 
