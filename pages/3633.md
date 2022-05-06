@@ -32,7 +32,7 @@ What is called _Wick rotation_ (after [[Gian-Carlo Wick]]) is a method in [[phys
 >  graphics grabbed from [Fulling-Ruijsenaars 87](#FullingRuijsenaars87)
 
 
-This is motivated by the observation that the [[Minkowski metric]] (with the $-1,1,1,1$ convention) and the four-Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values. Hence Wick rotation, when it applies, involves [[analytic continuation]] of [[n-point functions]] to [[complex number|complex valued]] [[time]] [[coordinates]].
+This is motivated by the observation that the [[Minkowski metric]] (with the $(-1,1,1,1)$ convention for [[spacetime signature]]) and the four-Euclidean metric are equivalent if the [[time]] components of either are allowed to have [[imaginary part|imaginary]] values. Hence Wick rotation, when it applies, involves [[analytic continuation]] of [[n-point functions]] to [[complex number|complex valued]] [[time]] [[coordinates]].
 
 For [[relativistic field theory|relativistic]]/[[Euclidean field theory|Euclidean]] [[quantum field theory]] on [[Minkowski spacetime]] $\mathbb{R}^{d,1}$/[[Euclidean space]] $\mathbb{R}^{d+1}$ Wick rotation is rigorously understood and takes the form of a [[theorem]] relating the [[Wightman axioms]] for [[n-point functions]] in [[relativistic field theory]] to the _[[Osterwalder-Schrader axioms]]_ for [[correlators]] in [[Euclidean field theory]]. 
 
