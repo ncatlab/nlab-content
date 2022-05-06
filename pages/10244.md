@@ -152,11 +152,7 @@ In [FSS 19c](#FSS19c) is offered a proof that combining super-embedding formalis
 
 ### General
 
-The approach is due to
-
 * {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. 329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
-
-Review includes
 
 * {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
 
@@ -184,13 +180,13 @@ The [[equations of motion]] for the [[superstring]] have been derived via the [[
 
 See also 
 
-* [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_,  	Phys. Lett. B352:269-275, 1995 ([arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141))
+* [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_, Phys. Lett. B352:269-275, 1995 ([arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141))
 
 ### For the M2-brane
 
 The [[equations of motion]] for the [[M2-brane]] have been derived via the [[superembedding approach]] in 
 
-* [BPSTV 95, Chapter 4](#BPSTV95)
+* [BPSTV 95, Chapter 3](#BPSTV95)
 
 and the [[Lagrangian density]] in
 
