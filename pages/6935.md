@@ -61,7 +61,7 @@ We discuss the [[categorical semantics]] of inductive types.
 
 The categorical interpretation of [[induction]], hence of the _dependent elimination_ and computation rules from [above](#InductionRules) are the following. 
 
-Let $\mathcal{C}$ be the ambient [[category]].
+Let $\mathcal{C}$ be the [[ambient category]].
 
 1. **[[term introduction rule]]** 
 
