@@ -38,8 +38,12 @@ on [[homotopy theory]], [[higher algebra]] and [[higher category theory]].
 
 * [[David Gepner]], _An Introduction to Higher Categorical Algebra_, ([arXiv:1907.02904](https://arxiv.org/abs/1907.02904))
 
-
 * [[Søren Galatius]], [[Oscar Randal-Williams]], _Moduli spaces of manifolds: a user's guide_, ([arXiv:1811.08151](https://arxiv.org/abs/1811.08151))
+
+* [[Gijs Heuts]], _Lie algebra models for unstable homotopy theory_, ([arXiv:1907.13055](https://arxiv.org/abs/1907.13055))
+
+
+* ...
 
 ## Related entries
 
