@@ -258,6 +258,11 @@ A classical influential text on the nature of Lorentzian space is
 
 * [[Roger Penrose]], [[Wolfgang Rindler]], _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
 
+On Lorentz structure as [[G-structure]]:
+
+* Leandro A. Lichtenfelz, [[Paolo Piccione]], Abdelghani Zeghib, _On the Isometry Group of Lorentz Manifolds_, in: Miguel Sanchez, Miguel Ortega, Alfonso Romero (eds.) _Recent Trends in Lorentzian
+Geometry_, Springer 2013 ([doi:10.1007/978-1-4614-4897-6_12](https://doi.org/10.1007/978-1-4614-4897-6_12))
+
 The relation between causality and [[poset]]-structure (see also [[causal set]]) is reviewed for instance in 
 
 * Ettore Minguzzi, _Time and Causality in General Relativity_ , talk notes, Ponta Delgada, July 2009 ([pdf](http://fqxi.org/data/documents/Minguzzi%20%20Azores%20Talk.pdf))
