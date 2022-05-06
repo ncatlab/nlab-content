@@ -216,6 +216,7 @@ For more history see
 
 ### General
   
+* [[Pietro Fre]], _The Branes: Three Viewpoints_,  In: _Gravity, a Geometrical Course_ Springer 2013 ([spire:1242195](http://inspirehep.net/record/1242195), [doi:10.1007/978-94-007-5443-0_7](https://doi.org/10.1007/978-94-007-5443-0_7))
 
 * [[Greg Moore]], _What is... a brane?_, Notices of the AMS vol 52, no. 2 ([pdf](http://www.ams.org/notices/200502/what-is.pdf))
 
