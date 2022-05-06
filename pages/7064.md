@@ -17,6 +17,7 @@
 =--
 =--
 
+
 # Homotopy groups of spheres
 * table of contents
 {: toc}
@@ -106,7 +107,35 @@ The [[finite abelian group]] $\pi_7(\mathbb{S}) \simeq \mathbb{Z}_{240}$ decompo
 
 =--
 
+## Examples
 
+### The third stable homotopy group of spheres
+
+The [[third stable homotopy group of spheres]] (the third [[stable stem]]) is the [[cyclic group]] of [[order of a group|order]] 24:
+
+$$
+  \array{
+    \pi_3^s &\simeq& \mathbb{Z}/24
+    \\
+    [h_{\mathbb{H}}] &\leftrightarrow& [1]
+  }
+$$
+
+where the generator $[1] \in \mathbb{Z}/24$ is represented by the [[quaternionic Hopf fibration]] $S^7 \overset{h_{\mathbb{H}}}{\longrightarrow} S^4$.
+
+Under the [[Pontrjagin-Thom isomorphism]], identifying the [[stable homotopy groups of spheres]] with the [[bordism ring]] of [[stable framing|stably framed]] manifolds, this generator is represented by the [[3-sphere]] (with its left-invariant framing induced from the identification with the [[Lie group]] [[SU(2)]] $\simeq$ [[Sp(1)]] )
+
+
+$$
+  \array{
+    \pi_3^s & \simeq & \Omega_3^{fr} 
+    \\
+    [h_{\mathbb{H}}] & \leftrightarrow & [S^3]
+    \,.
+  }
+$$
+
+Moreover, the relation $2 4 [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold ([MO:a/44885/381](https://mathoverflow.net/a/44885/381), [MO:a/218053/381](https://mathoverflow.net/a/218053/381)).
 
 ## Properties
 
@@ -236,7 +265,7 @@ Introductions and surveys include
 
 * Alex Wright, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www-personal.umich.edu/~alexmw/HomotopyGroupsOfSoheres.pdf))
 
-* {#WangXu10} [[Guozhen Wang]], Zhouli Xu _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf))
+* {#WangXu10} [[Guozhen Wang]], Zhouli Xu, _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf), [[WangXuHomotopyGroupsOfSpheres2010.pdf:file]])
 
 * {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf))
 
