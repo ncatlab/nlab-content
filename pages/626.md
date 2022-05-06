@@ -216,6 +216,8 @@ For more on the history of the notion see the bibliography in ([Selinger 09](#Se
 
 String diagrams for [[monoidal categories]] are discussed in
 
+* [[Günter Hotz]], "Eine Algebraisierung des Syntheseproblems von Schaltkreisen" (1965, in german) ([pdf](https://www.magentacloud.de/lnk/LiPMlYfh#file)) and ([pdf](https://www.magentacloud.de/lnk/YivslUWJ#file))
+
 * [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011.  ([pdf](http://tqft.net/other-papers/Geometry%20of%20Tensor%20Calculus%20-%20Joyal%20&%20Street.pdf))
 
 * [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_.  ([pdf](http://www.math.mq.edu.au/~street/GTCII.pdf).
