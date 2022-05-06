@@ -65,7 +65,9 @@ The [[homotopy groups]] of the 4-sphere in low degree are
 |-----|---|---|---|---|---|---|---|---|---|---|----|-----|----|
 | $\pi_k(S^4)$ | $\ast$ | 0 | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z} \times \mathbb{Z}_2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_{24} \times \mathbb{Z}_3$ | $\mathbb{Z}_{15}$ | $\mathbb{Z}_2$ | 
 
-### As part of the quaternionic Hopf fibration
+### Bundles over the 4-sphere
+
+#### The quaternionic Hopf fibration
 
 The 4-sphere participates in the [[quaternionic Hopf fibration]], the analog of the complex [[Hopf fibration]] with the field of [[complex numbers]] replaced by the division ring of [[quaternions]] or Hamiltonian numbers $\mathbb{H}$.
 
@@ -97,7 +99,11 @@ to $x/y$ as an element in the [[projective line]] $\mathbb{P}^1(\mathbb{H}) \con
 
 {#HopfParameterization} There are other useful ways to parameterize the quaternionic Hopf fibration, such as the original _[[Hopf construction]]_, see there the section _[Hopf fibrations](Hopf+construction#HopfFibrations)_. By this parameterization $S^4$ is identified as $S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})$.
 
-### As a quotient of the complex projective plane
+#### The Calabi-Penrose fibration
+
+See at _[[Calabi-Penrose fibration]]_.
+
+#### The complex projective plane
  {#AsAQuotientOfTheComplexProjectivePlane}
 
 +-- {: .num_prop}
