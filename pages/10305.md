@@ -43,6 +43,7 @@
 
 * [[M2-M5 brane bound states]]
 
+* [[D4-D8 brane bound states]]
 
 ## References
 
