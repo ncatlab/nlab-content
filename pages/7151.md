@@ -1,9 +1,21 @@
 
 * [webpage](http://www.christiansaemann.de/research.html)
 
-## related $n$Lab entries
+## Selcected writings
 
-* [[3-Lie algebra]]
+On the [[M2-brane 3-algebra]] and the [[BLG model]]:
+
+* {#CherkisSaemann08} [[Sergey Cherkis]], [[Christian Saemann]], _Multiple M2-branes and Generalized 3-Lie algebras_, Phys. Rev. D78:066019, 2008 ([arXiv:0807.0808](https://arxiv.org/abs/0807.0808))
+
+On [[schreiber:Higher Structures]] in [[M-theory]]:
+
+* {#Saemann16} [[Christian Saemann]], _Lectures on Higher Structures in M-Theory_ ([arXiv:1609.09815](https://arxiv.org/abs/1609.09815))
+
+* [[Branislav Jurco]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_, Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
+
+## Related $n$Lab entries
+
+* [[M2-brane 3-algebra]]
 
 * [[Nambu mechanics]]
 
