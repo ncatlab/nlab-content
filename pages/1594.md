@@ -186,7 +186,7 @@ Survey of applications in [[mathematical physics]] and notably in [[string theor
 
 Orbifolds often appear as [[moduli spaces]] in differential geometric setting:
 
-* [[Dietmar Salamon]], [[Joel Robbin|Joel W. Robbin]], A construction of the Deligne--Mumford orbifold, J. Eur. Math. Society, ISSN 1435-9855, Vol. 8, N&#186; 4, 2006, 611-699 ([arXiv](http://arxiv.org/abs/math/0407090))
+* [[Dietmar Salamon]], [[Joel Robbin|Joel W. Robbin]], _A construction of the Deligne--Mumford orbifold_, J. Eur. Math. Society, ISSN 1435-9855, Vol. 8, N&#186; 4, 2006, 611-699 ([arXiv](http://arxiv.org/abs/math/0407090))
 
 The generalization of orbifolds to _weighted [[branched manifolds]]_ is discussed in
 
