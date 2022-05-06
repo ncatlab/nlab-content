@@ -30,11 +30,9 @@ The empty category is [[initial object|initial]] in [[Cat]] (as well as [[Grpd]]
 
 ## Related concepts
 
-* [[empty space]]
-
-* [[empty diagram]]
-
 * [[terminal category]]
+
+[[!include empty objects -- contents]]
 
 
 
