@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -100,6 +101,7 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 ## Related concepts
 
+* [[Pontrjagin character]]
 
 * [[p1-structure]], [[string structure]], [[fivebrane structure]]
 
@@ -116,6 +118,10 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 * [[orthogonal calculus]]
 
 ## References
+
+Original accounts:
+
+* {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
 
 
 Classical textbook references are
