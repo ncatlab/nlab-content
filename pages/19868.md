@@ -31,7 +31,7 @@ We consider categories with families as set-level structures (in particular, as 
 ###### Definition
 Let $C$ and $D$ be CwFs.  A **CwF morphism** is a functor $F:C\to D$, preserving the specified terminal objects (on the nose), together with a commutative square in $[C^{op},Set]$:
 $$\array{ Tm_C & \to & F^*(Tm_D) \\ \downarrow & & \downarrow \\ Ty_C & \to & F^*(Ty_D) }$$
-such that, for all $\Gamma \in C$, and $A : y\Gamma \to C$, the square
+such that, for all $\Gamma \in C$, and $A : y\Gamma \to Ty$, the square
 $$
 \array{
 y(F(\Gamma.A)) & \to & Tm_D \\
