@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -94,13 +95,17 @@ A general account of [[vacuum]] [[QFT with defects|defects]] such as [[domain wa
 * [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
  {#VilenkinShellard94}
 
-Detailed discussion of the [[phenomenology]] of electroweak monopoles is in 
+Detailed discussion of the [[phenomenology]] of [[electroweak force|electroweak]] monopoles is in 
 
-* Y.M. Cho and D. Maison, Phys. Lett. B391, 360 (1997)
- {#ChoMaison}
+* {#ChoMaison} Y.M. Cho and D. Maison, Phys. Lett. B391, 360 (1997)
+ 
 
-* Y. M. Cho, Kyoungtae Kim, J. H. Yoon, _Finite Energy Electroweak Dyon_ ([arXiv:1305.1699](http://arxiv.org/abs/1305.1699))
- {#ChoKimYoon13}
+* {#ChoKimYoon13} Y. M. Cho, Kyoungtae Kim, J. H. Yoon, _Finite Energy Electroweak Dyon_ ([arXiv:1305.1699](http://arxiv.org/abs/1305.1699))
+ 
+Discussion of monopole [[correlators]]:
+
+* {#Iqbal14} [[Nabil Iqbal]], _Monopole correlations in holographically flavored liquids_, Phys. Rev. D 91, 106001 (2015) ([arXiv:1409.5467](https://arxiv.org/abs/1409.5467))
+
 
 [[!redirects monopoles]]
 
