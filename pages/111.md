@@ -266,7 +266,7 @@ Other standard operations on categories include
 The concept originates in
 
 * {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society
-Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/1990284))
+Vol. 58, No. 2 (Sep., 1945), pp. 231-294, doi:[10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6) ([JSTOR](http://www.jstor.org/stable/1990284))
 
 The standard textbook is
 
