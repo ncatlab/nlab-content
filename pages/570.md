@@ -15,9 +15,15 @@
 
 ## Definition
 
-A [[monoidal category]] is **strict** if its associator, left unitor and right unitor are [[identity natural transformation]]s.
+A [[monoidal category]] is **strict** if its [[associator]] and left/right [[unitors]] and are [[identity natural transformations]].
 
 
 ## Related concepts
 
 * [[coherence theorem for monoidal categories]]
+
+* [[permutative category]]
+
+* [[commutative monoidal category]]
+
+[[!redirects strict monoidal categories]]
