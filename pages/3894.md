@@ -477,6 +477,10 @@ This continues with lifts to the
 
 * more generally a $GL(m, \mathbb{C}) GL(n, \mathbb{C})$-structure on a $m n$-dimensional manifold is locally identical to a Grassmannian spinor structure.
 
+### Special holonomy examples
+
+[[!include normed division algebra Riemannian geometry -- table]]
+
 ### Higher geometric examples
 
 See the list at [[twisted differential c-structure]].
