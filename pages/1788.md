@@ -96,4 +96,10 @@ By way of outlook, we think we see now that there is a natural chromatic charact
 
 \linebreak
 
+The very first paragraphs of the reply highlight that subquotients of ordinary cohomology groups are not ordinary cohomology anymore --  or else you'd conclude from the AHSS that everything is ordinary cohomology. There is a single flux quantization condition enforced by ordinary integral cohomology, namely integrality of the charge, and evidently that's not the subtle web of conditions in question here. If C-field flux were quantized in ordinary cohomology, there'd be no need for DFM to discuss "models of the C-field", namely candidate non-ordinary cohomology theories whose structure enforces the peculiar nature of C-field flux. From plain ordinary cohomology in 11d evidently K-theory does not follow, or else the latter were pointless. Ordinary cohomology quantizes non-interacting abelian gauge flux and nothing else, that does't make an M-theory. It's extra conditions on top of superficially ordinary cohomology classes which are the content of DMW's old argument, as explained in the reply's first section. 
+
+One needs to understand, as readers venturing into this discussion might be expected to know, that the Chern-Dold character map and the AHSS are tools to break down any generalized cohomology into ordinary cohomology with a sequence of conditions and identifications imposed on them. It is in this way, and only in this way, that, conversely, an intricate web of flux quantization conditions on superficially ordinary cohomllogy classes may be unified and be explained by making manifest a single but generalized cohomology theory which enforces them all. It is this nature of flux quantization in generalized cohomology which is the point, cause and aim of the discussion. The reader unclear about this would need to be provided with more explanation of the background story, not less.
+
+
+
 
