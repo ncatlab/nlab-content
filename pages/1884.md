@@ -126,7 +126,7 @@ is a [[trivial vector bundle]].
 
 =--
 
-For **proof** see [this prop.](TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle) at _[[topological vector bundle]]_.
+For **proof** see [this prop.](topological+vector+bundle#TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle) at _[[topological vector bundle]]_.
 
 
 ### The K-group
