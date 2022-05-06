@@ -223,6 +223,10 @@ based on the analysis of [[perturbative string theory]] on (global) [[orbifold]]
 
 * {#DixonHarveyVafaWitten86} [[Lance Dixon]], [[Jeff Harvey]], [[Cumrun Vafa]], [[Edward Witten]], _Strings on orbifolds (II)_, Nuclear Physics B Volume 274, Issue 2, 15 September 1986, Pages 285-314 (<a href="https://doi.org/10.1016/0550-3213(86)90287-7">doi:10.1016/0550-3213(86)90287-7</a>)
 
+Discussion in terms of [[equivariant K-theory]]:
+
+* {#GarciaCompean98} Hugo Garcia-Compean, _D-branes in Orbifold Singularities and Equivariant K-Theory_, Nucl.Phys. B557 (1999) 480-504 ([arXiv:hep-th/9812226](https://arxiv.org/abs/hep-th/9812226))
+
 Survey with an eye towards [[string phenomenology]] is in 
 
 * {#MalyshevVerlinde07} Dmitry Malyshev, [[Herman Verlinde]], _D-branes at Singularities and String Phenomenology_, Nucl.Phys.Proc.Suppl.171:139-163, 2007 ([arXiv:0711.2451](https://arxiv.org/abs/0711.2451))
