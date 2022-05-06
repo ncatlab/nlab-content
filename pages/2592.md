@@ -171,7 +171,9 @@ are inclusion of the first summand followed by the map sending $(1,0)\mapsto 2$ 
 
 ### Homology and cohomology 
 
-([Pittie 91](#Pittie91))
+[[ordinary cohomology]] of the [[classifying spaces]] $B O(n)$ and $B SO(n)$:
+
+([Brown 82](#Brown82), [Pittie 91](#Pittie91))
 
 ### Whitehead tower and higher orientation structures
 
@@ -312,6 +314,9 @@ The [[homotopy groups]] of $O(n)$ are listed for instance in
 * {#Mimura67} M. Mimura, _The Homotopy groups of Lie groups of low rank_, Math. Kyoto Univ. Volume 6, Number 2 (1967), 131-176. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524375))
 
 The [[ordinary cohomology]] and [[ordinary homology]] of the manifolds $SO(n)$ is discussed in 
+
+* {#Brown82} [[Edgar H. Brown]], _The Cohomology of $B SO_n$ and $BO_n$ with Integer Coefficients_, Proceedings of the American Mathematical Society Vol. 85, No. 2 (Jun., 1982), pp. 283-288 ([jstor:2044298](https://www.jstor.org/stable/2044298))
+
 
 * {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 ([web](http://www.sciencedirect.com/science/article/pii/002240499190108E))
 
