@@ -34,6 +34,6 @@ Other references include:
 
 See also this nice lecture series on YouTube:
 
-* Federico Ardila, _Hopf algebras and combinatorics_, 30 lectures, [youtube list](http://www.youtube.com/playlist?list=PL-XzhVrXIVeRLeezwY9h4M68k6yB3yOo-)
+* Federico Ardila, _Hopf algebras and combinatorics_, 30 lectures, [youtube list](http://www.youtube.com/playlist?list=PL-XzhVrXIVeRLeezwY9h4M68k6yB3yOo-), with [index and overview](http://math.sfsu.edu/federico/Clase/hopfindex.pdf) by Sara Billey.
 
 [[!redirects combinatorial Hopf algebras]]
