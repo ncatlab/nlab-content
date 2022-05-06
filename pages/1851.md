@@ -121,6 +121,8 @@ This phenomenon has traditionally been known somewhat implicitly in the context 
 
 * [[electric charge]], **magnetic charge**
 
+* [[color charge]]
+
 * [[flux]]
 
 * [[magnetic field]]
