@@ -131,8 +131,10 @@ Possible hints for further relation between [[2d SCFT]] and [[tmf]] are presente
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
 
+[[!redirects sigma-orientation]]
 
 [[!redirects String orientation of tmf]]
 
 [[!redirects string-orientation of tmf]]
 [[!redirects String-orientation of tmf]]
+
