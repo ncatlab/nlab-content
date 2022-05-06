@@ -97,7 +97,7 @@ $$
 
 ## Cotracing topological interval to circle
 
-Let the ambient category be [[Top]], let $I = [0,1]$ be the standard topological interval and let $e := [0,\epsilon]$ be a small interval, for some $0 \lt \epsilon \lt 1/2$ -- to be thought here as a _collar_ of the point $pt$.
+Let the ambient category be [[Top]], let $I = [0,1]$ be the standard topological interval and let $e := [0,\epsilon]$ be a small interval, for some $0 \lt \epsilon \lt 1/2$ -- to be thought here as a _[[collar]]_ of the point $pt$.
 
 Let
 
