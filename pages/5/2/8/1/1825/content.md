@@ -56,9 +56,11 @@ $$ S(V) = \{ x: V \;\text{such that}\; {\|x\|} = 1 \} .$$
 
 If a [[LCTVS|locally convex topological vector space]] admits a continuous linear injection into a [[normed vector space]], this can be used to define its sphere.  If not, one can still define the sphere as a *quotient* of the space of non-zero vectors under the scalar action of $(0,\infty)$.
 
-Homotopy theorists define $S^\infty$ to be the sphere in the (incomplete) [[normed vector space]] (traditionally with the $l^2$ norm) of infinite [[sequence]]s almost all of whose values are $0$, which is the [[directed colimit]] of the $S^n$:
+Homotopy theorists (e.g. [tom Dieck 2008, example 8.3.7](#tomDieck2008)) define $S^\infty$ as the [[directed colimit]] of the $S^n$:
 $$ S^{-1} \hookrightarrow S^0 \hookrightarrow S^1 \hookrightarrow S^2 \hookrightarrow \cdots S^\infty .$$
-In themselves, these provide nothing new to [[homotopy theory]], as they are at least weakly contractible and usually [[contractible space|contractible]].  However, they are a very useful source of big contractible spaces and so are often used as a starting point for making concrete models of [[classifying spaces]].
+Note that this $S^\infty$ is _not_ homeomorphic to the sphere of any metrizable space as defined above, since the metrizable [[CW complex|CW-complexes]] are precisely the  locally finite [[CW complex|CW-complexes]] ([Fritsch–Piccinini 1990: 48, prop. 1.5.17](#FP1990)), which [$S^\infty$ is not](#CWstructures) (every open $n$-cell intersects all closed $m$-cells with $m \ge n$)
+
+In themselves, infinite-dimensional spheres provide nothing new to [[homotopy theory]], as they are at least weakly contractible and usually [[contractible space|contractible]].  However, they are a very useful source of big contractible spaces and so are often used as a starting point for making concrete models of [[classifying spaces]].
 
 If the vector space is a [[shift space]], then contractibility is straightforward to prove.
 
@@ -90,6 +92,12 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 
 * [[positive dimension spheres are H-cogroup objects]], and this is the origin of the [[group]] structure on [[homotopy groups]]). 
 
+### CW-structures
+ {#CWstructures}
+
+* The $n$-sphere ($n \ge 0$) admits, for every point $x_0 \in S^n $, a [[CW complex|CW-structure]] with one $0$-cell $x_0$ and one $n$-cell $S^n \setminus \{ x_0 \}$, by [[stereographic projection]]. ([tom Dieck 2008, example 8.3.7](#tomDieck2008)) In particular, every [[cellular map]] to a [[CW complex]] $X$ with $X_n = X_0$ is constant.
+
+* The $n$-sphere ($n \ge 0$) can also be constructed from the $(n-1)$-sphere by attatching $n$-cells (the north and south hemispheres) to the equator $(n-1)$-sphere; the resulting [[CW complex]] has two $k$-cells in each dimension $k \le n$. By definition we have subcomplex inclusions $S^n \subseteq S^{n+1}$ for all $n \in \mathbf{N}$, and the colimit of this sequence is (by definition) $S^\infty$. ([tom Dieck 2008, example 8.3.7](#tomDieck2008))
 
 ### Coset space structure
  {#LabelCosetSpaceStructure}
@@ -382,6 +390,12 @@ $$
 * The [[non-abelian cohomology|non-abelian]] [[generalized cohomology theory]] [[representable functor|represented]] by [[n-spheres]] is [[Cohomotopy cohomology theory]].
 
 ## References
+
+* {#FP1990} [[Rudolf Fritsch]], [[Renzo A. Piccinini]], _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948)) 
+
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_. European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://doi.org/10.4171/048))
+
 
 ### Formalization
 
