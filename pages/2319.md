@@ -515,6 +515,8 @@ where each "hook" is a [[fiber sequence]].
 
     [[spin^c structure]], [[twisted spin^c structure]]
 
+    [[spin^h structure]]
+
     [[Spin Chern-Simons theory]]
 
   * [[2-framing]]
@@ -544,8 +546,8 @@ Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://wwwmath
 
 Discussion of lifting bundle gerbes for spin structures is in
 
-* [[Michael Murray]], Michael Singer, _Gerbes, Clifford modules and the index theorem_ ([arXiv:math/0302096](http://arxiv.org/abs/math/0302096))
-  {#MurraySinger03}
+* {#MurraySinger03} [[Michael Murray]], Michael Singer, _Gerbes, Clifford modules and the index theorem_ ([arXiv:math/0302096](http://arxiv.org/abs/math/0302096))
+  
 
 Discussion of spin structures in terms of smooth moduli stacks as above is in
 
