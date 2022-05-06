@@ -18,7 +18,7 @@
 
 The term **tensor product** has many different but closely related meanings.
 
-* In its original sense a _tensor product_  is a representing object for a suitable sort of _[[bilinear map]]_ and _[[multilinear map]]_.  The most classical versions are for [[vector spaces]] ([[modules]] over a [[field]]), and more generally [[modules]] over a [[ring]].  In modern language this takes place in a [[multicategory]].
+* In its original sense a _tensor product_  is a representing object for a suitable sort of _[[bilinear map]]_ and _[[multilinear map]]_.  The most classical versions are for [[vector spaces]] ([[modules]] over a [[field]]), more generally [[modules]] over a [[ring]], and even more generally [[algebra over a monad|algebras]] over a [[commutative monad]].  In modern language this takes place in a [[multicategory]].
 
 * Consequently, the [[functor]] $\otimes : C \times C \to C$ which is part of the data of any [[monoidal category]] $C$ is also often called a _tensor product_, since in many examples of monoidal categories it is induced from a tensor product in the above sense (and in fact, _any_ monoidal category underlies a multicategory in a canonical way).  In parts of the literature (certain) [[abelian category|abelian]] monoidal categories are even addressed as _tensor categories_. 
 
