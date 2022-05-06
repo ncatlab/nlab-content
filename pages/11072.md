@@ -65,6 +65,14 @@ Let $C$ be a [[linearly distributive category]] with tensor product $\otimes$ an
 
 Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.
 
+## Examples
+
+\begin{theorem}
+Suppose $C$ is a [[cartesian monoidal category]] with finite limits and colimits, and $\bot\in C$ is an object.  Then the [[Chu construction]] $Chu(C,\bot)$, which is $\ast$-autonomous with finite limits and colimits, admits a Seely !-modality, namely the [[idempotent comonad]] induced by the [[coreflective subcategory|coreflective]] embedding of $C$.
+\end{theorem}
+\begin{proof}
+The embedding of any $C$ in its Chu construction as $A \mapsto (A, [A,\bot], ev)$ is coreflective: the coreflection of $(B^+, B^-, e_B)$ is $(B^+, [B^+,\bot], ev)$.  Moreover, this subcategory is closed under the tensor product of $Chu(C,\bot)$, i.e. the embedding $C\hookrightarrow Chu(C,\bot)$ is strong monoidal.  The Seely condition therefore means more concretely that the coreflection takes the cartesian product in $Chu(C,\bot)$ to the tensor product of $C$.  But when $C$ is cartesian monoidal, its tensor product is also the cartesian product, so this follows from the fact that the coreflection is a [[right adjoint]] and hence preserves products.
+\end{proof}
 
 ## Modal term calculi
 
