@@ -169,6 +169,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[Skyrmion]]
 
+* [[hadron supersymmetry]]
+
 * [[confinement]]
 
   * [[chiral perturbation theory]]
