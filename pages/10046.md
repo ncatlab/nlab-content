@@ -82,7 +82,7 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 
 ## References
 
-* R.-E. Hoffmann, _Continuous posets and adjoint sequences_ , Semigroup Forum **18** (1979) pp.173-188. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN001253433))
+* R.-E. Hoffmann, _Continuous posets and adjoint sequences_, Semigroup Forum **18** (1979) pp.173-188. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN001253433))
 
 [[!redirects continuous poset]]
 [[!redirects continuous posets]]
