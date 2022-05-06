@@ -2,3 +2,5 @@ Kirill Mackenzie is a mathematician at the University of Sheffield. [Home page](
 
 
 category: people
+
+[[!redirects Kirill C. H. Mackenzie]]
