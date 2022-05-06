@@ -324,6 +324,9 @@ Adams operations on the [[representation ring]] (the [[equivariant K-theory]] of
 
 * Robert Boltje, _A characterization of Adams operations on representation rings_, 2001 ([pdf](https://boltje.math.ucsc.edu/publications/p01v.pdf))
 
+* [[Dai Tamaki]], [[Akira Kono]], Section 4.3 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
+
 * {#tomDieck09} [[Tammo tom Dieck]], section 6.2 of  _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
 
 * [[Michael Boardman]], _Adams operations on Group representations_, 2007 ([pdf](http://www.math.jhu.edu/~jmb/note/adamrept.pdf))
