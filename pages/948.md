@@ -158,6 +158,8 @@ See also earlier conceptions of proofs expressing the 'cause' of a theorem, wher
 
 See also _[[intuitionistic mathematics]]_ and _[[realizability]]_ and _[[computability]]_.
 
+* [[constructive analysis]]
+
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
 
 *  [[proof relevance]]
