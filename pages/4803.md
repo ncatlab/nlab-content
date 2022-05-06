@@ -38,7 +38,7 @@ $$
 
 on [[spacetime]] with values in the [[super Poincare Lie algebra]]. Its components $\Psi$ in the [[spin group]] [[representation]] $\Gamma \subset \mathfrak{siso}(d)$ is the **gravitino** field.
 
-The name derives from the fact that the other two comonents are identified in [[gravity]] with the [[graviton]] field.
+The name derives from the fact that the other two components are identified in [[gravity]] with the [[graviton]] field.
 
 ## Related concepts
 
@@ -58,7 +58,7 @@ See also
 
 ### As a dark matter candidate
 
-Discussion of the gravitiono as a [[dark matter]] candidate:
+Discussion of the gravitino as a [[dark matter]] candidate:
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
