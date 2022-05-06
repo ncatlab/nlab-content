@@ -62,7 +62,13 @@ For some introductory exposition, see
 
 * [[John Baez]], [The General Relativity Tutorial](http://math.ucr.edu/home/baez/gr/gr.html)
 
+See also
+
+* [[Edward Witten]], _Light Rays, Singularities, and All That_ ([arXiv:1901.03928](https://arxiv.org/abs/1901.03928))
+
 See also the references at _[[gravity]]_.
+
+
 
 [[!redirects General Relativity]]
 
