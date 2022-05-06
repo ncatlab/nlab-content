@@ -30,11 +30,13 @@ A [[spacetime]] in exceptional field theory is locally modeled on the [[Cartesia
 
 ## Related concepts
 
-* [[exceptional Lie group]]
+* [[U-duality]], [[exceptional Lie group]]
 
-* [[exceptional geometry]]
+* [[exceptional generalized geometry]], [[exceptional geometry]]
 
-* [[exceptional generalized geometry]]
+* [[non-geometry]], [[exotic branes]]
+
+* [[double field theory]]
 
 * [[universal exceptionalism]]
 
