@@ -60,7 +60,7 @@ But the situation seems to remain somewhat inconclusive (see also [Moore 14, p. 
 ## In toroidal orientifolds
  {#ForFractionalDBranes}
 
-More details are understood in the special case of [[toroidal oribifold|toroidal orientifolds]] where [[fractional D-branes]] may be stuck at [[orbifold]]/[[orientifold]] singularities, whose [[D-brane charge]] is supposed to be in the [[equivariant K-theory]] of the point, hence the [[representation ring]] of the given [[isotropy group]].
+More details are understood in the special case of [[toroidal orbifold|toroidal orientifolds]] where [[fractional D-branes]] may be stuck at [[orbifold]]/[[orientifold]] singularities, whose [[D-brane charge]] is supposed to be in the [[equivariant K-theory]] of the point, hence the [[representation ring]] of the given [[isotropy group]].
 
 ### In terms of equivariant K-theory / the representation ring
  {#InTermsOfEquivariantKTheory}
