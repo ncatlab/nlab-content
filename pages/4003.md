@@ -65,7 +65,7 @@ $$
 is given by
 
 $$
-  S \mapsto P_f(S) = \coprod_{y \in Y} S^{X_y}
+  S \mapsto P_g(S) = \coprod_{y \in Y} S^{X_y}
   \,,
 $$
 
