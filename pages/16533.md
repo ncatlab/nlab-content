@@ -28,6 +28,11 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 ## References
 
+### Via superstrata
+
+* Daniel R. Mayerson, Masaki Shigemori, _Counting D1-D5-P Microstates in Supergravity_ ([arXiv:2010.04172](https://arxiv.org/abs/2010.04172))
+
+
 ### As instantons
 
 As [[Yang-Mills instantons]]/[[Yang-Mills monopoles]]
