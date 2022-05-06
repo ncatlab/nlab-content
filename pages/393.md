@@ -59,10 +59,10 @@ Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category
 
 #References#
 
-This definition is in paragraph 33 of
+This definition is in page 23 of
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
-  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
 and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
+with the main development of the concept, starting in subsection 33 on page 96.
 [[!redirects homotopical categories]]
