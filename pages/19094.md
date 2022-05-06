@@ -7,6 +7,11 @@ On [[geometric engineering of QFT]] and on [[AdS/CFT]] for [[D6-D8 brane bound s
 
 * [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
 
+and for the [[orientifold]] version of [[heterotic M-theory on ADE-singularities]] (with [[half M5-branes]]):
+
+* Fabio Apruzzi, [[Marco Fazzi]], Section 2.1.2 of: _AdS7/CFT6 with orientifolds_, JHEP 01 (2018) 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
+
+
 ## Related $n$Lab entries
 
 * [[NS5-brane]]
