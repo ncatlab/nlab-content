@@ -5,6 +5,21 @@ Co-founder of [[string theory]].
 
 ## Selected writings
 
+
+On the [[Green-Schwarz superstring]]:
+
+* {#GreenSchwarz81} [[Michael Green]], [[John Schwarz]], _Supersymmetrical Dual String Theory_, Nucl. Phys. B 181 (1981) 502;
+
+* {#GreenSchwarz82} [[Michael Green]], [[John Schwarz]], _Supersymmetrical Dual String Theory. 2. Vertices and Trees_, Nucl. Phys. B 198 (1982) 252.
+
+* {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([spire:193596](http://inspirehep.net/record/193596), <a href="https://doi.org/10.1016/0370-2693(84)92021-5">arXiv;10.1016/0370-2693(84)92021-5</a>)
+
+* {#GreenSchwarz84b} [[Michael Green]], [[John Schwarz]], _Properties of the Covariant Formulation of Superstring Theories_, Nucl. Phys. B 243 (1984) 285 ([spire:196623](http://inspirehep.net/record/196623), <a href="https://doi.org/10.1016/0550-3213(84)90030-0">doi:10.1016/0550-3213(84)90030-0</a>)
+
+On the [[self-dual string]]:
+
+* [[John Schwarz]], _Self-Dual Superstring in Six Dimensions_ ([arXiv:hep-th/9604171](https://arxiv.org/abs/hep-th/9604171))
+
 On the [[Perry-Schwarz action]] for the [[Green-Schwarz sigma-model]] of the [[M5-brane]] with the [[self-dual higher gauge field]] after [[KK-compactification]] to 5d:
 
 * {#PerrySchwarz96} [[Malcolm Perry]], [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
