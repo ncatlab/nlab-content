@@ -1,18 +1,28 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
 # The fan theorem
 * table of contents
 {: toc}
 
 ## Introduction
 
-The fan theorem is one of the basic principles of [[intuitionism]] that make it more specific (even in mathematical practice, independent of any philosophical issues) than garden-variety [[constructive mathematics]].  Its main use is to justify pointwise [[analysis]]; without it, one really needs [[locale theory]] instead.  In [[classical mathematics]], the fan theorem is true.
+The fan theorem is one of the basic principles of [[intuitionism]] that make it more specific (even in [[mathematics|mathematical]] practice, independent of any [[philosophy|philosophical]] issues) than garden-variety [[constructive mathematics]].  Its main use is to justify pointwise [[analysis]]; without it, one really needs [[locale theory]] for [[point-free topology]] instead.  In [[classical mathematics]], the fan theorem is [[true]].
 
 
 ## Statement
 
-Consider the [[list|finite]] and [[infinite sequence|infinite]] sequences of [[binary digit]]s.  Given an infinite sequence $\alpha$ and a [[natural number]] $n$, let $\bar \alpha n$ be the finite sequence consisting of the first $n$ elements of $\alpha$.
+Consider the [[list|finite]] and [[infinite sequence|infinite]] sequences of [[binary digits]].  Given an infinite sequence $\alpha$ and a [[natural number]] $n$, let $\bar \alpha n$ be the finite sequence consisting of the first $n$ [[elements]] of $\alpha$.
 
-Let $B$ be a collection of finite sequences of bits (or _bitlists_), that is a [[subset]] of the [[free monoid]] on the [[boolean domain]].  Given an infinite sequence $\alpha$ and a natural number $n$, we say that $\alpha$ _$n$-bars_ $B$ if $\bar \alpha n \in B$; given only $\alpha$, we say that $\alpha$ _bars_ $B$ if $\alpha$ $n$-bars $B$ for some $n$.
+Let $B$ be a collection of [[finite set|finite]] sequences of bits (or _bitlists_), that is a [[subset]] of the [[free monoid]] on the [[boolean domain]].  Given an infinite sequence $\alpha$ and a natural number $n$, we say that $\alpha$ _$n$-bars_ $B$ if $\bar \alpha n \in B$; given only $\alpha$, we say that $\alpha$ _bars_ $B$ if $\alpha$ $n$-bars $B$ for some $n$.
 
 We are interested in these three properties of $B$:
 
@@ -43,16 +53,16 @@ The fan theorem is hard enough to understand when $\alpha$ is an infinite sequen
 
 ### Variations
 
-The fan theorem may be stated about *all* bars, not just the decidable ones: all bars are uniform (which is true in classical mathematics).  Brouwer himself at one point claimed this, but later Kleene showed that this contradicted Brouwer\'s [[continuity theorem]].
+The fan theorem may be stated about *all* bars, not just the decidable ones: all bars are uniform (which is true in classical mathematics).  Brouwer himself at one point claimed this, but later Kleene showed that this contradicted [[L.E.J. Brouwer|Brouwer]]\'s [[continuity theorem]].
 
 Since decidability is classically trivial, we may call this the __classical fan theorem__.
 
 
 ## Use in analysis
 
-In classical mathematics, the fan theorem is simply true.
+In [[classical mathematics]], the fan theorem is simply true.
 
-In constructive mathematics, the fan theorem is equivalent to any and all of the following statements:
+In [[constructive mathematics]], the fan theorem is equivalent to any and all of the following statements:
 
 *  As a [[locale]], [[Cantor space]] has enough points (is [[topological locale|topological]]).
 *  As a [[topological space]], Cantor space is [[compact space|compact]].
@@ -86,7 +96,7 @@ Some of the results above may use [[countable choice]], but probably no more tha
 
 ### Uselessness in analysis
 
-Point-wise real analysis without the fan theorem is very difficult, as the example from Waaldijk shows.  This was Brouwer\'s motivation for introducing the fan theorem.  But if you use [[locales]] (or other pointless approaches), then you don\'t need the fan theorem (or bar theorem).
+Point-wise real analysis without the fan theorem is very difficult, as the example from Waaldijk shows.  This was [[L.E.J. Brouwer|Brouwer]]\'s motivation for introducing the fan theorem.  But if you use [[locales]] (or other [[point-free topology|point-free]] approaches), then you don\'t need the fan theorem (or bar theorem).
 
 
 ### Sheaf models
@@ -101,6 +111,7 @@ I should write down the classical proof (which uses [[excluded middle]] and some
 ## References
 
 *  Thanks to Giovanni Curi on [constructive news](http://groups.google.com/group/constructivenews/browse_thread/thread/9d57fa99e67e8782).
+
 *  [Frank Waaldijk](http://www.fwaaldijk.nl/mathematics.html) pointed out exactly why point-wise analysis needs the fan theorem.
 
 I need to read the relevant parts here:
