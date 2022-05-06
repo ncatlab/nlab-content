@@ -57,6 +57,8 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 * {#Betti19} Federico Betti on behalf of [[LHCb collaboration]], _Observation of CP violation in charm decays at LHCb_, Moriond 2019 ([pdf](http://moriond.in2p3.fr/2019/EW/slides/5_Thursday/1_morning/4_betti_federico_v4.pdf))  
 
+* [[LHCb collaboration]], _Search for lepton-universality violation in $B^+ \to K^+ \ell^+ \ell^-$ decays_ ([cern:2668514](https://cds.cern.ch/record/2668514))
+
 ## References
 
 * [LHCb public page](http://lhcb-public.web.cern.ch/lhcb-public/)
