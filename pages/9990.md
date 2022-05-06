@@ -178,6 +178,11 @@ The [[elliptic genus]]/[[Witten genus]] as [[fiber integration]] in [[elliptic c
 
 * [[Ioanid Rosu]], _Equivariant Elliptic Cohomology and Rigidity_, American Journal of Mathematics 123 (2001), 647-677 ([arXiv:math/9912089](https://arxiv.org/abs/math/9912089))
 
+* {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. Math. 146 (2001) 595&#8211;687 MR1869850 ([doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf))
+
+* {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _The sigma orientation is an H-infinity map_, American Journal of Mathematics Vol. 126, No. 2 (Apr., 2004), pp. 247-334 ([arXiv:math/0204053](http://arxiv.org/abs/math/0204053), [doi:10.1353/ajm.2004.0008](https://doi.org/10.1353/ajm.2004.0008))
+
+
 * [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_,
 Math Z 240, 787–822 (2002).
 ([arXiv:math/0008192](https://arxiv.org/abs/math/0008192), [doi:10.1007/s002090100399](https://doi.org/10.1007/s002090100399))
