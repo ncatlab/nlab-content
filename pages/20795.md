@@ -47,27 +47,7 @@ Transversally intersecting D$p$-D$(p+2)$-branes [[geometric engineering of QFT|g
 ## Related concepts
 
 
-* [[M2-M5 brane bound states]]
-
-* [[Dp-D(p+4)-brane bound state]]
-
-  * [[D0-D4 brane bound state]]
-
-  * [[D1-D5 brane bound state]]
-
-  * [[D4-D8 brane bound state]]
-
-  * [[M5-MO9 brane bound state]] 
-
-* [[Dp-D(p+2)-brane bound state]]
-
-  * [[D1-D3-brane bound state]]
-
-  * [[D2-D4-brane bound state]]
-
-  * [[D6-D8-brane bound state]]
-
-* [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
+[[!include brane bound states -- table]]
 
 
 
