@@ -34,6 +34,8 @@ Just as [[monoidal categories]] with [[fiber functor]] are the [[categories of m
 
 * [[Hopf monad]]
 
+* [[Hopf V-category]]
+
 [[!include structure on algebras and their module categories - table]]
 
 ## References
