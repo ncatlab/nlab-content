@@ -13,7 +13,7 @@
 =--
 =--
 
-#Contents#
+#Contents## 
 * table of contents
 {:toc}
 
@@ -172,6 +172,9 @@ The [[p-localization]] of $MU$ decomposes into the
 
 * {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
 
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 12 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
+
 * {#Landweber70} [[Peter Landweber]], _On the complex bordism and cobordism of infinite complexes_, Bull. Amer. Math. Soc. Volume 76, Number 3 (1970) ([Euclid](http://projecteuclid.org/euclid.bams/1183531832)) 
 
 * {#Adams74} [[Frank Adams]], _Stable homotopy theory and generalized homology_, Chicago lectures in mathematics, 1974
@@ -256,5 +259,11 @@ Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycl
 [[!redirects complex cobordism cohomology theory]]
 
 [[!redirects complex cobordism theory]]
+
+[[!redirects U-bordism]]
+[[!redirects U-bordisms]]
+
+[[!redirects U-bordism theory]]
+
 
 
