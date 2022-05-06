@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _homotopy sphere_ is a [[topological space]] which need not be [[homeomorphism|homeomorphism]] to an [[n-sphere]], but which has the same [[homotopy type]] as an $n$-sphere. 
+A _homotopy sphere_ is a [[topological space]] which need not be [[homeomorphism|homeomorphiC]] to an [[n-sphere]], but which has the same [[homotopy type]] as an $n$-sphere. 
 
 ## Properties
 
