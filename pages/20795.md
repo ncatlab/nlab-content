@@ -211,7 +211,7 @@ For transversal [[D1-D3 brane intersections]]:
 
 * [[Amihay Hanany]], [[Edward Witten]], _Type IIB Superstrings, BPS Monopoles, And Three-Dimensional Gauge Dynamics_, Nucl. Phys. B492:152-190, 1997 ([arxiv:hep-th/9611230](https://arxiv.org/abs/hep-th/9611230))
 
-* [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
+* {#ConstableMyers99} [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _The Noncommutative Bion Core_, Phys. Rev. D61 (2000) 106009 ([arXiv:hep-th/9911136](https://arxiv.org/abs/hep-th/9911136))
 
 * [[Robert Myers]], Section 4 of: _Nonabelian D-branes and Noncommutative Geometry_, J. Math. Phys. 42: 2781-2797, 2001 ([arXiv:hep-th/0106178](https://arxiv.org/abs/hep-th/0106178))
 
@@ -223,6 +223,7 @@ For transversal [[D1-D3 brane intersections]]:
 * Jessica K. Barrett, Peter Bowcock, _Using D-Strings to Describe Monopole Scattering - Numerical Calculations_ ([arxiv:hep-th/0512211](https://arxiv.org/abs/hep-th/0512211))
 
 
+* {#ThomasWard06} Steven Thomas, John Ward, _Electrified Fuzzy Spheres and Funnels in Curved Backgrounds_, JHEP 0611:019, 2006 ([arXiv:hep-th/0602071](https://arxiv.org/abs/hep-th/0602071))
 
 For transversal [[D2-D4-brane bound states]] (with an eye towards [[AdS/QCD]]):
 
@@ -292,6 +293,10 @@ Relation of [[single trace observables]] in the [[non-abelian DBI action]] on [[
 
 [[!redirects Dp-Dp+2-brane bound state]]
 [[!redirects Dp-Dp+2-brane bound states]]
+
+[[!redirects Dp-Dpplus2-brane bound state]]
+[[!redirects Dp-Dpplus2-brane bound states]]
+
 
 [[!redirects DpDp2-brane bound state]]
 
