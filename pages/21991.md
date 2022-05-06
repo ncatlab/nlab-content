@@ -27,7 +27,7 @@ There is a monad [[homomorphism]] from the selection monad to the [[continuation
 
 If we understand the continuation monad as mapping an object to the generalized [[quantifiers]] over it, with $S$ a generalized [[truth value]], a selection function for a generalized quantifier is an element of its [[preimage]] under the monad morphism. 
 
-For instance, a selection functional for the [[supremum]] functional $sup: (X \to S) \to X$, when it exists, gives a point at which a function attains its maximum value.
+For instance, a selection functional for the [[supremum]] functional $sup: (X \to S) \to S$, when it exists, applied to a function, $p: X \to S$, gives a point in $X$ at which $p$ attains its maximum value.
 
 Due to the resemblance of an [[algebra over a monad|algebra]], $J_S(A) \to A$, to [[Peirce's law]] in logic, $((p \Rightarrow q) \Rightarrow p) \Rightarrow p $, $J_S$ is also called the _Peirce monad_ in ([Escardó-Oliva 2012](#Escardó-Oliva2012)).
 
