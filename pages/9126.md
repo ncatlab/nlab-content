@@ -16,7 +16,15 @@
 
 ## Idea
 
-In [[physics]] the [[electromagnetic field]] may be split, over a choice of [[coordinate chart]] of [[spacetime]], into two components: the [[electric field]] and the **magnetic field**.
+In [[physics]] the [[electromagnetic field]] may be decomposed, over a choice of [[coordinate chart]] of [[spacetime]], into two components: the [[electric field]] and the **magnetic field**. 
+
+See there [there](electromagnetic+field#FieldStrengthAsClosed2Form) for more.
+
+## Properties
+
+
+[[!include flux quantization in superconductors -- section]]
+
 
 ## Related oncepts
 
