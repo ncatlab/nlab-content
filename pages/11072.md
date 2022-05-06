@@ -27,32 +27,41 @@ In [[categorical semantics]] of linear type theory the !-modality typically appe
 
 ## Categorical semantics
 
-Everyone agrees that ! should be a comonad (and ? should be a monad), but there are different ways to proceed from there.  The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.  The original definition from [Seely](#Seely89) was:
+Everyone agrees that ! should be a comonad (and ? should be a monad), but there are different ways to proceed from there.  The goal is to capture the syntactic rules allowing assumptions of the form $!A$ to be duplicated and discarded.
+
+### Intuitionistic case
+
+The original definition from [Seely](#Seely89), adapted to the intuitionistic case and modernized, is:
 
 +-- {: .num_defn}
 ###### Definition
-Let $C$ be an $\ast$-[[star-autonomous category|autonomous]] category with [[cartesian products]].  A Seely !-modality on $C$ is a comonad that is a [[strong monoidal functor]] from the [[cartesian monoidal category|cartesian monoidal structure]] to the $\ast$-autonomous monoidal structure, i.e. we have $!(A\times B)\cong !A \otimes !B$ and $!1\cong I$ coherently.  (There is also an additional [[coherence]] [[axiom]] that should be imposed; see [Mellies, section 7.3](#Mellies09).)
+Let $C$ be an [[symmetric monoidal category]] with [[cartesian products]].  A **Seely comonad** on $C$ is a comonad that is a [[strong monoidal functor]] from the [[cartesian monoidal category|cartesian monoidal structure]] to the symmetric monoidal structure, i.e. we have $!(A\times B)\cong !A \otimes !B$ and $!1\cong I$ coherently.  (There is also an additional [[coherence]] [[axiom]] that should be imposed; see [Mellies, section 7.3](#Mellies09).)
 =--
 
-(Note that in linear logic, the cartesian monoidal structure $\times$ is sometimes denoted by $\&$.)  This implies that the [[Kleisli category of a comonad|Kleisli category]] of ! is a [[cartesian closed category]], which is a categorical version of the translation of intuitionistic logic into linear logic.
+(Note that in linear logic, the cartesian monoidal structure $\times$ is sometimes denoted by $\&$.)  This implies that the [[Kleisli category of a comonad|Kleisli category]] of ! (i.e.\ the category of cofree !-coalgebras) is cartesian monoidal.  If $C$ is *closed* symmetric monoidal then the Kleisli category of a [[cartesian closed category]], which is a categorical version of the translation of intuitionistic logic into linear logic.
 
-Of course, the above definition depends on the existence of the cartesian product, and relies on the self-duality of an $\ast$-autonomous category to derive the rules for ? from the rules for !.  A different definition that doesn't require the existence of $\times$ was given by [Benton, Bierman, de Paiva, and Hyland](#BBPH92):
+Of course, the above definition depends on the existence of the cartesian product.  A different definition that doesn't require the existence of $\times$ was given by [Benton, Bierman, de Paiva, and Hyland](#BBPH92):
 
 +-- {: .num_defn}
 ###### Definition
-Let $C$ be a [[closed symmetric monoidal category]]; a !-modality on $C$ is a [[lax monoidal functor|lax monoidal]] comonad such that every !-coalgebra naturally carries the structure of a [[comonoid object]] in the category of coalgebras, such that coalgebra maps are comonoid maps.
+Let $C$ be a [[symmetric monoidal category]]; a **linear exponential comonad** on $C$ is a [[lax monoidal functor|lax monoidal]] comonad such that every cofree !-coalgebra naturally carries the structure of a [[comonoid object]] in the category of coalgebras (i.e. the cofree-coalgebra functor lifts to the category of comonoids in the category of coalgebras).
 =--
 
-This definition implies that the category of all !-coalgebras (not just the free ones, i.e. its Kleisli category) is cartesian closed.  Note that for a comonad on a [[poset]], every coalgebra is free; thus the world of pure propositional "logic" doesn't tell us whether to consider the Kleisli category or the Eilenberg-Moore category for the translation.  A more even-handed approach is the following (see [Mellies](#Mellies09)):
+It follows automatically that all !-coalgebras are comonoids, and therefore that the category of all !-coalgebras (not just the cofree ones) is cartesian monoidal.  Note that for a comonad on a [[poset]], every coalgebra is free; thus the world of pure propositional "logic" doesn't tell us whether to consider the Kleisli category or the Eilenberg-Moore category for the translation.
+
+A more even-handed approach is the following (see [Benton](#Benton95) and [Mellies](#Mellies09)), based on the observation that both Kleisli and Eilenberg-Moore categories are instances of adjunctions.
 
 +-- {: .num_defn}
 ###### Definition
-A *linear-nonlinear adjunction* is a [[monoidal adjunction]] $F : M \rightleftarrows L : G$ in which $L$ is symmetric monoidal and $M$ is cartesian monoidal.  The induced !-modality is the comonad $F G$ on $L$.
+A **linear-nonlinear adjunction** is a [[monoidal adjunction]] $F : M \rightleftarrows L : G$ in which $L$ is symmetric monoidal and $M$ is cartesian monoidal.  The induced !-modality is the comonad $F G$ on $L$.
 =--
 
-This includes both of the previous definitions where $M$ is taken respectively to be the Kleisli category or the Eilenberg-Moore category of !.
+This includes both of the previous definitions where $M$ is taken respectively to be the Kleisli category or the Eilenberg-Moore category of !.  Conversely, in any linear-nonlinear adjunction the induced comonad $F G$ can be shown to be a linear exponential comonad.  Moreover, if $!$ is a linear exponential comonad on a symmetric monoidal category $C$ with finite products, then the cofree !-coalgebra functor is a right adjoint and hence preserves cartesian products; but the cartesian products of coalgebras are the tensor product in $C$, so we have $!(A\times B) \cong !A \otimes !B$, the Seely condition.
 
-On the other hand, the last two definitions are given only for "intuitionistic" linear logic, though in the $\ast$-autonomous case one could derive a ? from the ! by de Morgan duality.  A definition not requiring the de Morgan duality and describing ! and ? together was given by [Blute, Cockett, and Seely](#BCS96):
+
+### Classical case
+
+For "classical" linear logic, we want $C$ to be not just (closed) symmetric monoidal but $\ast$-[[star-autonomous category|autonomous]].  If an $\ast$-autonomous category has a linear exponential comonad $!$ one can derive a ? from the ! by de Morgan duality, $?A = (!(A^*))^*$.  The resulting relationship between ! and ? was axiomatized in a way not requiring the de Morgan duality by [Blute, Cockett, and Seely](#BCS96):
 
 +-- {: .num_defn}
 ###### Definition
@@ -63,7 +72,7 @@ Let $C$ be a [[linearly distributive category]] with tensor product $\otimes$ an
 1. all free !-coalgebras are naturally commutative $\otimes$-comonoids, and all free ?-algebras are naturally commutative $\parr$-monoids.
 =--
 
-Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.
+Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.  BCS showed that if $C$ is in fact $\ast$-autonomous, it follows from the above definition that $?A = (!(A^*))^*$ as expected.
 
 ## Examples
 
@@ -163,6 +172,7 @@ The modal approach to a term calculus for the $!$-modality can be found in:
 * G.  Plotkin.  *Type  theory  and  recursion.*   In Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , page 374. IEEE Computer Society Press, 1993.
 
 * N. Benton.  *A mixed linear and non-linear logic; proofs, terms and models.*  In Proceedings of Computer Science Logic '94, number 933 in LNCS. Verlag, June 1995.
+ {#Benton95}
 
 * Philip  Wadler.   *A  syntax  for  linear  logic.*   In Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics , volume 802 of LNCS . Springer Verlag, April 1993
 
