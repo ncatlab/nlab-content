@@ -1,197 +1,97 @@
 
-Write 
+\begin{example}
+  \label{CupSquareCohomologyOperation}
+  [Cup-square cohomology operation]
 
-\[  
-  \label{SmashMonoidalCategoryOfPointedTopologicalSpaces}
-  \big( PointedTopologicalSpaces, S^0, \wedge \big)
-  \;\;\in\;
-  SymmetricMonoidalCategories
-\] 
+Let $E$ be a [[multiplicative cohomology theory|multiplicative]] [[Whitehead-generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[ring spectrum]]
 
-* for the [[category]] of [[pointed topological spaces]] (with respect to some [[convenient category of topological spaces]] such as [[compactly generated topological spaces]] or [[D-topological spaces]]) 
-
-* regarded as a [[symmetric monoidal category]] with tensor product the [[smash product]] and unit the [[0-sphere]] $S^0 \,=\, \ast_+$.
-
-This category also has a [[Cartesian product]], given on pointed spaces $X_i = (\mathcal{X}_i, x_i)$ with underlying $\mathcal{X}_i \in TopologicalSpaces$ by
-
-\[
-  \label{CartesianProductOfPointedTopologicalSpaces}
-  X_1 \times X_2
-  \;=\;
-  (\mathcal{X}_1, x_1) \times (\mathcal{X}_2, x_2)
-  \;\coloneqq\;
+$$
   \big(
-    \mathcal{X}_1 \times \mathcal{X}_2
-    ,
-    (x_1, x_2)
+    E, 1^E, m^E
   \big)
+  \;\in\;
+  CommutativeMonoids
+  \Big(
+    Ho\big( Spectra\big),
+    \mathbb{S},
+    \wedge
+  \Big)
   \,.
-\]
-
-But since this [[smash product]] is a non-trivial [[quotient topological space|quotient]] of the Cartesian product
-
-\[
-  \label{SmashProductOfPointedSpacesQuotientDefinition}
-  X_1 \wedge X_1 
-    \,\coloneqq\, 
-  \frac{X_1 \times X_2}{ X_1 \vee X_2 }
-\]
-
-it is not itself [[cartesian monoidal category|cartesian]], but just a [[symmetric monoidal category|symmetric monoidal]]. 
-
-However, via the quotienting (eq:SmashProductOfPointedSpacesQuotientDefinition), it still inherits, from the [[diagonal morphisms]] on underlying topological spaces
-
-\[
-  \label{CartesianDiagonalOnTopologicalSpaces}
-  \array{
-    \mathcal{X}
-    &\overset{ \Delta_{\mathcal{X}} }{\longrightarrow}&
-    \mathcal{X} \times \mathcal{X}
-    \\
-    x &\mapsto& (x,x)
-  }
-\]
-
-a suitable notion of [[monoidal category with diagonals|monoidal diagonals]]:
-
-\begin{definition}\label{SmashMonoidalDiagonal}
-  [Smash monoidal diagonals]
-
-For $X \,\in\, PointedTopologicalSpaces$, let $D_X \;\colon\; X \longrightarrow X \wedge X$ be the [[composition|composite]] 
-
-\begin{xymatrix@C=7pt}
-    X 
-    \ar@/_1.6pc/[rrrrr]|-{ \;D_X\; }
-    \ar[rr]^-{\Delta_X}
-    &&
-    X \times X 
-    \ar[rr]
-    &&
-    \frac{X \times X}{ X \vee X}
-    \ar@{}[r]|-{ =: }
-    &
-    X \wedge X
-\end{xymatrix}
-
-of the Cartesian [[diagonal morphism]] (eq:CartesianProductOfPointedTopologicalSpaces) with the [[coprojection]] onto the defining [[quotient space]] (eq:SmashProductOfPointedSpacesQuotientDefinition).
-
-\end{definition}
-
-It is immediate that:
-
-\begin{proposition}
-  \label{SmashMonoidalDiaginalsAreMonoidalDiagonals}
-  The smash monoidal diagonal $D$ (Def. \ref{SmashMonoidalDiagonal})
-  makes the [[symmetric monoidal category]] $\big( PointedTopologicalSpaces, S^0, \wedge \big)$ of [[pointed topological spaces]] with [[smash product]] a [[monoidal category with diagonals]], in that
-
-1. $D$ is a [[natural transformation]];
-
-1. $S^0 \overset{\;\;D_{S^0}\;\;}{\longrightarrow} S^0 \wedge S^0$ is an [[isomorphism]].
-  
-\end{proposition}
-
-While elementary in itself, this has the following profound consequence:
-
-\begin{remark}[Suspension spectra have diagonals]
-
-Since the [[suspension spectrum]]-[[functor]] 
-
-$$
-  \Sigma^\infty
-  \;\colon\;
-  PointedTopologicalSpaces
-   \longrightarrow
-  HighlyStructuredSpectra
 $$
 
-is a [[strong monoidal functor]] from [[pointed topological spaces]] (eq:SmashMonoidalCategoryOfPointedTopologicalSpaces) to any standard category of [[highly structured spectra]] (by [this Prop.](Introduction+to+Stable+homotopy+theory+--+1-2#SmashProductOfFreeSpectra)) it follows that _[[suspension spectra]] have [[monoidal category with diagonals|monoidal diagonals]]_, in the form of [[natural transformations]]
+Then for all $n \in \mathbb{N}$ there is an unstable $E$-cohomology operation
 
 \[
-  \label{SmashMonoidalDiagonalOnSuspensionSpectra}
-  \Sigma^\infty X
+  \label{CupSquareAsUnstableCohomologyOperation}
+  \big[
+    \Omega^\infty \Sigma^n E
+    \overset{
+      (-)^{2_\cup}
+    }{\longrightarrow}
+    \Omega^\infty \Sigma^{k n} E
+  \big]
+  \;\;\in\;\;
+  \widetilde E^{ 2 k }
+  \big(
+    \Omega^{\infty - n} E
+  \big)
+\]
+
+defined -- via the [[Yoneda lemma]] on the [[opposite category|opposite]] of the [[classical homotopy category]] of [[pointed topological spaces]] -- by acting over any $X \,\in\, Ho\big(PointedTopologicalSpaces\big)$ as the [cup square on E-cohomology](cup+product#CupProductInWhiteheadGeneralizedCohomologyTheory) on cohomology in degree $n$:
+
+\[
+  \label{CupSquareInMultiplicativeCohomologyNaturalTransformation}
+  X
+  \;\;\mapsto\;\;
+  \Big(
+  [X, \Omega^\infty \Sigma^n E]
+  \,=\,
+  {\widetilde E}{}^n(X)
   \overset{
     \;\;
-    \Sigma^\infty(D_X)
+    \Delta_{{\widetilde E}{}^n(X)}
     \;\;
   }{\longrightarrow}
-  \big(
-    \Sigma^\infty X
-  \big)
-    \wedge
-  \big(
-    \Sigma^\infty X
-  \big)  
+  {\widetilde E}{}^n(X)
+  \times  
+  {\widetilde E}{}^n(X)
+  \overset{ \;\;  
+    \cup^E 
+  \;\; }{\longrightarrow}
+  {\widetilde E}{}^n(X)
+  \,=\,
+  [X, \Omega^\infty \Sigma^{2n} E]
+  \Big)
 \]
 
-to their respective [[symmetric smash product of spectra]].
+Here the first [[function]] $\Delta_{{\widetilde E}{}^n(X)}$ is the [[diagonal morphism|diagonal]] on the _set_ underlying the degree=$n$ $E$-[[cohomology group]] of $X$, while the second function $\cup^E$ is the operation of forming the [[cup product]] of [[pairs]] of its elements.
 
-For example, given a [[Whitehead-generalized cohomology theory]] $\widetilde E$ [[Brown representability theorem|represented]] by a  [[ring spectrum]]  
+Both of these operations are clearly [[natural transformations]] (for the first this is evident, for the second this comes down to the fact that the [smash-monoidal diagonals of suspension spectra](suspension+spectrum#SmashMonoidalDiagonals)) are natural, hence are [[monoidal category with diagonals|monoidal diagonals]]). Therefore the [[full subcategory|fully-faithfulness]] of the [[Yoneda embedding]] 
 
-$$
-  \big(E, 1^E, \bullet^E \big)
-  \;\;
-  \in
-  \;
-  SymmetricMonoids
+$$ 
+  Ho
   \big(
-    Ho(Spectra), \mathbb{S}, \wedge 
-  \big)
+    PointedTopologicalSpaces
+  \big)^{op}
+  \;\overset{ \;\; \;\; }{\hookrightarrow}\;
+  Functors
+  \Big(
+    Ho
+    \big(
+      PointedTopologicalSpaces
+    \big)^{op}
+    ,
+    Set
+  \Big)
 $$
 
-the smash-monoidal diagonal structure (eq:SmashMonoidalDiagonalOnSuspensionSpectra) on suspension spectra serves to define the [[cup product]] $(-)\cup (-)$ on the corresponding [[multiplicative cohomology theory|multiplicative cohomology theory structure]]:
+implies that this natural transformation (eq:CupSquareInMultiplicativeCohomologyNaturalTransformation) between the [[representable functors]] $[-,\Omega^\infty \Sigma^n E]$ and $[-,\Omega^\infty \Sigma^{2n} E]$ is itself represented by a [[morphism]](eq:CupSquareAsUnstableCohomologyOperation) between the representing classifying spaces, hence by an unstable cohomology operation.
 
-$$
-  \begin{aligned}
-  &
-  \big[
-    \Sigma^\infty X
-    \overset{c_i}{\longrightarrow}
-    \Sigma^{n_i} E
-  \big] 
-  \,\in\, {\widetilde E}{}^{n_i}(X) 
-  \\
-  &
-  \Rightarrow
-  [c_1] \cup [c_2]
-  \;\;
-    \coloneqq
-  \Big[
-    \Sigma^\infty X
-    \overset{
-      \Sigma^\infty(D_X)
-    }{\longrightarrow}
-    \big(
-      \Sigma^\infty X
-    \big)
-      \wedge
-    \big(
-      \Sigma^\infty X
-    \big)
-    \overset{
-      ( c_1 \wedge c_2 )
-    }{\longrightarrow}
-    \big(
-      \Sigma^{n_1} E
-    \big)
-      \wedge
-    \big(
-      \Sigma^{n_2} E
-    \big)  
-    \overset{
-      \bullet^E
-    }{\longrightarrow}
-    \Sigma^{n_1 + n_2}E
-  \Big]
-  \;\;\;
-  \in
-  \widetilde E^{n_1+n+2}(X)
-  \,.
-  \end{aligned}
-$$
+\end{example}
 
 
 
-
-\end{remark}
-
+\begin{xymatrix}
+  x = y
+\end{xymatrix}
 
