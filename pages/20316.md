@@ -1,20 +1,34 @@
 
 **[[experiments]]**
 
-* [[Michelson-Morley experiment]]
+* [[Michelson-Morley experiment]] 
+
+  ([[speed of light]])
 
 * [[LHC]]
 
-  [[LHCb]], [[Belle experiment]]
+  ([[particle physics]], [[Higgs field]])
+
+* [[LHCb]], [[Belle experiment]], [[BaBar experiment]]
+
+  ([[B-mesons]], [[flavour anomalies]], [[V_cb puzzle]], [[pentaquark]])
 
 * [[RHIC]]
 
-* [[Super-Kamiokande]]
+  ([[quark-gluon plasma]])
+
+* [[Super-Kamiokande]], [[ANITA experiment]]
+
+  ([[neutrinos]], [[proton decay]])
 
 * [[LIGO]]
 
+  ([[gravitational waves]])
+
 * [[EDGES]]
 
-* [[ANITA experiment]]
+  ([[hydrogen line]] in [[cosmic microwave background]])
 
 * [[Event Horizon Telescope]]
+
+  ([[black holes]])
