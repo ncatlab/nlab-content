@@ -15,7 +15,7 @@
 
 ##Idea
 
-Just as the concept of a [[dense functor]] is a generalization of [[dense subspace]]. A **codense functor** generalizes the concept of a [[codense subspace]].
+The concept of a **codense functor** is the dual of [[dense functor]].
 
 
 ## Definition
@@ -30,4 +30,14 @@ This notion is dual to the notion of [[dense functor]].
 
 Equivalently, a functor $F$ is **codense** iff $Id_B$, together with identity natural transformation $Id_F\colon F \to F$, is the pointwise [[Kan extension]] of $F$ along $F$.
 
-Also, $F$ is **codense** iff  its [[codensity monad]] is the identity.  
+Also, $F$ is **codense** iff  its [[codensity monad]] is the identity.
+
+A [[subcategory]] is **codense** if the inclusion functor is codense.  
+
+## Examples
+
+*  Let $I$ denote the unit interval. Then the full subcategory of the category  of compact topological spaces $T$ whose only object is $I^2$ is a dense subcategory of $T$ ([Ulmer 68, p.80](#Ulmer68)).
+
+## References
+
+* {#Ulmer68} [[Friedrich Ulmer]], _Properties of Dense and Relative Adjoint Functors_, Journal of Algebra 8, 77-95 (1968)  
