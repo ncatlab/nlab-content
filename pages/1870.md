@@ -317,6 +317,10 @@ The formulation in terms of sections of Fredholm bundles seems to go back to
 
 * {#Rosenberg89} [[Jonathan Rosenberg]], _Continuous-trace algebras from the bundle theoretic point of view_ , J. Austral. Math. Soc. Ser. A 47 (1989), no. 3, 368-381 ([doi:10.1017/S1446788700033097](https://doi.org/10.1017/S1446788700033097)) 
 
+The general definition of twisted K-theory in terms of sections is fully explicit in:
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Diagram (2.6) in: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+
 A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ is in
 
 * {#AtiyahSinger69} [[Michael Atiyah]], [[Isadore Singer]], _Index theory for skew-adjoint Fredholm operators_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
