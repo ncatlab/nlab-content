@@ -36,7 +36,7 @@ Here is a list of changes to existing rules of v0 that are possible because sani
 
 * As a consequence of the previous, the other old direct computation rule, which lets you beta convert in the subject, has become redundant and has been removed. To derive it, just switch the judgment to express membership with the equality type, use direct computation in that type, and switch back.
 
-* The "select right" rule of equality, which goes from ($a = a' \in A$) to ($a' \Vdash A$) has become redundant and has been removed. Prove symmetry in the usual way, and combine with select left. I don't remember exactly what prevented that before, but I seem to remember trying it, and failing. Now it works.
+* The "select right" rule of equality, which goes from ($a = a' \in A$) to ($a' \Vdash A$) has become redundant and has been removed. Prove symmetry in the usual way, and combine with select left. (Maybe it was already redundant before, who knows?)
 
 * The subset elimination rule had a premise in v0 showing that the motive is a valid type family. In v1, this premise is removed. Semantically, it's redundant because it follows from the typing premise for the sole case (and the additional free variable constraint).
 
@@ -50,7 +50,7 @@ Here is a list of changes to existing rules of v0 that are possible because sani
 
 ## Relaxed Equality
 
-The change I'm most proud of is the new equality formation rule. Here is the v0 rule:
+Another important change is the new equality formation rule. Here is the v0 rule:
 
 $$\frac{\Gamma \vdash p \Vdash A \prec C \qquad
 \Gamma \vdash q \Vdash B \prec C \qquad
@@ -62,7 +62,7 @@ Here is the v1 rule:
 $$\frac{\Gamma \vdash a1 \Vdash Relax(A) \qquad \Gamma \vdash a2 \Vdash Relax(A)}
 {\Gamma \vdash a1 = a2 \in A\,type}$$
 
-The new rule uses the new type constructor $Relax$, instead of the defined notion of respect ($\prec$). Since respect is defined in terms of equality, respect-based equality was a rather annoying circularity in the rules, which made the soundness proof a nuisance. But that is *not* the main improvement. One could just make respect into a primitive type constructor to avoid the circularity. (And there was a point when I was planning to do that.)
+The new rule uses the new type constructor $Relax$, instead of the defined notion of respect ($\prec$). Since respect is defined in terms of equality, respect-based equality was a rather annoying circularity in the rules, which made the soundness proof a nuisance. But that is *not* the main improvement. One could just make respect into a primitive type constructor to avoid the circularity.
 
 The real improvement is that "relaxed equality" avoids the implicit quantification over types in the v0 formation rule. Notice that the v0 rule involves the types $A$ and $B$ which are not mentioned in the conclusion. Because of this, it was not clear at all how to give a strong inversion rule for equality formation. With relaxed equality, the inversion rules are rather obvious.
 
@@ -153,7 +153,7 @@ Letcomp can also be understood as internalizing the meaning of the semantic hypo
 
 $(x:A \gg c = c' \in C)\;\leftrightarrow\;((A\,type) \to ((x:A \gg C\,type) \wedge \forall a,a'.(a = a' \in A) \to (c[a/x] = c'[a'/x] \in C[a/x])))$
 
-With this grand purpose as an attempt to complete the internalization of the PER semantics, it may not be surprising that letcomp is very useful for deriving rules for type constructors defined by PER comprehension. But it's not perfect. Rules that involve metavariables without an associated typing premise tend to cause trouble. Alas, it seems very difficult to do much about that. ("Pullback" types à la [Melliès & Zeilberger](#MZFuncRefine) might address the most serious gaps. I have not tried this yet.) Notice however that intrinsic dependent type systems would not need rules with metavariables without typing premises. So the ability to derive type constructors and their rules seems quite substantial already.
+With this grand purpose as an attempt to complete the internalization of the PER semantics, it may not be surprising that letcomp is very useful for deriving rules for type constructors defined by PER comprehension. But it's not perfect. Rules that involve metavariables without an associated typing premise tend to cause trouble. Alas, it seems very difficult to do much about that. ("Pullback" types à la [Melliès & Zeilberger](#MZFuncRefine) might address the most serious gaps.) Notice however that intrinsic dependent type systems would not need rules with metavariables without typing premises. So the ability to derive type constructors and their rules seems quite substantial already.
 
 There was actually an early version of letcomp for v0. But the soundness of letcomp was not established until after changing the semantics to support primitive inversions.
 
@@ -163,7 +163,7 @@ TODO
 
 ## Miscellaneous
 
-In v0, there was a reflexivity rule for equality, in addition to the uniqueness and selectivity rules. That was redundant, and I simply hadn't noticed. So now reflexivity is derived from uniqueness and select left.
+In v0, there was a reflexivity rule for equality, in addition to the uniqueness and selectivity rules. That was redundant. So now reflexivity is derived from uniqueness and select left.
 
 There's been some reordering of rules, premises, and renaming of metavariables.
 
