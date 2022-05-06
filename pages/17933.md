@@ -1,6 +1,6 @@
 
 
-The traditional story in the [[physics]] textbooks (copied endlessly from one textbook to the next, over generations) of [[SU(2)]]-[[instantons]] ([[BPTS instantons]]) tends to fail to highlight some key global points, without which the whole construction really collapses. The following text means to explain the correct description (using the mathematics of [[Cech cohomology]] cocycles via the [[clutching construction]] on the [[one-point compactification]] of [[Minkowski spacetime]]) but presented and phrased such that the [[folklore]] physics story becomes fully visible -- including its crucial fix.
+The traditional story in the [[physics]] textbooks (copied endlessly from one textbook to the next, over generations) of [[SU(2)]]-[[instantons]] ([[BPST instantons]]) tends to fail to highlight some key global points, without which the whole construction really collapses. The following text means to explain the correct description (using the mathematics of [[Cech cohomology]] cocycles via the [[clutching construction]] on the [[one-point compactification]] of [[Minkowski spacetime]]) but presented and phrased such that the [[folklore]] physics story becomes fully visible -- including its crucial fix.
 
 $\,$
 
@@ -12,7 +12,7 @@ A standard theorem says that there is precisely one self-dual [[principal connec
 
 This is what makes instantons a "topological" structure in the parlance of physics, meaning that they do not depend on [[Riemannian metric]] information, after all. 
 
-We now take the [[spacetime]] to be [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and the [[gauge group]] to be the [[special unitary group]] $SU(2)$. This is the case of "[[BPTS-instantons]]". Of course other choices are possible and may lead to richer situations, but this simple case is what the physics textbooks tend to focus on (not the least, of course, because these choices are relevant for [[phenomenology]] of the [[weak nuclear force]] as seen in accelerator experiments) and it already serves to highlight key points.
+We now take the [[spacetime]] to be [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ and the [[gauge group]] to be the [[special unitary group]] $SU(2)$. This is the case of "[[BPST-instantons]]". Of course other choices are possible and may lead to richer situations, but this simple case is what the physics textbooks tend to focus on (not the least, of course, because these choices are relevant for [[phenomenology]] of the [[weak nuclear force]] as seen in accelerator experiments) and it already serves to highlight key points.
 Since, as we just said, we may disregard all metric properties, this means now that we regard spacetime to be just the [[Cartesian space]] $\mathbb{R}^4$.
 
 Or almost. At this point one needs to be careful with the [[boundary conditions]] in order to get the topology right.
@@ -123,7 +123,7 @@ This is one in a whole sequence of _[[characteristic classes]]_ which are carrie
 
 But in the special case that the base space $X$ is 4-[[dimension|dimensional]], we have that only a single one of these classes may be non-trivial, namely the [[second Chern class]] $c_2$. Therefore this class completely characterizes $SU(2)$-[[principal bundles]] in 4d. 
 
-In conclusion: _Where a [[BPTS-instanton]] is manifested by an [[special unitary group|SU(2)]]-[[principal bundle]] on a 4-dimensional [[manifold]], the [[instanton number]] is the [[second Chern class]] of this bundle._
+In conclusion: _Where a [[BPST-instanton]] is manifested by an [[special unitary group|SU(2)]]-[[principal bundle]] on a 4-dimensional [[manifold]], the [[instanton number]] is the [[second Chern class]] of this bundle._
 
 $\,$
 
