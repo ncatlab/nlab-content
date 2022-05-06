@@ -159,6 +159,7 @@ whence the coefficients of $y$ agree: $(q \circ p)'(x) = q'(p(x))p'(x)$.
 
 * [[total derivative]]
 
+* [[(∞,1)-category theory|(∞,1)-]][[categorification]]: [[Goodwillie chain rule]]
 
 ## References
 
