@@ -41,3 +41,5 @@ A [[subcategory]] is **codense** if the inclusion functor is codense.
 ## References
 
 * {#Ulmer68} [[Friedrich Ulmer]], _Properties of Dense and Relative Adjoint Functors_, Journal of Algebra 8, 77-95 (1968)  
+
+* [[William Lawvere]], _John Isbell's Adequate Subcategories_, TopCom **11** no.1 2006. ([link](http://at.yorku.ca/t/o/p/d/65.htm)) 
