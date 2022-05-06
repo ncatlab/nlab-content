@@ -59,7 +59,10 @@ Work conducted in homotopy type theory:
 
 * [[Dan Licata]] and [[Eric Finster]], _Eilenberg-MacLane Spaces in Homotopy Type Theory_, LICS 2014, [PDF](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf)
 
-* Floris van Doorn, Jeremy Avigad, Steve Awodey, Ulrik Buchholtz, Egbert Rijke, and Mike Shulman, _Spectral Sequences in Homotopy TypeTheory_. Paper forthcoming. 2018. [github](https://github.com/cmu-phil/Spectral).
+* Floris van Doorn, Jeremy Avigad, Steve Awodey, Ulrik Buchholtz, Egbert Rijke, and Mike Shulman, _Spectral Sequences in Homotopy Type Theory_. Paper forthcoming. 2018. [github](https://github.com/cmu-phil/Spectral).
+
+* {#Scoccola19} [[Luis Scoccola]], _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
+
 
 ### Modal homotopy type theory
 
