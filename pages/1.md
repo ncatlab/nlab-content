@@ -102,7 +102,7 @@ Presently only [Firefox](http://www.mozilla.com/firefox/) and its derivatives ha
 This means that presently **you should use Firefox** or its derivatives to view the $n$Lab ([free download of Firefox](https://www.mozilla.org/en-GB/firefox/new/?gclid=CJnjs-3R3M0CFRHhGwodA10Euw)).
 
 
-## Installation
+## Server
  {#Server}
 
 The domain `ncatlab.org` is owned by [[Urs Schreiber]]. The $n$Lab server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is currently in the hands of [[Richard Williamson]]. (If you wish to lend a hand, please contact us.)
