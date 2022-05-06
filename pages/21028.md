@@ -52,10 +52,10 @@ or that
 
 * $C$ has [[reflexive coequalizers]], and that the functor $T(-\otimes -)$ preserves them in both variables separately ([[reflexive coequalizer#properties|hence jointly]]).
 
-Then $\otimes_T$ makes $C^T$ a [[monoidal category]], with
+Then $\otimes_T$ makes the [[Eilenberg-Moore category]] $C^T$ a [[monoidal category]], with
 
-* Monoidal unit given by $T1$, where $1$ is the monoidal unit of $C$;
-* Unitors and associators induced by those of $\otimes$.
+* [[unit object]] given by $T1$, where $1$ is the unit object of $C$;
+* [[unitors]] and [[associators]] induced by those of $\otimes$.
 
 Moreover, if $\otimes$ is [[symmetric monoidal category|symmetric]], $\otimes_T$ is symmetric too, with [[braiding]] induced by the one of $\otimes$.
 =--
