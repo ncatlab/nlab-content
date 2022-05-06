@@ -48,6 +48,10 @@ Increasing the predictive power of galaxy formation simulations
 
   * [visualization](https://fire.northwestern.edu/visualizations/)
 
+* Volonteri, _Simulation of the formation of a galaxy similar to our Milky Way_ ([video](https://m.youtube.com/watch?v=s-25dEcY-WU]))
+
+  
+
 * Shea Garrison-Kimmel, _Next-generation Galaxy Formation Simulations with FIRE_, 2018 ([video recording](https://youtu.be/sSkrm66uDvw))
 
 
