@@ -211,7 +211,7 @@ $$
   \,.
 $$
 
-Similarly, there is a category $Bord_1^{Riem}$ whose [[objects]] are instance of time $t \in \mathbb{R}$, whose [[morphisms]] are time intervals $[t_1,t_2]$, and whose [[composition]] operation is concatenation of time intervals
+Similarly, there is a category $Bord_1^{Riem}$ whose [[objects]] are instants of time $t \in \mathbb{R}$, whose [[morphisms]] are time intervals $[t_1,t_2]$, and whose [[composition]] operation is concatenation of time intervals
 
 $$
   \array{
