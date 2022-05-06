@@ -1948,7 +1948,7 @@ and hence on these element this component vanishes.
 
 In order to compute K-classes, one needs the computation of some basic cases, such as that of the K-theory groups
 of [[n-spheres]] and of [[product spaces]] with $n$-spheres. The _[[fundamental product theorem in K-theory]]_
-determines these K-theory grous. Its result is most succinctly summarized by the statement of _[[Bott periodicity]]_,
+determines these K-theory groups. Its result is most succinctly summarized by the statement of _[[Bott periodicity]]_,
 to which we turn [below](#BottPeriodicities).
 
 Before discussing the product theorem, it is useful to recall the analogous
@@ -1968,7 +1968,7 @@ $$
 $$
 
 Notice that in ordinary cohomology $h$ is also the generator of the [[reduced cohomology]] group $\tilde H^\bullet(S^2) \simeq \mathbb{Z}\langle h\rangle$.
-Now as an element of $K_{\athbb{C}}(S^2)$ the [[basic complex line bundle on the 2-sphere]] is not reduced, but its image in
+Now as an element of $K_{\mathbb{C}}(S^2)$ the [[basic complex line bundle on the 2-sphere]] is not reduced, but its image in
 [[reduced K-theory]] is the [[Bott element]] [[virtual vector bundle]] $\beta = h-1$ (def. \ref{BottElement}).
 The [[fundamental product theorem in topological K-theory]] says, in particular, that the complex topological K-theory
 of the 2-sphere behaves in just the same way as the ordinary cohomology, if only one replaces the generator $h$ by $\beta = h-1$.
