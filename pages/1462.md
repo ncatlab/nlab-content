@@ -26,7 +26,7 @@
 
 The _coimage_ of a morphism is the notion [[duality|dual]] to its [[image]]. 
 
-Under certain conditions coimages coincide with images and even if not, often the _coimage_ is what one wants to think of as the image. You cannot have an image or coimage without the other. For more of the general theory see [[image]].
+Under certain conditions (the [[codomain]] of) the coimage coincides with (the [[domain]] of) the image, and even if not, often the _coimage_ is what one calls (or wants to think of as) the image. The two notions tend to go hand in hand, with the coimage being an [[epi]] and the image being a [[mono]] in some [[(epi, mono) factorization]]. For more of the general theory see [[image]].
 
 
 
