@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -205,6 +206,8 @@ This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there 
 ## Related concepts
 
 * [[∞-Dold-Kan correspondence]]
+
+* [[rational stable homotopy theory]]
 
 ## References
 
