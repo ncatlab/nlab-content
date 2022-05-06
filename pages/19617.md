@@ -36,7 +36,7 @@ On other global geometric aspects of theoretical physics (e.g. [[classical doubl
 
 ## Invited talks
 
-* _Higher geometric aspects of global Double Field Theory_, seminar at [Exceptional Geometry Seminar Series](https://sites.google.com/view/egseminars), 28th August 2020
+* _Higher geometric aspects of global Double Field Theory_, seminar at [Exceptional Geometry Seminar Series](https://sites.google.com/view/egseminars), 28th August 2020 ([recording](https://drive.google.com/file/d/1Hzn_sN0GewfYaP1ZGrIw8jUunDnhud-8/view?usp=sharing), [slides](https://drive.google.com/file/d/1xa_aq8K8aBR1mxwnKFIZjtST2QBGpnSO/view?usp=sharing))
 
 * _Global Double Field Theory is Higher Kaluza-Klein Theory_, regular seminar at Max Planck Institute for Gravitational Physics (Albert Einstein Institute), Potsdam, 16th March 2020.
 
