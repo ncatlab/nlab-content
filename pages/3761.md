@@ -155,11 +155,11 @@ Slightly different definitions of these various structures can be found in the f
 
 Other references referred to above include:
 
-* [[Brian Day|Day]] and [[Ross Street|Street]], "Quantum categories, star autonomy, and quantum groupoids", 2003
+* [[Brian Day]] and [[Ross Street]], "Quantum categories, star autonomy, and quantum groupoids", 2003 ([arxiv:0301209](https://arxiv.org/abs/math/0301209))
  {#DS03}
 
 * [[Ross Street]], "Frobenius monads and pseudomonoids", 2004
- {#Street04}
+ {#Street04} ([pdf](http://web.science.mq.edu.au/~street/Frob.pdf))
 
 [[!redirects Gray monoid]]
 [[!redirects Gray-monoid]]
