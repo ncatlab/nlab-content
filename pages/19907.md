@@ -44,11 +44,19 @@ This idea of a proof was sketched in [Kontsevich 99](#Kontsevich99), a full acco
 
 ## References
 
-A proof was sketched in
+The special case of formality of $E_2$ (see also _[[Kontsevich formality]]_) was finally proven in
+
+* [[Dmitry Tamarkin]], _Another proof of M. Kontsevich formality theorem_ ([arXiv:math/9803025](https://arxiv.org/abs/math/9803025))
+
+* [[Dmitry Tamarkin]], _Formality of Chain Operad of Small Squares_
+
+See [Kontsevich 99, p. 15](#Kontsevich99) for the history of this result.
+
+A general proof of formality of $E_n$ for all $n$ was sketched in
 
 * {#Kontsevich99} [[Maxim Kontsevich]], section 3, around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett.Math.Phys.48:35-72,1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
-A full proof is spelled out in
+and fully spelled out in
 
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
