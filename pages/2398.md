@@ -142,6 +142,8 @@ A little bit a long these lines for [[diffeological space]]s is also in
 
 * [[equivariant de Rham theorem]]
 
+* [[equivariant PL de Rham theorem]]
+
 * [[Poincaré lemma]]
 
 * [[Stokes theorem]]
