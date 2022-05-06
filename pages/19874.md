@@ -138,6 +138,12 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * Alakabha Datta, Divya Sachdeva, John Waite, _A unified explanation of $b \to s\mu^= \mu^-$ anomalies, neutrino masses and $B \to \pi K$ puzzle_ ([arXiv:1905.04046](https://arxiv.org/abs/1905.04046))
 
+within [[GUT]]-models and specifically within [[Pati-Salam models]]:
+
+* {#HeekTeresi18} Julian Heeck, Daniele Teresi, _Pati-Salam explanations of the B-meson anomalies_, JHEP 12 (2018) 103 ([arXiv:1808.07492](https://arxiv.org/abs/1808.07492))
+
+* {#HeekTeresi19} Julian Heeck, Daniele Teresi, _Pati-Salam and lepton universality in B decays_ ([arXiv:1905.05211](https://arxiv.org/abs/1905.05211))
+
 
 and within [[Randall-Sundrum models]]
 
@@ -156,6 +162,6 @@ Appearance in [[GUT]]-theories:
 
 * {#MurayamaYanagida92} H. Murayama, T. Yanagida, _A viable $SU(5)$ GUT with light leptoquark bosons_, Mod.Phys.Lett. A7 (1992) 147-152 ([spire:315898](http://inspirehep.net/record/315898), [doi:10.1142/S0217732392000070](https://doi.org/10.1142/S0217732392000070))
 
-
+* [Heek-Teresi 18](#HeekTeresi18), [Heek-Teresi 19](#HeekTeresi19)
 
 [[!redirects leptoquarks]]
