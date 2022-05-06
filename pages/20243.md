@@ -326,6 +326,8 @@ is the [[Grassmannian]] of 3-planes in 8d. ([Cadek-Vanzura 97, Lemma 2.6](#Cadek
  
 ## References
 
+### General
+
 Very early appearances of this notation are mostly in discussions of [[Berger's theorem]] for exceptional [[holonomy]]:
 
 * {#Gray69} [[Alfred Gray]], [_A Note on Manifolds Whose Holonomy Group is a Subgroup of Sp(n) $\cdot$ Sp(1)_](https://projecteuclid.org/euclid.mmj/1029000212), Michigan Math. J. Volume 16, Issue 2 (1969), 125-128.
@@ -340,7 +342,20 @@ describes this construction as a "local [[direct product]]" of [[topological gro
 
 Of early algebraic interest is the structure theory article:
 
-* Marchiava and Romani, [_Sul classificante del gruppo Sp(n) $\cdot$ Sp(1)_](https://link.springer.com/article/10.1007/BF02418010), Annali di Matematica Pura ed Applicata December 1976, Volume 110, Issue 1, pp 295–319.
+* Stefano Marchiafava, Giuliano Romani, _[Sul classificante del gruppo $Sp(n) \cdot Sp(1)$](https://link.springer.com/article/10.1007/BF02418010)_, Annali di Matematica Pura ed Applicata December 1976, Volume 110, Issue 1, pp 295–319
+
+More on the [[cohomology]] of $Sp(n)\cdot Sp(1)$ and its [[classifying space]]:
+
+* Stefano Marchiafava, Giuliano Romani, _Alcune osservazioni sui sottogruppi abeliani del gruppo $Sp(n)\cdot Sp(1)$_, Annali di Matematica 1977 ([doi:10.1007/BF02413792](https://doi.org/10.1007/BF02413792))
+
+* [[Paolo Piccinni]], Giuliano Romani, _A generalization of symplectic Pontrjagin classes to vector bundles with structure group $Sp(n)\cdot Sp(1)$_,  Annali di Matematica pura ed applicata (1983) 133: 1 ([doi:10.1007/BF01766008](https://doi.org/10.1007/BF01766008))
+
+
+* [[Paolo Piccinni]], _Vector fields and characteristic numbers on hyperkàhler and quaternion Kâhler manifolds_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1992) Volume: 3, Issue: 4, page 295-298 ([dml:244204](https://eudml.org/doc/244204))
+
+* [[Dmitri Alekseevskii]] S. Marchiafava, _Quaternionic structures on a manifold and subordinated structures_, Annali di Matematica pura ed applicata (1996) 171: 205 ([doi:10.1007/BF01759388](https://doi.org/10.1007/BF01759388))
+
+
 
 ### $Sp(2)\cdot Sp(1)$
  {#ReferencesSp2Sp1}
@@ -374,7 +389,7 @@ Second Series, Vol. 92, No. 2 (1970), pp. 189-223 ([jstor:1970834](https://www.j
 
 * {#KacSmilga00} [[Victor Kac]], A.V. Smilga, around (1.10) in _Vacuum structure in supersymmetric Yang-Mills theories with any gauge group_, in _The Many Faces of the Superworld, pp. 185-234 (2000)_ ([arXiv:hep-th/9902029](https://arxiv.org/abs/hep-th/9902029), [doi:10.1142/9789812793850_0014](https://doi.org/10.1142/9789812793850_0014))
 
-* {#OrneaPiccini00} Liviu Ornea, Paolo Piccinni, _Cayley 4-frames and a quaternion-Kähler reduction related to Spin(7)_, Proceedings of the International Congress of Differential Geometry in the memory of A. Gray, held in Bilbao, Sept. 2000 ([arXiv:math/0106116](https://arxiv.org/abs/math/0106116))
+* {#OrneaPiccini00} Liviu Ornea, [[Paolo Piccinni]], _Cayley 4-frames and a quaternion-Kähler reduction related to Spin(7)_, Proceedings of the International Congress of Differential Geometry in the memory of A. Gray, held in Bilbao, Sept. 2000 ([arXiv:math/0106116](https://arxiv.org/abs/math/0106116))
 
 * {#GroveWilkingZiller} Karsten Grove, Burkhard Wilking, Wolfgang Ziller, p. 30 of _Positively Curved Cohomogeneity One Manifolds and 3-Sasakian Geometry_ ([arXiv:math/0511464](https://arxiv.org/abs/math/0511464))
 
