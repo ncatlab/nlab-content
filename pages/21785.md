@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[twisted K-theory]] of suitable [[compact Lie groups]] [[equivariant K-theory|equivariant]] with respect to the [[adjoint action]] of the group on itself.
+The [[twisted equivariant K-theory]] of suitable [[compact Lie groups]] [[equivariant K-theory|equivariant]] with respect to the [[adjoint action]] of the group on itself.
 
 By [FHT](#FHT) this is equivalent to the [[Verlinde ring]] of [[positive energy representations]] of the corresponding [[loop group]].
 
