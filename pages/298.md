@@ -92,7 +92,7 @@ and argued to algebraically encode the [[effective QFT|effective]] [[string theo
 
 ### Relation to conformal nets
 
-Subject to some conditions, from a vertex operator algebra one may induce a [[conformal net]] and conversely ([Capri-Kawahigahshi-Longo-Weiner 15](#CapriKawahigahshiLongoWeiner15)).
+Subject to some conditions, from a vertex operator algebra one may induce a [[conformal net]] and conversely ([Carpi-Kawahigahshi-Longo-Weiner 15](#CarpiKawahigahshiLongoWeiner15), [Carpi 16](#Carpi16)) also ([Gui 18](#Gui18)).
 
 ## Examples
 
@@ -205,13 +205,17 @@ Much algebraic insight to algebaric structures in CFT is in unfinished notes
 
 Relation specifically to [[conformal nets]] is discussed in
 
-* {#CapriKawahigahshiLongoWeiner15} [[Sebastiano Carpi]], [[Yasuyuki Kawahigashi]], [[Roberto Longo]], Mih&#225;ly Weiner, _From vertex operator algebras to conformal nets and back_, Memoirs of the American Mathematical Society, Volume 254, Number 1213 2018;  ([doi:10.1090/memo/1213](https://doi.org/10.1090/memo/1213), [arXiv:1503.01260](http://arxiv.org/abs/1503.01260))
+* {#CarpiKawahigahshiLongoWeiner15} [[Sebastiano Carpi]], [[Yasuyuki Kawahigashi]], [[Roberto Longo]], Mih&#225;ly Weiner, _From vertex operator algebras to conformal nets and back_, Memoirs of the American Mathematical Society, Volume 254, Number 1213 2018;  ([doi:10.1090/memo/1213](https://doi.org/10.1090/memo/1213), [arXiv:1503.01260](http://arxiv.org/abs/1503.01260))
 
 * {#Carpi16} [[Sebastiano Carpi]], _Operator algebras and vertex operator algebras_, Contribution to the Proceedings of the 14th Marcel Grossmann Meeting - MG14 (Rome, 2015) ([arXiv:1603.06742](http://arxiv.org/abs/1603.06742), [doi:10.1142/9789813226609_0508](https://doi.org/10.1142/9789813226609_0508))
 
 See also
 
 * James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
+
+Relation of the corresponding [[ribbon categoires]]:
+
+* {#Gui18} Bin Gui, _Categorical extensions of conformal nets_ ([arXiv:1812.04470](https://arxiv.org/abs/1812.04470))
 
 
 ### Category of vertex operator algebras
