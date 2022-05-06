@@ -8,4 +8,11 @@
 
 * [[zeta function regularization]]
 
+* [[Gleason's theorem]]
+
+* [[spectral theory]]
+
+* [[quaternionic quantum mechanics]]
+
+* [[Gelfand-Naimark-Segal construction]]
 category: people
