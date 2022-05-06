@@ -322,6 +322,7 @@ $$
 =--
 
 #### The Adams e-invariant in $\mathbb{Q}/\mathbb{Z}$
+ {#TheEInvariantAsAnElementOfQModZ}
 
 +-- {: .num_example #TheDefinignSESInComplexTopologicalKTheory} 
 ###### Example
