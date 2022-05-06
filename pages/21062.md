@@ -32,4 +32,9 @@ See also
 
 * Wikipedia, _[Levi-Civita symbol](https://en.wikipedia.org/wiki/Levi-Civita_symbol)_
 
+[[!redirects Levi-Civita symbols]]
+
 [[!redirects antisymmetric symbol]]
+[[!redirects antisymmetric symbols]]
+
+
