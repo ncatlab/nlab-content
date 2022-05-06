@@ -214,7 +214,7 @@ Review includes
 
 Speculation about what this near-criticality of the Higgs vacuum could be pointing to is in
 
-* {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, [[Alessandro Strumia]], section 7 of _Investigating the near-criticality of the Higgs boson_ ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
+* {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, [[Alessandro Strumia]], section 7 of _Investigating the near-criticality of the Higgs boson_, JHEP12(2013)089 ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
 
 as well as [Kane 17, "Clue 4"](#Kane17).
 
