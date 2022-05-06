@@ -69,7 +69,7 @@ For $\mathcal{A}$ taken to be (the [[derived category]]) of an [[abelian categor
 ### Equivariant spectra 
  {#EquivariantSpectra}
 
-Let $G$ be a [[finite group]]. Let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
+Let $G$ be a [[finite group]]. Let $\mathcal{C}= G Set$ be its category of [[G-sets]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
 
 For $G$ finite, Mackey functors on $\mathcal{C}$ are equivalent to  genuine [[G-spectra]] ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)) (Notice that this equivalence does not in general hold if $G$ is not a finite group.)
 
@@ -216,6 +216,8 @@ The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727,  2017 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
 * {#Barwick15} [[Clark Barwick]], [[Saul Glasman]], Jay Shah, _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
+
+* {#Glasman15} [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized Arone-Ching theorem_ ([arXiv:1507.01976](https://arxiv.org/abs/1507.01976), [talk notes pdf](http://www-users.math.umn.edu/~sglasman/strattalk.pdf))
 
 The generalization of [[K-theory of permutative categories]] to spectral Mackey functors is discussed in
 
