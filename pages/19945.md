@@ -22,7 +22,7 @@ A semifield is said to be __algebraically closed__ if the equation $x^n = y$ has
 +-- {: .num_theorem}
 ###### Theorem
 
-In an algebraically closed commutative semifield the equation
+In an algebraically closed commutative idempotent semifield the equation
 $$
   p_0 + p_1 \cdot x^1 + p_2 \cdot x^2 + \ldots + p_n x^n = y
 $$
