@@ -97,7 +97,7 @@ There are generalizations of this picture for each of the so-called 'inner' [[sy
 
 * {#ABS19} [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], Section 6 of: _A circle quotient of a $G_2$ cone_ ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518))
 
-* {#Bryant85} [[Robert Bryant]], _Lie groups and twistor spaces_, Duke Mathematical Journal 52 (1985), pp. 223–261.
+* {#Bryant85} [[Robert Bryant]], _Lie groups and twistor spaces_, Duke Mathematical Journal 52 (1985), pp. 223–261, ([ProjectEuclid](https://projecteuclid.org/euclid.dmj/1077304286)).
 
 
 
