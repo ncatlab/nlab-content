@@ -17,7 +17,7 @@
 {:toc}
 
 ## Idea
-**Theories of presheaf type** though being [[geometric theory|geometric theories]] of a particular "simple" and tractable type are yet ubiquituous in the sense that every geometric theory is a [[quotient theory]] of some theory of presheaf type.
+**Theories of presheaf type** though being [[geometric theory|geometric theories]] of a particular "simple" and tractable type are yet ubiquitous in the sense that every geometric theory is a [[quotient theory]] of some theory of presheaf type.
 
 
 ## Definition
