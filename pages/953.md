@@ -71,7 +71,7 @@ Then the K-groups are the [[homotopy group]]s of the K-theory space.
 
 ## Remarks
 
-* The axioms of a Waldhausen category $C$ are very similar to the axioms of a [[category of fibrant objects]] on the [[opposite category]] $C^{op}$ in which the initial object is also terminal. The difference is in axiom W3, whose analog in a [[category of fibrant objects]] is the axioms that every object has a [[path object]]. It still follows that one has fibration sequences in a [[category of fibrant objects]].
+* The axioms of a Waldhausen category $C$ are very similar to the axioms of a [[category of fibrant objects]] on the [[opposite category]] $C^{op}$ in which the initial object is also terminal. One difference is that the weak equivalences in a Waldhausen category are not required to satisfy [[2-out-of-3]]. For example, Waldhausen gives an example of a Waldhausen category where the weak equivalences are [[simple homotopy equivalences]]. Another difference is in axiom W3, whose analog in a [[category of fibrant objects]] is the axioms that every object has a [[path object]]. It still follows that one has fibration sequences in a [[category of fibrant objects]].
 
 
 ## Examples 
