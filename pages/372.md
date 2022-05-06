@@ -46,7 +46,7 @@ Hence the initial object may also be viewed as the [[colimit]] over the [[empty 
 ## Strict initial objects
    {#Strict}
 
-An initial object $\emptyset$ is called a **[[strict initial object]]** if any morphism $x\to \emptyset$ must be an [[isomorphism]].  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]], or any [[cartesian closed category]]) are strict.  At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
+An initial object $\emptyset$ is called a **[[strict initial object]]** if any morphism $x\to \emptyset$ must be an [[isomorphism]].  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]], or any [[distributive category]]) are strict.  At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
 
 ## Properties
 
