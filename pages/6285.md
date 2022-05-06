@@ -17,8 +17,7 @@
 
 ## Statement
 
-Wigner's theorem asserts that a [[function]] $f : H \to H$  from a [[Hilbert space]] to itself (not _assumed_ to be a [[linear function]])  
-is [[linear function|linear]] and in fact a (anti-)[[unitary operator]] (up to a phase) if only the function is 
+Wigner's theorem asserts that a [[function]] $f : H \to H$  from a [[Hilbert space]] to itself (not _assumed_ to be a [[linear function]]) is [[linear function|linear]] and in fact a (anti-)[[unitary operator]] (up to a phase) if only the function is 
 
 1. [[surjective map|surjective]];
 
@@ -55,7 +54,13 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 ## References
  
+* Valentine Bargman, _Note on Wigner's theorem on symmetry transformations_, Journal of Mathematical Physics 5.7 (1964): 862-868 ([doi:10.1063/1.1704188](https://doi.org/10.1063/1.1704188), [pdf](https://www.staff.science.uu.nl/~henri105/Teaching/CFTclass-Bar64.pdf))
+
 * [[Dan Freed]], _On Wigner's theorem_ ([arXiv:1112.2133](http://arxiv.org/abs/1112.2133))
+
+For [[quaternions|quaternionic]] Hilbert spaces
+
+* C. S. Sharma and D. F. Almeida, _Additive isometries on a quaternionic Hilbert space_, Journal of Mathematical Physics 31, 1035 (1990) ([doi:10.1063/1.528779](https://doi.org/10.1063/1.528779))
 
 See also 
 
