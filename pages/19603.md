@@ -77,6 +77,8 @@ Work conducted in homotopy type theory:
 
 * [[Daniel Christensen]], [[Luis Scoccola]], _The Hurewicz theorem in Homotopy Type Theory_, ([arXiv:2007.05833](https://arxiv.org/abs/2007.05833))
 
+* Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098))
+
 
 
 
