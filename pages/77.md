@@ -170,6 +170,7 @@ See
 
 * [[L-∞ algebroid]], [[smooth ∞-groupoid]]
 
+* [[Lie coalgebra]]
 
 [[!include infinitesimal and local - table]]
 
