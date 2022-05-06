@@ -222,6 +222,8 @@ The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theor
 
 * [[Euler angles]]
 
-* [[SO(2)]], [[Pin(2)]]
+* [[SO(2)]], [[Spin(2)]], [[Pin(2)]]
+
+* [[Spin(4)]]
 
 [[!redirects Spin(3)]]
