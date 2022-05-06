@@ -12,6 +12,8 @@
 
 ## Examples
 
+* the [[Fulton-MacPherson compactification]] of [[configuration spaces of points]] may be regarded as resolution of the [[fat diagonal]] inside an iterated [[Cartesian product]]
+
 * [[Bridgeland stability]] over resolution of [[ADE-singularities]]: see [there](Bridgeland+stability+condition#OverResolutionsOfADESingularities)
 
 ## Related concept
