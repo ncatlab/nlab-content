@@ -1,3 +1,8 @@
+
+$$
+  \wedge \;\; \Leftrightarrow
+$$
+
 $$
 \array{
   & (M \otimes M) \otimes M
