@@ -28,7 +28,7 @@ As every [[topos]], a  [[category of presheaves]] is  [[cartesian monoidal categ
 ###### Proposition
 **([[cartesian closed category|cartesian closure]] of [[categories of presheaves]])**
 
-Let $\mathcal{C}$ be a [[category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]].
+Let $\mathcal{C}$ be a [[small category]] and write $[\mathcal{C}^{op}, Set]$ for its [[category of presheaves]].
 
 This is 
 
