@@ -723,7 +723,7 @@ All [[PL manifold|PL]] [[4-manifolds]] are _simple_ [[branched covers]] of the  
 
 Speculative remarks on the possible role of maps from [[spacetime]] to the [[4-sphere]] in some kind of [[quantum gravity]] via [spectral geometry](spectral+triple) (related to the [[Connes-Lott-Chamseddine-Barrett model]]) are in 
 
-* {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Quanta of Geometry: Noncommutative Aspects_, Phys. Rev. Lett. 114 (2015) 9, 091302 ([arXivL1409.2471](https://arxiv.org/abs/1409.2471))
+* {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Quanta of Geometry: Noncommutative Aspects_, Phys. Rev. Lett. 114 (2015) 9, 091302 ([arXiv:1409.2471](https://arxiv.org/abs/1409.2471))
 
 * {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
 
