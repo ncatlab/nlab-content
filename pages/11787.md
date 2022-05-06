@@ -15,7 +15,7 @@
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #CharElement}
 ###### Definition
 
 For $A$ an [[abelian group]] and given a symmetric [[bilinear form]]
@@ -53,7 +53,7 @@ Often this is considered for the bilinear form being an [[intersection product]]
 ### Relation to quadratic refinements
  {#RelationToQuadraticRefinements}
 
-+-- {: .num_prop #CharElement}
++-- {: .num_prop #QuadRef}
 ###### Proposition
 
 A characteristic element determines a [[quadratic refinement]] $q_\lambda$ of $\langle-,-\rangle$ by
