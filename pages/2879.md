@@ -31,8 +31,7 @@ More generally there are _[[Hopf algebroids over a commutative base]]_, examples
 In the general case we should distinguish left and right bialgebroids, see [[bialgebroid]]. 
 
 In one of the versions, a general Hopf algebroid 
-is defined as a pair of a left algebroid and right algebroid together with a linear map from left to right bialgebroid taking the role of an antipode
-(...).
+is defined as a pair of a left algebroid and right algebroid together with a linear map from left to right bialgebroid taking the role of an antipode.
 
 ### Commutative Hopf algebroids
 
@@ -48,9 +47,18 @@ There are several generalizations to the noncommutative case. A difficult part i
 
 ## Examples
 
+### Minimal Hopf algebroid 
+
+Let $A$ be a unital associative algebra. Then $A\otimes A^{op}$ has a structure of a Hopf algebroid, a __minimal Hopf algebroid__ over $A$, with source map $\alpha(a) = a\otimes 1$, target map $\beta(b) = 1\otimes b$, comultiplication $\Delta(a\otimes b) = (a\otimes 1)\otimes_A(1\otimes b)$, counit $\epsilon(a\otimes b) = a b$ and
+antipode $\tau(a\otimes b) = b\otimes a$.
+
+Lu (1996) considers this example an analogue of a [[Poisson groupoid]] structure on $P\times\overline{P}$ where $P$ is a [[Poisson manifold]], which is itself considered an analogue of a set theoretic course groupoid on $X\times X$ where $X$ is a set. Thus she calls this example a coarse Hopf algebroid.
+
 ### Scalar extension Hopf algebroids
 
-Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. This is a noncommutative generalization (of formal dual of) an [[action groupoid]].
+Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, by a result of Brzezinski-Militaru, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. This is a noncommutative generalization (of formal dual of) an [[action groupoid]].
+
+This construction is modelled on an earlier variant, first written out by Lu, where $A$ is a braided-commutative algebra in the category of modules over $D(H)$, the [[Drinfeld double]] of $H$.
 
 
 ## References
@@ -90,13 +98,17 @@ and also described in:
 * [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, Vol. 6, ed. by
 M. Hazewinkel, Elsevier 2009, 173&#8211;236 [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
 * G. B&#246;hm, [[K. Szlachányi]], _Hopf algebroids with bijective antipodes: axioms, integrals and duals_, Comm. Algebra __32__ (11) (2004) 4433 - 4464 [math.QA/0305136](http://arxiv.org/abs/math.QA/0305136)
-* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002
-[math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
+* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_A$-bialgebras and duality_,  J. Algebra __251__: 279-294, 2002 [math.QA/0012164](http://arxiv.org/abs/math.QA/0012164)
 * D. Chikhladze, Category of quantum categories, Theory and Applications of Categories __25__ (2011) 1 - 37.  ([pdf](http://www.tac.mta.ca/tac/volumes/25/1/25-01.pdf))
 
-A class of examples of such Hopf algebroids internally in a monoidal category of cocomplete cofiltered vector spaces is in
+A class of examples of such Hopf algebroids internally in a symmetric monoidal category of filtered cofiltered vector spaces is in
 
-* S. Meljanac, Z. &#352;koda, _Lie algebra type noncommutative phase spaces are Hopf algebroids_, [arxiv/1409.8188](http://arxiv.org/abs/1409.8188)
+* M. Stojić, PhD thesis, _Completed Hopr algebroids_, University of Zagreb, 2017
+
+A somewhat less canonical version of the same main subexample, written in coordinates, and with somewhat ad hoc treatment of completions (focusing on global cofiltrations only) is in 
+
+* S. Meljanac, Z. &#352;koda, M. Stojić, _Lie algebra type noncommutative phase spaces are Hopf algebroids_, Lett. Math. Phys. 107:3, 475–503 (2017) [enhanced pdf](http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSHnmX9Ae5OTohRXxZ3Kuwuk-3D_fxWtIqIinsN9WJMaEHmGcrXGHheD-2FQtZ0bATf5S8uPqTE1vT5wX4Z3MHOr3LESbPy9zd7ZFfFy-2BgrWYwBzwnkToXTLfpXlfVLbWgoyxh3yG3X87hmFOy6WBB8-2BfFT6d5xCnkUAl78V3yBYjEJE6K0TYy2-2FYZewOjCVwZXxVneWJX8yW4YWbnghVE5d2d5zhz6lkzaj9LLNSVj-2B3QvKR6Dg-3D-3D)
+ (free for online use) [doi](http://dx.doi.org/10.1007/s11005-016-0908-9) [arxiv/1409.8188](http://arxiv.org/abs/1409.8188)
 
 This starts with a different concept of [[bialgebroid]], which is discussed here on the nLab.  Namely: any $k$-algebra $R$ gives a pseudomonoid $R^e = R^{op} \otimes R$ in the bicategory $Mod_k$ of k-algebras, bimodules, and bimodule homomorphisms, and a **bialgebroid** is then an opmonoidal monad $A$ on $R^e$.   When the fusion (or Galois) operator for this opmonoidal monad is invertible, we say that $A$ is a **Hopf algebroid**.  In G. B&#246;hm's work this definition is stated in a less compressed, more down-to-earth way.
 
