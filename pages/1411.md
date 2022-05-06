@@ -42,12 +42,17 @@ Similarly, a __unit law__ is the statement that a given operation has an identit
 
 * [[unitization]]
 
-* [[identity type]] 
-
 * [[unit]] 
 
 * [[equivalence]]
 
+* [[identity type]] 
+
+* [[identity morphism]]
+
+* [[identity functor]]
+
+* [[identity natural transformation]]
 
 [[!redirects identity element]]
 [[!redirects identity elements]]
