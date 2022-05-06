@@ -49,7 +49,7 @@ mathematicians not concerned about foundations.
 
 ## Cubical synthetic homotopy theory
 
-In ([Mörtberg-Pujet](#Mortberg-Pujet)) the authors make the case that there are advantages for synthetic homotopy theory in the use of [[cubical type theory]] over Book HoTT. 
+In ([Mörtberg-Pujet](#Mortberg-Pujet)) the authors make the case for the use of [[cubical type theory]] over [[HoTT]] in synthetic homotopy theory since [[univalence]] and [[HITs]] are natively supported there, rather than axiomatically added as in HoTT. The path algebra in HoTT is made complicated by the fact that many equalities do not hold definitionally, even in the proof of simple results such as that the torus is equivalent to the product of two circles. The proof of this result is trivial in cubical type theory.
 
 
 ## References
