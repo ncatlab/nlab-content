@@ -60,6 +60,11 @@ This construction, especially the way the unit and multiplications are defined, 
 (...)
 
 
+## Algebras
+
+(...)
+
+
 ## Notable submonads
 
 There are a number of monads that can be constructed as submonads of $V$. The [[monoidal functor|monoidal structure]] of $V$ is inherited by these submonads too, allowing the formation of joints and marginals.
