@@ -267,7 +267,7 @@ The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz supe
 
 The interpretation of the membrane as an object related to [[string theory]] via [[double dimensional reduction]], hence as the _M2-brane_ was proposed in 
 
-* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
 around the time when [[M-theory]] became accepted due to
 
@@ -302,7 +302,7 @@ The [[black brane|black]] membrane solution of [[11-dimensional supergravity]] w
 
 Its regularity across the [[event horizon]] is due to
 
-* {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys.Lett.B332:321-328,1994 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
+* {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys. Lett. B332:321-328, 1994 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
 
 Further discussion of such _[[Freund-Rubin compactifications]]_:
 
@@ -418,7 +418,7 @@ Discussion of [[M2-M5 brane bound states]], i.e.
 
 * {#ILPT95} J.M. Izquierdo, [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic Membranes_, Nucl. Phys. B460:560-578, 1996 ([arXiv:hep-th/9508177](https://arxiv.org/abs/hep-th/9508177))
 
-* [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
+* [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys. Lett. B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
 
 * [[Troels Harmark]], Section 3.1 of _Open Branes in Space-Time Non-Commutative Little String Theory_, Nucl.Phys. B593 (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
 
@@ -434,7 +434,7 @@ Discussion of [[M2-M5 brane bound states]], i.e.
 
 Further [[M2/M5-brane bound states]] to [[giant gravitons]]:
 
-* J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
+* J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys. Lett. B525:337-346, 2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
 
 
 
