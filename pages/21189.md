@@ -155,8 +155,7 @@ As [[quantum hadrodynamics]]:
 * [[Jürg Gasser]], [[Heinrich Leutwyler]], _Chiral Perturbation Theory: Expansions in the Mass of the Strange Quark_, Nucl. Phys. B 250 (1985) 465-516, ([spire:200027](https://inspirehep.net/literature/200027), <a href="https://doi.org/10.1016/0550-3213(85)90492-4">doi:10.1016/0550-3213(85)90492-4</a>))
 
 
-* [[Jürg Gasser]], [[Heinrich Leutwyler]], _Chiral perturbation theory to one loop_, Annals of Physics
-Volume 158, Issue 1, November 1984, Pages 142-210 (<a href="https://doi.org/10.1016/0003-4916(84)90242-2">doi:10.1016/0003-4916(84)90242-2</a>)
+* [[Jürg Gasser]], [[Heinrich Leutwyler]], _Chiral perturbation theory to one loop_, Annals of Physics Volume 158, Issue 1, November 1984, Pages 142-210 (<a href="https://doi.org/10.1016/0003-4916(84)90242-2">doi:10.1016/0003-4916(84)90242-2</a>)
 
 
 * [[Gerard 't Hooft]], _How instantons solve the $U(1)$ problem_, Physics Reports Volume 142, Issue 6, September 1986, Pages 357-387 (<a href="https://doi.org/10.1016/0370-1573(86)90117-1">doi:10.1016/0370-1573(86)90117-1</a>)
@@ -176,6 +175,31 @@ Further discussion of [[phenomenology]]:
 
 
 [[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
+
+### Antisymmetric tensor representation for vector mesons
+ {#ReferencesAntisymmetricTensorRepOfVectorMesons}
+
+The formulation of vector mesons in "antisymmetric tensor representation":
+
+Original articles:
+
+* [[Jürg Gasser]], [[Heinrich Leutwyler]], Appendix C of: _Chiral perturbation theory to one loop_, Annals of Physics Volume 158, Issue 1, November 1984, Pages 142-210 (<a href="https://doi.org/10.1016/0003-4916(84)90242-2">doi:10.1016/0003-4916(84)90242-2</a>)
+
+* G. Ecker, [[Jürg Gasser]], A. Pich, E. DeRafael, Sec 3 and Appendix A in: _The role of resonances in chiral perturbation theory_, Nuclear Physics B
+Volume 321, Issue 2, 24 July 1989, Pages 311-342 (<a href="https://doi.org/10.1016/0550-3213(89)90346-5">doi:10.1016/0550-3213(89)90346-5</a>)
+
+Relation between the vector- and the antisymmetric tensor-representation of vector mesons:
+
+* Karol Kampf, Jiri Novotny, Jaroslav Trnka, _On different lagrangian formalisms for vector resonances within chiral perturbation theory_, Eur. Phys. J. C50:385-403, 2007 ([arXiv:hep-ph/0608051](https://arxiv.org/abs/hep-ph/0608051))
+
+
+Further application of the antisymmetric tensor representation of vector mesons to [[quantum hadrodynamics]]:
+
+* Stefan Leupold, Carla Terschlusen, _Towards an effective field theory for vector mesons_, Talk presented at the 50th International Winter Meeting on Nuclear Physics, 23-27 January 2012, Bormio ([arXiv:1206.2253](https://arxiv.org/abs/1206.2253))
+
+* Carla Terschlusen, Stefan Leupold, M. F. M. Lutz, _Electromagnetic transitions in an effective chiral Lagrangian with the eta-prime and light vector mesons_, Eur. Phys. J. A 48, 190 (2012) ([arXiv:1204.4125](https://arxiv.org/abs/1204.4125))
 
 
 
