@@ -352,15 +352,15 @@ and was understood as yielding a 2-dimensional [[conformal field theory]] in
 
 and hence (a possible part of) a [[string theory]] [[vacuum]]/[[target space]] in
 
-* [[Doron Gepner]], [[Edward Witten]], _String theory on group manifolds_, Nucl. Phys. B 278, 493-549 (1986) ([spire](http://inspirehep.net/record/230076?ln=en))
+* [[Doron Gepner]], [[Edward Witten]], _String theory on group manifolds_, Nucl. Phys. B 278, 493-549 (1986) ([spire:230076](http://inspirehep.net/record/230076))
 
 The WZ term on $\Sigma_2$ was understood in terms of an integral of a 3-form over a cobounding manifold $\Sigma_3$ in 
 
-* [[Edward Witten]], _Global aspects of current algebra_. Nucl. Phys. B223, 422 (1983)
+* [[Edward Witten]], _Global aspects of current algebra_, Nucl. Phys. B223, 422 (1983) ([spire:13234](http://inspirehep.net/record/13234), <a href="https://doi.org/10.1016/0550-3213(83)90063-9">doi:10.1016/0550-3213(83)90063-9</a>, [pdf](https://www.phys.sinica.edu.tw/~spring8/users/jychen/pub/reference/NPB_v223_422.pdf))
 
 for the case that $\Sigma_2$ is [[closed manifold|closed]], and generally, in terms of [[surface holonomy]] of [[bundle gerbes]]/[[circle 2-bundles with connection]] in
 
-* {#Gawedzki87} [[Krzysztof Gawedzki]] _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
+* {#Gawedzki87} [[Krzysztof Gawedzki]], _Topological Actions in two-dimensional Quantum Field Theories_, in [[Gerard 't Hooft]] et. al (eds.) _Nonperturbative quantum field theory_ Cargese 1987 proceedings,  ([web](http://inspirehep.net/record/257658?ln=de))
   
 
 * [[Giovanni Felder]] , [[Krzysztof Gawedzki]], A. Kupianen, _Spectra of Wess-Zumino-Witten models with arbitrary simple groups_. Commun. Math. Phys. 117, 127 (1988)
