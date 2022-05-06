@@ -91,7 +91,7 @@ This appears as ([Joyce prop. 3.1.8](#Joyce))
 
 The classification in [[Berger's theorem]] is due to
 
-* {#Berger} M. Berger, _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des
+* {#Berger} [[Marcel Berger]], _Sur les groupes d'holonomie homog&#232;ne des vari&#233;t&#233;s &#224; connexion affine et des
 vari&#233;t&#233;s riemanniennes_, Bull. Soc. Math. France 83 (1955)
  
 
@@ -105,7 +105,7 @@ For more see
 
 Discussion of the relation to [[Killing spinors]] includes
 
-* Andrei Moroianu, [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
+* [[Andrei Moroianu]], [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
 
 Discussion in terms of [[Riemannian geometry]] modeled on [[normed division algebras]] is in
 
@@ -114,6 +114,11 @@ Discussion in terms of [[Riemannian geometry]] modeled on [[normed division alge
 See also
 
 * {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+
+On [[special holonomy orbifolds]]:
+
+* [[Jeff Cheeger]], Gang Tian, _Anti-Self-Duality of Curvature and Degeneration of Metrics with Special Holonomy_, Communications in Mathematical Physics volume 255, pages 391–417 (2005) ([doi:10.1007/s00220-004-1279-0](https://doi.org/10.1007/s00220-004-1279-0))
+
 
 ### In supergravity and string theory
 
@@ -124,3 +129,8 @@ Discussion of special holonomy manifolds in [[supergravity]] and [[superstring t
 
 [[!redirects manifold with special holonomy]]
 [[!redirects manifolds with special holonomy]]
+
+
+[[!redirects special holonomy orbifold]]
+[[!redirects special holonomy orbifolds]]
+
