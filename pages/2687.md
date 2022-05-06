@@ -101,13 +101,19 @@
 
 * [[model structure on topological spaces|on topological spaces]]
 
+  * [[classical model structure on topological spaces|classical model structure]]
+
   * [[Strom  model structure]]
 
-* [[Thomason model structure]]
+  * [[Thomason model structure]]
 
 * [[model structure on presheaves over a test category]]
 
 * [[model structure on simplicial sets|on simplicial sets]], [[model structure on semi-simplicial sets|on semi-simplicial sets]]
+
+  * [[classical model structure on simplicial sets|classical model structure]]
+
+  * [[constructive model structure on simplicial sets|constructive model structure]]
 
   * [[model structure for right fibrations|for right/left fibrations]]
 
