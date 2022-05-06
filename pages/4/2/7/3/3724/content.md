@@ -143,7 +143,7 @@ By [[excluded middle]], every extended cut is either a Dedekind cut, $(\mathbb{Q
 ### Interval cuts
 {#intervals}
 
-If we drop (7) (but keep 3&4), then the result is an __interval cut__; these represent intervals of the form $[x,y]$ for $x \leq y$, where $x$ is a lower real and $y$ is an upper real.  If we use only (1--6), then we allow for __back-to-front intervals__ $[x,y]$ where $x \leq y$ is no longer required.  Even classically, we cannot represent back-to-front intervals as subsets of the real line, but it is still possible to compute with them.
+If we drop (7) (but keep 3&4), then the result is an __[[interval cut]]__; these represent intervals of the form $[x,y]$ for $x \leq y$, where $x$ is a lower real and $y$ is an upper real.  If we use only (1--6), then we allow for __back-to-front intervals__ $[x,y]$ where $x \leq y$ is no longer required.  Even classically, we cannot represent back-to-front intervals as subsets of the real line, but it is still possible to compute with them.
 
 Whereas a located Dedekind cut can be approximated as closely as we wish, an interval cut represents a number as we measure it in the real world, where we may not be technically able (or even theoretically able, as in [[quantum physics]]) to make a more precise measurement.  A back-to-front interval indicates that we have made contradictory measurements, perhaps as a result of experimental error.
 
