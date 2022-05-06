@@ -711,3 +711,5 @@ TT\mathcal{A} &= \displaystyle \int^Y \beta(Y) \times T\mathcal{A}^Y \\
 &\displaystyle \to \text{colim}_Y\int^X \beta (X) \times \mathcal{A}^{X\times Y} \\
 &\displaystyle \cong \int^X \beta (X) \times \mathcal{A}^{X}
 \end{array}$$
+
+[[tphyahoo]]
