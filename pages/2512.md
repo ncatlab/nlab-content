@@ -13,6 +13,12 @@ From his [cached Pitt faculty page](https://web.archive.org/web/20170811155442/h
 
 * _Geometric perspectives on topological action functionals_, talk at _[The CUNY Workshop on differential cohomology](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, New York, August 2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1802/))
 
+
+* _M-theory and cohomotopy_, talk at _[[M-Theory and Mathematics]]_, NYU AD 2020 ([pdf slides](https://ncatlab.org/nlab/files/Sati_MTheoryCohomotopy_2020.pdf))
+
+  > (on [[schreiber:Hypothesis H]]_)
+
+
 ## Selected publications
 
 * Hisham Sati, _[[Geometric and topological structures related to M-branes]]_, 
@@ -34,9 +40,14 @@ on [[cohomology]] and [[twisted cohomology]] structures in [[string theory]]/[[M
 
   (this is followed up on in remark 5.4.12 in [[Michael Hopkins|Hopkins]], [[Jacob Lurie|Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ )
 
-On [[F4]] and [[Cayley plane]]-[[fiber bundles]] in [[M-theory]]:
+On [[F4]] and [[Cayley plane]]-[[fiber bundles]] in [[M-theory]], relating to [[bosonic M-theory]]:
 
-* [[Hisham Sati]], _$\mathbb{O}P^2$-bundles in M-theory_,  	Commun. Num. Theor. Phys 3:495-530,2009 ([arXiv:0807.4899](http://arxiv.org/abs/0807.4899))
+* [[Hisham Sati]], _$\mathbb{O}P^2$-bundles in M-theory_, Commun. Num. Theor. Phys 3:495-530,2009 ([arXiv:0807.4899](http://arxiv.org/abs/0807.4899))
+
+
+* [[Hisham Sati]], _On the geometry of the supermultiplet in M-theory_, Int. J. Geom. Meth. Mod. Phys. 8 (2011) 1-33 ([arXiv:0909.4737](https://arxiv.org/abs/0909.4737))
+
+
 
 On mathematical foundations of [[quantum field theory]] and [[perturbation theory|perturbative]] [[string theory]]:
 
@@ -92,7 +103,7 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 
 * {#GradySati19b} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
-On ([[cohomotopy|co-]])[[homotopy theory|homotopical]] foundations of [[M-theory]]:
+On ([[cohomotopy|co-]])[[homotopy theory|homotopical]] foundations of [[M-theory]] ([[schreiber:Hypothesis H]]):
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] _[[schreiber:The rational higher structure of M-theory]]_, _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/):_ _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html), August 2018_. Fortschritte der Physik, 2019 ([doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017), [arXiv:1903.02834](https://arxiv.org/abs/1903.02834))
  
