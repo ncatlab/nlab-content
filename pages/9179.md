@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -77,6 +78,10 @@ If Pauli had really been relying on symmetry and the Noether theorem, he could h
 
 * [[ANITA experiment]]
 
+\linebreak
+
+[[!include flavors of fundamental particles -- table]]
+
 ## References
 
 * [[Goran Senjanovic]], _LHC and the neutrino paradigm_, talk at CERN EP seminar 2011 ([cern:148714](https://indico.cern.ch/event/148714), [recording](https://youtu.be/VVoMUHokn2U))
@@ -124,3 +129,13 @@ Discussion of [[neutrino]] [[masses]] in [[leptoquark]]-[[model (in theoretical 
 [[!redirects neutrino]]
 [[!redirects neutrinos]]
 [[!redirects neutriono]]
+
+[[!redirects electron neutrino]]
+[[!redirects electron neutrinos]]
+
+[[!redirects muon neutrino]]
+[[!redirects muon neutrinos]]
+
+[[!redirects tau neutrino]]
+[[!redirects tau neutrinos]]
+
