@@ -32,7 +32,7 @@ Moreover, the [[indecomposable object|indecomposable]] [[quiver representations]
 
 * [[ADE classification]]
 
-* [[Dynkin quiver]]
+* [[Dynkin quiver]], [[McKay quiver]]
 
 ## References
 
