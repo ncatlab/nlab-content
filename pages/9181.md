@@ -35,7 +35,9 @@
 
   * [[pion]]
 
-  * [[rho-meson]]
+  * [[ρ-meson]]
+
+  * [[ω-meson]]
 
   * [[B-meson]]
 
