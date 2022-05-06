@@ -85,7 +85,7 @@ $Set(\mathbb{D}_\infty)\;$, respectively the theory $\mathbb{D}_\infty\;$, are n
 
 **Proof.**
 
-We argue on the logical side: $Set$ classifies the theory $\mathbb{S}$ of initial successor algebras whose models are [[natural number object|natural number objects]] (cf. the example section at [[geometric theory]]). But by generalities (that can be found e.g. in [[Handbook of Categorical Algebra|Borceux vol.3]]) a natural number object is both infinite and decidable and certainly the familiar set $\mathbb{N}$ of [[natural number|natural numbers]] in Set is.
+We argue on the logical side: $Set$ classifies the theory $\mathbb{S}$ of standard successor algebras whose models are [[natural number object|natural number objects]] (cf. the example section at [[geometric theory]]). But by generalities (that can be found e.g. in [[Handbook of Categorical Algebra|Borceux vol.3]]) a natural number object is both infinite and decidable and certainly the familiar set $\mathbb{N}$ of [[natural number|natural numbers]] in Set is.
 
 Accordingly, we take $\bar{c}$ as the map that classifies $\mathbb{N}=\bar{c}^*(\mathbf{D}_\infty)$ as a model of $\mathbb{D}_\infty$ in Set. Then $!=\Delta\dashv\Gamma$ classifies $\Delta(\mathbb{N})$ as a model of $\mathbb{S}$ in $Set(\mathbb{D}_\infty)$ and the composite $\bar{c}\circ !$ classifies $\Delta(\mathbb{N})=\Delta(\bar{c}^*(\mathbf{D}_\infty))$ as a model of $\mathbb{D}_\infty$ in $Set(\mathbb{D})$.
 
