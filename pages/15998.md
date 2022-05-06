@@ -7,3 +7,5 @@
 * [[traced monoidal category]]
 
 category: people
+
+[[!redirects Hassei]]
