@@ -49,14 +49,10 @@ If we take $A$ to be a $*$-[[star-algebra|algebra]] over the [[complex numbers]]
 
 [[!include classical-to-quantum notions - table]]
 
+[[!include states and observables -- content]]
 
-* [[state in AQFT and operator algebra]]
+\linebreak
 
-* [[observable]]
-
-  * [[algebra of observables]]
-
-  * [[GNS construction]]
 
 
 [[!redirects classical state]]
