@@ -159,9 +159,10 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
 
 ### General
 
-* {#MosherTangora86} [[Robert Mosher]], [[Martin Tangora]], p. 33 of _Cohomology operations and applications in homotopy theory_, Harper & Row 1986 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
 
-* {#Husemoller66} [[Dale Husemöller]], chapter 15 of _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966)
+* {#Husemoller66} [[Dale Husemöller]], chapter 15 of: _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966) ([doi:10.1007/978-1-4757-2261-1](https://link.springer.com/book/10.1007/978-1-4757-2261-1))
+
+* {#MosherTangora86} [[Robert Mosher]], [[Martin Tangora]], p. 33 of _Cohomology operations and applications in homotopy theory_, Harper & Row 1986 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
 
 * [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
 
@@ -170,6 +171,8 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
 See also:
 
 * Wikipedia, _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
+
+And see the references at _[[Hopf invariant one]]_ for more, in particular for the formulation via [[topological K-theory]].
 
 ### Whitehead's integral formula
   {#ReferencesWhiteheadIntegralFormula}
