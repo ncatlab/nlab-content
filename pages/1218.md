@@ -412,6 +412,10 @@ A discussion of the relations of variants of the definition is in
 * {#Stacey11} [[Andrew Stacey]], _Comparative Smootheology_, Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac:25-04](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
 
 
+Application to [[classifying spaces]] and [[universal connections]]:
+
+* [[Mark Mostow]], _The differentiable space structures of Milnor classifying spaces, simplicial complexes, and geometric realizations_, J. Differential Geom. Volume 14, Number 2 (1979), 255-293 ([euclid:jdg/1214434974](https://projecteuclid.org/euclid.jdg/1214434974))
+
 
 ### Full subcategories
 
