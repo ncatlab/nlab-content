@@ -42,10 +42,9 @@ The theory $\mathsf{DLO}$ of the _dense linear order without endpoints_ is the [
 
 ## Related concepts
 
-[[omega-categorical structure]]
+* [[omega-categorical structure]]
 
-[[homogeneous structure]]
-
+* [[homogeneous structure]]
 
 ## References
 
