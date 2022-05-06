@@ -118,6 +118,8 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 ## Related concepts
 
+* [[embedding tensor]], [[tensor hierarchy]]
+
 * [[exceptional field theory]]
 
 * [[duality in string theory]]
