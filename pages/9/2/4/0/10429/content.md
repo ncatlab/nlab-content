@@ -16,7 +16,7 @@
 
 
 
-# Topological states of matter
+# Contents
 * table of contents
 {: toc}
 
@@ -98,6 +98,9 @@ Textbook accounts:
 
 * Sanju Gupta, Avadh Saxena, *The Role of Topology in Materials*,  Springer Series in Solid-State Sciences **189**, 2018 ([doi:10.1007/978-3-319-76596-9](https://link.springer.com/book/10.1007/978-3-319-76596-9))
 
+* {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
+
+
 * [[Tudor D. Stanescu]], Part II of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
 Review and survey:
@@ -109,6 +112,7 @@ Review and survey:
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
+* *Online course on topology in condensed matter* (2015-) $[$[topocondmat.org](https://topocondmat.org)$]$
 
 See also:
 
@@ -118,7 +122,7 @@ See also:
 
 * [[Xiao-Gang Wen]], _Topological Orders and Edge Excitations in FQH States_, Advances in Physics 44, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond-mat/9506066). (for topological order)
 
-* Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman|M. Freedman]], Sankar Das Sarma, _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083) (for topological order)
+* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman|M. Freedman]], [[Sankar Das Sarma]], _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083) (for topological order)
 
 * [M. Z. Hasan](http://www.princeton.edu/physics/people/display_person.xml?netid=mzhasan), C. L. Kane, _Topological insulators_, Reviews of Modern Physics __82__ (4): 3045 (2010) [arXiv:1002.3895](http://arxiv.org/abs/1002.3895) [doi](http://dx.doi.org/10.1103%2FRevModPhys.82.3045) (for topological insulator)
 
@@ -194,8 +198,12 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 * CECAM 2013, Topological Phases in Condensed Matter and Cold Atom Systems: towards quantum computations [description](http://www.cecam.org/workshop-867.html)
 
 
-[[!redirects topological matter]]
+[[!redirects topological phases of matter]]
+
+
 [[!redirects topological state of matter]]
 [[!redirects topological states of matter]]
-[[!redirects topological phase of matter]]
-[[!redirects topological phases of matter]]
+
+[[!redirects topological matter]]
+
+
