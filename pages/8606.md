@@ -45,7 +45,7 @@ satisfying the cocycle property.
 +-- {: .num_defn }
 ###### Definition
 
-Given two coycles $c_1, c_2 : G \times G \to A$ their **sum** is the composite
+Given two cocycles $c_1, c_2 : G \times G \to A$ their **sum** is the composite
 
 $$
   (c_1 + c_2) : G \times G \stackrel{\Delta_{G \times G}}{\to} (G \times G) \times (G \times G) \stackrel{(c_1,c_2)}{\to} A \times A \stackrel{+}{\to} A
@@ -79,7 +79,7 @@ $$
   \,.
 $$
 
-Since $A$ is an abelian group, $\matbf{B}^2 A$ is naturally an abelian [[infinity-group|3-group]], equipped with a group operation $+ \colon (\mathbf{B}^2 A) \times (\mathbf{B}^A)\to \mathbf{B}^2 A $.
+Since $A$ is an abelian group, $\mathbf{B}^2 A$ is naturally an abelian [[infinity-group|3-group]], equipped with a group operation $+ \colon (\mathbf{B}^2 A) \times (\mathbf{B}^A)\to \mathbf{B}^2 A $.
 
 With respect to this the sum operation is 
 
