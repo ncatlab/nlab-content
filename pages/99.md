@@ -233,6 +233,7 @@ The **Weil algebra** $W(\mathfrak{a})$ of the $L_\infty$-algebroid $\mathfrak{a}
   {#Properties}
 
 ### Free property
+ {#FreeProperty}
 
 The main point of the definition is that the differential restricted to the original (unshifted) generators is the original differential plus the shift:
 
