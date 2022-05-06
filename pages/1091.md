@@ -1,4 +1,8 @@
 
+> This entry is about base change of [[slice categories]]. For base change in [[enriched category theory]] see at [[change of enriching category]].
+
+***
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -506,8 +510,9 @@ $$
 * [[proper base change theorem]]
 
 
-Base change geometric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
+* Base change geometric morphisms may be interpreted in terms of [[fiber integration]]. See [[integral transforms on sheaves]] for more on this.
 
+* [[change of enriching category]]
 
 ## References
 
