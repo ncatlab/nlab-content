@@ -247,7 +247,7 @@ If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$.
 There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in bijection with maps $A \to 0 \times T \cong 0$, of which there is exactly one. For the second statement, suppose that $X$ has the property that there is exactly one map $A \to X$ for each type A object. Such objects $X$ are closed under products, and $0$ is such an object; therefore $0 \times X$ is such an object. On the other hand, $0 \times X$ is of type A since it projects to $0$. Hence there is at most one morphism $0 \times X \to 0 \times X$, and it follows that $0 \times X \to 0 \to 0 \times X$ is the identity, so that $0 \times X \cong 0$. Thus $X$ is of type T. 
 =-- 
 
-+-- {: .num_corollary #strict}
++-- {: .num_cor #strict}
 ###### Corollary
 The initial object $0$ is [[strict initial object|strict]] in the category of type T objects. 
 =--
@@ -257,7 +257,7 @@ The initial object $0$ is [[strict initial object|strict]] in the category of ty
 Given $T$ of type T and $T \to 0$, we know $T$ is type A, and therefore by Lemma \ref{exactlyone} there is exactly one map $T \to T$. Hence $T \to 0 \to T$ is the identity, and of course so is $0 \to T \to 0$. So $T$ is initial. 
 =--
 
-+-- {: .num_corollary #closed}
++-- {: .num_cor #closed}
 ###### Corollary
 The full subcategory of objects of type T is closed under products, coproducts, subobjects, and quotient objects.
 =--
