@@ -53,9 +53,14 @@ On [[knot theory]] and [[Chern-Simons theory]]:
 * [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
 
 
-On [[skyrmions]] from [[Kaluza-Klein theory|KK-reduction]] of [[instantons]] in [[D=5 Yang-Mills theory]]:
+On [[skyrmions]] from [[Kaluza-Klein theory|KK-reduction]] of [[instantons]] in [[D=5 Yang-Mills theory]] ([[hadron Kaluza-Klein theory]]):
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+
+and in a variant on [[hyperbolic space]]:
+
+* [[Michael Atiyah]], [[Paul Sutcliffe]], _Skyrmions, instantons, mass and curvature_,  	Phys. Lett. B605 (2005) 106-114 ([arXiv:hep-th/0411052](https://arxiv.org/abs/hep-th/0411052))
+
 
 On [[M-theory on G2-manifolds]]:
 
@@ -65,10 +70,13 @@ On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
 
 * {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf), [doi;10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
 
-On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]]:
+On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]] (inspired by [[hadron Kaluza-Klein theory]]):
 
-* {#AtiyahManton16} [[Michael Atiyah]], [[Nicholas Manton]], _Complex Geometry of Nuclei and Atoms_ ([arXiv:1609.02816](https://arxiv.org/abs/1609.02816))
+* [[Michael Atiyah]], [[Nicholas Manton]], [[Bernd Schroers]], _Geometric Models of Matter_, Proceedings of the Royal Society A  ([arXiv:1108.5151](https://arxiv.org/abs/1108.5151), [doi:10.1098/rspa.2011.0616](https://doi.org/10.1098/rspa.2011.0616))
 
+* {#AtiyahManton16}  [[Michael Atiyah]], [[Nicholas Manton]], _Complex Geometry of Nuclei and Atoms_,  International Journal of Modern Physics AVol. 33, No. 24, 1830022 (2018) ([arXiv:1609.02816](https://arxiv.org/abs/1609.02816), [doi:10.1142/S0217751X18300223](https://doi.org/10.1142/S0217751X18300223))
+
+* [[Michael Atiyah]], _Geometric Models of Helium_,  Modern Physics Letters AVol. 32, No. 14, 1750079 (2017) ([arXiv:1703.02532](https://arxiv.org/abs/1703.02532), [doi:10.1142/S0217732317500791](https://doi.org/10.1142/S0217732317500791))
 
 
 
