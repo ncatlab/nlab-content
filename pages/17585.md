@@ -441,6 +441,8 @@ $$
 
 
 
+
+
 ## Related concepts
 
 * [[Hochschild homology]]
@@ -466,7 +468,7 @@ Review is in
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
-* {#Hess06} [[Kathryn Hess]], example 2.5 of _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], example 2.5 of _Rational homotopy theory: a brief introduction_ ([math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, [[Daniel Tanre]], _Algebraic models in geometry_, Oxford graduate texts in mathematics 17 (2008)
 
