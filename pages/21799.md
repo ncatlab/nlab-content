@@ -26,17 +26,28 @@ _Equivariant complex oriented cohomology theory_ is the generalization of [[comp
 
 In generalization of [[topological K-theory]] as the prototypical example of a [[complex oriented cohomology theory]], its generalization to [[equivariant K-theory]] is equivariantly complex oriented. 
 
-It has been conjectured that [[equivariant complex cobordism theory]] is the [universal](equivariant+complex+cobordism+cohomology+theory#universal_property)
-equivariant complex oriented cohomology theory.
+
+## Examples
+
+* [[equivariant complex K-theory]]
+ 
+  ([Greenlees 01, Section 10](#Greenlees01)
+
+
+* [[equivariant complex cobordism theory]] 
+
+  It has been conjectured that this is the [universal](equivariant+complex+cobordism+cohomology+theory#universal_property) [[equivariant complex oriented cohomology theory]] ([Greenlees 01, Section 13](#Greenlees01))
 
 ## Related concepts
+
+* [[equivariant formal group]]
 
 * [[real oriented cohomology theory]]
 
 ## References
 
 
-* [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
+* {#Greenlees01} [[John Greenlees]], _Equivariant formal group laws and complex oriented cohomology theories_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 225-263 ([euclid:hha/1139840255](https://projecteuclid.org/euclid.hha/1139840255))
 
 
 
@@ -50,3 +61,5 @@ See also:
 
 * [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
 Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
+
+[[!redirects equivariant complex oriented cohomology theories]]
