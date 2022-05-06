@@ -96,7 +96,7 @@ The [[object]]s of this category are the points of $X$. A [[morphism]] $x \to y$
 
 The _anti-symmetry_ $(x \leq y \leq x) \Rightarrow (x = y)$ is precisely the absence of closed future-directed curves in $X$.
 
-Conversely, from just knowing $X$ as a smooth manifold and knowing this [[poset]] structure on $X$, one can reeconstruct the **light cone structure** of $(X,\mu)$, i.e. the information about which tangent vectors are timelike, lightlike, etc. 
+Conversely, from just knowing $X$ as a smooth manifold and knowing this [[poset]] structure on $X$, one can reconstruct the **light cone structure** of $(X,\mu)$, i.e. the information about which tangent vectors are timelike, lightlike, etc. 
 
 One can see 
 
