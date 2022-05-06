@@ -30,7 +30,7 @@ This is determined by a [[local minimum]] of the Higgs [[potential energy|potent
 <img src="https://ncatlab.org/nlab/files/HiggsPotentials.png" width="500">
 
 
-Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11b](#Gibbs11b)):
+{#Curiously} Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11b](#Gibbs11b)):
 
 <img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityIII.png" width="700">
 
