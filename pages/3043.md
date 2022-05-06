@@ -184,18 +184,18 @@ $$\array{
 so that
 
 \begin{equation}
-(b_1,k_1)(b_2,k_2) = ([b_1,b_2],\chi(b_1\wedge b_2) +
-        \psi(b_1)(k_2) - \psi(b_2)(k_1) +  [k_1,k_2]).
+[(b_1,k_1),(b_2,k_2)] = \big([b_1,b_2],\chi(b_1\wedge b_2) +
+        \psi(b_1)(k_2) - \psi(b_2)(k_1) +  [k_1,k_2]\big).
 \label{mrulelie}
 \end{equation}
 
 Thus all the information about the commutators is encoded
-in functions $\chi : \mathfrak{n} \wedge \mathfrak{b} \rightarrow Der(\mathfrak{k})$
+in functions $\chi : \mathfrak{b} \wedge \mathfrak{b} \rightarrow Der(\mathfrak{k})$
 and $\psi : \mathfrak{b} \to Der(\mathfrak{k})$,
 without knowledge of $\sigma$.
 
 However, not every pair $(\chi,\psi)$ will
-give some commutation rule on $\mathfrak{b} \times k$ satisfying Jacobi identity, and also some different pairs may lead to the isomorphic extensions. 
+give some commutation rule on $\mathfrak{b} \times \mathfrak{k}$ satisfying the Jacobi identity and some different pairs may lead to the isomorphic extensions. 
 
 In order to satisfy the Jacobi identity, this pair needs to form a nonabelian 2-cocycle in the sense of [[nonabelian Lie algebra cohomology]].
 
