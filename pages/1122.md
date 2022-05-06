@@ -67,6 +67,15 @@ The 2-categories $Cat(S)$ and $Gpd(S)$ of categories and groupoids internal to $
 
 The resulting localization is equivalent to the bicategory of [[anafunctor|anafunctors]] in $S$. For details, see [Roberts (2012)](#Roberts12).
 
+# Example: Grothendieck toposes as a bicategory of fractions of localic groupoids
+
+The category of etale-complete [[localic groupoids]] (with open source and target maps) admits a [[bicategory of fractions]] at open essentially surjective fully faithful functors.
+
+The resulting bicategory is equivalent to the bicategory of [[Grothendieck toposes]], [[geometric morphisms]], and [[natural isomorphisms]].
+
+See Theorem 7.7 in Moerdijk \cite{Moerdijk}.
+
+
 ##Related entries
 
 * [[localization of a 2-category]]
@@ -80,6 +89,9 @@ The resulting localization is equivalent to the bicategory of [[anafunctor|anafu
 * [[étendue]]
 
 ##References
+
+\bibitem{Moerdijk} [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid.  I_,
+Transactions of the American Mathematical Society, Volume 310, Number 2, December 1988.
 
 * O. Abbad, [[Enrico Vitale|E. M. Vitale]], _Faithful Calculus of Fractions_ , Cah. Top. G&#233;om. Diff. Cat&#233;g. **54** No. 3 (2013) pp.221-239. ([preprint](perso.uclouvain.be/enrico.vitale/FrazioniFedeli.pdf))
 
