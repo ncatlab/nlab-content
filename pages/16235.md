@@ -4,6 +4,12 @@
 
 ## Selected writings
 
+Discussion of [[pp-wave spacetimes]] as [[Penrose limits]] of [[anti de Sitter spacetime|AdSp]] [[product manifold|x]] [[n-sphere|S^q]] spacetimes:
+
+* E. Floratos, [[Alex Kehagias]], 
+_Penrose Limits of Orbifolds and Orientifolds_, JHEP 0207 (2002) 031 ([arXiv:hep-th/0203134](https://arxiv.org/abs/hep-th/0203134))
+
+
 On [[Horava-Witten theory]] fopr [[7d supergravity]]:
 
 * {#GherghettaKehagias02} Tony Gherghetta, [[Alex Kehagias]], _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
