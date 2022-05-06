@@ -49,12 +49,9 @@ The following statements are all consequences of SVC (some requiring [[excluded 
 
 ## Models
 
-SVC holds in all "ordinary" [[permutation model|permutation]] and [[symmetric model]]s of (material) [[set theory]], as well as in hereditarily-ordinal-definable and [[constructible universe|relatively-constructible]] submodels.  However, it can fail in permutation models over [[proper classes]].
+SVC holds in all "ordinary" [[permutation model|permutation]] and [[symmetric model]]s of [[classical logic|classical]] (material) [[set theory]], as well as in hereditarily-ordinal-definable and [[constructible universe|relatively-constructible]] submodels.  However, it can fail in permutation models over [[proper classes]].
 
-+--{: .query}
-[[Mike Shulman]]: The above facts make it sound plausible that SVC might hold internally in all [[Grothendieck toposes]] constructed from a base topos satisfying AC, but Makkai claims that it does not (although its consequence, the (local) [[axiom of small cardinality selection]], does).
-=--
-
+When we move to [[constructive mathematics]], however, SVC quickly becomes unreasonable, because in the absence of LEM there are usually very few choice objects.  In particular, [here](https://mathoverflow.net/a/339314/49) Simon Henry argues that any Grothendieck topos satisfying both SVC and $\neg$LEM (i.e. $\neg \forall P, P\vee \neg P$, which holds in many toposes such as $Sh([0,1])$) is trivial.
 
 ## SVC and COSHEP
 
