@@ -955,7 +955,5 @@ Recently [[Nikolai Durov]] rediscovered that notion for the purposes of geometry
 [[!redirects commutative theory]]
 [[!redirects commutative theories]]
 
-[[!redirects commutative monad]]
 [[!redirects commutative algebraic monad]]
-[[!redirects commutative monads]]
 [[!redirects commutative algebraic monads]]
