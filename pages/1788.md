@@ -1,3 +1,70 @@
-[Hello](https://ncatlab.org)
 
-.
+$$
+  \left[
+    \array{
+      1
+      \\
+      0
+    }
+  \right]
+  \otimes
+  \left[
+    \array{
+      0
+      \\
+      1
+    }
+  \right]
+$$
+
+
+$$
+  \left[
+    \array{
+      0
+      \\
+      1
+    }
+  \right]
+  \otimes
+  \left[
+    \array{
+      1
+      \\
+      0
+    }
+  \right]
+  \;+\;
+  \left[
+    \array{
+      0
+      \\
+      i
+    }
+  \right]
+  \otimes
+  \left[
+    \array{
+      -i
+      \\
+      0
+    }
+  \right]
+  \;+\;
+  \left[
+    \array{
+      1
+      \\
+      0
+    }
+  \right]
+  \otimes
+  \left[
+    \array{
+      0
+      \\
+      -1
+    }
+  \right]
+$$
+
