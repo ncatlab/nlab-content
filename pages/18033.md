@@ -62,18 +62,19 @@ For [[superconformal field theory]], such as [[D=4 N=1 SYM]], [[D=4 N=2 SYM]], [
 
 ### In AdS/CFT
 
-Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a precise and detailed construction of [[large-N limit|large-N]] and [[asymptotic boundary|asymptotically]] [[anti-de Sitter spacetime|AdS]] [[string theory]]/[[M-theory]]:
+Discussion of [[superconformal bootstrap]] in view of [[AdS/CFT]], hence as a precise and detailed construction of [[large-N limit|large-N]] but also [[large 1/N limit|small N]]
+and [[asymptotic boundary|asymptotically]] [[anti-de Sitter spacetime|AdS]] [[string theory]]/[[M-theory]]:
 
 [[KK-compactification|extra dimensions]]:
 
 * [[Luis Alday]], [[Eric Perlmutter]], _Growing Extra Dimensions in AdS/CFT_ ([arXiv1906.01477](https://arxiv.org/abs/1906.01477))
 
-[[string scattering amplitudes]] ;
+[[string scattering amplitudes]] :
 
 * {#ABP18} [[Luis Alday]], [[Agnese Bissi]], [[Eric Perlmutter]], _Genus-One String Amplitudes from Conformal Field Theory_, JHEP06(2019) 010 ([arXiv:1809.10670](https://arxiv.org/abs/1809.10670))
 
 
-Discussion of [[large N limit|small N]] effects in [[M-theory]] [[AdS4/CFT3]] using the [[conformal bootstrap]]:
+Discussion of [[large 1/N limit|small N]] effects in [[M-theory]] [[AdS4/CFT3]] using the [[conformal bootstrap]]:
 
 * Nathan B. Agmon, Shai M. Chester, Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
 
