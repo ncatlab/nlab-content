@@ -19,6 +19,12 @@ This theory pursues the surprising analogies between 3-dimensional topology and 
 
 * Frauke M. Bleher, Ted Chinburg, Ralph Greenberg, Mahesh Kakde, George Pappas, Martin J. Taylor, _Unramified arithmetic Chern-Simons invariants_, ([arXiv:1705.07110](https://arxiv.org/abs/1705.07110))
 
+* Hee-Joong Chung, Dohyeong Kim, Minhyong Kim, George Pappas, Jeehoon Park, Hwajong Yoo, _Abelian arithmetic Chern-Simons theory and arithmetic linking numbers_, ([arXiv:1706.03336](https://arxiv.org/abs/1706.03336))
+
+* Hikaru Hirano, _On mod 2 arithmetic Dijkgraaf-Witten invariants for certain real quadratic number fields_, ([arXiv:1911.12964](https://arxiv.org/abs/1911.12964))
+
+* Jungin Lee, Jeehoon Park, _Arithmetic Chern-Simons theory with real places_, ([arXiv:1905.13610](https://arxiv.org/abs/1905.13610))
+
 For an introductory talk see 
 
 * [[Minhyong Kim]], _Arithmetic topological quantum field theory?_, ([slides](https://simonsfoundation.s3.amazonaws.com/share/mps/conferences/2017_Conference_on_Number_Theory_Geometry_Moonshine_and_Strings/Kim.pdf))
