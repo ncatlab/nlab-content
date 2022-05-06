@@ -164,7 +164,7 @@ which views probability measures via double dualization, restricted to weakly av
 
 That article includes some corrections from an earlier version of the article, pointed out in
 
-* T. Avery, _Codensity and the Giry monad_, arXiv:1410.4432 (2014). ([pdf](http://arxiv.org/pdf/1410.4432.pdf))
+* T. Avery, _Codensity and the Giry monad_, arXiv:[1410.4432](http://arxiv.org/abs/1410.4432) (2014).
 
 Apart from these papers, there are similar developments in
 
@@ -172,7 +172,7 @@ Apart from these papers, there are similar developments in
 
 * {#Doberkat03} [[Ernst-Erich Doberkat]], _Characterizing the Eilenberg-Moore algebras for a monad of stochastic relations_ ([pdf](https://eldorado.tu-dortmund.de/bitstream/2003/2717/1/147.pdf)) 
 
-* [[Ernst-Erich Doberkat]], _Kleisli morphisms and randomized congruences_ 
+* [[Ernst-Erich Doberkat]], _Kleisli morphisms and randomized congruences_, Journal of Pure and Applied Algebra Volume 211, Issue 3, December 2007, Pages 638-664 <https://doi.org/10.1016/j.jpaa.2007.03.003>
 
 
 * N. N. Cencov, _Statistical decisions rules and optimal Inference_, Translations of Math. Monographs __53__, Amer. Math. Society 1982
@@ -181,14 +181,14 @@ Apart from these papers, there are similar developments in
 
 * category cafe related to Giry monad: [category theoretic probability](http://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability.html), [coalgebraic modal logic](http://golem.ph.utexas.edu/category/2009/09/coalgebraic_modal_logic.html) 
 
-* Samson Abramsky et al. _Nuclear and trace ideals in tensored &#8727;-Categories_,[arxiv/math/9805102](http://arxiv.org/abs/math/9805102), on the representation of probability theory through monads, which looks to work Giry's monad into a context even more closely resembling the category of relations. 
+* Samson Abramsky et al. _Nuclear and trace ideals in tensored &#8727;-Categories_,[arxiv:math/9805102](http://arxiv.org/abs/math/9805102), on the representation of probability theory through monads, which looks to work Giry's monad into a context even more closely resembling the category of relations. 
 
 There is also relation with work of Jacobs et al. 
 
-* Robert Furber, [[Bart Jacobs]], _Towards a categorical account of conditional probability_, [arxiv/1306.0831](http://arxiv.org/abs/1306.0831)
+* Robert Furber, [[Bart Jacobs]], _Towards a categorical account of conditional probability_, [arxiv:1306.0831](http://arxiv.org/abs/1306.0831)
 
 * [[Bart Jacobs]], _Probabilities, distribution monads and convex categories_, Theoretical
-Computer Science 412(28) (2011) pp.3323&#8211;3336. ([preprint](http://www.cs.ru.nl/B.Jacobs/PAPERS/triangle.pdf))
+Computer Science 412(28) (2011) pp.3323&#8211;3336. <https://doi.org/10.1016/j.tcs.2011.04.005>, ([preprint](http://www.cs.ru.nl/B.Jacobs/PAPERS/triangle.pdf))
 
 J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to [[Bayesian reasoning]] and inference (both articles contain further references to the categorical approach to probability theory):
 
@@ -199,14 +199,14 @@ J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to 
 
 [[Elisabeth Burroni]] discusses the Giry monad in:
 
-* {#Burroni09}[[Elisabeth Burroni]], _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([pdf](http://www.tac.mta.ca/tac/volumes/22/7/22-07.pdf))
+* {#Burroni09}[[Elisabeth Burroni]], _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([journal page](http://www.tac.mta.ca/tac/volumes/22/7/22-07abs.html))
 
 where she derives stochastic [[automata]] as algebras for a suitable [[distributive law]]
  on the monoid and Giry monads. 
 
 B. Fong has a section on the Giry monad in his paper on Bayesian networks:
 
-* Fong: _Causal Theories - A Categorical Perspective on Bayesian Networks_, arXiv1301.6201 (2013) [pdf](http://arxiv.org/abs/1301.6201)
+* Fong: _Causal Theories - A Categorical Perspective on Bayesian Networks_, (2013) arXiv:[1301.6201](http://arxiv.org/abs/1301.6201)
 
 To do:
 
