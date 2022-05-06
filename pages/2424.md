@@ -30,8 +30,7 @@ In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html),
 
 \linebreak
 
-In interview with Graham Farmelo, ["The Universe Speaks in Numbers", interview 5](https://grahamfarmelo.com/the-universe
--speaks-in-numbers-interview-5) (2019):
+In interview with Graham Farmelo, ["The Universe Speaks in Numbers", interview 5](https://grahamfarmelo.com/the-universe-speaks-in-numbers-interview-5) (2019):
 
 > I actually believe that string / M-theory is on  the right track toward a deeper explanation.  But at a very fundamental level it’s not well  understood. And I’m not even confident that  we have a good concept of what sort of thing is  missing or where to find it.
 
