@@ -54,6 +54,10 @@ But piecewise flat spacetimes also appear naturally as the "[[far-horizon geomet
 
 * {#Cheeger16} [[Jeff Cheeger]], _Curvature of piecewise flat spaces_, talk at Courant institute 2016 ([pdf](https://www.ethz.ch/content/dam/ethz/special-interest/phys/theoretical-physics/itp-dam/documents/graf/schrader/Cheeger.pdf), [[Cheeger2016.pdf:file]])
 
+* Aleksandar Mikovic, _Piecewise Flat Metrics and Quantum Gravity_ ([arXiv:2001.11439](https://arxiv.org/abs/2001.11439))
+
+
+
 See also
 
 * Wikipedia, _[Regge calculus](https://en.wikipedia.org/wiki/Regge_calculus)_
