@@ -2699,6 +2699,10 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
 * [[twisted differential K-theory]]
 
+* [[equivariant K-theory]], [[orbifold K-theory]]
+
+* [[equivariant differential K-theory]], [[orbifold differential K-theory]]
+
 * [[semi-topological K-theory]]
 
 * [[algebraic K-theory]]
