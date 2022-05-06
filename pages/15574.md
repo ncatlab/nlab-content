@@ -280,7 +280,7 @@ For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
 
 We discuss Aufhebung of [[becoming]] in the above sense in [[cohesive toposes]] ([[cohesive (∞,1)-toposes]]) with a [[cohesive site]] ([[∞-cohesive site]]) of definition.
 
-(More general discussion is now also in [Lawvere-Menni 15, lemma 4.1, 4.2](#LawvereMenni15), see at [pieces-to-points-transform -- Relation to Aufhebung](points-to-pieces+transform#RelationToAufhebung)).
+(More general discussion is now also in [Lawvere-Menni 15, lemma 4.1, 4.2](#LawvereMenni15), [Shulman 15, section 3](#Shulman15), see at [pieces-to-points-transform -- Relation to Aufhebung](points-to-pieces+transform#RelationToAufhebung)).
 
 +-- {: .num_prop #AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}
 ###### Proposition
@@ -632,6 +632,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#Law13} [[F. W. Lawvere]], *Combinatorial Topology*, message to catlist November 2013. ([link](http://comments.gmane.org/gmane.science.mathematics.categories/7920))
 
 * {#LawvereMenni15} [[F. W. Lawvere]], [[Matías Menni|M. Menni]], *Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness*, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+
+* {#Shulman15} [[Mike Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 * {#LW11}[[Rory Lucyshyn-Wright|R. Lucyshyn-Wright]], *Totally Distributive Toposes*, arXiv.1108.4032 (2011). ([pdf](http://arxiv.org/pdf/1108.4032v3))
 
