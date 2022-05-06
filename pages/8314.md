@@ -45,6 +45,8 @@ Dedicated entries exist for:
 
 * [[cyclic group of order 2]]
 
+* [[cyclic group of order 3]]
+
 * [[cyclic group of order 4]]
 
 
