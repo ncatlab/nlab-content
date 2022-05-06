@@ -44,13 +44,16 @@ We present only the combinatorial definition here, starting from _rooted_ chord 
 (For topological definitions of both unrooted and rooted chord diagrams, see for example Chapter 6 of [Lando and Zvonkin]({#LandoZvonkin}), or Definition 1.5 of [Bar-Natan 1995](#Bar-Natan1995) for the unrooted case.)
 
 
-### Rooted chord diagrams
+### A combinatorial definition
+
+**Rooted chord diagrams**
 
 If we would label the points of a chord diagram,
 <center>
 [[!include chord diagram > chord diagram]]
 </center>
 then the chords can be seen as describing a matching (or equivalently, an [[involution]]) on the set of marked points which pairs (or equivalently, _swaps_) $A$ with $C$, $B$ with $D$, and $E$ with $F$.
+
 
 
 A subtle point is that a chord diagram can have non-trivial [[symmetries]] when considered up to this action of rotation.
@@ -81,7 +84,7 @@ Equivalently, a rooted chord diagram of order $n$ is a way of arranging the elem
 
 Equivalently, a rooted chord diagram of order $n$ is a [[shuffle]] of $n$ distinct 2-letter words $\bar x x$, $\bar y y$, $\bar z z$, etc., considered up to [[alpha-conversion]]. Under this view, rooted chord diagrams are also sometimes referred to as **double-occurrence words**. (For example, the rooted chord diagram in the illustration above can be encoded as the double-occurrence word $\bar x \bar y x y \bar z z$.)
 
-### Unrooted chord diagrams
+**Unrooted chord diagrams**
 
 Intuitively, the [[cyclic group]] $C_{2n}$ acts on rooted chord diagrams
 $$
@@ -102,6 +105,45 @@ and this extends to an action on rooted chord diagrams by acting independently o
 An **unrooted chord diagram** of order $n$ is a rooted chord diagram of order $n$, considered up to the action of $\tau_n$.
 
 =--
+
+### 4T relation and weight systems
+ {#4TRelationAndWeightSystems}
+
+Often one is interested in chord diagrams only modulo the [[4T relation]]:
+
+For $R \in $ [[CRing]] a [[commutative ring]], let $R\langle \mathcal{D}^c \rangle$ denote the $R$-[[linear span]] of the [[set]] $\mathcal{D}^c$ of [[chord diagrams]]. 
+
+Then one traditionally writes
+
+\[
+  \label{QuotientSpaceBy4T}
+  \mathcal{A}^c 
+    \;\coloneqq\;
+  R\langle \mathcal{D}^c \rangle/4T 
+\]
+
+for the [[quotient spaces]] of the [[linear span]] of [[chord diagrams]] by the [[4T relations]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/4TRelationsForRoundChordDiagrams.jpg" width="220">
+</center>
+
+Hence:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/ChordDiagramsModulo4TRelations.jpg" width="800">
+</center>
+
+A [[linear function]]
+
+$$
+  w \;\colon\; \mathcal{A}^c \longrightarrow R
+  \,,
+$$
+
+-- hence a plain $R$-valued [[function]] on the [[set]] $\mathcal{D}^c$ of [[chord diagrams]] which is [[invariant]] under the [[4T relation]] --
+
+is called a _[[framed weight system]]_. See there for more.
 
 ### Trace from horizontal chord diagrams
  {#TraceFromHorizontalChordDiagrams}
