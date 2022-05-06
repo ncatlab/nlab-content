@@ -30,6 +30,8 @@ $$
 $$
 since $X^*1$ is constant. Alternatively, we can use the fact that the integral of $X\vert f\vert$ along all the lines with the same direction equals $\left\Vert f\right\Vert_1$, which also implies that $X:L^1(\mathbb{R}^n)\to L^1(M_n)$. Any other bound of the X-ray transform can be interpolated with this bound to get further inequalities.
 
+Besides $L^p$-spaces, we need to consider spaces of regular functions.
+
  +-- {: .num_defn #SobolevSlobodeckij}
 ###### Definition
 **([[Sobolev space]])
@@ -38,7 +40,7 @@ Let $\varphi$ be a smooth function with Fourier transform supported in $\vert\xi
 $$
 1 = \sum_{k\ge 0}\varphi_k,
 $$
-where $\varphi_0 := \tilde{\varphi}$ and $\varphi_k(x) := \varphi(x/2^k)$, for $k\ge 1$. Let $P_k$ be the projection $(P_k f)^\wedge := \varphi_k \hat{f}$. 
+where $\varphi_0 := \tilde{\varphi}$ and $\varphi_k(\xi) := \varphi(\xi/2^k)$, for $k\ge 1$. Let $P_k$ be the projection $(P_k f)^\wedge := \varphi_k \hat{f}$. 
 
 The Sobolev-Slobodeckij spaces $W^{s,p}(\mathbb{R}^n)$ are, for $1\lt p\lt \infty$ and $-\infty\lt s\lt \infty$, defined as
 $$
@@ -46,7 +48,7 @@ $$
 $$
 and
 $$
-\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{\vert\alpha\vert\le s}\Vert D^\alpha f\Vert_{L^p(\mathbb{R}^n)}^p\Big]^\frac{1}{p} \quad if s = integer.
+\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{\vert\alpha\vert\le s}\Vert \partial^\alpha f\Vert_{L^p(\mathbb{R}^n)}^p\Big]^\frac{1}{p} \quad if s = integer.
 $$
 See ([Triebel 1978, Sec. 2.3.1](#triebel1978)).
 
@@ -95,7 +97,7 @@ In general, the $W^{s,p}$-norm of $\varphi_k*f$ is
 $$
 \Vert f\Vert_{W^{s,p}}\le C2^{-ks}\Vert f\Vert_p;
 $$
-see Lemma below. Hence,
+see Lemma \ref{LemmSobolevConv} below. Hence,
 $$
 1\le C\sum_{2^k\le\delta} \Vert \varphi_k*1_{A_k}\Vert_{W^{s,p}} \le C\sum_{2^k\le\delta}2^{-ks+\frac{nk}{p}}\vert \mathcal{C}_k\vert^\frac{1}{p}
 $$
@@ -106,7 +108,45 @@ $$
 1 \le \Big(\sum_{2^k\le\delta} 2^{p'k(\frac{n-d}{p}-s)}\Big)^\frac{1}{p'}\Big(\sum_k 2^{kd}\vert\mathcal{C}_k\vert\Big)^\frac{1}{p} \le C\delta^\alpha\Big(\sum_{Q_k\in\mathcal{C}}l(Q_k)^d\Big)^\frac{1}{p},
 $$
 where $\alpha = \frac{n-d}{p}-s\gt 0$. The statement of the Theorem follows. 
+=--
 
++-- {: .num_lemma #LemmSobolevConv}
+###### Lemma
+
+If $\psi$ is a smooth function and $\psi_l(x) := 2^{nl}\psi(2^l x)$, for $l\ge 0$, then
+$$
+\label{LemmSobolevConv}
+\Vert \psi_l*f\Vert_{W^{s,p}(\mathbb{R}^n)}\le C2^{ls}\Vert f\Vert_p,
+$$
+where $C$ depends on $\psi$.
+=--
+
++-- {: .proof}
+###### Proof
+
+If $s$ is an integer, then (eq:LemmSobolevConv) follows from $\partial^\alpha(\psi_l*f) = (\partial^\alpha \psi_l)*f$ and Young Inequality for convolutions. 
+
+If $s\neq$ integer, then we have to estimate the norm of $P_k f$; recall that $(P_k f)^\wedge := \varphi_k \hat{f}$, where $\varphi_k(\xi) := \varphi(\xi/2^k)$. If $k\le l$ then by Young Inequality for convolutions
+$$
+\Vert P_k(\psi_l*f)\Vert_p \le \Vert \check{\varphi}_k\Vert_1\Vert \psi_l\Vert_1\Vert f\Vert_p \le C\Vert f\Vert_p.
+$$
+If $k\gt l$ then fix a number $2N\gt s$. We estimate the norm as $P_k f$ as
+$$
+\Vert P_k(\psi_l*f)\Vert_p \le \Vert (\vert \xi\vert^{-2N}\varphi_k)^\vee\Vert_1 \Vert \Delta^N(\psi_l*f)\Vert_p.
+$$ 
+As before we get $\Vert \Delta^N (\psi_l*f)\Vert_p\le C2^{2Nl}\Vert f\Vert_p$. For the other term, since $(\vert \xi\vert^{-2N}\varphi_k)^\vee(x) = 2^{(n-2N)k}(\vert \xi\vert^{-2N}\varphi)^\vee(2^k x)$ then we get
+$$
+\Vert (\vert \xi\vert^{-2N}\varphi_k)^\vee\Vert_1 = 2^{-k2N}\Vert (\vert \xi\vert^{-2N}\varphi)^\vee\Vert_1;
+$$
+we conclude so that $\Vert P_k(\psi_l*f)\Vert_p \le C2^{2N(l-k)}\Vert f\Vert_p$. Therefore, the $W^{s,p}$-norm of $\psi_l*f$ is 
+$$
+\begin{aligned}
+\Vert \psi_l*f\Vert_{W^{s,p}(\mathbb{R}^n)}^p &\le \sum_{0\le k\le l}2^{pks}\Vert P_k(\psi_l*f)\Vert_p^p + \sum_{k\gt l}2^{pks}\Vert P_k(\psi_l*f)\Vert_p^p \\
+&\le C\Big(\sum_{0\le k \le l}2^{pks} + 2^{p2Nl}\sum_{k\gt l}2^{p(s-2N)k}\Big)\Vert f\Vert_p^p \\
+&= C2^{psl}\Vert f\Vert_p^p,
+\end{aligned}
+$$
+which concludes the proof.
 =--
 
 For a fixed direction $\sigma$, the X-ray transform maps $f$ to a function $x\mapsto Xf(x,\sigma)$ in $\mathbb{R}^{n-1}$. The function $Xf(\cdot,\sigma)$ turns out to be more regular than $f$. 
