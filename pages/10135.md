@@ -51,7 +51,7 @@ for a given $G$-[[action]] on some [[manifold]] $X$, should coincide with the $G
   \,.
 \]
 
-(This issue was maybe first highlighted in [Pronk-Scull 07](#PronkScull07)).
+(This issue was maybe first highlighted in [Pronk-Scull 07, p. 1](#PronkScull07)).
 
 This means that if one is to regard orbifold cohomology as a variant of [[Bredon cohomology|Bredon]] [[equivariant cohomology]], then one needs to work "globally" with respect to choices of [[isotropy groups]], in the sense of _[[global equivariant homotopy theory]]_, where one considers equivariance with respect to "all [[compact Lie groups]] at once", in a suitable sense. (This point is highlighted for instance in [Schwede 18, p. ix-x](#Schwede18).)
 
@@ -84,7 +84,8 @@ By the general discussion at _[[âˆž-action]]_ any such morphism exhibits an [[âˆ
 
 But that [[homotopy fiber]] is directly computed to be 
 
-$$
+\[
+  \label{HomotopyFiberOfGlobalQuotientExhibitedAsOrbifold}
   \begin{aligned}
     hofib(\rho) 
       & \simeq  
@@ -92,7 +93,7 @@ $$
       \times_{\mathbf{B}G_{glob}} 
     \big( \mathbf{B}G_{glob} \big)^{\Delta[1]} 
       \times_{\mathbf{B}G_{glob}} 
-    \mathbf{B}G  
+    \left( X \sslash G\right)
     \\
     & \simeq \big( X \times G_{glob} \big) / G
     \\
@@ -100,7 +101,21 @@ $$
     X \times_G G_{glob}
     \,,
   \end{aligned}
-$$
+  \;\;\;\;\;
+  \left\{
+  \;\;\;
+  \array{
+    && \ast
+    \\
+    & {}^{\mathllap{g_{glob}}}\swarrow && \searrow^{\mathrlap{ g_{glob} \cdot g }}
+    \\
+    \ast && \underset{ g }{\longrightarrow} && \ast
+    \\
+    x && \underset{g}{\longrightarrow} &&  g(x)
+  }
+  \;\;\;
+  \right\}
+\]
 
 where in the first step we used the [[factorization lemma]], and the remaining steps follow by direct inspection. Plugging this back into (eq:GlobalHomotopyFiberOfOrbifold) yields the equivalence (eq:EquivalenceOfOrbifolds) for $G \hookrightarrow K \coloneqq G_{glob}$. 
 
@@ -237,11 +252,13 @@ The same lecture also introduced _[[motivic integration]]_.
  
 Discussion of orbifold cohomology in the context of [[Bredon cohomology|Bredon]]/[[global equivariant homotopy theory|global]] [[equivariant cohomology]] includes
 
-* {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], _Translation Groupoids and Orbifold Bredon Cohomology_ ([arXiv:0705.3249](https://arxiv.org/abs/0705.3249))
+* {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. 62(2010), 614-645 ([arXiv:0705.3249](https://arxiv.org/abs/0705.3249), [doi:10.4153/CJM-2010-024-1](https://doi.org/10.4153/CJM-2010-024-1))
+
 
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
-* {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_ ([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
+* {#Schwede18} [[Stefan Schwede]], _[[Global homotopy theory]]_, New Mathematical Monographs, 34 Cambridge University Press, 2018
+([arXiv:1802.09382](https://arxiv.org/abs/1802.09382))
 
 related to results of
 
