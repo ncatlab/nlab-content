@@ -94,7 +94,7 @@ $\theta$ is not only a continuous bijection, but also open, hence a [[homeomorph
 
 There is also a version for based (= [[pointed space|pointed]]) topological spaces. The [[cartesian product]] then needs to be replace by the [[smash product]] of the based spaces. Regarding that the maps preserve the base point, the adjunction map $\theta$ induces the adjunction map
 
- $$\theta_*:Map_*(X\wedge Y,B)\to Map_*(Y,Map_*(B, X))$$
+ $$\theta_*:Map_*(X\wedge Y,B)\to Map_*(Y,Map_*(X, B))$$
 
 where the mapping space $Map_*$ for based spaces is the subspace of the usual mapping space, in the compact-open topology, which consists of the mappings preserving the base point. 
 
