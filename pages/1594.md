@@ -83,6 +83,10 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Related concepts
 
+* [[étale groupoid]], [[differentiable stack]]
+
+* [[orbispace]], [[topological stack]]
+
 * [[Riemannian orbifold]]
 
   * [[flat orbifold]]
@@ -101,9 +105,9 @@ It has been noticed that the topological invariants of the underlying topologica
 
 * [[orbifold Euler characteristic]]
 
-Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]]. See also at _[[geometric invariant theory]]_ and _[[GIT-stable point]]_.
+* [[orbifold K-theory]], [[orbifold differential K-theory]]
 
-If the finiteness condition is dropped one also speaks of _[[orbispaces]] and generally of [[stacks]].
+Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are in [[algebraic geometry]]. See also at _[[geometric invariant theory]]_ and _[[GIT-stable point]]_.
 
 Orbifolds may be regarded as a kind of _[[stratified spaces]]_.
 
