@@ -1011,16 +1011,16 @@ Alternatively one can explore the situation for [[contravariant functors]] on th
 
 The assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms" is in
 
-* [[Nils Bohr]]  _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
+* {#Bohr49} [[Nils Bohr]],  _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
 
 > _however far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms_ . 
 
 [[Niels Bohr]]'s views on quantum mechanics that give the construction of _Bohrification_ its name are reviewed further in
 
-* Erhard Scheibe, _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
-{#Scheibe}
+* {#Scheibe} Erhard Scheibe, _The logical analysis of quantum mechanics_ . Oxford: Pergamon Press, 1973.
 
-For more see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standpoint](http://ncatlab.org/nlab/show/interpretation+of+quantum+mechanics#BohrStandpoint)_.
+
+For more see at _[[interpretation of quantum mechanics]]_ the section _[Bohr's standpoint](interpretation+of+quantum+mechanics#BohrStandpoint)_.
 
 Maybe the first article to propose to use [[intuitionistic logic]]/[[topos theory]] for the description of quantum physics is
 
