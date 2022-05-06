@@ -283,7 +283,7 @@ Discussion from the point of view of [[E11]]-[[U-duality]] and [[current algebra
 
 * [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in E11 Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
 
-### Dyonic membranes
+### M2-M5 bound states
  {#ReferencesDyonic}
 
 [[dyon|dyonic]]$\,$[[black brane|black]] [[M2-branes]] ([[M5-branes]] [[wrapped brane|wrapped]] on a [[3-manifold]], see also at _[NS5-branes -- D2/D4/NS5-bound states](NS5-brane#ReferencesNS5D4D2BoundStates)_):
@@ -294,6 +294,9 @@ Discussion from the point of view of [[E11]]-[[U-duality]] and [[current algebra
 
 * {#Petri18} Nicolò Petri, slide 14 of _Surface defects in massive IIA_, talk at [Recent Trends in String Theory and Related Topics](http://physics.ipm.ac.ir/conferences/stringtheory3/) 2018 ([pdf](http://physics.ipm.ac.ir/conferences/stringtheory3/note/N.Petri.pdf))
 
+Further [[bound states]] of M2/[[M5-branes]] to [[giant gravitons]]:
+
+* J. M. Camino, A. V. Ramallo, _M-Theory Giant Gravitons with C field_, Phys.Lett.B525:337-346,2002 ([arXiv:hep-th/0110096](https://arxiv.org/abs/hep-th/0110096))
 
 
 [[!redirects M2-branes]]
