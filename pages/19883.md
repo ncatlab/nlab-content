@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
+* [[stable splitting of mapping spaces]]
+
 * [[configuration space (mathematics)]]
 
 * [[Goodwillie calculus]]
