@@ -17,13 +17,18 @@ From [Compositionality 16](#Comp16):
 * [[Montague semantics]]
 * [[categorical compositional distributional semantics]]
 
-## References ##
+## Activities
 
 * {#Comp16} _Compositionality_, [workshop](https://simons.berkeley.edu/workshops/logic2016-3) hosted at UC Berkeley in 2016. 
 
 * _Compositionality_  is also the name of a [journal](http://www.compositionality-journal.org/) whose aim is to publish papers in this area.
 
-* [SEP: compositionality](https://plato.stanford.edu/entries/compositionality/)
+## References
+
+
+* SEP, _[compositionality](https://plato.stanford.edu/entries/compositionality/)_
+
+
 
 [[!redirects Compositionality]]
 [[!redirects Frege's principle]]
