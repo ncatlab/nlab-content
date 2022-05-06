@@ -99,6 +99,9 @@ Work conducted in homotopy type theory:
 
 * [Martín Hötzel Escardó](https://www.cs.bham.ac.uk/~mhe/), _Compact, totally separated and well-ordered types in univalent mathematics_, ([abstract at the author's web page](https://www.cs.bham.ac.uk/~mhe/papers/compact-ordinals-Types-2019-abstract.pdf), also available at the [Types 2019 Book of Abstracts](https://eutypes.cs.ru.nl/eutypes_pmwiki/uploads/Main/books-of-abstracts-TYPES2019.pdf))
 
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Daniel Grayson]], [[Michael Shulman]], _Construction of the Circle in UniMath_, ([arXiv:1910.01856](https://arxiv.org/abs/1910.01856))
+
+
 ### Modal homotopy type theory
 
 Work which uses [[modal homotopy type theory]], with, for example,  [[modalities]] for [[cohesion]], [[differential cohesion]] and [[supergeometry]]:
