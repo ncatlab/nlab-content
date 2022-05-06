@@ -3,6 +3,7 @@
 {:toc}
 
 
+
 ## Idea
 
 Hilbert schemes are [[moduli space|moduli spaces]] of subvarieties, hence [[configuration space (mathematics)|configuration spaces]] in [[algebraic geometry]].
@@ -21,6 +22,10 @@ The Hilbert scheme of $\mathbb{C}^2$ is widely studied in combinatorics and geom
 ### General
 
 * J. Bertin, _The punctual Hilbert scheme: An introduction_ ([pdf](https://www-fourier.ujf-grenoble.fr/sites/ifmaquette.ujf-grenoble.fr/files/bertin_rev.pdf))
+
+* [[Hiraku Nakajima]], _Lectures on Hilbert schemes of points on surfaces_, University Lecture Series, vol. 18, American Mathematical Society, Providence, RI, 1999 ([ams:ulect-18](https://bookstore.ams.org/ulect-18))
+
+* [[Hiraku Nakajima]], _More lectures on Hilbert schemes of points on surfaces_, Advanced Studies in Pure Mathematics 69, 2016, Development of Moduli Theory -- Kyoto 2013, 173-205 ([arXiv:1401.6782](https://arxiv.org/abs/1401.6782))
 
 
 
@@ -72,6 +77,21 @@ Discussion of the [[Hilbert scheme of points]] on [[K3-surfaces]] with an eye to
 
 
 * [[Justin Sawon]], Section 5.3 of: _Rozansky-Witten invariants of hyperkähler manifold_, Cambridge 2000 ([arXiv:math/0404360](https://arxiv.org/abs/math/0404360))
+
+#### Hilbert schemes as Coulomb branches
+
+Relation to [[Coulomb branches]]:
+
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Line bundles over Coulomb branches_ ([arXiv:1805.11826](https://arxiv.org/abs/1805.11826))
+
+
+
+* [[Ben Webster]], _Coherent sheaves on Hilbert schemes through the Coulomb lens_, 2018 ([[WebsterHilbertScheme18.pdf:file]])
+
+
+
+
+
 
 
 [[!redirects Hilbert schemes]]
