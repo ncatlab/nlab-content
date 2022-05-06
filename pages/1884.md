@@ -2720,11 +2720,11 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
 The "ring of complex vector bundles" $K(X)$ was introduced in
 
-* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Riemann-Roch theorems for differentiable manifolds_, Bull.  Amer. Math Soc. vol. 65 (1959) pp. 276-281.
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Riemann-Roch theorems for differentiable manifolds_, Bull.  Amer. Math Soc. vol. 65 (1959) pp. 276-281 ([euclid:bams/1183523205](https://projecteuclid.org/euclid.bams/1183523205))
 
 and shown to give a [[generalized (Eilenberg-Steenrod) cohomology]] theory in
 
-* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. (<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
 Representable K-theory over non-compact spaces was considered in
 
