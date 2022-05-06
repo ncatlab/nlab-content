@@ -4580,6 +4580,8 @@ For details see [there](cosmological+constant#InPerturbativeQuantumGravity).
 
 * [[renormalization scheme]]
 
+* [[field-strength renormalization]]
+
 * [[renormalon]]
 
 * [[regularization (physics)]]
