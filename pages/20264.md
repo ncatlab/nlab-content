@@ -95,9 +95,9 @@ Lecure notes in a more general context of [[string phenomenology]] include
 
 * {#Wijhnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://static.ias.edu/pitp/2014/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://static.ias.edu/pitp/2014/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://static.ias.edu/pitp/2014/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
-Discussion of generalized Calabi-Yau backgrounds is for instance in 
+Discussion of [[generalized Calabi-Yau manifold]] backgrounds is for instance in 
 
-* {#GMPT} [[Mariana Graña]], Ruben Minasian, Michela Petrini, Alessandro Tomasiello, _Generalized structures of $N=1$ vacua_ ([arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212))
+* {#GMPT} [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of $N=1$ vacua_ ([arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212))
 
 Discussion of [[duality in string theory|duality]] with [[M-theory on G2-manifolds]]:
 
