@@ -30,7 +30,7 @@ An [open] **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq 
 
 * $E_C = \bigcup \{ U\times U \mid U\in C \}$, and $C[A] = E_C[A]$.
 
-* For $A \in Op(X)$, we write $C[A] = E_C[A]$ (see above definition).  If $A$ is overt (such as if $X$ is overt, such as if [[excluded middle]] holds), this is equivalent to $\bigcup \{ B \in C \;|\; A \cap B$ is [[positive element|positive]] $}$.
+* For $A \in Op(X)$, we write $C[A] = E_C[A]$ (see above definition).  If $A$ is overt (such as if $X$ is overt, such as if [[excluded middle]] holds), this is equivalent to $\bigcup \{ B \in C \;|\; A \cap B \text{ is positive } \}$, where positive is in the sense of [[positive element]].
 
 * $C^* \coloneqq \{ C[A] \;|\; A \in C\}$.
 
@@ -79,8 +79,6 @@ A constructive and predicative theory in the programme of [[formal topology]] ca
 * [[Giovanni Curi]]; On the collection of points of a formal space; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146.
 
 * [[Giovanni Curi]]; Constructive metrisability in point-free topology; Theoretical Computer Science 305 (2003) 1--3, 85--109.
-
-But we have not read these yet.
 
 
 [[!redirects uniform locale]]
