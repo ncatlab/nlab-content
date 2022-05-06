@@ -584,7 +584,7 @@ and possibly with the $\mathbb{Z}_2$-quotient not made explicit:
 
 * [[Peter Goddard]] (auth.), [[Peter Freund]], K. T. Mahanthappa, p. 128 of _Superstrings_, NATO ASI Series 175, Springer 1988
 
-* Kazuo Hosomichi, Sangmin Lee, Sungjay Lee, Jaemo Park, slide 13 of _New  Superconformal Chern-Simons Theories_ ([pdf](http://www3.ic.ac.uk/pls/portallive/docs/1/46083696.PDF))
+* Kazuo Hosomichi, Sangmin Lee, Sungjay Lee, [[Jaemo Park]], slide 13 of _New  Superconformal Chern-Simons Theories_ ([pdf](http://www3.ic.ac.uk/pls/portallive/docs/1/46083696.PDF))
 
 [[!redirects Sp(2).Sp(1)]]
 [[!redirects Spin(5).Spin(3)]]
