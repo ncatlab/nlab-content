@@ -18,14 +18,14 @@
 _Adjoint functor theorems_ are theorems stating that under certain conditions a [[functor]] that preserves [[limit]]s is a [[right adjoint]], and that a functor that preserves [[colimit]]s is a [[left adjoint]].
 
 
-A basic result of [[category theory]] is that right [[adjoint functor]]s preserve all [[limit]]s that exist in their domain, and, dually, left adjoints preserve all [[colimit]]s.  An _adjoint functor theorem_ is a statement that (under certain conditions) the converse holds: a functor which preserves limits is a right adjoint.
+A basic result of [[category theory]] is that right [[adjoint functors]] [[preserved limit|preserve]] all [[limits]] that exist in their [[domain]], and, dually, left adjoints preserve all [[colimits]].  An _adjoint functor theorem_ is a statement that (under certain conditions) the converse holds: a functor which preserves limits is a right adjoint.
 
 
-The basic idea of an adjoint functor theorem is that _if_ we could assume that a [[large category]] $D$ had all [[limit]]s over [[small category|small]] and [[large category|large]] [[diagram]]s, then for $R : D \to C$ a [[functor]] that preserves all these limits we might define its would-be left adjoint $L$ by  taking  $L c$ to be the limit
+The basic idea of an adjoint functor theorem is that _if_ we could assume that a [[large category]] $D$ had all [[limits]] over [[small category|small]] and [[large category|large]] [[diagrams]], then for $R : D \to C$ a [[functor]] that [[preserved limit|preserves]] all these limits we might define its would-be left adjoint $L$ by  taking  $L c$ to be the limit
 $$
   L c \coloneqq \lim_{c\to R d} d
 $$
-This notation stands for a limit over the [[comma category]] $c/R$ (whose objects are pairs $(d,f:c\to R d)$ and whose morphisms are arrows $d\to d'$ in $D$ making the obvious triangle commute in $C$) of the projection functor $\pi: c/R \to D$ that forgets the morphism $f$: 
+This notation stands for a limit over the [[comma category]] $c/R$ (whose [[objects]] are [[pairs]] $(d,f:c\to R d)$ and whose [[morphisms]] are arrows $d\to d'$ in $D$ making the obvious triangle [[commuting diagram|commute]] in $C$) of the projection functor $\pi: c/R \to D$ that forgets the morphism $f$: 
 $$
   L c = \lim_{c\to R d} \pi
   \,.
@@ -45,14 +45,14 @@ $$
  \,.
 $$  
 
-It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$. See [[adjoint functor]] for more.
+It is easy to check that these would be the [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] of an [[adjunction]] $L\dashv R$. See _[[adjoint functor]]_ for more.
 
-The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] and also holds classically in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
+The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a [classical theorem of Freyd](complete+small+category#CompleteSmallCategoriesArePosets) says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] and also holds classically in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily only an **adjoint functor theorem for preorders**: 
 
 +-- {: .num_theorem #ForPosets}
 ###### Theorem
 
-If $G:D\to C$ is any functor between (small) preorders such that $D$ has, and $G$ preserves, all small [[meet]]s, then $G$ has a left adjoint.
+If $G:D\to C$ is any functor between (small) preorders such that $D$ has, and $G$ preserves, all small [[meets]], then $G$ has a left adjoint.
 
 =--
 
