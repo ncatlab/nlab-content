@@ -220,9 +220,9 @@ Another unwinding to ordinary mathematical language of the above [code](#Favonia
 
 prompted by online discussion at
 
-*  {#Schreiber14} [[Urs Schreiber]], _Explaining the point of HoTT on FOM_, Google+ thread 2014-10-22 ([archived version](https://github.com/DavidMichaelRoberts/Sandbox/blob/master/Schreiber_Gplus_post.md))
+* {#Schreiber14} [[Urs Schreiber]], _Explaining the point of HoTT on FOM_, Google+ thread 2014-10-22 ([archived version](https://github.com/DavidMichaelRoberts/Sandbox/blob/master/Schreiber_Gplus_post.md))
 
-(scroll down a fair bit through the list of replies there to see the exchange between [[Charles Rezk]] and [[Favonia]]).
+  (scroll down a fair bit through the list of replies there to see the exchange between [[Charles Rezk]] and [[Favonia]]).
 
 Further developments along these lines are in
 
