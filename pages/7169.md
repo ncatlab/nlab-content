@@ -86,6 +86,8 @@ On a [[framed manifold]] the intersection pairing has a canonical [[quadratic re
 
 ## Related concepts
 
+* [[functional cup product]]
+
 [[!include quadratic invariants - table]]
 
 [[!include square roots of line bundles - table]]
