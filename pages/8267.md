@@ -1107,11 +1107,11 @@ $$
     \\
      && \downarrow && \downarrow && \downarrow && \downarrow
     \\
-    ker(l) &\to& X_1 &\stackrel{l}{\to}& X_2 &\stackrel{p}{\to}& X_3 &\to& 0
+    ker(l) &\to& X_1 &\stackrel{l}{\to}& X_2 &\to& X_3 &\to& 0
     \\
     \downarrow && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{h}} && \downarrow
     \\
-    0 &\to& Y_1 &\stackrel{i}{\to}& Y_2 &\stackrel{r}{\to}& Y_3 &\to& coker(r)
+    0 &\to& Y_1 &\to& Y_2 &\stackrel{r}{\to}& Y_3 &\to& coker(r)
     \\
     \downarrow && \downarrow && \downarrow && \downarrow
     \\
@@ -1120,7 +1120,7 @@ $$
   \,.
 $$
 
-By assumption and construction, here all columns are exact and the rows are exact at the $X_i$ and at the $Y_i$. 
+By assumption and construction, here all columns are exact and the rows are exact at the $X_i$ and at the $Y_i$, and the squares involving $ker(l)$ and $coker(r)$ commute.
 
 Now horizontal exactness at $ker(g)$ follows from the intramural isomorphism
 $ker(g)^{hor} \simeq ker(g)_{\Box}$, cor. \ref{IntramuralIsos}, combined with the [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso},
@@ -1152,7 +1152,7 @@ $\cdots \simeq 0_{\Box} = 0$.
 
 Exactness at $coker(g)$ is shown analogously.
 
-Finally, to build the [[connecting homomorphism]] $ker(h) \to coker(f)$ is the same as giving an  [[isomorphism]] from $coker(ker(g) \to ker(h)) \simeq ker(h)^{hor}$ to 
+Finally, building the [[connecting homomorphism]] $ker(h) \to coker(f)$ is the same as giving an  [[isomorphism]] from $coker(ker(g) \to ker(h)) \simeq ker(h)^{hor}$ to 
 $ker(coker(f) \to coker(g)) = coker(f)^{hor}$. This is in turn given by the intramural isomorphisms $ker(h)^{hor} \simeq ker(h)_{\Box}$ and ${}^\Box coker(f) \simeq coker(f)^{hor}$, cor. \ref{IntramuralIsos} connected by the [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso}
 
 $$
