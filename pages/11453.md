@@ -105,7 +105,7 @@ or equivalently
 
 (e.g. [Ibáñez-Uranga 12 (5.52)](#IbanezUranga12), [Blumenhagen-Lüst-Theisen 13 (10.212)](#BlumenhagenLustTheisen13))
 
-
+{#TableOfOPlaneCharges} In summary, we have the following table of O-plane charges:
 
 | $Op$-plane | charge <br/> $\mu_{Op}$| transverse <br/> [[n-torus|d-torus]] | [[fixed points]] <br/> $\left\vert\left( \mathbb{T}^d\right)^{\mathbb{Z}_2}\right\vert$ |
 |------------|--------|-------|----| 
