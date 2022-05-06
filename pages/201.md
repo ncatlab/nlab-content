@@ -219,3 +219,8 @@ category: category
 
 [[!redirects category of abelian groups]]
 [[!redirects categories of abelian groups]]
+
+[[!redirects AbelianGroups]]
+
+
+
