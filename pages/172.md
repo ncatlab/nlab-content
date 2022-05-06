@@ -187,7 +187,7 @@ The notion of $\infty$-stacks can be set up in various notions of $\infty$-categ
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]]; _Segal topoi and stacks over Segal categories_, [math.AG/0212330](http://arxiv.org/abs/math.AG/0212330). 
 
-* [[Bertrand Toën]]; _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504)).
+* [[Bertrand Toën]], _Higher and derived stacks: a global overview_, In: _Algebraic Geometry Seattle 2005_, Proceedings of Symposia in Pure Mathematics, Vol. 80.1, AMS 2009 ([arXiv:math/0604504](http://arxiv.org/abs/math/0604504), [doi:10.1090/pspum/080.1](https://doi.org/10.1090/pspum/080.1))
 
 This concerns $\infty$-stacks with values in [[∞-groupoids]], i.e. $(\infty,0)$-categories. More generally [[descent]] conditions for $n$-stacks and $(\infty,n)$-stacks with values in [[(infinity,n)-category|(∞,n)-categories]] have been earlier discussed in
 
