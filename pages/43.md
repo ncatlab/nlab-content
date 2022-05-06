@@ -51,6 +51,7 @@ A **P-[supermanifold]** is a supermanifold equipped with a graded symplectic str
 
 * [[dg-manifold]], [[derived smooth manifold]]
 
+* For the analogous phenomenon relating [[super Lie algebras]] to [[dg-Lie algebras]] see [there](super+Lie+algebra#RelationToDGLieAlgebras).
 
 
 ## References
