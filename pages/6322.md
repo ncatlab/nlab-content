@@ -29,9 +29,23 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
 ## Properties
 
-* [[confinement]]
+### Confinements
 
-* [[asymptotic freedom]]
+See at _[[confinement]]_.
+
+### Asymptotic freedom
+
+See at _[[asymptotic freedom]]_.
+
+### Phase diagram
+
+QCD has an intricate [[phase diagram]] (e.g. [Hands 01](#Hands01), [Schaefer 05](#Schaefer05)) including
+
+* [[quark-gluon plasma]]
+
+* [[colour superconductivity]]
+
+* ...
 
 ## Related concepts
 
@@ -67,6 +81,8 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
       * [[quark-gluon plasma]]
 
+      * [[colour superconductivity]]
+
     * [[electroweak field]]
 
 * [[string theory results applied elsewhere]]
@@ -101,6 +117,16 @@ Discussion of on-shell methods in QCD [[perturbation theory]] includes
 See also
 
 * Bo-Lun Du, Xing-Gang Wu, Jian-Ming Shen, Stanley J. Brodsky, _Extending the Predictive Power of Perturbative QCD_ ([arXiv:1807.11144](https://arxiv.org/abs/1807.11144))
+
+### Phase diagram
+
+On the [[phase diagram]] of QCD
+
+* [[Edward Shuryak]], _The Phases of QCD_ ([arXiv:hep-ph/9609249](https://arxiv.org/abs/hep-ph/9609249))
+
+* {#Hands01} Simon Hands, _The Phase Diagram of QCD_, Contemp. Phys. 42:209-225, 2001 ([arXiv:physics/0105022](https://arxiv.org/abs/physics/0105022))
+
+* {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ ([arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068))
 
 ### History
 
