@@ -48,8 +48,6 @@ $$
 \nu \big( \sup_{\lambda} x_\lambda \big) = \sup_\lambda \nu(x_\lambda) .
 $$
 
-For now, see more in [Vickers](#vmonad).
-
 
 ### Valuations on locales and topological spaces
 
@@ -167,11 +165,11 @@ This integral satisfies analogous properties to the Lebesgue integral, such as [
 Just as there are several [[monad|monads]] of probability measures (such as the [[Giry monad]]), there are a number of analogous monads of valuations.
 The most famous are
 
-* The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
-
-* The [[extended probabilistic powerdomain]] on the [[Top|category of topological spaces]], which was introduced by [Heckmann 96](#Heckmann96). Its algebras have recently been studied by [Goubault-Larrecq and Jia](#algebras).
+* The [[extended probabilistic powerdomain]] on the [[Top|category of topological spaces]], which was introduced by [Heckmann 96](#Heckmann96). 
 
 * The **valuation monad on the [[Loc|category of locales]]**, defined by [Steve Vickers](#vmonad).
+
+* The [[probabilistic powerdomain]] on the category of [[dcpo|dcpos]], defined by Jones and Plotkin, of wide use in theoretical computer science.
 
 See also [[monads of probability, measures, and valuations]].
 
