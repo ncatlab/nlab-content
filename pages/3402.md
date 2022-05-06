@@ -48,7 +48,7 @@ Recall that a [[Stonean space]] is a [[compact]] [[extremally disconnected]]
 [[Hausdorff]] [[topological space]].
 [[Morphisms]] of [[Stonean spaces]] are defined to be [[open]] [[continuous maps]].
 Restricting the [[Stone duality]] produces a [[contravariant equivalence]]
-between the category of complete Boolean algebres
+between the category of complete Boolean algebras
 and the category of [[Stonean spaces]].
 See Corollary 6.10(2) in [Bezhanishvili](#SDGC).
 
