@@ -18,10 +18,13 @@ On the [[AdS-CFT correspondence]]:
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
 
-On  $AdS_2/CFT_1$ with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
+On  [[AdS2/CFT1]] with the [[BFSS matrix model]] on the CFT side and [[black hole in string theory|black hole-like solutions]] in [[type IIA supergravity]] on the AdS side:
 
 * [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
 
+Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
+
+* [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _Replica Wormholes and the Entropy of Hawking Radiation_ ([arXiv"1911.12333](https://arxiv.org/abs/1911.12333))
 
 
 ## Related entries
