@@ -467,6 +467,10 @@ $$\frac{\Gamma,x:Bool \vdash C\,type \qquad
 
 This is reasoning about membership, so we really do want to know that $Bool$s are $Comp$s. The usual elimination rule then just applies $b$ at that function type.
 
+In Nuprl, it's often possible to get induction rules without a premise showing that the motive is a valid family. The idea is that for sufficiently concrete types, validity of the motive can be proven pointwise, and moreover the cases of this proof are actually implied by the cases of the main induction.
+
+In the current CLF rules though, it doesn't seem possible to derive such rules. Also, including such strengthened induction rules as primitive doesn't seem compatible with the [current hybrid approach](#AdmissSem) based on admissible formal rules: the sanity check would require an unusual type validity rule, which would ruin the inversion lemma. Basically the Nuprl-style justification for omitting the motive premise is "too semantic" for the current hybrid approach.
+
 ### Subtyping (Conjectural)
 
 ## References
