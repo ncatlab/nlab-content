@@ -79,9 +79,9 @@ $$
   Pin(V,q) \hookrightarrow GL_1(Cl(V,q))
 $$
 
-on those elements which are multiples $v_1 \cdots v_{2k}$ of elements $v_i \in V$ with $q(V) = 1$.
+on those elements which are multiples $v_1 \cdots v_{n}$ of elements $v_i \in V$ with $q(v_i) = 1$.
 
-The [[Spin group]] $Spin(V,q)$ is the further [[subgroup]] of $Pin(V;q)$ on those elements which are even number multiples $v_1 \cdots v_{2k}$ of elements $v_i \in V$ with $q(V) = 1$.
+The [[Spin group]] $Spin(V,q)$ is the further [[subgroup]] of $Pin(V;q)$ on those elements which are even number multiples $v_1 \cdots v_{2k}$ of elements $v_i \in V$ with $q(v_i) = 1$.
 
 Specifically, "the" Spin group is
 
