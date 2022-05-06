@@ -2244,14 +2244,14 @@ and
 
 The axioms for a cohesive topos originate around
 
-* [[William Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
-{#LawvereCatsOfSpaces}
+* {#LawvereCatsOfSpaces} [[William Lawvere]], _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_ , preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.6357&rep=rep1&type=pdf))
+
 
 where however the term "cohesive topos" was not yet used. 
 
 This appears maybe first in
 
-* [[William Lawvere]] _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
+* [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
 
 The term "cohesion" and parts of its later axiomatization (p. 245) appears thoughout section C.1 of
 
@@ -2287,7 +2287,7 @@ a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "exten
 
 The left and right adjoint to the global section functor as a means to identify discrete spaces and codiscrete space is mentioned
 
-* [[William Lawvere]] _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+* [[William Lawvere]], _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
 
 on [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14).
 
