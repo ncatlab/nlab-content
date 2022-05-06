@@ -21,7 +21,7 @@
 ## Idea
 
 In the context of an account of [[logic]] described in terms of $n$-theories ([Shulman 18a](#Shulman18a)), a *3-theory* specifies a kind of [[2-category]].
-A 3-theory prescribes the allowable judgment structures of the [[2-theories]] that can be expressed within it.
+It does so by prescribing the allowable judgment structures of the [[2-theories]] that can be expressed within it.
 
 ## Examples
 
