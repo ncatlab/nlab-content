@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -67,40 +78,44 @@ There are generalizations for $d$-algebras (algebras over little disc operad in 
 
 * [[Kontsevich formality]]
 
+* [[Rozansky-Witten theory]]
+
+[[formal noncommutative symplectic geometry]] 
+
+
 ## Literature
 
-Cf. also [[Rozansky-Witten theory]], [[formal noncommutative symplectic geometry]] 
 
 * [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121, [pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf)
 
 * [[Maxim Kontsevich]], _Rozansky&#8211;Witten invariants via formal geometry_, Compositio Mathematica __115__: 115&#8211;127, 1999, [doi](http://dx.doi.org/10.1023/A:1000619911308), [arXiv:dg-ga/9704009](http://arxiv.org/abs/dg-ga/9704009)
 
-* [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
+* [[Martin Markl]], [[Steve Shnider]], [[James Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
 
 * [[Andrey Lazarev]], _Operads and topological conformal field theories_, [pdf](http://www.maths.lancs.ac.uk/~lazarev/1-10.pdf); and older versio: _Graduate lectures on operads and topological field theories_, zip file with 11 pdfs, [over 5 Mb](http://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/al179/New%20Folder.zip)
 
 * [[Alastair Hamilton]], _A super-analogue of Kontsevich's theorem on graph homology_, Lett. Math. Phys. __76__ (2006), no. 1, 37--55, [math.QA/0510390](http://arxiv.org/abs/math/0510390)
 
-* A. Lazarev, A. A. Voronov, _Graph homology: Koszul and Verdier duality_, [math.QA/0702313](http://arxiv.org/abs/math/0702313)
+* A. Lazarev, [[Alexander Voronov]], _Graph homology: Koszul and Verdier duality_ ([math.QA/0702313](http://arxiv.org/abs/math/0702313))
 
-* M. V. Movshev, _A definition of graph homology and graph K-theory of algebras_, [math.KT/9911111](http://arxiv.org/abs/math/9911111)
+* [[Mikhail Movshev]], _A definition of graph homology and graph K-theory of algebras_ ([math.KT/9911111](http://arxiv.org/abs/math/9911111))
 
 * [[Alberto S. Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640, [doi](http://dx.doi.org/10.1142/S0218216505004019), [math.GT/0307218](http://arxiv.org/abs/math/0307218)
 [[!redirects graph cohomology]], [MR2006g:58021](http://www.ams.org/mathscinet-getitem?mr=2006g:58021))
 
-* K. Igusa, _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
+* [[Kiyoshi Igusa]], _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
 
-* [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, [arxiv/1009.1654](http://arxiv.org/abs/1009.1654)
-{#Willwacher10}
-
-* Vasily Dolgushev, Christopher L. Rogers, Thomas Willwacher, _Kontsevich's graph complex, GRT, and the deformation complex of the sheaf of polyvector fields_, [arxiv/1211.4230](http://arxiv.org/abs/1211.4230)
-
-* Damien Calaque, Carlo A. Rossi, _Lectures on [[Duflo isomorphism]]s in Lie algebra and complex geometry_, European Math. Soc. 2011
-
-* [[S. A. Merkulov]], _Graph complexes with loops and wheels_, in (Manin's Festschrift:) Algebra, Arithmetic, and Geometry, Progress in Mathematics __270__ (2009) 311-354, [doi](http://dx,doi.org/10.1007/978-0-8176-4747-6_10), [pdf](http://www2.math.su.se/~sm/Papers/graph_complexes.pdf)
+* {#Willwacher10} [[Thomas Willwacher]], _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_ ([arxiv/1009.1654](http://arxiv.org/abs/1009.1654))
 
 
-* M. Markl, S. Merkulov, S. Shadrin, _Wheeled PROPs, graph complexes and the master equation_, J. Pure Appl. Algebra, 213(4):496–535, 2009, [math.AT/0610683](https://arxiv.org/abs/math/0610683)
+* [[Vasily Dolgushev]], [[Christopher Rogers]], [[Thomas Willwacher]], _Kontsevich's graph complex, GRT, and the deformation complex of the sheaf of polyvector fields_ ([arxiv/1211.4230](http://arxiv.org/abs/1211.4230))
+
+* [[Damien Calaque]], Carlo A. Rossi, _Lectures on [[Duflo isomorphism]]s in Lie algebra and complex geometry_, European Math. Soc. 2011
+
+* [[Sergei Merkulov]], _Graph complexes with loops and wheels_, in (Manin's Festschrift:) Algebra, Arithmetic, and Geometry, Progress in Mathematics __270__ (2009) 311-354, [doi](http://dx,doi.org/10.1007/978-0-8176-4747-6_10), [pdf](http://www2.math.su.se/~sm/Papers/graph_complexes.pdf)
+
+
+* [[Martin Markl]], [[Sergei Merkulov]], S. Shadrin, _Wheeled PROPs, graph complexes and the master equation_, J. Pure Appl. Algebra, 213(4):496–535, 2009, [math.AT/0610683](https://arxiv.org/abs/math/0610683)
 
 The following survey has discussion of context between the graph complex and [[Batalin-Vilkovisky formalism]]:
 
