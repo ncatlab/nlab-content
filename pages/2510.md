@@ -22,6 +22,13 @@ On [[Freund-Rubin compactifications]] of [[11d supergravity]]:
 * [[Riccardo D'Auria]], [[Pietro Fre]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
 
 
+On the work of [[Tullio Regge]] ([[Regge calculus]], [[D'Auria-Fre formulation of supergravity]], ...):
+
+* [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
+
+
+
+
 ## Related entries
 
 * [[D'Auria-Fre formulation of supergravity]]
