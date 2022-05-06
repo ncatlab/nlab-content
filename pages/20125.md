@@ -53,6 +53,10 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 * [[tensor]], [[tensor product]], [[tensor category]]
 
+* [[string diagram]]
+
+* [[neural network]]
+
 ## References
 
 * Jacob Biamonte, Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
