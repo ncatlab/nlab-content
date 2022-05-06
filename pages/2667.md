@@ -687,7 +687,7 @@ For more details on these topics, see:
 * William Fulton, _Young Tableaux, with Applications to 
 Representation Theory and Geometry_, Cambridge U. Press, 1997.
 
-* B. E. Sagan, _The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions_, Springer, Berlin, 2001.
+* [[Bruce E. Sagan]], _The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions_, Springer, Berlin, 2001.
 
 [[species|Species]] were invented here:
 
