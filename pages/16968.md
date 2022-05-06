@@ -64,6 +64,8 @@ also the equivariant suspension spectrum functor ought to constitute a [[monoida
 
 This follows from general properties of [[stabilization]] when regarding [[equivariant stable homotopy theory]] as the result of inverting [[smash product]] with all [[representation spheres]], via [Robalo 12, last clause of Prop. 4.1 with last clause of Prop. 4.10 (1) ](stabilization#Robalo12), generalized to sets of objects as in [Hoyois 15, section 6.1](stabilization#Hoyois15), see also [Hoyois 15, Def. 6.1](stabilization#Hoyois15).
 
+Alternatively, under the [[equivalence of (infinity,1)-categories|equivalence]] of [[genuine G-spectra]] with [[spectral Mackey functors]] on the [[Burnside category]], it follows as in [Nardin 12, Remark A.12](#Nardin12).
+
 ### $RO(G)$-degrees
  {#ROGDegrees}
 
@@ -109,13 +111,17 @@ The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivaria
 
 ## References
 
-* {#Blumberg17} [[Andrew Blumberg]], Ezample 2.5.9 in _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+* {#Blumberg17} [[Andrew Blumberg]], Example 2.5.9 in _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+Discussion in terms of [[spectral Mackey functors]] on the [[Burnside category]]:
+
+* {#Nardin12} [[Denis Nardin]], section A.2 of _Stability and distributivity over orbital ∞-categories_, 2012 ([hdl.handle.net/1721.1/112895]( http://hdl.handle.net/1721.1/112895), [pdf](https://www.math.univ-paris13.fr/~nardin/thesis.pdf))
 
 
 [[!redirects equivariant suspension spectra]]
