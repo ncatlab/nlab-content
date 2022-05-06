@@ -11,6 +11,8 @@ An _archimedean field_ is an [[ordered field]] that satisfies the [[archimedean 
 
 Every archimedean field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every archimedean field is the field of [[real numbers]]. 
 
+Every archimedean field is a [[differentiable space]]. 
+
 ## Examples
 
 Archimedean fields include
@@ -36,6 +38,8 @@ Non-archimedean fields include
 * [[archimedean integral domain]]
 
 * [[archimedean group]]
+
+* [[differentiable space]]
 
 [[!redirects archimedean field]]
 [[!redirects archimedean fields]]
