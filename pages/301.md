@@ -47,3 +47,4 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 [[!redirects algebra of truth values]]
 
 [[!redirects boolean]]
+[[!redirects booleans]]
