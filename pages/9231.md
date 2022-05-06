@@ -53,6 +53,14 @@ which may be more familiar to some readers.
 * [[Feynman diagram]]
 
 
+## References
+
+See also 
+
+* Wikipedia, _[Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)_
+
+* Wikipedia, _[Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)_
+
 [[!redirects Gaussian probability measure]]
 [[!redirects Gaussian probability measures]]
 
@@ -64,3 +72,6 @@ which may be more familiar to some readers.
 
 [[!redirects normal distribution]]
 [[!redirects normal distributions]]
+
+[[!redirects standard deviation]]
+[[!redirects standard deviations]]
