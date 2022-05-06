@@ -26,6 +26,14 @@ The [[equations of motion]] of the [[Dirac field]].
 
 * [[Dirac field]]
 
+* [[heat equation]]
+
+* [[wave equation]], [[Klein-Gordon equation]]
+
+* [[Schrödinger equation]]
+
+
+
 ## References
 
 * Wikipedia, _[Dirac equation](https://en.wikipedia.org/wiki/Dirac_equation)_
