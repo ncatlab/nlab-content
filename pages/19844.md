@@ -181,6 +181,8 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
 * [[flavour (particle physics)]]
 
+* [[V_cb puzzle]]
+
 * [[anomalous magnetic moment]]
 
 ## References
