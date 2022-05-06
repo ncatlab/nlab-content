@@ -183,6 +183,16 @@ This means that a sheaf topos $Sh(\mathcal{C},J)$ is the classifying topos for t
 
 We list and discuss explicit examples of classifying toposes.
 
+### For nothing
+
+Let $\Sigma_\emptyset =(\emptyset,\emptyset,\emptyset)$ be the empty signature. Then a $\Sigma_\emptyset$-structure in a Grothendieck topos $\mathcal{E}$ is simply a triple of empty assignments but there is just one of these and it is trivially a model for the **empty theory** $\mathbb{T}_{\Sigma_\emptyset}=\emptyset$ over the empty signature since there are no sequents to satisfy and the only ${\Sigma_\emptyset}$-homomorphism is the empty collection of maps from $\mathcal{E}$ whence $Mod_{\mathbb{T}_{\Sigma_\emptyset}}(\mathcal{E})=\mathbf{1}$; in other words, the classifying topos $Set[\mathbb{T}_{\Sigma_\emptyset}]$ is the terminal Grothendieck topos $Set$. 
+
+But $Set$ has no non-trivial [[subtopos|subtoposes]] which implies that relative to the empty signature the empty theory is complete: either a sequent $\sigma$ follows from $\mathbb{T}_{\Sigma_\emptyset}$ or $\{\sigma\}$ is inconsistent, in other words, the only toposes classifying theories over the empty signature are $Set$ and the inconsistent topos $\mathbf{1}$.
+
+Relative to $\mathbb{T}_{\Sigma_\emptyset}$ the models of the theories classified by $Set$ and $\mathbf{1}$ take on the somewhat ghostlike appearance as empty assigments but enlargening the signature gives them more concrete content: e.g. admitting a sort symbol one sees that $\mathbf{1}$ classifies zero objects which of course only degenerate toposes admit and that $Set$ classifies [[initial object|initial objects]]. Whereas the contradictory theory $\{\top\vdash\bot\}$ robustly axiomatizes the theories classified by $\mathbf{1}$ in arbitrary signatures, in the case of $Set$ the theories vary with and within the signature[^subtopos] e.g. in order to axiomatize initial objects one has to add the sequent $\top\vdash_x\bot$ to the [[theory of objects]] i.e. the empty theory relative to the signature with exactly one sort symbol; more on this in the next section and the entries linked to there.
+
+[^subtopos]: This difference in behavior is a reflection of the behavior as subtoposes: whereas $\mathbf{1}$ is always the bottom of the lattice, $Set$ is only constrained to appear as [[atom]]; in particular it might appear more than once (cf. the example at [[hypergraph]]).
+
 ### For objects
  {#ForObjects}
 
