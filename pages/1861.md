@@ -229,7 +229,7 @@ relation to the [[Freudenthal suspension theorem]] ([Spanier 49, section 9](#Spa
 
 For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
 
-### PT-Construction and normally framed submanifolds
+### Pontryagin-Thom isomorphism
   {#RelationToCobordismGroup}
 
 For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the assignment of [[Cohomotopy charge]] ([[Pontryagin-Thom construction]], e.g. [Kosinski 93, IX.5](#Kosinski93)) identifies the [[set]] 
@@ -309,8 +309,70 @@ Further by the [[equivariant Hopf degree theorem]] (see [there](equivariant+Hopf
 
 > graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
 
+\linebreak
+
+### Composition/product in Cohomotopy
+  {#ProductInCohomotopy}
+
+Under the [[Pontryagin-Thom isomorphism]] ([above](#RelationToCobordismGroup)) the product in Cohomotopy, i.e. the [[composition]] operation
+
+$$
+  \array{
+    \pi^{n_1}
+    \big( 
+      S^{n_2 + n_1}
+    \big)
+    \times
+    \pi^{n_2 + n_1}(X)
+    &\overset{}{\longrightarrow}&
+    \pi^{n_1}(X)
+    \\
+    (c_1, c_2) &\mapsto& c_1 \circ c_2
+  }
+  \,,
+$$
+
+corresponds to forming [[product manifolds]] of submanifolds, in that (see also [Kosinski 93, Section IX 6.1](#Kosinski93)):
+
+
+$$
+    \mathrm{PT}^{-1}(c_1 \circ c_2)
+    \;\simeq\;
+    \Big[
+      \mathrm{PT}^{-1}(c_2) \times \mathrm{PT}^{-1}(c_1)
+      \;\subset\;
+      \mathrm{PT}^{-1}(c_2) \times \mathbb{R}^{n_2 + n_1}
+      \;\subset\;
+      X
+    \Big]
+  \,.
+$$
+
+This is exhibited by the following [[pasting diagram]] of [[pullbacks]]/[[fiber products]] (repeatedly using the [[pasting law]]):
+
+\begin{imagefromfile}
+        "file_name": "ProductInCohomotopyUnderPT.jpg",
+        "web": "nlab",
+        "width": 600,
+        "unit": "px",
+        "margin": {
+            "top": -20,
+            "right": 0,
+            "bottom": 20,
+            "left": 20,
+            "unit": "px"
+        },
+        "alt": "product in Cohomotopy under the PT isomorphism",
+        "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
+\end{imagefromfile}
+
+Here the vertical inclusions are the defining ones of the [[submanifolds]] or of their [[normal bundles]], identified with some choice of [[tubular neighbourhoods]].
+
+
 
 \linebreak
+
+
 
 ### Cohomotopy charge map and Relation to configuration spaces
  {#RelationToConfigurationSpaces}
