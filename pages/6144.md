@@ -74,6 +74,23 @@ A Radon measure is __σ-finite__ if $m$ is σ-finite.
 
 A Radon measure is __moderated__ if $M$ is σ-finite.
 
+## Real and complex Radon measures
+
+\begin{definition}
+A real (respectively complex) Radon measure on a [[Hausdorff topological space]] $X$
+is a real (respectively complex) valued function $\mu$
+defined on relatively compact [[Borel subsets]] of $X$
+that is (1) countably additive,
+(2) every relative compact [[Borel subset]] $B\subset X$
+can be presented as the union of countably many compact subsets
+and a subset $N\subset B$ such that $\mu(N')=0$ for any [[Borel subset]] $N'\subset N$,
+and (3) any point has a neighborhood $V$ such that $\sup |\mu(B)|$
+is finite, where $B\subset V$ is a relatively compact subset of $X$.
+\end{definition}
+
+If $\mu\ge0$, then $\mu$ can be extended to a Radon measure $(m,M)$
+in the previous sense.
+
 ## On locally compact Hausdorff topological spaces
 
 Radon measures on locally compact Hausdorff topological spaces
@@ -133,6 +150,14 @@ Given a [[Borel subset]] $B\subset Y$, we set
 $$H_*\mu(B)=\mu^\bullet(H^*(B)).$$
 This yields a Radon measure $m$ on $Y$.
 \end{definition}
+
+\begin{theorem}
+If $H\colon X\to Y$ is a [[continuous map]] of [[Hausdorff topological spaces]],
+then a Radon measure $\nu$ on $Y$ is the pushforward along $H$
+of a Radon measure on $X$ if and only if $\nu$
+is concentrated in a countable union of images under $H$
+of compact subsets of $X$.
+\end{theorem}
 
 ## Properties
 
