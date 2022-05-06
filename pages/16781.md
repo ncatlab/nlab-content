@@ -80,7 +80,7 @@ The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symme
 ###### Proposition
 **([[quaternion group]] inside [[binary tetrahedral group]])**
 
-The [[binary octahedral group]] contains the [[quaternion group]] of [[order]] 8, hence the [[binary dihedral group]] of [[order of a group|order]] 8, as a [[subgroup]] (not [[normal subgroup|normal]]):
+The [[binary octahedral group]] contains the [[quaternion group]] of [[order]] 8, hence the [[binary dihedral group]] of [[order of a group|order]] 8, as a [[subgroup]] ([[normal subgroup|normal]]):
 
 $$
   2 D_4 = Q_8 \subset 2 O
