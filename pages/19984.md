@@ -49,7 +49,7 @@ Using _homotopy.io_ involves building a signature listing the types available to
 
 **Diagrams.** An $n$-diagram is a composite of $k$-cells from the signature, for $k \leq n$. To build a diagram, we first click on the thumbnail of a cell in the signature, which will display it in the central window. We can _compose_ it with other cells by clicking near the boundary. These compositions are always [[whiskering|whiskerings]], with a $k$-cell generator attached to an $n$-diagram along a common $\text{min}(k,n)$-dimensional boundary. Non-whiskered composites can be obtained by first building whiskered composites, and then rewriting the interior of the diagram using homotopies. We can _rewrite_ parts of an $n$-diagram by clicking in the diagram interior, which will apply an $n+1$-cell, or clicking and dragging, which will apply a homotopy.
 
-**Homotopies.** Once a diagram has been constructed, we can modify it by applying homotopies, triggered by clicking and dragging on the diagram. If this is performed on the boundary of the diagram, it will attach the homotopy to the boundary of the diagram; if this is performed in the interior of the diagram, it will rewrite it.
+**Homotopies.** Once a diagram has been constructed, we can modify it by applying a _homotopy_, which we trigger by clicking and dragging on the diagram. If this is performed on the boundary of the diagram, it will attach the homotopy to the boundary; if this is performed in the interior of the diagram, it will rewrite it.
 
 **Renderer (experimental).** Diagrams can be rendered in both 2d and 3d. At the moment, only the 2d renderer is interactive, allowing diagrams to be manipulated directly using the mouse; the 3d renderer is for display only, and is currently quite buggy, only working reliably for small diagrams with a connected geometry. It is hoped that _homotopy.io_ will soon allow rendering and smooth animation of arbitrary 3d composites.
 
@@ -57,7 +57,73 @@ Using _homotopy.io_ involves building a signature listing the types available to
 
 **Slice.** For an $n$-diagram with $n \gt 2$, projection will always lose some information about the diagram. _Slicing_ allows an $(n+1)$-dimensional diagram to be viewed as a movie of $n$-dimensional diagrams, in a way which preserves all information about the diagram. For example, for a 9-dimensional diagram with projection set to 3, there are still 6 remaining dimensions to display. With the renderer set to 2d, this leaves 4 dimensions to be handled with slice controls, which allows us to investigate the 6d displayed geometry as a movie of movies of movies of movies of 2d diagrams.
 
+**Undo and redo.** Use the browser back and forward buttons to undo and redo your interactions with the proof assistant.
+
+**Server.** The proof assistant has a backend that lets you log in and save proofs to the server. You can also make proofs shareable, and obtain a short URL suitable for sharing with others, or embedding in a research paper. In the future you will also be able to publish proofs, obtaining a permanent date-stamped URL.
+
+## Constructing homotopies
+
+A composite diagram can be deformed by clicking and dragging in its interior. If the indicated deformation would be geometrically invalid, an error message is displayed in the lower-right corner, and the diagram does not change. Otherwise, a new diagram is displayed, which is homotopic to the original diagram.
+
+Conjecturally, homotopies can be used to construct arbitrary progressive deformations of the $n$-diagram as a subcomplex of $\mathbb{R}^n$. Informally, homotopies can move parts of the diagram around, but they can't change the local neighbourhoods of the generating cells inhabiting the diagram.
+
+Of course, the proof assistant manipulates finite combinatorial structures, and we use the word 'homotopic' with reference to their presumed geometrical realization. We do not make this precise here, nor has it yet been made precise in the literature; for this reason, our use of the term 'homotopy' is not yet well connected to the standard notion.
+
+Every homotopy is either a _contraction_, which make the geometry locally more singular, or an _expansion_, which make it locally more generic. If we view our original diagram $D$ as a zigzag (see [Combinatorial foundation](#CombinatorialFoundation), a contraction is encoded as a zigzag map $D \to D'$, and an expansion as a zigzag map $D' \to D$, for some other diagram $D'$.
+
+### Base cases ###
+
+A homotopy is triggered by choosing an $n$-diagram for $n \geq 2$, choosing some vertex that it contains, and dragging that vertex _vertically_; that is, either up or down.
+
+If the chosen vertex is in _generic position_, meaning that it is the unique vertex at its height, a contraction will be triggered; otherwise, an expansion will be triggered. In the base case, a contraction decreases the height of a diagram by 1, and an expansion increases it by 1. Expansions always succeed, but contractions will only succeed if the diagram is actually locally contractible, in the sense of homotopy theory. Mathematically, contractions are performed by taking the colimit of part of the zigzag diagram (see the [Combinatorial Foundation](#CombinatorialFoundation) section.)
+
+To illustrate this, we suppose we have the following diagram, where for convenience we label the vertices with numbers ([<i>live workspace</i>](https://homotopy.io/?id=QMw1sG1p4yCpsgL3Xh7K)):
+
+<img width="250" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/contraction-expansion-labelled.png"/>
+
+Clicking and dragging the vertices would yield the following results:
+
+<style> table>tr>td { border:none!important } </style>
+<table style="border-style:hidden !important; padding:0px!important">
+<tr>
+<td>
+<img width="200" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/2-up.png"/>
+</td>
+<td>
+<img width="200" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/2-down.png"/>
+</td>
+<td>
+<img width="200" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/4-down.png"/>
+</td>
+<td>
+<img width="200" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/1-up.png"/>
+</td>
+</tr>
+<tr><td><i>Expansion</i></td><td><i>Expansion</i></td><td><i>Contraction</i></td><td><i>Contraction</i></td></tr>
+<tr>
+<td><i>2 up or 3 down</i></td>
+<td><i>2 down or 3 up</i></td>
+<td><i>1 down</i></td>
+<td><i>4 up</i></td>
+</tr>
+</table>
+
+Dragging vertex 4 up, or vertex 1 down, has no effect, as vertices cannot be dragged off the top or bottom edge of a diagram.
+
+The following images illustrate non-contractible scenarios:
+
+$$\text{INSERT PICTURES}$$
+
+In both of these cases, attempting to perform the contraction will give an error message. In the first case, the contraction fails because there is no canonical ordering on the rear wires. In the second case, the contraction is successful at the level of the untyped diagram, but it is rejected by the type checker, since it merges two distinct generating cells.
+
+If there are no slice controls displayed, then the homotopy is being performed at codimension 0 (that is, at the top level), and the diagram will be rewritten in the obvious way. If every slice control shows S or T, then we are viewing a boundary of the main diagram, and the homotopy we are building will be attached to the boundary. Otherwise, we are in the interior of the diagram, working in some positive codimension, and the homotopy must now be propagated to lower codimension.
+
+### Recursive cases ###
+
+When we apply a homotopy to an interior slice of the main diagram, it is propagated up to the top level. A homotopy can be either a contraction or an expansion, and we can be in a regular or singular subslice; this gives 4 cases, which we consider separately.
+
 ## Combinatorial foundation
+ {#CombinatorialFoundation}
 
 The combinatorial data stored by the proof assistant can be understood in terms of zigzags.
 
@@ -66,6 +132,8 @@ The combinatorial data stored by the proof assistant can be understood in terms 
 In a category $C$, a _zigzag_ is a finite diagram of the following sort:
 
 <img height="120" style="margin-left:auto; margin-right:auto;" src="https://www.cs.bham.ac.uk/~vicaryjo/homotopy.io/nlab/zigzag.png" alt="A zigzag" />
+
+We write $Z_r = \{ r_0, \ldots, r_n \}$ for the set of _regular slices_, and $Z_s = \{ s_0, \ldots, s_{n-1} \}$ for the set of _singular slices_.
 =--
 
 +-- {: .num_defn}
@@ -99,28 +167,6 @@ A _$|\Sigma|$-typed $n$-diagram_ is an object of the category obtained by starti
 =--
 
 Given a $|\Sigma|$-typed $n$-diagram $D$, we can then ask if it is _well-typed_ with respect to $\Sigma$. This involves identifying the neighbourhoods of every point, and checking that they agree with the standard type neighbourhoods defined in $\Sigma$. This procedure is explained in the references below.
-
-## Constructing homotopies
-
-A composite diagram can be deformed by clicking and dragging in its interior. If the indicated deformation would be geometrically invalid, an error message is displayed in the lower-right corner, and the diagram does not change. Otherwise, a new diagram is displayed, which is homotopic to the original diagram.
-
-The proof assistant manipulates finite combinatorial structures, and we use the word 'homotopic' with reference to their geometrical realization. We do not make this precise here, nor has it yet been made precise in the literature; for this reason, our use of the term 'homotopy' is not yet well connected to the standard notion.
-
-Every homotopy is either a _contraction_, which make the geometry locally more singular, or an _expansion_, which make it locally more generic. If a homotopy is performed on a diagram at the top level, it is directly constructed by one of the base case procedures given below. Alternatively, if it is performed in a slice of a diagram, the effect on the diagram as a whole is computed by a recursive scheme, which propagates the homotopy up from the slice where it was triggered.
-
-### Triggering homotopies ###
-
-Every homotopy is triggered by choosing an $n$-diagram for $n \geq 2$, choosing some vertex that it contains, and dragging that vertex _vertically_; that is, either up or down.
-
-If the vertex is in _generic position_, meaning that it is the unique vertex at its height, a contraction will be triggered; otherwise, an expansion will be triggered.
-
-The $n$-diagram that we choose could be the diagram as a whole, in which case one of the base cases will be triggered. Alternatively, it could be some slice of the diagram, in which case one of the recursive cases will be triggered.
-
-If we are viewing an $n$-diagram $D$ for $n \geq 3$, then at each height $h$ of the diagram, there is a subdiagram $D_h$ with dimension $n-1 \geq 2$. If we drag a vertex or wire of $D$ _horizontally_ at some height $h$, this will trigger a homotopy in the subdiagram $D_h$, and the recursive case below will apply. This could alternatively be triggered by reducing the projection level by 1, and navigating to the subdiagram $D_h$ directly, and dragging the corresponding vertex up or down.
-
-### Base cases ###
-
-### Recursive cases ###
 
 ## Type checking and normalization
 
