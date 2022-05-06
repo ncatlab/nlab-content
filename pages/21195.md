@@ -103,7 +103,7 @@ In terms of a [[Lagrangian density]], this is encoded by meson/photon _mixed ter
 
 obtained from the Lagrangian density $\mathbf{L}_{EM} \;\sim\; d A \wedge \star_{4} d A + A \wedge \star_4 J_{hadr}$ of [[Maxwell theory]] by exchanging a [[photon]] field variable $A$ with a [[vector meson]] [[field (physics)|field]] $V$ (reviewed in [OCPTW 95, p. 10](#OCPTW95), [Schildknecht 05, p. 4](#Schildknecht05)).
 
-There is also an alternative, supposedly equivalent, Lagrangian formulation, less elegant but now in more widespread use. To distinguish the two one speaks of "VMD1" for the formulation (eq:VMD1Lagrangian) and of "VMD2" for the alternative formulation.
+There is also an alternative, supposedly equivalent, Lagrangian formulation, less elegant but now in more widespread use. To distinguish the two one speaks of "VMD1" for the formulation (eq:VMD1Lagrangian) and of "VMD2" for the alternative formulation (reviewed in [OCPTW 95. (26)](#OCPTW95), [Schildknecht 05, (8)](#Schildknecht05)).
 
 
 ## Properties
