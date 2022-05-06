@@ -246,7 +246,21 @@ R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \
  & \cong & R(X \otimes_{\Delta} \hom) \times R(Y \otimes_{\Delta} \hom) \\
  & \cong & R(X) \times R(Y)
 }$$
- 
+
+### Geometric realization preserves fibrations
+
+\begin{theorem}
+The geometric realization of a [[Kan fibration]] is a [[Serre fibration]].
+\end{theorem}
+\begin{proof}
+This is shown in [Quillen 68](#Quillen68).
+\end{proof}
+
+### Induced properties of the fibrant replacement
+
+The previous two sections show that the geometric realization preserves finite limits and fibrations.  Since its right adjoint, the singular complex functor $Top \to sSet$, also preserves both (much more trivially), and since all objects of $Top$ are fibrant and the adjunction is simplicially enriched, it follows that the composite $sSet \to Top \to sSet$ is a simplicially enriched [[fibrant replacement functor]] on $sSet$ that additionally preserves both finite limits and fibrations.
+
+
 ## Examples 
 
 * For $G$ a [[group]], $\mathbf{B}G$, its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
@@ -262,6 +276,10 @@ R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \
   * [[geometric realization of categories|of categories]], [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
 
 * [[totalization]]
+
+## References
+
+* {#Quillen68} [[Daniel Quillen]], *The geometric realization of a Kan fibration is a Serre fibration.  Proc. Amer. Math. Soc. 19 1968 1499--1500.  [pdf](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1/S0002-9939-1968-0238322-1.pdf)
 
 
 [[!redirects geometric realisation]]
