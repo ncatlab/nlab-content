@@ -16,6 +16,11 @@
 
 * [[Tully-Fisher relation]]
 
+## Examples
+
+* [[Milky Way]]
+
+* [[Messier 87]]
 
 ## Related concepts
 
