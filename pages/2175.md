@@ -13,7 +13,7 @@
 
 # Arithmetic #
 
-* [[riffs & rotes]]
+* [[Riffs and Rotes]]
 
 # Combinatorics #
 
