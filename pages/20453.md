@@ -42,7 +42,7 @@ If the hyperbolic link is in fact a [[knot]] (has a single [[connected component
 
 ## References
 
-* {#FKP17} David Futer, Efstratia Kalfagianni, Jessica S. Purcell, _A survey of hyperbolic knot theory_ ([arXiv:1708.07201](https://arxiv.org/abs/1708.07201))
+* {#FKP17} David Futer, Efstratia Kalfagianni, Jessica S. Purcell, _A survey of hyperbolic knot theory_, Springer Proceedings in Mathematics & Statistics, vol. 284 (2019), 1-30 ([arXiv:1708.07201](https://arxiv.org/abs/1708.07201))
 
 See also 
 
