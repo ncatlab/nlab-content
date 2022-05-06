@@ -44,6 +44,7 @@ There is
 
 * [[relativistic membrane]]
 
+* [[vortex string]]
 
 * [[string theory]]
 
