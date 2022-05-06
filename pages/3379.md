@@ -82,9 +82,9 @@ If an idempotent adjunction is [[monadic adjunction|monadic]], then (up to equiv
 * The [[material-structural adjunction]] between [[material set theory|material set theories]] and [[structural set theory|structural set theories]] is idempotent.  The fixed categories consist of the models satisfying appropriate versions of the [[axiom of foundation]] or anti-foundation.
 
 * The [[comma category]] construction forms part of an adjunction
-$$ comma \colon Cospan(X,Y) \; \rightleftarrows \; Span(X,Y)\colon cocomma $$
-between spans cospans and spans of categories whose feet are given by categories $X$ and $Y$.
-A construction of cocomma categories can be found in the MathOverflow post in the references. This adjunction is idempotent and factors into the a [[coreflection]] of [[codiscrete cofibrations]] into $Cospan(X,Y)$ and a [[reflection]] of [[discrete]] [[bifibrations]] into the category $Span(X,Y)$.
+$$ cocomma \colon Span(X,Y) \; \rightleftarrows \; Cospan(X,Y)\colon comma $$
+between spans and cospans of categories whose feet are given by categories $X$ and $Y$.
+A construction of cocomma categories can be found in the MathOverflow post in the references. This adjunction is idempotent and factors into the [[reflection]] into [[discrete]] [[two-sided fibrations]] in the category $Span(X,Y)$ and the [[coreflection]] from [[codiscrete cofibrations]] in $Cospan(X,Y)$.
 
 ## Related concepts
 
