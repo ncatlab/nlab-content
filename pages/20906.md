@@ -20,7 +20,7 @@ A _metric Lie algebra_ or _quadratic Lie algebra_ over some [[ground field]] $\m
  
 1. _Lie algebra_ $\mathfrak{g}$ 
 
-1. a [[bilinear form]] $mathfrak{g} \otimes \mathfrak{g} \overset{g}{\longrightarrow} \mathbb{F}$
+1. a [[bilinear form]] $\mathfrak{g} \otimes \mathfrak{g} \overset{g}{\longrightarrow} \mathbb{F}$
 
 such that $g$
 
