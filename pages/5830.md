@@ -285,6 +285,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[homotopy type theory FAQ]]
 
+* [[higher structures]]
+
 * [[intensional type theory]], [[observational type theory]], [[extensional type theory]]
 
 * [[cubical type theory]]
