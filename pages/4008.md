@@ -109,7 +109,7 @@ $$C \stackrel{\hom(d, G-)}{\to} Set/I \stackrel{\sum}{\to} Set$$
 preserves connected limits, for every object $d$. Since this is the same composite as in \eqref{Gwithhom}, and since the representables $\hom(d, -)$ jointly reflect arbitrary limits, we conclude that $G$ preserves connected limits. 
 =-- 
 
-In particular, for $C$ complete, a functor $G\colon C \to D$ that preserves wide pullbacks also preserves [[equalizers]].
+The analogous argument works for finite limits. In particular, for $C$ finitely complete, a functor $G\colon C \to D$ that preserves pullbacks also preserves [[equalizers]].
 
 
 ## Related pages
