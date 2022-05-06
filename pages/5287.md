@@ -329,7 +329,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
 $$ 
 
-on [[regular polynomial observables]] is, up to a factor of $i \hbar$, the difference between the free component $\{-S',-\}$ of the gauge fixed global BV differential its time-ordered version (def. \ref{AntibracketTimeOrdered})
+on [[regular polynomial observables]] is, up to a factor of $i \hbar$, the difference between the free component $\{-S',-\}$ of the gauge fixed global BV differential and its time-ordered version (def. \ref{AntibracketTimeOrdered})
 
 $$
   \Delta_{BV}
