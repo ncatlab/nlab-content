@@ -104,6 +104,8 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 * [[D=2 N=(2,0) SCFT]]
 
+* [[D=5 super Yang-Mills theory]]
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 [[!include superconformal symmetry -- table]]
