@@ -98,7 +98,7 @@ A similar argument shows that $FinSp_{par}$ has all inhabited limits.  (The abov
 In fact, $FinSp_{par}$ is also a [[cocomplete category]], as shown in [BCJS](#BCJS18).  But its coequalizers are not preserved by $U_{par}$, and in particular not constructed as final lifts of $U_{par}$-structured sinks.
 
 
-## Matrices
+## Matrices {#Matrices}
 
 Let $R$ be any [[semiring]]; we can define a category $FMat(R)$ as follows:
 
@@ -153,6 +153,9 @@ If $X$ is merely a monoid in $FinSp_{rel}$, then the above multiplication is sti
 
 * As shown in [BCJS](#BCJS18), other examples include [[Puiseux series]], formal power series over a free monoid, and polynomials of bounded degree.
 
+## Related pages
+
+* Finiteness spaces were defined by analogy to [[coherence spaces]] in which the property "is finite" is replaced by "is a [[subsingleton]]".  Thus, both are special cases of [[arity spaces]] for two different sets of arities.
 
 ## References
 
