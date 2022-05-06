@@ -91,6 +91,17 @@ Open/closed string duality plays a subtle role when interpreting the [['t Hooft 
 
 * [[string theory results applied elsewhere]]
 
+* [[effective QFT]] incarnations of [[open/closed string duality]], 
+  
+  relating ([[supergravity|super]]-)[[gravity]] to ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]]:
+
+  * [[KLT relations]]
+
+  * [[BCJ relations]]
+
+  * [[classical double copy]] 
+
+
 ## References
 
 Review:
