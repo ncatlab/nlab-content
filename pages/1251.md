@@ -69,7 +69,7 @@ The fact that directed colimits suffice to obtain all filtered ones may be regar
 ### In algebra
 
 An inductive limit in algebra is usually defined as a [[quotient object|quotient]] of a [[disjoint union]].  To be precise, $\underset{\to}\lim_i A_i$ is the disjoint union $\biguplus_{i: I} A_i$ with $x: A_i$ identified with $y: A_j$ if
-$$ f_{ik}(x_i) = f_{ik}(x_j) $$
+$$ f_{ik}(x) = f_{jk}(y) $$
 for some $k$.  Here it is important that $C$ is a [[concrete category]] and that $I$ is a directed set (rather than merely a [[partial order|poset]]); this construction doesn\'t generalise very well.
 
 
