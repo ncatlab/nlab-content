@@ -99,11 +99,29 @@ The standard example is the sequence of consecutive doubles starting with $\math
 
 Named after [[Arthur Cayley]] and [[Leonard Dickson]].
 
+Introduction:
+
 *  [[M M Postnikov]], _Lectures on geometry, Semester V: Lie groups and Lie algebras_, Lec. 14 (russian and english editions)
 
 * {#Baez02} [[John Baez]], _[The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html)_, in _[The octonions](http://math.ucr.edu/home/baez/octonions/)_, Bull. Amer. Math. Soc. 39 (2002), 145-205, [doi](http://dx.doi.org/10.1090/S0273-0979-01-00934-X)
 
 * [[John Baez]], _[This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)_
+
+More:
+
+* Daniel K. Biss, [[Daniel Dugger]], [[Daniel Isaksen]], _Large annihilators in Cayley-Dickson algebras_, 
+ Communications in Algebra 36 (2), 632-664, 2008 ([arxiv:math/0511691](https://arxiv.org/abs/math/0511691))
+
+* Daniel K. Biss, [[Daniel Christensen]], [[Daniel Dugger]], [[Daniel Isaksen]], _Large annihilators in Cayley-Dickson algebras II_, 	Boletin de la Sociedad Matematica Mexicana (3) 13(2) (2007), 269-292 ([arxiv:math/0702075](https://arxiv.org/abs/math/0702075))
+
+
+* Daniel K. Biss, [[Daniel Christensen]], [[Daniel Dugger]], [[Daniel Isaksen]], _Eigentheory of Cayley-Dickson algebras_, 
+Forum Mathematicum 21(5) (2009), 833-851 ([arxiv:0905.2987](https://arxiv.org/abs/0905.2987))
+
+
+
+
+See also
 
 * Wikipedia, _[Cayley&#8211;Dickson construction](https://en.wikipedia.org/wiki/Cayley%E2%80%93Dickson_construction)_
 
