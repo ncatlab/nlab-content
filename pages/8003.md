@@ -26,7 +26,7 @@ If the category is  even a [[bipermutative category]] then the corresponding [[K
 ### Via topological group completion
  {#ViaTopologicalGroupCompletion}
 
-For $\mathcal{C}$ a [[category]], write ${\vert \mathcal{C}\vert} \in$ [[classical model structure on simplicial sets|sSet]] $\simeq_{Qu}$ [[classical model structure on topological spaces|Top]] for its [[nerve]]/[[geometric realization]]. (Bewqare that this is often denoted $B C$, instead, but that notation clashes with that for [[delooping]], which we also need in the following.)
+For $\mathcal{C}$ a [[category]], write ${\vert \mathcal{C}\vert} \in$ [[classical model structure on simplicial sets|sSet]] $\simeq_{Qu}$ [[classical model structure on topological spaces|Top]] for its [[nerve]]/[[geometric realization]]. (Beware that this is often denoted $B C$, instead, but that notation clashes with that for [[delooping]], which we also need in the following.)
 
 For $\mathcal{C}$ a [[permutative category]] its [[nerve]]/[[geometric realization]] $\vert \mathcal{C} \vert$ is naturally a [[topological monoid]] ([Quillen 70](#Quillen70) see e.g. [May 13, theorem 4.10](#May13)), hence admits a [[bar construction]]/[[classifying space]] $B {\vert \mathcal{C}\vert}$. The [[loop space]] of that
 
@@ -258,7 +258,7 @@ The generalization of K-theory of permutative categories to [[Mackey functors]] 
 
 * {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_, Algebraic & Geometric Topology 15.1 (2015): 537-563 ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
 
-Genralization to [[equivariant stable homotopy theory]] and [[G-spectra]] is discussed in 
+Generalization to [[equivariant stable homotopy theory]] and [[G-spectra]] is discussed in 
 
 * {#GuillouMay12} [[Bert Guillou]], [[Peter May]], around section 4.4 of  _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
