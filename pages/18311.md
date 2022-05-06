@@ -228,7 +228,7 @@ $$
   \underset{a,b,z \in A}{\forall}
   \left(
     \left(
-      a \cdot z = b \cdot z
+      a + z = b + z
    \right)
      \Rightarrow
    \left(
