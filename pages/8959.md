@@ -79,13 +79,13 @@ Then to explain the [[function type]], we include a clause in the inductive defi
 
 The clause for elements is:
 
-* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a:A$ we have $app(f,a):B$, then $f:A\to B$.  In other words, the collection of elements of type $A\to B$ is the collection of terms $f$ such that for any $a:A$ we have $app(f,a):B$.
+* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(f,a'):B$, then $f:A\to B$.  In other words, the collection of elements of type $A\to B$ is the collection of terms $f$ such that for any $a=a':A$ we have $app(f,a)=app(f,a'):B$.
 
 This is not an inductive definition as we had for the natural numbers; it is merely a simple definition.  On the other hand, we are now using the fact that the function mapping types to their collections of elements is recursively defined, since in order to make this definition, we must invoke it at $A$ and $B$.
 
 For equality, of course we have:
 
-* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a:A$ we have $app(f,a)=app(g,a):B$, then $f=g:A\to B$.
+* if $C\Rightarrow (A\to B)$ for types $A$ and $B$, and for any $a=a':A$ we have $app(f,a)=app(g,a'):B$, then $f=g:A\to B$.
 
 ### Identity types
 
