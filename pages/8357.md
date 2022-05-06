@@ -20,6 +20,8 @@
 
 An [[experiment]] in [[particle physics]] measuring the details of the [[standard model of particle physics]]. Detected the [[Higgs boson]].
 
+Subexperiments include: [[LHCb]], ...
+
 ## Properties
 
 Resolution about $10^{-20}m \simeq 10$ [[TeV]] and currently reached $\simeq 7 TeV$  (e.g. [Mazumdar, slide 7](#Mazumdar))
@@ -44,6 +46,9 @@ Resolution about $10^{-20}m \simeq 10$ [[TeV]] and currently reached $\simeq 7 T
 
 * [[John Ellis]], _Summary of the Nobel Symposium on LHC Results_ ([arXiv:1309.3549](http://arxiv.org/abs/1309.3549))
 
-The LHCb experiment on [[B-meson]] decays (see also at _[[flavour anomaly]]_):
+The [[LHCb]] experiment on [[B-meson]] decays (see also at _[[flavour anomaly]]_):
 
 * [lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html](http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html)
+
+[[!redirects Large Hadron Collider]]
+
