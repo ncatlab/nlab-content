@@ -43,13 +43,22 @@ $$
 
 * For $\mathcal{A}$ an [[abelian category]] and $C_{\bullet, \bullet}$ a [[double complex]] in $\mathcal{A}$, let $X = Tot(C)$ be the corresponding [[total complex]]. This is naturally filtered by either row-degree or by column-degree. The corresponding associated graded complex is what the terms in the _[[spectral sequence of a filtered complex]]_ compute.
 
+* [[associated graded vector space]]
+
 ## Related concepts
 
-* [[spectral sequence of a filtered complex]]
-* [[associated graded ring]] (or algebra)
-[[!redirects associated graded]]
-[[!redirects associated graded objects]]
+[[!include filtered objects -- contents]]
+
 
 ## References
 
 Discussion of the universal property of the associated graded construction on [mathoverflow](http://mathoverflow.net/questions/263/what-is-the-universal-property-of-associated-graded)
+
+
+[[!redirects associated graded]]
+[[!redirects associated graded objects]]
+
+[[!redirects associated graded space]]
+[[!redirects associated graded spaces]]
+
+
