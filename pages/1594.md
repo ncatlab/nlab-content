@@ -161,7 +161,7 @@ See also
 
 Textbook account:
 
-* {#Ratcliffe06} John Ratcliffe, _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Springer 2006
+* {#Ratcliffe06} [[John Ratcliffe]], _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics 149, Springer 2006 ([doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>)
 
 On [[Riemannian orbifolds]]:
 
