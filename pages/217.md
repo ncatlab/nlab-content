@@ -137,7 +137,7 @@ An insightful and non-partisan view of ETCS can be found in a section of:
 
 An extended discussion from a philosophical perspective is in
 
-* {#McLarty04}[[Colin McLarty]], _Exploring Categorical Foundations_ , Phil. Math. **12** no.3 (2004) 37-53.
+* {#McLarty04}[[Colin McLarty]], _Exploring Categorical Structuralism_ , Phil. Math. **12** no.3 (2004) 37-53.
 
 For a more recent review from a critical perspective containing additional recent references see
 
