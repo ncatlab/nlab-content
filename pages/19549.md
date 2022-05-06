@@ -25,6 +25,9 @@ The induced [[action]] of [[G2]] on $S^6$ induces an [[almost Hermitian structur
 
 Review in is in [Agrikola-Borowka-Friedrich 17](#AgrikolaBorowkaFriedrich17)
 
+[[!include coset space structure on n-spheres -- table]]
+
+
 ### Complex structure
 
 A famous open problem is the question whether the 6-sphere admits an actual [[complex structure]]. For review see [Bryant 14](#Bryant14).
