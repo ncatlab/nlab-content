@@ -22,6 +22,11 @@ On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergr
 * {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
 
 
+Discussion of [[Killing spinors]] in models of [[D=6 N=(1,0) SCFT]]:
+
+* Mehmet Akyol, [[George Papadopoulos]], _$(1,0)$ superconformal theories in six dimensions and Killing spinor equations_, JHEP 07 (2012) 070 ([arXiv:1204.2167](https://arxiv.org/abs/1204.2167))
+
+
 
 
 ## Related $n$Lab entries
