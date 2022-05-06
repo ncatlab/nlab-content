@@ -105,3 +105,5 @@ To make substitution a total function, we identify any two terms that differ onl
 * $App^{x:A.B}(M,P) \sim_{\alpha} App^{y:A.B}(M[y/x],P[y/x])$.
 
 This is the relation of [[alpha equivalence|$\alpha$-equivalence]] on the raw terms.  The set of *terms* is the set $Tm = RawTm/\sim_{\alpha}$.  Substitution is a (total) function $Tm \times Tm \times Var \to Tm$.  In particular, the substitution $(\lambda(x : A.B). App^{x:A.B}(f, x))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$ is now defined.  It is equivalent to $(\lambda(w : A.B). App^{w:A.B}(f, w))[App^{z:C.(\Pi(x:A).B)}(x, z)/f]$ by the second condition on $\sim_{\alpha}$, and now the nontrivial case of substitution applies, giving $M[N/f] = \lambda(x : A.B). App^{x:A.B}(App^{z:C.(\Pi(x:A).B)}(x, z), x)$.
+
+category: Initiality Project
