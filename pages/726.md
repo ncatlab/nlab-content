@@ -19,7 +19,18 @@ which is an exposition of Taylor's [[Abstract Stone Duality]].
 
 ## Related entries
 
-* [[Practical Foundations for Programming Languages]]
+* [[Robert Harper]],
+
+  _[[Practical Foundations for Programming Languages]]_,
+
+  Cambridge University Press (2016), ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
+
+
+* [[William Lawvere]], [[Robert Rosebrugh]], 
+
+  _[[Sets for Mathematics]]_, 
+
+  Cambridge UP  2003 ([book homepage](http://www.mta.ca/~rrosebru/setsformath/), [GoogleBooks](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics), [pdf](http://patryshev.com/books/Sets%20for%20Mathematics.pdf))
 
 
 category: reference
