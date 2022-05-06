@@ -243,7 +243,7 @@ The form of [[shape theory]] developed by  [[Sibe Mardesic|Marde&#353;i&#263;]] 
 
 * A. Deleanu, P. Hilton, Borsuk shape and Grothendieck categories of pro-objects, Math. Proc. Camb. Phil. Soc.79-3 (1976), 473-482 [MR400220](http://www.ams.org/mathscinet-getitem?mr=400220)
 
-
+* Walter Tholen, _Pro-categories and multiadjoint functors_, Canadian J. Math. __36__:1 (1984) 144-155 [doi](https://doi.org/10.4153/CJM-1984-010-2)
 
 [[!redirects pro-objects]]
 [[!redirects pro object]]
