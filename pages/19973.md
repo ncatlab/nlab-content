@@ -1,9 +1,13 @@
 
 ## Related concepts
 
-* [[flavour anomaly]]
+* [[CKM matrix]]
 
 * [[color charge]]
+
+* [[flavour anomaly]]
+
+* [[V_cb puzzle]]
 
 ## References
 
