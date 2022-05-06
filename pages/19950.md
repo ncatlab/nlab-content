@@ -379,7 +379,6 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 * {#Wasserman69} [[Arthur Wasserman]], section 3 of _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
-* {#tomDieck75} [[Tammo tom Dieck]], _Orbittypen und äquivariante Homologie II_, Arch. Math. (Basel)26(1975), no. 6, 650–662 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tomdieck2.pdf))
 
 * {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
 
