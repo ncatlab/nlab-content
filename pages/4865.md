@@ -267,6 +267,9 @@ See also
 
 * {#Page83} [[Don Page]], _Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity_, Phys. Rev. D 28, 2976 (1983) ([spire:14480](http://inspirehep.net/record/14480) [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976))
 
+* [[Ergin Sezgin]], _11D Supergravity on $AdS_4 \times S^7$ versus $AdS_7 \times S^4$_ ([arXiv:2003.01135](https://arxiv.org/abs/2003.01135))
+
+
 A classification of symmetric solutions is discussed in
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_ ([arXiv:1112.4967](http://arxiv.org/abs/1112.4967))
