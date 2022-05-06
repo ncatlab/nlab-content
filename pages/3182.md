@@ -20,7 +20,7 @@
 
 ## Idea 
 
-A _Euclidean-topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form of [[Euclidean topology]].
+A _Euclidean-generated $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form of [[Euclidean topology]].
 
 Examples of [[1-truncated]] type are [[topological groupoid]]s/[[topological stack]]s whose topologies are detectable by maps out of [[Euclidean topology|Euclidean topologies]], for instance [[internal groupoid]]s in [[topological manifold]]s. 
 
@@ -993,6 +993,8 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 ## Related concepts
 
+* [[Euclidean-generated space]]
+
 * [[cohesive (∞,1)-topos]]
 
   * [[discrete ∞-groupoid]]
@@ -1033,6 +1035,18 @@ Discussion of [[geometric realization of simplicial topological spaces|geometric
 
 * [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
  {#Stevenson}
+
+
+
+[[!redirects Euclidean-generated infinity-groupoids]]
+[[!redirects Euclidean-generated infnity-groupoid]]
+[[!redirects Euclidean-generated ∞-groupoid]]
+[[!redirects Euclidean-generated ∞-groupoids]]
+[[!redirects Euclidean generated infinity-groupoid]]
+[[!redirects Euclidean generated infinity-groupoids]]
+[[!redirects Euclidean generated ∞-groupoid]]
+[[!redirects Euclidean generated ∞-groupoids]]
+
 
 
 [[!redirects Euclidean-topological infinity-groupoid]]
