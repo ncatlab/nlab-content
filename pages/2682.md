@@ -237,15 +237,6 @@ based on conjectures in
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Homological Mirror Symmetry and torus fibrations_, ([math.SG/0011041](http://arxiv.org/abs/math/0011041))
 
-Discussion of aspects of [[effective field theories]] which might rule them out as having a [[UV-completion]] by a [[string theory]] [[vacuum]] has been initiated in 
-
-* {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
-
-See also
-
-* {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
-
-* Ben Heidenreich, [[Matthew Reece]], Tom Rudelius, _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
 
 ### Phenomenological speculation
  {#ReferencesPhenomenologicalSpeculation}
@@ -364,6 +355,25 @@ On the other hand, discussion casting doubt on the existence of a large number o
 
 * Jakob Moritz, Ander Retolaza, Alexander Westphal, _On uplifts by warped anti-D3-branes_ ([arXiv:1809.06618](https://arxiv.org/abs/1809.06618))
 
+
+### The Swampland
+ {#ReferencesSwampland}
+
+Discussion of aspects of [[effective field theories]] which might rule them out as having a [[UV-completion]] by a [[string theory]] [[vacuum]] has been initiated in 
+
+* {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
+
+Comprehensive review is in:
+
+* Eran Palti, _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
+
+See also
+
+* {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
+
+* Ben Heidenreich, [[Matthew Reece]], Tom Rudelius, _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
+
+
 Implications of the possible non-existence of de Sitter vacua in string theory are explored in
 
 * {#ObiedOoguriSpodyneikoVafa18} Georges Obied, [[Hirosi Ooguri]], Lev Spodyneiko, [[Cumrun Vafa]], _De Sitter Space and the Swampland_ ([arXiv:1806.08362](https://arxiv.org/abs/1806.08362))
@@ -373,6 +383,7 @@ Implications of the possible non-existence of de Sitter vacua in string theory a
 * {#Vafa18} [[Cumrun Vafa]], _Cosmology and the String Swampland_, talk at _[Strings 2018](https://indico.oist.jp/indico/event/5/)_ ([pdf slides](https://indico.oist.jp/indico/event/5/picture/96.pdf), [recording](https://www.youtube.com/watch?v=fU8sJRCRz24&t=1904s))
 
 * [[Frederik Denef]], Arthur Hebecker, Timm Wrase, _The dS swampland conjecture and the Higgs potential_ ([arXiv:1807.06581](https://arxiv.org/abs/1807.06581))
+
 
 
 
