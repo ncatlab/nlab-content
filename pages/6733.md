@@ -423,6 +423,8 @@ Further reviews and general accounts include
 ### Black brane description
  {#ReferencesAsBlackBrane}
 
+#### Unwrapped
+
 The M5 was first found as a [[black brane]] of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
 
 * {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.),  _[[The World in Eleven Dimensions]]_ 135-141 ([spire](http://inspirehep.net/record/338203?ln=en))
@@ -454,6 +456,33 @@ Discussion in terms of [[E11]]-[[U-duality]] and [[current algebra]] is in
 * [[Hirotaka Sugawara]], _Current Algebra Formulation of M-theory based on E11 Kac-Moody Algebra_, International Journal of Modern Physics A, Volume 32, Issue 05, 20 February 2017 ([arXiv:1701.06894](https://arxiv.org/abs/1701.06894))
 
 * [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in E11 Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
+
+#### Wrapped on hyperblic 3-manifolds
+
+Solutions to [[D=11 N=1 supergravity]] describing [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] (with application to the [[3d-3d correspondence]] and [[proof]] of the [[volume conjecture]]):
+
+
+* Aristomenis Donos, [[Jerome Gauntlett]], [[Nakwoo Kim]], Oscar Varelam, _Wrapped M5-branes, consistent truncations and AdS/CMT_, JHEP 1012:003, 2010 ([arXiv:1009.3805](https://arxiv.org/abs/1009.3805)) 
+
+* {#GangKimLee14a} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, _Holography of Wrapped M5-branes and Chern-Simons theory_, Physics Letters B
+Volume 733, 2 June 2014, Pages 316-319 ([arXiv:1401.3595](https://arxiv.org/abs/1401.3595))
+
+* {#GangKimLee14b} Dongmin Gang, [[Nakwoo Kim]], Sangmin Lee, _Holography of 3d-3d correspondence at Large $N$_, JHEP04(2015) 091 ([arXiv:1409.6206](https://arxiv.org/abs/1409.6206))
+
+* {#GangKim18} Dongmin Gang, [[Nakwoo Kim]], _Large $N$ twisted partition functions in 3d-3d correspondence and Holography_, Phys. Rev. D 99, 021901 (2019) ([arXiv:1808.02797](https://arxiv.org/abs/1808.02797))
+
+* {#GangKimPandoZayas19} Dongmin Gang, [[Nakwoo Kim]], Leopoldo A. Pando Zayas, _Precision Microstate Counting for the Entropy of Wrapped M5-branes_ ([arXiv:1905.01559](https://arxiv.org/abs/1905.01559))
+
+Discussion of the [[volume conjecture]] by combining the 3d/3d correspondence with [[AdS/CFT]] in these backgrounds:
+
+* [Gang-Kim-Lee 14b, Section 3.2](#GangKimLee14b)
+
+* [Gang-Kim 18, around (21)](#GangKim18)
+
+Enhanced to a [[defect field theory]]:
+
+* Dongmin Gang, [[Nakwoo Kim]], Mauricio Romo, Masahito Yamazaki, _Aspects of Defects in 3d-3d Correspondence_, J. High Energ. Phys. (2016) ([arXiv:1510.05011](https://arxiv.org/abs/1510.05011))
+
 
 
 ### $\sigma$-Model description
