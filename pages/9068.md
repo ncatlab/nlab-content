@@ -1,3 +1,23 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+##Idea
+
+Just as the concept of a [[dense functor]] is a generalization of [[dense subspace]]. A **codense functor** generalizes the concept of a [[codense subspace]].
+
+
 ## Definition
 
 Let $F\colon A \to B$ be a [[functor]] between [[categories]]. It is **codense** when for each $b \in B$ the following is true:
