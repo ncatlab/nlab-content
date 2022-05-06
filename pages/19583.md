@@ -58,7 +58,12 @@ $$
 
 ### General
 
-Review includes
+Textbook accounts:
+
+* {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], Section 5.11 of: _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
+
+
+Further review:
 
 * {#Sachdev18} [[Subir Sachdev]], _The SYK model_, talk at [Aspen Center for Physics](https://www.aspenphys.org/), 2018 ([pdf](http://qpt.physics.harvard.edu/talks/aspen_tutorial18.pdf))
 
