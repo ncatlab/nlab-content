@@ -11,5 +11,7 @@
 
 * [[allegory]]
 
+* [[bicategory of relations]]
+
 category: people
 [[!redirects Robert F. C. Walters]]
