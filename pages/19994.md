@@ -18,11 +18,24 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterot
 
 Scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[heterotic line bundle models]]:
 
-* [[Lara Anderson]], Andrei Constantin, [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
+* [[Lara Anderson]], [[Andrei Constantin]], [[James Gray]], [[Andre Lukas]], [[Eran Palti]], _A Comprehensive Scan for Heterotic $SU(5)$ GUT models_, JHEP01(2014)047 ([arXiv:1307.4787](https://arxiv.org/abs/1307.4787))
 
 On [[moduli stabilization]]:
 
 * [[Lara Anderson]], [[James Gray]], [[Andre Lukas]], [[Burt Ovrut]], _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
+
+On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterotic line bundle models]]:
+
+* [[Andreas Braun]], Callum R. Brodie, [[Andre Lukas]], _Heterotic Line Bundle Models on Elliptically Fibered Calabi-Yau Three-folds_, JHEP04 (2018) 087 ([arXiv:1706.07688](https://arxiv.org/abs/1706.07688))
+
+
+On computation of [[Yukawa couplings]] in [[heterotic string theory]]:
+
+* Stefan Blesneag, [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], [[Eran Palti]], _Matter Field Kähler Metric in Heterotic String Theory from Localisation_ ([arXiv:1801.09645](https://arxiv.org/abs/1801.09645))
+
+On realizations of the [[MSSM]] [[standard model of particle physics]] in [[heterotic string theory]]:
+
+* {#CHE18} [[Andrei Constantin]], [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_, Physics Letters B Volume 792, 10 May 2019, Pages 258-262 ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
 
 
