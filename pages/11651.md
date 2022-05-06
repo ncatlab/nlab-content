@@ -56,6 +56,8 @@ A higher analog of the connecting homomorphism abive may be interpreted as being
 
 ## Examples
 
+* [[canonical divisor]]
+
 * [[theta divisor]]
 
 ## Related concepts
