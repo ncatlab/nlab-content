@@ -28,6 +28,10 @@ On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA s
 
 * [[Yolanda Lozano]], [[Niall Macpherson]], [[Carlos Nunez]], [[Anayeli Ramirez]], _$AdS_3$ solutions in massive IIA, defect CFTs and T-duality_ ([arxiv:1909.11669](https://arxiv.org/abs/1909.11669))
 
+On [[AdS2/CFT1]]:
+
+* [[Yolanda Lozano]], [[Carlos Nunez]], [[Anayeli Ramirez]], Stefano Speziali, _New $AdS_2$ backgrounds and $\mathcal{N}=4$ Conformal Quantum Mechanics_ ([arXiv:2011.00005](https://arxiv.org/abs/2011.00005))
+
 
 
 category: people
