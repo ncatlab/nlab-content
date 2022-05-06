@@ -41,7 +41,8 @@ or as [[scattering amplitude|decays]] of [[baryons]] that contain $b$ -- [[Lambd
 
 Hence flavour universality in the [[standard model of particle physics]] demands, for example, that the _[[ratios]]_ of decay rates (branching fractions) of [[B-mesons]] into [[electrons]] are the same as into [[muons]], hence that the [[ratio]] 
 
-$$
+\[
+  \label{RKInIntroduction}
   R_K
   \;=\;
   \frac{ 
@@ -49,13 +50,15 @@ $$
   }{
     B \to K e^+ e^-
   }
-$$
+\]
 
 (where $K$ is a "strange meson", a [[meson]] containing a [[strange quark]])
 
 is essentially equal to 1. Any [[statistical significance|significant]] departure of this [[observable]] from 1 would be a _flavour anomaly_ and would mean that there are fundamental processes at play which are not described by the current [[standard model of particle physics]] ("New Physics").
 
 Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with high-luminosity/high-precision [[experiments]], complementary to the traditional high-energy direct detection measurements.
+
+Notice that the channel $R_K$ (eq:RKInIntroduction) is just one of many in which flavour anomalies may and have been seen. There are other decay channels of [[B-mesons]] and there are also flavour anomalies in decays of, for instance,  [[kaons]] ([Buras 16](kaon#Buras16), [Buras 18](kaon#Buras18)).
 
 See [Alonso 19](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
 
