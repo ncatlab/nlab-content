@@ -1,4 +1,5 @@
-My name changed to Felix Cherubini.
+[[!redirects Felix Wellen]]
+My name changed from Felix Wellen.
 
 * [website](http://www.andrew.cmu.edu/user/fwellen/)
 
