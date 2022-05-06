@@ -153,6 +153,8 @@ One particle per knottedness of the cosmological gauge field.
 
 * [[On Vortex Atoms]]
 
+* [[comoving time]]
+
 ## References
 
 The original article stating the _Sakharov conditions_ is
@@ -192,3 +194,7 @@ Review includes
 * {#TroddenCarroll} Mark Trodden, Sean Carroll, TASI Lectures: Introduction to Cosmology _[4.9 Baryon Number violation](http://ned.ipac.caltech.edu/level5/Sept03/Trodden/Trodden4_9.html)_ 
 
 * {#Shu08} Jing Shu, section 7 of _Connecting LHC Signals with Deep Physics at the TeV Scale and Baryogenesis_ 2008
+
+Discussion with focus on [[QCD]]-effects:
+
+* Dominik J. Schwarz, _The first second of the Universe_, Annalen Phys.12:220-270, 2003 ([arXiv:astro-ph/0303574](https://arxiv.org/abs/astro-ph/0303574))
