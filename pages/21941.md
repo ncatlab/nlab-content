@@ -72,7 +72,7 @@ Proof is spelled out in:
 Discussion in terms of [[Brown representability theorem|representing]] [[ring spectra|ring]] [[spectra]]:
 
 
-* [[Larry Smith]], Section 1 of: _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
+* {#Smith73} [[Larry Smith]], Section 1 of: _The Todd character and the integrality theorem for the Chern character_, Illinois J. Math. Volume 17, Issue 2 (1973), 301-310 ([euclid:ijm/1256051760](https://projecteuclid.org/euclid.ijm/1256051760))
 
 
 
