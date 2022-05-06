@@ -34,32 +34,7 @@
 
 * a [[composite Higgs boson]] would be a bound state of a strongly interacting sector beyond the current [[standard model of particle physics]]
 
-* [[D-branes]] and [[anti D-branes]] form bound states by [[tachyon condensation]], thought to imply the classification of [[D-brane charge]] by [[K-theory]]
-
-* [[D5-branes]] and [[NS5-branes]] form bound states to [[(p,q)5-branes]]
-
-* [[M2-M5 brane bound states]]
-
-* [[Dp-D(p+4)-brane bound state]]
-
-  * [[D0-D4 brane bound state]]
-
-  * [[D1-D5 brane bound state]]
-
-  * [[D4-D8 brane bound state]]
-
-  * [[M5-MO9 brane bound state]] 
-
-* [[Dp-D(p+2)-brane bound state]]
-
-  * [[D1-D3-brane bound state]]
-
-  * [[D2-D4-brane bound state]]
-
-  * [[D6-D8-brane bound state]]
-
-* [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
-
+[[!include brane bound states -- table]]
 
 ## References
 
