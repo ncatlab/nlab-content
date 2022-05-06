@@ -28,6 +28,8 @@ If [[particles]] specied are identified [[simple objects]] of a [[DHR category]]
 
 ## Related concepts
 
+* [[dilepton]]
+
 * [[CPT theorem]]
 
 * [[anti-D-brane]]
