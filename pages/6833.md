@@ -40,6 +40,8 @@ See also _[[F-theory]]_.
 
 ## References
 
+### General
+
 As a [[black brane]] the D7 is identified in
 
 * {#BergshoeffRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], Mees de Roo, [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys.B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
@@ -62,5 +64,12 @@ In
 * P. Meessen, T. Ortin, _An $Sl(2,\mathbb{Z})$ Multiplet of Nine-Dimensional Type II Supergravity Theories_ ([arXiv:hep-th/9806120](http://arxiv.org/abs/hep-th/9806120))
 
 it is argued that 7-branes in [[type II string theory]] form not just a doublet, but a triplet under [[S-duality]].
+
+### In M-theory
+
+A lift of [[D8-branes]] to [[M-theory]] [[M-branes]], by [[generalized Scherk-Schwarz reduction]], relating to [[D7-branes]] in [[F-theory]], is proposed in:
+
+* {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
+
 
 [[!redirects D7-branes]]
