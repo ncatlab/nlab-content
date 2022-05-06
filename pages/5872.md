@@ -19,6 +19,11 @@ On [[topological T-duality]]:
 
 * [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv:hep-th/0401168](http://arxiv.org/abs/hep-th/0401168))
 
+On [[spherical T-duality]]:
+
+
+* Lachlan Macdonald, [[Varghese Mathai]], Hemanth Saratchandran, _On the Chern character in Higher Twisted K-theory and spherical T-duality_ ([arXiv:2007.02507](https://arxiv.org/abs/2007.02507))
+
 
 
 
