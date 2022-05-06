@@ -1,0 +1,58 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[spin group]] in [[dimension]] 6.
+
+## Properties
+
+### Exceptional isomorphism
+
++-- {: .num_prop}
+###### Proposition
+
+There is an [[isomorphism]]
+
+$$
+  Spin(6) \simeq SU(4)
+$$
+
+with the [[special unitary group]] of complex dimension 4.
+
+=--
+
+(e.g. [Figueroa-O'Farrill 10, Lemma 8.1](#FigueroaFarrill10))
+
+## Related concepts
+
+* [[SO(2)]], [[Spin(2)]], [[Pin(2)]]
+
+* [[Spin(3)]]
+
+* [[Spin(4)]]
+
+* [[Spin(5)]]
+
+
+## References
+
+* {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 8: _Parallel and Killing spinors_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture8.pdf))
