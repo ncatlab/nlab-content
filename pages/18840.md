@@ -139,7 +139,15 @@ where in the last step we used (eq:ConditionalExpectation).
 
 This says that _assuming_ that $P$ has been observed in the [[pure state]] $\vert \psi\rangle$, then the corresponding [[conditional expectation values]] are the same as actual [[expectation values]] but for the new pure state $\vert P \psi \rangle$.
 
-This is the statement of "[[wave function collapse]]": The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P$ it "collapses" to $P \psi \in \mathcal{H}$ (up to normalization).
+This is the statement of "[[wave function collapse]]": 
+
+$$
+  \vert \psi \rangle \mapsto P \vert \psi \rangle
+  \,.
+$$
+
+
+The original [[wave function]] is $\psi \in \mathcal{H}$, and after observing $P$ it "collapses" to $P \psi \in \mathcal{H}$ (up to normalization).
 
 
 ## Related concepts
