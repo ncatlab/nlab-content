@@ -25,17 +25,31 @@ A _horizontal chord diagram_ on $n$ strands is a finite undirected [[graph]] tha
 
 Here is an example of a horizontal chord diagram on 5 strands:
 
+
 <center>
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagramOnFiveStrandsII.jpg" width="260">
 </center>
 
+## Defintiions
+
+### Set of horizontal chord diagrams
+
+For $n \in \mathbb{N}$, write $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal chord diagrams]] on $n$ strands (the superscript $pb$ is for _[[pure braids]]_).
+
+### Algebra of horizontal chord diagram
+
+For $n \in \mathbb{N}$ and for $R \in $ [[CRing]] a [[commutative ring]], the [[linear span]] $R \langle \mathcal{D}^{pb} \rangle$ on the set of horizontal chord diagrams on $n$ strands becomes an [[graded algebra|graded]] [[associative algebra]] 
 
 
-## Horizontal weight systems
+$$
+  \big( R\langle \mathcal{D}^{pb}\rangle, conc \big)
+$$
 
-For fixed $n \in \mathbb{N}$ and $k$ a [[field]], write $\mathcal{D}^{pb}$ for the [[set]] of [[horizontal chord diagrams]] on $n$ strands (the superscript $pb$ is for _[[pure braids]]_), and write $k\langle \mathcal{D}^{pb}\rangle$ for its $k$-[[linear span]].
+under concatenation of strands.
 
-On this $R$-[[module]] consider the following [[relations]]:
+### The 2T- and 4T-relations
+
+On the $R$-[[module]] $R\langle \mathcal{D}^{pb}\rangle$ of [[horizontal chord diagrams]] consider the following [[relations]]:
 
 The [[2T relations]]:
 
@@ -43,24 +57,32 @@ The [[2T relations]]:
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram2TRelation.jpg" width="600">
 </center>
 
-
 and the [[4T relations]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/HorizontalChordDiagram4TRelation.jpg" width="600">
 </center>
 
-Then a $k$-[[linear map]] on the [[quotient vector space]]
+In terms of the [[commutator]] [[Lie algebra]] of the algebra $\big( R\langle \mathcal{D}^{pb}\rangle, conc \big)$ of horizontal chord diagrams, these are the [[infinitesimal braid relations]].
 
-$$
+One writes
+
+\[
+  \label{QuotientModule}
   \mathcal{A}^{pb}
   \;\coloneqq\;
-  k\langle \mathcal{D}^{pb}\rangle/(2T,4T)
-$$
+  R\langle \mathcal{D}^{pb}\rangle/(2T,4T)
+\]
 
+for the [[quotient algebra]] of horizontal chord diagrams by these relations.
+
+
+### Horizontal weight systems
+
+An $R$-[[linear map]] from the [[quotient module]] (eq:QuotientModule) tr $R$
 is called a _[[weight system]]_ on horizontal chord diagrams (of $n$ strands), or maybe a _[[horizontal weight systems]]_.
 
-Hence the [[vector space]] of all horizontal weight systems is the [[dual vector space]]
+Hence for $R = k$ a [[field]], the [[vector space]] of all horizontal weight systems is the [[dual vector space]]
 
 $$
   \mathcal{W}^{pb}
