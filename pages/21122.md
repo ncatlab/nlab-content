@@ -47,6 +47,8 @@
 
     * [[vacuum energy]]
 
+    * [[vacuum polarization]]
+
     * [[interacting vacuum]]
 
     * [[thermal vacuum]], [[KMS state]]
