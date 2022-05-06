@@ -152,8 +152,18 @@ Identification of [[Higgs branches]]/[[Coulomb branches]] in [[D=3 N=4 super Yan
 
 Discussion of the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
 
-
 * [[Mathew Bullimore]], Andrea E.V. Ferrari, Heeyeon Kim, _Twisted Indices of 3d N=4 Gauge Theories and Enumerative Geometry of Quasi-Maps_ ([arXiv:1812.05567](https://arxiv.org/abs/1812.05567))
+
+See also on the [[Witten index]] for [[D=3 N=2 super Yang-Mills theory]]:
+
+* [[Mathew Bullimore]], Andrea E. V. Ferrari, Heeyeon Kim, _The 3d Twisted Index and Wall-Crossing_ ([arXiv:1912.09591](https://arxiv.org/abs/1912.09591))
+
+### Wilson loop operators
+
+On [[Wilson loop operators]] in [[D=3 N=4 super Yang-Mills theory]]:
+
+* [[Tudor Dimofte]], Niklas Garner, Michael Geracie, Justin Hilburn, _Mirror symmetry and line operators_ ([arXiv:1908.00013](https://arxiv.org/abs/1908.00013))
+
 
 
 [[!redirects D=3 N=4 super Yang-Mills theories]]
