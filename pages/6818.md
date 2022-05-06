@@ -35,6 +35,18 @@ The [[D-brane]] in [[type IIA supergravity]] of [[dimension]] 2+1.
 
 * [[Myers effect]]
 
+\linebreak
+
 [[!include table of branes]]
+
+
+## References
+
+* M.P. Garcia del Moral, C. Las Heras, _D2-brane with RR and NSNS fluxes and its dual M-theory origin_ ([arXiv:2012.14069](https://arxiv.org/abs/2012.14069))
+
+
+
+
+
 
 [[!redirects D2-branes]]
