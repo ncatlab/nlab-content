@@ -14,7 +14,6 @@
 {:toc}
 
 
-
 ## Idea
 
 The _quaternion group_ of [[order of a group|order]] 8, $Q_8$, is the [[finite subgroup of SU(2)]] $Q_8 \subset SU(2) \simeq S^3 \subset \mathbb{H}$ of unit [[quaternions]] which consists of the canonical four [[linear basis|basis]]-quaternions and their negatives:
@@ -104,8 +103,15 @@ $$
 
 Let us call $G$ the group presented by this presentation, then there is an obvious epimorphism from $G$ to $Q$ sending $x$ to $\xi$ and $y$ to $\eta$. This is an isomorphism as will be clear if we show that the order of $G$ is less than of equal to 8.  Now every element of $G$ can be written in the form $x^i y^j$ with $0\leq i\leq 3$ and $0\leq j\leq 1$, since $y x=x^{-1}y$ so powers of $y$ can be shifted to the right in any expression and then if the resulting power of $y$ is greater than 2 we can use $y^2=x^2$ to replace even powers of $y$ by powers of $x$. We must therefore have that the group $G$ must contain at most 8 elements so the above presentation is a presentation of $Q_8$.
 
+### Subgroup lattice
+ {#SubgroupLattice}
+
+The following shows the [[subgroup lattices]] of the first few [[generalized quaternion groups]]:
 
 
+<center>
+<img src="https://ncatlab.org/nlab/files/SubgroupLatticesOfQuaternionGroups.jpg" width="700">
+</center>
 
 
 ## Related entries
@@ -145,11 +151,16 @@ See also
 
 * GroupNames, _[Quaternion groups $Q_{2^n}$](https://people.maths.bris.ac.uk/~matyd/GroupNames/quaternion.html)_
 
-[[!redirects quaternionic group]]
-
-
 [[!redirects quaternion groups]]
 
+[[!redirects quaternionic group]]
 [[!redirects quaternionic groups]]
+
+[[!redirects generalized quaternionic group]]
+[[!redirects generalized quaternionic groups]]
+
+[[!redirects generalized quaternion group]]
+[[!redirects generalized quaternion groups]]
+
 
 [[!redirects Q8]]
