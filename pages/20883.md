@@ -49,6 +49,10 @@ For [[horizontal chord diagrams]] we have: _[[all horizontal weight systems are 
 
 ([Bar-Natan 96](#BarNatan96))
 
+### Stringy weight systems span classical Lie algebra weight systems
+
+[[stringy weight systems span classical Lie algebra weight systems]]
+
 
 ### As expectation values of single trace observables
  {#AsExpectationValuesOfSingleTraceOperators}
