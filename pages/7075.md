@@ -254,6 +254,12 @@ For more discussion in [[homotopy type theory]] see also at
 
 * [HoTT Wiki](https://ncatlab.org/homotopytypetheory/show/HomePage), _[[homotopytypetheory:Hopf fibration]]_
 
+Discussion of [[supersymmetry|supersymmetric]] Hopf fibrations:
+
+* [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam and A. Stern, section 9.3 of _Gauge Symmetries and Fibre Bundles_, Lect. Notes in Physics 188, Springer-Verlag, Berlin, 1983 ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910))
+
+* Simon Davis, section 3 of _Supersymmetry and the Hopf fibration_ ([doi:10.4995/agt.2012.1623](https://doi.org/10.4995/agt.2012.1623))
+
 [[!redirects Hopf fibrations]]
 
 [[!redirects complex Hopf fibration]]
