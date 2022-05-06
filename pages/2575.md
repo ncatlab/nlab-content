@@ -937,7 +937,7 @@ and references cited there.
 
 Discussion in terms of [[geometric quantization by push-forward]] is in 
 
-* {#FreedHopkinsTeleman07} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909)), chapter XIX, pages 395-419 in: Oscar Garcia-Prada, Jean Pierre Bourguignon, Simon Salamon (eds.) _The Many Facets of Geometry: A Tribute to Nigel Hitchin_, Oxford University Press 2010 ([doi:10.1093/acprof:oso/9780199534920.001.0001](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199534920.001.0001/acprof-9780199534920))
+* {#FreedHopkinsTeleman07} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Consistent Orientation of Moduli Spaces_ ([arXiv:0711.1909](http://arxiv.org/abs/0711.1909)), chapter XIX, pages 395-419 in: Oscar Garcia-Prada, Jean Pierre Bourguignon, [[Simon Salamon]] (eds.) _The Many Facets of Geometry: A Tribute to Nigel Hitchin_, Oxford University Press 2010 ([doi:10.1093/acprof:oso/9780199534920.001.0001](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199534920.001.0001/acprof-9780199534920))
  
 
 The "[[prequantum circle n-bundle|prequantum circle 3-bundle]]" in codimension 3, was constructed in 
