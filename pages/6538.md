@@ -40,6 +40,15 @@ These formulas make sense for more general [[dual bialgebra|Hopf algebras in dua
 
 They can also be related to the [[fundamental operator]] in Hopf algebra $H$, see under [[multiplicative unitary]].
 
+### Literature
+
+* V. Lyubashenko, _Modular transformations and tensor categories_, J. Pure Appl. Algebra __98__ (1995) 279–327 <a href="https://doi.org/10.1016/0022-4049(94)00045-K">doi</a>
+
+> For an abelian tensor category we investigate a Hopf algebra F in it, the “algebra of
+functions” or “automorphisms of the identity functor”. We show the existence of the object of integrals for any Hopf algebra in a rigid abelian category. If some assumptions of finiteness and non-degeneracy are satisfied, the Hopf algebra F has an integral and there are morphisms $S, T : F \to F$, called modular transformations. They yield a representation of a modular group. The properties of $S$ are similar to those of the Fourier transform.
+
+* V. Lyubashenko, S. Majid, _Fourier transform identities in quantum mechanics and the quantum line_, Phys. Lett. B284 (1992) 66-70 <a href="https://doi.org/10.1016/0370-2693(92)91926-Z">doi</a>; _Braided groups and quantum Fourier transform_, J. Algebra 166 506-28 [doi](https://doi.org/10.1006/jabr.1994.1165)
+* T H Koornwinder, B J Schroers, J K Slingerland, F A Bais, _Fourier transform and the Verlinde formula for the quantum double of a finite group_,  J. Phys. A32: 48 [doi](https://doi.org/10.1088/0305-4470/32/48/313) 
 * [[Shahn Majid]], _Foundations of quantum group theory_, 1995, 2nd. ed 2000
 * M. Enock, J. M. Schwartz, _Kac algebras and duality of locally compact groups_,  Springer-Verlag, 1992, , x+257 pp. [gBooks](http://books.google.com/books/about/Kac_algebras_and_duality_of_locally_comp.html?id=U6e6aD1gj3oC), [MR94e:46001](http://www.ams.org/mathscinet-getitem?mr=1215933)
 * Massoud Amini, _Tannaka&#8211;Krein duality for compact groupoids I, Representation theory_, Advances in Mathematics __214__, n. 1, 2007, 78-91 [doi](http://dx.doi.org/10.1016/j.aim.2006.09.015) 
