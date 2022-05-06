@@ -103,8 +103,33 @@ More generally:
 If $\mathcal{E}$ is a subclass of epimorphisms, we say that $(S_a)_{(a\colon A)}$ is an _$\mathcal{E}$-separator_ or __$\mathcal{E}$-generator__ if each morphism $\varepsilon_X$ (as above) is in $\mathcal{E}$.
 =--
 
-The weakest commonly-seen strengthed generator is an __extremal separator__.
-This can be expressed equivalently, without requiring local smallness or the existence of coproducts, by saying that the family $C(S_a,-)$ is jointly faithful and jointly [[conservative functor|conservative]]. Since strong epis are extremal, strong generators are extremal.
+The weakest commonly-seen strengthened notion is that of __extremal separator__, i.e. separator where all maps $\varepsilon_X$ are [[extremal epimorphisms]]. The notion of extremal separator admits an 
+equivalent reformulation not referencing coproducts:
+
++-- {: .num_prop}
+###### Proposition
+
+If $C$ is [[locally small category|locally small]] and has all small [[coproduct]]s, then a set-indexed family $(S_i)_{(i\colon I)}$ is an extremal separator if and only if 
+the functors $C(S_i,-):C\to\mathrm{Set}$ are jointly faithful and jointly [[conservative functor|conservative]].
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume first that the family $(S_i)_{(i\colon I)}$ is an extremal separator.
+The functors $C(S_i,-):C\to\mathrm{Set}$ are jointly faithful for every separator.
+To see that they are also jointly conservative, let $f:A\to B$ such that all
+$C(S_i,f)$ are bijective. Then $\varepsilon_B$ factors through $f$ since all its
+components do, which implies that $f$ is an extremal epi since $\varepsilon_B$ is one by assumption. It remains to show that $f$ is a monomorphism. For this, let $u,v:X\to A$ such that $f u = f v$. Then we have $f u h = f v h$ for all $i\in I$ and $h:S_i\to X$,
+which implies $u h = v h$ since the $C(S_i,f)$ are bijective, and we conclude that $u=v$
+since $(S_i)_{(i\colon I)}$ is separating.
+
+Conversely, assume that the functors $C(S_i,-)$ are jointly faithful and jointly
+conservative. Given $A\in C$, joint faithfulness shows that $\varepsilon_A$ is epic.
+To see that it is extremally so, assume a factorization $\varepsilon_A = mg$ with $m$ monic. We have to show that 
+$m$ is an isomorphism, and for this it is sufficient to show that all $C(S_i,m)$
+are bijections. Injectivity is clear since $m$ is monic, and surjectivity follows since every $h:S_i\to A$ factors through $\varepsilon_A$.
+=--
 
 +-- {: .un_remark}
 ###### Warning
