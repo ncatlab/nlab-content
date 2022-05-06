@@ -28,9 +28,9 @@ A _[[series]]_ is just a [[sequence]].
 
 But one says _series_ instead of _sequence_ when one is interested in studying its partial [[sums]]. In particular it means something different to say that a series _converges_ than to say that a sequence converges. The series $n\mapsto a_n$ converges if and only if the sequence $n\mapsto \sum_{i\lt n}a_i$ converges. 
 
-### Presheaves
+### Presheaves and copresheaves
 
-A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]].  
+A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]], just as a [[copresheaf]] is just a functor.  
 
 (More specifically, an "$S$-valued presheaf" is a contravariant functor with [[codomain]] a given [[category]] $S$; in modern [[category theory]] the "default" value of $S$ for a presheaf is usually [[Set]].) 
 
@@ -53,7 +53,7 @@ But in [[mathematical physics]] one says _field_ instead of _section of a fiber 
 
 ### Random variables and estimators
 
-Both [[random variable|random variables]] and estimators are almost always just [[real number|real valued]] [[measurable function| measurable maps]]. But sometimes the former takes more general values in some [[Polish space]] instead.
+Both [[random variable|random variables]] and estimators are almost always just [[real number|real valued]] [[measurable function| measurable maps]]. Though sometimes the former takes more general values in some [[Polish space]] instead.
 
 But in [[probability theory]] a random variable is interpreted as a map from a _sample space_ to a _space of [[state|states]]_ which represents the observed outcomes or outcomes predicted by some model.
 In contrast in [[statistics]] an estimator guesses or estimates a certain parameter associated to some random model.
