@@ -20,7 +20,7 @@
 
 ## Idea
 
-Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable type checking]] based on subsumptive [[equality types]]. "CLF" abbreviates "Computational Logical Framework". So far, it's just Matt Oliveri's unpublished metatheory development, but information may appear here.
+Proto CLF is a work-in-progress [[proof assistant]] design combining ideas from [[Nuprl]], [[LF]], and [[decidability|undecidable proof checking]]. "CLF" abbreviates "Computational Logical Framework". So far, it's just Matt Oliveri's unpublished plans and metatheory development, but information may appear here.
 
 ## Syntax
 
