@@ -8,4 +8,6 @@
 
 * [[Green-Schwarz mechanism]]
 
+* [[de Sitter spacetime]]
+
 category: people
