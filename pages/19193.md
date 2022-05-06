@@ -39,7 +39,10 @@ For structure on [[galaxy|galactic]] scales (such as [[galaxy rotation curves]] 
 
 * [[observable universe]]
 
+* [[QCD cosmology]]
+
 * [[dark matter]]
+
 
 
 ## References
