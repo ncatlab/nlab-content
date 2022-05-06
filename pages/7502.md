@@ -35,7 +35,7 @@ $$
 $$
 
 
-out of the [[coproduct]], induced from the [[commuting diagram]]
+out of the [[pushout]], induced from the [[commuting diagram]]
 
 $$
   \array{
