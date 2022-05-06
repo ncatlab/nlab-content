@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -81,6 +80,20 @@ Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$
 
 
 ## Properties
+
+### Quantization via BFSS matrix model
+ {#QuantizationViaBFSSMatrixModel}
+
+A regularized [[quantization]] of the [[Green-Schwarz sigma-model]] for the [[M2-brane]] yields the [[BFSS matrix model]] ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). 
+
+In this correspondence, [[matrix]] blocks around the diagonal correspond to blobs of [[membrane]], while off-diagonal matrix elements correspond to thin tubes of membrane connecting these blobs.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/MatrixMembrane.jpg" width="500">
+</center>
+
+> graphics grabbed from [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)
+
 
 ### Worldvolume theory -- BLG and ABJM
  {#WorldvolumeTheory}
