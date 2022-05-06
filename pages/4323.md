@@ -66,14 +66,14 @@ $$
   Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
 $$
 
-between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundles]] of $V$ with the trivial [[vector bundle]] of [[rank]] $n$ and, on the other, the $n$-fold [[reduced suspension]] of the [[Thom space]] of $V$.
+between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundles]] of $V$ with the [[trivial vector bundle]] of [[rank]] $n$ and, on the other, the $n$-fold [[reduced suspension]] of the [[Thom space]] of $V$.
 
 =--
 
 +-- {: .num_prop #ThomSpaceOfExternalProductOfVectorBundles}
 ###### Proposition
 
-For $V_1 \to X_1$ and $V_2 \to X_2$ to vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$. The corresponding Thom space is the [[smash product]] of the individual Thom spaces:
+For $V_1 \to X_1$ and $V_2 \to X_2$ to vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$ (their [[external tensor product]]). The corresponding [[Thom space]] is the [[smash product]] of the individual Thom spaces:
 
 $$
   Th(V_1 \boxtimes V_2)
@@ -1025,7 +1025,7 @@ contributions by J. E. McClure.
 
 A brief exposition appears as example 3.7 in 
 
-* {#PontoShulman} [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032), [slides](http://www.sandiego.edu/~shulman/papers/ccrtraces.pdf)).
+* {#PontoShulman} [[Kate Ponto]], [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032), [slides](http://www.sandiego.edu/~shulman/papers/ccrtraces.pdf)).
  
 
 
