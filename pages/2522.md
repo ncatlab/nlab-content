@@ -58,7 +58,7 @@ The analog of these Killing vectors in [[supergravity]] are [[Killing spinor]]s:
 [[spinor bundle]] annihilated by the [[spin connection]]'s [[covariant derivative]]).
 For every such, the background has one global supersymmetry transformation. These may or may not exist. Generically they do not.
 
-The most famous example of this is that of [[Calabi-Yau manifolds]]: a  standard assumption on [[phenomenology|phenomenological]] [[model building]] that used to be very popular around the turn of the millenium (but is maybe experimentally ruled out at the time of this writing) is that 
+The most famous example of this is that of [[Calabi-Yau manifolds]]: a  standard assumption on [[phenomenology|phenomenological]] [[model building]] that used to be very popular around the turn of the millennium (but is maybe experimentally ruled out at the time of this writing) is that 
 
 1. the [[spacetime]] we see around us locally looks like a product $M^4 \times Y^6$ of 4-dimensional [[Minkowski space]] times a tiny closed [[Riemannian manifold]] $Y^6$ (so tiny that it is not directly observable but manifests itself only by way of its lowest excitation modes that look like different [[particle]] species on the remaining $M^4$ -- see [[Kaluza-Klein mechanism]] );
 
