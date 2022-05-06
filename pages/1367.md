@@ -214,7 +214,7 @@ This is due to ([Joyal, Chapter 5, Theorem C](#Joyal)).
 
 * Between ordinary categories, it reproduces the ordinary [[category of functors]].
 
-* Since the standard [[model structure on simplicial sets]] presents [[? Grpd]] 
+* Since the standard [[model structure on simplicial sets]] presents [[∞Grpd]] 
 
   $$
     (sSet_{Quillen})^\circ \simeq \infty Grpd
