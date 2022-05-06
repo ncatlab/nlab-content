@@ -13,6 +13,11 @@
 =--
 =--
 
+> when it comes to atoms, language can be used only as in poetry. 
+
+([[Niels Bohr|Bohr]], [1920](https://en.wikiquote.org/wiki/Niels_Bohr))
+
+
 # Contents
 * table of contents
 {: toc}
