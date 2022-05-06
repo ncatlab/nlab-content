@@ -92,9 +92,9 @@ Further comments on the impact of this proof on the development of [[stable homo
 
 Another proof that instead uses [[topological K-theory]], [[Adams operations]] and the [[Atiyah-Hirzebruch spectral sequence]] was given in 
 
-* {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf))
+* {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf), [doi:10.1093/qmath/17.1.31](https://doi.org/10.1093/qmath/17.1.31))
 
-This is reproduced for instance in
+This is reproduced/reviewed in:
 
 * {#Husemoller66} [[Dale Husemöller]], chapter 15 of _Fibre Bundles_, Graduate Texts in Mathematics 20, Springer New York (1966)
 
