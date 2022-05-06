@@ -90,7 +90,6 @@ Realization of the quark-gluon plasma at the [[RHIC]] [[experiment]] has tentati
 
 Description via [[AdS/CFT]], hence "[[AdS/QCD]]" (see at [[string theory results applied elsewhere]]):
 
-
 Expositions and reviews include
 
 * Pavel Kovtun, _Quark-Gluon Plasma and String Theory_, RHIC news (2009) ([blog entry](http://www.bnl.gov/rhic/news/091107/story2.asp))
@@ -108,6 +107,10 @@ Expositions and reviews include
   _Gauge/string duality, hot QCD and heavy ion collisions_, 
 
   Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
+
+and specifically via "[[improved holographic QCD]]"
+
+* {#GKMMN10} Umut Gürsoy, [[Elias Kiritsis]], Liuba Mazzanti, Georgios Michalogiorgakis, Francesco Nitti, _Improved Holographic QCD_, Lect.Notes Phys.828:79-146,2011 ([arXiv:1006.5461](https://arxiv.org/abs/1006.5461))
 
 
 Holographic discussion of the [[shear viscosity]] of the quark-gluon plasma goes back to
