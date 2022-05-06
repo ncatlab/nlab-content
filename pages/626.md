@@ -210,7 +210,7 @@ From the point of view of [[finite quantum mechanics in terms of dagger-compact 
 
 * {#CoeckePractising} [[Bob Coecke]], _Categories for the practising physicist_ ([arXiv:0905.3010](http://arxiv.org/abs/0905.3010))
 
-* [[Bob Coecke]], [[Ross Duncan]], _Interacting Quantum Observables: Categorical Algebra and Diagrammatics_ ([arXiv:0906.4725](http://arxiv.org/abs/0906.4725))
+* [[Bob Coecke]], [[Ross Duncan]], _Interacting Quantum Observables: Categorical Algebra and Diagrammatics_, New J. Phys. 13 (2011) 043016 ([arXiv:0906.4725](http://arxiv.org/abs/0906.4725))
 
 * {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], _Lectures on categorical quantum mechanics_, 2012 ([pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf))
 
