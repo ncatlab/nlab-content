@@ -19,5 +19,9 @@ On [[gauged supergravity|gauged]] [[D=5 supergravity]]:
 
 * [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598 ([spire:219727](http://inspirehep.net/record/219727), <a href="https://doi.org/10.1016/0550-3213(86)90237-3">doi:10.1016/0550-3213(86)90237-3</a>)
 
+On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] vacua in [[string theory]]:
 
-categoiry: people
+* Iosif Bena, Krzysztof Pilch, [[Nicholas Warner]], _Brane-Jet Instabilities_ ([arXiv:2003.02851](https://arxiv.org/abs/2003.02851))
+
+
+category: people
