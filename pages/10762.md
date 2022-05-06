@@ -69,10 +69,15 @@ $$
 
 ### General
 
-The conjecture originates in
+The conjecture originates in:
 
 * {#Adams63} [[John Adams]], _On the groups $J(X)$ I: Topology_, 2 (1963) pp. 181&#8211;195 
  
+Textbook accounts:
+
+* [[Dai Tamaki]], [[Akira Kono]], Section 4.7 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
+
 Review:
 
 * [[Akhil Mathew]], _The Adams conjecture I_ ([web](http://amathew.wordpress.com/2013/01/23/the-adams-conjecture-i/))
