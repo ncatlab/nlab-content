@@ -333,7 +333,7 @@ See at _[[stable splitting of mapping spaces]]_.
 
 Surveys and introductions include
 
-* [[Tom Goodwillie]], _The differential calculus of homotopy functors_, ICM contribution ([pdf](http://math.mit.edu/~nrozen/juvitop/goodwillie-icm.pdf))
+* {#Goodwillie90} [[Tom Goodwillie]], _The differential calculus of homotopy functors_, Proceedings of the International Congress of Mathematicians. Vol. 1. 1990 ([pdf](http://math.mit.edu/~nrozen/juvitop/goodwillie-icm.pdf))
 
 * [[Brian Munson]], _Introduction to the manifold calculus of Goodwillie-Weiss_ ([arXiv:1005.1698](http://uk.arxiv.org/abs/1005.1698))
 
