@@ -123,3 +123,4 @@ The AGT correspondence is treated with the help of a [[Riemann-Hilbert problem]]
 category: physics
 
 [[!redirects AGT conjecture]]
+[[!redirects Class S]]
