@@ -3,6 +3,14 @@
 
 ## Selected writrings
 
+On [[elliptic genera]], the [[Witten genus]] and the [[string orientation of tmf]]:
+
+* {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. Math. 146 (2001) 595&#8211;687 MR1869850 ([doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf))
+
+* {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _The sigma orientation is an H-infinity map_, American Journal of Mathematics Vol. 126, No. 2 (Apr., 2004), pp. 247-334 ([arXiv:math/0204053](http://arxiv.org/abs/math/0204053), [doi:10.1353/ajm.2004.0008](https://doi.org/10.1353/ajm.2004.0008))
+
+* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of $KO$-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+
 On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomology]]:
 
 * {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
