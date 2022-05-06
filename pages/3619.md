@@ -93,6 +93,8 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 ## Related concepts
 
+* [[tensor network]]
+
 * [[entanglement entropy]]
 
 * [[holographic entanglement entropy]]
@@ -139,7 +141,11 @@ Use of [[homological algebra]] for quantifying entanglement:
 * Tom Mainiero, _Homological Tools for the Quantum Mechanic_ ([arXiv:1901.02011](https://arxiv.org/abs/1901.02011))
 
 category: physics
+
 [[!redirects entangled state]]
+[[!redirects entangled states]]
+
 [[!redirects entangled]]
 [[!redirects separable]]
+
 [[!redirects quantum entanglement]]
