@@ -21,3 +21,5 @@ TODO: prove that this defines a category with families.
 
 [[!include Initiality Project - Term Model - Pi-types]]
 
+
+category: Initiality Project
