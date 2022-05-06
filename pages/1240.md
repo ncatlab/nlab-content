@@ -33,7 +33,80 @@ that refines the notion to [[∞-action|∞-representations]] of [[∞-groups]] 
 ### Traditional formulation
  {#TraditionalFormulation}
 
-#### Explanation
+#### Induced representations
+ {#InducedRepresentations}
+
+Every [[subgroup]]-inclusion $H \overset{\iota}{\hookrightarrow} G$ induces a [[restricted representation]]-functor between the corresponding [[categories of representations]]
+
+$$
+  Rep(G)
+    \overset{\iota^\ast }{\longrightarrow}
+  Rep(H)
+$$
+
+which simply [[forgetful functor|forgets]] the full $G$-[[action]] on a given $G$-representation $V$ and remembers only the action of the subgroup $H$.
+
++-- {: .num_defn #InducedRepresentationsAsLeftAdjointToRestriction}
+###### Definition
+**(left-induced representations as [[left adjoint]] to [[restricted representations]])**
+
+If the [[restricted representation|restriction functor]] $\iota^\ast$ has a [[left adjoint]] (which is usually the case, but depends on which exact flavour of [[groups]] and of their [[category of representations]] one considers), then this is called the functor assigning _left-induced representations_, often just _induced representations_, for short:
+
+$$
+  Rep(G)
+    \underoverset
+     {\underset{\iota^\ast}{\longrightarrow}}
+     {\overset{ind_H^G}{\longrightarrow}}
+     {\bot}
+  Rep(H)
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is directly analogous to [[extension of scalars]] $\dashv$ [[restriction of scalars]].
+
+=-- 
+
+With given flavour of [[groups]] and their [[category of representations]] specified, it is typically immediate to give explicit formulas for left induced representations:
+
++-- {: .num_example #InductionOfFiniteDimensionalRepresentationsOfFiniteGroups}
+###### Example
+**(induction of [[finite-dimensional vector space|finite-dimensional]] [[linear representations]] of [[finite groups]])**
+
+In the case that $G$ (and hence $H$) is a [[finite group]] and $Rep(G)$ is the [[category of representations|category of]] [[finite-dimensional vector space|finite-dimensional]] representations over some [[ground field]] $k$.,
+the general induced representation functor (Def. \ref{InducedRepresentationsAsLeftAdjointToRestriction}) exists and is explicitly given by forming the [[tensor product of representations]] with the $H$-[[permutation representation]] spanned by the underlying [[set]] of $G$:
+
+$$
+  ind_H^G
+  \;\colon\;
+  V 
+    \mapsto 
+  k[G] \otimes_{H} V
+  \,.
+$$
+
+For example, if $V = \mathbf{1}$ is the [[trivial representation]] of [[dimension]] 1 then its induced representation is the basic [[permutation representation]] spanned by the [[coset]]-space $G/H$:
+
+$$
+  ind_H^G
+  \left( 
+    \mathbf{1}
+  \right)
+  \;=\;
+  k[G/H]
+  \,.
+$$
+
+See at _[[induced representation of the trivial representation]]_ for more.
+
+=--
+
+<br/>
+
+#### More exposition
  {#TraditionalFormulationExplanation}
 
 Suppose a [[Lie group]] $G$ acts smoothly and transitively on a [[smooth manifold]] $M$.  The [[stabilizer subgroup]] of a given point $x \in M$ is then a Lie subgroup $H \subseteq G$, and 
