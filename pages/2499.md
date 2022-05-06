@@ -467,35 +467,29 @@ See also at _[[rheonomy modality]]_.
 
 #### Details
 
-Let $V$ be a [[super Lie algebra]] and let $X$ a [[V-manifold]]. Write 
+Let $\mathfrak{g}$ be an [[super L-∞ algebra]] and let $X$ be a [[supermanifold]].
 
-$$
+Write
+
+\[
+  \label{SuperLInfinityAlgberaValuedDifferentialForms}
+  \Omega(X,\mathfrak{g})
+  \;\in\;
+  Set
+\]
+
+for the set of [[L-∞ algebra valued differential forms|L-∞ algebra valued]] [[super differential forms]] on $X$.
+
+Write 
+
+\[
+  \label{InclusionOfBosonicPartIntoSupermanifold}
   X^{\rightsquigarrow} 
-  \overset{ \epsilon_X^{\rightsquigarrow} }{\longrightarrow} X
-$$ 
+    \overset{ \epsilon_X^{\rightsquigarrow} }{\longrightarrow} 
+  X
+\] 
 
-for the inclusion of the underlying bosonic manifold (the [[counit of a comonad|counit]] morphism of the [[bosonic modality]] applied to $X$).
-
-We say that a subset 
-
-$$
-  \big\{ \mu \in \Omega(X, \mathfrak{g})\big\}
-  \subset 
-  \Omega(X, \mathfrak{g})
-$$
-
-of super-[[Lie algebra valued differential forms|Lie algebra valued]] [[super differential forms]] is _rheonomic_ if on this subset the [[pullback of differential forms]] along $\epsilon_X^{\rightsquigarrow}$ becomes a [[bijection]]
-
-$$
-  \array{
-    \Omega(X,\mathfrak{g})
-    \overset{
-       \left( \epsilon_X^{\rightsquigarrow} \right)^\ast
-    }{\longrightarrow}
-    \Omega\big( X^{\rightsquigarrow}, \mathfrak{g}\big)
-  }
-$$
-
+for the inclusion of the underlying [[bosonic modality|bosonic]] [[smooth manifold]] (the [[counit of a comonad|counit]] morphism of the [[bosonic modality]] applied to $X$).
 
 If $U \subset X$ is a [[coordinate chart]] with [[coordinates]] $(x^a, \theta^\alpha)$ then restricted to this coordinate chart this pullback map is given by evaluating super-differential forms at $\theta^\alpha = 0$ and $\mathbf{d}\theta^\alpha = 0$
 
@@ -506,9 +500,62 @@ $$
   \left. \omega_{\vert U}\right|_{ {\theta^\alpha = 0} \atop {\mathbf{d}\theta^\alpha = 0} }
 $$
 
-(...)
 
-Sufficient condition: The components of the [[curvature]]-forms with odd-graded indices are linear combinations of the components of the curvature forms without odd-graded indices
+The [[pullback of differential forms]] along (eq:InclusionOfBosonicPartIntoSupermanifold), is a [[function]] of the form
+
+$$
+  \array{
+    \Omega(X, \mathfrak{g})
+    &\overset{ \left( \epsilon^{\rightsquigarrow}_{X} \right)^\ast }{\longrightarrow}&
+    \Omega(X^{\rightsquigarrow}, \mathfrak{g})
+  }
+$$
+
++-- {: .num_defn #RheonomicSetOfDifferentialForms}
+###### Definition
+**(rheonomic set of super differential forms)**
+
+We may say that a [[subset]]
+
+$$
+  \widetilde \Omega(X, \mathfrak{g})
+  \subset 
+  \Omega(X, \mathfrak{g})
+$$
+
+of super-[[Lie algebra valued differential forms|Lie algebra valued]] [[super differential forms]] is _rheonomic_ if on this subset the [[pullback of differential forms]] along $\epsilon_X^{\rightsquigarrow}$ is [[injection|injective]]
+
+$$
+  \array{
+    \widetilde \Omega(X,\mathfrak{g})
+    \overset{
+       \left( \epsilon_X^{\rightsquigarrow} \right)^\ast
+    }{\longrightarrow}
+    \Omega\big( X^{\rightsquigarrow}, \mathfrak{g}\big)
+  }
+$$
+
+=--
+
+More specifically, let now  $V$ be an [[extended super Minkowski spacetime]], with $\mathfrak{g} = \mathrm{iso}(V)$ its super $L_\infty$-extension of the corresponding [[super Poincare Lie algebra]] let $X$ be a [[V-manifold]], and consider the subset
+
+\[
+  \label{GlobalCartanConnectionForms}
+  \widetilde\Omega(X,\mathfrak{g})
+  \;\coloneqq\;
+  \Omega_{Cartan}(X,\mathfrak{g})
+  \subset
+  \Omega(X,\mathfrak{g})
+\]
+
+of globally defined [[Cartan connection]]-forms, meaning that their [[super vielbein]] component is constrained to be non-degenerate, establishing at each [[global element|global point]] an [[linear map|linear]] [[isomorphism]] between its super [[tangent space]] and $V$.
+
++-- {: .num_prop }
+###### Proposition
+
+A sufficient condition for the subset (eq:GlobalCartanConnectionForms) to be rhenonmic (Def. \ref{RheonomicSetOfDifferentialForms}) is that the components of the [[curvature]]-forms with any odd-graded indices are linear combinations of the components of the curvature forms without odd-graded indices.
+
+=--
 
 ([Castellani-D'Auria-Fr&#233; 91, vol 2, (III.3.30)](#CastellaniDAuriaFre))
 
