@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -27,6 +26,10 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 
 ## References
+
+Review:
+
+* Lukas Hahn, _Is String Theory Holographic?_ ([[HahnD1D5.pdf:file]])
 
 ### Via superstrata
 
