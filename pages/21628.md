@@ -9,17 +9,24 @@ This entry collects links related to the forthcoming book
 
   Cambridge University Press
 
+  ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
+
 which introduces [[homotopy type theory]] in general and [[Martin-Löf dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. The book is based on a [course](https://www.andrew.cmu.edu/user/erijke/hott/) taught by Egbert Rijke at Carnegie Mellon University in the spring semester of 2018.
 
-#Contents#
+## Contents
 
 The book contains three chapters:
 
-1. The first chapter introduces the reader to Martin-Löf's dependent type theory. The fundamental concepts of type theory are explained without immediately jumping into the homotopy interpretation of type theory.
-2. The second chapter is an exposition of Voevodsky's Univalent Foundations for mathematics. In this chapter we gradually extend dependent type theory with [[function extensionality]], [[propositional truncation]], the [[univalence axiom]], and the type theoretic [[replacement axiom]].
-3. The third chapter studies [[higher inductive types]], and develops homotopy theory and concepts from [[higher category theory]] in type theory.
+1. The first chapter introduces the reader to [[Martin-Löf's dependent type theory]]. The fundamental concepts of [[type theory]] are explained without immediately jumping into the [[homotopy theory|homotopy]] [[relation between type theory and category theory|interpretation]] of type theory.
 
-#Formalization#
+2. The second chapter is an exposition of [[Vladimir Voevodsky|Voevodsky]]'s [[Univalent Foundations for Mathematics]]. In this chapter we gradually extend [[dependent type theory]] with [[function extensionality]], [[propositional truncation]], the [[univalence axiom]], and the type theoretic [[replacement axiom]].
 
-* The [main formalization](https://github.com/HoTT-Intro/Agda) of the book is in agda
+3. The third chapter studies [[higher inductive types]], and develops [[homotopy theory]] and concepts from [[higher category theory]] in type theory.
+
+## Formalization
+
+* The [main formalization](https://github.com/HoTT-Intro/Agda) of the book is in [[Agda]].
+
 * Parts of the book have also been formalized in [Coq](https://github.com/HoTT-Intro/Coq).
+
+category: reference
