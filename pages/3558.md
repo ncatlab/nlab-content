@@ -1,3 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
+
+# Contents
+* table of contents
+{:toc}
+
+## Idea
+
 A complete Heyting algebra is a [[Heyting algebra]] which is also a [[complete lattice]]; that is, it is a [[poset]] with arbitrary [[limits]] and [[colimits]], which is also [[cartesian closed]].
 
 By the [[adjoint functor theorem]], one can demonstrate that every [[frame]] is a complete Heyting algebra, and vice versa, so far as the underlying [[poset]] goes.  However, morphisms of frames needn't preserve exponentials or infinitary meets, as would most naturally be required of morphisms of complete Heyting algebras.  Also, when considering *large* lattices which are only *small*-complete, then frames and complete Heyting algebras are different objects.
