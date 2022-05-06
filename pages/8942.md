@@ -112,3 +112,7 @@ Discussion of open [[M5-branes]] ending on the M9 is in
 [[!redirects MO9]]
 [[!redirects MO9-brane]]
 [[!redirects MO9-branes]]
+
+[[!redirects MO9-plane]]
+[[!redirects MO9-planes]]
+
