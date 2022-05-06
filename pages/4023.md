@@ -149,7 +149,8 @@ which in turn may be re-written more symmetrically as
 \[
   \label{DeterminantInTermsOfLCSymbols}
   \det(A)  
-    \;=\; 
+    \;=\;
+    \frac{1}{n!}
     \epsilon^{ i_1 i_2 \cdots i_n }
     \,
     a_{i_1 j_1}
