@@ -98,7 +98,7 @@ A very nice overview is provided by
 
 Codensity monads arising from subcategory inclusions are studied in
 
-* {#diLiberti19} [[Ivan di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accessibility_, arXiv:1910.01014 (2019). ([abstract](https://arxiv.org/abs/1910.01014))
+* {#diLiberti19} [[Ivan Di Liberti]], _Codensity: Isbell duality, pro-objects, compactness and accessibility_, arXiv:1910.01014 (2019). ([abstract](https://arxiv.org/abs/1910.01014))
 
 The role in shape theory is discussed in
 
