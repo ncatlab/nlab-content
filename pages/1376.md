@@ -58,6 +58,8 @@ $$
 
 * [[commutative monoid in a symmetric monoidal (∞,1)-category]]
 
+* [[category object in an (∞,1)-category]]
+
 ## References
 
 definition 1.1.14 in
