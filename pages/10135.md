@@ -16,6 +16,8 @@
 =--
 =--
 
+> This entry follows [Sati-Schreiber 20](#SatiSchreiber20). See there for full details, until this entry here gets cleaned up.
+
 
 #Contents#
 * table of contents
@@ -41,7 +43,7 @@ in the sense that [[differential cohomology|geometric cohomology]] is recovered 
 
 Since any concept of [[cohomology]] (as discussed there) is effectively equivalent to the choice of ambient [[(∞,1)-topos]], the question of defining orbifold cohomology is closely related to the question of how exactly to define the [[(∞,1)-category]] of orbifolds (usually a [[(2,1)-category]]) in the first place. This question is notoriously more subtle than the simple intuitive idea of orbifolds might suggest, as witnessed by the convoluted history of the concept (see e.g. [Lerman 08, Introduction](orbifold#Lerman08)).
 
-$\,$
+\linebreak
 
 ### Deficiency of orbifolds as geometric groupoids
 
@@ -1188,6 +1190,9 @@ related to results of
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_, 2014
 
+The above text follows
+
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ (2020)
 
 
 
