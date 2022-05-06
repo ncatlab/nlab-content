@@ -307,7 +307,7 @@ Geometric T-duality in terms of [[differential cohomology]] as an operation on [
 
 More physically oriented discussion of this is in 
 
-* Katrin Becker, Aaron Bergman, _Geometric Aspects of D-branes and T-duality_ ([arXiv:0908.2249](http://arxiv.org/abs/0908.2249))
+* [[Katrin Becker]], Aaron Bergman, _Geometric Aspects of D-branes and T-duality_ ([arXiv:0908.2249](http://arxiv.org/abs/0908.2249))
 
 Geometric T-duality is identified as an [[isomorphism]] of [[standard Courant algebroid]]s ([[generalized complex geometry]]) in section 4 of
 
