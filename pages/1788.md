@@ -1,4 +1,8 @@
 
+$\underline{A} \colon C \in \mathcal{C}(A) \mapsto C$
+
+$\rho \colon A \to \mathbb{C}$
+
 $\sfrac{1}{2}$
 
 $$
