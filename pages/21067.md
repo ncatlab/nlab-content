@@ -66,7 +66,7 @@ Many monads are named after their (free) algebras.
 
 * The algebras of the _free monoid monad_ on [[Set]] are [[monoids]], and the morphisms of algebras the monoid homomorphisms.
 * The algebras of the _free commutative monoid monad_ on [[Set]] are [[commutative monoids]], and their morphisms the monoid homomorphisms between them. 
-* The algebras of the _free group monad_ on [[Set]] are groups, and their monoids are the group homomorphisms.
+* The algebras of the _free group monad_ on [[Set]] are groups, and their morphisms are the group homomorphisms.
 * ...and so on. 
 
 In these cases, the notion of _free group_, _free monoid_, et cetera coincide with the notion of free algebra given above.
