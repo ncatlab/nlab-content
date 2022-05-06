@@ -67,6 +67,7 @@ The further introduction of [[intersecting D-brane model|intersecting]] [D8-bran
 
 
 ### Bottom-up models
+  {#BottomUpModels}
 
 A popular [[bottom-up model building|bottom-up approach]] of AdS/QCD is known as the _hard-wall model_ ([Erlich-Katz-Son-Stephanov 05](#ErlichKatzSonStephanov05)).
 
@@ -128,7 +129,7 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * Joshua Erlich, _An Introduction to Holographic QCD for Nonspecialists_,  Contemporary Physics ([arXiv:1407.5002](https://arxiv.org/abs/1407.5002))
 
-* Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
+* {#Guijosa16} Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
 
 * {#ZhouDosch18} Liping Zou, H.G. Dosch, _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
 
