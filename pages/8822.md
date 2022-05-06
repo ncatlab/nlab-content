@@ -165,11 +165,9 @@ This is a direct consequence of the facts that
 
 1. Proposition \ref{Extremal} gives rise to a notion of extremal separator that makes sense independently of the existence of coproducts. In fact claim 1 of the preceding result holds in this more general setting, since every faithful functor out of a balanced category is conservative.
 
-2. Most of the literature uses the term "strong separator" (or strong generator) for what we call an extremal separator. (Adamek and Rosicky (Section 0.6))[AdamekRosicky] also comment on this mismatch, writing:
->It would be more reasonable, but unfortunately less standard, to call [a strong generator] an extremal generator.
-However, item 2 of the preceding result shows that this 
-discrepancy disappears and the terms
-coincide in presence of pullbacks (and coproducts).
+2. Most of the literature uses the term "strong separator" (or strong generator) for what we call an extremal separator. [Adamek and Rosicky (Section 0.6)](#AdamekRosicky) also comment on this mismatch, writing
+"It would be more reasonable, but unfortunately less standard, to call [a strong generator] an extremal generator".
+   However, item 2 of the preceding result shows that this discrepancy disappears and the terms coincide in presence of pullbacks (and coproducts).
 
 3. In the Elephant, Johnstone uses "separator" in the same sense as we do, and writes "generator" for extremal separators, in the more general sense not assuming coproducts. Since he always assumes finite limits, he can use a simplified criterion only requiring joint conservativity of the hom-functors (since a conservative functor $F:C\to D$ is automatically faithful whenever $C$ has equalizers and $F$ preserves them).
 =--
