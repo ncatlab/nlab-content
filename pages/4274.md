@@ -281,13 +281,13 @@ That a [[spin structure]] makes the Witten genus take values in integral series 
 
 That it takes a rational [[string structure]] to make the elliptic genus land in [[modular forms]] was noticed in 
 
-* {#Zagier86} [[Don Zagier]], _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf))
+* {#Zagier86} [[Don Zagier]], _Note on the Landweber-Stong elliptic genus_ 1986 ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0078047/fulltext.pdf), [edoc:744944](http://edoc.mpg.de/744944))
 
 Surveys include
 
 * [[Gerald Höhn]], _Complex elliptic genera and $S^1$-equivariant cobordism theory_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
-* {#Cheng13} Miranda Cheng, section 9 of _Mathematical tools for string theorists_, lecture notes 2013 ([pdf](http://www.math.jussieu.fr/~chengm/lecture_notes/Thalys_School.pdf))
+* {#Cheng13} [[Miranda Cheng]], _(Mock) Modular Forms in String Theory and Moonshine_, lecture notes 2016 ([[ChengModularForms16.pdf:file]])
 
 Further discussion of the [[Jacobi form]]-property of the Witten genus is in
 
