@@ -26,7 +26,7 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]].
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
 
-A _filtering_ on an [[object]] $X \in \mathcal{C}$ a [[sequential diagram]] $X_\bullet \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
+A _filtering_ on an [[object]] $X \in \mathcal{C}$ is a [[sequential diagram]] $X_\bullet \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
 
 $$
   \cdots
