@@ -92,9 +92,11 @@ Review of the asymptotic safety program includes these:
 
 * [[Max Niedermaier]], [[Martin Reuter]], _The Asymptotic Safety Scenario in Quantum Gravity_, Living Reviews in Relativity December 2006, 9:5 [doi:10.12942/lrr-2006-5](http://link.springer.com/article/10.12942/lrr-2006-5)
 
-The following review provides concise background on actual technical details:
+Critical review:
 
 * {#Shomer07} Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
+
+* [[John Donoghue]], _A Critique of the Asymptotic Safety Program_ ([arXiv:1911.02967](https://arxiv.org/abs/1911.02967)) 
 
 See also
 
