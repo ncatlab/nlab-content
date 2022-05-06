@@ -33,6 +33,8 @@ Currently the major [[experiment]] studying B-meson [[physics]] is the [[LHCb]].
 
   * [[BaBar experiment]]
 
+* B-[[baryon]]: [[Lambda baryon]]
+
 * observations
 
   * [[flavour anomaly]]
@@ -45,11 +47,11 @@ Currently the major [[experiment]] studying B-meson [[physics]] is the [[LHCb]].
 
 See also 
 
-* Wikipedia, _[B meson](https://en.wikipedia.org/wiki/B_meson)_
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/B_meson">B meson</a>_
 
 Discussion in [[holographic light front QCD]]:
 
-* Mohammad Ahmady, _Holographic light-front QCD in B meson phenomenology_ ([arXiv:2001.00266](https://arxiv.org/abs/2001.00266))
+* Mohammad Ahmady, _Holographic light-front QCD in B meson phenomenology_ (<a href="https://arxiv.org/abs/2001.00266">arXiv:2001.00266</a>)
 
 [[!redirects B mesons]]
 
