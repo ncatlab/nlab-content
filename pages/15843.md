@@ -35,7 +35,9 @@
 
 * [[spin group]]
 
-* [[Spin(4)]], [[Spin(5)]], [[Spin(8)]]
+* [[Spin(4)]], [[Spin(5)]],  [[Spin(8)]]
+
+* [[triality]]
 
 * [[Euler class]]
 
