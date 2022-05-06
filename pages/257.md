@@ -110,7 +110,7 @@ Often, the fibrant and cofibrant objects are the ones one is "really" interested
 ### Slight variations on the axioms
 
 Quillen's original definition required only [[finite limits]] and [[finite colimits]], which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.
-This change was popularized by [[Dwyer]], [[Hirschhorn]], [[Kan]], and [[Smith]]
+This change was popularized by [[Dwyer]], [[Hirschhorn]], [[Kan]], and [[Jeff Smith|Smith]]
 in their book [[Homotopy Limit Functors on Model Categories and Homotopical Categories]]
 
 [[Robert W. Thomason]] proposed to require that the factorizations given by (ii) are actually _[[functorial factorization systems]]_,
