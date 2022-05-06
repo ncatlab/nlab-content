@@ -39,7 +39,14 @@ For [[finite sets]] linear extensions (Def. \ref{LinearExtensionOfAPartialOrder}
 
 =--
 
-([Marczewski 30](#Marczewski30))
+A proof under [[axiom of choice|AC]] was first published in ([Marczewski 30](#Marczewski30)). The proposition actually follows from the weaker choice principle called the [[ultrafilter theorem|ultrafilter principle]], by appeal to the [[compactness theorem]], as follows. 
+
++-- {: .proof} 
+###### Proof 
+First one shows that (to be completed). 
+
+Let $(X, \leq)$ be a partially ordered set, and introduce a [[signature]] consisting of [[constants]] $c_x$ (to be completed). 
+=--
 
 
 ## References
