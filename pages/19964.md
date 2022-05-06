@@ -82,6 +82,9 @@ The relation between skyrmions, [[instantons]], [[calorons]], [[solitons]] and [
 
 * {#Cork18b} [[Josh Cork]], _Skyrmions from calorons_, J. High Energ. Phys. (2018) 2018: 137 ([arXiv:1810.04143](https://arxiv.org/abs/1810.04143))
 
+based on 
+
+* Paul Sutcliffe, _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
 
 
