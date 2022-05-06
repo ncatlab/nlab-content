@@ -94,9 +94,11 @@ I need to figure out how it relates to the various versions of [[Konig's lemma|K
 Some of the results above may use [[countable choice]], but probably no more than $AC_{0,0}$ (which is choice for relations between $\mathbb{N}$ and itself).
 
 
-### Uselessness in analysis
+### Analysis without the fan theorem
 
-Point-wise real analysis without the fan theorem is very difficult, as the example from Waaldijk shows.  This was [[L.E.J. Brouwer|Brouwer]]\'s motivation for introducing the fan theorem.  But if you use [[locales]] (or other [[point-free topology|point-free]] approaches), then you don\'t need the fan theorem (or bar theorem).
+Point-wise real analysis without the fan theorem is very difficult, as shown by the example above from Waaldijk regarding "kontinuous" functions: without the fan theorem there isn't really even a good notion of continuity!  This was [[L.E.J. Brouwer|Brouwer]]\'s motivation for introducing the fan theorem.
+
+However, the fan theorem (and bar theorem) can be avoided by instead using [[locales]] or another [[point-free topology|point-free]] approach to analysis.
 
 
 ### Sheaf models
