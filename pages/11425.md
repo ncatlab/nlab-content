@@ -26,5 +26,9 @@ This is in contrast to [[complex vector bundles]].
 
 * [[Pontryagin class]]
 
+* [[complex vector bundle]]
+
+* [[quaternionic vector bundle]]
+
 [[!redirects real vector bundles]]
 
