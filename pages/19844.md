@@ -732,6 +732,10 @@ In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 * Lina Alasfar, Aleksandr Azatov, Jorge de Blas, Ayan Paul, Mauro Valli, _B anomalies under the lens of electroweak precision_ ([arXiv:2007.04400](https://arxiv.org/abs/2007.04400))
 
 
+* Ashutosh Kumar Alok, Suman Kumbhakar, Jyoti Saini, S Uma Sankar, _New physics in $b \to s e^+ e^-$: A model independent analysis_ ([arXiv:2011.14668](https://arxiv.org/abs/2011.14668))
+
+
+
 
 #### Leptoquarks
 
