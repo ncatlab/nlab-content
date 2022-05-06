@@ -59,6 +59,8 @@ Cf. Johnstone ([1977](#J77), p. 203; [2002](#J02), p.425), Mac Lane-Moerdijk ([1
 
 Note that the second equality determines the class of $\mathbb{T}$-model homomorphisms once the $\mathbb{T}$-models in the arrow categories $\mathcal{E}^2$ are known.
 
+**Remark**: This e.g. precludes the existence of geometric theories $\mathbb{T}^{op}$ or $\mathbb{T}^\times$ with the property that, given a geometric theory $\mathbb{T}$, the category of models $Mod_{\mathbb{T}^{op}}(\mathcal{E})$ and $Mod_{\mathbb{T}^{\times}}(\mathcal{E})$ coincide with the [[opposite category]] $Mod_{\mathbb{T}}(\mathcal{E})^{op}$ or the [[twisted arrow category]] $Mod_{\mathbb{T}}(\mathcal{E})^\times$ for any [[Grothendieck topos]], respectively. In particular, since the (geometric) theory of morphisms $\mathbb{O}^2$ (see the examples below) assigns the [[arrow category]] $\mathcal{E}^2$ as category of models to a Grothendieck topos $\mathcal{E}$ no geometric theory can assign all Grothendieck toposes $\mathcal{E}$ their [[twisted arrow category]] $\mathcal{E}^\times$ as category of models because the class of models coincides with the class of models for the theory of morphisms. $\qed$
+
 Since $\mathcal{E}^2=\mathcal{E}\times Set^2$ in general and the [[Sierpinski topos]] $Set^2$ is [[exponentiable topos|exponentiable]], one gets
 
 $$Mod_{\mathbb{T}^2}(\mathcal{E})=Mod_\mathbb{T}(\mathcal{E}^2)=Hom(\mathcal{E}^2,Set[\mathbb{T}])=Hom(\mathcal{E}\times Set^2, Set[\mathbb{T}])=Hom(\mathcal{E},Set[\mathbb{T}]^{(Set^2)})$$
@@ -79,6 +81,8 @@ The [[classifying topos]] for the theory $\mathbb{T}^2$ of $\mathbb{T}$-model ho
 
   It is the [[exponentiable topos|dual theory]] of the theory classified by the [[Sierpinski topos]] $Set^2$, or in other words, its [[classifying topos]] called the _morphism classifier_ (cf. Johnstone [1977](#J77), p.184; [2002](#J02), p.426) is
 $$ Set[\mathbb{O}^2]=Set[\mathbb{O}]^{Set^2}=(Set^{FinSet})^{Set^2}=Set^{(FinSet^2)}\quad .$$
+
+  The _generic morphism_ is given by the [[natural transformation]] $\eta\,:\,\mathbf{O}\circ dom\to\mathbf{O}\circ cod$ with $\mathbf{O}$ the _generic object_ i.e. the inclusion functor $FinSet\hookrightarrow Set$, and $dom\,:\,FinSet^2\to FinSet\, ,\, (X\to Y)\mapsto X$ the domain projection functor, and $cod\,:\,FinSet^2\to FinSet\,,\, (X\to Y)\mapsto Y$ the codomain projection functor, with components $\eta_{(X\to Y)}=\mathbf{O}(X\to Y)$.
 
 * Let $\mathbb{K}$ be the [[theory of categories]] (e.g. Johnstone [1977](#J77), p.202) whose models in a [[Grothendieck topos]] $\mathcal{E}$ are the [[internal category|internal categories]] $\mathbf{C}\in cat(\mathcal{E})$. Then $\mathbb{K}^2$ is the **theory of functors**.
 
