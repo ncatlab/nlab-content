@@ -1781,6 +1781,13 @@ Reviewed in:
 * {#Volic13} [[Ismar Volić]], Section 4 of: _Configuration space integrals and the topology of knot and link spaces_, [Morfismos, Vol 17, no 2, 2013](https://fdocuments.co/amp/document/morfismos-vol-17-no-2-2013.html) ([arxiv:1310.7224](https://arxiv.org/abs/1310.7224))
 
 
+### Coproduct
+
+Discussion of [[coproducts]] on a graph complex, given by decomposition of graphs into subgraphs and contractions of subgraphs:
+
+* {#Ionescu03} [[Lucian Ionescu]], _Perturbative Quantum Field Theory and Configuration Space Integrals_, In: John Byden, _Advances in Topological Quantum Field Theory_ ([arXiv:hep-th/0307062](https://arxiv.org/abs/hep-th/0307062), [doi:10.1007/978-1-4020-2772-7](https://link.springer.com/book/10.1007/978-1-4020-2772-7))
+
+* {#Ionescu05} [[Lucian Ionescu]], _Cohomology of Feynman graphs and perturbative quantum field theory_, In: O. Kovras, _Focus on Quantum Field Theory_, Nova Publishers Inc. 2004,  ([arXiv:math/0506142](https://arxiv.org/abs/math/0506142))
 
 
 
