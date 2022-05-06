@@ -57,14 +57,27 @@ Discussion of the generalization of the DBI action to  [[non-abelian group|non-a
 
 A proposal for the formulation appears in 
 
-* {#Tseytlin97} [[Arkady Tseytlin]], _On non-Abelian generalization of Born-Infeld action in string theory_, Nucl.Phys. B501 (1997) 41-52 ([spire](http://inspirehep.net/record/439767/))
+* {#Tseytlin97} [[Arkady Tseytlin]], _On non-Abelian generalization of Born-Infeld action in string theory_, Nucl.Phys. B501 (1997) 41-52 ([spire:439767](http://inspirehep.net/record/439767))
 
-A critical discussion is in [Schwarz 01, Section 2](#Schwarz01)
+Issues with this proposal at higher order have been found in
+
+* [[Akikazu Hashimoto]], [[Washington Taylor]], _Fluctuation Spectra of Tilted and Intersecting D-branes from the Born-Infeld Action_, Nucl. Phys. B503: 193-219, 1997 ([arXiv:hep-th/9703217](https://arxiv.org/abs/hep-th/9703217))
+
+
+* [[Eric Bergshoeff]], [[Adel Bilal]], M. de Roo and A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
+
+Brief review is in [Schwarz 01, Section 2](#Schwarz01)
 
 For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
 
 [[!redirects DBI action]]
 [[!redirects DBI-action]]
 
+[[!redirects non-abelian DBI action]]
+[[!redirects non-abelian DBI-action]]
+
+
 [[!redirects Dirac-Born-Infeld action functional]]
 [[!redirects DBI action functional]]
+
+
