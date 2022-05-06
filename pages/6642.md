@@ -81,7 +81,7 @@ This follows directly from [this theorem](/nlab/show/M-complete+category#OFSFrom
 
 The following is a consequence of Theorems 4.1 and 4.3 from [CHK](#CHK).
 
-+-- {: .num_theorem}
++-- {: .num_theorem #SemiLeftExact}
 ###### Theorem
 Suppose that $C$ is finitely complete and that $(E,M)$ is a reflective prefactorization system on $C$ such that $E$-morphisms are stable under pullback along $M$-morphisms.  Then $(E,M)$ is a factorization system.
 =--
@@ -96,9 +96,11 @@ By closure properties of prefactorization systems, any morphism in $M/1$ lies in
 But $f$ factors through $m$, by the universal property of the pullback applied to the naturality square for $\eta$ at $f$.  Thus we have $f = m e$ and it suffices to show $e\in E$.  However, we also have $g e = \eta_A$, where $\eta_A\in E$ by definition, and $g\in E$ by assumption (being the pullback of $\eta_B\in E$ along $\ell(f)\in M$).  By the characterization theorem above, since $(E,M)$ is reflective this implies $e\in E$, as desired.
 =--
 
-A reflection satisfying the condition of the preceeding theorem is called **semi-left-exact**.  It is shown in Theorem 4.3 of [CHK](#CHK) that this condition is equivalent to the reflector $\ell$ preserving pullbacks of $M$-morphisms.  (Saying that $E$-morphisms are stable under *all* pullbacks is equivalent to saying that $\ell$ preserves all pullbacks, hence all finite limits---i.e. it is left-exact.  In this case the factorization system is called [[stable factorization system|stable]].  Thus the terminology "semi-left-exact" for the weaker assumption.)
+A reflection satisfying the condition of Theorem \ref{SemiLeftExact} is called **semi-left-exact**.  It is shown in Theorem 4.3 of [CHK](#CHK) that this condition is equivalent to the reflector $\ell$ preserving pullbacks of $M$-morphisms.  (Saying that $E$-morphisms are stable under *all* pullbacks is equivalent to saying that $\ell$ preserves all pullbacks, hence all finite limits---i.e. it is left-exact.  In this case the factorization system is called [[stable factorization system|stable]].  Thus the terminology "semi-left-exact" for the weaker assumption.)
 
 Semi-left-exactness of a reflection $\ell$ of $C$ into $A\subseteq C$ is also equivalent to saying that for any $x\in C$, the right adjoint of the induced functor $\ell\colon C/x \to A/\ell(x)$ (which is given by pullback along $\eta_x$) is fully faithful.  In this form it is equivalent to (a particular case of) the notion of *admissible* reflection in [[categorical Galois theory]].
+
+However, semi-left-exactness is not necessary for the "one-step" construction in the proof of Theorem \ref{SemiLeftExact} to work.  The necessary and sufficient condition is that the reflection is **simple**; one characterization of this is that a morphism $f$ is in $M$ if and only if its naturality square for the reflector $\ell:C\to A$ is a pullback.  For others, see [CHK, Theorem 4.1](#CHK).
 
 
 ### Relation to localizations {#Localization}
