@@ -87,7 +87,7 @@ An interpretation of $3$-Lie algebras as [[Lie 2-algebras]] equipped with a bina
 
 * Sam Palmer, [[Christian Saemann]], section 2 of _M-brane Models from Non-Abelian Gerbes_, JHEP 1207:010, 2012 ([arXiv:1203.5757](http://arxiv.org/abs/1203.5757))
   
-based on a result in
+based on a result relating to [[metric Lie algebras]]:
 
 * {#MFFMER08} Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
 
@@ -99,7 +99,7 @@ and reviewed in
 
 See also 
 
-* [[José Figueroa-O'Farrill]], section _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
+* [[José Figueroa-O'Farrill]], _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf), [[FigueroaOFarrillM2Branes02.pdf:file]])
 
 
 
