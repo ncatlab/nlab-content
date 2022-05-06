@@ -40,7 +40,7 @@ Under suitable [[fibrant object|fibrancy]] conditions, a $(n \times k)$-category
 
 ## Relationships
 
-* $(2 \times 1)$-categories subsume ($1 \times 2)$-categories (**[DH10](#DH10)**)
+* Every $(1 \times 2)$-categories canonically gives rise to a $(2 \times 1)$-category. (Cor. 3.11 in **[DH10](#DH10)**)
 
 
 ## Related concepts
