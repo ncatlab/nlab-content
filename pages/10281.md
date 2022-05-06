@@ -21,7 +21,9 @@ This entry collects links related to the textbook
 
   _String theory_
 
-  Cambridge Monographs on Mathematical Physics (2001)
+  Cambridge Monographs on Mathematical Physics 
+
+  first published 1998
 
 on [[string theory]].
 
