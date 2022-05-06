@@ -22,9 +22,12 @@ For a charged and/or rotating [[black hole]] ([[Kerr spacetime]], [[Reissner-Nor
 
 ## Properties
 
-### Near horizon geometry
+### Near horizon geometry and JT gravity
 
 The [[near horizon geometry]] of extremal black holes in $d$ dimensional spacetime  is [[anti de Sitter spacetime]] $AdS_{2}$ ([KLR 07](#KLR07), [AGJST 06](#AGJST06), [AY 07](#AY07), [ANT 07](#ANT07)).
+
+The $AdS_2 \times S^{d-2}$ [[near horizon geometry]] of near-extremal black holes is well approximated by [[Jackiw-Teitelboim gravity]] ([NSST 18](#NSST18), [MTV 18](#MTV18)).
+
  
 ## Related concepts
 
@@ -36,11 +39,9 @@ The [[near horizon geometry]] of extremal black holes in $d$ dimensional spaceti
 
 ## References
 
-* {#KLR07} Hari K. Kunduri, James Lucietti, Harvey S. Reall, _Near-horizon symmetries of extremal black holes_, Class.Quant.Grav.24:4169-4190,2007 ([arXiv:0705.4214](https://arxiv.org/abs/0705.4214))
+### General
 
-* {#AGJST06} Dumitru Astefanesei, Kevin Goldstein, Rudra P. Jena, [[Ashoke Sen]], Sandip P. Trivedi, _Rotating Attractors_, JHEP 0610:058,2006 ([arXiv:hep-th/0606244](https://arxiv.org/abs/hep-th/0606244))
 
-* {#AY07} Dumitru Astefanesei, Hossein Yavartanoo, _Stationary black holes and attractor mechanism_, Nucl.Phys.B794:13-27,2008 ([arXiv:0706.1847](https://arxiv.org/abs/0706.1847))
 
 * {#ANT07} Tatsuo Azeyanagi, Tatsuma Nishioka, Tadashi Takayanagi, _Near Extremal Black Hole Entropy as Entanglement Entropy via $AdS_2/CFT_1$_, Phys.Rev.D77:064005,2008 ([arXiv:0710.2956](https://arxiv.org/abs/0710.2956))
 
@@ -51,5 +52,39 @@ The [[near horizon geometry]] of extremal black holes in $d$ dimensional spaceti
 See also 
 
 * Wikipedia, _[Extremal black hole](https://en.wikipedia.org/wiki/Extremal_black_hole)_
+
+### Near-horizon geometry and JT gravity
+
+Discussion of the [[near horizon geometry]]
+
+* {#KLR07} Hari K. Kunduri, James Lucietti, Harvey S. Reall, _Near-horizon symmetries of extremal black holes_, Class.Quant.Grav.24:4169-4190,2007 ([arXiv:0705.4214](https://arxiv.org/abs/0705.4214))
+
+* {#AGJST06} Dumitru Astefanesei, Kevin Goldstein, Rudra P. Jena, [[Ashoke Sen]], Sandip P. Trivedi, _Rotating Attractors_, JHEP 0610:058,2006 ([arXiv:hep-th/0606244](https://arxiv.org/abs/hep-th/0606244))
+
+* {#AY07} Dumitru Astefanesei, Hossein Yavartanoo, _Stationary black holes and attractor mechanism_, Nucl.Phys.B794:13-27,2008 ([arXiv:0706.1847](https://arxiv.org/abs/0706.1847))
+
+via [[JT gravity]]:
+
+* {#NSST18} Pranjal Nayak, Ashish Shukla, Ronak M Soni, Sandip P. Trivedi, V. Vishal, _On the Dynamics of Near-Extremal Black Holes_ ([arXiv:1802.09547](
+https://arxiv.org/abs/1802.09547))
+
+* {#MTV18} Upamanyu Moitra, Sandip P. Trivedi, V. Vishal, _Near-Extremal Near-Horizons_ ([arXiv:1808.08239](https://arxiv.org/abs/1808.08239))
+
+
+
+### Observational signature
+
+* Minyong Guo, Niels A. Obers, Haopeng Yan, _Observational signature of near-extremal Kerr-like black holes in a modified gravity theory at the Event Horizon Telescope_, Phys. Rev. D 98, 084063 (2018) ([arXiv:1806.05249](https://arxiv.org/abs/1806.05249))
+
+### Actual observation
+ {#ReferencesObservation}
+
+Near-extremal spinnin black holes are being observed
+
+* Xinyu Dai, Shaun Steele, Eduardo Guerras, Christopher W. Morgan, Bin Chen, _Constraining Quasar Relativistic Reflection Regions and Spins with Microlensing_ ([arXiv:1901.06007](https://arxiv.org/abs/1901.06007))
+
+  exposition in:
+
+  [[Chandra Observatory]], _[Chandra Views Spinning Black Holes Across Cosmic Sea](https://scitechdaily.com/chandra-views-spinning-black-holes-across-cosmic-sea/)_, July 5 2019
 
 [[!redirects extremal black holes]]
