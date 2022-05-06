@@ -6,7 +6,7 @@ __Nikolai Durov__  (&#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1081; &#1042;&#1
 
 Durov obtained his Ph.D. in 2007 in Bonn under [Gerd Faltings](http://en.wikipedia.org/wiki/Gerd_Faltings):
 
-* _A new approach to Arakelov geometry_, [arxiv/0704.2030](http://arxiv.org/abs/0704.2030)
+* _New approach to Arakelov geometry_, [arxiv/0704.2030](http://arxiv.org/abs/0704.2030)
 
 Durov's mathematical work preceding his study in Bonn includes his work on classical [[Galois theory]] of polynomial equations; it provides essentially the third historically available method to compute algorithmically a Galois group of a given equation. His method is however statistical and some random data are included in input. The algorithm terminates with probability $1$ for all equations iff the [[Riemann hypothesis]] is true. The exposition of these results is in
 
