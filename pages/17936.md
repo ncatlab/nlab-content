@@ -1,9 +1,18 @@
 
 * [webpage](http://people.math.aau.dk/~jm/)
 
-## related $n$Lab entries
+## Selected writings
+
+On [[homotopy Lie groups]]:
+
+* {#Moller95} [[Jesper Møller]], _Homotopy Lie groups_, Bull. Amer. Math. Soc. (N.S.) 32 (1995) 413-428 ([arXiv:math/9510218](https://arxiv.org/abs/math/9510218))
+
+
+## Related $n$Lab entries
 
 * [[fundamental group]], [[covering space]]
+
+* [[homotopy Lie group]]
 
 category: people
 
