@@ -142,3 +142,8 @@ $$
 
 [[!redirects locally finite closed cover]]
 [[!redirects locally finite closed covers]]
+
+[[!redirects locally finite family]]
+[[!redirects locally finite families]]
+
+[[!redirects locally finite]]
