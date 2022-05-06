@@ -24,7 +24,13 @@ $$
   -
   \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
   \;=\;
-  \tfrac{1}{24}\chi[X^{(8)}]
+  \underset{
+    I_8(X^8)
+  }{
+    \underbrace{
+      \tfrac{1}{48}\big( p_2 - \tfrac{1}{2}p_1^2  \big)[X^{8}]
+    }
+  }
   \;\;\;\;
   \in
   \mathbb{Z}
@@ -37,7 +43,31 @@ where
 
 1. $G_4$ is the [[field strength]]/flux of the [[supergravity C-field]]
 
-1. $\chi$ is the [[Euler class]] of the [[tangent bundle]] of $X^{(8)}$, hence $\chi[X]$ is the [[Euler characteristic]] of $X$.
+1. $p_1$ is the [[first Pontryagin class]] and $p_2$ the [[second Pontryagin class]], all regarded here in [[rational homotopy theory]].
+
+If $X^{8}$ has $Spin(7)$-[[G-structure|structure]] (hence in particular if it is a [[Calabi-Yau manifold]], which has $SU(4) = $ [[Spin(6)]]-structure) or $Spin(3) \times Spin(5)$-structure, then 
+
+$$
+  \tfrac{1}{2}\big( p_2 - \tfrac{1}{4}p_1^2  \big)
+  \;=\;
+  \chi
+$$
+
+is the [[Euler class]], hence in these cases the condition is equivalently
+
+$$
+  N_{M2}
+  -
+  \tfrac{1}{2} \big( G_4[X^{(8)}]\big)^2
+  \;=\;
+  \tfrac{1}{24}\chi[X^8]
+  \;\;\;\;
+  \in
+  \mathbb{Z}
+  \,,
+$$
+
+where hence $\chi[X]$ is the [[Euler characteristic]] of $X$.
 
 ## Related concepts
 
