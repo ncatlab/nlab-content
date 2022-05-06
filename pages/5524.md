@@ -1041,9 +1041,16 @@ The [infinitesimal path ∞-groupoid adjunction](#StrucPaths) $(\mathbf{Red} \da
  
 
 
-The $(\infty,1)$-topos $SynthDiff\infty Grpd$ is discussed in  section 4.4 of 
+The $(\infty,1)$-topos $SynthDiff\infty Grpd$: 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+* [[Urs Schreiber]], section 4.4 of: _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+
+* [[Hisham Sati]], [[Urs Schreiber]], Section 3.1.2 of: _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
+* [[Urs Schreiber]], _[[schreiber:Introduction to Higher Supergeometry]]_, lecture at _[[Higher Structures in M-Theory 2018]]_, [Durham Symposium](http://www.maths.dur.ac.uk/lms/)
+
+  published in parts as: _Higher Structures in M-Theory_ (with [[Branislav Jurčo]], [[Christian Saemann]], [[Martin Wolf]]), Fortschritte der Physik (2019) ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807), [doi:10.1002/prop.201910001]( https://doi.org/10.1002/prop.201910001))
+
 
 The [[cohomology localization]] of $SynthDiff\infty Grpd$ and the infinitesimal singular simplicial complex as a presentation for infinitesimal paths objects in $SynthDiff\infty Grpd$ is discussed in
 
