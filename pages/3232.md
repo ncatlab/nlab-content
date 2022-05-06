@@ -15,14 +15,14 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 Just as the notion of a [[monad]] in a [[bicategory]] $K$ generalizes that of a [[monoid in a monoidal category]], [[module over a monoid|modules over monoids]] generalize easily to modules over monads.
 
-Modules over monads, especially in [[Cat]], are also often called *algebras* for the monad; see below.
+Beware that modules over monads in [[Cat]] are often called *algebras* for the monad, since they literally are algebras in the sense of [[universal algebra]], see [below](#AlgebrasForMonadsInCat). By extension, one might speak of modules over monads in any [[2-category]] as "algebras for the monad".
 
 The [[formal dual|formally dual]] concept is that of _[[coalgebra over a comonad]]_.
 
@@ -68,8 +68,9 @@ More abstractly, the monads $s$ and $t$ in $K$ give rise to ordinary monads $s^*
 
 
 ### Algebras for monads in Cat
+ {#AlgebrasForMonadsInCat}
 
-If $K = Cat$ and $(T,\eta,\mu)$ is a monad on a category $C$, then a left $T$-module $A \colon 1 \to C$, where $1$ is the [[terminal category]], is usually called a **$T$-algebra**: it is given by an object $A \in C$ together with a morphism $\alpha \colon T A \to A$, such that
+If $K =$ [[Cat]] and $(T,\eta,\mu)$ is a monad on a [[category]] $C$, then a left $T$-module $A \colon 1 \to C$, where $1$ is the [[terminal category]], is usually called a **$T$-algebra** (see also at _[[universal algebra]]_): it is given by an object $A \in C$ together with a morphism $\alpha \colon T A \to A$, such that
 $$ \array {
   T(T(A))              & \stackrel{\mu_A}\rightarrow  & T(A) \\
   T(\alpha) \downarrow &                              & \downarrow \alpha \\
