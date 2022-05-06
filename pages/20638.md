@@ -1,5 +1,9 @@
 
-* [Wikipedia entry](https://en.wikipedia.org/wiki/Clarence_Wilkinson)
+
+
+* [Webpage at TAMU](https://www.math.tamu.edu/~cwilkers/)
+
+* [Webpage at Purdue](http://www.math.purdue.edu/~wilker/)
 
 ## Selected writings
 
