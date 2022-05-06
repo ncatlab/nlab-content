@@ -1,7 +1,6 @@
 
 The code
 
-
       [[topos]] [[topos]]
 
 gets rendered as:
@@ -12,7 +11,92 @@ gets rendered as:
 
 \linebreak
 
-$XX$ [[topos]] $X$
+
+***
+
+\linebreak
+
+$$
+  \begin{aligned}
+  &
+  d
+  \star
+  d (A_\mu)
+  \;+\;
+  d
+  \star 
+  \big(
+    \overline{L}
+    \!\cdot\!
+    \gamma_\mu 
+    \!\!\cdot\!
+    d L
+  \big)
+  \\
+  & 
+  =
+  \cdots
+  +
+  \partial_\nu
+  \big(
+    \overline{L}
+    \!\cdot\!
+    \gamma_\mu 
+    \!\!\cdot\!
+    \partial^\nu L  
+  \big)
+  \\
+  & =
+  \big(
+    \overline{
+      L
+    }
+    \!\cdot\!
+    \gamma_\mu 
+    \!\!\cdot\!
+    \partial_\nu
+    \partial^\nu L  
+  \big)
+  \end{aligned}
+$$
+
+
+$$
+  \begin{aligned}
+  d 
+  \big( 
+    \overline{L} \!\cdot\! \gamma_\mu \!\!\!\cdot\! L \, d x^\mu
+  \big)
+  & =\;
+  \big(
+    \overline{\partial_\nu L} 
+    \!\cdot\! 
+    \gamma_\mu \!\!\!\cdot\! L 
+    +
+    \overline{L} 
+    \!\cdot\! 
+    \gamma_\mu \!\!\!\cdot\! \partial_\nu L 
+  \big)
+  d x^\nu
+  \wedge
+  d x^\mu
+  \\
+  & 
+  \big(
+    \overline{\partial_\nu L} 
+    \!\cdot\! 
+    \gamma_\mu \!\!\!\cdot\! L 
+    -
+    \overline{\partial_\nu L} 
+    \!\cdot\! 
+    \gamma_\mu \!\!\!\cdot\! L 
+  \big)
+  d x^\nu
+  \wedge
+  d x^\mu
+  \end{aligned}
+$$
+
 
 Consider the 5d metric
 
