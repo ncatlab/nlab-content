@@ -42,6 +42,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 
 * wikipedia: [mathematics education](https://en.wikipedia.org/wiki/Mathematics_education), [Common Core State Standards Initiative](https://en.wikipedia.org/wiki/Common_Core_State_Standards_Initiative), [New Math](https://en.wikipedia.org/wiki/New_Math), [Moore method](https://en.wikipedia.org/wiki/Moore_method), [modern elementary mathematics](https://en.wikipedia.org/wiki/Modern_elementary_mathematics), [Van Hiele model](https://en.wikipedia.org/wiki/Van_Hiele_model)
 * [13th International Congress on Mathematical Education](http://icme13.org), Hamburg Aug 24-31, 2016
+* Douglas A. Grouws ed., _Handbook of research on mathematics teaching and learning: a project of the National Council of Teachers of Mathematics_, Macmillan Library Reference 1992 
 * [GreenApples](http://GreenApples.wikispaces.com) -- resources for new math teachers
 
 ### Related $n$Lab pages
@@ -52,7 +53,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 
 ### Software 
 
-* [geogebra.org](https://en.wikipedia.org/wiki/GeoGebra), wikipedia: [geogebra](https://en.wikipedia.org/wiki/GeoGebra)
+* [geogebra.org](https://www.geogebra.org), wikipedia: [geogebra](https://en.wikipedia.org/wiki/GeoGebra)
 
 ### Organizations and initiatives in math education
 
