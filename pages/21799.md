@@ -63,3 +63,10 @@ See also:
 Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
 
 [[!redirects equivariant complex oriented cohomology theories]]
+
+[[!redirects equivariant complex-oriented cohomology theory]]
+[[!redirects equivariant complex-oriented cohomology theories]]
+
+
+[[!redirects equivariant complex oriented cohomology]]
+[[!redirects equivariant complex-oriented cohomology]]
