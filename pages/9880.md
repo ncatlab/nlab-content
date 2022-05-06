@@ -34,7 +34,7 @@ $$
   \,,
 $$
 
-where the first sum is the [[Feynman perturbation series]] itself and where the terms with a [[analytic function|non-analytic]] dependence of the form $\exp(-A/g)$ or $\exp(-A/g)$ are the contributions of the [[instantons]]. Since all the [[derivatives]] of the functions $g \mapsto e^{-1/g}$ or $g \mapsto e^{-1/g^2}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the observble does not appear in [[perturbative QFT]], even though it is present. Therefore this is called a _non-perturbative effect_.
+where the first sum is the [[Feynman perturbation series]] itself and where the terms with a [[analytic function|non-analytic]] dependence of the form $\exp(-A/g)$ or $\exp(-A/g^2)$ are the contributions of the [[instantons]]. Since all the [[derivatives]] of the functions $g \mapsto e^{-1/g}$ or $g \mapsto e^{-1/g^2}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the observable does not appear in [[perturbative QFT]], even though it is present. Therefore this is called a _non-perturbative effect_.
 
 Related is _[[resurgence theory]]_. See also at _[perturbation theory -- Divergence/convergence](perturbation+theory#DivergenceConvergence)_ for more.
 
