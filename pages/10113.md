@@ -58,6 +58,10 @@ Computation of the [[mass]] of hadrons using [[lattice QCD]] (see also _[[confin
 
   Science 322:1224-1227,2008 ([arXiv:0906.3599](https://arxiv.org/abs/0906.3599))
 
+  conclusion on p. 4:
+  
+> our study strongly suggests that [[QCD]] is the theory of the strong interaction, at low energies as well
+
 * {#FodorHoelbling12} Zoltan Fodor, Christian Hoelbling, _Light Hadron Masses from Lattice QCD_, Rev. Mod. Phys. 84, 449, ([arXiv:1203.4789](https://arxiv.org/abs/1203.4789))
 
 * S. Aoki et. al. _Review of lattice results concerning low-energy particle physics_ ([arXiv:1607.00299](https://arxiv.org/abs/1607.00299))
