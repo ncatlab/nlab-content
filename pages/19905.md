@@ -45,7 +45,7 @@ This means that a point on the [[boundary]] of the Fulton-MacPherson compactific
 
 More abstractly one may sum this up succinctly by saying that the ASFM-compactification is the  [[blowup]] of the [[fat diagonal]] inside the [[Cartesian products]] of the base space with itself. 
 
-In the literature these [[boundary]] configurations are often referred to in terms of "infinitesimally close points". While there may be some formal relation to actual [[infinitesimal neighbourhoods]] in (for example) [[synthetic differential geometry]], we point out the Axelrod-Singer-Fulton-MacPherson compactifications as defined below are plain [[topological spaces]] or manifolds with corners in some sense, not [[objects]] in [[smooth topos]] in the usual sense. 
+In the literature these [[boundary]] configurations are often referred to in terms of "infinitesimally close points". While there may be some formal relation to actual [[infinitesimal neighbourhoods]] in (for example) [[synthetic differential geometry]], we point out the Axelrod-Singer-Fulton-MacPherson compactifications as defined below are plain [[topological spaces]] or manifolds with corners (in some suitable sense), not [[objects]] in a [[smooth topos]] in any of the usual senses. 
 
 ## Definition
 
