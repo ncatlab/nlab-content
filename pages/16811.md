@@ -4,11 +4,11 @@
 
 On the [[Green-Schwarz sigma-model]] of the [[M5-brane]] including the [[self-dual higher gauge field]] and [[double dimensional reduction]] to the [[D4-brane]]:
 
-* [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+* [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
 
 On [[Green-Schwarz sigma models]] for [[D-branes]]:
 
-* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+* {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
 On a refinement of $SU(N)$ [[Chern-Simons theory]] on a [[3-manifold]] via the refined topological string and the [[D=6 N=(2,0) SCFT|(2,0)]] theory on $N$ [[M5-branes]]:
 
