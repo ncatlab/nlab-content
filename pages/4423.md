@@ -99,12 +99,31 @@ $$
 
 * A sum of all curvature characteristic forms of a complex [[vector bundle]]/[[unitary group|U(n)]]-[[principal bundle]] gives the <a href="http://ncatlab.org/nlab/show/Chern+character#KTheory">Chern character of a vector bundle</a>.
 
+## Related concepts
+
+* [[characteristic class]]
+
+* [[Chern-Weil homomorphism]]
+
 
 ## References
 
-...
+[[!include Chern-Weil homomorphism -- references]]
+
+
+
+
 
 [[!redirects curvature characteristic forms]]
 
+[[!redirects characteristic form]]
+[[!redirects characteristic forms]]
+
+[[!redirects characteristic differential form]]
+[[!redirects characteristic differential forms]]
+
+
 [[!redirects curvature characteristic class]]
 [[!redirects curvature characteristic classes]]
+
+
