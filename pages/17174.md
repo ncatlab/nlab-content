@@ -28,59 +28,320 @@ An important consequence is the [[Thom isomorphism]].
 
 Let 
 
-$$
+\[
+  \label{TheFiberBundles}
   \array{
-     F &\stackrel{\iota}{\hookrightarrow}& E
+     F &\stackrel{\iota}{\hookrightarrow}& Y
      \\
      && \downarrow^{\mathrlap{p}}
      \\
      && X
   }
+\]
+
+be an $F$-[[fiber bundle]] (in [[Top]]) of [[topological spaces]] that admit the [[mathematical structure|structure]] of finite [[CW-complexes]].
+
+
+### In ordinary cohomology 
+ {#StatementInOrdinaryCohomology}
+
+Let $R$ be a [[commutative ring]] and write $H^\bullet(-;\,R)$ for the [[cohomology rings]] of [[ordinary cohomology]] with [[coefficients]] in $R$.
+
+If there exists 
+
+* a [[finite set]] of elements 
+
+  $$
+    \alpha_i \in H^\bullet(Y,R)\;,\;\;\;\; i \in \{1, 2, \cdots, n\}
+  $$
+
+  in the [[ordinary cohomology]] of $Y$ with [[coefficients]] in $R$, 
+
+such that 
+
+* for each point $x \in X$ the restriction ([[pullback in cohomology|pullback]] along $\iota$) of the $\alpha_i$ to the [[fiber]] $F_x \hookrightarrow Y$ 
+
+  1. is $R$-[[linearly independent]] 
+
+  1. their $R$-[[linear span]] is [[isomorphism|isomorphic]] to the [[cohomology group]] $H^\bullet(F,R)$ of the fiber
+
+     $$
+       H^\bullet(F;\, R)
+       \simeq
+       R
+       \langle 
+         \iota_x^\ast \alpha_1, \cdots, \iota_x^\ast \alpha_n
+       \rangle
+       \;\;\;\;
+       \in R Mod
+      $$
+
+  (i.e. a [[free module]] over $R$)
+
+then:
+
+1. the $\{\alpha_1, \cdots, \alpha_n\}$ themselves are $H^\bullet(X;\,R)$-[[linearly independent]],
+
+1. their $H^\bullet(X;\,R)$-[[linear span]] gives the [[cohomology group]] of the total space $Y$:
+
+   $$
+     H^\bullet(Y;\,R) 
+     \;\simeq\; 
+     H^\bullet(X;\,R)
+     \langle 
+       \alpha_1, \cdots,\alpha_n
+     \rangle
+     \;\;\;\;\;
+     \in 
+     \;
+     H^\bullet(X;\, R) Mod
+     \,,
+   $$
+
+   via the [[isomorphism]]
+
+   $$
+     H^\bullet(X;\, R) 
+       \otimes_R 
+     H^\bullet(F;\, R)
+       \stackrel{\simeq}{\longrightarrow}
+     H^\bullet(Y;\, R) 
+   $$
+
+   given by [[pullback in cohomology|pulling back]] classes from the base space and there forming their [[cup product]] with these generators on the total space:
+
+   $$
+     \underset{i,j}{\sum} c_i \otimes \iota^\ast(\alpha_j)
+       \mapsto 
+     \underset{i,j}{\sum}
+     p^\ast(c_i) \cup \alpha_j
+     \,.
+   $$
+
+
+\linebreak
+
+### In generalized cohomology
+ {#StatementInGeneralizedCohomology}
+
+The statement generalizes verbatim from [[ordinary cohomology]] to any [[multiplicative cohomology theory|multiplicative]] [[Whitehead-generalized cohomology theory]] $E$ ([Conner-Floyd 66, theorem 7,4](#ConnerFloyd66), attributed there to [[Albrecht Dold]], review in [Tamaki-Kono 06, Section 3.1](#TamakiKono06)):
+
+Let $E$ be a [[multiplicative cohomology theory|multiplicative]] [[Whitehead-generalized cohomology theory]] and write 
+
+* $E^\bullet(-)$ for its [[cohomology rings]];
+
+* $E_{-\bullet} \;\coloneqq \; E^\bullet(\ast)$ for its [[ground ring]]
+
+If there exists 
+
+* a [[finite set]] of elements 
+
+  \[
+    \label{GeneratorsInELerayHirschTheorem}
+    \alpha_i \;\in\; E^\bullet(Y)\;,\;\;\;\; i \in \{1, 2, \cdots, n\}
+  \]
+
+  in the [[ordinary cohomology]] of the total space $Y$, 
+
+such that 
+
+* for each point $x \in X$ the restriction ([[pullback in cohomology|pullback]] along $\iota$) of the $\alpha_i$ to the [[fiber]] $F_x \hookrightarrow Y$ 
+
+  1. is $E_{-\bullet}$-[[linearly independent]] 
+
+  1. their $E_{-\bullet}$-[[linear span]] is [[isomorphism|isomorphic]] to the [[cohomology group]] $E^\bullet(F)$ of the fiber
+
+     \[
+       \label{AssumptionOnFiberCohomologyInELerayHirschTheorem}
+       H^\bullet(F;\, R)
+       \simeq
+       R
+       \langle 
+         \iota_x^\ast \alpha_1, \cdots, \iota_x^\ast \alpha_n 
+       \rangle
+       \;\;\;\;
+       \in E_{-\bullet} Mod
+      \]
+
+   (i.e. a [[free module]] over $E_{-\bullet}$)
+
+then:
+
+1. the $\{\alpha_1, \cdots, \alpha_n\}$ themselves are $E^\bullet(X)$-[[linearly independent]],
+
+1. their $E^\bullet(X)$-[[linear span]] gives the [[cohomology group]] of the total space $Y$:
+
+   $$
+     E^\bullet(Y)
+     \;\simeq\; 
+     E^\bullet(X)
+     \langle 
+       \alpha_1, \cdots,\alpha_n
+     \rangle
+     \;\;\;\;\;
+     \in 
+     \;
+     E^\bullet(X) Mod
+     \,,
+   $$
+
+   via the [[isomorphism]]
+
+   $$
+     E^\bullet(X)
+       \otimes_{E_{-\bullet}}
+     E^\bullet(F)
+       \stackrel{\simeq}{\longrightarrow}
+     E^\bullet(Y)
+   $$
+
+   given by [[pullback in cohomology|pulling back]] classes from the base space and there forming their [[cup product]] with these generators on the total space:
+
+   $$
+     \underset{i,j}{\sum} c_i \otimes \iota^\ast(\alpha_j)
+       \mapsto 
+     \underset{i,j}{\sum}
+     p^\ast(c_i) \cup \alpha_j
+     \,.
+   $$
+
+## Examples
+
+### Complex-oriented cohomology of the twistor fibration
+
+Let $E$ be a [[Whitehead-generalized cohomology theory]] equipped with [[complex oriented cohomology|complex orientation]] in the form of a [[first Chern class|first]] [[Conner-Floyd-Chern class]] 
+
 $$
-
-be an $F$-[[fiber bundle]] in [[Top]] and let $R$ be a [[commutative ring]]. 
-
-If there exists a [[finite set]] of elements 
-
-$$
-  \alpha_i \in H^\bullet(E,R) \;\;\, i \in I
-$$
-
-in the [[ordinary cohomology]] of $E$ with [[coefficients]] in $R$, such that for each point $x \in X$ the restriction of the $\alpha_i$ to the [[fiber]] $F_x$ is $R$-[[linearly independent]] and their $R$-[[linear span]] is [[isomorphism|isomorphic]] to the cohomology $H^\bullet(F,R)$ of the fiber
-
-$$
-  H^\bullet(F, R)
-  \simeq
-  \langle \{\iota_x^\ast \alpha_i\}_{i \in I} \rangle_R
-  \;\;\;\;
-  \in R Mod
-$$
-
-then also the $\{\alpha_i\}$ are $H^\bullet(X,R)$-[[linearly independent]] and the cohomology of the total space is their $H^\bullet(X,R)$-[[linear span]]:
-
-$$
-  H^\bullet(E,R) \simeq \langle \{\alpha_i\}_{i \in I} \rangle_{H^\bullet(X,R)}
-  \;\;\;\;\;
-  \in H^\bullet(X,R) Mod
-$$
-
-in fact there is an isomorphism
-
-$$
-  H^\bullet(X,R) \otimes_R H^\bullet(F,R)
-  \stackrel{\simeq}{\longrightarrow}
-  H^\bullet(E,R)
-$$
-
-given by pulling back classes and forming their [[cup product]]:
-
-$$
-  \underset{i,j}{\sum} c_i \otimes \iota^\ast(\alpha_j)
-    \mapsto 
-  \underset{i,j}{\sum}
-  p^\ast(c_i) \cup \alpha_j
+  c^E_1
+  \;\in\;
+  {\widetilde E}{}^2\big( \mathbb{C}P^\infty \big)
+    \longrightarrow
+  {\widetilde E}{}^2\big( \mathbb{C}P^n \big)
   \,.
 $$
+
+Then, for $n \in \mathbb{N}$, the $E$-[[cohomology ring]] of the [[complex projective space]] $\mathbb{C}P^n$ is (see [there](complex+oriented+cohomology+theory#CohomologyRingOfBU1))
+
+$$
+  E^\bullet
+  \big(
+    \mathbb{C}P^n 
+  \big)
+  \;\simeq\;
+  E_{-\bullet}
+  \big[
+    c^E_1
+  \big]  
+  \big/
+  \big(
+    c^E_1 
+  \big)^{n+1}
+  \;\;\;
+  \in
+  \;
+  E_{-\bullet} Algebras
+  \,,
+$$
+
+whence the [[cohomology group]] is
+
+\[
+  \label{ECohomologyGroupOfComplexProjectiveSpace}
+  E^\bullet
+  \big(
+    \mathbb{C}P^n 
+  \big)
+  \;\simeq\;
+  E_{-\bullet}
+  \big\langle
+    1,\,
+    c^E_1,\,
+    \big(c^E_1\big)^2,\,
+    \cdots
+    ,\,
+    \big(c^E_1\big)^n,\,
+  \big\rangle
+  \;\;\;
+  \in
+  \;
+  E_{-\bullet} Modules
+  \,.
+\]
+
+For each $n = 2 k + 1$ these are [[Riemann sphere]]
+$\mathbb{H}^\times/\mathbb{C}^\times = \mathbb{C}P^1$-[[fiber bundles]]
+
+$$
+  \array{
+    \mathbb{C}P^1
+    &
+    \longrightarrow
+    &
+    \mathbb{C}^{2k+1}
+    & 
+    =
+    &
+    \big(
+      \mathbb{C}^{2k+2} \setminus \{0\}
+    \big)
+    \big/
+    \mathbb{C}^\times
+    \\
+    &&
+    \big\downarrow
+    &&
+    \big\downarrow 
+    {}^{ 
+       \mathrlap{
+       v \cdot \mathbb{C}^\times  
+         \mapsto
+       v \cdot \mathbb{H}^\times  
+       }
+    }
+    \\
+    && 
+    \mathbb{H}P^k
+    &
+    =
+    &
+    \big(
+      \mathbb{H}^{k+1} \setminus \{0\}
+    \big)
+    \big/
+    \mathbb{H}^\times
+  }
+$$
+
+over [[quaternionic projective space]] $\mathbb{H}P^{k}$,
+whose [[fiber]]-inclusion is ([[homotopy|homotopic]] to) the canonical inclusion $\mathbb{C}P^1 \hookrightarrow \mathbb{C}P^n$ (see [there](complex+projective+space#Definition)).
+
+For $k = 1$ this is also known as the _[[twistor fibration]]_.
+For $k = \infty$ this is the fibration of [[classifying spaces]]
+
+$$
+  \array{
+    SU(2)/\mathrm{U}(1)
+    &\longrightarrow&
+    B \mathrm{U}(1)
+    \\
+    && 
+    \big\downarrow
+     {}^{\mathrlap{
+       B\big( z \mapsto diag(z,z^\ast)  \big)
+     }}
+    \\
+    &&
+    B SU(2)
+  }
+$$
+
+Therefore, by (eq:ECohomologyGroupOfComplexProjectiveSpace), the assumption (eq:AssumptionOnFiberCohomologyInELerayHirschTheorem) of the $E$-Leray-Hirsch theorem ([above](#StatementInGeneralizedCohomology)) is met if we take the classes (eq:GeneratorsInELerayHirschTheorem) to be the [[cup product|cup powers]] $(c^E_1)^n$, and the $E$-Leray-Hirsch theorem says that:
+
+(...)
+
+
+
+(...)
 
 ## Related concepts
 
@@ -91,7 +352,6 @@ $$
 ### For ordinary cohomology
 
 Review of the theorem for [[ordinary cohomology]]:
-
 
 * [[Alan Hatcher]], _[Algebraic topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002, theorem 4D.1 on p. 432 ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATch4.4.pdf))
 
