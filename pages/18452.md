@@ -24,5 +24,10 @@ This is the most common flavor of [[representations]]. One sometimes considers r
 
 * [[permutation representation]]
 
+* [[category of representations]]
+
+## References
+
+See the references at _[[representation theory]]_.
 
 [[!redirects linear representations]]
