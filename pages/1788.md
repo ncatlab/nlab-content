@@ -1,4 +1,88 @@
 
+$$
+  \begin{aligned}
+  \big[
+    \tfrac{1}{2}
+    \Gamma_{a_1} \Gamma_{a_2}
+    ,\;
+    \Gamma_b
+  \big]
+  & 
+  = 
+  \tfrac{1}{2}
+  \Gamma_{a_1}
+  \big\{
+    \Gamma_{a_2},
+    \;
+    \Gamma_b
+  \big\}
+  - 
+  \tfrac{1}{2}
+  \big\{
+    \Gamma_{a_1},
+    \;
+    \Gamma_b
+  \big\}
+  \Gamma_{a_2}
+  \\
+  & =
+  g_{a_2 b}
+  \Gamma_{a_1}
+  -
+  g_{a_1 b}
+  \Gamma_{a_2}
+  \end{aligned}
+$$
+
+
+$$
+  \begin{aligned}
+    \big[
+      \tfrac{1}{2}
+      \Gamma_{a_1} \Gamma_{a_2},
+      \;
+      \tfrac{1}{2}
+      \Gamma_{b_1} \Gamma_{b_2}
+    \big]
+    & =
+    \tfrac{1}{2}
+    \big[
+      \tfrac{1}{2}
+      \Gamma_{a_1} \Gamma_{a_2},
+      \;
+      \Gamma_{b_1} 
+    \big]
+    \Gamma_{b_2}
+    + 
+    \tfrac{1}{2}
+    \Gamma_{b_1} 
+    \big[
+      \tfrac{1}{2}
+      \Gamma_{a_1} \Gamma_{a_2},
+      \;
+      \Gamma_{b_2}
+    \big]
+    \\
+    & =    
+    g_{a_2 b_1}
+    \tfrac{1}{2}
+    \Gamma_{a_1} \Gamma_{b_2}
+    -
+    g_{a_1 b_1}
+    \tfrac{1}{2}
+    \Gamma_{a_2} \Gamma_{b_2}
+    -
+    g_{a_2 b_2}
+    \tfrac{1}{2}
+    \Gamma_{a_1}
+    \Gamma_{b_1}
+    +
+    g_{a_1 b_2}
+    \tfrac{1}{2}
+    \Gamma_{a_2}
+    \Gamma_{b_1} 
+  \end{aligned}
+$$
 
 $$
   \sigma^\ast( e_{\mu 5'} )
