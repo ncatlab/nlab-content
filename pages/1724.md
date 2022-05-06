@@ -1,7 +1,7 @@
 
 In a [[poset]] or even [[proset]], a __lower set__ $L$ is a [[subset]] that is 'downwards closed'; that is,
 
-*  whenever $y \leq x$ and $x \in L$, then $y \in U$.
+*  whenever $y \leq x$ and $x \in L$, then $y \in L$.
 
 Lower sets form a [[Moore collection]] and so one can speak of the lower set _generated_ by an arbitrary subset $A$:
 $$ A{\downarrow} = \{ y \;|\; \exists x,\; x \in A \;\wedge\; y \leq x \} .$$
