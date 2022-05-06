@@ -27,7 +27,7 @@
 
 ## Idea 
 
-What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich]], [[Albert Schwarz]], Oleg Zaboronsky -- is a technique for constructing [[action functional]]s in [[BV-BRST formalism]]  for [[sigma model]] [[quantum field theories]] whose 
+What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich]], [[Albert Schwarz]], [[Oleg Zaboronsky]] -- is a technique for constructing [[action functional]]s in [[BV-BRST formalism]]  for [[sigma model]] [[quantum field theories]] whose 
 [[target space]] is an [[symplectic Lie n-algebroid]] $(\mathfrak{P}, \omega)$.
 
 The [[action functional]] of AKSZ theory is that of [[∞-Chern-Simons theory]] induced from the [[Chern-Simons element]] that correspondonds to the [[invariant polynomial]] $\omega$. Details on this are at [∞-Chern-Simons theory -- Examples -- AKSZ theory](http://ncatlab.org/schreiber/show/infinity-Chern-Simons+theory+--+examples#ASKZTheory).
@@ -256,7 +256,7 @@ is mostly used for in the literature.
 
 The original reference is 
 
-* {#AKSZ} M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
+* {#AKSZ} M. Alexandrov, [[Maxim Kontsevich]], [[Albert Schwarz]], [[Oleg Zaboronsky]], _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
  
 
 Dmitry Roytenberg wrote a useful exposition of the central idea of the original work and studied the case of the [[Courant sigma-model]] in
