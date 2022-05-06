@@ -29,6 +29,10 @@ There seem to be none.  The 'Boolean semirings' in the literature (by which I me
 
 [[!redirects Boolean rig]]
 [[!redirects Boolean rigs]]
+[[!redirects boolean rig]]
+[[!redirects boolean rigs]]
 
 [[!redirects Boolean semiring]]
 [[!redirects Boolean semirings]]
+[[!redirects boolean semiring]]
+[[!redirects boolean semirings]]
