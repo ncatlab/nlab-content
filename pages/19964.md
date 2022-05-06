@@ -333,6 +333,9 @@ For [[carbon]]:
 
 * {#LauManton14} P.H.C. Lau, [[Nicholas Manton]], _States of Carbon-12 in the Skyrme Model_,  Phys. Rev. Lett. 113, 232503 (2014) ([arXiv:1408.6680](https://arxiv.org/abs/1408.6680))
 
+
+
+
 ### As models for neutron stars
 
 Discussion of [[model (in theoretical physics)|models]] of [[neutron stars]] by [[Skyrmions]]:
@@ -349,6 +352,12 @@ Volume 742, 6 March 2015, Pages 136-142 ([arXiv:1407.3799](https://arxiv.org/abs
 * [[Carlos Naya]], _Neutron stars within the Skyrme model_, 	Int. J. Mod. Phys. E 28, 1930006 (2019) ([arXiv:1910.01145](https://arxiv.org/abs/1910.01145))
 
 * C. Adam, J. Sanchez-Guillen, R. Vazquez, A. Wereszczynski, _Adding crust to BPS Skyrme neutron stars_ ([arXiv:2004.03610](https://arxiv.org/abs/2004.03610))
+
+
+See also:
+
+* [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arXiv:2004.09082](https://arxiv.org/abs/2004.09082))
+
 
 
 
@@ -369,6 +378,8 @@ based on
 * {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
 which in turn relates to a [[Minkowski spacetime]]-version of the holographic realization of Skyrmions in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]]).
+
+
 
 ### In solid state physics
 
