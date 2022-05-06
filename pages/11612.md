@@ -50,6 +50,8 @@ The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-brane
 
 * {#Townsend97} [[Paul Townsend]], first pages of _M-Theory from its superalgebra_, Cargese Lectures 1997 ([arXiv:hep-th/9712004](https://arxiv.org/abs/hep-th/9712004))
 
+* Takeshi Sato, Section 2.3 of: :_Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_,  	Nucl. Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014))
+
 * [[José Figueroa-O'Farrill]], [[Joan Simón]], section 2 of _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav.19:6147-6174, 2002 ([arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108))
 
 * {#Philip05} Simon Philip, _Plane-wave limits and homogeneous M-theory backgrounds_, 2005 ([pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]])
