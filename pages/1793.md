@@ -996,7 +996,7 @@ The projective model structure on connective *co*chain complexes (Theorem \ref{P
 
 * {#Hess06} [[Kathryn Hess]], p. 6 of _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
-* {#CastiglioniCortinas03} J.L. Castiglioni, G. Corti&#241;as, Def. 4.7 of: _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289), [doi:10.1016/j.jpaa.2003.11.009](https://doi.org/10.1016/j.jpaa.2003.11.009))
+* {#CastiglioniCortinas03} J. L. Castiglioni, G. Corti&#241;as, Def. 4.7 of: _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, ([arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289), [doi:10.1016/j.jpaa.2003.11.009](https://doi.org/10.1016/j.jpaa.2003.11.009))
 
 
 
