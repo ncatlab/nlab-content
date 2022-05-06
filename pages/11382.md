@@ -41,6 +41,8 @@ Further direct detections of gravitational wave events followed. The event GW170
 ## References
  {#References}
 
+### General
+
 The first article that correctly derived gravitational waves from the [[Einstein equations]] is 
 
 * {#Einstein18} [[Albert Einstein]], _&#220;ber Gravitationswellen_, Sitzungsberichte der K&#246;niglich Preu&#223;ischen Akademie der Wissenschaften Berlin (1918), 154-167
@@ -59,14 +61,12 @@ A modern walk through the derivation of gravitational waves from linearization o
 
 * {#Guidry13} Mike Guidry, _[Astrophysics 616: General Relativity, Black Holes, and Cosmology](http://eagle.phys.utk.edu/guidry/astro616/)_ -- _Chapter 21 -- Gravitational waves_ ([pdf](http://eagle.phys.utk.edu/guidry/astro616/lectures/lecture_ch21.pdf))
 
+See also
 
-Indirect detection of gravitational waves based on energy loss of a [[binary pulsar]] system is due to 
+* Wikipedia, _[Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)_
 
-* {#HulseTaylor75} Hulse, Taylor, _Discovery of a pulsar in a binary system_, The astrophysical journal, 195:L51-53, 1975 ([web](http://adsabs.harvard.edu/full/1975ApJ...195L..51H))
 
-The first proposal of the [[LIGO]]-type experiment for the detection of gravitational waves is due to 
-
-* M. Gertsenshtein, I. Postivoit, _On the detection of low frequency gravitational waves_, Soviet Physics JETP, volume 16, number 2, 1963 ([pdf](http://www.jetp.ac.ru/cgi-bin/dn/e_016_02_0433.pdf))
+### Theoretical predictions
 
 Discussion of theoretical predictions for events that have a chance to yield detectable gravitational wave signals includes
 
@@ -82,6 +82,24 @@ In particular the computation of the signal from the coalescence of two inspiral
 
 * {#Damour14} [[Thibault Damour]], [[Alessandro Nagar]], _A new analytic representation of the ringdown waveform of coalescing spinning black hole binaries_, 	10.1103/PhysRevD.90.024054 ([arXiv:1406.0401](http://arxiv.org/abs/1406.0401))
 
+Review of the theoretical predictions and their experimental verification is given in
+
+* {#Damour16} [[Thibault Damour]], _Gravitational Waves and Binary Systems_, talk at IHES, Feb 2016 ([video recording](https://www.youtube.com/watch?v=qYong_D4VUI))
+
+Discussion using the [[string theory results applied elsewhere|string theoretic]] [[KLT relation]]/[[double copy]]-approach for computing higher order corrections to gravitational wave-signatures of [[relativistic binary]] mergers for use with [[LIGO]]:
+
+* {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, Radu Roiban, Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
+
+
+### Experimental observation
+
+Indirect detection of gravitational waves based on energy loss of a [[binary pulsar]] system is due to 
+
+* {#HulseTaylor75} Hulse, Taylor, _Discovery of a pulsar in a binary system_, The astrophysical journal, 195:L51-53, 1975 ([web](http://adsabs.harvard.edu/full/1975ApJ...195L..51H))
+
+The first proposal of the [[LIGO]]-type experiment for the detection of gravitational waves is due to 
+
+* M. Gertsenshtein, I. Postivoit, _On the detection of low frequency gravitational waves_, Soviet Physics JETP, volume 16, number 2, 1963 ([pdf](http://www.jetp.ac.ru/cgi-bin/dn/e_016_02_0433.pdf))
 
 Direct detection of gravitational waves by the [[LIGO]] experiment is reported in 
 
@@ -91,13 +109,6 @@ Direct detection of gravitational waves by the [[LIGO]] experiment is reported i
 * {#LIGOVirgo17} B.&#8201;P. Abbott et al. ([[LIGO]] Scientific Collaboration and [[Virgo]] Collaboration), _GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral_ Phys. Rev. Lett. 119, 161101, 2017 ([doi:10.1103/PhysRevLett.119.161101](https://doi.org/10.1103/PhysRevLett.119.161101))
 
 
-Review of the theoretical predictions and their experimental verification is given in
-
-* {#Damour16} [[Thibault Damour]], _Gravitational Waves and Binary Systems_, talk at IHES, Feb 2016 ([video recording](https://www.youtube.com/watch?v=qYong_D4VUI))
-
-See also
-
-* Wikipedia, _[Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)_
 
 
 [[!redirects gravitational waves]]
