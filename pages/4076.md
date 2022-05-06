@@ -19,7 +19,6 @@ A **universal element** of a [[functor]] $F: C \to Set$ is an element $\theta \i
 
 $$\hat{\theta}: \hom(x, -) \to F$$ 
 
-[ ]
 
 $$\hat{\theta}_y(f: x \to y) \stackrel{def}{=} F(f)(\theta)$$ 
 
