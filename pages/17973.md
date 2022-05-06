@@ -140,7 +140,7 @@ Lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): see references [below](
 
 Since the [[near horizon geometry]] of [[BPS state|BPS]] [[black branes]] is the [[Cartesian product]] of [[anti de Sitter spaces]] with the unit $n$-sphere around the brane, the [[cosmology]] of intersecting D-brane models realizes the [[observable universe]] on the [[asymptotic boundary]] of an [[anti de Sitter spacetime]], or close (see for instance [Kaloper 04](#Kaloper04), [Flachi-Minamitsuji 09](#FlachiMinamitsuji09)). The basic structure is hence that of _[[Randall-Sundrum models]]_, but details may differ.
 
-## Computer scan of Gepner-model compactifications
+### Computer scan of Gepner-model compactifications
 
 Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04a)):
 
