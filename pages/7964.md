@@ -174,11 +174,13 @@ with a more precise analysis due to
 
 * {#BKPV15} A. V. Bednyakov, B. A. Kniehl, A. F. Pikelner, and O. L. Veretin, _Stability of the Electroweak Vacuum: Gauge Independence and Advanced Precision_, Phys. Rev. Lett. 115, 201802 ([arXiv:1507.08833](https://arxiv.org/abs/1507.08833), [doi:10.1103/PhysRevLett.115.201802](https://doi.org/10.1103/PhysRevLett.115.201802))
 
-with exposition in
+Review includes
 
 * {#Kusenko15} Alexander Kusenko, _[Are We on the Brink of the Higgs Abyss?](https://physics.aps.org/articles/v8/108)_, Physics 8, 108 (2015)
 
-as well as
+* Sebastian Baum, _On the metastability of the Standard Model_, 2015 ([pdf](https://uu.diva-portal.org/smash/get/diva2:819933/FULLTEXT01.pdf))
+
+* Holger Gies, _Vacuum stability and the mass of the Higgs boson_, 2015 ([pdf](http://physik.uni-graz.at/~dk-user/talks/Gies_20150828.pdf))
 
 * {#AFS18} Anders Andreassen, William Frost, Matthew D. Schwartz, _Scale Invariant Instantons and the Complete Lifetime of the Standard Model_, Phys. Rev. D 97, 056006 (2018) ([arXiv:1707.08124](https://arxiv.org/abs/1707.08124))
 
