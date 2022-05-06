@@ -46,7 +46,7 @@ More generally,  for $X$ a smooth manifold with smooth [[action]] of a [[connect
 
 * [[real vector space]]
 
-* [[rational cohomology]], [[complex cohomology]]
+* [[integral cohomology]], [[rational cohomology]], [[complex cohomology]]
 
 * [[de Rham cohomology]], [[de Rham theorem]]
 
