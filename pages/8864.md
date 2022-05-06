@@ -178,6 +178,8 @@ is an [[isomorphism]] of [[isomorphism classes]] of vector bundles (and an [[equ
 
 ## Properties
 
+### Whitney summands of trivial vector bundles
+
 +-- {: .num_prop #TopologicalSubBundlesOverParacompactHausdorffSpacesAreDirectSummands}
 ###### Proposition
 **(sub-bundles over [[paracompact spaces]] are [[direct sum of vector bundles|direct summands]])**
@@ -332,6 +334,28 @@ Prop. \ref{OverCompactHausdorffSpacesEveryTopologicalVectorBundleIsDirectSummand
 =--
 
 Remark : Let $E_1\rightarrow M$ and $E_2\rightarrow M$ be vector bundles over $M$. This gives product map $E_1\times E_2\rightarrow M\times M$ which is still a vector bundle. Consider diagonal map $d:M\rightarrow M\times M$ given by $m\mapsto (m,m)$. The Whitney sum of $E_1\rightarrow M$ and $E_2\rightarrow M$ is the pull back of $E_1\times E_2\rightarrow M\times  M$ along the diagonal map $d:M\rightarrow M\times M$ which is denoted by $E_1\oplus E_2\rightarrow M$.  
+
+
+### Characteristic classes of Whitney sums
+
++-- {: .num_prop #EulerClassOfWhitneySumIsCupProductOfEulerClasses}
+###### Proposition
+**([[Euler class]] takes [[Whitney sum]] to [[cup product]])**
+
+The Euler class of the [[Whitney sum]] of two [[orthogonal group|oriented]] [[real vector bundles]] to the [[cup product]] of the separate Euler classes:
+
+$$
+  \chi( E \oplus F )
+  \;=\;
+  \chi(E)  \smile \chi(F)
+  \,.
+$$
+
+=--
+
+For details see at [[Euler class]], [this Prop.](Euler+class#EulerClassOfWhitneySumIsCupProductOfEulerClasses).
+
+
 
 
 ## Related concepts
