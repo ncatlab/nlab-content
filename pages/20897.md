@@ -12,7 +12,8 @@ On [[PROPs]] and the [[biequivalence]] between [[Feynman categories]] and [[colo
 
 * [[Giovanni Caviglia]], _The Dwyer-Kan model structure for enriched coloured PROPs_ ([arXiv:1510.01289](https://arxiv.org/abs/1510.01289))
 
+See also
 
-With [[Geoffroy Horel]], _Rigidification of higher categorical structures_, ([arXiv:1511.01119](https://arxiv.org/abs/1511.011190).
+* [[Giovanni Caviglia]], [[Geoffroy Horel]], _Rigidification of higher categorical structures_ ([arXiv:1511.01119](https://arxiv.org/abs/1511.01119)).
 
 category: people
