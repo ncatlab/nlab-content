@@ -17,6 +17,12 @@
 
 Quantum hadrodynamics is (or should be) an [[effective field theory]] derived from [[QCD]] that describes [[bound states]] in nuclear physics -- [[mesons]] and [[hadrons]]  -- such as [[protons]] and [[neutrons]].
 
+For more see _[[chiral perturbation theory]]_.
+
+## Related concepts
+
+* [[Walecka model]]
+
 
 ## References
 
