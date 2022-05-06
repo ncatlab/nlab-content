@@ -969,6 +969,7 @@ Preservation of certain limits by left Kan extended functors is discussed in
  
 The general notion of extensions of [[1-morphisms]] in [[2-categories]] is discussed in 
 
+* John W. Gray, _Quasi-Kan extensions for 2-categories_, Bull. Amer. Math. Soc. 80:1 (1974) 142-147 [pdf](https://pdfs.semanticscholar.org/346b/9ae758d63f12e8e5c635c85cb30f6c568fd9.pdf)
 * {#Lack09} [[Steve Lack]], _A 2-categories companion_, in [[John Baez]], [[Peter May]], _[[Towards Higher Categories]]_, Springer, (2009) ([arXiv:math/0702535](http://arxiv.org/abs/math/0702535))
 * [[Ross Street]], _Pointwise extensions and sketches in bicategories_, [arXiv:1409.6427](https://arxiv.org/abs/1409.6427)
 * {#Roald13} Seerp Roald Koudenburg, *Algebraic weighted colimits*, [arXiv](http://arxiv.org/abs/1304.4079)
