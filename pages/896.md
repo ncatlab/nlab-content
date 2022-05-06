@@ -95,6 +95,8 @@ This is evident from inspection of the defining [[universal property]].
 
 * [[sub-(infinity,1)-category]]
 
+* [[internal full subcategory]]
+
 [[!redirects full subcategories]]
 [[!redirects full embedding]]
 [[!redirects full embeddings]]
