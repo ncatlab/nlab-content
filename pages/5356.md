@@ -4,7 +4,7 @@ See [www.jmilne.org](http://www.jmilne.org)
 
 ## Some publications
 
-* _[[Étale Cohomology]]_, Princeton Mathematical Series __33__, 1980. xiii+323 pp.
+* _[[Étale Cohomology]]_, Princeton Mathematical Series __33__, 1980. xiii+323 pp. ([jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1))
 
 * _[[Lectures on Étale Cohomology]]_  ([pdf](http://www.jmilne.org/math/CourseNotes/LEC.pdf))
 
