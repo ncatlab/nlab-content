@@ -1,4 +1,4 @@
-
+{#top}
 
 $$
   A
@@ -645,4 +645,6 @@ the equations:
 [Backus' 1977 lecture](#Backus1977)
 [[#Backus1977|Backus' 1977 lecture]]
 [[functional programming#Backus1977|Backus' 1977 lecture]]
+
+[[#top|Top of page]]
 
