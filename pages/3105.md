@@ -13,23 +13,181 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-The **Whitehead product** is a bilinear operation on the elements of the [[homotopy groups]] of a [[pointed space|pointed]] [[CW-complex]] $X$, which makes them a [[super Lie algebra]] over the [[ring]] of [[integers]] (often called a _graded quasi-Lie algebra_).
+### Basic definition
 
-More specifically, it takes as input $\alpha\in\pi_r(X)$ and $\beta\in\pi_s(X)$ and produces $[\alpha,\beta]_{Wh}\in\pi_{r+s-1}(X)$.  The operation satisfies a graded [[Jacobi identity]] ([Hilton 55, Theorem B](#Hilton55)).
+For $X$ a [[pointed space|pointed]] [[topological space]] ([[CW-complex]]), the _Whitehead products_ ([Whitehead 41, Section 3](#Whitehead41)) are the [[bilinear maps]] on the elements of the [[homotopy groups]] $\pi_\bullet(X)$ of $X$ of the form
+
+\[
+  \label{WhiteheadProductMapInSingleDegrees}
+  [-,-]_{Wh}
+  \;\colon\;
+  \pi_{n_1}\big( X \big)
+  \otimes_{\mathbb{Z}}
+  \pi_{n_2}\big( X \big)
+  \longrightarrow
+  \pi_{n_1 + n_2 - 1}\big( X \big)
+  \phantom{AA}
+  \text{for all}
+  \;
+  n_i \in \mathbb{N}
+  ;
+  \;
+  n_i \geq 1
+  \,,
+\]
+
+given by sending any [[pair]] of [[homotopy classes]]
+
+$$
+  \big[
+    S^{n_i} \overset{\phi_i}{\longrightarrow} X
+  \big]
+  \;\in\;
+  \pi_{ n_i }
+  \big(
+    X
+  \big)
+$$
+
+to the [[homotopy class]] of the top [[composition|composite]] in the [[diagram]]
+
+$$
+  \array{
+    S^{ n_1 + n_2 -1 }
+    &
+    \overset{      
+      f_{n_1,n_2}
+    }{
+      \longrightarrow
+    }
+    &
+    S^{n_1}
+    \vee
+    S^{n_2}
+    &
+    \overset{
+      (\phi_1, \phi_2)
+    }{\longrightarrow}
+    &
+    X
+    \\
+    \big\downarrow
+    &
+    (po)
+    &
+    \big\downarrow
+    \\
+    D^{ n_1 + n_2 }
+    &\underset{}{\longrightarrow}&
+    S^{n_1} \times S^{n_2}
+  }
+$$
+
+where $f_{n_1, n_2}$ is [[generalized the|the]] [[attaching map]] exhibiting the [[product space]] $S^{n_1} \times S^{n_2}$ as the result of a [[cell attachment]] to the [[wedge sum]] $S^{n_1} \vee S^{n_2}$.
+
+### Generalized version
 
 There is also a **generalized Whitehead product** where we can take more general homotopy classes ([[continuous maps]] up to [[homotopy]]) $\alpha\in [S^\cdot Y,X]$ and $\beta\in [S^\cdot Z,X]$ to produce a class $[\alpha,\beta]_{Wh}\in[Y\star Z,X]$. Here $S^\cdot$ denotes the [[reduced suspension]] operation on pointed spaces and $\star$ denotes the [[join of spaces|join]] of CW-complexes. Notice that $pt\star Z = C^\cdot(Z)$ and the reduced [[cone]] of a point is $C^\cdot(pt)=S^1$. Thus for $Y=Z=pt$ the generalized Whitehead product reduced to the usual Whitehead product.
 
-The Whitehead products form one of the [[primary homotopy operation]]s and in fact with [[composition operation]]s and $\pi_1$-actions generate all such operations. This is related to the definition of [[Pi-algebra]].
-
-In the context of [[simplicial group]]s, representing [[connected]] [[homotopy type]]s, there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. (The formula for the Whitehead product is due to [[Dan Kan]] and can be found in the old survey article of [[Ed Curtis]].  The proof that it works was never published.)
 
 ## Properties
+
+### Super Lie algebra structure
+
+If one assigns degree $n-1$ to the $n$th [[homotopy group]] $\pi_n$,
+then the degree-wise Whitehead products (eq:WhiteheadProductMapInSingleDegrees) 
+organize into a single degree-0 bilinear pairing on the [[graded abelian group]] which is the [[direct sum]] of all the [[homotopy groups]]:
+
+
+\[
+  \label{DegreeShiftedHomotopyGroups}
+  \array{
+    \pi_{\bullet - 1}(X) 
+    =
+    &
+    \pi_1(X)
+    &\oplus&
+    \pi_2(X)
+    &\oplus&
+    \pi_3(X)
+    &\oplus&
+    \cdots
+    \\
+    deg =
+    &
+    0
+    &&
+    1
+    &&
+    2
+  }
+\]
+
+
+This unified Whitehead product is _graded_ skew-symmetric in that for $\phi_i \in \pi_{n_i}\big( X \big)$ it satisfies
+
+$$
+  \big[
+    \phi_1,
+    \,
+    \phi_2
+  \big]_{Wh}
+  \;=\;
+  -
+  (-1)^{ (n_1 - 1)(n_2-1) }
+  \big[
+    \phi_1,
+    \,
+    \phi_2
+  \big]_{Wh}
+  
+$$
+
+and it satisfies the corresponding graded [[Jacobi identity]] ([Hilton 55, Theorem B](#Hilton55)).
+
+This makes the Whitehead bracket the [[Lie bracket]] of a [[super Lie algebra]] [[structure]] on $\pi_{\bullet-1}(X)$ (eq:DegreeShiftedHomotopyGroups), over the [[ring]] of [[integers]] (sometimes called, in this context, a _graded quasi-Lie algebra_, see [below](#OfAnElementWithItself)).
+
+
+### Of elements with themselves
+ {#OfAnElementWithItself}
+
+Beware that the skew-symmetry of [[Lie algebras]] over the [[integers]], as opposed to over a [[field]] of [[characteristic zero]], implies for any element $\phi$ of [[even number|even]] homogeneous degree -- 
+hence here for elements of [[homotopy groups]] in [[odd number|odd]] degree -- only that the bracket with itself vanishes after multiplication by 2
+
+$$
+  [\phi,\phi]_{Wh} = - [\phi,\phi]_{Wh}
+  \phantom{AA}
+  \text{hence equivalently}
+  \phantom{AA}
+  2 \cdot [\phi,\phi]_{Wh} = 0
+$$
+
+but not necessarily that $[\phi,\phi]_{Wh} = 0$ by itself -- since [[multiplication]] by 2 is not an [[isomorphism]] over the [[integers]].
+
+But this means that the Whitehead bracket of any even-degree [[element]] with itself -- hence of any [[element]] of a [[homotopy group]] in [[odd number|odd]] degree -- has [[order of a group element|order]] at most 2, hence is in the 2-[[torsion subgroup]] of the respective [[homotopy group]]. 
+
+### As primary homotopy operations
+
+The Whitehead products form one of the [[primary homotopy operations]]. 
+
+In fact, together with [[composition operations]] and [[fundamental group]]-[[actions]] they [[generators and relations|generate]] all such operations. 
+
+This is related to the definition of [[Pi-algebras]].
+
+
+### In terms of Samelson products
+
+In the context of [[simplicial groups]], representing [[connected]] [[homotopy types]], there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. 
+
+(This formula for the Whitehead product is due to [[Dan Kan]] and can be found in the old survey article of [[Ed Curtis]].  The proof that it works was never published.)
+
 
 ### Relation to the Sullivan models
  {#RelationToSullivanModels}
@@ -211,7 +369,7 @@ Then the Whitehead product satisfies
 
 $$
   \big[
-    id_{s^2},
+    id_{S^2},
     \; 
     id_{S^2}
   \big]
@@ -229,9 +387,11 @@ $$
 
 ### General
 
-Named after [[J. H. C. Whitehead]].
+The concept is originally due to 
 
-The concept originates with
+* {#Whitehead41} [[J. H. C. Whitehead]], Section 3 of _On Adding Relations to Homotopy Groups_, Annals of Mathematics Second Series, Vol. 42, No. 2 (Apr., 1941), pp. 409-428 ([jstor:1968907](https://www.jstor.org/stable/1968907))
+
+with early discussion in
 
 * {#HiltonWhitehead53} [[Peter Hilton]], [[J. H. C. Whitehead]], _Note on the Whitehead Product_, Annals of Mathematics Second Series, Vol. 58, No. 3 (Nov., 1953), pp. 429-442  ([jstor:1969746](https://www.jstor.org/stable/1969746))
 
