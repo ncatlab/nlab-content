@@ -531,7 +531,7 @@ The first statement in itself is a classical fact (reviewed e.g. in [Gutt 11](#G
 
 In ([Kontsevich 99](Kontsevich99)) it was indicated that a [[quotient group]] of the [[motivic Galois group]] apparently equivalent to the [[Grothendieck-Teichmüller group]] naturally [[action|acts]] on the space of formal deformation quantizations of a finite dimensional manifold. See also at _[[cosmic Galois group]]_.
 
-This has been formalized as follows. The formal deformation quantization of ([Kontsevich 97](#Kontsevich97)) is all induced by the [[Kontsevich formality]] theorem, which states that ober suitable [[manifolds]]/[[varieties]] $X$ there is an [[equivalence]] of [[L-∞ algebras]]
+This has been formalized as follows. The formal deformation quantization of ([Kontsevich 97](#Kontsevich97)) is all induced by the [[Kontsevich formality]] theorem, which states that over suitable [[manifolds]]/[[varieties]] $X$ there is an [[equivalence]] of [[L-∞ algebras]]
 
 
 $$
