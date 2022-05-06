@@ -100,9 +100,10 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 ## Related concepts
 
-* **Pontryagin class**
 
 * [[p1-structure]], [[string structure]], [[fivebrane structure]]
+
+* [[shifted C-field flux quantization]]
 
 * [[Stiefel-Whitney class]], [[Wu class]], [[one-loop anomaly polynomial I8]]
 
