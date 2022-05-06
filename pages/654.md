@@ -218,7 +218,7 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 
 A systematic definition of 2-modules over [[2-rings]] (see there for more) is in 
 
-* [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_ ([arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
+* [[Alexandru Chirvasitu]], [[Theo Johnson-Freyd]], _The fundamental pro-groupoid of an affine 2-scheme_, Applied Categorical Structures, Vol 21, Issue 5 (2013), pp. 469–522. ([DOI](http://dx.doi.org/10.1007/s10485-011-9275-y), [arXiv:1105.3104](http://arxiv.org/abs/1105.3104))
  {#CJF}
 
 See also at
