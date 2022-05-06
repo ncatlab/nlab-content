@@ -16,6 +16,7 @@
 ## Idea
 
 ### Dihedral groups
+ {#DihedralGroups}
 
 The dihedral group, $D_{2n}$, is a [[finite group]] of [[order of a group|order]] $2n$. It may be defined as the [[symmetry group]] of a regular $n$-gon. 
 
@@ -44,12 +45,79 @@ There are two different conventions for numbering the dihedral groups.
 
 
 ### Binary dihedral/dicyclic groups
+  {#BinaryDihedralGroup}
 
-Under the further lift through the [[spin group]]-[[double cover]] map $SU(2) \simeq Spin(3) \to SO(3)$, the dihedral group $D_{2n}$ is covered by the _binary dihedral group_, also known as the _dicyclic group_ and denoted
+Under the further lift through the [[spin group]]-[[double cover]] map $SU(2) \simeq Spin(3) \to SO(3)$ of the [[special orthogonal group]], the dihedral group $D_{2n}$ is covered by the _binary dihedral group_, also known as the _dicyclic group_ and denoted
 
 $$
   2 D_{2n} = Dic_n
 $$
+
+Equivalently this is the lift of the dihedral group $D_{2n}$ ([above](#DihedralGroups)) through the [[pin group]] [[double cover]] of the [[orthogonal group]] [[O(2)]] to [[Pin(2)]]
+
+$$
+  \array{
+    2 D_{2n}
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Pin_-(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    Spin(3)
+    \\
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    &{}^{(pb)}&
+    \big\downarrow
+    \\
+    D_{2n}
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    O(2)
+    &\overset{\phantom{AA}}{\hookrightarrow}&
+    SO(3)    
+  }
+$$
+
+Explicity, let $\mathbb{H} \simeq \mathbb{C} \oplus j \mathbb{C}$ be the [[quaternions]] realized as the [[Cayley-Dickson double]] of the [[complex numbers]], and identify the [[circle group]]
+
+$$
+  SO(2) \simeq S\big( \mathbb{C}\big) \hookrightarrow \mathbb{H}
+$$
+
+with the [[unit circle]] in $\mathbb{C} \hookrightarrow \mathbb{H}$ this way, with group structure given by multiplication of [[quaternions]]. Then the [[Pin group]] [[Pin(2)]] is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[group of units]] $\mathbb{H}^\times$ of the [[quaternions]] which consists of this copy of [[SO(2)]] together with the multiplies of the imaginary quaternion $j$ with this copy of $SO(2)$:
+
+$$
+  Pin_-(2)
+  \;\simeq\;
+  S\big( \mathbb{C}\big) 
+   \;\cup\; 
+  j \cdot S\big( \mathbb{C}\big) 
+  \;\subset\;
+  S(\mathbb{H}) 
+  \;\simeq\;
+  Spin(3)
+  \,.
+$$
+
+The binary dihedral group $2 D_{2n}$ is the [[subgroup]] of that generated from 
+
+1. $ a \coloneqq \exp\left( \pi i \tfrac{1}{n} \right) \in S(\mathbb{C}) \subset Spin_-(2) \subset Spin(3)$
+
+1. $x \coloneqq j \in Spin_-(2) \subset Spin(3)$.
+
+It is manifest that these two generators satisfy the relations
+
+$$
+  a^{2n} = 1
+  \,,
+  \phantom{AA}
+  x^2 = a^n \; (= -1)
+  \,,
+  \phantom{AA}
+  x^{-1} a x = a^{-1}
+$$
+
+and in fact these [[generators and relations]] fully determine $2 D_{2n}$, up to [[isomorphism]].
+
 
 
 
