@@ -122,6 +122,9 @@ $$
 
 * [[weight systems are cohomology of loop space of configuration space]]
 
+* [[weight systems are cohomology of knot graph complex]]
+
+
 ## Related concepts
 
 * [[Lie algebra weight system]]
