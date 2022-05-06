@@ -1,8 +1,21 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
+=--
+=--
+=--
+
+
 
 	
 ## References
+
+See also: 
 
 * Wikipedia, _[Josephson effect](http://en.wikipedia.org/wiki/Josephson_effect)_
 
