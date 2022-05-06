@@ -241,7 +241,7 @@ Together these two innocent modifications make the graphs now represent [[vacuum
 \]
 
 
-This yields higher [[Vassiliev knot invariants]], a good review is in [Volić 13](#Volic13).
+This yields higher [[Vassiliev knot invariants]], a good review is in [Volić 13](#Volic13). It is a [[conjecture]] ([Volić 13, Conjecture 4.8](#Volic13)) that this map, too, is a [[quasi-isomorphism]].
 
 \linebreak
 
