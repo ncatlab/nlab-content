@@ -24,7 +24,7 @@ The following definition was introduced by [[Jeff Smith]] under the name of a _m
 
 (See Definition&#160;2.1 in ([RT 2003](#RT)).
 A [[model structure]] on a category&#160;$M$ with a fixed class of [[cofibrations]]&#160;$C$ is _left-determined_ if its class of [[weak equivalences]] is the smallest class of morphisms
-that is closed under [[retracts]], satisfies the [[2-out-of-3 property]], contains all morphisms with a [[right lifting property]] with respect to&#160;$C$, and whose intersection with&#160;$C$ is [[weakly saturated]].
+that is closed under [[retracts]], satisfies the [[2-out-of-3 property]], contains all morphisms with a [[right lifting property]] with respect to&#160;$C$, and whose intersection with&#160;$C$ is [[saturated class of maps|weakly saturated]].
 
 =--
 
@@ -59,4 +59,7 @@ Without the Vop&#283;nka principle the best results known so far require additio
 
 * Marc Olschok, 2009, 'Left Determined Model Structures for Locally Presentable Categories', _Applied Categorical Structures_, vol. 19, no. 6, pp. 901-938: doi:[10.1007/s10485-009-9207-2](http://dx.doi.org/10.1007/s10485-009-9207-2) {#Olschok09}
 
-* {#G} Philippe Gaucher, _Left determined model categories_, New York Journal of Mathematics **21** (2015), 1093-1115, [journal page](http://nyjm.albany.edu/j/2015/21-50.html), arXiv:[1507.02128](https://arxiv.org/abs/1507.02128).
+* {#G} [[Philippe Gaucher]], _Left determined model categories_, New York Journal of Mathematics **21** (2015), 1093-1115 ([nyjm:j/2015/21-50](http://nyjm.albany.edu/j/2015/21-50.html), [arXiv:1507.02128](https://arxiv.org/abs/1507.02128))
+
+[[!redirects left-determined model categories]]
+
