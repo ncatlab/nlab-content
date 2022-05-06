@@ -19,7 +19,7 @@
 
 ## Idea
 
-The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 64](#Lawvere64)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
+The **Elementary Theory of the Category of Sets**, or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 64](#Lawvere64)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
 
 The theory intends to capture in an invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set. (See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'.[^cantor] [^dedekind] [^schoenflies] [^vonneumann])
 
