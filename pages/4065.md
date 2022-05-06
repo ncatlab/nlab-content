@@ -31,6 +31,9 @@ But the monster was merely _conjectured_ to exist until Griess (1982) explicitly
 To cut the story short, we end up getting from the Monster group to a module it acts on which is related to "modular stuff" (namely, the modular [[j-invariant]]). The idea [[Terry Gannon]] pitches is that Moonshine is a generalization of this association, it's a sort of "mapping" from "Algebraic gadgets" to "Modular stuff". 
 
 ## Automorphism groups of vertex operator algebras
+ {#AutomorphismGroupsOfVertexOperatorAlgebras}
+
+Realizations of [[sporadic finite simple groups]] as [[automorphism groups of vertex operator algebras]] in [[heterotic string theory]] and [[type II string theory]] (mostly on [[K3-surfaces]], see [[HET - II duality]]):
 
 
 * The [[Conway group]] $C_{O_0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
@@ -107,7 +110,9 @@ EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#2
 
 ### Realization in superstring theory
 
-Discussion of possible realizations in [[superstring theory]] (specifically [[heterotic string theory]]) via [[automorphisms of super vertex operator algebras]], includes
+Discussion of possible realizations in [[superstring theory]] (specifically [[heterotic string theory]] and [[type II string theory]] in [[K3-surfaces]], see [[HET - II]]) via [[automorphisms of super vertex operator algebras]]:
+
+* S. Chaudhuri, D.A. Lowe, _Monstrous String-String Duality_, Nucl.Phys.B469:21-36, 1996 ([arXiv:hep-th/9512226](https://arxiv.org/abs/hep-th/9512226))
 
 * {#Duncan05} John F. Duncan, _Super-moonshine for Conway's largest sporadic group_ ([arXiv:math/0502267](https://arxiv.org/abs/math/0502267))
 
