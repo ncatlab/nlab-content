@@ -1004,7 +1004,7 @@ Alternatively one can explore the situation for [[contravariant functors]] on th
 
 * [[quantum logic]]
 
-* [[quantum probability theory]]
+[[!include states and observables -- content]]
 
 ## References
  {#References}
