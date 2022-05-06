@@ -33,10 +33,10 @@ An inverse sequence of groups consists of some groups $G_n$ indexed by the [[nat
 
 An inverse system $G = \{G_n,p^m_n\}$ is said to _satisfy the Mittag-Leffler property_ (or _condition_) if
 
-for any $n$, there is an $n^\prime \gt n$ such that for any $n^{\prime\prime} \gt n^\prime$, 
+for any $n$, there is an $n' \gt n$ such that for any $n'' \gt n'$, 
 
 
-$$p^{n^{\prime\prime}}_n(G_{n^{\prime\prime}}) = p^{n^\prime}_n(G_{n^\prime}).$$
+$$p^{n''}_n(G_{n''}) = p^{n'}_n(G_{n'}).$$
 
 ## Discussion
 
