@@ -192,6 +192,13 @@ Discussion in terms of [[DHR superselection theory]]:
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
 
 
+### Application to AdS/QCD
+
+Application to [[AdS/QCD]]:
+
+
+* Zhibin Li, Kun Xu, Mei Huang, _The entanglement properties of holographic QCD model with a critical end point_ ([arXiv:2002.08650](https://arxiv.org/abs/2002.08650))
+
 
 ### Black hole information paradox
 
