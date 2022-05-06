@@ -374,7 +374,7 @@ it is argued that the [[conformal blocks]] of the [[6d (2,0)-superconformal QFT]
 
 The fact that this Chern-Simons term is in fact a _nonabelian_ [[higher dimensional Chern-Simons theory]] in $d = 7$, due the [[quantum anomaly]] cancellation, is clear from the original source, equation (3.14) of
 
-* {#DLM} [[Michael Duff]], James T. Liu, R. Minasian, _Eleven Dimensional Origin of String/String Duality: A One Loop Test_ ([arXiv:hep-th/9506126](http://arxiv.org/abs/hep-th/9506126))
+* {#DLM} [[Michael Duff]], [[James Liu]], [[Ruben Minasian]], _Eleven Dimensional Origin of String/String Duality: A One Loop Test_ ([arXiv:hep-th/9506126](http://arxiv.org/abs/hep-th/9506126))
   
 
 but seems not to be noted explicitly in the context of $AdS_7/CFT_6$ before the references
