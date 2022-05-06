@@ -136,9 +136,11 @@ An exponentiable Grothendieck topos $\mathcal{E}$ is called _tiny_ (or _infinite
 
 * {#Hyland81}[[Martin Hyland]], _Function spaces in the category of locales_ , Springer LNM **871** (1981) pp.264-281.
 
-* {#JJ82}[[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
+* {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Also available as Dover reprint Mineola 2014; pp.209-210, 248-249)
 
 * {#J02}[[Peter Johnstone]], _Sketches of an Elephant vols. 1&2_ , CUP 2002. (sections B4.3 pp.432-438, C4.4 pp.745-754)
+
+* {#JJ82}[[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
 
 * {#Lurie18}[[Jacob Lurie]], _Spectral Algebraic Geometry_ , ms. Harvard University 2018. (section 21.1.6)
 
