@@ -105,8 +105,7 @@ A careful non-technical exposition is in
 
   _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
 
-* [[Xi Yin]], _Black Holes, Anti de Sitter space, and Topological
-Strings_, 2006 ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Research_files/allthesis.pdf))
+* [[Xi Yin]], _Black Holes, Anti de Sitter space, and Topological Strings_, 2006 ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Research_files/allthesis.pdf))
 
 * {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, extensive lecture notes ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
 
@@ -116,7 +115,13 @@ Strings_, 2006 ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Research_fil
 
 * [[Dieter Lüst]], Ward Vleeshouwers, _Black Hole Information and Thermodynamics_ ([arXiv:1809.01403](https://arxiv.org/abs/1809.01403))
 
-See also 
+
+* {#Zaffaroni19} [[Alberto Zaffaroni]], _Lectures on AdS Black Holes, Holography and Localization_ ([arXiv:1902.07176](https://arxiv.org/abs/1902.07176))
+
+
+
+Lectures on AdS Black Holes, Holography and Localization
+Alberto Zaffaroniee also 
 
 * [String Theory Wiki](http://www.stringwiki.org), _[Black hole entropy](http://www.stringwiki.org/w/index.php?title=Black_Hole_Entropy)_
 
@@ -169,6 +174,8 @@ More recent developments include
 * Francesco Benini, Paolo Milan, _Black holes in 4d $\mathcal{N} = 4$ Super-Yang-Mills_ ([arXiv:1812.09613](https://arxiv.org/abs/1812.09613))
 
 * H. L. Dao, Parinya Karndumri, _Supersymmetric $AdS_5$ black holes and strings from 5D $N=4$ gauged supergravity_ ([arXiv:1812.10122](https://arxiv.org/abs/1812.10122))
+
+* {#CKJN18} Sunjin Choi, Joonho Kim, Seok Kim, June Nahmgoong, _Large AdS black holes from QFT_ ([arxiv:1810.12067](https://arxiv.org/abs/1810.12067))
 
 ### Black holes in supergravity
 
