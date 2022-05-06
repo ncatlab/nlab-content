@@ -650,6 +650,12 @@ The extreme form of bottom-up holographic model building is explored in
 
 where an appropriate [[bulk]] geometry is computer-generated from specified boundary behaviour.
 
+More on this:
+
+* Tetsuya Akutagawa, Koji Hashimoto, Takayuki Sumimoto, _Deep Learning and AdS/QCD_ ([arXiv:2005.02636](https://arxiv.org/abs/2005.02636))
+
+
+
 ##### Holographic light-front QCD
 
 The holographic formulation of [[light cone gauge|light cone quantizrd]] [[QCD] as [[holographic light front QCD]]:
