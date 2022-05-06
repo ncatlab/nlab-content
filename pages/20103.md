@@ -133,7 +133,7 @@ Vol. 89, No. 4 (Oct., 1967), pp. 857-886 ([doi:10.2307/2373408](https://www.jsto
 
 [[splitting principle]]:
 
-* {#Symonds91} Peter Symonds, _A splitting principle for group representations_, Comment. Math. Helv. (1991) 66: 169 ([doi:10.1007/BF02566643](https://doi.org/10.1007/BF02566643))
+* {#Symonds91} [[Peter Symonds]], _A splitting principle for group representations_, Comment. Math. Helv. (1991) 66: 169 ([doi:10.1007/BF02566643](https://doi.org/10.1007/BF02566643))
 
 [[!redirects Chern classes of linear representations]]
  
