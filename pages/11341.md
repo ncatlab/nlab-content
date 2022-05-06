@@ -28,7 +28,7 @@ This means that Gepner models are "non-geometric" in that they do not arise as [
 
 As such the Gepner models are directly analogous to the purely algebraically defined non-classical fibers in the [[Connes-Lott-Chamseddine-Barrett model]] (it is a "[[2-spectral triple]]"-analog of the [[spectral triples]] in the Connes-Lott model, see [there](Connes-Lott-Chamseddine-Barrett+model#Schreiber16)) and, accordingly, plays a central role in [[string phenomenology]] (for review see e.g. [Reppel 07](#Reppel07)).
 
-THe Gepner models,are a basic building block for [[rational conformal field theory]].
+The Gepner models are a basic building block for [[rational conformal field theory]].
 
 ## Properties
 
@@ -39,6 +39,19 @@ THe Gepner models,are a basic building block for [[rational conformal field theo
 
 ([Enger-Recknagel-Roggenkamp 05](#EngerRecknagelRoggenkamp05))
 
+### Phenomenology
+ {#Phenomenology}
+
+Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-compactification|KK-compactified]] with non-geometric [[fibers]] such that the would-be string [[sigma-models]] with these [[target spaces]] are in fact [[Gepner models]] (in the sense of _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_) is in ([Dijkstra-Huiszoon-Schellekens 04a](#DijkstraHuiszoonSchellekens04a), [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04a)):
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/SchellekensSuperGepnerModelScanII.jpg" width="600">
+</center>
+
+>  A plot of [[standard model of particle physics|standard model]]-like [[coupling constants]] in a computer scan of [[Gepner model]]-[[KK-compactification]] of [[intersecting D-brane models]] according to [Dijkstra-Huiszoon-Schellekens 04b](#DijkstraHuiszoonSchellekens04b). 
+
+>  The blue dot indicates the couplings in $SU(5)$-[[GUT]] theory. The faint lines are NOT drawn by hand, but reflect increased density of Gepner models as seen by the computer scan.
 
 ## Related concepts
 
@@ -80,11 +93,15 @@ See also
 
 * {#BraunSchaeferNameki05} [[Volker Braun]], Sakura Schafer-Nameki, _D-Brane Charges in Gepner Models_, J.Math.Phys. 47 (2006) 092304 ([arXiv:hep-th/0511100](https://arxiv.org/abs/hep-th/0511100))
 
-
 Discussion of [[permutation D-branes]] for Gepner models, via [[boundary conformal field theory]], includes
 
 * {#EngerRecknagelRoggenkamp05} Håkon Enger, [[Andreas Recknagel]], [[Daniel Roggenkamp]], _Permutation branes and linear matrix factorisations_, JHEP0601:087, 2006 ([arXiv:hep-th/0508053](https://arxiv.org/abs/hep-th/0508053))
 
+Discussion of [[string phenomenology]] and the [[landscape of string theory vacua]] of Gepner model compactifications is in
+
+* {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
+
+* {#DijkstraHuiszoonSchellekens04b} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Supersymmetric Standard Model Spectra from RCFT orientifolds_, Nucl.Phys.B710:3-57,2005 ([arXiv:hep-th/0411129](https://arxiv.org/abs/hep-th/0411129))
 
 [[!redirects Gepner models]]
 
