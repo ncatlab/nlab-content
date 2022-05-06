@@ -15,7 +15,7 @@
 
 ## Idea
 
-Quantum hadrodynamics is (or should be) an [[effective field theory]] derived from [[QCD]] that describes [[bound states]] in nuclear physics -- [[mesons]] and [[hadrons]]  -- such as [[protons]] and [[neutrons]].
+Quantum hadrodynamics is (or should be) an [[effective field theory]] derived from [[QCD]] that describes [[bound states]] in [[nuclear physics]] -- [[mesons]] and [[hadrons]]  -- such as [[protons]] and [[neutrons]].
 
 For more see _[[chiral perturbation theory]]_.
 
@@ -26,4 +26,11 @@ For more see _[[chiral perturbation theory]]_.
 
 ## References
 
+See the references at _[[chiral perturbation theory]]_
+
+### General
+
 * Brian D. Serot, John Dirk Walecka, _Recent Progress in Quantum Hadrodynamics_ ([arXiv:nucl-th/9701058](http://arxiv.org/abs/nucl-th/9701058))
+
+
+[[!include Skyrme hadrodynamics with vector mesons -- references ]]
