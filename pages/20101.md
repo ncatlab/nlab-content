@@ -46,6 +46,7 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 ## Selected publications
 
+
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](cds.cern.ch/record/1027442), [pdf](cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
 
 
@@ -87,6 +88,9 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 * [LHCb collaboration](http://lhcb.web.cern.ch/lhcb/)
 
 * [LHCb public results](http://lhcbproject.web.cern.ch/lhcbproject/Publications/LHCbProjectPublic/Summary_all.html)
+
+* {#LHCbCollaboration18} [[LHCb collaboration]], _Physics case for an LHCb Upgrade II - Opportunities in flavour physics, and beyond, in the HL-LHC era_ ([arXiv:1808.08865](https://arxiv.org/abs/1808.08865))
+
 
 See also
 
