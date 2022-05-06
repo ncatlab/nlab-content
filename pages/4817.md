@@ -28,11 +28,31 @@ Ordinary [[heterotic string theory]] is the study of the perturbation series of 
 
 Among the [[gauge field]]s that these strings are charged under is the [[Kalb-Ramond field]], which is a [[circle n-bundle with connection|circle 2-bundle with connection]].
 
-By general [[electric-magnetic duality]] (see [Freed](#Freed) for a formal treatment in [[differential cohomology]]) one expects there to be a dual theory theory where the $(p=1)$-dimensional strings are replaced by their magnetic duals, which are $10-(p+2)-2 = 5$-branes. 
+By general [[electric-magnetic duality]] (see [Freed 00](#Freed00) for a formal treatment in [[differential cohomology]]) one expects there to be a dual theory theory where the $(p=1)$-dimensional strings are replaced by their magnetic duals, which are $10-(p+2)-2 = 5$-branes. 
 
 The study of the corresponding perturbation series over correlators of the 6-dimensional fivebrane worldvolume [[SCFT]] over 6-volumes is far from tractable,  but a handful of consistency checks exist, that the corresponding _dual heterotic string theory_ makes sense.
 
 Where the [[quantum anomaly]]-cancellation for the heterotic string involves the demand for (twisted) [[string structure]]s, that for the dual theory involves [[fivebrane structure]]s (which gives these their name).
+
+The dual degree-8 anomaly polynomial in [[Green-Schwarz mechanism]] for dual heterotic string theory is (e.g. [Freed 00 (3.48)](#Freed00))
+
+$$
+  d H_7
+  \;=\;
+  ch_4(A)
+  -
+  \tfrac{1}{48}
+  p_1(\omega) \wedge ch_2(A)
+  + 
+  \tfrac{1}{64}
+  p_1(\omega) \wedge p_1(\omega)
+  -
+  \tfrac{1}{48} p_2(\omega)
+  \,,
+$$
+
+where $A$ denotes the [[gauge field]] [[connection on a bundle|connection]], $\omega$ the [[gravity]] [[spin connection]], $ch_n$ the degree-$n$ component of the [[Chern character]] and $p;_i$ the [[Pontryagin classes]].
+
 
 ## Related concepts
 
@@ -83,8 +103,8 @@ So this is the EM-dual analog of the Killingback-Witten-computation of the fermi
 
 For a description of the general mechanism in [[differential cohomology]] at work here, see
 
-* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
-{#Freed}
+* {#Freed00} [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, 2000
+
 
 
 [[!redirects dual heterotic string theory]]
