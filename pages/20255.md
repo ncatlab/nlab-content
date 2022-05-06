@@ -77,7 +77,7 @@ $$
 
 ([Souères-Tsimpis 17, (4.4)](#SoueresTsimpis17))
 
-Beware that this is not the lowest order [[higher curvature correction]]: there is already one at $\mathcal{O}(\ell^3)$, given by $\ell^3 G_4 \wedge \tfrac{1}{2}p_1(R)$ ([Souères-Tsimpis 17, Section 3.2](#SoueresTsimpis17)). Hence the full correction at $\mathcal{O}(\ell^3)$ should be the further modification of (eq:11dSugraBIAtOrder6) to
+Beware that this is not the lowest order [[higher curvature correction]]: there is already one at $\mathcal{O}(\ell^3)$, given by $\ell^3 G_4 \wedge \tfrac{1}{2}p_1(R)$ ([Souères-Tsimpis 17, Section 3.2](#SoueresTsimpis17)). Hence the full correction at $\mathcal{O}(\ell^6)$ should be the further modification of (eq:11dSugraBIAtOrder6) to
 
 \[
   \label{11dSugraBIAtOrder6}
@@ -88,7 +88,7 @@ Beware that this is not the lowest order [[higher curvature correction]]: there 
   \big( 
     G_4(\ell)
     -
-    \tfrac{1}{2} p_1(R)
+    2\ell^3 \tfrac{1}{2} p_1(R)
   \big)
   + 
   \ell^6 I_8(R)
