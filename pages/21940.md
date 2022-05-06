@@ -75,6 +75,8 @@ The [[bordism rings]] for [[MU]], [[MUFr]] and [[MFr]] sit in a [[short exact se
 
 where $i$ is the evident inclusion, while $\partial$ is restriction to the [[boundary]].
 
+(By [this Prop.](MUFr#AShortExactSequenceOfUFrBordismRings) at _[[MUFr]]_.)
+
 In particular, this means that $\partial$ is [[surjective function|surjective]], hence that every $Fr$-manifold is the boundary of a [[(U,fr)-manifold]].
 
 =--
@@ -180,9 +182,9 @@ From this, Conner-Floyd conclude by essentially  considering the following [[hom
 
 Here:
 
-1. For the identification of the [[Todd class]] $Td$ in the bottom of the diagram we used that [[the rational Todd class is the Chern character of the Thom class]];
+1. For the identification of the [[Todd class]] $Td$ in the bottom of the diagram we used that [[the rational Todd class is the Chern character of the Thom class]].
 
-1. for top magenta arrow we used that that the [[Q/Z]]-valued [[e-invariant]] is the top-degree component of the [[Chern character]] of any [[complex topological K-theory]]-class $V_{2n} \coloneqq \sigma \circ c$ lifting $\Sigma^{2n} 1 \in \widetilde K(S^{2n})$ to $C_f$ ([this Prop.](Adams+e-invariant#QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace)).
+1. For the top magenta arrow we used that that the [[Q/Z]]-valued [[e-invariant]] is the top-degree component of the [[Chern character]] of any [[complex topological K-theory]]-class $V_{2n} \coloneqq \sigma \circ c$ lifting $\Sigma^{2n} 1 \in \widetilde K(S^{2n})$ to $C_f$ ([this Prop.](Adams+e-invariant#QModZValuedEInvariantIsTopDegreeCoefficientOfChernCharacterOnCofiberSpace)).
 
 =--
 
@@ -191,7 +193,7 @@ Here:
 
 An analogous but finer construction works for [[special unitary group]]-structure instead of [[unitary group]]-structure and in dimensions $8\bullet + 4$: 
 
-Since on $(8 \bullet + 4)$-dimensional $SU$-manifolds the [[Todd class]] is divisible by 2 [Conner-Floyd 66, Prop. 16.4](#ConnerFloyd66) we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following [[short exact sequence]] of [[MSUFr]]-[[bordism rings]], in variation of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
+Since on $(8 \bullet + 4)$-dimensional $SU$-manifolds the [[Todd class]] is divisible by 2 ([Conner-Floyd 66, Prop. 16.4](#ConnerFloyd66)) we have ([Conner-Floyd 66, p. 104](#ConnerFloyd66)) the following [[short exact sequence]] of [[MSUFr]]-[[bordism rings]], in variation of (eq:ToddClassesOnShortExactSequenceOfUFrBordismRings):
 
 \[
   \label{HalfToddClassesOnShortExactSequenceOfSUFrBordismRings}
