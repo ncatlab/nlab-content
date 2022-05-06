@@ -1130,7 +1130,7 @@ $$
   B(-) \;\colon\; Grp \hookrightarrow Ho(Grpd^{\ast/})
 $$
 
-then also the homotopies are required to preserve the absepoint, and for
+then also the homotopies are required to preserve the basepoint, and for
 homotopies between homomorphisms between delooped groups this means, since there only
 is a single point, that these homotopies are all trivial. Hence regarded this way
 the functor is a [[fully faithful functor]] again, hence an [[equivalence of categories]]
