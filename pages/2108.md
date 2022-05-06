@@ -1206,6 +1206,9 @@ Further reviews include
 
 * A. Echeverria-Enriquez, M.C. Munoz-Lecanda, N. Roman-Roy, C. Victoria-Monge, _Mathematical Foundations of Geometric Quantization_ Extracta Math. 13 (1998) 135-238 ([arXiv:math-ph/9904008](http://arxiv.org/abs/math-ph/9904008))
 
+* Nima Moshayedi, _Notes on Geometric Quantization_ ([arXiv:2010.15419](https://arxiv.org/abs/2010.15419))
+
+
 The above "Overview" and "Basic Jargon" sections are taken from 
 
 * [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
