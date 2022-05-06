@@ -187,6 +187,8 @@ See
 
 * **Lie algebra**
 
+  * [[metric Lie algebra]]
+
   * [[universal enveloping algebra]], [[Cartan subalgebra]]
 
   * [[root (in representation theory)]], [[weight (in representation theory)]]
