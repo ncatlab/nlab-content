@@ -15,7 +15,7 @@
 
 ## Idea
 
-The **L&#246;wenheim-Skolem theorem** is a basic result in the _[[model theory]]_ of [[first-order logic]] and is part of a family of closely related theorems that concern the relation between structures or [[models]] of [[first-order theories]] of different cardinality. 
+The **L&#246;wenheim-Skolem theorem** is a basic result in the _[[model theory]]_ of [[first-order logic]] and is part of a family of closely related theorems that concern the relation between structures or [[models]] of [[first-order theories]] of different [[cardinality]]. 
 
 One idea behind it is that finitary first-order logic by itself cannot pin down the cardinality of infinite structures or models: roughly speaking, L&#246;wenheim-Skolem says that given a such structure $M$, one can construct elementary substructures or elementary extensions $N$ of different cardinalities. This gives an elementary reason why one cannot expect absolute [[categoricity]] for first-order theories; after this theorem was introduced, attention shifted to the question of categoricity in powers $\kappa$ (i.e., how many models there are of a given cardinality $\kappa$), leading up eventually to Morley's categoricity results and, further down the road and in much greater generality, to Shelah's introduction of [[stability theory]]. 
 
