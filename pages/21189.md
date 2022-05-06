@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector of light [[quarks]] where the effective [[field (physics)|fields]] are [[mesons]].
+What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector of light [[quarks]], where the effective [[field (physics)|fields]] are [[hadrons]] ([[mesons]] being [[gauge fields]] of a [[hidden local symmetry]], and [[baryons]]/[[nuclei]] being the [[fermions]]), whence one also speaks of _quantum hadrodynamics_.
 
 This is thus [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the light quarks, which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]].
 
@@ -127,8 +127,17 @@ See also:
 
 * Wikipedia, _[Chiral perturbation theory](https://en.wikipedia.org/wiki/Chiral_perturbation_theory)_ 
 
-Original articles:
+As [[quantum hadrodynamics]]:
 
+* Brian D. Serot, _Quantum hadrodynamics_, Rept.Prog.Phys. 55 (1992) 1855-1946, ([http://inspirehep.net/record/333292](http://inspirehep.net/record/333292), [doi:10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
+
+
+* Brian D. Serot, John Dirk Walecka, _Recent Progress in Quantum Hadrodynamics_, Int. J. Mod. Phys. E6:515-631, 1997 ([arXiv:nucl-th/9701058](https://arxiv.org/abs/nucl-th/9701058))
+
+
+
+
+Original articles:
 
 * [[Gerard 't Hooft]], _How instantons solve the $U(1)$ problem_, Physics Reports Volume 142, Issue 6, September 1986, Pages 357-387 (<a href="https://doi.org/10.1016/0370-1573(86)90117-1">doi:10.1016/0370-1573(86)90117-1</a>)
 
@@ -147,4 +156,6 @@ Specifically for [[kaon]] decay:
 
 [[!redirects chiral symmetry]]
 [[!redirects chiral symmetries]]
+
+[[!redirects quantum hadrodynamics]]
 
