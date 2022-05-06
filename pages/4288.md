@@ -3,10 +3,9 @@
 
 ## Selected writings
 
-On [[modular flow]] in [[Tomita-Takesaki theory]]:
+On [[Tomita-Takesaki modular flow]] as emergent [[time]] evolution in [[quantum physics]] ([[AQFT]]):
 
-
-* [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
+* {#Longo19} [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
 
 ## Related $n$Lab entries
 
