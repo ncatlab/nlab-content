@@ -11,7 +11,6 @@ On deriving the [[equations of motion]] for the [[M5-brane]] via [[superspace]]-
 
 On [[E11]]-[[exceptional generalized geometry]] for [[D=11 supergravity]]/[[M-theory]]:
 
-* {#West97} [[Peter West]], _$E_{11}$ and M Theory_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
 
 * {#West01} [[Peter West]], _$E_{11}$ and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001 ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081))
 
