@@ -65,3 +65,4 @@ Other types of morphism in a 2-category which have some claim to be considered "
 
 [[!redirects subcategory]]
 [[!redirects subcategories]]
+[[!redirects inclusion functor]]
