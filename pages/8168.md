@@ -7,7 +7,7 @@ On [[2d QCD]]:
 
 * [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl. Phys. B400:181-210, 1993
 
-Introducing the [[fuzzy 4-sphere]]:
+On longitudinal [[M5-branes]] in the [[BFSS matrix model]] and introducing the [[fuzzy 4-sphere]]:
 
 * Judith Castelino, Sangmin Lee, [[Washington Taylor]], _Longitudinal 5-branes as 4-spheres in Matrix theory_, Nucl. Phys. B526:334-350, 1998 ([arXiv:hep-th/9712105](https://arxiv.org/abs/hep-th/9712105))
 
