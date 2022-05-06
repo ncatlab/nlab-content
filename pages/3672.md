@@ -83,6 +83,10 @@ Streamlined proof and exposition regarding is in
 
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
+The case of 2-component quaternions spinors in 6d is discussed also in
+
+* Joás Venâncio, Carlos Batista, _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296))
+
 
 
 Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]] is in
