@@ -1,5 +1,5 @@
 
-* [webpage](http://benedikt-ahrens.de/)
+* [webpage](https://benediktahrens.net/)
 
 ## related $n$Lab entries
 
