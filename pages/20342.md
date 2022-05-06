@@ -208,12 +208,6 @@ The concept is implicit in classical texts on [[differential topology]], for ins
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], Section 2 of: _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]])
 
-and in the context of the [GMTW theorem](cobordism+category#GMTWTheorem) for the [[embedded cobordism category]]:
-
-* [[Soren Galatius]], Theorem 6.3 in: _Stable homology of automorphism groups of free groups_, Annals if Mathematics, Volume 173, Ussue 2 (2011)  ([arXiv:0610216](https://arxiv.org/abs/math/0610216), [doi:10.4007/annals.2011.173.2.3](http://doi.org/10.4007/annals.2011.173.2.3))
-
-* [[Oscar Randal-Williams]], _Embedded Cobordism Categories and Spaces of Manifolds_, 	Int. Math. Res. Not. IMRN 2011, no. 3, 572-608 ([arXiv:0912.2505](https://arxiv.org/abs/0912.2505))
-
 
 Discussion for twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
 
