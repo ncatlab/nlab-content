@@ -30,3 +30,4 @@
 
 * _Handbook of recursive mathematics_ ([pdf](http://home.gwu.edu/~harizanv/HandbookCurrent.pdf))
 
+* [[Pieter Hofstra]], [[Philip Scott]], _Aspects of categorical recursion theory_, ([arXiv:2001.05778](https://arxiv.org/abs/2001.05778))
