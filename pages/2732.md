@@ -3,4 +3,4 @@
 
 category: people
 
-[[!redirects Dannny Stevenson]]
+[[!redirects Daniel Stevenson]]
