@@ -115,9 +115,9 @@ Freyd first introduced essentially algebraic theories here:
 
 * [[Peter Freyd]], _Aspects of Topoi_, Bull. Austr. Math. Soc. 7, pp. 1--76, 467--80. 1972 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B65FB15DCD85C816F31D9C87D355AD24/S0004972700044828a.pdf/aspects-of-topoi.pdf))
 
-* [[Ji?í Adámek]],  M. H&#233;bert,  [[Ji?í Rosický]], _On essentially algebraic theories and their generalizations_, Algebra Universalis, August 1999, Volume 41, Issue 3, pp 213-227
+* [[Jiří Adámek]],  M. H&#233;bert,  [[Jiří Rosický]], _On essentially algebraic theories and their generalizations_, Algebra Universalis, August 1999, Volume 41, Issue 3, pp 213-227
 
-* {#AdamekRosicky} [[Ji?í Adámek]], [[Ji?í Rosický]], section 3.D of _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], section 3.D of _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
 
 A nice equivalent formulation can be found in
 
