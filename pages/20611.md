@@ -4,8 +4,8 @@ The ordering of journals below is roughly in the decreasing
 order of the number of articles they publish in the area of category theory,
 as witnessed by the [[MathSciNet]] statistics.
 
-|Journal                                    |Publisher         |Relevant editor(s) |Access|
-|-------------------------------------------|------------------|-------------------|------|
+|Journal                                    |Publisher         |Relevant editor(s) |Access| Impact factor |
+|-------------------------------------------|------------------|-------------------|------|-------|
 |[Theory and Application of Categories](http://www.tac.mta.ca/tac/)|self                  |all|open|
 |[Journal of Pure and Applied Algebra](https://www.journals.elsevier.com/journal-of-pure-and-applied-algebra)|Elsevier|[[Jiri Adamek|Adamek]]|subscription|
 |[Applied Categorical Structures](https://link.springer.com/journal/10485)|Springer|all|subscription|
