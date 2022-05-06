@@ -112,8 +112,11 @@ See also
 
 * Wikipedia, _[Lambda-CDM model](http://en.wikipedia.org/wiki/Lambda-CDM_model)_
 
-
 * {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
+
+Tensions in the model, seen since the late 2010s:
+
+* L. Verde T. Treu, A.G. Riess, _Tensions between the Early and the Late Universe_ ([arXiv:1907.10625](https://arxiv.org/abs/1907.10625))
 
 ### In AQFT on Curved spacetimes
 
