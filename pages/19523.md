@@ -35,7 +35,26 @@ The [[standard model of cosmology]] assumes that such inhomogeneities may be neg
 
 Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
-References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Sarkar et al. 18](#SarkarEtAl18), [Sarkar 18](#Sarkar18).
+References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Moffat 16](#Moffat16), [Sarkar et al. 18](#SarkarEtAl18), [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19),
+[Deledicque 19](#Deledicque19).
+
+Discussion specifically of cosmic inhomogenity as the possible cause of the $H_0$-tension: [Bolejko 17](#Bolejko17).
+
+From [Koksbang 19, p. 3](#Koksbang19)
+
+> Cosmic backreaction is particularly interesting because it in principle has the potential
+to explain the apparent accelerated expansion of the Universe without introducing any
+exotic [[dark energy]] component as well as possibly being able to mimic [[dark matter]].
+
+> Less ambitiously, cosmic backreaction might solve the $H_0$-problem through the emergence of curvature ([Bolejko 17](#Bolejko17)), or a small backreaction may bias the values obtained from analyses of
+data based on FLRW models and must therefore be identified and taken into account in an era of precision cosmology. Yet another option is that cosmic backreaction is entirely
+negligible in the real universe. 
+
+> Whichever is the case, a theoretical quantification of cosmic backreaction is necessary for getting the foundations of cosmology onto solid ground; the
+mathematics clearly shows that in principle backreaction terms affect the overall dynamics
+of the Universe. It is therefore an important goal of cosmologists to obtain a theoretical understanding of the size of cosmic backreaction in the real universe similarly to e.g. the
+desire to theoretically understand the value of the vacuum energy density. 
+
 
 {#Qualitative} A qualitative discussion of how inhomogeneity may cause accelerated cosmic expansion is given in [Räsänen 10, section 3: "Understanding acceleration"](#Rasanen10):
 
@@ -107,6 +126,12 @@ Similarly in [Huang-Gao-Xu 19, p. 2](#HuangGaoXu19):
 
 > The lack of solid proof $[...]$ is a more serious concern.
 
+and [Koksbang 19, p. 3](#Koksbang19):
+
+>  Whichever is the case, a theoretical quantification of cosmic backreaction is necessary for getting the foundations of cosmology onto solid ground; the
+mathematics clearly shows that in principle backreaction terms affect the overall dynamics
+of the Universe. 
+
 
 Indeed, [Smoller-Temple-Vogler 14](#SmollerTempleVogler14) claim an analytic solution which does exhibit inhomogeneity effects mimicking dark energy (see [above](#AbstractSmollerTempleVogler14)) and a similar conclusion is claimed in [Sarkar et al. 18](#SarkarEtAl18) (see [above](#SarkarFlowQuote)).  Also relativistic numerical simulation, albeit in their infancy, seem to exhibit noticeable backreaction (see [above](#NumericalSimulation)).
 
@@ -132,6 +157,13 @@ However, this may be over-interpreting the realism of these simple models. Accor
 * [[structure formation]]
 
 ## References
+
+See also 
+
+* Wikipedia, _[Inhomogeneous cosmology](https://en.wikipedia.org/wiki/Inhomogeneous_cosmology)_
+
+* Wikipedia, _[Accelerating expansion of the universe -- Alternative theories](https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe#Alternative_theories)_
+
 
 ### Theory of backreaction
 
@@ -175,20 +207,19 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 * {#HuangGaoXu19} Zhiqi Huang, Han Gao, Haoting Xu, _Revisiting Ryskin's Model of Cosmic Acceleration_ ([arXiv:1905.02441](https://arxiv.org/abs/1905.02441))
 
+* {#Koksbang19} S. M. Koksbang, _Towards statistically homogeneous and isotropic perfect fluid universes with cosmic backreaction_, Class. Quantum Grav. 36 185004, 2019 ([arxiv:1907.08681](https://arxiv.org/abs/1907.08681))
 
-See also 
 
-* Wikipedia, _[Inhomogeneous cosmology](https://en.wikipedia.org/wiki/Inhomogeneous_cosmology)_
 
-* Wikipedia, _[Accelerating expansion of the universe -- Alternative theories](https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe#Alternative_theories)_
+
 
 
 ### Effective dark energy from inhomogeneity
- {#EffectiveDarkEnergyFromInhomogeneity}
+{#EffectiveDarkEnergyFromInhomogeneity}
 
 The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmological constant]]/[[dark energy]] has been discussed in the following articles:
 
-* {#Celerier00} Marie-Noëlle Célérier, _Do we really see a cosmological constant in the supernovae data?_, Astron.Astrophys.353:63-71, 2000
+* {#Celerier00} Marie-Noëlle Célérier, _Do we really see a cosmological constant in the supernovae data?_, Astron. Astrophys. 353:63-71, 2000 ([arxiv:astro-ph/9907206](https://arxiv.org/abs/astro-ph/9907206))
 
 * {#Wetterich01} [[Christof Wetterich]], _Can Structure Formation Influence the Cosmological Evolution?_, Phys.Rev. D67 (2003) 043513 ([arXiv:astro-ph/0111166](https://arxiv.org/abs/astro-ph/0111166))
 
@@ -229,15 +260,22 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#ACDDK17} Julian Adamek, Chris Clarkson, David Daverio, Ruth Durrer, Martin Kunz, _Safely smoothing spacetime: backreaction in relativistic cosmological simulations_ ([arXiv:1706.09309](https://arxiv.org/abs/1706.09309))
 
+* {#Bolejko17} Krzysztof Bolejko, _Emerging spatial curvature can resolve the tension between high-redshift CMB and low-redshift distance ladder measurements of the Hubble constant_, Phys. Rev. D 97, 103529 (2018) ([arxiv:1712.02967](https://arxiv.org/abs/1712.02967))
+
+
 * {#DanielssonVanRiet18} [[Ulf Danielsson]], [[Thomas Van Riet]],  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_,  ApJ Letters ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
-* {#SarkarEtAl18} J. Colin, R. Mohayaee, M. Rameez, [[Subir Sarkar]], _Apparent cosmic acceleration due to local bulk flow_ ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
+* {#SarkarEtAl18} J. Colin, R. Mohayaee, M. Rameez, [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics Letters ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
 
 * {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
 
 * {#Lombriser19} Lucas Lombriser, _On the cosmological constant problem_, Phys. Lett. B 797, 134804 (2019) ([arXiv:1901.08588](https://arxiv.org/abs/1901.08588), [doi:10.1016/j.physletb.2019.134804](https://doi.org/10.1016/j.physletb.2019.134804)) 
+
+* {#Deledicque19} Vincent Deledicque, _Theoretical developments on the adequacy of the fitting of the FLRW metric on the universe's real metric_ ([arxiv:1907.01580](https://arxiv.org/abs/1907.01580))
+
+
 
 ### No effective dark energy from inhomogeneity
  {#ReferencesNoEffect}
