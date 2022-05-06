@@ -15,9 +15,13 @@
 
 ## Idea
 
-The [[Lie group]] denoted $Sp(n).Sp(1)$ or just $Sp(n)Sp(1)$ is the [[quotient group]] of the given [[quaternion unitary groups]] by their [[diagonal]] [[center]] [[cyclic group of order 2]].
+The [[Lie group]] denoted $Sp(n).Sp(1)$ or just $Sp(n)Sp(1)$ is the [[quotient group]] of the [[direct product group]] of the given [[quaternion unitary groups]] by their [[diagonal]] [[center]] [[cyclic group of order 2]].
 
 A [[smooth manifold]] of [[dimension]] $4n$ with [[G-structure]] for this group $G = Sp(n).Sp(1)$ is a [[quaternion-Kähler manifold]].
+
+Similarly, for $Spin(n_1)$, $Spin(n_2)$ [[spin groups]] in some dimension, the group denoted $Spin(n_1) \cdot Spin(n_2)$ or just $Spin(n_1)Spin(n_2)$ is the [[quotient group]] of the [[direct product group]] $Spin(n_1) \times Spin(n_2)$ by the [[diagonal]] [[center]] [[cyclic group of order 2]].
+
+\linebreak
 
 ## Definition
 
@@ -160,8 +164,16 @@ where
 
 * {#CadekVanzura98b} [[Martin Čadek]], [[Jiří Vanžura]], _Almost quaternionic structures on eight-manifolds_, Osaka J. Math. Volume 35, Number 1 (1998), 165-190 ([euclid:1200787905](https://projecteuclid.org/euclid.ojm/1200787905))
 
-
 See also the references at _[[quaternion-Kähler manifold]]_.
+
+The group $Spin(4)\cdot Spin(3)$ appears in 
+
+* {#Kerr96} Megan M. Kerr, Lemma 6.2 of _Some New Homogeneous Einstein Metrics on Symmetric Spaces_, Transactions of the American Mathematical Society, Vol. 348, No. 1 (1996), pp. 153-171 ([jstor:2155169](https://www.jstor.org/stable/2155169))
+
+* {#KacSmilga00} [[Victor Kac]], A.V. Smilga, around (1.10) in _Vacuum structure in supersymmetric Yang-Mills theories with any gauge group_, in _The Many Faces of the Superworld, pp. 185-234 (2000)_ ([arXiv:hep-th/9902029](https://arxiv.org/abs/hep-th/9902029), [doi:10.1142/9789812793850_0014](https://doi.org/10.1142/9789812793850_0014))
+
+* {#GroveWilkingZiller} Karsten Grove, Burkhard Wilking, Wolfgang Ziller, p. 30 of _Positively Curved Cohomogeneity One Manifolds and 3-Sasakian Geometry_ ([arXiv:math/0511464](https://arxiv.org/abs/math/0511464))
 
 [[!redirects Sp(2).Sp(1)]]
 
+[[!redirects Spn.Sp1]]
