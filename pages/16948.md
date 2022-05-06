@@ -78,7 +78,7 @@ In degree 0, the [[tom Dieck splitting]] applied to the [[equivariant suspension
 ### $\mathbb{Z}_2$-equivariance
  {#Z2equivariance}
 
-Consider $G= \mathbb{Z}_2$ and write $\pi^S_{p,q}$ for the homotopy group in [[RO(G)-grading|RO(G)-degree]] given by the representation on $\mathbb{R}^{p+q}$ given by reflecting the first $p$ coordinates.
+Consider $G= \mathbb{Z}_2$ and write $\pi^S_{p,q}$ for the homotopy group in [[RO(G)-grading|RO(G)-degree]] given by the representation on $\mathbb{R}^{p+q}$ with $\mathbb{Z}_2$ acts by [[reflection]] on the first $p$ coordinates.
 
 The following groups contain $\mathbb{Z}$-summands:
 
@@ -117,6 +117,8 @@ See at _[quaternionic Hopf fibration --  Class in equivariant stable homotopy th
 
 ## References
 
+### General
+
 General lecture notes include
 
 * {#Schwede15} [[Stefan Schwede]], example 2.10 in _[[Lectures on Equivariant Stable Homotopy Theory]]_
@@ -132,12 +134,21 @@ The sphere spectrum in [[global equivariant homotopy theory]] is discussed in
 
 * Markus Hausmann, Dominik Ostermayr, _Filtrations of global equivariant K-theory_ ([arXiv:1510.04011](http://arxiv.org/abs/1510.04011))
 
+### $\mathbb{Z}/2$-equivariance
 
 Discussion of $G$-equivariant homotopy groups for $G = \mathbb{Z}/2$ is in
 
 * [[Peter Landweber]], _On Equivariant Maps Between Spheres with Involutions_, Annals of Mathematics Second Series, Vol. 89, No. 1 (Jan., 1969), pp. 125-137 ([jstor]( http://www.jstor.org/stable/1970812))
 
-* {#ArakiIriye82} Sh&#244;r&#244; Araki, Kouyemon Iriye, _Equivariant stable homotopy groups of spheres with involutions. I_, Osaka J. Math. Volume 19, Number 1 (1982), 1-55. ([Euclid](http://projecteuclid.org/euclid.ojm/1200774828))
+* {#ArakiIriye82} Sh&#244;r&#244; Araki, Kouyemon Iriye, _Equivariant stable homotopy groups of spheres with involutions. I_, Osaka J. Math. Volume 19, Number 1 (1982), 1-55. ([Euclid:1200774828](http://projecteuclid.org/euclid.ojm/1200774828))
+
+* [[Daniel Dugger]], [[Daniel Isaksen]], _$\mathbb{Z}/2$-equivariant and R-motivic stable stems_, Proceedings of the American Mathematical Society 145.8 (2017): 3617-3627 ([arXiv:1603.09305](https://arxiv.org/abs/1603.09305))
+
+  exposition in
+
+  [[Daniel Dugger]], _Motivic stable homotopy groups of spheres_ ([pdf](http://sma.epfl.ch/~hessbell/arolla/slides12/Dugger.pdf))
+
+### $\mathbb{Z}/4$-equivariance
 
 Discussion for $G = \mathbb{Z}/4$ is in 
 
