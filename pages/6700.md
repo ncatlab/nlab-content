@@ -26,7 +26,7 @@ Dually, under a [[holographic principle]] such as [[AdS3-CFT2 and CS-WZW corresp
 +-- {: .num_defn #CategoryOfRiemannSurfaces}
 ###### Definition
 
-For $\Phi$ any [[finite set]] ("of lables") write $\mathcal{S}_{\Phi}$ for the [[category]] whose [[objects]] are [[Riemann surfaces]] with [[boundary]] [[circles]] labeled by elements of $\Phi$, and whose [[morphisms]] are [[holomorphic maps]] $X \to X_{sewed}$, where $X_{sewed}$ is obtained from $X$ by [[sewing constraint|sewing]] along boundary circles carrying the same labels.
+For $\Phi$ any [[finite set]] ("of labels") write $\mathcal{S}_{\Phi}$ for the [[category]] whose [[objects]] are [[Riemann surfaces]] with [[boundary]] [[circles]] labeled by elements of $\Phi$, and whose [[morphisms]] are [[holomorphic maps]] $X \to X_{sewed}$, where $X_{sewed}$ is obtained from $X$ by [[sewing constraint|sewing]] along boundary circles carrying the same labels.
 
 =--
 
