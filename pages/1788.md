@@ -1,10 +1,14 @@
-\begin{tikzcd}
-X \ar[d,"f"'] \ar[r,"i"] & P R f \ar[r,"\pi"] \ar[d] & R X\\
-Y \ar[r,"{j_Y}"'] \ar[ur,dashed,"g"] & R Y.
-\end{tikzcd}
+\begin{centre}
+ \begin{tikzcd}
+    d \ar[r] \ar[d] & a \ar[d,"f"] \ar[r,"{\eta_a}"] & L a \ar[d,"{L f}"]\\
+    c \ar[r,"h"'] & k \ar[r,"{\eta_k}"'] & L k.
+  \end{tikzcd}
+\end{centre}
 
-\begin{tikzcd}
-x \ar[dr] \ar[drr,"{\eta_x}"] \ar[ddr,"f"'] \ar[dr,"{\lambda_f}" description] \\
-& \bullet \ar[r,"g"'] \ar[d,"{\rho_f}"] \ar[dr,phantom,"\ulcorner"] & L x \ar[d,"L f"] \\
-& y \ar[r,"{\eta_y}"'] & L y
-\end{tikzcd}
+
+\begin{center}
+  \begin{tikzcd}
+    d \ar[r,dashed] \ar[d] & e \ar[r] \ar[d] & L a \ar[d,"{L f}"]\\
+    c \ar[r,"{\eta_c}"'] & L c \ar[r,"{L h}"'] & L k
+  \end{tikzcd}
+\end{center}
