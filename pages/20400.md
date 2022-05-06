@@ -257,6 +257,19 @@ $$\begin{gathered}
 
 ### Subset
 
+The subset type resembles an existential quantifier. In the elimination rule, the proof part must be computationally irrelevant, since an element of a subset does not include the proof. Nuprl handles this with a hidden assumption, which is the practical way to do it. But it's also sound to just stick in a free variable side condition.
+
+$$\begin{gathered}
+\frac{\Gamma,x:A \vdash B\,type \qquad
+\Gamma \vdash a \Vdash A \qquad \Gamma \vdash b \Vdash B[a/x]}
+{\Gamma \vdash a \Vdash \{x:A | B\}} \\
+\\
+\frac{\Gamma,z:\{x:A | B\} \vdash C\,type \qquad
+\Gamma,x:A,y:B \vdash c \Vdash C[x/z] \qquad y \notin FV(c) \qquad
+\Gamma \vdash a \Vdash \{x:A | B\}}
+{\Gamma \vdash c[a/x] \Vdash C[a/z]}
+\end{gathered}$$
+
 ### PER
 
 ### Booleans
