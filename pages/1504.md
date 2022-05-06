@@ -464,6 +464,10 @@ Original articles are
 
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
 
+See also
+
+* Matej Kudrna, [[Martin Schnabl]], _Universal Solutions in Open String Field Theory_ ([arXiv:1812.03221](https://arxiv.org/abs/1812.03221))
+
 #### Closed SFT
  {#ReferencesBosonicCSFT}
 
