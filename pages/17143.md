@@ -106,6 +106,8 @@ $$
 
 =--
 
+(e.g. [Adams 74, Part I, Example 2.1](#Adams74))
+
 +-- {: .proof}
 ###### Proof
 
@@ -132,7 +134,7 @@ $$
   \,.
 $$
 
-(Alternatively this is the special case of lemma \ref{SphereBundleBunminus1} for $n = 0$.)
+(Alternatively this is the special case of lemma \ref{SphereBundleBunminus1} for $n = 1$.)
 
 
 Therefore the [[Thom space]] of the universal complex line bundle is:
@@ -588,7 +590,7 @@ The analogous universal finite-rank complex orientation on [[MΩΩSU(n)]]: [Hopk
 
 ## References
 
-* [[Frank Adams]], lemma 4.6, example 4.7 in  _[[Stable homotopy and generalised homology]]_, 1974
+* {#Adams74} [[Frank Adams]], Part II, lemma 4.6, example 4.7 in: _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_,1986
 
