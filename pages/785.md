@@ -461,3 +461,12 @@ A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushout
 
 [[!redirects homotopy fiber product]]
 [[!redirects homotopy fiber products]]
+
+[[!redirects homotopy cofiber product]]
+[[!redirects homotopy cofiber products]]
+
+
+[[!redirects homotopy co-fiber product]]
+[[!redirects homotopy co-fiber products]]
+
+
