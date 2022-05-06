@@ -478,7 +478,9 @@ Near horizon geometries of [[black branes]] which [[KK-compactification|KK-compa
 
 * [[Mirjam Cvetič]], Paulo J. Porfírio, Alejandro Satz, _Gaussian null coordinates, near-horizon geometry and conserved charges on the horizon of extremal non-dilatonic black p-branes_ ([arXiv:2003.09304](https://arxiv.org/abs/2003.09304))
 
+Further discussion for [[M2-branes]]:
 
+* Harvendra Singh, _M2-branes on a resolved $\mathbb{C}^4/\mathbb{Z}_4$_, 	JHEP 0809:071, 2008 ([arXiv:0807.5016](https://arxiv.org/abs/0807.5016))
 
 
 
