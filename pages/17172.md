@@ -48,7 +48,6 @@ $$
     \\
     M 
     &
-    \longrightarrow
     & 
     L \times D^2,
   }
