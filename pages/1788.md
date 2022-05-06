@@ -1,3 +1,4 @@
+$\ldots$
 
 a [[circle-principal bundle]]
 
