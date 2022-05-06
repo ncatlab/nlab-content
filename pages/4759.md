@@ -617,6 +617,11 @@ Textbook accounts include
 
 * {#tomDieck08} [[Tammo tom Dieck]], _Algebraic topology_, EMS 2008
 
+With an eye towards [[mathematical physics]]:
+
+* {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, Def. 4.2.2 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
+
 A brief introduction is in chapter 23, section 7 
 
 * [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
