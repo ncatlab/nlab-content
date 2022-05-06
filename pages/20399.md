@@ -20,6 +20,11 @@ On [[D-brane charge]] in [[K-theory]] on [[orientifolds]]:
 
 * {#BergmanGimonSugimoto01} [[Oren Bergman]], E. Gimon, [[Shigeki Sugimoto]], _Orientifolds, RR Torsion, and K-theory_, JHEP 0105:047, 2001 ([arXiv:hep-th/0103183](https://arxiv.org/abs/hep-th/0103183))
 
+On [[D4-brane]] [[orientifold]] models in [[type I' string theory]]:
+
+* [[Oren Bergman]], Diego Rodriguez-Gomez, _5d quivers and their $AdS_6$ duals_, J. High Energ. Phys. (2012) 2012: 171 ([arXiv:1206.3503](https://arxiv.org/abs/1206.3503))
+
+
 
 ## Related $n$Lab entries
 
