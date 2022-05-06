@@ -337,9 +337,13 @@ An expository talk of the above material from Bleecker can be found in this talk
 
 * {#Bartlett13} [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
  
-Some speculative variant of KK is discussed in 
 
-* [[Michael Atiyah]], Nicholas S. Manton, [[Bernd Schroers]], _Geometric Models of Matter_ ([arXiv:1108.5151](http://arxiv.org/abs/1108.5151))
+
+
+
+[[!include hadrons as KK-modes of 5d Yang-Mills theory -- references]]
+
+
 
 
 ### In Wick-rotated thermal field theory
