@@ -18,6 +18,7 @@ For _subsystem_ of a [[physical system]] in [[quantum mechanics]], see:
 
 * [[causal locality]], [[Einstein locality]]
 
+* [[entanglement entropy]]
 
 [[!redirects subsystems]]
 
