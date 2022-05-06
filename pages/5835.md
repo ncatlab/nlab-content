@@ -3,6 +3,12 @@ Jeff Giansiracusa is an EPSRC funded research fellow at Swansea University in th
 
 * [homepage at Swansea](http://maths.swansea.ac.uk/staff/jhg/index.html)
 
+## Selected writings
+
+On the [[framed little 2-disk operad]]:
+
+* {#GiansiracusaSalvatore09} [[Jeffrey Giansiracusa]], [[Paolo Salvatore]], _Formality of the framed little 2-discs operad and semidirect products_ , in: _Homotopy theory of function spaces and related topics_, Cont. Math. 519, AMS, pp. 115-121  ([arxiv 0911.4428](http://arxiv.org/PS_cache/arxiv/abs/0911/0911.4428))
+
 category: people
 
 [[!redirects Jeffrey Giansiracusa]]
