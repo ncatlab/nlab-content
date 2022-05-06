@@ -796,6 +796,7 @@ is the [[group]]
 $$
   \alpha \cdot \beta
   \;\colon\;
+
   I^n
   \stackrel{\simeq}{\longrightarrow}
   I^n \underset{I^{n-1}}{\sqcup} I^n
@@ -3074,7 +3075,7 @@ The above discussion proves the following:
 ###### Proposition
 **(small object argument)**
 
-Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[set]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{ClassOfMorphismsWithSmallDomains}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
+Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[set]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{ClassOfMorphismsWithSmallDomains}, then every morphism $f\colon X\longrightarrow Y$ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
 
 $$
   f \;\colon\;
@@ -3165,7 +3166,7 @@ $$
 
 is an acyclic cofibration separately.
 
-Dually, if $X \in \mathcal{C}$ is fibrant, then for every [[path space object]] $Path(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(p_0,p_1) \colon Path(X)\to X \times X$ a cofibration, but each
+Dually, if $X \in \mathcal{C}$ is fibrant, then for every [[path space object]] $Path(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(p_0,p_1) \colon Path(X)\to X \times X$ a fibration, but each
 
 $$
   p_0, p_1 \colon Path(X) \longrightarrow X
