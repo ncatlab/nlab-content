@@ -167,15 +167,15 @@ These are called the _[[Pauli matrices]]_.
 The [[Pauli matrices]] satisfy the [[commutator]] relations
 
 $$
-  [\sigma_1, \sigma_2] = \sigma_3
+  [\sigma_1, \sigma_2] = 2\sigma_3
 $$
 
 $$
-  [\sigma_2, \sigma_3] = \sigma_1
+  [\sigma_2, \sigma_3] = 2\sigma_1
 $$
 
 $$
-  [\sigma_3, \sigma_1] = \sigma_2
+  [\sigma_3, \sigma_1] = 2\sigma_2
   \,.
 $$
 
