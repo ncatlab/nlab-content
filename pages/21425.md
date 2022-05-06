@@ -22,6 +22,8 @@ One of the [[light meson|light]] [[vector mesons]], with [[Wigner classification
 
 * [[b1-meson]]
 
+* [[B-field]]
+
 ## References
 
 * J. C. R. Bloch, Yu. L. Kalinovsky, C. D. Roberts, S. M. Schmidt, _Describing $a_1$ and $b_1$ decays_, Phys. Rev. D60:111502, 1999 ([arXiv:nucl-th/9906038](https://arxiv.org/abs/nucl-th/9906038))
