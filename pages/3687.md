@@ -68,6 +68,7 @@ Although the non-Calabi-Yau case may be of lesser interest to physics, one can s
 
 * [[duality in physics]], [[duality in string theory]]
 
+* [[geometric Langlands duality]]
 
 ## References
 
