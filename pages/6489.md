@@ -38,22 +38,35 @@ The purely mathematical motivation for these definitions is, to a large extent, 
 
 This [[string theory|string-theoretic]] interpretation also sheds light on the older notion of [[slope of a coherent sheaf|slope]]-[[stable coherent sheaf|stability of coherent sheaves]], we discuss this [below](#AsStabilityOfBPSDBranes).
 
+
 ### As stability of BPS D-branes
  {#AsStabilityOfBPSDBranes}
 
-Let $X$ be some [[space]], to be thought of as [[spacetime]]. A [[coherent sheaf]] $E$ over $X$ may be thought of as an [[abelian sheaf]] of [[sections]] of a kind of  [[complex vector bundle]] over $X$, whose [[fiber]] [[dimension]] is allowed to jump in some controlled way.
+We explain here how to understand the mathematical formulation of stability conditions as a formalization of the concept of stable [[BPS states]] of [[D-branes]], hence of [[extremal black hole|extremal]] [[black branes]]. This yields a very simple and beautiful picture, which may be hard to extract from the original proposal due to [Douglas-Fiol-Romerlsberger 00](#DouglasFiolRomerlsberger00) (as witnessed by various reviews of the concept, see for instance [Stellari 15, slide 9](#Stellari15)).
 
-When considering [[D-branes]] on $X$, such coherent sheaves/vector bundles appear as the [[Chan-Paton gauge fields]] on the D-brane.
+A key point to notice is that _[[coherent sheaves]]_ and with them most of the kinds of [[objects]] in [[triangulated categories]] of relevance here, may be thought of as models for [[D-branes]] carrying [[D-brane charge]].
+
+Specifically, for $X$ a [[space]], to be thought of as [[spacetime]], a [[coherent sheaf]] $E$ over $X$ may be thought of as an [[abelian sheaf]] of [[sections]] of a kind of  [[complex vector bundle]] over $X$, whose [[fiber]] [[dimension]] is allowed to jump in some controlled way. Hence coherent sheaves are a slight generalization of _[[complex vector bundles]]_.
+
+When considering [[D-branes]] on $X$, such coherent sheaves/vector bundles $E$ appear as the [[Chan-Paton gauge fields]] on the D-brane.
+
+$$
+  \text{object}\, E
+  \phantom{AA}\leftrightarrow\phantom{AA}
+  \text{D-brane carrying mass and charge}
+$$
 
 From this perspective, the [[rank of a vector bundle|rank]] 
 
 $$
   rank(E)
   \;\in\;
-  \mathbb{N}
+  \mathbb{R}
 $$ 
 
-of $E$ is the number of coincident D-branes. The [[D-branes]] have a fixed [[tension]] and hence a fixed [[mass]]-density, so that the total [[mass]] of the D-branes corresponding to $E$ is proportional to this rank. Ignoring constant the proportionality factor, we make this explicit by re-writing the rank as
+of $E$ is the number of coincident D-branes (there may be [[fractional D-branes]], and, once we pass to the [[derived category]], there may be [[anti D-branes]], so that this number need not be a [[positive integer]]). 
+
+The [[D-branes]] have a fixed [[tension]] and hence a fixed [[mass]]-density, so that the total [[mass]] of the D-branes corresponding to $E$ is proportional to this rank. Ignoring constant the proportionality factor, we make this explicit by re-writing the rank as
 
 $$
   M(E)
@@ -64,73 +77,127 @@ $$
 
 In addition to their mass, the D-branes carry [[charge]], called [[RR-field|RR-charge]]. This is a generalization of the classical [[magnetic charge]] known from [[Dirac charge quantization]]. As explained there, magnetic charge reflected in a [[complex line bundle]], as sourced by magnetic [[monopoles]] ([[D0-branes]]) is measured by the [[first Chern class]]  $c_1(E)$. In generalization of this, the total [[D-brane charge]] reflected in a [[Chan-Paton gauge field]] $E$ is proportional its [[Chern character]] $ch(E)$.
 
-In either case, we denote the resulting charge by 
+$$
+  Q(E) 
+    \;\in\;
+  \mathbb{R}
+  \,.
+$$
+
+For coherent sheaves this is essentially what is classically called the _[[degree of a coherent sheaf]]_. Interpreting this as the [[charge]] carried by the D-brane, we may write
+
 
 $$
   Q(E)
   \;=\;
-  \text{Chern class/Chern character of}\, E
+  degree(E)
 $$
 
-Accordingly, [[D-branes]] have a _charge density_ proportional to
+Accordingly, [[D-branes]] $E$ have a _charge density_ proportional to
 
 $$
-   ChargeDensity(E) \;\coloneqq\; Q(E)/M(E)
-  ,.
-$$
-
-
-For instance if $E$ is a vector bundle, thought of as the gauge bundle on a D-brane locus, then its _rank_ is the number of coincident D-branes at that loci, each of which has the same [[tension]], so that, up to some proportionality factor
-
-$$
-  M(E) \;=\; rank(E)
-$$
-
-in this case. Moreover, these D-branes carry a charge measured by their Chern-character. In lowest degree this is their first Chern class $c_1(E)$, which is literally the magnetic charge they carry, as identified by Dirac in 1930:
-
-$$
-   Q(E) \;=\; \int c_1(E)
+  ChargeDensity(E) 
+    \;\coloneqq\; 
+  \frac{ Q(E) }{ M(E) }
+    \;=\;
+  \frac{ degree(E) }{ rank(E) }
+    \;=\;
+   slope(E)
   \,.
 $$
 
-So we learn that what is known as the _[[slope of a vector bundle]]_ is really the _charge density_ that it represents when regarded as a D-brane Chan-Paton gauge field 
+This quotient is what is classically called the _[[slope of a coherent sheaf|slope]]_, as shown on the right. The terminology comes from thinking of the [[pair]] ([[mass]], [[charge]]), hence the pair ([[rank of a coherent sheaf|rank]], [[degree of a coherent sheaf|degree]]) as specifying a [[point]] in the [[plane]]
 
 $$
-  ChargeDensity(E) \;\coloneqq\; Q(E)/M(E)  \;=\; Slope(E)
-  \,.
+  (M(E), \; Q(E))
+   \;=\;
+  ( rank(E), \; degree(E) )
+  \;\in\;
+  \mathbb{R}^2
 $$
 
-This is really what Bridgeland stability functions generalize, assignment of charge and mass:
+Under this identification the charge density is the [[slope of a line]] of the [[line]] in the [[Cartesian space|Cartesian]] [[plane]] which goes through [[zero]] and through $(M(E), Q(E))$, whence the term _[[slope of a coherent sheaf]]_. But understanding this not as a slope but as a _charge density_ revals why this has anything to do with "stability", as we proceed to explain now.
 
+First notice that, alternatively, we may identify the [[real numbers|real]] [[plane]] with the [[complex plane]] and thus unify the [[mass]] and [[charge]] of [[D-branes]] into a single [[complex number]]
+
+\[
+  \label{TheComplexifiedMassInIdeaSection}
+  \begin{aligned}
+    Z(E)
+    & \coloneqq\;
+    M(E) + i \, Q(E)
+    \\
+    & = m(E) \, \exp( i \pi \phi(E) )
+    \;\in\;
+    \mathbb{C}
+  \end{aligned}
+\]
+
+with an [[absolute value]] $m(E)$ and a [[complex phase]] (modulo $\pi$) $\phi(E)$. 
+
+(Such unification of two different quantities into a single complex quantity appears all over [[supersymmetry|supersymmetric]] theory, for instance also in the definition of [[complex volume]] or the complex coupling constant appearing in the context of [[S-duality]].)
+
+
+Finally to see what all this has to do with "stability":
+
+In a [[supersymmetry|supersymmetric]] theory such as [[superstring theory]] the stable states are supposed to be the [[BPS-states]]. When thinking of [[D-branes]] as [[black branes]], being higher dimensional generalizations of charged [[black holes]], the BPS states correspond to the higher dimensional analog of the _[[extremal black holes]]_, namely those that carry maximum [[charge]] for given [[mass]], hence that _maximize their charge density_ 
+ 
 $$
-  Z(E) \;=\; ( Q(E), M(E) ) \in \mathbb{R}^2
-  \,.
+  \text{stable D-brane}
+  \;\;\Leftrightarrow\;\;
+  \text{BPS/extremal black D-brane}
+  \;\;\Leftrightarrow\;\;
+  \text{ maximum charge density }\, Q/M   
 $$
 
-Now, to see what this has to do with stability:
+Now it is plausible that a D-brane $E$ maximizes its potential charge density if removing any part $e$ of it revals that $e$ by itself has lower charge densits.
 
-The stable branes ([[BPS states]]) are supposed to be those that have maximal charge for given mass, hence the stable objects are those that _maximize charge density_. (The "[[extremal black holes]]")  So if  
+More formally, $E$ should maximize its charge density $Q(E)/M(E)$ and hence be _stable_ if for all sub-parts
 
 $$
   e \subset E
 $$ 
 
-is a subobject with 
+hence for all _[[subobjects]]_ in the relevant [[category]], such as that of [[coherent sheaves]] we have that the charge density of the part is smaller than the charge density of the whole: 
 
-$$
+\[
   \frac{Q(e)}{M(e)}
-  \lt 
+  \;\lt\; 
    \frac{ Q(E) }{ M(E) }
+\]
+
+Conversely, this means that a D-brane state $e$ can increase its charge density, hence get close to beiung BPS and hence stable, by forming a [[bound state]] to be come an $E$.
+
+In the case of coherent sheaves, where the D-brane charge density is called the _[[slope of a coherent sheaf]]_ $slope(E) = Q(E)/M(E)$, as above, this says that $E$ is a [[stable coherent sheaf]] precisely if for all [[subobjects]] $e \subset E$ we have
+
+$$
+  slope(e) \;\lt\; slope(E)
+  \,.
 $$
 
-this means that $e$ can increase its charge density by forming a bound state to be come an $E$.
+This is the classical formulation of _[[stable coherent sheaf|slope stability]]_ or _$\mu$-stability_ of [[coherent sheaves]].
 
-So $e$ is less stable when all by itself than as a constituent of $E$, hence that $E$ cannot be further stabilized by splitting off an $e$.
+Of course we may equivalently re-express in terms of the [[complex phase]] $\phi(E)$ induced by the complexified mass/charge from (eq:TheComplexifiedMassInIdeaSection). Since the slope of a [[complex number]] (regarded as a [[vector]] in the [[plane]]) equals the [[tan]] of its [[complex phase]] we have
 
-That's the condition of $\mu$-stability/$\Pi$-stability/Bridgeland stability.
+$$
+  \frac{Q(E)}{M(E)}
+  \;=\;
+  tan\big( \phi(E)/2 \big)
+  \,.
+$$
 
+But since $tan((-)/2)$ is a [[monotone function]] on the [[domain]] $(-\pi/2, \pi/2)$, then if we agree to regard $\phi$ as taking values in that [[interval]], then the above stability condition becomes equivalently the statement that for all [[subobjects]] $e \hookrightarrow E$ we have
 
+$$
+  \phi(e) \;\lt\; \phi(E)
+  \,.
+$$
 
+This is the form in which [Bridgeland 02](#Bridgeland02) phrases the stability condition, see Def. \ref{StableObjects} below.
+
+But the upshot is that this is still equivalent to saying that $E$ is stable precisely if it maximizes its [[charge]]- over [[mass]]-density, as befits an [[extremal black hole]] and, more generally, a [[BPS state|BPS]] [[black brane]].
+
+$\,$
 
 ## Definition
 
@@ -458,7 +525,7 @@ Further developments include
 
 * Jan Engenhorst, _Bridgeland Stability Conditions in Algebra, Geometry and Physics_, 2014 ([pdf](https://www.freidok.uni-freiburg.de/fedora/objects/freidok:9595/datastreams/FILE1/content))
 
-* Paolo Stellari, _A tour on Bridgeland stability_, 2015 ([pdf](https://users.unimi.it/stellari/Research/Slides/LucidiStabCondBeamer.pdf))
+* {#Stellari15} Paolo Stellari, _A tour on Bridgeland stability_, 2015 ([pdf](https://users.unimi.it/stellari/Research/Slides/LucidiStabCondBeamer.pdf))
 
 ### Examples
 
@@ -484,6 +551,7 @@ over [[resolution of singularities|resolutions]] of [[ADE-singularities]]:
 
 
 ### Relation to stable branes in string theory
+ {#RelationToStableBranesInStringTheory}
 
 The proposal that slope-stability of vector bundles should generalize to a notion of stability ("$\Pi$-stability") of [[B-branes]]/[[D-branes]] originates with
 
@@ -510,6 +578,9 @@ On marginally stable branes:
 [[!redirects Bridgeland stability conditions]]
 
 [[!redirects Bridgeland stability]]
+
+[[!redirects stability condition]]
+[[!redirects stability conditions]]
 
 [[!redirects stability function]]
 [[!redirects stability functions]]
