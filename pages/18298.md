@@ -1410,7 +1410,7 @@ $$
   \,.
 $$
 
-Moreover since $k^n$ is [[locally compact topological space|locally compact]],
+Moreovern since $k^n$ is [[locally compact topological space|locally compact]] (like every [[finite dimensional vector space]], by the [[Heine-Borel theorem]]),
 the [[mapping space]] [[adjunction]] says (by [this prop.](Introduction+to+Topology+--+1#UniversalPropertyOfMappingSpace)) that there is a continuous function
 
 $$
