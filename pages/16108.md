@@ -31,9 +31,9 @@ Of course, $ r s = s r$ and
 
 $${}^s r r^{-1} = 1$$
 
-so ${}^s r. r^{-1}$ is an identity.  In fact, there will be a unique $z\in F$
+so ${}^s r . r^{-1}$ is an identity.  In fact, there will be a unique $z\in F$
 with $r = z^q$, $q$ maximal with this property.  This $z$ is called the
-_root of_ $r$ and if $q > 1$, $r$ is called a _proper power.
+_root of_ $r$ and if $q \gt 1$, $r$ is called a _proper power_.
 
 ##Example (Standard presentation of $S_3$)
 
@@ -136,6 +136,5 @@ $$0\to \kappa(\mathcal{P}) \to C(\mathcal{P}) \xrightarrow{\partial} F(X)\to G\t
 
 *  [[J.-L. Loday]], 2000, _Homotopical Syzygies_, in _Une dégustation topologique: Homotopy theory in the Swiss Alps_, volume 265 of Contemporary Mathematics, 99 – 127, AMS.
 
-[[!redirects identities among relations]] 
 [[!redirects identities among relations]] 
 [[!redirects identities among the relations]] 
