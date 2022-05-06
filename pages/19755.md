@@ -117,7 +117,7 @@ $$\langle \sigma_1,\sigma_2 | \sigma_1^2,\sigma_2^2, (\sigma_1\sigma_2)^3\rangle
 
 It is easy to see that these relations imply that 
 
-$$\sigma_1\sigma_2\sigma_1= \sigma_2\sigma_1\sigma2$$
+$$\sigma_1\sigma_2\sigma_1= \sigma_2\sigma_1\sigma_2$$
 
 which relates this symmetric group to the [[braid group]], **Br 3**, and to the [[trefoil knot|trefoil group]].  It is clear that there is an epimorphism $S_3\to Br_3$ obtained by making the two braid generators become the transpositions. 
 
