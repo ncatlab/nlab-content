@@ -68,7 +68,7 @@ The $\theta$-angle as the [[graviphoton]] [[RR-field]]-potential $C_1$ in the [[
 
 * {#CGNSW96} [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, around (4.6) of _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
 
-* {#APPS97b} [[Mina Aganagic]], Jaemo Park, Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+* {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
 * {#CAIB99} C. Chryssomalakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, Sec. 6.1 of _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
 
