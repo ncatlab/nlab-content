@@ -84,7 +84,7 @@ Since $f$ is an equivalence, there exists a $g'$ and isomorphisms $f g' \cong 1$
 $$
 f g
 \xrightarrow{f g \xi^{-1}} f g f g
-\xrightarrow{f \eta^{-1}} f g
+\xrightarrow{f \eta^{-1} g} f g
 \xrightarrow{\xi} 1
 $$
 then we can verify, using string diagram notation as above, that $\varepsilon$ satisfies one zigzag identity, and hence (by the previous lemma) also the other:
