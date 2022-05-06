@@ -158,5 +158,9 @@ We deduce that $x \circ \left( \mathcal{E}_{semi} \times s \right) = \mathcal{E}
 * {#Williamson2011} [[Richard Williamson]], _Cylindrical model structures_, DPhil thesis, University of Oxford, 2011. [author's webpage](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html) [arXiv:1304.0867](https://arxiv.org/abs/1304.0867)
 
 [[!redirects walking equivalences]]
+[[!redirects walking semi-strict equivalence]]
+[[!redirects walking semi-strict equivalences]]
 [[!redirects free-standing equivalence]]
 [[!redirects free-standing equivalences]]
+[[!redirects free-standing semi-strict equivalence]]
+[[!redirects free-standing semi-strict equivalences]]
