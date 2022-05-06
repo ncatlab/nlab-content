@@ -194,6 +194,10 @@ Specifically in [[M-theory on G2-manifolds]]:
 Specifically in relation to [[Moonshine]]:
 
 * [[Miranda Cheng]], Sarah M. Harrison, Roberto Volpato, Max Zimet, _K3 String Theory, Lattices and Moonshine_ ([arXiv:1612.04404](https://arxiv.org/abs/1612.04404))
+
+Specifically in relation to [[little string theory]]:
+
+* [[Shamit Kachru]], Arnav Tripathy, Max Zimet, _K3 metrics from little string theory_ ([arXiv:1810.10540](https://arxiv.org/abs/1810.10540))
  
 
 [[!redirects K3 surfaces]]
