@@ -1,5 +1,5 @@
 
-## Defintion
+## Definition
 
 ### General
 
@@ -7,7 +7,7 @@ In geometry, a **flag** is a chain of incidence relations, as for example betwee
 
 $$V_0 \subseteq V_1 \subseteq \ldots \subseteq V_n$$ 
 
-of a fixed vector space $V$, or between isotropic subspaces, etc. 
+of a fixed vector space $V$, or between isotropic subspaces, etc. A flag is **complete** if $\dim V_i = i$ for each $i \in \{0, \ldots, n\}$.
 
 ### Flags of posets
 
