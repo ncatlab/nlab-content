@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -343,11 +344,15 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
 
 A notion of spectrum of units of an $E_\infty$-ring was originally described in 
 
-* [[Peter May]], _$E_\infty$ ring spaces and $E_\infty$ ring spectra_  Lecture Notes in Mathematics, Vol. 577. Springer-Verlag, Berlin, 1977. With contributions by [[Frank Quinn]], Nigel Ray, and J&#248;rgen Tornehave.
+* [[Peter May]], _$E_\infty$ ring spaces and $E_\infty$ ring spectra_  Lecture Notes in Mathematics, Vol. 577. Springer-Verlag, Berlin, 1977. With contributions by [[Frank Quinn]], Nigel Ray, and J&#248;rgen Tornehave ([pdf](https://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf))
 
 One explicit model was given in
 
-* {#Schlichtkrull04} [[Christian Schlichtkrull]], _Units of ring spectra and their traces in algebraic K-theory_, Geom. Topol. 8(2004) 645-673 ([arXiv:math/0405079](http://arxiv.org/abs/math/0405079))
+* {#Schlichtkrull04} [[Christian Schlichtkrull]], _Units of ring spectra and their traces in algebraic K-theory_, Geom. Topol. 8(2004) 645-673 ([arXiv:math/0405079](http://arxiv.org/abs/math/0405079), [euclid:gt/1513883412](https://projecteuclid.org/euclid.gt/1513883412))
+
+Further discussion in 
+
+* [[Peter May]], [[Johann Sigurdsson]], Section 22.2 of: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006 ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
  
 
 A general abstract discussion in [[stable (∞,1)-category]] theory is in
