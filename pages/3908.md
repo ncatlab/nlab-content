@@ -2,6 +2,11 @@ __Pavel Etingof__ is a mathematician at MIT ([web](http://www-math.mit.edu/~etin
 
 ## Selected writings
 
+On [[orbifold cohomology]] of [[symplectic orbifolds]]:
+
+* [[Vasily Dolgushev]], [[Pavel Etingof]], _Hochschild cohomology of quantized symplectic orbifolds and the Chen-Ruan cohomology_, Int. Math. Res. Not. 2005, no. 27, 1657-1688 ([arXiv:math/0410562](https://arxiv.org/abs/math/0410562))
+
+
 On [[tensor categories]]:
 
 * [[Damien Calaque]], [[Pavel Etingof]], _Lectures on tensor categories_, IRMA Lectures in Mathematics and Theoretical Physics 12, 1-38 (2008) ([arXiv:math/0401246](https://arxiv.org/abs/math/0401246))
