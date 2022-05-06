@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[function]] on a [[Cartesian space]] is called _rapidly decreasig_ if every the product with any power of the canonical [[coordinate functions]] is a [[bounded function]] (def. \ref{RapidlyDecreasingFunction} below).
+A [[function]] on a [[Cartesian space]] is called _rapidly decreasing_ if every the product with any power of the canonical [[coordinate functions]] is a [[bounded function]] (def. \ref{RapidlyDecreasingFunction} below).
 
 Of particular interest are the [[smooth functions]] with are rapidly decreasing and all whose [[partial derivatives]] are rapidly decreasing, too (def. \ref{FunctionsWithRapidlyDecreasingPartialDerivatives} below). These _[[Schwartz functions]]_ enjoy the special property that the operation of [[Fourier transform]] is an [[endomorphism]] on the _[[Schwartz space]]_ of all these functions. This gives them a central place in [[harmonic analysis]]. A _[[tempered distribution]]_ is a [[continuous linear functional]] on this [[Schwartz space]].
 
