@@ -506,21 +506,24 @@ That core, like every [[∞-groupoid]] is equivalent to the disjoint union over 
 ## References 
 
 
-For some original references by [[William Dwyer]] and [[Dan Kan]]  see  [[simplicial localization]]. For instance
+For some original references by [[William Dwyer]] and [[Dan Kan]] see  [[simplicial localization]]. For instance
 
-* [[William Dwyer]], [[Dan Kan]], _A classication theorem for diagrams of simplicial sets_, Topology 23 (1984), 139-155.
- {#DK84}
+* {#DK84} [[William Dwyer]], [[Dan Kan]], _A classification theorem for diagrams of simplicial sets_, Topology 23 (1984), 139-155.
+
+Discussion in terms of [[quasi-categories]]:
+
+* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_, Algebraic & Geometric Topology 11 (2011) 263–325 ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](http://dx.doi.org/10.2140/agt.2011.11.263))
+ 
 
 The theory of _framings_ is due to
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Dan Kan]], _Model categories and general abstract
-homotopy theory_, (1997) ([pdf](http://www.mimuw.edu.pl/~jacho/literatura/ModelCategory/DHK_ModelCateogories1.pdf))
-  {#DHK}
+* {#DHK} [[William Dwyer]], [[Philip Hirschhorn]], [[Dan Kan]], _Model categories and general abstract homotopy theory_, (1997) ([pdf](http://www.mimuw.edu.pl/~jacho/literatura/ModelCategory/DHK_ModelCateogories1.pdf))
+  
 
 and in parallel section 5 of 
 
-* [[Mark Hovey]], _Model categories_ ([ps](http://math.unice.fr/~brunov/SecretPassage/Hovey-Model%20Categories.ps))
-  {#Hovey}
+* {#Hovey} [[Mark Hovey]], _Model categories_ ([ps](http://math.unice.fr/~brunov/SecretPassage/Hovey-Model%20Categories.ps))
+  
 
 and in sections 16, 17 of
 
@@ -533,13 +536,13 @@ A useful quick review of the interrelation of the various constructions of deriv
 
 Discussion of derived hom spaces for [[categories of fibrant objects]] is in 
 
-* [[Denis-Charles Cisinski]], _Invariance de la K-th&#233;orie par equivalences d&#233;riv&#233;es_, J. K-theory, 6 (2010), 505&#8211;546.
- {#Cisinski10}
+* {#Cisinski10} [[Denis-Charles Cisinski]], _Invariance de la K-th&#233;orie par equivalences d&#233;riv&#233;es_, J. K-theory, 6 (2010), 505&#8211;546.
+ 
 
 and section 3.6.2 of 
 
-* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
- {#NSS12}
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+ 
 
 
 
