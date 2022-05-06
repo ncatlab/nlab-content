@@ -15,22 +15,40 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In the context of [[cobordism theory]], a [[generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_. (Dually, the corresponding [[generalized homology theory]] is called _[[bordism homology theory]]_.)
+In [[algebraic topology]], a [[Whitehead-generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_ ([Atiyah 61](#Atiyah61)), in [[duality]] with the corresponding [[generalized homology theory]] called _[[bordism homology theory]]_.  
 
-By default "cobordism cohomology" usually refers to what is represented by [[MO]].  The cohomology represented by [[MU]] is _[[complex cobordism cohomology]]_. Both are unified by the [[equivariant cohomology theory]] called [[MR-theory]]. The [[periodic cohomology theory]] version is denoted [[MP]].
+In both cases, a version of the [[Pontryagin-Thom construction]] identifies the (co)homology classes of these (co)homology theories with [[bordism]]-[[equivalence classes]] of [[manifolds]] (carrying some given [[extra structure]]), whence the name. For [[bordism homology theory]] this was understood since the very inception of the subject ([Thom 54](#Thom54)), while for cobordism cohomoloy theory this identification is due to [Quillen 71](#Quillen71), see below at _[Geometric model via cobordism classes](#GeometricModel)_.
 
-On the other hand, [[framed manifold|framed]] cobordism cohomology theory ($M G$ for $G$ the [[trivial group]]) is _[[stable cohomotopy]]_ (by the [[Pontryagin-Thom theorem]]).
-
-See at those entries for more.
+Accordingly, cobordism cohomology theories are fundamental concepts of [[bordism theory]] in [[differential topology]]. But in  addition they turn out to play a special role in the more abstract [[stable homotopy theory]] of [[complex oriented cohomology theories]] and in the resulting [[chromatic homotopy theory]]  (and its variants such as [[quaternionic oriented cohomology|quaternionic-oriented theories]]), see the [[universal complex orientation on MU]]. This witnesses a remarkable confluence of the [[differential topology]] of [[smooth manifold]] with deep issues in [[homotopy theory]]. 
 
 
-## Geometric model
- {#GeometricModal}
+There are different flavours of cobordism cohomology theories (see the list of [Examples](#Examples) below), depending on the [[tangential structure]] $f$ encoced in the representing [[Thom spectrum]] $M f$. Among the most commonly considered versions are these:
 
-We discuss a geometric model for the cobordism cohomology theory, due to [[Quillen]] ([Quillen 71, Section 1](#Quillen71)). We concentrate on the complex case, corresponding to the [[Thom spectrum]] [[MU]]:
+* The [[cohomology theory]] [[Brown representability theorem|represented]] by [[MO]] is the base case, in the sense that the [[orthogonal group]] $O(n)$ is [[homotopy equivalence|homotopy equivalent]] to the [[general linear group]] $GL_{\mathbb{R}}(n)$ (namely the [[maximal compact subgroup]]), so that $O$-[[tangential structure]] corresponds to no extra [[tangential structure]].
 
-Namely, for a [[manifold]] $X$, the group $\mathrm{M} \mathrm{U}^q(X)$ is equivalently the set of [cobordism classes](#CobordismClassesOfMaps) of [[proper maps|proper]] [complex-oriented](#ComplexOrientedMaps) maps $f \colon Z \to X$ of relative [[codimension]] $q$.
+* The cohomology theiry represented by [[MU]] is _[[complex cobordism cohomology]]_. Its [[periodic cohomology theory]] version is sometimes denoted [[MP]]. The cohomology theories [[MO]] and [[MU]] unified by the [[equivariant cohomology theory]] called [[MR-theory]].  
+
+* On the other hand, [[framed manifold|framed]] cobordism cohomology theory [[MFr]] is equivalently _[[stable Cohomotopy theory]]_ (by the [[Pontryagin-Thom theorem]]). In its unstable version as plain [[Cohomotopy theory]] this -- and its relation to cobordism classes of [[normally framed submanifolds]] (the [Pontryagin construction](cohomotopy#RelationToCobordismGroup)) -- this was the historical origin of [[cobordism theory]] (in [Pontrjagin 38](#Pontrjagin38), [Pontrjagin 55](#Pontrjagin55)).
+
+
+## Geometric model via cobordism classes
+ {#GeometricModel}
+
+We discuss a geometric model for the cobordism cohomology theory, due to [Quillen 71, Section 1](#Quillen71). We concentrate on the complex case, corresponding to the [[Thom spectrum]] [[MU]]:
+
+
++-- {: .num_prop}  
+###### Proposition
+
+For a [[smooth manifold]] $X$, the cobordism [[cohomology group]] 
+$\mathrm{M} \mathrm{U}^q(X) \;\coloneqq\; [\Sigma^\infty X_+, \Sigma^q MU]$
+is equivalently the set of [cobordism classes](#CobordismClassesOfMaps) of [[proper maps|proper]] [complex-oriented](#ComplexOrientedMaps) maps $f \colon Z \to X$ of [[codimension]] $q$.
+
+=--
+
+([Quillen 71, Prop. 1.2](#Quillen71))
 
 This uses the following definitions:
 
@@ -69,8 +87,11 @@ Here two [[proper map|proper]] [complex-oriented](#ComplexOrientedMaps) maps $f_
 
 =--
 
+([Quillen 71, p. 31](#Quillen71))
+
 
 ## Examples
+ {#Examples}
 
 [[!include flavours of cobordism cohomology theories -- table]]
 
@@ -97,7 +118,7 @@ Here two [[proper map|proper]] [complex-oriented](#ComplexOrientedMaps) maps $f_
 
 Original articles introducing cobordism as a [[Whitehead-generalized cohomology theory]]:
 
-* [[Michael Atiyah]], _Bordism and Cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 57, Issue 2, April 1961, pp. 200 - 208 ([doi:10.1017/S0305004100035064](https://doi.org/10.1017/S0305004100035064), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahb.pdf))
+* {#Atiyah61} [[Michael Atiyah]], _Bordism and Cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 57, Issue 2, April 1961, pp. 200 - 208 ([doi:10.1017/S0305004100035064](https://doi.org/10.1017/S0305004100035064), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahb.pdf))
   > (introducing the concept, with focus on[[MSO]])
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
@@ -127,6 +148,11 @@ The [[twisted cohomology|twisted]] and [[equivariant cohomology|equivariant]] ve
 * {#Cruickshank99} [[James Cruickshank]], _Twisted  Cobordism and its Relationship to Equivariant Homotopy Theory_, 1999 ([pdf](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk1/tape9/PQDD_0030/NQ46823.pdf), [[Cruickshank99.pdf:file]])
 
 * {#Cruickshank03} [[James Cruickshank]], _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">arXiv:10.1016/S0166-8641(02)00183-9</a>)
+
+
+[[!include Pontryagin-Thom construction -- references]]
+
+
 
 ### Relation to divisors
 
