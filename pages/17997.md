@@ -179,7 +179,7 @@ from that of $X$ to that of its double [[suspension]] $\Sigma^2 X$.
 +-- {: .proof}
 ###### Proof
 
-By [this example](topologica+K-theory#ReducedKTheoryOfProductSpace)
+By [this example](topological+K-theory#ReducedKTheoryOfProductSpace)
 there is for any two pointed compact Hausdorff spaces $X$ and $Y$ an [[isomorphism]]
 
 $$
