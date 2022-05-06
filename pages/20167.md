@@ -26,7 +26,7 @@
 ###### Proposition
 **(Hopf degree theorem)**
 
-Let $n \in \mathbb{N}$ be a [[natural number]] and $X \in Mfd$ be a [[connected topological space|connected]] [[orientation|orientable]] [[closed manifold]] of [[dimension]] $n$. Then the $n$th [[cohomotopy]] classes $\left[X \overset{c}{\to} S^n\right] \in \pi^n(X)$ of $X$ are in [[bijection]] to the [[degree of a continuous function|degree]] $deg(c) \in \mathbb{Z}$ of the representing functions, hence the canonical function
+Let $n \in \mathbb{N}$ be a [[natural number]] and $X \in Mfd$ be a [[connected topological space|connected]] [[orientation|orientable]] [[closed manifold]] of [[dimension]] $n$. Then the $n$th [[cohomotopy]] classes $\left[X \overset{c}{\to} S^n\right] \in \pi^n(X)$ of $X$ are in [[bijection]] with the [[degree of a continuous function|degree]] $deg(c) \in \mathbb{Z}$ of the representing functions, hence the canonical function
 
 $$
   \pi^n(X) 
@@ -42,11 +42,13 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 
 (e.g. [Kosinski 93, IX (5.8)](#Kosinski93), [Kobin 16, 7.5](#Kobin16))
 
+<br/>
 
 ### In equivariant homotopy theory
  {#InEquivariantHomotopyTheory}
 
-The following Theorem \ref{EquivariantHopfDegreeTheorem} is a generalization of the Hopf degree theorem to [[equivariant homotopy theory]], due to [tomDieck 79, 8.4](#tomDieck79). It implies a fairly explicit characterization of [[equivariant cohomotopy]] of [[representation spheres]] $S^V$ in [[RO(G)-degree]] $V$ (Prop. \ref{EquivariantHomotopyOfSVInRODegreeV} below).
+
+The [[equivariant Hopf degree theorem]] -- Theorem \ref{EquivariantHopfDegreeTheorem} below -- is a generalization of the Hopf degree theorem to [[equivariant homotopy theory]], due to [tomDieck 79, 8.4](#tomDieck79). It implies a fairly explicit characterization of [[equivariant cohomotopy]] of [[representation spheres]] $S^V$ in [[RO(G)-degree]] $V$ (Prop. \ref{EquivariantHomotopyOfSVInRODegreeV} below).
 
 We need the following list of ingredients and assumptions:
 
@@ -67,7 +69,7 @@ For $X$ a [[G-space]], we write
   Isotr_X(G) \subset Sub(G)
 \]
 
-for the [[subset]] of the [[subgroup lattice]] on the [[isotropy groups]] of $X$, hence those [[subgroups]] which appear as [[stabilizer subgroups]] $Stab_G(x)$ of some point $x \in X$. This means that if $H_1, H_2 \in Iso_X(G)$ and $H_1 \lt H_2$ is a strict inclusion, then the [[fixed loci]] differ $X^{H_1} \gt X^{H_2}$.
+for the [[subset]] of the [[subgroup lattice]] on the [[isotropy groups]] of $X$, hence those [[subgroups]] which appear as [[stabilizer subgroups]] $Stab_G(x)$ of some point $x \in X$. This means  that if $H_1, H_2 \in Iso_X(G)$ and $H_1 \lt H_2$ is a strict inclusion, then the [[fixed loci]] differ $X^{H_1} \gt X^{H_2}$.
 
 
 
@@ -100,6 +102,15 @@ For $G$ a [[finite group]], we say that a [[pair]] $X,Y \in G Spaces$ of [[topol
 and
 
 1. $Y^H$ is $(dim(X^H)-1)$-[[n-connected topological space|connected]]
+
+   $$
+     pi_{ \lt \mathrm{dim}\big( X^H \big) }
+     \big( 
+       Y^H
+     \big)
+     \;=\;
+     0
+   $$
 
    (hence [[connected topological space|connected]] if $dim\left(X^H\right) = 1$, [[simply connected topological space|simply connected]] if $dim\left(X^H\right) = 2$, etc.);
 
@@ -209,34 +220,52 @@ Moreover, the orientability and connectivity assumptions in Def. \ref{MatchingGS
 ###### Theorem
 **([[equivariant Hopf degree theorem]])**
 
-Giving a matching pair of $G$-spaces $X, Y$ (Def. \ref{MatchingGSpaces}) the fixed-point-wise [[degree of a continuous function|degree]] map
+Given a matching pair of $G$-spaces $X, Y$ (Def. \ref{MatchingGSpaces}) the function 
+(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of [[degree of a continuous function|degrees]] labeled by [[isotropy groups]])
+which sends any equivariant homotopy class $[f]$ of an equivariant continuou sfunction $f \colon X \to Y$ to its $H$-degrees (eq:IntegerDegreeOfEquivariantFunctionOnFixedStrata)
 
 $$
-  deg
-  \;\colon\;
-  \pi_0 \mathrm{Maps}\big( X,Y \big)^G
-  \overset{
-    \phantom{AAAA}
-  }{\hookrightarrow}
-  \mathbb{Z}^{ Isotr_X(G) }
+  \array{
+    deg
+    &\colon&
+    \pi_0 \mathrm{Maps}\big( X,Y \big)^G
+    &
+    \overset{
+      \phantom{AAAA}
+    }{\hookrightarrow}
+    &
+    \underset{
+      { H \in Isotr_X(G) }
+    }{\prod} \mathbb{Z}
+    \\
+    &&
+    [f] 
+      &\mapsto & 
+    \big( 
+      H \mapsto \mathrm{deg}\big( f^H\big) 
+    \big) 
+  }
 $$
 
-(from $G$-[[equivariant homotopy theory|equivariant]] [[homotopy classes]] to [[tuples]] of [[degree of a continuous function|degrees]] labeled by [[isotropy groups]]) is an [[injective function|injection]].
+is an [[injective function|injection]].
 
 Moreover, for each $[f] \in \pi_0 \mathrm{Maps}\big( X,Y \big)^G$ and for each $H \in Isotropy_X(G)$ 
 
 1. the $H$-degree (eq:IntegerDegreeOfEquivariantFunctionOnFixedStrata) modulo the [[order of a group|order]] of the [[Weyl group]]
 
-   $$
-     deg\left( f^H\right) \,mod\, {\vert W_G(H)\vert}
+   \[
+     \label{DegreeConstraintsInEquivariantHopfDegreeTheorem}
+     deg\left( f^H\right) 
+     \;mod\; 
+     {\vert W_G(H)\vert}
      \;\in\;
      \mathbb{Z}/{\vert W_G(H)\vert}
-   $$
+   \]
 
    is fixed by the degrees $deg\big( f^K\big)$ for all $K \gt H$;
 
 
-1. there exists $f'$ with these specified degrees $deg\big( (f')^H\big) = deg\big( f^H\big)$ for $K \gt H$ and realizing any of the degrees $deg\big( (f')^H\big) \in \mathbb{Z}$ that satisfy the previous constraint.
+1. there exists $f'$ with specified degrees $deg\big( (f')^K\big) = deg\big( f^K\big)$ for $K \gt H$ and realizing any of the degrees $deg\big( (f')^H\big) \in \mathbb{Z}$ allowed by the  constraint  (eq:DegreeConstraintsInEquivariantHopfDegreeTheorem).
 
 =--
 
@@ -504,6 +533,29 @@ $$
 
 =--
 
+
++-- {: .num_remark}
+###### Remark
+
+This result 
+
+$$
+  \pi^{ \mathbb{R}_{sqn} }\big( \mathbb{R}_{sgn}\big)^{\{\infty\}/} \simeq \mathbb{Z}_2 \times \mathbb{Z}
+$$ 
+
+from Example \ref{EquivariantCohomotopyOfRepresentationSphereOfSignRepresentationInThatDegree}
+
+becomes, after [[stabilization]] to [[equivariant stable homotopy theory]], the stable homotopy groups of the [[equivariant sphere spectrum]] in [[RO(G)-grading]] given by
+
+$$
+  \pi^{ \mathbb{R}_{sqn} }_{stab}\big( \mathbb{R}_{sgn}\big)^{\{\infty\}/} \simeq \mathbb{Z} \times \mathbb{Z}
+$$ 
+
+see [there](equivariant+sphere+spectrum#Z2equivariance).
+
+=--
+
+
 +-- {: .num_example #EquivariantCohomotopyOfRepresentationSphereOfQuaternionsInThatDegree}
 ###### Example
 **([[equivariant cohomotopy]] of $S^{\mathbb{H}}$ in [[RO(G)-degree]] the [[quaternions]] $\mathbb{H}$)**
@@ -541,7 +593,6 @@ $$
   }
 $$
 
-
 =--
 
 +-- {: .proof}
@@ -559,7 +610,6 @@ $$
 and all degrees  must differ from that of the class of the [[identity function]] by a multiple of this multiplicity. Finally, the offset of the identity function is clearly $offs\left(id_{S^{\mathbb{H}}},1\right) = deg\left( id_{S^{\mathbb{H}}}\right) = 1$.
 
 =--
-
 
 <br/>
 
@@ -597,5 +647,4 @@ Generalization to [[equivariant cohomotopy]] and [[equivariant cohomology]]
 
 [[!redirects Hopf theorem]]
 
-[[!redirects equivariant Hopf degree theorem]]
 
