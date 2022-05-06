@@ -22,7 +22,7 @@ On the [[Sakai-Sugimoto model]] for [[holographic QCD]] ([[geometric engineering
 
 Specifically on [[skyrmions]]:
 
-* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in M. Rho, Ismail Zahed (eds.) _The Multifaceted Skyrmion_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+* {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
 On 3d [[Chern-Simons theory]] in [[intersecting D-brane models]]:
 
