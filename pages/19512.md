@@ -23,6 +23,10 @@ On [[theory (physics)]]:
 
 * [[James Wells]], _Lexicon of Theory Qualities_ ([pdf](http://www-personal.umich.edu/~jwells/prms/prm8.pdf))
 
+On the [[standard model of particle physics]]:
+
+* [[James Wells]], _The Once and Present Standard Model of Elementary Particle Physics_ ([arxiv:1911.04604](https://arxiv.org/abs/1911.04604))
+
 ## Related $n$Lab entries
 
 * [[gauge coupling unification]]
