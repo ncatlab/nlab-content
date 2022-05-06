@@ -184,7 +184,7 @@ Fundamental bibliography:
 
 Some global aspects of the [[classical double copy]] were explored in the following paper:
 
-* {#AWW20} [[Luigi Alfonsi]], Chris D. White, Sam Wikeley _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
+* {#AWW20} [[Luigi Alfonsi]], Chris D. White, Sam Wikeley, _Topology and Wilson lines: global aspects of the double copy_ ([arXiv:2004.07181](https://arxiv.org/abs/2004.07181))
 
 In the following paper it is shown that a [[S-duality]] on a gauge field corresponds to an [[Ehlers transformation]] on its double copy:
 
