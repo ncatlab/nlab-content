@@ -16,7 +16,7 @@ On [[vector G-spaces]] and [[equivariant dgc-algebras]] in [[equivariant rationa
 
 On the [[model structure on equivariant dgc-algebras]] and the [[fundamental theorem of dg-algebraic rational homotopy theory]]:
 
-* [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra Volume 133, Issue 3, 30 December 1998, Pages 271-287 (<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">https://doi.org/10.1016/S0022-4049(97)00127-8</a>)
+* [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra Volume 133, Issue 3, 30 December 1998, Pages 271-287 (<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">doi:10.1016/S0022-4049(97)00127-8</a>)
 
 
 With [[Ronnie Brown]], Golasinski  gave the folk model structure on the category of [[crossed complexes]]:
