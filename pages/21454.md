@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -21,7 +20,13 @@
 
 ## Idea
 
-(...)
+In [[gauged supergravity]] the [[gauge symmetry|gauging]] of a [[subgroup]] of a [[global symmetry|global]] [[U-duality]] [[symmetry group]] (via a choice of [[embedding tensor]]) in general requires the existence of a hierarchy of [[differential p-form]]-[[field (physics)|fields]] to ensure the gauge covariance of the resulting [[field strengths]]. This is known as the _[[tensor hierarchy]]_ ([de Wit-Samtleben 05](#deWitSamtleben05), [deWit-Samtleben 08](#deWitSamtleben08))
+ 
+## Definition
+
+
+[[!include embedding tensors and tensor hierarchy in super Lie theory -- section]]
+
 
 ## Related concepts
 
@@ -52,7 +57,6 @@ Relation to [[Borcherds algebras]]:
 Relation to [[Leibniz algebras]]:
 
 * [[Sylvain Lavau]], _Tensor hierarchies and Leibniz algebras_, J. Geom. Phys. 144:147-189 (2019) ([arXiv:1708.07068](https://arxiv.org/abs/1708.07068))
-
 
 
 A proposal for understanding tensor hierarchies as [[dg-Lie algebra]]/[[L-infinity algebra]]-refinenents of [[Leibniz algebras]]:
