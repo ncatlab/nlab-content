@@ -93,6 +93,8 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 
 * [[algebraic cobordism]]
 
+* [[Sullivan chord diagram]]
+
 ## References
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
