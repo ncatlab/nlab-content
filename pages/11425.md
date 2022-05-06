@@ -26,9 +26,9 @@ This is in contrast to [[complex vector bundles]].
 
 * [[Pontryagin class]]
 
-* [[complex vector bundle]]
+* [[complex vector bundle]], [[quaternionic vector bundle]]
 
-* [[quaternionic vector bundle]]
+* [[real oriented cohomology theory]]
 
 [[!redirects real vector bundles]]
 
