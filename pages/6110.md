@@ -36,7 +36,7 @@ on applications of [[differential forms]], or rather of [[de Rham cohomology]], 
 
 * [[Stokes theorem]]
 
-## 4 Pincar&eacute; lemma
+## 4 Poincar&eacute; lemma
 
 * [[Poincare lemma]]
 
