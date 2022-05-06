@@ -29,13 +29,19 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 
 * [[vector G-space]]
 
+* [[equivariant chain complex]], [[model structure on equivariant chain complexes]]
+
+* [[equivariant dgc-algebra]]
+
 * [[equivariant PL de Rham complex]]
+
+* [[equivariant Sullivan model]]
 
 * [[model structure on equivariant dgc-algebras]]
 
 * [[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]]
 
-* [[fundamental theorem of equivariant rational homotopy theory]]
+* [[fundamental theorem of dg-algebraic equivariant rational homotopy theory]]
 
 \linebreak
 
