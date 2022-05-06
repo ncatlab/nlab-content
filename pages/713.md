@@ -208,16 +208,21 @@ we're stuck: the '$Cat$' at right contains larger categories than the one at lef
 
 In [their work on species](http://www.lacim.uqam.ca/~gambino/species.pdf), Fiore, Gambino, Hyland and Winskel had to confront this issue.  In one draft of this paper they had a very artful and sophisticated device for dealing with this size problem.  In the latest draft they seem to have sidestepped it entirely: you'll see they discuss the 'free symmetric monoidal category on a category' pseudomonad, but never the 'free cocomplete category on a category' pseudomonad, even though they _do_ use the $\widehat{C}$ construction all over the place.  Somehow they've managed to avoid the need to consider this construction as a pseudomonad!
 
+Fiore, Gambino, Hyland and Winskel have since exhibited the free cocompletion of a small category as a [[relative pseudomonad]] from the 2-category Cat of small categories into the 2-category COC of locally-small cocomplete categories. See [FGHW](#FGHW) for more details.
+
 ## In higher category theory
 
 One can ask for the notion of free cocompletion in the wider context of [[higher category theory]].
 
-* for [[(∞,1)-category]] theory there is [[free (∞,1)-cocompletion]] .
+* for [[(∞,1)-category]] theory there is [[free (∞,1)-cocompletion]].
 
 ## References 
 
 * [[Brian Day]], [[Steve Lack]], _Limits of small functors_ ([web](https://arxiv.org/abs/math/0610439))
 {#DayLack}
+
+* Fiore, Gambino, Hyland and Winskel, _Relative pseudomonads, Kleisli bicategories, and substitution monoidal structures_, ([web](https://arxiv.org/pdf/1612.03678.pdf))
+{#FGHW}
 
 This reference might also give helpful clues:
 
