@@ -34,9 +34,9 @@ In "synthetic" approaches to the formulation of [[theories]] in [[mathematics]] 
 
   Here instead of defining the concept of _[[smooth manifold]]_ analytically by "point-set methodology" as is traditional (a [[set]] of points equipped with a [[topology]] and a [[smooth structure]], etc.) one imposes one single [[axiom]] scheme in the ambient [[topos]] (the "[[Kock-Lawvere axiom]]" in this case) which essentially ensures that for all [[objects]]/[[types]] $X$ there exists also an object/type $T X$ which behaves as the [[tangent bundle]] of $X$ should. These axioms then turn out to have [[models]] in [[smooth spaces]] (which include [[smooth manifolds]]) but also in other, such as [[algebraic geometry]] and [[supergeometry]].
 
-Often the "synthetic approach" is just referred to as "axiomatic". For instance [[model categories]] were introduced as "axiomatic homotopy theory" and indeed they may be regarded as providing a synthetic axiomatization of [[homotopy theory]], which is not based on (but does subsume) the tradtional "point-set model" provided by [[topological spaces]].
+Often the "synthetic approach" is just referred to as "axiomatic". For instance [[model categories]] were introduced as "axiomatic homotopy theory" and indeed they may be regarded as providing a synthetic axiomatization of [[homotopy theory]], which is not based on (but does subsume) the traditional "point-set model" provided by [[topological spaces]].
 
-* With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for exampl, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
+* With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
 
 * [[synthetic differential topology]]
 
