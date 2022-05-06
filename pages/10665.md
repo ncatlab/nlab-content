@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _[[character]]_ of a [[group]] $G$ is a [[group homomorphism]] into the [[circle group]] $U(1)$, or more generally into the [[group of units]] $k^\times$ of a given [[ground field]] (for instance $\mathbb{C}^\times = U(1)$):
+A _multiplicative [[character]]_ of a [[group]] $G$ is a [[group homomorphism]] into the [[circle group]] $U(1)$, or more generally into the [[group of units]] $k^\times$ of a given [[ground field]] (for instance $\mathbb{C}^\times = U(1)$):
 
 $$
   \chi
