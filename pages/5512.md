@@ -86,7 +86,7 @@ between [[symmetric monoidal category|symmetric]] [[closed monoidal categories]]
 +-- {: .num_prop}
 ###### Proposition
 
-If $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and and $f^*$ is strong closed then there is a natural isomorphism
+If $f_! \dashv f^\ast$ is an adjunction between symmetric closed monoidal categories and $f^*$ is strong closed then there is a natural isomorphism
 
 $$
   \pi \colon\;
