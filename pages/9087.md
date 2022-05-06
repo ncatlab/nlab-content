@@ -5,7 +5,7 @@
 
 ## Idea
 
-Serre's intersection formula is a refinement of the [[intersection theory]] statement of [[Bézout's theorem]]. By replacing the plain [[tensor product]] of [[structure sheaves]] of intersecting subvarieties with the [[derived functor|derived]] tensor product -- the [[Tor]] -- it holds also when the subvarieties do no intersect transversally.
+Serre's intersection formula is a refinement of the [[intersection theory]] statement of [[Bézout's theorem]]. By replacing the plain [[tensor product]] of [[structure sheaves]] of intersecting subvarieties with the [[derived functor|derived]] tensor product -- the [[Tor]] -- it holds also when the subvarieties do not intersect transversally.
 
 This may be understood as a first step towards formulating [[intersection theory]] properly in [[derived algebraic geometry]].
 
