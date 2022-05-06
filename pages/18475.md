@@ -75,6 +75,9 @@ Reviews and lectures:
 * K. Schalm and R. Davison, _A simple introduction to AdS/CFT
 and its application to condensed matter physics_,  D-ITP Advanced Topics in Theoretical Physics Fall 2013, ([[SchalmDavisonAdSCFT.pdf:file]])
 
+* Andrea Amoretti, _Condensed Matter Applications of AdS/CFT : Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
+
+
 
 
 ### Application to quantum chromodynamics
