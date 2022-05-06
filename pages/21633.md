@@ -86,5 +86,10 @@ On symmetries of manifolds of the [[homotopy type]] of $\mathbb{C}P^3$:
 * Mark Hughes, _Symmetries of Homotopy Complex Projective Three Spaces_, Transactions of the American Mathematical Society
 Vol. 337, No. 1 (May, 1993), pp. 291-304 ([doi:10.2307/2154323](https://doi.org/10.2307/2154323))
 
+On toric symmetries of $\mathbb{C}P^3$:
+
+* Dagan Karp, Dhruv Ranganathan, Paul Riggins, Ursula Whitcher, 
+_Toric symmetry of $\mathbb{C}P^3$_, Advances in Theoretical and Mathematical Physics, Vol. 16, No. 4, 2012 ([arXiv:1109.5157](https://arxiv.org/abs/1109.5157))
+
 
 
