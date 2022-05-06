@@ -60,7 +60,7 @@ An $n$-category is an $n$-pretopos if and only if it is coherent and every (fini
 
 An $n$-pretopos has [[2-coproducts]] and [[2-quotients]] of $n$-congruences, which are an important class of colimits.  However, it can fail to admit all finite colimits, for essentially the same reason as when $n=1$: namely, some ostensibly "finite" colimits secretly involve infinitary processes.  In a 1-category, this manifests in the construction of arbitrary coequalizers and pushouts, where we must first _generate_ an equivalence relation by an infinitary process and then take its quotient.
 
-For 2-categories it is even easier to find counterexamples: the 1-pretopos $FinSet$ does in fact have all finite colimits, but the 2-pretopos $FinCat$ of finite categories (that is, finitely many objects and finitely many morphisms) does not have coinserters, coinverters, or coequifiers.  (The category $FPCat$ of finitely _presented_ categories does have finite colimits, but fails to have finite limits.)
+For 2-categories it is even easier to find counterexamples: the 1-pretopos $FinSet$ does in fact have all finite colimits, but the 2-pretopos [[FinCat]] of finite categories (that is, finitely many objects and finitely many morphisms) does not have coinserters, coinverters, or coequifiers.  (The category $FPCat$ of finitely _presented_ categories does have finite colimits, but fails to have finite limits.)
 
 However, it is natural to conjecture that just as in the case $n=1$, once an $n$-pretopos is also countably-coherent, it does become finitely cocomplete.  See [[colimits in an n-pretopos]].
 
