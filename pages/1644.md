@@ -45,9 +45,9 @@ We usually think of a groupoid as a special kind of category, but we can also th
 
 ## Examples
 
-Given a [[preorder|preordered set]], regarded as a category, taking its core is the same as partitioning the set into equivalence classes of the preorder.
+* Given a [[preorder|preordered set]], regarded as a category, taking its core is the same as partitioning the set into equivalence classes of the preorder.
 
-The combinatorial [[species]] is defined as a [[presheaf]], that is, a contravariant functor to Set, on the core of [[FinSet]].
+* A combinatorial [[species]] is defined as a [[presheaf]], that is, a contravariant functor to Set, on the core of [[FinSet]].
 
 Every groupoid has a contravariant functor to itself. It preserves the objects and sends the arrows to their inverses.
 
