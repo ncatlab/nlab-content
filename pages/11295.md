@@ -20,7 +20,26 @@
 
 _[[monad]]_ in the context of [[enriched category theory]].
 
+The Kleisli presentation of a $V$-enriched monad on a $V$-category $C$ comprises
 
+* for every object $X$, an object $T(X)$;
+
+* for every object $X$, a morphism $\eta_X:I \to C(X,T(X))$ in $V$;
+
+* for objects $X,Y,Z$, a morphism $\ast:C(X,T(Y))\to C(T(X),T(Y))$ in $V$;
+
+such that 
+
+* $f^\ast\circ \eta = f$,
+
+* $\eta^\ast = id$, and 
+
+* $
+g^\ast\circ f^\ast = (g^\ast f)^\ast$. 
+
+In the setting of [[monad (in computer science)]], $V=C$ is typically a [[cartesian closed category]] and $T$ needs to exist in the internal language of $V$, so $T$ is necessarily enriched. 
+
+If $C$ is $V$-enriched with copowers, e.g. if $V=C$, then $V$ acts on $C$. In this circumstance, a $V$-enriched monad on $C$ is the same thing as a $V$-strong monad on $C$. 
 
 ## Related entries
 
