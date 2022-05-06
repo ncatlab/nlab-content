@@ -519,8 +519,6 @@ $$(A \approx B) \approx (A \sqsubseteq B \wedge B \sqsubseteq A)$$
 
 However, ($A \subseteq B \wedge B \subseteq A$) is generally weaker. For example, $\top$ and $Comp$ have the same members (computations) but are not extensionally equal, or even isomorphic.
 
-## PER theory
-
 ## Constructive Propositions
 
 We define [[propositional truncation]] as quotienting a type down to a subsingleton:
@@ -548,11 +546,9 @@ In contrast, having $\not \not A$ imply $\lceil A \rceil$ is not known to be con
 
 ## More admissible/derived rules
 
-### Fun with subsets
-
 ### Bool eliminations
 
-Combining ($Bool \lt\!\!:\;\Comp$) with the above elimination rule for $Bool$, you get this alternative elimination rule, where the motive is a family on $Comp$:
+Combining ($Bool \lt\!\!:\;\Comp$) with the primitive elimination rule for $Bool$, you get this alternative elimination rule, where the motive is a family on $Comp$:
 
 $$\frac{\Gamma,x:Comp \vdash C\,type \qquad
 \Gamma \vdash c \Vdash C[tru/x] \qquad
@@ -574,7 +570,11 @@ In Nuprl, it's often possible to get induction rules without a premise showing t
 
 In the current CLF rules though, it doesn't seem possible to derive such rules. Also, including such strengthened induction rules as primitive doesn't seem compatible with the [current hybrid approach](#AdmissSem) based on admissible formal rules: the sanity check would require an unusual type validity rule, which would ruin the inversion lemma. Basically the Nuprl-style justification for omitting the motive premise is "too semantic" for the current hybrid approach.
 
+### Fun with subsets
+
 ### Subtyping (Conjectural)
+
+## PER theory
 
 ## CLF and Logical Frameworks {#CLFasLF}
 
