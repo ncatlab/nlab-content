@@ -27,7 +27,7 @@ $$
   [W,-] \colon \mathcal{C} \to \mathcal{C}
 $$
 
-given by forming the [[internal hom]] out of $W$, hence the "space of functions" out of $W$. This is sometimes called the _function monad_.  Its [[unit of a monad]] is given by sending values to [[constant functions]] with that value, and the monad operation is given by evaluating on the [[diagonal]].
+given by forming the [[internal hom]] out of $W$, hence the "space of functions" out of $W$. This is sometimes called the _function monad_.  Its [[unit of a monad|unit]] is given by sending values to [[constant functions]] with that value, and the monad operation is given by evaluating on the [[diagonal]].
 
 In the context of [[monads in computer science]] this monad is called the _reader monad_ or _environment monad_. It serves to write programs in which all operations may "read in" a state of type $W$ (an "environment").
 
@@ -35,21 +35,21 @@ In the context of [[monads in computer science]] this monad is called the _reade
 
 ### Algebras
 
-The reader monad does not generally arise from a [[monadic adjunction]]. [[algebra over a monad|Algebras]] may not be easily charcterizable. When $W$ is a 2 element set, algebras correspond to [[idempotent]] [[semigroups]], also known as _rectangular bands_.
+The reader monad does not generally arise from a [[monadic adjunction]]. [[algebra over a monad|Algebras]] may not be easily characterizable. When $W$ is a 2 element set, algebras correspond to [[idempotent]] [[semigroups]], also known as _rectangular bands_.
 
 ### Relation to the writer comonad and state monad
 
 In a [[cartesian closed category]]/[[type theory]] $\mathcal{C}$,
 the reader monad $[W,-] \colon \mathcal{C}\to \mathcal{C}$ is [[right adjoint]] to the [[writer comonad]] $W\times (-)$.
 
-Just as the writer comonad is canonically a monad when $W$ is a [[monoid]], so the reader monad is a comonad in that case, and then it is sometimes called the 'traced comonad'.
+Just as the writer comonad is canonically a monad when $W$ is a [[monoid]], so the reader monad is a comonad in that case, and then it is sometimes called the "traced comonad".
 
 The composite of writer comonad followed by [[reader monad]] is the [[state monad]].
 
 ### In terms of dependent type theory
  {#InTermsOfDependentTypeTheory}
 
-If the type system is even a [[locally Cartesian closed category]]/[[dependent type theory]] then for each type $W$ there is the [[base change]] [[adjoint triple]]
+If the type system is even a [[locally cartesian closed category]]/[[dependent type theory]] then for each type $W$ there is the [[base change]] [[adjoint triple]]
 
 $$
   \mathcal{C}_{/W}
