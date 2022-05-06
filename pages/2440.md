@@ -32,7 +32,7 @@ There are various equivalent ways to state the definition of super Lie algebras.
 ###### Definition
 
 A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
-to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]].
+to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]] (a _[[Lie algebra object]] in [[super vector spaces]]_).
 Hence this is
 
 1. a [[super vector space]] $\mathfrak{g}$;
