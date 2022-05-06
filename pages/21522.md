@@ -20,6 +20,11 @@ By _complex cohomology_ one usually means [[ordinary cohomology]] with [[complex
 
 Hence, with the pertinent conditions on the [[domain]] [[space]] $X$ satisfied, its complex cohomology $H^\bullet\big(-, \mathbb{C}\big)$ is what is computed by the [[Cech cohomology]] or [[singular cohomology]] or [[sheaf cohomology]] of $X$ with [[coefficients]] in $\mathbb{C}$.
 
+### Properties
+
+* [[de Rham theorem]]
+
+* [[PL de Rham theorem]]
 
 ## Related concepts
 
