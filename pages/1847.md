@@ -283,7 +283,7 @@ See at _[[colimits of paracompact Hausdorff spaces]]_.
 +-- {: .num_prop }
 ###### Proposition
 
-On a paracompact space $X$, every [[hypercover]] of finite height is refined by the [[Cech nerve]] of an ordinary [[open cover]].
+On a paracompact space $X$, every [[hypercover]] of finite height is refined by the [[Čech nerve]] of an ordinary [[open cover]].
 
 =--
 
