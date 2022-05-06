@@ -87,7 +87,7 @@ $$
 
 Because every [[set]] is the [[filtered colimit]] over its finite [[subsets]].
 
-Constructively we should take a little care over "finite". A set is the filtered colimit of its _Kuratowski_ finite subsets, but a Kuratowski finite set is the image of some finite cardinal $\{0,\ldots, n-1\}$. The issue is that, unless the superset has decidable equality, we are not necessarily able to eliminate duplicates from the list of elements in the Kuratowski finite subset.
+Constructively we should take a little care over what is meant by "[[finite set]]". A set is the filtered colimit of its _Kuratowski_ finite subsets, but a Kuratowski finite set is the image of some finite cardinal $\{0,\ldots, n-1\}$. The issue is that, unless the superset has decidable equality, we are not necessarily able to eliminate duplicates from the list of elements in the Kuratowski finite subset.
 We find that the set is still a filtered colimit of finite cardinals, though not necessarily subsets. The category $FinSet$ can be taken to have the natural numbers as its objects, with morphisms being functions between the corresponding finite cardinals.
 
 =--
