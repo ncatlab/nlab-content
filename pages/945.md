@@ -76,11 +76,10 @@ an abstract shape category $\mathrm{Sh}(C,D)$ which has the same objects as $C$,
 * [[dominant geometric morphism]]
 
 
-## Related pages
-
-* [[William Lawvere]], _John Isbell's Adequate Subcategories_ , TopCom **11** no.1 2006. ([link](http://at.yorku.ca/t/o/p/d/65.htm)) 
 
 ## References
+
+* [[William Lawvere]], _John Isbell's Adequate Subcategories_, TopCom **11** no.1 2006. ([link](http://at.yorku.ca/t/o/p/d/65.htm)) 
 
 * {#GabrielUlmer71} [[Pierre Gabriel|Peter Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_ , LNM **221** Springer Heidelberg 1971. (&#167; 3, pp.38-44)
 
