@@ -37,6 +37,13 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterot
 * [[Andreas Braun]], Callum R. Brodie, [[Andre Lukas]], _Heterotic Line Bundle Models on Elliptically Fibered Calabi-Yau Three-folds_, JHEP04 (2018) 087 ([arXiv:1706.07688](https://arxiv.org/abs/1706.07688))
 
 
+On [[heterotic line bundles]] seen in [[F-theory]] under [[duality between M/F-theory and heterotic string theory]]:
+
+* [[Andreas Braun]], Callum Brodie, [[Andre Lukas]], [[Fabian Ruehle]], _NS5-Branes and Line Bundles in Heterotic/F-Theory Duality_, Phys. Rev. D 98, 126004 (2018) ([arXiv:1803.06190](https://arxiv.org/abs/1803.06190))
+
+
+
+
 On computation of [[Yukawa couplings]] in [[heterotic string theory]]:
 
 * Stefan Blesneag, [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], [[Eran Palti]], _Matter Field Kähler Metric in Heterotic String Theory from Localisation_ ([arXiv:1801.09645](https://arxiv.org/abs/1801.09645))
