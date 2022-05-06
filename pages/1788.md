@@ -1,4 +1,5 @@
 
+$\varnothing$
 
 $$
   \begin{aligned}
