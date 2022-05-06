@@ -14,6 +14,10 @@ Graded monads are also known as **parametric** monads. The grading idea may also
 
 1. The grading may arise from a monoid $(M, \otimes, e)$. Then for some given category, $C$, we have a family of endofunctors, $T_m$, indexed by elements of $M$, with maps $\mu_{m, n, X}: T_m(T_n X) \to T_{m \otimes n} X$ and $\eta_{X}: X \to T_{e} X$, for $m, n$ in $M$ and $X$ in $C$. For instance, there is a $(\mathbb{N}_{\gt 0}, \times, 1)$-graded monad on sets where $T_n$ returns lists of length $n$ of elements of a set. 
 
+1. Any [[graded modality]].
+
+1. For graded monads relevant for probability theory see ([Perrone](#Perrone)).
+
 ## Related concepts
 
 * [[graded modality]]
@@ -26,3 +30,5 @@ Graded monads are also known as **parametric** monads. The grading idea may also
 * Soichiro Fujii, _A 2-Categorical Study of Graded and Indexed Monads_, ([arXiv:1904.08083](https://arxiv.org/abs/1904.08083))
 
 * Ulrich Dorsch, Stefan Milius and Lutz Schröder, _Graded Monads and Graded Logics for the Linear Time – Branching Time Spectrum_, ([arXiv:1812.01317](https://arxiv.org/abs/1812.01317))
+
+* {#Perrone} Paolo Perrone, _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](https://personal-homepages.mis.mpg.de/perrone/phdthesis.pdf))
