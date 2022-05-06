@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,10 +40,10 @@ The mesons in the first [[generation of fermions]], being [[bound states]] of [[
 
 * [[ω-meson]]
 
-As [[linear representations]] of the [[Lorentz group]] and [[isospin]] [[flavour (particle physics)|flavour]] group ([[Wigner classification]]) these first-generation meson [[field (physics)|fields]] are given as follows:
+As [[linear representations]] of the [[Lorentz group]] ([[Pin group]]) and [[isospin]] [[flavour (particle physics)|flavour]] group ([[Wigner classification]]) these first-generation meson [[field (physics)|fields]] are given as follows:
 
 \begin{imagefromfile}
-    "file_name": "FirstGenerationMesonFields.jpg",
+    "file_name": "FirstGenerationMesonFieldsPin.jpg",
     "width": 500,
     "unit": "px",
     "margin": {
@@ -52,6 +53,8 @@ As [[linear representations]] of the [[Lorentz group]] and [[isospin]] [[flavour
         "left": 20
     }
 \end{imagefromfile}
+
+Here $\mathbf{n}$ denotes an [[irreducible representation]] of [[dimension]] $n$, and the subscript ${}_{\mathrm{sgn}}$ indicates the one of the two irreps of that dimension which pick up an extra sign under [[orientation]]-reversal ($\mathbf{4}_{{}_{sgn}} = \mathbf{4} \otimes \mathbf{1}_{{}_{sgn}}$ for $\mathbf{1}_{{}_{sgn}}$ the [[sign representation]]).
 
 ### Second-generation mesons
 
@@ -171,4 +174,6 @@ Review
 [[!redirects vector meson]]
 [[!redirects vector mesons]]
 
+[[!redirects scalar meson]]
+[[!redirects scalar mesons]]
 
