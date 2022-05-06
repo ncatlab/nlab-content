@@ -27,10 +27,6 @@
 
 Where a _[[group]]_ may be thought of as a _group of symmetry transformations_ that [[isomorphism|isomorphically]] relates one [[object]] to itself (the _[[symmetries]]_ of one object, such as the [[isometries]] of a [[polyhedron]]) a _groupoid_ is a collection of symmetry transformations acting between possibly more than one object.
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
-</div>
-
 
 Hence a groupoid consists of a [[set]] of objects $x, y, z, \cdots$ and for each [[pair]] of objects $(x,y)$ there is a set of transformations, usually denoted by arrows
 
@@ -50,7 +46,14 @@ $$
   }
 $$
 
-such that this composition is [[associativity|associative]] and such that for each object $x$ there is identity transformation $x \overset{id_X}{\longrightarrow} x$ in that this is a [[neutral element]] for the composition of transformations, whenever defined.
+such that this composition is [[associativity|associative]] 
+
+\begin{imagefromfile}
+  "file_name": "AssociativityDiagram.png",
+  "width": 400
+\end{imagefromfile}
+
+and such that for each object $x$ there is identity transformation $x \overset{id_X}{\longrightarrow} x$ in that this is a [[neutral element]] for the composition of transformations, whenever defined.
 
 So far this structure is what is called a _[[small category]]_. What makes this a _([[small groupoid|small]]) groupoid_ is that all these transformations are to be "symmetries" in that they are [[invertible morphisms]] meaning that for each transformation $x \overset{f}{\longrightarrow} y$ there is a transformation the other way around $y \overset{f^{-1}}{\longrightarrow} x$ such that
 
@@ -70,7 +73,7 @@ An archetypical example of a groupoid is the [[fundamental groupoid]] $\Pi_1(X)$
 
 * [[objects]] are the points $x \in X$;
 
-* [[morphisms]] $x \overset{[\gamma]}{\longrightarrow} y$ are the [[homotopy relative boundary]]-[[equivalence classes]] $[\gamma]$ of [[paths]] $\gamma \colon [0,1] \to X$ in $X$, with $\gamma(0) = x$ and $\gamma(1) = y$;
+* [[morphisms]]  $x \overset{[\gamma]}{\longrightarrow} y$ are the [[homotopy relative boundary]]-[[equivalence classes]] $[\gamma]$ of [[paths]] $\gamma \colon [0,1] \to X$ in $X$, with $\gamma(0) = x$ and $\gamma(1) = y$;
 
 and [[composition]] is given, on representatives, by [[concatenation]] of paths. Here the class of the [[reverse path]] $\bar\gamma \;\colon\; t \mapsto \gamma(1-t)$ constitutes the inverse morphism, making this a groupoid.
 
