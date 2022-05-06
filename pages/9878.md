@@ -35,6 +35,8 @@ In [[perturbative quantum field theory]] the coupling constant (as well as [[Pla
 
 * [[gauge coupling unification]]
 
+* [['t Hooft coupling]]
+
 * [[string coupling constant]]
 
 
