@@ -78,9 +78,9 @@ where the first morphism is the [[unit of an adjunction|unit]] of the ([[Cartesi
 =--
 
 ### Via cyclic loop spaces
+ {#ViaCyclicLoopSpaces}
 
-
-> For more on the following see at _[[geometry of physics -- fundamental super p-branes]]_ the _[section on double dimensional reduction](geometry+of+physics+--+fundamental+super+p-branes#DoubleDimensionalReduction)_
+We discuss here a formalization of double dimensional reduction via cyclification adjunction ([FSS 16, section 3](#FSS16), [BMSS 18, section 2.2](#BMSS18)). For more see at _[[geometry of physics -- fundamental super p-branes]]_ the _[section on double dimensional reduction](geometry+of+physics+--+fundamental+super+p-branes#DoubleDimensionalReduction)_.
 
 +-- {: .num_prop #GeneralReduction}
 ###### Proposition
@@ -281,9 +281,23 @@ In particular
 * [[caloron correspondence]]
 
 ## References
+ {#References}
+
+Formalization of double dimensional reduction is discussed in [[rational homotolpy theory]] in
+
+* {#FSS16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of  _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, ATMP Volume 22 (2018) Number 5 ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+
+and in full [[homotopy theory]] in
+
+* {#BMSS18} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], Section 2.2 of  _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_ ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
+
+Exposition is in
+
+* {#Schreiber16} [[Urs Schreiber]], [Section 4](https://ncatlab.org/schreiber/show/Super+Lie+n-algebra+of+Super+p-branes#DoubleDimensionalReduction) of _[[schreiber:Super Lie n-algebra of Super p-branes]]_, talks at [Fields, Strings, and Geometry Seminar](http://www.surrey.ac.uk/maths/news/seminars/fsg/), Surrey, 5th-9th Dec. 2016
+
+
 
 ### Reduction of membrane to string
-
 
 The concept of double dimensional reduction was introduced, for the case of the reduction of the [[supermembrane]] in 11d to the [[Green-Schwarz superstring]] in 10d, in
 
