@@ -29,6 +29,8 @@ Here is a picture of a typical Jacobi diagram:
 <img src="https://ncatlab.org/nlab/files/JacobiDiagram.jpg" width="300">
 </center>
 
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
 If all the [[vertices]] sit on the circle, Jacobi diagrams specialize to [[chord diagrams]].
 
 Half the number of vertices of a Jacobi diagram is called its _order_
@@ -102,6 +104,8 @@ $$
 
 is called a _[[framed weight system]]_. See there for more.
 
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 ## Properties
 
 ### Relation to chord diagrams
@@ -113,6 +117,8 @@ is called a _[[framed weight system]]_. See there for more.
 <img src="https://ncatlab.org/nlab/files/ChordDiagModulo4TAreJAcobiDiagModuloSTU.jpg" width="840">
 </center>
 
+
+> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 ## Related concepts
 
