@@ -33,6 +33,8 @@ Pronunciation is just as in 'John is a walking almanac' or 'Eugene Levy is a wal
 
 * [[equivalence|Equivalences]] in a [[2-category]] are represented by the [[walking equivalence]].
 
+* The [[2-category]] [[Adj]] is the [[walking adjunction]].
+
 * The augmented/algebraist's [[simplex category]] is "the *walking [[monoid]]*" (in a [[monoidal category]]). That is to say: the simplex category is initial (in a 2-categorical sense) among monoidal categories equipped with a monoid object. Intuitively, it is [[the]] monoidal category that results if all one need be told about it is that it has a monoid object -- all the morphisms of the category are obtainable from the monoid structure by applying the operations of a monoidal category, and they are subject to no further relations beyond those implied by the monoid axioms. 
 
 * Similarly, the [[Lawvere theory]] of groups can be described as "the *walking [[group object|group]]*" (qua [[cartesian monoidal categories]]). This gives a good intuitive description: this Lawvere theory can be understood as the category (with finite products) that results if all one need be told about it is that it has a [[group object]]; the rest of the structure of this category can be deduced from this one fact. 
@@ -87,7 +89,7 @@ On the other hand, there are also cases where this argument does not apply.  For
 
 ## References
 
-* A [Caf&#233; post](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html) essentially about walking objects (among other things), including a [comment](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) that explains the terminology.
+* A [Café post](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html) essentially about walking objects (among other things), including a [comment](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) that explains the terminology.
 
 
 [[!redirects walking]]
