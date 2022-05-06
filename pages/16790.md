@@ -448,7 +448,7 @@ The observation that the resulting [[isometry group]] is the bosonic body of one
 
 A decent account is in 
 
-* {#AFFHS98} [[Bobby Acharya]], [[Jose Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, _Branes at conical singularities and holography_, Adv. Theor.Math. Phys.2:1249-1286, 1999 ([arXiv:hep-th/9808014](https://arxiv.org/abs/hep-th/9808014))
+* {#AFFHS98} [[Bobby Acharya]], [[Jose Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, _Branes at conical singularities and holography_, Adv. Theor. Math. Phys.2:1249-1286, 1999 ([arXiv:hep-th/9808014](https://arxiv.org/abs/hep-th/9808014))
 
 reviewed in
 
