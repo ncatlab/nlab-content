@@ -212,6 +212,11 @@ Disucssion of the [[duality between heterotic and type I string theory]] include
 
 * {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-16
 
+Discussion of [[string phenomenology]] in Horava-Witten theory:
+
+* {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_ ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892))
+
+
 
 [[!redirects Hořava-Witten theory]]
 [[!redirects Hořava–Witten theory]]
