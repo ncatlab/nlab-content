@@ -1,6 +1,34 @@
 
 $$
   \begin{aligned}
+  & 
+  \exp\big( 
+    \iota^\mu 
+    \otimes
+    \iota_{\mu}
+  \big)
+  \alpha 
+  \otimes 
+  dvol
+  & =
+  \exp\big( 
+    \iota^\mu 
+    \otimes
+    \iota_{\mu}
+  \big)
+  \alpha_{ \mu_1 \cots \mu_p } 
+  d x^{\mu_1 } \wedge \cdots d x^{\mu_p} 
+  \otimes 
+  \epsilon_{\nu_1 \cdots \nu_d}
+  d x^{\nu_1} \wedge \cdots \wedge d x^{\nu_d}
+  \\
+  & =
+  \end{aligned}
+$$
+
+
+$$
+  \begin{aligned}
     \star_4 d \star_4 d f
     & = 
     \star_4 d \star_4 \partial_\mu f d x^\mu
@@ -10,6 +38,15 @@ $$
     (\partial^{\mu_1} f) d x^{\mu_2 } \wedge d x^{\mu_3} \wedge d x^{\mu_4}
     \\
     & =
+    \star_4 \epsilon_{\mu_1 \mu_2 \mu_3 \mu_4} 
+    \partial_{\nu}(\partial^{\mu_1} f)
+    \epsilon^{ \nu \mu_2 \mu_3 \mu_4 }
+    dvol
+    \\
+    & =
+    \star_4 
+    (\partial_\nu \partial^\nu f)
+    dvol
   \end{aligned}
 $$
 
@@ -122,7 +159,7 @@ $$
   \;\;\;
   \left\{
     \begin{aligned}
-      E \, B & =  \star_{{}_4} d A
+      E \, B & =  - \star_{{}_4} d A
       \\
       \star_{{}_4} d B & = - E \, (A + J^{el})
     \end{aligned}
@@ -135,7 +172,7 @@ $$
       B & = \frac{1}{E} \star_{{}_4} d (A + J^{el})
       \\
       \star_{{}_4} d \star_{{}_4} d (A + J^{el}) & = 
-      - E^2 ( A + J^{el} )
+      + E^2 ( A + J^{el} )
     \end{aligned}
   \right.
 $$
