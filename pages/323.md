@@ -313,7 +313,7 @@ The [[saturated class of limits|saturation]] of the class of pullbacks is the cl
 
 ### Pullback functor
 
-If $f : X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, there is an induced pullback [[functor]] $f^* : C/Y \to C/X$ called [[base change]].
+If $f : X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, there is an induced pullback [[functor]] $f^* : C/Y \to C/X$, sometimes also called [[base change]].
 
 ## Related concepts
 
