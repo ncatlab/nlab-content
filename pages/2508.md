@@ -30,6 +30,8 @@ This entry contains material related to the textbook
 
   World Scientific, 1991
 
+  [doi:10.1142/0224](https://doi.org/10.1142/0224)
+
 on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fré formulation of supergravity]], based on
 
 * {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
