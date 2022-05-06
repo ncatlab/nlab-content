@@ -31,7 +31,7 @@ There are two versions of this grouping in use:
 
 1. In "2-flavor"-[[chiral perturbation theory]] with [[SU(2)]] [[chiral symmetry]] 
 
-* the [[up quark]] and [[down quark]] are regarded as light, 
+* the [[up quark]] and [[down quark]] are regarded as light (i.e. the [[generation of fundamental particles|first generation quarks]])
 
 * the [[strange quark]], [[charm quark]], [[bottom quark]] and [[top quark]] are regarded as heavy.
 
