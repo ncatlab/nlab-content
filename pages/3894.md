@@ -545,21 +545,37 @@ Discussion of $G$-structures in [[supergeometry]] includes
 
 ### In supergravity 
 
-Discussion in [[supergravity]] and [[superstring theory]]:
+Discussion of [[G-structures]] in [[supergravity]] and [[superstring theory]]:
+
+In relation to [[torsion constraints in supergravity]]:
+
+* {#Lott90} [[John Lott]], _The Geometry of Supergravity Torsion Constraints_, Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
 
 In relation to [[BPS states]]/partial reduction of [[supersymmetry]]:
 
 * [[Jerome Gauntlett]], Dario Martelli, Stathis Pakis, [[Daniel Waldram]], _G-Structures and Wrapped NS5-branes_, Commun.Math.Phys. 247 (2004) 421-445 ([arxiv:hep-th/0205050](https://arxiv.org/abs/hep-th/0205050))
 
+and specifically so for [[M-theory on 8-manifolds]]:
+
 * Cezar Condeescu, [[Andrei Micu]], [[Eran Palti]], _M-theory Compactifications to Three Dimensions with M2-brane Potentials_, JHEP 04 (2014) 026 ([arxiv:1311.5901](https://arxiv.org/abs/1311.5901))
 
+* Daniël Prins, [[Dimitrios Tsimpis]], _IIA supergravity and M-theory on manifolds with $SU(4)$ structure_, Phys. Rev. D 89.064030 ([arXiv:1312.1692](https://arxiv.org/abs/1312.1692))
+
+* [[Elena Babalic]], [[Calin Lazaroiu]], _Singular foliations for M-theory compactification_, JHEP 03 (2015) 116 ([arXiv:1411.3497](https://arxiv.org/abs/1411.3497))
+
+* [[Elena Babalic]], [[Calin Lazaroiu]], _Foliated eight-manifolds for M-theory compactification_, JHEP 01 (2015) 140 ([arXiv:1411.3148](https://arxiv.org/abs/1411.3148))
+
+* C. S. Shahbazi, _M-theory on non-Kähler manifolds_, JHEP 09 (2015) 178 ([arXiv:1503.00733](https://arxiv.org/abs/1503.00733))
+
+* [[Elena Babalic]], [[Calin Lazaroiu]], _The landscape of $G$-structures in eight-manifold compactifications of M-theory_, JHEP 11 (2015) 007 ([arXiv:1505.02270](https://arxiv.org/abs/1505.02270))
+
+* [[Elena Babalic]], [[Calin Lazaroiu]], _Internal circle uplifts, transversality and stratified $G$-structures_, JHEP 11 (2015) 174 ([arXiv:1505.05238](https://arxiv.org/abs/1505.05238))
 
 
-* {#Papadopoulos18} [[George Papadopoulos]], _Geometry and symmetries of null G-structures_ ([arXiv:1811.03500](https://arxiv.org/abs/1811.03500))
+See also
 
-In relation to [[torsion constraints in supergravity]]:
+* {#Papadopoulos18} [[George Papadopoulos]], _Geometry and symmetries of null $G$-structures_ ([arXiv:1811.03500](https://arxiv.org/abs/1811.03500))
 
-* [Lott 90](#Lott90)
 
 ### In complex geometry
 
