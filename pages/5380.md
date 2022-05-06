@@ -74,7 +74,13 @@ We discuss how complex projective space for $k$ the [[real numbers]] or the [[co
 
   * $\mathbb{C}P^1$ is called the [[Riemann sphere]].
 
+similarly
+
+* $\mathbb{H}P^n$ is called _[[quaternionic projective space]]_.
+
 For more see at these entries.
+
+\linebreak
 
 +-- {: .num_defn #TopologicalProjectiveSpace}
 ###### Definition
