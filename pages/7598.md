@@ -153,24 +153,23 @@ The colimit over such a diagram is a homotopy [[coequalizer]].
 
 Let $\mathcal{C} = $ [[sSet]]${}_{Quillen}$ be the standard [[model structure on simplicial sets]]. Then $[\mathcal{D}, \mathcal{C}]_{proj}$ is the projective [[model structure on simplicial presheaves]]. 
 
-For the following see at _[[model structure on simplicial presheaves]]_ the section _[Cofibrant objects](model+structure%20on%20simplicial%20presheaves#CofibrantObjects)_ for more details (due to [[Dan Dugger]]).
+For the following see at _[[model structure on simplicial presheaves]]_ the section _[Cofibrant objects](model+structure%20on%20simplicial%20presheaves#CofibrantObjects)_ for more details (due to [[Dan Dugger]], see also [Richard Garner's answer on
+MathOverflow](https://mathoverflow.net/questions/97690/necessary-conditions-for-cofibrancy-in-global-projective-model-structure-on-simp/127187#127187)).
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-A sufficient condition for a diagram $X : \mathcal{D} \to sSet$ to be projectively cofibrant is:
+A necessary and sufficient condition for a diagram $X : \mathcal{D} \to sSet$ to be projectively cofibrant is:
 
-1. $X$ is degreewise a coproducts of [[representable functor|representables]]
-
+1. $X$ is degreewise a coproduct of [[retracts]] of [[representable functor|representables]]
    $$
     X_n = \coprod_{i} U^n_i \;\;\;\;  \{U^n_i \in \mathcal{C} \hookrightarrow [\mathcal{C}, Set]\}
    $$
 
-1. the degenerate cells in each degree form a separate [[coproduct]] summand;
-
+1. Each simplicial level, as a presheaf of sets, can be presented as the [[coproduct]] of two presheaves of sets, one of which is the presheaf of degenerate simplices:
    $$
-      X_n = NonDegenerate \coprod Degenerate
+      X_n = NonDegenerate_n \coprod Degenerate_n
       \,.
    $$
 
@@ -187,12 +186,10 @@ A _[[split hypercover]]_ is of this form.
 ###### Proposition
 
 For $X : \mathcal{D} \to sSet$ any simplicial presheaf, a cofibrant [[resolution]] is given by
-
 $$
   (Q X)_n : \coprod_{U_0 \to \cdots \to U_n \to X_n} U_0
   \,, 
 $$
-
 where the coproduct runs over all sequences of morphisms between representables $U_i$, as indicated.
 
 =--
