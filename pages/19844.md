@@ -637,6 +637,8 @@ Discussion of possible $b \to d$ anomalies:
 
 Beyond their possible common origin in [[leptoquarks]], further possible joint explanation of [[flavour anomalies]] and the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]]:
 
+* Geneviève Bélanger, Cédric Delaunay, Susanne Westhoff, _A Dark Matter Relic From Muon Anomalies_,  Phys. Rev. D 92, 055021 (2015) ([arXiv:1507.06660](https://arxiv.org/abs/1507.06660))
+
 * {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
 
 * Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
@@ -651,6 +653,7 @@ Beyond their possible common origin in [[leptoquarks]], further possible joint e
 * K. S. Babu, P. S. Bhupal Dev, Sudip Jana, Anil Thapa, _Unified Framework for $B$-Anomalies, Muon $g-2$, and Neutrino Masses_ ([arXiv:2009.01771](https://arxiv.org/abs/2009.01771))
 
 
+* Sang Quang Dinh, Hieu Minh Tran, _Muon $g-2$ and semileptonic $B$ decays in BDW model with gauge kinetic mixing_ ([arXiv:2011.07182](https://arxiv.org/abs/2011.07182))
 
 
 
