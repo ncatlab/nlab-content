@@ -1338,8 +1338,6 @@ The modern picture of effective low-energy QFT goes back to
 
 * L. P. Kadanoff, _Scaling laws for Ising models near $T_c$_ , Physica 2 (1966);
 
-
-
 * {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena 1. Renormalization  group  and  the  Kadanoff  scaling  picture_ , , Physical review B 4(9) (1971) ([doi:10.1103/PhysRevB.4.3174](https://doi.org/10.1103/PhysRevB.4.3174))
 
 * {#Wilson71b} [[Kenneth Wilson]], _Renormalization group and critical phenomena. 2. Phase space cell analysis of critical behavior_, Phys. Rev. B4 , 3184 (1971) ([doi:10.1103/PhysRevB.4.3184](https://doi.org/10.1103/PhysRevB.4.3184))
@@ -1348,10 +1346,14 @@ The modern picture of effective low-energy QFT goes back to
 
 * {#Polchinski84} [[Joseph Polchinski]], _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231, 1984 ([pdf](http://max2.physics.sunysb.edu/~rastelli/2016/Polchinski.pdf))
 
-
 * {#Leutwyler94} H. Leutwyler, Ann. Phys., NY 235 (1994) 165.
 
-Review includes
+Early history:
+
+* [[Steven Weinberg]], _On the Development of Effective Field Theory_ ([arXiv:2101.04241](https://arxiv.org/abs/2101.04241))
+
+
+Review:
 
 * {#Weinberg09} [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
 
@@ -1404,7 +1406,6 @@ Notably the theory of [[gravity]] based on the standard [[Einstein-Hilbert actio
 
 
 * {#AtanceCortes96} Mario Atance, Jose Luis Cortes, _Effective Field Theory of pure Gravity and the Renormalization Group_ ([arXiv:hep-th/9604076](http://arxiv.org/abs/hep-th/9604076))
-
 
 and in the context of [[perturbation theory]] in [[AQFT]]:
 
