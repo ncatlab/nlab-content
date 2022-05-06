@@ -37,7 +37,7 @@ Let $F : C \rightleftarrows D : G$ be a [[2-adjunction]] with unit $\eta: 1_C \t
 
 7. The induced equality $F G \epsilon . F \eta G$ is the counit of an adjunction $F G \epsilon \dashv F \eta G$.
 
-8. The induced 2-comonad $F G$ is lax-idempotent.
+8. The induced 2-comonad $F G$ is colax-idempotent.
 
 9. There is a modification $\delta : \epsilon F G \to F G \epsilon$ such that $\epsilon \circ \delta = 1$ and $\delta \circ (F\eta G) = 1$.
 
@@ -61,7 +61,7 @@ The two triangle identities for this putative adjunction follow from the two axi
 
 Note that when $C$ and $D$ are locally [[discrete category|discrete]], hence just 1-categories, this reduces to the usual characterization of [[idempotent adjunctions]].
 
-In contrast to that situation, however, the lax-idempotent situation is of interest even when the adjunction is monadic or comonadic.  In the monadic case, the implication $3\Rightarrow 8$ means that the induced 2-comonad on the 2-category of algebras for a lax-idempotent 2-monad is again lax-idempotent.  Its (pseudo) coalgebras are the [[continuous algebras]] for the original 2-monad.
+In contrast to that situation, however, the lax-idempotent situation is of interest even when the adjunction is monadic or comonadic.  In the monadic case, the implication $3\Rightarrow 8$ means that the induced 2-comonad on the 2-category of algebras for a lax-idempotent 2-monad is colax-idempotent.  Its (pseudo) coalgebras are the [[continuous algebras]] for the original 2-monad.
 
 ## References
 
