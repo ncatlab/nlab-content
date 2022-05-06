@@ -103,7 +103,7 @@ Detailed review is in [Maakestad 06, Thm. 4.9](#Maakestad06)
 
 Review and exposition:
 
-* {#Maakestad06} Helge Maakestad, _Notes on the Chern-character_ ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060))
+* {#Maakestad06} Helge Maakestad, _Notes on the Chern-character_, Journal of Generalized Lie Theory and Applications, 2017, 11:1 ([arXiv:math/0612060](https://arxiv.org/abs/math/0612060), [doi:10.4172/1736-4337.100025](https://www.hilarispublisher.com/open-access/notes-on-the-cherncharacter-.pdf))
 
 
 [[!redirects the Adams operations are compatible with the Chern character map]]
