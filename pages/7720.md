@@ -45,6 +45,11 @@ $$
 
 ([Hitchin, section 4.5](#Hitchin))
 
+
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 ## Related concepts
 
 * [[Calabi-Yau object]]
