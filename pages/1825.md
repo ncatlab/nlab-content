@@ -42,20 +42,6 @@ This is naturally also a [[smooth manifold]] of [[dimension]] $n$, with the [[sm
 
 =--
 
-+-- {: .num_remark #nSphereAsCosetSpace}
-###### Remark
-
-The n-spheres are [[coset spaces]] of [[orthogonal groups]]
-
-$$
-  S^n \simeq O(n+1)/O(n)
-  \,.
-$$
-
-For fix a [[unit vector]] in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
-
-=--
-
 
 
 ### Infinite dimensional spheres 
@@ -98,6 +84,51 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 * These spheres, or rather their underlying [[topological spaces]] or [[simplicial set]]s, are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
 
 * [[positive dimension spheres are H-cogroup objects]], and this is the origin of the [[group]] structure on [[homotopy groups]]). 
+
+
+### Coset space structure
+
+
+
++-- {: .num_prop #nSphereAsCosetSpace}
+###### Proposition
+
+The n-spheres are [[coset spaces]] of [[orthogonal groups]]
+
+$$
+  S^n \;\simeq\; O(n+1)/O(n)
+  \,.
+$$
+
+Similarly for the corresponding [[special orthogonal groups]]
+
+$$
+  S^n \;\simeq\; SO(n+1)/SO(n)
+$$
+
+and [[spin groups]]
+
+$$
+  S^n \;\simeq\; Spin(n+1)/Spin(n)
+$$
+
+and [[pin groups]]
+
+$$
+  S^n \;\simeq\; Pin(n+1)/Pin(n)
+  \,.
+$$
+
+
+
+
+
+
+=--
+
+
+For fix a [[unit vector]] in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
 
 ### Parallelizability
 
