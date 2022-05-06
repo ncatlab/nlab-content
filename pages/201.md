@@ -186,7 +186,7 @@ is a [[bimonoidal category]] (and can be made a [[bipermutative category]]).
 
 =--
 
-It's also easy to see that under direct sum or tensor product, Ab can be turned into a symmetric monoidal category by equipping it with the appropriate braiding map. For example, under $\oplus$, the braiding is $\sigma_{A, B}(a, b) = (b, a)$.
+It's also easy to see that under direct sum or tensor product, Ab can be turned into a [[symmetric monoidal category]] by equipping it with the appropriate braiding map. For example, under $\oplus$, the braiding is $\sigma_{A, B}(a, b) = (b, a)$.
 
 +-- {: .num_remark }
 ###### Remark
@@ -199,7 +199,7 @@ A [[monoid]] [[internalization|internal to]] $(Ab, \otimes, \mathbb{Z})$ is equi
 ###### Remark
 
 A [[monoid]] in $(Ab, \oplus, 0)$ is equivalently just an abelian group again (since $\oplus$ is the [[coproduct]] in $Ab$, so every object has a unique monoid structure with respect to it).
-=--
+
 =--
 
 ### Enrichment over $Ab$
