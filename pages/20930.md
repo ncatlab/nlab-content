@@ -32,7 +32,7 @@ The following [[mathematical structures]] are induced from the data of metric Li
 
 See there for more.
 
-[[!redirects metric Lie algebras]]
+[[!redirects metric Lie representations]]
 
 [[!redirects orthogonal representation of a metric Lie algebra]]
 [[!redirects orthogonal representations of a metric Lie algebra]]
