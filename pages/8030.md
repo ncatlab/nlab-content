@@ -88,7 +88,7 @@ The problem of generic in-stability of moduli of pure gravity KK-compactificatio
 
 * {#Penrose03} [[Roger Penrose]], section 10.3 in _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire:608935](https://inspirehep.net/record/608935))
 
-A rigorous [[proof]] that, in contrast, even vacuum spacetimes are stable under KK-compactification is claimed (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-asympototics) in
+A rigorous [[proof]] that, in contrast, even vacuum spacetimes are stable under KK-compactification is claimed (for $\geq 10$-dimensions with a [[Killing spinor]] on the [[compact topological space|compact]] [[fiber]] and for [[Schwarzschild spacetime|Schwarzschild]]-asymptotics) in
 
 * {#AndersonBlueWyattYau20} [[Lars Andersson]], [[Pieter Blue]], [[Zoe Wyatt]], [[Shing-Tung Yau]], _Global stability of spacetimes with supersymmetric compactifications_ ([arXiv:2006.00824](https://arxiv.org/abs/2006.00824))
 
