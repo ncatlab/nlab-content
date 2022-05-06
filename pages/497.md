@@ -73,6 +73,8 @@ This is related to the above valid statement by a [[double-negation shift]]; and
 
 * [[De Morgan law]]
 
+* [[Cantor-Schroeder-Bernstein theorem]]
+
 ## References
 
 ### General
