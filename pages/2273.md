@@ -57,7 +57,7 @@ The coadjoint orbits are the [[symplectic leaves]] of that structure; hence each
 
 ## References
 
-* B. C., _The Structure of the Space of Coadjoint Orbits of an Exponential Solvable Lie Group_, ransactions of the American Mathematical Society
+* Bradley N. Currey, _The Structure of the Space of Coadjoint Orbits of an Exponential Solvable Lie Group_, ransactions of the American Mathematical Society
 Vol. 332, No. 1 (Jul., 1992), pp. 241-269, ([JSTOR](http://www.jstor.org/stable/2154031))
 
 
