@@ -41,6 +41,8 @@ The [[complexification]] of $\mathfrak{su}(2)$ is the [[special linear Lie algeb
 
 * [[fuzzy 2-sphere]]
 
+  [[fuzzy funnel]], [[Dp-D(p+2)-brane bound state]]
+
 * [[SU(2)]]
 
 ## References
