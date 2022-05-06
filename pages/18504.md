@@ -39,7 +39,7 @@ Note in particular that we do *not* require the morphisms of the category to be 
 
 * The category [[Rel]] of sets and relations (with cartesian product of sets as the monoidal product) is a hypergraph category, with the Frobenius algebra on $X$ given by the "deleting and copying" [[comonoid]] $\{ (x, *) \mid x \in X \}$, $\{ (x, (x, x)) | x \in X \}$ together with its [[opposite relation|opposite]].
 
-* More generally, categories of [[span|spans]], [[cospan|cospans]], [[relation|relations]] and [[corelation|corelations]] in any category (with the appropriate structure) are hypergraph categories.
+* More generally, categories of [[span|spans]], [[cospan|cospans]], [[relation|relations]] and [[corelation|corelations]] in any category (with the appropriate structure) can be made into hypergraph categories by choosing the correct monoidal structure.  For example, the category [[FinRel]] is hypergraph when this category is given the $\times$ monoidal structure (beware: this is not the categorical product in $FinRel$; it comes from cartesian product in [[FinSet]]).  The same is probably true of relations in any [[regular category]].    The category $FinRel$ is not hypergraph when given the $+$ monoidal structure.   The category [[FinCorel]] is hypergraph when this category is given the $+$ monoidal structure (coming from disjoint unions).
 
 * Categories of [[decorated cospan|decorated cospans]] and decorated corelations are hypergraph categories.
 
