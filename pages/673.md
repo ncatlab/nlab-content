@@ -27,7 +27,9 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints/Notes
 
-* _The construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title)
+* _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Joint with Ben Nagy.
+
+* _The formal construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title)
 
 * _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
@@ -35,7 +37,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Comments on Mochizuki’s 2018 Report_ (2018) doi:[10.25909/5c5ce1fda4b7c](https://doi.org/10.25909/5c5ce1fda4b7c), ([blog post](https://thehighergeometer.wordpress.com/2018/09/28/on-mochiukis-report-on-discussions/))
 
-* _(Re)constructing code loops_, [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). Joint with Ben Nagy.
+
 
 ### Papers
 
