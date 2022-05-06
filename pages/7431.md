@@ -1,4 +1,10 @@
-[[!redirects relatively k-compact morphism in an (infinity,1)-topos]]
+# Relatively compact morphisms
+
+* table of contents
+{: toc}
+
+## Definition
+
 +-- {: .num_defn #RelativelyKappaCompact}
 ###### Definition
 
@@ -6,6 +12,7 @@ For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **relativ
 
 =--
 
+## Characterization of $(\infty,1)$-toposes
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -64,5 +71,6 @@ it follows that $X$ is $\kappa$-compact if $Y$ is.
 
 =--
 
-
 This is due to [[Charles Rezk]]. The statement appears as [[Higher Topos Theory|HTT, theorem 6.1.6.8]].
+
+[[!redirects relatively k-compact morphism in an (infinity,1)-topos]]
