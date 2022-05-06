@@ -27,6 +27,8 @@
 
     * [[D2-D6 brane bound state]]
 
+    * [[D3-D7 brane bound state]]
+
     * [[D4-D8 brane bound state]]
 
 * Dp-D(p+6) brane bound state
