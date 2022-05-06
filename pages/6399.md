@@ -45,6 +45,9 @@ and related to the [[Pauli exclusion principle]]:
 
 * [[Constantin Bachas]], [[Michael Green]], _A Classical Manifestation of the Pauli Exclusion Principle_, JHEP 9801 (1998) 015 ([arXiv:hep-th/9712187](https://arxiv.org/abs/hep-th/9712187))
 
+On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for [[D-branes]]:
+
+* [[Constantin Bachas]], P. Bain, [[Michael Green]], _Curvature terms in D-brane actions and their M-theory origin_, JHEP 9905:011, 1999 ([arXiv:hep-th/9903210](https://arxiv.org/abs/hep-th/9903210))
 
   
 
