@@ -173,6 +173,8 @@ further review:
 
 Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
 
+* Najib Idrissi, _The Lambrechts-Stanley Model of Configuration Spaces_, Invent. Math, 2018 ([arXiv:1608.08054](https://arxiv.org/abs/1608.08054), [doi:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9))
+
 * {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
 
 * {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], Najib Idrissi, [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
