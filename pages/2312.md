@@ -282,7 +282,7 @@ By the nature of spectral sequences induced from exact couples ([this prop.](exa
 
 A _multiplicative structure_ on a [[generalized (Eilenberg-Steenrod) cohomology]] theory is the structure of a [[ring spectrum]] on the [[spectrum]] that [[Brown representability theorem|represents]] it.
 
-e.g. ([Tamaki-Kono 06, appendix C](#TamakiKono06), [Lurie 10, lecture 4](#Lurie10))
+(e.g. [Tamaki-Kono 06, appendix C](#TamakiKono06), for more details see [here](suspension+spectrum#SmashMonoidalDiagonals)).
 
 In particular every [[E-∞ ring]] is a [[ring spectrum]], hence represents a multiplicative cohomology theory, but the converse is in general false.
 
@@ -324,7 +324,6 @@ See also
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
-* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ 2010, Lecture 4 _[[complex oriented cohomology theory|Complex-oriented cohomology theories]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
 
 See also
 
