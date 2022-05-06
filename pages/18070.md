@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -192,6 +191,47 @@ $$
 
 ### Unordered labeled points
 
++-- {: .num_defn #UnorderedLabeledFixedn}
+###### Definition
+
+For $X$ a [[smooth manifold]] and $k \in \mathbb{N}$, the space of _unordered configurations of points in $X$ with labels in $S^k$_ is
+
+\[
+  \label{UnorderedLabeledFixednCOnfigurationSpace}
+  Conf_n\big(X, S^k \big)
+  \;\coloneqq\;
+  Conf_n\big(X\big) \underset{Sym(n)}{\times}
+  \big(
+    S^k 
+  \big)^n
+\]
+
+=--
+
+For $k \in \mathbb{N}$, consider the [[n-sphere|k-sphere]] as a [[pointed topological space]], with the base point regarded as the "vanishing label".
+
++-- {: .num_defn}
+###### Definition
+
+For $X$ a [[smooth manifold]] and $k \in \mathbb{N}$, the space of _unordered configurations of points in $X$ with labels in $S^k$ and vanishing at vanishing label value_ is the [[quotient space]] 
+
+\[
+  \label{UnorderedLabeledCOnfigurationSpace}  
+  Conf
+  \big( 
+    X,
+    S^k
+  \big)
+  \;\coloneqq\;
+  \Big(
+    \underset{n \in \mathbb{N}}{\sqcup}
+    Conf_n\big(X,S^k \big)
+  \Big)/\sim
+\]
+
+of the [[disjoint union]] of all unordred labeled $n$-point configuration spaces (eq:UnorderedLabeledFixednCOnfigurationSpace) by the [[equivalence relation]] which regards points with vanishing label as not present. 
+
+=--
 
 
 +-- {: .num_defn #ConfigurationSpacesOfnPoints}
@@ -404,17 +444,56 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 
 
 
-### Relation to iterated loop spaces of iterated suspensions
+### Cohomotopy charge map
+
+
+The _Cohomotopy charge map_ is the [[function]] that assigns to a [[configuration space of points|configuration of points]] their total [[charge]] as measured in [[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
+
+This is alternatively known as the "electric field map" ([Salvatore 01](#Salvatore01) following [Segal 73, Section 1](#Segal73), see also [Knudsen 18, p. 49](#Knudsen18)) or the "scanning map" ([Kallel 98](#Kallel98)).
+
+
+For $D \in \mathbb{N}$ the _Cohomotopy charge map_ is the  [[continuous function]]
+
+\[
+  \label{CohomotopyChargeMapOnEuclideanSpace}
+  Conf\big( \mathbb{R}^D \big)
+  \overset{cc}{\longrightarrow}
+  \mathbf{\pi}^D
+  \Big( 
+    \big( \mathbb{R}^D \big)^{cpt}
+  \Big)
+  =
+  Maps^{\ast/\!}\Big( \big(\mathbb{R}^D\big)^{cpt} , S^D\big)
+  =
+  \Omega^{D} S^D
+\]
+
+from the [[configuration space of points]] in the [[Euclidean space]] $\mathbb{R}^D$ to the $D$-[[Cohomotopy]] [[cocycle space]] [[vanishing at infinity]] on the [[Euclidean space]], which is equivalently the [[space of maps|space of pointed maps]] from the [[one-point compactification]] $S^D \simeq \big( \mathbb{R}^D \big)$ to itself, and hence equivalently the $D$-fold [[iterated based loop space]] of the [[n-sphere|D-sphere]]), which sends a configuration of points in $\mathbb{R}^D$, each regarded as carrying unit [[charge]] to their total [[charge]] as measured in  [[Cohomotopy]]-[[generalized cohomology|cohomology theory]] ([Segal 73, Section 3](#Segal73)).
+
+The construction has evident generalizations to other manifolds than just Euclidean spaces, to spaces of labeleed configurations and to [[equivariant Cohomotopy]]. The following graphics illustrates the Cohomotopy charge map on [[G-space]] [[tori]] for $G = \mathbb{Z}_2$ with values in $\mathbb{Z}_2$-[[equivariant Cohomotopy]]:
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=24">
+<img src="https://ncatlab.org/schreiber/files/EquivariantCohomotopyTadpoleCancellationN.jpg" width="700">
+</a>
+</center>
+
+> graphics grabbed from [SS 19](Cohomotpy+charge+map#SatiSchreiber19)
+
+
+
+
+#### Relation to iterated loop spaces of iterated suspensions
  {#LoopSpacesOfSuspensions}
 
+In some situations the [[Cohomotopy charge map]] is a [[weak homotopy equivalence]] and hence exhibits, for all purposes of [[homotopy theory]], the [[Cohomotopy]] [[cocycle space]] of Cohomotopy charges as an equivalent reflection of the [[configuration space of points]]:
 
-#### General
 
 +-- {: .num_prop #GroupCompletionOfConfigurationSpaceIsIteratedBasedLoopSpace}
 ###### Proposition
 **([[group completion]] on [[configuration space of points]] is [[iterated based loop space]])**
 
-The [[Cohomotopy charge map]]
+The [[Cohomotopy charge map]] (eq:CohomotopyChargeMapOnEuclideanSpace)
 
 $$
   Conf
@@ -445,6 +524,30 @@ $$
 
 ([Segal 73, Theorem 1](#Segal73))
 
+
++-- {: .num_prop #CohomotopyChargeMapIsEquivalenceOnSPhereLabeledConfihgurationSpace}
+###### Proposition
+**([[Cohomotopy charge map]] is [[weak homotopy equivalence]] on sphere-labeled [[configuration space of points]])**
+
+For $D, k \in \mathbb{N}$ with $k \geq 1$, the [[Cohomotopy charge map]] (eq;CohomotopyChargeMapOnEuclideanSpace)
+
+$$
+  Conf
+  \big(
+    \mathbb{R}^D,
+    S^k
+  \big)
+  \underoverset{\simeq}{cc}{\longrightarrow}
+  \Omega^D S^{D + k}
+$$
+
+is a [[weak homotopy equivalence]] from the configuration space (eq:UnorderedLabeledCOnfigurationSpace) of unordered points with labels in $S^k$ and vanishing at the base point of the label space to the $D$-fold [[iterated loop space]] of the [[n-sphere|D+k-sphere]].
+
+=--
+
+([Segal 73, Theorem 3](#Segal73))
+
+More generally:
 
 
 +-- {: .num_prop #ScanningMapEquivalenceOverCartesianSpace}
@@ -571,10 +674,10 @@ The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]
 $\,$
 
 
-### Relation to twisted Cohomotopy
+#### In twisted Cohomotopy
  {#RelationToTwistedCohomotopy}
 
-The May-Segal theorem \ref{ScanningMapEquivalenceOverCartesianSpace} generalizes from [[spheres]] to [[closed manifold|closed]] [[smooth manifolds]] if at the same time one passes from plain [[Cohomotopy]] to [[twisted Cohomotopy]], twisted, via the [[J-homomorphism]], by the [[tangent bundle]]:
+The May-Segal theorem \ref{ScanningMapEquivalenceOverCartesianSpace} generalizes from [[Euclidean space]] to [[closed manifold|closed]] [[smooth manifolds]] if at the same time one passes from plain [[Cohomotopy]] to [[twisted Cohomotopy]], twisted, via the [[J-homomorphism]], by the [[tangent bundle]]:
 
 +-- {: .num_prop #ScanningMapEquivalenceOverClosedManifold}
 ###### Proposition
@@ -653,7 +756,7 @@ Let
 
 1. $1 \leq k \in \mathbb{N}$ a [[positive number|positive]] [[natural number]].
 
-Then the [[scanning map]] constitutes a [[weak homotopy equivalence]]
+Then the [[Cohomotopy charge map]] constitutes a [[weak homotopy equivalence]]
 
 $$
   \underset{
@@ -673,7 +776,7 @@ $$
   {\simeq}
   {
     \color{blue}
-    \text{scanning map}
+    \text{Cohomotopy charge map}
   }
   {\longleftarrow}
   \underset{
@@ -1060,7 +1163,7 @@ General accounts:
 
   (in [[geometry]] and [[topology]])
 
-* [[Ben Knudsen]], _Configuration spaces in algebraic topology_ ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
+* {#Knudsen18} [[Ben Knudsen]], _Configuration spaces in algebraic topology_ ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
 
   (in [[algebraic topology]])
 
@@ -1076,14 +1179,14 @@ The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces ove
 * {#Markl99} [[Martin Markl]], _A compactification  of  the  real  configuration  space  as  an  operadic completion, J. Algebra 215 (1999), no. 1, 185–204
 
 
-### Relation to Cohomotopy
+### Cohomotopy charge map
 
-The [[scanning map]] ("electric field map") and hence the relation of configuration spaces to [[Cohomotopy]] goes back to 
+The [[Cohomotopy charge map]] ("electric field map", "scanning map") and hence the relation of configuration spaces to [[Cohomotopy]] goes back to 
 
 * {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
 * {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
-
+c
 Generalization of these constructions and results is due to
 
 * {#McDuff75} [[Dusa McDuff]], _Configuration spaces of positive and negative particles_, Topology Volume 14, Issue 1, March 1975, Pages 91-107 (<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>)
@@ -1100,7 +1203,7 @@ The relevant construction for the [[group completion]] of the configuration spac
 * [Segal 73, Theorem 1](#Segal73)
 
 
-* [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
+* {#Salvatore99} [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
 
 On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
 
