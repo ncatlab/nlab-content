@@ -19,9 +19,13 @@
 
 This page collects material related to the book
 
-* [[Stanley Kochman]], 
+* [[Stanley Kochman]]:
 
-  _Bordism, Stable Homotopy and Adams Spectral Sequences_, 
+  \linebreak
+
+  **Bordism, Stable Homotopy and Adams Spectral Sequences** 
+
+  \linebreak
 
   Fields Institute Monographs
 
@@ -32,7 +36,9 @@ This page collects material related to the book
 
 on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
 
-> The approach to stable homotopy presented in this book originated with graduate courses taken by the author at the University of Chicago from 1966 to 1970 given by [[Frank Adams]], Arunas Liulevicius and [[Peter May]]. The content of the  lectures by Adams have been published in $[$Adams: _[[Stable homotopy and generalised homology]]_ (1974)$]$. However, the content of the courses given by Liulevicius on bordism and by May on characteristic classes and on the Adams spectral sequence have not been published. Most of the material in the first four chapters has been given by the author as graduate courses at Yale University, Purdue University and the University of Western Ontario. (Kochmann, p. 13)
+From p. 13:
+
+> The approach to [[stable homotopy theory|stable homotopy]] presented in this book originated with graduate courses taken by the author at the University of Chicago from 1966 to 1970 given by [[Frank Adams]], [[Arunas Liulevicius]] and [[Peter May]]. The content of the  lectures by Adams have been published in $[$Adams: _[[Stable homotopy and generalised homology]]_ (1974)$]$. However, the content of the courses given by Liulevicius on [[bordism theory|bordism]] and by May on [[characteristic classes]] and on the [[Adams spectral sequence]] have not been published. Most of the material in the first four chapters has been given by the author as graduate courses at Yale University, Purdue University and the University of Western Ontario. 
 
 
 #Contents#
