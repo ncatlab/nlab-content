@@ -20,6 +20,10 @@ On the [[Sakai-Sugimoto model]] for [[holographic QCD]] ([[geometric engineering
 
 * [[Koji Hashimoto]], [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Holographic Baryons : Static Properties and Form Factors from Gauge/String Duality_, Prog.Theor.Phys.120:1093-1137, 2008 ([arXiv:0806.3122](https://arxiv.org/abs/0806.3122))
 
+Review:
+
+* [[Shigeki Sugimoto]], _Holographic QCD -- Status and perspectives_, 2012 ([[Sugimoto12.pdf:file]])
+
 Specifically on [[skyrmions]]:
 
 * {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
