@@ -18,7 +18,7 @@ Sometimes it is too easy to write a definition that involves only the binary con
 
 Sometimes a nullary operation does not exist but one still wants to decompose a n-ary operation into binary operations. For example, consider [[real number|the reals]], $\mathbb{R}$, as an [[lattice|unbounded lattice]] ([[top|top]], $\top$, and [[bottom|bottom]], $\bot$, do not exist) where
 
- $\wedge =$ [[product]] $=$ [[meet]] $= infinum = min$
+ $\wedge =$ [[product]] $=$ [[meet]] $= infimum = min$
 
 and
 
