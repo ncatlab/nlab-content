@@ -59,7 +59,13 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 ## References
 
+### General
+
 * Jacob Biamonte, Ville Bergholm, _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
+
+Relation to [[spin chains]]:
+
+* Mari Carmen Banuls, Michal P. Heller, Karl Jansen, Johannes Knaute, Viktor Svensson, _From spin chains to real-time thermal field theory using tensor networks_ ([arXiv:1912.08836](https://arxiv.org/abs/1912.08836))
 
 ### In holographic entanglement entropy
 
