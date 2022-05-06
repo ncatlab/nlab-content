@@ -31,6 +31,12 @@ On [[superstring field theory]], [[supergeometry]], [[integration over supermani
 
 * {#CatenacciGrassiNoja18} [[Roberto Catenacci]], [[Pietro Grassi]], S. Noja, _Superstring Field Theory, Superforms and Supergeometry_, Journal of Geometry and Physics Volume 148, February 2020, 103559 ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
+On super-[[Wilson lines]] via [[integration over supermanifolds]]:
+
+* C.A. Cremonini, [[Pietro Grassi]], S. Penati, _Supersymmetric Wilson Loops via Integral Forms_ ([arXiv:2003.01729](https://arxiv.org/abs/2003.01729))
+
+
+
 
 
 category: people
