@@ -69,6 +69,90 @@ More generally, given a family $F$ of subgroups of $G$ which is closed under con
 
 Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\operatorname{Orb}_G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will go across to the restricted setting.
 
+## Examples
+
++-- {: .num_example #OrbitCategoryOfCyclicGroupOfOrder2} 
+###### Example
+**([[orbit category]] of [[cyclic group of order 2|Z/2Z]])**
+
+For equivariance group the [[cyclic group of order 2]]:
+
+$$
+  G \;\coloneqq\;  \mathbb{Z}_2 \;\coloneqq\; \mathbb{Z}/2\mathbb{Z}
+  \,.
+$$
+
+the [[orbit category]] looks like this:
+
+\[
+  \label{OrbitCategoryOfZMod2}
+  \mathbb{Z}_2
+  Orbits
+  \;=\;
+  \left\{
+  \array{
+    \mathbb{Z}_2/1
+    &
+      \overset{
+        \phantom{AAAAA}
+      }{ 
+        \longrightarrow
+      }
+    &
+    \mathbb{Z}_2/\mathbb{Z}_2
+    \\
+    Aut = \mathbb{Z}_2
+    &&
+    Aut = 1
+  }
+  \right\}
+\]
+
+i.e.:
+
+$$
+  \begin{aligned}
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/\mathbb{Z}_2
+      \,,\,
+      \mathbb{Z}_2/\mathbb{Z}_2
+    \big)
+    \;\simeq\;
+    1
+    \\
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/1
+      \,,\,
+      \mathbb{Z}_2/\mathbb{Z}_2
+    \big)
+    \;\simeq\;
+    \ast
+    \\
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/\mathbb{Z}_2
+      \,,\,
+      \mathbb{Z}_2/1
+    \big)
+    \;\simeq\;
+    \varnothing
+    \\
+    \mathbb{Z}_2 Orbits
+    \big(
+      \mathbb{Z}_2/1
+      \,,\,
+      \mathbb{Z}_2/1
+    \big)
+    \;\simeq\;
+    \mathbb{Z}_2
+  \end{aligned}
+$$
+
+=--
+
+
 ## Properties
 
 ### Relation to $G$-spaces and Elmendorf's theorem
