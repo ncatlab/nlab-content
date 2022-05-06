@@ -73,6 +73,10 @@ where $C(x, y)$ denotes the hom-object in $V$,
 
 * [[topologically enriched functor]]
 
+* Consider the enriching category with $[0,\infty]$ the set of objects, maps given by $\geq$, and tensor by $+$. Then $V$-categories are [[Lawvere metric spaces]], and $V$-functors are distance-decreasing maps.
+
+* Categories enriched in the [[poset]] of truth values with conjunction as monoidal product are posets, and the corresponding enriched functors are precisely order-preserving maps.
+
 ## Related concepts
 
 * [[enriched natural transformation]]
@@ -84,6 +88,8 @@ where $C(x, y)$ denotes the hom-object in $V$,
 ## References
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ ([web](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html))
+
+*  {#Lawvere73}  [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
 
 * [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
 
