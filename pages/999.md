@@ -104,9 +104,17 @@ $$
 $$
 
 which proves the claim.
-
-
 =--
+
++-- {: .num_prop}
+###### Proposition
+In a $\lambda$-[[accessible category]], if $\lambda$ is [[sharply smaller cardinal|sharply smaller]] than $\kappa$, then every $\kappa$-compact object is a [[retract]] of a $\kappa$-small $\lambda$-filtered colimit of $\lambda$-compact objects.
+=--
++-- {: .proof}
+###### Proof
+See [Adamek-Rosicky, Remark 2.15](#AdamekRosicky94).  It is noted there that with the more technical proof of [Makkai-Pare, Proposition 2.3.11](#MakkaiPare89) the words "a retract of" can be omitted.
+=--
+
 
 ## Examples 
  {#Examples}
@@ -255,6 +263,8 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 Compact objects are discussed under the term "finitely presentable" or "finitely-presentable" objects for instance in
 
 * {#AdamekRosicky94} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally Presentable and Accessible Categories]]_, Cambridge University Press in the London Mathematical Society Lecture Note Series, number 189, (1994)
+
+* {#MakkaiPare89} [[Michael Makkai]], [[Robert Paré]], _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989.
 
 *  [[Masaki Kashiwara]], [[Pierre Schapira]], around Definition 6.3.3 of _[[Categories and Sheaves]]_;
 
