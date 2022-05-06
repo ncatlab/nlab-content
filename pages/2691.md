@@ -493,12 +493,14 @@ In the projective model structure on connective dgc-algebras (Def. \ref{Projecti
 
 =--
 
-This is [Felix-Halperin-Thomas 00, Lemma 14. using Prop. 6.7 (ii)](#FelixHalperinThomas00). 
+This is [Felix-Halperin-Thomas 00, Lemma 14.2, using Prop. 6.7 (ii)](#FelixHalperinThomas00). 
+
+The same statement for augmented dgc-algebras is in [Baues 88, Section I.8, Lemma 8.16](#Baues88).
 
 +-- {: .num_remark}
 ###### Remark
 
-Lemma 14.2 in [Felix-Halperin-Thomas 00](#FelixHalperinThomas00) is stated under the additional assumption that the dgc-algebras being pushed put have $H^0(-) - k$. But this is only used to find the stronger statement that the pushout is itself a Sullivan model. The argument via Prop. 6.7 that the pushout is a quasi-iso does not use this assumption.
+Lemma 14.2 in [Felix-Halperin-Thomas 00](#FelixHalperinThomas00) is stated under the additional assumption that the dgc-algebras being pushed put have $H^0(-) = k$. But this is only used to find the stronger statement that the pushout is itself a Sullivan model. The argument via Prop. 6.7 that the pushout is a quasi-iso does not use this assumption.
 
 =--
 
@@ -1362,6 +1364,10 @@ The approach in [Hess 06](#Hess06) makes use of the general discussion in sectio
 that obtains the model structure from the [[model structure on chain complexes]].
 
 See also 
+
+
+
+* {#Baues88} Baues, Chapter I.8 of: _Algebraic Homotopy_ ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/baues4.pdf)
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
