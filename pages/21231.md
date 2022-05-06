@@ -45,6 +45,7 @@ The original theoretical prediction:
 
 * {#Sauter31} F. Sauter, _Über das Verhalten eines Elektrons im homogenen elektrischen Feld nach der relativistischen Theorie Diracs_, Z. Physik 69, 742–764 (1931) ([doi:10.1007/BF01339461](https://doi.org/10.1007/BF01339461)) 
 
+
 * {#HeisenbergEuler36} [[Werner Heisenberg]], [[Hans Euler]],  _Folgerungen aus der Diracschen Theorie des Positrons_, Z. Physik 98, 714–732 (1936) ([doi:10.1007/BF01343663](https://doi.org/10.1007/BF01343663))
 
 * {#Schwinger51} [[Julian Schwinger]], _On Gauge Invariance and Vacuum Polarization_, Phys. Rev. 82, 664 (1951) ([doi:10.1103/PhysRev.82.664](https://doi.org/10.1103/PhysRev.82.664))
@@ -60,9 +61,15 @@ Discussion via [[worldline formalism]]:
 
 Review:
 
+* Walter Dittrich, Holger Gies, _Probing the Quantum Vacuum --
+Perturbative Effective Action Approach in Quantum Electrodynamics and its Application_, Springer Tracts in Modern Physics, Vol. 166 ([ISBN 978-3-540-45585-1](https://www.springer.com/gp/book/9783540674283))
+
+* [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+
+
 * [[Gerald Dunne]], _The Heisenberg-Euler Effective Action: 75 years on_, Int. J. Mod. Phys. A27 (2012) 1260004 ([arXiv:1202.1557](https://arxiv.org/abs/1202.1557))
 
-* [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, in: _From Fields to Strings: Circumnavigating Theoretical Physics_, pp. 445-522 (2005) ([doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
+
 
 
 * Francois Gelis, Naoto Tanji, _Schwinger mechanism revisited_, Progress in Particle and Nuclear Physics Volume 87, March 2016, Pages 1-49 ([arXiv:1510.05451](https://arxiv.org/abs/1510.05451))
