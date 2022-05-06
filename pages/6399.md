@@ -13,6 +13,11 @@ On the computation of the [[anomaly cancellation]] now known as the [[Green-Schw
 
 (Taken from [NOVA - The Elegant Universe - Transcript](https://www.scribd.com/document/185276/NOVA-The-Elegant-Universe-Transcript))
 
+## Selected writings
+
+* [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys.Lett.B384:86-92, 1996 ([arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146))
+
+  (on M2-M5 brane bound states)
 
 ## related entries
 
