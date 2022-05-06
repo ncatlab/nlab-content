@@ -250,6 +250,17 @@ and for [[charm quark]] physics in
 
 * [[Alexey Petrov]], _Theory of rare charm decays into leptons_ ([arXiv:1704.03862](https://arxiv.org/abs/1704.03862))
 
+
+See also
+
+* CERN, _[LHCb flavour anomalies continue to intrigue](https://home.cern/scientists/updates/2017/06/lhcb-flavour-anomalies-continue-intrigue)_, June 2017
+
+* Vasudevan Mukunth, _[A Similar Anomaly Has Showed up in Three Physics Experiments Since 2009. What’s Happening?](https://thewire.in/science/b-mesons-kaons-flavour-changing-neutral-currents)_, 2017
+
+* Diego Guadagnoli, _On the status of flavor anomalies_, 2016 ([web](http://indico.ictp.it/event/7627/session/78/contribution/486/))
+
+
+
 Comprehensive overview of the latest world-avereaged results to be found at:
 
 * {#HFLAV} _[Heavy Flavour Averaging group](https://hflav.web.cern.ch/)_ (HFLAV)
@@ -362,15 +373,6 @@ Emphasis of effects of [[hadron|hadronic]] [[form factors]]:
 
 
 
-See also
-
-* CERN, _[LHCb flavour anomalies continue to intrigue](https://home.cern/scientists/updates/2017/06/lhcb-flavour-anomalies-continue-intrigue)_, June 2017
-
-* Vasudevan Mukunth, _[A Similar Anomaly Has Showed up in Three Physics Experiments Since 2009. What’s Happening?](https://thewire.in/science/b-mesons-kaons-flavour-changing-neutral-currents)_, 2017
-
-* Diego Guadagnoli, _On the status of flavor anomalies_, 2016 ([web](http://indico.ictp.it/event/7627/session/78/contribution/486/))
-
-
 Original articles include:
 
 * {#StrumiaEtAl17} Guido D'Amico, Marco Nardecchia, Paolo Panci, Francesco Sannino, [[Alessandro Strumia]], Riccardo Torre, Alfredo Urbano, 
@@ -396,7 +398,6 @@ Original articles include:
 
 * {#SGGJC19} Rui-Xiang Shi, Li-Sheng Geng, Benjamín Grinstein, Sebastian Jäger, Jorge Martin Camalich, _Revisiting the new-physics interpretation of the $b \to c \tau \nu$ data_ ([arXiv:1905.08498](https://arxiv.org/abs/1905.08498))
 
-
 Cautionary remarks include
 
 * _[Some B Meson Decay Anomalies Disappear In Run-2 Data](http://dispatchesfromturtleisland.blogspot.com/2017/05/some-b-meson-decay-anomalies-disappear.html)_
@@ -408,6 +409,10 @@ In contrast, an argument that the threshold [[statistical significance]] for fla
 * {#Lyons13b} Louis Lyons, _Discovering the Significance of 5 sigma_ ([arXiv:1310.1284](https://arxiv.org/abs/1310.1284))
 
 * {#Dorigo15} [[Tommaso Dorigo]], _Extraordinary claims: the $0.000029\%$ solution_, EPJ Web of Conferences 95, 02003 (2015) ([doi:10.1051/epjconf/20159502003](https://doi.org/10.1051/epjconf/20159502003))
+
+Discussion of possible $b \to d$ anomalies:
+
+* Aleksey V. Rusov, _Probing New Physics in $b \to d$ Transitions_ ([arXiv:1911.12819](https://arxiv.org/abs/1911.12819))
 
 ### Possible explanations/models
 
