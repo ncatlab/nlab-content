@@ -737,6 +737,10 @@ This and further generalization is in
 
 * {#BarthelHeard15} [[Tobias Barthel]], Drew Heard, Gabriel Valenzuela _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
 
+Discussion in [[homotopy type theory]]:
+
+* {#Scoccola19} Luis Scoccola, _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
+
 See also
 
 * [[John Greenlees]], _Tate cohomology in axiomatic stable homotopy theory_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.490.322&rep=rep1&type=pdf))
