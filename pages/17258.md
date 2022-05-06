@@ -240,9 +240,9 @@ A comprehensive and highly recommendable anthology is
 
 * {#PS04}Robert Parkin, Linda Stone (eds.), _Kinship and Family_ , Blackwell Oxford 2004.
 
-A conspicuouslyly clear and concise introduction can be found in
+A conspicuously clear and concise introduction can be found in
 
-* {#Op09}Michael Oppitz, _Notwendige Beziehungen - Abriß der strukturalen Anthropologie_ , Suhrkamp Frankfurt a. M. 2009².
+* {#Op09}Michael Oppitz, _Notwendige Beziehungen - Abriß der strukturalen Anthropologie_ , Suhrkamp Frankfurt am Main 2009².
 
 Current textbooks include 
 
