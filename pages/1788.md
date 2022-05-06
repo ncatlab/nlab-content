@@ -1,5 +1,21 @@
 
 
+[[DualityGraphics.jpg:file]]
+
+\begin{imagefromfile}
+  "file_name": "DualityGraphics.jpg",
+  "width": 200,
+  "float": "right",
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  }
+\end{imagefromfile}
+
+
 +-- {: .num_defn #ReducedSimplicialSet}
 ###### Definition
 
