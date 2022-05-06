@@ -134,7 +134,7 @@ be a map. Then its $E$-Hopf invariant "is" the following [[homotopy coherent dia
 
 * the bottom square is hence a [[homotopy pushout]] by the [[pasting law]];
 
-* by assumption (eq:ECohomologyVanishingInDegree2nMinus1) the restriction of $\Sigma^{2n} 1$ to $S^{2n-1}$ trivializes, exhibited by a choice of [[homotopy]] filling the full top part of the diagram; and by the [[universal property]] of the top homotopy-pushout this corresponds equivalently to the dashed morphisms $c$;
+* by assumption (eq:ECohomologyVanishingInDegree2nMinus1) the restriction of $\Sigma^{2n} 1$ to $S^{2n-1}$ trivializes, exhibited by a choice of [[homotopy]] filling the full top part of the diagram; and by the [[universal property]] of the top homotopy-pushout this corresponds equivalently to the dashed morphism $c$;
 
 * by degree reasons (as in [Lurie, Lec. 4. Exmpl. 8](complex+oriented+cohomology+theory#LurieLecture)) the restriction of the [[cup product|cup square]] of $c$ to $S^n$ trivializes, exhibited by a choice of [[homotopy]]  filling the full bottom part of the diagram; and by the [[universal property]] of the bottom homotopy-pushout this corresponds equivalently to a dashed morphism $S^{2n} \to E_{2n}$, labeled by  some class
 
@@ -166,9 +166,9 @@ We see that:
 In the case that the map $f$ is one the classical [[Hopf fibrations]], the [[attaching space]] above is a [[projective space]] (by the discussion at _[[cell structure of projective spaces]]_) and the choice of homotopy $c$ is the choice of an _orientation_ in $E$-cohomology theory to second stage. Specifically:
 
 \begin{imagefromfile}
-        "file_name": "OrientationAndHopfInvariant.jpg",
+        "file_name": "OrientationInECohomologyAndHopfInvariant.jpg",
         "web": "nlab",
-        "width": 550,
+        "width": 600,
         "unit": "px",
         "float": "right",
         "margin": {
@@ -182,9 +182,10 @@ In the case that the map $f$ is one the classical [[Hopf fibrations]], the [[att
         "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
 \end{imagefromfile}
 
+
 * for the [[complex Hopf fibration]] $f = h_{\mathbb{C}}$ the attaching space is [[complex projective space]] $\mathbb{C}P^2$ and the choice of homotopy $c$ is a choice of [[complex oriented cohomology theory|complex orientation]] to second stage;
 
-* for the [[quaternionic Hopf fibration]] $f = h_{\mathbb{H}}$ the attaching space is [[quaternionic projective space]] $\mathbb{H}P^2$ and the choice of homotopy $c$ is a choice of [[quaternionic oriented cohomology theory|quaternionic orientation]] to second stage;
+* for the [[quaternionic Hopf fibration]] $f = h_{\mathbb{H}}$ the attaching space is [[quaternionic projective space]] $\mathbb{H}P^2$ and the choice of homotopy $c$ is a choice of [[quaternionic oriented cohomology theory|quaternionic orientation]] to second stage.
 
 
 
