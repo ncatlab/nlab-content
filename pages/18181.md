@@ -15,7 +15,7 @@
 
   * [first edition 1781](#1stEd). Normally and in this article denoted by "A", e.g. "A111" refers to page 111 of the original first edition. But the Akademieausgabe uses A¹.
 
-  * second edition 1787. Normally and in this article denoted by "B". Akademieausgabe uses A².
+  * [second edition 1787](#2ndEd). Normally and in this article denoted by "B". Akademieausgabe uses A².
 
   The second edition comprises a considerable extension of the first addition, though some passages were left out in former.
 
@@ -98,7 +98,9 @@ Compare to the identification of concepts with the [[types]] in the sense of [[t
 
 * Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
 
-* {#1stEd}Wikisource, [First edition](https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_%281781%29) (1881) and [several English translations](https://en.wikisource.org/wiki/Critique_of_Pure_Reason)
+* {#1stEd}Wikisource, [First edition, German](https://de.wikisource.org/wiki/Critik_der_reinen_Vernunft_%281781%29) (1781) and [several English translations](https://en.wikisource.org/wiki/Critique_of_Pure_Reason)
+
+* {#2ndEd}Wikisource, [Second edition, English](https://en.wikisource.org/wiki/Critique_of_Pure_Reason_%28Meiklejohn%29) (1855) translated by John Miller Dow Meiklejohn.
 
 * [english translation](http://www.gutenberg.org/files/4280/4280-h/4280-h.htm) by [J. M. D. Meiklejohn](https://en.wikipedia.org/wiki/John_Meiklejohn)
 
