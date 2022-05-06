@@ -1,3 +1,4 @@
+[[!redirects 12-dimensional supergravity]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -44,7 +45,7 @@ This, in turn, requires, by the rules of [[KK-compactification]], that
 
 1. there cannot be any supercharge in dimension $11+1$, since the [[irreducible representation|irreducible]] [[real spin representation]] of $Spin(11,1)$ has real dimension 64, which [[branching rule|branches]] as $\mathbf{64} \mapsto 16 \cdot \mathbf{4}$ under $Spin(3,1) \hookrightarrow Spin(11,1)$.
 
-However, the second conclusion here is evaded by a change of spacetime signature: The [[irreducible representation|irreducible]] [[real spin representation]] of $Spin(10,2)$ still happens to be of dimension 32 and still [[branching rule|branches]] as $\mathbf{32} \mapsto 8 \cdot \mathbf{4}$.
+However, the second conclusion here is evaded by a change of [[spacetime signature]]: The [[irreducible representation|irreducible]] [[real spin representation]] of $Spin(10,2)$ still happens to be of dimension 32 and still [[branching rule|branches]] as $\mathbf{32} \mapsto 8 \cdot \mathbf{4}$.
 
 
 ## Properties
@@ -59,6 +60,10 @@ See ([Blencowe-Duff 88, section 7](#BlencoweDuff88), [Hewson-Perry 96](#HewsonPe
 ## Related concepts
 
 * [[F-theory]]
+
+* [[D=14 supersymmetry]]
+
+* [[bosonic M-theory]]
 
 ## References
 
@@ -105,7 +110,6 @@ On organizing all these variants inside [[bosonic M-theory]] and [[KK-reduction]
 
 * [[Michael Rios]], [[Alessio Marrani]], [[David Chester]], _Exceptional Super Yang-Mills in $D=27+3$ and Worldvolume M-Theory_, Phys. Lett. B, 808, (2020)
 ([arXiv:1906.10709](https://arxiv.org/abs/1906.10709))
-
 
 
 
