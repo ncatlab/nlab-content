@@ -63,7 +63,11 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * [[constituent quark]]
 
+* [[diquark]]
+
 * [[quantum hadrodynamics]]
+
+* [[hadron supersymmetry]]
 
 * [[Walecka model]]
 
