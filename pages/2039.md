@@ -91,6 +91,12 @@ $$
 More generally there is $RO(G)$-graded [[equivariant cohomology]] with [[coefficients]] in [[genuine G-spectra]]. This is _also_ sometimes still referred to as "Bredon cohomology". For more on this see at _[equivariant cohomology -- Bredon cohonology](equivariant%20cohomology#Bredon)_.
 
 
+## Examples
+
+### With coefficients in representation ring
+
+[[!include incarnations of rational equivariant topological K-theory -- table ]]
+
 ## Related concepts
 
 * [[equivariant cohomology]], [[equivariant homotopy theory]]
