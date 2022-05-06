@@ -128,9 +128,9 @@ See also
 
 * Wikipedia, _[Quaternion group](https://en.wikipedia.org/wiki/Quaternion_group)_
 
-and  
+* Groupprops, _[Linear representation theory of the quaternion group](https://groupprops.subwiki.org/wiki/Linear_representation_theory_of_quaternion_group)_
 
-* [GroupNames](https://people.maths.bris.ac.uk/~matyd/GroupNames/quaternion.html).
+* GroupNames, _[Quaternion groups $Q_{2^n}$](https://people.maths.bris.ac.uk/~matyd/GroupNames/quaternion.html)_
 
 [[!redirects quaternionic group]]
 
