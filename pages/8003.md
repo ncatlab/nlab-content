@@ -75,7 +75,9 @@ Write $FinSet^{*/}$ for the [[category]] of [[pointed objects|pointed]] [[finite
 For $C$ a [[permutative category]], there is naturally a [[functor]]
 
 $$
-  \widebar {C}_{(-)} : FinSet^{*/} \to Cat
+  \widebar {C}_{(-)}
+  \;\colon\; 
+  FinSet^{*/} \to Cat
 $$
 
 $$
