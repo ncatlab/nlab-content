@@ -330,6 +330,27 @@ This corresponds to single fractional D-branes sitting on top of the O-planes, t
 [[!include RR-field tadpole cancellation on toroidal orientifolds -- table]]
 
 
+\linebreak
+
+<center>
+<a href="https://arxiv.org/pdf/1909.12277.pdf#page=27">
+<img src="https://ncatlab.org/schreiber/files/EquivCohomotopyImpliedLocalTadCancellation.jpg" width="800">
+</a>
+</center>
+
+> graphics grabbed from [Sati-Schreiber 19](#SatiSchreiber19)
+
+See also at _[[equivariant Hopf degree theorem]]_.
+
+
+<center>
+<a href="https://ncatlab.org/nlab/show/RR-field+tadpole+cancellation#ExamplesForToroidalOrientifolds">
+<img src="https://ncatlab.org/schreiber/files/EquCohomotopyImpliesGlobalTadCancellation.jpg" width="800">
+</a>
+</center>
+
+> graphics grabbed from [Sati-Schreiber 19](#SatiSchreiber19)
+
 
 ### Examples of non-compact singularities
  {#ExamplesForFractionalDBranes}
