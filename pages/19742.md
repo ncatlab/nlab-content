@@ -301,11 +301,16 @@ This is due to [Quillen 71](#Quillen71), [Čadek-Vanžura 95](#CadekVanzura95), 
 
 ### General
 
+* [[Robert Bryant]], _Remarks on Spinors in Low Dimension_ ([pdf](https://services.math.duke.edu/~bryant/Spinors.pdf), [[BryantRemarksOnSpinorsInLowDimension.pdf:file]])
+
+
 See also
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/SO(8)">SO(8)</a>_
 
 ### Subgroup lattice
+
+On the [[subgroup lattice]] of [[Spin(8)]]
 
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
 
@@ -316,6 +321,10 @@ See also
   Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
 
 * {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae Volume 19, Issue 2, 2001, Pages 163-177 (<a href="https://doi.org/10.1016/S0723-0869(01)80027-X">doi:10.1016/S0723-0869(01)80027-X</a>, [pdf](https://core.ac.uk/download/pdf/81114499.pdf))
+
+* Megan M. Kerr, _New examples of homogeneous Einstein metrics_, Michigan Math. J. Volume 45, Issue 1 (1998), 115-134 ([euclid:1030132086](https://projecteuclid.org/euclid.mmj/1030132086))
+
+* Andreas Kollross, Prop. 3.3 of _A Classification of Hyperpolar and Cohomogeneity One Actions_, Transactions of the American Mathematical Society Vol. 354, No. 2 (Feb., 2002), pp. 571-612 ([jstor:2693761](https://www.jstor.org/stable/2693761))
 
 ### Cohomology
 
