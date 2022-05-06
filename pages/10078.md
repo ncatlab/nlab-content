@@ -114,6 +114,10 @@ Further development includes
 
 * Olindo Corradini, Maurizio Muratori, _String-inspired Methods and the Worldline Formalism in Curved Space_ ([arXiv:1808.05401](https://arxiv.org/abs/1808.05401))
 
+As a means of constructing [[UV-completions]]:
+
+* Steven Abel, Nicola Andrea Dondi, _UV Completion on the Worldline_ ([arXiv:1905.04258](https://arxiv.org/abs/1905.04258))
+
 A list of more literature is at
 
 * The Tangent Bundle, _[QFT Worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism)_
