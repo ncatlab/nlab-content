@@ -334,6 +334,9 @@ See also the references at _[[orientifold]]_.
 ### As higher super-GS-WZW type $\sigma$-models
   {#ReferencesAsGSsigmaModels}
 
+The [[Green-Schwarz sigma model]] for D-branes is discussed in
+
+* {#CGNSW97} [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
 
 
 Discussion of [[Green-Schwarz action functionals]] for super D-branes and 
