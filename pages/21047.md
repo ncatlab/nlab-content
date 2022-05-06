@@ -42,3 +42,14 @@ For [[D2-D4 brane bound states]]:
 For [[AdS3/CFT2 duality]]:
 
 * [[Kevin Costello]], [[Natalie Paquette]], _Twisted Supergravity and Koszul Duality: A case study in $AdS_3$_ ([arXiv:2001.02177](https://arxiv.org/abs/2001.02177))
+
+See also claims of _topological holography_
+
+* [[Kevin Costello]], [[Davide Gaiotto]], _Twisted Holography_ ([arXiv:1812.09257](https://arxiv.org/abs/1812.09257))
+
+* Jihwan Oh, Yehao Zhou, _Feynman diagrams and $\Omega$-deformed M-theory_ ([arXiv:2002.07343](https://arxiv.org/abs/2002.07343))
+
+
+
+
+
