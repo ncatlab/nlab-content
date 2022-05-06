@@ -47,7 +47,7 @@ There are precisely 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[
 
 =--
 
-([Varadarajan 01, Theorem 5 on p. 6](#Varadarajan01))
+([Varadarajan 01, Theorem 5 on p. 6](#Varadarajan01), see also [Kollross 02, Prop. 3.3 (1)](#Kollross02))
 
 
 +-- {: .num_prop #G2IsIntersectionOfSpin7SubgroupsInSpin8}
@@ -160,8 +160,65 @@ The statement also follows with
 \end{imagefromfile}
 \end{center}
 
+=--
+
+
++-- {: .num_prop #Spin3DotSpin5SubgroupsInSO8}
+###### Proposition
+**([[Spin(5).Spin(3)]]-[[subgroups]] in [[SO(8)]])
+
+The [[direct product group]] [[SO(3)]] $\times$ [[SO(5)]] together with the groups [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with their canonical inclusions into [[SO(8)]], form 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[subgroups]] inside [[SO(8)]], and the [[triality]] group $Out(SO(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
+
+\begin{center}
+  \begin{xymatrix}
+      Sp(2)\cdot Sp(1)
+      \ar@{^{(}->}[dr]^{\iota'}
+      \\
+      & 
+      SO(8)
+      & 
+      SO(3) \times SO(5)
+      \ar@{_{(}->}[l]^-{\iota}
+      \\
+      Sp(1) \cdot Sp(2)
+      \ar@{^{(}->}[ur]_-{ \iota'' }
+  \end{xymatrix}
+\end{center}
+
 
 =--
+
+([Kollross 02, Prop. 3.3 (3)](#Kollross02))
+
+Similarly:
+
++-- {: .num_prop #Spin3DotSpin5SubgroupsInSpin8}
+###### Proposition
+**([[Spin(5).Spin(3)]]-[[subgroups]] in [[Spin(8)]])
+
+The groups [[Spin(5).Spin(3)]], [[Sp(2).Sp(1)]] and $Sp(1) \cdot Sp(2)$, with their canonical inclusions into [[Spin(8)]], form 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[subgroups]] inside [[Spin(8)]], and the [[triality]] group $Out(Spin(8))$ [[action|acts]] [[transitive action|transitively]] on these three classes. 
+
+\begin{center}
+  \begin{xymatrix}
+      Sp(2)\cdot Sp(1)
+      \ar@{^{(}->}[dr]^{\iota'}
+      \\
+      & 
+      Spin(8)
+      & 
+      Spin(3) \cdot Spin(5)
+      \ar@{_{(}->}[l]^-{\iota}
+      \\
+      Sp(1) \cdot Sp(2)
+      \ar@{^{(}->}[ur]_-{ \iota'' }
+  \end{xymatrix}
+\end{center}
+
+
+=--
+
+([Čadek-Vanžura 97, Sec. 2](#CadekVanzura97))
+
 
 
 
@@ -322,9 +379,14 @@ On the [[subgroup lattice]] of [[Spin(8)]]
 
 * {#Varadarajan01} [[Veeravalli Varadarajan]], _Spin(7)-subgroups of SO(8) and Spin(8)_, Expositiones Mathematicae Volume 19, Issue 2, 2001, Pages 163-177 (<a href="https://doi.org/10.1016/S0723-0869(01)80027-X">doi:10.1016/S0723-0869(01)80027-X</a>, [pdf](https://core.ac.uk/download/pdf/81114499.pdf))
 
+* {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
+
+
 * Megan M. Kerr, _New examples of homogeneous Einstein metrics_, Michigan Math. J. Volume 45, Issue 1 (1998), 115-134 ([euclid:1030132086](https://projecteuclid.org/euclid.mmj/1030132086))
 
-* Andreas Kollross, Prop. 3.3 of _A Classification of Hyperpolar and Cohomogeneity One Actions_, Transactions of the American Mathematical Society Vol. 354, No. 2 (Feb., 2002), pp. 571-612 ([jstor:2693761](https://www.jstor.org/stable/2693761))
+* {#Kollross02} Andreas Kollross, Prop. 3.3 of _A Classification of Hyperpolar and Cohomogeneity One Actions_, Transactions of the American Mathematical Society Vol. 354, No. 2 (Feb., 2002), pp. 571-612 ([jstor:2693761](https://www.jstor.org/stable/2693761))
+
+
 
 ### Cohomology
 
