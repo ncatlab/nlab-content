@@ -98,6 +98,8 @@ This can be seen as a discrete, finitary analogue of a [[probability monad]], wh
 
 ## References
 
+* [[Tobias Fritz]] and [[Paolo Perrone]], _Monads, partial evaluations, and rewriting_, MFPS 34, 2020 - Section 6. ([arXiv](https://arxiv.org/abs/1810.06037))
+
 * {#jacobs} [[Bart Jacobs]], _From probability monads to commutative effectuses_, Journal of Logical and Algebraic Methods in Programming 94, 2018. 
 ([doi:10.1016/j.jlamp.2016.11.006](https://doi.org/10.1016/j.jlamp.2016.11.006))
 
