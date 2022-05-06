@@ -219,7 +219,7 @@ As [[type I' string theory]] at [[orbifold]] [[ADE-singularities]]:
 
 * {#BergmanRodriguezGomez12} [[Oren Bergman]], Diego Rodriguez-Gomez, Section 3 of: _5d quivers and their $AdS_6$ duals_, JHEP07 (2012) 171 ([arxiv:1206.3503](https://arxiv.org/abs/1206.3503))
 
-* Chiung Hwang, Joonho Kim, Seok Kim, Jaemo Park, Section 3.4.2 of: _General instanton counting and 5d SCFT_, JHEP07 (2015) 063 ([arxiv:1406.6793](https://arxiv.org/abs/1406.6793))
+* Chiung Hwang, Joonho Kim, Seok Kim, [[Jaemo Park]], Section 3.4.2 of: _General instanton counting and 5d SCFT_, JHEP07 (2015) 063 ([arxiv:1406.6793](https://arxiv.org/abs/1406.6793))
 
 
 
