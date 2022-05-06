@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
+=--
 =--
 =--
 
