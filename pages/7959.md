@@ -202,7 +202,7 @@ For [[Gepner models]]:
  {#ReferencesModels}
 
 
-#### Heterotic models
+#### Heterotic string theory models
  {#ReferencesHeteroticModels}
 
 The historical origin of all [[heterotic string theory]] models and the "[[top-down model building|top down approach]]" of string model building is ([Candelas-Horowitz-Strominger-Witten 85](#CHSW85)).
@@ -416,6 +416,15 @@ See also
 Alternatively, discussion in [[Hořava-Witten theory]]:
 
 * {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_ ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892))
+
+
+#### Heterotic M-theory models
+
+Discussion in [[heterotic M-theory]]:
+
+* {#DOPW99} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Models from Heterotic M-theory_, Adv. Theor. Math. Phys. 5 (2002) 93-137 ([arXiv:hep-th/9912208](https://arxiv.org/abs/hep-th/9912208))
+
+* {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
 
 #### Non-supersymmetric models
 
