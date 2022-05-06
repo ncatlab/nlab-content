@@ -99,6 +99,11 @@ See also
 
 * Gregory P. Korchemsky, Dan Pirjol, Tung-Mow Yan, _Radiative leptonic decays of B mesons in QCD_, Phys. Rev. D61:114510, 2000 ([arXiv:hep-ph/9911427](https://arxiv.org/abs/hep-ph/9911427))
 
+### For omega-mesons
+
+For [[omega-mesons]]:
+
+* Anastasiya Kuzmenko, _The Study of the Conversion Decays of Omega Meson to π0 $\pi^0$ Meson and $e^+ e^-$ Pair with the CMD-3 Detector_, CERN Proceedings Archives Vol 1 (2017) ([doi:10.23727/CERN-Proceedings-2017-001.91]( http://dx.doi.org/10.23727/CERN-Proceedings-2017-001.91)
  
 
 
