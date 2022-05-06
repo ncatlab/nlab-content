@@ -1,4 +1,6 @@
 
+[[AntiBraneAnnihilationAsKGroupEquivRelation.jpg:file]]
+
 $\rightrightarrows$
 
 The definition of the $E$-Chern classes according to [Conner-Floyd 66, Theorem 7.5](#ConnerFloyd66) proceeds as follows.
