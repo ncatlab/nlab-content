@@ -20,6 +20,10 @@ The Initiality Project is a communal effort to prove an [[initiality theorem]] f
 * [[Initiality Project - Interpretation Functor|The interpretation as a functor]]
 * [[Initiality Project - Uniqueness|Uniqueness of the interpretation functor]]
 
+### By type former
+
+* [[Initiality Project - Pi-types]]
+
 ## Jobs and volunteers
 
 Here are the tasks to be done.  To volunteer for a task, edit the page and put your name after it.
@@ -30,7 +34,7 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 * Define $\Pi$-type structure on a CwF in [[Initiality Project - Semantics - Pi-types]].
 * Write out the equality rules at [[Initiality Project - Type Theory]].
 * Define signatures to give arities to constants, and write out the constant rules at [[Initiality Project - Type Theory]].
-* Write out the $\Pi$-type rules at [[Initiality Project - Type Theory - Pi-types]].
+* Write out the $\Pi$-type congruence rules at [[Initiality Project - Type Theory - Pi-types]].
 * Prove some admissible rules, etc. at [[Initiality Project - Type Theory]].
 
 ## Background links
