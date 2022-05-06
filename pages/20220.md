@@ -48,7 +48,7 @@ where
 If $X^{8}$ has $Spin(7)$-[[G-structure|structure]] (hence in particular if it is a [[Calabi-Yau manifold]], which has $SU(4) = $ [[Spin(6)]]-structure) or $Spin(3) \times Spin(5)$-structure, then (see [this Prop.](Spin7-manifold#CharacteristicClassesForSpinStructure) and [this Prop.](quaternion-Kähler+manifold#CharacteristicClassesForSpin5Spin3Structure), respectively):
 
 $$
-  \tfrac{1}{2}\big( p_2 - \tfrac{1}{4}p_1^2  \big)
+  \tfrac{1}{2}\big( p_2 - \tfrac{1}{4}(p_1)^2  \big)
   \;=\;
   \chi
 $$
