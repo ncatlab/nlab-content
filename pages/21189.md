@@ -228,6 +228,11 @@ Explicit inclusion of [[baryons]]:
 * Elizabeth Jenkins, Aneesh V. Manohar, _Baryon chiral perturbation theory using a heavy fermion lagrangian_, Physics Letters B Volume 255, Issue 4, 21 February 1991, Pages 558-562 (<a href="https://doi.org/10.1016/0370-2693(91)90266-S">doi:10.1016/0370-2693(91)90266-S</a>)
 
 * Robert Baur, Joachim Kambor, _Generalized Heavy Baryon Chiral Perturbation Theory_, Eur. Phys. J. C7:507-524, 1999 ([arXiv:hep-ph/9803311](https://arxiv.org/abs/hep-ph/9803311))
+
+* José Antonio Oller, Michela Verbeni and Joaquim Prades, _Meson-baryon effective chiral Lagrangians to Script $\mathcal{O}(q^3)$_,  Journal of High Energy Physics, Volume 2006, JHEP09(2006) ([doi:10.1088/1126-6708/2006/09/079](https://iopscience.iop.org/article/10.1088/1126-6708/2006/09/079))
+
+
+* Matthias Frink, [[Ulf-G. Meissner]], _On the chiral effective meson-baryon Lagrangian at third order_, Eur. Phys. J. A29:255-260, 2006 ([arXiv:hep-ph/0609256](https://arxiv.org/abs/hep-ph/0609256))
  
 
 
