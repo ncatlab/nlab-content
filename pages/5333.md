@@ -41,15 +41,18 @@ A priori the [[worldsheet]] [[2d SCFT]] describing the quantum heterotic string 
 
 Some [[duality in string theory]] involving the heterotic string:
 
-#### Relation to M-theory
+#### Duality with M-theory
 
 For the moment see at _[[Horava-Witten theory]]_.
 
-#### Relation to F-theory, type II and type I superstring theory
+#### Duality with F-theory, type II string theory
 
 For [[duality between F-theory and heterotic string theory]] see there
 and see [references below](#DualityWithFTheory).
 
+#### Duality with type I string theory
+
+* [[duality between heterotic and type I string theory]]
 
 
 ### Partition function and Witten genus
