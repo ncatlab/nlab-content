@@ -64,6 +64,10 @@ Here we at last descend to something concrete.  Given $\alpha\colon C'(-,x)\to \
 $$\alpha_y(f) = \alpha_y(f\circ 1_x) \cong \overline{F}(f)(\alpha_x(1_x)) = \overline{F}(f)(a) = \beta_y(f).$$
 We then simply verify that these isomorphisms are the components of an (invertible) modification $\alpha\cong \beta$.  This completes the proof.
 
+##Related entries
+
+* [[Yoneda lemma for tricategories]]
+
 ##References
 
 A treatment of the bicategorical Yoneda embedding and lemma is in Chap. 8 of
