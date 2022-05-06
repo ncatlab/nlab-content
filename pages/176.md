@@ -406,9 +406,14 @@ $$
 
 * [[TT deformation]]
 
+
 ## References ##
 
 ### General
+
+The mathematical axioms of CFT, as well as its relevance for surface phenomena goes back to
+
+* [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
 The first comprehensive physics textbook on CFT was maybe
 
@@ -421,6 +426,11 @@ Introduction and surveys include
 * [[Ingo Runkel]], _Boundary problems in conformal field theory_ ([pdf](http://www.math.uni-hamburg.de/home/runkel/PDF/phd.pdf))
 
 * Yu Nakayama, _A lecture note on scale invariance vs conformal invariance_, [arXiv:1302.0884](http://arxiv.org/abs/1302.0884)
+
+* [[Katrin Wendland]], _Snapshots of Conformal Field Theory_, in:
+Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Springer 2015 
+([arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4))
+
 
 * Jeorg Teschner, _A guide to two-dimensional conformal field theory_, [arXiv:1708.00680](http://arxiv.org/abs/1708.00680)
 
