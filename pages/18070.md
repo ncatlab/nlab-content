@@ -866,6 +866,7 @@ and generalization to [[equivariant homotopy theory]] is discussed in
 
 * Colin Rourke, Brian Sanderson, _Equivariant Configuration Spaces_, 62(2), October 2000, pp. 544-552 ([pdf](http://wrap.warwick.ac.uk/828/1/WRAP_Rourke_Equivariant_configuration.pdf))
 
+
 The relevant construction for the [[group completion]] of the configuration space
 
 * [Segal 73, Theorem 1](#Segal73)
@@ -873,6 +874,9 @@ The relevant construction for the [[group completion]] of the configuration spac
 
 * [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
 
+On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
+
+* [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
 
 See also
