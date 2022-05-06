@@ -51,7 +51,7 @@ On the other hand there is also the standard homotopy theory of [[infinity-actio
 ## Examples
   {#Examples}
 
-We dscuss some classes of examples of [[G-spaces]].
+We discuss some classes of examples of [[G-spaces]].
 
 ### Euclidean $G$-spaces
  {#EuclideanGSpace}
@@ -89,7 +89,7 @@ $$
   Iso(\mathbb{R}^V)
 $$
 
-then the $G$-[[action]] on the Euclidean space $\mathbb{R}^V$ descends the the [[quotient]] by the [[action]] of the translational [[normal subgroup]] [[lattice in a vector space|lattice]] $N$ ([this Prop.](crystallographic+group#InducedPointGroupActionOnTorus)). The resulting $G$-space is an [[n-torus]] with $G$-action, which might be called the _[[representation torus]]_ of $V$
+then the $G$-[[action]] on the Euclidean space $\mathbb{R}^V$ descends to the [[quotient]] by the [[action]] of the translational [[normal subgroup]] [[lattice in a vector space|lattice]] $N$ ([this Prop.](crystallographic+group#InducedPointGroupActionOnTorus)). The resulting $G$-space is an [[n-torus]] with $G$-action, which might be called the _[[representation torus]]_ of $V$
 
 \begin{xymatrix}
    \mathbb{R}^V\ar@(ul,ur)^G
