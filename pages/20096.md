@@ -26,11 +26,18 @@
 
 * [[neutrino]]
 
+* [[ANITA experiment]]
+
 ## References
 
 See also
 
 * Wikipedia, _[Sterile neutrino](https://en.wikipedia.org/wiki/Sterile_neutrino)_
+
+Attempt to explain the anomalies possibly seen by the [[ANITA experiment]] by sterile neutrinos:
+
+* {#ChauhanMohanty18} Bhavesh Chauhan, Subhendra Mohanty, _A common leptoquark solution of flavor and ANITA anomalies_ ([arXiv:1812.00919](https://arxiv.org/abs/1812.00919))
+
 
 Attempt to explain the [[flavour anomalies]] with right-handed neutrinos:
 
