@@ -498,7 +498,7 @@ $$
 
 =--
 
-This is due to ([Fiorenza-Rogers-Schreiber 13, section 6.2.1](#FiorenzaRogersSchreiber13)).
+This is due to ([Fiorenza-Rogers-Schreiber 13, section 2.6.1](#FiorenzaRogersSchreiber13)).
 
 
 
