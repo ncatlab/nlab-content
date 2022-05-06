@@ -361,17 +361,17 @@ $$
 ### D&#233;calage comonad 
  {#DecalageComonad}
 
-D&#233;calage also has an abstract [[category theory|category theoretic]] description as follows. The [[augmented simplex category]] with the ordinal sum operation is a [[monoidal category]] $(\Delta_a, + = \sigma, 0 = [-1])$. Consider this as coming equipped with a [[monoid]], namely the terminal object $1 = [0]$ with its unique monoid structure. Equivalently, the monoidal category $\Delta_a^{op}$ comes equipped with a comonoid, also denoted $[0]$. 
+D&#233;calage also has an abstract [[category theory|category theoretic]] description as follows. The [[augmented simplex category]] with the ordinal sum operation is a [[monoidal category]] $(\Delta_a, + = \sigma, 0 = [-1])$. This monoidal category carries a canonical [[monoid]], namely the terminal object $1 = [0]$ with its unique monoid structure. By duality, the monoidal category $\Delta_a^{op}$ has a comonoid, also denoted $[0]$. 
 
-As is the case for any comonoid in a monoidal category, the comonoid $[0]$ induces a comonad $D_0 = (-) + [0] = \sigma(-, [0])$ on $\Delta_a^{op}$. And, as is the case for any $2$-functor, exponentiation $Set^{-}$ as a $2$-functor (say of the form $cat^{op} \to Cat$, from small categories to locally small categories) takes the comonad $D_0: \Delta_a^{op} \to \Delta_a^{op}$ in $cat^{op}$ to a comonad $Set^{D_0}: Set^{\Delta_a^{op}} \to Set^{\Delta^{op}}$ in $Cat$. This is precisely the d&eacute;calage comonad denoted above as $Dec_0: SSet \to SSet$. 
+As is the case for any comonoid in a monoidal category, the comonoid $[0]$ induces a comonad $D_0 = (-) + [0] = \sigma(-, [0])$ on $\Delta_a^{op}$. And, as is the case for any $2$-functor, exponentiation $Set^{-}$ as a $2$-functor (say of the form $cat^{op} \to Cat$, from small categories to locally small categories) takes the comonad $D_0: \Delta_a^{op} \to \Delta_a^{op}$ in $cat^{op}$ to a comonad $Set^{D_0}: Set^{\Delta_a^{op}} \to Set^{\Delta_a^{op}}$ in $Cat$. This comonad, mapping $F: \Delta_a^{op} \to Set$ to $F \circ D_0: \Delta_a^{op} \to Set$, is precisely the d&eacute;calage comonad $Dec_0: SSet \to SSet$. 
 
 (By similar reasoning, there is a second comonad $D^0 = [0] + (-) = \sigma([0], -)$ on $\Delta_a^{op}$, which in turn induces a second comonad $Set^{D^0}: Set^{\Delta_a^{op}} \to Set^{\Delta_a^{op}}$. This second d&eacute;calage comonad is denoted by [Stevenson](#Stevenson11) as $Dec^0: SSet \to SSet$.) 
 
-There are tautologously equivalent formulations. One formulation invokes the fact that $\Delta_a$ together with the terminal monoid $[0]$ constitute the "[[walking structure|walking]] [[monoid]]", i.e., $\Delta_a$ is initial among monoidal categories equipped with a monoid. Similarly, $\Delta_a^{op}$ is the walking [[comonoid]]: by an application of initiality, strict monoidal functors $\Delta_a^{op}\to [C, C]$ are precisely in correspondence with comonoids in the endofunctor category $[C, C]$ (as a monoidal category under endofunctor composition), that is to say, with comonads on $C$. 
+There are tautologically equivalent formulations. One formulation invokes the fact that $\Delta_a$ together with the terminal monoid $[0]$ constitute the "[[walking structure|walking]] [[monoid]]", i.e., $\Delta_a$ is initial among monoidal categories equipped with a monoid. Similarly, $\Delta_a^{op}$ is the walking [[comonoid]]: by initiality, strict monoidal functors $\Delta_a^{op}\to [C, C]$ are precisely in correspondence with comonoids in the endofunctor category $[C, C]$ (as a monoidal category under endofunctor composition), that is to say, with comonads on $C$. 
 
 Consider then the monoidal product
 $$ \sigma : \Delta_a^{op} \times \Delta_a^{op} \to \Delta_a^{op}$$
-Analogous to Cayley embeddings of monoids into endofunction monoids, either way of currying this product produces a strict monoidal functor $\Delta_a^{op}\to [\Delta_a^{op},\Delta_a^op]$, in fact a strict monoidal functor into an endofunctor category. By applying a 2-functoriality argument as above, there is additionally a strict monoidal functor 
+Analogous to Cayley embeddings of monoids into endofunction monoids, either way of currying this product produces a strict monoidal functor $\Delta_a^{op}\to [\Delta_a^{op},\Delta_a^op]$ into an endofunctor category. By applying 2-functoriality as above, there is additionally a strict monoidal functor 
 
 $$[\Delta_a^{op}, \Delta_a^{op}] \to [\mathbf{SSet},\mathbf{SSet}]$$ 
 
@@ -389,7 +389,7 @@ The map $d_{last}: Dec_0 \to Id$ is the counit of the comonad. The comonad itsel
 
 $$\array{
 P X & \to & X^I \\
-\downarrow & & \downarrow eval_0 \\
+\downarrow & & \downarrow \mathrlap{eval_0} \\
 |X| & \stackrel{i}{\to} & X
 }$$
 
@@ -403,7 +403,7 @@ $$Dec_0 \circ S \cong S \circ P$$
 
 where $S: Top \to Set^{\Delta^{op}}$ is simplicial singularization. 
 
-A $P$-coalgebra partitions $X$ into path components and exhibits contractibility of each component. Similarly, a coalgebra of the decelage comonad exhibits the acyclicity of the underlying simplicial set. 
+A $P$-coalgebra partitions $X$ into path components and exhibits contractibility of each component. Similarly, a coalgebra of the d&eacute;calage comonad exhibits the acyclicity of the underlying simplicial set. 
 
 ####Total D&#233;calage####
 
