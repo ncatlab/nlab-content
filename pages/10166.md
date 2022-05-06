@@ -17,9 +17,12 @@
 
 ## Idea
 
-For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a _$G$-equivariant bundle_ on $X$ is a [[bundle]] on the [[action groupoid]] $X \sslash G$ of $X$.
+For $X$ a [[space]] and $G$ a [[group]] with an [[action]] on $X$, a _$G$-equivariant bundle_ on $X$ is a [[bundle]] whose total space is equipped with a $G$-[[action]] such that the projection map is $G$-[[equivariant function|equivariant]].
+
 
 ## Examples
+
+* [[equivariant tautological line bundle]]
 
 * in [[arithmetic geometry]]: [[shtuka]]
 
