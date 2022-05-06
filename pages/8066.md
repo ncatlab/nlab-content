@@ -23,7 +23,7 @@ Open games have a close connection to [[lens (in computer science)|lenses]]. Thi
 * $n$Cafe: [combinatorial game categories](http://golem.ph.utexas.edu/category/2009/11/combinatorialgame_categories.html), [zero determinant strategies](http://golem.ph.utexas.edu/category/2012/07/zerodeterminant_strategies_in.html) in the iterated prisoner's dilemma
 * wikipedia: [game theory](https://secure.wikimedia.org/wikipedia/en/wiki/Game_theory), [combinatorial game theory](http://en.wikipedia.org/wiki/Combinatorial_game_theory), [dominance (game theory)](http://en.wikipedia.org/wiki/Dominance_%28game_theory%29), [Nash equilibrium](http://en.wikipedia.org/wiki/Nash_equilibrium), [wild type](http://en.wikipedia.org/wiki/Wild_type) 
 * William Press, Freeman Dyson, _Iterated prisoner's dilemma contains strategies that dominate any evolutionary opponent_, [PNAS open access](http://www.pnas.org/content/early/2012/05/16/1206569109.full.pdf+html), March 2012.
-* [[J.R.B. Cockett]], _Combinatorial game categories_, [pdf](http://geoff.reluctantm.com/publications/CGC.pdf)
+* [[J.R.B. Cockett]], G.S.H. Cruttwell and K. Saff, _Combinatorial game categories_, [pdf](https://www.mta.ca/uploadedFiles/Community/Bios/Geoff_Cruttwell/CGC.pdf)
 * [[André Joyal]], _Remarques sur la th&#233;orie des jeux &#224; deux personnes_, Gazette des
 Sciences Mathematiques du Qu&#233;bec 1(4):46&#8211;52, 1977; Robin Houston's rough translation [ps](http://www.ma.man.ac.uk/~rhouston/Joyal-games.ps)
 * Andr&#233; Joyal, _Free lattices, communication and money games_, in: Logic and
