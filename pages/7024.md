@@ -5,8 +5,8 @@
 
 ## Selected writings
 
-On [[rational homotopy theory]]:
+On [[rational homotopy theory]] via a [[model structure on dg-algebras]]:
 
-* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _On PL deRham theory and rational homotopy type_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
 category: people
