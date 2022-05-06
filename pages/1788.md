@@ -1,5 +1,15 @@
 
 
++-- {: .num_defn #ReducedSimplicialSet}
+###### Definition
+
+ddd
+
+=--
+
+Def \ref{ReducedSimplicialSet}
+
+
 [[Chen Ning Yang]] on the [[physics]] of [[Yang-Mills theory]] being about the [[mathematics]] of [[connection on a bundle|connections]] on [[fiber bundles]]:
 
 > $[$This$]$ was not just joy. There was something more, something deeper: After all, what could be more mysterious, what could be more awe-inspiring, than to find that the structure of the [[observable universe|physical world]] is intimately tied to the deep [[mathematics|mathematical]] concepts, concepts which were developed out of considerations rooted only in [[logic]] and the beauty of form?
