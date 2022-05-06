@@ -56,6 +56,8 @@
 
   * [[D2-D4-brane bound state]]
 
+  * [[D6-D8-brane bound state]]
+
 * [NS5-D4-D2 bound states](NS5-brane#NS5D4D2BoundStates)
 
 
