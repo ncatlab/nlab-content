@@ -29,6 +29,8 @@ This relocation of theology from ontology to logic proved to be consequential in
 
 ## Related entries
 
+* [[Critique of Pure Reason]]
+
 * [[infinite judgement]]
 
 * [[absolute conclusion]]
@@ -51,6 +53,8 @@ This relocation of theology from ontology to logic proved to be consequential in
 * {#Hogrebe89} W. Hogrebe, _Pr&#228;dikation und Genesis_, Suhrkamp Frankfurt a. M. 1989.
 
 * {#KdrV1} [[Immanuel Kant|I. Kant]], _[[Critique of Pure Reason|Kritik der reinen Vernunft 2]]_, Suhrkamp Frankfurt a. M. 1985[1781, rev. 1787]. (B 600-11/ A 572-84)
+
+* S. Kovač, _The totality of predicates and the possibility of the most real being_ , Journal of Applied Logics—IfCoLog Journal of Logics and their Applications **5** no. 7 (2018) pp.1523-1552. ([pdf](http://www.collegepublications.co.uk/downloads/ifcolog00027.pdf))
 
 * P. Rohs, _Kants Prinzip der durchg&#228;ngigen Bestimmung alles Seienden_, Kant-Studien **69** (1978) pp.170-180.
 
