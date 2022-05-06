@@ -45,8 +45,8 @@ Objects preserved by the [[monad]] of this adjunction are called **Isbell self-d
 
 Under the interpretation of [[presheaves]] as generalized [[spaces]] and [[copresheaves]] as generalized [[quantities]] modeled on $C$ ([Lawvere 86](#Lawvere86), see at _[[space and quantity]]_), Isbell duality is the archetype of the [[duality]] between [[geometry]] and [[algebra]] that permeates mathematics (such as [[Gelfand duality]], [[Stone duality]], or the [[embedding of smooth manifolds into formal duals of R-algebras]]).
 
-## Definition
 
+## Definition
 
 Let $\mathcal{V}$ be a good enriching category (a [[cosmos]], i.e. a [[complete category|complete]] and [[cocomplete category|cocomplete]] [[closed monoidal category|closed]] [[symmetric monoidal category]]).
 
@@ -276,6 +276,42 @@ $$\mathcal{O}(F)(c) = [C^{op}, \mathcal{V}](F, C(-, c)) \hookrightarrow \int_{s:
 $$Spec(G)(c) = [C, \mathcal{V}](G, C(c, -)) \hookrightarrow \int_{t: T} \mathcal{V}(G t, \hom(c, t))$$
 
 =--
+
+## Example
+
+In the simplest case, namely for an ordinary category $\mathcal{C}$, the adjunction between presheaves and copresheaves arises as follows.  
+
+The category of [[presheaves]] $[\mathcal{C}^{op}, \mathrm{Set}]$ is the [[free cocompletion]] of $\mathcal{C}$.  This means that any functor 
+
+$$f \colon \mathcal{C} \to \mathcal{D}$$ 
+
+to a [[cocomplete category]] $\mathcal{D}$ extends along the [[Yoneda embedding]] $y \colon \mathcal{C} \to [\mathcal{C}^{op}, \mathrm{Set}]$ to a [[cocontinuous functor]]  
+
+$$F \colon [\mathcal{C}^{op}, \mathrm{Set}] \to \mathcal{D}$$
+
+in a manner unique up to natural isomorphism.
+
+Dually, the category of [[copresheaves]]  $[\mathcal{C}, \mathrm{Set}]^{op}$ is the [[free completion]] of $\mathcal{C}$.  This means that any functor 
+
+$$g \colon \mathcal{C} \to \mathcal{D}$$ 
+
+to a [[complete category]] $\mathcal{D}$ extends along the [[co-Yoneda lemma|co-Yoneda embedding]] $z \colon \mathcal{C} \to [\mathcal{C}, \mathrm{Set}]^{op}$ to a [[continuous functor]].
+
+$$G \colon [\mathcal{C}^{op}, \mathrm{Set}] \to \mathcal{D}$$
+
+in a manner unique up to natural isomorphism.
+
+We can apply these ideas to get the functors involved in Isbell duality.   The presheaf category $[\mathcal{C}^{op}, \mathrm{Set}]$ has all limits, so we can extend the Yoneda embedding to a continuous functor
+
+$$ Y \colon [\mathcal{C}, \mathrm{Set}]^{op} \to [\mathcal{C}^{op}, \mathrm{Set}] $$
+
+from copresheaves to presheaves.   Dually, the copresheaf category $[\mathcal{C}, \mathrm{Set}]^{op}$ has all colimits, so we can extend the co-Yoneda embedding to a cocontinuous functor 
+
+$$ Z \colon [\mathcal{C}^{op}, \mathrm{Set}] \to [\mathcal{C}, \mathrm{Set}]^{op} $$
+
+from presheaves to copresheaves.   
+
+Isbell duality says that these are adjoint functors: $Y$ is right adjoint to $Z$.
 
 
 ## Properties
