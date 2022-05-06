@@ -122,6 +122,7 @@ $$
 
 [[!include low dimensional rotation groups -- table]]
 
+* [[pseudoscalar representation]], [[pseudovector representation]]
 
 ## References
 
