@@ -62,6 +62,12 @@ For $X$ an $n$-dimensional [[manifold]] a lift of [[generalized the|the]] classi
 
 * the case of [[SO(8)]] is special, since in the [[ADE classification]] of [[simple Lie groups]] it corresponds to [[D4]], which makes its [[representation theory]] enjoy _[[triality]]_.
 
+\linebreak
+
+[[!include low dimensional rotation groups -- table]]
+
+\linebreak
+
 ## Related concepts
 
 $\cdots \to$ [[Fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ **special orthogonal group** $\to$ [[orthogonal group]].
