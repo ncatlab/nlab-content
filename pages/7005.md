@@ -374,4 +374,4 @@ For more references see _[[homotopy type theory]]_.
 
 
 [[!redirects univalence]]
-[[!redirects univalent foundations]]
+
