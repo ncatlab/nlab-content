@@ -140,6 +140,8 @@ $$
 ## References
  {#References}
 
+### General
+
 The definition appears in section 3 of 
 
 * [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([arXiv:1104.0181](http://arxiv.org/abs/1104.0181))
@@ -184,6 +186,15 @@ Discussion in the context of [[extended TQFT]] appears in
 
 * [[Claudia Scheimbauer]], _Factorization homology as a fully extended topological field theory_ ([pdf](https://people.maths.ox.ac.uk/scheimbauer/ScheimbauerThesis.pdf))
 
-##Videos:
 
 * [Videos from  from the BIRS Workshop 15w5125](http://www.birs.ca/events/2015/5-day-workshops/15w5125/videos) on _Factorizable Structures in Topology and Algebraic Geometry_.
+
+### Relation to cohomology of configuration spaces
+
+Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
+
+* Quoc P. Ho, _Higher representation stability for ordered configuration spaces and twisted commutative factorization algebras_ ([arXiv:2004.00252](https://arxiv.org/abs/2004.00252))
+
+
+
+
