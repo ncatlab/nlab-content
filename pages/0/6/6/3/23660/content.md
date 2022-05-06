@@ -20,13 +20,13 @@
 
 ## Idea ##
 
-A notion of real numbers that is [[sequentially Cauchy complete]], because the [[Cauchy real numbers]] are not sequentially Cauchy complete in [[constructive mathematics]]
+A notion of real numbers that is [[sequentially modulated Cauchy complete]], because the [[modulated Cauchy real numbers]] are not sequentially modulated Cauchy complete in [[constructive mathematics]]
 
 ## Definition ##
 
-### As a sequentially Cauchy complete Archimedean field ###
+### As a sequentially modulated Cauchy complete Archimedean field ###
 
-Let $F$ be an [[Archimedean field]]. $F$ is *sequentially Cauchy complete* if every [[Cauchy sequence]] in $F$ [[converges]]. The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the [[initial object]] in the [[category]] of sequentially Cauchy complete Archimedean fields. 
+Let $F$ be an [[Archimedean field]]. $F$ is *[[sequentially modulated Cauchy complete]]* if every [[Cauchy sequence]] in $F$ with a [[modulus of convergence]] [[converges]]. The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the [[initial object]] in the [[category]] of sequentially modulated Cauchy complete Archimedean fields. 
 
 ### As a Cauchy structure ###
 
