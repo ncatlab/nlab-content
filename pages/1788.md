@@ -1,5 +1,17 @@
 
 $$
+  \cdots
+$$
+
+$$
+  \{\Gamma_{\mu}, \Gamma_\nu\} = \pm 2 g_{\mu \nu}
+$$
+
+$$
+  (\Gamma_0)^2 = \pm 1
+$$
+
+$$
   \wedge \;\; \Leftrightarrow
 $$
 
