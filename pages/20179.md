@@ -19,13 +19,15 @@ If these equivalent conditions hold, we write $\lambda\unlhd \mu$.  If $\lambda 
 
 ### Examples
 
-* For any uncountable regular cardinal $\lambda$ we have $\omega\lhd \lambda$.
+* For any uncountable regular cardinal $\lambda$ we have $\aleph_0\lhd \lambda$.  (In fact $\aleph_0$ is the only infinite regular cardinal with this property; see [this question](https://mathoverflow.net/q/150305).)
 
 * For any regular cardinal $\lambda$ we have $\lambda\lhd \lambda^+$ (its [[successor cardinal]]).
 
 * If $\lambda\le\mu$ then $\lambda \lhd (2^\mu)^+$.  Thus, for any set $S$ of regular cardinals there is a regular cardinal $\mu$ such that $\lambda\lhd \mu$ for all $\lambda\in S$.
 
-* We write $\lambda\ll\mu$ if for every $\lambda'\lt\lambda$ and $\mu'\lt\mu$ we have $(\mu')^{\lambda'} \lt\mu$.  (This is [[Higher Topos Theory]], Definition A.2.6.3.)  Then if $\lambda\ll\mu$, then $\lambda\lhd \mu$.
+* We write $\lambda\ll\mu$ if for every $\lambda'\lt\lambda$ and $\mu'\lt\mu$ we have $(\mu')^{\lambda'} \lt\mu$.  (This is [[Higher Topos Theory]], Definition A.2.6.3.)  Then if $\lambda\ll\mu$, then $\lambda\lhd \mu$.  The converse claim implies the [[generalized continuum hypothesis]] for regular cardinals, hence is not provable in [[ZFC]]; whether it is disprovable was asked [here](https://mathoverflow.net/q/324437/).
+
+* If $\kappa$ is an [[inaccessible cardinal]], then every $\lambda\lt\kappa$ satisfies $\lambda\lhd \kappa$.
 
 * $\aleph_1 \lhd \aleph_{\omega+1}$ does not hold.
 
