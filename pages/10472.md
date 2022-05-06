@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _pointed topological space_ is a [[topological space]] with a choice of one of its points.
+A _pointed topological space_ (often _[[pointed space]]_, for short) is a [[topological space]] equipped with a choice of one of its [[points]] ([[elements]]).
 
 Although  this concept may seem simple, pointed topological spaces play a central role for instance in [[algebraic topology]] as domains for  [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology theories]] and as an ingredient for the definition of [[spectra]].
 
