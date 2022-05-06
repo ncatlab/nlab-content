@@ -136,11 +136,13 @@ The corresponding $(\infty,1)$-toposes are the [[cohesive (∞,1)-topos]]es [[ET
 
 
 ### Over locally $n$-connected topological spaces
+  {#OverLocallynConnectedTopologicalSpaces}
 
 +-- {: .num_example}
 ###### Example
 
-For $X$ a [[locally contractible space]], $Sh_{(\infty,1)}(X)$ is a locally $\infty$-connected $(\infty,1)$-topos.
+For $X$ a [[locally contractible space]], such that $Sh_{(\infty,1)}(X)$  is [[hypercomplete (infinity,1)-topos|hypercomplete]], $Sh_{(\infty,1)}(X)$ is a locally $\infty$-connected $(\infty,1)$-topos.
+
 =--
 
 +-- {: .proof}
@@ -149,13 +151,6 @@ For $X$ a [[locally contractible space]], $Sh_{(\infty,1)}(X)$ is a locally $\in
 The full subcategory $cOp(X) \hookrightarrow Op(X)$ of the [[category of open subsets]] on the contractible subsets is another site of definition for $Sh_{(\infty,1)}(X)$. And it is a [[locally ∞-connected (∞,1)-site]].
 =--
 
-By the same kind of argument:
-
-+-- {: .num_exampke}
-###### Example
-
-For $n \in \mathbb{N}$ and for $X$ a locally $n$-[[n-connected space|connected]] [[topological space]], $Sh_{(n+1,1)}(X)$ is a locally $n$-connected $(n+1)$-topos.
-=--
 
 +-- {: .num_prop}
 ###### Proposition
