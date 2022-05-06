@@ -223,17 +223,20 @@ Thus, a $G$-torsor in a category with products can be tautologically interpreted
 
 ## References 
 
+Elementary exposition:
+
+* {#Baez} [[John Baez]], _Torsors made easy_, ([web](http://math.ucr.edu/home/baez/torsors.html))
+
+  > (discussion for [[discrete groups]])
+
+
 Textbook accounts:
 
 * {#Milne80} [[James Milne]], Prop. III.4.1 in: _[[Étale Cohomology]]_, Princeton Mathematical Series __33__, 1980. xiii+323 pp. ([jstor:j.ctt1bpmbk1](https://www.jstor.org/stable/j.ctt1bpmbk1))
 
   > (discussion for [[algebraic groups]] in [[algebraic geometry]])
 
-Elementary exposition:
-
-* [[John Baez]], _Torsors made easy_, ([web](http://math.ucr.edu/home/baez/torsors.html))
-
-  > (discussion for [[discrete groups]])
+For more see the references at _[[principal bundle]]_ (which are torsors in the generality [[internalization|internal]] to [[slice categories]]).
 
 A general [[topos theory|topos theoretic]] account is in  
 
