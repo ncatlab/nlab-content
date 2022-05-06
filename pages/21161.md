@@ -7,7 +7,7 @@
 
 ## Idea  
 
-Given a group action on a graph $Y$ (with involution on the edges), one gets a quotient graph $X=Y/G$ together the family of the stabilisers on the vertices and on the edges. Abstracting this gives a graph of groups.
+Given a [[groupoid infinity-action|group action]] on a [[graph]] $Y$ (with involution on the edges), one gets a quotient graph $X=Y/G$ together with the family of the stabilisers on the vertices and on the edges. Abstracting this gives a graph of groups.
 
 
 ## Definition
@@ -36,4 +36,4 @@ In the usual form of Bass-Serre Theory a graph of groups is derived from the act
 
 * [[H. Bass]], _Covering theory for graphs of groups_, Journal of Pure and Applied Algebra, 89, (1993), 3–47.
 
-[[!redirect graphs of groups]]
+[[!redirects graphs of groups]]
