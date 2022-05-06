@@ -455,6 +455,10 @@ A discussion of univalence for [[categories of presheaves]] over an [[inverse ca
 
 * {#Shulman12} [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253)).
 
+Proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-category|presentations]] by [[model categories]] which interpret (provide [[categorical semantics]]) for [[homotopy type theory]] with [[univalence|univalent]] [[type universes]]:
+
+* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
+
 Discussion of univalence in various other [[model category]] presentations for [[∞Grpd]] ([[cubical sets]], [[cellular sets]]) is in
 
 * {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
