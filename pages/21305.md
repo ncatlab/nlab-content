@@ -21,6 +21,11 @@
 
 By a _diquark_ one refers to a [[bound state]] of two [[constituent quarks]] _inside_ a larger [[bound state]] of a total if three [[constituent quarks]] constituting a [[baryon]].
 
+## Related concepts
+
+* [[dilepton]]
+
+
 ## References
 
 See also
