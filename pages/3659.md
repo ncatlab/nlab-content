@@ -79,7 +79,17 @@ See theorem 6.15 in the book by Glimm and Jaffe (see references).
 * [[spin-statistics theorem]]
 
 ## References
-The main reference is the classic textbook about [[constructive quantum field theory]]:
+
+The original article is
+
+* [[Konrad Osterwalder]], [[Robert Schrader]], _Axioms for Euclidean Green's functions_, Comm. Math. Phys. Volume 31, Number 2 (1973), 83-112 ([Euclid:1103858969](https://projecteuclid.org/euclid.cmp/1103858969))
+
+Exposition is in 
+
+* Dirk Schlingemann, _From euclidean field theory to quantum field theory_ ([arXiv:hep-th/9802035](http://arxiv.org/abs/hep-th/9802035))
+
+
+A textbook account is in 
 
 * [[James Glimm]], [[Arthur Jaffe]], _[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]_
 
