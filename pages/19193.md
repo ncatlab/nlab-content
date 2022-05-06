@@ -62,7 +62,7 @@ See also
 
 ### Computer simulation
 
-There are various computer simulations for structure formation, listed below. Review includes the following:
+There are various computer simulations for cosmic structure formation, listed below. Review includes the following:
 
 * {#Springel13} Volker Springel, _Simulations of Cosmic Structure Formation_, USP Cosmology Conference Sao Paulo, February 2013 ([pdf](http://astro.dur.ac.uk/~cmb/LACEGAL/Talks/talk_springel.pdf), [[Springel13.pdf:file]])
 
@@ -129,6 +129,8 @@ baryonic [[Tully-Fisher relation]] qualitatively reproduced in [El-Badry 18, Fig
 #### Other
 
 * _The Quijote simulations_ ([arXiv:1909.05273](https://arxiv.org/abs/1909.05273))
+
+* [[gevolution]] (for [[inhomogeneous cosmology]])
 
 [[!redirects galaxy formation]]
 
