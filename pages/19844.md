@@ -22,24 +22,31 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 
 The presence -- or not -- of flavour anomalies is part of the general _[[flavour problem]]_ of the [[standard model of particle physics]].
 
-Flavor universality pertains in particular to [[leptonic decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
+Flavor universality pertains in particular to ([[semileptonic decay|semi]]-)[[leptonic decays]] of [[bottom quarks]], denoted $b$ (in the third [[generation of fundamental particles|generation]]), into [[electron]]/[[positron]] pairs, denoted $e^+ e^-$ (in the first [[generation of fundamental particles|generation]]) or [[muon]]/[[antiparticle|anti]][[muon]] pairs, denoted $\mu^+ \mu^-$ (in the second [[generation of fundamental particles|generation]]), the latter two jointly denoted $\ell^+ \ell^-$ (for "[[leptons]]") in this context.
 
 Since [[quarks]] never appear in isolation (due to [[confinement]]) but always as [[bound states]] to [[hadrons]], [[scattering amplitude|decays]] specifically of [[bottom quarks]] manifest themselves in [[leptonic decays]] of [[mesons]] that contain $b$ -- [[B-mesons]], denoted $B$ --
 
-\begin{center}
 \begin{imagefromfile}
   "file_name": "bsllprocesses.jpg",
-  "width": 570
+  "width": 570,
+  "caption": "from [Cartelle 18](#Cartelle18)"
 \end{imagefromfile}
-\end{center}
-
-> graphics grabbed from [Cartelle 18](#Cartelle18) -- here $s$ denotes a [[strange quark]]
 
 or as [[leptonic decays]] of [[baryons]] that contain $b$ -- [[Lambda baryons]], denoted $\Lambda_b$ (measured only more recently ([LHCb 19120.8139](#LHCb191208139))).
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/AltmannshoferRKDecay.jpg" width="300"/>
-</div>
+\begin{imagefromfile}
+  "file_name": "AltmannshoferRKDecay.jpg",
+  "width": 300,
+  "float": "right",
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "from [Altmannshofer 14](flavor+problem#Altmannshofer14)" 
+\end{imagefromfile}
 
 
 Hence flavour universality in the [[standard model of particle physics]] demands, for example, that the _[[ratios]]_ of decay rates (branching fractions) of [[B-mesons]] into [[electrons]] are the same as into [[muons]], hence that the [[ratio]] 
@@ -59,7 +66,6 @@ Hence flavour universality in the [[standard model of particle physics]] demands
 
 is essentially equal to 1. Any [[statistical significance|significant]] departure of this [[observable]] from 1 would be a _flavour anomaly_ and would mean that there are fundamental processes at play which are not described by the current [[standard model of particle physics]] ("New Physics").
 
-> graphics from [Altmannshofer 14](flavor+problem#Altmannshofer14)
 
 Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with indirect high-luminosity/high-[[precision experiment]] (see e.g. [Brambilla et al. 14, Section 5](#Brambilla14) [AHRS 20](#AHRS20)), complementary to the traditional high-energy direct detection measurements.
 
@@ -135,31 +141,36 @@ Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (s
 The [[statistical significances]] of pull away from the [[standard model of particle physics|standard model]] for [[effective field theory|effective]] New Physics models:
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/AlgueroBsll19Fits.jpg" width="600">
-</center>
+\begin{imagefromfile}
+  "file_name": "AlgueroBsll19Fits.jpg",
+  "width": 600,
+  "caption": "from [Alguero 19](#Alguero19)"
+\end{imagefromfile}
 
-> table taken from [Alguero 19](#Alguero19)
 
-<center>
-<img src="https://ncatlab.org/nlab/files/Koppenburg20PullSummary.jpg" width="600">
-</center>
 
-> table taken from [Koppenburg 20](#Koppenburg20)
+\begin{imagefromfile}
+  "file_name": "Koppenburg20PullSummary.jpg",
+  "width": 600,
+  "caption": "from [Koppenburg 20](#Koppenburg20)"
+\end{imagefromfile}
+
 
 
 
 There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard model increases further if non-trivial [[hadron|hadronic]] [[form factors]] are taken into account:
 
-<center>
-<img src="https://ncatlab.org/nlab/files/DescotesGenonBsll19FormfactorCorrectionA.jpg" width="600">
-</center>
 
-<center>
-<img src="https://ncatlab.org/nlab/files/DescotesGenonBsll19FormfactorCorrectionB.jpg" width="600">
-</center>
+\begin{imagefromfile}
+  "file_name": "DescotesGenonBsll19FormfactorCorrectionA.jpg",
+  "width": 600
+\end{imagefromfile}
 
-> slide grabbed from [Descotes-Genon 19b](#DescotesGenon19b)
+\begin{imagefromfile}
+  "file_name": "DescotesGenonBsll19FormfactorCorrectionB.jpg",
+  "width": 600,
+  "caption": "from [Descotes-Genon 19b](#DescotesGenon19b)"
+\end{imagefromfile}
 
 and also that the discrepancy increases further with [[QED]]-corrections taken into account ([Mishra-Mahajan 20,p. 20-21](#MishraMahajan20)).
 
