@@ -58,7 +58,7 @@ The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states tha
 
 * {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541, Amer. Math. Soc. 2011, 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
 
-* {#GaroufalidisThurstonZickert11} Stavros Garoufalidis, [[Dylan Thurston]], [[Christian Zickert]], _The complex volume of $SL(n,\mathbb{C})$-representations of 3-manifolds_ ([arXiv:1111.2828](http://arxiv.org/abs/1111.2828), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
+* {#GaroufalidisThurstonZickert11} [[Stavros Garoufalidis]], [[Dylan Thurston]], [[Christian Zickert]], _The complex volume of $SL(n,\mathbb{C})$-representations of 3-manifolds_ ([arXiv:1111.2828](http://arxiv.org/abs/1111.2828), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
 
 The [[volume conjecture]] (Kashaev's conjecture) for complex volume is due to 
 
