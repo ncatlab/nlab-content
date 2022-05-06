@@ -25,6 +25,10 @@ In the current [[standard model of particle physics]] the [[fundamental particle
 
 Indications of flavour anomalies have been observed consistently and with increasing [[statistical significance]] in [[B meson]] processes in various [[experiments]] at the [[LHC]] (see references [below](#References)). If the ongoing evaluation of the data of LHC's Run 2 (to be completed by end of 2018) confirms the measurements of Run 1, then the [[statistical significance]] of the effect should have reached 5 [[standard deviations]] and hence officially count as detection of flavour anomaly, which would make it the first established "new physics" seen at the [[LHC]].
 
+## Related concepts
+
+* [[flavour (particle physics)]]
+
 ## References
  {#References}
 
