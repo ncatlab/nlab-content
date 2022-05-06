@@ -452,10 +452,10 @@ The unique solution $A_U(s = 1)$ of the above differential equation at $s = 1$ f
 
 #### Idea
 
-In the formulation here the [[field (physics)|fields]] of [[supergravity]] are modeled by  [[super differential forms]] on a [[supermanifold]] $\tilde X$, and this very fact serves to make local [[supersymmetry]] manifest, i.e.serves to model geometry by [[higher supergeometry|higher supergeometric]] [[higher Cartan geometry]].
+In the formulation here the [[field (physics)|fields]] of [[supergravity]] are modeled by [[super differential forms]] on a [[supermanifold]] $\tilde X$, and this very fact serves to make local [[supersymmetry]] manifest, i.e., serves to model geometry by [[higher supergeometry|higher supergeometric]] [[higher Cartan geometry]].
 
 But the actual fields of supergravity are supposed to be fields on actual [[spacetime]] $X$ (an ordinary [[smooth manifold]]) $X \hookrightarrow \tilde X$.
-Hence one is to impose a constraint that ensures that the [[super differential forms]] used on $\tilde X$ are uniquely determined by their restriction to ordinary [[differential forms]] on $X$. This constraint is called _rheonomy_ ([Castellani-D'Auria-Fr&#233; 91, vol 2, section III.3.3](#CastellaniDAuriaFre)), alluding to the idea that the constrains allow to "flow" the field data from spacetime $X$ to the [[super spacetime]] $\tilde X$.
+Hence one is to impose a constraint that ensures that the [[super differential forms]] used on $\tilde X$ are uniquely determined by their restriction to ordinary [[differential forms]] on $X$. This constraint is called _rheonomy_ ([Castellani-D'Auria-Fr&#233; 91, vol 2, section III.3.3](#CastellaniDAuriaFre)), alluding to the idea that the constraints allow the field data to "flow" from spacetime $X$ to the [[super spacetime]] $\tilde X$.
 
 The idea here is [[analogy|analogous]] ([Castellani-D'Auria-Fr&#233; 91, vol 2, p. 660](#CastellaniDAuriaFre), [Fr&#233;-Grassi 08, p. 4](#FreGrassi08)) to how the [[Cauchy-Riemann equations]] impose the constraint for a [[function]] on the [[complex plane]] $\mathbb{C}$ to be a [[holomorphic function]] and hence to be already fixed by its values on the [[real line]] $\mathbb{R} \hookrightarrow \mathbb{C}$.
 
