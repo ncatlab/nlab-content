@@ -40,6 +40,8 @@ Some of the additional assumptions on a model category $M$ that are often useful
 
 * $M$ is a [[simplicial model category]].
 
+* $M$ is a [[simplicially locally cartesian closed category]].
+
 Definitions in the literature include:
 
 * In [Arndt-Kapulkin](#AK) a "logical model category" was defined to be a model category in which pullback along any fibration has a right adjoint and acyclic cofibrations are preserved by pullback along fibrations.
@@ -48,7 +50,7 @@ Definitions in the literature include:
 
 * In [Gepner-Kock](#GK) a "combinatorial type-theoretic model category" was defined to be a right proper combinatorial locally cartesian closed model category whose cofibrations are the monomorphisms.
 
-* In [Lumsdaine-Shulman](#LS) a "good model category" was defined to be a simplicial, right proper, locally cartesian closed model category in which every monomorphism is a cofibration and cofibrations are closed under limits, while an "excellent model category" (no relation to the similarly-named [[excellent model category]]) was defined to be a good model category that is additionally combinatorial.
+* In [Lumsdaine-Shulman](#LS) a "good model category" was defined to be a simplicial, right proper, simplicially locally cartesian closed model category in which every monomorphism is a cofibration and cofibrations are closed under limits, while an "excellent model category" (no relation to the similarly-named [[excellent model category]]) was defined to be a good model category that is additionally combinatorial.
 
 ## Examples
 
