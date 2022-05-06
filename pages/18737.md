@@ -41,10 +41,10 @@ One thing to be cautious about is that while it is possible to model the Martin-
 
 * {#CohenCoquandHuberMoertberg17} [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_ ([pdf](https://hal.inria.fr/hal-01378906/document))
 
-* {#CubicalCanonicity} Simon Huber, _Canonicity for Cubical Type Theory_, [1607.04156](https://arxiv.org/abs/1607.04156)
+* {#CubicalCanonicity} [[Simon Huber]], _Canonicity for Cubical Type Theory_ ([arXiv:1607.04156](https://arxiv.org/abs/1607.04156))
 
-* {#CubicalHIT}  Thierry Coquand, Simon Huber, Anders Mörtberg, _On Higher Inductive Types in Cubical Type Theory_, [1802.01170](https://arxiv.org/abs/1802.01170)
+* {#CubicalHIT} [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _On Higher Inductive Types in Cubical Type Theory_ ([arXiv:1802.01170](https://arxiv.org/abs/1802.01170))
 
-* Evan Cavallo and Robert Harper, _Parametric Cubical Type Theory_, [1901.00489](https://arxiv.org/abs/1901.00489)
+* [[homotopytypetheory:Evan Cavallo]], [[Robert Harper]], _Parametric Cubical Type Theory_ ([arXiv:1901.00489](https://arxiv.org/abs/1901.00489))
 
 [[!redirects cubical type theories]]
