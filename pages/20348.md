@@ -37,5 +37,7 @@ This coset realization features in the [[octonionic Hopf fibration]], making man
 
 ## References
 
+* {#GrayGreen70} [[Alfred Gray]], Paul S. Green, p. 2 of _Sphere transitive structures and the triality automorphism_, Pacific J. Math. Volume 34, Number 1 (1970), 83-96 ([euclid:1102976640](https://projecteuclid.org/euclid.pjm/1102976640))
+
 * {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, [[Paolo Piccinni]], Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, Transformation Groups (2013) 18: 845 ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
 
