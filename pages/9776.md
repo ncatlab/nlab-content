@@ -32,6 +32,14 @@ For more on this see at _[Kaluza-Klein monopole -- Relation to the D6-brane](Kal
 
 The [[T-duality|T-dual]] of the D6 branes is the [[D7-brane]] in [[type IIB string theory]].
 
+### Bound states
+
+[[bound states]]/[[brane intersections]] involving D6-branes:
+
+* [[D6-D8 brane bound state]]
+
+* [[D2-D6 brane bound state]]
+
 ### Table of branes
 
 [[!include F-branes -- table]]
