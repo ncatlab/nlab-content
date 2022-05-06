@@ -16,7 +16,7 @@ Review includes
 
 * _Introduction to the gauged linear sigma model_ ([pdf](http://www2.yukawa.kyoto-u.ac.jp/~tetsuji.kimura/NOTEs/2004/GLSM.pdf))
 
-* [[Jock McOrist]], _The Revival of $(0,2)$ Linear Sigma Models_, Int.J.Mod.Phys.A26:1-41,2011 ([arXiv:1010.4667](http://arxiv.org/abs/1010.4667))
+* [[Jock McOrist]], _The Revival of $(0,2)$ Linear Sigma Models_, Int. J. Mod. Phys. A26:1-41, 2011 ([arXiv:1010.4667](http://arxiv.org/abs/1010.4667))
 
 Discussion for [[target spaces]] that are [[gerbes]]/[[stacks]] includes
 
