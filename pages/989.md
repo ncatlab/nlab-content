@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -36,6 +35,8 @@ If there is no danger for confusion, one often says simply 'associative algebra'
 More generally, a (merely) **associative algebra** need not have $i: R \to V$; that is, it is a [[semigroup]] instead of a monoid.
 
 Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[commutative monoid in a symmetric monoidal category]] in $Vect$.
+
+For a given ring the algebras form a category, [[Alg]], and the commutative algebras a subcategory, [[CommAlg]].
 
 ### Over monoids in a monoidal category
  {#OverMonoidsInAMonoidalCategory}
