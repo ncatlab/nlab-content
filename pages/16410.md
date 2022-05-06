@@ -122,6 +122,8 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role in t
 
 * {#BDDGS18} Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _Emergent de Sitter cosmology from decaying AdS_ ([arXiv:1807.01570](https://arxiv.org/abs/1807.01570))
 
+* Souvik Banerjee, [[Ulf Danielsson]], Giuseppe Dibitetto, Suvendu Giri, Marjorie Schillo, _de Sitter Cosmology on an expanding bubble_ ([arXiv:1907.04268](https://arxiv.org/abs/1907.04268))
+
 * {#Danielsson18} [[Ulf Danielsson]], _The quantum swampland_ ([arXiv:1809.04512](https://arxiv.org/abs/1809.04512))
 
   (argues that the issue with [[string theory|stringy]] de Sitter [[moduli stabilization]] raised in [Sethi 17](#Sethi17) is related to the de Sitter instability seen in QFT, according to the references [above](#InPerturbativeQuantumGravity))
