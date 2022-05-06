@@ -1403,6 +1403,8 @@ Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that th
 
 * [[classical model structure on topological spaces]]
 
+* [[Quillen adjunction between simplicial sets and connective dgc-algebras]]
+
 ## References
 
 
