@@ -19,8 +19,6 @@ Let $V_1,V_2 \subseteq Var$ be finite, and suppose $\theta : V_1\to V_2$ is a fu
 
 Here $A[\theta]$ and $T[\theta]$ denote simultaneous capture-avoiding substitution of $\theta(x)$ for each variable $x\in V_1$.  When $\theta$ is a bijection, this asserts invariance under renaming of free variables.  When $\theta$ is an inclusion, it asserts weakening, and when $\theta$ is surjective it is contraction.  Note that in general these containments can be strict, e.g. if some variable in $V_2 \setminus \theta(V_1)$ appears freely in $A$ or $T$, then the composites may have empty domain while the morphisms they are being compared to might not.
 
-*Is this the best way to phrase this lemma?  Streicher asserts only weakening by a single variable, which is enough since contraction is a special case of substitution, below.  But technically I think we do also need to say something somewhere about renaming of free variables.  And what about $\alpha$-equivalence of bound variables?*
-
 ### Substitution
 
 Let $V\subseteq Var$ be finite and $x\in Var\setminus V$, while $N$ is a raw term.  Then:
