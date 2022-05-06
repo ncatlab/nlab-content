@@ -30,7 +30,7 @@ The [[spin group]] in [[dimension]] 6.
 +-- {: .num_prop}
 ###### Proposition
 
-There is an [[isomorphism]]
+There is an [[exceptional isomorphism]]
 
 $$
   Spin(6) \simeq SU(4)
