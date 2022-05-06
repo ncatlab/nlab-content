@@ -31,6 +31,8 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 ## Related concepts
 
+* The refinement to [[equivariant cohomology]] is [[equivariant ordinary cohomology]]
+
 * The refinement to [[differential cohomology]] is [[ordinary differential cohomology]].
 
 * [[ordinary homology]]
