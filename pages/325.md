@@ -133,6 +133,7 @@ The [[nerve]] $N(C^{op})$ of $C^{op}$ is the [[simplicial set]] that is degreewi
 ## Classes of examples
 
 ### Opposite group
+ {#OppositeGroup}
 
 For $G = (S, \cdot)$ a [[group]] (or [[monoid]] or [[associative algebra]], etc.) with product operation
 
