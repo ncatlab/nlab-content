@@ -54,6 +54,11 @@ See also
 
 * [[Igor Bandos]], [[Fotis Farakos]], Stefano Lanza, Luca Martucci, [[Dmitri Sorokin]], _Three-forms, dualities and membranes in four-dimensional supergravity_, JHEP07(2018)028 ([arXiv:1803.01405](https://arxiv.org/abs/1803.01405))
 
+Discussion of coupling of the [[super 2-brane in 4d]] to [[D=4 N=1 super Yang-Mills theory]]:
+
+* [[Igor Bandos]], Stefano Lanza, [[Dmitri Sorokin]], _Supermembranes and domain walls in $\mathcal{N}=1$, $D=4$ SYM_ ([arXiv:1905.02743](https://arxiv.org/abs/1905.02743))
+
+
 Discussion of strongly coupled 4d physics akin to 11d [[M-theory]] with its [[M2-brane]] includes
 
 * [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod.Phys.Lett.A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
