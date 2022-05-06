@@ -46,6 +46,11 @@ such that $\langle -,-\rangle$
 
 ### General
 
+On the [[Faulkner construction]]:
+
+* {#Faulkner73} [[John Faulkner]], _On the geometry of inner ideals_, Journal of Algebra, Volume 26, Issue 1, July 1973, Pages 1-9 (<a href="https://doi.org/10.1016/0021-8693(73)90032-X">doi:10.1016/0021-8693(73)90032-X</a>)
+
+
 See also
 
 * Wikipedia, _[Quadratic Lie algebra](https://en.wikipedia.org/wiki/Quadratic_Lie_algebra)_
@@ -53,13 +58,24 @@ See also
 
 ### Relation to M2-brane 3-Lie algebras
 
-The full generalized axioms on the [[M2-brane 3-algebra]] and first insights into their relation to [[Lie algebra representations]] of [[metric Lie algebras]] is due to
+The full generalized axioms on the M2-brane 3-algebra and first insights into their relation to [[Lie algebra representations]] of [[metric Lie algebras]] is due to
 
 * {#CherkisSaemann08} [[Sergey Cherkis]], [[Christian Saemann]], _Multiple M2-branes and Generalized 3-Lie algebras_, Phys. Rev. D78:066019, 2008 ([arXiv:0807.0808](https://arxiv.org/abs/0807.0808))
 
-The full identification of [[M2-brane 3-algebras]] with dualizable [[Lie algebra representations]] over [[metric Lie algebras]] is due to
+The full identification of M2-brane 3-algebras with dualizable [[Lie algebra representations]] over [[metric Lie algebras]] is due to
 
-* {#MFFMER08} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+* {#dMFFMER08} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], [[Patricia Ritter]], _On the Lie-algebraic origin of metric 3-algebras_, Commun. Math. Phys. 290:871-902, 2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
+
+reviewed in
+
+* [[José Figueroa-O'Farrill]], slide 145 onwards in: _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf), [[FigueroaOFarrillM2Branes02.pdf:file]])
+
+further explored in 
+
+* [[José Figueroa-O'Farrill]], _Simplicity in the Faulkner construction_,  Journal of Physics A: Mathematical and Theoretical, Volume 42, Number 44 ([arXiv:0905.4900](https://arxiv.org/abs/0905.4900))
+
+and putting to use the [[Faulkner construction]] that was previously introduced in ([](#Faulkner73))
+
 
 See also:
 
@@ -69,7 +85,6 @@ See also:
 
 * {#Saemann16} [[Christian Saemann]], appendix A of _Lectures on Higher Structures in M-Theory_ ([arXiv:1609.09815](https://arxiv.org/abs/1609.09815))
 
-* [[José Figueroa-O'Farrill]], _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf), [[FigueroaOFarrillM2Branes02.pdf:file]])
 
 
 
