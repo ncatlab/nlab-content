@@ -276,10 +276,16 @@ $$
   \,.
 $$
 
+or equivalently by the end
+
+$$ [X,Y]_{Day}(c) = \int_{c_1} V\left(X(c_1),Y(c\otimes c_2)\right) $$
+
 =--
 
 +-- {: .proof}
 ###### Proof
+
+First note that the equivalence between the two formulas follows from the [[Yoneda lemma]].  (We mention them both, even though the second is undoubtedly simpler, because the more general case of a promonoidal $\mathcal{C}$ this simplification is unavailable.)
 
 In analogy to the cartesian [[closed monoidal structure on presheaves]]
 we see that if the [[internal hom]] in $[\mathcal{C},V]$ exists at all, 
