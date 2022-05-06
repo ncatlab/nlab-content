@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -43,6 +44,8 @@ Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the t
   2. the [[complements]] $X^\ast \backslash CK = (X \backslash CK) \cup \{\infty\}$ of the [[closed subspace|closed]] [[compact space|compact]] subsets $CK \subset X$.
 
 =--
+
+([Aleksandrov 24](#Aleksandrov24), see [Kelly 75, p. 150](#Kelly75))
 
 +-- {: .num_remark}
 ###### Remark
@@ -428,8 +431,17 @@ So let $X$ be a locally compact Hausdorff space. By prop. \ref{OnePointExtension
 
 ## References
 
-* John Kelly, _General Topology_ (1975)
+The concept goes back to 
 
+* {#Aleksandrov24} [[Pavel Aleksandrov]], _Über die Metrisation der im Kleinen kompakten topologischen Räume_, Mathematische Annalen (1924) Volume: 92, page 294-301 ([dml:159072](https://eudml.org/doc/159072))
+
+Textbook accounts:
+
+* {#Kelly75} John Kelly, [p. 150](https://archive.org/details/GeneralTopology/page/n167) of: _General Topology_, van Nostrand 1955 ([archive:GeneralTopology](https://archive.org/details/GeneralTopology))
+
+See also 
+
+* Wikipedia, _[Alexandroff extension](https://en.wikipedia.org/wiki/Alexandroff_extension)_
 
 [[!redirects one-point compactification]]
 [[!redirects one-point compactifications]]
