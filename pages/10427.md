@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -80,7 +81,11 @@ See also the references at _[[modal type theory]]_.
 
 For an introduction from the perspective of [[philosophy]] see
 
-* [[David Corfield]], _Modal homotopy type theory_, ([PhilSci archive](http://philsci-archive.pitt.edu/15260/))
+* [[David Corfield]], _Modal homotopy type theory_, 2017 ([PhilSci archive:15260](http://philsci-archive.pitt.edu/15260/))
+
+* {#Corfield20} [[David Corfield]], _Modal homotopy type theory_, Oxford University Press 2020 ([ISBN: 9780198853404](https://global.oup.com/academic/product/modal-homotopy-type-theory-9780198853404))
+
+
 
 Specifically for [[cohesive homotopy type theory]] see:
 
