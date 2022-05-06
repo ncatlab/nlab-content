@@ -37,7 +37,7 @@ $$
  \,.
 $$
 
-If follows from the supersymmetry algebra that $(E \delta_{A B} -  K_{A B})$ is a positive definite [[bilinear form]], which puts a lower bound on the energy given the values of these extra charges. This is called the _BPS bound_.
+It follows from the supersymmetry algebra that $(E \delta_{A B} -  K_{A B})$ is a positive definite [[bilinear form]], which puts a lower bound on the energy given the values of these extra charges. This is called the _BPS bound_.
 
 In particular when this bound is satisfied in that some of the [[eigenvalues]] of the [[matrix]] $(K_{A B})$ are actually equal to the energy/mass, then the corresponding component of the right hand side in the above equation vanishes and hence then the corresponding supersymmetry generators may annihilate the given state, then called a _BPS state_. This way enhanced supersymmetry of states goes along with certain charges taken extremal values.
 
@@ -68,7 +68,7 @@ The degeneracy of BPS states in string theory has been used to provide a microsc
 Let $\mathbb{R}^{d-1,1|N}$ be a [[super-Minkowski spacetime]], let $(d,N,p)$ be in the [[brane scan]] and write
 
 $$
-  \phi \coloneqq \bar \psi \wedge E^{\wedge p} \wedge \psi \in \Omega^{p+2}(\mathbb{R}^{d-1,1|N})
+  \phi \coloneqq \bar{\psi} \wedge E^{\wedge p} \wedge \psi \in \Omega^{p+2}(\mathbb{R}^{d-1,1|N})
 $$
 
 for the correspoding [[super Lie algebra]] [[Lie algebra cohomology|cocycle]], as discussed at _[[Green-Schwarz action functional]]_, see ([FSS 13](#FSS13)) for the perspective invoked here.
