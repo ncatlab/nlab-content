@@ -434,6 +434,8 @@ explanation via assumption of [[leptoquarks]]:
 
 * {#CrivellinSaturnino19} [[Andreas Crivellin]], Francesco Saturnino, _Explaining the Flavor Anomalies with a Vector Leptoquark (Moriond 2019 update)_ ([arXiv:1906.01222](https://arxiv.org/abs/1906.01222))
 
+* {#Malinsky19} [[Michal Malinský]], _Lepton non-universality in $B$-decays in the minimal leptoquark gauge model_ ([arXiv:1906.09174](https://arxiv.org/abs/1906.09174))
+
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
