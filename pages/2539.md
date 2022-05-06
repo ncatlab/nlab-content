@@ -308,6 +308,8 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 * [[Whitney extension theorem]]
 
+* [[Taimanov theorem]]
+
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
 * [[smooth Serre-Swan theorem]]
