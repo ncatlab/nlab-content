@@ -35,7 +35,7 @@ The mass term makes Romans supergravity have [[black brane]]-solutions correspon
 
 ([Bergshoess-de Roo-Green-Papadopoulos-Townsend 96](#BergshoessdeRooGreenPapadopoulosTownsend96), [Chamblin-Perry 97](#ChamblinPerry97), [Janssen-Meessen-Ortin 99](#JanssenMeessenOrtin99))
 
-and to [[]D6-D8-brane bound states] ([Singh 02a](#Singh02a), [Singh 02b](#Singh02b))
+and to [[D6-D8-brane bound states]] ([Singh 02a](#Singh02a), [Singh 02b](#Singh02b))
 
 ## Related concepts
 
@@ -81,6 +81,10 @@ On [[D6-D8-brane bound states]] in [[massive type IIA string theory]]:
 * Fabio Apruzzi, [[Marco Fazzi]], Dario Rosa, [[Alessandro Tomasiello]],  _All $AdS_7$ solutions of type II supergravity_, JHEP 04 (2014) 064 ([arxiv:1309.2949](https://arxiv.org/abs/1309.2949))
 
 * [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ ([arxiv:1712.04447](https://arxiv.org/abs/1712.04447))
+
+With emphasis on [[charge quantization]] of the [[RR-field]] [[flux]] forms via [[bundle gerbes]]:
+
+* [[Jussi Kalkkinen]], _Gerbes and Massive Type II Configurations_, JHEP 9907  :002, 1999 ([arXiv:hep-th/9905018](https://arxiv.org/abs/hep-th/9905018))
 
 
 #### D6-D8-brane bound states with D2-D4-brane defects
