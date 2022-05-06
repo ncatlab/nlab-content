@@ -463,6 +463,8 @@ Other references include:
  
 * {#Coley20} Coley, Ian, _The theory of half derivators_, [arxiv:2010.12057](https://arxiv.org/abs/2010.12057), 2020
 
+* {#Richardson20} Richardson, James, _Enriched derivators_, [arXiv:2010.07740](https://arxiv.org/abs/2010.07740), 2020
+
 [[!redirects derivators]]
 [[!redirects prederivator]]
 [[!redirects prederivators]]
