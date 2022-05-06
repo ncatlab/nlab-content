@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[mathematics]] typically by default the term "configuration space" of a [[topological space]] $X$ refers to the topological space of pairwise distinct points in $X$, also called _[[Fadell's configuration space]]_, for emphasis.
+In [[mathematics]], the term "configuration space" of a [[topological space]] $X$ typically refers by default to the topological space of pairwise distinct [[element|points]] in $X$, also called _[[Fadell's configuration space]]_, for emphasis.
 
 In principle many other kinds of configurations and the spaces these form may be referred to by "configuration space", notably in [[physics]] the usage is in a broader sense, see at _[[configuration space (physics)]]_.
 
@@ -966,7 +966,7 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
 
-* {#Cohen76} [[Fred Cohen]], _The homology of $C_{n+1}$-Spaces, $n \geq 0$, In: _The Homology of Iterated Loop Spaces_, Lecture Notes in Mathematics, vol 533. Springer 1976([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
+* {#Cohen76} [[Fred Cohen]], _The homology of $C_{n+1}$-Spaces, $n \geq 0$_, In: _The Homology of Iterated Loop Spaces_, Lecture Notes in Mathematics, vol 533. Springer 1976([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
 
 
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
