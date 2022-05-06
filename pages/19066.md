@@ -1,6 +1,4 @@
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -11,14 +9,39 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The [[Grothendieck construction]] may be lifted from [[categories]] to [[model categories]], where is is (or should) serve as a presentation for the [[(infinity,1)-Grothendieck construction]].
+The [[Grothendieck construction]] may be lifted from [[categories]] to [[model categories]], where it is serve as a presentation for the [[(infinity,1)-Grothendieck construction]].
+
+## Definition
+
+Let $M$ be a [[model category]] and $F:M\to ModelCat$ a [[pseudofunctor]], where $ModelCat$ is the [[2-category]] of model categories, [[Quillen adjunctions]] pointing in the direction of their left adjoints, and [[mate]]-pairs of [[natural isomorphisms]].  Assume furthermore that:
+
+* $F$ is *relative*, meaning that whenever $f:A\to B$ is a weak equivalence in $M$, then the Quillen adjunction $f_! : F(A) \rightleftarrows F(B) : f^*$ is a [[Quillen equivalence]].  (That is, $F$ is a [[relative functor]].)
+
+* $F$ is *proper*, meaning that whenever $f:A\to B$ is an acyclic cofibration (resp. an acyclic fibration) in $M$, then $f_!$ (resp. $f^*$) preserves weak equivalences.
+
+On the [[Grothendieck construction]] $\int F$ we define a morphism $(f,\phi):(A,X) \to (B,Y)$, where $f:A\to B$ in $M$ and $\phi:f_!(X) \to Y$ in $F(B)$, to be:
+
+* a *weak equivalence* if $f:A\to B$ is a weak equivalence in $M$ and $f_!(Q X) \to f_!(X) \xrightarrow{\phi} Y$ is a weak equivalence in $F(B)$, where $Q$ is a cofibrant replacement.  Since $f_!\dashv f^*$ is a Quillen equivalencen by relativeness, this is equivalent to the dual condition that $X \xrightarrow{\hat{\phi}} f^*(Y) \to f^*(R Y)$ is a weak equivalence in $F(A)$.
+
+* a *cofibration* if $f$ is a cofibration in $M$ and $\phi : f_!(X)\to Y$ is a cofibration in $F(B)$.
+
+* a *fibration* if $f$ is a fibration in $M$ and the [[adjunct]] $\hat{\phi} : X\to f^*(Y)$ is a fibration in $F(A)$.
+
+Then these classes of maps make $\int F$ a model category.
+
+## Properties
+
+Given a proper relative $F:M\to ModelCat$, we can compose with the underlying $(\infty,1)$-category functor $Ho:ModelCat \to QCat$ with values in (say) [[quasicategories]].  Since $F$ is relative, this map takes weak equivalences in $M$ to equivalences of quasicategories, so it induces a functor of quasicategories $Ho(M) \to Ho(QCat) = (\infty,1)Cat$.  The [[(∞,1)-Grothendieck construction]] of this functor is then equivalent, over $Ho(M)$, to the underlying $(\infty,1)$-category of the Grothendieck-construction model structure on $\int F$; this is [Harpaz-Prasma, Proposition 3.1.2](#HarpazPrasma14).
+
+## Related pages
+
+* The dual notion is a [[model structure on sections]]
 
 
 ## References
@@ -41,5 +64,11 @@ For the special case of pseudofunctors with values in [[groupoids]], a [[model c
 
 
 [[!redirects Grothendieck construction of model categories]]
-
 [[!redirects model category-theoretic Grothendieck construction]]
+[[!redirects integral model structure]]
+[[!redirects integral model structures]]
+[[!redirects lax colimit model structure]]
+[[!redirects lax colimit model structures]]
+[[!redirects model structure on a lax colimit]]
+[[!redirects model structures on a lax colimit]]
+[[!redirects model structures on lax colimits]]
