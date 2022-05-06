@@ -48,7 +48,7 @@ of the [[derived functor in homological algebra|right derived functors]] of $F$ 
 and which is converging to to the derived functors $R^n(G\circ F)$ of the composite of $F$ and $G$:
 
 $$
-  E^{p,q}_\infty(A) \simeq G^p R^{p+q}(G \circ F)(A)
+  E^{p,q}_\infty(A) \simeq R^{p+q}(G \circ F)(A)
   \,.
 $$
 
