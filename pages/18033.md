@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,6 +36,8 @@ The conformal bootstrap was proposed in the 1970s as a strategy for calculating 
 * [[David Simmons-Duffin]], _TASI Lectures on the Conformal Bootstrap_ ([arXiv:1602.07982](https://arxiv.org/abs/1602.07982))
 
 * David Poland, Slava Rychkov, Alessandro Vichi, _The Conformal Bootstrap: Numerical Techniques and Applications_ ([arXiv:1805.04405](https://arxiv.org/abs/1805.04405))
+
+* Shai M. Chester, _Weizmann Lectures on the Numerical Conformal Bootstrap_ ([arXiv:1907.05147](https://arxiv.org/abs/1907.05147))
 
 See also
 
