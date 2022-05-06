@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[knot theory]], a large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labelling it by the structure morphisms of a [[Lie algebra object]] equipped with a [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. This does yield weight systems because the required relations translate into the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and Lie action property).
+In [[knot theory]], a large class of [[weight systems]] arises from reading a ([[horizontal chord diagram|horizontal]]) [[chord diagram]] as a [[string diagram]] in the evident way, and then labelling it by the structure morphisms of a [[Lie algebra object]] equipped with an [[invariant polynomial|invariant]] metric and  a [[Lie algebra representation]] [[internalization|internal to]] a suitable [[tensor category]]. This does yield weight systems because the required relations translate into the structural equations satisfied by [[Lie modules]] ([[Jacobi identity]] and Lie action property).
 
 The [[weight systems]] arising this way are called _Lie algebra weight systems_.
 
@@ -32,6 +32,8 @@ Examples of [[weight systems]] which are _not_ Lie algebra weight systems are ra
 Eventually, a (counter-)example of a weight system which at least does not arise from any [[finite dimensional vector space|finite-dimensional]] [[super Lie algebra]] was given by [Vogel 11](#Vogel11).
 
 ## References
+
+### General
 
 The concept for ordinary [[weight systems]] originates around
 
@@ -63,7 +65,15 @@ and fully explicit in
 
 * {#RobertsWillerton} [[Justin Roberts]], [[Simon Willerton]], Section 3 of: _On the Rozansky-Witten weight systems_, Algebr. Geom. Topol. 10 (2010) 1455-1519 ([arXiv:math/0602653](https://arxiv.org/abs/math/0602653))
 
-More on the case of Lie algebra weight systems for [[super Lie algebras]]:
+### For $\mathfrak{sl}(2)$
+
+For the [[special linear Lie algebra]] $\mathfrak{sl}(2)$
+
+* [[Sergei Chmutov]], [[Alexander Varchenko]], _Remarks on the Vassiliev knot invariants coming from $\mathfrak{sl}(2)$_, Topology 36 (1), 153-178, 1997
+
+### For $\mathfrak{gl}(1\vert1)$
+
+For the [[super Lie algebras]] $\mathfrak{gl}(1\vert1)$:
 
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
 
