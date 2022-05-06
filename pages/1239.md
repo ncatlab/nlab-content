@@ -137,6 +137,9 @@ Lecture notes include
 
 * {#Teleman05} [[Constantin Teleman]], _Representation theory_, lecture notes 2005 ([pdf](https://math.berkeley.edu/~teleman/math/RepThry.pdf))
 
+* Joel Robbin, _Real, Complex and Quaternionic representations_, 2006 ([pdf](http://www.math.wisc.edu/~robbin/angelic/RCH-G.pdf), [[Robbin08RCHRep.pdf:file]])
+
+
 Textbooks include
 
 * Charles Curtis, Irving Reiner, _Representation theory of finite groups and associative algebras_, AMS 1962
