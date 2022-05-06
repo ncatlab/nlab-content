@@ -27,8 +27,8 @@
 <tr><th markdown="1">Functionals</th><td>[[measure|Measures]]</td><td>[[tau-additive measure|$\tau$-additive Borel measures]]</td><td>[[valuation (measure theory)|Continuous valuations]]</td></tr>
 <tr><th markdown="1">Finitary linearity</th><td>Additivity</td><td>Additivity</td><td>Modularity</td></tr>
 <tr><th markdown="1">Infinite linearity</th><td>$\sigma$-additivity</td><td>$\tau$-additivity</td><td>Continuity</td></tr>
-<tr><th markdown="1">[[intensive or extensive quantity|Integrands]]</th><td>[[measurable function|Measurable]] real-valued functions</td><td>[[semicontinuous map|Lower-semicontinuous]] real functions</td><td>[[continuous map|Continuous functions]] into the [[one-sided real number|lower reals]]</td></tr>
-<tr><th markdown="1">Approximation of integrands</th><td>Pointwise-increasing [[sequence|sequences]] (of measurable real functions)</td><td>Pointwise-increasing [[net|nets]] (of lower-semicontinuous real functions)</td><td>Pointwise-increasing [[net|nets]] (of continuous functions into the lower reals)</td></tr>
+<tr><th markdown="1">[[intensive or extensive quantity|Integrands]]</th><td>[[measurable function|Measurable]] real-valued functions</td><td>[[semicontinuous map|Lower semicontinuous]] real functions</td><td>[[continuous map|Continuous functions]] into the [[one-sided real number|lower reals]]</td></tr>
+<tr><th markdown="1">Approximation of integrands</th><td>Pointwise-increasing [[sequence|sequences]] (of measurable real functions)</td><td>Pointwise-increasing [[net|nets]] (of lower semicontinuous real functions)</td><td>Pointwise-increasing [[net|nets]] (of continuous functions into the lower reals)</td></tr>
 <tr><th markdown="1">Integral</th><td>Lebesgue integral</td><td>Lebesgue integral</td><td>Lower integral</td></tr>
 <tr><th markdown="1">(...)</th><td>(...)</td><td>(...)</td><td>(...)</td></tr></table>
 
