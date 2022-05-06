@@ -182,11 +182,7 @@ Expositions and reviews include
 
 * {#Brambilla14} Brambilla et al., section 9.2.2 of _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981 ([doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
-* Jorge Casalderrey-Solana, Hong Liu, David Mateos, Krishna Rajagopal, Urs Achim Wiedemann,
-
-  _Gauge/string duality, hot QCD and heavy ion collisions_, 
-
-  Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
+* Jorge Casalderrey-Solana, Hong Liu, [[David Mateos]], Krishna Rajagopal, Urs Achim Wiedemann, _Gauge/string duality, hot QCD and heavy ion collisions_, Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
 
 and specifically via "[[improved holographic QCD]]"
 
