@@ -61,6 +61,10 @@ The exact [[gauge group]] of the [[standard model of particle physics]] (see [th
 
 ## References
 
+* Thomas Friedrich, _Weak Spin(9)-Structures on 16-dimensional Riemannian Manifolds_, ([arXiv:math/9912112](https://arxiv.org/abs/math/9912112))
+
+* Maurizio Parton, Paolo Piccinni, _Spin(9) and almost complex structures on 16-dimensional manifolds_, ([arXiv:1105.5318](https://arxiv.org/abs/1105.5318))
+
 * {#OrneaPartonPiccinniVuletescu12} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899), [doi:10.1007/s00031-013-9233-x]( https://doi.org/10.1007/s00031-013-9233-x))
 
 * Maurizio Parton, Paolo Piccinni, _The Role of Spin(9) in Octonionic Geometry_, ([arXiv:1810.06288](https://arxiv.org/abs/1810.06288))
