@@ -2352,6 +2352,10 @@ Fully explicit super Cartan geometry is in:
 * [[Konstantin Eder]], _Super Cartan geometry and the super Ashtekar connection_ ([arXiv:2010.09630](https://arxiv.org/abs/2010.09630))
 
 
+* [[Konstantin Eder]], _Super fiber bundles, connection forms and parallel transport_ ([arXiv:2101.00924](https://arxiv.org/abs/2101.00924))
+
+
+
 For references on [[supergeometry]] and [[supermanifolds]] as such, see there. For references on [[supergravity]] as such, see there.
 
 The formalization as discussed above is from
