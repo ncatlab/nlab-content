@@ -21,7 +21,12 @@
 
 ## Idea
 
-For $A$ and $B$ two [[abelian groups]], their _tensor product_ $A \otimes B$ is a new abelian group which is such that a [[group homomorphism]] $A \otimes B \to C$ is equivalently a [[bilinear map]] out of $A$ and $B$.
+For $A$ and $B$ two [[abelian groups]],
+their _tensor product_ $A \otimes B$ is a new abelian group
+such that a [[group homomorphism]] $A \otimes B \to C$
+is equivalently a [[bilinear map]] out of $A$ and $B$.
+
+Tensor products of [[abelian groups]] were defined by [[Hassler Whitney]] in 1938.
 
 ## Definition
  {#Definition}
@@ -225,6 +230,11 @@ A proof is spelled out for instance as ([Conrad, theorem 4.1](#Conrad)).
 * [[tensor product of algebras over a commutative monad]]
 
 ## References
+
+The original definition is due to [[Hassler Whitney]]:
+
+* [[Hassler Whitney]], _Tensor products of Abelian groups_, Duke Mathematical Journal, Volume 4, Number 3 (1938), 495-528.
+[doi:10.1215/S0012-7094-38-00442-9](https://doi.org/10.1215/S0012-7094-38-00442-9).
 
 An exposition (in the case of vector spaces) is in 
 
