@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
+#### Cosmology
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include cosmology -- contents]]
 =--
 #### Gravity
 +--{: .hide}
@@ -24,6 +24,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 
 ## Related entries
+
+[[cosmology -- contents]]
 
 * [[redshift]], [[comoving time]]
 
