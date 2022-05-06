@@ -42,6 +42,13 @@ with the [[special unitary group]] of complex dimension 4.
 
 (e.g. [Figueroa-O'Farrill 10, Lemma 8.1](#FigueroaFarrill10))
 
+
+### $G$-Structure and exceptional geometry
+
+
+[[!include Spin(8)-subgroups and reductions -- table]]
+
+
 \linebreak
 
 ## Related concepts
