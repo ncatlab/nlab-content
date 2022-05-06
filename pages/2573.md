@@ -57,7 +57,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 * MO-discussion: _Who needs Replacement anyway ?_  ([link](http://mathoverflow.net/questions/208711/who-needs-replacement-anyway))
 
-* Akihiro Kanamori (2012). _In Praise of Replacement_. The Bulletin of Symoblic Logic 18:1 (2012 March).  [pdf](http://math.bu.edu/people/aki/20.pdf).
+* Akihiro Kanamori (2012). _In Praise of Replacement_. The Bulletin of Symbolic Logic 18:1 (2012 March).  [pdf](http://math.bu.edu/people/aki/20.pdf).
 
 
 ## Related entries
