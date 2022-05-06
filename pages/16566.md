@@ -26,7 +26,7 @@ Using the (equivalent) definition given in [Cockett 1990](#Cockett90), a **param
 
 Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maietti10)).
 
-Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretoposes serve as the **arithmetic universes** that [[André Joyal]] (cf. [Joyal 05](#Joyal05)) once suggested to use for discussion of [[incompleteness theorems]] (cf. [van Dijjk/Oldenziel 2020](#VanDijkOldenziel)); they are used directly as the definition of arithmetic universes e.g. in ([Maietti-Vickers 2012](#MaiettiVickers12)).
+Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretoposes serve as the **arithmetic universes** that [[André Joyal]] (cf. [Joyal 05](#Joyal05)) once suggested to use for discussion of [[incompleteness theorems]] (cf. [van Dijk/Oldenziel 2020](#VanDijkOldenziel)); they are used directly as the definition of arithmetic universes e.g. in ([Maietti-Vickers 2012](#MaiettiVickers12)).
 
 ## Related entries
 
