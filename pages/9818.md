@@ -66,6 +66,7 @@ Review and exposition includes
  
 * {#Brown15} [[Francis Brown]], _Feynman Amplitudes and Cosmic Galois group_ ([arXiv:1512.06409](https://arxiv.org/abs/1512.06409))
 
+* [[Francis Brown]], _Periods and Feynman amplitudes_ ([arXiv:1512.09265](https://arxiv.org/abs/1512.09265))
 
 A technical review of aspects of this is in 
 
