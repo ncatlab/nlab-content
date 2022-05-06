@@ -704,7 +704,9 @@ $$
 
 
 
+## Related concepts
 
+* [[model structure on topological sequential spectra]]
 
 
 
@@ -712,7 +714,7 @@ $$
 
 The original construction is due to
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]])
 
 Generalization of this model structure from sequential pre-spectra in [[sSet]]$^{\ast/}$ to sequential spectra in more general [[proper model category|proper]] [[pointed category|pointed]] [[simplicial model categories]] is in
 
