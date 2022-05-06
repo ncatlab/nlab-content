@@ -29,12 +29,19 @@ According to the [[classification of finite simple groups]], there are 18 counta
 
 ## Examples
 
+
+* [[Conway group]]
+
 * [[monster group]]
 
 * [[Mathieu group]]
 
+
+## Related concepts
+
 * [[Moonshine]]
 
+* [[automorphisms of super vertex operator algebras]]
 
 ## References
 
