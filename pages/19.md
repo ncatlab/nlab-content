@@ -418,6 +418,8 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 * [[Bodo Pareigis]], _Category theory_, [dvi](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.dvi), [ps](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.ps), [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf)
 
+* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_. ([arXiv](http://arxiv.org/abs/1912.10642))
+
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
 ### Videos 
