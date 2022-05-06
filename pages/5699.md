@@ -14,6 +14,11 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 ## Selected writings
  {#SelectedWritings}
 
+On [[open/closed string duality]] in interpreting [['t Hooft double line notation]] in the [[large N limit]] and in [[AdS/CFT duality]]:
+
+* {#GopakumarVafa98} [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
+
+
 Introducing [[Gopakumar-Vafa duality]]:
 
 
