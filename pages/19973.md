@@ -50,6 +50,8 @@ In the [[standard model of particle physics]], the sector involving [[flavor phy
 
 > slide grabbed from [Isidori 16](#Isidori16)
 
+(Note that Isidori's slides collect all terms with a Higgs factor under "flavor sector", while Altmannshofer's slides split this further into the pure Higgs terms and those involving fermion factors, labelling only the latter as "flavor sector".)
+
 Broadly, _the flavor problem_ (see the references [below](#ReferencesFlavorProblem)) is the fact that the nature and principles behind the flavor sector of the standard are much less understood than those of the gauge sector (the "color sector"). More concretely, the flavor problem in models going beyond the standard model (such as [[GUT]] models and/or the [[MSSM]]) is that introducing any New Physics while satisfying observational constraints on flavor physics seems to demand a high level of [[fine-tuning]] in the flavor sector.
 
 All this suggests that the flavor sector is controlled by mechanisms that are not understood or identified yet.
