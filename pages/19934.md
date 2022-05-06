@@ -27,6 +27,9 @@ A Riemannian orbifold is an [[orbifold]] equipped with an orbifold [[atlas]] whe
 
 A key aspect is that the orbifold [[singularities]] behave like carrying singular [[curvature]], notably there are [[flat orbifolds]] (i.e. Riemannian orbifolds with vanishing [[Riemann curvature]] away from the [[singularities]]) whose underlying [[topological spaces]] are [[n-spheres]] (see [below](#FlatCompact2DimensionalOrbifolds)).
 
+
+Key examples of flat orbifolds are global [[homotopy quotients]] $\mathbb{T}^n \sslash G$ of the [[n-torus]] $\mathbb{T}^n$ equipped with its canonical flat [[Riemannian metric]]. These flat orbifolds are called _toroidal orbifolds_.
+
 ## Examples
 
 ### Non-compact orbifolds
@@ -51,6 +54,10 @@ The flat [[compact topological space|compact]]  2-dimensional orbifolds may be c
 The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as the _[[Kummer surface]]_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol-Derdzinski-Piccione 18, 5.5](#BettiolDerdzinskiPiccione18))
 
 
+### Flat compact 6-dimensional orbifolds
+
+see [FRTV 12](#FRTV12)
+
 ## Related concepts
 
 * [[branched cover]]
@@ -69,7 +76,17 @@ The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four 
 
 ### Flat orbifolds
 
+In 2 dimensions
+
 * {#Guerreiro09} João Guerreiro, _Orbifolds and Wallpaper Patterns_ ([pdf](https://faculty.math.illinois.edu/~ruiloja/Estudantes/TrabalhoJGuerreiro.pdf))
+
+In 6 dimensions (mostly motivated as singular [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau compactifications]] of [[heterotic string theory]] to 4d)
+
+* S. Reffert, _Toroidal Orbifolds: Resolutions, Orientifolds and Applications in String Phenomenology_ ([arXiv:hep-th/0609040](https://arxiv.org/abs/hep-th/0609040))
+
+* [[Ron Donagi]], [[Katrin Wendland]], _On orbifolds and free fermion constructions_, J.Geom.Phys.59:942-968,2009 ([arXiv:0809.0330](https://arxiv.org/abs/0809.0330))
+
+* {#FRTV12} Maximilian Fischer, Michael Ratz, Jesus Torrado, Patrick K.S. Vaudrevange, _Classification of symmetric toroidal orbifolds_, JHEP 1301 (2013) 084 ([arXiv:1209.3906](https://arxiv.org/abs/1209.3906))
 
 
 
@@ -78,3 +95,6 @@ The orbifold quotient of the [[4-torus]] by the sign [[involution]] on all four 
 
 [[!redirects flat orbifold]]
 [[!redirects flat orbifolds]]
+
+[[!redirects toroidal orbifold]]
+[[!redirects toroidal orbifolds]]
