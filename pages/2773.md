@@ -58,6 +58,8 @@ Although $Ho(Cat)$-categories are not very useful, there are some interesting th
 * Any $Ho(Cat)$-category which is equivalent, as a $Ho(Cat)$-category, to a bicategory, is itself in fact a bicategory.
 * Any [[2-functor]] between bicategories which induces an equivalence of underlying $Ho(Cat)$-categories is in fact itself an equivalence of bicategories (or "biequivalence").
 
+An example of a $Ho(Cat)$-category that does not come from any bicategory is sketched in [this MathOverflow answer](https://mathoverflow.net/a/346613).
+
 
 ## Other limits and colimits {#OtherLimits}
 
