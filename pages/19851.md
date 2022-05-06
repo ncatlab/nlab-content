@@ -14,7 +14,6 @@ If you would like to participate in the [[Initiality Project]], just add your na
 * [[Benedikt Ahrens]]
 * [[Jasper Hugunin]]
 * [[Dan Licata]]
-* [[N. Raghavendra]]
 * [[Dave Ripley]]
 * [[Mitchell Riley]]
 * [[Andy Pitts]]
