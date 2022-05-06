@@ -4,6 +4,7 @@
 
 ## Selected writings
 
+* [[Ernst-Erich Doberkat]], _Stochastic Relations: Foundations for Markov Transition Systems_ CRC Press (2007) [Google Books preview](https://books.google.com.au/books?id=_OmI_xrYqawC&printsec=frontcover#v=onepage&q&f=false)
 
 On the [[Giry monad]]:
 
@@ -12,8 +13,7 @@ On the [[Giry monad]]:
 
 On [[measure theory]]:
 
-* [[Ernst-Erich Doberkat]], _Measures and all that --- 
-A Tutorial_ ([arxiv/1409.2662](http://arxiv.org/abs/1409.2662)_
+* [[Ernst-Erich Doberkat]], _Measures and all that --- A Tutorial_ ([arxiv:1409.2662](http://arxiv.org/abs/1409.2662))
 
 
 
