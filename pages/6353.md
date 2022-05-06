@@ -63,6 +63,11 @@ A precise global definition of [[T-folds]] as [[principal 2-bundles]] for the [[
 
 * {#NikolausWaldorf18} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Higher geometry for non-geometric T-duals_ ([arXiv:1804.00677](https://arxiv.org/abs/1804.00677))
 
+Discussion for [[nonabelian T-duality]]:
+
+* Mark Bugden, _Non-abelian T-folds_ ([arXiv:1901.03782](https://arxiv.org/abs/1901.03782))
+
+
 [[!redirects T-folds]]
 
 [[!redirects super T-fold]]
