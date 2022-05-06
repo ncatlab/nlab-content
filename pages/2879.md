@@ -41,9 +41,21 @@ These [[commutative Hopf algebroids]] play a key role in [[stable homotopy theor
 
 ### Noncommutative Hopf algebroids 
 
-There are several generalizations to the noncommutative case. A difficult part is to work over the noncommutative base (i.e., the object of objects is noncommutative). The definition of a [[bialgebroid]] is not that difficult and there is even a very old definition due Takeuchi. To add an antipode is nontrivial. A definition of Lu from mid 1990s is rather nonselfdual unlike the case of [[Hopf algebras]]. So a better solution is to abandon the idea of an antipode and have some replacement for it. There are two approaches, one due to Day and Street, and another due [[Gabi Böhm]], using pairs of a left and right bialgebroid. Gabi later showed that the two definitions are in fact equivalent.
+There are several generalizations to the noncommutative case. A difficult part is to work over the noncommutative base (i.e., the object of objects is noncommutative). The definition of a [[bialgebroid]] is not that difficult and there is even a very old definition of an equivalent structure due Takeuchi. To add an antipode is nontrivial. A definition of Lu from mid 1990s is rather nonselfdual, unlike the case of [[Hopf algebras]] and introduces rather ad hoc certain section map. So a better solution may be even to abandon the idea of an antipode and have some replacement for it. There are two approaches, one due to Day and Street, and another due [[Gabi Böhm]], using pairs of a left and right bialgebroid. Gabi later showed that the two definitions are in fact equivalent.
 
+#### Noncommutative Hopf algebroid with invertible antipode
 
+A definition of an antipode avoiding a section map of Lu, but requiring that the antipode is invertible. In this definition, given a left $A$-bialgebroid $(H,\alpha,\beta,\Delta,\epsilon)$, an invertible antipode $S:H\to H$ is an antihomomorphism of algebras with inverse map $S^{-1}:H\to H$ satisfying
+$$
+S\circ\beta = \alpha
+$$
+and for every $h\in H$, 
+$$
+(S^{-1} h_{(2)})_{(1)}\otimes_A(S^{-1} h_{(2)})_{(2)}h_{(1)} = S^{-1} h\otimes_A 1_H,
+$$
+$$
+(S h_{(1)})_{(1)} h_{(2)}\otimes_A(S h_{(1)})_{(2)} = 1_H\otimes_A S h.
+$$
 
 ## Examples
 
