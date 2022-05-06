@@ -111,7 +111,7 @@ This is due to ([Frey 14](#Frey14))
 
 A characterization of realizability toposes analogous to the [[Giraud axioms]] for [[Grothendieck toposes]] is given in 
 
-* {#Frey14} [[Jonas Frey]], _A Characterization of Realizability Toposes_ ([arXiv:1404.6997](http://arxiv.org/abs/1404.6997))
+* {#Frey14} [[Jonas Frey]], _Characterizing partitioned assemblies and realizability toposes_ ([arXiv:1404.6997](http://arxiv.org/abs/1404.6997))
 
 
 [[!redirects realizability topos]]
