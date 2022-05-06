@@ -516,6 +516,7 @@ a variety in the category of all simplicial groups.
 
 * [[∞-group]], [[simplicial group]], **crossed complex**, [[hypercrossed complex]]
 
+* [[model structure on crossed complexes]]
 
 
 ## References
