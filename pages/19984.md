@@ -58,7 +58,29 @@ Using _homotopy.io_ involves two main techniques: building the signature, and bu
 
 ## Combinatorial foundation
 
+Zigzags, labellings.
+
 ## Constructing homotopies
+
+A composite diagram can be deformed by clicking and dragging in its interior. If the indicated deformation would be geometrically invalid, an error message is displayed in the lower-right corner, and the diagram does not change. Otherwise, a new diagram is displayed, which is homotopic to the original diagram.
+
+The proof assistant manipulates finite combinatorial structures, and we use the word 'homotopic' with reference to their geometrical realization. We do not make this precise here, nor has it yet been made precise in the literature; for this reason, our use of the term 'homotopy' is not yet well connected to the standard notion.
+
+Every homotopy is either a _contraction_, which make the geometry locally more singular, or an _expansion_, which make it locally more generic. If a homotopy is performed on a diagram at the top level, it is directly constructed by one of the base case procedures given below. Alternatively, if it is performed in a slice of a diagram, the effect on the diagram as a whole is computed by a recursive scheme, which propagates the homotopy up from the slice where it was triggered.
+
+### Triggering homotopies ###
+
+Every homotopy is triggered by choosing an $n$-diagram for $n \geq 2$, choosing some vertex that it contains, and dragging that vertex _vertically_; that is, either up or down.
+
+If the vertex is in _generic position_, meaning that it is the unique vertex at its height, a contraction will be triggered; otherwise, an expansion will be triggered.
+
+The $n$-diagram that we choose could be the diagram as a whole, in which case one of the base cases will be triggered. Alternatively, it could be some slice of the diagram, in which case one of the recursive cases will be triggered.
+
+If we are viewing an $n$-diagram $D$ for $n \geq 3$, then at each height $h$ of the diagram, there is a subdiagram $D_h$ with dimension $n-1 \geq 2$. If we drag a vertex or wire of $D$ _horizontally_ at some height $h$, this will trigger a homotopy in the subdiagram $D_h$, and the recursive case below will apply. This could alternatively be triggered by reducing the projection level by 1, and navigating to the subdiagram $D_h$ directly, and dragging the corresponding vertex up or down.
+
+### Base cases ###
+
+### Recursive cases ###
 
 ## Type checking and normalization
 
