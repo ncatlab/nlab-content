@@ -72,7 +72,7 @@ The higher version of discrete torsion for [[circle n-bundle|circle 3-bundles]] 
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.6.2 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
-and applied to discussion of [[black brane|black]] [[M2-brane]] [[worldvolume]] [[field theory]] ([[BLG model]]/[[ABJM model]]) in
+and applied to discussion of [[black brane|black]] [[M2-brane]] [[worldvolume]] [[field theory]] ([[BLG model]]/[[ABJM model]], see at _[[fractional M2-brane]]_) in
 
 * {#Sethi98} [[Savdeep Sethi]], _A Relation Between $N=8$ Gauge Theories in Three Dimensions_, JHEP 9811:003,1998 ([arXiv:hep-th/9809162](https://arxiv.org/abs/hep-th/9809162))
 
