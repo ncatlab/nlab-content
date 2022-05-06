@@ -5,9 +5,9 @@
 
 ## Idea
 
-A space is _totally bounded_ if it may be covered by finitely many sets of arbitrarily small size.
+A [[topological space|space]] is _totally bounded_ if it may be covered by finitely many sets of arbitrarily small size.
 
-The [[Heine-Borel theorem|Heine–Borel theorem]], which states that a [[closed subset|closed]] and [[bounded subset|bounded]] [[subset9] of the [[real line]] is [[compact space|compact]] (in the finite open subcover sense), applies to all [[cartesian spaces]] but not to general [[metric spaces]].  However, if we use two facts about the real line (which hold for all cartesian spaces) ---that a subset is [[closed subspace|closed]] if and only if it is [[complete space|complete]] and that a subset is [[bounded space|bounded]] if and only if it is _totally bounded_---, then we get a theorem that *does* apply to all metric spaces (at least assuming the [[axiom of choice]]): that a complete and totally bounded space is compact.
+The [[Heine-Borel theorem|Heine–Borel theorem]], which states that a [[closed subset|closed]] and [[bounded subset|bounded]] [[subset]] of the [[real line]] is [[compact space|compact]] (in the finite open subcover sense), applies to all [[cartesian spaces]] but not to general [[metric spaces]].  However, if we use two facts about the real line (which hold for all cartesian spaces) ---that a subset is [[closed subspace|closed]] if and only if it is [[complete space|complete]] and that a subset is [[bounded space|bounded]] if and only if it is _totally bounded_---, then we get a theorem that *does* apply to all metric spaces (at least assuming the [[axiom of choice]]): that a complete and totally bounded space is compact.
 
 The concept (and the Heine--Borel theorem, in this sense) apply not only to metric spaces but to [[uniform spaces]]; like completeness, total boundedness is a uniform property.
 
