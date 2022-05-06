@@ -28,7 +28,13 @@ The Lie algebra $\mathfrak{su}(2)$ is equivalently given as follows:
      [e_i, e_j] = \underset{k}{\sum} \epsilon_{i j k} e_k
    $$
 
-1. the Lie algebra spanned by the three [[Pauli matrices]] with [[Lie bracket]] their [[commutator]] in their [[matrix algebra]].
+1. the Lie algebra spanned by ($i$ times) the three [[Pauli matrices]] with [[Lie bracket]] their [[commutator]] in their [[matrix algebra]].
+
+## Properties
+
+### Complexification
+
+The [[complexification]] of $\mathfrak{su}(2)$ is the [[special linear Lie algebra]] $\mathfrak{sl}(2)$ (see at [[sl(2)]]) (...)
 
 ## Related concepts
 
