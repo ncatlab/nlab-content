@@ -124,7 +124,7 @@ A mismatch was claimed in
 
 For [[rational CFT]], specifically [[Gepner models]] and [[WZW models]]
 
-* Ilka Brunner, [[Michael Douglas]], Albion Lawrence, Christian Romelsberger, _D-branes on the Quintic_, JHEP 0008 (2000) 015 ([arXiv:hep-th/9906200](https://arxiv.org/abs/hep-th/9906200))
+* [[Ilka Brunner]], [[Michael Douglas]], Albion Lawrence, Christian Romelsberger, _D-branes on the Quintic_, JHEP 0008 (2000) 015 ([arXiv:hep-th/9906200](https://arxiv.org/abs/hep-th/9906200))
 
 * {#FuchsSchweigertWalcher00} [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
 
