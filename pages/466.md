@@ -188,7 +188,7 @@ $$
 
 ### corollary III: universality of representing objects
 
-A [[presheaf|presheaf]] $X \colon C^{op} \to Set$ is [[representable functor|representable]] precisely if the [[comma category|comma category]] $(y,const_X)$ has a [[terminal object]]. If a [[terminal object]] is $(d, f : y(d) \to X) \simeq (d, f \in X(d))$ then $X \simeq y(d)$.
+A [[presheaf|presheaf]] $X \colon C^{op} \to Set$ is [[representable functor|representable]] precisely if the [[comma category|comma category]] $(y,const_X)$ has a [[terminal object]]. If a [[terminal object]] is $(d, g : y(d) \to X) \simeq (d, g \in X(d))$ then $X \simeq y(d)$.
 
 This follows from unwrapping the definition of [[morphisms]] in the [[comma category]] $(y,const_X)$ and applying the Yoneda lemma to find
 
