@@ -20,6 +20,10 @@
 
 In [[QCD]] a _meson_ is a [[bound state]] of two [[quarks]] via the [[strong nuclear force]]. 
 
+\linebreak
+
+[[!include flavors of fundamental particles -- table]]
+
 
 
 ## Examples
