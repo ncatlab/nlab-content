@@ -133,7 +133,7 @@ $$
 such that the [[image]] of one is the [[kernel]] of the next.
 
 $$
-  im(h) = ker(f)\,,\;\;\; im(f) = ker(g)\,, \;\;\; im(g) = ker(f)
+  im(h) = ker(f)\,,\;\;\; im(f) = ker(g)\,, \;\;\; im(g) = ker(h)
   \,.
 $$
 
