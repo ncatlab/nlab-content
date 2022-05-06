@@ -38,10 +38,28 @@ Another answer is to consider what the category-theoretic [[isomorphisms]] betwe
 
 Short maps give the [[Met|category of metric spaces]] some nice properties.  In particular, $Met$ is [[complete category|complete]], which does not hold using either global isometries or distance-preserving maps as morphisms.  This interacts with the properties of the category of [[Banach spaces]]; as a Banach space may be defined as a set with compatible vector-space and metric-space structures, so a Banach space morphism is a function that is both linear and short: the [[short linear maps]].
 
+## Injective objects in $Met_{ord}$
+
+An $Met_{ord}$ every object $X$ admits an [[injective hull]] $\varepsilon(X)$. The space $\varepsilon(X)$ is [[compact topological space|compact]] if $X$ is [[compact topological space|compact]]. Furthermore every [[compact topological space|compact metric space]] has an __injective boundary__ that is the smallest subspace $A$ of $X$ such that $\varepsilon(A) = X$.
+
 ## Related pages
 
 * [[Lipschitz map]]
 * [[metric space]]
+
+## References
+
+Injective objects $Met_{ord}$ have been studied in
+
+* Aronszajn, Nachman, and Prom Panitchpakdi. "Extension of uniformly continuous transformations and hyperconvex metric spaces." _Pacific Journal of Mathematics_ 6.3 (1956): 405-439.
+
+* Isbell, John R. "Six theorems about injective metric spaces." _Commentarii Mathematici Helvetici_ 39.1 (1964): 65-76.
+
+
+An overview of results is included in
+
+* Culbertson, Jared, Dan P. Guralnik, and Peter F. Stiller. "Injective metrizability and the duality theory of cubings." Expositiones Mathematicae 37.4 (2019): 410-453. [arXiv: 1502.00126](https://arxiv.org/abs/1502.00126).
+
 
 
 [[!redirects short map]]
