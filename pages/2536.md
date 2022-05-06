@@ -372,6 +372,8 @@ For more details see [[semilattice of commutative subalgebras]].
 
 * [[W-algebra]]
 
+* [[Jordan superalgebra]]
+
 ## References
 
 The original articles include
