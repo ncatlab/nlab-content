@@ -83,7 +83,7 @@ Here the expression in the first line uses the fact that [[SU(2)]] is a [[matrix
 
 The [[homotopy class]] of the [[exponentiated pion field]] (eq:ExponentiatedPionField), as a [[continuous function]], is an element of the ([[cohomotopy|co-]])[[homotopy group of spheres]] $\pi_3(S^3) \simeq \pi^3(S^3) \simeq \mathbb{Z}$, is the [[Skyrmion]]-number, or, in fact, the [[baryon]]-number, encoded in the [knotted stucture](On+Vortex+Atoms#RanadaTrueba01) of the pion field.
 
-\linebreal
+\linebreak
 
 See also [physics.stackexchange.com/a/306242/5603](https://physics.stackexchange.com/a/306242/5603)
 
