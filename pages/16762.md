@@ -26,7 +26,7 @@ $$
 
 which is an [[isomorphism]] away from the singular locus.
 
-Typical resolution of singularities is by "blow-up" of the singularity where the singular point is replaced by an  [[n-sphere]], then called the "exceptional divisor" of the blow-up.
+Typical resolution of singularities is by "blow-up" of the singularity where the singular point is replaced by an  [[n-sphere]], then called the "exceptional [[divisor (algebraic geometry)|divisor]]" of the blow-up.
 
 (quick review of the basic details includes [Berghoff 14, section 4.1](#Berghoff14))
 
@@ -50,9 +50,11 @@ Typical resolution of singularities is by "blow-up" of the singularity where the
 
 ## References
 
+The existence of resolutions of singularities by "blow-up" was established, for [[ground fields]] of [[characteristic zero]], in some generality in
+
 * {#Hironaka64} [[Heisuke Hironaka]], _Resolution of Singularities of an Algebraic Variety Over a Field of Characteristic Zero: I_, Annals of Mathematics Second Series, Vol. 79, No. 1 (Jan., 1964), pp. 109-203 (95 pages) ([jstor:1970486](https://www.jstor.org/stable/1970486))
 
-Review includes
+Basic review includes
 
 * {#Berghoff14} [[Marko Berghoff]], section 4 of _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
 
@@ -67,6 +69,7 @@ See also
 
 * Wikipedia, _[Resolution of singularities](https://en.wikipedia.org/wiki/Resolution_of_singularities)_
 
+* Wikipedia, _[Exceptional divisor](https://en.wikipedia.org/wiki/Exceptional_divisor)_
 
 [[!redirects resolutions of singularities]]
 
@@ -77,3 +80,6 @@ See also
 [[!redirects blow up]]
 [[!redirects blow-up]]
 [[!redirects blowup]]
+
+[[!redirects exceptional divisor]]
+[[!redirects exceptional divisors]]
