@@ -120,9 +120,11 @@ the object $P$ will be a proper quotient of $G$ and therefore $P \cong 1$, so th
 
 
 [[!redirects Group]]
+[[!redirects Groups]]
 
 [[!redirects FinGrp]]
 
 [[!redirects category of groups]]
+
 
 category: category
