@@ -20,15 +20,16 @@ For [[higher category theory]]:
 
 **projects for [[formal proof|formalization]] of [[mathematics]] with proof assistants:
 
-* [[Xena project]] (using [[Lean]])
-
-* [[UniMath project]] (using [[Coq]])
+* [[Archive of Formal Proofs]] (using [[Isabelle]])
 
 * [[ForMath project]] (using [[Coq]])
 
-* [[Archive of Formal Proofs]]
-
 * [[MathScheme]]
+
+* [[UniMath project]] (using [[Coq]])
+
+* [[Xena project]] (using [[Lean]])
+
 
 Historical projects that died out:
 
