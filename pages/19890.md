@@ -1,6 +1,15 @@
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
 
+<p id="a" style="color: #333; font-family: georgia,verdana,sans-serif; font-size: 173%; font-weight: bold; line-height: 1.3em; text-align: left;">A</p>
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+Insert Awodey2014 here
+
+[//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
+
+
 <p id="k" style="color: #333; font-family: georgia,verdana,sans-serif; font-size: 173%; font-weight: bold; line-height: 1.3em; text-align: left;">K</p>
 
 
@@ -103,5 +112,10 @@
 
 [//]: # (SEPARATOR COMMENT ──────────────────────────────────────────)
 
+
+## See also ##
+
+* [[Initiality Project]]
+* [[Initiality Project - BibTeX database]]
 
 category: Initiality Project
