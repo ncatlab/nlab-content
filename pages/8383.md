@@ -67,7 +67,7 @@ Categories, dirige par J. Benabou, November 1976
 
 * A. Asperti and A. Corradini. A categorical modal for logic programs: indexed monoidal categories. In:J.W. de Bakker and W.P. de Roever, Ed. REX Workshop, 110–137, Lecture Notes in ComputerScience, Vol. 666. Springer Verlag, New York-Berlin, 1993.
 
-* G. Amato and J. Lipton.Indexed categories and bottom-up semantics of logic programs. Lecture Notesin Computer Science, Vol. 2250. Springer Verlag, New York-Berlin, 2001
+* G. Amato and J. Lipton, Indexed categories and bottom-up semantics of logic programs. Lecture Notesin Computer Science, Vol. 2250. Springer Verlag, New York-Berlin, 2001
 
 * [[Pieter Hofstra]] and [[Federico De Marchi]], _Descent for Monads_, in  Theory and Applications of Categories, Vol. 16, No. 24, 2006, pp. 668–699.  ([TAC](http://www.tac.mta.ca/tac/volumes/16/24/16-24abs.html))
 
