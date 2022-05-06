@@ -57,6 +57,9 @@ based on
 
 See also
 
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], Nikolaos Prezas, _Discrete Torsion, Non-Abelian Orbifolds and the Schur Multiplier_, JHEP 0101:033, 2001 ([arXiv:hep-th/0010023](https://arxiv.org/abs/hep-th/0010023))
+
+
 * [[Kiyonori Gomi]], [[Yuji Terashima]], _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
 
 The case of [[heterotic string theory]] is discussed in
