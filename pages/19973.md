@@ -112,6 +112,8 @@ Here we are showing
 
 ## Related concepts
 
+* [[light and heavy flavor]]
+
 * [[CKM matrix]]
 
 * [[Yukawa coupling]]
