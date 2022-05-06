@@ -41,7 +41,7 @@ The term "K3" is
 
 ### Cohomology
 
-+-- {: .num_prop}
++-- {: .num_prop #IntegralCohomology}
 ###### Proposition
 **([[integral cohomology]] of [[K3-surface]])**
 
