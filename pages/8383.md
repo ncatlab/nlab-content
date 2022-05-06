@@ -75,9 +75,9 @@ Generalization to [[enriched categories]] is in
 
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
  
-Also would be usefull
+Also would be useful
 
-* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], Monoidal Grothendieck Construction ([arXiv:1809.00727](http://arxiv.org/abs/1809.00727))
+* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_ ([arXiv:1809.00727](http://arxiv.org/abs/1809.00727))
  
 
 
