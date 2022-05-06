@@ -11,6 +11,15 @@ Among his former students is [[Hisham Sati]].
 
 ## Selected writing
 
+On [[Kaluza-Klein compactification]]
+
+
+* {#Duff94} [[Michael Duff]], _Kaluza-Klein Theory in Perspective_, Proc. of the Symposium: _The Oskar Klein Centenary_, World Scientific, Singapore. 1994. ([arXiv:hep-th/9410046](http://arxiv.org/abs/hep-th/9410046))
+
+and specifically in [[supergravity]]:
+
+* {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
+
 On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]]:
 
 * {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
