@@ -102,7 +102,7 @@ are distributive categories (hence [[distributive monoidal categories]], hence [
 
 These categories have in common that they are [[extensive category|extensive]]. An example[^Freyd] of a distributive category that is not extensive is given by
 
-* the category of rectangular bands which has objects [[semigroup|semigroups]] $X$ satisfying $x x = x$ for all $x\in X$ and $x y x=x$ for all $x,y\in X$.
+* the category of [[rectangular bands]] which has objects [[semigroup|semigroups]] $X$ satisfying $x x = x$ for all $x\in X$ and $x y x=x$ for all $x,y\in X$.
 
 Since for [[poset|posets]] viewed as categories, finite products and coproducts are given by [[meets]] and [[joins]] we find:
 
