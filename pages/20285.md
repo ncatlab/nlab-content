@@ -20,9 +20,10 @@
 
 | properties | implications |
 |--|--|
-| [[second-countable space|second-countable]]: there is a [[countable set|countable]] [[topological base|base]] of the topology. |  |
-|[[separable space|separable]]: there is a countable [[dense subspace|dense]]  subset.| [[second-countable spaces are Lindelöf]] |
-| [[Lindelöf topological space|Lindelöf]]: every [[open cover]] has a [[countable cover|countable]] sub-cover. | |
-| [[weakly Lindelöf topological space|weakly Lindelöf]]: every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense.| |
-| $\sigma$-locally finite base, i.e. $X$ has a [[countably locally finite set of subsets|countably locally finite]] [[topological base|base]] | |
-| [[metacompact space|metacompact]]: every open cover has a point-finite open refinement which covers $X$ | |
+| [[second-countable space|second-countable]]: there is a [[countable set|countable]] [[topological base|base]] of the topology. | A second-countable space has a [[countably locally finite set of subsets|$\sigma$-locally finite]] [[topological base|base]] by [[Nagata-Smirnov metrization theorem]] |
+| $\sigma$-locally finite base, i.e. $X$ has a [[countably locally finite set of subsets|countably locally finite]] [[topological base|base]]. | second-countable spaces are separable: [[countable choice|choose]] a point in each set of countable cover. |
+| [[separable space|separable]]: there is a countable [[dense subspace|dense]]  subset. | [[second-countable spaces are Lindelöf]] |
+| [[Lindelöf topological space|Lindelöf]]: every [[open cover]] has a [[countable cover|countable]] sub-cover. | [[weakly Lindelöf spaces with countably locally finite base are second countable]] |
+| [[weakly Lindelöf topological space|weakly Lindelöf]]: every [[open cover]] has a [[countable set|countable]] subcollection the union of which is dense. | [[separable metacompact spaces are Lindelöf]] |
+| [[countable choice]]: the [[natural number]]s is a [[projective object]] in [[Set]]. | separable space are Lindelöf: given a countable dense subset and an open cover [[axiom of choice|choose]] for each point of the subset an open from the cover.  |
+| [[metacompact space|metacompact]]: every open cover has a point-finite open refinement. | Lindelöf spaces are trivially also weakly Lindelöf |
