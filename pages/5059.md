@@ -167,7 +167,7 @@ While Green-Schwarz's extra [[kappa-symmetry]] term $S_{WZW}$ this serves a clea
 
    for $\mathbf{N}$ a [[real spin representation]] (the "number of supersymmetries"), $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$ the corresponding [[super Poincaré group]] and $Spin(d-1,1)$ its [[Lorentzian manifold|Lorentz-signature]] [[spin group|Spin]] [[subgroup]];
 
-1. [[WZW-term]] being a local potential for the unique (up to rescaling, if it exists) $Spin(d-1,1)$-[[invariant]] [[Lie algebra cohomology|super Lie algebra 3-cocycle]] $\mu_[F1}$ on the [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with components locally given by the Gamma-matrices of the given [[Clifford algebra]] representation; in terms of the [[super vielbein]] $(e^a, \psi^\alpha)$:
+1. [[WZW-term]] being a local potential for the unique (up to rescaling, if it exists) $Spin(d-1,1)$-[[invariant]] [[Lie algebra cohomology|super Lie algebra 3-cocycle]] $\mu_{F1}$ on the [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with components locally given by the Gamma-matrices of the given [[Clifford algebra]] representation; in terms of the [[super vielbein]] $(e^a, \psi^\alpha)$:
 
    $$
      \mu_{F1} = \overline{\psi} \wedge \Gamma_A \psi \wedge e_a
@@ -232,7 +232,7 @@ $$
 $$
 
 is a non-trivial [[super Lie algebra|super]] [[Lie algebra cocycle]] on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, in that 
-$\mathbf{d}\mu_{F1} = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_[F1}$
+$\mathbf{d}\mu_{F1} = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_{F1}$
 (beware here the left-invariance condition: there are of course non-left-invariant potentials for $\mu_{F1}$,
 and in fact these are exactly the possible [[Lagrangian densities]] for the WZW action functional $S_{WZW}$).
 
@@ -800,7 +800,7 @@ Discussion for the GS-version of the [[type II superstring]] in [[type II superg
 ### Conserved currents
  {#ConservedCurrents}
 
-The super-WZW term of the GS action functionals is invariant under [[supersymmetry] only up to a [[divergence]]. Hence the [[Noether theorem]] in its generality for "weak" symmetries applies and gives that the [[conserved currents]] receive an extra contribution from this divergence term. The resulting algebra is a central extension of the given [[super translation Lie algebra]], extending to the famous [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions) "by brane charges" of the [[super Poincaré Lie algebra]] ([AGIT 89](#AGIT89)).
+The super-WZW term of the GS action functionals is invariant under [[supersymmetry]] only up to a [[divergence]]. Hence the [[Noether theorem]] in its generality for "weak" symmetries applies and gives that the [[conserved currents]] receive an extra contribution from this divergence term. The resulting algebra is a central extension of the given [[super translation Lie algebra]], extending to the famous [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions) "by brane charges" of the [[super Poincaré Lie algebra]] ([AGIT 89](#AGIT89)).
 
 ### As part of the AdS-CFT correspondence
  {#AsPartOfTheAdSCFTCorrespodence}
@@ -1026,6 +1026,7 @@ A corresponding refinement of the brane scan to a "brane bouquet" of [[super L-�
 
 * {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory and type IIA string theory]]_ ([arXiv:1606.03206](http://arxiv.org/abs/1606.03206))
 
+* [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Gauge enhancement of Super M-Branes]]_ ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
 
 
 These cohomologival arguments also appear in what is called the "ectoplasm" method for invariants in [[super Yang-Mills theory]] in
