@@ -44,7 +44,7 @@ the [[Lagrangian density]] of the Born-Infeld [[action functional]] is
   \label{PlainMinkowskiDBIAction}
   L_{BI}
   \;=\;
-  \sqrt{ det( - (\eta + F) ) } \, dvol
+  \sqrt{ - det( \eta + F ) } \, dvol
   \,.
 \]
 
@@ -68,14 +68,14 @@ Here
 
 * $\sqrt{}$ denotes the [[positive number|positive]] [[square root]],
 
-* $dvol$ denotes the canonical [[volume form]] on [[Minkowski spacetime]]
+* $dvol$ denotes a [[volume form]] on [[Minkowski spacetime]], which after a choice of global [[coordinates]] may be taken to be
 
   \[
     \label{VolumeForm}
     dvol \;=\; d t \wedge d x^1 \wedge d x^2 \wedge d x^3
   \]
 
-In the following, for $\omega_4$ any [[differential 4-form]] on $\mathbb{R}^{3,1}$ we write $\omega_4 / dvol$ for the unique [[smooth function]] $\mathbb{R}^{3,1} \to \mathbb{R}$ such tha
+In the following, for $\omega_4$ any [[differential 4-form]] on $\mathbb{R}^{3,1}$ we write $\omega_4 / dvol$ for the unique [[smooth function]] $\mathbb{R}^{3,1} \to \mathbb{R}$ such that
 
 $$
   (\omega_4 / dvol) \cdot dvol \;=\; \omega_4
@@ -88,12 +88,12 @@ $$
 The [[determinant]] in (eq:PlainMinkowskiDBIAction) evaluates to
 
 $$
-  det( - (\eta + F) )
+  det( \eta + F )
   \;=\;
-  1 
-   -  
+  - 1 
+  +  
  \tfrac{1}{6} (F \wedge \star F) / dvol 
-   -
+  +
  ( (F\wedge F) / \mathrm{dvol} )^2
   \,,
 $$
@@ -106,6 +106,132 @@ where
 
 =--
 
++-- {: .proof} 
+###### Proof 
+
+We compute as follows:
+
+$$
+  \begin{aligned}
+  \mathrm{det}
+  \big( 
+    (\eta_{a b})
+    +
+    (F_{a b})
+  \big)
+  & 
+  \; = \phantom{+}
+  \tfrac{1}{4!}
+  \epsilon^{a_1 a_2 a_3 a_4}
+  (\eta_{a_1 b_1} + F_{a_1 b_1})  
+  (\eta_{a_2 b_2} + F_{a_2 b_2})
+  (\eta_{a_3 b_3} + F_{a_3 b_3})
+  (\eta_{a_4 b_4} + F_{a_4 b_4})
+  \epsilon^{b_1 b_2 b_3 b_4}
+  \\
+  &
+  \; = \phantom{+}
+  \underset{
+    = \mathrm{det}(\eta) = -1
+  }{
+  \underbrace{
+  \tfrac{1}{4!}
+  \epsilon^{a_1 a_2 a_3 a_4}
+  \eta_{a_1 b_1}
+  \eta_{a_2 b_2}
+  \eta_{a_3 b_3}
+  \eta_{a_4 b_4}
+  \epsilon^{b_1 b_2 b_3 b_4}
+  }
+  }
+  \\
+  &
+  \phantom{\; =} +
+  \underset{
+    = 0
+  }{
+  \underbrace{
+  \tfrac{3}{4!}
+  \epsilon^{a_1 a_2 a_3 a_4}
+  \eta_{a_1 b_1}
+  \eta_{a_2 b_2}
+  \eta_{a_3 b_3}
+  F_{a_4 b_4}
+  \epsilon^{b_1 b_2 b_3 b_4}
+  }
+  }
+  \\
+  &
+  \phantom{\; =} +
+  \underset{
+    = \tfrac{2\cdot 2}{4!} F_{a b} F^{a b}
+  }{
+  \underbrace{
+  \tfrac{2}{4!}
+  \epsilon^{a_1 a_2 a_3 a_4}
+  \eta_{a_1 b_1}
+  \eta_{a_2 b_2}
+  F_{a_3 b_3}
+  F_{a_4 b_4}
+  \epsilon^{b_1 b_2 b_3 b_4}
+  }
+  }
+  \\
+  &
+  \phantom{\; =} +
+  \underset{
+    = 0
+  }{
+  \underbrace{
+  \tfrac{3}{4!}
+  \epsilon^{a_1 a_2 a_3 a_4}
+  \eta_{a_1 b_1}
+  F_{a_2 b_2}
+  F_{a_3 b_3}
+  F_{a_4 b_4}
+  \epsilon^{b_1 b_2 b_3 b_4}
+  }
+  }
+  \\
+  &
+  \phantom{\; =} +
+  \underset{
+    = (F \wedge F  / \mathrm{dvol})^2
+  }{
+  \underbrace{
+  \tfrac{1}{4!}
+  \epsilon^{a_1 a_2 a_3 a_4}
+  F_{a_1 b_1}
+  F_{a_2 b_2}
+  F_{a_3 b_3}
+  F_{a_4 b_4}
+  \epsilon^{b_1 b_2 b_3 b_4}
+  }
+  }
+  \\
+  & \; = \phantom{+}
+  -1 
+    + 
+  \tfrac{1}{6} (F \wedge \star F) / \mathrm{dvol}
+    +
+  \big( 
+    (F\wedge F) / \mathrm{dvol}
+  \big)^2
+  \end{aligned}
+$$
+
+In the first line we used the expression of the [[determinant]] via the [[Levi-Civita symbol]] ([here](determinant#eq:DeterminantInTermsOfLCSymbols)) with the [[Einstein summation convention]] being understood throughout.
+Then we multiplied out the terms, collecting those with the same number of factors of $\eta$ (of $F$) using that under exchange of the order of factors both [[Levi-Civita symbols]] give a sign, which hence cancel. Of the four terms that appear, the first and the last are themselves the plain [[determinants]] of $\eta$ and of $F$, respectively. 
+
+We discuss the identifications of the resulting four summands shown under the braces:
+
+* (first summand) The determining of $\eta$ equals -1 by definition.
+
+* (second summand) If we exchange indices $(a_i \leftrightarerow b_i)$ the form of this summand remains unchanged, also the factors $\eta_{a_i b_i}$ do not change, since $\eta$ is a [[symmetric matrix]], by definition. But the single factor of $F$ changes by a sign, since the components of a [[differential 2-form]] constitute a [[skew-symmetric matrix]]. In summary this says that the second terms is equal to minus itself, and hence has to be [[zero]].
+
+* (third summand) ...
+
+=--
 
 
 ## Related concepts
