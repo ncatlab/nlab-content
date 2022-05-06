@@ -19,7 +19,7 @@
 
 ## Idea
 
-In a [[preordered set]] or [[partially ordered set]] $P$ then the _meet_ (or _infimum_, abbreviated _inf_, or _greateast lower bound_, abbreviated _glb_) of a [[subset]] $S$ of $P$ is, if it exists, the largest element of $P$ which is smaller or equal to all the elements in $S$. If this element is itself member of $S$, then it is also called the _[[minimum]]_ of that subset.
+In a [[preordered set]] or [[partially ordered set]] $P$, the _meet_ (or _infimum_, abbreviated _inf_, or _greatest lower bound_, abbreviated _glb_) of a [[subset]] $S$ of $P$ is, if it exists, the largest element of $P$ which is smaller or equal to all the elements in $S$. If this element is itself member of $S$, then it is also called the _[[minimum]]_ of that subset.
 
 If we think of the pre-ordered set as a [[category]] (a [[(0,1)-category]]) then the meet is the [[limit]] over the given subset, if it exists, regarded as a [[diagram]]. Thus in a [[partially ordered set]] this is unique if it exists, otherwise it is unique up to [[isomorphism]].
 
