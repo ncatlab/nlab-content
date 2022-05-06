@@ -17,7 +17,7 @@
 
 ## Idea
 
-Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight system]] on [[Jacobi diagrams]] (since [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]) and hence an assignment of [[Feynman amplitude]]-factors to [[Chern-Simons theory|Chern-Simons-]][[Feynman diagrams]] (in the presence of a [[Wilson loop]]), a _stringy weight system_ assigns such amplitude factors instead to the [[ribbon graph]] [[surfaces]] of [[open string]] [[worldsheets]] which become [[Jacobi diagrams]] in the [[worldline formalism|point particle limit]].
+Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight system]] on [[Jacobi diagrams]] (since [[chord diagrams modulo 4T are Jacobi diagrams modulo STU]]) and hence an assignment of [[Feynman amplitude]]-factors to [[Chern-Simons theory|Chern-Simons-]][[Feynman diagrams]] (in the presence of a [[Wilson loop]]), a _stringy weight system_ assigns such amplitude factors instead to the [[ribbon graph]] [[surfaces]] of [[open string]] [[worldsheets]] which become [[Jacobi diagrams]] in the [[worldline formalism|point particle limit]] ([Bar-Natan 95, Theorem 10](#BarNatan95), see also [Kneissler 97, Section 1.3](#Kneissler97))
 
 ## Properties
 
@@ -34,3 +34,6 @@ Where a [[weight system]] on [[chord diagrams]] is equivalently a [[weight syste
 ## References
 
 * {#BarNatan95} [[Dror Bar-Natan]], p. 9 and section 6 of: _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+
+* {#Kneissler97} [[Jan Kneissler]], Section 1.3 of: _The number of primitive Vassiliev invariants up to degree 12_ ([arXiv:q-alg/9706022](https://arxiv.org/abs/q-alg/9706022))
+
