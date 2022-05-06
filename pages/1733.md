@@ -125,6 +125,10 @@ Lecture notes include
 
 * Davis, _Lecture notes in algebraic topology_ ([pdf](http://www.indiana.edu/~jfdavis/teaching/m623/book.pdf))
 
+Some interactive 3D demos can be found at
+
+* [[Neil Strickland]], *Interactive pages for Algebraic Topology*, [web site](http://neil-strickland.staff.shef.ac.uk/courses/MAS435/demos/)
+
 A textbook with an emphasis on [[homotopy theory]] is in 
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
