@@ -12,7 +12,7 @@ Given a [[groupoid infinity-action|group action]] on a [[graph]] $Y$ (with invol
 
 ## Definition
 
-A graph of groups $\Gamma(G,X)$ consists of
+A graph of groups, $\Gamma(G,X)$, consists of
 
 * a connected graph, $X$;
 
