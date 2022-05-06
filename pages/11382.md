@@ -45,7 +45,7 @@ The first article that correctly derived gravitational waves from the [[Einstein
 
 * {#Einstein18} [[Albert Einstein]], _&#220;ber Gravitationswellen_, Sitzungsberichte der K&#246;niglich Preu&#223;ischen Akademie der Wissenschaften Berlin (1918), 154-167
 
-In particular this correctly stated that gravitational waves require a [[quadrupole moment]] as a [[source]] (e.g. a rotating binary star system) and not just a [[dipole moment]] (e.g. an oscillating charge) as for [[electromagnetic waves]] (the [[graviton]] has [[spin]] 2, the [[photon]] has spin 1...), thereby correcting a mistake to this effect in the earlier article
+In particular this correctly stated that gravitational waves require a [[quadrupole moment]] as a [[source]] (e.g. a rotating [[binary star system]]) and not just a [[dipole moment]] (e.g. an oscillating charge) as for [[electromagnetic waves]] (the [[graviton]] has [[spin]] 2, the [[photon]] has spin 1...), thereby correcting a mistake to this effect in the earlier article
 
 * {#Einstein16} [[Albert Einstein]], _N&#228;herungsweise Integration der Feldgleichungen der Gravitation_, Sitzung der physikalisch-mathematischen Klasse vom 22. Juni 1916 ([web](http://echo.mpiwg-berlin.mpg.de/ECHOdocuView?url=/permanent/echo/einstein/sitzungsberichte/BGG54UCY/index.meta&ww=0.7142&wh=0.7142&wx=0.2315))
 
@@ -60,7 +60,7 @@ A modern walk through the derivation of gravitational waves from linearization o
 * {#Guidry13} Mike Guidry, _[Astrophysics 616: General Relativity, Black Holes, and Cosmology](http://eagle.phys.utk.edu/guidry/astro616/)_ -- _Chapter 21 -- Gravitational waves_ ([pdf](http://eagle.phys.utk.edu/guidry/astro616/lectures/lecture_ch21.pdf))
 
 
-Indirect detection of gravitational waves based on energy loss of a binary star pulsar system is due to 
+Indirect detection of gravitational waves based on energy loss of a [[binary pulsar]] system is due to 
 
 * {#HulseTaylor75} Hulse, Taylor, _Discovery of a pulsar in a binary system_, The astrophysical journal, 195:L51-53, 1975 ([web](http://adsabs.harvard.edu/full/1975ApJ...195L..51H))
 
@@ -72,7 +72,7 @@ Discussion of theoretical predictions for events that have a chance to yield det
 
 * {#Damour10} [[Thibault Damour]], _Gravitational Waves from Coalescing Binary Black Holes: Theoretical and Experimental Challenges_, talk in Munich, 2010 ([web](http://www.theorie.physik.uni-muenchen.de/MATH/seminars/asc_kolloquium/archiv_sose10/damour/video_damour/index.html), [youtube](https://www.youtube.com/watch?v=hVy3YBalpWE))
 
-In particular the computation of the signal from the coalescence of two inspiralling black holes is due to 
+In particular the computation of the signal from the coalescence of two inspiralling black hole [[relativistic binary|binaries]] is due to 
 
 * {#BuonannoDamour98} [[Alessandra Buonanno]], [[Thibault Damour]], _Effective one-body approach to general relativistic two-body dynamics_, Phys.Rev. D59 (1999) 084006 ([arXiv:gr-qc/9811091](http://arxiv.org/abs/gr-qc/9811091))
 
