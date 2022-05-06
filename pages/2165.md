@@ -74,6 +74,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 ## Related concepts
 
+* [[automorphism of the complex numbers]]
+
 * [[absolute value]], [[phase]]
 
 * [[real part]], [[imaginary part]]
