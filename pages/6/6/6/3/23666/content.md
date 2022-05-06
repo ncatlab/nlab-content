@@ -46,13 +46,16 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 * [[Berry connection]]
 
+
 ## References
 
 ### General
 
-Textbook account with focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]] etc.):
+Account with focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]] etc.):
 
 * {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
+
+* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
 
 
@@ -67,6 +70,9 @@ The electronic band structure of [[graphene]] was predicted in
 * [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 ([doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622))
 
 [[!redirects electronic band structures]]
+
+[[!redirects electronic band theory]]
+[[!redirects electronic band theories]]
 
 [[!redirects electronic energy band]]
 [[!redirects electronic energy bands]]
