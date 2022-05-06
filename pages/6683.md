@@ -166,6 +166,11 @@ Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[hol
 
 * Jun Nian, Xinyu Zhang, _Entanglement Entropy of ABJM Theory and Entropy of Topological Black Hole_ ([arXiv:1705.01896](https://arxiv.org/abs/1705.01896))
 
+Discussion of [[higher curvature corrections]] in the abelian case:
+
+* Shin Sasaki, _On Non-linear Action for Gauged M2-brane_, JHEP 1002:039, 2010 ([arxiv:0912.0903](https://arxiv.org/abs/0912.0903))
+
+
 [[!redirects ABJM model]]
 [[!redirects ABJM-model]]
 
