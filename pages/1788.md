@@ -1,4 +1,68 @@
 
+\begin{xymatrix}
+    S^{2n-1}
+    \ar@/^1.7pc/[drr]_-{\ }="s"
+    \ar@/_1.7pc/[drr]^-{\ }="t"
+    \\
+    && 
+    E_8
+    %
+    \ar@{=>}^-{
+      \Sigma^{2n-1} \! \kappa
+    } "s"; "t"
+\end{xymatrix}
+
+\begin{xymatrix}
+   S^{2n-1}
+   \ar[dd]_-{ f }
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   &&
+   \ast
+   \ar[dr]
+   \ar[dd]
+   \\
+   && &  
+   \ast
+   \ar[dd]^-{0}
+   \\
+   S^n
+   \ar[dd]
+   \ar[rr]
+   \ar@{}[ddrr]|-{
+     \rotatebox[origin=c]{-45}{$\big\Downarrow$}
+     \mbox{\tiny (po)}
+   }
+   \ar@/_.7pc/[drrr]|<<<<<<<{ \;\Sigma^4 1\; }|>>>>>>>{ {\phantom{AA}} \atop {\phantom{AA}} }
+   &&
+   C_f
+   \ar[dd]
+   \ar@{-->}[dr]^-{ c }
+   \\
+   && &
+   E_n
+   \ar[dd]^-{ (-)^{2_{\cup}} }
+   \\
+   \ast
+   \ar@/_.7pc/[drrr]|-{ \;0\; }
+   \ar[rr]
+   &&
+   S^{2n}
+   \ar@{-->}[dr]|-{ 
+     \mathclap{\phantom{\vert^{\vert}}}
+     \Sigma^{2n} \kappa 
+     \mathclap{\phantom{\vert_{\vert}}}
+   }
+   \\
+   && & 
+   E_{2n}
+\end{xymatrix}
+
+
+
 $$
   \array{
     S^7 
