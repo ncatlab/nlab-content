@@ -46,6 +46,9 @@ The original article is
 
 Surveys:
 
+* {#Jacobowitz90}  Howard J. Jacobowitz, _An Introduction to CR Structures_, Mathematical Surveys and Monographs Volume: 32; (1990) ([ISBN:978-0-8218-1533-5](https://bookstore.ams.org/surv-32), [doi:10.1090/surv/032](http://dx.doi.org/10.1090/surv/032))
+
+
 * {#DragomiTomassini06} [[Sorin Dragomir]], Giuseppe Tomassini, _Differential Geometry and Analysis on CR Manifolds_, Birkh&#228;user, 2006 ([doi:10.1007/0-8176-4483-0](https://link.springer.com/book/10.1007/0-8176-4483-0))
 
 See also
