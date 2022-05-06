@@ -81,7 +81,7 @@ There are many properties of locally compact Hausdorff abelian groups that impli
 
 * If $A$ is a Lie group, then $\widehat{A}$ is compactly generated (there is a compact neighborhood that generates $\widehat{A}$ as a group). 
 
-* If A is compactly generated, then $\widehat{A}$ is a Lie group.
+* If $A$ is compactly generated, then $\widehat{A}$ is a Lie group.
 
 * If $A$ is second countable, then $\widehat{A}$ is second countable.
 
@@ -96,6 +96,10 @@ For a discussion of these facts, with some references, try:
 and this more advanced text:
 
 * David A. Armacost, _The Structure of Locally Compact Abelian Groups_, Dekker, New York, 1981.
+
+Another statement of this type is presented in "The Laplace Transform For Locally Compact Abelian Groups" by G. Mackey:
+
+* $A$ is connected if and only if $\widehat{A}$ is a product of a discrete torsion-free group with a finite dimensional real vector space.
 
 ## Applications
 
