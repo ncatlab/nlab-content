@@ -141,7 +141,7 @@ See [[commutative monad#tensor_product_of_algebras_and_multimorphisms|here]].
 
 ## Examples
 
-See [[commutative monad|examples of commutative monads]].
+See [[commutative monad#examples|examples of commutative monads]].
 
 
 ## See also
