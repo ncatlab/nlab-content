@@ -121,5 +121,5 @@ and in [[Higher Topos Theory|section 4.2.1]] of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_  ,
 
-where also the relation between both constructions is established.
+where also the relation between the two constructions is established.
 
