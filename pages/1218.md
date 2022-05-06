@@ -152,19 +152,19 @@ While the site $CartSp_{dim \leq 1}$ is more convenient for some purposes, it is
 
 +-- {: .num_prop #SmoothManifoldsWithBoundaryEmbedIntoDiffeologicalSpaces}
 ###### Proposition
-**([[manifolds with boundary]] form [[full subcategory]] of [[diffeological spaces]])**
+**([[manifolds with boundaries and corners]] form [[full subcategory]] of [[diffeological spaces]])**
 
 The evident [[functor]]
 
 $$
-  SmthMfdWBdr \overset{\phantom{AAAA}}{\hookrightarrow} DiffeologicalSpaces
+  SmthMfdWBdrCrn \overset{\phantom{AAAA}}{\hookrightarrow} DiffeologicalSpaces
 $$
 
-from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundary]] to that of [[diffeological spaces]] is [[fully faithful functor|fully faithful]], hence is a [[full subcategory]]-embedding.
+from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundaries and corners]] to that of [[diffeological spaces]] is [[fully faithful functor|fully faithful]], hence is a [[full subcategory]]-embedding.
 
 =--
 
-([Igresias-Zemmour 13, 4.16](#PIZ))
+([Igresias-Zemmour 13, 4.16](#PIZ), [Gürer & Iglesias-Zemmour 19](#GurerIZ19))
 
 
 ### Embedding of Banach manifolds into diffeological spaces
@@ -370,6 +370,14 @@ Exposition and lecture notes are in
 Diffeology, Categories and Toposes
 and Non-commutative Geometry Summer School](http://www.nesinkoyleri.org/eng/events-detail.php?egitimkod=203)_, 2018, to appear in _[[New Spaces for Mathematics and Physics]]_ ([pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
 
+
+Discussion in the context of applications to [[continuum mechanics]] is in 
+
+* [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
+
+
+### Full subcategories
+
 The [[full subcategory]]-inclusion of [[Banach manifolds]] into the category of diffeological spaces is due to 
 
 * {#Hain} [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
@@ -408,9 +416,13 @@ Some [[homotopy theory]] modeled on diffeological spaces instead of on [[topolog
 
 * [[Dan Christensen|J. Daniel Christensen]],  Enxin Wu, _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_ ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
-Discussion in the context of applications to [[continuum mechanics]] is in 
+The [[full subcategory]]-inclusion of [[manifolds with boundaries and corners]] is discussed in 
 
-* [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
+* {#GurerIZ19} [[Serap Gürer]],  [[Patrick Iglesias-Zemmour]], _Differential forms on manifolds with boundary and corners_, Indagationes Mathematicae, Volume 30, Issue 5, September 2019, Pages 920-929 ([doi:10.1016/j.indag.2019.07.004](https://doi.org/10.1016/j.indag.2019.07.004))
+
+
+
+
 
 ### For orbifolds
  {#ReferencesForOrbifolds}
