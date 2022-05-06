@@ -48,15 +48,23 @@ This proposal seems to subsume many aspects of other existing proposals (see e.g
 ## Algebra over $\mathbb{F}_1$
  {#AlgebraOverF1}
 
-### Modules
+### Modules/Vector spaces over $\mathbb{F}_1$
  {#Modules}
 
-It makes sense to identify the concept of [[modules]] over the field with one element with that of ([[pointed set|pointed]]) [[finite sets]] 
+It makes good sense to identify the concept of finite rank [[modules]]/[[finite-dimensional vector spaces]] over the field with one element with that of ([[pointed set|pointed]]) [[finite sets]] 
 
 $$
-  \mathbb{F}_1 Mod
+  \mathbb{F}_1 Mod_{fin}
   \;\simeq\;
-  FinSet^{\ast/}
+  Set^{\ast/}_{fin}
+$$
+
+and hence the [[symmetric group]] $\Sigma_n$ on $n$ [[elements]] with the [[general linear group]] over $\mathbb{F}_1$:
+
+$$
+  GL(n,\mathbb{F}_1)
+  \;\simeq\;
+  \Sigma_n
 $$
 
 (e.g. [Cohn 04, "puzzle 1"](#Cohn04), [Durov 07, 2.5.6](#Durov07), [Snyder 07](#Snyder07))
