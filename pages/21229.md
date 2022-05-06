@@ -41,7 +41,7 @@ See also
 
 The term "[[quantum hadrodynamics]]" for the [[Walecka model]] and its generalizations is used in
 
-* [[Brian Serot]], _Quantum hadrodynamics_, Reports on Progress in Physics, Volume 55, Number 11 (1992) ([https://doi.org/10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
+* [[Brian Serot]], _Quantum hadrodynamics_, Reports on Progress in Physics, Volume 55, Number 11 (1992) ([doi:10.1088/0034-4885/55/11/001](https://doi.org/10.1088/0034-4885/55/11/001))
 
 * [[Brian Serot]], [[John Dirk Walecka]], _Recent Progress in Quantum Hadrodynamics_,  Int. J. Mod. Phys. E6:515-631, 1997 ([arXiv:nucl-th/9701058](http://arxiv.org/abs/nucl-th/9701058))
 
