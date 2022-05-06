@@ -49,6 +49,8 @@ When the abstract set $A$ is fixed, a subset $B$ of $A$ may be thought of as a _
 
 * [[causally closed subset]]
 
+* [[space of finite subsets]]
+
 [[!redirects subset]]
 [[!redirects subsets]]
 
