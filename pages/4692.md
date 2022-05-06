@@ -29,6 +29,8 @@ If $B$ is [[cartesian monoidal category|cartesian monoidal]], then monoidal fibr
 
 * [[indexed monoidal category]], [[dependent linear type theory]]
 
+* [[monoidal Grothendieck construction]]
+
 ## References
 
 * [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
