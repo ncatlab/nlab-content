@@ -19,9 +19,6 @@
 =--
 
 
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -1209,6 +1206,8 @@ Survey and review includes
 
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+
+* [[Joshua Moerman]], _Rational Homotopy Theory_, 2015 ([pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]])
 
 * {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_, ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245))
 
