@@ -5,7 +5,7 @@
 
 ## Idea
 
-Recall that a [[semiring]] is a set $R$ equipped with two binary operations, denoted $+$, and $\cdot$ and called _addition_ and _multiplication_, satisfying the ring (or [[rng]]) axioms except that there may not be a zero nor a negative.
+Recall that a [[semiring]] is a set $R$ equipped with two binary operations, denoted $+$, and $\cdot$ and called _addition_ and _multiplication_, satisfying the ring (or [[rng]]) axioms except that there may neither be a zero nor a negative nor an inverse.
 
 
 ## Definition
