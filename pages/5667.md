@@ -202,7 +202,7 @@ A streamlined version of the definition of the Kasparov product is in ([Skandali
 +-- {: .num_remark}
 ###### Remark
 
-From the point of view of [[E-theory]] the Kasparov product is equivalently just the composition of homotopy classes of completely poistive [[asymptotic C*-homomorphisms]]. See at _[[E-theory]]_ for more on this.
+From the point of view of [[E-theory]] the Kasparov product is equivalently just the composition of homotopy classes of completely positive [[asymptotic C*-homomorphisms]]. See at _[[E-theory]]_ for more on this.
 
 =--
 
