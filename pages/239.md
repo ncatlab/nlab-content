@@ -140,6 +140,8 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[tensor product of algebras]]
 
+* [[tensor product of algebras over a commutative monad]]
+
 * [[tensor product of chain complexes]]
 
 * [[tensor product of Banach spaces]]
