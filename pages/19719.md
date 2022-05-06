@@ -19,6 +19,7 @@ The Initiality Project is a communal effort to prove an [[initiality theorem]] f
 * [[Initiality Project - Term Model|The Term Model]]
 * [[Initiality Project - Functor|The interpretation as a functor]]
 * [[Initiality Project - Uniqueness|Uniqueness of the interpretation functor]]
+* [[Initiality Project - References|References]]
 
 ### By type former
 
@@ -41,7 +42,7 @@ Here are the tasks to be done.  To volunteer for a task, edit the page and put y
 * Prove local totality for the mode-switching rule at [[Initiality Project - Totality]].
 * Prove local totality for the equality rules at [[Initiality Project - Totality]].
 * Prove local totality for $\Pi,\lambda,App$ at [[Initiality Project - Totality - Pi-types]].
-
+* Create, update and maintain a bibliography ([[Initiality Project - References]]) for the project and link it to existing material. ([[Ali Caglayan]])
 
 ## Background links
 
