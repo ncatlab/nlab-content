@@ -174,7 +174,7 @@ $$
 
 hence that the matrix $M$ is [[lower triangular matrix|lower triangular]].
 
-Finally, it is clear that at least $[e] \in G/H$ is fixed by $H$, which shows that he diaginal entries are positive.
+Finally, it is clear that at least $[e] \in G/H$ is fixed by $H$, which shows that the diagonal entries are positive.
 
 
 =--
@@ -293,7 +293,7 @@ $$
 
 Here the third step uses the defining equation (eq:BurnsideStructureConstants) of the structure constants $n_{i j}^\ell$, while all other steps use that the mark homomorphism is a [[ring homomorphism]], which we made manifest by expressing the marks via [[hom-sets]] (Remark \ref{TableOfMarksInTermsOfHoms}).
 
-The claim now follows by [[matrix multiplication]] of both sides of this equation my $M^{-1}$.
+The claim now follows by [[matrix multiplication]] of both sides of this equation by $M^{-1}$.
 
 =--
 
