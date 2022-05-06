@@ -521,3 +521,8 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 
 [[!redirects 2d conformal field theory]]
 [[!redirects 2d conformal field theories]]
+
+
+[[!redirects conformal weight]]
+[[!redirects conformal weights]]
+
