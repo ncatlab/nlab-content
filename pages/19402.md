@@ -40,6 +40,8 @@ is a [[proper continuous function]].
 
 * [[free action]], [[semi-free action]], [[transitive action]], [[regular action]]
 
+* [[equivariant differential topology]]
+
 ## References
 
 See also
@@ -47,7 +49,7 @@ See also
 * Jack Lee, [MO comment](https://math.stackexchange.com/a/989168/58526), Oct 2014
 
 
-[[!redirects proper action]]
+[[!redirects proper actions]]
 
 [[!redirects proper group action]]
 [[!redirects proper group actions]]
