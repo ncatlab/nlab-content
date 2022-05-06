@@ -77,6 +77,14 @@ There is an exceptional [[isomorphism]] $I \simeq PSL_2(\mathbb{F}_5)$, with $2I
 
 ($PSL_2$ the [[projective special linear group]], $SL_2$ the [[special linear group]], $\mathbb{F}_5$ the [[prime field]] for $p = 5$)
 
++-- {: .num_prop #2IIsPerfect}
+###### Proposition
+
+The [[binary icosahedral group]] $2I$ is a [[perfect group]]: its [[abelianization]] is the [[trivial group]].
+
+In fact, up to [[isomorphism]], the [[binary icosahedral group]] is the unique [[finite group]] of [[order of a group|order]] 120 which is a [[perfect group]].
+
+=--
 
 +-- {: .num_prop #QuaternionSubgroup}
 ###### Proposition
