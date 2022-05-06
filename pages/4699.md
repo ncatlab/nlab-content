@@ -18,3 +18,4 @@ __Andrey Lazarev__ is a mathematician at the University of Leicester. His resear
  
 * [[Julian Holstein]] and A. Lazarev, _Categorical Koszul duality_ [Arxiv 2006.01706](https://arxiv.org/pdf/2006.01705.pdf)
 category: people
+[[!redirects A. Lazarev]]
