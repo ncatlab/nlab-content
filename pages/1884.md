@@ -359,7 +359,7 @@ This  multiplicative structure passes to the K-group (def. \ref{KGroupByGrothend
 $$
   [E_+, E_-] \cdot [F_+, F_-]
     \;\coloneqq\;
-  [ (E_+ \otimes_X F_+) \oplus_X (E_- \otimes_X E_-) \,,\, (E_+ \otimes_X F_-) \oplus_X (E_- \otimes_X F_+)  ]
+  [ (E_+ \otimes_X F_+) \oplus_X (E_- \otimes_X F_-) \,,\, (E_+ \otimes_X F_-) \oplus_X (E_- \otimes_X F_+)  ]
   \,.
 $$
 
