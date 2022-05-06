@@ -27,6 +27,10 @@ In ([Witten 89](#Witten89)) it was shown that the Jones polynomial as a polynomi
 
 Later in ([Witten 11](#Witten11)) this identification was further refined to a correspondence between [[Khovanov homology]] and observables in 4-dimensional [[super Yang-Mills theory]]. Extensive lectures notes on this are in ([Witten 13b](#Witten13b)).
 
+## Related concepts
+
+* [[colored Jones polynomial]]
+
 ## References
 
 The identification of the Jones polynomial with the [[partition function]] of [[Chern-Simons theory]] with [[Wilson loops]] is due to
