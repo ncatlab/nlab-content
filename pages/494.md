@@ -327,7 +327,7 @@ $$
     &
     Hom_{\mathcal{D}}(L(c_1),L(c_2))
       &\underoverset{\simeq}{\widetilde{(-)}}{\longrightarrow}&
-    Hom_{\mathcal{C}}(c_1,R(L(c_1)))
+    Hom_{\mathcal{C}}(c_1,R(L(c_2)))
   }
 $$
 
