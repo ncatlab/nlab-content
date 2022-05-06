@@ -33,3 +33,5 @@ let $\phi \coloneqq \tfrac{1}{2}( 1 + \sqrt{5} )$ (the [[golden ratio]])
 
 
 * Bockland, _Character tables and McKay quivers_ ([pdf](https://staff.fnwi.uva.nl/r.r.j.bocklandt/notes/kleinian.pdf))
+
+category: character tables
