@@ -98,6 +98,10 @@ Accurate visualization of many astronomical phenomena is at
 
 * [en.spaceengine.org](#http://en.spaceengine.org)
 
+Zoom through the full range of scales:
+
+* _[Cosmic Eye](https://www.youtube.com/watch?v=8Are9dDbW24)_
+
 Visualization of the [[speed of light]] in relation to distances in the solar system:
 
 * [www.techexplorist.com/3-animations-provided-nasa-scientist-suggests-the-speed-of-light-frustratingly-slow/20215/](https://www.techexplorist.com/3-animations-provided-nasa-scientist-suggests-the-speed-of-light-frustratingly-slow/20215/)
