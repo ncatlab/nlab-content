@@ -61,7 +61,7 @@ The _weak four lemma_ is another terminology (cf. MacLane, _Homology_) for the s
 +-- {: .proof}
 ###### Proof
 
-The [[four lemma]] follows immediately from the [[salamander lemma]], as discussed at _[salamander lemma - impliciations - four lemma](salamander%20lemma#FourLemma)_. Here is direct proof.
+The [[four lemma]] follows immediately from the [[salamander lemma]], as discussed at _[salamander lemma - impliciations - four lemma](salamander%20lemma#FourLemma)_. Here is a direct proof.
 
 By the [[Freyd-Mitchell embedding theorem]]
 we can always assume that the abelian category is $R$[[Mod]] (though this requires the category to be [[small category|small]], one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the [[diagram chasing]] using elements in that setup. We prove only 1) as 2) is dual. 
