@@ -345,7 +345,7 @@ We discuss the identifications of the resulting four summands shown under the br
 
 =--
 
-The expression (eq:PlainMinkowskiDBIAction) is supposed to be exact for [[constant function|costant]] [[field strength]] (e..g. [Bachas-Bain-Green 99, above (1.9)](#BachasBainGreen99)), and to pick up [[higher curvature corrections]] for non-constant field strength. The first derivative correction to (eq:PlainMinkowskiDBIAction) is supposed to arise at order $(\partial F)^4$. The explicit expression is given in [Garousi 15 (7)](#Garousi15) (argued there by appealing to [[T-duality]] and [[S-duality]] applied to earlier results on higher curvature corrections in other fields involved).
+The expression (eq:PlainMinkowskiDBIAction) is supposed to be exact for [[constant function|constant]] [[field strength]] (e..g. [Bachas-Bain-Green 99, above (1.9)](#BachasBainGreen99)), and to pick up [[higher curvature corrections]] for non-constant field strength. The first derivative correction to (eq:PlainMinkowskiDBIAction) is supposed to arise at order $(\partial F)^4$. The explicit expression is given in [Garousi 15 (7)](#Garousi15) (argued there by appealing to [[T-duality]] and [[S-duality]] applied to earlier results on higher curvature corrections in other fields involved).
 
 
 ## Related concepts
