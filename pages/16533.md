@@ -28,10 +28,25 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 ## References
 
+### As instantons
+
+As [[Yang-Mills instantons]]/[[Yang-Mills monopoles]]
+
 * [[Neil Lambert]], _D-brane Bound States and the Generalised ADHM Construction_, Nucl. Phys. B519 (1998) 214-224 ([arXiv:hep-th/9707156](https://arxiv.org/abs/hep-th/9707156))
 
-
 * {#Martinec99} [[Emil Martinec]], _Manifestations of the D1-D5 system_, 1999 ([[MartinecD1D5.pdf:file]])
+
+### As fuzzy funnels
+
+As [[fuzzy funnels]] on [[fuzzy 4-spheres]]:
+
+* [[Neil Constable]], [[Robert Myers]], Oyvind Tafjord, _Non-abelian Brane Intersections_, JHEP 0106:023, 2001 ([arXiv:hep-th/0102080](https://arxiv.org/abs/hep-th/0102080))
+
+* Rajsekhar Bhattacharyya, Robert de Mello Koch, _Fluctuating Fuzzy Funnels_, JHEP 0510 (2005) 036 ([arXiv:hep-th/0508131](https://arxiv.org/abs/hep-th/0508131))
+
+### As black holes
+
+As [[black holes in string theory]]:
 
 * _A review of the D1/D5 system and five dimensional black hole from supergravity and brane viewpoint_ ([arXiv:hep-th/0002184](http://arxiv.org/abs/hep-th/0002184))
 
@@ -41,3 +56,12 @@ Plays a central role in the discussion of [[black holes in string theory]].
 
 [[!redirects D1-D5-brane bound state]]
 [[!redirects D1-D5-brane bound states]]
+
+[[!redirects D1-D5-brane intersection]]
+[[!redirects D1-D5-brane intersections]]
+
+[[!redirects D1-D5 brane intersection]]
+[[!redirects D1-D5 brane intersections]]
+
+
+
