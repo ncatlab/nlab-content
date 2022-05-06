@@ -36,6 +36,10 @@ Further proofs:
 
 * I. M. Krichever, _Generalized elliptic genera and Baker-Akhiezer functions_, Mathematical Notes of the Academy of Sciences of the USSR 47, 132–142 (1990) ([doi:10.1007/BF01156822](https://doi.org/10.1007/BF01156822))
 
+* [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom.
+Volume 41, Number 2 (1995), 343-396 ([euclid:jdg/1214456221](https://projecteuclid.org/euclid.jdg/1214456221))
+
+
 * [[Kefeng Liu]], _On elliptic genera and theta-functions_, Topology Volume 35, Issue 3, July 1996, Pages 617-640 (<a href="https://doi.org/10.1016/0040-9383(95)00042-9">doi:10.1016/0040-9383(95)00042-9</a>)
 
 
