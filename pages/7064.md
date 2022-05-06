@@ -288,9 +288,14 @@ A tabulation of stable homotopy groups of spheres is in
 
 * [[Doug Ravenel]], Appendix 3 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA3.pdf))
 
-Original articles on basic properties include
+Original articles on basic properties:
 
 * {#Serre53} [[Jean-Pierre Serre]], _Groupes d'homotopie et classes de groupes abelien_, Ann. of Math. 58 (1953), 258&#8211;294 ([jstor:1969789](https://www.jstor.org/stable/1969789))
+
+Early computation of unstable homotopy groups of spheres $\pi_{n+k}(S^k)$ up to $n\leq 19$:
+
+* [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Vol. 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t))
+
  
 
 
