@@ -53,6 +53,22 @@ The original articles:
 
 * {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
 
+* [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B643:31-48, 2002 ([arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034))
+
+
+On [[M5-branes]] in the [[BMN matrix model]]:
+
+* [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
+
+* [[Hai Lin]], [[Juan Maldacena]], _Fivebranes from gauge theory_, Phys. Rev. D74:084014, 2006 ([arXiv:hep-th/0509235](https://arxiv.org/abs/hep-th/0509235))
+
+
+On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] on the [[3-sphere]]:
+
+* [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from N=4 Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B671:359-382, 2003 ([arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054))
+
+
+
 
 Discussion of the [[large N limit]]:
 
@@ -74,7 +90,7 @@ Discussion of [[thermodynamics]], [[phase transitions]] and [[thermal field theo
 
 In relation to the [[Myers effect]] and [[D0-D2 brane bound states]]:
 
-* {#Lin04} Hai Lin, _The Supergravity Dual of the BMN Matrix Model_, JHEP 0412:001, 2004 ([arXiv:hep-th/0407250](https://arxiv.org/abs/hep-th/0407250))
+* {#Lin04} [[Hai Lin]], _The Supergravity Dual of the BMN Matrix Model_, JHEP 0412:001, 2004 ([arXiv:hep-th/0407250](https://arxiv.org/abs/hep-th/0407250))
 
 See also
 
