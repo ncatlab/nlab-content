@@ -216,6 +216,8 @@ see _[[G2-orbifold]]_
 
 * [[symplectic orbifold]]
 
+* [[Lorentzian orbifold]]
+
 ## References
 
 ### General
