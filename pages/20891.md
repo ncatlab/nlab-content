@@ -97,6 +97,8 @@ of any class category is an [[elementary topos]].
 
 * [[category of classes]]
 
+* [[algebraic set theory]]
+
 ## References
 
 * {#JM} [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_.  Cambridge University Press, 1995.  ISBN 0-521-55830-1. 
