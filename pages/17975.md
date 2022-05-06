@@ -55,7 +55,7 @@ More recently, detection of the [[21cm hydrogen line]] from cosmic dawn indicate
 ## References
  {#References}
 
-### Original articles
+### General
 
 Early precursors of the idea include
 
@@ -77,6 +77,18 @@ A detailed discussion is in
 
 * {#HOTW16} [[Lam Hui]], [[Jeremiah Ostriker]], [[Scott Tremaine]], [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_,  Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
+Review includes
+
+* David J. E. Marsh, _Axion Cosmology_ ([arXiv:1510.07633](https://arxiv.org/abs/1510.07633))
+
+* {#Lee17} Jae-Weon Lee, _Brief History of Ultra-light Scalar Dark Matter Models_ ([arXiv:1704.05057](https://arxiv.org/abs/1704.05057))
+
+Computer simulation of [[structure formation]] with fuzzy dark matter:
+
+* Philip Mocz et al., _First Star-Forming Structures in Fuzzy Cosmic Filaments_, Phys. Rev. Lett. 123, 141301 – 2019 ([doi:10.1103/PhysRevLett.123.141301](https://doi.org/10.1103/PhysRevLett.123.141301))
+
+
+
 Some thoughts on the quantum [[measurement problem]] for fuzzy DM particles with huge macroscopic [[Compton wavelengths]] is in 
 
 * Adam D. Helfer, _Quantum measurement and fuzzy dark matter_ ([arXiv:1809.04946](https://arxiv.org/abs/1809.04946))
@@ -93,8 +105,19 @@ Discussion of how [[superfluid]] aspects of [[axion|axionic]] fuzzy dark matter 
 
 * Andrea Addazi, Antonino Marciano, _UV completion of a theory of Superfluid Dark Matter_ ([arXiv:1801.04083](https://arxiv.org/abs/1801.04083))
 
-### Tension with 21cm hydrogen line
+
+
+### Comparison and tension with experiment
  {#ReferencesTensionWithHydrogenLineSpectroscopy}
+
+Comparison to [[experiment]] (observation):
+
+* Bohua Li, Tanja Rindler-Daller, and Paul R. Shapiro, _Cosmological constraints on Bose-Einstein-condensed scalar field dark matter_, Phys. Rev. D 89, 083536, 2014 ([arXiv:1310.6061](https://arxiv.org/abs/1310.6061))
+
+* Hsi-Yu Schive, Tzihong Chiueh, Tom Broadhurst, _Cosmic structure as the quantum interference of a coherent dark wave_, Nature Physics 10, 496&#8211;499 (2014) ([doi:10.1038/nphys2996](http://www.nature.com/nphys/journal/v10/n7/abs/nphys2996.html))
+
+* Nilanjan Banik, Adam J. Christopherson, [[Pierre Sikivie]], Elisa Maria Todarello, _New astrophysical bounds on ultralight axionlike particles_, Phys. Rev. D 95, 043542 (2017) ([arXiv:1701.04573](https://arxiv.org/abs/1701.04573))
+
 
 Strong constraints on fuzzy dark matter from observation of the cosmic [[21cm hydrogen line]]  are claimed and discussed in 
 
@@ -104,37 +127,15 @@ Strong constraints on fuzzy dark matter from observation of the cosmic [[21cm hy
 
 * {#NebrinGharaMellema18} Olof Nebrin, Raghunath Ghara, Garrelt Mellema, _Fuzzy Dark Matter at Cosmic Dawn: New 21-cm Constraints_ ([arXiv:1812.09760](https://arxiv.org/abs/1812.09760), [reddit](https://www.reddit.com/r/Physics/comments/a9zeeb/my_first_paper_fuzzy_dark_matter_at_cosmic_dawn/))
 
-
-
-### Review
-
-Review includes
-
-* David J. E. Marsh, _Axion Cosmology_ ([arXiv:1510.07633](https://arxiv.org/abs/1510.07633))
-
-* {#Lee17} Jae-Weon Lee, _Brief History of Ultra-light Scalar Dark Matter Models_ ([arXiv:1704.05057](https://arxiv.org/abs/1704.05057))
-
-
-
-### Numerics and experiment
-
-Comparison to [[experiment]] (observation) is discussed in
  
-* Bohua Li, Tanja Rindler-Daller, and Paul R. Shapiro, _Cosmological constraints on Bose-Einstein-condensed scalar field dark matter_, Phys. Rev. D 89, 083536, 2014 ([arXiv:1310.6061](https://arxiv.org/abs/1310.6061))
 
-* Hsi-Yu Schive, Tzihong Chiueh, Tom Broadhurst, _Cosmic structure as the quantum interference of a coherent dark wave_, Nature Physics 10, 496&#8211;499 (2014) ([doi:10.1038/nphys2996](http://www.nature.com/nphys/journal/v10/n7/abs/nphys2996.html))
-
-
-* Nilanjan Banik, Adam J. Christopherson, [[Pierre Sikivie]], Elisa Maria Todarello, _New astrophysical bounds on ultralight axionlike particles_, Phys. Rev. D 95, 043542 (2017) ([arXiv:1701.04573](https://arxiv.org/abs/1701.04573))
-
-Claim that the galaxy core-cusp problem is not resolved after all is discussed in
+Claim that the galaxy [[core-cusp problem]] is not resolved after all is discussed in
 
 * Heling Deng, Mark P. Hertzberg, Mohammad Hossein Namjoo, Ali Masoumi, _Can Light Dark Matter Solve the Core-Cusp Problem?_ ([arXiv:1804.05921](https://arxiv.org/abs/1804.05921))
 
-Computer simulation of [[structure formation]] with fuzzy dark matter:
+Claim that the fitting of the [[galaxy rotation curves]] is not resolved after all:
 
-* Philip Mocz et al., _First Star-Forming Structures in Fuzzy Cosmic Filaments_, Phys. Rev. Lett. 123, 141301 – 2019 ([doi:10.1103/PhysRevLett.123.141301](https://doi.org/10.1103/PhysRevLett.123.141301))
-
+* Mariangela Lisanti, Matthew Moschella, Nadav Joseph Outmezguine, Oren Slone, _The Inconsistency of Superfluid Dark Matter with Milky Way Dynamics_ ([arXiv:1911.12365](https://arxiv.org/abs/1911.12365))
 
 
 
