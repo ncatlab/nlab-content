@@ -32,7 +32,7 @@ $$
   \cdots
   Y \times_X Y \times_X Y 
   \stackrel{\tl}{\stackrel{\longrightarrow}{\longrightarrow}}
-Y \times Y \times_X Y \stackrel{\longrightarrow}{\longrightarrow}  Y \stackrel{f}{\longrightarrow} X
+ Y \times_X Y \stackrel{\longrightarrow}{\longrightarrow}  Y \stackrel{f}{\longrightarrow} X
 $$
 
 is an [[(∞,1)-colimit|colimiting]] diagram.
