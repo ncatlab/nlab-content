@@ -45,6 +45,11 @@ If $G$ is a [[topological group]], $X$ a [[topological space]] and the action [[
 If the original space is [[paracompact space|paracompact]] Hausdorff, then every orbit $G x$ as a topological $G$-space is isomorphic to $G/H$, where $H$ is the [[stabilizer subgroup]] of $x$. 
 
 
+## Examples
+
+* An orbit of a [[cyclic group|cyclic]] [[subgroup]] of a [[permutation group]] is called a *[[permutation cycle]]*.
+
+
 ## Related concepts
 
 * [[orbit category]], [[orbit type]]
@@ -62,6 +67,8 @@ If the original space is [[paracompact space|paracompact]] Hausdorff, then every
 
 
 ## References
+
+Textbook accounts:
 
 * {#Bredon72} [[Glen Bredon]], Sections I.3, I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
