@@ -1,4 +1,5 @@
 
+* [arXiv page](https://arxiv.org/search/hep-th?searchtype=author&query=McNamara%2C+S)
 
 ## Selected writings
 
