@@ -412,7 +412,7 @@ This simple example essentially re-appears in the discussion of [[inertia groupo
 
 A point-set proof in [[TopologicalSpaces]] is given in 
 
-* {#Gruher07} [[Kate Gruher]], *A proof of $L B G \simeq Ad(E G)$*, Appendix A in: *String Topology of Classifying Spaces*, 2007 ([[Gruher_FreeLoopSpaceOfClassifyingSpace.pdf:file]])
+* {#Gruher07} [[Kate Gruher]], *A proof of $L B G \simeq Ad(E G)$*, Appendix A in: *String Topology of Classifying Spaces*, 2007 ([[Gruher_FreeLoopSpaceOfClassifyingSpace.pdf:file]], [proquest:304826261](https://www.proquest.com/docview/304826261))
 
 An abstract proof in the [above](#ForSimplicialSets) style, for [[topological groups]]/[[topological spaces]], is indicated in:
 
