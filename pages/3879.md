@@ -76,20 +76,19 @@ The version of this belief in the necessity of deep mathematics for physics to b
 * See the related, but disputable notion of [[applied mathematics]]. 
 
 
-## References and links
+## Literature and links
+ {#Literature}
 
 * {#Dirac78} [[Paul Dirac]], _The mathematical foundations of quantum theory_, pages 1-8 in A. R. Marlow (ed.) _Mathematical Foundations of Quantum Theory_, Ac. Press 1978
 
-> "One should keep the need for a sound mathematical basis dominating one’s search 
-for a new theory. Any physical or philosophical ideas that one has must be adjusted to  fit the mathematics. Not the way round. 
+  > "One should keep the need for a sound mathematical basis dominating one’s search  for a new theory. Any physical or philosophical ideas that one has must be adjusted to  fit the mathematics. Not the way round. 
 
-> Too many physicists are inclined to start from some preconceived physical ideas 
-and then to try to develop them and ?nd a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and ?nds no  reasonable way out of them. One ought then to realize that one’s whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis."
+> Too many physicists are inclined to start from some preconceived physical ideas  and then to try to develop them and a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and no  reasonable way out of them. One ought then to realize that one's whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis."
 
 
 * {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
 
-  > (introduces concepts via [[categories]])
+  > (introduces concepts via their [[categories]])
 
 * {#Matolcsi86} [[Tamás Matolcsi]], _A Concept of Mathematical Physics_
 
@@ -97,15 +96,19 @@ and then to try to develop them and ?nd a mathematical scheme that incorporates 
 
   _Models in Mechanics_, Akad&eacute;miai Kiad&oacute;, 1986 ([djvu](http://szofi.elte.hu/~szaboa/MatolcsiKonyvek/djvu/konyv/mechanics_ocr.djvu))
 
+* {#Hassani99} [[Sadri Hassani]], *Mathematical Physics -- A Modern Introduction to Its Foundations* Springer 1999, 2002, 20013 ([ISBN:9783319011943](https://www.springer.com/de/book/9783319011943), [pdf](http://202.38.64.11/~jmy/documents/ebooks/Hassani%20Mathematical%20Physics%20A%20Modem%20Introduction%20to%20Its%20Foundations%20-%20S.%20Hassani%20%5B0-387-98579-4%5D.pdf))
+
 * {#Fadeev00} [[Ludwig Faddeev]], _Modern Mathematical Physics: what it should be?_, in Fokos, Grigoryan, Kibble, Zegarlinski (eds) _Mathematical Physics 2000_, World Scientific (2000) ([arXiv:math-ph/0002018](https://arxiv.org/abs/math-ph/0002018))
 
 * [[Mikio Nakahara]], _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
   (with emphasis on [[differential geometry]] and [[topology]]/[[homotopy theory]] such as in [[fiber bundles in physics]])
 
+* [[Gerd Rudolph]], [[Matthias Schmidt]], *Differential Geometry and Mathematical Physics Part I. Manifolds, Lie Groups and Hamiltonian Systems*, Springer 2013 ([doi:10.1007/978-94-007-5345-7](https://link.springer.com/book/10.1007/978-94-007-5345-7))
+
 * [[Gerd Rudolph]], [[Matthias Schmidt]], *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
-  (with emphasis on [[fiber bundles in physics]] and [[Yang-Mills theory]])
+  > (with emphasis on [[fiber bundles in physics]] and [[Yang-Mills theory]])
 
 
 * [[Adam Marsh]], 
@@ -120,6 +123,9 @@ and then to try to develop them and ?nd a mathematical scheme that incorporates 
 
   (with emphasis on [[differential geometry]] and [[topology]]/[[homotopy theory]] such as in [[fiber bundles in physics]])
 
+On [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]]:
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
 
 A historically inclined article is in 
 
@@ -138,7 +144,7 @@ For more on _physical mathematics_ see
 * Piotr Sułkowski, _Quantum fields, strings, and physical mathematics_, ([arXiv:2104.03350](https://arxiv.org/abs/2104.03350))
 
 
-For an extensive list of literature see
+For more pointers to the literature see also:
 
 * [[books and reviews in mathematical physics]]
 
