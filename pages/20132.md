@@ -32,6 +32,7 @@ The subject of _equivariant differential topology_ is the enhancement of results
 ## Properties
 
 ### Fixed submanifolds
+ {#FixedSubmanifolds}
 
 
 +-- {: .num_prop #FixedLociOfSmoothProperActionsAreSubmanifolds}
