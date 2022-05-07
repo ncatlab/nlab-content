@@ -1,5 +1,7 @@
 * [website](http://www.mat.uab.es/~kock/)
 
+* [Copenhagen website](https://www.math.ku.dk/english/about/news/new-names/joachim-kock-associate-professor/)
+
 ## Selected writings
 
 
