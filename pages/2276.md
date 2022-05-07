@@ -63,7 +63,7 @@ Given a [[compact space|compact]] [[Lie group]] $K$ with [[complexification]] $G
 
 ## References
 
-* {#Bredon72} [[Glen Bredon]], Section I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+* {#Bredon72} [[Glen Bredon]], Sections I.3, I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
 
