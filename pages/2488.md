@@ -828,5 +828,5 @@ More discussion of the internal perspective:
 [[!redirects 0-truncated morphisms in an (infinity,1)-category]]
 [[!redirects 0-truncated morphisms in an (∞,1)-category]]
 
-
+[[!redirects n-truncated object of an infinity1-category]]
 
