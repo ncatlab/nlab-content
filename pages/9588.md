@@ -180,7 +180,11 @@ Discussion of [[twisted cohomology|twists]] of Morava E-theory is in
 
 A [[Snaith theorem]]-like characterization of Morava E-theory is given in 
 
-* [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
- {#Westerland12}
+* {#Westerland12} [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
+ 
+Morava E-theory of [[configuration spaces of points]]:
+
+* [[Lukas Brantner]], [[Jeremy Hahn]], [[Ben Knudsen]], *The Lubin-Tate Theory of Configuration Spaces: I* ([arXiv:1908.11321](https://arxiv.org/abs/1908.11321))
+
 
 [[!redirects Morava E-theories]]
