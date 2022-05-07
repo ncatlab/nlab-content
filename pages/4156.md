@@ -14,12 +14,12 @@
 =--
 
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
 ## Idea ##
-This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and time (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this belief precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
+This page is about PCT theorems in [[quantum field theory]]. PCT stands for parity, charge and [[time-reversel symmetry]] (warning: the order of the letters P, C and T varies, some authors use CPT, for example). The laws of nature as described by [[quantum field theory]]s are believed to be invariant if one simultaneously reverses the arrow of time, conjugates all charges and reverses all chiral properties. PCT theorems try to make this belief precise by defining the appropriate operators and showing that certain expressions remain constant. Both the statements and the proofs depend on the framework for [[quantum field theory]] one uses.
 
 Being "invariant" means that every process that can be observerd in our universe can be observed identically in the "mirror" universe, that is there is no experiment in our universe that cannot be duplicated in the mirror universe. 
 
