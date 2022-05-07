@@ -73,6 +73,8 @@ See also
 
 * Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
 
+* [[Andrej Bauer]], _Synthetic Mathematics with an Excursion Into Computability Theory_, 2021 ([slides and video](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/))
+
 
 ### Synthetic homotopy theory
  {#ReferencesSyntheticHomotopyTheory}
