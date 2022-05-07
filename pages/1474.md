@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {: toc}
@@ -322,6 +321,8 @@ is an [[epimorphism]].
 
 \end{proposition}
 
+Here is an abstract proof using a little [[category theory]]:
+
 \begin{proof}
 
 We have to show that for $(f,g)$ any [[pair]] of [[parallel morphisms]] out of $X$
@@ -337,7 +338,7 @@ $$
   Y
 $$
 
-into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. Equivalently, that $f \circ i = g \circ i$ implies that $1_X: X \to X$ is the [[equalizer]] of the pair $(f, g)$. But the equalizer $E \to X$ is formed by taking a pullback of the diagonal map $\delta: Y \to Y \times Y$ along $(f, g): X \to Y \times Y$: 
+into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. Equivalently, that $f \circ i = g \circ i$ implies that $1_X \colon X \to X$ is the [[equalizer]] of the pair $(f, g)$. But the equalizer $E \to X$ is formed by taking a [[pullback]] of the [[diagonal map]] $\delta \colon Y \to Y \times Y$ along $(f, g) \colon X \to Y \times Y$: 
 
 $$\array{
 E & \to & Y \\
@@ -347,6 +348,31 @@ X & \underset{(f, g)}{\to} & Y \times Y.
 
 Since $Y$ is Hausdorff, the subset $\delta: Y \to Y \times Y$ is closed, and the pullback $E \hookrightarrow X$ of this closed subset along the continuous map $(f, g)$ is also closed. Since $E$ is a closed subset of $X$ and contains a dense subspace $i: A \hookrightarrow X$, it must be all of $X$ (as a subset of itself). 
 \end{proof}
+
+Alternatively, here is an explicit proof with [[general topology|basic topology]]:
+
+\begin{proof}
+
+We have to show that for $(f,g)$ any [[pair]] of [[parallel morphisms]] out of $X$
+
+$$
+  A 
+  \overset{\;\;i\;\;}{\hookrightarrow}
+  X 
+  \underoverset
+  {\;\;g\;\;}
+  {\;\;f\;\;}
+  {\rightrightarrows}
+  Y
+$$
+
+into a [[Hausdorff space]] $Y$, the [[equality]] $f \circ i = g \circ i$ implies $f = g$. With [[classical logic]] we may equivalently show the [[contrapositive]]: That $f \neq g$ implies $f \circ i \neq  g \circ i$.
+
+So assume that $f \neq g$. This means that there exists $y \in Y$ with $f(y) \neq g(y)$. Since $Y$ is Hausdorff, there exist then [[disjoint subset|disjoint]] [[open neighbourhoods]] $O_{f(y)},\;O_{g(y)} \subset Y$, i.e. $f(x) \in O_{f(x)}$ and $g(x) \in O_{g(x)}$ with $O_{f(x)} \cap O_{g(x)} = \varnothing$.
+
+But their [[preimages]] must intersect at least in $x \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$. Since this intersection is an [[open subset]] (as preimages of open subsets are open by definition of [[continuous functions]], and since finite [[intersections]] of open subsets are open by the definition of [[topological spaces]]) there exists a point $a \in A$ with $i(a) \in f^{-1}\big( O_{f(x)} \big) \cap g^{-1}\big(  O_{g(x)} \big)$ (by definition of [[dense subset]]). But since then $f(i(a)) \in O_{f(x)}$ and $g(i(a)) \in O_{g(x)}$ while $O_{f(x)}$ is [[disjoint subset|disjoint]] from $O_{g(x)}$, it follows that $f(i(a)) \neq g(i(a))$. This means that $f \circ i \neq g \circ i$. 
+\end{proof}
+
 
 \linebreak
 
