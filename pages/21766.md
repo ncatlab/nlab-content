@@ -33,6 +33,10 @@ General:
 
 * {#Brambilla14} Brambilla et al., Section 5 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
+With focus on [[Higgs field]]-interactions:
+
+* Gudrun Heinrich, *Collider Physics at the Precision Frontier*, Physics Reports, Volume 922, 2021, Pages 1-69 ([arXiv:2009.00516](https://arxiv.org/abs/2009.00516))
+
 In view of potential [[leptoquarks]]:
 
 * I. Doršner, S. Fajfer, A. Greljo, J. F. Kamenik, N. Košnik, _Physics of leptoquarks in precision experiments and at particle colliders_, Physics Reports Volume 641, 17 June 2016, Pages 1-68 ([arXiv:1603.04993](https://arxiv.org/abs/1603.04993))
@@ -40,6 +44,13 @@ In view of potential [[leptoquarks]]:
 In view of [[flavour anomalies]]:
 
 * {#AHRS20} Rafael Aoude, Tobias Hurth, Sophie Renner, William Shepherd, _The impact of flavour data on global fits of the MFV SMEFT_ ([arXiv:2003.05432](https://arxiv.org/abs/2003.05432))
+
+
+
+
+
+
+
 
 [[!redirects precision experiments]]
 
