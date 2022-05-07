@@ -52,7 +52,7 @@ for any $f \in C^\infty(X)$, where $\{\,,\,\}$ is the [[Poisson bracket]] on $(M
 If $(M,g)$ is $\mathbb{R}^{2n}$ endowed with the standard [[symplectic form]] $\omega=dp_i\wedge dq^i$, then
 
 $$
-X_H= \sum_{i=1}^n\frac{\partial f}{\partial p_i}\frac{\partial}{\partial q^i}-\frac{\partial f}{\partial q^i}\frac{\partial}{\partial p_i}.
+X_f= \sum_{i=1}^n\frac{\partial f}{\partial p_i}\frac{\partial}{\partial q^i}-\frac{\partial f}{\partial q^i}\frac{\partial}{\partial p_i}.
 $$
 
 [[!redirects symplectic gradients]]
