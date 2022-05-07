@@ -155,9 +155,15 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 
 * [[finite category]], [[finite limit]]
 
+* [[finite graph]]
+
 * [[decidable object]], [[theory of objects]]
 
-* [[finite homotopy type]], [[finite spectrum]]
+* [[finite type]]
+
+* [[finite homotopy type]], [[finite CW-complex]], [[finite spectrum]]
+
+* [[π-finite homotopy type]]
 
 * [[finite (infinity,1)-category]], [[finite (infinity,1)-limit]]
 
