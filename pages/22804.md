@@ -48,10 +48,16 @@ $$
   a \vee b \coloneqq a + ramp(b - a)
 $$
 
-and the [[meet]] $(-)\wedge(-):R \times R \to R$ is defined as
+the [[meet]] $(-)\wedge(-):R \times R \to R$ is defined as
 
 $$
   a \wedge b \coloneqq a - ramp(a - b)
+$$
+
+and the absolute value is defined as 
+
+$$
+  \vert a \vert \coloneqq ramp(a) + ramp(-a)
 $$
 
 The order relation is defined as in all pseudolattices: $a \leq b$ if $a = a \wedge b$. 
