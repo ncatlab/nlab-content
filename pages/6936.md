@@ -120,6 +120,17 @@ The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[h
 
 This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
 
+### Quotient inductive types
+
+A [[quotient inductive type]] is a higher inductive type that includes a "0-truncation" constructor such as `contr1` for a set-quotient.  Many of these are useful in set-based mathematics; in addition to colimits in [[Set]], they can be used to construct free algebras and colimits of algebras of various sorts.  Examples can be found at [[quotient inductive type]], including:
+
+* Multiple definitions of the integers
+* Polynomial rings
+* The [[cumulative hierarchy]]
+* The [[Cauchy real numbers]]
+* [[partial map classifiers]]
+* Internal type theory
+
 ### Rezk completion
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Rezk completion]] or [[stack completion]] of a [[pregroupoid]] to a [[groupoid]] is a higher inductive type and the [[1-truncated]] analogue of the quotient set construction above. 
