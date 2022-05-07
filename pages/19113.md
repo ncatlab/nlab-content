@@ -427,7 +427,7 @@ Based on the classification of the finite subgroups of $SO(3)$, full proof of th
 
 See also
 
-* GroupProps _<a href="https://groupprops.subwiki.org/wiki/Classification_of_finite_subgroups_of_SO(3,R)">Classification of finite subgroups of SO(3,R)</a>
+* [[Groupprops]], _<a href="https://groupprops.subwiki.org/wiki/Classification_of_finite_subgroups_of_SO(3,R)">Classification of finite subgroups of SO(3,R)</a>
 
 Discussion of the [[lattice]] of [[subgroups]] of the three exceptional subgroups is in 
 
