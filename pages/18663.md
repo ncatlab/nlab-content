@@ -17,7 +17,7 @@
 ## Definition
 
 In [[category theory]],
-an **adjoint string of length $n$**, or an **adjoint $n$-tuple**, is a sequence of $(n-1)$ [[adjunctions]] between $n$ [[functors]] (or more generally [[morphisms]] in a [[2-category]]):
+an **adjoint string of length $n$**, **adjoint chain of length $n$**, or an **adjoint $n$-tuple**, is a sequence of $(n-1)$ [[adjunctions]] between $n$ [[functors]] (or more generally [[morphisms]] in a [[2-category]]):
 
 $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 
@@ -57,7 +57,7 @@ is a maximal string of adjoint functors (all but $\sigma_n$ are obtained by appl
 $$P^{n-1} m \dashv P^{n-1} u P \dashv P^{n-2}m P \dashv \ldots \dashv m P^{n-1} \dashv u P^n$$ 
 of length $2 n + 1$, back and forth between $P^{n+1}$ and $P^n$. The example of $[n]$ and $[n+1]$ above is based on the fact that the [[simplex category]] $\Delta$, regarded as a locally posetal [[bicategory]], is the [[walking structure|walking]] lax idempotent monoid. 
 
-1. Given an [[ambidextrous adjunction]], $F \dashv G$ and $G \dashv F$, we of course get an infinite adjoint string 
+1. Given an [[ambidextrous adjunction]] (and in particular a [[self-adjoint functor]]), $F \dashv G$ and $G \dashv F$, we of course get an infinite adjoint string 
 $$\ldots \dashv F \dashv G \dashv F \dashv \ldots$$ 
 of period 2. 
 
@@ -72,6 +72,8 @@ of period 2.
 
 [[!redirects adjoint string]]
 [[!redirects adjoint strings]]
+[[!redirects adjoint chain]]
+[[!redirects adjoint chains]]
 [[!redirects adjoint n-tuple]]
 [[!redirects adjoint n-tuples]]
 [[!redirects distributive adjoint string]]
