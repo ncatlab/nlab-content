@@ -12,13 +12,13 @@ An __absorption monoid__ or __annihilation monoid__ is a [[monoid]] $(M,1,\cdot)
 
 A non-zero element $a \in M$ is a __[[zero divisor]]__ if thete exists a non-zero element $b \in M$ such that $a \cdot b = 0$. 
 
-### Integral cancellable monoids
+### Integral monoids
 
-An absorption monoid that has no zero divisors other than zero is called an __integral cancellable monoid__. Equivalently, an integral cancellable monoid is an absorption monoid whose largest submonoid not containing $0$ is a [[cancellative monoid]]. 
+An absorption monoid whose largest submonoid not containing $0$ is a [[cancellative monoid]] is called an __integral monoid__. 
 
 ### Division monoid
 
-An integral cancellable monoid such that all non-zero elements are invertible is called a __division monoid__. Equivalently, a  division monoid is an absorption monoid whose largest submonoid not containing $0$ is a [[group]]. 
+An integral monoid such that all non-zero elements are invertible is called a __division monoid__. Equivalently, a  division monoid is an absorption monoid whose largest submonoid not containing $0$ is a [[group]]. 
 
 ### Localization and group completion
 
@@ -41,7 +41,7 @@ The [[localization of a monoid|localization]] of an absorption monoid at $0$ is 
 [[!redirects absorption monoids]]
 [[!redirects annihilation monoid]]
 [[!redirects annihilation monoids]]
-[[!redirects integral cancellable monoid]]
-[[!redirects integral cancellable monoids]]
+[[!redirects integral monoid]]
+[[!redirects integral monoids]]
 [[!redirects division monoid]]
 [[!redirects division monoids]]
