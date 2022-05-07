@@ -34,7 +34,7 @@ If, next, one regards this morphism, under the [[Yoneda embedding]], inside the 
 
 1. a [[formally étale morphism]].
 
-In this abstract form the concept of an atlas generalizes to any [[cohesion|cohesive]] [[higher geometry]] ([KS 17, Def. 3.3](#KhavkineSchreiber17), [Wellen 18, Def 4.13](#Wellen18)).
+In this abstract form the concept of an atlas generalizes to any [[cohesion|cohesive]] [[higher geometry]] ([KS 17, Def. 3.3](#KhavkineSchreiber17), [Wellen 18, Def 4.13](#Wellen18), [Sati & Schreiber 2020, p. 27](#SatiSchreiber20)). 
 
 Next, for a [[geometric stack]] $\mathcal{X}$, an atlas is a [[smooth manifold]] $\mathcal{U}$ (for [[differentiable stacks]]) or [[scheme]] $\mathcal{U}$ (for [[algebraic stacks]]) or similar, equipped with a morphism 
 
@@ -53,6 +53,7 @@ Here the terminology has a bifurcation:
 1. If in addition the condition is imposed that such an effective epimorphism exists which is also [[formally étale morphism|formally étale]], then the [[geometric stack]] is called an _[[orbifold]]_ or _[[Deligne-Mumford stack]]_ (often with various further conditions imposed).
 
 
+From here, the terminology generalizes to [[infinity-stacks|$\infty$-stacks]] in general [[(infinity,1)-toposes|$\infty$-toposes]], see [this Remark](groupoid+objects+in+an+infinity1-topos+are+effective#InterpretationInTermsOfInfinityStacksWithAtlases) at *[[groupoid objects in an (∞,1)-topos are effective]]*.
 
 
 
@@ -66,12 +67,15 @@ Review of the classical concept of atlases for geometric stacks:
 
 * {#Leman10} [[Eugene Lerman]], Section 4.4 of: _Orbifolds as stacks?_, L'Enseign. Math. (2) 56 (2010), no. 3-4, 315--363 ([arXiv:0806.4160](https://arxiv.org/abs/0806.4160))
 
-Formalization in [[cohesive homotopy theory]]:
+Formalization in [[cohesive homotopy theory]] and [[cohesive homotopy type theory|cohesive]]/[[modal homotopy type theory]]:
 
 * {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]], _Synthetic geometry of differential equations_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
-Formalization in [[modal homotopy type theory]]:
-
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
+
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], p. 27 of: *[[schreiber:Proper Orbifold Cohomology]]* ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
+
+
 
 [[!redirects atlases]]
