@@ -67,6 +67,10 @@ is an [[equivalence]]. (For $E = $ [[KU]] this was originally proven in [Conner-
 
 Between Landweber exact spectra, every [[phantom map]] is already null-homotopic. (e.g. [Lurie lect 17, corollary 7](#Lurie)).
 
+## Examples
+
+* The special case of the Landweber exact functor theorem for [[complex topological K-theory]] [[KU]] is known as the _[[Conner-Floyd isomorphism]]_.
+
 
 ## Related theorems
 
