@@ -132,7 +132,8 @@ for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical s
 
 We will write:
 
-$$
+\[
+  \label{TheTopologicalDeloopingGroupoidOfGamma}
   \array{
     Grp(TopSp)
     &
@@ -154,7 +155,7 @@ $$
     &&
     \mathbf{B}\Gamma
   }
-$$
+\]
 
 for 
 
@@ -162,6 +163,168 @@ for
 
 1. its associated [[D-topological space|D-]][[topological stack]] $\mathbf{B}\Gamma$ regarded as an object in [[smooth infinity-groupoid|$SmthGrpd_\infty$]].
 
+Similarly we denote the [[topological groupoid|topological]] [[action groupoid]] of the given $G$-action on $S^{n+2}$, whose incarnation as a [[smooth stack]] is [[equivalence in an (infinity,1)-category|equivalent]] to the [[smooth manifold]] $S^{n+2}/G$, due to the condiiton that the $G$-action is [[free action|free]]:
+
+\[
+  \label{TheTopologicalActionGroupoid}
+  \array{
+    Grp(TopSp)
+    &
+    \xrightarrow{\; Dtoplg \;}
+    &
+    Grp(DiffSp)  
+    &
+    \xrightarrow{\;}
+    &
+    Grpd(SmthGrp_{\infty})
+    &
+    \xrightarrow{\;}
+    &
+    SmthGrp_\infty
+    \\
+    S^{n+2} \times G \rightrightarrows S^{n+2}
+    &&
+    &\mapsto&
+    &&
+    S^{n+2}/G
+  }
+\]
+
+
+\begin{lemma}
+\label{CanonicalCechGroupoidOfGammaPrincipalBundlesOnSphericalSpaceForm}
+**(canonical [[Cech groupoid]] of $\Gamma$-[[principal bundles]] on [[spherical space form]])**
+\linebreak
+  Under the truncation condition (eq:GammaIsNTruncated), 
+  the [[groupoid]] of $\Gamma$-[[principal bundles]]  over $S^{n+2}/G$ ([[internalization|internal to]] [[TopSp]]) is [[equivalence of groupoids]] to the groupoid of [[topological functors]] out of the [[action groupoid]] (eq:TheTopologicalActionGroupoid) into the [[delooping groupoid]] (eq:TheTopologicalDeloopingGroupoidOfGamma), with [[continuous functions|continuous]] [[natural transformations]] between them:
+$$
+  \Gamma PrnBdl(TopSp)_{S^{n+2}/G}
+  \;\;
+  \timeq
+  TopFunc
+  \big(
+    ( S^{n+2} \times G \rightrightarrows S^{n+2} )
+    ,\,
+    ( \Gamma \rightrightarrows \ast )
+  \big)
+  \,.
+$$
+Moreover, the analogous statement holds for bundles over the [[product topological space]] $S^{n+2}/G \times \Delta^k$ with the [[topological k-simplex]] for all $k \in \mathbb{N}$:
+$$
+  \Gamma PrnBdl(TopSp)_{S^{n+2}/G \times \Delta^k}
+  \;\;
+  \timeq
+  TopFunc
+  \big(
+    ( S^{n+2} \times G \rightrightarrows S^{n+2} )
+    \times \Delta^k
+    ,\,
+    ( \Gamma \rightrightarrows \ast )
+  \big)
+  \,.
+$$
+\end{lemma}
+\begin{proof}
+The $n$-truncation condition (eq:GammaIsNTruncated) on $\Gamma$ implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
+
+$$
+  \tau_{n+1} Shp(\Gamma) \,\simeq\, Shp(\Gamma)
+  \;\;\;
+  \in
+  \;
+  Grp_\infty
+$$
+
+and hence that every $\Gamma$-principal bundle on $S^{n+2}$ is [[isomorphism|isomorphic]] to the [[trivial bundle]]:
+
+\[
+  \label{UniqueGerbesOnNSphere}
+  \tau_0 \Gamma PrnBdl(TopSp)_{S^{n+2}}
+  \;\;
+  \simeq
+  \;\;
+  Maps
+  \big(
+    Shp(S^{n+2}) 
+    ,\,
+    B \Gamma
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \ast
+  \,.
+\]
+
+Therefore, every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/G$ trivializes after being [[pullback bundle|pulled back]] along the coprojection $q$ (eq:CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms). The corresponding [[Cech cohomology|Cech cocycle]] is a [[topological functor]]
+
+$$
+  \big(
+    S^{n+2} \times G \rightrightarrows S^{n+2}
+  \big)
+  \xrightarrow{\;\; 
+    c_1 \rightrightarrows \ast 
+  \;\;}
+  \big(
+    \Gamma \rightrightarrows \ast
+  \big)
+$$
+
+out of the [[action groupoid]] $S^{n+2} \times G \rightrightarrows X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
+
+\begin{tikzcd}
+    {}
+    \ar[d,-, dotted]
+    &&
+    {}
+    \ar[d,-, dotted]
+    \\
+    S^{n+2} \times  G \times G 
+    \ar[rr, "{c_2}"{above}]
+    \ar[d, shift left=12pt]
+    \ar[d]
+    \ar[d, shift right=12pt]
+    &&
+    \Gamma \times \Gamma
+    \ar[d, shift left=12pt]
+    \ar[d]
+    \ar[d, shift right=12pt]
+    \\
+    S^{n+2} \times G 
+    \ar[rr, "c_1"{above}]
+    \ar[d, shift left=6pt]
+    \ar[d, shift right=6pt]
+    \ar[u, shift right=6pt]
+    \ar[u, shift left=6pt]
+    &&
+    \Gamma
+    \ar[d, shift left=6pt]
+    \ar[d, shift right=6pt]
+    \ar[u, shift right=6pt]
+    \ar[u, shift left=6pt]
+    \\
+    S^{n+2}
+    \ar[rr, "{ }"{below, name=s, pos=.4}]
+    \ar[d, ->>, "{ }"{right, name=t, pos=.7 }]
+    \ar[u]
+    &&
+    \ast
+    \ar[u]
+    \ar[d, ->>]
+    \\
+    S^{n+2}/G
+    \ar[rr, "c"{below}]
+    &&
+    \mathbf{B}\Gamma
+    %
+    \ar[
+      from=s,
+      to=t,
+      Rightarrow,
+      "\sim"{sloped, below}
+    ]
+\end{tikzcd}
+\end{proof}
 
 \begin{definition}
 \label{ShapesOfMappingStacks}
@@ -424,6 +587,8 @@ from a bundle $P_0\vert_0$ to a bundle $P_1\vert_1$ over $S^{n+2}/G$ is a diagra
     \ar[l, hook']
 \end{tikzcd}
 
+More specifically, all bundles here are identified with their [[Cech cohomology|Cech cocyles]]
+
 \end{example}
 
 \begin{definition}
@@ -476,108 +641,7 @@ $\,$
   is an [[isomorphism]].
 \end{lemma}
 \begin{proof}
-The $n$-truncation condition (eq:GammaIsNTruncated) on $\Gamma$ implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
-
-$$
-  \tau_{n+1} Shp(\Gamma) \,\simeq\, Shp(\Gamma)
-  \;\;\;
-  \in
-  \;
-  Grp_\infty
-$$
-
-and hence that every $\Gamma$-principal bundle on $S^{n+2}$ is [[isomorphism|isomorphic]] to the [[trivial bundle]]:
-
-\[
-  \label{UniqueGerbesOnNSphere}
-  \tau_0 \Gamma PrnBdl(TopSp)_{S^{n+2}}
-  \;\;
-  \simeq
-  \;\;
-  Maps
-  \big(
-    Shp(S^{n+2}) 
-    ,\,
-    B \Gamma
-  \big)
-  \;\;
-  \simeq
-  \;\;
-  \ast
-  \,.
-\]
-
-Therefore, every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/G$ trivializes when [[pullback bundle|pulled back]] along the coprojection $q$ (eq:CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms). The corresponding [[Cech cohomology|Cech cocycle]] is a [[topological functor]]
-
-$$
-  \big(
-    S^{n+2} \times G \rightrightarrows S^{n+2}
-  \big)
-  \xrightarrow{\;\; 
-    c_1 \rightrightarrows \ast 
-  \;\;}
-  \big(
-    \Gamma \rightrightarrows \ast
-  \big)
-$$
-
-out of the [[action groupoid]] $S^{n+2} \times G \rightrightarrows X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
-
-\begin{tikzcd}
-    {}
-    \ar[d,-, dotted]
-    &&
-    {}
-    \ar[d,-, dotted]
-    \\
-    S^{n+2} \times  G \times G 
-    \ar[rr, "{c_2}"{above}]
-    \ar[d, shift left=12pt]
-    \ar[d]
-    \ar[d, shift right=12pt]
-    &&
-    \Gamma \times \Gamma
-    \ar[d, shift left=12pt]
-    \ar[d]
-    \ar[d, shift right=12pt]
-    \\
-    S^{n+2} \times G 
-    \ar[rr, "c_1"{above}]
-    \ar[d, shift left=6pt]
-    \ar[d, shift right=6pt]
-    \ar[u, shift right=6pt]
-    \ar[u, shift left=6pt]
-    &&
-    \Gamma
-    \ar[d, shift left=6pt]
-    \ar[d, shift right=6pt]
-    \ar[u, shift right=6pt]
-    \ar[u, shift left=6pt]
-    \\
-    S^{n+2}
-    \ar[rr, "{ }"{below, name=s, pos=.4}]
-    \ar[d, ->>, "{ }"{right, name=t, pos=.7 }]
-    \ar[u]
-    &&
-    \ast
-    \ar[u]
-    \ar[d, ->>]
-    \\
-    S^{n+2}/G
-    \ar[rr, "c"{below}]
-    &&
-    \mathbf{B}\Gamma
-    %
-    \ar[
-      from=s,
-      to=t,
-      Rightarrow,
-      "\sim"{sloped, below}
-    ]
-\end{tikzcd}
-
-Hence the operation of assigning [[Cech cohomology|Cech cocycles]] relative to the [[covering space]] by $S^{n+2}$ is an  
-[[equivalence of groupoids]] between the [[groupoid]] of $\Gamma$-principal bundles on $S^{n+2}/G$ and that of [[topological functors]] and [[continuous map|continuous]] [[natural transformations]] between the [[action groupoid]] and the [[delooping groupoid]]. But the [[homotopy class]] of the [[classifying space|classifying map]] of a principal bundle is represented by the [[topological realization]] of any of its [[Cech cohomology|Cech cocycles]], so that in the following [[commuting diagram]] the left and the composite function are [[bijections]]:
+The [[homotopy class]] of the [[classifying space|classifying map]] of a [[principal bundle]] is represented by the [[topological realization]] of any of its [[Cech cohomology|Cech cocycles]]. Therefore, Lemma \ref{CanonicalCechGroupoidOfGammaPrincipalBundlesOnSphericalSpaceForm} implies that in the following [[commuting diagram]] the left and the composite function are [[bijections]]:
 
 \begin{tikzcd}[column sep=small]
   \Gamma \mathrm{PrnBdl}(\mathrm{TopSp})_{ S^{n+2}/G }
