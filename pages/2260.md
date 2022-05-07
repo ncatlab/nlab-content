@@ -14,7 +14,7 @@ This entry is about the book:
 
   [doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3)
 
-on the generalization of tools of [[homological algebra]], such as [[diagram chasing lemmas]], to non-[[abelian category|abelian]] contexts such as [[Mal'cev categories]], [[protomodular categories]], [[semi-abelian categories]] and [[homological categories]].
+on [[nonabelian homological algebra]], such as its [[diagram chasing lemmas]], in [[Mal'cev categories]], [[protomodular categories]], [[semi-abelian categories]] and [[homological categories]].
 
 From the introduction:
 
