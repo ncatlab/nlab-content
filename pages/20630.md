@@ -68,23 +68,103 @@ $$
 
 ([Gleason 50](#Gleason50), see [Palais 60, Theorem 1.4.3](#Palais60))
 
-Other/more general conditions for the equivariant extension to exist
+Other/more general conditions for the equivariant extension to exist:
 
-1. the ambient [[domain]] [[G-space]] $X$ is
+\begin{prop}\label{JaworowskiExtensionTheorem}
+**(Jaworowski-extension theorem)** \linebreak
+
+If
+
+1. the ambient [[domain]] [[G-space]] $X$ is a
 
    1. [[locally compact topological space|locally comact]] 
 
-   1. [[separable topological space|separable]] 
+   1. [[separable metric space]]
 
-   1. [[metrizable topological space|metrizable]]
+   1. of [[finite number|finite]] [[dimension of a separable metric space|dimension]]
 
-   1. finite-dimensional (?)
+   1. with a [[finite number]] of [[orbit type|orbit types]];
 
-   1. with a [[finite number]] of [[orbit type|orbit types]].
+1. the [[domain]] $A \subset X^G \subset X$ is a
 
-1. the [[codomain]] [[G-space]] is such that
+   * [[closed subspace]];
+  
+1. the [[codomain]] [[G-space]] is a
 
-   * for every $G$-[[orbit type]] $(H)$ in the [[complement]] $X \setminus A$ the [[fixed locus]] $E^H$ is an [[absolute neighbourhood retract]].
+   1. [[locally compact topological space|locally comact]] 
+
+   1. [[separable metric space]]
+
+   1. such that for every $G$-[[orbit type]] $(H)$ in the [[complement]] $X \setminus A$ 
+
+      the [[fixed locus]] $E^H$ is an [[absolute neighbourhood retract]].
+
+Then every [[continuous function]] $f \colon A \to E$ has an [[extension]] to a $G$-[[equivariant function|equivariant]] [[continuous function]] $\widehat f$ on an [[open neighbourhood]] $A \subset O_A \subset X$
+
+$$
+  \left(
+    \underset{ G/H \subset X \setminus A  }{\forall}
+    \;
+    E^H 
+    \;\;
+    \text{is absolute neighbourhood retract}
+  \right)
+  \;\;\;\;
+    \Rightarrow
+  \;\;\;\;
+  \left(
+    \underset{\widehat f}{\exists}
+    \;\;\;\;
+    \array{
+      A &\overset{f}{\longrightarrow}& E
+      \\
+      \cap 
+      & 
+      \nearrow_{\mathrlap{ \widehat{f} }}
+      \\
+      O_A
+      \\
+      \cap
+      \\
+      X
+     }
+   \right)
+   \,.
+$$
+
+Moreover, if the above [[fixed loci]] $E^H$ are even [[absolute retracts]], then an extension $\widehat f$ exists on all of $X$:
+
+$$
+  \left(
+    \underset{ G/H \subset X \setminus A  }{\forall}
+    \;
+    E^H 
+    \;\;
+    \text{is absolute retract}
+  \right)
+  \;\;\;\;
+    \Rightarrow
+  \;\;\;\;
+  \left(
+    \underset{\widehat f}{\exists}
+    \;\;\;\;
+    \array{
+      A &\overset{f}{\longrightarrow}& E
+      \\
+      \cap 
+      & 
+      \nearrow_{\mathrlap{ \widehat{f} }}
+      \\
+      X
+     }
+   \right)
+   \,.
+$$
+
+
+
+
+\end{prop}
 
 ([Jaworowski 76](#Jaworowski76), [Lashof 81](#Lashof81))
 
