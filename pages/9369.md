@@ -140,6 +140,11 @@ Discussion of the relation to affine varieties includes
 
 * {#Zhang06} Jing Zhang, _Algebraic Stein Varieties_ ([arXiv:math/0610886](http://arxiv.org/abs/math/0610886))
 
+In relation to the [[homotopy theory|homotopy-theoretic]] [[Oka principle]]:
+
+* {#Forstneric11} [[Franc Forstnerič]], _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
+
+
 As a [[site]] for [[higher complex analytic geometry]] the category of Stein manifolds appears in 
 
 * [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_
