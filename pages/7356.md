@@ -185,6 +185,8 @@ Notice that the _net charge_ of these 24 D7-branes is supposed to vanish, due to
 
 For analogous discussion of 24 NS5-branes in [[heterotic string theory]] on [[K3]] see [Schwarz 97, around p. 50](duality+in+string+theory#Schwarz97).
 
+For more see at _[[24 branes]]_.
+
 
 
 ### F-brane scan
@@ -283,7 +285,7 @@ Related conferences include
 
 F-theory lifts of [[orientifold]] backgrounds were first identified in
 
-* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_, Nucl.Phys.B475:562-578,1996 ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
+* {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_, Nucl. Phys. B475:562-578,1996 ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
 * {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_, Nucl. Phys. Proc. Suppl. 68 (1998) 92 (Nucl. Phys. Proc. Suppl. 67 (1998) 81) ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
 
