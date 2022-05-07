@@ -409,7 +409,11 @@ This implies in particular that
   \[
     \label{EquivalenceBetweenEquivariantActionsAndSemidirecProductActions}
     \array{
-      \mathcal{G}
+      \big(
+        \mathcal{G},
+        \,
+        \alpha
+      \big)
       Actions
       \big(
         G Actions
