@@ -31,10 +31,10 @@ By the [[looping and delooping]]-equivalence, this is [[equivalence of (∞,1)-c
 +-- {: .num_defn #ReducedSimplicialSet}
 ###### Definition
 
-A _[[reduced simplicial set]]_ is a [[simplicial set]] $S$ with a single vertex:
+A _[[reduced simplicial set]]_ is a [[simplicial set]] $S$ with a single vertex, hence with $X_0$ [[generalized the|the]] [[singleton set]]
 
 $$
-  S_0 = *
+  S_0 \;=\; \ast
   \,.
 $$
 
@@ -56,7 +56,7 @@ are those in the [[classical model structure on simplicial sets]] (i.e. the [[we
 
 =--
 
-This appears as ([Goerss-Jardine, ch V, prop. 6.2](#GoerssJardine)).
+This appears as ([Goerss & Jardine, Ch V, Prop. 6.2](#GoerssJardine)).
 
 
 ## Properties
@@ -80,9 +80,35 @@ In particular
 +-- {: .proof}
 ###### Proof
 
-The first statment appears as ([Goerss-Jardine, ch. V, lemma 6.6.](#GoerssJardine)). The second is an immediate consequence. It appears as ([Goerss-Jardine, ch. V, corollary 6.8](#GoerssJardine)).
+The first statment appears as ([Goerss & Jardine, Ch. V, Lemma 6.6.](#GoerssJardine)). The second is an immediate consequence. It appears as ([Goerss & Jardine, Ch. V, Corollary 6.8](#GoerssJardine)).
 
 =--
+
+\begin{corollary}\label{KanFibrationBetweenReducedKanComplexesAsReducedFibration}
+  Let $f \colon X \longrightarrow Y$ be a [[fibration]]
+  in the model structure on reduced simplicial sets 
+  (Prop. \ref{TheModelStructure}) such that both $X$ and $Y$ are 
+  [[Kan complexes]].
+  Then $f$ is a [[Kan fibration]]
+  precisely if it induces a [[surjection]] on 
+  the first [[simplicial homotopy group]]
+  $\pi_1(f) \colon \pi_1(X) \twoheadrightarrow \pi_1(Y)$. 
+\end{corollary}
+
+([Goerss & Jardine, Ch. V, Cor. 6.9](#GoerssJardine))
+
+As an example:
+
+\begin{proposition}\label{DeloopedKanFibrationOfHomomorphismOfSimplicialGroups}
+  Let $\mathcal{G}_1 \xrightarrow{\phi} \mathcal{G}_2$ be a [[homomorphism]] of [[simplicial groups]] which is a [[Kan fibration]].
+Then the induced morphism of [[simplicial classifying spaces]]
+$\overline{W}\mathcal{G}_1 \xrightarrow{ \overline{W}(\phi)} \overline{W}\mathcal{G}_2$ is a [[Kan fibration]] if and only if $\pi_0(\phi) \colon \pi_0(\mathcal{G}_1) \twoheadrightarrow{\;} \pi_0(\mathcal{G}_1)$ is a [[surjection]].
+\end{proposition}
+([Goerss & Jardine, Ch. V, Cor. 6.9](#GoerssJardine))
+\begin{proof}
+  Since $\overline{W}(-)$ is a [[right Quillen functor]] to the model structure on reduced simplicial sets (Prop. \ref{QuillenAdjunctionWithSimplicialGroups}) it follows that $\overline{W}(\phi)$ is in any case a fibration in that model structure. Hence Cor. \ref{KanFibrationBetweenReducedKanComplexesAsReducedFibration} implies that $\overline{W}(\phi)$ is a Kan fibration precisely of $\pi_1 \circ \overline{W}(\phi)$ is surjective. But $\pi_1 \circ \overline{W} = \pi_0$, by [this Prop](simplicial+classifying+space#HomotopyGroupsOfBarWG).
+\end{proof}
+
 
 ### Relation to pointed simplicial sets
  {#RelationToPointedSimplicialSets}
@@ -211,7 +237,8 @@ This appears as ([Goerss-Jardine, ch. V prop. 6.3](#GoerssJardine)).
 
 ## References
 
-A standard textbook reference is chapter V of
+Textbook account:
 
-* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], Chapter V in: _[[Simplicial homotopy theory]]_
+
+* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], Chapter V in: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
