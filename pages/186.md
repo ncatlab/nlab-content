@@ -119,16 +119,14 @@ We had extensive discussion of generalized smooth spaces at the $n$-Caf&#233;:
 
  * [_B&#228;r on fiber integration in differential cohomology_](http://golem.ph.utexas.edu/category/2008/11/br_on_fiber_integration_in_dif.html)
 
-+-- {: .query}
-[[David Roberts]]: For those generalised smooth spaces which give rise to a topological space (e.g. a [[diffeological space]]), is the topology known to be locally contractible, or locally nice at all?
-
-[[Andrew Stacey|Andrew]]: That's actually a question I'd quite like to study here.  All of the definitions of "generalised smooth space" (that have underlying sets) induce a topology on that underlying set.  Some have it built in (Chen's early definitions, for example, and Smith spaces and differentiable modules) but even if it is not there you can induce it from the plots or functions.  They are not, in general, going to be locally contractible but there are some pathologies that are ruled out.
-
-[[David Roberts|David R]]: Clearly the philosophy behind smooth spaces means we have to keep what we get, and not fuss about how ugly the spaces might be. What interests me is what the fundamental group(oid) is going to look like. Will it be a [[profinite group]]? A [[pro-group]]? A smooth group? I suppose one could start with the smooth space of loops, and form the smooth quotient space under the relation of homotopy - but what does it look like?
-=--
 
 
 [[!redirects generalized smooth space]]
 [[!redirects generalized smooth spaces]]
 [[!redirects generalised smooth space]]
 [[!redirects generalised smooth spaces]]
+
+[[!redirects generalized smooth strcuture]]
+[[!redirects generalized smooth structures]]
+
+
