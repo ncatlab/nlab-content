@@ -232,7 +232,7 @@ Also write
 $$
   \overline{\gamma}
     \;\colon\;
-  [f_iA,B]
+  [f_! A,B]
    \longrightarrow
   f_\ast [A, f^\ast B]
 $$
@@ -240,9 +240,9 @@ $$
 for the $(f^\ast \dashv f_\ast)$ [[adjunct]] of the [[natural transformation]] given as the composite
 
 $$
-  f^\ast [A,f_i B]
+  f^\ast [A,f_! B]
    \stackrel{\simeq}{\longrightarrow}
-  [f^\ast A, \, f^\ast f_i B]
+  [f^\ast A, \, f^\ast f_! B]
    \longrightarrow
   [A, f^\ast B]  
   \,,
