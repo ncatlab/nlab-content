@@ -70,6 +70,10 @@ with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ 
 
 * [[Witt vector]]
 
+* [[Schur polynomial]]
+
+* [[Schur positivity]]
+
 ## References
 
 * [[Michiel Hazewinkel]], _[[Hazewinkel, Witt vectors|Witt vectors]]_, Part 1. [arXiv/0804.3888](http://arxiv.org/abs/0804.3888)
