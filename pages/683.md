@@ -745,13 +745,15 @@ This example, too, is important at [[geometric function theory]].
   [[span trace]] for more examples of homotopy pullbacks
 
 
-### Homotopy colimits of simplicial diagrams {#OverSimplicialDiagrams}
+### Homotopy colimits of simplicial diagrams 
+ {#OverSimplicialDiagrams}
 
 
-+-- {: .num_prop}
++-- {: .num_prop #SimplicialSetIsHomotopyColimitOverItself}
 ###### Proposition
+**(simplicial set is homotopy colimit over itself)**
 
-Every [[simplicial set]] is the homotopy colimit over its cells.
+Every [[simplicial set]] is the [[homotopy colimit]] over its cells.
 
 Precisely: for $X \in $ [[sSet]] a [[simplicial set]], let 
 
