@@ -19,6 +19,9 @@ A _global quotient orbifold_ is an [[orbifold]] that is represented by a [[G-spa
 
 The [[orbifold cohomology]] of global quotient orbifolds is a version of [[equivariant cohomology]] of $X$.
 
+The orbifolds that are global quotients of [[smooth manifolds]] by the action of a [[discrete group]] are called _[[good orbifolds]]_, or _[[very good orbifolds]]_ if the group is even [[finite group|finite]]. All others are called _bad orbifolds_ ([Thurston 92, Ch. 13, Def. 13.2.3](good+orbifold#Thurston92)).
+
+
 ## Related concepts
 
 * [[action groupoid]], [[quotient stack]], [[homotopy quotient]]
