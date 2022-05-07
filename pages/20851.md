@@ -36,6 +36,11 @@ On the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-b
 
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
 
+On non-uniqueness of [[black rings]]:
+
+* [[Iosif Bena]], [[Simon Ross]], [[Nicholas Warner]], _Coiffured Black Rings_, Class.Quant.Grav. 31 (2014) 165015 ([arXiv:1405.5217](https://arxiv.org/abs/1405.5217))
+
+
 
 On (in-)stability of non-[[supersymmetry|supersymmetric]] [[AdS spacetime|AdS]] [[string theory vacua|vacua in string theory]]:
 
