@@ -16,7 +16,7 @@
 
 ## Idea
 
-One analog in [[(∞,1)-category theory]] of _[[epimorphism]]_ in [[category theory]]. Beware that there are other variants such as _[[effective epimorphism in an (infinity,1)-category]]_ and generally the concept of _[[n-epimorphism]]_.
+One analog in [[(∞,1)-category theory]] of _[[epimorphism]]_ in [[category theory]]. Beware that there are other notions such as _[[effective epimorphism in an (infinity,1)-category|effective epimorphism in an $(\infty,1)$-category]]_ and, more generally, the concept of _[[n-epimorphism]]_.
 
 ## Definition
 
@@ -42,7 +42,7 @@ is a [[monomorphism in an (∞,1)-category|monomorphism in]] [[∞Grpd]].
 
   More generally, a map of spaces is an epi iff all its fibers are acyclic spaces in the sense that their [[suspensions]] are [[contractible]].  This is discussed in [Raptis 17](#Raptis17).
 
-* A generalization of this to epimorphisms and acyclic spaces in [[(infinity,1)-toposes]] is discussed in [Hoyois 19](#Hoyois19).
+* A generalization of this to epimorphisms and acyclic spaces in [[(infinity,1)-toposes|$(\infty,1)$-toposes]] is discussed in [Hoyois 19](#Hoyois19).
 
 ## Related concepts
 
