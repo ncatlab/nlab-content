@@ -17,13 +17,18 @@
 
 ## Definition ##
 
-+-- {: .num_prop}
-###### Proposition
+\begin{proposition}\label{SliceModelStructure}
+**(slice model structure)** \linebreak
+For $\mathcal{C}$ a [[model category]] and $X \in \mathcal{C}$ any [[object]], 
+the [[slice category]] $\mathcal{C}_{/X}$ 
+as well as the [[coslice category]] $\mathcal{C}^{X/}$ 
+inherit themselves structures of [[model categories]], whose 
+[[fibrations]], [[cofibrations]] and [[weak equivalences]] are precisely the morphism 
+whose images under the [[forgetful functors]] $\mathcal{C}_{/X} \to \mathcal{C}$ or $\mathcal{C}^{X/} \to \mathcal{C}$
+are fibrations, cofibrations or weak equivalences, respectively, in $\mathcal{C}$.
+\end{proposition}
 
-
-For $C$ a [[model category]] and $X \in C$ an [[object]], the [[over category]] $C/X$ as well as the [[undercategory]] $X/C$ inherit themselves structures of model categories whose [[fibrations]], [[cofibration]]s and [[weak equivalences]] are precisely the morphism that become fibrations, cofibrations and weak equivalences in $C$ under the forgetful functor $C/X \to C$ or $X/C \to C$.
-
-=--
+([Hirschhorn 2002, Thm. 7,6,5](#Hirschhorn02), [May & Ponto 2012, Th. 15.3.6](#MayPonto12))
 
 ## Properties ##
 
@@ -48,7 +53,7 @@ More in detail, if $I,J \subset Mor(\mathcal{C})$ are the classes of [[generatin
 
 =--
 
-This is spelled out in ([Hirschhorn 05](#Hirschhorn05)).
+([Hirschhorn 05](#Hirschhorn05), [May & Ponto 2012, Th. 15.3.6](#MayPonto12)).
 
 +-- {: .num_prop #ModelStructureInheritsCombinatorial}
 ###### Proposition
@@ -206,38 +211,79 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
 =--
 
 
-## Quillen adjunctions between slice categories
-
-+-- {: .num_prop #AdjunctionSliceCat}
-###### Proposition
-
-Given an adjunction $L\dashv R$ with $L\colon A\to B$ and $R\colon B\to A$,
-the following compositions define two Quillen ajdunctions between associated slice categories.
-If $X\in A$, then
-$$L:A/X\leftrightarrows B/L X:R$$
-is an adjunction,
-where is the composition $R\colon B/L X\to A/R L X\to A/X$, the second arrow is the base change functor along the unit $X\to R L X$.
-If $Y\in B$, then
-$$L:A/R Y\leftrightarrows B/Y:R$$
-is an adjunction,
-where $L\colon A/R Y\to B/L R Y\to B/Y$.
-The first adjunction is a Quillen equivalence if $X$ is cofibrant and $L X$ is fibrant.
-The second adjunction is a Quillen equivalence if $Y$ is fibrant.
-
-=--
+### Quillen adjunctions
 
 
-+-- {: .proof}
-###### Proof
+\begin{proposition}\label{AdjunctionSliceCat}
+**(slice Quillen adjunctions)** \linebreak
 
-These adjunctions are Quillen adjunctions because their left (respectively right) adjoints
-are left (respectively right) Quillen functors: in the model structures on
-slice categories (co)fibrations and weak equivalences are created by the forgetful functor to $A$ or $B$,
-see Hirschhorn's note ([Hirschhorn 05](#Hirschhorn05)).
-An object in $A/X$ given by an arrow $Z\to X$ is cofibrant if and only if $Z$ is cofibrant and fibrant if and only if $Z\to X$ is a fibration.
-Quillen's criterion for Quillen equivalences now yields the statements about equivalences.
+Consider a [[Quillen adjunction]]
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\;\;\bot_{\mathrlap{Qu}}\;\;\;\;}
+  \mathcal{C}
+  \,,
+$$
 
-=--
+Then the following [sliced adjunctions](over+category#OnSlices) are [[Quillen adjunctions]] between the corresponding slice model categories (Prop. \ref{SliceModelStructure}):
+
+
+1. For $d \in \mathcal{D}$ any object, the [sliced adjunction](over+category#OnSlices)
+
+   \[
+     \label{QuillenAdjunctionSlicedOverD}
+     \mathcal{D}_{/d}
+       \underoverset
+         {\underset{R_{/d}}{\longrightarrow}}
+         {\overset{L_{/d}}{\longleftarrow}}
+         {\;\;\;\;\bot_{\mathrlap{Qu}}\;\;\;\;}
+     \mathcal{C}_{/R(d)}
+     \,,
+     \;\;\;\;
+     \text{with}
+     \;\;
+     L_{/d} 
+       \;\colon\; 
+     \mathcal{C}_{/R(d)} 
+       \xrightarrow{\;L\;} 
+     \mathcal{D}_{/L\circ R(d)} 
+       \xrightarrow{\;(\eta_d)^\ast\;} 
+     \mathcal{D}_{/d}
+     \,,
+   \]
+   is a [[Quillen adjunction]].
+
+   
+
+1. If $X \in \mathcal{C}$, then
+   $$
+     L \colon \mathcal{C}_{/X} \leftrightarrows \mathcal{D}_{/L(X)} \colon R
+   $$
+   is an adjunction,
+   where in the composition 
+   $R \colon \mathcal{D}_{/L X} \to \mathcal{C}_{/R L X} \to A_{/X}$, 
+   the second functor is the [[base change]] functor 
+   along the [[adjunction unit]] $X \to R \circ L(X)$.
+
+
+\end{proposition}
+
+(e.g. [Li 2016, Prop. 2.5 (2)](#Li16))
+
+\begin{proof}
+
+From Prop. \ref{SliceModelStructure} it is immediate that:
+
+* in the case (eq:QuillenAdjunctionSlicedOverD) the [[right adjoint]] $R_{/d}$ is a [[right Quillen functor]], since on [[underlying]] morphisms it is just $R$, which is a right Quillen functor by assumption
+
+* in the case...
+
+> am being interrupted...
+
+\end{proof}
 
 ## Examples
 
@@ -271,8 +317,16 @@ Quillen's criterion for Quillen equivalences now yields the statements about equ
 
 * {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([pdf](http://www-math.mit.edu/~psh/undercat.pdf), [arXiv:1507.01624](https://arxiv.org/abs/1507.01624))
 
+* {#MayPonto12} [[Peter May]], [[Kate Ponto]], Thm. 15.3.6 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
+
+* {#Li16} Zhi-Wei Li, *A note on the model (co-)slice categories*, Chinese Annals of Mathematics, Series B volume 37, pages 95–102 (2016) ([arXiv:1402.2033](https://arxiv.org/abs/1402.2033), [doi:10.1007/s11401-015-0955-z](https://doi.org/10.1007/s11401-015-0955-z))
+
+
 * {#Cisinski20} [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_, 2020 ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
+[[!redirects slice model structures]]
+
+[[!redirects model structure on an over category]]
 [[!redirects model structure on an overcategory]]
 [[!redirects model structure on an under category]]
 [[!redirects model structure on an undercategory]]
@@ -283,12 +337,8 @@ Quillen's criterion for Quillen equivalences now yields the statements about equ
 [[!redirects model structures on a slice category]]
 [[!redirects model structures on a coslice category]]
 
-
 [[!redirects slice model category]]
 [[!redirects slice model categories]]
-
-[[!redirects slice model structure]]
-[[!redirects slice model structures]]
 
 [[!redirects coslice model category]]
 [[!redirects coslice model categories]]
