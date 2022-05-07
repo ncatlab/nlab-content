@@ -43,13 +43,13 @@ $$
 
 * [[model structure on topological spaces]]
 
-  * [[classical model structure on topological spaces]]
+  * [[classical model structure on topological spaces]] ([[classical model structure on pointed topological spaces|on pointed spaces]])
 
-    * [[classical model structure on pointed topological spaces]]
+    * [[model structure on compactly-generated topological spaces]]
+
+    * [[model structure on Delta-generated topological spaces]]
 
   * [[Strøm model structure]]
-
-  * [[model structure on Delta-generated topological spaces]]
 
 * [[model structure on diffeological spaces]]
 
