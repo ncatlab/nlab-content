@@ -64,6 +64,22 @@ A *[[Weil-Deligne representation]]* is a pair $(\rho_{0},N)$ where $\rho_{0}:W_{
 
 Let $F$ be a $p$-adic field. The only irreducible admissible representations of $GL_1(F)$ ($=F^\times$) are continuous group homomorphisms $\chi:F^\times\to\mathbb{C}^{\times}$. The $1$-dimensional Weil-Deligne representations $(\rho_{0},N)$ of $W_F$ must have monodromy operator $N=0$ and must factor through the abelianization $W_F^{\mathrm{ab}}$. The local Langlands correspondence in this case is the same as local class field theory, and sends $\chi$ to the Weil-Deligne representation $(\rho_{0},0)$, where $\rho_{0}$ is the composition $W_{F}\to W_{F}^{\mathrm{ab}}\xrightarrow{\mathrm{rec}^{-1}}F^{\times}\xrightarrow{\chi}\mathbb{C}^{\times}$, with $\mathrm{rec}:F^{\times}\xrightarrow{\sim}W_{F}^{\mathrm{ab}}$ being the Artin reciprocity map of local class field theory. 
 
+### Local Langlands correspondence for $GL_2$
+
+Let $F$ be a $p$-adic field. For $p\neq 2$, the irreducible admissible representations of $GL_2(F)$ are the following:
+
+*Principal series representations $I(\chi_{1},\chi_{2})$ for $\chi_{1}/\chi_{2}\neq \Vert\cdot\Vert^{\pm 1}$
+*Special representations $S(\chi,chi\times\Vert\cdot\Vert)$
+*Finite-dimensional representations $\chi\circ\det$
+*Super cuspidal representations $BC_{L}^{K}(\psi)$
+
+Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil group associated to the character $\chi_{i}F^{\times}:\to \mathbb{C}^{\times}$ by the local Langlands correspondence for $GL_1$. Then the local Langlands correspondence associates to each irreducible admissible representation of $GL_2(F)$ a $2$-dimensional Weil-Deligne representation as follows:
+
+* To the principal series representation $I(\chi_{1},\chi_{2})$ we associate the Weil-Deligne representation $(\rho_{1}\oplus\rho_{2},0)$
+*
+*
+*
+
 ## Related concepts
 
 * [[global analytic geometry]]
