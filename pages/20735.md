@@ -241,6 +241,16 @@ Here we are showing
 
 ### General
 
+See also
+
+* Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
+
+### Classification by rational map
+
+On the classification of monopoles by [[rational maps]] between [[Riemann spheres]]:
+
+
+
 * {#Donaldson84} [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
 
 * {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_ , M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
@@ -251,11 +261,13 @@ Here we are showing
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
+* Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles from Rational Maps* ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
+
+
+
 * [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([arXiv:0908.1938](https://arxiv.org/abs/0908.1938))
 
-See also
 
-* Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
 ### As transversal D$p$/D$(p+2)$-brane intersections
 
