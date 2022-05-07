@@ -16,6 +16,7 @@
 
 * [[equivariant stable homotopy theory]]
 
+
 ## Selected writings
 
 ### Lectures and textbooks
@@ -49,6 +50,11 @@ On [[model categories]] of [[highly structured spectra]]:
 On [[algebraic K-theory]] in [[global equivariant stable homotopy theory]]:
 
 * [[Stefan Schwede]], _Global algebraic K-theory_ ([arXiv:1912.08872](https://arxiv.org/abs/1912.08872))
+
+On [[enhanced triangulated categories]] ([[stable (infinity,1)-categories|stable $(\infty,1)$-categories]]):
+
+* [[Stefan Schwede]], [[Markus Hausmann]], _Enhancements of triangulated categories_, Graduate Seminar Topology, Bonn 2019-2020 ([[Schwede_EnhancedSeminar.pdf:file]])
+
 
 
 category: people
