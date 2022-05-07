@@ -144,6 +144,12 @@ Relation to [[quintessence]]:
 * [[Fotis Farakos]], _Quintessence from higher curvature supergravity_ ([arXiv:2003.09366](https://arxiv.org/abs/2003.09366))
 
 
+### Higher curvature corrections to hetertotic supergravity
+
+On higher curvature corrections to [[heterotic supergravity]]:
+
+* Eric Lescano, Carmen Núñez, Jesús A. Rodríguez, *Supersymmetry, T-duality and Heterotic $\alpha'$-corrections* ([arXiv:2104.09545](https://arxiv.org/abs/2104.09545))
+
 
 
 [[!include higher curvature corrections to D=11 supergravity -- references]]
