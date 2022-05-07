@@ -264,7 +264,7 @@ After giving this talk, I learnt of the work [29] 1 which gives a good account o
 
 ##  References
 
-The original definition is due to [[Graeme Segal]] (who introduced them as [[elliptic objects]]), see §6 of
+The original definition is due to [[Graeme Segal]] (who introduced them as (flat) [[elliptic objects]]), see §6 of
 
 * {#Segal88} [[Graeme Segal]], _Elliptic cohomology (after Landweber–Stong, Ochanine, Witten, and others)_, Séminaire Bourbaki, 40e année, 1987–88, No. 695 ([numdam:SB_1987-1988__30__187_0](http://www.numdam.org/item/?id=SB_1987-1988__30__187_0))
 
