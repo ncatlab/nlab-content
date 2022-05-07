@@ -50,15 +50,8 @@ the dimension of $X$ is the largest $n$ for which the indexing sets $I_n$ are [[
 
 ## Related concepts
 
-* [[dimension]]
+[[!include notions of dimension -- contents]]
 
-  * [[homotopy dimension]]
-
-  * [[cohomology dimension]]
-
-  * [[covering dimension]]
-
-  * [[Heyting dimension]]
 
 
 
@@ -66,6 +59,11 @@ the dimension of $X$ is the largest $n$ for which the indexing sets $I_n$ are [[
 
 [[!redirects dimension of a CW-complex]]
 [[!redirects dimension of CW-complexes]]
+
+[[!redirects dimension of a CW complex]]
+[[!redirects dimension of CW complexes]]
+
+
 
 
 
