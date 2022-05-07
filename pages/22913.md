@@ -441,9 +441,20 @@ $$
       deg = 4k
     }{
       \underbrace{
+        (-1)^{k} 
         p_{k}(\nabla)
       }
     }
+    \\
+    & \;=\;
+    \underset{k \in \mathbb{N}}{\sum}
+    \underset{
+      deg = 4k
+    }{
+      \underbrace{
+        c_{2k}(\nabla)
+      }
+    }  
     \\
     & \;=\;
     1
@@ -451,7 +462,7 @@ $$
     &
     \phantom{\;=\;}
     +
-    \underset{ \color{blue} = p_1(\nabla) }{
+    \underset{ \color{blue} = - p_1(\nabla) }{
     \underbrace{
     \frac
       {\tr\big( (F_\nabla)^2 \big) }
@@ -487,6 +498,7 @@ $$
     p_1(\nabla)
     & 
     \;=\;
+    -
     \frac
       {\tr\big( (F_\nabla)^2 \big) }
       { 8 \pi^2  }
