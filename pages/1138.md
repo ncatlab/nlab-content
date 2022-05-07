@@ -41,7 +41,7 @@ Given a [[topos|morphism of topos]] $f : X \to Y$ coming from a [[functor]] $f^t
 
 ### on presheaves
 
-The [[direct image]] operation $f_* : PSh(X) \to PSh(Y)$ on [[presheaf|presheaves]] 
+The [[direct image]] operation $f_* : PSh(S_X) \to PSh(S_Y)$ on [[presheaf|presheaves]] 
 is just precomposition with $f^t$
 
 $$
@@ -60,7 +60,7 @@ $$
 The **inverse image** operation 
 
 $$
-  f^{-1} : PSh(Y) \to PSh(X)
+  f^{-1} : PSh(S_Y) \to PSh(S_X)
 $$
 
 on [[presheaf|presheaves]] is the [[adjoint functor|left adjoint]] to the direct image operation on presheaves, hence the left [[Kan extension]]
