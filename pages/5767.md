@@ -27,7 +27,7 @@ The __tropical semiring__ is a [[semiring]] $(\mathbb{R},\oplus,\otimes)$ with a
 
 The tropical rig is also called the [[min-plus algebra]]. There is a related, in fact isomorphic rig called the [[max-plus algebra]]. (Some authors use the term 'tropical algebra' for the max-plus rather than the min-plus algebra.  The theories, of course, run in parallel, as each is the negative of the other.) 
 
-In his survey article, cited below, Pin uses the term for a wide range of similar idempotent semirings. For instance $\mathcal{M} = (\mathbb{N} \cup{\infty}, min, +)$ is a tropical semiring introduced by Imre Simon in 1978.
+In his survey article, cited below, Pin uses the term for a wide range of similar idempotent semirings. For instance $\mathcal{M} = (\mathbb{N} \cup{\infty}, min, +)$ is a tropical semiring introduced by [[Imre Simon]] in 1978.
 
 
 ## Elementary properties
