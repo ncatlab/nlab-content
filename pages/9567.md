@@ -57,13 +57,15 @@ The most straightforward notion of the **sum** of a series is the [[limit of a s
 
 * [[geometric series]]
 
-* [[power series]]
+* [[Mercator series]]
 
 * [[Taylor series]]
 
 * The formal [[e]], $e = \sum_{n=0}^\infty \frac{1}{n!}$, where $\frac{1}{(-)!}:\mathbb{N}\to \mathbb{Q}$
 
 ## Related concepts
+
+* [[power series]]
 
 * [[asymptotic series]]
 
