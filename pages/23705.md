@@ -1,4 +1,3 @@
-[[!redirects braided monoidal dagger categories]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,7 +14,8 @@
 {:toc}
 
 ## Definition ##
-A **braided monoidal dagger category** is a [[monoidal dagger category]] $(C, \otimes, \Iota)$ with 
+
+A **braided monoidal dagger category** is a [[monoidal dagger category]] $(C, \otimes, \Iota)$ which is also a [[braided monoidal category]], in that: 
 
 * for objects $A \in Ob(C)$ and $B \in Ob(C)$, there is a [[natural unitary isomorphism]] called the **braiding** of $A$ and $B$
 
@@ -38,4 +38,9 @@ $$\alpha_{F,D,E}^{-1} \circ \beta_{D \otimes E, F} \circ \alpha^{-1}_{D,E,F} = (
 ## See also ##
 
 * [[dagger category]]
+
 * [[monoidal dagger category]]
+
+* [[braided monoidal category]]
+
+
