@@ -60,7 +60,8 @@ Proccedings in:
   [epdf](https://www.onlinelibrary.wiley.com/doi/epdf/10.1002/prop.201870076), [doi:10.1002/prop.201870076](https://www.onlinelibrary.wiley.com/doi/10.1002/prop.201870076)
 
 
-## Higher Strutures in M-Theory
+## Higher Structures in M-Theory
+ {#HigherStructuresInMTheory}
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]]
 
