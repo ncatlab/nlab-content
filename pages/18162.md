@@ -1668,6 +1668,8 @@ Then pass to the infinite limit to construct a map  $ X \longrightarrow  \mathbb
 
 ### Urysohn lemma and Tietze extension theorem. 
 
+We now explain how to view the standard proof of the Urysohn lemma in terms of lifting properties.
+
 Let $\Lambda_n=\big\{
 \underset{c_0}{} \swarrow 
 \overset{o_1}{} \searrow \cdots \swarrow 
@@ -1677,10 +1679,10 @@ $$\Lambda_{2({n+1})}\to \Lambda_{2n}$$
 $$c_{2i}\mapsto c_i,\,\,\, o_{2i+1},c_{2i+1},o_{2i+2}\mapsto o_i,\,\,\, 0\leq i\leq n-1,\,\,\,c_{2n}\mapsto c_n,$$ 
 and let $\Lambda_\infty=\lim_{n\to\infty} \Lambda_{2^n},$ be the limit in the category of topological spaces.
 
-In this notation normality (T4) is defined by $\varnothing \to X \rtt \Lambda_2\to \Lambda_1$.
-Iterating the lifting property shows that $f \rtt \Lambda_2\to \Lambda_1$ implies
-that $f \rtt \Lambda_{2n}\to \Lambda_n$ and, passing to the limit, 
-$f \rtt \Lambda_\infty\to \Lambda_1$. 
+In this notation normality (T4) is defined by $\varnothing \to X \;\;\;\,&solb;\,\;\;\; \Lambda_2\to \Lambda_1$.
+Iterating the lifting property shows that $f \;\;\;\,&solb;\,\;\;\; \Lambda_2\to \Lambda_1$ implies
+that $f \;\;\;\,&solb;\,\;\;\; \Lambda_{2n}\to \Lambda_n$ and, passing to the limit, 
+$f \;\;\;\,&solb;\,\;\;\; \Lambda_\infty\to \Lambda_1$. 
 
 Iterating the lifting property $T_4$ implies that 
 $$\Lambda_\infty\to  \Lambda_1 \in \{ \Lambda_2 \to \Lambda_1\}^{lr}.$$
@@ -1688,8 +1690,7 @@ $$\Lambda_\infty\to  \Lambda_1 \in \{ \Lambda_2 \to \Lambda_1\}^{lr}.$$
 The standard arguments from the proof of Urysohn lemma give the following
 relation between $\Lambda_\infty$ and $\mathbf{R}$. 
 
-1. $[0,1]$  and  
-${[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}$ are retracts of $\Lambda_\infty$. 
+1. $[0,1]$  and  ${[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}$ are retracts of $\Lambda_\infty$. 
 
 
 
@@ -1697,47 +1698,46 @@ ${[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}$ are retra
 $$\Lambda_\infty\to   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \Lambda_2 \to \Lambda_1$$
 
 Item (1) implies that 
-$A \to X \rtt \Lambda_\infty\to \{o\}$ implies $A \to X \rtt [0,1]\to \{o\}$ 
-(and  $A \to X \rtt [0,1]\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \{o\}$).
-This reminds the Tietze extension theorem but is different: 
-[it is not true that any closed inclusion
+$A \to X \;\;\;\,&solb;\,\;\;\; \Lambda_\infty\to \{o\}$ implies $A \to X \;\;\;\,&solb;\,\;\;\; [0,1]\to \{o\}$ 
+(and  $A \to X \;\;\;\,&solb;\,\;\;\; [0,1]\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \{o\}$).
+This reminds the Tietze extension theorem but is different: [it is not true that any closed inclusion
 in a normal space lifts wrt to $\Lambda_2 \to \Lambda_1$](https://mathoverflow.net/questions/394187/extending-disjoint-open-subsets-of-a-normal-hausdorff-space/394193), although it is true for closed inclusions
 into a heriditarily normal space.
 
 
 \begin{tikzcd}
 [
-  column sep={between origins, 60pt},
+  column sep={between origins, 120pt},
   row sep={between origins, 40pt}
 ]
   A
   \ar[dd]
-  \ar[r]
-  & \Lambda_\infty & {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\ar[l]\ar[dd] \ar[r] 
+  \ar[rr]
+  && \Lambda_\infty \ar[rdd]\ar[dd]
+  & { {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} }\ar[l]\ar[dd] \ar[r] 
   &  \Lambda_2 
-  \ar[ddlll]
+  \ar[ddll]
   \\
   \\
   B
   \ar[
-    r
+    rr
   ]
   \ar[
-    uur,
+    uurr,
     dashed,
     "{ \exists }"
   ]
-  &\Lambda_1 & {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\ar[l] 
+  &&\Lambda_1 
+  & { {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} }\ar[l] 
 \end{tikzcd}
 
 
-
-Item (2) (see the diagram above) shows that  $A\to B \rtt \Lambda_\infty\to \Lambda_1$ implies that 
-$A\to B \rtt {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \Lambda_1$.
-Finally, for $A=\varnothing$ the latter implies that $\varnothing \to B \rtt   \Lambda_2 \to \Lambda_1$.
+Item (2) (see the diagram above) shows that  $A\to B \;\;\;\,&solb;\,\;\;\; \Lambda_\infty\to \Lambda_1$ implies that 
+$A\to B \;\;\;\,&solb;\,\;\;\; {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}\to \Lambda_1$.
+Finally, for $A=\varnothing$ the latter implies that $\varnothing \to B \;\;\;\,&solb;\,\;\;\;   \Lambda_2 \to \Lambda_1$.
 This implies the Urysohn lemma that 
-$$\varnothing \to B \rtt   \Lambda_2 \to \Lambda_1\text{ iff }\varnothing \to B \rtt   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1$$
-
+$$\varnothing \to B \;\;\;\,&solb;\,\;\;\;   \Lambda_2 \to \Lambda_1\text{ iff }\varnothing \to B \;\;\;\,&solb;\,\;\;\;   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1$$
 
 
 
