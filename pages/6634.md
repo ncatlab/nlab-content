@@ -101,7 +101,7 @@ However, the 2-categories $T Alg_l$ and $T Alg_c$ are not so well-behaved; they 
 
 ## References
 
-* R. Blackwell, [[Max Kelly]], [[John Power]], _2-dimensional monad theory_, ([doi](https://doi.org/10.1016/0022-4049(89)90160-6))
+* R. Blackwell, [[Max Kelly]], [[John Power]], _2-dimensional monad theory_, ([doi](https://doi.org/10.1016/0022-4049%2889%2990160-6))
 
 [[!redirects lax morphisms]]
 [[!redirects colax morphism]]
