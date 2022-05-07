@@ -114,7 +114,15 @@ Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil gr
 
 ## Geometrization
 
-Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21).
+Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21). In this formulation the local Langlands correspondence is expressed as an equivalence between the category of certain $\ell$-adic sheaves on the moduli stack $\mathrm{Bun}_{G}$ of vector bundles on the Fargues-Fontaine curve on one hand, and the category of certain coherent sheaves on the moduli stack of L-parameters in the other (compare [[geometric Langlands correspondence]]). More precisely:
+
+\begin{conjecture}
+There is an equivalence
+$$\mathcal{D}(\mathrm{Bun}_{G},\mathcal{O}_{L})^{\omega}\cong\mathcal{D}_{\mathrm{coh},\mathrm{Nilp}}^{b,\mathrm{qc}}(Z^{1}(W_{F},\widehat{G})_{\mathcal{O}_{L}}/\widehat{G})$$
+of stable $\infty$-categories equipped with actions of $\Perf(Z^{1}(W_{F},\widehat{G})_{\mathcal{O}_{L}}/\widehat{G})$.
+\end{conjecture}
+
+Fargues-Scholze are also able to associate an L-parameter $\varphi_{A}:W_{F}\to\widehat{G}(\mathbb{Q}_{\ell})$ to a Schur object $A$ in $D(\mathrm{Bun}_{G},\overline{\mathbb{Q}}_{\ell})$ using the method of V. Lafforgue involving excursion operators.
 
 ## $p$-adic and mod $p$ local Langlands
 
