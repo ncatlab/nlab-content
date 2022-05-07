@@ -13,11 +13,11 @@ My main research interest lies in the global geometric structures underlying the
 
 ## Links
 
-* [webpage](https://www.qmul.ac.uk/spa/people/research-students/profiles/lalfonsi.html)
+* [Academic webpage](https://bit.ly/39OULO9)
 
-* [at InSpire-Hep](https://inspirehep.net/authors/1776881)
+* [InSpire-Hep page](https://inspirehep.net/authors/1776881)
 
-* [at ResearchGate](https://www.researchgate.net/profile/Luigi_Alfonsi)
+* [ResearchGate page](https://www.researchgate.net/profile/Luigi_Alfonsi)
 
 * email: [l.alfonsi@qmul.ac.uk](mailto:l.alfonsi@qmul.ac.uk)
 
