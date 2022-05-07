@@ -39,14 +39,15 @@ The Weyl group of a root system $\Delta$ in $E$ is the finite subgroup $W(\Delta
 
 Given root systems $\Delta$ in $E$ and $\Delta'$ in $E'$, we define a **morphism of root systems** from $\Delta$ to $\Delta'$ to be a linear map $f: E \to E'$ such that $f(\Delta) \subseteq \Delta'$ and $f(\alpha) \dashv f(\beta) = \alpha \dashv \beta$ for all $\alpha, \beta \in \Delta$.
 
-## Weyl group of a root system
-
-
 ## Related concepts
 
 * [[weight (in representation theory)]]
 
 * [[maximal torus]], [[Cartan subalgebra]]
+
+* [[Dynkin diagram]]
+
+* [[ADE classification]]
 
 ## References
 
