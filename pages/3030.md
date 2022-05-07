@@ -574,7 +574,7 @@ Non-abelian group cohomology in degree 1, as the set of [crossed-conjugation](cr
 
 * [[Philippe Gille]], [[Tamás Szamuely]], Def. 2.3.2 in: *Central Simple Algebras and Galois Cohomology*, Cambridge University Press  2006 ([doi:10.1017/CBO9780511607219](https://doi.org/10.1017/CBO9780511607219), [pdf](http://www.math.ens.fr/~benoist/refs/Gille-Szamuely.pdf))
 
-* {#Milne17} [[James Milne]], Section 27.a (of the [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf), not present in the published version) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+* {#Milne17} [[James Milne]], Sec. 3.k (27.a of the [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf)) in: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
 
 * [[Groupprops]], *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
