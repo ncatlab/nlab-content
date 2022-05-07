@@ -201,7 +201,7 @@ The _Dieudonné predeterminant_ $\delta\epsilon\tau(T)$, introduced by Draxl, is
 
 The Dieudonné determinant is then the image of $\delta\epsilon\tau(T)$ under the projection to the [[abelianization]] ([Draxl 83, Sec. 20, Cor. 1 (p. 135)](#Draxl83))
 
-It is well known that the Gauss decomposition of matrices over a noncommutative ring  has a simple expression in terms of [[quasideterminants]], as shown by [Gelfand-Retakh 02](#GelfandRetakh02) (and in their earlier references, around 1990), hence the Dieudonné predeterminant can be generically presented as a signed product of quasideterminants.
+It is well known that the Gauss decomposition of matrices over a noncommutative ring  has a simple expression in terms of [[quasideterminants]], as shown by [Gelfand-Retakh 02](#GelfandRetakh02) (and in their earlier references, around 1990), from which it can be infered that the Dieudonné predeterminant can be generically presented as a signed product of quasideterminants.
 
 
 
