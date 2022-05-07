@@ -369,14 +369,17 @@ For more along these lines see also at _[[geometric quantization of the 2-sphere
 ### On the $n$-sphere
  {#SpinStructureOnTheNSphere}
 
-In fact, the [[n-sphere]] for each $n \in \mathbb{N}$ carries a spin structure, induced, ultimately, from the [[coset space]]-realization $S^n \simeq Spin(n+1)/Spin(n)$.
+Generally:
 
-e.g. 
+\begin{example}
+The [[n-sphere]], for each $n \in \mathbb{N}$, carries a canonical [[spin structure]], induced from its [[coset space]]-realization $S^n \simeq Spin(n+1)/Spin(n)$ 
+([here](sphere#LabelCosetSpaceStructure)), as a special case of the canonical $H$-structure on $G/H$ ([this example](G-structure#CanonicalHStructureOnFModH)).
+\end{example}
 
-[Nowaczyk 15, Theorem A.6.6](#Nowaczyk15)
+Other ways to see this:
 
 
-* {#Nowaczyk15} Nikolai Nowaczyk, _Dirac Eigenvalues of higher Multiplicity_ ([arXiv:1501.04045](https://arxiv.org/abs/1501.04045))
+* {#Nowaczyk15} Nikolai Nowaczyk, Theorem A.6.6 in: _Dirac Eigenvalues of higher Multiplicity_ ([arXiv:1501.04045](https://arxiv.org/abs/1501.04045))
 
 * {#SpinorsInGeometryAndPhysics} _Spinors in Geometry and Physics_ ([GBooks, p. 243](https://books.google.ae/books?id=d14GCwAAQBAJ&lpg=PA243&ots=_tH_He8UFg&dq=%22spin%20structure%20on%20spheres%22&pg=PA243#v=onepage&q=%22spin%20structure%20on%20spheres%22&f=false))
 
