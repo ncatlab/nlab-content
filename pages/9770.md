@@ -53,6 +53,31 @@ $$
 
 ## Properties
 
+### Relation between Todd class and $\hat A$-genus
+  {#RelationBetweenToddClassAndAHatGenus}
+
+On an [[almost complex manifold]] $M_{\mathrm{U}}$, the [[Todd class]] coincides with the [[A-hat genus|A-hat class]] up to the [[exponential]] of half the [[first Chern class]]:
+
+$$
+  Td(M_{\mathrm{U}})
+   \;=\;
+  \big(e^{c_1/2} \hat A\big)(M_{\mathrm{U}})
+  \,.
+$$
+
+(e.g. [Freed 87 (1.1.14)](#Freed87)).
+
+In particular, on manifolds $M_{S\mathrm{U}}$ with [[special unitary group|SU]]-[[G-structure|structure]], where $c_1 = 0$, the Todd class is actually equal to the [[A-hat genus|A-hat class]]:
+
+$$
+  Td(M_{S\mathrm{U}}) 
+   \;=\;
+  \hat A(M_{S\mathrm{U}})
+  \,.
+$$
+
+
+
 ### Relation to Thom class and Chern character
 
 +-- {: .num_prop #RationalToddClassIsChernCharacterOfThomClass} 
@@ -233,6 +258,11 @@ Original articles:
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Sections 12, 13 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 * {#Karoubi78} [[Max Karoubi]], Chapter V.4 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
+
+Review:
+
+* {#Freed87} [[Daniel Freed]], Sections 1.1, 1.2 of: _Geometry of Dirac operators_, 1987 ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]])
+
 
 On the Todd character:
 
