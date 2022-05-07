@@ -199,6 +199,68 @@ In the case of HQFTs, the role of the circle is replaced by the family of  circl
 In ([Moore-Segal 06](#MooreSegal06)) are discussed $G$-[[equivariant TFT]]s and it is shown that they naturally correspond to a simple case of Turaev's HQFTs.  They relate (1+1) equivariant TFTs to Turaev's [[crossed G-algebras]] (which they call Turaev algebras).
 
 
+## History
+
+The original definition is due to [[Graeme Segal]], who introduced them as [[elliptic objects]].
+Specifically, in [Segal 88](#Segal88), we read in §6:
+
+> 6\. Speculation about the definition of elliptic cohomology
+
+> For any space $X$ let $\mathcal{P}_X$ be the category
+whose objects are the points of $X$ and whose morphisms from $x_0$ to $x_1$ are the paths in $X$ from $x_0$ to $x_1$,
+two such paths being identified if they differ only by reparametrization.
+A functor from $\mathcal{P}_X$ to finite dimensional vector spaces is essentially the same thing as a vector bundle on $X$ with a connection.
+(The functor must be continuous in a suitable sense.)
+It is well known how K-theory is constructed from such objects.
+
+> I have described elsewhere [23] a category $\mathcal{C}$
+whose objects are all compact oriented one-dimensional manifolds,
+and whose morphisms from $S_0$ to $S_1$ are pairs $(\Sigma,\alpha)$,
+where $\Sigma$ is a Riemann surface with boundary $\partial\Sigma$,
+and $\alpha$ is an isomorphism between $\partial X$ and $S_1-S_0$.
+Two pairs $(\Sigma,\alpha)$, $(\Sigma',\alpha')$ are identified if they are isomorphic.
+For any space $X$ one can now define a category $\mathcal{C}_X$.
+Its objects are pairs $(S,s)$, where $S$ is an object of $\mathcal{C}$ and $s \colon S \to X$ is a map.
+Its morphisms from $(S_0,s_0)$ to $(S_1,s_1)$ are triples $(\Sigma,\alpha,\sigma)$,
+where $(\Sigma,\alpha)\colon S_0 \to S_1$ is a morphism in $\mathcal{C}$,
+and $\sigma\colon\Sigma\to X$ is a map compatible with $(s_O,s_1)$.
+The category $\mathcal{C}_X$ is a natural analogue of the category $\mathcal{P}_X$ which gives rise to vector bundles.
+
+> It is appropriate to consider functors from $\mathcal{C}$ to the category $\mathcal{V}$ of topological vector spaces and trace-class maps.
+If such a functor $E$ is holomorphic in the natural sense then $E(S^1)$ is a positive energy representation of $Diff(S^1)$ of finite type.
+More precisely, as is familiar in the representation theory of $Diff(S^1)$,
+one must consider projective representations of $\mathcal{C}$ of some definite positive integral level $k$.
+Imposing a further condition — the contraction condition below — on the functor $E$ ensures that the character of $E(S^1)$ is a modular form of weight $k$.
+
+> Now let us define an elliptic object of level $k$ on $X$
+as a projective functor $E\colon\mathcal{C}_X\to \mathcal{V}$ of level $k$ which is holomorphic and satisfies the contraction condition.
+Such an object consists of an infinite dimensional vector bundle on the loop space $\mathcal{L}X$, equivariant under $Diff(S^1)$,
+together with some additional data amounting to a kind of connection.
+The primary example is the spin bundle of $\mathcal{L}X$, which is defined when $X$ is a spin manifold with $p_1=0$.
+
+> I have nothing precise to say about elliptic objects,
+but it seems to me quite likely that the objects of each level lead to an interesting cohomology theory,
+and that the theories for different levels are related by “Bott maps”.
+That would fit in well with Theorem (5.3), for just as elements of $K(B G)$ are
+elated to flat bundles, so elements of $Ell^*(B G)$ seem to be related to flat elliptic objects,
+i.e. ones such that the operator associated to $(\Sigma,\alpha,\sigma)$ depends on $\sigma$ only up to homotopy, and is therefore a homomorphism $\pi_1(\Sigma)\to G$.
+
+> I should mention that the category $\mathcal{C}$ can be modified by equipping the Riemann surfaces $\Sigma$ with chosen spin structures.
+That is certainly needed to obtain genuine elliptic cohomology.
+
+> Finally I return to the “contraction property”.
+This is motivated by the path-integral point of view.
+If a surface $\Sigma$ is a morphism from $S$ to itself
+then the trace of the operator $E(\Sigma)\colon E(S)\to E(S)$ associated to $\Sigma$
+must depend only on the _closed_ surface $\check\Sigma$ obtained by attaching the two boundary pieces of $\Sigma$ to each other.
+Thus if $\Sigma_\tau$ is the annulus $\{z \in \mathbf{C} \mid |e^{i\tau}|\le |z|\le 1\}$ then $\check\Sigma_\tau\cong \check\Sigma_{\tau'}$, when $\tau'=-1/\tau$,
+and therefore the trace of $E(\Sigma_\tau)$ is invariant under $\tau\mapsto -1/\tau$.
+
+> Brylinski [9] has proposed a similar approach to elliptic cohomology.
+
+> Postscript.
+After giving this talk, I learnt of the work [29] 1 which gives a good account of the Dirac operator on loop space from the path integral point of view.
+
 
 ##  References
 
