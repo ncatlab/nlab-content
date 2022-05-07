@@ -33,6 +33,13 @@ A _tetraquark_ is an [[exotic meson]] which is a [[bound state]] of four [[quark
 
 ### General 
 
+The idea of tratraquarks is mentioned already in the original articles on [[quarks]].
+
+The original proposal for tetraquarks with two [[heavy quark]] constitutents:
+
+* J.P. Ader,  J.M. Richard, P. Taxil, *Do narrow heavy multiquark states exist?*, Phys. Rev. D 25 (1982) 2370 ([doi:10.1103/PhysRevD.25.2370](https://doi.org/10.1103/PhysRevD.25.2370), [spire:166170](https://inspirehep.net/literature/166170))
+
+    
 See also:
 
 * Wikipedia, _[Tetraquark](https://en.m.wikipedia.org/wiki/Tetraquark)
@@ -40,7 +47,7 @@ See also:
 
 Discussion in view of [[hadron supersymmetry]] in [[holographic light front QCD]]:
 
-* [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_ ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
+* [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_, [QCD 20)](https://inspirehep.net/conferences/1778269) ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
 
 ### Experimental detection
  {#ExperimentalDetection}
@@ -61,7 +68,7 @@ Theoretical explanation:
 
 reviewed in: 
 
-* [[Jean-Marc Richard]], *About the $J/\psi J/\psi$ peak of LHCb: fully-charmed tetraquark?*, Science Bulletin Volume 65, Issue 23, 15 December 2020, Pages 1954-1955 ([arXiv:2008.01962](https://arxiv.org/abs/2008.01962), [doi:10.1016/j.scib.2020.08.020](https://doi.org/10.1016/j.scib.2020.08.020))
+* [[Jean-Marc Richard]], *About the $J/\psi$ $J/\psi$ peak of LHCb: fully-charmed tetraquark?*, Science Bulletin Volume 65, Issue 23, 15 December 2020, Pages 1954-1955 ([arXiv:2008.01962](https://arxiv.org/abs/2008.01962), [doi:10.1016/j.scib.2020.08.020](https://doi.org/10.1016/j.scib.2020.08.020))
 
 * [[Jean-Marc Richard]], *Fully-heavy tetraquarks and other heavy multiquarks*, Nuclear and Particle Physics Proceedings 00 (2021) 1–5 ([arXiv:2105.02503](https://arxiv.org/abs/2105.02503))
 
