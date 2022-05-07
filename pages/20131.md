@@ -88,8 +88,15 @@ Together with the [[Thom's transversality theorem]], this is the key to the [[pr
 
 ## References
 
+
+* {#Thom54} [[René Thom]], p. 18 of: _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
+
+
 * {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
 
 [[!redirects regular values]]
+
+[[!redirects regular point]]
+[[!redirects regular points]]
 
