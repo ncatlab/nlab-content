@@ -54,13 +54,19 @@ If $a \multimap b = \top$, then $a \leq b$.
 
 $(M,\wedge,\vee,\bot,\top)$ forms a [[lattice]]. 
 
-### Ideals of a scale
-
 A subset $\mathcal{I}$ of a scale $M$ is an __[[ideal]]__ if $\bot \in \mathcal{I}$, and $x \vee y \in \mathcal{I}$ if and only if $x \in \mathcal{I}$ and $y \in \mathcal{I}$. An ideal is a __zoom-invariant ideal__ if it is closed under $\bot$-zooming. 
 
-Given an element $a$ in scale $M$, a __principal zoom-invariant ideal__ $((a))$ is the subset of all $b$ in $M$ such that $(\bot\vert)^n b \leq a$ for all large $n$ in $\mathbb{N}$. 
+A subset $\mathcal{I}$ of a scale $M$ is a __$\bot$-face__ if $\bot \in \mathcal{I}$, and $x \vert y \in \mathcal{I}$ if and only if $x \in \mathcal{I}$ and $y \in \mathcal{I}$. 
+
+Every $\bot$-face is a zoom-invariant ideal. 
+
+Given an element $a$ in scale $M$, a __principal $\bot$-face__ $((a))$ is the subset of all $b$ in $M$ such that $(\bot\vert)^n b \leq a$ for all large $n$ in $\mathbb{N}$. 
 
 A __[[Jacobson radical]]__ of a scale $M$ is the set $J(M)$ of all $a$ in $M$ such that for all $n$ in $\mathbb{N}$, $x \leq (\bot\vert)^n \top$. $M$ is __semi-simple__ if $J(M)$ is [[trivial]]. 
+
++-- {: .standout}
+Although Peter Freyd states in section 8 of _Algebraic Real Analysis_ that 'Every scale can be embedded into the product of linear scales', the proof of the statement requires the use of [[excluded middle]] through its implicit definition of the [[quasiorder]] $\lt$ from the algebraically defined [[partial order]] $\leq$. The same is true of the definition of simple scales in section 10, and of the algebraic construction of the standard interval $I$ from simple scales in section 11. It is unknown if these results still hold in [[constructive mathematics]] without the use of excluded middle. 
+=--
 
 ### As star-autonomous categories
 
