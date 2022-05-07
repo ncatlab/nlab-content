@@ -134,6 +134,31 @@ automatically the Wess–Zumino term, with the correct coefficient!
 * {#DiakonovPetrovPobylitsa88} [[Dmitri Diakonov]], [[Victor Petrov]], P.V. Pobylitsa, _A Chiral Theory of Nucleons_, Nucl. Phys. B306 (1988) 809 ([spire:247700](http://inspirehep.net/record/247700), <a href="https://doi.org/10.1016/0550-3213(88)90443-9">doi:10.1016/0550-3213(88)90443-9</a>)
 
 
+### Baryon Chiral Perturbation Theory
+
+The QCD vacuum breaks chiral symmetry down to the diagonal subgroup of SU(3), $U(3)_v$, whereby 8 massless [[Goldstone boson | goldstone bosons]] appear, each of which are coupled via $F_0$ to the conserved axial-vector current. The physics of these [[Goldstone boson | goldstone bosons]], which are themselves the pion fields, describe the low energry [[effective field theory]] known as [[chiral perturbation theory]]. In this low energy structure of QCD, heavy quarks do not play a role since their degrees of freedom are frozen at low energies. However, when the baryon fields are treated as heavy static [[fermions]] in the expansion of the physical vacuum state of QCD, one can write the effective theory in terms of baryon fields with a definite velocity, $B_v$. In the heavy baryon limit, the most general Lagrangian at leading-order is
+$$
+  L_v^0 = iTr\overline{B}_v(v*\mathscr{D})B_v + 2DTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + 2FTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + \frac{1}{4}f^2Tr\partial_{\mu}\Sigma\partial^\mu \Sigma^\dagger + aTrM(\Sigma + \Sigma^\dagger)
+$$   
+
+### Partially Quenched Chiral Perturbation Theory
+
+In [[Lattice QCD]], it is notoriously difficult to include the loops of [[light quarks]]. One remedy to this problem is to approximate the fermion determinant of a Dirac operator $D$, which is proportional to the summation of external sources interacting with one internal [[fermion loop]]. The partially quenched prescription includes the determinant but with [[sea quark]] masses $\ggg$ those of the valence quarks. The simulation of partially quenched QCD (PQQCD) on the lattice can yield information about QCD itself by utilizing [[chiral perturbation theory]]. The formulation of XPT in PQQCD is difficult compared to the unquenched case (standard formulation) due to the lack of a physical [[hilbert space]].  
+
+
+* S.R.Sharpe and N.Shoresh, _Partially quenched chiral perturbation theory without Phi0_, Phys. Rev. D 64, 114510 (2001), doi:10.1103/PhysRevD.64.114510, ([arXiv:hep-lat/0108003](https://arxiv.org/abs/hep-lat/0108003v1))
+
+* Claude W. Bernard and Maarten F. L. Golterman, _Partially quenched gauge theories and an application to staggered fermions_, Phys. Rev. D 49, 486 – Published 1 January 1994, ([doi:10.1103/486] (https://doi.org/10.1103/PhysRevD.49.486))
+
+
+### Random Matrix Theory and Chiral Symmetry
+
+It has been posited that the statistics of the low-lying eigenvalues of the QCD [[Dirac operator]] can be described by a [[random matrix theory]] with the global symmetries of the QCD [[partition function]]. 
+
+* J.J.M. Verbaarschot and T.Wettig, _Random matrix theory and chiral symmetry in QCD_, Ann. Rev. Nucl. Part. Sci. 50, 343-410 (2000), doi:10.1146/annurev.nucl.50.1.343, ([arXiv:hep-ph/0003017 [hep-ph]](https://arxiv.org/abs/hep-ph/0003017v2)).
+
+* J.C. Osborn, D.Toublan and J.J.M.Verbaarschot, _From chiral random matrix theory to chiral perturbation theory_, Nucl. Phys. B 540, 317-344 (1999), doi:10.1016/S0550-3213(98)00716-0 ([arXiv:hep-th/9806110](https://arxiv.org/abs/hep-th/9806110v2)).
+
 ## Related concepts
 
 [[!include effective field theories of nuclear physics -- contents]]
@@ -282,11 +307,6 @@ See also
 
 
 [[!include WZW term of QCD chiral perturbation theory -- references]]
-
-The QCD vacuum breaks chiral symmetry down to the diagonal subgroup of SU(3), $U(3)_v$, whereby 8 massless [[Goldstone boson | goldstone bosons]] appear, each of which are coupled via $F_0$ to the conserved axial-vector current. The physics of these [[Goldstone boson | goldstone bosons]], which are themselves the pion fields, describe the low energry [[effective field theory]] known as [[chiral perturbation theory]]. In this low energy structure of QCD, heavy quarks do not play a role since their degrees of freedom are frozen at low energies. However, when the baryon fields are treated as heavy static [[fermions]] in the expansion of the physical vacuum state of QCD, one can write the effective theory in terms of baryon fields with a definite velocity, $B_v$. In the heavy baryon limit, the most general Lagrangian at leading-order is
-$$
-  L_v^0 = iTr\overline{B}_v(v*\mathscr{D})B_v + 2DTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + 2FTr\overline{B}_v S_v^\mu \{A_\mu,B_v\} + \frac{1}{4}f^2Tr\partial_{\mu}\Sigma\partial^\mu \Sigma^\dagger + aTrM(\Sigma + \Sigma^\dagger)
-$$   
 
 
 [[!include baryon chiral perturbation theory -- references]]
