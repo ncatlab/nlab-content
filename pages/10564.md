@@ -25,6 +25,7 @@ As usual in [[equivariant cohomology]], there is a "naive" version and refinemen
 
 Despite that motivation, the precise nature of the resulting "genuine" equivariant elliptic cohomology may tend to seem a bit mysterious and also a bit baroque in its technical ingredients, some of which may appear a bit unexpected in the literature. A clear conceptual picture of what equivariant elliptic cohomology is about is obtained by regarding it as encoding aspects of low dimensional [[quantum field theory]] and [[worldsheet]] [[string theory]]; this is indicated further below in 
 
+
 * _[Interpretation in Quantum field theory/String theory](#InterpretationInQuantumFieldTheory)_.
 
 ### Motivation from algebraic topology
