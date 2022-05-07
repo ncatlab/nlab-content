@@ -17,19 +17,19 @@
 
 ## Idea
 
-The __Stein duality__ establishes an equivalence
-between a certain category of [[complex algebras]]
+What has come to be called __Stein duality__ establishes an [[equivalence of categories|equivalence]]
+between a certain [[category]] of [[complex algebras]]
 and a certain category of [[Stein spaces]]
 in a completely analogous manner
 to the equivalence between [[commutative rings]] and [[affine schemes]],
-and, more closely, [[C^∞-rings]] and [[smooth loci]].
+and, more closely, [[C^∞-rings]] and [[smooth loci]] (see also at *[[duality between algebra and geometry]]*).
 
 ## Preliminaries
 
 Recall that a [[Stein manifold]] is a [[complex manifold]]
 that admits a proper holomorphic [[immersion]] into some $C^n$.
 More generally, a [[Stein space]] is a [[complex analytic space]]
-(i.e., a [[locally ringed space]] that is locally isomorphic to the vanishing locus of some ideal of holomorphic functions on~$C^n$)
+(i.e., a [[locally ringed space]] that is locally isomorphic to the vanishing locus of some ideal of [[holomorphic functions]] on~$C^n$)
 whose reduction is a [[Stein manifold]].
 A Stein spaces is __globally finitely presented__
 if it admits a closed embedding in $C^n$ whose defining ideal is globally finitely generated.
