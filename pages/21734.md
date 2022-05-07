@@ -35,7 +35,7 @@ The equivariant Chern character has a variety of different but equivalent concre
 
 ## Related concepts
 
-* [[twisted Chern character]]
+* [[twisted Chern character]], [[twisted equivariant Chern character]]
 
 * [[equivariant Chern-Dold character]]
 
