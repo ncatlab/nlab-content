@@ -6,6 +6,7 @@
 * [wikipedia entry](http://en.wikipedia.org/wiki/Graeme_Segal)
 
 
+
 ## Selected writings
 
 On [[classifying spaces]] and [[spectral sequences]] (and introducing, following [Grothendicek 61](Segal+condition#Grothendieck61), the "[[Segal conditions]]", see also at _[[complete Segal space|complete]] [[Segal space]]_):
@@ -51,9 +52,12 @@ Proving the [[equivariant Whitehead theorem]]:
 * {#JamesSegal78}  [[Ioan James]], [[Graeme Segal]], Theorem 1.1 in: _On equivariant homotopy type_, Topology Volume 17, Issue 3, 1978, Pages 267-272 (<a href="https://doi.org/10.1016/0040-9383(78)90030-7">doi:10.1016/0040-9383(78)90030-7</a>)
 
 
-On the [[homotopy type]] of the [[space of maps|space of]] [[rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
+On the [[homotopy type of spaces of rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
 
 * [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+
+* [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
+Volume: 258;  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
 
 
 On [[equivariant bundles]] with [[abelian group|abelian]] [[structure group]]:
@@ -86,10 +90,15 @@ On [[higher U(1)-gauge theory]]:
 
 * [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], _The uncertainty of fluxes_ 	Commun.Math.Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
 
-* [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_ 	Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+* [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_ 	Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
 
 [[!redirects G. Segal]]
+
+[[!redirects Graeme B. Segal]]
+
 [[!redirects Segal]]
+
+
 
 category: people
