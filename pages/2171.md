@@ -556,6 +556,7 @@ See also:
 
 * Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
 
+* Dale Rolfsen, *New developments in the theory of Artin’s braid groups* ([pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf))
 
 On the [[group homology]] and [[group cohomology]] of braid groups:
 
