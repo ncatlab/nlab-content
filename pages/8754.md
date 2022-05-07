@@ -84,7 +84,7 @@ We have:
 
 Whence $(Ind\text{-}\mathcal{C})_{fp}\simeq (\mathbb{T}\text{-}Mod (Set))_{fp} =\mathbb{T}\text{-}Mod_{fp}(Set)\simeq \mathcal{C}$ and, accordingly, $[\mathcal{C},Set]]\simeq  [\mathbb{T}\text{-}Mod_{fp}(Set),Set]$. $\qed$
 
-In other words, this proposition says that theories of presheaf type are precisely those [[geometric theory|geometric theories]] $\mathbb{T}$ such that their classifying toposes $Set[\mathbb{T}]$ can be represented as presheaf toposes $Set^{\mathbb{T}\text{-}Mod_{fp}(Set)}$.
+In other words, theories of presheaf type are precisely those [[geometric theory|geometric theories]] $\mathbb{T}$ such that their classifying toposes $Set[\mathbb{T}]$ can be represented as presheaf toposes $Set^{\mathbb{T}\text{-}Mod_{fp}(Set)}$.
 
 This implies e.g. that any consistent theory of presheaf type has models in $Set$.
 
