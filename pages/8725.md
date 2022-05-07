@@ -62,6 +62,12 @@ See the examples at _[[braided 2-group]]_, _[[braided 3-group]]_.
 
   * [[symmetric 2-group]]
 
+## References
+
+In the generality of [[braided ∞-group|braided ∞-group stacks]] the notion appears in:
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Def. 4.28 of: _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015), pages 749-801 ([doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6), [arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+
 
 
 [[!redirects braided ∞-group]]
