@@ -42,6 +42,7 @@ For a non-commutative monoid one distinguishes left and right cancellability, in
 * [[Grothendieck group]]
 * ([[left cancellative category|left]], [[right cancellative category]]) [[cancellative category]]
 * [[integral monoid]]
+* [[GCD ring]]
 
 [[!include oidification - table]]
 
