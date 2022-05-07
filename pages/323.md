@@ -288,9 +288,18 @@ If $f\colon X \to Y$ is a [[morphism]] in a [[category]] $C$ with pullbacks, the
 
 ## References
 
-* [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
+Textbook account:
+
+* [[Francis Borceux]], Section 2.5 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+See also:
 
 * [[Joyal|André Joyal]], _[[joyalscatlab:Cartesian squares]]_
+
+In view of more general [[finite limits]] and [[L-finite limits]]:
+
+* [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
+
 
 
 [[!redirects pullbacks]]
