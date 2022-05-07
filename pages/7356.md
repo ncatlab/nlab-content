@@ -185,7 +185,7 @@ Notice that the _net charge_ of these 24 D7-branes is supposed to vanish, due to
 
 For analogous discussion of 24 NS5-branes in [[heterotic string theory]] on [[K3]] see [Schwarz 97, around p. 50](duality+in+string+theory#Schwarz97).
 
-For more see at _[[24 branes]]_.
+For more see at _[[24 branes transverse to K3]]_.
 
 
 
@@ -334,7 +334,8 @@ Realization to the [[6d (2,0)-supersymmetric QFT]] is discussed in
 
 A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory, in particular [[GUTs]]:
 
-* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194), [spire:780946](https://inspirehep.net/literature/780946))
+* {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in: _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194), [spire:780946](https://inspirehep.net/literature/780946))
+
 
 * [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_, JHEP 0901:058,2009 ([arXiv:0802.3391](http://arxiv.org/abs/0802.3391))
 
