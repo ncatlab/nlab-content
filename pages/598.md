@@ -652,6 +652,8 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 ## Related concepts
 
+* [[simplicial group action]]
+
 * [[simplicial topological group]]
 
 * [[group object in an (∞,1)-category]]
