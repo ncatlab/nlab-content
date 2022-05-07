@@ -186,6 +186,8 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 ## Related concepts
 
+* [[formal (infinity,1)-category theory|formal $\infty$-category theory]]
+
 * [[Ho(Cat)]]
 
 * [[double category of model categories]]
