@@ -20,6 +20,7 @@
 ## Idea
 
 ### In ordinary cohomology
+  {#InOrdinaryCohomology}
 
 The _Serre spectral sequence_ or _Leray-Serre spectral sequence_
 is a [[spectral sequence]] for computation of [[ordinary cohomology]] ([[ordinary homology]]) of [[topological spaces]] in a [[Serre fibration|Serre]]-[[fiber sequence]] of [[topological spaces]].
@@ -36,12 +37,76 @@ $$
   }
 $$
 
-over a simply connected space $X$, then the corresponding cohomology Serre spectral sequence looks like
+over a [[simply connected topological space]] $X$, then the corresponding *cohomology Serre spectral sequence* is of the form (e.g. [Hatcher, Thm. 1.14](#Hatcher)):
 
 $$
-  E_2^{p,q}= H^p(X, H^q(F)) \Rightarrow H^{p+q}(E)
+  E_2^{p,q}
+  \;=\; 
+  H^p
+  \big(
+    X, 
+    \,
+    H^q(F)
+  \big) 
+  \;\Rightarrow\; 
+  H^{p+q}(E)
   \,.
 $$
+
+{#ConvergenceOfTheOrdinaryCohomologySSS} Hence for $n \in \mathbb{N}$ we have a [[filtration]] of [[abelian groups]]
+
+$$
+  0
+  \xhookrightarrow{
+    \;\;
+    E^{n,0}_\infty
+    \;\;
+  }
+  F^n_n
+  \xhookrightarrow{
+    E^{n-1,1}_\infty
+  }
+  F^n_{n-1}
+  \xhookrightarrow{\;\;\;\;\;}
+  \cdots
+  \xhookrightarrow{\;\;\;\;\;}
+  F^n_{1}
+  \xhookrightarrow{
+    \;\;
+    E^{0,n}_\infty
+    \;\;
+  }
+  F^n_0
+  \;=\;
+  H^n(E)
+  \,,
+$$
+
+where
+
+$$
+  F^n_{p+1}
+  \xhookrightarrow{
+    E^{p,n-p}_\infty
+  }
+  F^n_{p}
+  {\phantom{AAAA}}
+  \text{means that}
+  {\phantom{AAAA}}
+  0 
+  \to
+  F^n_{p+1}
+  \xhookrightarrow{\;}
+  F^n_{p}
+  \twoheadrightarrow
+  E^{p,n-p}_\infty
+  \to
+  0
+  \,,
+$$
+
+hence that -- iteratively as $p$ *decreases* -- $F^n_p$ is an [[algebra extension|extension]] of $E^{p,n-p}_\infty$ by $F^n_{p+1}$.
+
 
 ### In generalized cohomology
 
@@ -145,9 +210,9 @@ The original article is
 
 * [[Jean-Pierre Serre]], _Homologie singuli&#233;re des espaces fibr&#233;s_ Applications, Ann. of Math. 54 (1951), 
 
-Textbook accounts include
+Textbook accounts:
 
-* [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _I: The Serre spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch1.pdf))
+* {#Hatcher} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](https://pi.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _I: The Serre spectral sequence_ ([pdf](https://pi.math.cornell.edu/~hatcher/SSAT/SSch1.pdf), [[Hatcher_SerreSpectralSequence.pdf:file]])
 
 * {#Kochman96} [[Stanley Kochman]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
