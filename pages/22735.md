@@ -19,7 +19,7 @@
 
 ## Related concepts
 
-* [[Landaus' Fermi liquid theory]]
+* [[Landau's Fermi liquid theory]]
 
 * [[strange metal]]
 
