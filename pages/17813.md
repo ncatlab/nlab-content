@@ -6323,7 +6323,7 @@ Underlying most of the [[dualities in string theory]] is the phenomenon of  "[[d
 
 1. in parallel the [[dimension]] of [[branes]] is reduced if they _[[wrapped brane|wrap]]_ $F$.
 
-We now explain its mathetical formulation following ([FSS 16, section 3](#FSS16), [BMSS 18, section 2.2](#BMSS18)):
+We now explain a mathematical formulation of [[double dimensional reduction]] of brane charges, following ([FSS 16b, section 3](#FSS16b), [BMSS 18, section 2.2](#BMSS18)):
 
 First we give an exposition of the
 
@@ -8906,7 +8906,7 @@ The homotopy-[[descent]] of the [[M5-brane]] cocycle and of the type IIA [[D-bra
 
 The derivation of supersymmetric [[topological T-duality]], rationally, and of the higher super Cartan geometry for [[super T-folds]] is due to
 
-* {#FSS16b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+* {#FSS16b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, ATMP **22** 5 (2018) ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](http://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3))
 
 and the mathematical formulation of [[double dimensional reduction]] that this uses is further discussed in
 
@@ -8915,7 +8915,7 @@ and the mathematical formulation of [[double dimensional reduction]] that this u
 
 The derivation of the process of higher invariant extensions that leads from the [[superpoint]] to [[11-dimensional supergravity]]:
 
-* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_ ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774))
+* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_, Letters in Mathematical Physics **108** (2018) 2695–2727   ([arXiv:1702.01774](https://arxiv.org/abs/1702.01774), [doi:10.1007/s11005-018-1110-z](https://doi.org/10.1007/s11005-018-1110-z))
 
 General discussion of [[twisted cohomology]] is in:
 
