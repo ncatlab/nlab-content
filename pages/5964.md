@@ -17,6 +17,12 @@ On [[exponential objects]] among [[internal groupoids]] in [[Top]] ([[topologica
 
 * [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
 
+On the [[equivariant fundamental groupoid]] of an [[orbifold]]:
+
+* {#PronkScull21} [[Dorette Pronk]], [[Laura Scull]], *The Equivariant Fundamental Groupoid as an Orbifold Invariant*, Homology, Homotopy and Applications **23** 1 (2021) ([arXiv:1908.01201](https://arxiv.org/abs/1908.01201), [doi:10.4310/HHA.2021.v23.n1.a3](https://dx.doi.org/10.4310/HHA.2021.v23.n1.a3))
+
+
+
 
 category: people
 
