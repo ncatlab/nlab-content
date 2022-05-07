@@ -150,7 +150,7 @@ In terms of these components, the Hodge dual $\star \alpha$ of $\alpha$ is expre
      {\color{cyan} i_p }
     }
     \epsilon_{
-      {\color{cyan} i_1 \dots i_p i }
+      {\color{cyan} i_1 \dots i_p }
       {\color{orange} i_{p+1} \cdots i_D }
     } 
     e^{
