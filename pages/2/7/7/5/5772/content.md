@@ -29,7 +29,7 @@ The min-plus algebra may be used to draw an analogy between the use of [[action 
 
 ## Resources
 
-There are several research groups, world wide, with research in this area and with good websites, including simulation, and calculational, tools. One way into the network of these sites is [here](http://whttp://www.maxplus.org/).
+There are several research groups, world wide, with research in this area and with good websites, including simulation, and calculational, tools. One way into the network of these sites is [here](http://www.maxplus.org/).
 
 
 [[!redirects max-plus algebra]]
