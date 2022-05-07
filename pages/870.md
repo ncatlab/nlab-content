@@ -89,6 +89,8 @@ since every other aspect of the first two lines is already constructively valid,
 
 * [[De Morgan algebra]]
 
+* [[De Morgan topos]]
+
 * [[excluded middle]]
 
 
