@@ -14,6 +14,8 @@
 
   [[MP-theory|MP]], [[MR-theory|MR]]
 
+* [[MSpin^c|MSpin<sup><i>c</i></sup>]]
+
 * [[MSp]]
 
 
