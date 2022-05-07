@@ -108,7 +108,13 @@ Much else to be discussed...
 
 * [[principal bundle]], [[associated bundle]]
 
-* **vector bundle**, [[holomorphic vector bundle]], [[pseudoholomorphic vector bundle]]
+* **vector bundle**, 
+
+  * [[real vector bundle]]
+
+  * [[complex vector bundle]] 
+
+    * [[holomorphic vector bundle]], [[pseudoholomorphic vector bundle]]
 
   * [[universal vector bundle]]
 
@@ -117,6 +123,8 @@ Much else to be discussed...
   * [[module bundle]]
 
   * [[direct sum of vector bundles]]
+
+  * [[short exact sequence of vector bundles]]
  
   * [[connection on a vector bundle]]
 
