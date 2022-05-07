@@ -8,9 +8,11 @@
 
 ## Selected writings
 
-Introducing [[G-CW complexes]] and [[Bredon-Illman cohomology]]:
+Introducing [[G-CW complexes]], [[Bredon-Illman cohomology]] and foundations of [[equivariant differential topology]]:
 
-* {#Illman72} [[Sören Illman]], *Equivariant singular homology and cohomology for actions of compact lie groups* ([doi:10.1007/BFb0070055](https://doi.org/10.1007/BFb0070055)) In: H. T. Ku, L. N. Mann, J. L. Sicks, J. C. Su (eds.), *Proceedings of the Second Conference on Compact Transformation Groups* Lecture Notes in Mathematics, vol 298. Springer 1972 ([doi:10.1007/BFb0070029](https://link.springer.com/book/10.1007/BFb0070029))
+* {#Illman72a} [[Sören Illman]], *Equivariant algebraic topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
+
+* {#Illman72b} [[Sören Illman]], *Equivariant singular homology and cohomology for actions of compact lie groups* ([doi:10.1007/BFb0070055](https://doi.org/10.1007/BFb0070055)) In: H. T. Ku, L. N. Mann, J. L. Sicks, J. C. Su (eds.), *Proceedings of the Second Conference on Compact Transformation Groups* Lecture Notes in Mathematics, vol 298. Springer 1972 ([doi:10.1007/BFb0070029](https://link.springer.com/book/10.1007/BFb0070029))
 
 * {#Illman73} [[Sören Illman]], *Equivariant algebraic topology*, Annales de l'Institut Fourier, Tome 23 (1973) no. 2, pp. 87-91 ([doi:10.5802/aif.458](https://doi.org/10.5802/aif.458))
 
