@@ -223,6 +223,8 @@ Application of classically controlled quantum computation:
 
 * Sukin Sim, Peter D. Johnson, Alan Aspuru-Guzik, *Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms*, Adv. Quantum Technol. 2 (2019) 1900070 ([arXiv:1905.10876](https://arxiv.org/abs/1905.10876))
 
+* Mateusz Ostaszewski, Edward Grant, Marcello Benedetti, *Structure optimization for parameterized quantum circuits*, Quantum 5, 391 (2021) ([arXiv:1905.09692](https://arxiv.org/abs/1905.09692))
+
 
 * {#ShaydulinEtAl19} Ruslan Shaydulin et al., *A Hybrid Approach for Solving Optimization Problems on Small Quantum Computers* ([doi:10.1109/MC.2019.2908942](https://doi.ieeecomputersociety.org/10.1109/MC.2019.2908942))
 
@@ -246,6 +248,8 @@ in particular in [[quantum machine learning]]:
 
 ### Noisy intermediate-scale quantum computing
  {#ReferencesNISQ}
+
+* Nikolaj Moll et al., *Quantum optimization using variational algorithms on near-term quantum devices*, Quantum Science and Technology, Volume 3, Number 3 2018 ([arXiv:1710.01022](https://arxiv.org/abs/1710.01022))
 
 * {#Preskill18} [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
 
