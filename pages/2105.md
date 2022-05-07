@@ -5,7 +5,7 @@
 
 ## Idea
 
-A variety of algebras is a classical notion from [[universal algebra]] that includes nearly all of the usual kinds of algebraic objects, such as [[groups]], [[rings]], [[vector spaces]] (over a fixed [[field]]), and so on.  Those algebraic objects that don\'t form a variety of algebras, such as [[fields]], can still usually be easily described as a subcategory of some variety of algebras (in this case, [[commutative rings]]).
+The notion of *variety of algebras* is a classical notion from [[universal algebra]] that subsumes nearly all of the usual kinds of [[algebra|algebraic]] objects, such as [[groups]], [[rings]], [[vector spaces]] (over a fixed [[field]]), and so on.  Those algebraic objects that do not form a variety of algebras, such as [[fields]], can still usually be easily described as a subcategory of some variety of algebras (in this case, [[commutative rings]]).
 
 A variety of algebras is not to be confused with an [[algebraic variety]], although in fact there is a connection: both concepts are (roughly speaking) given by a set of equations, but an algebraic variety is the set of elements (of a fixed generic structure) that satisfy the equations, while a variety of algebras is the class of structures in which *every* element satisfies the equations.
 
@@ -149,7 +149,7 @@ even though each of these is a supertheory of the next.
 
 ## Literature
 
-* J. Ad&#225;mek, [[Lawvere|F.W. Lawvere]], J. Rosick&#253;, _On the duality between varieties and algebraic theories_, Algebra universalis 2003, __49__:1, pp 35&#8211;49 [doi](https://doi.org/10.1007/s000120300002)
+* [[Jiří Adámek]], [[Lawvere|F.W. Lawvere]], J. Rosick&#253;, _On the duality between varieties and algebraic theories_, Algebra universalis 2003, __49__:1, pp 35&#8211;49 [doi](https://doi.org/10.1007/s000120300002)
 
 [[!redirects variety of algebras]]
 [[!redirects varieties of algebras]]
