@@ -1188,7 +1188,7 @@ over ordinary commutative $k$-algebras. See also [[rational homotopy theory in a
 
 The generalization to arbitrary abelian $T$-algebras and the application to synthetic differential geometry is the content of 
 
-* {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_ , master thesis (2010) ([[schreiber:master thesis Stel|web]])
+* {#Stel} [[Herman Stel]], _$\infty$-Stacks and their function algebras -- with applications to $\infty$-Lie theory_, MSc thesis, Utrecht 2010 ([dspace:1874/203187](https://dspace.library.uu.nl/handle/1874/203187), [[schreiber:master thesis Stel|web]])
 
 * {#Stel13} [[Herman Stel]], _Cosimplicial $C^\infty$-rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
 
