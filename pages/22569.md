@@ -16,7 +16,15 @@
 
 ## Idea
 
-A class of measures of [[entropy]].
+A class of measures of [[entropy]] that are essentially logarithms of diversity indices. Let $p$ be a [[probability distribution]] over $n$ elements, and let $\alpha$ be a nonnegative [[real number]] not equal to 1. The Rényi entropy of order $\alpha$ of $p$ is
+
+$$ H_\alpha(p) := \frac{1}{1-\alpha}\log\left(\sum_{i=1}^n p_i^\alpha\right) \, . $$
+
+The $\alpha \to 1$ limit recovers the [[Shannon entropy]], and the $\alpha \to \infty$ limit yields the [[min-entropy]]. The Rényi entropy of order 2,
+
+$$ H_2(p) = -\log \left(\sum_{i=1}^n p_i^2\right) \, , $$
+
+is the negative logarithm of the "collision probability", i.e., the probability that two independent random variables both described by $p$ will take the same value.
 
 ## Related concepts
 
