@@ -3,7 +3,7 @@ This entry colllects material related to the book
 
 * [[Glen Bredon]], 
 
-  _Introduction to compact transformation groups_, 
+  **Introduction to compact transformation groups** 
 
   Academic Press  1972
 
@@ -13,5 +13,15 @@ This entry colllects material related to the book
 
 
 on [[topological G-spaces]], their [[equivariant homotopy theory]] and their [[equivariant cohomology]] ([[Bredon cohomology]]).
+
+
+Related entries:
+
+* [[topological G-space]]
+
+* [[slice theorem]]
+
+
+
 
 category: reference
