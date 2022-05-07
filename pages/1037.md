@@ -32,11 +32,18 @@ which discusses the [[higher category theory]] of [[(∞,1)-categories]] in gene
 The book is available online from the arXiv and also from Lurie's web site:
 
 * [PDF of published version](https://www.math.ias.edu/~lurie/papers/highertopoi.pdf) from Lurie's web site
+
 * [arXiv:math.CT/0608040](http://arxiv.org/abs/math.CT/0608040) -- this has been updated since the publication of the print version, including addition of some new material!
+
 * [updated version from Lurie's web site](https://www.math.ias.edu/~lurie/papers/HTT.pdf) -- more recent even than the arXiv version, as of 2019
 
+An online textbook of a similar content is developing at:
+
+* [[Jacob Lurie]], _[[Kerodon]]_
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 #Related entries#
