@@ -6,6 +6,16 @@ is a morphism of [[von Neumann algebras]] $A\to B(H)$,
 where $B(H)$ is the [[von Neumann algebra]]
 of [[bounded operators]] on the [[Hilbert space]] $H$.
 
+## Warning
+
+If the map $A\to B(H)$ is injective,
+the resulting notion coincides with that of a “concrete von Neumann algebra”,
+as opposed to an (abstract) [[von Neumann algebra]].
+An isomorphism of representations is sometimes referred to as
+a “spatial isomorphism of concrete von Neumann algebras”.
+
+Such terminology is confusing, but is present in some sources, especially older ones.
+
 ## Properties
 
 The category of [[W*-representations]] of $A$
@@ -22,3 +32,5 @@ See the article [[Hilbert W*-module]] for more information.
 * [[duality between geometry and algebra]]
 
 [[!redirects W*-representations]]
+[[!redirects representation of a von Neumann algebra]]
+[[!redirects representations of von Neumann algebras]]
