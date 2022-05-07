@@ -881,7 +881,7 @@ $$
   \array{
     \Gamma_X(T X)
       &\longrightarrow&
-    Def(C^\infty(X))
+    Der(C^\infty(X))
     \\
     v &\mapsto& \partial_v
   }
