@@ -33,6 +33,11 @@ A [[topological group]] is called **compact** if its underlying [[topological sp
 
 * [[compact Lie group]]
 
+## References
+
+On space of [[subgroups]] of compact topological groups:
+
+* S. Fisher, P. Gartside, *On the space of subgroups of a compact group I*, Topology and its Applications Volume 156, Issue 5, 15 February 2009, Pages 862-871 ([doi:10.1016/j.topol.2008.11.005](https://doi.org/10.1016/j.topol.2008.11.005))
 
 
 [[!redirects compact topological groups]]
