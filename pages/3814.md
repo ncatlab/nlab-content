@@ -274,9 +274,18 @@ and specificlly with an eye towards [[intersecting D-brane models]] in
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
-See also
+On [[subgroups]] of Clifford algebras reminiscent of [[gauge groups]] of relevance in the [[standard model of particle physics]] and [[grand unified theories]] thereof:
+
+* {#Wilson20} [[Robert A. Wilson]], *A group-theorist's perspective on symmetry groups in physics* ([arXiv:2009.14613](https://arxiv.org/abs/2009.14613))
+
+* {#Wilson21} [[Robert A. Wilson]], *On the Problem of Choosing Subgroups of Clifford Algebras for Applications in Fundamental Physics*, Adv. Appl. Clifford Algebras 31, 59 (2021) ([doi:10.1007/s00006-021-01160-5]( https://doi.org/10.1007/s00006-021-01160-5))
+
+See also:
+
+* [Albert algebra -- possible relation to color gauge structure](Albert+algebra#ReferencesRelationStandardModel)
 
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 12 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
 
 Review with outlook "beyond the standard model":
 
