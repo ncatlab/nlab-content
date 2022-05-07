@@ -15,6 +15,16 @@ NONCOMMUTATIVE CORRESPONDENCES AND GALOIS-TANNAKA RECONSTRUCTION
 
 > According to Grothendieck-Galois theory, there is a close relation between splittings of commutative rings by an appropriate base change and (groupoid) actions. The reconstruction of the action from a given splitting is called the Galois reconstruction. According to Grothendieck-Deligne-Saavedra Rivano-Tannaka theory, there is another close relation between representations of a given groupoid and the groupoid itself. The reconstruction of the groupoid from its representations is called the Tannaka reconstruction. We show that both reconstructions are particular cases of our theorem about splittings of flat covers in the bicategory of monoidal categories. 
 
+* _Hochschild cohomology, Entropy and information theory.
+
+Tomasz Maszczyk has also developed a cohomological theory of Entropy based on Hochschild cohomology. It is related to the information cohomology of Baudot-Bennequin. 
+
+The link to the abstract of this talk is below. 
+
+[Hochschild cohomology and Shannon entropy](https://www.mimuw.edu.pl/aktualnosci/seminaria/hochschild-cohomology-abstract-convexity-and-shannon-entropy)
+
+
+
 Here is the link to Tomasz Maszczyk's [homepage](http://www.mimuw.edu.pl/~maszczyk).
 
 
