@@ -23,11 +23,9 @@ This page collects material related to the book
 
   [doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)
 
-on [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  There is a 
+on [[locally presentable category|locally presentable]] and [[accessible category|accessible]] [[categories]].  There is an erratum made available by the authors:
 
-* [list of corrections](https://www.tu-braunschweig.de/Medien-DB/iti/cor.pdf)
-
-made available by the authors.
+[[LPAC-erratum.pdf:file]]
 
 
 ## Contents
