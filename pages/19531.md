@@ -22,7 +22,7 @@
 
 ## Idea 
 
-A _smooth isotopy_ is an [[isotopy]] that varies [[smooth function|smoothly]].
+A _smooth isotopy_ is an [[isotopy]] that varies [[smooth function|smoothly]], hence a isotopy that, as a [[left homotopy]], is a [[smooth homotopy]].
 
 In [[knot theory]], one typically does not want to identify [[knots]] $S^1 \to S^3$ by plain [[isotopy]], as that makes all [[tame knots]] be equivalent. A common fix is to use [[ambient isotopy]] instead. But one may also use smooth isotopy. (see e.g. [Greene 13](#Greene13) or MO discussion [here](https://math.stackexchange.com/a/1312016/58526)).
 
@@ -34,7 +34,7 @@ $$
   \gamma_0, \gamma_1 \;\colon\; \Sigma \hookrightarrow X
 $$
 
-be two [[embeddings of smooth manifolds]]. Then a _smooth isotopy_ between them is a _smooth [[homotopy]] between them via [[embeddings of smooth manifolds|embeddings]]_: a [[smooth function]]
+be two [[embeddings of smooth manifolds]]. Then a _smooth isotopy_ between them is a _[[smooth homotopy]] between them via [[embeddings of smooth manifolds|embeddings]]_: a [[smooth function]]
 
 $$
   \eta \;\colon\; [0,1] \times \Sigma  \longrightarrow X
@@ -60,6 +60,9 @@ is an [[embedding of smooth manifolds]].
 
 (e.g. [Greene 13, Def. 1.7](#Greene13))
 
+## Related concepts
+
+* [[smooth homotopy]]
 
 ## References
 
