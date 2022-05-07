@@ -73,14 +73,21 @@ One of the most important things about $\mathcal{F}$-categories is that they all
 ## Related pages
 
 * [[rigged limit]]
+
 * [[F-functor]]
+
 * [[lax F-natural transformation]]
+
 * [[lax F-adjunction]]
+
+The [[1-category]]-theoretic version:
+
+* [[relative categories]]$\;$[as enriched categories](relative+category#AsEnrichedCategories)
 
 ## References
 
-* [[Stephen Lack]] and [[Mike Shulman]], "Enhanced 2-categories and limits for lax morphisms", [arXiv](http://arxiv.org/abs/1104.2111).
- {#LS}
+* {#LS} [[Stephen Lack]] and [[Mike Shulman]], "Enhanced 2-categories and limits for lax morphisms", [arXiv](http://arxiv.org/abs/1104.2111).
+ 
 
 [[!redirects F-category]]
 [[!redirects F-categories]]
