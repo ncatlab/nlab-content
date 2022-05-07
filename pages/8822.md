@@ -36,7 +36,7 @@ An [[object]] $S \in \mathcal{C}$ of a [[category]] $\mathcal{C}$ is called a __
 
 =--
 
-Equivalently, we have that $S$ is a separator if, for every object $X$ in $\mathcal{C}$, every morphism $f:S\rightarrow X$ is an [[epimorphism]]. Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently that $S$ is a separator if the [[hom functor]] $Hom(S,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]].
+Equivalently, we have that $S$ is a separator if, for every object $X$ in $\mathcal{C}$, morphisms $f:S\rightarrow X$ are [[jointly epimorphic family|jointly epic]]. Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently that $S$ is a separator if the [[hom functor]] $Hom(S,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]].
 
 
 More generally:
