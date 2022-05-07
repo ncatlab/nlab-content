@@ -8,6 +8,10 @@ On the [[Conner-Floyd isomorphism]] for the [[Atiyah-Bott-Shapiro orientation]] 
 
 * {#HopkinsHovey92} [[Michael Hopkins]], [[Mark Hovey]], _Spin cobordism determines real K-theory_, Mathematische Zeitschrift volume 210, pages 181–196 (1992) ([doi:10.1007/BF02571790](https://doi.org/10.1007/BF02571790), [[HopkinsHoveyCobordismK.pdf:file]])
 
+On [[monoidal model categories]]:
+
+* {#Hovey98} [[Mark Hovey]], _Monoidal model categories_ ([arXiv:math/9803002](https://arxiv.org/abs/math/9803002))
+
 
 On [[model categories]]:
 
