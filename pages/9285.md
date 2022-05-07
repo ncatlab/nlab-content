@@ -165,8 +165,15 @@ Internal to just the [[stable homotopy category]] it is a _[[homotopy module spe
 
 ## References
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], Section V.6 of: _[[Sheaves in Geometry and Logic]]_, Springer 1992 ([doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0))
+The general definition of internal actions seems to have first been formulated in:
 
+* {#Grothendieck61} [[Alexander Grothendieck]], p. 106 (9 of 21) of: _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+
+following the general principle of [[internalization]] formulated in:
+
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 370 (3 of 23) in: *Technique de descente et théorèmes d'existence en géométrie algébriques. II: Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195 ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/SB_1958-1960__5__369_0), [pdf](http://www.numdam.org/item/SB_1958-1960__5__369_0.pdf))
+
+See also:
 
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], p. 8 of: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
@@ -179,4 +186,7 @@ Internal to just the [[stable homotopy category]] it is a _[[homotopy module spe
 
 [[!redirects action object]]
 [[!redirects action objects]]
+
+[[!redirects internal action]]
+[[!redirects internal actions]]
 
