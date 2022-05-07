@@ -18,7 +18,7 @@
 
 ## Idea
 
-_Lattice gauge theory_ (introduced in [Wilson 74](#Wilson74)) is [[gauge theory]] ([[Yang-Mills theory]], such as [[quantum chromodynamics]]) where [[continuum]] [[spacetime]] is replaced by a [[discrete group|discrete]] [[lattice (in a vector space, etc.)|lattice]], hence a [[lattice model]] for [[gauge field theory]].
+_Lattice gauge theory_ (introduced in [Wegner 71](#Wegner71), [Wilson 74](#Wilson74)) is [[gauge theory]] ([[Yang-Mills theory]], such as [[quantum chromodynamics]]) where [[continuum]] [[spacetime]] is replaced by a [[discrete group|discrete]] [[lattice (in a vector space, etc.)|lattice]], hence a [[lattice model]] for [[gauge field theory]].
 
 Usually this is considered after [[Wick rotation]] from [[Minkowski spacetime]] $\mathbb{R}^{3,1}$ to [[Euclidean field theory]] on a [[lattice (in a vector space, etc.)|lattice]] inside $\mathbb{R}^3 \times S^1$, and typically one further identifies the spatial directions periodically to arrive at [[Euclidean]] [[gauge field theory]] on a [[lattice (in a vector space, etc.)|lattice]] inside the [[4-torus]] $T^4$.
 
@@ -66,11 +66,15 @@ Despite the word "theory", lattice gauge theory is more like "computer-simulated
 ## References
  {#References}
 
+### General
+
 The concept was introduced in
+
+* {#Wegner71} [[Franz Wegner]], _Duality in Generalized Ising Models and Phase Transitions without Local Order Parameters_, Journal of Mathematical Physics 12, 2259 (1971) ([doi:10.1063/1.1665530](https://doi.org/10.1063/1.1665530))
 
 * {#Wilson74} [[Kenneth Wilson]],  _Confinement of quarks, Phys. Rev. D10, 2445, 1974 ([doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445))
 
-### General
+Introduction and review:
 
 * S. Gupta, _Introduction to lattice field theory_, March 2011, ([pdf](http://theory.tifr.res.in/~sgupta/talks/11aslft.pdf))
 
@@ -86,14 +90,18 @@ The concept was introduced in
 
 * Mattia Dalla Brida, _Past, present, and future of precision determinations of the QCD parameters from lattice QCD_ ([arXiv:2012.01232](https://arxiv.org/abs/2012.01232))
 
+Rigorous discussion in view of the [[mass gap problem]]:
 
-
+* {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2020 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
 
 
 
 Visualization:
 
 * James Biddle et al. _Publicising Lattice Field Theory through Visualisation_ ([arXiv:1903.08308](https://arxiv.org/abs/1903.08308))
+
+
+
 
 Relation to [[string theory]]/[[M-theory]] (such as via [[BFSS matrix model]]) in view [[AdS-CFT duality]]:
 
