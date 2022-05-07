@@ -1,7 +1,6 @@
 
 ### Pontrjagin-Thom construction
 
-
 #### Pontrjagin's construction
 
 ##### General
@@ -46,9 +45,9 @@ Discussion of the early history:
 ##### Twisted/equivariant generalizations
  {#TwistedEquivariantPontrjaginConstruction}
 
-The (straightforward) generalization of the [[Pontrjagin theorem]] to the [[twisted Pontrjagin theorem]], identifying [[twisted Cohomotopy]] with [[cobordism classes]] of [[normally twisted-framed submanifolds]], is made explicit in:
+The (fairly straightforward) generalization of the [[Pontrjagin theorem]] to the [[twisted Pontrjagin theorem]], identifying [[twisted Cohomotopy]] with [[cobordism classes]] of [[normally twisted-framed submanifolds]], is made explicit in:
 
-* {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 in: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
+* {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 using Sec. 5.1 in: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
 
 A general [[equivariant Pontrjagin theorem]] -- relating [[equivariant Cohomotopy]] to normal equivariant framed submanifolds -- remains elusive, but on [[free action|free]] [[G-manifolds]] it is again straightforward (and reduces to the [[twisted Pontrjagin theorem]] on the [[quotient space]]), made explicit in:
 
