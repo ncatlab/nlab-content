@@ -49,6 +49,8 @@ such that the operations $(-)^{-1}$ and $(-)\cdot (-)$ are [[continuous function
 
 =--
 
+Sometimes topological groups are understood to be [[Hausdorff space|Hausdorff]] (e.g. [Bredon 72, p. 1](#Bredon72)).
+
 
 ## Properties
 
@@ -58,7 +60,7 @@ such that the operations $(-)^{-1}$ and $(-)\cdot (-)$ are [[continuous function
 ###### Lemma
 **(open subgroups of topological groups are closed)**
 
-Every [[open subset|open]] [[subgroup]] $H \subset G$ of a topological group is [[closed subset|closed]].
+Every [[open subset|open]] [[subgroup]] $H \subset G$ of a topological group is [[closed subset|closed]], hence a [[closed subgroup]].
 
 =--
 
@@ -67,7 +69,7 @@ Every [[open subset|open]] [[subgroup]] $H \subset G$ of a topological group is 
 +-- {: .proof}
 ###### Proof
 
-The set of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]] [[open subsets]]. One of these cosets is $H$ itself and hence it is the complement of the union of the other cosets, hence the complement of an open subspace, hence closed.
+The [[set]] of $H$-[[cosets]] is a [[cover]] of $G$ by [[disjoint subsets|disjoint]] [[open subsets]]. One of these cosets is $H$ itself and hence it is the [[complement]] of the [[union]] of the other cosets, hence the complement of an open subspace, hence closed.
 
 =--
 
@@ -258,7 +260,7 @@ A proof is spelled out by [[Todd Trimble]] [here on MO](http://mathoverflow.net/
 * {#Bredon72} [[Glen Bredon]], Chapter 0 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
-* {#ArhangelskiiTkachenko08} Alexander Arhangel'skii, Mikhail Tkachenko, _Topological Groups and Related Structures_, Atlantis Press 2008
+* {#ArhangelskiiTkachenko08} Alexander Arhangel'skii, Mikhail Tkachenko, _Topological Groups and Related Structures_, Atlantis Press 2008 ([doi:10.2991/978-94-91216-35-0](https://doi.org/10.2991/978-94-91216-35-0))
 
 The following monograph is not particulary about group representations, but some content of this page is based on it:
 
