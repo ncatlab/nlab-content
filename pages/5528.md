@@ -38,6 +38,10 @@ Two [[Cartesian space]]s $\mathbb{R}^k$ and $\mathbb{R}^l$ (with the Euclidean t
 
 A proof of this statement was an early success of [[algebraic topology]].
 
+## Related concepts
+
+* [[Euclidean-topological infinity-groupoid]]
+
 
 [[!redirects Euclidean topology]]
 [[!redirects Euclidean topologies]]
