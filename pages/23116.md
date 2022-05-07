@@ -28,5 +28,6 @@ Given a (not necessarily [[commutative ring|commutative]]) [[unital ring]] $R$, 
 
 * [[coherent module]]
 
+* [[dualizable module]]
 
 [[!redirects finitely presented modules]]
