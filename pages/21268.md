@@ -52,3 +52,6 @@ but so far no working definition has been exhibited yet.
 For an overview of Platonism in the philosophy of mathematics see
 
 * Linnebo, Øystein, _[Platonism in the Philosophy of Mathematics](https://plato.stanford.edu/entries/platonism-mathematics/)_, The Stanford Encyclopedia of Philosophy (Spring 2018 Edition), Edward N. Zalta (ed.).
+
+[[!redirects Platonic form]]
+[[!redirects Platonic forms]]
