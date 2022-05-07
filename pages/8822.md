@@ -221,6 +221,15 @@ To see that the pullback-stability condition is necessary, consider the category
 [[!redirects generating set]]
 [[!redirects generating sets]]
 
+[[!redirects extremal separator]]
+[[!redirects extremal separators]]
+[[!redirects extremal generator]]
+[[!redirects extremal generators]]
+[[!redirects extremal separating set]]
+[[!redirects extremal separating sets]]
+[[!redirects extremal generating set]]
+[[!redirects extremal generating sets]]
+
 [[!redirects strong separator]]
 [[!redirects strong separators]]
 [[!redirects strong generator]]
