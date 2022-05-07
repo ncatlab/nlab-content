@@ -87,7 +87,7 @@ We speak of [[the]] such field because it is unique up to unique [[isomorphism]]
 +-- {: .un_theorem}
 ###### Theorem
 
-There is an archimedean field $\mathbb{R}$ which is both Dedekind-complete and terminal among archimedean fields.  Furthermore, every Dedekind-complete ordered field is isomorphic to $\mathbb{R}$.  (By [[abstract nonsense]], we already know that every terminal archimedean field is isomorphic to $\mathbb{R}$ and that $\mathbb{R}$ has only the identity [[automorphism]], so isomorphisms to it are unique.)
+There is an archimedean field $\mathbb{R}$ which is Dedekind-complete, and into which every archimedean field embeds.  Furthermore, every Dedekind-complete ordered field is isomorphic to $\mathbb{R}$, and uniquely so. 
 =--
 
 +-- {: .proof}
@@ -98,7 +98,7 @@ Construct $\mathbb{R}$ using, say, Dedekind cuts of rational numbers.  Then it i
 
 However, we note that the proof is valid in weak [[foundations]], in particular internal to any [[topos]] with a [[natural numbers object]].  One can actually work in even weaker foundations than that; see the constructions at [[real numbers object]].  Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]].
 
-### The terminal archimedean group
+### As an archimedean group
 
 There is a characterisation of the real line as the 'complete densely linearly ordered archimedean group'. This can be interpreted as follows:
 
@@ -107,7 +107,6 @@ There is a characterisation of the real line as the 'complete densely linearly o
 *  An __archimedean group__ is a linearly ordered abelian grouo satisfying the [[archimedean property]].
 *  A __dense linear ordered archimedean group__ is an archimedean group that is also a [[dense linear order]]. 
 * A densely linearly ordered archimedean group is __complete__ if it is [[Dedekind completion|Dedekind-complete]].
-* Alternatively, an archimedean group is __terminal__ if it is the terminal object in the category of archimedean groups. 
 
 Tarski's axioms for one-dimensional Euclidean geometry results in a complete densely linearly ordered archimedean group. 
 
