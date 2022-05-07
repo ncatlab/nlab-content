@@ -14,7 +14,7 @@
 =--
 
 
-> For the concept introduced by [[Shinichi Mochizuki]] in [[inter-universal Teichmüller theory]], see [[poly-morphism]].
+> For the concept in [[computer science]] see [[polymorphism]]. For the concept introduced by [[Shinichi Mochizuki]] in [[inter-universal Teichmüller theory]], see [[poly-morphism]].
 
 #Contents#
 * table of contents
