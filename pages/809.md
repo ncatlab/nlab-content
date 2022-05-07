@@ -168,6 +168,21 @@ There is a discussion of cubical vs simplicial singular homology and for other a
 A complete cubical approach to algebraic topology at the border between homotopy and homology is given in the book discussed in these pages at [[Nonabelian Algebraic Topology]] see ([here] (https://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology)). As an example, the theory shows how the [[Relative Hurewicz Theorem]] follows from a Higher Homotopy Seifert-van Kampen Theorem, withut using singular homology. 
 
 
+## Model structure
+
+The category of cubical sets with connections is a [[strict test category]]
+and therefore admits a [[cartesian model structure]]
+that is Quillen equivalent to the [[Kan–Quillen model structure]] on [[simplicial sets]].
+This was proved by [[Maltsiniotis]] \cite{Maltsiniotis}.
+
+See also the article [[model structure on cubical sets]].
+
+## Related concepts
+
+* [[cubical set]]
+
+* [[model structure on cubical sets]]
+
 
 ## References
 
@@ -199,9 +214,9 @@ and in the following in preference to simplicial methods to take resolutions in 
 
 * A Vezzani - "A motivic version of the theorem of Fontaine and Wintenberger"  arXiv:1405.4548, 
 
-The statement that cubes with connection form a [[strict test category]] is due to 
+The statement that cubes with max-connections form a [[strict test category]] is due to 
 
-* [[Georges Maltsiniotis]], _La cat&#233;gorie cubique avec connections est une cat&#233;gorie test stricte_, preprint, 2009, 1--16. ([web](http://www.intlpress.com/HHA/v11/n2/a15/))
+* [[Georges Maltsiniotis]], _La cat&#233;gorie cubique avec connections est une cat&#233;gorie test stricte_, HHA 11:2 (2009), 1--16. ([web](http://www.intlpress.com/HHA/v11/n2/a15/))
  {#Maltsiniotis}
 
 based on 
@@ -209,6 +224,14 @@ based on
 * [[Denis-Charles Cisinski]], _Les pr&#233;faisceaux comme mode&#232;le des types d'homotopie_, Ast&#233;risque, 308 (2006) 
 
 
+The case of cubes with both max-connections and min-connections is analogous and was treated explicitly in Corollary 3 and Theorem 3 of
+
+* Ulrik Buchholtz, Edward Morehouse, _Varieties of Cubical Sets_, [arXiv](https://arxiv.org/abs/1701.08189).
+
+
 [[!redirects connection on cubical sets]]
 [[!redirects connections on a cubical set]]
 [[!redirects connections on cubical sets]]
+[[!redirects cubical set with connections]]
+[[!redirects cubical sets with connections]]
+
