@@ -426,8 +426,6 @@ Nicely reviewed in (aimed at readers with minimal background in this problem):
 
 [[!redirects Ryu-Takayanagi formula]]
 
-[[!redirects holographic tensor network]]
-[[!redirects holographic tensor networks]]
 
 [[!redirects bit thread]]
 [[!redirects bit threads]]
