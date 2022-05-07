@@ -561,6 +561,10 @@ In the broader context of [[twisted cohomology theory]] and the [[Chern-Dold cha
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3.3 of: _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]_ ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
 
+A spectral sequence for twisted de Rham cohomology is discussed in
+
+* Weiping Li, Xiugui Liu, He Wang, _On a spectral sequence for twisted cohomologies_, [arXiv:0911.1417](https://arxiv.org/abs/0911.1417).
+
 
 
 [[!redirects twisted de Rham complex]]
