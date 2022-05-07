@@ -60,7 +60,7 @@ Under the identifications
 
 1. [[relation between type theory and category theory]]
 
-the following notions are equivalent:
+The following notions are equivalent:
 
 | In [[intuitionistic mathematics|intuitionistic]] [[logic]] <br/> and [[type theory]]: | In  [[programming languages]] <br/> and [[computation]]: | In [[category theory]] <br/> and [[topos theory]]: |
 |--|--|--|
