@@ -67,8 +67,8 @@ Seeing that $Syn$ is the initial $S$-category, we obtain unique morphisms of $S$
 
 ### Semantics of the source and target languages
 The category $Set$ of [[sets]] and functions gives another example of an $S$-category, for a lot of choices of $S$ (if we choose the sets $[[R]]$ and functions $[[op]]$ that we would like to denote with the types $R$ and operations $op$ in the structure part of $S$).
-Moreover, the strictly indexed category $Fam(CMon):Set\to Cat$ of [[families]] of [[commutative monoids]] tends to give an example of an $S'$-category.
-By initiality of $Syn$ and $LSyn:CSyn\to Cat$, we obtain
+Moreover, the strictly indexed category $Fam(CMon):Set^{op}\to Cat$ of [[families]] of [[commutative monoids]] tends to give an example of an $S'$-category.
+By initiality of $Syn$ and $LSyn:CSyn^{op}\to Cat$, we obtain
 
 * the semantics of the source language: the unique $S$-functor $[[-]]:Syn\to Set$;
 * the semantics of the target language: the unique $S'$-functor $[[-]]:(CSyn,LSyn)\to (Set,Fam(CMon))$ (with a slight abuse of notation).
