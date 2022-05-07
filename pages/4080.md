@@ -29,6 +29,8 @@ If $f$ is dominant then in this situation is the composition $g\circ f$ is alway
 
 ## References
 
+### General
+
 Textbook account:
 
 * {#ShafarevichVol1} [[Igor Shafarevich]], Section 1.4 of: *Basic Algebraic Geometry 1 -- Varieties in Projective Space*, Springer 1977, 1994, 2013 ([pdf](http://userpage.fu-berlin.de/aconstant/Alg2/Bib/Shafarevich.pdf), [doi:10.1007/978-3-642-57908-0](https://link.springer.com/book/10.1007/978-3-642-57908-0))
@@ -43,13 +45,25 @@ Lecture notes:
 * Daniel Plaumann, *Rational Functions and Maps* ([pdf](http://www.math.uni-konstanz.de/~plaumann/CAG15/cagslides05.pdf), [[Plaumann_RationalFunctionsAndmaps.pdf:file]]), Lecture 5 in *Classical algebraic geometry* 2015 
 
 
-See also 
+See also:
 
 * Wikipedia, *[Rational mapping](https://en.wikipedia.org/wiki/Rational_mapping)*
 
 Exposition for the case of maps from the [[Riemann sphere]] to a [[complex projective space]]:
 
 * {#Katz06} [[Sheldon Katz]], Sections 2,3 of: *Enumerative Geometry and String Theory*, Student Mathematical Library **32** (2006) ([ISBN:978-1-4704-2143-4](https://bookstore.ams.org/stml-32), [spire:739788](https://inspirehep.net/literature/739788))
+
+
+
+
+
+[[!include Yang-Mills monopoles as rational maps -- references]]
+
+
+
+
+
+
 
 [[!redirects rational maps]]
 
