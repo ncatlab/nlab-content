@@ -46,4 +46,24 @@ and
 \end{prop}
 The first two claims are fairly standard, the last one would make the topos of pro-étale schemes be [[locally connected topos|locally connected]] and hence *almost* [[cohesive topos|cohesive]] over $\kappa$-[[condensed sets]] (by Rem. \ref{TerminologyOfCondensedSets}).
 
+# Horizontal Composition
 
+\begin{tikzcd}[column sep=large]
+\textbf{A}
+  \arrow[bend left=50]{r}[name=F1,label=above:$\scriptstyle F_1$]{}
+  \arrow[bend right=50]{r}[name=G1,label=below:$\scriptstyle G_1$]{} &
+  \arrow[phantom,Rightarrow,to path={(F1) -- node[] {$\Downarrow \alpha$} (G1)}]{}
+\textbf{B}
+  \arrow[bend left=50]{r}[name=F2,label=above:$\scriptstyle F_2$]{}
+  \arrow[bend right=50]{r}[name=G2,label=below:$\scriptstyle G_2$]{} &
+  \arrow[phantom,Rightarrow,to path={(F2) -- node[] {$\Downarrow \beta$} (G2)}]{}
+\textbf{C}
+\end{tikzcd}
+$\mapsto$
+\begin{tikzcd}[column sep=huge]
+\textbf{A}
+  \arrow[bend left=50]{r}[name=F3,label=above:$\scriptstyle F_2 \circ F_1$]{}
+  \arrow[bend right=50]{r}[name=G3,label=below:$\scriptstyle G_2 \circ G_1$]{} &
+\textbf{C}
+  \arrow[phantom, Rightarrow ,to path={(F3) -- node[] {$\Downarrow \beta \circ \alpha$} (G3)}]{}
+\end{tikzcd}
