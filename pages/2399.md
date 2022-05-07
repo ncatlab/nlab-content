@@ -14,7 +14,7 @@
 
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Definition
@@ -46,19 +46,25 @@ For a useful exposition of this see ([Tolland](#Tolland)).
 
 * [[GW/DT correspondence]]
 
+* [[enumerative geometry]]
+
 ## References
 
 ### Expositions
 
-here are some seminar notes:
-
-* [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
 Some introductory notes:
 
 * Simon Rose, _Introduction to Gromov-Witten theory_ ([arXiv:1407.1260](http://arxiv.org/abs/1407.1260))
 
 * {#Bertram02} [[Albrecht Bertram]], *Stable Maps and Gromov-Witten Invariants*, School and Conference on Intersection Theory and Moduli Trieste, 9-27 September 2002 ([pdf](http://users.ictp.it/~pub_off/lectures/lns019/Bertram/Bertram.pdf))
+
+* {#Katz06} [[Sheldon Katz]], *Enumerative Geometry and String Theory*, Student Mathematical Library **32** (2006) ([ISBN:978-1-4704-2143-4](https://bookstore.ams.org/stml-32), [spire:739788](https://inspirehep.net/literature/739788))
+
+Here are some seminar notes:
+
+* [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
+
 
 And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
