@@ -45,12 +45,45 @@ The category of complete augmented algebras admits [[small limits]]
 and has a [[projective generator]], namely, $k\langle\langle x\rangle\rangle$.
 (Proposition A.1.10 in Quillen \cite{Quillen}.)
 
+## Constructions
+
+The [[forgetful functor]] from the category of complete augmented algebras
+to the [[category of groups]] that sends a complete augmented algebra $R$ to the [[group]] $1+\bar R$, where $\bar R$ denotes the [[augmentation ideal]] of $R$,
+admits a [[left adjoint functor]],
+which sends a group $G$ to the completion of its [[group algebra]].
+
+The [[forgetful functor]] from the category of complete augmented algebras
+to the [[category of Lie algebras]] that sends a complete augmented algebra $R$ to the [[Lie algebra]] $\bar R$ with [[Lie bracket]] $[x,y]=xy-yx$, where $\bar R$ denotes the [[augmentation ideal]] of $R$,
+admits a [[left adjoint functor]],
+which sends a [[Lie algebra]] $\mathfrak{g}$ to the completion of its [[universal enveloping algebra]].
+
+See (1.12) in Quillen \cite{Quillen}.
+
+## Monoidal structure
+
+The category of complete augmented algebras admits a [[symmetric monoidal structure]],
+given by the completion of the tensor product of the underlying filtered vector spaces.
+
+The [[associated graded]] functor is a [[strong monoidal functor]]
+from the category of complete augmented algebras to the category
+of graded algebras.
+
+The monoidal product has a universal property:
+morphisms $R\otimes R'\to S$ are in a natural bijection
+with pairs of morphisms $R\to S$ and $R'\to S$ whose images in $S$ commute.
+
 ## Related concepts
 
 * [[augmented algebra]]
+
+* [[complete Hopf algebra]]
+
+* [[Malcev group]]
 
 * [[Malcev completion]]
 
 ## References
 
 * [[Daniel Quillen]], _Rational homotopy theory_, Annals of Mathematics 90:2 (1969), 205.  [doi](http://dx.doi.org/10.2307/1970725).
+
+[[!redirects complete augmented algebras]]
