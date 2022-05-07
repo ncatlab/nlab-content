@@ -76,7 +76,7 @@ Here the total space $Y/X$ of this bundle is typically the "weak" [[quotient]] (
 
 An **action** of a [[group]] $G$ on an [[object]] $S$ in a [[category]] $\mathcal{C}$ is a [[representation]] of $G$ on $S$, that is a [[group homomorphism]] $\rho \colon G \to Aut(S)$, where $Aut(S)$ is the [[automorphism group]] of $S$ in $\mathcal{C}$.
 
-Group actions, especially [[continuous function|continuous]] actions on [[topological spaces]], are also known as _transformation groups_ (e.g. [Bredon 72](#Bredon72), [tom Dieck 79](#tomDieck79), [tom Dieck 87](#tomDieck87)).  Alternatively, if the group $G$ that acts is understood, one calls ([Bredon 72, Ch. II](#Bredon72)) the space $X$ equipped with an action by $G$ a _[[topological G-space]]_ (or *[[G-set]]*, *[[G-manifold]]*, etc., as the case may be).
+Group actions, especially [[continuous function|continuous]] actions on [[topological spaces]], are also known as _transformation groups_ (starting around [Klein 1872, Sec. 1](#Klein1872), see also [Koszul 65](#Koszul65) [Bredon 72](#Bredon72), [tom Dieck 79](#tomDieck79), [tom Dieck 87](#tomDieck87)).  Alternatively, if the group $G$ that acts is understood, one calls ([Bredon 72, Ch. II](#Bredon72)) the space $X$ equipped with an action by $G$ a _[[topological G-space]]_ (or *[[G-set]]*, *[[G-manifold]]*, etc., as the case may be).
 
 As indicated above, a more abstract but equivalent definition regards the group $G$ as a category (a [[groupoid]]), denoted $\mathbf{B} G$, with a single object $\ast$.  Then an _action_ of $G$ in the category $C$ is equivalently a [[functor]] of the form
 $$
@@ -229,7 +229,19 @@ $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$
 
 ## References
 
-On group actions:
+
+### Group actions
+
+On [[group actions]], mostly in [[TopologicalSpaces]], hence in the form of [[topological G-spaces]]:
+
+Historical origins:
+
+* {#Klein1872} [[Felix Klein]], _[[Vergleichende Betrachtungen über neuere geometrische Forschungen]]_ (1872) Mathematische Annalen volume 43, pages 63–100 1893  ([doi:10.1007/BF01446615](https://doi.org/10.1007/BF01446615))
+
+  English translation by M. W. Haskell:
+
+  _A comparative review of recent researches in geometry_, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([euclid:1183407629](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-2/issue-10/A-comparative-review-of-recent-researches-in-geometry/bams/1183407629.full) [[KleinRetyped.pdf:file]])
+
 
 Textbook accounts:
 
@@ -241,6 +253,8 @@ Textbook accounts:
 * {#tomDieck87} [[Tammo tom Dieck]], *[[Transformation Groups]]*, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 Lecture notes:
+
+* {#Koszul65} [[Jean-Louis Koszul]], _Lectures on Groups of Transformations_, Tata Institute 1965 ([pdf](http://www.math.tifr.res.in/~publ/ln/tifr32.pdf), [[KoszulGroupsOfTransformations.pdf:file]])
 
 * [[Patrick Morandi]], _Group actions_ ([[MorandiGroupActions.pdf:file]])
 
