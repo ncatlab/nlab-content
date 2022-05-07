@@ -30,7 +30,7 @@ The [[formal dual|formally dual]] concept is that of _[[coalgebra over a comonad
 
 ### Modules
 
-Let $K$ be a [[bicategory]] and $t \colon a \to a$ a [[monad]] in $K$ with structure 2-cells $\mu \colon t t \Rightarrow t$ and $\eta \colon 1_a \Rightarrow t$.  Then a **left $t$-module** is given by a 1-cell $x \colon b \to a$ and a 2-cell $\lambda \colon t x \Rightarrow x$, where
+Let $K$ be a [[bicategory]] and $t \colon a \to a$ a [[monad]] in $K$ with structure 2-cells $\mu \colon t t \Rightarrow t$ and $\eta \colon 1_a \Rightarrow t$.  Then a **left $t$-module** (or **$t$-algebra**) is given by a 1-cell $x \colon b \to a$ and a 2-cell $\lambda \colon t x \Rightarrow x$, where
 $$
 \array{
   t t x & \overset{\mu x}{\to} & t x \\
@@ -44,7 +44,7 @@ $$
   & & x
 }
 $$
-commute.  Similarly, a **right $t$-module** is given by a 1-cell $y \colon a \to c$ and a 2-cell $\rho \colon y t \Rightarrow y$, with commuting diagrams as above with $y$ on the left instead of $x$ on the right.
+commute.  Similarly, a **right $t$-module** (or **$t$-opalgebra**) is given by a 1-cell $y \colon a \to c$ and a 2-cell $\rho \colon y t \Rightarrow y$, with commuting diagrams as above with $y$ on the left instead of $x$ on the right.
 
 Clearly, a right $t$-module in $K$ is the same thing as a left $t$-module in $K^{\mathrm{op}}$.  A **left $t$-comodule** or **coalgebra** is then a left $t$-module in $K^{\mathrm{co}}$, and a **right $t$-comodule** is a left $t$-module in $K^{\mathrm{coop}}$.
 
