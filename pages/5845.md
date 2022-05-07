@@ -116,7 +116,7 @@ For an adjoint triple $F\dashv G\dashv H$ we have that $F$ is [[full and faithfu
 +-- {: .proof}
 ###### Proof
 
-By a basic [[adjoint functor#FullyFaithfulAndInvertibleAdjoints|property]] of [[adjoint functor]]s, we have that 
+By a basic [[adjoint functor#FullyFaithfulAndInvertibleAdjoints|property]] of [[adjoint functors]] ([this Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)), we have that 
 
 * the [[left adjoint]] $F$ being full and faithful is equivalent to the [[unit of an adjunction|unit]] $Id \to G F$ being a [[natural isomorphism]];
 
@@ -124,7 +124,7 @@ By a basic [[adjoint functor#FullyFaithfulAndInvertibleAdjoints|property]] of [[
 
 Moreover, by Note \ref{AdjointPairFromAdjointTriple} and the fact that adjoints are unique up to isomorphism, we have that $G F$ is isomorphic to the identity precisely if $G H$ is. 
 
-Finally, by a standard fact about [[adjoint functor]]s (see for instance ([Elephant, Lemma A1.1.1](#Elephant))), we have that $G H$ is isomorphic to the identity precisely if it is so by the [[unit of an adjunction|counit]].
+Finally, by a standard fact about [[adjoint functors]] (see for instance ([Elephant, Lemma A1.1.1](#Elephant))), we have that $G H$ is naturally isomorphic to the identity precisely if it is so by the [[unit of an adjunction|counit]].
 
 =--
 
