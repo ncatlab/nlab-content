@@ -115,7 +115,7 @@ More generally, given an arbitrary
 simplicial set $X_\bullet$ and a filter $\mathfrak{F}$ on the set of $n$-simplices $X_n$, 
 there is a coarsest/finest situs structure on $X_\bullet$
 such that its filter on the set of $n$-simplices is finer/coarser 
-than $\mathfrak{F}$. 
+than $\mathfrak{F}$. Taking $n=0$ and the filter $\mathfrak{F}$ always indiscrete gives two fully faithful embeddings of the category of simplicial sets into the category of situses. 
 
 
 We use this to define situses corresponding to uniform and topological spaces. 
