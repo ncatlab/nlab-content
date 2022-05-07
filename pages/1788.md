@@ -15,6 +15,8 @@ Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topologi
 
 \bibitem{AdámekRosícky2020}
 
+\bibitem{FongSpivakTuyeras2017}
+
 \linebreak
 
 \bibitem{Witten1995}
