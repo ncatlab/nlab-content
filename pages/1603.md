@@ -74,7 +74,7 @@ Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[in
 
 ## Left and right quasigroups
 
-The left (resp. right) quasigroups that are also left (right) [[invertible magmas]] can be explicitly defined through the left (right) quotient operation itself, with multiplication being defined from the left (right) quotient. 
+The left (resp. right) quasigroups that are also [[possibly empty loop|possibly empty left (right) loops]] can be explicitly defined through the left (right) quotient operation itself, with multiplication being defined from the left (right) quotient. 
 
 A __left quotient__ on a set $G$ is a binary operation $(-)\backslash(-):G\times G\to G$, such that:
 
@@ -90,7 +90,9 @@ A __right quotient__ on a set $G$ is a binary operation $(-)/(-):G\times G\to G$
   * For all $a$ and $b$ in $G$, $a/a=b/b$
   * For all $a$ in $G$, $(a/a)/((a/a)/a)=a$
 
-For any element $a$ in $G$, the element $a/a$ is called a __left identity element__, and the element $(a/a)/a$ is called the __left inverse element__ of $a$. For all elements $a$ and $b$, __right multiplication__ of $a$ and $b$ is defined as $a/((b/b)/b)$. The multiplication operation is __associative__ if for all $a$, $b$, and $c$ in $G$, $a/(b/c)=(a/((c/c)/c)/b$, __unital__ if there exists an element $1$ in $G$ such that for all $a$ in $G$, $a/a=1$, and __commutative__ if for all $a$ and $b$ in $G$, $a/((b/b)/b) = b/((a/a)/a)$. 
+For any element $a$ in $G$, the element $a/a$ is called a __left identity element__, and the element $(a/a)/a$ is called the __left inverse element__ of $a$. For all elements $a$ and $b$, __right multiplication__ of $a$ and $b$ is defined as $a/((b/b)/b)$. 
+
+The multiplication operation is __associative__ if for all $a$, $b$, and $c$ in $G$, $a/(b/c)=(a/((c/c)/c)/b$, __unital__ if there exists an element $1$ in $G$ such that for all $a$ in $G$, $a/a=1$, and __commutative__ if for all $a$ and $b$ in $G$, $a/((b/b)/b) = b/((a/a)/a)$. 
 
 A quasigroup that is left invertible and right invertible can be defined as a set with a left and right quotient $(G,\backslash,/)$ where left and right multiplications are equal (i.e. $a/((b/b)/b) = (a\backslash (a\backslash a))\backslash b$) for all $a$ and $b$ in $G$. If additionally, there exists a element $1$ in $G$ such that $a\backslash a = 1$ and $a/a = 1$, then the quasigroup is a [[loop (algebra)|loop]]. If the comdition is relaxed to the requirements that left and right identity elements are equal (i.e. $a/a = a \backslash a$) for all $a$ in $G$ and the element $1$ is not required to be in $G$, then the loop might [[possibly empty loop|possibly be empty]]. If the associativity requirement is added to the left and right quotients of the quasigroup, then it becomes an [[associative quasigroup]], where equality of left and right identity and inverse elements can be derived. 
 
