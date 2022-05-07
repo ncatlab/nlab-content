@@ -19,7 +19,7 @@ Kripke's schema is a principle first found implicitly in the [[intuitionistic ma
 
 ## Formulation
 __KS__:
-For every statement $\phi$ holds: There exists a binary sequence $a$, such that $\phi$ holds iff there is some $n$ such that $a(n)=1$.
+For every statement $\phi$ holds: There exists a binary sequence $a$, such that $\phi$ holds iff there is some $n$ such that $a_n=1$.
 
 In the formalization of evolving [[choice sequences]] by [[Saul Kripke]], this may be motivated by the idea that, roughly speaking, for any proposition there would be a sequence capturing its proof search, so that, thus, if and only if the proposition is provable, that search eventually terminates.
 
@@ -29,15 +29,14 @@ KS implies, for example, the following Weak Principle of Finite Possibility, whi
 __WPFP__:
 For every binary sequence $b$, there exists a binary sequence $a$, such that $b$ is the zero sequence iff $a$ is not the zero sequence.
 
-This is to say, to any sequence there is a certain sort of inverse sequence. Classically, of course, the value $1 - {\mathrm{max}}(b)$ exactly determines whether $b$ is the zero sequence and thus the constant sequence $a$ with that value does the job. But constructively one can't generally inspect all return values of a sequence $b$.
+This is to say, to any sequence there is a certain sort of value-inverted sequence. Classically, of course, the value $1 - {\mathrm{max}}({\mathrm{range}}(b))$ exactly determines whether $b$ is the zero sequence and thus the constant sequence $a$ with that value does the job. But constructively one generally cannot inspect all, infinitely many return values of a sequence $b$.
 
 ## Implications
+Binary sequences are nicely behaved objects and, in turn, KS can be shown to be equivalent to the claim that every inhabited subset of the naturals is countable. 
 
-Sequences are nicely behaved objects and, in turn, KS can be shown to be equivalent to the claim that every inhabited subset of the naturals is countable. 
+The principles also has implications for [[metric spaces]].
 
-It also has implications for [[metric spaces]].
-
-It can be shown that (WPFP + MP) iff LPO. Those principles are thus not provable in Russian constructivism (adopting MP but not LPO). Indeed, formulations of KS contradict the so called Constructive Church's Thesis.
+It can be shown that (WPFP + [[Markov's principle | MP]]) iff [[principle of omniscience | LPO]]. Those principles are thus not provable in Russian constructivism (adopting MP but not LPO). Indeed, formulations of KS contradict the so called Constructive Church's Thesis.
 
 ## Related concepts
 
