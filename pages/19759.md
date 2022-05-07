@@ -33,5 +33,5 @@ The [[character table]] for $GL(2,\mathbb{F}_3)$ over the [[complex numbers]] lo
 
 ## References
 
-* GroupNames, _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/GL(2,3).html">GL(2,3)</a>_
+* [[GroupNames]], _<a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/1/GL(2,3).html">GL(2,3)</a>_
 
