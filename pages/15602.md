@@ -39,3 +39,4 @@ Properads are less general than [[PROPs]], which also allow a "composition" of n
 [arXiv:math/0411542](http://arxiv.org/abs/math/0411542)
 
 [[!redirects properads]]
+[[!redirects Properads]]
