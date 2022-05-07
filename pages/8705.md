@@ -11,6 +11,8 @@ A method for constructing [[Yang-Mills instanton]] solutions. ([ADHM](#ADHM))
 
 * [[Nahm transform]]
 
+* [[Skyrmion]]
+
 ## References
 
 The original article is
