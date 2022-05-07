@@ -381,7 +381,8 @@ Other ways to see this:
 
 * {#Nowaczyk15} Nikolai Nowaczyk, Theorem A.6.6 in: _Dirac Eigenvalues of higher Multiplicity_ ([arXiv:1501.04045](https://arxiv.org/abs/1501.04045))
 
-* {#SpinorsInGeometryAndPhysics} _Spinors in Geometry and Physics_ ([GBooks, p. 243](https://books.google.ae/books?id=d14GCwAAQBAJ&lpg=PA243&ots=_tH_He8UFg&dq=%22spin%20structure%20on%20spheres%22&pg=PA243#v=onepage&q=%22spin%20structure%20on%20spheres%22&f=false))
+* {#SpinorsInGeometryAndPhysics} S. Gutt, _Killing spinors on spheres and projective spaces_, p. 238-248 in: A. Trautman, G. Furlan (eds.) _Spinors in Geometry and Physics -- Trieste 11-13 September 1986_, World Scientific 1988
+([doi:10.1142/9789814541510](https://doi.org/10.1142/9789814541510),  [GBooks, p. 243](https://books.google.ae/books?id=d14GCwAAQBAJ&lpg=PA243&ots=_tH_He8UFg&dq=%22spin%20structure%20on%20spheres%22&pg=PA243#v=onepage&q=%22spin%20structure%20on%20spheres%22&f=false))
 
 
 ## Higher spin structures
