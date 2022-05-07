@@ -315,10 +315,13 @@ Generalization to the case that the [[codomain]] is
 
 * [[J. C. Hurtubise]], *Holomorphic maps of a Riemann surface into a flag manifold*, J. Differential Geom. 43(1): 99-118 (1996) ([doi:10.4310/jdg/1214457899](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-43/issue-1/Holomorphic-maps-of-a-Riemann-surface-into-a-flag-manifold/10.4310/jdg/1214457899.full))
 
-Application to the [[quantization]] of [[Skyrmions]]:
+Application to the [[quantization]] of [[Skyrmions]] (via their rational map Ansatz, see the references [there](skyrmion#SkyrmionsFromRationalMapsReferences)):
 
 
 * [[Steffen Krusch]], *Homotopy of rational maps and the quantization of Skyrmions*, Annals of Physics Volume 304, Issue 2, April 2003, Pages 103-127 (<a href="https://doi.org/10.1016/S0003-4916(03)00014-9">doi:10.1016/S0003-4916(03)00014-9</a>)
+
+* [[Steffen Krusch]], *Skyrmions and Rational Maps*, talk at KIAS 2004  ([pdf](http://newton.kias.re.kr/KH04/talks/krusch.pdf), [[Krusch_SkyrmionsAndRationalMaps.pdf:file]])
+
 
 * [[Steffen Krusch]], *Quantization of Skyrmions* ([arXiv:hep-th/0610176](https://arxiv.org/abs/hep-th/0610176))
 
