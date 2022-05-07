@@ -1,4 +1,3 @@
-[[!redirects Mal&#39;cev variety]]
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -155,31 +154,26 @@ See the monograph [[Borceux-Bourn]].
 The original is 'Мальцев'; Malcev spelled his name as 'Malcev' in his non-Russian papers.
 This has also been transliterated 'Mal'cev', 'Mal'tsev' and 'Maltsev'.
 
-
-[[!redirects Mal'cev varieties]]
-[[!redirects Mal'cev operation]]
-[[!redirects Mal'cev theory]]
-[[!redirects Mal'cev theories]]
 [[!redirects Mal'cev variety]]
 [[!redirects Mal'cev varieties]]
 [[!redirects Mal'cev operation]]
+[[!redirects Mal'cev operations]]
 [[!redirects Mal'cev theory]]
-[[!redirects Malʹcev variety]]
-[[!redirects Malʹcev varieties]]
-[[!redirects Malʹcev operation]]
-[[!redirects Malʹcev theory]]
-[[!redirects Malcev variety]]
+[[!redirects Mal'cev theories]]
 [[!redirects Malcev varieties]]
 [[!redirects Malcev operation]]
+[[!redirects Malcev operations]]
 [[!redirects Malcev theory]]
 [[!redirects Malcev theories]]
 [[!redirects Maltsev variety]]
 [[!redirects Maltsev varieties]]
 [[!redirects Maltsev operation]]
+[[!redirects Maltsev operations]]
 [[!redirects Maltsev theory]]
 [[!redirects Maltsev theories]] 
 [[!redirects Мальцев variety]]
 [[!redirects Мальцев varieties]]
 [[!redirects Мальцев operation]]
+[[!redirects Мальцев operations]]
 [[!redirects Мальцев theory]]
 [[!redirects Мальцев theories]]
