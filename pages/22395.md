@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -54,6 +53,13 @@ Some examples from [[general topology]], [[measure theory]], [[differential geom
 |[[commutative algebra]] over $k$|homomorphism|$k$|ideal|[[coherent space]] / [[affine scheme]]|[[continuous map]] / [[morphism of schemes]]|[[Zariski duality]]|
 |finitely generated germ-determined [[C$^\infty$-ring]]|C$^\infty$-homomorphism|$\mathbf{R}$|germ-determined ideal|[[smooth locus]] (e.g., [[smooth manifold]])|[[smooth map]]|[[Milnor duality]]|
 |finitely presented complex [[EFC-algebra]]|EFC-homomorphism|$\mathbf{C}$|ideal|globally finitely presented [[Stein space]]|holomorphic map|[[Stein duality]]|
+
+
+and:
+
+[[!include Isbell duality - table]]
+
+
 
 The duality relevant to the [[spectral theory]] is the duality between [[commutative von Neumann algebras]]
 and [compact strictly localizable enhanced measurable spaces](https://mathoverflow.net/questions/20740/is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical/20820#20820).
