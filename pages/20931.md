@@ -12,16 +12,15 @@
 =--
 =--
 
-
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-One source of cartesian differential categories
+One source of cartesian [[differential category|differential categories]]
 is [[tangent bundle categories]]:
-in such a category, the full subcategory of objects
+in such a category, the [[full subcategory]] of [[objects]]
 with a trivial (in the appropriate sense)
 tangent bundle is a cartesian differential category.
 
@@ -60,3 +59,10 @@ $$D(f)(0_X,a)=0_X$$
   * (to be finished…)
 
 \end{definition}
+
+## Related concepts
+
+* [[differential category]]
+
+
+[[!redirects cartesian differential categories]]
