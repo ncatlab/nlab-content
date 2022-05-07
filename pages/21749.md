@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-([Connes-Baum 89, over (7.3)](#ConnesBaum89))
+([Baum-Connes 89, over (7.3)](#ConnesBaum89))
 
 ## Properties
 
@@ -72,7 +72,7 @@ In further turn, even-periodic [[Bredon cohomology]] with coefficients in the [[
 
 ## References
 
-* {#ConnesBaum89} [[Alain Connes]], [[Paul Baum]], _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
+* {#ConnesBaum89} [[Paul Baum]], [[Alain Connes]], around (1.6) in: _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
 
 * {#MislinValette03} [[Guido Mislin]], [[Alain Valette]], Theorem 6.1 in: _Proper Group Actions and the Baum-Connes Conjecture_, Advanced Courses in Mathematics CRM Barcelona, Springer 2003 ([doi:10.1007/978-3-0348-8089-3](https://link.springer.com/book/10.1007/978-3-0348-8089-3))
 
