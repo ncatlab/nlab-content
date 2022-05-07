@@ -629,6 +629,25 @@ $$
 
 (e.g. [Boardman, Prop. 20](#Boardman))
 
+But:
+
+\begin{prop}
+$$
+  Ext^{\geq 2}
+  \big(
+    \mathbb{Z} / n\mathbb{Z},
+    \, 
+    A
+  \big) 
+    \;\simeq\; 
+  0
+  \,.
+$$
+\end{prop}
+
+(e.g. [here](https://www.math.purdue.edu/~arapura/algebra/homological3.pdf#page=8))
+
+
 +-- {: .num_example #ExamplesOfExtGroupsOfFiniteCyclicGroups} 
 ###### Examples
 
