@@ -6,8 +6,6 @@ supervised by Shokichi Iyanaga.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Nobuo_Yoneda)
 
-* Bibliographic entry for Yoneda's PhD dissertation: <https://ci.nii.ac.jp/naid/500000325773>
-
 * Yoshiki Kinoshita, *Nobuo Yoneda (1930-1996)* 
 
   & 
@@ -20,6 +18,11 @@ supervised by Shokichi Iyanaga.
 
 
 <img src="http://ncatlab.org/nlab/files/YonedaObituary.jpg">
+
+## Selected writings
+ {#SelectedWritings}
+
+* [[Nobuo Yoneda]], *On ext and exact sequences*, PhD thesis, Journal of the Faculty of Science, Imperial University of Tokyo, 1960 ([pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773))
 
 
 
