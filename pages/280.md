@@ -69,13 +69,14 @@ Here the total space $Y/X$ of this bundle is typically the "weak" [[quotient]] (
 
 
 
+
 ## Definitions
 
 ### Actions of a group
 
 An **action** of a [[group]] $G$ on an [[object]] $S$ in a [[category]] $\mathcal{C}$ is a [[representation]] of $G$ on $S$, that is a [[group homomorphism]] $\rho \colon G \to Aut(S)$, where $Aut(S)$ is the [[automorphism group]] of $S$ in $\mathcal{C}$.
 
-Group actions, especially on spaces, are also known as _transformation groups_.
+Group actions, especially [[continuous function|continuous]] actions on [[topological spaces]], are also known as _transformation groups_ (e.g. [Bredon 72](#Bredon72), [tom Dieck 79](#tomDieck79), [tom Dieck 87](#tomDieck87)).  Alternatively, if the group $G$ that acts is understood, one calls ([Bredon 72, Ch. II](#Bredon72)) the space $X$ equipped with an action by $G$ a _[[topological G-space]]_ (or *[[G-set]]*, *[[G-manifold]]*, etc., as the case may be).
 
 As indicated above, a more abstract but equivalent definition regards the group $G$ as a category (a [[groupoid]]), denoted $\mathbf{B} G$, with a single object $\ast$.  Then an _action_ of $G$ in the category $C$ is equivalently a [[functor]] of the form
 $$
@@ -228,7 +229,20 @@ $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$
 
 ## References
 
-* [[Patrick Morandi]], _Group actions_ ([pdf listed here](https://wordpress.nmsu.edu/pamorand/mathematical-notes))
+On group actions:
+
+Textbook accounts:
+
+* {#Bredon72} [[Glen Bredon]], *[[Introduction to compact transformation groups]]*, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)
+, [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+* {#tomDieck79} [[Tammo tom Dieck]], *[[Transformation Groups and Representation Theory]]*, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+
+* {#tomDieck87} [[Tammo tom Dieck]], *[[Transformation Groups]]*, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+Lecture notes:
+
+* [[Patrick Morandi]], _Group actions_ ([[MorandiGroupActions.pdf:file]])
 
 [[!redirects action]]
 [[!redirects actions]]
