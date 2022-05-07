@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -9,7 +19,7 @@ A Moufang loop is a set with a [[binary operation]] that is similar to that of a
 
 ## Definition
 
-A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \to Q$ with two-sided unit $e$ such that left and right multiplication, $y\cdot -\colon Q \to Q$ and $-\cdot x\colon Q \to Q$ respectively, are [[isomorphisms]] (i.e. it is a unital [[quasigroup]] or _loop_) such that the _Moufang identities_ hold:
+A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \to Q$ (a [[magma]]) with two-sided unit $e$ such that left and right multiplication, $y\cdot -\colon Q \to Q$ and $-\cdot x\colon Q \to Q$ respectively, are [[isomorphisms]] (i.e. it is a unital [[quasigroup]] or _[[loop (algebra)|loop]]_) and such that the _Moufang identities_ hold:
 
 * $(u v)(w u) = (u(v w))u) = u((v w)u)$ 
 
