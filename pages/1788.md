@@ -1,4 +1,115 @@
 
+
+
+Let $\mathbb{K} \,\in\, \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
+be the [[real numbers]] or [[complex numbers]] or [[quaternions]].
+Write 
+
+\[
+  \label{GroupOfUnitNormElements}
+  S(\mathbb{K})
+  \;\coloneqq\;
+  \big\{
+    q \in \mathbb{K}
+    \;\big\vert\;
+    q q^\ast =1
+  \big\}
+  \;\;
+  \in
+  \;
+  Groups
+\]
+
+for its [[multiplicative group]] of unit-[[norm]] elements. Specifically this is the [[cyclic group of order 2]], the [[circle group]] or the [[quaternionic unitary group]]/[[SU(2)]]:
+
+$$
+  S(\mathbb{R})
+  \,\simeq\,
+  \mathbb{Z}/2
+  \,,
+  \phantom{AA}
+  S(\mathbb{C})
+  \,\simeq\,
+  \mathrm{U}(1)
+  \,,
+  \phantom{AA}
+  S(\mathbb{H})
+  \,\simeq\,
+  Sp(1) \,\simeq\, SU(2)
+$$
+
+By either left or right multiplication in $\mathbb{K}$ this group [[action|acts]] on $\mathbb{K}$, $\mathbb{R}$-[[linear map|linearly]], making $\mathbb{K}$ a [[linear representation]]
+
+\[
+  \label{KAsSKRepresentation}
+  \mathbb{K} 
+    \,\in\,
+  S(\mathbb{K})
+  Representations_{\mathbb{R}}
+  \,.
+\]
+
+Hence with
+
+$$
+  E
+  \big(
+    S(\mathbb{K}) 
+  \big)
+  \overset{\;\;\;}{\longrightarrow}
+  B 
+  \big(
+    S(\mathbb{K}) 
+  \big)
+$$
+
+denoting the $S(\mathbb{K})$-[[universal principal bundle]] over the [[classifying space]] for the group (eq:GroupOfUnitNormElements), the [[real vector bundle]] underlying the [[universal complex line bundle|universal K-line bundle]] is the corresponding [[associated bundle]] via the above action (eq:KAsSKRepresentation):
+
+$$
+  \array{
+     E 
+     \big(
+       S(\mathbb{K})
+     \big) 
+     \underset{
+       S(\mathbb{K})
+     }{\times}
+     \mathbb{K}
+     \\
+     \big\downarrow
+     \\
+     B 
+     \big( 
+       S(\mathbb{K})
+     \big)
+  } 
+$$
+
+
+\begin{prop}
+  Then the [[zero-section]] of the [[Thom space]] of the universal $\mathbb{K}$-line bundle
+  $$
+    \array{
+       Th
+       \Big( 
+         E (S(\mathbb{K})) 
+         \underset{
+           S(\mathbb{K})
+         }{\times}
+         \mathbb{K}
+       \Big)
+       \\
+       \big\downarrow
+       \\
+       B \big(
+         S(\mathbb{K})
+       \big)
+    } 
+  $$  
+  is a [[weak homotopy equivalence]].
+\end{prop}
+
+
 \begin{remark}
   \label{ComplexEOrientationsFromFirstEChernClass}
   **(complex $E$-orientations from first $E$-Chern class)**
