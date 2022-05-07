@@ -58,7 +58,9 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 
 ### General
 
-(...)
+
+* [[Yuji Tachikawa]], Section 6.4 of: *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics, vol. 890, 2014 ([arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), [web version](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html))
+
 
 
 
