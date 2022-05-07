@@ -177,7 +177,7 @@ we say that the $\infty$-action is *free*, if its [[shear map]] $shear_1$ is [[(
 \label{HigherShearMapsOfFreeInfinityActionsAreMinusOneTruncated}
 **(higher shear maps of free $\infty$-actions are $(-1)$-truncated)**
 \linebreak
-  If an $\infty$-action is free according to Def. \ref{FreeInfinityAction}, then also all its higher shear maps $shear_n$ are [[(-1)-truncated]]:
+  If an $\infty$-action $G \curvearrowright X$ is free according to Def. \ref{FreeInfinityAction} and $X$ is [[inhabited object|inhabited]], $X \twoheadrightarrow \ast$, then also all its higher shear maps $shear_n$ are [[(-1)-truncated]]:
 
 \begin{tikzcd}
       {}
@@ -349,6 +349,8 @@ Let
 * $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]];
 
 * $G \,\in\, Grp(\mathbf{H})$ a [[group object in an (infinity,1)-category|group object]] (a [[geometric homotopy theory|geometric]] [[infinity-group|$\infty$-group]]);
+
+* $X \,\in\, \mathbf{H}$ an [[inhabited object]], $X \twoheadrightarrow \ast$,
 
 * $G \curvearrowright X \,\in\, A Act(\mathbf{H})$ an [[infinity-action|$\infty$-action]] of $G$ on $X$.
 
@@ -667,7 +669,7 @@ meaning that the [[colimit]] over a [[simplicial object]] in a [[1-category]] is
 
 * [[fixed point]]
 
-* [[free group action on n-sphere]]
+* [[free group actions on n-spheres]]
 
 * [[homogeneous space]]
 
