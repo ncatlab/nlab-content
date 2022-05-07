@@ -20,7 +20,7 @@ What is called _observational type theory_ (OTT) is a flavor of [[type theory]] 
 It may be regarded as a first-stage approximation to 
 [[homotopy type theory]] (HoTT): the [[propositions]] of OTT correspond to the [[h-propositions]] of HoTT, and the [[types]] in OTT correspond to [[h-sets]] in HoTT.  The notion of [[equality]] on OTT is based on [[setoids]], which is a special case of [[internal category in an (infinity,1)-category|higher internal groupoids]].  Since equality is defined type-by-type, OTT enjoys [[function extensionality]], and a form of [[propositional extensionality]] at least for a specified universe of propositions (not necessarily including all [[h-propositions]]).
 
-There are a few technical differences (e.g. proofs of propositions are [[definitional equality|definitionally equal]] in OTT, whereas proofs of hprops are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like a higher-dimensional version of OTT.
+There are a few technical differences (e.g. proofs of propositions are [[definitional equality|definitionally equal]] in OTT, whereas proofs of hprops are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like a [[higher homotopy]] version of OTT.
 
 ## See also
 
