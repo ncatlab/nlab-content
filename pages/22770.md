@@ -54,9 +54,13 @@ $$a \wedge b \coloneqq (a \vert (a^\bullet \vert b)^\wedge)^\vee$$
 
 With bottom element $\bot$ and top element $\top$, $M$ forms a [[lattice]]. 
 
+### Ideals of a scale
+
 A subset $\mathcal{I}$ of a scale $M$ is an __[[ideal]]__ if $\bot \in \mathcal{I}$, and $x \vee y \in \mathcal{I}$ if and only if $x \in \mathcal{I}$ and $y \in \mathcal{I}$. An ideal is a __zoom-invariant ideal__ if it is closed under $\bot$-zooming. 
 
-A subset $\mathcal{F}$ of a scale $M$ is a __[[filter]]__ if $\top \in \mathcal{F}$, and $x \wedge y \in \mathcal{F}$ if and only if $x \in \mathcal{F}$ and $y \in \mathcal{F}$. A filter is a __zoom-invariant filter__ if it is closed under $\top$-zooming. 
+Given an element $a$ in scale $M$, a __principal zoom-invariant ideal__ $((a))$ is the subset of all $b$ in $M$ such that $(\bot\vert)^n b \leq a$ for all large $n$ in $\mathbb{N}$. 
+
+A __[[Jacobson radical]]__ of a scale $M$ is the set $J(M)$ of all $a$ in $M$ such that for all $n$ in $\mathbb{N}$, $x \leq (\bot\vert)^n \top$. $M$ is __semi-simple__ if $J(M)$ is [[trivial]]. 
 
 ### As star-autonomous categories
 
