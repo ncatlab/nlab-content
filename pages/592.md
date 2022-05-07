@@ -101,21 +101,30 @@ See [[pullback]] for more details.
 ###### Proposition
 **(pushouts as coequalizers)
 
-If [[coproduct]]s exist in some category, then the pushout
+If [[coproducts]] exist in some [[category]], then the pushout
 
 \begin{center}
     \begin{tikzcd}
-        a \arrow[r, "f"] \arrow[d, "g"'] & b \arrow[d] \\
-        c \arrow[r]                      & b +_a c    
+        a \ar[r, "f"] \ar[d, "g"'] & b \ar[d] \\
+        c \ar[r]                   & b \underset{a}{\sqcup} c    
     \end{tikzcd}
 \end{center}
 
 is equivalently the [[coequalizer]]
 
 \begin{center}
-    \begin{tikzcd}
-        a \arrow[r, "i_1f", shift left] \arrow[r, "i_2g"', shift right] & b+c \arrow[r] & b+_ac
-    \end{tikzcd}
+  \begin{tikzcd}
+     a 
+     \ar[r, "i_1 \circ f", shift left] 
+     \ar[r, "i_2 \circ g"', shift right] 
+     & 
+     b \sqcup  c 
+     \arrow[r] 
+     &[-35pt]
+     b 
+       \underset{a}{\sqcup} 
+     c
+  \end{tikzcd}
 \end{center}
 
 of the two morphisms induced by $f$ and $g$ into the [[coproduct]] of $b$ with $c$.
