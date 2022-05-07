@@ -7,8 +7,6 @@
 
 A unital [[ring]] $R$ is an __integral domain__ (or simply domain) if it is nontrivial and has no non-zero [[zero divisors]] (i.e., $1 \ne 0$ and $a b = 0$ implies $a = 0$ or $b = 0$). For example, the ring of [[integers]], any [[skewfield]], the ring of global sections of the structure sheaf of any [[integral scheme]], an [[Ore extension]] of any other integral domain.
 
-In [[constructive mathematics]], one wants to phrase the condition as $a b \neq 0$ whenever $a \neq 0$ and $b \neq 0$, where $\neq$ is a tight [[apartness relation]] relative to which the ring operations are strongly extensional.  (Of course, if the underlying set of the ring has [[decidable equality]] ---as is true of $\mathbf{Z}$, $\mathbf{Q}$, $\mathbf{Z}/n$, [[finite fields]], etc--- then this is trivial.)
-
 The [[trivial ring]] is [[too simple to be simple|too simple]] to be an integral domain.  You can see this by phrasing the definition without [[bias]] as: any product of (finitely many) nonzero elements of $R$ (which includes the empty product $1$) must be nonzero.
 
 Some authors require an integral domain to be [[commutative ring|commutative]], even when they do not require this of rings in general.  Commutative integral domains are precisely subrings of [[fields]].
@@ -17,6 +15,24 @@ In principle, one could just as easily consider a [[rig]] or [[semiring]] $R$.  
 
 An integral domain $R$ is an __[[Ore domain]]__ if the set of all nonzero elements is an [[Ore set]] in $R$. In that case the Ore localized ring is called the _[[Ore quotient ring]]_ of $R$.
 
+### In constructive mathematics
+in constructive mathematics, there are different inequivalent ways to define an integral domain. 
+
++-- {: .num_defn #discrete}
+###### Definition
+
+If we replace "$ab$ is nonzero iff elements $a$ and $b$ are nonzero" in the above definition by "$ab$ is nonzero [[xor]] either $a$ or $b$ is zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete integral domain**.  This condition implies that $0\neq 1$.
+=--
+
+Such an integral domain $D$ is 'discrete' in that it decomposes as a coproduct $D = \{0\} \sqcup D^\times$ (where $D^\times$ is the subset of elements that are not zero-divisors). 
+
++-- {: .num_defn #heyting}
+###### Definition
+
+If we interpret 'nonzero' as a reference to a [[tight apartness relation]], thus defining the apartness relation $\#$ by $x # y$ iff $x - y$ is invertible, then we obtain the notion of **Heyting integral domain**. (As shown [here](/nlab/show/local+ring#internal), the ring operations become strongly extensional functions.)   In addition to $0\# 1$, the condition then means that every element apart from $0$ is not a zero-divisor.
+=--
+
+Of course, if the underlying set of the ring has [[decidable equality]] ---as is true of $\mathbf{Z}$, $\mathbf{Q}$, $\mathbf{Z}/n$, [[finite fields]], etc--- then a Heyting integral domain is a discrete integral domain.
 
 ## Related concepts
 
