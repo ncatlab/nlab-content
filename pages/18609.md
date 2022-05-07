@@ -3,18 +3,26 @@
 
 ## Selected writings
 
+On [[AQFT on curved spacetimes]]:
+
+
 * [[Christopher Fewster]], [[Rainer Verch]], _Algebraic quantum field theory in curved spacetimes_ ([arXiv:1504.00586](https://arxiv.org/abs/1504.00586))
 
-  (on [[AQFT on curved spacetimes]])
+Introduction to [[AQFT]]:
 
 * {#FewsterRejzner19} [[Christopher Fewster]], [[Kasia Rejzner]], _Algebraic Quantum Field Theory - an introduction_ ([arXiv:1904.04051](https://arxiv.org/abs/1904.04051))
 
-  (introduction to [[AQFT]])
+On [[homotopical AQFT]]:
 
-## related $n$Lab entries
+* [[Simen Bruinsma]], [[Christopher J. Fewster]], [[Alexander Schenkel]], *Relative Cauchy evolution for linear homotopy AQFTs* ([arXiv:2108.10592](https://arxiv.org/abs/2108.10592))
+
+
+## Related $n$Lab entries
 
 * [[AQFT]]
 
 * [[AQFT on curved spacetimes]]
 
 category: people
+
+[[!redirects Christopher J. Fewster]]
