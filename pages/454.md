@@ -23,6 +23,8 @@
 
 A **lattice** is a [[partial order|poset]] which admits all finite [[meets]] and finite [[joins]] (or all finite [[products]] and finite [[coproducts]], regarding a poset as a [[category]] (a [[(0,1)-category]])).
 
+As [[(0,1)-limits]] are meets and [[(0,1)-colimits]] are joins, a lattice is a [[(0,1)-category]] that is [[finitely complete category|finitely complete]] and [[finitely cocomplete category|finitely cocomplete]]. 
+
 A **lattice** can also be defined as an algebraic structure, with the binary operations $\wedge$ and $\vee$ and the constants $\top$ and $\bot$. (These correspond, respectively, to binary and nullary meets and joins in the poset-theoretic definition; accordingly, they are read 'meet', 'join', '[[top]]', and '[[bottom]]'.) Here are the axioms for these operations:
 
 * $\wedge$ and $\vee$ are each [[idempotent]], [[commutative magma|commutative]], and [[associative magma|associative]];
@@ -32,7 +34,6 @@ A **lattice** can also be defined as an algebraic structure, with the binary ope
 You can recover the original poset from either the meet or the join; $a \leq b$ iff $a \wedge b = a$, and $b \leq a$ iff $a \vee b = a$, and then prove that $a\wedge b$ is the greatest lower bound for $a$, $b$ and $a \vee b$ is the least upper bound for $a$, $b$. (Notice that the absorption laws guarantee that these two descriptions of $\leq$ agree.)  Indeed, we may say that a lattice is a _bisemilattice_ in that it has two semilattice structures that are compatible in that they define (but in dual ways) the same partial order.
 
 Note that a poset with only finite meets _or_ finite joins is a (meet- or join-) [[semilattice]], while a lattice which has *all* joins and meets (not just finitary ones) is a [[complete lattice]].
-
 
 ## Bounded lattices and pseudolattices
 
