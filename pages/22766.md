@@ -1,0 +1,72 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+The following is known as the *[[Carl Gauss|Gauss]] multiplication formula* or the *[[Legendre]] relation*:
+
+\begin{prop}\label{GaussMultiplicationFormula}
+
+For 
+
+* a [[positive number|positive]] [[integer]] $N \in \mathbb{N}_+$,
+
+* any $z \in \mathbb{R} \setminus  \{0, -1/N, -2/N, \cdots\} $,
+
+the [[Gamma function]] $\Gamma(-)$ satisfies 
+
+$$
+  \underoverset
+    {j = 0}
+    {N-1}
+    {\prod}
+  \Gamma
+  \left(
+    z + \tfrac{j}{N}
+  \right)
+  \;=\;
+  (2 \pi)^{ \tfrac{1}{2}(N-1) } 
+  \cdot
+  N^{ \tfrac{1}{2} - N z }
+  \cdot
+  \Gamma( N z )
+  \,.
+$$
+
+\end{prop}
+
+
+## References
+
+* J. Sándor and L. Tóth, *A remark on the gamma function*, Elem. Math. 44 (3), pp. 73–76 (1989) ([dml:141455](https://eudml.org/doc/141455))
+
+See also:
+
+* Wikipedia, *[Multiplication theorem](https://en.wikipedia.org/wiki/Multiplication_theorem)*
+
+* ProofWiki, *[Gauss Multiplication Formula](https://proofwiki.org/wiki/Gauss_Multiplication_Formula)*
+
+* DLMF, *[Gamma function §5.5(iii) Multiplication](https://dlmf.nist.gov/5.5#iii)*
+
+* Wolfram MathWorld, *[Gauss multiplication formula](https://mathworld.wolfram.com/GaussMultiplicationFormula.html)*
+
+
+[[!redirects Legendre relation]]
+
+
+[[!redirects multiplication theorem]]
+
+
