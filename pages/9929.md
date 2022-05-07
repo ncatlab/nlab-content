@@ -1156,9 +1156,11 @@ Refinement to [[equivariant complex oriented cohomology theory]]:
 [[!redirects complex oriented cohomology theories]]
 
 [[!redirects complex oriented cohomology]]
+[[!redirects complex-oriented cohomology]]
 
 [[!redirects complex-oriented cohomology theory]]
 [[!redirects complex-oriented cohomology theories]]
 
 [[!redirects complex orientable cohomology theory]]
 [[!redirects complex orientable cohomology theories]]
+
