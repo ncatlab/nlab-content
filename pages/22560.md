@@ -48,6 +48,9 @@ An [[Ackermann groupoid]] is a particular sort of [[poset]] that is magmoidal (w
 
 The concept seems to first be named in
 
-* [[Alexei Davydov]], _Nuclei of categories with tensor products_, Theory and Applications of Categories, Vol. 18, 2007, No. 16, pp 440-472. [journal page](http://www.tac.mta.ca/tac/volumes/18/16/18-16abs.html)
+* [[Alexei Davydov]], _Nuclei of categories with tensor products_, Theory and Applications of Categories, Vol. 18, 2007, No. 16, pp 440-472. [tac:18-16](http://www.tac.mta.ca/tac/volumes/18/16/18-16abs.html)
 
-[[!redirects magmoids]]
+[[!redirects magmoidal categories]]
+
+
+
