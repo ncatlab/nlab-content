@@ -4,4 +4,13 @@ __G. H. Hardy__ (Godfrey Harold Hardy) was a remarkable 20th British mathematica
 * wikipedia: [G. H. Hardy](https://en.wikipedia.org/wiki/G._H._Hardy)
 
 
+## Selected writings
+
+On the [[asymptotic expansion]] of the [[partition function (number theory)|partition function]] in [[number theory]]:
+
+* [[Godfrey Hardy]], [[Srinivasa Ramanujan]], *Asymptotic formulaæ in combinatory analysis*, Proceedings of the London Mathematical Society, 2(1):75–115, 1918 ([doi:10.1112/plms/s2-17.1.75](https://doi.org/10.1112/plms/s2-17.1.75), [[HardyRamanujanAsymptoticFormulae.pdf:file]])
+
+
+
 [[!redirects Godfrey Harold Hardy]]
+[[!redirects Godfrey Hardy]]
