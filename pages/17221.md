@@ -125,6 +125,8 @@ From p. 13:
 
 ### 2.6 Homology of Thom spectra
 
+* [[zero-section into Thom space of universal line bundle is weak equivalence]]
+
 * [[Thom isomorphism]]
 
 * [[homology of MU]]
