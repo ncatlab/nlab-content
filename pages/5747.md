@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Semi-simplicial sets
 * table of contents
 {:toc}
@@ -165,6 +166,18 @@ See also the references at _[[semi-simplicial object]]_ and:
 On the [[model structure on semi-simplicial sets]]:
 
 * [[Benno van den Berg]], _A note on semisimplicial sets_, 2013 ([[vandenBerg_SemisimplicialSets.pdf:file]])
+
+as a [[weak model category]]:
+
+* {#Henry18} [[Simon Henry]], Theorem 5.5.6 of: *Weak model categories in classical and constructive mathematics*, Theory and Applications of Categories, Vol. 35, 2020, No. 24, pp 875-958.  ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650), [tac:35-24](http://www.tac.mta.ca/tac/volumes/35/24/35-24abs.html))
+
+as a [[semi-model category]]:
+
+* {#Rooduijn2018} Jan Rooduijn, *A right semimodel structure on semisimplicial sets*, Amsterdam 2018 ([pdf](https://eprints.illc.uva.nl/id/eprint/1663/1/MoL-2018-34.text.pdf), [mol:4787](https://msclogic.illc.uva.nl/theses/archive/publication/4787/A-right-semimodel-structure-on-semisimplicial-sets))
+
+as a [[fibration category]] and [[cofibration category]]:
+
+* {#Sattler18} [[Christian Sattler]], *Constructive homotopy theory of marked semisimplicial sets* ([arXiv:1809.11168](https://arxiv.org/abs/1809.11168))
 
 
 [[!redirects semi-simplicial sets]]
