@@ -219,7 +219,7 @@ have eluded physicists, notably concepts such as the ‘Cheshire Cat phenomenon�
 
 ### General
 
-The original articles are
+The original articles:
 
 * {#Skyrme62} [[Tony Skyrme]], _A unified field theory of mesons and baryons_, Nuclear Physics Volume 31, March–April 1962, Pages 556-569 (<a href="https://doi.org/10.1016/0029-5582(62)90775-7">doi:10.1016/0029-5582(62)90775-7</a>)
 
@@ -306,7 +306,7 @@ Further development:
 
 
 
-[[scattering amplitudes]]:
+Skyrmion [[scattering amplitudes]]:
 
 * T. Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
@@ -358,6 +358,10 @@ Generalization to [[SU(N)]]:
 Further resources:
 
 * _[Geometric models of Nuclear Matter Conference 2014](https://www.kent.ac.uk/smsas/personal/skyrmions/conference.html)_ 
+
+
+
+[[!include Skyrmions from rational maps -- references]]
 
 
 
