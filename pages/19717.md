@@ -4,9 +4,12 @@
 {:toc}
 
 ## Idea
-In [[computer science]], originally in [[database theory]], **lenses** are used in situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
 
-More recently, lenses have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Spivak](#SpivakACT19)).
+In [[computer science]], originally in [[database theory]], a concept called  *lenses* is used to formally capture situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
+
+An insightful explanation and critique of the concept of "lenses" is offered in [Spivak 19](#Spivak19) (exposition in [Spivak ACT19](#SpivakACT19)), where it is argued that the notion may and should be regarded as a small fragment (namely that of [[trivial bundle|trivial]] [[display maps]]) of the general notion of ([[categorical model of dependent types|categorical semantics]] for) [[dependent type theory|dependent types]], such as discussed at *[[hyperdoctrine]]* and related entries.
+
+More recently, lenses have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Spivak ACT19](#SpivakACT19)).
 
 ## Definition
 
@@ -88,9 +91,10 @@ An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' s
 
 * {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
 
-* {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, [slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf) of talk at ACT 19. 
 
-* {#Spivak19} [[David Spivak]], _Generalized Lens Categories via functors $C^{op} \to Cat$_, preprint, 2019 ([arXiv:1908.02202](https://arxiv.org/abs/1908.02202))
+* {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, talk at [ACT 19](http://www.cs.ox.ac.uk/ACT2019/) ([slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf), [[Spivak_Lenses.pdf:file]]) 
+
+* {#Spivak19} [[David Spivak]], _Generalized Lens Categories via functors $C^{op} \to Cat$_ ([arXiv:1908.02202](https://arxiv.org/abs/1908.02202))
 
 * {#AhmanUustalu17} Danel Ahman, [[Tarmo Uustalu]], _Taking updates seriously_, CEUR Workshop Proceedings, 1827, 2017 ([pdf](http://ceur-ws.org/Vol-1827/paper11.pdf))
 
@@ -105,3 +109,5 @@ An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' s
 * {#MyersSpivak} [[David Myers]], [[David Spivak]], _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
 
 [[!redirects lenses (in computer science)]]
+
+[[!redirects lens in computer science]]
