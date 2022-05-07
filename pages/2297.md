@@ -3,20 +3,20 @@
 
 ## Research program
 
-* (with [[Matthew Ando]]), _Subtle symmetries and the refined Monster_, ([pdf](http://www.ms.unimelb.edu.au/~nganter@unimelb/research_program_ganter.pdf))
+* (with [[Matthew Ando]]), _Subtle symmetries and the refined Monster_, ([pdf](https://researchers.ms.unimelb.edu.au/~nganter@unimelb/research_program_ganter.pdf))
 
 ## Selected writings
 
 On [[Tate K-theory]] and [[equivariant elliptic cohomology]]:
 
-* [[Nora Ganter]] _Stringy power operations in Tate K-theory_, [math.AT/0701565](http://arxiv.org/abs/math/0701565) 
+* [[Nora Ganter]], _Stringy power operations in Tate K-theory_, [math.AT/0701565](http://arxiv.org/abs/math/0701565) 
 
 * {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. Volume 15, Number 1 (2013), 313-342. ([arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680))
 
 
-* _Orbifold genera, product formulas and power operations_, Adv. Math. __205__ (2006), no. 1, 84-133 (revised Ph. D. Thesis) [math.AT/0407021](http://arxiv.org/abs/math/0407021) 
+* [[Nora Ganter]], _Orbifold genera, product formulas and power operations_, Adv. Math. __205__ (2006), no. 1, 84-133 (revised Ph. D. Thesis) [math.AT/0407021](http://arxiv.org/abs/math/0407021) 
 
-* _Hecke operators in equivariant elliptic cohomology and generalized moonshine_, [arxiv/0706.2898](http://arxiv.org/abs/0706.2898) 
+* [[Nora Ganter]], _Hecke operators in equivariant elliptic cohomology and generalized moonshine_, [arxiv/0706.2898](http://arxiv.org/abs/0706.2898) 
 
 * [[Nora Ganter]], [[Matthew Ando]], C. French, _The Jacobi orientation adn the two-variable elliptic genus_, Algebraic and Geometric Topology __8__, 493-539, 2008, [math.AG/0605554](http://arxiv.org/abs/math/0605554)
 
@@ -32,6 +32,10 @@ On [[2-representations]]:
 On [[Platonic 2-groups]]:
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
+
+On categorical extensions of a torus by the circle 
+
+* [[Nora Ganter]], _Categorical Tori_ ([arXiv:1406.7046](https://arxiv.org/abs/1406.7046))
 
 
 See also:
