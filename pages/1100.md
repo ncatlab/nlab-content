@@ -88,7 +88,7 @@ An [[(∞,1)-topos]] is
 +-- {: .num_remark #ReflectonOnCharacterizationByObjectClassifier}
 ###### Remark
 
-An [[object classifier]] is a (small) _self-reflections_ of the $\infty$-topos inside itself ([[type of types]], internal [[universe]]). See also ([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
+An [[object classifier]] is a (small) _self-reflection_ of the $\infty$-topos inside itself ([[type of types]], internal [[universe]]). See also ([WdL, book 2, section 1](Science+of+Logic#WesenAlsReflexionInIhmSelbst)).
 
 =--
 
