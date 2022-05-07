@@ -38,6 +38,10 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 * [[HeytAlg]]
 * [[BoolAlg]]
 
+* [[allegory]]
+* [[bicategory of relations]]
+* [[first-order hyperdoctrine with equality]]
+
 Just as the motivating example of a $2$-category is the $2$-category [[Cat]] of categories, so the motivating example of a $2$-poset is the $2$-poset [[Pos]] of posets.
 
 ## Related concepts
