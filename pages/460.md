@@ -24,7 +24,7 @@ The condition that a [[topological space]] be _sober_ is an extra condition akin
 
 (Note that this diagram is not a pullback -- there are [[Hausdorff implies sober|$T_1$ sober spaces which are not Hausdorff]].)
 
-But the sobriety condition on a topological space has deeper meaning. It means that [[continuous functions]] betwen sober topolgical spaces are entirely determined by their [[inverse image]] functions on the [[frames of opens]], disregarding the underlying sets of points. Technically this means that the sober topological spaces are precisely the [[locales]] among the topological spaces.
+But the sobriety condition on a topological space has deeper meaning. It means that [[continuous functions]] between sober topological spaces are entirely determined by their [[inverse image]] functions on the [[frames of opens]], disregarding the underlying sets of points. Technically this means that the sober topological spaces are precisely the [[locales]] among the topological spaces.
 
 ## Definition
 
