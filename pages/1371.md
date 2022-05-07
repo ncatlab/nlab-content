@@ -43,6 +43,7 @@ For more details, see, for example, \cite[§7.8]{Bergner}
 or Dugger–Spivak \cite{DuggerSpivak.Rigidification},
 \cite{DuggerSpivak.Mapping}.
 
+
 ## Relations
 
 ### Via $\bar W$-construction
