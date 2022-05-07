@@ -755,7 +755,7 @@ of the inertia groupoid as follows (recall the nature of [[products of simplices
 
 #### Relation to the fine model structure of equivariant homotopy theory
 
-The [[identity functor]] gives a [[Quillen adjunction]] between the Borel model structure and [[equivariant homotopy theory]] ([Guillou 2006, section 5](#Guillou06)).
+The [[identity functor]] gives a [[Quillen adjunction]] between the Borel model structure and the [[final model structure on topological G-spaces]] for [[equivariant homotopy theory]] ([Guillou 2006, section 5](#Guillou06)).
 
 The left adjoint is
 
@@ -1027,6 +1027,9 @@ $$
 \end{proof}
 
 
+## Related concepts
+
+* [[fine model structure on topological G-spaces]]
 
 
 ## Literature
@@ -1074,4 +1077,7 @@ Discussion of a [[global equivariant homotopy theory|globalized]] model structur
 
 [[!redirects model structure on simplicial group actions]]
 [[!redirects model structures on simplicial group actions]]
+
+
+[[!redirects coarse model structure on topological G-spaces]]
 
