@@ -55,7 +55,7 @@ where the last holds by the usual properties of representable profunctors (see e
 
 ## Related concepts
 
-* [[algebra over a monad]], [[algebra over an endofunctor]], [[coalgebra over an endofunctor]]
+* [[algebra over a monad]], [[algebra over an endofunctor]], [[coalgebra over an endofunctor]], [[dialgebra]]
 
 
 [[!redirects algebra for an endo-profunctor]]
