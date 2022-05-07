@@ -547,7 +547,7 @@ see
 
 A variant adapted to a 3+3-dimensional split in
 
-* Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
+* Sheng-Lan Ko, [[Dmitri Sorokin]], [[Pichet Vanichchapongjaroen]], _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
 
 The computation of the small fluctuations of this GS-type sigma-model around a solution embedding as the asymptotic boundary of the [[AdS-spacetime]] [[near-horizon geometry]] of a black 5-brane as [above](#ReferencesAsBlackBrane), and the proof, to low order, that the result is the [[6d (2,0)-supersymmetric QFT]] appearing in [[AdS-CFT|AdS7-CFT6 duality]] is due to 
 
@@ -559,9 +559,10 @@ A review with emphasis on the coupling to the [[M2-brane]] is in
 * [[Ergin Sezgin]], P. Sundell, _Aspects of the M5-Brane_ ([arXiv:hep-th/9902171](http://arxiv.org/abs/hep-th/9902171))
 
 
-Further developments include
+Further developments:
 
-* Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_ ([arXiv:1308.2231](http://arxiv.org/abs/1308.2231))
+* [[Pichet Vanichchapongjaroen]], *Covariant M5-brane action with self-dual 3-form* ([arXiv:2011.14384](https://arxiv.org/abs/2011.14384))
+
 
 
 
