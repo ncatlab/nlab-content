@@ -4,8 +4,15 @@ In other words,
 
 >a $k$-plethory is a commutative k-algebra together with a comonad structure on the covariant functor it represents, much as a k-algebra is the same as a $k$-module that represents a comonad. So, just as a $k$-algebra is exactly the structure that knows how to act on a $k$-module, a $k$-plethory is the structure that knows how to act on a commutative $k$-algebra. ([BW05](#BW05))
 
-The most famous example of such an object is $\Lambda$, the ring of [[symmetric polynomials]] in countably many variables, which is a $\mathbb{Z}$-plethory.  
+The most famous example of such an object is $\Lambda$, the ring of [[symmetric functions]], which is a $\mathbb{Z}$-plethory.
 
+## Related concepts
+
+* [[biring]]
+
+* [[Tall-Wraith monoid]]
+
+* [[2-plethory]]
 
 ##References
 
@@ -16,6 +23,8 @@ The idea was introduced here, where it was called a "biring triple":
 The term "plethory" was introduced here:
 
 * {#BW05} [[James Borger]], [[Ben Wieland]],  Plethystic algebra, _Advances in Mathematics_ **194** (2005), 246--283.  ([web](http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html))
+
+* {#BMT21} [[John Baez]], [[Joe Moeller]], [[Todd Trimble]], Schur functors and categorified plethysm, [arXiv:2106.00190](https://arxiv.org/abs/2106.00190)
 
 [[!redirects plethories]] 
 [[!redirects biring triple]] 
