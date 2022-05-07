@@ -164,6 +164,11 @@ On the [[group cohomology]]:
 
 * {#TomodaZvengrowski08} [[Satoshi Tomoda]], [[Peter Zvengrowski]], *Remarks on the cohomology of finite fundamental groups of 3-manifolds*, Geom. Topol. Monogr. 14 (2008) 519-556 ([arXiv:0904.1876](https://arxiv.org/abs/0904.1876))
 
+Discussion of [[equivariant ordinary cohomology]] ([[Bredon cohomology]]) over the point but in arbitrary [[RO(G)-degree]] for [[equivariance group]] the [[quaternion group]]:
+
+* [[Yunze Lu]], *On the $RO(G)$-graded coefficients of $Q_8$ equivariant cohomology*, Topology and its Applications, 2021 ([doi:10.1016/j.topol.2021.107921](https://doi.org/10.1016/j.topol.2021.107921))
+
+
 
 [[!redirects quaternion groups]]
 
