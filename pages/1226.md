@@ -70,7 +70,7 @@ A filtered $(\infty,1)$-category is weakly [[contractible]], i.e. when incarnate
 =--
 +-- {: .proof}
 ###### Proof
-This is ([Lurie, Lemma 5.3.1.20](#Lurie)).
+This is ([Lurie, Lemma 5.3.1.18](#Lurie)).
 =--
 
 ## Related concepts
