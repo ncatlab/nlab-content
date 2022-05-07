@@ -304,7 +304,7 @@ in $[\Delta[1], [J^{\triangleleft}, C]]$. Here by assumption the middle morphism
 
 This argument generalizes form limits to [[homotopy limit]]s.
 
-For that, let now $C$ be a [[category with weak equivalences]] and write $Ho(C) : Diagram^{op} \to Cat$ for the corresponding [[derivator]]: $Ho(C)(J) := [J,C](W^J)^{-1}$ is the [[homotopy category]] of $J$-diamgrams in $C$, with respect to the degreewise weak equivalences in $C$.
+For that, let now $C$ be a [[category with weak equivalences]] and write $Ho(C) : Diagram^{op} \to Cat$ for the corresponding [[derivator]]: $Ho(C)(J) := [J,C](W^J)^{-1}$ is the [[homotopy category]] of $J$-diagrams in $C$, with respect to the degreewise weak equivalences in $C$.
 
 +-- {: .num_cor #RetractOfHomotopyLimits}
 ###### Corollary
