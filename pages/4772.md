@@ -1,4 +1,10 @@
 
+> This entry is about _conjugation_ in the sense of adjoint actions, as in forming [[conjugacy classes]]. For conjugation in the sense of [[anti-involutions]] on [[star algebras]] see at _[[complex conjugation]]_.
+
+***
+
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
