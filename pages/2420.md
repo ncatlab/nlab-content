@@ -1,4 +1,8 @@
 
+> This entry is about *partition *functions in the sense of [[statistical mechanics]] and [[quantum field theory]]. For the function in [[number theory]]/[[combinatorics]] that assigns to a [[natural number]] the number of its [[partitions]] see at *[[partition function (number theory)]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -23,11 +27,13 @@
 
 ## Idea
 
-The _partition function_ is a certain assignment that may be extracted from a system in [[statistical mechanics]], or in [[quantum field theory]]. If the quantum field theory $Z$ is presented as an [[FQFT]], that is, as a [[functor]] on a category of $d$-dimensional [[cobordism]]s, then the partition function is the assignment to $d$-dimensional [[torus|tori]] $T$ of the values $Z(T)$ assigned to these by the QFT.
+A _partition function_ is a certain assignment that may be extracted from a system in [[statistical mechanics]], or in [[quantum field theory]]. 
+
+If the quantum field theory $Z$ is presented as an [[FQFT]], that is as a [[functor]] on a category of $d$-dimensional [[cobordisms]], then the partition function is the assignment to $d$-dimensional [[torus|tori]] $T$ of the values $Z(T)$ assigned to these by the QFT.
 
 By the axioms of functoriality and symmetric monoidalness of a QFT, this means that the partition function is the [[trace]] over the value of the QFT in the cylinder obtained by cutting the torus open.
 
-This is where the partition function originally derives its name from: typically for QFTs on _[[Riemannian metric|Riemannian]]_ [[cobordism]]s the  value of the QFT on a cylinder of _length_ $t$ is a [[linear operator]] of the form $\exp(- t H)$ for some operator $H$.
+This is where the partition function originally derives its name from: typically for QFTs on _[[Riemannian metric|Riemannian]]_ [[cobordisms]] the  value of the QFT on a cylinder of _length_ $t$ is a [[linear operator]] of the form $\exp(- t H)$ for some operator $H$.
 
 ## Origin of the term 
 
