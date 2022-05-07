@@ -193,6 +193,8 @@ The cycle category is a [[generalized Reedy category]] (see [Berger-Moerdijk 08,
 
 ## Related concepts
 
+* [[minimal simplicial circle]]
+
 * [[cyclic object]]
 
 * [[cyclic set]], [[cyclic space]],
