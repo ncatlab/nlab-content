@@ -99,7 +99,7 @@ In the case where $char(k) = 2$, the same development may be carried out by simp
 
 =--
 
-Now let $V$ be an $n$-dimensional space, and let $f \colon V \to V$ be a [[linear map]]. By the proposition, the map 
+Now let $V$ be an $n$-dimensional space, and let $f \colon V \to V$ be a [[linear map]]. By the corollary, the map 
 
 $$\Lambda^n(f) \colon \Lambda^n(V) \to \Lambda^n(V),$$ 
 
