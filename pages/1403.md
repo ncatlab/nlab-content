@@ -61,6 +61,7 @@ The microcosm principle is a general heuristic, but in some contexts, general ve
 [Hasuo, Jacobs, and Sokolova](#HJS) gave the following very similar definition: for a [[Lawvere theory]] $L$, an internal $L$-algebra in a categorical $L$-algebra (an $L$-algebra in [[Cat]]) is a lax $L$-morphism from the [[terminal object|terminal]] such algebra to $A$.  They used this to prove a general result about the liftings of $L$-algebra structures to coalgebras.
 
 ### For algebras over (∞,1)-operads
+ {#ForAlgebrasOverInfinityOperads}
 
 Another such formalization was given (independently) in ([Lurie](##Lurie)) in the context of [[higher algebra]] in [[homotopy theory]]/[[(∞,1)-category theory]]:
 
