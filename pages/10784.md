@@ -141,6 +141,8 @@ Given a [[field]] $k$ with [[separable closure]] $\overline{k}$, then the pro-et
 
 * [[condensed set]]
 
+* [[condensed cohesion]]
+
 ## References
 
 
