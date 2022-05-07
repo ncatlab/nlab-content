@@ -477,6 +477,8 @@ $$
 
 * [[Borel model structure]]
 
+* [[simplicial principal bundle]], [[universal simplicial principal bundle]]
+
 
 ## References
 
