@@ -126,15 +126,15 @@ A model category structure on the category of $sSet$-categories with a fixed set
 
 Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
 
-* {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_ , Trans. AMS ([arXiv:0406507](http://arxiv.org/abs/math/0406507))
+* {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_, Trans. AMS ([arXiv:0406507](http://arxiv.org/abs/math/0406507))
 
-A survey is in section 3 of
+A survey is in
 
-* [[Julie Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv:math/0610239](http://arxiv.org/abs/math/0610239))
+* [[Julie Bergner]], Section 3 of: _A survey of $(\infty,1)$-categories_ ([arXiv:math/0610239](http://arxiv.org/abs/math/0610239))
 
-See also section A.3.2 of
+See also:
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_
 
 and
 
@@ -143,7 +143,7 @@ and
 
 Recall the slight but crucial difference between the two notions of "[[simplicial categories]]", the other being an [[internal category]] in [[sSet]]. But also for this latter concept there is a [[model category]] structure which presents [[(infinity,1)-categories]], see
 
-* {#Horel14} Geoffroy Horel, _A model structure on internal categories_, Theory and Applications of Categories, Vol. 30, 2015, No. 20, pp 704-750 ([arXiv:1403.6873](http://arxiv.org/abs/1403.6873)).
+* {#Horel14} [[Geoffroy Horel]], _A model structure on internal categories_, Theory and Applications of Categories, Vol. 30, 2015, No. 20, pp 704-750 ([arXiv:1403.6873](http://arxiv.org/abs/1403.6873)).
 
 
 [[!redirects model structure on SSet-categories]]
