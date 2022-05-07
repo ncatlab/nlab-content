@@ -573,6 +573,11 @@ Further discussion of contextual categories is in
 
 * {#Voevodsky15d} [[Vladimir Voevodsky]], _Subsystems and regular quotients of C-systems_ ([arXiv:1406.7413](https://arxiv.org/abs/1406.7413))
 
+Discussion of B-systems, another essential algebraic model, is in
+
+* {#Voevodsky14} [[Vladimir Voevodsky]], _B-systems_ ([arXiv:1410.5389](https://arxiv.org/abs/1410.5389))
+
+
 
 Strictification is discussed in
 
@@ -602,9 +607,13 @@ A category with families structure is constructed on the $(2,1)$-category of all
 
 * {#Bidlingmaier20} Martin Bidlingmaier, _An interpretation of dependent type theory in a model category of locally cartesian closed categories_, ([arXiv:2007.02900](https://arxiv.org/abs/2007.02900))
 
-* {#ChingRiehl2014} Michael Ching, Emily Riehl, _Coalgebraic models for combinatorial model categories_ [arXiv:1403.5303](https://arxiv.org/abs/1403.5303) 
+* {#ChingRiehl2014} [[Michael Ching]], [[Emily Riehl]], _Coalgebraic models for combinatorial model categories_ [arXiv:1403.5303](https://arxiv.org/abs/1403.5303) 
 
 * {#Isaev2016} Valery Isaev, _Model category of marked objects_ [arXiv:1610.08459](https://arxiv.org/abs/1610.08459)
+
+An equivalence between contextual categories and [B-systems](#Voevodsky14) is in:
+
+* [[Benedikt Ahrens]], Jacopo Emmenegger, [[Paige Randall North]], [[Egbert Rijke]], _B-systems and C-systems are equivalent_ ([arXiv:2111.09948](https://arxiv.org/abs/2111.09948))
 
 
 
