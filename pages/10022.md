@@ -82,13 +82,13 @@ Here a [[tensor network]] [[Poincaré duality|Poincaré dual]] to a finite-stage
 \begin{imagefromfile}
     "file_name": "HaPPYCodeTesselation.jpg",
     "float": "right",
-    "width": 440,
+    "width": 480,
     "unit": "px",
     "margin": {
         "top": -40,
         "bottom": 20,
         "right": 0, 
-        "left": 10
+        "left": 20
     },
     "caption": "from [Harlow 18](#Harlow18)"
 \end{imagefromfile}
@@ -124,8 +124,10 @@ The extreme case that *all* tiles are deleted from the [[tensor network]], is th
 
 In this discrete [[HaPPY code]] model for the [[AdS-CFT correspondence]] the Ryu-Takayanagi formula for holographic entanglement entropy ([above](#RyuTakayanagiFormula)) has an exact proof [PYHP 15, Theorem 2](#PYHP15).
 
+### Chord diagram representation
+ {#ChordDiagramRepresentation}
 
-In fact, the RT-formula in the [[HaPPY code]] turns out to be entirely encoded by the [[chord diagram]] underlying the corresponding [[Majorana dimer code]] ([JGPE 19](#JGPE19)):
+In fact, holographic entanglement entropy in the [[HaPPY code]] turns out to be entirely encoded by the *dimer network* in the underlying [[Majorana dimer code]] ([JGPE 19](#JGPE19)):
 
 \begin{imagefromfile}
     "file_name": "HaPPYCodesAsDimerCode.jpg",
@@ -140,8 +142,7 @@ In fact, the RT-formula in the [[HaPPY code]] turns out to be entirely encoded b
     "caption": "From [JGPE 19](#JGPE19)"
 \end{imagefromfile}
 
-
-in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of [[chords]] that cross between the subregion $A$ and its [[complement]]:
+in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor network]] [[quantum state|state]] turns out to count the number of dimers that cross between the subregion $A$ and its [[complement]]:
 
 \begin{imagefromfile}
     "file_name": "ChordDiagramEntanglementEntropy.jpg",
@@ -172,7 +173,7 @@ in that the entanglement entropy $S_A$ of any [[Majorana dimer code]]-[[tensor n
 \end{imagefromfile}
 
 
-In the case that the [[chords]] correspond to the [[hyperbolic tesselation]] $\{5,4\}$ from the [[HaPPY code]], this entropy formula 
+In the case that the dimers correspond to the [[hyperbolic tesselation]] $\{5,4\}$ from the [[HaPPY code]], this entropy formula 
 
 $$
   S_A
@@ -185,14 +186,6 @@ $$
 $$
 
 recovers the Ryu-Takayanagi formula ([JGPE 19 (78)](#JGPE19)), as here the number of chords crossing any hyperbolic [[geodesic]] grows linearly with the [[length]] of this geodesic. 
-
-Notice how each [[chord]] here reflects at the same time
-
-1. one [[entanglement|entangled pair]] of [[qbits]] in the [[boundary field theory|boundary]] [[quantum system]];
-
-1. a [[geodesic]] through the [[hyperbolic plane]] [[bulk]] spacetime,
-
-which is a (rigorous) state of affairs reminiscent of the "[[ER = EPR]]" slogan.
 
 In the [[continuum limit]] this says that holographic entanglement entropy is exhibited by the [[geodesic]] [[flow]] out of the given subregion through its corresponding minimal bulk surface, an idea that was previously proposed in "bit-thread models" for holographic entanglement entropy ([Freedman & Headrick 16](#FreedmanHeadrick16)):
 
@@ -208,6 +201,33 @@ In the [[continuum limit]] this says that holographic entanglement entropy is ex
     },
     "caption": "from [Freedman & Headrick 16](#FreedmanHeadrick16)"
 \end{imagefromfile}
+
+
+
+\begin{imagefromfile}
+    "file_name": "ChordDiagram.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [Sati & Schreiber 19c](#SatiSchreiber19c)"
+\end{imagefromfile}
+
+Following [Sati-Schreiber 19c](#SatiSchreiber19c) we recognize the above dimer/bit-thread networks from [JGPE 19](#JGPE19), [Yan 19](#Yan19)
+as *[[chord diagram]]*-encodings of holographic bulks ([p. 38](https://arxiv.org/pdf/1912.10425v3.pdf#page=38)).
+
+Notice how each [[chord]] here reflects at the same time
+
+1. one [[entanglement|entangled pair]] of [[qbits]] in the [[boundary field theory|boundary]] [[quantum system]];
+
+1. a [[geodesic]] through the [[hyperbolic plane]] [[bulk]] spacetime.
+
+This is a (rigorous) state of affairs reminiscent of the "[[ER = EPR]]" slogan.
 
 
 \linebreak
@@ -331,14 +351,14 @@ reviewed in:
 
 * {#JahnEisert21} [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
 
-* [[Han Yan]], *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
+* {#Yan19} [[Han Yan]], *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
 
 
 See also:
 
 * {#HMPSR19}  Felix M. Haehl, Eric Mintun, Jason Pollack, Antony J. Speranza, [[Mark Van Raamsdonk]], _Nonlocal multi-trace sources and bulk entanglement in holographic conformal field theories_, J. High Energ. Phys. (2019) 2019: 005 ([arxiv:1904.01584](https://arxiv.org/abs/1904.01584), [talk recording](https://youtu.be/kRCwzyliJ1M))
 
-* {#Yan19} [[Han Yan]], _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
+*  [[Han Yan]], _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
 
 
 
@@ -373,6 +393,11 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 Nicely reviewed in (aimed at readers with minimal background in this problem):
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], Edgar Shaghoulian, Amirhossein Tajdini, _The entropy of Hawking radiation_					([arXiv:2006.06872](https://arxiv.org/abs/2006.06872))
+
+
+[[!include weight systems on chord diagrams in physics]]
+
+
 
 [[!redirects Ryu-Takayanagi formula]]
 
