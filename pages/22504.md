@@ -357,7 +357,7 @@ $$
 
 
 
-Exact special cases:
+Exact formulas for small $N$:
 
 $$
   \left\vert
