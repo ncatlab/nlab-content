@@ -10,6 +10,7 @@
 =--
 
 
+
 # Contents 
 * table of contents
 {:toc}
@@ -619,9 +620,13 @@ based on results in
 
 * {#DuggerUniversalHomotopy} [[Dan Dugger]], _[[Universal homotopy theories]]_
 
-The [[localization of a 2-category|homotopy 2-category]] of combinatorial model categories at the [[Quillen equivalences]] is discussed in
+Review:
 
-* Olivier Renaudin, _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:0603339](https://arxiv.org/abs/math/0603339))
+* [[George Raptis]], *Notes on combinatorial model categories* 2014/2020 ([[RaptisCombinatorialModelCategories.pdf:file]])
+
+The [[localization of a 2-category|homotopy 2-category]] [[Ho(CombModCat)]] of combinatorial model categories at the [[Quillen equivalences]] is discussed in:
+
+* [[Olivier Renaudin]], _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:0603339](https://arxiv.org/abs/math/0603339))
  
 See also 
 
