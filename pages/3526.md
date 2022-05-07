@@ -1,11 +1,20 @@
-Pierre Schapira is a French mathematician who developed [[algebraic analysis]] as a member of [[Mikio Sato]]'s school, with main collaborator [[Masaki Kashiwara]]. Together, they developed microlocalization of sheaves and ind-sheaves, expanding Sato's groundbreaking ideas to a complete categorical toolbox to do analysis in a purely (ind)-sheaf theoretical setting.
+Pierre Schapira is a French mathematician who developed [[algebraic analysis]] as a member of [[Mikio Sato]]'s school.
+
+* [personal page](http://people.math.jussieu.fr/~schapira)
+
+
+His main collaborator is [[Masaki Kashiwara]]. Together, they developed microlocalization of sheaves and ind-sheaves, expanding Sato's groundbreaking ideas to a complete categorical toolbox to do analysis in a purely (ind)-sheaf theoretical setting.
+
+## Selected writings
 
 The theory of [[microlocalization]] of (ind)-sheaves was developed in the following works:
 
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Ind-sheaves, distributions and microlocalization_, describes the program.
+
 * [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
 and proofs.
+
 * [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
 complete account of the theory.
 
@@ -15,11 +24,7 @@ The two pedagogical books written with Kashiwara:
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_, Springer
 (this book describes, among other topics, the author's theory of microlocalization of sheaves)
 
-* Masaki Kashiwara, [[Pierre Schapira]], _[[Categories and Sheaves|Categories and sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
-
-More on his work can be found on:
-
-* [homepage](http://people.math.jussieu.fr/~schapira)
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves|Categories and sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 * links to [coursenotes](http://people.math.jussieu.fr/~schapira/lectnotes)
 
