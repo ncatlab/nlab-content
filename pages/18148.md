@@ -42,7 +42,7 @@ Examples include [[unital rings]] etc.
 
 * [[commutative magma]]
 
-
+[[!include oidification - table]]
 
 [[!redirects unital magmas]]
 [[!redirects unitary magma]]
