@@ -25,6 +25,7 @@ Thus, the category of Stonean spaces is a (nonfull)
 In presence of the [[axiom of choice]],
 as a consequence of [[Stone duality]], the [[category]] of Stonean spaces is contravariantly [[equivalence of categories|equivalent]] to the category
 of [[complete Boolean algebras]] and continuous homomorphisms.
+This statement is known as the __Stonean duality__.
 
 Without the [[axiom of choice]],
 the [[category]] of [[Stonean locales]] is contravariantly [[equivalence of categories|equivalent]] to the category
@@ -47,3 +48,5 @@ A standard textbook is
 
 [[!redirects Stonean spaces]]
 [[!redirects Stonean]]
+[[!redirects Stonean duality]]
+[[!redirects Stonean dualities]]
