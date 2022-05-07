@@ -61,9 +61,9 @@ The formulation in terms of Kan extensions generalizes naturally to [[derivators
 
 ### For sound doctrines
 
-(See Section&#160;6 in [ABLR](#ABLR).)
+(See Section 6 in [ABLR](#ABLR).)
 
-Given a [[sound doctrine]]&#160;$D$ of limits,
+Given a [[sound doctrine]] $D$ of limits,
 we have the associated notions of $D$-limits,
 $D$-filtered colimits,
 and
@@ -72,7 +72,10 @@ together with the associated colimit functor $colim\colon D-Ind(C)\to C$.
 
 We say that some class of limits _distributes over $D$-filtered colimits_ if the functor colim preserves these limits.
 
-See Appendix A in [AR](#AR) for a comparison of this definition to the above explicit definition.
+See Appendix A in [AR](#AR) for a comparison of this definition to the above explicit definition in the special case of distributivity of [[filtered colimits]]
+over [[small limits]] in [[locally finitely presentable categories]]
+and distributivity of [[sifted colimits]] over [[small limits]]
+in [[varieties of algebras]].
 
 ## Relation to commutativity of limits and colimits
 
