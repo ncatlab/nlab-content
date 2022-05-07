@@ -182,6 +182,8 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 * [[Renyi entropy]]
 
+* [[relative entropy]]
+
 * [[entropic force]]
 
 * [[dissipative system]]
