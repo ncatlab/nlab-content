@@ -78,11 +78,11 @@ Since [[sSet]]  is a [[presheaf topos]], [[unions]] of [[subobjects]] make sense
 
 \begin{remark}\label{ZeroSimplexHasNoHorns}
 **(the 0-simplex has no horns)**\linebreak
-Beware that any would-be horn of the 0-simplex (whose [[boundary of a simplex|boundary]] is the [[empty set]]) is *ex*-cluded in Def. \ref{Horn}: The 0-simplex has *no* horn. 
+Beware that any would-be horn of the 0-simplex (whose [[boundary of a simplex|boundary]] is the [[empty simplicial set]]) is *ex*-cluded in Def. \ref{Horn}: The 0-simplex has *no* horn. 
 
-This is not a matter of convention if one sticks to the usual definition of [[Kan fibration]] as having [[right lifting property|right lifting]] against *all horns*:  In particular one must *not* declare a would-be horn of the 0-simplex to be itself the [[empty set]], as that would make the [[nerve of a category|nerve]] of the [[empty groupoid]] fail to be a [[Kan complex]] (Def. \ref{KanComplex}). 
+This is not a matter of convention if one sticks to the usual definition of [[Kan fibration]] as having [[right lifting property|right lifting]] against *all horns*:  In particular one must *not* declare a would-be horn of the 0-simplex to be itself the [[empty simplicial set]], as that would make the [[nerve of a category|nerve]] of the [[empty groupoid]] fail to be a [[Kan complex]] (Def. \ref{KanComplex}). 
 
-Conversely, the fact that every horn is [[inhabited set|inhabited]] means that any morphism out of the empty [[simplicial set]] (an [[empty bundle]] $\varnothing \to X$) is a [[Kan fibration]] (Def. \ref{KanFibration}).
+Conversely, the fact that every horn is [[inhabited set|inhabited]] means that any morphism out of the [[empty simplicial set]] (an [[empty bundle]] $\varnothing \to X$) is a [[Kan fibration]] (Def. \ref{KanFibration}).
 \end{remark}
 
 
