@@ -130,36 +130,50 @@ All the above definitions can be found in [Day-Street 97](#DS97), except for the
 
 ## References
 
-### Definitions
 
 Slightly different definitions of these various structures can be found in the following sequence of papers:
 
-* Kapranov and Voevodsky, in "2-categories and Zamolodchikov tetrahedra equations" and "Braided monoidal 2-categories and Manin-Schechtman higher braid groups", defined *braided Gray monoids*, i.e. Gray-monoids with a braiding.
+Definition of *braided Gray monoids*, i.e. [[Gray-category]]-monoids with a [[braiding]]:
 
-* [[John Baez|Baez]] and Neuchl, in "Higher-Dimensional Algebra I. Braided monoidal 2-categories" corrected the KV definition by adding one axiom.
+* [[Mikhail Kapranov]], [[Vladimir Voevodsky]], *2-Categories and Zamolodchikov tetrahedra equations*, in: _Proc. Symp. Pure Math._ **56** Part 2 (1994), AMS, Providence, pp. 177--260 ([doi:10.1090/pspum/056.2](https://doi.org/10.1090/pspum/056.2))
 
-* [[Brian Day|Day]] and [[Ross Street|Street]], in "Monoidal bicategories and Hopf algebroids," (1997) gave a definition of braided Gray-monoid equivalent to Baez-Neuchl, and also defined sylleptic and symmetric Gray-monoids and functors between them.
- {#DS97}
+* [[Mikhail Kapranov]], [[Vladimir Voevodsky]], *Braided monoidal 2-categories and Manin-Schechtman higher braid groups*, Journal of Pure and Applied Algebra Volume 92, Issue 3, 25 March 1994, Pages 241-267 (<a href="https://doi.org/10.1016/0022-4049(94)90097-3">doi:10.1016/0022-4049(94)90097-3</a>)
 
-* [[Sjoerd Crans|Crans]], in "Generalized centers of braided and sylleptic monoidal 2-categories," further modified the definition by adding an axiom relating to the tensor unit.
 
-* [[Paddy McCrudden|McCrudden]], in "Balanced coalgebroids," defined braided and sylleptic monoidal *bicategories* (not Gray monoids).
 
-* [[Chris Schommer-Pries]], in his [Ph. D. thesis](https://arxiv.org/abs/1112.1000), gave the full definition of braided, sylleptic, and symmetric monoidal bicategories and also assembled them into a [[tricategory]].
+Correction of the KV definition by adding one axiom:
 
-* [[Nick Gurski]], in "Loop spaces, and coherence for monoidal and braided monoidal bicategories" [arXiv](http://arxiv.org/abs/1102.0981), proved a strictification theorem relating all these definitions, along with a coherence theorem for the braided case.
+* [[John C. Baez]], [[Martin Neuchl]], *Higher-Dimensional Algebra I: Braided Monoidal 2-Categories*, Adv. Math. 121 (1996), 196-244 ([arXiv:q-alg/9511013](https://arxiv.org/abs/q-alg/9511013))
 
-* [[Nick Gurski]] and [[Angelica Osorno]], in "Infinite loop spaces, and coherence for symmetric monoidal bicategories" [arXiv](http://arxiv.org/abs/1210.1174), proved a coherence and strictification theorem for the symmetric case (but the sylleptic case is perhaps still open).
+A definition of braided Gray-monoid equivalent to Baez-Neuchl, also defining [[sylleptic monoidal 2-category|sylleptic]] and [[symmetric monoidal 2-category|symmetric]] Gray-monoids:
 
-### Other
+* {#DS97}  [[Brian Day]], [[Ross Street]], *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
 
-Other references referred to above include:
+Further modification of the definition by adding an axiom relating to the tensor unit:
 
-* [[Brian Day]] and [[Ross Street]], "Quantum categories, star autonomy, and quantum groupoids", 2003 ([arxiv:0301209](https://arxiv.org/abs/math/0301209))
- {#DS03}
+* [[Sjoerd E. Crans]], *Generalized Centers of Braided and Sylleptic Monoidal 2-Categories*, Advances in Mathematics, Volume 136, Issue 2, 25 June 1998, Pages 183-223 ([doi:10.1006/aima.1998.1720](https://doi.org/10.1006/aima.1998.1720))
 
-* [[Ross Street]], "Frobenius monads and pseudomonoids", 2004
- {#Street04} ([pdf](http://web.science.mq.edu.au/~street/Frob.pdf))
+
+* Paddy McCrudden, in "Balanced coalgebroids," defined braided and sylleptic monoidal *bicategories* (not Gray monoids).
+
+A full definition of [[braided monoidal 2-category|braided]], [[sylleptic monoidal 2-category|sylleptic]], and [[symmetric monoidal 2-category|symmetric]] monoidal bicategories and assembing into a [[tricategory]]:
+
+* [[Chris Schommer-Pries]], [Ph. D. thesis](https://arxiv.org/abs/1112.1000), 
+
+A [[rectification|strictification]] theorem relating all these definitions, along with a [[coherence theorem]] for the [[braided monoidal 2-category|braided]] case:
+
+* [[Nick Gurski]], *Loop spaces, and coherence for monoidal and braided monoidal bicategories*, Advances in Mathematics Volume 226, Issue 5, 20 March 2011, Pages 4225-4265 ([arXiv:1102.0981](http://arxiv.org/abs/1102.0981), [doi:10.1016/j.aim.2010.12.007](https://doi.org/10.1016/j.aim.2010.12.007)) 
+
+A [[coherence theorem|coherence]] and [[rectification|strictification]] theorem for the symmetric case (but the sylleptic case is perhaps still open):
+
+* [[Nick Gurski]], [[Angélica M. Osorno]], *Infinite loop spaces, and coherence for symmetric monoidal bicategories*, Adv. Math. 246 (2013) 1-32 ([arXiv:1210.1174](https://arxiv.org/abs/1210.1174))
+
+See also:
+
+* {#DS03} [[Brian Day]] and [[Ross Street]], "Quantum categories, star autonomy, and quantum groupoids", 2003 ([arxiv:0301209](https://arxiv.org/abs/math/0301209))
+ 
+* {#Street04} [[Ross Street]], "Frobenius monads and pseudomonoids", 2004
+  ([pdf](http://web.science.mq.edu.au/~street/Frob.pdf))
 
 [[!redirects Gray monoid]]
 [[!redirects Gray-monoid]]
