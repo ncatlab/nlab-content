@@ -923,6 +923,14 @@ $$
 
 (e.g. [Félix-Halperin-Thomas 00, p. 203](Sullivan+model+of+complex+projective+space#FelixHalperinThomas00), [Menichi 13, 5.3](Sullivan+model+of+complex+projective+space#Menichi13))
 
+### Relation to Oka theory
+
+\begin{prop}\label{ComplexProjectiveSpaceIsOkaManifold}
+**([[complex projective space]] is [[Oka manifold]])** \linebreak
+Every [[complex projective space]] $\mathbb{C}P^n$, $n \in \mathbb{N}$, is an [[Oka manifold]]. More generally every [[Grassmannian]] over the [[complex numbers]] is an Oka manifold.
+\end{prop}
+(review in [Forstnerič & Lárusson 11, p. 9](Oka+manifold#ForstnericLarusson11), [Forstnerič 2013, Ex. 2.7](Oka+manifold#Forstneric13))
+
 ### Relation to topological K-theory
  {#RelationToTopologicalKtheory}
 
