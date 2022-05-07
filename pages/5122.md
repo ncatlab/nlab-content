@@ -77,9 +77,8 @@ For details see *[[monoidal Dold-Kan correspondence]]*.
 
 
 \begin{proposition}\label{EZAWDeformationRetract}
-**([[Eilenberg-Zilber map|Eilenberg-Zilber]]/[[Alexander-Whitney map|Alexander-Whitney]] [[deformation retraction]])** \linebreak
-
-[[Eilenberg-Zilber/Alexander-Whitney deformation retraction]]
+**([[Eilenberg-Zilber/Alexander-Whitney deformation retraction]])**
+\linebreak
 
 Let 
 
