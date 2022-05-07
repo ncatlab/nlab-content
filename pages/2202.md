@@ -67,13 +67,13 @@ and
 $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
 respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem has been observed by Eilenberg and Kelly ([1966](#EilKel66), p.551), but they may not have been the first to note it.) 
 
-Alternatively, suppose that $(C, \otimes, I)$ is a symmetric monoidal category equipped with monoidal natural transformations $e_x : x \to I$ and $\Delta_x: x \to x \otimes x$ such that 
+Alternatively, suppose that $(C, \otimes, I)$ is a symmetric monoidal category equipped with [[monoidal natural transformations]] $e_x : x \to I$ and $\Delta_x: x \to x \otimes x$ such that 
 $$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes x \stackrel{\ell_x}{\longrightarrow} x $$
 and
 $$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{1 \otimes e_x}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
 are identity morphisms.  Then $(C, \otimes, I)$ is a cartesian monoidal category. 
 
-So, suppose $(C, \otimes, 1)$ is a semicartesian monoidal category.  The unique map $e_x : x \to I$ is a monoidal natural transformation.  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.  The converse is also true.
+So, suppose $(C, \otimes, 1)$ is a semicartesian monoidal category.  The unique map $e_x : x \to I$ is a [[monoidal natural transformation]].  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.  The converse is also true.
 
 The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$, apparently discovered by Robin Houston, is mentioned here:
 
