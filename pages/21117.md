@@ -424,6 +424,12 @@ Review:
 
 * [[Pratik Rath]], *Aspects of Holography And Quantum Error Correction*, 2020 ([pdf](https://digitalassets.lib.berkeley.edu/etd/ucb/text/Rath_berkeley_0028E_19810.pdf), [[RathHolographyAndQEC.pdf:file]]) 
 
+See also:
+
+* Fernando Pastawski, John Preskill, *Code properties from holographic geometries* ([arXiv:1612.00017](https://arxiv.org/abs/1612.00017))
+
+
+
 Introduction of the more general [[Majorana dimer code]]:
 
 * [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
@@ -444,6 +450,9 @@ Further discussion of holographic quantum error correcting codes:
 
 * Tobias J. Osborne, Deniz E. Stiegemann, *Dynamics for holographic codes*, J. High Energ. Phys. 2020, 154 (2020) ([arXiv:1706.08823](https://arxiv.org/abs/1706.08823))
 
+* Nathan A. McMahon, Gavin K. Brennen, Thomas M. Stace, Robert J. Harris, Elliot Coupe, *Decoding Holographic Codes with an Integer Optimisation Decoder* ([arXiv:2008.10206](https://arxiv.org/abs/2008.10206))
+
+
 * Terry Farrelly, [[Robert J. Harris]], Nathan A. McMahon, [[Thomas M. Stace]], *Tensor-network codes* ([arXiv:2009.10329](https://arxiv.org/abs/2009.10329))
 
 * ChunJun Cao, Brad Lackey, *Approximate Bacon-Shor Code and Holography* ([arXiv:2010.05960](https://arxiv.org/abs/2010.05960))
@@ -458,6 +467,12 @@ Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 In relation to [[holographic Renyi entropy]]:
 
 * [[Chris Akers]], [[Pratik Rath]], *Holographic Renyi entropy from quantum error correction*,  J. High Energ. Phys. 2019, 52 (2019) ([arXiv:1811.05171](https://arxiv.org/abs/1811.05171))
+
+From [[tesselations]] of higher-dimensional [[hyperbolic space]]:
+
+
+* Vivien Londe, Anthony Leverrier, *Golden codes: quantum LDPC codes built from regular tessellations of hyperbolic 4-manifolds* ([arXiv:1712.08578](https://arxiv.org/abs/1712.08578))
+
 
 
 In view of [[black hole thermodynamics]]:
