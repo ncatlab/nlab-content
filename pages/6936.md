@@ -120,6 +120,13 @@ The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[h
 
 This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
 
+One could also define a quotient of a [[two-valued type|boolean]]-valued equivalence relation:
+
+    Inductive quotient (A : Type) (R : A -> A -> boolean) : Type :=
+    | proj : A -> quotient A R
+    | relate : forall (x y : A), (R x y == true) -> proj x == proj y
+    | contr1 : forall (x y : quotient A R) (p q : x == y), p == q.
+
 ### Rezk completion
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Rezk completion]] or [[stack completion]] of a [[pregroupoid]] to a [[groupoid]] is a higher inductive type and the [[1-truncated]] analogue of the quotient set construction above. 
@@ -170,25 +177,25 @@ Another definition of the integers as an inductive type:
 A definition of the [[polynomial ring]] over the integers with a set of indeterminants $A$. 
 
     Inductive intpoly (A: Type)  :=
-    | indet : A -> intpoly(A)
-    | zero : intpoly(A)
-    | one : intpoly(A)
-    | neg : intpoly(A) -> intpoly(A)
-    | add : intpoly(A) -> intpoly(A) -> intpoly(A)
-    | mult : intpoly(A) -> intpoly(A) -> intpoly(A)
-    | alunital : forall (x : intpoly(A)) add zero x == x
-    | arunital : forall (x : intpoly(A)) add x zero == x
-    | aassoc : forall (x y z : intpoly(A)) add x (add y z) == add (add x y) z
-    | acomm : forall (x y : intpoly(A)) add x y = add y x
-    | alinv : forall (x : intpoly(A)) add (neg x) x == zero
-    | arinv : forall (x : intpoly(A)) add x (neg x) == zero
-    | ldist : forall (x y z : intpoly(A)) mult x (add y z) == add (mult x y) (mult x z)
-    | rdist : forall (x y z : intpoly(A)) mult (add x y) z == add (mult x z) (mult y z)
-    | mlunital : forall (x : intpoly(A)) mult one x == x
-    | mrunital : forall (x : intpoly(A)) mult x one == x
-    | massoc : forall (x y z : intpoly(A)) mult x (mult y z) == mult (mult x y) z
-    | mcomm : forall (x y : intpoly(A)) mult x y = mult y x
-    | contr1 : forall (x y : intpoly(A)) (p q : x == y), p == q.
+    | indet : A -> (intpoly A)
+    | zero : intpoly A
+    | one : intpoly A
+    | neg : (intpoly A) -> (intpoly A)
+    | add : (intpoly A) -> (intpoly A) -> (intpoly A)
+    | mult : (intpoly A) -> (intpoly A) -> (intpoly A)
+    | alunital : forall (x : intpoly A) add zero x == x
+    | arunital : forall (x : intpoly A) add x zero == x
+    | aassoc : forall (x y z : intpoly A) add x (add y z) == add (add x y) z
+    | acomm : forall (x y : intpoly A) add x y = add y x
+    | alinv : forall (x : intpoly A) add (neg x) x == zero
+    | arinv : forall (x : intpoly A) add x (neg x) == zero
+    | ldist : forall (x y z : intpoly A) mult x (add y z) == add (mult x y) (mult x z)
+    | rdist : forall (x y z : intpoly A) mult (add x y) z == add (mult x z) (mult y z)
+    | mlunital : forall (x : intpoly A) mult one x == x
+    | mrunital : forall (x : intpoly A) mult x one == x
+    | massoc : forall (x y z : intpoly A) mult x (mult y z) == mult (mult x y) z
+    | mcomm : forall (x y : intpoly A) mult x y = mult y x
+    | contr1 : forall (x y : intpoly A) (p q : x == y), p == q.
 
 ### Localization
 
