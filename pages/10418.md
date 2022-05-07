@@ -304,6 +304,14 @@ Discussion with an eye towards [[special holonomy]] is in
 
 * {#Joyce00} [[Dominic Joyce]], _Compact manifolds with special holonomy_, Oxford University Press 2000
 
+Discussion in [[modal homotopy type theory]]:
+
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+
+* {#Wellen18} [[Felix Cherubini]] (née Wellen), _Cartan Geometry in Modal Homotopy Type Theory_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966))
+
+
+
 See also the references at _[[torsion of a Cartan connection]]_ and at _[[torsion constraints in supergravity]]_.
 
 [[!redirects integrability of G-structure]]
