@@ -75,16 +75,12 @@ Lecture notes:
 
 * {#Blumberg17} [[Andrew Blumberg]], _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
-* [[Jay Shah]], _Equivariant algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
+* [[Jay Shah]], _Equivariant algebraic topology_, 2010 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
 
+Textbook account:
 
-
-Other accounts:
-
-* {#May96} [[Peter May]] et al., Sections I.3 of:  _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
+* {#May96} [[Peter May]] et al., Section I.3 of:  _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 Discussion in [[equivariant differential topology]]:
-
-* {#Illman83} [[Sören Illman]], _The equivariant triangulation theorem for actions of compact Lie groups_, Math. Ann. 262 (1983), no. 4, 487&#8211;501 ([web](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002323249))
 
 
 
