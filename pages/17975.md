@@ -105,6 +105,9 @@ Discussion of how [[superfluid]] aspects of [[axion|axionic]] fuzzy dark matter 
 
 * Andrea Addazi, Antonino Marciano, _UV completion of a theory of Superfluid Dark Matter_ ([arXiv:1801.04083](https://arxiv.org/abs/1801.04083))
 
+* [[Justin Khoury]], *Dark Matter Superfluidity* ([arXiv:2109.10928](https://arxiv.org/abs/2109.10928))
+
+
 
 
 ### Comparison and tension with experiment
