@@ -263,19 +263,20 @@ On the classification of monopoles by [[rational maps]], namely [[holomorphic ma
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
-* Charles P. Boyer, B. M. Mann, *Monopoles, non-linear $\sigma$-models, and two-fold loop spaces*,  Commun. Math. Phys. 115, 571–594 (1988) ([arXiv:10.1007/BF01224128](https://doi.org/10.1007/BF01224128))
-
-  > (generalization to [[rational maps]] to [[complex projective spaces]])
-
 
 * S. Jarvis, *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
  
 
 
-
 * Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
 
 * [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([arXiv:0908.1938](https://arxiv.org/abs/0908.1938))
+
+Generalization to [[rational maps]] to [[complex projective spaces]]:
+
+* [[Charles P. Boyer]], [[B. M. Mann]], *Monopoles, non-linear $\sigma$-models, and two-fold loop spaces*,  Commun. Math. Phys. 115, 571–594 (1988) ([arXiv:10.1007/BF01224128](https://doi.org/10.1007/BF01224128))
+
+
 
 
 
