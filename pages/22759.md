@@ -18,7 +18,7 @@
 
 ## Idea
 
-Quotient inductive types are [[higher inductive types]] that are inductively defined to be [[0-truncated]]. 
+Quotient inductive types are [[higher inductive types]] with a [[0-truncation]] constructor. 
 
 ## Examples
 
@@ -96,6 +96,15 @@ A definition of the [[polynomial ring]] over the integers with a set of indeterm
     | massoc : forall (x y z : intpoly A) mult x (mult y z) == mult (mult x y) z
     | mcomm : forall (x y : intpoly A) mult x y = mult y x
     | contr1 : forall (x y : intpoly A) (p q : x == y), p == q.
+
+### Quotients of sets
+
+The [[quotient]] of an [[hProp]]-valued or (-1)-truncated [[equivalence relation]], yielding an [[hSet]] or [[0-truncated]] type:
+
+    Inductive quotient (A : Type) (R : A -> A -> hProp) : Type :=
+    | proj : A -> quotient A R
+    | relate : forall (x y : A), R x y -> proj x == proj y
+    | contr1 : forall (x y : quotient A R) (p q : x == y), p == q.
 
 ### Cumulative hierarchy
 
