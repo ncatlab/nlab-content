@@ -78,7 +78,7 @@ Together with the [[flavour anomalies]], these anomalies relate to the [[flavour
 
 
 
-Possible explanations for the anomomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)), which at the same time are a candidate for explaining the [[flavour anomalies]] (see also [Chiang-Okada 17](#ChiangOkada17)).
+Possible explanations for the anomalies in the anomalous magnetic moments is the existence of [[leptoquarks]] ([Bauer-Neubert 15](#BauerNeubert15), [CCDM 16](#CCDM16), [Falkowski 17](#Falkowski17), [Müller 18](#Mueller18)), which at the same time are a candidate for explaining the [[flavour anomalies]] (see also [Chiang-Okada 17](#ChiangOkada17)).
 
 
 ## Contributions
