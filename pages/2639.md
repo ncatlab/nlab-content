@@ -62,7 +62,7 @@ $$
 ### Cosimplicial version
 
 
-Let $A : \Delta \times \Delta \to Ab$ be a bi-cosimplicial abelian group. And let $C : Ab^\Delta \to Ch^\bullet$ the Moore cochain complex functor. Write $C(A)$ for the [[double complex]] obtained by applying $C$ to each of the two cosimplicial directions. Then we have natural isomorphisms in cohomology
+Let $A : \Delta \times \Delta \to Ab$ be a bi-cosimplicial abelian group. And let $C : Ab^\Delta \to Ch^\bullet$ the Moore cochain complex functor. Write $C(A)$ for the [[double complex]] obtained by applying $C$ to each of the two cosimplicial directions. Then we have [[natural isomorphisms]] in [[cochain cohomology]].
 
 +-- {: .num_theorem }
 ###### Theorem
@@ -111,7 +111,9 @@ Cegarra and Remedios have proved a version of the Eilenberg -  Zilber theorem fo
 
 This is the original motivating application.
 
-Let $X$ and $Y$ be two [[topological spaces]]. Their [[chain homology]] complexes $C_\bullet(X)$ and $C_\bullet(Y)$ are the [[Moore complex]]es of the simplicial abelian groups $\mathbb{Z}[Sing X]$ and $\mathbb{Z}[Sing Y]$. So from the Dold-Puppe [[quasi-isomorphism]] $R$ from above we have a [[quasi-isomorphism]] from the [[singular cohomology]] of their [[product topological space]]
+Let $X$ and $Y$ be two [[topological spaces]]. Their [[singular homology]] [[chain complexes]] $C_\bullet(X)$ and $C_\bullet(Y)$ are the [[Moore complexes]] of the [[simplicial abelian groups]] $\mathbb{Z}[Sing X]$ and $\mathbb{Z}[Sing Y]$ [[free abelian group]] on their [[singular simplicial complexes]]. 
+
+So from the Dold-Puppe [[quasi-isomorphism]] $R$ from above we have a [[quasi-isomorphism]] of [[chain complexes]] of their [[product topological space]]:
 
 $$
   \begin{aligned}
@@ -123,45 +125,51 @@ $$
     C_\bullet( diag \mathbb{Z}[Sing X_\bullet] 
       \otimes \mathbb{Z}[Sing Y_\bullet] )
     \\
-    & \underoverset{\simeq}{R}{\longrightarrow}
-      Tot C_\bullet(\mathbb{Z}[Sing X]) \otimes C_\bullet(\mathbb{Z}[Sing Y])
+    & 
+    \underoverset{\;\simeq\;}{R}{\longrightarrow}
+      Tot 
+      C_\bullet(\mathbb{Z}[Sing X]) \otimes C_\bullet(\mathbb{Z}[Sing Y])
     \\
-    & = Tot C_\bullet(X) \otimes C_\bullet(Y) 
+    & 
+    = 
+    Tot C_\bullet(X) \otimes C_\bullet(Y) 
   \end{aligned}
 $$
 
-and hence in particular an isomorphism in cohomology.
+and hence in particular an isomorphism in [[singular cohomology]].
 
-By following through these maps one can obtain an explicit description of the quasi isomorphism if needs be.
+By following through these maps one can obtain an explicit description of the quasi isomorphism if need be.
 
 
 ## References
 
-The original reference is
+The original reference is:
 
 * [[Samuel Eilenberg]], [[Joseph Zilber]], _On Products of Complexes_, Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) ([jstor:2372629](https://www.jstor.org/stable/2372629))
 
-A weak version of the simplicial statement is in theorem 8.1.5 in 
+A weak version of the simplicial statement: 
 
-* [[Charles Weibel]], _An introduction to homological algebra_
+* [[Charles Weibel]], Theorem 8.1.5 in: _An introduction to homological algebra_
 
-The stronger version as stated above, published by Dold and Puppe,  in chapter 2 of 
+The stronger version as stated above: 
 
-* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Ann. Inst. Fourier **11** (1961) pp. 201-312. ([numdam:AIF_1961__11__201_0](http://archive.numdam.org/item/AIF_1961__11__201_0), [pdf](http://archive.numdam.org/article/AIF_1961__11__201_0.pdf))
+* [[Albrecht Dold]], [[Dieter Puppe]], Chapter 2 of: _Homologie nicht-additiver Funktoren. Anwendungen_, Ann. Inst. Fourier **11** (1961) pp. 201-312. ([numdam:AIF_1961__11__201_0](http://archive.numdam.org/item/AIF_1961__11__201_0), [pdf](http://archive.numdam.org/article/AIF_1961__11__201_0.pdf))
 
 where is is ascribed to [[Pierre Cartier]].  This result is discussed in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
-* [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_ 
+([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
-The cosimplicial version of the theorem appears as theorem A.3 in
+The cosimplicial version of the theorem appears as:
 
-* L. Grunenfelder and M. Mastnak, _Cohomology of abelian matched pairs and the Kac sequence_ ([arXiv:math/0212124](http://arxiv.org/abs/math/0212124))
+* L. Grunenfelder and M. Mastnak, Theorem A.3 in: _Cohomology of abelian matched pairs and the Kac sequence_ ([arXiv:math/0212124](http://arxiv.org/abs/math/0212124))
 
-
-The crossed complex  version is given in 
+The crossed complex version is given in 
 
 * [[Andy Tonks|A.P. Tonks]], _On the Eilenberg-Zilber Theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220,
 
-(for more detail see Tonks' [thesis](https://groupoids.org.uk/pdffiles/tonksthesis.pdf)),
+  (for more detail see Tonks' [thesis](https://groupoids.org.uk/pdffiles/tonksthesis.pdf)),
 
-and on page 360 of [[Nonabelian Algebraic Topology]].
+and on page 360 of *[[Nonabelian Algebraic Topology]]*.
+
+
