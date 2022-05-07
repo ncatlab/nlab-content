@@ -390,12 +390,51 @@ Typically for one and the same $\infty$-groupoid, Eucler characteristic and homo
 
 However, by applying some standard apparent "tricks" on non-convergent series, often these can be made sense of after all, and then do agree with the other notion. For more on this see ([Baez05](#Baez05)).
 
-### Connected sum formula
+### Basic relations for Euler characteristics of topological spaces
 
-+-- {: .num_prop #EulerCharacteristicOfConnectedSums}
-###### Proposition
+\begin{proposition}
+\label{PoincareHopfTheorem}
+**([[Poincaré–Hopf theorem]])**
+\linebreak
+(...)
+\end{proposition}
+
+
+\begin{proposition}
+\label{EulerCharacteristicOfSpheres}
+**(Euler characteristic of spheres)**
+\linebreak
+  The Euler characteristic of an even dimensional sphere is 2, that of an odd dimensional sphere vanishes:
+$$
+  \chi(S^{n})
+  \;=\;
+  \left\{
+  \array{
+    2 &\vert& n \, \text{is even}
+    \\
+    0 &\vert& \text{otherwise}
+  }
+  \right.
+$$
+\end{proposition}
+(e.g.  [Libgober, p. 16](#Libgober))
+
+\begin{proposition}
+\label{EulerCharacteristicOfCoveringSpaces}
+**(Euler characteristic of covering spaces)**
+\linebreak
+If $X \xrightarrow{q} Y$ is a [[covering space]] over a [[connected topological space]] $Y$ of [[degree of a continuous function|degree]] $deg(q) \in \mathbb{N}$ (and the [[ordinary homology]] of $X$ and $Y$ is finitely generated) then the [[Euler characteristic]] of $X$ is $deg(q)$ times that of $Y$:
+$$
+ \chi(X) \,=\, ord(G) \cdot \chi(Y)
+  \,.
+$$
+\end{proposition}
+(e.g. topospaces [here](https://topospaces.subwiki.org/wiki/Euler_characteristic_of_covering_space_is_product_of_degree_of_covering_and_Euler_characteristic_of_base))
+
+\begin{proposition}
+\label{EulerCharacteristicOfConnectedSums}
 **([[Euler characteristic]] of [[connected sums]])**
-
+\linebreak
 Let $X$ and $Y$ be [[closed manifolds]] ([[topological manifold|topological]] or [[differentiable manifold|differentiable]])  of [[even number|even]] [[dimension]]. Then the [[Euler characteristic]] of their [[connected sum]] is the [[sum]] of their separate [[Euler characteristics]], minus 2:
 
 $$
@@ -411,18 +450,12 @@ $$
   \big(Y\big)
   -2
 $$ 
-
-=--
-
+\end{proposition}
 (e.g. [here](http://math.ucr.edu/~res/miscpapers/csums+echars.pdf))
 
 ### Gauss-Bonnet theorem
 
 For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic may also be given by [[integration]] of [[infinitesimal object|infinitesimal]] data: this is the statement of the higher dimensional [[Gauss-Bonnet theorem]].
-
-### Poincaré–Hopf theorem
-
-* [[Poincaré–Hopf theorem]]
 
 ## Related concepts
 
@@ -438,7 +471,7 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 
 Review includes
 
-* Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf))
+* {#Libgober} Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf), [[Libgober_EulerCharacteristic.pdf:file]])
 
 
 Textbook account:
