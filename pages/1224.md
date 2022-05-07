@@ -238,6 +238,27 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 
 =--
 
+\begin{example}\label{FirstPairOfFaceMapsFinalInOppositeSimplexCategory}
+  For $\Delta^{op}$ the [[opposite category|opposite]] of the [[simplex category]], the non-full [[subcategory]] inclusion of the lowest two face maps
+  $$
+    \big(
+      [1]
+      \underoverset
+        {d_0}
+        {d_1}
+        {\rightrightarrows}          
+      [0]
+    \big)
+    \;\xrightarrow{\;\;\;\;}\;
+    \Delta^{op}
+  $$
+  is a final functor.
+
+  It follows that the [[colimit]] over a [[simplicial diagram]] is equivalently the [[coequalizer]] of the lowest two face maps.
+\end{example}
+
+(e.g. [Riehl 14, Exp. 8.3.8](#Riehl14))
+
 
 ## Related concepts
 
@@ -250,20 +271,19 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 
 ## References
 
-Section 2.5 of
-
-* Kashiwara, Shapira, _[[Categories and Sheaves]]_
-
-Section 2.11 of
 
 
-* {#fb} [[Francis Borceux]], _Handbook of categorical algebra 1, Basic category theory_
+* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 2.5 of: _[[Categories and Sheaves]]_
 
-Notice that this says "final functor" for the version under which limits are invariant.
+* [[Saunders Mac Lane]], Section IX.3 of: _[[Categories for the Working Mathematician]]_
 
-Section IX.3 of
+* {#fb} [[Francis Borceux]], Section 2.11 of: _[[Handbook of Categorical Algebra]] 1, Basic category theory_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
-* [[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_
+  > (this says "final functor" for the version under which limits are invariant_
+
+* {#Riehl14} [[Emily Riehl]], Section 8.3 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+
+
 
 [[!redirects cofinal functor]]
 [[!redirects cofinal functors]]
