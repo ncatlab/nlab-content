@@ -55,6 +55,8 @@ A _self-dual_ adjunction is a dual adjunction for which $F = G: C \to C$ and $\e
 
   * [[enriched adjunction]]
 
+  * [[two-variable adjunction]]
+
 
 
 [[!redirects dual adjunctions]]
