@@ -114,6 +114,16 @@ According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] th
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Cauchy complete]] [[real numbers]] could be constructed from a type universe as a quotient [[inductive-inductive type]]. 
 
+### Permutable trees
+
+Altenkirch et al. gives the following definition of a permutable tree: 
+
+    Inductive tree (A : Type) :=
+    | leaf : tree A
+    | node : (A -> tree A) -> tree A
+    | mix : (forall (e : A -> A) isequiv(e)) -> (forall (e : A -> A) forall (f: A -> tree A) node f = node(f \circ e)
+    | contr1 : forall (x y : tree A) (p q : x == y), p == q.
+
 ### Free posets
 
 A definition of a [[free object|free]] [[poset]] as a quotient inductive-inductive type:
