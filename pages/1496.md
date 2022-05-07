@@ -246,6 +246,8 @@ Named after [[Stefan Banach]].
 
 * {#SchaeferWolff99} H. H. Schaefer with M. P. Wolff, _Topological vector spaces_, Springer 1999
 
+* [[Jiří Rosický]], _Are Banach spaces monadic?_, ([arXiv:2011.07543](https://arxiv.org/abs/2011.07543))
+
 
 category: analysis
 
