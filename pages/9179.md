@@ -159,6 +159,13 @@ Attempts to explain the [[flavour anomalies]] with right-handed neutrinos:
 
 * Rusa Mandal, Clara Murgui, Ana Peñuelas, [[Antonio Pich]], _The role of right-handed neutrinos in $b \to c \tau \bar \nu$ anomalies_ ([arXiv:2004.06726](https://arxiv.org/abs/2004.06726))
 
+
+Discussion of neutrino masses in [[M-theory on G2-manifolds]]:
+
+* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on G2 orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
+
+
+
 [[!redirects neutrino]]
 [[!redirects neutrinos]]
 [[!redirects neutriono]]
