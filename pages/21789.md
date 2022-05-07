@@ -27,6 +27,8 @@ This is often considered in the special case of [[twisted ad-equivariant K-theor
 
 ## Related concepts
 
+* [[twisted equivariant Chern character]]
+
 * [[orbifold K-theory]]
 
 * [[twisted ad-equivariant K-theory]]
