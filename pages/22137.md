@@ -6,9 +6,13 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Quantum Field Theory
+#### Quantum systems
 +--{: .hide}
-[[!include AQFT and operator algebra contents]]
+[[!include quantum systems -- contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
 =--
 =--
 =--
@@ -31,7 +35,6 @@ A _quantum programming language_ is a [[programming language]] for [[quantum com
 * [[programming language]]
 
 ## References
-
 
 
 [[!include quantum programming languages -- references]]
