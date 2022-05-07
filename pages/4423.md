@@ -14,22 +14,8 @@
 =--
 
 
-* [[∞-Lie algebroid valued differential forms]]
-
-* [[connection on an ∞-bundle]]
-
-* [[curvature]]
-
-* [[Bianchi identity]]
-
-* **curvature characteristic form**
-
-* [[Chern-Simons form]]
-
-***
-
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -38,7 +24,9 @@ A _curvature characteristic form_ is a [[differential form]] naturally associate
 
 More generally, there is a notion of curvature characteristic forms of [[L-∞-algebra]]-valued differential forms and [[schreiber:∞-Lie algebroid valued differential forms]].
 
-## Of connection 1-forms
+## Definition
+
+### Of connection 1-forms
 
 For $\mathfrak{g}$ a [[Lie algebra]], $\langle -,-, \cdots, -\rangle$ an [[invariant polynomial]] of $n$ arguments on the Lie algebra and $A \in \Omega^1(P,\mathfrak{g})$ a Lie-algebra-valued 1-form with [[curvature]] 2-form $F_A = d_{dR} A + [A \wedge A]$, the **curvature characteristic form** of $A$ with respect to $\langle \cdots \rangle$ is the [[differential form]] 
 
@@ -52,7 +40,7 @@ This form is always an [[exact form]].  The $(2 n -1)$-form trivializing it is c
 Notably if $G$ is a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, $P$ is the total space of a $G$-[[principal bundle]] $\pi : P \to X$, and $A \in \Omega^1(P,\mathfrak{g})$ is an [[Ehresmann connection]] 1-form on $P$ then by the very definition of the $G$-equivariance of $A$ and the _invariance_ of $\langle \cdots \rangle$ it follows that the curvature form is invariant under the $G$-action on $P$ and is therefore the pullback along $\pi$ of a $2 n$-form $P_n \in \Omega^{2 n}(X)$ down on $X$. This form is in general no longer exaxt, but is always a [[closed form]] and hence represent a class in the [[de Rham cohomology]] of $X$. This establishes the [[Weil homomorphism]] from invariant polynomials to de Rham cohomology
 
 
-## In terms of $\infty$-Lie algebroids
+### In terms of $\infty$-Lie algebroids
 
 The above description of curvature characteristic forms may be formulated in terms of [[∞-Lie theory]] as follows.
 
@@ -97,13 +85,26 @@ $$
 
 * The single curvature characteristic form of a complex [[line bundle]]/$U(1)$-[[principal bundle]] is the curvature 2-form itself.
 
-* A sum of all curvature characteristic forms of a complex [[vector bundle]]/[[unitary group|U(n)]]-[[principal bundle]] gives the <a href="http://ncatlab.org/nlab/show/Chern+character#KTheory">Chern character of a vector bundle</a>.
+
+[[!include Chern- and Pontrjagin forms -- section]]
+
 
 ## Related concepts
 
 * [[characteristic class]]
 
 * [[Chern-Weil homomorphism]]
+
+* [[∞-Lie algebroid valued differential forms]]
+
+* [[connection on an ∞-bundle]]
+
+* [[curvature]]
+
+* [[Bianchi identity]]
+
+* [[Chern-Simons form]]
+
 
 
 ## References
@@ -126,4 +127,10 @@ $$
 [[!redirects curvature characteristic class]]
 [[!redirects curvature characteristic classes]]
 
+
+[[!redirects total Chern form]]
+[[!redirects total Chern forms]]
+
+[[!redirects Chern form]]
+[[!redirects Chern forms]]
 
