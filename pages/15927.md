@@ -1,5 +1,5 @@
 
-New Foundations (NF) is a version of axiomatic [[set theory]] in which there is a set of all sets, but the comprehension axiom is restricted by a "stratification" condition.
+New Foundations (NF) is a version of axiomatic [[set theory]] in which there is a set of all sets, but the [[axiom of comprehension]] is restricted by a "stratification" condition.
 
 The [[category]] of sets and functions in NF is known to not be [[cartesian closed category|cartesian closed]], so it is not a [[topos]], but can be equipped with [[finite limits]] and a [[subobject classifier]]. One can even construct a set of all functions between two sets, but there is no evaluation map $A\times B^A \to B$ making this an exponential in the category.
 
