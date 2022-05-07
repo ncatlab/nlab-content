@@ -58,6 +58,10 @@ The interpretation of the duality as ordinary monoidal duality in the stable hom
 
 * {#DoldPuppe} [[Albrecht Dold]], [[Dieter Puppe]], _Duality, trace and transfer_ , Proceedings of the Steklov Institute of Mathematics, (1984), issue 4 
 
+An English version of that paper is:
+
+* {#DoldPuppeEnglish} [[Albrecht Dold]], [[Dieter Puppe]], _Duality, trace and transfer_ , Proceedings of the International Conference on Geometric Topology (Warsaw, 1978), pp. 81–102, PWN, Warsaw, 1980. [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/doldpup2.pdf)
+
 Atiyah duality is due to
 
 * {#Atiyah} [[Michael Atiyah]], _Thom complexes_ , Proc. London Math. Soc. (3) , no. 11 (1961), 291&#8211;310.
