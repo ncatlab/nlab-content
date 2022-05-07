@@ -28,7 +28,7 @@ An *event structure* is a tuple $(E,\leq, \mathrm{Con})$ consisting of a [[poset
 A restricted but simpler definition is as follows: 
 
 \begin{definition}
-An *event structure with binary conflict* is a tuple $(E, \leq, \#)$, where $(E, \leq)$ is a [[poset]] and $\#$ is an irreflexive binary relation on $E$, the *conflict relation*, satisfying: 
+An *event structure with binary conflict* is a tuple $(E, \leq, \#)$, where $(E, {\leq})$ is a [[poset]] and $\#$ is an irreflexive binary relation on $E$, the *conflict relation*, satisfying: 
 
 * finite causes: for every event $e$ the set $\{e'\mid e'\le e\}$ is finite;
 
@@ -38,7 +38,7 @@ An *event structure with binary conflict* is a tuple $(E, \leq, \#)$, where $(E,
 
 \begin{proposition}
 If $(E, \leq, \#)$ is an event structure with binary conflict, then defining $\mathrm{Con} = \{ X \subseteq E \mid \forall e, e' \in X. \neg (e \# e') \} $
-makes $(E, \leq, \Con)$ and event structure. 
+makes $(E, \leq, \Con)$ an event structure. 
 
 Conversely, if an event structure $(E, \leq, \mathrm{Con})$ satisfies 
 \[ 
@@ -97,9 +97,6 @@ and
 * $X\in Con$ and $e\leq e'\in X$ then $X\cup \{e\}\in Con$.
 
 ##The category of event structures##
-
-
-##Event structures as domains## 
 
 
 
