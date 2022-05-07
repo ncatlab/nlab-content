@@ -15,6 +15,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -1327,6 +1329,215 @@ But conversely, since in an ssYT the labels may be constant horizontally, there 
 
 
 
+
+\linebreak
+
+We give further [[combinatorics|combinatorial]] expressions of the eigenvalues of the Cayley distance kernel, using the [[hook length formula]] and the [[hook-content formula]]:
+
+
+\begin{prop}\label{EigenvaluesInTermsOfHookContent}
+ **(Eigenvalues of Cayley distance kernel via [[hook-content formula]])**
+ 
+  The eigenvalues (eq:CharacterFormulaForEigenvalueOfCayleyDistanceKernel)
+  of the Cayley distance kernel for all $e^\beta \in \mathbb{R}_+$ may be expressed as:
+
+$$
+  EigVals[e^{- \beta \cdot d_C}]_\lambda
+  \;=\;
+  \frac
+    {n!}
+    {\chi^{(\lambda)}}
+  e^{- \beta \cdot N}
+  \underset
+    {
+      { 1 \leq i \leq rows(\lambda) }
+      \atop
+      { 1 \leq j \leq \lambda_i }
+    }
+    {\prod}
+    \frac{
+      e^{\beta}+ j - i
+    }{
+      \ell hook_\lambda(i,j)
+    }
+   \,.
+$$
+  
+\end{prop}
+The following proof was pointed out by [[Abdelmalek Abdesselam]].
+\begin{proof}
+  By Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} the $\lambda$th eigenvalue at integer values 
+
+$$
+  e^{\beta} = N \in \mathbb{N}_+
+$$ 
+
+is a positive multiple of the number of semi-standard Young tableau, and hence is given by the *[[hook-content formula]]*, as follows:
+
+$$
+  \begin{aligned}
+    \frac
+      {  \chi^{(\lambda)}(e) }
+      { n!  }
+    N^n
+    \cdot
+    EigVals[e^{- ln(N)} \cdot d_C]_\lambda
+    &
+    \;=\;
+    \left\vert ssYT_\lambda(N) \right\vert
+    \\
+    &
+    \;=\;
+    \underset{(i,j)}{\prod}
+    \frac
+      { N + content(i,j) }
+      { \ell hook_\lambda(i,j)  }
+  \end{aligned}
+  \,,
+  {\phantom{AAAA}}
+  N \in \mathbb{N}_+
+  \,.
+$$
+
+We may regard this set of equations as the specialization of the following more general equation
+
+$$
+  \frac
+    {  \chi^{(\lambda)}(e) }
+    { n!  }
+  (e^\beta)^n
+  \cdot
+  EigVals[e^{- \beta} \cdot d_C]_\lambda
+  \;=\;
+  \underset{(i,j)}{\prod}
+    \frac
+      { e^\beta + content(i,j) }
+      { \ell hook_\lambda(i,j) }
+$$
+
+to all integer values of $e^\beta$. But since both sides of this equation are [[polynomials]] in $e^\beta$ -- the right hand manifestly so, the left hand side by (eq:CharacterFormulaForEigenvalueOfCayleyDistanceKernel) -- the fact that the equation holds at infinite many distinct points $e^\beta \in \mathbb{N}_+$ implies that in fact it holds for all $e^\beta \in \mathbb{R}_+$.
+
+\end{proof}
+
+In fact:
+
+\begin{prop}\label{EigenvaluesInTermsOfJustBoxContent}
+**(Eigenvalues if Cayley distance kernel in terms of just box content)**
+  \linebreak
+  The Eigenvalues (eq:CharacterFormulaForEigenvalueOfCayleyDistanceKernel)
+  of the Cayley distance kernel for all $e^\beta \in \mathbb{R}_+$ may be expressed as:
+
+$$
+  EigVals[e^{- \beta \cdot d_C}]_\lambda
+  \;=\;
+  e^{- \beta \cdot N}
+  \underset
+    {
+      { 1 \leq i \leq rows(\lambda) }
+      \atop
+      { 1 \leq j \leq \lambda_i }
+    }
+    {\prod}
+    \big(
+      e^{\beta}+ j - i
+    \big)
+   \,.
+$$
+\end{prop}
+\begin{proof}
+
+The point is that the [[hook length formula]] (see [here](hook+length+formula#eq:HookLengthFormulaMeasuresDimensionOfIrrepOfSymmetricGroup)) also gives the dimension of the [[irreps]] of the [[symmetric group]]:
+
+\[
+  \label{HookLengthFormulaForDimensionOfIrrepsOfSymmetricGroup}
+  \chi^{(\lambda)}(e)
+  \;=\;
+  dim
+  \big(
+    S^{(\lambda)}
+  \big)
+  \;=\;
+  \frac
+    { n! }
+    {
+      \underset{(i,j)}{\prod}  \ell hook_\lambda(i,j)
+    }
+  \,.
+\]
+
+Using this, we compute as follows:
+
+$$
+  \begin{aligned}
+  EigVals[e^{- \lambda \cdot d_C}]_\lambda
+  & \;=\;
+  \frac
+    {n!}
+    {\chi^{(\lambda)}}
+  e^{- \beta \cdot N}
+  \underset
+    {
+      { 1 \leq i \leq rows(\lambda) }
+      \atop
+      { 1 \leq j \leq \lambda_i }
+    }
+    {\prod}
+    \frac{
+      e^{\beta}+ j - i
+    }{
+      \ell hook_\lambda(i,j)
+    }
+  \\
+  & \;=\;
+  e^{- \beta \cdot N}
+  n! 
+    \frac
+      { \underset{(i,j)}{\prod} \ell hook_\lambda(i,j) }
+      {n!}
+  \underset
+    {
+      (i,j)
+    }
+    {\prod}
+    \frac{
+      e^{\beta}+ j - i
+    }{
+      \ell hook_\lambda(i,j)
+    }  
+  \\
+  & \;=\;
+  e^{- \beta \cdot N}
+  \underset
+    {
+      { 1 \leq i \leq rows(\lambda) }
+      \atop
+      { 1 \leq j \leq \lambda_i }
+    }
+    {\prod}
+    \big(
+      e^{\beta}+ j - i
+    \big)
+    \,.
+  \end{aligned}
+$$
+Here the first line is Prop. \ref{EigenvaluesInTermsOfHookContent} and the second step inserts (eq:HookLengthFormulaForDimensionOfIrrepsOfSymmetricGroup).
+
+
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Dual basis
  {#DualBasis}
 
@@ -1616,6 +1827,7 @@ Alternatively, this follows from Prop. \ref{PositivitiViaCountingOfYoungTableaux
 
 Alternatively, this follows from the third clause of Prop. \ref{PositivitiViaCountingOfYoungTableaux}
 
+
 #### Definiteness for $\e^\beta \gt n  $
  {#DefinitenessForEBetaGreaterThann}
 
@@ -1623,60 +1835,13 @@ Alternatively, this follows from the third clause of Prop. \ref{PositivitiViaCou
   \label{CayleyDistanceKernelPositiveForEBetaGreaterThann}
   The Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ is positive definite for $e^\beta \gt n - 1$.
 \end{prop}
-The following proof was pointed out by [[Abdelmalek Abdesselam]].
 \begin{proof}
-  By Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} the $\lambda$th eigenvalue at integer values 
 
-$$
-  e^{\beta} = N \in \mathbb{N}_+
-$$ 
-
-is a positive multiple of the number of semi-standard Young tableau, and hence is given by the *[[hook-content formula]]*, as follows:
-
-$$
-  \begin{aligned}
-    \frac
-      {  \chi^{(\lambda)}(e) }
-      { n!  }
-    N^n
-    \cdot
-    EigVals[e^{- ln(N)} \cdot d_C]_\lambda
-    &
-    \;=\;
-    \left\vert ssYT_\lambda(N) \right\vert
-    \\
-    &
-    \;=\;
-    \underset{(i,j)}{\prod}
-    \frac
-      { N + content(i,j) }
-      { \ell hook_\lambda(i,j)  }
-  \end{aligned}
-  \,,
-  {\phantom{AAAA}}
-  N \in \mathbb{N}_+
-  \,.
-$$
-
-We may regard this set of equations as the specialization of the following more general equation
-
-$$
-  \frac
-    {  \chi^{(\lambda)}(e) }
-    { n!  }
-  (e^\beta)^n
-  \cdot
-  EigVals[e^{- \beta} \cdot d_C]_\lambda
-  \;=\;
-  \underset{(i,j)}{\prod}
-    \frac
-      { e^\beta + content(i,j) }
-      { \ell hook_\lambda(i,j) }
-$$
-
-to all integer values of $e^\beta$. But since both sides of this equation are [[polynomials]] in $e^\beta$ -- the right hand manifestly so, the left hand side by (eq:CharacterFormulaForEigenvalueOfCayleyDistanceKernel) -- the fact that the equation holds at infinite many distinct points $e^\beta \in \mathbb{N}_+$ implies that in fact it holds for all $e^\beta \in \mathbb{R}_+$.
-
-As such, a sufficient condition for positivity is clearly that 
+With the $\lambda$th eigenvalue expressed 
+either via Prop. \ref{EigenvaluesInTermsOfHookContent}
+or Prop. \ref{EigenvaluesInTermsOfJustBoxContent},
+it is manifest that
+a sufficient condition for their positivity is clearly that 
 $$
   e^\beta + content(i,j)
   \;\coloneqq\;
