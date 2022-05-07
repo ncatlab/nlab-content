@@ -20,38 +20,46 @@ A __cartesian model category__ (alias __cartesian closed model category__) is a 
 ## Definition
 
 \begin{definition}
-A **cartesian model category** (following [Rezk 09, 2.2](#Rezk09) and [Simpson 12](#Simpson12)) is a cartesian closed category equipped with a [[model category|model structure]] that satisfies the following additional axioms:
+A **cartesian closed model category** (following [Rezk 09, 2.2](#Rezk09) and [Simpson 12](#Simpson12)) is 
 
-* **[[pushout-product axiom]]**
+* a [[cartesian closed category]] 
 
-  For $f \colon X \to Y$ and $f' \colon X' \to Y'$ [[cofibrations]], the induced morphism 
+* equipped with a [[model category]]-[[mathematical structure|structure]]
 
-  $$
-    (Y \times X') 
-      \overset{X \times X'}{\coprod} 
-    (X \times Y') 
-       \longrightarrow 
-    Y \times Y'
-  $$
+that satisfies
 
-  is a cofibration that is a [[weak equivalence]] if at least one of $f$ or $f'$ is.
+1. the following equivalent axioms:
 
-* **[[pullback-power axiom]]**
+   * **[[pushout-product axiom]]**
 
-  For $f \colon X \to Y$ a [[cofibration]] and $f' \colon A \to B$ a [[fibration]], the induced morphism
+     For $f \colon X \to Y$ and $f' \colon X' \to Y'$ [[cofibrations]], the induced morphism 
 
-  $$
-    [Y,A] 
-      \longrightarrow
-    [X,A] \underset{[X,B]}{\prod} [Y,B]
-  $$
+     $$
+       (Y \times X') 
+         \overset{X \times X'}{\coprod} 
+       (X \times Y') 
+          \longrightarrow 
+       Y \times Y'
+     $$
 
-  is a fibration, and a weak equivalence if at least one of $f$ or $f'$ is.
+     is a cofibration that is a [[weak equivalence]] if at least one of $f$ or $f'$ is;
+
+   * **[[pullback-power axiom]]**
+
+     For $f \colon X \to Y$ a [[cofibration]] and $f' \colon A \to B$ a [[fibration]], the induced morphism
+
+     $$
+       [Y,A] 
+         \longrightarrow
+       [X,A] \underset{[X,B]}{\prod} [Y,B]
+     $$
+
+     is a fibration, and a weak equivalence if at least one of $f$ or $f'$ is.
 
 
-* **Unit axiom**  
+1. the **unit axiom**: 
 
-  The [[terminal object]] is [[cofibrant object|cofibrant]].
+   The [[terminal object]] is [[cofibrant object|cofibrant]].
 
 \end{definition}
 
@@ -76,7 +84,7 @@ A **cartesian model category** (following [Rezk 09, 2.2](#Rezk09) and [Simpson 1
 
 * {#Rezk09} [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_, Geom. Topol. 14(1): 521-571 (2010). ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602), [doi:10.2140/gt.2010.14.521](https://projecteuclid.org/journals/geometry-and-topology/volume-14/issue-1/A-cartesian-presentation-of-weak-ncategories/10.2140/gt.2010.14.521.full))
 
-* {#Simpson12} [[Carlos Simpson]],  _Homotopy theory of higher categories_ (2012)
+* {#Simpson12} [[Carlos Simpson]],  Chapter 10 of: _[[Homotopy Theory of Higher Categories]]_, Cambridge University Press 2011 ([hal:00449826](https://hal.archives-ouvertes.fr/hal-00449826/document), [ISBN:9780521516952](https://www.cambridge.org/in/academic/subjects/mathematics/geometry-and-topology/homotopy-theory-higher-categories-segal-categories-ini-categories-and-beyond?format=HB))
 
 
 [[!redirects cartesian model categories]]
