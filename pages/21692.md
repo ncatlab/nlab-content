@@ -47,7 +47,7 @@ If in addition
 
    (e.g. if $B$ is [[simply connected topological space|simply connected]], or if the fibration is a [[principal bundle]]);
 
-1. at least one of $A$, $F$ has rational [[finite type]] 
+1. at least one of $A$, $F$ is rationally [[of finite type]] 
 
 then the [[cofiber]] of any [[relative Sullivan model]] for $p$ is a [[Sullivan model]] for $F$.
 
