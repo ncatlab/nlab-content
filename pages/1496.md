@@ -34,7 +34,7 @@ Let $V$ be a [[vector space]] over the field of [[real number]]s.  (One can gene
 $$ {\| - \|}\colon V \to \mathbb{R} $$
 such that:
 
-1.  $ {\|0\|} \leq 0 $;
+1.  $ {\|0\|} \geq 0 $;
 2.  $ {\|r v\|} = {|r|} {\|v\|} $ (for $r$ a [[scalar]] and $v$ a vector);
 3.  $ {\|v + w\|} \leq {\|v\|} + {\|w\|} $.
 
