@@ -83,11 +83,13 @@ such that
 
 A [[group object]]-action 
 
-* internal to [[Sets]] is a [[topological G-space]]: a [[set]] equipped with an [[action]] of a [[discrete group]] -- this is the plain notion of a group action;
+* internal to [[Sets]] is a [[G-set]]: a [[set]] equipped with a [[group action]] by a [[discrete group]] -- this is the plain notion of a group action;
 
 * internal to [[TopologicalSpaces]] is a [[topological G-space]]: a [[topological group]] equipped with an [[action]] on a [[topological space]] by [[continuous functions]];
 
-* internal to [[SmoothManifolds]] is a [[G-manifold]]: a [[Lie group]] equipped with an [[action]] on a [[smooth manifold]] by [[smooth functions]].
+* internal to [[SmoothManifolds]] is a [[G-manifold]]: a [[Lie group]] equipped with an [[action]] on a [[smooth manifold]] by [[smooth functions]];
+
+* internal to [[SimplicialSets]] is a [[simplicial group action]],
 
 \end{example}
 
@@ -189,4 +191,7 @@ See also:
 
 [[!redirects internal action]]
 [[!redirects internal actions]]
+
+[[!redirects group action object]]
+[[!redirects group action objects]]
 
