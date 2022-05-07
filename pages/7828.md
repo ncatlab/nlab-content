@@ -46,7 +46,7 @@ KR is an example of a [[real-oriented cohomology theory]], together with for ins
 +-- {: .num_remark}
 ###### Remark on terminology
 
-An [[involution]] on a space by a [[homeomorphism]] (or [[diffeomorphism]]) as they appear in KR theory may be thought of as a "non-linear [[real structure]]", and therefore spaces equipped with such involutions are called "[[real spaces]]". Following this, $KR$-theory is usually pronounced "real K-theory". But **beware** that this terminology easily conflicts with or is confused with [[KO]]-theory. For disambiguation the latter might better be called "orthogonal K-theory". But on abstract grounds maybe $KR$-theory would best be just called $\mathbb{Z}_2$-equivariant complex K-theory.
+An [[involution]] on a space by a [[homeomorphism]] (or [[diffeomorphism]]) as they appear in KR theory may be thought of as a "non-linear [[real structure]]", and therefore spaces equipped with such involutions are called "[[real spaces]]". Following this, $KR$-theory is usually pronounced "real K-theory". But **beware** that this terminology easily conflicts with or is confused with [[KO]]-theory. For disambiguation the latter might better be called "orthogonal K-theory". 
 
 =--
 
