@@ -22,7 +22,7 @@ The *hook length formula* counts the number of standard [[Young tableaux]] with 
 
 Given a [[Young diagram]], the *hook* at any one of its boxes is the collection of boxes to the right and below that box, and including the box itself. We write "$\ell hook$" for the *length* of such a hook, i.e. for the number of boxes it contains.
 
-Then given a [[Young diagram]] corresponding to a [[partition]] $\lambda \vdash n$. Let $f^{\lambda}$ be the corresponding number of standard Young tableaux. Then
+Given a [[partition]] $\lambda \vdash n$, let $f^{\lambda}$ be the number of standard Young tableaux for the Young diagram corresponding to $\lambda$. Then
 
 $$
 f^{\lambda} = \frac{n!}{\prod_{u: \lambda} \ell hook(u)}.
