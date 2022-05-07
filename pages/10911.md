@@ -84,6 +84,8 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Harold Steinacker]], _Higher-spin gravity and torsion on quantized space-time in matrix models_ ([arXiv:2002.02742](https://arxiv.org/abs/2002.02742))
 
+* [[Harold Steinacker]], *Gravity as a Quantum Effect on Quantum Space-Time* ([arXiv:2110.03936](https://arxiv.org/abs/2110.03936))
+
 
 
 Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
