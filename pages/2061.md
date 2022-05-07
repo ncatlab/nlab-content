@@ -21,11 +21,19 @@ There are several contexts in which it is of relevance that a certain property o
 
 $$
   \array{
-     X \times_B A &\to& A
+     X \times_B A 
+       &\longrightarrow& 
+     A
      \\
-     _{\tilde{f}}\downarrow && \downarrow_f
+     {}^{\mathllap{\tilde{f}}}
+     \big\downarrow 
+       && 
+     \big\downarrow
+     {}^{\mathrlap{f}}
      \\
-     X &\to& B
+     X 
+       &\longrightarrow& 
+     B
   }
   \,.
 $$
@@ -45,6 +53,9 @@ Geometers prefer to say "stable under [[base change]]".
 ## Related concepts
 
 * [[pullback-stable colimit]]
+
 * [[stable factorization system]]
+
+* [[extensive category]]
 
 [[!redirects pullback-stability]]
