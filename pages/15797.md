@@ -1,3 +1,4 @@
+
 Sam Gitler was a Mexican [[algebraic topology|algebraic topologist]]. He was very important not only for his contribution to [[Yang-Mills theory]] and the [[Brown-Gitler spectrum]], but also for his creation, with [[José Ádem]] of the school of algebraic topology in Mexico.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Samuel_Gitler_Hammer)
@@ -12,7 +13,7 @@ On [[cohomology operations]] in [[twisted ordinary cohomology]]:
 
 On [[algebraic topology]] and [[homotopy theory]]:
 
-* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto,  _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]],  _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 On the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]] and their relation to [[Vassiliev invariants]]:
 
