@@ -391,11 +391,11 @@ See at _[[zero-section into Thom space of universal line bundle is weak equivale
 
 ## References
 
-The [[Thom isomorphism]] for Thom spaces was originally found in
+Due to:
 
-* [[René Thom]],   _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_  Comm. Math. Helv. , 28  (1954)  pp. 17&#8211;86
+* {#Thom54} [[René Thom]], p. 29 of: _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
 
-For general discussion see
+Further discussion:
 
 * [[Michael Atiyah]], _Thom complexes_, Proc. London Math. Soc. __11__  (1961)  pp. 291&#8211;310
 
