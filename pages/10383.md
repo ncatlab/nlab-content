@@ -192,6 +192,10 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 * {#RudolhSchmidt} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
 
+Specifically in [[solid state physics]] ([[valence bundles]] and their [[K-theory classification of topological phases of matter]]):
+
+* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
+
 
 category: motivation
 
