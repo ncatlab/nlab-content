@@ -25,7 +25,7 @@ Broadly speaking, _high-_ or _infinite-temperature thermal field theory_ is [[th
 
 This is relevant for example in the study of extreme [[phases of matter]] such as the [[quark-gluon plasma]] of [[QCD]] ([Blaizot-Iancu-Rebhan 03, section 2.2.4](#BlaizotIancuRebhan03), [Blaizot 04, around p. 17](#Blaizot04)).
 
-More concretely, with the formulation of [[thermal field theory]] via [[Wick rotation]] as a [[Euclidean field theory]] on a [[Riemannian manifold]] $X_3 \times S^1_\beta$ whose compact/periodic Euclidean time runs along a [[circle]] $S^1_\beta$ of [[length|circumference]] $\beta = 1/T$, the limit of infinite temperature corresponds to the [[limit of a sequence|limit]] $\beta \to 0$ in which this [[circle]] [[fiber]] shrinks away. 
+More concretely, with the formulation of [[thermal field theory]] via [[Wick rotation]] as a [[Euclidean field theory]] on a [[Riemannian manifold]] $X_3 \times S^1_\beta$ whose compact/periodic Euclidean time runs along a [[circle]] $S^1_\beta$ of [[length|circumference]] the [[inverse temperature]] $\beta = 1/T$, the limit of infinite temperature corresponds to the [[limit of a sequence|limit]] $\beta \to 0$ in which this [[circle]] [[fiber]] shrinks away. 
 
 In terms of the thermal [[Euclidean field theory]] on $X_3 \times S^1_\beta$ therefore the infinite-temperature limit is given by [[Kaluza-Klein reduction|Kaluaza-Klein-type dimensional reduction]] along this circle [[fiber]] to a 3-dimensional [[Euclidean field theory]] on $X_3$ ([Ginsparg 80](#Ginsparg80), [Appelquist-Pisarski 81](#AppelquistPisarski81), [Nadkarni 83](#Nadkarni83), [Jourjine 84](#Jourjine84), [Nadkarni 88](#Nadkarni88)).
 
