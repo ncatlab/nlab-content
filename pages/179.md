@@ -353,7 +353,7 @@ We have
 
 1. The [[fat simplex]] is cofibrant in $[\Delta, sSet_{Quillen}]_{proj}$. 
 
-1. The canonical morphism $\mathbf{\Delta} \to Delta$ is a weak equivalence between cofibrant objects in the [[Reedy model structure]] $[\Delta, sSet_{Quillen}]_{Reedy}$.
+1. The canonical morphism $\mathbf{\Delta} \to \Delta$ is a weak equivalence between cofibrant objects in the [[Reedy model structure]] $[\Delta, sSet_{Quillen}]_{Reedy}$.
 
 1. Because every representable $FSmoothMfd \hookrightarrow [FSmoothMfd^{op}, sSet]_{proj,loc}$ is cofibrant, the object $i(\mathfrak{a})_\bullet \in [\Delta^{op}, [FSmoothMfd^{op}, sSet]_{proj,loc} ]_{inj}$ is cofibrant.
 
@@ -1204,7 +1204,7 @@ $$
   \begin{aligned}
     b \mathfrak{g}
     &:=
-    InitialObject( T U\downarrow \mathbb{L}^{Delta^{op}}\downarrow \mathbf{B}G)
+    InitialObject( T U\downarrow \mathbb{L}^{\Delta^{op}}\downarrow \mathbf{B}G)
     \\
     & =
     \left(
