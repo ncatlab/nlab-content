@@ -224,9 +224,44 @@ where
 \end{proposition}
 
 
-### Convolution algebra and Relation to Drinfeld double
 
-At least for a [[finite group]] $G$, the [[groupoid convolution algebra]] of the inertia groupoid of the [[delooping groupoid]] $\mathbf{B}G$ is the [[Drinfeld double]] of the [[group convolution algebra]] of $G$.
+## Examples
+
+### Intertia groupoid of a delooping groupoid
+
+For $G$ a [[finite group]] (most of the following holds more generally fro [[discrete groups]]), we discuss the inertia groupoid $\Lambda \mathbf{B}G$ of the [[delooping groupoid]] $\mathbf{B}G \,=\, (G \rightrightarrows \ast)$.
+
+
+\begin{proposition}
+The inertia groupoid $\Lambda \mathbf{B} G$ is [[isomorphism|isomorphic]] to the [[action groupoid]] of the [[adjoint action]] of $G$ on itself:
+
+$$
+  \Lambda \mathbf{B}G
+  \;\simeq\;
+  G_{ad} \sslash G
+  \;=\;
+  \left(
+    G \times G
+    \underoverset
+      {Ad_{(-)}(-)}
+      {pr_2}
+      {\rightrightarrows}
+      G
+  \right)
+$$
+\end{proposition}
+
+
+$$
+   N\big( \Lambda \mathbf{B}G\big)_\bullet
+   \;\simeq\;
+   G^{\times_{\bullet + 1}}
+$$
+
+
+\begin{proposition}
+The [[groupoid convolution algebra]] of the inertia groupoid of the [[delooping groupoid]] $\mathbf{B}G$ is the [[Drinfeld double]] of the [[group convolution algebra]] of $G$.
+\end{proposition}
 
 ## Related concepts
 
