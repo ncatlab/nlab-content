@@ -148,12 +148,11 @@ There are several notions of [[category with weak equivalences]] with similar bu
 
 * There is also a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
 
-* [[Semimodel categories]] relax some of the conditions on lifting properties.
+* [[semimodel category|Semimodel categories]] relax some of the conditions on lifting properties.
 
-* [[Weak model categories]] relax these conditions even further.
+* [[weak model category|Weak model categories]] relax these conditions even further.
 
-* [[Premodel categories]] are an even weaker notion that allows
-for a nice [[2-categorical]] treatment.
+* [[premodel category|Premodel categories]] are an even weaker notion that allows for a nice 2-categorical treatment.
 
 
 ## Properties
