@@ -27,7 +27,7 @@ More soon!
 
 ### Papers
 
-* _Many finite-dimensional lifting bundle gerbes are torsion_ (2021), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936). Accepted to appear, Bulletin of the Australian Mathematical Society, 1 August 2021.
+* _Many finite-dimensional lifting bundle gerbes are torsion_ (2021), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936). Bulletin of the Australian Mathematical Society, doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X).
 
 
 * _Extending Whitney's extension theorem: nonlinear function spaces_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]]. Accepted to appear, Annales de l'Institut Fourier, 3 August 2020.
