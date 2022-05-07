@@ -1,4 +1,5 @@
-This page will probably have to be renamed something like "[[fiber bundles]] are [[fibrations]]" once I remember how the trick works in detail. 
+
+> This page meant to recall the proof of the local recognition of [[Hurewicz fibrations]] (see [there](Hurewicz+fibration#LocalRecognition)). But it didn't and doesn't.
 
 Let $\pi: E \to B$ be a [[principal bundle|principal]] $G$-[[fiber bundle]] which has a [[numerable cover]] (this condition obtains if for example $B$ is [[paracompact space|paracompact]]). Suppose given a commutative diagram in [[Top]]: 
 
