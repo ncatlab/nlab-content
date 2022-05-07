@@ -35,6 +35,7 @@ Similarly there the [[Veneziano amplitude]] of the string has an expression in t
 
 In other parts of the literature there is the desire to interpret the Riemann zeta function instead as a [[partition function]] of a [[quantum mechanical system]]. (Notice that the 1-loop [[vacuum amplitude]] mentioned before is instead a [[Mellin transform]] of the partition function.) The main example here is maybe the [[Bost-Connes system]].
 
+
 ## Related entries
 
 * [[number theory and physics]]
@@ -58,6 +59,13 @@ via [[string theory]]:
 * Sergio L. Cacciatori, Matteo A. Cardella, _Uniformization, Unipotent Flows and the Riemann Hypothesis_ ([arXiv:1102.1201](http://arxiv.org/abs/1102.1201))
 
 * {#HJM15} Yang-Hui He, Vishnu Jejjala, Djordje Minic, _From Veneziano to Riemann: A String Theory Statement of the Riemann Hypothesis_ ([arXiv:1501.01975](http://arxiv.org/abs/1501.01975))
+
+### Via scattering amplitudes
+
+via [[scattering amplitudes]] in [[perturbative quantum field theory]]:
+
+* Grant N. Remmen, *Amplitudes and the Riemann Zeta Function* ([arXiv:2108.07820](https://arxiv.org/abs/2108.07820))
+
 
 ### Via noncommutative geometry
 
