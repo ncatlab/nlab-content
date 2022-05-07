@@ -1610,21 +1610,20 @@ But examples of fundamental importance include for instance
 
 ### General
 
+Original articles:
 
-* [[Samuel Eilenberg]], [[Saunders MacLane]], Cohomology theory in abstract groups. II. Group extensions with a non-Abelian kernel.  Ann. of Math. (2)  48,  (1947). 326--341 [jstor](http://www.jstor.org/pss/1969174)
+* [[Samuel Eilenberg]], [[Saunders MacLane]], *Cohomology theory in abstract groups. II. Group extensions with a non-Abelian kernel*,  Ann. of Math. (2)  48,  (1947). 326--341 [jstor:1969174](http://www.jstor.org/pss/1969174)
 
-* [[Saunders MacLane]], Cohomology theory in abstract groups. III. Operator 
-homomorphisms of kernels.  Ann. of Math. (2)  50,  (1949). 736--761. 
+* [[Saunders MacLane]], Cohomology theory in abstract groups. III. Operator homomorphisms of kernels.  Ann. of Math. (2)  50,  (1949). 736--761. 
 
 * [[Lawrence Breen]], Th&#233;orie de Schreier sup&#233;rieure, Ann. Sci. &#201;cole Norm. Sup. (4) 25 (1992), no. 5, 465--514 [numdam](http://www.numdam.org/item?id=ASENS_1992_4_25_5_465_0). 
 
 
-Textbooks include
+Textbooks accounts
 
 * A. G. Kurosh, Theory of groups 
 
-* [[Kenneth Brown]], _Cohomology of groups_, Graduate Texts in Mathematics, __87__, Springer-Verlag, New York-Berlin, 1982. 
-
+* [[Kenneth Brown]],  _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
 
 Lecture notes and similar include
 
