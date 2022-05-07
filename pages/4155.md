@@ -86,10 +86,16 @@ On [[Tomita-Takesaki modular flow]] as emergent [[time]] evolution in [[quantum 
 
 [[!redirects modular conjugation]]
 [[!redirects modular conjugations]]
+[[!redirects modular flow]]
 
 [[!redirects Tomita theory]]
-[[!redirects Tomita-Takesaki theory]]
+[[!redirects Tomita modular theory]]
+[[!redirects Tomita modular flow]]
 
-[[!redirects modular flow]]
+[[!redirects Tomita-Takesaki theory]]
+[[!redirects Tomita-Takesaki modular theory]]
 [[!redirects Tomita-Takesaki modular flow]]
 
+[[!redirects Tomita–Takesaki theory]]
+[[!redirects Tomita–Takesaki modular theory]]
+[[!redirects Tomita–Takesaki modular flow]]
