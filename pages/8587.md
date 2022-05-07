@@ -4,7 +4,7 @@
 =--
 ## Introduction ## {: .num_section}
 
-In [MR764972](#MR764972) and [MR767683](MR767683), Michor gives a description of a category of "smooth manifolds" due to himself and Kriegl which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary smooth manifolds in the finite dimensional situation and. This is also true in the Banach space situation; not stated in the paper, but easy to generalize from the finite dimensional situation.
+In ([Michor 1984a](#MR764972)) and ([Michor 1984b](#MR767683)), Michor gives a description of a category of "smooth manifolds" due to himself and Kriegl which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary smooth manifolds in the finite dimensional situation. This is also true in the Banach space situation; it is not stated in the paper, but easy to generalize from the finite dimensional situation.
 
 
 +-- {: .num_section #sectionb }
@@ -107,7 +107,7 @@ An $S^{1}$ map is simply a map $f \colon M \to N$ for which $f_{*} \colon \mathc
 =--
 ## Relationship to Other Theories ## {: .num_section}
 
-Underneath the structure of a pre-manifold is a notion of a [[generalised smooth space|generalized smooth space]] which fits in with the scheme defined in [MR2805746](#MR2805746). It is formed by taking the category of test spaces to be the one-object category associated to the monoid $C^{\infty } (\mathbb{R},\mathbb{R})$, the underlying category to be $\Set$, the input forcing condition is the input terminal condition (all constant maps are smooth), and the output forcing condition is saturation (whence output functions can be safely ignored).
+Underneath the structure of a pre-manifold is a notion of a [[generalised smooth space|generalized smooth space]] which fits in with the scheme defined in ([Stacey 2011](#MR2805746)). It is formed by taking the category of test spaces to be the one-object category associated to the monoid $C^{\infty } (\mathbb{R},\mathbb{R})$, the underlying category to be $\Set$, the input forcing condition is the input terminal condition (all constant maps are smooth), and the output forcing condition is saturation (whence output functions can be safely ignored).
 
 +-- {: .num_defn #defnc .thdefn }
 ###### Definition ######
