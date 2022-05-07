@@ -40,7 +40,7 @@ If the underlying type of manifolds is [[Banach manifold]], then one speaks of _
 
 ## References
 
-* [[Andreas Kriegl]], [[Peter Michor]], _Regular infinite dimensional Lie groups_ Journal of Lie Theory Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PDF))
+* [[Andreas Kriegl]], [[Peter Michor]], _Regular infinite dimensional Lie groups_, Journal of Lie Theory Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PDF))
 
 * Rudolf Schmid, _Infinite-Dimensional Lie Groups and Algebras in Mathematical Physics_, Advances in Mathematical Physics Volume 2010, ([doi:10.1155/2010/280362](https://doi.org/10.1155/2010/280362), [pdf](http://www.emis.de/journals/HOA/AMP/Volume2010/280362.pdf))
 
@@ -50,9 +50,9 @@ If the underlying type of manifolds is [[Banach manifold]], then one speaks of _
 
   > (with an eye towards [[functional analysis]])
 
-* [[Karl-Hermann Neeb]], _Monastir summer school: Infinite-dimensional Lie groups_ ([pdf](http://www.math.uni-hamburg.de/home/wockel/data/monastir.pdf))
+* [[Karl-Hermann Neeb]], _Monastir summer school: Infinite-dimensional Lie groups_, 2005 ([pdf](http://www.math.uni-hamburg.de/home/wockel/data/monastir.pdf), [[Neeb_MonastirLieGroups.pdf:file]])
 
-* [[Karl-Hermann Neeb]], _Towards a Lie theory of locally convex groups_  ([pdf](http://arxiv.org/pdf/1501.06269.pdf))
+* [[Karl-Hermann Neeb]], _Towards a Lie theory of locally convex groups_, Japanese Journal of Math. 1 (2006), 291-468 ([arXiv:1501.06269](https://arxiv.org/abs/1501.06269)) 
 
 [[!redirects infinite-dimensional Lie groups]]
 
