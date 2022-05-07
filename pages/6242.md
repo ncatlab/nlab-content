@@ -62,7 +62,7 @@ In ([Girard 11, page xii](#Girard11)) it says:
 
 For more and more objective criticism see ([Girard 11, section 17](#Girard11)).
 
-Girard had introduced the class of [[formal logic]] systems called _[[linear logic]]_ and it has been argued that [[linear logic]] and more generally _[[linear type theory]]_ does faithfully capture the essence of [[quantum mechanics]] ([Yetter 90](#Yetter90). [Pratt 92](#Pratt92), [Abramsky-Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06)), see ([Baez-Stay 09](#BaezStay09)) for an introductory exposition). This is due to the fact that the [[categorical semantics]] of linear logic is in [[symmetric monoidal categories]] such as those used in the description of [[finite quantum mechanics in terms of dagger-compact categories]]. In particular the [[category]] of (finite dimensional) [[Hilbert spaces]] whose [[subobjects]]/[[propositions]] form the Birkhoff-von Neumann style quantum logic does interpret [[linear logic]].
+Girard had introduced the class of [[formal logic]] systems called _[[linear logic]]_ and it has been argued that [[linear logic]] and more generally _[[linear type theory]]_ does faithfully capture the essence of [[quantum mechanics]] ([Yetter 90](#Yetter90). [Pratt 92](#Pratt92), [Abramsky-Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06)), see ([Baez-Stay 09](#BaezStay09) for an introductory exposition). This is due to the fact that the [[categorical semantics]] of linear logic is in [[symmetric monoidal categories]] such as those used in the description of [[finite quantum mechanics in terms of dagger-compact categories]]. In particular the [[category]] of (finite dimensional) [[Hilbert spaces]] whose [[subobjects]]/[[propositions]] form the Birkhoff-von Neumann style quantum logic does interpret [[linear logic]].
 
 This is stated explicitly for instance in ([Pratt 92, p.4](#Pratt92)):
 
@@ -119,7 +119,9 @@ See at _[[Bohr topos]]_ for more.
 
 ## Related concepts
 
-* [[effect algebra]]
+* [[linear logic]]
+
+* [[quantum programming language]], [[quantum computation]]
 
 * [[quantum probability]]
 
@@ -151,7 +153,8 @@ See at _[[Bohr topos]]_ for more.
 
 * [[quantum circuit]]
 
-* [[linear logic]], 
+
+* [[effect algebra]]
 
 * [[quantum mechanics]]
 
@@ -212,21 +215,20 @@ Natural Sci. and Math., 15(1-2):11&#8211;25, 1975.
 
 ([Yetter 90](#Yetter90)) observes the the relation of linear logic to [[quantales]], which have otherwise been proposed as providing a quantum logic.)
 
-* [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
- {#Pratt92}
+* {#Pratt92} [[Vaughan Pratt]], _Linear logic for generalized quantum mechanics_, in Proc. of _Workshop on Physics and Computation (PhysComp'92)_ ([pdf](http://boole.stanford.edu/pub/ql.pdf), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.137.7817))
+ 
+([Pratt 92](#Pratt92) is maybe the first to really say that linear logic is a good kind of quantum logic.
 
-([Pratt 92](#Pratt92) is maybe the first to say fully that linear logic is a good kind of quantum logic.=
+* {#AbramskyCoecke} [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
 
-* [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_ ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114))
- {#AbramskyDuncan05}
+* {#AbramskyDuncan05} [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_, Mathematical Structures in Computer Science, Volume 16, Issue 3 (2006)  pp. 469 - 489  ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114), [doi:10.1017/S0960129506005275](https://doi.org/10.1017/S0960129506005275))
 
-* [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf), [slides](http://www.cs.ox.ac.uk/people/ross.duncan/talks/2005/pps-22-05-2005.pdf))
- {#Duncan06}
+* {#Duncan06} [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf), [slides](http://www.cs.ox.ac.uk/people/ross.duncan/talks/2005/pps-22-05-2005.pdf)) 
 
 (This highlights more [[linear type theory]] and its use in quantum theory.)
 
-* [[Chris Heunen]], _Quantifiers for quantum logic_ ([arXiv:0811.1457](http://arxiv.org/abs/0811.1457))
- {#Heunen08}
+* {#Heunen08} [[Chris Heunen]], _Quantifiers for quantum logic_ ([arXiv:0811.1457](http://arxiv.org/abs/0811.1457))
+ 
 
 * {#Harding08} [[John Harding]], _A link between quantum logic and categorical quantum mechanics_, Int J Theor Phys (2009) 48: 769&#8211;802
 
@@ -257,8 +259,8 @@ That therefore in particular [[categories of cobordisms]] (the domains of [[FQFT
 multiplicative connectives_, Mathematical Structures in Computer Science / Volume 15 / Issue 06 / December 2005, pp 1151 - 1178
  {#Slavnov05}
 
-* [[John Baez]], [[Mike Stay]], _Physics, topology, logic and computation: a rosetta stone_, ([arxiv/0903.0340](http://arxiv.org/abs/0903.0340)); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
- {#BaezStay09}
+* {#BaezStay09} [[John Baez]], [[Mike Stay]], *Physics, topology, logic and computation: a rosetta stone*, ([arxiv/0903.0340](http://arxiv.org/abs/0903.0340)); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174 ([doi:10.1007/978-3-642-12821-9](https://link.springer.com/book/10.1007/978-3-642-12821-9))
+ 
 
 Discussion of [[Fock space]]-type free [[quantum field theory]] in [[linear logic]] is in 
 
