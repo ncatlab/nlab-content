@@ -1,6 +1,6 @@
 **Marta Bunge** is a Canadian mathematician. Her research includes fibered categories, stacks and groupoids, topos theory, geometric Galois theory of covering spaces, [[synthetic differential topology]], ...
 
-* [homepage](http://www.math.mcgill.ca/~bunge)
+* [homepage](http://www.math.mcgill.ca/bunge)
 * _Categories of Set-Valued Functors_, thesis, University of Pennsylvania, 1966
 * _Relative functor categories and categories of algebras_, J. of Algebra __11__,1 (1969), 64-101, [MR236238](http://www.ams.org/mathscinet-getitem?mr=236238) <a href="http://dx.doi.org/10.1016/0021-8693(69)90102-1">doi</a>
 * _Internal presheaves toposes_, Cahiers de Top. et G&#233;om. Diff. Cat&#233;g. __18__, no. 3 (1977), p. 291-330 [numdam](http://www.numdam.org/item?id=CTGDC_1977__18_3_291_0) [MR460417](http://www.ams.org/mathscinet-getitem?mr=460417)
