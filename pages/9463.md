@@ -8,6 +8,15 @@ On generalizing the notion of [[solid rings]] to [[monoids in a monoidal categor
 
 * {#Gutierrez13} [[Javier J. Gutiérrez]], *On solid and rigid monoids in monoidal categories*, Applied Categorical Structures 23, no. 2 (2015), 575-589 ([arXiv:1303.5265](https://arxiv.org/abs/1303.5265))
 
+On [[Hurewicz cofibrations]]:
+
+* [[Javier Gutiérrez]], *Cofibrations*, ([pdf](https://www.math.ru.nl/~gutierrez/files/Lecture08.pdf), [[Gutierrez_Cofibrations.pdf:file]])
+
+
+## Related $n$Lab entries
+
+* [[dendroidal set]]
+
 
 category: people
 
