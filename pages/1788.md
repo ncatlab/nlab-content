@@ -1,4 +1,6 @@
 
+[[powering of ∞-toposes over ∞-groupoids -- section]]
+
 $$
   \begin{array}{lll}
     &
