@@ -466,10 +466,10 @@ Every geometric morphism $f:E\to F$ factors, uniquely up to equivalence, as a su
 For every [[Grothendieck topos]] $E$, there is a geometric morphism
 
 $$
-  \Gamma : E  \stackrel{\leftarrow}{\to} Set : const
+  \Gamma \;\colon\; E  \stackrel{\leftarrow}{\to} Set : const
 $$
 
-called the [[global section]]s functor. It is given by the [[hom-set]] out of the [[terminal object]]
+called the [[global sections]] functor or *[[terminal geometric morphism]]*. It is given by the [[hom-set]] out of the [[terminal object]]
 
 $$
   \Gamma(-) = Hom_E({*}, -)
@@ -477,10 +477,10 @@ $$
 
 and hence assigns to each object $A\in E$ its set of [[global element]]s $\Gamma(A) = Hom_E(*,A)$. If we think of $A$ as a [[sheaf]], then $\Gamma(A)$ is the set of **global sections**.
 
-The [[left adjoint]] $const : Set \to E$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
+The [[left adjoint]] $const \;\colon\; Set \to E$ of the global section functor is the canonical [[Set]]-[[copower|tensoring]] functor
 
 $$
-  \otimes : Set \times E \to E
+  \otimes \;\colon\; Set \times E \to E
 $$
 
 applied to the [[terminal object]]
