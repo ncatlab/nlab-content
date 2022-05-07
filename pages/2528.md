@@ -42,7 +42,7 @@ For example, consider the identity prefunction on the underlying preset of both 
 
 In general, the prefunctions from $X$ to $Y$ form a preset, since there is no way to compare them for equality.  (Of course, it is still [[predicative mathematics|impredicative]], at least in the classical sense, to form this preset.)  However, if $Y$ is a set, then these prefunctions do form a set, with $f = g$ defined to mean that $f(a) = g(a)$ for every $a$ in $X$.  If $X$ is also a set, then the [[function set]] from $X$ to $Y$ is a [[subset]] of this set of prefunctions.
 
-Composition of prefunctions is also possible, but likewise does not preserve equality. If $A$ is a preset, then the elements of $A$ could be thought of as prefunctions from the terminal preset $1$ to $A$. 
+Composition of prefunctions is also possible, but likewise does not preserve equality. 
 
 A (say binary) __prerelation__ between $X$ and $Y$ may be thought of as a prefunction from $X \times Y$ to [[truth values]].  Even if one is too predicative to allow a (pre)set of truth values, still one may have a notion of prerelation, by fiat if nothing else.  Note that one *can* compare prerelations for equality; $R = S$ means that $a \sim_R b$ if and only if $a \sim_S b$.  (In other words, a preset of truth values becomes a set under the biconditional, so we can compare functions to it.)  We define a [[relation]] between sets to be a prerelation that respects equality.
 
@@ -59,6 +59,7 @@ The sorts in [[Michael Makkai]]\'s [[FOLDS]] are presets.  FOLDS is very differe
 
 If you are willing to accept the presentation axiom, then you can define a notion of preset internal to a given theory of sets: as a [[projective set]].  (With the full axiom of choice, therefore, a preset is simply a set.)  Alternatively, you might forgo presets as such but define a prefunction between sets to be an entire relation; although not everything translates, some of the properties are similar.
 
+In [[homotopy type theory]], a preset (or type) is an [[∞-groupoid]] whose identity type represents [[homotopy equivalence]] instead of equality. A set is then defined as a [[n-truncated object of an (infinity,1)-category|0-truncated]] preset, where equality is a special type of homotopy equivalence where all [[n-morphism|n-morphisms]] for $n\geq 1$ are trivial. For example, the [[integers]] $\mathbb{Z}$ are usually constructed as the [[loop space]] of the [[circle]] as a preset, and only later proven that $\mathbb{Z}$ is a set. Likewise, a [[preorder]] is a preset or ∞-groupoid with a transitive and reflexive relation, and in general, pre-structures are structures over an underlying preset or ∞-groupoid instead of a set. Unlike in the above cases, in homotopy type theory, it is not true that every preset has a free set.
 
 ## Applications
 
