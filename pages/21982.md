@@ -80,7 +80,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * {#Moore02} [[Greg Moore]], _K-Theory from a physical perspective_, in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal, Cambridge University Press (2004)  ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018), [doi:10.1017/CBO9780511526398.011](https://doi.org/10.1017/CBO9780511526398.011))
 
-* [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
+* {#Manjarin04} [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
 
 * {#Evslin06} [[Jarah Evslin]], _What Does(n't) K-theory Classify?_, Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328), [spire:730502](https://inspirehep.net/literature/730502))
