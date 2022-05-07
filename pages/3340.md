@@ -141,17 +141,23 @@ $$
 
 ## Related entries 
 
-* [[additive K-theory]]
+* [[cyclic space]]
+
+* [[cyclic loop space]]
 
 * [[cycle category]], [[cyclic object]], [[Hochschild homology]]
+
+* [[topological cyclic homology]]
+
 
 * [[Sullivan model of free loop space]]
 
 * [[dihedral homology]]
 
-* [[topological cyclic homology]]
 
 * [[Loday-Quillen-Tsygan theorem]]
+
+* [[additive K-theory]]
 
 ## References
 
