@@ -19,7 +19,7 @@
 
 ## Idea
 
-Possibly empty groups arise from [[pseudo-torsors]], or equivalently from associative [[Malcev operations|Malcev algebras]], [[heaps]]/[[torsors]] being [[inhabited]] [[associative Malcev algebra]]s and giving rise to [[groups]]. The definition of a possibly empty group given below [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
+Possibly empty groups arise from [[pseudo-torsors]], or equivalently from associative [[Malcev operations|Malcev algebras]], [[heaps]]/[[torsors]] being [[inhabited]] [[associative Malcev algebra]]s and giving rise to [[groups]]. The first definition of a possibly empty group given below [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
 
 ## Definition
 
@@ -57,11 +57,13 @@ A __possibly empty group__ is a set $S$ with a binary operation $(-)\cdot(-):S\t
 * left [[Malcev operation|Malcev identity]]: $b \cdot b^{-1} \cdot a = a$ for all $a,b\in S$
 * right [[Malcev operation|Malcev identity]]: $a \cdot b^{-1} \cdot b = a$ for all $a,b\in S$
 * [[commutative|commutativity]] with [[inverse elements]]: $a \cdot a^{-1} = a^{-1} \cdot a$ for all $a\in S$
-* [[unique|uniqueness]] of [[identity element]] if [[inhabited]]: $a \cdot a^{-1} = b \cdot b^{-1}$ for all $a,b\in S$
+* [[unique|uniqueness]] of [[identity element]] if [[inhabited]]: $a \cdot a^{-1} = b \cdot b^{-1}$ for all $a,b\in S$. 
+
+One could then define __left division__ to be $a \backslash b = a^{-1} b$ and __right division__ to br $a / b = a b^{-1}$. 
 
 ## Pseudo-torsor
 
-Every possibly empty left group $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = x \cdot (y \backslash z)$. Every possibly empty right group $H$ has a pseudo-torsor $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x / y) \cdot z$. This means every possibly empty group has two pseudo-torsors. If the (left or right) possibly empty group is inhabited, then those pseudo-torsors are actually [[torsors]]. 
+Every possibly empty left group $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = (x\backslash (x\backslash x))\backslash (y \backslash z)$. Every possibly empty right group $H$ has a pseudo-torsor $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x/y)/((z/z)/z)$. This means every possibly empty group has two pseudo-torsors. If the (left or right) possibly empty group is inhabited, then those pseudo-torsors are actually [[torsors]]. 
 
 ## Examples
 
