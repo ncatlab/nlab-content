@@ -145,7 +145,11 @@ A weak version of the simplicial statement is in theorem 8.1.5 in
 
 * [[Charles Weibel]], _An introduction to homological algebra_
 
-The stronger version as stated above is in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
+The stronger version as stated above is in chapter 2 of 
+
+* [[Albrecht Dold|A. Dold]], [[D. Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_ , Ann. Inst. Fourier **11** (1961) pp.201-312. ([pdf](http://archive.numdam.org/ARCHIVE/AIF/AIF_1961__11_/AIF_1961__11__201_0/AIF_1961__11__201_0.pdf))
+
+and is discussed in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
 * [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
