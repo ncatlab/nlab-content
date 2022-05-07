@@ -377,6 +377,7 @@ See also:
 
 *  [[Han Yan]], _Hyperbolic Fracton Model, Subsystem Symmetry, and Holography_, Phys. Rev. B 99, 155126 (2019) ([arxiv:1807.05942](https://arxiv.org/abs/1807.05942))
 
+* [[Chris Akers]], [[Geoff Penington]], *Quantum minimal surfaces from quantum error correction* ([arXiv:2109.14618](https://arxiv.org/abs/2109.14618))
 
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
