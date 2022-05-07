@@ -60,3 +60,6 @@ The notion of split epimorphism arises often as a condition on fibrations in [[c
 [[!redirects absolute epi]]
 [[!redirects absolute epis]]
 [[!redirects absolute epic]]
+
+[[!redirects split surjection]]
+[[!redirects split surjections]]
