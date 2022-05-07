@@ -63,3 +63,4 @@ He makes the point that they were initially studied by Ehresmann and are very cl
 [[!redirects partially ordered dagger-category]]
 [[!redirects partially ordered dagger category]]
 [[!redirects partially ordered †-category]]
+[[!redirects ordered groupoid]]
