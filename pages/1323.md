@@ -143,7 +143,9 @@ A further non-example:
 
 ## References 
 
-* [[Aurelio Carboni]],  and [[Stephen Lack]],  and [[Robert F. C. Walters]], _Introduction to extensive and distributive categories_,  Journal of Pure and Applied Algebra 84 (1993) 145-158, 
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+
+
 
 * {#Lack} [[Stephen Lack]], _Non-canonical isomorphisms_.  [arXiv:0912.2126](http://arxiv.org/abs/0912.2126).
 
