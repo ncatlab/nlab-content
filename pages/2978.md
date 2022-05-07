@@ -98,6 +98,7 @@ A [[subspace]] of a [[Cartesian space]] is totally bounded if and only if it is 
 ## Related concepts
 
 * [[bounded subset]]
+* [[precompact space]]
 
 ## References
 
@@ -114,8 +115,3 @@ A [[subspace]] of a [[Cartesian space]] is totally bounded if and only if it is 
 [[!redirects totally bounded uniform spaces]]
 [[!redirects totally bounded uniformity]]
 [[!redirects totally bounded uniformities]]
-
-[[!redirects precompact space]]
-[[!redirects precompact spaces]]
-[[!redirects pre-compact space]]
-[[!redirects pre-compact spaces]]
