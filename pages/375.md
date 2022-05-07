@@ -93,7 +93,7 @@ $$(1 \stackrel{\langle [g], [f] \rangle}{\to} Z^Y \times Y^X \stackrel{c_{X, Y, 
 
 * In a cartesian closed category, the product functors $A \times -$ have [[right adjoints]], so they preserve all [[colimits]].  In particular, a cartesian closed category that has finite [[coproducts]] is a [[distributive category]].
 
-* The [[internal logic]] of cartesian closed categories is the [[typed lambda-calculus]].
+* The [[internal logic]] of cartesian closed categories is [[minimal logic]] or the [[typed lambda-calculus]].
 
 ### Inheritance by reflective subcategories
 
