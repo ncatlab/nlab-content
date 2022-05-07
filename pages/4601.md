@@ -36,6 +36,8 @@ A [[poset]] is a thin category. In particular so are [[lattice|(semi)lattices]],
 
 ## Related concepts
 
+* [[setoid]]
+
 * [[specializaton order]]
 
 * [[separation axioms in terms of lifting properties]]
