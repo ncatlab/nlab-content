@@ -55,7 +55,7 @@ Finally, when understanding [[thermal field theory|thermal]]/[[Euclidean field t
 
 * [[temperature]]
 
-* [[thermal field theory]]
+* [[thermal field theory]], [[infinite-temperature thermal field theory]]
 
 * [[kernel methods]]
 
