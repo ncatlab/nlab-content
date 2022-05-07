@@ -28,15 +28,15 @@ From [Devitt, Nemoto & Munro 2009](#DevittNemotoMunro09):
 
 The simple but important special case of passive correction of erasures may be  handled by *quantum error correcting codes*:
 
-Recall that a classical [[error correcting code]] on a [[finite set]] of states $S$ is, typically, a choice of [[injection]] of $S$ into a [[Cartesian product]] with itself
+Recall that a classical [[error correcting code]] on a [[finite set]] of states $S$ is, typically, a choice of [[injection]] of $S$ into some larger set, typicall a [[Cartesian power]] 
 
 $$
-  S \overset{\;\;\;\;\;\;\;\;}{\hookrightarrow} S \times \cdots \times S
+  L \overset{code}{\hookrightarrow} P \coloneqq H \times \cdots \times H
 $$
 
 (often considered in the form of [[linear codes]], but classical nonetheless). In [[quantum physics]] the [[Cartesian product]] of sets of states is replaced by the [[tensor product of vector spaces|tensor product]] of [[Hilbert spaces]].
 
-For $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a larger Hilbert spaces, typically an  $n$-fold [[tensor product]] of copies of $H$:
+For $\mathcal{L}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a larger Hilbert spaces, often an  $n$-fold [[tensor product]] of copies of some $H$:
 
 $$
   \array{
@@ -55,6 +55,8 @@ $$
         \hookrightarrow
       }
     &
+    \mathcal{P}
+    \coloneqq
     \underset{
       \color{blue}
       physical\;qbits
