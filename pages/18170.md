@@ -19,7 +19,7 @@ The [[commutative ring]] of dyadic rational numbers $\mathbb{Z}[1/2]$ is the [[l
 
 * [[Urysohn's lemma]]
 
-* [[symmetric midpoint group]]
+* [[symmetric midpoint algebra]]
 
 ## References
 
