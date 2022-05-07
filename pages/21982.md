@@ -58,11 +58,11 @@ Discussion of D-brane [[matrix models]] taking these K-theoretic effects into ac
 
 Discussion of charge quantization in [[twisted K-theory]] for the case of non-vanishing [[B-field]]:
 
-* [Witten 98, Sec. 5.3](#Witten98)
+* [Witten 98, Sec. 5.3](#Witten98) (for [[torsion subgroup|torsion]] twists)
 
-* [[Peter Bouwknegt]], [[Varghese Mathai]], _D-branes, B-fields and twisted K-theory_, Int. J. Mod. Phys. A16:693-706, 2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
+* [[Peter Bouwknegt]], [[Varghese Mathai]], _D-branes, B-fields and twisted K-theory_, Int. J. Mod. Phys. A16:693-706, 2001 ([arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023))
 
-An proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
+An elaborate proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
