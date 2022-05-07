@@ -1,8 +1,10 @@
 
-* [webpage](http://web.math.rochester.edu/people/faculty/cohf/)
+* [personal page](http://web.math.rochester.edu/people/faculty/cohf/)
+
+* [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=6654)
+
 
 ## Selected writings
-
 
 On the [[real cohomology]] of (the [[Fulton-MacPherson compactification]] of) [[configuration spaces of points|configuration spaces of ordered points]] in [[Euclidean space]]:
 
@@ -28,8 +30,16 @@ On [[homotopy of rational maps]] and [[moduli spaces of monopoles]] related to [
 * [[Ralph Cohen]], [[John D. S. Jones]],  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
 
 
+On [[mapping spaces]] of [[group homomorphisms]] from [[finitely generated group|finitely generated]] [[discrete groups]] to [[Lie groups]]:
+
+* [[Frederick R. Cohen]], [[Mentor Stafa]], *A survey on spaces of homomorphisms to Lie groups*,  In: Callegaro F., Cohen F., De Concini C., Feichtner E., Gaiffi G., Salvetti M. (eds.) *Configuration Spaces*, INdAM Series, vol 14, Springer 2016 ([arXiv:1412.5668](https://arxiv.org/abs/1412.5668), [doi:10.1007/978-3-319-31580-5_15](https://doi.org/10.1007/978-3-319-31580-5_15)) 
 
 
 
 
 category: people
+
+
+[[!redirects Fred Cohen]]
+[[!redirects Frederick Ronald Cohen]]
+
