@@ -17,7 +17,8 @@
 
 ## Definition
 
-An [[action]]
+\begin{definition}
+A [[group action]]
 
 $$
   (-)\cdot(-) \;\colon\; G \times X \to X
@@ -27,15 +28,14 @@ of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$,  th
 
 Equivalently, an action is free if and only if for any [[pair]] of elements $x,y \in X$, there is _at most one_ group element $g \in G$ such that $g \cdot x = y$. 
 
-In more abstract terms this says that the action is free if and only if its [[shear map]] 
+This means equivalently that the action is free if and only if its [[shear map]] is a [[monomorphism]]:
 
 $$
   \array{
     G \times X
     &
-    \overset
-      { (pr_2, \cdot) }
-      {\longrightarrow}&
+    \xhookrightarrow{\;(pr_2, \cdot)\;}
+    &
     X \times X
     \\
     (g, x) 
@@ -47,8 +47,8 @@ $$
   }
 $$
 
-is a [[monomorphism]]. In this form the definition makes sense for [[action objects]] [[internalization|internal]] to any ambient [[category]] (with [[finite products]]).
-
+In this form the definition makes sense for [[action objects]] [[internalization|internal]] to any ambient [[category]] (with [[finite products]]).
+\end{definition}
 
 
 \begin{remark}
