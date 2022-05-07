@@ -164,6 +164,8 @@ $$
 
 ## Related concepts
 
+* [[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]
+
 * [[Pos]]
 
 * [[Set]]
@@ -188,4 +190,7 @@ category: category
 
 [[!redirects (∞,1)Categories]]
 [[!redirects (infinity,1)Categories]]
+
+[[!redirects (infinity,2)-category of (infinity,1)-categories]]
+
 
