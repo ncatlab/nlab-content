@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-The [[duality|dual]] concept is [[cobase change]].
+More generally, such a triple adjunction holds whenever $C$ is [[locally cartesian closed category|locally cartesian closed]], and indeed this [[locally cartesian closed category#DependentProductImpliesLocalCartesinClosure|characterises]] locally cartesian closed categories. The [[duality|dual]] concept is [[cobase change]].
 
 
 ## Definition
