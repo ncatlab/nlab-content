@@ -8,7 +8,7 @@ On the notion of [[spectrum (geometry)|spectrum in geometry]]
 
   (on [[multi-adjoints]])
 
-* [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.02167))
+* [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
 
 * [[Axel Osmond]], _The general construction of Spectra_, [arXiv:2102.01259](https://arxiv.org/abs/2102.01259).
 
