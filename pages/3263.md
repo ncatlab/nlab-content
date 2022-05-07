@@ -42,11 +42,16 @@ There are now modern generalizations to many variables due Aomoto and another va
 
 * [[Israel Gelfand|I. M. Gelfand]], M. M. [[Kapranov]], [[Andrei Zelevinsky|A. Zelevinsky]], _Discriminants, resultants and multidimensional determinants_, Birkh&#228;user 1994, 523 pp.
 
-* [[A. Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. 
 
-* V. Tarasov, A. Varchenko, _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp.
+* [[Ian G. Macdonald]], _Hypergeometric functions I_, 1987 ([arxiv/1309.4568](http://arxiv.org/abs/1309.4568))
 
-* Ian G. Macdonald, _Hypergeometric functions I_, 1987, reprinted in [arxiv/1309.4568](http://arxiv.org/abs/1309.4568)
+In relation to the [[Knizhnik-Zamolodchikov equation]] and [[quantum groups]]:
+
+* [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
+
+* V. Tarasov, [[Alexander Varchenko]], _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp. ([arXiv:q-alg/9703044](https://arxiv.org/abs/q-alg/9703044), [numdam:AST_1997__246__R1_0](http://www.numdam.org/item/AST_1997__246__R1_0))
+
+
 
 Online entries/resources on hypergeometric function:
 
