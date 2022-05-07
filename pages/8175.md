@@ -407,6 +407,8 @@ Further discussion of the case of [[twisted K-theory]]:
 
 * [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Section 21 of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
+An analogous spectral sequence for higher [[twisted de Rham cohomology]] is discussed in [Li, Liu & Wang 2009](twisted+de+Rham+cohomology#LiLiuWang09).
+
 A discussion of the $E$-AHSS as the spectral sequence of a tower induced by forming [[mapping spectra]] $[X,-]$ into the [[Postnikov tower]] is due to 
 
 * {#Shulman13} [[Mike Shulman]], _[[homotopytypetheory:spectral sequences]]_ (2013)
