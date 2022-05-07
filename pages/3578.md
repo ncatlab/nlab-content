@@ -538,6 +538,7 @@ This appears as [[Higher Topos Theory|HTT, prop. 2.1.2.11]].
 * {#AyalaFrancis17} [[David Ayala]], [[John Francis]], _Fibrations of $\infty$-Categories_ ([arXiv:1702.02681](https://arxiv.org/abs/1702.02681))
 
 
+[[!redirects left/right Kan fibrations]]
 
 [[!redirects left fibration]]
 [[!redirects left fibrations]]
