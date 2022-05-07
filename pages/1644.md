@@ -16,15 +16,50 @@
 * table of contents
 {:toc}
 
+## Idea
+
+For $\mathcal{C}$ any [[category]] or, more generally, [[(n,r)-category]], its *core* is the maximal [[groupoid]] inside it, generally the maximal sub-[[(n,0)-category]], hence the maximal [[infinity-groupoid|$\infty$-groupoid]] inside it.
+
+Since[[functor]] out of a groupoid $\mathcal{G}$, and generally an [[(infinity,n)-functor|(n,r)-functor]] out of an [[infinity-groupoid|$\infty$-groupoid]], necessarily takes values in [[isomorphisms]] or generally in [[equivalences]], hence in the core of its [[codomain]], 
+
+$$
+  Cat_{n,r}
+  \big(
+    \mathcal{G}
+    ,\,
+    \mathcal{C}
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  Grpd_{n}
+  \big(
+    \mathcal{G}
+    ,\,
+    core(\mathcal{C})
+  \big)
+  \,,
+$$
+
+the core construction is the [[right adjoint]] to the [[full subcategoru|full]] inclusion of [[groupoids]] among [[categories]] (generally: [[(n,0)-categories]] among [[(n,r)-categories]]):
+
+$$
+  Grpd_n
+  \underoverset
+    {\underset{core}{\longleftarrow}}
+    {\hookrightarrow}
+    {\bot}
+  Cat_{n,r}
+  \,.
+$$
+
+
 ## Definition
 
 +-- {: .num_defn #CoreOfCategories}
 ###### Definition
 
-For $C \in $ [[Cat]] a [[category]], its **core**
-
-$core(C) \in$ [[Grpd]]  
-
+For $C \in $ [[Cat]] a [[category]], its **core** $core(C) \in$ [[Grpd]]  
 is the [[groupoid]] which is the maximal [[subcategory|sub]]-[[groupoid]] of $C$: the [[subcategory]] consisting of all objects of $C$ but with [[morphisms]] only the [[isomorphisms]] of $C$.
 
 This construction extends to a 1-[[functor]]
@@ -58,7 +93,17 @@ Every groupoid has a contravariant functor to itself. It preserves the objects a
 +-- {: .num_prop }
 ###### Proposition
 
-The core-functor of def. \ref{CoreOfCategories} is [[right adjoint]] to the [[forgetful functor]] $U \colon Grpd \to Cat$ from groupoids to categories. 
+The core-functor of def. \ref{CoreOfCategories} is [[right adjoint]] to the [[full subcategory]]-inclusion $U \colon Grpd \to Cat$ of groupoids into categories. 
+
+$$
+  Grpd
+  \underoverset
+    {\underset{core}{\longleftarrow}}
+    {\hookrightarrow}
+    {\bot}
+  Cat
+  \,.
+$$
 
 =--
 
@@ -107,6 +152,15 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
 * [[core in a 2-category]]
 
+## References
+
+Discussion in the generality of [[(infinity,n)-categories|$(\infty,n)$-categories]]:
+
+* {#Lurie09} [[Jacob Lurie]], Around Prop. 1.1.14 in: _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ 
+
+
+
 [[!redirects core]]
 [[!redirects cores]]
 [[!redirects underlying groupoid]]
@@ -115,3 +169,4 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 [[!redirects maximal subgroupoids]]
 [[!redirects maximal sub-groupoid]]
 [[!redirects maximal sub-groupoids]]
+
