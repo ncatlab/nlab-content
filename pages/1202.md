@@ -54,7 +54,11 @@ The attempt to make explicit the set-theoretic assumptions in the proof led him 
 That the well-ordering theorem is more of a *theorem* in need of a proof, while the axiom of choice is more of an *axiom* to be assumed without proof is, of course, a matter of opinion, but it\'s reflected in Jerry Bona\'s famous quotation:
 >The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about [[Zorn's lemma]]?
 
-Ironically, in [[constructive mathematics]], the well-ordering principle is (seemingly) actually *weaker* than the full axiom of choice, as it does not imply excluded middle by itself.  It does, however, imply the full axiom of choice (and hence excluded middle) if by 'well-order' we mean a _classical_ [[well-order]], in the sense that every inhabited subset has a least element, rather than the constructively sensible notion of well-order that [[well-founded relation|merely permits inductive proofs]]. [[Zorn's lemma]] is likewise constructively weaker than the axiom of choice, although it is not particularly useful without excluded middle.
+## In constructive mathematics
+
+In [[constructive mathematics]], the well-ordering principle is also equivalent to the axiom of choice. This was [proved by Andrew Swan](https://hott.zulipchat.com/#narrow/stream/228519-general/topic/inductive.20well-ordering.20gives.20excluded.20middle.3F/near/246863644) (2021) and [formalized in Agda by Tom de Jong](https://www.cs.bham.ac.uk/~mhe/TypeTopology/WellOrderingTaboo.html) (2021). 
+
+[[Zorn's lemma]] is, on the other hand, constructively weaker than the axiom of choice, as it doesn't even imply excluded middle. But together with excluded middle it implies choice. However, Zorn's lemma is not particularly useful without excluded middle.
 
 ## Related entries
 
