@@ -136,6 +136,8 @@ Some examples of terminal objects in notable categories follow:
 
 * [[terminal object in a quasi-category]].
 
+* [[strict terminal object]]
+
 
 [[!redirects terminator]]
 [[!redirects terminal object]]
