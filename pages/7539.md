@@ -10,7 +10,7 @@ This is an entry on the notion of **complex of groups** introduced by [[André H
 
 ##Idea
 
-A _complex of groups_ is a [[diagram]] of [[groups]], [[homomorphisms]] and [[conjugations]], corresponding, abstractly, to the system of inclusions of the [[stabiliser]] subgroups of an [[action]] of a group on a [[simplicial cell complex]] or equivalently on a [[small category without loops]]. If the complex is 1-dimensional one gets a [[graph of groups]].
+A _complex of groups_ is a [[diagram]] of [[groups]], [[homomorphisms]] and [[conjugations]], corresponding, abstractly, to the system of inclusions of the [[stabiliser]] subgroups of an [[action]] of a group on a [[simplicial cell complex]] or equivalently on a [[small category without loops]]. If the complex is 1-dimensional one obtains a [[graph of groups]] - note however, the category of 1-complexes of groups is not equivalent as a category to the category of graphs of groups (see [[A. Thomas]] Proposition 2.1).
 
 ##Definition
 
@@ -39,13 +39,26 @@ $$g_{a, cb} \psi_a (g_{b, c}) = g_{ab, c} g_{a, b}$$
 holds.
 
 
+###Developability and the universal cover
+
+(to come later)
+
+###The universal group and fundamental group
+
+(to come later)
+
+
 ##Examples
 
 (to come later)
 
+
+
 ## Complexes of groups as pseudofunctors.
 
 see paper by [[Tom Fiore]] et al (below)
+
+
 
 ##References
 
@@ -56,6 +69,8 @@ Grundlehren der Math. Wiss, Springer.
 viewpoint , 504 &#8211; 540, ICTP, Trieste, 26 March- 6 April 1990, World Scientific.
 
 * [[J. M. Corson]], _Complexes of Groups_, Proc. London Math. Soc., 65, (1992), 199&#8211;224.
+
+* [[A. Thomas]], 2006 _Lattices acting on right-angled buildings_, Alg. Geom. Top., 6, 1215-1238.
 
 See also:
 
