@@ -171,8 +171,10 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 
 * [[De Morganization]]
 * [[De Morgan Heyting algebra]]
+* [[De Morgan category]]
 * [[Ore condition]]
 * [[double negation]]
+* [[topos]]
 * [[Boolean topos]]
 * [[law of excluded middle]]
 * [[skeletal geometric morphism]]
