@@ -14,7 +14,7 @@ This entry compiles material related to the textbook
 
   [doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372)
 
-on [[equivariant homotopy theory]] and [[equivariant cohomology]].
+on [[transformation groups]]/[[topological G-spaces]], [[equivariant homotopy theory]] and [[equivariant cohomology]].
 
 Beware the existence of a book of similar title, by the same author and largely on the same subjects:
 
