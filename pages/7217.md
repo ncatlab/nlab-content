@@ -13,6 +13,12 @@
 =--
 =--
 
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Definition
 
 Every [[strict 2-category]] $K$ with finite [[strict 2-limits]] and finite strict 2-colimits becomes a [[model category]] (or, rather, its underlying 1-category does) in a canonical way, where:
