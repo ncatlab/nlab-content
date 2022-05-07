@@ -1,4 +1,3 @@
-
 > see also at _[[Galois group]]_
 
 +-- {: .rightHandSide}
@@ -456,7 +455,7 @@ Some of the material above is taken from this.
 
 A comprehensive textbook is
 
-* [[Francis Borceux]], [[George Janelidze]], _Galois theories_, Cambridge University Press (2001)
+\bibitem{BorceuxJanelidze2001}
 
 a review of which can be found at [[Galois Theories]].
 
