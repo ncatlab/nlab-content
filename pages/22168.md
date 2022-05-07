@@ -69,7 +69,7 @@ for the canonical [[geometric morphism]] between their [[sheaf toposes]].
 
 \begin{remark}
 \label{TerminologyOfCondensedSets}
-  The [[base topos]] in (eq:TheGeometricMorphism) is equivalently called the category of $\kappa$-*[[condensed sets]]*.
+  The [[base topos]] in (eq:TheGeometricMorphism) is also called the category of $\kappa$-*[[condensed sets]]*, or of $\kappa$-[[pyknotic sets]] (with $\kappa$ often omitted in the latter case).
 \end{remark}
 
 The following seems to be claimed:
@@ -85,7 +85,8 @@ and
 * $LConst$ is a [[right adjoint]].
 
 \end{prop}
-The first two claims are fairly standard, the last one would make the topos of pro-étale schemes be [[locally connected topos|locally connected]] and hence *almost* [[cohesive topos|cohesive]] [[base topos|over]] $\kappa$-[[condensed sets]] (by Rem. \ref{TerminologyOfCondensedSets}).
+
+The first two claims are fairly standard, the last one would make the topos of pro-étale schemes be [[locally connected topos|locally connected]] and hence *almost* [[cohesive topos|cohesive]] [[base topos|over]] $\kappa$-[[condensed sets]]/$k$-[[pyknotic sets]] (by Rem. \ref{TerminologyOfCondensedSets}).
 
 
 
