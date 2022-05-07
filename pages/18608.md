@@ -30,7 +30,7 @@ The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is th
 
 The _mass gap problem_ is the problem in [[mathematical physics]] to demonstrate theoretically (i.e. not just by [[lattice QCD|computer simulation]]) the existence of this mass gap/[[confinement]]-phenomenon in [[QCD]] and in [[Yang-Mills theory]] coupled to [[fermion fields]] in general.
 
-This issue is well and widely known in the [[particle physics]]-community, see for instance [Kutschke 96, Section 3.1](#Kutschke96), [INFN 15](#INFN15). It gained more attention among the [[mathematics]]/[[mathematical physics]]-community when the [Clay Mathematics Institute](http://www.claymath.org/) declared the problem to be one in a list of "[Millennium Problems](http://www.claymath.org/millennium-problems)", see [Jaffe-Witten](#JaffeWitten), [Douglas 04](#Douglas04).
+This issue is well and widely known in the [[particle physics]]-community, see for instance [Kutschke 96, Section 3.1](#Kutschke96), [INFN 15](#INFN15). It gained more attention among the [[mathematics]]/[[mathematical physics]]-community when the [Clay Mathematics Institute](http://www.claymath.org/) declared the problem to be one in a list of "[Millennium Problems](http://www.claymath.org/millennium-problems)", see [Jaffe-Witten 2000](#JaffeWitten00), [Douglas 04](#Douglas04).
 
 
 
@@ -50,7 +50,7 @@ A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 * [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills and Mass Gap](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_
 
-* {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
+* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_, 2000 ([pdf](http://www.claymath.org/sites/default/files/yangmills.pdf))
 
 Early report on the progress (essentially none):
 
@@ -81,9 +81,12 @@ See also
 {#ExplicitMentioningInPhysicsLiterature} 
 
 In the [[nuclear physics]]/[[QCD]]-literature the mass gap problem is (and has long been) known as the _[confinement problem](confinement#OpenProblemConfinementReferences)_.
-Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear physics]]/[[phenomenology|phenomenological]] discussion of [[confinement]]:
+Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear physics]]/[[phenomenology|phenomenological]] discussion of [[confinement]] includes the following:
 
 * [[Igor Klebanov]], Oyvind Tafjord, "Can we quantitatively understand quark and gluon confinement in Quantum Chromodynamics and the existence of a mass gap?", 10th of *[10 Physics Problems for the Next Millennium](http://theory.caltech.edu/~preskill/millennium.html)* selected at [Strings 2000](https://inspirehep.net/conferences/972466)
+
+* [[Yakov Shnir]], Section 9.1. of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
+
 
 * [Roberts &Schmidt 20, p. 2](#RobertsSchmidt20)
 
