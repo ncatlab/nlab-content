@@ -141,6 +141,8 @@ Thus, such a category becomes [[enriched category|enriched]] over the [[category
 
 * [[pointed category]]
 
+  [[pointed (∞,1)-category]], [[pointed model category]]
+
 * [[zero morphism]]
 
 * [[zero object in a derivator]]
