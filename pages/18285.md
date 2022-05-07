@@ -28,7 +28,7 @@ The word is chosen by analogy with the notion of _[[cosmos]]_ in [[enriched cate
 
 Roughly speaking, an $\infty$-**cosmos** is a simplicially enriched category of fibrations and fibrant objects.
 
-Let $\mathcal{M}$ be a [[model category]] that is enriched over the Joyal model structure on simplicial sets. Then the full subcategory of fibrant objects defines an **$\infty$-cosmos**. If, as is frequently the case in practice, every fibrant object is cofibrant, then this subcategory defines an **$\infty$-cosmos with all objects cofibrant,** which admits a simpler axiomatization.
+Let $\mathcal{M}$ be a [[model category]] that is enriched over the [[Joyal model structure]] on simplicial sets. Then the full subcategory of fibrant objects defines an **$\infty$-cosmos**. If, as is frequently the case in practice, every fibrant object is cofibrant, then this subcategory defines an **$\infty$-cosmos with all objects cofibrant,** which admits a simpler axiomatization.
 
 ## Definition 
 
