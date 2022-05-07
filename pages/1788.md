@@ -60,14 +60,14 @@ of [[0-truncated]] objects
 \]
 \begin{tikzcd}
   \mathbf{H}_0
-  \ar[rr, hook, shift right=7pt, "i_0"{below}]
-  &&
+  \ar[r, hook, shift right=7pt, "i_0"{below}]
+  &
   \mathbf{H}
   \ar[
-    ll, 
+    l, 
     shift right=7pt, 
     "\mathclap{\times}"{pos=0}, 
-    "{\tau_0}{above}"
+    "{\tau_0}"{above}
   ]
 \end{tikzcd}
 
@@ -269,7 +269,7 @@ $$
     \big(
       \tau_0(X) \times \tau_0(G)
       \overset{\phantom{---}}{\rightrightarrows}
-      X
+      \tau_0(X)
     \big)
     &
     \text{ (eq:InclusionOfParallelPairIntoOppositeSimplexCategoryIsFinal) }
