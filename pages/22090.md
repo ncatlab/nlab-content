@@ -184,6 +184,7 @@ Here the vertical inclusions are the defining ones of the [[submanifolds]] or of
 [[!redirects Pontrjagin's isomorphism]]
 
 [[!redirects Pontryagin's theorem]]
+[[!redirects Pontrjagin's theorem]]
 
 
 
