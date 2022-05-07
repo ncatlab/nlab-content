@@ -113,7 +113,7 @@ We list examples of local gauge groups and [[∞-groups]] for various higher [[g
 
 * [[gauge]]
 
-* [[structure group]]
+* [[structure group]], [[equivariance group]]
 
 * [[gauge symmetry]]
 
