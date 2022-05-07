@@ -72,9 +72,12 @@ and the GRS model, due to
 
 a well as [[intersecting D-brane models]].
 
-Review includes
+Review:
 
 * Yoonbai Kim, Chong Oh Lee, Ilbong Lee, JungJai Lee, _Brane World of Warp Geometry: An Introductory Review_, J. Kor. Astron. Soc. 37 (2004) 1-14 ([arXiv:hep-th/0307023](https://arxiv.org/abs/hep-th/0307023))
+
+* [[André Juan Ferreira-Martins]], *Gravity and its wonders: braneworlds and holography* ([arXiv:2105.10062](https://arxiv.org/abs/2105.10062))
+
 
 Possible relation to [[flavour anomalies]] via potential [[leptoquarks]]:
 
