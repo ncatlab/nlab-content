@@ -13,7 +13,7 @@ This page hosts material related to the textbook
  
   ([tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]])
 
-on [[toposes]], [[monads]] ("triples") and [[categorical algebra]]/[[categorical semantics]].
+on [[toposes]], [[monads]] ("triples"), and [[universal algebra]], [[categorical algebra]] and [[categorical semantics]] via [[sketches]].
 
 \linebreak
 
@@ -77,11 +77,17 @@ on [[toposes]], [[monads]] ("triples") and [[categorical algebra]]/[[categorical
 
 ###4. Theories 122 
 
+* [[algebraic theory]]
+
 ####1 Sketches . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 123 
+
+* [[sketch]]
 
 ####2 The Ehresmann-Kennison Theorem . . . . . . . . . . . . . . . . . 127 
 
 ####3 Finite-Product Theories . . . . . . . . . . . . . . . . . . . . . . . . 129 
+
+* [[Lawvere theory]]
 
 ####4 Left Exact Theories . . . . . . . . . . . . . . . . . . . . . . . . . . 135 
 
