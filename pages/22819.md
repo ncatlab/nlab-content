@@ -50,7 +50,11 @@ where:
     \mathcal{C}/X
   $$
 
-  of the evident functor induced by $R$ with the (homotopy) pullback along the $(L \dashv R)$-[[unit of an adjunction|unit]] at $X$.
+  of 
+
+  1. the evident functor induced by $R$ 
+
+  1. the ([[homotopy pullback|homotopy]]) [[pullback]] along the $(L \dashv R)$-[[unit of an adjunction|unit]] at $X$.
 
 =--
 
