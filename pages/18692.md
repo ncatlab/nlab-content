@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -66,12 +67,17 @@ Denote pullback powers of $p$ as $T_n(M)$.
 
 * The flip $c$ is a natural involution $cc = 1_{T^2M}$,
   and the following bundle morphism is additive:
-  \begin{center}
-    \begin{tikzcd}
-      T^2(M) \ar[r, "c"] \ar[d, "p_T"] & T^2(M) \ar[d, "T(p)"] \\
-      T(M) \ar[r, equals] & T(M)
-    \end{tikzcd}
-  \end{center}
+
+\begin{center}
+
+\begin{tikzcd}
+   T^2(M) \ar[r, "c"] \ar[d, "p_T"] & T^2(M) \ar[d, "{T(p)}"] 
+   \\
+   T(M) \ar[r, equals] & T(M)
+ \end{tikzcd}
+
+\end{center}
+
 * The vertical lift $\ell$ gives an additive bundle morphism $(\ell, 0): p \Rightarrow T(p)$.
   
 
@@ -79,26 +85,45 @@ Denote pullback powers of $p$ as $T_n(M)$.
 * We also require the following coherences between the vertical lift and the canonical flip: 
 
 \begin{center}
-    \begin{tikzcd}
-      T \ar[r, "\ell"] \ar[d, "\ell"'] & T^2 \ar[d, "T(\ell)"] \\
+
+\begin{tikzcd}
+      T \ar[r, "\ell"] \ar[d, "\ell"'] & T^2 \ar[d, "{T(\ell)}"] 
+      \\
       T^2 \ar[r, "\ell_T"] & T^3
-    \end{tikzcd}
-\end{center}
-\begin{center}
-    \begin{tikzcd}
-      T^3 \ar[d, "c_T"] \ar[r, "T(c)"] & T^3 \ar[r, "c_T"] & T^3 \ar[d, "T(c)"] \\
-      T^3 \ar[r, "T(c)"] & T^3 \ar[r, "c_T"] & T^3
-    \end{tikzcd}
+\end{tikzcd}
+
 \end{center}
 
 \begin{center}
-    \begin{tikzcd}
-      T^2 \ar[r, "\ell_T"] \ar[d, "c"'] & T^3 \ar[r, "T(c)"] & T^3 \ar[d, "c_T"] \\
-      T^2 \ar[rr, "T(\ell)"] && T^3
-    \end{tikzcd}
+
+\begin{tikzcd}
+      T^3 \ar[d, "c_T"] \ar[r, "{T(c)}"] & T^3 \ar[r, "c_T"] & T^3 
+      \ar[d, "T(c)"] \\
+      T^3 \ar[r, "{T(c)}"] & T^3 \ar[r, "c_T"] & T^3
+\end{tikzcd}
+
 \end{center}
+
 \begin{center}
-    \begin{tikzcd} T \ar[r, "\ell"] \ar[rd, "\ell"] & T^2 \ar[d, "c"] \\ & T^2 \end{tikzcd}
+
+\begin{tikzcd}
+      T^2 \ar[r, "\ell_T"] \ar[d, "c"'] 
+      & T^3 \ar[r, "{T(c)}"] 
+      & T^3 \ar[d, "c_T"]
+     \\
+      T^2 \ar[rr, "{T(\ell)}"] && T^3
+\end{tikzcd}
+
+\end{center}
+
+\begin{center}
+
+\begin{tikzcd} 
+       T \ar[r, "\ell"] \ar[rd, "\ell"] 
+       & T^2 \ar[d, "c"] 
+       \\ & T^2   
+\end{tikzcd}
+
 \end{center}
 
 In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram corresponds to $\ell: T \Rightarrow T^2$ being a cosemigroup. The second diagram corresponds to $c: T^2 \Rightarrow T^2$ acting as a symmetry, and the third and fourth diagrams state that $\ell$ is a symmetric cosemigroup.
@@ -106,11 +131,16 @@ In the monoidal category $[\mathbb{X}, \mathbb{X}]$, the first diagram correspon
 * Universality of the vertical lift: Define the map $\mu := T(+) \circ \langle \ell \circ \pi_0, 0_T \circ \pi_1 \rangle$, we require the following diagram be a pullback:
 
 \begin{center}
-    \begin{tikzcd}
-      T_2(M) \ar[r, "\mu"] \ar[d, "p \circ \pi_0 = p \circ \pi_1"'] & T^2(M) \ar[d, "T(p)"] \\
+
+\begin{tikzcd}
+      T_2(M) \ar[r, "\mu"] \ar[d, "p \circ \pi_0 = p \circ \pi_1"] 
+      & T^2(M) \ar[d, "{T(p)}"] \\
       M \ar[r, "0"] & T(M)
-    \end{tikzcd}
- \end{center} 
+\end{tikzcd}
+
+\end{center} 
+
+
 
 ### Tangent Structure as abstract Weil Prolongation
 
@@ -141,21 +171,30 @@ It is often useful to consider a presentation of $R$-Weil algebras.
 +-- {: .num_prop #presentation_of_R_weil }
 ###### Proposition 
 
-1. Weil algebras may be presented as $R[X_i]/I$, where $I$ is an ideal of $R[X_i]$.
-1. The product of Weil algebras $R[X_i]/I, R[Y_j]/J$ may be presented as  $R[X_i,Y_j]/(I \cup J \cup XY)$, where $XY = \{ X_i Y_j \}$, the coproduct as $R[X_i,Y_j]/(I \cup J)$. 
-1. The following diagram is a pullback:
-    \begin{center}
-      \begin{tikzcd}
-        R[X,Y]/(X^2,Y^2, XY) \ar[r, "X \mapsto XY", "Y \mapsto Y"'] \ar[d, "X{,}Y \mapsto 0"]
+* (1) Weil algebras may be presented as $R[X_i]/I$, where $I$ is an ideal of $R[X_i]$.
+
+* (2) The product of Weil algebras $R[X_i]/I, R[Y_j]/J$ may be presented as  $R[X_i,Y_j]/(I \cup J \cup XY)$, where $XY = \{ X_i Y_j \}$, the coproduct as $R[X_i,Y_j]/(I \cup J)$. 
+
+* (3) The following diagram is a [[pullback]]:
+
+\begin{center}
+
+\begin{tikzcd}
+        R[X,Y]/(X^2,Y^2, XY) 
+        \ar[r, "X \mapsto X Y", "Y \mapsto Y"'] 
+        \ar[d, "X{,}Y \mapsto 0"]
         & R[X,Y]/(X^2,Y^2) \ar[d, "Y \mapsto 0{,} X \mapsto X"] \\
         R \ar[r, "0"] & R[X]/X^2
       \end{tikzcd}
-    \end{center}
-1. For any Weil algebra $U$, the endofunctor $U \oplus (-)$ preserves products and the above pullback.
+
+\end{center}
+
+* (4) For any Weil algebra $U$, the endofunctor $U \oplus (-)$ preserves products and the above pullback.
 
 =--
 
 We finally restrict our attention to the category $\mathsf{Weil}_1$. Let $W$ denote the $R$-Weil algebra $R[X]/X^2$, then we may consider the full subcategory whose objects are the closure of $\{ W^n | n \in \mathbb{N}\}$ under coproduct.
+
 
 #### Abstract Weil Prolongation
 
