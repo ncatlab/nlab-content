@@ -49,7 +49,7 @@ That Assumption \ref{AssumptionConstantInvolvedInAbcConjecture} holds is the mai
 
 ### The key corollary
 
-As discussed in the previous section, the cornerstone of the IUTT series papers (at least with regard to the abc conjecture) is Corollary 3.12 in [IUTT III](#IUTTIII). We attempt here to explain certain aspects of this corollary. We shall continue to use completely different notation from the IUTT papers to try to bring out certain key ideas. To begin with, we shall continue to assume that we have a black box of data $\mathbb{M}$.
+As discussed in the previous section, the cornerstone of the IUTT series of papers (at least with regard to the abc conjecture) is Corollary 3.12 in [IUTT III](#IUTTIII). We attempt here to explain certain aspects of this corollary. We shall continue to use completely different notation from the IUTT papers to try to bring out certain key ideas. To begin with, we shall continue to assume that we have a black box of data $\mathbb{M}$.
 
 \begin{assum} There is a certain subset $T_{\mathbb{M}}$ of $\mathbb{R} \cup \{ \infty \}$, where $\mathbb{R}$ is the [[real number|set of real numbers]].  \end{assum}  
 
