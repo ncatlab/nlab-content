@@ -1604,6 +1604,11 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * Dan Petersen, _Cohomology of generalized configuration spaces_ ([arXiv:1807.07293](https://arxiv.org/abs/1807.07293))
 
+* [[Victor Vassiliev]], *Twisted homology of configuration spaces, homology of spaces of equivariant maps, and stable homology of spaces of non-resultant systems of real homogeneous polynomials* ([arXiv:1809.05632](https://arxiv.org/abs/1809.05632))
+
+* [[Victor Vassiliev]], *Cohomology of spaces of Hopf equivariant maps of spheres* ([arXiv:2102.07157](https://arxiv.org/abs/2102.07157))
+
+
 * Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_, Algebr. Geom. Topol. 20 (2020) 2995–3012 ([doi:10.2140/agt.2020.20.2995](https://www.doi.org/10.2140/agt.2020.20.2995))
 
 Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
