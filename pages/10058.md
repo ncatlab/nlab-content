@@ -99,11 +99,14 @@ The potential for the [[inflaton field]] in [[chaotic cosmic inflation]] is a $\
 
 ## References
 
+An introduction to $\Phi^4$ theory could be found in lecture 13 of
+
+* Sourav Chatterjee, _Introduction to Quantum Field Theory for Mathematicians_, [pdf](https://statweb.stanford.edu/~souravc/qft-lectures-combined.pdf)
+
 The [[weak adiabatic limit]] for [[mass]]-less $\Phi^4$ theory was established in 
 
 * {#BlanchardSeneor75} P. Blanchard and R. Seneor, _Green’s functions for theories with massless particles (in perturbation theory)_, Ann. Inst. H. Poincaré Sec. A
 23 (2), 147–209 (1975) ([Numdam](http://www.numdam.org/item?id=AIHPA_1975__23_2_147_0))
-
 
 See also
 
