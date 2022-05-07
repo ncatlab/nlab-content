@@ -70,10 +70,11 @@ The circle of $n$Lab entries belonging or related closely to algebraic number th
 
 * Albrecht Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.
 
-
 * {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
 
 * Albrecht Fr&#246;hlich, Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics 27, 1993
+
+* [[James Milne]], *Algebraic number theory*, 2020 ([pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf))
 
 The following survey of Connes-Marcolli work has an accessible quick introduction to algebraic number theory
 
