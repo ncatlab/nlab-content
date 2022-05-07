@@ -635,12 +635,16 @@ Coends and [[ends]] were introduced by [[Nobuo Yoneda]] (of the [[Yoneda lemma]]
 
 * [[Nobuo Yoneda]], _On Ext and exact sequences_, Journal of the Faculty of Science. University of Tokyo. Section I.  Volume 8 (1960), 507–576.
 
+An early account with an eye towards application in [[geometric realization of simplicial topological spaces]]:
+
+* {#MacLane70} [[Saunders MacLane]], Section 2 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday*, Lecture Notes in Mathematics *168*,  Springer 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
+
+
 Textbook accounts:
 
-* [[Max Kelly]], _Basic concepts in enriched category theory_ 
+* {#Kelly} [[Max Kelly]], _Basic concepts in enriched category theory_ 
   ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
-   {#Kelly}
-
+   
   * ends of $V$-valued bifunctors are discussed in section 2.1
 
   * the enriched functor category that they give rise to is discussed in section 2.2;
