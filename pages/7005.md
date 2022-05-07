@@ -274,24 +274,29 @@ One might also try to construct the Hoffman-Streicher groupoid model in a constr
 ## References
  {#References}
 
-Perhaps the earliest occurrence of the univalence axiom is in section 5.4 of 
+The earliest occurrence of the univalence axiom is due to:
 
-* [[Martin Hofmann]] and [[Thomas Streicher]], _The groupoid interpretation of type theory_ (1996)
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]], Section 5.4 of:  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz), [[HofmannStreicherGroupoidInterpretation.pdf:file]])
 
-under the name "universe extensionality".  They formulate almost the modern univalence axiom; the only difference is the lack of a coherent definition of equivalence.  The univalence axiom in its modern form was introduced and promoted by Vladimir Voevodsky around 2005. (?)
+under the name "universe extensionality".  These authors formulate almost the modern univalence axiom; the only difference is the lack of a coherent definition of [[equivalence in homotopy type theory|equivalence]].  
 
-* [[Vladimir Voevodsky]], _Univalent Foundations Project_ ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
- {#UnivalentFoundationsProject}
+The univalence axiom in its modern form was introduced and promoted by Vladimir Voevodsky around 2005. (?)
 
-A quick survey is for instance in
+* {#UnivalentFoundationsProject} [[Vladimir Voevodsky]], Section 4 of: _Univalent Foundations Project_, 2010 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
+ 
+* [[Vladimir Voevodsky]], *The equivalence axiom and univalent models of type theory* (Talk at CMU on February 4, 2010) ([arXiv:1402.5556](https://arxiv.org/abs/1402.5556))
+
+Textbook account:
+
+* [[UF-IAS-2012|Univalent Foundations Project]], p. 4 & Sec. 2.10 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, 2013  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**, **[[Planet Math|PM]] [wiki version](http://planetmath.org/node/87534)**)
+
+Exposition and srvery:
 
 * [[Peter Aczel]], _On Voevodsky's univalence axiom_ ([pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf))
 
-An exposition is at 
-
 * [[Mike Shulman]], _Homotopy type theory, IV_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html))
 
-An accessible account of Voevodsky's proof that the universal [[Kan fibration]] in [[simplicial sets]] is univalent is at
+An accessible account of Voevodsky's proof that the universal [[Kan fibration]] in [[simplicial sets]] is univalent:
 
 * [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], _Univalence in simplicial sets_, [arXiv](http://arxiv.org/abs/1203.2553)
 
