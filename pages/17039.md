@@ -174,7 +174,10 @@ On the [[continuum]]:
 
 ##### II.3.2 Twistor theory (Roger Penrose)
 
-[[Roger Penrose]] on [[twistors]].
+
+On [[twistors]]:
+
+* [[Roger Penrose]], *Twistor Theory: A Geometric Perspective for Describing the Physical World* ([doi:10.1017/9781108854399.011](https://doi.org/10.1017/9781108854399.011))
 
 ##### II.3.3 Loop quantum gravity (Muxin Han)
 
