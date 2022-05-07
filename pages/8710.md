@@ -32,7 +32,7 @@ By the discussion at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]_
 
 * [[reduced type]], [[infinitesimal path ∞-groupoid]], [[de Rham space]], [[jet bundle]], [[D-geometry]], [[∞-Lie algebra]] (synthetically), [[Lie differentiation]], hence "Formal [[Moduli Problems and DG-Lie Algebras]]" , [[formally etale morphism]], [[formally smooth morphism]], [[formally unramified morphism]], [[smooth etale ∞-groupoid]], hence [[∞-orbifold]] etc. 
 
+## Related concepts
 
-
-
+* [[differential cohesive (infinity,1)-topos]]
 
