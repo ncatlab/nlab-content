@@ -2754,11 +2754,12 @@ Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} we have
 
 {#SchurWeylMeasure} If follows that the [[pushforward measure|pushforward]] of this probality distribution along the forgetful function
 
-$$
+\[
+  \label{ForgetfulFunctionFromstandardTableauxToYoungDiagrams}
   sYTableaux_n
   \overset{ q }{\longrightarrow}
   YDiagrams_n
-$$
+\]
 
 is 
 
@@ -2788,6 +2789,8 @@ $$
 $$
 
 This is the [[Schur-Weyl measure]].
+
+Since the Cayley measure is constant on the [[fibers]] of $q$ (eq:ForgetfulFunctionFromstandardTableauxToYoungDiagrams) it is exactly that probability distribution on standard Yound tableaux which maximizes the entropy subject to the condition that the pushforward to Young diagrams is the [[Schur-Weyl measure]].
 
 
 
