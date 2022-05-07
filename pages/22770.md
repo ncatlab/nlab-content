@@ -20,31 +20,15 @@ The idea of a scale comes from [[Peter Freyd]]. Scales are models of multiplicat
 
 ## Definition
 
-A __scale__ is a [[minor scale]] $M$ such that 
+A __scale__ is a [[minor scale]] $M$ satisfying the scale identities: 
 
 * for all $a$ and $b$ in $M$, $a \otimes b = (a^\vee \otimes b^\wedge) \vert (a^\wedge \otimes b^\vee)$
 
 * for all $a$ and $b$ in $M$, $a \oplus b = (a^\wedge \oplus b^\vee) \vert (a^\vee \oplus b^\wedge)$
 
-In a scale, $\oplus$ is __[[multiplicative disjunction]]__ and $\otimes$ is __[[multiplicative conjunction]]__. 
-
-The operator __additive [[conjunction]]__ is defined as 
-
-$$a \wedge b \coloneqq a \otimes (a^\bullet \oplus b)$$
-
-and __additive [[disjunction]]__ is defined as 
-
-$$a \vee b \coloneqq a \oplus (a^\bullet \otimes b)$$
-
 ## Properties
 
 Every scale with $\bot = \top$ is [[trivial object|trivial]]. 
-
-$\top$ is a [[fixed point]] of $(-)^\vee$ and $\bot$ is a fixed point of $(-)^\wedge$. 
-
-For every $a$ in $M$, $a = a^\vee \vert a^\wedge$. 
-
-For every $a$ in $M$, $a \otimes \odot = a^\wedge \vert \bot$ and $a \oplus \odot = a^\vee \vert \top$. 
 
 As a scale is a [[closed midpoint algebra]], a scale has a [[partial order]]. Let the binary operation $(-)\multimap(-):M \times M \to M$ be defined as 
 
