@@ -61,6 +61,7 @@ $$
 ## Related concepts
 
 * [[symmetric monoidal natural transformation]]
+* [[icon]]
 
 ## References
 
