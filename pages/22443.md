@@ -954,7 +954,7 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
       {\prod}\big(e^{\beta} - k \big)
     \,.
   $$
-  Here the first two statements are immediate. For the last last statement, observe that all roots of the polyonomial appear with unit multiplicity, so that the polynomial must change sign as $e^\beta$ crosses over any of its zeros. Therefore the value which is positive for $e^\beta \gt n-1$, by the first statement, must become negative as $e^\beta$ drops below $n=1$, then positive again as it drops below the next zero at $n - 2$, and negative once more as $e^\beta$ drops below $n - 3$, and so on.
+  Here the first two statements are immediate. For the last last statement, observe that all roots of the polynomial appear with unit multiplicity, so that the polynomial must change sign as $e^\beta$ crosses over any of its zeros. Therefore the value which is positive for $e^\beta \gt n-1$, by the first statement, must become negative as $e^\beta$ drops below $n=1$, then positive again as it drops below the next zero at $n - 2$, and negative once more as $e^\beta$ drops below $n - 3$, and so on.
 \end{proof}
 
 
@@ -964,6 +964,9 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
 \begin{remark}
 Since Example \ref{HomogeneousDistributionIsEigenvalue} and Prop. \ref{SignatureDistributionIsEigenvector} rely on $1(\sigma)$
 and $sgn(\sigma)$ being multiplicative [[group characters]], and the only multiplicative characters of a symmetric group are these two, the trivial one and the [[sign representation|sign]], the other eigenvectors must be found by other means.
+
+([Kaski](#Kaski), Corollary 5.4) gives all eigenvectors with eigenvalues $\frac{1}{d_k} \sum_{g: G} \alpha(\sigma) \chi_k(\sigma)$, where $\chi_k$ is any character of $S_n$ and $d_k$ is the dimension of the associated representation, the exponentiated Cayley distance $\alpha(\sigma) = e^{-\beta \cdot d(\sigma, e)}$ being a class function. 
+
 \end{remark}
 
 
@@ -1228,6 +1231,7 @@ Supplementary references:
 
 * {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), Wadsworth & Brooks/Cole Mathematics Series book series 1986, 1997 ([doi:10.1007/978-1-4615-9763-6](https://link.springer.com/book/10.1007/978-1-4615-9763-6)) reprinted in: Cambridge Studies in Advanced Mathematics, Cambridge University Press 2011 ([ISBN:9781107602625](https://www.cambridge.org/us/academic/subjects/mathematics/discrete-mathematics-information-theory-and-coding/enumerative-combinatorics-volume-1-2nd-edition?format=PB&isbn=9781107602625), [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
 
+* {#Kaski} Petteri Kaski, _Eigenvectors and spectra of Cayley graphs_, ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf))
 
 
 [[!redirects Cayley distance kernels]]
