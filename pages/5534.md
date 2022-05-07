@@ -81,7 +81,7 @@ This is not true in smooth cohesion for $\mathbb{R}^1$ replaced by $\mathbb{C}^1
 +-- {: .num_prop #ContractibilityOfAFromThatOfI}
 ###### Proposition
 
-For a [[ring object]] $\mathbb{A}^1$ to be geometrically contractible, $\Pi(\mathbb{A}^1) \simeq *$, it is sufficient that there be a map $i$ from a [[pointed object|bipointed]] type $(left, right, I)$ to the bipointed type $(0, 1, \mathbb{A}^1)$ such that $I$ is geometrically contractible. 
+For a [[ring object]] $\mathbb{A}^1$ to be geometrically contractible, $\Pi(\mathbb{A}^1) \simeq *$, it is sufficient that there be a map $i$ from a [[bi-pointed type]] $(left, right, I)$ to the bipointed type $(0, 1, \mathbb{A}^1)$ such that $I$ is geometrically contractible. 
 
 Hence in words: "If in the ring $\mathbb{A}^1$ the elements 0 and 1 are path-connected, then $\mathbb{A}^1$ is already contractible, hence is a line continuum."
 
