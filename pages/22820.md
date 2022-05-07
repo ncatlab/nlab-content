@@ -4,7 +4,7 @@ Analytic monads are [[monads]] on [[Set]] that correspond to [[operads]] in [[Se
 
 ## Definition
 
-More precisely, an [[operad]] $O$ in [[Set]] induced a [[monad]] $T$
+More precisely, an [[operad]] $O$ in [[Set]] induces a [[monad]] $T$
 on [[Set]]:
 $$T(S)=\coprod_{n\ge0} O_n \times_{\Sigma_n} S^n.$$
 
