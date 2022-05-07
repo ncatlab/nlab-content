@@ -1142,6 +1142,8 @@ is a [[classifying space]] for $G$-equivariant $(\Gamma,\alpha)$-principal bundl
 \begin{proof}
   This is Theorem 3.1 in [Murayama-Shimakawa 95](#MurayamaShimakawa95),
   using the remark on the bottom of p. 1294 (6 of 7) that for discrete group $G$ the construction in Theorem 3.1 may be simplified.
+
+For $G$ discrete and $\Gamma$ [[discrete group|discrete]] or [[compact Lie group|compact Lie]] the same statement appears as [Guillou, May & Merling 17, Thm. 3.11](#GuillouMayMerling17). Notice that  Scholium 3.12 there doubts that [Murayama-Shimakawa 95](#MurayamaShimakawa95)'s result holds in more generality than this.
 \end{proof}
 
 
