@@ -21,9 +21,9 @@
 
 What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector, where the [[effective field theory|effective]] [[field (physics)|fields]] are [[hadrons]]: 
 
-* [[light meson|light]] [[scalar mesons]] appear as the [[Goldstone bosons]] of the [[spontaneous symmetry breaking|spontaneously broken]] [[chiral symmetry]] (see below),  
+* [[light meson|light]]$\;$[[scalar mesons]] appear as the [[Goldstone bosons]] of the [[spontaneous symmetry breaking|spontaneously broken]] [[chiral symmetry]] (see below),  
 
-* [[vector mesons]] appear as [[gauge fields]] of a [[hidden local symmetry]]
+* [[vector mesons]] appear as [[gauge fields]] of a [[hidden local symmetry]],
 
 * [[baryons]] (specifically [[nuclei]]) appear as [[solitons]] in the meson-fields (called [[Skyrmions]]), 
 
@@ -31,13 +31,35 @@ What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [
 
 Hence some authors also speak of _[[quantum hadrodynamics]]_.
 
-This is thus [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the [[light quarks]], which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]]. If we express the proton mass as the sum of two up and one down current-quark masses,
-$$
-m_p \gg 2m_u + m_d,
-$$
-we can see that $ \mathcal{L}^0_QCD = \sum_{l=u,d,s} \bar{q}_l i\D q_l - \frac{1}{4}G_{a \mu v}G^{\mu v}_a $, which only contains light-flavor quarks in the chiral limit $ m_u, m_s, m_d \rightarrow 0 $, can serve as the basis for low-energy QCD. 
+More concretely, chiral perturbation theory is [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the [[light quarks]], which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]], with masses $m_u$, $m_d$ and $m_s$, respectively.
 
-As such, the point about which [[perturbation theory|perturbations]] are considered in chiral perturbation theory of QCD is that of vanishing [[quark]] masses. But since only the quark mass term in the [[Lagrangian density]] mixes the two [[Weyl spinor|chiralities]] of quarks, the Lagrangian in this massless limit, as shown above, is the sum of a term that only contains the left-chiral quark spinors, and an analogous summand that only contains the right-chiral  quark spinors.
+As such, the point about which [[perturbation theory|perturbations]] are considered in chiral perturbation theory of QCD is that of vanishing [[quark]] masses, hence the [[limit of a sequence|limit]] $ m_u, m_s, m_d \rightarrow 0 $.
+
+{#ProtonMass} Notice that the [[proton]] [[mass]] (the characteristic scale of [[QCD]] witnessing its [[confinement]]/[[mass gap]]-property, see e.g. [Roberts 21](proton#Roberts21)) is much larger than the [[sum]] of its [[constituent quarks]]
+
+$$
+  m_p \gg 2 m_u + m_d
+  \,,
+$$
+
+suggesting that $m_u, m_d \to 0$ is a good limit around which to inspect the [[hadron|hadronic]] [[bound states]] of [[QCD]].
+
+{#LagrangianInCPTLimit} But since only the quark mass term in the [[Lagrangian density]] of [[QCD]] mixes the two [[Weyl spinor|chiralities]] of quarks, its [[Lagrangian density]] in this massless limit is the sum of a term that only contains the left-chiral quark spinors, and an analogous summand that only contains the right-chiral quark spinors (e.g. [Ecker 95, (2.1)](#Ecker95)):
+
+$$
+  \mathcal{L}^0_QCD 
+  \;=\; 
+  \sum_{l=u,d,s} 
+  \big(
+    \bar{q}^l_L i (\slash{D} + \slash{A}) q^l_L 
+    +
+    \bar{q}^l_R i (\slash{D} + \slash{A}) q^l_R
+  \big)
+  - 
+  \frac{1}{4}G_{a \mu v}G^{\mu v}_a 
+$$
+
+(here $q$ denotes the [[quark]] [[Dirac field]] with left and right [[chiral fermion|chiral]] [[Weyl spinor]] components $q_L$ and $q_R$, $\slash{D}$ denotes the [[Dirac operator]], $A$ the [[gluon]] [[field (physics)|field]] (in [[Feynman slash notation]]), and $G$ the [[field strength]] of the [[gluon]] [[field]] $A$ -- see at *[[Yang-Mills theory]]* for more).
 
 Moreover, all two ([[up quark|up]] and [[down quark|down]]) or even all three (if including [[strange quark|strange]]) [[flavour (particle physics)|flavours]] of quarks enter each of these two spinor-chiral summands symmetrically, such that each of them has [[SU(2)]] or respectively [[SU(3)]] [[global symmetry]], [[action|acting]] by mixing the quark flavours. This yields a total [[direct product group|direct product]] [[symmetry group]] 
 
@@ -137,6 +159,8 @@ automatically the Wess–Zumino term, with the correct coefficient!
 * [[Jürg Gasser]], _The QCD Vacuum and Chiral Symmetry_, In: Vautherin D., Lenz F., Negele J.W. (eds.) _Hadrons and Hadronic Matter_, NATO ASI Series (Series B: Physics), vol 228. Springer 1990 ([doi:10.1007/978-1-4684-1336-6_4](https://doi.org/10.1007/978-1-4684-1336-6_4))
 
 * [[Gerhard Ecker]], _The standard model at low energies_, Czech. J. Phys. 44:405-430, 1995 ([arXiv:hep-ph/9309268](https://arxiv.org/abs/hep-ph/9309268))
+
+* {#Ecker95} [[Gerhard Ecker]], *Chiral Perturbation Theory*, Prog. Part. Nucl. Phys. 35:1-80, 1995 ([arXiv:hep-ph/9501357](https://arxiv.org/abs/hep-ph/9501357))
 
 * [[Antonio Pich]], _Chiral Perturbation Theory_ ([arXiv:hep-ph/9502366](https://arxiv.org/abs/hep-ph/9502366))
 
