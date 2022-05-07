@@ -27,6 +27,25 @@ $$
 $$
 when either of these [[(∞,1)-colimits]] exist.
 
+## Terminology
+
+In most major references, “final map” is used to refer to [[(∞,1)-functors]]
+such that restriction along them preserves colimit cones.
+Often, “initial map” is used for [[(∞,1)-functors]] for which restriction preserves limit cones.
+A mnemonic rule for this terminology is that [[final objects]] are picked out by [[final functors]] and likewise for [[initial objects]].
+
+[[Lurie]]'s work is a notable exception to this rule.
+
+* [[Joyal]]'s [[The Theory of Quasi-Categories and its Applications]]: colimit-preserving: _final_; limit-preserving: _initial_ (page 171);
+
+* [[Cisinski]]'s [[Higher Categories and Homotopical Algebra]]: colimit-preserving: _final_ (Definition 4.1.8); limit-preserving: _cofinal_ (Definition 4.4.13); 
+
+* [[Riehl]]–[[Verity]]'s [[Elements of ∞-Category Theory]]: colimit-preserving: _final_; limit-preserving: _initial_ (Definition 2.4.5).
+
+* [[Lurie]]'s [[Higher Topos Theory]]: colimit-preserving: _cofinal_ (Definition 4.1.1.1); limit-preserving: (no terminology introduced); 
+
+* [[Lurie]]'s [[Kerodon]]: colimit-preserving: _right cofinal_ ([Tag 02N1](https://kerodon.net/tag/02N1)); limit-preserving: _left cofinal_.
+
 ## Warning
 
 The term “cofinal (∞,1)-functor” can mean either a functor for which the precomposition functor preserves colimits (in Lurie's [[Higher Topos Theory]]) or limits (in Cisinski's [[Higher Categories and Homotopical Algebra]]).
