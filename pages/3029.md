@@ -896,7 +896,7 @@ and
 We discuss the classification theory for the general case of nonabelian
 group extensions, first in the form of 
 
-* _[Traditional Schreier theory](SchreierTheoryTraditional)_
+* _[Traditional Schreier theory](#SchreierTheoryTraditional)_
 
 and then more abstractly in the language of [[homotopy theory]] in
 
