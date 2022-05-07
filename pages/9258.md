@@ -39,4 +39,4 @@ IX. Applications
 
 * H. Edelsbrunner, J.L. Harer, _Computational Topology, An Introduction_, AMS, 2010. ([webpage](http://www.ams.org/bookstore-getitem/item=MBK-69))
 
-category: topology, applications
+category: topology, applications, reference
