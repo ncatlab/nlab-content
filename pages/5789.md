@@ -156,7 +156,7 @@ The relation of the [[partition function]] of supersymmetric quantum mechanics t
 *  [[Ezra Getzler]], _A short proof of the Atiyah-Singer index theorem_, Topology 25 (1986), 111-117 ([pdf](http://math.northwestern.edu/~getzler/Papers/local.pdf))
  {#Getzler86}
 
-* [[D. Quillen]], _Superconnection character forms and the Cayley transform_, Topology 27 (1988), no. 2, 211&#8211;238
+* [[D. Quillen]], _Superconnection character forms and the [[Cayley transform]]_, Topology 27 (1988), no. 2, 211&#8211;238
 
 ### In String theory 
   {#InStringTheory}
@@ -165,7 +165,7 @@ The [[superstring]]'s supersymmetric quantum mechanics on [[smooth loop space]] 
 
 * {#Witten85} [[Edward Witten]], from p. 92 (32 of 39) on in: _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies_, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
 
-* {#Witten87b} [[Edward Witten]], _The Index Of The Dirac Operator In Loop Space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire](http://inspirehep.net/record/245523))
+* {#Witten87b} [[Edward Witten]], _The index of the Dirac operator in loop space_ Proc. of Conf. on Elliptic Curves and Modular Forms in Algebraic Topology Princeton (1986) ([spire](http://inspirehep.net/record/245523))
 
 and is further explored in:
 
