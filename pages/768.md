@@ -901,6 +901,8 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
   * [[Sullivan model of classifying space]]
 
+  * [[free loop space of classifying space]]
+
 * [[classifying topos]]
 
 * [[universal principal bundle]], [[universal principal ∞-bundle]]
