@@ -158,7 +158,7 @@ Discussion of the [[elementary topos]]-analog of 2-toposes is in
 
 A notion of "flat 2-functor" (cf [[Diaconescu's theorem]]) perhaps relevant to the "points" of 2-toposes is in
 
-* M.E. Descotte, E.J. Dubuc, M. Szyld, _On the notion of flat 2-functors_, arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
+* M.E. Descotte, [[Eduardo Dubuc]], M. Szyld, _On the notion of flat 2-functors_, arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
 
 [[!redirects 2-toposes]]
@@ -168,6 +168,11 @@ A notion of "flat 2-functor" (cf [[Diaconescu's theorem]]) perhaps relevant to t
 [[!redirects (2,1)-topos]]
 [[!redirects (2,1)-toposes]]
 
+[[!redirects (2,2)-topos]]
+[[!redirects (2,2)-toposes]]
+
 
 [[!redirects Grothendieck 2-topos]]
 [[!redirects Grothendieck 2-toposes]]
+
+
