@@ -12,7 +12,9 @@ The cycle category is used for the description of the cyclic structure on [[Hoch
 
 ## Definitions 
 
-Multiple descriptions of the cycle category $\Lambda$ are possible, but a convenient starting point is to consider first a category $L$ whose objects are natural numbers $n \geq 0$, and where the hom-set $L(m, n)$ consists of increasing functions $f: \mathbb{Z} \to \mathbb{Z}$ satisfying the "spiraling property", that $f(i + m + 1) = f(i) + n + 1$, with composition given by functional composition. Then, define $\Lambda$ to be a quotient category of $L$ having the same objects, with $\Lambda(m, n) = L(m, n)/\sim$ where $\sim$ is the equivalence relation for which $f \sim g$ means $f - g$ is a constant multiple of $n+1$. Let $q: L \to \Lambda$ be the quotient. 
+Multiple descriptions of the cycle category $\Lambda$ are possible, but a convenient starting point is to consider first a category $L$ whose objects are natural numbers $n \geq 0$, and where the hom-set $L(m, n)$ consists of increasing functions $f: \mathbb{Z} \to \mathbb{Z}$ satisfying the "spiraling property", that $f(i + m + 1) = f(i) + n + 1$, with composition given by functional composition. The category $L$ is (equivalent to) the category $\Lambda_\infty$ called the [[paracycle category]] by [Nikolaus and Scholze](#NS).
+
+Then, define $\Lambda$ to be a quotient category of $L$ having the same objects, with $\Lambda(m, n) = L(m, n)/\sim$ where $\sim$ is the equivalence relation for which $f \sim g$ means $f - g$ is a constant multiple of $n+1$. Let $q: L \to \Lambda$ be the quotient. 
 
 +-- {: .num_remark #simplex} 
 ###### Remark 
@@ -212,6 +214,8 @@ Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289.
 * Z. Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855) 
 
 * {#Elm} [[Anthony Elmendorf]], *A simple formula for cyclic duality*, Proc. Amer. Math. Soc. Volume 118, Number 3 (July 1993), 709-711. ([pdf](http://www.ams.org/journals/proc/1993-118-03/S0002-9939-1993-1143017-0/S0002-9939-1993-1143017-0.pdf))
+
+* {#NS} Thomas Nikolaus, Peter Scholze, *On topological cyclic homology*, [arxiv](https://arxiv.org/abs/1707.01799)
 
 See also 
 
