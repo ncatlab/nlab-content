@@ -471,7 +471,7 @@ Other references include:
 * {#GPS14} Moritz Groth, Kate Ponto, and [[Mike Shulman]], _Mayer-Vietoris sequences in stable derivators_. Homology, Homotopy and Applications 16 (1) 2014, [arxiv:1306.2072](http://arxiv.org/abs/1306.2072)
 
 
-[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories passes through only left proper ones.
+[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories may be taken to pass through only left proper ones.
 
 
 
