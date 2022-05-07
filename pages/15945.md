@@ -143,6 +143,8 @@ More generally, the internal left and right [[Kan extension]] give the [[induced
 
 ## References
 
+* [[Francis Borceux]], Chapter 8 in Vol 1 _Basic Category Theory_ of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)  ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
 * {#Johnstone} [[Peter Johnstone]], section B2 in _[[Sketches of an Elephant]]_
 
 * {#Pisani09} [[Claudio Pisani]], _Balanced Category Theory II_ ([arXiv:0904.1790](http://arxiv.org/abs/0904.1790))
