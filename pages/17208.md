@@ -257,52 +257,256 @@ $q_{\mathbb{C}^{n+2}}^{-1}(S)$ is a union of open cyclinders, hence is open. By 
 =--
 
 
-### Homotopy
 
-Write $\Sigma^\infty (\mathbb{C}P^\infty)_+ \in Ho(Spectra)$ for the [[H-group ring spectrum]] of $\mathbb{C}P^\infty \simeq B U(1)$ (see there for details).
+### Homotopy groups
+  {#HomotopyGroups}
 
-For $X \in Ho(Top)$ the [[homotopy type]] of a [[topological space]] in the [[classical homotopy category]], write
+
+
+\begin{prop}
+  For $n \geq 1$, the [[homotopy groups]] of [[complex projective space]] $\mathbb{C}P^n$ are the [[integers]] in degree 2, the [[homotopy groups of spheres|homotopy groups of]] the [[n-sphere|2n+1-sphere]] in degrees $\geq 2n+1$ and [[trivial group|trivial]] otherwise:
+\[
+  \label{ListOfHomotopyGroupsOfComplexProjectiveSpace}
+    \pi_k
+    \big(
+      \mathbb{C}P^n
+    \big)
+    \;=\;
+    \left\{
+    \array{
+      \ast &\vert& k = 0
+      \\
+      1 &\vert& k = 1
+      \\
+      \mathbb{Z} &\vert& k = 2
+      \\
+      \mathbb{Z} &\vert& k = 2n + 1
+      \\
+      \pi_k
+      \big(
+        S^{2n+1}
+      \big)
+      &\vert&
+      k \geq 2n+1
+      \\
+      0 &\vert& otherwise
+    }
+    \right.
+\]
+\end{prop}
+
+\begin{proof}
+  Essentially by definition, $\mathbb{C}P^n$ is the [[quotient space]] of the [[circle group]]-[[action]] on the [[unit sphere]]  $S^{2n+1} \simeq S\big(\mathbb{C}^{2n+2}\big)$. 
+
+First of all, this implies that $\mathbb{C}P^n$ is [[connected topological space|connected]], since $S^{2n+1}$ is, hence $\pi_0\big( \mathbb{C}P^n\big) = \ast$.
+
+Moreover, since this is a [[free action]], we have a [[circle principal bundle]] and hence a [[fiber sequence]] of the form
+
+\begin{xymatrix@C=20pt@R=20pt}
+  S^1 
+  \ar[r]
+  &
+  S^{2n+1}
+  \ar[d]
+  \\
+  &
+  \mathbb{C}P^n
+  \,.
+\end{xymatrix}
+
+Therefore the homotopy groups of $\mathbb{C}P^n$ sit in the corresponding [[long exact sequence of homotopy groups]], hence in a [[long exact sequence]] of [[abelian groups]] of this form:
+
+\begin{xymatrix@C=20pt@R=20pt}
+  \cdots
+  \ar[r]
+  &
+  \pi_{k+1}
+  \big(
+    \mathbb{C}P^k
+  \big)
+  \ar[r]
+  &
+  \pi_k
+  \big(
+    S^1
+  \big)
+  \ar[r]
+  &
+  \pi_k
+  \big(
+    S^{2n+1}
+  \big)
+  \ar[r]
+  &
+  \pi_k
+  \big(
+    \mathbb{C}P^n
+  \big)
+  \ar[r]
+  &
+  \pi_{k-1}
+  \big(
+    S^1
+  \big)
+  \ar[r]
+  &
+  \cdots
+\end{xymatrix}
+
+By the following two basic facts about the [[homotopy groups of spheres]]
 
 $$
-  [\Sigma^\infty X_+ , \Sigma^\infty, \mathbb{C}P^\infty_+]
-   \simeq
-  [X, \Omega^\infty \Sigma^\infty \mathbb{C}P^\infty_+]
-  \in Ab
+  \pi_{k \geq 2}
+  \big(
+    S^1
+  \big)
+  \;=\;
+  0
+  \,,
+  \phantom{AAAA}
+  \pi_{k \leq 2n}
+  \big(
+    S^{2n+1}
+  \big)
+  \;=\;
+  0
 $$
 
-for the [[hom-group]] in the [[stable homotopy category]], which, by [[adjunction]], is equivalently computed in the [[classical homotopy category]] as shown on the right.
+this long exact sequence contains the parts (using here the assumption that $n \geq 1$):
 
-Write
+\begin{xymatrix@C=20pt@R=20pt}
+  \pi_1
+  \big(
+    S^{2n+1}
+  \big)
+  \ar@{=}[d]
+  \ar[r]
+  & 
+  \pi_1
+  \big(
+    \mathbb{C}P^n
+  \big)
+  \ar@{=}[d]
+  \ar[r]
+  &
+  \pi_0
+  \big(
+    S^1
+  \big)
+  \ar@{=}[d]
+  \\
+  1
+  \ar@{=}[r]
+  &
+  \pi_1
+  \big(
+    \mathbb{C}P^n
+  \big)
+  \ar[r]
+  &
+  \ast
+\end{xymatrix}
 
-$$
-  i \;\colon\; \mathbb{C}P^\infty \simeq B U(1) \simeq B U(1) \times \{1\}
- \hookrightarrow B U \times \mathbb{Z}
-$$
+and 
 
-for the inclusion into the [[classifying space]] for complex [[topological K-theory]] which classifies the inlusion of [[complex line bundles]] $E$ as  [[virtual vector bundles]] $[E] - 0$.
+\begin{xymatrix@C=20pt@R=20pt}
+  \pi_2
+  \big(
+    S^{2n+1}
+  \big)
+  \ar@{=}[d]
+  \ar[r]
+  & 
+  \pi_2
+  \big(
+    \mathbb{C}P^n
+  \big)
+  \ar@{=}[d]
+  \ar[r]
+  &
+  \pi_1
+  \big(
+    S^1
+  \big)
+  \ar@{=}[d]
+  \ar[r]
+  &
+  \pi_1
+  \big(
+    S^{2n+1}
+  \big)
+  \ar@{=}[d]
+  \\
+  0
+  \ar[r]
+  &
+  \pi_2
+  \big(
+    \mathbb{C}P^n
+  \big)
+  \ar@{=}[r]
+  &
+  \mathbb{Z}
+  \ar[r]
+  &
+  0
+\end{xymatrix}
+
+and these parts, for all $k \geq 3$:
+
+\begin{xymatrix@C=20pt@R=20pt}
+  \pi_{k}
+  \big(
+    S^1
+  \big)
+  \ar@{=}[d]
+  \ar[r]
+  &
+  \pi_k
+  \big(
+    S^{2n+1}
+  \big)
+  \ar[r]
+  \ar@{=}[d]
+  &
+  \pi_k
+  \big(
+    \mathbb{C}P^n
+  \big)
+  \ar[r]
+  \ar@{=}[d]
+  &
+  \pi_{k-1}
+  \big(
+    S^1
+  \big)
+  \ar@{=}[d]
+  \\
+  0
+  \ar[r]
+  &
+  \pi_k
+  \big(
+    S^{2n+1}
+  \big)
+  \ar@{=}[r]
+  &
+  \pi_k
+  \big(
+    \mathbb{C}P^n
+  \big)
+  \ar[r]
+  &
+  0
+\end{xymatrix}
+
+In all cases the identification in the bottom line follows from [[exact sequence|exactness]], given that the two outer items are [[trivial group|trivial]].
+
+This gives the list (eq:ListOfHomotopyGroupsOfComplexProjectiveSpace), where we just made explicit that $\pi_{2n+1}(S^{2n+1}) = \mathbb{Z}$ (the [[Hopf degree theorem]], if you wish).
+\end{proof}
 
 
 
-+-- {: .num_prop #HGroupRingSpectrumSurjectsOntoTopologicalKTheory}
-###### Proposition
-
-For any $X \in Ho(Top)$ the [[ring homomorphism]]
-
-$$
-  i_\ast \;\colon\;
-  [\Sigma^\infty X_+, \Sigma^\infty \mathbb{C}P_+]
-    \longrightarrow
-  K_{\mathbb{C}}(X)
-$$
-
-to [[topological K-theory]] is [[surjective function|surjective]].
-
-=--
-
-This is due to ([Segal 73, prop. 1](#Segal73)).
-
-Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[Snaith's theorem]]_. See there for more. The version for [[real projective space]] is called the _[[Kahn-Priddy theorem]]_.
-#
 
 ### Homology and Cohomology
  {#Cohomology}
@@ -697,7 +901,7 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 =--
 
-### Sullivan model
+### Rational homotopy type / Sullivan model
   {#SullivanModel}
 
 The [[Sullivan model of complex projective space]] $\mathbb{C}P^n$ is
@@ -718,6 +922,55 @@ $$
 $$
 
 (e.g. [Félix-Halperin-Thomas 00, p. 203](Sullivan+model+of+complex+projective+space#FelixHalperinThomas00), [Menichi 13, 5.3](Sullivan+model+of+complex+projective+space#Menichi13))
+
+### Relation to topological K-theory
+ {#RelationToTopologicalKtheory}
+
+Write $\Sigma^\infty (\mathbb{C}P^\infty)_+ \in Ho(Spectra)$ for the [[H-group ring spectrum]] of $\mathbb{C}P^\infty \simeq B U(1)$ (see there for details).
+
+For $X \in Ho(Top)$ the [[homotopy type]] of a [[topological space]] in the [[classical homotopy category]], write
+
+$$
+  [\Sigma^\infty X_+ , \Sigma^\infty, \mathbb{C}P^\infty_+]
+   \simeq
+  [X, \Omega^\infty \Sigma^\infty \mathbb{C}P^\infty_+]
+  \in Ab
+$$
+
+for the [[hom-group]] in the [[stable homotopy category]], which, by [[adjunction]], is equivalently computed in the [[classical homotopy category]] as shown on the right.
+
+Write
+
+$$
+  i \;\colon\; \mathbb{C}P^\infty \simeq B U(1) \simeq B U(1) \times \{1\}
+ \hookrightarrow B U \times \mathbb{Z}
+$$
+
+for the inclusion into the [[classifying space]] for complex [[topological K-theory]] which classifies the inlusion of [[complex line bundles]] $E$ as  [[virtual vector bundles]] $[E] - 0$.
+
+
+
++-- {: .num_prop #HGroupRingSpectrumSurjectsOntoTopologicalKTheory}
+###### Proposition
+
+For any $X \in Ho(Top)$ the [[ring homomorphism]]
+
+$$
+  i_\ast \;\colon\;
+  [\Sigma^\infty X_+, \Sigma^\infty \mathbb{C}P_+]
+    \longrightarrow
+  K_{\mathbb{C}}(X)
+$$
+
+to [[topological K-theory]] is [[surjective function|surjective]].
+
+=--
+
+This is due to ([Segal 73, prop. 1](#Segal73)).
+
+Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[Snaith's theorem]]_. See there for more. The version for [[real projective space]] is called the _[[Kahn-Priddy theorem]]_.
+
+
 
 ## Related concepts
 
