@@ -364,14 +364,17 @@ For instance if $A$ here is $\mathbf{B}^{n}U(1)_{conn}$, and $f \colon X \to \ma
 
 ## References
 
-An early occurence of the concept of stabilizer subgroups is in p. 4 of 
+An early occurence of the concept of stabilizer subgroups:
 
-* {#Klein1872} [[Felix Klein]], _Vergleichende Betrachtungen &#252;ber neuere geometrische Forschungen_ (1872)
+* {#Klein1872} [[Felix Klein]], p. 4 of: _Vergleichende Betrachtungen &#252;ber neuere geometrische Forschungen_ (1872)
 
   translation by M. W. Haskell, _A comparative review of recent researches in geometry_ , trans. M. W. Haskell, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([retyped pdf](http://math.ucr.edu/home/baez/erlangen/erlangen_tex.pdf), [[KleinRetyped.pdf:file]], [scan of original](http://math.ucr.edu/home/baez/erlangen/erlangen.pdf))
 
+  (the "[[Erlangen program]]").
 
-(the "[[Erlangen program]]").
+
+
+* {#Bredon72} [[Glen Bredon]], Section I.2 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
 [[!redirects stabilizer group]]
