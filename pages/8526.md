@@ -38,7 +38,7 @@ The logic of the final part of Mochizuki's approach to the [[abc conjecture]] is
 
 \end{assum}
 
-\begin{thm} The abc conjecture holds. \end{thm} 
+\begin{thm} (Conditional on Corollary 3.12 of IUT III) The abc conjecture holds. \end{thm} 
 
 \begin{proof} Follows immediately from Corollary \ref{CorollaryInequalityForConstant} and Assumption \ref{AssumptionConstantInvolvedInAbcConjecture}. \end{proof}
 
