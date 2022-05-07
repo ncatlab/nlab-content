@@ -1,4 +1,3 @@
-[[!redirects cyclic cohomology]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -203,9 +202,12 @@ Some modern treatments:
 * [[Charles Weibel]], _Cyclic homology for schemes_, Proceedings of the AMS, 124 (1996), 1655-1662, [web](http://www.math.uiuc.edu/K-theory/0043/).
 
 * [[D. Kaledin]], _Cyclic homology with coefficients_, [math.KT/0702068](http://arxiv.org/abs/math.KT/0702068), to appear in Yu. Manin's 70th anniversary volume.
+
 * [[E. Getzler]], [[M. Kapranov]], _Cyclic operads and cyclic homology_, in: "Geometry, Topology and Physics for R. Bott", 
 ed. S.-T. Yau, p. 167-201, International Press, Cambridge MA, 1995, [pdf](http://www.math.northwestern.edu/~getzler/Papers/cyclic.pdf)
+
 * [[Teimuraz Pirashvili]], [[Birgit Richter]], _Hochschild and cyclic homology via functor homology_, K-Theory __25__ (2002), no. 1, 39&#8211;49, [MR2003c:16011](http://www.ams.org/mathscinet-getitem?mr=1899698), [doi](http://dx.doi.org/10.1023/A:1015064621329)
+
 * Jolanta S&#322;omi&#324;ska, _Decompositions of the category of noncommutative sets and Hochschild and cyclic homology_, Cent. Eur. J. Math. __1__ (2003), no. 3, 327&#8211;331, [MR2004f:16011](http://www.ams.org/mathscinet-getitem?mr=1992895), [doi](http://dx.doi.org/10.2478/BF02475213)
 
 Some influential original references from 1980s: 
@@ -227,12 +229,18 @@ reviewed in:
 
 * {#Loday11} [[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
+On the [[ordinary cohomology]] of [[cyclic loop spaces]] ("string cohomology") computed directly (instead of via the isomorphism to cyclic homology):
+
+* {#BokstedtOttosen05} [[Marcel Bökstedt]], [[Iver Ottosen]], *A spectral sequence for string cohomology*, Topology Volume 44, Issue 6, November 2005, Pages 1181-1212 ([arXiv:math/0411571](https://arxiv.org/abs/math/0411571), [doi:10.1016/j.top.2005.04.006](https://doi.org/10.1016/j.top.2005.04.006))
+
+and specifically for [[complex projective spaces]]:
+
+* [[Marcel Bökstedt]], [[Iver Ottosen]], *String cohomology groups of complex projective spaces*, Algebr. Geom. Topol. 7(4): 2165-2238 (2007). ([arXiv:math/0605754](https://arxiv.org/abs/math/0605754), [doi:10.2140/agt.2007.7.2165](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-7/issue-4/String-cohomology-groups-of-complex-projective-spaces/10.2140/agt.2007.7.2165.full))
+
+
 The [[Loday-Quillen-Tsygan theorem]] is originally due, independently, to
 
 * {#LodayQuillen84} [[Jean-Louis Loday]], [[Daniel Quillen]], _Cyclic homology and the Lie algebra homology of matrices_ Comment. Math. Helv., 59(4):569–591, 1984 ([doi:10.1007/BF02566367](https://doi.org/10.1007/BF02566367))
-
-
-
 
 and
 
@@ -243,5 +251,7 @@ Lecture notes include
 * {#Loday07} [[Jean-Louis Loday]], _Cyclic Homology Theory, Part II_, notes taken by Pawe l Witkowsk (2007) ([pdf](https://www.impan.pl/swiat-matematyki/notatki-z-wyklado~/loday_cht_2.pdf))
 
 
-[[!redirects cyclic cohomology]]
 [[!redirects cyclic (co)homology]]
+
+
+[[!redirects string cohomology]]
