@@ -32,7 +32,7 @@ Proposals for an actual [[syntax]] for dependent linear type theory appear in ([
 
 ## Semantics
 
-Dependent linear type theory should have [[categorical semantics]] in [[indexed monoidal (∞,1)-categories]] -- see there for detailed discussion.
+One sort of dependent linear type theory should have [[categorical semantics]] in [[indexed monoidal (∞,1)-categories]] -- see there for detailed discussion.
 
 ### Non-homotopy version
 
@@ -224,7 +224,7 @@ Since the Grothendieck construction of the standard indexed monoidal $(\infty,1)
 
 =--
 
-What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). 
+What should be the [[categorical semantics]] of one kind of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). 
 
 ## Related concepts
 
@@ -265,7 +265,7 @@ More recent work in the type-theoretic literature includes:
 
 * M. Gaboardi et al., _Linear Dependent Types for Differential Privacy_, in POPL '13, 2013.
 
-Proposals for a genuine [[syntax]] for dependent linear type theory are in
+Proposals for a genuine [[syntax]] for dependent linear type theory (some of which use ideas from [[bunched logic]]) are in
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
 
@@ -275,7 +275,17 @@ Proposals for a genuine [[syntax]] for dependent linear type theory are in
 
 * Martin Lundfall, _A diagram model of linear dependent type theory_, ([arXiv:1806.09593](https://arxiv.org/abs/1806.09593))
 
-Semantics for dependent linear type theory and linear homotopy type theory are discussed in
+* Robert Atkey, _Syntax and semantics of quantitative type theory_.  In LICS '18: 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, July 9--12, 2018, Oxford, United Kingdom. 2018.  DOI: [10.1145/3209108.3209189](https://dl.acm.org/doi/10.1145/3209108.3209189)
+
+* Ulrich Schöpp and Ian Stark, _A Dependent Type Theory with Names and Binding_, In Computer Science Logic: Proceedings of the 18th International Workshop CSL 2004, Karpacz, Poland, September 20–24, 2004, Lecture Notes in Computer Science 3210, pages 235–249. Springer-Verlag.  [web](https://homepages.inf.ed.ac.uk/stark/names+binding.html)
+
+* Eric Finster, Dan Licata, and Mitchell Riley, _Extending Homotopy Type Theory with Linear Type Formers_.  [talk video](https://www.youtube.com/watch?v=sPxtdCtjSDc)
+
+* Benjamin Moon, Harley Eades III, Dominic Orchard, _Graded Modal Dependent Type Theory_. In: Yoshida N. (eds) Programming Languages and Systems. ESOP 2021. Lecture Notes in Computer Science, vol 12648. Springer, Cham [doi](https://doi.org/10.1007/978-3-030-72019-3_17), [arxiv:2010.13163](https://arxiv.org/abs/2010.13163)
+
+* [[Mike Shulman]], _A type theory for fibred functors and polynomials_.  Unfinished note, 2018.  [pdf](http://home.sandiego.edu/~shulman/papers/functors.pdf)
+
+Potential semantics for dependent linear type theory and linear homotopy type theory are discussed in
 
 * {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
  
