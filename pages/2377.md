@@ -153,7 +153,7 @@ For sets $A$ and $B$, let $\top:A\looparrowright B$ denote the relation such tha
 
 +-- {: .num_theorem #product}
 ###### Theorem
-For any sets $A$ and $B$, $A\times B$ is a [[product]] of $A$ and $B$ in the category $Set$, and a [[coproduct]] in the category $Rel$.
+For any sets $A$ and $B$, $A\times B$ is a [[product]] of $A$ and $B$ in the category $Set$.
 =--
 +--{: .proof}
 ###### Proof
