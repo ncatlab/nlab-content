@@ -20,6 +20,7 @@ A **finite abelian group** is a [[group]] which is both [[finite group|finite]] 
 
 ## Properties
 
+As any [[finite group]], a finite abelian group is [[torsion subgroup|pure torsion]].
 
 +-- {: .num_prop}
 ###### Proposition
