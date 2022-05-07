@@ -22,6 +22,10 @@ It may be regarded as a first-stage approximation to
 
 There are a few technical differences (e.g. proofs of propositions are [[definitional equality|definitionally equal]] in OTT, whereas proofs of hprops are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like a higher-dimensional version of OTT.
 
+## See also
+
+* [[higher observational type theory]]
+
 ## References
 
 Observational type theory was introduced in
