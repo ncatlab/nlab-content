@@ -1,7 +1,14 @@
 
 * website??
 
-## related $n$Lab entries
+## Selected writings
+
+On [[quasi-toposes]]:
+
+* {#DubucEspanol06} [[Eduardo Dubuc]], [[Luis Español]], _Quasitopoi over a base category_  ([arXiv:math.CT/0612727](http://arxiv.org/abs/math.CT/0612727))
+
+
+## Related $n$Lab entries
 
 * [[Dubuc topos]]
 
