@@ -359,14 +359,16 @@ The set of diagrams is the union of the following three sets:
 
 * The vertical diagrams are constant in the first parameter: $V =  \{ (a, D) |  a \in \mathsf{Vertex}(S), D \in \mathsf{Diagrams}(T) \}$
 
-* Also add every square diagram: $C$ is the set of squares for each edge $\alpha$ in $S$, $\beta \in T$  
-       \begin{center}
-          \begin{tikzcd} 
-            (a,b) \ar[r, "(\alpha{,}b)"] \ar[d, "(a{,}\beta)"] & (a',b) \ar[d, "(a'{,} \beta)"] \\ 
-            (a, b') \ar[r, "(\alpha{,} b')"] & (a',b')
-         \end{tikzcd}
-        \end{center}  
-The set of cones and cocones are define analogously to the set of commuting diagrams, except _only_ the vertical and horizontal cones are taken. 
+* Also add every square diagram: $C$ is the set of squares for each edge $\alpha$ in $S$, $\beta \in T$ 
+ 
+\begin{center}
+    \begin{tikzcd} 
+        (a,b) \ar[r, "(\alpha{,}b)"] \ar[d, "(a{,}\beta)"] & (a',b) \ar[d, "(a'{,} \beta)"] \\ 
+        (a, b') \ar[r, "(\alpha{,} b')"] & (a',b')
+     \end{tikzcd}
+\end{center}  
+
+* The set of cones and cocones are define analogously to the set of commuting diagrams, except _only_ the vertical and horizontal cones are taken. 
      
 This tensor product, along with the unit $(\ast, \emptyset, \emptyset, \emptyset)$, gives the category of sketches a second symmetric monoidal category.
 =--
