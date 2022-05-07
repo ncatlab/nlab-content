@@ -188,8 +188,13 @@ See also [Selinger 09](#Selinger09) for a review of different string diagram for
 
 String diagram calculus in [[linear algebra]]:
 
-* {#PenroseNotation} String diagrams are closely related to Penrose's notation ([Penrose 71a](#Penrose71a), [71b](#Penrose71b), [72](#Penrose72), [Penrose-Rindler 84, Append.](#PenroseRindler84)) for working with [[tensors]], hence in the monoidal category of [[finite-dimensional vector spaces]] with its usual [[tensor product of vector spaces]]. More recently, string diagrams in this category have come to be known as *[[tensor networks]]*.
+* {#PenroseNotation} String diagrams in [[finite-dimensional vector spaces]] with the [[tensor product of vector spaces|usual tensor product]] are *Penrose's notation* ([Penrose 71a](#Penrose71a), [71b](#Penrose71b), [72](#Penrose72), [Penrose-Rindler 84, Append.](#PenroseRindler84)) for working with [[tensors]]. 
 
+* More recently, string diagrams in this category have come to be known as *[[tensor networks]]*, especially so in application to [[condensed matter physics]] and also in [[quantum computation]] and in particular in [[quantum error correction]].
+
+### In quantum computation
+
+* In [[quantum computation]], *[[quantum circuit diagrams]]* are a form of string diagrams in [[finite-dimensional vector spaces|finite-dimensional]] [[Hilbert spaces]].
 
 ### In representation theory
  {#InRepresentationTheory}
