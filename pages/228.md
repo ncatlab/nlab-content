@@ -46,7 +46,7 @@ The [[negation]] of an apartness relation is an equivalence relation. (On the ot
 
 If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f\colon S \to T$ is __[[strongly extensional function|strongly extensional]]__ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functors]] between $TV^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is tight.)
 
-
+In [[homotopy type theory]], a __pure tight apartness relation__ on a type $A$ is a [[type family]] $#_A:(A \times A) \rightarrow Type$ such that $\prod_{m:A} \prod_{n:A} ((m #_A n) \rightarrow 0) = (m =_A n)$, where $=_A$ is the [[equality type]] on $A$ and $=$ is equality between types. A __mere tight apartness relation__ on a type $A$ is a mere relation $#_A:(A \times A) \rightarrow Prop$ such that $\vert \prod_{m:A} \prod_{n:A} ((m #_A n) \rightarrow 0) \vert = \vert m =_A n\vert$, where $\vert A \vert$ is the [[propositional truncation]] of type $A$. 
 
 ## The category of inequality spaces
 
