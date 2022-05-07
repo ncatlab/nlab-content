@@ -1,10 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 The concept **plethory** derives from that of [[plethysm]] ([Borger-Wieland 05](#BW05), p. 2), a certain form of composition in the theory of [[symmetric functions]].
 
-In what follows, all rings are assumed to be commutative and unital. 
+In what follows, all [[rings]] are assumed to be [[commutative ring|commutative]] and [[unital ring|unital]]. 
 
-Since the ring $\mathbb{Z}[x]$ of integer polynomials in one variable is the free ring on $1$, we have an isomorphism $R \stackrel \sim \to \mathsf{Ring}(\mathbb{Z}[x], R)$ which sends an element $r \in R$ to evaluation at $r$, $p(x) \mapsto p(r)$. If we let $R$ also be $\mathbb{Z}[x]$, this gives exactly "substitution" or "composition" of polynomials. A **plethory** is a ring which carries a substitution structure. The ring $\Lambda$ of [[symmetric functions]] is another example.
+Since the ring $\mathbb{Z}[x]$ of [[integer]]-[[coefficient]] [[polynomials]] in one [[variable]] is the [[free ring]] on $1$, we have an [[isomorphism]] $R \stackrel \sim \to \mathsf{Ring}(\mathbb{Z}[x], R)$ which sends an element $r \in R$ to [[evaluation]] at $r$, $p(x) \mapsto p(r)$. If we let $R$ also be $\mathbb{Z}[x]$, this gives exactly "substitution" or "composition" of polynomials. A **plethory** is a ring which carries a substitution structure. The ring $\Lambda$ of [[symmetric functions]] is another example.
 
 The data of a plethory is also what is needed to represent a "natural operation" on the category of rings. For example $\mathsf{Ring}(\mathbb{Z}[x],-)$ is the identity functor on $\mathsf{Ring}$, and $\mathsf{Ring}(\Lambda,-)$ sends every ring to its [[ring of Witt vectors]].
 
