@@ -30,7 +30,7 @@ In [[point-set topology]] Hurewicz cofibrations are often just called _cofibrati
 
 Beware that there are other relevant classes of cofibrations between topological spaces, notably the *[[Serre cofibrations]]*, and (in [[homotopy theory]] and [[model category]]-theory, at least) also often just called "cofibrations". But "closed cofibration" always refers to closed Hurewicz cofibrations.
 
-In fact, the notion of [[homotopy extension property]] makes sense in any [[category]] with a chosen [[cylinder object]]; and in this generality one also speaks of *[[h-cofibrations]]*.
+In fact, the notion of [[homotopy extension property]] makes sense in any [[category]] with a chosen [[cylinder object]]; and in this generality one also speaks of *[[h-cofibrations]]* (following [Mandell, May, Schwede & Shipley 2001, p. 16](#MandellMaySchwedeShipley01)).
 
 
 ## Definition
@@ -336,6 +336,10 @@ The fact that morphisms of fibrant pullback diagrams along closed cofibrations i
 
 * {#Kieboom} [[Rudger Kieboom]], _A pullback theorem for cofibrations_, Manuscripta Math **58** (1987) pp 381–384, doi:[10.1007/BF01165895](https://doi.org/10.1007/BF01165895)
 
+The terminology "h-cofibration" is due to:
+
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], p. 16 in: _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [doi:10.1112/S0024611501012692]( https://doi.org/10.1112/S0024611501012692))
+
 
 [[!redirects Hurewicz cofibrations]]
 
@@ -344,3 +348,7 @@ The fact that morphisms of fibrant pullback diagrams along closed cofibrations i
 
 [[!redirects closed Hurewicz cofibration]]
 [[!redirects closed Hurewicz cofibrations]]
+
+[[!redirects h-cofibration]]
+[[!redirects h-cofibrations]]
+
