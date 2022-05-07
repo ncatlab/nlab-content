@@ -456,6 +456,11 @@ Related discussion over the [[real numbers]]:
 * {#DGMS75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], *Real homotopy theory of Kähler manifolds*, 
 Inventiones mathematicae volume 29, pages 245–274 (1975) ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
 
+Re-derivation in a context of [[derived algebraic geometry]]:
+
+* [[Jacob Lurie]], Prop. 1.3.3, Cor. 1.3.4 in DAG XIII: _[[Rational and p-Adic Homotopy Theory]]_, 2011 ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf), [[Lurie_RationalHomotopyTheory.pdf:file]])
+
+
 Review and interpretation in terms of [[non-abelian cohomology|non-abelian]] [[Chern-Dold character]]-theory:
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The character map in (twisted differential) non-abelian cohomology]]*
