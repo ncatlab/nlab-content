@@ -3,11 +3,11 @@
 
 #### Pontryagin's construction
 
-The unstable and framed version of the [[Pontrjagin-Thom construction]], namely the original _[Pontryagin construction](cohomotopy#RelationToCobordismGroup)_, identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
+The _[[Pontryagin isomorphism]]_, i.e. the unstable and framed version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
 
-* {#Pontrjagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_,  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+* {#Pontrjagin38} {#Pontryagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_,  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
 
-* {#Pontrjagin55} [[Lev Pontrjagin]], _[[Smooth manifolds and their applications in Homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
+* {#Pontrjagin55} {#Pontryagin55} [[Lev Pontrjagin]], _[[Smooth manifolds and their applications in Homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
 
 Textbook accounts:
 
@@ -29,13 +29,19 @@ Lecture notes:
 
 #### Thom's construction
 
-The stable and structured version of Pontryagin's construction -- the [[Pontryagin-Thom collapse]] -- relating abstract (instead of embedded) [[cobordism classes]] to [[homotopy classes]] of maps to [[Thom spectra]]:
+[[Thom's theorem]] i.e. the unstable and oriented version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally oriented submanifolds]] with [[homotopy classes]] of [[maps]] to the [[universal vector bundle|universal]] [[special orthogonal group|special orthogonal]] [[Thom space]] $M SO(n)$, is due to:
 
 * {#Thom54} [[René Thom]], _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
 
 Textbook accounts:
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+
+#### Structured and Stable Pontryagin-Thom collapse
+
+By a [[Pontryagin-Thom isomorphism]] one typically means the generalization of the above to any other [[tangential structure]] and/or its [[stabilization]] involving maps to [[Thom spectra]].
+
+Textbook accounts:
 
 * {#Kochman96} [[Stanley Kochman]], section 1.5 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
