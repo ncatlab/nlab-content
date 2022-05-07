@@ -56,7 +56,7 @@ If a [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [
 
 <img src="https://ncatlab.org/nlab/files/HalfNS5II.jpg" width="400"/>
 
-> from [GKSTY 02](NS5-brane##GKSTY02)
+> from [GKSTY 02](NS5-brane#GKSTY02)
 
 (In [Hanany-Zaffaroni 99](NS5-brane##HananyZaffaroni99) this is interpreted in terms of the [['t Hooft-Polyakov monopole]].)
 
@@ -64,7 +64,7 @@ If a [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [
 
 <img src="https://ncatlab.org/nlab/files/M9KK6Intersection.jpg" width="650"/>
 
-> from [GKSTY 02](NS5-brane##GKSTY02)
+> from [GKSTY 02](NS5-brane#GKSTY02)
 
 Alternatively the [[O8-plane]] may [[brane intersection|intersect]] the [[black brane|black]] [[D6-branes]] away from the [[black brane|black]] [[NS5-brane]]:
 
