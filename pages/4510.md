@@ -785,6 +785,8 @@ Lecture notes:
 
 Original articles:
 
+* [[Nobuo Yoneda]], *On ext and exact sequences*, PhD thesis, Journal of the Faculty of Science, Imperial University of Tokyo, 1960 ([pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773))
+
 * [[Saunders MacLane]], _Group Extensions by primary abelian groups_, Transactions of the American Mathematical Society, Vol. 95, No. 1 (Apr., 1960), pp. 1-16 ([JSTOR]( http://www.jstor.org/stable/1993327))
 
 See also:
