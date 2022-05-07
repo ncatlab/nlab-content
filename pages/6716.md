@@ -107,11 +107,16 @@ We have a [[homotopy pullback]] diagram
 
 $$
   \array{
-     \mathbf{B} Spin^c &\stackrel{\mathbf{B}det}{\to}& \mathbf{B}U(1)
+     \mathbf{B} Spin^c 
+     &\stackrel{\mathbf{B}det}{\longrightarrow}& 
+     \mathbf{B}U(1)
      \\
-     \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 mod 2}}
+     \big\downarrow 
+     && 
+     \big\downarrow{}^{\mathrlap{\mathbf{c}_1 mod 2}}
      \\
-     \mathbf{B} SO &\stackrel{\mathbf{w}_2}{\to}&
+     \mathbf{B} SO 
+     &\stackrel{\mathbf{w}_2}{\longrightarrow}&
      \mathbf{B}^2 \mathbb{Z}_2 
   }
 $$
