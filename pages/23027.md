@@ -19,10 +19,15 @@ A *strict (2,1)-category* is a [[2-category]] which is both a *[[strict 2-catego
 
 ## Examples
 
-\begin{example}
-  The [[homotopy 2-category]] of (the [[fundamental infinity-groupoid|fundamental $\infty$-groupoid]] of) a [[topological space]] naturally appears as a strict $(2,1)$-category, with [[2-morphisms]] being the [[higher homotopy]]-classes of [[homotopies]] between [[paths]], also known as "tracks". 
+\begin{example}\label{Homotopy2CategoryOfTopologicalSpaces}
+**(homotopy 2-category of topological spaces)**
+\linebreak
+  There is a strict $(2,1)$-category whose underlying [[1-category]] is that of [[TopologicalSpaces]] and whose [[2-morphisms]] are the [[higher homotopy]]-classes of [[homotopies]] between [[continuous functions]].
 
-For this reason some authors speak of "track categories", following [Baues 1991, p. 300](#Baues91).
+If one restricts to topological spaces which admit the structure of [[CW-complexes]], then this is [[equivalence of 2-categories|equivalently]] the [[homotopy 2-category]] of the [[(infinity,1)-category|$(\infty,1)$-category]] of the [[simplicial localization]] of [[TopologicalSpaces]] at the [[weak homotopy equivalences]] ([[equivalence of (infinity,1)-categories|equivalently]] that of [[infinity-groupoids|$\infty$-groupoids]]), hence is the [[(2,1)-category]]-enhancement of the [[classical homotopy category]].
+
+Since higher homotopy-classes of homotopies were also known as "tracks", some authors (following [Baues 1991, p. 300](#Baues91))
+say "track category", not just for this example, but for $Grpd$-enriched categories generally.
 \end{example}
 
 ## References
@@ -36,7 +41,7 @@ In this context, some authors use the term "track category" for "$Grpd$-enriched
 
 * {#Baues91} Chapter VI of: [[Hans-Joachim Baues]], *Combinatorial Homotopy and 4-Dimensional Complexes*, Expositions in Mathematics, De Gruyter 1991 ([doi:10.1515/9783110854480](https://doi.org/10.1515/9783110854480))
 
-For example, [[Toda brackets]] have a neat desciption in the [[homotopy 2-category]] of a given space, regarded as a strict (2,1)-category (hence: "track category"):
+For example, [[Toda brackets]] have a neat desciption in the [[homotopy 2-category]] of topological spaces regarded (Ex. \ref{Homotopy2CategoryOfTopologicalSpaces}) as a strict (2,1)-category (hence: "track category"):
 
 * {#HardieKampsKieboom99} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Rudger  Kieboom]], _Higher homotopy groupoids and Toda brackets_, Homology Homotopy Appl. Volume 1, Number 1 (1999), 117-134 ([euclid:hha/1139840198](https://projecteuclid.org/euclid.hha/1139840198))
 
