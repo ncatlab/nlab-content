@@ -328,6 +328,10 @@ and from the [[ABJM  model]]:
 
 * Damon J. Binder, Shai M. Chester, Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
 
+See also:
+
+* [[Mohammad Garousi]], _Minimal gauge invariant couplings at order $\ell^6_p$ in M-theory_ ([arXiv:2102.00639](https://arxiv.org/abs/2102.00639))
+
 Discussion in view of the [[Starobinsky model of cosmic inflation]] is in
 
 * [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
