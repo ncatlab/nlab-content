@@ -38,7 +38,6 @@
 
 * [[pyknotic set]]
 
-* [[condensed cohesion]]
 
 ## References
 
