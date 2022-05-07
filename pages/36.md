@@ -136,6 +136,9 @@ More general internalization via [[sketches]]:
 
 * [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
+* [[Michael Barr]], [[Charles Wells]], Section 4 of: _[[Toposes, Triples, and Theories]]_, Originally published by: Springer-Verlag, New York, 1985, republished in: Reprints in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
+
+
 For more see at:
 
 * [[algebra over a Lawvere theory|algebras over]]$\,$ [[algebraic theories]]
