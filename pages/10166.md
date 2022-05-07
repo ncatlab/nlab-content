@@ -249,7 +249,7 @@ $$
   \,,
 $$
 
-and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the following two conditions are satisfied:
+and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the following condition is satisfied:
 
 * **(principality)** the _shear map_
 
