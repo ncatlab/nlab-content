@@ -8,8 +8,10 @@ _Second-order logic_(SOL) is an extension of [[first-order logic]] with quantifi
 
 An important fragment is _Monadic Second-order logic_  (MSOL), where second-order quantification is restricted to second-order unary relations between subsets i.e. MSOL quantifies only over set predicates e.g. $\forall X.\varphi(X)$ but not $\forall X\forall Y .\varphi(X,Y)$.
 
+Second-order logic could be characterised as a [[first order theory]] with [[dependent types]]. There is a [[type]] $V$ called the [[domain of discourse]], and for each term $x:V$, a dependent type $\mathcal{P}(x)$ whose terms $P(x):\mathcal{P}(x)$ are propositions depending on $x$. 
+
 ##Remark
-As SOL permits characterization of mathematical structures up to isomorphism, it is sometimes promoted as a contender to [[set theory]] for the [[foundations of mathematics]] (cf. references).
+As SOL permits characterisation of mathematical structures up to isomorphism, it is sometimes promoted as a contender to [[set theory]] for the [[foundations of mathematics]] (cf. references). However, characterising structures up to isomorphism is insufficient for [[category theory]] and [[higher category theory]], as [[weak category|weak categories]] could only be characterised up to equivalence of categories, and weak [[∞-groupoid|∞-groupoids]] could only be characterised up to [[homotopy equivalence]]. 
 
 ## References
 
