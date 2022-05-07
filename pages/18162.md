@@ -1551,6 +1551,7 @@ $$
 
 
 ### Accessible spaces ($T_1$)
+ {#LiftingPropertyCorrespondingtoT1}
 
 $X$ is [[T1-space|$T_1$]] (or *accessible* or *Fréchet*) if any two distinct points in $X$ are separated, i.e.
 
