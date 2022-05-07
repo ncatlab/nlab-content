@@ -13,6 +13,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 On a [[complex]] [[vector space]] $V$ a _sesquilinear map_ is a [[function]] of two arguments 
