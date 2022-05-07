@@ -199,7 +199,7 @@ String diagram calculus in [[linear algebra]]:
 ### In representation theory
  {#InRepresentationTheory}
 
-String diagram calculus in [[representation theory]]:
+String diagram calculus in [[representation theory]]: [Mandula 81](#Mandula81), [Cvitanović 08](#Cvitanovic08) 
 
 *  String diagrams for the monoidal category of finite-dimensional [[linear representations]] of the group [[SU(2)]] on complex vector spaces are called [[spin networks]].
 
@@ -255,13 +255,19 @@ For applications of string diagram calculus in [[perturbative quantum field theo
 
 ### Introduction and survey
 
-Introductions to and surveys of string diagram calculus:
+Discussion in [[representation theory]]:
 
-* {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
+* {#Mandula81} [[Jeffrey Ellis Mandula]], *Diagrammatic techniques in group theory*, Southampton Univ. Phys. Dept. (1981) ([cds:129911](https://cds.cern.ch/record/129911), [pdf](https://cds.cern.ch/record/129911/files/SHEP%2080-81-7.pdf))
 
 * {#Cvitanovic08} [[Predrag Cvitanović]], _Group Theory: Birdtracks, Lie's, and Exceptional Groups_, Princeton University Press July 2008 ([PUP](https://press.princeton.edu/books/paperback/9780691202983/group-theory), [birdtracks.eu](http://birdtracks.eu/), [pdf](http://www.birdtracks.eu/version9.0/GroupTheory.pdf))
 
   (aimed at [[Lie theory]] and [[gauge theory]])
+
+
+Introductions to and surveys of string diagram calculus:
+
+* {#Selinger09} [[Peter Selinger]], _A survey of graphical languages for monoidal categories_, in: [[Bob Coecke]] (ed.) _New Structures for Physics_, Lecture Notes in Physics, vol 813. Springer, Berlin, Heidelberg (2010) ([arXiv:0908.334](http://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4))
+
 
 * [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
 
