@@ -417,7 +417,7 @@ that various categories of [[commutative algebras]] are [[opposite category|cont
 [[equivalence of categories|equivalent]] to certain corresponding categories of spaces.
 The category of algebras relevant for [[measure theory]]
 is the category of [[commutative von Neumann algebras]]
-and ultraweak \*-homomorphisms;
+and ultraweakly continuous \*-homomorphisms;
 it is widely accepted that dropping the commutativity
 condition and passing to the [[opposite category]] yields
 the correct category of [[noncommutative measurable spaces]].
@@ -434,18 +434,19 @@ is contravariantly [[equivalence of categories|equivalent]] to several other cat
 * [[measurable locales]] and maps of locales.
 
 The last category is particularly interesting:
-it is a [[full subcategory]] of [[locales]],
-which means that [[measure theory]] embeds
-into pointfree topology,
+it is a [[full subcategory]] of [[locales]].
+Thus, [[measure theory]] embeds into pointfree topology,
 which means that methods and results from pointfree topology
 can be used right away in [[measure theory]].
 This stands in contrast to the traditional
 point-set treatments, where two rather different
-formalisms must be developed for point-set topological spaces
-and for point-set measurable spaces.
+formalisms must be developed for point-set [[topological spaces]]
+and point-set [[measurable spaces]].
 
 With the exception of [[discrete locales]],
-[[measurable locales]] are *never* spatial.
+[[measurable locales]] are *never* spatial,
+and in fact do not have any points other than those
+in its atomic (discrete) part, which splits off as a coproduct summand.
 
 ### Intersections of dense sublocales
 
