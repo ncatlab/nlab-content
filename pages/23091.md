@@ -10,6 +10,7 @@ Historical article at the origin of all these subjects:
 
 
 ### Topological homotopy theory
+ {#ReferencesTopologicalHomotopyTheory}
 
 Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[point-set topology]]"):
 
@@ -40,7 +41,9 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
   > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
 
+
 ### Algebraic topology
+ {#ReferencesAlegbraicTopology}
 
 On [[algebraic topology]]:
 
@@ -105,7 +108,9 @@ Further pointers:
 
 
 
+
 ### Abstract homotopy theory
+ {#ReferencesAbstractHomotopyTheory}
 
 On [[localization]] at [[weak equivalences]] to [[homotopy categories]]:
 
@@ -164,7 +169,9 @@ See also:
 
 
 
+
 ### Simplicial homotopy theory
+ {#ReferencesSimplicialHomotopyTheory}
 
 On [[simplicial homotopy theory]]:
 
@@ -189,6 +196,7 @@ On [[simplicial homotopy theory]]:
 
 
 ### Basic $(\infty,1)$-category theory
+ {#ReferencesBasicInfinityCategoryTheory}
 
 On [[(∞,1)-category theory]] and [[(∞,1)-topos theory]]:
 
@@ -201,7 +209,8 @@ On [[(∞,1)-category theory]] and [[(∞,1)-topos theory]]:
 * [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 
-### Homotopy type theory
+### Basic homotopy type theory
+  {#ReferencesBasicHomotopyTypeTheory}
 
 On [[homotopy type theory]]:
 
@@ -219,6 +228,7 @@ Textbook accounts:
 
 
 ### Outlook
+ {#ReferencesOutlook}
 
 Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
 
@@ -231,4 +241,5 @@ and in
 More regarding the sociology of the field (such as its [[folklore]] results):
 
 * {#Barwick17} [[Clark Barwick]], _The future of homotopy theory_, 2017 ([pdf](http://www.maths.ed.ac.uk/~cbarwick/papers/future.pdf), [[BarwickFutureOfHomotopyTheory.pdf:file]])
+
 
