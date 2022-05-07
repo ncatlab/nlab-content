@@ -56,6 +56,9 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[cobordism theory]]
 
+* [[zero-section into Thom space of universal line bundle is weak equivalence]]
+
+
 ### 3. Homology
 
 * [[Novikov operations]]
