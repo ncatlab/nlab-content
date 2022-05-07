@@ -23,9 +23,15 @@ For [[finitely generated group|finitely generated groups]] this is typically don
 
 * [[Cayley graph]]
 
+* [[Cayley distance]], [[Kendall distance]]
+
 ## References
 
 Textbooks:
+
+
+* [[Persi Diaconis]], Chapter 6 of: *Group Representations in Probability  and Statistics*, Lecture Notes - Monographs Series, Institute of Mathematical Statistics 1988 ([pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
+
 
 * [[Cornelia Druţu]], [[Michael Kapovich]] (appendix by [[Bogdan Nica]]), *Geometric group theory*, Colloquium Publications **63**, AMS 2018 ([ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649))
 
