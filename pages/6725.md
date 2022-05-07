@@ -23,7 +23,7 @@
 
 ## Idea
 
-There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that [[M-theory]] on an  [[cyclic group of order 2|Z/2]]-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times (S^1 \slash \mathbb{Z}_2))$ in "[[duality in string theory|dual]]" to [[heterotic string theory]] on its [[boundary]] ([[fixed point]]) "[[M9-brane]]". Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)). 
+There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that [[M-theory]] on an  [[cyclic group of order 2|Z/2]]-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times (S^1 \sslash \mathbb{Z}_2))$ is "[[duality in string theory|dual]]" to [[heterotic string theory]] on its [[boundary]] ([[fixed point]]) "[[M9-brane]]". Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)). 
 
 <center>
 <img src="https://ncatlab.org/nlab/files/M2BraneEndingOnM9.jpg" width="500">
