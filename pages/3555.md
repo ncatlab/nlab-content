@@ -16,9 +16,9 @@
 
 ## Idea
 
-If an [[(∞,1)-topos]] $\mathbf{H}$ is that of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on (the [[site]] of [[category of open subsets|open subsets]] of) a [[paracompact space|paracompact]] [[topological space]] -- $\mathbf{H} = Sh_{(\infty,1)}(X)$ --  then its **shape** is the _strong shape_ of $X$ in the sense of [[shape theory]]: a [[pro-object]] $Shape(X)$ in the category of [[CW-complexes]].
+If an [[(∞,1)-topos]] $\mathbf{H}$ is that of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on (the [[site]] of [[category of open subsets|open subsets]] of) a [[paracompact space|paracompact]] [[topological space]] -- $\mathbf{H} = Sh_{(\infty,1)}(X)$ --  then its **shape** is the _strong shape_ of $X$ in the sense of [[shape theory]]: a [[pro-object]] $Shp(X)$ in the [[category]] of [[CW-complexes]].
 
-It turns out that $Shape(X)$ may be extracted in a canonical fashion from just the [[(∞,1)-topos]] $Sh_{(\infty,1)}(X)$, and in a way that makes sense for any [[(∞,1)-topos]]. This then gives a definition of shape of general $(\infty,1)$-toposes.
+It turns out that $Shp(X)$ may be extracted in a canonical fashion from just the [[(∞,1)-topos]] $Sh_{(\infty,1)}(X)$, and in a way that makes sense for any [[(∞,1)-topos]]. This then gives a definition of shape of general $(\infty,1)$-toposes.
 
 ## Definition
 
@@ -27,7 +27,7 @@ It turns out that $Shape(X)$ may be extracted in a canonical fashion from just t
 The composite [[(∞,1)-functor]]
 
 $$
-  \Pi 
+  Shp 
   \;\colon\; 
   (\infty,1)Topos 
      \stackrel{Y}{\to}  
@@ -41,7 +41,7 @@ $$
 is the **shape functor** . Its value 
 
 $$
-  \Pi(\mathbf{H}) = 
+  Shp(\mathbf{H}) = 
   (\infty,1)Topos
   \big(
     \mathbf{H}
@@ -101,11 +101,12 @@ where
 
 
 
-\begin{proposition}
-The **shape** of $\mathbf{H}$, in the sense of Def. \ref{ShapeOfAnInfinityTopos}, is equivalently the composite functor
+\begin{proposition}\label{ShapeIsGlobalSectionsOfLConst}
+\linebreak
+The shape of an [[(infinity,1)-topos|$(\infty,1)$-topos]] $\mathbf{H}$, in the sense of Def. \ref{ShapeOfAnInfinityTopos}, is equivalently the composite functor
 
 $$
-  \Pi(\mathbf{H}) 
+  Shp(\mathbf{H}) 
   \;\coloneqq\; 
   \Gamma \circ LConst
   \;\;:\;\;
@@ -115,10 +116,10 @@ $$
   \infty Grpd
 $$
 
-regarded as an object 
+regarded as a pro-$\infty$-groupoid:
 
 $$
-  \Pi(\mathbf{H})
+  Shp(\mathbf{H})
   \;\in\;
   Pro(\infty Grpd)
   \;=\;
@@ -197,7 +198,7 @@ $$
 
 $$
   \begin{aligned}
-    \Pi (\mathbf{H})   
+    Shp (\mathbf{H})   
     \;\colon\; 
     X 
     \;\;
@@ -225,14 +226,14 @@ $$
 \end{proof}
 
 \begin{remark}
-In particular this shows that $\Pi(\mathbf{H}) \;\colon\; \infty Grpd \to \infty Grpd$ does preserve finite $(\infty,1)$-limits, since $\Gamma$ preserves all limits and $LConst$ is a left [[exact functor]].  It also shows that it is accessible, since $\Gamma$ and $LConst$ are both accessible.
+In particular this shows that $Shp(\mathbf{H}) \;\colon\; \infty Grpd \to \infty Grpd$ does preserve finite $(\infty,1)$-limits, since $\Gamma$ preserves all limits and $LConst$ is a left [[exact functor]].  It also shows that it is accessible, since $\Gamma$ and $LConst$ are both accessible.
 \end{remark}
 
 ## Examples
 
 ### Shape of a locally $\infty$-connected topos
 
-Suppose that $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], meaning that $\LConst$ has a [[left adjoint|left]] [[adjoint (infinity,1)-functor|$(\infty,1)$-functor]] $\Pi$ (see at *[[shape modality]]*) which constructs the [[geometric homotopy groups in an (∞,1)-topos|homotopy ∞-groupoids]] of objects of $\mathbf{H}$.  Then $\Shape(\mathbf{H})$ is [[representable functor|represented]] by $\Pi(*)\in \infty Grpd$, for we have the following sequence of [[natural equivalence|natural]] [[equivalences of ∞-groupoids]]:
+Suppose that $\mathbf{H}$ is [[locally ∞-connected (∞,1)-topos|locally ∞-connected]], meaning that $\LConst$ has a [[left adjoint|left]] [[adjoint (infinity,1)-functor|$(\infty,1)$-functor]] $Shp$ (see at *[[shape modality]]*) which constructs the [[geometric homotopy groups in an (∞,1)-topos|homotopy ∞-groupoids]] of objects of $\mathbf{H}$.  Then $\Shape(\mathbf{H})$ is [[representable functor|represented]] by $Shp(*)\in \infty Grpd$, for we have the following sequence of [[natural equivalence|natural]] [[equivalences of ∞-groupoids]]:
 
 $$
 \begin{aligned}
@@ -240,26 +241,22 @@ Shape(\mathbf{H})(A) &\simeq \Gamma(LConst(A))\\
 &\simeq Hom_{\infty Grpd}(*, \Gamma(LConst(A)))\\
 &\simeq Hom_{\mathbf{H}}(LConst(*), LConst(A)) \\
 &\simeq Hom_{\mathbf{H}}(*, LConst(A)) \\
-&\simeq Hom_{\infty Grpd}(\Pi(*),A).
+&\simeq Hom_{\infty Grpd}(Shp(*),A).
 \end{aligned}
 $$
 
-Thus, if we regard $\Pi(*)$ as "the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of $\mathbf{H}$" --- which is reasonable since when $\mathbf{H}=Sh(X)$ consists of sheaves on a locally contractible [[topological space]] $X$, $\Pi_{\mathbf{H}}(*)$ is equivalent to the usual [[fundamental ∞-groupoid]] of $X$ --- then we can regard the shape of an $(\infty,1)$-topos as a generalized version of the "homotopy $\infty$-groupoid" which nevertheless makes sense even for non-locally-contractible toposes, by taking values in the larger category of "pro-$\infty$-groupoids."
+Thus, if we regard $Shp(*)$ as "the [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|fundamental ∞-groupoid]] of $\mathbf{H}$" --- which is reasonable since when $\mathbf{H}=Sh(X)$ consists of sheaves on a locally contractible [[topological space]] $X$, $Shp_{\mathbf{H}}(*)$ is equivalent to the usual [[fundamental ∞-groupoid]] of $X$ --- then we can regard the shape of an $(\infty,1)$-topos as a generalized version of the "homotopy $\infty$-groupoid" which nevertheless makes sense even for non-locally-contractible toposes, by taking values in the larger category of "pro-$\infty$-groupoids."
 
 It follows also that $\mathbf{H}$ is not only locally ∞-connected but also [[∞-connected (∞,1)-topos|∞-connected]], then it has the shape of a point.
-
-### Shape of a topological space
-
-For a discussion of how the $(\infty,1)$-topos theoretic shape of $Sh_{(\infty,1)}(X)$ relates to the ordinary shape-theoretic _strong shape_ of the topological space $X$ see [[shape theory]].
 
 
 ### Shape of an essential retract
  {#Retract}
 
-The following is trivial to observe, but may be useful to note.
+The following is trivial to observe, but useful to note.
 
 \begin{remark}
-Let $(f_! \dashv f^* \dashv f_*) : \mathbf{H} \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}} \mathbf{B}$ be an [[essential geometric morphism]] of $(\infty,1)$-toposes that exhibits $\mathbf{B}$ as an essential [[retract]] of $\mathbf{H}$ in that 
+Let $(f_! \dashv f^* \dashv f_*) : \mathbf{H} \xrightarrow{\;\;} \mathbf{B}$ be an [[essential geometric morphism]] of $(\infty,1)$-toposes that exhibits $\mathbf{B}$ as an essential [[retract]] of $\mathbf{H}$ in that 
 
 $$
   (Id \dashv Id)
@@ -267,9 +264,15 @@ $$
   \simeq
   \;\;
   \mathbf{B}
-    \stackrel{\overset{f_!}{\leftarrow}}{\underset{f^*}{\to}} 
+    \underoverset
+      {\underset{f^*}{\longrightarrow}} 
+      {\overset{f_!}{\longleftarrow}}
+      {\;\;\;\bot\;\;\;}
   \mathbf{H}
-    \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} 
+    \underoverset
+      {\underset{f_*}{\longrightarrow}} 
+      {\overset{f^*}{\longleftarrow}}
+      {\;\;\;\bot\;\;\;}
   \mathbf{B}
   \,.
 $$
@@ -277,39 +280,49 @@ $$
 Then the shape of $\mathbf{B}$ is equivalent to that of $\mathbf{H}$.
 \end{remark}
 \begin{proof}
-Since $\infty Grpd$ is the [[terminal object]] in the category of Grothendieck $(\infty,1)$-toposes and [[geometric morphisms]], we have
+Since $\infty Grpd$ is the [[terminal object in an (infinity,1)-category|terminal object]] in the [[(infinity,1)-category|$(\infty,1)$-category]] of [[infinity-stack (infinity,1)-topos|Grothendieck $(\infty,1)$-toposes]] and [[geometric morphisms]] (see [here](infinity1-topos#GlobalSectionsGeometricMorphism)), we have
 
 $$
   \begin{aligned}
-    (\infty Grpd \stackrel{LConst_{\mathbf{B}}}{\to} \mathbf{B} 
-     \stackrel{\Gamma_\mathbf{B}}{\to} \infty Grpd)
-    &\simeq
+    & 
     (\infty Grpd 
-      \stackrel{LConst_{\mathbf{B}}}{\to} 
-      \mathbf{B} 
-      \stackrel{f^*}{\to} \mathbf{H}   
-     \stackrel{f_*}{\to} \mathbf{B}
-     \stackrel{\Gamma_\mathbf{B}}{\to}
+      \xrightarrow{\;LConst_{\mathbf{B}}\;}
+     \mathbf{B} 
+       \xrightarrow{\;\Gamma_\mathbf{B}\;} 
      \infty Grpd)
     \\
-    &\simeq
+    &
+    \simeq
     (\infty Grpd 
-     \stackrel{LConst_\mathbf{H}}{\to} 
+      \xrightarrow{\;LConst_{\mathbf{B}}\;}
+      \mathbf{B} 
+      \xrightarrow{\;f^*\;} 
+      \mathbf{H}   
+      \xrightarrow{f_*} 
+      \mathbf{B}
+      \xrightarrow{\Gamma_\mathbf{B}}
+     \infty Grpd)
+    \\
+    &
+    \simeq
+    (\infty Grpd 
+     \xrightarrow{LConst_\mathbf{H}}
      \mathbf{H} 
-      \stackrel{\Gamma_\mathbf{H}}{\to}
-      \infty Grpd)    
+     \xrightarrow{\Gamma_\mathbf{H}}
+     \infty Grpd)    
   \end{aligned}
   \,.
 $$
-
 \end{proof}
 
-\begin{example}
+\begin{example}\label{CohesiveInfinityToposHasTrivialShape}
+**([[cohesive (∞,1)-topos]] has trivial shape)**
+\linebreak
 Every 
 
-* [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]] 
+* $\infty$-topos which is both [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos|$\infty$-connected]],
 
-* and hence also every [[cohesive (∞,1)-topos]] 
+* in particular every [[cohesive (∞,1)-topos]] 
 
 over $\infty Grpd$ has the shape of the point.
 \end{example}
@@ -322,8 +335,254 @@ By definition $\mathbf{H}$ is $\infty$-connected if the [[constant ∞-stack]] [
 
 By standard properties of [[adjoint (∞,1)-functor]]s we have that a [[right adjoint]] $f^*$ is a [[full and faithful (∞,1)-functor]] precisely if the counit $f_! f^* \to Id$ is an [[equivalence in a quasi-category|equivalence]].
 
-Equivalently, we can observe that a locally ∞-connected (∞,1)-topos is ∞-connected precisely when $\Pi$ preserves the terminal object, and apply the above observation that the shape of a locally ∞-connected (∞,1)-topos is represented by $\Pi(*)$.
+Equivalently, we can observe that a locally ∞-connected (∞,1)-topos is ∞-connected precisely when $Shp$ preserves the terminal object, and apply the above observation that the shape of a locally ∞-connected (∞,1)-topos is represented by $Shp(*)$.
 \end{proof}
+
+\begin{remark}\label{TrivialShapeAndGrosToposes}
+**(trivial shape of gros $\infty$-toposes)**
+\linebreak
+  That [[cohesive (infinity,1)-toposes|cohesive $(\infty,1)$-toposes]] have trivial shape (Exp. \ref{CohesiveInfinityToposHasTrivialShape}) is a reflection of their characteristic nature as [[gros toposes]]: Rather than representing a single specific non-trivial space, cohesive $\infty$-toposes are gros $\infty$-categories *of spaces* (of geometric/cohesive spaces, specifically).
+
+This is further brought out by Prop. \ref{ShapeOfSliceOfCohesiveInfinityTopos} below, in view of which Exp. \ref{CohesiveInfinityToposHasTrivialShape}, may be read as saying that the shape of a cohesive $\infty$-topos does not interfere with the cohesive shapes of its objects.
+\end{remark}
+
+
+### Shape of slice of a cohesive $\infty$-topos
+ {#ShapeOfSlicesOfCohesiveInfinityToposes}
+
+
+\begin{proposition}\label{ShapeOfSliceOfCohesiveInfinityTopos}
+  If $\mathbf{H}$ is a [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] with [[shape modality]]
+$$
+  &#643;
+  \;\;
+   \colon
+  \;\;
+  \mathbf{H}
+  \xrightarrow{\;Shp\;}
+  \Grp_\infty
+  \xrightarrow{\;Disc\;}
+  \mathbf{H}
+$$
+then for every [[object]] $X \,\in\, \mathbf{H}$ the shape of the [[slice (infinity,1)-topos|slice $(\infty,1)$-topos]] $\mathbf{H}_{/X}$, according to Def. \ref{ShapeOfAnInfinityTopos}, is [[equivalence in an (infinity,1)-category|equivalently]] the [[shape modality|cohesive shape]] of $X$:
+$$
+  Shp
+  \big(
+    \mathbf{H}_{/X}
+  \big)
+  \;\;
+    \simeq 
+  \;\;
+  Shp(X)
+  \;\;\;\;\;
+  \in
+  \;
+  Grp_\infty
+  \xhookrightarrow{\;}
+  Pro(Grp_\infty)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+For $\mathbf{H}$ any [[(infinity,1)-topos|$(\infty,1)$-topos]]
+and $X \,\in\, \mathbf{H}$ an [[object]], the [[slice (infinity,1)-topos|slice $(\infty,1)$-topos]] $\mathbf{H}_{/X}$ is related to $\mathbf{H}$ by the [[base change]] [[adjoint triple]] shown on the left here, together with, on the right, part of the [[adjoint quadruple]] that exhibits the [[cohesion]] of $\mathbf{H}$:
+
+\begin{tikzcd}[column sep=large]
+    \Gamma_X
+    \;\;\;
+    \colon
+    &[-40pt]
+    \mathbf{H}_{/X}
+    \ar[
+      rr,
+      phantom,
+      shift left=10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=-10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      shift left=20+10pt,
+      "{ \sum_X }"{description}
+    ]
+    \ar[
+      rr,
+      shift left=-20+10pt,
+      "{ \prod_X }"{description}
+    ]
+    &&
+    \mathbf{H}
+    \ar[
+      ll,
+      shift right=+10pt,
+      "{ X \times (-) }"{description}
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=-10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      shift left=20+10pt,
+      "{ \mathrm{Shp} }"{description},
+      "{\mathclap{\times}}"{description, pos=0}
+    ]
+    \ar[
+      rr,
+      shift left=-20+10pt,
+      "{ \mathrm{Pnts} }"{description}
+    ]
+    &&
+    \mathrm{Grp}_\infty
+    \ar[
+      ll,
+      hook',
+      shift right=+10pt,
+      "{ \mathrm{Disc} }"{description}
+    ]
+    &[-40pt]
+    \colon
+    \;\;\;
+    \mathrm{LConst}_X
+\end{tikzcd}
+
+By essential uniqueness of [[adjoint (infinity,1)-functors|adjoint $(\infty,1)$-functors]] ([here](adjoint+infinity1-functor#UniquenessOfAdjoints)) and of the terminal [[(infinity,1)-geometric morphism|$(\infty,1)$-geometric morphism]] ([here](infinity1-topos#GlobalSectionsGeometricMorphism)), the composite adjunction is the [[global section]] geometric morphism of the slice topos:
+
+$$
+  \big(
+    \mathrm{LConst}_X
+    \;\;
+      \dashv
+    \;\;
+    \Gamma_X
+  \big)
+  \;\;\;\;\simeq\;\;\;\;
+  \big(
+    X \times \mathrm{Disc} (-)
+    \;\;
+    \dashv
+    \;\;
+    \mathrm{Pnts} \circ \prod_X
+  \big)
+  \,.
+$$
+
+Hence, by Prop. \ref{ShapeIsGlobalSectionsOfLConst}, we need to exhibit a [[natural equivalence]] of this form:
+
+\[
+  \label{CohesiveShapeCorepresentsShapeOfSlice}
+  \Gamma_X \circ LConst_X(-)
+  \;\;
+  \simeq
+  \;\;
+  Grp_\infty
+  \big(
+    Shp(X)
+    ,\,
+    -
+  \big)
+\]
+
+Therefore, consider, for $S_1, S_2 \,\in\, Grpd_\infty$, 
+the following sequence of [[natural equivalences|natural]] [[equivalence in an (infinity,1)-category|equivalences]]:
+
+$$
+  \begin{aligned}
+    &
+    \mathrm{Grp}_\infty
+    \big(
+      S_1
+      ,\,
+      \Gamma_X
+      \circ
+      \mathrm{LConst}_X(S_2)
+    \big)
+    \\
+    &
+    \;\simeq\;
+    \mathbf{H}_{/X}
+    \big(
+      \mathrm{LConst}_X( S_1 ) 
+      ,\,
+      \mathrm{LConst}_X(S_2)
+    \big)
+    \\
+    & \;\simeq\;
+    \mathbf{H}_{/X}
+    \big(
+      X \times \mathrm{Disc}(S_1)
+      ,\,
+      X \times \mathrm{Disc}(S_2)
+    \big)    
+    \\
+    &
+    \;\simeq\;
+    \mathbf{H}
+    \big(
+      X \times \mathrm{Disc}(S_1)
+      ,\,
+      \mathrm{Disc}(S_2)
+    \big)
+    \\
+    & \;\simeq\;
+    \mathrm{Grp}_\infty
+    \big(
+      \mathrm{Shp}
+      \big(
+        X \times \mathrm{Disc}(S_1)
+      \big)
+      ,\,
+      S_2
+    \big)
+    \\
+    & \;\simeq\;
+    \mathrm{Grp}_\infty
+    \big(
+      \mathrm{Shp}(X)
+      \times
+      S_1
+      ,\,
+      S_2
+    \big)
+    \\
+    & \;\simeq\;
+    \mathrm{Grp}_\infty
+    \Big(
+      S_1
+      ,\,
+      \mathrm{Grp}_\infty
+      \big(
+        \mathrm{Shp}(X)
+        ,\,
+        S_2
+      \big)
+    \Big)
+  \end{aligned}
+$$
+
+Here the first four steps use the [hom-equivalences](adjoint+infinity1-functor#CharacterizationInTermsOfHomEquivalences) of the above adjunctions. The second but last step uses [[cohesion]], namely that the [[shape modality]] preserves [[finite product|finite]] [[homotopy products]] and is [[idempotent (infinity,1)-monad|idempotent]]. The last step is the [hom-equivalence](adjoint+infinity1-functor#CharacterizationInTermsOfHomEquivalences) for the [[cartesian monoidal (infinity,1)-category|cartesian monoidal]]-structure of [[∞Grpd]].
+
+By the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]], this implies the equivalence (eq:CohesiveShapeCorepresentsShapeOfSlice) and hence the claim to be proven.
+\end{proof}
+
+
+### Shape of a topological space
+ {#ShapeOfATopologicalSpace}
+
+For a discussion of how the $(\infty,1)$-topos theoretic shape of the [[(infinity,1)-category of (infinity,1)-sheaves|$(\infty,1)$-category of $(\infty,1)$-sheaves]] $Sh_{(\infty,1)}(X)$ on a [[topological space]]  $X$ relates to the ordinary shape-theoretic _strong shape_ of the topological space $X$ see [this section](shape+theory#StrongShapeViaInfinityToposTheory) at *[[shape theory]]*.
 
 
 ## Related concepts
@@ -340,9 +599,9 @@ The definition of shape of $(\infty,1)$-toposes as $\Gamma \circ LConst$ is due 
 * [[Bertrand Toen]], [[Gabriele Vezzosi]],  _Segal topoi and stacks over Segal categories_ , in Proceedings of the
 Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv.org/abs/math/0212330)).
 
-This and the relation to [[shape theory]], more precisely the [[strong shape]], of topological spaces is further discussed in section 7.1.6 of 
+This and the relation to ([[strong shape|strong]]) [[shape theory]], of topological spaces is further discussed in  
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], Section 7.1.6 of: _[[Higher Topos Theory]]_
 
 See also:
 
