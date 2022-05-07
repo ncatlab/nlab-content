@@ -351,7 +351,7 @@ which means we have a Galois connection between $f$ and $g$ under this definitio
 
 ## References
 
-The concent is due to 
+The concept is due to 
 
 * {#Ore44} &#216;ystein Ore, _Galois connexions_ , Trans. AMS **55** (1944) pp.493-513. ([pdf](http://www.ams.org/journals/tran/1944-055-00/S0002-9947-1944-0010555-7/S0002-9947-1944-0010555-7.pdf))
 
