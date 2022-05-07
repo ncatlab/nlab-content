@@ -337,7 +337,7 @@ A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' i
   * its component on each hom-object
 
     $$
-      f_{x,y} : C(x,y) \to C(f(x),f(y))
+      f_{x,y} : C(x,y) \to D(f(x),f(y))
     $$
 
     is a [[homotopy equivalence]],
