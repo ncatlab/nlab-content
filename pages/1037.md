@@ -626,6 +626,10 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ### 7.1 Paracompact spaces
 
+* [[non-abelian cohomology]] 
+
+  of [[paracompact topological spaces]]
+
 * [[shape of an (∞,1)-topos]]
 
 * [[shape theory]]
