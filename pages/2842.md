@@ -20,13 +20,17 @@
 
 ## Idea
 
-Hurewicz cofibrations are a kind of [[cofibration]] of [[topological spaces]], hence a kind of [[continuous function]] satisfying certain [[extension]] properties. 
+In [[algebraic topology]] and [[homotopy theory]],
+*Hurewicz cofibrations* are a kind of [[cofibration]] of [[topological spaces]], hence a kind of [[continuous function]] satisfying certain [[extension]] properties. 
 
-In [[point-set topology]] Hurewicz cofibrations are often just called _cofibrations_. If their [[image]] is a [[closed subspace]] they are called _[[closed cofibrations]]_.
+Specifically, a [[continuous function]] is a _Hurewicz cofibration_ if it satisfies the [[homotopy extension property]] for all target spaces and with respect to the standard notion of [[left homotopy]] of topological spaces given by the standard topological [[interval object]]/[[cylinder object]].
 
-A [[continuous function]] is a _Hurewicz cofibration_ if it satisfies the [[homotopy extension property]] for all spaces and with respect to the standard notion of [[left homotopy]] of topological spaces given by the standard topological [[interval object]]/[[cylinder object]].
 
-More generally, one may speak of morphisms in any [[category with weak equivalences]] having the [[homotopy extension property]] with respect to a chosen [[cylinder object]], one speaks of _h-cofibrations_.
+In [[point-set topology]] Hurewicz cofibrations are often just called _cofibrations_,for short. If their [[image]] is a [[closed subspace]] they are called _[[closed cofibrations]]_. 
+
+Beware that there are other relevant classes of cofibrations between topological spaces, notably the *[[Serre cofibrations]]*, and (in [[homotopy theory]] and [[model category]]-theory, at least) also often just called "cofibrations". But "closed cofibration" always refers to closed Hurewicz cofibrations.
+
+In fact, the notion of [[homotopy extension property]] makes sense in any [[category]] with a chosen [[cylinder object]]; and in this generality one also speaks of *[[h-cofibrations]]*.
 
 
 ## Definition
@@ -254,6 +258,8 @@ Original articles:
 Textbook accounts:
 
 * {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
+* [[Peter May]], Chapter 6 of: *[[A concise course in algebraic topology]]*, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 Lecture notes:
 
