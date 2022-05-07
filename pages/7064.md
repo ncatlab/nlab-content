@@ -431,12 +431,11 @@ Introductions and surveys include
 
 * {#Hatcher} [[Allen Hatcher]], _Pictures of stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
 
-* [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
+* {#MahowaldRavenel87} [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_, in: [[Samuel Gitler]] (ed.): _The Lefschetz Centennial Conference: Proceedings on Algebraic Topology II_, Contemporary Mathematics volume 58, AMS 1987  ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]], [ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2))
+
+  > ([[chromatic homotopy theory]])
 
 * [[Haynes Miller]], [[Doug Ravenel]], _Mark Mahowald's work on the homotopy groups of spheres_ ([pdf](http://www-math.mit.edu/~hrm/ksem/miller-ravenel.pdf))
-
-
-* [[eom]], _[Spheres, homotopy groups of the](http://www.encyclopediaofmath.org/index.php/Spheres,_homotopy_groups_of_the)_
 
 * {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, since 1986 ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
  
@@ -444,7 +443,7 @@ Introductions and surveys include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5 of  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _Stable homotopy groups of spheres_ ([arXiv:2001.04247](https://arxiv.org/abs/2001.04247))
+* [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _Stable homotopy groups of spheres_, PNAS October 6, 2020 117 (40) 24757-2476 ([arXiv:2001.04247](https://arxiv.org/abs/2001.04247), [doi:10.1073/pnas.2012335117](https://doi.org/10.1073/pnas.2012335117))
 
 
 A tabulation of stable homotopy groups of spheres is in 
@@ -465,6 +464,9 @@ Early computation of unstable homotopy groups of spheres $\pi_{n+k}(S^k)$ up to 
 See also
 
 * Wikipedia, _[Homotopy groups of spheres](http://en.wikipedia.org/wiki/Homotopy_groups_of_spheres)_
+
+* [[eom]], _[Spheres, homotopy groups of the](http://www.encyclopediaofmath.org/index.php/Spheres,_homotopy_groups_of_the)_
+
 
 * MO, _[Computational complexity of computing homotopy groups of spheres](http://mathoverflow.net/questions/31004/computational-complexity-of-computing-homotopy-groups-of-spheres)_
 
