@@ -20,7 +20,7 @@
 
 ## Idea
 
-The *essential fiber* of a [[functor]] is a non-[[evil]] replacement for the [[fiber]].  It is a [[category theory|category-theoretic]] version of a [[homotopy fiber]].
+The notion of *essential fiber* of a [[functor]] is an enhancement of the naive notion of *[[fiber]]* which, for [[functors]], would violate the [[principle of equivalence]].  It is a [[category theory|category-theoretic]] version of a [[homotopy fiber]].
 
 ## Definition
 
