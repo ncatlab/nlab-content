@@ -8,19 +8,47 @@
 Event structures were introduced in order to abstract away from the precise 'places' and times at which events occur in distributed systems. The structure focuses on the events and the causal ordering between them.
 
 
-##Original form
-+--{: .un_defn}
-######Definition######
-An _event structure_, $(E,\le, \sharp)$, consists of a [[poset]] $(E,\le)$ of _events_, where the partial order relation expresses _causal dependency_, together with a symmetric irreflexive relation, $\sharp$, called _incompatibility_.  This data is to satisfy
+##Definition##
 
-*  finite causes: for every event $e$ the set $\downarrow e = \{e'\mid e'\le e\}$ is finite; 
+Event structures in the following sense are sometimes also called *prime* event structures. 
 
-and
+\begin{definition}
+An *event structure* is a tuple $(E,\leq, \mathrm{Con})$ consisting of a [[poset]] $(E,\le)$ of _events_, and a nonempty set $\mathrm{Con} \subseteq \mathcal{P}(E)$ of _consistent subsets_, satisfying the following axioms:
 
-* _hereditary incompatibility_: for any $e,e',e'' \in E$, $e\sharp e'$ and $e'\le e''$ implies $e\sharp e''$.
-=--
-+--{: .un_defn}
-######Definition######
+*  finite causes: for every event $e$ the set $\{e'\mid e'\le e\}$ is finite;
+
+* if $e \in E$ then $\{ e \} \in \mathrm{Con}$;  
+
+* if $X \in \mathrm{Con}$ and $Y \subseteq X$ then $Y \in \mathrm{Con}$; 
+
+* if $X \in \mathrm{Con}$, $e \in X$, and $e' \leq e$, then $X \cup \{ e\} \in \mathrm{Con}$;
+
+\end{definition}
+
+A restricted but simpler definition is as follows: 
+
+\begin{definition}
+An *event structure with binary conflict* is a tuple $(E, \leq, \#)$, where $(E, \leq)$ is a [[poset]] and $\#$ is an irreflexive binary relation on $E$, the *conflict relation*, satisfying: 
+
+* finite causes: for every event $e$ the set $\{e'\mid e'\le e\}$ is finite;
+
+* hereditary conflict: if $e \#  e'$ and $e' \leq e''$ then $e \# e''$. 
+
+\end{definition}
+
+\begin{proposition}
+If $(E, \leq, \#)$ is an event structure with binary conflict, then defining $\mathrm{Con} = \{ X \subseteq E \mid \forall e, e' \in X. \neg (e \# e') \} $
+makes $(E, \leq, \Con)$ and event structure. 
+
+Conversely, if an event structure $(E, \leq, \mathrm{Con})$ satisfies 
+\[ 
+\forall X \subseteq E. (\forall e, e' \in X. \neg (e \# e')) \implies X \in \mathrm{Con}
+\]
+then defining $\# = \{ (e, e') \mid \{ e, e'\} \in \mathrm{Con} \}$  makes $(E, \leq, \#)$ an event structure with binary conflict. 
+\end{proposition}
+
+That is, event structures with binary conflict correspond to event structures in which pairwise consistency implies mutual consistency.  
+
 Let $\mathbb{E} = (E,\le, \sharp)$ be an event structure. Define its set of **configurations**, 
 $C(\mathbb{E}) = C(E,\le, \sharp)$, to consist of those subsets $X \subseteq E$, which are 
  
@@ -29,7 +57,7 @@ $C(\mathbb{E}) = C(E,\le, \sharp)$, to consist of those subsets $X \subseteq E$,
 and 
 
 *  downward closed:  if $e\in X$, $\downarrow e\subseteq X$.
-=--
+\end{definition}
 
 A morphism $f : \mathbb{E}\to \mathbb{E}'$ of event structures consists of a [[partial function]] $f : E \to  E'$ such that 
 
@@ -55,7 +83,7 @@ _A morphism $f : \mathbb{E}\to \mathbb{E}'$ between event structures expresses h
 
 With this definition of morphism, we get the category, $\mathbf{ES}$ of event structures.
 
-##Alternative form##
+
 
 In some sources, rather than stress the _inconsistency relation_, the complementary _consistency relation_.  This leads to the definition of a family, $Con$, of finite subsets of $E$, which satisfy
 
@@ -67,6 +95,19 @@ In some sources, rather than stress the _inconsistency relation_, the complement
 and 
 
 * $X\in Con$ and $e\leq e'\in X$ then $X\cup \{e\}\in Con$.
+
+##The category of event structures##
+
+
+##Event structures as domains## 
+
+
+
+##Event structures as presheaves 
+
+
+##Event structures with symmetry##
+
 
 
 ##References##
