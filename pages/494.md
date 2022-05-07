@@ -1043,7 +1043,7 @@ $$
     Hom(R x, R a)
 $$
 
-is the component map of the functor $R$:
+is the component map of the functor $R$ ([this Prop.](geometry+of+physics+–+basic+notions+of+category+theory#ReExpressingMiddleFunctorInAdjointTriple)):
 
 $$
   \begin{aligned}
