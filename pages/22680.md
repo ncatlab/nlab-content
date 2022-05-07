@@ -1,3 +1,17 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -14,17 +28,23 @@ A non-zero element $a \in M$ is a __[[zero divisor]]__ if thete exists a non-zer
 
 ### Localization and group completion
 
-The [[localization of a monoid|localization]] of an absorption monoid at $0$ is the [[trivial group]]. Because of this, the [[group completion]] of any absorption monoid is the [[trivial group]]. This is why one speaks of division monoids ([[#Division monoid|see below]]) instead of groups in the context of absorption monoids, and in particular, why the additive [[identity element]] in any [[trivial ring|nontrivial]] [[field]] has no multiplicative [[inverse]]. 
+The [[localization of a monoid|localization]] of an absorption monoid at $0$ is the [[trivial group]]. Because of this, the [[group completion]] of any absorption monoid is the [[trivial group]]. This is why one speaks of division monoids (see below) instead of groups in the context of absorption monoids, and in particular, why the additive [[identity element]] in any [[trivial ring|nontrivial]] [[field]] has no multiplicative [[inverse]]. 
 
 ## Examples
 
 ### Integral monoids
 
-An absorption monoid whose largest submonoid not containing $0$ is a [[cancellative monoid]] is called an __integral monoid__. 
+* An absorption monoid whose largest submonoid not containing $0$ is a [[cancellative monoid]] is called an __integral monoid__. 
 
-### Division monoid
+* An integral monoid whose largest submonoid not containing $0$ is a [[GCD monoid]] is called an __GCD integral monoid__. 
 
-An integral monoid such that all non-zero elements are invertible is called a __division monoid__. Equivalently, a  division monoid is an absorption monoid whose largest submonoid not containing $0$ is a [[group]]. 
+* An commutative integral monoid whose largest submonoid not containing $0$ is a [[unique factorization monoid]] is called an __unique factorization integral monoid__. 
+
+* An integral monoid whose largest submonoid not containing $0$ is a [[Bézout monoid]] is called an __Bézout integral monoid__. 
+
+* An integral monoid whose largest submonoid not containing $0$ is a [[principal ideal monoid]] is called an __principal ideal integral monoid__. 
+
+* An integral monoid whose largest submonoid not containing $0$ is a [[group]] is called an __division monoid__. 
 
 ### Other examples
 
@@ -43,7 +63,16 @@ An integral monoid such that all non-zero elements are invertible is called a __
 [[!redirects absorption monoids]]
 [[!redirects annihilation monoid]]
 [[!redirects annihilation monoids]]
+
 [[!redirects integral monoid]]
 [[!redirects integral monoids]]
+[[!redirects GCD integral monoid]]
+[[!redirects GCD integral monoids]]
+[[!redirects unique factorization integral monoid]]
+[[!redirects unique factorization integral monoids]]
+[[!redirects Bézout integral monoid]]
+[[!redirects Bézout integral monoids]]
+[[!redirects principal ideal integral monoid]]
+[[!redirects principal ideal integral monoids]]
 [[!redirects division monoid]]
 [[!redirects division monoids]]
