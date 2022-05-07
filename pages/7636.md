@@ -485,7 +485,7 @@ See also
 
 * {#Kapulkin14} [[Chris Kapulkin]], _Type theory and locally cartesian closed quasicategories_, Oxford 2014 ([video](https://www.youtube.com/watch?v=g87bZJ2bvYk))
 
-* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_ ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_, Advances in Mathematics **337** (2018) 1-38 ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037), [doi:10.1016/j.aim.2018.08.003](https://doi.org/10.1016/j.aim.2018.08.003))
 
 * {#KapulkinSzumilo17} [[Chris Kapulkin]], [[Karol Szumilo]], _Internal Language of Finitely Complete $(\infty,1)$-categories_ ([arXiv:1709.09519](https://arxiv.org/abs/1709.09519))
 
