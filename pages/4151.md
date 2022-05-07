@@ -36,7 +36,7 @@ The definition is due to [[Grothendieck]]:
 
 A **basic localizer** is a [[class]] $W$ of [[morphisms]] in [[Cat]] such that
 
-1. $W$ contains all [[identities]], satisfies the [[2-out-of-3 property]] and, for any functor $i\colon A\to B$ such that there exists a functor $r\colon B\to A$ with $ri=1_A$ and $ir$ in $W$, we have $i$ in $W$ (in the literature this is sometimes called being *weakly saturated*),
+1. $W$ contains all [[identities]], satisfies the [[2-out-of-3 property]] and, for any functor $i\colon A\to B$ such that there exists a functor $r\colon B\to A$ with $r i=1_A$ and $i r$ in $W$, we have $i$ in $W$ (in the literature this is sometimes called being *weakly saturated*),
 
 1. If $A$ has a [[terminal object]], then the functor $A\to 1$ is in $W$, and
 
