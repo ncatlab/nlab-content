@@ -6,10 +6,6 @@
 +-- {: .hide}
 [[!include representation theory - contents]]
 =--
-#### Mathematics
-+-- {: .hide}
-[[!include mathematicscontents]]
-=--
 =--
 =--
 
