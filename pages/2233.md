@@ -179,11 +179,17 @@ With an eye towards the full extension of [[Chern-Simons theory]]:
 * [[Daniel S. Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
 
 
-For TQFTs appearing in [[solid state physics]] in the context of [[topological order]]:
+For TQFTs appearing in [[solid state physics]] in the context of [[topological order]] (see also at *[[K-theory classification of topological phases of matter]]*):
 
-* {#FreedMoore12} [[Daniel S. Freed]], [[Gregory Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
+* {#FreedMoore12} [[Daniel S. Freed]], [[Gregory Moore]], _Twisted equivariant matter_ ([arxiv/1208.5055](http://arxiv.org/abs/1208.5055))
+
+  > (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
 
 * {#Freed14} [[Daniel S. Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
+
+* [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Condensations in higher categories* ([arXiv:1905.09566](https://arxiv.org/abs/1905.09566))
 
 
 
