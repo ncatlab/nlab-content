@@ -22,7 +22,7 @@ This is also sometimes called an _$(n-1)$-stack_.
 
 ## Examples
 
-* [[(0,1)-sheaf]] 
+* [[(0,1)-sheaf]] = [[ideal]] (of a [[poset]]/[[proset]])
 
 * [[(1,1)-sheaf]] = [[sheaf]]
 
