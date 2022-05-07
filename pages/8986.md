@@ -43,7 +43,7 @@ A [[monad]] can be regarded as a pointed endofunctor where $\sigma$ is its unit.
 
 +-- {: .num_prop}
 ###### Proposition
-The pointed endofunctor $(T,\eta)$ underlying a monad $(T : C \to C, \eta: 1\to T, \mu : T^2\to T)$ is well pointed iff $T$ is [[idempotent monad|idempotent]], i.e. $\mu$ is an isomorphism.
+The pointed endofunctor $(T,\eta)$ underlying a monad $(T : C \to C, \eta: 1\to T, \mu : T^2\to T)$ is well-pointed if and only if $T$ is [[idempotent monad|idempotent]], i.e. $\mu$ is an isomorphism.
 =--
 +-- {: .proof}
 ###### Proof
@@ -52,9 +52,9 @@ If $\mu$ is an isomorphism then $T\eta=\eta T$ since both are sections of $\mu$.
 Conversely, if $T\eta=\eta T$, then $T\eta$ is an inverse for $\mu$.
 Indeed, 
 $$
-T\eta_A\circ\mu_A = \mu_{TA} \circ T^2\eta_A = \mu_{TA}\circ T\eta_{TA} = 1,
+T\eta_A\circ\mu_A = \mu_{TA}\circ T^2\eta_A = \mu_{TA}\circ T\eta_{TA} = 1_{T^2A},
 $$
-and $\mu_A\circ T\eta_A = 1$ by the right unit law.
+and $\mu_A\circ T\eta_A = 1_{TA}$ by the right unit law.
 =--
 
 ## For pointed object in the endofunctor category
