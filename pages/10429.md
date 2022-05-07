@@ -46,7 +46,7 @@ described by n-category theory. The SPT orders for free fermions are described b
 
 ## Related entries
 
-* [[phase of matter]]
+* [[phase of matter]], [[quantum material]]
 
 * [[gapped Hamiltonian]]
 
@@ -64,7 +64,6 @@ described by n-category theory. The SPT orders for free fermions are described b
 
 * [[topological quantum computing]]
 
-
 * [[quantum spin Hall effect]]
 
 * [[entanglement]]
@@ -74,9 +73,11 @@ described by n-category theory. The SPT orders for free fermions are described b
 
 ### Reviews
 
-Textbook account:
+Textbook accounts:
 
 * Sanju Gupta, Avadh Saxena, *The Role of Topology in Materials*,  Springer Series in Solid-State Sciences **189**, 2018 ([doi:10.1007/978-3-319-76596-9](https://link.springer.com/book/10.1007/978-3-319-76596-9))
+
+* [[Tudor D. Stanescu]], Part II of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
 See also:
 
