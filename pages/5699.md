@@ -145,13 +145,19 @@ On [[swampland conjectures]]:
 * {#BrennanCartaVafa17} T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
 
 
-* Jacob McNamara, [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355))
-
 * Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]], _Four Dimensional $\mathcal{N}=4$ SYM and the Swampland_ ([arXiv:1912.06144](https://arxiv.org/abs/1912.06144))
 
 On the [[M5-brane elliptic genus]]:
 
 * [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884))
+
+Introducing the [[swampland cobordism conjecture]]:
+
+* {#McNamaVafa17} [[Jacob McNamara]], [[Cumrun Vafa]], _Cobordism Classes and the Swampland_ ([arXiv:1909.10355](https://arxiv.org/abs/1909.10355), [spire:1755441](https://inspirehep.net/literature/1755441))
+
+* [[Miguel Montero]], [[Cumrun Vafa]], _Cobordism Conjecture, Anomalies, and the String Lamppost Principle_, J. High Energ. Phys. 2021, 63 (2021) ([arXiv:2008.11729](https://arxiv.org/abs/2008.11729))
+
+
 
 ## Selected talks
 
