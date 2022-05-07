@@ -23,13 +23,13 @@
 A (complete) _archimedean valued field_ is a [[field]] equipped with an [[archimedean absolute value]] (and [[complete field|complete]] with respect to it).
 
 
-A non-archimedean field is one that is not, hence one whose [[norm]] satisfies the [[ultrametric]] [[triangle inequality]].
+A non-archimedean valued field is one that is not, hence one whose [[norm]] satisfies the [[ultrametric]] [[triangle inequality]].
 
 ## Properties
 
-One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|complete]] with respect to an [[absolute value]] ${\vert - \vert}$ either the absolute value is archimedean, in which case $k$ is either the field of [[real numbers]] or of [[complex numbers]], or the absolute value is non-archimedean.
+One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|complete]] with respect to an [[absolute value]] ${\vert - \vert}$ either the absolute value is archimedean valued, in which case $k$ is either the field of [[real numbers]] or of [[complex numbers]], or the absolute value is non-archimedean.
 
-### Non-archimedean fields
+### Non-archimedean valued fields
 
 For $k$ a non-archimedean valued field for some non-archimedean [[absolute value]] ${\vert -\vert}$ one defines
 
@@ -70,7 +70,7 @@ Non-archimedean valued fields include
 
 * [[archimedean field]]
 
-* [[valuation]]
+* [[absolute value]]
 
 * [[non-archimedean analytic geometry]]
 
