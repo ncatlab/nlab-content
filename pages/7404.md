@@ -23,7 +23,9 @@ Grouplike $E_\infty$-spaces are equivalently [[infinite loop spaces]]. See there
 
 ## References
 
-* [[Peter May]] with contributions by [[Frank Quinn]], Nigel Ray and Jorgen Tornehave, _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf))
+
+* [[Peter May]] with contributions by [[Frank Quinn]], [[Nigel Ray]] and [[Jørgen Tornehave]], _$E_\infty$-Ring spaces and $E_\infty$ ring spectra_, Lecture Notes in Mathematics 577, Springer 1977 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/e_infty.pdf), [cds:1690879](https://cds.cern.ch/record/1690879))
+
 
 
 [[!redirects E-∞ space]]
