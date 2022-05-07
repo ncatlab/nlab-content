@@ -55,8 +55,8 @@ An arbitrary coproduct $\sum_i a_i$ is disjoint if each coprojection $a_i\to \su
 
 * Non-example: the [[interval category]]  $\left\{
     0 \to 1
-  \right\}$ has coproducts but is they are not all disjoint: $1+1=1$. 
-There are plenty more examples of [[posets]] that have non-disjoint coproducts besides this one. In a [[Boolean algebra]] two elements $a$ and $b$ are disjoint in the sense that $a\wedge b=0$ if and only if $a\vee b$ is their disjoint coproduct. 
+  \right\}$ has coproducts but they are not all disjoint: $1+1=1$. 
+There are plenty more examples of [[posets]] that have non-disjoint coproducts besides this one. In a [[Boolean algebra]], two elements $a$ and $b$ are disjoint in the sense that $a\wedge b=0$ if and only if $a\vee b$ is their disjoint coproduct. 
 
 ## Properties
 
