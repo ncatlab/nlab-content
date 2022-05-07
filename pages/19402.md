@@ -43,7 +43,7 @@ Consider
       &\overset{\rho}{\longrightarrow}&
       X
       \\
-      (x,g) &\mapsto& g \cdot x
+      (g,x) &\mapsto& g \cdot x
       \mathrlap{\,.}
     }
   $$
