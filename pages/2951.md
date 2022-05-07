@@ -5,11 +5,17 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Graeme_Segal)
 
+
 ## Selected writings
 
-On [[classifying spaces]] and [[spectral sequences]] (and introducing the "[[Segal conditions]]", see also at _[[complete Segal space|complete]] [[Segal space]]_):
+On [[classifying spaces]] and [[spectral sequences]] (and introducing, following [Grothendicek 61](Segal+condition#Grothendieck61), the "[[Segal conditions]]", see also at _[[complete Segal space|complete]] [[Segal space]]_):
 
 * {#Segal} [[Graeme Segal]], _Classifying spaces and spectral sequences_, Inst. Hautes &#201;tudes Sci. Publ. Math., vol. 34, pp. 105&#8211;112 (1968)
+
+On the [[representation rings]] of [[compact Lie groups]]:
+
+* {#Segal68} [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques, January 1968, Volume 34, Issue 1, pp 113-128 ([numdam:PMIHES_1968__34__113_0](http://www.numdam.org/item/?id=PMIHES_1968__34__113_0))
+
 
 On the [[group completion theorem]]:
 
