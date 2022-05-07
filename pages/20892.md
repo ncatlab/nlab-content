@@ -18,6 +18,8 @@ For a unifying perspective and further pointers see:
 
 * {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]* ([arXiv:1912.10425](https://arxiv.org/abs/1912.10425))
 
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
+
 
 #### In Chern-Simons theory
  {#ReferencesWeightSystemsInChernSimonsTheory}
