@@ -324,7 +324,9 @@ identification on the bottom right mapping space out of the point space.
 
 * [[space of knots]]
 
-##References
+* [[mapping complex]], [[simplicial mapping complex]]
+
+## References
 
 * Ralph H. Fox, _On Topologies for Function Spaces_
 , Bull. AMS **51** (1945) pp.429-432. ([pdf](http://projecteuclid.org/download/pdf_1/euclid.bams/1183506987))
