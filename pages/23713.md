@@ -18,7 +18,7 @@
 
 Generally, a *Berry phase* is a non-trivial phase picked up by a [[quantum state]] of definite [[energy]] under [[quantum adiabatic theorem|adiabatic]] changes of the [[quantum system]]'s [[Hamiltonian]] around a [[loop]] in its parameter space.
 
-Specifically, in [[condensed matter theory]] and  for a [[crystal|crystalline]] material with a set of isolated (gapped) [[electronic band structure|electronic bands]], the [[partial derivatives]] along [[momentum]]-[[vectors]] of the corresponding [[Bloch states]], projected back onto these states, turn out to canonically define a [[connection on a vector bundle|connection]] [[differential 1-form|1-form]] on the [[vector bundles]] (over the [[Brillouin torus]]) which is spanned by these states. This is called a *Berry connection*, due to ([Berry 84](#Berry84), [Simon 83](#Simon83)). The [[parallel transport]] along this connection describes the change of [[Boch states]] under the [[quantum adiabatic theorem|adiabatic]] change of their [[momentum]]/[[wave vector]].  The [[curvature 2-form]] of a Berry connection is accordingly called the *Berry curvature*.
+Specifically, in [[condensed matter theory]] and  for a [[crystal|crystalline]] material with a set of isolated (gapped) [[electronic band structure|electronic bands]], the [[partial derivatives]] along [[momentum]]-[[vectors]] of the corresponding [[Bloch states]], projected back onto these states, turn out to canonically define a [[connection on a vector bundle|connection]] [[differential 1-form|1-form]] on the [[vector bundles]] (over the [[Brillouin torus]]) which is spanned by these states. This is called a *Berry connection*, due to ([Berry 84](#Berry84), [Simon 83](#Simon83)). The [[parallel transport]] along this connection describes the change of [[Bloch states]] under the [[quantum adiabatic theorem|adiabatic]] change of their [[momentum]]/[[wave vector]].  The [[curvature 2-form]] of a Berry connection is accordingly called the *Berry curvature*.
 
 The [[holonomy]] of such a Berry connection is called a *[[Berry phase]]*, in general, and a *[[Zak phase]]* ([Zak 89](#Zak89)) when evaluated along one of the non-trivial 1-[[cycles]] of the [[Brillouin torus]]. 
 
@@ -87,6 +87,9 @@ Proposal for experimental realization of [[Berry phases]] around [[codimension]]
 
 
 [[!redirects Berry connections]]
+
+[[!redirects Berry curvature]]
+[[!redirects Berry curvatures]]
 
 [[!redirects Berry phase]]
 [[!redirects Berry phases]]
