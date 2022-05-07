@@ -15,6 +15,8 @@ The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] 
 
 Textbook accounts:
 
+* [[Zhenghan Wang]], *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS 2010 ([ISBN-13: 978-0-8218-4930-9](http://www.ams.org/publications/authors/books/postpub/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf))
+
 * [[Tudor D. Stanescu]], Part IV of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
 Review:
