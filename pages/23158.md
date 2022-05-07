@@ -1,14 +1,31 @@
-The [[separation axioms in terms of lifting properties|following lifting diagrams involving finite topological spaces]]
-represent the definitions of separation axioms $T_0-T_4$. 
-In the pictures above, 
-points are denoted by $\bullet$ with subscripts indicating where the points map to; 
-boxes are put around open subsets, and 
-an arrow $\bullet_u\to \bullet_c$  means that $\bullet_c$ is in the closure of $\bullet_u$. 
-These diagrams for $T_2-T_4$ omit the condition $T_1$ that points are closed. 
-In $T_2-T_4$, an arrow from $X$ determines a decomposition of $X$ 
-into a union of subsets with properties indicated by the picture
-of the finite space.  
 
+
+### In terms of lifting properties
+ {#SeparationAxiomInTermsOfLiftingProperties}
+
+
+The [[separation conditions]] $T_0$ to $T_4$ may equivalently be understood as [[lifting properties]] against certain maps of [[finite topological spaces]]. 
+
+This is discussed at *[[separation axioms in terms of lifting properties]]*, to which we refer for further details. Here we just briefly indicate the corresponding lifting diagrams.
+
+In the following diagrams, the relevant [[finite topological spaces]] are indicated explicitly by illustration of their [[underlying]] point set and their [[open subsets]]:
+
+* points (elements) are denoted by $\bullet$ with subscripts indicating where the points map to; 
+
+* boxes are put around [[open subsets]], 
+
+* an arrow $\bullet_u \to \bullet_c$  means that $\bullet_c$ is in the [[topological closure]] of $\bullet_u$. 
+
+
+In the lifting diagrams for $T_2-T_4$ below, the solid arrow out of the given [[topological space]] $X$ is a [[map]] that  determines (classifies) a decomposition of $X$  into a [[union]] of [[subsets]] with properties indicated by the picture of the finite space.  
+
+Notice that the diagrams for $T_2$-$T_4$ below do not in themselves imply [[T1|$T_1$]].
+
+
+\begin{proposition}
+**(Lifting property encoding $T_0$)**
+\linebreak
+The following [[lifting property]] in [[Top]] equivalently encodes the [[separation axiom]] [[T0|$T_0$]]:
 
 \begin{tikzcd}
 [
@@ -38,6 +55,15 @@ of the finite space.
   &&
   \bullet
 \end{tikzcd}
+
+\end{proposition}
+
+\begin{proposition}
+**(Lifting property encoding $T_1$)**
+\linebreak
+The following [[lifting property]] in [[Top]] equivalently encodes the [[separation axiom]] [[T1|$T_1$]]:
+
+
 \begin{tikzcd}
 [
   column sep={between origins, 40pt},
@@ -67,6 +93,14 @@ of the finite space.
   &&
   \bullet
 \end{tikzcd}
+\end{proposition}
+
+
+\begin{proposition}
+**(Lifting property encoding $T_2$)**
+\linebreak
+The following [[lifting property]] in [[Top]] equivalently encodes the [[separation axiom]] [[T2|$T_2$]]:
+
 
 \begin{tikzcd}
 [
@@ -112,6 +146,15 @@ of the finite space.
   &&
    \{\boxed{\bullet_{x=X=y}}\}
 \end{tikzcd}
+\end{proposition}
+
+
+\begin{proposition}
+**(Lifting property encoding $T_3$)**
+\linebreak
+The following [[lifting property]] in [[Top]] equivalently encodes the [[separation axiom]] [[T3|$T_3$]]:
+
+
 \begin{tikzcd}
 [
   column sep={between origins, 60pt},
@@ -147,6 +190,13 @@ of the finite space.
   &&
       \{\boxed{ \overset{\boxed{\bullet_{x=X=U}}}{}\searrow\underset{\bullet_F}{} }\}
 \end{tikzcd}
+\end{proposition}
+
+\begin{proposition}
+**(Lifting property encoding $T_4$)**
+\linebreak
+The following [[lifting property]] in [[Top]] equivalently encodes the [[separation axiom]] [[T4|$T_4$]]:
+
 \begin{tikzcd}
 [
   column sep={between origins, 60pt},
@@ -210,3 +260,6 @@ of the finite space.
 }
 \}
 \end{tikzcd}
+\end{proposition}
+
+
