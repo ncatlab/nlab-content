@@ -120,6 +120,18 @@ The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[h
 
 This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
 
+### Rezk completion
+
+According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Rezk completion]] or [[stack completion]] of a [[pregroupoid]] to a [[groupoid]] is a higher inductive type and the [[1-truncated]] analogue of the quotient set construction above. 
+
+... (translate into Agda)
+
+### Cumulative hierarchy
+
+According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[cumulative hierarchy]] of sets could be constructed from a type universe as a higher inductive type. 
+
+... 
+
 ### Integers
 
 A definition of the set of [[integers]] as a higher inductive type. 
