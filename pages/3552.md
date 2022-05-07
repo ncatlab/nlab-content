@@ -33,11 +33,11 @@ We now describe this in detail. First some notation and preliminaries:
 
 +-- {: .num_defn #FiniteType}
 ###### Definition
-**(finite type)**
+**([[of finite type]])**
 
-* A [[graded vector space]] $V$ is _of finite type_ if in each degree it is finite dimensional. In this case we write $V^*$ for its degreewise dual.
+* A [[graded vector space]] $V$ is _[[of finite type]]_ if in each degree it is finite dimensional. In this case we write $V^*$ for its degreewise dual.
 
-* A [[Grassmann algebra]] is of finite type if it is the Grassmann algebra $\wedge^\bullet V^*$ on a graded vector space of finite type 
+* A [[Grassmann algebra]] is *[[of finite type]]* if it is the Grassmann algebra $\wedge^\bullet V^*$ on a graded vector space of finite type 
 
   (the dualization here is just convention, that will help make some of the following constructions come out nicely).
 
