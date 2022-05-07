@@ -489,6 +489,8 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 
 * [[spin structure]]
 
+* [[MSpin^c]]
+
 * [[spin^c structure]], [[twisted spin^c structure]]
 
 * [[spin^h structure]]
