@@ -45,6 +45,9 @@
 
 * [[Robert E. Marshak]], *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
 
+* [[Ulrich Mosel]], *Fields, Symmetries, and Quarks*, Springer 1999 ([doi:10.1007/978-3-662-03841-3](https://link.springer.com/book/10.1007/978-3-662-03841-3))
+
+
 * James Dodd, [[Ben Gripaios]], _The Ideas of Particle Physics_, Cambridge University Press 2020 ([ISBN:9781108727402](https://www.cambridge.org/gb/academic/subjects/physics/particle-physics-and-nuclear-physics/ideas-particle-physics-4th-edition?format=PB), [doi:10.1017/9781108616270]( https://doi.org/10.1017/9781108616270))
 
 * Wikipedia, _[Particle physics](https://en.wikipedia.org/wiki/Particle_physics)_
