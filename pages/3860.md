@@ -92,7 +92,7 @@ If $X$ is compact polyhedron which is [[contractible topological space|contracti
 
 Therefore, for contactible compact polyhedral $X$ the Lefschetz fixed point theorem (Prop. \ref{LefschetzFixedPointTheorem}) says that every map $f \colon X\to X$ has a fixed point.
 
-In the further special case that $X = D^n$ is a [[disk]]/[[ball]], this is also the statement of [[Brouwer's fixed point theorem]].
+In the further special case that $X = D^n$ is a [[disk]]/[[ball]], this is also the statement of **[[Brouwer's fixed point theorem]]**.
 \end{example}
 
 \begin{example}\label{FixedPointTheoremForHomeomorphismsOfnSpheres}
