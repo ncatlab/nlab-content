@@ -89,7 +89,7 @@ $$
     \;\colon\;
   dgLieAlg_{k}
     \longrightarrow
-  dgCocAlg_k
+  dgCoCAlg_k
 $$
 
 for the [[Chevalley-Eilenberg algebra]] functor. It sends a dg-Lie algebra $(\mathfrak{g}, \partial, [-,-])$ to the [[dg-coalgebra]]
@@ -115,7 +115,7 @@ For dg-Lie algebras concentrated in degrees $ \geq n \geq 1$ this is due to ([Qu
 +-- {: .num_defn #LeftAdjointToCEfunctor}
 ###### Definition
 
-For $(X,D) \in dgCocalg_k$  write
+For $(X,D) \in dgCoCAlg_k$  write
 
   $$
     \mathcal{L}(X,D)
@@ -152,11 +152,11 @@ $$
      {\underset{CE}{\longrightarrow}}
      {\overset{\mathcal{L}}{\longleftarrow}}
      {\bot}
-  dgCocAlg_k
+  dgCoCAlg_k
   \,.
 $$
 
-Moreover, for $X \in dgCocAlg_k$ and $\mathfrak{g} \in dgLieAlg_k$ then the adjoint [[hom sets]] are [[natural isomorphism|naturally isomorphic]]
+Moreover, for $X \in dgCoCAlg_k$ and $\mathfrak{g} \in dgLieAlg_k$ then the adjoint [[hom sets]] are [[natural isomorphism|naturally isomorphic]]
 
 $$
   Hom(\mathcal{L}(X), \mathfrak{g})
@@ -184,7 +184,7 @@ $$
      {\underset{CE}{\longrightarrow}}
      {\overset{\mathcal{L}}{\longleftarrow}}
      {\bot}
-  (dgCocAlg_k)_{Quillen}
+  (dgCoCAlg_k)_{Quillen}
   \,.
 $$
 
@@ -214,7 +214,7 @@ $$
      {\underset{CE}{\longrightarrow}}
      {\overset{\mathcal{L}}{\longleftarrow}}
      {{}_{\phantom{qu}}\simeq_{Qu}}
-  (dgCocAlg_k)_{Quillen}
+  (dgCoCAlg_k)_{Quillen}
   \,.
 $$
 
