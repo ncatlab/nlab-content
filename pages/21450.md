@@ -173,8 +173,8 @@ the many experimental cross section measurements.
 
 * {#Roberts21} [[Craig Roberts]], _On Mass and Matter_, AAPPS Bulletin volume 31, Article number: 6 (2021) ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340), [doi:10.1007/s43673-021-00005-4](https://doi.org/10.1007/s43673-021-00005-4))
 
-> The origin of the proton mass, and with it the basic mass-scale for all nuclear physics, is one of the most pro-found puzzles in Nature. 
+> The origin of the proton mass, and with it the basic mass-scale for all nuclear physics, is one of the most profound puzzles in Nature. 
 
-> Although  QCD  is  defined  by  a  seemingly  simple  La-grangian, it specifies a problem that has defied solutionfor more than forty years.  The key challenges in modernnuclear and high-energy physics are to reveal the observ-able  content  of  strong  QCD  and,  ultimately,  therefromderive the properties of nuclei. 
+> Although QCD is defined by a seemingly simple Lagrangian, it specifies a problem that has defied solution for more than forty years. The key challenges in modern nuclear and high-energy physics are to reveal the observable content of strong QCD and, ultimately, therefrom derive the properties of nuclei. 
 
 
