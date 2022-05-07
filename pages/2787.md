@@ -60,6 +60,13 @@ The general definition is Def. 1.67 in:
 
 * [[Jiří Adámek]], [[Jiří Rosický]], *[[Locally Presentable and Accessible Categories]]*, London Mathematical Society Lecture Note Series, number 189, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
 
+Further development and connections to locally generated categories in
+
+* [[Jiří Adámek]], [[Jiří Rosický]], *[[What are locally generated categories,]]*, Proc. Categ. Conf. Como 1990, Lect. Notes in Math. 1488 (1991), 14-19.
+
+
+* [[Ivan Di Liberti]], [[Jiří Rosický]], *[[Enriched Locally Generated Categories]]*,  ([arxiv:2009.10980](https://arxiv.org/abs/2009.10980))
+
 [[!redirects finitely generated object]]
 [[!redirects finitely generated objects]]
 [[!redirects finitely generated]]
