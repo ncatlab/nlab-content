@@ -58,9 +58,13 @@ The existence of resolutions of singularities by "blow-up" was established, for 
 
 * {#Hironaka64} [[Heisuke Hironaka]], _Resolution of Singularities of an Algebraic Variety Over a Field of Characteristic Zero: I_, Annals of Mathematics Second Series, Vol. 79, No. 1 (Jan., 1964), pp. 109-203 (95 pages) ([jstor:1970486](https://www.jstor.org/stable/1970486))
 
-Basic review includes
+Basic review:
 
-* {#Berghoff14} [[Marko Berghoff]], section 4 of _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
+* {#Berghoff14} [[Marko Berghoff]], section 4 of: _Wonderful renormalization_, 2014 ([pdf](http://www2.mathematik.hu-berlin.de/%7Ekreimer/wp-content/uploads/Berghoff-Marko.pdf), [doi:10.18452/17160](https://doi.org/10.18452/17160))
+
+
+* [[Loring Tu]], Section 29.2 of: *Introductory Lectures on Equivariant Cohomology*, Annals of Mathematics Studies **204**, AMS 2020 ([ISBN:9780691191744](https://press.princeton.edu/books/hardcover/9780691191744/introductory-lectures-on-equivariant-cohomology))
+
 
 
 The theorem of [Hironaka 64](#Hironaka64) was used to discuss singular [[distributions]] (in the sense of [[generalized functions]]) in
