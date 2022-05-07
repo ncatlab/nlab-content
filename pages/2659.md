@@ -198,7 +198,7 @@ where the superscript on the right denotes restriction to semistable Higgs bundl
 
 #### Generalizations to twisted bundles
 
-A generalization of the nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) to [[twisted bundles]] in discussed in ([Raboso 14](#Raboso14)).
+A generalization of the nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) to [[twisted bundles]] in discussed in ([Raboso 15](#Raboso15)).
 
 ## Relation to geometric Langlands
 
