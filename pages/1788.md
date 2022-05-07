@@ -1,4 +1,6 @@
 
+$\infty$
+
 $$
   \langle{g}\rangle 
     \hookrightarrow 
