@@ -15,28 +15,38 @@
 
 ## Idea
 
-This is the generalization of [[end]] to (∞,1)-categories.
+This is the generalization of the notion of *[[ends]]* from [[category theory]] to [[(∞,1)-category theory]].
 
 ## Definition
 
 ### End of a space-valued functor
 
-Given a functor $F : J^{op} \times J \to \infty Gpd$, we define the end to be
+Given an [[(∞,1)-functor]] $F \colon J^{op} \times J \to \infty Gpd$ to [[∞Groupoids]] from the [[product category|product]] of a [[locally small (∞,1)-category]] $J$ with its [[opposite (∞,1)-category]], we define its *end* to be the [[(∞,1)-categorical hom-space]] in the [[(∞,1)-category of (∞,1)-functors]] from the [[hom-functor]] of $J$ to $F$:
 
 $$ 
-  \int_J F \simeq\infty Gpd^{J^{op} \times J}( J(-,-), F(-,-) )
+  \int_J F 
+    \coloneqq
+  \infty Gpd^{J^{op} \times J}
+  \big( 
+    J(-,-), F(-,-) 
+  \big)
 $$
 
 
 ### Ends and coends as a weighted (co)limit
 
-Let $F : J^{op} \times J \to C$ be a functor between locally small (∞,1)-categories.
-We define the (co)end, when it exists, as (co)representing object of
+More generally, given an [[(∞,1)-functor]] $F \colon J^{op} \times J \to C$ to [[∞Groupoids]] to any [[locally small (∞,1)-category]] $C$,
+we define its (co)end, when it exists, as the (co)[[representing object]] of
 
 $$ 
-  C\left(c, \int_J F \right) \simeq
-  \int_J C(c, F) \simeq
-  \infty Gpd^{J^{op} \times J}( J(-,-), C(c, F(-,-)) )
+  C\left(c, \int_J F \right) 
+   \simeq
+  \int_J C(c, F) 
+    \simeq
+  \infty Gpd^{J^{op} \times J}
+  \big( 
+    J(-,-), C(c, F(-,-)) 
+  \big)
 $$
 $$ 
   C\left(\int^J F, c \right) \simeq
