@@ -159,7 +159,7 @@ indexed only on the even natural numbers.
 Generally, an **$S^k$-$(B,f)$-structure** for $k \in \mathbb{N}$, $k \geq 1$ is a compatible system
 
 $$
-  f_{k n} \colon B_{ kn} \longrightarrow B O(k n)
+  f_{k n} \colon B_{ k n} \longrightarrow B O(k n)
 $$
 
 for all $n \in \mathbb{N}$, hence for all $k n \in k \mathbb{N}$.
