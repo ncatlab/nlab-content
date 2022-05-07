@@ -68,17 +68,27 @@ Let $F$ be a $p$-adic field. The only irreducible admissible representations of 
 
 Let $F$ be a $p$-adic field. For $p\neq 2$, the irreducible admissible representations of $GL_2(F)$ are the following:
 
-*Principal series representations $I(\chi_{1},\chi_{2})$ for $\chi_{1}/\chi_{2}\neq \Vert\cdot\Vert^{\pm 1}$
-*Special representations $S(\chi,chi\times\Vert\cdot\Vert)$
-*Finite-dimensional representations $\chi\circ\det$
-*Super cuspidal representations $BC_{L}^{K}(\psi)$
+* Principal series representations $I(\chi_{1},\chi_{2})$ for $\chi_{1}/\chi_{2}\neq \Vert\cdot\Vert^{\pm 1}$.
 
-Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil group associated to the character $\chi_{i}F^{\times}:\to \mathbb{C}^{\times}$ by the local Langlands correspondence for $GL_1$. Then the local Langlands correspondence associates to each irreducible admissible representation of $GL_2(F)$ a $2$-dimensional Weil-Deligne representation as follows:
+* Special representations $S(\chi_{1},\chi_{1}\times\Vert\cdot\Vert)$.
 
-* To the principal series representation $I(\chi_{1},\chi_{2})$ we associate the Weil-Deligne representation $(\rho_{1}\oplus\rho_{2},0)$
-*
-*
-*
+* Finite-dimensional representations $\chi\circ\det$.
+
+* "Base change" representations $BC_{E}^{F}(\psi)$ for $E$ a quadratic extension of $F$ and $\psi$ an admissible character $\psi:E\to\mathbb{C}^{\times}$.
+
+Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil group associated to the character $\chi_{i}:F^{\times}\to \mathbb{C}^{\times}$ by the local Langlands correspondence for $GL_1$. Then the local Langlands correspondence associates to each irreducible admissible representation of $GL_2(F)$ a $2$-dimensional Weil-Deligne representation as follows:
+
+* To the principal series representation $I(\chi_{1},\chi_{2})$ we associate the Weil-Deligne representation $(\rho_{1}\oplus\rho_{2},0)$.
+
+* To the special representation $S(\chi_{1},\chi_{1}\times\Vert\cdot\Vert)$, we associate the Weil-Deligne representation $\left(\begin{pmatrix}\Vert\cdot\Vert\rho_{1} & 0\\0 & \rho_{1}\end{pmatrix},\begin{pmatrix} 0 & 1\\0 & 0\end{pmatrix}\right)$.
+
+* To the finite-dimensional representation $\chi_{1}\circ\det$, we associate the Weil-Deligne representation $\left(\begin{pmatrix}\rho_{1}\times\Vert\cdot\Vert^{1/2} & 0\\0 & \rho_{1}\times\Vert\cdot\Vert^{-1/2}\end{pmatrix},0\right)$.
+
+* To the "base change" representation $BC_{E}^{F}(\psi)$ we associate the Weil-Deligne representation ($Ind_{W_{E}}^{W_{F}}\sigma,0$), where $\sigma$ is the unique nontrivial element of $\mathrm{Gal}(E/F)$.
+
+## Geometrization
+
+Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21).
 
 ## Related concepts
 
@@ -101,7 +111,7 @@ Basic definitions are discussed in:
 
 An approach via the [[Fargues-Fontaine curve]]:
 
-* [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
+*{#FarguesScholze21} [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
 
 
 [[!redirects local Langlands conjectures]]
