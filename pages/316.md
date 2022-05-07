@@ -92,7 +92,7 @@ For general abstract reasons, the right adjoint $P$ carries a comonad structure 
 
 ### In category theory
 
-If $C$ is a category, then the cone of $C$ is the [[cocomma category]] of the identity on $C$ and the unique map to the terminal category:
+If $C$ is a category, then the cone of $C$ is the [[cocomma category]] of the identity on $C$ and the unique map to the [[terminal category]]:
 
 $$
 \array{
