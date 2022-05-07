@@ -247,7 +247,7 @@ If $E$ is a [[multiplicative cohomology theory|multiplicative]]
       \\
       \mathbb{Z}_2 &\vert& n = 1 \,mod\, 8
       \\
-      \mathbb{Z}_3 &\vert& n = 2 \,mod\, 8
+      \mathbb{Z}_2 &\vert& n = 2 \,mod\, 8
       \\
       0 &\vert& n = 3 \,mod\, 8
       \\
