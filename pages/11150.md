@@ -58,6 +58,8 @@ Review in:
 
 * [[Vincent Vargas]], *Lecture notes on Liouville theory and the DOZZ formula* ([arXiv:1712.00829](https://arxiv.org/abs/1712.00829))
 
+* [[Rémi Rhodes]], [[Vincent Vargas]], *A probabilistic approach of Liouville field theory*, Comptes Rendus. Physique, Tome 21 (2020) no. 6, pp. 561-569. ([doi:10.5802/crphys.43](https://doi.org/10.5802/crphys.43))
+
 
 An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to 
 
