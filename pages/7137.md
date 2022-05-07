@@ -90,6 +90,10 @@ Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil gr
 
 Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21).
 
+## p-adic and mod p local Langlands
+
+The $p$-adic (resp. mod $p$) local Langlands correspondence concerns $p$-adic (resp. mod p) representations of the absolute Galois group of a $p$-adic field $F$, as opposed to complex Weil-Deligne or $\ell$-adic representations. Currently the only known case is the case $GL_2(\mathbb{Q}_{p})$, see also [Breuil2010](#Breuil2010).
+
 ## Related concepts
 
 * [[global analytic geometry]]
@@ -112,6 +116,10 @@ Basic definitions are discussed in:
 An approach via the [[Fargues-Fontaine curve]]:
 
 *{#FarguesScholze21} [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
+
+The p-adic and mod p local Langlands correspondence is discussed in:
+
+*{#Breuil2010}, Christophe Breuil, _The emerging p-adic Langlands program_
 
 
 [[!redirects local Langlands conjectures]]
