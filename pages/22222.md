@@ -45,6 +45,12 @@ Every [[parametric right adjoint]] with [[locally small category|locally small]]
 The [category of fields](field#category) has a multi-initial object, i.e. the functor $Fld \to 1$ has a left multi-adjoint (Def. \ref{MultiAdjoints}).  This consists of all the "[[prime fields]]", $\mathbb{Q}$ and $\mathbb{F}_p$ for some [[prime number]] $p$.
 \end{example}
 
+## Diers spectrum
+
+The notion of a multiadjoint functor is used to define the [[Diers spectrum]].
+See there for more details.
+
+
 ## References
 
 The notion of multi-adjoints is credited by [Osmond 20a](#Osmond2020a), [20b](#Osmond2020a) to:
@@ -66,3 +72,6 @@ See also:
 [[!redirects left multi-adjoint]]
 [[!redirects right multi-adjoint]]
 [[!redirects multi-adjoints]]
+[[!redirects multiadjoint]]
+[[!redirects multiadjoints]]
+
