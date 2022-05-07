@@ -386,6 +386,8 @@ There is an [[equivariant Chern character]] map from equivariant K-theory to [[e
 
 ## Related concepts
 
+* [[rational equivariant K-theory]]
+
 * [[equivariant Chern character]]
 
 * [[Baum-Connes conjecture]], [[Green-Julg theorem]], 
