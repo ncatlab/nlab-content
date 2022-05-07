@@ -35,6 +35,8 @@ Moreover, if the manifold does have a [[manifold with boundary|boundary]], then 
 
 * [[triangulation theorem]]
 
+* [[equivariant good open cover]]
+
 * [[equivariant differential topology]]
 
 ## References
