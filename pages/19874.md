@@ -207,6 +207,11 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 * [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
 
+[[leptoquarks]] explaining both the [[flavour anomalies]] and the [(g-2)-anomalies](anomalous+magnetic+moment#Anomalies):
+
+* Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
+
+
 and within [[Randall-Sundrum models]]
 
 * {#Crivellin18} [[Andreas Crivellin]], _Explaining the Flavour Anomalies with the Pati-Salam Vector Leptoquark_, PoS LHCP2018 (2018) 269 ([spire:1713260](http://inspirehep.net/record/1713260), [doi:10.22323/1.321.0269](https://doi.org/10.22323/1.321.0269))
