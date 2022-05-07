@@ -24,10 +24,12 @@ The min-plus algebra may be used to draw an analogy between the use of [[action 
 
 * [[John Baez]] & [[David Corfield]], [Changing the rig](http://math.ucr.edu/home/baez/corfield/2006/05/changing-rig.html)
 
+* [[Jean-Pierre Quadrat]], _[Max-Plus Algebra and Applications to System Theory and Optimal Control](http://www.cmap.polytechnique.fr/~gaubert/PAPERS/ICM94-preprint.pdf)_, Proccedings of the International Congress of Mathematicians , Zurich 1994,  Birkhauser , 1995.
+
 
 ## Resources
 
-There are several research groups, world wide, with research in this area and with good websites, including simulation, and calculational, tools. One way into the network of these sites is [here](http://www-rocq.inria.fr/MaxplusOrg/).
+There are several research groups, world wide, with research in this area and with good websites, including simulation, and calculational, tools. One way into the network of these sites is [here](http://whttp://www.maxplus.org/).
 
 
 [[!redirects max-plus algebra]]
