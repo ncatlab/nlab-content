@@ -232,7 +232,8 @@ Implications for the significance across channels:
 
 ### Outlook
 
-If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
+If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately is expected to have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) -- in [HMSN 21](#HMSN21) this is expected for Run 3 data -- and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. Extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
+
 
 
 
@@ -582,6 +583,9 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 * {#CFFIN21} Claudia Cornella, Darius A. Faroughy, [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias Neubert]], _Reading the footprints of the B-meson flavor anomalies_ ([arXiv:2103.16558](https://arxiv.org/abs/2103.16558))
 
 * {#LIOS21} Davide Lancierini, [[Gino Isidori]], Patrick Owen, Nicola Serra, _On the significance of new physics in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2104.05631](https://arxiv.org/abs/2104.05631))
+
+* {#HMSN21} T. Hurth, F. Mahmoudi, D. Martinez Santos, S. Neshatpour, *More Indications for Lepton Nonuniversality in $b \to s \ell^+ \ell^-$ ([arXiv:2104.10058](https://arxiv.org/abs/2104.10058))
+
 
 Outlook:
 
