@@ -19,9 +19,8 @@
 ## Idea
 
 <div style="float:right;margin:0 10px 10px 0;">
-<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Hawaiian_earrings.svg/440px-Hawaiian_earrings.svg.png">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Hawaiian_earrings.svg/440px-Hawaiian_earrings.svg.png" width="160">
-</a>
+<a href="https://www.qvc.com/Italian-Silver-Nested-Circles-Dangle-Earrings.product.J482016.html">
+<img src="https://ncatlab.org/nlab/files/NestedCircleEarrings.jpg" width="90"></a>
 </div>
 
 
@@ -30,12 +29,12 @@ The [[topological space]] which is the [[union]] of an infinite number of [[circ
 
 In [[algebraic topology]] this space has been of interest mainly as a counterexample, showing the need for care in hypotheses for a good theory of [[covering spaces]] -- see at *[Properties](#Properties)* below.
 
+
 <div style="float:right;margin:0 10px 10px 0;">
-<a href="https://www.qvc.com/Italian-Silver-Nested-Circles-Dangle-Earrings.product.J482016.html">
-<img src="https://ncatlab.org/nlab/files/ItalianNestedCircleEarrings.jpg" width="285"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Hawaiian_earrings.svg/440px-Hawaiian_earrings.svg.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Hawaiian_earrings.svg/440px-Hawaiian_earrings.svg.png" width="160">
+</a>
 </div>
-
-
 
 
 
