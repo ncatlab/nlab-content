@@ -3,6 +3,8 @@ Co-founder of [[string theory]].
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Henry_Schwarz)
 
+* [Interview by D. Zierler](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/45439), AIP Oral History Interviews, July 2020
+
 ## Selected writings
 
 
