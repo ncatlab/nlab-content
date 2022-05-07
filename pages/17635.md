@@ -22,24 +22,24 @@
 
 A kind of generalization of [[group characters]] to [[chromatic homotopy theory]].
 
-Let $X//G$ be a [[topological stack|topological]] [[quotient stack]]. Its [[free loop space]] $\mathcal{L}(X//G) =  hom_{Stacks}(S^1, X//G)$ restricts to those loops that are constant as continuous maps, and contain only possibly the transition data with values in $X//G$ (i.e. the "[[twisted loop space]]" retaining "twisted sector" data), this is 
+Let $X  \sslash G$ be a [[topological stack|topological]] [[quotient stack]]. Its [[free loop stack]] $\mathcal{L}(X\sslash G) =  hom_{Stacks}(S^1, X//G)$ restricts to those loops that are constant as continuous maps, and contain only possibly the transition data with values in $X \sslash G$ (i.e. the "[[twisted loop space]]" retaining "twisted sector" data), this is the [[inertia stack]]
 
 $$
-  \mathcal{L}_{const}( X//G )
+  \mathcal{L}_{const}( X \sslash G )
   \simeq
-  hom_{Stacks}(\mathbf{B}\mathbb{Z}, X//G)
+  hom_{Stacks}(\mathbf{B}\mathbb{Z}, X \sslash G)
   \,.
 $$
 
-The [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathcal{L}_{const}(X//G)$ is denoted $Fix(X)$ in ([Hopkins-Kuhn-Ravenel 00](#HopkinsKuhnRavenel00), [Stapleton 13, p. 2](#Stapleton13)).
+The [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathcal{L}_{const}(X \sslash G)$ is denoted $Fix(X)$ in ([Hopkins-Kuhn-Ravenel 00](#HopkinsKuhnRavenel00), [Stapleton 13, p. 2](#Stapleton13)).
 
 Regarding $S^1$ as the [[circle group]], there is a canonical $S^1$ [[infinity-action]] on any free loop space $\mathcal{L}(-)$ (by rigid rotation of loops), and it restricts to $\mathcal{L}_{const}(-)$. Hence there is the [[homotopy quotient]] stack
 
 $$
-  \mathcal{L}_{const}( X//G ) // S^1
+  \mathcal{L}_{const}( X \sslash G ) \sslash S^1
 $$
 
-The [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathcal{L}_{const}(X//G) // S^1$ is denoted $Twist(X)$ in ([Stapleton 13, p. 2](#Stapleton13)).
+The [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathcal{L}_{const}(X  \sslash G) \sslash S^1$ is denoted $Twist(X)$ in ([Stapleton 13, p. 2](#Stapleton13)).
 
 Now with $n \in \mathbb{N}$ and given some prime, write $E_n$ for the $n$th [[Morava E-theory]] and $K(t)$ for the $t$th [[Morava K-theory]]. Then there is a homomorphism of Borel [[equivariant cohomology theories]]
 
@@ -65,15 +65,19 @@ Here $B_{n-1}$ is a ring such that... ([Stapleton 13, p. 3](#Stapleton13))
 
 * [[Morava E-theoretic Chern character]]
 
+* [[free loop stack]], [[Huan's inertia orbifold]]
+
+* [[free loop space of classifying space]]
+
 ## References
 
-For introduction see
+Introduction and review:
 
 * [[Nathaniel Stapleton]], _An Introduction to HKR Character Theory_ ([pdf](http://homepages.uni-regensburg.de/~stn30788/papers/Characters.pdf))
 
-* {#Raksit15} Arpon Raksit, _Characters in global equivariant homotopy theory_, 2015 ([pdf](https://www.math.harvard.edu/media/raksit.pdf))
+* {#Raksit15} [[Arpon Raksit]], _Characters in global equivariant homotopy theory_, 2015 ([pdf](https://www.math.harvard.edu/media/raksit.pdf), [[Raksit_Characters.pdf:file]])
 
-Original articles includes
+Original articles:
 
 * {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
