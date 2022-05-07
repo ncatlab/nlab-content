@@ -11,6 +11,10 @@ On combining [[homotopy type theory]] with [[opetopic type theory]]:
 
 * {#AlliouxFinsterSozeau21} [[Antoine Allioux]], [[Eric Finster]], [[Matthieu Sozeau]], _Types are internal infinity-groupoids_, 2021 ([hal:03133144](https://hal.inria.fr/hal-03133144), [pdf](https://hal.inria.fr/hal-03133144/document))
 
+On [[homotopy type theory|homotopy]] [[dependent linear type theory]] of dependent [[stable homotopy types]] with [[categorical semantics]] in [[parametrized spectra]]:
+
+* {#RileyFinsterLicata21} [[Mitchell Riley]], [[Eric Finster]], [[Daniel Licata]], *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
+
 
 
 ## Related $n$Lab pages
