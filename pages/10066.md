@@ -510,14 +510,15 @@ Discussion in the context of [[equivariant complex oriented cohomology theory]]:
 ### Representing equivariant spectrum 
  {#ReferencesRepresentingSpectrum}
 
-That $G$-equivariant [[topological K-theory]] is [[representable functor|represented]] by a [[topological G-space]] is
+That $G$-equivariant [[topological K-theory]] is [[representable functor|represented]] by a [[topological G-space]] is due to:
 
-* [[Michael Atiyah]], [[Graeme Segal]], Corollary A3.2 in: _Twisted K-theory_ ([arXiv:math/0407054](https://arxiv.org/abs/math/0407054))
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Sec. 6 and Corollary A3.2 in:  _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+
 
 * {#LueckOliver01} [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
 
 
-This is enhanced to a representing [[naive G-spectrum]] in 
+This is enhanced to a representing [[naive G-spectrum]] in:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Appendix A.5 of: _Loop groups and twisted K-theory I_, Journal of Topology, Volume 4, Issue 4, December 2011, Pages 737–798 ([arXiv:0711.1906](https://arxiv.org/abs/0711.1906))
 
