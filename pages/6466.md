@@ -141,7 +141,7 @@ We can construct a real numbers object in the following cases (presumably among 
 
 Let $\mathcal{E}$ be an [[elementary topos]] with a natural numbers object $\mathbb{N}$. The **Dedekind real numbers object** of $\mathcal{E}$ is the object of all [[Dedekind cut|Dedekind cuts]]. To be more precise, we will need to make some auxiliary definitions.
 
-We first construct an integers object as follows. Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of $(\pi_1 \circ a, \pi_2 \circ b), (\pi_2 \circ a, \pi_1 \circ b)\colon E \to \mathbb{N}$. A similar construction yields a rational numbers object $\mathbb{Q}$. 
+We first construct an integers object as follows. Let $a, b\colon E \to \mathbb{N} \times \mathbb{N}$ be the [[kernel pair]] of the addition map ${+}\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$, and let $\pi_1, \pi_2\colon \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ be the [[product]] projections. We define $\mathbb{Z}$ to be the [[coequalizer]] of $(\pi_1 \circ a, \pi_2 \circ b), (\pi_1 \circ b, \pi_2 \circ a)\colon E \to \mathbb{N}$. A similar construction yields a rational numbers object $\mathbb{Q}$. 
 
 We denote by $\mathcal{P}(A)$ the [[power object]] of $A$ in $\mathcal{E}$. A **Dedekind cut** is a [[generalized element]] $(L, U)$ of $\mathcal{P}(\mathbb{Q}) \times \mathcal{P}(\mathbb{Q})$, satisfying the following conditions, expressed in the [[Mitchell-Bénabou language]] of $\mathcal{E}$ and interpreted under [[Kripke-Joyal semantics]]:
 
