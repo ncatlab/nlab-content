@@ -113,9 +113,14 @@ See [[(∞,2)-category]].
 
 ## References
 
-In the context of [[model category]] theory, simplicially enriched categories ([[simplicial model categories]]) appear in
+Discussion the context of ([[simplicial model category|simplicial]]) [[model category]] theory :
 
 * {#Quillen67} [[Dan Quillen]], chapter II, section 1 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], Section 9.1.1 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+* [[Jacob Lurie]], Section A.3 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
 
 The original references on homotopy theory in terms of $sSet$-categories are
 
@@ -123,13 +128,9 @@ The original references on homotopy theory in terms of $sSet$-categories are
 
 * [[William Dwyer]], [[Dan Kan]], _Equivalences between homotopy theories of diagrams_ , in Algebraic topology and algebraic K-theory, Annals of Math. Studies 113, Princeton University Press, Princeton, 1987, 180-205.
 
-Simplicially enriched categories as models for $(\infty,1)$-categories are discussed in some detail in section A.3 of 
+Simplicially enriched categories as models for $(\infty,1)$-categories are also discussed in
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
-as well as in section 2 of 
-
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Topos theory_ ([arXiv:0207028](http://arxiv.org/abs/math/0207028))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], Section 2 of: _Topos theory_ ([arXiv:0207028](http://arxiv.org/abs/math/0207028))
 {#ToenVezzosi}
 
 Homotopy coherent category theory on $sSet$-categories is discussed in 
