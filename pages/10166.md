@@ -19,8 +19,9 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Generally, for $G$ some [[group]], a _$G$-equivariant bundle_ is a [[bundle]], specifically a [[fiber bundle]] ([[principal bundle]], [[vector bundle]], etc.) all whose component spaces (total space $E$, base space $X$, [[fiber]] $F$, but also possibly the [[structure group]] $\mathcal{G}$) are equipped with $G$-[[actions]] such that all structure morphisms (in particular the projection $E \overset{p}{\to} X$, but also the $\mathcal{G}$-[[action]] for [[principal bundles]] etc.)  are $G$-[[equivariant functions]].
+Generally, for $G$ some [[group]], a _$G$-equivariant bundle_ is a [[bundle]], specifically a [[fiber bundle]] ([[principal bundle]], [[vector bundle]], etc.) all whose component spaces (total space $E$, base space $X$, [[fiber]] $F$, but also possibly the [[structure group]] $\mathcal{G}$) are equipped with $G$-[[actions]], such that all structure morphisms (in particular the projection $E \overset{p}{\to} X$, but also the $\mathcal{G}$-[[action]] for [[principal bundles]] etc.)  are $G$-[[equivariant functions]].
 
 In short, this should mean that $G$-equivariant (fiber-, principal-,...) bundles are (fiber-, principal, ...) bundles _[[internalization|internal]]_ to a [[category]] of [[G-spaces]] (e.g. [[topological G-spaces]], [[G-manifolds]] but also [[G-sets]] etc.). 
 
@@ -28,7 +29,7 @@ While the existing literature does not state the definition of equivariant bundl
 
 Beware that this action of the [[equivariance group]] on the [[structure group]] of an [[equivariant principal bundle]] is often and traditionally disregarded, i.e. implicitly taken to be the [[trivial action]] (e.g. [Lashof 82](#Lashof82), [Lashof-May-Segal 83](#LashofMaySegal83)), which equivalently means that the [[semidirect product group]] that acts is reduced to the [[direct product group]] $\mathcal{G} \times G$, meaning that the [[action]] of the [[equivariance group]] _commutes_ with that of the [[structure group]]. This is the default meaning of _equivariant bundle_ in most of the literature.
  
-(The definition of "generalized equivariant bundles" proposed in [Lashof-May 86](#LashofMay86) allows any [[group extension]] of $G$ by $\mathcal{G}$ to act. This reduces to [[semidirect products]] $\mathcal{G} \rtimes G$ for [[split sequence|split extensions]] (see [there](group+extension#SplitExtensionsAndSemidirectProductGroups)) where $\mathcal{G}$ is a [[normal subgroup]], and that is the case that [May 90](#May90) falls back to, apparently still independently of [tom Dieck 69](#tomDieck69)).
+(The definition of "generalized equivariant bundles" proposed in [Lashof-May 86](#LashofMay86) allows any [[group extension]] of $G$ by $\mathcal{G}$ to act. This reduces to [[semidirect products]] $\mathcal{G} \rtimes G$ for [[split sequence|split extensions]] (see [there](group+extension#SplitExtensionsAndSemidirectProductGroups)) where $\mathcal{G}$ is a [[normal subgroup]], and that is the case that [May 90](#May90) eventuAKKY falls back to, apparently still independently of [tom Dieck 69](#tomDieck69)).
 
 Much of the literature on equivariant bundles is interested in them as [[twisted cohomology|twists]] for [[twisted equivariant cohomology theories]], and here most of the existing literature focuses on [[twisted equivariant K-theory]] and specifically on its equivariant degree-3 twist by equivariant [[projective bundles]] (e.g. [Barcenas-Espinoza-Joachim-Uribe 12](#BarcenasEspinozaJoachimUribe12),  [Uribe-Lück 14, Sec. 15](#UribeLueck14)).
 
