@@ -302,20 +302,50 @@ A [[point-set topology|point-set argument]] for [[topological spaces]]/[[topolog
 ### In homotopy type theory
   {#InHomotopyTypeTheory}
 
-Recall that in [[homotopy type theory]], we represent an $\infty$-group $G$ by its classying type, a pointed connected type $B G$. An $\infty$-action of $G$ on an object $a$ of type $A$ is given by a homomorphism $G \to Aut_A(a)$, represented by a pointed map $B G \to_* (A,a)$. (Since $B G$ is connected, it doesn't matter whether we restrict the codomain to the [[connected component]] of $A$ at $a$.)
-We thus see that the type of all actions of $G$ on objects of $A$ is the function type $B G \to A$. In particular, the type of $U$-small $G$-types, where $U$ is a universe, is $B G \to U$.
+Recall that in [[homotopy type theory]], an [[∞-group]] $G$ is represented by its [[delooping]] type, a pointed connected type $\mathbf{B} G$. An [[∞-action]] of $G$ on a [[term]] $a$ of [[type]] $A$ is given by a [[group homomorphism]] $G \to Aut_A(a)$, represented by a morphism of [[pointed homotopy types]] $\mathbf{B} G \to_* (A,a)$. (Since $\mathbf{B} G$ is [[connected homotopy type|connected]], it doesn't matter whether we restrict the [[codomain]] to the [[connected component]] of $A$ at $a$.)
 
-By adjointness, the homotopy orbit type of a $G$-type $X : B G \to U$ is given by the $\Sigma$-type, $X \sslash G := \sum_{t : B G} X(t)$. (The homotopy fixed points are given by the $\Pi$-type.)
+We thus see that the type of all [[∞-actions]] of $G$ on objects of $A$ is the [[function type]] $\mathbf{B} G \to A$. In particular, the type of $U$-small $G$-types, where $U$ is a [[type universe]], is $\mathbf{B} G \to U$.
 
-The adjoint action of $G$ on itself is given by the map $G^{ad} : B G \to U$, $t \mapsto (t =_{B G} t)$.
+By [[adjoint (∞,1)-functor|adjointness]], the [[homotopy quotient|homotopy orbit]] type of a $G$-type $X \colon \mathbf{B} G \to U$ is given by the [[dependent sum]]-type, 
 
-Putting this together, we get that the homotopy orbits of the adjoint action are
+$$
+  X \!\sslash\! G 
+   \;\coloneqq\;
+  \sum_{t : \mathbf{B} G} X(t)
+$$
+
+(The [[homotopy fixed points]] are given by the [[dependent product]]-type, as discussed at *[[∞-action]]*.)
+
+Now, the [[adjoint action]] of $G$ on itself is given by the morphism 
+
+$$
+  \array{
+    G^{ad} \colon & \mathbf{B} G &\to& U
+    \\
+    & t &\mapsto& (t =_{\mathbf{B} G} t)
+    \,.
+  }
+$$
+
+Putting this together, we get that the [[homotopy quotient|homotopy orbits]] of the [[adjoint action]] are
+
 \[
-  G^{ad} \sslash G = \sum_{t:B G}(t =_{B G} t) = (S^1 \to B G),
+  \begin{aligned}
+    G^{ad} \!\sslash\! G 
+    &
+     \;=\; 
+    \sum_{t: \mathbf{B} G}
+      (t =_{\mathbf{B} G} t) 
+    \\
+    & \;\simeq\;
+    (&#643;S^1 \to \mathbf{B} G),
+  \end{aligned}
 \]
-where in the last step we used the universal property of the homotopical circle, $S^1$, defined as a [higher inductive type] with a point constructor $base : S^1$ and a path constructor $loop : base =_{S^1} base$.
 
-The function type $S^1 \to B G$ is the representation of the free loop type of $B G$, $\mathcal{L}(B G)$, completing the argument.
+where in the last step we used the [[universal property]] of the [[homotopy type]] ([[shape modality|shape]]) of the [[circle]], $&#643;S^1 \simeq \mathbf{B}\mathbb{Z}$, defined as a [[higher inductive type]] ([here](higher+inductive+type#ExamplesTheCircle)) with a point [[term introduction rule|constructor]] $base : &#643;S^1$ and a path constructor $loop : base =_{&#643;S^1} base$.
+
+The function type $&#643;S^1 \to B G$ is the representation of the free loop type $\mathcal{L}(\mathbf{B} G)$ of $\mathbf{B} G$, completing the argument.
+
 
 ## Examples
 
