@@ -38,7 +38,7 @@ Division rigs are (arguably) not a purely [[algebra|algebraic]] notion in that t
 If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete division rig**.  This condition means that every element is either $0$ or invertible, and it also implies that $0\neq 1$.
 =--
 
-Such a division rig $R$ is 'discrete' in that it decomposes as a coproduct $R = \{0\} \sqcup R^\times$ (where $R^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]] and hence also a [[geometric theory]].  A disadvantage is that this axiom is not satisfied (constructively) by the rig of non-negative [[real numbers]] (however these are defined), although it is satisfied by the rig of non-negative [[rational number|rational]].
+Such a division rig $R$ is 'discrete' in that it decomposes as a coproduct $R = \{0\} \sqcup R^\times$ (where $R^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]] and hence also a [[geometric theory]].  A disadvantage is that this axiom is not satisfied (constructively) by the rig of non-negative [[real numbers]] (however these are defined), although it is satisfied by the rig of non-negative [[rational number|rationals]].
 
 +-- {: .num_defn #heyting}
 ###### Definition
