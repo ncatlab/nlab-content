@@ -14,7 +14,7 @@ The following is a list of references that involve ([[weight systems]] on) [[cho
 
    1. [As dimer/bit thread codes for holographic entanglement entropy](#ForHolographicEntanglementEntropy)
 
-For a unifying perspective and further pointers see:
+For a unifying perspective (via [[schreiber:Hypothesis H]]) and further pointers, see:
 
 * {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]* ([arXiv:1912.10425](https://arxiv.org/abs/1912.10425))
 
@@ -29,9 +29,22 @@ Since [[weight systems are the associated graded of Vassiliev invariants]], and 
 
 Historically this is the original application of [[chord diagrams]]/[[Jacobi diagrams]] and their [[weight systems]], see also at _[[graph complex]]_ and _[[Kontsevich integral]]_.
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/BarNatanChernSimonsChordDiagrams.jpg" width="300">
-</div>
+
+
+\begin{imagefromfile}
+    "file_name": "BarNatanChernSimonsChordDiagrams.jpg",
+    "float": "right",
+    "width": 330,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 14
+    },
+    "caption": "from [Bar-Natan 1991](#BarNatan91)"
+\end{imagefromfile}
+
 
 
 * {#BarNatan91} [[Dror Bar-Natan]], _Perturbative aspects of the Chern-Simons topological quantum field theory_, thesis 1991 ([spire:323500](http://inspirehep.net/record/323500), [proquest:303979053](https://search.proquest.com/docview/303979053), [[BarNatanPerturbativeCS91.pdf:file]])
@@ -89,15 +102,27 @@ which in turn follows
 
 * Philippe Flajolet, Marc Noy, _Analytic Combinatorics of Chord Diagrams_, pages 191–201 in Daniel Krob, Alexander A. Mikhalev,and Alexander V. Mikhalev, (eds.), _Formal Power Series and Algebraic Combinatorics_, Springer 2000 ([doi:10.1007/978-3-662-04166-6_17](https://doi.org/10.1007/978-3-662-04166-6_17))
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/ChordDiagramHolographic.jpg" width="400">
-</div>
+
+\begin{imagefromfile}
+    "file_name": "ChordDiagramHolographic.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 14
+    },
+    "caption": "from [Narovlansky 2019](#Narovlansky19)"
+\end{imagefromfile}
+
 
 With emphasis on the [[AdS-CFT|holographic content]]:
 
 * [[Micha Berkooz]], Mikhail Isachenkov, Vladimir Narovlansky, Genis Torrents, Section 5 of: _Towards a full solution of the large $N$ double-scaled SYK model_, JHEP 03 (2019) 079 ([arxiv:1811.02584](https://arxiv.org/abs/1811.02584))
 
-* Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
+* {#Narovlansky19} Vladimir Narovlansky, Slide 23 (of 28) of: _Towards a Solution of Large $N$ Double-Scaled SYK_, 2019 ([[NarovlanskySYK19.pdf:file]])
 
 and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravity]]: 
 
@@ -105,12 +130,26 @@ and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravit
 
 * [[Andreas Blommaert]], [[Thomas Mertens]], [[Henri Verschelde]], _Fine Structure of Jackiw-Teitelboim Quantum Gravity_, JHEP 1909 (2019) 066 ([arXiv:1812.00918](https://arxiv.org/abs/1812.00918))
 
+
+
 #### In D$p$/D$(p+2)$-brane intersections
  {#ReferencesWeightSystemsInDpDp2BraneIntersections}
  
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/WeightSystemsAsShapeObservabesOnFuzzySphereII.jpg" width="300">
-</div>
+
+\begin{imagefromfile}
+    "file_name": "WeightSystemsAsShapeObservabesOnFuzzySphereII.jpg",
+    "float": "right",
+    "width": 330,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 14
+    },
+    "caption": "from [Sati & Schreiber 19c](#SatiSchreiber19c)"
+\end{imagefromfile}
+
 
 
 Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observables]] for the [[non-abelian DBI action]] on the [[fuzzy funnel]]/[[fuzzy sphere]] [[non-commutative geometry]] of [[Dp-D(p+2)-brane intersections]] ([hence](Dp-Dp+2-brane+bound+states#ReferencesRelationToMonopoles)
@@ -124,7 +163,6 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 #### As codes for holographic entanglement entropy
  {#ForHolographicEntanglementEntropy}
