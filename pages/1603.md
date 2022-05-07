@@ -76,11 +76,12 @@ A __[[group]]__ is an associative loop.
 
 *  Any group is a loop, of course.
 *  Any [[abelian group]] is a quasigroup in two other ways: the product switches places with one of the quotients.  (The other quotient remains a quotient.)
+* Every [[associative quasigroup]], every [[commutative quasigroup]], and every [[loop]] (unital quasigroup) is a quasigroup. 
 * [[H-space]]s are (homotopy-) loops --- this is because the [[shearing map]]s $(x,y)\mapsto (x,x y)$ and $(x,y)\mapsto (x y, y)$ are equivalences.  This generalizes the octonion examples.  Note that a [[loop space]] is always equivalent to a *group*, hence not all homotopy loops are loop spaces.  In particular ...
 *  The nonzero elements of a (not necessarily associative) [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
 * [[code loop]]s are loops which are central extensions of abelian groups (actually vector spaces over the finite field $\mathbb{F}_2$) by $\mathbb{Z}_2$.
 
-See also [[Moufang loop]] and [[associative quasigroup]]. 
+See also [[Moufang loop]]. 
 
 ## Applications
 
