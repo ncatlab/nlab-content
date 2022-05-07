@@ -39,6 +39,11 @@ The [[metric]] induced from corresponding [[graph distance]] is also called the 
 ### For the symmetric group
 
 \begin{example}
+ The [[symmetric group]] $Sym(n)$ may be [[finitely generated group|generated]] from the *adjacent* [[transpositions]]. The corresponding Cayley [[graph distance]] is known as the *[[Kendall tau distance]]*.
+\end{example}
+
+
+\begin{example}
 Consider one of the standard presentations of the [[symmetric group]] $S_3$, $ (a,b  :  a^3, b^2, (a b)^2)$. Write $ r = a^3$, $s = b^2$, $t = (a b)^2$.  
 
 The Cayley graph is easy to draw.  There are two triangles corresponding to $1 \to a \to a^2$ and to its translate by $b$, $b \to a b \to a^2 b$, flipping the orientation of the second, and three 2-cycles, $1\to b\to 1$, $a\to a b\to a$ and $a^2\to a^2b\to a^2$.
@@ -51,9 +56,6 @@ free as well, by the [[Nielsen-Schreier theorem]].  Its rank will be 7, given by
 Looked at geometrically, this will be the [[fundamental group]] of the   Cayley graph, of the presentation.  This group is free on generators corresponding to edges outside  a maximal tree, and, of course, there are 7 of these.
 \end{example}
 
-* [[Kendall kernel]]
-
-* [[Mallows kernel]]
 
 ## Related entries
 
