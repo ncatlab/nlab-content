@@ -437,9 +437,9 @@ $$
   g_0 = 
    \left(
      \array{
-        (j_0)_A  
+        (g_0)_A  
         & 
-        (j_0)_B
+        (g_0)_B
       }
   \right)
  : A_0 \oplus C_0 \to B
@@ -454,7 +454,7 @@ $$
 and in the second component we take
 
 $$
-  (j_0)_C : A_0 \oplus C_0 \to C_0 \stackrel{\zeta}{\to} B
+  (g_0)_C : A_0 \oplus C_0 \to C_0 \stackrel{\zeta}{\to} B
 $$
 
 to be given by a lift in
@@ -542,7 +542,7 @@ $$
     \\
     & & {}^{\mathllap{e_{n}}}\nearrow & \downarrow^{\mathrlap{d^{A_\bullet}_{n-1}}}
     \\
-    e_{n-1}\circ d_n^{C_\bullet} \colon & C_{n+1} &\stackrel{}{\hookrightarrow}& ker(d^{A_\bullet}_{n-1}) = im(d^{A_\bullet}_{n-1})) &\to& A_{n-1}
+    e_{n-1}\circ d_n^{C_\bullet} \colon & C_{n+1} &\stackrel{}{\hookrightarrow}& ker(d^{A_\bullet}_{n-2}) = im(d^{A_\bullet}_{n-1})) &\to& A_{n-1}
   }
   \,,
 $$
