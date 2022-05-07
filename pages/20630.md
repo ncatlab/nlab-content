@@ -176,6 +176,8 @@ $$
 
 * [[equivariant principal bundle]]
 
+* [[slice theorem]]
+
 ## References
  {#References}
 
