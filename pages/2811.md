@@ -1,3 +1,4 @@
+[[!redirects Igor Kriz]]
 
 * [website](http://www.math.lsa.umich.edu/~ikriz/)
 
