@@ -7,6 +7,6 @@
 
 On [[Lev Pontryagin]]'s work:
 
-* [[Revaz Gamkrelidze]] (ed.), _L. S. Pontryagin -- Selected Works_, Volume 1: _Selected Research Papers_,  [Classics of Soviet Mathematics](https://www.routledge.com/Classics-of-Soviet-Mathematics/book-series/CRCCLASOVMTH), Gordon and Breach 1986, CRC Press 2019 ([ISBN:9782881241055](https://www.routledge.com/Selected-Research-Papers/Pontryagn/p/book/9782881241055))
+* {#Gamkrelidze86} [[Revaz Gamkrelidze]] (ed.), _L. S. Pontryagin -- Selected Works_, Volume 1: _Selected Research Papers_,  [Classics of Soviet Mathematics](https://www.routledge.com/Classics-of-Soviet-Mathematics/book-series/CRCCLASOVMTH), Gordon and Breach 1986, CRC Press 2019 ([ISBN:9782881241055](https://www.routledge.com/Selected-Research-Papers/Pontryagn/p/book/9782881241055))
 
 category: people
