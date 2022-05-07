@@ -29,6 +29,8 @@ Ever since the refine folklore says that higher spin theories with a _finite_ nu
 
 One way that higher spin gauge theories are thought to naturally arise is as the limiting case of [[string field theory]] when the [[string tension]] is sent to zero ([Henneaux-Teitelboim 87, section 2](#HenneauxTeitelboim87), [Gross 88](#Gross88), [Sagnotti-Tsulaia 03](#SagnottiTsulaia03), [Bonelli 03](#Bonelli03)): The excitation spectrum of the [[string]] [[sigma-model]] contains beyond the massless particles of the [[effective QFT|effective]] [[supergravity]] theory an infinite tower of massive excitations, of ever higher [[spin]]. There are, however, certain limits in which all these masses become negligible to a reference energy scale -- the _tensionless limit_ -- this is notably so for compactifications on [[anti de Sitter spaces]] of small radius. In this limit the string spectrum looks like an infinite collection of massless [[spinning particles]] for ever higher spin. Due to their common origin in the string, these share intricate relations among each other, which are argued to be described by higher spin gauge theory. (Notice that at least closed bosonic [[string field theory]] is itself already a [[higher gauge theory]], even without sending the [[string tension]] to zero, see at _[closed string field theory -- As an ∞-Chern-Simons theory](string+field+theory#AsAnInfinityCSTheory)_.)
 
+At present there are several classes of higher spin theories that evade the no-go theorems: (1) massless and conformal higher spin theories in three dimensions can be formulated as Chern-Simons theories; (2) conformal higher spin gravity in four dimensions is a higher spin extension of the Weyl gravity; (3) Chiral higher spin gravity is a higher spin extension of self-dual Yang-Mills theory and self-dual Gravity. At the same time the holographic higher spin theories face certain difficulties due non-locality implied by the AdS/CFT duality to vector models
+
 
 ## References
 
@@ -59,6 +61,27 @@ Reviews and lecture notes include the following:
 Further developments include for instance
 
 * Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
+
+### Concrete higher spin gravities
+
+* [[Miles Blencowe]], _A consistent interacting massless higher-spin field theory in $D=2+1$_ Classical and quantum gravity, volume 6 no 4 (1998)
+
+* C.N. Pope, P.K. Townsend, Conformal Higher Spin in (2+1)-dimensions, Phys.Lett. B225 (1989) 245-250.
+
+* E. S. Fradkin,  V. Ya. Linetsky, _a Superconformal Theory of Massless Higher Spin Fields in D=2+1_ ([web](http://adsabs.harvard.edu/abs/1989MPLA....4..731F))
+
+* Maxim Grigoriev, Karapet Mkrtchyan, Evgeny Skvortsov, Matter-free higher spin gravities in 3D: Partially-massless fields and general structure  ([arXiv:2005.05931](https://arxiv.org/abs/2005.05931)) 
+
+* Maxim Grigoriev, Iva Lovrekovic, Evgeny Skvortsov, New Conformal Higher Spin Gravities in $3d$ ([arXiv:1909.13305](https://arxiv.org/abs/1909.13305)) 
+
+* Arkady A. Tseytlin, On limits of superstring in AdS(5) x S**5 ([arXiv:0201112](https://arxiv.org/abs/hep-th/0201112))
+
+
+* Arkady Y. Segal, Conformal higher spin theory ([arXiv:0207212](https://arxiv.org/abs/hep-th/0207212))
+
+
+* Dmitry Ponomarev, E.D. Skvortsov, Light-Front Higher-Spin Theories in Flat Space ([arXiv:1609.04655](https://arxiv.org/abs/1609.04655)) 
+
 
 ### Relation to string theory
  {#ReferencesRelationToStringTheory}
