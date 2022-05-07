@@ -481,31 +481,65 @@ More generally, every [[retract]] of a [[relative cell complex]] inclusion is a 
 
 This is part of the statement of the [[Quillen adjunction]] between then [[classical model structure on topological spaces]] and the [[Strøm model structure]] (see [below](#StromModelStructure)).
 
+
 ### Points in locally Euclidean Hausdorff spaces
  {#BasepointsInLocallyEuclideanSpaces}
 
 \begin{proposition}
   Any [[point]]-inclusion into a ([[finite number|finite]]-[[dimension of a manifold|dimensional]]) [[locally Euclidean space|locally Euclidean]] [[Hausdorff space]] (e.g. a [[topological manifold]]) is an h-cofibration.
 \end{proposition}
-\begin{proof}\label{ProofThatPointInclusionsInLocallyEuclideanHausdorffSpacesArehCofibs}
-By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]] $U$ which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$. Now let:
+This is a simple special case of the general Prop. \ref{ClosedSubmanifoldsOfParacompactBanachManifoldsArehCof} below, but we give an explicit proof:
+\begin{proof}
+\label{ProofThatPointInclusionsInLocallyEuclideanHausdorffSpacesArehCofibs}
+By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]] $U$ which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$:
 
-* $K \;\coloneqq\; B_{\leq 1}(0)$ the [[closed ball]] (hence [[compact space|compact]] by [[Heine-Borel theorem|Heine-Borel]]) around the origin in $\mathbb{R}^n$ of unit [[radius]];
+$$
+  \{0\} 
+    \;\in\;
+  \mathbb{R}^n
+    \;\simeq\;
+  U
+    \;\subset\;
+  X
+  \,.
+$$
 
-* $V \;\coloneqq\; B_{\lt 1}(0)$ the [[open ball]] around the origin of [[radius]] $1$;
+Now let:
 
-* $\phi \colon X \to[0,1]$ be given by 
+* $\eta \colon U \times [0,1]\to X$ the homotopy given by $(\vec x, t) \mapsto (1-t)\cdot \vec x$;
+
+* $K \;\coloneqq\; B_{\leq 1}(0)$ the [[closed ball]] of unit [[radius]] around the origin in $\mathbb{R}^n$ (hence [[compact space|compact]] by [[Heine-Borel theorem|Heine-Borel]]);
+
+* $\phi \colon X \to[0,1]$ be given by:
 
   1. $x \mapsto min\big( \| x\|, 1 \big)$ on $U$ (the [[distance]] from the origin cut off at 1),
 
   1. $x \mapsto 1$ on the [[complement]] $X \setminus K$.
 
-  It is manifest that this is a well defined function and that the [[restrictions]] $\phi|_{U}$ and $\phi|_{X\setminus K}$ are [[continuous functions]]. Moreover, since [[compact subspaces of Hausdorff spaces are closed]], $X \setminus K$ is [[open subset|open]] and $\big\{ U ,\, X \setminus K \big\}$ is an [[open cover]] of $X$. Therefore (by the [[sheaf]]-property of continuous functions), $\phi$ is continuous on all of $X$. 
+  It is manifest that this is a well-defined function and that the [[restrictions]] $\phi|_{U}$ and $\phi|_{X\setminus K}$ are [[continuous functions]]. Moreover, since [[compact subspaces of Hausdorff spaces are closed]], $X \setminus K$ is [[open subset|open]] and $\big\{ U ,\, X \setminus K \big\}$ is an [[open cover]] of $X$. Therefore (by the [[sheaf]]-property of continuous functions), $\phi$ is continuous on all of $X$. 
 
-* $\eta \colon V\times[0,1]\to X$ the homotopy given by $(\vec x, t) \mapsto (1-t)\cdot \vec x$.
 
 It is immediate to see that this data satisfies the conditions discussed in Prop. \ref{CharactrerizationViaNeighbourhoodDeformation}. Since [[Hausdorff spaces]] are [[T1|$T_1$]],  so that all of their points are [[closed point|closed]], that proposition applies and implies the claim.
 \end{proof}
+
+### Closed submanifolds of Banach manifolds
+ {#ClosedSubmanifoldsOfBanachManifolds}
+
+
+\begin{proposition}\label{ClosedInclusionIntoANRIsANRIffhCofibration}
+  Let $X$ be an [[absolute neighbourhood retract]] (ANR) and $A \xhookrightarrow{i} X$ a [[closed subspace]]-inclusion. Then $i$ is a [[Hurewicz cofibration]] iff $A$ is itself an ANR.
+\end{proposition}
+([Aguilar, Gitler & Prieto 2002, Thm. 4.2.15](#AGP02))
+
+
+\begin{proposition}\label{ClosedSubmanifoldsOfParacompactBanachManifoldsArehCof}
+  Let $X$ be a [[paracompact topological space|paracompact]] [[Banach manifold]]. Then the inclusion $A \hookrightarrow X$ of any [[closed subspace|closed]] sub-[[Banach manifold]] is a [[Hurewicz cofibration]].
+\end{proposition}
+\begin{proof}
+  Being a closed subspace of a paracompact space, $A$ is itself paracompact (by [this Prop.](paracompact+topological+space#ClosedSubspacesOfParacompactsAreParacompact)). But paracompact Banach manifolds are [[absolute neighbourhood retracts]] ([this Prop.](absolute+retract#ParacompactBanachManifoldsAreANRs))
+Therefore the statement follows with Prop. \ref{ClosedInclusionIntoANRIsANRIffhCofibration}.
+\end{proof}
+
 
 
 ## References
@@ -528,6 +562,9 @@ Textbook accounts:
 * {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
 * {#May99} [[Peter May]], Chapter 6 of: *[[A concise course in algebraic topology]]*, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Section 4.1 in: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
 
 Lecture notes:
 
