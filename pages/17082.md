@@ -326,6 +326,9 @@ $X\to Y \,\,&solb;\,\,  \{x\leftarrow o\rightarrow y\}\longrightarrow \{x=o=y\}$
 $X\to Y \,\,&solb;\,\, \{u\rightarrow a,b\leftarrow v\}\longrightarrow \{u\rightarrow a=b\leftarrow v\}$
 
 
+* A topological space $X$ is ultranormal iff 
+$X\to Y \,\,&solb;\,\, \{u\rightarrow a,b\leftarrow v\}\longrightarrow \{a\leftarrow u=v\rightarrow v\}$
+
 *  $\{\bullet\}\longrightarrow A$ is in $(\emptyset\longrightarrow \{o\})^{&solb;rll}$ iff $A$ is connected
 
 *  $Y$ is totally disconnected iff $\{\bullet\}\xrightarrow y Y$ is in $(\emptyset\longrightarrow \{o\})^{&solb;rllr}$ for each map  $\{\bullet\}\xrightarrow y Y$ (or, 
