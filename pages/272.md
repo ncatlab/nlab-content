@@ -311,7 +311,15 @@ and a textbook acount is in
 
 * {#DLM} [[Claudio Dappiaggi]], [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
 
-* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396))
+Relation to [[factorization algebras]]:
+
+* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, Communications in Mathematical Physics volume 377, pages 971–997 (2020) ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396), [doi:10.1007/s00220-019-03561-x](https://doi.org/10.1007/s00220-019-03561-x))
+
+
+Relation to [[smooth stacks]]:
+
+* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], *Smooth 1-dimensional algebraic quantum field theories* ([arXiv:2010.13808](https://arxiv.org/abs/2010.13808))
+
 
 ### Relation to holographic entanglement entropy
 
