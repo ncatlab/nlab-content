@@ -392,7 +392,7 @@ This way all the familiar logical operations are recovered from the internal log
 ### Internal logic in a sheaf topos on open subsets 
  {#LogicOfPresheaves}
 
-Let $X$ be a [[topological space]] and $Op(X)$ its [[category of open subsets]] and $Sh(X) := Sh(Op(X))$ the [[Grothendieck topos]] of [[category of sheaves|of sheaves]] on $X$.
+Let $X$ be a [[topological space]] and $Op(X)$ its [[category of open subsets]] and $Sh(X) := Sh(Op(X))$ the [[Grothendieck topos]] of [[category of sheaves|sheaves]] on $X$.
 
 We discuss the internal logic of this sheaf topos (originally [Tarski, 1938 ](#Tarski)).
 
