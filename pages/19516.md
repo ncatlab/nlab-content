@@ -641,6 +641,7 @@ $$
 ## Properties
 
 ### Derived adjoint triple
+ {#DerivedAdjointTriple}
 
 +-- {: .num_prop #QuillenAdjointTripleInducesAdjointTripleOfDerivedFunctors}
 ###### Proposition
