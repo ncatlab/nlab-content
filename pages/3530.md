@@ -23,7 +23,7 @@ Crystalline cohomology is in particular a [[Weil cohomology]] and is generalized
 
 ## Definition
 
-Let $X$ be a [[scheme]] overy a base $S$. The **[[crystalline site]]** $Cris(X/S)$ of $X$ is
+Let $X$ be a [[scheme]] over a base $S$. The **[[crystalline site]]** $Cris(X/S)$ of $X$ is
 
 * the [[category]] whose objects are all nilpotent $S$-immersions $U \hookrightarrow T$, where $U$ is an open set of $X$ and and the ideal on $T$ defining this immersion being endowed with a nilpotent divided power structure (...details...).;
 
