@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -34,10 +33,34 @@ $$
 Let $\delta=(n-1, n-2, \dots, 1, 0)$. Then the Schur polynomial attached to $\lambda$ is the quotient
 
 $$
-  s_{\lambda}(x_1,x_2,\dots,x_n)=a_{\lambda+\delta}/a_{\delta}.
+  s_{\lambda}(x_1,x_2,\dots,x_n)
+  =
+  a_{\lambda+\delta}/a_{\delta}.
 $$
 
 As is usual in the theory of [[symmetric functions]] one can also deal with [[formal power series]] in infinitely many variables. To make this precise one uses an [[inverse limit]] (see Macdonald) and obtains a __Schur function__ $s_{\lambda}$ for each partition, depending on countably many variables $x_1, x_2,\dots,x_n,x_{n+1}, \dots$.
+
+## Properties
+
+### In terms of $Sym(n)$-Characters
+
+\begin{prop}
+**(Frobenius formula)**
+
+$$
+  s_\lambda
+   \;=\;
+  \frac{1}{n!}
+  \underset
+    {\sigma \in Sym(n)}
+    {\sum}
+  \chi^{(\lambda)}(\sigma)
+  \cdot
+  p_\sigma
+$$
+\end{prop}
+
+([Sagan 01, Thm. 4.6.4](#Sagan01), [Sagan Enc., Thm. 3](#SaganEnc))
 
 
 
@@ -48,7 +71,9 @@ a Schur functor $\mathbf{S}_\lambda(V)\stackrel{\mathbf{S}_\lambda(g)}\to \mathb
 
 ## Related concepts
 
-* [[Schur positivity]].
+* [[Schur positivity]]
+
+* [[representation theory of the symmetric group]]
 
 Generalizations:
 
@@ -71,17 +96,25 @@ It is named after:
 
 * [[Issai Schur]], *Über eine Klasse von Matrizen die sich einer gegeben Matrix zuordnen lassen*, Inaugural-Dissertation, Berlin (1901)
 
-The authoritative monograph on the subject:
+Textbook accounts:
 
-* I. G. Macdonald, _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995 ([ISBN:9780198739128](https://global.oup.com/academic/product/symmetric-functions-and-hall-polynomials-9780198739128?cc=ae&lang=en&))
+* I. G. Macdonald, Section I.3 of: _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995 ([ISBN:9780198739128](https://global.oup.com/academic/product/symmetric-functions-and-hall-polynomials-9780198739128?cc=ae&lang=en&))
 
-See also:
 
-* [[Bruce E. Sagan]], _Schur functions_, in (M. Hazewinkel, ed.) Encyclopaedia of Mathematics, Springer ([pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf), [[SaganSchurFunctions.pdf:file]])
+* {#Sagan01} [[Bruce Sagan]], Section 4.4 of: _The symmetric group_, Springer 2001 ([doi:10.1007/978-1-4757-6804-6](https://link.springer.com/book/10.1007/978-1-4757-6804-6), [pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
+
+* Stuart Martin, _Schur algebras and representation theory_, Cambridge Univ. Press 1994 
+
+
+Survey:
+
+* {#SaganEnc} [[Bruce E. Sagan]], _Schur functions_, in (M. Hazewinkel, ed.) Encyclopaedia of Mathematics, Springer ([pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf), [[SaganSchurFunctions.pdf:file]])
 
 * Wikipedia, *[Schur polynomial](https://en.wikipedia.org/wiki/Schur_polynomial)*
 
-* Stuart Martin, _Schur algebras and representation theory_, Cambridge Univ. Press 1994 
+
+
+See also:
 
 * Olivier Blondeau-Fournier, Pierre Mathieu, _Schur superpolynomials: combinatorial definition and Pieri rule_, [arxiv/1408.2807](http://arxiv.org/abs/1408.2807)
 
