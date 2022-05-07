@@ -1,5 +1,5 @@
 
-> This entry is about scales in [[geometry]] and [[physics]]. For scales in [[algebra]], see [[scale]]. 
+> This entry is about scales in [[geometry]] and [[physics]]. For scales in [[algebra]] and [[linear logic]], see [[scale]]. 
 
 #Contents#
 * table of contents
