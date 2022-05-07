@@ -1,4 +1,36 @@
 
+\begin{tikzcd}[column sep=20pt]
+     \mathrm{PSh}(\mathcal{C})_{/y_{\mathcal{C}}(X)}
+     \big(
+       (y_{\mathcal{C}})_{/X}(U \xrightarrow{\phi} X)
+       ,\,
+       (E \xrightarrow{p} y_{\mathcal{C}}(X) )
+     \big)
+     \ar[
+       rr
+     ]
+     \ar[d]
+     &&
+     \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        E
+     \big)
+     \ar[d]
+     \\
+     \big\{
+        y_{\mathcal{C}}(\phi)
+     \big\}
+     \ar[rr]
+     &&
+     \mathrm{PSh}(\mathcal{C})
+     \big(
+        y_{\mathcal{C}}(U)
+        ,\,
+        y_{\mathcal{C}}(X)
+     \big)              
+\end{tikzcd}
 
 
 
