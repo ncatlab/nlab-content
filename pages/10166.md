@@ -246,6 +246,11 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
 
 * {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]] _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565)) 
 
+Comparative discussion is in:
+
+* {#Zou20} [[Foling Zou]], _Notes on equivariant bundles_ ([arXiv:2008.01268](https://arxiv.org/abs/2008.01268))
+
+
 ### Equivariant vector bundles
 
 On equivariant [[vector bundles]]:
