@@ -257,15 +257,25 @@ Locally compact spaces _are_ closed under [[coproduct]]s in $Top$. They do not a
 (e.g. [Dugundji 1966, XI Thm. 9.3](#Dugundji66); [Strickland 09, Prop. 1.7](compactly+generated+topological+space#Strickland09))
 
 \begin{prop}
-  The [[product topological space]] of a [[locally compact Hausdorff space]] with a k-space is already a k-space (i.e. without need of k-ification).
+  The [[product topological space]] of a [[locally compact Hausdorff space]] with a [[k-space]] is already a k-space (i.e. without need of [[k-ification]]).
 \end{prop}
 (e.g. [Piccinini 1992, Thm. B.6](#Piccinini92), [Strickland 2009, Prop. 2.6](compactly+generated+topological+space#Strickland09))
 
 
-\begin{proposition}\label{HausdorffkSpacesAreQuotientsOfLCHausSpaces}
-  A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
+\begin{proposition}\label{kSpacesAreTheQuotientSpacesOfLocallyCompactHausdorffSpaces}
+**([[k-spaces]] are the [[quotient topological space|quotient spaces]] of [[locally compact Hausdorff spaces]])**
+\linebreak
+  A [[topological space]] is a [[k-space]]
+iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
 \end{proposition}
-(e.g. [Dugundji 1966, XI Thm. 9.4](#Dugundji66); [Piccinini 92, Thm. B.4](#Piccinini92))
+This is proven in [Dugundji 1966, XI Thm. 9.4](#Dugundji66) (also [Piccinini 92, Thm. B.4](#Piccinini92)) assuming Hausdorffness, and without that assumption in [Escardo, Lawson & Simpson 2004, Cor. 3.4 (iii)](#EscardoLawsonSimpson04). Moreover:
+\begin{proposition}\label{kSpacesAreTheColimitsInTopOfCompactHausdorffSpaces}
+**([[k-spaces]] are the [[Top#UniversalConstructions|colimits in Top]] of [[compact Hausdorff spaces]])**
+\linebreak
+  A [[topological space]] is a [[k-space]]
+iff it is a [[colimit]] as formed in [[Top]] (according to [this Prop.](Top#DescriptionOfLimitsAndColimitsInTop)) of a [[diagram]] of [[compact Hausdorff spaces]].
+\end{proposition}
+([Escardo, Lawson & Simpson 2004, Lem. 3.2 (v)](#EscardoLawsonSimpson04))
 
 
 ### Gelfand duality
@@ -312,6 +322,9 @@ Textbook accounts:
 
 * {#Piccinini92} [[Renzo A. Piccinini]], *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
 
+Further discussion in relation to [[compactly generated topological spaces]]:
+
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
 
 
