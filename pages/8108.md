@@ -34,9 +34,9 @@ On [[chromatic homotopy theory]], [[complex cobordism cohomology]] and [[stable 
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press Orland (1986) reprinted as: AMS Chelsea Publishing, Volume 347, 2004 ([ISBN:978-0-8218-2967-7](https://bookstore.ams.org/chel-347-h), [webpage](http://www.math.rochester.edu/people/faculty/doug/mu.html), [pdf](https://web.math.rochester.edu/people/faculty/doug/mybooks/ravenel.pdf))
 
-On [[iterated loop spaces]] of [[spheres]] and [[stable splitting of mapping spaces]]:
+On the [[Morava K-theory]] of [[iterated loop spaces]] of [[spheres]] and on [[stable splitting of mapping spaces]]:
 
-* [[Douglas Ravenel]], *What we still don't understand about loop spaces of spheres*, Contemporary Mathematics 1998 ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]])
+* [[Douglas Ravenel]], *What we still don't know about loop spaces of spheres*, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.), *Homotopy Theory via Algebraic Geometry and Group Representations*, Contemporary Mathematics **220**, AMS 1998  ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]], [doi:10.1090/conm/220](http://dx.doi.org/10.1090/conm/220))
 
 
 category: people
