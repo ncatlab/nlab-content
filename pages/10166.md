@@ -280,7 +280,7 @@ such that :
 ### As $(G,\alpha,\mathcal{G})$-principal bundles
 
 \begin{prop}\label{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}
-(**principal bundles internal to $G$-spaces are equivalent to tom Dieck-budnles**)
+(**principal bundles internal to $G$-spaces are equivalent to tom Dieck-bundles**)
 \linebreak
   The $G$-equivariant $(\mathcal{G},\alpha)$-principal bundles in the [[internalization|internal]] sense of Def. \ref{EquivariantPrincipalBundles} are [[equivalence of categories|equivalent]] to the $(G,\alpha,\mathcal{G})$-principal bundles in the sense of [tom Dieck 69](#tomDieck69).
 \end{prop}
