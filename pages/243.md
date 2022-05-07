@@ -632,6 +632,10 @@ More examples can be found in [Fosco](#Fosco).
 
 ## References
 
+Coends and [[ends]] were introduced by [[Nobuo Yoneda]] (of the [[Yoneda lemma]]) in the paper
+
+* [[Nobuo Yoneda]], _On Ext and exact sequences_, Journal of the Faculty of Science. University of Tokyo. Section I.  Volume 8 (1960), 507–576.
+
 The standard reference is
 
 * [[Max Kelly]], _Basic concepts in enriched category theory_ 
