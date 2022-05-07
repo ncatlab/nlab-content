@@ -38,7 +38,7 @@ Recall from the discussion at [[generalized universal bundle]] and at [[stuff, s
 
 One description of the universal cartesian fibration is given in section 3.3.2 of [[Higher Topos Theory|HTT]] as the contravariant [[(∞,1)-Grothendieck construction]] applied to the identity functor $((\infty,1)Cat^{op})^{op} \to (\infty,1)Cat$. 
 
-A more direct description can be given following the idea at [this mathoverflow question](#direct):
+We can also give a more direct description:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -48,6 +48,21 @@ $Z^{op}$ is equivalent to the full subcategory of $(\infty,1)Cat^{[1]}$ spanned 
 The universal fibration $Z \to (\infty,1)Cat^{op}$ is opposite to the target evaluation.
 
 Dually, the universal cocartesian fibration is $Z' \to (\infty,1)Cat$ where $Z'$ is the (∞,1)-category of arrows of the form $[C_{/x} \to C]$.
+
+=--
++-- {: .proof }
+###### Proof
+
+This is the proof idea of [this mathoverflow post](#direct).
+
+By proposition 5.5.3.3 of Higher Topos Theory, there are presentable fibrations $RFib \to (\infty,1)Cat$ and $(\infty,1)Cat^{[1]} \xrightarrow{tgt} (\infty,1)Cat$ classifying functors $C \mapsto \mathcal{P}(C)$ and $C \mapsto (\infty,1)Cat_{/C}$.
+
+By proposition 5.3.6.2 of Higher Topos Theory, the yoneda embedding $j : C \to \mathcal{P}(C)$ is a natural transformation, and the covariant Grothendieck construction provides a cocartesian functor $Z' \to RFib$. Since it is fiberwise fully faithful and $(-)_!$ preserves representable presheaves, we can identify $Z'$ with the full subcategory of $RFib$ consisting of the representable presheaves.
+
+The Grothendieck construction provides a fully faithful $\mathcal{P}(C) \to 
+(\infty,1)Cat_{/C}$ whose essential image is the right fibrations. The contravariant Grothendieck construction a cartesian functor $RFib \to (\infty,1)Cat^{[1]}$. Since it is fiberwise fully faithful and pullbacks preserve right fibrations, we can identify $RFib$ with the full subcategory of $( \infty,1)Cat^{[1]}$ spanned by right fibrations.
+
+By the relationship between the covariant and contravariant Grothendieck constructions, the universal cartesian fibration is classified by $op : ((\infty,1)Cat^{op})^{op} \to (\infty,1)Cat$.
 
 =--
 
