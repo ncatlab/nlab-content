@@ -246,7 +246,7 @@ $$
 
 =--
 
-([Lurie 10, lecture 5, prop. 6](#Lurie10))
+(e.g. [Tamaki-Kono 06, p. 61](#TamakiKono06), [Lurie 10, lecture 5, prop. 6](#Lurie10))
 
 +-- {: .proof}
 ###### Proof
@@ -594,13 +594,15 @@ The analogous universal finite-rank complex orientation on [[MΩΩSU(n)]]: [Hopk
 
 ## References
 
-* {#Adams74} [[Frank Adams]], Part II, lemma 4.6, example 4.7 in: _[[Stable homotopy and generalised homology]]_, 1974
+* {#Adams74} [[Frank Adams]], part II, lemma 4.6, example 4.7 in: _[[Stable homotopy and generalised homology]]_, 1974
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_,1986
+* {#Ravenel} [[Doug Ravenel]], chapter 4 of: _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986
 
-* {#Kochmann96} [[Stanley Kochman]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochman]], section 4.4 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.7 of: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
+* {#Lurie10} [[Jacob Lurie]], _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf)), Lecture 6 in: _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), 
 
 [[!redirects MU and complex orientation]]
 
