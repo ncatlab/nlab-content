@@ -19,7 +19,7 @@
 
 ## Definition
 
-An [[orbifold]] $\mathcal{X}$ is called _good_ ([Thurston 92, Ch. 13, Def. 13.2.3](#Thurston92)) or _devlopable_ if it is [[isomorphism|isomorphic]] to a [[global quotient orbifold|global quotient]] of a [[smooth manifold]] $M$ by the [[action]] of a [[discrete group]] $\flat G$:
+An [[orbifold]] $\mathcal{X}$ is called _good_ ([Thurston 92, Ch. 13, Def. 13.2.3](#Thurston92)) or _developable_ if it is [[isomorphism|isomorphic]] to a [[global quotient orbifold|global quotient]] of a [[smooth manifold]] $M$ by the [[action]] of a [[discrete group]] $\flat G$:
 
 $$
   \mathcal{X} \,\simeq\, M \sslash \flat G
