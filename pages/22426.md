@@ -114,14 +114,19 @@ Textbook account:
 
 * {#Diaconis88} [[Persi Diaconis]], Chapter 6B of: *Group Representations  in Probability  and  Statistics*, Lecture Notes - Monographs Series, Institute of Mathematical Statistics 1988 ([pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
 
+See also:
+
+* Wikipedia, *[Kendall tau distance](https://en.wikipedia.org/wiki/Kendall_tau_distance)*
 
 Review and [[proof]] that the exponentiated negative Kendall tau distance (the [[Mallows kernel]]) is a [[positive definite bilinear form]]:
 
 * {#JiaoVert18} [[Yunlong Jiao]], [[Jean-Philippe Vert]], *The Kendall and Mallows Kernels for Permutations*, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 40, no. 7, pp. 1755-1769, 1 July 2018 ([doi:10.1109/TPAMI.2017.2719680](https://doi.org/10.1109/TPAMI.2017.2719680), [hal:01279273](https://hal.archives-ouvertes.fr/hal-01279273/document))
 
-See also:
+Discussion of weighted variants:
 
-* Wikipedia, *[Kendall tau distance](https://en.wikipedia.org/wiki/Kendall_tau_distance)*
+* [[Yunlong Jiao]], [[Jean-Philippe Vert]], *The Weighted Kendall and High-order Kernels for Permutations*, Proceedings of the 35th International Conference on Machine Learning, PMLR 80:2314-2322, 2018 ([arXiv:1802.08526](https://arxiv.org/abs/1802.08526), [mlr:v80/jiao18a](http://proceedings.mlr.press/v80/jiao18a.html), [hal:hal-01717385](https://hal.inria.fr/hal-01717385))
+
+
 
 [[!redirects Kendall tau distances]]
 
