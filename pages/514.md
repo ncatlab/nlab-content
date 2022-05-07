@@ -35,7 +35,11 @@ Every [[locally small category|locally small]] pointed category is naturally  [[
 
 ## Related concepts
 
-* [[linear model category]]
+* [[pointed model category]]
+
+  * [[linear model category]]
+
+  * [[stable model category]]
 
 ## References
 
