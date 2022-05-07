@@ -23,9 +23,9 @@
 
 Given a suitable [[Lie algebra]] $\mathfrak{g}$ a __Knizhnik-Zamolodchikov equation__ is the [[equation]] expressing [[flat connection|flatness]] of certain class of [[vector bundles]] [[connection on a bundle|with connection]] on the [[configuration space of points]] of $N$ distinct points in the [[plane]] $\mathbb{C}$. It appeared in the study of [[Wess-Zumino-Novikov-Witten model]] (WZNW model) of [[2d CFT]] in ([Knizhnik-Zamolodchikov 84](#KnizhnikZamolodchikov84)).
 
-The Knizhnik-Zamolodchikov equation involves what is called the __Knizhnik-Zamolodchikov connection__ and it is related to [[monodromy]] representations of the Artin's [[braid group]].
+The Knizhnik-Zamolodchikov equation involves what is called the __Knizhnik-Zamolodchikov connection__ and it is related to [[monodromy]] representations of Artin's [[braid group]].
 
-In the standard variant, its basic data involve a given complex [[simple Lie algebra]] $\mathfrak{g}$ with a fixed bilinear  [[invariant polynomial]] $(,)$ (the _[[Killing form]]_) and $N$ (not necessarily finite-dimensional) [[representations]] $V_1,\ldots, V_n$ of $\mathfrak{g}$. Let $V = V_1\otimes \ldots\otimes V_N$.
+In the standard variant, the basic data involves a given complex [[simple Lie algebra]] $\mathfrak{g}$ with a fixed bilinear  [[invariant polynomial]] $(-,-)$ (the _[[Killing form]]_) and $N$ (not necessarily [[finite-dimensional vector space|finite-dimensional]]) [[representations]] $V_1,\ldots, V_n$ of $\mathfrak{g}$. Let $V \,=\, V_1 \otimes \ldots \otimes V_N$.
 
 (...)
 
