@@ -31,9 +31,13 @@ What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [
 
 Hence some authors also speak of _[[quantum hadrodynamics]]_.
 
-This is thus [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the [[light quarks]], which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]].
+This is thus [[perturbation theory]] not in the [[coupling constant]] of [[QCD]], but in the [[masses]] of the [[light quarks]], which in practice means: of the [[up quark]] and the [[down quark]] and possibly also of the [[strange quark]]. If we express the proton mass as the sum of two up and one down current-quark masses,
+$$
+m_p \gg 2m_u + m_d,
+$$
+we can see that $ \mathcal{L}^0_QCD = \sum_{l=u,d,s} \bar{q}_l i\D q_l - \frac{1}{4}G_{a \mu v}G^{\mu v}_a $, which only contains light-flavor quarks in the chiral limit $ m_u, m_s, m_d \rightarrow 0 $, can serve as the basis for low-energy QCD. 
 
-As such, the point about which [[perturbation theory|perturbations]] are considered in chiral perturbation theory of QCD is that of vanishing [[quark]] masses. But since only the quark mass term in the [[Lagrangian density]] mixes the two [[Weyl spinor|chiralities]] of quarks, the Lagrangian in this massless limit is the sum of a term that only contains the left-chiral quark spinors, and an analogous summand that only contains the right-chiral  quark spinors.
+As such, the point about which [[perturbation theory|perturbations]] are considered in chiral perturbation theory of QCD is that of vanishing [[quark]] masses. But since only the quark mass term in the [[Lagrangian density]] mixes the two [[Weyl spinor|chiralities]] of quarks, the Lagrangian in this massless limit, as shown above, is the sum of a term that only contains the left-chiral quark spinors, and an analogous summand that only contains the right-chiral  quark spinors.
 
 Moreover, all two ([[up quark|up]] and [[down quark|down]]) or even all three (if including [[strange quark|strange]]) [[flavour (particle physics)|flavours]] of quarks enter each of these two spinor-chiral summands symmetrically, such that each of them has [[SU(2)]] or respectively [[SU(3)]] [[global symmetry]], [[action|acting]] by mixing the quark flavours. This yields a total [[direct product group|direct product]] [[symmetry group]] 
 
