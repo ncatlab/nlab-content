@@ -1412,11 +1412,9 @@ The original article is
 
 * {#Quillen67} [[Dan Quillen]], chapter II, section 3 of _[[Homotopical Algebra]]_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
-The proof there is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are fiber bundles, as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: at the end of
+The proof there is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are [[fiber bundles]], as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: 
 
-* [[Israel Gelfand]], [[Yuri Manin]], _Methods of Homological Algebra_, Springer, 1996
-
-* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01))
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005 ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
 
 A proof (in fact two variants of it) using the [[Kan fibrant replacement]] $Ex^\infty$ functor is given 
 
