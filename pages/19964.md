@@ -253,6 +253,7 @@ Review:
 
 * [[Eric D'Hoker]], Edward Farhi, _The Proton as a Topological Twist: A model of elementary particles, without reference to quarks, contains topological structures whose properties match experimental observations remarkably well_, American Scientist Vol. 73, No. 6 (November-December 1985), pp. 533-540 ([jstor:27853483](https://www.jstor.org/stable/27853483))
 
+* Yossef Dothan, L. C. Biedenham, *Old models never die: the revival of the Skyrme model*, Comments on Nuclear and Particle Physics **17** 2 (1987) 63-91 ([spire:18567](https://inspirehep.net/literature/18567), [pdf](https://inspirehep.net/files/e03cc4f4c9fa76aa4a94436cba63443b))
 
 * {#BrownRho88} G. E. Brown, [[Mannque Rho]], _The Chiral Bag_, Comments Nucl. Part. Phys. 18 (1988) no.1, 1-29 ([spire:18025](http://inspirehep.net/record/18025))
 
@@ -361,6 +362,11 @@ Relation to the [[complex Hopf fibration]]:
 Generalization to [[SU(N)]]:
 
 * Pedro D. Alvarez, Sergio L. Cacciatori, Fabrizio Canfora, [[Bianca Cerchiai]], _Analytic $SU(N)$ Skyrmions at finite Baryon density_ ([arXiv:2005.11301](https://arxiv.org/abs/2005.11301))
+
+In higher dimensions:
+
+* Emir Syahreza Fadhilla, Ardian Nata Atmaja, Bobby Eka Gunara, 
+*BPS Skyrmions of Generalized Skyrme Model In Higher Dimensions* ([arXiv:2108.08694](https://arxiv.org/abs/2108.08694))
 
 
 
