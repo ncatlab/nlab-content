@@ -28,7 +28,7 @@ The concept of _spectral super-scheme_ is supposed to be the refinement of the c
 ## Definition
  {#Definition}
 
-The following is an argument for a good definition of spectral supergeometry. This was originally motivated from the observation in [Kapranov 13](#Kapranov13) and uses results due to [Rezk 09](#Rezk09) and [Sagave-Schlichtkrull 11](#SagaveSchlichtkrull11).
+The following is an argument for a good definition of spectral supergeometry. This was originally motivated from the observation in [Kapranov 13](#Kapranov13) and uses results due to [Rezk 09](#Rezk09) and [Sagave-Schlichtkrull 2011](#SagaveSchlichtkrull11).
 
 Observe that 
 
@@ -42,7 +42,19 @@ Observe that
 
    $\,$
 
-   But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and every [[E-infinity ring]] $E$ is canonically $\mathbb{S}$-graded ([Sagave-Schlichtkrull 11, theorem 1.7-1.8](#SagaveSchlichtkrull11)). 
+   But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S} \,\simeq\, \Sigma^\infty S^0$, and every [[E-infinity ring]] $(E, \cdot)$ is canonically $\mathbb{S}$-graded, in that  ([Sagave-Schlichtkrull 11, theorem 1.7-1.8](#SagaveSchlichtkrull11)):
+
+   on [underlying](Introduction+to+Stable+homotopy+theory+--+1-1#SigmaInfinityOmegaInfinity) [[E-infinity spaces|$E_\infty$-spaces]] $E_0 \,\coloneqq\, \Omega^\infty(E)$, at least, realized as $\Omega^{\mathcal{J}}(E)$ in [SaSc11 (4.4)](#SagaveSchlichtkrull11), they are canonically equipped with an [[commutative monoid in a symmetric monoidal (infinity,1)-category|$E_\infty$-monoid]] [[homomorphism]] 
+
+   $$
+     (E_0, \cdot) 
+       \xrightarrow{\;} 
+    (\mathbb{S}_0, +)
+   $$
+
+   to the *additive* $E_\infty$-space underlying the [[sphere spectrum]] ([traditionally](Bousfield-Friedlander+model+structure#Spectrification) denoted $Q S^0 $, which is notation for a construction that yields $\Omega^\infty \Sigma^\infty S^0$).
+
+   The $E_\infty$-monoid homomorphisms of this form are the evident homotopy-theoretic generalization of morphisms of [[commutative monoids]] to the additive group $(\mathbb{Z}, +)$ of the [[integers]], and these are evidently equivalent to $\mathbb{Z}$-[[graded monoid|gradings]] on the [[domain]] monoid.
 
    $\,$
 
