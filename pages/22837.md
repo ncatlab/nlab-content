@@ -267,9 +267,7 @@ Here:
 
   * fibrant reduced simplicial sets are Kan complexes ([this Prop.](model+structure+on+reduced+simplicial+sets#FibrationsInTermsOfKanFibrations));
 
-* the right vertical morphism is a [[fibration]] ([[Kan fibration]]), since it is the image under the [[right Quillen functor]] $(W \mathcal{G} \times (-)) /\mathcal{G}$ on the [[Borel model structure]] ([this Prop.](Borel+model+structure#QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace));
-
-  > this only shows fibrancy in the [[model structure on reduced simplicial sets]]... needs fixing...
+* the right vertical morphism is a [[fibration]] ([[Kan fibration]]), since it is the image of the Kan fibration $\mathcal{G}_{ad} \to \ast$ under the [[right Quillen functor]] $(W \mathcal{G} \times (-)) /\mathcal{G}$ on the [[Borel model structure]] ([this Prop.](Borel+model+structure#QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace)), see [this Example](Borel+construction#ProjectionToSimplicialClassifyingSpaceIsKanFibration);
 
 * the top right morphism is a [[simplicial weak equivalence]], by [[two-out-of-three]], as it is a [[right inverse]] of the triangular morphisms, which are manifestly a simplicial weak eqivalence since $W \mathcal{G}$ is [[contractible homotopy type|contractible]] (by [this Prop.](simplicial+classifying+space#UniversalPrincipalSimplicialComplexIsContractible)).
 
