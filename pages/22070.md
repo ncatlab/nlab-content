@@ -24,8 +24,9 @@
 ## Idea
 
 __Homotopy equalizers__ are a special case of [[homotopy limits]],
-when the indexing [[diagram]] is the [[walking equalizer category]] consists of a pair of [[parallel morphisms]],
-i. e. of two [[objects]], 0 and 1, and exactly two nonidentity [[morphisms]], both of the form $0\to 1$.
+when the indexing [[diagram]] is the [[walking parallel pair]],
+which consists of a pair of [[parallel morphisms]],
+i.e., two [[objects]], 0 and 1, and exactly two nonidentity [[morphisms]], both of the form $0\to 1$.
 
 Homotopy equalizers can be defined in any [[relative category]],
 just like [[homotopy colimits]],
