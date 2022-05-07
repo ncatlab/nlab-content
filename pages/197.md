@@ -47,7 +47,7 @@ In the following subsections some of the topos structure in $Quiv$ is worked out
 
 Knowing the subobjects of the representable functors in turn allows us to calculate the structure of the [[subobject classifier]] $\Omega$ since they correspond to the elements of the value of $\Omega$ at the corresponding objects of $X^{op}$ i.e. the set of vertices of $\Omega$ is $\Omega(0)=\{\emptyset,\bullet\}$ and the set of edges is $\Omega(1)=\{empty, x, y, (x, y), (x \stackrel{e}{\to} y)\}$.
 
-Whence pictured $\Omega$ is the quiver with two vertices and five edges that looks roughly like 
+When pictured, $\Omega$ is given by the following quiver with two vertices and five edges: 
 
 $$\array{
 \emptyset & \underoverset{x}{y}{\rightleftarrows} & \bullet \\ 
@@ -55,7 +55,7 @@ $$\array{
  & & \mathllap{(x, y)}  
 }$$ 
 
-(so there is one loop labeled "empty" at the vertex $\emptyset$, and two loops at the vertex $\bullet$, one labeled $(x, y)$ and the other $x \stackrel{e}{\to} y$). 
+where the vertex $\emptyset$ has one loop labeled "empty", and the vertex $\bullet$ has two loops with labels $(x, y)$ and ($x \stackrel{e}{\to} y$). 
 
 How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\to\Omega$ its characteristic map, then $\chi_X$ maps vertices of $Y$ not in $X$ to $\emptyset$ and vertices in $X$ to $\bullet$ (a vertex is either contained in a subgraph or not - the choice is binary and, accordingly, $\Omega$ needs two vertices to represent this). For edges the situation is more complicated since there are five ways (and, accordingly five edges in $\Omega$ to represent this) for an edge $z$ of $Y$ to be related to the subgraph $X$: the most straightforward is when $z$ has neither source nor target in $X$, such $z$ are definitely not in $X$ and are represented in $\Omega$ by the loop at $\emptyset$. Now suppose that $z$ has either source or target vertex in $X$ but not both: $\chi_X$ maps these to the maps $x,y$ between $\emptyset\rightleftarrows\bullet$, respectively. When $z$ has both source and target in $X$, the edge itself might or might not be in $X$, and the corresponding two cases are represented by the two loops at $\bullet$ , respectively, with $e$ representing the edges that are contained $X$.
 
