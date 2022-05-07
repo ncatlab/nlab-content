@@ -547,6 +547,12 @@ In view of [[black hole thermodynamics]]:
 
 * Isaac H. Kim, Eugene Tang, [[John Preskill]], *The ghost in the radiation: Robust encodings of the black hole interior*, JHEP 2020, 31 (2020) ([arXiv:2003.05451](https://arxiv.org/abs/2003.05451))
 
+Discussion of [[gauge symmetry]] of [[holographic tensor networks]] and their [[quantum error correcting codes]]:
+
+* Kfir Dolev, Vladimir Calvera, Sam Cree, Dominic J. Williamson, 
+*Gauging the bulk: generalized gauging maps and holographic codes* ([arXiv:2108.11402](https://arxiv.org/abs/2108.11402))
+
+
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
 
