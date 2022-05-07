@@ -56,6 +56,10 @@ On [[wall crossing]] phenomena:
 
 * Introductory Lecture: [Calabi-Yau Motives](https://www.youtube.com/watch?v=0M-jXPi_t1I), 2015 Breakthrough Prize in Mathematics Symposium
 
+On [[Wick rotation]] in terms of complex metrics:
+
+* [[Maxim Kontsevich]], [[Graeme Segal]], *Wick rotation and the positivity of energy in quantum field theory* ([arXiv:2105.10161](https://arxiv.org/abs/2105.10161))
+
 
 category: people
 
