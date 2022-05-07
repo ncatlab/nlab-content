@@ -49,5 +49,9 @@ $$(a_{n+1}) + (b_{n+1}) = (a_n) + (b_n),$$
 
 and that from the definition of Euclidean domain, the only reason why the sequence would terminate at $(a_n, b_n)$ is that $a_n = b_n q_n + 0$ for some $q_n$, and in that case $(a_n) + (b_n) = (b_n)$. 
 
+## Generalisations
+
+Euclidean domains could be generalised to the case where the structure is only a [[rig]] instead of a ring; these objects could be called __Euclidean cancellative rigs__. 
+
 [[!redirects Euclidean domains]]
 [[!redirects Euclidean algorithm]] 
