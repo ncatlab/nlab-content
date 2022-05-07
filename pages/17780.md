@@ -48,6 +48,12 @@ Discussion for [[Einstein-Yang-Mills theory]]:
 
 * Martin Kuchynka, _Einstein-Yang-Mills fields immune to quantum corrections_ ([arXiv:2001.03768](https://arxiv.org/abs/2001.03768))
 
+See also:
+
+* Metin Gurses, Yaghoub Heydarzade, Cetin Senturk, *Kerr-Schild-Kundt Metrics in Generic Gravity Theories with Modified Horndeski Couplings* ([arXiv:2109.01244](https://arxiv.org/abs/2109.01244))
+
+
+
 
 
 
