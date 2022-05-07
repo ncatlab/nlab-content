@@ -204,7 +204,7 @@ $$
 \begin{prop}\label{EquivariantGroupsAsSemidirectProductGroups}
   (**Equivariant groups as semidirect product groups**) 
 \linebreak
-The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) is [[equivalence of categories|equivalent]] to that of [[semidirect product groups]] of the form $(-) \rtimes G$ and regarded as [[pointed objects]] in the [[slice category]] of [[Groups]]:
+The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) is [[equivalence of categories|equivalent]] 
 
 \[
   \label{EquivalenceOfEquivariantTopologicalGroupsToSemidirectProductTopGroups}
@@ -233,9 +233,29 @@ The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTop
     \,.
   }
 \]
-\end{prop}
-Here $\mathcal{G} \rtimes_\alpha G$ is regarded as equipped with the homomorphisms
-$$
+to that of [[semidirect product groups]] of the form $(-) \rtimes G$ 
+\[
+  \label{ASemidirectProductGroup}
+ \mathcal{G} \rtimes_\alpha G
+  \;\;
+   \coloneqq
+  \;\;
+  \Big(
+    \mathcal{G} \times G
+    \,,
+    \;\;\;
+    (\gamma_1, g_1) \cdot (\gamma_2, g_2)
+    \;\coloneqq\;
+    \big(
+      \gamma_1 \cdot \alpha(g_1)(\gamma_2) 
+      ,\,
+      g_1 \cdot g_2
+    \big)
+  \Big)
+\]
+and regarded as [[pointed objects]] in the [[slice category]] of [[Groups]] via the homomorphisms
+\[
+  \label{CoSliceMorphismsInOutOfSemidirectProductGroup}
   \array{
     G
     &\longrightarrow&
@@ -246,11 +266,11 @@ $$
     && 
     (\gamma,g) &\mapsto& g
     \\
-    g &\mapsto& (e_{\mathcal{g}},g)
+    g &\mapsto& (e_{\mathcal{G}},g)
     \,.
   }
-$$
-
+\]
+\end{prop}
 \begin{proof}
 This is a straightforward matter of unwinding the definitions:
 
@@ -259,28 +279,8 @@ First to see that we have a [[functor]] as claimed:
 A [[group object]] in $G Actions(TopologicalSpaces)$ is, by definition, a plain [[topological group]] $\mathcal{G}$ whose underlying topological space is equipped with a continuous $G$-[[action]] and such such this $G$-action preserves all its group operations. In other words, this is a group $\mathcal{G}$ and a [[homomorphism]] 
 $\alpha \;\colon\;G \longrightarrow Aut_{Grp}(\mathcal{G})$ to the group-[[automorphism group]] (whose [[internal hom|hom]]-[[adjunct]] (eq:HomAdjunctInTopologicalSpaces) is [[continuous function|continuous]]).
 
-This is exactly the data that determines the [[semidirect product group]]
+This is exactly the data that determines the [[semidirect product group]] (eq:ASemidirectProductGroup).
 
-\[
-  \label{ASemidirectProductGroup}
- \mathcal{G} \rtimes_\alpha G
-  \;\;
-   \coloneqq
-  \;\;
-  \Big(
-    \mathcal{G} \times G
-    \,,
-    \;
-    (\gamma_1, g_1) \cdot (\gamma_2, g_2)
-    \;\coloneqq\;
-    \big(
-      \gamma_1 \cdot \alpha(g_1)(\gamma_2) 
-      ,\,
-      g_1 \cdot g_2
-    \big)
-  \Big)
-  \,.
-\]
 
 Moreover, a [[homomorphism]] of equivariant groups $(\mathcal{G}_1, \alpha_1) \longrightarrow (\mathcal{G}_2, \alpha_2)$ is a continuous [[group homomorphism]] $\phi \,\colon\, \mathcal{G}_1 \longrightarrow \mathcal{G}_2$ whose underlying map is $G$-[[equivariant function|equivariant]] in that
 
@@ -344,14 +344,54 @@ is clearly [[functor|functorial]].
 
 It remains to see that this functor is a [[full subcategory]]-inclusion, hence a [[fully faithful functor]], hence that  it is a [[bijection]] on [[hom-sets]] for any [[pair]] of [[objects]]: 
 
-But by (eq:FunctorialAssignmentOfSemidirectProductGroupsToEquivariantGroups) the homomorphisms of [[semidirect product groups]] in its [[image]] are precisely those of the product form $\phi \times id_G$, and this is exactly the form of the homomorphisms between semidirect product groups that is picked out by [[slice category|slicing over]] [[undercategory|and under]] $G$ (noticing that group homomorphisms out of 
-$\mathcal{G} \rtimes_\alpha G$ 
-are fixed by their restriction to 
-$\mathcal{G} \times \{ e_G \}$ 
-and 
-$\{ e_{\mathcal{G}} \} \times G$
-).
+But by (eq:FunctorialAssignmentOfSemidirectProductGroupsToEquivariantGroups) the homomorphisms of [[semidirect product groups]] in its [[image]] are precisely those of the product form $\phi \times id_G$, and this is exactly the form of the homomorphisms between semidirect product groups that is picked out by [[slice category|slicing over]] [[undercategory|and under]] $G$ (by Remark \ref{HomomOutOfSemidirectProductGroupFixedByItsRestrictionToSubgroups}).
 \end{proof}
+
+\begin{remark}\label{HomomOutOfSemidirectProductGroupFixedByItsRestrictionToSubgroups}
+  Here and in the following we use that a [[group homomorphism]] out of a [[semidirect product group]] (eq:ASemidirectProductGroup) is fixed already by its restriction to the two canonical [[subgroups]]
+
+$$
+  \array{
+    \mathcal{G}
+    \\
+    \big\downarrow 
+    & 
+    \searrow^{
+     \mathrlap{ \gamma \mapsto \phi\big( \gamma, e_G \big) }
+    }
+    \\
+    \mathcal{G} 
+      \rtimes_{\alpha}
+    G
+    &
+      \overset{\phi}{\longrightarrow}
+    &
+    \mathcal{G}' \rtimes_\alpha G
+    \\
+    \big\uparrow 
+    & 
+    \nearrow_{
+      \mathrlap{ g \mapsto \phi\big(e_{\mathcal{G}},g\big) }
+    }
+    \\
+    G
+  }
+$$
+because every element of the semidirect product is equal to 
+a product of elements from these subgroups:
+\[
+  \label{ElementInSemidirectProductAsProductOfElementsInSubgroups}
+  (\gamma,g) \;=\; (\gamma, e_G) \cdot ( e_{\mathcal{G}}, g )
+  \,.
+\]
+
+This implies in particular that 
+
+1. that $\phi$ be a morphism in $Groups_{/G}$ means equivalently that its restriction to $\mathcal{G}$ factors (via some group homomorphism $\mathcal{G} \to \mathcal{G}'$) through the canonical inclusion of $\mathcal{G}'$ (eq:CoSliceMorphismsInOutOfSemidirectProductGroup);
+
+1. that $\phi$ be a morphism in $Groups^{G/}$ means equivalent that its restriction to $G$ is the canonical inclusion of $G$ (eq:CoSliceMorphismsInOutOfSemidirectProductGroup).
+
+\end{remark}
 
 
 ### Equivariant group actions
@@ -406,79 +446,144 @@ $\{ e_{\mathcal{G}} \} \times G$
     }
   \]
   with
-  $$
+  \[
+    \label{ActionOfSemidirectProductFromEquivariantComponentActions}
     \underset{\gamma,g,x}{\forall}
     \;\;\;
     (R,\rho)(\gamma, g)(x)
     \;\coloneqq\;
     R(\gamma)\big( \rho(g)(x) \big)
     \,.
-  $$
+  \]
 \end{prop}
 
 \begin{proof}
 
-We observe that the given formula in fact establishes a [[bijection]] between the two kinds of actions.
+We observe that the given formula in fact establishes a [[bijection]] between the two kinds of actions:
 
-First, it is clear that;
+First, notice 
+by the decomposition (eq:ElementInSemidirectProductAsProductOfElementsInSubgroups) in Remark \ref{HomomOutOfSemidirectProductGroupFixedByItsRestrictionToSubgroups},
+that any action of $\mathcal{G} \rtimes_\alpha G$ can be written in the form (eq:ActionOfSemidirectProductFromEquivariantComponentActions) for some actions $R$ and $\rho$ of $\mathcal{G}$ and $G$, respectively, satisfying some compatibility conditions:
 
 1. the action property of $\rho$ is equivalently the action property of $(R,\rho)$ on elements of the form $(e, g)$;
 
 1. the action-property of $R$ on the underlying topological spaces is equivalently the action property of $(R,\rho)$ on elements of the form $(\gamma,e)$
 
-and that the full action property of $(R,\rho)$ is equivalent to its restriction to these two cases and to the mixed case:
+1. the $G$-[[equivariant function|equivariance]] of $R$
+
+   $$
+     \underset{
+       \gamma,g,x
+     }{\forall}
+     \;\;\;
+     R
+     \big(
+       \alpha(g)(\gamma)
+     \big)
+      \big(
+       \rho(g)(x)
+     \big)
+     \;=\;
+      \rho(g)
+      \big(
+       R(\gamma)(x)
+     \big)
+     \,.
+   $$
+
+
+   is equivalent to the action property of $(R,\phi)$ on mixed pairs of elements of the form $\big( (e_{\mathcal{G}},g), \; (\gamma,e_G) \big)$:
+
+   $$
+     \underset{
+       \gamma,g,x
+     }{\forall}
+     \;\;\;
+     (R,\rho)
+     \big(
+       \underset{
+         \big(
+           \alpha(g)(\gamma),
+           g
+         \big)
+       }{
+         \underbrace{
+           (e,g) \cdot (\gamma,e)
+         }
+       }
+     \big)
+     (x)
+     \;=\;
+     (R,\rho)(e,g)
+     \big(
+       (R,\rho)(\gamma,e)
+       (x)
+     \big)
+     \,.
+   $$
+
+These three conditions exhaust the conditions on $R$ to be a $G$-equivariant action. Therefore it just remains to see that they also exhaust the conditions on $(R,\rho)$ to be a plain action:
+
+But the remaining mixed-pair condition on $(R, \phi)$ 
 
 $$
   \underset{
     \gamma,g,x
   }{\forall}
   \;\;\;
-  (R,\rho)
+  (R,\phi)
   \big(
     \underset{
-      \big(
-        \alpha(g)(\gamma),
-        g
-      \big)
+     = \, (\gamma,g)
     }{
-      \underbrace{
-        (e,g) \cdot (\gamma,e)
-      }
+    \underbrace{
+      (\gamma,e) \cdot (e,g)
+    }
     }
   \big)
   (x)
   \;=\;
-  (R,\rho)(e,g)
+  (R,\phi)
   \big(
-    (R,\rho)(\gamma,e)
+    (\gamma,e)
+  \big)
+  \Big(
+    (R,\phi)
+    \big(
+      (e,g)
+    \big)
     (x)
-  \big)
-  \,.
+  \Big)
 $$
 
-Now by definition of $(R,\rho)$, this mixed action condition is equivalent to the condition
+follows generally right from the definition (eq:ActionOfSemidirectProductFromEquivariantComponentActions); and with this and the previous three conditions the action property is implied on pairs of the form
 
 $$
-  \underset{
-    \gamma,g,x
-  }{\forall}
-  \;\;\;
-  R
-  \big(
-    \alpha(g)(\gamma)
-  \big)
-  \big(
-    \rho(g)(x)
-  \big)
+  (\gamma_1, e)
+  \cdot
+  (\gamma_2, g_2)
   \;=\;
-  \rho(g)
-  \big(
-    R(\gamma)(x)
-  \big)
-  \,.
+  (\gamma_1, e)
+  \cdot
+  (\gamma_2, e)
+  \cdot
+  (e, g)
+  \,,
+  \;\;\;
+  (e, g_1) 
+  \cdot
+  (\gamma_2, g_2)
+  \;=\;
+  (e, g_1)
+  \cdot
+  (\gamma_2, e)
+  \cdot
+  (e, g_2)
 $$
 
-But this is equivalently the condition of $G$-equivariance on $R$.
+and then on general elements.
+
+
 
 In conclusion, $(R,\rho)$ is an action of the semidirect product group $\mathcal{G} \rtimes_\alpha G$ on $X$ iff $R$ is a $G$-equivariant action of $\mathcal{G}$ on $X$. 
 
