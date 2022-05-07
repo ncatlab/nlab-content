@@ -1,4 +1,11 @@
-
+$\underoverset
+      {k = -s}
+      {n -s -1}
+      {\prod}\big(N + k \big)
+    = \frac{1}{N} \underoverset
+      {k = -s}
+      {0}
+      {\prod}\big(N + k \big) \cdot \underoverset{k = 0}{n -s -1}{\prod}\big(N + k \big) = \frac{1}{N} s_{(s)}(1, 1, \ldots, 1, 0, \ldots 0) \cdot s_{1^{(n-s-1)}}(1, 1, \ldots, 1, 0, \ldots 0)$.
 
 [[quantum information -- contents]]
 
