@@ -10,7 +10,10 @@ On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[B
 
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135 ([spire:266584](http://inspirehep.net/record/266584/), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
 
-On the [[singleton representation|singleton representations]]) of the [[orthosymplectic super Lie algebra]]:
+* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
+
+
+On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
 
 * {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, Volume 143, Issues 4&#8211;6, 16 August 1984, Pages 389-395
 
