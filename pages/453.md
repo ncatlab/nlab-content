@@ -15,19 +15,19 @@
 
 
 #Contents#
-* toc
+* table of contents
 {: toc}
 
 
 ## Idea
 
-A _regular category_ is a [[finitely complete category]] which admits a good notion of [[image]] factorization. A primary _raison d'&#234;tre_ behind regular categories $C$ is to have a decently behaved _calculus of [[relation]]s_ in $C$.  
+A _regular category_ is a [[finitely complete category]] which admits a good notion of [[image]] factorization. A primary _raison d'&#234;tre_ behind regular categories $C$ is to have a decently behaved _calculus of [[relations]]_ in $C$.  
 
 Regular categories also provide a natural [[semantics|semantic]] environment to [[interpretation|interpret]] a particularly well behaved positive [[fragment]] of [[first order logic]] having connectives $\top$, ${\wedge}$, $\exists$; in other words, their [[internal logic]] is [[regular logic]].
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A [[category]] $C$ is called **regular** if 
@@ -66,7 +66,7 @@ We make the following remarks:
 
 In fact, an equivalent definition is:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **regular category** is a finitely complete category with pullback-stable [[image]] factorizations.
@@ -102,7 +102,8 @@ Examples of regular categories include the following:
 
 * [[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [here](/nlab/show/subspace+topology#pushout). 
 
-* The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (but is not, however, locally cartesian closed, nor is it [[exact category|exact]]). [Source](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf) 
+* The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (but is not, however, locally cartesian closed, nor is it [[exact category|exact]]) ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95)) 
+
 
 Examples of categories which are **not regular** include 
 
@@ -122,8 +123,7 @@ However:
 ### Factorization properties 
 
 
-
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **image factorization**
 
@@ -148,7 +148,7 @@ A proof is spelled out on p. 30 of ([vanOosten](#vanOosten)).
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The classes of [[regular epimorphism]], [[monomorphism]]s in a regular category $C$ form a [[orthogonal factorization system|factorization system]].
@@ -158,7 +158,7 @@ The classes of [[regular epimorphism]], [[monomorphism]]s in a regular category 
 
 ### Embedding properties 
 
-+-- {: .un_barrembeddingtheorem}
++-- {: .num_barrembeddingtheorem}
 ###### Proposition
 
 If a regular category is small, it admits particularly nice embeddings into presheaf categories. See [[Barr embedding theorem]] for more. 
@@ -179,6 +179,7 @@ If a regular category $\mathcal{R}$ is small, then the full subcategory of the f
 
 
 =--
+
 ## Stronger conditions
 
 ### Exactness
@@ -259,18 +260,21 @@ The following set of course notes has a section on regular categories
 
 * {#vanOosten}[[Jaap van Oosten]], _Basic category theory_ , BRICS LS-95-1 Aarhus 1995. ([Section 4.1](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf#page=30)) ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
 
-An application of the regularity condition[^knop] is found in the paper
+An application of the regularity condition[^knop] is found in:
 
 * F. Knop, _Tensor envelopes of regular categories_, ([arXiv:math/0610552v2](http://arxiv.org/abs/math/0610552))
 
 [^knop]: Knop's condition for regularity is slightly different from that presented here; he works with categories that when augmented by an absolutely initial object are regular in the terminology here.  In the paper, Knop generalizes a construction of Deligne by showing how to construct a symmetric pseudo-abelian [[tensor category]] out of a regular category through the calculus of relations.
 
-Enriched generalization of regular categories is considered in
+Enriched generalization of regular categories:
 
-* B. Day, R. Street, _Localisation of locally presentable categories_, J. Pure and Appl. Algebra __58__ (1989) 227-233.
+* [[Brian Day]], [[Ross Street]], _Localisation of locally presentable categories_, J. Pure and Appl. Algebra __58__ (1989) 227-233.
 
 * Dimitri Chikhladze, _Barr's embedding theorem for enriched categories_, J. Pure Appl. Alg. __215__, n. 9 (2011) 2148-2153, [arxiv/0903.1173](http://arxiv.org/abs/0903.1173), [doi](http://dx.doi.org/10.1016/j.jpaa.2010.12.004)
 
+Regularity of (Hausdorff) [[compactly generated topological spaces]]:
+
+* {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
 
 
 [[!redirects regular categories]]
