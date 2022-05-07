@@ -21,10 +21,10 @@ Exactly which pairs of sets of rational numbers can appear this way?  We will de
 
 1.  $L$ is [[inhabited set|inhabited]]; that is, some rational number belongs to $L$.
 2.  Similarly, $U$ is inhabited.
-3.  $L$ is downward-closed; that is, if $a \lt b$ are rational numbers with $b \in L$, then $a \in L$.
-4.  Similarly, $U$ is upward-closed: if $a \lt b$ are rational numbers with $a \in U$, then $b \in U$.
-5.  $L$ is upward-open; that is, if $a \in L$, then $a \lt b$ for some $b \in L$.
-6.  Similarly, $U$ is downward-open: if $b \in U$, then $a \lt b$ for some $a \in U$.
+3.  $L$ is a [[lower set]]; that is, if $a \lt b$ are rational numbers with $b \in L$, then $a \in L$.
+4.  Similarly, $U$ is an [[upper set]]: if $a \lt b$ are rational numbers with $a \in U$, then $b \in U$.
+5.  $L$ is an upwards [[open set]]; that is, if $a \in L$, then $a \lt b$ for some $b \in L$.
+6.  Similarly, $U$ is a  downwards [[open set]]: if $b \in U$, then $a \lt b$ for some $a \in U$.
 7.  If $a \lt b$ are rational numbers, then $a \in L$ or $b \in U$.
 8.  If $a \in L$ and $b \in U$, then $a \lt b$.
 
