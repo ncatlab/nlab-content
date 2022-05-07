@@ -185,6 +185,7 @@ In this diagram now
 
 * [[D-module]], [[D-geometry]]
 
+* [[homotopy analysis method]]
 
 ## References
 
