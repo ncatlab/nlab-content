@@ -50,6 +50,9 @@ A [[2-group]] $G$ is _braided_ if it is equipped with the following equivalent [
 
 Under the name "braided gr-categories" or "braided cat-groups" and thought of as a sub-class of [[braided monoidal categories]], the notion of braided 2-groups is considered in:
 
+* [[André Joyal]], [[Ross Street]], Section 3 of: _Braided tensor categories_, Adv. Math. **102** (1993), 20--78 ([doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055))
+
+
 * [[M. Bullejos]], [[Pilar Carrasco]], [[Antonio M. Cegarra]], *Cohomology with coefficients in symmetric cat-groups. An extension of Eilenberg–MacLane's classification theorem*, Mathematical Proceedings of the Cambridge Philosophical Society , Volume 114 , Issue 1 , July 1993 , pp. 163 - 189 ([doi:10.1017/S0305004100071498](https://doi.org/10.1017/S0305004100071498))
 
 * [[Antonio R. Garzón]], Jesus G Miranda, Sec. 1 of: *Homotopy theory for (braided) cat-groups*, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 38 (1997) no. 2, pp. 99-139 ([numdam:CTGDC_1997__38_2_99_0](http://www.numdam.org/item/?id=CTGDC_1997__38_2_99_0))
