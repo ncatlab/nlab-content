@@ -65,6 +65,9 @@ All these are increasingly seeing [[flavour anomalies]] (see there) in $B$-meson
 
 ### General
 
+* [[Patrick Koppenburg]], [[Zdenek Dolezal]], [[Maria Smizanska]], _Rare decays of b hadrons_, Scholarpedia, 11(6):32643 ([doi:10.4249/scholarpedia.32643](http://dx.doi.org/10.4249/scholarpedia.32643))
+
+
 See also 
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/B_meson">B meson</a>_
