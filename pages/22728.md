@@ -18,7 +18,7 @@ A non-associative [[group]], or an [[invertible magma|invertible]] [[unital magm
 
 ## Definition
 
-A __nonassociative group__ is a [[unital magma]] $(G,(-)\cdot(-):G\times G\to G),1:G)$ with a unary operation called the __inverse__ $(-)^{-1}:G \to G$ such that 
+A __nonassociative group__ or __invertible unital magma__ is a [[unital magma]] $(G,(-)\cdot(-):G\times G\to G),1:G)$ with a unary operation called the __inverse__ $(-)^{-1}:G \to G$ such that 
 
 * $a^{-1} \cdot a = 1$
 * $a \cdot a^{-1} = 1$
@@ -39,12 +39,18 @@ Every non-associative group is a [[loop (algebra)|loop]] with a two-sided [[inve
 
 ## Related concepts
 
-* [[group]]
+* [[group]] (associative version)
 
-* [[unital magma]]
+* [[unital magma]] (non-invertible version)
 
-* [[invertible magma]]
+* [[invertible magma]] (non-unital version)
 
-* [[loop (algebra)|loop]]
+* [[commutative loop]] (commutative version)
 
 * [[centipede mathematics]]
+
+[[!redirects nonassociative group]]
+[[!redirects nonassociative groups]]
+
+[[!redirects invertible unital magma]]
+[[!redirects invertible unital magmas]]
