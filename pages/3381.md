@@ -109,6 +109,8 @@ We can express this more compactly by writing $\sigma$ in "cycle notation", as t
 
 * [[cyclic permutation]], [[rotation permutation]]
 
+* [[transposition permutation]]
+
 * [[alternating group]]
 
 * [[signature of a permutation]]
