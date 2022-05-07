@@ -122,6 +122,9 @@ Introductions:
 
 Textbooks:
 
+* [[Robert E. Marshak]], Chapter 5 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
+
+
 * B. L. Ioffe , V. S. Fadin, L. N. Lipatov, _Quantum Chromodynamics -- Perturbative and Nonperturbative Aspects_, Cambridge University Press (2010) ([doi:10.1017/CBO9780511711817](https://doi.org/10.1017/CBO9780511711817))
 
 with emphasis on [[phenomenology]]:
