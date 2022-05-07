@@ -43,6 +43,9 @@ Focus on **[[abelian anyons]]**:
 
   > "non-Abelian anyons are usually assumed to be better suited to the task. Here we challenge this view, demonstrating that Abelian anyon models have as much potential as some simple non-Abelian models."
 
+* Wade Bloomquist, [[Zhenghan Wang]], *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 ([arXiv:1805.04622](https://arxiv.org/abs/1805.04622), [doi:10.1088/1751-8121/aaeea1](https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1))
+
+
 * [[Seth Lloyd]], *Quantum computation with abelian anyons*, Quantum Information Processing **1** 1/2 (2002) ([arXiv:quant-ph/0004010](https://arxiv.org/abs/quant-ph/0004010), [doi:10.1023/A:1019649101654](https://doi.org/10.1023/A:1019649101654))
 
 
