@@ -273,7 +273,7 @@ $$
   \underset{
     { \lambda \in Part(n) }
     \atop
-    { rows(\lambds) \leq N }
+    { rows(\lambda) \leq N }
   }{
     \sum
   }
@@ -288,7 +288,8 @@ of standard Young tableaux with $n$ boxes and $\leq N$ rows.
 
 {#AsymptoticFormulaForNumberOfSYTWIthBoundedHeight} Asymptotically for large $n$ this is ([Regev 81, (F.4.5.1)](#Regev81)):
 
-$$
+\[
+ \label{AsymoptoticsOfSYTOfBoundedHeightRegevForm}
   \begin{aligned}
   \left\vert
     sYT_n(N)
@@ -326,11 +327,12 @@ $$
       1 + \tfrac{1}{2}j
     \right)
   \end{aligned}
-$$
+\]
 
-Later this appears as a conjecture in [Kotěšovec 13](#Kotesovec13):
+Later this appears again as a conjecture in [Kotěšovec 13](#Kotesovec13):
 
-$$
+\[
+ \label{AsymoptoticsOfSYTOfBoundedHeightKotesovecForm}
   \begin{aligned}
   \left\vert
     sYT_n(N)
@@ -374,49 +376,155 @@ $$
   \right)^{ \tfrac{1}{4}(N(N-1)) }  
   \,.
   \end{aligned}
-$$
+\]
 
-Using the [[Gauss multiplication formula]] this is equivalently:
+(The first line is the expression conjectured in [Kotěšovec 13](#Kotesovec13), under the brace we use the [translation formula](Gamma+function#eq:TranslationFormula), and the second line shows agreement with [Regev 81 (F.4.5.1)](#Regev81) as in (eq:AsymoptoticsOfSYTOfBoundedHeightRegevForm).)
 
-$$
- \begin{aligned}
+This may further be re-expressed ([Kotěšovec 13, p. 2](#Kotesovec13)) in terms of the [[Barnes G-function]] $G(-)$ (see [there](Barnes+G-function#MultiplicationFormulaForGammaFunctionInTermsOfGFunction)):
+
+\[
+  \label{AsymoptoticsOfSYTOfBoundedHeightInTermsOfBarnesGFunction}
+  \begin{aligned}
   \left\vert
     sYT_n(N)
   \right\vert  
   &
-  \;
-  \overset{
-    n \to \infty
-  }{\sim}
-  \;
-  \left(
-    \frac{N}{n}
-  \right)^{ \tfrac{1}{4} N(N-1) }
+  \;\underset{n \to \infty}{\sim}\;
+  \underset{
+  \mathclap{
+    \frac
+      {
+        G(N/2 + 1)
+        \cdot
+        G(N/2 + 1/2)
+      }
+      {
+        G(1/2)
+      }
+  }
+  }{
+    \underbrace{
+    \underoverset
+      {j = 1}
+      {N}
+      {\prod}
+    \Gamma(j/2)
+    }
+  }
   \cdot
-  \frac
-    {N^n}
-    {N!}
+  \frac{N^n}{\pi^{N/2}}
   \cdot
-   2^N
-   \cdot
-   \pi^{ - \tfrac{1}{2} N }
-  \cdot
-  \Gamma
-  \left(
-    1 + \tfrac{N}{2}
-  \right)  
-  \Gamma
   \left( 
-    N
-  \right)
-  (2\pi)^{ \tfrac{1}{2}(N-1) }
-  \cdot
-  N^{ \tfrac{1}{2} - N }
-  \\
-  & 
-  \;=\;
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4}(N(N-1)) }  
   \end{aligned}
+\]
+
+
+#### Asymptotic formulas for large $n$ and large $N$
+
+Using the large-$N$ asymptotic expansion ([here](Barnes+G-function#AsymptoticExpansion)) of the [[Barnes G-function]] 
+
 $$
+  G(N/2 + 1)
+  \underset{N \to \infty}{\sim}
+  \exp
+  \left(
+    \tfrac{1}{8}
+    N^2 ln (N)
+    -
+    \left(
+      \tfrac{3}{16}
+      +
+      \tfrac{ln(2)}{8}
+    \right)
+    N^2
+    + 
+    \tfrac{ln(2\pi)}{4} N
+    -
+    \tfrac{1}{12} ln(N)
+    +
+    \big(
+      \zeta^'(-1)      
+      -
+      \tfrac{ln(2)}{12}
+    \big)
+  \right)
+$$
+
+inside the large-$n$ asymptotic expansion (eq:AsymoptoticsOfSYTOfBoundedHeightInTermsOfBarnesGFunction), we obtain the doubly asymptotic expansion of the number of standard Yound tableaux with $n$ boxes and $\leq N$ rows:
+
+\[
+  \label{DoublyAsymoptoticsOfSYTOfBoundedHeight}
+  \begin{aligned}
+  & 
+  ln
+  \big(
+  \left\vert
+    sYT_n(N)
+  \right\vert  
+  \big)
+  \\
+  &
+  \;
+  \underset{
+    { n \to \infty } 
+    \atop
+    { N \to \infty }
+  }{\sim}\;
+   n ln(N)
+   -
+   \tfrac{1}{4}N^2 ln(n)
+   +
+   \tfrac{1}{4}N ln(n)
+   \\
+   &
+    \phantom{
+      \underset{
+        { n \to \infty } 
+        \atop
+        { N \to \infty }
+      }{\sim}\;
+    }
+   +
+   \tfrac{1}{2}
+    N^2 ln(N)
+   -
+    \left(
+      \tfrac{3}{8}
+      +
+      \tfrac{ln(2)}{4}
+    \right)
+    N^2
+   - 
+   \tfrac{1}{4} N ln(N)
+   + 
+    \tfrac{ln(2)}{2} 
+    N
+    -
+    \tfrac{1}{6} ln(N)
+    \\
+    & 
+    \;
+    \phantom{
+      \underset{
+        { n \to \infty } 
+        \atop
+        { N \to \infty }
+      }{\sim}\;
+    }
+    +
+    \big(
+      2 \zeta^'(-1)      
+      -
+      \tfrac{ln(2)}{6}
+      -
+      ln G(1/2)
+    \big)
+  \end{aligned}
+\]
+
+
 
 #### Exact formulas for small $N$
 
