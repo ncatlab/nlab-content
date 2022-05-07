@@ -35,6 +35,7 @@ In ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) it is claimed that com
 * [[lattice gauge theory]]
 
 ## References
+ {#References}
 
 ### General
 
@@ -86,6 +87,7 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Harold Steinacker]], *Gravity as a Quantum Effect on Quantum Space-Time* ([arXiv:2110.03936](https://arxiv.org/abs/2110.03936))
 
+* [[Yuhma Asano]], [[Harold Steinacker]], *Spherically symmetric solutions of higher-spin gravity in the IKKT matrix model* ([arXiv:2112.08204](https://arxiv.org/abs/2112.08204))
 
 
 Arguments that [[closed string field theory]] arises from the [[dynamics]] of [[Wilson loops]] in the IKKT model are in 
