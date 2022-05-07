@@ -21,46 +21,24 @@
 
 The __Godement product__ of two [[natural transformations]] between appropriate [[functors]] is their [[horizontal composition]] as 2-cells in the [[2-category]] [[Cat]] of [[categories]], functors and natural transformations:
 
-$$
-A\mathrlap{\underoverset{\textsize{G_1}}{\textsize{F_1}}{\begin{matrix}\begin{svg}
-<svg width="76" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
- <use xlink:href="#curvearrows3466"/>
-</svg>
-\end{svg}\includegraphics[width=53]{curvearrows3466}\end{matrix}}}
-{\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\alpha}\space{0}{0}{12}\phantom{a}} B
-\mathrlap{\underoverset{\textsize{G_2}}{\textsize{F_2}}{\begin{matrix}\begin{svg}
-<svg width="76" id="curvearrows3466" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3466">
- <g>
-  <title>Layer 1</title>
-  <path marker-end="url(#se_marker_end_svg_3466_2)" id="svg_3466_2" d="m1,16c24,-15 52,-15 72,0" stroke="#000000" fill="none"/>
-  <path marker-end="url(#se_marker_end_svg_3466_2)" id="svg_3466_3" d="m1,26c24,15 44,15 72,0" stroke="#000000" fill="none"/>
- </g>
- <defs>
-  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_3466_2">
-   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40l100,40z" id="svg_3466_1"/>
-  </marker>
- </defs>
-</svg>
-\end{svg}\includegraphics[width=53]{curvearrows3466}\end{matrix}}}
-{\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\beta}\space{0}{0}{12}\phantom{a}} C
-\mapsto 
-A
-\mathrlap{\underoverset{\textsize{G_2\circ G_1}}{\textsize{F_2\circ F_1}}{\begin{matrix}\begin{svg}
-<svg width="86" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3467">
- <g>
-  <title>Layer 1</title>
-  <path fill="none" stroke="#000000" d="m1,16c27,-15 59,-15 82,0" id="svg_3467_2" marker-end="url(#se_marker_end_svg_3467_2)"/>
-  <path fill="none" stroke="#000000" d="m1,26c27,15 50,15 82,1" id="svg_3467_3" marker-end="url(#se_marker_end_svg_3467_2)"/>
- </g>
- <defs>
-  <marker id="se_marker_end_svg_3467_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
-   <path id="svg_3467_1" d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
-  </marker>
- </defs>
-</svg>
-\end{svg}\includegraphics[width=65]{curvearrows3467}\end{matrix}}}
-{\phantom{a}\quad\Downarrow\mathrlap{\beta\circ\alpha}\space{0}{0}{20}\phantom{a}} C
-$$
+\begin{tikzcd}[column sep=small]
+\textbf{A}
+ \arrow[to=1-5, bend left=50]{r}[name=F1]{F_1}
+ \arrow[to=1-5, bend right=50]{r}[name=G1,label=below:$\scriptstyle G_1$]{}
+ \arrow[phantom,Rightarrow,to path={(F1) -- node[] {$\big\Downarrow\normalsize\alpha$} (G1)}]{}
+ &&&& \textbf{B}
+ \arrow[to=1-9, bend left=50]{r}[name=F2]{F_2}
+ \arrow[to=1-9, bend right=50]{r}[name=G2,label=below:$\scriptstyle G_2$]{}
+ \arrow[phantom,Rightarrow,to path={(F2) -- node[] {$\big\Downarrow\normalsize\beta$} (G2)}]{}
+ &&&& \textbf{C}
+ \arrow[to=1-10, mapsto]
+ & \textbf{A}
+ \arrow[to=1-14, bend left=50]{r}[name=F3]{F_2 \circ F_1}
+ \arrow[to=1-14, bend right=50]{r}[name=G3,label=below:$\scriptstyle G_2 \circ G_1$]{}
+ \arrow[phantom,Rightarrow,to path={(F3) -- node[] {$\big\Downarrow\normalsize\beta\circ\alpha$} (G3)}]{}
+ &&&& \textbf{C}
+\end{tikzcd}
+
 
 ## Definition
 
