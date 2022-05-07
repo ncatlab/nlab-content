@@ -46,7 +46,7 @@ The [[category]] of [[Delta-generated topological spaces]] carries the [[mathema
 
 ## References
 
-*  {#Haraguchi13} [[Tadayuki Haraguchi]], _On model structure for coreflective subcategories of a model category_ ([arXiv:1304.3622](http://arxiv.org/abs/1304.3622), MR3289294, Zbl 1311.55027)
+* {#Haraguchi13} [[Tadayuki Haraguchi]], _On model structure for coreflective subcategories of a model category_, Math. J. Okayama Univ. 57 (2015), 79–84 ([arXiv:1304.3622](http://arxiv.org/abs/1304.3622), [doi:10.18926/mjou/53040](http://doi.org/10.18926/mjou/53040), MR3289294, Zbl 1311.55027)
 
 
 [[!redirects model structure on Delta-generated spaces]]
