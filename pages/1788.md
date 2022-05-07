@@ -1,4 +1,6 @@
 
+$\exists$
+
 $\to$
 
 |[[finite topological space]] |[[open subsets]] |[[specialization order]] | 
