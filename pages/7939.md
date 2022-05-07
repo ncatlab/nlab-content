@@ -23,7 +23,11 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 ## References
 
-* wikipedia, _[Qbit](http://en.wikipedia.org/wiki/Qubit)_
+* Wikipedia, _[Qbit](http://en.wikipedia.org/wiki/Qubit)_
+
+Laboratoy-realizations of qbits for use in [[quantum computers]]:
+
+* *[Qubit Zoo](https://qubitzoo.org/qubitzoo/)*
 
 [[!redirects Qbit]]
 [[!redirects qbits]]
