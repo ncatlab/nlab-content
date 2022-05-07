@@ -1,5 +1,5 @@
 
-* [webpage](https://www.math.rochester.edu/people/faculty/jnei/)
+* [webpage](https://people.math.rochester.edu/faculty/jnei/)
 
 ## related $n$Lab entries
 
