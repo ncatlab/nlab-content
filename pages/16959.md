@@ -53,20 +53,20 @@ There is another topology on the join of spaces, due to [[John Milnor|Milnor]], 
 +-- {: .num_defn #MilnorJoin }
 ###### Definition
  
-Milnor’s join $X \mathbin{\bar \star} Y$ has the same underlying set as $X \star Y$ and the coarsest topology which makes $t \colon X \mathbin{\bar \star} Y \to [0,1]$ (given on $X \times I \times Y$ by $(x,t,y)\mapsto t$, constantly $0$ on $X$, and constantly $1$ on $Y$) and the projections $\pi_1 \colon t^{-1}([0,1)) \to X$ and $\pi_2 \colon t^{-1}((0,1]) \to Y$ continuous.
+Milnor’s join $X \overline{\star} Y$ has the same underlying set as $X \star Y$ and the coarsest topology which makes $t \colon X \overline{\star} Y \to [0,1]$ (given on $X \times I \times Y$ by $(x,t,y)\mapsto t$, constantly $0$ on $X$, and constantly $1$ on $Y$) and the projections $\pi_1 \colon t^{-1}([0,1)) \to X$ and $\pi_2 \colon t^{-1}((0,1]) \to Y$ continuous.
  
-If $p\colon X \to S$ and $p\colon Y \to S$ are spaces over $S$, then their _fibrewise join_ or _Whitney sum_ $X \mathbin{\bar \star}_S Y$ is the space $\{ x \in X \mathbin{\bar \star} Y : t(x) \in (0,1) \implies p(\pi_1(x))=q(\pi_2(y)) \}$.
+If $p\colon X \to S$ and $p\colon Y \to S$ are spaces over $S$, then their _fibrewise join_ or _Whitney sum_ $X \overline{\star}_S Y$ is the space $\{ x \in X \overline{\star} Y : t(x) \in (0,1) \implies p(\pi_1(x))=q(\pi_2(y)) \}$.
  
 =--
  
-The inclusions $X \hookrightarrow X \mathbin{\bar \star} Y$ and $Y \hookrightarrow X \mathbin{\bar \star} Y$ are [[Hurewicz cofibration|closed Hurewicz cofibrations]]: the open set $t^{-1}[[0,1)]$ deforms onto $X$ and $t^{-1}[[(0,1]]$ deforms onto $Y$.
+The inclusions $X \hookrightarrow X \overline{\star} Y$ and $Y \hookrightarrow X \overline{\star} Y$ are [[Hurewicz cofibration|closed Hurewicz cofibrations]]: the open set $t^{-1}[[0,1)]$ deforms onto $X$ and $t^{-1}[(0,1]]$ deforms onto $Y$.
  
-\begin{proposition} The identity map $X \star Y \to X \mathbin{\bar \star} Y$ is a homotopy equivalence. If $X$ and $Y$ are compact, then it is a homeomorphism.
+\begin{proposition} The identity map $X \star Y \to X \overline{\star} Y$ is a homotopy equivalence. If $X$ and $Y$ are compact, then it is a homeomorphism.
 \end{proposition}
 (See [Fritsch–Golasiński 2004, section 1](#FG2004))
  
 \begin{proposition}\label{FibrewiseJoinOfFibrationsIsFibration}
-If $p \colon X \to S$ and $q \colon Y \to S$ are [[Hurewicz fibration|Hurewicz fibrations]], then so is $X \mathbin{\bar \star}_S Y \to S$
+If $p \colon X \to S$ and $q \colon Y \to S$ are [[Hurewicz fibration|Hurewicz fibrations]], then so is $X \overline{\star}_S Y \to S$
 \end{proposition}
 (See [Hall 1965](#Hall1965), [Lemmens 1970, theorem I](#Lemmens1970))
  
@@ -126,7 +126,7 @@ is an explicit realization of the [[unit sphere]] $S^3$ as $X \star Y$.
 ###### Example 
 For a topological group $G$, the [[Milnor construction]] of the total space $E G$ of the [[classifying space|classifying bundle]] is an iterated join, i.e., the colimit of a diagram of inclusions 
  
-$$G \to G \mathbin{\bar \star} G \to G \mathbin{\bar \star} G \mathbin{\bar \star} G \to \ldots$$ 
+$$G \to G \overline{\star} G \to G \overline{\star} G \overline{\star} G \to \ldots$$ 
  
 where the identity element of $G$ is used to embed each $G^{\bar \star n}$ into its successor $G^{\bar \star (n+1)}$. The idea is that passing to higher joins kills off more and more lower-dimensional [[homotopy groups]], until one reaches the colimit which is then weakly contractible. 
  
@@ -135,7 +135,7 @@ The same idea applies to a general space $X$; an $H$-space structure and higher 
  
 +-- {: .num_example} 
 ###### Example 
-If $p \colon X \to Y$ is a fibration, then $p$ factors as a [[Hurewicz cofibration]] $X \hookrightarrow X \mathbin{\bar \star}_Y Y$ followed by an [[acyclic fibration|acyclic]] [[Hurewicz fibration]] $X \mathbin{\bar \star}_Y Y \to Y$ by proposition \ref{FibrewiseJoinOfFibrationsIsFibration}: the embedding $Y \hookrightarrow X \mathbin{\bar \star}_Y Y$ and retraction $X \mathbin{\bar \star}_Y Y \to Y$ exhibit $Y$ as a strong deformation retract of $X \mathbin{\bar \star}_Y Y$.
+If $p \colon X \to Y$ is a fibration, then $p$ factors as a [[Hurewicz cofibration]] $X \hookrightarrow X \overline{\star}_Y Y$ followed by an [[acyclic fibration|acyclic]] [[Hurewicz fibration]] $X \overline{\star}_Y Y \to Y$ by proposition \ref{FibrewiseJoinOfFibrationsIsFibration}: the embedding $Y \hookrightarrow X \overline{\star}_Y Y$ and retraction $X \overline{\star}_Y Y \to Y$ exhibit $Y$ as a strong deformation retract of $X \overline{\star}_Y Y$.
  
 (This fact is used in Strøm’s construction of his [[Strøm model structure|model structure on topological spaces]].)
  
@@ -153,9 +153,9 @@ If $p \colon X \to Y$ is a fibration, then $p$ factors as a [[Hurewicz cofibrati
  
 ## References
 
-* {#Hall1956} I.M. Hall, _The generalized Whitney sum_, The Quarterly Journal of Mathematics 16(4): 360–384, December 1965. [10.1093/qmath/16.4.360](https://doi.org/10.1093/qmath/16.4.360)
+* {#Hall1965} I.M. Hall, _The generalized Whitney sum_, The Quarterly Journal of Mathematics 16(4): 360–384, December 1965. [10.1093/qmath/16.4.360](https://doi.org/10.1093/qmath/16.4.360)
 
-* {#Lemmens1970} P.W.H. Lemmens, _A note on the join of fibrations_, Indagationes Mathematicae 73: 53–56 (1970) [doi:10.1016/S1385-7258(70)80008-7](https://doi.org/10.1016/S1385-7258(70)80008-7)
+* {#Lemmens1970} P.W.H. Lemmens, _A note on the join of fibrations_, Indagationes Mathematicae 73: 53–56 (1970) [doi:10.1016/S1385-7258(70)80008-7](https://doi.org/10.1016/S1385-7258%2870%2980008-7)
  
 * {#Milnor1956} [[John Milnor]], _Construction of Universal Bundles_, _II_, Ann. of Math. __63__:3 (1956) 430-436, [doi:10.2307/1970012](https://doi.org/10.2307/1970012)
  
