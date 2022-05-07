@@ -52,11 +52,11 @@
 
 **[[quantum computation]]**
 
-* [[quantum computation]]
-
-  [[topological quantum computation]]
+* [[topological quantum computation]]
 
 * [[quantum circuit]]
+
+* [[quantum programming language]]
 
 * [[quantum error correction]]
 
