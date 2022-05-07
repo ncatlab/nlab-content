@@ -74,26 +74,51 @@ we see $f$ is a weak equivalence iff $N_\xi K_\xi f$ is,
 and iff $K_\xi f$ is.
 =--
 
-In particular, the complete Segal space model structure is a Bousfield localization of $sSet^{\Delta^{\op}}_{Reedy}$, and thus this theorem guarantees an equivalent model structure on $RelCat$. 
+In particular, Rezk's complete Segal space structure on bisimplicial sets is a Bousfield localization of the Reedy model structure, so we can define:
+
++-- {: .num_defn}
+###### Definition
+Let $(RelCat, Rezk)$ denote the model structure corresponding to the complete
+Segal spaces.
+=--
+
++-- {: .num_theorem}
+##### Theorem
+The localization $L : RelCat[Rezk^{-1}] \simeq (\infty,1)Cat$ is the ∞-localization functor $(C,W) \mapsto C[W^{-1}]$.
+=--
++-- {: .proof}
+###### Proof
+We will see below that we can compute this through the map $(C,W) \to (NC, NW)$ to marked simplicial sets. Suppose we're given a fibrant replcaement $(NC, NW) \to Y^\natural$. Since $NC$ is a quasi-category, composition induces an equivalence for every quasi-category $Z$
+$$
+  Fun(Y, Z) \simeq Map^\flat(Y^\natural, Z^\natural)
+  \to Map^\flat((NC, NW), Z^\natural) \simeq Fun_{NW}(NC, Z)
+$$
+thus $Y$ satisfies the universal property of $NC[NW^{-1}]$.
+=--
 
 It is shown in [Meier](#Meier) that [[categories of fibrant objects]] are fibrant in this model structure.
 
-### Compatibility with simplicial localization
+### Compatibility with other models for (∞,1)-categories
 
-On relative categores, one often uses the [[simplicial localization|Hammock Localization]] $L^H : RelCat \to sSetCat$. We want to say this is compatible with the model structure.
-
-Say that a functor $f : (C, W) \to (C', W')$ is:
-
-* a _Rezk equivalence_ if $N(f)$ is a weak equivalence in the [[model structure for complete Segal spaces]]
-* a _Dwyer-Kan equivalence_ if $L^H(f)$ is a weak equivalence in the [[model structure on sSet-categories]]
+One often uses the [[simplicial localization|Hammock Localization]] $L^H : RelCat \to sSetCat$, where $sSetCat$ is given the Bergner model structure whose weak equivalences are the Dwyer-Kan equivalences: i.e. the local weak homotopy equivalences.
 
 +-- {: .num_prop}
 ###### Proposition
-A functor in $RelCat$ is a Rezk equivalence iff it is a DK equivalence.
+
+A functor $f$ in $RelCat$ is a Rezk equivalence iff $L^H(f)$ is a Dwyer-Kan equivalence.
 =--
 This is main theorem 1.4 of [Barwick-Kan](#RezkIsDK).
 
-So, the simplicial localization does indeed preserve and reflect weak equivalences on the model structure on RelCat that presets (∞,1)-categories.
+
+The idea underlying marked simplicial is directly analogous to the idea underlying relative categories. In fact, the functor $RelCat \to sSet^+ : (C,W) \to (NC, NW)$ preserves and reflects equivalences, since
+
++-- {: .num_prop}
+###### Proposition
+Let $R$ be a fibrant replacement in $sSetCat$. Then the natural transformation
+$(NC, NW) \mapsto NRL^H(C,W)^\natural$ of marked simplicial sets is a natural weak equivalence.
+=--
+This is theorem 1.2.1 of [Hinich](#Hinich)
+
 
 ### Nerve functors
 
@@ -114,6 +139,8 @@ The compatibility of the various nerve and simplicial localization functors is i
   * _A Thomason-like Quillen equivalence between quasi-categories and relative categories_ ([arXiv:math/1101.0772](http://arxiv.org/abs/1101.0772))
 
   * _Partial model categories and their simplicial nerves_ ([arXiv:math/1102.2512](http://arxiv.org/abs/1102.2512))
+
+* {#Hinich} Vladimir Hinich *Dwyer-Kan Localization Revisited* ([arXiv:math/1311.4128](https://arxiv.org/abs/1311.4128))
 
 * Lennart Meier, *Fibration Categories are Fibrant Relative Categories*, [arxiv](https://arxiv.org/abs/1503.02036)
  {#Meier}
