@@ -211,6 +211,8 @@ Volume 197, Issue 1, 20 October 2005, Pages 120-139
 * Joan Bagaria, [[Carles Casacuberta]], Adrian Mathias, [[Jiří Rosicky]] _Definable orthogonality classes in accessible categories are small_, [arXiv](http://arxiv.org/abs/1101.2792)
 {#BagariaCasacubertaMathiasRosicky}
 
+* Giulio Lo Monaco, _Vopěnka's principle in ∞-categories_, [arxiv:2105.04251](https://arxiv.org/abs/2105.04251)
+
 category: foundational axiom
 
 [[!redirects Vopěnka's principle]]
