@@ -38,7 +38,7 @@ $$
 
 They are also [[coalgebra over a comonad|coalgebras]] for the [[store comonad]].
 
-Lenses (regardless of their lawfulness) organize in a category $\mathrm{Lens}(\mathbf C)$ whose objects are the same as $\mathbf C$ and whose morphisms $X \to Y$ are lenses with states $X$ and views $Y$. The identity lens is given by $(1_X, \pi_1) :X \to X$. Composition of $(\mathrm{get}_1,g):X \to Y$ and $(\mathrm{get}_2,k):Y \to Z$ is given by:
+Lenses (regardless of their lawfulness) organize in a category $\mathrm{Lens}(\mathbf C)$ whose objects are the same as $\mathbf C$ and whose morphisms $X \to Y$ are lenses with states $X$ and views $Y$. The identity lens is given by $(1_X, \pi_1) :X \to X$. Composition of $(\mathrm{get}_1, \mathrm{put}_{1}):X \to Y$ and $(\mathrm{get}_2, \mathrm{put}_{2}):Y \to Z$ is given by:
 $$
   \mathrm{get}_{12} = \mathrm{get}_1 \circ \mathrm{get}_2
 $$
