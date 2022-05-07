@@ -79,6 +79,8 @@ Examples:
 
 * [[Mike Shulman]], _[Stack semantics and the comparison of material and structural set theories](http://arxiv.org/abs/1004.3802)_ (2010)
 
+* [[Mike Shulman]], _Large categories and quantifiers in topos theory_, [slides](http://home.sandiego.edu/~shulman/papers/cambridge-stacksem.pdf) (2021)
+
 * J. Penon, _Categories localement internes_, C. R. Acad. Sci. Paris __278__ (1974) A1577--1580
 {#Penon}
 
