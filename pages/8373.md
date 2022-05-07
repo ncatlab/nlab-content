@@ -120,7 +120,9 @@ be a commutative diagram of maps of spaces. If $f$ is $(n+1)$-connected and $g$ 
 
 ## References
 
-* {#tomDieck08} [[Tammo tom Dieck]], _Algebraic topology._ European Mathematical Society, Z&#252;rich, 2008.
+Textbook accounts:
+
+* {#tomDieck08}[[Tammo tom Dieck]],  p. 144 and Thm 6.7.9 in: _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
  
 
 [[!redirects n-connected continuous functions]]
