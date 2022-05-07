@@ -134,7 +134,7 @@ $$
 
 > We are implicitly assuming that $dim \Sigma = 2$ or maybe $8 n + 2$ in the following. Needs to be generalized.
 
-For $n \in \mathbb{N}$, there the [[square root]] of a skew symmetric $(n\times n)$-[[matrix]] $D$ -- the [[Pfaffian]] of the matric -- can be understood as the [[Berezinian integral]]
+For $n \in \mathbb{N}$, there the [[square root]] of the determinant of a skew symmetric $(n\times n)$-[[matrix]] $D$ -- the [[Pfaffian]] of the matrix -- can be understood as the [[Berezinian integral]]
 
 $$
   pfaff(D) 
