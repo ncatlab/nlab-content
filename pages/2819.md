@@ -29,7 +29,7 @@ $$
   \sigma_0 
   \;\colon\; 
   X \cong X \times\{0\} 
-    \xhookrightarrow{\;\;} 
+    \xhookrightarrow{\phantom{---}} 
   X \times I
 $$ 
 
@@ -80,7 +80,9 @@ A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. 
 
 ### Appearance in a model structure
 
-There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibrations]] and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]] and [[Strøm's model category]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
+There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibrations]] and weak equivalences are [[homotopy equivalences]] -- see at *[[model structure on topological spaces]]* and specifically at *[[Strøm's model category]]*. 
+
+There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base (the [[slice model structure]]).
 
 There is also a model category whose fibrations are the Hurewicz fibrations and whose weak equivalences are the [[weak homotopy equivalences]], obtained by [[mixed model structure|mixing]] the above model structure with the [[classical model structure on topological spaces]].
 
