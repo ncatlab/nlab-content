@@ -100,6 +100,13 @@ See also:
 
 * Wikipedia, *[Gershgorin circle theorem](https://en.wikipedia.org/wiki/Gershgorin_circle_theorem)*
 
+
+Strengthening for special matrices:
+
+* Imre Bárány, József Solymosi, *Gershgorin disks for multiple eigenvalues of non-negative matrices* ([arXiv:1609.07439](https://arxiv.org/abs/1609.07439))
+
+
+
 [[!redirects Gershgorin circle theorems]]
 
 [[!redirects Gershgorin disc]]
