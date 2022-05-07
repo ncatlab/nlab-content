@@ -41,6 +41,14 @@ for all $a,b,c \in Ob(Q)$.
 
 A __weak magmoid__ is a magmoid $Q$ whose collection of objects $Ob(Q)$ form a [[groupoid]], while a __strict magmoid__ is a magmoid $Q$ whose collection of objects $Ob(Q)$ form a [[set]]. 
 
+### Enriched magmoids
+
+Let $V$ be a [[monoidal category]] (or a [[monoidal (infinity,1)-category]]) and let $Q$ be a $V$-enriched [[quiver]], with a collection of objects $Ob(Q)$ and a $V$-valued functor $Mor: Ob(Q) \times Ob(Q) \to V$ for all objects $a, b \in Ob(Q)$. A __$V$-enriched magmoid__ is a $V$-enriched quiver $Q$ with a binary operation 
+
+$$\left(-\right)\circ\left(-\right): Mor(b,c) \times Mor(a,b) \to Mor(a,c)$$ 
+
+for all $a,b,c \in Ob(Q)$. 
+
 ## Examples
 
 A [[magma]] is a magmoid with only one object. 
