@@ -7790,7 +7790,7 @@ It turns out that the [[E-nilpotent completion]] $X^\wedge_E$ according to [[Ald
 This means that the $E$-[[Adams spectral sequence]] may equivalently be regarded as computing [[descent]] of [[quasicoherent infinity-stacks]] in [[E-infinity geometry]] along the canonical morphisms $Spec(E)\longrightarrow $ [[Spec(S)]]. 
 
 This perspective seems to originate in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)) and is greatly expanded on in 
-([Lurie 10, lectures 8, 9](#Lurie10)).  A nice exposition is in ([Wilson 13](#Wilson13)). The first published proof of the equivalence of this new perspective to the Adams-Bousfield theory is ([Mathew-Naumann-Noel 15, prop. 2.14](#MathewNaumannNoel15)).
+([Lurie 10, lectures 8, 9](#Lurie10)).  Exposition of the basic idea is in [Mathew 12](#Mathew12) and with more details in ([Wilson 13](#Wilson13)). The first published proof of the equivalence of this new perspective to the Adams-Bousfield theory is ([Mathew-Naumann-Noel 15, prop. 2.14](#MathewNaumannNoel15)).
 
 We give a survey here.
 
@@ -8241,9 +8241,9 @@ based on
 
 This is nicely surveyed in
 
-* [[Akhil Mathew]], _[The Adams spectral sequence as derived descent, and chromotopy](https://amathew.wordpress.com/2012/09/21/3844/)_, 2012
+* {#Mathew12} [[Akhil Mathew]], _[The Adams spectral sequence as derived descent, and chromotopy](https://amathew.wordpress.com/2012/09/21/3844/)_, 2012
 
-* {#Wilson13} [[Dylan Wilson]], _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_, lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/), March 2013 ([[DylanWilsonOnANSS.pdf:file]])
+* {#Wilson13} [[Dylan Wilson]], _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_, lecture at [2013 Pre-Talbot Seminar](https://www.hiroleetanaka.com/pretalbot2013/), March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
 The actual proof that this new perspecive is equivalent the original Adams-Bousfield theory appears as prop. 2.14 in
 
