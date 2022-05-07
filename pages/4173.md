@@ -41,6 +41,10 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 * [[spacetime]]
 
+* [[black hole]]
+
+* [[ADM mass]]
+
 * [[Penrose-Hawking theorem]]
 
 * [[cosmic censorship]]
