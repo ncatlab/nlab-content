@@ -55,8 +55,12 @@ As a possible solution to the [[flavour anomalies]]:
 
 * Joe Davighi, _Connecting neutral current $B$ anomalies with the heaviness of the third family_, Contribution to the [2019 QCD session](http://moriond.in2p3.fr/2019/QCD/) of the [54th Rencontres de Moriond](http://moriond.in2p3.fr/2019/) ([arXiv:1905.06073](https://arxiv.org/abs/1905.06073))
 
-
 * [[Wolfgang Altmannshofer]], Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
+
+
+* Rigo Bause, [[Gudrun Hiller]], Tim Höhne, Daniel F. Litim, Tom Steudtner, *B-Anomalies from flavorful $U(1)'$ extensions, safely* ([arXiv:2109.06201](https://arxiv.org/abs/2109.06201))
+
+  > (in view of [[Higgs field]] [metastability](Higgs+field#MassAndVacuumInstability))
 
 Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
 
