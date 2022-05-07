@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -115,15 +116,24 @@ is not a regular epi in $Cat$. A very similar example is found at [Bednarczyk et
 
 ## References
 
-* {#Johnstone} [[Peter Johnstone]], Section A of: _[[Sketches of an Elephant]]_ 
+Textbook accounts:
 
-* {#Bed} Marek A. Bednarczyk, Andrzej M. Borzyszkowski, and Wieslaw Pawlowski, *Generalized congruences &#8211; epimorphisms in $\mathcal{C}a t$*, Theory and Applications of Categories [electronic only] 5 (1999), 266-280. [https://eudml.org/doc/120226](https://eudml.org/doc/120226?lang=fr&limit=5) 
+* [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], Def. 7.71 in: *[[Abstract and Concrete Categories -- The Joy of Cats]]* John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
-* {#Taylor} [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge Studies in Advanced Mathematics 59, Cambridge University Press 1999. 
+* [[Francis Borceux]], Def. 4.3.1 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
 Exposition and examples:
 
 * [[Qiaochu Yuan]], *[Regular and effective monomorphisms and epimorphisms](https://qchu.wordpress.com/2012/11/03/regular-and-effective-monomorphisms-and-epimorphisms/)*, 2012
+
+See also:
+
+* {#Johnstone} [[Peter Johnstone]], Section A of: _[[Sketches of an Elephant]]_ 
+
+* {#Bed} Marek A. Bednarczyk, Andrzej M. Borzyszkowski, and Wieslaw Pawlowski, *Generalized congruences &#8211; epimorphisms in $\mathcal{C}a t$*, Theory and Applications of Categories [electronic only] 5 (1999), 266-280 ([dml:120226](https://eudml.org/doc/120226?lang=fr&limit=5))
+
+* {#Taylor} [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge Studies in Advanced Mathematics 59, Cambridge University Press 1999. 
+
 
 
 [[!redirects regular epimorphisms]]
