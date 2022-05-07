@@ -6,6 +6,11 @@ Ji&#345;&#237; Rosick&#253; is a pure [[category theory|category theorist]]. One
 
 ## Selected writings
 
+On [[locally presentable categories|locally presentable]] and [[accessible categories]]:
+
+* {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
+
+
 On [[combinatorial model categories]]:
 
 * [[Jiří Rosický]], *On combinatorial model categories*, Appl. Cat. Str. 17 (2009), 303-316 ([arXiv:0708.2185](https://arxiv.org/abs/0708.2185))
