@@ -47,6 +47,8 @@ There are arguments that a good formal context for quantum computing is (via [[c
 
 * [[quantum logic]], [[linear logic]]
 
+* [[topological quantum computing]]
+
 * [[quantum Hall effect]], [[Chern-Simons theory]].
 
 * [[superoperator]]
