@@ -44,6 +44,12 @@ See also
 
 * Takeshi Morita, Hiroki Yoshida, _A Critical Dimension in One-dimensional Large-N Reduced Models_ ([arXiv:2001.02109](https://arxiv.org/abs/2001.02109))
 
+### Flat space limit
+
+The [[SYK model]] in [[flat space holography]]:
+
+* Hamid Afshar, Hernan Gonzalez, [[Daniel Grumiller]], Dmitri Vassilevich, *Flat space holography and complex SYK*, Phys. Rev. D 101, 086024 ([arXiv:1911.05739](https://arxiv.org/abs/1911.05739), [doi:10.1103/PhysRevD.101.086024](http://dx.doi.org/10.1103/PhysRevD.101.086024))
+
 
 
 [[!include D1-D3 intersections in AdS2-CFT1 -- references]]
