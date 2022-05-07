@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
-#### $(\infty,1)$-topos theory
+#### Algebraic topology
 +--{: .hide}
-[[!include (infinity,1)-topos - contents]]
+[[!include algebraic topology - contents]]
 =--
 =--
 =--
@@ -64,7 +64,7 @@ in $\mathcal{C}$, equipped with a [[pair]] of overlapping [[null homotopies]]
     ^-{ \phi_1 }
 \end{xymatrix}
 
-to the equivalence class of their [[pasting diagram|pasting]]-composite
+to the [[higher homotopy]]-[[equivalence class]] of their [[pasting diagram|pasting]]-composite, which is a [[2-morphism]] [[loop]] (on the [[zero morphism|zero]] [[1-morphism]]) in the [[(∞,1)-categorical hom space]] $\mathcal{C}(X_0,X_1) \in $ [[∞Groupoids]], hence an element in its [[fundamental group]] $\pi_1 \mathcal{C}(X_0,X_1)$:
 
 \begin{xymatrix@=15pt}
   &&
@@ -128,15 +128,24 @@ to the equivalence class of their [[pasting diagram|pasting]]-composite
     |-{
       \mathclap{\phantom{\vert^{\vert}}}
       \scalebox{.6}{$
-        \big\langle
-          f_1, f_2, f_3
-        \big\rangle_{(\phi_1,\phi_2)}
+          (\phi_2 \cdot f_1)
+          \circ
+          (f_3 \cdot \phi_1)
       $}
       \mathclap{\phantom{\vert_{\vert}}}
     }
 \end{xymatrix}
 
-Specifically,
+Or rather, the Toda bracket is equivalently taken to be the [[homotopy class]] of the [[1-morphism]]
+$
+  \vdash 
+  \big(
+    (\phi_2 \cdot f_1)
+      \circ
+    (f_3 \cdot \phi_1)
+  \big)
+$
+that _classifies_ this [[homotopy]], via the [[universal property]] of [[homotopy fibers]]/[[homotopy cofibers]]:
 
 * if $\mathcal{C}$ admits [[finite (∞,1)-colimits]] or at least [[reduced suspensions]] $\Sigma(-)$ ([[homotopy cofibers]] of [[zero morphisms]]), so that this [[2-morphism]] between [[zero morphisms]] induces a [[1-morphism]]
 
@@ -170,42 +179,132 @@ then the Toda bracket is the [[homotopy class]] of this 1-morphism in the [[homo
 
 \[
   \label{TheTodaBracketDependingOnTheNullHomotopies}
+  \array{
   \big\langle
     f_1, f_2, f_3
   \big\rangle_{(\phi_1,\phi_2)}
-  \;\;
+  \;\coloneqq\;
+  \big[
+    \vdash 
+    (\phi_2 \cdot f_1)
+      \circ
+    (f_3 \cdot \phi_1)
+  \big]
+  \;
   \in
-  \;\;
-  Ho(\mathcal{C})
+  &&
+  \pi_0 \mathcal{C}
   \big(
     \Sigma X_0, X_3
   \big)
+  \\
+  &
   \;\simeq\;
-  Ho(\mathcal{C})
+  &
+  \pi_0 \mathcal{C}
   \big(
     X_0, \Omega X_3
   \big)
-  \;\;
+  \\
+  &
+  \;
   \simeq
-  \;\;
+  \;
+  &
   \pi_1 \mathcal{C}
   \big(
     X_0, X_3 
   \big)
+  }
   \,.
 \]
 
-Or rather, traditionally authors want a result that is independent of the choice of [[null homotopies]] $(\phi_1,\phi_2)$ and thus regard (eq:TheTodaBracketDependingOnTheNullHomotopies) in a suitable [[quotient set]] of
+
+\begin{imagefromfile}
+    "file_name": "TodaBracketHomotopyDiagrammatically.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [SS21](https://ncatlab.org/schreiber/show/M-Theory+as+Mf-Theory)"
+\end{imagefromfile}
+
+Here the last [[pasting diagram]] on the bottom right shows the [[homotopy cofiber]]-construction equivalently realized via [[mapping cones]] (ordinary [[cofiber coproducts]] after [[cofibrant resolution|resolving]] points to [[cones]]), by which one may present the top [[homotopy coherent diagram]] in, for instance, any [[pointed model category|pointed]] [[cofibration category]]- or [[model category]]-[[presentable (infinity,1)-category|presentation]] of the [[pointed (∞,1)-category]] $\mathcal{C}$.
+
+(It is in this last form, by "consecutively extending maps over cones", that the Toda bracket was introduced in [Toda 62](#Toda62), and in which it is still presented in most references to date. The above [[homotopy coherent diagram|homotopy-diagrammatic]] formulation follows [[schreiber:M-Theory as Mf-Theory|SS21]]. If anyone knows of another citeable reference that presents the Toda bracket in this more abstract-homotopy/$(\infty,1)$-category theoretic way, then let's add the pointer here.)
+
+
+More precisely,  traditionally authors want the Toda bracket to be independent of the choice of [[null homotopies]] $(\phi_1,\phi_2)$ and thus regard (eq:TheTodaBracketDependingOnTheNullHomotopies) in a suitable [[quotient set]] of
 $
   Ho(\mathcal{C})
   \big(
     X_0, \Omega X_3
   \big)
 $
-where this dependence is quotiented out.
+where this dependence is quotiented out. Often authors take the plain Toda bracket to *be* the [[subset]] 
 
-The Toda bracket may be thought of as being in [[homotopy theory]] what the [[Massey product]] is in [[cohomology theory]]. In this sense it is a "[[secondary characteristic class|secondary]] invariant", which exists when/since "primary invariants" -- namely the [[homotopy classes]] of the morphisms $f_2 \circ f_1$ and $f_3\circ f_2$ -- vanish, as witnessed by the null homotopies.
+\[
+  \label{TheTodaBracketDependingOnTheNullHomotopies}
+  \array{
+  \big\langle
+    f_1, f_2, f_3
+  \big\rangle
+  \;\coloneqq\;
+  \left\{
+    \big\langle
+      f_1, f_2, f_3
+    \big\rangle_{(\phi_1,\phi_2)}
+    \left\vert
+    \array{
+      0 
+        &\overset{\phi_1}{\Rightarrow}&  
+      f_2 \circ f_1
+      \\ 
+      f_3 \circ f_2
+        &\underset{\phi_2}{\Rightarrow}&  
+      0
+    }
+    \right.
+  \right\}
+  \;
+  \subset
+  &&
+  \pi_0 \mathcal{C}
+  \big(
+    \Sigma X_0, X_3
+  \big)
+  \\
+  &
+  \;\simeq\;
+  &
+  \pi_0 \mathcal{C}
+  \big(
+    X_0, \Omega X_3
+  \big)
+  \\
+  &
+  \;
+  \simeq
+  \;
+  &
+  \pi_1 \mathcal{C}
+  \big(
+    X_0, X_3 
+  \big)
+  }
+\]
 
+of all the classes (eq:TheTodaBracketDependingOnTheNullHomotopies) as one varies the [[null homotopies]] $(\phi_1,\phi_2)$.
+
+In any case, the Toda bracket may be thought of as being in [[homotopy theory]] what the [[Massey product]] is in [[cohomology theory]]: It is a "[[secondary characteristic class|secondary]] invariant", which exists when/since "primary invariants" -- namely the [[homotopy classes]] of the morphisms $f_2 \circ f_1$ and $f_3\circ f_2$ -- vanish, as witnessed by the [[null homotopies]].
+
+A generalization of the Toda bracket produces an invariant for sequences of morphisms, equipped with consecutive pair-wise null-homotopies, which may contain possibly more than three morphisms; this _higher Toda bracket_ was maybe first considered in [Cohen 68, Sec. 2](#Cohen68)
+
+\linebreak
 
 ## Preliminaries
 
@@ -253,9 +352,9 @@ If the Toda bracket for a bracket sequence includes the trivial map $\Sigma^{m+1
 
 ## Applications
 
-By definition, if a sequence is a bracket sequence AND NOT a null-bracket sequence, it follows that all the relevant maps $\Sigma^{k} A_0 \to A_n$ are nontrivial.  Things like these Toda brackets have been studied by many _(FIXME: referrences later)_ and especially the length-three brackets used by H. Toda to describe most of $\pi_k \mathbb{S}^n$ for $k \lt 31$ or so.
+By definition, if a sequence is a bracket sequence AND NOT a null-bracket sequence, it follows that all the relevant maps $\Sigma^{k} A_0 \to A_n$ are nontrivial.  Things like these Toda brackets have been studied by many _(FIXME: references later)_ and especially the length-three brackets used by H. Toda to describe most of $\pi_k \mathbb{S}^n$ for $k \lt 31$ or so.
 
-In ([Cohen, 1968](#Cohen)) is given a criterion for stable maps of spheres to inhabit non-null Toda brackets; this turns out to be most of $\pi_* \mathbb{S}$, and furthermore the maps in the bracket sequences can be chosen from a very small set (_FIXME_: be more precise! degree maps $n \iota$, [[Hopf map]]s $\eta, \theta,\sigma$, and $\alpha_p$... )
+In ([Cohen, 1968](#Cohen68)) is given a criterion for stable maps of spheres to inhabit non-null Toda brackets; this turns out to be most of $\pi_* \mathbb{S}$, and furthermore the maps in the bracket sequences can be chosen from a very small set (_FIXME_: be more precise! degree maps $n \iota$, [[Hopf map]]s $\eta, \theta,\sigma$, and $\alpha_p$... )
 
 ## Related concepts
 
@@ -271,7 +370,7 @@ The concept of Toda brackets is due to:
 
 Higher Toda brackets were introduced in:
 
-* {#Cohen} Joel Cohen, Section 2 of: _The decomposition of stable homotopy_, Annals of Mathematics (2) 87 (2): 305&#8211;320 (1968) ([doi:10.2307/1970586](https://doi.org/10.2307/1970586))
+* {#Cohen68} Joel Cohen, Section 2 of: _The decomposition of stable homotopy_, Annals of Mathematics (2) 87 (2): 305&#8211;320 (1968) ([doi:10.2307/1970586](https://doi.org/10.2307/1970586))
 
 Further discussion: 
 
