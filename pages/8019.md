@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### (0,1)-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 # Ordered groups
 * table of contents
 {: toc}
@@ -49,6 +63,9 @@ More generally, if $V$ is any [[set]], $G$ is any ordered group, and $F$ is any 
 
 Non-abelian examples include free groups and torsion-free nilpotent groups.  The basics of the theory for both abelian and nonabelian ordered groups can be found in Birkhoff's Lattice Theory.
 
+## Related concepts
+
+* [[pseudolattice ordered abelian group]]
 
 ## References
 
