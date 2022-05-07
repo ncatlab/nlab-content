@@ -564,10 +564,11 @@ Topological modular forms with _[[level N-structure]]_ -- $tmf(N)$ -- is discuss
 * {#Stojanoska11} [[Vesna Stojanoska]], Duality for Topological Modular Forms ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
 
-* {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_, Int. Math.
-Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
+* {#LawsonNaumann12} [[Tyler Lawson]], [[Niko Naumann]], _Strictly commutative realizations of diagrams over the Steenrod algebra and topological modular forms at the prime 2_, Int. Math. Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 
-* {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_ ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394))
+* {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_, Inventiones mathematicae volume 203, pages 359–416 (2016) ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394), [doi:10.1007/s00222-015-0589-5](https://doi.org/10.1007/s00222-015-0589-5))
+
+  > (with [[level structure on an elliptic curve|level structure]])
 
 The self-[[Anderson duality]] of $tmf$ is discussed in ([Stojanoska 11](#Stojanoska11)).
 
