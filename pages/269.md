@@ -218,9 +218,28 @@ For Expository and other material, see [[cubical set - exposition]].
 
 ## Related entries
 
+### Applications of cubical sets
+
 * [[cubical type theory]]
+
+#### In higher category theory
+
+* [[fundamental groupoid of a cubical set and the cubical nerve of a groupoid]]
+
+* [[homotopy hypothesis for 1-types]]
+
+### Theory of cubical sets
+
+* [[category of cubes]]
+
+* [[cubical geometric realisation]]
+
+* [[cubical truncation, skeleton, and co-skeleton]]
+
+* [[homotopy groups of a cubical Kan complex]]
 
 [[!redirects Cubical set]]
 [[!redirects Cubical Set]]
 [[!redirects Cubical set]]
 [[!redirects cubical set]]
+[[!redirects category of cubical sets]]
