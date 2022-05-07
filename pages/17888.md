@@ -38,11 +38,22 @@ There are numerous related abstractions of this, relating to different aspects o
 1. (Universal Algebra) In the sense of Ursini  in the context of a varietal theory,  a _subtraction term_, $s$, is a binary term $s$ satisfying $s(x, x) = 0$ and $s(x, 0) = x$.
 (see [[subtractive variety]]
 
-1. In a [[co-Heyting algebra]], subtraction is the operation [[left adjoint]] to the [[join]] operator:
+1. In a [[co-Heyting algebra]], which are models of [[subtractive logic]], subtraction is the operation [[left adjoint]] to the [[join]] operator:
 $$ (- \setminus y) \dashv (y \vee -)$$
 
-This is related to [[subtractive logic]].
-
+1. A possibly-empty abelian group is a set $A$ with a binary operation $(-)-(-):A \to A$ satisfying the following axioms:
+$$
+  \forall a,b:A.a-a=b-b
+$$
+$$
+  \forall a:A.(a-a)-((a-a)-a)=a
+$$
+$$
+  \forall a,b,c:A.a-(b-c)=(a-((c-c)-c)-b
+$$
+$$
+  \forall a,b:A.a-((b-b)-b)=b-((a-a)-a)
+$$
 
 ## Properties
 
