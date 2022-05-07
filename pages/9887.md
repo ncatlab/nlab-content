@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -540,12 +541,11 @@ $$
 
 The theorem is due to
 
-* {#Snaith79} [[Victor Snaith]], _Algebraic Cobordism and K-theory_, Mem. Amer. Math. Soc. no 221 (1979)
+* {#Snaith79} [[Victor Snaith]], _Algebraic Cobordism and K-theory_, Mem. Amer. Math. Soc. no 221 (1979) 
 
 with a simpler proof given in
 
-* {#Snaith81} [[Victor Snaith]], _Localized stable homotopy of some classifying spaces_, Math. Proc. Cambridge Philos. Soc. 89 (1981), no. 2,
-325-330. MR 600247 (82g:55006) ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0305004100058205))
+* {#Snaith81} [[Victor Snaith]], _Localized stable homotopy of some classifying spaces_, Math. Proc. Cambridge Philos. Soc. 89 (1981), no. 2, 325-330. MR 600247 (82g:55006) ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0305004100058205), [doi:10.1017/S0305004100058205](https://doi.org/10.1017/S0305004100058205))
 
 using results from
 
@@ -554,7 +554,7 @@ using results from
 
 Another proof due to [[Mike Hopkins]] is in
 
-* {#HopkinsMathew} [[Akhil Mathew]] (following [[Mike Hopkins]]), _Snaith's construction of complex K-theory_ ([pdf](http://math.uchicago.edu/~amathew/snaith.pdf))
+* {#HopkinsMathew} [[Akhil Mathew]] (following [[Mike Hopkins]]), _Snaith's construction of complex K-theory_ ([pdf](http://math.uchicago.edu/~amathew/snaith.pdf), [[MathewSnaithTheorem.pdf:file]])
 
 Refinement to [[smooth spectra]] and [[differential K-theory]] is in
 
