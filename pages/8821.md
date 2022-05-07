@@ -85,7 +85,7 @@ At the other extreme, a [[zero object]] is only a strict initial object if the c
 
 ## Related concepts
 
-* An [[empty bundle]] is morphism out of a strict initial object (an [[empty morphism]]), regarded as a [[bundle]].
+* An [[empty bundle]] is a morphism out of a strict initial object (an [[empty morphism]]), regarded as a [[bundle]].
 
 * [[formal dual]] concept: [[strict terminal object]]
 
