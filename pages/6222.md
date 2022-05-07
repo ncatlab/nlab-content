@@ -40,6 +40,7 @@ A [[nilpotent group]] is a solvable group given by *[[central extensions|central
 
 ## Related concepts
 
+* [[commutator subgroup]]
 * [[nilpotent group]]
 
 ## References
