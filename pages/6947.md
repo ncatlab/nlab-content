@@ -46,7 +46,11 @@ Often one makes the appearance of the free variable in $P$ explicit by thinking 
 
 ### In type theory
 
-In [[type theory]] under the identification of [[propositions as types]], the existential quantifier is given by the [[bracket type]] of the [[dependent sum type]].
+In [[type theory]] under the identification of [[propositions as types]], the existential quantifier is given by the [[bracket type]] of the [[dependent sum type]]. Existential quantifier types in general could be regarded as a particular sort of [[higher inductive type]]. In [[Coq]] syntax: 
+
+    Inductive existquant (T:Type) (P:T->Type) : Type :=
+    | exist : forall (x:T), P x -> existquant T P
+    | contr0 : forall (p q : existquant T P) p == q
 
 ## Properties
 
