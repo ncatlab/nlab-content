@@ -73,6 +73,8 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 * [[inverse semigroups]]
 
+* [[associative quasigroup]]
+
 * [[cancellative semigroup]]
 
 * [[weakly reductive semigroup]]
