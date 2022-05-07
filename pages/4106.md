@@ -28,3 +28,7 @@
 
 [[!include table of category theories]]
 
+
+## References
+
+See the references at *[[2-category]]*.
