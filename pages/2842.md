@@ -183,16 +183,52 @@ A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is cal
 
 
 \begin{proposition}\label{CharacterizationViaRetractionOfPushoutProduct}
-  A [[closed subset|closed]] [[topological subspace]]-inclusion $A \xhookrightarrow{\;} X$ is a Hurewicz cofibration precisely if its [[pushout product]] with the endpoint inclusion $\{0\} \xhookrightarrow{\;} [0,1]$ into the [[topological interval]]
+  A [[closed subset|closed]] [[topological subspace]]-inclusion $A \xhookrightarrow{\;i\;} X$ is a Hurewicz cofibration precisely if its [[pushout product]] with the endpoint inclusion $0 \,\colon\,  \ast \xhookrightarrow{\;} [0,1]$ into the [[topological interval]]
 \[
   \label{PushoutProductMap}
-  X \times \{0\}
-  \cup
-  A \times [0,1]
-  \xrightarrow{\;\;}
+  X \!\times\! \{0\}
+  \,\cup\,
+  A \!\times\! [0,1]
+  \;
+  \xrightarrow{\;\;\;\;\;\;}
+  \;
   X \times [0,1]
 \]
-admits a [[retraction]].
+admits a [[retraction]] $r$:
+
+\begin{tikzcd}
+        \mathrm{X} \!\times\! \{0\}
+        \;\cup\;
+        \mathrm{A} \!\times\! [0,1]
+        \ar[
+          r,
+          "{ i \,\Box\, 0  }"
+        ]
+        \ar[
+          rr,
+          rounded corners,
+          to path={
+            -- ([yshift=-9pt]\tikztostart.south)
+            --node[below]{
+                \scalebox{.7}{$\mathrm{id}$}
+              }
+              ([yshift=-9pt]\tikztotarget.south)
+            -- (\tikztotarget.south)}
+        ]
+        &
+        \mathrm{X} \times [0,1]\;.
+        \ar[
+          r,
+          dashed,
+          "{r}"
+        ]
+        &
+        \mathrm{X} \!\times\! \{0\}
+        \;\cup\;
+        \mathrm{A} \!\times\! [0,1]
+\end{tikzcd}
+
+
 \end{proposition}
 (e.g. [May 1999, Sec. 6.4, p. 45 (53 of 251)](#May99); [Gutiérrez, Prop. 8.3](#Gutierrez))
 
