@@ -22,7 +22,7 @@ Gel'fand and Likhtman showed that with a slight extension of the concept of Lie 
 
 ## References
 
-* [[Sidney Coleman]], Jeffrey Mandula, _All Possible Symmetries of the S Matrix_, Physical Review __159__ (5): 1251--1256 (1967)
+* [[Sidney Coleman]], [[Jeffrey Ellis Mandula]], _All Possible Symmetries of the S Matrix_, Physical Review __159__ (5): 1251--1256 (1967) ([doi:10.1103/PhysRev.159.1251](https://doi.org/10.1103/PhysRev.159.1251))
 
 * [[I. M. Gel'fand]], E. S. Likhtman, JETP Letters __13__, 323 (1971)
 
