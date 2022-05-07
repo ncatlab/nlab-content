@@ -283,16 +283,27 @@ For general references see any text on [[category theory]], as listed in the ref
 
 The term _Yoneda lemma_ originated in an interview of [[Nobuo Yoneda]] by [[Saunders Mac Lane]] at Paris Gare du Nord:
 
-* Yoshiki Kinoshita, [posting to catlist in 1996](http://www.mta.ca/~cat-dist/catlist/1999/yoneda).
+
+* Yoshiki Kinoshita, *Nobuo Yoneda (1930-1996)* 
+
+  & 
+
+  [[Saunders MacLane]], *The Yoneda Lemma*,
+
+  Math. Japonica, **47**, No. 1 (1998) 155-156
+
+  ([pdf](https://dmitripavlov.org/scans/yoneda.pdf) [[MathJaponica_YonedaObituary.pdf:file]], also: [posting to catlist in 1996](http://www.mta.ca/~cat-dist/catlist/1999/yoneda))
+
 
 In _[[Categories for the Working Mathematician]]_ MacLane writes that this happened in 1954.
 
 <img src="http://ncatlab.org/nlab/files/YonedaObituary.jpg">
 
 
-Reviews and expositions include
+Review and exposition:
 
-* [[Saunders MacLane]], _The Yoneda Lemma_, Mathematica Japonicae 47: 156 (1998)
+* [[Alexander Grothendieck]], Section A.1 of: *Technique de descente et théorèmes d'existence en géométrie algébriques. II. Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195, 22 p.  ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/?id=SB_1958-1960__5__369_0))
+
 
 * [[Tom Leinster]], _[[LeinsterYoneda.ps:file]]_ 
 
