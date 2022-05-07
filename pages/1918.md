@@ -731,6 +731,8 @@ See also the entry
 [[!redirects separation property]]
 [[!redirects separation properties]]
 
+[[!redirects separation condition]]
+[[!redirects separation conditions]]
 
 [[!redirects topologically distinct point]]
 [[!redirects topologically distinct points]]
