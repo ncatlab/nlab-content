@@ -32,7 +32,7 @@ The space of **questions** considers two alternative definitions of *meaning* co
 
 - the factory (usine): we want our computational objets to pass a specific set of *tests* in order to accept them in the corresponding type.
 
-This is related to the distinction between existentialism and essentialism in philosophy. The **logical certainty** corresponds to the adequation between usine and usage: we would like the usine to be finite and sufficient to ensure what we consider a right use of epistates.
+This is related to the distinction between existentialism and essentialism in philosophy. The **logical certainty** corresponds to the adequacy between usine and usage: we would like the usine to be finite and sufficient to ensure what we consider a right use of epistates.
 
 ### Technical interpretation
 
@@ -46,6 +46,16 @@ We can obtain two alternative notions of typing:
 
 - Inspired by the logical correctness of [[proof net | proof nets]], we can define a type as a finite set of tests (encoded as constellations). If a constellation passes all tests, it is considered as part of the corresponding type. This corresponds to types "à la Church" where types exist before the computational objects being typed. In the context of [[proof net | proof nets]], it corresponds to testing proof structures against correction graphs.
 
+### The blind spots of logic made computationally explicit
+
+An important ambition of the Transcendental Syntax is to make assumptions computationally explicit, to "put everything on the table". In the Transcendental Syntax, it is no more possible to write a proof as usual. A proof comes as a hybrid objects $(\Phi, \mathcal{T})$ where $\Phi$ is a constellation (elementary computational object) and $\mathcal{T}$ is a set of constellations corresponding to tests asserting the logical correctness of $\Phi$. The constellation $\Phi$ has to satisfy a given criterion of orthogonality when interacting with $\Phi' \in \mathcal{T}$, written $\Phi \bot \Phi'$. Logical objects only exist as computationally justified constructions.
+
+Following this approach and by choosing a right notion of orthogonality, it is possible to construct axiom-free systems. In Transcendental Syntax's fourth paper ([Girard 20](#Girard20)), Girard sketches a reconstruction of [[Peano arithmetic]].
+
+This might be compared with other approaches in [[type theory]] such as [[computational type theory]] or [[cubical type theory]] where some logical constructions are not primitive anymore but reconstructed. A major difference seems to be the starting point and the primitives considered. It is also very similar to approaches in [[realizability | classical realizability]].
+
+All these approaches, including Girard Transcendental Syntax start from the assumption that computation can fully explain logic and are thus extensions of the [[computational trinitarianism | Curry-Howard-Lambek correspondence]].
+
 ## Related entries
 
 * [[realizability]]
@@ -57,6 +67,14 @@ We can obtain two alternative notions of typing:
 * [[transcendental grammar]]
 
 * [[Critique of Pure Reason]]
+
+* [[computational type theory]]
+
+* [[cubical type theory]]
+
+* [[type theory]]
+
+* [[computational trinitarianism]]
 
 ## References
 
