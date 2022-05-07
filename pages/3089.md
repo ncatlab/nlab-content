@@ -57,7 +57,13 @@ This is due to ([Linton](#Linton)).
 ###### Proof 
 Suppose $C^T$ has reflexive coequalizers. Then $C^T$ certainly has coproducts, because if $A_i$ is a collection of $T$-algebras, then we can form the coequalizer in $C^T$ of the reflexive pair 
 
-$$\sum_i F U F U A_i \stackrel{\overset{\sum_i \varepsilon F U A_i}{\to}}{\underset{\sum_i F U \varepsilon A_i}{\to}} \sum_i F U A_i$$ 
+$$
+  \sum_i F U F U A_i 
+   \underoverset
+     {\sum_i F U \varepsilon A_i} 
+     {\sum_i \varepsilon  F U A_i}
+     {\rightrightarrows}
+  \sum_i F U A_i$$ 
 
 using the fact that the displayed coproducts exist because, for example, 
 
@@ -120,7 +126,7 @@ Proposition \ref{PreservingReflectiveCoequalizersInTwoVariables} is particularly
 +-- {: .num_prop}
 ###### Proposition
 
-Reflexive coequalizers in [[Set]] commute with finite [[products]]: 
+Reflexive coequalizers in [[Set]] [[limits commuting with colimits|commute]] with [[finite products]]: 
 
 the $n$-fold product functors $Set^n \stackrel{\prod}{\to} Set$ preserve reflexive coequalizers. 
 
