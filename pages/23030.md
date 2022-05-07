@@ -56,7 +56,7 @@ $$
 ### Relation to semidirect product groups
 
 \begin{proposition}
-  Crossed homomorphisms $G \to \Gamma$ (Def. \ref{CrossedHomomorphism}) are equivalently [[group homomorphism|homomorphic]] [[sections]] of the [[projection]] out of the [[semidirect product group]] $\Gamma \rtimes_\alpha G \xrightarrow{pr_2} G$:
+  Crossed homomorphisms $G \to \Gamma$ (Def. \ref{CrossedHomomorphism}) are equivalently [[group homomorphism|homomorphic]] [[sections]] of the [[projection]] out of the [[semidirect product group]] $\Gamma \rtimes_\alpha G \xrightarrow{pr_2} G$ (see also at [split group extensions](group+extension#SplitExtensionsAndSemidirectProductGroups)):
 
 $$
   CrsHom(G,\,\Gamma)
@@ -76,7 +76,7 @@ $$
   \,.
 $$
 \end{proposition}
-(e.g. [Brown 1982, p. 88](#Brown82))
+(e.g. [Brown 1982, p. 88](#Brown82), [Milne 2017, Exp. 15.1](#Milne17))
 \begin{proof}
   By immediate unwinding of the definition of the [[semidirect product group]], such a section is an assignment
   $$
@@ -141,14 +141,26 @@ in the context of [[group cohomology]] ("[[derivation on a group]]"):
 
 ### To general groups
 
-The general [[non-abelian group|non-abelian]] notion (in discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]):
+The general [[non-abelian group|non-abelian]] notion: 
+
+* {#Karpilovsky87} [[Gregory Karpilovsky]], p. 39 of: *The Algebraic Structure of Crossed Products*, Mathematics Studies **142**, North Holland 1987 ([ISBN:9780080872537](https://www.elsevier.com/books/the-algebraic-structure-of-crossed-products/karpilovsky/978-0-444-70239-5))
+
+In discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]:
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
+
+In discussion of [[algebraic groups]]:
+
+* {#Milne17} [[James Milne]], Section 15.a (16.a in the pdf) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+
 
 Discussion for [[finite groups]]:
 
 * Tsunenobu Asai, Yugen Takegahara, *On the number of crossed homomorphisms*, Hokkaido Math. J. **28** 3 (1999) 535-543 ([doi:10.14492/hokmj/1351001235](https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-28/issue-3/On-the-number-of-crossed-homomorphisms/10.14492/hokmj/1351001235.full))
 
+Discussion for [[Lie groups]]:
+
+* [[Karl-Hermann Neeb]], Def. 2.3 in: *Lie group extensions associated to projective modules of continuous inverse algebras*, Archivum Mathematicum, **44** 5 (2008) 465-489 ([dml:127115](https://dml.cz/handle/10338.dmlcz/127115))
 
 [[!redirects crossed homomorphisms]]
 
