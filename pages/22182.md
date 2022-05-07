@@ -39,7 +39,9 @@ The circle type could also be defined as the [[suspension type]] $\Sigma \mathbf
 
 ## See also
 
-* [[circle]]
+* [[circle]], [[unit circle]], [[circle group]]
+
+* [[minimal simplicial circle]]
 
 * [[suspension type]]
 
