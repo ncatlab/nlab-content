@@ -20,11 +20,11 @@
 
 ## Idea
 
-A **monoidal category** is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f^\prime: V^\prime \to W^\prime$, we get a linear map
+A **monoidal category** is a [[category]] equipped with some notion of 'tensor product' of its [[objects]].  A good example is the category [[Vect]] of [[vector spaces]], where we can take the [[tensor product of vector spaces|traditional tensor product]], not only of vector spaces, but also of [[linear maps]]: given linear maps $f \colon V \to W$ and $f^\prime \colon V^\prime \to W^\prime$, we get a linear map
 
-$$ f \otimes f^\prime: V \otimes V^\prime \to W \otimes W^\prime $$
+$$ f \otimes f^\prime \colon V \otimes V^\prime \to W \otimes W^\prime \,.$$
 
-The same category can often be made into a monoidal category in more than one way.  For example the category [[Set]] can be made into a monoidal category with cartesian [[product]] or disjoint union (i.e. [[coproduct]]) as the 'tensor product'.   We can also make [[Vect]] into a monoidal category with direct sum as the 'tensor product' --- this may seem perverse, but it's actually very useful.
+The same category can often be made into a monoidal category in more than one way.  For example the category [[Set]] can be made into a monoidal category with cartesian [[product]] or [[disjoint union]] (i.e. [[coproduct]]) as the 'tensor product'.   We can also make [[Vect]] into a monoidal category with [[direct sum]] as the 'tensor product' --- this may seem perverse, but it's actually very useful.
 
 For any monoidal category $M$, the operation of tensor product is actually a [[functor]]:
 
@@ -165,7 +165,7 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 
 More succinctly, a monoidal category is a [pseudomonoid](https://ncatlab.org/nlab/show/pseudomonoid) in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]].
 
-Note that, in accordance with the [microcosm principle](https://ncatlab.org/nlab/show/microcosm+principle), just as defining a monoid in a 1-category requires that the 1-category carry its own monoidal structure, defining a monoidal category in the 2-category of categories requires that the 2-category carry a monoidal structure as well. In this case we are implicitly employing the [cartesian monoidal structure](https://ncatlab.org/nlab/show/cartesian+monoidal+category) on Cat, so that if $\alpha\colon (Cat\times Cat)\times Cat\overset{\simeq}{\longrightarrow} Cat\times (Cat\times Cat)$ is the cartesian [associator](https://ncatlab.org/nlab/show/associator), then the associator in $\mathcal{C}$ is actually an arrow 
+Note that, in accordance with the [[microcosm principle]], just as defining a [[monoid]] in a 1-category requires that the 1-category carry its own [[monoidal category]] structure, defining a monoidal category in the [[Cat|2-category of categories]] requires that the 2-category carry a monoidal structure as well. In this case we are implicitly employing the [cartesian monoidal structure](cartesian+monoidal+category) on Cat, so that if $\alpha\colon (Cat\times Cat)\times Cat\overset{\simeq}{\longrightarrow} Cat\times (Cat\times Cat)$ is the cartesian [[associator]], then the associator in $\mathcal{C}$ is actually an arrow 
 
    $$
      a 
@@ -339,23 +339,6 @@ The [[internal language]] of monoidal categories is a flavor of [[linear logic]]
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
 
 In fact a *strict* monoidal category is just a [[monoid]] internal to the category [[Cat]].  Unfortunately this definition is circular, since to define a monoid internal to [[Cat]], we need to use the fact that [[Cat]] is a monoidal category!  Furthermore, hardly any of the monoidal categories in nature are strict. 
-
-+--{.query}
-
- [[Ronnie Brown]]
-I entirely understand that most monoidal categories in nature are not strict, and CWM gives an example to show that you cannot even get strictness for the cartesian product. On the other hand, for the cartesian product we get coherence properties directly from the universal property. 
-
-Now the tensor product in many monoidal categories in nature comes from the cartesian product, but with more elaborate morphisms. Thus the tensor product of vector spaces comes from bilinear maps. The associativity of this tensor product comes from looking at trilinear maps, and so derives from the associativity of the cartesian product. In a sense, this tensor product is as coherently associative as the cartesian product, which could means that in a rough and ready way we do not need to worry. 
-
-My query is whether there is a study of  this kind of argument in categorical generality? 
-
-[[Peter LeFanu Lumsdaine]]: The setting for a statement like this would presumably be the connections between monoidal categories and multicategories, which are discussed very nicely in Chapters 2 and 3 of [[Tom Leinster]]'s [[Higher Operads, Higher Categories|book]].  As far as I remember he doesn't give anything that would quite make this argument, and I don't know the literature of these well enough to say whether it's been done elsewhere, but I'd guess it has, or at least that it would be fairly straightforward to give in that terminology.  The statement would look something like:
-
-"If $\mathbf{C}$ is a multicategory generated by its nullary, unary and binary arrows, $C$ its underlying category, and $\otimes$, $1$ are functors on $C$ [[representable functor|representing]] the nullary and binary arrows of $C$, then $\otimes$ and $1$ form the tensor and unit of a monoidal structure on $C$."
-
-The ugly part of this is the generation condition, which will be needed since we only start with $\otimes$ and $1$ (indeed, some stronger presentation condition might be needed, actually).  The [[bias|unbiased]] version, where we have not just $\otimes$ and $1$ but an $n$-ary tensor product for every $n$, is essentially given in Leinster's book, iirc, and doesn't require such a condition.
- 
-=--
 
 So, we need to weaken the definition of monoidal category, and this is where the subtleties come in: we need the associator, left unitor, and right unitor to satisfy some 'coherence laws' --- e.g. the pentagon identity.  
 
