@@ -89,6 +89,8 @@ This goes back to ([Green 82](#Green82)), ([Julg 81](#Julg81)). A [[KK-theory]]-
 
 * [[Atiyah-Segal completion theorem]], [[Green-Julg theorem]]
 
+* [[delocalized equivariant cohomology]]
+
 [[!include Segal completion -- table]]
 
 ## References
@@ -103,10 +105,13 @@ Introductions and surveys include
 
 * [[Paul Baum]], _The Baum-Connes conjecture, localisation of categories and quantum groups_, 2008 ([pdf](http://www.mimuw.edu.pl/~pwit/TOK/sem8/files/Baum_bcclcqg.pdf))
 
-Textbook discussion is in sections 11.7 and  20.2.7 of
+Textbook discussion:
 
-* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
- {#Blackadar}
+* {#Blackadar} [[Bruce Blackadar]], Section 11.7 and  20.2.7 of: _[[K-Theory for Operator Algebras]]_,   Cambridge University Press 1986, second ed. 1999 ([doi:10.1007/978-1-4613-9572-0](https://link.springer.com/book/10.1007/978-1-4613-9572-0), [pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf))
+
+* {#MislinValette03} [[Guido Mislin]], [[Alain Valette]], _Proper Group Actions and the Baum-Connes Conjecture_, Advanced Courses in Mathematics CRM Barcelona, Springer 2003 ([doi:10.1007/978-3-0348-8089-3](https://link.springer.com/book/10.1007/978-3-0348-8089-3))
+
+
 
 See also
 
