@@ -167,7 +167,7 @@ $$
      \mathbb{Z}\longrightarrow \mathbb{Z}\oplus \mathbb{Z} \longrightarrow\mathbb{Z}
   }
 $$
-are inclusion of the first summand followed by the map sending $(1,0)\mapsto 2$ and $(0,1)\mapsto 1$, so that stabilization from $SO(3)$ to $SO(5)$ induces multiplication by $2$ on $\pi_3$ (e.g. [Tamura 57](#Tamura57)). The same is also true for $\pi_7(SO(7)) \to \pi_7(SO(8)) \to \pi_7(SO(9))$.
+are inclusion of the first summand followed by the map sending $(1,0)\mapsto 2$ and $(0,1)\mapsto 1$, so that stabilization from $SO(3)$ to $SO(5)$ induces multiplication by $2$ on $\pi_3$ (e.g. equations (2.1) and (2.2) in ([Tamura 57](#Tamura57)) and surrounding discussion). The same is also true for $\pi_7(SO(7)) \to \pi_7(SO(8)) \to \pi_7(SO(9))$.
 
 ### Homology and cohomology 
 
