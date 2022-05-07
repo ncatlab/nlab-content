@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -26,15 +30,34 @@ A [[Riemannian metric]] on a [[Lie group]] $G$ is called
 
 * _bi-invariant_ if it is both left- and right-invariant.
 
+More generally, a [[Riemannian metric]] on a [[differentiable manifold|differentiable]]/[[smooth manifold]] euqipped with a [[differentiable function|differentiable]]/[[smooth function|smooth]] $G$-[[action]] (a [[G-manifold]]) is called invariant if all elements of $G$ act as [[isometries]].
+
 ## Properties
 
-### Existence on [[Lie groups]]
+### Existence on Lie groups
 
 \begin{prop}
   Every [[compact Lie group]] admits a bi-invariant metric.
 \end{prop}
 
 ([Milnor 76, Cor. 1.4](#Milnor76), reviewed in [Gallier 18, Prop. 17.6](#Gallier18))
+
+
+### Existence on $G$-Manifolds
+
++-- {: .num_prop #ExistenceOfGInvariantRiemannianMetrics}
+###### Proposition
+**(existence of $G$-invariant Riemannian metric on [[G-manifolds]])**
+
+Let $X$ be a [[smooth  manifold]], $G$ a [[compact Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
+
+Then there exists a [[Riemannian metric]] on $X$ which is [[invariant]] with respect to the $G$-[[action]], hence such that all elements of $G$ act by [[isometries]].
+
+
+=--
+
+([Bredon 72, VI Theorem 2.1](#Bredon72), see also [Ziller 13, Theorem 3.0.2](#Ziller13))
+
 
 ## Related concepts
 
@@ -49,6 +72,16 @@ On invariant metrics on [[Lie groups]]:
 Review:
 
 * {#Gallier18} [[Jean Gallier]],  Section 17.1, 17.2 in: _Metrics, Connections, and Curvatureon Lie Groups_, Chapter 17 in: _Advanced Geometric Methods in Computer Science_, Lecture notes 2018 ([pdf](https://www.cis.upenn.edu/~cis610/cis610-15-sl17.pdf), [web](https://www.cis.upenn.edu/~cis610/))
+
+On invariant metric on [[G-manifolds]]:
+
+* {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press 1972 ([pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf), [ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1))
+
+Review:
+
+* {#Ziller13} [[Wolfgang Ziller]], _Group actions_, 2013 ([pdf](https://www.math.upenn.edu/~wziller/math661/LectureNotesLee.pdf), [[ZillerGroupActions.pdf:file]])
+
+
 
 [[!redirects invariant metric]]
 
