@@ -1006,13 +1006,21 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
 **(character formula for eigenvalues)** \linebreak
   The [[eigenvalues]] of the Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ are:
 
-1. labeled by [[partitions]] $\lambda$ of $n$,
+1. labeled by [[partitions]] $\lambda$ of $n$:
+
+   \[
+     \label{EigenvaluesLabeledByPartitions}
+     \big(
+       EigVals[e^{-\beta \cdot d_C}]_\lambda
+     \big)_{\lambda \in Part(n)}
+   \]
 
 1. have multiplicity the square $\big(\chi^{(\lambda)}(e)\big)^2$ of the [[dimension]] of the $\lambda$th [[Specht module]];
 
 1. are given by
 
-   $$
+   \[
+     \label{CharacterFormulaForEigenvalueOfCayleyDistanceKernel}
      EigVals[e^{- \beta\cdot d_C}]_\lambda
      \;=\;
      \tfrac{1}{\chi^{(\lambda)}(1)}
@@ -1021,7 +1029,7 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
      \cdot
      \chi^{(\lambda)}(\sigma)
      \,,
-   $$
+   \]
  
    where $\chi^{(\lambda)}$ is the [[irreducible character]] corresponding to the $\lambda$th [[Specht module]].
 
@@ -1046,6 +1054,199 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
    \]
  
 \end{prop}
+
+\linebreak
+
+{#EigenvaluesFurther} We further characterize these eigenvalues (Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} below) at the special inverse temperatures of the form $\beta = ln(N)$. First we need some notation and a lemma:
+
+\begin{defn}\label{SetsOfSemistandardYoungTableau}
+  **(notation for sets of semistandard Young tableaux)** \linebreak
+  For $n, N \in \mathbb{N}$, write 
+
+  $$
+    ssYT_n(N)
+    \;\in\;
+    Set
+  $$
+
+  for the [[set]] of [[semistandard Young tableau]]
+
+  * with $n$ boxes, and 
+
+  * with entries $\leq N$.
+
+  Moreover for $\lambda \in Part(n)$ write
+
+  $$
+    ssYT_{\lambda \vdash n}(N)  
+    \;\coloneqq\;
+    \big\{
+      T \in ssYT_n(N)
+      \;\vert\;
+      \lambda 
+        = 
+      \left\vert T \right\vert
+    \big\}
+    \;\subset\;
+    ssYT_{n}(N)      
+  $$
+
+  for the [[subset]] on those tableau $T$ whose underlying [[Young diagram]] $\left\vert T \right\vert$ corresponds to the partition $\lambda$.
+
+\end{defn}
+
+\begin{lemma}\label{CharacterForumlaForIntegerExponentialByCycleNumber}
+**(character formula for integer exponential by cycle number)** \linebreak  
+  For $N \in \mathbb{N}$ the [[exponential]] of $N$ to the number of [[permutation cycles|cycles of a permutation]] is, as a [[class function]], equal to the sum of [[irreducible characters]] weighted by the number of corresponding [[semistandard Young tableaux]] (Def. \ref{SetsOfSemistandardYoungTableau}):
+
+$$
+  N^{\left\vert Cycles(-) \right\vert}
+  \;=\;
+  \underset{
+    T \in ssYT_n(N)
+  }{\sum}
+  \chi^{ \left\vert T \right\vert }(-)
+  \,.
+$$
+
+\end{lemma}
+
+This is the statement of [Gnedin, Gorin & Kerov 11, Prop. 2.4](#GnedinGorinKerov11) (with notation from Prop. 2.1).
+
+\begin{proposition}\label{EigenvaluesAtLogIntegerInvTemViaYoungTabl}
+**(eigenvalues at $\beta = ln(N)$ in terms of Young tableaux)** \linebreak
+
+For $N \in \mathbb{N}$
+and $\lambda \in Part(n)$, the $\lambda$th eigenvalue (eq:EigenvaluesLabeledByPartitions) of the Cayley distance kernel at $\beta = ln(N)$ on $Sym(n)$ is proportional to the number $\left\vert ssYT_{\lambda \vdash n}(N)\right\vert$ of [[semistandard Young tableaux]] (Def. \ref{SetsOfSemistandardYoungTableau})
+
+\[
+  \label{EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux}
+  EigVals[e^{- ln(N) \cdot d_c}]_\lambda
+  \;=\;
+  \tfrac{n!}{N^n \cdot \chi^{(\lambda)}(e)}
+  \left\vert ssYT_{\lambda \vdash n}(N)\right\vert 
+  \,.
+\]
+
+\end{proposition}
+
+\begin{proof}
+
+We compute as follows:
+
+$$
+  \begin{aligned}
+    EigVals[e^{- ln(N) \cdot d_C}]_\lambda
+    & 
+    \;=\;
+    \tfrac{1}{\chi^{(\lambda)}(e)}
+    \underset{\sigma \in Sym(n)}{\sum}
+    e^{ ln(N) ( \left\vert Cycles(\sigma) \right\vert ) - n }
+    \cdot
+    \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \;=\;
+    \tfrac{1}{\chi^{(\lambda)}(e)}
+    \underset{\sigma \in Sym(n)}{\sum}
+    e^{ ln(N) ( \left\vert Cycles(\sigma) \right\vert ) - n }
+    \cdot
+    \bar \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \;=\;
+    \tfrac{1}{N^n \cdot \chi^{(\lambda)}(e)}
+    \underset{\sigma \in Sym(n)}{\sum}
+    N^{ \left\vert Cycles(\sigma) \right\vert  }
+    \cdot
+    \bar \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \;=\;
+    \tfrac{1}{N^n \cdot \chi^{(\lambda)}(e)}
+    \underset{
+      T \in ssYT_n(\{1, \cdots, N\})
+    }{\sum}
+    \underset{\sigma \in Sym(n)}{\sum}
+    \chi^{ \left\vert T \right\vert }(\sigma)
+    \cdot
+    \bar \chi^{(\lambda)}(\sigma)
+    \\
+    &
+    \;=\;
+    \tfrac{n!}{N^n \cdot \chi^{(\lambda)}(e)}
+    \underset{
+      T \in ssYT_n(N) 
+    }{\sum}
+    \delta^{ \left\vert T\right\vert, \lambda }
+  \end{aligned}
+$$
+
+Here the first line is the character expression (eq:CharacterFormulaForEigenvalueOfCayleyDistanceKernel) of the eigenvalues from Prop. \ref{CharacterFormulaForEigenvalues}. The second line passes to the [[complex conjugation]] using that all eigenvalues are real (the Cayley distance kernel being a real symmetric matrix). 
+The fourth step inserts the character formula from Lemma \ref{CharacterForumlaForIntegerExponentialByCycleNumber}. 
+The last step follows with [[Schur orthogonality]] ([this equation](Schur+orthogonality+relation#eq:FirstSchurOrthogonalityRelation)).
+
+\end{proof}
+
+As a corollary we obtain:
+
+\begin{prop}\label{PositivitiViaCountingOfYoungTableaux}
+**(non-negativity of Cayley distance kernel at log-integer inverse temperature)** \linebreak
+
+For the Cayley distance kernel at $\beta = ln(N)$ with $N \in \mathbb{N}$:
+
+1. all eigenvalues (eq:EigenvaluesLabeledByPartitions) are non-negative 
+
+   $$
+     \underset{\lambda \in Part(n)}{\forall}
+     \,
+     EigVals[e^{- ln(N) \cdot d_c}]_\lambda
+     \;\geq\;
+     0  
+     \,;
+   $$
+
+1. zero is an eigenvalue for $N \lt n$ 
+
+   $$
+     N \leq n - 1
+     \;\;\;\;\;\;\;
+     \Rightarrow
+     \;\;\;\;\;\;\;
+     \underset{\lambda \in Part(n)}{\exists}
+     \,     
+     EigVals[e^{- ln(N) \cdot d_c}]_\lambda
+     \;=\;
+     0   
+     \,;
+   $$
+
+1. all eigenvalues are positive if $N \geq n$:
+
+   $$
+     N \geq n 
+     \;\;\;\;\;\;\;
+     \Rightarrow
+     \;\;\;\;\;\;\;
+     \underset{\lambda \in Part(n)}{\forall}
+     \,     
+     EigVals[e^{- ln(N) \cdot d_c}]_\lambda
+     \;\gt\;
+     0  
+     \,.
+   $$
+
+\end{prop}
+
+\begin{proof}
+By (eq:EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux) in
+Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} the eigenvalues at $\beta = ln(N)$ count possible numbers of colorings of Young diagrams to [[semistandard Young tableaux]] (ssTY). This gives the first statement.
+
+Since in a ssTY the labels must strictly increase downwards, there is no possible ssTY-coloring if there are fewer labels than rows. This gives the second claim.
+
+But conversely, since in an ssTY the labels may be constant horizontally, there is at least one coloring once there never are more rows than labels. This gives the last claim.
+\end{proof}
+
 
 
 #### Dual basis
@@ -1321,7 +1522,10 @@ This shows the first part of the statement. Finally, that the eigenvalues for $e
   while by Lemma \ref{SignOfTheEigenvalueOfTheSigantureDistribution} they do contain 0  away from this special case.
 \end{proof}
 
-#### Definiteness for $\beta \in \{n,  n+1 , n+2, \cdots \}$
+Alternatively, this follows from Prop. \ref{PositivitiViaCountingOfYoungTableaux}.
+
+
+#### Definiteness for $e^\beta \in \{n,  n+1 , n+2, \cdots \}$
 
 \begin{prop}\label{PositiveDefiniteneddForIntegerValuesLargerequaln}
   The Cayley distance kernel on $Sym(n)$ is positive definite for all 
@@ -1332,6 +1536,7 @@ This shows the first part of the statement. Finally, that the eigenvalues for $e
   at $e^\beta = n + k$, which holds for all $k \in \mathbb{N}$. But the CD kernel in question is a [[principal submatrix]] of this positive one (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), and hence cannot be less than positive itself, by the [[Cauchy interlace theorem]].
 \end{proof}
 
+Alternatively, this follows from the third clause of Prop. \ref{PositivitiViaCountingOfYoungTableaux}
 
 #### Definiteness for $\e^\beta \gt \frac{n-1}{3^{1/n}-1}  $
 
@@ -1548,7 +1753,7 @@ Now to improve this to $q =3$: Since we may assume that at least $N \gt n-1$, we
 \end{proof}
 
 \begin{remark}
-  Computer-experiment suggests ([CSS21](#CSS21), [Bar-Natan 21](#BarNatan21)) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $N$, at least, the inverse temperature $\beta \geq ln(N-1)$ is already sufficient for positive semi-definiteness.
+  Computer-experiment suggests ([CSS21](#CSS21), [Bar-Natan 21](#BarNatan21)) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are rather loose: For the first few values of $N$, at least, the inverse temperature $\beta \geq ln(N-1)$ is already sufficient for positive semi-definiteness.
 \end{remark}
 
 \linebreak
@@ -1587,6 +1792,6 @@ Supplementary references:
 
 * {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), Wadsworth & Brooks/Cole Mathematics Series book series 1986, 1997 ([doi:10.1007/978-1-4615-9763-6](https://link.springer.com/book/10.1007/978-1-4615-9763-6)) reprinted in: Cambridge Studies in Advanced Mathematics, Cambridge University Press 2011 ([ISBN:9781107602625](https://www.cambridge.org/us/academic/subjects/mathematics/discrete-mathematics-information-theory-and-coding/enumerative-combinatorics-volume-1-2nd-edition?format=PB&isbn=9781107602625), [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
 
-* {#GnedinGorinKerov11} Alexander Gnedin, Vadim Gorin, Sergei Kerov, *Block characters of the symmetric groups*, Journal of Algebraic Combinatorics, 38, no. 1 (2013), 79-101 ([arXiv:1108.5044](https://arxiv.org/abs/1108.5044))
+* {#GnedinGorinKerov11} [[Alexander Gnedin]], [[Vadim Gorin]], [[Sergei Kerov]], *Block characters of the symmetric groups*, Journal of Algebraic Combinatorics, 38, no. 1 (2013), 79-101 ([arXiv:1108.5044](https://arxiv.org/abs/1108.5044), [doi:10.1007/s10801-012-0394-9](https://doi.org/10.1007/s10801-012-0394-9))
 
 [[!redirects Cayley distance kernels]]
