@@ -59,7 +59,9 @@ $$
 The Killing form is am _[[invariant polynomial]]_ in that 
 
 $$
-  B([x,y],z)=B(x,[y,z])
+  B\big([x,y],z\big)
+  \,=\,
+  B\big(x, [y,z] \big)
 $$
 
 for all $x,y,z \in \mathbb{g}$. This follows from the cyclic invariance of the [[trace]]],
@@ -70,7 +72,7 @@ For [[simple object|simple]] complex Lie algebras, any invariant nondegenerate s
 
 ## Generalizations
 
-Sometimes one considers more generally a Killing form $B_\rho$ for a more general faithful finite-dimensional [[representation]] $\rho$, $B_\rho(x,y)  = tr(\rho(x)\rho(y))$. If the Killing form is nondegenerate and $x_1,\ldots,x_n$ is a basis in $L$ with $x_1^*,\ldots,x_n^*$ the dual basis of $\mathfrak{g}^*$, with respect to the Killing form for $\rho$, then the canonical element $r = \sum_i x_i\otimes x_i^*$ defines the __[[Casimir operator]]__ $C(\rho) =(\rho\otimes\rho)(r)$ in the representation $\rho$; regarding that the representation is faithful, if the ground field is $\mathbb{C}$, by [[Schur's lemma]] $C(\rho)$ is a nonzero scalar operator. Instead of Casimir operators in particular faithful representations it is often useful to consider an analogous construction within the [[universal enveloping algebra]], the __[[Casimir element]]__ in $U(\mathfrak{g})$.
+Sometimes one considers more generally a Killing form $B_\rho$ for a more general faithful finite-dimensional [[representation]] $\rho$, $B_\rho(x,y)  = tr\big(\rho(x)\rho(y)\big)$. If the Killing form is nondegenerate and $x_1,\ldots,x_n$ is a basis in $L$ with $x_1^*,\ldots,x_n^*$ the dual basis of $\mathfrak{g}^*$, with respect to the Killing form for $\rho$, then the canonical element $r = \sum_i x_i\otimes x_i^*$ defines the __[[Casimir operator]]__ $C(\rho) =(\rho\otimes\rho)(r)$ in the representation $\rho$; regarding that the representation is faithful, if the ground field is $\mathbb{C}$, by [[Schur's lemma]] $C(\rho)$ is a nonzero scalar operator. Instead of Casimir operators in particular faithful representations it is often useful to consider an analogous construction within the [[universal enveloping algebra]], the __[[Casimir element]]__ in $U(\mathfrak{g})$.
 
 
 ## Literature
