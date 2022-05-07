@@ -50,11 +50,11 @@ Consider binary classification where we look to form a classifier which accurate
 
 * [[geometric group theory]]
 
-* [[Mallows kernel]]
-
-  [[Kendall kernel]]
+* [[Mallows kernel]], [[Kendall kernel]]
 
   [[Cayley distance kernel]]
+
+* [[thermodynamics]]
 
 
 ## References
