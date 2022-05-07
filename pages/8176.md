@@ -37,7 +37,7 @@ $$
   }
 $$
 
-over a [[simply connected topological space]] $X$, then the corresponding *cohomology Serre spectral sequence* is of the form (e.g. [Hatcher, Thm. 1.14](#Hatcher)):
+such that the canonical [[group action]] of the [[fundamental group]] $\pi_1(X)$ on the [[ordinary cohomology]] of the [[fiber]] $F$ is [[trivial action|trivial]] (for instance if $X$ is a [[simply connected topological space]]), then there exists a *cohomology Serre spectral sequence* of the form (e.g. [Hatcher, Thm. 1.14](#Hatcher)):
 
 $$
   E_2^{p,q}
@@ -200,7 +200,7 @@ For details on the plain Serre spectral sequence see at _[[Atiyah-Hirzebruch spe
 
   * $S^{\mathbb{H}} \in G Actions(TopologicalSpaces)$ the corresponding [[representation sphere]].
 
-Then the [[integral cohomology]] in degree 4 of the [[homotopy quotient]] ([[Borel construction]]) is 
+Then the [[integral cohomology]] in degree 4 of the [[homotopy quotient]] is the [[direct sum]]
 
 $$
   H^4
@@ -213,11 +213,75 @@ $$
   \simeq
   \;\;
   \mathbb{Z} \oplus (\mathbb{Z}/\left\vert G \right\vert)
-  \,.
 $$
+
+of the [[integers]] with the [[cyclic group]] of [[order of a group|order]] that of $G$.
 
 \end{example}
 \begin{proof}
+By the [[Borel construction]] we have a [[homotopy fiber sequence]] of the form
+$$
+  \array{
+    S^4 &\longrightarrow& S^{4} /\!/ G
+    \\
+    && \big\downarrow
+    \\
+    && B G
+  }
+$$
+
+over the [[classifying space]] of $G$. 
+
+Noticing that the integral cohomology of the classifying space is the [[group cohomology]]
+
+$$
+  H^\bullet(B G, \mathbb{Z})
+  \;\simeq\;
+  H^\bullet_[grp](G, \mathbb{Z})
+$$
+
+we have for the given [[finite subgroup of SU(2)]]
+
+$$
+  H_n(B G, \mathbb{Z})
+  \;\simeq\;
+  \left\{
+  \array{
+    \mathbb{Z} &\vert& n = 0
+    \\
+    G^{ab} &\vert&  n = 1 \, mod \, 4
+    \\
+    \mathbb{Z}/{\vert G\vert} &\vert& n = 3 \,mod\, 4
+    \\
+    0 &\vert& \text{otherwise} 
+  }
+  \right.
+  \,,
+$$
+
+where $G^{ab} \coloneqq G / [G,G]$ denotes the [[abelianization]] of $G$.
+
+Moreover (e.g. by the nature of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},4)$) we have
+
+$$
+  H^n
+  \big(
+    S^4,
+    \,
+    \mathbb{Z}
+  \big)
+  \;\simeq\;
+  \left\{
+  \array{
+    \mathbb{Z} & for & n \in \{0,4\}
+    \\
+    0 & \text{otherwise}
+  }
+  \right.
+  \,.
+$$
+
+Using these ingredients in the cohomology Serre spectral sequence
 
 \begin{tikzcd}[row sep={between origins, 21pt}, column sep={between origins, 21pt}]
       {}
