@@ -52,11 +52,11 @@ For a magma $(A, \cdot)$ and for all elements $a, b, c:A$, a magma is __left ext
 
 ## Related concepts
 
-* [[magmoid]]
-
 * [[magmoidal category]]
 
 * [[n-ary operation]]
+
+[[!include oidification - table]]
 
 ## Literature
 
