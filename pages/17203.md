@@ -242,6 +242,7 @@ A relation to [[2d CFT]] over [[Spec(Z)]] was suggested in
 March 1991, Volume 291, Issue 1, pp 551-571 ([journal](http://link.springer.com/article/10.1007%2FBF01445226))
 
 ### Relation to divisors
+ {#RelationToDivisors}
 
 Relation of [[complex cobordism cohomology]] with [[divisors]], [[algebraic cycles]] and [[Chow groups]]:
 
