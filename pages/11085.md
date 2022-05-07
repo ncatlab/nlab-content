@@ -19,13 +19,12 @@
 
 Before we discuss technical details starting in the [next chapter](#Fields) here we survey general ideas of [[theory (physics)|theories]] in fundamental [[physics]] and motivate how these are naturally formulated in terms of the [[higher geometry]] that we developed in the [first part](#GEOMETRY).
 
+\linebreak
 
-#Contents#
-* table of contents
-{:toc}
+\linebreak
 
-+-- {: bluebox}
-###### 
+
+**Contents**
 
 1. [Ingredients of fundamental physics](#IngredientsOfFundamentalPhysics)
 
@@ -45,12 +44,13 @@ Before we discuss technical details starting in the [next chapter](#Fields) here
 
 1. [∞-Chern-Simons theory as the general example](#InfinityCSAsGeneralExample)
 
-=--
+\linebreak
+
 
 ### Ingredients of fundamental physics
  {#IngredientsOfFundamentalPhysics}
 
-Ever since [[Issac Newton]], [[theories of physics]] are formulated in the language of [[mathematics]]. Modern physics is formulated in terms of modern mathematics in the most intimate way.
+Ever since [[Isaac Newton]], [[theories of physics]] are formulated in the language of [[mathematics]]. Modern physics is formulated in terms of modern mathematics in the most intimate way.
 We aim to give here an account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed in _[geometry of physics - Geometry](geometry+of+physics#GEOMETRY)_. 
 
 The physics that we are concerned with is _fundamental_ physics,
@@ -892,3 +892,4 @@ As a hint to the answer of this question, here is a list of names examples of [[
   * [[string field theory]]
 
 The last example here brings us back full circle to where we started this motivation with [above](#IngredientsOfFundamentalPhysics): by the central property of [[string theory]], the action functional for [[string field theory]] (or some [[KK-reduction]] thereof) contains [[Einstein-Yang-Mills theory]].
+
