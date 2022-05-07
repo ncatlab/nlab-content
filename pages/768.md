@@ -930,9 +930,14 @@ with emphasis on the underlying [[homotopy theory]]:
 * {#Dwyer2008} [[William Dwyer]], _Homotopy theory of classifying spaces_, Lecture notes, Copenhagen 2008, ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf), [[Dwyer_HomotopyTheoryOfClassifyingSpaces.pdf:file]])
 
 
-Textbook accounts concerning [[vector bundles]]:
+Textbook accounts:
+
+* [[Dale Husemoeller]], Section 4.12, 4.13 of: _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([gBooks](http://books.google.hr/books?id=DPr_BSH89cAC), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller))
+
+* {#Steenrod51} [[Norman Steenrod]], section II.19 of: _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 
 * {#May} [[Peter May]], chapter 23 of _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
