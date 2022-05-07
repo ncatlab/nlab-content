@@ -93,7 +93,7 @@ such that its filter on the set $X$ of $0$-simplices is
 finer than $\mathfrak{F}$. 
 Dually, there is a finest  situs structure on $X_\bullet$
 such that its filter on the set of $0$-simplices is coarser than $\mathfrak{F}$.
-We denote these situses by 
+{#DiagCartDefn} We denote these situses by 
  $\mathfrak{F}^{\operatorname{cart}}$
 and  $\mathfrak{F}^{\operatorname{diag}}$, respectively.
 
@@ -101,9 +101,8 @@ and  $\mathfrak{F}^{\operatorname{diag}}$, respectively.
 In fact this gives two fully faithful embeddings of the category of filters
 into the category of situses.
  
-In a similar way one can define two fully faithful embeddings of the category of filters on preorders
+{#PreordersAsSituses} In a similar way one can define two fully faithful embeddings of the category of filters on preorders
 and continuous monotone maps. 
-
 
 
 
@@ -200,7 +199,7 @@ of $\mathfrak{F}$ on $X$.
 
 
 \subsubsection{Compactness and completeness as lifting properties}
-Diagram chasing reformulation of the notion above allows to define compactness and completeness as [lifting properties](en.wikipedia.org/wiki/Lifting_property)
+Diagram chasing reformulation of the notion above allows to define compactness and completeness as [lifting properties](en.wikipedia.org/wiki/Lifting_property).
 
 A metric space $M$ is _complete_ iff 
 $\bot\to (\mathbb{N}^{cofinite})^{\operatorname{cart}}_\bullet \rightthreetimes M_\bullet\circ [+1]\to M_\bullet$.
@@ -241,7 +240,7 @@ is of form $ (Y_\bullet\circ [+1])\times F_\bullet \to  Y_\bullet\circ [+1]$.
 
 
 
-The notion of [[geometric realization]] involves  
+The notion of [[geometric realization]] involves 
 topological spaces and simplicial sets, 
 which both are situses. This allows one to interpret
 the Besser-Drinfeld-Grayson construction 
@@ -329,8 +328,8 @@ for each $n\ge 0$ and each formula $\phi$ of the language of the theory.
 For $n=1$ this can be reformulated as a lifting property in s&#x12CB; as follows. 
 
 Fix a linear order $I$.  
-Let $I^\leq_\bullet$ be the situs associated with the preorder $I^\leq$ with the indiscrete filter.
-Recall that this is the simplicial set 
+Let $I^\leq_\bullet:=(T^\leq)^{\operatorname{cart}}_\bullet$ be the situs associated with the preorder $I^\leq$ with the indiscrete filter.
+[Recall](#PreordersAsSituses) that this is the simplicial set 
 $n^\leq \mapsto Hom_{preorders} (n^\leq, I^\leq)$ represented by $I^\leq$ as a linear order, 
 equipped with indiscrete filters. 
 Let  $(I^{\leq tails})^{\operatorname{cart}}_\bullet$ denote the  situs associated with the preorder $I^\leq$ with the  {filter of tails}
@@ -412,8 +411,9 @@ We recall the definition of NTP and a simple theory.
 Let $T^\leq$ be an infinitely branching tree of infinite depth, 
 viewed as preorder, and equipped with the indiscrete filter.  
 We may take $T^\leq$ to be ${}^{\lt\omega}\omega$. 
-Let $T^\leq_\bullet$ denote the corresponding situs.
-Recall that by definition $T^\leq_\bullet(n)$
+Let $T^\leq_\bullet:=(T^\leq)^{cart}_\bullet$ 
+denote the corresponding situs.
+[Recall](#PreordersAsSituses) that by definition $T^\leq_\bullet(n)$
 is the set of ordered (weakly increasing) $n$-tuples
 of vertices of $T$, and there is  only one large subset,
 namely the whole set. 
