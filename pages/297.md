@@ -2493,7 +2493,7 @@ The discussion of the open-closed case of 2d TQFT goes back to
 
 A picture-rich discussion is in 
 
-* {#LaudaPfeiffer05} [[Aaron Lauda]], [[Hendryk Pfeiffer]], _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_ , Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
+* {#LaudaPfeiffer05} [[Aaron Lauda]], [[Hendryk Pfeiffer]], _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_, Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
 
 
 ### Non-topological FQFTs (especially conformal)## 
@@ -2536,10 +2536,7 @@ There is a long-term project by Stephan Stolz and Peter Teichner which originall
 
 * [[Stephan Stolz]], [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf)).
 
-* [[Stephan Stolz]], [[Peter Teichner]].
-_Supersymmetric field theories and generalized cohomology_.
-Proceedings of Symposia in Pure Mathematics 83 (2011), 279--340.
-[arXiv:1108.0189](https://arxiv.org/abs/1108.0189), [doi:10.1090/pspum/083/2742432](https://doi.org/10.1090/pspum/083).
+* [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in: [[Hisham Sati|H. Sati]], [[Urs Schreiber|U. Schreiber]], _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics 83 (2011), 279--340 ([arXiv:1108.0189](https://arxiv.org/abs/1108.0189), [doi:10.1090/pspum/083/2742432](https://doi.org/10.1090/pspum/083))
 
 In 2008, Mike Hopkins and Jacob Lurie claimed 
 ([Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
@@ -2556,20 +2553,16 @@ see also
 
 * [[extended topological quantum field theory]]
 
-* [[Damien Calaque]], [[Claudia Scheimbauer]],
-_A note on the $(\infty,n)$-category of cobordisms_,
-Algebraic & Geometric Topology 19:2 (2019), 533--655.
-[arXiv:1509.08906](https://arxiv.org/abs/1509.08906), [doi:10.2140/agt.2019.19.533](https://doi.org/10.2140/agt.2019.19.533).
+* [[Damien Calaque]], [[Claudia Scheimbauer]], _A note on the $(\infty,n)$-category of cobordisms_, Algebraic & Geometric Topology 19:2 (2019), 533--655 ([arXiv:1509.08906](https://arxiv.org/abs/1509.08906), [doi:10.2140/agt.2019.19.533](https://doi.org/10.2140/agt.2019.19.533))
 
-* [[Christopher Schommer-Pries]], _Invertible topological field theories_,
-[arXiv:1712.08029](https://arxiv.org/abs/1712.08029).
+* [[Christopher Schommer-Pries]], _Invertible topological field theories_ ([arXiv:1712.08029](https://arxiv.org/abs/1712.08029))
 
+* [[Daniel Grady]], [[Dmitri Pavlov]], _Extended field theories are local_ ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208))
 
 For the case of one-dimensional smooth field theories, see
 
-* [[Urs Schreiber]], [[Konrad Waldorf]],
-_Parallel Transport and Functors_,
-[arXiv:0705.0452](https://arxiv.org/abs/0705.0452)
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_,
+([arXiv:0705.0452](https://arxiv.org/abs/0705.0452))
 
 * [[Daniel Berwick-Evans]], [[Dmitri Pavlov]], _Smooth one-dimensional topological field theories are vector bundles with connection_,
 [arXiv:1501.00967](https://arxiv.org/abs/1501.00967),
@@ -2577,6 +2570,7 @@ _Parallel Transport and Functors_,
 * [[Matthias Ludewig]], [[Augusto Stoffel]],
 _A framework for geometric field theories and their classification in dimension one_,
 [arXiv:2001.05721](https://arxiv.org/abs/2001.05721).
+
 
 ### (extended) FQFT from background fields: $\sigma$-models## 
 
@@ -2634,11 +2628,11 @@ The concept is essentially a formalization of what used to be called [[cohomolog
 
 The definition of [[TCFT]] was given independently by 
 
-* {#Getzler92} [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_ , Comm. Math. Phys. 159(2), 265&#8211;285 (1994) ([arXiv:hep-th/9212043](http://arxiv.org/abs/hep-th/9212043))
+* {#Getzler92} [[Ezra Getzler]], _Batalin-Vilkovisky algebras and two-dimensional topological field theories_, Comm. Math. Phys. 159(2), 265&#8211;285 (1994) ([arXiv:hep-th/9212043](http://arxiv.org/abs/hep-th/9212043))
 
 and 
 
-* [[Graeme Segal]], _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
+* [[Graeme Segal]], _Topological field theory_, (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
  
 The classification of [[TCFT]]s by [[Calabi-Yau A-∞ categories]] was discussed in
 
@@ -2648,7 +2642,7 @@ The classification of [[TCFT]]s by [[Calabi-Yau A-∞ categories]] was discussed
 
 following conjectures by [[Maxim Kontsevich]], e.g.
 
-* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
+* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&uuml;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
 
 
