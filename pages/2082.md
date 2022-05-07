@@ -62,15 +62,13 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * [[Arun Ram]], _A survey of quantum groups: background, motivation, and results_, in: Geometric analysis and Lie theory in mathematics and physics, A. Carey and M. Murray eds., Australian Math. Soc. Lecture Notes Series __11__, Cambridge Univ. Press 1997, pp. 20-104. [pdf](http://www.ms.unimelb.edu.au/~ram/Publications/1997AustMSLectNotesv11p20.pdf)
 
-* P. Etingof, O. Schiffmann, _Lectures on Quantum Groups_, Lectures in Math. Phys., International Press (1998).
+* [[Pavel Etingof]], O. Schiffmann, _Lectures on Quantum Groups_, Lectures in Math. Phys., International Press (1998).
 
-* P.Etingof, I. Frenkel, _Lectures on representation theory and Knizhnik-Zamolodchikov equations_
+* [[Pavel Etingof]], [[Igor Frenkel]], _Lectures on representation theory and Knizhnik-Zamolodchikov equations_
 
-* A. U. Klymik, K. Schmuedgen, _Quantum groups
-and their representations_, Springer 1997.
+* A. U. Klymik, K. Schmuedgen, _Quantum groups and their representations_, Springer 1997.
 
-* A. Joseph, _Quantum groups and their primitive ideals_,
-Springer 1995.
+* A. Joseph, _Quantum groups and their primitive ideals_, Springer 1995.
 
 * [[Ross Street]], _Quantum groups : a path to current algebra_, Cambridge Univ. Press 2007
 
@@ -87,6 +85,7 @@ Springer 1995.
 
 * [[Tom Bridgeland]], _Quantum groups via Hall algebras of complexes_, Annals of Mathematics __177__:2 (2013) 739-759 (21 pages) 
 
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
 
 
 In relation to [[hypergeometric functions]] and the [[Knizhnik-Zamolodchikov equation]]:
