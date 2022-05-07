@@ -276,6 +276,8 @@ If $E$ is a [[multiplicative cohomology theory|multiplicative]]
 
 ## References
 
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Chapter II, within Theorem 7.5 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
+
 * {#Baker92} [[Andrew Baker]], _Some chromatic phenomena in the homotopy of $MSp$_, in: N. Ray, G. Walker (eds.), _Adams Memorial Symposium on Algebraic Topology, Vol. 2_ editors, Cambridge University Press (1992), 263–80 ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/bpmsp.pdf), [[BakerMSp.pdf:file]])
 
 * [[Dai Tamaki]], [[Akira Kono]], Section 3.9 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
