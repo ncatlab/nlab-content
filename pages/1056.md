@@ -37,8 +37,46 @@ This is remarkable, in that it says that every [[homotopy n-type|homotopy type]]
 In fact, every cofibrant object in this structure is a [[poset]]. Since every object in a model category is weakly equivalent to a cofibrant one, this means that even the [[nerve]]s of just posets are sufficient to model all homotopy types.
 
 
-This is a rather curious aspect of the [[Robert Thomason|Thomason]] model on [[Cat]]: it does not really have anything intrinsically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. In particular, it does not see the [[equivalence of categories|equivalences of categories]]. 
-There is a _different_ model structure on [[Cat]] in which weak equivalences are the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the [[canonical model structure on Cat]].
+This is a rather curious aspect of the [[Robert Thomason|Thomason]] model on [[Cat]]: it does not really have anything intrinsically to do with [[category|categories]], but rather uses these as a way to present [[∞-groupoid]]s. In particular, the class of weak equivalences is much larger than just the [[equivalence of categories|equivalences of categories]]. 
+There is a _different_ model structure on [[Cat]] in which the weak equivalences are precisely the "true" weak [[equivalence of categories|equivalences of categories]] (not of anything constructed from them). This is called the [[canonical model structure on Cat]].
+
+## Definition
+
+Recall the [[subdivision]] functor $Sd$ and its right adjoint $Ex$.
+The Thomason model structure on $Cat$ is given by
+
+* A functor is a Thomason cofibration iff it has the left lifting property
+against the Thomason trivial fibrations
+* A functor $f : C \to D$ is a Thomason weak equivalence iff $N(f)$ is a weak homotopy equivalence
+* A functor $f : C \to D$ is a Thomason fibration iff $Ex^2 N(f)$ is a Kan fibration
+
+## Properties
+
+### Equivalence with the classical model structure on simplicial sets
+
+The Thomason model structure on Cat is [[Quillen equivalent]] to the [[classical model structure on simplicial sets]] by the adjunction
+
+$$ h Sd^2 : sSet \rightleftarrows Cat : Ex^2 N $$
+
+We can assert more: this is also an adjoint weak equivalence. These are relative functors between the [[relative categories]] $(sSet, Kan)$ and $(Cat, Thomason)$, and both the adjunction unit and counit are natural weak equivalences.
+
+### The nerve is a homotopy colimit
+
+By [Hirschhorn proposition 18.1.6](#Hir), the nerve of any category is the homotopy colimit of the constant point-valued diagram:
+
++-- {: .num_prop}
+###### Proposition 
+For any category $C$, $N(C) \simeq hocolim_{c \in C} \Delta^0$
+=--
+
+In fact, when Hirschhorn's definition of the homotopy colimit for functors valued in simplicial model categories:
+$$
+  hocolim(f) = N(- \downarrow C)^{op} \otimes_{C} f
+$$
+we get an isomorphism $N(C)^{op} \cong hocolim(1)$.
+
+
+
 
 ## Related concepts
 
@@ -83,6 +121,9 @@ The analog of the Thomason model structure for the _stable_ case -- an equivalen
 
 * [[Robert Thomason]], _Symmetric monoidal categories model all connective spectra_, Theory and Applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
 
+Some other references
+
+* {#Hir} Hirschhorn _Model categories and their localizations_.
 
 [[!redirects Thomason weak equivalence]]
 [[!redirects Thomason weak equivalences]]
