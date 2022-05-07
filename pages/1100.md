@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -158,31 +159,8 @@ $$
 
 In fact, this is unique, up to [[equivalence in an (infinity,1)-category|equivalence]]: Since every $\infty$-groupoid is an [[(infinity,1)-colimit|$(\infty,1)$-colimit]] (namely over itself, by [this Prop.](infinity1-limit#EveryInfinityGroupoidIsHomotopyColimitOfConstantFunctorOverItself)) of the [[point]] (hence of the [[terminal object]]), and since the [[inverse image]] $\infty$-functor $LConst$ needs to preserve these $\infty$-colimits (being a [[left adjoint]]) as well as the point (being a [[lex functor]]).
 
-### Powering and copowering over $\infty Grpd$ --  Hochschild homology {#Powering}
 
-Being a [[locally presentable (∞,1)-category]], an $(\infty,1)$-topos $\mathbf{H}$ is [[power]]ed and [[copower]]ed over [[∞Grpd]], as described at <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-tensoring</a>. 
 
-For any $K \in \infty Grpd$ and $X \in \mathbf{H}$ the powering is the [[(∞,1)-limit]] over the [[diagram]] constant on $X$
-
-$$
-  X^K = {\lim_\leftarrow}_K X
-$$
-
-and the $(\infty,1)$-copowering is is the [[(∞,1)-colimit]] over the diagram constant on $X$
-
-$$
-  K \cdot X = {\lim_{\to}}_K X
-  \,.
-$$
-
-Under [[Isbell duality]] the powering operation corresponds to higher order [[Hochschild cohomology]] in $X$, as discussed there.
-
-Below we discuss that the powering is equivalently given by the [[internal hom]] ([[mapping stack]]) out of the [[constant ∞-stack]] $LConst K$ on $K$:
-
-$$
-  X^K \simeq [LConst K, X]
-  \,.
-$$
 
 
 ### Closed monoidal structure {#ClosedMonoidalStructure}
@@ -218,7 +196,7 @@ $$
 For $C$ an [[(∞,1)-site]] for $\mathbf{H}$ we have that the [[internal hom]] ([[mapping stack]]) $[X,-]$ is given on $A \in \mathbf{H}$ by the [[(∞,1)-sheaf]]
 
 $$
-  [X,A] : U \mapsto \mathbf{H}(X \times L y(U), A)
+  [X,A] \,\colon\, U \mapsto \mathbf{H}(X \times L y(U), A)
   \,,
 $$
 
@@ -255,132 +233,22 @@ $$
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
-
-Finite colimits may be taken out of the internal hom: For $I$ a finite $(\infty,1)$-category and $X : I \to \mathbf{H}$ a [[diagram]], we have for all $A \in \mathbf{H}$
-
-$$
-  [{\lim_\to}_i X_i, A]
-   \simeq
-  {\lim_\leftarrow}_i [X_i,A]
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the above proposition we have
-
-$$
-  [{\lim_\to}_i X_i, A](U) 
-  \simeq
-  \mathbf{H}(({\lim_\to}_i X_i) \times L y(U), A)
-  \,.
-$$
-
-By [[universal colimits]] in $\mathbf{H}$ this is
-
-$$
-  \cdots \simeq
-  \mathbf{H}({\lim_\to}_i X_i \times L y(U), A)
-  \,.
-$$
-
-Using the fact that the [[hom-functor]] sends colimits in the first argument to limits this is
-
-$$
-  \cdots \simeq {\lim_\leftarrow}_i \mathbf{H}(X_i \times L y U, A)
-  \,.
-$$
-
-By the internal hom adjunction and Yoneda this is
-
-$$
-  \cdots \simeq {\lim_\leftarrow}_i [X_i, A](U)
-  \,.
-$$
-
-Since [[(∞,1)-limit]]s in the [[(∞,1)-category of (∞,1)-presheaves]] are computed objectwise, this is
-
-$$
-  \cdots \simeq ({\lim_\leftarrow}_i [X_i,A])(U) 
-  \,.
-$$
-
-Finally, because $L$ is a  [[left exact (∞,1)-functor]] this is also the [[(∞,1)-limit]] in $\mathbf{H}$.
 
 
-=--
+
+
+[[!include powering of ∞-toposes over ∞-groupoids -- section]]
+
+
+
+
+
+### Slice-$(\infty,1)$-toposes
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $S \in$ [[∞Grpd]] write $LConst S$ for its [[inverse image]] under the [[global section]] [[(∞,1)-geometric morphism]] $(LConst \dashv \Gamma) : \mathbf{H} \to \infty Grpd$: the [[constant ∞-stack]] on $S$.
-
-Then the internal hom $[LConst S,A]$ coincides with the [(∞,1)-powering](#Powering) of $A$ by $S$:
-
-$$
-  [LConst S, A] \simeq A^S
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the above we have
-
-$$
-  [LConst S, A](U) \simeq \mathbf{H}(LConst S \times L y(U), A)
-  \,.
-$$
-
-As the notation indicates, $LConst S$ is precisely $L Const S$: the [[∞-stackification]] of the [[(∞,1)-presheaf]] that is literally constant on $S$. Morover $L$ is a [[left exact (∞,1)-functor]] and hence commutes with [[(∞,1)-product]]s, so that
-
-$$
-  \cdots \simeq \mathbf{H}(L(Const S \times y(U)), A)
-  \,.
-$$
-
-By the defining geometric embedding $(L \dashv i)$ this is
-
-$$
-  \cdots \simeq PSh_C(Const S \times y(U), A)
-  \,.
-$$
-
-Since limits of [[(∞,1)-presheaves]] are taken objectwise, we have in the first argument the [[tensoring]] of $y(U)$ over $S$
-
-$$
-  \cdots \simeq PSh_C(S \cdot y(U), A)
-  \,.
-$$
-
-By the defining property of tensoring and cotensoring (or explicitly writing out $S \cdot y(U) = {\lim_\to}_{S} const y(U) $, taking the colimit out of the hom, thus turning it into a limit and then inserting that back in the second argument) this is
-
-$$
-  \cdots \simeq PSh_C(y(U), A^S)
-  \,.
-$$
-
-
-So finally with the [[(∞,1)-Yoneda lemma]] we have
-
-$$
-  \cdots \simeq A^S(U)
-  \,.
-$$
-
-=--
-
-### Over-$(\infty,1)$-toposes
-
-+-- {: .num_prop}
-###### Proposition
-
-For $\mathbf{H}$ an $(\infty,1)$-topos and $X \in \mathbf{H}$ an object, the [[over-(∞,1)-category]] $\mathbf{H}_{/X}$ is itself an $(\infty,1)$-topos -- an **[[over-(∞,1)-topos]]**. The projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ part of an  [[essential geometric morphism]]
+For $\mathbf{H}$ an $(\infty,1)$-topos and $X \in \mathbf{H}$ an object, the [[slice-(∞,1)-category]] $\mathbf{H}_{/X}$ is itself an $(\infty,1)$-topos -- an **[[over-(∞,1)-topos]]**. The projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ part of an  [[essential geometric morphism]]
 
 $$
   \pi : \mathbf{H}_{/X} 
