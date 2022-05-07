@@ -47,6 +47,10 @@ See also
 
 * Wikipedia, *[Rational mapping](https://en.wikipedia.org/wiki/Rational_mapping)*
 
+Exposition for the case of maps from the [[Riemann sphere]] to a [[complex projective space]]:
+
+* {#Katz06} [[Sheldon Katz]], Sections 2,3 of: *Enumerative Geometry and String Theory*, Student Mathematical Library **32** (2006) ([ISBN:978-1-4704-2143-4](https://bookstore.ams.org/stml-32), [spire:739788](https://inspirehep.net/literature/739788))
+
 [[!redirects rational maps]]
 
 [[!redirects dominant rational map]]
