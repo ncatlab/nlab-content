@@ -112,7 +112,7 @@ The functor $el\colon \mathbf{Set}^{C} \to \mathbf{Cat}$ has a right adjoint (wh
 By a simple coend computation
 $$
 \begin{array}{rl}
-\mathbf{Cat}(el(F),D)&\cong \mathbf{Cat}\Big(  \int^c J c\times\delta(P  c), D\Big)\\ &\cong \int_c\mathbf{Cat}\big(J c\times \delta(F c),D\big)\\ 
+\mathbf{Cat}(el(F),D)&\cong \mathbf{Cat}\Big(  \int^c J c\times\delta(F  c), D\Big)\\ &\cong \int_c\mathbf{Cat}\big(J c\times \delta(F c),D\big)\\ 
 &\cong \int_c \mathbf Sets\big(F c,[J c,D]_0\big)\\ 
 &\cong \mathbf{Set}^{C}(F, K(D))
 \end{array}
