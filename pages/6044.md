@@ -37,7 +37,7 @@ given, upon choosing any oriented orthonormal basis for $V$, by the formula abov
 
 We have already, trivially, generalized the cross product to other ground fields.  One way to generalise it to other dimensions is to identify characteristic features as a bilinear operation and see what operations in other dimensions have these.
 
-In this vein, a **binary cross product** on any [[inner product space]] $V$ is a [[bilinear function]]
+In this vein, a __binary cross product__ on any [[inner product space]] $V$ is a [[bilinear function]]
 
 $$
   (-) \times (-)\colon V \times V \to V
@@ -88,7 +88,7 @@ By one of the deeper strands of mathematics, this classification of something as
 
 ### $(n-1)$-ary {#counary}
 
-Given an [[orientation|oriented]] [[inner product space]] $V$ of finite [[dimension]] $n$, we can define the signed [[volume]] of an $n$-[[tuple]] of vectors.  (See also [[volume form]].)  This allows us to characterise a __co-unary cross product__ of $n - 1$ vectors as a multilinear operation
+Given an [[orientation|oriented]] [[inner product space]] $V$ of finite [[dimension]] $n$, we can define the signed [[volume]] of an $n$-[[tuple]] of vectors.  (See also [[volume form]].)  This allows us to characterise an $(n - 1)$-ary or __co-unary cross product__ of $n - 1$ vectors as a multilinear operation
 $$ &#10761;\colon V^{n - 1} \to V $$
 such that
 $$ v_0 \cdot &#10761;(v_1,\ldots,v_{n-1}) = vol(v_0,v_1,\ldots,v_{n-1}) $$
@@ -176,7 +176,7 @@ Actually, this scalar-valued cross product $x \times y$ is simply the dot produc
 
 More generally, in any number $n \geq 2$ of dimensions, there is a __multivector-valued binary cross product__ (actually one for each orientation) whose values are $(n-2)$-[[multivector|vectors]]; this includes the scalar-valued cross product when $n = 2$ and the classical cross product when $n = 3$, but gets more complicated for larger values of $n$.  In particular, for $n = 4$, we have a [[bivector]]-valued cross product, which is the [[Hodge dual]] of the [[exterior product]].
 
-Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued $n$-ary cross product__.  Notice that there are two of these, one for each orientation, and each of these is the dot product with one of the vector-valued $(n-1)$-ary cross products.  There are no other scalar-valued cross products, except for the identically zero products of arity $k \gt n$ and the two nullary products given by the unit-norm scalars (so just $1$ and $-1$ over the real numbers) for arbitrary $n$.
+Or generalizing the scalar-valued binary cross product in a different way, the [[volume]] form on an $n$-dimensional inner-product space is a __scalar-valued co-nullary cross product__ (so $n$-ary).  Notice that there are two of these, one for each orientation, and each of these is the dot product with one of the vector-valued $(n-1)$-ary cross products.  There are no other scalar-valued cross products, except for the identically zero products of arity $k \gt n$ and the two nullary products given by the unit-norm scalars (so just $1$ and $-1$ over the real numbers) for arbitrary $n$.
 
 
 ## Relationships
