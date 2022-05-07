@@ -136,9 +136,6 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 * {#Stallings62} John R. Stallings, _The piecewise-linear structure of Euclidean space_, Proceedings of the Cambridge Philosophical Society 58: 481&#8211;488 (1962) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stallings2.pdf))
 
 
-* {#Moise} Moise, Edwin E. (1952) "Affine structures on 3-manifolds", Ann. Math. 56, pp. 96-114
-
-
 * {#FreedTay} Freedman, Michael H.; Taylor, Laurence (1986) "A universal smoothing of four-space", J. Diff. Geom. 24, pp. 69-78
 
 
@@ -180,9 +177,12 @@ On the open issue of exotic [[4-spheres]]:
 * {#FreedmanGompfMorrisonWalker09} [[Michael Freedman]], [[Robert Gompf]], [[Scott Morrison]], [[Kevin Walker]], _Man and machine thinking about the smooth 4-dimensional Poincar&#233; conjecture_, Quantum Topology, Volume 1, Issue 2 (2010), pp. 171-208 ([arXiv:0906.5177](http://arxiv.org/abs/0906.5177))
 
 
-Review includes
+Review:
 
 * {#Kreck10} [[Matthias Kreck]], chapter 19 "Exotic 7-spheres" of  _Differential Algebraic Topology -- From Stratifolds to Exotic Spheres_, AMS 2010
+
+* [[Rustam Sadykov]], Sections 7,8 of: _Elements of Surgery Theory_, 2013 ([pdf](https://www.math.ksu.edu/~sadykov/Lecture%20Notes/Surgery%20Theory.pdf))
+
 
 * {#McEnroe15} Rachel McEnroe, _Milnor' construction of exotic 7-spheres_, 2015 ([pdf](http://math.uchicago.edu/~may/REU2015/REUPapers/McEnroe.pdf))
 
