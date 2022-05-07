@@ -23,7 +23,7 @@
 \begin{prop}\label{CartanClosedSubgroupTheorem}
 **([[Cartan's closed subgroup theorem]])**
 
-If $H \subset G$ is a [[closed subgroup]] of a ([[finite number|finite]] [[dimension of a manifold|dimensional]]) [[Lie group]], then $H$ is a sub-Lie group, hence a [[smooth manifold|smooth]] [[submanifold]] such that its group operations are [[smooth functions]] with respect to the the [[submanifold]] [[smooth structure]].
+If $H \subset G$ is a [[closed subgroup]] of a ([[finite number|finite]] [[dimension of a manifold|dimensional]]) [[Lie group]], then $H$ is a sub-Lie group, hence a [[smooth manifold|smooth]] [[submanifold]] such that its group operations are [[smooth functions]] with respect to the [[submanifold]] [[smooth structure]].
 \end{prop}
 
 (due to [Cartan 52](#Cartan52), see [Lee 12, Thm. 20.12](#Lee12))
