@@ -74,7 +74,7 @@ Specifically for [[complex surfaces]]:
 
 See also:
 
-* Wikipedia, _[elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
+* Wikipedia, _[Elliptic surface](http://en.wikipedia.org/wiki/Elliptic_surface)_
 
 
 Specifically for [[elliptically fibered K3-surfaces]]:
@@ -96,3 +96,11 @@ and
 
 [[!redirects elliptic surface]]
 [[!redirects elliptic surfaces]]
+
+[[!redirects Kodeira classification]]
+[[!redirects Kodeira classifications]]
+
+[[!redirects Kodeira's classification]]
+[[!redirects Kodeira's classifications]]
+
+
