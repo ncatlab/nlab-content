@@ -37,7 +37,7 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 
 * [[higher category theory|Higher category theory]] and its associated type theories, such as [[homotopy type theory]] provides a new foundation for mathematics - [[foundations|logical]] and [[foundations and philosophy|philosophical]].
 
-* [[higher category theory|Higher category theory]] refines the notion of sameness to allow more subtle variants. It advocates the avoidance of [[evil]].
+* [[higher category theory|Higher category theory]] refines the notion of sameness to allow more subtle variants, adhering to the [[principle of equivalence]].
 
 * There ought to be a [[vertical categorification|categorified]] [[internal logic|logic]], or 2-logic. There are some suggestions that existing work on modal logic is relevant. Blog discussion: [I](http://golem.ph.utexas.edu/category/2007/11/concrete_groups_and_axiomatic_1.html), [II](https://golem.ph.utexas.edu/category/2008/01/2toposes.html), [III](http://golem.ph.utexas.edu/category/2008/02/2galois_and_2logic.html), [IV](http://golem.ph.utexas.edu/category/2008/03/worrying_about_2logic.html), [V](http://golem.ph.utexas.edu/category/2008/11/the_internal_language_of_a_2to.html). Mike Shulman's project: [2-categorical logic](http://ncatlab.org/michaelshulman/show/2-categorical+logic).
 
