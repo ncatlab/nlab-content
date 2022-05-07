@@ -67,9 +67,13 @@ See there for more.
 
 ### General
 
-* [[Andreas Kriegl]], [[Peter Michor]]: _[[The convenient setting of global analysis]]_, AMS (1997) 
- {#KM}
+Modern textbook account in terms of [[Frölicher spaces]] and [[diffeological spaces]]:
 
+* {#KM} [[Andreas Kriegl]], [[Peter Michor]]: _[[The convenient setting of global analysis]]_, AMS (1997) 
+ 
+Aspects of the [[homotopy theory]] of infinite-dimensional manifolds:
+
+* {#Palais66} [[Richard S. Palais]], *Homotopy theory of infinite dimensional manifolds*, Topology **5** 1 (1966) 1-16 (<a href="https://doi.org/10.1016/0040-9383(66)90002-4">doi:10.1016/0040-9383(66)90002-4</a>)
 
 ### Integration
 
