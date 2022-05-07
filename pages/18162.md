@@ -338,6 +338,79 @@ distinct points have disjoint open neighbourhoods iff any such injective map ext
 Axioms $T_3-T_5$ and others require finite topological spaces with 4 to 7 points, and we need to introduce appropriate notation. 
 
 
+
+We give one more reformulation which does not require special notation.
+A space is [[extremally disconnected]] iff the closure of an open subset is open, or, equivalently, the closures of disjoint open subsets are disjoint.
+
+* *$X$ is [[extremally disconnected]].
+
+{#IllustrationOfLiftingForT2} This is represented by the following lifting property diagram. 
+
+\begin{tikzcd}
+[
+  column sep={between origins, 50pt}, 
+  row sep={between origins, 40pt}
+]
+ \emptyset
+  \ar[
+    rr,
+    "{ }"
+  ]
+  \ar[dd]
+  &&
+  \boxed{
+    \overset{
+      \boxed{
+        \boxed{u}
+        \;\;
+        \, \,\,\,\,
+        \;\;
+        \boxed{v}}
+      }{
+        \underset{
+           c_1 \,\,\, c_2
+        }
+        {
+          \searrow \;\,\,\,\, \swarrow
+        }
+      }
+  }  
+  \ar[dd]
+  \\
+  \\
+  X
+  \ar[
+    rr
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \boxed{
+    \overset{
+      \boxed{
+        \boxed{u}
+        \;\;
+        \,
+        \;\;
+        \boxed{v}}
+      }{
+        \underset{
+           c
+        }
+        {
+          \searrow \;\, \swarrow
+        }
+      }
+  }
+\end{tikzcd}
+
+\linebreak
+
+
+
 ## Background and notation
  {#BackgroundAndNotation}
 
