@@ -213,7 +213,7 @@ A survey talk is
 
 Differential [[KO-theory]] is studied in 
 
-* {#GradySati18} Daniel Grady, [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
+* {#GradySati18} [[Daniel Grady]], [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
 
 Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] in
 
@@ -290,4 +290,4 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 
 See also
 
-* Thomas Tradler, Scott O. Wilson, [[Mahmoud Zeinalian]], _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
+* [[Thomas Tradler]], [[Scott Wilson]], [[Mahmoud Zeinalian]], _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
