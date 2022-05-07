@@ -29,7 +29,7 @@ While the existing literature does not state the definition of equivariant bundl
 
 Beware that this [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ of an [[equivariant principal bundle]] is often and traditionally disregarded, i.e. implicitly taken to be the [[trivial action]] (e.g. [Lashof 82](#Lashof82), [Lashof-May-Segal 83](#LashofMaySegal83)), which equivalently means that the [[semidirect product group]] that acts is reduced to the [[direct product group]] $\mathcal{G} \times G$, meaning that the [[action]] of the [[equivariance group]] _commutes_ with that of the [[structure group]]. This special case is the default meaning of _equivariant bundle_ in much of the literature!
  
-(The definition of "generalized equivariant bundles" proposed in [Lashof-May 86](#LashofMay86) and advertized in [Lewis-May-Steinberger 86, Sec. IV.1](#LewisMaySteinberger86) allows any [[group extension]] of $G$ by $\mathcal{G}$ to act. This reduces to [[semidirect products]] $\mathcal{G} \rtimes G$ for [[split sequence|split extensions]] (see [there](group+extension#SplitExtensionsAndSemidirectProductGroups)) where $\mathcal{G}$ is a [[normal subgroup]], and that is the case that [May 90](#May90) eventually falls back to, see also [Guillou-May-Merling 17](#GuillouMayMerling17)).
+(The definition of "generalized equivariant bundles" proposed in [Lashof-May 86](#LashofMay86) and advertized in [Lewis-May-Steinberger 86, Sec. IV.1](#LewisMaySteinberger86) allows any [[group extension]] of $G$ by $\mathcal{G}$ to act. This reduces to [[semidirect products]] $\mathcal{G} \rtimes G$ for [[split sequence|split extensions]] (see [there](group+extension#SplitExtensionsAndSemidirectProductGroups)) where $\mathcal{G}$ is a [[normal subgroup]], and that is the case that [May 90](#May90), [Guillou-May-Merling 17](#GuillouMayMerling17) falls back to).
 
 Much of the literature on equivariant bundles is interested 
 
@@ -367,6 +367,9 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
   > (back to [[structure group]] commuting with the [[equivariance group]])
 
 * {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]] _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565)) 
+
+  > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
+
 
 Comparative discussion is in:
 
