@@ -251,7 +251,6 @@ The adjunction (eq:AdjunctionBetweenHFixedPointsAndNHExtension) factors as:
   \underoverset
     {
       \underset{
-        (-)^H
       }{\longrightarrow}
     }
     {
