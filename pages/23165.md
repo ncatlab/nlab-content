@@ -44,7 +44,7 @@ The equivalence functor sends a [[Stein space]] to its EFC-algebra of [[global s
 
 (See Theorem~3.23 in Pirkovskii.)
 The category of [[Stein spaces]] of finite embedding dimension
-is contravariantly equivalent to the category of finitely generated [[EFC-algebras]].
+is contravariantly equivalent to the category of those finitely generated [[EFC-algebras]] defined by closed ideals.
 The equivalence functor sends a [[Stein space]] to its [[EFC-algebra]] of global sections.
 
 ## Related concepts
