@@ -475,6 +475,10 @@ by  [[(infinity,1)-Kan extension|$\infty$-Kan extension]]
  of the adjoint pair from Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}.
 \end{proof}
 
+## Related concepts
+
+* [[singular cohesion]]
+
 
 ## References
 
