@@ -55,9 +55,12 @@ Review and further discussion:
 
 * Di Xiao, Ming-Che Chang, Qian Niu, *Berry Phase Effects on Electronic Properties*, Rev. Mod. Phys. **82** (2010) 1959-2007 ([arXiv:0907.2021](https://arxiv.org/abs/0907.2021), [doi:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959))
 
-Textbook account with focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]], etc.):
+With focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]], etc.):
 
 * {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
+
+* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section IV.C of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
+
 
 See also:
 
