@@ -165,7 +165,7 @@ Relation to [[sheaf cohomology]]:
 
 A simplified proof using [[hypercovers]] can be found in
 
-* [[Dan Petersen]], _A remark on singular cohomology and sheaf cohomology_, [arXiv:2102.06927](https://arxiv.org/abs/2102.06927).
+* {#Petersen21} [[Dan Petersen]], _A remark on singular cohomology and sheaf cohomology_ ([arXiv:2102.06927](https://arxiv.org/abs/2102.06927))
 
 [[!redirects Betti cohomology]]
 
