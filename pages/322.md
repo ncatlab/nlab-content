@@ -507,9 +507,9 @@ An earlier version was the notion of [[analyser]] (known usually by French versi
 
 * M. Lazard, _Lois de groupes et analyseurs_, Ann. &#201;cole Norm. Sup. __72__  (1955), pp. 299&#8211;400. 
 
-Monographs include:
+Monographs:
 
-* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque __233__, Soci&#233;t&#233; Math&#233;matique de France (1995).
+* [[Igor Kriz]], [[Peter May]], _Operads, algebras, modules and motives_, Ast&#233;risque __233__, Soci&#233;t&#233; Math&#233;matique de France (1995) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf), [numdam:AST_1995__233__1_0](http://www.numdam.org/item/?id=AST_1995__233__1_0))
 
 * [[Tom Leinster]], _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
 
@@ -519,7 +519,8 @@ Monographs include:
 
 * V.A. Smirnov, _Simplicial and operad methods in algebraic topology_
 
-* [[Jean-Louis Loday]], [[Bruno Vallette]], _Algebraic operads_, Grundlehren der mathematischen Wissenschaften, Volume 346, Springer-Verlag (2012), xviii+512 pp. ([pdf](https://www.math.univ-paris13.fr/~vallette/Operads.pdf))
+* [[Jean-Louis Loday]], [[Bruno Vallette]], _Algebraic operads_, Grundlehren der mathematischen Wissenschaften, Volume 346, Springer-Verlag (2012), xviii+512 pp. ([pdf](https://www.math.univ-paris13.fr/~vallette/Operads.pdf), [ISBN 978-3-642-30362-3](https://www.springer.com/gp/book/9783642303616))
+
 
 * {#FresseMOF} [[Benoit Fresse]], _Modules over operads and functors_, Springer LNM __1967__, 2009, x+308 pp. [MR2010e:18009](http://www.ams.org/mathscinet-getitem?mr=2494775)
 
