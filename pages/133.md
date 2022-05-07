@@ -183,7 +183,9 @@ See also the [choice consequences data base](#ConsequencesDatabase)
 
 * [[HAF|Eric Schechter's analysis book]] surveys several variants of AC and its negation with a view to applications of [[analysis]], including this nice picture:
 
-  ![a Hasse diagram of variants of AC.](http://www.math.vanderbilt.edu/~schectex/ccc/excerpts/acchart.gif)
+\begin{imagefromfile}
+    "file_name": "ac-chart-7dd95d8c-7395-40f1-8c6d-9d3cbe59d957.gif"
+\end{imagefromfile}
 
   (Here, UF, DC, CC, BP, and LM are as defined above.)
 
