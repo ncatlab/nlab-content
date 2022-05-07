@@ -6,12 +6,13 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
