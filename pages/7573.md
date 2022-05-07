@@ -73,7 +73,7 @@ We now sketch a proof of these facts, using the [[implicit infinity-category con
 
 we use the fourth definition above $A^+ = Lan_{r^{op}} Ran_{s^{op}} A$, which we will write more shortly as $A^+ = r_! s_* A$.  There is a canonical map $A\to A^+$, which we can more easily construct and study with the following observation:
 
-\begin{lemma}
+\begin{lemma}\label{AnAdjointQuadruple}
   $s:C\to J$ is right adjoint to $r:J\to C$.  Therefore, we have an adjunction $r^* : Psh(C) \rightleftarrows Psh(J) : s^*$, and hence an [[adjoint quadruple]]:
   $$ r_! \dashv r^* \dashv s^* \dashv s_*. $$
   Moreover, $r^*$ and $s_*$ are [[fully faithful]] and $r_!$ preserves finite limits, so $Psh(J)$ is [[cohesive topos|cohesive]] and even [[totally connected topos|totally connected]] over $Psh(C)$.
@@ -200,12 +200,12 @@ Remarks on the plus-construction in [[(infinity,1)-topos theory]] is in section 
 
 The plus-construction for presheaves in values in abelian categories is also called the Heller-Rowe construction:
 
-* Alex Heller, K. A. Rowe, _On the category of sheaves_
+* [[Alex Heller]], K. A. Rowe, _On the category of sheaves_
 Amer. J. Math. 84 1962 205&#8211;216, [MR144341](http://www.ams.org/mathscinet-getitem?mr=144341), [doi](http://dx.doi.org/10.2307/2372759)
 
 The plus-construction is studied for higher sheaves, and shown to converge after $n+2$ steps for $n$-presheaves, in
 
-* {#ALS} Mathieu Anel, Chaitanya Leena Subramaniam.  _Small object arguments, plus-construction, and left-exact localizations_.  [arxiv:2004.00731](https://arxiv.org/abs/2004.00731), 2020.
+* {#ALS} [[Mathieu Anel]], Chaitanya Leena Subramaniam.  _Small object arguments, plus-construction, and left-exact localizations_.  [arxiv:2004.00731](https://arxiv.org/abs/2004.00731), 2020.
 
 [[!redirects plus-construction on presheaves]]
 [[!redirects plus constructions on presheaves]]
