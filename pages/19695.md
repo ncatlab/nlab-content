@@ -288,7 +288,72 @@ The adjunction (eq:AdjunctionBetweenHFixedPointsAndNHExtension) factors as:
 
 Here the functor on the top right, $N(H)/H \times_{N(H)/H} (-)$, is the identity on the underlying topological spaces, but extends the action from $N(H)/H$ to $N(H)$, namely through the projection homomorphims $N(H) \to N(H)/H$.
 
-For more on this see at _[Topological G-space -- Change of equivariance groups and fixed loci](topological+G-space#ChangeOfGroupsAndFixedLoci)_.
+For more on this see at _[Topological G-space -- Fixed loci with residual Weyl gorup action](topological+G-space#FixedLociWithResidualWeylGroupAction)_:
+
+\begin{tikzcd}[column sep=large]
+  G\mathrm{Spaces}
+  \ar[
+    rr,
+    shift right=7pt,
+    "(N(H) \hookrightarrow G)^\ast"{below}
+  ]
+  \ar[
+    rr,
+    phantom,
+    "\scalebox{.7}{$\bot$}"
+  ]
+  \ar[
+    rrrr,
+    rounded corners,
+    to path={ 
+         -- ([yshift=-20pt]\tikztostart.south) 
+         --node[below]{\scalebox{.7}{$(-)^H$}} ([yshift=-20pt]\tikztotarget.south) 
+         -- (\tikztotarget.south)}
+  ]
+  &&
+  N\!(H)\mathrm{Spaces}
+  \ar[
+    ll,
+    shift right=7pt,
+    "G \times_{N\!(H)} (-)"{above}
+  ]
+  \ar[
+    rr,
+    shift right=7pt,
+    "{
+      \mathrm{Maps}
+      (
+        N\!(H)\!/H,
+        -
+      )^{N\!(H)}
+    }"{below}
+  ]
+  \ar[
+    rr,
+    phantom,
+    "\scalebox{.7}{$\bot$}"
+  ]
+  &&
+  \big(
+    N\!(H)\!/H
+  \big)\mathrm{Spaces}
+  \ar[
+    ll,
+    shift right=7pt,
+    "{
+      ( N\!(H) \twoheadrightarrow N\!(H)\!/H )^\ast
+    }"{above}
+  ]
+  \ar[
+    llll,
+    rounded corners,
+    to path={
+         -- ([yshift=+20pt]\tikztostart.north)
+         --node[above]{\scalebox{.7}{$G/H \times_{N\!(H)\!/H}(-)$}} ([yshift=+20pt]\tikztotarget.north)
+         -- (\tikztotarget.north)}
+  ]
+\end{tikzcd}
+
 
 \end{remark}
 
