@@ -23,7 +23,7 @@
 
 For $G$ a [[topological group]], there exists a [[model category]]-[[mathematical structure|structure]] on the [[category]] of [[topological G-spaces]] whose [[weak equivalences]] and [[fibrations]] are those morphisms whose [[underlying]] [[continuous functions]] between $H$-[[fixed loci]], for all [[closed subgroups]] $H \subset_{clsd} G$, are weak equivalences or fibrations, respectively, in the [[classical model structure on topological spaces]], hence [[weak homotopy equivalences]] or [[Serre fibrations]], respectively.
 
-In the case that $G$ is a [[compact Lie group]], the corresponding [[homotopy theory]] coincides with that of [[G-CW complexes]] [[localization|localized]] at $G$-equivariant [[homotopy equivalences]].
+In the case that $G$ is a [[compact Lie group]], the corresponding [[homotopy theory]] coincides with that of [[G-CW complexes]] [[localization|localized]] at $G$-[[equivariant function|equivariant]] [[homotopy equivalences]].
 
 For general $G$, [[Elmendorf's theorem]] asserts that this is [[Quillen equivalence|Quillen equivalent]] to the [[model category of simplicial presheaves]] on the [[orbit category]] of $G$.
 
@@ -99,7 +99,7 @@ This is part of a special case of [Guillou, May & Rubin 2013, Thm 3.7](#GuillouM
   \label{InternalHomQuillenAdjunction}
 **([[internal hom]] [[Quillen adjunction]])**
 \linebreak
-  For $X \,\in\, G Act\big(TopSp_{Qu}\big)_{fine}$ a [[G-CW complex]], the [[functor]] which assigns [[mapping spaces]] out of $X$ equipped with the [[conjugation action]], is a [[right Quillen functor]], hence make a [[Quillen adjunction]] together with the [[functor]] of taking [[product]] with $X$ (the [[k-ification|k-ified]] [[product topological space]]) equipped with the [[diagonal action]]:
+  For $X \,\in\, G Act\big(TopSp_{Qu}\big)_{fine}$ a [[G-CW complex]], the [[functor]] which assigns [[mapping spaces]] out of $X$ equipped with the [[conjugation action]], is a [[right Quillen functor]], hence makes a [[Quillen adjunction]] together with the [[functor]] of taking the [[product]] with $X$ (the [[k-ification|k-ified]] [[product topological space]]) equipped with the [[diagonal action]]:
 \[
   G Act\big( TopSp_{Qu}\big)_{fine}
     \underoverset
