@@ -32,6 +32,10 @@ On 3d [[Chern-Simons theory]] in [[intersecting D-brane models]]:
 
 * Mitsutoshi Fujita, Charles M. Melby-Thompson, Rene Meyer, [[Shigeki Sugimoto]], _Holographic Chern-Simons Defects_, JHEP06 (2016) 163 ([arxiv:1601.00525](https://arxiv.org/abs/1601.00525))
 
+On the [[nuclear matrix model]]:
+
+* Yasuhiro Hayashi, Takahiro Ogino, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Stringy excited baryons in holographic QCD_, Prog Theor Exp Phys (2020) ([arXiv:2001.01461](https://arxiv.org/abs/2001.01461))
+
 
 ## Related $n$Lab entries
 
