@@ -86,6 +86,16 @@ and in terms of [[conformal nets]] in
 * {#CHKL09} Sebastiano Carpi, Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral triples and the super-Virasoro algebra_, Commun.Math.Phys.295:71-97 (2010) ([arXiv:0811.4128](http://arxiv.org/abs/0811.4128))
 
 
+
+
+[[!include D=2 CFT a functorial field theory -- references]]
+
+
+
+
+
+
+
 [[!include elliptic genera as partition functions -- references]]
 
 
@@ -98,4 +108,7 @@ and in terms of [[conformal nets]] in
 [[!redirects 2d superconformal field theory]]
 [[!redirects 2d superconformal field theories]]
 
+
+[[!redirects 2d super-conformal field theory]]
+[[!redirects 2d super-conformal field theories]]
 
