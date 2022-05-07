@@ -39,7 +39,7 @@ We call $\tau_0$ the **strong/fine/final topology induced** on $S$ by the family
 
 ## Generalisations
 
-We can perform the first construction in any [[topological concrete category]], where it is a special case of an [[initial structure]] for a [[source|sink]].
+We can perform the first construction in any [[topological concrete category]], where it is a special case of an [[initial structure]] for a [[sink|source or cosink]].
 
 We can also perform the second construction in any [[topological concrete category]], where it is a special case of an [[final structure]] for a [[sink]].
 
