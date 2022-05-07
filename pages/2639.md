@@ -22,15 +22,15 @@ Analogously there is also a version of the theorem for bi-cosimplicial abelian g
 
 ## Statement
 
-###A  version for simplicial abelian groups:
+### A version for simplicial abelian groups:
 
-Let $A : \Delta^{op} \times \Delta^{op} \to Ab$ be a [[bisimplicial object|bisimplicial abelian group]]. Write 
+Let $A \colon \Delta^{op} \times \Delta^{op} \to Ab$ be a [[bisimplicial object|bisimplicial]] [[abelian group]]. Write 
 
-* $C_\bullet diag A$ for the [[Moore complex]] of its diagonal simplicial group $diag A : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{A}{\to} Ab$;
+* $C_\bullet diag A$ for the [[Moore complex]] of its [[diagonal of a bisimplicial set|diagonal]] [[simplicial group]] $diag A \colon \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{A}{\to} Ab$;
 
 * $Tot (C A)$ for the [[total complex]] of the [[double complex]] obtained by applying the [[Moore complex]] functor on both arguments of $A$.
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 **(Dold-Puppe generalization of Eilenberg-Zilber)**
 
@@ -43,7 +43,7 @@ $$
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -64,7 +64,7 @@ $$
 
 Let $A : \Delta \times \Delta \to Ab$ be a bi-cosimplicial abelian group. And let $C : Ab^\Delta \to Ch^\bullet$ the Moore cochain complex functor. Write $C(A)$ for the [[double complex]] obtained by applying $C$ to each of the two cosimplicial directions. Then we have natural isomorphisms in cohomology
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 There is a [[natural isomorphism]]
@@ -151,7 +151,7 @@ The stronger version as stated above, published by Dold and Puppe,  in chapter 2
 
 where is is ascribed to [[Pierre Cartier]].  This result is discussed in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
-* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 The cosimplicial version of the theorem appears as theorem A.3 in
 
