@@ -100,11 +100,18 @@ the [[Riemann sphere]].
 
 * [[Moebius transformation]] 
 
+* [[celestial amplitude]]
+
 ## References
 
 * Blagoje Oblak, _From the Lorentz Group to the Celestial Sphere_ ([arXiv:1508.00920](http://arxiv.org/abs/1508.00920))
+
+See also:
+
+* Wikipedia, *[Celestial sphere](https://en.wikipedia.org/wiki/Celestial_sphere)*
 
 [[!redirects celestial sphere]]
 [[!redirects celestial spheres]]
 [[!redirects heavenly sphere]]
 [[!redirects heavenly spheres]]
+
