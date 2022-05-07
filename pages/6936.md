@@ -179,63 +179,6 @@ A definition of the [[polynomial ring]] over the integers with a set of indeterm
     | mcomm : forall (x y : intpoly(A)) mult x y = mult y x
     | contr1 : forall (x y : intpoly(A)) (p q : x == y), p == q.
 
-### Rational numbers
-
-A definition of the [[rational numbers]] as a polynomial ring over the integers whose set of indeterminants is the natural numbers $N$ satisfying certain axioms. 
-
-    Inductive nat : Type :=
-    | zero : nat
-    | succ : nat -> nat
-
-    Inductive rational : Type  :=
-    | invelem : nat -> rational
-    | inj : nat -> rational
-    | zero : rational
-    | one : rational
-    | neg : rational -> rational
-    | add : rational -> rational -> rational
-    | mult : rational -> rational -> rational
-    | injzero: inj zero == one
-    | injsucc: forall (n : nat) inj succ n == add (inj n) one
-    | alunital : forall (x : rational) add zero x == x
-    | arunital : forall (x : rational) add x zero == x
-    | aassoc : forall (x y z : rational) add x (add y z) == add (add x y) z
-    | acomm : forall (x y : rational) add x y = add y x
-    | alinv : forall (x : rational) add (neg x) x == zero
-    | arinv : forall (x : rational) add x (neg x) == zero
-    | ldist : forall (x y z : rational) mult x (add y z) == add (mult x y) (mult x z)
-    | rdist : forall (x y z : rational) mult (add x y) z == add (mult x z) (mult y z)
-    | mlunital : forall (x : rational) mult one x == x
-    | mrunital : forall (x : rational) mult x one == x
-    | massoc : forall (x y z : rational) mult x (mult y z) == mult (mult x y) z
-    | mcomm : forall (x y : rational) mult x y = mult y x
-    | mlinv: forall (n : nat) mult (invelem n) (inj n) == one
-    | mrinv: forall (n : nat) mult (inj n) (invelem n) == one
-    | contr1 : forall (x y : rational) (p q : x == y), p == q.
-
-Another definition of the rationals as an abelian group with an $N$-action
-
-    Inductive rational : Type  :=
-    | invelem : nat -> rational
-    | zero : rational
-    | one : rational
-    | neg : rational -> rational
-    | add : rational -> rational -> rational
-    | act : nat -> rational -> rational
-    | injzero: inj zero == zero
-    | injsucc: forall (n : nat) inj succ n == add (inj n) one
-    | alunital : forall (x : rational) add zero x == x
-    | arunital : forall (x : rational) add x zero == x
-    | aassoc : forall (x y z : rational) add x (add y z) == add (add x y) z
-    | acomm : forall (x y : rational) add x y = add y x
-    | alinv : forall (x : rational) add (neg x) x == zero
-    | arinv : forall (x : rational) add x (neg x) == zero
-    | dist : forall (x : nat) forall (y z : rational) act x (add y z) == add (act x y) (act x z)
-    | actzero : forall (x : rational) act zero x == zero
-    | actsucc : forall (x : nat) forall (y : rational) act (succ x) y == add y (act x y)
-    | actinv: forall (n : nat) act (succ n) (invelem n) == one
-    | contr1 : forall (x y : rational) (p q : x == y), p == q.
-
 ### Localization
 
 Suppose we are given a family of [[function type|functions]]:
