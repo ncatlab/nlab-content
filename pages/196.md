@@ -114,6 +114,8 @@ Special properties these may have:
 
 * [[continuous function]], [[differentiable function]], [[smooth function]]
 
+* [[linear function]], [[quadratic function]], [[polynomial function]]
+
 * [[bounded function]]
 
 * [[fixed point]]
