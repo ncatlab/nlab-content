@@ -53,7 +53,7 @@ The following is a list -- currently somewhat random and highly incomplete -- of
 
 * A [[CW complex]] is a space built out of nothing by progressively attaching cells of higher and higher dimension.  More generally, a [[cell complex]] is a space built by attaching cells, without regard to dimension (that is, lower-dimensional cells may be attached to higher-dimensional ones), and an [[m-cofibrant space]] is one that is [[homotopy equivalence|homotopy equivalent]] to a CW complex (or equivalently a cell complex).  These types of spaces are important for [[homotopy theory]] because they turn [[weak homotopy equivalence]]s into [[homotopy equivalence]]s.
 
-* A (topological) [[manifold]] is a space that is locally homeomorphic to $\mathbb{R}^n$ for some $n$.
+* A [[locally Euclidean space]] such as a [[topological manifold]] is a space that is locally homeomorphic to $\mathbb{R}^n$ for some $n$.
 
 * (add your favorite!)
 
