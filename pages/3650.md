@@ -24,9 +24,26 @@ A [[geometric morphism]] $ (f^* \dashv f_*) : F \underoverset{f_*}{f^*}{\leftrig
 
 1. It is [[essential geometric morphism|essential]], i.e. $f^*$ has a [[left adjoint]] $f_!$, and moreover $f_!$ can be made into an $E$-[[indexed functor]].
 
-1. For every $A\in E$, the functor $f^* \colon E/A \to F/f^*A$ is [[cartesian closed functor|cartesian closed]].
+1. For every $A\in E$, the functor $(f/A)^* \colon E/A \to F/f^*A$ is [[cartesian closed functor|cartesian closed]].
 
-1. $f^*$ commutes with [[dependent products]] -- For any morphism $h\colon A\to B$ in $E$, the canonically defined [[natural transformation]] $f^* \circ \Pi_h \to \Pi_{f^*h} \circ f^*$ is an [[isomorphism]].
+1. $f^*$ commutes with [[dependent products]] -- For any morphism $h\colon A\to B$ in $E$, the canonically defined [[natural transformation]] $(f/B)^* \circ \Pi_h \to \Pi_{f^*h} \circ (f/A)^*$ is an [[isomorphism]].
+
+1. It is essential, and the counit $\varepsilon$ of  $f_!\dashv f^*$ is [[equifibered natural transformation|equifibered/cartesian]].
+
+
++-- {: .proof}
+###### Proof of equivalence
+
+The equivalence of 1,2,3 is shown in [Johnstone (2002)](#elephant), C3.3.1.
+
+The equivalence of 1 and 4 can be easily deduced from the fact that the functors
+
+$$(f/A)_{!} : F/f^*A\to E/A$$ 
+
+are given by $(h:X\to f^*A)\mapsto (\varepsilon_A\circ f_!(h))$.
+
+=--
+
 
 ## Properties
 
