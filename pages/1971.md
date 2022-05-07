@@ -1,4 +1,22 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
+=--
+=--
+
+
+
+
 # Symmetric functions
 * table of contents
 {: toc}
@@ -83,6 +101,8 @@ Apart from this, the field matters a lot.  There is a construction that gives al
 * [[Schur positivity]]
 
 ## References
+
+* [[Richard Stanley]], Section II of: *Theory and application of plane partitions 1*, Studies in Applied Math. **50** 2 (1971), 167-188 ([pdf](http://www-math.mit.edu/~rstan/pubs/pubfiles/12-1.pdf), [[StanleyPlanePartitions1.pdf:file]])
 
 
 Among the best books in the subject are:
