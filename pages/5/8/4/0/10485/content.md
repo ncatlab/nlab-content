@@ -76,9 +76,12 @@ The first example of SPT order is the Haldane phase of spin-1 chain ([Haldane 83
 
 ### Classification by group cohomology 
 
-In [CGLW 11](#CGLW11) it was argued that the bosonic SPT orders are described by [[group cohomology]]: **d+1D SPT states with on-site symmetry G are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$.** It was also shown that the fermionic SPT orders are described by group super-cohomology theory. 
+In [CGLW 11](#CGLW11) it is claimed (motivation is offered in [CLW 11, Sec. V](#CLW11))
+that the bosonic SPT orders are described by [[group cohomology]]: **d+1D SPT states with on-site symmetry $G$ are labeled by the elements in group cohomology class $H^{d+1} [G, U(1)]$.** It was also claimed that the fermionic SPT orders are described by a kind of group super-cohomology theory. 
 
-So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
+X.-G. Wen:
+
+> So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
 
 
 ### In free fermion systems
@@ -103,7 +106,9 @@ Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entang
 
 #### Classification for bosonic SPT phases
 
-Discussion via [[higher dimensional WZW models]] and classification via [[group cohomology]]:
+Discussion via [[higher dimensional WZW models]] and claim of classification via [[group cohomology]]:
+
+* {#CLW11} Xie Chen, Zheng-Xin Liu, and [[Xiao-Gang Wen]], *Two-dimensional symmetry-protected topological orders and their protected gapless edge excitations*, Phys. Rev. B **84** (2011) 235141 $[$[doi:10.1103/PhysRevB.84.235141](https://doi.org/10.1103/PhysRevB.84.235141), [https://arxiv.org/abs/1106.4752](arXiv:1106.4752)$]$
 
 * {#CGLW11} Xie Chen, [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772)$]$
 
