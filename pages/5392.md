@@ -79,8 +79,11 @@ There is a canonical correspondence between [[topologizing filter]]s of a unital
 The notion is introduced by Gabriel:
 
 * [[Pierre Gabriel]], [[Des catégories abéliennes]], Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __90__ (1962), 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
-* [[Francis Borceux]], _Handbook of categorical algebra_, II.1
+
+* [[Francis Borceux]], Section II.1 in: *[[Handbook of Categorical Algebra]]* 
+
 * [[Henning Krause]], _The spectrum of a locally coherent category_, J. Pure Appl. Algebra __114__ (1997), 259-271, [pdf](http://www2.math.uni-paderborn.de/fileadmin/Mathematik/AG-Krause/publications_krause/publications_krause_mathscinet/MR1426488.pdf)
+
 * Ryo Takahashi, _On localizing subcategories of derived categories_ (2000) ([pdf](http://math.shinshu-u.ac.jp/~takahasi/pdf/hcls6.pdf))
 
 A comprehensive (and very reliable) source is
