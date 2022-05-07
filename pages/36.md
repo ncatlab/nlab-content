@@ -300,7 +300,9 @@ Discussion of [[internal categories]] is often attributed to originate around (t
 * [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
 
-Review of internal category theory ([[internal categories]], [[internal functors]], [[internal limits]], [[internal sites]]), typically without attribution of its origins:
+Review of internal category theory ([[internal categories]], [[internal functors]], [[internal limits]], [[internal sites]]), typically without attribution to more original sources:
+
+* {#Johnstone77} [[Peter Johnstone]], Chapter 2 of: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
 
 * [MacLane-Moerdijk 92, Sec. V.7](#MacLaneMoerdijk92)
 
