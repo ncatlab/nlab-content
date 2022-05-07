@@ -21,7 +21,7 @@
 
 ## Idea
 
-What has been called _Witten's Dark Fantasy_ (in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19)) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00) for the existence of [[non-perturbative effect|non-perturbative]] _non-_[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] (i.e. vanishing "[[dark energy]]").
+What has been called _Witten's Dark Fantasy_ (in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19)) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00), for the existence of [[non-perturbative effect|non-perturbative]] _non-_[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] (i.e. vanishing "[[dark energy]]").
 
 The original idea was formulated in terms of 3d [[M-theory on 8-manifolds]] decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]).
 
