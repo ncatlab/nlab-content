@@ -9,7 +9,7 @@
 =--
 =--
 
-A [[subcategory]] $i : C \hookrightarrow D$ is called **final** (sometimes **cofinal**) if the injection [[functor]] $i$ is a [[cofinal functor]].
+A [[subcategory]] $i : C \hookrightarrow D$ is called **final** (sometimes **cofinal**) if the injection [[functor]] $i$ is a [[final functor]].
 
 [[!redirects final subcategories]]
 [[!redirects cofinal subcategory]]
