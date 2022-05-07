@@ -929,7 +929,11 @@ See (more generally) [[commutative monad|examples of commutative monads]].
 
 ## References
 
-The notion of commutative algebraic theory was formulated in terms of [[monads]] by [[Anders Kock]].
+The notion of commutative algebraic theory was introduced by [[Fred Linton]]:
+
+* [[Fred Linton]], _Autonomous equational categories_, Journal of Mathematics and Mechanics 15.4 (1966), 637-642.
+
+It was formulated in terms of [[monads]] by [[Anders Kock]].
 
 * [[Anders Kock]], _Monads on symmetric monoidal closed categories_, Arch. Math. 21 (1970), 1--10. 
 
