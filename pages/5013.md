@@ -90,7 +90,7 @@ The original results by McCord are in
 
 * {#McCord66} [[Michael C. McCord]], _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525)) 
 
-* {#McCord67} [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708, [copy](http://www.maths.ed.ac.uk/~aar/papers/mccord2.pdf)
+* {#McCord67} [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708, [doi:10.1090/S0002-9939-1967-0216499-0](https://doi.org/10.1090/S0002-9939-1967-0216499-0), [copy](http://www.maths.ed.ac.uk/~aar/papers/mccord2.pdf)
 
 
 
