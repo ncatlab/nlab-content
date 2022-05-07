@@ -32,38 +32,14 @@ An **two-valued object** in a [[topos]] (or any [[cartesian closed category]]) $
 
   * a [[morphism]] $one:1 \rightarrow \mathbf{2}$ from the [[terminal object]] $1$;
 
-  * an [[endomorphism]] $swap:\mathbf{2} \rightarrow \mathbf{2}$ 
-
-* such that the following diagram commutes:
-
-\begin{center}
-  \begin{tikzcd}
-    \mathbf{2} \ar[d, "swap"] &
-    1 \ar[l, "zero"] \ar[ld, "one"] \ar[r, "one"] \ar[rd, "zero"]        &
-    \mathbf{2} \ar[d, "swap"] \\
-    \mathbf{2} & & \mathbf{2}
-  \end{tikzcd}
-\end{center}
-
-* and for every other tuple $(A, t, f, n)$ satisfying the commutative diagram 
-
-\begin{center}
-  \begin{tikzcd}
-    A \ar[d, "n"] &
-    1 \ar[l, "f"] \ar[ld, "t"] \ar[r, "t"] \ar[rd, "f"]        &
-    A \ar[d, "n"] \\
-    A & & A
-  \end{tikzcd}
-\end{center}
-
- there is a morphism $u : \mathbf{2} \to A$ such that
+* such that for every other tuple $(A, t, f)$ there is a morphism $u : \mathbf{2} \to A$ such that
 
 \begin{center}
   \begin{tikzcd}
     \mathbf{2} \ar[d, "u"] &
     1 \ar[l, "zero"] \ar[ld, "f"] \ar[r, "one"] \ar[rd, "t"]        &
-    \mathbf{2} \ar[d, "u"] \ar[r, "swap"] & \mathbf{2} \ar[d, "u"] \\
-    A & & A \ar[r, "n"] & A
+    \mathbf{2} \ar[d, "u"] \\
+    A & & A
   \end{tikzcd}
 \end{center}
 
@@ -93,7 +69,7 @@ Two-valued objects are the [[categorical semantics]] of the type of booleans in 
 
 * The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[axiom of choice|choice sets]] are two-valued objects. 
 
-* The [[interval category]] is a two-valued object in [[Cat]]. 
+* Any [[interval object]] is a two-valued object with a [[morphism]] connecting the global elements $zero$ and $one$. 
 
 ## See also
 
