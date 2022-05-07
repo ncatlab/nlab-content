@@ -55,7 +55,7 @@ Let $V$ be a [[symmetric monoidal category]]. A
 * A _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
 * Composition operations 
 $$F(k) \otimes F(n_1) \otimes F(n_2) \otimes \cdots \otimes F(n_k) \to F(n_1 + \ldots + n_k)$$
-[which we think of as the result of plugging the outputs of operations $\theta_1, \ldots, \theta_k$ into a $k$-ary operation $\theta$, to produce a new operation $\theta \circ (\theta_1 \otimes \ldots \otimes \theta_k)$]. 
+(which we think of as the result of plugging the outputs of operations $\theta_1, \ldots, \theta_k$ into a $k$-ary operation $\theta$, to produce a new operation $\theta \circ (\theta_1 \otimes \ldots \otimes \theta_k)$). 
 
 These data are subject to obvious identities such as [[associativity]] and [[unitality]] of composition, and compatibility of composition with symmetric group actions. For example, the unit laws say that the evident composite 
 
