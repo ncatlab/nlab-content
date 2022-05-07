@@ -9,7 +9,7 @@ A __δ-ring__ is a pair $(R,\delta)$,
 where $R$ is a [[commutative ring]]
 and $\delta\colon R\to R$ is a map of underlying sets
 such that $\delta(0)=0$, $\delta(1)=0$,
-$$\delta(xy)=x^p \delta(y)+y^p \delta(x) + p\delta(x)\delta(y),$$
+$$\delta(x y)=x^p \delta(y)+y^p \delta(x) + p\delta(x)\delta(y),$$
 and
 $$\delta(x+y)=\delta(x)+\delta(y)+(x^p+y^p-(x+y)^p)/p.$$
 
