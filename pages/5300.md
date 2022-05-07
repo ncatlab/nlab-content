@@ -5,6 +5,9 @@
 
 On [[cyclic loop spaces]]:
 
+* {#Cohen1985} [[Ralph Cohen]], p. 194 of: *A Model for the Free Loop Space of a Suspension*, in: [[Haynes Miller]], [[Douglas Ravenel]] (eds.), *Algebraic Topology*, Lecture Notes in Mathematics **1286**, Springer 1985 ([doi:10.1007/BFb0078743](https://link.springer.com/chapter/10.1007/BFb0078743))
+
+
 * [[Gunnar Carlsson]], [[Ralph Cohen]], *The cyclic groups and the free loop space*, Commentarii Mathematici Helvetici **62** (1987) 423–449  ([doi:10.1007/BF02564455](https://doi.org/10.1007/BF02564455), [dml:140092](https://eudml.org/doc/140092))
 
 
