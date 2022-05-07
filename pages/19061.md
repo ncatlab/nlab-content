@@ -17,7 +17,7 @@
 
 ## Idea
 
-What has come to be called _nonabelian T-duality_ ([Ossa-Quevedo 92](#OssaQuevedo92)) or _Poisson-Lie T-Duality_ (due to [Klimcik-Ševera 95](#KlimcikSevera95), [von Unge 02](#vonUnge02)) is a generalization of [[T-duality]] from [[fiber bundles]] equipped with an [[abelian group]] of [[isometries]] ([[torus]] [[bundles]]) to those with a [[nonabelian group]] of isometries.
+What has come to be called _nonabelian T-duality_ ([de la Ossa-Quevedo 92](#OssaQuevedo92)) or _Poisson-Lie T-Duality_ (due to [Klimcik-Ševera 95](#KlimcikSevera95), [von Unge 02](#vonUnge02)) is a generalization of [[T-duality]] from [[fiber bundles]] equipped with an [[abelian group]] of [[isometries]] ([[torus]] [[bundles]]) to those with a [[nonabelian group]] of isometries.
 
 Poisson-Lie T-duality may also be made manifest at the level of [[type II supergravity ]] in the framework of [[double field theory]] on [[Lie group|group manifolds]]. Using this framework both the NS/NS sector and the R/R sector are captured, and this allows to derive the transformation of the [[RR fields]] for full Poisson-Lie T-duality ([Hassler 17](#Hassler17)).
 
