@@ -189,6 +189,221 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
 
 For details on the plain Serre spectral sequence see at _[[Atiyah-Hirzebruch spectral sequence]]_ and take $E = H R$ to be ordinary cohomology.  
 
+## Examples
+
+\begin{example}
+  Let 
+
+  * $G \xhookrightarrow{\;i\;} Sp(1) \simeq SU(2) \simeq Spin(3)$ be a [[finite subgroup of SU(2)]];
+
+  * $\mathbb{H} \,\in\, G Actions(VectorSpaces_{\mathbb{R}})$ the [[linear representation]] of $G$ on the [[quaternions]], regarded as a 4d [[real vector space]], which is the [[restricted representation]] of the defining representation of [[Sp(1)]];
+
+  * $S^{\mathbb{H}} \in G Actions(TopologicalSpaces)$ the corresponding [[representation sphere]].
+
+Then the [[integral cohomology]] in degree 4 of the [[homotopy quotient]] ([[Borel construction]]) is 
+
+$$
+  H^4
+  \big(
+    S^4 /\!/ G,
+    \,
+    \mathbb{Z}
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \mathbb{Z} \oplus (\mathbb{Z}/\left\vert G \right\vert)
+  \,.
+$$
+
+\end{example}
+\begin{proof}
+
+\begin{tikzcd}[row sep={between origins, 21pt}, column sep={between origins, 21pt}]
+      {}
+      &
+      {}
+      \\[-12pt]
+      {}
+          &
+      {}
+      \\
+      &
+      \vdots
+      &
+      \vdots
+      &
+      \vdots
+      &
+      \vdots
+      &
+      \vdots
+      &
+      \vdots
+      &
+      \vdots
+      &
+      \vdots
+      \\
+      {}
+      \ar[
+        ddddddrrrrrr,
+        -,
+        line width=19pt,
+        shift left=1pt,
+        opacity=.15,
+        color=blue
+      ]
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      \cdots
+      \\
+      &
+      \mathbb{Z}
+      \ar[  
+        drr
+      ]
+      &
+      0
+      %\ar[
+      %  drr
+      %]
+      &
+      G^{\mathrm{ab}}
+      \ar[
+        drr
+      ]
+      &
+      0
+      &
+      \mathbb{Z}_{\left\vert G\right\vert}
+      \ar[
+        drr
+      ]
+      &
+      0
+      &
+      G^{\mathrm{ab}}
+      \ar[
+        drr
+      ]
+      &
+      0
+      &
+      \cdots
+      \\
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      \cdots
+      \\
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      \cdots
+      \\
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      0
+      &
+      \cdots      
+      \\
+      \ar[
+        rrrrrrrrrr,
+        color=lightgray,
+        shift right=5pt,
+        "B G"{below, color=black, pos=.95}
+      ]
+      &
+      \mathbb{Z}
+      &
+      0
+      &
+      G^{\mathrm{ab}}
+      &
+      0
+      &
+      \mathbb{Z}_{\left\vert G\right\vert}
+      &
+      0
+      &
+      G^{\mathrm{ab}}
+      &
+      0
+      &
+      \cdots
+      &
+      {}
+      \\
+      & 
+      \ar[
+        uuuuuuuuu,
+        color=lightgray,
+        shift left=5pt,
+        "S^4"{left, color=black, pos=.93}
+      ]
+      &{}&{}&{}&{}&{}
+\end{tikzcd}
+
+\end{proof}
+
+
 ## Consequences
 
 * [[Serre long exact sequence]]
