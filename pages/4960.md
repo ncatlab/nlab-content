@@ -2319,7 +2319,7 @@ Discussion of relation to [[double negation topology]] is in
 
 And further relations of cohesion to [[Birkhoff's theorem]] in [[universal algebra]] is given in
 
-* {#Lawvere16} [[William Lawvere]], _Birkhoff's Theorem from a geometric perspective: A simple example_, to appear in Categories and General Algebraic Structures with Applications (2016), [journal page](http://www.cgasa.ir/article_12425_0.html).
+* {#Lawvere16} [[William Lawvere]], _Birkhoff's Theorem from a geometric perspective: A simple example_, to appear in Categories and General Algebraic Structures with Applications (2016), [journal page](https://cgasa.sbu.ac.ir/article_12425.html).
 
 A good deal of the structure of cohesive toposes is also considered in 
 
@@ -2330,7 +2330,7 @@ under the name _[[Q-categories]]_.
 
 The [[internal logic]] of [[local toposes]] is discussed in 
 
-* {#AwodeyBirkedal} [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_, Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
+* {#AwodeyBirkedal} [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_, Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](https://cs.au.dk/~birke/papers/elealm.ps.gz))
   
 Notation and terminology above, and generalization to [[differential cohesion]] etc., follows:
 
