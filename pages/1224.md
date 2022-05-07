@@ -134,14 +134,14 @@ The characterization of final functors is also a special case of the characteriz
 ## Examples
  {#Examples}
 
-+-- {: .num_example }
-###### Example
-
+\begin{example}
+  \label{InclusionOfATerminalObjectIsFinal}
+**([[subcategory|inclusion]] of a [[terminal object]] is [[final functor]])** \linebreak
 If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks that terminal object is final: for every $d \in D$ the [[comma category]] $d/F$ is equivalent to $*$.  The converse is also true: if a functor $*\to D$ is final, then its image is a terminal object.
 
   In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.
 
-=--
+\end{example}
 
 
 +-- {: .num_example }
