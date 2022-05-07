@@ -177,7 +177,7 @@ $$
 
   * [[Quillen adjunction between equivariant simplicial sets and equivariant connective dgc-algebras]]
 
-  * [[fundamental theorem of dgc-algebraic equivariant rational homotopy theory]]
+  * [[fundamental theorem of dg-algebraic equivariant rational homotopy theory]]
 
 ## References
 
