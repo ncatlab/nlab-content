@@ -1,3 +1,5 @@
+
+
 # The cycle category
 * table of contents
 {: toc}
@@ -188,13 +190,23 @@ The cyclic category is a [[generalized Reedy category]], as explained [here](htt
 
 The cycle category is a [[generalized Reedy category]]. Hence "cyclic spaces" carry a [[generalized Reedy model structure]].
 
+## Related concepts
+
+* [[cyclic object]]
+
+* [[cyclic set]], [[cyclic space]],
+
+* [[cyclotomic space]], [[cyclotomic spectrum]]
+
+* [[cyclic homology]]
+
+
 ## References
 
-Blog [discussion](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html) 
+* [[Jean-Louis Loday]], *The Cyclic Category, Tor and Ext Interpretation* ([doi:10.1007/978-3-662-21739-9_6](https://doi.org/10.1007/978-3-662-21739-9_6))
 
-Literature:
+  Chapter 6 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
-* [[J.-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. 301, Springer 2nd ed.
 
 * [[V. Drinfeld]], _On the notion of geometric realization_, [arXiv:math.CT/0304064](http://front.math.ucdavis.edu/0304.5064)
 
@@ -215,11 +227,13 @@ Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289.
 
 * {#Elm} [[Anthony Elmendorf]], *A simple formula for cyclic duality*, Proc. Amer. Math. Soc. Volume 118, Number 3 (July 1993), 709-711. ([pdf](http://www.ams.org/journals/proc/1993-118-03/S0002-9939-1993-1143017-0/S0002-9939-1993-1143017-0.pdf))
 
-* {#NS} Thomas Nikolaus, Peter Scholze, *On topological cyclic homology*, [arxiv](https://arxiv.org/abs/1707.01799)
+* {#NS} [[Thomas Nikolaus]], [[Peter Scholze]], *On topological cyclic homology* ([arxiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
 See also 
 
 * Wikipedia, _[Cyclic category](https://en.wikipedia.org/wiki/Cyclic_category)_
+
+* Blog [discussion](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html) 
 
 
 [[!redirects cyclic category]]
