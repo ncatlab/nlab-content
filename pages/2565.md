@@ -29,6 +29,13 @@ where $E_s(\cdots)$ denotes the [[expectation value]] under the measure $s \in S
 
 For instance ([Amari, Section 2.1](#AmariTextbook)).
 
+## Related concepts
+
+* [[entropy]]
+* [[Fisher metric]]
+* [[quantum information]]
+* [[relative entropy]], also known as the Kullback-Leibler divergence
+
 ## References
 
 See also [[Fisher metric]], where Fisher metric in other contexts and quantum generalizations are treated. See also [[quantum information]].
