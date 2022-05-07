@@ -283,6 +283,7 @@ For more see [[counterexamples in algebra]].
 
 * [[group presentation]]
 
+[[!include oidification - table]]
 
 ## References
 
