@@ -91,6 +91,12 @@ is the corresponding [[local action functional]].
 
 ## References
 
+Named after [[Joseph-Louis Lagrange]].
+
+See also 
+
+* Wikipedia, *[Lagrangian mechanics](https://en.wikipedia.org/wiki/Lagrangian_mechanics)*
+
 * [[Daniel Freed]], _Lecture 2 of [[Five lectures on supersymmetry]]_
 
 
