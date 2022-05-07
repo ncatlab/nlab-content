@@ -18,11 +18,11 @@
 
 The _local Langlands conjectures_ are certain [[conjectures]] in the context of the [[Langlands program]]. Where the genuine [[Langlands correspondence]] concerns [[global fields]], the local Langlands correspondence concerns [[local fields]].
 
-In the case of the [[algebraic group]] $GL_n$, the local Langlands conjectures assert a correspondence between F-semisimple Weil-Deligne [[representations]] of the [[Weil group]] of a  [[local field]] $F$ and irreducible admissible [[representations]] of $GL_n(F)$, generalizing  local [[class field theory]] from [[abelian group|abelian]] [[Galois groups]] to non-abelian Galois groups.
+In the case of the [[algebraic group]] $GL_n$ (the [[general linear group]]), the local Langlands conjectures assert a correspondence between F-semisimple Weil-Deligne [[representations]] of the [[Weil group]] of a  [[local field]] $F$ and [[irrep|irreducible]] admissible [[representations]] of $GL_n(F)$, generalizing  local [[class field theory]] from [[abelian group|abelian]] [[Galois groups]] to non-abelian Galois groups.
 
-More generally, it states that for a local field $F$ and a reductive group $G$, the isomorphism classes of irreducible admissible representations of $G(F)$ are partitioned into _L-packets_ by the equivalence classes of _L-parameters_.
+More generally, it states that for a local field $F$ and a [[reductive group]] $G$, the [[isomorphism classes]] of irreducible admissible representations of $G(F)$ are partitioned into _L-packets_ by the equivalence classes of _L-parameters_.
 
-##Important definitions:
+## Important definitions:
 
 Let $F$ be a $p$-adic field.
 
