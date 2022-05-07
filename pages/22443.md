@@ -18,6 +18,8 @@
 
 ## Definition
 
+\begin{defn}\label{CayleyDistanceKernel}
+**(Cayley distance kernel)**
 For $n \in \mathbb{N}$ a [[natural number]], with $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, and 
 
 $$  
@@ -46,8 +48,10 @@ $$
 
 is the [[exponential]] of the Cayley distance, weighted by $- \lambda$.
 
-## Examples
- 
+\end{defn}
+
+
+## Examples 
 
 \begin{example}
 **([[Cayley distance kernel on Sym(3)]])**
@@ -203,6 +207,137 @@ $$
 \end{example}
 
 
+
+## Properties
+
+### Gershogin radius
+
+\begin{lemma}\label{SumOfExpLambdaNumCyclesOverPermutations}
+  For $n \in \mathbb{N}$ and $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, we have
+  $$
+    \underset{
+      \sigma \in Sym(n)
+    }{
+      \sum
+    }
+    e^{ \lambda \cdot \left\vert Cycles(\sigma) \right\vert }
+    \;=\;
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      e^{\lambda} + k
+    \big)
+    \,.
+  $$
+\end{lemma}
+(e.g. [Stanley 11, Prop. 1.3.7](#Stanley11), see also discussion at [MO:q/245005](https://mathoverflow.net/q/245005/381), [MO:a/92051](https://math.stackexchange.com/a/92051/58526))
+
+
+\begin{lemma}\label{SumOverFirstRowOfCayleyDistanceKernel}
+**(sum over first row of Cayley distance kernel)** \linebreak
+  For $n \in \mathbb{N}$, the [[sum]] over the first row of the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) equals
+$$
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  e^{ - \lambda \cdot d_C(\sigma, e) }
+  \;=\;  
+  e^{- \lambda \cdot n }
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\lambda}
+    + 
+    k
+  \big)
+$$
+\end{lemma}
+\begin{proof}
+We compute as follows:
+$$
+  \begin{aligned}
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  e^{ - \lambda \cdot d_C(\sigma, e) }
+  &
+  \;=\;
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  e^{ - \lambda \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
+  \\
+  & 
+  \;=\;
+  e^{- \lambda \cdot n }
+  \,
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  e^{ \lambda \cdot  \left\vert Cycles(\sigma) \right\vert }  
+  \\
+  & =\;
+  e^{- \lambda \cdot n }
+  \,
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\lambda}
+    + 
+    k
+  \big)
+  \mathrlap{\,,}
+  \end{aligned}
+$$
+where:
+
+* the first step is [Cayley's observation](Cayley+distance#CayleyObservation),
+
+* the last step uses Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations}.
+
+\end{proof}
+
+
+\begin{prop}\label{GershgorinRadiiOfCayleyDistanceKernel}
+**([[Gershogin radius]] of [[Cayley distance kernel]])**
+  For $n \in \mathbb{N}$, 
+ the [[Gershogin radii]] of the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) are all equal to
+  $$
+    r
+    \;=\;
+  e^{- \lambda \cdot n }
+  \,
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\lambda}
+    + 
+    k
+  \big)
+  - 
+  1
+  $$
+\end{prop}
+\begin{proof}
+  By [[right invariant metric|right invariance]] of the [[Cayley distance]] ([this Prop.](Cayley+distance#CayleyMetricIsRightInvariant)) the sum over entries of any row is equal to that of the first row.
+Since moreover 
+
+* all entries are [[real number|real]] and non-[[negative number|negative]],  hence equal to their [[absolute value]],
+
+* the diagonal elements are all equal to 1,
+
+it follows that this sum over the first row already equals the Gershogin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
+\end{proof}
+
+
 ## Related concepts
 
 * [[Mallows kernel]], [[Kendall kernel]]
@@ -212,9 +347,15 @@ $$
 
 ## References
 
+Mentioning of the Cayley distance kernel:
+
 * [[Michael A. Fligner]], [[Joseph S. Verducci]], Section 4 of: *Distance Based Ranking Models*, Journal of the Royal Statistical Society. Series B (Methodological) Vol. 48, No. 3 (1986), pp. 359-369 ([jstor:2345433](https://www.jstor.org/stable/2345433))
 
 * [[Persi Diaconis]], [[Phil Hanlon]], Section 4 of: *Eigen Analysis for Some Examples of the Metropolis Algorithm*, in Donald Richards (ed.) *Hypergeometric Functions on Domains of Positivity, Jack Polynomials, and Applications*, Contemporary Mathematics Vol. 138, AMS 1992 ([doi:10.1090/conm/138](http://dx.doi.org/10.1090/conm/138), [EFS NSF 392](https://statistics.stanford.edu/research/eigen-analysis-some-examples-metropolis-algorithm), [pdf](https://statweb.stanford.edu/~cgates/PERSI/papers/eigen-metalg.pdf))
 
 * [[Michael A. Fligner]], [[Joseph S. Verducci]] (eds.), p. xx of: *Probability Models and Statistical Analyses for Ranking Data*, Lecture Notes in Statistics **80**, Springer 1993 ([doi:10.1007/978-1-4612-2738-0](https://link.springer.com/book/10.1007/978-1-4612-2738-0))
 
+
+Supplementary references:
+
+* {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), 2011 ([pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
