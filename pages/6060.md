@@ -118,7 +118,7 @@ For $g \in G$ consider the right [[group action]] of the [[direct product group]
   \array{
     X^g \times C_G(g) \times \mathbb{Z}
     &\xrightarrow{\;\;\;\;}&
-    x
+    X^g
     \\
     \big(
       x, \, (h, n)
