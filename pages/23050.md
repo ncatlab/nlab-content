@@ -52,7 +52,24 @@ We have
 
 $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow (R\subseteq T / S)).$$
 
+
+
 ##Categorical interpretations of residuation
+
+Looking at the poset structure of $L$ as a category, one rewrites $a\le b$ as $a\to b$ and  $L(a,b)$ for the singleton set consisting just of the morphism $a\to b$.
+
+We have for each element $a$ in $L$, two mappings given by, respectively, left and right multiplication by $a$:
+
+$$\lambda_a:x\mapsto a\cdot x$$
+$$\rho_a:x\mapsto x\cdot a.$$
+
+These mappings are order preserving, so give endofunctors on the _category_ $L$.  For instance, suppose $x\le y$ and we have $a\cdot y\leq b$.  We then have $y\leq a/b$, and hence $x\le a/b$, i.e. $a\cdot x\leq b$.  Now take $b= a\cdot y$.  We have thus that $a\cdot x\leq a\cdot y$, as required.
+
+In this interpretation, both these functors have right adjoints, namely the two residuals. We have, for instance,
+$$L(\lambda_a(x),c) \cong L(x,a\backslash c).$$
+The residual functor, $a\backslash -$, acts like a left exponential object for the left multiplication functor. Likewise $-/a$ acts like a right exponential object functor.
+
+This point of view is explored further in the entry on [[residual]]s.
 
 
 
