@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _Cayley graph_ (also called the _Cayley [[quiver]]_) of a [[group]], $G$ with a given set of [[generators]], $X$, encodes how the chosen generating elements operate (by multiplication)  on the [[elements]] of the group.
+In [[geometric group theory]], the _Cayley graph_ (also: _Cayley [[quiver]]_) of a [[group]], $G$, equipped with a [[set]] of [[generators]], $X$, encodes how the chosen generating elements operate (by multiplication)  on the [[elements]] of the group.
 
 
 
