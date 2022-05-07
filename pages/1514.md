@@ -45,7 +45,7 @@ The name _path integral_ originates from the special case where the system is th
 
 The idea of the path integral famously goes back to [[Richard Feynman]], who motivated the idea in [[quantum mechanics]]. In that context the notion can typically be made precise and shown to be equivalent to various other [[quantization]] prescriptions. 
 
-The central impact of the idea of the path integral however is in its application to [[quantum field theory]], where it is often taken in the physics literatire as the _definition_ of what the quantum field theory encoded by an [[action functional]] should be, disregarding the fact that in these contexts it is typically quite unclear what the path integral actually means, precisely. 
+The central impact of the idea of the path integral however is in its application to [[quantum field theory]], where it is often taken in the physics literature as the _definition_ of what the quantum field theory encoded by an [[action functional]] should be, disregarding the fact that in these contexts it is typically quite unclear what the path integral actually means, precisely. 
 
 Notably the [[Feynman perturbation series]] summing over [[Feynman graphs]] is motivated as one way to make sense of the path integral in quantum field theory and in practice usually serves as a _definition_ of the perturbative path integral.
 
