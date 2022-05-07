@@ -46,7 +46,7 @@ For maps $F \colon E \longrightarrow F$ between genuine [[G-spectra]], they are 
 
 Proof for general [[G-CW-complexes]]:
 
-* {#Matumoto71} [[Takao Matumoto]], Theorem 5.3 in: _On $G$-CW complexes and a theorem of JHC Whitehead_, J. Fac. Sci. Univ. Tokyo Sect. IA 18, 363-374, 1971
+* {#Matumoto71} [[Takao Matumoto]], Theorem 5.3 in: _On $G$-CW complexes and a theorem of JHC Whitehead_, J. Fac. Sci. Univ. Tokyo Sect. IA 18, 363-374, 1971.  [[matumoto-on-g-cw-complexes-and-a-theorem-of-j-h-c-whitehead.pdf:file]]
 
 * {#Waner80} [[Stefan Waner]], Theorem 3.4 in: _Equivariant Homotopy Theory and Milnor's Theorem_, Transactions of the American Mathematical Society Vol. 258, No. 2 (Apr., 1980), pp. 351-368 ([jstor:1998061](http://www.jstor.org/stable/1998061))
 
