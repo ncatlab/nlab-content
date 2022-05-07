@@ -30,14 +30,14 @@ $$
   }
 $$
 
-denoting its [[Cayley distance]]-function, the corresponding *Cayley distance kernel* for $\lambda \in \mathbb{R}_+$ 
+denoting its [[Cayley distance]]-function, the corresponding *Cayley distance kernel* for $\beta \in \mathbb{R}_+$ 
 
 $$  
   \array{
     Sym(n) \times Sym(n)
     &
       \overset{
-        e^{- \lambda \cdot d_C}
+        e^{- \beta \cdot d_C}
       }{
         \longrightarrow
       }
@@ -46,7 +46,7 @@ $$
   }
 $$
 
-is the [[exponential]] of the Cayley distance, weighted by $- \lambda$.
+is the [[exponential]] of the Cayley distance, weighted by $- \beta$.
 
 \end{defn}
 
@@ -152,7 +152,7 @@ One checks ([here](https://www.wolframalpha.com/input/?i=eigenvalues++exp%5B+-+l
 \[
   \label{CayleyDistanceKernel}
   \big[
-    e^{- \lambda \cdot d_C}
+    e^{- \beta \cdot d_C}
   \big]
   \;\in\;
   Mat_{6 \times 6}(\mathbb{R})
@@ -164,30 +164,30 @@ has the following [[eigenvalues]]:
 $$
   \frac
     {
-      (e^\lambda)^2 -1 
+      (e^\beta)^2 -1 
     }
-    {(e^\lambda)^2}  
+    {(e^\beta)^2}  
   \,,\;\;\;
   \frac
     {
-      (e^\lambda)^2 \pm 3 (e^\lambda)  + 2 
+      (e^\beta)^2 \pm 3 (e^\beta)  + 2 
     }
-    {(e^\lambda)^2}  
+    {(e^\beta)^2}  
   \,,
 $$
 
-where the first one appears with multiplicity 4. Exactly one of these can become non-positive for $\lambda \in \mathbb{R}_+$:
+where the first one appears with multiplicity 4. Exactly one of these can become non-positive for $\beta \in \mathbb{R}_+$:
 
 $$
-  (e^\lambda)^2 - 3 (e^\lambda) + 2
+  (e^\beta)^2 - 3 (e^\beta) + 2
   \;is\;
   \left\{
   \array{
-    \lt 0 &\vert&  (e^\lambda) \lt 2
+    \lt 0 &\vert&  (e^\beta) \lt 2
     \\
-    = 0 &\vert& (e^\lambda) = 2
+    = 0 &\vert& (e^\beta) = 2
     \\
-    \gt 0 &\vert& (e^\lambda) \gt 2
+    \gt 0 &\vert& (e^\beta) \gt 2
   }
   \right.
 $$
@@ -196,11 +196,11 @@ In conclusion: The [[Cayley distance kernel]] (eq:CayleyDistanceKernel), regarde
 
 $$
   \array{
-    \text{indefinite} & \text{for} & e^{\lambda} \lt 2
+    \text{indefinite} & \text{for} & e^{\beta} \lt 2
     \\
-    \text{positive semi-definite} &\text{for}& e^{\lambda} = 2
+    \text{positive semi-definite} &\text{for}& e^{\beta} = 2
     \\
-    \text{positive definite} &\text{for}&  e^{\lambda} \gt 2
+    \text{positive definite} &\text{for}&  e^{\beta} \gt 2
   }
 $$
 
@@ -212,29 +212,180 @@ $$
 
 ### Gershgorin radius
 
-We discuss the [[Gershgorin radius]] of the Cayley distance kernel:
+We discuss the [[Gershgorin radius]] of the Cayley distance kernel, in Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel} below. First we establish a couple of lemmas: 
+
 
 \begin{lemma}\label{SumOfExpLambdaNumCyclesOverPermutations}
-  For $n \in \mathbb{N}$ and $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, we have
+For $n \in \mathbb{N}$, with $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, and for any [[variable]] $\beta$, we have (as an [[equation]] between [[polynomials]] in $\beta$):
   $$
     \underset{
       \sigma \in Sym(n)
     }{
       \sum
     }
-    e^{ \lambda \cdot \left\vert Cycles(\sigma) \right\vert }
+    e^{ \beta \cdot \left\vert Cycles(\sigma) \right\vert }
     \;=\;
     \underoverset    
       {k = 0}
       {n-1}
       {\prod}
     \big(
-      e^{\lambda} + k
+      e^{\beta} + k
     \big)
     \,.
   $$
 \end{lemma}
-(e.g. [Stanley 11, Prop. 1.3.7](#Stanley11), see also discussion at [MO:q/245005](https://mathoverflow.net/q/245005/381), [MO:a/92051](https://math.stackexchange.com/a/92051/58526))
+In [Stanley 11, Prop. 1.3.7](#Stanley11) are offered four proofs of this lemma, see also discussion at [MO:q/245005](https://mathoverflow.net/q/245005/381); we now spell out the proof idea given in [Math.SE:a/92051](https://math.stackexchange.com/a/92051/58526):
+\begin{proof}
+Notice that every [[permutation]] $\sigma$ has a *unique* representative in [[cycle notation]]
+\[
+  \label{NormalizedCycleNotation}
+  \begin{aligned}
+    \sigma
+    & = \;
+    (h_1 t_{11} t_{12} \cdots)
+    (h_2 t_{21} t_{22} \cdots)
+    (h_3 t_{31} t_{32} \cdots)
+    \cdots 
+    \\
+    & =
+    \vert
+    h_1 t_{11} t_{12} \vert
+    h_2 t_{21} t_{22} \vert
+    h_3 t_{31} t_{32} \vert \cdots 
+  \end{aligned}
+\]
+with the property that the following two conditions hold:
+
+1. heads are smallest in their cycle: $h_i \lt t_{i j}$,
+
+1. cycles are ordered by their heads: $h_i \lt h_{i + 1}$. 
+
+This yields a [[bijection]] between the set of permutations and the set of [[sections]] $sec$ of the following [[indexed family]] of sets
+
+\[
+  \label{SectionDeterminingAPermutation}
+  \array{
+    \underset{
+      k \in \{1, \cdots, n\}  
+    }{\sqcup}
+    \{0, \cdots, k-1\}
+    \\
+    {}^{\mathllap{p_n}}
+    \big\downarrow
+    \;
+    \big\uparrow {}^{\mathrlap{sec}}
+    \\
+    \{1, \cdots, n\}
+  }
+\]
+
+as follows:
+
+To a given section $sec$, assign the permutation whose normalized cycle notation (eq:NormalizedCycleNotation) has underlying it (forgetting the bars "$\vert$") the [[list]] obtained by setting
+
+$$
+  list_0
+  \;\coloneqq\;
+  \varnothing
+$$
+
+and then [[recursion|recursively]] adding the element $k+1$ to the list at stage $k$ by 
+
+* either appending it on the right, if $sec(k+1) = 0$;
+
+* or inserting it *after* the $sec(k+1)$-st element already in the list:
+
+$$
+  list_{k+1}
+  \;\coloneqq\;
+  \left\{
+  \array{
+    [ list_k, k+1 ] &if& sec(k+1) = 0
+    \\
+    [ list_k^{ \leq sec(k+1)}, k+1 , list_k^{\gt sec(k+1)} ]
+    & if & sec(k+1) \gt 0 
+  }
+  \right.
+$$
+
+The resulting $list_n$, with a bar "$\vert$" inserted right before each element $k$ with $sec(k) = 0$, is a normalized cycle notation (eq:NormalizedCycleNotation) for a permutation, and every such arises this way, uniquely.
+
+Via this bijection, the number of cycles of a permutation equals the number of times that the corresponding section $sec$ (eq:SectionDeterminingAPermutation) takes the value 0. Therefore we have:
+
+$$
+  \begin{aligned}
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  e^{\beta \cdot \left\vert Cycles(\sigma) \right\vert}
+  \;\;\;
+  & = \;
+  \underset{
+    sec \in \Gamma(p_n)
+  }{\sum}
+  e^{ \beta \cdot \left\vert sec^{-1}(\{0\}) \right\vert }
+  \\
+  & = \;
+  \underset{
+    sec \in \Gamma(p_n)
+  }{\sum}
+  \underoverset
+    {k = 1}
+    {n}
+    {\prod} 
+  \left\{
+  \array{
+    e^{\beta} &\vert& sec(k) = 0
+    \\
+    1 &\vert& otherwise
+  }  
+  \right.
+  \\
+  & = \;
+  \underoverset
+    {k = 1}
+    {n }
+    {\prod}
+  \;
+  \underset{
+    sec(k) \in \{0, \cdots, k-1\}
+  }{\sum}
+  \;
+  \left\{
+  \array{
+    e^{\beta} &\vert& sec(k) = 0
+    \\
+    1 &\vert& otherwise
+  }  
+  \right.
+  \\
+  & = \;
+  \underoverset
+    {k = 1}
+    {n  }
+    {\prod}
+  \;
+  \big(
+     e^{\beta}
+     +
+     (k-1)
+  \big)
+  \\
+  & =
+  \underoverset
+    {k = 0}
+    {n -1 }
+    {\prod}
+  \;
+  \big(
+     e^{\beta}
+     +
+     k
+  \big)
+  \end{aligned}
+$$
+\end{proof}
 
 
 \begin{lemma}\label{SumOverFirstRowOfCayleyDistanceKernel}
@@ -244,15 +395,15 @@ $$
   \underset{
     \sigma \in Sym(n)
   }{\sum}
-  e^{ - \lambda \cdot d_C(\sigma, e) }
+  e^{ - \beta \cdot d_C(\sigma, e) }
   \;=\;  
-  e^{- \lambda \cdot n }
+  e^{- \beta \cdot n }
   \underoverset
     {k = 0}
     {n - 1}
     {\prod}
   \big(
-    e^{\lambda}
+    e^{\beta}
     + 
     k
   \big)
@@ -265,32 +416,32 @@ $$
   \underset{
     \sigma \in Sym(n)
   }{\sum}
-  e^{ - \lambda \cdot d_C(\sigma, e) }
+  e^{ - \beta \cdot d_C(\sigma, e) }
   &
   \;=\;
   \underset{
     \sigma \in Sym(n)
   }{\sum}
-  e^{ - \lambda \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
+  e^{ - \beta \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
   \\
   & 
   \;=\;
-  e^{- \lambda \cdot n }
+  e^{- \beta \cdot n }
   \,
   \underset{
     \sigma \in Sym(n)
   }{\sum}
-  e^{ \lambda \cdot  \left\vert Cycles(\sigma) \right\vert }  
+  e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }  
   \\
   & =\;
-  e^{- \lambda \cdot n }
+  e^{- \beta \cdot n }
   \,
   \underoverset
     {k = 0}
     {n - 1}
     {\prod}
   \big(
-    e^{\lambda}
+    e^{\beta}
     + 
     k
   \big)
@@ -313,14 +464,14 @@ where:
   $$
     r
     \;=\;
-  e^{- \lambda \cdot n }
+  e^{- \beta \cdot n }
   \,
   \underoverset
     {k = 0}
     {n - 1}
     {\prod}
   \big(
-    e^{\lambda}
+    e^{\beta}
     + 
     k
   \big)
@@ -334,19 +485,19 @@ Since moreover
 
 * all entries are [[real number|real]] and non-[[negative number|negative]],  hence equal to their [[absolute value]],
 
-* the diagonal elements are all equal to $1 = e^{ - \lambda \cdot 0 }$,
+* the diagonal elements are all equal to $1 = e^{ - \beta \cdot 0 }$,
 
 it follows that this sum over the first row already equals the Gershogin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
 \end{proof}
 
-### Eigenvector
+### Eigenvectors
 
 \begin{prop}
-One [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \lambda \cdot n }
+One [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] $e^{- \beta \cdot n }
   \underoverset
     {k = 0}
     {n - 1}
-    {\prod}\big(e^{\lambda}- k \big)$.
+    {\prod}\big(e^{\beta}- k \big)$.
 \end{prop}
 \begin{proof}
   That this is an eigenvector follows immediately by the [[right invariant metric|right invariance]] of the [[Cayley distance]] ([here](Cayley+distance#Invariance)).
@@ -362,14 +513,14 @@ The corresponding eigenvalue thus equals the signed sum of, in particular, the f
     }{
       \sum
     }
-    sgn(\sigma) \cdot e^{ \lambda \cdot  \left\vert Cycles(\sigma) \right\vert }
+    sgn(\sigma) \cdot e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }
     \;=\;
     \underoverset    
       {k = 0}
       {n-1}
       {\prod}
     \big(
-      e^{\lambda} - k
+      e^{\beta} - k
     \big)
     \,.
   $$
@@ -383,15 +534,15 @@ $$
   \underset{
     \sigma \in Sym(n)
   }{\sum}
- sgn(\sigma) \cdot e^{ - \lambda \cdot  d_C(\sigma, e) }
+ sgn(\sigma) \cdot e^{ - beta \cdot  d_C(\sigma, e) }
   \;=\;  
-  e^{- \lambda \cdot n }
+  e^{- \beta \cdot n }
   \underoverset
     {k = 0}
     {n - 1}
     {\prod}
   \big(
-    e^{\lambda}
+    e^{\beta}
     - 
     k
   \big)
@@ -404,32 +555,32 @@ $$
   \underset{
     \sigma \in Sym(n)
   }{\sum}
-  sgn(\sigma) \cdot e^{ - \lambda \cdot  d_C(\sigma, e) }
+  sgn(\sigma) \cdot e^{ - \beta \cdot  d_C(\sigma, e) }
   &
   \;=\;
   \underset{
     \sigma \in Sym(n)
   }{\sum}
-  sgn(\sigma) \cdot e^{ - \lambda \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
+  sgn(\sigma) \cdot e^{ - \beta \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
   \\
   & 
   \;=\;
-  e^{- \lambda \cdot n }
+  e^{- \beta \cdot n }
   \,
   \underset{
     \sigma \in Sym(n)
   }{\sum}
-  sgn(\sigma) \cdot e^{ \lambda \cdot  \left\vert Cycles(\sigma) \right\vert }  
+  sgn(\sigma) \cdot e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }  
   \\
   & =\;
-  e^{- \lambda \cdot n }
+  e^{- \beta \cdot n }
   \,
   \underoverset
     {k = 0}
     {n - 1}
     {\prod}
   \big(
-    e^{\lambda}
+    e^{\beta}
     - 
     k
   \big)
@@ -444,7 +595,7 @@ where:
 
 \end{proof}
 
-When $e^\lambda = k$, for $k = 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\lambda \gt n-1$, the eigenvalue is positive.
+When $e^\beta = k$, for $k = 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\beta \gt n-1$, the eigenvalue is positive.
 
 
 ## Related concepts
