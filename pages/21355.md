@@ -44,3 +44,15 @@ Discussion via [[AdS/QCD]]:
 
 [[!redirects J/ψ meson]]
 [[!redirects J/ψ mesons]]
+
+[[!redirects psi-meson]]
+[[!redirects psi-mesons]]
+[[!redirects psi meson]]
+[[!redirects psi mesons]]
+
+[[!redirects psion]]
+[[!redirects psions]]
+
+
+
+
