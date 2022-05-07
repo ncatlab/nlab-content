@@ -1093,7 +1093,8 @@ evidently exhibited by the following functor:
 
 For general $H \subset G$, choose a section of the [[coset space]]-projection
 
-$$
+\[
+  \label{SectionOfTheCoprojectionToTheCosetSpace}
   \sigma \,\colon\, G/H \xrightarrow{\;} G
   \,,
   \;\;\;\;
@@ -1101,7 +1102,7 @@ $$
   \;
   \sigma([\mathrm{e}]) \,=\, \mathrm{e}
   \,,
-$$
+\]
 
 which exists and is continuous by the assumption that $G$ is discrete.
 
@@ -1206,6 +1207,124 @@ to the [[commuting square|commutativity]] of the two types of squares shown on t
 Indeed, the top square commutes by the $H$-equivariance of $\beta$, while the bottom square commutes by the naturality of $\beta$.
 \end{proof}
 
+
+
+\begin{prop}\label{ResidualWeylGroupActionOnFixedLocuOfEquivariantClassifyingSpace}
+**(residual [[Weyl group]]-[[group action|action]] on [[fixed locus]] of equivariant classifying space)**
+\linebreak
+Transported through the equivalence of Prop. \ref{HFixedLociOFMappingGroupoidFromEGToBGamma}, 
+the canonical [[group action]] (see [this Prop.](fixed+point+space#PassageToFixedLociIsRightAdjoint)) of the [[Weyl group]] $W_G(H)$ on the $H$-[[fixed locus]] 
+$
+  Fnctr\big(\mathbf{E}G ,\, \mathbf{B}\Gamma\big)^H
+$
+becomes, on connected components
+$
+  \pi_0
+  \big(
+    CrsHom(H,\,\Gamma) \sslash_{\!\!ad} \Gamma
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  H^1_{Grp}(H,\,\Gamma)
+$,
+the $W_G(H)$-action on the non-abelian group 1-cohomology of $H$ from Prop. \ref{WeylGroupActsOnNonAbGroup1CohomOfSubgroup}.
+\end{prop}
+We take this statement and the following proof from [SS21](https://ncatlab.org/schreiber/show/TED+cohomology).
+\begin{proof}
+  We make explicit use of the functors $L, R$ constructed in the proof of Prop. \ref{HFixedLociOFMappingGroupoidFromEGToBGamma}. Noticing that $R$ is a section of $L$, we need to (1) send a crossed homomorphism up with $R$, (2) there act on it with $n$, (3) send the result back with $L$. The result is the desired induced action.
+
+Explicitly, by the definition of $L$ in the proof of Prop. \ref{HFixedLociOFMappingGroupoidFromEGToBGamma}, this way a crossed homomorpism $\phi \,\colon\, H \to \Gamma$ is sent by $n \in N_G(H)$ to the assignment
+\[
+  \label{TransportingCanonicalActionOnFixedLocusToGroupCohomology}
+  h \,\mapsto\,    
+    \Big(L\big( n \cdot (R \phi) \big)\Big)(h)
+    \;=\;
+    \alpha(n)
+    \Big(
+      (R\phi)
+      \big(
+        n^{-1} ,\, n^{-1} \cdot h
+      \big)
+    \Big)
+  \,.
+\]
+
+It just remains to evaluate the right hand side. 
+
+Notice that the definition of $L$ is independent of the choice of $\sigma \,\colon\, G/H \xrightarrow{\;} G$ (eq:SectionOfTheCoprojectionToTheCosetSpace), and that $R$ (whose definition does depend on this choice ) is a section for each choice. Hence we may choose $\sigma$ in a way convenient way *for any given $n$*.
+
+Now if $n \in H \subset N_G(H)$ then its canonical action on the $H$-fixed locus is trivial, and also the claimed induced action is trivial, so that in this case there is nothing further to be proven. Therefore we assume now that $n$ is not in $H$, and then we choose $\sigma$ such as to pick $n^{-1}$ as the representative in its $H$-coset:
+$$
+  \sigma\big( \big[n^{-1}\big] \big) \;\coloneqq\; n^{-1}
+  \,.
+$$
+
+With this choice, the right hand side of (eq:TransportingCanonicalActionOnFixedLocusToGroupCohomology) is evaluated as follows, where we repeatedly use that, by definition and choice of $\sigma$, $R\phi$ assigns the neutral element 
+to the morphism $n^{-1} \to \mathrm{e}$ in the pair groupoid
+
+$$
+  \begin{array}{lll}
+    \Big(L\big( n \cdot (R \phi) \big)\Big)(h)
+    & \;=\;
+    \alpha(n)
+    \Big(
+      (R\phi)
+      \big(
+        n^{-1} ,\, n^{-1} \cdot h
+      \big)
+    \Big)
+    & 
+    \text{by the previous argument}
+    \\
+    & \;=\;
+    \alpha(n)
+    \big(
+      (R\phi)(\mathrm{e},\, n^{-1} \cdot h)
+    \big)
+    & 
+    \text{by the previous remark}
+    \\
+    &
+    \;=\;
+    \alpha\big(n^{-1} \cdot h \cdot n \cdot n\big)
+    \big(
+      (R\phi)(n^{-1} \cdot h^{-1} \cdot n,\, n^{-1})
+    \big)
+    & 
+    \text{by} \; H\text{-equivariance of} \; R\phi  
+    \\
+    &
+    \;=\;
+    \alpha\big(n^{-1} \cdot h \cdot n  \cdot n\big)
+    \big(
+      (R\phi)(n^{-1} \cdot h^{-1} \cdot n,\, \mathrm{e})
+    \big)
+    & 
+    \text{by the previous remark}  
+    \\
+    &
+    \;=\;
+    \alpha(n)
+    \big(
+      (R\phi)(\mathrm{e},\, n^{-1} \cdot h \cdot n)
+    \big)
+    & 
+    \text{by} \; H\text{-equivariance of} \; R\phi  
+    \\
+    & \;=\;
+    \alpha(n)
+    \big(
+      \phi(n^{-1} \cdot h \cdot n)
+    \big)
+    &
+    \text{by definition of} \; R
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+This is indeed the claimed formula (eq:ActionOfNormalizerOnCrossedHomomorphismsFromSubgroup).
+\end{proof}
 
 
 
