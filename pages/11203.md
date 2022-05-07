@@ -104,6 +104,13 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], Section 6.3 of: _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
+### High $T_c$-superconductivity
+
+Via [[topological phases of matter]]:
+
+* M. C. Diamantini, C. A. Trugenberger, V. M. Vinokur, _Topological Nature of High Temperature Superconductivity_ ([arXiv:2009.01763](https://arxiv.org/abs/2009.01763))
+
+
 
 [[!redirects superconductor]]
 [[!redirects superconductors]]
