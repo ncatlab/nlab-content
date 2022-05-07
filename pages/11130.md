@@ -177,9 +177,9 @@ For a detailed analysis of how this general abstract concept indeed captures the
 
 ## References
 
-### Traditional
-
 * Wikipedia, _[Hilbert's Nullstellensatz](http://en.wikipedia.org/wiki/Hilbert's_Nullstellensatz)_
+
+* David Hilbert. Ueber die vollen Invariantensysteme. Mathematische Annalen **42(3)**, pp. 313–373. 1893.
 
 ### The model theoretic perspective
 
