@@ -162,14 +162,14 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 * [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
 
+* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
-Categorical properties of [[monoid objects]] in [[monoidal categories]] are spelled out in sections 1.2 and 1.3 of
 
-* Florian Marty, _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009, [web](http://thesesups.ups-tlse.fr/540/)
 
-A summary is in section 4.1 of
 
-* [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_, [arXiv:1410.1716](http://arxiv.org/abs/1410.1716).
+* Florian Marty, Dections 1.2, 1.3 in:_Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009 ([web](http://thesesups.ups-tlse.fr/540/))
+
+* [[Martin Brandenburg]], Section 4.1 of: _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](http://arxiv.org/abs/1410.1716))
 
 See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
 
