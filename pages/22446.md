@@ -85,6 +85,10 @@ $$
 
 (see, e.g., [Meckes 19, Thm. 7.1](#Meckes19))
 
+## Related theorems
+
+* [[Cauchy interlace theorem]]
+
 ## References
 
 The original article:
