@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -152,6 +151,26 @@ A previous version of this entry led to the following discussion, which later le
 
 
 ## References
+
+
+Original references on [[chain homology]]/[[cochain cohomology]] and [[singular homology]]/[[singular cohomology]]:
+
+* [[Andrei Kolmogoroff]], _Über die Dualität im Aufbau der kombinatorischen Topologie_, Recueil Mathématique 1(43) (1936), 97–102.  ([mathnet](http://mi.mathnet.ru/msb5361))
+
+* [[Andrei Kolmogoroff]], _Homologiering des Komplexes und des lokal-bicompakten Raumes_, Recueil Mathématique 1(43) (1936), 701–705.  [mathnet](http://mi.mathnet.ru/msb5475).
+
+* [[J. W. Alexander]], _On the chains of a complex and their duals_, Proc. Nat. Acad. Sei. USA, 21(1935), 509–511 ([doi:10.1073/pnas.21.8.50](https://doi.org/10.1073/pnas.21.8.509))
+
+* [[J. W. Alexander]], _On the ring of a compact metric space_, Proc. Nat. Acad. Sci. USA, 21(1935), 511–512 ([doi:10.1073/pnas.21.8.511](https://doi.org/10.1073/pnas.21.8.511))
+
+* [[J. W. Alexander]], _On the connectivity ring of an abstract space_, Ann. of Math., 37 (1936), 698–708 ([doi:10.2307/1968484](https://doi.org/10.2307/1968484), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/alexcon.pdf))
+
+The term “[[cohomology]]” was introduced in this context in
+
+* {#Whitney37} [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45 ([doi:10.1215/S0012-7094-37-00304-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-3/issue-1/On-matrices-of-integers-and-combinatorial-topology/10.1215/S0012-7094-37-00304-1.short))
+
+
+Relation to [[sheaf cohomology]]:
 
 * {#Sella16} [[Yehonatan Sella]], _Comparison of sheaf cohomology and singular cohomology_ ([arXiv:1602.06674](http://arxiv.org/abs/1602.06674))
 
