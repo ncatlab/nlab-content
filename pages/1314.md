@@ -38,7 +38,7 @@ For $n \in \mathbb{N}$ the _smooth [[n-simplex]]_ $\Delta^n_{smth}$ is the [[smo
 $$
   \Delta^n_{smth}
   \;\coloneqq\;
-  \left\{
+  \Big\{
     (x_0, x_1, \cdots, x_n)
     \in 
     \mathbb{R}^{n+1}
@@ -47,8 +47,8 @@ $$
      \;\text{and}\;
      \underoverset{i = 0}{n}{\sum}
      x_i 
-     \; = 0
-  \right\}
+     \; = 1
+  \Big\}
   \hookrightarrow
   \mathbb{R}^{n+1}
   \,.
@@ -103,7 +103,7 @@ $$
      \;\vert\;
      \underoverset{i = 0}{n}{\sum}
      x_i 
-     \; = 0
+     \; = \; 1
   \right\}
   \hookrightarrow
   \mathbb{R}^{n+1}
@@ -432,19 +432,20 @@ Applications include
 
 ## References
 
-Original sources
+Original articles:
 
-* [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam](http://www.numdam.org/item/PMIHES_1977__47__269_0/))
+* [[Dennis Sullivan]], p. 297 (30 of 64) of: _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 ([numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item/PMIHES_1977__47__269_0))
 
-* {#BousfieldGugenheim} [[Aldridge Bousfield]] and V. K. A. M. Gugenheim, &#167;1 and &#167;2 of: _On PL De Rham Theory and Rational Homotopy Type_ , Memoirs of the A. M. S., vol. 179, 1976.
+* {#BousfieldGugenheim} [[Aldridge Bousfield]], [[Victor Gugenheim]], p. 1 of: _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
-* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], p. 83-84 of: _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
 
 Review:
 
-* [[Stephen Halperin]], _Lecture Notes on Minimal Models_, Publications de l'U.E.R. Math&#233;matiques  Pures et Appliqu&#233;es, Universit&#233; des Sciences et techniques, Lille, Vol 3 (1981) Fasc.3. 
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], p. 122 (154 of 574) in: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
-* {#Hess} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], Def. 1.19 (p. 8) of:  _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
+
 
 
 
