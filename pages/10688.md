@@ -127,7 +127,7 @@ is a candidate $H$.
 
 * the [[Freudenthal suspension theorem]] may be obtained from the EHP spectral sequence;
 
-* the [[Goodwillie spectral sequence]] of the identity functor at the point also computes homotopy groups of spheres, the interplay of the two is discussed in ([Behrems 10](#Behrens10))
+* the [[Goodwillie spectral sequence]] of the identity functor at the point also computes homotopy groups of spheres, the interplay of the two is discussed in ([Behrens 10](#Behrens10))
 
 ## References
 
