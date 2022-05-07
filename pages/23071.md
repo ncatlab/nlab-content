@@ -1,4 +1,9 @@
 
+David Simms was an Irish Mathematician based at Trinity College Dublin. 
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/David_J._Simms)
+
 * [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=85350)
 
 ## Selected writings
