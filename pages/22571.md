@@ -13,5 +13,10 @@ On [[holographic Renyi entropy]]:
 
 * [[Ning Bao]], Mudassir Moosa, Ibrahim Shehzad, *The holographic dual of Rényi relative entropy*,  J. High Energ. Phys. 2019, 99 (2019) ([arXiv:1904.08433](https://arxiv.org/abs/1904.08433))
 
+On understanding [[quantum error correcting codes]] in terms of the [[eigenstate thermalization hypothesis]]:
+
+* [[Ning Bao]], Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
+
+
 
 category: people
