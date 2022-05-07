@@ -49,7 +49,7 @@ That Assumption \ref{AssumptionConstantInvolvedInAbcConjecture} holds is the mai
 
 ### The key corollary
 
-As discussed in the previous section, the cornerstone of the IUTT series of papers (at least with regard to the abc conjecture) is Corollary 3.12 in [IUTT III](#IUTTIII). We attempt here to explain certain aspects of this corollary. We shall continue to use completely different notation from the IUTT papers to try to bring out certain key ideas. To begin with, we shall continue to assume that we have a black box of data $\mathbb{M}$.
+As discussed in the previous section, the cornerstone of the IUTT series of papers (at least with regard to the abc conjecture) is Corollary 3.12 in [IUTT III](#IUTTIII). We attempt here to explain certain aspects of this corollary. We shall continue to use completely different notation from the IUTT papers to try to bring out certain key ideas. To begin with, we shall continue to assume that we have a black box of data $\mathbb{M}$. We shall first indicate the logical structure of the corollary, devoid of any significant content. 
 
 \begin{assum} There is a certain subset $T_{\mathbb{M}}$ of $\mathbb{R} \cup \{ \infty \}$, where $\mathbb{R}$ is the [[real number|set of real numbers]].  \end{assum}  
 
@@ -63,6 +63,14 @@ There are two key aspects to Corollary 3.12 in [IUTT III](#IUTTIII), which we no
 
 In particular, the [dénouement](#Dénouement) of Mochizuki's argument to prove the abc conjecture goes through regardless of the choice of $t_{\mathbb{M}}$ amongst the set $T_{\mathbb{M}}$.  
 \end{rmk} 
+
+We now begin working towards explaining what $T_{\mathbb{M}}$ and $q_{\mathbb{M}}$ are.
+
+#### Pilot objects
+
+Both the set $T_{\mathbb{M}}$ and the real number $q_{\mathbb{M}}$ are constructed ultimately from what Mochizuki refers to as pilot objects. Though the terminology in [IUTT III](#IUTTIII) is very dense, Mochizuki explains in Example 3.6, Remark 3.6.1, and subsequently that these can be understood in quite elementary terms, which we now describe.
+
+Let $X$, $F$, $F_{mod}$, and $\mathbb{V}$ be as at [[initial Θ-data]]: $X$ is a once-punctured [[elliptic curve]], $F$ is a [[number field]], $F_{mod}$ is the [[field of moduli]] of $X$ with respect to $F$, $\mathbb{V}$ is a certain set of [[valuation|valuations]], and all of $X$, $F$, $\overline{F}$, and $\mathbb{V}$ satisfy certain conditions which will not be important for us here. 
 
 
 ## Related concepts
