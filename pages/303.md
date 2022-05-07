@@ -65,6 +65,14 @@ where $C(x, y)$ denotes the hom-object in $V$,
 
 * Analogous to the [[functor category]] for ordinary [[functors]] between ordinary [[categories]], enriched functors between two enriched categories form an [[enriched functor category]].
 
+## Examples
+
+* [[linear functor]]
+
+* [[smooth functor]]
+
+* [[topologically enriched functor]]
+
 ## Related concepts
 
 * [[enriched natural transformation]]
