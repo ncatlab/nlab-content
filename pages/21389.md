@@ -11,6 +11,12 @@ On the [[Skyrmion model]] with [[omega-meson]]-contribution:
 
 * {#GudnasonSpeight20} [[Sven Bjarke Gudnason]], James Martin Speight, _Realistic classical binding energies in the $\omega$-Skyrme model_ ([arXiv:2004.12862](https://arxiv.org/abs/2004.12862))
 
+On [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
+
+
+* Salvatore Baldino, Lorenzo Bartolini, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], _Holographic Nuclear Physics with Massive Quarks_ ([arXiv:2102.00680](https://arxiv.org/abs/2102.00680))
+
+
 category: people
 
 [[!redirects Sven Gudnason]]
