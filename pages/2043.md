@@ -48,6 +48,8 @@ The Jacobson radical of a [[formal power series algebra]] consists of those form
 
 * [[radical]]
 
+* [[scale]]
+
 ## References
 
 See also
