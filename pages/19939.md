@@ -61,12 +61,12 @@ nucleon [[form factors]] via [[holographic QCD]]:
 
 via a [[nuclear matrix model]]:
 
-* [[Koji Hashimoto]], Norihiro Iizuka, Piljin Yi, _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
+* [[Koji Hashimoto]], [[Norihiro Iizuka]], [[Piljin Yi]], _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
 
 * Si-wen Li, Tuo Jia, _Matrix model and Holographic Baryons in the D0-D4 background_, Phys. Rev. D 92, 046007 (2015) ([arXiv:1506.00068](https://arxiv.org/abs/1506.00068))
 
 
-* [[Koji Hashimoto]], Yoshinori Matsuo, Takeshi Morita, _Nuclear states and spectra in holographic QCD_, JHEP12 (2019) 001 ([arXiv:1902.07444](https://arxiv.org/abs/1902.07444))
+* [[Koji Hashimoto]], [[Yoshinori Matsuo]], [[Takeshi Morita]], _Nuclear states and spectra in holographic QCD_, JHEP12 (2019) 001 ([arXiv:1902.07444](https://arxiv.org/abs/1902.07444))
 
 * Yasuhiro Hayashi, Takahiro Ogino, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Stringy excited baryons in holographic QCD_, Prog Theor Exp Phys (2020) ([arXiv:2001.01461](https://arxiv.org/abs/2001.01461))
 
@@ -80,7 +80,7 @@ nuclear binding energy
 
 nuclear binding energy via the [[nuclear matrix model]]:
 
-* [[Koji Hashimoto]], Yoshinori Matsuo, _Nuclear binding energy in holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
+* [[Koji Hashimoto]], [[Yoshinori Matsuo]], _Nuclear binding energy in holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
 
 
 
