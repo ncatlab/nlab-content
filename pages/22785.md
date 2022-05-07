@@ -31,7 +31,7 @@ for a natural number $n:\mathbb{N}$.
 
 Due to the nature of addition in an [[abelian group]], the set $R$ with the binary operation $p$ is a [[commutative magma|commutative]] [[semigroup]]. 
 
-Every [[finitely generated]] $R$-[[module]] $A$ for a Pythagorean ring $R$ by a set of finite cardinality $n$ has an absolute value $\vert (-) \vert: A \to R$ given by the $n$-ary version of $p$ in $R$ for the scalars $a_i$ of an element $a$ in $A$, and a [[quadratic form]] given by $\vert(-)\vert^2$. As a result, for every [[finitely generated]] $R$-[[module]] $A$ for a Pythagorean ring $R$ there is an associated [[Clifford algebra]] $Cl(R,\vert(-)\vert)$. 
+Every [[finitely generated]] $R$-[[module]] $A$ for a Pythagorean ring $R$ by a set of finite cardinality $n$ has an absolute value $\vert (-) \vert: A \to R$ given by the $n$-ary version of $p$ in $R$ for the scalars $a_i$ of an element $a$ in $A$, and a [[quadratic form]] given by $\vert(-)\vert^2$. As a result, for every [[finitely generated]] $R$-[[module]] $A$ for a Pythagorean ring $R$ there is an associated [[Clifford algebra]] $Cl(R,\vert(-)\vert^2)$. 
 
 ## Examples
 
