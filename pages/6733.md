@@ -277,7 +277,7 @@ See at _[[M5-brane charge]]_
 ### Anomaly cancellation
  {#AnomalyCancellation}
 
-Consider an 2-parameter family of 11-dimensional [[spin structure|spin]]-[[manifold]] $X^{(11)}$ and a 2-parameter family of 6-dimensional [[submanifolds]] $Q_{M5} \hookrightarrow X^{(11)}$. When regarded as a family of [[worldvolumes]] of an [[M5-brane]], the family of [[normal bundles]] $N_X Q_{M5}$ of this inclusion carries a [[characteristic class]]
+Consider a 2-parameter family $X^{(11)}$ of 11-dimensional [[spin structure|spin]]-[[manifolds]]  and a 2-parameter family $Q_{M5} \hookrightarrow X^{(11)}$ of 6-dimensional [[submanifolds]]. When regarded as a family of [[worldvolumes]] of an [[M5-brane]], the family of [[normal bundles]] $N_X Q_{M5}$ of this inclusion carries a [[characteristic class]]
 
 \[
   \label{IM5}
@@ -346,7 +346,7 @@ A resolution was proposed in [Freed-Harvey-Minasian-Moore 98](#FreedHarveyMinasi
   }
 \]
 
-Here  we used [this Prop](Spin5#FiberIntegrationOfCupPowersOfChiOver4Sphere)
+Here  we used (by [this Prop](Spin5#FiberIntegrationOfCupPowersOfChiOver4Sphere)) that
 
 $$
   \pi_\ast\big(
@@ -354,9 +354,10 @@ $$
   \big)
   \;=\;
   2 p_2
+  \,,
 $$
 
-which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the previously remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled... except for yet one last remaining term (shown as $\propto \gamma_4^2$ in  [BBMN 19b (4.9), (4.13), (5.22)](#BBMN19b)):
+which would thus cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegration). Hence with this proposal, the previously remaining M5-brane anomaly (eq:SumOfM5AndInflowAnomalyIsp2) would be canceled... except for yet one last remaining term (shown as $\propto \gamma_4^2$ in  [BBMN 19b (4.9), (4.13), (5.22)](#BBMN19b)):
 
 \[
   \label{RemainingAnomaly}
@@ -366,13 +367,24 @@ which would cancel against the first term $\tfrac{1}{24} p_2$ in (eq:FiberIntegr
   \,,
 \]
 
-where $G_4^{M5}$ denotes the [[basic differential form|basic form]]-component of $G_4$ with respect to the given [[spherical fibration]].
+where 
 
-This basic component has been ignored in [FHMM98](#FreedHarveyMinasianMoore98) and previous references. That this [[basic differential form|basic form]] component $G_4^{M5}$ indeed needs to be considered is highlighted in [BBMN 19b (3.16) & App. C](#BBMN19b) (where it is denoted $\gamma_4$, see also [BBM 20 (2.3)](#BahBonettiMinasian20)).
+\[
+  \label{BasicFormComponent}
+  G_4^{M5}
+  \;\coloneqq\;
+  (G_4)_{basic}
+  \;\in\;
+  \Omega^4_{dR}\big( Q_{M4}\big)
+\]
+
+denotes the [[basic differential form|basic form]]-component of $G_4$ with respect to the given [[spherical fibration]].
+
+This [[basic differential form|basic form]] component $G_4^{M5}$ (eq:BasicFormComponent) had been ignored in [FHMM 98](#FreedHarveyMinasianMoore98) and previous references. That this [[basic differential form|basic form]] component $G_4^{M5}$ (eq:BasicFormComponent) indeed needs to be considered was pointed out in [FSS 19v1, (19)](#FSS19v1), [BBMN 19b, (3.16) & App. C](#BBMN19b) (where it is denoted $\gamma_4$, see also [BBM 20 (2.3)](#BahBonettiMinasian20)) and [SS 20, (3) & p. 5](#SS20).
 
 See also at _[M-theory -- Open problems -- M5-brane anomaly cancellation](M-theory#OpenProblemM5BraneAnomalyCancellation)_.
 
-An argument that the remaing anomaly  (eq:RemainingAnomaly) vanishes by [[schreiber:Hypothesis H]] is in [SS 20a](#SS20a).
+The observation that the remaing anomaly  (eq:RemainingAnomaly) vanishes if one assumes [[schreiber:Hypothesis H]] is [SS 20, Cor. 6](#SS20).
 
 \linebreak
 
@@ -656,18 +668,21 @@ This argument is recalled in
 * {#BBMN19} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_,  J. High Energ. Phys. 2019, 123 (2019)
 ([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
 
-Amplification that the term $G_4^{M5}$ needs to be discussed (denoted $\gamma_4$ there:
+The observation that the [[basic differential form|basic form]] component  $G_4^{M5}$ needs to be discussed is due to:
+
+* {#FSS19v1} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], around equation (19) in: _Twisted Cohomotopy implies M-Theory anomaly cancellation_, preprint Version 1 [arXiv:1904.10207v1](https://arxiv.org/abs/1904.10207v1), later split into:
+
+  1. [[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation on 8-manifolds|CMP 377(3) 2020]] (not containing discussion of M5-brane anomalies)
+
+  1. [SS 20](#SS20) (focusing on the M5-brane anomaly cancellation)
 
 * {#BBMN19b} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomalies of QFTs from M-theory and Holography_, J. High Energ. Phys. 2020, 125 (2020) ([arXiv:1910.04166](https://arxiv.org/abs/1910.04166))
 
+* {#SS20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5-brane anomaly cancellation]]_ ([arXiv:2002.07737](https://arxiv.org/abs/2002.07737))
 
 * {#BahBonettiMinasian20} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], _Discrete and higher-form symmetries in SCFTs from wrapped M5-branes_, J. High Energ. Phys. 2021, 196 (2021) ([arXiv:2007.15003](https://arxiv.org/abs/2007.15003))
 
 
-
-Argument that the remaining anomaly term $[G_4^{M5}]^2$ vanishes, by [[schreiber:Hypothesis H]]:
-
-* {#SS20a} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5-brane anomaly cancellation]]_ ([arXiv:2002.07737](https://arxiv.org/abs/2002.07737))
 
 
 ### Double dimensional reduction to D4-brane
