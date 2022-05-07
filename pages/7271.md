@@ -28,6 +28,11 @@ On the work of [[Henri Cartan]] in relation to [[homotopy theory]]:
 
 * [[John Frank Adams]], _The work of M. H. Cartan in its relation with homotopy theory_, Colloque analyse et topologie,Astérisque no. 32-33 (1976), p. 29-41 ([numdam:AST_1976__32-33__29_0/](http://www.numdam.org/item/AST_1976__32-33__29_0/))
 
+On [[Lie groups]]:
+
+* {#Adams82} [[Frank Adams]], *Lectures on Lie groups*, University of Chicago Press, 1982 ([ISBN:9780226005300](https://press.uchicago.edu/ucp/books/book/chicago/L/bo3614673.html), [gbooks](https://www.google.com/books/edition/Lectures_on_Lie_Groups/TC7d3ZcqjfsC?hl=en))
+
+
 ## Related entries
 
 * [[Adams operation]]
