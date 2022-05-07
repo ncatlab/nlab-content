@@ -68,7 +68,7 @@ From [CDCW 21](#CDCW21):
 
 The simple but important special case of passive correction of erasures may be  handled by *quantum error correcting codes*:
 
-Recall that a classical [[error correcting code]] on a [[finite set]] of states $S$ is, typically, a choice of [[injection]] of $S$ into some larger set, typicall a [[Cartesian power]] 
+Recall that a classical [[error correcting code]] on a [[finite set]] of states $S$ is, typically, a choice of [[injection]] of $S$ into some larger set, typically a [[Cartesian power]] 
 
 $$
   L \overset{code}{\hookrightarrow} P \coloneqq H \times \cdots \times H
@@ -122,7 +122,7 @@ While this is superficially analogous to a classical [[error correcting code]], 
 
 ### Specific examples
 
-#### A 3-qtrit code
+#### A 3-qutrit code
  {#A3FoldqtritCode}
 
 The following is a simple illustrative example from [Cleve, Gottesman & Lo 99, p. 1-2](#CleveGottesmanLo99):
@@ -287,11 +287,11 @@ Concretely, the the HaPPY [[code subspace]] is the [[image]] of the [[linear map
 
    1. assigning $T$ to each [[vertex]] at the center of the [[pentagons]] (show in blue), with 5 of its indices contracted with its neighbours in the hyperbolic plane,
 
-  1 and its 6th uncontracted index remaining as an input (shown in red);
+   1. and its 6th uncontracted index remaining as an input (shown in red);
 
-   1. regading the uncontrated edges at the cutoff boundary as output (shown in white)
+1. regarding the uncontracted edges at the cutoff boundary as output (shown in white)
 
-and thus as a [[linear map]] form the [[tensor product]] over the [[bulk]]-[[vertices]] to the [[tensor product]] over the edges sticking out over the boundary.
+and thus as a [[linear map]] from the [[tensor product]] over the [[bulk]]-[[vertices]] to the [[tensor product]] over the edges sticking out over the boundary.
 
 #### Majorana dimer codes
 
