@@ -43,7 +43,7 @@ This is often considered in the special case of [[twisted ad-equivariant K-theor
 
 In a context of [[orbifold K-theory]] and for [[torsion subgroup|torsion]] class twists ("[[discrete torsion]]"):
 
-* {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
+* {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168), [doi:10.1007/s00220-003-0849-x](https://doi.org/10.1007/s00220-003-0849-x))
 
 With an eye towards [[twisted ad-equivariant K-theory]]:
 
