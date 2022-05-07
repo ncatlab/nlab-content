@@ -278,6 +278,8 @@ In particular
 
 ## Related concepts
 
+* [[cyclic loop space]], [[cyclic loop stack]]
+
 * [[caloron correspondence]]
 
 ## References
@@ -289,7 +291,7 @@ Formalization of double dimensional reduction is discussed in [[rational homotop
 
 and in full [[homotopy theory]] in
 
-* {#BMSS18} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], Section 2.2 of  _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_ ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
+* {#BMSS18} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], Section 2.2 of:  _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics 371: 197 (2019) ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115), [doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4))
 
 Exposition is in
 
