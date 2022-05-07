@@ -91,6 +91,11 @@ A similar logic is satisfied by '[[eventually]]' and its dual ('frequently') in 
 
 * [[almost surely]]
 
+## References
+
+See also 
+
+* Wikipedia, *[Null set](https://en.wikipedia.org/wiki/Null_set)*
 
 [[!redirects negligible set]]
 [[!redirects negligible sets]]
