@@ -36,7 +36,8 @@ which in degree $n$ is the standard extended [[n-simplex]] inside [[Cartesian sp
 
 This induces a [[nerve and realization]] [[adjunction]] between [[diffeological spaces]] and [[simplicial sets]]:
 
-$$
+\[
+  \label{NerveAndRealizationForDiffeologicalSpaces}
   DiffeologicalSpaces
   \underoverset
     {
@@ -50,7 +51,7 @@ $$
     }
   SimplicialSets
   \,,
-$$
+\]
 
 where the [[right adjoint]] is the _diffeological [[singular simplicial set]] [[functor]]_ $Sing_{diff}$. 
 
