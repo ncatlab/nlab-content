@@ -79,11 +79,8 @@ There are furcher technical open issues, such as the open question whether the t
 
 ## Related concepts
 
-* [[IKKT matrix model]]
+[[!include brane matrix models -- content]]
 
-* [[BMN matrix model]]
-
-* [[membrane matrix model]]
 
 * [[SYK model]]
 
