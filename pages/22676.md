@@ -22,7 +22,7 @@ On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]
 
 On [[quantum computation]] and more generally on [[quantum systems]]:
 
-* [[Louis Kauffman]], [[Samuel J. Lomonaco]], *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) (ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007))
+* [[Goong Chen]], [[Louis Kauffman]], [[Samuel J. Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) (ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007))
 
 
 
