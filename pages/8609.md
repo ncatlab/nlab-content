@@ -197,8 +197,20 @@ $$
 $$
 
 
-
 =--
+
+## In higher category theory
+
+Let $C$ be an (∞,1)-category. We still want to define the dependent sum as the functor $C_{/X} \to C_{/Y}$ given by composing with the functor $X \to Y$, but the details are more complex.
+
+The [[codomain fibration]] $tgt : C^{[1]} \to C$ is a cocartesian fibration classified by a functor $L : C \to (\infty,1)Cat : X \mapsto C_{/X}$.
+
+Then for any $f : X \to Y$, we can define $\Sigma_f = L(f)$ to be the dependent sum.
+
+Since the morphisms $[z \to x] \to [z \to y]$ induced by composition are cocartesian morphisms, we see that $\Sigma_f$ is indeed given by composition with $f$.
+
+By proposition 6.1.1.1 and the following remarks of [Lurie](#Lurie), if $C$ has pullbacks, then this is also a cartesian fibration, and is classified by a map $R : C^{op} \to (\infty,1)Cat$. Then $f^* = R(f) : C_{/Y} \to C_{/X}$ is the functor computing pullbacks along $f$, and we have the adjunction $\Sigma_f \dashv f^*$.
+
 
 ## Related concepts
 
@@ -231,8 +243,11 @@ and section IV of
 
 * {#MacLaneMoerdijk}
  [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-  
 
+Other references:
+
+* {#Lurie}[[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+ 
 
 
 [[!redirects dependent sum]]
