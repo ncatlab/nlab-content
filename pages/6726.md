@@ -47,7 +47,7 @@ As is usual in the theory of [[symmetric functions]] one can also deal with [[fo
 ### In terms of semistandard Young tableaux
  {#InTermsOfSemistandardYoungTableaux}
 
-A *[[semistandard Young tableau]]* is a [[Young tableaux]] such that its values are:
+A *[[semistandard Young tableau]]* is a [[Young tableau]] such that its values are:
 
 1. weakly increasing to the right (along rows),
 
