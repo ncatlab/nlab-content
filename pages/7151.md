@@ -19,6 +19,13 @@ Proposal for understanding [[D=6 N=(1,0) SCFTs]] as [[higher gauge theories]] fo
 
 * [[Christian Saemann]], [[Lennart Schmidt]], _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 ([arxiv:1712.06623](https://arxiv.org/abs/1712.06623))
 
+On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras]]:
+
+* [[Leron Borsten]], [[Branislav Jurco]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double Copy from Homotopy Algebras_ ([arXiv:2102.11390](https://arxiv.org/abs/2102.11390))
+
+
+
+
 ## Related $n$Lab entries
 
 * [[M2-brane 3-algebra]]
