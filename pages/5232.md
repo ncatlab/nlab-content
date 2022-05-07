@@ -9,18 +9,25 @@ Antonio Mart&#237;nez Cegarra is a Spanish mathematician, who is in the [Departa
 
 ##References
 
-* [[M. Bullejos]], A. M. Cegarra and [[J. Duskin]], On cat$^n$ -groups and homotopy types , J. Pure 
-Appl. Alg., 86, (1993), 135 &#8211; 154.
+On [[n-groups]] and [[homotopy types]]:
 
+* [[M. Bullejos]], A. M. Cegarra and [[J. Duskin]], On cat$^n$ -groups and homotopy types , J. Pure  Appl. Alg., 86, (1993), 135 &#8211; 154.
 
 * [[Pilar Carrasco]] and [[Antonio Cegarra|A. M. Cegarra]], _Group-theoretic Algebraic Models for Homotopy Types_, J. Pure Appl. Alg., 75, (1991), 195 &#8211; 235.
 
-* [[Antonio Martínez Cegarra]], Benjam&#305;n A. Heredia and  Josu&#233; Remedios, 
-_Double groupoids and homotopy 2-types_
-Appl. Categ. Struct. 20, No. 4, 323-378 (2012), see also [arXiv:1003.3820](http://arxiv.org/abs/1003.3820).
+On the [[diagonal of a bisimplicial set|diagonal]] of [[bisimplicial sets]]:
+
+* [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf), [doi:10.1016/j.topol.2004.12.003](https://doi.org/10.1016/j.topol.2004.12.003))
+
+
+On [[double groupoids]] and [[homotopy 2-types]]:
+
+* [[Antonio Martínez Cegarra]], Benjam&#305;n A. Heredia, [[Josué Remedios]],  _Double groupoids and homotopy 2-types_, Appl. Categ. Struct. 20, No. 4, 323-378 (2012), see also [arXiv:1003.3820](http://arxiv.org/abs/1003.3820).
 
 category:people
+
 [[!redirects Antonio M. Cegarra]]
 [[!redirects Antonio Martínez Cegarra]]
 [[!redirects A. M. Cegarra]]
 [[!redirects Cegarra]]
+
