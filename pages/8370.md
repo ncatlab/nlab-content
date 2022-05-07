@@ -75,8 +75,9 @@ See also at _[History of categorical semantics of linear type theory](linear+typ
 A exposition of the relation between the three concepts is in
 
 * {#Harper} [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/), [wayback machine snapshot](https://web.archive.org/web/20170921012554/http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
- 
 
+* [[Harley Eades]], Section 3 of: *Type Theory and Applications*, 2012 ([pdf](https://metatheorem.org/includes/pubs/comp.pdf))
+ 
 * {#Frumin14} Dan Frumin, _Computational trinitarianism_, Feb 2014 ([prezi slides](http://prezi.com/fnz-4wzsygiq/computational-trinitarianism/))
 
 An exposition with emphasis on [[linear logic]]/[[quantum logic]] and the relation to [[physics]] is in
