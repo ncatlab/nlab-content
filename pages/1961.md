@@ -829,8 +829,7 @@ $$
   \partial f \;\colon\; x \mapsto \frac{d}{d t} (f \circ \gamma_{v_x})_0
 $$
 
-where $\gamma_{v_x} \colon \mathbb{R}^1 \to X$ is a smooth curve which represents the [[tangent vector]] $v(x) \in T_x X$
-according to def. \ref{TangentVector}.
+where $\gamma_{v_x} \colon \mathbb{R}^1 \to X$ is a smooth curve which represents the [[tangent vector]] $v(x) \in T_x X$ according to def. \ref{TangentVector}.
 
 The linearity of [[derivatives]] and the [[product rule]] of [[differentiation]]
 imply that this function $\partial_v$ is a [[derivation]] on the algebra of smooth functions. Hence there is a function
@@ -969,8 +968,8 @@ See [[Frölicher space]] and [[diffeological space]] for the definitions in thei
 ### For $C^k$-manifolds
 
 For manifolds of the class $C^k$, $0\lt k\lt \infty$,
-the definition of a tangent vector as a derivation of the algebra
-of functions remains valid if one strengthens the definition of a derivation:
+the definition of a tangent vector as a [[derivation]] of the algebra
+of functions ([[derivations of smooth functions are vector fields]]) remains valid if one strengthens the definition of a [[derivation]]:
 we must now require
 $$D(f(g_1,\ldots,g_m))=\sum_i (\partial_i f)(g_1,\ldots,g_m)D(g_i).$$
 
@@ -998,12 +997,13 @@ See Newns and Walker \cite{NewnsWalker}.
 
 ## References
 
-An early account of tangent vectors as [[derivations]], including the $C^k$-case for $0\lt k\lt \infty$ is in
+An early account of 
+[[derivations of smooth functions are vector fields|tangent vectors as derivations]], including the $C^k$-case for $0\lt k\lt \infty$ is in
 
-* [[W. F. Newns]], [[A. G. Walker]].  _Tangent Planes To a Differentiable Manifold_.  Journal of the London Mathematical Society s1-31:4 (1956), 400–407.  [doi:10.1112/jlms/s1-31.4.400](https://doi.org/10.1112/jlms/s1-31.4.400).
+* [[W. F. Newns]], [[A. G. Walker]],  _Tangent Planes To a Differentiable Manifold_.  Journal of the London Mathematical Society s1-31:4 (1956), 400–407 ([doi:10.1112/jlms/s1-31.4.400](https://doi.org/10.1112/jlms/s1-31.4.400))
 
 
-A textbook account of tangent bundles in the context of [[synthetic differential geometry]] is in
+A textbook account of tangent bundles in the context of [[synthetic differential geometry]]:
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
