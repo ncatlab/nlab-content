@@ -3,36 +3,34 @@ This entry is about the text
 * [[Alexander Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ ([numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short))
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
-##EGA
+## EGA
 
-EGA stands for _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ (Elements of algebraic geometry), which was written by [[Alexandre Grothendieck]] and co-edited with [[Jean Dieudonne|Jean Dieudonné]]. These volumes (and a list is given below) were among his many works attempting to build the foundations for [[algebraic geometry]] in the language of [[schemes]]. They were preceded by FGA and were followed up by the SGA, more details of these can be found below.
+EGA stands for _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ (Elements of algebraic geometry), which was written by [[Alexandre Grothendieck]] and co-edited with [[Jean Dieudonne|Jean Dieudonné]]. These volumes (and a list is given below) were among his many works attempting to build the foundations for [[algebraic geometry]] in the language of [[schemes]]. They were preceded by [[FGA]] and were followed up by the SGA, more details of these can be found below.
 
 The published part of _EGA_ is in Publ. IH&#201;S, now free online at [numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short) (detailed links to chapters, and their contents will be added here later, see also below for a list of the volumes in the series). We plan to list here the grand plan and some remarks and links.
 
-###List of volumes of EGA
+### List of volumes of EGA
 
 Note that there is a chapter 0 that continues at the beginning of each chapter, establishing preliminaries from [[topology]], [[category theory]], [[commutative algebra]], [[homological algebra]], etc.
 
 * I. Le langage des sch&#233;mas, 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 4 (1960), 5&#8211;228. Ch. 0.&#167;1&#8211;7 ; Ch I.&#167;1&#8211;10. 
 
-* II. &#201;tude globale &#233;l&#233;mentaire de quelques classes de morphismes, 
-Inst. Hautes &#201;tudes Sci. Publ. Math. 8 (1961), 5&#8211;222. Ch. II.&#167;1&#8211;8.
+* II. &#201;tude globale &#233;l&#233;mentaire de quelques classes de morphismes,  Inst. Hautes &#201;tudes Sci. Publ. Math. 8 (1961), 5&#8211;222. Ch. II.&#167;1&#8211;8.
 
 * III_1. &#201;tude cohomologique des faisceaux coh&#233;rents (Premi&#232;re partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 11 (1961), 5&#8211;167. Ch. 0.&#167;8&#8211;13 ; Ch.III.&#167;1&#8211;5. 
 
-* III_2. &#201;tude cohomologique des faisceaux coh&#233;rents (Seconde partie) 
-Inst. Hautes &#201;tudes Sci. Publ. Math. 17 (1963), 5&#8211;91. Ch. III .&#167;6&#8211;7. 
+* III_2. &#201;tude cohomologique des faisceaux coh&#233;rents (Seconde partie)  Inst. Hautes &#201;tudes Sci. Publ. Math. 17 (1963), 5&#8211;91. Ch. III .&#167;6&#8211;7. 
 
 * IV_1. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Premi&#232;re partie)  Inst. Hautes &#201;tudes Sci. Publ. Math. 20 (1964), 5&#8211;259. Ch.0.&#167;14&#8211;23 ; Ch. IV.&#167;1. 
 
-* IV_2. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Seconde partie) 
-Inst. Hautes &#201;tudes Sci. Publ. Math. 24 (1965), 5&#8211;231. Ch. IV2.&#167;2&#8211;7 . 
+* IV_2. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Seconde partie) Inst. Hautes &#201;tudes Sci. Publ. Math. 24 (1965), 5&#8211;231. Ch. IV2.&#167;2&#8211;7 . 
 
 * IV_3. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Troisi&#232;me partie) Inst. Hautes &#201;tudes Sci. Publ. Math. 28 (1966), 5&#8211;255. Ch. IV.&#167;8&#8211;15 ([numdam:PMIHES_1966__28__5_0/](http://www.numdam.org/item/PMIHES_1966__28__5_0/))
 
@@ -52,14 +50,14 @@ EGA was never completed. The listed volumes I-IV are just a part of the original
 
 [Wikipedia](http://en.wikipedia.org/wiki/%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique) lists the titles of planned chapters I-XIII.
 
-##The other series:
+## The other series:
 
-###FGA (Fondements de la G&#233;ometrie Alg&#233;brique)
+### FGA (Fondements de la G&#233;ometrie Alg&#233;brique)
 
- The earliest of the series is _FGA_ written alone at the end of the 1950s; it is sort of quick outline of the theory and some deep results with proofs at the beginning of the period of the development of [[scheme theory]]. A modern version of the material in FGA appeared as a book [[FGA explained]] (ICTP, Trieste 2003--2005). The original is available [here](http://www.math.jussieu.fr/~leila/grothendieckcircle/FGA.pdf).
+ The earliest of the series is _[[FGA]]_ written alone at the end of the 1950s; it is sort of quick outline of the theory and some deep results with proofs at the beginning of the period of the development of [[scheme theory]]. A modern version of the material in [[FGA]] appeared as a book [[FGA explained]] (ICTP, Trieste 2003--2005). The original is available [here](http://www.math.jussieu.fr/~leila/grothendieckcircle/FGA.pdf).
 
 
-###SGA (S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois Marie)
+### SGA (S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois Marie)
 
 (Bois Marie is the name of an area of woodland at Bures-sur-Yvette, where the [[math institutions|IHÉS]] is situated.)
 
@@ -72,14 +70,21 @@ The [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C
 An ongoing project aims to retype the SGA volumes in TeX.
 So far the following volumes have been retyped:
 
-- [SGA 1](http://arxiv.org/abs/math/0206203) - Edited by B. Edixhoven, 2004
-- [SGA 2](http://arxiv.org/abs/math/0511279) - Edited by Y. Laszlo, 2004
-- [SGA 3](http://webusers.imj-prg.fr/~patrick.polo/SGA3/) - Edited by P. Gilles and P. Polo, 2011
-- SGA 4 - Edited by Y. Laszlo.
-[Part 1](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-1/sga41.pdf),
-[Part 2](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-2/sga42.pdf),
-[Part 3](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf).
-- [SGA $4{1\over2}$](https://github.com/dkmiller/sga4.5) - Edited by Daniel Miller.
+* [SGA 1](http://arxiv.org/abs/math/0206203) - Edited by B. Edixhoven, 2004
+
+* [SGA 2](http://arxiv.org/abs/math/0511279) - Edited by Y. Laszlo, 2004
+
+* [SGA 3](http://webusers.imj-prg.fr/~patrick.polo/SGA3/) - Edited by P. Gilles and P. Polo, 2011
+
+* SGA 4 - Edited by Y. Laszlo.
+
+  [Part 1](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-1/sga41.pdf),
+
+  [Part 2](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-2/sga42.pdf),
+
+  [Part 3](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf).
+
+* [SGA $4{1\over2}$](https://github.com/dkmiller/sga4.5) - Edited by Daniel Miller.
 
 
 
@@ -91,7 +96,7 @@ See also:
 
 
 
-##References
+## References
 
 There are Wikipedia entries
 
@@ -138,7 +143,6 @@ For an essay on content of EGA (about 50 years after the publication) see
 
 
 [[!redirects SGA]]
-[[!redirects FGA]]
 [[!redirects Éléments de géométrie algébrique]]
 [[!redirects Elements de geometrie algebrique]]
 [[!redirects Elements of algebraic geometry]]
