@@ -145,9 +145,12 @@ Relation to [[tensor networks]], specifically [[matrix product states]]:
 
 * Yiqing Zhou, E. Miles Stoudenmire, Xavier Waintal, _What limits the simulation of quantum computers?_, [arXiv:2002.07730](https://arxiv.org/abs/2002.07730)
 
-### Experimental achievements
+### Experimental realization
 
 * Han-Shen Zhong et al. _Quantum computational advantage using photons_, Science 370, n. 6523 (2020) 1460-1463 [doi](https://doi.org/10.1126/science.abe8770)
+
+
+
 
 category: computer science, physics
 
