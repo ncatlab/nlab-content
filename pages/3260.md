@@ -354,6 +354,10 @@ The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ 
 
 * [[equivariant structure]]
 
+* [[Elmendorf's theorem]]
+
+  * [[fine model structure on topological G-spaces]]
+
 * [[equivariant homotopy group]]
 
 * [[equivariant differential topology]]
