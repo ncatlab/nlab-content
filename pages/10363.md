@@ -15,6 +15,12 @@ Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(
 
 * Goran Senjanović, [[Frank Wilczek]], [[Anthony Zee]], _Reflections on mirror fermions_,  Physics Letters B Volume 141, Issues 5–6, 5 July 1984, Pages 389-394 Physics Letters B (<a href="https://doi.org/10.1016/0370-2693(84)90269-7">doi:10.1016/0370-2693(84)90269-7</a>)
 
+
+On [[anyons]]:
+
+* [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. 48, 1144, 1982 ([doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144))
+
+
 On [[axions]]:
 
 
