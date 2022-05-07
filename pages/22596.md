@@ -40,7 +40,13 @@ $$\mathbb{N} \cong \mathbb{N}[10] \coloneq \mathbb{N}[x]/(x=10)$$
 
 ## Finite decimals
 
+### Rig theoretic definition
+
 Localisation of the [[rig]] of natural numbers at 10 $\mathbb{N}[1/10]$, finite decimals as canonical representatives of $\mathbb{N}[1/10]$, and then [[group completion]] of the additive monoid to $\mathbb{Z}[1/10]$.
+
+### Order theoretic definition
+
+See below, but define in terms of an initial algebra instead of a terminal coalgebra. 
 
 ## Infinite decimals
 
