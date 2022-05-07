@@ -1070,8 +1070,175 @@ for every plain local trivialization around any [[orbit]] the [[equivariant Tiet
 
 \end{remark}
 
+\linebreak
+
+### Universal equivariant principal bundles
+ {#UniversalEquivariantPrincipalBundles}
+
+\begin{defn}\label{calBGammaForDiscreteG}
+**(Murayama-Shimakawa groupoid for discrete $G$)** \linebreak
+  For $G$ a [[discrete group]] and $(\Gamma,\alpha)$ a $G$-[[equivariant group|equivariant]] [[topological group]] (hence a [[topological group]] equipped with an [[action]] $\alpha$ of $G$ by continuous group [[automorphisms]]), consider the [[topological groupoid]] which is the [[functor groupoid]] from the [[pair groupoid]] of $G$ to the [[delooping groupoid]] of $\Gamma$:
+
+\[
+  \label{HomGroupoidFromPairGroupoidOfGToDeloopingGroupoidOfGamma}
+  \mathcal{B}\Gamma
+  \;\coloneqq\;
+  Groupoids(TopSpaces)
+  \left(
+    G \times G 
+      \underoverset{pr_2}{pr_1}{\rightrightarrows}
+    G,
+    \;
+    \Gamma \rightrightarrows \ast
+  \right)
+\]
+
+but regarded as an [[internal groupoid]] in [[topological G-spaces]] 
+
+$$
+  \mathcal{B}\Gamma
+  \;\in\;
+  Groupoids
+  \big(
+    G Actions(TopologicalSpaces)
+  \big)
+$$
+
+by equipping it with the $G$-[[group action|action]] given on [[functors]] $F$ and [[natural transformations]] $\eta$ in (eq:HomGroupoidFromPairGroupoidOfGToDeloopingGroupoidOfGamma) by:
+
+$$
+  (g \cdot F)
+  (g_1, g_2)  
+  \;\coloneqq\;
+  \alpha(g)
+  \big(
+    F(g_1 g, g_2 g)
+  \big)
+  \,,
+  {\phantom{AAA}}
+  (g \cdot \eta)
+  (g_1)
+  \;\coloneqq\;
+  \alpha(g)(\eta(g_1))
+  \,.
+$$
+
+\end{defn}
+
+> add word on choice of topology on the mapping spaces, see [Murayama-Shimakawa 95, p. 1293 (5 of 7)](#MurayamaShimakawa95)
+
+\begin{prop}\label{RealizationOfMurayamaShimakawaGroupoidForDiscreteGIsClassifyingSpace}
+  The [[fat geometric realization]] of the [[nerve]] of the $G$-topological groupoid from Def. \ref{HomGroupoidFromPairGroupoidOfGToDeloopingGroupoidOfGamma} 
+$$
+  \left\Vert
+    \mathcal{B}\Gamma
+  \right\Vert
+  \;\;
+  \in
+  G Actions(TopSpaces)
+$$
+is a [[classifying space]] for $G$-equivariant $(\Gamma,\alpha)$-principal bundles.
+\end{prop}
+\begin{proof}
+  This is Theorem 3.1 in [Murayama-Shimakawa 95](#MurayamaShimakawa95),
+  using the remark on the bottom of p. 1294 (6 of 7) that for discrete group $G$ the construction in Theorem 3.1 may be simplified.
+\end{proof}
 
 
+\begin{prop}\label{FixedLociOfcalBGammaForDiscreteG}
+  Let $H \subset G$ any [[subgroup]], there is an [[equivalence]] of [[topological groupoids]] between the $H$-[[fixed locus]] of the $G$-groupoid from Def. \ref{calBGammaForDiscreteG} and
+
+1. for trivial $\alpha$: the [[functor groupoid]] between the [[delooping groupoids]] of $G$ and $\Gamma$:
+
+   $$
+     \big(
+       \mathcal{B}\Gamma
+     \big)^H
+     \;\;
+     \simeq
+     \;\;
+     Groupoids(TopSpaces)
+     \big(
+       G \rightrightarrows \ast,
+       \,,
+       \Gamma \rightrightarrows \ast
+     \big)
+   $$
+
+1. for general $\alpha$: the [[action groupoid]] of the [[conjugation action]] of $\Gamma \overset{\gamma \mapsto (\gamma,e)}{\hookrightarrow} \Gamma \rtimes_\alpha G$ on [[group homomorphisms]] $\phi \colon G \to \Gamma \rtimes_\alpha G$ which are [[sections]] ($pr_2 \circ \phi = id_G$) of $pr_2 \colon \Gamma \rtimes_\alpha G \to G$:
+
+   $$
+     \big(
+       \mathcal{B}\Gamma
+     \big)^H
+     \;\;
+     \simeq
+     \;\;
+     \Big(
+       Groups(TopSpaces)_{/G}
+       \big(
+         G, \, \Gamma \rtimes_\alpha G
+       \big)
+     \Big)
+     \sslash
+     \Gamma
+     \,.
+   $$
+
+\end{prop}
+\begin{proof}
+  The first statement is the evident specialization of the second. It may help to go through the proof first in this special case of trivial $\alpha$, as the presence of $\alpha$ can tend to obscure the simple logic behind it.
+
+  First consider the case $H = G$.
+  Here the point to notice is that $G$-invariance of a functor
+  $
+    F 
+    \colon 
+    G \times G 
+    \to
+    \Gamma
+  $
+  means that its value depends only on the difference of its arguments
+  $$
+    F(g_1, g_2) = F'( g_1 g_2^{-1} )
+  $$
+  and functoriality then means equivalently that $g \mapsto (F'(g), g)$
+  is a group homomorphism to $\Gamma \rtimes_\alpha$.
+
+  Similarly, $G$-invariance of a naturaltrans formation
+  $\eta \colon G \to \Gamma$ means that its components are fixed by
+  its values on $e \in G$ via
+
+  $$
+    \eta( g^{-1} ) \;=\; \alpha(g)(\eta(e))
+    \,.
+  $$
+
+  With this, the naturality square for $\eta$ commutes precisely
+  if two sections $g \mapsto (F'(g), g)$, as above, 
+  are related by conjugation with $\gamma_e \in \Gamma \rtimes_\alpha G$.
+
+  This proves the equivalence in the case $H = G$.
+
+  Next to see the claim for general $H \subset G$, notice that 
+  restriction along 
+  $(H \times H \rightrightarrows H) \hookrightarrow (G \times G \rightrightarrows G)$ followed by the above equivalence (now for $G$ replaced by $H$) gives a canonical comparison functor $p$. We claim
+that a homotopy-inverse is given by the evident inclusion functor $i$ that fills up unspecified data by neutral elements. It is clear that $p \circ i = id$ and one checks that there is a homotopy $(id \Rightarrow i \circ p )$ (which is straightforward if one chooses good diagrammatic notation...).
+
+\end{proof}
+
+\begin{remark}
+  To the extent that passage to fixed loci commutes with 
+  realization (this would be guaranteed if we could use ordinary
+  geometric realization in Prop. \ref{RealizationOfMurayamaShimakawaGroupoidForDiscreteGIsClassifyingSpace}),
+  Prop. \ref{FixedLociOfcalBGammaForDiscreteG} immediately implies
+  the behaviour of equivariant classifying spaces under 
+  fixed loci according to [Lashof 82, Thm. 2.17](#Lashof82) and [Lashof & May 86, Thm. 10](#LashofMay86).
+\end{remark}
+
+(...)
+
+\linebreak
 
 
 ## Examples
