@@ -40,6 +40,8 @@ To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stack
 * [[ring]]
 * [[rig]]
 * [[idempotent semifield]]
+* [[tropical semiring]]
+* [[max-plus algebra]] 
 
 
 [[!redirects idempotent semiring]]
