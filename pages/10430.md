@@ -46,11 +46,11 @@ in [[topological insulators]] based on mercury telluride ("[HgTe quantum wells](
 * [[Andrei Bernevig]], [[Taylor Hughes]], [[Shou-Cheng Zhang]], _Quantum spin Hall effect and topological phase transition in HgTe quantum wells_, Science 15 December 2006: __314__, n. 5806, pp. 1757-1761 ([doi:10.1126/science.1133734](http://dx.doi.org/10.1126/science.1133734), [arXiv:cond-mat/0611399](https://arxiv.org/abs/cond-mat/0611399))
 
 
-  > [[Xiao-Gang Wen]]$\,$[comments (Oct. 2013)](https://ncatlab.org/nlab/revision/diff/quantum+spin+Hall+effect/2):  In fact, the above material have no quantum spin Hall effect since the spin is not conserved due to the spin-orbital interaction that makes the material non trivial, or the _Quantum spin Hall effect_ defined in the paper is different from that defined in the Wiki: http://en.wikipedia.org/wiki/Quantum_spin_Hall_effect 
+  > [[Xiao-Gang Wen]] commented in Oct. 2013 ([rev 2](https://ncatlab.org/nlab/revision/diff/quantum+spin+Hall+effect/2), [rev 3](https://ncatlab.org/nlab/revision/diff/quantum+spin+Hall+effect/3)):  In fact, the above material have no quantum spin Hall effect since the spin is not conserved due to the spin-orbital interaction that makes the material non trivial, or the _Quantum spin Hall effect_ defined in the paper is different from that defined in the Wiki: http://en.wikipedia.org/wiki/Quantum_spin_Hall_effect 
 
 Experimental detection:
 
-* Markus König, Steffen Wiedmann, Christoph Brüne, Andreas Roth, Hartmut Buhmann, _Quantum Spin Hall Insulator State in HgTe Quantum Wells_, Science  02 Nov 2007, Vol. 318, Issue 5851, pp. 766-770 ([doi:10.1126/science.1148047 ](https://science.sciencemag.org/content/318/5851/766))
+* {#KWBRB07} Markus König, Steffen Wiedmann, Christoph Brüne, Andreas Roth, Hartmut Buhmann, _Quantum Spin Hall Insulator State in HgTe Quantum Wells_, Science  02 Nov 2007, Vol. 318, Issue 5851, pp. 766-770 ([doi:10.1126/science.1148047 ](https://science.sciencemag.org/content/318/5851/766))
 
 Review:
 
