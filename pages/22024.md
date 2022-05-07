@@ -23,6 +23,10 @@ In [[quantum electrodynamics]], _positronium_ is a [[bound state]] of an [[elect
 
 * [[Paul Hoyer]], Chapter V of: _Journey to the Bound States_ ([arXiv:2101.06721](https://arxiv.org/abs/2101.06721))
 
+* Xingbo Zhao, Kaiyu Fu, Hengfei Zhao, James P. Vary, _Positronium: an illustration of nonperturbative renormalization in a basis light-front approach_ ([arXiv:2103.06719](https://arxiv.org/abs/2103.06719))
+
+
+
 See also:
 
 * Wikipedia, _[Positronium](https://en.wikipedia.org/wiki/Positronium)_
