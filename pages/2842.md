@@ -485,14 +485,14 @@ This is part of the statement of the [[Quillen adjunction]] between then [[class
  {#BasepointsInLocallyEuclideanSpaces}
 
 \begin{proposition}
-  Any [[point]]-inclusion into a [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[locally Euclidean space|locally Euclidean]] [[Hausdorff space]] is an h-cofibration.
+  Any [[point]]-inclusion into a ([[finite number|finite]]-[[dimension of a manifold|dimensional]]) [[locally Euclidean space|locally Euclidean]] [[Hausdorff space]] $X$ is an h-cofibration.
 \end{proposition}
 \begin{proof}
-By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]] which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$. Now let:
+By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]] $U$ which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$. Now let:
 
-* $U \;\coloneqq\; B_\epsilon(1)$ be the [[closed ball]] in $\mathbb{R}^n$ of unit [[radius]];
+* $K \;\coloneqq\; B_\epsilon(1)$ be the (compact) [[closed ball]] in $\mathbb{R}^n$ of unit [[radius]];
 
-* $\phi_{\vert U}$ be the [[distance]] from the origin and $\phi_{\vert X\setminus U}$ to be the [[constant function]] to $1 \in [0,1]$.
+* $\phi\colon X\to[0,1]$ be given by $x\mapsto\min\{\| x\| ,1\}$ on $U$ (so that $\phi|_{U}$ is continuous) and $x\mapsto 1$ on $X\setminus U$ (so that $\phi|_{X\setminus K}$ is continuous — and hence $\phi$, by the [[sheaf]] property).
 
 * $\eta \colon (\vec x, t) \mapsto (1-t)\cdot \vec x$.
 
