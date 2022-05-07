@@ -1150,12 +1150,16 @@ This indeed is then the usual construction of the universal covering space in te
 
 ## References
 
-A textbook acccount is in 
+Textbook accounts;
+
+
+* [[William S. Massey]], Chapter 5 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
+
 
 * {#tomDieck06} [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
 
 
-Review includes
+Review
 
 * {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
 
