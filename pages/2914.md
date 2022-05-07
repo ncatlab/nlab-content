@@ -211,8 +211,45 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
 =--
 
 
+
 ### Quillen adjunctions
  {#PropertiesQuillenAdjunctions}
+
+#### Quillen base change
+
+\begin{proposition}\label{LeftBaseChangeQuillenAdjunction}
+**(left base change Quillen adjunction)** \linebreak
+  For $\mathcal{C}$ a [[model category]] and $c_1 \xrightarrow{f} c_2$ any [[morphism]] in $\mathcal{C}$, the left [[base change]] adjunction $(f_1 \dashv f^\ast)$ along $f$ (where $f_!$ is [[postcomposition]] with and $f^\ast$ is [[pullback]] along $f$) is a [[Quillen adjunction]]:
+  $$
+    \mathcal{C}_{/c_1}
+      \underoverset
+        {\underset{f^\ast}{\longleftarrow}}
+        {\overset{f_!}{\longrightarrow}}
+        {\;\;\;\;\bot_{\mathrlap{Qu}}\;\;\;\;}    
+    \mathcal{C}_{/c_2}
+    \,.
+  $$
+\end{proposition}
+\begin{proof}
+  Since the [[left adjoint]] $f_1$ is the [[postcomposition]] operation, it manifestly preserves the classes of [[underlying]] morphisms, hence in particular preserves the classes of (acyclic) cofibrations in the slice model structure (by Prop. \ref{SliceModelStructure}), hence is a [[left Quillen functor]].
+\end{proof}
+
+If this adjunction is a [[Quillen equivalence]], then $f$ must be a [[weak equivalence]].  In general, the converse can be proven only if $c_1$ and $c_2$ are [[fibrant objects|fibrant]].
+
+\begin{proposition}\label{RightPropernessAndLeftQuillenBaseChange}
+The following are equivalent:
+
+1. $\mathcal{C}$ is a [[right proper model category]].
+
+1. If $f \colon c_1 \to c_2$ is any [[weak equivalence]] in $\mathcal{C}$, then the left base change Quillen adjunction $(f_! \dashv f^\ast)$ (from Prop. \ref{LeftBaseChangeQuillenAdjunction}) is a [[Quillen equivalence]].
+
+\end{proposition}
+
+This is due to [Rezk 02, Prop. 2.5](#Rezk02).
+
+
+
+#### Sliced Quillen adjunctions
 
 \begin{proposition}\label{SlicedQuillenAdjunction}
 **(slice Quillen adjunctions)** \linebreak
@@ -227,30 +264,52 @@ $$
   \,,
 $$
 
-then for any [[object]] $b \in \mathcal{C}$ the [sliced adjunction](over+category#OnSlices) over $b$ is a  [[Quillen adjunction]] between the corresponding slice model categories (Prop. \ref{SliceModelStructure}):
+then:
 
-\[
-  \label{SlicedQuillenAdjointFunctors}
-  \mathcal{D}_{/L(c)}
-  \underoverset
-    {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
-    {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
-    {\bot_{\mathrlap{Qu}}}
-  \mathcal{C}_{/b}
-  \mathrlap{\,,}
-\]
+1. for any [[object]] $b \in \mathcal{C}$ the [sliced adjunction](over+category#OnSlices) over $b$ is a  [[Quillen adjunction]] between the corresponding slice model categories (Prop. \ref{SliceModelStructure}):
+
+   \[
+     \label{SlicedQuillenAdjointFunctorsOverLb}
+     \mathcal{D}_{/L(c)}
+     \underoverset
+       {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
+       {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
+       {\bot_{\mathrlap{Qu}}}
+     \mathcal{C}_{/b}
+     \mathrlap{\,,}
+   \]
+
+1. for any [[object]] $b \in \mathcal{D}$ the [sliced adjunction](over+category#OnSlices) over $b$ is a  [[Quillen adjunction]] between the corresponding slice model categories (Prop. \ref{SliceModelStructure}):
+
+   \[
+     \label{SlicedQuillenAdjointFunctorsOverRb}
+     \mathcal{D}_{/c}
+     \underoverset
+       {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
+       {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
+       {\bot_{\mathrlap{Qu}}}
+     \mathcal{C}_{/R(b)}
+     \mathrlap{\,,}
+   \]
 
 \end{proposition}
 
 (e.g. [Li 2016, Prop. 2.5 (2)](#Li16))
 
 \begin{proof}
+Consider the first case:
 By the nature of the [sliced adjunction](over+category#OnSlices), 
-its [[left adjoint]] $L_{/b}$ acts as $L$ on [[underlying]] morphism. But since $L$ is assumed to be a [[left Quillen functor]] and since the (acyclic) cofibrations of the slice model structure are those of [[underlying]] morphisms (Prop. \ref{SliceModelStructure}), $L_{/b}$ preserves them and is hence itself a [[left Quillen functor]].
+its [[left adjoint]] $L_{/b}$ acts as $L$ on [[underlying]] morphism. 
+But since $L$ is assumed to be a [[left Quillen functor]]
+and since the (acyclic) cofibrations of the slice model structure are those of [[underlying]] morphisms (Prop. \ref{SliceModelStructure}), 
+$L_{/b}$ preserves them and is hence itself a [[left Quillen functor]].
+
+The second case is directly analous: Here it is evident that $R_{/b}$ is a [[right Quillen functor]], since it acts via $R$ on [[underlying]] morphisms, and $R$ is right Quillen by assumption.
 \end{proof}
 
-\begin{proposition}
-Given a [[Quillen equivalence]]
+\begin{proposition}\label{SlicedQuillenQuivalences}
+**(sliced Quillen equivalences)** \linebreak
+Consider a [[Quillen equivalence]]
 $$
   \mathcal{D}
     \underoverset
@@ -258,10 +317,12 @@ $$
       {\overset{L}{\longleftarrow}}
       {\;\;\;\;\simeq_{\mathrlap{Qu}}\;\;\;\;}
   \mathcal{C}
-  \,,
+  \,.
 $$
 
-and a [[cofibrant object]] $b$ such that $L(b)$ is a [[fibrant object]], then the sliced Quillen adjunction (eq:SlicedQuillenAdjointFunctors) from Prop. \ref{SlicedQuillenAdjunction} is itself a [[Quillen equivalence]]:
+Then:
+
+1. for a [[cofibrant object]] $b \in \mathcal{C}$ such that $L(b)$ is a [[fibrant object]], the sliced Quillen adjunction (eq:SlicedQuillenAdjointFunctorsOverLb) from Prop. \ref{SlicedQuillenAdjunction} is itself a [[Quillen equivalence]]:
 
 $$
   \mathcal{D}_{/L(b)}
@@ -272,7 +333,19 @@ $$
   \mathcal{C}_{/b}
 $$
 
+1. for a [[fibrant object]] $b \in \mathcal{D}$, the sliced Quillen adjunction (eq:SlicedQuillenAdjointFunctorsOverRb) from Prop. \ref{SlicedQuillenAdjunction} is itself a [[Quillen equivalence]]:
+
+$$
+  \mathcal{D}_{/b}
+  \underoverset
+    {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
+    {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
+    {\simeq_{\mathrlap{Qu}}}
+  \mathcal{C}_{/R(b)}
+$$
+
 \end{proposition}
+(e.g. [Li 16, Prop. 3.1](#Li16))
 \begin{proof}
   It is sufficient to check that the [[derived adjunction unit]] and [[derived adjunction counit]] are [[weak equivalences]] (...)
 \end{proof}
@@ -307,11 +380,16 @@ $$
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], Theorem 7.6.5 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
+
 * {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([pdf](http://www-math.mit.edu/~psh/undercat.pdf), [arXiv:1507.01624](https://arxiv.org/abs/1507.01624))
 
 * {#MayPonto12} [[Peter May]], [[Kate Ponto]], Thm. 15.3.6 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
 
 * {#Li16} Zhi-Wei Li, *A note on the model (co-)slice categories*, Chinese Annals of Mathematics, Series B volume 37, pages 95–102 (2016) ([arXiv:1402.2033](https://arxiv.org/abs/1402.2033), [doi:10.1007/s11401-015-0955-z](https://doi.org/10.1007/s11401-015-0955-z))
+
+See also:
+
+* {#Rezk02} [[Charles Rezk]], _Every homotopy theory of simplicial algebras admits a proper model_, Topology and its Applications, Volume 119, Issue 1, 2002, Pages 65-94, (<a href="https://doi.org/10.1016/S0166-8641(01)00057-8">doi:10.1016/S0166-8641(01)00057-8</a>, [arXiv:math/0003065](http://arxiv.org/abs/math/0003065))
 
 
 * {#Cisinski20} [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_, 2020 ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
