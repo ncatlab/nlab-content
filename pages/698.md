@@ -1,12 +1,32 @@
-#Idea#
 
-A _strict model 2-category_ is a [[strict 2-category]] $C$ -- hence a category [[enriched category|enriched over]] [[Cat]] -- whose underlying [[category]] $C_1$ is equipped with the structure of a [[model category]] which is compatible, in some sense, with the [[folk model structure]] on the enrichment category [[Cat]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _strict model 2-category_ is a [[strict 2-category]] $C$ -- hence a [[category]] [[enriched category|enriched over]] [[Cat]] -- whose underlying [[category]] $C_1$ is equipped with the structure of a [[model category]] which is compatible, in some sense, with the [[folk model structure]] on the enrichment category [[Cat]].
 
 The compatibility is such that in particular the notion of [[homotopy limit]] and of [[strict 2-limit|pseudo-limit]] coincide in such model 2-category.
 
 To state the definition of a strict model 2-category, we need the following notation:
 
-##Notation##
+## Notation
 
 For $C$ a [[enriched category|category enriched over]] [[Cat]] and for
 $$
@@ -32,7 +52,7 @@ $$
   \,.
 $$
 
-#Definition#
+## Definition
 
 The structure of a **model 2-category** on a [[strict 2-category]] $C$ with finite limits and colimits is
 
@@ -47,7 +67,7 @@ The structure of a **model 2-category** on a [[strict 2-category]] $C$ with fini
 This is just the usual notion of an [[enriched model category]] specialized to enrichment over the [[monoidal model category]] $Cat$.
 
 
-# Examples #
+## Examples 
 
 * Every suitably complete and cocomplete 2-category admits a "trivial" or "natural" model 2-category structure in which the weak equivalences are the categorical equivalences and the fibrations are the internal [[isofibration]]s.  By duality, there also is a second such model structure; in Cat both coincide with the [[folk model structure]].
 
@@ -56,19 +76,22 @@ This is just the usual notion of an [[enriched model category]] specialized to e
 * The 2-category $[C,K]$ of diagrams in any 2-category $K$ also inherits two different, but Quillen equivalent, model structures, called the "projective" and "injective" model structures.
 
 
-#Remarks#
+## Remarks
 
 * Every model 2-category has a [[homotopy 2-cateory|homotopy (weak) 2-category]] which can be constructed by formally making the weak equivalences into categorical equivalences.  It can alternately be described using fibrant and cofibrant replacements, just like the ordinary homotopy category of a model category.
 
 * In a strict model 2-category with a _natural_ model structure, the notions of 2-categorical [[strict 2-limit|pseudo-limit]] and (one canonical construction of) [[model category|model theoretic]] [[homotopy limit]]s coincide.  For a general model 2-category, homotopy limits can be construed as representatives of [[2-limit]]s in its homotopy 2-category.
 
+## Related concepts
 
-#References#
+* [[homotopy 2-category]]
+
+## References
 
 The original reference, which constructs the natural model structure and its lifting to 2-monads, is:
 
-* Steve Lack, _Homotopy theoretic aspects of 2-monads_ at [math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646), published as Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 229-260.
+* [[Steve Lack]], _Homotopy theoretic aspects of 2-monads_, Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 229-260 ([math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646))
 
 The projective and injective model structures on diagrams, and the relation between pseudo-limits and homotopy limits, are discussed in the following (especially section 6).
 
-* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)
+* [[Nicola Gambino]], _Homotopy limits for 2-categories_, Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63 ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/homotopy.pdf))
