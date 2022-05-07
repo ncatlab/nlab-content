@@ -176,8 +176,9 @@ $$
 
 
 ### Relation to simplicial groups
+ {#RelationToSimplicialGroups}
 
-+-- {: .num_prop }
++-- {: .num_prop #QuillenAdjunctionWithSimplicialGroups}
 ###### Proposition
 
 The [[simplicial loop space]] functor $G$ and the [[simplicial classifying space]]-construction $\overline{W}(-)$ constitute a [[Quillen equivalence]]
@@ -188,7 +189,7 @@ $$
       \underoverset
         {\underset{\overline{W}}{\longrightarrow}}
         {\overset{G}{\longleftarrow}}
-        {\;\;\;\;\;\;\bot\;\;\;\;\;\;}
+        {\;\;\;\;\;\;\;\;\bot\;\;\;\;\;\;\;\;}
     sSet_0
 $$
 
