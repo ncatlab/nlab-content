@@ -21,6 +21,7 @@
 |[[nonunital algebra]]|[[linear magmoid|linear]] [[semicategory]]|
 |[[associative unital algebra]]|[[linear category]]|
 |[[C-star algebra]]|[[C-star category]]|
+|[[differential algebra]]|[[differential algebroid]]|
 |[[flexible algebra]]|[[flexible magmoid|flexible]] [[linear magmoid]]|
 |[[alternative algebra]]|[[alternative magmoid|alternative]] [[linear magmoid]]|
 |[[strict monoidal category]]|[[strict 2-category]]|
