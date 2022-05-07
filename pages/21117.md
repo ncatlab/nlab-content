@@ -495,6 +495,9 @@ Exposition and review:
 
 * [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
 
+* Tanay Kibe, Prabha Mandayam, Ayan Mukhopadhyay, *Holographic spacetime, black holes and quantum error correcting codes: A review* ([arXiv:2110.14669](https://arxiv.org/abs/2110.14669))
+
+
 Further discussion of holographic quantum error correcting codes:
 
 * Henrique Lazari, Reginaldo Palazzo Jr., *Geometrically uniform hyperbolic codes*, Comput. Appl. Math. vol.24 no.2 Petrópolis 2005 ([doi:10.1590/S0101-82052005000200002](https://doi.org/10.1590/S0101-82052005000200002))
