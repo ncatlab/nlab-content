@@ -19,3 +19,9 @@ Review:
 
 * {#Ydri18} [[Badis Ydri]], Section 3.1.10 of: _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
+See also:
+
+* Michael Gutperle, Nicholas Klein, *A Penrose limit for type IIB $AdS_6$ solutions* ([arXiv:2105.10824](https://arxiv.org/abs/2105.10824))
+
+
+
