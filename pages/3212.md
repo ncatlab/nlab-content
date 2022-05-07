@@ -12,6 +12,11 @@ On [[hypergraph categories]]:
 
 * {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph Categories* ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
 
+On [[category theory]]:
+
+* {#FongSpivak18} [[Brendan Fong]], [[David Spivak]], _An invitation to applied category theory_, 2018 ([web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf))
+
+
 On [[lenses (in computer science)]]:
 
 * {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, talk at [ACT 19](http://www.cs.ox.ac.uk/ACT2019/) ([slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf), [[Spivak_Lenses.pdf:file]]) 
