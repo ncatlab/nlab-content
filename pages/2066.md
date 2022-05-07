@@ -232,6 +232,10 @@ Both examples are related by the [[Serre-Swan theorem]]. In fact both these fact
 
 * [[Cauchy completion]]
 
+* [[free coproduct completion]]
+
+* [[free cocompletion]]
+
 * [[idempotent complete (infinity,1)-category]]
 
 
