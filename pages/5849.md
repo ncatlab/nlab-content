@@ -979,7 +979,7 @@ is an equivalence. But since $i_!$ is a left adjoint and since $X$ and $X'$ are 
    i( s')
   \big)
 \]
-on representables, which is an isomorphism by the assumption that $i$ is fully faithful. If follows that $(i_!)_{X, X'}$, is the compostite of the following isomorphisms, and hence an isomorphism:
+on representables, where this is an isomorphism by the assumption that $i$ is fully faithful. If follows that $(i_!)_{X, X'}$, is the compostite of the following isomorphisms, and hence an isomorphism:
 $$
   \begin{aligned}
     &
