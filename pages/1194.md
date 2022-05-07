@@ -662,7 +662,7 @@ Textbook accounts in from the point of view of [[programming languages]] include
 
 Further discussion of type theory in the context of [[programming languages]] includes
 
-* Simon Thompson, _Type theory and functional programming_, [book page](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf) 
+* Simon Thompson, _Type theory and functional programming_, Addison-Wesley, 1991 (ISBN:0-201-41667-0, [webpage](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP), [pdf](http://www.cs.kent.ac.uk/people/staff/sjt/TTFP/ttfp.pdf))
 
 * [[Jean-Yves Girard]], _Proofs and Types_, ([book page](http://www.paultaylor.eu/stable/Proofs+Types.html) with download links).
 
