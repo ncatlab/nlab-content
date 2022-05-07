@@ -17,14 +17,14 @@
 
 ## Idea
 
-A *divided power algebra* is an [[associative algebra]] $A$ together with an [[ideal]] $I$ and a collection of operations $\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ which behave like operations of taking divided powers $x\mapsto x^{n}/n!$ in [[power series]].
+A *divided power algebra* is a [[commutative ring]] $A$ together with an [[ideal]] $I$ and a collection of operations $\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ which behave like operations of taking divided powers $x\mapsto x^{n}/n!$ in [[power series]].
 
 
 ## Definition
 
-Let $R$ be a [[ring]]. A __divided power $R$-algebra__, or __PD-$R$-algebra__, is a triple $(A,I,\gamma)$ with
+A __divided power algebra__ is a triple $(A,I,\gamma)$ with
 
-- $A$ an $R$-[[associative algebra|algebra]];
+- $A$ a [[commutative ring]];
 
 - $I$ an [[ideal]] of $A$;
 
@@ -50,10 +50,14 @@ $$\gamma_{n}(x)\gamma_{m}(x)=\frac{(n+m)!}{n!m!}\gamma_{n+m}(x).$$
 1. For each $x\in I$ and each $m,n\in\mathbb{N}$, we have
 $$\gamma_{m}(\gamma_{n}(x))=\frac{(n m)!}{(n!)^{m}m!}\gamma_{n m}(x).$$
 
+For a given $(A,I)$, a __divided power structure__ on $(A,I)$ is a $\gamma$ making $(A, I, \gamma)$ a divided power algebra.
+
+If $A$ is an $R$-algebra for a ring $R$, we call it a __divided power $R$-algebra__ or __PD-$R$-algebra__.
+
 
 ## Properties
 
-Genuine powers can be constructed in the expected way from the divided powers.
+Genuine powers can be constructed in the expected way from the divided powers, and when $A$ is torsion free, the reverse is true:
 
 +-- {: .num_prop} 
 ###### Proposition
@@ -68,6 +72,20 @@ It's true for $n=0$ and $n=1$.
 For $n \geq 2$, this follows by [[induction]], since $n! \gamma_n(x) = (n-1)! \gamma_{n-1}(x) \cdot 1! \gamma_1(x) = x^{n-1} \cdot x$.
 
 =--
++-- {: .num_prop} 
+###### Proposition
+
+If $A$ is a commutative ring with an ideal $I$ such that $x^n$ is an $(n!)$-th multiple for every $x \in I$ and $n \geq 0$, then $(A,I)$ has a unique divided power structure, and it is given by $\gamma_n(x) = x^n / n!$.
+=--
+
++-- {: .proof} 
+###### Proof 
+
+The hypotheses imply the quotients $x^n / n!$ are unique and well-defined, and any divided power structure on $(A,I)$ must be given by that formula. It's straightforward to check the definition does give a divided power algebra.
+
+=--
+
+So in the torsion free case, the divided power algebras are precisely of the motivating form. In positive characteristic, though, examples can be somewhat more exotic.
 
 
 ## Related concepts
