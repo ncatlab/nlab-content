@@ -19,17 +19,81 @@
 ## Idea 
  {#Idea}
 
-In generality, _homotopy theory_ is the study of mathematical contexts in which [[function|functions]] or rather ([[homomorphism|homo]]-)[[morphism|morphisms]] are equipped with a concept of _[[homotopy]]_ between them, hence with a concept of "equivalent [[deformations]]" of morphisms, and then iteratively with [[homotopies of homotopies]] between those, and so forth. 
 
-For exposition see _[[Introduction to Topology -- 2|Introduction to Basic Homotopy Theory]]_, _[[Introduction to Homotopy Theory]]_, and _[[geometry of physics -- homotopy types]]_.
+### General idea
+ {#GeneralIdea}
 
-A key aspect is that in such homotopy theoretic contexts the concept of _[[isomorphism]]_ is relaxed to that of _[[homotopy equivalence]]_: Where a [[morphism]] is regarded as [[inverse morphism|invertible]] if there is a reverse function such that both [[composition|composites]] are _[[equality|equal]]_ to the [[identity morphism]], for a [[homotopy equivalence]] one only requires the composites to be [[homotopy|homotopic]] to the identity. Regarding objects in a homotopical context up to [[homotopy equivalence]] this way is to regard them as _[[homotopy types]]_. 
+In generality, _homotopy theory_ is the study of mathematical contexts in which [[function|functions]] or rather ([[homomorphism|homo]]-)[[morphism|morphisms]] are equipped with a concept of _[[homotopy]]_ between them, hence with a concept of "equivalent [[deformations]]" of morphisms, 
 
-The classical example is the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]], where one considers [[topological spaces]] with [[continuous functions]] between them, and with the original concept of [topological homotopies](Introduction+to+Topology#LeftHomotopy) between these continuous functions. The [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[homotopy equivalence]]-[[equivalence classes|class]] of [[continuous functions]] is also called the _[[classical homotopy category]]_. 
+<center>
+<img src="https://ncatlab.org/nlab/files/2Cell.jpg" width = "200">
+</center>
+
+
+and then iteratively with [[homotopies of homotopies]] between those, and so forth:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/3Cell.jpg" width = "300">
+</center>
+
+
+A key aspect here is that in such homotopy theoretic contexts the concept of _[[isomorphism]]_ is relaxed to that of _[[homotopy equivalence]]_: Where a [[morphism]] is regarded as [[inverse morphism|invertible]] if there is a reverse function such that both [[composition|composites]] are _[[equality|equal]]_ to the [[identity morphism]], for a [[homotopy equivalence]] one only requires the composites to be [[homotopy|homotopic]] to the identity. Regarding objects in a homotopical context up to [[homotopy equivalence]] this way is to regard them as _[[homotopy types]]_. 
+
+It is not wrong to summarize this by saying that: 
+
+> *Homotopy theory embodies the [[gauge principle]] in mathematics*.
+
+Namely, in [[physics]], the [[gauge principle]] says that it is wrong to ask for any two [[field history|things]] to be [[equal]], instead one always has to ask whether there is a [[gauge transformation]] relating them, and then a [[gauge-of-gauge transformation]] relating these, etc. Similarly in homotopy theory it is wrong to ask whether any to objects are equal, instead one has to ask whether there is a [[homotopy equivalence]] between them and then [[higher homotopies]] between these, etc.
+
+\linebreak
+
+For more exposition on the general idea of homotopy theory see:
+
+* *[[schreiber:Higher Structures]]*
+
+\linebreak
+
+
+### Topological homotopy theory
+ {#TopologicalHomotopyTheoryInIdeaSection}
+
+\begin{imagefromfile}
+    "file_name": "AHomotopy.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+The archetypical example of a homotopy theory is the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]], where one considers [[topological spaces]] with [[continuous functions]] between them, and with the original concept of [topological homotopies](Introduction+to+Topology#LeftHomotopy) between these continuous functions. 
+
+
+The [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[homotopy equivalence]]-[[equivalence classes|class]] of [[continuous functions]] is also called the _[[classical homotopy category]]_. 
  
-The [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] has many applications, for example to _[[covering space]] theory_, to _[[classifying space]] theory_, to _[[generalized (Eilenberg-Steenrod) cohomology theory]]_ and many more. (See also at _[[shape theory]]_.) Accordingly, homotopy theory has a large overlap with _[[algebraic topology]]_.
+Classical constructions in topological homotopy theory are [[Toda bracket]], [[Massey products]], [[long exact sequences of homotopy groups]], ...
 
-The [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] may be abstracted to yield an "abstract homotopy theory" that applies to a large variety of contexts. There are several more or less equivalent formalizations of the concept of "abstract homotopy theory", including
+This [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] has many applications, for example to _[[covering space]] theory_, to _[[classifying space]] theory_, to _[[Whitehead-generalized cohomology theory]]_ and many more. (See also at _[[shape theory]]_.) Accordingly, homotopy theory has a large overlap with _[[algebraic topology]]_.
+
+
+\linebreak
+
+For more exposition of topological homotopy theory see:
+
+* _[[Introduction to Topology -- 2|Introduction to Basic Homotopy Theory]]_
+
+
+
+
+\linebreak
+
+### Abstract homotopy theory
+
+The basic structures seen in  [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] may be abstracted to yield an "abstract homotopy theory" that applies to a large variety of contexts. There are several more or less equivalent formalizations of the concept of "abstract homotopy theory", including
 
 * _[[model categories]]_ 
 
@@ -39,28 +103,76 @@ The [[classical model structure on topological spaces|classical homotopy theory 
 
 The terminology _[[model category]]_ is short for "category of models of homotopy types". The idea here is to consider [[categories]] equipped with suitable [[stuff, structure, property|extra structure and properties]] that encodes the existence of [[homotopies]] between all [[morphisms]] and convenient means to handle and control these, in particular a means to construct the corresonding [[homotopy category]].
 
-For a detailed introduction to homotopy theory from this perspective see at _[[Introduction to Homotopy Theory]]_. 
+
+\linebreak
+
+For a detailed introduction to abstract homotopy theory via model cateories see:
+
+* _[[Introduction to Homotopy Theory]]_, 
+
+* _[[geometry of physics -- homotopy types]]_.
+
+\linebreak
+
 
 The approach of [[(∞,1)-categories]] to homotopy theory is meant to be more truthful to the intrinsic nature of homotopy theory. Instead of equipping an ordinary category with a extra concept of homotopy between its morphisms, here one regards the resulting structure as a [[higher category]] where the [[homotopies]] themselves appear as a kind of higher order morphisms, called _[[2-morphisms]]_ and where higher [[homotopies of homotopies]] are regarded as _[[k-morphisms]]_ for all $k$.
 
 The terminology "[[(∞,1)-category]]" signifies that homotopy theory is but one special case of general [[higher category theory]], namely [[(∞,1)-categories]] (hence homotopy theories) are those [[infinity-categories]] in which all [[k-morphisms]] for $k \gt 1$ are [[invertible morphisms|invertible]] up to [[homotopy]]. If one drops this constraint, so that homotopies become "directed" then one might still speak of "[[directed homotopy theory]]".
 
+The archetypical example of an [[(∞,1)-category]] is the $(\infty,1)$-category _[[∞Grpd]]_ of [[∞-groupoids]], just as [[Set]] is the archetypical 1-[[category]]. 
 
-The archetypical example of an [[(∞,1)-category]] is the $(\infty,1)$-category _[[∞Grpd]]_ of [[∞-groupoids]], just as [[Set]] is the archetypical 1-[[category]].
+This turns out to be equivalent, as homotopy theories, to the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] if restricted to those that admit the structure of [[CW-complexes]].
 
-This turns out to be equivalent, as homotopy theories, to the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] if restricted to those that admit the structure of [[CW-complexes]]. Another homotopy theory equivalent to this archetypical one is the [[classical model structure on simplicial sets|classical homotopy theory of simplicial sets]], see also at _[[simplicial homotopy theory]]_.
+\linebreak
 
-But there are many other homotopy theories besides (the various incarnations of) this classical one. Important sub-classes of homotopy theories include 
+### Relation between topological and abstract homotopy theory: Cohesion.
+{#RelationBetweenTopologicalAndAbstractHomotopyTheoryInIdeaSection} 
+
+The case of the homotopy theory of topological spaces ([above](#TopologicalHomotopyTheoryInIdeaSection))
+is so classical that often the distinction between [[topology]] and homotopy theory has been (certainly so in the early literature) and still is often blurred (for instance in textbook titles or lecture notes). A transparent conceptual way to understand how [[topology]] and homotopy theory are closely related and yet different is provided by the notion of [[cohesion]]: 
+
+A [[topological space]] $X$ *has* (or *presents*) a [[homotopy type]] through the data that is retained in its [[path ∞-groupoid]], conveniently modeled by its [[singular simplicial set]] $Sing(X)$ (which is a [[Kan complex]] and as such an [[∞-groupoid]]). 
+But the topological space contains more information than that retained in its [[path ∞-groupoid]] -- the latter is just a shadow of it, called the *[[shape modality|shape]]* of the topological space.
+
+The extra information in a topological space is the [[cohesion]] on its [[underlying]] [[set]] of points: The [[geometry|geometric]] information of how these [[points]] stick together within [[open subsets]]. This information is lost when one regards topological spaces as stand-ins for their [[shape modality|shapes]] ([[path ∞-groupoids]]) in plain homotopy theory.
+
+More formally:
+
+The [[category]] [[Top]] of [[D-topological spaces]] is a [[full sub-(∞,1)-category|full subcategory]] of the [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] of [[D-topological infinity-groupoid|D-topological $\infty$-groupoids]] (also of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]). These carry a [[modal homotopy type theory|qualitative aspect]] called their **[[shape modality|shape]]**, which is a [[shape via cohesive path ∞-groupoid|generalization]] of the [[fundamental ∞-groupoid]]-construction. Now, regarding a [[topological space]] as an object in (plain) [[homotopy theory]], as traditionally done, really means to first regard it as a [[topological groupoid]] in [[cohesive (∞,1)-topos|cohesive homotopy theory]] and then, as such, to retain only its [[shape modality|shape]]. The result is the *[[homotopy type]]* which is "presented" by the topological space:
+
+\begin{imagefromfile}
+    "file_name": "RelationTopologyHomotopyTheory_20210921.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 40,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+\linebreak
+
+### Simplicial homotopy theory
+
+The most immediate way model an [[∞-groupoid]] is as a [[simplicial set]] which is a [[Kan complex]].  Accordingly, another homotopy theory equivalent to archetypical homotopy theory of [[∞-groupoids]] is the [[classical model structure on simplicial sets|classical homotopy theory of simplicial sets]], typically referred to as _[[simplicial homotopy theory]]_.
+
+\linebreak
+
+### Flavors of homotopy theory
+
+But there are many other homotopy theories besides (the various incarnations of) this classical one. Important sub-classes of homotopy theories include:
 
 * _[[stable homotopy theory]]_ modeled by [[stable model categories]] and [[stable (∞,1)-categories]], where the operations of [[looping and delooping]] are an [[equivalence of (∞,1)-categories|equivalence]]. This includes the [[stable (∞,1)-category of spectra]] as well as those of [[sheaves of spectra]].
 
-* _[[geometric homotopy theory]]_ modeld by [[model toposes]] and [[(∞,1)-toposes]], which are the homotopy theoretic analogs of ordinary [[toposes]]. This includes the  homotopy theoretic analog of [[categories of sheaves]], called _[[(∞,1)-categories of (∞,1)-sheaves]]_ or _of [[∞-stacks]]_, but it potentially also contains "[[elementary (∞,1)-toposes]]".
+* _[[geometric homotopy theory]]_ modeled by [[model toposes]] and [[(∞,1)-toposes]], which are the homotopy theoretic analogs of ordinary [[toposes]]. This includes the  homotopy theoretic analog of [[categories of sheaves]], called _[[(∞,1)-categories of (∞,1)-sheaves]]_ or _of [[∞-stacks]]_, but it potentially also contains "[[elementary (∞,1)-toposes]]".
  
 The [[geometric homotopy theory]] of [[(∞,1)-toposes]] in particular serves as the foundation for [[higher geometry]]/[[derived geometry]]. This is relevant notably in the [[physics]] of [[gauge theory]], where [[gauge transformations]] are identified with [[homotopies]] in [[geometric homotopy theory]]. For more on this see at _[[geometry of physics -- homotopy types]]_.
 
 On the other hand, the incarnation of homotopy theory as _[[homotopy type theory]]_ exhibits the remarkably [[foundation|foundational]] nature of homotopy theory. Contrary to its original appearance as a fairly complicated-looking theory built on top of classical [[set theory]] and classcal [[topology]], homotopy theory turns out to be intrinsically simple: it arises from plain [[dependent type theory]] just by adopting a fully [[constructive mathematics|constructive]] attitude towards the concept of [[identity]]/[[equality]], see at _[[identity type]]_ for more on this. For exposition of this perspective see ([Shulman 17](#Shulman17)).
 
-
+\linebreak
 
 ## Presentations ##
 
