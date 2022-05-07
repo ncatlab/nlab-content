@@ -1,4 +1,24 @@
 
+\begin{tikzcd}[column sep=5pt]
+  \ast 
+  \ar[r]
+  &
+  \mathbf{B}G
+  \ar[dr]
+  \ar[rr, dashed]
+  &&
+  X /\!/ G
+  \ar[dl]
+  &
+  X
+  \ar[l]
+  \\
+  &
+  & 
+  \mathbf{B}G
+  &
+\end{tikzcd}
+
 $$
   \begin{aligned}
   \underset{1 \leq j \leq n}{\prod}
