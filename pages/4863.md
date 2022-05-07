@@ -261,6 +261,8 @@ As usual with [[KK-reduction]], some care must be exercised to ensure that the c
 
 * KK-compactification of the [[time]]-direction, combined with [[Wick rotation]] (when it applies), yield [[thermal quantum field theory]]
 
+* [[Bubble of nothing]]
+
 [[!include KK-compactifications of M-theory -- table]]
 
 
