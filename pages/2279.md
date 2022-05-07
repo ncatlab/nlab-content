@@ -28,10 +28,13 @@ Rather little is known about the very general notion of higher topos theory. A r
 
 ## Examples
 
+### Flavors of higher toposes 
+
+[[!include flavors of higher toposes -- list]]
 
 ### Archetypical higher toposes
 
-Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos) is [[Set]] -- the category of [[0-categories]] -- so the $\infty$-category of [[(n,r)-categories]] should form the archetypical example of an $(n+1,r+1)$-topos:
+Just as the archetypical example of an ordinary [[topos]] (i.e. a [[(1,1)-topos]]) is [[Set]] -- the category of [[0-categories]] -- so the $\infty$-category of [[(n,r)-categories]] should form the archetypical example of an $(n+1,r+1)$-topos:
 
 \begin{example}\label{ExamplesOfArchetypicalHigherToposes}
 **(examples of archetypical higher toposes)** \linebreak
@@ -54,17 +57,11 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos)
 
 * [[higher structures]]
 
-* [[(0,1)-topos]]
+* [[topos theory]]
 
-* [[topos theory]], [[topos]]
+* [[2-topos theory]]
 
-* [[2-topos theory]], [[2-topos]]
-
-* [[n-topos]]
-
-* [[(∞,1)-topos theory]], [[(∞,1)-topos]]
-
-* **higher topos theory**
+* [[(∞,1)-topos theory]] 
 
 
 
