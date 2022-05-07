@@ -47,7 +47,12 @@ Original articles:
 
 * {#Goldsmith81} Deborah L. Goldsmith, *The theory of motion groups*, Michigan Math. J. 28(1): 3-17 (1981) ([doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full))
 
-* X. S. Lin, *The motion group of the unlink and its representations*, in: Topology and Physics: Proceedings of the Nankai International Conference in Memory of Xiao-Song Lin, Tianjin, China, 27-31 July 2007. World Scientific, 2008
+
+* [[Xiao-Song Lin]], *The motion group of the unlink and its representations*, in: 
+
+  *Xiao-Song Lin's Unpublished Papers* ([doi:10.1142/9789812819116_others01](https://doi.org/10.1142/9789812819116_others01)), Part B of:
+
+  [[Kevin Lin]], [[Zhenghan Wang]], [[Weiping Zhang]] (eds.) *Topology and Physics: Proceedings of the Nankai International Conference in Memory of Xiao-Song Lin*, Tianjin, China, 27-31 July 2007. World Scientific, 2008 ([doi:10.1142/6907](https://doi.org/10.1142/6907))
 
 See also:
 
