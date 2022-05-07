@@ -83,6 +83,8 @@ $$d(a\oplus b)=d a\oplus d b+f(a)-g(a).$$
 
 ## Related notions
 
+* [[homotopy coequalizer]]
+
 * [[product]]
 
 * [[homotopy limit]]
