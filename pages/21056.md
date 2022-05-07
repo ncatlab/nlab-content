@@ -13,7 +13,7 @@ Here we are showing the corresponding [[string diagram]]/[[Penrose notation]] fo
 
 1. these multi-trace observables are encoded by [[Sullivan chord diagrams]] $D$ 
 
-1. their value on the supersymmetric states $\mathfral{su}(2) \otimes V \overset{\rho}{\to}V$ is the [[evaluation]] of the corresponding [[Lie algebra weight system]] $w_{{}_V}$ on $D$.
+1. their value on the supersymmetric states $\mathfrak{su}(2) \otimes V \overset{\rho}{\to}V$ is the [[evaluation]] of the corresponding [[Lie algebra weight system]] $w_{{}_V}$ on $D$.
 
 Or equivalently, if $\widehat D$ is a [[horizontal chord diagram]] whose $\sigma$-[[permutation|permuted]] closure is $D$ (see [here](horizontal+chord+diagram#ClosureToSullivanChordDiagrams)) then the values of the invariant multi-trace observables on the supersymmetric states of the BMN matrix model are the evaluation of $w_{V,\sigma}$ on $\widehat D$, as shown here:
 
