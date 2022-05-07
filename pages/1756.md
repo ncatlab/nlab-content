@@ -271,6 +271,8 @@ See the references at _[[model category]]_. For instance
 * [[Philip Hirschhorn]], _Model categories and their localization_
  {#Hirschhorn}
 
+* [[Peter May]], [[Kate Ponto]], Section 16.2 of: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
+
 The proof that a Quillen adjunction of [[model categories]] induces an [[adjunction of (infinity,1)-categories]] is recorded in
 
 * {#MazelGee16} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, New York Journal of Mathematics Volume 22 (2016) 57-93 ([arXiv:1501.03146](https://arxiv.org/abs/1501.03146), [publisher](http://nyjm.albany.edu/j/2016/22-4.html))
