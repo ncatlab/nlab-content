@@ -169,6 +169,10 @@ The term “[[cohomology]]” was introduced in this context in
 
 * {#Whitney37} [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45 ([doi:10.1215/S0012-7094-37-00304-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-3/issue-1/On-matrices-of-integers-and-combinatorial-topology/10.1215/S0012-7094-37-00304-1.short))
 
+Singular cohomology was introduced by Eilenberg in
+
+* [[Samuel Eilenberg]], _Singular homology theory_, Annals of Mathematics 45:3 (1944).  [doi](https://doi.org/10.2307/1969185)
+
 
 Relation to [[sheaf cohomology]]:
 
