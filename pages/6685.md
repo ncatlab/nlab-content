@@ -1,4 +1,8 @@
 
+> This entry is about loops in [[topology]]. For loops in the sense of  [[algebra]] see *[[quasigroup]]* and *[[Moufang loops]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
