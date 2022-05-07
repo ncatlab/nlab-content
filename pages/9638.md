@@ -212,6 +212,7 @@ Theory of classically controlled quantum computing and parameterized quantum cir
 
 * Jarrod R McClean, Jonathan Romero, Ryan Babbush and Alán Aspuru-Guzik, *The theory of variational hybrid quantum-classical algorithms*, New Journal of Physics, Volume 18, February 2016 ([doi:10.1088/1367-2630/18/2/023023](https://iopscience.iop.org/article/10.1088/1367-2630/18/2/023023))
 
+* Murray Thom (D-Wave), *[Three Truths and the Advent of Hybrid Quantum Computing](https://medium.com/d-wave/three-truths-and-the-advent-of-hybrid-quantum-computing-1941ba46ff8c)*, Jun 25, 2019
 
 Application of classically controlled quantum computation:
 
@@ -222,9 +223,15 @@ Application of classically controlled quantum computation:
 
 * Sukin Sim, Peter D. Johnson, Alan Aspuru-Guzik, *Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms*, Adv. Quantum Technol. 2 (2019) 1900070 ([arXiv:1905.10876](https://arxiv.org/abs/1905.10876))
 
+* Eneko Osaba, Esther Villar-Rodriguez, Izaskun Oregi, Aitor Moreno-Fernandez-de-Leceta, *Focusing on the Hybrid Quantum Computing -- Tabu Search Algorithm: new results on the Asymmetric Salesman Problem* ([arXiv:2102.05919](https://arxiv.org/abs/2102.05919))
+
+
 in particular in [[quantum machine learning]]:
 
 * {#BenedettiLloydSackFiorentini19} Marcello Benedetti, Erika Lloyd, Stefan Sack, Mattia Fiorentini, *Parameterized quantum circuits as machine learning models*, Quantum Science and Technology 4, 043001 (2019) ([arXiv:1906.07682](https://arxiv.org/abs/1906.07682))
+
+* D. Zhu et al. *Training of quantum circuits on a hybrid quantum computer*, Science Advances, 18 Oct 2019: Vol. 5, no. 10, eaaw9918 ([doi: 10.1126/sciadv.aaw9918](https://advances.sciencemag.org/content/5/10/eaaw9918))
+
 
 * {#MariBromleyIzaacSchuldKilloran20} Andrea Mari, Thomas R. Bromley, Josh Izaac, Maria Schuld, Nathan Killoran,  *Transfer learning in hybrid classical-quantum neural networks*, Quantum 4, 340 (2020) ([arXiv:1912.08278](https://arxiv.org/abs/1912.08278))
 
