@@ -1,6 +1,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hermann_Weyl)
 
+* [Stanford Encyclopedia of Philosophy entry](https://plato.stanford.edu/entries/weyl/)
+
 ## Texts about Weyl
 
 * Erhard Scholz, _Philosophy as a cultural resource and medium of reflection for Hermann Weyl_ ([arXiv:math/0409596](http://arxiv.org/abs/math/0409596))
@@ -17,6 +19,10 @@ On [[general relativity]]
 On the [[group theory]] and [[representation theory]] (and introducing [[Schur-Weyl duality]])
 
 * [[Hermann Weyl]],  *The Classical Groups:  Their Invariants and Representations*,  Princeton University Press, Princeton, N.J., 1939 ([jstor:j.ctv3hh48t](https://www.jstor.org/stable/j.ctv3hh48t))
+
+On [[philosophy]]
+
+* [[Hermann Weyl]], _Philosophy of Mathematics and Natural Science._ Princeton University Press, 2nd edition, Princeton University Press, 1950.
 
 
 
