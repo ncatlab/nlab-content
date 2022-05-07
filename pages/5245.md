@@ -25,6 +25,10 @@ On [[Oka manifolds]] and the [[Oka principle]]:
 
 * [[Franc Forstnerič]], *Developments in Oka theory since 2017* ([arXiv:2006.07888](https://arxiv.org/abs/2006.07888))
 
+and in relation to [[minimal surfaces]]:
+
+* [[Antonio Alarcon]], [[Franc Forstnerič]], *New complex analytic methods in the theory of minimal surfaces: a survey*,  Journal of the Australian Mathematical Society, 106(3), 287-341 ([arXiv:1711.08024](https://arxiv.org/abs/1711.08024), [doi:10.1017/S1446788718000125](https://doi.org/10.1017/S1446788718000125))
+
 
 
 ## Related $n$Lab entries
