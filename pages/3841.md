@@ -114,6 +114,13 @@ Dann ist jede $\alpha$-gerichtete Menge auch $\beta$-gerichtet.
 Wir setzen deshalb im folgenden zusatzlich voraus,
 dass $\alpha$ regulär ist (vgl. §0).
 
+where the meaning of $\alpha\lt\infty$ is explained on page 13:
+
+> Ausserdem bezeichnen wir mit $\infty$ die kleinste Kardinalzahl, die nicht mehr zu $U$ gehört (die also in unserer Sprache keine Menge ist).
+
+> Dieser Arbeit liegt die Mengenlehre von Zermelo-Fraenkel und ein fest gewähltes  
+Universum $U$ zugrunde. Wir setzen dabei voraus, dass $U$ die Menge $\mathbf{N}$ der natürlichen Zahlen enthält.
+
 If $\lambda$ is not a [[regular cardinal]],
 then a category has $\lambda$-[[filtered colimits]]
 if and only if it has $\lambda^+$-[[filtered colimits]],
