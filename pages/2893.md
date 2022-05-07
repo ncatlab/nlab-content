@@ -5,7 +5,7 @@
 
 ## Idea ##
 
-The full image of a [[functor]] $F\colon C \to D$ is a version of its [[image of a functor|image]] that gets its [[objects]] from the functor\'s [[source]] $C$ but its [[morphisms]] from the functor\'s [[target]] $D$.
+The full image of a [[functor]] $F\colon C \to D$ is a version of its [[image of a functor|image]] that gets its [[objects]] from the functor\'s [[source]] $C$ but its [[morphisms]] from the functor\'s [[target]] $D$. It is the object through which the [[(bo, ff) factorization system|(bo, ff) factorization]] of a functor factors.
 
 You may think of it as (up to [[equivalence of categories|equivalence]]) the [[full subcategory]] of $D$ whose objects lie in the literal image of $F$.
 
