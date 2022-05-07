@@ -11,10 +11,16 @@ On [[cyclic homology]] ([[cyclic objects]], [[cyclic spaces]], ... ):
 
 * [[Jean-Louis Loday]], *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
-On [[homotopy type with finite homotopy groups]]:
+On [[homotopy types with finite homotopy groups]]:
 
 * [[Jean-Louis Loday]], _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179--202.
  
+
+On the relation between [[free loo spaces]]/[[cyclic loop spaces]] and [[Hochschild homology]]/[[cyclic homology]]:
+
+* {#Loday11}[[Jean-Louis Loday]], _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
+
+
 Other:
 
 * Jean-Louis Loday, [[Teimuraz Pirashvili]], _Universal enveloping algebras of Leibniz algebras and (co)homology_, Math. Ann. __296__, 139-158 (1993), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/LodayPira1993%28Leibniz%29.pdf)
