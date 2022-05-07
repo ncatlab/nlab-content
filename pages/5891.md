@@ -4,9 +4,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
+#### Categorical algebra
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include categorical algebra -- contents]]
 =--
 #### Type theory
 +-- {: .hide}
