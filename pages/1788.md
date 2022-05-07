@@ -1,4 +1,40 @@
 
+
+
+
+in
+
+\begin{imagefromfile}
+    "file_name": "ChordDiagramEntanglementEntropy.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [JGPE 19](#JGPE19)"
+\end{imagefromfile}
+
+in
+
+\begin{imagefromfile}
+    "file_name": "HanUniversalHolographicCode.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Yan 20](#Yan20)"
+\end{imagefromfile}
+
+
 \begin{prop}
   For $e^\beta = N \in \{1,2, \cdots, n-1\}$
   the Cayley distance kernel $e^{- \beta \cdot d_C}$
