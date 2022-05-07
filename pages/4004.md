@@ -70,7 +70,7 @@ A functor $T\colon [I^{op},Set] \to [J^{op},Set]$ between presheaf categories is
 =--
 +-- {: .proof}
 ###### Proof
-This is Proposition 2.10 of "Familial 2-functors and parametric right adjoints."  The "only if" direction is the previous proposition, while for the "if" direction, the given hypothesis allows us to define the functor
+This is Proposition 2.10 of [(Weber08)](#Weber08). The "only if" direction is the previous proposition, while for the "if" direction, the given hypothesis allows us to define the functor
 $$ E_T \colon y/T1 \to [I^{op},Set] $$
 sending an object $(y(j) \to T 1)$ to the object occurring in its generic factorization.  Note that $y/T1$ is equivalently the opposite of the [[category of elements]] of $T1$.  The definition of genericity, along with the Yoneda lemma, then shows that
 $$ T(Z)(j) = \coprod_{x\in T1(j)} [I^{op},Set](E_T(x),Z) $$
