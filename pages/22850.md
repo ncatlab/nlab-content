@@ -5,11 +5,11 @@
 
 ## Definition
 
-A **closed bicategory** is a [[bicategory]] $B$ admitting all [[Kan extension|right extensions]] and [[Kan lift|right lifts]], whose composition functor
+A **closed bicategory** is a [[bicategory]] $B$ admitting all [[Kan extension|right extensions]] and [[Kan lift|right lifts]], equivalently a bicategory whose composition functor
 
-$${\circ} \colon B(y,z) \times B(x,y) \to B(x,z) $$
+$${\circ}_{x, y, z} \colon B(y,z) \times B(x,y) \to B(x,z)$$
 
-therefore participates in a [[two-variable adjunction]]. Closed bicategories were introduced by Lawvere in unpublished lecture notes *Closed categories and biclosed bicategories* (1971).
+participates in a [[two-variable adjunction]]. Closed bicategories were introduced by Lawvere in unpublished lecture notes *Closed categories and biclosed bicategories* (1971).
 
 ## Remarks
 
