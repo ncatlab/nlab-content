@@ -76,12 +76,13 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 * [[supergravity]]
 
 
-* [[2d gravity]]
+* [[D=2 gravity]]
 
   * [[Liouville theory]]
 
   * [[Jackiw-Teitelboim gravity]]
 
+* [[D=5 gravity]]
 
 * [[spacetime]]
 
