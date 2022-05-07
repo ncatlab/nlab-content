@@ -254,10 +254,7 @@ See also:
 
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
-* [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
-
-
-* [[Julia Bergner]], _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239)).
+* {#Riehl14} [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
 * [[William Dwyer]], _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf))
 
