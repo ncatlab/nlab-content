@@ -203,6 +203,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
   * [[model structure on equivariant dgc-algebras]]
 
+* [[equivariant cobordism theory]]
+
 * [[equivariant localization]]
 
 * [[Segal conjecture]]
