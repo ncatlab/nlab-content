@@ -33,7 +33,7 @@ Via 11d [[superspace]]-cohomology (or mostly):
 
 * Yoshifumi Hyakutake, Sachiko Ogushi, _Higher Derivative Corrections to Eleven Dimensional Supergravity via Local Supersymmetry_, JHEP0602:068, 2006 ([arXiv:hep-th/0601092](https://arxiv.org/abs/hep-th/0601092))
 
-* Anirban Basu, _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
+* [[Anirban Basu]], _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
 
 * {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
