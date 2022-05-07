@@ -192,7 +192,7 @@ $$
     X
   }
 $$
-there exists a covering  [[sieve]] $\{U_i \to V\}$ of $V$ with respect to the given [[Grothendieck topology]] on $S$ such that for every $U_i \to V$ in that [[sieve]] the pullback of the abve diagram to $U$ has a lift
+there exists a covering  [[sieve]] $\{U_i \to V\}$ of $V$ with respect to the given [[Grothendieck topology]] on $S$ such that for every $U_i \to V$ in that [[sieve]] the pullback of the above diagram to $U$ has a lift
 $$
   \array{
     \Lambda^k[n]\otimes U_i &\to & Y
