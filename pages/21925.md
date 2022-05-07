@@ -656,3 +656,9 @@ The notion was introduced, together with that of the [[e-invariant]], in:
 Discussion in the broader context including also the [[f-invariant]]:
 
 * {#BL09} Mark Behrens, Gerd Laures, _$\beta$-Family congruences and the $f$-invariant_, Geometry & Topology Monographs 16 (2009) 9–29 ([arXiv:0809.1125](https://arxiv.org/abs/0809.1125), [doi: 10.2140/gtm.2009.16.9](https://msp.org/gtm/2009/16/p002.xhtml))
+
+[[!redirects d-invariants]]
+
+[[!redirects Adams d-invariant]]
+[[!redirects Adams d-invariants]]
+
