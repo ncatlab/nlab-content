@@ -306,6 +306,7 @@ $$
   \frac
     {N^n}
     {N!}
+  \cdot
   \big( 
     \Gamma(3/2)
   \big)^{- N}
