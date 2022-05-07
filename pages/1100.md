@@ -140,16 +140,23 @@ Another main theorem about $(\infty,1)$-toposes is that
 ## Properties
 
 ### Global sections geometric morphism
+ {#GlobalSectionsGeometricMorphism}
 
 Every [[∞-stack]] $(\infty,1)$-topos $\mathbf{H}$ has a canonical [[(∞,1)-geometric morphism]] to the terminal $\infty$-stack $(\infty,1)$-topos [[∞Grpd]]: the [[direct image]] is the [[global section]]s [[(∞,1)-functor]] $\Gamma$, the [[inverse image]] is the [[constant ∞-stack]] functor
 
 $$
-  (LConst \dashv \Gamma) : 
+  (LConst \dashv \Gamma) 
+  \;\colon\;
   \mathbf{H}
-  \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \underoverset
+    {\underset{\Gamma}{\longrightarrow}}
+    {\overset{LConst}{\longleftarrow}}
+    {\;\;\; \bot \;\;\;}
   \infty Grpd
   \,.
 $$
+
+In fact, this is unique, up to [[equivalence in an (infinity,1)-category|equivalence]]: Since every $\infty$-groupoid is an [[(infinity,1)-colimit|$(\infty,1)$-colimit]] (namely over itself, by [this Prop.](infinity1-limit#EveryInfinityGroupoidIsHomotopyColimitOfConstantFunctorOverItself)) of the [[point]] (hence of the [[terminal object]]), and since the [[inverse image]] $\infty$-functor $LConst$ needs to preserve these $\infty$-colimits (being a [[left adjoint]]) as well as the point (being a [[lex functor]]).
 
 ### Powering and copowering over $\infty Grpd$ --  Hochschild homology {#Powering}
 
@@ -552,3 +559,4 @@ Proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-catego
 [[!redirects (∞,1)-Giraud theorem]]
 
 [[!redirects infinity,1-topos]]
+[[!redirects infinity1-topos]]
