@@ -25,6 +25,7 @@ Any Boolean category is, in particular, a [[Heyting category]] and therefore sup
 
 * [[pretopos]]
 * [[Heyting category]]
+* [[De Morgan category]]
 * [[positive category]]
 * [[Boolean hyperdoctrine]]
 
