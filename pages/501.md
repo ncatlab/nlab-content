@@ -140,6 +140,10 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[Kazimierz Kuratowski|C. Kuratowski]], _Sur la notion d'ensemble fini_ , Fund. Math. **I** (1920) pp.130-131. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm1/fm1117.pdf))
 
+For a treatment in [[homotopy type theory]] see
+
+* Dan Frumin, Herman Geuvers, Léon Gondelman, Niels van der Weide, _Finite Sets in Homotopy Type Theory_, ([pdf](http://cs.ru.nl/~nweide/FiniteSetsInHoTT.pdf))
+
 See also
 
 * Wikipedia, _[Finite set](https://en.wikipedia.org/wiki/Finite_set)_
