@@ -16,7 +16,8 @@
 
 ## Idea
 
-*Gershgorin's circle theorem* ([Gershgorin 31](#Gershgorin31), Prop. \ref{GershgorinTheorem} below) provides an approximate localization of the [[eigenvalues]] of $n \times n$ [[square matrices]] with [[coefficients]] in [[complex numbers]]: within one of  $n$ *Gershgorin discs* (Def. \ref{GershgorinDiscs} below) in the [[complex plane]].
+While the [[eigenvalues]] of a [[diagonal matrix]] are, of course, [[equality|equal]] to its diagonal entries, *Gershgorin's circle theorem* ([Gershgorin 31](#Gershgorin31), Prop. \ref{GershgorinTheorem} below) provides upper bounds (the *Gershgorin radii, Def. \ref{GershgorinDiscs} below) for general [[square matrices]] over the [[complex numbers]] on how far, in the [[complex plane]], the eigenvalues can be from the values of the diagonal entries. 
+
 
 
 
@@ -101,10 +102,10 @@ See also:
 
 [[!redirects Gershgorin circle theorems]]
 
-[[!redirects Gershogin disc]]
-[[!redirects Gershogin discs]]
+[[!redirects Gershgorin disc]]
+[[!redirects Gershgorin discs]]
 
-[[!redirects Gershogin radius]]
-[[!redirects Gershogin radii]]
+[[!redirects Gershgorin radius]]
+[[!redirects Gershgorin radii]]
 
 
