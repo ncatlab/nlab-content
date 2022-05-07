@@ -21,8 +21,8 @@ A [[model category]] is __pointed__ if its underlying [[category]]
 is a [[pointed category]], i.e., if the unique
 [[morphism]] from the [[initial object]] to the [[terminal object]] is an [[isomorphism]], in which case both of them are denoted by $0$ (the [[zero object]]).
 
-In any pointed category, one has a canonical __[[zero morphism]]__
-between any objects $A$ and $B$, given by the composition $A\to 0\to B$.
+In any pointed category, one has a canonical *[[zero morphism]]*
+between any [[pair]] of objects $A$ and $B$, given by the [[composition]] $A\to 0\to B$.
 
 The [[homotopy equalizer]] of $f\colon A\to B$ and $0\colon A\to B$ is known as the [[homotopy fiber]] of $f$.
 
@@ -34,7 +34,14 @@ In particuar there is the homotopy (co)-fiber of the [[zero object]] with itself
 
 Model categories which are pointed without being [[linear model category|linear]] or even [[stable model category|stable]]:
 
-* [[classical model structure on pointed topological spaces]]
+\begin{example}\label{ModelCategoriesOfPointedObjects}
+**([[model categories of pointed objects]])**
+\linebreak
+  Given any model category, its [[model category of pointed objects]] is a pointed model category.
+
+In the case of the [[classical model structure on topological spaces]] this is the [[classical model structure on pointed topological spaces]].
+\end{example}
+
 
 Pointed model categories which are [[stable model category|stable]]:
 
