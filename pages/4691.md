@@ -219,13 +219,12 @@ Introduction and survey:
 
 * [[A. P. Balachandran]], A. R. de Queiroz, S. Vaidya, *Entropy of Quantum States: Ambiguities*, Eur. Phys. J. Plus 128, 112 (2013) ([arXiv:1212.1239](https://arxiv.org/abs/1212.1239), [doi:10.1140/epjp/i2013-13112-3](https://doi.org/10.1140/epjp/i2013-13112-3))
 
-
 * Paolo Facchi, Giovanni Gramegna, Arturo Konderak, *Entropy of quantum states* ([arXiv:2104.12611](https://arxiv.org/abs/2104.12611))
 
-* Erling St&#248;rmer, _Entropy in operator algebras_ ([pdf](http://www.researchgate.net/profile/Erling_Stormer/publication/228832297_Entropy_in_operator_algebras/links/02bfe50ed5ccabaf69000000.pdf?origin=publication_detail))
+* Erling St&#248;rmer, _Entropy in operator algebras_, Astérisque, no. 232 (1995), p. 211-230. ([web](http://www.numdam.org/item/AST_1995__232__211_0/), [pdf](http://www.numdam.org/article/AST_1995__232__211_0.pdf))
 
 
-[Relative entropy](#RelativeEntropy) of [[states]] on  [[von Neumann algebras]] was introduced in 
+[Relative entropy](#RelativeEntropy) of [[states]] on  [[von Neumann algebras]] was introduced in
 
 * {#Araki} [[Huzihiro Araki]], _Relative Entropy of States of von Neumann Algebras_ ([pdf](http://www.google.de/url?sa=t&source=web&cd=5&ved=0CEsQFjAE&url=http%3A%2F%2Fwww.ems-ph.org%2Fjournals%2Fshow_pdf.php%3Fissn%3D0034-5318%26vol%3D11%26iss%3D3%26rank%3D9&rct=j&q=entropy%20cocycle%20von%20Neumann%20algebra&ei=n3jrTYyxOI-c-waJvMnPDw&usg=AFQjCNGuJgVUE7CtGPmb2PZLhOOWt1_JPQ&cad=rja))
  
