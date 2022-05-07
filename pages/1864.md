@@ -58,8 +58,9 @@ $$
 \begin{proposition}\label{ConcordantTopologicalPrincipalBundlesAreIsomorphic}
 **(concordant topological principal bundles are isomorphic)**
 \linebreak
-  For $X \,\in\, TopSp$ a [[topological space]] 
-  and $G \,\in\, Grp(TopSp)$ a [[topological group]], 
+  With $kTopSp$ denoting the category of [[compactly generated weakly Hausdorff spaces]],
+  for $X \,\in\, kTopSp$ a [[k-topological space]] 
+  and $G \,\in\, Grp(kTopSp)$ a $k$-[[topological group]], 
   consider a [[concordance]] between a [[pair]] of 
   $G$-[[principal bundles]] over $X$, 
 \begin{tikzcd}
@@ -170,7 +171,18 @@ Observe that isomorphisms $f \,\colon\, P \xrightarrow{\;} P'$ between principal
     X
 \end{tikzcd}
 
-In particular, for every $P$ the [[identity morphism]] on it corresponds to a canonical section of $(P \times_X P)/G$.
+Here, from left to right, the dashed section follows by the [[universal property]] of the [[quotient space]] $X = P/G$. From right to left, the top morphism follows by [[pullback]] along the dashed section, using that 
+
+1. the bundle projections are [[effective epimorphisms]] by [[locally trivial bundle|local triviality]],
+
+1. their [[kernel pairs]] are as shown, by [[principal bundle|principality]],
+
+1. [[compactly generated topological spaces]] form a [[regular category]] (by [this Prop.](compactly+generated+topological+space#kHausIsRegular)), 
+
+1. in a regular category pullback preserves effective epimorphisms ([this Prop.](regular+epimorphism#InRegularCategoryRegularEpisAreStableUnderPullback)) and, of course, their kernel pairs.
+
+In particular, for every $P$ the [[identity morphism]] on it corresponds to the canonical section of $(P \times_X P)/G$.
+
 
 In the given situation, this means that we have a canonical local section $\sigma_0$ making the following solid diagram [[commuting square|commute]], exhibiting that the restriction of the bundle $P_0 \times [0,1]$ to $\{0\} \subset [0,1]$ is isomorphic to $P_0$, by construction:
 
