@@ -352,3 +352,7 @@ This is the topic of section 5.1 of
 
 [[!redirects infinity-category of infinity-presheaves]]
 [[!redirects infinity-categories of infinity-presheaves]]
+
+[[!redirects infinity1-category of infinity1-presheaves]]
+[[!redirects infinity1-categories of infinity1-presheaves]]
+
