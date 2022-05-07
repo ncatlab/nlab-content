@@ -254,7 +254,7 @@ Second Series, Vol. 87, No. 1 (Jan., 1968), pp. 56-88 ([JSTOR](http://www.jstor.
 
 ### For 4-manifolds
 
-For 4-manifolds the analougue of the Smale conjecture fails:
+For 4-manifolds the analogue of the Smale conjecture fails:
 
 * {#Watanabe18} [[Tadayuki Watanabe]], *Some exotic nontrivial elements of the rational homotopy groups of $Diff(S^4)$* ([arXiv:1812.02448](https://arxiv.org/abs/1812.02448))
 
