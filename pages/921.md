@@ -73,7 +73,7 @@ There is a well-known algebraic (more or less) characterisation of the real line
 
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
-*  An __archimedean field__ is an ordered field in which every element is bounded above by a [[natural number]], so it has no [[infinite number|infinite]] elements (and thus no non-zero [[infinitesimal number|infinitesimal]] elements).
+*  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
 *  An ordered field is __complete__ if it is [[Dedekind completion|Dedekind-complete]].
 *  Alternatively, an archimedean field is __complete__ if it is [[terminal object|terminal]] in the category of archimedean fields.
 
