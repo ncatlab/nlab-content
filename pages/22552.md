@@ -49,11 +49,19 @@ $$\left(-\right)\circ\left(-\right): Mor(b,c) \times Mor(a,b) \to Mor(a,c)$$
 
 for all $a,b,c \in Ob(Q)$. 
 
+### Unital magmoids
+
+A __unital magmoid__ $Q$ is a magmoid where every object $a \in Ob(Q)$ has an [[identity morphism]] $id_a: a \to a$, such that for any morphism $f:a \to b$, $f \circ id_a = f$, and for any morphism $g:c \to a$, $id_a \circ g = g$. The hom-set of a unital magmoid with only one object is a __[[unital magma]]__. 
+
+A unital magmoid is __invertible__ if for every pair of objects $a,b \in Ob(Q)$ and for every morphism $f:a \to b$, there exists an [[inverse morphism]] $g:b \to a$ such that $f \circ g = id_b$ and $g \circ f = id_a$. 
+
 ## Examples
 
 A [[magma]] is a magmoid with only one object. 
 
-A [[semicategory]] is a magmoid where the binary operation is [[associative]], a [[category]] is a semicategory (hence magmoid) such that each object has an [[identity element|identity morphism]] and each morphism has [[unit law|a left unit and a right unit]] equal to an identity element, and a [[groupoid]] is a category (hence magmoid) where each morphism has an [[inverse element|inverse morphism]]. 
+A [[quasigroupoid]] is a magmoid. 
+
+A [[semicategory]] is a magmoid where the binary operation is [[associative]], a [[category]] is a semicategory and a unital magmoid, and a [[groupoid]] is an invertible category. 
 
 A [[transitive relation]] is a magmoid [[enriched category|enriched]] on [[truth values]], or a magmoid $M$ where thete is at most one morphism from every object $a$ to object $b$ in $M$
 
@@ -66,3 +74,10 @@ A [[transitive relation]] is a magmoid [[enriched category|enriched]] on [[truth
 * [[magmoidal category]]
 
 [[!redirects magmoids]]
+
+[[!redirects unital magmoid]]
+[[!redirects unital magmoids]]
+[[!redirects invertible unital magmoid]]
+[[!redirects invertible unital magmoids]]
+[[!redirects invertible magmoid]]
+[[!redirects invertible magmoids]]
