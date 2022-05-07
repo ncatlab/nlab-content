@@ -60,8 +60,9 @@ The equivariant Chern character has a variety of different but equivalent concre
 
 * [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Inertia and delocalized twisted cohomology_, Homotopy, Homology and Applications, vol 10(1), pp 129-180 (2008) ([arXiv:math/0609576](https://arxiv.org/abs/math/0609576))
 
-
 * Pierre Albin, [[Richard Melrose]], _Delocalized equivariant cohomology and resolution_ ([arXiv:1012.5766](https://arxiv.org/abs/1012.5766))
+
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], Sec. 3.4 of: _[[schreiber:The Character Map in Equivariant Twistorial Cohomotopy|The character map in equivariant twistorial Cohomotopy]]_ ([arXiv:2011.06533](https://arxiv.org/abs/2011.06533))
 
 
 Review in:
@@ -69,6 +70,6 @@ Review in:
 * [[Ulrich Bunke]], Section 3.1 in: _Orbifold index and equivariant K-homology_, Math. Ann. 339, 175–194 (2007) ([arXiv:math/0701768](https://arxiv.org/abs/math/0701768), [doi:10.1007/s00208-007-0111-5](https://doi.org/10.1007/s00208-007-0111-5))
 
 
-
-
 * {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
+
+
