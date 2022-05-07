@@ -44,12 +44,14 @@ of the [[(∞,1)-category of (∞,1)-presheaves]] on $C^{op}$ on the product-pre
 
 In a full $(\infty,1)$-category theoretic context this appears as [[Higher Topos Theory|HTT, def. 5.5.8.8]]. A definition in terms of [[simplicially enriched categories]] and the [[model structure on sSet-categories]] to present $(\infty,1)$-categories is in [Ros]((http://www.math.muni.cz/~rosicky/papers/infty6.pdf). The introduction of that article lists further and older occurences of this definition.
 
-## Properties
 
-+-- {: .num_prop}
+## Properties
+ {#Properties}
+
++-- {: .num_prop #PropertiesOfInfinityCategoriesOfAlgebras}
 ###### Proposition
 
-Let $C$ be an [[(∞,1)-category]] with finite [[limit in a quasi-category|product]]s. Then 
+Let $C$ be an [[(∞,1)-category]] with finite [[limit in a quasi-category|products]]. Then 
 
 * $Alg_{(\infty,1)}(C)$ is an [[accessible (∞,1)-functor|accessible]] [[localization of an (∞,1)-category|localization]] of the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C^{op})$ (on the [[opposite (∞,1)-category|opposite]]).
 
@@ -260,3 +262,5 @@ Expressed as a higher form of [[Lawvere theory]] see
 
 [[!redirects algebraic (∞,1)-theory]]
 [[!redirects algebraic (∞,1)-theories]]
+
+[[!redirects infinity1-algebraic theory]]
