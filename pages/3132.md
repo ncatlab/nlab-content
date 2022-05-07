@@ -19,6 +19,12 @@ His research includes nonabelian homological algebra, the discovery of categoric
 On [[reflective factorization systems]]:
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+
+On [[monoid objects in monoidal categories]]:
+
+* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
+
+
  
 
 
