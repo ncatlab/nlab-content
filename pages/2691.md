@@ -527,7 +527,7 @@ $$
   \big)_{proj}
     \underoverset
       {\underset{res_{\mathbb{Q}}}{\longrightarrow}}
-      {\overset{ (-) \otimes_{\mathbb{Q}} \mathbb{R} }{\longleftarrow}}
+      {\overset{ (-) \otimes_{\mathbb{Q}} k }{\longleftarrow}}
       {\bot_{\mathrlap{Qu}}}
   \big(
     dgcAlg^{\geq 0}_{\mathbb{Q}}  
