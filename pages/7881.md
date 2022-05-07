@@ -80,6 +80,12 @@ then there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $N^N \h
 
 The set $N^N$ is typically called the [[Baire space of sequences]], and sometimes called the Baire real numbers in [[descriptive set theory]] and denoted as $B$. In constructive mathematics, there is an [[homeomorphism]] between $N^N$ and the set of positive [[irrational numbers]] $J$ through infinite [[continued fractions]]. 
 
+Finally, one could construct the [[unit interval]] [[continuum]] as the [[terminal coalgebra of the endofunctor]] $F(X) = X \times 2 + 1$ on [[Set]], the [[stream]] $2_*$. Since the [[initial algebra]] of the endofunctor $F(X) = X \times 2 + 1$ is the [[free monoid]] $2^*$ and has countable cardinality, the continuum hypothesis then be written as that if there is a series of monomorphisms such that 
+
+$$2^* \hookrightarrow A\hookrightarrow 2_*$$
+
+then there exists a monomorphism $A \hookrightarrow 2^*$ or a monomorphism $2_* \hookrightarrow A$. This last definition is important in situations where [[internal hom-objects]] do not exist in the ambient category, such as in the pretopos [[Set]] of strongly predicative mathematics. 
+
 ### In strongly predicative mathematics
 If neither power sets nor function sets exist, such as in a Boolean or Heyting [[pretopos|W-pretopos]], the mathematics is strongly predicative and the cardinality of the continuum is an [[inaccessible cardinal]]. Then, classically, the continuum hypothesis becomes the question of whether there is a cardinal between the inaccessible cardinal $\aleph_0$ and the inaccessible cardinal $\mathfrak{c}$. 
 
@@ -87,7 +93,7 @@ While the set of real numbers could be defined by fiat as the [[terminal object|
 
 $$N \hookrightarrow A\hookrightarrow R$$
 
-then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $R \hookrightarrow A$.
+then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $R \hookrightarrow A$. One could likewise assert by fiat the existence of free monoids and streams on a finite set, whereby the continuum hypothesis follows from above. 
 
 ## Unprovability
 
