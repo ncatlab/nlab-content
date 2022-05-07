@@ -32,7 +32,7 @@ As $n$ ranges through $(-1), 0, 1, 2, 3, \cdots$ these factorization systems for
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the [[class]] of [[n-truncated]] morphisms in $\mathbf{H}$ forms the right class in a [[orthogonal factorization system in an (∞,1)-category]]. The left class is that of [[n-connected]] morphisms in $\mathbf{H}$.
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the [[class]] of [[n-truncated morphisms in an infinity,1-category|n-truncated morphisms]]  in $\mathbf{H}$ forms the right class in a [[orthogonal factorization system in an (∞,1)-category]]. The left class is that of [[n-truncated morphisms in an infinity,1-category|n-connected morphisms]]  in $\mathbf{H}$.
 
 =--
 
