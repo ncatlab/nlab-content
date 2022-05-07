@@ -38,6 +38,13 @@ Survey:
 
 * [[Jonathan Grattage]], _An overview of QML with a concrete implementation in Haskell_, Quantum Physics and Logic 2008 ([arXiv:0806.2735](https://arxiv.org/abs/0806.2735))
 
+
+Quantum programming via [[linear type theory]]/[[symmetric monoidal categories]]:
+
+* [[Ross Duncan]], *Types for Quantum Computing*, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf))
+
+
+
 Quantum programming via [[dependent linear type theory]]/[[indexed monoidal (∞,1)-categories]]:
 
 * {#Schreiber14} [[Urs Schreiber]], _Quantization via Linear Homotopy Types_ ([arXiv:1402.7041](http://arxiv.org/abs/1402.7041))
