@@ -60,9 +60,9 @@ $$D(f)(0_X,a)=0_X$$
 
 \end{definition}
 
-##References
+## References
 
-*  [[R. Blute]], [[Robin Cockett]],   and [[R.A.G.Seely]],  _Cartesian differential categories,_ Theory and Applications of Categories,22, pg. 622–672, 2008.
+*  [[R. Blute]], [[Robin Cockett]], and[[R.A.G.Seely]],  _Cartesian differential categories,_ Theory and Applications of Categories,22, pg. 622–672, 2008 ([tac:22-23](http://www.tac.mta.ca/tac/volumes/22/23/22-23abs.html))
 
 
 ## Related concepts
