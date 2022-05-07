@@ -878,8 +878,9 @@ An original reference on the notion of a principal bundle as a quotient map by a
 
 * {#Cartan} _S&#233;minaire [[Henri Cartan]]_ 1949-1950 *Topologie algébrique* ([numdam:SHC_1948-1949__1](http://www.numdam.org/volume/SHC_1948-1949__1))
   
-
 some of which is recollected in ([Palais 61](#Palais61)).
+
+See also the references at *[[classifying space]]*.
 
 Further textbooks include
 
@@ -917,8 +918,6 @@ Lecture notes on principal bundles include
 
 * {#Mitchell}  Stephen A. Mitchell, _Notes on principal bundles and classifying spaces_, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
 
-
-* {#Cohen} R. Cohen, _Topology of fiber bundles_, Lecture notes ([pdf](http://math.stanford.edu/~ralph/fiber.pdf))
 
 ### In general categories
 
