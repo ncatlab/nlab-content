@@ -829,8 +829,9 @@ A crossed module is equivalent to a category object in groups, and so a nerve of
 In considering what is desirable for a [[fundamental infinity-groupoid]] one should bring the notion of classifying space, and its inherited structure, into account. 
 
 ### For simplicial groups
+ {#ForSimplicialGroups}
 
-The $\bar W(-)$-construction (see [[simplicial group]] and [[groupoid object in an (∞,1)-category]]) which gives the classifying space functor for [[simplicial group]]s and simplicially enriched groupoids is given in the entry on [[simplicial group|simplicial groups]].  It provides a good example of the above as the W-bar functor is right adjoint to the [[Dwyer-Kan loop groupoid]] functor and induces an equivalence of homotopy categories between that of simplicial sets and that of simplicially enriched groupoids.
+The [[simplicial classifying space]] $\overline{W}(-)$-construction (see [[simplicial group]] and [[groupoid object in an (∞,1)-category]]) which gives the classifying space functor for [[simplicial group]]s and simplicially enriched groupoids is given in the entry on [[simplicial group|simplicial groups]].  It provides a good example of the above as the W-bar functor is right adjoint to the [[Dwyer-Kan loop groupoid]] functor and induces an equivalence of homotopy categories between that of simplicial sets and that of simplicially enriched groupoids.
 The simplicial sets here are playing the role of 'topological data'.
 
 
