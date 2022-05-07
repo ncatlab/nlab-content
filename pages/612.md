@@ -39,6 +39,9 @@ After an early interest in [[formal logic]] (specifically notions of [[computabi
 
   on [[(∞,1)-category theory]] and [[higher topos theory]]
 
+following:
+
+* {#Lurie03} [[Jacob Lurie]], Section 2.2 of: *On $\infty$-Topoi* ([arXiv:math/0306109](https://arxiv.org/abs/math/0306109))
 
 
 ### Higher algebra
