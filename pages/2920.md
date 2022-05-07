@@ -126,8 +126,7 @@ Let $C$ be a
 
 We want to characterize objects in $C$ that "see elements of $S$ as weak equivalences". Notice that
 
-+-- {: .num_lemma }
-###### Observation
+\begin{lemma}
 
 In an ordinary category $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
 
@@ -136,8 +135,7 @@ $$
 $$
 
 is an [[isomorphism]] (of sets, i.e. a [[bijection]]).
-
-=--
+\end{lemma}
 
 So we can "test isomorphism by homming them into objects".
 This phenomenon we use now the other way round, to characterize new weak equivalences:
@@ -204,18 +202,15 @@ This is described in detail at
 
 Here this implies in particular
 
-+-- {: .num_lemma }
-###### Observation
 
-
+\begin{lemma}
 Every ordinary weak equivalence is also $S$-local weak equivalence.
 
 $$
   W \subset W_S
   \,.
 $$
-
-=--
+\end{lemma}
 
 Therefore, for any set $S$, we can consider the left Bousfield localization at the $S$-local weak equivalences $W_S$:
 
@@ -1435,8 +1430,7 @@ in terms of [[enriched model category|enriched]] [[tractable model category|trac
 
 The relation to [[Vopěnka's principle]] is discussed in
 
-* {#RosickyTholen} [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society
-Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
+* {#RosickyTholen} [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society, Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
 
 
 
