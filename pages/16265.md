@@ -38,3 +38,51 @@ The appeal to the axiom of choice _in the form discussed above_ is unnecessary, 
 
 [[!redirects König’s theorem]]
 [[!redirects Konig's theorem]]
+
+## Without the axiom of choice
+
+However, it is possible to recover some of König's theorem in the absence of the axiom of choice. For sets $A$, $B$, define $(A \nsucceq B)$ to be the set of assignments $f \mapsto n(f)$ which for each partial function $f:A \rightharpoonup B$ specify an element $n(f) \in B \setminus im(f)$. This set being nonempty imiplies a strong form of "there are no partial surjections $A \twoheadrightarrow B$" (aka $A \ngeq^* B$), and the definition is as one might define $A \ngeq^* B$ using [[propositions as types]]. Conversely, if AC holds, then the $(A \nsucceq B)$ is nonempty iff $A \lt B$.
+
++-- {: .num_theorem} 
+###### Proposition 
+Given $n_i \in (A_i \nsucceq B_i)$ for each $i \in I$, then $\sum_i A_i \nsucceq \prod_i B_i$. 
+=-- 
+
++-- {: .proof} 
+###### Proof
+Let $f: \sum_i A_i \rightharpoonup \prod_i B_i$. We define a member $m(f) \in \prod_i B_i$ as 
+$m(f)(i) = n_i(a \mapsto f(i,a)(i))$.
+Now, note that it can't be the case that $m(f) = f(i,a)$ for any $i \in I$, $a \in A_i$, as then $f(i,a)(i) = m(f)(i) = n_i(a \mapsto f(i,a)(i)) \notin im(a \mapsto f(i,a)(i))$. This means that $m(f) \in \prod_i B_i \setminus \operatorname{im}(f)$, as required.
+=--
+
+Although the preconditions of the theorem are harder to attain, as $(A \nsucceq B)$ is nonempty much less often than $A \lt B$, it still holds in several useful cases:
+
++-- {: .num_theorem} 
+###### Proposition 
+The following conditions are each sufficient to construct an element $n$ of $A \nsucceq B$:
+
+1. $m \in (A \nsucceq B')$ and an injection $i:B' \hookrightarrow B$
+
+2. $m \in (A' \nsucceq B)$ and an injection $i:A \hookrightarrow A'$
+
+3. $B = \mathcal{P}(A)$
+
+4. $B$ has a wellorder $\lt$, and there is no partial surjection $A \to B$
+
+5. An element $b \in B$ and, for each total function $f:A \to B$, a specified $m(f) \in B \setminus im(f)$
+
+=-- 
+
++-- {: .proof} 
+###### Proof
+1. For $f:A \rightharpoonup B$, $f$ restricts to a partial function $f':A \rightharpoonup B'$ ($f'(a) = b$ iff $f(a) = i(b)$), and $m(f')$ gives an element of $B'\setminus im(f')$, so taking $n(f') = i(m(f'))$ gives $n(f') = i(m(f')) \in B \setminus im(f)$
+
+2. For $f:A \rightharpoonup B$, $f$ extends to a partial function $f':A' \rightharpoonup B$ (defined as $f'(i(a)) = f(a)$), and $m(f') \in B \setminus im(f) = B \setminus im(f')$, so take $n(f) = m(f')$.
+
+3. Immediate from $1 \nsucceq 2$ and the above choiceless variant of K&#246;nig's theorem, but can also be proven directly. Let $f:A \rightharpoonup \mathcal{P}(A)$ be a partial function, and let $n(f) = \{a \in A \mid a \in dom(f) and a \notin f(a)\}$. Then if $f(a) = n(f)$, we have that $a \in n(f)$ iff $a \in dom(f) and a \notin f(a)$, so $a \notin dom(f)$, contradicting $f(a) = n(f)$. Therefore, $n(f) \in \mathcal{P}(A) \setminus im(f)$.
+
+4. For $f:A \rightharpoonup B$, let $n(f) = min \{ \alpha \in B \mid \alpha \notin im(f) \}$. Then $n(f)$ is uniquely defined as $B$ is wellordered and the set is nonempty (otherwise f is a partial surjection), and $n(f) \in B \setminus im(f)$.
+
+5. For $f:A \rightharpoonup B$, extend it to a total function $f':A \to B$ by letting $f'(x) = f(x)$ where defined and $f'(x) = b$ otherwise. Then $m(f') \in B \setminus im(f') \subseteq B \setminus im(f)$, so let $n(f) = m(f')$.
+
+=--
