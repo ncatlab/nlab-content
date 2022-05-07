@@ -15,7 +15,7 @@ This page collects material related to the book
 
 * [[Jiří Adámek]], [[Jiří Rosický]]
 
-  _Locally Presentable and Accessible Categories_ 
+  **Locally Presentable and Accessible Categories**
 
   London Mathematical Society Lecture Note Series, number 189, 
 
