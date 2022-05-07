@@ -130,14 +130,16 @@ It should be noted, in the context of the last statement, that proofs of the FTA
 
 * {#Gauss1866} [[Carl Gauss]], _Demonstratio nova altera theorematis omnem functionem algebraicamrationalem integram unius variabilis in factores reales primi vel secundi gradus resolviposse_, Comm. Soc. Reg. Sci. G&#246;ttingen 3, 107&#8211;142 (1816); Werke 3, 33&#8211;56 (1866)
 
+* Michael Eisermann. _An Elementary Real-Algebraic Proof via Sturm Chains_. [pdf](http://www.jon-arny.com/httpdocs/Gauss/Constructive%20roots-annotated.pdf)
+
   _Another new proof of the theorem that every integral rational algebraic function of one variable can be resolved into real factors of the first or second degree_ translated by [[Paul Taylor]] and B. Leak (1983) ([web](http://www.paultaylor.eu/misc/gauss-web))
 
 * {#Taylor85} [[Paul Taylor]], _Gauss' Second Proof_, Eureka 45 (1985) 42-47 ([pdf](http://www.jon-arny.com/httpdocs/Gauss/Eureka-2-aug24.pdf))
 
+A proof that Cauchy sequences of rational numbers satisfy the fundamental theorem of algebra: 
+
 *  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; [Fred Richman's Documents](http://math.fau.edu/richman/html/docs.htm)
 {#Richman}
-
-* Michael Eisermann. _An Elementary Real-Algebraic Proof via Sturm Chains_. [pdf](http://www.jon-arny.com/httpdocs/Gauss/Constructive%20roots-annotated.pdf)
 
 The Reverse Mathematical treatment is given in
 
