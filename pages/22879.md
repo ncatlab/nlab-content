@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -120,15 +119,21 @@ is
 
 * for $g_\Sigma = 0$ (i.e. $\Sigma$ the [[Riemann sphere]]):
 
-  an [[isomorphism]] on [[homotopy groups]] in degrees $\leq d (2 n -1)$;
+  a [[n-equivalence|$d (2 n -1)$-equivalence]], hence 
+
+  an [[isomorphism]] on [[homotopy groups]] in degrees $\lt d (2 n -1)$
+
+  and a [[surjection]] on [[homotopy groups]] in degree $d (2 n  - 1)$
 
 * for $g_\Sigma \geq 1$:
 
-  an [[isomorphism]] on [[ordinary homology|ordinary]] [[homology groups]] in degrees $\leq (d - 2g) (2 n -1)$.
+  an [[isomorphism]] on [[ordinary homology|ordinary]] [[homology groups]] in degrees $\lt (d - 2g) (2 n -1)$ 
+
+  and a [[surjection]] on [[homology groups]] in degree $(d - 2g) (2 n -1)$.
 
 \end{proposition}
 
-This is due to [Segal 1979, Prop. 1.2, 1.3](#Segal79). The analogous statement for rational curves in [[real projective spaces]] is in [Mostovoy 01](#Mostovoy01).
+This is due to [Segal 1979, Prop. 1.2, 1.3](#Segal79) (bewaring the Note on terminology on p. 44). The analogous statement for rational curves in [[real projective spaces]] is in [Mostovoy 01](#Mostovoy01).
  
 \begin{example}\label{TheArchetypicalExample}
 **(the archetypical case)** \linebreak
