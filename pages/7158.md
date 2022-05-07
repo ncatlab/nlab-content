@@ -3,6 +3,10 @@ For the moment see [[polyhedron]].
 
 (...)
 
+## Examples
+
+* [[pentagon]]
+
 ## Related pages
 
 * [[triangle]]
