@@ -21,9 +21,13 @@ More specifically, a vector field is a _[[tangent vector field]]_ which is a [[s
 
 Equivalently this is a rank $(1,0)$-[[tensor field]] on $X$
 
-Vector fields can be defined as [[derivations]]
-of the algebra of functions.
-See the article [[derivations of smooth functions are vector fields]].
+## Properties
+
+### As derivations of smooth functions
+
+Vector fields may be identified with [[derivations]]
+on the [[algebra of functions|algebra of]] [[smooth functions]].
+See the article *[[derivations of smooth functions are vector fields]]*.
 
 ## Related concepts
 
