@@ -27,19 +27,21 @@ __$Set$__ is the (or a) [[category]] with [[sets]] as [[objects]] and [[function
 
 This definition is somewhat vague by design. Rather than canonize a fixed set of principles, the nLab adopts a 'pluralist' point of view which recognizes different needs and foundational assumptions among mathematicians who use set theory. Thus, there are various axes to consider when formulating categorical properties one thinks $Set$ should satisfy, including 
 
-* First-order vs. higher-order logic 
+* first-order vs. higher-order logic 
 
-* Impredicative vs. [[predicative mathematics]] 
+* impredicative vs. [[predicative mathematics]] 
 
-* 'Variability' vs. 'constancy' (Lawvere)  
+* 'variability' vs. 'constancy' (Lawvere)  
 
-* Classical logic vs. intuitionistic logic 
+* classical logic vs. intuitionistic logic 
 
-* Choice principles 
+* quotient structures (i.e. [[presets]]/sets vs. sets/[[setoids]])
 
-* Replacement or collection principles 
+* choice principles 
 
-* Smallness structures 
+* replacement or collection principles 
+
+* smallness structures 
 
 just to name a few. Quite a bit of axiomatic fine-tuning can enter when one considers the panoply of hypotheses that might appeal to one or another school of intuitionism or constructivism, or various combinatorial or cardinal hypotheses one might attach to ZFC, etc. 
 
