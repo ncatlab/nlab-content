@@ -9,29 +9,72 @@
 =--
 =--
 
-#Invariant differential forms and vector fields
+#Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
+### Invariant differential form
 
-Let $M$ be a differential manifold with differentiable left action of Lie group $G$, $G\times M\to M$ (respectively right action $M\times G\to M$). For example, the multiplication map of $G$ on itself. Then we define the left translations $L_g : m\mapsto g m$ (resp. right translations $R_g: m\mapsto m g$) for every $g\in G$, which are both diffeomorphisms of 
-$M$.
+A [[differential form]] $\omega \in \Omega_{dR}^p(G)$ on a [[Lie group]] $G$ is called **left invariant** if for every $g \in G$ it is invariant under the [[pullback of differential forms]] 
 
-A [[differential form]] on a [[Lie group]] $\omega \in \Omega^1(G)$ is called **left invariant** if for every $g \in G$ it is invariant under the pullback by the translation $L_g$
+\[
+  \label{PullbackOfDifferentialFormIsDifferentialForm}
+  (L_g)^* \omega = \omega
+\]
 
-$(L_g)^* \omega = \omega$.
+along the left multiplication action 
+
+$$
+  \array{
+    L_g \colon & G &\longrightarrow& G
+    \\
+    & x &\mapsto& g \cdot x
+  }
+$$
 
 Analogously a form is **right invariant** if it is invariant under the pullback by right translations $R_g$. 
+
+More generally, given a [[differentiable function|differentiable]] (e.g. [[smooth function|smooth]]) [[group action]] of $G$ on a [[differentiable manifold|differentiable]] (e.g. [[smooth manifold|smooth]]) manifold $M$
+
+$$
+  \array{
+    G \times M 
+    &
+      \overset{\rho}{\longrightarrow}
+    &
+    M
+    \\
+    (g,x) &\mapsto& g \cdot x
+  }
+$$
+
+then a [[differential form]] $\omega \in \Omega^p_{dR}(M)$ is called invariant if for all $g \in G$
+
+$$
+  \rho(g)^\ast(\omega) \;=\; \omega
+  \,.
+$$
+
+This reduces to the left invariance (eq:PullbackOfDifferentialFormIsDifferentialForm) for $M = G$ and $\rho$ being the left multiplication action of $G$ on itself.
+
+
+### Invariant vector field
+
 For a vector field $X$ one instead typically defines the invariance via the pushforward $(T L_g) X = (L_g)_* X$.
 Regarding that $L_g$ and $T_g$ are diffeomorphisms, both pullbacks and pushfowards (hence invariance as well) are defined for every tensor field;
 and the two requirements are equivalent. 
 
 ## Related concepts
 
+* [[invariant metric]]
+
 * [[Maurer-Cartan form]]
+
 * [[tangent Lie algebra]]
+
+
 
 ## References
 
