@@ -473,7 +473,8 @@ the following are sufficient conditions for the geometric realization of any [[h
 
    * the morphism (eq:AMorphismOfSimplicialTopologicalSpacesToBeHomotopyPulledBack) is a homotopy-theoretic [[Kan fibration]], in that for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the induced map
 
-     $$
+     \[
+       \label{HomotopyTheoreticKanFibration}
        X(\Delta^n)
        \xrightarrow{\;\;}
        X(\Lambda^n_k)
@@ -481,7 +482,7 @@ the following are sufficient conditions for the geometric realization of any [[h
            { Y(\Lambda^n_k) }
            {\times^h}
        Y(\Delta^n)
-     $$
+     \]
 
      (into the [[homotopy fiber product]] of the space of space of [[horns|$(n,k)$-horns]] in $X$ with that of [[simplex|$n$-simplices]] in $Y$)
 
