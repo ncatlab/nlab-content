@@ -62,7 +62,13 @@ Any practical quantum computer will be *classically controlled* ([Knill 96](#Kni
 
 See the list of references [below](#ReferencesClassicallyControlledQuantumComputing).
 
-The paradigm of classically controlled quantum computation applies in particular ([Kim & Swingle 17](#KimSwingle17)) to the currently and near-term available noisy intermediate-scale quantum (NISQ) computers ([Preskill 18](#Preskill18), see the references [below](#ReferencesNISQ)), which are useful for highly specialized tasks (only) and need to be emdedded in and called from a more comprehensive classical computing environment. This, in turn, applies particularly to applications like [[quantum machine learning]] (see the references [there](machine+learning#ReferencesQuantumMachineLearning)).
+The paradigm of classically controlled quantum computation applies in particular ([Kim & Swingle 17](#KimSwingle17)) to the currently and near-term available noisy intermediate-scale quantum (NISQ) computers ([Preskill 18](#Preskill18), see the references [below](#ReferencesNISQ)), which are useful for highly specialized tasks (only) and need to be emdedded in and called from a more comprehensive classical computing environment. 
+
+This, in turn, applies particularly to applications like [[quantum machine learning]] ([Benedetti, Lloyd, Sack & Fiorentini 19](#BenedettiLloydSackFiorentini19), [TensorFlow Quantum](#TensorFlow), for more see the references [there](machine+learning#ReferencesQuantumMachineLearning)).
+
+
+
+
 
 
 ### Quantum languages and quantum circuits
@@ -206,6 +212,9 @@ Theory of classically controlled quantum computing and parameterized quantum cir
 
 * Jarrod R McClean, Jonathan Romero, Ryan Babbush and Alán Aspuru-Guzik, *The theory of variational hybrid quantum-classical algorithms*, New Journal of Physics, Volume 18, February 2016 ([doi:10.1088/1367-2630/18/2/023023](https://iopscience.iop.org/article/10.1088/1367-2630/18/2/023023))
 
+
+Application of classically controlled quantum computation:
+
 * {#KimSwingle17} Isaac H. Kim, [[Brian Swingle]], *Robust entanglement renormalization on a noisy quantum computer* ([arXiv:1711.07500](https://arxiv.org/abs/1711.07500))
 
   > (in terms of [[holographic entanglement entropy|holographic]] [[tensor network]] states)
@@ -213,9 +222,15 @@ Theory of classically controlled quantum computing and parameterized quantum cir
 
 * Sukin Sim, Peter D. Johnson, Alan Aspuru-Guzik, *Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms*, Adv. Quantum Technol. 2 (2019) 1900070 ([arXiv:1905.10876](https://arxiv.org/abs/1905.10876))
 
+in particular in [[quantum machine learning]]:
+
+* {#BenedettiLloydSackFiorentini19} Marcello Benedetti, Erika Lloyd, Stefan Sack, Mattia Fiorentini, *Parameterized quantum circuits as machine learning models*, Quantum Science and Technology 4, 043001 (2019) ([arXiv:1906.07682](https://arxiv.org/abs/1906.07682))
+
+* {#MariBromleyIzaacSchuldKilloran20} Andrea Mari, Thomas R. Bromley, Josh Izaac, Maria Schuld, Nathan Killoran,  *Transfer learning in hybrid classical-quantum neural networks*, Quantum 4, 340 (2020) ([arXiv:1912.08278](https://arxiv.org/abs/1912.08278))
+
 * Thomas Hubregtsen, Josef Pichlmeier, Patrick Stecher, Koen Bertels, *Evaluation of Parameterized Quantum Circuits: on the relation between classification accuracy, expressibility and entangling capability*, Quantum Machine Intelligence volume 3, Article number: 9 (2021) ([arXiv:2003.09887](https://arxiv.org/abs/2003.09887), [doi:10.1007/s42484-021-00038-w](https://doi.org/10.1007/s42484-021-00038-w))
 
-* [TensorFlow.org](https://www.tensorflow.org/) (Google), *[Hybrid quiantum classical models](https://www.tensorflow.org/quantum/concepts#hybrid_quantum-classical_models)*
+* {#TensorFlow} [TensorFlow.org](https://www.tensorflow.org/) (Google), *[Hybrid quantum classical models](https://www.tensorflow.org/quantum/concepts#hybrid_quantum-classical_models)*
 
 
 
@@ -224,9 +239,9 @@ Theory of classically controlled quantum computing and parameterized quantum cir
 
 * {#Preskill18} [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
 
-* Daniel Koch, Brett Martin, Saahil Patel1, Laura Wessing, and Paul M. Alsing1 , *Demonstrating NISQ era challenges in algorithm design on IBM’s 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) ([doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526))
+* Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) ([doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526))
 
-* Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in theNISQ era*, Quantum Sci. Technol. 5 044007 (2020) ([doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d))
+* Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. 5 044007 (2020) ([doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d))
 
 
 ### Quantum programming via monads
