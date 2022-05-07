@@ -376,16 +376,41 @@ See [tom Dieck 08, p. 130, Thm. 6.3.3](#tomDieck2008).
 ## Examples
  {#Examples}
 
+
+### Empty bundles
+
+\begin{example}\label{EmptyBundlesAreSerreFibrations}
+**([[empty bundles]] are [[Serre fibrations]])** \linebreak
+ All [[empty bundles]] $\varnothing \longrightarrow B$ are Serre fibrations,  because none of the [[commuting squares]] that one would have to [[lifting property|lift in]] actually exist:
+
+$$
+  \array{
+    D^{n} &\overset{ \not \exists }{\longrightarrow}& \varnothing
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    D^n \times I &\longrightarrow& B
+    \mathrlap{\,,}
+  }
+$$
+
+since the [[empty topological space]] is a [[strict initial object]]: There is *no* morphism to it from any [[inhabited space]].
+
+\end{example}
+
+
 ### Fiber bundles
  {#FiberBundles}
 
 
 \begin{example}\label{FiberBundlesAreSerreFibrations}
 **([[fiber bundles]] are Serre fibrations)**\linebreak
-Every topological [[fiber bundle]] (i.e. [[locally trivial]], meaning that on some [[open cover]] it becomes a [[Cartesian product|product]] [[projection]]) is a Serre fibration.
+Every topological [[fiber bundle]] (i.e. [[locally trivial]], meaning that on some [[open cover]] it becomes a [[product space|product]] [[projection]]) is a Serre fibration.
 \end{example}
 
-By Lemma \ref{MapIsSerreFibrationIfLocallySo}.
+This follows immediately from Lemma \ref{MapIsSerreFibrationIfLocallySo}.
+
+Notice that the [[empty bundles]] of Example \ref{EmptyBundlesAreSerreFibrations} are examples of [[locally trivial]] [[fiber bundles]] (with [[typical fiber]] the [[empty topological space]]).
 
 
 ### Covering spaces
@@ -409,6 +434,8 @@ Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz f
 * {#SteinbergerWest84} M. Steinberger and J. West, _Covering homotopy properties of maps between CW complexes or ANRs_, Proc. Amer. Math. Soc. 92 (1984), 573-577.  
 
 * {#Cauty92} R. Cauty, _Sur les ouverts des CW-complexes et les fibr&#233;s de Serre_,  Colloquy Math. 63 (1992), 1--7
+
+* [[Stephen Mitchell]], *Notes on Serre fibrations*, 2001 ([pdf](https://sites.math.washington.edu/~mitchell/Atopc/serre.pdf), [[MitchellSerreFibrations.pdf:file]])
 
 * {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_. European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
 
