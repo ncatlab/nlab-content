@@ -59,6 +59,8 @@ On the [[Toda bracket]] understood as [[homotopy coherent diagram|homotopy-coher
 
 In the context of the [[homotopy 2-category of (∞,1)-categories]] and [[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]:
 
+* {#Joyal08} [[André Joyal]], p. 158 (10 of 348) in: _The theory of quasicategories and its applications_, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona 2008 ([[JoyalTheoryOfQuasiCategories.pdf:file]])
+
 * {#Riehl14} [[Emily Riehl]], Chapter 18 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
 * {#RiehlVerity15} [[Emily Riehl]], [[Dominic Verity]], Section 3 of: _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
