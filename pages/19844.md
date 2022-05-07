@@ -115,7 +115,9 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 
 >  It appears the reason is that, given the amount of independent measurements (~180!) a smaller deviation because of new physics is easier to accommodate than a large one. Thus the new measurements actually fit better with new physics.
 
-> (Axel Maas, reporting from [ALPS2019](https://indico.cern.ch/event/757995/), [tweet, 23 Apr 2019](https://twitter.com/axelmaas/status/1120653147947655168))
+
+> (Axel Maas, reporting from [ALPS2019](https://indico.cern.ch/event/757995/), 
+ [tweet, 23 Apr 2019](https://twitter.com/axelmaas/status/1120653147947655168))
 
 
 \begin{center}
