@@ -254,6 +254,11 @@ See also:
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
+The special case of [[gauge group]] [[SU(3)]]:
+
+* F. A. Bais, [[Bernd Schroers]], *Quantisation of Monopoles with Non-abelian Magnetic Charge*, Nucl. Phys. B512 (1998) 250-294 ([arXiv:hep-th/9708004](https://arxiv.org/abs/hep-th/9708004))
+
+
 
 ### Identification with rational maps
  {#ReferencesClassificationViaRationalMaps}
@@ -265,7 +270,11 @@ Original identification with [[pointed object|pointed]] [[rational maps]]:
 
 * {#Donaldson84} [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
 
-Alternative identification with unpointed rational maps of "[[scattering]] data":
+Alternative identification with unpointed rational maps of "[[scattering]] data" and generalization to general [[gauge groups]] and maps to [[flag varieties]]:
+
+
+* [[Stuart Jarvis]], *Euclidian Monopoles and Rational Maps*, Proceedings of the London Mathematical Society Volume 77, Issue 1 p. 170-192 ([doi:10.1112/S0024611598000434](https://doi.org/10.1112/S0024611598000434))
+
 
 * [[Stuart Jarvis]], *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
 
@@ -352,6 +361,9 @@ Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] 
 * [[David Tong]], _Three-Dimensional Gauge Theories and ADE Monopoles_, Phys. Lett. B448 (1999) 33-36 ([arXiv:hep-th/9803148](https://arxiv.org/abs/hep-th/9803148))
 
 * [[Mathew Bullimore]], [[Tudor Dimofte]], [[Davide Gaiotto]], _The Coulomb Branch of 3d $\mathcal{N}=4$ Theories_, Commun. Math. Phys. (2017) 354: 671 ([arXiv:1503.04817](https://arxiv.org/abs/1503.04817))
+
+* [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], *Coulomb branches of 3d $\mathcal{N}=4$ quiver gauge theories and slices in the affine Grassmannian* (with appendices by Alexander Braverman, Michael Finkelberg, Joel Kamnitzer, Ryosuke Kodera, Hiraku Nakajima, Ben Webster, and Alex Weekes), Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 1 ([arXiv:1604.03625](https://arxiv.org/abs/1604.03625))
+
 
 ### Rozansky-Witten invariants
 
