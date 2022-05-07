@@ -290,10 +290,13 @@ Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces 
 
 * Gregory Lupton, Samuel Bruce Smithm, _Rationalized evaluation subgroups of a map I: Sullivan models, derivations and $G$-sequences_, Journal of Pure and Applied Algebra, Volume 209, Issue 1, April 2007, Pages 159-171 ([doi:10.1016/j.jpaa.2006.05.018](https://doi.org/10.1016/j.jpaa.2006.05.018))
 
+* [[Urtzi Buijs]], [[Aniceto Murillo]], _The rational homotopy Lie algebra of function spaces_, Comment. Math. Helv. 83 (2008), 723–739 ([pdf](https://pdfs.semanticscholar.org/d404/657ccc24b0c06434086485d3e528e0316e26.pdf))
 
 * Gregory Lupton, Samuel Bruce Smith, _Whitehead products in function spaces: Quillen model formulae_, J. Math. Soc. Japan, Volume 62, Number 1 (2010), 49-81. ([arXiv:0812.1829](https://arxiv.org/abs/0812.1829), [euclid:jmsj/1265380424](https://projecteuclid.org/euclid.jmsj/1265380424))
 
-* [[Urtzi Buijs]], [[Aniceto Murillo]], _The rational homotopy Lie algebra of function spaces_, Comment. Math. Helv. 83 (2008), 723–739 ([pdf](https://pdfs.semanticscholar.org/d404/657ccc24b0c06434086485d3e528e0316e26.pdf))
+
+* [[Andrey Lazarev]], *Maurer-Cartan moduli and models for function spaces*, Advances in Mathematics Volume 235, 1 March 2013, Pages 296-320 ([arxiv:1109.3715](http://arxiv.org/abs/1109.3715), [doi:10.1016/j.aim.2012.11.009](https://doi.org/10.1016/j.aim.2012.11.009))
+
 
 * J.-B. Gatsinzi, _A model for function spaces_, Topology and its Applications, Volume 168, 15 May 2014, Pages 153-158 ([doi:10.1016/j.topol.2014.02.021](https://doi.org/10.1016/j.topol.2014.02.021))
 
