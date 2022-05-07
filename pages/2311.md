@@ -12,6 +12,24 @@ $$
   \,.
 $$
 
+## Properties
+
+For even cohomology theory $E$:
+
+* There is an isomorphism of rings 
+
+$$ E^{\ast}(\mathbb{C}P^n) \cong E^{\ast}(S^0)[x]/\langle x^{n+1} \rangle,$$ 
+
+where $|x|=2$.
+
+* $E^{\ast}(\mathbb{C}P^{\infty} \times \ldots \times \mathbb{C}P^{\infty}) \cong E^{\ast}(S^0)[[x_1, \ldots, x_k]]$.
+
+* Any even cohomology theory is [[complex oriented cohomology theory|complex orientable]]; a choice of complex orientation gives an isomorphism
+
+$$E^{\ast}(\mathbb{C}P^{\infty}) \cong E^{\ast}(S^0)[[x]].$$
+
+
+
 ## Related entries
 
 * [[even periodic ring spectrum]]
