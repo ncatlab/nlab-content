@@ -18,22 +18,28 @@ It is possible to define inverses in a magma without defining an [[identity elem
 
 ## Definition
 
+A __left invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with a unary operation $(-)^{-1}:G \to G$ called the __left inverse__ or __retraction__ such that
+
+* $a \cdot (b^{-1} \cdot b) = a$
+* $(b^{-1} \cdot b) \cdot a = a$
+
+for all $a,b \in G$. 
+
+A __right invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with a unary operation $(-)^{-1}:G \to G$ called the __right inverse__ or __section__ such that
+
+* $a \cdot (b \cdot b^{-1}) = a$
+* $(b \cdot b^{-1}) \cdot a = a$
+
+for all $a,b \in G$. 
+
 An __invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with a unary operation $(-)^{-1}:G \to G$ called the __[[inverse]]__ such that
 
 * $a \cdot (b^{-1} \cdot b) = a$
 * $(b^{-1} \cdot b) \cdot a = a$
-* $b \cdot (b^{-1} \cdot a) = a$ 
-* $b^{-1} \cdot (b \cdot a) = a$
 * $a \cdot (b \cdot b^{-1}) = a$
 * $(b \cdot b^{-1}) \cdot a = a$
-* $(a \cdot b) \cdot b^{-1} = a$
-* $(a \cdot b^{-1}) \cdot b = a$ 
 
 for all $a,b \in G$. 
-
-## Properties
-
-* Every invertible magma is a [[quasigroup]]. 
 
 ## Examples
 
@@ -45,7 +51,7 @@ for all $a,b \in G$.
 
 * [[magma]] (noninvertible version)
 
-* [[nonassociative group]] (unital version)
+* invertible [[unital magma]] (unital version)
 
 * [[commutative invertible magma]] (commutative version)
 
