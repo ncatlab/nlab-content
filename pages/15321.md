@@ -63,3 +63,6 @@ and further discussion of this relating to the [[geometric Langlands corresponde
 
 [[!redirects 't Hooft operator]]
 [[!redirects 't Hooft operators]]
+
+[[!redirects 't Hoof line]]
+[[!redirects 't Hoof lines]]
