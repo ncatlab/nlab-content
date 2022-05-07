@@ -383,6 +383,7 @@ Perhaps an even more decisive killer is the observation that meets distribute ov
 $$\Delta = \Delta \wedge \top = \Delta \wedge (i_1 \vee i_2) = (\Delta \wedge i_1) \vee (\Delta \wedge i_2) = \bot \vee \bot = \bot$$ 
 but $\Delta = \bot$ forces $A = 0$. So the only such category that can have a subobject classifier is trivial. 
 
+Directly related to this distributivity property is the question when a [[variety]] of algebras has a subobject classifier (cf. Johnstone [1990](#JT90), pp.448f).
 
 ## Generalizations
 
@@ -486,5 +487,11 @@ See also
 For sheaves
 
 * {#Caramello}[[Olivia Caramello]], _Topos Theory: Lectures 7-14: Sheaves on a site_, [slides](https://www.oliviacaramello.com/Teaching/Lectures7_to_14.pdf)
+
+The existence of subobject classifiers in categories of algebras is considered in
+
+* {#JT90}[[Peter Johnstone]], _Collapsed Toposes and Cartesian Closed Varieties_ , JA **129** (1990) pp.446-480.
+
+
 
 [[!redirects subobject classifiers]]
