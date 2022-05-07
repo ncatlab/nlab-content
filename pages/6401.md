@@ -48,18 +48,18 @@ A textbook account is
 
 * {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front.Phys. 58 (1983) 1-548  (1983) ([arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [spire:195126](inspirehep.net/record/195126))
 
-
-Further review includes the following:
+Further review:
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
 * [[Albert Schwarz]], _On the definition of superspace_ Teoret. Mat. Fiz., 1984,  Volume 60,  Number 1, Pages 37&#8211;42   (Mi tmf5111), ([russian original](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
 
-For a philosophical treatment of the use of superspaces in physics see
+* [[Urs Schreiber]], _[[geometry of physics -- supergeometry]]_
 
-* Tushar Menon, _Taking up superspace -- the spacetime structure of supersymmetric field theory_, ([preprint](https://core.ac.uk/download/pdf/157868366.pdf))
+Discussion of superspace within [[philosophy of physics]]:
 
-* _[[geometry of physics -- supergeometry]]_
+* Tushar Menon, _Taking up superspace -- the spacetime structure of supersymmetric field theory_ ([philsci:14682](http://philsci-archive.pitt.edu/14682/), [pdf](https://core.ac.uk/download/pdf/157868366.pdf),)
+
 
 [[!redirects superspaces]]
 
