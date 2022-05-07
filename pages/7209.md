@@ -148,7 +148,7 @@ A maximal compact subgroup may not exist at all without the almost connectedness
 ## References
 
 
-Textbooks with relevant material include
+Textbooks accounts:
 
 * M. Stroppel, _Locally compact groups_, European Math. Soc., (2006)
   {#Stroppel}
@@ -162,16 +162,15 @@ See also
 * Wikipedia, _[Maximal compact subgroup](http://en.wikipedia.org/wiki/Maximal_compact_subgroup)_
 
 
-Original articles include
+Original articles:
 
 * {#Malcev} A. Malcev, _On the theory of the Lie groups in the large_, Mat.Sbornik N.S. vol. 16 (1945) pp. 163-189
  
-
-
 * {#Iwasawa} K. Iwasawa, _On some types of topological groups_, Ann. of Math. vol.50 (1949) pp. 507-558.
  
+* M. Peyrovian, _Maximal compact normal subgroups_, Proceedings of the American Mathematical Society, Vol. 99, No. 2, (1987) ([jstor:pss/2046647](http://www.jstor.org/pss/2046647))
 
-* M. Peyrovian, _Maximal compact normal subgroups_, Proceedings of the American Mathematical Society, Vol. 99, No. 2, (1987) ([jstor](http://www.jstor.org/pss/2046647))
+* [[Karl Heinrich Hofmann]], [[Christian Terp]], *Compact Subgroups of Lie Groups and Locally Compact Groups*, Proceedings of the American Mathematical Society Vol. 120, No. 2 (Feb., 1994), pp. 623-634 ([jstor:2159906](https://www.jstor.org/stable/2159906), [doi:10.2307/2159906](https://doi.org/10.2307/2159906))
 
 * {#Antonyan} Sergey A. Antonyan, _Characterizing maximal compact subgroups_ ([arXiv:1104.1820v1](http://arxiv.org/abs/1104.1820v1)) 
 
