@@ -75,7 +75,11 @@ based on
 
 * {#BrownSzczarba93} [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
-A textbook account (apparently independently?!) is in:
+See also:
+
+* [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
+
+A textbook account is in:
 
 * {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
 
