@@ -339,6 +339,107 @@ Since moreover
 it follows that this sum over the first row already equals the Gershogin radius plus 1 (by its defining formula [here](Gershgorin+circle+theorem#eq:GershoginRadiusFormula)). Therefore the statement follows by Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel}.
 \end{proof}
 
+### Eigenvector
+
+One eigenvector of the Cayley distance kernel is $(sgn(\sigma_i))_i$ with corresponding eigenvalue $e^{- \lambda \cdot n }
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}\big(e^{\lambda}- k \big)$.
+
+
+\begin{lemma}\label{SumOfSgnExpLambdaNumCyclesOverPermutations}
+  For $n \in \mathbb{N}$ and $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, we have
+  $$
+    \underset{
+      \sigma \in Sym(n)
+    }{
+      \sum
+    }
+    sgn(\sigma) \cdot e^{ \lambda \cdot  \left\vert Cycles(\sigma) \right\vert }
+    \;=\;
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      e^{\lambda} - k
+    \big)
+    \,.
+  $$
+\end{lemma}
+(e.g. discussion at [MO:q/245010](https://mathoverflow.net/a/245010/))
+
+\begin{lemma}\label{SumOverSgnFirstRowOfCayleyDistanceKernel}
+**(sum over first row of signed Cayley distance kernel)** \linebreak
+  For $n \in \mathbb{N}$, the [[sum]] over the first row of the signed Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) equals
+$$
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+ sgn(\sigma) \cdot e^{ - \lambda \cdot  d_C(\sigma, e) }
+  \;=\;  
+  e^{- \lambda \cdot n }
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\lambda}
+    - 
+    k
+  \big)
+$$
+\end{lemma}
+\begin{proof}
+We compute as follows:
+$$
+  \begin{aligned}
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  sgn(\sigma) \cdot e^{ - \lambda \cdot  d_C(\sigma, e) }
+  &
+  \;=\;
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  sgn(\sigma) \cdot e^{ - \lambda \cdot (n - \left\vert Cycles(\sigma) \right\vert ) }
+  \\
+  & 
+  \;=\;
+  e^{- \lambda \cdot n }
+  \,
+  \underset{
+    \sigma \in Sym(n)
+  }{\sum}
+  sgn(\sigma) \cdot e^{ \lambda \cdot  \left\vert Cycles(\sigma) \right\vert }  
+  \\
+  & =\;
+  e^{- \lambda \cdot n }
+  \,
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\lambda}
+    - 
+    k
+  \big)
+  \mathrlap{\,,}
+  \end{aligned}
+$$
+where:
+
+* the first step is [Cayley's observation](Cayley+distance#CayleyObservation),
+
+* the last step uses Lemma \ref{SumOfSgnExpLambdaNumCyclesOverPermutations}.
+
+\end{proof}
+
+When $e^\lambda = k$, for $k = 2, \ldots, n-1$, the eigenvalue is $0$. When $e^\lambda \gt n-1$, the eigenvalue is positive.
+
 
 ## Related concepts
 
