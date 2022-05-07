@@ -40,6 +40,11 @@ More generally, other [[matrix Lie groups]], such as the [[general linear group]
 * [[exceptional isomorphism]]
 
 
+## References
+
+* {#Bredon72} [[Glen Bredon]], Section 0.2 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+
 [[!redirects classical Lie group]]
 [[!redirects classical Lie groups]]
 
