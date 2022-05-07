@@ -10,7 +10,7 @@ Thus an arrow abstracts the hom-profunctor of $\mathrm{Kl}(T)$ for a strong mona
 
 Therefore, an arrow $A : \mathbf C^{op} \times \mathbf C \to \mathbf{Set}$ can be thought as a putative replacement of $\mathrm{Hom}_{\mathbf C} : \mathbf C^{op} \times \mathbf C \to \mathbf{Set}$. In fact an arrow comes equipped with a transformation $\mathrm{arr} : \mathrm{Hom}_{\mathbf C} \Rightarrow A$ that lift morphisms of $\mathbf C$ to the 'augmented' morphisms given by $A$, and with a transformation $\ggg : A \circ A \Rightarrow A$ that behaves like a composition operation. Then one requires that $\ggg$ is associative and that $\mathrm{arr}(1_a)$ is the unit of this operation.
 
-These data makes $A$ a [[promonad]] on $\mathbf C$, i.e. a monad on $\mathbf C$ in the bicategory of [[profunctors]]. Since every monad on $\mathbf{Set}$ (or on any reasonable enriching base where programmers work) is strong, arrows traditionally generalize the hom-profunctor of [[strong monads]]. The additional requirement that $A$ is a [[strong profunctor]] (and the laws it is required to satisfy) imply that an arrow is a [[strong monad|strong monad]] in the bicategory [[profunctors]] ([Asada10](#Asada10)).
+These data makes $A$ a [[promonad]] on $\mathbf C$, i.e. a monad on $\mathbf C$ in the bicategory of [[profunctors]]. Since every monad on $\mathbf{Set}$ (or on any reasonable enriching base where programmers work) is strong, arrows traditionally generalize the hom-profunctor of [[strong monads]]. The additional requirement that $A$ is a [[strong profunctor]] (and the laws it is required to satisfy) imply that an arrow is a [[strong monad|strong monad]] in the bicategory of [[profunctors]] ([Asada10](#Asada10)).
 
 ## Definition
 \begin{definition}
