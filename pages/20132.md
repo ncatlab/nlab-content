@@ -31,6 +31,7 @@ The subject of _equivariant differential topology_ is the enhancement of results
 
 ## Properties
 
+### Fixed submanifolds
 
 
 +-- {: .num_prop #FixedLociOfSmoothProperActionsAreSubmanifolds}
@@ -63,6 +64,40 @@ Without the assumption of [[proper action]] in Prop. \ref{FixedLociOfSmoothPrope
 =--
 
 
+### Invariant Riemannian metrices
+
++-- {: .num_prop #ExistenceOfGInvariantRiemannianMetrics}
+###### Proposition
+**(existence of $G$-[[invariant Riemannian metrics]] on [[G-manifolds]])**
+
+Let $X$ be a [[smooth  manifold]], $G$ a [[compact Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
+
+Then there exists a [[Riemannian metric]] on $X$ which is [[invariant Riemannian metric|invariant]] with respect to the $G$-[[action]], hence such that all elements of $G$ act by [[isometries]].
+
+
+=--
+
+([Bredon 72, VI Theorem 2.1](#Bredon72), see also [Ziller 13, Theorem 3.0.2](#Ziller13))
+
+
+### Equivariant tubular neighbourhoods
+
+
+
++-- {: .num_defn #GInvariantTubularNeighbourhood}
+###### Definition
+**($G$-[[equivariant tubular neighbourhood]])**
+
+Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
+
+For $\Sigma \subset X^G \subset X$ a [[closed manifold|closed]] [[smooth manifold|smooth]] [[submanifold]] inside the [[fixed locus]], a _$G$-[[equivariant tubular neighbourhood]]_ $\mathcal{N}(\Sigma \subset X)$ of $\Sigma$ in $X$ is 
+
+1. a [[smooth vector bundle]] $E \to \Sigma$ equipped with a [[fiber]]-wise [[linear map|linear]] $G$-[[action]];
+
+1. an equivariant [[diffeomorphism]] $E \overset{}{\longrightarrow} X$ onto an [[open neighbourhood]] of $\Sigma$ in $X$ which takes the [[zero section]] identically to $\Sigma$.
+
+=--
+
 
 +-- {: .num_prop #GActionOnNormalBundleToFixedLocus}
 ###### Proposition/Definition
@@ -77,37 +112,9 @@ Then linearization of the $G$-action aroujnd the [[fixed locus]] $X^G \subset X$
 (e.g. [Crainic-Struchiner 13, Example 1.7](#CrainicStruchiner13))
 
 
-+-- {: .num_prop #ExistenceOfGInvariantRiemannianMetrics}
-###### Proposition
-**(existence of $G$-invariant [[Riemannian metric]])**
-
-Let $X$ be a [[smooth  manifold]], $G$ a [[compact Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
-
-Then there exists a [[Riemannian metric]] on $X$ with its [[invariant]] with respect to the $G$-[[action]], hence such that all elements of $G$ act by [[isometries]].
-
-
-=--
-
-([Bredon 72, VI Theorem 2.1](#Bredon72), see also [Ziller 13, Theorem 3.0.2](#Ziller13))
-
-+-- {: .num_defn #GInvariantTubularNeighbourhood}
-###### Definition
-**($G$-invariant [[tubular neighbourhood]])**
-
-Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
-
-For $\Sigma \subset X^G \subset X$ a [[closed manifold|closed]] [[smooth manifold|smooth]] [[submanifold]] inside the [[fixed locus]], a _$G$-invariant [[tubular neighbourhood]]_ $\mathcal{N}(\Sigma \subset X)$ of $\Sigma$ in $X$ is 
-
-1. a [[smooth vector bundle]] $E \to \Sigma$ equipped with a [[fiber]]-wise [[linear map|linear]] $G$-[[action]];
-
-1. an equivariant [[diffeomorphism]] $E \overset{}{\longrightarrow} X$ onto an [[open neighbourhood]] of $\Sigma$ in $X$ which takes the [[zero section]] identically to $\Sigma$.
-
-=--
-
-
 +-- {: .num_prop #ExistenceOfGInvariantTubularNeighbourhoods}
 ###### Proposition
-**(existence of $G$-invariant [[tubular neighbourhoods]])**
+**(existence of $G$-[[equivariant tubular neighbourhoods]])**
 
 Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
 
@@ -127,14 +134,13 @@ If $\Sigma \overset{\iota}{\hookrightarrow} X$ is a [[closed manifold|closed]] [
   \end{xymatrix}
 \end{center}
 
-
 then 
 
-1. $\Sigma$ admits a $G$-invariant [[tubular neighbourhood]] $\Sigma \subset U \subset X$ (Def. \ref{GInvariantTubularNeighbourhood});
+1. $\Sigma$ admits a $G$-[[equivariant tubular neighbourhood]] $\Sigma \subset U \subset X$ (Def. \ref{GInvariantTubularNeighbourhood});
 
-1. any two choices of such $G$-invariant tubular neighbourhoods are $G$-equivariantly [[isotopy|isotopic]];
+1. any two choices of such $G$-equivariant tubular neighbourhoods are $G$-[[equivariant function|equivariantly]] [[isotopy|isotopic]];
 
-1. there always exists an $G$-invariant tubular neighbourhood parametrized specifically by the [[normal bundle]] $N(\Sigma \subset X)$ of $Sigma$ in $X$, equipped with its induced $G$-[[action]] from Def. \ref{GActionOnNormalBundleToFixedLocus}, and such that the $G$-equivariant [[diffeomorphism]] is given by the [[exponential map]] 
+1. there always exists an $G$-equivariant tubular neighbourhood parametrized specifically by the [[normal bundle]] $N(\Sigma \subset X)$ of $Sigma$ in $X$, equipped with its induced $G$-[[action]] from Def. \ref{GActionOnNormalBundleToFixedLocus}, and such that the $G$-equivariant [[diffeomorphism]] is given by the [[exponential map]] 
 
    $$
      \exp_\epsilon
@@ -148,7 +154,7 @@ with respect to a $G$-invariant [[Riemannian metric]] (which exists according to
 
 =--
 
-The existence of the $G$-invariant tubular neighbourhoods is for instance in [Bredon 72 VI Theorem 2.2](#Bredon72), [Kankaanrinta 07, theorem 4.4](#Kankaanrinta07). The uniqueness up to equivariant isotopy is in [Kankaanrinta 07, theorem 4.4, theorem 4.6](#Kankaanrinta07). The fact that one may always use the [[normal bundle]] appears at the end of the proof of [Bredon 72 VI Theorem 2.2](#Bredon72), and as a special case of a more general statement about invariant tubular neighbourhoods in [[Lie groupoids]] it follows from [Pflaum-Posthuma-Tang 11, Theorem 4.1](#PflaumPosthumaTang11) by applying the construction there to each point in $\Sigma$ for one and the same choice of background metric. See also for instance [Pflaum-Wilkin 17, Example 2.5](#PflaumWilkin17).
+The existence of the $G$-equivariant tubular neighbourhoods is for instance in [Bredon 72 VI Theorem 2.2](#Bredon72), [Kankaanrinta 07, theorem 4.4](#Kankaanrinta07). The uniqueness up to equivariant isotopy is in [Kankaanrinta 07, theorem 4.4, theorem 4.6](#Kankaanrinta07). The fact that one may always use the [[normal bundle]] appears at the end of the proof of [Bredon 72 VI Theorem 2.2](#Bredon72), and as a special case of a more general statement about invariant tubular neighbourhoods in [[Lie groupoids]] it follows from [Pflaum-Posthuma-Tang 11, Theorem 4.1](#PflaumPosthumaTang11) by applying the construction there to each point in $\Sigma$ for one and the same choice of background metric. See also for instance [Pflaum-Wilkin 17, Example 2.5](#PflaumWilkin17).
 
 
 ## Applications
@@ -179,7 +185,7 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 
 * {#Wasserman69} [[Arthur Wasserman]], section 3 of: _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 (<a href="https://doi.org/10.1016/0040-9383(69)90005-6">doi:10.1016/0040-9383(69)90005-6</a>[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
-* {#Bredon72} [[Glen Bredon]], _Introduction to compact transformation groups_, Academic Press 1972 ([pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf), [ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1))
+* {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press 1972 ([pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf), [ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1))
 
 
 * [[Tammo tom Dieck]], Section I.5 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
@@ -189,7 +195,9 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 
 * {#PflaumPosthumaTang11} [[Markus Pflaum]], Hessel Posthuma, X. Tang, _Geometry of orbit spaces of proper Lie groupoids_, Journal für die reine und angewandte Mathematik (Crelles Journal) 2014.694 ([arXiv:1101.0180](https://arxiv.org/abs/1101.0180), [doi:10.1515/crelle-2012-0092](https://doi.org/10.1515/crelle-2012-0092))
 
-* {#Ziller13} Wolfgang Ziller, _Group actions_, 2013 ([pdf](https://www.math.upenn.edu/~wziller/math661/LectureNotesLee.pdf))
+
+* {#Ziller13} [[Wolfgang Ziller]], _Group actions_, 2013 ([pdf](https://www.math.upenn.edu/~wziller/math661/LectureNotesLee.pdf), [[ZillerGroupActions.pdf:file]])
+
 
 * {#CrainicStruchiner13} Marius Crainic, Ivan Struchiner, _On the linearization theorem for proper Lie groupoids_,  Annales scientifiques de l'École Normale Supérieure, Série 4, Volume 46 (2013) no. 5, p. 723-746 ([numdam:ASENS_2013_4_46_5_723_0](http://www.numdam.org/item/ASENS_2013_4_46_5_723_0/) [doi:10.24033/asens.2200](https://doi.org/10.24033/asens.2200))
 
