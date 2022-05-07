@@ -230,10 +230,11 @@ At least for a [[finite group]] $G$, the [[groupoid convolution algebra]] of the
 
 ## Related concepts
 
+* [[free loop orbifold]]
+
 * [[Huan's inertia orbifold]]
 
 * [[free loop space]], [[derived loop space]]
-
 
 ## References
 
@@ -260,14 +261,15 @@ In view of the [[Chern character]] for [[twisted K-theory|twisted]] [[orbifold K
 
 * [[Jean-Louis Tu]], [[Ping Xu]], _Chern character for twisted K-theory of orbifolds_, Advances in Mathematics __207__ (2006) 455&#8211;483, [pdf](http://www.math.univ-metz.fr/~tu/publi/orb.pdf) (cf. sec. 2.3)
 
-More on the cohesive [[free loop orbifold]]:
+See also the references at *[[free loop orbifold]]*.
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, ([math.AT/0110207](http://arxiv.org/abs/math/0110207), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310), [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946))
+On transgression of [[group cohomology]] for [[discrete groups]] to cohomology of [[inertia groupoids]]:
 
-A [[Fréchet–Lie group|Fréchet–Lie]] groupoid presenting the cohesive free loop orbifold:
+* {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 ([arXiv:math/0503266](https://arxiv.org/abs/math/0503266))
 
-* [[David Michael Roberts]], [[Raymond Vozzo]], _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973).
+* [[Jean-Louis Tu]], [[Ping Xu]], Section 3 of: *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
 
+* [[Alejandro Adem]], [[Yongbin Ruan]], [[Bin Zhang]], Section 4 of: _A Stringy Product on Twisted Orbifold K-theory_, Morfismos (10th Anniversary Issue), Vol. 11, No 2 (2007), 33-64.  ([arXiv:math/0605534](https://arxiv.org/abs/math/0605534), [Morfismos pdf](www.morfismos.cinvestav.mx/Portals/morfismos/SiteDocs/Articulos/Volumen11/No2/Zhang/arz.pdf))
 
 [[!redirects inertia orbifolds]]
 
