@@ -35,7 +35,8 @@ available for  pairs of points (n=2):
 given a topological structure on a set, the precise meaning of the phrase
 "a property $P_{x_0}(x)$ holds for all points $x$ sufficiently close to a given point $x_0$"
 is that the property holds on a neighbourhood of $x_0$;
-intuitively, $x$ near $x_0$ is thought of as  small because $x$ approximates $x_0$ up to a small error. 
+intuitively, the pair $(x_0,x)$ with $x$ near $x_0$ 
+is thought of as  small (a small simplex) because $x$ approximates $x_0$ up to a small error. 
 
 Situses  generalise metric and topological spaces, filters, and simplicial sets, 
 and the concept is designed to be flexible enough to formulate 
@@ -46,7 +47,7 @@ limit, (uniform) continuity and convergence,
 equicontinuity of sequences of functions;
 in algebraic topology, being locally trivial and geometric realisation; in 
 geometry, quasi-isomorphism;
-in model theory, stability and simplicity and several Shelah's dividing lines, e.g. NIP, NOP, NSTOP, $NSOP_i$, $NTP_i$, $NATP$, of a theory. 
+in model theory, stability and simplicity and several Shelah's dividing lines, e.g. NIP, NOP, NSOP, $NSOP_i$, $NTP_i$, $NATP$, $NFCP$, of a theory. 
 
 No homotopy theory for situses has been developed,
 although the naive definition of an [interval object](#IntervalSitus) 
