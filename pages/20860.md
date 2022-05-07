@@ -119,15 +119,10 @@ $$
   \end{aligned}
 $$
 
+
 ## Related theorems
 
-* [[weight systems are associated graded of Vassiliev invariants]]
-
-* [[weight systems are cohomology of loop space of configuration space]]
-
-* [[weight systems are cohomology of knot graph complex]]
-
-* [[stringy weight systems span classical Lie algebra weight systems]]
+[[!include facts about chord diagrams and weight systems -- contents]]
 
 
 ## Related concepts
