@@ -92,6 +92,10 @@ An [[(infinity,1)-category theory|infinity-category theoretic]] proof of this fa
 
 See at _[[Sullivan model of free loop space]]_.
 
+## Examples
+
+* [[free loop space of classifying space]]
+
 ## Related entries 
 
 * [[loop space object]], [[free loop space object]],
