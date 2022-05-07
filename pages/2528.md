@@ -61,7 +61,9 @@ The category $Preset$ of presets and prefunctions is a [[weak category|weak]] [[
 
 The category [[Set|$Set$]] of [[set|sets]] and functions is the [[full subcategory]] of $Preset$ where all [[congruence|equivalence prerelations]] have [[effective epimorphism|effective]] [[quotient object|quotients]], and the category $Setoid$ of __[[setoid|setoids]]__ and functions is the [[exact completion|ex/lex completion]] of $Preset$. This means both $Set$ and $Setoid$ are [[Grothendieck topos|Grothendieck topoi]] over the [[point]] satisfying [[Giraud's axioms]]. As the ex/lex completion is a [[free completion]], there is a [[free functor]] $F: Preset \rightarrow Set$ that is the left adjoint of the [[forgetful functor]] $U: Set \rightarrow Preset$, and $Setoid$ could also be thought of as a subcategory of $Set$, as the category of __[[free object|free]] sets__. (Note that the cofree set on a preset always exists; it is a [[subsingleton]].)
 
-If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Setoid$, as a subcategory of $Set$, $Setoid$ could be thought of as the category of __completely presented sets__, the category of sets with a [[projective presentation]]. If the [[axiom of choice]] holds in $Preset$, then $Setoid$ with the presentation axiom is equivalent to $Set$, as the axiom of choice and the existence of effective quotients for all equivalence relations imply the presentation axiom.
+If the [[presentation axiom]] (a weak form of the full axiom of choice) holds in $Setoid$, as a subcategory of $Set$, $Setoid$ could be thought of as the category of __completely presented sets__, the category of sets with a [[projective presentation]]. 
+
+If the [[axiom of choice]] holds in $Preset$, then $Preset$ is equivalent to $Setoid$, as the axiom of choice implies that $Preset$ is its own free exact completion, and $Preset$ is equivalent to $Set$ because the free functor from $Preset$ to $Set$ is an [[equivalence of categories]]. 
 
 ### In type theory
 
