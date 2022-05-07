@@ -105,7 +105,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 * There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[colax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s.  An analogous double category can be constructed involving the algebras for any [[2-monad]]; see [[double category of algebras]].
 
-* There is a [[double category of model categories]] whose [[objects]] are [[model categories]], whose horizontal morp are right [[Quillen functor]]s, whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.  More generally, we can define a double category of [[homotopical categories]] and "left derivable" and "right derivable" functors.
+* There is a [[double category of model categories]] whose [[objects]] are [[model categories]], whose horizontal arrows are the right [[Quillen functor]]s, vertical arrows the left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.  More generally, we can define a double category of [[homotopical categories]] and "left derivable" and "right derivable" functors.
 
 
 ## Weakenings ##
