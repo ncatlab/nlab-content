@@ -1,4 +1,4 @@
-[[!redirects Dirac measures]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,7 +19,7 @@
 
 A Dirac measure is a [[measure]] whose (unit) mass is concentrated on a single [[point]] $x$ of a [[space]] $X$. 
 
-From the point of view of [[probability theory]], a Dirac measure can be seen as the [[law]] of a [[deterministic random variable]], or more generally one which is [[almost surely]] equal to a point $x$.
+From the point of view of [[probability theory]], a Dirac measure can be seen as the [[law of a random variable|law]] of a [[deterministic random variable]], or more generally one which is [[almost surely]] equal to a point $x$.
 
 See also [[Dirac distribution]] for the analogous concept in the language of [[distributions]].
 
@@ -78,7 +78,7 @@ Equivalently, it is the [[continuous valuation#extending_valuations_to_measures|
 
 * The probabilistic interpretation is that the Dirac measures are exactly those of [[deterministic]] elements (or almost deterministic), i.e. which are "not truly random".
 
-* In terms of [[random variables]], and somewhat conversely, a [[random element]] of $X$ has the Dirac measure $\delta_x$ as [[law]] if and only if it is [[almost surely]] equal to $x$. 
+* In terms of [[random variables]], and somewhat conversely, a [[random element]] of $X$ has the Dirac measure $\delta_x$ as [[law of a random variable|law]] if and only if it is [[almost surely]] equal to $x$. 
 
 ## See also 
 
@@ -89,11 +89,16 @@ Equivalently, it is the [[continuous valuation#extending_valuations_to_measures|
 * [[measure]], [[Radon measure]], [[τ-additive measure]], [[continuous valuation]]
 
 
+[[!redirects Dirac measures]]
+
 [[!redirects Dirac delta measure]]
 [[!redirects Dirac delta measures]]
+
 [[!redirects delta measure]]
 [[!redirects delta measures]]
+
 [[!redirects point measure]]
 [[!redirects point measures]]
+
 [[!redirects point mass measure]]
 [[!redirects point mass measures]]
