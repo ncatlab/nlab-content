@@ -312,7 +312,7 @@ Discussion of [[higher curvature corrections]]:
 
 * [[Paul Howe]], [[Dimitrios Tsimpis]], _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 ([arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129))
 
-* {#Tsimpis04} [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(l^3)$_,   JHEP0410:046,2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
+* {#Tsimpis04} [[Dimitrios Tsimpis]], _11D supergravity at $\mathcal{O}(l^3)$_,   JHEP 0410:046, 2004 ([arXiv:hep-th/0407271](http://arxiv.org/abs/hep-th/0407271))
 
 * {#Howe04} [[Paul Howe]], _$R^4$ terms in supergravity and M-theory_ ([arXiv:hep-th/0408177](https://arxiv.org/abs/hep-th/0408177))
 
