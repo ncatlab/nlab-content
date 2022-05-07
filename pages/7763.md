@@ -58,9 +58,6 @@ A [[smooth infinity-groupoid|smooth stack]] refinement is considered in
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] _[[schreiber:The moduli 3-stack of the C-field]]_
 
-See also 
-
-* Samuel Monnier, _Topological field theories on manifolds with Wu structures_ ([arXiv:1607.01396](http://arxiv.org/abs/1607.01396))
 
 [[!redirects integral Wu structures]]
 [[!redirects differential integral Wu structure]]
