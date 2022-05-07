@@ -276,6 +276,11 @@ Proposals for a genuine [[syntax]] for dependent linear type theory (some of whi
 
 * {#VakarSlides14} [[Matthijs Vákár]], _Splitting the Atom of Dependent Types... or Linear and Operational Dependent Type Theory_, November 2014 ([pdf slides](http://users.ox.ac.uk/~magd3996/research/10-11-2014-Oxford-Linear%20dependent%20types.pdf))
 
+* [[Matthijs Vákár]], *A Categorical Semantics for Linear Logical Frameworks*, In: A. Pitts  (ed.), *Foundations of Software Science and Computation Structures* FoSSaCS 2015. Lecture Notes in Computer Science, vol 9034. Springer 2015  ([arXiv:1501.05016](https://arxiv.org/abs/1501.05016), [doi:10.1007/978-3-662-46678-0_7](https://doi.org/10.1007/978-3-662-46678-0_7))
+
+* [[Matthijs Vákár]], Section 3 of: *In Search of Effectful Dependent Types* ([arXiv:1706.07997](https://arxiv.org/abs/1706.07997), [uuid:e91e19b3-7e10-4fda-9433-f23b469e4049](https://ora.ox.ac.uk/objects/uuid:e91e19b3-7e10-4fda-9433-f23b469e4049))
+
+
 * {#KPB15} [[Neelakantan Krishnaswami]], Pierre Pradic, [[Nick Benton]], _Integrating Dependent and Linear Types_, POPL 15  ([pdf](https://www.cl.cam.ac.uk/~nk480/dlnl-paper.pdf))
 
 * Martin Lundfall, _A diagram model of linear dependent type theory_, ([arXiv:1806.09593](https://arxiv.org/abs/1806.09593))
@@ -285,6 +290,9 @@ Proposals for a genuine [[syntax]] for dependent linear type theory (some of whi
 * Ulrich Schöpp and Ian Stark, _A Dependent Type Theory with Names and Binding_, In Computer Science Logic: Proceedings of the 18th International Workshop CSL 2004, Karpacz, Poland, September 20–24, 2004, Lecture Notes in Computer Science 3210, pages 235–249. Springer-Verlag.  [web](https://homepages.inf.ed.ac.uk/stark/names+binding.html)
 
 * Eric Finster, Dan Licata, and Mitchell Riley, _Extending Homotopy Type Theory with Linear Type Formers_.  [talk video](https://www.youtube.com/watch?v=sPxtdCtjSDc)
+
+* Mitchell Riley, Eric Finster, Daniel R. Licata, *Synthetic Spectra via a Monadic and Comonadic Modality* ([arXiv:2102.04099](https://arxiv.org/abs/2102.04099))
+
 
 * Benjamin Moon, Harley Eades III, Dominic Orchard, _Graded Modal Dependent Type Theory_. In: Yoshida N. (eds) Programming Languages and Systems. ESOP 2021. Lecture Notes in Computer Science, vol 12648. Springer, Cham [doi](https://doi.org/10.1007/978-3-030-72019-3_17), [arxiv:2010.13163](https://arxiv.org/abs/2010.13163)
 
