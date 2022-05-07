@@ -35,7 +35,7 @@ for all topological spaces $X$, where $I$ denotes the [[topological interval]].
 +-- {: .num_remark}
 ###### Remark
 
-This right lifting property is in this context called the [[homotopy lifting property]], because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $f:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $f =\tilde{F}
+In this context this right lifting property is called the *[[homotopy lifting property]]*, because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $f:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $f =\tilde{F}
 \circ\sigma_0 :=\tilde{F}_0$ and $F=p\circ\tilde{F}$: 
 
 $$
@@ -155,6 +155,8 @@ See also
 * the textbooks on algebraic topology by Whitehead and Spanier.
 
 * {#May99} [[Peter May]], _[[A concise course in algebraic topology]]_,   University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
+* {#Cutler20} [[Tyrone Cutler]], _Fibrations III -- Locally trivial maps and bundles_, 2020 ([pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Fibrations%20III.pdf), [[CutlerFibrationsIII.pdf:file]])
 
 Abstract analogues of Hurewicz fibrations can be found in 
 
