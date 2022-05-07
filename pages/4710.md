@@ -117,7 +117,7 @@ It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
 
 * [[exponential ring]]
 
-* [[reciprocal ring]]
+* [[inverse ring]]
 
 ## References
 
