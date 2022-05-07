@@ -159,7 +159,8 @@ $$
 
 In terms of these coordinates, observe the following [[homeomorphism]]:
 
-$$
+\[
+  \label{TheHomeomorphism}
   \array{
     \mathbb{K}P^{n+1} \setminus \mathbb{K}P^n
     &\overset{\;\;\;\simeq\;\;\;}{\longrightarrow}&
@@ -210,9 +211,42 @@ $$
     \Big)
     \,.
   }
+\]
+
+In words this says: Given the class of a set of homogeneous coordinates with the last one non-zero, form the unique representative vector subject to the condition that:
+
+1. its last coordinate is [[real number|real]];
+
+1. its [[norm]] is unity.
+
+Noticing that (eq:TheHomeomorphism) takes the [[topological boundary]] on the left to the boundary sphere as $r \to 1$ on the right, we see that the [[inverse morphism|inverse]] of this homeomorphism gives horizontal [[isomorphisms]] in a [[commuting square]] of the following form:
+
+$$
+  \array{
+    D^{ (n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) }
+    &\overset{\;\;\simeq\;\;}{\longrightarrow}&    
+    \overline{
+      \mathbb{K}P^{n+1}
+      \setminus
+      \mathbb{K}P^n
+    }
+    \\
+    \big\uparrow
+    &&
+    \big\uparrow
+    \\
+    S^{ (n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) - 1 }
+    &\overset{\;\;\simeq\;\;}{\longrightarrow}&    
+    \partial
+    \big(
+      \mathbb{K}P^{n+1}
+      \setminus
+      \mathbb{K}P^n
+    \big)
+    \,.
+  }
 $$
 
-under which the [[topological boundary]] on the left corresponds to the boundary sphere as $r \to 1$ on the right.
 
 But since $\mathbb{K}P^{n+1}$ is manifestly the union of its subspace $\mathbb{K}P^n$ with the [[topological closure]] of the [[complement]] of this subspace,
 we have a pushout square as on the right of the following [[pasting diagram]]:
