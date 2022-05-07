@@ -14,7 +14,7 @@ The category [[FinSet]] of finite sets and functions between them is a prime exa
 
 We can for example make the following definition.
 
-\begin{defn} A **finite set** is a [[set]] $A$ for which there exists a [[bijection]] between $A$ and the set $[n] \coloneqq \{k\in N | k\lt n\}$ for some $n\in N$, where $N$ is the natural numbers. \end{defn}
+\begin{defn} A **finite set** is a [[set]] $A$ for which there exists a [[bijection]] between $A$ and the set $[n] \coloneqq \{k\in \mathbb{N} | k\lt n\}$ for some $n\in \mathbb{N}$, where $\mathbb{N}$ is the [[natural number|natural numbers]]. \end{defn}
 
 \subsection{Finiteness constructively and internally}
 {#Constructivist}
