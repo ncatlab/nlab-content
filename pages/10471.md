@@ -166,7 +166,7 @@ See at _[[model structure on orthogonal spectra]]_.
 Given two orthogonal spectra $X,Y\in OrthSpectra$, def. \ref{OrthogonalSpectrum}, their _[[smash product of spectra]]_ is the orthogonal spectrum
 
 $$
-  X \wedge Y \in OrthSpectrum
+  X \wedge Y \in OrthSpectra
 $$
 
 whose $n$th level space is the [[coequalizer]] 
@@ -174,12 +174,12 @@ whose $n$th level space is the [[coequalizer]]
 $$
   \left(
     \underset{p+1+q = n}{\bigvee}
-     O(n)_+  \underset{O(p)\times 1 \times O(q)}{\wedge} X_p \wedge S^1 \wedge X_q
+     O(n)_+  \underset{O(p)\times 1 \times O(q)}{\wedge} X_p \wedge S^1 \wedge Y_q
   \right)
   \stackrel{\overset{}{\longrightarrow}}{\underset{}{\longrightarrow}}
   \left(
    \underset{p+q = n}{\bigvee}
-    O(n)_+ \underset{O(p)\times O(q)}{\wedge} X_p \wedge X_q
+    O(n)_+ \underset{O(p)\times O(q)}{\wedge} X_p \wedge Y_q
    \right)
    \longrightarrow
    \left(X\wedge Y\right)_{n}
@@ -209,7 +209,7 @@ which makes $OrthSpectra$ into a [[symmetric monoidal category]] with [[unit]] t
 +-- {: .num_defn #BilinearHomomorphisms}
 ###### Definition
 
-For $X,Y,Z \in OrthSpectrum$, def. \ref{OrthogonalSpectrum}, a _[[bilinear map|bilinear]]-homomorphism_ 
+For $X,Y,Z \in OrthSpectra$, def. \ref{OrthogonalSpectrum}, a _[[bilinear map|bilinear]]-homomorphism_ 
 $$
   b 
     \;\colon\;
