@@ -7,9 +7,12 @@
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
 =--
+#### Exceptional structures
++-- {: .hide}
+[[!include exceptional structures -- contents]]
 =--
 =--
-
+=--
 
 #Contents#
 * table of contents
@@ -86,6 +89,8 @@ Families of two-dimensional [[conformal field theory|conformal field theories]],
 * [[Bernoulli number]]
 
 * [[moduli space of curves]]
+
+* [[Dwyer-Wilkerson H-space]], which would be the automorphism group of a [[normed division algebra]] if one could exist in 24 dimensions
 
 ## References
 
