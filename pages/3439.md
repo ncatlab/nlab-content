@@ -25,9 +25,13 @@ See _[[A first idea of quantum field theory]]_ the chapter _[Gauge fixing](A+fir
 ## Examples
 
 * [[temporal gauge]]
+
 * [[Lorenz gauge]]
+
 * [[Coulomb gauge]]
+
 * Feynman gauge
+
 * light cone gauge
 
 ## Related concepts
@@ -35,12 +39,16 @@ See _[[A first idea of quantum field theory]]_ the chapter _[Gauge fixing](A+fir
 * [[gauge]]
 
 * [[gauge group]], [[gauge transformation]]
+
 * [[spontaneously broken symmetry]]
+
 * [[Gribov ambiguity]]
 
 * [[gauge fixing fermion]]
 
 * [[Nakanishi-Lautrup field]], [[antighost field]]
+
+* [[slice theorem]]
 
 ## References
 
