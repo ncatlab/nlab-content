@@ -40,12 +40,15 @@ A state sum model like the Crane-Yetter model, but with a classical Lie group, w
 We could understand the Crane-Yetter as a [[Dijkgraaf-Witten theory]] with a quantum group instead of a classical group, whereas the Yetter model is a Dijkgraaf-Witten theory with a 2-group.
 See also [this blog post](https://golem.ph.utexas.edu/category/2006/08/categorifying_the_dijkgraafwit.html).
 
+## References
 
-* [[Louis Crane]], [[David Yetter]] and [[Louis Kauffman]], [http://arxiv.org/abs/hep-th/9409167](http://arxiv.org/abs/hep-th/9409167) {#CraneYetterKauffman94}
+* {#CraneYetterKauffman94} [[Louis Crane]], [[Louis Kauffman]], [[David Yetter]], _State-Sum invariants of 4-manifolds I_, Journal of Knot Theory and Its Ramifications Vol. 06, No. 02, pp. 177-234 (1997)  ([arXiv:hep-th/9409167](https://arxiv.org/abs/hep-th/9409167), [pdf](http://arxiv.org/PS_cache/hep-th/pdf/9409/9409167v1.pdf), [doi:10.1142/S0218216597000145](https://doi.org/10.1142/S0218216597000145))
+
+
 * [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
   {#BarrettGarciaIslasMartins04}
-* [[John Baez]], _4-Dimensional BF Theory as a Topological Quantum Field Theory
-_, [arXiv:q-alg/9507006](http://arxiv.org/abs/q-alg/9507006). {#Baez95}
+
+* [[John Baez]], _4-Dimensional BF Theory as a Topological Quantum Field Theory_, [arXiv:q-alg/9507006](http://arxiv.org/abs/q-alg/9507006). {#Baez95}
 
 
 [[!redirects Crane-Yetter models]]
