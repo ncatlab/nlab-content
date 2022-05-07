@@ -106,5 +106,4 @@ The analog of the statement for real algebras refined to [[smooth algebras]] is 
 [[!redirects Milnor's exercise]]
 
 [[!redirects smooth manifolds embed into formal duals of R-algebras]]
-
-
+[[!redirects Milnor duality]]
