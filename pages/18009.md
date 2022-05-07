@@ -20,7 +20,7 @@
 
 ## Idea
 
-Any [[free loop space]] $\mathcal{L}X$ has a canonical [[action]] ([[infinity-action]]) of the [[circle group]] $S^1$. The [[homotopy quotient]] $\mathcal{L}(X)/S^1$ of this action might be called the _cyclic loop space_ of $X$. 
+Any [[free loop space]] $\mathcal{L}X$ has a canonical [[action]] ([[infinity-action]]) of the [[circle group]] $S^1$. The [[homotopy quotient]] $\mathcal{L}(X)/S^1$ of this action might be called the _cyclic loop space_ of $X$, and is also known as the *string space* of $X$ ([Chataur 2005. 4.8.1](#Chataur05), [B&ouml;kstedt & Ottosen 05, p. 1](#BokstedtOttosen05)).
 
 If $X = Spec(A)$ is an [[affine variety]] regarded in [[derived algebraic geometry]], then $\mathcal{O}(\mathcal{L}Spec(A))$ is the [[Hochschild homology]] of $A$ and $\mathcal{O}((\mathcal{L}Spec(A))/S^1)$ the corresponding [[cyclic homology]], see the discussion at _[[Hochschild cohomology]]_.
 
@@ -200,6 +200,8 @@ For the [[rational homotopy type]] of cyclic loop spaces see at _[[Sullivan mode
 
 * [[double dimensional reduction]]
 
+* [[string topology]]
+
 * [[cyclic loop stack]]
 
 * [[free loop space]], [[free loop stack]]
@@ -214,12 +216,13 @@ The notion of the cyclic loop space of a topological space appears as:
 
 * {#CarlssonCohen1987} [[Gunnar Carlsson]], [[Ralph Cohen]], *The cyclic groups and the free loop space*, Commentarii Mathematici Helvetici **62** (1987) 423–449  ([doi:10.1007/BF02564455](https://doi.org/10.1007/BF02564455), [dml:140092](https://eudml.org/doc/140092))
 
-
 * {#Witten88} [[Edward Witten]], _The index of the Dirac operator in loop space_. In Elliptic curves and modular forms in algebraic topology (Princeton, NJ, 1986), volume 1326 of Lecture Notes in Math., pages 161&#8211;181. Springer, Berlin, 1988 ([doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045))
 
 * {#Loday92} [[Jean-Louis Loday]], *Cyclic Spaces and $S^1$-Equivariant Homology* ([doi:10.1007/978-3-662-21739-9_7](https://link.springer.com/chapter/10.1007/978-3-662-21739-9_7))
 
   Chapter 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
+
+* {#Chataur05} [[David Chataur]], *A bordism approach to string topology*, International Mathematics Research Notices **2005** 46, (2005)  ([arXiv:math/0306080](https://arxiv.org/abs/math/0306080), [doi:10.1155/IMRN.2005.2829](https://doi.org/10.1155/IMRN.2005.2829))
 
 
 * {#Loday11}[[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
@@ -262,5 +265,10 @@ with exposition in
 
 [[!redirects cyclic loop spaces]]
 
+[[!redirects string loop space]]
+[[!redirects string loop spaces]]
+
 [[!redirects twisted loop space]]
 [[!redirects twisted loop spaces]]
+
+
