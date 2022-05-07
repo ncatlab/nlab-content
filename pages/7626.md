@@ -49,7 +49,7 @@ On [[anyons]] as potential basis of [[topological quantum computation]]:
 
 On detection/construction of [[anyons]] in [[experiment]]:
 
-* James Nakamura, Shuang Liang, Geoffrey C. Gardner, Michael J. Manfra, _Direct observation of anyonic braiding statistics at the ν=1/3 fractional quantum Hall state_ ([arXiv:2006.14115](https://arxiv.org/abs/2006.14115))
+* James Nakamura, Shuang Liang, Geoffrey C. Gardner, Michael J. Manfra, _Direct observation of anyonic braiding statistics_, Nat. Phys. 16, 931–936 (2020). ([arXiv:2006.14115](https://arxiv.org/abs/2006.14115), [doi:10.1038/s41567-020-1019-1](https://doi.org/10.1038/s41567-020-1019-1))
 
 
 [[!redirects anyon]]
