@@ -96,6 +96,61 @@ See also
 
 * Salih Kibaroğlu, Oktay Cebecioğlu, _$D=4$ supergravity from the Maxwell-Weyl superalgebra_ ([arXiv:1812.09861](https://arxiv.org/abs/1812.09861))
 
+
+
+### On $N=1$ $d = 4$ supergravity
+
+There are two different off-shell formulations, the "old minimal"
+
+* [[Kellogg Stelle]] and [[Pete West]], Phys. Lett. 74B (1978) 330; 
+
+* S. Ferrara and [[Peter van Nieuwenhuizen]], Phys. Lett. 74B (1978) 333
+
+and the "new minimal" supergravity
+
+* V. Akulov, [[Dmitry Volkov]] and V. Soroka, _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. 31 (1977) 285 ([doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233))
+
+* M.F. Sohnius and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
+
+* M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
+
+* [[Jim Gates]], [[Martin Rocek]] and [[Warren Siegel]], Nucl. Phys. B198 (1982) 113
+
+These two versions were later understood to be two different [[gauge fixings]] of N=1 d=4 coformal supergravity. Yet other gauge fixings are discussed in
+
+
+* [[Jim Gates]], Jr., Hitoshi Nishino, _Will the Real 4D, $N=1$ SG Limit of Superstring/M-Theory Please Stand Up?_, Phys.Lett.B492:178-186,2000 ([arXiv:hep-th/0008206](http://arxiv.org/abs/hep-th/0008206))
+
+See also
+
+* Nicolas Boulanger, Mboyo Esole, _A Note on the uniqueness of $D = 4$, $N=1$ supergravity_, Class.Quant.Grav. 19 (2002) 2107-2124 ([arXiv:gr-qc/0110072](http://arxiv.org/abs/gr-qc/0110072))
+
+Textbook accounts:
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, chapter III.2, III.3.5, III.3.10 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+Exposition:
+
+* Robin Ducrocq, Michel Rausch de Traubenberg, Mauricio Valenzuela, *A pedagogical discussion of $N = 1$ four-dimensional supergravity in superspace* ([arXiv:2104.06671](https://arxiv.org/abs/2104.06671))
+
+See also:
+
+
+* Wikipedia, _[Supergravity -- 4d N=1](http://en.wikipedia.org/wiki/Supergravity#4D_N_.3D_1_SUGRA)_
+
+
+
+### On $N = 2$, $d = 4$ supergravity
+
+More on the case [[number of supersymmetries|N=2]]:
+
+* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri, _$N = 2$ supergravity and $N = 2$ super Yang-Mills theory on general scalar manifolds: Symplectic covariance, gaugings and the momentum map_. J. Geom. Phys. 23, 111&#8211;189, 1997 ([arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032))
+
+* Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
+
+
+
+
 ### On $N=8$ $d=4$ supergravity
 
 
@@ -141,7 +196,7 @@ Evidence for high [[loop order]] finiteness of $N=8$ 4d supergravity as as [[per
 
 * [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, R. Roiban, _The Ultraviolet Behavior of $N=8$ Supergravity at Four Loops_, Phys. Rev. Lett.103:081301, 2009 ([arXiv:0905.2326](https://arxiv.org/abs/0905.2326))
 
-and via [[KLT relations]]in 
+and via [[KLT relations]]:
 
 * {#BCDJR11} [[Zvi Bern]], John Joseph Carrasco, [[Lance Dixon]], Henrik Johansson, [[Radu Roiban]], _Amplitudes and Ultraviolet Behavior of $N=8$ Supergravity_ ([arXiv:1103.1848](http://arxiv.org/abs/1103.1848))
 
@@ -188,52 +243,6 @@ following the proposal towards the end of
   in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
 
 
-
-### On $N = 2$, $d = 4$ supergravity
-
-More on the case [[number of supersymmetries|N=2]]:
-
-* [[Laura Andrianopoli]], M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], [[Pietro Fré]], T. Magri, _$N = 2$ supergravity and $N = 2$ super Yang-Mills theory on general scalar manifolds: Symplectic covariance, gaugings and the momentum map_. J. Geom. Phys. 23, 111&#8211;189, 1997 ([arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032))
-
-* Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
-
-
-
-### On $N=1$ $d = 4$ supergravity
-
-There are two different off-shell formulations, the "old minimal"
-
-* [[Kellogg Stelle]] and [[Pete West]], Phys. Lett. 74B (1978) 330; 
-
-* S. Ferrara and [[Peter van Nieuwenhuizen]], Phys. Lett. 74B (1978) 333
-
-and the "new minimal" supergravity
-
-* V. Akulov, [[Dmitry Volkov]] and V. Soroka, _Generally covariant theories of gauge fields on superspace_, Theor. Math. Phys. 31 (1977) 285 ([doi:10.1007/BF01041233](https://doi.org/10.1007/BF01041233))
-
-* M.F. Sohnius and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
-
-* M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
-
-* [[Jim Gates]], M. Rocek and [[Warren Siegel]], Nucl. Phys. B198 (1982) 113
-
-These two versions were later understood to be two different [[gauge fixings]] of N=1 d=4 coformal supergravity. Yet other gauge fixings are discussed in
-
-
-* [[Jim Gates]], Jr., Hitoshi Nishino, _Will the Real 4D, $N=1$ SG Limit of Superstring/M-Theory Please Stand Up?_, Phys.Lett.B492:178-186,2000 ([arXiv:hep-th/0008206](http://arxiv.org/abs/hep-th/0008206))
-
-See also
-
-* Nicolas Boulanger, Mboyo Esole, _A Note on the uniqueness of $D = 4$, $N=1$ supergravity_, Class.Quant.Grav. 19 (2002) 2107-2124 ([arXiv:gr-qc/0110072](http://arxiv.org/abs/gr-qc/0110072))
-
-Textbook accounts include
-
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 2, chapter III.2, III.3.5, III.3.10 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-
-Survey includes
-
-
-* Wikipedia, _[Supergravity -- 4d N=1](http://en.wikipedia.org/wiki/Supergravity#4D_N_.3D_1_SUGRA)_
 
 
 ### Gauged 4d supergravity
