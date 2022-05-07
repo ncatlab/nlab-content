@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,7 +13,6 @@
 =--
 
 [[!redirects motives]]
-
 
 # Contents
 * table of contents
@@ -37,13 +35,11 @@ Another crucial idea leading to motives is that the various cohomology theories 
 
 $L$-functions (and $\zeta$-functions in particular) of varieties are also invariants of their motives. The [[Langlands program]] indirectly involves motives; in particular its essential part can be expressed as a general modularity conjecture relating $L$-functions to automorphic functions. Most of the deep properties of [[elliptic curve]]s are of motivic nature, and in particular a major step of the proof of [[Fermat's last theorem]] by Wiles and Taylor can be interpreted as a proof of a special case of the modularity conjecture (for elliptic curves). 
 
-
 ## Constructions of the abelian category of mixed motives {#AbelianMotives}
 
 There is no generally accepted construction of a $\mathbb{Q}$-linear [[abelian category]] of mixed motives, and its existence remains conjectural. However, there exist candidate and conditional constructions which are useful in practice.
 
 Note that "the" abelian category of mixed motives depends on choosing a base [[scheme]] $S$, and one speaks of motives (or _motivic sheaves_) over $S$. Traditionally, $S$ is the spectrum of a [[field]], often of characteristic zero.
-
 
 ### Nori motives
 
@@ -51,16 +47,15 @@ Note that "the" abelian category of mixed motives depends on choosing a base [[s
 
 ### Deligne motives
 
-[[Pierre Deligne]] gave a definition of a category of mixed motives over [[number fields]] as compatible systems of realizations, essentially bundling together all the structure that mixed motives should give rise to. This approach automatically yields a $\mathbb{Q}$-[[Tannakian category]] of mixed motives with all the desired realization functors (Betti, $l$-adic, de Rham, and crystalline). See [Deligne](#DeligneP1) for details.
-
+[[Pierre Deligne]] gave a definition of a category of mixed motives over [[number fields]] as compatible systems of realizations, essentially bundling together all the structure that mixed motives should give rise to. This approach automatically yields a $\mathbb{Q}$-[[Tannakian category]] of mixed motives with all the desired realization functors (Betti, $\ell$-adic, de Rham, and crystalline). See [Deligne](#DeligneP1) for details.
 
 ### As the heart of a t-structure on the derived category of mixed motives
 
 [[Pierre Deligne|Deligne]] first suggested that it might be easier to define the [[derived category]] $DM(S,\mathbb{Q})$ of the hypothetical abelian category of mixed motives. Once this is done, one can in principle recover the abelian category as the heart of a [[t-structure]] on $DM(S,\mathbb{Q})$. It is now well-understood what the [[triangulated category]] $DM(S,\mathbb{Q})$ is over any base [[scheme]] ([see below](#DerivedMotives)). The hypothetical t-structure on $DM(S,\mathbb{Q})$ whose heart is the abelian category of mixed motives over $S$ is called the **motivic t-structure**.
 
-Beilinson proved that, over fields of characteristic zero, the existence of the motivic t-structure implies the [[standard conjectures on algebraic cycles]] (see [Beilinson](#Beilinson10)), and Bondarko proved that it implies the existence of motivic t-structures for more general schemes (see [Bondarko](#Bondarko13)).
+[[Alexander Beilinson|Beilinson]] proved that, over fields of characteristic zero, the existence of the motivic t-structure implies the [[standard conjectures on algebraic cycles]] (see [Beilinson](#Beilinson10)), and [[Mikhail Bondarko|Bondarko]] proved that it implies the existence of motivic t-structures for more general schemes (see [Bondarko](#Bondarko13)).
 
-While the derived category of mixed motives can also be defined with integral rather than rational coefficients, Voevodksy observed that the derived category of integral motives cannot have a motivic t-structure ([Voevodsky, Prop. 4.3.8](#TriCatMixMot)). Thus, the _abelian_ category of motives always refers to motives with rational coefficients.
+While the derived category of mixed motives can also be defined with integral rather than rational coefficients, [[Vladimir Voevodsky|Voevodksy]] observed that the derived category of integral motives cannot have a motivic t-structure ([Voevodsky, Prop. 4.3.8](#TriCatMixMot)). Thus, the _abelian_ category of motives always refers to motives with rational coefficients.
 
 ### References
 
@@ -76,13 +71,11 @@ While the derived category of mixed motives can also be defined with integral ra
 * [[Vladimir Voevodsky]], _Triangulated categories of motives over a field_, ([K-theory](http://www.math.uiuc.edu/K-theory/0074/))
 {#TriCatMixMot}
 
-
 ## Constructions of the derived category of mixed motives {#DerivedMotives}
 
-The [[derived category]] of the hypothetical abelian category of mixed motives has been unconditionally defined over any [[Noetherian scheme]]. The first definition was proposed by Voevodsky in the mid 1990s. Since then, several other definitions were formulated: one by Morel, one by Ayoub, and one by Cisinski and D&#233;glise. The latter three are equivalent and support a full-fledged formalism of [[six operations]]. However, they are only known to be equivalent to Voevodsky's definition over [[excellent scheme|excellent]] and [[geometrically unibranch scheme|geometrically unibranch]] schemes.
+The [[derived category]] of the hypothetical abelian category of mixed motives has been unconditionally defined over any [[Noetherian scheme]]. The first definition was proposed by [[Vladimir Voevodsky|Voevodksy]] in the mid 1990s. Since then, several other definitions were formulated: one by [[Fabien Morel|Morel]], one by [[Joseph Ayoub|Ayoub]], and one by [[Denis-Charles Cisinski|Cisinski]] and [[Frédéric Déglise|Déglise]]. The latter three are equivalent and support a full-fledged formalism of [[six operations]]. However, they are only known to be equivalent to Voevodsky's definition over [[excellent scheme|excellent]] and [[geometrically unibranch scheme|geometrically unibranch]] schemes.
 
-On the other hand, Voevodsky's definition is the only one among these four which also makes sense with integral coefficients rather than rational coefficients. Recently, Spitzweck proposed a definition of the category of integral motives over general base schemes which also supports a formalism of [[six operations]]. It is known to agree with Voevodsky's definition for [[fields]] of characteristic zero. Rationally, however, it agrees with the Morel/Ayoub/Cisinski-D&#233;glise definition over any base scheme.
-
+On the other hand, Voevodsky's definition is the only one among these four which also makes sense with integral coefficients rather than rational coefficients. Recently, [[Markus+Spitzweck|Spitzweck]] proposed a definition of the category of integral motives over general base schemes which also supports a formalism of [[six operations]]. It is known to agree with Voevodsky's definition for [[fields]] of characteristic zero. Rationally, however, it agrees with the Morel/Ayoub/Cisinski-Déglise definition over any base scheme.
 
 ### As homotopy invariant Nisnevich sheaves with transfers (Voevodsky motives)
  {#VoevodskyMotives}
@@ -129,19 +122,18 @@ The *Hopf element* $\eta\in \pi_{1,1}(S^0)$ is the stabilization of the algebrai
 
 We have $\epsilon=-1$ if and only if $-1$ is a sum of squares in all the residue fields of $S$, in which case $SH(S)_{\mathbb{Q}}= SH(S)_{\mathbb{Q}_+}$. Thus, the other summand $SH(S)_{\mathbb{Q}_-}$ only appears over [[formally real field]]s. It is called the category of _Witt motives_.
 
-
-### As homotopy invariant &#233;tale sheaves without transfers (Ayoub motives)
+### As homotopy invariant étale sheaves without transfers (Ayoub motives)
 
 According to Ayoub, the stable $(\infty,1)$-category of motives over a scheme $S$ can be constructed in the same way as the stable motivic homotopy category $SH(S)$, with two variations:
 
 * Instead of the [[Nisnevich topology]] on the category of smooth $S$-schemes, use the [[étale topology]]
 * Instead of [[(∞,1)-sheaves]] of [[∞-groupoids]], use (∞,1)-sheaves of connective [[chain complexes]] of $\mathbb{Q}$-[[vector spaces]].
 
-The resulting (∞,1)-category is denoted $DA^{\mathrm{et}}(S,\mathbb{Q})$. Its objects are thus $\mathbb{P}^1$-spectra of $\mathbb{A}^1$-invariant &#233;tale [[(∞,1)-sheaves]] with values in connective rational [[chain complexes]].
+The resulting (∞,1)-category is denoted $DA^{\mathrm{et}}(S,\mathbb{Q})$. Its objects are thus $\mathbb{P}^1$-spectra of $\mathbb{A}^1$-invariant étale [[(∞,1)-sheaves]] with values in connective rational [[chain complexes]].
 
 ### As modules over a summand of rational homotopy invariant algebraic K-theory (Beilinson motives)
 
-This definition is due to Cisinski and D&#233;glise. The rationalization of the homotopy invariant [[algebraic K-theory]] spectrum $KGL\in SH(S)$ splits as a direct sum
+This definition is due to Cisinski and Déglise. The rationalization of the homotopy invariant [[algebraic K-theory]] spectrum $KGL\in SH(S)$ splits as a direct sum
 
 $$ KGL_{\mathbb{Q}} = \bigoplus_{n\in\mathbb{Z}} \Sigma_T^n H_B $$
 
@@ -153,27 +145,27 @@ The stable $(\infty,1)$-category of _Beilinson motives_ is the $(\infty,1)$-cate
 =--
 
 
-Cisinski and D&#233;glise have shown that $H_B$ is exactly the $+$-summand $S^0_{\mathbb{Q}_+}$ of the rational motivic sphere spectrum, and hence that a Beilinson motive is the same thing as a Morel motive. They have also shown that Beilinson/Morel motives are equivalent to Ayoub motives. Finally, they have shown that Beilinson motives are equivalent to rational Voevodsky motives $DM(S,\mathbb{Q})$ when $S$ is [[excellent scheme|excellent]] and [[geometrically unibranch scheme|geometrically unibranch]]. Over such schemes, all four definitions of the derived category of mixed motives are therefore equivalent.
+Cisinski and Déglise have shown that $H_B$ is exactly the $+$-summand $S^0_{\mathbb{Q}_+}$ of the rational motivic sphere spectrum, and hence that a Beilinson motive is the same thing as a Morel motive. They have also shown that Beilinson/Morel motives are equivalent to Ayoub motives. Finally, they have shown that Beilinson motives are equivalent to rational Voevodsky motives $DM(S,\mathbb{Q})$ when $S$ is [[excellent scheme|excellent]] and [[geometrically unibranch scheme|geometrically unibranch]]. Over such schemes, all four definitions of the derived category of mixed motives are therefore equivalent.
 
 ### As modules over a spectrum representing motivic cohomology over $Spec \mathbb{Z}$ (Spitzweck motives)
 
 One idea to define a category of integral motives with a formalism of [[six operations]] is to first define an $E_\infty$ motivic ring spectrum $M_{\mathbb{Z}}\in SH(Spec \mathbb{Z})$. If $f: S\to Spec \mathbb{Z}$ is any scheme, we obtain an $E_\infty$-algebra $M_S = f^\ast(M_{\mathbb{Z}})$ in $SH(S)$. The categories of modules over $M_S$ for varying $S$ then inherit a complete formalism of six operations from $SH$.
 
-Spitweck defined such an $E_\infty$-algebra $M_{\mathbb{Z}}$ such that
+[[Markus Spitzweck|Spitzweck]] defined such an $E_\infty$-algebra $M_{\mathbb{Z}}$ such that
 
 * if $S$ is smooth over a [[Dedekind domain]], $M_S$ represents [[motivic cohomology|Bloch-Levine motivic cohomology]],
-* if $S$ is smooth over a field, $M_S$ is equivalent to Voevodsky's motivic Eilenberg&#8211;Mac Lane spectrum $H\mathbb{Z}$,
+* if $S$ is smooth over a field, $M_S$ is equivalent to Voevodsky's motivic Eilenberg-Mac Lane spectrum $H\mathbb{Z}$,
 * $M_{\mathbb{Z}}\otimes\mathbb{Q}$ is the Beilinson motive $H_B$.
 
 The stable $(\infty,1)$-category of $M_S$-modules is thus a well-behaved candidate for a derived category of integral motives, but it is only known to agree with Voevodsky's definition when $S$ is a field of characteristic zero (by [Rondigs-Ostvaer, Theorem 5.5](#RO08)).
 
 ## Variations and extensions
 
-Correspondences are interesting in [[noncommutative geometry]] of the [[operator algebra]] flavour. For example, KK-groups are in fact themselves sort of correspondences; Connes and Skandalis had an early reference very much paralleling some ideas from the algebraic world. More recently, motives in the operator algebraic setup have been approached by Connes, Marcolli and others. 
+Correspondences are interesting in [[noncommutative geometry]] of the [[operator algebra]] flavour. For example, KK-groups are in fact themselves sort of correspondences; [[Alain Connes|Connes]] and [[Georges Skandalis|Skandalis]] had an early reference very much paralleling some ideas from the algebraic world. More recently, motives in the operator algebraic setup have been approached by [[Alain Connes|Connes]], [[Matilde Marcolli|Marcolli]] and others. 
 
-{#Noncommutative} In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories, Kontsevich proposed a theory of [[noncommutative motive]]s. There is now a more general setup (than Kontsevich's) due Cisinski and Tabuada, see the [references](noncommutative+motive#References) at *[[noncommutative motive]]*.
+{#Noncommutative} In derived [[noncommutative algebraic geometry]] based on $A_\infty$-categories, [[Maxim Kontsevich|Kontsevich]] proposed a theory of [[noncommutative motive]]s. There is now a more general setup (than Kontsevich's) due to [[Denis-Charles Cisinski|Cisinski]] and [[Gonçalo Tabuada|Tabuada]], see the [references](noncommutative+motive#References) at *[[noncommutative motive]]*.
 
-In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rigid analytic geometry]], $A^1$-homotopy theory is replaced by $B^1$-homotopy theory and the appropriate analogue of the Voevodsky's category of mixed motives has been constructed; the construction follows the same basic pattern. 
+In [[birational geometry]], [[Bruno Kahn]] defined the appropriate version. In [[rigid analytic geometry]], $A^1$-homotopy theory is replaced by $B^1$-homotopy theory and the appropriate analogue of the Voevodsky's category of mixed motives has been constructed; the construction follows the same basic pattern. 
 
 ## Relation to other fields
 
@@ -187,10 +179,9 @@ Motivic structures show up in [[quantum field theory]], for instance
 
 The [[path integral as a pull-push transform|pull-push quantization]] in [[Gromov-Witten theory]] is naturally understood as a "[[motivic quantization]]" in terms of [[Chow motives]] of [[Deligne-Mumford stacks]] ([Behrend-Manin 95](#BehrendManin95)).
 
-
 ### Relation to KK-theory
 
-See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutative topology](http://ncatlab.org/nlab/show/KK-theory#AsAnAnalogOfMotives)_.
+See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutative topology](KK-theory#AsAnAnalogOfMotives)_.
 
 
 ## Related concepts
@@ -218,7 +209,6 @@ See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutativ
 * See also at _[KK-theory -- Relation to motives](KK-theory#AsAnAnalogOfMotives)_.
 
 * [[motives in physics]]
-
 
 ## References
 
@@ -249,14 +239,14 @@ Fall 2001. ([pdf](http://mat.uab.cat/~kock/tmp/delnotes01.pdf))
 
 and worked out in detail in 
 
-* [[Joseph Ayoub]], _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique (I)_, Ast&#233;risque, vol. 314, Soc. Math. France, 2007.
+* [[Joseph Ayoub]], _Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique (I)_, Astérisque, vol. 314, Soc. Math. France, 2007.
 
-  _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique (II)_, Ast&#233;risque, vol. 315, Soc. Math. France, 2007.
+  _Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique (II)_, Astérisque, vol. 315, Soc. Math. France, 2007.
  {#Ayoub}
 
 the definition of Ayoub motives in
 
-* [[Joseph Ayoub]], _La r&#233;alisation &#233;tale et les op&#233;rations de Grothendieck_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/Realisation-Etale.pdf))
+* [[Joseph Ayoub]], _La réalisation étale et les opérations de Grothendieck_ ([pdf](http://user.math.uzh.ch/ayoub/PDF-Files/Realisation-Etale.pdf))
 
 For the definition of Beilinson and Morel motives, the equivalences of the various definitions, and the formalism of six operations, see
 
@@ -295,13 +285,13 @@ A formal discussion of motives can be found in [lecture 14](http://www.math.rutg
 
 There is also
 
-*  James S. Milne, _[Motives -- Grothendieck's Dream](http://www.jmilne.org/math/xnotes/MOT.pdf)_
+* [[James Milne|James S. Milne]], _[Motives -- Grothendieck's Dream](http://www.jmilne.org/math/xnotes/MOT.pdf)_
 
-*  [[Minhyong Kim]], _[Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)_
+* [[Minhyong Kim]], _[Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)_
 
-* Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
+* [[Bruno Kahn]], [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
 
-* Florence Lecomte, Nathalie Wach, _R&#233;alisations des complexes motiviques de Voevodsky_, [arxiv:0911.5611](http://de.arxiv.org/abs/0911.5611)
+* Florence Lecomte, Nathalie Wach, _Réalisations des complexes motiviques de Voevodsky_, [arxiv:0911.5611](http://de.arxiv.org/abs/0911.5611)
 
 * [[Marc Levine]], _Smooth motives_, [arxiv:0807.2265](http://arxiv.org/abs/0807.2265)
 
@@ -311,7 +301,8 @@ For a noncommutative analogue to the theory of motives, see [[noncommutative mot
 
 Some other aspects
 
-* M.V. Bondarko, _Weight structures vs. $t$-structures; weight filtrations, spectral sequences, and complexes (for motives and in general)_, [arxiv/0704.4003](http://arxiv.org/abs/0704.4003)
+* [[Mikhail Bondarko|Mikhail V. Bondarko]], _Weight structures vs. $t$-structures; weight filtrations, spectral sequences, and complexes (for motives and in general)_, [arxiv/0704.4003](http://arxiv.org/abs/0704.4003)
+
 * [[Yuri Manin]], _Motives and quantum cohomology_, talk at Colloque Grothendieck, [video](http://www.dailymotion.com/video/x8juco_colloque-grothendieck-yuri-manin_tech)
 
 Motives from the point of view of Grothendieck topoi are studied in 
@@ -332,7 +323,7 @@ Relation of [[motivic cohomology]] to [[bivariant algebraic K-theory]] (see also
 * [[Alain Connes]], [[Caterina Consani]], [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
  {#ConnesConsaniMarcolli05}
 
-* [[Guillermo Cortiñas]], [[Andreas Thom]], _Bivariant algebraic K-theory_. J. Reine Angew. Math. 510 (2007), 71&#8211;124. ([arXiv:math/0603531](http://arxiv.org/abs/math/0603531))
+* [[Guillermo Cortiñas]], [[Andreas Thom]], _Bivariant algebraic K-theory_. J. Reine Angew. Math. 510 (2007), 71-124. ([arXiv:math/0603531](http://arxiv.org/abs/math/0603531))
 
 * [[Grigory Garkusha]], Ivan Panin, _K-motives of algebraic varieties_ ([arXiv:1108.0375](http://arxiv.org/abs/1108.0375))
 
@@ -366,8 +357,8 @@ Further investigation of these stacky Chow motives then appears in
 
 For more see at _[[motives in physics]]_.
 
-
 category: algebraic geometry
+
 [[!redirects motif]]
 [[!redirects motive]]
 [[!redirects motives]]
