@@ -31,13 +31,25 @@ An older terminology, which should probably be avoided at all costs, uses "homom
 
 ## Definition
 
-Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__, or just __functor__) $P\colon C \to D$ consists of:
+Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__, or just __functor__) $P:C \to D$ consists of:
 
-*  for each [[object]] $x$ of $C$, an object $P_x$ of $D$;
-*  for each [[hom-category]] $C(x,y)$ in $C$, a [[functor]] $P_{x,y}\colon C(x,y) \rightarrow D(P_x,P_y)$;
-*  for each object $x$ of $C$, an invertible [[2-morphism]] ($2$-cell) $P_{\id_x}\colon \id_{P_x} \Rightarrow P_{x,x}(\id_x)$;
-*  for each triple $x,y,z$ of $C$-objects, an [[natural isomorphism|isomorphism]] (natural in $f\colon x \to y$ and $g\colon y \to z$) $P_{x,y,z}(f,g)\colon P_{x,y}(f) ; P_{y,z}(g) \Rightarrow P_{x,z}(f;g)$;
-*  for each hom-category $C(x,y)$,
+*  A function
+$$
+P:Ob_C\to Ob_D.
+$$
+*  For each [[hom-category]] $C(x,y)$ in $C$, a [[functor]] 
+$$
+P_{x,y}\colon C(x,y) \rightarrow D(P_x,P_y).
+$$
+*  For each object $x$ of $C$, an invertible [[2-morphism]] ($2$-cell)
+$$
+P_{\id_x}\colon \id_{P_x} \Rightarrow P_{x,x}(\id_x).
+$$
+*  For each triple $x,y,z$ of $C$-objects, an [[natural isomorphism|isomorphism]] (natural in $f\colon x \to y$ and $g\colon y \to z$) 
+$$
+P_{f,g}\colon P_{x,y}(f) ; P_{y,z}(g) \Rightarrow P_{x,z}(f;g)
+$$
+*  For each hom-category $C(x,y)$,
    $$ \array {
                                   &                                         & \id_{P_x} ; P_{x,y}(f) \\
                                   & {}^{P_{\id_x};\id_{P_{x,y}(f)}}\swArrow &                        & \seArrow^{\lambda_{P_{x,y}(f)}} \\
@@ -53,8 +65,8 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
                                   & {}_{P_{x,y,y}(f,\id_y)}\seArrow         &                        & \neArrow_{P_{x,y}(\rho_f)} \\
                                   &                                         & P_{x,y}(f;\id_y) \\
    } $$
-   commute; and
-*  for each quadruple $w,x,y,z$ of $C$-objects,
+   commute.
+*  For each quadruple $w,x,y,z$ of $C$-objects,
    $$ \array {
       \big(P_{w,x}(f) ; P_{x,y}(g)\big) ; P_{y,z}(h)       & \overset{\alpha_{P_{w,x}(f),P_{x,y}(g),P_{y,z}(h)}}\Rightarrow & P_{w,x}(f) ; \big(P_{x,y}(g) ; P_{y,z}(h)\big) \\
       \mathllap{P_{w,x,y}(f,g);\id_{P_{y,z}(h)}}\Downarrow &                                                                & \Downarrow\mathrlap{\id_{P_{w,x}(f)};P_{x,y,z}(g,h)} \\
@@ -63,6 +75,29 @@ Given [[bicategories]] $C$ and $D$, a __pseudofunctor__ (or __weak $2$-functor__
       P_{w,z}\big((f;g);h\big)                             & \underset{P_{w,z}(\alpha_{f,g,h})}\Rightarrow                  & P_{w,z}\big(f;(g;h)\big) \\
    } $$
    commutes.
+
+### Composition of Pseudofunctors
+
+The composite of two pseudofunctors $P:\mathfrak{C}\to\mathfrak{D}$, $Q:\mathfrak{B}\to\mathfrak{C}$ is defined as follows:
+
+1. Action on objects is given by function composition, so
+$$
+P\circ Q(X)=P(Q(X))
+$$
+1. Hom functors are given by functor composition, so
+$$
+(P\circ Q)_{XY}=P_{XY}\circ Q_{XY}
+$$
+1. For each object $X\in\mathfrak{B}$,
+$$
+(P\circ Q)_{id_X}=P(Q_{id_X})\circ P_{id_{Q(X)}}
+$$
+1. For each pair of composable arrows $f:Y\to Z$, $g:X\to Y\in\mathfrak{B}$,
+$$
+(P\circ Q)_{f,g}=P(Q_{f,g})\circ P_{Q(f),Q(g)}
+$$
+
+Coherence diagrams commute as a consequence of the coherence diagrams for $P$ and $Q$ commuting.
 
 ## Pseudofunctors versus lax functors
 
