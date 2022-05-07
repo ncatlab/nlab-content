@@ -69,6 +69,8 @@ If $C$ is $Set$ (the [[category of sets]]), then this diagonal morphism is preci
 
 The diagonal morphism is always a [[regular monomorphism]], since it is the [[equaliser]] of the two projection maps $X^2 \to X$.  (In fact, it is a [[split monomorphism]], since it is also a [[section]] of either projection map.)  Thus, it makes $X$ into a regular [[subobject]] of $X^2$, the __diagonal subobject__.  When $C$ is the $Set$, this recovers the original notion of the [[diagonal subset]] of $X^2$.
 
+In any category with binary [[pullbacks]], the [[kernel pair]] of the [[identity morphism]] $id$ on an object $X$ is the diagonal morphism $(id,id)$ of $X$, and has a [[coequalizer]] [[isomorphic]] to $X$ itself. 
+
 ## Examples
 
 In the category [[Set]] the diagonal $\Delta_X$ is the [[function]] $a \mapsto (a,a)$ for all $a \in X$. See [[diagonal subset]].
@@ -78,7 +80,6 @@ In the category [[Top]] of [[topological spaces]], an object $X$ is a [[Hausdorf
 In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 
 ## Related concepts
-
 
 * [[fat diagonal]]
 
