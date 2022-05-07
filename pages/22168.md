@@ -54,7 +54,7 @@ Since the construction of the differential cohomology hexagon does not require t
 
 ### Singular cohesion
 
-To treat condensed [[orbifolds]], one might consider the *singular* cohesion of [[schreiber:Proper Orbifold Cohomology|Sati-Schreiber 2020]] (the combination of smooth cohesion over $Grpd_\infty$ with that of [[global equivariant homotopy theory]]), but now relative to condensed $\infty$-groupoids.
+To treat condensed [[orbifolds]], one might consider enhancing to the *[[singular cohesion]]* of [[schreiber:Proper Orbifold Cohomology|Sati-Schreiber 2020]] (the combination of smooth cohesion over $Grpd_\infty$ with that of [[global equivariant homotopy theory]] by passing to [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-presheaves]] over the "[[global orbit category]]"), but now relative to condensed $\infty$-groupoids.
 
 But see also ([Scholze c](#Scholzec)).
 
