@@ -178,7 +178,16 @@ The existence of [[dual objects]] tends to imply (semi)additivity; see ([Houston
 
 Categories with biproducts include:
 
+* The category of abelian groups. More generally, any [[ abelian category ]]. 
+
+* The category of (finitely generated) [[ projective module | projective modules ]] over a given ring. 
+
+* Any [[ triangulated category ]], in particular the derived category of a ring, or the homotopy category of spectra. 
+
+* The category of abelian categories and exact functors. 
+
 * [[K(n)-local stable homotopy theory]] ([Hopkins-Lurie 14](#HopkinsLurie14))
+
 
 ## Related concepts
 
