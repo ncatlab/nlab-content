@@ -160,7 +160,9 @@ Moreover, since quaternion-multiplication is clearly [[continuous function|conti
 Finally, since $\mathbb{H} \,\ni\, q \,\mapsto\, \bar q \cdot q \,\in\, \mathbb{R}$ is positive definite ($\bar q \cdot q = 0 \,\;\Leftrightarrow\;\, q = 0$ ), at least one of the components $v_i$ of $\vec v$ needs to be non-zero in order for  (eq:UnitNormConditionOnQuaternionicVectors) to hold. But on this component the left action $v_i \,\mapsto\, q \cdot v_i$ is left-multiplication in the [[group of units]] $\mathbb{H}^{\times} \,=\, \mathbb{H} \setminus \{0\}$ and hence is free, as the multiplication action of any group on itself is free.
 \end{proof}
 
-Notice that, while an analogous argument shows that with $G \subset Sp(1)$ also the [[direct product group]] $G^{n+1}$ canonically acts on $S^{4n+3}$ by componentwise left multiplication, for $n \geq 2$ this action is no longer free, as the $k$th factor subgroup now fixes the elements whose $k$th component vanishes. In fact, higher direct product powers of cyclic groups in general have *no* free action on spheres of any dimension, see Smith's $p^2$-condition (Prop. \ref{SmithPSquareCondition} below).
+\begin{remark}
+While an analogous argument as in Ex. \ref{FiniteADEGroupsActFreelyOnFourNPlusThreeSpheres} shows that with $G \subset Sp(1)$ also the [[direct product group]] $G^{n+1}$ canonically acts on $S^{4n+3}$ by componentwise left multiplication, for $n \geq 2$ this action is no longer free, as the $k$th factor subgroup now fixes the elements whose $k$th component vanishes. In fact, higher direct product powers of cyclic groups in general have *no* free action on spheres of any dimension, see Smith's $p^2$-condition (Prop. \ref{SmithPSquareCondition} below).
+\end{remark}
 
 
 #### Free involutions
@@ -209,7 +211,7 @@ The only solutions for this algebraic equation (over the [[integers]]) have $ord
 \label{ZTwoActionsAreInvolutions}
 **([[cyclic group of order 2|$\mathbb{Z}/2$]]-[[group action|actions]] are equivalently [[involutions]])**
 \linebreak
-  Any [[group action]] of $\rho \,\colon\, \mathbb{Z}/2 \times S^n \to S^n$ of the [[cyclic group of order 2|$\mathbb{Z}/2$]] is determined by its value $\rho(\sigma) \,\colon\, S^n \to S^n$ on the single non-trivial element $\sigma \,\in\, \mathbb{Z}/2$, which is an [[involution]], and every involution corresponds to a unique $\mathbb{Z}/2$-action this way.
+  Any [[group action]] $\rho \,\colon\, \mathbb{Z}/2 \times S^n \to S^n$ of the [[cyclic group of order 2|$\mathbb{Z}/2$]] is determined by its value $\rho(\sigma) \,\colon\, S^n \to S^n$ on the single non-trivial element $\sigma \,\in\, \mathbb{Z}/2$, which is an [[involution]], and every involution corresponds to a unique $\mathbb{Z}/2$-action this way.
 \end{remark}
 
 
@@ -277,7 +279,7 @@ Here all spheres are equipped with their standard smooth structure (?), it is ju
 #### General obstructions and existence
  {#GeneralObstructionToAndExistenceOfFreeActions}
 
-Not all [[finite groups]] have any free continuous action on any $n$-sphere: One [[obstruction]] is Smith's "$p^2$-condition" (Prop. \ref{SmithPSquareCondition} below), another is Milnor's "$2 p$-condition". But these are the only two obstructions, and a finite group that evades these is guaranteed to act not just continuously on a sphere of a single dimension, but smoothly on spheres of any dimension which is a multiple of its [[Artin-Lam induction exponent]] (Prop. \ref{MadsenThomasWallTheorem} below).
+Not all [[finite groups]] have any free continuous action on any $n$-sphere: One [[obstruction]] is Smith's "$p^2$-condition" (Prop. \ref{SmithPSquareCondition} below), another is Milnor's "$2 p$-condition" (Prop. \ref{Milnor2PCopndition} below). But these are the only two obstructions, and a finite group that evades these is guaranteed to act not just continuously on a sphere of a single dimension, but smoothly on spheres of any dimension which is a multiple of its [[Artin-Lam induction exponent]] (Prop. \ref{MadsenThomasWallTheorem} below).
 
 \begin{proposition}
 \label{SmithPSquareCondition}
@@ -315,13 +317,13 @@ $$
 \end{definition}
 
 \begin{proposition}\label{EquivalentVersionsOfPSquareCondition}
-**(equivalent statements of the $p^2$-condition)
+**(equivalent statements of the $p^2$-condition)**
 \linebreak
   For a [[finite group]] $G$, the following are equivalent: 
 
   1. For all [[prime numbers]] $p$, $G$ satisfies the $p^2$-condition (Def. \ref{pqCondition}).
 
-  1. For all [[prime number|primes]] $p$,  the $p$-[[Sylow subgroup]] of $G$ is either cyclic or (if $p = 2$) [[generalized quaternion group|generalized quaternion]].
+  1. For all [[prime number|primes]] $p$,  the [[Sylow p-subgroup]] of $G$ is either cyclic or (if $p = 2$) [[generalized quaternion group|generalized quaternion]].
 
   1. $G$ has "periodic cohomology" in that there exists $k \in \mathbb{N}$ such that its [[integral cohomology|integral]] [[group cohomology]] [[cohomology groups|group]] in degree $k$ is [[cyclic group|cyclic]]:
 
@@ -330,7 +332,7 @@ $$
        \;
        \underset{N_k \in \mathbb{N}}{\exists}
        \;\;
-       H^k_{grp}(G;\, \mathbb{Z}) \,\simeq\, \mathbb{Z}/_{n_k}
+       H^k_{grp}(G;\, \mathbb{Z}) \,\simeq\, \mathbb{Z}/{n_k}
      $$ 
 
      In this case the possible "periods" $k$ form a [[subgroup]] of $\mathbb{Z}$ ([Cartan & Eilenberg 1956, p. 261 (283 of 421)](homological+algebra#CartanEilenberg), with $H^{-k}(G;\, \mathbb{Z}) \coloneqq H_k(G;\, \mathbb{Z})$ by [p. 232 (254 of 421)](homological+algebra#CartanEilenberg)) 
@@ -340,6 +342,27 @@ $$
 \end{proposition}
 ([Cartan & Eilenberg 1956, Thm. IV 11.6, p. 262 (284 of 421)](homological+algebra#CartanEilenberg))
 
+\begin{proposition}\label{Milnor2PCopndition}
+**(Milnor's $2 p$-condition)**
+\linebreak
+  If a [[finite group]] has any [[topological G-space|continuous]] [[free action]] on any [[n-sphere]], then 
+
+1. every element of [[order of an element|order]] 2 is in its [[center of a group|center]]
+
+1. $G$ satisfies the $2p$-condition (Def.\ref{pqCondition}) for all $p$.
+
+\end{proposition}
+([Milnor 1957, Cor 1 & p. 627](#Milnor57))
+
+\begin{proposition}
+**(Zassenhaus's $p q$-condition)**
+\label{ZassenHauspqCondition}
+  If a [[finite group]] has an *orthogonal* [[free action]] on some [[n-sphere]], namely a free action through a [[group homomorphism]] $G \xrightarrow O(n+1)$ to the [[orthogonal group]] regarded with its canonical action on the [[unit sphere]] $S^n \,\simeq\, S(\mathbb{R}^{n+1})$, then $G$ satisfies all $p q$-conditions (Def. \ref{pqCondition}) for all pairs of primes $p,q$.
+
+Moreover, if $G$ is [[solvable group|solvable]], then the converse holds: Every solvable group satisfying all $p q$-conditions has a free orthogonal action on some $n$-sphere.
+\end{proposition}
+([Zassenhaus 1935](#Zassenhaus35), [Vincent 1947](#Vincent47))
+
 
 \begin{proposition}\label{MadsenThomasWallTheorem}
 **(Madsen-Thomas-Wall theorem)**
@@ -348,7 +371,7 @@ $$
 
 1. the $p^2$-condition (see Prop. \ref{EquivalentVersionsOfPSquareCondition})
 
-1. the $2 p$-condition 
+1. the $2 p$-condition (see Prop. \ref{Milnor2PCopndition})
 
 for all [[prime numbers]] $p$ (Def. \ref{pqCondition}).
 
@@ -358,6 +381,8 @@ Specifically, such free smooth actions exist in particular on all $S^n$ for whic
 \end{proposition}
 
 ([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed in [Hambleton 2014, Thm. 6.1](#Hambleton14))
+
+
 
 \linebreak
 
@@ -384,11 +409,18 @@ Given an continuous [[action]] of the [[circle group]] on the [[topological spac
 
 ### Characterization of finite free actions by homeomorphisms
 
-The non-existence of free actions of $(\mathbb{Z}/p)^{\geq 2}$ on any [[n-sphere]]:
+
+Discussion of [[free actions]] by [[finite groups]]:
+
+The original article identifying the $p^2$-condition for continuous actions:
 
 * {#Smith44} P. A. Smith, *Permutable Periodic Transformations*, Proceedings of the National Academy of Sciences of the United States of America Vol. 30, No. 5 (May 15, 1944), pp. 105-108 ([jstor:87918](https://www.jstor.org/stable/87918))
 
-Discussion of [[free actions|free]] [[group actions on spheres]] by [[finite groups]]:
+The original article identifying the $2 p$-condition for continuous actions:
+
+* {#Milnor57} [[John Milnor]], *Groups Which Act on $S^n$ Without Fixed Point*, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([jstor:2372566](https://www.jstor.org/stable/2372566))
+
+Existence results:
 
 * {#Wall78} [[C. T. C. Wall]], _Free actions of finite groups on spheres_, Proceedings of Symposia in Pure Mathematics, Volume 32, 1978 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/wall7.pdf))
 
@@ -406,7 +438,7 @@ Discussion of the fixed point-sets of finite group actions on even-dimensional s
 
 ### Classification of free involutions:
 
-* {#Livesay60} [[G. R. Livesay]]  *Fixed Point Free Involutions on the 3-Sphere*, Annals of Mathematics Second Series, Vol. 72, No. 3 (Nov., 1960), pp. 603-611 ([jstor:1970232](https://www.jstor.org/stable/1970232))
+* {#Livesay60} [[George R. Livesay]]  *Fixed Point Free Involutions on the 3-Sphere*, Annals of Mathematics Second Series, Vol. 72, No. 3 (Nov., 1960), pp. 603-611 ([jstor:1970232](https://www.jstor.org/stable/1970232))
 
 * {#LopezdeMedrano71} [[Santiago López de Medrano]], *Involutions on Manifolds*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **59**, Springer 1971 ([doi:10.1007/978-3-642-65012-3](https://link.springer.com/book/10.1007/978-3-642-65012-3))
 
@@ -414,7 +446,18 @@ Discussion of the fixed point-sets of finite group actions on even-dimensional s
 
 ### Classification of finite free actions by isometries
 
+
+The original article identifying the $p q$-conditions for orthogonal actions:
+
+* {#Zassenhaus35} [[Hans Zassenhaus]], *Über endliche Fastkörper*, Abhandlungen aus dem mathematischen Seminar der Universität Hamburg. Vol. 11. No. 1. Springer-Verlag, 1935 ([pdf](https://link.springer.com/content/pdf/10.1007/BF02940723.pdf))
+
+
+* {#Vincent47} [[Georges Vincent]], *Les groupes linéaires finis sans points fixes*, Commentarii Mathematici Helvetici 20.1 (1947): 117-171 ([pdf](https://link.springer.com/content/pdf/10.1007/BF02568125.pdf))
+
+
 Classification of free finite group actions by [[isometries]], hence with [[quotient spaces]] being [[spherical space forms]]:
+
+
 
 * {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Third ed.: Publish or Perish, Boston, 1974, Sixth edition: AMS Chelsea Publishing 2011 ([doi:10.1090/chel/372](https://doi.org/10.1090/chel/372))
 
