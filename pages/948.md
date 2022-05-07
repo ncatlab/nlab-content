@@ -319,3 +319,7 @@ See also the references at _[[intuitionistic mathematics]]_ for more.
 
 [[!redirects construction]]
 [[!redirects constructions]]
+
+[[!redirects constructive logic]]
+[[!redirects constructivist logic]]
+
