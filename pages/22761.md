@@ -26,6 +26,10 @@ A __symmetric midpoint algebra__ is a [[midpoint algebra]] $(M,\vert)$ with an e
 
 * for all $a$ and $b$ in $M$, $(a \vert b)^{\bullet} = a^{\bullet} \vert b^{\bullet}$
 
+## Properties
+
+$\odot$ is the only element in $M$ such that $\odot^\bullet = \odot$. 
+
 ## Examples
 
 The [[rational numbers]], [[real numbers]], and the [[complex numbers]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = 0$, and $a^{\bullet} = -a$ are examples of symmetric midpoint algebras. 
