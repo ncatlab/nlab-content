@@ -66,9 +66,13 @@ can be weakened, see the paper of [Brooke-Taylor and Rosický](#BrookeTaylorRosi
 
 ## Examples
 
-* Given [[locally presentable categories]] $C$ and $D$ and a functor $F\colon C\to D$, if $F$ has a left or right adjoint, then it is an accessible functor.
+\begin{example}\label{AdjointsAreAccecible}
+Given [[locally presentable categories]] $C$ and $D$ and a [[functor]] $F\colon C\to D$, if $F$ has a [[left adjoint|left]] or [[right adjoint]], then it is an accessible functor.
+\end{example}
 
-* Using the previous example, we can see that [[polynomial endofunctors]] of $\mathbf{Set}$ are accessible, as they are the composite of a string of various functors with adjoints.
+\begin{example}
+By Example \ref{AdjointsAreAccecible} it follows that [[polynomial endofunctors]] of [[Set|$Set$]] are accessible, as they are [[composition|composites]] of [[adjoint functors]].
+\end{example}
 
 
 ## Related concepts
@@ -96,7 +100,7 @@ Essential images of accessible functors are considered in
 
 An improvement of Rosický's result is in
 
-* {#BrookeTaylorRosicky} [[Andrew Brooke-Taylor]], [[Jiří Rosický]], _Accessible images revisited_.  [arXiv:1506.01986](https://arxiv.org/abs/1506.01986).
+* {#BrookeTaylorRosicky} Andrew Brooke-Taylor, [[Jiří Rosický]], _Accessible images revisited_ ([arXiv:1506.01986](https://arxiv.org/abs/1506.01986)).
 
 The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
 
