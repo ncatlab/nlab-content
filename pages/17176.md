@@ -51,7 +51,7 @@ in the spirit of
 
 More recent textbook accounts include
 
-* {#Kochmann96} [[Stanley Kochmann]], section 3.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 3.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 Lecture notes include
 
