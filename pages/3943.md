@@ -82,7 +82,8 @@ For the existence of right adjoints, we can weaken the hypotheses to merely requ
 
 ## References
 
-* {#NRS18} Hoang Kim Nguyen, George Raptis, Christoph Schrade, _Adjoint functor theorems for ∞-categories_, ([arXiv:1803.01664](https://arxiv.org/abs/1803.01664))
+* {#NRS18} Hoang Kim Nguyen, [[George Raptis]], Christoph Schrade, _Adjoint functor theorems for ∞-categories_, Journal of the London Mathematical Society **101** 2 (2019) 659-681
+([arXiv:1803.01664](https://arxiv.org/abs/1803.01664))
 
 Section 5.5 of
 
