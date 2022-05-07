@@ -97,7 +97,7 @@ If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham sp
 
 ## Related entries
 
-* [[shape]]
+* [[shape]], [[shape of an (∞,1)-topos]]
 
 * [[shape via cohesive path ∞-groupoid]]
 
@@ -110,15 +110,23 @@ If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham sp
 
 ## References
 
-The examples of locally constant $\infty$-stacks and of formally &#233;tale morphisms are discussed in sections 3.5.6 and 3.7.3 of
+* [[Urs Schreiber]], Sec. 3.4.5 in: _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](https://arxiv.org/abs/1310.7930))
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* {#Shulman15} [[Mike Shulman]], Sec. 9.7 in: _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+On [[shape via cohesive path ∞-groupoids]]:
+
+* {#Pavlov14} [[Dmitri Pavlov]], _Structured Brown representability via concordance_, 2014 ([pdf](https://dmitripavlov.org/concordance.pdf), [[Pavlov_Concordance.pdf:file]])
+
+* {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
 
 See also
 
 * {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_ ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
 
 for further discussion of the smooth [[nLab:shape modality]] of cohesion (the [[nLab:etale homotopy type]] operation in the context of [[nLab:smooth infinity-stacks]]) as applied to [[nLab:orbifolds]] and [[nLab:étale groupoids]] and generally [[nLab:étale ∞-groupoids]].
+
+
 
 
 [[!redirects Pi-closed morphisms]]
