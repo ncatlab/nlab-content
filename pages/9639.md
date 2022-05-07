@@ -52,6 +52,11 @@ Review:
 
 * _The quantum Hall effect_ ([pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf))
 
+Discussion via Newton-Cartan theory:
+
+* William Wolf, James Read, Nicholas Teh, *Edge modes and dressing fields for the Newton-Cartan quantum Hall effect* ([arXiv:2111.08052](https://arxiv.org/abs/2111.08052))
+
+
 See also:
 
 * Wikipedia, _[Quantum Hall effect](https://en.wikipedia.org/wiki/Quantum_Hall_effect)_, 
