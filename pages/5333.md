@@ -360,8 +360,6 @@ A kind of unusual boundary condition for heterotic strings, (analogous to open [
 [[!include flavor on heterotic M5-branes -- references]]
 
 
-
-
 [[!redirects heterotic superstring]]
 [[!redirects heterotic superstrings]]
 
@@ -369,3 +367,9 @@ A kind of unusual boundary condition for heterotic strings, (analogous to open [
 [[!redirects heterotic strings]]
 
 [[!redirects heterotic supergravity]]
+
+[[!redirects HET-theory]]
+[[!redirects HET-theories]]
+
+
+
