@@ -696,9 +696,9 @@ The algorithm for finding the horn fillers in a simplicial group is given in the
 
 This proof that simplicial groups are Kan complexes is originally due to theorem 3.4 in 
 
-* [[John Moore]],  _Semi-Simplicial Complexes And Postnikov Systems, in _Symposium International De Topologia Algebraica_ , 1956 conference, book published in 1958
+* [[John Moore]],  _Semi-Simplicial Complexes And Postnikov Systems_, in _Symposium International De Topologia Algebraica_ , 1956 conference, book published in 1958
 
-which apears in more detail as  theorem 3 on p. 18-04 of
+which appears in more detail as  theorem 3 on p. 18-04 of
 
 * {#Moore54} [[John Moore]], _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
  
