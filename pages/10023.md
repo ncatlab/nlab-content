@@ -22,6 +22,23 @@
 
 [[entropy]] induced by [[entanglement]] in [[quantum physics]], really a synonym for [[subsystem]] entropy
 
+If $\rho$ is a [[quantum state]] ([[density matrix]]) of some [[quantum systems]] and $A$ is a subsystem with complementary subsystem $\bar A$, the its entanglement entropy is 
+
+$$
+  S_A
+  \;=\;
+  - 
+  Tr_{A}\big( \rho_A \ln \rho_A \big)
+$$
+
+for 
+
+$$
+  \rho_A \;\coloneqq\; Tr_{\bar A}(\rho)
+  \,.
+$$
+
+
 ## Related concepts
 
 * [[tensor network]]
