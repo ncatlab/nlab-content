@@ -299,10 +299,10 @@ Actually, it is enough to assume that, for every small category $X$, $C^X$ admit
 
 +--{: .num_theorem}
 ###### Theorem (Cisinski, 2003)
-If $C$ is a [[model category]] (complete and cocomplete, but possibly without functorial factorisations), then $Ho(C)$ is a derivator (except possibly for axiom (Der5)).
+If $C$ is a [[model category]] (complete and cocomplete, but possibly without functorial factorisations), then $Ho(C)$ is a derivator (with the strong version of Der5).
 =--
 
-Axioms (Der1) is easy to check, and when $C$ has functorial factorisations, we have a functorial three-arrow calculus. Axiom (Der3) is also easy, since [[homotopy limits]] and colimits in categories with weak equivalences are [[derived functor]]s of the usual limits and colimits, and so they supply left and right adjoints to derived pullback functors.  (This shows moreover that homotopy limits and Kan extensions in a model category coincide with the notions of homotopy limit and Kan extension in its homotopy derivator, so that by working in $Ho(C)$ we really are studying the things we want to study.)  Axiom (Der4) requires a bit of work; there is a proof for combinatorial model categories using the [[injective model structure]] in [(Groth)](#Groth).
+Axioms (Der1) is easy to check, and when $C$ has functorial factorisations, we have a functorial three-arrow calculus. Axiom (Der3) is also easy, since [[homotopy limits]] and colimits in categories with weak equivalences are [[derived functor]]s of the usual limits and colimits, and so they supply left and right adjoints to derived pullback functors.  (This shows moreover that homotopy limits and Kan extensions in a model category coincide with the notions of homotopy limit and Kan extension in its homotopy derivator, so that by working in $Ho(C)$ we really are studying the things we want to study.)  Axiom (Der4) requires a bit of work; there is a proof for combinatorial model categories using the [[injective model structure]] in [(Groth)](#Groth). Axiom Der 5 is discussed in Theorem 9.8.5 in [(Radulescu Banu)](#RadBan06). The theorem above remains true for suitable (co)fibration categories for which a suitable version of the injective and projective structures are always available; see Theorem 9.5.5 in [(Radulescu Banu)](#RadBan06).
 
 Note that if $C$ is any complete and cocomplete 1-category, we can equip it with its [[trivial model structure]] in which the only weak equivalences are isomorphisms.  Then the above derivator $Ho(C)$ is the same as the representable prederivator $D_C(X)$, which can easily be proven to be a derivator directly.
 
@@ -316,7 +316,7 @@ If $C$ is an [[(∞,1)-category]], it has a [[homotopy category of an (∞,1)-ca
 
 Since categories are in particular $(\infty,1)$-categories, for any category $X$ we have a [[functor (∞,1)-category]] $C^X$, and thus a homotopy category $Ho(C^X)$.  We define the *homotopy prederivator* of $C$ by
 $$Ho(C)(X) = Ho(C^X).$$
-If $C$ has [[limit in an (∞,1)-category|limits]] and colimits in the $(\infty,1)$-categorical sense, then $Ho(C)$ should be a derivator.  A proof of this is sketched in [GPS, Example 2.5](#GPS14).
+If $C$ has [[limit in an (∞,1)-category|limits]] and colimits in the $(\infty,1)$-categorical sense, then $Ho(C)$ is a derivator (this is an interpretation of the theory of pointwise Kan extensions in $\infty$-categories). A proof of this is sketched in [GPS, Example 2.5](#GPS14). The comparison of the derivator associated to a cofibration category (hence also to any model category) $C$ and of the derivator associated to the Dwyer-Kan localization of $C$ is discussed by [Lenz](#Lenz).
 
 
 ### Exotic examples
@@ -424,9 +424,11 @@ Part of the above material is adapted from
 
 * [[Denis-Charles Cisinski]], _[blog comment on derivators](http://golem.ph.utexas.edu/category/2010/03/a_perspective_on_higher_catego.html#c032227)_
 
-Cisinski has also written a number of papers on the subject (in French), which can be found at [his homepage](http://www.math.univ-toulouse.fr/~dcisinsk/publications.html). 
+Cisinski has also written a number of papers on the subject (in French), which can be found at [his homepage](http://www.mathematik.uni-regensburg.de/cisinski/publikationen.html). 
 
 * &#8212; Images directes cohomologiques dans les cat&#233;gories de mod&#232;les. _Ann. Math. Blaise Pascal_, 10(2):195&#8211;244, 2003.
+
+* &#8212; Cat&#233;gories d&#233;rivables, Bull. Soc. Math. France, Tome 138 (2010) no. 3, pp. 317-393. [NUMDAM](http://www.numdam.org/item/BSMF_2010__138_3_317_0/)
 
 Derivators were also recently used by [[Gonçalo Tabuada]] in a universal characterization of higher [[algebraic K-theory]]:
 
@@ -442,6 +444,10 @@ An introductory discussion aimed towards [[stable derivator]]s is also in
 
 
 Other references include:
+
+* {#RadBan06} Andrei Radulescu Banu, Cofibrations in Homotopy Theory, [arXiv:math/0610009](https://arxiv.org/abs/math/0610009), 2006
+
+* {#Lenz} Tobias Lenz, Homotopy (Pre-)Derivators of Cofibration Categories and Quasi-Categories, Algebr. Geom. Topol. 18 No. 6 (2018), pp. 3601–3646. [arXiv:1712.07845](https://arxiv.org/abs/1712.07845)
 
 * {#IN16} Ioannis Lagkas-Nikolos, _Levelwise modules over separable monads on stable derivators_, [arXiv:1608.06340](https://arxiv.org/abs/1608.06340), 2016
  
