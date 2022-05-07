@@ -42,7 +42,7 @@ As an illustration: consider a field $k$ of characteristic $0$ and, for $r \in k
 
 $$(1 + x)^r = f(r) \coloneqq \sum_{k \geq 0} \frac{r^\underline{k} x^k}{k!}$$ 
 
-where $r^\underline{k}$ is the falling power $r(r-1)\ldots (r-k+1)$, we introduce a bisimilarity  
+where $r^\underline{k}$ is the [[falling factorial|falling power]] $r(r-1)\ldots (r-k+1)$, we introduce a bisimilarity  
 
 $$\sum_{k \geq 0} \frac{r^\underline{k} x^k}{k!}\; \sim\; \exp(r \cdot \log(1 + x))$$ 
 
