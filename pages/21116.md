@@ -21,6 +21,8 @@ On holographic [[tensor networks]] as [[quantum error correcting codes]]:
 
 * Alexander Jahn, Marek Gluza, Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
+* Alexander Jahn, [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
+
 On classification of ([[topological phases of matter|topological]]) [[phases of matter]] via [[tensor network states]]:
 
 * C. Wille, O. Buerschaper, [[Jens Eisert]], _Fermionic topological quantum states as tensor networks_, Phys. Rev. B 95, 245127 (2017) ([arXiv:1609.02574](https://arxiv.org/abs/1609.02574))
