@@ -190,7 +190,7 @@ hence those which have a single constitutent [[fuzzy 2-sphere]],  with the shape
 <img src="https://ncatlab.org/nlab/files/SingleTraceObservableOnBMNModel.jpg" width="740">
 </center>
 
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+> (from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
 
 
 Therefore, with this normalization, the [[limit of a sequence|limits]] $N^{(M2)} \to \infty$ and $N^{(M5)} \to \infty$ of (eq:M2M5BraneBoundStateInWeightSystems) should exist in [[weight systems]]. The former trivially so, the latter by the usual convergence ofthe [[fuzzy 2-sphere]] to the [[round sphere|round]] [[2-sphere]] in the [[large N limit]].
