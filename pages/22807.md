@@ -18,7 +18,7 @@ Introducing [[Anderson duality]]:
 
 On [[homotopy pullbacks]] under [[geometric realization of simplicial topological spaces]]:
 
-* [[Donald Werner Anderson]], _Fibrations and geometric realization_ ,  Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
+* [[Donald Werner Anderson]], _Fibrations and geometric realization_,  Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
 
 
 category: people
