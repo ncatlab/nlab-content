@@ -339,6 +339,9 @@ The corollary commonly known as "[Ken Brown's lemma](#KenBrownLemma)" does not a
 
 * [[Mark Hovey]], Lemma 1.1.12 in: _Model Categories_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover), [ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s))
 
+Lecture notes:
+
+* [here](Introduction+to+Homotopy+Theory#FactorizationLemma) in [here](Introduction+to+Homotopy+Theory#KenBrownLemma) in: *[[Introduction to Homotopy Theory]]*
 
 A version in the setup of $\infty$-cosmoi is Lemma 2.1.6 in 
 
