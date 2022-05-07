@@ -3,13 +3,25 @@
 
 On [[linear representations]] of braid groups (see also at *[[braid group statistics]]* and interpretation as [[quantum gates]] in *[[topological quantum computation]]*):
 
+* [[Ivan Marin]], *On the representation theory of braid groups*, Annales mathématiques Blaise Pascal, **20** 2 (2013) 193-260 ([arXiv:math/0502118](https://arxiv.org/abs/math/0502118), [dml:275607](https://eudml.org/doc/275607))
+
 Review:
 
+
 * [[Camilo Arias Abad]], *Introduction to representations of braid groups*, Rev. colomb. mat. vol.49 no.1 (2015) ([arXiv:1404.0724](https://arxiv.org/abs/1404.0724), [doi:10.15446/recolma.v49n1.54160](https://doi.org/10.15446/recolma.v49n1.54160))
+
+* [[Toshitake Kohno]], *Introduction to representation theory of braid groups*, Peking 2018 ([pdf](https://www.math.pku.edu.cn/misc/puremath/summerschool/Peking_SummerSchool_kohno.pdf), [[KohnoBraidRepresentations.pdf:file]])
 
 in relation to [[modular tensor categories]]:
 
 * [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
+
+Braid representations seen inside the [[topological K-theory]] of the [[braid group]]'s [[classifying space]]:
+
+* [[Alejandro Adem]], [[Daniel C. Cohen]], [[Frederick R. Cohen]], *On representations and K-theory of the braid groups*, Math. Ann. **326** (2003) 515-542 ([arXiv:math/0110138](https://arxiv.org/abs/math/0110138), [doi:10.1007/s00208-003-0435-8](https://doi.org/10.1007/s00208-003-0435-8))
+
+* [[Frederick R. Cohen]], Section 3 of: *On braid groups, homotopy groups, and modular forms*, in: J.M. Bryden (ed.), *Advances in Topological Quantum Field Theory*, Kluwer 2004,  275–288 ([pdf](https://link.springer.com/content/pdf/10.1007/978-1-4020-2772-7_11.pdf))
+
 
 
 See also:
