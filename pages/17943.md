@@ -24,7 +24,7 @@
 
 ## Idea
 
-In [[topological homotopy theory]], the _fundamental theorem of covering spaces_ says that for a sufficiently well-behaved [[topological space]] $X$, then the [[functor]] which sends a [[covering space]] of $X$ to the [[Set]]-[[action]] ([[permutation representation]]) of the [[fundamental groupoid]] of $X$ on the [[fibers]] of $E$ is an [[equivalence of categories]]. 
+In [[topological homotopy theory]], the _fundamental theorem of covering spaces_ says that for a sufficiently well-behaved [[topological space]] $X$, the [[functor]] which sends a [[covering space]] of $X$ to the [[Set]]-[[action]] ([[permutation representation]]) of the [[fundamental groupoid]] of $X$ on the [[fibers]] of $E$ is an [[equivalence of categories]]. 
 
 This is a basic instance of the general principle of [[Galois theory]]. 
 
@@ -169,13 +169,60 @@ This establishes an equivalence as required. In fact this is an [[adjoint equiva
 
 ## In homotopy type theory
 
-In [[homotopy type theory]], the fundamental theorem of covering spaces is really just a special case of the universal property of $1$-truncation. 
+In [[homotopy type theory]], the fundamental theorem of covering spaces is really just a special case of the [[universal property]] of [[n-truncation modality|$1$-truncation]]. 
 
-Indeed, in HoTT a covering space over a type $X$ is usually defined as a dependent type $C: X \to \mathsf{Sets}$. We can get the more familiar bundle definition of a covering space by taking the [[dependent sum type]] $\sum_{x : X} C(x)$, which comes equipped with a canonical projection $\operatorname{proj}_1: \sum_{x : X} C(x) \to X$.
+Indeed, in HoTT a covering space over a [[type]] $X$ is usually defined as a [[dependent type]] $C \colon X \to \mathsf{Sets}$. We can get the more familiar bundle definition of a covering space by taking the [[dependent sum type]] $\sum_{x \colon X} C(x)$, which comes equipped with a canonical projection $\operatorname{proj}_1 \colon \sum_{x \colon X} C(x) \to X$.
 
 Since $\mathsf{Sets}$ is a $1$-type, then by the universal property of 1-truncation we have an equivalence:
-$$(\Vert X \Vert_1 \to \mathsf{Sets}) \simeq (X \to \mathsf{Sets}).$$
-The 1-truncation $\Vert X \Vert_1$ is the [[fundamental groupoid]] of $X$, so this really is the fundamental theorem of covering spaces.
+
+$$
+  \big(
+    \Vert X \Vert_1 \to \mathsf{Sets}
+  \big) 
+  \;\simeq\; 
+  \big(
+    X \to \mathsf{Sets}
+  \big)
+  \,.
+$$
+Since the 1-truncation $\Vert X \Vert_1$ is the [[fundamental groupoid]] of $X$, this really is the fundamental theorem of covering spaces.
+
+\linebreak
+
+{#InCohesiveHomotopyTypeTheory}
+Or rather, more faithful to the traditional concepts in topology, it is the [[shape modality]] $\esh$ in [[cohesive homotopy type theory]]
+which  turns a [[geometric homotopy type]] into $X$ its [[fundamental infinity-groupoid|fundamental $\infty$-groupoid]] $\esh X$ (see at *[[shape via cohesive path ∞-groupoid]]*) truncating to the actual [[fundamental groupoid]] $\Vert \esh X \Vert_1$.
+
+Then the [[adjunction]] between the [[shape modality]] and the [[flat modality]] $\flat$ says that 
+
+$$
+  \big(
+    \esh X \to \mathsf{Sets}
+  \big) 
+  \;\simeq\; 
+  \big(
+    X \to \flat \mathsf{Sets}
+  \big)
+  \,,
+$$
+
+or, equivalently, that
+
+$$
+  \big(
+    \Vert \esh X \Vert_1 \to \mathsf{Sets}
+  \big) 
+  \;\simeq\; 
+  \big(
+    X \to \flat \mathsf{Sets}
+  \big)
+  \,,
+$$
+
+
+where $\flat Sets$ is the actual classifier for covering spaces in the generality of cohesive (e.g. topological) homotopy types. This reflects the fundamental theorem of covering spaces as traditionally understood in [[topology]].
+
+(This is the topic of [[schreiber:differential cohomology in a cohesive topos|dcct, sec. 3.8.6]], [p. 358](https://arxiv.org/pdf/1310.7930v1.pdf#page=358))
 
 ## References
 
