@@ -88,6 +88,7 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 ## Related entries
 
 * [[category of factorizations]]
+* [[twisted arrow (∞,1)-category]]
 
 ## References
 
