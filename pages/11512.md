@@ -91,7 +91,7 @@ $$
 
 * {#Lenstra} [[Hendrik Lenstra]], example 2.2 in _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
  
-* Groupprops, _[Profinite completion of the integers](http://groupprops.subwiki.org/wiki/Profinite_completion_of_the_integers)_
+* [[Groupprops]], _[Profinite completion of the integers](http://groupprops.subwiki.org/wiki/Profinite_completion_of_the_integers)_
 
 
 [[!redirects profinite integers]]
