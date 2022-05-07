@@ -46,10 +46,21 @@ To avoid this problem, symmetric space is (equivalent to) a smooth manifold $M$ 
 This amounts to an involutory [[quandle]] object $Q$ in the category of smooth manifolds, with the property that each point $a \in Q$ is an _isolated_ fixed point of the map $a \triangleright - : Q \to Q$. 
 
 
+## Related entries
+
+
+* [[homogeneous space]]
+
+* [[quandle]]
+
+* [[Lie triple system]]
+
+* [[transvection]]
+
+
 
 ## References
 
-Related items include [[homogeneous space]], [[quandle]], [[Lie triple system]], [[transvection]].
 
 The definition in terms of quandles coincides with the classical definition in the case of connected symmetric spaces.  For details, including a comparison of other definitions of symmetric space, see:
 
@@ -58,7 +69,11 @@ The definition in terms of quandles coincides with the classical definition in t
 The relation to quandles is given in Theorem I.4.3.  Bertram attributes this result to part I, chapter II of
 
 * Ottmar Loos, _Symmetric Spaces I, II_, Chapter II, Benjamin, New York, 1969.
+
 * Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_,
+
 * S. Helgason, _Group representations and symmetric spaces_, Proc. ICM. Nice 1970, vol. 2, 313-320, [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.pdf), [djvu](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.djvu) 
-[[!redirects symmetric space]]
+
 [[!redirects symmetric spaces]]
+
+
