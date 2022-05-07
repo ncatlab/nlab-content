@@ -355,9 +355,15 @@ On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 
   > (for [[structure group]] commuting with the [[equivariance group]], but with [[equivariant differential topology|differentiable structure]])
 
+
 * [[Goro Nishida]], Section 2 of: _The transfer homomorphism in equivariant generalized cohomology theories_, J. Math. Kyoto Univ. 18(3): 435-451 (1978) ([doi:10.1215/kjm/1250522505](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-18/issue-3/The-transfer-homomorphism-in-equivariant-generalized-cohomology-theories/10.1215/kjm/1250522505.full))
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
+
+
+* {#LashofRothenberg78} [[Richard Lashof]], [[Melvin Rothenberg]], Section 1 of: _$G$-Smoothing theory_, p. 211-266 in: _Algebraic and Geometric Topology_, Proceedings of Symposia in Pure Mathematics, Vol. XXXII, Part 1, American Mathematical Society 1978 ([doi:10.1090/pspum/032.1](https://doi.org/10.1090/pspum/032.1), [[LashofRothenbergGSmoothingTheory.pdf:file]])
+
+  > (for [[structure group]] commuting with the [[equivariance group]], but with [[equivariant differential topology|differentiable structure]])
 
 
 * {#Lashof82} [[Richard Lashof]], _Equivariant bundles_, Illinois J. Math. 26(2): 257-271, 1982 ([doi:10.1215/ijm/1256046796.full](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-26/issue-2/Equivariant-bundles/10.1215/ijm/1256046796.full))
@@ -412,6 +418,8 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
 Comparative discussion is in:
 
 * {#Zou20} [[Foling Zou]], _Notes on equivariant bundles_ ([arXiv:2008.01268](https://arxiv.org/abs/2008.01268))
+
+
 
 
 ### Equivariant vector bundles
