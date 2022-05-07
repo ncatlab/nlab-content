@@ -85,6 +85,17 @@ The following is the [[Cayley graph]] of the [[symmetric groups]] on 3 elements,
 \end{tikzcd}
 \end{example}
 
+\begin{example}\label{CayleyGraphOfSym4}
+  
+The Cayley graph of the [[symmetric group]] $Sym(4)$ with edges for [[transpositions]] looks as follows:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/CayleyGraphOfSym4.jpg" width="400">
+</center>
+
+> graphics from [Kaski 02, p. 17](#Kaski02)
+
+\end{example}
 
 \begin{example}
 Consider one of the standard presentations of the [[symmetric group]] $S_3$, $ (a,b  :  a^3, b^2, (a b)^2)$. Write $ r = a^3$, $s = b^2$, $t = (a b)^2$.  
@@ -126,9 +137,23 @@ See also:
 
 * Wikipedia, _[Cayley graph ](https://en.wikipedia.org/wiki/Cayley_graph)_
 
-### Distance on Cayley graph 
+### Spectra
+ {#ReferencesSpectra}
+
+* [[László Lovász]], *Spectra of graphs with transitive groups*, Period. Math. Hungar., 6(2):191–195,1975 ([doi:10.1007/BF02018821](https://doi.org/10.1007/BF02018821), [pdf](https://web.cs.elte.hu/~lovasz/scans/spectra-of-graphs.pdf))
+
+* [[László Babai]], *Spectra of Cayley graphs*, Journal of Combinatorial Theory, Series B Volume 27, Issue 2, October 1979, Pages 180-189 (<a href="https://doi.org/10.1016/0095-8956(79)90079-0">doi:10.1016/0095-8956(79)90079-0</a>)
+ 
+* {#Kaski02} Petteri Kaski, *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.jpg:file]])
+
+* Xiaogang Liu, Sanming Zhou, *Eigenvalues of Cayley graphs* ([arXiv:1809.09829](https://arxiv.org/abs/1809.09829))
+
+* Farzaneh Nowroozi, Modjtaba Ghorbani, *On the spectrum of Cayley graphs via character table*, Journal of Mathematical NanoScience, Volume 4, 1-2 (2014) ([doi:10.22061/jmns.2014.477](https://dx.doi.org/10.22061/jmns.2014.477) [pdf](https://journals.sru.ac.ir/article_477_166922038b274bc7128566c1e2ce4b98.pdf))
+
+### Distance on Cayley graphs 
 
 On [[graph distances]] in Cayley graphs (generalizing the [[Cayley distance]] for the [[symmetric group]]):
+
 
 For [[symmetric groups]] ([[permutations]]):
 
