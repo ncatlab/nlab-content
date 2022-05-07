@@ -2628,8 +2628,132 @@ But this means that (eq:TheConvexCombination) exhibits our state as a [[mixed st
 
 #### The probability distribution
 
-Now just to express these probabilities more explicitly...
+Now just to express these probabilities more explicitly:
 
+First observe the expansion of the neutral element in our eigenvector basis, evident from [[Schur orthogonality]]:
+
+$$
+  \begin{aligned}
+  e
+  & \;=\;
+  \frac{1}{n!}
+  \underset{\lambda, \sigma}{\sum} 
+    \chi^{(\lambda)}(e)
+    \chi^{\lambda}(\sigma) 
+    \, \sigma
+  \\
+  & \;=\;
+  \frac{1}{n!}
+  \underset{\lambda, \sigma, i}{\sum} 
+    \chi^{(\lambda)}(e)
+    S^{\lambda}(\sigma)_{i i} 
+    \, \sigma
+  \end{aligned}
+  \,.
+$$
+
+But this means that 
+
+$$
+  \big(   
+     e, P^{(\lambda)}_i(e)
+  \big)
+  \;=\;
+  \frac{1}{n!} 
+  \chi^{(\lambda)}(e)
+  S^{(\lambda)}(e)_{i i}
+  \;=\; 
+  \frac{\chi^{(\lambda)}(e)}{n!} 
+$$
+
+and so the probabilities are:
+
+$$  
+  p_{\lambda, i}
+  \;=\;
+  \big(   
+     e, [e^{-\beta \cdot d_C}] \cdot P^{(\lambda)}_i(e)
+  \big)
+  \;=\;
+  \frac{\chi^{(\lambda)}(e)}{n!} 
+  EigVals[e^{- \beta \cdot d_C}]
+  \,.
+$$
+
+As a sanity check, we have unit total probability:
+
+$$
+  \begin{aligned}
+    \underset{\lambda, i}{\sum}
+    p_{(\lambda,i)}  
+    & \;=\;
+    \underset{\lambda}{\sum}
+    \frac{\big(\chi^{(\lambda)}(e)\big)^2}{n!} 
+    EigVals[e^{- \beta \cdot d_C}]
+    \\
+    &
+    \;=\; 
+    \frac{1}{n!}
+    \underset{
+      \lambda \in Part(n)
+    }{\sum}
+    \big(
+      \chi^{(\lambda)}(e)
+    \big)^2
+    \cdot
+    \left(
+       \frac{
+         1
+       }{
+         \chi^{(\lambda)}(e)
+       }
+       \underset{\sigma \in Sym(n)}{\sum}
+       e^{ \beta \cdot (\left\vert Cycles(\sigma) \right\vert - n  ) }
+       \cdot
+       \chi^{(\lambda)}(\sigma)
+    \right)
+    \\
+    & \;=\;
+    \frac{1}{n!}
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    e^{ \beta \cdot (\left\vert Cycles(\sigma) \right\vert - n  ) }
+    \underset{
+      = \delta_{e,\sigma} n!
+    }{
+    \underbrace{
+    \underset{
+      \lambda \in Part(n)
+    }{\sum}
+    \chi^{(\lambda)}(e)
+      \cdot
+    \chi^{(\lambda)}(\sigma)
+    }
+    }
+    \\
+    & \;=\;
+    1
+  \end{aligned}
+$$
+
+
+#### The Cayley entropy
+
+Now to compute the [[von Neumann entropy]] of the Cayley state, hence the [[Shannon entropy]] of the above probability distribution:
+
+$$
+  S
+  \;\coloneqq\;
+  \underset{\lambda, i}{\sum}
+    p_{\lambda, i}
+    \ln 
+    \big(
+      p_{\lambda, i}
+    \big)
+$$
+
+as a function of $n$...
 
 
 \linebreak
