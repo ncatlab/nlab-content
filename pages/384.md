@@ -409,6 +409,16 @@ For $A \hookrightarrow X$ the inclusion of a subcomplex into a CW complex, then 
 
 e.g. ([AGP 02, def. 5.1.11](#AGP02))
 
+### Cellular approximation theorem
+ {#CellularApproximationTheorem}
+
+The _[[cellular approximation theorem]]_ states that every [[continuous map]] between [[CW complexes]] (with chosen CW presentations) is [[homotopy|homotopic]] to a [[cellular map]] (a map induced by a morphism of [[cell complexes]]). 
+
+This is the analogue for [[CW-complexes]] of the [[simplicial approximation theorem]] (sometimes also called lemma): that every continuous map between the [[geometric realizations]] of [[simplicial complexes]] is [[homotopy|homotopic]] to a map induced by a map of [[simplicial complexes]] (after subdivision). 
+
+
+For more see at _[[cellular approximation theorem]]_.
+
 
 ### Fibrations
 
