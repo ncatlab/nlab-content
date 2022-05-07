@@ -12,6 +12,11 @@ has laid foundations of what is now called [[derived geometry]].
 
 ## Selected writings
 
+On [[algebraic stacks]], [[derived algebraic geometry]] and [[rational homotopy theory]]:
+
+* {#Toen} [[Bertrand Toën]], _Champs affines_, Selecta Math. new series **12** (2006), no. 1, 39-135 ([arXiv:math/0012219](https://arxiv.org/abs/math/0012219), [doi:10.1007/s00029-006-0019-z](https://doi.org/10.1007/s00029-006-0019-z))
+
+
 On [[stacks]] and [[non-abelian cohomology]]:
 
 * {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf))
@@ -31,6 +36,8 @@ See also
 * [[∞-stack]], [[derived stack]], [[locally constant ∞-stack]]
 
 * [[model structure on simplicial presheaves]]
+
+* [[model structure on cosimplicial abelian groups]]
 
 * [[simplicial ring]], [[derived algebraic geometry]], [[complicial algebraic geometry]]
 
