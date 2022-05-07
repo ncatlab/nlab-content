@@ -87,6 +87,8 @@ Finally, skeletality is mostly meaningless in HoTT because paths are the only no
 
 * [[finite set]], [[hereditarily finite set]]
 
+[[!include oidification - table]]
+
 [[!include homotopy n-types - table]]
 
 
