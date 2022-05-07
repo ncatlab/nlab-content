@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[cyclic loop spaces]]:
+
+* [[Gunnar Carlsson]], [[Ralph Cohen]], *The cyclic groups and the free loop space*, Commentarii Mathematici Helvetici **62** (1987) 423–449  ([doi:10.1007/BF02564455](https://doi.org/10.1007/BF02564455), [dml:140092](https://eudml.org/doc/140092))
+
+
 On [[string topology]]:
 
 *  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
