@@ -27,3 +27,40 @@ Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topologi
 
 \linebreak
 
+$$
+  \frac{13}{48}
+  (
+    p_2 - \frac{1}{4} p_1^2
+  )
+  -
+  \frac{1}{4}
+  (\frac{1}{4} p_1^2)
+$$
+
+$$
+  \frac{13}{12}
+  (
+    p_2 - \frac{1}{4} p_1^2
+  )
+  -
+  (\frac{1}{4} p_1^2)
+$$
+
+$$
+  \frac{13}{12}
+    p_2 
+
+  -
+  \frac{25}{12}
+  (\frac{1}{4} p_1^2)
+$$
+
+$$
+  13
+  p_2 
+  -
+  5
+  p_1^2
+$$
+
+
