@@ -37,7 +37,7 @@ Moreover:
      \;\;\;\;\;
      \Leftrightarrow
      \;\;\;\;\;
-     Dtplg(Cdffg(X))
+     Dtplg(Cdfflg(X))
      \underoverset{\simeq}{\;\;\epsilon_X\;\;}{\longrightarrow}
      X
    $$
