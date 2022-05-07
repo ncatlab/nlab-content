@@ -10,6 +10,9 @@ In [[proof theory]], the **Dialectica interpretation** is a proof interpretation
 
 ## Examples
 
+* Kohlenbach's Proof Mining Program: A systematic development of specially designed versions of functional interpretations (Dialectica is the prime example) and their use in numerical analysis, functional analysis, metric
+fixed point theory and geodesic geometry. See _Gödel’s functional interpretation and its use in current mathematics_. https://www2.mathematik.tu-darmstadt.de/~kohlenbach/centenary.pdf
+
 * Certain cardinal invariants of the continuum in [[ZFC]] [[set theory]] can be expressed and proven using Dialectica categories; see [da Silva and de Paiva](#dsdp).
 
 ## Related pages
@@ -23,6 +26,10 @@ In [[proof theory]], the **Dialectica interpretation** is a proof interpretation
 The original Dialectica construction in proof theory is due to:
 
 * [[Kurt Gödel]], _Über eine bisher noch nicht benützte Erweiterung des finiten Standpunktes_. Dialectica (1958), pp. 280–287.
+
+Other work in proof theory:
+
+* Avigad and Feferman, _Gödel’s Functional (“Dialectica”) Interpretation_. Available from https://www.andrew.cmu.edu/user/avigad/Papers/dialect.pdf.
 
 The categorical construction originally appeared in
 
