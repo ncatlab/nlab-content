@@ -58,12 +58,15 @@ This follows essentially from the [[quaternionic Hopf fibration]] and its $Sp(2)
 
 
 ### Homotopy groups
+ {#HomotopyGroups}
 
-The [[homotopy groups]] of the 4-sphere in low degree are
+The [[homotopy groups]] of the 4-sphere in low degree are:
 
 | $k$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11  | 12 |
 |-----|---|---|---|---|---|---|---|---|---|---|----|-----|----|
 | $\pi_k(S^4)$ | $\ast$ | 0 | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z} \times \mathbb{Z}_{12}$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_{24} \times \mathbb{Z}_3$ | $\mathbb{Z}_{15}$ | $\mathbb{Z}_2$ | 
+
+For more see at *[[Serre finiteness theorem]]* and at *[[homotopy groups of spheres]]*.
 
 ### Bundles over the 4-sphere
 
