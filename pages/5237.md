@@ -101,7 +101,7 @@ A morphism $f : F_C X \to A$ in $Mon(C)$ with components $f_k : X^{\otimes k} \t
 
 $$
   \array{
-    X^{\times k} \otimes X^{\otimes (n-k)} &\stackrel{f_k \otimes f_{n-k}}{\to}&
+    X^{\otimes k} \otimes X^{\otimes (n-k)} &\stackrel{f_k \otimes f_{n-k}}{\to}&
     A \otimes A
     \\
     {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\mu_A}}
@@ -219,9 +219,9 @@ where
 $$
   V_i := \left\{
      \array{
-        K & if not i \in S
+        K & if \, i \notin S
         \\
-        L & if i \in S
+        L & if \, i \in S
      }
   \right.
 $$
@@ -317,7 +317,7 @@ $$
   U : CMon(C) \to C
 $$
 
-from commutative monoids to $C$ [[creates colimits|created]] [[filtered colimit]]s.
+from commutative monoids to $C$ [[creates colimits|creates]] [[filtered colimit]]s.
 
 =--
 
