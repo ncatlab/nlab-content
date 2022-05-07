@@ -326,3 +326,4 @@ See also
 
 * theorem 3.7 in [this pdf](http://www.math.toronto.edu/mgualt/MAT1300/week9.pdf)
  
+[[!redirects vector fields as derivations]]
