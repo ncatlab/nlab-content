@@ -49,8 +49,9 @@ This is naturally a [[smooth manifold]] of [[dimension]] $n$, with the [[smooth 
 
 
 ### Infinite dimensional spheres 
+ {#InfiniteDimensionalSphere}
 
-One can also talk about a sphere in an arbitrary (possibly infinite-dimensional) [[normed vector space]] $V$:
+One can also talk about the [[infinite-dimensional sphere]] in an arbitrary (possibly infinite-dimensional) [[normed vector space]] $V$:
 $$ S(V) = \{ x: V \;\text{such that}\; {\|x\|} = 1 \} .$$
 
 If a [[LCTVS|locally convex topological vector space]] admits a continuous linear injection into a [[normed vector space]], this can be used to define its sphere.  If not, one can still define the sphere as a *quotient* of the space of non-zero vectors under the scalar action of $(0,\infty)$.
