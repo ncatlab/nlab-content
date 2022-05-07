@@ -1320,6 +1320,8 @@ See also
 
 * [[cohesive topos]] / **cohesive (∞,1)-topos**
 
+* [[condensed cohesion]]
+
 and
 
 * [[locally connected site]], [[locally ∞-connected site]]
