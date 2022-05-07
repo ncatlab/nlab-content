@@ -653,5 +653,7 @@ Textbook accounts:
 * {#Friedman20} [[Greg Friedman]], Appendix B.6 in: *Singular Intersection Homology*,  Cambridge University Press 2020 ([doi:10.1017/9781316584446](https://doi.org/10.1017/9781316584446), [pdf](http://faculty.tcu.edu/gfriedman/IHbook.pdf))
 
 
-[[!redirects product of simplices]]
 [[!redirects products of simplices]]
+
+[[!redirects product of simplicial sets]]
+[[!redirects products of simplicial sets]]
