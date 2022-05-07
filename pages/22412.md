@@ -76,7 +76,7 @@ Finally, programs $t\in LSyn(A)(B,C)$ in the target language with _linear_ type 
 families of monoid homomorphisms.
 
 ### Correctness of CHAD
-We say that CHAD calculates the correct derivative (resp. transposed derivative) of a program $s$ is correct if
+We say that CHAD calculates the correct derivative (resp. transposed derivative) of a program $s$ if
 the [[semantics]] $[[Df(s)]]$ of the program $Df(s)$ (resp. $Dr(s)$) equals the pair of the semantics $[[s]]$ of $s$ and the derivative $T[[s]]$ (resp. transposed derivative $T^*[[s]]$) of the semantics $[[s]]$ of $s$.
 CHAD is correct in the sense that it calculates the correct (transposed) derivative of any composite (possibly higher-order) program between first-order types  (meaning: types built using only [[positive type]] formers), provided that it calculates the correct (transposed) derivatives of all primitive operations like $(*)$ that we used to generate the source language.
 That is, CHAD is a valid way for compositionally calculating (transposed) derivatives of composite computer programs, as long as we correctly implement the derivatives for all primitive operations (basic mathematical functions like multiplication, addition, sine, cosine) in the language.
