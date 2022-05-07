@@ -1,6 +1,7 @@
-John Henry Constantine Whitehead (11 November 1904&#8211;8 May 1960), was one of the founders of modern [[algebraic topology]].  One of the founders of the influential journal _Topology_.
 
-* [English Wikipedia page](http://en.wikipedia.org/wiki/J._H._C._Whitehead)
+John Henry Constantine Whitehead (11 November 1904&#8211;8 May 1960), was one of the founders of modern [[algebraic topology]].  Also one of the founders of the influential journal _Topology_.
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/J._H._C._Whitehead)
 
 * [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/Whitehead_Henry.html) 
 
@@ -39,12 +40,11 @@ On the [[Hopf invariant]]:
 
 * [[J. H. C. Whitehead]], _An expression of Hopf ’s invariant as an integral_, Proc. Nat. Acad. Sci. U. S. A.33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
-On [[homotopy theory]] via [[crossed modules]]:
+Introducing [[crossed modules]] (and [[crossed homomorphisms]]) as models for [[homotopy types]]:
 
 * [[J. H. C. Whitehead]], _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
 
- * [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull.
-Amer. Math. Soc., 55 (1949), 453--496.
+* {#Whitehead49} [[J. H. C. Whitehead]], _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496 ([euclid:1183513797](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full))
 
 
 On [[homotopy theory]]:
@@ -59,12 +59,13 @@ On [[simple homotopy type]]:
 
 category: people
 
-[[!redirects Henry Whitehead]]
-[[!redirects John Henry Constantine Whitehead]]
 [[!redirects JHC Whitehead]]
 [[!redirects J H C Whitehead]]
-[[!redirects J.H.C. Whitehead]]
 [[!redirects J. H. C. Whitehead]]
 
+[[!redirects John Henry Constantine Whitehead]]
+[[!redirects John Henry C. Whitehead]]
+[[!redirects John Henry Whitehead]]
 [[!redirects John Whitehead]]
+[[!redirects Henry Whitehead]]
 
