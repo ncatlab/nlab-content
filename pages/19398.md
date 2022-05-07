@@ -194,6 +194,10 @@ The only solutions for this algebraic equation (over the [[integers]]) have $ord
   The nature of the [[fixed loci]] of finite group actions on even-dimensional spheres is discussed in [Craciun 2013](#Craciun13).
 \end{remark}
 
+\begin{remark}
+\label{FreeZModTwoActionOnEvenDimSphereMustBeOrientationReversing}
+Moreover, the [[Lefschetz fixed point theorem]] implies (see [this example](https://ncatlab.org/nlab/show/Lefschetz+trace+formula#FixedPointTheoremForHomeomorphismsOfnSpheres)) that the only free action on an even dimensional sphere, necessarily by $\mathbb{Z}/2$ according to Prop. \ref{OnlyZModTwoCanActFreelyOnEvenDimensionalSpheres}, is orientation reversing, as in Ex. \ref{ActionOfZModTwoByAntipodalInversion}.
+\end{remark}
 
 
 ### Fixed loci of the circle group acting on spheres
