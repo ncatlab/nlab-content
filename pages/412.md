@@ -159,7 +159,7 @@ In fact $CGTop_{Quillen}$ is a [[cartesian closed model category]].
 
 =--
 
-(This is briefly mentioned in [Berger-Moerdijk 2003, Sec. 2.2.3](#BergerMoerdijk03).)
+(This is briefly mentioned in [Berger-Moerdijk 2003, Sec. 3.3.2](#BergerMoerdijk03).)
 
 
 
