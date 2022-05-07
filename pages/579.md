@@ -35,5 +35,12 @@ Therefore it makes sense to define an **strong epimorphism in an $(\infty,1)$-ca
 
 If $C$ is an [[(∞,1)-topos]] then it has an [[n-connected/n-truncated factorization system]] for all $n$. The $(-1)$-[[connected]] morphisms are also called [[effective epimorphism]]s. Therefore in an $(\infty,1)$-topos strong epimorphisms again coincide with effective epimorphisms.
 
+## References
+
+Textbook accounts:
+
+* [[Francis Borceux]], Def. 4.3.5 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+
 
 [[!redirects strong epimorphisms]]
