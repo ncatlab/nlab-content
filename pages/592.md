@@ -13,7 +13,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -180,7 +180,9 @@ $$
   \array{
     a &\overset{f}{\longrightarrow}& b
     \\
-    {}^{\mathllap{g}}\downarrow & & \downarrow^{f_\ast g}
+    {}^{\mathllap{g}}\downarrow 
+      & & 
+    \downarrow^{\mathrlap{f_\ast g}}
     \\
     c &\underset{}{\longrightarrow}& d
   }
