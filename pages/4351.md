@@ -101,7 +101,9 @@ Modern applications in connection to the [[field with one element]] are discusse
 
 An overview is in
 
-* Jaiung Jun, _Algebraic Geometry over Hyperrings_ , arXiv:1512.04837 (2015). ([abstract](http://arxiv.org/abs/1512.04837))
+* Jaiung Jun, _Algebraic geometry over hyperrings_, [arXiv:1512.04837](http://arxiv.org/abs/1512.04837)
+
+category: algebra
 
 [[!redirects hyperring]]
 [[!redirects hyperrings]]
