@@ -23,7 +23,7 @@ $$
   V \otimes V \to k
 $$ 
 
-be a [[bilinear form]]. A [[function]] 
+be a [[bilinear form]]. A ([[quadratic function|quadratic]]) [[function]] 
 
 $$
   q \colon V \to k
@@ -56,9 +56,9 @@ This means that a quadratic refinement by a [[quadratic form]] always exists whe
 
 ## References
 
-Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerful tool in [[algebraic topology]] and [[differential topology]]. See
+Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerful tool in [[algebraic topology]] and [[differential topology]]. See:
 
-* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+* [[Mike Hopkins]], [[Isadore Singer]], *[[Quadratic Functions in Geometry, Topology, and M-Theory]]*, J. Diff. Geom. **70** (2005) 329-452 $[$[arXiv:math/0211216](https://arxiv.org/abs/math/0211216), [euclid.jdg/1143642908](https://projecteuclid.org/euclid.jdg/1143642908)$]$
 
 
 [[!redirects quadratic refinement]]
