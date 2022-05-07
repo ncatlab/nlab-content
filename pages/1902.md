@@ -58,5 +58,6 @@ On the [[Yoneda lemma for (∞,1)-categories]]:
 * [[infinity-cosmos]]
 
 [[!redirects D. Verity]]
+[[!redirects Verity]]
 
 category: people
