@@ -25,7 +25,7 @@ Mathematically this means that the [[field (physics)|field]] of [[gravity]] is m
 
 The reformulation of [[pseudo-Riemannian geometry]] in terms of [[Cartan geometry]] is suggestive of also re-rewriting the form of the [[Lagrangian density]]/[[action functional]] of the theory of [[gravity]], even though this is logically an independent issue. In [[spacetime]] of [[dimension]] 3+1 one such alternative is known as the _Palatini-Cartan-Holst action_. That its [[phase space]] coincides with that induced by the [[Einstein-Hilbert action]] is due to [Cattaneo-Schiavina 17a](#CattaneoSchiavina17a)
 
-Promoting the first-ore formulation of gravity from the [[Poincaré group]] to the [[super Poincaré group]] yields _[[supergravity]]_ formulated in [[super Cartan geometry]]. Promoting it further to the [[L-infinity algebra cohomology|Lie n-algebra]] extensions of the [[super Poincaré group]] (from the [[brane scan]]/[[schreiber:The brane bouquet|brane bouquet]]) yields [[type II supergravity]], [[heterotic supergravity]] and [[11-dimensional supergravity]] in [[higher Cartan geometry]]-formulation ([[D'Auria-Fré formulation of supergravity]]).
+Promoting the first-order formulation of gravity from the [[Poincaré group]] to the [[super Poincaré group]] yields _[[supergravity]]_ formulated in [[super Cartan geometry]]. Promoting it further to the [[L-infinity algebra cohomology|Lie n-algebra]] extensions of the [[super Poincaré group]] (from the [[brane scan]]/[[schreiber:The brane bouquet|brane bouquet]]) yields [[type II supergravity]], [[heterotic supergravity]] and [[11-dimensional supergravity]] in [[higher Cartan geometry]]-formulation ([[D'Auria-Fré formulation of supergravity]]).
 
 [[!include local and global geometry - table]]
 
