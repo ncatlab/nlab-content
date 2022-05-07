@@ -32,7 +32,7 @@ $$
       {\bot}
   SimplicialSets_{red}
 $$
-is a [[Quillen equivalence]] between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]], modelling [[looping and delooping]] of [[homotopy types]] in [[simplicial homotopy theory]].
+is a [[Quillen equivalence]] (Prop. \ref{QuillenEquivalenceBetweenSimplicialGroupsAndReducedSimplicialSets} below) between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]], modelling [[looping and delooping]] of [[homotopy types]] in [[simplicial homotopy theory]].
 
 ## Definition
 
@@ -622,7 +622,8 @@ In all of the following, $G$ is any simplicial group.
 ### Basic properties
  {#KanFibrancy}
 
-\begin{prop}
+\begin{prop}\label{SimplicialClassifyingSpaces}
+**([[simplicial classifyong spaces]] are [[Kan complexes]])** \linebreak
   The simplicial set $\overline{W}G$ is a [[Kan complex]].
 \end{prop}
 (e.g. [Goerss & Jardine 09, Sec. V Cor. 6.8 (p. 287)](#GoerssJardine09))
@@ -638,10 +639,33 @@ In all of the following, $G$ is any simplicial group.
 \end{prop}
 (e.g [Goerss & Jardine 09, Sec. V Lemma 4.6 (p. 270)](#GoerssJardine09))
 
+
+
 ### Classification of simplicial principal bundles 
  {#ClassificationOfSimplicialPrincipalBundles}
 
 The object $\overline{W}G$ serves as the [[classifying space]] for [[simplicial principal bundles]] ([May 67, §21](#May67), [Goerss & Jardine 09, Section V, Thm. 3.9](#GoerssJardine09), see also [NSS 12, Section 4.1](#NSS12)).
+
+### Quillen equivalence between simplicial groups and reduced simplicial sets
+
+\begin{proposition}\label{QuillenEquivalenceBetweenSimplicialGroupsAndReducedSimplicialSets}
+**([[Quillen equivalence between simplicial groups and reduced simplicial sets]])** \linebreak
+  The [[simplicial classifying space]]-construction $\overline{W}(-)$ (Def. \ref{BarWGInComponents}) is the [[right adjoint]] in a [[Quillen equivalence]] between the projective [[model structure on simplicial groups]] and the injective [[model structure on reduced simplicial sets]]. 
+
+$$
+  Groups(sSet)_{proj}
+  \underoverset
+    {\underset{\overline{W}}{\longrightarrow}}
+    {\overset{ \Omega }{\longleftarrow}}
+    {\;\;\;\;\; \simeq_{\mathrlap{Qu}} \;\;\;\;\;}
+  (sSet_{\geq 0})_{inj}
+  \,.
+$$
+
+The [[left adjoint]] $\Omega$ is the [[simplicial loop space]]-construction. 
+\end{proposition}
+
+(e.g. [Goerss & Jardine 09, V Prop. 6.3](#GoerssJardine09))
 
 ### Slice model structure
  {#SliceModelStructure}
