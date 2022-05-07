@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **homotopy factorization system** in a [[model category]] is a presentation of an [[orthogonal factorization system in an (∞,1)-category|orthogonal factorization system]] in its [[simplicial localization|underling]] [[(∞,1)-category]].
+A **homotopy factorization system** in a [[model category]] is a presentation of an [[orthogonal factorization system in an (∞,1)-category|orthogonal factorization system]] in its [[simplicial localization|underlying]] [[(∞,1)-category]].
 
 ## The enriched case
 
