@@ -131,7 +131,11 @@ Also
 
 Reviews include
 
+
+
 * {#Blumberg17} [[Andrew Blumberg]], section 1.4 of _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
+* {#tomDieck87} [[Tammo tom Dieck]], Section II.9 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], pages 9-10 of _[[Equivariant stable homotopy theory]]_, chapter 8, pages 277-323 in: [[Ioan James]] (ed.), _[[Handbook of Algebraic Topology]]_, North-Holland, Amsterdam, 1995. ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7), [pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
