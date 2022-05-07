@@ -53,9 +53,9 @@ $$
 
 that induces the homotopy coherent nerve.
 
-##### An abstract description 
+##### A categorical description 
 
-Recall from the entry, [[reflexive graph]], that a [[graph]], $\Gamma$ is _reflexive_ if for each [[vertex]] $v$ there is a (specified) [[edge]] $v \to v$. Similarly a **reflexive [[quiver]]** has a specified identity edge $i_X: X \to X$ on each object (vertex) $X$.
+Recall from the entry, [[reflexive graph]], that a [[graph]], $\Gamma$, is _reflexive_ if for each [[vertex]] $v$ there is a (specified) [[edge]] $v \to v$. Similarly a **reflexive [[quiver]]** has a specified identity edge $i_X: X \to X$ on each object (vertex) $X$.
 
 
 The [[free category]] on a reflexive quiver has the same objects,
@@ -66,11 +66,15 @@ The composite,  $G = FU : Cat\to Cat$, defines a [[comonad]] on $Cat$.
 
 By the definition its  [[simplicial resolution]] gives an augmented simplicial endofunctor $S :\Delta\to sSet-Cat$ with natural augmentation $S\to Id$, and which is a cofibrant replacement construction in the [[Bergner model structure]] on $sSet-Cat$ ("model structure for simplicially enriched categories"). 
 
+##Remark
 
+Some *words of caution*, as always with simplicial resolutions, there are two conventions which differ by being the opposite simplicial object of each other.  In the original paper, Cordier uses a different one of these conventions from some of the other sources mentioned here. A similar problem occurs in the following combinatorial description as some sources use 'reverse inclusion' where others just use 'inclusion'reverse inclusion' for the partial order on the poset. This corresponds more or less exactly to the distinction between 'op-lax' and 'lax' functors in the theory oe 2-categories. 
+
+Because of this, it is always important to test the definition being used on a simple example, $[2]$ will do, before commiting to the use of any specific formulae. We will see this again in another Remark later on in this entry.
 
 ##### A combinatorial description
 
-For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the $sSet$-category $S[n]$ as follows:
+For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the $SSet$-category $S[n]$ as follows:
 
 * the [[object]]s of $S[n]$ are $\{0,1, \cdots, n\}$;
 
@@ -111,7 +115,7 @@ Under this isomorphism for instance the vertex $(0,0,1,0,1) \in (\Delta[1])^{\ti
 +-- {: .num_remark}
 ###### Remark
 
-The choice to order paths by reverse inclusion agrees with constructions such as the [[Duskin nerve]]. However, the other convention where they are ordered by inclusion also appears in the literature, such as [[Higher Topos Theory]] definition 1.1.5.1.  
+The choice to order paths by reverse inclusion agrees with constructions such as the [[Duskin nerve]]. However, the other convention where they are ordered by inclusion also appears in the literature, such as [[Higher Topos Theory]] definition 1.1.5.1., and corresponds to the convention used in the original paper by Cordier (see earlier Remark). The resulting theory is more or less equivalent in as much as the results true when using one convention have analogous results when using the other.
 
 =--
 
