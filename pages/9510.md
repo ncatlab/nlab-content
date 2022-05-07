@@ -48,7 +48,7 @@ An important generalization (possibly the most general) is:
 If $X$ a [[convergence space]] and $I$ the set of [[natural numbers]] (or more generally any [[directed set]]) and $\nu = (x_i)_{i\in I}\colon I \to X$ is a [[sequence]] (or a [[net]]) of points in $X$, one says that a point $x \in X$ is a **limit** of $\nu$ or that $\nu$ **converges** to $x$ if the [[eventuality filter]] of $\nu$ converges to $x$ (which is a primitive concept in convergence spaces).
 =--
 
-Other types of [[space]] for which we might put in definitions (or which might have definitions on their own pages) are ([[extended metric space|extended]]) ([[quasimetric space|quasi]])-([[pseudometric space|pseudo]])-[[metric spaces]], ([[quasiuniform space|quasi]])-[[uniform spaces]], [[pretopological spaces]], and (quasi)-[[uniform convergence spaces]].
+Other types of [[space]] for which we might put in definitions (or which might have definitions on their own pages) are ([[extended metric space|extended]]) ([[quasimetric space|quasi]])-([[pseudometric space|pseudo]])-[[metric spaces]], [[premetric spaces]], ([[quasiuniform space|quasi]])-[[uniform spaces]], [[pretopological spaces]], and (quasi)-[[uniform convergence spaces]].
 
 
 ### Notation
