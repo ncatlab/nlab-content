@@ -21,7 +21,7 @@
 ###### Definition
 
 
-Given a [[functor]] $U : D \rightarrow C$, then a [[parallel pair]] $f,g : a \rightarrow b$ in $D$ is called **$U$-split** if the pair $U f, U g$ has a [[split coequalizer]] in $C$.  Specifically, this means that there is a diagram in $C$: 
+Given a [[functor]] $U \colon D \rightarrow C$, then a [[parallel pair]] $f,g : a \rightarrow b$ in $D$ is called **$U$-split** if the pair $U f, U g$ has a [[split coequalizer]] in $C$.  Specifically, this means that there is a diagram in $C$: 
 
 $$U a \;\underoverset{U f}{U g}{\rightrightarrows}\; U b \;\overset{h}{\rightarrow}\; c$$
 such that $h \cdot U f = h \cdot U g$, and $h$ and $U f$ have respective [[sections]] $s$ and $t$ satisfying $U g \cdot t = s \cdot h$.  This implies that the arrow $h$ is necessarily a coequalizer of $U f$ and $U g$.  
@@ -35,7 +35,7 @@ The functor $U$ is said to *create coequalizers of $U$-split pairs* if for any s
 ###### Theorem
 **(Beck's monadicity theorem**,  **tripleability theorem)** 
 
-A [[functor]] $U : D \rightarrow C$ is [[monadic]] (tripleable) if and only if
+A [[functor]] $U : D \rightarrow C$ is [[monadic]] (or tripleable) if and only if
 
 1. $U$ has a [[left adjoint]], and
 1. $U$ [[created limit|creates]] [[coequalizers]] of $U$-split pairs, def. \ref{CreationOfCoequalizersOfuSplitPairs}.
@@ -72,6 +72,8 @@ The __crude monadicity theorem__ gives a *sufficient*, but not necessary, condit
 3. $D$ has and $U$ preserves coequalizers of [[reflexive coequalizer|reflexive pairs]].
 
 (Recall that a parallel pair $f,g : a \rightarrow b$ is __reflexive__ if $f$ and $g$ have a common [[section]].)  This sufficient, but not necessary, condition is sometimes easier to verify in practice.  In contrast to the crude monadicity theorem, the necessary and sufficient condition above is sometimes called the __precise monadicity theorem__.
+
+A further advantage of crude monadicity is this: while in general the composite of monadic functors need not be monadic, if $U_1\colon D \to C$ satisfies the hypotheses of the crude monadicity theorem and $U_2\colon C \to B$ is any monadic functor then $U_2 \circ U_1$ is monadic.   Furthermore, if both $U_1$ and $U_2$ both obey the hypotheses of the crude monadicity theorem, so does $U_2 \circ U_1$.  See ([BarrWells](#BarrWells), Proposition 3.5.1) for these and further results.  
 
 ### Duskin's monadicity theorem
 
@@ -150,10 +152,9 @@ Canonical textbook references include
 
 * {#Borceux} [[Francis Borceux]], Section 4 in volume 2 of  _[[Handbook of Categorical Algebra]]_, in 3 vols. 
 
-
 * {#MacLane} [[Saunders MacLane]],  Section VI.7 of _[[Categories for the Working Mathematician]]_.
 
-* Chapter 3 of [[Michael Barr]], [[Charles Wells]], _Triples, toposes, and theories_ , Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983, [ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt), [web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html), [pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)
+* {#BarrWells} Chapter 3 of [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_  Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983  ([ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt)), ([web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)), ([pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf))
 
 Other references include:
 
@@ -165,7 +166,7 @@ Other references include:
 
 * [[Pierre Deligne]], _[[Catégories Tannakiennes]]_ , Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp. 111-195.
 
-* wikipedia: [monadicity theorem](http://en.wikipedia.org/wiki/Beck%27s_monadicity_theorem)
+* Wikipedia: [monadicity theorem](http://en.wikipedia.org/wiki/Beck%27s_monadicity_theorem)
 
 * John Bourke, _Two dimensional monadicity_, [arxiv/1212.5123](http://arxiv.org/abs/1212.5123)
 
