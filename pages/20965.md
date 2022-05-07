@@ -23,10 +23,11 @@ Review:
 * Dmitrii A. Trunin, _Pedagogical introduction to SYK model and 2D Dilaton Gravity_ ([arXiv:2002.12187](https://arxiv.org/abs/2002.12187))
 
 
+Relation to [[black holes]] in terms of [[Majorana dimer]] states:
 
+* Ioanna Kourkoulou, [[Juan Maldacena]], *Pure states in the SYK model and nearly-$AdS_2$ gravity* ([arXiv:1707.02325](https://arxiv.org/abs/1707.02325))
 
 Relation to [[black holes in string theory]] and [[random matrix theory]]:
-
 
 * {#CGHSS16} Jordan S. Cotler, Guy Gur-Ari, Masanori Hanada, [[Joseph Polchinski]], Phil Saad, [[Stephen Shenker]], [[Douglas Stanford]], Alexandre Streicher, Masaki Tezuka, _Black Holes and Random Matrices_,  JHEP 1705:118, 2017 ([arXiv:1611.04650](https://arxiv.org/abs/1611.04650))
 
