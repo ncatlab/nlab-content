@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 # The specialisation order
 * table of contents
 {: toc}
@@ -40,11 +54,30 @@ $$i(Spec(X)) \to X,$$
 
 is the identity function at the level of sets, and is continuous because any open $U$ of $X$ is upward-closed with respect to $\leq$, according to the second equivalent condition of the definition of the specialization order. 
 
-This adjunction restricts to an [[adjoint equivalence]] between the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces. The unit and counit are both identity functions at the level of sets, so we in fact have an equivalence between these categories as [[concrete categories]]. 
+This [[adjunction]] restricts to an [[adjoint equivalence]] between the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces. The unit and counit are both identity functions at the level of sets, so we in fact have an equivalence between these categories as [[concrete categories]]. 
 
-[[!redirects specialization order]]
+## Related entries
+
+* [[finite topological space]]
+
+* [[separation axioms in terms of lifting properties]]
+
+[[!redirects specialization orders]]
+
 [[!redirects specialisation order]]
+[[!redirects specialisation orders]]
+
 [[!redirects specialization ordering]]
+[[!redirects specialization orderings]]
+
 [[!redirects specialisation ordering]]
+[[!redirects specialisation orderings]]
+
+
 [[!redirects specialization preorder]]
+[[!redirects specialization preorders]]
+
 [[!redirects specialisation preorder]]
+[[!redirects specialisation preorders]]
+
+
