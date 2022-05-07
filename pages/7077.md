@@ -19,9 +19,15 @@ A _locally cartesian closed model category_ is a [[locally cartesian closed cate
 
 ## Definition
 
-A [[model category]] $\mathcal{C}$ which is additionally a [[locally cartesian closed category]] is called a **locally cartesian closed model category** if for any [[fibration]] $g\colon A\to B$ between [[fibrant objects]], the [[dependent product]] [[adjunction]]
+A [[model category]] $\mathcal{C}$ which is additionally a [[locally cartesian closed category]] is called a **locally cartesian closed model category** if for any [[fibration]] $g\colon A\to B$ between [[fibrant objects]], the [[dependent product]]/[[base change]] [[adjunction]]
 $$ 
-  g^* : \mathcal{C}/B \rightleftarrows \mathcal{C}/A : \Pi_g 
+  g^* 
+  \;\colon\; 
+  \mathcal{C}/B 
+     \rightleftarrows 
+  \mathcal{C}/A 
+  \;\colon\; 
+  \Pi_g 
 $$
 is a [[Quillen adjunction]] between the corresponding [[slice model structures]].
 
@@ -43,12 +49,39 @@ is a [[Quillen adjunction]].
 
 
 ## Examples
+ {#Examples}
 
-Any [[right proper model category]] which is locally cartesian closed and in which the cofibrations are the [[monomorphisms]] is a locally cartesian closed model category.  This includes the classical [[model structure on simplicial sets]], as well as the [[injective model structure|injective]] [[global model structure on simplicial presheaves]].  More generally, it includes any right proper [[Cisinski model structure]].
+\begin{example}\label{RightProperModelCategoriesWithCofibsTheMonosAreLcc}
+Any [[right proper model category]] whose underlying category is [[locally cartesian closed category|locally cartesian closed]] and in which the [[cofibrations]] are the [[monomorphisms]] is a locally cartesian closed model category.  
+\end{example}
+\begin{proof}
+The [[fiber product]]/[[pullback]] functor $g^\ast$
+  
+  * is a left adjoint by local cartesian closure of the underlying category,
+
+  * preserves cofibrations because these are the monomorphisms and hence are preserved by pullback (by [this prop.](monomorphism#MonomorphismsArePreservedByPullback)),
+
+  * preserves weak equivalences, and hence acyclic cofibrations by the provious item, due to right properness.
+
+In summary this means that $g^\ast$ is a [[left Quillen functor]].
+\end{proof}
+
+\begin{example}
+Example \ref{RightProperModelCategoriesWithCofibsTheMonosAreLcc} subsumes the following classes of examples, in increasing generality:
+
+* the [[classical model structure on simplicial sets]], 
+
+* any [[injective global model structure on simplicial presheaves]],
+
+* any [[injective local model structure on simplicial presheaves]] whose weak equivalences are detected [[stalk]]-wise (by the discussion [there](model+structure+on+simplicial+presheaves#StalkwiseWeakEquivalencesImpliesRightProperness)),
+
+* any right proper [[Cisinski model structure]].
+
+\end{example}
 
 ## Versus locally cartesian closed $(\infty,1)$-categories
 
-It is easy to see that the $(\infty,1)$-category presented by a locally cartesian closed model category is itself [[locally cartesian closed (infinity,1)-category|locally cartesian closed]].  Conversely, any [[locally presentable (infinity,1)-category|locally presentable]] locally cartesian closed $(\infty,1)$-category can be presented by some right proper Cisinski model category, which is therefore a locally cartesian closed model category; see [[locally cartesian closed (infinity,1)-category]] for the proof.
+It is easy to see that the $(\infty,1)$-category presented by a locally cartesian closed model category is itself [[locally cartesian closed (infinity,1)-category|locally cartesian closed]].  Conversely, any [[locally presentable (infinity,1)-category|locally presentable]] locally cartesian closed $(\infty,1)$-category can be presented by some right proper Cisinski model category, which is therefore a locally cartesian closed model category; see [[locally cartesian closed (infinity,1)-category#Presentations|there]] for the proof.
 
 ## Applications
 
@@ -66,4 +99,5 @@ It is easy to see that the $(\infty,1)$-category presented by a locally cartesia
 
 * [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
 
+[[!redirects locally cartesian closed model categories]]
 
