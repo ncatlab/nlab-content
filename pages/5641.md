@@ -125,7 +125,7 @@ $$
     \\
     \downarrow & \searrow^{\mathrlap{f}}
     \\
-    C_\bullet \otimes I_\bullet
+    I_\bullet\otimes C_\bullet  
     &\stackrel{(f,g,\psi)}{\to}&
     D_\bullet
     \\
