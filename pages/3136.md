@@ -48,7 +48,7 @@ $$
 
 In the literature the following simplest case of the general situation is usually considered exclusively:
 
-for $G$ an ordinary [[group]] and 
+For $G$ an ordinary topological or Lie [[group]] and 
 
 $$
   U(1) \to \hat G \to G
@@ -98,6 +98,9 @@ is universal with the above property: every $U(1)$-[[bundle gerbe]]/[[circle n-b
 
 See [[projective unitary group]] for details.
 
+To contrast, in ([Roberts 2021](#Roberts21)), _finite dimensional_ lifting gerbes are very often those gerbes with torsion [[Dixmier-Douady class]]. This is in particular true if the [[fundamental group]] of the base is finite, or the Lie group $G$ is compact.
+
+
 ### Lifting 2-gerbes
 
 The archetypical example of a lifting 2-gerbe is a [[Chern-Simons gerbe]].
@@ -107,8 +110,11 @@ The archetypical example of a lifting 2-gerbe is a [[Chern-Simons gerbe]].
 
 A review is for instance in section 2.2 of
 
-* [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
-  {#CBMMS} 
+* {#CBMMS}  [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
+  
+
+
+* {#Roberts21} [[David Roberts]], _Many finite-dimensional lifting bundle gerbes are torsion_ (2021), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936).
 
 
 [[!redirects lifting gerbes]]
