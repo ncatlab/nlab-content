@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,12 +25,12 @@ For $G$ a fixed [[group]], to be called the _[[equivariance group]]_, then
 by a _$G$-equivariant group_ we mean a [[group object]] [[internalization|internal]] to $G$-[[actions]], e.g. [[internalization|internal]] to [[G-sets]], [[G-spaces]], or [[G-manifolds]], etc.
 
 Beware that the term "equivariant group" for this notion is non-standard; or rather: there is no other established term for this notion at all.
-The term is meant to rhyme on the established terminology of _[[equivariant principal bundles]]_, in which context it serves to make nicely transparent the full (but often hidden) [[internalization|internal]] nature of the concept: equivariant principal bundles have, in general, equivariant groups as their [[structure groups]].
+The term is meant to rhyme on the established terminology of _[[equivariant principal bundles]]_, in which context it serves to make nicely transparent the full (but often hidden) [[internalization|internal]] nature of the concept: [[equivariant principal bundles]] have, in general, equivariant groups as their [[structure groups]].
 
 
 ## Definition
 
-We discuss  equivariant groups in/as [[topological spaces]], for definiteness and due to their relevance as models in [[equivariant homotopy theory]].  All of the discussion generalizes, say to [[smooth manifolds]] or general [[toposes]].
+We discuss  equivariant groups in/as [[topological spaces]], for definiteness and due to their relevance as models in [[equivariant homotopy theory]].  All of the discussion generalizes, say to [[smooth manifolds]] or general [[toposes]] (see at _[category of G-sets -- For internal group actions](category+of+G-sets#InternalGroupActions)_).
 
 ### Preliminaries
 
@@ -96,7 +97,7 @@ for the [[category]] whose
 \begin{remark}
 (**further conditions on the equivariance group**)
 \linebreak
-For purposes of [[equivariant homotopy theory]] one typically assumes the [[topological group|topological]] [[equivariance group]] $G$ in Def. \ref{TopologicalGSpaces} to be that underlying a [[compact Lie group]], such as a [[finite group]] (as that guarantees that [[G-CW-complexes]] are well-behaved and that the [[equivariant Whitehead theorem]] holds). But for the plain [[point-set topology]] of equivariant bundles, this condition is not necessary.
+For purposes of [[equivariant homotopy theory]] one typically assumes the [[topological group|topological]] [[equivariance group]] $G$ in Def. \ref{TopologicalGSpaces} to be that underlying a [[compact Lie group]], such as a [[finite group]] (as that guarantees that [[G-CW-complexes]] are well-behaved and that the [[equivariant Whitehead theorem]] holds). But for the plain [[point-set topology]] of equivariant groups and their [[equivariant bundles]] this condition is not necessary.
 \end{remark}
 
 
@@ -385,11 +386,11 @@ a product of elements from these subgroups:
   \,.
 \]
 
-This implies in particular that 
+This implies in particular that
 
-1. that $\phi$ be a morphism in $Groups_{/G}$ means equivalently that its restriction to $\mathcal{G}$ factors (via some group homomorphism $\mathcal{G} \to \mathcal{G}'$) through the canonical inclusion of $\mathcal{G}'$ (eq:CoSliceMorphismsInOutOfSemidirectProductGroup);
+1. $\phi$ being a morphism in $Groups_{/G}$ means equivalently that its restriction to $\mathcal{G}$ factors (via some group homomorphism $\mathcal{G} \to \mathcal{G}'$) through the canonical inclusion of $\mathcal{G}'$ (eq:CoSliceMorphismsInOutOfSemidirectProductGroup);
 
-1. that $\phi$ be a morphism in $Groups^{G/}$ means equivalent that its restriction to $G$ is the canonical inclusion of $G$ (eq:CoSliceMorphismsInOutOfSemidirectProductGroup).
+1. $\phi$ being a morphism in $Groups^{G/}$ means equivalently that its restriction to $G$ is the canonical inclusion of $G$ (eq:CoSliceMorphismsInOutOfSemidirectProductGroup).
 
 \end{remark}
 
@@ -465,13 +466,14 @@ First, notice
 by the decomposition (eq:ElementInSemidirectProductAsProductOfElementsInSubgroups) in Remark \ref{HomomOutOfSemidirectProductGroupFixedByItsRestrictionToSubgroups},
 that any action of $\mathcal{G} \rtimes_\alpha G$ can be written in the form (eq:ActionOfSemidirectProductFromEquivariantComponentActions) for some actions $R$ and $\rho$ of $\mathcal{G}$ and $G$, respectively, satisfying some compatibility conditions:
 
-1. the action property of $\rho$ is equivalently the action property of $(R,\rho)$ on elements of the form $(e, g)$;
+1. the [action property](action#eq:ActionPropertyOfGroupActions) of $\rho$  is equivalently the action property of $(R,\rho)$ on elements of the form $(e, g)$;
 
-1. the action-property of $R$ on the underlying topological spaces is equivalently the action property of $(R,\rho)$ on elements of the form $(\gamma,e)$
+1. the [action property](action#eq:ActionPropertyOfGroupActions) of $R$ on the underlying topological spaces is equivalently the [action property](action#eq:ActionPropertyOfGroupActions) of $(R,\rho)$ on elements of the form $(\gamma,e)$;
 
 1. the $G$-[[equivariant function|equivariance]] of $R$
 
-   $$
+   \[
+     \label{GEquivarianceOfR}
      \underset{
        \gamma,g,x
      }{\forall}
@@ -488,11 +490,10 @@ that any action of $\mathcal{G} \rtimes_\alpha G$ can be written in the form (eq
       \big(
        R(\gamma)(x)
      \big)
-     \,.
-   $$
+   \]
 
 
-   is equivalent to the action property of $(R,\phi)$ on mixed pairs of elements of the form $\big( (e_{\mathcal{G}},g), \; (\gamma,e_G) \big)$:
+   is equivalent to the [action property](action#eq:ActionPropertyOfGroupActions) of $(R,\phi)$ on mixed pairs of elements of the form $\big( (e_{\mathcal{G}},g), \; (\gamma,e_G) \big)$:
 
    $$
      \underset{
@@ -524,81 +525,133 @@ that any action of $\mathcal{G} \rtimes_\alpha G$ can be written in the form (eq
 
 These three conditions exhaust the conditions on $R$ to be a $G$-equivariant action. Therefore it just remains to see that they also exhaust the conditions on $(R,\rho)$ to be a plain action:
 
-But the remaining mixed-pair condition on $(R, \phi)$ 
+But the remaining mixed [action conditions](action#eq:ActionPropertyOfGroupActions) on $(R, \phi)$ 
 
 $$
   \underset{
-    \gamma,g,x
+    \gamma_1, \gamma_2, g, x
   }{\forall}
   \;\;\;
-  (R,\phi)
+  (R,\rho)
   \big(
     \underset{
-     = \, (\gamma,g)
+     = \, (\gamma_1 \cdot \gamma_2,g)
     }{
     \underbrace{
-      (\gamma,e) \cdot (e,g)
+      (\gamma_1,e) \cdot (\gamma_2,g)
     }
     }
   \big)
   (x)
   \;=\;
-  (R,\phi)
+  (R,\rho)
   \big(
-    (\gamma,e)
+    (\gamma_1,e)
   \big)
   \Big(
-    (R,\phi)
+    (R,\rho)
     \big(
-      (e,g)
+      (\gamma_2,g)
     \big)
     (x)
   \Big)
 $$
 
-follows generally right from the definition (eq:ActionOfSemidirectProductFromEquivariantComponentActions); and with this and the previous three conditions the action property is implied on pairs of the form
+and
 
 $$
-  (\gamma_1, e)
-  \cdot
-  (\gamma_2, g_2)
-  \;=\;
-  (\gamma_1, e)
-  \cdot
-  (\gamma_2, e)
-  \cdot
-  (e, g)
-  \,,
+  \begin{aligned}
+  \underset{
+    \gamma, g_1, g_2, x
+  }{\forall}
   \;\;\;
-  (e, g_1) 
-  \cdot
-  (\gamma_2, g_2)
-  \;=\;
-  (e, g_1)
-  \cdot
-  (\gamma_2, e)
-  \cdot
-  (e, g_2)
+  (R,\rho)
+  \big(
+    (e,g_1)
+    \cdot
+    (\gamma, g_2)
+  \big)
+  (x)
+  & =\;
+  (R,\rho)
+  \Big(
+    \big(
+      \alpha(g_1)(\gamma), g_1 \cdot g_2
+    \big)
+  \Big)
+  (x)
+  \\
+  & =\;
+  R
+  \big(   
+    \alpha(g_1)(\gamma)
+  \big)
+  \big(
+    \rho(g_1 \cdot g_2)
+    (x)
+  \big)
+  \\
+  & \overset{!}{=} \;
+  R
+  \big(   
+    \alpha(g_1)(\gamma)
+  \big)
+  \Big(
+    \rho(g_1)
+    \big(
+      \rho(g_2)
+      (x)
+    \big)
+  \Big)
+  \\
+  & \overset{!}{=} \;
+  \rho(g_1)
+  \Big(
+    R
+    \big(   
+      \gamma
+    \big)
+    \big(
+      \rho(g_2)
+      (x)
+    \big)
+  \Big)
+  \\
+  & =\; 
+  (R,\rho)
+  \big(
+    (e,g_1)
+  \big)
+  \Big(
+    (R,\rho)
+    \big(
+      (\gamma, g_2)
+    \big)
+    (x)
+  \Big)
+  \end{aligned}
 $$
 
-and then on general elements.
+follow right from the definition (eq:ActionOfSemidirectProductFromEquivariantComponentActions)
+and using again (in the highlighted steps "$\overset{!}{=}$"):
 
+* the [action propery](action#eq:ActionPropertyOfGroupActions) of $\rho$ from item 2 above;
+
+* the $G$-[[equivariant function|equivariance]] of $R$ (eq:GEquivarianceOfR) from item 3 above.
 
 
 In conclusion, $(R,\rho)$ is an action of the semidirect product group $\mathcal{G} \rtimes_\alpha G$ on $X$ iff $R$ is a $G$-equivariant action of $\mathcal{G}$ on $X$. 
 
 This implies immediately that the condition for a map $X \to X$ to be an action homomorphisms on both sides are the same. 
 
-And so the functor (eq:EquivalenceBetweenEquivariantActionsAndSemidirecProductActions) is in fact an [[isomorphism]] on both objects as well as morphisms, hence in particular an [[equivalence of categories]],
+And so the functor (eq:EquivalenceBetweenEquivariantActionsAndSemidirecProductActions) is in fact an [[isomorphism]] on both objects as well as morphisms, hence in particular an [[equivalence of categories]].
 \end{proof}
 
 ## Related concepts
 
 * [[equivariant bundle]]
 
-* [category of G-sets -- For internal group actions](category+of+G-sets#InternalGroupActions)
-
-* [[equivariance group]]
+* [[equivariance group]], [[structure group]], [[gauge group]]
 
 \linebreak
 
