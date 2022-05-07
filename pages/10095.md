@@ -25,7 +25,7 @@ A _complex Lie group_ is a [[Lie group]] that is a [[group object]] not just [[i
 
 ### Relation to almost complex structure
 
-One can also conider groups in [[almost complex manifolds]]. But every _almost complex Lie group_ is automatically also a complex Lie group.
+One can also consider groups in [[almost complex manifolds]]. But every _almost complex Lie group_ is automatically also a complex Lie group.
 
 ### Complexification of compact Lie groups
 
