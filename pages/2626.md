@@ -87,6 +87,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[Kirby calculus]]
 
+* [[surface knot]]
+
 * [[MKR dictionary]] in [[arithmetic topology]]
 
 * [[chord diagram]]
