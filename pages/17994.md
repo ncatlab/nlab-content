@@ -11,6 +11,11 @@ Under the identification $B \mathrm{U}(1) \,\simeq\, \mathbb{C}P^\infty$ of the 
 
 Its [[pullback bundle]] along the canonical inclusion $S^2 \longrightarrow B U(1)$ (the map which represents $1 \in \pi_2(B U(1)) \simeq \mathbb{Z}$) is the _[[basic complex line bundle on the 2-sphere]]_.
 
+## Properties
+
+### Zero-section into Thom space is weak equivalence
+
+See at _[[zero-section into Thom space of universal line bundle is weak equivalence]]_.
 
 ## Related concepts
 
