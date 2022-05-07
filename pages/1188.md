@@ -166,14 +166,18 @@ This is [[Higher Topos Theory|HTT, proposition 5.4.7.3]].
 
 ## References 
 
-The theory of accessible 1-categories is described in 
+Theory of [[accessible categories|accessible 1-categories]]:
 
 * {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  
 
-The theory of accessible $(\infty,1)$-categories is the topic of section 5.4 of 
+Theory of accessible $(\infty,1)$-categories:
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], Section 5.4 of _[[Higher Topos Theory]]_
+
+See also:
+
+* {#Rezk2021} [[Charles Rezk]], *Generalizing accessible ∞-categories*, 2021 ([pdf](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf)).
 
 
 [[!redirects accessible (infinity,1)-categories]]
