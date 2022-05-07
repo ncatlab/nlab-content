@@ -175,3 +175,5 @@ Princeton university, 1963
 category: analysis
 
 [[!redirects Hilbert spaces]]
+[[!redirects category of Hilbert spaces]]
+[[!redirects categories of Hilbert spaces]]
