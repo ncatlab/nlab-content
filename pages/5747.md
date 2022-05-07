@@ -83,9 +83,10 @@ On the other hand, in other contexts the prefix "semi-" is used to denote absenc
 
 * James E. McClure, On semisimplicial sets satisfying the Kan condition ([ArXiv](http://arxiv.org/abs/1210.5650)).
 
-A discussion of a [[model structure on semi-simplicial sets]] is in 
+Discussion of a [[model structure on semi-simplicial sets]]:
 
-* [[Benno van den Berg]], _A note on semisimplicial sets_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semisimplicialsets.pdf/421930564/semisimplicialsets.pdf))
+* [[Benno van den Berg]], _A note on semisimplicial sets_, 2013 ([[vandenBerg_SemisimplicialSets.pdf:file]])
+
 
 See also the references at _[[semi-simplicial object]]_.
 
