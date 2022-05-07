@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -58,6 +59,7 @@ The GNS-construction plays a central role in [[algebraic quantum field theory]] 
 
 
 ### For $C^\ast$-algebras
+  {#ForCStarAlgebras}
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -82,23 +84,96 @@ there exists
 
    of $\mathcal{A}$ on some [[Hilbert space]] $\mathcal{H}$
 
-1. a [[cyclic vector]] $\psi \in \mathcal{H}$ 
+1. a [[cyclic vector]] $\psi_\rho \in \mathcal{H}$ 
 
-such that $\rho$ is the state corresponding to $\psi$, in that
+such that $\rho$ is the state corresponding to $\psi_\rho$, in that
 
 $$
   \begin{aligned}
     \rho(A) 
-      & = \langle \psi \vert\, A \, \vert \psi \rangle
+      & = \langle \psi_\rho \vert\, A \, \vert \psi_\rho \rangle
       \\
       & \coloneqq
-      \langle \psi , \pi(A) \psi \rangle
+      \langle \psi_\rho , \pi(A) \psi_\rho \rangle
   \end{aligned}
 $$
 
 for all $A \in \mathcal{A}$.
 
 =--
+
+Namely, consider on the underlying [[complex vector space]] of $\mathcal{A}$ the [[sesquilinear form]] (inner product)
+
+$$
+  \langle A,B \rangle_\rho
+  \;\coloneqq\;
+  \rho
+  \big(
+    A^\ast B
+  \big)
+  \,.
+$$
+
+Since $\rho$ is a "positive functional", hence taking non-negative values, this is, in general, [positive semi-definite](sesquilinear+form#Definity).
+It becomes [positive definite](sesquilinear+form#Definity) on the the [[quotient vector space]]
+
+\[
+  \label{HilbertSpaceAsQuotientOfStarAlgebraByNullSpace}
+  \mathcal{H}
+  \;\coloneqq\;
+  \mathcal{A}/N
+\]
+
+by the subspace of 0-norm elements
+
+\[
+  \label{TheNullIdeal}
+  N 
+    \;\coloneqq\; 
+  \big\{
+    A \in \mathcal{A}
+    \,\vert\,
+    \rho(A^\ast A) = 0
+  \big\}
+  \,.
+\]
+
+In fact, $N$ is a left [[ideal]] in $\mathcal{A}$ so that the left multiplication [[action]] of $\mathcal{A}$ on itself descends to an action the quotient Hilbert space (eq:TheNullIdeal)
+
+$$
+  \array{
+    \mathcal{A} \otimes \mathcal{H}
+    &
+    \overset{
+      \;\;\;\;\;
+      \pi
+      \;\;\;\;\;
+    }{
+      \longrightarrow
+    }
+    &
+    \mathcal{H}
+    \\
+    (A, [\psi]) &\mapsto& [A \cdot \psi]
+    \,.
+  }
+$$
+
+The cyclic vector is hence the tautological
+
+$$
+  \psi_\rho \;\coloneqq\; [1]
+  \,.
+$$
+
+Hence on this Hilbert space $\mathcal{H}$, the original  operator-algebraic state $\rho$ is now represented by the tautological [[density matrix]] 
+
+$$
+  \left\vert \psi_\rho \right\rangle \left\langle \psi_\rho \right\rangle
+  \;=\;
+  \left\vert [1] \right\rangle \left\langle [1] \right\rangle
+  \,.
+$$
 
 
 ### For $C^\ast$-categories
@@ -131,22 +206,36 @@ A [[C*-algebra]] $\mathcal{A}$ is a $C^\ast$-category with a single [[object]] $
 
 ## References
  
-The original construction for [[C*-algebras]] and [[C*-representations]] is due to 
+The original construction for [[C*-algebras]] and [[C*-representations]] is due to:
 
-* {#GelfandNaimark43} [[Israel Gelfand]], [[Mark Naimark]], _On the imbedding of normed rings into the ring of operators on a Hilbert space_. Matematicheskii Sbornik. 12 (2): 197&#8211;217 (1943)
+* {#GelfandNaimark43} [[Israel Gelfand]], [[Mark Naimark]], *On the imbedding of normed rings into the ring of operators on a Hilbert space*,  Matematicheskii Sbornik. 12 (2): 197&#8211;217 (1943) 
 
-* {#Segal47} [[Irving Segal]], _Irreducible representations of operator algebras_ ([pdf](http://www.ams.org/journals/bull/1947-53-02/S0002-9904-1947-08742-5/S0002-9904-1947-08742-5.pdf)). Bull. Am. Math. Soc. 53: 73&#8211;88, (1947) 
+  reprinted in:
 
-see for instance
+  Robert Doran (ed.), *$C^\ast$-Algebras: 1943–1993*, Contemporary Mathematics **167**, AMS 1994 ([doi:10.1090/conm/167](http://dx.doi.org/10.1090/conm/167))
 
-* {#Schmuedgen90} K. Schm&#252;dgen, _Unbounded  operator  algebras  and  representation  theory_, Operator  theory, advances and applications, vol. 37. Birkh&#228;user, Basel (1990)
+* {#Segal47} [[Irving Segal]], _Irreducible representations of operator algebras_, Bull. Am. Math. Soc. 53: 73&#8211;88, (1947)  ([pdf](http://www.ams.org/journals/bull/1947-53-02/S0002-9904-1947-08742-5/S0002-9904-1947-08742-5.pdf), [euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-53/issue-2/Irreducible-representations-of-operator-algebras/bams/1183510397.full))
 
-The application to [[algebraic quantum field theory]] is discussed in
+
+Textbook accounts:
+
+* [[Gerard Murphy]], Section 3.4 of: _$C^\ast$-algebras and Operator Theory_, Academic Press 1990 ([doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6))
+
+* {#Schmuedgen90} [[Konrad Schmüdgen]], Section 8.3 of: _Unbounded  operator  algebras  and  representation  theory_, Operator  theory, advances and applications, vol. 37. Birkh&#228;user, Basel (1990) ([doi:10.1007/978-3-0348-7469-4](https://link.springer.com/book/10.1007/978-3-0348-7469-4))
+
+* [[Kehe Zhu]], Section 14 of: *An Introduction to Operator Algebras*, CRC Press 1993 ([ISBN:9780849378751](https://www.routledge.com/An-Introduction-to-Operator-Algebras/Zhu/p/book/9780849378751))
+
+* [[Richard V. Kadison]], [[John R. Ringrose]], Theorem 4.5.2 in: *Fundamentals of the theory of operator algebras -- Volume I: Elementary Theory*, Graduate Studies in Mathematics **15**, AMS 1997 ([ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
+
+in the context of [[algebraic quantum field theory]]:
 
 * {#Haag96} [[Rudolf Haag]], _Local  Quantum  Physics:  Fields,  Particles,  Algebras_,   Texts  and  Monographs  in Physics. Springer (1996).
 
 * {#Moretti18} [[Valter Moretti]], _Spectral Theory and Quantum Mechanics :Mathematical Structure of Quantum Theories, Symmetries and introduction to the Algebraic Formulation_, 2nd ed.  Springer Verlag, Berlin (2018)
 
+Review with an eye towards [[quantum probability]] and [[entropy]]:
+
+* A. P. Balachandran, T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, Section II of: _Algebraic approach to entanglement and entropy_, Phys. Rev. A 88, 022301 (2013) ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
 
 See also 
 
@@ -159,8 +248,7 @@ For general unital [[star-algebras]]:
 
 in relation with the classical moment problem and the notion of [[POVM]]
 
-* {#DragoMoretti19} Nicolò Drago,  [[Valter Moretti]], 
- The notion of observable and the moment problem for *-algebras and their GNS representations, Lett. Math. Phys. 2020 in print  ([arXiv.org:1903.07496](https://arxiv.org/abs/1903.07496))
+* {#DragoMoretti19} Nicolò Drago,  [[Valter Moretti]], *The notion of observable and the moment problem for $\ast$-algebras and their GNS representations*, Lett. Math. Phys. 2020 ([arXiv.org:1903.07496](https://arxiv.org/abs/1903.07496))
 
 For [[formal power series algebras]] over $\mathbb{C}[ [ \hbar ] ]$:
 
