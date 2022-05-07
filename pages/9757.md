@@ -34,7 +34,7 @@ In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebr
 
 * [[4d Chern-Simons theory]]
 
-* [[Walker-Zhang model]]
+* [[Walker-Wang model]]
 
 ## Related concepts
 
@@ -70,7 +70,15 @@ Construction via [[factorization homology]] from [[braided monoidal category|bra
 
 From [[fully dualizable object|fully dualizable]] [[braided monoidal category|braided]] [[tensor categories]], via the [[cobordism hypothesis]]:
 
-* Adrien Brochier, David Jordan, Pavel Safronov, Noah Snyder, _Invertible braided tensor categories_ ([arXiv:2003.13812](https://arxiv.org/abs/2003.13812))
+* [[Adrien Brochier]], [[David Jordan]], [[Pavel Safronov]], [[Noah Snyder]], _Invertible braided tensor categories_ ([arXiv:2003.13812](https://arxiv.org/abs/2003.13812))
+
+As descriptions of [[topological insulators]]/[[topological phases of matter]]:
+
+* [[Kevin Walker]], [[Zhenghan Wang]], _(3+1)-TQFTs and Topological Insulators_, Frontiers of Physics volume 7, pages 150–159 (2012) ([arXiv:1104.2632](http://arxiv.org/abs/1104.2632), [doi:10.1007/s11467-011-0194-z](https://doi.org/10.1007/s11467-011-0194-z))
+
+  > (see [[Walker-Wang model]])
+
+* Clement Delcamp, *Excitation basis for (3+1)d topological phases*, Journal of High Energy Physics **2017** (2017) 128 (<a href="https://doi.org/10.1007/JHEP12(2017)128">doi:10.1007/JHEP12(2017)128</a>)
 
 \linebreak
 
