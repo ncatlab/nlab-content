@@ -18,14 +18,15 @@
 
 \begin{definition}
 A **symmetric bicategory** ([May & Sigurdsson 2006, Def. 16.2.1](#MaySigurdsson06)) is a [[bicategory]] $B$ equipped with a bijective-on-objects [[equivalence of 2-categories|biequivalence]] $t \colon B \simeq B^{op}$ to its [[opposite 2-category]].
-\end{definition}
 
 A **closed symmetric bicategory** is a symmetric bicategory that is [[closed bicategory|closed]] ([May & Sigurdsson 2006, Def. 16.3.1](#MaySigurdsson06)).
+\end{definition}
+
 
 \begin{remark}
 The notion of symmetric bicategory is a [[horizontal categorification]] of that of a  [[symmetric monoidal category]]. It is not to be confused with the notion of a  symmetric [[monoidal bicategory]], which is instead a [[vertical categorification]] of the same concept.
 
-Note, however, that single-object symmetric bicategories are more expressive than [[symmetric monoidal categories]]: a symmetric bicategory with a single object $A$ is a symmetric monoidal category if and only if the component functor of $t$ is the [[identity functor]] on the [[hom-category]].
+Note, however, that single-object symmetric bicategories are more expressive than [[symmetric monoidal categories]]: a symmetric bicategory with a single object, $Obj(B) \simeq \{\ast\}$, is a symmetric monoidal category if and only if the component functor of $t$ is the [[identity functor]] on the single [[hom-category]] $B(\ast,\ast)$.
 \end{remark}
 
 ## Examples
