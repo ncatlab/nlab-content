@@ -34,7 +34,7 @@ one observes that here:
 and that this is _only_ [[mathematical structure|structure]] on [[Sets]] that the definition of [[groups]] is making use of.
 Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mathcal{C}$ with [[finite products]] and declare that:
 
-* An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $e \colon \ast \to G$ and $M \colon G \times G \to G$ and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
+* An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $e \colon \ast \to G$ (i.e. out of the [[terminal object]]) and $M \colon G \times G \to G$ (i.e. out of the [[Cartesian product]]-object) and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
 
   * [[unitality]]
 
@@ -228,11 +228,12 @@ Moreover with discussion of [[action objects]]:
 
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], around p. 8 of: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
-Discussion of [[internal categories]] goes back to around
+Discussion of [[internal categories]] is often attributed to originate around (though the simple idea can hardly be recognized here):
 
 * [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
-and internal category theory ([[internal functors]], [[internal limits]], [[internal sites]]) is discussed in
+
+Basics of modern internal category theory ([[internal categories]], [[internal functors]], [[internal limits]], [[internal sites]]) is discussed (without any attribution as to its origins) in:
 
 * [MacLane-Moerdijk 92, Sec. V.7](#MacLaneMoerdijk92)
 
