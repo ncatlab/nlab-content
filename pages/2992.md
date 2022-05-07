@@ -26,25 +26,21 @@ A _rational number_ is a [[fraction]] of two [[integer]] [[numbers]].
 
 The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions]] of the [[commutative ring]] of [[integers]], $\mathbb{Z}$, hence the field consisting of formal [[fractions]] ("[[ratios]]") of [[integers]].
 
-### As a commutative ring
+### As a ring
 
-Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers. Then there exist [[commutative rings]] $R$ with injections $inj,inv:\mathbb{N}^+\to\R$ satisfying the following axioms:
+Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers. The positive integers are embedded into every [[ring]] $R$: there is an injection $inj:\mathbb{N}^+\to\R$ such that $inj(1) = 1$ and $inj(s(n)) = inj(n) + 1$ for all $n:\mathbb{N}^+$. 
 
-* $inj(1) = 1$
-* $inj(s(n)) = inj(n) + 1$ for all $n:\mathbb{N}^+$
-* $inj(n) \cdot inv(n) = 1$ for all $n:\mathbb{N}^+$. 
+Suppose $R$ has an injection $inv:\mathbb{N}^+\to\R$ such that $inj(n) \cdot inv(n) = 1$ and $\inv(n) \cdot \inj(n) = 1$ for all $n:\mathbb{N}^+$. Then $R$ is called a __[[associative unital algebra|$\mathbb{Q}$-algebra]]__, and the ring of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] $\mathbb{Q}$-algebra. 
 
-The first two axioms state that there is an embedding of the positive integers in $R$, amd the third axiom states that every positive integer has a multiplicative inverse. The commutative ring of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] such commutative ring, and general commutative rings satisfying the axioms above are called [[commutative algebra|commutative $\mathbb{Q}$-algebras]]. 
-
-It can then be proven from the commutative ring axioms that every rational number apart from zero has a multiplicative inverse, making $\mathbb{Q}$ a field.
+It can then be proven from the ring axioms and the properties of the integers that multiplication of rational numbers is commutative and every rational number apart from zero and has a multiplicative inverse, making $\mathbb{Q}$ a field.
 
 ### As an abelian group
 
 Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers and let $(\mathbb{Z},0,+,-,1)$ be the [[free abelian group]] on the set ${1}$.  
 
-Let $A$ be an [[abelian group]] containing $\mathbb{Z}$ as an abelian subgroup. The positive integers are embedded into $A \to A$; there is an injection $inj:\mathbb{N}^+\to (A \to A)$ such that $inj(1)(a) = a$ and $inj(s(n))(a) = inj(n)(a) + a$ for all $n:\mathbb{N}^+$ and $a:A$.
+Let $A$ be an [[abelian group]] containing $\mathbb{Z}$ as an abelian subgroup. The positive integers are embedded into the [[function algebra|function abelian group]] $A \to A$, with $id_A:A \to A$ being the [[identity function]] on $A$; i.e. there is an injection $inj:\mathbb{N}^+\to (A \to A)$ such that $inj(1) = id_A$ and $inj(s(n)) = inj(n) + id_A$ for all $n:\mathbb{N}^+$.
 
-Suppose $A$ has an injection $inv:\mathbb{N}^+\to (A \to A)$ such that for all $n:\mathbb{N}^+$, $inj(n) \circ inv(n) = id_A$ and $inv(n) \circ inj(n) = id_A$, with $id_A$ being the identity function on $A$. Then the abelian group of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] such abelian group. 
+Suppose $A$ has an injection $inv:\mathbb{N}^+\to (A \to A)$ such that for all $n:\mathbb{N}^+$, $inj(n) \circ inv(n) = id_A$ and $inv(n) \circ inj(n) = id_A$. Then the abelian group of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] such abelian group. 
 
 ## Properties
 
