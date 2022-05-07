@@ -62,6 +62,14 @@ $$ F: \mathbb{P} \to Vect_{k} $$
 
 with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ for $n$ sufficiently large.   The category of Schur functors is again a [[semisimple category|semisimple abelian category]] with a basis of objects given by irreducible [[representation|representations]] of [[symmetric groups]], so its Grothendieck ring is again $\Lambda$.   For more on this, see [[Schur functor]].
 
+\linebreak
+
+The classification described above of irreducible $S_n$-modules over $\mathbb{C}$ also works unchanged for any algebraically closed field $k$ of characteristic zero.  It also works when $k$ has characteristic $p$ and $n$ is not divisible by $p$.   There\'s an exercise at the end of section 6.1 of Serre\'s book (page 64 of the french edition) that says that if $k$ is a field of characteristic $p \gt 0$ then the group algebra of the group $G$ is semisimple iff $p$ doesn\'t divide the order of $G$.
+
+Apart from this, the field matters a lot.  There is a construction that gives all irreducible $k S_n$-modules for any field $k$, field, completely analogous to the Specht module construction over $\mathbb{C}$.  However, it describes each module as a quotient module of a Specht module, and in general not even the dimension of these irreducible modules is known, let alone an explicit basis, or representing matrices.
+
+
+
 ## Examples
 
 * In the context of [[universal characteristic classes]] of [[vector bundles]], the [[splitting principle]] identifies higher [[Chern classes]] with symmetric polynomials in copies of the [[first Chern class]].
@@ -76,30 +84,38 @@ with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ 
 
 ## References
 
-* [[Michiel Hazewinkel]], _[[Hazewinkel, Witt vectors|Witt vectors]]_, Part 1. [arXiv/0804.3888](http://arxiv.org/abs/0804.3888)
 
-The classification described above of irreducible $S_n$-modules over $\mathbb{C}$ also works unchanged for any algebraically closed field $k$ of characteristic zero.  It also works when $k$ has characteristic $p$ and $n$ is not divisible by $p$.   There\'s an exercise at the end of section 6.1 of Serre\'s book (page 64 of the french edition) that says that if $k$ is a field of characteristic $p \gt 0$ then the group algebra of the group $G$ is semisimple iff $p$ doesn\'t divide the order of $G$.
+Among the best books in the subject are:
 
-Apart from this, the field matters a lot.  There is a construction that gives all irreducible $k S_n$-modules for any field $k$, field, completely analogous to the Specht module construction over $\mathbb{C}$.  However, it describes each module as a quotient module of a Specht module, and in general not even the dimension of these irreducible modules is known, let alone an explicit basis, or representing matrices.
+* [[Gordon D. James]], *The Representation Theory of the Symmetric Groups*,  Lecture Notes in Mathematics, volume 682, Springer 1978 ([doi:10.1007/BFb0067708](https://link.springer.com/book/10.1007/BFb0067708), [pdf](http://www-users.math.umn.edu/~webb/oldteaching/Year2010-11/the-representation-theory-of-the-symmetric-groups-SLN.pdf))
 
-The following article surveys the subject in light of the connections to [[Hopf algebra]]s and also to  [[noncommutative symmetric function|noncommutative analogue]]:
-
-* [[Michiel Hazewinkel]], _Symmetric functions, noncommutative symmetric functions and quasisymmetric functions_, [pdf](http://oai.cwi.nl/oai/asset/10344/10344B.pdf)
-
-Among the best books in the subject are 
-
-* Gordon D. James, _The representation theory of the symmetric groups_, Lecture Notes in Mathematics **682**, Springer, Berlin, 1978.
 * Gordon James, Adalbert Kerber, _The representation theory of the symmetric group_, With a foreword by P. M. Cohn. With an intr. by G. de B. Robinson. Enc. of Math. and its Appl. __16__, Addison-Wesley 1981. xxviii+510 pp. 
 
 James also has a readable survey article that outlines developments in the '80's and '90's: 
 
 * Gordon D. James, Symmetric groups and Schur algebras, in _Algebraic Groups and their Representations_, eds. R. W. Carter and J. Saxl, Kluwer Acad. Publ. Netherlands 1998.
 
+Other textbooks:
+
+* {#Macdonald95} [[Ian G. Macdonald]], _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995 ([ISBN:9780198739128](https://global.oup.com/academic/product/symmetric-functions-and-hall-polynomials-9780198739128?cc=ae&lang=en&))
+
+* {#Stanley99} [[Richard Stanley]], Section 7 of: *Enumerative combinatorics 2*, Cambridge University Press (1999, 2010) ([doi:10.1017/CBO9780511609589](https://doi.org/10.1017/CBO9780511609589), [webpage](http://www-math.mit.edu/~rstan/ec/))
+
 Another approach is described here:
 
 * Alexander Kleshchev, _Linear and Projective Representations of Symmetric Groups_, Cambridge University Press, Cambridge 2009.
 
 One can study symmetric functions in any characteristic, or over any integral domain.  The power sum symmetric functions do not generate the ring of symmetric functions over $\mathbb{Z}$, and this difference matters. They appear to be of limited usefulness in the description of the modular irreducible representations of $S_n$.
+
+The following article surveys the subject in light of the connections to [[Hopf algebras]] and also to  [[noncommutative symmetric function|noncommutative analogue]]:
+
+* [[Michiel Hazewinkel]], _Symmetric functions, noncommutative symmetric functions and quasisymmetric functions_, [pdf](http://oai.cwi.nl/oai/asset/10344/10344B.pdf)
+
+
+See also
+
+* [[Michiel Hazewinkel]], _[[Hazewinkel, Witt vectors|Witt vectors]]_, Part 1. [arXiv/0804.3888](http://arxiv.org/abs/0804.3888)
+
 
 
 [[!redirects symmetric function]]
