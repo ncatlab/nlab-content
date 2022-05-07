@@ -15,6 +15,8 @@ On [[Lie algebra cohomology]] of [[super Lie algebras]] (see also the [[Green-Sc
 
 * [[Roberto Catenacci]], [[C. A. Cremonini]], [[Pietro Antonio Grassi]], [[Simone Noja]], _Cohomology of Lie Superalgebras: Forms, Integral Forms and Coset Superspaces_ ([arXiv:2012.05246](https://arxiv.org/abs/2012.05246))
 
+* [[C. A. Cremonini]], [[Pietro Antonio Grassi]], *Cohomology of Lie Superalgebras: Forms, Pseudoforms, and Integral Forms* ([arXiv:2106.11786](https://arxiv.org/abs/2106.11786))
+
 On [[self-dual field theory]] via [[supergeometry]]:
 
 * [[C. A. Cremonini]], [[Pietro Grassi]], _Self-Dual Forms in Supergeometry I: The Chiral Boson_ ([arXiv:2012.10243](https://arxiv.org/abs/2012.10243))
