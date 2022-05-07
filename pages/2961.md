@@ -3,7 +3,7 @@ This page collects links related to the book
 
 * [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]]:
 
-  **Abstract and Concrete Categories: The Joy of Cats**
+  **Abstract and Concrete Categories -- The Joy of Cats**
 
   John Wiley and Sons, New York (1990)
 
@@ -31,7 +31,9 @@ Beware that the book uses the term "quasicategory" for what  _[[Categories for t
 
 category: reference
 
-[[!redirects Joy of Cats]]
-[[!redirects Abstract and Concrete Categories]]
 [[!redirects Abstract and Concrete Categories: The Joy of Cats]]
 [[!redirects Abstract and Concrete Categories -- The Joy of Cats]]
+
+[[!redirects Joy of Cats]]
+[[!redirects The Joy of Cats]]
+
