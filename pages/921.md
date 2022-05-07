@@ -68,7 +68,19 @@ We can generalise this to any [[Cauchy sequence]] of rational numbers, and $\mat
 
 This construction is equivalent to the construction by Dedekind cuts, at least assuming [[weak countable choice]] (which also follows from [[excluded middle]]).  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]] (which accepts [[countable choice]]).  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.  (On the other hand, by generalising to Cauchy [[nets]], we recover the Dedekind reals again.)
 
-See [[Cauchy real number]] for more.
+See [[Cauchy real number]] and [[generalized Cauchy real number]] for more.
+
+### The initial sequentially Cauchy complete archimedean field
+
+There is a well-known algebraic (more or less) characterisation of the real line as the 'initial sequentially Cauchy complete archimedean field'.  This can be interpreted as follows:
+
+*  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
+*  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
+*  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
+*  An archimedean field is __[[sequentially Cauchy complete]]__ if all [[Cauchy sequences]] in the field [[converge]].
+*  A sequentially Cauchy complete archimedean field is __initial__ if it is an [[initial object]] in the category of sequentially Cauchy complete archimedean fields.
+
+The initial sequentially Cauchy complete ordered field results in the [[HoTT book real numbers]]. 
 
 ### The Dedekind complete ordered field
 
@@ -77,8 +89,7 @@ There is a well-known algebraic (more or less) characterisation of the real line
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
-*  An ordered field is __complete__ if it is [[Dedekind completion|Dedekind-complete]].
-*  Alternatively, an archimedean field is __complete__ if it is [[terminal object|terminal]] in the category of archimedean fields.
+*  An ordered field is __Dedekind complete__ if it is [[Dedekind completion|Dedekind-complete]].
 
 We speak of [[the]] such field because it is unique up to unique [[isomorphism]].
 
@@ -96,17 +107,27 @@ Construct $\mathbb{R}$ using, say, Dedekind cuts of rational numbers.  Then it i
 
 However, we note that the proof is valid in weak [[foundations]], in particular internal to any [[topos]] with a [[natural numbers object]].  One can actually work in even weaker foundations than that; see the constructions at [[real numbers object]].  Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]].
 
-### The initial sequentially Cauchy complete archimedean field
+### The Cauchy complete ordered field
 
-There is a well-known algebraic (more or less) characterisation of the real line as the 'initial sequentially Cauchy complete archimedean field'.  This can be interpreted as follows:
+There is a well-known algebraic (more or less) characterisation of the real line as the 'Cauchy complete ordered field', or sometimes the 'Cauchy complete archimedean field'.  This can be interpreted as follows:
 
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
-*  An archimedean field is __sequentially Cauchy complete__ if all [[Cauchy sequences]] in the field [[converge]].
-*  An sequentially Cauchy complete archimedean field is __initial__ if it is an [[initial object]] in the category of sequentially Cauchy complete archimedean fields.
+*  An ordered field is __[[complete space|Cauchy complete]]__ if every [[Cauchy net]] in the field [[converges]].
 
-The initial sequentially Cauchy complete ordered field results in the [[HoTT book real numbers]]. 
+We speak of [[the]] such field because it is unique up to unique [[isomorphism]].
+
+### The terminal archimedean field
+
+There is a well-known algebraic (more or less) characterisation of the real line as the 'terminal archimedean field'.  This can be interpreted as follows:
+
+*  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
+*  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
+*  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
+*  An archimedean field is __terminal__ if it is a [[terminal object]] in the category of archimedean fields.
+
+We speak of [[the]] such field because it is unique up to unique [[isomorphism]].
 
 ### As an archimedean group
 
