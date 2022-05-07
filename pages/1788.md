@@ -1,4 +1,6 @@
 
+$\notin$
+
 $\exists$
 
 $\to$
