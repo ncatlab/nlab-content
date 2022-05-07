@@ -68,6 +68,14 @@ The category $\mathbf{Cof}$ of small categories and cofunctors has an [[orthogon
 See ([Garner 2019, Proposition 5](#Garner19))
 \end{proof}
 
+\begin{proposition}
+Let $\mathbf{Poly}(1, 1)$ be the monoidal category arising from the [[polynomial functor|bicategory of polynomials]] on the singleton set. 
+Then $\mathbf{Cof}$ is isomorphic to the category of comonoids in $\mathbf{Poly}(1, 1)$.
+\end{proposition}
+\begin{proof}
+Originally proven in ([Ahman-Uustalu 2016](#AhmanUustalu16)). See ([Spivak-Niu 2021, Theorem 6.26](#SpivakNiu21)) for details. 
+\end{proof}
+
 ## Examples ##
 
 * Every [[function]] $A \to B$ yields a cofunctor $disc(A) \nrightarrow disc(B)$ between [[discrete category|discrete categories]]. This defines a fully faithful functor $\mathbf{Set} \to \mathbf{Cof}$. 
@@ -115,3 +123,7 @@ Cofunctors between [[groupoid|groupoids]] and the link with [[inner automorphism
 The notion of cofunctor between partite [[internal category|internal categories]] is introduced in Definition 5.5 of the paper: 
 
 * {#CockettGarner20} [[Robin Cockett]], [[Richard Garner]], _Generalising the étale groupoid--complete pseudogroup correspondence_, preprint, 2020 ([arXiv:2004.09699](https://arxiv.org/abs/2004.09699))
+
+A detailed account of the relationship between cofunctors and polynomials appears in Chapter 6 of the draft textbook: 
+
+* {#SpivakNiu21} [[David Spivak]], Nelson Niu, _Polynomial Functors: A General Theory of Interaction_, 2021 ([pdf](https://topos.site/poly-book.pdf))
