@@ -33,6 +33,8 @@ This is equivalently the [[category of sheaves]] ([[Set]]-valued [[presheaves]] 
 
 =--
 
+See at *[[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]* for discussion of this characterization.
+
 Since smallness can be relative, we also have:
 
 +-- {: .num_defn}
