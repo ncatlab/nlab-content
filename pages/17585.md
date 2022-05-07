@@ -63,7 +63,7 @@ This is due to ([Vigu&#233;-Sullivan 76](#VigueSullivan76)). Review includes ([F
 +-- {: .num_remark}
 ###### Remark
 
-The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is the same as that for the [[Weil algebra]] of the [[L-infinity algebra]] of wich $(\wedge^\bullet V,d_X)$ is the [[Chevalley-Eilenberg algebra]], except that here $s$ shifts _down_ whereas for the Weil algebra it shifts _up_.
+The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is akin to that that for the [[Weil algebra]] of the [[L-infinity algebra|$L_\infty$-algebra]] of which $(\wedge^\bullet V,d_X)$ is the [[Chevalley-Eilenberg algebra]], except that here $s$ shifts _down_, whereas for the Weil algebra it shifts _up_.
 
 =--
 
@@ -109,7 +109,7 @@ is the dgc-algebra obtained from $(\wedge\bullet V, d_X)$ by shifting down all g
 ## Properties
 
 
-### Homotopy quotient by $S^1$ and cyclic homology
+### Homotopy quotient by $S^1$
 
 
 +-- {: .num_prop #ModelForS1quotient}
@@ -160,7 +160,7 @@ which exhibits the [[infinity-action]] (by the discussion there) of $S^1$ on $\m
 
 This is due to ([Vigu&#233;-Burghelea 85, theorem A](#VigueBurghelea85)).
 
-### Relation to Hochschild homology and cyclic homology
+### Relation to Hochschild- and cyclic-homology
   {#RelationToHochschildHomology}
 
 Let $X$ be a [[simply connected topological space|simply connected]] [[topological space]]. 
@@ -211,7 +211,7 @@ An [[(infinity,1)-category theory|infinity-category theoretic]] proof of this fa
 
 ## Examples
 
-### Free loop space of the 4-sphere and twisted de Rham cohomology
+### Free loop space of the 4-sphere 
  {#4SphereAndTwistedDeRham}
 
 We discuss the Sullivan model for the free and cyclic loop space of the [[4-sphere]]. This may also be thought of as the [[cocycle space]] for [[rational Cohomotopy|rational 4-Cohomotopy]], see [FSS16, Section 3](#FiorenzaSatiSchreiber16).
@@ -261,7 +261,8 @@ $$
 
 with 
 
-$$
+\[
+  \label{CERelationsForCyclicLoopSpaceOfS4}
   \begin{aligned}
     d_{\mathcal{L}S^4 \sslash S^1} h_3 & = 0
     \\
@@ -274,9 +275,28 @@ $$
     d_{\mathcal{L}S^4 \sslash S^1} h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4 + \omega_2 \wedge \omega_6
   \end{aligned}
   \,.
-$$
+\]
 
 =--
+
+\begin{remark}\label{RelationOfCycS4ToTwistedDeRhamCohomology}
+  **(relation to [[twisted de Rham cohomology]])** \linebreak
+  The equations (eq:CERelationsForCyclicLoopSpaceOfS4) imply that [[dg-algebra]] [[homomorphisms]] of the form
+  $$
+    CE
+    \Big(
+      \mathfrak{l}
+      \big(
+        (\mathcal{L}S^4) \sslash S^1
+      \big)
+    \Big)
+    \xrightarrow{\;\;AA\;\;}
+    \Omega^\bullet_{dR}(X^f)
+  $$
+  into the [[de Rham dg-algebra]] of a [[smooth manifold]] $X^f$ of [[dimension of a manifold|dimension]] $\leq 7$ are equivalently [[cocycles]] in the degree-3 [[twisted de Rham complex]] of $X^7$ (together with any 7-form, if $dim = 7$), for 3-twist given by the image of the general $h_3$. 
+
+This suggests a relation between the cyclification of $S^4$ to the [[twisted Chern character]] on [[twisted K-theory]] (a relation further explored in [[schreiber:Gauge enhancement of Super M-Branes|BMSS 2019]]).
+\end{remark}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -461,7 +481,7 @@ $$
 and prop. \ref{ModelForS1quotient} gives for the rationalization of $\mathcal{L}S^2 \sslash S^1$ the model
 
 $$
-  ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, \omega^C_2 h_1, h_3 , d_{\mathcal{L}S^2 \sslash S^1} ) 
+  ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, \omega^C_2, h_1, h_3 , d_{\mathcal{L}S^2 \sslash S^1} ) 
 $$
 
 with 
