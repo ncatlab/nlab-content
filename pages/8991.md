@@ -15,9 +15,9 @@
 
 ## Idea
 
-A _[[modal hyperdoctrine]]_ is a framework for [[modal logic]] in the presence of different [[contexts]].
+A **modal hyperdoctrine** is a framework for [[modal logic]] in the presence of different [[contexts]].
 
-A _[[modal hyperdoctrine]]_ is a [[hyperdoctrine]] that is equipped with a compatible [[modal operator]], often a compatible [[closure operator]], hence a [[universal closure operator]]. 
+It is an [[hyperdoctrine]] that is equipped with a compatible [[modal operator]], often a compatible [[closure operator]], hence a [[universal closure operator]]. 
 
 ## Related concepts
 
@@ -31,7 +31,7 @@ Around p. 597 of
 
 p. 43 of 
 
-* M. Kracht, O. Kutz, 'Logically Possible Worlds and Counterpart Semantics for Modal Logic', ([pdf](http://www.informatik.uni-bremen.de/~okutz/counterparts_handbook.pdf))
+* M. Kracht, O. Kutz, _Logically Possible Worlds and Counterpart Semantics for Modal Logic_, ([pdf](https://www.semanticscholar.org/paper/Logically-Possible-Worlds-and-Counterpart-Semantics-Kracht-Kutz/12295c55f5da4d69229d2b7a02f0376d8520ce6e))
 
 
 [[!redirects modal hyperdoctrines]]
