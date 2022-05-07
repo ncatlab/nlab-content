@@ -15,6 +15,10 @@ Introducing the notion of [[absolute neighbourhood retracts]]:
 
 * {#Borsuk32} [[Karol Borsuk]], _Über eine Klasse von lokal zusammenhängenden Räumen_, Fund. Math. **19** (1932) 220-242 ([dml:212574](https://eudml.org/doc/212574), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm19/fm19119.pdf))
 
+On the [[nerve theorem]]:
+
+* {#Borsuk48} [[Karol Borsuk]], _On the imbedding of systems of compacta in simplicial complexes_ , Fund. Math. 35, (1948) 217&#8211;234 ([dml:213158](https://eudml.org/doc/213158))
+
 More on [[absolute neighbourhood retracts]]:
 
 * [[Karol Borsuk]], _Concerning the classification of topological spaces from the stand point of the theory of retracts_, Fundamenta Mathematicae **46** (3) (1959) 321-330 ([dml:213516](https://eudml.org/doc/213516))
