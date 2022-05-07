@@ -36,6 +36,8 @@ Let $\mathcal{S}$ be a set of [[subgroups]] of a [[group]] $G$. The following ar
 
 * The [[orbit category]] $\mathcal{O}_{\mathcal{S}}$ associated to $\mathcal{S}$ in which the objects are the [[coset spaces]] $G/H$ where $H \in S$ and the morphisms are the $G$-[[equivariant functions]].
 
+* {#FundamentalCategoryOfAGSpace} More generally: the [fundamental category of a $G$-space](orbit category#FundamentalCategoryOfAGSpace) is an EI-category.
+
 * The *Frobenius category*  $\mathcal{F}_{\mathcal{S}}$ has the elements of $\mathcal{S}$ as its objects, and $Hom_{\mathcal{F}_{\mathcal{S}}} = N_G(H,K)/C_G(H)$. The morphisms may be identified with the set of group homomorphisms $H \to K$ which are of the form 'conjugation by $g$' for some $g \in G$.
 
 ## Properties
