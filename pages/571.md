@@ -150,7 +150,7 @@ is a monomorphism.
 The converse of the above proposition fails, and a mononomorphism that is the equalizer of some pair of morphisms is called a [[regular monomorphism]].
 
 
-+-- {: .num_prop}
++-- {: .num_prop #MonomorphismsArePreservedByPullback}
 ###### Proposition
 
 Monomorphisms are preserved by [[pullback]].
