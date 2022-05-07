@@ -49,7 +49,8 @@ The category of [[fields]] has a multi-initial object, i.e. the functor $Fld \to
 
 * [[Axel Osmond]], _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.00853))
 
-* [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.02167))
+* [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
 
 [[!redirects left multi-adjoint]]
 [[!redirects right multi-adjoint]]
+[[!redirects multi-adjoints]]
