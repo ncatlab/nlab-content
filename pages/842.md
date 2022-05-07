@@ -652,10 +652,8 @@ See [[Higher Topos Theory|HTT, section 4.4.4]].
 
 We discuss models for $(\infty,1)$-(co)limits in terms of ordinary [[category theory]] and [[homotopy theory]].
 
-+-- {: .num_lemma}
-###### Observation
 
-
+\begin{lemma}
 If $C$ is [[presentable (infinity,1)-category|presented]] by a [[simplicial model category]] $A$, in that $C \simeq A^\circ$, then the 
 $(\infty,1)$-tensoring and $(\infty,1)$-cotensoring of $C$ over [[∞Grpd]]
 is modeled by the ordinary [[copower|tensoring]] and [[power|powering]]
@@ -668,9 +666,7 @@ $$
   \,.
 $$
 
-
-=--
-
+\end{lemma}
 
 +-- {: .proof}
 ###### Proof
