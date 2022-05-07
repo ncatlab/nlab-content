@@ -260,6 +260,9 @@ Textbook accounts:
 
 Review and introduction:
 
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Section 7.7 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
+
 * Ben Gripaios, _Lectures: From quantum mechanics to the Standard Model_ ([arXiv:2005.06355](https://arxiv.org/abs/2005.06355))
 
 
