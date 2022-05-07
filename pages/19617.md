@@ -13,7 +13,7 @@ My main research interest lies in the global geometric structures underlying the
 
 ## Links
 
-* [Academic webpage](https://bit.ly/39OULO9)
+* [Academic webpage](https://go.herts.ac.uk/luigi_alfonsi)
 
 * [InSpire-Hep page](https://inspirehep.net/authors/1776881)
 
