@@ -119,9 +119,13 @@ The mathematics of inclusions of _subfactors_ is giving deep structural insights
 * [[Vaughan Jones]], [[Scott Morrison]], [[Noah Snyder]], _The classification of subfactors of index at most 5_ ([arXiv:1304.6141](http://arxiv.org/abs/1304.6141))
 * Vaughan F. R. Jones, David Penneys, _Infinite index subfactors and the GICAR categories_, [arxiv/1410.0856](http://arxiv.org/abs/1410.0856)
 
+Symmetries of depth two inclusions of subfactors may be described via associative [[bialgebroid]]s,
+
+* Lars Kadison, Kornél Szlachányi, _Bialgebroid actions on depth two extensions and duality_, Adv. Math. __179__:1 (2003) 75-121 <a href="https://doi.org/10.1016/S0001-8708(02)00028-2">doi</a>
+
 ### Relation to quantum field theory
 
-* [[Jakob Yngvason]], _The Role of Type III Factors in Quantum Field Theory_ ([arXiv:math-ph/0411058](https://arxiv.org/abs/math-ph/0411058))
+* [[Jakob Yngvason]], _The role of type III factors in quantum field theory_ ([arXiv:math-ph/0411058](https://arxiv.org/abs/math-ph/0411058))
 
 
 [[!redirects von Neumann algebra factors]]
