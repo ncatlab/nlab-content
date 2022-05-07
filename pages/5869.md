@@ -1,5 +1,7 @@
 
 
+> Some overlap with [[PU(ℋ)]]. Needs to be disentangled.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -25,7 +27,7 @@
 For $\mathcal{H}$ a [[Hilbert space]], the _projective unitary group_ $P U(\mathcal{H})$ is the [[quotient]] of the [[unitary group]] $U(\mathcal{H})$ by its [[center]] $Z U(\mathcal{H}) \simeq U(1)$, the [[circle group]]
 
 $$
- P U(\mathcal{H}) := U(\mathcal{H})/U(1)
+ P U(\mathcal{H}) \coloneqq U(\mathcal{H})/U(1)
   \,.
 $$
 
