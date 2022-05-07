@@ -109,9 +109,13 @@ Meanwhile, the type theory and its categorical semantics for _full_ linear logic
 
 See also [Schalk 04](#Schalk04), [Melli&#232;s 09](#Mellies09). Schalk and Melli&#232;s have also worked on game-theoretic semantics of theories of linear type -- which itself has a long and intricate history. 
 
-Finally, in addition to these usual "denotational" categorical semantica, linear logic also has an "operational" categorical semantics, called the Geometry of Interaction, in traced monoidal categories. 
+Finally, in addition to these usual "denotational" categorical semantics, linear logic also has an "operational" categorical semantics, called the Geometry of Interaction, in traced monoidal categories. 
 
 ## Related concepts
+
+* [[dependent linear type theory]]
+
+* [[quantum logic]], [[quantum programming]]
 
 * [[propositions as projections]]
 
