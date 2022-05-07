@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,6 +51,15 @@ A **sylleptic $\infty$-group** is an [[∞-group]] $G$ equipped with the followi
 * [[abelian ∞-group]]
 
   * [[symmetric 2-group]]
+
+## References
+
+On [[sylleptic 3-groups]]:
+
+* [[Nick Gurski]], [[Angélica M. Osorno]], Section 2.2 of *Infinite loop spaces, and coherence for symmetric monoidal bicategories*, Adv. Math. 246 (2013) 1-32 ([arXiv:1210.1174](https://arxiv.org/abs/1210.1174))
+
+
+
 
 [[!redirects sylleptic ∞-groups]]
 
