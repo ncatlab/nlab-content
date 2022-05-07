@@ -16,11 +16,15 @@ On dg-algebraic models for [[rational parameterized stable homotopy theory]]:
 
   [pdf](https://ncatlab.org/schreiber/files/VBM_RPSHT.pdf)
 
-* [[Vincent Braunack-Mayer]] 
+* [[Vincent Braunack-Mayer]],
 
-  _Strict algebraic models for rational parametrised spectra I_ 
+  **Strict algebraic models for rational parametrised spectra I**
 
-  [arXiv:1910.14608](https://arxiv.org/abs/1910.14608)
+  Algebraic & Geometric Topology 21 (2021) 917–1019 
+
+  [arXiv:1910.14608](https://arxiv.org/abs/1910.14608) 
+ 
+  [doi:10.2140/agt.2021.21.917](https://doi.org/10.2140/agt.2021.21.917)
 
 On [[combinatorial model category]] [[presentable (infinity,1)-category|presentations]] of [[tangent (∞,1)-toposes]]:
 
