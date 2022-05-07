@@ -87,18 +87,9 @@ If we wish $Heap$ to be an [[algebraic category]], then we must remove the claus
 
 However, in this case, the various theorems relating heaps to groups above all break down.  For this reason, one usually requires a heap to be inhabited.
 
-On the other hand, we could generalize the notion of [[group]] to allow for an empty group.  This even remains a purely algebraic notion: we can define a group as a (traditionally inhabited) [[semigroup]] $S$, with the semigroup operation denoted by [[concatenation]], equipped with a unary operation $a \mapsto a^{-1}$ satisfying the following laws: 
+On the other hand, we could generalize the notion of [[group]] to allow for an empty group.  This even remains a purely algebraic notion: we can define a group as an [[inhabited]] [[invertible magma|invertible]] [[semigroup]] $(S,\cdot,(-)^{-1})$. Then any [[invertible semigroup]] is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism invertible semigroup (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of inverse semigroups equipped with torsors over the point; etc.
 
-* $a a^{-1} = a^{-1} a$, 
-* $a a^{-1} b = b$,
-* $b a^{-1} a = b$ 
-
-for all elements $a$ and $b$ in $S$.
-
-Then any [[possibly empty group]] is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism possibly-empty-group (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of possibly-empty-groups equipped with torsors over the point; etc.
-
-This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by treating the empty and inhabited cases separately. (This rather trivial method is obvious to a classical mathematician, but it\'s not constructively valid, since a possibly-empty-group/heap as defined here can\'t be constructively proved empty or inhabited; it can only be proved empty iff not inhabited.  Indeed, taking any group $G$ and any [[truth value]] $P$, the possibly-empty-subgroup $\{x \in G \;|\; P\}$ is empty or inhabited iff $P$ is false or true.)
-
+This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by treating the empty and inhabited cases separately. (This rather trivial method is obvious to a classical mathematician, but it\'s not constructively valid, since a invertible semigrouo/heap as defined here can\'t be constructively proved empty or inhabited; it can only be proved empty iff not inhabited.  Indeed, taking any group $G$ and any [[truth value]] $P$, the invertible subsemigroup $\{x \in G \;|\; P\}$ is empty or inhabited iff $P$ is false or true.)
 
 ## References and remarks
 
