@@ -66,4 +66,10 @@ $Prof$ is a [[locally cocomplete bicategory]].
 
 * [[(∞,n)Cat]]
 
+## References
+
+
+* [[Maren Justesen]], *Bikategorien af Profunktorer*, Aarhus 1968 ([pdf](https://ncatlab.org/nlab/files/Justesen_Profunktoren.pdf))
+
+
 category: category
