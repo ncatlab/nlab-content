@@ -56,7 +56,7 @@ Write
 ###### Remark
 **(local presentation of combinatorial model categories)**
 
-By [[Dugger's theorem]], we may choose for every $\mathcal{C} \in CombModCat$ a [[simplicial set]] $\mathcal{S}$ and a [[Quillen equivalence]]
+By [[Dugger's theorem]], we may choose for every $\mathcal{C} \in CombModCat$ an [[sSet-category]] $\mathcal{S}$ and a [[Quillen equivalence]]
 
 $$
   \mathcal{C}^p
@@ -184,4 +184,5 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 ## References
 
-* {#Renaudin06} [[Olivier Renaudin]], _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_ ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339))
+* {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
+([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
