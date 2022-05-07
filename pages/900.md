@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 =--
 =--
 
@@ -23,30 +27,307 @@ The category of pro-objects of $C$ is written $pro$-$C$. Such a category is some
 
 The definition of arrows in the category of pro-objects in $\mathcal{C}$ is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
-\section{Details} 
+## Definition
 
-\begin{defn} A _pro-object_ in a category $\mathcal{C}$ is a [[functor]] $F: \mathcal{D} \rightarrow \mathcal{C}$ for some [[small category|small]] [[cofiltered category|cofiltered]] category $\mathcal{D}$. \end{defn}
- 
-Pro-objects in a category $\mathcal{C}$ assemble into a category as follows.
+### As formal cofiltered limits
+  {#AsFormalCofilteredLimits}
 
-\begin{defn} \label{DefinitionCategoryOfProObjects} Let $\mathcal{C}$ be a category. The _category of pro-objects in $\mathcal{C}$_ is the category defined as follows.
-
-1. The objects are pro-objects in $\mathcal{C}$.
-1. The set of arrows from a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ to a pro-object $G: \mathcal{E} \rightarrow \mathcal{C}$ is the limit of the functor $\mathcal{D}^{op} \times \mathcal{E} \rightarrow  \mathsf{Set}$ given by $Hom_{\mathcal{C}}\left(F(-), G(-)\right)$.
-1. Composition of arrows arises, given pro-objects $F: \mathcal{D}_{0} \rightarrow \mathcal{C}$, $G: \mathcal{D}_{1} \rightarrow \mathcal{C}$, and $H: \mathcal{D}_{2} \rightarrow \mathcal{C}$ of $\mathcal{C}$, by applying the limit functor for diagrams $\mathcal{D}^{op} \times \mathcal{E} \rightarrow \mathsf{Set}$ to the natural transformation of functors $Hom_{\mathcal{C}}\left(F(-), G(-)\right) \times Hom_{\mathcal{C}}\left(G(-), H(-)\right) \rightarrow Hom_{\mathcal{C}}\left( F(-), H(-) \right)$ given by composition in $\mathcal{C}$. 
-1. The identity arrow on a pro-object $F: \mathcal{D} \rightarrow \mathcal{C}$ arises, using the universal property of a limit, from the identity arrow $Hom_{\mathcal{C}}\left(F(c), F(c)\right)$ for every object $c$ of $C$.
-
-That the associativity and identity axioms hold follows immediately from the fact that they hold in $\mathcal{C}$. \end{defn}
-
-\begin{notn} We denote the category of Definition \ref{DefinitionCategoryOfProObjects} by pro-$\mathcal{C}$. \end{notn}
-
-\begin{rmk} For brevity, we sometimes write the [[hom set]] between $F: \mathcal{D} \to \mathcal{C}$ and $G: \mathcal{E} \to \mathcal{C}$ as 
+Let $\mathcal{C}$ be a [[small category]]. We write
 
 \[
-  \underset{e \in Ob(\mathcal{E})}{lim}\, \underset{d\in Ob(\mathcal{D})}{colim} \mathcal{C}(F d, G e),
+  \label{YonedaEmbedding}
+  \mathcal{C}^{op} 
+  \xhookrightarrow{\;\;\; y \;\;\;}
+  Func(\mathcal{C}, Sets)
 \]
 
-where the [[limit]] and [[colimit]] is taken in the category [[Set]] of sets. \end{rmk}
+for the [[Yoneda embedding]] of its [[opposite category]], which we will often regard through its [[opposite functor]]
+
+\[
+  \label{OppositeYonedaEmbedding}
+  \mathcal{C}
+  \xhookrightarrow{\;\;\; y^{op} \;\;\;}
+  Func(\mathcal{C}, Sets)^{op} 
+  \,.
+\]
+
+This is still a [[full subcategory]]-inclusion, now of $\mathcal{C}$ itself.
+
+\begin{definition}\label{CategoryOfProObjects}
+**(category of pro-objects)** \linebreak
+
+The *category of pro-objects of $\mathcal{C}$*, according to [Grothendieck 1960, Section 2](#Grothendieck1960), is the [[full subcategory]] of the [[functor category]] $Func(\mathcal{C}, Sets)^{op}$ (eq:OppositeYonedaEmbedding)
+
+\[
+  \label{ProCAsFullSubcategoryOfOppositeOfCategoryOfPresheaves}
+  Pro(\mathcal{C})
+  \xhookrightarrow{\;\;}
+  Func(\mathcal{C}, Sets)^{op}   
+\]
+
+on those functors which are [[cofiltered limits]] of [[representable functors]] under the opposite Yoneda embedding (eq:OppositeYonedaEmbedding), hence of the form
+
+\[
+  \label{FilteredLimitOfRepresentablesInOppositeOfPresheafCategory}
+  \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{\lim}  
+  y^{op}(X_i)
+  \;\;
+  \coloneqq
+  \;\;
+  \underset{\longleftarrow}{\lim}
+  \big(
+    \mathcal{I}
+    \xrightarrow{\;X_\bullet\;}
+    \mathcal{C}
+    \xrightarrow{\;y^{op}\;}
+    Func(\mathcal{C}, Sets)^{op}
+  \big)
+  \,,
+\]
+
+for $\mathcal{I}$ a [[cofiltered category]]. These objects of $Pro(\mathcal{C})$ are also called the *pro-objects of $\mathcal{C}$*.
+\end{definition}
+
+\begin{remark}
+Since $Func(\mathcal{C}, Sets)^{op}$ (eq:OppositeYonedaEmbedding) is the [[free completion]] of $\mathcal{C}$, we may think of $Pro(\mathcal{C})$ (Def. \ref{CategoryOfProObjects}) as the *free completion of $\mathcal{C}$ under [[cofiltered limits]].* See also at *[[pro-representable functor]]*.
+\end{remark}
+
+\begin{remark}\label{BetweenFilteredLimitsAndFilteredColimits}
+Under the identification of the [[objects]] of a category with those of its [[opposite category]], the  pro-objects (eq:FilteredLimitOfRepresentablesInOppositeOfPresheafCategory) are equivalently [[filtered colimits]] of [[presheaves]]:
+
+$$
+  \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{\lim}  
+  y^{op}(X_i)
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+  y(X^{op}_i)
+  \;\;
+  \coloneqq
+  \;\;
+  \underset{\longrightarrow}{\lim}
+  \big(
+    \mathcal{I}^{op}
+    \xrightarrow{\;X^{op}_\bullet\;}
+    \mathcal{C}^{op}
+    \xrightarrow{\;y\;}
+    Func(\mathcal{C}, Sets)
+  \big)
+  \,,
+$$
+
+since [[generalized the|the]] [[limit]] of a [[functor]] is the [[colimit]] of its [[opposite functor]].
+
+\end{remark}
+
+\begin{remark}\label{ProObjectAsFormalDualOfIndObject}
+The category $Pro(\mathcal{C})$ is the [[opposite category]] of that of [[ind-objects]] in the opposite catgegory of $\mathcal{C}$ (e.g. [Kashiwara-Schapira 06, p. 138](#KashiwaraSchapira06)):
+$
+  Pro(\mathcal{C})
+    \simeq
+  (Ind(\mathcal{C}^{op}))^{op}
+  \,.
+$
+
+\end{remark}
+
+
+\begin{lemma}\label{ProObjectsAsFunctors}
+  The pro-objects regarded as functors (eq:FilteredLimitOfRepresentablesInOppositeOfPresheafCategory)
+  are objectwise on $c \in \mathcal{C}$ given by 
+  $$
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+    y^{op}(X_i)  
+    \;\;
+    \colon
+    \;\;
+    c 
+    \;\mapsto\;
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+    \mathcal{C}(X_i, c)
+    \,.
+  $$
+
+\end{lemma}
+\begin{proof}
+This is the composite of the following sequence of [[natural bijections]]:
+$$
+  \begin{aligned}
+  \Big(
+  \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{\lim}  
+  y^{op}(X_i)  
+  \Big)
+  (c) 
+  &
+  \;\simeq\;
+  \Big(
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+  y(X^{op}_i)  
+  \Big)
+  (c) 
+  \\
+  &
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+  \Big(
+    \big(y(X^{op}_i)\big)
+    (c)
+  \Big)
+  \\
+  &
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+  \;
+  Func(\mathcal{C},Sets)
+  \big(
+    y(c), \, y(X_i)
+  \big)
+  \\
+  &
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+  \mathcal{C}^{op}(c, X_i)
+  \\
+  &
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+  \mathcal{C}(X_i, c)
+  \mathrlap{\,,}
+  \end{aligned}
+$$
+where
+
+* the first step is Remark \ref{BetweenFilteredLimitsAndFilteredColimits};
+
+* the second step uses that [[colimits of presheaves are computed objectwise]];
+
+* the third step is the [[Yoneda lemma]];
+
+* the fourth step is the [[Yoneda embedding]] (eq:YonedaEmbedding);
+
+* the fifth step is the definition of the [[opposite category]].
+
+\end{proof}
+
+\begin{lemma}\label{HomSetsOfProObjectsAsLimitsOfColimitsOfHomoSetsInC}
+**([[hom-sets]] between [[pro-objects]] as limits of colimits of hom-sets in $\mathcal{C}$)** \linebreak
+The [[hom-sets]] in $Pro(\mathcal{C})$ (Def. \ref{CategoryOfProObjects})
+are in [[natural bijection]] with [[limits]] of [[colimits]] of [[hom-sets]] in $\mathcal{C}$, as follows:
+
+$$
+  Pro(\mathcal{C})
+  \Big(
+    \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{lim}
+    y^{op}(X_i),
+    \,
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{lim}
+    y^{op}(Y_j),    
+  \Big)
+  \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{lim}
+  \Big(
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim}
+    \mathcal{C}
+    \big(
+      X_i,
+      \,
+      Y_j
+    \big)
+  \Big)
+$$
+
+\end{lemma}
+
+\begin{proof}
+This is the composite of the following sequence of [[natural bijections]]:
+$$
+  \begin{aligned}
+  Pro(\mathcal{C})
+  \Big(
+    \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{lim}
+    y^{op}(X_i),
+    \,
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{lim}
+    y^{op}(Y_j),    
+  \Big)
+  &
+  \;\simeq\;
+  Func(\mathcal{C},Sets)^{op}
+  \Big(
+    \underset{\underset{i \in \mathcal{I}}{\longleftarrow}}{lim}
+    y^{op}(X_i),
+    \,
+    \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{lim}
+    y^{op}(Y_j),    
+  \Big)
+  \\
+  & 
+  \;\simeq\;
+  Func(\mathcal{C},Sets)
+  \Big(
+    \underset{\underset{j \in \mathcal{J}}{\longrightarrow}}{lim}
+    y(Y^{op}_j),    
+    \,
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim}
+    y(X^{op}_i),
+  \Big)
+  \\
+  & \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{lim}
+  \;
+  Func(\mathcal{C},Sets)
+  \Big(
+    y(Y^{op}_j),    
+    \,
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim}
+    y(X^{op}_i),
+  \Big)
+  \\
+  & \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{lim}
+  \Big(
+    \big(
+      \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim}
+      y(X^{op}_i)
+    \big)
+    \big(
+      y(Y^{op}_j)
+    \big)    
+  \Big)
+  \\
+  & \;\simeq\;
+  \underset{\underset{j \in \mathcal{J}}{\longleftarrow}}{lim}
+  \Big(
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{lim}
+    \mathcal{C}
+    \big(
+      X_i,
+      \,
+      Y_j
+    \big)
+  \Big)
+  \end{aligned}
+$$
+
+Here
+
+* the first step is the [[fully faithful functor|fully faithfulness]] of the defining [[full subcategory]]-inclusion (eq:ProCAsFullSubcategoryOfOppositeOfCategoryOfPresheaves);
+
+* the second step is the definition of the [[opposite category]], using Remark \ref{BetweenFilteredLimitsAndFilteredColimits};
+
+* the third step uses that [[hom-functors preserve limits]], which means that $\mathcal{K}^{op}  \xrightarrow{\;\mathcal{K}(-,k)\;} Sets$ takes *[[colimits]] in $\mathcal{K}$* to *limits in $\mathcal{K}$*, here for $\mathcal{K} = Func(\mathcal{C},Sets)$;
+
+* the fourth step is the [[Yoneda lemma]];
+
+* the fifth step is Lemma \ref{ProObjectsAsFunctors}.
+
+\end{proof}
+
+
+\linebreak
+
+
+### Via spans 
+ {#DefinitionViaSpans}
 
 \begin{rmk} We can give an explicit description of the arrows of pro-$\mathcal{C}$ as follows. First, for any object $e$ of $\mathcal{E}$, we introduce a relation $\sim$ on arrows with target $G(e)$ which identifies an arrow $f: F(d) \rightarrow G(e)$ with an arrow $f': F(d') \rightarrow G(e)$ for objects $d$ and $d'$ of $\mathcal{D}$ and an object $e$ of $\mathcal{E}$, if there is an object $d''$ of $\mathcal{D}$, an arrow $g: d'' \rightarrow d$ of $\mathcal{D}$, and an arrow $g': d'' \rightarrow d'$ of $\mathcal{D}$, such that $f \circ F(g) = f' \circ F(g')$. 
 
@@ -91,42 +372,7 @@ Two such sets $\left\{ f_{e} \right\}_{e \in Ob(\mathcal{E})}$ and $\left\{ f'_{
 
 \end{rmk}
 
-\section{Alternative points of view}
 
-\subsection{Via filtered limits of presheaves}
-
-Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of the [[opposite category|opposite]] [[functor category]]/[[category of presheaves|presheaf category]] $[C,Set]^{op}$ determined by those functors which are cofiltered limits of [[representable functor|representables]]. This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits." See also at
-[[pro-representable functor]].
-
-The equivalence with the previous definition is seen as follows. To a functor $F: I \to C$, compose with the [[Yoneda lemma|co-Yoneda embedding]] $C \to [C,Set]^{op}$ to obtain a functor $\tilde F: I \to [C, Set]^{op}$, and then take $|F| = lim \tilde F \in [C,Set]^\mathrm{op}$. Explicitly, $|F|(c) = colim \tilde F^{op}$. This yields a functor $Pro(C) \to [C,Set]^{op}$, and its essential image manifestly consists of the functors which are cofiltered limits of the duals of representables. To see that this functor is fully faithful, we compute, for $F: I \to C$ and $G: J \to C$:
-
-$ Hom(|F|,|G|) = Nat(colim \tilde G^\mathrm{op}, colim \tilde F^\mathrm{op})$
-
-$= lim_{J^{op}} Nat(\tilde G^\mathrm{op}, colim \tilde F^\mathrm{op})$
-
-$= lim_{J^{op}} colim_{I^\mathrm{op}} Nat(\tilde G^\mathrm{op}, \tilde F^\mathrm{op})$
-
-$= lim_{J^{op}}colim_{I^\mathrm{op}} Hom_\mathcal{C}(F,G)$
-
-as in $Pro(C)$. Here we have used the definition of a colimit, the fact that representables are [[compact objects]] (this follows from the fact that colimits are computed "levelwise" in a functor category), and the Yoneda lemma.
-
-\subsection{As formal duals of ind-objects}
-
-+-- {: .num_remarl #ProObjectAsFormalDualOfIndObject}
-###### Remark
-
-The category of pro-objects in $\mathcal{C}$ is the [[opposite category]] of that of [[ind-objects]] in the opposite catgegory of $\mathcal{C}$:
-
-$$
-  Pro(\mathcal{C})
-    \simeq
-  (Ind(\mathcal{C}^{op}))^{op}
-  \,.
-$$
-
-=--
-
-(e.g. [Kashiwara-Schapira 06, p. 138](#KashiwaraSchapira06))
 
 \section{Characterisations}
 
