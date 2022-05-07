@@ -19,7 +19,7 @@
 
 A [[tensor]] -- an element in a [[tensor product]] of $k$ [[vector spaces]] $V_1\otimes V_2\otimes\ldots\otimes V_k$ -- is said to be __decomposable__ if it can be written in the form $v_1\otimes v_2\otimes\ldots\otimes v_k$ where $v_i \in V_i$ for $i = 1,\ldots, k$. 
 
-If all $V_i$ are copies of $V$ or $V^*$ for the same $V$ then we often talk of vectors in the tensor product as tensors and the tensor product the space of tensors. If $V_i$ has a basis $\{e^s_i\}_{s= 1}^{n_i}$ then $V_1\otimes V_2\otimes\ldots\otimes V_k$ has a basis consisting of all decomposable vectors of the form $e_1^{s_1}\otimes e_k^{s_k}$ for all $(s_1,\ldots,s_k)$ such that $1\leq s_i\leq n_i$. 
+If all $V_i$ are copies of $V$ or $V^*$ for the same $V$ then we often talk of vectors in the tensor product as tensors and the tensor product the space of tensors. If $V_i$ has a basis $\{e^s_i\}_{s= 1}^{n_i}$ then $V_1\otimes V_2\otimes\ldots\otimes V_k$ has a basis consisting of all decomposable vectors of the form $e_1^{s_1}\otimes\ldots\otimes e_k^{s_k}$ for all $(s_1,\ldots,s_k)$ such that $1\leq s_i\leq n_i$. 
 
 Let $V$ be finite-dimensional vector space. Then for a tensor 
 $A\in V^{\otimes k}$ we say that $A$ has __decomposability rank__ $r$ if 
