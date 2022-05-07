@@ -12,4 +12,6 @@
 
 * [[initial Θ-data]] 
 
+* [[Mochizuki's corollary 3.12]]
+
 category: people
