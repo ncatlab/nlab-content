@@ -290,6 +290,8 @@ given by reversing the [[orientation]] of strands:
 <img src="https://ncatlab.org/nlab/files/StarOperationOnAHorizontalChordDiagram.jpg" width="560">
 </center>
 
+Since [[horizontal chord diagrams are the homology of the loop space of configuration space]] and the [[homology of a loop space]] is an [[involutive Hopf algebra]], this is a special case of the general fact that involutive Hopf algebras are star-algebras ([here](star-algebra#InvolutiveHopfAlgebrasAreStarAlgebras)).
+
 With respect to this [[star-algebra]]-[[mathematical structure|structure]] one may ask (setting $R \coloneqq \mathbb{C}$ for definiteness) whether a given [[weight system]] (eq:AHorizontalWeightSystem)
 
 $$
@@ -342,7 +344,8 @@ $$
   \,.
 $$
 
-> anything known about weight systems that satisfy this condition?
+
+The [[weight systems]] which are [[states on a star-algebra]] with respect to this star-involution are discussed in [CSS 21](#CSS21).
 
 
 
@@ -386,5 +389,11 @@ Original articles
 Textbook accounts:
 
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 5.11 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+
+Discussion of the [[star-algebra]]-structure and associated [[state on a star-algebra|states]] on horizontal chord diagrams:
+
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
+
+
 
 [[!redirects horizontal chord diagrams]]
