@@ -240,8 +240,14 @@ The existence of a _right_ adjoint for the fringe functor: $f\dashv r\colon F\to
 One direction follows again from the composition of adjoints: $j^\ast i_\ast\dashv i^! j_\ast$ , whereas for the other direction we define:
 
 $$
+ i^!\colon \mathbf{Gl}(f)\to E \qquad (X,Y,u)\mapsto r(Y) \times_{rf(X)} X\quad .
+$$
+
+When $f$ is fully faithful, the unit $X \to rf(X)$ is an iso, and so we can instead use
+$$
  i^!\colon \mathbf{Gl}(f)\to E \qquad (X,Y,u)\mapsto r(Y)\quad .
 $$
+
 
 Note that in this case $E$ is dense and we get a 'co-cohesive' adjoint string 
 
