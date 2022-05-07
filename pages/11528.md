@@ -39,6 +39,7 @@ The central theorem of ([DDK 80](#DDK80)) is that the Borel model structure is [
 This kind of relation is discussed in more detail at _[[∞-action]]_.
 
 ### Cofibrant replacement and homotopy quotients/fixed points
+ {#CofibrantReplacementAndHomotopyQuotientsFixedPoints}
 
 The cofibrations $i \colon X \to Y$ in $(sSet^{\mathbf{B}G_\bullet})_{proj}$ are precisely those maps such that
 
