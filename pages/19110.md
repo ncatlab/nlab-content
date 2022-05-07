@@ -1259,7 +1259,9 @@ $$
 
 ## Related concepts
 
-* [[C-field tadpole cancellation]]
+* [[C-field tadpole cancellation]] in [[M-theory]]
+
+* [[24 branes transverse to K3]] in [[F-theory]] and [[HET-theory]]
 
 
 ## References
