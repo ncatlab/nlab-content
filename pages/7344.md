@@ -174,6 +174,8 @@ Discussion of the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Davide Gaiotto]], Tadashi Okazaki, _Sphere correlation functions and Verma modules_ ([arXiv:1911.11126](https://arxiv.org/abs/1911.11126))
 
+* [[Mathew Bullimore]], Samuel Crew, Daniel Zhang, _Boundaries, Vermas, and Factorisation_ ([arXiv:2010.09741](https://arxiv.org/abs/2010.09741))
+
 using discussion in
 
 * [[Andrei Okounkov]], Section 3.4 of: _Lectures on K-theoretic computations in enumerative geometry_ ([arXiv:1512.07363](https://arxiv.org/abs/1512.07363))
