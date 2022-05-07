@@ -1,5 +1,5 @@
 
-**[[model category]]**
+**[[model category]]**, [[model (infinity,1)-category|model $\infty$-category]]
 
 ## Definitions ##
 
