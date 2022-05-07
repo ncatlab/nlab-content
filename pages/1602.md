@@ -557,19 +557,14 @@ The full formula for the differential form data including the fermionic contribu
 
 and references given there.
 
-
-Discussion [[higher gauge theory]]:
-
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String and Fivebrane structures_, Commun. Math. Phys. 315 (2012), 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001))
-
-* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_ ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790))
-
-
-### In axion physics
-
-Discussion relating to [[axions]] is in
+Discussion relating to [[axions]]:
 
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
+
+
+
+[[!include higher gauge theory of the Green-Schwarz mechanism -- references]]
+
 
 
 [[!redirects Green-Schwarz mechanisms]]
