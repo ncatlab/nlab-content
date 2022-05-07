@@ -11,6 +11,11 @@ On [[local field theory|locality]] of [[extended functorial field theory|extende
 
 * [[Daniel Grady]], [[Dmitri Pavlov]], _Extended field theories are local_ ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208))
 
+On the [[cobordism hypothesis]] for [[extended functorial field theory|extended]] [[functorial field theory]] equipped with geometric structure (such as [[conformal field theory]] etc.):
+
+* [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
+
+
 
 
 
