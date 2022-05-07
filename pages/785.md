@@ -330,7 +330,7 @@ $$
 +-- {: .num_prop #FiberwiseCharacterizationInInfinityGrpds}
 ###### Proposition
 
-In plain [[homotopy types]] (i.e. in [[∞-groupoids]], in the standard [[model structure on simplicial sets]] etc.) the following holds:
+In plain [[homotopy types]] (i.e. in [[∞-groupoids]], in the [[classical model structure on simplicial sets]] etc.) the following holds:
 
 a [[diagram]] 
 
