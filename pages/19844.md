@@ -190,7 +190,7 @@ New measurements reported by [[LHC]] [in March 2021](https://home.cern/news/news
 
 [GGJLMCS 21](#GGJLMCS21):
 
-> We find that the data on clean observables is at  variance with the SM at a level of $3.9 \signa$.  Furthermore, scenarios withpure left-handed or axial currents provide a better desciption of these data with a significance close to $5 \sigma$.
+> We find that the data on clean observables is a variance with the SM at a level of $3.9 \sigma$.  Furthermore, scenarios with pure left-handed or axial currents provide a better description of these data with a significance close to $5 \sigma$.
 
 
 
