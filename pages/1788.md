@@ -1,4 +1,96 @@
 
+  \begin{tikzcd}
+    \scalebox{.8}{$
+      \left( {[0]} \atop {[0]} \right)
+    $}
+    \ar[
+      rr,
+      "{
+        \left(
+        {[0,0]}
+        \atop
+        {[0,1]}
+        \right)
+      }"{above, scale=.8}
+    ]
+    \ar[
+      dd,
+      "{
+        \left(
+        {[0,1]}
+        \atop
+        {[0,0]}
+        \right)
+      }"{left, scale=.8}
+    ]
+    \ar[
+      ddrr,
+      "{
+        \left(
+        { [0,1] }
+        \atop
+        { [0,1] }
+        \right)
+      }"{description, scale=.8}
+    ]
+    &&
+    \scalebox{.8}{$
+      \left( {[0]} \atop {[1]} \right)
+    $}
+    \ar[
+      dd,
+      "{
+        \left(
+        {[0,1]}
+        \atop
+        {[1,1]}
+        \right)
+      }"{right, scale=.8}
+    ]
+    \ar[
+      ddll,
+      phantom,
+      "{
+        \left(
+        { [0,0,1] }
+        \atop
+        { [0,1,1] }
+        \right)
+      }"{pos=.15, scale=.8}
+    ]
+    \ar[
+      ddll,
+      phantom,
+      "{
+        \left(
+        { [0,1,1] }
+        \atop
+        { [0,0,1] }
+        \right)
+      }"{pos=.85, scale=.8}
+    ]
+    \\
+    \\
+    \scalebox{.8}{$
+      \left( {[1]} \atop {[0]} \right)
+    $}
+    \ar[
+      rr,
+      "{
+        \left(
+        {[1,1]}
+        \atop
+        {[0,1]}
+        \right)
+      }"{below, scale=.8}
+    ]
+    &&
+    \scalebox{.8}{$
+      \left( {[1]} \atop {[1]} \right)    
+    $}
+  \end{tikzcd}
+
+
 The non-degenerate (n+1)-simplices of 
 $\begin{aligned} & \Delta[1] \\ \times & \Delta[n] \end{aligned}$ are
 
