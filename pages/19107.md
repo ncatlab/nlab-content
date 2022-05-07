@@ -14,6 +14,13 @@ This entry colllects material related to the book
 
 on [[topological G-spaces]] and their [[equivariant differential topology]], [[equivariant homotopy theory]] and [[equivariant cohomology]] ([[Bredon cohomology]]).
 
+See also 
+
+* [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+
+* [[Tammo tom Dieck]], _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+
 
 #Contents#
 * table of contents
