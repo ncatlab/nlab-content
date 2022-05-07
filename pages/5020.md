@@ -44,11 +44,15 @@ is a [[monomorphism in an (∞,1)-category|monomorphism in]] [[∞Grpd]].
 
 * A generalization of this to epimorphisms and acyclic spaces in [[(infinity,1)-toposes]] is discussed in [Hoyois 19](#Hoyois19).
 
+## Related concepts
+
+* [[Quillen plus construction]]
+
 ## References
 
 * {#Raptis17} [[George Raptis]], *Some characterizations of acyclic maps*, Journal of Homotopy and Related Structures volume 14, pages 773–785 (2019) 2017 ([arxiv:1711.08898](https://arxiv.org/abs/1711.08898), [doi:10.1007/s40062-019-00231-6](https://doi.org/10.1007/s40062-019-00231-6))
 
-* {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf))
+* {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf), [[Hoyois_PlusConstruction.pdf:file]])
 
 
 [[!redirects epimorphisms in an (infinity,1)-category]]
