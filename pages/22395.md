@@ -50,7 +50,7 @@ Some examples from [[general topology]], [[measure theory]], [[differential geom
 |[[localizable Boolean algebra]]|complete homomorphism|$\mathbf{Z}/2$|closed ideal|[[hyperstonean space]]|open continuous map|
 |[[localizable Boolean algebra]]|complete homomorphism|$\mathbf{Z}/2$|closed ideal|[compact strictly localizable enhanced measurable space](https://mathoverflow.net/questions/20740/is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical/20820#20820)|measurable map|
 |[[commutative von Neumann algebra]]|normal \*-homomorphism|$\mathbf{C}$|closed \*-ideal|compact strictly localizable enhanced measurable space|measurable map|
-|[[commutative unital C\*-algebra]]|\*-homomorphism|$\mathbf{C}$|closed \*-ideal|compact Hausdorff space|continuous map|
+|commutative unital [[C*-algebra]]|\*-homomorphism|$\mathbf{C}$|closed \*-ideal|compact Hausdorff space|continuous map|
 |[[commutative algebra]] over $k$|homomorphism|$k$|ideal|[[coherent space]] / [[affine scheme]]|[[continuous map]] / [[morphism of schemes]]|
 |finitely generated germ-determined [[C$^\infty$-ring]]|C$^\infty$-homomorphism|$\mathbf{R}$|germ-determined ideal|[[smooth locus]] (e.g., [[smooth manifold]])|[[smooth map]]|
 |finitely presented complex [[EFC-algebra]]|EFC-homomorphism|$\mathbf{C}$|ideal|globally finitely presented [[Stein space]]|holomorphic map|
@@ -89,9 +89,9 @@ e.g., [[skyscraper sheaves]] etc.
 |[[module]]|[[vector bundle]]-like object|
 |-|-|
 |module over a Boolean algebra|sheaf of $\mathbf{Z}/2$-vector spaces|
-|[[Hilbert W\*-module]] over a commutative von Neumann algebra|measurable field of Hilbert spaces|
-|representations of a commutative von Neumann algebra on a Hilbert space|measurable field of Hilbert spaces|
-|[[Hilbert C\*-module]] over a commutative unital C\*-algebra|continuous field of Hilbert spaces|
+|[[Hilbert W*-module]] over a commutative von Neumann algebra|measurable field of Hilbert spaces|
+|[[W*-representations]] of a [[commutative von Neumann algebra]] on a [[Hilbert space]]|[[measurable field of Hilbert spaces]]|
+|[[Hilbert C*-module]] over a commutative unital C\*-algebra|continuous field of Hilbert spaces|
 |[[module]] over a commutative algebra over $k$|sheaf of modules over an affine scheme|
 |[[dualizable module]] over a commutative algebra over $k$|algebraic vector bundle|
 |dualizable module over a finitely generated germ-determined C$^\infty$-ring|smooth vector bundle|
@@ -120,11 +120,12 @@ for an arbitrary family (not necessarily finite) of commuting normal operators.
 
 * [[Isbell duality]]
 
-[[!redirects dualities between algebra and geometry]]
+* [[Gelfand duality]]
 
+* [[Stone duality]]
+
+* [[Zariski spectrum]]
+
+[[!redirects dualities between algebra and geometry]]
 [[!redirects duality between geometry and algebra]]
 [[!redirects dualities between geometry and algebra]]
-
-
-
-
