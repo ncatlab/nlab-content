@@ -215,6 +215,13 @@ and, similarly, in section 7 of
 * [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
  {#Schapira}
 
+A detailed treatment of derived categories (including of DG modules over DG 
+rings), with applications to noncommutative algebra, is in the book 
+
+* [[Amnon Yekutieli]], _Derived Categories_ [book](https://www.cambridge.org/il/academic/subjects/mathematics/algebra/derived-categories)
+[prepublication](https://arxiv.org/abs/1610.09640v4)
+
+
 A pedagogical introduction is 
 
 * R. P. Thomas, _Derived categories for the working mathematician_ ([arXiv:math.AG/0001045](http://arxiv.org/abs/math.AG/0001045))
