@@ -209,6 +209,8 @@ This is ([Morel-Voevodsky 03, example 3, p. 50](#MorelVoevodsky03)).
 The above constructions may be unified to apply "for all groups at once",
 this is the content of _[[global equivariant homotopy theory]]_.
 
+See at *[[cohesion of global- over G-equivariant homotopy theory]]*.
+
 
 ## In more general model categories
 
@@ -328,7 +330,7 @@ This way the above theorem provides a model for $G$-equivariant refinements of [
 
 By [[Elmendorf's theorem]] the $G$-[[equivariant homotopy theory]] is an [[(∞,1)-topos]].
 
-By ([Rezk 14](#Rezk14)) $G Top$ is also the [[base (∞,1)-topos]] of the [[cohesion]] of the [[global equivariant homotopy theory]] [[slice (∞,1)-topos|sliced]] over $\mathbf{B}G$.
+By ([Rezk 14](#Rezk14)) $G Top$ is also the [[base (∞,1)-topos]] of the [[cohesion]] of the [[global equivariant homotopy theory]] [[slice (∞,1)-topos|sliced]] over $\mathbf{B}G$. See at *[[cohesion of global- over G-equivariant homotopy theory]]*.
 
 ### Equivariant Hopf degree theorem
 
