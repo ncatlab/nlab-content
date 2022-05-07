@@ -55,6 +55,8 @@ A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[f
 
 * [[dimension of a cell complex]]
 
+* [[locally finite cell complex]]
+
 [[!include universal constructions of topological spaces -- table]]
 
 
