@@ -92,5 +92,13 @@ See also
 
 * Wikipedia, *[Schur-Weyl duality](https://en.wikipedia.org/wiki/Schur%E2%80%93Weyl_duality)*
 
+In the [[AdS-CFT correspondence]]:
+
+* [[Sanjaye Ramgoolam]], *Schur-Weyl duality as an instrument of Gauge-String duality*, AIPConf. Proc. 1031:255-265, 2008 ([arXiv:0804.2764](https://arxiv.org/abs/0804.27))
+
+
+
+
+
 [[!redirects Schur Weyl duality]]
 
