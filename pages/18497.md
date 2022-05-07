@@ -26,7 +26,9 @@ The [[S-duality]] of type IIB in 10 dimensions corresponds to the exchange of th
 
 ## References
 
-* {#Vafa00} [[Cumrun Vafa]], from slide 42 in: _Mirror symmetry_, Talk at [String Theory at the Millennium](http://theory.caltech.edu/conf2000/), Caltech, January 2000 ([slides html](http://www.theory.caltech.edu/conf2000/Vafa/fs1.html))
+The original observation:
+
+* {#Vafa00} [[Cumrun Vafa]], from slide 42 in: _Mirror symmetry_, Talk at [String Theory at the Millennium](http://theory.caltech.edu/conf2000/), Caltech, January 2000 ([slides html](https://web.archive.org/web/20100612073150/http://www.theory.caltech.edu/conf2000/Vafa/fs1.html))
 
 
 * {#INV01} [[Amer Iqbal]], [[Andrew Neitzke]], [[Cumrun Vafa]], _A mysterious duality_, ([arXiv:hep-th/0111068](https://arxiv.org/abs/hep-th/0111068))
@@ -34,4 +36,13 @@ The [[S-duality]] of type IIB in 10 dimensions corresponds to the exchange of th
 Relation to [[Borcherds algebras]]:
 
 * Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, ([arXiv:hep-th/0203070](https://arxiv.org/abs/hep-th/0203070))
+
+
+Relation to [[schreiber:Hypothesis H]] via [[automorphisms]] of [[iterated loop space|iterated]] [[cyclic loop spaces]] of the [[4-sphere]]:
+
+* {#Voronov21} [[Alexander Voronov]] (joint with [[Hisham Sati]]), *Mysterious Duality*, talk at Texas Tech 2021 ([abstract pdf](https://www.math.ttu.edu/~lhoang/PureMath/abstract-2021-03-15-Voronov.pdf) [[Voronov_MysteriousAbstract.pdf:file]], [slides pdf](https://www.math.ttu.edu/~lhoang/PureMath/Slides-2021-03-15-Voronov.pdf), [[Voronov_MysteriousSlides.pdf:file]])
+
+See also at:
+
+* [[U-duality]]
 
