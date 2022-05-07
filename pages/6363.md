@@ -190,7 +190,7 @@ For an overview of other generalizations see also [this MO discussion](http://ma
 
 =--
 
-If one uses nondegenerate morphisms of C\*-algebras instead, the duality works for [locally compact topological spaces]] and [[proper maps]]. See for instance ([Brandenburg 07](#Brandenburg07)).
+If one uses nondegenerate morphisms of C\*-algebras instead, the duality works for [[locally compact topological spaces]] and [[proper maps]]. See for instance ([Brandenburg 07](#Brandenburg07)).
 
 \begin{theorem}
 The is an equivalence of categories
