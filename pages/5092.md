@@ -6,10 +6,13 @@ Ji&#345;&#237; Rosick&#253; is a pure [[category theory|category theorist]]. One
 
 ## Selected writings
 
+On [[combinatorial model categories]]:
+
+* [[Jiří Rosický]], *On combinatorial model categories*, Appl. Cat. Str. 17 (2009), 303-316 ([arXiv:0708.2185](https://arxiv.org/abs/0708.2185))
+
 On [[class-locally presentable categories]]:
 
-* [[Boris Chorny]], [[Jiří Rosický]], _Class-locally presentable and class-accessible categories_, Journal of Pure and Applied Algebra
-**216**, Issue 10 (2012) pp 2113–2125 ([doi:10.1016/j.jpaa.2012.01.015](https://doi.org/10.1016/j.jpaa.2012.01.015))
+* [[Boris Chorny]], [[Jiří Rosický]], _Class-locally presentable and class-accessible categories_, Journal of Pure and Applied Algebra **216**, Issue 10 (2012) pp 2113–2125 ([doi:10.1016/j.jpaa.2012.01.015](https://doi.org/10.1016/j.jpaa.2012.01.015))
 
 ## Related $n$Lab entries
 
