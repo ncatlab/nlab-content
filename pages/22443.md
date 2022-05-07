@@ -1176,7 +1176,7 @@ This shows the first part of the statement. Finally, that the eigenvalues for $e
 \end{prop}
 \begin{proof}
   By Prop. \ref{PositiveSemidefinitenessAtLowIntegerValuedOfEBeta} the CD kernel on $Sym(n + k)$ is positive definite 
-  at $e^\beta = n + k$, which holds for all $k \in \mathbb{N}$. But the CD kernel in question is a [[principal submatrix]] of this positive one (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), and hence cannot be less than positive itsef, by the [[Cauchy interlace theorem]].
+  at $e^\beta = n + k$, which holds for all $k \in \mathbb{N}$. But the CD kernel in question is a [[principal submatrix]] of this positive one (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), and hence cannot be less than positive itself, by the [[Cauchy interlace theorem]].
 \end{proof}
 
 
