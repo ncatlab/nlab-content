@@ -1072,6 +1072,15 @@ for every plain local trivialization around any [[orbit]] the [[equivariant Tiet
 
 On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 
+Precursor discussion:
+
+* T. E. Stewart, *Lifting Group Actions in Fibre Bundles*, Annals of Mathematics Second Series, Vol. 74, No. 1 (1961), pp. 192-198 ([jstor:1970310](https://www.jstor.org/stable/1970310))
+
+  > (for [[structure group]] commuting with the [[equivariance group]], but noticing already that a [[normal subgroup]]-extension could be considered, more generally)
+
+
+The original definition:
+
 * {#tomDieck69} [[Tammo tom Dieck]], _Faserb&uuml;ndel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
