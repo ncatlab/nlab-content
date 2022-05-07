@@ -112,5 +112,3 @@ since every other aspect of the first two lines is already constructively valid,
 [[!redirects de Morgan's laws]]
 [[!redirects De Morgan's law]]
 [[!redirects De Morgan's laws]]
-[[!redirects de Morgan's law]]
-[[!redirects de Morgan's laws]]
