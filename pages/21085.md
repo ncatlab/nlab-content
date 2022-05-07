@@ -36,3 +36,6 @@ One says optics are defined _up to sliding_ along the residual, a terminology su
 * Emily Pillmore, Mario Román, _Profunctor Optics: The Categorical View_, ([blog post](https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#more))
 
 * {#Roman} Mario Román, _Open Diagrams via Coend Calculus_, ([arXiv:2004.04526](https://arxiv.org/abs/2004.04526))
+
+[[!redirects optics (in computer science)]]
+
