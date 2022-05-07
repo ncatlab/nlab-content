@@ -31,7 +31,7 @@ This is due to [Elmendorf 83](#Elmendorf83) and [Dwyer-Kan 84, Sec. 1.2, 1.7 & T
 In particular this means that the $G$-[[equivariant homotopy theory]], thus identified with an [[(∞,1)-category of (∞,1)-presheaves]], is an [[(∞,1)-topos]] and in fact (since $Orb_G$ has [[finite products]]) a [[cohesive (∞,1)-topos]]; a point expanded on in [Rezk 14](#Rezk14), [Sati-Schreiber 20](#SatiSchreiber20) (for more on this see at _[[orbifold cohomology]]_).
 
 
-More in detail, write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]] ([[G-spaces]]). Say that a $G$-[[equivariant function|equivariant]] [[continuous function]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** if for all [[closed subspace|closed]] [[subgroups]] $H \hookrightarrow G$ the induced function on $H$-[[fixed point spaces]] $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
+More in detail, write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]] ([[G-spaces]]). Say that a $G$-[[equivariant function|equivariant]] [[continuous function]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** if for all [[closed subgroups]] $H \hookrightarrow G$ the induced function on $H$-[[fixed point spaces]] $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
 
 $$
   L_{G whe} Top^G
@@ -65,11 +65,11 @@ $$
 
 Elmendorf's theorem is stated in [Elmendorf 83](#Elmendorf83) as an [[equivalence of categories|equivalence]] of [[homotopy categories]]; and is enhanced in [Dwyer-Kan 84, Sec. 1.2, 1.7 & Thm. 3.1](#DwyerKan84) to a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] of [[model categories]] [[presentable (infinity,1)-category|presenting]] (in hindsight) the [[equivalence of (∞,1)-categories]] stated above (e.g. [Blumberg 17. Thm. 1.3.8](#Blumberg17)).
 
-Moreover, while [Elmendorf 83](#Elmendorf83) assumes $G$ to be a [[compact Lie group]], [Dwyer-Kan 84](#DwyerKan84) allow $G$ to be *any* [[topological group]]. But beware that invoking the [[equivariant Whitehead theorem]] to identify the fixed-locus-wise weak homotopy equivalences used in the theorem with the $G$-homotopy equivalences typically used in practice again requires $G$ to be a [[compact Lie group]].
+Moreover, while [Elmendorf 83](#Elmendorf83) assumes $G$ to be a [[compact Lie group]], [Dwyer-Kan 84](#DwyerKan84) allow $G$ to be *any* [[topological group]]. But beware that invoking the [[equivariant Whitehead theorem]] to identify the fixed-locus-wise weak homotopy equivalences, used in the theorem, with the $G$-homotopy equivalences, typically used in practice, again requires $G$ to be a [[compact Lie group]].
 
-Later [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) re-prove the equivalence of [[homotopy categories]] for $G$ any [[topological group]]; while [Cordier-Porter 96, Thm. 3.11](#CordierPorter96) and [Guillou 06, Prop. 3.15](#Guillou06) re-prove a ([[simplicial Quillen adjunction|simplicial]]) [[Quillen equivalence]] assuming $G$ to be a [[discrete group]] or even [[finite group]], respectively; and [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8](#GuillouMayRubin13) re-prove the Quillen equivalence for $G$ again any topological group.
+Later [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) re-prove the equivalence of [[homotopy categories]] for $G$ any [[topological group]]; while [Cordier-Porter 96, Thm. 3.11](#CordierPorter96) and [Guillou 06, Prop. 3.15](#Guillou06) re-prove a ([[simplicial Quillen adjunction|simplicial]]) [[Quillen equivalence]] assuming $G$ to be a [[discrete group|discrete]] or even [[finite group]], respectively; and [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8](#GuillouMayRubin13) re-prove the Quillen equivalence for $G$ again any topological group.
 
-([Stephan 13](#Stephan13) credits [Piacenza 91](#Piacenza91) with proving a [[Quillen equivalence]], but this is not what [Piacenza 91, Thm. 6.3](#Piacenza91) actually states, though the conclusion follows with hindsight.)
+([Stephan 13](#Stephan13) credits [Piacenza 91](#Piacenza91) with proving a [[Quillen equivalence]]. While this is not what [Piacenza 91, Thm. 6.3](#Piacenza91) actually states, the conclusion follows with hindsight.)
 
 These results are all based on the [[classical model structure on topological spaces]].  The analogous Quillen equivalence based on the [[classical model structure on simplicial sets]] is proven in [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13), assuming $G$ to be a [[discrete group]].
 \end{remark}
@@ -119,12 +119,14 @@ The [[fixed point spaces]]-functors on the following kinds of model categories a
 +-- {: .num_defn}
 ###### Proposition
 
-For $\mathcal{C}$ a [[cofibrantly generated model category]] with cellular fixed point functor, def. \ref{CellularFixedPointFunctor}, then the category $G \mathcal{C}$ of $G$-actions in $\mathcal{C}$ carries a [[cofibrantly generated model category]] structure $G \mathcal{C}_{fine}$ whose weak equivalences and fibrations are those maps which induce weak equivalences or fibrations in $\mathcal{C}$, respectively, on objects of $H$-[[fixed points]], for all [[subgroups]] $H$ of $G$.
+For $\mathcal{C}$ a [[cofibrantly generated model category]] with cellular fixed point functor, def. \ref{CellularFixedPointFunctor}, then the category $G \mathcal{C}$ of $G$-actions in $\mathcal{C}$ carries a [[cofibrantly generated model category]] structure $G \mathcal{C}_{fine}$ whose weak equivalences and fibrations are those morphisms whose [[underlying]] maps of 
+$H$-[[fixed loci]], for all [[subgroups]] $H$ of $G$, are equivalences or fibrations in $\mathcal{C}$, respectively.
 
 =--
 
 ([Guillou 06, theorem 3.12](#Guillou06))
 
+For the case that $\mathcal{C}$ is the [[classical model structure on topological spaces]] this yields the [[fine model structure on topological G-spaces]].
 
 Write $Orb_G$ for the [[orbit category]] of $G$.
 
@@ -227,7 +229,7 @@ Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[e
 
 * {#Stephan13} [[Marc Stephan]], _On equivariant homotopy theory for model categories_, Homology Homotopy Appl. 18(2) (2016) 183-208 ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856), [doi:10.4310/HHA.2016.v18.n2.a10](https://dx.doi.org/10.4310/HHA.2016.v18.n2.a10))
 
-* {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Sections 1 and 5.2 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [arXiv:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
+* {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Sections 1 and 5.2 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [doi:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
 
 Other discussions generalizing [Elmendorf 83](#Elmendorf83) (i.e. the equivalence of homotopy categories)  to general topological equivariance groups:
 
