@@ -283,7 +283,7 @@ Discussion in terms of [[gerbes]]:
 
 Existence of [[classifying spaces]] for [[principal 2-bundles]]/[[nonabelian gerbes]]:
 
-* [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) Algebraic Topology_. Abel Symposia, vol 4. Springer 2009 ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
+* [[John Baez]], [[Danny Stevenson]], _The Classifying Space of a Topological 2-Group_,  In: Baas N., Friedlander E., Jahren B., Østvær P. (eds.) *Algebraic Topology*, Abel Symposia, vol 4. Springer 2009 ([arXiv:0801.3843](https://arxiv.org/abs/0801.3843), [doi:10.1007/978-3-642-01200-6_1](https://doi.org/10.1007/978-3-642-01200-6_1))
 
 
 ### General theory -- $\infty$-bundles/$\infty$-gerbes
