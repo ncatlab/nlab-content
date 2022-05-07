@@ -670,16 +670,11 @@ $$\begin{matrix}
 \end{matrix}$$
 
 We can then look at the shuffle poset, noting again that it is not [[linear order|linear]]:
-$$\begin{matrix}
-&&&&(1\lt 2)&&&&\\
-&&& \nearrow &&\searrow &&&\\
-(0\lt 1)&-&(0\lt 2)&&&&(1\lt 3)&-&(2\lt 3)\\
-&&& \searrow && \nearrow &&&\\
-&&&&(0\lt 3)&&&&\\
-\end{matrix}$$
-(Arrows have been used where itex does not seem to have an `headless arrow'! What follows is produced via presheaf.com.)
-           
-{<img src="http://presheaf.com/cache/d2u2r4t67211k1v3i6u4a2403c50323b.png" title="click to go to presheaf.com for editing"/>}
+
+
+\begin{xymatrix@=1.5em}&&(1<2)\ar@{-}[dr]&&\\
+(0<1)\ar@{-}[r]&(0<2)\ar@{-}[ur]\ar@{-}[dr]&&(1<3)\ar@{-}[r]&(2<3)\\
+&&(0<3)\ar@{-}[ur]&&\end{xymatrix}
 
 
 The left hand shuffle, labelled $(0\lt1)$, corresponds to $\left(\begin{array}{ccccc}0&1&2&2&2\\0&0&0&1&2\end{array}\right)$, so gives the path along the bottom of the square and then up the right hand side. 
