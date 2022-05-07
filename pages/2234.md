@@ -92,13 +92,15 @@ $$
     \array{
       G &\xrightarrow{\;\;}& G
       \\
-      g &\mapsto& g \cdot s
+      g &\mapsto& g \cdot s \cdot g^{-1}
       \,.
     }
   $$
-  Noticing here that
+  (the [[adjoint action]] of $G$ on itself).
 
-1. this is [[continuous function]] by the axioms on a topological group;
+Noticing here that:
+
+1. this is [[continuous function]], by the axioms on a topological group;
 
 1. $\{s\} \subset G$ is a [[closed subset]], by the assumption that $G$ is a [[T1-space|$T_1$-space]] (by [this Prop.](separation+axioms#T1InTermsOfClosureOfPoints))
 
@@ -112,7 +114,7 @@ $$
   \underset{
     s \in S
   }{\cap}
-  C_G(\{s\})
+  C_G\big(\{s\}\big)
  \,.
 $$
 
