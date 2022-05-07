@@ -78,3 +78,6 @@ See the references at _[[fiber bundle]]_.
 
 [[!redirects local trivializability]]
 
+[[!redirects local triviality]]
+
+
