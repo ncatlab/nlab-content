@@ -32,3 +32,4 @@ $\mathfrak{sl}(2,\mathbb{C})$ is the [[complexification]] of the [[special unita
 
 See at _[[Jacobson-Morozov theorem]]_.
 
+[[!redirects sl(2,C)]]
