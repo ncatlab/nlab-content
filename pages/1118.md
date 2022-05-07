@@ -168,11 +168,11 @@ etc.
 ## Examples 
  {#Examples}
 
-* A group object in [[Set]] is a [[group]].
+* A group object in [[Sets]] is a [[group]].
 
-* A group object in [[Top]] is a [[topological group]].
+* A group object in [[TopologicalSpaces]] is a [[topological group]].
 
-* A group object in [[sSet]] is a [[simplicial group]].
+* A group object in [[SimplicialSets]] is a [[simplicial group]].
 
 * A group object in [[Ho(Top)]] is an [[H-group]].
 
