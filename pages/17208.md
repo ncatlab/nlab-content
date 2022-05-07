@@ -512,6 +512,7 @@ This gives the list (eq:ListOfHomotopyGroupsOfComplexProjectiveSpace), where we 
  {#Cohomology}
 
 #### Ordinary
+ {#OrdinaryHomologyAndCohomology}
 
 +-- {: .num_prop #OrdinaryCohomologyOfComplexProjectiveSpace}
 ###### Proposition
