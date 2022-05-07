@@ -28,14 +28,37 @@ A _Wirthm&#252;ller context_ is a pair of two [[symmetric monoidal category|symm
 
 This is the variant/special case of the [[yoga of six operations]] consisting of two [[adjoint pairs]] $(f_! \dashv f^!)$ and $(f^\ast \dashv f_\ast)$ and the [[tensor product]]/[[internal hom]] [[adjunctions]] $((-)\otimes B \dashv [B,-])$,  specialized to the case that  $f^! \simeq f^\ast$:
 
-$$
-  f_! \dashv (f^! = f^\ast) \dashv f_\ast
-  \;\colon\;
+\begin{tikzcd}
   \mathcal{X}
-    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^! = f^\ast }{\leftarrow}}{\underset{f_\ast}{\longrightarrow}}}
-  \mathcal{Y}
-  \,.
-$$
+    \ar[
+      rr,
+      shift left=20pt,
+      "f_!"{above}
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=10.5pt,
+      "\scalebox{.62}{$\bot$}"{description}
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift right=10.5pt,
+      "\scalebox{.62}{$\bot$}"{description}
+    ]
+    \ar[
+      rr,
+      shift right=20pt,
+      "f_\ast"{below}
+    ]
+    &&
+    \mathcal{Y}
+      \ar[
+        ll,
+        "f^! = f^\ast"{description}
+      ]
+\end{tikzcd}
 
 (The other specialization of the [[six operations]] to $f_\ast \simeq f_!$ is called the _[[Grothendieck context]]_).
 
@@ -69,13 +92,38 @@ and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism 
 
 Let $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ be two [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] and let 
 
-$$
-  f_! \dashv (f^! = f^\ast) \dashv f_\ast
-  \;\colon\;
+\begin{tikzcd}
   \mathcal{X}
-    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^! = f^\ast }{\leftarrow}}{\underset{f_\ast}{\longrightarrow}}}
-  \mathcal{Y}
-$$
+    \ar[
+      rr,
+      shift left=20pt,
+      "f_!"{above}
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=10.5pt,
+      "\scalebox{.62}{$\bot$}"{description}
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift right=10.5pt,
+      "\scalebox{.62}{$\bot$}"{description}
+    ]
+    \ar[
+      rr,
+      shift right=20pt,
+      "f_\ast"{below}
+    ]
+    &&
+    \mathcal{Y}
+      \ar[
+        ll,
+        "f^! = f^\ast"{description}
+      ]
+\end{tikzcd}
+
 
 be an [[adjoint triple]] of [[functors]] between them. We call this setup
 
