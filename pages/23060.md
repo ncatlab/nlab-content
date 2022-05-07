@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The 2-[[periodic ring spectrum]]-version of the [[sphere spectrum]]. It is formed by taking the [[Thom spectrum]] of the $E_2$ map
+
+$$
+\mathbb{Z} \simeq \Omega^2 B U(1) \to \Omega^2 B U \to B U \times \mathbb{Z},
+$$
+
+where the last map is specified by [[Bott periodicity]] ([Lurie, Rotation Invariance, Remark 3.5.13](#LurieRotation)). As a spectrum it is given by $\bigoplus_{n \in \mathbb{Z}} S^{-2n}$.
+
+
+
+## References 
+
+* {#LurieRotation} [[Jacob Lurie]], _Rotation Invariance in Algebraic K-Theory_, ([pdf](https://people.math.harvard.edu/~lurie/papers/Waldhaus.pdf))
+
+* Mohammed Abouzaid, Andrew J. Blumberg, _Arnold Conjecture and Morava K-theory_ ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507)), A.2.3.
