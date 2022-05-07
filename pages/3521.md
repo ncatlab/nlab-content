@@ -9,18 +9,21 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-If you take a simplicial set and 'throw away' the last face and degeneracy, and relabel, shifting everything down one 'notch', you get a new simplicial set.  This is what is called the _d&#233;calage_ of a [[simplicial set]]. 
+In [[simplicial homotopy theory]], *décalage* refers to a well-behaved model of [[path space objects]] for [[simplicial sets]]:
 
-It is a model for the [[path space object]] of $X$, --or rather: the union of all based path space objects for all basepoints $x \in X_0$ -- similar to, but a little smaller than, the model $X^I \times_X X_0$, which is discussed for instance at _[[factorization lemma]]_:
+If you take a [[simplicial set]] and 'throw away' the last face and degeneracy, and relabel, shifting everything down one 'notch', you get a new simplicial set.  This is what is called the _d&#233;calage_ of a [[simplicial set]]. 
+
+It is a model for the [[path space object]] of $X$, -- or rather: the union of all based path space objects for all basepoints $x \in X_0$ -- similar to, but a little smaller than, the model $X^I \times_X X_0$, which is discussed for instance at _[[factorization lemma]]_:
 
 In the latter case an $n$-cell in the path space is a morphism to $X$ from the simplicial cone over the $n$-simplex modeled as the [[pushout]] $(\Delta[n] \times \Delta[1]) \coprod_{\Delta[n]} \Delta[0]$.
-This is the simplicial set obtained by forming the simplicial cylinder over $\Delta[n]$ and then contracting one end to the point. 
+This is the simplicial set obtained by forming the simplicial [[cylinder]] over $\Delta[n]$ and then contracting one end to the point. 
 
 Contrary to that, an $n$-simplex in the d&#233;calage of $X$ is a morphism to $X$ from the cone over $\Delta[n]$ modeled simply by the [[join of simplicial sets]] $\Delta[n] \star \Delta[0]$. 
 
@@ -34,12 +37,10 @@ $$
 
 As a result, the d&#233;calage construction is often more convenient than forming $X^I \times_X X_0$.
 
-A central application is the special case where $X = \bar W G$ is the simplicial delooping of a [[simplicial group]] $G$ (see at _[[simplicial principal bundle]]_). In this case $Dec_0 \bar W G$, called $W G$, is a standard model for the _[universal simplicial principal bundle](simplicial%20principal%20bundle#UniversalSimplicialBundle)_.
 
 ## Definition 
 
-The plain definition of the d&#233;calage of a simplicial set is very simple,
-stated below in 
+The plain definition of the d&#233;calage of a simplicial set is very simple, stated below in 
 
 * _[In components](#DefinitionInComponents)_
 
@@ -68,9 +69,11 @@ Concretely, the d&#233;calage construction is the following.
 For $X$ a [[simplicial set]],
 the **d&#233;calage** $Dec_0\, X \in sSet$ of $X$, is the simplicial set obtained by shifting every dimension down by one, 'forgetting' the last face and degeneracy  of $X$ in each dimension:
 
-* $(Dec_0 \, X)_n := X_{n+1}$;
-* $d_k^{n,Dec_0 X}  := d^{n+1,X}_{k}$;
-* $s_k^{n,Dec_0 X}  := s^{n+1,X}_{k}$.
+* $(Dec_0 \, X)_n \coloneqq X_{n+1}$;
+
+* $d_k^{n,Dec_0 X}  \coloneqq d^{n+1,X}_{k}$;
+
+* $s_k^{n,Dec_0 X}  \coloneqq s^{n+1,X}_{k}$.
 
 =--
 
@@ -411,7 +414,16 @@ A $P$-coalgebra partitions $X$ into path components and exhibits contractibility
 
 ## Examples
 
+### For simplicial classifying spaces
+ {#ExampleForSimplicialClassifyingSpaces}
+
+A central application is the special case where $X = \overline{W} G$ is the [[simplicial classifying space]] of a [[simplicial group]] $G$ (see at _[[simplicial principal bundle]]_). In this case $Dec_0 \overline{W} G$, called $W G$, is a standard model for the _[universal simplicial principal bundle](simplicial%20principal%20bundle#UniversalSimplicialBundle)_.
+
+Or rather, with the conventions used at *[[simplicial classifying spaces]]* (which are those of [Goerss & Jardine, p. 269](simplicial+classifying+space#GoerssJardine09)) we have $W G \,=\, Dec^0(\overline{W}G)$ (shifting and forgetting the *first*, i.e. 0th, face-and degeneracy maps, as in [Stevenson 11, bottom of p. 4](#Stevenson11).)
+
+
 ### For simplicial groups
+ {#ExampleForSimplicialGroups}
 
 The case of $Dec_0 G$ for $G$ a [[simplicial group]] is important in the simplicial theory of algebraic models for [[homotopy n-types]].
 
@@ -448,24 +460,21 @@ The link with simplicial groups and algebraic models of homotopy $n$-types is gi
 
 * [[Tim Porter]], _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5--24.
 
-
 * [[Tim Porter]], _[[Menagerie|The crossed menagerie]]_
 
-A detailed account of various technical aspects is in
+A detailed account of various technical aspects:
  
-* [[Danny Stevenson]], _D&#233;calage and Kan's simplicial loop group functor_ ([arXiv:1112.0474](http://arxiv.org/abs/1112.0474))
- {#Stevenson11}
+* {#Stevenson11} [[Danny Stevenson]], around Lemma 15 of: *Décalage and Kan's simplicial loop group functor*, Theory and Applications of Categories, Vol. 26, 2012, No. 28, pp 768-787 ([arXiv:1112.0474](https://arxiv.org/abs/1112.0474), [tac:26-28](http://www.tac.mta.ca/tac/volumes/26/28/26-28abs.html)) 
 
-and in section 2.2 of
+and 
 
-* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
- {#Stevenson12}
-
+* {#Stevenson12} [[Danny Stevenson]], Section 2.2 of _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
+ 
 
 Closely related technical results are in section 3 of 
 
-* [[André Joyal]], _The theory of quasi-categories and its applications_ , lectures at CRM Barcelona (2008)
- {#Joyal} 
+* {#Joyal}  [[André Joyal]], _The theory of quasi-categories and its applications_ , lectures at CRM Barcelona (2008)
+ 
 
 An application in the theory of [[stacks]] is discussed in
 
@@ -474,3 +483,7 @@ An application in the theory of [[stacks]] is discussed in
 
 [[!redirects decalage]]
 [[!redirects décalage]]
+
+[[!redirects total decalage]]
+[[!redirects total décalage]]
+
