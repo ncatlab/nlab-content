@@ -5,7 +5,7 @@ On [[triangulation conjectures]] and [[triangulation theorems]] on existence of 
 
 Review:
 
-* [[Ciprian Manolescu]], *Triangulations of manifolds*, Notices of the International Congress of Chinese Mathematicians **2** 2 (2104) ([pdf](https://web.stanford.edu/~cm5/tm.pdf), [[Manolescu_TriangulationsOfManifolds.pdf:file]], [doi:10.4310/ICCM.2014.v2.n2.a2](https://dx.doi.org/10.4310/ICCM.2014.v2.n2.a2))
+* [[Ciprian Manolescu]], *Triangulations of manifolds*, Notices of the International Congress of Chinese Mathematicians **2** 2 (2014) ([pdf](https://web.stanford.edu/~cm5/tm.pdf), [[Manolescu_TriangulationsOfManifolds.pdf:file]], [doi:10.4310/ICCM.2014.v2.n2.a2](https://dx.doi.org/10.4310/ICCM.2014.v2.n2.a2))
 
 The question of triangulability of [[smooth manifolds]] was first raised in
 
@@ -35,6 +35,10 @@ with further accounts in:
     > (but see [MO:a/177199](https://mathoverflow.net/a/177199/381), where this "simpler argument" is claimed to be wrong)
 
 * [[Jacob Lurie]], *Existence of Triangulations* ([pdf](https://www.math.ias.edu/~lurie/937notes/937Lecture4.pdf)), Lecture 4 in: *[Topics in Geometric Topology](https://www.math.ias.edu/~lurie/937.html)* 
+
+A detailed exposition is available in Chapter II of
+
+* [[James R. Munkres]], _Elementary Differential Topology_, Annals of Mathematics Studies 54 (1966), Princeton University Press, [doi](http://dx.doi.org/10.1515/9781400882656).
 
 Generalization to existence of [[equivariant triangulation]] for smooth [[G-manifolds]] ([[equivariant triangulation theorem]]):
 
