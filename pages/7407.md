@@ -85,6 +85,7 @@ Accordingly, there is a coherent hyperdoctrine associated with any [[coherent th
 
 ## Related concepts
 
+* [[regular hyperdoctrine]]
 * [[first-order hyperdoctrine]]
 
 * [[Boolean hyperdoctrine]]
