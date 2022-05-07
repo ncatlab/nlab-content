@@ -90,7 +90,7 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 * {#Lawvere00}[[F. William Lawvere]], *Comments on the development of topos theory*, pp.715-734 in Pier (ed.),  _Development of Mathematics 1950 - 2000_ , Birkh&#228;user Basel 2000. ([tac reprint](http://www.tac.mta.ca/tac/reprints/articles/24/tr24abs.html))
 
-* {#McLarty04}[[Colin McLarty]], *Exploring Categorical Structuralism*, Phil. Math. **12** no.3 (2004) pp.37-53. ([pdf](http://www.cwru.edu/artsci/phil/PMExploring.pdf))
+* {#McLarty04}[[Colin McLarty]], *Exploring Categorical Structuralism*, Phil. Math. **12** no.3 (2004) pp.37-53 doi:[10.1093/philmat/12.1.37](https://doi.org/10.1093/philmat/12.1.37). 
 
 * D. A. Martin, *Borel determinacy*, Ann. Math. **102** (1975) pp.363-371.
 
