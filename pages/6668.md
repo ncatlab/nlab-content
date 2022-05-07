@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+Introducing the notion of [[nerve]] of a [[cover]]:
+
+* [[Paul Alexandroff]], _Über den allgemeinen Dimensionsbegriff und seine Beziehungen zur elementaren geometrischen Anschauung_, Mathematische Annalen 98 (1928), 617–635 ([doi:10.1007/BF01451612](https://doi.org/10.1007/BF01451612)).
+
+
 On [[Alexandroff spaces]] ([[specialization topology]]):
 
 * [[Paul Alexandroff]], _Diskrete R&#228;ume_ ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sm&paperid=5579&option_lang=eng)) (1973)
