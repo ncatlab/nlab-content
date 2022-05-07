@@ -19,11 +19,9 @@
 
 ## Definition
 
-A (nonempty) [[full subcategory]] $T$ of an [[abelian category]] $A$ is a __Serre subcategory__ if for any [[exact sequence]]
-$$
- M\to M'\to M''
-$$
-$M'$ is in $T$ iff $M$ and $M''$ are in $T$. 
+A [[full subcategory]] $T$ of an [[abelian category]] $A$ is a __Serre subcategory__ if it is nonempty and for any [[exact sequence]]
+$$M\to M'\to M''$$
+$M'$ is in $T$ if $M$ and $M''$ are in $T$. 
 
 
 ##Terminology
