@@ -46,21 +46,21 @@ This means
 
 1. $\mathcal{C}$ has all small [[colimits]];
 
-1. there exists a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of $\lambda$-[[compact]] objects that generates $\mathcal{C}$ under $\lambda$-filtered colimits for some regular cardinal $\lambda$.
+1. there exists a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of $\lambda$-[[compact]] objects that generates $\mathcal{C}$ under $\lambda$-[[filtered colimits]] for some [[regular cardinal]] $\lambda$.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-If follows that every object in $\mathcal{C}$ is a [[small object]].
+If follows that every [[object]] in a locally presentable category is a [[small object]].
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The _locally_ in _locally presentable category_ refers to the fact that it is the _objects_ that are presentable, not the category as such.
+The _locally_ in _locally presentable category_ refers to the fact that it is the _objects_  that are presentable, not the category as such (which is itself an object [[Cat]]).
 
 For instance, consider the notion of "locally finitely presentable category", def. \ref{LocallyFinitelyPresentable} below, in which the generating set $S$ consists of [[finitely presentable objects]], i.e. $\omega$-small ones. If one dropped the word "locally" then one would get the notion "[[finitely presentable category]]" which means something completely different, namely a [[finitely presentable object|finitely presentable]] ($\omega$-small) object of [[Cat]].
 
@@ -70,7 +70,7 @@ For instance, consider the notion of "locally finitely presentable category", de
 +-- {: .num_remark}
 ###### Remark
 
-Since a [[small object]] is one which is $\kappa$-[[compact object|compact]] for some $\kappa$, and any $\kappa$-compact object is also $\lambda$-compact for any $\lambda\gt\kappa$, it follows that there exists some $\kappa$ such that every object of the colimit-generating set $S$ is $\kappa$-compact.  
+Since a [[small object]] is one which is $\kappa$-[[compact object|compact]] for some $\kappa$, and any $\kappa$-compact object is also $\lambda$-compact for any $\lambda \gt \kappa$, it follows that there exists some $\kappa$ such that every object of the colimit-generating set $S$ is $\kappa$-compact.  
 
 =--
 
