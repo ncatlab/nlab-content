@@ -36,6 +36,11 @@ Given that the two main sources for [[quasicategories]] assign opposite meanings
 Further adding to the confusion is that some sources, like Borceux's [[Handbook of Categorical Algebra]] use the term “final functor” for a functor for which the precomposition functor preserves limits, in contrast to the majority of the literature.
 Such usage, fortunately, is marginal.
 
+See also the warning in the article [[final functor]].
+
+In [[Kerodon]], final (∞,1)-functors are referred to as _right cofinal functors_.
+Likewise, [[initial (∞,1)-functors]] are known as _left cofinal functors_.
+
 ## Definition
 
 
