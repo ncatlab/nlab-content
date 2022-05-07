@@ -69,6 +69,10 @@ On [[∞-groups of units]], [[Thom spectra]] and [[twisted generalized cohomolog
 
 * {#ABGHR14} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _An $\infty$-categorical approach to $R$-line bundles, $R$-module Thom spectra, and twisted $R$-homology_, Journal of Topology Volume 7, Issue 3 2014 Pages 869&#8211;893  ([arXiv:1403.4325](http://arxiv.org/abs/1403.4325), [doi:10.1112/jtopol/jtt035](https://doi.org/10.1112/jtopol/jtt035))
 
+On [[quasi-categories]]:
+
+* {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf), [[RezkQuasicategories.pdf:file]])
+
 
 ## Related $n$Lab entries
 
