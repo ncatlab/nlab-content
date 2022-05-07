@@ -40,6 +40,9 @@ A *cyclic space* is a [[cyclic object]] in a [[category]] of [[spaces]], usually
 
   Chapter 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
+* {#Loday11} [[Jean-Louis Loday]], Section 3 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
+
+
 See also:
 
 * Wikipedia, *[Cyclic category](https://en.wikipedia.org/wiki/Cyclic_category)*
