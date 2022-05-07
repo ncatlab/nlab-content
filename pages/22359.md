@@ -22,6 +22,7 @@
 
 Given a [[topological group]] $G$ and a [[subgroup]] $H \subset G$ it is often oft interest to known that the [[coset space]] [[coprojection]] $G \to G/H$ admits [[local sections]]. For instance, these yield canonical examples of $H$-[[principal bundles]], of [[G-structure|H-structures]] and of [[equivariant bundles]].
 
+
 ## Recognition
 
 \begin{prop}\label{SufficientConditionsforCosetSpaceCoprojectionsHavingLocalSections}
@@ -66,9 +67,6 @@ include the following:
 
   ([Gleason 50, Thm. 4.1](#Gleason50))
 
-
-or:
-
 * $G$ is a [[locally compact topological group]]
 
   which is moreover a [[separable metric space]] of [[finite number|finite]] [[dimension of a separable metric space|dimension]]
@@ -77,23 +75,14 @@ or:
 
   ([Mostert 53, Theorem 3](#Mostert53), see also [Karube 58, Theorem 2](#Karube58))
 
-* $G$ is a [[Lie group]] and $H$ is a [[closed subgroup]] (hence a closed sub-Lie group, by [[Cartan's closed subgroup theorem]])
+* $G$ is a ([[finite number|finite]]-[[dimension of a manifold|dimensional]]) [[Lie group]] 
 
-  (e.g. [tom Dieck & Br&ouml;cker 1985, Thm. 4.3](#tomDieckBroecker85)
+  and $H$ is a [[closed subgroup]] 
+
+  (e.g. [tom Dieck & Bröcker 1985, Thm. 4.3](#tomDieckBroecker85))
 
 \end{prop}
 
-\begin{example}
-  A common special case of either condition in Prop. \ref{SufficientConditionsforCosetSpaceCoprojectionsHavingLocalSections} is:
-
-* $G$ is a [[compact Lie group]]
-
-  and $H$ is a [[closed subgroup]] (hence a closed sub-Lie group, by [[Cartan's closed subgroup theorem]])
-
-(This is a special case of Gleason's condition since [[Lie groups]] are [[Hausdorff spaces]] and [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]].)
-
-
-\end{example}
 
 ## Counter examples
  {#Counterexamples}
