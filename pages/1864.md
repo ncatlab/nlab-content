@@ -94,3 +94,7 @@ Discussion of concordance in terms of the [[shape modality]] in the [[cohesive (
 * {#BEBP} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
 
 [[!redirects concordances]]
+
+[[!redirects concordance class]]
+[[!redirects concordance classes]]
+
