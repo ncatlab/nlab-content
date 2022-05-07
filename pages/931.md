@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _torsor_ (in the category of sets) is, roughly speaking, a group that has forgotten its identity element; given any (non-empty) torsor with respect to a group $G$, we recover a group isomorphic to $G$ by making what is known as a _trivialisation_ of the torsor, which roughly corresponds to choosing an identity element. That we wish to keep track of the choice is precisely the reason for working with torsors.
+A _torsor_ (in the [[category of sets]]) is, roughly speaking, a [[group]] that has forgotten its identity element; given any (non-empty) torsor with respect to a group $G$, we recover a group isomorphic to $G$ by making what is known as a _trivialisation_ of the torsor, which roughly corresponds to choosing an identity element. That we wish to keep track of the choice is precisely the reason for working with torsors.
 
 Something analogous is present in the theory of [[Grothendieck fibration|fibrations]], where it can be important to make a choice of lifts ('cloven fibrations').
 
@@ -29,7 +29,7 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 
 \begin{defn} Let $G$ be a [[group]]. A _$G$-torsor_ is a [[set]] $T$ together with an [[action]] $a: G \times T \rightarrow T$ of $G$ on $T$ such that the map $a \times p_2: G \times T \rightarrow T \times T$ is an [[isomorphism]], where $p_2$ is the canonical [[projection]] map $G \times T \rightarrow T$. \end{defn}
 
-\begin{rmk} \label{RemarkTorsorIsomorphicToStructureGroup} If $T$ is non-empty, we shall prove [below](#TrivialisationInSets) that it follows from the definition that $T$ is isomorphic to $U(G)$, the underlying set of $G$.  There are many such isomorphisms, and where torsors are used it is often important to choose/fix one. Such a choice is known as a _trivialisation_ of $T$. See [below](#TrivialisationInSets) below for more details. \end{rmk} 
+\begin{rmk} \label{RemarkTorsorIsomorphicToStructureGroup} If $T$ is non-empty, we shall prove [below](#TrivialisationInSets) that it follows from the definition that $T$ is isomorphic to the underlying set of $G$.  There are many such isomorphisms, and where torsors are used it is often important to choose/fix one. Such a choice is known as a _trivialisation_ of $T$. See [below](#TrivialisationInSets) for more details. \end{rmk} 
 
 \begin{rmk} As a consequence of Remark \ref{RemarkTorsorIsomorphicToStructureGroup}, a torsor with respect to some group can be thought of as a [[heap]]. \end{rmk}
 
@@ -46,7 +46,7 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 
 \end{example}
 
-### Trivialisation
+### Trivialisation {#TrivialisationInSets}
 
 \begin{prpn} \label{PropositionTorsorIsomorphicAsSetToStructureGroup} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. If $T$ is non-empty, it is isomorphic to the underlying set of $G$. \end{prpn}
 
@@ -55,7 +55,7 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 \begin{centre}
   \begin{tikzcd}
     G \ar[r, "id \times t"] \ar[d, swap, "a \circ (id \times t)"] & G \times T \ar[d, "a \times p_2"] \\
-    T \ar[r, swap, "id \times t"] & T 
+    T \ar[r, swap, "id \times t"] & T \times T
   \end{tikzcd} 
 \end{centre}
 
