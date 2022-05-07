@@ -437,9 +437,9 @@ $$
     \;\Leftrightarrow\;
   \underset{n \in \mathbb{N}}{\exists}
   \left(
-     E_1 \otimes_X (X \times k^n)
+     E_1 \oplus_X (X \times k^n)
        \;\simeq\;
-     E_2 \otimes_X (X \times k^n)
+     E_2 \oplus_X (X \times k^n)
   \right)
   \,.
 $$
