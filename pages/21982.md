@@ -78,15 +78,15 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * {#Witten00} [[Edward Witten]], _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A16:693-706, 2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
 
-* [[Greg Moore]], _K-Theory from a physical perspective_, in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal, Cambridge University Press (2004)  ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018), [doi:10.1017/CBO9780511526398.011](https://doi.org/10.1017/CBO9780511526398.011))
+* {#Moore02} [[Greg Moore]], _K-Theory from a physical perspective_, in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal, Cambridge University Press (2004)  ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018), [doi:10.1017/CBO9780511526398.011](https://doi.org/10.1017/CBO9780511526398.011))
 
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
 
-* [[Jarah Evslin]], _What Does(n't) K-theory Classify?_, Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328), [spire:730502](https://inspirehep.net/literature/730502))
+* {#Evslin06} [[Jarah Evslin]], _What Does(n't) K-theory Classify?_, Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328), [spire:730502](https://inspirehep.net/literature/730502))
 
 
-* [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([doi:10.1007/978-3-540-74956-1](https://doi.org/10.1007/978-3-540-74956-1), [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+* {#Fredenhagen08} [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([doi:10.1007/978-3-540-74956-1](https://doi.org/10.1007/978-3-540-74956-1), [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 * [[Fabio Ruffino]], _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
 
