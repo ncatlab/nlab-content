@@ -28,6 +28,7 @@ The [[differential cohomology diagram]] for stable objects in sheaves over the f
 
 ## References
 
+* [[Peter Scholze]], _Answer to 'Cohesion relative to a pyknotic/condensed base'_, ([MathOverflow](https://mathoverflow.net/q/384318/447)).
 
 * {#BarHai19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I.  Basic notions_, ([arXiv:1904.09966](https://arxiv.org/abs/1904.09966))
 
