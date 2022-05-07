@@ -5,13 +5,13 @@
 
 ## Idea
 
-The Hahn--Banach theorem explains why the concept of [[locally convex spaces]] is of interest in the analysis of [[topological vector spaces]]: It ensures that such a space will have enough continuous linear functionals such that the [[dual vector space|topological dual space]] is interesting.
+The Hahn--Banach theorem explains why the concept of [[locally convex spaces]] is of interest in the analysis of [[topological vector spaces]]: It ensures that such a space will have enough [[continuous function|continuous]] [[linear functionals]] such that the [[dual vector space|topological dual space]] is interesting.
 
 ## Statement 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Let $V$ be a [[vector space]] over a [[local field]] $K$ (usually $\mathbb{R}$ or $\mathbb{C}$), equipped with a [[seminorm]] $p: V \to [0, \infty)$. Let $W \subseteq V$ be a subspace, and $f: W \to K$ a [[linear functional]] such that ${|f(x)|} \leq p(x)$ for all $x \in W$, then there exists an [[extension]] of $f$ to a linear functional $g: V \to K$ such that ${|g(x)|} \leq p(x)$ for all $x \in V$. 
+Let $V$ be a [[vector space]] over a [[local field]] $K$ (usually $\mathbb{R}$ or $\mathbb{C}$), equipped with a [[seminorm]] $p: V \to [0, \infty)$. Let $W \subseteq V$ be a [[linear subspace]], and $f: W \to K$ a [[linear functional]] such that ${|f(x)|} \leq p(x)$ for all $x \in W$, then there exists an [[extension]] of $f$ to a linear functional $g: V \to K$ such that ${|g(x)|} \leq p(x)$ for all $x \in V$. 
 =-- 
 
 ## Foundational issues
@@ -22,17 +22,26 @@ The Hahn-Banach theorem can be proven in [[set theory]] with the axiom of choice
 
 However, the Hahn--Banach theorem for [[separable spaces]] is much weaker.  It may be proved constructively using only [[dependent choice]].  
 
-There is also a version of the theorem for [[locales]] proven by [Joan Wick Pelletier](#Pelletier). This constructs a locale of functionals (whose points are the unit ball of the dual space) and proves that it is compact and completely regular.
+There is also a version of the theorem for [[locales]] proven
+in [Pelletier 1991](#Pelletier91). This constructs a locale of functionals (whose points are the unit ball of the dual space) and proves that it is compact and completely regular.
 
 ## Consequences 
+
+(...)
 
 
 
 ## References ##
 
-* Wikipedia on the [Hahn-Banach theorem] (http://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem)
+See also:
 
-* {#Pelletier} Joan Wick Pelletier, [Locales in Functional Analysis](https://www.sciencedirect.com/science/article/pii/002240499190013R)
+* Wikipedia, *[Hahn-Banach theorem] (http://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem)*
+
+Discussion in the generality of [[locales]]:
+
+* {#Pelletier91} Joan Wick Pelletier, *Locales in Functional Analysis*, Journal of Pure and Applied Algebra Volume 70, Issues 1–2, 15 March 1991, Pages 133-145 (<a href="https://doi.org/10.1016/0022-4049(91)90013-R">doi:10.1016/0022-4049(91)90013-R</a>)
+
+
 
 
 [[!redirects Hahn-Banach theorem]]
