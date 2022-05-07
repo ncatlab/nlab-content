@@ -311,6 +311,13 @@ A review of categories of concrete sheaves, with special attention to sheaves on
 
 The characterization of concrete sheaves in terms of the extra right adjoint of a [[local topos]] originated in [discussion](http://nforum.ncatlab.org/comments.php?DiscussionID=1955) with [[David Carchedi]].
 
+Concrete sheaves over trivial sites are called *extensional presheaves* in the following references.
+
+* [[Giuseppe Rosolini]], [[Thomas Streicher]], [Comparing models of higher type computation](https://www.researchgate.net/publication/220366978_Comparing_models_of_higher_type_computation), 1999
+
+* [[Thomas Ehrhard]], [On finiteness spaces and extensional presheaves over the Lawvere theory of polynomials](https://www.researchgate.net/publication/29650819_On_finiteness_spaces_and_extensional_presheaves_over_the_Lawvere_theory_of_polynomials), 2007
+
 [[!redirects concrete sheaves]]
 [[!redirects concrete presheaf]]
+[[!redirects extensional presheaf]]
 [[!redirects concrete presheaves]]
