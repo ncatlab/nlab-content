@@ -78,20 +78,19 @@ While an intuitive understanding for the quantization of the Hall conductance ha
 
 a theoretical derivation of the effect was obtained only much later in
 
-* [[Matthew Hastings]], [[Spyridon Michalakis]], _Quantization of Hall Conductance For Interacting Electrons Without Averaging Assumptions_, Commun. Math. Phys., 334:433–471, (2015) ([arXiv:0911.4706](https://arxiv.org/abs/0911.4706), [doi:10.1007/s00220-014-2167-x](https://doi.org/10.1007/s00220-014-2167-x))
+* [[Matthew Hastings]], [[Spyridon Michalakis]], _Quantization of Hall conductance for interacting electrons without averaging assumptions_, Commun. Math. Phys., 334:433–471, (2015) ([arXiv:0911.4706](https://arxiv.org/abs/0911.4706), [doi:10.1007/s00220-014-2167-x](https://doi.org/10.1007/s00220-014-2167-x))
 
 with closely related results in
 
-* Alessandro Giuliani, Vieri Mastropietro, Marcello Porta, _Universality of the Hall conductivity in interacting electron systems_, Communications in Mathematical Physics volume 349, pages 1107–1161(2017) ([arXiv:1511.04047](https://arxiv.org/abs/1511.04047), [doi:10.1007/s00220-016-2714-8](https://doi.org/10.1007/s00220-016-2714-8))
+* Alessandro Giuliani, Vieri Mastropietro, Marcello Porta, _Universality of the Hall conductivity in interacting electron systems_, Commun. Math. Phys. 349, 1107–1161 (2017) ([arXiv:1511.04047](https://arxiv.org/abs/1511.04047), [doi:10.1007/s00220-016-2714-8](https://doi.org/10.1007/s00220-016-2714-8))
 
 Review of this theory behind the quantum Hall effect:
 
 * Yosi Afron, _Why is the Hall conductance quantized?_, 2017 ([pdf](http://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/17_Avron.pdf), [[AfronQuantumHallEffect.pdf:file]])
 
-* [[Spyridon Michalakis]], _Why is the Hall conductance quantized?_, Nature Reviews Physics volume 2, pages 392–393 (2020) ([doi:10.1038/s42254-020-0212-6](https://doi.org/10.1038/s42254-020-0212-6))
+* [[Spyridon Michalakis]], _Why is the Hall conductance quantized?_, Nature Reviews Physics 2, 392–393 (2020) ([doi:10.1038/s42254-020-0212-6](https://doi.org/10.1038/s42254-020-0212-6))
 
-
-
+* S. Klevtsov, X. Ma, G. Marinescu, P. Wiegmann, _Quantum Hall effect and Quillen metric_ Commun. Math. Phys. 349, 819–855 (2017) [doi](https://doi.org/10.1007/s00220-016-2789-2)
 
 ### Fractional quantum Hall effect
 
@@ -106,7 +105,7 @@ J. Bellissard introduced an approach via [[noncommutative geometry]] and Connes-
 
 In terms of [[Berry phase]] and Chern numbers in 
 
-* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler, _A Topological look at the quantum Hall effect_, Physics Today __56__:8, [doi](http://dx.doi.org/10.1063/1.1611351)
+* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler, _A topological look at the quantum Hall effect_, Physics Today __56__:8, [doi](http://dx.doi.org/10.1063/1.1611351)
 
 Realization via [[AdS/CFT in condensed matter physics]]:
 
