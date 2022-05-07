@@ -35,13 +35,13 @@ $$
 $$
 
 
-The minimal [[Sullivan model]] of a sphere $S^{2k}$ of even dimension, for $k \geq 1$. is the dg-algeba with a generator $\omega_{2k}$ in degree $2k$ and another generator $\omega_{4k-1}$ in degree $4k+1$ with the differential defined by
+The minimal [[Sullivan model]] of a sphere $S^{2k}$ of even dimension, for $k \geq 1$. is the dg-algeba with a generator $\omega_{2k}$ in degree $2k$ and another generator $\omega_{4k-1}$ in degree $4k-1$ with the differential defined by
 
 $$
   d \omega_{2k}= 0
 $$
 $$
-  d \omega_{4k+1} = \omega_{2k}\wedge \omega_{2k}
+  d \omega_{4k-1} = \omega_{2k}\wedge \omega_{2k}
   \,.
 $$
 
