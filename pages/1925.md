@@ -101,6 +101,7 @@ This is even [[constructive mathematics|constructive]]; the theorems can be prov
 * [[Christopher D. Hollings]], [[Mark V. Lawson]], _Wagner’s Theory of Generalised Heaps_, 2017, Springer.  [doi](http://dx.doi.org/10.1007/978-3-319-63621-4)
 
 * [[A. K. Sushkevich]], _Theory of Generalised Groups_, DNTVU, Kharkov-Kiev (1937) (in Russian).
+[[А. К. Сушкевич]], _Теория обобщенных групп_, Государственное научно-техническое издательство Украины, 1937.
 
 * G.M. Bergman, A.O. Hausknecht,
 _Cogroups and co-rings in categories of associative rings_, 
@@ -109,6 +110,8 @@ Ch.IV, paragraph 22, p.95ff  -- Providence, R.I. : AMS 1996.
 * Z. &#352;koda, _Quantum heaps, cops and heapy categories_, Mathematical Communications 12, No. 1, pp. 1--9 (2007); arXiv:[math.QA/0701749](http://arxiv.org/abs/math.QA/0701749)
 
 * Thomas Booker, [[Ross Street]], _Torsors, herds and flocks_, J. Algebra 330 (2011) 346–374 [pdf](https://core.ac.uk/download/pdf/81154582.pdf) [arXiv:0912.4551](https://arxiv.org/abs/0912.4551)
+
+* [[Peter T. Johnstone]], _The ‘closed subgroup theorem’ for localic herds and pregroupoids_, Journal of Pure and Applied Algebra 70 (1991) 97-106.  [doi](http://dx.doi.org/10.1016/0022-4049(91)90010-y).
 
 * [wikipedia:heap](http://en.wikipedia.org/wiki/Heap_%28mathematics%29)
 
