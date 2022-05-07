@@ -1,12 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A generalization of [[homotopy groups]].
+A generalization of the notion of _[[homotopy groups]]_.
 
 ## Definition
 
-Given a [[pointed space]] $X$ and finitely generated [[abelian group]] $A$ and $n\ge2$,
+Given a [[pointed space]] $X$ and [[finitely generated|finitely generated]] [[abelian group]] $A$ and $n\ge2$,
 we set
-$$\pi_n(X,A)=[P^n(A),X],$$
+$$
+  \pi_n(X,A) 
+    \;\coloneqq\; 
+  [P^n(A),X]
+  \,,
+$$
 where
 $P^n(A)$ is the $n$th [[Peterson space]] of $A$
 and $[-,-]$ denotes [[pointed homotopy classes]].
@@ -23,3 +43,6 @@ and $[-,-]$ denotes [[pointed homotopy classes]].
 
 * [[Joseph A. Neisendorfer]], _Homotopy groups with coefficients_, 
 Journal of Fixed Point Theory and Applications 8:2 (2010), 247–338.  [doi:10.1007/s11784-010-0020-1](http://dx.doi.org/10.1007/s11784-010-0020-1).
+
+
+[[!redirects homotopy groups with coefficients]]
