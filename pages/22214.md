@@ -84,4 +84,16 @@ and with emphasis on [classically controlled](quantum+computation#ClassicalContr
 
 * [TensorFlow.org](https://www.tensorflow.org/) (Google), *[Quantum Machine Learning](https://www.tensorflow.org/quantum/concepts#quantum_machine_learning)*
 
+### Applications
+
+There are or will be innumerable applications. Here are some:
+
+To the [[conformal bootstrap]]:
+
+* Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving Conformal Field Theories with Artificial Intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
+
+(...)
+
+
+
 [[!redirects quantum machine learning]]
