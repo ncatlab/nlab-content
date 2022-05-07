@@ -66,6 +66,7 @@ The relationship between monads and adjunctions itself constitutes an adjunction
 
 * [[monadic functor]]
 * [[monadic decomposition]]
+* [[nuclear adjunction]]
 
 ## References
 
