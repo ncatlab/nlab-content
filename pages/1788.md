@@ -1,4 +1,125 @@
 
+Let $\mathcal{C}$ be a [[small category]] and write
+
+\[
+  \label{YonedaEmbedding}
+  \mathcal{C}^{op} 
+  \xhookrightarrow{\;y\;}
+  Funct(\mathcal{C}, Sets)
+\]
+
+for its [[Yoneda embedding]] of its [[opposite category]], which we will mostly regard through its [[opposite functor]]
+
+\[
+  \label{OppositeYonedaEmbedding}
+  \mathcal{C}
+  \xhookrightarrow{\;y^{op}\;}
+  Funct(\mathcal{C}, Sets)^{op} 
+  \,.
+\]
+
+The the *category of pro-objects in $\mathcal{C}$*, according to [Grothendieck 1960, Section 2](#Grothendieck1960) is the [[full subcategory]] of $Funct(\mathcal{C}, Sets)^{op}$ 
+
+$$
+  Pro(\mathcal{C})
+  \xhookrightarrow{\;\;}
+  Funct(\mathcal{C}, Sets)^{op}   
+$$
+
+on those functors which are [[filtered colimits]] of [[representable functors]], hence of the form
+
+\[
+  \label{FilteredColimitOfRepresentables}
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+  y^{op}(X_i)
+  \;\;
+  \coloneqq
+  \;\;
+  \underset{\longrightarrow}{\lim}
+  \big(
+    \mathcal{I}
+    \xrightarrow{\;X_\bullet\;}
+    \mathcal{C}
+    \xrightarrow{\;y^{op}\;}
+    Funct(\mathcal{C}, Sets)^{op}
+  \big)
+  \,,
+\]
+
+for $\mathcal{I}$ a [[filtered category]].
+
+\begin{lemma}
+  The functors (eq:FilteredColimitOfRepresentables)
+  are objectwise on $c \in \mathcal{C}$ given by 
+  $$
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+    y^{op}(X_i)  
+    \;\;
+    \colon
+    \;\;
+    c 
+    \;\mapsto\;
+    \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+    \mathcal{C}(X_i, c)
+    \,.
+  $$
+\end{lemma}
+\begin{proof}
+This is the composite of the following sequence of [[natural isomorphisms]]
+$$
+  \begin{aligned}
+  \Big(
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+  y^{op}(X_i)  
+  \Big)
+  (c) 
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}  
+  X_i(c)
+  \\
+  &
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+  \;
+  Func(\mathcal{C},Sets)
+  \big(
+    y(c), \, y(X_i)
+  \big)
+  \\
+  &
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+  \mathcal{C}^{op}(c, X_i)
+  \\
+  &
+  \;\simeq\;
+  \underset{\underset{i \in \mathcal{I}}{\longrightarrow}}{\lim}   
+  \mathcal{C}(X_i, c)
+  \mathrlap{\,,}
+  \end{aligned}
+$$
+where
+
+* the first step uses that [[colimits of presheaves are computed objectwise]];
+
+* the second step is the [[Yoneda lemma]];
+
+* the third step is the [[Yoneda embedding]] (eq:YonedaEmbedding);
+
+* the fourth steo is the definition of the [[opposite category]].
+
+\end{proof}
+
+
+This implies that the [[hom-sets]] in $Pro(\mathcal{C})$ are given by
+
+$$
+  Pro(\mathcal{C})
+  \big(
+  \big)
+$$
+
+
 $$
 \begin{aligned}
     \tau_0
