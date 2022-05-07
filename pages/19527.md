@@ -67,6 +67,8 @@ Looked at geometrically, this will be the [[fundamental group]] of the   Cayley 
 
 * [[graph distance]]
 
+  * [[Cayley distance]], [[Kendall distance]]
+
 * [[identity among the relations]]
 
 
