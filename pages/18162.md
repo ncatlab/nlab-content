@@ -1984,7 +1984,7 @@ close to [[separation axioms#Reflection]].
 
 In terms of Quillen negation we can understand the [[compactly generated topological space#kSpacesAreTheColimitsInTopOfCompactHausdorffSpaces|$k$-coreflection $kTop\to Top$ from the category of compactly generated spaces]] as follows.
 
-Let $(CHaus)=\{\varnothing\to K\,\,:\,\,K\,\,\text{is compact Hausdorff}\,\}$.
+Let $(CHaus)=\big(\{0,1\}\to\{0=1\}\cup\{\varnothing\to K\,\,:\,\,K\,\,\text{is compact Hausdorff}\,\}\big)$.
 
 First notice it holds 
 $k(X) \xrightarrow{(CHaus)^{&solb;r}}X$.
