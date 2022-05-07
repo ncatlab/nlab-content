@@ -1828,11 +1828,14 @@ $$
 
 =--
 
-+-- {: .num_lemma #ReExpressingMiddleFunctorInAdjointTriple}
-###### Lemma
-**(pre/post-[[composition]] with ([[adjunction counit|co-]])[[adjunction unit|unit]] followed by [[adjunct]] is [[adjoint functor]])**
 
-If a [[functor]] $C$ is a [[right adjoint]]
+
+
+
+\begin{lemma}\label{ReExpressingMiddleFunctorInAdjointTriple}
+**(pre/post-[[composition]] with ([[adjunction counit|co-]])[[adjunction unit|unit]] followed by [[adjunct]] is [[adjoint functor]])**
+\linebreak
+If a [[functor]] $C$ is the [[right adjoint]]
 
 $$
   L \dashv C
@@ -1846,14 +1849,17 @@ $$
   \mathcal{D}
 $$
 
-of a [[adjoint pair|pair]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), then application of the [[functor]] $C$ on any [[morphism]] $X \overset{f}{\to} Y \;\;\in \mathcal{C}$ is equal the joint operation of
+in a [[adjoint pair|pair]] of [[adjoint functors]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), then its application to any [[morphism]] $X \overset{f}{\to} Y \;\;\in \mathcal{C}$ is equal to the joint operation of
 [[composition|pre-composition]] with the $(L \dashv C)$-[[adjunction counit]] $\epsilon^\flat_{X}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the  $(L \dashv C)$-[[adjunct]]:
 
+
 $$
-  \widetilde{\eta^\sharp_{Y} \circ (-)}
+  C_{X, Y}
   \;=\;
-  C_{X, Y}  
+  \widetilde{ (-) \circ \epsilon^\flat_{X} }
+  \,.
 $$
+
 
 Dually, if $C$ is a [[left adjoint]]
 
@@ -1872,11 +1878,12 @@ $$
 then its action on any [[morphism]] $X \overset{f}{\to} Y \;\;\in \mathcal{C}$ equals the joint operation of [[composition|post-composition]] with the $(C \dashv R)$-[[adjunction unit]] $\eta^{ \sharp }_{Y}$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}), followed by passing to the $(C \dashv R)$-[[adjunct]]:
 
 $$
-  C_{X, Y}
+  \widetilde{\eta^\sharp_{Y} \circ (-)}
   \;=\;
-  \widetilde{ (-) \circ \epsilon^\flat_{X} }
+  C_{X, Y}  
   \,.
 $$
+
 
 In particular, if $C$ is the middle functor in an [[adjoint triple]] (Remark \ref{AdjointTriples})
 
@@ -1884,6 +1891,7 @@ $$
   L \dashv C \dashv R
   \;\;\colon\;\;
   \mathcal{C}
+  \;\;
     \array{
       \overset{\phantom{AA} L \phantom{AA} }{\longleftarrow}
       \\
@@ -1891,6 +1899,7 @@ $$
       \\
       \overset{\phantom{AA} R \phantom{AA} }{\longleftarrow}
     }
+  \;\;
   \mathcal{D}
 $$
 
@@ -1906,28 +1915,66 @@ then these two operations coincide:
   \,.
 \]
 
-=--
+\end{lemma}
 
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 For the first equality, consider the following [[naturality square]] (eq:Naturality) for the adjunction hom-isomorphism (eq:HomIsomorphismForAdjointFunctors):
 
 $$
   \array{
-    Hom_{\mathcal{D}}( C Y , C Y )
-    &\overset{\widetilde {(-)}}{\longrightarrow}&
-    Hom_{\mathcal{C}}( Y, R C Y )
+    Hom_{\mathcal{D}}\big( C (X) ,\, C (X) \big)
+    &\overset{\widetilde { (-) }}{\longrightarrow}&
+    Hom_{\mathcal{C}}\big( L C (X)  ,\, X \big)
     \\
-    {}^{\mathllap{ Hom_{\mathcal{D}}(C(f), C Y) }}
+    {}^{\mathllap{ Hom_{\mathcal{D}}\big( C (id_X) ,\, C(f) \big)  }}
+    \big\downarrow
+    &&
+    \big\downarrow {}^{ \mathrlap{ Hom_{X}\big( L C (id_X) ,\, f \big)
+} }
+    \\
+    Hom_{\mathcal{D}}\big( C (X) ,\, C (Y) \big)
+    &\overset{ \widetilde{ (-) } }{\longleftarrow}&
+    Hom_{\mathcal{C}    }( L C (X) ,\, Y )
+  }
+  \phantom{AAAAA}
+  \array{
+     \{ C X \overset{id_{C X}}{\to} C X \}
+     &\longrightarrow&
+     \{ L C X \overset{\epsilon^{\flat}_X}{\to} X \}
+     \\
+     \big\downarrow
+       &&
+     \big\downarrow
+     \\
+     \{ C X \overset{C(f)}{\to} C(Y) \}
+     &\longleftarrow& \{ L C X \overset{f\circ \epsilon^\flat_{X}  }{\longrightarrow} Y\}
+  }
+$$
+
+
+
+
+Chasing the [[identity morphism]] $id_{C Y}$ through this diagram, yields the claimed equality, as shown on the right. Here we use that the left [[adjunct]] of the [[identity morphism]] is the [[adjunction counit]], as shown.
+
+The second equality is [[formal duality|fomally dual]]:
+
+$$
+  \array{
+    Hom_{\mathcal{D}}
+    \big( C Y ,\, C Y \big)
+    &\overset{\widetilde {(-)}}{\longrightarrow}&
+    Hom_{\mathcal{C}}
+    \big( Y ,\, R C Y \big)
+    \\
+    {}^{\mathllap{ Hom_{\mathcal{D}}\big(C(f), C(id_Y)\big) }}
     \big\downarrow
     &&
     \!\!\!\!\!
-    \big\downarrow^{\mathrlap{ Hom_{\mathcal{C}}( f, R C Y ) }}
+    \big\downarrow {}^{\mathrlap{ Hom_{\mathcal{C}}\big( f, R C (id_Y) \big) }}
     \\
-    Hom_{\mathcal{D}}( C X, C Y )
+    Hom_{\mathcal{D}}\big( C(X),\, C(Y) \big)
     &\overset{\widetilde{ (-) }}{\longleftarrow}&
-    Hom_{\mathcal{C}}( X, R C Y )
+    Hom_{\mathcal{C}}\big( X, R C (Y) \big)
   }
   \phantom{AAAAA}
   \array{
@@ -1945,42 +1992,9 @@ $$
   }
 $$
 
-Chasing the [[identity morphism]] $id_{C Y}$ through this diagram, yields the claimed equality, as shown on the right. Here we use that the right [[adjunct]] of the [[identity morphism]] is the [[adjunction unit]], as shown.
+\end{proof}
 
-The second equality is [[formal duality|fomally dual]]:
 
-$$
-  \array{
-    Hom_{\mathcal{D}}( C X, C X)
-    &\overset{\widetilde { (-) }}{\longrightarrow}&
-    Hom_{\mathcal{C}}( L C X  , X)
-    \\
-    {}^{\mathllap{ Hom_{\mathcal{D}}( C X, C(f) )  }}
-    \big\downarrow
-    &&
-    \big\downarrow^{ \mathrlap{ Hom_{X}( L C X, f )
-} }
-    \\
-    Hom_{\mathcal{D}}( C X, C Y )
-    &\overset{ \widetilde{ (-) } }{\longleftarrow}&
-    Hom_{\mathcal{C}    }( L C X, Y )
-  }
-  \phantom{AAAAA}
-  \array{
-     \{ C X \overset{id_{C X}}{\to} C X \}
-     &\longrightarrow&
-     \{ L C X \overset{\epsilon^{\flat}_X}{\to} X \}
-     \\
-     \big\downarrow
-       &&
-     \big\downarrow
-     \\
-     \{ C X \overset{C(f)}{\to} C(Y) \}
-     &\longleftarrow& \{ L C X \overset{f\circ \epsilon^\flat_{X}  }{\longrightarrow} Y\}
-  }
-$$
-
-=--
 
 
 
