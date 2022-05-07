@@ -65,7 +65,7 @@ In contrast to that situation, however, the lax-idempotent situation is of inter
 
 ## References
 
-* [[Marta Bunge]] and [[Jonathon Funk]], *Singular Coverings of Toposes*.  In this book the notion is called a "KZ adjointness" and defined by both (1) *and* (6).
+* [[Marta Bunge]] and [[Jonathon Funk]], *Singular Coverings of Toposes*.  In this book the notion is called a "KZ-adjointness" and defined by both (1) *and* (6).
 
 [[!redirects lax-idempotent 2-adjunction]]
 [[!redirects lax-idempotent 2-adjunctions]]
