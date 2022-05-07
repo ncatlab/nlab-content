@@ -89,7 +89,7 @@ appears, already with the non-abelian generality in mind, back in [Whitehead 194
 For [[abelian group|abelian]] $\Gamma$ the definition is picked up in [MacLane 1975, IV (2.1)](#MacLane75) and many following references on [[group cohomology]], e.g. [Brown 1982, p. 45](#Brown82).
 For general [[non-abelian group|non-abelian]] $\Gamma$ the notion is later used in [Murayama & Shimakawa 1995](#MurayamaShimakawa95) for discussion of [[equivariant principal bundles]]. 
 In the context of [[nonabelian group cohomology]] it is reviewed in [Gille & Szamuely, 2006, (1) on p. 25](#GilleSzamuely06).
-Another textbook account is in [Milne 2017, 15.a](#Milne17), aimed at application to [[algebraic groups]].
+Another textbook account is in [Milne 2017, 15.a (16.a) in the pdf](#Milne17), aimed at application to [[algebraic groups]].
 \end{remark}
 
 \begin{example}
@@ -134,7 +134,7 @@ $$
   \,.
 $$
 \end{proposition}
-(e.g. [Brown 1982, p. 88](#Brown82), [NSW 2008, Ex. 1 on p. 24](#NSW08), [Milne 2017, Exp. 15.1 (16.1 in the pdf)](#Milne17))
+(e.g. [Brown 1982, p. 88](#Brown82), [NSW 2008, Ex. 1 on p. 24](#NSW08), [Milne 2017, Ex. 15.1 (16.1 in the pdf)](#Milne17))
 \begin{proof}
   By immediate unwinding of the definition of the [[semidirect product group]], such a section is an assignment
   $$
@@ -867,7 +867,7 @@ As 1-[[cocycles]] in [[non-abelian group cohomology]]:
 
 * {#GilleSzamuely06} [[Philippe Gille]], [[Tamás Szamuely]], Def. 2.3.2 in: *Central Simple Algebras and Galois Cohomology*, Cambridge University Press  2006 ([doi:10.1017/CBO9780511607219](https://doi.org/10.1017/CBO9780511607219), [pdf](http://www.math.ens.fr/~benoist/refs/Gille-Szamuely.pdf))
 
-* {#Milne17} [[James Milne]], Sections 16.a-b & 27.a (15.a-b in the published version) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+* {#Milne17} [[James Milne]], Sec. 15.a-b & 3.k (16.a-b & 27.a in the [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf)) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
 
 * [[Groupprops]], *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
