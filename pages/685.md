@@ -177,6 +177,8 @@ Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, app
 
 * [[coherence for bicategories with finite limits]]
 
+* [[representable 2-category]]
+
 ## References 
 
 * {#StreetLimitsIndexed} [[Ross Street]], _Limits indexed by category-valued 2-functors_ Journal of Pure and Applied Algebra **8**, Issue 2 (1976) pp 149-181. doi:[10.1016/0022-4049(76)90013-X](https://doi.org/10.1016/0022-4049(76%2990013-X)
