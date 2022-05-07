@@ -142,7 +142,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * [[subfield]]
 
-* [[ring]]
+* [[ring]], [[integral domain]]
 
 * [[finite field]], [[field with one element]]
 
