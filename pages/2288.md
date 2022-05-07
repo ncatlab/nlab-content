@@ -92,7 +92,7 @@ The original direct definitions of the [[stable homotopy category]] (for precurs
 
 * {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
 
-Early accounts include
+Early accounts:
 
 * {#Vogt69} [[Rainer Vogt]], _Boardman's stable homotopy category_, lectures, spring 1969
 
@@ -104,12 +104,11 @@ Early accounts include
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-A fun scan of the (pre-)history of the [[stable homotopy category]] is in 
+A fun scan of the (pre-)history of the [[stable homotopy category]]:
 
 * [[Peter May]], _The hare and the hedgehog_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
 
-Quick surveys include
-
+Quick surveys:
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](https://people.math.binghamton.edu/malkiewich/stable.pdf), [[MalkiewichStableHomotopyCategory.pdf:file]])
 
@@ -117,20 +116,22 @@ Quick surveys include
 
 * [[Aaron Mazel-Gee]], _An introduction to spectra_ ([pdf](https://math.berkeley.edu/~aaron/writing/an-introduction-to-spectra.pdf))
 
-Lecture notes include
+Lecture notes:
 
 * [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
 
-
-* [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]]_
+* [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]]_, Bonn 2016
 
 * [[David Barnes]], [[Constanze Roitzheim]], _Foundations of Stable Homotopy Theory_, Cambridge University Press 2020 ([doi:10.1017/9781108636575](https://doi.org/10.1017/9781108636575))
 
-See also
+* [[Denis Nardin]], _Introduction to stable homotopy theory_, Regensburg 2021 ([webpage](https://homepages.uni-regensburg.de/~nad22969/stable-homotopy-theory2020.php), [pdf](https://homepages.uni-regensburg.de/~nad22969/stable-homotopy-2020/stable-homotopy.pdf), [video](https://www.youtube.com/watch?v=v5Rr_Z8QsOs&list=PLQuS12Ap6va-VgI5cdIjdHquIH3sLCLdJ))
+
+
+See also:
 
 * Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
 
-Comprehensive discussion of model with [[symmetric monoidal smash product of spectra]] are 
+Models with [[symmetric monoidal smash product of spectra]]:
 
 for [[S-modules]]:
 
