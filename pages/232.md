@@ -214,7 +214,7 @@ Another difference is that for $K$-enriched categories, $K$ can be any monoidal 
 
 Nevertheless, internalization and enrichment are related in several ways.  On the one hand, internal categories and enriched categories are both instances of [[monad|monads]] in bicategories (the bicategory of spans and the bicategory of matrices, respectively) and so are both forms of [[generalized multicategory]].  On the other hand, when $K$ is an $\infty$-[[extensive category]], such as [[Set]] or [[simplicial set|simplicial sets]] (or more generally any [[Grothendieck topos]]), (small) $K$-enriched categories can be identified with $K$-internal categories whose object-of-objects is discrete (that is, a coproduct of copies of the terminal object).
 
-The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#relationship_to_enriched_categories) mentions internalization and enrichment being the result of applying two different interpretation techniques to the same theory. 
+Internalization and enrichment may also be understood as the result of interpreting the theory of categories seen respectively as an [[essentially algebraic theory]] and as a [generalized algebraic theory](generalized+algebraic+theory#relationship_to_enriched_categories). 
 
 See also at [internal category](internal+category#InternalAndEnrichedCategories).
 
