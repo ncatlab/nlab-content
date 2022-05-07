@@ -17,6 +17,8 @@
 
 There is supposed to be a $(p=3)$-[[brane]] in 6-dimensional [[supersymmetry|super]]-[[spacetime]] given by the [[Green-Schwarz action functional]] induced by the exceptional super Lie algebra $(3+2)$-cocycle on $\mathfrak{siso}(5,1)$ ([Hughes-Liu-Polchinski 86](#HughesLiuPolchinski86)).
 
+Since this brane has [[codimension]] 2, it is a *[[defect brane]]*.
+
 ## Related concepts
 
 * [[D3-brane]], [[self-dual string]]
