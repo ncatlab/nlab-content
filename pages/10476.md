@@ -24,18 +24,19 @@
 
 ## Idea
 
-_Elmendorf's theorem_  states that for $G$ a [[topological group]], then the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] ([[G-spaces]]) at the _[[weak homotopy equivalences]] on [[fixed point spaces]]_ (also presented by [[G-CW complexes]], see at _[[equivariant homotopy theory]]_ for more).
+_Elmendorf's theorem_  ([Elmendorf 83](#Elmendorf83), [Guillou 06, Prop. 3.15](#Guillou06)) states that for $G$ a [[finite group]], the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] ([[G-spaces]]) at the _[[weak homotopy equivalences]] on [[fixed point spaces]]_ (also presented by [[G-CW complexes]], see at _[[equivariant homotopy theory]]_ for more).
 
-More in detail, for $G$ a [[topological group]], write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]]. Say that a [[continuous map]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** if for any [[closed subspace|closed subgroup]] $H \hookrightarrow G$, the induced function on $H$-[[fixed point spaces]] $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
+More in detail, write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]] ([[G-spaces]]). Say that a $G$-[[equivariant function|equivariant]] [[continuous function]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** if for akk [[closed subspace|closed subgroups]] $H \hookrightarrow G$ the induced function on $H$-[[fixed point spaces]] $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
 
 $$
-  Top^G[\{weak\,G-homotopy\;equivalences\}^{-1}]
-  \in (\infty,1)Cat
+  L_{G whe} Top^G
+  \;\in\; 
+  (\infty,1)Cat
 $$
 
 for the corresponding [[simplicial localization]].
 
-Next, write $Orb_G$ for the [[full subcategory]] of $Top^G$ on the $G$-[[homogeneous spaces]] of the form $G/H$, but regarded as an [[(∞,1)-category]] by regarding each [[compact-open topology|hom-space]] as its [[homotopy type]]. Write moreover $Top^{Orb_G}$ for the category of [[continuous function|continuous]] functors $Orb_G^{op} \longrightarrow Top$. Write finally
+Next, write $Orb_G$ for the [[full subcategory]] of $Top^G$ on the $G$-[[homogeneous spaces]] of the form $G/H$, but regarded as an [[(∞,1)-category]] by regarding each [[compact-open topology|hom-space]] as its [[homotopy type]]. Write moreover $Top^{Orb_G}$ for the category of [[continuous function|continuous]] [[functors]] $Orb_G^{op} \longrightarrow Top$. Write finally
 
 $$
   PSh_\infty(Orb_G)
@@ -53,21 +54,30 @@ $$
   \,.
 $$
 
+\begin{remark}
+This is stated in [Elmendorf 83](#Elmendorf83) as an [[equivalence of categories|equivalence]] of [[homotopy categories]] and refined in [Guillou 06, Prop. 3.15](#Guillou06) to a [[Quillen equivalence]] of [[presentable (infinity,1)-category|presenting]] [[model categories]].
+
+Notice that [Elmendorf 83](#Elmendorf83) allows $G$ more generally to be a [[compact Lie group]], while [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) claim that the equivalence of [[homotopy categories]] works even for any [[topological group]].
+
+However, [Guillou 06](#Guillou06) assumes $G$ to be a [[finite group]] to get an actual [[Quillen equivalence]] ([Guillou 06, Prop. 3.15](#Guillou06)).
+
+While [Stephan 13](#Stephan13) claims that [Piacenza 91](#Piacenza91) also gives a [[Quillen equivalence]], this is not what [Piacenza 91, Thm. 6.3](#Piacenza91) actually states. (What is stated goes in the direction of claiming that the [[derived adjunction]] is an equivalence, but does it go all the way?)
+
+\end{remark}
 
 +-- {: .num_remark}
 ###### Remark
 
-In particular the theorem hence asserts that the $G$-[[equivariant homotopy theory]] is an [[(∞,1)-topos]].
+In particular this implies that the $G$-[[equivariant homotopy theory]] is an [[(∞,1)-topos]].
 
 =--
-
 
 
 
 ## Model category presentation / Quillen equivalence
  {#ModelCategoryPresentation}
 
-A version of the theorem that applies fairly generally for ([[discrete group|discrete]]) [[group objects]] in suitable [[cofibrantly generated model categories]] is in ([Guillou 06](#Guillou), [Stephan 10](#Stephan10), [Stephan 13](#Stephan13)).
+A version of the theorem that applies fairly generally for ([[discrete group|discrete]]) [[group objects]] in suitable [[cofibrantly generated model categories]] is in ([Guillou 06](#Guillou06), [Stephan 10](#Stephan10), [Stephan 13](#Stephan13)).
 
 +-- {: .num_defn}
 ###### Definition
@@ -84,7 +94,7 @@ A _cellular fixed point functor_ on $\mathcal{C}$ is ...
 
 =--
 
-([Guillou 06, def. 3.7](#Guillou))
+([Guillou 06, def. 3.7](#Guillou06))
 
 +-- {: .num_example}
 ###### Example
@@ -101,7 +111,7 @@ The [[fixed point spaces]]-functors on the following kinds of model categories a
 
 =--
 
-([Guillou 06, section 4](#Guillou))
+([Guillou 06, section 4](#Guillou06))
 
 
 +-- {: .num_defn}
@@ -111,7 +121,7 @@ For $\mathcal{C}$ a [[cofibrantly generated model category]] with cellular fixed
 
 =--
 
-([Guillou 06, theorem 3.12](#Guillou))
+([Guillou 06, theorem 3.12](#Guillou06))
 
 
 Write $Orb_G$ for the [[orbit category]] of $G$.
@@ -147,7 +157,7 @@ $$
 
 =--
 
-([Guillou 06, prop. 3.15](#Guillou), [Stephan 13, Theorem 3.17](#Stephan13))
+([Guillou 06, prop. 3.15](#Guillou06), [Stephan 13, Theorem 3.17](#Stephan13))
 
 ## Generalizations
 
@@ -190,28 +200,27 @@ The "fine" homotopical structure on [[G-spaces]] (with fixed-point-wise weak equ
 
 * {#Bredon67} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967.
 
-The equivalence of the homotopy theory ([[homotopy category]]) of that to presheaves over the orbit category is then due to
+The equivalence of its [[homotopy category]] to that of presheaves over the orbit category is then due to:
 
-* [[Anthony Elmendorf]], _Systems of fixed point sets_, Trans. Amer. Math. Soc., 277(1):275&#8211;284, 1983 ([jstor:1999356](https://www.jstor.org/stable/1999356))
+* {#Elmendorf83} [[Anthony Elmendorf]], _Systems of fixed point sets_, Trans. Amer. Math. Soc., 277(1):275&#8211;284, 1983 ([jstor:1999356](https://www.jstor.org/stable/1999356))
 
-which considered all closed subgroups of $G$.  Also
+Generalization of [Elmendorf 83](#Elmendorf83) to more general topological groups is claimed in:
 
-* {#Piacenza91} [[Robert Piacenza]], section 6 of _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([[Piazenza91.pdf:file]])
+* {#Piacenza91} [[Robert Piacenza]], Section 6 of: _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([doi:10.4153/CJM-1991-046-3](https://doi.org/10.4153/CJM-1991-046-3), [[Piazenza91.pdf:file]])
 
-  also chapter VI of [[Peter May]] et al, _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+* {#May96} [[Peter May]] et al., Section V.3 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics Volume: 91; 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
 
-The generalization of the proof to other choices of families of subgroups is due to
+Refinement of the equivalence of homotopy categories to a [[Quillen equivalence]] of [[model categories]]:
 
-* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ With contributions by M. Cole, G. Comezaa, S. Costenoble, A. D. Elmendorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. Number 91 in CBMS Regional Conference Series in
-Mathematics. Published for the Conference Board of the Mathematical Sciences, Washington, DC; by the American Mathematical Society, Providence, RI, 1996
+* {#Guillou06} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouEquivariantHomotopy.pdf:file]])
 
-Discussion in terms of [[Quillen equivalence]] of [[model categories]] is due to
+* {#Stephan10} [[Marc Stephan]], 
 
-* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouEquivariantHomotopy.pdf:file]])
+  _Elmendorf’s Theorem via Model Categories_,  2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msproject.2010.pdf)) 
 
-* {#Stephan10} [[Marc Stephan]], _Elmendorf’s Theorem via Model Categories_,  2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msproject.2010.pdf)) --  _Elmendorf’s Theorem for Cofibrantly Generated Model Categories_ MS thesis, Zurich 2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msthesis.2010.pdf))
+  _Elmendorf’s Theorem for Cofibrantly Generated Model Categories_ MS thesis, Z&uuml;rich 2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msthesis.2010.pdf))
 
-* {#Stephan13} [[Marc Stephan]], _On equivariant homotopy theory for model categories_, Homology Homotopy Appl. 18(2) (2016) 183-208 ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856))
+* {#Stephan13} [[Marc Stephan]], _On equivariant homotopy theory for model categories_, Homology Homotopy Appl. 18(2) (2016) 183-208 ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856), [doi:10.4310/HHA.2016.v18.n2.a10](https://dx.doi.org/10.4310/HHA.2016.v18.n2.a10))
 
 
 A generalization to [[orbispaces]] is discussed in 
