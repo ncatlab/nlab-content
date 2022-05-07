@@ -1,4 +1,7 @@
 
+
+
+
 \begin{prop}
   Given a pair of [[adjoint functors]], $L \dashv R$, if there is any [[natural isomorphism]] $L \circ R \underoverset{\sim}{\phi}{\longrightarrow} id$ then the [[adjunction counit]] is an isomorphism: $L \circ R \underoverset{\epsilon}{\sim}{\longrightarrow} id$.
 \end{prop}
