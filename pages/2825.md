@@ -73,10 +73,15 @@ On [[quasi-categories]]:
 
 * {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf), [[RezkQuasicategories.pdf:file]])
 
+On [[compactly generated topological spaces]]:
+
+* [[Charles Rezk]], *Compactly Generated Spaces*, 2018 ([pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]])
+
+
 On [[spectral algebraic geometry]]:
 
-
 * [[Charles Rezk]], *Spectral algebraic geometry* ([pdf](https://faculty.math.illinois.edu/~rezk/sag-chapter-web.pdf)) in:  [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press
+
 
 
 ## Related $n$Lab entries
