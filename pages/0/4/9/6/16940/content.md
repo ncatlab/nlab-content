@@ -12,6 +12,8 @@ $$
 
 * [[Gaussian integral]]
 
+* [[quadratic function]]
+
 ##  References
 
 * Wikipedia, _[Completing the square](https://en.wikipedia.org/wiki/Completing_the_square)_
