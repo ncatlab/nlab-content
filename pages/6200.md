@@ -40,7 +40,7 @@ Let $R$ be an [[Archimedean integral domain]] with the [[integers]] $\mathbb{Z} 
 An element $r \in R$ is irrational if for all $a \in \mathbb{Z}$ and $b \in \mathbb{Z}$, $\vert a \vert \gt 0$ and $\vert a \cdot r - b \vert \gt 0$. 
 
 The set of __irrational numbers__ in $R$ is defined as
-$$\mathbb{J}_R \coloneqq \{r \in R \vert (\vert a \vert \gt 0) \wedge (\vert a \cdot r - b \vert \gt 0) \}$$
+$$\mathbb{J}_R \coloneqq \{r \in R \vert \forall a, b \in \mathbb{Z}. (\vert a \vert \gt 0) \wedge (\vert a \cdot r - b \vert \gt 0) \}$$
 
 ### In integral domains with a p-adic norm
 
@@ -49,7 +49,7 @@ Let $R$ be an [[integral domain]] with a [[p-adic norm]] $\vert(-)\vert_p$ for a
 An element $r \in R$ is irrational if for all $a \in \mathbb{Z}$ and $b \in \mathbb{Z}$, $\vert a \vert_p \gt 0$ and $\vert a \cdot r - b \vert_p \gt 0$. 
 
 The set of __irrational numbers__ in $R$ is defined as
-$$\mathbb{J}_R \coloneqq \{r \in R \vert (\vert a \vert_p \gt 0) \wedge (\vert a \cdot r - b \vert_p \gt 0) \}$$
+$$\mathbb{J}_R \coloneqq \{r \in R \vert \forall a, b \in \mathbb{Z}. (\vert a \vert_p \gt 0) \wedge (\vert a \cdot r - b \vert_p \gt 0) \}$$
 
 ## History
 
