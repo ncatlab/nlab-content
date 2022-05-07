@@ -1,5 +1,3 @@
-[[!redirects Pi modality]]
-[[!redirects Pi-closed morphism]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -21,7 +19,7 @@
 
 ## Idea
 
-In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-functor|fully faithful]] [[inverse image]] (such as a [[cohesive (∞,1)-topos]]), the extra [[left adjoint]] $\Pi$ to the [[inverse image]] $Disc$ of the [[global sections]] [[geometric morphism]] $\Gamma$ induces a  [[higher modality]] $&#643; \coloneqq Disc \circ \Pi$, which sends an [[object]] to something that may be regarded equivalently as its [[geometric realization]] or its [[fundamental ∞-groupoid]] (see at _[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]]_ and at _[[shape via cohesive path ∞-groupoid]]_). In either case $&#643; X$ may be thought of as the _[[shape]]_ of $X$ and therefore one may call $&#643;$ the _shape modality_.  It forms an [[adjoint modality]] with the [[flat modality]] $\flat \coloneqq Disc \circ \Gamma$.
+In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-functor|fully faithful]] [[inverse image]] (such as a [[cohesive (∞,1)-topos]]), the extra [[left adjoint]] $\Pi$ to the [[inverse image]] $Disc$ of the [[global sections]] [[geometric morphism]] $\Gamma$ induces a  [[higher modality]] $\esh \coloneqq Disc \circ \Pi$, which sends an [[object]] to something that may be regarded equivalently as its [[geometric realization]] or its [[fundamental ∞-groupoid]] (see at _[[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]]_ and at _[[shape via cohesive path ∞-groupoid]]_). In either case $\esh X$ may be thought of as the _[[shape]]_ of $X$ and therefore one may call $\esh$ the _shape modality_.  It forms an [[adjoint modality]] with the [[flat modality]] $\flat \coloneqq Disc \circ \Gamma$.
 
 
 
@@ -30,19 +28,19 @@ In a [[locally ∞-connected (∞,1)-topos]] with [[full and faithful (∞,1)-fu
 
 ### Relative shape and factorization system
 
-Generally, given an [[(∞,1)-topos]] $\mathbf{H}$ (or just a 1-[[topos]]) equipped with an [[idempotent monad]] $&#643; \colon \mathbf{H} \to \mathbf{H}$ (a [[modal type theory|(higher) modality]]/[[closure operator]]) which preserves [[(∞,1)-pullbacks]] over objects in its [[essential image]], one may call a [[morphism]] $f \colon X \to Y$ in $\mathbf{H}$ _$&#643;$-closed_ if the [[unit of an adjunction|unit]]-diagram
+Generally, given an [[(∞,1)-topos]] $\mathbf{H}$ (or just a 1-[[topos]]) equipped with an [[idempotent monad]] $\esh \colon \mathbf{H} \to \mathbf{H}$ (a [[modal type theory|(higher) modality]]/[[closure operator]]) which preserves [[(∞,1)-pullbacks]] over objects in its [[essential image]], one may call a [[morphism]] $f \colon X \to Y$ in $\mathbf{H}$ _$\esh$-closed_ if the [[unit of an adjunction|unit]]-diagram
 
 $$
   \array{
-    X &\stackrel{\eta_X}{\to}& &#643;(X)
+    X &\stackrel{\eta_X}{\to}& \esh(X)
     \\
-    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{&#643;(f)}}
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\esh(f)}}
     \\
-    Y &\stackrel{\eta_Y}{\to}& &#643;(Y)
+    Y &\stackrel{\eta_Y}{\to}& \esh(Y)
   }
 $$
 
-is an [[(∞,1)-pullback]] diagram. These $&#643;$-closed morphisms form the right half of an [[orthogonal factorization system]], the left half being the morphisms that are sent to [[equivalence in an (∞,1)-category|equivalences]] in $\mathbf{H}$.
+is an [[(∞,1)-pullback]] diagram. These $\esh$-closed morphisms form the right half of an [[orthogonal factorization system]], the left half being the morphisms that are sent to [[equivalence in an (∞,1)-category|equivalences]] in $\mathbf{H}$.
 
 
 
@@ -50,17 +48,17 @@ is an [[(∞,1)-pullback]] diagram. These $&#643;$-closed morphisms form the rig
 +-- {: .num_defn}
 ###### Definition
 
-Let $(\Pi\dashv \Disc\dashv \Gamma):H\to\infty\Grpd$ be an [[infinity-connected (infinity,1)-topos]], let $&#643;:=\Disc \Pi$ be the geometric path functor / geometric homotopy functor, let $f:X\to Y$ be a $H$-morphism, let $c_{&#643;} f$ denote the ∞-pullback
+Let $(\Pi\dashv \Disc\dashv \Gamma):H\to\infty\Grpd$ be an [[infinity-connected (infinity,1)-topos]], let $\esh:=\Disc \Pi$ be the geometric path functor / geometric homotopy functor, let $f:X\to Y$ be a $H$-morphism, let $c_{\esh} f$ denote the ∞-pullback
 
 
-$$\array{c_{&#643;} f&\to& {&#643;} X\\\downarrow&&\downarrow^{{&#643;}_f}\\Y&\xrightarrow{1_{(\Pi\dashv \Disc)}}&{&#643;}Y}$$
+$$\array{c_{\esh} f&\to& {\esh} X\\\downarrow&&\downarrow^{{\esh}_f}\\Y&\xrightarrow{1_{(\Pi\dashv \Disc)}}&{\esh}Y}$$
 
-$c_{&#643;} f$ is called $&#643;$**-closure of** $f$.
+$c_{\esh} f$ is called $\esh$**-closure of** $f$.
 
-$f$ is called $&#643;$**-closed** if $X\simeq c_{&#643;}f$.
+$f$ is called $\esh$**-closed** if $X\simeq c_{\esh}f$.
 =--
 
-If a morphism $f:X\to Y$ factors into $f=g\circ h$ and $h$ is a $&#643;$-equivalence then $g$ is $&#643;$-closed; this is seen by using that $&#643;$ is idempotent.
+If a morphism $f:X\to Y$ factors into $f=g\circ h$ and $h$ is a $\esh$-equivalence then $g$ is $\esh$-closed; this is seen by using that $\esh$ is idempotent.
 
 
 
@@ -68,7 +66,7 @@ $\Pi$-closed morphisms are a right class of an [[orthogonal factorization system
 
 ### As open maps
 
-A consequence of the previous property is that the class of $&#643;$-closed morphisms gives rise to an admissible structure in the sense of [[structured (infinity,1)-topos|structured spaces]] on an (∞,1)-connected (∞,1)-topos, hence they serve as a class of a kind of [[open maps]].
+A consequence of the previous property is that the class of $\esh$-closed morphisms gives rise to an admissible structure in the sense of [[structured (infinity,1)-topos|structured spaces]] on an (∞,1)-connected (∞,1)-topos, hence they serve as a class of a kind of [[open maps]].
 
 ### Shape via cohesive path ∞-groupoid
 
@@ -79,18 +77,18 @@ See at _[[shape via cohesive path ∞-groupoid]]_.
 ### Internal locally constant $\infty$-stacks
  {#LocallyConstantStacks}
 
-In a [[cohesive (∞,1)-topos]] $\mathbf{H}$ with an [[∞-cohesive site]] of definition, the [[fundamental ∞-groupoid]]-functor $&#643;$ satisfies the above assumptions (this is the example gives this entry its name). The $&#643;$-closed morphisms into some $X \in \mathbf{H}$ are canonically identified with the [[locally constant ∞-stacks]] over $X$. The correspondence is effectively what is called [[categorical Galois theory]]. 
+In a [[cohesive (∞,1)-topos]] $\mathbf{H}$ with an [[∞-cohesive site]] of definition, the [[fundamental ∞-groupoid]]-functor $\esh$ satisfies the above assumptions (this is the example gives this entry its name). The $\esh$-closed morphisms into some $X \in \mathbf{H}$ are canonically identified with the [[locally constant ∞-stacks]] over $X$. The correspondence is effectively what is called [[categorical Galois theory]].
 
 +-- {: .num_prop}
 ###### Proposition
 
 Let $H$ be a [[cohesive (∞,1)-topos]] possessing a [[∞-cohesive site]] of definition.
-Then for $X\in H$ the locally constant ∞-stacks $E\in \L\Const(X)$, regarded as ∞-bundle morphisms $p:E\to X$ are precisely the $&#643;$-closed morphisms into $X$
+Then for $X\in H$ the locally constant ∞-stacks $E\in \L\Const(X)$, regarded as ∞-bundle morphisms $p:E\to X$ are precisely the $\esh$-closed morphisms into $X$
 
 =--
 
 
-### Formally &#233;tale morphisms 
+### Formally &#233;tale morphisms
  {#EtaleMorphisms}
 
 If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham space]] functor $\Im$ satisfies the above assumptions. The $\Im$-closed morphisms are precisely the [[formally étale morphisms]].
@@ -139,4 +137,6 @@ Discussion for [[orbifolds]], [[étale groupoids]] and, generally, [[étale ∞-
 [[!redirects cohesive shape]]
 [[!redirects cohesive shapes]]
 
+[[!redirects Pi modality]]
+[[!redirects Pi-closed morphism]]
 
