@@ -112,11 +112,11 @@ Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) fro
 
 * G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
 
+Textbook account:
 
+* [[Robert E. Marshak]], Chapter 7 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
 
-
-
-Review includes
+Further review:
 
 * [[Raphael Flauger]], _Anomalies and the Atiyah-Singer Index Theorem_ ([pdf](http://www.ma.utexas.edu/~dafr/Index/Flauger.pdf))
 
