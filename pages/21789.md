@@ -37,7 +37,7 @@ Often considered in the special case of [[twisted ad-equivariant K-theory]].
 
 ## References
 
-In a context of [[orbifold K-theory]]:
+In a context of [[orbifold K-theory]] and for [[torsion subgroup|torsion]] class twists ("[[discrete torsion]]"):
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 ([arXiv:math/0107168](https://arxiv.org/abs/math/0107168))
 
@@ -45,6 +45,11 @@ In a context of [[orbifold K-theory]]:
 With an eye towards [[twisted ad-equivariant K-theory]]:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+
+General definition in terms of [[equivariant function|equivariant]] [[sections]] of [[equivariant bundles]] of [equivariant classifying spaces](equivariant+K-theory#ReferencesRepresentingSpectrum) for [[equivariant K-theory]]:
+
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Section 6 of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+
 
 The corresponding version of the [[Atiyah-Hirzebruch spectral sequence]]:
 
