@@ -314,6 +314,18 @@ are two disjoint open neighbourhoods, as required.
 =--
 
 
+
+
+
+
+[[!include main separation axioms -- as lifting properties]]
+
+
+
+
+
+
+
 ### Tietze extension and lifting property
  {#TietzeEtensionAndLiftingProperty}
 
@@ -341,6 +353,9 @@ The class of normal spaces was introduced by Tietze (1923) and Aleksandrov--Urys
 
 * Ryszard Engelking, _General topology_, (Monographie Matematyczne, tom 60) Warszawa 1977; expanded Russian edition Mir 1986.
 
+
+Discussion of [[separation axioms in terms of lifting properties]] is due to:
+
 * {#Gavrilovich14} [[Misha Gavrilovich]], *Point set topology as diagram chasing computations*, ([arXiv:1408.6710](https://arxiv.org/abs/1408.6710)). 
 
 
@@ -353,6 +368,7 @@ The class of normal spaces was introduced by Tietze (1923) and Aleksandrov--Urys
 [[!redirects normal topological space]]
 [[!redirects normal topological spaces]]
 
+[[!redirects T4]]
 
 [[!redirects T4 space]]
 [[!redirects T4 spaces]]
