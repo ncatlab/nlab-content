@@ -660,12 +660,11 @@ The abstract discussion of twisted ES-type cohomology in the [[stable (infinity,
 
 The presentation of cohomology with local coefficients in terms $\pi_1$-equivariant de Rham cohomology on the universal covering space is discussed in
 
-* S. Eilenberg, _Homology of spaces with operators I_, Trans. Amer. Math. Soc. 6 (1947), 378-417. ([doi](http://dx.doi.org/10.1090/S0002-9947-1947-0021313-4))
- {#Eil47}
+* {#Eil47} [[Samuel Eilenberg]], _Homology of spaces with operators I_, Trans. Amer. Math. Soc. 6 (1947), 378-417. ([doi](http://dx.doi.org/10.1090/S0002-9947-1947-0021313-4))
+ 
 
-* G. W. Whitehead, Elements of homotopy theory, Springer-Veriag, 1978.
- {#Whit78}
-
+* {#Whit78} [[George Whitehead]], *Elements of homotopy theory*, Springer-Veriag, 1978.
+ 
 * [Peter Michor](http://mathoverflow.net/users/26935/peter-michor), [answer](http://mathoverflow.net/a/129246/2622) to MathOverflow question [_de Rham cohomology and flat vector bundles_](http://mathoverflow.net/q/129246), (version: 2013-04-30).
  {#MichorMO}
 
