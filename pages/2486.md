@@ -46,3 +46,12 @@ The monoidal category of planar thickened 1d tangles (is this the right vocabula
 Just as the notion of [[PROP]] is a symmetric monoidal analogue of PRO, there is a braided monoidal analogue called a **PROB**. The cartesian monoidal analogue is known as a [[Lawvere theory]]. 
 
 More generally, given any [[doctrine]] $D$, let $I(D)$ be an initial algebra of the doctrine. A PRO-D can then be defined as an algebra $T$ such that the algebra map $I(D) \to T$ induces an isomorphism on objects. This is clearly an [[evil]] notion, and yet a useful and general one in practice. 
+
+## References
+
+An account of how the tensor product of PROs and the [[smash product]] of [[pointed spaces]] are two facets of the same construction is in
+
+* [[Amar Hadzihasanovic]], _The smash product of monoidal theories_, ([arXiv:2101.10361](https://arxiv.org/abs/2101.10361))
+
+
+[[!redirects PROs]]
