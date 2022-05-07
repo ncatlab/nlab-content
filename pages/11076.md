@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
 # Contents #
 * table of contents 
 {: toc}
@@ -47,10 +60,16 @@ Define the homotopy $H$ by $H(\alpha, t) = t f(\alpha) + (1-t){|\phi|}(\alpha)$.
 
 +-- {: .num_theorem} 
 ###### Theorem 
+
 Given simplicial pairs $(X, A)$, $(Y, B)$ and a map of pairs $f: ({|X|}, {|A|}) \to ({|Y|}, {|B|})$, there is a subdivision $i: (X', A') \hookrightarrow ({|X|}, {|A|})$ and a simplicial approximation $\phi: (X', A') \to (Y, B)$ to $f \circ \tilde{i}: ({|X'|}, {|A'|}) \to ({|Y|}, {|B|})$. 
 
 Moreover, if $(X, A)$ is a finite simplicial pair, we may choose the subdivision to be an iterated barycentric subdivision $(sd^n X, sd^n A)$ for any sufficiently large $n$ (given $f$). 
+
 =-- 
+
+## Related concepts
+
+* [[cellular approximation theorem]]
 
 ## References 
 
