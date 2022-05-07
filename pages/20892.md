@@ -1,8 +1,8 @@
 
-### Weight systems on chord diagrams in Physics
+### Chord diagrams and theory weight systems in Physics
  {#ReferencesWeightSystemsOnChordDiagramsInPhysics}
 
-We discuss occurrences of [[weight systems]] on [[chord diagrams]]/[[Jacobi diagrams]] in [[physics]], specifically as [[correlators]]/[[Feynman amplitudes]]/[[quantum observables]].
+We discuss occurrences of ([[weight systems]] on) [[chord diagrams]]/[[Jacobi diagrams]] in [[physics]]:
 
 1. [In Chern-Simons theory](#ReferencesWeightSystemsInChernSimonsTheory)
 
@@ -13,6 +13,11 @@ We discuss occurrences of [[weight systems]] on [[chord diagrams]]/[[Jacobi diag
    1. [In AdS2/CFT1, JT-gravity/SYK-model](#ReferencesWeightSystemsInSYKModel)
 
    1. [As dimer/bit thread codes for holographic entanglement entropy](#ForHolographicEntanglementEntropy)
+
+For a unifying perspective and further pointers see
+
+* {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]* ([arXiv:1912.10425](https://arxiv.org/abs/1912.10425))
+
 
 #### In Chern-Simons theory
  {#ReferencesWeightSystemsInChernSimonsTheory}
