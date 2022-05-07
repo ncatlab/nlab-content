@@ -218,6 +218,8 @@ These definitions need to be carefully checked against known examples (e.g., the
 
 ## Related concepts
 
+* [[dimension of a manifold]]
+
 * [[low-dimensional topology]]
 
 * [[projective manifold]]
