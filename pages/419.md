@@ -500,6 +500,10 @@ Relation to [[symmetric monoidal (infinity,1)-categories]] (in particular, that 
 * {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_ ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
 
 
+Monoidal Reedy model structures are discussed in
+
+* Moncef Ghazel, Fethi Kadhi, _Reedy diagrams in V-model categories_, [arXiv:1610.06535](https://arxiv.org/abs/1610.06535), [doi:10.1007/s10485-019-09566-w](https://doi.org/10.1007/s10485-019-09566-w).
+
 
 [[!redirects monoidal model categories]]
 [[!redirects monoidal model structure]]
