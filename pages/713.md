@@ -212,13 +212,21 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 * for [[(∞,1)-category]] theory there is [[free (∞,1)-cocompletion]].
 
+## Related concepts
+
+* [[free coproduct completion]]
+
+* [[idempotent completion]]
+
+* [[Cauchy completion]]
+
 ## References 
 
-* [[Brian Day]], [[Steve Lack]], _Limits of small functors_ ([web](https://arxiv.org/abs/math/0610439))
-{#DayLack}
+* {#DayLack} [[Brian Day]], [[Steve Lack]], _Limits of small functors_ ([web](https://arxiv.org/abs/math/0610439))
 
-* Fiore, Gambino, Hyland and Winskel, _Relative pseudomonads, Kleisli bicategories, and substitution monoidal structures_, ([web](https://arxiv.org/pdf/1612.03678.pdf))
-{#FGHW}
+
+* {#FGHW} Fiore, Gambino, Hyland and Winskel, _Relative pseudomonads, Kleisli bicategories, and substitution monoidal structures_, ([web](https://arxiv.org/pdf/1612.03678.pdf))
+
 
 This reference might also give helpful clues:
 
