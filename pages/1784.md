@@ -73,7 +73,7 @@ Some terminological care should be taken in the case of [[comonoid]], which make
 
 1. There are examples of spaces that are cogroups in $\operatorname{hTop}_*$ that are **not** suspensions, see Bernstein & Harper _Cogroups which are not suspensions_.  Note that cogroups in $\operatorname{hTop}_*$ are the same as [[co-H-spaces]] which are additionally (co-)associative and have (co-)inverses.
 
-1. Cogroup objects in the [[Grp|category of groups]] are [[free groups]], and to give a free group the structure of a cogroup object is the same a choosing a generating set.  This is an old result of D.M. Kan's.
+1. Cogroup objects in the [[Grp|category of groups]] are [[free groups]], and to give a free group the structure of a cogroup object is the same a choosing a generating set.  This is an old result of [[Daniel Kan]].
 
 1. On the other hand, every abelian group is again an abelian cogroup since $\operatorname{Ab}$ is self-enriched.  Indeed, in an [[abelian category]] every object is simultaneously an abelian group object and an abelian cogroup object.  In $\operatorname{Ab}$, the abelian cogroup object structure is unique, with comultiplication given by the [[diagonal morphism]].
 
