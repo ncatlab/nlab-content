@@ -44,21 +44,23 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 ## Examples
  {#Examples}
 
-* A simplicial object in [[Set]] is a [[simplicial set]].
+* A simplicial object in [[Sets]] is a [[simplicial set]].
 
-* A simplicial object in a category of [[presheaves]] is a [[simplicial presheaf]].
+* A simplicial object in [[Presheaves]] is a [[simplicial presheaf]].
 
-* A simplicial object in [[Top]] is a [[simplicial topological space]].
+* A simplicial object in [[TopologicalSpaces]] is a [[simplicial topological space]].
 
-* A simplicial object in [[Diff]] is a [[simplicial manifold]].
+* A simplicial object in [[SmoothManifolds|Manifolds]] is a [[simplicial manifold]].
 
-* A simplicial object in the category [[Grp]] of [[groups]] is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
+* A simplicial object in [[Groups]] is a [[simplicial group]]. 
 
-* A simplicial object in the category of [[topological group]]s is a [[simplicial topological group]].
+* A simplicial object in [[AbelianGroups]] is a [[simplicial abelian group]]. 
 
-* A simplicial object in [[Lie algebra]]s is a [[simplicial Lie algebra]].
+* A simplicial object in [[TopologicalGroups]] is a [[simplicial topological group]].
 
-* A simplicial object in [[Ring]] is a [[simplicial ring]].
+* A simplicial object in [[Lie algebras]] is a [[simplicial Lie algebra]].
+
+* A simplicial object in [[Rings]] is a [[simplicial ring]].
 
 * A cosimplicial object in the category of [[rings]] ([[algebras]]) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
 
