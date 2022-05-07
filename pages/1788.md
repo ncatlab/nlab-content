@@ -1,5 +1,21 @@
 
 $$
+  \begin{aligned}
+  \underset{1 \leq j \leq n}{\prod}
+  \frac
+    {j}
+    {N + j - 1}
+  & 
+  \;=\;
+  \left(
+    { N + n  - 1 }
+    \atop
+    { n }
+  \right)^{-1}
+  \end{aligned}
+$$
+
+$$
  \begin{aligned}
   \left\vert
     sYT_n(N)
