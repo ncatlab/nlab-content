@@ -89,8 +89,7 @@ However, in this case, the various theorems relating heaps to groups above all b
 
 On the other hand, we could generalize the notion of [[group]] to allow for an empty group.  This even remains a purely algebraic notion: we can define a group as a (traditionally inhabited) [[semigroup]] $S$, with the semigroup operation denoted by [[concatenation]], equipped with a unary operation $a \mapsto a^{-1}$ satisfying the following laws: 
 
-* $a a^{-1} = a^{-1} a$,
-* $a a^{-1} = b b^{-1}$, 
+* $a a^{-1} = a^{-1} a$, 
 * $a a^{-1} b = b$,
 * $b a^{-1} a = b$ 
 
