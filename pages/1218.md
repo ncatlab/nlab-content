@@ -192,7 +192,7 @@ where $\mathbf{smap}$ is some topologization of the set of maps (defined on thei
 
 1. (shown on the right of (eq:AComparisonMoprphismForShapeOfDiffeologicalMappingSpace)) its image under $Cdfflg$ is [[isomorphism|isomorphic]] to the internal hom $Maps_{dfflg}$ in diffeological spaces, according to their Prop. 4.7 ([p. 7](https://arxiv.org/pdf/1010.3336.pdf#page=7)),
 
-1. (show on the left of (eq:AComparisonMoprphismForShapeOfDiffeologicalMappingSpace)) it is [[weak homotopy equivalence|weak homotopy equivalent]], via some map $\phi$ according to their Prop. 5.4 ([p. 9](https://arxiv.org/pdf/1010.3336.pdf#page=9)) to the compact-open topology.
+1. (shown on the left of (eq:AComparisonMoprphismForShapeOfDiffeologicalMappingSpace)) it is [[weak homotopy equivalence|weak homotopy equivalent]], via some map $\phi$ according to their Prop. 5.4 ([p. 9](https://arxiv.org/pdf/1010.3336.pdf#page=9)) to the compact-open topology.
 
 Hence the claim follows by using [[2-out-of-3]] in the [[naturality square]] of the natural weak homotopy equivalence from Prop. \ref{TopologicalHomotopyTypeIsCohesiveShapeOfCdfflg}
 $$
