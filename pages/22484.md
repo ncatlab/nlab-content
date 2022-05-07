@@ -34,6 +34,11 @@ Exposition:
 
 * {#deForcrand13} Philippe de Forcrand, *The sign problem in Lattice QCD*, ETH 2013 ([pdf](https://www.int.washington.edu/talks/WorkShops/int_13_2a/People/deForcrand_P/deForcrand.pdf))
 
+Detailed review:
+
+* Keitaro Nagata, *Finite-density lattice QCD and sign problem: current status and open problems* ([arXiv:2108.12423](https://arxiv.org/abs/2108.12423))
+
+
 Original articles
 
 * {#HsuReeb08} Stephen D.H. Hsu, David Reeb, *On the sign problem in dense QCD*, Int. J. Mod. Phys. A 25, pp. 53-67 (2010) ([arXiv:0808.2987](https://arxiv.org/abs/0808.2987))
