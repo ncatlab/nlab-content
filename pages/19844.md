@@ -332,6 +332,19 @@ There is possibly a relation between the [[flavour anomalies]] and the  [anomali
 > (here "$R$" refers to [[flavour anomalies]] in various channels, "$a$" refers to anomalies in the the [[anomalous magnetic moments]] of the [[electron]] and the [[muon]], "LFUV" is shoft for "Lepton Flavor Universality Violation", and the numbers are the [[statistical significances]] of the effects seen)
 
 
+\begin{imagefromfile}
+  "file_name": "CrivellinHintsForNewPhysics21.jpg",
+  "width": 600,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "from [Crivellin 21, slide 15](#Crivellin21)" 
+\end{imagefromfile}
+
 
 Indeed, [[leptoquark]] models preferred by the flavour anomalies (see [below](#Leptoquarks)) are also a candidate explanation of the anomaly seen at over 4$\sigma$ [[statistical significance]] in the [[anomalous magnetic moment]] of the [[muon]], see [there](anomalous+magnetic+moment#Anomalies).
 
@@ -368,8 +381,10 @@ Some authors therefore begin to speak jointly of _muon anomalies_ ([GST 21](#GST
 \end{imagefromfile}
 
 
-
 A [[leptoquark]]-model meaning to explain all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once: [Marzocca-Trifinopoulos 21](#MarzoccaTrifinopoulos21).
+
+
+
 
 
 \linebreak
@@ -612,6 +627,8 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 * {#LIOS21} Davide Lancierini, [[Gino Isidori]], Patrick Owen, Nicola Serra, _On the significance of new physics in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2104.05631](https://arxiv.org/abs/2104.05631))
 
 * {#HMSN21} T. Hurth, F. Mahmoudi, D. Martinez Santos, S. Neshatpour, *More Indications for Lepton Nonuniversality in $b \to s \ell^+ \ell^-$ ([arXiv:2104.10058](https://arxiv.org/abs/2104.10058))
+
+* {#Crivellin21} [[Andreas Crivellin]], *Heavy Flavours -- Theory*, talk at [LHCP, Paris 2021](https://indico.cern.ch/event/905399/) ([[CrivellinLHCP2021.pdf:file]])
 
 
 Outlook:
