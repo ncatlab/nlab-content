@@ -508,3 +508,7 @@ Relation to [[symmetric monoidal (infinity,1)-categories]] (in particular, that 
 [[!redirects symmetric monoidal model structures]]
 [[!redirects symmetric monoidal model category]]
 [[!redirects symmetric monoidal model categories]]
+
+[[!redirects unit axiom]]
+[[!redirects unit axioms]]
+
