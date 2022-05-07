@@ -26,7 +26,10 @@ A [[2-category]] $K$ has three different [[opposite category|opposites]] (two in
 ## Related pages
 
 * [[contravariant 2-functor]]
+
 * [[3-category with contravariance]]
+
+* [[opposite adjunction]]
 
 [[!redirects opposite 2-category]]
 [[!redirects opposite 2-categories]]
