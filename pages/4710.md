@@ -1,3 +1,16 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
+=--
+=--
 
 > For other kinds of units see also _[[unit of an adjunction]]_ and _[[unit of a monad]]_. Different (but related) is _[[physical unit]]_. 
 
