@@ -41,7 +41,9 @@ Let $E$ be an [[elementary topos]] with [[subobject classifier]] $\Omega$ and [[
 
 $$N \hookrightarrow A\hookrightarrow \Omega^N$$
 
-then either the first or the second is an [[isomorphism]].
+then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $\Omega^N \hookrightarrow A$.
+
+When the topos is Boolean, so the [[Cantor-Schroeder-Bernstein theorem]] holds, this implies the existence of an isomorphism $A \simeq N$ or $\Omega^N \simeq A$. Note, however, that neither of the original monomorphisms is necessarily an isomorphism (one of them could be the successor map on $N$, for example).
 
 In the classical case (that is, in the topos [[Set]] with the [[axiom of choice]]), this equivalently asserts that there is no strict inequality of [[cardinal numbers]]
 
@@ -58,7 +60,7 @@ $$ \aleph_0 \lt \alpha \lt 2^{\aleph_0} $$
 
 $$N \hookrightarrow A\hookrightarrow S^N$$
 
-then either the first or the second is an isomorphism.
+then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $S^N \hookrightarrow A$.
 
 If the $\Pi W$-pretopos $E$ is [[Boolean category|Boolean]], then it is an elementary topos, the principle of excluded middle is true, and $S$ has two elements and is isomorphic to $\Omega$, so the pretopos is no longer predicative, and this definition reduces to the classical definition. 
 
@@ -66,7 +68,7 @@ Since $S$ as defined above for Dedekind reals is a countable set, one could repl
 
 $$N \hookrightarrow A\hookrightarrow N^N$$
 
-then either the first or the second is an isomorphism.
+then there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $N^N \hookrightarrow A$.
 
 The set $N^N$ is typically called the [[Baire space of sequences]], and sometimes called the Baire real numbers in [[descriptive set theory]] and denoted as $B$. 
 
@@ -77,7 +79,7 @@ While the set of real numbers could be defined by fiat as the [[terminal object|
 
 $$N \hookrightarrow A\hookrightarrow R$$
 
-then either the first or the second is an isomorphism.
+then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $R \hookrightarrow A$.
 
 ## Unprovability
 
@@ -88,7 +90,7 @@ There exists a [[boolean topos]] in which the [[axiom of choice]] holds and the 
 
 =--
 
-One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen [[poset]].  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow A\hookrightarrow 2^{\mathbb{N}}$ that are both not isomorphisms.
+One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen [[poset]].  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow A\hookrightarrow 2^{\mathbb{N}}$ but no monomorphism $A \hookrightarrow N$ or $\Omega^N \hookrightarrow A$..
 
 The Cohen topos will be constructed from the topos [[Set]] of sets.  For this, recall that the subobject classifier of $Set$ is $2\coloneqq \{0,1\}$. The technique of constructing such a topos is called [[forcing]].
  
@@ -96,7 +98,7 @@ The Cohen topos will be constructed from the topos [[Set]] of sets.  For this, r
 ###### Definition
 **(Cohen poset)**
 
-Let $\mathbb{N}$ be the set of natural numbers; i.e. the natural-numbers object in $Set$. Let $A$ be a set with strictly larger cardinality ${|A|}\gt {|\mathbb{N}|}$; e.g. $A\coloneqq 2^{2^{\mathbb{N}}}$ will do because of the [[diagonal argument]].  Then the *Cohen poset* $P$ is defined to be the set of morphisms
+Let $\mathbb{N}$ be the set of natural numbers; i.e. the [[natural numbers object]] in $Set$. Let $A$ be a set with strictly larger cardinality ${|A|}\gt {|\mathbb{N}|}$; e.g. $A\coloneqq 2^{2^{\mathbb{N}}}$ will do because of the [[diagonal argument]].  Then the *Cohen poset* $P$ is defined to be the set of morphisms
 
 $$p:F_p\to 2$$
 
@@ -112,7 +114,7 @@ We think of each element of $P$ as an approximation to the function $F:A\times\m
 
 $$f:A\to 2^\mathbb{N}$$
 
-with "smaller" elements considered as better approximations. The very rough intuition is that $p\to q\to \dots$ (if $p\ge p\ge \dots$) forms a [[codirected diagram]] of monomorphisms with domains of increasing size whose colimit is $f$, and that by [[free cocompletion]] (i.e. forming (pre)sheaves) we obtain a topos in which this colimit exists.
+with "smaller" elements considered as better approximations. The very rough intuition is that $p\to q\to \dots$ (if $p\ge q \ge \dots$) forms a [[codirected diagram]] of monomorphisms with domains of increasing size whose colimit is $f$, and that by [[free cocompletion]] (i.e. forming (pre)sheaves) we obtain a topos in which this colimit exists.
 
 
 +-- {: .num_lemma}
@@ -130,16 +132,16 @@ P\to Set
 p\mapsto \{(b,n)|p(b,n)=0\}\subseteq A\times \mathbb{N}
 \end{cases}$$
 
-Then we have $\neg\neg C=C$ in $Sub(k_{A\times\mathbb{N}})$; i.e. $C$ is a closed subobject with respect to the dense topology $\neg\neg$ in the [[algebra of subobjects]] of $k_{A\times\mathbb{N}}$.
+Then we have ${\neg}{\neg} C=C$ in $Sub(k_{A\times\mathbb{N}})$; i.e. $C$ is a closed subobject with respect to the dense topology ${\neg}{\neg}$ in the [[algebra of subobjects]] of $k_{A\times\mathbb{N}}$.
 =--
 
-Let $\Omega$ denote the [[subobject classifier]] of $Psh(P)$. Let $\Omega_{\neg\neg}$ denote the subobject classifier of $Sh(P,\neg\neg)$. Recall that $\Omega_{\neg\neg}$ is given by the equalizer $\Omega_{\neg\neg}=eq(id_\Omega,\neg\neg)$.
+Let $\Omega$ denote the [[subobject classifier]] of $Psh(P)$. Let $\Omega_{{\neg}{\neg}}$ denote the subobject classifier of $Sh(P,\neg\neg)$. Recall that $\Omega_{{\neg}{\neg}}$ is given by the equalizer $\Omega_{{\neg}{\neg}}=eq(id_\Omega,{\neg}{\neg})$.
 
 By the preceding lemma, the [[characteristic morphism]] $\chi_a$ of the subobject $a \colon C\hookrightarrow k_{A\times\mathbb{N}}=k_A\times\k_\mathbb{N}$ factors through some $f \colon k_{A\times\mathbb{N}}\to \Omega_{\neg\neg}$.
 
 +-- {: .num_lemma}
 ###### Lemma 
-The adjoint $g:k_A\to \Omega_{\neg\neg}^{k_{\mathbb{N}}}$ of $f$ is a monomorphism.
+The adjoint $g:k_A\to \Omega_{{\neg}{\neg}}^{k_{\mathbb{N}}}$ of $f$ is a monomorphism.
 =--
 
 +-- {: .num_corollary}
