@@ -1,5 +1,80 @@
 
 
+  $$
+    \underset{
+      \sigma \in Sym(n)
+    }{
+      \sum
+    }
+    e^{ \beta \cdot \left\vert Cycles(\sigma) \right\vert }
+    \;=\;
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      e^{\beta} + k
+    \big)
+    \,.
+  $$
+
+\linebreak
+
+\linebreak
+
+$$
+  \begin{aligned}
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      e^{\beta} - k
+    \big)
+    & 
+    \;=\;
+    (-1)^n
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      - e^{\beta} + k
+    \big)
+    \\
+    & 
+    \;=\;
+    (-1)^n
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    (-e^\beta)^{\#\left\vert Cycles(\sigma)\right\vert}
+    \\
+    & \;=\;
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    (-1)^{n - \#\left\vert Cycles(\sigma)\right\vert}
+    (e^\beta)^{\#\left\vert Cycles(\sigma)\right\vert}
+    \\
+    & \;=\;
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    (-1)^{\#\left\vert EvenCycles(\sigma)\right\vert}
+    (e^\beta)^{\#\left\vert Cycles(\sigma)\right\vert}
+    \\
+    & \;=\;
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    sgn(\sigma)
+    (e^\beta)^{\#\left\vert Cycles(\sigma)\right\vert}
+  \end{aligned}
+$$
+
+
+
 [[topos|$x$]]
 
 \begin{example}\label{CayleyDistanceKernelOnSym3}
