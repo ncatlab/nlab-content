@@ -72,6 +72,8 @@ is the [[localic spectrum]] of the [[frame]] of opens of a [[topological space]]
 Its algebras are precisely the [[sober spaces]].
 ([Sipoș, Theorem 6](#Sipos))
 
+* For the codensity monad induced by the inclusion of [[homotopy types with finite homotopy groups]] into all [[homotopy types]] see [there](homotopy+type+with+finite+homotopy+groups#CodensityMonadOfInclusionIntoAllHomotopyTypes).
+
 ## Properties
 
 ....
