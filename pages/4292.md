@@ -114,7 +114,7 @@ $$x R[ [x] ] \times x R[ [x] ] \stackrel{sub}{\to} x R[ [x] ]$$
 
 with $sub(p, q) = p \circ q$ the power series $p(q(x))$. 
 
-+-- {: .num_prop} 
++-- {: .num_prop #InvertibleElements} 
 ###### Proposition 
 The group of invertible elements in the substitution monoid $x R[ [x] ]$ consists of power series of the form $a_1 x + a_2 x^2 + \ldots$ where $a_1$ is multiplicatively invertible in the ring $R$. 
 =-- 
