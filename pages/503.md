@@ -96,6 +96,8 @@ A retract of a representable $y(c) \in [C^{op}, Set]$ induces an idempotent on $
 
 =--
 
+Note that this construction of the Cauchy completion via the Yoneda embedding, we do not take *all* retracts of representables, since this would produce an equivalent replete subcategory of $[C^{op}, Set]$ which is only *essentially small*. Instead, we use well-poweredness of $[C^{op}, Set]$ to provide a representative set of monomorphisms, amongst which we take the retracts to obtain a small full subcategory. For an alternative construction, see [[Karoubi envelope]].
+
 ### In terms of tiny objects
  {#InTermsOfTinyObjects}
 
