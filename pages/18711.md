@@ -74,9 +74,11 @@ See also:
 Discussion via [[holographic QCD]] (see also at [[quark-gluon plasma]]):
 
 
-* Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
+* Carlos Hoyos, Niko Jokela, [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
 
-* Carlos Hoyos, Niko Jokela, Matti Järvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter* ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+* Carlos Hoyos, Niko Jokela, [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter* ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+
+* [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
 
 
 
