@@ -16,6 +16,10 @@ On [[spin networks]],
  Comm. Math. Phys. (2006) 279, pp. 381-399,
 ([arXiv:gr-qc/0612137](https://arxiv.org/pdf/gr-qc/0612137.pdf), [doi:10.1007/s00220-008-0422-8](https://doi.org/10.1007/s00220-008-0422-8))
 
+On the [[Yetter model|Yetter invariant]],
+
+* [[João Faria Martins]] and  [[Tim Porter]], _On Yetter's invariant and an extension of the Dijkgraaf-Witten invariant to categorical groups_, Theory and Applications of Categories, Vol. 18, 2007, No. 4, pp 118-150.
+([TAC](http://www.tac.mta.ca/tac/volumes/18/4/18-04abs.html))
 
 
 
@@ -27,5 +31,7 @@ On [[spin networks]],
 * [[principal 2-bundle]]
 
 * [[3-groupoid of Lie 3-algebra valued forms]]
+
+* [[Yetter model]]
 
 category: people
