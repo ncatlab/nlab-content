@@ -140,5 +140,10 @@ $$
 [[!redirects Pontryagin form]]
 [[!redirects Pontryagin forms]]
 
+[[!redirects total Pontrjagin form]]
+[[!redirects total Pontrjagin forms]]
+
+[[!redirects total Pontryagin form]]
+[[!redirects total Pontryagin forms]]
 
 
