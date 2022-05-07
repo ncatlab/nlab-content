@@ -24,9 +24,11 @@
 
 ## Idea
 
-In the context of [[topology]], a _topological $G$-space_ (traditionally just _$G$-space_, for short, if the context is clear) is a [[topological space]] equipped with an [[action]] of a [[topological group]] $G$ (often, but crucially not always, taken to be a [[finite group]]).
+In the context of [[topology]], a _topological $G$-space_ (traditionally just _$G$-space_, for short, if the context is clear) is a [[topological space]] equipped with an [[action]] of a [[topological group]] $G$ -- the _[[equivariance grouo]]_ (usually taken to be the [[topological group]] underlying a [[compact Lie group]], such as a [[finite group]]).
 
-The canonical [[homomorphisms]] of topological $G$-spaces are $G$-equivariant [[continuous functions]], and the canonical choice of [[homotopies]] between these are $G$-equivariant continuous homotopies (for trivial $G$-action on the interval). A $G$-[[equivariant Whitehead theorem|equivariant version]] of the [[Whitehead theorem]] says that on [[G-CW complexes]] these $G$-equivariant [[homotopy equivalences]] are equivalently those maps that induce [[weak homotopy equivalences]] on all [[fixed point]] spaces for all [[subgroups]] of $G$ (compact subgroups, if $G$ is allowed to be a [[Lie group]]). 
+The canonical [[homomorphisms]] of topological $G$-spaces are $G$-[[equivariant function|equivariant]] [[continuous functions]], and the canonical choice of [[homotopies]] between these are $G$-equivariant continuous homotopies (for [[trivial action|trivial]] $G$-[[action]] on the [[interval]]). 
+
+A $G$-[[equivariant Whitehead theorem|equivariant version]] of the [[Whitehead theorem]] says that on [[G-CW complexes]] these $G$-equivariant [[homotopy equivalences]] are equivalently those maps that induce [[weak homotopy equivalences]] on all [[fixed point]] spaces for all [[subgroups]] of $G$ (compact subgroups, if $G$ is allowed to be a [[Lie group]]). 
 
 By [[Elmendorf's theorem]], this, in turn, is equivalent to the [[(∞,1)-presheaves]] over the [[orbit category]] of $G$. See below at _[In topological spaces -- Homotopy theory](#HomotopyTheory)_.
 
@@ -135,9 +137,11 @@ See at _[[G-CW complex]]_.
 
 ## Related concepts
 
-* [[G-set]]
+* [[G-set]], [[G-manifold]]
 
 * [[fixed point space]]
+
+* [[equivariant bundle]]
 
 * [[cyclotomic space]]
 
