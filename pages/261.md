@@ -297,46 +297,38 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 ## References
 
-The original definition is due to Eilenberg and Zilber, see §8 in
+The original definition:
 
-* [[Samuel Eilenberg]], [[Joseph A. Zilber]], _Semi-simplicial complexes and singular homology_, Annals of Mathematics 51:3 (1950), 499--513.
+* [[Samuel Eilenberg]], [[Joseph A. Zilber]], Section 8 in: _Semi-simplicial complexes and singular homology_, Annals of Mathematics 51:3 (1950), 499--513 ([jstor:1969364](https://www.jstor.org/stable/1969364))
 
-A pedagogical introduction to simplicial sets is
+Further early discussions (aimed at [[simplicial homotopy theory]]):
 
-* {#Friedman08} Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221))
-
-A very clear and explicit exposition on the basics of simplicial sets is
-
-* [[Emily Riehl]], _A leisurely introduction to simplicial sets_, 2008, 14 pages ([pdf](http://www.math.jhu.edu/~eriehl/ssets.pdf)).
-
-Another introduction is
-
-* [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, July 7, 2013, [pdf](https://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Trieste-Lecture-Notes.pdf).
-
-An overview of [[simplicial homotopy theory]] is in
-
-* [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, March 7, 2008, [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf).
-
-
-Four classical sources appeared between 1967 and 1971:
-
-* [[Pierre Gabriel]], [[Michel Zisman]], [[Calculus of fractions and homotopy theory]].
+* [[Pierre Gabriel]], [[Michel Zisman]], *[[Calculus of fractions and homotopy theory]]*
 
 * [[J. Peter May]], _Simplicial objects in algebraic topology_, Van Nostrand Mathematical Studies 11 (1967).
 
-*  Edward B. Curtis, _Simplicial homotopy theory_, Advances in Mathematics 6 (1971) 107–209 [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808) <https://doi.org/10.1016/0001-8708(71)90015-6>.
+*  [[Edward B. Curtis]], _Simplicial homotopy theory_, Advances in Mathematics 6 (1971) 107–209 (<a href="https://doi.org/10.1016/0001-8708(71)90015-6">doi:10.1016/0001-8708(71)90015-6</a>, [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808))
+
+
+Exposition and introduction:
+
+* {#Friedman08} [[Greg Friedman]], _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221), [doi:10.1216/RMJ-2012-42-2-353](https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-42/issue-2/Survey-Article-An-elementary-illustrated-introduction-to-simplicial-sets/10.1216/RMJ-2012-42-2-353.full))
+
+* [[Emily Riehl]], _A leisurely introduction to simplicial sets_, 2008, 14 pages ([pdf](http://www.math.jhu.edu/~eriehl/ssets.pdf)).
+
+* [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, July 7, 2013, [pdf](https://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Trieste-Lecture-Notes.pdf).
+
+
+Further discussion in the context of [[simplicial homotopy theory]]/[[algebraic topology]]:
 
 * [[Klaus Lamotke]], _Semisimpliziale algebraische Topologie_, Grundlehren der mathematischen Wissenschaften 147 (1968).
 
+* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, 
+Progress in Mathematics, Birkh&#228;user (1996)
 
+* {#Cisinski06} [[Denis-Charles Cisinski]], Section 2 of: _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
 
-More advanced treatments include 
-
-* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
-
-Some more facts about homotopical aspects of simplicial sets are discussed in section 2 of
-
-* {#Cisinski06} [[Denis-Charles Cisinski]], _[[joyalscatlab:Les préfaisceaux comme type d'homotopie]]_, Ast&#233;risque, Volume 308, Soc. Math. France (2006), 392 pages ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/ast.pdf))
+* [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, March 7, 2008, [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf).
  
 
 
