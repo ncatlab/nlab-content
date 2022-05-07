@@ -617,6 +617,13 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons* ([arXiv:2106.13136](https://arxiv.org/abs/2106.13136))
 
+With emphasis on application to the [QCD phase diagram](QCD#PhaseDiagram) and to the description of [[neutron stars]]:
+
+* [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
+
+
+
+
 See also
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
@@ -758,7 +765,7 @@ reviewed in
 
 More developments on improved holographic QCD:
 
-* Takaaki Ishii, Matti Järvinen, Govert Nijs, _Cool baryon and quark matter in holographic QCD_ ([arXiv:1903.06169](https://arxiv.org/abs/1903.06169))
+* Takaaki Ishii, [[Matti Järvinen]], Govert Nijs, _Cool baryon and quark matter in holographic QCD_ ([arXiv:1903.06169](https://arxiv.org/abs/1903.06169))
 
 The extreme form of bottom-up holographic model building is explored in
 
@@ -1233,9 +1240,11 @@ With [[magnetic fields]]:
 
 Of relevance in [[neutron stars]]:
 
-* Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
+* Carlos Hoyos, Niko Jokela, [[Matti Jarvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
 
-* Carlos Hoyos, Niko Jokela, Matti Järvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter* ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+* Carlos Hoyos, Niko Jokela, [[Matti Järvinen]], Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter* ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+
+* [[Matti Järvinen]], *Holographic modeling of nuclear matter and neutron stars*,  Eur.Phys.J.C. 56 2021 ([arXiv:2110.08281](https://arxiv.org/abs/2110.08281))
 
 
 See also
