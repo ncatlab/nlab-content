@@ -106,6 +106,7 @@ $$
 
 * [[hook length formula]]
 
+* [[asymptotic representation theory]]
 
 ## References
 
@@ -116,6 +117,10 @@ $$
 See also:
 
 * Wikipedia, [Plancherel measure](https://en.wikipedia.org/wiki/Plancherel_measure)
+
+* [[Anatoly Vershik]], *Two lectures on the asymptotic representation theory and statistics of Young diagrams*,  In: Vershik A.M., Yakubovich Y. (eds) *Asymptotic Combinatorics with Applications to Mathematical Physics* Lecture Notes in Mathematics, vol 1815. Springer 2003 ([doi:10.1007/3-540-44890-X_7](https://doi.org/10.1007/3-540-44890-X_7))
+
+* [[G. Olshanski]], *Asymptotic representation theory*, Lecture notes 2009-2010 ([webpage](https://lpetrov.cc/art), [pdf 1](https://storage.lpetrov.cc/Olshanski_ART_course_1.pdf), [pdf 2](https://storage.lpetrov.cc/Olshanski_ART_course_2.pdf))
 
 In relation to [[matrix models]]:
 
