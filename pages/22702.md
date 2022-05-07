@@ -1,6 +1,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Categorification
 +-- {: .hide}
 [[!include categorification - contents]]
@@ -65,20 +73,4 @@ in $Q$, there exists morphisms $d:a\to b$ and $e:b \to a$ such that $g \circ d =
 
 ## Related concepts
 
-* [[oidification]]
-
-  * [[magmoid]], [[magma]]
-
-  * [[unital magmoid]], [[unital magma]]
-
-  * __quasigroupoid__, [[quasigroup]]
-
-  * [[loopoid]], [[loop]]
-
-  * [[semicategory]], [[semigroup]]
-
-  * [[category]], [[monoid]]
-
-  * [[associative quasigroupoid]], [[associative quasigroup]]
-
-  * [[groupoid]], [[group]]
+[[!include oidification - table]]
