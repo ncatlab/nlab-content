@@ -227,6 +227,13 @@ See also
 
 * [[Jacques Distler]], _Decoupling $N = 8$ supergravity_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001235.html))
 
+Discussion along the lines of [[twistor string theory]] with [[scattering amplitudes]] encoded by [[rational maps]] from a [[complex curve]] two [[twistor space]]:
+
+* {#CachazoSkinner12} Freddy Cachazo, [[David Skinner]], *Gravity from Rational Curves*, Phys. Rev. Lett. 110, 161301, 2012 ([arXiv:1207.0741](https://arxiv.org/abs/1207.0741), [arXiv:10.1103/PhysRevLett.110.161301](https://doi.org/10.1103/PhysRevLett.110.161301))
+
+* {#Adamo15} Tim Adamo, *Gravity with a cosmological constant from rational curves*, JHEP 1511: 098, 2015 ([arXiv:1508.02554](https://arxiv.org/abs/1508.02554))
+
+
 #### On gravitino phenomenology
 
 A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
