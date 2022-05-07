@@ -78,15 +78,18 @@ Discussion from the point of view of [[causal perturbation theory]] / [[perturba
 * {#Duch19} [[Paweł Duch]], _Infrared problem in perturbative quantum field theory_ ([arXiv:1906.00940](https://arxiv.org/abs/1906.00940))
 
 
-Further developments include
+Further discussion in relation to the [[soft graviton theorem]]:
 
 * Daniel Kapec, Malcolm Perry, Ana-Maria Raclariu, [[Andrew Strominger]], _Infrared Divergences in QED, Revisited_, Phys. Rev. D 96, 085002 (2017) ([arXiv:1705.04311](https://arxiv.org/abs/1705.04311))
 
 * {#Strominger17} [[Andrew Strominger]], _Lectures on the Infrared Structure of Gravity and Gauge Theory_ ([arXiv:1703.05448](https://arxiv.org/abs/1703.05448))
 
-* Holmfridur Hannesdottir, Matthew D. Schwartz, _A Finite S-Matrix_ ([arXiv:1906.03271](https://arxiv.org/abs/1906.03271))
+* Neelima Agarwal, Lorenzo Magnea, Chiara Signorile-Signorile, Anurag Tripathi, *The Infrared Structure of Perturbative Gauge Theories* ([arXiv:2112.07099](https://arxiv.org/abs/2112.07099))
 
-See also
+
+See also:
+
+* Holmfridur Hannesdottir, Matthew D. Schwartz, _A Finite S-Matrix_ ([arXiv:1906.03271](https://arxiv.org/abs/1906.03271))
 
 * Wikipedia, _[Infrared divergence](https://en.wikipedia.org/wiki/Infrared_divergence)_
 
