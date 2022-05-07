@@ -151,7 +151,11 @@ with respect to a $G$-invariant [[Riemannian metric]] (which exists according to
 The existence of the $G$-invariant tubular neighbourhoods is for instance in [Bredon 72 VI Theorem 2.2](#Bredon72), [Kankaanrinta 07, theorem 4.4](#Kankaanrinta07). The uniqueness up to equivariant isotopy is in [Kankaanrinta 07, theorem 4.4, theorem 4.6](#Kankaanrinta07). The fact that one may always use the [[normal bundle]] appears at the end of the proof of [Bredon 72 VI Theorem 2.2](#Bredon72), and as a special case of a more general statement about invariant tubular neighbourhoods in [[Lie groupoids]] it follows from [Pflaum-Posthuma-Tang 11, Theorem 4.1](#PflaumPosthumaTang11) by applying the construction there to each point in $\Sigma$ for one and the same choice of background metric. See also for instance [Pflaum-Wilkin 17, Example 2.5](#PflaumWilkin17).
 
 
+## Applications
 
+* [[equivariant Hopf degree theorem]]
+
+* [[equivariant Pontrjagin theorem]]
 
 
 
@@ -164,6 +168,8 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 * [[equivariant rational homotopy theory]]
 
 * [[equivariant cohomology]]
+
+* [[equivariant cobordism theory]]
 
 ## References
 
