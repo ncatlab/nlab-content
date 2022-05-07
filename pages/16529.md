@@ -51,7 +51,7 @@ In [[type theory]] this principle is embodied by a [[type of types]] ([Martin-L&
 
 ## References
 
-* {#BellMach77}J. L. Bell, M. Machover, _A Course in Mathematical Logic_ , North-Holland Amsterdam 1977. (ch. 10,&#167;5)
+* {#BellMach77} [[John Lane Bell]], M. Machover, _A Course in Mathematical Logic_, North-Holland Amsterdam 1977. (ch. 10,&#167;5) ([ISBN:9780720428445](https://www.elsevier.com/books/a-course-in-mathematical-logic/bell/978-0-7204-2844-5))
 
 * [[Michael Fourman|M. P. Fourman]], _Continuous Truth II: Reflections_ , LNCS **8071** (2013) pp.153-167. ([preprint](http://homepages.inf.ed.ac.uk/mfourman/research/publications/pdf/fourman2013-continuous-truth-II.pdf))
 
