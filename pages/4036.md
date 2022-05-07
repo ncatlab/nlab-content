@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,7 +49,7 @@ Due to this subtlety, it is instructive to make explicit the following definitio
 +-- {: .num_defn #DifferentiablyGoodOpenCover}
 ###### Definition
 
-Given a [[smooth manifold]] $X$ a _differentiably good open cover_ is a good open cover one all whose finite non-empty intersections are in fact [[diffeomorphism|diffeomorphic]] to an [[open ball]], hence to a [[Cartesian space]].
+Given a [[smooth manifold]] $X$ a _differentiably good open cover_ ([FSS 2010, Def. 6.3.9](#FSS10)) is a good open cover one all whose finite non-empty intersections are in fact [[diffeomorphism|diffeomorphic]] to an [[open ball]], hence to a [[Cartesian space]].
 
 =--
 
@@ -58,17 +59,16 @@ Given a [[smooth manifold]] $X$ a _differentiably good open cover_ is a good ope
 ### Existence on paracompact smooth manifolds
  {#ExistenceOnParacompactManifolds}
 
-+-- {: .num_prop }
-###### Proposition
 
+\begin{proposition}
+\label{ExistenceOfDifferentiablyGoodOpenCovers}
+**(existence of differentiably good open covers)**
+\linebreak
 Every [[paracompact manifold|paracompact]] [[smooth manifold]] admits a good open cover, def.&#160;\ref{GoodOpenCover}, in fact
 a differentiable good open cover, def.&#160;\ref{DifferentiablyGoodOpenCover}
+\end{proposition}
 
-=--
-
-+-- {: .proof}
-###### Proof
-
+\begin{proof}
 Every [[paracompact manifold|paracompact]] [[smooth manifold]] admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a [[geodesically convex]] [[neighborhood]] (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after ([Milnor, lemma 10.3 on page 59](#Milnor)), or ([do Carmo, Proposition 4.2](#doCarmo))).
 A nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex.
 The inverse of the [[exponential map]] based at any
@@ -82,18 +82,18 @@ map is injective, hence a diffeomorphism.
 By [this theorem](open+ball#StarShapedOpenDiffeomorphicToOpenBall), star-shaped open subsets
 of $\mathbf{R}^n$ are diffeomorphic to $\mathbf{R}^n$,
 which completes the proof.
+\end{proof}
 
-=--
+\begin{remark}
+It was apparently a [[folk theorem]] that every [[geodesic convexity|geodesically convex]] [[open neighbourhood]] in a [[Riemannian manifold]] is [[diffeomorphic]] to a [[Cartesian space]].
+For instance, this is asserted in the proof of Theorem&#160;5.1 of ([Bott & Tu 1982](#BottTu82)), which claims the existence of differentiable good open covers.
 
-+-- {: .num_remark }
-###### Remark
+More complete proofs of Prop. \ref{ExistenceOfDifferentiablyGoodOpenCovers} have been made explicit in [FSS 2010, Prop. A.1](#FSS10), [Demailly 2012, Lem. IV 6.9](#Demailly12), [Guillemin & Haine 2019, Thm. 5.3.2](#GuilleminHaine19). 
 
-It is apparently a [[folk theorem]] that every [[geodesic convexity|geodesically convex]] [[open neighbourhood]] in a [[Riemannian manifold]] is [[diffeomorphic]] to a [[Cartesian space]].
-For instance, this is asserted in the proof of Theorem&#160;5.1 of ([BottTu](#BottTu)), which
-claims the existence of differentiable good open covers.
-But a complete proof in the literature is hard to find.
-See [this remark](#LiteratureOnStarShapedOpenDiffeoToOpenBall) at the discussion of the references at _[[open  ball]]_.
-=--
+This involves proving that [[star-shaped subsets]] of [[Euclidean space]] are [[diffeomorphism|diffeomorphic]] to [[open balls]]/[[Cartesian spaces]] ([Gonnord & Tosel 1998, p. 60](#GonnordTosel98),  [Ferus 2007, Thm. 237](#Ferus07))
+
+See also [this remark](#LiteratureOnStarShapedOpenDiffeoToOpenBall) at the discussion of the references at _[[open  ball]]_.
+\end{remark}
 
 +-- {: .num_prop }
 ###### Proposition
@@ -102,6 +102,7 @@ Every [[smooth manifold|smooth]] [[paracompact manifold]] of [[dimension]] $d$ a
 
 =--
 
+The following proof is that given in [FSS 2010, Prop. A.1](#FSS10):
 
 +-- {: .proof}
 ###### Proof
@@ -110,9 +111,10 @@ By ([Greene](#Greene)) every paracompact smooth manifold admits a [[Riemannian m
 
 Moreover, the [[preimage]] of the intersection region under the geometric flow is a [[star-shaped]] region in the [[tangent space]] $T_u X$: because the intersection of geodesically convex regions is itself geodesically convex, so that for any $v \in T_u X$ with $\exp(v) \in U_{p_1} \cap \cdots \cap U_{p_n}$ the whole geodesic segment $t \mapsto \exp(t v)$ for $t \in [0,1]$ is also in the region.
 
-So we have that every finite non-empty intersection of the $U_p$ is diffeomorphic to a star-shaped region in a vector space. By the results cited at [[ball]] (e.g. theorem 237 of ([Ferus](#Ferus))) this star-shaped region is diffeomorphic to an $\mathbb{R}^n$.
+So we have that every finite non-empty intersection of the $U_p$ is diffeomorphic to a star-shaped region in a vector space. By the results cited at [[ball]] (e.g. theorem 237 of ([Ferus 2007](#Ferus07))) this star-shaped region is diffeomorphic to an $\mathbb{R}^n$.
 
 =--
+
 
 ### Coverages of good open covers
 
@@ -229,30 +231,42 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 ## Related concepts
 
+* [[equivariant good open cover]]
+
 * [good covers by Stein manifolds](Stein+manifold#GoodCoversBySteinManifolds) - note that this is a different concept, with vanishing Dolbeault cohomology replacing contractibility.
 
+
 ## References
+ {#References}
 
-A fairly detailed proof is presented in Section 5.3 and Appendix C of
+Proof of existence of differentiably good open covers (Def. \ref{DifferentiablyGoodOpenCover}) of smooth manifolds:
 
-* [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019).
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Thm. 5.1 in: *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics 82 Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0), [pdf](http://www.maths.ed.ac.uk/~aar/papers/botttu.pdf))
 
-A similar proof appears in Lemma IV.6.9 of
+* {#FSS10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], Prop. A.1 of:  *[[schreiber:Cech cocycles for differential characteristic classes]]*, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:1358950853](http://projecteuclid.org/euclid.atmp/1358950853), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)) 
 
-* [[Jean-Pierre Demailly]], _Complex Analytic and Differential Geometry_
 
-These proofs require one to show that star-shaped subsets of $\mathbf{R}^n$
-are diffeomorphic to $\mathbf{R}^n$ (see the article [[ball]] for details).
-One such proof is given on page 60 of
+* {#Demailly12} [[Jean-Pierre Demailly]], Lemma IV.6.9 of: _Complex Analytic and Differential Geometry_, 2012 ([pdf](https://www-fourier.ujf-grenoble.fr/~demailly/manuscripts/agbook.pdf))
 
-* {#GonnordTosel98} Stéphane Gonnord, Nicolas Tosel, _Calcul Différentiel_, ellipses (1998) 
 
-and is reproduced in
+* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], Thm. 5.3.2 and Appendix C of: _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
+
+
+These proofs require one to show that [[star-shaped subsets]] of [[Cartesian space]]/[[Euclidean space]] $\mathbf{R}^n$ are [[diffeomorphism|diffeomorphic]] to $\mathbf{R}^n$ (see the article *[[ball]]* for details, and see the references [there](ball#ReferencesStarShapedReasonDiffeomorphicToOpenBall)).
+
+One such proof is given in
+
+* {#Ferus07} [[Dirk Ferus]], [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in: _Analysis III_ (2007) ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf), [[Ferus_AnalysisIII.pdf:file]]) 
+
+and a simpler one in
+
+* {#GonnordTosel98} Stéphane Gonnord, Nicolas Tosel, on page 60 of: _Calcul Différentiel_, ellipses (1998) 
+
+which is reproduced in
 
 * [MathOverflow answer 212595](http://mathoverflow.net/a/212595).
 
-
-Other references on good covers include
+Other references on good open covers:
 
 * {#doCarmo} [[Manfredo do Carmo]], _Riemannian geometry_ (trans. Francis Flaherty), Birkh&#228;user (1992) 
 
@@ -260,11 +274,6 @@ Other references on good covers include
 
 * {#Greene} R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 (1978)
 
-
-* {#Ferus} [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
-
-
-* {#BottTu} [[Raoul Bott]],  [[Loring Tu]], _Differential forms in algebraic topology_, Graduate texts in mathematics vol. 82 (1982)  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/botttu.pdf))
 
 * {#OsborneStern69} RP Osborne and JL Stern. _Covering Manifolds with Cells_, Pacific Journal of Mathematics, Vol 30, No. 1, 1969.
 
