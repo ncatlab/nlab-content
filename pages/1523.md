@@ -32,7 +32,7 @@ S                      & \stackrel{p}\to    & 1 + S \\
 \downarrow_{corec_S p} &                    & \downarrow_{\id_1 + corec_S p} \\
 \bar{\mathbb{N}}       & \stackrel{pred}\to & 1 + \bar{\mathbb{N}}
 } $$
-commutes.  Indeed, $corec_S p$ is defined corecursively by $corec_S p(a) = 0$ if $p(a) = *$ and $\pred(\corec_S p(a)) = \corec_S p(a^\prime)$ if $p(a) = a^\prime \in S$.  In this way, $\bar{\mathbb{N}}$ is [[duality|dual]] to the [[natural number system]] $\mathbb{N}$ in its guise as a [[natural numbers object]].
+commutes.  Indeed, $corec_S p$ is defined corecursively by $corec_S p(a) = 0$ if $p(a) = *$ and $\pred(\corec_S p(a)) = \corec_S p(a^\prime)$ if $p(a) = a^\prime \in S$.  In this way, $\bar{\mathbb{N}}$ is [[duality|dual]] to the [[natural number | natural number system]] $\mathbb{N}$ in its guise as a [[natural numbers object]].
 
 You can think of $corec_S p$ as mapping an element $a$ of $S$ to the maximum number of times that $p$ can be applied in succession, starting from $a$, before being taken out of $S$.  Since this may never occur, we need $\infty$ as a possible value.  At the other extreme, if $p(a) = *$ then $p$ cannot be applied at all to $a$ before leaving $S$, so $corec_S p(a) = 0$.
 
