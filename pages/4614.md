@@ -442,6 +442,7 @@ preserves all [[finite limits]].
 This is claimed in [Gepner-Henriques 07, Remark 2.23](#GepnerHenriques07).
 
 ### Preservation of homotopy limits
+ {#PreservationOfHomotopyLimits}
 
 On [[homotopy limits]]:
 
