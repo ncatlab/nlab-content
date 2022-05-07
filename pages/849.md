@@ -397,7 +397,7 @@ for all objects $U \in C$ which on the right we regard under the [[Yoneda embedd
 
 Here
 
-* $U \times X \in \mathbf{H}$ is the [[cartesian product]] if $U$ with $X$
+* $U \times X \in \mathbf{H}$ is the [[cartesian product]] of $U$ with $X$
 
 * $\mathbf{H}(-,-)$ is the [[hom set]]-[[functor]] / [[derived hom-space|hom space]]-[[(∞,1)-functor]] of $\mathbf{H}$.
 
