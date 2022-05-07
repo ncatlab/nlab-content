@@ -53,6 +53,8 @@ Textbooks:
 
 * {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, Springer 1966 ([doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1))
 
+* [[William S. Massey]], *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
+
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
 
 * [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
