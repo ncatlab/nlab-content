@@ -109,6 +109,8 @@ $$
 yields the claim.
 \end{proof}
 
+Note that this is not named for [Gerardus Mercator](https://en.wikipedia.org/wiki/Gerardus_Mercator), the cartographer with the famous map projection, but the mathematician [Nicholas Mercator](https://en.wikipedia.org/wiki/Nicholas_Mercator).
+
 ## References
 
 See also:
