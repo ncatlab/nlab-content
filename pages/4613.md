@@ -135,7 +135,7 @@ Discussion of secondary and higher order invariant as higher order [[boundary fi
 * {#lpqft} [[Urs Schreiber]] et al., _[[schreiber:Local prequantum field theory]]_
   
 
-Specifically the secondary Chern-Simons and quternary WZW invariants in this context are discussed in 
+Specifically the secondary Chern-Simons and quaternary WZW invariants in this context are discussed in 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in Damien Calaque et al. (eds.)
 _Mathematical Aspects of Quantum Field Theories_, Springer 2014
