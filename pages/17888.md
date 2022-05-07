@@ -63,5 +63,9 @@ $$- \; :\mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}.$$
 
 ...
 
+## Related concepts
+
+* [[difference]]
+
 
 [[!redirects subtraction]]
