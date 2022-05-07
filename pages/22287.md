@@ -50,6 +50,14 @@ A _boolean predicate_ valued in a type $T$ is a function $P: T \rightarrow \math
 
 In fact, just with [[dependent sum types]], [[dependent product types]], [[empty type]], [[unit type]], and the two-valued type in a type universe $U$, any [[two-valued logic]] could be done inside $U$. Furthermore, since binary [[disjoint coproducts]] exist when $\mathbf{2}$ exists, all finite types exist in $U$, and any [[finitely-valued logic]], such as the [[internal logic]] of a [[finite]] [[cartesian power]] of [[Set]], could be done inside $U$. 
 
+For finite types, one could also inductively define specific functions 
+
+$$\forall a \in A.(-)(a):(A \to \mathbf{2}) \to \mathbf{2}$$
+
+$$\exists a \in A.(-)(a):(A \to \mathbf{2}) \to \mathbf{2}$$
+
+from the type of boolean predicates on $A$ and $\mathbf{2}$ such that they behave like [[existential quantification]] and [[universal quantification]]. 
+
 ## Bi-pointed types
 
 A __bi-pointed type__ is a type $A$ with a function $\mathbf{2}\to A$. Examples include the [[interval type]] and the [[function type]] of the [[natural numbers type]]. 
