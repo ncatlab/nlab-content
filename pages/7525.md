@@ -15,6 +15,11 @@ On the role of [[adjunctions]] and [[dualities]] in [[mathematics]]:
 
 * {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
 
+On [[categorical logic]] and [[topos theory]]:
+
+* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], _Introduction to higher order categorical logic_, Cambridge Studies in Advanced Mathematics 7 (1986) ([ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534))
+
+
 
 
 ## Related entries
