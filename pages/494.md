@@ -1355,10 +1355,13 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 
 ## Related concepts
+ {#RelatedConcepts}
 
 * **adjoint functor**, [[adjunction]]
 
   * [[strong adjoint functor]]
+
+  * {#RelatedSelfAdjointFunctor} [[self-adjoint functor]]
 
   * [[adjoint triple]], [[adjoint quadruple]], [[recollement]]
 
