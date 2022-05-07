@@ -120,7 +120,16 @@ survey:
 
 On [[tetraquarks]]:
 
+fully charmed:
+
 * [[LHCb collaboration]], *Observation of structure in the $J/\psi$-pair mass spectrum*, Science Bulletin 65 (2020) 1983 ([arXiv:2006.16957](https://arxiv.org/abs/2006.16957), [doi:10.1016/j.scib.2020.08.032](https://doi.org/10.1016/j.scib.2020.08.032), [CERN news](https://phys.org/news/2020-07-cern-physicists-discovery-unique-particle.html))
+
+doubly charmed:
+
+
+* [[LHCb collaboration]], *Observation of an exotic narrow doubly charmed tetraquark* ([arXiv:2109.01038](https://arxiv.org/abs/2109.01038))
+
+* [[LHCb collaboration]], *Study of the doubly charmed tetraquark $T^+_{c c}$* ([arXiv:2109.01056](https://arxiv.org/abs/2109.01056))
 
 
 
