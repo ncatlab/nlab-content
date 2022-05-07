@@ -39,7 +39,7 @@ $$X(-, 0) = \bullet, \qquad X(-, 1) = (x \stackrel{e}{\to} y)$$
 
 and from this picture we easily see that $X(-, 0)$ has two subobjects $\emptyset, \bullet$ whereas $X(-, 1)$ has five: $empty, x, y, (x, y), (x \stackrel{e}{\to} y)$.
 
-Being a presheaf topos has a lot of nice consequences and instantly yields answer to questions like whether finite [[limit|limits]] of directed graphs exist or how to construct the [[exponential object|exponential]] quiver $Y^X$ of all homomorphisms $X\to Y$ between two quivers $X,Y$ in $Quiv$ since the answers are provided by topos theory.
+Being a presheaf topos has a lot of nice consequences and instantly yields answers to questions like whether finite [[limit|limits]] of directed graphs exist or how to construct the [[exponential object|exponential]] quiver $Y^X$ of all homomorphisms $X\to Y$ between two quivers $X,Y$ in $Quiv$ since the answers are provided by topos theory.
 
 In the following subsections some of the topos structure in $Quiv$ is worked out explicitly. 
 
@@ -57,7 +57,7 @@ $$\array{
 
 where the vertex $\emptyset$ has one loop labeled "empty", and the vertex $\bullet$ has two loops with labels $(x, y)$ and ($x \stackrel{e}{\to} y$). 
 
-How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\to\Omega$ its characteristic map, then $\chi_X$ maps vertices of $Y$ not in $X$ to $\emptyset$ and vertices in $X$ to $\bullet$ (a vertex is either contained in a subgraph or not - the choice is binary and, accordingly, $\Omega$ needs two vertices to represent this). For edges the situation is more complicated since there are five ways (and, accordingly five edges in $\Omega$ to represent this) for an edge $z$ of $Y$ to be related to the subgraph $X$: the most straightforward is when $z$ has neither source nor target in $X$, such $z$ are definitely not in $X$ and are represented in $\Omega$ by the loop at $\emptyset$. Now suppose that $z$ has either source or target vertex in $X$ but not both: $\chi_X$ maps these to the maps $x,y$ between $\emptyset\rightleftarrows\bullet$, respectively. When $z$ has both source and target in $X$, the edge itself might or might not be in $X$, and the corresponding two cases are represented by the two loops at $\bullet$ , respectively, with $e$ representing the edges that are contained $X$.
+How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\to\Omega$ its characteristic map, then $\chi_X$ maps vertices of $Y$ not in $X$ to $\emptyset$ and vertices in $X$ to $\bullet$ (a vertex is either contained in a subgraph or not - the choice is binary and, accordingly, $\Omega$ needs two vertices to represent this). For edges the situation is more complicated since there are five ways (and, accordingly five edges in $\Omega$ to represent this) for an edge $z$ of $Y$ to be related to the subgraph $X$: the most straightforward is when $z$ has neither source nor target in $X$, such $z$ are definitely not in $X$ and are represented in $\Omega$ by the loop at $\emptyset$. Now suppose that $z$ has either source or target vertex in $X$ but not both: $\chi_X$ maps these to the maps $x,y$ between $\emptyset\rightleftarrows\bullet$, respectively. When $z$ has both source and target in $X$, the edge itself might or might not be in $X$, and the corresponding two cases are represented by the two loops at $\bullet$ , respectively, with $e$ representing the edges that are contained in $X$.
 
 ### (Double) negation
 
@@ -67,7 +67,7 @@ $$im(\bot)= \underoverset{{empty}}{\empty}{\circlearrowleft}$$
 
 sits as a subgraph in $\Omega$: 
 
-since $\bullet$ is not $im(\bot)$ whereas $\empty$ is, $\neg$ interchanges the two vertices and, accordingly, all loops at $\bullet$ must go ${empty}$ . Conversely, $empty$ goes to $e$ (since it is fully contained in $im(\bot)$). Now $x$ has its target but not its source in $im(\bot)$ hence it goes to $y$ whereas $y$ has its source but not its target in $im(\bot)$ and therefor goes to $x$.
+since $\bullet$ is not in $im(\bot)$ whereas $\empty$ is, $\neg$ interchanges the two vertices and, accordingly, all loops at $\bullet$ must go to ${empty}$ . Conversely, $empty$ goes to $e$ (since it is fully contained in $im(\bot)$). Now $x$ has its target but not its source in $im(\bot)$ hence it goes to $y$ whereas $y$ has its source but not its target in $im(\bot)$ and therefor goes to $x$.
 
 Complementing a subobject $X\subseteq Y$ i.e. taking the subobject $\neg X$ of $Y$ that is classified by $\neg\circ\chi_X$ amounts to taking all vertices of $Y$ not in $X$ and all the edges in $Y$ between them.
 
