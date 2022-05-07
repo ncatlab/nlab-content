@@ -25,7 +25,8 @@ Generally, for $G$ some [[group]], a _$G$-equivariant bundle_ is a [[bundle]], s
 
 In short, this should mean ([[schreiber:TED cohomology|GSS 21]], Def. \ref{EquivariantPrincipalBundles} below) that $G$-equivariant (fiber-, principal-,...) bundles are (fiber-, principal, ...) bundles _[[internalization|internal]]_ to a [[category]] of [[G-spaces]] (e.g. [[topological G-spaces]], [[G-manifolds]] but also [[G-sets]] etc.). 
 
-While the existing literature does not state the definition of equivariant bundles via [[internalization]], one sees (Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles} below) that the explicit definition in [tom Dieck 69](#tomDieck69)[tom Dieck 87, Sec. I.8](#tomDieck87) (for the case of [[principal bundles]]) is the equivalent external description, _including_, thereby, an [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ -- together with the respective compatibility conditions, which equivalently say (as highlighted e.g. in [Murayama-Shimakawa 95, below 1.1](#MurayamaShimakawa95), see the discussion [here](category+of+G-sets#InternalGroupActions)) that the joint action is that of the [[semidirect product group]] $\mathcal{G} \rtimes G$.
+While the existing literature does not state the definition of equivariant bundles via [[internalization]], one sees (Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles} below) that the explicit definition in [tom Dieck 69](#tomDieck69), [tom Dieck 87, Sec. I.8](#tomDieck87) (for the case of [[principal bundles]]) is the equivalent external description, _including_, thereby, an [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ -- together with the respective compatibility conditions, which equivalently say (as highlighted in 
+[tom Dieck 69, Sec. 1.2](#tomDieck69), also [Murayama-Shimakawa 95, below 1.1](#MurayamaShimakawa95), see the discussion [here](category+of+G-sets#InternalGroupActions)) that the joint action is that of the [[semidirect product group]] $\mathcal{G} \rtimes G$.
 
 Beware that this [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ of an [[equivariant principal bundle]] is often and traditionally disregarded, i.e. implicitly taken to be the [[trivial action]] (e.g. [Lashof 82](#Lashof82), [Lashof-May-Segal 83](#LashofMaySegal83)), which equivalently means that the [[semidirect product group]] that acts is reduced to the [[direct product group]] $\mathcal{G} \times G$, meaning that the [[action]] of the [[equivariance group]] _commutes_ with that of the [[structure group]]. This special case is the default meaning of _equivariant bundle_ in much of the literature!
  
@@ -294,6 +295,26 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 
 ## Properties
 
+### Notions of equivariant local triviality
+
+In the internal definition
+[above](#EquivariantLocalTriviality), 
+we demanded an equivariant fiber/principal bundle to be locally trivial in the evident sense *[[internalization|internal]]* to [[TopologicalGActions]]. But in the literature various variants of this notion are considered. We discuss how (some of) these are related to each other:
+
+* [tom Dieck 69, Def. 2.3](#tomDieck69), [tom Dieck 87, p. 58](#tomDieck87)
+
+* [Bierstone 78, Sec. 4](#Bierstone78)
+
+* [Lashof 82, p. 258](#Lashof82), [Lashof-May 86, p. 267](#LashofMay86)
+
+* [Lashof-Rothenberg 78, p. 216](#LashofRothenberg78)
+
+(...)
+
+Lashof82 $\leftrightarrow$ Bierstone78 ([Lashof 82, Lemmas 1.1, 1.3](#Lashof82))
+
+
+
 ### As $(G,\alpha,\mathcal{G})$-principal bundles
 
 \begin{prop}\label{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}
@@ -351,7 +372,7 @@ On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
 
-* [[Edward Bierstone]], _The equivariant covering homotopy property for differentiable $G$-fibre bundles_, J. Differential Geom. 8(4): 615-622 (1973) ([doi:10.4310/jdg/1214431963](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-8/issue-4/The-equivariant-covering-homotopy-property-for-differentiable-G-fibre-bundles/10.4310/jdg/1214431963.full))
+* {#Bierstone78} [[Edward Bierstone]], _The equivariant covering homotopy property for differentiable $G$-fibre bundles_, J. Differential Geom. 8(4): 615-622 (1973) ([doi:10.4310/jdg/1214431963](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-8/issue-4/The-equivariant-covering-homotopy-property-for-differentiable-G-fibre-bundles/10.4310/jdg/1214431963.full))
 
   > (for [[structure group]] commuting with the [[equivariance group]], but with [[equivariant differential topology|differentiable structure]])
 
@@ -382,8 +403,6 @@ On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 * {#tomDieck87} [[Tammo tom Dieck]], Section I.8 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
-
-
 
 
 With [[abelian group|abelian]] [[structure group]]:
