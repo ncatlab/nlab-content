@@ -119,6 +119,6 @@ where $W$ is the category whose objects are morphisms in $C$ and whose morphisms
 
 ## References
 
-See the references at [[model category]].
+See the references at *[[model category]]* or *[[classical homotopy category]]*.
 
 [[!redirects homotopy categories]]
