@@ -686,30 +686,48 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 
 ## References
 
+### For categories
+
+The notion of the nerve of a category may be due to [[Grothendieck]], based on the nerve of a covering from 1926 work of [[Pavel Sergeevič Aleksandrov]]. 
+
+A first description in print is:
+
+* [[Graeme Segal]], Section 3 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
+
+  > (in the context of constructing [[classifying spaces]] for [[principal bundles]] in [[algebraic topology]])
+
+Review and exposition:
+
+* [[Tom Leinster]], p. 117 onwards in: _Higher operads, higher categories_ , London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9 ([arXiv:math.CT/0305049](https://arxiv.org/abs/math/0305049))
+
+* [[Tom Leinster]], *[How I learned to love the nerve construction](https://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html)*, $n$-Category Caf&#233;, January 6, 2008.
+
+  > (an explanation of how the simplex category and the nerve construction arise canonically from the free category monad)
+
+
+See also:
+
 * [[W. G. Dwyer]], [[D. M. Kan]], Singular functors and realization functors, Nederl. Akad. Wetensch. Indag. Math. 46 (1984), no. 2, 147--153. [pdf](http://www.nd.edu/~wgd/Dvi/SingularAndRealization.pdf)
 
-* [[John Isbell]], Adequate subcategories, Illinois J. Math. 4, 541--552 (1960)
+* [[John Isbell]], *Adequate subcategories*, Illinois J. Math. 4, 541--552 (1960) ([doi:10.1215/ijm/1255456274](https://www.projecteuclid.org/journals/illinois-journal-of-mathematics/volume-4/issue-4/Adequate-subcategories/10.1215/ijm/1255456274.full))
 
-* [[Tom Leinster]], _Higher operads, higher categories_ , London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
 
-* [[Ross Street]], The algebra of oriented simplexes,
-J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.
+### For higher categories
 
-* [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_, [arxiv/1211.6603](http://arxiv.org/abs/1211.6603)
+For [[strict omega-categories]]:
+
+* [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra 49 (1987) 283-335; MR89a:18019 ([pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>).
+
+For [[2-categories]]:
+
+* [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_ ([arxiv/1211.6603](http://arxiv.org/abs/1211.6603))
+
+For [[3-categories]]:
 
 * {#Carrasco2014} Pilar Carrasco, _Nerves of Trigroupoids as Duskin-Glenn’s $3$-Hypergroupoids_, Applied Categorical Structures 23.5 (2015): 673-707.
 
-For an explanation of how the category $\Delta$ and the nerve construction arise canonically from the free category monad on the category of [[quivers]], see:
 
-* [[Tom Leinster]], [How I learned to love the nerve construction](https://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html), $n$-Category Caf&#233;, January 6, 2008.
 
-### Historical note
-
-The notion of the nerve of a category seems to be due to Grothendieck, which is in turn based on the nerve of a covering from 1926 work of [[Pavel Sergeevič Aleksandrov]]. One of the first papers to consider the properties of the nerve and to apply it to problems in algebraic topology was
-
-* [[Graeme Segal]],  _Classifying spaces and spectral sequences,_ Inst. Hautes &#201;tudes Sci. Publ. Math. No. 34 (1968) 105-112.
-
-Many of the later developments can already be seen there in 'embryonic' form.
 
 [[!redirects nerves]]
 [[!redirects nerve functor]]
