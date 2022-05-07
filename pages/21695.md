@@ -15,6 +15,8 @@ The term 'indefinite integral' is itself rather indefinite, having been used for
 To begin with, we will discuss the integration of [[real number|real]]-valued functions on the [[real line]], but much of this can be generalized to other contexts.  So let $f$ be a [[partial function]] from $\mathbb{R}$ to $\mathbb{R}$; typically, the domain of $f$ will be an [[interval]], but we do not require this.
 
 +-- {: .num_defn #semi}
+###### Definition
+
 If $a$ is a real number (usually in the domain of $f$, or at least in the domain\'s [[topological closure|closure]]), then the __semidefinite integral__ of $f$ from $a$ (or with __initial point__ $a$) is the function
 $$ x \mapsto \int_a^x f(t) \,\mathrm{d}t .$$
 (If $x \lt a$, then we must define $\int_a^x$ as $-\int_x^a$.)
@@ -27,6 +29,8 @@ $$ \int_a f(x) \,\mathrm{d}x $$
 for short.  Notice that this notation has no dummy variable; we only need to introduce the dummy variable $t$ to unfold the definition.  (Indeed, some writers will abuse notation, writing $\int_a^x f(x) \,\mathrm{d}x$ for the semidefinite integral.)  But as in $\mathrm{d}y/\mathrm{d}x$, the $x$ here is not a [[free variable]] either, since we cannot freely use substitution; it has to be viewed as [[variable quantity]] instead.  Rather, if you want to evaluate $\int_a f(x) \,\mathrm{d}x$ when $x$ is some number $b$, then the notation for this is $\int_a^b f(x) \,\mathrm{d}x$, in which $x$ has now become a dummy variable but has not simply been replaced with $b$.
 
 +-- {: .num_defn #semiIV}
+###### Definition
+
 If $a$ and $C$ are real numbers (with $a$ in the domain of $f$ or its closure), then the __indefinite integral__ of $f$ from $a$ with __initial value__ $C$ is the function
 $$ x \mapsto C + \int_a^x f(t) \,\mathrm{d}t .$$
 We may write this value as $C + \int_a f(x) \,\mathrm{d}x$ for short.
@@ -35,6 +39,8 @@ We may write this value as $C + \int_a f(x) \,\mathrm{d}x$ for short.
 This is only one of the meanings of 'indefinite integral', but it is the only one that doesn\'t have alternative unambiguous terminology.  Note that $C$ is the value of the indefinite integral at $a$; thus, $C$ is the initial value if $a$ is the initial point.  But for authors who use this concept, there is often no need to mention either $a$ or $C$ (and hence no terminology needed for them), because they are interested only in whether some other function $F$ is an indefinite integral of $f$, where $f$ is a locally integrable function on some closed interval.
 
 +-- {: .num_defn #antider}
+###### Definition
+
 If $F$ is a partial function from $\mathbb{R}$ to $\mathbb{R}$, then $F$ is an __antiderivative__ of $f$ (or an __antidifferential__ of $f \,\mathrm{d}x$) if $f$ is the [[derivative]] of $F$ on its domain:
 $$ \forall\, x \in \dom F,\; f(x) = F'(x) .$$
 A posteriori, $F$ must be [[differentiable function|differentiable]].
@@ -43,7 +49,9 @@ A posteriori, $F$ must be [[differentiable function|differentiable]].
 This is the usual meaning of 'indefinite integral' in modern Calculus textbooks using the [[Riemann integral]], especially when the domain of $f$ is an interval.
 
 +-- {: .num_defn #almostantider}
-If $F$ is a Lebesgue-measurable [[almost function]] from $\mathbb{R}$ to $\mathbb{R}$, then $F$ is an __almost antiderivative__ of $f$ if $f$ is the derivative of $F$ [[almost everywhere]]:
+###### Definition
+
+If $F$ is a Lebesgue-measurable partial [[almost function]] from $\mathbb{R}$ to $\mathbb{R}$, then $F$ is an __almost antiderivative__ of $f$ if $f$ is the derivative of $F$ [[almost everywhere]]:
 $$ \operatorname{ess}\forall\, x \in \dom F,\; f(x) = F'(x) .$$
 We are especially interested in the case where $F$ is [[absolutely continuous function|absolutely continuous]].
 =--
@@ -55,7 +63,7 @@ This is not standard terminology, but it fits in well with other 'almost' termin
 
 The main property linking the different kinds of indefinite integral is the _[[fundamental theorem of calculus]]_ (FTC).  For various definitions of integral, one can prove that every semidefinite integral, or more generally any indefinite integral in the sense of Definition \ref{semiIV}, is an antiderivative; and that every antiderivative, or more generally every almost antiderivative, is an indefinite integral; possibly with technical conditions (depending on the type of integral concerned) such as differentiability or absolute continuity.  See that article for details.
 
-Indefinite integrals provide solutions to [[differential equations]].  Of course, the definition of an antiderivative is that is the solution to a particularly simple differential equation.  Employing the FTC, we see that the indefinite integrals are the solutions to the corresponding initial-value problems.  Specifically, the solution to
+Indefinite integrals provide solutions to [[differential equations]].  Of course, the definition of an antiderivative is that it is the solution to a particularly simple differential equation.  Employing the FTC, we see that the indefinite integrals are the solutions to the corresponding initial-value problems.  Specifically, the solution to
 $$ F'(x) = f(x),\; F(a) = C $$
 is the indefinite integral of $f$ with initial point $a$ and initial value $C$:
 $$ F(x) = C + \int_a f(x) \,\mathrm{d}x .$$
