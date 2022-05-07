@@ -38,6 +38,15 @@ An (uncountable) cardinal $\kappa$ is inaccessible precisely when the $\kappa$th
 If one thinks of $\aleph_0$ as already an inaccessible cardinal, then the [[axiom of infinity]] may be seen as itself the first large cardinal axiom.
 
 
+## Related concepts
+
+* [[regular cardinal]]
+
+* [[Grothendieck universe]]
+
+* [[large cardinal]]
+
+
 ## References
 
 The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kappa$-small sets for $\kappa$ an inaccessible cardinal is in 
@@ -53,5 +62,5 @@ The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kap
 
 [[!redirects strongly inaccessible cardinal]]
 [[!redirects strongly inaccessible cardinals]]
-
-
+[[!redirects weakly inaccessible cardinal]]
+[[!redirects weakly inaccessible cardinals]]
