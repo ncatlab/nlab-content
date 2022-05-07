@@ -140,6 +140,8 @@ This is discussed in further detail at [[model structure on categories with weak
 
 * [[F-category]]
 
+* [[M-category]]
+
 * [[marked simplicial set]]
 
 ## References
