@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _pointed topological space_ (often _[[pointed space]]_, for short) is a [[topological space]] equipped with a choice of one of its [[points]] ([[elements]]).
+A _pointed topological space_ (often _[[pointed space]]_, for short) is a [[topological space]] equipped with a choice of one of its [[points]] ([[elements]]). If the inclusion of that point is a [[Hurewicz cofibration]] then one speaks of a *[[well-pointed topological space]]*.
 
 Although  this concept may seem simple, pointed topological spaces play a central role for instance in [[algebraic topology]] as domains for  [[reduced cohomology|reduced]] [[generalized (Eilenberg-Steenrod) cohomology theories]] and as an ingredient for the definition of [[spectra]].
 
