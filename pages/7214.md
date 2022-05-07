@@ -187,7 +187,7 @@ The [[model structure on Delta-generated topological spaces]] [[Quillen equivale
 
 Discussion in the generality of subcategory-generated spaces, including [[compactly generated topological spaces]]:
 
-* {#Gaucher09} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+* {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
 
 along the lines of
 
