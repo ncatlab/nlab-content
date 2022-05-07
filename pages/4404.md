@@ -85,6 +85,11 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 \linebreak
 
+### Exotic 8-sphere
+ {#Exotic8Sphere}
+
+The abelian group of non-diffeomorphic structures with connected sum on the [[8-sphere]] is the cyclic group $Z/2$. The unique exotic 8-sphere corresponds to the nontrivial element of the [[cokernel]] of the [[J-homomorphism]] and is the first instance of an exotic sphere that does not bound a [[parallelizable manifold]] ([Amabel 17, Sec. 11](#Amabel17)). It admits a metric of positive [[Ricci curvature]].
+
 ### Exotic $n$-spheres for $n \geq 5$
  {#ExoticNSpheresForNGreaterThanFour}
 
@@ -168,6 +173,8 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 * Llohann D. Sperança, _Pulling back the Gromoll-Meyer construction and models of exotic spheres_, Proceedings of the American Mathematical Society 144.7 (2016): 3181-3196 ([arXiv:1010.6039](https://arxiv.org/abs/1010.6039))
 
 * Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
+
+* {#Amabel17} , _Exotic spheres_ ([pdf](https://math.mit.edu/~araminta/Exotic.pdf))
 
 * {#DRL10} C. Duran, A. Rigas, Llohann D. Sperança, _Bootstrapping Ad-equivariant maps, diffeomorphisms and involutions_, Matematica Contemporanea, 35:27–39, 2010 ([pdf](http://www.ime.unicamp.br/~rigas/bootstrapping))
 
