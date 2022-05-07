@@ -335,6 +335,8 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
  
 ## Related concepts
 
+* [[idempotent monoid in a monoidal category]]
+
 * [[idempotent adjunction]]
 
 * [[reflective subcategory]]
