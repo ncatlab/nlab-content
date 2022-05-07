@@ -1,0 +1,161 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Higher Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of an [[inertia orbifold]] is closely related to that of a [[free loop space]] of an orbifold. As such, one may expect there to be an [[action]] of the [[circle group]] $S^1$ on inertia orbifolds, corresponding to "rotation of loops". An explicit component-based modification of the inertia orbifold construction which builds in an $S^1$-action of sorts (akin to [[cyclic loop spaces]]) was highlighted in [Huan 18](#Huan18) (Def. \ref{HuanInertiaOrbifold} below). 
+
+The [[orbifold K-theory]] of these modified inertia orbifolds ("quasi-elliptic cohomology") is closely related to [[equivariant elliptic cohomology]] at the [[Tate curve]] of the original orbifold (see also at *[[Tate K-theory]]*).
+
+
+## Definition
+
+In the following
+
+* $G$ is a [[discrete group]];
+
+* $\mathcal{X} \;\simeq\; X \!\sslash\! G$ is a [[good orbifold]] which is a [[global quotient orbifold]] of a [[smooth manifold]] $X$ by a [[smooth function|smooth]] [[proper action]] of $G$.
+
+\begin{definition}\label{HuanCentralizer}
+For $g \in G$ any element, with $C_g \subset G$ denoting its [[centralizer]], write
+$$
+  \Lambda_g 
+    \;\coloneqq\; 
+  \big(
+    C_g \times \mathbb{R}
+  \big)
+  \,
+  \big/
+  \,
+    \underset{
+      \simeq \mathbb{Z}
+    }{
+    \underbrace{
+      \langle (g^{-1},1) \rangle
+    }}
+$$
+
+for the [[Lie group]] which is the [[quotient group]] of the [[direct product group]] of $G$ with the additive Lie group of [[real numbers]] by the [[subgroup]] ([[isomorphism|isomorphic]] to the [[natural numbers]]) which is generated from the [[pair]] $(g,-1) \in G \times \mathbb{R}$.
+
+Hence this sits in a [[short exact sequence]] of [[Lie groups]] of this form:
+
+\[
+  1
+  \to
+  \mathbb{Z}
+  \xhookrightarrow{ \; 1 \mapsto (g^{-1},1) \; }
+  C_g \times \mathbb{R}
+  \overset{\;p_g\;}{\twoheadrightarrow}
+  \Lambda_g
+  \to
+  1
+  \,.
+\]
+
+\end{definition}
+
+\begin{remark}
+  For $g \in G$ the [[group action]] of $G$ on $X$ restricts to an action of the [[centralizer]] $G$ on the [[fixed locus]] $X^g = X^{\langle g\rangle}$:
+
+$$
+  C_g \times X^g \xrightarrow{ (-) \cdot (-) } X^g
+  \,.
+$$
+
+Moreover, since $g$ itself (a) commutes with all element in $C_g$ and (b) has trivial action on $X^g$, this [[lift|lifts]] to an action of $\Lambda_g$ (Def. \ref{HuanCentralizer})
+
+\[
+  \label{ActionOfHuanCentralizer}
+  \array{
+    \Lambda_g \times X^g 
+      &\xrightarrow{\;\;\;}& 
+    X^g
+    \\
+    ( [h,r], x ) &\mapsto& h \cdot x
+    \,.
+  }   
+\]
+
+\end{remark}
+
+The following definition modifies the [skeletal presentation of inertia orbifolds](inertia+orbifold#SkeletonForGlobalQuotientOrbifolds):
+
+\begin{definition}\label{HuanInertiaOrbifold}
+Write
+  $$
+    \Lambda_{S^1} \mathcal{X}
+    \;\simeq\;
+    \underset{[g] \in ConjCl(G)}{\coprod}
+    X^g \!\sslash\! \Lambda_g
+  $$
+for the [[orbifold]] which is the [[disjoint union]] over the [[conjugacy classes]] $[g]$ of $G$ of the [[global quotient orbifolds]] of the [[fixed loci]] $X^g = X^{\langle g\rangle}$ by the [[group action]] (eq:ActionOfHuanCentralizer) of the group from Def. \ref{HuanCentralizer}.
+\end{definition}
+
+([Huan 18, Def. 2.14](#Huan18) [Dove 19, p. 62](#Dove19))
+
+## Properties
+
+### Relation to inertia orbifold
+
+The canonical inclusions (via Def. \ref{HuanCentralizer})
+
+$$
+  \array{
+    C_g &\xhookrightarrow{\;\;}& \Lambda_g
+    \\
+    h &\mapsto& (h,0)
+  }
+$$
+
+induce a canonical morphism from the plain [[inertia orbifold]] to Huan's inertia orbifold (Def. \ref{HuanInertiaOrbifold}):
+
+$$
+  \array{
+    \Lambda\mathcal{X}
+    &\xrightarrow{\;\;\;}&
+    \Lambda_{S^1} \mathcal{X}
+    \,.
+  }
+$$
+
+
+## Related concepts
+
+* [[inertia orbifold]]
+
+* [[cyclic loop space]]
+
+* [[Tate K-theory]]
+
+* [[equivariant elliptic cohomology]]
+
+
+
+## References
+
+The notion is highlighted in:
+
+* {#Huan18} [[Zhen Huan]], Def. 2.14 in: _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
+
+Streamlined review in:
+
+* {#Dove19} [[Thomas Dove]], p. 62 in: _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+
+[[!redirects Huan's inertia orbifolds]]
