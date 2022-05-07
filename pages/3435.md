@@ -11,17 +11,19 @@
 
 This entry is about the book
 
-* [[Pierre Gabriel]], [[Michel Zisman]], 
+* [[Pierre Gabriel]], [[Michel Zisman]]:
 
-  _Calculus of fractions and homotopy theory_, 
+  **Calculus of fractions and homotopy theory** 
 
   Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, 
 
   Springer (1967) 
  
-  ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+  [doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4)
 
-on _[[homotopy theory]]_ and specifically the [[calculus of fractions]] for constructing [[homotopy categories]].
+  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)
+
+on [[homotopy theory]], notably [[simplicial homotopy theory]], and specifically the [[calculus of fractions]] for constructing [[homotopy categories]].
 
 This book first introduced a general [[localization]] and [[reflective localization]] of a [[category]] at  an arbitrary [[class]] of [[morphisms]] (nowadays sometimes called the _Gabriel-Zisman localization_ (see also _[[Gabriel localization]]_)); however the [[size issues]] are not discussed and the formalism of [[Grothendieck universe|universes]] is understood as an excuse. The special case of [[calculus of fractions|categories of fractions]] is treated in detail. 
 
