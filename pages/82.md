@@ -72,24 +72,26 @@ Other introductions include
 * [[André Joyal]], _Geometric aspects of topos theory in relation with logical doctrines_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kaZpOEOAUzE))
 
 ### Textbooks
+ {#Textbooks}
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_ , Springer Heidelberg 1985. (Available as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) 2005)
 
+* [[Colin McLarty]], *[[Elementary Categories, Elementary Toposes]]*, Oxford University Press 1992 ([ISBN:9780198514732](https://global.oup.com/academic/product/elementary-categories-elementary-toposes-9780198514732?cc=ae&lang=en&))
 
-* [[Peter Johnstone]], [[Elephant|Sketches of an elephant: a topos theory compendium]]
-
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, 1992
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3 - Categories of Sheaves_, Cambridge UP 1994 ([ISBN:9780521061247](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/handbook-categorical-algebra-volume-3?format=PB))
+
+* [[Peter Johnstone]], *[[Elephant|Sketches of an elephant: a topos theory compendium]]*, 2002
+
+
 
 Introducing even category theory from the scratch while still managing to cover some ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
 
 * {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
-Similarly, the following monograph develops topos theory to considerable depth without categorical prerequisites
-
-* [[Michael Barr]], [[Charles Wells]], _Toposes, Triples and Theories_ , Springer Heidelberg 1985. (Available as [TAC reprint no.12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) 2005)
 
 See also 
 
