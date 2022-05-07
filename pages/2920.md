@@ -27,9 +27,7 @@ The historically original example is the [[Bousfield localization of spectra]]. 
 
 ## Definition
 
-+-- {: .num_defn }
-###### First definition
-
+\begin{definition}
 
 A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations,
 
@@ -44,7 +42,7 @@ $$
   \,.
 $$
 
-=--
+\end{definition}
 
 While that's a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
 
@@ -260,9 +258,15 @@ To see this, we modify, if necessary, the set $S$ in a convenient way without ch
 * for every original morphism $f : A \to B$ in $S$ and for every $n \in \mathbb{N}$ also the canonical morphism
 
   $$
-    \tilde f : (Q_f := A \cdot
-    \Delta^n \coprod_{A \cdot \partial \Delta^n}
-    B \cdot \partial \Delta^n) \to B \cdot \Delta^n
+    \tilde f 
+    \;\colon\; 
+    \big(
+       Q_f 
+         \coloneqq 
+       A \cdot \Delta^n 
+         \coprod_{A \cdot \partial \Delta^n}
+       B \cdot \partial \Delta^n
+    \big) \to B \cdot \Delta^n
     \,,
   $$
 
@@ -1036,7 +1040,7 @@ Since the [[small object argument]] applies, a [[combinatorial model category]] 
 By the axioms of an [[enriched model category]] it follows that the functor
 
 $$
-  \mathbf{R}Hom_C := C(Q(-),P(-)): C^{op} \times C \to SSet
+  \mathbf{R}Hom_C \coloneqq C(Q(-),P(-)): C^{op} \times C \to SSet
 $$
 
 takes values in [[Kan complexes]]. This is called the [[derived hom space]] functor of $C$: we think of $\mathbf{R}Hom(X,Y)$ as the [[∞-groupoid]] of maps from $X$ to $Y$, homotopies of maps, homotopies of homotopies, etc.
@@ -1096,7 +1100,7 @@ Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+m
 
 * check that the weak equivalences form an accessibly embedded accessible subcategory.
 
-For the first item choose $I := I_C$ with $I_C$ any set of generating cofibrations of $C$, that exists by assumption on $C$.
+For the first item choose $I \coloneqq I_C$ with $I_C$ any set of generating cofibrations of $C$, that exists by assumption on $C$.
 Then $inj(I) = inj(I_C) = fib_C \cap W_C \subset W_C \subset W_{L_S C}$.
 
 It remains to demonstrate closure of $cof(I) \cap W_{L_S C} = cof_C \cap W_{L_S C}$ under pushout and transfinite composition.
@@ -1190,7 +1194,7 @@ Every combinatorial localization $B = L_{R} A$ of $A$ is already of the form $L_
 
 See [[Higher Topos Theory|HTT, prop. A.3.7.4]]
 
-We demonstrate that $S := J_B$ does the trick.
+We demonstrate that $S \coloneqq J_B$ does the trick.
 
 
 ...
@@ -1431,9 +1435,9 @@ in terms of [[enriched model category|enriched]] [[tractable model category|trac
 
 The relation to [[Vopěnka's principle]] is discussed in
 
-* [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society
+* {#RosickyTholen} [[Jiří Rosický]], [[Walter Tholen]], _Left-determined model categories and universal homotopy theories_,  Transactions of the American Mathematical Society
 Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable/1194855)).
-{#RosickyTholen}
+
 
 
 
