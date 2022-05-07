@@ -15,6 +15,16 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
  {#SelectedWritings}
 
 
+Introducing the idea of [[F-theory]]:
+
+* {#Vafa96} [[Cumrun Vafa]], _Evidence for F-theory_, Nucl. Phys. B469:403-418, 1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
+
+On [[F-theory]] [[KK-compactification|KK-compactified]] on [[Calabi-Yau manifolds]] and [[duality between F-theory and heterotic string theory]]:
+
+* {#MorrisonVafa96a} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- I_, Nucl. Phys. B473 (1996) 74-92 ([arXiv:hep-th/9602114](http://arxiv.org/abs/hep-th/9602114))
+
+* {#MorrisonVafa96b} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- II_, Nucl. Phys. B476:437-469, 1996 ([arXiv:hep-th/9603161](http://arxiv.org/abs/hep-th/9603161))
+
 
 On [[Chern-Simons theory as a topological string theory]] ([[open/closed string duality]] in interpreting [['t Hooft double line notation]] in the [[large N limit]] and in [[AdS/CFT duality]]);
 
