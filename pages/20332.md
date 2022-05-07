@@ -47,7 +47,7 @@ The conjecture has been proven for the following [[dimensions]]
 
 ## References 
 
-* Joseph K. Wolf, _Complex homogeneous contact manifolds and quaternionic symmetric spaces_, Journal of Math. and Mech., 14 (1965), p. 166 ([jstor:24901319](https://www.jstor.org/stable/24901319))
+* [[Joseph K. Wolf]], _Complex homogeneous contact manifolds and quaternionic symmetric spaces_, Journal of Math. and Mech., 14 (1965), p. 166 ([jstor:24901319](https://www.jstor.org/stable/24901319))
 
 * {#Salamon82} [[Simon Salamon]], _Quaternionic Kähler manifolds_, Invent Math (1982) 67: 143. ([doi:10.1007/BF01393378](https://doi.org/10.1007/BF01393378))
 
