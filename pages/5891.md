@@ -211,6 +211,20 @@ See _[[categorical semantics of homotopy type theory]]_.
 
 * [[models in presheaf toposes]]
 
+## Terminology
+ {#Terminology}
+
+Most usage in [[mathematics]] of the adjective "categorical" in relation to [[category theory]] is a shorthand, and arguably an unfortunate one, for "category theoretic", i.e. for  "as seen through the lens of, hence as treated with the concepts and tools of category theory". 
+
+Compare to "numerical" versus "number theoretic": The interest of number theory is not in numerical methods! Numerical statements are made by engineers. For category theorists it's worse: Their profession is not to do _categorical arguments_, not in the dictionary sense of "categorical" as "unambiguous, absolute, unqualified". 
+
+While the careful dictionaries list a secondary sense of "categorical", as "relating to a category", they hardly have the categories of Kant in mind here, much less those of Eilenberg & MacLane; instead they refer to _catagegorization_: Merriam-Webster [offers](https://www.merriam-webster.com/dictionary/categorical) "categorical systems for classifying books" as an example for what "categorical" could refer to, in this secondary sense, in common language. Therefore it does not seem to help much that this secondary common sense of "categorical"  is [offered](https://www.merriam-webster.com/dictionary/categorial) as the primary sense of "categorial" (without the second "c"!). But this is probably the rationale behind a more widespread use of "categorial semantics" over "categorical semantics" in the field of formal logic.
+
+All this notwithstanding, the use in mathematics of "categorical", as in _[[categorical semantics]]_ is wide-spread, even standard. Since unfortunate choice of terminology in mathematics is rather common (compare "perverse schobers"!), and since the primary purpose of mathematical terminology is communication rather than, yes, proper categorization, there may not be much gain in opposing this trend, and not much success to doing so by replacing unfortunate terminology with something that looks like the same unfortunate terminology but with a typo in it.
+
+
+
+
 ## Related pages
 
 * [[relation between type theory and category theory]]
@@ -220,6 +234,8 @@ See _[[categorical semantics of homotopy type theory]]_.
 * [[initiality conjecture]]
 
 * [[Awodey's conjecture]]
+
+
 
 
 ## References
