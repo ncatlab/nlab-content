@@ -870,6 +870,8 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 * [[group homology]]
 
+* [[crossed homomorphism]]
+
 * [[transgression in group cohomology]]
 
 * [[group extension]]
@@ -902,7 +904,7 @@ We may regard a [[Lie algebra]] as an [[infinitesimal object|infinitesimal]] gro
 
 Standard textbook references on group cohomology include
 
-* [[Kenneth Brown]],  _Cohomology of Groups_ , Graduate Texts in Mathematics, 87 (1972)
+* [[Kenneth Brown]],  _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
 
 and specifically with an eye towards cohomology of [[finite groups]]
 
