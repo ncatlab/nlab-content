@@ -33,7 +33,7 @@ $$
   X_3
 $$
 
-in $\mathcal{C}$, equipped with a [[pair]] of overlapping [[null homotopies]] (of the [[composition|composite]] of either consecutive pair among these morphisms)
+in $\mathcal{C}$, equipped with a [[pair]] of overlapping [[null homotopies]] 
 
 \begin{xymatrix@C=15pt}
   X_0
@@ -101,6 +101,15 @@ to the equivalence class of their [[pasting diagram|pasting]]-composite
   &&
   X_2
   \ar[dd]
+    ^-{ f_3 }
+  &&
+  \in 
+  \;
+  \pi_1 
+  \mathcal{C}
+  \big(
+    X_0, X_3
+  \big)
   \\
   \\
   &&
@@ -175,6 +184,13 @@ then the Toda bracket is the [[homotopy class]] of this 1-morphism in the [[homo
   Ho(\mathcal{C})
   \big(
     X_0, \Omega X_3
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \pi_1 \mathcal{C}
+  \big(
+    X_0, X_3 
   \big)
   \,.
 \]
@@ -262,7 +278,7 @@ Further discussion:
 * {#Kochmann96} [[Stanley Kochmann]], section 5.7 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
-* [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) ([doi:10.1023/A%3A1007796409912](http://link.springer.com/article/10.1023/A%3A1007796409912))
+* [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) ([doi:10.1023/A:1007796409912](http://dx.doi.org/10.1023/A:1007796409912))
 
 * Boryana Dimitrova, _Universal Toda brackets of commutative ring spectra_, poster, Bonn 2010 ([pdf](http://www.math.uni-bonn.de/people/grk1150/YWT2010/YWT_Dimitrova.pdf))
 
