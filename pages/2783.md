@@ -223,7 +223,7 @@ On the other hand, some properties are *not* preserved by the completions.
 
 * Hu and Tholen, "A note on free regular and exact completions and their infinitary generalizations", [TAC](http://www.tac.mta.ca/tac/volumes/1996/n10/2-10abs.html) 1996.
 
-* Carboni and Vitale, "Regular and exact completions", JPAA 1998.
+* [[Aurelio Carboni]], [[Enrico Vitale]], *Regular and exact completions*, Journal of Pure and Applied Algebra **125** 1–3  (1998) 79-116 (<a href="https://doi.org/10.1016/S0022-4049(96)00115-6">doi:10.1016/S0022-4049(96)00115-6</a>)
 
 * Birkedal and Carboni and Rosolini and Scott, "Type Theory via Exact Categories," 1998
 
