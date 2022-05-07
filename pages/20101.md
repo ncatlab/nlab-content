@@ -110,6 +110,9 @@ On [[flavour anomalies]]:
 
 * [[LHCb collaboration]], _Measurement of CP-averaged observables in the $B^0\to K^{\ast 0} \mu^+ \mu^-$ decay_ ([spire:1784890](https://inspirehep.net/literature/1784890), [arXiv:2003.04831](https://arxiv.org/abs/2003.04831))
 
+* [[LHCb collaboration]] *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
+
+
 survey:
 
 * [[Niels Tuning]], _Recent results from LHCb_, Nikhef 2020 ([nikhef event:2253](https://indico.nikhef.nl/event/2253), [pdf](https://indico.nikhef.nl/event/2253/material/slides/0.pdf), [[TuningFlavourAnomaly20.pdf:file]])
