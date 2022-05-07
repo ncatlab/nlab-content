@@ -53,6 +53,14 @@ Finally, field operations on surreal numbers are defined recursively:
 
 The style of such definitions is familiar from [[material set theory]], where elements are conceived to be sets of elements, which themselves have elements, and so on, down to a bedrock established by a foundation axiom. In fact, games can be axiomatized as elements of a structure with two predicates $\in_L$, $\in_R$ satisfying some set-theoretic axioms. 
 
+The definition of multiplication is the most involved. We can summarize it by saying that the left set gets contributions from like sets, and the right set gets contributions from opposite kinds. For example, $0 \cdot 1$ is $\{|\} \cdot \{0 | \emptyset\}$, so the left-hand contributions to the left set are
+
+$$\emptyset \cdot \{0|\} + 0 \cdot \{0\} - \emptyset \cdot \{0\} = \emptyset + 0 \cdot \{0\} - \emptyset \cdot \{0\} = \emptyset.$$
+
+The other contributions work out similarly: everything ends up being the empty set, so the answer is $\{\emptyset | \emptyset\} = 0$.
+
+Conway motivates this definition from the observation that, because $x - x' \gt 0$ and $y - y' \gt 0$, then if multiplication makes any sense at all, we should have $(x - x')(y - y') \gt 0$ and thus $x y \gt x' y + x y' - x' y'$. Therefore, elements of this form should appear in $L_{x y}$. Following this kind of logic for the other possible combinations leads to the definition of multiplication given above.
+
 ## In constructive mathematics
 
 The definition of $\geq$ for numbers as formulated by Conway leans heavily upon properties of negation, and in particular the classical [[principle of excluded middle]].  However, it can be made more constructive by defining $\lt$ separately from $\le$:
