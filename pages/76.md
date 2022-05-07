@@ -198,7 +198,11 @@ This theme was taken up  by Baues, (1988), using a type of abstract homotopy the
 ## References 
  {#References}
 
-An exposition with an eye towards [[homotopy type theory]] is in 
+Early textbook account:
+
+* [[George W. Whitehead]], *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+
+Exposition with an eye towards [[homotopy type theory]]:
 
 * {#Shulman17} [[Mike Shulman]], _The logic of space_, chapter in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
 
