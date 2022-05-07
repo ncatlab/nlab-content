@@ -8,6 +8,16 @@ On [[gauged supergravity|gauged]] [[D=7 supergravity]]:
 * M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]], _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381 (<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>)
 
 
+
+On the [[partition function]] of the [[superstring]] ([[heterotic string theory|heterotic string]] and [[type II string theory|type II string]]) as a [[modular form]] with values in the [[Chern character]] of the [[background field|background]] [[field strengths]] ("character-valued partition function", a little later called the *[[elliptic genus]]*/*[[Witten genus]]*) and relation to [[Green-Schwarz anomaly cancellation]]:
+
+* [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies, characters and strings*, Nuclear Physics B Volume 287, 1987, Pages 317-361 (<a href="https://doi.org/10.1016/0550-3213(87)90108-8">doi:10.1016/0550-3213(87)90108-8</a>)
+
+* [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies and modular invariance in string theory*, Physics Letters B 177 (3-4), 317-323, 1986 (<a href="https://doi.org/10.1016/0370-2693(86)90760-4">doi:10.1016/0370-2693(86)90760-4</a>)
+
+* [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]],  [[Nicholas P. Warner]], *Anomaly cancelling terms from the elliptic genus*, Nuclear Physics B Volume 299, Issue 1, 28 March 1988, Pages 91-116 (<a href="https://doi.org/10.1016/0550-3213(88)90468-3">doi:10.1016/0550-3213(88)90468-3</a>)
+
+
 On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-theory on 8-manifolds]]):
 
 * {#IshamPope88} [[Chris Isham]], [[Christopher Pope]], _Nowhere Vanishing Spinors and Topological Obstructions to the Equivalence of the NSR and GS Superstrings_, Class. Quant. Grav. 5 (1988) 257 ([spire:251240](http://inspirehep.net/record/251240), [doi:10.1088/0264-9381/5/2/006](https://doi.org/10.1088/0264-9381/5/2/006))
