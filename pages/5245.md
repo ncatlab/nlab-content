@@ -17,8 +17,9 @@ On [[Oka manifolds]] and the [[Oka principle]]:
 
 * {#Forstneric11} [[Franc Forstnerič]], _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
 
-
 * {#Forstneric13} [[Franc Forstnerič]] (appendix by [[Finnur Lárusson]]), *Oka manifolds: From Oka to Stein and back*, Annales de la Faculté des sciences de Toulouse, Mathématiques, Série 6, Tome 22 (2013) no. 4, pp. 747-809 ([numdam:AFST_2013_6_22_4_747_0](https://afst.centre-mersenne.org/item/?id=AFST_2013_6_22_4_747_0))
+
+* [[Franc Forstnerič]], *Developments in Oka theory since 2017* ([arXiv:2006.07888](https://arxiv.org/abs/2006.07888))
 
 
 
