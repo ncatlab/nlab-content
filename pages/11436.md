@@ -5,7 +5,7 @@
 
 On [[Brauer ∞-groups]]
 
-* {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_ ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
+* {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_, Manifolds and K-theory. Contemp. Math. 682 (2017) 189-208 ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
 
 * {#BakerRichterSzymik12} [[Andrew Baker]], [[Birgit Richter]], [[Markus Szymik]], _Brauer groups for commutative $\mathbb{S}$-algebras_, J. Pure Appl. Algebra 216 (2012) 2361&#8211;2376 ([arXiv:1005.5370](http://arxiv.org/abs/1005.5370))
 
@@ -18,13 +18,14 @@ On [[K3-spectra]]:
 
 On [[equivariant stable cohomotopy|stable]] [[equivariant cohomotopy]] and the [[equivariant Hopf degree theorem]]:
 
-* [[Markus Szymik]], _A stable approach to the equivariant Hopf theorem_ ([pdf](https://folk.ntnu.no/markussz/papers/szymik.hopf.pdf), [[StableApproachToEquivariantHopfTheorem.pdf:file]])
+* [[Markus Szymik]], _A stable approach to the equivariant Hopf theorem_, Topology Appl. 154 (2007) 2323-2332 ([pdf](https://folk.ntnu.no/markussz/papers/szymik.hopf.pdf), [[StableApproachToEquivariantHopfTheorem.pdf:file]])
+
 
 On [[characteristic]] of [[E-∞ rings]]:
 
-* [[Markus Szymik]], _Commutative S-algebras of prime characteristics and applications to unoriented bordism_, [arXiv:1211.3239](http://arxiv.org/abs/1211.3239)
+* [[Markus Szymik]], _Commutative S-algebras of prime characteristics and applications to unoriented bordism_, Algebr. Geom. Topol. 14 (2014) 3717-3743 ([arXiv:1211.3239](http://arxiv.org/abs/1211.3239))
 
-* [[Markus Szymik]],  _String bordism and chromatic characteristics_, [arXiv:1312.4658](http://arxiv.org/abs/1312.4658)
+* [[Markus Szymik]],  _String bordism and chromatic characteristics_, Homotopy Theory: Tools and Applications. Contemp. Math. 729 (2019) 239-254 ([arXiv:1312.4658](http://arxiv.org/abs/1312.4658))
 
 
 category: people
