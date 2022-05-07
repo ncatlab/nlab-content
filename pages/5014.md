@@ -81,6 +81,9 @@ On topological groupoids as presenting [[toposes]] with [[point of a topos|enoug
 
 * [[Carsten Butz]], [[Ieke Moerdijk]], *Representing topoi by topological groupoids*, Journal of Pure and Applied Algebra Volume 130, Issue 3, 17 September 1998, Pages 223-235 (<a href="https://doi.org/10.1016/S0022-4049(97)00107-2">doi:10.1016/S0022-4049(97)00107-2</a>)
 
+On [[exponential objects]] among [[topological groupoids]]:
+
+* [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
 
 
 
