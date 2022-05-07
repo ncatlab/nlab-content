@@ -46,10 +46,16 @@ Various classical theorems of [[differential topology]] are secretly theorems ab
 
 > table grabbed from [FSS 19b](#FSS19b)
 
-### Twisted Pontrjagin-Thom theorem
+### Twisted Pontrjagin theorem
  {#TwistedPontrjaginThomTheorem}
 
-The [[scanning map]]-equivalences on [[configuration spaces of points]] may be regarded as generalizations of the [Pontryagin-Thom theorem](cohomotopy#RelationToCobordismGroup) from [[sets]] of [[Cohomotopy]] [[cohomology class|classes]] to [[homotopy types]] of [[twisted Cohomotopy]] [[cocycles]]:
+
+The _[[twisted Pontrjagin theorem]]_ relates twisted Cohomotopy with [[cobordism classes]] of [[normally twisted-framed submanifolds]].
+
+### Twisted May-Segal theorem
+
+The [May-Segal theorem](configuration space of points#LoopSpacesOfSuspensions) has a twisted generalization:
+
 
 +-- {: .num_prop #ScanningMapEquivalenceOverClosedManifold}
 ###### Proposition
