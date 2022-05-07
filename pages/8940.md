@@ -15,8 +15,7 @@
 
 ## Definition
 
-A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]]. 
-
+A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. as stated, this is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]].
 
 ## Properties
 
@@ -29,7 +28,6 @@ Note that a gaunt category need not be thin, since we may have parallel non-isom
 ### Relation to complete Segal spaces
 
 The [[nerve]] [[simplicial set]] of a [[category]], regarded as a [[simplicial object]] in [[homotopy types]] under the inclusion $Set \hookrightarrow \infty Grpd$, is a _[[complete Segal space]]_ precisely if the category is gaunt. More discussion of this is at _[Segal space -- Examples -- In Set](Segal%20space#InSetByNervesOfCategories)_.
-
 
 ## References
 
