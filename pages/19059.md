@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[classifying spaces]] via (what came to be understood as) [[geometric realization of simplicial topological spaces]] (see [MacLane 1972](geometric+realization+of+simplicial+topological+spaces#MacLane)):
+
+* {#Milgram67} [[R. James Milgram]], *The bar construction and abelian H-spaces*, The bar construction and abelian H-spaces, Illinois J. Math. 11(2): 242-250 (1967) ([doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full))
+
 On the [[homotopy type of spaces of rational maps]]:
 
 * [[Fred Cohen]], [[Ralph Cohen]], [[Benjamin M. Mann]], [[R. James Milgram]], _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
