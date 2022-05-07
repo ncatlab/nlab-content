@@ -43,6 +43,9 @@ That is, it is a [[2-category]] $C$ equipped with a [[tensor product]] $\otimes 
 
 ## References
 
+* {#DayStreet97} [[Brian Day]], [[Ross Street]], Section 5 of: *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
+
+
 * [[Mike Shulman]], _Constructing symmetric monoidal bicategories_ ([arXiv:1004.0993v1](http://arxiv.org/abs/1004.0993v1))
 
 [[!redirects symmetric monoidal 2-categories]]
