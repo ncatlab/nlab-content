@@ -28,6 +28,13 @@ Given any [[set]] $S$, there exists a [[well-order]] $\prec$ on $S$.
 
 The first proof was given in ([Zermelo 1904](#Zermelo04)). Within the nLab, the article [[Zorn's lemma]] gives a standard informal proof that can be formalized in [[ZFC]] under [[classical logic]], as well as the easy argument that conversely, the well-ordering principle (in its classical "least element" form; see below) implies the [[axiom of choice]] and Zorn's lemma. 
 
+\begin{remark}
+That the well-ordering theorem is more of a *theorem* in need of a proof, while the axiom of choice is more of an *axiom* to be assumed without proof is, of course, a matter of opinion, but it\'s reflected in Jerry Bona\'s famous quotation:
+
+> The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about [[Zorn's lemma]]?
+
+\end{remark}
+
 
 ## Consequences 
 
@@ -37,22 +44,8 @@ As in the argument above, the [[axiom of choice]] follows; given any [[surjectio
 
 To get the large (or "global") axiom of choice (that any surjection between proper classes splits), we need a large well-ordering theorem: that every proper class can be well-ordered.  The large principles do not follow from the small ones.
 
-## History 
 
-**Georg Cantor** first developed [[set theory]] in the context of studying well-ordered sets of [[real number]]s whence the validity of the well-ordering principle became important for his theory of [[ordinal numbers]]. In his 1883 paper he calls it a _'fundamental and weighty law of thought that is remarkable for his generality'_ and promised to come back to it later ([Cantor 1932](#Cantor32), p.169). In the following, he announced proofs but they failed to materialize so that he was forced to take it as an assumption.[^choice] 
 
-[^choice]:This contrasts with Cantor's attitude towards the axiom of choice which he used implicitly but never thematised explicitly. In fact, the full explicit awareness of the use of the axiom choice in mathematics had to await the controversy over Zermelo's well-ordering theorem in 1904 (with some anticipation by G. Peano and B. Levi earlier).
-
-Consequently, the well-ordering principle ended as 'a very strange claim' second on [[Hilbert's problems|Hilbert's millennium list]] of open problems in mathematics in 1900. Then in 1904, the Hungarian mathematician J. K&#246;nig announced a proof that the [[continuum]] could not be well-ordered but had to retract the proof.
-
-Soon afterwards in 1904, [[Ernst Zermelo]] finally gave a proof using the [[axiom of choice]] following a suggestion by E. Schmidt. The proof, albeit correct, was met with heavy criticism by prominent mathematicians so that Zermelo published a new proof and a defense of the contested axiom of choice in 1908.
-
-The attempt to make explicit the set-theoretic assumptions in the proof led him to publish his axioms for set theory in the same year which became later a part of [[Zermelo-Fraenkel set theory]]. Hence the 1904ff controversy proved to become a _decisive watershed for the development of modern mathematics_: triggering the advent of set-theoretic [[foundation of mathematics]] and putting the problem of non-constructive methods of proof on the agenda. 
-
-## Assessment
-
-That the well-ordering theorem is more of a *theorem* in need of a proof, while the axiom of choice is more of an *axiom* to be assumed without proof is, of course, a matter of opinion, but it\'s reflected in Jerry Bona\'s famous quotation:
->The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about [[Zorn's lemma]]?
 
 ## In constructive mathematics
 
@@ -67,6 +60,19 @@ In [[constructive mathematics]], the well-ordering principle is also equivalent 
 * [[axiom of choice]]
 
 * [[Hartogs number]]
+
+## History 
+
+**Georg Cantor** first developed [[set theory]] in the context of studying well-ordered sets of [[real number]]s whence the validity of the well-ordering principle became important for his theory of [[ordinal numbers]]. In his 1883 paper he calls it a _'fundamental and weighty law of thought that is remarkable for his generality'_ and promised to come back to it later ([Cantor 1932](#Cantor32), p.169). In the following, he announced proofs but they failed to materialize so that he was forced to take it as an assumption.[^choice] 
+
+[^choice]:This contrasts with Cantor's attitude towards the axiom of choice which he used implicitly but never thematised explicitly. In fact, the full explicit awareness of the use of the axiom choice in mathematics had to await the controversy over Zermelo's well-ordering theorem in 1904 (with some anticipation by G. Peano and B. Levi earlier).
+
+Consequently, the well-ordering principle ended as 'a very strange claim' second on [[Hilbert's problems|Hilbert's millennium list]] of open problems in mathematics in 1900. Then in 1904, the Hungarian mathematician J. K&#246;nig announced a proof that the [[continuum]] could not be well-ordered but had to retract the proof.
+
+Soon afterwards in 1904, [[Ernst Zermelo]] finally gave a proof using the [[axiom of choice]] following a suggestion by E. Schmidt. The proof, albeit correct, was met with heavy criticism by prominent mathematicians so that Zermelo published a new proof and a defense of the contested axiom of choice in 1908.
+
+The attempt to make explicit the set-theoretic assumptions in the proof led him to publish his axioms for set theory in the same year which became later a part of [[Zermelo-Fraenkel set theory]]. Hence the 1904ff controversy proved to become a _decisive watershed for the development of modern mathematics_: triggering the advent of set-theoretic [[foundation of mathematics]] and putting the problem of non-constructive methods of proof on the agenda. 
+
 
 ## References
 
