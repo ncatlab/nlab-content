@@ -12,51 +12,40 @@ $\,$
 * table of contents
 {:toc}
 
+## position
+
+I work in the Mathematics Department of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/) in the group of Prof. [[Hisham Sati]] and in the NYUAD [Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html).
+
 ## contact
 
-The best way to contact me is to send an email to <schreiber@math.cas.cz> or to <urs.schreiber@gmail.com>.
+* <us13@nyu> or <urs.schreiber@gmail.com>
 
+## research 
 
-## my position {#myposition}
+I am working on mathematical fundamental physics (e.g *[[schreiber:Hypothesis H]]*).
 
-<div style="float:right;margin:0 10px 10px 0;">
-<a href="http://www.math.cas.cz/recherche/equipe.php?id_equipe=18">
-<img src="https://ncatlab.org/schreiber/files/CAS-AGMP.jpg" width="300">
-</a>
-</div>
-
-I am permanent researcher in the department _[Algebra, Geometry and Mathematical Physics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0)_
-of the [Institute of Mathematics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0) at the [Czech Academy of the Sciences](http://www.cas.cz/index.html) (CAS) in [Prague](https://en.wikipedia.org/wiki/Prague).
+For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
 
 
-## my research {#myresearch}
+## publications
 
-My research is about mathematical theory building in theoretical fundamental physics. For informal exposition see [below](#column).
+For a list of research articles that I have written see the public preprint server
 
-With [[Hisham Sati]] I have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
+* [arXiv](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1), 
 
-* _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, [volume 83](http://bookstore.ams.org/PSPUM-83), AMS, 2011
 
-I am writing a monograph about a modern approach to this subject:
+Textbooks:
 
-* _[[schreiber:differential cohomology in a cohesive topos|Differential cohomology in a cohesive topos]]_.
+* _[[schreiber:Introduction to Homological algebra]]_
 
-An expository survey text is here:
-
-* _[[schreiber:Higher Prequantum Geometry]]_, chapter in [[nLab:Gabriel Catren|G. Catren]], [[nLab:Mathieu Anel|M. Anel]] (eds.) _[[nLab:New Spaces for Mathematics and Physics]]_, IHP Paris, 2016
-
-and survey talks are here: 
-
-* talk at  _[New Spaces in Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Sept 28 - Oct 2, 2015  ([video recording](https://www.youtube.com/watch?v=EaYMuyr9KII))
-
-* talk at _[Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/)_,  IHES Paris, Nov. 25-27, 2015 ([video recording](https://youtu.be/_O41kh0z_UM))
+* _[[Introduction to Stable homotopy theory]]_
 
 
 
 ## teaching 
 
-See behind the links for detailed lecture notes that I wrote.
+See behind the links for detailed lecture notes that I wrote:
 
 | date |  lecture notes |
 |------|--------|
@@ -76,46 +65,13 @@ A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/s
 
 
 
-
-## publications
-
-For a list of research articles that I have written see the public preprint server
-
-* [arXiv](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1), 
-
-or my
-
-* [personal record](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects)
-
-Textbooks:
-
-* _[[schreiber:Introduction to Homological algebra]]_
-
-* _[[Introduction to Stable homotopy theory]]_
-
-
-## invited talks and lectures
-
-For a chronological list of invited talk and lectures that I have given see here:
-
-* [talks and lectures](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References)
-
-## students
-
-For a list of students whose thesis work I have been supervising see here:
-
-* [students](http://ncatlab.org/schreiber/show/HomePage#students)
-
-
 ## $n$Lab
 
 <a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://i.stack.imgur.com/1hvpz.png" alt="nLab banner" /></div></a>
 
-I like to put information into context. For that purpose I had started the 
+I like to put information into context. For that purpose I had started (in Nov 2008) the 
 
-* [nLab wiki project](http://ncatlab.org/nlab/show/HomePage) 
-
-in November 2008. It has now more than 11,600 pages (some very short, but some very long).  In May 2015 the $n$Lab installation migrated from a server paid out of my pocket to a server hosted at Carnegie-Mellon University in Pittsburgh, funded by [[Steve Awodey]]'s [MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/) for [[homotopy type theory]] research.
+* *[[Home Page|$n$Lab wiki project]]*
 
 For more on what the $n$Lab is see also
 
@@ -126,7 +82,7 @@ For more on what the $n$Lab is see also
 ## column
  {#column}
 
-I am writing an irregular column at [PhysicsForums Insights](https://www.physicsforums.com/insights/). Artices in the series include these:
+I used to write an irregular column at [PhysicsForums Insights](https://www.physicsforums.com/insights/). Articles in the series include these:
 
 **on pre-quantum field theory**
 
@@ -171,15 +127,14 @@ I am writing an irregular column at [PhysicsForums Insights](https://www.physics
 * _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
 
 
+
 ## more on the web
 
 For logs of further activity see my page
 
 * _[at Twitter](https://twitter.com/SchreiberUrs)_
 
-* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_ (soon gone)
-
-and for links to technical discussions about maths and physics see my pages
+and for links to technical discussions about math and physics see my pages:
 
 * _[at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)_ 
 
