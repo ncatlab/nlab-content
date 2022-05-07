@@ -1,5 +1,78 @@
 
 
+\begin{tikzcd}[column sep=large]
+    \Gamma_X
+    \;\;\;
+    \colon
+    &[-40pt]
+    \mathbf{H}_{/X}
+    \ar[
+      rr,
+      phantom,
+      shift left=10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=-10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      shift left=20+10pt,
+      "{ \sum_X }"{description}
+    ]
+    \ar[
+      rr,
+      shift left=-20+10pt,
+      "{ \prod_X }"{description}
+    ]
+    &&
+    \mathbf{H}
+    \ar[
+      ll,
+      shift right=+10pt,
+      "{ X \times (-) }"{description}
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      phantom,
+      shift left=-10+10pt,
+      "{\scalebox{.7}{$\bot$}}"
+    ]
+    \ar[
+      rr,
+      shift left=20+10pt,
+      "{ \mathrm{Shp} }"{description},
+      "{\mathclap{\times}}"{description, pos=0}
+    ]
+    \ar[
+      rr,
+      shift left=-20+10pt,
+      "{ \mathrm{Pnts} }"{description}
+    ]
+    &&
+    \mathrm{Grp}_\infty
+    \ar[
+      ll,
+      hook',
+      shift right=+10pt,
+      "{ \mathrm{Disc} }"{description}
+    ]
+    &[-40pt]
+    \colon
+    \;\;\;
+    \mathrm{LConst}_X
+\end{tikzcd}
+
+
 a $\sigma$ a
 
 $$
