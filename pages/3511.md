@@ -185,3 +185,7 @@ $$
 category: category
 
 [[!redirects (∞,1)Cat]]
+
+[[!redirects (∞,1)Categories]]
+[[!redirects (infinity,1)Categories]]
+
