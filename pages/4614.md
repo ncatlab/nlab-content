@@ -69,7 +69,7 @@ $$
 
 where the [[equivalence relation]] "$\sim$" identifies, for every morphism $[k] \to [l]$ in $\Delta$, the points $(x,f_* p) \in X_l \times \Delta^l_{Top}$ and $(f^* x,p) \in X_k \times \Delta^k_{Top}$.
 
-This form of geometric realization of simplicial topological spaces goes back to ([Segal68](#Segal68)). An early reference that realizes this construction as a [[coend]] is ([MacLane](#MacLane)).
+This form of geometric realization of simplicial topological spaces goes back to ([Segal 1968](#Segal68)). An early reference that realizes this construction as a [[coend]] is ([MacLane](#MacLane)).
 
 One also considers geometric realization after [restricting](semi-simplicial+set#AdjunctionWithSimplicialSets) to the subcategory $\Delta_+ \overset{j^{op}}{\hookrightarrow} \Delta$ of the [[simplex category]] on the strictly increasing maps (that is, the coface maps only---no codegeneracies). (This yields the underlying *[[semi-simplicial set]]*).
 
@@ -133,9 +133,13 @@ Let $X \colon  \Delta^{op} \to Top$ be a [[simplicial topological space]].
 
 Such $X$ is called
 
-* **good** if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are [[closed cofibrations]];
+* **good** ([Segal 1973, App. 2](#Segal73); [Segal 1974, Def. A.4](#Segal74)) 
 
-* **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
+  if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are [[closed cofibrations]];
+
+* **proper** ([May 1972](#May72)) 
+
+  if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
 
 Noticing that the union of degenerate simplices appearing here is a [[Reedy model structure|latching object]] and that closed cofibrations are cofibrations in the [[Strøm model structure]] on [[Top]], the last condition equivalently says: 
 
@@ -143,7 +147,6 @@ Noticing that the union of degenerate simplices appearing here is a [[Reedy mode
 
 =--
 
-The notion of good simplicial topological space goes back to ([Segal73](#Segal73)), that of proper simplicial topological space to ([May 1972](#May72)). 
 
 +-- {: .num_prop #GoodImpliesProper}
 ###### Proposition
@@ -1080,7 +1083,7 @@ which may be understood as the realization of the [[nerves]] of their [[topologi
 
 More explicit allusion to realization at least of [[semi-simplicial objects|semi-simplicial]] [[nerves]] of [[topological categories]] appeared, without details, in:
 
-* {#Segal68} [[Graeme Segal]],  Section 2 of _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
+* {#Segal68} [[Graeme Segal]],  Section 2 of: _Classifying spaces and spectral sequences_, Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
 
 The detailed [[coend]] formula for and the relevance of [[compactly generated topological spaces]] for [[preserved limit|preservation]] at least of [[finite products]] is due (with reference to [Milgram 1967](#Milgram67)) to:
 
@@ -1096,7 +1099,7 @@ The notion of *good* simplicial spaces is due to
 
 and the notion of *fat* geometric realization togeteher with its homotopy equivalence to ordinary realization for good simplicial spaces is due to:
 
-* {#Segal74} [[Graeme Segal]], Appendix A of _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_, Topology, 13:293&#8211;312, 1974 (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">10.1016/0040-9383(74)90022-6</a>)
+* {#Segal74} [[Graeme Segal]], Appendix A of _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_, Topology, 13:293&#8211;312, 1974 (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>)
 
 More discussion of the comparison of different realization functors is in: 
 
@@ -1127,7 +1130,7 @@ The relation between (fat) geometric realization and [[homotopy colimit]]s is co
 
 The proof that geometric realization of proper simplicial spaces preserves weak equivalences is from
 
-* {#May_Einf} [[Peter May]], *$E_\infty$-spaces, group completions, and permutative categories*.  London Math. Soc. Lecture Notes No. 11, 1974, 61-93.
+* {#May_Einf} [[Peter May]], *$E_\infty$-spaces, group completions, and permutative categories*,  London Math. Soc. Lecture Notes No. 11, 1974, 61-94 ([doi:10.1017/CBO9780511662607.008](https://doi.org/10.1017/CBO9780511662607.008), [pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
 
 
 A definition of the Bousfield-Kan map, and the Reedy model category theory necessary to show that it is a weak equivalence, can be found in
