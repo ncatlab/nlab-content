@@ -1056,10 +1056,11 @@ Now since the kernel on $Sym(n-1)$ is a [[principal submatrix]] of that for $Sym
 
 
 \begin{lemma}\label{EigenvaluesNonNegativeAtNBetween1Andn}
-  For $e^\beta = N \in \{1, 2, \cdots, n\}$
+  For $e^\beta = N \in \{1, 2, \cdots, n-1\}$
   all the eigenvalues of the Cayley distance kernel 
   $e^{- \beta \cdot d_C}$ on $Sym(n)$
-  are non-negative.
+  are non-negative
+  and for $e^\beta = n$ they are all positive.
 \end{lemma}
 \begin{proof}
   We observe that the eigenvalues at these particular 
@@ -1067,7 +1068,8 @@ Now since the kernel on $Sym(n-1)$ is a [[principal submatrix]] of that for $Sym
 
   Concretely, for $\lambda$ any [[partition]] of $n$, with corresponding [[Schur polynomial]] $\s_\lambda$  and [[irreducible character|irreducible]] [[Specht module|Specht]] [[character of a linear representation|character]] $\chi^{(\lambda)}$, consider the following computation:
 
-$$
+\[
+  \label{ExpressingSchurPolynomialsInTermsOfKernelEigenvalues}
   \begin{aligned}
   s_{\lambda}
   \big(
@@ -1133,7 +1135,7 @@ $$
   \cdot
   x^n
   \end{aligned}
-$$
+\]
 
 Here we used:
 
@@ -1143,6 +1145,8 @@ Here we used:
 
 1. the character formula for the eigenvalues ([this Prop](#CharacterFormulaForEigenvalues)).
 
+This shows the first part of the statement. Finally, that the eigenvalues for $e^\beta = N$ are in fact positive follows since in this case all the arguments $x_i$ on the top left of (eq:ExpressingSchurPolynomialsInTermsOfKernelEigenvalues) are non-vanishing, so that none of the monomials contributing to $x^n$ vanishes.
+
 \end{proof}
 
 
@@ -1151,12 +1155,13 @@ Here we used:
   the Cayley distance kernel $e^{- \beta \cdot d_C}$
   is positive semi-definite.
 
-  For $e^{\beta} = n$  it is not indefinite (i.e. positive semi-definite or positive definite).
+  For $e^{\beta} = n$  it is positive definite.
 \end{prop}
 \begin{proof}
   By Lemma \ref{EigenvaluesNonNegativeAtNBetween1Andn} the
-  eigenvalues at all these values are non-negative, and by Lemma \ref{SignOfTheEigenvalueOfTheSigantureDistribution} they contain 0 except possibly in the case
-  $e^{\beta} = n$.
+  eigenvalues at all these values are non-negative
+  and positive for the special case $e^{\beta} = n$,
+  while by Lemma \ref{SignOfTheEigenvalueOfTheSigantureDistribution} they do contain 0  away from this special case.
 \end{proof}
 
 
