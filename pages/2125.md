@@ -523,7 +523,7 @@ or chapter VIII, paragraph 8 of
 
 * [[Saunders MacLane]], _Homology_ , Grundlehren Math. Wiss. vol 114, Springer-Verlag, Berlin-G&#246;ttingen-Heidelberg, 1963 .
 
-For $A, B$ cosimplicial abelian groups, $C A$ and $C B$ their [[Moore complex|Moore cochain complex]]es, 
+For $A, B$ [[cosimplicial abelian groups]], $C A$ and $C B$ their [[Moore complex|Moore cochain complex]]es, 
 
 the **Alexander--Whitney morphism** is the morphism
 
@@ -615,7 +615,7 @@ $$
   C : CoS(Ab) \to Ch_+^\bullet(Ab)
 $$
 
-from cosimplicial abelian groups to cochain complexes is a  [[lax monoidal functor]] with respect to the standard monoidal structures on $CoS(Ab)$ and $Ch_+^\bullet(Ab)$.
+from [[cosimplicial abelian groups]] to cochain complexes is a  [[lax monoidal functor]] with respect to the standard monoidal structures on $CoS(Ab)$ and $Ch_+^\bullet(Ab)$.
 
 This should be old and standard, but somehow explicit statements in the literature to this extent are hard to find.(?) Some central aspects are recalled in [section 7](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf#page=63) of
 
@@ -965,7 +965,7 @@ $$
 $$
 
 can be equipped with a lax monoidal 
-structure with respect to the standard monoidal structure on cosimplicial abelian groups and on connective cochain complexes of abelian groups.
+structure with respect to the standard monoidal structure on [[cosimplicial abelian groups]] and on connective cochain complexes of abelian groups.
 
 =--
 
