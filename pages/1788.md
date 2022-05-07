@@ -1,5 +1,16 @@
 
+$\ldots$
 
+$$
+  \Lambda_{Huan} \mathcal{X}
+  \;\simeq\;
+  [&#643; S^1, \mathcal{X}] \!\sslash\! S^1
+  \,.
+$$
+
+$$
+  S^1 \xrightarrow{\;\;} &#643; S \;\simeq\; B \mathbb{Z}
+$$
 
 \linebreak
 
