@@ -59,6 +59,8 @@ Review in:
 
 See also:
 
+* {#KahnZimborasEisert19} [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_, Phys. Rev. A 102, 042407 ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+
 * [[Han Yan]], *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
 
 [[!include weight systems on chord diagrams in physics]]
