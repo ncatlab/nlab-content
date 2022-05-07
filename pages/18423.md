@@ -45,7 +45,7 @@ because this identifies morphisms out of $&#643; X$ as [[higher parallel transpo
 
 Concretely, in the [[cohesive ∞-topos]] of [[smooth ∞-groupoids]] it is readily checked ([[schreiber:differential cohomology in a cohesive topos|dcct]], see around [here](smooth+infinity-groupoid+--+structures#FlatCoefficientsForDeloopedLieGroup) at *[[smooth ∞-groupoid -- structures]]*) that $\flat \mathbf{B}\mathcal{G}$ indeed classifies [[flat ∞-connections]] in the traditional sense. 
 
-It requires more work to show, even in this concrete smooth case, that $&#643; X$ is indeed modeled by a [[path ∞-groupoid]] in the traditional sense (say based on the idea of the smooth [[singular simplicial complex]]). That this is indeed the case is Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod} below, due to [[Dmitri Pavlov]] et al.
+It requires more work to show, even in this concrete smooth case, that $&#643; X$ is indeed modeled by a [[path ∞-groupoid]] in the traditional sense (say based on the idea of the smooth [[singular simplicial complex]]). That this is indeed the case is Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} below, due to [[Dmitri Pavlov]] et al.
 
 This fact has some remarkable consequences, which we develop [further below](#Consequences).
 
@@ -155,7 +155,7 @@ This follows by
 
 ### Equivalence to smooth shape modality
 
-\begin{proposition}\label{SmoothShapeModelityGivenBySmoothPathInfinityGroupod}
+\begin{proposition}\label{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid}
 **(smooth [[shape modality]] given by smooth [[path ∞-groupoid]])**
 
   For $A \,\in\, SmoothGroupoids_\infty = Sh_\infty(CartesianSpaces)$, 
@@ -185,6 +185,7 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
 1. is in fact an [[(∞,1)-sheaf]]
 
    \[
+     \label{SmoothSingIsInfinitySheaf}
      \mathbf{Sing}(A)
      \;\in\;
      Sh_\infty(CartesianSpaces)
@@ -207,12 +208,22 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
    \[
      \label{SmoothlyParameterizePathInfinityGroupoidIsDiscrete}
      \mathbf{Sing}(A) \;\simeq\; Disc \circ Sing(A)
+     \,,
+   \]
+
+   hence, with (eq:ShapeEquivalentToSmoothlyParameterizedPathInfinityGroupoid), that 
+
+   \[
+     \label{ShapeEquivalentToDiscreteSmoothSingularComplex}
+     &#643; A
+     \;\simeq\;
+     Disc \circ Sing(A)
      \,.
    \]
   
 \end{proposition}
 
-This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 2014, Thm. 0.2](#Pavlov), also [Bunk 2020, Sec. 3](#Bunk20). The analogous statement for sheaves of [[stable homotopy types]] (which follows essentially formally) was observed in [BNV 13, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case).
+This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](https://nforum.ncatlab.org/discussion/11361/shape-via-cohesive-path-groupoid/?Focus=93004#Comment_93004)), announced in [Pavlov 2014, Thm. 0.2](#Pavlov). The analogous statement for [[sheaves of spectra]] (which follows essentially formally) was observed in [Bunke-Nikolaus-Völkl 2013, Lem. 7.5](#BunkeNikolausVoelkl13) (see at *[[differential cohomology hexagon]]* for more on this case). The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) then appeared also as  [Bunk 2020, Prop. 3.6 with Prop. 3.11](#Bunk20). 
 
 \linebreak
 
@@ -332,13 +343,13 @@ Here
 
 * the first step uses the [[closed monoidal structure on presheaves]];
 
-* the second step is Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod};
+* the second step is Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid};
 
 * the third step uses that with $X \in SmoothManifolds$, by assumption, and with $\Delta^n_{smth} \in CartesianSpaces \hookrightarrow SmoothManifolds$ by Def. \ref{SmoothExtendedSimplices}, also the [[Cartesian product]] $X \times \Delta^n_{smth} \,\in\, SmoothManifolds \xhookrightarrow{y} PSh_\infty(SmoothManifolds)$ is still [[representable functor|representable]], so that by the [[(∞,1)-Yoneda lemma]], we may [[limits of presheaves are computed objectwise|compute the colimit of presheaves objectwise]];
 
 * the fourth just makes explicit the [[internal hom]] in order to make manifest another appeal to the [[closed monoidal structure on presheaves]] in the fifth and sixth step;
 
-* the last step applies again Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod}.
+* the last step applies again Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid}.
 
 Since the composite of these equivalences is still [[natural equivalence|natural]] in $U$, the statement (eq:SmoothOkaPrincipleEquivalence) follows by the [[(∞,1)-Yoneda embedding]].
 \end{proof}
@@ -626,7 +637,7 @@ Here:
 
 * the third step is the smooth Oka principle (Prop. \ref{SmoothOkaPrinciple});
 
-* the fourth step is the relation $&#643; \;\simeq\; Disc \circ Sing$ (eq:SmoothlyParameterizePathInfinityGroupoidIsDiscrete) from Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod};
+* the fourth step is the relation $&#643; \;\simeq\; Disc \circ Sing$ (eq:SmoothlyParameterizePathInfinityGroupoidIsDiscrete) from Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid};
 
 * the fifth step is the relation $Pnts \circ Disc \simeq id$, valied in any [[cohesive (∞,1)-topos]];
 
@@ -653,21 +664,26 @@ Here:
 
 ## References
 
-The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod} is due to
+The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is due to
  
 * {#Pavlov14} [[Dmitri Pavlov]], _Structured Brown representability via concordance_, 2014 ([pdf](https://dmitripavlov.org/concordance.pdf), [[Pavlov_Concordance.pdf:file]])
 
 * {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
 
-* {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces* ([arXiv:2007.06039](https://arxiv.org/abs/2007.06039))
-
 with a precursor observation in:
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-For [[diffeological spaces]] among all smooth $\infty$-groupoids, their smooth path $\infty$-groupoid was considered also in:
+The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also proven in:
+
+* {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces* ([arXiv:2007.06039](https://arxiv.org/abs/2007.06039))
+
+The special case of the smooth path $\infty$-groupoid (Def. \ref{PathInfinityGroupoid})
+applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smooth $\infty$-groupoids]]), was considered also in:
 
 * {#ChristensenWu13} [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], Def. 4.3 of: _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+
+
 
 [[!redirects shape via cohesive path infinity-groupoid]]
 
