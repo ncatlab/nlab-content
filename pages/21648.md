@@ -64,7 +64,7 @@ $$
 ### Relation to $Spin(5,1)$
  {#RelationToSpin51}
 
-Under [[conjugation action]] on $2 \times 2$ [[Hermitian matrices]] with [[coefficients]] in the [[quaternions]], $SL(2,\mathbb{H})$ is identified with [[Spin(5,1)]] and its canonical [[action]] on [[Minkowski spacetime]] $\mathbb{R}^{5,1}$.
+Under the [[conjugation action]] on $2 \times 2$ [[Hermitian matrices]] with [[coefficients]] in the [[quaternions]], $SL(2,\mathbb{H})$ is identified with [[Spin(5,1)]] and its canonical [[action]] on [[Minkowski spacetime]] $\mathbb{R}^{5,1}$.
 
 For more on this see at _[[spin representation]]_, _[[supersymmetry and division algebras]]_ and _[[geometry of physics -- supersymmetry]]_.
 
@@ -76,5 +76,5 @@ For more on this see at _[[spin representation]]_, _[[supersymmetry and division
 
 ## References
 
-* [[Joás Venâncio]], [[Carlos Batista]], Sections 2,3 of: _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296))
+* [[Joás Venâncio]], [[Carlos Batista]], Sections 2,3 of: _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_, Adv. Appl. Clifford Algebras **31** 71 (2021) ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296), [doi:10.1007/s00006-021-01172-1](https://doi.org/10.1007/s00006-021-01172-1))
 
