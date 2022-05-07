@@ -96,16 +96,16 @@ The canonical model structure for 1-groupoids is briefly described in section 5 
 
 * {#Anderson78} D.W. Anderson, _Fibrations and Geometric Relations_, Bulletin of the AMS, Vol. 84: 765-788, 1978.
 
-It was apparently first published (for categories internal to a Grothendieck topos) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
+It was apparently first published (for [[internal category|categories internal]] to a [[Grothendieck topos]]) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
 
-A more elementary writeup is in
+A more elementary writeup of the proof is in
 
 
-* [[Charles Rezk]] ([dvi](http://www.math.uiuc.edu/~rezk/cat-ho.dvi))
+* [[Charles Rezk]], *A model category for categories*, 1996 ([dvi](http://www.math.uiuc.edu/~rezk/cat-ho.dvi), [[Rezk_ModelCategoryForCategories.pdf:file]])
 
-A general internal version relative to a Grothendieck [[coverage]] can be found in
+A general [[internalization|internal]] version relative to a Grothendieck [[coverage]] can be found in
 
-* T. Everaert, R.W. Kieboom, T. Van der Linden, _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
+* T. Everaert, R.W. Kieboom, [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories,  Vol. 15, CT2004, No. 3, pp 66-94. ([tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)).
     
 though it seems that the assumptions in this article apply to ambient categories that are [[semiabelian categories]], but do not apply to ambient categories like [[Top]].
 
@@ -130,7 +130,7 @@ and for $n=3$ ([[Gray-categories]]) in
 
 For $n = \omega$ ([[strict omega-categories]])
 
-* Yves Lafont, [[Francois Métayer]], Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
+* [[Yves Lafont]], [[Francois Métayer]], Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
 
 For $n = \omega$ and all morphisms invertible, there is the [[model structure on strict omega-groupoids]]: 
 
