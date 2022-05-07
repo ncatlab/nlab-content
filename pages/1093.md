@@ -38,7 +38,7 @@ $$
   PSh(C)
 $$
 
-on those presheaves which are [[sheaves]] with respect to $J$.
+of those presheaves which are [[sheaves]] with respect to $J$.
 
 =--
 
