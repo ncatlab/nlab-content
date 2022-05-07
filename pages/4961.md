@@ -69,20 +69,25 @@ This is discussed at _[locally connected spaces -- cohesion over sets](locally+c
 and [[cosheaf of connected components]].
 
 ## References
+ {#References}
 
-The terminology _chaotic topology_ is motivated (see also at _[[chaos]]_) in
+For [[Grothendieck topologies]], the terminology "chaotic" is due to
 
-* {#Lawvere84} [[William Lawvere]], _Functorial remarks on the general concept of chaos_ IMA preprint #87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf)) 
+* [[SGA4|SGA4-1, 1.1.4]] (1972)
 
-and via footnote 1 (page 3) in
-
-* [[William Lawvere]],  _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf)).
-
-In the context of [[Grothendieck topologies]], this appears for instance in 
+reviewed, e.g., in:
 
 * [[The Stacks Project]], _[Example 7.6.6](https://stacks.math.columbia.edu/tag/07GE)_
 
-following [[SGA4|SGA4-1, 1.1.4]].
+Conceptualization of the terminology via [[right adjoints]] to [[forgetful functors]] (see also at _[[chaos]]_) is due to
+
+* {#Lawvere84} [[William Lawvere]], _Functorial remarks on the general concept of chaos_ IMA preprint #87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf)) 
+
+and via footnote 1 (page 3) in:
+
+* [[William Lawvere]],  _Categories of spaces may not be generalized spaces, as exemplified by directed graphs_, preprint, State University of New York at Buffalo, (1986) Reprints in Theory and Applications of Categories, No. 9, 2005, pp. 1&#8211;7 ([tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf)).
+
+
 
 [[!redirects discrete topology]]
 
