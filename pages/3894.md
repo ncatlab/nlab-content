@@ -462,6 +462,9 @@ and specifically so for [[M-theory on 8-manifolds]]:
 
 * [[Elena Babalic]], [[Calin Lazaroiu]], _Internal circle uplifts, transversality and stratified $G$-structures_, JHEP 11 (2015) 174 ([arXiv:1505.05238](https://arxiv.org/abs/1505.05238))
 
+* [[Robin Terrisse]], [[Dimitrios Tsimpis]], _$SU(3)$ structures on $S^2$ bundles over four-manifolds_, JHEP09 (2017) 133 ([arXiv:1707.04636](https://arxiv.org/abs/1707.04636))
+
+
 
 See also
 
