@@ -58,4 +58,14 @@ The basic idea is still felt to be promising:
 
 * Garry P. Dacillo, Ronnel R. Atole,  _Braided Ribbon Group $C_n$-based Asymmetric Cryptography_, Solid State Technology Vol. 63 No. 2s (2020) ([JSST:5573](http://www.solidstatetechnology.us/index.php/JSST/article/view/5573))
 
+But further attacks are being discussed:
+
+* James Hughes, Allen Tannenbaum, *Length-Based Attacks for Certain Group Based Encryption Rewriting Systems* ([arXiv:cs/0306032](https://arxiv.org/abs/cs/0306032))
+
+As are further ways around these:
+
+* Xiaoming Chen, Weiqing You, Meng Jiao, Kejun Zhang, Shuang Qing, Zhiqiang Wang, *A New Cryptosystem Based on Positive Braids* ([arXiv:1910.04346](https://arxiv.org/abs/1910.04346))
+
+
+
 
