@@ -140,8 +140,8 @@ For $\mathcal{C} \underoverset{\underset{R}{\longrightarrow}}{\overset{L}{\longl
 $$
   Ho(\mathcal{C})
     \underoverset
-      {\underset{\mathbb{R}R}{\longrightarrow}}
-      {\overset{\mathbb{L}L}{\longleftarrow}}
+      {\underset{\mathbb{R}}{\longrightarrow}}
+      {\overset{\mathbb{L}}{\longleftarrow}}
       {\bot}
   Ho(\mathcal{D})
 $$
