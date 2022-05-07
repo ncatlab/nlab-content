@@ -158,4 +158,7 @@ Streamlined review in:
 
 * {#Dove19} [[Thomas Dove]], p. 62 in: _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
 
+* [[Zhen Huan]], [[Matthew Spong]], Def. 2.1 in: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* ([arXiv:2006.00554](https://arxiv.org/abs/2006.00554))
+
+
 [[!redirects Huan's inertia orbifolds]]
