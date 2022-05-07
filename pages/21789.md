@@ -56,6 +56,10 @@ Reviewed in:
 
 * [[Valentin Zakharevich]], Section 2.2 of: _K-Theoretic Computation of the Verlinde Ring_, thesis 2018 ([hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]])
 
+Alternatively, in terms of [[Grothendieck groups]] of [[equivariant bundle|equivariant]] [[twisted vector bundles]]:
+
+* [[Christopher Dwyer]], _Twisted equivariant K-theory for proper actions of discrete groups_, K-Theory v. 38, n. 2 (January, 2008): 95-111 ([arXiv:0710.2136](https://arxiv.org/abs/0710.2136), [doi:10.1007/s10977-007-9016-z](http://dx.doi.org/10.1007/s10977-007-9016-z))
+
 
 The corresponding version of the [[Atiyah-Hirzebruch spectral sequence]]:
 
