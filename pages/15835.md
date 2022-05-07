@@ -22,6 +22,9 @@ On [[cocycle spaces]] in ([[equivariant cohomotopy|equivariant]]) [[Cohomotopy]]
 
 * [[Victor Vassiliev]], _Twisted homology of configuration spaces, homology of spaces of equivariant maps, and stable homology of spaces of non-resultant systems of real homogeneous polynomials_ ([arXiv:1809.05632](https://arxiv.org/abs/1809.05632))
 
+* [[Victor Vassiliev]], *Cohomology of spaces of Hopf equivariant maps of spheres* ([arXiv:2102.07157](https://arxiv.org/abs/2102.07157))
+
+
 ## Related entries
 
 
