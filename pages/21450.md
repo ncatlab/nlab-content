@@ -262,6 +262,14 @@ the many experimental cross section measurements.
 
 > In the beginning God created quarks, And made them interact through the strong forces, And it was dark... And God said, "I do not understand a damn thing"
 
+\linebreak
 
+* Roman Pasechnik, Michal Šumbera, *Different faces of confinement*, Universe 7 (2021) 9, 330 ([arXiv:2109.07600](https://arxiv.org/abs/2109.07600), [doi:10.3390/universe7090330](https://doi.org/10.3390/universe7090330))
+
+> in the infrared (IR) limit, QCD enters entirely different, strongly-coupled domain, rendering the Perturbation Theory inapplicable and creating substantial problems for making reliable predictions at intermediate and low momentum transfers, i.e. at large distances. While it is conventionally believed that QCD should remain the correct theory of strong interactions also at large distances, in the so-called confined regime, deriving reliable predictions remains a big theoretical challenge. 
+
+> $[\cdots]$
+
+> The *problem of confinement* concerns the strongly-coupled sector of QCD composed of interacting colored partons (quarks and gluons). $[\cdots]$ Despite the major efforts of the research community and tremendous progress made over last few decades, it does not appear to be fully and consistently resolved yet. 
 
 
