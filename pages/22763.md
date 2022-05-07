@@ -32,7 +32,7 @@ The [[trivial group]] with $a \vert b = a \cdot b$ is a cancellative midpoint al
 
 * [[midpoint algebra]]
 
-* [[symmetric midpoint algebra]]
+* [[symmetric cancellative midpoint algebra]]
 
 * [[closed midpoint algebra]]
 
