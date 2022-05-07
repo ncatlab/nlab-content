@@ -14,11 +14,14 @@
 {:toc}
 
 
-
 ## Idea
 
-An **&#233;tendue** (also 'etendue', or 'etendu'; from French '&#233;tendue' (fem.)- _extent_) is a [[topos]] $\mathcal{Y}$ that locally looks like the category of sheaves on a space:
+An **étendue** (also 'etendue', 'étendu', or 'etendu'; from French 'étendue' (fem.)- _extent_) is a [[topos]] $\mathcal{Y}$ that locally looks like the category of sheaves on a space:
 >Briefly, the slogan is that $\mathcal{Y}$ is locally a topological space. ([Lawvere 1976](#Lawvere76), p.129)
+
+In some papers, [[topological spaces]] are replaced by [[locales]]
+in the definition of [[étendues]].
+For example, see Definition 1.1 in Rosenthal \cite{Rosenthal} or Definition 1.12 in Kock and Moerdijk \cite{KockMoerdijk}.
 
 Originally defined by [[A. Grothendieck]] in one of the famous 'excercises' of [SGA4](#SGA4) (ex. 9.8.2) as a [[Grothendieck topos]] $\mathcal{Y}$ that has a well-supported object $X$ such that the [[slice topos]] $\mathcal{Y}/X$ is equivalent to a sheaf topos on a topological space, the definition was generalized by [[Lawvere]] (1975,1976) by dropping the spatiality of the slice and require only that $\mathcal{Y}/X$ is a [[localic topos]].
 
@@ -104,9 +107,9 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] II_, Oxford UP 2002, pp.769-775.
 
-* [[A. Kock]], [[I. Moerdijk]], _Presentations of Etendues_ , Cah. Top. G&#233;om. Diff. Cat. **XXXII** 2 (1991) pp.145-164. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_2/CTGDC_1991__32_2_145_0/CTGDC_1991__32_2_145_0.pdf))
+* {#KockMoerdijk} [[A. Kock]], [[I. Moerdijk]], _Presentations of étendues_ , Cah. Top. G&#233;om. Diff. Cat. **XXXII** 2 (1991) pp.145-164. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_2/CTGDC_1991__32_2_145_0/CTGDC_1991__32_2_145_0.pdf))
 
-* [[A. Kock]], [[I. Moerdijk]], _Every &#233;tendue comes from a local equivalence relation_ , JPAA **82** (1992) pp.155-174.
+* [[A. Kock]], [[I. Moerdijk]], _Every étendue comes from a local equivalence relation_ , JPAA **82** (1992) pp.155-174.
 
 * [[M. V. Lawson]], [[B. Steinberg]], _Ordered groupoids and &#233;tendues_ , Cah. Top. G&#233;om. Diff. Cat. **XXXXV** 2 (2004) pp.82-108. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_2004__45_2/CTGDC_2004__45_2_82_0/CTGDC_2004__45_2_82_0.pdf))
 
@@ -134,7 +137,7 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 
 * [[Pedro Resende]], _Groupoid Sheaves as Quantale Modules_ , arXiv.0807.4848v3 (2011). ([pdf](http://arxiv.org/pdf/0807.4848v3.pdf))
 
-* [[Kimmo I. Rosenthal]], _&#201;tendues and Categories with Monic Maps_ , JPAA **22** (1981) pp.193-212.
+* {#Rosenthal} [[Kimmo I. Rosenthal]], _Étendues and Categories with Monic Maps_ , JPAA **22** (1981) pp.193-212.
 
 * [[Kimmo I. Rosenthal]], _Sheaves and Local Equivalence Relations_ , Cah. Top. G&#233;om. Diff. Cat. **XXV** 2 (1984) pp.179-206. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1984__25_2/CTGDC_1984__25_2_179_0/CTGDC_1984__25_2_179_0.pdf))
 
