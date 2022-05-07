@@ -48,6 +48,10 @@ Here is the connection with the adjoint functor theorem: when small products exi
 
   (to be completed)
 
+## Related pages
+
+The solution set condition weakens the notion of adjoint functor by allowing a family of objects rather than a single one, and also by removing the uniqueness of the factorization.  If we weaken the definition in only one of these ways, we obtain a [[multi-adjoint]] or a [[weak adjoint]] respectively.
+
 
 [[!redirects solution set condition]]
 [[!redirects solution set conditions]]
