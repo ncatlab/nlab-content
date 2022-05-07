@@ -1127,6 +1127,11 @@ $$
 
 > add word on choice of topology on the mapping spaces, see [Murayama-Shimakawa 95, p. 1293 (5 of 7)](#MurayamaShimakawa95)
 
+\begin{remark}\label{FixedPointsOfEquivariantClassifyingSpaceAreHomotopyFixedPoints}
+  This means that for any $H \subset G$ the $H$-[[fixed point space]]
+ of $\mathcal{B}\Gamma$ is the $H$-[[homotopy fixed point]]-space of $B \Gamma$ ([Thomason 83, (3.2)](homotopy+fixed+point#Thomason83)).
+\end{remark}
+
 \begin{prop}\label{RealizationOfMurayamaShimakawaGroupoidForDiscreteGIsClassifyingSpace}
   The [[fat geometric realization]] of the [[nerve]] of the $G$-topological groupoid from Def. \ref{HomGroupoidFromPairGroupoidOfGToDeloopingGroupoidOfGamma} 
 $$
@@ -1143,7 +1148,7 @@ is a [[classifying space]] for $G$-equivariant $(\Gamma,\alpha)$-principal bundl
   This is Theorem 3.1 in [Murayama-Shimakawa 95](#MurayamaShimakawa95),
   using the remark on the bottom of p. 1294 (6 of 7) that for discrete group $G$ the construction in Theorem 3.1 may be simplified.
 
-For $G$ discrete and $\Gamma$ [[discrete group|discrete]] or [[compact Lie group|compact Lie]] the same statement appears as [Guillou, May & Merling 17, Thm. 3.11](#GuillouMayMerling17). Notice that  Scholium 3.12 there doubts that [Murayama-Shimakawa 95](#MurayamaShimakawa95)'s result holds in more generality than this.
+For $G$ discrete and $\Gamma$ [[discrete group|discrete]] or [[compact Lie group|compact Lie]] the same statement appears as [Guillou, May & Merling 17, Thm. 3.11](#GuillouMayMerling17). Notice that  Scholium 3.12 there doubts that [Murayama-Shimakawa 95](#MurayamaShimakawa95)'s result holds for non-discrete $G$.
 \end{proof}
 
 
