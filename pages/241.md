@@ -149,6 +149,18 @@ Every Grothendieck topos is equivalent to the [[classifying topos of a localic g
 
 See at _[[classifying topos of a localic groupoid]]_ for more.
 
+### Internal logic
+
+Being an [[elementary topos]], a Grothendieck has an [[internal logic]] that can be taken to be [[higher-order logic]] or a form of [[dependent type theory]].  It is also useful to take its internal [[geometric logic]], in particular because that is preserved by [[geometric morphisms]] and because every geometric theory has a Grothendieck [[classifying topos]].
+
+Although the internal logic of a Grothendieck topos is [[constructive logic]], there are a number of principles that are true in every Grothendieck topos (at least, assuming the base topos [[Set]] is [[classical mathematics|classical]]) but are not constructively provable (and in particular can fail in other toposes).  Roughly speaking, many of these axioms assert that classicality fails "in only a [[small category|small]] way".  These include:
+
+* [[WISC]]: every set has a weakly initial set of covers.
+* The (constructive) [[axiom of multiple choice]] (AMC).
+* The [[axiom of stack completions]].
+* (allegedly) the local [[small cardinality selection axiom]] (SCSA).
+* Every [[complete small category]] is a preorder.
+
 ## In weak foundations
 
 We have two definitions of a Grothendieck topos:
