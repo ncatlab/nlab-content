@@ -18,6 +18,9 @@ On the [[flavour problem]]:
 
 On [[flavour physics]] and [[flavour anomalies]]:
 
+* [[Gino Isidori]], *Hints of New Physics from flavor-changing processes*, talk at SPS Annual Meeting, Lausanne, Aug. 2018 ([pdf](https://indico.cern.ch/event/716246/contributions/3097683/attachments/1709141/2754825/SPS_Lausanne.pdf))
+
+
 * {#Isidori19} [[Gino Isidori]], _Flavor physics & CP violation_, talk at [Symposium on the European Strategy for Particle Physics](https://indico.cern.ch/event/808335/timetable/#20190513.detailed) 2019 ([pdf](https://indico.cern.ch/event/808335/contributions/3365125/attachments/1842875/3022853/Granada_GI_13May.pdf))
 
 
