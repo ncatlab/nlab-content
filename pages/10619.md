@@ -1995,13 +1995,10 @@ to the class in $(E/\mathbb{S})_d$ of this diagram:
 \end{xymatrix}
 
 
-Then: This function a [[bijection]] 
-
-> No, that's wrong. Not a bijection, just a map. Will fix...
-
-which respects the canonical  fibrations of both sides over $\mathbb{S}_{d-1}$.
+Then: This function respects the canonical  fibrations of both sides over $\mathbb{S}_{d-1}$, i.e. it is a [[lift]] through the boundary map $\partial$.
     
 \end{proposition}
+
 See also [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-invariant]]_.
 
 
@@ -2009,7 +2006,7 @@ See also [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-inva
 
 \begin{proof}
 
-**First**, here is a quick formal argument to see that _some_ such bijection does exist:
+**First**, here is a quick formal argument to see that _some_ such map does exist:
 
 By Definition \ref{SetOfTrivializationsOfTheDInvariant}, an element in $H_{n-1}Fluxes^E\big( S^{n+d-1} \big)$ is equivalently the class of a homotopy [[cone]] with tip $\Sigma^{n+d-1} \mathbb{S}$ over the [[cospan]] formed by the ring spectrum unit $e^E$ and the [[zero morphism]]:
 
@@ -2052,7 +2049,8 @@ By Definition \ref{SetOfTrivializationsOfTheDInvariant}, an element in $H_{n-1}F
       "s"; "t"
 \end{xymatrix}
 
-But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences]] (by [this Prop.](Spectrum#InSpectraHomotopyFiberSequencesAreHomotopyCofiberSequences)), so that by the [[universal property]] of [[homotopy fibers]] the class of the above diagram is equivalently the class of a map from $\Sigma^{n+d-1}\mathbb{S}$ to  $fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} (E/\mathbb{S}$):
+But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences]] (by [this Prop.](Spectrum#InSpectraHomotopyFiberSequencesAreHomotopyCofiberSequences)), so that by the [[universal property]] of [[homotopy fibers]] the class of the above diagram induces the class of a map  
+$\vdash {\color{orange} H^E_{n-1}(c) } \;\colon\; \Sigma^{n+d-1}\mathbb{S} \longrightarrow fib\big( \Sigma^{n} e^E \big) \,\simeq\, \Sigma^{n-1} (E/\mathbb{S}$):
 
 \begin{xymatrix@=26pt}
     \Sigma^{n+d-1}\mathbb{S}
@@ -2062,6 +2060,7 @@ But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences
         c
         \mathclap{\phantom{\vert_{\vert_{\vert}}}}
       }
+     ^-{\ }="t2"
     \ar@/^1pc/[rrrd]
     \ar@{-->}[dr]
       |-{
@@ -2073,6 +2072,7 @@ But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences
         }
         \mathclap{\phantom{\vert_{\vert}}}
       }
+      _>>>>{\ }="s2"
     \\
     & 
     \Sigma^{n-1}
@@ -2106,8 +2106,11 @@ But in [[Spectra]] [[homotopy cofiber sequences]] are [[homotopy fiber sequences
     \ar@{=>} 
       ^-{ \mbox{\tiny\color{orange}(pb)} }
     "s"; "t"
+    \ar@{=>}
+      "s2"; "t2"
 \end{xymatrix}
 
+equipped with a homotopy from its image under $\partial$ to $c$.
 
 This implies the claim, by 
 
@@ -2126,7 +2129,7 @@ $$
 
 \linebreak
 
-**Second,** to see that this bijection is realized as claimed (the following constructions is close to the proof of [Conner-Floyd 66, Theorem 16.2](MUFr#ConnerFloyd66)): 
+**Second,** to see that this map is realized as claimed (the following construction is close to the proof of [Conner-Floyd 66, Theorem 16.2](MUFr#ConnerFloyd66)): 
 
 
 Let
@@ -2257,9 +2260,8 @@ Moreover, the [[pasting law]] implies that this bottom middle square is itself h
 * By the [[pasting law]] it follows that also the bottom right rectangle is homotopy cocartesian, hence that, after the two squares on the left, it exhibits the third step in the long homotopy cofiber sequence of $\Sigma^\infty c$. This means that its total bottom morphism is $\Sigma^{\infty + 1} c$, and hence that $\partial \big[ M^d \big] = [c]$.
 
 
-In conclusion, these construction steps yield a map map $H^E_{n-1}\!(c) \mapsto M^d$ over $[\Sigma^\infty c]$ a required.
+In conclusion, these construction steps yield a map $H^E_{n-1}\!(c) \mapsto M^d$ over $[\Sigma^\infty c]$, as required.
 
-It only remains to see that this map is bijective over any $\big[\Sigma^\infty c\big]$: So assume conversely that $M^d$ is given, and with it the above diagram  except for the dashed arrow. But since the bottom right square is a [[homotopy pushout]], it is also a [[homotopy pullback]] (by [this Prop.](Spectrum#InSpectraHomotopyFiberSequencesAreHomotopyCofiberSequences)), so that a dashed morphism is uniquely implied. By its uniqueness, this reverse assignment $M^{2d} \mapsto H^E_{n-1}\!(c)$ must be the inverse of the previous construction.
 
 \end{proof}
 
