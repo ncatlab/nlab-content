@@ -14,7 +14,7 @@
 
 ## Idea
 
-The idea of a cloaed midpoint algebra comes from [[Peter Freyd]]. 
+The idea of a closed midpoint algebra comes from [[Peter Freyd]]. 
 
 ## Definition
 
