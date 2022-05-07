@@ -480,9 +480,9 @@ Most books on topos theory develop some internal logic, at least in the context 
 
 * Goldblatt, _Topoi: the categorial analysis of logic_
 
-Part D of
+* [[Francis Borceux]], Section 6 of: _[[Handbook of Categorical Algebra]]_, Vol 3: _Categories of Sheaves_, Encyclopedia of Mathematics and its Applications **50**
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* [[Peter Johnstone]], Part D of: _[[Sketches of an Elephant]]_
 
 is comprehensive.
 
