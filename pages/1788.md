@@ -1,4 +1,29 @@
 
+$$
+  \begin{aligned}
+  & 
+  2Loc_{QuillenEquivs}
+  \big(
+    CombinatorialModelCategories
+  )
+  \\
+  &
+  \;
+  \overset{\color{purple}?}{\simeq}
+  \;
+  2Ho
+  \big(
+    Presentable \infty Categories
+  \big)
+  \end{aligned}
+$$
+
+\linebreak
+
+***
+
+\linebreak
+
 For $\mathbf{H}$ an $\infty$-topos
 and $G \in Groups(\mathbf{H})$,
 one would expect that 
@@ -174,3 +199,10 @@ How to see this homotopy fiber from the above diagram (or from some other consid
 
 \linebreak
 \linebreak
+
+
+
+
+
+
+
