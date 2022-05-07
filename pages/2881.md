@@ -1,12 +1,15 @@
 #Contents#
-* automatic table of contents goes here
+* table of contents goes here
 {:toc}
 
 
 ## Idea ##
 
-The notion of [[locale]] is a "point-less" version of that of [[topological space]]. A _localic group_ is much like a [[topological group]], but there are some differences.
-For a groupoid generalization see [[localic groupoid]].
+A *localic group* is a [[group object]] [[internalization|internal]] to [[locales]].
+
+As the notion of *[[locale]]* is a point-free version of that of *[[topological space]]*, a _localic group_ is much like a [[topological group]], but there are some differences.
+
+The further generalization to [[groupoids]] is that of *[[localic groupoids]]*.
 
 ## Definition ##
 
@@ -15,9 +18,9 @@ A **localic group** is a [[group object]] [[internalization|in]] the [[category]
 
 ## Localic groups versus topological groups
 
-Localic groups are similar to [[topological group]]s, and many examples can be considered as either one.  For instance, the real numbers $\mathbb{R}$ under addition can be considered as either a topological group or a localic group.
+Localic groups are similar to [[topological groups]], and many examples can be considered as either one.  For instance, the real numbers $\mathbb{R}$ under addition can be considered as either a topological group or a localic group.
 
-Since the "space of points" [[functor]] $Loc \to Top$ is a [[right adjoint]], it preserves [[limit]]s and hence [[group object]]s, so every localic group has an underlying topological group.  However, this functor can discard information; for instance, [IKPR](#IKPR) constructs a nontrivial localic group with only one point.
+Since the "space of points" [[functor]] $Loc \to Top$ is a [[right adjoint]], it preserves [[limits]] and hence [[group objects]], so every localic group has an underlying topological group.  However, this functor can discard information; for instance, [IKPR](#IKPR) constructs a nontrivial localic group with only one point.
 
 Moreover, the "locale of opens" functor $Top\to Loc$ does not preserve [[product]]s, so not every topological group is a localic group---even if its underlying topological space is [[sober space|sober]] (hence is the space of points of some locale).  In particular, the locale $\mathbb{Q}$ of rational numbers (with [[topology]] induced from that of $\mathbb{R}$) is not a localic group under addition, because the locale product $\mathbb{Q}\times_l \mathbb{Q}$ is "bigger" than the topological-space product (and in particular is not spatial), and the addition map $\mathbb{Q}\times \mathbb{Q}\to \mathbb{Q}$ cannot be extended to the locale product.
 
@@ -32,9 +35,9 @@ But if $G$ is a [[locally compact space|locally compact]] topological group (suc
 
 A remarkable fact about localic groups is the following (Corollary C5.3.2 of the [[Elephant]]; this also proves that $\mathbb{Q}$ cannot be a localic group):
 
-+-- {: .un_theorem}
++-- {: .num_theorem #LocalicSubgroupsAreClosed}
 ###### Theorem
-Any [[overt space|overt]] localic subgroup of a localic group is weakly [[closed sublocale|closed]]. If the ambient localic group is in a [[Boolean topos]] then any localic subgroup is closed.
+Any [[overt space|overt]] localic subgroup of a localic group is weakly [[closed sublocale|closed]]. If the ambient localic group is in a [[Boolean topos]] then any localic subgroup is a [[closed subgroup]].
 =--
 +-- {: .proof}
 ###### Sketch of Proof
