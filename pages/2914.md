@@ -304,7 +304,7 @@ But since $L$ is assumed to be a [[left Quillen functor]]
 and since the (acyclic) cofibrations of the slice model structure are those of [[underlying]] morphisms (Prop. \ref{SliceModelStructure}), 
 $L_{/b}$ preserves them and is hence itself a [[left Quillen functor]].
 
-The second case is directly analous: Here it is evident that $R_{/b}$ is a [[right Quillen functor]], since it acts via $R$ on [[underlying]] morphisms, and $R$ is right Quillen by assumption.
+The second case is directly analogous: Here it is evident that $R_{/b}$ is a [[right Quillen functor]], since it acts via $R$ on [[underlying]] morphisms, and $R$ is right Quillen by assumption.
 \end{proof}
 
 \begin{proposition}\label{SlicedQuillenQuivalences}
