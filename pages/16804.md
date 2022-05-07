@@ -239,6 +239,7 @@ However, such chord diagrams nonetheless play an important role in the theory of
 
 [[!include chord diagrams and weight systems -- table]]
 
+* [[Motzkin number]]
 
 * [[combinatorial map]]
 
