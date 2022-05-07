@@ -54,3 +54,6 @@ The __Jordan--Brouwer separation theorem__ states that, in the [[Cartesian space
 [[!redirects Jordan–Brouwer Separation Theorem]]
 [[!redirects Jordan--Brouwer separation theorem]]
 [[!redirects Jordan--Brouwer Separation Theorem]]
+
+[[!redirects Jordan's curve theorem]]
+
