@@ -49,6 +49,8 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 
 * [[rational homotopy theory]]
 
+* [[Borel-equivariant rational homotopy theory]]
+
 * [[rational stable homotopy theory]]
 
 * [[rational equivariant stable homotopy theory]]
