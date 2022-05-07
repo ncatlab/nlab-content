@@ -1817,6 +1817,11 @@ $H^0\big( Graphs_0(\mathbb{R}^2) \big)$ is the [[Lie algebra]] of the [[Grothend
 
 * [[Vasily Dolgushev]], _A manifestation of the Grothendieck-Teichmuellergroup in geometry_ ([slides pdf](https://math.temple.edu/~vald/AMSslides.pdf))
 
+See also:
+
+* Kevin Morand, _A note on multi-oriented graph complexes and deformation quantization of Lie bialgebroids_ ([arXiv:2102.07593](https://arxiv.org/abs/2102.07593))
+
+
 More:
 
 * {#KoroshkinWillwacherZivkovic14} Anton Khoroshkin, [[Thomas Willwacher]], Marko Živković, _Differentials on graph complexes_ ([arXiv:1411.2369](https://arxiv.org/abs/1411.2369))
