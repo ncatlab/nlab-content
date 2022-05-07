@@ -326,7 +326,7 @@ $$
 
 \begin{lemma}
 \label{ReflectorPreservesFiniteProductsOnFreeCoproductCompletion}
-  The [[free coproduct completions]] of the $(2,1)$-categories (eq:TheAbstractAdjunctionOfSites) have [[finite products]] and the unique coproduct-preserving extension of $\tau0_0$ to these preserves finite products.
+  The [[free coproduct completions]] of the $(2,1)$-categories (eq:TheAbstractAdjunctionOfSites) have [[finite products]] and the unique coproduct-preserving extension of $\tau_0$ to these preserves finite products.
 \end{lemma}
 \begin{proof}
  The category on the right is equivalently the $G$-[[orbit category]] (by Lem. \ref{GOrbitsAs0TruncatedObjectsInSliceOverGOrbiSingularity}) whose [[free coproduct completion]] is (using here our assumption that $G$ is a [[discrete group]]) the category of all [[G-set|$G$-sets]] (as in  [this remark](orbit+category#GActionsAndGOrbits)). 
