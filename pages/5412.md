@@ -485,3 +485,7 @@ The point corresponding the pair $(e,x)$ is the one constructed in Observation \
 [[!redirects slice topos]]
 [[!redirects slice toposes]]
 [[!redirects slice topoi]]
+
+[[!redirects fundamental theorem of topos theory]]
+
+
