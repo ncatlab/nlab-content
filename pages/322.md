@@ -467,6 +467,8 @@ The [[Boardman-Vogt tensor product]] makes the category of symmetric colored ope
 
 * [[cohomology of operads]]
 
+* [[club]]
+
 ## References
 
 Stasheff implicitly described the operad of [[associahedra]] in
