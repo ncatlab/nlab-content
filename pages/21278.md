@@ -19,7 +19,8 @@ In [[simplicial sets]] with [[simplicial weak equivalences]], finite homotopy pr
 In [[topological spaces]] with [[weak homotopy equivalences]],
 homotopy products can be computed as ordinary [[products]].
 The same applies to the [[relative category]]
-of [[chain complexes]] and [[quasi-isomorphisms]].
+of [[chain complexes]] of [[abelian groups]] and [[quasi-isomorphisms]]
+([Grothendieck 1957](#Grothendieck1957), section 1.5).
 
 ## Related notions
 
@@ -32,5 +33,9 @@ of [[chain complexes]] and [[quasi-isomorphisms]].
 * [[homotopy equalizer]]
 
 * [[homotopy totalization]]
+
+## References
+
+* {#Grothendieck1957} [[Alexander Grothendieck]], _[[Tohoku|Sur quelques points d'algèbre homologique]], T&#244;hoku Math. J. vol 9, n.2, 3, 1957.
 
 [[!redirects homotopy products]]
