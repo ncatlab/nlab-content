@@ -272,6 +272,14 @@ See [[category theory vs order theory]] for more discussion.
 
 ## Related concepts
 
+* [[formal category theory]]
+
+* [[enriched category theory]]
+
+* [[internal category]] [[internalization|theory]]
+
+[[!include table of category theories]]
+
 * [[type theory]]
 
   * [[relation between category theory and type theory]]
@@ -280,9 +288,6 @@ See [[category theory vs order theory]] for more discussion.
 
   * [[computational trinitarianism]]
 
-[[!include table of category theories]]
-
-Some theorems in category theory are _[[folklore]]_.
 
 ## References
  {#References}
@@ -319,39 +324,61 @@ This and much more history is recalled in
 
 * {#MacLaneHistory} [[Saunders MacLane]], _Concepts and Categories in Perspective_, AMS ([pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf))
 
+
+
 ### Textbooks
  {#TextBooks}
+
 
 #### Basic category theory
  {#BasicTextBooks}
 
-* [[Steve Awodey]], _Category theory_. 
+* {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
 
-* [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York.
- 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_  
+* {#Freyd65} [[Peter Freyd]], _The theories of functors and models_, in: Proceedings of _Symposium on the Theory of Models_, North Holland, 1965 ([doi:10.1016/C2013-0-11897-1](https://doi.org/10.1016/C2013-0-11897-1))
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol 1--3. 
 
 * [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by [[Ellis Cooper]] 
 
-* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
+* [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York.
+
+* [[Bodo Pareigis]], _Categories and functors_, 1970 ([pdf](https://epub.ub.uni-muenchen.de/7244/1/7244.pdf))
+
+
+* [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 1971
+
+* {#Gray74} [[John Gray]], *[[Adjointness for 2-Categories|Formal category theory: adjointness for $2$-categories]]*, Lecture Notes in Mathematics, **391**, Springer 1974 ([doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280))
+
+   ([[formal category theory]] in the [[2-category]] [[Cat]])
+
+* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
+
+  > (introduces categories by examples arising in [[mathematical physics]])
 
 * [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], *[[Abstract and Concrete Categories]]*, John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
-* [[Benjamin Pierce]], _Basic category theory for computer scientists_.
 
-* [[Michael Barr]], [[Charles Wells]], _Category theory for computing science_.  [free online](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html).
+* [[Peter Freyd]], [[Andre Scedrov]], *[[Categories, Allegories]]*, Mathematical Library Vol 39, North-Holland (1990) ([ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2))
 
-* [[Bodo Pareigis]], _Categories and functors_
 
-* {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
-  
-* {#Freyd65} [[Peter Freyd]], _The theories of functors and models_, in Proceedings of _Symposium on the Theory of Models_, North Holland, 1965 ([web](https://www.sciencedirect.com/science/book/9780720422337))
+* [[Benjamin Pierce]], _Basic category theory for computer scientists_, 1991 20 ([publisher](https://mitpress.mit.edu/books/basic-category-theory-computer-scientists))
 
-* [[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, 1994
+
+* [[Michael Barr]], [[Charles Wells]], _Category theory for computing science_, 1995 ([pdf](http://www.math.mcgill.ca/barr/papers/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html))
+
+  > (aimed at [[computer science]], see *[[computational trilogy]]*)
+
+* [[Steve Awodey]], _Category theory_, 2005 ([pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf))
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, 2006
+
 
 * {#LawvereSchanuel09} [[F. William Lawvere]] and [[Stephen Schanuel]], _Conceptual Mathematics: A first introduction to categories_, $2^{nd}$ Edition, Cambridge University Press 2009 ([pdf](https://img.4plebs.org/boards/tg/image/1460/05/1460059215690.pdf))
+ 
+
+
+
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
@@ -359,20 +386,19 @@ This and much more history is recalled in
 
 * [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf))
 
-* [[Martin Brandenburg]], *Einführung in die Kategorientheorie*, Springer 2017 ([doi:10.1007/978-3-662-53521-9](https://link.springer.com/book/10.1007/978-3-662-53521-9))
+* [[Martin Brandenburg]], *Einführung in die Kategorientheorie*, Springer 2017 
 
-* {#FongSpivak18} Brendan Fong, [[David Spivak]], _An invitation to applied category theory_, 2018 ([web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf))
+  ([doi:10.1007/978-3-662-53521-9](https://link.springer.com/book/10.1007/978-3-662-53521-9))
 
-* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
-
-  > (introduces categories by examples arising in [[mathematical physics]])
-
-* [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, World Scientific 2021 ([doi:10.1142/12253](https://doi.org/10.1142/12253))
-
+* {#FongSpivak18} [[Brendan Fong]], [[David Spivak]], _An invitation to applied category theory_, 2018 ([web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf))
 
 * {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
 
   > (emphasis on [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]])
+
+
+* [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, World Scientific, 2021 ([doi:10.1142/12253](https://doi.org/10.1142/12253))
+
 
 #### Topos theory
  {#ReferencesToposTheory}
@@ -437,7 +463,7 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
-* [[André Joyal]]'s exposition in CatLab: [[joyalscatlab:Categories]]
+* [[André Joyal]], *[[joyalscatlab:Categories]]*
 
 ### Videos 
 
