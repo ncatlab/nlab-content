@@ -331,6 +331,8 @@ $$
   }
 $$
 
+Indeed, given any path $p : t =_{\mathbf{B} G} u$ in $\mathbf{B} G$ and any element $q : G^{ad}(t)$, the [[homotopy lifting property|transport]] of $q$ along $p$ in the family $G^{ad}$ is equal to the conjugate $p^{-1} \cdot q \cdot p : G^{ad}(u)$, as proven by [[identity type|path induction]]. (Here, we write path composition in diagrammatic order.)
+
 Putting this together, we get that the [[homotopy quotient|homotopy orbits]] of the [[adjoint action]] are
 
 \[
