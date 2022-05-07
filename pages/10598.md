@@ -50,6 +50,10 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 ## Properties
 
+### Equivariant cellular approximation
+
+See at _[[equivariant cellular approximation theorem]]_.
+
 ### Equivariant CW-approximation
 
 See at _[[G-CW approximation]]_.
