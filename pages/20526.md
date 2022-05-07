@@ -164,10 +164,11 @@ where $c$ is a positive constant.
 
 \begin{conjecture}
 Any infinite field distance limit is either 
- \begin{itemize}
- \item a decompactification limit, or
- \item a limit in which a weakly coupled string becomes tensionless.
- \end{itemize}
+ 
+* a decompactification limit, or
+
+* a limit in which a weakly coupled string becomes tensionless.
+
 \end{conjecture}
 
 This is a refinement of the *swampland distance conjecture* which explicits the nature of the tower of states.
