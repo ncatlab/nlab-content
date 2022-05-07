@@ -14,6 +14,7 @@
 =--
 
 
+
 # Contents#
 * table of contents
 {: toc}
@@ -46,6 +47,7 @@ given by $y(X) : U \mapsto C(U,X)$.
 ## Properties
 
 ### Yoneda lemma
+ {#YonedaLemma}
 
 +-- {: .num_prop }
 ###### Proposition
@@ -88,13 +90,16 @@ is equivalent to $F$.
 The statement is a direct consequence of the [[sSet]]-[[enriched category theory|enriched]] [[Yoneda lemma]] by using the fact that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is modeled by the [[enriched functor category]] $[C^{op}, sSet]_{proj}$ with $C$ regarded as a [[simplicially enriched category]] and using the global [[model structure on simplicial presheaves]].
 
 =--
+
+
 ### Naturality
+ {#Naturality}
 
 +-- {: .num_prop }
 
 ###### Proposition
 
-$PSh$ can be extended to a functor $PSh : (\infty,1)Cat \to (\infty,1)\widehat{Cat}$ so that the yoneda embedding $C \to PSh(C)$ is a natural transformation.
+$PSh$ can be extended to a functor $PSh \colon (\infty,1)Cat \to (\infty,1)\widehat{Cat}$ so that the yoneda embedding $C \to PSh(C)$ is a natural transformation.
 
 Here, $(\infty,1)\widehat{Cat}$ is the (∞,1)-category of large (∞,1)-categories.
 
@@ -178,3 +183,4 @@ Discussion in the context of an [[∞-cosmos]]:
 
 [[!redirects Yoneda lemma for infinity-categories]]
 
+[[!redirects Yoneda lemma for infinity1-categories]]
