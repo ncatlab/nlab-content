@@ -104,7 +104,11 @@ See at _[[Sullivan model of free loop space]]_.
 
 * [[Hochschild homology]], [[cyclic homology]], [[dihedral homology]]
 
-* [[smooth loop space]], [[free loop orbifold]], [[inertia orbifold]]
+* [[smooth loop space]], 
+
+* [[free loop orbifold]], [[inertia orbifold]]
+
+* [[cyclic loop space]], [[cyclic loop stack]]
 
 * [[caloron correspondence]]
 
