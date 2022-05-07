@@ -57,8 +57,24 @@ The **regular representation** of $M$ is the action of $M$ on ${|M|}$ induced by
 =--
 
 ## Properties
+ {#Properties}
 
 * The regular representation of $G$ as a linear representation is the [[induced representation]] $Ind_{1}^G 1$ of the trivial representation along the inclusion of the trivial [[subgroup]].
+
+\begin{prop}
+Over the [[complex numbers]], the regular representation of a [[finite group]] is a [[direct sum]] that contains each [[irreducible representation]] $\rho_i$ with multiplicity its dimension 
+
+$$
+  \mathbb{C}[G]
+  \;\simeq\;
+  \underset{i}{\sum}
+  dim_{\mathbb{C}}(\rho_i)
+    \cdot
+  \rho_i
+  \,.
+$$
+\end{prop}
+(e.g. [tom Dieck 09, Thm. (1.10.2)](#tomDieck09) and using [[Schur's lemma]] for the complex case)
 
 ## Related concepts
 
