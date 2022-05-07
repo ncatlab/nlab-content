@@ -87,7 +87,9 @@ Def.
 \ref{CrossedHomomorphism}
 appears, already with the non-abelian generality in mind, back in [Whitehead 1949, (3.1)](#Whitehead49) (together with the notion of [[crossed modules]], both as tools for analyzing [[homotopy types]] with non-trivial [[fundamental group]]).
 For [[abelian group|abelian]] $\Gamma$ the definition is picked up in [MacLane 1975, IV (2.1)](#MacLane75) and many following references on [[group cohomology]], e.g. [Brown 1982, p. 45](#Brown82).
-For general [[non-abelian group|non-abelian]] $\Gamma$ the notion is later used in [Murayama & Shimakawa 1995](#MurayamaShimakawa95) for discussion of [[equivariant principal bundles]]. A textbook account is in [Milne 2017, 15.a](#Milne17), aimed at application to [[algebraic groups]].
+For general [[non-abelian group|non-abelian]] $\Gamma$ the notion is later used in [Murayama & Shimakawa 1995](#MurayamaShimakawa95) for discussion of [[equivariant principal bundles]]. 
+In the context of [[nonabelian group cohomology]] it is reviewed in [Gille & Szamuely, 2006, (1) on p. 25](#GilleSzamuely06).
+Another textbook account is in [Milne 2017, 15.a](#Milne17), aimed at application to [[algebraic groups]].
 \end{remark}
 
 \begin{example}
@@ -132,7 +134,7 @@ $$
   \,.
 $$
 \end{proposition}
-(e.g. [Brown 1982, p. 88](#Brown82), [NSW 2008, Ex. 1 on p. 24](#NSW08), [Milne 2017, Exp. 15.1](#Milne17))
+(e.g. [Brown 1982, p. 88](#Brown82), [NSW 2008, Ex. 1 on p. 24](#NSW08), [Milne 2017, Exp. 15.1 (16.1 in the pdf)](#Milne17))
 \begin{proof}
   By immediate unwinding of the definition of the [[semidirect product group]], such a section is an assignment
   $$
@@ -279,7 +281,7 @@ That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomo
     \,.
   $$
 \end{definition}
-
+(e.g. [Gille & Szamuely 2006, (2) on p. 25](#GilleSzamuely06))
 \begin{remark}\label{AsCoboundariesInGroupCohomology}
 **(as 1-[[coboundaries]] in [[group cohomology]])**
 \linebreak
@@ -857,6 +859,20 @@ In discussion of [[homotopy theory]] (together with [[crossed modules]]):
 
 * {#Whitehead49} [[J. H. C. Whitehead]], Section 3 of: _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496 ([euclid:1183513797](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full))
 
+A brief yextbook account in this generality
+
+* {#NSW08} [[Jürgen Neukirch]], Alexander Schmidt, Kay Wingberg, pages 16 & 24 in: *Cohomology of Number Fields*, Springer Grundlehren der mathematischen Wissenschaften **323**, Springer 2008 ([doi:10.1007/978-3-540-37889-1](https://link.springer.com/book/10.1007/978-3-540-37889-1), [webpage](https://www.mathi.uni-heidelberg.de/~schmidt/NSW2e/))
+
+As 1-[[cocycles]] in [[non-abelian group cohomology]]:
+
+* {#GilleSzamuely06} [[Philippe Gille]], [[Tamás Szamuely]], Def. 2.3.2 in: *Central Simple Algebras and Galois Cohomology*, Cambridge University Press  2006 ([doi:10.1017/CBO9780511607219](https://doi.org/10.1017/CBO9780511607219), [pdf](http://www.math.ens.fr/~benoist/refs/Gille-Szamuely.pdf))
+
+* {#Milne17} [[James Milne]], Sections 16.a-b & 27.a (15.a-b in the published version) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+
+
+* [[Groupprops]], *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
+
+
 In discussion of [[equivariant principal bundles]]:
 
 * {#tomDieck69} [[Tammo tom Dieck]], Sec. 2.1 in: _Faserbündel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
@@ -864,14 +880,6 @@ In discussion of [[equivariant principal bundles]]:
   > (not using the terminology "crossed homomorphism", but already characterizing their graphs, as in Lem. \ref{GraphOfACrossedHomomorphism})
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
-
-As 1-[[cocycles]] in [[non-abelian cohomology|non-abelian]] [[group cohomology]]:
-
-* {#NSW08} [[Jürgen Neukirch]], Alexander Schmidt, Kay Wingberg, pages 16 & 24 in: *Cohomology of Number Fields*, Springer Grundlehren der mathematischen Wissenschaften **323**, Springer 2008 ([doi:10.1007/978-3-540-37889-1](https://link.springer.com/book/10.1007/978-3-540-37889-1), [webpage](https://www.mathi.uni-heidelberg.de/~schmidt/NSW2e/))
-
-* {#Milne17} [[James Milne]], Sections 15.a-b (16.a-b in the pdf) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
-
-* Groupprops, *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
 
 Discussion for [[finite groups]]:
 
