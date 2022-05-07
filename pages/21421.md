@@ -1,19 +1,19 @@
 
 ### Hadrons as KK-modes of 5d Yang-Mills theory
 
-The suggestion that the tower of observed [[vector mesons]], when regarded as [[gauge fields]] of [[hidden local symmetry|hidden local symmetries]] of [[chiral perturbation theory]], is reasonably modeled as a [[Kaluza-Klein theory|Kaluza-Klein tower]] of [[D=5 Yang-Mills theory]]:
+The suggestion that the tower of observed [[vector mesons]] -- when regarded as [[gauge fields]] of [[hidden local symmetry|hidden local symmetries]] of [[chiral perturbation theory]] -- is reasonably modeled as a [[Kaluza-Klein theory|Kaluza-Klein tower]] of [[D=5 Yang-Mills theory]]:
 
 * {#SonStephanov03} D. T. Son, M. A. Stephanov, _QCD and dimensional deconstruction_, Phys. Rev. D69 (2004) 065020 ([arXiv:hep-ph/0304182](https://arxiv.org/abs/hep-ph/0304182), [doi:10.1103/PhysRevD.69.065020](https://doi.org/10.1103/PhysRevD.69.065020))
 
-That the pure [[pion]]-[[Skyrmion]]-model of [[baryons]] is approximately the [[Kaluza-Klein theory|KK-reduction]] of [[instantons]] in [[D=5 Yang-Mills theory]] is already due to
+That the pure [[pion]]-[[Skyrmion]]-model of [[baryons]] is approximately the [[Kaluza-Klein theory|KK-reduction]] of [[instantons]] in [[D=5 Yang-Mills theory]] is already due to:
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
-with a [[hyperbolic space]]-variant in 
+with a [[hyperbolic space]]-variant in:
 
 * [[Michael Atiyah]], [[Paul Sutcliffe]], _Skyrmions, instantons, mass and curvature_,  	Phys. Lett. B605 (2005) 106-114 ([arXiv:hep-th/0411052](https://arxiv.org/abs/hep-th/0411052))
 
-The observation that the result of [Atiyah-Manton 89](#AtiyahManton89) becomes an exact [[Kaluza-Klein theory|Kaluza-Klein construction]] of [[Skyrmions]]/[[baryons]] from [[D=5 Yang-Mills theory|D=5]] [[instantons]] when the full [[Kaluza-Klein theory|KK-tower]] of [[vector mesons]] as in [Son-Stephanov 03](#SonStephanov03) is included into the Skyrmion model (see also [there](skyrmion#ReferencesSkyrmeHadrodynamicsWithVectorMesons)) is due to
+The observation that the result of [Atiyah-Manton 89](#AtiyahManton89) becomes an exact [[Kaluza-Klein theory|Kaluza-Klein construction]] of [[Skyrmions]]/[[baryons]] from [[D=5 Yang-Mills theory|D=5]] [[instantons]] when the full [[Kaluza-Klein theory|KK-tower]] of [[vector mesons]] as in [Son-Stephanov 03](#SonStephanov03) is included into the Skyrmion model (see also [there](skyrmion#ReferencesSkyrmeHadrodynamicsWithVectorMesons)) is due to:
 
 * {#Sutcliffe10} [[Paul Sutcliffe]], _Skyrmions, instantons and holography_, JHEP 1008:019, 2010 ([arXiv:1003.0023](https://arxiv.org/abs/1003.0023))
 
