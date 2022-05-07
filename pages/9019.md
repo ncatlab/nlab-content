@@ -25,6 +25,10 @@ On [[M-theory on G2-manifolds]]:
 
 * [[Bobby Acharya]], Lorenzo Foscolo, Marwan Najjar, Eirik Eik Svanes, _New $G_2$-conifolds in M-theory and their Field Theory Interpretation_ ([arXiv:2011.06998](https://arxiv.org/abs/2011.06998))
 
+and in relation to the [[duality between M-theory and heterotic string theory]]:
+
+* [[Bobby Acharya]], Alex Kinsella, [[David Morrison]], *Non-Perturbative Heterotic Duals of M-Theory on $G_2$ Orbifolds* ([arXiv:2106.03886](https://arxiv.org/abs/2106.03886))
+
 On [[moduli stabilization]]:
 
 * {#AcharyaBobkovKaneKumarVaman06} [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Diana Vaman, _An M theory Solution to the Hierarchy Problem_, Phys.Rev.Lett.97:191601,2006 ([arXiv:hep-th/0606262](http://arxiv.org/abs/hep-th/0606262))
