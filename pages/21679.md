@@ -466,7 +466,11 @@ The full-blown equivalence first appears in
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
-Related discussion over the [[real numbers]]:
+Concise review (without [[model category]]-theory, but discussion as an [[sSet]]-[[enriched adjunction]] nonetheless) and generalization both to [[Borel-equivariant rational homotopy theory]] (of [[covering spaces]] of non-[[nilpotent spaces]]), as well as to [[real homotopy theory]]:
+
+* {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*,  Elsevier, 1995 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
+
+Further related discussion over the [[real numbers]]:
 
 * {#DGMS75} [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], *Real homotopy theory of Kähler manifolds*, 
 Inventiones mathematicae volume 29, pages 245–274 (1975) ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
