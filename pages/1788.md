@@ -1,4 +1,153 @@
 
+$$
+  \begin{aligned}
+    sSet
+    \Big(
+      \big[S, \overline{W}G \big], 
+      \,
+      \big[S, frgt \circ DK(A[n]) \big]
+    \Big)
+    & \;\simeq\;
+    sSet
+    \Big(
+      \underset{
+        \underset{
+          \mathclap{
+            {\Delta[k] \in}
+            \atop
+            {el\big([S,\overline{W}G]\big)}
+          }
+        }
+        {\longrightarrow}
+      }{\lim}
+      \Delta[k], 
+      \,
+      \big[S, frgt \circ DK(A[n]) \big]
+    \Big)    
+    \\
+    & \;\simeq\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    sSet
+    \Big(
+      \Delta[k], 
+      \,
+      \big[S, frgt \circ DK(A[n]) \big]
+    \Big)    
+    \\
+    & \;\simeq\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    Ch_+
+    \Big(
+      N_\bullet \circ \mathbb{Z}
+      \big(
+        S \times \Delta[k] 
+      \big), 
+      \,
+      A[n]
+    \Big)    
+    \\
+    & \;\xrightarrow{EZ_S}\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    Ch_+
+    \Big(
+      N_\bullet \circ \mathbb{Z}(S)
+      \,\otimes\,
+      N_\bullet \circ \mathbb{Z}(\Delta[k]),
+      \,
+      A[n]
+    \Big)    
+    \\
+    & \;\simeq\;
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longleftarrow}
+    }{\lim}
+    \,
+    sSet
+    \Big(
+      \Delta[k],
+      \,
+      frgt \circ DK
+      \big(
+        A[n] \oplus A[n-1] 
+      \big)
+    \Big)    
+    \\
+    & \;\simeq\;
+    sSet
+    \Big(
+    \underset{
+      \underset{
+        \mathclap{
+          {\Delta[k] \in}
+          \atop
+          {el\big([S,\overline{W}G]\big)}
+        }
+      }
+      {\longrightarrow}
+    }{\lim}
+      \Delta[k]
+      \,
+      frgt \circ DK
+      \big(
+        A[n] \oplus A[n-1] 
+      \big)
+    \Big)    
+    \\
+    & \;\simeq\;
+    sSet
+    \Big(
+      [S,\overline{W}G]
+      \,
+      frgt \circ DK
+      \big(
+        A[n] \oplus A[n-1] 
+      \big)
+    \Big)    
+  \end{aligned}
+$$
+
+
+
+\linebreak
+
+\linebreak
 
 
 \begin{proposition}
