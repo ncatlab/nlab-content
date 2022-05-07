@@ -114,6 +114,8 @@ The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[right pr
 
 * [[relation between quasi-categories and simplicial categories]]
 
+* [[simplicial localization]]
+
 [[!include table - models for (infinity,1)-operads]]
 
 
@@ -122,7 +124,7 @@ The Bergner model structure of prop. \ref{BergnerModelStructure} is a [[right pr
 
 A model category structure on the category of $sSet$-categories with a fixed set of objects was first given in 
 
-* [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_ , J. Pure and Applied Algebra 17 (3) (1980), 
+* [[William Dwyer]], [[Dan Kan]], _Simplicial localization of categories_ , J. Pure and Applied Algebra 17 (3) (1980) ([pdf](https://www3.nd.edu/~wgd/Dvi/SimplicialLocalizations.pdf))
 
 Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
 
