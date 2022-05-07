@@ -26,6 +26,13 @@ Typically, $T_1$ is called the input layer, $T_L$ the output layer, and layers $
 $$f(x) = b' + \sum_{i=1}^n a_i g(\langle W_i, x\rangle + b)$$
 where $a = (a_1, \dots, a_n)$ is the output weight, $b'$ the output bias, $W_i$ the $i^{th}$ row of the hidden weight matrix, and $b$ the hidden bias. Here, the hidden layer is $n$-dimensional.   
 
+
+## Relation with renormalization group flow
+
+A relation between deep neural networks (DNNs) based on Restricted Boltzmann
+Machines (RBMs) and [[renormalization group flow]] in [[physics]] was proposed in ([MS14](#MS14)).
+
+
 ## Related concepts
 
 * [[function machine]]
@@ -72,6 +79,10 @@ Application of [[tensor networks]] and specifically [[tree tensor networks]]:
 * Ding Liu, Shi-Ju Ran, Peter Wittek, Cheng Peng, Raul Blázquez García, Gang Su, Maciej Lewenstein, _Machine Learning by Unitary Tensor Network of Hierarchical Tree Structure_, New Journal of Physics, 21, 073059 (2019) ([arXiv:1710.04833](https://arxiv.org/abs/1710.04833))
 
 * Song Cheng, Lei Wang, Tao Xiang, Pan Zhang, _Tree Tensor Networks for Generative Modeling_, Phys. Rev. B 99, 155131 (2019) ([arXiv:1901.02217](https://arxiv.org/abs/1901.02217))
+
+
+### Relation to renormalization group flow
+* {#MS14} Pankaj Mehta, David J. Schwab - _An exact mapping between the Variational Renormalization Group and Deep Learning_, 2014 ([arXiv:1410.3831](https://arxiv.org/abs/1410.3831))
 
 
 [[!redirects neural networks]]
