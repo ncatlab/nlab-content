@@ -100,7 +100,22 @@ Given $X\in C$, there is trivial cofibration $X\rightarrow RX$ with $RX$ fibrant
 
 ## References
 
-* H.J. Baues, _Algebraic homotopy_, Cambridge studies in advanced mathematics 15,  Cambridge University Press, (1989). 
+* [[H. J. Baues]], _Algebraic homotopy_, Cambridge studies in advanced mathematics 15,  Cambridge University Press, (1989).
+
+* [[Karol Szumiło]], Homotopy theory of cofibration categories. Homology Homotopy Appl. 18 (2016), no. 2, 345–357.
+[doi](https://doi.org/10.4310/HHA.2016.v18.n2.a19)
+
+* [[Karol Szumiło]], Homotopy theory of cocomplete quasicategories. Algebr. Geom. Topol. 17 (2017), no. 2, 765–791.
+[doi](https://doi.org/10.2140/agt.2017.17.765)
+
+* [[Krzysztof Kapulkin]], [[Karol Szumiło]], Quasicategories of frames of cofibration categories. Appl. Categ. Structures 25 (2017), no. 3, 323–347.
+[doi](https://doi.org/10.1007/s10485-015-9422-y)
+
+* [[Karol Szumiło]], Frames in cofibration categories. J. Homotopy Relat. Struct. 12 (2017), no. 3, 577–616.
+[doi](https://doi.org/10.1007/s40062-016-0139-x)
+
+* [[Markus Land]], [[Thomas Nikolaus]], [[Karol Szumiło]], Localization of cofibration categories and groupoid C∗-algebras. Algebr. Geom. Topol. 17 (2017), no. 5, 3007–3020.
+[doi](https://doi.org/10.2140/agt.2017.17.3007)
 
 [[!redirects cofibration categories]]
 
