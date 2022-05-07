@@ -345,20 +345,24 @@ Here:
 In all of the following, $G$ is any simplicial group.
 
 
-### Kan fibrancy
+### Basic properties
  {#KanFibrancy}
 
 \begin{prop}
   The simplicial set $\overline{W}G$ is a [[Kan complex]].
 \end{prop}
-([Goerss & Jardine 09, Sec. V Cor. 6.8 (p. 287)](#GoerssJardine09))
+(e.g. [Goerss & Jardine 09, Sec. V Cor. 6.8 (p. 287)](#GoerssJardine09))
 
 \begin{prop}
   The coprojection $W G \overset{}{\longrightarrow} \overline{W}G$
   is a [[Kan fibration]].
 \end{prop}
-([Goerss & Jardine 09, Sec. V Lemma 4.1 (p. 270)](#GoerssJardine09))
+(e.g [Goerss & Jardine 09, Sec. V Lemma 4.1 (p. 270)](#GoerssJardine09))
 
+\begin{prop}
+  The simplicial set $W G$ is [[contractible]].
+\end{prop}
+(e.g [Goerss & Jardine 09, Sec. V Lemma 4.6 (p. 270)](#GoerssJardine09))
 
 ### Classification of simplicial principal bundles 
  {#ClassificationOfSimplicialPrincipalBundles}
