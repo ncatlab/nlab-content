@@ -16,6 +16,7 @@ Review:
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
+* {#Harlow20} [[Daniel Harlow]], *Computation and Holography*, talk at [Snowmass Computational Frontier Workshop 2020](https://indico.fnal.gov/event/43829/) ([pdf](https://indico.fnal.gov/event/43829/contributions/193566/attachments/132763/163346/snowmasscomp.pdf), [[HarlowComputationHolography.pdf:file]])
 
 
 On the [[black hole firewall problem]] -- points out the significance of the so-called "overlap criterion," and suggests a way around the firewall paradox by arguing that the criterion should be relaxed:
@@ -39,6 +40,8 @@ On the argument that after embedding into consistent [[quantum gravity]], all [[
 * [[AdS-CFT]]
 
 * [[holographic entanglement entropy]]
+
+* [[holographic quantum error correcting code]]
 
 * [[black hole firewall problem]]
 
