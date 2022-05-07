@@ -44,7 +44,7 @@ $$
   \,.
 $$
 
-The [[projective unitary group]] $P U(\mathcal{H})$ (a [[topological group]]) acts canonically by [[automorphism]]s on $(K U)_0$. (This follows by the identificatioon of $KU_0$ with the space of [[Fredholm operators]], see [below](#ByBundlesOfFredholmOperators)) Therefore for $P \to X$ any $PU(\mathcal{H})$-[[principal bundle]], we can form the [[associated bundle]] $P \times_{P U(\mathcal{H})} (K U)_0$.
+The [[projective unitary group]] $P U(\mathcal{H})$ (a [[topological group]]) acts canonically by [[automorphism]]s on $(K U)_0$. (This follows by the identification of $K U_0$ with the space of [[Fredholm operators]], see [below](#ByBundlesOfFredholmOperators)) Therefore for $P \to X$ any $PU(\mathcal{H})$-[[principal bundle]], we can form the [[associated bundle]] $P \times_{P U(\mathcal{H})} (K U)_0$.
 
 Since the [[homotopy type]] of $P U(\mathcal{H})$ is that of an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, there is precisely one isomorphism class of such bundles representing a class $\alpha \in H^3(X, \mathbb{Z})$.
 
@@ -68,7 +68,7 @@ $$
   \Gamma_X(P^\alpha \times_{P U(\mathcal{H})} B U)
   \,.
 $$
-a
+
 
 =--
 
