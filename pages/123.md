@@ -17,28 +17,40 @@
 
 ## Idea
 
-* A functor is what goes between [[category|categories]].
+* A *functor* is a [[homomorphism]] of [[categories]].
 
-* A functor from $C$ to $D$ is an _image of $C$ in $D$_ (but the naive [[image]] need not be a [[subcategory]] of $D$).
+* A functor between [[small categories]] is a [[homomorphism]] of the [[underlying]] [[graphs]] that respects the [[composition]] of [[edges]].
 
-* A functor between (small) categories is a morphism of the underlying [[quivers]] that respects the composition of edges.
+So, for $C$, $D$ two [[categories]], a functor $F \colon C \to D$ consists of 
 
+1. a component-[[function]] of the [[classes]] of [[objects]];
 
-So a functor $F : C \to D$ is a [[morphism]] between two [[category|categories]] that 
+   $F_0 \colon Obj(C) \to Obj(D)$ 
 
-* consists of a map $F_0 : Obj(C) \to Obj(D)$ of the objects of the categories
+* a component-[[function]] of [[sets]] of [[morphisms]]
 
-* and a map $F_1 : Mor(C) \to Mor(D)$ of the morphisms of the categories
+  $F_1 \colon Mor(C) \to Mor(D)$ 
 
-such that
+  or equivalently: 
 
-* it respects source and target: $F_1$ coincides with $F_0$ on source and target objects;
+  for each [[pair]] $x,y \in Obj(C)$ of [[objects]], a component-[[function]]
 
-* it respects identities: $F(1_X) = 1_{F(X)}$;
+  \[
+    \label{ComponentFunctionOnHomSets}
+    F_{x,y} \;\colon\; C(x,y) \xrightarrow{\;\;} D(F(x), F(y))
+  \]
 
-* it respects composition: the image of the composite of two morphisms under $F$ is the composite of their images.
+  between [[hom-sets]];
 
-These last two properties are the decisive ones of a functor; they are called the **functoriality conditions**.  They are a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan we have
+such that:
+
+* it respects [[source]] and [[target]] of [[morphisms]]: $F_1$ coincides with $F_0$ on source and target objects;
+
+* it respects [[identity morphisms]]: $F(id_X) = id_{F(X)}$;
+
+* it respects [[composition]]: the image of the composite of two morphisms under $F$ is the composite of their images.
+
+These last two properties are the decisive ones of a functor; they are called the **functoriality conditions**.  These are a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan:
 
 The notion of functor is a [[horizontal categorification]] of that of [[homomorphism]].
 
@@ -54,9 +66,9 @@ A **functor** $F$ from a [[category]] $C$ to a category $D$ is a map sending eac
 
 Or equivalently, since compositions $g f = g\circ f$ (commuting triangles) and identities $1_x$ (commuting loops) are both simple commuting diagrams, we can combine the above conditions to the single statement
 
-* $F$ preserves commuting diagrams.
+* $F$ preserves [[commuting diagrams]].
 
-Given morphisms $f:X\to Y$, $g:Y\to Z$, and $h:X\to Z$, declaring the triangle commutes amounts to declaring 
+Given [[morphisms]] $f \colon X\to Y$, $g \colon Y\to Z$, and $h \colon X\to Z$, declaring the triangle commutes amounts to declaring 
 $$h = g\circ f.$$ 
 In this case, for $F:C\to D$ to preserve the commutative triangle means 
 $$F(h) = F(g)\circ F(f)$$
@@ -388,9 +400,11 @@ which provides an alternative expression of the functoriality condition as simpl
 
 ## References
 
-See [[category theory#references|category theory - references]].
+See the references at:
 
-* [[André Joyal]]'s CatLab: _[[joyalscatlab:Functors]]_
+* [[category theory#references|category theory - references]].
+
+* [[André Joyal]]'s CatLab: _[[joyalscatlab:Functors]]_
 
 [[!redirects functors]]
 [[!redirects covariant functor]]
