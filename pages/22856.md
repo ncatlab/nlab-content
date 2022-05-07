@@ -19,27 +19,36 @@
 
 A *divided power algebra* is an [[associative algebra]] $A$ together with an [[ideal]] $I$ and a collection of operations $\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ which behave like operations of taking divided powers $x\mapsto x^{n}/n!$ in [[power series]].
 
+
 ## Definition
 
 Let $R$ be a [[ring]]. A __divided power $R$-algebra__, or __PD-$R$-algebra__, is a triple $(A,I,\gamma)$ with
 
 - $A$ an $R$-[[associative algebra|algebra]];
+
 - $I$ an [[ideal]] of $A$;
-- $\gamma=\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ a collection of maps;
+
+- $\gamma=\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ an [[indexed set]] of [[functions]] (of underlying [[sets]]);
 
 satisfying the following conditions:
 
 1. For each $x\in A$, we have $\gamma_{0}(x)=1$.
-2. For each $x\in A$, we have $\gamma_{1}(x)=x$.
-3. For each $x\in A$ and each $n\geq2$, we have $\gamma_{n}(x)\in I$.
-4. For each $x,y\in A$, we have
+
+1. For each $x\in A$, we have $\gamma_{1}(x)=x$.
+
+1. For each $x\in A$ and each $n\geq2$, we have $\gamma_{n}(x)\in I$.
+
+1. For each $x,y\in A$, we have
 $$\gamma_{n}(x+y)=\sum_{k=0}^{n}\gamma_{n-k}(x)\gamma_{k}(y).$$
-5. For each $\lambda$ in $A$ and each $x\in I$, we have
+
+1. For each $\lambda$ in $A$ and each $x\in I$, we have
 $$\gamma_{n}(\lambda x)=\lambda^{n}\gamma_{n}(x).$$
-6. For each $x\in A$ and each $m,n\in\mathbb{N}$, we have
+
+1. For each $x\in A$ and each $m,n\in\mathbb{N}$, we have
 $$\gamma_{n}(x)\gamma_{m}(x)=\frac{(n+m)!}{n!m!}\gamma_{n+m}(x).$$
-7. For each $x\in A$ and each $m,n\in\mathbb{N}$, we have
-$$\gamma_{m}(\gamma_{n}(x))=\frac{(nm)!}{(n!)^{m}m!}\gamma_{nm}(x).$$
+
+1. For each $x\in A$ and each $m,n\in\mathbb{N}$, we have
+$$\gamma_{m}(\gamma_{n}(x))=\frac{(n m)!}{(n!)^{m}m!}\gamma_{n m}(x).$$
 
 ## Related concepts
 
@@ -51,23 +60,24 @@ Divided power algebras were originally introduced in
 
 * [[Henri Cartan]], _Puissances divisées_, Séminaire Henri Cartan, Tome 7 (1954–1955) no. 1, Exposé no. 7, 11 p. [Numdam:SHC_1954–1955__7_1_A7_0](http://www.numdam.org/item/SHC_1954-1955__7_1_A7_0/).
 
-Their theory was further developed in Berthelot's PhD thesis, which was later published as volume 407 of the Springer Lecture Notes on Mathematics series:
+Their theory was further developed in [[Pierre Berthelot|Berthelot\\'s PhD thesis (in the context of [[crystalline cohomology]]), which was later published as:
 
-* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. MR 0384804
+* [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. ([doi:10.1007/BFb0068636](https://link.springer.com/book/10.1007/BFb0068636),  MR 0384804)
 
-Reviews of the notion include the following references:
+Review:
 
-* [[Pierre Berthelot]], A. Ogus, _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ISBN0-691-08218-9
+* [[Pierre Berthelot]], [[Arthur Ogus]], _Notes on crystalline cohomology_, Princeton Univ. Press 1978. vi+243, ([ISBN:0-691-08218-9](https://press.princeton.edu/books/hardcover/9780691648323/notes-on-crystalline-cohomology-mn-21))
 
 * [[Aise Johan de Jong]] et al., [[The Stacks Project]], [Chapter 09PD](https://stacks.math.columbia.edu/tag/09PD).
+
+See also:
+
+* Wikipedia, *[Divided power structure](https://en.wikipedia.org/wiki/Divided_power_structure)*
 
 In relation to the [[sphere spectrum]]
 
 * [[Sanath Devalapurkar]], _Divided powers and the sphere spectrum_, [blog post](https://sanathdevalapurkar.github.io/blog/algebraic-topology/2019/02/20/divided-powers.html)
 
-See also:
-
-* Wikipedia, *[Divided power structure](https://en.wikipedia.org/wiki/Divided_power_structure)*
 
 [[!redirects PD-algebra]]
 [[!redirects PD-algebras]]
