@@ -16,6 +16,12 @@
 
 The idea of a minor scale comes from [[Peter Freyd]]. Certain minor scales are models of [[multiplicative linear logic]]. 
 
+Minor scales are an example of [[centipede mathematics]]; a lot of this page will be determining which of Freyd's results in _Algebraic Real Analysis_ still applies in minor scales and possible weakenings of the scale identity axiom. 
+
++-- {: .standout}
+Note: The terms _multiplicative conjunction_, _multiplicative disjunction_, _linear implication_, _reverse linear implication_, _additive conjunction_, and _additive disjunction_ used in this page come from [[scales]], which are algebraic models of multiplicative-additive [[linear logics]]. While the same operations may be defined in the same way in minor scales as in scales, the operations may no longer correspond to any linear logic at all, and are simply defined to reduce syntactical complexity in equational sentences and axioms. 
+=--
+
 ## Definition
 
 ### In terms of multiplicative conjunction and disjunction
@@ -128,11 +134,15 @@ __Linear implication__ can be defined as
 
 $$a \multimap b \coloneqq a^\bullet \oplus b$$
 
-### Additional possible axioms
+### Other operations
 
-A minor scale is said to satisfy the __axiom of balance__ if for all $a$ and $b$ in $M$,
+The binary operation __additive [[conjunction]]__ is defined as 
 
-$$a \vert (a^\bullet \oplus b) = b \vert (b^\bullet \oplus a)$$
+$$a \wedge b \coloneqq a \otimes (a^\bullet \oplus b)$$
+
+and __additive [[disjunction]]__ is defined as 
+
+$$a \vee b \coloneqq a \oplus (a^\bullet \otimes b)$$
 
 ## Properties
 
@@ -152,6 +162,20 @@ $\bot$ is a [[fixed point]] of $(-)^\vee$ and $\top$ is a fixed point of $(-)^\w
 
 As a minor scale is a [[closed midpoint algebra]], a minor scale has a [[partial order]] $\leq$. If $a \leq b$, then $a \multimap b = \top$. 
 
+## Additional possible axioms
+
+A minor scale satisfies the __axiom of balance__ if for all $a$ and $b$ in $M$,
+
+$$a \vert (a \multimap b) = b \vert (b \multimap a)$$
+
+A minor scale satisfies the __disjunction property__ if for all $a$ and $b$ in $M$,
+
+$$(a \multimap b) \vee (b \multimap a) = \top$$
+
+A minor scale satisfies the __coalgebra equation__ if for all $a$ in $M$,
+
+$$a^\vee \vee (a^\wedge)^\bullet = \top$$
+
 ## Examples
 
 The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac{1}{2}$, $a^\bullet = 1 - a$, $\bot = 0$, $\top = 1$, $a \otimes b = max(a + b - 1,0)$, $a \oplus b = min(a + b,1)$, $a^\wedge = max(2a - 1,0)$ and $a^\vee = min(2a,1)$ is an example of a minor scale. 
@@ -165,6 +189,8 @@ The set of truth values in Girard's [[linear logic]] is a minor scale.
 * [[scale]]
 
 * [[linear logic]]
+
+* [[centipede mathematics]]
 
 ## References
 
