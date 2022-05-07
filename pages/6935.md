@@ -311,7 +311,7 @@ $$
   }
 $$
 
-and the [[term]] $p_0$ is interpreted as a [[section]] of the resultig fibration over the terminal object
+and the [[term]] $p_0$ is interpreted as a [[section]] of the resulting fibration over the terminal object
 
 $$
   \array{
