@@ -185,7 +185,9 @@ Every quaternionic unitary matrix is conjugate to a diagonal one since every ele
 
 [Draxl 83](#Draxl83) introduces a more primitive notion, the _Dieudonné predeterminant_:
 
-Given a generic (i.e.: invertible) matrix $T$ over a [[skew-field]], there is its [[Gauss decomposition]] in the form $T = U D L$ where 
+Given an invertible matrix $T$ over a [[skew-field]] (and in some other cases) there is a _strict Bruhat normal form_ of $T$ ([Draxl 83, Sec. 19, Thm. 1, Def. 1 (p. 128)](#Draxl83)) $T = U D P L$ where 
+
+* $P$ is a permutation matrix 
 
 * $U$ is upper triangular unidiagonal, 
 
@@ -193,16 +195,13 @@ Given a generic (i.e.: invertible) matrix $T$ over a [[skew-field]], there is it
 
 * $L$ lower triangular unidiagonal matrix. 
 
-This is called the _strict Bruhat normal form_ of $T$ ([Draxl 83, Sec. 19, Thm. 1, Def. 1 (p. 128)](#Draxl83)).
+The case when for $P$ the identity matrix can be taken may be viewed as generic as such matrices are dense in a number of meanings and contexts. This is the case of belonging to the _big_ Bruhat cell or equivalently to the _main_ Gauss cell, and the decomposition $T = U D L$ is the [[Gauss decomposition]]. Recall that other Bruhat cells are in commutative case of higher codimension, hence not dense, and similar statements can be made in a number of noncommutative contexts. Shifted Gauss cells, which correspond to a decomposition of matrices in the form $P U D L$ for $P$ fixed, are also dense in the same sense as they are simply the shifts (by multiplication by an invertible matrix $P$) of the main cell. 
 
-
-The _Dieudonné predeterminant_ $\delta\epsilon\tau(T)$ is the product of the entries of the diagonal part $D$ upside down ([Draxl 83, Sec. 20, Def. 1 (p. 133)](#Draxl83)). 
-
-If the matrix is not generic, questions of rank appear, and the appropriate Bruhat decomposition should be chosen instead. 
+The _Dieudonné predeterminant_ $\delta\epsilon\tau(T)$, introduced by Draxl, is the product of the entries of the diagonal part $D$ upside down ([Draxl 83, Sec. 20, Def. 1 (p. 133)](#Draxl83)) if the matrix is invertible and zero otherwise. 
 
 The Dieudonné determinant is then the image of $\delta\epsilon\tau(T)$ under the projection to the [[abelianization]] ([Draxl 83, Sec. 20, Cor. 1 (p. 135)](#Draxl83))
 
-It is well known that the Gauss decomposition of matrices over a noncommutative ring has an expression in terms of [[quasideterminants]], as shown by [Gelfand-Retakh 02](#GelfandRetakh02). 
+It is well known that the Gauss decomposition of matrices over a noncommutative ring  has a simple expression in terms of [[quasideterminants]], as shown by [Gelfand-Retakh 02](#GelfandRetakh02) (and in their earlier references, around 1990), hence the Dieudonné predeterminant can be generically presented as a signed product of quasideterminants.
 
 
 
@@ -228,7 +227,7 @@ Comparison to [[quasideterminants]] is in
 
 For lectures on quasideterminants see 
 
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf)
+* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf))
 
 Further on Dieudonné determinants:
 
