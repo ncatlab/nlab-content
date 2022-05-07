@@ -193,7 +193,9 @@ Correspondences may be seen as generalizations of [[relations]]. A relation is a
 
 * [[(∞,n)-category of spans]].
 
-* [[sink]]
+* [[sink]], [[cosink]]
+
+* [[product]], [[coproduct]]
 
 * [[multispan]]
 
