@@ -30,7 +30,7 @@ $$
   (\delta,h)(\gamma,g)= (\delta \rho(h)(\gamma) , h g)
 $$
 
-for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$.
+for $\delta, \gamma \in \Gamma,\; h,g \in G$.  For the rest of this page, $^h \gamma \coloneqq \rho(h)(\gamma)$ denotes the result of acting with $h$ on the left on $\gamma$.
 
 If the twist is trivial, then this reduces to just the [[direct product group]] construction, whence the name.
 
