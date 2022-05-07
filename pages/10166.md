@@ -251,7 +251,7 @@ $$
 
 and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the following condition is satisfied:
 
-* **(principality)** the _shear map_
+* {#EquivariantPrincipality} **(principality)** the _shear map_
 
   $
     \array{
@@ -277,6 +277,7 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 
 ### As $(G,\alpha,\Gamma)$-principal bundles
 
+
 \begin{prop}\label{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}
 (**principal bundles internal to $G$-spaces are equivalent to tom Dieck-bundles**)
 \linebreak
@@ -285,6 +286,157 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 \end{prop}
 \begin{proof}
   This follows immediately by the fact ([this Prop.](equivariant+group#ActionsOfEquivariantGroupsAsSemidirectProductGroupActions)) that $G$-equivariant actions of [[equivariant groups]] $(G,\alpha)$ are equivalent to plain actions of the [[semidirect product group]] $\Gamma \rtimes_\alpha G$.
+\end{proof}
+
+
+### Over coset spaces
+
+\begin{prop}\label{EquivariantCosetSpaceBundles}
+**(semidirect product coset space bundles are locally trivial)**
+  Let $H \subset G$ be a [[closed subgroup]], 
+  and let 
+  $Q$ be a lift of $H$ to a [[closed subgroup]] of the [[semidirect product group]], as shown on the left here:
+
+\[
+  \label{EquivariantBundleOfCosetSpaces}
+  \array{
+    Q &\subset& \Gamma \rtimes_\alpha G
+    &{\phantom{A}}&
+    \big(
+      \Gamma \rtimes_\alpha G 
+    \big)
+    \big/
+    Q
+    \\
+    {}^{\mathllap{\simeq}}
+    \big\downarrow
+    &&
+    \big\downarrow
+    {}^{\mathrlap{
+      pr_2
+    }}
+    &&
+    \big\downarrow
+    {}^{ \mathrlap{p} }
+    \\
+    H &\subset& G
+    &&
+    G/H
+    \mathrlap{
+    \,.
+    }
+  }
+\]
+
+Then the induced [[bundle]] of [[coset spaces]], shown on the right of (eq:EquivariantBundleOfCosetSpaces), is:
+
+1. a $(\Gamma,\alpha)$-principal bundle (under Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}) 
+
+1. [[locally trivial]] as an ordinary $\Gamma$-[[fiber bundle]] in [[TopologicalSpaces]].
+
+\end{prop}
+
+This is [tom Dieck 69, Lemma in Sec. 2.1](#tomDieck69)
+
+In fact every equivariant principal bundle over a coset space is of this form:
+
+
+\begin{prop}
+  Let $H \subset G$ be a [[closed subgroup]]. Then every $(\Gamma,\alpha)$-principal bundle (Def. \ref{EquivariantPrincipalBundles}) over the [[coset space]]
+
+$$
+  P \overset{p}{\longrightarrow} G/H
+  \,,
+$$ 
+
+which is [[locally trivial]] as an ordinary $\Gamma$-[[principal bundle]], is [[isomorphism|isomorphic]] 
+
+\[
+  \label{TrivializingBundleIosmorphismOverCosetSpace}
+  \array{
+    (\Gamma \rtimes_\alpha G)/Q
+    &&
+    \underoverset
+      {\simeq}
+      { [\gamma,g] \mapsto (\gamma,g)\cdot p }
+      {\longrightarrow}
+    &&
+    P
+    \\
+    & 
+    \searrow
+    && 
+    \swarrow
+    \\
+    &&
+    G/H
+  }
+\]
+
+to a [[coset space]]-bundle $(\Gamma \rtimes_\alpha G)/Q \longrightarrow G/H$ from Prop. \ref{EquivariantCosetSpaceBundles}, for $Q$ a lift of $H$ to a [[closed subgroup]] of the [[semidirect product group]]:
+
+$$
+  \array{
+    Q &\subset& \Gamma \rtimes_\alpha G
+    \\
+    {}^{\mathllap{\simeq}}
+    \big\downarrow
+    &&
+    \big\downarrow
+    {}^{\mathrlap{
+      pr_2
+    }}
+    \\
+    H &\subset& G
+    \mathrlap{
+    \,.
+    }
+  }
+$$
+
+\end{prop}
+
+\begin{proof}
+
+Regard $P$ as equipped with the [[action]] of the [[semidirect product group]] $\Gamma \rtimes_\alpha G$, by Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}.
+   
+Let $e \in P_{[H]}$ be any point in the [[fiber]] over $[H] \in G/H$, and take 
+
+$$
+  Q \;\coloneqq\; Stab_{\Gamma \rtimes_\alpha G}(e)
+$$
+
+to be its [[stabilizer subgroup]] under the [[semidirect product group]]-action. We observe that this has the stated properties:
+
+* $Q$ is a [[closed subgroup]] because [stabilizer subgroups are closed subgroup](closed+subgroup#StabilizerSubgroupsOfContinuousActionsOnT1SpacesAreClosed);
+
+* under $\Gamma \rtimes_\alpha G \overset{pr_2}{\longrightarrow} G$ we have $Q \to H$, since  for all $q \in Q$:
+
+  $$
+    \begin{aligned}
+      [H] 
+      &= p(q \cdot e) 
+      \\
+      & = pr_2(q) \cdot p(e) 
+      \\
+      & = pr_2(q) \cdot [H]
+    \end{aligned}
+  $$
+
+* $Q \to H$ is 
+
+  * a [[surjection]] because the action of $\Gamma$ on the [[fibers]] of $P$ is a [[transitive action]],
+
+  * an [[injection]] because the action of $\Gamma$ on the [[fibers]] of $P$ is a [[free action]] 
+  
+  (by [principality](#EquivariantPrincipality)).
+
+Moreover, it is clear by construction that (eq:TrivializingBundleIosmorphismOverCosetSpace) is a $(\Gamma \rtimes_\alpha G)$-[[equivariant function|equivariant]] [[continuous function]] over $G/H$. 
+
+Hence to see that (eq:TrivializingBundleIosmorphismOverCosetSpace) is an [[isomorphism]] (a [[homeomorphism]] of underlying [[topological spaces]]) it is sufficient to see that after [[forgetful functor|forgetting]] the $G$-[[action]] we have a morphism between ordinary $\Gamma$-[[principal bundles]] over their common base space, because any such is an [[isomorphism]], as is manifest from its restriction to any common [[local trivialization]].
+
+Therefore it is now sufficient to see that the coset bundle $(\Gamma \rtimes_\alpha G)/Q \longrightarrow G/H$ is [[locally trivial]] as a $\Gamma$-[[principal bundle]]. But this is the statement of Prop. \ref{EquivariantCosetSpaceBundles}.
+
 \end{proof}
 
 
