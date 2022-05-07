@@ -1,5 +1,6 @@
 
 
+
 * [webpage](http://www.nikhef.nl/~t58/Site/Home.html)
 
 * [articles on arXiv](https://arxiv.org/search/?searchtype=author&query=Schellekens%2C+A)
@@ -44,7 +45,7 @@ On the [[landscape of string theory vacua]]:
 
 * {#Schellekens06} [[Bert Schellekens]], _The Landscape "avant la lettre"_ ([arXiv:physics/0604134](http://arxiv.org/abs/physics/0604134))
 
-* {#Schellekens08} [[Bert Schellekens]], _The Emperor's Last Clothes?_, Rept.Prog.Phys.71:072201,2008 ([arXiv:0807.3249](https://arxiv.org/abs/0807.3249))
+* {#Schellekens08} [[Bert Schellekens]], _The Emperor's Last Clothes?_, Rept. Prog. Phys.71:072201, 2008 ([arXiv:0807.3249](https://arxiv.org/abs/0807.3249))
 
 * {#Schellekens16} [[Bert Schellekens]], _Big Numbers in String Theory_ ([arXiv:1601.02462](http://arxiv.org/abs/1601.02462))
 
@@ -67,3 +68,8 @@ category: people
 
 
 [[!redirects A. N. Schellekens]]
+[[!redirects Bert Schellekens]]
+
+
+
+
