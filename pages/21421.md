@@ -51,6 +51,13 @@ More on [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
 
 * Salvatore Baldino, Lorenzo Bartolini, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], _Holographic Nuclear Physics with Massive Quarks_ ([arXiv:2102.00680](https://arxiv.org/abs/2102.00680))
 
+More on [[mesons]] in [[holographic QCD]]:
+
+* Daniel Ávila, Leonardo Patiño, _Melting holographic mesons by cooling a magnetized quark gluon plasma_ ([arXiv:2002.02470](https://arxiv.org/abs/2002.02470))
+
+* Xuanmin Cao, Songyu Qiu, Hui Liu, Danning Li, _Thermal properties of light mesons from holography_ ([arXiv:2102.10946](https://arxiv.org/abs/2102.10946))
+
+
 
 An alternative scenario of derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]], now on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]], is discussed in:
 
