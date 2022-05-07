@@ -44,13 +44,17 @@ $$\mathbb{N} \cong \mathbb{N}[10] \coloneq \mathbb{N}[x]/(x=10)$$
 
 Localisation of the [[rig]] of natural numbers at 10 $\mathbb{N}[1/10]$, finite decimals as canonical representatives of $\mathbb{N}[1/10]$, and then [[group completion]] of the additive monoid to $\mathbb{Z}[1/10]$.
 
-### Order theoretic definition
+## Order theoretic definitions
+
+### Integers
+
+work in progress...
+
+### Finite decimals
 
 See below, but define in terms of an initial algebra instead of a terminal coalgebra. 
 
-## Infinite decimals
-
-### As an terminal coalgebra
+### Infinite decimals
 
 Consider the [[category]] of [[intervals]] $Int$, i.e., linearly ordered sets with identified elements $1$ and $0$, and let 
 
@@ -90,11 +94,15 @@ as real numbers. In this way, we produce a unique well-defined interval map $X \
 
 Let $(\mathbb{Z},0,s,n,\lt)$ be the set of integers, the initial set with an element $0$, a [[linear order]] $\lt$, a [[monotone]] $s$ such that $a \lt s(a)$ for all $a \in \mathbb{Z}$, and an [[antitone]] $n$ such that $n(0)=0$ and $n = s \circ n \circ s$. Let $\mathbb{R}$ be a set with a structure preserving function $g:\mathbb{Z}\to\mathbb{R}$ and a [[monotone]] $f:[0,1]\to \mathbb{R}$ such that $f(0) = g(0)$ and $f(1) = s(g(0))$. The set $\mathbb{R}$ of [[real numbers]] is the initial such system. The arithmetic operations on any such system can be defined by the properties of the [[function algebra]] of $\mathbb{R}$ and [[currying]]. 
 
-### As a $\mathbb{Z}$-graded cochain complex of abelian groups
+## Doubly infinite decimals 
 
 Let $\mathbb{Z}/10\mathbb{Z}$ be the [[cyclic group]] consisting of 10 elements, and let $C_\bullet$ be a [[chain complex]] of [[abelian groups]] consisting of a sequence of $\mathbb{Z}/10\mathbb{Z}$ indexed by $\mathbb{Z}$. The indices $i:\mathbb{Z}$ are called __place values__, and $i$-[[cochains]] are called __digits__. 
 
-A __10-adic number__ is a cochain such that $c_i = 0$ for all $i \lt j$ or $c_i = 9$ for all $i \lt j$ for $i,j:\mathbb{Z}$. A __10-adic integer__ is a cochain such that $c_i = 0$ for all $i \lt 0$ or $c_ i = 9$ for all $i \lt 0$.
+A __10-adic number__ is a cochain such that $c_i = 0$ for all $i \lt j$ or $c_i = 9$ for all $i \lt j$ for $i,j:\mathbb{Z}$. A __10-adic integer__ is a cochain such that $c_i = 0$ for all $i \lt 0$ or $c_ i = 9$ for all $i \lt 0$. A __real number__ is a cochain such that $c_i = c_j$ for all $i \gt k$ and $j \gt k$ for $i,j,k:\mathbb{Z}$. A __decimal rational__ is a real 10-adic number, and an __integer__ is a real 10-adic integer. 
+
+### 10-adic solenoids {#solenoid}
+
+The cochain complex $C_\bullet$ defined in the previous section has a structure of an abelian group, making it into a __10-adic [[solenoid]]__.
 
 A cyclic group $G$ has a canonical [[cyclic order]] $[(-),(-),(-)]:(G \times G \times G) \to \Omega$. We define the cyclic order on $\mathbb{Z}/10\mathbb{Z}$ such that $[0,n,1]$ is false for all $n:\mathbb{Z}/10\mathbb{Z}$. 
 
@@ -102,11 +110,15 @@ For each $i:\mathbb{Z}$, there exists a [[cocycle]] $f_i: (C_i \times C_i) \to C
 
 We define the __addition without carry__ on the cochain complex $(-)\oplus(-): (C_\bullet \times C_\bullet) \to C_\bullet$ as the addition of all digits using the abelian group operation, and we define the __carry__ $carry: (C_\bullet \times C_\bullet) \to C_\bullet$ as the digitwise carry of all digits. Then, __addition__ $(-)+(-): (C_\bullet \times C_\bullet) \to C_\bullet$ is defined [[recursion|recursively]] as $a+b = (a\oplus b)+carry(a,b)$. 
 
-The cochains consisting of all $n$s for all $n:\mathbb{Z}/10\mathbb{Z}$ are additive [[identity elements]] of the addition operation defined above. As such, they are algebraically equal to the same chain $0$ __zero__, the chain consisting of all zeroes. We define __negation__ $-(-): C_\bullet \to C_\bullet$ such that for all chains $c:C_\bullet$, the digits in $-c$ are $(-c)_i = 9 + -c_i$. As a result, the chain complex itself is an abelian group, and the subset of $C_\bullet$. $C_\bullet$ also forms a [[cyclic group]], so a cyclic order could be put on $C_\bullet$. 
+The cochains consisting of all $n$s for all $n:\mathbb{Z}/10\mathbb{Z}$ are additive [[identity elements]] of the addition operation defined above. As such, they are algebraically equal to the same chain $0$ __zero__, the chain consisting of all zeroes. We define __negation__ $-(-): C_\bullet \to C_\bullet$ such that for all chains $c:C_\bullet$, the digits in $-c$ are $(-c)_i = 9 + -c_i$. As a result, the chain complex itself is an abelian group. 
 
-Let us define an $\mathbb{N}$-[[action]] $act: (\mathbb{N}^+\times C_\bullet) \to C_\bullet$ such that $act(0,0) = 0$ and $act(n + 1,c) = act(n,c) + c$ for all $n:\mathbb{N}^+$ and $c:C_\bullet$. This represents the $n$-fold sum of a cochain $c$. The [[archimedean property]] for cyclic orders then states that for all $a,b:C_\bullet$, there exist $n:\mathbb{N}^+$ such that $[0, a, act(n,b)]$ or $[act(n,b),a,0]$. Let $1$ __one__ denote the cochain with all digits equal to zero except at place value $0$, where the digit is equal to $1$. Then the __real numbers__ $\mathbb{R}$ is the largest abelian subgroup of $C_\bullet$ that contains $1$ and is archimedean. A __decimal rational__ is a real 10-adic number, and an __integer__ is a real 10-adic integer. 
+### Analytic completion of Laurent series {#analytic_completion}
 
-One could also establish a [[ring]] structure on $\mathbb{Z}/10\mathbb{Z}$ and construct a multiplication operation on the chain complex such that when restricted to real numbers yields multiplication of real numbers. The chain complex itself with the defined multiplication should be equivalent to the [[quotient ring]] of the [[Laurent series]] $\mathbb{Z}[[x,x^{-1}]]/(x-10)\mathbb{Z}[[x,x^{-1}]]$. 
+Let $1$ __one__ denote the cochain with all digits equal to zero except at place value $0$, where the digit is equal to $1$. The cochain with all digits equal to zero except at place value $i$ is called the __$i$-th power of ten__ and is denoted as $10^i$. 
+
+Let us define an $\mathbb{N}$-[[action]] $act: (\mathbb{N}^+\times C_\bullet) \to C_\bullet$ such that $act(0,0) = 0$ and $act(n + 1,c) = act(n,c) + c$ for all $n:\mathbb{N}^+$ and $c:C_\bullet$. This represents the $n$-fold sum of a cochain $c$. 
+
+One could also establish a [[ring]] structure on $\mathbb{Z}/10\mathbb{Z}$ and construct a multiplication operation on the chain complex such that the chain complex itself with the defined abelian group structure and multiplication should be equivalent to the [[quotient ring]] of the [[Laurent series]] $\mathbb{Z}[[x,x^{-1}]]/(x-10)\mathbb{Z}[[x,x^{-1}]]$. 
 
 ## Related concepts
 
