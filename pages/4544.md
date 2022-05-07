@@ -51,6 +51,7 @@ sense of existence of short exact sequence of the form $R^I\to R^J\to M\to 0$
 where $I$ and $J$ are finite. 
 
 ### In homotopical algebra and rational homotopy theory
+ {#InRationalHomotopyTheory}
 
 A _graded object_ is often said to be of **finite type** if it is _degreewise_ of [[finite number|finite]] [[dimension]]/[[rank]], in some sense. This terminology is used specifically in [[rational homotopy theory]].
 
