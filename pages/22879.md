@@ -171,7 +171,7 @@ Example \ref{TheArchetypicalExample} controls the classification of [[Yang-Mills
   In the context of [[twistor string theory]], 
 the spaces of rational maps $\Sigma \to \mathbb{C}P^3$ (eq:RationalMappingSpaceInsideContinuousMappingSpace)  are interpreted as [[moduli spaces]] of [[D1-brane]]-[[instantons]] in the [[twistor space]] [[complex projective 3-space|$\mathbb{C}P^3$]] ([Witten 2004, Sec. 3](twistor+string+theory#Witten04)).
 
-Such rational maps are also argued to encode [[scattering amplitudes]] in [[D=4 N=8 supergravity]] ([Cachazo & Skinner 2012](twistor+string+theory#CachazoSkinner12))
+Such rational maps are also argued to encode [[scattering amplitudes]] in [[D=4 N=8 supergravity]] ([Cachazo & Skinner 2012](twistor+string+theory#CachazoSkinner12)).
 
 Here the number of poles in the rational function  is the number $n$ of particles in the [[n-point function]], and the genus and degree encode the particle's [[helicity]] and the [[loop order]] of the [[scattering amplitude]].
 \end{remark}
