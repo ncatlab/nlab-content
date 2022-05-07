@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In [[mathematics]], one often has an [[equivalence of categories]]
@@ -95,3 +115,16 @@ Thus, we recovered the entire content of the classical [[spectral theorem]].
 
 In fact, the above considerations work equally well to establish the [[spectral theorem]]
 for an arbitrary family (not necessarily finite) of commuting normal operators.
+
+## Related entries
+
+* [[Isbell duality]]
+
+[[!redirects dualities between algebra and geometry]]
+
+[[!redirects duality between geometry and algebra]]
+[[!redirects dualities between geometry and algebra]]
+
+
+
+
