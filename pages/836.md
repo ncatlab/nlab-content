@@ -46,6 +46,8 @@ Just as the motivating example of a $2$-category is the $2$-category [[Cat]] of 
 
 ## Related concepts
 
+* [[dagger 2-poset]]
+
 * [[n-poset]]
 
   * [[poset]]
