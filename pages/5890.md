@@ -34,14 +34,24 @@ The original paper of Kuiper proved this group to be contractible in the
 
 Note that on $U(\mathcal{H})$ the strong operator topology coincides with the [[compact open topology]] ([Schottenloher](#Schottenloher)), and with these topologies $U(\mathcal{H})$ is a topological group (the same is not true for $GL(\mathcal{H})$). In fact more is true: the compact open, strong and weak topologies *and* their $\ast$-counterparts all agree on $U(\mathcal{H})$, which in this topology is a [[Polish space|Polish]] group ([Espinoza-Uribe](#EspinozaUribe)).
 
+
+## Related statements
+
+* [[the infinite-dimensional sphere is weakly contractible]]
+
+
 ## References 
 
-* [Wikipedia article on Kuiper's theorem](http://en.wikipedia.org/wiki/Kuiper%27s_theorem) 
 
 * {#Schottenloher} Martin Schottenloher, _The Unitary Group In Its Strong Topology_, [web](http://www.mathematik.uni-muenchen.de/~schotten/bas/unitary%201.1.pdf)
 
 * {#EspinozaUribe} Jesus Espinoza, Bernardo Uribe, _Topological properties of the unitary group_, JP Journal of Geometry and Topology
 **16** (2014) Issue 1, pp 45-55. [journal](http://www.pphmj.com/abstract/8730.htm), arXiv:[1407.1869](https://arxiv.org/abs/1407.1869v1)
+
+See also: 
+
+* Wikipedia, _[Kuiper's theorem](http://en.wikipedia.org/wiki/Kuiper%27s_theorem)_
+
 
 [[!redirects Kuiper theorem]]
 
