@@ -18,19 +18,19 @@
 #Contents#
 * table of contents
 {:toc}
-La
+
 ## Idea
+
+### General
 
 _Quantum computation_ is [[computation]] in terms of [[quantum information theory]], possibly implemented on _quantum computers_, hence on [[physical systems]] for which phenomena of [[quantum mechanics]] are not negligible. In terms of [[computational trinitarianism]] quantum computation is the computation corresponding to (some kind of) [[quantum logic]].
 
 Specifically, _[[topological quantum computation]]_ is (or is meant to be) quantum computation implemented on [[physical systems]] governed by [[topological quantum field theory]], such as [[Chern-Simons theory]]. A prominent example of this is the (fractional) [[quantum Hall effect]] in [[solid state physics]].
 
-There are arguments that a good formal context for quantum computing is (via [[computational trinitarianism]]) [[linear logic]]/[[linear type theory]] (e.g. [Lago-Faffian 12](#LagoFaffian12)). See also at _[[quantum logic]]_.
+### Classical control, quantum data
+ {#ClassicalControlQuantumData}
 
-\linebreak
-
-Any practical quantum computer will be *classically controlled* ([Knill 96](#Knill96), [Ömer 03](#Omer03), [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07)):
-
+Any practical quantum computer will be *classically controlled* ([Knill 96](#Knill96), [Ömer 03](#Omer03), [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07), [Devitt 14](#Devitt14)):
 
 \begin{imagefromfile}
     "file_name": "ClassicallyControlledQuantumComputation.jpg",
@@ -44,6 +44,8 @@ Any practical quantum computer will be *classically controlled* ([Knill 96](#Kni
     },
     "caption": "From [Miszczak 11](#Miszczak11)"
 \end{imagefromfile}
+
+\linebreak
 
 \begin{imagefromfile}
     "file_name": "SQRAMPrinciple.jpg",
@@ -59,6 +61,19 @@ Any practical quantum computer will be *classically controlled* ([Knill 96](#Kni
 \end{imagefromfile}
 
 
+### Quantum languages and quantum circuits
+
+A natural way (via [[computational trinitarianism]]) to understand [[quantum programming languages]] is as  [[linear logic]]/[[linear type theory]] ([Pratt 92](#Pratt92), for more see at *[[quantum logic]]*) with [[categorical semantics]] in non-[[Cartesian monoidal category|cartesian]] [[symmetric monoidal categories]] ([Abramsky & Coecke 04](#AbramskyCoecke04), [Abramsky & Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06), [Lago-Faffian 12](#LagoFaffian12)).  .
+
+The corresponding [[string diagrams]] are known as *[[quantum circuit diagrams]]*.
+
+In fact, languages for [classically controlled quantum computation](#ClassicalControlQuantumData)  should be based on [[dependent linear type theory]] ([Vakar 14](dependent+linear+type+theory#Vakar14), [Vakar 15](dependent+linear+type+theory#Vakar15), [Vakar 17, Sec. 3](dependent+linear+type+theory#Vakar17), [Lundfall 17](dependent+linear+type+theory#Lundfall17), [Lundfall 18](dependent+linear+type+theory#Lundfall18), following [Schreiber 14](dependent+linear+type+theory#Schreiber14)) with [[categorical semantics]] in [[indexed monoidal categories]]:
+
+| classical control | quantum data | 
+|-------------------|--------------|
+| [[intuitionistic type theory|intuitionistic types]] | [[dependent linear type theory|dependent linear types]]
+
+This idea of classically controlled quantum programming via dependent linear typpe theory has been implemented for the *[[Quipper]]* language in [FKS 20](#FKS20), [FKRS 20](#FKRS20).
 
 
 
@@ -144,6 +159,8 @@ Introduction and survey:
 
 * {#Miszczak11} [[Jarosław Adam Miszczak]], *Models of quantum computation and quantum programming languages*, Bull. Pol. Acad. Sci.-Tech. Sci., Vol. 59, No. 3 (2011), pp. 305-324 ([arXiv:1012.6035](https://arxiv.org/abs/1012.6035))
 
+* {#Devitt14} [[Simon J. Devitt]], *Classical Control of Large-Scale Quantum Computers*, In: S. Yamashita, S. Minato  (eds.) *Reversible Computation* Lecture Notes in Computer Science, vol 8507. Springer 2014 ([arXiv:1405.4943](https://arxiv.org/abs/1405.4943), [doi:10.1007/978-3-319-08494-7_3](https://doi.org/10.1007/978-3-319-08494-7_3))
+
 
 
 ### Quantum programming via monads
@@ -214,6 +231,7 @@ Relation to [[tensor networks]], specifically [[matrix product states]]:
 
 category: computer science, physics
 
+
 [[!redirects quantum computing]]
 [[!redirects quantum computations]]
 
@@ -221,5 +239,9 @@ category: computer science, physics
 [[!redirects quantum computers]]
 
 
-
 [[!redirects QML]]
+
+[[!redirects classically controlled quantum computation]]
+
+
+
