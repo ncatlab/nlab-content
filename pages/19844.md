@@ -318,7 +318,22 @@ Indeed, [[leptoquark]] models preferred by the flavour anomalies (see [below](#L
 
 Some authors therefore begin to speak jointly of _muon anomalies_ ([GST 21](#GST21)).
 
+{#KoppenburgListOfAnomalies} Here is a list of experiments, all somehow related to [[muons]], which see deviations (shown in blue) from the theoretical expectation (shown in orange):
 
+\begin{imagefromfile}
+  "file_name": "KoppenburgFlavourAnomaliesApril2021.jpg",
+  "width": 600,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "from [Koppenburg Scholarp.](#KoppenburgScholarpedia)" 
+\end{imagefromfile}
+
+(This is as of April 2021, see [here](http://www.scholarpedia.org/article/Rare_decays_of_b_hadrons#Prospects) for the source text with more details.).
 
 
 \linebreak
@@ -406,7 +421,7 @@ Early suggestion to look at the $R_K$ channel at [[LHCb]] are due to:
 
 General introduction to the issue in [[B-meson]] decays:
 
-* [[Patrick Koppenburg]], [[Zdenek Dolezal]], [[Maria Smizanska]], _Rare decays of b hadrons_, Scholarpedia, 11(6):32643 ([doi:10.4249/scholarpedia.32643](http://dx.doi.org/10.4249/scholarpedia.32643))
+* {#KoppenburgScholarpedia} [[Patrick Koppenburg]], [[Zdenek Dolezal]], [[Maria Smizanska]], _Rare decays of b hadrons_, Scholarpedia, 11(6):32643 ([doi:10.4249/scholarpedia.32643](http://dx.doi.org/10.4249/scholarpedia.32643))
 
 * Simone Bifani, Sebastien Descotes-Genon, Antonio Romero Vidal, Marie-Helene Schune, _Review of Lepton Universality tests in B decays_, Journal of Physics G: Nuclear and Particle Physics, Volume 46, Number 2 (2018) ([arXiv:1809.06229](https://arxiv.org/abs/1809.06229))
 
@@ -1025,7 +1040,6 @@ Exotic [[Higgs field]] couplings to a [[hidden sector]]:
 Unparticles:
 
 * Jong-Phil Lee, _B anomalies with unparticles_ ([arXiv:2012.11852](https://arxiv.org/abs/2012.11852))
-
 
 
 
