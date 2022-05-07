@@ -25,13 +25,15 @@ As a [[Riemannian manifold]], a **hyperbolic plane** is a [[complete space|compl
 
 ## Properties
 
-The intrinsic geometry of a hyperbolic plane is completely determined by its curvature; any two hyperbolic planes are related by a [[conformal transformation]], and a self-conformality of a hyperbolic plane is necessarily an isometry.  
+The intrinsic geometry of a hyperbolic plane is completely determined by its curvature; any two hyperbolic planes are related by a [[conformal transformation]], and a self-conformality of a hyperbolic plane is necessarily an [[isometry]].  
 
 Hyperbolic planes are also [[homogeneous spaces]]: there is a unique oriented [[isometry]] relating any two [[geodesic]] rays.
 
 The [[incidence geometry]] of geodesics and points in the hyperbolic plane is equivalent to that of an open circular disc in the Euclidean plane (and several other obviously-equivalent things) &#8212; this is the Beltrami disc model.
 
 ## Related concepts
+
+* [[hyperbolic tesselation]]
 
 * [[hyperbolic 3-space]]
 
