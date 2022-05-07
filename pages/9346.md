@@ -170,7 +170,7 @@ Then there are two possible standpoints, and they account for the controversy:
 
 1. If however you feel more generally theoretically inclined, say because you are a theoretical physicist wondering about the possibilities of [[quantum field theory]] in general, or if you are even a mathematician, happy to handle theories that are not supposed  have direct relation to [[experiment]], then the situation may be very different. 
 
-String theory might be right as an assumption about the fundamental nature of the observable universe, and might at the same time still be entirely useless for experimentally based particle physics in the present age. In that case, if you are interest in experimental particle physics you should not expect much help in your lifetime. But if you are a theoretical physicist or a mathematician interested in broader conceptual questions, then it may be unwise to ignore the theory.
+String theory might be right as an assumption about the fundamental nature of the observable universe, and might at the same time still be entirely useless for experimentally based particle physics in the present age. In that case, if you are interested in experimental particle physics you should not expect much help in your lifetime. But if you are a theoretical physicist or a mathematician interested in broader conceptual questions, then it may be unwise to ignore the theory.
 
 
 
