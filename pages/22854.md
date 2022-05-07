@@ -31,6 +31,8 @@ A *simplicial abelian group* is
 
 * [[Eilenberg-Zilber theorem]]
 
+* [[model structure on simplicial abelian groups]]
+
 ## Related concepts
 
 * [[Moore complex]]
