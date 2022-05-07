@@ -1215,6 +1215,56 @@ Every [[adjunction]] $(L \dashv R)$ induces a [[monad]] $R \circ L$ and a [[como
 Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adjunctions]] constitutes itself an [[adjunction]] between adjunctions and monads, called the _[[semantics-structure adjunction]]_.
 
 
+### Opposite adjoint functors
+
+Given a pair of [[adjoint functors]]
+
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  \mathcal{C}
+$$
+
+there is induced an *[[opposite adjunction]]* of [[opposite functors]]  between their [[opposite categories]] of the form
+
+$$
+  \mathcal{D}^{op}
+    \underoverset
+      {\underset{L^{op}}{\longrightarrow}}
+      {\overset{R^{op}}{\longleftarrow}}
+      {\;\;\;\;\bot\;\;\;\;}
+  \mathcal{C}^{op}
+  \,.
+$$
+
+Hence where $L$ was the [[left adjoint]], its [[opposite functor|opposite]] becomes the [[right adjoint]], and dually for $R$.
+
+This is immediate from the definition of [[opposite categories]] and the characterization of adjoint functors via the corresponding [hom-isomorphism](#InTermsOfHomIsomorphism).
+
+The [[adjunction unit]] of the opposite adjunction has as components the components of the original [[adjunction counit]], regarded in the opposite category, and dually:
+
+$$
+  \epsilon^{R^{op} C^{op}}_{d}
+  \;\colon\;
+  R^{op}\circ L^{op}(d)
+  \xrightarrow{\;\;  \big( \eta^{R L}_d \big)^{op}  \;\;}
+  d
+  \,,
+  {\phantom{AAAAAA}}
+  \eta^{L^{op} R^{op}}_{c}
+  \;\colon\;
+  c
+  \xrightarrow{\;\;  \big( \epsilon^{L R}_c \big)^{op}  \;\;}
+  L^{op} \circ R^{op}(c)
+  \,.
+$$
+
+
+
+
 
 
 [[!include sliced adjoint functors -- section]]
