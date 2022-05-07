@@ -49,6 +49,10 @@ On the argument that after embedding into consistent [[quantum gravity]], all [[
 
 * [[Daniel Harlow]], [[Hirosi Ooguri]], _Constraints on symmetry from holography_, Phys. Rev. Lett. 122, 191601 (2019) ([arXiv:1810.05337](https://arxiv.org/abs/1810.05337))
 
+On the [[swampland cobordism conjecture]]:
+
+* [[Hirosi Ooguri]], [[Tadashi Takayanagi]], _Cobordism Conjecture in AdS_ ([arXiv:2006.13953](https://arxiv.org/abs/2006.13953))
+
 
 
 ## related $n$Lab entries
