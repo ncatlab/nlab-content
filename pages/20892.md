@@ -2,7 +2,7 @@
 ### Chord diagrams and weight systems in Physics
  {#ReferencesWeightSystemsOnChordDiagramsInPhysics}
 
-We discuss occurrences of ([[weight systems]] on) [[chord diagrams]]/[[Jacobi diagrams]] in [[physics]]:
+The following is a list of references that involve ([[weight systems]] on) [[chord diagrams]]/[[Jacobi diagrams]] in [[physics]]:
 
 1. [In Chern-Simons theory](#ReferencesWeightSystemsInChernSimonsTheory)
 
@@ -14,7 +14,7 @@ We discuss occurrences of ([[weight systems]] on) [[chord diagrams]]/[[Jacobi di
 
    1. [As dimer/bit thread codes for holographic entanglement entropy](#ForHolographicEntanglementEntropy)
 
-For a unifying perspective and further pointers see
+For a unifying perspective and further pointers see:
 
 * {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]* ([arXiv:1912.10425](https://arxiv.org/abs/1912.10425))
 
