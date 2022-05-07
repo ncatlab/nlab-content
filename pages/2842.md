@@ -25,6 +25,7 @@ In [[algebraic topology]] and [[homotopy theory]],
 
 Specifically, a [[continuous function]] is a _Hurewicz cofibration_ ([Strøm 1966](#Strom66)) if it satisfies the [[homotopy extension property]] for all target spaces and with respect to the standard notion of [[left homotopy]] of topological spaces given by the standard topological [[interval object]]/[[cylinder object]].
 
+A [[pointed topological space]] $(X,x)$ for which the base-point inclusion $\{x\} \xhookrightarrow{\;} X$ is a Hurewicz cofibration is called a *[[well-pointed topological space]]*. A [[simplicial topological space]] all whose degeneracy maps are Hurewicz cofibrations is called a *[[good simplicial topological space]]*.
 
 In [[point-set topology]] Hurewicz cofibrations are often just called _cofibrations_,for short. If their [[image]] is a [[closed subspace]] they are called _[[closed cofibrations]]_. 
 
@@ -35,7 +36,6 @@ In fact, the notion of [[homotopy extension property]] makes sense in any [[cate
 
 ## Definition
  {#Definition}
-
 
 
 
@@ -469,6 +469,7 @@ The [[product]] of two closed cofibrations is a closed cofibration.
 =--
 
 ## Examples
+ {#Examples}
 
 ### Relative cell complex inclusions
 
@@ -540,9 +541,26 @@ It is immediate to see that this data satisfies the conditions discussed in Prop
 Therefore the statement follows with Prop. \ref{ClosedInclusionIntoANRIsANRIffhCofibration}.
 \end{proof}
 
+### Further examples
+
+\begin{example}\label{PointInclusionIntoPUH}
+**(point inclusion into [[PU(ℋ)]])**
+\linebreak
+  The [[projective unitary group]] [[PU(ℋ)]] on an infinite-dimensional [[separable Hilbert space|separable]] [[Hilbert space]] is 
+
+* a [[Banach Lie group]] in its [[norm topology]], and as such [[well-pointed topological group|well-pointed]] by Prop. \ref{ClosedSubmanifoldsOfParacompactBanachManifoldsArehCof};
+
+* no longer a Banach space in its weak/strong [[operator topology]], but nevertheless still [[well-pointed topological group|well-pointed]] in this case, by [this Prop.](projective+unitary+group+on+a+Hilbert+space#WellPointedInOperatorTopology).
+
+\end{example}
+
+
 
 
 ## References
+
+
+
 
 Named after *[[Witold Hurewicz]]*.
 
