@@ -288,6 +288,8 @@ The adjunction (eq:AdjunctionBetweenHFixedPointsAndNHExtension) factors as:
 
 Here the functor on the top right, $N(H)/H \times_{N(H)/H} (-)$, is the identity on the underlying topological spaces, but extends the action from $N(H)/H$ to $N(H)$, namely through the projection homomorphims $N(H) \to N(H)/H$.
 
+For more on this see at _[Topological G-space -- Change of equivariance groups and fixed loci](topological+G-space#ChangeOfGroupsAndFixedLoci)_.
+
 \end{remark}
 
 \linebreak
