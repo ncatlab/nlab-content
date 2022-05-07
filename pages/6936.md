@@ -120,18 +120,23 @@ The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[h
 
 This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
 
-One could also define a quotient of a [[two-valued type|boolean]]-valued equivalence relation:
-
-    Inductive quotient (A : Type) (R : A -> A -> boolean) : Type :=
-    | proj : A -> quotient A R
-    | relate : forall (x y : A), (R x y == true) -> proj x == proj y
-    | contr1 : forall (x y : quotient A R) (p q : x == y), p == q.
-
 ### Rezk completion
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Rezk completion]] or [[stack completion]] of a [[pregroupoid]] to a [[groupoid]] is a higher inductive type and the [[1-truncated]] analogue of the quotient set construction above. 
 
 ... (translate into Agda)
+
+### Integers
+
+A definition of the set of [[integers]] as a higher inductive type. 
+
+    Inductive int : Type :=
+    | zero : int
+    | succ : int -> int
+    | pred1 : int -> int
+    | pred2 : int -> int
+    | sec : forall (x : int) pred1 succ x == x
+    | ret : forall (x : int) succ pred2 x == x
 
 ### Localization
 
