@@ -70,6 +70,9 @@ A **groupoid object in** $C$ is an [[internal category]] $A$ such that there is 
 
 ## References
 
+For more references see also at *[[internal category]]* and *[[internalization]]*. 
+
+
 The general definition of internal categories seems to have first been formulated in:
 
 * {#Grothendieck61} [[Alexander Grothendieck]], p. 106 (9 of 21) of: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), [English transl. pdf](https://labs.thosgood.com/builds/fga-3-III.pdf))
@@ -88,7 +91,11 @@ and their understanding as categories internal to [[TopologicalSpaces]] and to [
 
 but it seems that the definition is not actually contained in there, certainly not in its simple and widely understood form due to [Grothendieck 61](#Grothendieck61).
 
-For more references see at *[[internal category]]* and *[[internalization]]*. 
+Discussion of [[cartesian closed 2-categories]] of [[internal groupoids]] (mostly in [[Top]], hence for [[topological groupoids]]):
+
+* [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
+
+
 
 [[!redirects groupoid objects]]
 
