@@ -413,6 +413,9 @@ Discussion of the [[spectral triple|spectral]] [[Riemannian geometry]] of the [[
 
 * [[Francesco D'Andrea]], [[Fedele Lizzi]], [[Joseph Várilly]], _Metric Properties of the Fuzzy Sphere_, Lett. Math. Phys.103 (2013), 183-205 ([arXiv:1209.0108](https://arxiv.org/abs/1209.0108))
 
+* Anwesha Chakraborty, Partha Nandi, Biswajit Chakraborty, *A note on spectral triple with real structure on fuzzy sphere* ([arXiv:2111.03012](https://arxiv.org/abs/2111.03012))
+
+
 In the context of the [[IKKT matrix model]]:
 
 
