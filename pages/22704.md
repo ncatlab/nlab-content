@@ -68,6 +68,8 @@ in $Q$ has morphisms $d:a\to b$ and $e:b \to a$ such that $g \circ d = f$ and $f
 
 * A loopoid with only one object is called a [[loop]]. 
 
+* A loopoid [[enriched magmoid|enriched]] on [[truth values]] is an [[equivalence relation]]. 
+
 ## Related concepts
 
 [[!include oidification - table]]
