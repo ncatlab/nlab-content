@@ -443,7 +443,10 @@ Introductions and surveys include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5 of  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+
 * [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _Stable homotopy groups of spheres_, PNAS October 6, 2020 117 (40) 24757-2476 ([arXiv:2001.04247](https://arxiv.org/abs/2001.04247), [doi:10.1073/pnas.2012335117](https://doi.org/10.1073/pnas.2012335117))
+
+* [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _More stable stems_ ([arXiv:2001.04511](https://arxiv.org/abs/2001.04511))
 
 
 A tabulation of stable homotopy groups of spheres is in 
