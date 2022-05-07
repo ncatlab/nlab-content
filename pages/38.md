@@ -20,8 +20,7 @@ __Lie theory__ (wikipedia: [Lie theory](http://en.wikipedia.org/wiki/Lie_theory)
 cousins ([[Chevalley group]]s, [[quantum group]]s, Banach Lie groups, [[Lie bialgebra]]s, [[universal enveloping algebra]]s)
 and categorifications (higher Lie groups, $L_\infty$-[[L-infinity-algebra|algebras]] etc.), including horizontal: [[Lie groupoid]], [[Lie algebroid]], $L_\infty$-[[L-infinity-algebroid|algebroid]]. 
 
-[[Lie group]] is a [[group|groups]] [[internalization|internal to]] [[Diff]]. The [[Lie algebras]] over real or complex numbers appear 
-as the linearization of real or complex Lie groups; the infinitesimal version of Lie groups are [[local Lie group]]s. The relation between real Lie algebras and real Lie groups was established by [[Lie's three theorems]] and the study of this correspondence is the classical Lie theory in narrow sense. 
+[[Lie group]] is a [[group|groups]] [[internalization|internal to]] [[Diff]]. The [[Lie algebras]] over real or complex numbers appear as the linearization of real or complex Lie groups; the infinitesimal version of Lie groups are [[local Lie group]]s. The relation between real Lie algebras and real Lie groups was established by [[Lie's three theorems]] and the study of this correspondence is the classical Lie theory in narrow sense. 
 
 In a categorical context there are the usual two generalization of Lie groups: the [[horizontal categorification]] -- or oidification -- which adds _more objects_ and leads to _Lie groupoids_; and the [[vertical categorification]] which adds _higher morphisms_ and leads to $\infty$-Lie groups and $\infty$-Lie groupoids. This is described below.
 
