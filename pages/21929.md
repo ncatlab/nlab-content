@@ -64,7 +64,7 @@ The concept is due to
 Further discussion in:
 
 
-* Hanno von Bodecker, _On the geometry of the f-invariant_, ([arXiv:0808.0428](https://arxiv.org/abs/0808.0428))
+* Hanno von Bodecker, _On the geometry of the f-invariant_ ([arXiv:0808.0428](https://arxiv.org/abs/0808.0428))
 
 * [[Mark Behrens]], Gerd Laures, _$\beta$-family congruences and the f-invariant_ ([arXiv:0809.1125](https://arxiv.org/abs/0809.1125))
 
