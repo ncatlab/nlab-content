@@ -2559,6 +2559,11 @@ see also
 
 * [[Daniel Grady]], [[Dmitri Pavlov]], _Extended field theories are local_ ([arXiv:2011.01208](https://arxiv.org/abs/2011.01208))
 
+Claim of classification of geometric FQFTs (including [[conformal field theory]] etc.) via a geometric [[cobordism hypothesis]]:
+
+* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
+
+
 For the case of one-dimensional smooth field theories, see
 
 * [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_,
