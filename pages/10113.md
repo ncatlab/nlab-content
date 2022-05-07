@@ -146,7 +146,9 @@ Computation of the [[mass]] of hadrons using [[lattice QCD]] (see also _[[confin
 * S. Aoki et. al. _Review of lattice results concerning low-energy particle physics_ ([arXiv:1607.00299](https://arxiv.org/abs/1607.00299))
 
 ### In Witten-Sakai-Sugimoto model for AdS-QCD
+ {#ReferencesInWSSModel}
 
+QCD hadrons realized in the [[Witten-Sakai-Sugimoto model]] of [[holographic QCD]]:
 
 * {#Witten98b} [[Edward Witten]], _Baryons And Branes In Anti de Sitter Space_, JHEP 9807:006, 1998 ([arXiv:hep-th/9805112](https://arxiv.org/abs/hep-th/9805112))
 
@@ -163,8 +165,9 @@ Review
 
 * {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
 
-
 * {#Sugimoto16} [[Shigeki Sugimoto]], _Skyrmion and String theory_, chapter 15 in [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+
+* Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons* ([arXiv:2106.13136](https://arxiv.org/abs/2106.13136))
 
 
 
