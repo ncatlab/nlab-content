@@ -113,11 +113,11 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #FreeAbelianGroupIsGroupOfFormalLinearCombinations}
 ###### Proposition
 
 The free abelian group on $S \in Set$ is, up to [[isomorphism]], the 
-group of formal linear combinations, def. \ref{GroupOfFormalLinearCombinations}, on $S$.
+group of [[formal linear combinations]], def. \ref{GroupOfFormalLinearCombinations}, of elements of $S$.
 
 =--
 
@@ -134,6 +134,24 @@ $$
 
 =--
 
+### Basic properties
+
+\begin{proposition}\label{FreeAbelianGroupFunctorSendsProductsToTensorProducts}
+  The free abelian group of a [[Cartesian product]]
+  $S \times Z$ of [[sets]] $S, T \,\in\, Sets$
+  is [[natural isomorphism|naturally isomorphic]] to 
+  the [[tensor product of abelian groups|tensor product]]
+  of the free abelian groups of the factors:
+  $$
+    \mathbb{Z}[S \times T]
+    \;\simeq\;
+    \mathbb{Z}[S] \otimes \mathbb{Z}[T]
+    \,.
+  $$
+\end{proposition}
+This follows, for instance, from the above expression (Prop. \ref{FreeAbelianGroupIsGroupOfFormalLinearCombinations}) of free abelian groups as groups of formal linear combinations.
+
+
 ### Subgroups
  {#Subgroups}
 
@@ -146,10 +164,10 @@ Assuming the [[axiom of choice]], then every [[subgroup]] of a free abelian grou
 
 (e.g. [Lang 02, Appendix 2 &#167;2, page 880](#Lang02)) For a full **proof** see at _[[principal ideal domain]]_ [this theorem](principal+ideal+domain#free).
 
-+-- {: .num_remrk}
++-- {: .num_remark}
 ###### Remark
 
-Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming AC) every abelian group admits a [[free resolution]] of length 2, hence with trivial [[syzygies]]. See [there](free+resolution#AbelianGroupHasFreeResolutionOfLength2).
+Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming [[axiom of choice|AC]]) every abelian group admits a [[free resolution]] of length 2, hence with trivial [[syzygies]]. See [there](free+resolution#AbelianGroupHasFreeResolutionOfLength2).
 
 =--
 
@@ -173,6 +191,8 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming AC) every
 * [[free simplicial abelian group]]
 
 ## References
+
+Textbook accounts:
 
 * {#Lang02} [[Serge Lang]], _Algebra_, Graduate Texts in Mathematics 211 (Revised third ed.), Springer. 2002
 
