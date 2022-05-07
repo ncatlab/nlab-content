@@ -46,9 +46,17 @@ Standard inductive types, [[W-types]] can be interpreted in any topos with [[nat
 [Indexed containers](#AGHMM) are claimed to form a foundation for inductive families.
 
 ## Higher categorical version/ homotopy type theory
+
 [van den Berg and Moerdijk](#vdBergMoerdijk13) show that (standard) W-types can be interpreted in certain [[model categories]].
-In [[homotopy type theory]] with [[universes]], one can reduce indexed W-types to W-types. This has been formalized [here](https://github.com/pcapriotti/agda-base/blob/master/src/container/w/core.agda), [here](https://github.com/SkySkimmer/HoTTClasses/blob/inductives/theories/theory/inductives.v) and [here](https://github.com/jashug/IWTypes).
+
+## Reduction to ordinary W-types
+
+In [[homotopy type theory]] with [[universes]], one can reduce indexed W-types to W-types. This has been formalized [here](https://github.com/pcapriotti/agda-base/blob/master/src/container/w/core.agda), [here](https://github.com/SkySkimmer/HoTTClasses/blob/inductives/theories/theory/inductives.v) and [here](#Hugunin).
 [Sattler](#Sattler) outlines a generalization of the reduction to [[homotopy type theory]] without the need of universes.
+
+## Identity types
+
+The identity types of an indexed W-type are another indexed W-type.  This has been formalized by [Huginin](#Huginin).
 
 ## References {#References} 
 * Per Martin-L&#246;f, _Hauptsatz for the intuitionistic theory of iterated inductive definitions_, 1971, Studies in Logic and the Foundations of Mathematics - Elsevier
@@ -67,7 +75,12 @@ Proof Theory in Computer Science, 93-113
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765)) {#vdBergMoerdijk13}
 * {#Sattler} Christian Sattler, _slides_ [slides](http://cs.ioc.ee/types15/slides/sattler-slides.pdf)
 
+* {#Hugunin} Jasper Hugunin, _IWTypes_, <https://github.com/jashug/IWTypes>
+
+
 [[!redirects inductive families]]
 [[!redirects indexed inductive definition]]
 [[!redirects indexed inductive type]]
 [[!redirects indexed inductive types]]
+[[!redirects indexed W-type]]
+[[!redirects indexed W-types]]
