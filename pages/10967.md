@@ -49,6 +49,7 @@ From this perspective one gets a more interesting statement if one turns this ar
 
 * [[interpretation of quantum mechanics]]
 
+* [[quantum cryptograpgy]]
 
 ## References
 
@@ -65,6 +66,11 @@ General reviews include
 Discussion from the point of view of [[monoidal category]]-theory ([[finite quantum mechanics in terms of dagger-compact categories]]) includes
 
 * {#Abramsky09} [[Samson Abramsky]], _No-Cloning in categorical quantum mechanics_, (2008) in I. Mackie and S. Gay (eds), _Semantic Techniques for Quantum Computation_ , Cambridge University Press ([arXiv:0910.2401](http://arxiv.org/abs/0910.2401))
+
+The original suggestion to use the no-cloning theorem for [[quantum cryptography]]:
+
+* [[Stephen Wiesner]], *Conjugate Coding* circulated in the 1960s, finally published in ACM SIGACT News **15** 1 (1083) 78–88 ([original pdf](http://users.cms.caltech.edu/~vidick/teaching/120_qcrypto/wiesner.pdf), [doi:10.1145/1008908.1008920](https://doi.org/10.1145/1008908.1008920))
+
 
 [[!redirects non-broadcasting theorem]]
 [[!redirects no-deleting theorem]]
