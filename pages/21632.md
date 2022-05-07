@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _twistor fibration_ $\mathbb{C}P^3 \to S^4$ ([Atiyah 79, Sec. III.1](#Atiyah79), see also [Bryant 82](#Bryant82), [ArmstrongSalamon14](#ArmstrongSalamon14), [ABS 19](#ABS19)), also called, in its [[coset space]]-version $SO(5)/U(2) \to SO(5)/SO(4)$, the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03) for this usage, see [Nordstrom 08, Lemma 2.31](#Nordstrom08) for review of Calabi's construction [Calabi 67](#Calabi67), [Calabi 68](#Calabi68)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
+The _twistor fibration_ $\mathbb{C}P^3 \to S^4$ ([Atyiah-Hitchin-Singer 78, Ex. 2 on p. 438](#AtyiahHitchinSinger78), [Atiyah 79, Sec. III.1](#Atiyah79), see also [Bryant 82](#Bryant82), [ArmstrongSalamon14](#ArmstrongSalamon14), [ABS 19](#ABS19)), also called, in its [[coset space]]-version $SO(5)/U(2) \to SO(5)/SO(4)$, the _Calabi-Penrose fibration_ (apparently starting with [Lawson 85, Sec. 3](#Lawson85), see also, e.g., [Loo 89](#Loo89), [Seade-Verjovsky 03, 3](#SeadeVerjovsky03) for this usage, see [Nordstrom 08, Lemma 2.31](#Nordstrom08) for review of Calabi's construction [Calabi 67](#Calabi67), [Calabi 68](#Calabi68)) is a [[fiber bundle]]-structure on [[complex projective 3-space]] over the [[4-sphere]] with [[2-sphere]] ([[Riemann sphere]]) [[fibers]]:
 
 $$
   \array{
@@ -76,6 +76,8 @@ There are generalizations of this picture for each of the so-called 'inner' [[sy
 
 * {#Calabi68} [[Eugenio Calabi]], _Quelques applications de l’analyse complexe aux surfaces d’aire minima_, Topics in Complex Manifolds (Ed. H. Rossi), Les Presses de l’Universit ́e de Montr ́eal (1968), 59-81 ([naid:10006413960](https://ci.nii.ac.jp/naid/10006413960))
 
+* {#AtyiahHitchinSinger78} [[Michael Atiyah]], [[Nigel Hitchin]], [[Isadore Singer]], Example 2 on p. 438 in: _Self-Duality in Four-Dimensional Riemannian Geometry_, Proceedings of the Royal Society of London. Series A, Mathematical and Physical Sciences Vol. 362, No. 1711 (Sep. 12, 1978), pp. 425-461 (37 pages) ([jstor:79638](https://www.jstor.org/stable/79638), [doi:10.1098/rspa.1978.0143](https://doi.org/10.1098/rspa.1978.0143))
+
 * {#Atiyah79} [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867), [pdf](https://pdfs.semanticscholar.org/b523/d376f11a531fa5a4692401902a17ee18861f.pdf))
 
 * {#Bryant82} [[Robert Bryant]], Section 1 of: _Conformal and minimal immersions of compact surfaces into the 4-sphere_, J. Differential Geom. Volume 17, Number 3 (1982), 455-473 ([euclid:jdg/1214437137](https://projecteuclid.org/euclid.jdg/1214437137))
@@ -117,8 +119,9 @@ Over $\mathbb{H}P^3$:
 
 * {#LooVerjovsky94} [[Bonaventure Loo]], [[Alberto Verjovsky]], _On quotients of Hopf fibrations_, in: Rendiconti dell’Istituto di Matematica dell’Università di Trieste. An International Journal of Mathematics, 26 (1994), pp. 103-108 ([hdl:10077/4637](	http://hdl.handle.net/10077/4637), [pdf](https://www.openstarts.units.it/bitstream/10077/4637/1/LooVerjovskyRendMat26.pdf))
 
+[[!redirects twistor fibrations]]
 
+
+[[!redirects Calabi-Penrose fibration]]
 [[!redirects Calabi-Penrose fibrations]]
 
-[[!redirects twistor fibration]]
-[[!redirects twistor fibrations]]
