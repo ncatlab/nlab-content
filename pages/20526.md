@@ -96,8 +96,10 @@ But some of these statements have been interpreted in special cases as more prec
 ### No global symmetries conjecture
 
 \begin{conjecture}
-A theory with a finite number of states coupled to [[gravity]] has no global symmetries, which means that they are either broken or gauged. This includes global $p$-form symmetries as well as global discrete symmetries. 
+A theory coupled to [[gravity]] must have no global symmetries, which means that they are either broken or gauged. 
 \end{conjecture}
+
+This includes global $p$-form symmetries as well as global discrete symmetries. 
 
 ### Completeness hypothesis
 
