@@ -52,7 +52,7 @@ Write
   Maps^{\ast/}\big( S^2, S^2 \big)
 \]
 
-for the [[space of maps|space of]] [[pointed topological space|pointed]] [[rational functions]] from the [[Riemann sphere]] to itself, of [[degree of a continuous function|degree]] $k \in \mathbb{N}$, inside the full [[Cohomotopy]] [[cocycle space]]. The [[homotopy type]] of $R_k$ is discussed in [Segal 79](#Segal79).
+for the [[space of maps|space of]] [[pointed topological space|pointed]] [[rational functions]] from the [[Riemann sphere]] to itself, of [[degree of a continuous function|degree]] $k \in \mathbb{N}$, inside the full [[Cohomotopy]] [[cocycle space]]. The [[homotopy type]] of this mapping space is discussed in [Segal 79](#Segal79), see *[[homotopy of rational maps]]*.
 
 To each configuration $ c \in \mathcal{M}_k$ of $k \in \mathbb{N}$ magnetic monopoles is associated a [[scattering amplitude]] 
 
@@ -122,9 +122,10 @@ $$
 
 =--
 
-([Segal 79, Prop. 1.1](#Segal79))
+([Segal 79, Prop. 1.1](#Segal79), see at *[[homotopy of rational maps]]*)
 
-Hence, Prop. \ref{ModuliSpaceOfKMonopolesIsSpaceOfComplexRationalFunctions} and Prop. \ref{SpaceOfComplexRationalMapsOnRiemannSpherekEquivalentToCohomotopyCocycleSpace} together say that the moduli space of $k$-monopoles is $k$-equivalent to the Cohomotopy cocycle space $\mathbf{\pi}^2\big( S^2 \big)_k$.
+Hence, Prop. \ref{ModuliSpaceOfKMonopolesIsSpaceOfComplexRationalFunctions} and 
+Prop. \ref{SpaceOfComplexRationalMapsOnRiemannSpherekEquivalentToCohomotopyCocycleSpace} together say that the moduli space of $k$-monopoles is $k$-equivalent to the Cohomotopy cocycle space $\mathbf{\pi}^2\big( S^2 \big)_k$.
 
 $$
   \mathcal{M}_k
