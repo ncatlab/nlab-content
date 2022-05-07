@@ -100,8 +100,7 @@ the category of [[Ind-objects]] in $C$.
 According to Definition 5.11 in [ALR](#ALR),
 a category is _precontinuous_
 if it admits small limits and filtered colimits,
-and small limits distribute over filtered colimits,
-i.e., the functor $colim: Ind(C)\to C$ is continuous.
+and the functor $colim: Ind(C)\to C$ is continuous.
 
 According to Theorem 2.1 in \cite{ARVloc},
 a category is precontinuous if and only if it has small [[limits]]
@@ -128,8 +127,7 @@ the [[nonabelian derived category]] of $C$.
 According to Definition 4.5 in [ALRalg](#ALRalg),
 a category is _algebraically exact_
 if it admits small limits and sifted colimits,
-and small limits distribute over sifted colimits,
-i.e., the functor $colim: Sind(C)\to C$ is continuous.
+and the functor $colim: Sind(C)\to C$ is continuous.
 In particular (Example 5.3 in [ALRalg](#ALRalg)),
 any [[variety of algebras]]
 is an algebraically exact category.
