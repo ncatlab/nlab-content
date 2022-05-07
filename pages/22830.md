@@ -47,9 +47,10 @@ Regarding
 
 * the [[circle group]] $S^1 \in Groups(SmoothManifolds) \xhookrightarrow{ Cdfflg } Groups(\mathbf{H})$ as a ([[smooth ∞-group|smooth]]) [[∞-group]] with [[delooping]]/[[moduli ∞-stack]] $\mathbf{B}S^1$,
 
-then ([BMSS 19, Sec. 2.2](cyclic+loop+space#BMSS19)) the cyclic loop stack is equivalently the right [[base change]] ([[dependent product]]) of $\mathcal{X}$ along the point inclusion $pt_{\mathbf{B}S^1} \colon \ast \to \mathbf{B}S^1$ followed by left [[base change]] ([[dependent sum]]) back to the absolute context:
+then ([BMSS 19, Sec. 2.2](cyclic+loop+space#BMSS19)) the cyclic loop stack is equivalently the right [[base change]] ([[dependent product]]) of $\mathcal{X}$ along the point inclusion $pt_{\mathbf{B}S^1} \colon \ast \to \mathbf{B}S^1$ followed (when desired) by left [[base change]] ([[dependent sum]]) back to the absolute context:
 
-$$
+\[
+  \label{AbstracyCyclificationConstruction}
   Cyc
   \big(
     \mathcal{X}
@@ -60,12 +61,11 @@ $$
   \underset{\mathbf{B}S^1 \to \ast}{\sum}
   \underset{\ast \to \mathbf{B}S^1}{\prod}
   (\mathcal{X})
-  \,.  
-$$
+\]
 
 <center>
-<a href="https://ncatlab.org/schreiber/show/Twisted+Equivariant+Differential+non-abelian+generalized+cohomology"
-<img src="https://ncatlab.org/nlab/files/GeneralAbstractCyclicLoopStacks.jpg" width="460">
+<a href="https://ncatlab.org/schreiber/show/Twisted+Equivariant+Differential+non-abelian+generalized+cohomology">
+<img src="https://ncatlab.org/nlab/files/GeneralAbstractCyclicLoopStacks_20210629.jpg" width="600">
 </a>
 </center>
 
