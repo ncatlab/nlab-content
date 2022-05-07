@@ -95,7 +95,7 @@ In [[quantum information theory]] one often considers the higher Pauli group $\m
 ### Relation to the quaternion group
  {#RelationToQuaternionGroup}
 
-The [[quaternion group]] $Q$ is the [[subgroup]] of the Pauli group (eq:PauliGroupAsMatrixSubgroup) omitting the $\pm i$-phases:
+The [[quaternion group]] $Q$ is the ([[normal subgroup|normal]]) [[subgroup]] of the Pauli group (eq:PauliGroupAsMatrixSubgroup) omitting the $\pm 1$-phases on nonidentity matrices:
 
 \[
   \label{QuaternionGroupAsMatrixSubgroup}
@@ -104,11 +104,11 @@ The [[quaternion group]] $Q$ is the [[subgroup]] of the Pauli group (eq:PauliGro
   \big\{
     \pm \sigma_0,
     \,
-    \pm \sigma_1,
+    \pm i\sigma_1,
     \,
-    \pm \sigma_2,
+    \pm i\sigma_2,
     \,
-    \pm \sigma_3,
+    \pm i\sigma_3,
   \big\}
   \;\subset\;
   GL(2,\mathbb{C})
@@ -120,7 +120,7 @@ In fact, the Pauli group is a [[semidirect product group]] of the [[quaternion g
 $$
   \mathcal{P}_1
   \;\simeq\;
-  Q \times \mathbb{Z}/2
+  Q \rtimes \mathbb{Z}/2
   \,.
 $$
 
