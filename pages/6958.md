@@ -10,7 +10,7 @@
 =--
 
 
-A **homotopy end** or **coend** is a [[homotopy limit]] corresponding to an [[end]] or coend.
+A **homotopy end** or **coend** is a [[homotopy limit|homotopy (co)limit]] corresponding to an [[end]] or coend.
 
 For now, see:
 
@@ -23,6 +23,11 @@ For now, see:
 * [[fat geometric realization]]
 
 ## References
+
+
+*  [[Jean-Marc Cordier]] and [[Timothy Porter]], _Homotopy Coherent Category Theory_, Trans. Amer. Math. Soc. 349 (1997) 1-54, ([pdf](http://www.ams.org/journals/tran/1997-349-01/S0002-9947-97-01752-2/S0002-9947-97-01752-2.pdf))
+.
+
 
 * {#ArkhipovOrsted18} [[Sergey Arkhipov]], [[Sebastian Ørsted]], *Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories* ([arXiv:1807.03266](https://arxiv.org/abs/1807.03266))
 
