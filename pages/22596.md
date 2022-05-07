@@ -82,21 +82,7 @@ $$h_1... h_{n-1} 900000... = .h_1... h_{n-1}899999...$$
 as real numbers. In this way, we produce a unique well-defined interval map $X \to [0, 1]$, so that $[0, 1]$ is the terminal coalgebra. 
 =--
 
-The non-negative real numbers $\mathbb{R}^{\geq 0}$ is defined as 
-
-$\mathbb{R}^{\geq 0} \cong \mathbb{N} \times [0,1]$
-
-with $\lt$ defined as $(n,p) \lt (m,q)$ if $n + 1 \lt m$, $(n,p) \lt ((n+1),q)$ if $p \neq 99999...$ and $q \neq 00000...$, and
-
-$$(n,99999...) = ((n+1),00000...)$$ 
-
-for all $n,m:N$, $p,q:[0,1]$.
-
-The linear order of real numbers $\mathbb{R}$ is defined as 
-
-$$\mathbb{R} \cong (\mathbb{R}^{\geq 0})^{\op} + \mathbb{R}^{\geq 0}$$ 
-
-with coproduct monomorphisms $+:\mathbb{R}^{\geq 0} \to \mathbb{R}$ and $-:(\mathbb{R}^{\geq 0})^{\op} \to \mathbb{R}$, such that $-p \lt +p$ for all $p:\mathbb{R}^{\geq 0}, p \neq 0,00000....$, and $-0,00000... = +0,00000...$.
+Let $(\mathbb{Z},0,s,n,\lt)$ be the set of integers, the initial set with an element $0$, a [[linear order]] $\lt$, a [[monotone]] $s$ such that $a \lt s(a)$ for all $a \in \mathbb{Z}$, and an [[antitone]] $n$ such that $n(0)=0$ and $n = s \circ n \circ s$. Let $\mathbb{R}$ be a set with a structure preserving function $g:\mathbb{Z}\to\mathbb{R}$ and a [[monotone]] $f:[0,1]\to \mathbb{R}$ such that $f(0) = g(0)$ and $f(1) = s(g(0))$. The set $\mathbb{R}$ of [[real numbers]] is the initial such system. The arithmetic operations on any such system can be defined by the properties of the [[function algebra]] of $\mathbb{R}$ and [[currying]]. 
 
 ### As a $\mathbb{Z}$-graded cochain complex of abelian groups
 
