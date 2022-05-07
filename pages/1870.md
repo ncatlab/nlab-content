@@ -307,6 +307,7 @@ A model for this in 4-truncation is given by [[super line 2-bundles]]. For the m
 
 ## References 
 
+### General
 
 The concept of twisted K-theory originates in 
 
@@ -437,8 +438,36 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
+### Higher twists
+ {#ReferencesHigherTwists}
+
+Discussion of higher twists of K-theory (above degree 3):
+
+* [[Ib Madsen]], [[Victor Snaith]], [[Jørgen Tornehave]], *Infinite loop maps in geometric topology*, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 81, Issue 3, (1977)([doi:10.1017/S0305004100053482](https://doi.org/10.1017/S0305004100053482))
+
+* [[Constantin Teleman]], Section 3 of: *K-theory of the moduli of bundles over a Riemann surface and deformations of the Verlinde algebra* ([arXiv:math/0306347](https://arxiv.org/abs/math/0306347)), in [[Ulrike Tillmann]] (ed.) *Topology, Geometry and Quantum Field Theory*, Cambridge University Press 2004 ([doi:10.1017/CBO9780511526398](https://doi.org/10.1017/CBO9780511526398))
+
+Via [[C-star algebras|$C^\ast$-algebras]]:
+
+* {#Pennig16} [[Ulrich Pennig]], *A noncommutative model for higher twisted K-Theory*, J Topology (2016) 9 (1): 27-50 ([arXiv:1502.02807](https://arxiv.org/abs/1502.02807))
+
+* [[Marius Dadarlat]], [[Ulrich Pennig]], *Unit spectra of K-theory from strongly self-absorbing $C^\ast$-algebras*, Algebr. Geom. Topol. 15 (2015) 137-168 ([arXiv:1306.2583](https://arxiv.org/abs/1306.2583))
+
+* [[David Brook]], *Computations in higher twisted K-theory*,  ([arXiv:2007.08964A](https://arxiv.org/abs/2007.08964A))
+
+* [[David Brook]], *Higher twisted K-theory*, ([dspace:2440/125740)](https://digital.library.adelaide.edu.au/dspace/handle/2440/125740))
+
+Discussion of the [[twisted Chern character]] for higher twisted K-theory:
+
+* Lachlan Macdonald, [[Varghese Mathai]], Hemanth Saratchandran, *On the Chern character in Higher Twisted K-theory and spherical T-duality*, Commun. Math. Phys. 385, 331-368 (2021) ([arXiv:2007.02507](https://arxiv.org/abs/2007.02507))
+
+
 
 [[!redirects twisted K-theories]]
 
 [[!redirects twisted topological K-theory]]
 [[!redirects twisted topological K-theories]]
+
+[[!redirects higher twisted K-theory]]
+[[!redirects higher twisted K-theories]]
+
