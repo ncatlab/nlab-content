@@ -32,7 +32,7 @@
 
 ## Idea
 
-The _T-duality 2-group_ is a [[smooth 2-group]] (or rather a class of such) which controls [[T-duality]] and [[T-folds]]. It is the [[string 2-group]] for the [[cup product]] [[universal characteristic class]] on [[fiber products]] of [[torus]]-[[fiber bundles]] with their dual torus bundles.
+The _T-duality 2-group_ is a [[smooth 2-group]] (or rather a class of such) which controls [[T-duality]] and [[T-folds]]. It is the [[string 2-group]] for the [[cup product]] [[universal characteristic class]] on [[fiber products]] of [[torus]]-[[fiber bundles]] with their dual [[torus]]-[[principal bundles]].
 
 ## Definition
 
@@ -69,13 +69,25 @@ $$
 
 As for the [[string 2-group]], this defines an [[infinity-group extension]] (the looping of the [[homotopy fiber]] of this map) and this one may call the _T-duality 2-group_ as it controls T-duality pairs by the discussion at _[[T-Duality and Differential K-Theory]]_. Indeed, according to ([Nikolaus 14](#Nikolaus14)) the [[principal 2-bundles]] for this 2-group are the correct formalization of the concept of _[[T-folds]]_.
 
-## References
+## Related concepts
 
+* [[T-duality]], [[topological T-duality]]
+
+* [[string 2-group]]
+
+## References
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_, Journal of Geometry and Physics, Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
 * {#NikolausWaldorf18} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Higher geometry for non-geometric T-duals_ ([arXiv:1804.00677](https://arxiv.org/abs/1804.00677))
+
+See also:
+
+* [[Nora Ganter]], _Categorical Tori_, SIGMA 14 (2018), 014, 18 ([arXiv:1406.7046](https://arxiv.org/abs/1406.7046))
+
+
+
 [[!redirects T-duality Lie 2-group]]
 [[!redirects T-duality Lie 2-algebra]]
