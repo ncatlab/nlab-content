@@ -77,7 +77,7 @@ is an absolute pushout if and only if either there exist
 
 1. A section $u:P\to B$, such that $m u = 1_P$.
 2. Morphisms $r_1,\dots,r_k : B \to A$ and $s_1,\dots,s_k : B\to A$, for some $k\ge 1$, such that $p s_1 = 1_B$, $q s_i = q r_i$ for all $i$, $p r_i = p s_{i+1}$ for all $i\lt k$, and $p r_k = u m$.
-3. Morphisms $t_1,\dots,t_{\ell+1} : C \to A$ and $v_1,\dots,v_{\ell} : C\to A$, for some $\ell \ge 0$, such that $q t_1 = 1_C$, $p t_i = p v_i$ for all $i\lt \ell$, $q v_i = q t_{i+1}$ for all $i\le \ell$, and $p t_{\ell+1} = s n$.
+3. Morphisms $t_1,\dots,t_{\ell+1} : C \to A$ and $v_1,\dots,v_{\ell} : C\to A$, for some $\ell \ge 0$, such that $q t_1 = 1_C$, $p t_i = p v_i$ for all $i\lt \ell$, $q v_i = q t_{i+1}$ for all $i\le \ell$, and $p t_{\ell+1} = u n$.
 
 or the transpose thereof (i.e. interchanging $B$ with $C$ and so on).
 \end{theorem}
@@ -86,10 +86,10 @@ For "if", suppose given a commutative square
 \begin{center}\begin{tikzcd}
 A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "b"] \\ C \ar[r, "c"'] & X.
 \end{tikzcd}\end{center}
-Since $m$ is a (split) epimorphism (by $s$), any factorization of this square through the given one will be unique, so it suffices to show that such a factorization exists.  Define $x = b u:P\to X$.  Then we have
+Since $m$ is a (split) epimorphism (by $u$), any factorization of this square through the given one will be unique, so it suffices to show that such a factorization exists.  Define $x = b u:P\to X$.  Then we have
 $$ x m = b u m = b p r_k = c q r_k = c q s_k = b p s_k = b t r_{k-1} = \dots = b p s_1 = b $$
 and
-$$ x n = b s n = b p t_\ell = c q t_\ell = c q v_{\ell-1} = b p v_{\ell-1} = b p t_{\ell-1} = \dots = c q t_1 = c. $$
+$$ x n = b u n = b p t_\ell = c q t_\ell = c q v_{\ell-1} = b p v_{\ell-1} = b p t_{\ell-1} = \dots = c q t_1 = c. $$
 The transposed case is of course dual.
 
 Conversely, suppose the given square is an absolute pushout.  Thus, in particular the induced square
