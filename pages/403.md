@@ -335,6 +335,12 @@ See also at [enriched category](enriched+category#internalization_versus_enrichm
 
 ## Related concepts
 
+* [[internal groupoid]]
+
+* [[locally internal category]]
+
+* [[internal category in a monoidal category]]
+
 * [[weak equivalence of internal categories]]
 
 * [2-Topos -- In terms of internal categories](2-topos#InTermsOfInternalCategories)
@@ -351,7 +357,7 @@ See also at [enriched category](enriched+category#internalization_versus_enrichm
 
 * [[enriched category]]
 
-* [[locally internal category]]
+
 
 
 
