@@ -35,13 +35,30 @@ Review:
 
 * Nora Brambilla, Simon Eidelman, Christoph Hanhart, Alexey Nefediev, Cheng-Ping Shen, Christopher E. Thomas, Antonio Vairo, Chang-Zheng Yuan, _The XYZ states: experimental and theoretical status and perspectives_, Physics Reports 2020 ([arXiv:1907.07583](https://arxiv.org/abs/1907.07583))
 
-
 See also 
 
-* Wikipedia, _[XYZ particle](https://en.wikipedia.org/wiki/XYZ_particle)_
+* Wikipedia, *[XYZ particle](https://en.wikipedia.org/wiki/XYZ_particle)*
+
+* Wikipedia, *[Exotic hadron](https://en.wikipedia.org/wiki/Exotic_hadron)*
+
+For references specifically on [[tetraquarks]] see [there](tetraquark#References).
+
+Discussion of exotic hadrons via [[hadron supersymmetry]]:
+
+* [[Don Lichtenberg]],  Renato Roncaglia, Enrico Predazzi, *Predicting exotic hadron masses from supersymmetry and a quark -- diquark model*, J. Phys. G: Nucl. Part. Phys. **23** 865 ([doi:10.1088/0954-3899/23/8/001](https://iopscience.iop.org/article/10.1088/0954-3899/23/8/001))
+
+* [[Harry J. Lipkin]], *Exotic Hadrons in the Constituent Quark Model*, Prog. Theor. Phys. Suppl. **168** (2007) 15-22 ([arXiv:hep-ph/0703190](https://arxiv.org/abs/hep-ph/0703190), [doi:10.1143/PTPS.168.15](https://doi.org/10.1143/PTPS.168.15))
+
+
 
 
 [[!redirects XYZ particles]]
 
 [[!redirects XYZ meson]]
 [[!redirects XYZ mesons]]
+
+[[!redirects exotic hadron]]
+[[!redirects exotic hadrons]]
+
+
+
