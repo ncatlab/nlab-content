@@ -34,7 +34,7 @@ Survey:
 
 * Christian Janot, *The Properties and Applications of Quasicrystals*, Europhysics News 27 (1996) ([pdf](https://www.europhysicsnews.org/articles/epn/pdf/1996/02/epn19962702p60.pdf))
 
-* Christian Janot, *Quasicrystals -- A Primer*, Oxford Classic Textsin the Physical Sciences. OxfordUniversity Press, 2012 ([ISBN:978-0-19-965740-7](https://global.oup.com/academic/product/quasicrystals-9780199657407?cc=ae&lang=en&))
+* Christian Janot, *Quasicrystals -- A Primer*, Oxford Classic Texts in the Physical Sciences, Oxford University Press, 2012 ([ISBN:978-0-19-965740-7](https://global.oup.com/academic/product/quasicrystals-9780199657407?cc=ae&lang=en&))
 
 See also
 
@@ -43,6 +43,10 @@ See also
 In relation to [[topological phases of matter]]:
 
 * Yao Wang et al., *Quantum Topological Boundary States in Quasi-crystal*,  Adv Mater 2019 Dec;31(49):e1905624 ([doi:10.1002/adma.201905624](https://doi.org/10.1002/adma.201905624))
+
+* Dominic V. Else, Sheng-Jie Huang, Abhinav Prem, Andrey Gromov, *Quantum many-body topology of quasicrystals* ([arXiv:2103.13393](https://arxiv.org/abs/2103.13393))
+
+* Oded Zilberberg, *Topology in quasicrystals*, Optical Materials Express Vol. 11, Issue 4, pp. 1143-1157 (2021) ([doi:10.1364/OME.416552](https://doi.org/10.1364/OME.416552))
 
 
 ### Mathematical description
