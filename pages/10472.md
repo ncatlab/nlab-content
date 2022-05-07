@@ -27,7 +27,7 @@ The category of pointed topological spaces has a [[zero object]] (the [[point sp
 ## Definition
 
 A _pointed topological space_ is a [[topological space]] $(X,\tau)$ equipped with a choice of point $x \in X$.
-A [[homomorphism]] between pointed topological space $(X,x)$ $(Y,y)$ is a [[continuous function]] $f \colon X \to Y$ which preserves the chosen basepoits in that $f(x) = y$.
+A [[homomorphism]] between pointed topological space $(X,x)$ $(Y,y)$ is a [[continuous function]] $f \colon X \to Y$ which preserves the chosen basepoints in that $f(x) = y$.
 
 ### The category of pointed topological spaces
 
@@ -69,7 +69,7 @@ $$
 +-- {: .num_example #WedgeSumAsCoproduct}
 ###### Example
 
-Given two pointed topoligical spaces $(X,x)$ and $(Y,y)$, then:
+Given two pointed topological spaces $(X,x)$ and $(Y,y)$, then:
 
 1. their [[Cartesian product]] in $Top^{\ast/}$ is simply their [[product topological space]] $X \times Y$ equipped with the [[pair]] of basepoints $(X\times Y, (x,y))$;
 
