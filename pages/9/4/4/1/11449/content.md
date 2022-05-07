@@ -3,9 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential cohomology
+#### Cohomology
 +--{: .hide}
-[[!include differential cohomology - contents]]
+[[!include cohomology - contents]]
+=--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
 =--
 =--
 =--
@@ -45,9 +49,10 @@ With [[Bott periodicity]] 8.
 
 * [[KO-dimension]]
 
-* [[KR-theory]]
-
 * [[quaternionic oriented cohomology theory]]
+
+* [[KR-theory]], [[KU-theory]], [[KQ-theory]]
+
 
 [[!include string theory and cohomology theory -- table]]
 
