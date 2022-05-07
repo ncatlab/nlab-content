@@ -183,3 +183,7 @@ See also the references at _[[equivariant homotopy theory]]_.
 
 [[!redirects G-space]]
 [[!redirects G-spaces]]
+
+
+[[!redirects TopologicalGActions]]
+
