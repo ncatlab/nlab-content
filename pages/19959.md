@@ -56,7 +56,9 @@ Apparently for a long time it was hoped that this would work, but [Mellies](#Mel
 
 ## Categorical Models of Explicit Substitutions
 
-The original calculus of explicit substitutions, considered as a type theory, can be given sound and complete categorical models, in terms of indexed categories. This explicit substitutions construction is parametric in the kind of logic that your terms stand for: the Calculus of Constructions [Ritter] (#Ritter), Intuitionistic Linear Logic [Ghani2000] (#Ghani2000) and propositional Constructive Necessity [Ghani1998] (#Ghani1998) can be given formalizations in terms of explicit substitutions calculi, which helps to show the correctness of the implementation of these type theories.
+The original calculus of explicit substitutions, considered as a type theory, can be given sound and complete categorical models, in terms of indexed categories. 
+
+This explicit substitutions construction is parametric in the kind of logic that your terms stand for: the Calculus of Constructions ([Ritter] (#Ritter)), intuitionistic propositional logic, Intuitionistic Linear Logic ([Ghani2000] (#Ghani2000)) and propositional Constructive Necessity ([Ghani1998] (#Ghani1998)) can be given formalizations in terms of explicit substitutions calculi. These constructions help to show the correctness of the implementation of the associated type theories.
 
 ## The linear substitution calculus
 
