@@ -157,8 +157,10 @@ Given a commutative diagram
 $$\array{L & \overset{l}{\to} & H & \overset{q}{\to} & C\\
   ^u\downarrow && \downarrow^w && \downarrow^v \\
   K & \underset{k}{\to} & G& \underset{p}{\to} & B}$$
-where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]]s, if $u$ and $v$ are [[isomorphism]]s then so is $w$.
+where $p$ and $q$ are [[split epimorphisms]] and $l$ and $k$ are their [[kernels]], then: if $u$ and $v$ are [[isomorphisms]], so is $w$.
 =--
+
+(see [Janedlze 2009, Prop. 1.3.3.](#Janelidze09))
 
 +-- {: .num_remark}
 ###### Remark 
@@ -177,25 +179,31 @@ The short five lemma holds in the category of [[abelian group|abelian]] [[topolo
 
 ## References
 
-Early references of the 5-lemma 
+Early references of the 5-lemma:
 
 * (lemma (5,9) in) D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
+
 * (prop.1.1, page 5) Henri Cartan, Samuel Eilenberg, _Homological algebra_, Princeton Univ. Press 1956
+
 * (lemma 3.3 in chapter I) S. MacLane, _Homology_, Springer 1963, 1975
 
 Modern
 
-* (exercise 1.3.3 in) [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ 
-* Nicolas Bourbaki, _Homological algebra_ (Algebra ch. X) 1980
+* [[Charles Weibel]], Ex. 1.3.3 in:  _[[An Introduction to Homological Algebra]]_ 
 
-In nonabelian context
+* [[Nicolas Bourbaki]], _Homological algebra_ (Algebra ch. X) 1980
+
+In nonabelian contexts:
 
 * [[Francis Borceux]], [[Dominique Bourn]], _[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004
 
+* {#Janelidze09} [[Tamar Janelidze]], *Foundations of relative non-abelian homological algebra*, 2009 ([pdf](https://open.uct.ac.za/bitstream/item/4777/thesis_sci_2009_janelidze_t.pdf?sequence=1), [[Janelidze_NonabelianHomologicalAlgebra.pdf:file]] [hdl:11427/4891](http://hdl.handle.net/11427/4891))
+
+
 The short 5-lemma also appears in various topological algebra contexts; see for example 
 
-* Francis Borceux, Maria Manuel Clementino, _Topological semi-abelian categories_, Adv. Math. __190__ (2005), 425-453 ([web](https://estudogeral.sib.uc.pt/simple-search?query=clementino&x=0&y=0))
-{#BorClem} 
+* {#BorClem}  [[Francis Borceux]], [[Maria Manuel Clementino]], _Topological semi-abelian categories_, Adv. Math. __190__ (2005), 425-453 ([web](https://estudogeral.sib.uc.pt/simple-search?query=clementino&x=0&y=0))
+
 
 
 [[!redirects five-lemma]]
