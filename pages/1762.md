@@ -1,5 +1,10 @@
 Ross Street is a major category theorist of the [[Australian school of category theory]], a student and collaborator of the late [[Max Kelly|Gregory Maxwell Kelly]]. See his [list of publications](http://science.mq.edu.au/~street/Publications.html) and [homepage](http://www.maths.mq.edu.au/~street). His most important works include works in [[sheaf]], [[fibred category]], [[stack]] and [[descent]] theory, including the introduction of [[oriental]]s, a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], coherence for [[tricategories]], etc.
 
+##Some publications
+
+* R. Street, _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
+
+
 
 *  R. Street, _The algebra of oriented simplexes_, J. Pure Appl. Algebra, 49, (1987), 283 &#8211; 335.
 
