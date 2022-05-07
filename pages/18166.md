@@ -306,4 +306,3 @@ The other direction is the statement of prop. \ref{OpenCoverOfParacompactHausdor
 * [[continuous images of compact spaces are compact]]
 
 * [[colimits of paracompact Hausdorff spaces]]
-
