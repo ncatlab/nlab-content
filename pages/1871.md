@@ -150,7 +150,7 @@ Yang-Mills theory is named after the article
 
 which was the first to generalize the principle of [[electromagnetism]] to a [[non-abelian group|non-abalian]] [[gauge group]]. This became accepted as formulation of [[QCD]] and [[weak interactions]] (only) after [[spontaneous symmetry breaking]] (the [[Higgs mechanism]]) was understood in the 1960s.
 
-Modern reviews of the basics
+Modern reviews of the basics:
  
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_  ([pdf](http://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf))
 
@@ -164,6 +164,7 @@ Modern reviews of the basics
 
 * [[Mikio Nakahara]], Section 10.5.4 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Chapters 7-9 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
 See also the references at _[[QCD]]_, _[[gauge theory]]_, _[[Yang-Mills monopole]]_, _[[Yang-Mills instanton]]_ and at _[[super Yang-Mills theory]]_.
 
