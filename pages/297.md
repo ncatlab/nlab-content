@@ -2602,7 +2602,7 @@ a big advancement in the understanding of extended $\sigma$-model QFTs is the di
 * David Ben-Zvi, John Francis, David Nadler,
 _Integral Transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](https://arxiv.org/abs/0805.0157))
 
-which realizes $\sigma$-models by homming [[cobordism]] [[cospan]]s into the total spaces (realized as [[infinity-stack homotopically|infinity-stack]]) of background fields and regarding the resulting [[span]]s as pull-push operators on suitable [[geometric function theory|geometric functions]].  
+which realizes $\sigma$-models by homming [[cobordism]] [[cospan]]s into the total spaces (realized as an [[infinity-stack]]) of background fields and regarding the resulting [[span]]s as pull-push operators on suitable [[geometric function theory|geometric functions]].  
 
 A similar approach to bring the old work by Dan Freed mentioned above in contact with the picture of extended functorial QFT and the Baez-Dolan-Lurie structure theorem is
 
