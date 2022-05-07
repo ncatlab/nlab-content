@@ -245,6 +245,9 @@ For further discussion see
 
 Derivation from classification of [[higher curvature corrections]] to [[D=11 supergravity]]:
 
+* [[Paul Howe]], [[Dimitrios Tsimpis]], Around (56) in: _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 ([arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129))
+
+
 * {#SoueresTsimpis17} Bertrand Souères, [[Dimitrios Tsimpis]], Section 4 of: _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
 
