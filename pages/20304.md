@@ -49,7 +49,7 @@ The [[supersymmetry|supersymmetric]] [[classical field theory|classical]] soluti
 
 The concept was introduced in 
 
-* John McGreevy, [[Leonard Susskind]], Nicolaos Toumbas, _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008, 2000 ([arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075))
+* [[John McGreevy]], [[Leonard Susskind]], [[Nicolaos Toumbas]], _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008, 2000 ([arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075))
 
 for branes in [[anti de Sitter spacetime]] [[product space|times]] an [[n-sphere]] and generalized to other [[near horizon geometries]] in 
 
