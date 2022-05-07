@@ -39,6 +39,8 @@ and (p. 13)
 
 * [[optics]]
 
+* [[topological photonics]]
+
 * [[gravitational wave]]
 
 * [[pp-wave spacetime]]
