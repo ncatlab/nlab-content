@@ -150,6 +150,15 @@ colourless physical states (hadrons).
 
 \linebreak
 
+
+* {#BarnafoldiGogokhia19} Gergely Gábor Barnaföldi, Vakhtang Gogokhia, *The Mass Gap Approach to QCD* ([arXiv:1904.07748](https://arxiv.org/abs/1904.07748))
+
+> QCD as a fundamental quantum field gauge theory still suffers from a few important conceptual problems. We focus on some of them as follows: (A) The dynamical generation of a mass squared at the fundamental quark-gluon level, since the QCD Lagrangianforbids such kind of terms apart from the current quark mass. $[\ldots]$ (D) The non-observation of the colored objects as physical states which does not follow from the QCD Lagrangian,i.e., it cannot explain confinement of gluons and quarks.
+
+
+
+\linebreak
+
 * {#HKL19} Yonggoo Heo, C. Kobdaj, M.F.M. Lutz, _Constraints from a large-$N_c$ analysis on meson-baryon interactions at chiral order $Q^3$_, Phys. Rev. D 100, 094035 (2019) ([arXiv:1908.11816](https://arxiv.org/abs/1908.11816))
 
 > Still after many decades of vigorous studies the outstanding challenge of modern physics
