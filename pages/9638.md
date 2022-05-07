@@ -59,7 +59,22 @@ There are arguments that a good formal context for quantum computing is (via [[c
 
 ### General
 
-General discussions:
+The idea of quantum computation was first expressed in:
+
+* Paul Benioff, *The computer as a physical system: A microscopic quantum mechanical Hamiltonian model of computers as represented by Turing machines*, J Stat Phys 22, 563–591 (1980) ([doi:10.1007/BF01011339](https://doi.org/10.1007/BF01011339))
+
+* [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys 21, 467–488 (1982) ([doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179))
+
+It became a plausible practical possibility with the understanding of [[quantum error correction]] in 
+
+* {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
+
+* {#Steane96} [[Andrew M. Steane]], *Error Correcting Codes in Quantum Theory*, Phys. Rev. Lett. 77, 793 1996 ([doi:10.1103/PhysRevLett.77.793](https://doi.org/10.1103/PhysRevLett.77.793))
+
+* {#CalderbankShor96} [[Robert Calderbank]], [[Peter W. Shor]], *Good Quantum Error-Correcting Codes Exist*, Phys. Rev. A, Vol. 54, No. 2, pp. 1098-1106, 1996 ([doi:10.1103/PhysRevA.54.1098](https://doi.org/10.1103/PhysRevA.54.1098))
+    
+   
+Introduction and survey:
 
 * Michael A. Nielsen, Isaac L. Chuang, _Quantum computation and quantum information_, Cambridge University Press 2000 ([[NielsenChuangQuantumComputation.pdf:file]])
 
