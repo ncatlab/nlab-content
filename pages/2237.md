@@ -223,6 +223,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 * [[Chen-Ruan cohomology]], [[delocalized equivariant cohomology]]
 
+* [[twisted equivariant cohomology]]
+
 [[!include homotopy type representation theory -- table]]
 
 ## References
