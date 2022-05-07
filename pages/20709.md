@@ -71,5 +71,9 @@ $$
 
 * [[rational homotopy theory]]
 
-* [[Chern charracer]], [[Chern-Dold character]]
+* [[Chern character]], [[Chern-Dold character]]
+
+* [[rational equivariant K-theory]]
+
+* [[equivariant Chern character]]
 
