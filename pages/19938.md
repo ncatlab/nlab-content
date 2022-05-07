@@ -80,11 +80,11 @@ Dialgebras can be used to provide semantics to interactive programs; [[coalgebra
 
 ## References
 
-* {#subeq} Joachim Lambek, _Subequalizers_, 1970
+* {#subeq} [[Joachim Lambek]], _Subequalizers_, 1970
 
-* {#lam} Tatsuya Hagino, _A Typed Lambda Calculus with Categorical Type Constructors_, 2005, [link](https://link.springer.com/chapter/10.1007/3-540-18508-9_24)
+* {#lam} [[Tatsuya Hagino]], _A Typed Lambda Calculus with Categorical Type Constructors_, 2005, [link](https://link.springer.com/chapter/10.1007/3-540-18508-9_24)
 
-* {#cat} Thorsten Altenkirch, Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
+* {#cat} [[Thorsten Altenkirch]], Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
 
 * {#ccs} Vincenzo Ciancia, _Interaction and Observation: Categorical Semantics of Reactive Systems Trough Dialgebras_, CALCO, 2013 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-40206-7_10)
 
