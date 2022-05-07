@@ -10,15 +10,35 @@
 =--
 
 
-This entry is about this article
+This entry is about the articles
 
-* {#Pontrjagin38} [[Lev Pontrjagin]]:
+* {#Pontrjagin38a} [[Lev Pontrjagin]]:
 
-  **Classification of continuous maps of a complex into a sphere**,  
+  **Classification of continuous maps of a complex into a sphere**, **Communication I**  
 
-  Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+  Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
 
-or rather about its belated exposition in
+* {#Pontrjagin38b} [[Lev Pontrjagin]]:
+
+  **Classification of continuous maps of a complex into a sphere**, 
+
+  **Communication II**  
+
+  Doklady Akademii Nauk SSSR 19(5) (1938), 361-363
+
+  > (this article contains a famous mistake, see also [p. 6](https://arxiv.org/pdf/math/0211216.pdf#page=6) of [[Michael Hopkins|Hopkins]], [[Isadore Singer|Singer]]'s _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_ and [[Michael Hopkins|Hopkins]]'s talk at [Atiyah's 80th Birthday conference](https://www.maths.ed.ac.uk/~v1ranick/atiyah80.htm), [slide 8](https://www.maths.ed.ac.uk/~v1ranick/hopkins.pdf#page=8), [9:45](https://empg.maths.ed.ac.uk/Videos/Atiyah80/Hopkins.mov))
+
+* [[Lev Pontryagin]], 
+
+  **Homotopy classification of mappings of an $(n+2)$-dimensional sphere on an $n$-dimensional one**
+
+  Doklady Akad. Nauk SSSR (N.S.) 19 (1950), 957–959 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf))
+
+  > (this article fixes the mistake)
+
+(all three of which are available in English translation in [Gamkrelidze 86](Revaz+Gamkrelidze#Gamkrelidze86)) 
+
+or rather about their joint comprehensive exposition in
 
 * {#Pontrjagin55} [[Lev Pontrjagin]]:
 
@@ -32,7 +52,7 @@ or rather about its belated exposition in
 
   [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
 
-on [[differential topology]], establishing the [[Pontryagin isomorphism]] between unstable [[Cohomotopy]] and [[cobordism classes]] of [[normally framed submanifolds]], and applying it to the computation of the lowest couple of [[stable homotopy groups of spheres]].
+on [[differential topology]], establishing the [[Pontryagin isomorphism]] between unstable [[Cohomotopy]] and [[cobordism classes]] of [[normally framed submanifolds]], and applying it to the computation of the lowest couple of [[stable homotopy groups of spheres]] (the [[first stable homotopy group of spheres|first]] and the [[second stable homotopy group of spheres|second]]).
 
 Together with 
 
@@ -121,3 +141,6 @@ category: reference
 
 
 [[!redirects Smooth manifolds and their applications in homotopy theory]][[!redirects Smooth manifolds and their applications in Homotopy theory]]
+
+[[!redirects Homotopy classification of mappings of an (n+2)-dimensional sphere on an n-dimensional one]]
+
