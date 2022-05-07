@@ -307,14 +307,18 @@ the left adjoint preserves [[limit in a quasi-category|(∞,1)-categorical pullb
 +-- {: .proof}
 ###### Proof
 
-This is effectively a restatement of a result that appears effectively below proposition 15.8 in HalperinThomas and is reproduced in some repackaged form as theorem 2.2 of [He06](http://www.math.uic.edu/~bshipley/hess_ratlhtpy.pdf). We recall the [[model category|model category-theoretic]] context that allows to rephrase this result in the above form.
+This is effectively a restatement of a result that appears below proposition 15.8 in HalperinThomas and is reproduced in some repackaged form as theorem 2.2 of [He06](http://www.math.uic.edu/~bshipley/hess_ratlhtpy.pdf). We recall the [[model category|model category-theoretic]] context that allows to rephrase this result in the above form.
 
 Let $C = \{a \to c \leftarrow b\}$ be the pullback [[diagram]] category.
 
 The [[homotopy limit]] functor is the right [[derived functor]] $\mathbb{R} lim_C$ for the [[Quillen adjunction]] (described in detail at [[homotopy Kan extension]])
 
 $$
-  [C,sSet]_{inj} \stackrel{\overset{const}{\leftarrow}}{\underset{lim_C}{\to}}
+  [C,sSet]_{inj} 
+   \underoverset
+    {\underset{lim_C}{\longrightarrow}}
+    {\overset{const}{\longleftarrow}}
+    {\;\;\; \bot \;\;\;}
   sSet
   \,.
 $$
@@ -323,14 +327,17 @@ At [[model structure on functors]] it is discussed that composition with the Qui
 
 $$
   ([C,\Omega^\bullet] \dashv [C,K])
-  :
+  \;\colon\;
   [C, dgAlg^{op}]
-  \stackrel{\overset{[C,\Omega^\bullet]}{\leftarrow}}{\underset{[C,K]}{\to}}
+    \underoverset
+      {\underset{[C,K]}{\longrightarrow}}
+      {\overset{[C,\Omega^\bullet]}{\longleftarrow}}
+      {\;\; \bot \;\;}
   [C,sSet]
   \,.
 $$
 
-We need to show that for every fibrant and cofibrant pullback diagram $F \in [C,sSet]$ there exists a weak equivalence 
+We need to show that for every fibrant and cofibrant pullback diagram $F \in [C,sSet]$ there exists a [[weak equivalence]] 
 
 $$
   \Omega^\bullet \circ lim_C F
@@ -341,9 +348,9 @@ $$
   \,,
 $$
 
-here $\widehat{\Omega^\bullet(F)}$ is a fibrant replacement of $\Omega^\bullet(F)$ in $dgAlg^{op}$.
+here $\widehat{\Omega^\bullet(F)}$ is a [[fibrant replacement]] of $\Omega^\bullet(F)$ in $dgAlg^{op}$.
 
-Every object $f \in [C,sSet]_{inj}$ is cofibrant. It is fibrant if all three objects $F(a)$, $F(b)$ and $F(c)$ are fibrant and one of the two morphisms is a fibration. Let us assume without restriction of generality that it is the morphism $F(a) \to F(c)$ that is a fibration. So we assume that $F(a), F(b)$ and $F(c)$ are three [[Kan complex]]es and that $F(a) \to F(b)$ is a [[Kan fibration]]. Then $lim_C$ sends $F$ to the ordinary [[pullback]]  $lim_C F = F(a) \times_{F(c)} F(b)$ in $sSet$, and so the left hand side of the above equivalence is
+Now, every object $f \in [C,sSet]_{inj}$ is cofibrant, and it is fibrant if all three objects $F(a)$, $F(b)$ and $F(c)$ are fibrant and one of the two morphisms is a fibration. We may assume without restriction of generality that it is the morphism $F(a) \to F(c)$ that is a fibration. So we assume that $F(a), F(b)$ and $F(c)$ are three [[Kan complexes]] and that $F(a) \to F(b)$ is a [[Kan fibration]]. Then $lim_C$ sends $F$ to the ordinary [[pullback]]  $lim_C F = F(a) \times_{F(c)} F(b)$ in $sSet$, and so the left hand side of the above equivalence is
 
 $$
   \Omega^\bullet(F(a) \times_{F(c)} F(b))
