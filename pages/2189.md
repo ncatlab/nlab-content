@@ -75,7 +75,9 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 ### General
  {#ReferencesGeneral}
 
-Textbooks include
+Textbooks accounts:
+
+* [[Tom Apostol]], *Mathematical Analysis* 1973 ([pdf](http://www.ru.ac.bd/wp-content/uploads/sites/25/2019/03/205_04_Apostol-Mathematical-Analysis-1973.pdf))
 
 * {#Rudin64} [[Walter Rudin]], _Principles of Mathematical Analysis_, McGraw-Hill (1964, 1976) ([pdf](https://notendur.hi.is/vae11/%C3%9Eekking/principles_of_mathematical_analysis_walter_rudin.pdf))
 
