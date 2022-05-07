@@ -166,11 +166,21 @@ Unlike the [[Wightman axioms]], the Haag--Kastler axioms do not need the notion 
 
 The original article that introduced these axioms is
 
-* {#HaagKastler64} [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
+* {#Haag64} [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_, Journal of Mathematical Physics, Bd.5, 1964, S.848-861 ([doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124))
+
+following
+
+* {#Haag59} [[Rudolf Haag]], _Discussion des "axiomes" et des propri&#233;t&#233;s asymptotiques d&#8217;une th&#233;orie des champs locales avec particules compos&#233;es, Les Probl&#232;mes Math&#233;matiques de la Th&#233;orie Quantique des Champs_, Colloque Internationaux du CNRS LXXV (Lille 1957), CNRS Paris (1959), 151.
+
+translated to English as: 
+
+* [[Rudolf Haag]], *Discussion of the ‘axioms’ and the asymptotic properties of a local field theory with composite particles*, EPJ H 35, 243–253 (2010) ([doi:10.1140/epjh/e2010-10041-3](https://doi.org/10.1140/epjh/e2010-10041-3))
+
 
 Textbook accounts include
 
-* {#Haag} [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
+* {#Haag} [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ Springer (1992) 2nd., rev. and enlarged ed. Springer (1996) ([ISBN 978-3-642-61458-3] (https://www.springer.com/gp/book/9783540610496))
+
 
 * [[Huzihiro Araki]]: _[[Mathematical Theory of Quantum Fields]]_ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
 
