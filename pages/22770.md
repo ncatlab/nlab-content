@@ -30,13 +30,7 @@ A __scale__ is a [[minor scale]] $M$ satisfying the scale identities:
 
 Every scale with $\bot = \top$ is [[trivial object|trivial]]. 
 
-As a scale is a [[closed midpoint algebra]], a scale has a [[partial order]]. Let the binary operation $(-)\multimap(-):M \times M \to M$ be defined as 
-
-$$a \multimap b \coloneqq a^\bullet \oplus b$$ 
-
-If $a \multimap b = \top$, then $a \leq b$. 
-
-$(M,\wedge,\vee,\bot,\top)$ forms a [[lattice]]. 
+As a scale is a [[closed midpoint algebra]], a scale has a [[partial order]] $\leq$. For all $a$ and $b$ in $M$, $a \leq b$ if and only if $a \multimap b = \top$. 
 
 A subset $\mathcal{I}$ of a scale $M$ is an __[[ideal]]__ if $\bot \in \mathcal{I}$, and $x \vee y \in \mathcal{I}$ if and only if $x \in \mathcal{I}$ and $y \in \mathcal{I}$. An ideal is a __zoom-invariant ideal__ if it is closed under $\bot$-zooming. 
 
