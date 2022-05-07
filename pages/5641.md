@@ -276,9 +276,14 @@ In the derived category one also quotients out chain homotopy, but one allows th
   
 ## References
 
-Section 1.4 of 
+Historical articles:
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+* Tibor Rado , *A Remark on Chain-Homotopy*, Proceedings of the American Mathematical Society Vol. 2, No. 3 (Jun., 1951), pp. 458-463 ([jstor:2031776](https://www.jstor.org/stable/2031776), [doi:10.2307/2031776](https://doi.org/10.2307/2031776))
+
+
+Review:
+
+* [[Charles Weibel]], Section 1.4 of: _[[An Introduction to Homological Algebra]]_
 
 [[!redirects cochain homotopy]]
 [[!redirects chain homotopies]]
