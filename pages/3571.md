@@ -14,7 +14,8 @@ On [[algebraic K-theory]]
 
 On [[group cohomology]]:
 
-* K. Brown, _Cohomology of groups_, Graduate Texts in Mathematics, 87. Springer-Verlag, New York-Berlin, 1982. 
+* [[Kenneth Brown]],  _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
+
 
 On [[buildings]]:
 
