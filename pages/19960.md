@@ -677,6 +677,11 @@ reviewed in:
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
+See also:
+
+* Vikas Yadav, *String/$\mathcal{M}$-theory Dual of Large-$N$ Thermal QCD-Like Theories at Intermediate Gauge/'t Hooft Coupling and Holographic Phenomenology ([arXiv:2111.12655](https://arxiv.org/abs/2111.12655))
+
+
 More on [[D4-D8 brane bound states]]:
 
 * {#Nastase03} [[Horatiu Nastase]], Sections 2, 3 of: _On Dp-Dp+4 systems, QCD dual and phenomenology_ ([arXiv:hep-th/0305069](https://arxiv.org/abs/hep-th/0305069))
@@ -709,6 +714,7 @@ and its relation to [[baryons]]:
 On [[jet bundle]] [[cohomology]] in the Sakai-Sugimoto model:
 
 * Ekkehart Winterroth, *Variational cohomology and Chern-Simons gauge theories in higher dimensions* ([arXiv:2103.03037](https://arxiv.org/abs/2103.03037))
+
 
 
 
