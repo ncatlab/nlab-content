@@ -318,7 +318,7 @@ $$
 which is precisely the above equivalence relation. Therefore the above homomorphism is a [[bijection]] and hence the Grothendieck group of the natural numbers is the [[integers]]:
 
 $$
-  (G(\mathbb{N}), +) \simeq \mathbb{N}
+  (G(\mathbb{N}), +) \simeq \mathbb{Z}
   \,.
 $$
 
