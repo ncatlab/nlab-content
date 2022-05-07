@@ -42,6 +42,7 @@ Let $E$ be an [[elementary topos]] with [[subobject classifier]] $\Omega$ and [[
 $$N \hookrightarrow A\hookrightarrow \Omega^N$$
 
 then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $\Omega^N \hookrightarrow A$.
+=--
 
 When the topos is Boolean, so the [[Cantor-Schroeder-Bernstein theorem]] holds, this implies the existence of an isomorphism $A \simeq N$ or $\Omega^N \simeq A$. Note, however, that neither of the original monomorphisms is necessarily an isomorphism (one of them could be the successor map on $N$, for example).
 
@@ -52,7 +53,14 @@ $${|\mathbb{N}|} \lt \alpha\lt {|\Omega^\mathbb{N}|}$$
 which it is more common to write as
 
 $$ \aleph_0 \lt \alpha \lt 2^{\aleph_0} $$
-=--
+
+In the formal proof outlined in ([Han–van Doorn 20](#HanvanDoorn20)), the statement is fomulated in [[Lean]] as:
+
+$$\forall x, Ord(x)\Rightarrow x \leq \omega \vee P(\Omega) \leq x$$
+
+where $x\leq y$ means $x$ is a [[subquotient]] of $y$, and $Ord(x)$ is a predicate that returns True if and only if $x$ is an [[ordinal]]. This says that no ordinal can be between $\omega$ and $P(\omega)$ in size. 
+In the presence of classical logic and the well-ordering principle, this then implies that no set can have cardinality between $\omega$ and $P(\omega)$.
+
 
 ### In weakly predicative mathematics
 
@@ -229,6 +237,10 @@ On the other hand, the behavior of the power operation on [[regular cardinal|sin
 A [[formal proof]] of the independence of the continuum hypothesis from [[ZFC]] is in 
 
 * {#Han18} [[Jesse Han]], _Flypitch project -- Formal proof of the independence of CH_ ([github:flypitch](https://github.com/flypitch), [pdf](https://github.com/flypitch/flypitch-notes/blob/master/forcing-notes.pdf))
+
+published as
+
+* {#HanvanDoorn20} [[Jesse Han|Jesse Michael Han]] and [[Floris van Doorn]],  _A Formal Proof of the Independence of the Continuum Hypothesis_, Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (2020) pp 353–366, doi:[https://doi.org/10.1145/3372885.3373826](https://doi.org/10.1145/3372885.3373826), arXiv:[2102.02901](https://arxiv.org/abs/2102.02901).
 
 [[!redirects CH]]
 [[!redirects Continuum hypothesis]]
