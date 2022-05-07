@@ -583,6 +583,9 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 
 * [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
 
+* ChunJun Cao, *From Quantum Codes to Gravity: A Journey of Gravitizing Quantum Mechanics* ([arXiv:2112.00199](https://arxiv.org/abs/2112.00199))
+
+
     
 
 [[!redirects quantum error correction code]]
