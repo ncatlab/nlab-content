@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,10 +26,11 @@ $$
 
 to non-integer values of $z$, so the *Barnes $G$-function* $G(-)$ corresponds to the functional equation
 
-$$
+\[
+  \label{TranslationFormula}
   G(z + 1) \;=\; \Gamma(z) \, G(z)
   \,.
-$$
+\]
 
 Just as for $z =n \in \mathbb{N}$, $\Gamma(n+1) = n!$, so $G(n+2) = n!(n-1)! \cdots 1!$.
 
@@ -39,6 +41,11 @@ Just as for $z =n \in \mathbb{N}$, $\Gamma(n+1) = n!$, so $G(n+2) = n!(n-1)! \cd
 ## Properties
 
 ### Special values
+
+\[
+  \label{GOf1}
+  G(1) \;=\; 1
+\]
 
 $$
   G(1/2)
@@ -53,7 +60,8 @@ $$
 
 ([WP here](https://en.wikipedia.org/wiki/Barnes_G-function#Value_at_1/2))
 
-### Stirling-like asymptotics
+### Stirling-like asymptotic expansion
+ {#AsymptoticExpansion}
 
 $$
   ln G(1 + z)
@@ -85,6 +93,7 @@ where $\zeta$ denotes the [[Riemann zeta function]].
 
 A version of the [[Gauss multiplication formula]] for the [[Gamma function]]:
 
+\begin{prop}\label{MultiplicationFormulaForGammaFunctionInTermsOfGFunction}
 $$
   \underoverset
     {j = 1}
@@ -101,12 +110,13 @@ $$
     { G(1/2) }
   \,.
 $$
-
+\end{prop}
 ([Kotěšovec 13, p. 2](#Kotesovec))
+\begin{proof}
+By repeated use of the translation formula (eq:TranslationFormula)
+and using the initial value $G(1) = 1$ (eq:GOf1):
 
-To see this, consider two cases:
-
-$N = 2M$:
+In the case that $N = 2M$ in an [[even number]]:
 
 $$
   \underoverset
@@ -132,7 +142,7 @@ G(M+1) \cdot G(M +1/2) /G(1/2)
 G(N/2 + 1) \cdot G(N/2 + 1/2)/G(1/2).
 $$
 
-$N = 2M+1$:
+In the case that $N = 2M+1$ is an [[odd number]]:
 
 $$
   \underoverset
@@ -157,6 +167,7 @@ G(M+1) \cdot G(M +3/2) /G(1/2)
  \;=\;
 G(N/2 + 1/2) \cdot G(N/2 + 1)/G(1/2).
 $$
+\end{proof}
 
 ## References
 
