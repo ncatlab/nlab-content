@@ -159,6 +159,10 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 ## References
 
+
+* [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
+
+
 Categorical properties of [[monoid objects]] in [[monoidal categories]] are spelled out in sections 1.2 and 1.3 of
 
 * Florian Marty, _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009, [web](http://thesesups.ups-tlse.fr/540/)
