@@ -133,6 +133,8 @@ A maximal compact subgroup may not exist at all without the almost connectedness
 
 ## Related concepts
 
+* [[closed subgroup]]
+
 * [[locally compact topological group]]
 
 * [[compact Lie group]]
@@ -179,3 +181,6 @@ The maximal compact subgroups inside the (indefinite) rotation groups
  
 
 [[!redirects maximal compact subgroups]]
+
+[[!redirects compact subgroup]]
+[[!redirects compact subgroups]]
