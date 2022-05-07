@@ -1,5 +1,6 @@
 | [[algebra|algebraic]] [[mathematical structure|structure]] | [[oidification]] |  
 |----------------|----------|
+|[[truth value]]|[[transitive relation]]|
 |[[magma]]|[[magmoid]]|
 |[[unital magma]]|[[unital magmoid]]|
 |[[quasigroup]]|[[quasigroupoid]]|
