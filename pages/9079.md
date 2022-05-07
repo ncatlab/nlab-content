@@ -15,12 +15,12 @@
 
 ## Definition
 
-Let $\mathbb{K}$ be a field (not necessarily algebraically closed), and let $\mathfrak{g}$ be a [[Lie algebra]].
-
-A self-normalizing and nilpotent subalgebra $\mathfrak{h} \leq \mathfrak{g}$ is called a **Cartan subalgebra** of $\mathfrak{g}$.
+Let $\mathbb{K}$ be a field (not necessarily algebraically closed), and let $\mathfrak{g}$ be a [[Lie algebra]]. A self-normalizing and nilpotent subalgebra $\mathfrak{h} \leq \mathfrak{g}$ is called a **Cartan subalgebra** of $\mathfrak{g}$.
 
 By self-normalizing, we mean that $\operatorname{Nor}_\mathfrak{g}(\mathfrak{h})=\mathfrak{h}$. Hence, $\mathfrak{h}$ is not an ideal in any larger subalgebra of $\mathfrak{g}$.
 
+
+## Examples
 In the special case that $G$ is a [[compact Lie group]] with Lie algebra $\mathfrak{g}$, a Cartan subalgebra of $\mathfrak{g}$ is a sub-Lie algebra 
 
 $$
