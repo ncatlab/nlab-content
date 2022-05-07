@@ -153,6 +153,11 @@ Being pre-lextensive is also sufficient to define the extensive topology and sho
 [[!redirects lextensive category]]
 [[!redirects lextensive categories]]
 
+[[!redirects pre-lextensive category]]
+[[!redirects pre-lextensive categories]]
+[[!redirects prelextensive category]]
+[[!redirects prelextensive categories]]
+
 [[!redirects disjunctive category]]
 [[!redirects disjunctive categories]]
 
