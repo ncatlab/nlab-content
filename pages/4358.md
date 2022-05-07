@@ -83,11 +83,14 @@ see at _[[prime number theorem]]_
 
 * [[coprime integers]]
 
+* [[Bertrand's postulate]]
+
 * [[p-localization]]
 
 * [[prime geodesic]]
 
-* [[Bertrand's postulate]]
+* [[prime knot]]
+
 
 ## References
 
