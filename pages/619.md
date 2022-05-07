@@ -224,7 +224,7 @@ From ([Adamek-Rosick&#253;](#AdamekRosicky)) the "only if"-direction follows imm
 
 ### General
 
-A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector [Riehl, Prop 4.5.15](#Riehl). In particular, if the ambient category is complete and cocomplete then so is the reflective subcategory.
+A reflective subcategory is always closed under [[limit|limits]] which exist in the ambient category (because the full inclusion is monadic, hence creates limits, as noted above), and inherits [[colimit|colimits]] from the larger category by application of the reflector [Riehl, Prop 4.5.15](#Riehl). In particular, if the ambient category is complete and cocomplete then so is the reflective subcategory.
 
 A morphism in a reflective subcategory is monic iff it is monic in the ambient category. A reflective subcategory of a well-powered category is well-powered. 
 
