@@ -664,7 +664,9 @@ As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjo
 \end{proof}
 
 
+
 ### Cohesive toposes
+ {#CohesiveToposes}
 
 For a [[cohesive topos]], by definition, the terminal [[geometric morphism]]  to the given [[base topos]] extends to an adjoint quadruple.
 
@@ -682,6 +684,248 @@ $$
 
 then the cohesive adjoint quadruple is the [[corestriction|(co-)]][[restriction]] to [[sheaves]] of the adjoint quadruple on presheaves as [above](#ViaKanExtensionOfAdjointPairs).
 
+Here is one way to see (Prop. \ref{LeftKanExtensionOfFinProdPreservingIsFinProdPreserving} below) that/when the leftmost Kan extension [[preserved limit|preserves]] [[finite products]]:
+
+\begin{lemma}\label{LeftKanExtensionIsOriginalFunctorOnRepresentables}
+  Given a functor $\mathcal{S}_1 \xrightarrow{\;f\;} \mathcal{S}_2$ between [[small categories]], its [[left Kan extension]]
+$f_! \;\colon\; PSh(\mathcal{S}_1) \xrightarrow{\;\;} PSh(\mathcal{S}_1)$ restricts to $f$ on [[representable functor|representables]], in that for $s_1 \,\in\, \mathcal{S}_1$ we have a [[natural isomorphism]]
+$$
+  f_!\big( y(s_1) \big)
+  \;\simeq\;
+  y\big(
+    f(s_1)
+  \big)
+  \,.
+$$
+\end{lemma}
+\begin{proof}
+For $X \,\in\, PSh(\mathcal{S}_2)$
+we have the following sequence of [[natural isomorphism]]:
+$$
+   \begin{aligned}
+     PSh(\mathcal{S}_2)
+     \left(
+       f_!
+       \left(
+         y(s_1)
+       \right)
+       ,\,
+       X
+     \right)
+         & \;\simeq\;
+     PSh(\mathcal{S}_1)
+     \left(
+       y(s_1)
+       ,\,
+       f^\ast(X)
+     \right)
+     \\
+     &
+     \;\simeq\;
+     X\left( f(s_1) \right)
+     \\
+     &
+     \;\simeq\;
+     PSh(\mathcal{S}_2)
+     \left(
+       y\left(f(s_1)\right)
+       ,\,
+       X
+     \right)
+     \,.
+   \end{aligned}
+$$  
+The first line is the defining adjointness of $f_!$, the second line the [[Yoneda lemma]] over $\mathcal{S}_1$ and the definition of $f^\ast$, while the last line is the Yoneda lemma over $\mathcal{S}_2$.
+
+Since the composite of these isomorphisms is natural, the [[Yoneda lemma]] over $PSh(\mathcal{S}_2)^{op}$ (which is [[large category|large]] but [[locally small category|locally small]], so that the lemma does apply) implies the claim.
+\end{proof}
+\begin{lemma}\label{LeftKanExtensionOfBinProductPreservingIsBinProductPres}
+  Let $\mathcal{S}_1$ and $\mathcal{S}_2$ be [[small categories]] with [[binary products]] and $\mathcal{S}_1 \xrightarrow{\;f\;} \mathcal{S}_2$ a [[functor]] which [[preserved limit|preserves]] these, in that for $s, s' \,\in\, \mathcal{S}_1$ there is a [[natural isomorphism]] $f(s \times s') \,\simeq\, f(X_1) \times f(X_2)$. Then also the [[left Kan extension]] $f_!$ [[preserved limit|preserves]] [[binary products]], in that for $X, X' \,\in\, PSh(\mathcal{S}_1)$ there is a [[natural isomorphism]] 
+$$
+  f_!(X \times X')
+  \;\simeq\;
+  f_!(X) \times f_!(X')
+  \,.
+$$
+\end{lemma}
+\begin{proof}
+This is the composite of the following sequence of [[natural isomorphisms]]:
+$$
+  \begin{aligned}
+    f_!(X \times X')
+       & \;\simeq\;
+    f_!
+    \Big(\!
+      \big(
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \,
+        y(s)
+      \big)
+      \times
+      \big(
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+        \,
+        y(s')
+      \big)
+    \!\Big)
+    \\
+    & \;\simeq\;
+    f_!
+    \Big(
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+        \,
+      \left(
+        y(s)
+        \times
+        y(s')
+      \right)
+    \!\!\Big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \big(
+        y(s)
+        \times
+        y(s')
+      \big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \big(
+         y(s \times s')
+      \big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    y\big(  f(s \times s') \big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    y\big(  f(s) \times f(s') \big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    y\big(  f(s) \big) 
+      \times 
+    y\big(f(s') \big)
+    \\
+    & \;\simeq\;
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+        \;
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \left(
+        y(s)
+      \right)
+   \times
+    f_!
+      \left(
+        y(s')
+      \right)
+    \\
+    & \;\simeq\;
+    \Big(\,
+        \underset{
+          \underset{ s \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \left(
+        y(s)
+      \right)
+   \!\!\Big)
+   \times
+   \Big(\,
+        \underset{
+          \underset{ s' \to X}{\longrightarrow}
+        }{\lim}
+    \,
+    f_!
+      \left(
+        y(s')
+      \right)
+  \!\!\Big).
+  \end{aligned}
+$$  
+Here 
+
+* the first line is the [[co-Yoneda lemma]], expressing the [[presheaves]] as [[colimits]] of [[representable functor|representables]]. 
+
+* The second line uses that in a [[topos]] (like [[Set]] or whatever the [[base topos]] may be) [[universal colimits|colimits are pullback-stable]] and in particular distribute over [[products]]. 
+
+* The third line uses that $f_!$ is a [[left adjoint]] and that [[left adjoints preserve colimits]].
+
+* Then inside the two colimits we use
+
+  1. that the [[Yoneda embedding]] preserves [[limits]], in particular [[products]],
+
+  1. Lem. \ref{LeftKanExtensionIsOriginalFunctorOnRepresentables}, to evaluate $f_!$ on representables as $f$,
+
+  1. the assumption that $f$ preserves products.
+
+* The last step is the first two steps in reverse.
+
+\end{proof}
+
+In conclusion:
+\begin{prop}\label{LeftKanExtensionOfFinProdPreservingIsFinProdPreserving}
+  If a [[functor]] $\mathcal{S}_1 \xrightarrow{\;f\;} \mathcal{S}_2$ between [[small categories]] with [[finite products]] [[preserved limit|preserves]] these, then so does its [[left Kan extension]] $f_! \,\colon\, PSh(\mathcal{S}_1) \xrightarrow{\;} PSh(\mathcal{S}_2)$.
+\end{prop}
+\begin{proof}
+  We need to show that $f_!$ preserves (1) the [[terminal object]] and (2) [[binary products]]. With the given assumption on $f$, the first follows with Lem. \ref{LeftKanExtensionIsOriginalFunctorOnRepresentables} while the second follows with Lem. \ref{LeftKanExtensionOfBinProductPreservingIsBinProductPres}.
+\end{proof}
 
 ## Related concepts
 
@@ -691,6 +935,8 @@ then the cohesive adjoint quadruple is the [[corestriction|(co-)]][[restriction]
 
 
 ## References
+
+Prop. \ref{TheCanonicalMorphisms} is from:
 
 * {#Johnstone11} [[Peter Johnstone]], _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63.  ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
