@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents 
 {:toc}
@@ -378,8 +379,7 @@ Discussion in terms of [[twisted bundles]]/[[bundle gerbe modules]] is in
   
 but apparently contains a mistake, as pointed out in 
 
-* [[Alan Carey]], [[Bai-Ling Wang]], top of p. 10 in _Thom isomorphism and Push-forward map in twisted K-theory_ ([arXiv:math/0507414](https://arxiv.org/abs/math/0507414))
-
+* [[Alan Carey]], [[Bai-Ling Wang]], top of p. 10 in _Thom isomorphism and Push-forward map in twisted K-theory_, Journal of K-Theory **1** 2 (2008) 357-393 ([arXiv:math/0507414](https://arxiv.org/abs/math/0507414), [doi:10.1017/is007011015jkt011](https://doi.org/10.1017/is007011015jkt011))
 
 The generalization of this to [[groupoid K-theory]] is in ([FHT 07, around p. 26](#FHT07)) and 
 
