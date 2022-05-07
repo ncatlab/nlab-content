@@ -41,6 +41,11 @@ On [[Cayley-Dickson algebras]]:
 * Daniel K. Biss, [[Daniel Christensen]], [[Daniel Dugger]], [[Daniel Isaksen]], _Eigentheory of Cayley-Dickson algebras_, 
 Forum Mathematicum 21(5) (2009), 833-851 ([arxiv:0905.2987](https://arxiv.org/abs/0905.2987))
 
+On [[model categories of spectra]]:
+
+
+* [[Daniel Dugger]], *Stable categories and spectra via model categories* ([pdf](https://pages.uoregon.edu/ddugger/models_chapter.pdf)), in:  [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds.), *[[Stable categories and structured ring spectra]]*, MSRI Book Series, Cambridge University Press
+
 
 [[!redirects Dan Dugger]]
 
