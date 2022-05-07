@@ -4,7 +4,7 @@
 
 * ([[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]) 
 
-   $(&#643; \dashv \flat \dashv \sharp )$
+   $(\esh \dashv \flat \dashv \sharp )$
 
   * [[discrete object]],  [[codiscrete object]], [[concrete object]]
 
@@ -14,7 +14,7 @@
 
 * [[dR-shape modality]] $\dashv$ [[dR-flat modality]]
 
-  $&#643;_{dR} \dashv \flat_{dR}$
+  $\esh_{dR} \dashv \flat_{dR}$
 
 **[[tangent cohesive (∞,1)-topos|tangent cohesion]]**
 
@@ -64,7 +64,7 @@ $$
     \\
     && \vee && \vee
     \\
-    &\stackrel{cohesive}{}& &#643; &\dashv& \flat & \stackrel{discrete}{}
+    &\stackrel{cohesive}{}& \esh &\dashv& \flat & \stackrel{discrete}{}
     \\
     && \bot && \bot
     \\
