@@ -27,15 +27,39 @@ Analogously, given a [[simplicial group]] $G_\bullet$, the _Borel model structur
 
 Both of these presents the [[(∞,1)-category]] of [[∞-actions]] of the [[∞-group]] (see there) presented by $G$.
 
-In the context of [[equivariant homotopy theory]] this is also called the "coarse model structure" (e.g. [Guillou, section 5](#Guillou)), since it is in general not equivalent to the "fine" homotopy theory on [[topological G-spaces]] that enters [[Elmendorf's theorem]].
+In the context of [[equivariant homotopy theory]] this is also called the "coarse model structure" (e.g. [Guillou 2006, section 5](#Guillou06)), since it is in general not equivalent to the "fine" homotopy theory on [[topological G-spaces]] that enters [[Elmendorf's theorem]].
 
 
 ## Definition
 
 ### In topological spaces
 
+Throughout, write [[Top]] for the [[category]] of [[compactly generated weak Hausdordd spaces]].
+
+\begin{definition}
+  For $G \,\in\, Grp(TopSp)$ a [[topological group]], write
+
+\[
+  \label{BGAsTopEnrichedCategory}
+  \mathbf{B}G \;\in\; TopCat
+\]
+
+for the [[Top]]-[[enriched category]] with a single [[object]] and $G$ as its unique [[hom-object]].
+\end{definition}
+
+\begin{remark}
+  There is an evident [[isomorphism]] of [[enriched categories]]
+  \[
+    \label{IdentifyingTopologicalGSpacesWithTopEnrichedFunctors}
+    G Act(TopSp)
+    \;\simeq\;
+    TopFnctr\big( \mathbf{B}G,\, TopSp \big)
+  \]
+  between [[topological G-spaces]] and the [[Top]]-[[enriched functor category]] from $\mathbf{B}G$ (eq:BGAsTopEnrichedCategory) to [[Top]] (topological presheves).
+\end{remark}
+
 \begin{prop}\label{BorelModelStructureOnTopologicalSpaces}
-For $G \in Grp(Set) \xrightarrow{\;} Grp(TopSp)$ a [[discrete group|discrete]] [[topological group]] there is a [[model category]]-structure 
+For $G \in Grp(TopSp)$ a [[topological group]] there is a [[model category]]-structure 
 
 $$
   G Act\big(TopSp\big)_{proj}
@@ -48,7 +72,8 @@ $$
 on the [[category]] of [[topological G-spaces]] whose [[weak equivalences]] and [[fibrations]] are those [[morphisms]] whose [[underlying]] [[continuous functions]] are so in the  [[classical model structure on topological spaces]].
 \end{prop}
 
-([Guillou, Thm. 5.1](#Guillou))
+For [[discrete groups]] this may be argued as in  [Guillou 2006, Thm. 5.1](#Guillou06). 
+For general topological groups this follows as a special case of the [[projective model structure on enriched functors|projective model structure on Top-enriched functor]] (see [this Thm.](Introduction+to+Homotopy+Theory#ProjectiveModelStructureOnTopologicalFunctors)), under the identification $G Act(TopSp) \,\simeq\, TopFun( \mathbf{B}G, TopSp )$ (eq:IdentifyingTopologicalGSpacesWithTopEnrichedFunctors).
 
 
 ### In simplicial sets
@@ -72,18 +97,22 @@ This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model 
 ### In topological spaces
  {#PropertiesInTopologicalSpaces}
 
-#### Cofibrant replacement
+#### Cofibrations and Cofibrant replacement
 
 \begin{prop}\label{CofibrantObjectsInTopologicalBorelModelStructure}
+A [[topological G-space]] $X$ is [[cofibrant object|cofibrant]] in $G Act\big( TopSp_{Qu}\big)_{proj}$ (from Prop. \ref{BorelModelStructureOnTopologicalSpaces}) precisely if
 
-A sufficient condition for a [[topological G-space]] $X$ to be a [[cofibrant object]] in $G Act\big( TopSp_{Qu}\big)_{proj}$ (from Prop. \ref{BorelModelStructureOnTopologicalSpaces}) is that
-
-1. its [[underlying]] [[topological spaces]] is cofibrant in the [[classical model structure on topological spaces]];
+1. $G$-[[quotient space]] is cofibrant in the [[classical model structure on topological spaces]];
 
 1. its $G$-[[group action|action]] is [[free action|free]].
 
 \end{prop}
-([Guillou, Prop. 5.3](#Guillou))
+For [[discrete group|discrete]] $G$ a statement along these lines appears as   [Guillou 2006, Prop. 5.3](#Guillou06)).
+\begin{proof}
+  By [this Thm.](Introduction+to+Homotopy+Theory#ProjectiveModelStructureOnTopologicalFunctors) the model category $G Act\big(TopSp_{Qu}\big)_{proj}$ from Prop. \ref{BorelModelStructureOnTopologicalSpaces} is [[cofibrantly generated model category|cofibrantly generated]] with generating cofibrations being (see [this Def.](Introduction+to+Homotopy+Theory#GeneratingCofibrationsForProjectiveStructureOnFunctors)) the [[product topological space|product]] with $G$ (regarded with its free left multiplication action) of the generating cofibrations of [[classical model structure on topological spaces|$TopSp_{Qu}$]].
+\end{proof}
+
+
 
 \begin{example}\label{ProductWithUniversalPrincipalGSpaceIsCofibrantReplacement}
   Since the [[universal principal bundle|universal principal space]] $E G$ (the [[topological realization]] $E G \,=\, \big\vert W G\big\vert$ of the [[universal principal simplicial complex]]) is
@@ -130,7 +159,7 @@ $$
 * [[left Quillen functor]] assigns [[topological quotient spaces]].
 
 \end{prop}
-([Guillou, Ex. 5.5](#Guillou))
+([Guillou 2006, Ex. 5.5](#Guillou06))
 
 \begin{prop}
   The [[Borel construction]] exhibits the [[left derived functor]] of the [[quotient space]]-[[left Quillen functor]] in Prop. \ref{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}:
@@ -170,7 +199,7 @@ The cofibrations $i \colon X \to Y$ in $sSetCat\big(\mathbf{B}G_\bullet, sSet\bi
 
 \end{prop}
 
-This is ([DDK 80, Prop. 2.2. (ii)](#DDK80), [Guillou, Prop. 5.3](#Guillou), [Goerss & Jardine 09, V Lem. 2.4](#GoerssJardine09)).
+This is ([DDK 80, Prop. 2.2. (ii)](#DDK80), [Guillou 2006, Prop. 5.3](#Guillou06), [Goerss & Jardine 09, V Lem. 2.4](#GoerssJardine09)).
 
 
 
@@ -637,7 +666,7 @@ of the inertia groupoid as follows (recall the nature of [[products of simplices
 
 #### Relation to the fine model structure of equivariant homotopy theory
 
-The [[identity functor]] gives a [[Quillen adjunction]] between the Borel model structure and [[equivariant homotopy theory]] ([Guillou, section 5](#Guillou)).
+The [[identity functor]] gives a [[Quillen adjunction]] between the Borel model structure and [[equivariant homotopy theory]] ([Guillou 2006, section 5](#Guillou06)).
 
 The left adjoint is
 
@@ -653,7 +682,7 @@ from the Borel model structure to the genuine [[equivariant homotopy theory]].
 
 Because:
 
-First of all, by ([Guillou, theorem 3.12, example 4.2](#Guillou)) $sSet^{\mathbf{B}G_\bullet}$ does carry a fine model structure. By ([Guillou, last line of page 3](#Guillou)) the fibrations and weak equivalences here are those maps which are ordinary fibrations and weak equivalences, respectively, on $H$-[[fixed point]] simplicial sets, for all subgroups $H$. This includes in particular the trivial subgroup and hence the identity functor
+First of all, by ([Guillou 2006, theorem 3.12, example 4.2](#Guillou06)) $sSet^{\mathbf{B}G_\bullet}$ does carry a fine model structure. By ([Guillou 2006, last line of page 3](#Guillou06)) the fibrations and weak equivalences here are those maps which are ordinary fibrations and weak equivalences, respectively, on $H$-[[fixed point]] simplicial sets, for all subgroups $H$. This includes in particular the trivial subgroup and hence the identity functor
 
 $$
   R = id \;\colon\; G_\bullet Act_{fine} \longrightarrow G_\bullet Act_{coarse}
@@ -914,6 +943,8 @@ $$
 
 ## References
 
+### In simplicial sets
+ {#ReferencesInSimplicialSets}
 
 The model structure, the characterization of its cofibrations, and its equivalence to the [[slice model structure]] of $sSet$ over $\bar W G$ is due to
 
@@ -925,7 +956,7 @@ This Quillen equivalence also mentioned as:
 
 Discussion in relation to the "fine" model structure of [[equivariant homotopy theory]] which appears in [[Elmendorf's theorem]] is in 
 
-* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
+* {#Guillou06} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
 Textbook account of (just) the Borel model structure:
 
@@ -939,6 +970,16 @@ Discussion with the model of [[∞-groups]] by [[simplicial groups]] replaced by
 Discussion of a [[global equivariant homotopy theory|globalized]] model structure for actions of all simplicial groups is in
 
 * [[Yonatan Harpaz]], [[Matan Prasma]], section 6.2 of _The Grothendieck construction for model categories_ ([arXiv:1404.1852](http://arxiv.org/abs/1404.1852))
+
+
+### In topological spaces
+ {#ReferencesInTopologicalSpaces}
+
+* [Guillou 2006, Section 5](#Guillou06)
+
+* [[Steffen Sagave]], [[Christian Schlichtkrull]], Prop. 6.4 in: *Diagram spaces and symmetric spectra*, Advances in Mathematics, 231 (2012), 2116-2193 ([arXiv:1103.2764](https://arxiv.org/abs/1103.2764), [doi:10.1016/j.aim.2012.07.013](https://doi.org/10.1016/j.aim.2012.07.013))
+
+
 
 
 [[!redirects Borel model structures]]
