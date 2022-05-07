@@ -197,6 +197,7 @@ $$
   * [[fundamental theorem of dg-algebraic equivariant rational homotopy theory]]
 
 ## References
+ {#References}
 
 Lecture notes on Elmendorf's theorem:
 
