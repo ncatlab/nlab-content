@@ -24,7 +24,7 @@ For $G$ a fixed [[group]], to be called the _[[equivariance group]]_, then
 by a _$G$-equivariant group_ we mean a [[group object]] [[internalization|internal]] to $G$-[[actions]], e.g. [[internalization|internal]] to [[G-sets]], [[G-spaces]], or [[G-manifolds]], etc.
 
 Beware that the term "equivariant group" for this notion is non-standard; or rather: there is no other established term for this notion at all.
-The term is meant to rhyme on the established terminology of _[[equivariant principal bundles]]_, in which context it serves to make nicely transparent the full (but often hidden) [[internalization|internal]] nature of the concept.
+The term is meant to rhyme on the established terminology of _[[equivariant principal bundles]]_, in which context it serves to make nicely transparent the full (but often hidden) [[internalization|internal]] nature of the concept: equivariant principal bundles have, in general, equivariant groups as their [[structure groups]].
 
 
 ## Definition
@@ -68,15 +68,27 @@ between [[maps]] (meaning: [[continuous functions]]) out of the [[product topolo
 \begin{defn}\label{TopologicalGSpaces}
 (**topological $G$-spaces**)
 \linebreak
-For $G$ be a [[topological group]] we write 
+For $G$ be a [[topological group]] -- to be called the _[[equivariance group]]_ -- we write 
 $$
   G Actions(TopologicalSpaces)
   \;\in\;
   Categories
 $$ 
-for the [[category]] of [[topological spaces]] equipped with [[continuous function|continuous]] $G$-[[actions]] and with $G$-[[equivariant function|equivariant]] [[continuous functions]] between them ("maps"); i.e. for the category of "[[G-spaces]]", often denote "$G Spaces$" or even $G Sp$ or similar.
+for the [[category]] whose 
 
-In the following we refer to this $G$ as the _[[equivariance group]]_.
+* [[objects]] $(X,\rho)$ are [[topological spaces]] $X$ equipped with [[continuous function|continuous]] $G$-[[actions]]
+
+  $$
+    G \times X \overset{}{\longrightarrow} X
+    \;\;\;\;\;\;
+    \leftrightarrow
+    \;\;\;\;\;\;
+    G \overset{\rho}{\longrightarrow} Aut(X) \subset Maps(X,X)
+    \,;
+  $$
+
+* [[morphisms]] are $G$-[[equivariant function|equivariant]] [[continuous functions]] between them ("maps"); i.e. for the category of "[[G-spaces]]", often denote "$G Spaces$" or even $G Sp$ or similar.
+
 \end{defn} 
 
 \begin{remark}
@@ -85,11 +97,34 @@ In the following we refer to this $G$ as the _[[equivariance group]]_.
 For purposes of [[equivariant homotopy theory]] one typically assumes the [[topological group|topological]] [[equivariance group]] $G$ in Def. \ref{TopologicalGSpaces} to be that underlying a [[compact Lie group]], such as a [[finite group]] (as that guarantees that [[G-CW-complexes]] are well-behaved and that the [[equivariant Whitehead theorem]] holds). But for the plain [[point-set topology]] of equivariant bundles, this condition is not necessary.
 \end{remark}
 
+
+\begin{remark}\label{GSpacesAreCartesianMonoidal}
+(**[[topological G-spaces]] are [[Cartesian monoidal category|cartesian monoidal]]**)
+  The category of [[topological G-spaces]] (Def. \ref{TopologicalGSpaces}) is a [[Cartesian monoidal category]]: The [[Cartesian product]] of two [[topological G-spaces]] $(X_i, \rho_i)$ is the underlying [[product topological space]] equipped with the [[diagonal action]] by $G$:
+$$
+  (X_1, \rho_1)
+  \times
+  (X_2, \rho_2)
+  \;=\;
+  \Big(
+    X_1 \times X_2,
+   \,
+   \rho_{1,2}(g)(x_1,x_2)
+   \,=\,
+   \big(
+     \rho_1(x_1), \rho_2(x_2)
+   \big)
+  \Big)
+  \,.
+$$
+\end{remark}
+In a [[Cartesian monoidal category]] there is a notion of [[internalization|internal]] [[group objects]]:
+
 \begin{defn}\label{EquivariantTopologicalGroup}
 (**equivariant topological groups**) 
 \linebreak
 Given an [[equivariance group]] $G$ (Def. \ref{TopologicalGSpaces}), 
-a _$G$-[[equivariant topological group]]_ $(\mathcal{G}, \alpha)$ is a [[group object]] [[internalization|internal]] to [[topological G-spaces]]
+a _$G$-[[equivariant topological group]]_ $(\mathcal{G}, \alpha)$ is a [[group object]] [[internalization|internal]] to [[topological G-spaces]] (Def. \ref{TopologicalGSpaces}):
   $$
     \big(
       \mathcal{G},
@@ -108,8 +143,9 @@ a _$G$-[[equivariant topological group]]_ $(\mathcal{G}, \alpha)$ is a [[group o
   $$
 \end{defn}
 (See Prop. \ref{EquivariantGroupsAsSemidirectProductGroups} below for the choice of notation used here.)
+
 \begin{remark}\label{UnderlyingTopologicalGroupOfAnEquivariantTopologicalGroup}
-Since the [[forgetful functor]]
+Since the [[forgetful functor]] from [[topological G-spaces]] (Def. \ref{TopologicalGSpaces}) to underlying [[topological spaces]]
 $$
   \array{
     G Actions
@@ -123,7 +159,7 @@ $$
    TopologicalSpaces
   }  
 $$
-[[preserved limit|preserves]] [[Cartesian products]], it sends $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) to underlying plain [[topological groups]]
+[[preserved limit|preserves]] [[Cartesian products]] (explicitly so by Remark \ref{GSpacesAreCartesianMonoidal}), it preserves [[group objects]] and hence sends $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) to underlying plain [[topological groups]]:
 \[
   \label{ForgetfulFunctorFromEquivariantTopologicalGroupsToTopologicalGroups}
   \array{
@@ -155,10 +191,16 @@ $$
 \]
 \end{remark}
 
+
+
+## Properties
+
+### Equivalence with semidirect products with $G$
+
 \begin{prop}\label{EquivariantGroupsAsSemidirectProductGroups}
   (**Equivariant groups as semidirect product groups**) 
 \linebreak
-The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) is [[equivalence of categories|equivalent]] to that of [[semidirect products]] $(-) \rtimes G$ regarded as [[pointed objects]] in the [[slice category]] of [[Groups]] over $G$:
+The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) is [[equivalence of categories|equivalent]] to that of [[semidirect product groups]] of the form $(-) \rtimes G$ andregarded as [[pointed objects]] in the [[slice category]] of [[Groups]] over $G$:
 
 \[
   \label{EquivalenceOfEquivariantTopologicalGroupsToSemidirectProductTopGroups}
@@ -190,7 +232,7 @@ The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTop
 \end{prop}
 
 \begin{proof}
-  This is a straightforward matter of unwinding the definitions:
+This is a straightforward matter of unwinding the definitions:
 
 First to see that we have a [[functor]] as claimed:
 
@@ -255,7 +297,8 @@ $$
 
 This construction
 
-$$
+\[
+  \label{FunctorialAssignmentOfSemidirectProductGroupsToEquivariantGroups}
   \array{
     (\mathcal{G}_1, \alpha_1)
     &&
@@ -275,18 +318,29 @@ $$
     &&
     \mathcal{G}_2 \rtimes_{\alpha_2} G
   }
-$$
+\]
 
-is clearly functorial. 
+is clearly [[functor|functorial]]. 
 
-It remains to see that it is a [[bijection]] on [[hom-sets]]. But by construction, the homomorphisms of [[semidirect product groups]] in its [[image]] are precisely those of the product for $\phi \times id_G$, and this is exactly the form of the homomorphisms that is picked out by [[slice category|slicing over]] [[undercategory|and under]] $G$.
+It remains to see that this functor is a [[full subcategory]]-inclusion, hence a [[fully faithful functor]], hence that  it is a [[bijection]] on [[hom-sets]] for any [[pair]] of [[objects]]: 
+
+But by (eq:FunctorialAssignmentOfSemidirectProductGroupsToEquivariantGroups) the homomorphisms of [[semidirect product groups]] in its [[image]] are precisely those of the product form $\phi \times id_G$, and this is exactly the form of the homomorphisms between semidirect product groups that is picked out by [[slice category|slicing over]] [[undercategory|and under]] $G$ (noticing that group homomorphisms out of 
+$\mathcal{G} \rtimes_\alpha G$ 
+are fixed by their restriction to 
+$\mathcal{G} \times \{ e_G \}$ 
+and 
+$\{ e_{\mathcal{G}} \} \times G$
+).
 \end{proof}
 
+
+### Equivariant group actions
+
 \begin{prop}\label{ActionsOfEquivariantGroupsAsSemidirectProductGroupActions}
-  (**Equivariant group actions as semidirect product group actions**) \linebreak
-  Under the identification of $G$-[[equivariant groups]] $\mathcal{G}$
-  with [[semidirect product groups]] $\mathcal{G} \rtimes G$ 
-  (Prop. \ref{EquivariantGroupsAsSemidirectProductGroups})
+  (**equivariant group actions as semidirect product group actions**) \linebreak
+  Under the identification from Prop. \ref{EquivariantGroupsAsSemidirectProductGroups} of $G$-[[equivariant groups]] 
+  $\big(\mathcal{G}, \alpha \big)$
+  with [[semidirect product groups]] $\mathcal{G} \rtimes_\alpha G$,
   we have an [[equivalence of categories|equivalence]] of their
   [[actions]]:
   $$
@@ -306,6 +360,30 @@ It remains to see that it is a [[bijection]] on [[hom-sets]]. But by constructio
         \mathcal{G} \rtimes G
       )
       Actions( TopologicalSpaces )
+      \\
+      (
+        \mathcal{G}, \alpha
+      )
+      \overset{
+        R
+      }{
+        \to
+      }
+      Aut
+      \Big(
+        (X, \rho)  
+      \Big)
+      &\mapsto&
+      \mathcal{G} \rtimes_\alpha G
+      \overset{
+        (R,\rho)
+      }{\longrightarrow}
+      Aut(X)
+      \\
+      &&
+      (R,\rho)(\gamma, g)(x)
+      \;\coloneqq\;
+      R(\gamma)\big( \rho(g)(x) \big)
     }
   $$
 \end{prop}
@@ -320,6 +398,7 @@ It remains to see that it is a [[bijection]] on [[hom-sets]]. But by constructio
 * [[equivariance group]]
 
 \linebreak
+
 
 [[!redirects equivariant groups]]
 
