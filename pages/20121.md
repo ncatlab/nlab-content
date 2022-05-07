@@ -162,6 +162,10 @@ The last statement may similarly be seen as the complementary special case of  (
 
 =--
 
+### Schur orthogonality
+
+See at *[[Schur orthogonality relations]]*.
+
 ### Special character values
  {#SpecialCharacterValues}
 
