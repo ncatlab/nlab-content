@@ -399,6 +399,10 @@ Discussion of [[gauge symmetry]] of [[holographic tensor networks]] and their [[
 * Kfir Dolev, Vladimir Calvera, Sam Cree, Dominic J. Williamson, 
 *Gauging the bulk: generalized gauging maps and holographic codes* ([arXiv:2108.11402](https://arxiv.org/abs/2108.11402))
 
+In relation to [[renormalization group flow]]:
+
+* Keiichiro Furuya, Nima Lashkari, Mudassir Moosa, *Renormalization group and approximate error correction* ([arXiv:2112.05099](https://arxiv.org/abs/2112.05099))
+
 
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
