@@ -49,10 +49,21 @@ In material set theory without urelements, every set is a pure set.  If there ar
 
 +-- {: .un_defn}
 ###### Definition
-A set $x$ is **pure** if given any sequence $x_n \in x_{n-1} \in \dots \in x_1 \in x_0 = x$, all of the $x_i$ are sets.
+A set $x$ is **pure** if given any finite sequence $x_n \in x_{n-1} \in \dots \in x_2 \in x_1 \in x_0 = x$, all of the $x_i$ are sets.
 =--
 
 Whether this produces the well-founded pure sets or the ill-founded ones depends on whether the sets in the ambient set theory are well-founded or ill-founded.
+
+If you are (unusually) working in an ill-founded material set theory and want only the well-founded pure sets, then you simply need to define the other adjective:
+
++-- {: .un_defn}
+###### Definition
+A class $C$ of sets is __$\in$-inductive__ if whenever all elements of some set $x$ are in $C$, then $x$ itself is in $C$.  A set $x$ is __well-founded__ if it belongs to every $\in$-inductive class $C$.
+=--
+
+(That *all* sets are well-founded is the [[axiom of foundation]].)  If $x$ is well-founded, then there can be no infinite sequence $\in \dots \in x_2 \in x_1 \in x_0 = x$, since the sets with no such sequence form an $\in$-inductive class; the converse (that a set is well-founded if it has no such infinite sequence) holds using [[excluded middle]].  Then a well-founded pure set is simply a set that is both well-founded and pure.
+
+If you are (as usual) working in a well-founded material set theory and want to work with ill-founded pure sets, then you cannot do so directly; instead, follow the structural development in the next section.
 
 
 ## Formalization in structural set theory
@@ -61,7 +72,7 @@ In a structural set theory like [[ETCS]] or [[SEAR]], we can model a pure set by
 
 One way to state the basic theoretical idea is that the class of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the class of ill-founded sets is the [[terminal coalgebra]] of the same functor.  Of course, neither of these algebras exists as a set, since this would violate [[Cantor's theorem]], but we can still describe what their elements would be like.  We can also define these algebras as [[discrete category|discrete]] [[large category|large categories]], or as proper classes in a structural set-class theory such as [[algebraic set theory]].
 
-The discussion which follows is phrased informally, like most mathematics.  However, it is purely structural and can be interpreted in any structural set theory.  For instance, the definition below of a "graph" as a set with a binary relation should be formalized as a set $G$ together with an injection $R \hookrightarrow N\times N$.
+The discussion which follows is phrased informally, like most mathematics.  However, it is purely structural and can be interpreted in any structural set theory.  For instance, the definition below of a "graph" as a set with a binary relation should be formalized as a set $G$ together with an injection $R \hookrightarrow G \times G$.
 
 
 ### Membership graphs
@@ -73,7 +84,7 @@ To describe a pure set, we must give all the elements of that set, each of which
 For the purposes of this page, a **graph** will mean a set $G$ of __nodes__ equipped with a binary [[relation]] $\to$ on the nodes.  A node $i$ is called a __child__ of a node $j$ if $i \to j$.
 =--
 
-The idea of a graph-picture of pure sets is that the *nodes* represent *pure sets*, and we have $i\to j$ precisely when $i\in j$.  Clearly the membership relations between any collection of pure sets should be representable by a graph.  To what extent the converse holds, i.e. which graphs can be interpreted as membership-relations between pure sets, depends on whether the pure sets in question are well-founded or ill-founded.  For purposes of drawing well-founded pure sets, only well-founded graphs should be used, whereas arbitrary graphs can be used to draw ill-founded sets.  (In fact, one form of the [[axiom of anti-foundation]] is that any graph is the picture of some pure sets.)
+The idea of a graph-picture of pure sets is that the *nodes* represent *pure sets*, and we have $i\to j$ precisely when $i\in j$.  Clearly the membership relations between any collection of pure sets should be representable by a graph.  To what extent the converse holds, i.e. which graphs can be interpreted as membership-relations between pure sets, depends on whether the pure sets in question are well-founded or ill-founded.  For purposes of drawing well-founded pure sets, only well-founded graphs should be used, whereas arbitrary graphs can be used to draw ill-founded sets.  (In fact, one form of the [[axiom of anti-foundation]] is that any graph is the picture of some pure set.)
 
 +-- {: .un_defn}
 ###### Definition
@@ -305,7 +316,7 @@ Note that the version on the left is the unwrapping of the loop; we would like a
 
 ## References
 
-*  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
+*  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://irafs.org/courses/materials/aczel_set_theory.pdf).
 
 
 [[!redirects pure set]]
