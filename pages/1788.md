@@ -1,4 +1,48 @@
 
+\begin{tikzcd}
+        \Lambda^n_k
+        \ar[
+          rr,
+          "{\ }"{below, name=s1, pos=.7}
+        ]
+        \ar[d]
+        &&
+        \mathrm{X}_\bullet
+        \ar[
+          d,
+          "{f_\bullet}"{right}
+        ]
+        \\
+        \Delta^n
+        \ar[
+          rr,
+          "{\ }"{above, name=t2, pos=.3}
+        ]
+        \ar[
+          urr,
+          dashed,
+          "{\ }"{above, name=t1},
+          "{\ }"{below, name=s2}
+        ]
+        &&
+        \mathrm{Y}_{\bullet}
+        \mathrlap{\,,}
+        %
+        \ar[
+          from=s1,
+          to=t1,
+          Rightarrow,
+          dashed
+        ]
+        \ar[
+          from=s2,
+          to=t2,
+          Rightarrow,
+          dashed
+        ]
+\end{tikzcd}
+
+
 $\pi_\ast$
 
 \begin{proposition}\label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
