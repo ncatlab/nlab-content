@@ -19,7 +19,7 @@
 
 ## Idea
 
-The concept of a [[homotopy type]] ([[homotopy n-type]]) all of whose [[homotopy groups]] are [[finite groups]] does not have an established name. Sometimes it is called _$\pi$-finiteness_. In the context of [[groupoid cardinality]] "tameness" is used. In [[homological algebra]] "of [[finite type]]" is used, which in [[homotopy theory]] however badly clashes with the concept of [[finite homotopy type]] which is crucially different from _homotopy type with finite homotopy groups_. ([Anel 21](#Anel21)) uses "truncated coherent spaces".
+The concept of a [[homotopy type]] ([[homotopy n-type]]) all of whose [[homotopy groups]] are [[finite groups]] does not have an established name. Sometimes it is called _$\pi$-finiteness_. In the context of [[groupoid cardinality]] "tameness" is used. In [[homological algebra]] "[[of finite type]]" is used, which in [[homotopy theory]] however badly clashes with the concept of [[finite homotopy type]] which is crucially different from _homotopy type with finite homotopy groups_. ([Anel 21](#Anel21)) uses "truncated coherent spaces".
 
 ## Properties
 
