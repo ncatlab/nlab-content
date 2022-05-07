@@ -916,9 +916,15 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 ### General
 
-Original articles in topological homotopy theory:
+Original discussion of classifying spaces in topological homotopy theory:
 
 * [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series, Vol. 63, No. 3 (May, 1956), pp. 430-436 ([jstor:1970012](https://www.jstor.org/stable/1970012))
+
+* {#Milgram67} [[R. James Milgram]], *The bar construction and abelian H-spaces*, The bar construction and abelian H-spaces, Illinois J. Math. 11(2): 242-250 (1967) ([doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full))
+
+* {#MacLane} [[Saunders MacLane]], Section 6 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday* Lecture Notes in Mathematics *168*,  Springer, 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
+
+  > (understood as [[geometric realization of simplicial topological spaces]] via a [[coend]]-formula)
  
 * [[Graeme Segal]], _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
 
