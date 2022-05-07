@@ -97,13 +97,9 @@ P(A) \rtwocell_{1_{P(A)}}^{P(1_A)}{\;\;\;\;\iota_*} & P(A)
 These are subject to the following axioms:
 
 1. For any composable triplet of $1$-cells $(f,g,h)\in Ob_{\mathfrak{C}(C,D)}\times Ob_{\mathfrak{C}(B,C)}\times Ob_{\mathfrak{C}(A,B)}$ we have that 
-
-\begin{centre}
-
-$(\gamma_{f,g}\star 1_{P(h)})\circ\gamma_{f\circ g,h}=(1_{P(f)}\star\gamma_{g,h})\circ\gamma_{f,g\circ h},$
-
-\end{centre}
-
+$$
+(\gamma_{f,g}\star 1_{P(h)})\circ\gamma_{f\circ g,h}=(1_{P(f)}\star\gamma_{g,h})\circ\gamma_{f,g\circ h},
+$$
 where $\circ$ denotes vertical composition and $\star$ denotes horizontal composition, as illustrated by the following commutative $2$-cell diagram in $\mathfrak{D}(P(A),P(D))$:
 
 \begin{centre}
@@ -117,19 +113,11 @@ P(f)\circ P(g)\circ P(h) & \ar@2{->}[l]_{1_{P(f)}\star\gamma_{g,h}} P(f)\circ P(
 \end{centre}
 
 2. For any composable $1$-cells $(f,g)\in Ob_{\mathfrak{C}(B,C)}\times Ob_{\mathfrak{C}(A,B)}$ we have that 
-
-\begin{centre}
-
-$\iota_B\star 1_{P(g)}=\gamma_{1_B,g}^{-1},$
-
-\end{centre}
-
-\begin{centre}
-
-$1_{P(f)}\star\iota_B=\gamma_{f,1_B}^{-1},$
-
-\end{centre}
-
+$$
+\iota_B\star 1_{P(g)}=\gamma_{1_B,g}^{-1},
+$$
+$$1_{P(f)}\star\iota_B=\gamma_{f,1_B}^{-1},
+$$
 as illustrated by the commutative $2$-cell diagrams below
 
 \begin{centre}
