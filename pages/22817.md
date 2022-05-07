@@ -1,5 +1,3 @@
-[[!redirects Hawaiian earring space]]
-[[!redirects Hawaiian earring space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -39,5 +37,17 @@ Viewed in terms of [[general topology]], it would be hard to sell the shrinking 
 ## Related concepts
 
 * [[Warsaw circle]]
+
+## References
+
+
+An early appearance of the terminology is in
+
+* R. Dudley, *Continuity of homomorphisms*, Duke Math. J. 28(4): 587-594 (1961) ([doi:10.1215/S0012-7094-61-02859-9](https://projecteuclid.org/journals/duke-mathematical-journal/volume-28/issue-4/Continuity-of-homomorphisms/10.1215/S0012-7094-61-02859-9.short))
+
+See also:
+
+* Wikipedia, *[Hawaiian earring](https://en.wikipedia.org/wiki/Hawaiian_earring)*
+
 
 [[!redirects Hawaiian earring spaces]]
