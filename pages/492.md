@@ -239,7 +239,7 @@ Every [[empty bundle]] $\varnothing \to X$ is a [[Kan fibration]], since none of
     }
   $$
 
-(keeping in mind that the [0-simplex has no horns](horn#ZeroSimplexHasNoHorns), hence that all horns are [[inhabited set|inhabited]], so that there is *no* [[morphism]] from any horn to the [[empty simplicial set]]).
+(keeping in mind that the [0-simplex has no horns](horn#ZeroSimplexHasNoHorns), hence that all horns are [[inhabited set|inhabited]], so that there is *no* [[morphism]] from any horn to the [[empty simplicial set]], this being a [[strict initial object]]).
 \end{example}
 
 
