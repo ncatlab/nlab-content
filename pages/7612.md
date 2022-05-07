@@ -58,6 +58,8 @@ See also:
 
 Sources listing real-world issues programming issues that might motivate verification of software include
 
+* Thomas Huckle, Tobias Neckel, *Bits and Bugs: A Scientific and Historical Review on Software Failures in Computational Science*, SIAM 2019 ([doi:10.1137/1.9781611975567](https://doi.org/10.1137/1.9781611975567))
+
 * _[Some disasters caused by numerical errors](https://web.archive.org/web/20200117070005/http://ta.twi.tudelft.nl/nw/users/vuik/wi211/disasters.html)_
 
 * Computerworld, *[Top software failures in recent history](https://www.computerworld.com/article/3412197/top-software-failures-in-recent-history.html#slide1)*, Feb 17, 2020
@@ -72,7 +74,7 @@ Software verification for [[cryptography]]:
 
 * [[Mihhail Aizatulin]], Andy Gordon, Jan Jürjens, *Extracting and Verifying Cryptographic Models from C Protocol Code by Symbolic Execution*, CCS '11 Proceedings of the 18th ACM Conference on Computer and Communications Security 2011 ([pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/extracting.pdf))
 
-* Matthias Berg, *Formal Verification of Cryptographic Security Proofs*, 20013 ([pdf](https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/26584/1/thesis_berg.pdf), [doi:10.22028/D291-26528](http://dx.doi.org/10.22028/D291-26528))
+* Matthias Berg, *Formal Verification of Cryptographic Security Proofs*, 2013 ([pdf](https://publikationen.sulb.uni-saarland.de/bitstream/20.500.11880/26584/1/thesis_berg.pdf), [doi:10.22028/D291-26528](http://dx.doi.org/10.22028/D291-26528))
 
 * [[Adam Petcher]], *A Foundational Proof Framework for Cryptography*, 2014 ([pdf](https://dash.harvard.edu/bitstream/handle/1/17463136/PETCHER-DISSERTATION-2015.pdf), [harvard:17463136](https://dash.harvard.edu/handle/1/17463136))
 
@@ -102,7 +104,7 @@ Software verification via [[dependent type theory]] (such as in [[Coq]]):
 
 * [[Adam Chlipala]], _Certified programming with dependent types_, MIT Press 2013 ([ISBN:9780262026659 ](https://mitpress.mit.edu/books/certified-programming-dependent-types), [pdf](http://adam.chlipala.net/cpdt/cpdt.pdf),  [book webpage](http://adam.chlipala.net/cpdt/))
 
-* Aleksandar Nanevski, Anindya Banerjee, Deepak Garg, *Dependent Type Theory for Verification of Information Flow and Access Control Policies*,  ACM Transactions on Programming Languages and Systems July 2013 Article No.: 6 ([arXiv:10.1145/2491522.2491523](https://doi.org/10.1145/2491522.2491523))
+* Aleksandar Nanevski, Anindya Banerjee, Deepak Garg, *Dependent Type Theory for Verification of Information Flow and Access Control Policies*,  ACM Transactions on Programming Languages and Systems July 2013 Article No.: 6 ([doi:10.1145/2491522.2491523](https://doi.org/10.1145/2491522.2491523))
 
 
 ### Via homotopy type theory
