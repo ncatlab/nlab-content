@@ -34,6 +34,8 @@ If it is convex there is seemingly no need for the considerations of (the polygo
 
 Convex polgyons:
 
+* ([[bigon]])
+
 * [[triangle]]
 
 * [[square]]
