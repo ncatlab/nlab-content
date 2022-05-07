@@ -267,6 +267,8 @@ See at _[FinSet -- Properties -- Opposite category](FinSet#OppositeCategory)_. S
 
 * [[opposite (infinity,1)-category]]
 
+* [[opposite adjunction]]
+
 ## References
 
 For the definition in enriched category theory see page 12 of 
