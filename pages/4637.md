@@ -598,6 +598,8 @@ The [[Serre-Swan theorem]] says that suitable [[modules]] over an commutative [[
 
 ## Related concepts
 
+* [[duality between algebra and geometry]]
+
 * [[function algebra]]
 
 * [[function algebras on ∞-stacks]]
