@@ -132,9 +132,12 @@ There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic strin
 
 The conjectured duality between [[type IIA string theory]] [[KK-compactification|KK-compactified]] on [[K3]] times an [[n-torus]] and [[heterotic string theory]] on the $(n+2)$-torus is originally due to
 
-* [[Chris Hull]], [[Paul Townsend]], section 6 of _Unity of Superstring Dualities_, Nucl. Phys. B438:109-137, 1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+* [[Chris Hull]], [[Paul Townsend]], section 6 of: _Unity of Superstring Dualities_, Nucl. Phys. B438:109-137, 1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
 
-* {#Witten95} [[Edward Witten]], section 4 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B443:85-126, 1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* {#Witten95} [[Edward Witten]], section 4 of: _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B443:85-126, 1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+
+* {#Lerche99} [[Wolfgang Lerche]], _On the Heterotic/F-Theory Duality in Eight Dimensions_, In: Baulieu L., Green M., Picco M., Windey P. (eds.) _Progress in String Theory and M-Theory_, NATO Science Series (Series C: Mathematical and Physical Sciences), vol 564. Springer 2001 ([arXiv:hep-th/9910207](https://arxiv.org/abs/hep-th/9910207), [doi:10.1007/978-94-010-0852-5_2](https://doi.org/10.1007/978-94-010-0852-5_2))
 
 
 Review includes
