@@ -4,6 +4,7 @@
 {:toc}
 
 
+
 ## Idea
 
 A *regular tesselation* or *tiling* is a [[covering]] of a [[plane]] by [[regular polygons]] (the tiles), so that polygons overlap only on their [[boundary]] and such the same number of tiles meet at each [[vertex]].
@@ -59,7 +60,15 @@ See also:
 
 * Wikipedia, *[Uniform tilings in hyperbolic plane](https://en.wikipedia.org/wiki/Uniform_tilings_in_hyperbolic_plane)*
 
-* Wikipedia, *[Hyperbolic Geometry -- Hyperbolic Tesselations](https://mathstat.slu.edu/escher/index.php/Hyperbolic_Geometry#Hyperbolic_Tessellations)*
+* Wikipedia, *[Hyperbolic Geometry -- Hyperbolic Tesselations](https://mathstat.slu.edu/escher/index.php
+/Hyperbolic_Geometry#Hyperbolic_Tessellations)*
+
+On iterative constructions of hyperbolic tesselations from "inflation rules":
+
+* Latham Boyle, Madeline Dickens, Felix Flicker, Section IV of: _Conformal Quasicrystals and Holography_, Phys. Rev. X 10, 011009 (2020) ([arXiv:1805.02665](https://arxiv.org/abs/1805.02665))
+
+* [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], around Fig. 6 in: _Central charges of aperiodic holographic tensor network models_, Phys. Rev. A 102, 042407 ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+
 
 
 [[!redirects tesselations]]
