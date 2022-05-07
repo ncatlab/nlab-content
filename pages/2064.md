@@ -160,6 +160,10 @@ Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenche
 
 * [[Ralph Cohen]], _The Topology of Fiber Bundles_, Stanford University (2017) ([pdf](http://math.stanford.edu/~ralph/fiber.pdf), [OMN:201707.110706](https://www.ams.org/open-math-notes/omn-view-listing?listingId=110706))
 
+* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
+
+  > (in the context of [[homotopy theory]])
+
 
 With an eye towards application in [[mathematical physics]]:
 
