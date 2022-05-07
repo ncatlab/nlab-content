@@ -52,11 +52,16 @@ Write $sYTableaux_n$ for the [[set]] of [[standard Young tableaux]] with $n$ box
 
 \[
   \label{VectorsInSeminormalRepresentations}
-  \big\{ v_T \in \mathbb{C}[Sym(n)]\big\}_{T \in sYTableaux_n}
+  \big\{ v_{T,k} \in \mathbb{C}[Sym(n)]\big\}_{
+    { T \in sYTableaux_n}
+    \atop
+    { 1 \leq m \leq dim(S^{(\left\vert T\right\vert)})  }
+  }
 \]
 
 for the canonical [[linear basis]] of Young's [[seminormal representation]].
 
+We'll notationally suppress the multiplicity index $m$ in the following.
 
 \begin{prop}\label{EigenvaluesOfJMElements}
 
