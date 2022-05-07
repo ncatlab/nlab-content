@@ -1,5 +1,7 @@
 
-* [website](http://math.huji.ac.il/~piz/)
+* [personal webpage](http://math.huji.ac.il/~piz/)
+
+* [diffeology.net](http://diffeology.net/)
 
 ## Selected writings
 
