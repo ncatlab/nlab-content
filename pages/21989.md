@@ -124,9 +124,13 @@ Accordingly, the [[Brown representability theorem|corresponding]] [[tower]] of [
 
 [[!include flavours of cobordism cohomology theories -- table]]
 
+
 ## References
 
-[[!include finite-rank complex orientation and MΩSUn -- references]]
+[[!include finite-dimensional complex orientation and Ravenel's spectra -- references]]
+
+
+
 
 [[!redirects Ravenel's spectra]]
 
