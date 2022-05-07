@@ -77,7 +77,7 @@ $$
 
 * [[foliation of a Lie algebroid]]
 
-## Referemces
+## References
 
 Maybe the first discussion of foliations of Lie groupoids appears in 
 
