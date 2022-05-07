@@ -184,6 +184,15 @@ Early textbook accounts assuming the Hausdorff condition:
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], sections I.1.5.3 and III.2 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/GZ.pdf))
 
+also:
+
+* [[Susan Niefield]], Section 9 of: *Cartesianness*, PhD thesis, Rutgers 1978 ([proquest:302920643](https://www.proquest.com/docview/302920643))
+
+
+* [[Francis Borceux]], Section 7.2 of: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
+
+
 Influential emphasis of the usefulness of the notion as providing a [[convenient category of topological spaces]]:
 
 * {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
