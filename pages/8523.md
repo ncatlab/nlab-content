@@ -57,10 +57,12 @@ where $\mathbb{Z}_p$ is the group of $p$-[[p-adic integers|adic integers]].
 
 ## Related concepts
 
-* [[modular arithmetic]]
+* [[modular arithmetic]], [[number theory]], [[field of one element]]
 
 ## References
 
 * Wikipedia, _[Finite field](http://en.wikipedia.org/wiki/Finite_field)_
+* James Ax, _The elementary theory of finite fields_, Annals of Math. Series 2. 88 (2): 239–271 (1968) [doi](https://doi.org/10.2307/1970573)
 
+category: algebra
 [[!redirects finite fields]]
