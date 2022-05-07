@@ -16,5 +16,10 @@ On [[hadrons]], in particular [[baryons]] as [[Skyrmions]]. via [[holographic QC
 
 * {#Yi13} [[Piljin Yi]], _Two Approaches to Holographic Baryons/Nuclei_, Few-Body Syst (2013) 54: 77. ([doi:10.1007/s00601-012-0373-7](https://doi.org/10.1007/s00601-012-0373-7))
 
+Introducing the [[nuclear matrix model]] for [[baryons]]/[[nucleons]] in the [[Witten-Sakai-Sugimoto model]]:
+
+* {#HashimotoIizukaYi10} [[Koji Hashimoto]], [[Norihiro Iizuka]], [[Piljin Yi]], _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
+
+
 
 category: people
