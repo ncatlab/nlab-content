@@ -183,7 +183,7 @@ A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is cal
  {#Closedness}
 
 \begin{prop}
-Every Hurewicz cofibration $i$ is [[injective function|injective]] and a [[homeomorphism]] onto its image.
+Every Hurewicz cofibration $i \colon A \to X$ is [[injective function|injective]] and a [[homeomorphism]] onto its image. If $X$ is [[Hausdorff space|Hausdorff]], then $i$ is [[closed map|closed]].
 \end{prop}
 
 ([tDKP 1970](#tDKP70) (1.17)). 
