@@ -152,7 +152,11 @@ A good quick account is in
 
 * {#yotams} yotams, _What is flavor?_ ([pdf](https://webhome.weizmann.ac.il/home/yotams/notes/ep1_flavor.pdf), [[yotamsFlavor.pfd:file]])
 
-Textbook account:
+Textbook accounts:
+
+
+* [[Robert E. Marshak]], Chapter 3 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
+
 
 * {#Buras20}  [[Andrzej Buras]], _Gauge Theory of Weak Decays_, (2020) ([doi:10.1017/9781139524100](https://doi.org/10.1017/9781139524100), [CERN review](https://cerncourier.com/a/the-hitchhikers-guide-to-weak-decays/) by [[Gino Isidori]])
 
