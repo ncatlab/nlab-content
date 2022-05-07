@@ -272,10 +272,13 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 ## References
 
-A standard textbook reference is chapter 4 in volume 1 of 
+Textbook accounts:
 
-* Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_ Academic Press, (1983)
- {#KadisonRingrose}
+* [[Gerard Murphy]], _$C^\ast$-algebras and Operator Theory_, Academic Press 1990 ([doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6))
+
+
+* {#KadisonRingrose} Richard Kadison, John Ringrose, chapter 4 in volume 1 of: _Fundamentals of the theory of operator algebras_ Academic Press, (1983)
+ 
 
 
 An exposition that explicitly gives [[Gelfand duality]] as an [[equivalence of categories]] and introduces all the notions of [[category theory]] necessary for this statement is in
