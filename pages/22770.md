@@ -43,12 +43,8 @@ Given an element $a$ in scale $M$, a __principal $\bot$-face__ $((a))$ is the su
 A __[[Jacobson radical]]__ of a scale $M$ is the set $J(M)$ of all $a$ in $M$ such that for all $n$ in $\mathbb{N}$, $x \leq (\bot\vert)^n \top$. $M$ is __semi-simple__ if $J(M)$ is [[trivial]]. 
 
 +-- {: .standout}
-The proof of the Linear Representation Theorem in section 8 of _Algebraic Real Analysis_ by Peter Freyd requires the use of [[excluded middle]] through its implicit definition of the [[quasiorder]] $\lt$ from the algebraically defined [[partial order]] $\leq$. In particular, that every equational axiom added to the theory of minor scales is either a consequence of the scale identity for scales, or is inconsistent with the theory of minor scales, is a classical result, as certain equations have only been derived from the scale identities through the Linear Representation Theorem. The same is true of the definition of simple scales in section 10, of the algebraic construction of the standard interval $I$ from simple scales in section 11, and various results involving absolute retracts in section 25. Since quasiorders can be constructed from partial orders in any [[inequality space]], these results hold if the scales have a [[tight apartness relation]], but it is unknown if these results still hold for general scales in [[constructive mathematics]]. 
+The proof of the Linear Representation Theorem in section 8 of _Algebraic Real Analysis_ by Peter Freyd requires the use of [[excluded middle]] through its implicit definition of the [[quasiorder]] $\lt$ from the algebraically defined [[partial order]] $\leq$. In particular, that every scale is a [[*-autonomous category]] and thus a model for [[linear logic]] and that every equational axiom added to the theory of minor scales is either a consequence of the scale identity for scales or is inconsistent with the theory of minor scales are classical results, as certain lemmas used in the proofs have only been derived from the scale identities through the Linear Representation Theorem. The same is true of the definition of simple scales in section 10, of the algebraic construction of the standard interval $I$ from simple scales in section 11, and various results involving absolute retracts in section 25. Since quasiorders can be constructed from partial orders in any [[inequality space]], these results hold if the scales have a [[tight apartness relation]], but it is unknown if these results still hold for general scales in [[constructive mathematics]]. 
 =--
-
-### As star-autonomous categories
-
-...
 
 ## Examples
 
