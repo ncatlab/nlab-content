@@ -1241,7 +1241,7 @@ The above description of the Quillen approach draws on blog comments by [[Kathry
 
 Discussion from the point of view of [[(∞,1)-category theory]] and [[E-∞ algebras]] is in
 
-* [[Jacob Lurie]], _Rational and $p$-adic homotopy theory_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf))
+* [[Jacob Lurie]], Section 1 of: _Rational and $p$-adic homotopy theory_, 2011 ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf), [[Lurie_RationalHomotopyTheory.pdf:file]])
 
 An extension of rational homotopy theory to describe (some) non-[[simply connected spaces]] is given, using [[derived algebraic geometry]], in
 
