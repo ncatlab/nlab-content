@@ -24,9 +24,9 @@ A _3-manifold_ is a [[manifold]] of [[dimension]] 3. (Our default meaning of "ma
 
 The following is taken from [Hatcher](#Hatcher): 
 
-> A pleasant feature of 3-manifolds, in contrast to higher dimensions, is that there is no essential difference between smooth, piecewise linear, and topological manifolds. It was shown by Bing and Moise in the 1950s that every topological 3-manifold can be triangulated as a simplicial complex whose combinatorial type is unique up to subdivision. And every triangulation of a 3-manifold can be taken to be a smooth triangulation in some differential structure on the manifold, unique up to diffeomorphism.  Thus every topological  3-manifold has a unique smooth structure, and the classifications up to diffeomorphism and homeomorphism coincide. 
+> A pleasant feature of 3-manifolds, in contrast to higher dimensions, is that there is no essential difference between smooth, piecewise linear, and topological manifolds. It was shown by Bing and [Moise](#Moise52) in the 1950s that [[triangulation theorem|every topological 3-manifold can be triangulated]] as a simplicial complex whose combinatorial type is unique up to subdivision. And every triangulation of a 3-manifold can be taken to be a smooth triangulation in some differential structure on the manifold, unique up to diffeomorphism.  Thus every topological  3-manifold has a unique smooth structure, and the classifications up to diffeomorphism and homeomorphism coincide. 
 
-Thus it makes no essential difference if we consider 3-manifolds as mere topological manifolds, or as PL or [[smooth manifolds]]. It's often technically convenient to work in the smooth category. 
+Thus it makes no essential difference if we consider 3-manifolds as mere topological manifolds, or as [[piecewise-linear manifolds]] or [[smooth manifolds]]. It's often technically convenient to work in the smooth category. 
 
 ### Poincar&#233; conjecture
 
@@ -98,6 +98,11 @@ Review:
 * {#Hatcher}  [[Allen Hatcher]], _The classification of 3-manifolds -- a brief overview_, ([pdf](https://www.math.cornell.edu/~hatcher/Papers/3Msurvey.pdf)). 
 
 * {#Martelli16} Bruno Martelli, _An Introduction to Geometric Topology_ ([arXiv:1610.02592](https://arxiv.org/abs/1610.02592))
+
+The [[triangulation theorem]] for [[3-manifolds]]:
+
+* {#Moise52} [[Edwin E. Moise]],  *Affine Structures in 3-Manifolds: V. The Triangulation Theorem and Hauptvermutung*, Annals of Mathematics Second Series, Vol. 56, No. 1 (Jul., 1952), pp. 96-114 ([doi:10.2307/1969769](https://doi.org/10.2307/1969769), [jstor:1969769](https://www.jstor.org/stable/1969769))
+
 
 3-manifolds as [[branched covers]] of the [[3-sphere]]:
 
