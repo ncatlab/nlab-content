@@ -92,6 +92,16 @@ On [[tensor triangulated categories]] and [[traces]]:
 
 * {#May01} [[Peter May]], _The Additivity of Traces in Triangulated Categories_, Advances in Mathematics, Volume 163, Issue 1, 2001, Pages 34-73 ([doi:10.1006/aima.2001.1995](https://doi.org/10.1006/aima.2001.1995))
 
+On the [[Picard infinity-group]] of [[equivariant stable homotopy theory]] and the notion of [[RO(G)-grading]]:
+
+* {#FauskLewisMay01} [[Halvard Fausk]], [[L. Gaunce Lewis]], [[Peter May]],  _The Picard group of equivariant stable  homotopy theory_, Advances in Mathematics Volume 163, Issue 1, 15 October 2001, Pages 17&#8211;33  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/FLMJan01.pdf))
+
+
+On [[six operations]] and [[Wirthmüller contexts]]:
+
+* {#May05} [[Halvard Fausk]], P. Hu, [[Peter May]],  _Isomorphisms between left and right adjoints_, Theory and Applications of Categories , Vol. 11, 2003, No. 4, pp 107-131. ([TAC](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+
+
 On [[parametrized stable homotopy theory]]:
 
 * [[Peter May]], [[Johann Sigurdsson]], _Parametrized Homotopy Theory_, Mathematical Surveys and Monographs, vol. 132, AMS 2006  ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
