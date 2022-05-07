@@ -270,6 +270,8 @@ Review:
 
 * {#Weigel96} [[Herbert Weigel]], _Baryons as Three Flavor Solitons_,  	Int. J. Mod. Phys. A11:2419-2544, 1996 ([arXiv:hep-ph/9509398](https://arxiv.org/abs/hep-ph/9509398), [cds:288541](http://cds.cern.ch/record/288541), [doi:10.1142/S0217751X96001218](https://doi.org/10.1142/S0217751X96001218))
 
+* [[Ulrich Mosel]], Section 17.1 in: *Soliton Models of Hadrons* ([doi:10.1007/978-3-662-03841-3_17](https://doi.org/10.1007/978-3-662-03841-3_17)), which in turn is Chapter 17 in: *Fields, Symmetries, and Quarks*, Springer 1999 ([doi:10.1007/978-3-662-03841-3](https://link.springer.com/book/10.1007/978-3-662-03841-3))
+
 * {#Weigel08} [[Herbert Weigel]], _Chiral Soliton Models for Baryons_,  Lecture Notes in Physics book series, volume 743, Springer 2008 ([doi:10.1007/978-3-540-75436-7](https://doi.org/10.1007/978-3-540-75436-7))
 
 * Yong-Liang Ma, Masayasu Harada, _Lecture notes on the Skyrme model_ ([arXiv:1604.04850](https://arxiv.org/abs/1604.04850), [spire:1448311](https://inspirehep.net/literature/1448311))
