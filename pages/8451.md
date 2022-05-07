@@ -80,7 +80,7 @@ in which $s = \sum^n_{i=1} x_i$.
 
 Often, for ease of calculation, Beta distributions are chosen as priors on $p$, which can be taken as representing one's confidence as though one had already seen a certain number of heads and tails. Bayesians are sometimes criticized for the subjectivity inherent in the choice of a prior, but in many cases, such as this one, prior distributions will eventually be 'washed out' by the weight of the evidence.  The de Finetti theorem has a generalization for multivariate distributions ([BBF](#BBF)).
 
-Of course, exchangeability may not represent the strength of one's prior beliefs accurately. For example, in the case of coin tossing, I may have a suspicion of there being something in the tossing mechanism which would make the result of one toss depend on its predecessor. Then it would be quite reasonable for me, say, to have accorded a higher prior probability to the sequence of one hundred heads followed by one hundred tails than to some of its permutations. There are, however, generalizations of de Finetti's representation theorem to Markov chain situations ([Diaconis and Freedman](#DF80})).
+Of course, exchangeability may not represent the strength of one's prior beliefs accurately. For example, in the case of coin tossing, I may have a suspicion of there being something in the tossing mechanism which would make the result of one toss depend on its predecessor. Then it would be quite reasonable for me, say, to have accorded a higher prior probability to the sequence of one hundred heads followed by one hundred tails than to some of its permutations. There are, however, generalizations of de Finetti's representation theorem to Markov chain situations ([Diaconis and Freedman](#DF80)).
 
 ## Related entries
 
@@ -101,9 +101,8 @@ Of course, exchangeability may not represent the strength of one's prior beliefs
 
 * {#Corfield} [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press, 2003, Chap. 4.
 
-* {#DF80} [[Persi Diaconis]] and David Freedman, "De Finetti's theorem for Markov chains." Annals of Probability, 8(1), 115-130, 1980.
 
-* {#BBF} A. Bach, H. Blank, H. Francke, _Bose-Einstein statistics derived from the statistics of classical particles_, Lettere Al Nuovo Cimento Series 2, Volume 43, Issue 4, pp 195-198.
+
 
 See also 
 
@@ -116,6 +115,14 @@ Placing Bayesian inference in a category theoretic setting occurs in
 * [[Kirk Sturtz]], _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, ([ arXiv:1601.02593](https://arxiv.org/abs/1601.02593))
 
 * [[Jared Culbertson]], [[Kirk Sturtz]] _Bayesian machine learning via category theory_, ([arXiv:1312.1445](https://arxiv.org/abs/1312.1445))
+
+### Exchangeability
+
+* {#DF80} [[Persi Diaconis]] and David Freedman, "De Finetti's theorem for Markov chains." Annals of Probability, 8(1), 115-130, 1980.
+
+* {#BBF} A. Bach, H. Blank, H. Francke, _Bose-Einstein statistics derived from the statistics of classical particles_, Lettere Al Nuovo Cimento Series 2, Volume 43, Issue 4, pp 195-198.
+
+* {#FGP21} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's Theorem in Categorical Probability_, ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
 
 
