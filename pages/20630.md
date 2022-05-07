@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -67,6 +68,26 @@ $$
 
 ([Gleason 50](#Gleason50), see [Palais 60, Theorem 1.4.3](#Palais60))
 
+Other/more general conditions for the equivariant extension to exist
+
+1. the ambient [[domain]] [[G-space]] $X$ is
+
+   1. [[locally compact topological space|locally comact]] 
+
+   1. [[separable topological space|separable]] 
+
+   1. [[metrizable topological space|metrizable]]
+
+   1. finite-dimensional (?)
+
+   1. with a [[finite number]] of [[orbit type|orbit types]].
+
+1. the [[codomain]] [[G-space]] is such that
+
+   * for every $G$-[[orbit type]] $(H)$ in the [[complement]] $X \setminus A$ the [[fixed locus]] $E^H$ is an [[absolute neighbourhood retract]].
+
+([Jaworowski 76](#Jaworowski76), [Lashof 81](#Lashof81))
+
 ## Related concepts
 
 [[!include extension theorems -- table]]
@@ -86,7 +107,7 @@ $$
 
 * {#Jaworowski81} [[Jan Jaworowski]], _An equivariant extension theorem and $G$-retracts with a finite structure_, Manuscripta Math (1981) 35: 323 ([doi:10.1007/BF01263266](https://doi.org/10.1007/BF01263266))
 
-* [[Richard Lashof]], _The Equivariant Extension Theorem_, Proceedings of the American Mathematical Society Vol. 83, No. 1 (Sep., 1981), pp. 138-140 ([jstor:2043909](https://www.jstor.org/stable/2043909))
+* {#Lashof81} [[Richard Lashof]], _The Equivariant Extension Theorem_, Proceedings of the American Mathematical Society Vol. 83, No. 1 (Sep., 1981), pp. 138-140 ([jstor:2043909](https://www.jstor.org/stable/2043909))
 
 [[!redirects equivariant Tietze extension theorems]]
 
