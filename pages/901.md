@@ -567,3 +567,6 @@ See also the remarks at the beginning of section 5.3 of
 
 [[!redirects category of Ind-objects]]
 [[!redirects categories of Ind-objects]]
+
+[[!redirects Ind category]]
+[[!redirects Ind categories]]
