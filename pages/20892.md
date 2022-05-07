@@ -1,5 +1,5 @@
 
-### Chord diagrams and theory weight systems in Physics
+### Chord diagrams and weight systems in Physics
  {#ReferencesWeightSystemsOnChordDiagramsInPhysics}
 
 We discuss occurrences of ([[weight systems]] on) [[chord diagrams]]/[[Jacobi diagrams]] in [[physics]]:
