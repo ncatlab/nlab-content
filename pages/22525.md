@@ -55,7 +55,7 @@ See also:
 
 * Wikipedia, *[Uniform tilings in hyperbolic plane](https://en.wikipedia.org/wiki/Uniform_tilings_in_hyperbolic_plane)*
 
-* Wikipediam *[Hyperbolic Geometr -- Hyperbolic Tesselations](https://mathstat.slu.edu/escher/index.php/Hyperbolic_Geometry#Hyperbolic_Tessellations)*
+* Wikipedia, *[Hyperbolic Geometry -- Hyperbolic Tesselations](https://mathstat.slu.edu/escher/index.php/Hyperbolic_Geometry#Hyperbolic_Tessellations)*
 
 
 
