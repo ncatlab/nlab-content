@@ -11,6 +11,6 @@ marked points.
 
 * [Article by Leila Schneps](http://www.math.jussieu.fr/~leila/SchnepsLM.pdf)
 
-* [Project of transcription](https://agrothendieck.github.io/galoispoincaregrothendieck/galois.pdf)
+* [Project of transcription](https://agrothendieck.github.io/divers/galois.pdf)
 
 category: reference
