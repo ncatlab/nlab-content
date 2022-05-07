@@ -170,7 +170,7 @@ hence a [[weight system]] [[horizontal chord diagrams]] closed to [[Sullivan cho
 <img src="https://ncatlab.org/nlab/files/M2M5BraneBoundStatesAsWeightSystemsII.jpg" width="800">
 </center>
 
-> graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+> (from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]])
 
 
 {#M2M5BraneBoundStatesAsWeightSystemsGraphics} **Normalization and large $N$ limit.** The first power of the square root in (eq:M2M5BraneBoundStateInWeightSystems) reflects the [[volume]] measure on the [[fuzzy 2-sphere]] (by the formula [here](fuzzy+sphere#eq:FuzzyS2Integration)), while the power of $2\,deg$ (which is the number of operators in the [[multi-trace observable]] evaluating the [[weight system]]) gives the normalization ([here](fuzzy+sphere#eq:BasisFunctionsOnFuzzy2Sphere)) of the functions on the fuzzy 2-sphere.
