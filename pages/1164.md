@@ -32,16 +32,16 @@ The _orbit category_ of a [[group]] $G$ is the category of "all kinds" of  [[orb
 
 Given a [[topological group]] $G$ the __orbit category__ $\operatorname{Orb}_G$ (denoted also $\mathcal{O}_G$) is the [[category]] whose 
 
-* objects are the [[homogeneous space]]s ($G$-orbit types) $G/H$, where $H$ is a closed [[subgroup]] of $G$, 
+* [[objects]] are the [[homogeneous spaces]]  ([[coset spaces]], $G$-[[orbit types]]) $G/H$, where $H$ is a [[closed subgroup]] of $G$, 
 
-* and whose morphisms are $G$-equivariant maps.  
+* [[morphisms]] are the $G$-[[equivariant function|equivariant]] [[continuous functions]].  
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-For suitable continuous [[actions]] of $G$ on a [[topological space]] $X$, every [[orbit]] of the action is [[isomorphism|isomorphic]] to one of the [[homogeneous spaces]] $G/H$ (the [[stabilizer group]] of any point in the orbit is conjugate to $H$). This is the sense in which def. \ref{TheOrbitCategory} gives "the category of all $G$-orbits".
+For suitable [[continuous function|continuous]] [[actions]] of $G$ on a [[topological space]] $X$, every [[orbit]] of the action is [[isomorphism|isomorphic]] to one of the [[coset spaces]] $G/H$ (the [[stabilizer group]] of any point in the orbit is conjugate to $H$). This is the sense in which def. \ref{TheOrbitCategory} gives "the category of all $G$-orbits".
 
 =--
 
