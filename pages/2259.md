@@ -1,3 +1,4 @@
+
 With [[S. Eilenberg|"Sammy" Eilenberg]], Saunders Mac Lane was one of the original pioneers of
 [[category theory]]. He initially worked on it as a language to enable 'natural transformations' to be described in a 'natural' way, and also developed, again with Eilenberg many of the strong links with group theory and the cohomology of groups.  He was the author of one of the key books on homological algebra, see below. 
 
@@ -26,6 +27,11 @@ Introducing [[Eilenberg-MacLane spaces]]:
 * {#EilenbergMacLane54II} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, II: Methods of Computation_, Annals of Mathematics Second Series, Vol. 60, No. 1 (Jul., 1954), pp. 49-139 ([jstor:1969702](https://www.jstor.org/stable/1969702))
 
 * {#EilenbergMacLane54III} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, III: Operations and Obstructions_, Annals of Mathematics Second Series, Vol. 60, No. 3 (Nov., 1954), pp. 513-557 ([jstor:1969849](https://www.jstor.org/stable/1969849))
+
+Introducing the [[simplicial classifying space]] construction $\overline{W}G$:
+
+* {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])
+
 
 On [[category theory]]:
 
