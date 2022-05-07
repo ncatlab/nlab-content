@@ -35,6 +35,8 @@ This entry is to record the monograph
 
     **Categories of Sheaves**
 
+    [doi:10.1017/CBO9780511525872](https://doi.org/10.1017/CBO9780511525872)
+
   Encyclopedia of Mathematics and its Applications **50**
 
   Cambridge University Press (1994)
