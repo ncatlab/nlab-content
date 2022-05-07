@@ -22,6 +22,12 @@ reviewed in
 
 * [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, Linus Wulff, _New superconformal models in six dimensions: Gauge group and representation structure_, PoS CORFU2011 (2011) 071 ([arXiv:1204.0542](https://arxiv.org/abs/1204.0542), [spire:1102894](http://inspirehep.net/record/1102894))
 
+On [[E9]] [[exceptional field theory]]:
+
+* Guillaume Bossard, Franz Ciceri, Gianluca Inverso, [[Axel Kleinschmidt]], [[Henning Samtleben]], _$E_9$ exceptional field theory II. The complete dynamics_ ([arXiv:2103.12118](https://arxiv.org/abs/2103.12118))
+
+
+
 
 ## Related $n$Lab entries
 
