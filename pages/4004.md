@@ -23,7 +23,7 @@ $$
 
 of $T$ applied to the [[slice category]] $A \simeq A/1$, followed by [[dependent sum]] (projection on the source). 
 
-We say that $T$ is a **parametric right adjoint**, or **p.r.a.**, if the functor $T_1$ is a [[right adjoint]].  Parametric right adjoints are also called **local right adjoints**.
+We say that $T$ is a **parametric right adjoint**, or **p.r.a.**, if the functor $T_1$ is a [[right adjoint]].  Parametric right adjoints are also called **local right adjoints**. 
 
 A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its unit and multiplication are [[cartesian natural transformation|cartesian]].  Thus in particular it is a [[cartesian monad]].  A p.r.a. monad is also called a **strongly cartesian monad**.
 
@@ -113,6 +113,11 @@ $Quiv$ is of course a presheaf category $[Q^{op},Set]$, where $Q$ is the categor
  {#Weber08}
 
 * {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_ (2011) ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064))
+
+In [[database theory]] p.r.a.s between copresheaf categories, known as _data migration functor_, are treated in
+
+* {#Spivak10} [[David Spivak]], _Functorial Data Migration_, ([arXiv:1009.1166](https://arxiv.org/abs/1009.1166))
+
 
 [[!redirects parametric right adjoints]]
 [[!redirects p.r.a. functor]]
