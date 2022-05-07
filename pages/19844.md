@@ -82,11 +82,11 @@ Indications of flavour anomalies have been observed consistently and with increa
 \begin{center}
 \begin{imagefromfile}
   "file_name": "FlavourAnomaliesByChannels.jpg",
-  "width": 590
+  "width": 590,
+  "caption": "table grabbed from [BGV 19](#BGV19)"
 \end{imagefromfile}
 \end{center}
 
-> table grabbed from [BGV 19](#BGV19)
 
 \begin{imagefromfile}
   "file_name": "FlavourAnomalyAt4Sigma.jpg",
@@ -98,14 +98,14 @@ Indications of flavour anomalies have been observed consistently and with increa
     "bottom": 10,
     "left": 0,
     "unit": "px"
-  } 
+  },
+  "caption": "graphics grabbed from [Dey 18](#Dey18)" 
 \end{imagefromfile}
 
 
 
 The global (all channels and experiments combined) tension  with the standard model by end of 2018 had [[statistical significance]] around $4.1$ [[standard deviations|σ]] ([Strumia et al. 17](#StrumiaEtAl17), [Cartelle 18, slide 22/25](#Cartelle18), [Dey 18, slide 16/23](#Dey18), [HAMN 18, p. 4](#HAMN18), [Bouchard-Cao-Owen 19](#BouchardCaoOwen19)). Various authors see the global tension (i.e. of all decay channels jointly) at over $5 \sigma$ ([CCDGMV 17](#CCDGMV17), [CFMVV 17](#CFMVV17) [CGMS 18](#CGMS18), [Dordei 18, slide 12](#Dordei18)), which traditionally qualifies as detection (see [here](statistical+significance#ParticlePhysics)), some authors already quote $5.3 \sigma - 5.8 \sigma$ ([ACDGMM 19](#ACDGMM19)) or $5-6 \sigma$ ([Kumar-London 19](#KumarLondon19), [Kumar 19](#Kumar19)).
 
-> graphics grabbed from [Dey 18](#Dey18)
 
 
 This situation was confirmed with the completed measurements presented at [Moriond 2019](http://moriond.in2p3.fr/2019/), which showed ([Straub 19](#Straub19), [Allanach 19](#Allanach19)) smaller mean discrepancy but also had smaller uncertainty, thus keeping the [[statistical significance]] of the apparent anomaly essentially unaffected. But [Caria 19, slide 9](#Caria19)  reported new measurements by [[Belle collaboration|Belle]] ([Belle 1910](#Belle1910))
@@ -123,15 +123,10 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 \begin{center}
 \begin{imagefromfile}
   "file_name": "ZupanFlavourAnomaly.jpg",
-  "width": 690
+  "width": 690,
+  "caption": "from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)"
 \end{imagefromfile}
-from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
 \end{center}
-
-
-
-
-
 
 Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (see also [Lopes 20](#Lopes20), [CERN Courier 200311](#CERNCourir200311)):
 
@@ -217,20 +212,20 @@ In fact, it had been argued prior to the detection of the anomalies ([Lyons 13b]
 \begin{center}
 \begin{imagefromfile}
   "file_name": "LyonsThresholdForBMesonDecayAnomaly.jpg",
-  "width": 600
+  "width": 600,
+  "caption": "table taken from [Lyons 13b, p. 4](#Lyons13b)"
 \end{imagefromfile}
 \end{center}
-
-> table taken from [Lyons 13b, p. 4](#Lyons13b)
 
 \begin{center}
 \begin{imagefromfile}
   "file_name": "DorigoThresholdForBMesonDecayAnomaly.jpg",
-  "width": 600
+  "width": 600,
+  "caption": "table taken from [Dorigo 15, p. 16](#Dorigo15)"
 \end{imagefromfile} 
 \end{center}
 
-> table taken from [Dorigo 15, p. 16](#Dorigo15)
+
 
 This attitude is reflected in [SGGJC 19, p. 2](#SGGJC19):
 
@@ -246,11 +241,12 @@ In conclusion, with currently available data, the observed flavour anomalies are
 \begin{center}
 \begin{imagefromfile}
   "file_name": "DordeiConclusion.jpg",
-  "width": 740
+  "width": 740,
+  "caption": "graphics taken from [Dordei 18, slide 22](#Dordei18)"
 \end{imagefromfile} 
 \end{center}
 
-> graphics taken from [Dordei 18, slide 22](#Dordei18)
+
 
 \begin{imagefromfile}
   "file_name": "TuningFLavourAnomaliesInterlocking.jpg",
@@ -302,11 +298,14 @@ Outlook on the [[Belle II experiement]] to confirm the flavour anomalies, if rea
 There is possibly a relation between the [[flavour anomalies]] and the  [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[anomalous magnetic moment]] of the [[electron]] and/or the [[muon]] (e.g. [Chiang-Okada 17](#ChiangOkada17)) which might point to a common origin of these anomalies in the [[flavour sector]] (e.g. [Crivellin-Hoferichter 20](#CrivellinHoferichter20)):
 
 
-<center>
-<img src="https://ncatlab.org/nlab/files/CrivellinRandAHints.jpg" width="300">
-</center>
+\begin{center}
+  \begin{imagefromfile}
+    "file_name": "CrivellinRandAHints.jpg",
+    "width": 300,
+    "caption": "graphics from [Crivellin-Hoferichter 20](#CrivellinHoferichter20)"
+  \end{imagefromfile}
+\end{center}
 
-> graphics from [Crivellin-Hoferichter 20](#CrivellinHoferichter20) 
 
 > (here "$R$" refers to [[flavour anomalies]] in various channels, "$a$" refers to anomalies in the the [[anomalous magnetic moments]] of the [[electron]] and the [[muon]], "LFUV" is shoft for "Lepton Flavor Universality Violation", and the numbers are the [[statistical significances]] of the effects seen)
 
