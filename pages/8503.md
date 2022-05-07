@@ -29,6 +29,8 @@ Either sentence alone seems perfectly reasonable, and could meaningfully be said
 
 * [[Russell's paradox]]
 
+* [[Curry's paradox]]
+
 * [[Burali-Forti's paradox]]
 
 * [[Cantor's paradox]]
