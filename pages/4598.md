@@ -92,6 +92,16 @@ where the $x_i \in H^\bullet(B U(1)^n, \mathbb{Z})$ are the "[[Chern roots]]".
 
 See at _[Chern class - Properties -- Splitting principle and Chern roots](Chern%20class#SplittingPrinciple)_ and at _[splitting principle - Examples - Real vector bundles](splitting+principle#RealVectorBundles)_ for more.
 
+
+
+
+[[!include Chern- and Pontrjagin forms -- section]]
+
+
+
+
+
+
 ## Trivializations and structures
 
 The [[twisted differential c-structures]] corresponding to Pontryagin class include
