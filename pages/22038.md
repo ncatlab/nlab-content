@@ -27,7 +27,7 @@ In [[lattice QCD]], the extraction of [[hadron|hadronic]] [[observables]] involv
 
 3. Discretization Corrections
 
-Symanzik's effective field heory is constructed by expanding the discretized action about the continuum limit.    
+Symanzik's effective field theory is constructed by expanding the discretized action about the continuum limit.    
 
 ## Related concepts
 
