@@ -116,7 +116,7 @@ def. \ref{TrivialTopologicalPrincipalBundle}, which is an [[isomorphism]] of $G$
 $$
   \array{
     U \times G& \stackrel{\simeq_G}{\leftarrow}
-     & P|_Y &\to& P
+     & P|_U &\to& P
     \\ 
     &{}_{\mathllap{p_1}}\searrow&\downarrow && \downarrow^{\mathrlap{p}}
     \\
