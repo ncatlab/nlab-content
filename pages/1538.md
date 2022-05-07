@@ -286,8 +286,8 @@ Dijkgraaf-Witten theory is to be thought of as the finite group version of [[Che
 
 The idea originates, of course, in 
 
-* [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990), 393,
- {#DijkgraafWitten90}
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990), 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
+ 
 
 The discussion of the [[quasi-Hopf algebra]] associated with a [[group cohomology]] 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ originates in
 
