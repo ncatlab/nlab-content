@@ -16,6 +16,10 @@ A [[group]] is a principal ideal monoid $G$ whose only ideal is isomorphic to $G
 
 * [[principal ideal of a monoid]]
 
+* [[GCD monoid]]
+
+* [[unique factorization monoid]]
+
 * [[Bézout monoid]]
 
 * [[group]]
