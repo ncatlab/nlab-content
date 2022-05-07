@@ -32,12 +32,19 @@ See also [[homotopytypetheory:higher inductive type]].
 All higher inductive types described below are given together with some pseudo-[[Coq]] code, which would implement that HIT if Coq supported HITs natively.
 
 ### The circle
+ {#ExamplesTheCircle}
+
+The [[circle type]] is:
 
     Inductive circle : Type :=
     | base : circle
     | loop : base == base.
 
-Using the [[univalence axiom]], one can prove that the [[loop space]] `base == base` of the circle type is equivalent to the [[integers]]; see [this blog post](http://homotopytypetheory.org/2011/04/29/a-formal-proof-that-pi1s1-is-z/).
+Using the [[univalence axiom]], one can prove that the [[loop space]] `base == base` of the circle type is equivalent to the [[integers]].
+
+([Licata & Shulman 13](circle#LicataShulman13), [Bezem, Buchholtz, Grayson & Shulman 19](circle#BezemBuchholtzGraysonShulman19)). 
+
+
 
 ### The interval
 
