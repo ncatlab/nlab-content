@@ -22,4 +22,10 @@ elements $[g,h] \coloneqq g^{-1} h^{-1} g h$.
 
 * The commutator subgroup is a [[normal subgroup]]. Therefore the [[quotient group]] $G^{ab} \coloneqq G/[G,G]$ exists. This is an [[abelian group]], called the [[abelianization]] of $G$. 
 
+## Related concepts
+
+* [[abelianization]]
+
+
+
 [[!redirects commutator subgroups]]
