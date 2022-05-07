@@ -56,5 +56,7 @@ i.e., $Ex^\infty(f)$ induces an [[isomorphism]] on $\pi_0$ and all [[homotopy gr
 [[!redirects weak equivalence of simplicial sets]]
 [[!redirects weak equivalences of simplicial sets]]
 
+[[!redirects simplicial weak homotopy equivalence]]
+[[!redirects simplicial weak homotopy equivalences]]
 
 
