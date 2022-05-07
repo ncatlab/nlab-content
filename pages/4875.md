@@ -116,7 +116,7 @@ A class of examples are the spaces $\tilde D(n,r)$ of $r$-tuples of infinitesima
 
 ## Applications
 
-The [[site]] of definition for the [[Cahiers topos]] is the category of spaces that are products of an $R^n$ with the dual of a  Weil algebra. So these are infinitesmally thickened [[Cartesian space]]s. These are typically sufficient as test spaces for more general spaces.
+The [[site]] of definition for the [[Cahiers topos]] is the category of spaces that are products of an $R^n$ with the dual of a  Weil algebra. So these are infinitesimally thickened [[Cartesian space]]s. These are typically sufficient as test spaces for more general spaces.
 
 
 ## Related concepts
