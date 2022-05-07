@@ -73,6 +73,14 @@ following
 
 * {#CattaneoSchiavina15} [[Alberto Cattaneo]], [[Michele Schiavina]], _BV-BFV approach to General Relativity, Einstein-Hilbert action_, J. Math. Phys. 57, 023515 (2016) ([arXiv:1509.05762](https://arxiv.org/abs/1509.05762))
 
+See also:
+
+* J. Fernando Barbero G., Juan Margalef-Bentabol, Valle Varo, Eduardo J.S. Villaseñor, *Covariant phase space for gravity with boundaries: metric vs tetrad formulations* ([arXiv:2103.06362](https://arxiv.org/abs/2103.06362))
+
+
+
+
+
 
 
 [[!redirects Palatini action]]
