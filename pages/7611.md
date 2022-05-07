@@ -35,6 +35,24 @@ A cartesian multicategory can also be defined as a category with specified [[fin
 When there is exactly one such generator, this recovers the definition of a [[Lawvere theory]]; thus a cartesian multicategory may be considered a "colored" or "many-object" Lawvere theory.  Note, though, that the morphisms of cartesian multicategories are more restrictive than morphisms of finite-product categories; they are required to take generators to generators.
 
 
+### Alternative presentation
+
+The composition structure of a cartesian multicategory can also be equivalently presented in the style usually used for abstract clones. The symmetry, contraction and weakening are derivable rather than required.
+In this style, a  cartesian multicategory is given by a collection of objects, and for every sequence $c_1\dots c_{n+1}$ of objects, a collection of multimorphisms $hom(c_1\dots c_{n}\;;\;c_{n+1})$, and 
+
+* for every sequence $c_{1}\dots c_{n}$ and $i\leq n$, a projection map
+  \[ \pi_{i} \in hom(c_{1} \dots c_{n} \;;\; c_{i}) \]
+
+* for sequences $c_1\dots c_m$, $d_1\dots d_{n}$ and object $e$, a composition map
+  \[ \circ : hom(d_1\dots d_{n} \;;\; e)\times \prod_{i=1}^{n} hom(c_1\dots c_m \;;\; d_i)\to hom(c_1\dots c_m,e) \]
+
+all such that 
+
+* identity laws: $f\circ (\pi_i)_i = f$ and $\pi_i \circ (f_0\dots f_{n-1})=f_i$;
+
+* associativity law: $f\circ (g_1\circ (h_1\dots h_{n})\dots g_{m}\circ (h_1\dots h_{n})) = f \circ (g_1\dots g_{m}) \circ (h_1\dots h_{n})$. 
+
+
 ## Representability
 
 A cartesian multicategory, like an ordinary multicategory, is **[[representable multicategory|representable]]** if for any finite list $(c_1,\dots,c_n)$ of objects there exists an object "$c_1 \times \cdots \times c_n$" and a morphism $c_1,\dots,c_n \to c_1 \times \cdots \times c_n$ which is universal, in that the following induced functions are all bijections:
