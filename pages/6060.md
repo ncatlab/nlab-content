@@ -68,7 +68,7 @@ In all of the the following:
 
 * Let $G$ be a [[finite group]].
 
-  * For $g \in G$ any [[element]], write $C_G(g) \,\subset\, G$ for [[centralizer subgroup]].
+  * For $g \in G$ any [[element]], write $C_G(g) \,\subset\, G$ for its [[centralizer subgroup]].
 
   * Write $C_G(g) \times \mathbb{Z}$ for the [[direct product group]] with the additive [[abelian group]] of [[integers]].
 
@@ -470,7 +470,9 @@ Then equivariant twisted de Rham cohomology of $X$ is the de Rham cohomology of 
 
 * 3-twisted by $H_3$ 
 
-([Tu & Xu 2006, Def. 3.10](#TuXu06), [Bunke, Spitzweck & Schick 08, Def. 3.15](#BunkeSpitzweckSchick08)).
+([Tu & Xu 2006, Def. 3.10](#TuXu06), [Freed, Hopkins & Teleman 2007, (3.19)](#FreedHopkinsTeleman07), [Bunke, Spitzweck & Schick 08, Def. 3.15](#BunkeSpitzweckSchick08)).
+
+
 
 \linebreak
 
