@@ -56,10 +56,16 @@ Under weak topological conditions (cf. [Helgason](#Helgason)), every topological
 
 ## References
 
+Textbook accounts:
+
 * {#Bredon72} [[Glen Bredon]], Section I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
-
 * {#Helgason} Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_
+
+On [[homogeneous spaces]] with the same [[rational cohomology]] as a [[product space|product]] of [[n-spheres]]:
+
+* [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_,  Memoirs of the American Mathematical Society number 752 ([arXiv:math/0109133] (http://arxiv.org/abs/math/0109133), [doi:10.1090/memo/0752](http://dx.doi.org/10.1090/memo/0752), [GoogleBooks](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false))
+
 
 The following article has categorical analysis of relation between the total space of a principal bundle and of the corresponding quotient space both for the classical case and for noncommutative generalizations:
 
