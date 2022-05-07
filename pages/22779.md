@@ -11,7 +11,7 @@ There are various combinatorial models for the [[Littlewood]]–[[Richardson]] c
 * [Littlewood–Richardson rule entry in the symmetric functions catalog](https://www2.math.upenn.edu/~peal/polynomials/schur.htm#schurLittlewoodRichardson)
 
 
-* [Littlewood-Richardson entry in the symmetric functions catelog](https://www2.math.upenn.edu/~peal/polynomials/littlewoodRichardson.htm)
+* [Littlewood-Richardson entry in the symmetric functions catalog](https://www2.math.upenn.edu/~peal/polynomials/littlewoodRichardson.htm)
 
 [[!redirects Littlewood-Richardson coefficients]]
 [[!redirects Littlewood-Richardson rule]]
