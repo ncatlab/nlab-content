@@ -1,4 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea
+
 An important aspect of [[group theory]] is the study of [[normal subgroups]]. A **protomodular** category, even one which is not [[pointed category|pointed]], is defined in such a way that it possesses an intrinsic notion of [[normal subobject]]. The concept is due to [[Dominique Bourn]] and as such sometimes referred to as _Bourn_-protomodularity.
 
 ##Definition 
@@ -42,12 +62,14 @@ A category $\mathcal{C}$ is **strongly protomodular** when it is protomodular an
 [[Grp]], [[Ring]] and the dual of any topos are strongly protomodular.
 
 ##Related concepts
+
 * [[homological category]]
+
 * [[semi-abelian category]]
 
 ## References
 
-* Francis Borceux, Dominique Bourn, [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]], Mathematics and Its Applications __566__, Kluwer 2004
+* [[Francis Borceux]], [[Dominique Bourn]], *[[Mal'cev, protomodular, homological and semi-abelian categories]]*, Mathematics and Its Applications __566__, Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
 
 * {#Bourne04} Dominique Bourn, _Protomodular aspect of the dual of a topos_, Advances in Mathematics 187(1), pp. 240-255, 2004.
 
