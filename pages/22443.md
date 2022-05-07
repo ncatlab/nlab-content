@@ -1030,7 +1030,7 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
      EigVects[e^{-\beta \cdot d_X}]_{\lambda, i, j}
      \;=\;
      \big(
-       \bar rho^{(\lambda)}(\sigma)_{i j}
+       \bar \rho^{(\lambda)}(\sigma)_{i j}
      \big)_{\sigma \in Sym(n)}
      \;\;
      \in
