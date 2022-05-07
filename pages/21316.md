@@ -30,7 +30,13 @@ If an EZ-category is also a strict [[Reedy category]] (i.e. contains no nonident
 
 ## References
 
-  * {#BergerMoerdijk2011} [[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_, Mathematische Zeitschrift, 269, 2011 ([arXiv:0809.3341](https://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x]( https://doi.org/10.1007/s00209-010-0770-x))
+* {#BergerMoerdijk2011} [[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_, Mathematische Zeitschrift, 269, 2011 ([arXiv:0809.3341](https://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x]( https://doi.org/10.1007/s00209-010-0770-x))
+* {#Isaacson2010} [[Samuel Isaacson]], _Symmetric cubical sets_, Journal of Pure and Applied Algebra, 215, 2011 ([arXiv:0910.4948](https://arxiv.org/abs/0910.4948), [doi:10.1016/j.jpaa.2010.08.001](http://dx.doi.org/10.1016/j.jpaa.2010.08.001))
+* {#BergnerRezk2013} [[Julia Bergner]], [[Charles Rezk]], _Reedy categories and the Θ-construction_, Mathematische Zeitschrift, 274, 2013 ([arXiv:1110.1066](https://arxiv.org/abs/1110.1066), [doi:10.1007/s00209-012-1082-0](http://dx.doi.org/10.1007/s00209-012-1082-0))
+* {#Cisinski2019} [[Denis-Charles Cisinski]], _Higher Categories and homotopical algebra_, Cambridge University Press, 2019, [doi:10.1017/9781108588737](http://dx.doi.org/10.1017/9781108588737))
+
+
+ 
 
 [[!redirects Eilenberg-Zilber categories]]
 [[!redirects EZ-category]]
