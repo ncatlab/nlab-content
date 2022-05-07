@@ -182,7 +182,7 @@ While, therefore, all free involutions on a given $n$-sphere are [[homotopy|homo
 \end{proposition}
 \begin{proof}
   Given a fixed-point free-action, the [[quotient space]] [[coprojection]] 
-  $S^{2n} \xrightarrow{q} S^{2n/G}$ is a [[covering space]] with [[degree of a continuous function|degree]] $deg(q) = ord(G)$ equal to the [[order of a group|order]] of $G$. Passing to [[Euler characteristics]] $\chi(-)$ and using that
+  $S^{2n} \xrightarrow{q} S^{2n}/G$ is a [[covering space]] with [[degree of a continuous function|degree]] $deg(q) = ord(G)$ equal to the [[order of a group|order]] of $G$. Passing to [[Euler characteristics]] $\chi(-)$ and using that
 
 1. $\chi(-)$ is always an [[integer]] (by definition);
 
@@ -285,7 +285,7 @@ There are also plenty of non-standard involutions on $n$-spheres in the topologi
 
 By the analog of the [[Poincaré conjecture]]-theorem in higher dimensions (e.g. [Newman 1966, Thm. 7](#Newman66)), every [[topological manifold]] of the [[homotopy type]] of a [[real projective space]] has a double [[covering space]] which is a manifold of the homotopy type of an $n$-sphere, and hence is actually [[homeomorphism|homeomorphic]] to an $n$-sphere. 
 
-Therefore, topological involutions on $n$-spheres should have the same classification up to homeomorphism as homoemorphism types of topological manifolds which are homotopy equivalent to $\mathbb{R}P^n$s, and large classes of non-trivial examples  of these are known ([Belegradek, MO:407390](https://mathoverflow.net/a/407390/381)).
+Therefore, topological involutions on $n$-spheres should have the same classification up to homeomorphism as homeomorphism types of topological manifolds which are homotopy equivalent to $\mathbb{R}P^n$s, and large classes of non-trivial examples  of these are known ([Belegradek, MO:407390](https://mathoverflow.net/a/407390/381)).
 \end{example}
 
 
