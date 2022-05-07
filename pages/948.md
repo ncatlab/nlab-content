@@ -96,7 +96,10 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
 
-* In pure constructive logic, the Dedekind [[real number]]s and the Cauchy real numbers need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _[[sequence]]_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (if not the [[locale of real numbers]] as a whole).  However, either excluded middle or countable choice suffices to ensure (via [[weak countable choice]]) that every Dedekind real is a Cauchy real, and hence that the two notions coincide; see (Bridges et al, 1998).
+* In pure constructive logic, there are multiple inequivalent definitions of [[real numbers]].
+  * the [[Dedekind real numbers]] and the [[Cauchy real numbers]] need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _[[sequence]]_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (if not the [[locale of real numbers]] as a whole). However, the weak [[limited principle of omniscience]] suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide; see ([[Univalent Foundations Project]] 2013) and (Booij 2020). Weak countable choice implies the weak limited principle of omniscience, which in turn is implied by excluded middle and the axiom of choice; see (Bridges et al. 1993).
+  * Similarly, the [[Cauchy real numbers]] are not sequentially [[Cauchy complete]]. There is an intermediate set of [[real numbers]] between the Cauchy reals and the Dedekind reals that are sequentially Cauchy complete called the [[HoTT book real numbers]], such that there are embeddings from the Cauchy reals to the HoTT reals, and from the HoTT reals to the Dedekind reals, but there are no embeddings in the reverse direction. 
+  * That every [[Cauchy real number]] in the [[unit interval]] can be represented by a [[sequence]] of digits is equivalent to the lesser [[limited principle of omniscience]], so it is no longer true that every [[Cauchy real number]] has an infinite decimal representation. The set of all real numbers with infinite decimal representations are called [[prealgebra real numbers]]. 
 
 * There are at least three different constructive notions of [[ordinal number]]; see (Taylor 1996) and (Joyal--Moerdijk 1995).
 
@@ -296,6 +299,8 @@ Other accounts:
 *  [[André Joyal]] and [[Ieke Moerdijk]] (1995). _Algebraic set theory_.
 
 *  [[Frank Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
+
+*   [[Auke B. Booij]], Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
 
 In view of [[reverse mathematics]]:
 
