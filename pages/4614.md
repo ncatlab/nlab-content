@@ -133,7 +133,7 @@ Let $X \colon  \Delta^{op} \to Top$ be a [[simplicial topological space]].
 
 Such $X$ is called
 
-* **good** if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are all [[closed cofibrations]];
+* **good** if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are [[closed cofibrations]];
 
 * **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
 
@@ -443,7 +443,13 @@ On [[homotopy limits]]:
 \label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
 **([[homotopy pullbacks]] [[preserved limit|preserved]] by geometric realization)**
 \linebreak
-  For $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ a morphism of simplicial spaces, the following are sufficient conditions for the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ to be a [[homotopy pullback]]-square in topological spaces (assuming throughout that all simplicial spaces are good or that the realization is taken to be fat, so that realization computes the [[homotopy colimit]]):
+For a morphism of simplicial spaces
+\[
+  \label{AMorphismOfSimplicialTopologicalSpacesToBeHomotopyPulledBack}
+  f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet
+  \,,
+\]
+the following are sufficient conditions for the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ to be a [[homotopy pullback]]-square in topological spaces (assuming throughout that all simplicial spaces are good or that the realization is taken to be fat, so that realization computes the [[homotopy colimit]]):
 
 1. {#BousfieldFriedlanderPiStarKanCondition} [Bousfield & Friedlander 1978, Thm. B.4](#BousfieldFriedlander78):
 
@@ -465,7 +471,21 @@ On [[homotopy limits]]:
 
 1. {#KanLikeFibrationConditionForPreservationOfHomotopyPullbacks} [Mazel-Gee 2014, Cor. 6.7](#MazelGee14), [Lurie 2011, Prop. 10](#Lurie11):
 
-   * the morphism is a [[Kan fibration]] in a homotopical sense.
+   * the morphism (eq:AMorphismOfSimplicialTopologicalSpacesToBeHomotopyPulledBack) is a homotopy-theoretic [[Kan fibration]], in that for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the induced map
+
+     $$
+       X(\Delta^n)
+       \xrightarrow{\;\;}
+       X(\Lambda^n_k)
+         \underset
+           { Y(\Lambda^n_k) }
+           {\times^h}
+       Y(\Delta^n)
+     $$
+
+     (into the [[homotopy fiber product]] of the space of space of [[horns|$(n,k)$-horns]] in $X$ with that of [[simplex|$n$-simplices]] in $Y$)
+
+     is [[surjective]] on [[connected components]].
 
 \end{proposition}
 
@@ -645,7 +665,7 @@ The first statement appears as ([Brown & Szczarba, theorem 3.8](#BrownSzczarba))
 +-- {: .num_prop #BarWGIsGoodIfGIsWellSectioned}
 ###### Proposition
 
-If $G$ is a [[well-pointed simplicial topological group]] then both $W G$ and $\bar W G$ are [good simplicial topological space](#GoodAndProper).
+If $G$ is a [[well-pointed simplicial topological group]] then both $W G$ and $\overline{W} G$ are [good simplicial topological spaces](#GoodAndProper).
 
 =--
 
@@ -683,22 +703,28 @@ the corresponding topological [[simplicial principal bundle]] $P$ over $X$ is it
 +-- {: .proof}
 ###### Proof
 
-The bundle is the [[pullback]] $P = X \times_{\bar W G} W G$ in $sTop$
+The bundle is the [[pullback]] $P = X \times_{\overline{W} G} W G$ in $sTop$
 
 $$
   \array{
-     P &\to& \bar W G
-     \\
-     \downarrow && \downarrow
-     \\
-     X &\stackrel{\tau}{\to}& \bar W G
+    P 
+      &\longrightarrow&  
+    W G
+    \\
+    \big\downarrow 
+     && 
+    \big\downarrow
+    \\
+    X 
+      &\stackrel{\tau}{\longrightarrow}& 
+    \overline{W} G
+    \mathrlap{\,.}
   }
-  \,.
 $$
 
 By assumption on $X$ and $G$ and using prop. \ref{BarWGIsGoodIfGIsWellSectioned} we have that $X$, $\bar W G$ and $W G$ are all good simplicial spaces.
 
-This means that the degeneracy maps of $P_\bullet$ are induced degreewise by morphisms between pullbacks in [[Top]] that are degreewise [[closed cofibration]]s, where one of the morphisms in each pullback is a fibration. By the properties discussed at [[closed cofibration]], this implies that also these degeneracy maps of $P_\bullet$ are closed cofibrations.
+This means that the degeneracy maps of $P_\bullet$ are induced degreewise by morphisms between pullbacks in [[Top]] that are degreewise [[closed cofibrations]], where one of the morphisms in each pullback is a fibration. By the properties discussed at [[closed cofibration]] ([here](Hurewicz+cofibration#InteractionWithPullbacks)), this implies that also these degeneracy maps of $P_\bullet$ are closed cofibrations.
 
 =--
 
@@ -1109,12 +1135,13 @@ Discussion of sufficient conditions for geometric realization to be compatible w
 
 * Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
 
-  (expanded version of [Rezk 14](#Rezk14))
+  > (expanded version of [Rezk 14](#Rezk14))
 
 * {#MazelGee14} [[Aaron Mazel-Gee]], _Model $\infty$-categories I: some pleasant properties of the $\infty$-category of simplicial spaces_ ([arXiv:1412.8411](https://arxiv.org/abs/1412.8411))
 
 
 * {#LurieHigherAlgebra} [[Jacob Lurie]], around Lemma 5.5.6.17 in: *[[Higher Algebra]]*
+
 
 
 ### Realization of topological stacks 
