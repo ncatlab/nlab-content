@@ -73,7 +73,7 @@ This [[supersymmetry]] would be an exact [[symmetry]] of [[quantum hadrodynamics
 ## Phenomenology
  {#Phenomenology}
 
-A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] of the [[Regge trajectories]] of [[mesons]] and [[hadrons]]. This is indeed observed in [[experiment]], with high accuracy:
+A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] of the [[Regge trajectories]] of [[mesons]] and [[baryons]]. This is indeed observed in [[experiment]], with high accuracy:
 
 \begin{imagefromfile}
     "file_name": "MesonBaryonReggeTrajectoriesKlemptMetsch.jpg",
