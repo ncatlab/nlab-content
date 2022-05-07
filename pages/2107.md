@@ -424,6 +424,8 @@ Notice the analogy to the evident functor that extract the [[Lie algebra]] in de
 
 ### General
 
+Named after [[G. W. Leibniz]].
+
 The idea of _Leibniz algebra_, though not by this name, is given already in 
 
 * {#Blokh65} A. Blokh, _A generalization of the concept of Lie algebra_, Dokl. Akad. Nauk SSSR, 165:471–473 (1965) ([mathrunet:dan31825](http://mi.mathnet.ru/eng/dan31825))
@@ -485,7 +487,28 @@ A generalization of [[Lie integration]] to conjectural Leibniz groups has been c
 
 [[!redirects Leibniz algebras]]
 [[!redirects Loday algebra]]
+
+
+
 [[!redirects Leibniz rule]]
 [[!redirects Leibniz rules]]
+[[!redirects Leibniz's rule]]
+[[!redirects Leibniz's rules]]
+[[!redirects Leibniz\'s rule]]
+[[!redirects Leibniz\'s rules]]
+[[!redirects Leibniz's rule]]
+[[!redirects Leibniz's rules]]
+
 [[!redirects Leibniz identity]]
 [[!redirects Leibniz identities]]
+
+
+[[!redirects Leibniz law]]
+[[!redirects Leibniz laws]]
+[[!redirects Leibniz's law]]
+[[!redirects Leibniz's laws]]
+[[!redirects Leibniz\'s law]]
+[[!redirects Leibniz\'s laws]]
+[[!redirects Leibniz's law]]
+[[!redirects Leibniz's laws]]
+
