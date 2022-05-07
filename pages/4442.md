@@ -320,7 +320,7 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 * [[Fefferman-Graham ambient construction]]
 
-* [[holographic entanglement entropy]]
+* [[holographic entanglement entropy]], [[ER = EPR]]
 
 * [[single trace operator]]
 
@@ -775,7 +775,6 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 * W. C. Gan and F. W. Shu, _Holography as deep learning_,  Int. J. Mod. Phys. D 26, no. 12, 1743020 (2017) ([arXiv:1705.05750](https://arxiv.org/abs/1705.05750))
 
 * J. W. Lee, _Quantum fields as deep learning_ ([arXiv:1708.07408](https://arxiv.org/abs/1708.07408))
-
 
 * [[Koji Hashimoto]], Sotaro Sugishita, Akinori Tanaka, Akio Tomiya, _Deep Learning and AdS/CFT_,  Phys. Rev. D 98, 046019 (2018) ([arxiv:1802.08313](https://arxiv.org/abs/1802.08313))
 
