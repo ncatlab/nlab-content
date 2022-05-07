@@ -5,7 +5,7 @@
 
 ## Definition
 
-For [[categories]] $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are [[unnatural transformations]].  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[symmetric monoidal category]] $(Cat,\Box)$; this tensor product $\Box$ is called the **funny tensor product**. This constitutes one of the precisely two symmetric monoidal closed structures on $Cat$; the other of course is the [[cartesian closed category]] structure on $Cat$. Both the funny product and the cartesian product are [[semicartesian monoidal category|semicartesian monoidal]] structures. 
+For [[categories]] $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are [[unnatural transformations]].  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[symmetric monoidal category]] $(Cat,\Box)$; this tensor product $\Box$ is called the **funny tensor product**.  As shown by Foltz, Lair and Kelly, this constitutes one of the precisely two symmetric monoidal closed structures on $Cat$; the other of course is the [[cartesian closed category]] structure on $Cat$. Both the funny product and the cartesian product are [[semicartesian monoidal category|semicartesian monoidal]] structures. 
 
 More explicitly, the category $C \Box D$ can be defined as the pushout
 
@@ -38,8 +38,13 @@ then viewing the identity as a functor of 2-arguments, we get an obvious separat
 ## Related pages
 
 * [[Gray tensor product]]
-* Separately functorial functors arise naturally when studying effectful languages where the two sequencings of $F(f,id)$ and $F(id,g)$ correspond to the choices of order of evaluation of the two functions. See [[premonoidal category]].
+* Separately functorial functors arise naturally when studying effectful languages where the two sequencings of $F(f,id)$ and $F(id,g)$ correspond to the choices of order of evaluation of the two functions. See [[premonoidal category]] for more: a strict premonoidal category is precisely a monoid object in the monoidal category $(Cat, \Box)$, while a general premonoidal category is a pseudomonoid in the monoidal 2-category $(Cat, \Box)$. 
 
 ##References
 
-* [[Mark Weber]], _Free Products of Higher Operad Algebras_, [arXiv:0909.4722](https://arxiv.org/abs/0909.4722)
+* [[Mark Weber]], _Free products of higher operad algebras_.   ([arXiv](https://arxiv.org/abs/0909.4722))
+
+This paper shows that there are just two symmetric closed monoidal structures on $Cat$, the cartesian product and the funny tensor product:
+
+* François Foltz, Christian Lair, and [[G. M. Kelly]], _Algebraic categories with few monoidal biclosed structures or none_, *Journal of Pure and Applied Algebra* **17** (1980), 171-177.  ([pdf](https://core.ac.uk/download/pdf/82322397.pdf))
+
