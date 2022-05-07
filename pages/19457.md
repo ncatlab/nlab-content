@@ -71,3 +71,7 @@ The 2-functor $\mathcal{V}$-$Cat \rightarrow {Cat}$ that sends an enriched categ
 * {#Borceux94} [[Francis Borceux]], Vol 2, def. 6.2.4 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 [[!redirects enriched adjunctions]]
+
+
+[[!redirects enriched adjoint]]
+[[!redirects enriched adjoints]]
