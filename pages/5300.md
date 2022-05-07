@@ -7,7 +7,6 @@ On [[cyclic loop spaces]]:
 
 * {#Cohen1985} [[Ralph Cohen]], p. 194 of: *A Model for the Free Loop Space of a Suspension*, in: [[Haynes Miller]], [[Douglas Ravenel]] (eds.), *Algebraic Topology*, Lecture Notes in Mathematics **1286**, Springer 1985 ([doi:10.1007/BFb0078743](https://link.springer.com/chapter/10.1007/BFb0078743))
 
-
 * [[Gunnar Carlsson]], [[Ralph Cohen]], *The cyclic groups and the free loop space*, Commentarii Mathematici Helvetici **62** (1987) 423–449  ([doi:10.1007/BF02564455](https://doi.org/10.1007/BF02564455), [dml:140092](https://eudml.org/doc/140092))
 
 
@@ -31,12 +30,16 @@ On [[string topology]]:
 
 
 
-On [[moduli spaces of monopoles]] related to [[braid groups]]:
+On the [[homotopy type of spaces of rational maps]] and [[moduli spaces of monopoles]] related to [[braid groups]]:
 
 
 * [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
-* [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+* [[Ralph Cohen]], [[John D. S. Jones]], _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+
+* [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
+Volume: 258 (2000)  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
+
 
 and more generally on [[moduli spaces]]:
 
@@ -44,3 +47,5 @@ and more generally on [[moduli spaces]]:
 
 
 category: people
+
+[[!redirects Ralph L. Cohen]]
