@@ -100,6 +100,11 @@ The concepts of continuous function and such conditions as [[compact space|compa
 
 In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements of arbitrarily small diameter.  Then a [[sequence]] is a [[Cauchy sequence]] iff its eventuality filter is Cauchy.  (This can be generalised to [[uniform spaces]].)  The concept of completion of a metric space may be defined quite nicely in terms of the Cauchy filters, although not every property (not even every uniform property) of metric spaces can be defined in this way.  As for convergence, there is a general notion of [[Cauchy space]], but the forgetful functors from metric and uniform spaces are now not full.
 
+## Related concepts
+
+* [[lower set]]/[[(0,1)-presheaf]], [[ideal]]/[[(0,1)-sheaf]]
+
+* [[upper set]]/[[(0,1)-copresheaf]], **filter**/[[(0,1)-cosheaf]]
 
 ## References
 
