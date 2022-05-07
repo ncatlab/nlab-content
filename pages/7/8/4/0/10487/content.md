@@ -26,9 +26,15 @@ Introducing [[topological entanglement entropy]]:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
 
+Claim that [[group cohomology]] classifies [[symmetry protected topological phases]]:
+
+* {#CGLW11} Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772)$]$
+
+* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, [[Xiao-Gang Wen]], *Symmetry protected topological orders and the group cohomology of their symmetry group*,  Science **338** (2012) 1604-1606 ([arXiv:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)) 
+
+
 More on [[topological order]]/[[topological phases of matter]]:
 
-* Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, Xiao-Gang Wen, _Symmetry protected topological orders and the group cohomology of their symmetry group_, [arXiv:1106.4772](http://arxiv.org/abs/1106.4772); A short version in Science __338__, 1604-1606 (2012) [pdf](http://dao.mit.edu/~wen/pub/dDSPTsht.pdf)
 
 * [[Xiao-Gang Wen]], _Topological orders and edge excitations in FQH states_, Advances in Physics __44__, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond-mat/9506066)
 
