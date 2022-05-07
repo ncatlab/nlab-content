@@ -910,7 +910,7 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 ### General
 
-Original articles
+Original articles:
 
 * [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series, Vol. 63, No. 3 (May, 1956), pp. 430-436 ([jstor:1970012](https://www.jstor.org/stable/1970012))
  
@@ -920,12 +920,15 @@ Original articles
 
 * [[Jim Stasheff]], _H-spaces and classifying spaces: foundations and recent developments_, Algebraic topology (Proc. Sympos. Pure Math., Vol. XXII, Univ. Wisconsin, Madison, Wis., 1970), Providence, R.I.: American Mathematical Society (1971) pp. 247–272
 
-Textbook accounts on classifying spaces for [[vector bundles]] include
+Review:
+
+* {#Mitchell11} [[Stephen Mitchell]], _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
+
+Textbook accounts concerning [[vector bundles]]:
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#May} [[Peter May]], chapter 23 of _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
-
 
 * {#Hatcher} [[Allen Hatcher]], section 1.2 of _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
@@ -937,9 +940,6 @@ A discussion more from the point of view of [[topos theory]] is in
 
 * [[Ieke Moerdijk]], _Classifying spaces and classifying topoi_, Lecture Notes in Math. 1616, Springer-Verlag, New York, 1995.
 
-Discussion of [[universal principal bundles]] over their classifying spaces is in 
-
-* {#Mitchell11} Stephen Mitchell, _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
 
 Discussion of characterization of principal bundles by rational [[universal characteristic classes]] and torsion information is in the appendices of 
 
