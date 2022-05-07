@@ -610,7 +610,7 @@ This construction shows that the [fundamental pushout relations](#FundamentalPus
 
 Let $X \in PSh_\infty(Str n Cat)$ be some object.
 
-Firts, by the [[(∞,1)-Yoneda lemma]] the value of this [[(∞,1)-presheaf]] on a strict $n$-category $C$ is the $\infty$-groupoid of $(\infty,n)$-functors $C \to X$, [[natural equivalences]] between them, and so on.
+First, by the [[(∞,1)-Yoneda lemma]] the value of this [[(∞,1)-presheaf]] on a strict $n$-category $C$ is the $\infty$-groupoid of $(\infty,n)$-functors $C \to X$, [[natural equivalences]] between them, and so on.
 
 
 And if $X$ is an $S$-[[local object]] then it has in particular the property that all the morphisms
