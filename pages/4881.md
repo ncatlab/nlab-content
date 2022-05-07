@@ -72,6 +72,7 @@ $$
 which is the [[inversion involution]] (given by sending any element to its [[inverse]] element).
 
 ### As a homotopy type
+ {#AsAHomotopyType}
 
 As a [[homotopy type]] the torus is the product of two copies of the [circle](https://ncatlab.org/nlab/show/circle#as_a_homotopy_type).
 
