@@ -11,7 +11,7 @@ On plane [[partitions]], [[symmetric functions]], [[Schur functions]]:
 
 * [[Richard Stanley]], *Theory and application of plane partitions 1*, Studies in Applied Math. **50** 2 (1971), 167-188 ([pdf](http://www-math.mit.edu/~rstan/pubs/pubfiles/12-1.pdf), [[StanleyPlanePartitions1.pdf:file]])
 
-and introducing the [[hook content formula]]:
+and introducing the [[hook-content formula]]:
 
 * [[Richard Stanley]], *Theory and application of plane partitions 2*, Studies in Applied Math. **50** 3 (1971), 259-279 ([pdf](http://www-math.mit.edu/~rstan/pubs/pubfiles/12-2.pdf), [[StanleyPlanePartitions2.pdf:file]])
 
