@@ -1,3 +1,4 @@
+[[!redirects Shrinking wedge of circles]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,6 +21,13 @@ The **Hawaiian earring space** is a famous counterexample in [[algebraic topolog
 
 It is an example of a space which is not [[semi-locally simply connected space|semi-locally simply connected]]. 
 
+The term “Hawaiian earring” is by far the most common name for this space
+and is used in hundreds of papers.
+Rarely, other terms can be found in the literature, such as “clamshell”,
+“infinite earring”, and “shrinking wedge of circles”.
+\cite{Dudley} is an early reference that mentions the terms “clamshell”
+and “Hawaiian earring”.
+
 ## Definition
 
 The Hawaiian earring space is the [[topological space]] defined to be the set 
@@ -40,8 +48,16 @@ Viewed in terms of [[general topology]], it would be hard to sell the Hawaiian e
 
 ## References
 
-See also 
-
-* Wikipedia, *[Hawaiian earring](https://en.wikipedia.org/wiki/Hawaiian_earring)*
+* {#Dudley} R. M. Dudley, _Continuity of homomorphisms_, Duke Math. J. 28:4 (1961), 587-594. [doi:10.1215/S0012-7094-61-02859-9](https://doi.org/10.1215/S0012-7094-61-02859-9).
 
 [[!redirects Hawaiian earring spaces]]
+[[!redirects Hawaiian earring]]
+[[!redirects Hawaiian earrings]]
+[[!redirects clamshell]]
+[[!redirects clamshells]]
+[[!redirects shrinking wedge of circles]]
+[[!redirects shrinking wedges of circles]]
+[[!redirects infinite earring]]
+[[!redirects infinite earrings]]
+[[!redirects infinite earring space]]
+[[!redirects infinite earring spaces]]
