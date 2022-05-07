@@ -110,7 +110,7 @@ Here:
 
 This is "tautological" in the sense that the [[fiber]] of the bundle over a point $[v]$ in the projective base space, which is the name of the line through some vector $v$, consists of all the points $z \cdot v$ on that line -- as made explicit by the horizontal map in (eq:TautologicalBundleProjection).
 
-Often the tautological line bundle is referred to via the notation "$\mathcal{O}_k(-1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]] (see e.g. [Wirthmüller 12, p. 14 (16 of 67)](#Wirthmuller)).
+Often the tautological line bundle is referred to via the notation "$\mathcal{O}_k(-1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]] (see e.g. [Wirthmüller 12, p. 14 (16 of 67)](#Wirthmuller12)).
 
 The further [[corestriction]] of that horizontal map (eq:TautologicalBundleProjection) to $k^{n+1}$
 
@@ -254,7 +254,8 @@ the induced inclusions of the [[Thom spaces]] of the tautological line bundles r
 under the identification (eq:ThomSpaceOfDualTautologicalBundleIsNextProjectiveSpace),
 the canonical inclusion of the projective spaces:
 
-$$
+\[
+  \label{InclusionsOfThomSpacesOfTautologicalLineBundles}
   \array{
     [(v,z)]
     &\mapsto&
@@ -306,7 +307,7 @@ $$
     [(0,v)]
     \,.
   }
-$$
+\]
 
 Notice how, in this coordinatization, the projective spaces are horizontally included by adjoining a 0-coordinate to the _left_ of the sequence and vertically by adjoining a 0-coordinate to the _right_.
 
