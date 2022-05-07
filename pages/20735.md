@@ -7,7 +7,7 @@
 +-- {: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
 =--
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -260,53 +260,12 @@ The special case of [[gauge group]] [[SU(3)]]:
 
 
 
-### Identification with rational maps
- {#ReferencesClassificationViaRationalMaps}
-
-On the identification of the (extended) [[moduli space]] of Yang-Mills monopoles with a space of "[[rational maps]]", namely [[holomorphic maps]] from the [[Riemann sphere]] $\mathbb{C}P^1$ (at infinity in $\mathbb{R}^3$) to itself (for [[gauge group]] [[SU(2)]]) or generally to a complex [[flag variety]] such as to [[complex projective space]] 
-$\mathbb{C}P^{n-1}$ (for [[gauge group]] [[SU(n)]] and minimal symmetry breaking, see [Ionnadou & Sutcliffe 1999a](#IonnadouSutcliffe99a)):
-
-Original identification with [[pointed object|pointed]] [[rational maps]]:
-
-* {#Donaldson84} [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
-
-Alternative identification with unpointed rational maps of "[[scattering]] data" and generalization to general [[gauge groups]] and maps to [[flag varieties]]:
-
-
-* [[Stuart Jarvis]], *Euclidian Monopoles and Rational Maps*, Proceedings of the London Mathematical Society Volume 77, Issue 1 p. 170-192 ([doi:10.1112/S0024611598000434](https://doi.org/10.1112/S0024611598000434))
-
-
-* [[Stuart Jarvis]], *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
-
-Using analysis due to:
-
-* [[Jacques Hurtubise]], *The classification of monopoles for the classical groups*, Commun. Math. Phys. 120, 613–641 (1989) ([doi:10.1007/BF01260389](https://doi.org/10.1007/BF01260389))
-
-* [[Michael Murray]], *Stratifying monopoles and rational maps*, Commun. Math. Phys. 125, 661–674 (1989) ([doi:10.1007/BF01228347](https://doi.org/10.1007/BF01228347))
-
-* [[Jacques Hurtubise]], [[Michael K. Murray]], *Monopoles and their spectral data*, Comm. Math. Phys. 133(3): 487-508 (1990) ([euclid:cmp/1104201504](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-133/issue-3/Monopoles-and-their-spectral-data/cmp/1104201504.full))
-
-Further discussion:
-
-
-* [[Charles P. Boyer]], [[B. M. Mann]], *Monopoles, non-linear $\sigma$-models, and two-fold loop spaces*,  Commun. Math. Phys. 115, 571–594 (1988) ([arXiv:10.1007/BF01224128](https://doi.org/10.1007/BF01224128))
- 
-
-
-* {#IonnadouSutcliffe99a} [[Theodora Ioannidou]], [[Paul Sutcliffe]], *Monopoles and Harmonic Maps*, J. Math. Phys. 40:5440-5455 (1999) ([arXiv:hep-th/9903183](https://arxiv.org/abs/hep-th/9903183))
-
-
-* {#IonnadouSutcliffe99b} [[Theodora Ioannidou]], [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
 
 
 
 
+[[!include Yang-Mills monopoles as rational maps -- references]]
 
-On the relevant  [[homotopy of rational maps]]:
-
-* {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
-
-* [[Ralph Cohen]], _Stability phenomena in the topology of moduli spaces_ ([arXiv:0908.1938](https://arxiv.org/abs/0908.1938))
 
 
 
