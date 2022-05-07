@@ -65,11 +65,19 @@ A crucial property of smooth functions, however, is that they contain also [[bum
 
 ## Related concepts
 
+* [[differentiable function]]
+
 * [[smooth function with rapidly decreasing derivatives]]
 
 * [[nonlinear functional]], [[linear functional]]
 
 [[!include infinitesimal and local - table]]
+
+## References
+
+Early account, in the context of [[Cohomotopy]], [[cobordism theory]] and the [[Pontryagin-Thom construction]]:
+
+* {#Pontrjagin55} [[Lev Pontrjagin]], Chapter I of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
 
 
 
