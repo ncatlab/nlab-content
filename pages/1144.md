@@ -1219,19 +1219,26 @@ Generalization to [[deck transformation|deck]]-[[Borel-equivariant rational homo
 
 * [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0))
 
+On this non-nilpotent generalization see also:
+
+* Syunji Moriya, _Rational homotopy theory and differential graded category_, Journal of Pure and Applied Algebra, Volume 214, Issue 4, April 2010, Pages 422-439 ([doi:10.1016/j.jpaa.2009.06.015](https://doi.org/10.1016/j.jpaa.2009.06.015))
+
+* [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], _Homotopy theory of complete Lie algebras and Lie models of simplicial sets_, Journal of Topology (2018) 799-825 ([arXiv:1601.05331](https://arxiv.org/abs/1601.05331), [doi:10.1112/topo.12073](https://doi.org/10.1112/topo.12073))
+
+
 Emphasis of the role of [[de Rham complexes]] of [[smooth manifolds]])
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
 
 
 
-Survey and review includes
+Survey and review:
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
 
 * {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
 
-  > (generalizing to [[Borel-equivariant rational homotopy theory]] for non-[[nilpotent spaces]])
+  > (with aspects of the generalizing to [[Borel-equivariant rational homotopy theory]] for non-[[nilpotent spaces]])
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
@@ -1297,17 +1304,6 @@ Relation to [[Whitehead products]]:
 
 * Takahito Naito, _A model for the Whitehead product in rational mapping spaces_ ([arXiv:1106.4080](https://arxiv.org/abs/1106.4080))
 
-### Generalization to arbitrary fundamental groups
-
-Generalization to arbitrary [[fundamental groups]]:
-
-* Antonio Gómez-Tato, [[Stephen Halperin]], [[Daniel Tanré]], _Rational Homotopy Theory for Non-Simply Connected Spaces_, Transactions of the American Mathematical Society, Transactions of the American Mathematical Society Vol. 352, No. 4 (Apr., 2000), pp. 1493-1525 (33 pages) ([jstor:118074](https://www.jstor.org/stable/118074))
-
-* Syunji Moriya, _Rational homotopy theory and differential graded category_, Journal of Pure and Applied Algebra, Volume 214, Issue 4, April 2010, Pages 422-439 ([doi:10.1016/j.jpaa.2009.06.015](https://doi.org/10.1016/j.jpaa.2009.06.015))
-
-* [Felix-Halperin-Thomas 15](#FelixHalperinThomas15)
-
-* [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], _Homotopy theory of complete Lie algebras and Lie models of simplicial sets_, Journal of Topology (2018) 799-825 ([arXiv:1601.05331](https://arxiv.org/abs/1601.05331), [doi:10.1112/topo.12073](https://doi.org/10.1112/topo.12073))
 
 
 
