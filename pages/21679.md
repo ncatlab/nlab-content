@@ -44,11 +44,11 @@ Write
 
 for the [[full subcategory]] of the [[classical homotopy category]]  ([[homotopy category]] of the [[classical model structure on simplicial sets]]) on those [[homotopy types]] $X$ which are
 
-* [[connected topological space|connected]]: $\pi_0(X) = \ast$
+* [[connected topological space|connected]]: $\pi_0(X) = \ast$;
 
-* [[nilpotent space|nilpotent]]: $\pi_1(X)$ is a [[nilpotent group]]
+* [[nilpotent space|nilpotent]]: the [[fundamental group]] $\pi_1(X)$ is a [[nilpotent group]];
 
-* rational [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$ for all $n \in \mathbb{N}$.
+* rational [[finite type]]: the [[rational cohomology]]-[[cohomology group|groups]] are [[finite number|finite]]-[[dimension|dimensional]], $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$, for all $n \in \mathbb{N}$.
 
 and
 
@@ -87,11 +87,11 @@ Similarly, write
   \big)
 \]
 
-for the [[full subcategory]] of the [[homotopy category]] of the [[projective model structure on connective dgc-algebras]] on those [[dgc-algebras]] $A$ which are
+for the [[full subcategory]] of the [[homotopy category]] of the [[projective model structure on connective dgc-algebras]] on those [[dgc-algebras]] $A$ over the [[rational numbers]] which are
 
 * connected: $H^0(A) \simeq \mathbb{Q}$
 
-* [[finite type]]: $dim_{\mathbb{Q}}\big( H^n(A) \big) \lt \infty$ for all $n \in \mathbb{N}$.
+* [[finite type]]: the [[cochain cohomology]] [[cohomology group|groups]] are [[finite number|finite]] [[dimension|dimensional]], $dim_{\mathbb{Q}}\big( H^n(A) \big) \lt \infty$, for all $n \in \mathbb{N}$.
 
 =--
 
@@ -109,7 +109,7 @@ $$
   Ho
   \left(
     \big(
-      DiffGradedCommAlgebras^{\geq 0}_{k}
+      DiffGradedCommAlgebras^{\geq 0}_{\mathbb{Q}}
     \big)^{op}_{proj}
   \right)
   \underoverset
@@ -170,7 +170,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
     Ho
     \left(
       \big(
-        DiffGradedCommAlgebras^{\geq 0}_{k}
+        DiffGradedCommAlgebras^{\geq 0}_{\mathbb{Q}}
       \big)^{op}_{proj}
     \right)^{\geq 1}_{fin}
     \underoverset
@@ -195,6 +195,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
 =--
 
 ([Bousfield-Gugenheim 76, Theorems 9.4 & 11.2](#BousfieldGugenheim76))
+
 
 
 ## Related concepts
