@@ -40,6 +40,9 @@ Application of [[conformal bootstrap]] to [[experiment|experimental]] [[superflu
 
   [[Slava Rychkov]], _Conformal bootstrap and the $\lambda$-point specific heat experimental anomaly_, Journal Club for Condensed Matter Physics recommendation 2020 ([pdf](https://www.condmatjclub.org/uploads/2020/01/JCCM_January_2020_02.pdf), [doi:10.36471/JCCM_January_2020_02](https://doi.org/10.36471/JCCM_January_2020_02))
 
+On the [[AdS-CFT correspondence]]  for [[higher spin gauge theory]]:
+
+* [[Ofer Aharony]], [[Shai Chester]], [[Erez Urbach]], _A Derivation of AdS/CFT for Vector Models_ ([arXiv:2011.06328](https://arxiv.org/abs/2011.06328))
 
 
 
