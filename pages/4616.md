@@ -118,7 +118,9 @@ In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topo
 
 ## Related concepts
 
-* [[simplicial topological space]], **nice simplicial topological space**
+* [[well-pointed simplicial topological group]]
+
+* [[simplicial topological space]]
 
 * [[simplicial topological group]]
 
@@ -159,4 +161,9 @@ Comments on the relation between properness and cofibrancy in the [[Reedy model 
 [[!redirects proper simplicial space]]
 
 [[!redirects good simplicial topological space]]
+[[!redirects good simplicial topological spaces]]
+
 [[!redirects proper simplicial topological space]]
+[[!redirects proper simplicial topological spaces]]
+
+
