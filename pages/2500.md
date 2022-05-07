@@ -505,7 +505,7 @@ The idea of supergravity was proposed by
 
 followed up by the first model of supergravity (in nonlinear realization) constructed in 
 
-* [[Dmitry Volkov]] and [[Vyacheslav Soroka]], _Higgs effect for Goldstone particles with spin 1/2_, ZhETF Pis. Red. (JETP Letters, AIP translation), 18, n.8 (1973) 529 ([pdf](https://www.jetpletters.ac.ru/ps/1568/article_24038.shtml))  
+* [[Dmitry Volkov]], [[Vyacheslav Soroka]], _Higgs effect for Goldstone particles with spin 1/2_, ZhETF Pis. Red. (JETP Letters, AIP translation), 18, n.8 (1973) 529 ([pdf](https://www.jetpletters.ac.ru/ps/1568/article_24038.shtml))  
 
 However, the term "supergravity" was coined later by
 [Freedman, Nieuwenhuizen, Ferrara 76](#FreedmanNieuwenhuizenFerrara76), whose work on supergravity is regarded as foundational for the subject.
@@ -513,7 +513,9 @@ However, the term "supergravity" was coined later by
 This early history is discussed in
 
 * [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys., v3, p. 81-82 (2019) ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
- 
+
+* {#Kuzenko21} Sergei M. Kuzenko, *Local supersymmetry: Variations on a theme by Volkov and Soroka* ([arXiv:2110.12835](https://arxiv.org/abs/2110.12835))
+
 
 Supergravity, in the guise of [[4d supergravity]], was first found (constructed) in
 
