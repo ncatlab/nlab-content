@@ -272,7 +272,7 @@ $$
 By prop. \ref{EquivalentCharacterizations}
 locally presentable $(\infty,1)$-categories are equivalently those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ (or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
 
-(See also at *[[Ho(CondModCat)]]*).
+(See also at *[[Ho(CombModCat)]]*).
 
 +-- {: .num_remark #QuillenEquivZigZag} 
 ###### Remark
