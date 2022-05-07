@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -31,9 +41,13 @@ Motivated from these definitions is, in turn, that of [[Huan's inertia orbifolds
 ### General abstract characterization
  {#GeneralAbstractPresentations}
 
-Regarding the stack $\mathcal{X} \in \mathbf{H}$ as an object in the [[(∞,1)-topos]] of [[Smooth∞Groupoids]] (or [[DTopological∞Groupoids]] or whatever is appropriate), with $S^1 \in Groups(SmoothManifolds) \xhookrightarrow{ Cdfflg } Groups(\mathbf{H})$ as a ([[smooth ∞-group|smooth]]) [[∞-group]] with [[delooping]]/[[moduli ∞-stack]] $\mathbf{B}S^1$. 
+Regarding 
 
-Then ([BMSS 19, Sec. 2.2](cyclic+loop+space#BMSS19)) the cyclic loop stack is equivalentl the right [[base change]] ([[dependent product]]) of $\mathcal{X}$ along the point inclusion $pt_{\mathbf{B}S^1} \colon \ast \to \mathbf{B}S^1$ followed by left [[base change]] ([[dependent sum]]) back to the absolute context:
+* the stack $\mathcal{X} \in \mathbf{H}$ as an object in the [[(∞,1)-topos]] of [[Smooth∞Groupoids]] (or [[DTopological∞Groupoids]] or whatever is appropriate), 
+
+* the [[circle group]] $S^1 \in Groups(SmoothManifolds) \xhookrightarrow{ Cdfflg } Groups(\mathbf{H})$ as a ([[smooth ∞-group|smooth]]) [[∞-group]] with [[delooping]]/[[moduli ∞-stack]] $\mathbf{B}S^1$,
+
+then ([BMSS 19, Sec. 2.2](cyclic+loop+space#BMSS19)) the cyclic loop stack is equivalently the right [[base change]] ([[dependent product]]) of $\mathcal{X}$ along the point inclusion $pt_{\mathbf{B}S^1} \colon \ast \to \mathbf{B}S^1$ followed by left [[base change]] ([[dependent sum]]) back to the absolute context:
 
 $$
   Cyc
@@ -49,7 +63,15 @@ $$
   \,.  
 $$
 
+<center>
+<a href="https://ncatlab.org/schreiber/show/Twisted+Equivariant+Differential+non-abelian+generalized+cohomology"
+<img src="https://ncatlab.org/nlab/files/GeneralAbstractCyclicLoopStacks.jpg" width="460">
+</a>
+</center>
+
+
 From this one may extract component models by invoking the right [[Quillen adjunction]] which encodes the derived co-free $\infty$-action, discussed [here](Borel+model+structure#RelationToModelStructureOnPlainSimplicialSets).
+
 
 ## Related concepts
 
@@ -59,7 +81,7 @@ From this one may extract component models by invoking the right [[Quillen adjun
 
 Groupoid models that plausibly represent cyclic loop stacks are discussed (under the notation "$Loops^{ext}$") in 
 
-* {#Huan18} [[Zhen Huan]], Def. 2.5, 29 in: _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
+* {#Huan18} [[Zhen Huan]], Def. 2.5, 2.9 in: _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
 
 following
 
