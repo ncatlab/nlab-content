@@ -49,7 +49,7 @@ Write
 
 1. $ModCat$ for the [[2-category]] whose [[objects]] are [[model categories]], whose [[1-morphisms]] are [[left Quillen functors]] and [[2-morphisms]] are [[natural transformations]].
 
-1. $CombModCat \subset ModCat$ for the [[full sub-2-category]] on the ([[left proper model categories|left proper]] [^1]) [[combinatorial model categories]].
+1. $CombModCat \subset ModCat$ for the [[full sub-2-category]] on the [[left proper model categories|left proper]] [^1] [[combinatorial model categories]].
 
 =--
 
@@ -195,7 +195,7 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 Beware that, for the time being, the entry [above](#Details) is referring to the numbering in the arXiv version of [Renaudin 2006](#Renaudin06), which differs from that in the published version.
 
 
-[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version there. It should not be necessary (but can easily be convenient), since every combinatorial model category is Quillen equivalent to a left proper one (by [[Dugger's theorem]], see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)). 
+[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories passes through only left proper ones.
 
 
 [[!redirects HoCombModCat]]
