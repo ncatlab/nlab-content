@@ -96,7 +96,7 @@ Diff. Geom. 18 (1983), 755–782 ([euclid.jdg/1214438181](https://projecteuclid.
 * [[Daniel Huybrechts]], _Compact Hyperkähler Manifolds_, In: Ellingsrud G., Ranestad K., Olson L., Strømme S.A. (eds.) _Calabi-Yau Manifolds and Related Geometries_, Universitext. Springer, Berlin, Heidelberg 2003 ([doi:10.1007/978-3-642-19004-9_3](https://doi.org/10.1007/978-3-642-19004-9_3),
 [arXiv:alg-geom/9705025](https://arxiv.org/abs/alg-geom/9705025))
 
-### Rozansky-Wutten invariants
+### Rozansky-Witten invariants
 
 With an eye towards [[Rozansky-Witten theory]] ([[ground field]]-valued [[Rozansky-Witten weight systems]]):
 
