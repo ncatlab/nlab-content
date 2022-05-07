@@ -39,25 +39,33 @@ A monoidal category can also be considered a one-object [[bicategory]]. See ther
 
 
 ## Definition
+ {#Definition}
 
-+-- {: .num_defn} 
-###### Definition
+### General monoidal categories
+ {#DefinitionGeneralMonoidalCategories}
 
+We first give the explicit definition in components (Def. \ref{MonoidalCategory}) and then highlight the succinct abstract idea (Def. \ref{AsPseudomonoidsInCat}) underlying this.
+
+
+\begin{definition}\label{MonoidalCategory}
+**(monoidal category)**
+\linebreak
 A **monoidal category** is a [[category]] $\mathcal{C}$ equipped with 
 
 1. a [[functor]]
 
-   $$ 
+   \[
+     \label{TheTensorProductFunctor}
       \otimes 
         \;\colon\; 
       \mathcal{C} \times \mathcal{C}  
        \longrightarrow
       \mathcal{C}
-   $$
+   \]
 
    out of the [[product category]] of $\mathcal{C}$ with itself, called the **[[tensor product]]**, 
 
-1. an object
+1. an [[object]]
 
    $$ 
      1 \in \mathcal{C} 
@@ -77,27 +85,28 @@ A **monoidal category** is a [[category]] $\mathcal{C}$ equipped with
 
    with components of the form 
 
-
-   $$ 
+   \[
+     \label{AssociatorInAMonoidalCategory}
      a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) 
-   $$
+   \]
 
    called the **[[associator]]**, 
 
 1. a [[natural isomorphism]] 
 
-   $$
+   \[
+     \label{LeftUnitorInAMonoidalCategory}
      \lambda 
        \;\colon\; 
      (1 \otimes (-)) 
        \overset{\simeq}{\longrightarrow}
      (-)
-   $$
+   \]
 
    with components of the form 
 
 
-   $$ 
+   $$
      \lambda_x \colon 1 \otimes x \to x 
    $$
 
@@ -137,7 +146,6 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
    $$
 
 
-
 1. {#PentagonIdentity} the **[[pentagon identity]]** (or **pentagon equation**):
 
 
@@ -163,36 +171,79 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
      }
    $$
 
-More succinctly, a monoidal category is a [pseudomonoid](https://ncatlab.org/nlab/show/pseudomonoid) in the [[cartesian monoidal category|cartesian]] monoidal 2-category [[Cat]].
+\end{definition}
 
-Notice how the very definition of monoidal categories above invokes the Cartesian product *of* categories, namely in the definition of the tensor product *in* categories. But the operation of forming product categories is itself a (Cartesian) monoidal structure one level higher up in the higher category theory ladder, namely on the ambient 2-category of categories. This state of affairs, where the definition of (higher) algebraic structures uses and requires analogous  algebraic structure present on the ambient higher category is a simple instance of the general [[microcosm principle]].
+\begin{remark}\label{InViewOfMicrocosmPrinciple}
+**(role of the [[microcosm principle]])**
+\linebreak
+Notice how the very definition of monoidal categories (Def. \ref{MonoidalCategory}) invokes the Cartesian product *of* categories, namely in the definition of the tensor product (eq:TheTensorProductFunctor) *in* a category. But the operation of forming [[product categories]] is itself a (Cartesian) monoidal structure one level higher up in the [[higher category theory]] ladder, namely on the ambient [[2-category]] [[Cat]] of categories, which thereby becomes a [[monoidal 2-category]]. 
 
-In this case we are implicitly employing the [cartesian monoidal structure](cartesian+monoidal+category) on Cat, so that if $\alpha\colon (Cat\times Cat)\times Cat\overset{\simeq}{\longrightarrow} Cat\times (Cat\times Cat)$ is the cartesian [[associator]], then the associator in $\mathcal{C}$ is actually an arrow 
+This state of affairs, where the definition of ([[higher structure|higher]]) algebraic [[mathematical structure|structures]] uses and requires analogous  algebraic structure present on the ambient higher category is an instance of the general [[microcosm principle]].
+\end{remark}
+
+With this understood, there is a succinct abstract definition of monoidal categories:
+\begin{definition}\label{AsPseudomonoidsInCat}
+**(as pseudomonoids in $Cat$)**
+\linebreak
+A monoidal category (Def. \ref{MonoidalCategory}) is equivalently a [[pseudomonoid]] in the [[cartesian monoidal category|cartesian]] [[monoidal 2-category]] [[Cat]] of categories.
+\end{definition}
+
+\begin{remark}\label{MakingTheAmbientStructureMorphismsExplicit}
+**(making the ambient structure morphisms explicit)**
+\linebreak
+The equivalent perspective of Def. \ref{AsPseudomonoidsInCat} makes manifest that there is room to be more pedantic about Def. \ref{MonoidalCategory},
+since the ambient [[monoidal 2-category]] $(Cat, \ast, \times)$ has its own [[associator]]
+
+$$
+  \alpha
+    \;\colon\; 
+  (Cat\times Cat) \times Cat
+  \xrightarrow{\; \simeq \;} 
+  Cat \times (Cat\times Cat)
+  \,,
+$$ 
+
+which, while evident, is, strictly speaking, non-trivial.
+
+This means that the [[associator]] (eq:AssociatorInAMonoidalCategory)
+in a monoidal categorty $\mathcal{C}$ is actually of the form
 
    $$
      a 
        \;\colon\; 
      \alpha_\mathcal{C} \left[ ((-)\otimes (-)) \otimes (-)\right]
        \overset{\simeq}{\longrightarrow}
-     (-) \otimes ((-)\otimes(-)),
+     (-) \otimes ((-)\otimes(-))
+     \,.
    $$
 
-and if $\Lambda\colon 1\times \text{Cat}\overset{\simeq}{\longrightarrow} \text{Cat}$ is the cartesian left unitor, then the left unitor in $\mathcal{C}$ is actually 
+Analogously, the ambient [[monoidal 2-category]] $(Cat, \ast, \times)$ comes with its own [[unitor]]
+
+$$
+  \Lambda
+  \;\colon\; 
+  \ast \times 
+  \text{Cat}
+  \xrightarrow{\;\simeq\; } 
+  \text{Cat}
+$$ 
+
+(for $\ast$ denoting the [[terminal category]]), which means that the [[unitor]] (eq:LeftUnitorInAMonoidalCategory) in a monoidal category is actually of the form 
 
    $$
      \lambda 
        \;\colon\; 
      \Lambda_\mathcal{C}\left[ (1 \otimes (-)) \right]
        \overset{\simeq}{\longrightarrow}
-     (-),
+     (-)
+     \,.
    $$
-as well as a similar adjustment for the right unitor.
+\end{remark}
 
-=--
 
 ### Other coherence conditions 
 
-The original list of [[coherence law|coherence axioms]] for monoidal categories given by Mac Lane in 1963 was longer; Max Kelly showed they could be whittled down to just the pentagon and triangle identities. We reproduce his arguments here. 
+The original list of [[coherence law|coherence axioms]] for monoidal categories given by Mac Lane in 1963 was longer than what is shown in Def. \ref{MonoidalCategory} above. But Max Kelly showed they could be whittled down to just the pentagon and triangle identities. We reproduce his arguments here. 
 
 In the proofs below, monoidal product symbols $\otimes$ will be suppressed, to save space. 
 
@@ -259,19 +310,33 @@ where the first equation follows from Lemma \ref{kel1} and the second from the t
 
 ### Strict monoidal categories 
 
-A monoidal category is said to be **strict** if the associator, left unitor and right unitors are all identity morphisms.  In this case the pentagon and triangle commute automatically.
+\begin{definition}\label{StrictMonoidalCategory}
+**(strict monoidal category)**
+\linebreak
+A monoidal category (Def. \ref{MonoidalCategory})
+is said to be **strict** if the associator, left unitor and right unitors are all [[identity morphisms]] (up to the ambient structure morphisms, see Rem. \ref{MakingTheAmbientStructureMorphismsExplicit}).  
 
-A strict monoidal category is the same as a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) in the [[cartesian monoidal category|cartesian]] monoidal 2-category $Cat, \times)$.
+In this case the [[pentagon identity]] and the [[triangle identities]] hold automatically.
+\end{definition}
+
+In analogy to Def. \ref{AsPseudomonoidsInCat} we have:
+\begin{definition}
+A strict monoidal category (Def. \ref{StrictMonoidalCategory}) is equivalently a [[monoid in a monoidal category|monoid in]]  the [[cartesian monoidal category|cartesian]] [[monoidal category|monoidal]] [[1-category]] [[Cat]] of categories and [[functors]] (i.e. with non non-identity [[natural transformation]] between them).
+\end{definition}
+
+### The 2-category of monoidal categories
 
 There is a [[strict 2-category]] MonCat with:
 
-* monoidal categories as objects,
-* [[monoidal functor]]s as morphisms, 
-* [[monoidal natural transformation]]s as 2-morphisms.
+* monoidal categories as [[objects]],
+
+* [[monoidal functors]] as [[1-morphisms]], 
+
+* [[monoidal natural transformations]] as [[2-morphisms]].
 
 One version of [[coherence theorem for monoidal categories|Mac Lane's Coherence Theorem]] states that in MonCat, every monoidal category is equivalent to a strict one.  
 
-Every monoidal category is also equivalent In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] with its cartesian product is not.  For the former fact, see [this remark by Jamie Vicary](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_2.html#c015959); for the latter, see the end of Section VII.1 in the second edition of *Categories for the Working Mathematician*.
+Every monoidal category is also [[equivalence in a 2-category|equivalent]] In MonCat to a [[skeletal category|skeletal]] monoidal category.   However, not every monoidal category is equivalent in MonCat to a skeletal strict monoidal category.   For example, the category [[FinSet]] with its cartesian product is equivalent in MonCat to a skeletal strict monoidal category, but the category [[Set]] with its cartesian product is not.  For the former fact, see [this remark by Jamie Vicary](https://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati_2.html#c015959); for the latter, see the end of Section VII.1 in the second edition of *Categories for the Working Mathematician*.
 
 
 ## Properties 
@@ -796,11 +861,11 @@ Quick surveys of relevant definitions include also
 
 For an elementary introduction to monoidal categories using [[string diagrams]], see:
 
-* [[John Baez]], [[Mike Stay]], _[Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf)_, in _New Structures for Physics_, ed. Bob Coecke, Lecture Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-172. 
+* [[John Baez]], [[Mike Stay]], _[Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf)_, in _New Structures for Physics_, ed. [[Bob Coecke]], Lecture Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-172. 
 
-A more detailed tour of monoidal categories, also using string diagrams, and including autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories:
+A more detailed tour of monoidal categories, also using [[string diagrams]], and including autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories:
 
-* [[Peter Selinger]], [A survey of graphical languages for monoidal categories](http://www.mathstat.dal.ca/~selinger/papers.html#graphical).
+* [[Peter Selinger]], *[A survey of graphical languages for monoidal categories](http://www.mathstat.dal.ca/~selinger/papers.html#graphical)*.
 
 Textbook account with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]]:
 
