@@ -207,7 +207,7 @@ $$
 
 for the [[quotient]] of the $\mathbb{Z}$-graded [[symmetric algebra]] over the [[rational numbers]] on $n+1$ generators $t_i$ in degree 0 and $n+1$ generators $d t_i$ of degree 1.
 
-In particular in degree 0 this are called the _polynomial functions_
+In particular, in degree 0 these are called the _polynomial functions_
 
 $$
   \Omega^0_{poly}(\Delta^n)
