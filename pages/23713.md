@@ -40,11 +40,13 @@ The formulation in terms of [[connections]] on [[fiber bundles]] and their [[hol
 
 * {#Simon83} Barry Simon, *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*, Phys. Rev. Lett. **51** (1983) 2167 ([doi:10.1103/PhysRevLett.51.2167](https://doi.org/10.1103/PhysRevLett.51.2167))
 
-The special case of Berry phases around the 1-cycles of a [[Brillouin torus]]:
+The special case of Berry phases around the 1-cycles of a [[Brillouin torus]] -- [[Zak phases]]:
 
 * {#Zak89} [[Joshua Zak]], *Berry’s phase for energy bands in solids*, Phys. Rev. Lett. **62** (1989) 2747 ([doi:10.1103/PhysRevLett.62.2747](https://doi.org/10.1103/PhysRevLett.62.2747))
 
-Further dsicussion:
+Review and further discussion:
+
+* [[Michael Berry]], *The quantum phase, five years after*, in: *Geometric phases in physics*,  Adv. Ser. Math. Phys. **5**, World Scientific (1989) 7--28 ([[Berry-FiveYearsAfter.pdf:file]], [doi:10.1142/0613](https://doi.org/10.1142/0613))
 
 * Ming-Che Chang, Qian Niu, *Berry curvature, orbital moment, and effective quantum theory of electrons in electromagnetic fields*, J. Phys.: Condens. Matter **20** (2008) 193202 ([doi:10.1088/0953-8984/20/19/193202](https://iopscience.iop.org/article/10.1088/0953-8984/20/19/193202))
 
@@ -67,6 +69,5 @@ See also:
 
 [[!redirects Zak phase]]
 [[!redirects Zak phases]]
-
 
 
