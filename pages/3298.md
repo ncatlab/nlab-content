@@ -1137,7 +1137,7 @@ regarded as a chain complex in $A$-[[bimodule]]s for the evident bimodule struct
 Let $N$ be an $A$-[[bimodule]]. The **Hochschild chain complex** $C_\bullet(A,N)$ of $A$ with coefficients in $N$ is the chain complex obtained by taking in the [bar complex](#PlainBarComplex) degreewise the [[tensor product]] of $A$-bimodules with $N$:
 
 $$
-  C_\bullet(A,B) := N_{A \otimes A^{op}}\mathrm{B}_\bullet A
+  C_\bullet(A,N) := N_{A \otimes A^{op}}\mathrm{B}_\bullet A
   \,.
 $$
 
