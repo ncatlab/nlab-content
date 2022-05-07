@@ -103,7 +103,7 @@ See also
 
 * {#McLarty93} [[Colin McLarty]], _Numbers can be just what they have to_, No&#251;s, Vol 27, No. 4, 1993. 
 
-* John Bell, _Notes on toposes and local set theories_ [PDF](http://publish.uwo.ca/~jbell/NOTES%20ON%20TOPOSES%20AND%20LOCAL%20SET%20THEORIES.pdf)
+* John Bell, _Notes on toposes and local set theories_ [PDF](http://publish.uwo.ca/~jbell/topnotes.pdf)
 
 * Peter Aczel, _Local Constructive Set Theory and Inductive Definitions_, [PDF](http://www.cs.man.ac.uk/~petera/sommaruga-book-paper.pdf)
 
