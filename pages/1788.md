@@ -72,3 +72,198 @@ $$
 
 * {#Buras20}  [[Andrzej Buras]], _Gauge Theory of Weak Decays (2020) ([doi:10.1017/9781139524100](https://doi.org/10.1017/9781139524100) [CERN review](https://cerncourier.com/a/the-hitchhikers-guide-to-weak-decays/))
 
+\begin{tikzcd}
+  \mathrm{U} \times \Gamma
+  \ar[
+    out=180-66,
+    in=66,
+    looseness=3.5,
+    "
+    \scalebox{.77}{$
+      \phantom{\cdot}
+      \mathclap{
+        \Gamma \rtimes_\alpha G
+      }
+      \phantom{\cdot}
+    $}
+    "{
+      description
+    },
+    shift right=1
+  ]
+  \ar[rr]
+  \ar[d]
+  \ar[
+    drr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"
+  ]
+  &&
+  \mathrm{P}
+  \ar[
+    out=180-66,
+    in=66,
+    looseness=3.5,
+    "
+    \scalebox{.77}{$
+      \phantom{\cdot}
+      \mathclap{
+        \Gamma \rtimes_\alpha G
+      }
+      \phantom{\cdot}
+    $}
+    "{
+      description
+    },
+    shift right=1
+  ]
+  \ar[d]
+  \\
+  \mathllap{
+    \exists
+    \;
+    \;\;
+  }
+  \mathrm{U}
+  \ar[
+    out=-180+66,
+    in=-66,
+    looseness=3.5,
+    "
+      \scalebox{.77}{$
+        \mathclap{G}
+      $}
+    "{
+      description
+    },
+    shift left=1
+  ]
+  \ar[
+    ->>,
+    rr,
+    "
+     \mbox{
+       \tiny
+       \rm
+       open
+     }
+    "{
+      below
+    }
+  ]
+  &&
+  \mathrm{X}
+  \ar[
+    out=-180+66,
+    in=-66,
+    looseness=3.5,
+    "
+      \scalebox{.77}{$
+        \mathclap{G}
+      $}
+    "{
+      description
+    },
+    shift left=1
+  ]
+\end{tikzcd}
+
+\begin{tikzcd}
+  U_x \times \Gamma
+  \ar[
+    out=180-66,
+    in=66,
+    looseness=3.5,
+    "
+    \scalebox{.77}{$
+      \phantom{\cdot}
+      \mathclap{
+        \Gamma \rtimes_\alpha G_x
+      }
+      \phantom{\cdot}
+    $}
+    "{
+      description
+    },
+    shift right=1
+  ]
+  \ar[rr]
+  \ar[d]
+  \ar[
+    drr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"
+  ]
+  &&
+  \mathrm{P}
+  \ar[
+    out=180-66,
+    in=66,
+    looseness=3.5,
+    "
+    \scalebox{.77}{$
+      \phantom{\cdot}
+      \mathclap{
+        \Gamma \rtimes_\alpha G_x
+      }
+      \phantom{\cdot}
+    $}
+    "{
+      description
+    },
+    shift right=1
+  ]
+  \ar[d]
+  \\
+  \mathllap{
+    \exists
+    \;
+    \;\;
+  }
+  U_x
+  \ar[
+    out=-180+66,
+    in=-66,
+    looseness=3.5,
+    "
+      \scalebox{.77}{$
+        \mathclap{G}
+      $}
+    "{
+      description
+    },
+    shift left=1
+  ]
+  \ar[
+    ->>,
+    rr,
+    "
+     \mbox{
+       \tiny
+       \rm
+       open
+     }
+    "{
+      below
+    }
+  ]
+  &&
+  X
+  \ar[
+    out=-180+66,
+    in=-66,
+    looseness=3.5,
+    "
+      \scalebox{.77}{$
+        \mathclap{G}
+      $}
+    "{
+      description
+    },
+    shift left=1
+  ]
+\end{tikzcd}
+
+
+
+
