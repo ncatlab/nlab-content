@@ -139,10 +139,14 @@ $P \to P/G \simeq X$ of the $G$-[[action]].
 
 =--
 
-Historically this quotient property of a free continuous action was sometimes taken as the very definition of "principal bundle" without requiring local triviality, e. g. in ([Cartan, 1949-1950](#Cartan)), where this perspective is attributed to [[Henri Cartan]]. A standard modern textbook following this tradition is ([Husem&#246;ller](#Husemoeller)).
+\begin{remark}\label{CartanPrincipalBundles}
+**(Cartan principal bundles)**
 
-Therefore in order to avoid ambiguous terminology in the following, we will now follow ([Palais 61](#Palais61)) and refer to this alternative definition of principal bundle as that of _Cartan principal bundle_.
+Historically this quotient property of a free continuous action was sometimes taken as the very definition of "principal bundle" without requiring [[local triviality]], e. g. in ([Cartan, 1949-1950](#Cartan)), where this perspective is attributed to [[Henri Cartan]]. A standard modern textbook following this tradition is ([Husem&#246;ller](#Husemoeller)).
 
+Therefore in order to avoid ambiguous terminology in the following, we will now follow ([Palais 61, Def. 1.1.2](#Palais61)) and refer to this alternative definition of principal bundle as that of _Cartan principal bundle_:
+
+\end{remark}
 
 +-- {: .num_defn}
 ###### Definition
@@ -870,7 +874,7 @@ In fact, the history of the development of the theory of principal bundles and [
 
 An original reference on the notion of a principal bundle as a quotient map by a free continuous action of a topological group is 
 
-* {#Cartan} _S&#233;minaire [[Henri Cartan]]_ 1949-1950 ([numdam](http://www.numdam.org/numdam-bin/browse?id=SHC_1948-1949__1_))
+* {#Cartan} _S&#233;minaire [[Henri Cartan]]_ 1949-1950 *Topologie algébrique* ([numdam:SHC_1948-1949__1](http://www.numdam.org/volume/SHC_1948-1949__1))
   
 
 some of which is recollected in ([Palais 61](#Palais61)).
@@ -899,9 +903,12 @@ also around section 3.1 of
 
 * {#Moerdijk} [[Ieke Moerdijk]], _On the classification of regular Lie groupoids_ ([pdf](http://igitur-archive.library.uu.nl/math/2007-0201-202453/moerdijk_02_on_the_classification.pdf))
 
-Questions related to the existence slices of G-spaces, of sections of $G$-bundles and conditions for [[proper map|properness]] of some related maps are treated in
+Questions related to the existence [[slice theorem|slices]] of [[topological G-spaces]], of sections of $G$-bundles and conditions for [[proper map|properness]] of some related maps are treated in 
 
-* Richard S. Palais, _On the existence of slices of actions of non-compact Lie groups_, Ann. Math. 73:2 (1961) [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf)
+* {#Palais61} [[Richard Palais]], _On the Existence of Slices for Actions of Non-Compact Lie Groups_, Annals of Mathematics
+Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https://www.jstor.org/stable/1970335), [doi:10.2307/1970335](https://doi.org/10.2307/1970335), [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf))
+
+
  
 Lecture notes on principal bundles include
 
@@ -935,8 +942,7 @@ Discussion of topological quotients of groups $G \to G/H$ as principal $H$-bundl
 
 * {#Gleason50} [[Andrew Gleason]], _Spaces with a compact Lie group of transformations_, Proc. of A.M.S 1, (1950), 35 - 43.
 
-* {#Palais61} [[Richard Palais]], _On the existence of slices for actions of non-compact Lie groups_, _Annals of mathematics vol 73 no 2 (1961) _ ([pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf))
- 
+* [Palais 61](#Palais61) 
 
 Explicit examples and counter examples of coset principal bundles are discussed in 
 
