@@ -255,6 +255,7 @@ More generally, every [[retract]] of a [[relative cell complex]] inclusion is a 
 
 This is part of the statement of the [[Quillen adjunction]] between then [[classical model structure on topological spaces]] and the [[Strøm model structure]] (see [below](#StromModelStructure))
 
+
 ### Closedness
  {#Closedness}
 
@@ -263,7 +264,7 @@ This is part of the statement of the [[Quillen adjunction]] between then [[class
 Every Hurewicz cofibration $i$ is [[injective function|injective]] and a [[homeomorphism]] onto its image.
 \end{prop}
 
-([Homotopietheorie](#Homotopietheorie) (1.17)). 
+([tDKP 1970](#tDKP70) (1.17)). 
 
 \begin{prop}\label{HurewiczCofibrationsInCGWHSpacesAreClosed}
 In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], the image $i(A)$ of a Hurewicz cofibration is always closed.
@@ -272,11 +273,13 @@ The same holds in the category of all [[Hausdorff spaces]].
 
 (e.g. [May 1999, Sec. 6.2, p. 44 (52 of 251)](#May99))
 
-But in the plain category [[Top]] of all topological spaces there are pathological counterexamples. 
+But in the plain category [[Top]] of all topological spaces there are pathological counterexamples:
 
-The simplest example (see [Homotopietheorie](#Homotopietheorie)) is the following: let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\emptyset$ are open in $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration (useful exercise!). 
+\begin{example}
+Let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\varnothing$ are [[open subsets]] of $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration. 
+\end{example}
 
-
+[Strøm 1955, p. 5](#Strom66)
 
 ### Str&#248;m's model structure
  {#StromModelStructure}
@@ -363,13 +366,16 @@ Named after *[[Witold Hurewicz]]*.
 
 Original articles:
 
-* [[Dieter Puppe]], _Bemerkungen &#252;ber die Erweiterung von Homotopien_, Arch. Math. (Basel) 18 1967 81--88; MR0206954 (34 #6770) [doi](http://dx.doi.org/10.1007/BF01899475)
+* {#Strom66} [[Arne Strøm]], _Note on cofibrations_,  Math. Scand.  **19** (1966) 11-14 ([jstor:24490229](https://www.jstor.org/stable/24490229), [dml:165952](https://eudml.org/doc/165952), MR0211403)
 
-* [[Arne Strøm]], _Note on cofibrations_,  Math. Scand.  19  1966 11--14 [file](http://www.mscand.dk/article.php?id=1782) MR0211403 (35 #2284); _Note on cofibrations II_,  Math. Scand.  22  1968 130--142 (1969) [file](http://www.mscand.dk/article.php?id=1867) MR0243525 (39 #4846) 
+* {#Strom68} [[Arne Strøm]], _Note on cofibrations II_,  Math. Scand.  **22** (1968) 130--142 (1969) ([jstor:24489730](https://www.jstor.org/stable/24489730), [dml:166037](https://eudml.org/doc/166037), MR0243525)
+
+* [[Dieter Puppe]], _Bemerkungen &#252;ber die Erweiterung von Homotopien_, Arch. Math. (Basel) 18 1967 81--88 ([doi:10.1007/BF01899475](http://dx.doi.org/10.1007/BF01899475), MR0206954)
+
 
 Textbook accounts:
 
-* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+* {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
 * {#May99} [[Peter May]], Chapter 6 of: *[[A concise course in algebraic topology]]*, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
