@@ -31,7 +31,7 @@ Also beware that in [[category theory]] the term 'finite object' is also used in
  {#Definitions}
 
 Consider an ambient [[topos]] $\mathcal{T}$. 
-Assume that $\mathcal{T}$ is equipped with a [[natural numbers object]] $N$. Write $N_{\lt} \hookrightarrow N\times N$ is its strict order relation.  
+Assume that $\mathcal{T}$ is equipped with a [[natural numbers object]] $N$. Write $N_{\lt} \hookrightarrow N\times N$ for its strict order relation.  
 
 
 ### External version   
@@ -54,7 +54,7 @@ A "finite set" in $\mathcal{T}$ in the strictest sense is usually called a **fin
 An object $X \in \mathcal{T}$ is _locally_ isomorphic to a finite cardinal, if there is an [[epimorphism]] $U\to 1$ and a [[generalized element]] $n:U\to N$ such that $U\times X \cong n^*(N_\lt)$ over $U$.  Equivalently, there is a $U\to 1$ such that $U\times X$ is a finite cardinal in the 
 [[slice topos]] $\mathcal{T}/U$.
 
-An  **internally finitely indexed object** is an object $X$ is which is locally a [[quotient]] of a finite cardinal, hence such that there is an [[epimorphism]] $U \to *$, a finite cardinal in the slice topos $n \in \mathcal{T}_{/U}$ and an epimorphism $n \to U \times X$.
+An  **internally finitely indexed object** is an object $X$ which is locally a [[quotient]] of a finite cardinal, hence such that there is an [[epimorphism]] $U \to *$, a finite cardinal in the slice topos $n \in \mathcal{T}_{/U}$ and an epimorphism $n \to U \times X$.
 
 =--
 
