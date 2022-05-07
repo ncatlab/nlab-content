@@ -47,9 +47,12 @@ The following 2-categories are cartesian closed:
 
 * {#Makkai96} [[Michael Makkai]], _Avoiding the axiom of choice in general category theory_, Journal of Pure and Applied Algebra, 108(2):109 – 173, 1996.
 
-On cartesian closed 2-categories of [[internal groupoids]]:
+On cartesian closed 2-categories of [[internal categories]] or [[internal groupoids]]:
 
 * {#NiefieldPronk19} [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
+
+* [[Enrico Ghiorzi]], Section 1.2 of: *Complete internal categories* ([arXiv:2004.08741](https://arxiv.org/abs/2004.08741))
+
 
 Discussion of the example of generalised [[species]]:
 
