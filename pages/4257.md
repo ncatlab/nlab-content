@@ -2,6 +2,9 @@
 
 * [homepage](http://www.math.ethz.ch/~salamon/)
 
+
+## Selected writings
+
 * [[Dusa McDuff]], D.A. Salamon, _J-holomorphic curves and symplectic topology_, AMS Colloquium Publications __52__, 2004.
 
 * [[Dusa McDuff]], Dietmar Salamon, _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs 1998. x+486 pp.
