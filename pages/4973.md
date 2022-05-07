@@ -16,6 +16,7 @@
 
 Given a [[geometric morphism]] $f \colon \mathcal{E} \longrightarrow \mathcal{S}$, we may regard $\mathcal{E}$ as a *[[topos]] [[base topos|over]] $\mathcal{S}$* via $f$.  The geometric morphism $f$ being *bounded* is the "over $\mathcal{S}$" version of $\mathcal{E}$ being a [[Grothendieck topos]].
 
+
 ## Definition
 
 +-- {: .num_defn}
@@ -28,23 +29,30 @@ is a [[subquotient]] of an object of the form $(f^* I) \times B$ for some $I  \i
 
   $$
     \array{
-      S &\stackrel{epi}{\to}& A
+      S &\xrightarrow{\; epi \;}& A
       \\
-      {}^{\mathllap{mono}}\downarrow  
+      {}^{\mathllap{mono}}
+      \big\downarrow  
       \\
       (f^* I) \times B
     }
     \,.
   $$
 
-* The [[gluing fibration]] $\partial_0 : (\mathcal{E}/f^*)\to\mathcal{S}$ has a [[separating family#fibered]].
+* {#TheGluingFibration} The [[gluing fibration]] $(\mathcal{E}/f^*)\to \mathcal{S}$ has a [fibered separating family](separating+family#fibered).
 
 * The exists a $B\in\mathcal{E}$ such that for every $A\in\mathcal{E}$ the 
 composite
-$$
-f^*f_*(\tilde A^B)\times B\to \tilde A^B\times B\to \tilde A
-$$
-is epic, where $\tilde A$ is the [[partial map classifier]] of $A$.
+
+  $$
+    f^*f_*(\tilde A^B)
+      \times 
+    B
+      \to 
+    \tilde A^B\times B\to \tilde A
+   $$
+
+   is an [[epimorphism]], where $\tilde A$ is the [[partial map classifier]] of $A$.
 
 =--
 
