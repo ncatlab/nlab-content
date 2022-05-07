@@ -1,5 +1,2 @@
 
-* [webpage](http://www.phas.ubc.ca/~mav/vanraamsdonk.html)
-
-category: people
-
+see at *[[Mark Van Raamsdonk]]*
