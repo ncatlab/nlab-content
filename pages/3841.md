@@ -129,6 +129,8 @@ In this case,
 a category is locally $\lambda$-presentable
 if and only if it is locally $\lambda^+$-presentable.
 
+Reference: Proposition 5.6 in Rezk \cite{Rezk}.
+
 
 ## Related concepts
 
@@ -143,6 +145,7 @@ if and only if it is locally $\lambda^+$-presentable.
 
 * [[Peter Gabriel]], [[Friedrich Ulmer]], Lokal präsentierbare Kategorien, Lecture Notes in Mathematics 221, [doi](http://dx.doi.org/10.1007/bfb0059396).
 
+* {#Rezk} [[Charles Rezk]], _Generalizing accessible ∞-categories_, [PDF](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf).
 
 [[!redirects regular cardinal]]
 [[!redirects regular cardinals]]
