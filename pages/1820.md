@@ -403,8 +403,7 @@ are weak equivalences for every fibrant object $b \in B$.
 
 Notice that the theorem just mentions plain combinatorial model categories, not [[simplicial model category|simplicial model categories]]. But of course by basic facts of [[enriched category theory]] $Funct(C^{op}, SSet)$ is an [[SSet]]-[[enriched category]] and its projective [[global model structure on functors]] $Func(C^{op}, SSet)_{proj}$ is compatibly a [[simplicial model category]], as are all its [[Bousfield localization of model categories|Bousfield localizations]]. (See [[model structure on simplicial presheaves]] for more details.) Therefore an immediate but very useful corollary of the above statement is
 
-+-- {: .num_corollary }
-###### Corollary 
+\begin{corollary}\label{EveryCombinatorialModelCatQEquivalentToLeftProper}
 
 Every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to one which is
 
@@ -412,7 +411,7 @@ Every combinatorial model category is [[Quillen equivalence|Quillen equivalent]]
 
 * a left [[proper model category]].
 
-=--
+\end{corollary}
 
 
 
