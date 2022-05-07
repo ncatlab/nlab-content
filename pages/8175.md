@@ -399,11 +399,13 @@ A more detailed account of the proof is in
 
 * {#Kochman96} [[Stanley Kochman]], theorem 4.2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-Further discussion of the case of [[twisted K-theory]] is due to
+Further discussion of the case of [[twisted K-theory]]:
 
 * {#Rosenberg82} [[Jonathan Rosenberg]], _Homological Invariants of Extensions of $C^\ast$-algebras_, Proc. Symp. Pure Math 38 (1982) 35.
 
 * {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_, Nankai Tracts Math. 11, World Sci. Publ., Hackensack, NJ, pp. 5&#8211;43,  ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
+
+* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Section 21 of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
 A discussion of the $E$-AHSS as the spectral sequence of a tower induced by forming [[mapping spectra]] $[X,-]$ into the [[Postnikov tower]] is due to 
 
