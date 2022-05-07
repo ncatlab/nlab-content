@@ -83,7 +83,7 @@ Finally, these adjunctions are a sequence of [[Quillen equivalences]] with respe
 
 =--
 
-These adjunctions and their properties are observed in [Shimakawa-Yoshida-Haraguchi 10, Prop. 3.1, Prop. 3.2, Lemma 3.3](diffeological+space#SYH10). The model structures and Quillen equivalences are due to [Haraguchi 13, Thm. 3.3](#model+structure+on+Delta-generated+topological+spaces#Haraguchi13) (on the left) and [Haraguchi-Shimakawa 13, Sec. 7](model+structure+on+diffeological+spaces#HaraguchiShimakawa13) (on the right).
+Essentially these adjunctions and their properties are observed in [Shimakawa, Yoshida & Haraguchi 2010, Prop. 3.1, Prop. 3.2, Lem. 3.3](diffeological+space#SYH10), see also [Christensen, Sinnamon & Wu 2014, Sec. 3.2](D-topology#CSW13). The model structures and Quillen equivalences are due to [Haraguchi 13, Thm. 3.3](#model+structure+on+Delta-generated+topological+spaces#Haraguchi13) (on the left) and [Haraguchi-Shimakawa 13, Sec. 7](model+structure+on+diffeological+spaces#HaraguchiShimakawa13) (on the right).
 
 +-- {: .proof}
 ###### Proof
