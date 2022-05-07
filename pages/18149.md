@@ -53,6 +53,10 @@ A non-associative ring may well have associativiy, i.e. it may be in the image o
 
 =--
 
+## Properties
+
+For any nonassociative commutative ring $R$, a non-associative commutative ring extension (in the sense of [[field extension]]) of $R$ is just a $R$-[[nonassociative algebra]]. 
+
 ## Examples
 
 Examples include [[Lie rings]] and [[nonassociative algebras]] such as [[alternative algebras]]. 
