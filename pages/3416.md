@@ -1,6 +1,10 @@
 __$Frm$__ is the [[category]] whose [[objects]] are [[frames]] and whose [[morphisms]] are frame [[homomorphisms]], that is [[lattice]] homomorphisms that preserve [[directed joins]] (and thus all joins).  $Frm$ is a [[subcategory]] of [[Pos]], in fact a [[replete subcategory]] of both [[DistLat]] and [[SupLat]].
 
-The [[opposite category]] of $Frm$ is the category [[Loc]] of [[locales]]; this is an example of the duality between [[space and quantity]].
+The [[opposite category]] of $\mathbf{Frm}$ is the category [[Loc]] of [[locales]]; this is an example of the duality between [[space and quantity]].
+
+## Properties
+
+The category $\mathbf{Frm}$ is [[algebraic category|algebraic]] (see [[Stone Spaces]]).
 
 
 ## Free frames
