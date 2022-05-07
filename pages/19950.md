@@ -377,6 +377,8 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 * [[equivariant Hopf degree theorem]]
 
+* [[equivariant Pontrjagin theorem]]
+
 <br/>
 
 ## References
