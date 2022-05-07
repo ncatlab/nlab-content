@@ -1,4 +1,12 @@
 
+$$
+    \left(
+      \big(
+        \mathcal{B} PU(\mathcal{H})
+      \big)^H
+    \right)
+$$
+
 [[higher gauge theory of the Green-Schwarz mechanism -- references]]
 
 $\infty$
