@@ -60,6 +60,11 @@ See also the references at _[[chiral perturbation theory]]_
 
 
 
+[[!redirects hadrodynamics]]
+
+
+
+
 
 
 
