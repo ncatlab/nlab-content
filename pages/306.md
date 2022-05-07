@@ -215,6 +215,8 @@ The category $Set_\ast$ of [[pointed sets]] has a subobject classifier (specifie
 
 If one is willing to admit non-locally small categories, then the category of [[proper class|classes]] in [[ZFC]] is not a topos (it is not cartesian closed) but has a subobject classifier: any two-element set.
 
+The opposite of the category of commutative von Neumann algebras has a subobject classifier given by $\mathbb{C}^2$ [according to Simon Henry on MathOverflow](https://mathoverflow.net/questions/384346/is-the-opposite-category-of-commutative-von-neumann-algebras-a-topos), but is not a topos because it is not cartesian closed (see Dmitri Pavlov's answer to the same MathOverflow question).
+
 
 ## Properties
 
