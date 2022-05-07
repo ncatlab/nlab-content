@@ -42,7 +42,7 @@ This gives rise to the [[pullback bundles]] $pr_1^\ast E_1 \to X_1 \times X_2$ a
 The _external tensor product_ $E_1 \boxtimes E_2$ is the [[tensor product of vector bundles]] of these pullback bundles:
 
 $$
-  E_1 \boxtimes E_2 \coloneqq (pr_1^\ast E_1) \otimes_X (pr_2^\ast E_2)
+  E_1 \boxtimes E_2 \coloneqq (pr_1^\ast E_1) \otimes_{X_1 \times X_2} (pr_2^\ast E_2)
 $$
 
 which is again naturally a vector bundle over th product space
