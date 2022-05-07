@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 =--
 =--
 
@@ -21,12 +25,31 @@ The canonical [[line bundle]] over a [[projective space]] is sometimes called it
 
 ## Definition
 
+In the following, let $k$ be a [[field]], possibly a [[skew-field]] 
 
-### Definition
+$$
+  k \,\in\, SkewFields
+  \,.
+$$
+
+(In fact, all the algebra that follows works for $k$ any [[ring]]).
+
+In the context of [[algebraic topology]] or [[differential topology]], one is usually interested in $k$ being one of the three [[associative algebra|associative]] [[real normed division algebras]] ([[real numbers]], [[complex numbers]] or [[quaternions]]):
+
+$$
+  k \,\in\, \big\{ \mathbb{R}, \mathbb{C}, \mathbb{H}\big\}
+  \,.
+$$
+
+The relevance of the [[quaternions]] here is the reason to insist on the generality of [[skew-fields]] and hence of some pedantry about order of products in the following. (For [[octonions]] the notion of tautological lines should make some sense over the first [[octonionic projective space]] but not beyond.)
+
+Let $n \in \mathbb{N}$ be a [[natural number]].
+
+
+### Tautological line bundle and blow-up
   {#BareDefinition}
 
-Let $k$ be a [[field]] (or more generally a [[ring]]) and $n \in \mathbb{N}$ a [[natural number]].
-Then the _tautological $k$-line bundle_ over the [[projective space]] $k P^n$ is the following vertical [[bundle]] map:
+The _tautological $k$-line bundle_ over the [[projective space]] $k P^n$ is the following vertical [[bundle]] map:
 
 \[
   \label{TautologicalBundleProjection}
@@ -73,13 +96,41 @@ Then the _tautological $k$-line bundle_ over the [[projective space]] $k P^n$ is
 
 Here:
 
-* $k^{n+1} \coloneqq \underset{k\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]];
-
 * $k^\times \,\coloneqq\, k \setminus \{0\}$ is the [[group of units]] of $k$;
 
-* $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space]] by the [[diagonal action]];
+* $k^{n+1} \coloneqq \underset{k\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]], 
 
-* and $k^\ast$ is $k$ equipped with the _dual_ $k^\times$-action
+  whose elements we will also denote as [[lists]] 
+
+  \[
+    \label{CoordinatesAsListsOfElements}
+    v \,=\, (v_1, v_{rest}) \,=\, (v_1, v_2, \cdots, v_{n+1})
+    \,,
+  \]
+
+  regarded with the _right_ $k^\times$-[[group action]]:
+
+  \[
+    \label{RightDirectMultiplicationAction}
+    \array{
+       k^{n+1} \times k^\times 
+       &
+         \overset{ \;\;\;\; }{\longrightarrow}
+       &
+       k^{n+1}
+       \\
+       \big(
+         (v_1, \, \cdots, \, v_{n+1}),
+         \,
+         z 
+       \big)
+       &\mapsto&
+       (v_1 \!\cdot\! z,\, \cdots, \, v_{n+1} \!\cdot\! z)
+       \,,
+    }
+  \]
+
+* $k^\ast$ is $k$ equipped with the _dual_ $k^\times$-action from the _left_, in this sense:
 
   \[
     \label{DualActionOnk}
@@ -88,18 +139,22 @@ Here:
       &\longrightarrow&
       k^\ast
       \\
-      (g,z) &\mapsto& z/g
+      (z,g) &\mapsto& z^{-1} \cdot g
     }
   \]
 
-* so that, for $z \neq 0$,
+* $\frac{(-) \times (-)}{k^\times}$ denotes the [[quotient space]] of a [[product space]] by the [[diagonal action]]; 
+
+* $[-]$ denotes its elements as [[equivalence classes]] of elements of the original space;
+
+* so that, for $z \,\in\, k^\times$,
 
   $$
-    [v,z] 
+    [v,\,z] 
       \;=\; 
-    [v, z \cdot 1] 
+    [v,\, z \!\cdot\! 1] 
       \;=\; 
-    [v \cdot z, 1] 
+    [v \!\cdot\! z ,\, 1] 
       \;\;\in\;\;
     \frac{
       (V \setminus \{0\}) \times k^\ast
@@ -108,11 +163,38 @@ Here:
     }
   $$
 
-This is "tautological" in the sense that the [[fiber]] of the bundle over a point $[v]$ in the projective base space, which is the name of the line through some vector $v$, consists of all the points $z \cdot v$ on that line -- as made explicit by the horizontal map in (eq:TautologicalBundleProjection).
+* and hence so that the quotient construction in (eq:TautologicalBundleProjection) is equivalently the $k$-[[fiber bundle|fiber]] _[[associated bundle]]_ to the $k^\times$-[[principal bundle]] (here "$T$" is for [[torsor]]):
 
-Often the tautological line bundle is referred to via the notation "$\mathcal{O}_k(-1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]] (see e.g. [Wirthmüller 12, p. 14 (16 of 67)](#Wirthmuller12)).
 
-The further [[corestriction]] of that horizontal map (eq:TautologicalBundleProjection) to $k^{n+1}$
+\[
+  \label{TautologicalPrincipalBundleOverProjectiveSpace}
+  \array{
+    T_{k P^n}
+    & \coloneqq & 
+    k^{n+1} \setminus \{0\}
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow {}^{\mathrlap{
+      quotient\;map
+    }}
+    \\
+    k P^n
+    &=&
+    (k^{n+1} \setminus \{0\}) / k^\times
+    \,.
+  }
+\]
+
+
+The [[line bundle]] (eq:TautologicalBundleProjection) is "tautological" in the sense that its [[fiber]] over a point labeled $[v]$ -- which may be regarded as the _name_ of the line [[linear span|spanned]] by the vector $v \in k^{n+1}$ -- consists of all the points $v \!\cdot\! z$ _on that line_ -- as made explicit by the horizontal map in (eq:TautologicalBundleProjection).
+
+Often the tautological line bundle is referred to via the notation "$\mathcal{O}_k(-1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]] (see e.g. [Wirthmüller 12, p. 14 (16 of 67)](#Wirthmuller12)):
+
+* "$\mathcal{L}_{k P^n}$" $\;\;\;\leftrightarrow\;\;\;$ "$\mathcal{O}_k(-1)$"
+
+
+The [[corestriction]] of the horizontal map in (eq:TautologicalBundleProjection) to $k^{n+1}$
 
 $$
     \mathcal{L}_{k P^n}
@@ -140,10 +222,10 @@ exhibits the total space of the tautological bundle as the "[[blow-up]]" of the 
 \end{imagefromfile}
 
 
-### Dual tautological line bundle
+### Dual tautological line bundle and its Thom space
  {#DualTautologicalLineBundle}
 
-The [[dual vector bundle|dual line bundle]] of the tautological line bundle is 
+The [[dual vector bundle|dual line bundle]] of the tautological line bundle (eq:TautologicalBundleProjection) is 
 
 \[
   \label{DualTautologicalBundleProjection}
@@ -188,9 +270,12 @@ The [[dual vector bundle|dual line bundle]] of the tautological line bundle is
   }
 \]
 
-with [[typical fiber]] $k$ instead of $k^\ast$, meaning that the [[action]] of $k^\times$ on the fibers is now the direct multiplication action, instead of the dual action (eq:DualActionOnk).
+with [[typical fiber]] $k$ instead of $k^\ast$, meaning that the [[action]] of $k^\times$ on the fibers is now the direct right multiplication action (eq:RightDirectMultiplicationAction), instead of the dual action (eq:DualActionOnk).
 
-Often the dual tautological line bundle is referred to via the notation "$\mathcal{O}_k(1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]].
+Often the dual tautological line bundle is referred to via the notation "$\mathcal{O}_k(1)$", which in [[algebraic geometry]] is standard notation for its [[abelian sheaf]] of [[sections]]:
+
+* "$\mathcal{L}^\ast_{k P^n}$" $\;\;\;\leftrightarrow\;\;\;$ "$\mathcal{O}_k(1)$".
+
 
 The horizontal map in (eq:DualTautologicalBundleProjection) [[embedding of topological spaces|embeds]] the [[complement]] of the single point $[(v\! = \! 0,\,1)] \in k P^{n+1}$. That point however is the [[limit of a sequence|limit]] as $z \to \infty$, hence is the image of the base point as (eq:DualTautologicalBundleProjection) [[extension|extends]] to a map on the [[Thom space]] of the dual tautological line bundle:
 
@@ -309,7 +394,7 @@ the canonical inclusion of the projective spaces:
   }
 \]
 
-Notice how, in this coordinatization, the projective spaces are horizontally included by adjoining a 0-coordinate to the _left_ of the sequence and vertically by adjoining a 0-coordinate to the _right_.
+Notice how, in this coordinatization, the projective spaces are horizontally included by adjoining a 0-coordinate to the _left_ of the list (eq:CoordinatesAsListsOfElements) and vertically by adjoining a 0-coordinate to the _right_.
 
 It follows that under forming a suitable [[colimit]] over this diagram as $n \to \infty$, in a suitable category (typically in [[homotopy types]] of [[topological spaces]] if $k$ is a [[topological field]], see also [below](#AsAtopologicalLieBundle)), the infinite projective space wants to be equivalent to the Thom space of its tautological line bundle:
 
@@ -332,7 +417,7 @@ See for instance [this Lemma](universal+complex+orientation+on+MU#UniversalCompl
 ### As a topological line bundle
   {#AsAtopologicalLieBundle}
 
-We make fully explicit how the tautological line bundle is a [[topological vector bundle]]. Hence regard $k$ as a [[topological field]], either
+We make fully explicit how the tautological line bundle (eq:TautologicalBundleProjection) is a [[locally trivial bundle|locally trivial]] [[topological vector bundle]]. Hence regard now $k$ as a [[topological field]], either
 
 * $k = \mathbb{R}$ the [[real numbers]],
 
