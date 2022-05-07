@@ -138,23 +138,6 @@ In the [[convenient category of topological spaces|convenient category]] of [[co
 
 This is due to ([Steinberger-West 84](#SteinbergerWest84)) with the corrected proof due to ([Cauty 92](#Cauty92)) (pointers via [[Peter May]] [here](https://mathoverflow.net/a/241611/381)).  Theorem-page at [[a Serre fibration between CW-complexes is a Hurewicz fibration]].
 
-
-### Local recognition over numerable open covers
- {#LocalRecognition}
-
-The following proposition says that being a Serre fibration is a *local property* with respect to the [[codomain]] space, at least as long as the local [[open cover]] used is [[numerable open cover|numerable]].
-
-\begin{prop}\label{MapIsSerreFibrationIfPullbackToNumerableCoverIsSo}
-**(Local recognition of Serre fibrations over numerable open covers)**\linebreak
-  
-Let $p \colon E \to B$ be a continuous function such that there exists a [[numerable open cover]] $U \overset{\phi}{\longrightarrow} B$ over which $E$ is a Serre fibration, hence such that the [[pullback]] $\phi^\ast p$ is a Serre fibration.
-
-Then $p$ is a Serre fibration
-
-\end{prop}
-
-A proof may be found spelled out in e.g. [May 99, Sec. 7.4](#May99)
-
 ### Long exact sequences of homotopy groups
 
 Since Serre fibrations are the abstract [[fibrations]] in the Serre-[[classical model structure on topological spaces]], the following statement follows from general [[model category]] theory. But it may also be seen by direct inspection, as follows.
@@ -333,24 +316,8 @@ The commutativity of the outer square says that $f_\ast \alpha'$ is constant, he
 ### Fiber bundles
  {#FiberBundles}
 
-\begin{prop}\label{NumerableFiberBundlesAreSerreFibrations}
-**(numerable fiber bundles are Serre fibrations)** \linebreak
+Every (locally trivial) topological [[fiber bundle]] is a Serre fibration.
 
-Every [[numerable fiber bundle]], hence in particular every [[fiber bundle]] over a [[paracompact topological space]], is a Serre fibration.
-
-\end{prop}
-\begin{proof}
-  By definition of local triviality, 
-  for a [[numerable fiber bundle]] $p \colon E \to B$ -- such as a [[fiber bundle]] over a [[paracompact topological space]] -- there exists a [[numerable open cover]] $\phi \colon U \to B$ such that the [[pullback bundle]] $\phi^\ast p$ is trivial, i.e. is the [[Cartesian product]] [[projection]]
-
-$$
-  \phi^\ast p \;\colon\; U \times F \longrightarrow U
-$$
-
-(for $F$ the [[typical fiber]]). Since such a projection is clearly a [[Serre fibration]] (i.e. $F$, like every topological space, is Serre fibrant) the claim follows by the local recognition of Serre fibrations over numerable open covers  ([this Prop.](#MapIsSerreFibrationIfPullbackToNumerableCoverIsSo)).
-
-
-\end{proof}
 
 ### Covering spaces
 
@@ -373,10 +340,6 @@ Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz f
 * {#SteinbergerWest84} M. Steinberger and J. West, _Covering homotopy properties of maps between CW complexes or ANRs_, Proc. Amer. Math. Soc. 92 (1984), 573-577.  
 
 * {#Cauty92} R. Cauty, _Sur les ouverts des CW-complexes et les fibr&#233;s de Serre_,  Colloquy Math. 63 (1992), 1--7
-
-Review:
-
-* {#May99} [[Peter May]], _[[A concise course in algebraic topology]]_,   University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 For more see at _[[classical model structure on topological spaces]]_.
 
