@@ -1,4 +1,15 @@
 
+$$
+  &#9025;
+  \;\;
+  &#x2341;
+  \;\;
+  &solb;
+$$
+
+\begin{tikzpicture}
+  \draw (0,0) node {A};
+\end{tikzpicture}
 
 \begin{definition}\label{ShapeOfToposAsImageOfItsPointUnderProLeftAdjointToLConst}
 **(shape of an $\infty$-topos -- [Hoyois 2013, p. 3](#Hoyois13))**
