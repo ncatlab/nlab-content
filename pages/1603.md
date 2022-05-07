@@ -72,17 +72,6 @@ A __quasigroup__ is a [[set]] $G$ equipped with three binary operations (product
 Also, without the right quotient we have left quasigroups, and without the left quotient the right quasigroups.
 Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]]. There are weaker structures, say left and right quasigroups in which either $\backslash$ or $/$ is well defined. 
 
-In any case:
-+-- {: .un_defn}
-###### Definition
-
-A __[[loop (algebra)|loop]]__ is a quasigroup with an [[identity element]].
-
-=--
-Loops are also described by a Lawvere theory.
-
-Note that, even in a loop, left and right inverses need not agree.  See [the discussion on the English Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Quasigroup#Inverse_properties) for convenient inverse properties.
-
 For good measure, here is another special kind of quasigroup:
 +-- {: .un_defn}
 ###### Definition
@@ -90,23 +79,17 @@ For good measure, here is another special kind of quasigroup:
 A __[[group]]__ is an associative quasigroup with [[identity elements]].
 =--
 
-
 ## Examples
 
-*  Any group is a loop, of course.
+*  Any group is an associative quasigroup, of course.
+* Every [[associative quasigroup]], and every [[loop (algebra)|loop]] is a quasigroup. 
 *  Any [[abelian group]] is a quasigroup in two other ways: the product switches places with one of the quotients.  (The other quotient remains a quotient.)
-* Every [[associative quasigroup]], every [[commutative quasigroup]], and every [[loop (algebra)]] (unital quasigroup) is a quasigroup. 
 * [[H-space]]s are (homotopy-) loops --- this is because the [[shearing maps]] $(x,y)\mapsto (x,x y)$ and $(x,y)\mapsto (x y, y)$ are equivalences.  This generalizes the octonion examples.  Note that a [[loop space]] is always equivalent to a *group*, hence not all homotopy loops are loop spaces.  In particular ...
 *  The nonzero elements of a (not necessarily associative) [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
-* [[code loop]]s are loops which are central extensions of abelian groups (actually vector spaces over the finite field $\mathbb{F}_2$) by $\mathbb{Z}_2$.
-
-See also [[Moufang loop]]. 
 
 ## Applications
 
-Local analytic loops have interesting induced structure on the tangent space at the identity, generalizing the Lie algebra of a group, see [[Sabinin algebra]]. Sabinin algebras are closely related to the local study of affine connections on manifolds. They include some known important classes of nonassociative algebras, namely Lie algebras, Mal'cev algebras, Lie triple systems (related to the study of [[symmetric space]]s), Bol algebras as simplest cases.
-
-There are interesting subvarieties of quasigroups and loops (which are still not associative). Also, left [[racks]] (and quandles in particular) are precisely left distributive left quasigroups, with abundance of recent applications in the study of knots and links. Finite racks have been studied in the connection to classification of finite dimensional pointed Hopf algebras. Local augmented Lie racks appeared as integration objects in the local integration theory of [[Leibniz algebra]]s.
+There are interesting subvarieties of quasigroups (which are still not associative). Also, left [[racks]] (and quandles in particular) are precisely left distributive left quasigroups, with abundance of recent applications in the study of knots and links. Finite racks have been studied in the connection to classification of finite dimensional pointed Hopf algebras. Local augmented Lie racks appeared as integration objects in the local integration theory of [[Leibniz algebra]]s.
 
 TS-quasigroups are related to [[Steiner triple system]]s. 
 
@@ -143,7 +126,6 @@ This shows $T Q$ is isomorphic to the product bundle $Q \times V$.
 * [[eom]]: [quasi-group](http://www.encyclopediaofmath.org/index.php/Quasi-group), [Webs, geometry of](http://www.encyclopediaofmath.org/index.php/Webs,_geometry_of), [Net (in differential geometry)](http://www.encyclopediaofmath.org/index.php/Net_%28in_differential_geometry%29)
 * R.H. Bruck, _A survey of binary systems_, Springer-Verlag 1958
 * [[Kenneth Kunen]], _Quasigroups, loops, and associative laws_, J. Algebra __185__ (1) (1996), pp. 194&#8211;204
-* P&#233;ter T. Nagy, Karl Strambach, _Loops as invariant sections in groups, and their geometry_, Canad. J. Math. __46__(1994), 1027-1056 [doi](http://dx.doi.org/10.4153/CJM-1994-059-8)
 * Momo Bangoura, _Big&#232;bres quasi-Lie et boucles de Lie_,  Bull. Belg. Math. Soc. Simon Stevin __16__:4 (2009), 593-616 [euclid](http://projecteuclid.org/euclid.bbms/1257776236) [arXiv:math.SG/0607662 ](http://arxiv.org/abs/math/0607662); _Quasi-big&#232;bres de Lie et cohomologie d'alg&#232;bre de Lie_, [arxiv/1006.0677](http://arxiv.org/abs/1006.0677) 
 * Lev Vasil&#697;evich Sabinin, _Smooth quasigroups and loops: forty-five years of incredible growth_, Commentationes Mathematicae Universitatis Carolinae __41__ (2000), No. 2, 377--400 [cdml](http://dml.cz/dmlcz/119171) [pdf](http://dml.cz/dmlcz/119171)
 
