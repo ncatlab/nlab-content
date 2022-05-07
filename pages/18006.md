@@ -1,11 +1,14 @@
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[coding theory]], a _linear code_ is a [[linear subspace]] of a [[vector space]] of [[finite number|finite]] [[dimension]] $d$ over a [[prime field]] $\mathbb{F}_p$, i.e. a vector space [[isomorphism|isomorphic]] to $(\mathbb{F}_p)^d$, for some [[prime number]] $p$ (often $p = 2$). The dimension $d$ of the vector space is also called the _length_ of the linear code.
+In [[coding theory]], a _linear code_ is an [[error correcting code]] which is [[linear algebra|linear]], in that it is a [[linear subspace]] of a [[vector space]] over a [[finite field]] $\mathbb{F}_q$. Specifically a *[[binary linear code]]* is a linear code over $\mathbb{F}_2$.
+
+A *linear code* is a [[linear subspace]] of a [[vector space]] of [[finite number|finite]] [[dimension]] $d$ over a [[prime field]] $\mathbb{F}_p$, i.e. a vector space [[isomorphism|isomorphic]] to $(\mathbb{F}_p)^d$, for some [[prime number]] $p$ (often $p = 2$). The dimension $d$ of the vector space is also called the _length_ of the linear code.
 
 
 ## Examples
@@ -42,7 +45,3 @@ See also:
 
 [[!redirects linear codes]]
 
-[[!redirects error correcting code]]
-[[!redirects error correcting codes]]
-[[!redirects error-correcting code]]
-[[!redirects error-correcting codes]]
