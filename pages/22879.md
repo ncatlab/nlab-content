@@ -60,6 +60,7 @@ Some remarks on the terminology being used:
 
 In many cases of interest, such as when the [[domain]] $X_1$ is a non-singular [[complex curve]]/[[Riemann surface]] and the [[codomain]] $X_2$ a [[complex projective space]], then all rational maps from $X_1$ to $X_2$ are automatically regular (e.g. [Shafarevich Vol1, Cor. 2.3](rational+map#ShafarevichVol1)). 
 \end{remark}
+For review of more details see [Havlicek 92, §1](#Havlicek92).
 
 ### Maps from a Riemann surface to a projective space
 
@@ -205,6 +206,30 @@ $$
 induces an isomorphism on all [[homotopy groups]], hence is a [[weak homotopy equivalence]] -- reflecting the fact that non-compactness of the Riemann surfaces and absence of any asymptotic boundary condition provides a large supply of holomorphic functions.
 \end{remark}
 
+In fact:
+
+\begin{prop}\label{RationalMapsToCPnAsConfigurationsOfPoints}
+  The full [[homotopy type]] of the space of [[pointed topological space|pointed]] rational maps from the [[Riemann sphere]] to [[complex projective space|complex projective $n$-space]] $\mathbb{C}P^n$ of algebraic degree $d$ is that of the [[configuration space of points|configuration space of at most $d$ points]] in $\mathbb{R}^2$ with labels in $S^{2n-1}$:
+
+$$
+    Maps_{
+      {rat}
+    }^{deg = d}
+    \big(
+      \Sigma
+      ,\,
+      \mathbb{C}P^n
+    \big)
+  \;\simeq_{htpy}\;
+  \underset{ \leq d}{Conf}
+  \big(
+    \mathbb{R}^2;
+    S^{2k+1}
+  \big)
+$$
+\end{prop}
+
+([Cohen & Shimamoto 91, Theorem 1](#CohenShimamoto91))
 
 ### Maps between projective spaces
  {#MapsBetweenProjectiveSpaces}
@@ -303,6 +328,13 @@ The analog for rational curves into [[real projective spaces]]:
 
 * {#Mostovoy01} [[Jacob Mostovoy]], *Spaces of Rational Loops on a Real Projective Space*, Transactions of the American Mathematical Society, Vol. 353, No. 5 (May, 2001), pp. 1959-1970 ([jstor:221802](https://www.jstor.org/stable/221802))
 
+Identification of the higher [[homotopy groups]] of $Maps_{rat}(\mathbb{C}P^1, \mathbb{C}P^1)$:
+
+*  [[Martin A. Guest]], [[Andrzej Kozlowski]], M. Murayama, [[Kohhei Yamaguchi]], *The homotopy type of the space of rational functions*, J. Math. Kyoto Univ. 35(4): 631-638 (1995) ([doi:10.1215/kjm/1250518652](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-35/issue-4/The-homotopy-type-of-the-space-of-rational-functions/10.1215/kjm/1250518652.full)) 
+
+Identification of the full [[homotopy type]] of $Maps_{rat}(\mathbb{C}P^1, \mathbb{C}P^n)$ with a [[configuration space of points]]:
+
+* {#CohenShimamoto91} [[Ralph L. Cohen]], [[Don H. Shimamoto]], *Rational Functions, Labelled Configurations, and Hilbert Schemes*, Journal of the London Mathematical Socienty **43** 2 (1991) 509-528 ([doi:10.1112/jlms/s2-43.3.509](https://doi.org/10.1112/jlms/s2-43.3.509))
 
 Generalization to the case that the [[codomain]] is 
 
@@ -312,8 +344,11 @@ Generalization to the case that the [[codomain]] is
 
 *  [[Benjamin M. Mann]], [[R. James Milgram]],  *Some spaces of holomorphic maps to complex Grassmann manifolds*, J. Differential Geom. 33(2): 301-324 (1991) ([doi:10.4310/jdg/1214446318](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-33/issue-2/Some-spaces-of-holomorphic-maps-to-complex-Grassmann/10.4310/jdg/1214446318.full))
 
+* {#Havlicek92} John W. Havlicek, *On spaces of holomorphic maps from two copies of the riemann sphere to complex grassmannians*, Stanford University 1992 ([proquest:304009877](https://www.proquest.com/docview/304009877))
 
 ... a [[toric variety]]:
+
+* [[Martin A. Guest]], *Configuration spaces and the space of rational curves on a toric variety*, Bull. Amer. Math. Soc. 31 (1994), 191-196 ([doi:10.1090/S0273-0979-1994-00515-4](https://doi.org/10.1090/S0273-0979-1994-00515-4))
 
 * [[Martin A. Guest]], *The topology of the space of rational curves on a toric variety*, Acta Math. 174(1): 119-145 (1995) ([doi:10.1007/BF02392803](https://projecteuclid.org/journals/acta-mathematica/volume-174/issue-1/The-topology-of-the-space-of-rational-curves-on-a/10.1007/BF02392803.full), [arXiv:alg-geom/9301005](https://arxiv.org/abs/alg-geom/9301005))
 
