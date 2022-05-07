@@ -77,6 +77,7 @@ $$
   q^{ n(T) }
   \;\;=\;\;
   q^{ \sum_i i \cdot \lambda_i }
+    \cdot
   \underset{
     { i \in \{1, \cdots, rows(\lambda)\} }
     \atop
@@ -104,6 +105,7 @@ $$
   q^{ n(T) }
   \;\;=\;\;
   q^{ \sum_i i \cdot \lambda_i }
+    \cdot
   \underset{
     { i \in \{1, \cdots, rows(\lambda)\} }
     \atop
@@ -117,7 +119,7 @@ $$
   \,,
 $$
 
-whence its name.
+whence the name "hook/content formula".
 
 
 ## References
@@ -128,7 +130,7 @@ Due to:
 
 Further proofs:
 
-* [[Christian Krattenthaler]], *An Involution Principle-Free Bijective Proof of Stanley’sHook-Content Formula*, Discrete Mathematics and Theoretical Computer Science **3**, 1998, 11–32 ([hal:hal-00958904](https://hal.inria.fr/hal-00958904), [pdf](https://hal.inria.fr/hal-00958904/document))
+* [[Christian Krattenthaler]], *An Involution Principle-Free Bijective Proof of Stanley's Hook-Content Formula*, Discrete Mathematics and Theoretical Computer Science **3**, 1998, 11–32 ([hal:hal-00958904](https://hal.inria.fr/hal-00958904), [pdf](https://hal.inria.fr/hal-00958904/document))
 
 * [[Christian Krattenthaler]], *Another involution principle-free bijective proof of Stanley's hook-content formula*, J. Combin. Theory Ser. A 88 (1999), 66-92 ([arXiv:math/9807068](https://arxiv.org/abs/math/9807068))
 
