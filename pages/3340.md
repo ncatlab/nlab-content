@@ -245,7 +245,7 @@ On the cyclic homology of the [[groupoid convolution algebra]] of [[étale group
 * [[Jean-Luc Brylinski]], [[Victor Nistor]], *Cyclic cohomology of étale groupoids*,  K-theory 8.4 (1994): 341-365 ([pdf](https://www.researchgate.net/profile/Victor-Nistor/publication/226520448_Cyclic_cohomology_of_etale_groupoids/links/5509d9d30cf20ed529e227b0/Cyclic-cohomology-of-etale-groupoids.pdf), [[BrylinskiNistor_CyclicCohomology.pdf:file]])
 
 
-* [[Marius Crainic]], *Cyclic Cohomology of Etale Groupoids; The General Case* ([arXiv:funct-an/9712001](https://arxiv.org/abs/funct-an/9712001))
+* [[Marius Crainic]], *Cyclic Cohomology of Étale Groupoids; The General Case*, K-Theory 17: 319–362, 1999 ([arXiv:funct-an/9712001](https://arxiv.org/abs/funct-an/9712001), [published pdf](https://access.portico.org/Portico/rest/au/getAUContent?auId=ark:/27927/pgg1zfpvw2x&fileName=pgg1zfprgx2.pdf&viewType=PDF))
 
 
 The [[Loday-Quillen-Tsygan theorem]] is originally due, independently, to
