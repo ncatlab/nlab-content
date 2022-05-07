@@ -1,4 +1,108 @@
 
+The non-degenerate (n+1)-simplices of 
+$\begin{aligned} & \Delta[1] \\ \times & \Delta[n] \end{aligned}$ are
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 1 & 1 & 1 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 0 & 1 & 2 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+$$
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 0 & 1 & 1 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 1 & 1 & 2 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+$$
+
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 0 & 0 & 1 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 1 & 2 & 2 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+$$
+
+
+
+$$
+  \left(
+  \;\,
+  \array{
+    \mathllap{[}
+    0 & 0 & 0 & 0 & 1 & \cdots & 1 & 1
+    \mathrlap]
+    \\
+    \mathllap[
+    0 & 1 & 2 & 3 & 3 & \cdots & n-1 & n
+    \mathrlap]
+  }
+  \;\,
+  \right)
+$$
+
+
+
+$$
+  \array{
+    Hom(\Delta[1] \times \Delta[n], \overline{W}G)
+    \times
+    Hom(\Delta[n],\Delta[1])
+    &&
+    Hom(\Delta[n],\overline{W}G)  
+    \\
+    (\gamma, g_{n-1}, \cdots, g_0), 
+    (0,\cdots, 0, 1, \cdots, 1)
+    &&
+  }
+$$
+
+$$
+  \array{
+    (\gamma, g_{n-1}, \cdots, g_1, g_0)
+    \;\colon\;
+    &
+    \Delta[1] \times \Delta[n]
+    &\longrightarrow&
+    \overline{W}G
+    \\
+    &
+    \big(
+       [0, \cdots, 0, 1, \cdots, 1], ([0,1,\cdots, n])
+    \big)
+    &\mapsto&
+    ( )
+  }
+$$
+   
 
 $$
   \begin{aligned}
