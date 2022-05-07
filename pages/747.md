@@ -43,7 +43,7 @@ $$
 
 -- the category of [[simplicial presheaf|simplicial presheaves]] .
 
-Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and [[Andre Joyal]] and then developed in detail by [[Rick Jardine]].
+Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and [[Andre Joyal]] and then developed in detail by [[J. F. Jardine]].
 
 Notice that when regarded as a presentation of an [[(∞,1)-sheaf]], i.e. of an [[∞-stack]], a simplicial presheaf -- being an ordinary functor instead of a [[pseudofunctor]] -- corresponds to a [[rectified ∞-stack]]. It might therefore seem that a model given by simplicial presheaves is too restrictive to capture the full expected flexibility of a notion of [[∞-stack]].
 But this is not so. 
@@ -1424,4 +1424,9 @@ A useful collection of facts is in
 
 [[!redirects injective global model structure on simplicial presheaves]]
 [[!redirects injective global model structures on simplicial presheaves]]
+
+[[!redirects intermediate model structure on simplicial presheaves]]
+[[!redirects intermediate model structures on simplicial presheaves]]
+
+
 
