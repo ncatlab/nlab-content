@@ -49,7 +49,10 @@ Finally, field operations on surreal numbers are defined recursively:
 
 * $-x$ is defined by letting $L_{-x}$ be the set of negatives of elements of $R_x$, and $R_{-x}$ the set of negatives of $L_x$; 
 
-* $x y$ is defined by letting $L_{x y}$ be the set $\{x' y + x y' - x'' y'' \vert x', x'' \in L_x, y', y'' \in L_y\} \cup \{x' y + x y' - x'' y'' \vert x', x'' \in R_x, y', y'' \in R_y\}$, and $R_{x y}$ be the set $\{x' y + x y' - x'' y'' \vert x', x'' \in L_x, y', y'' \in R_y\} \cup \{x' y + x y' - x'' y'' \vert x', x'' \in R_x, y', y'' \in L_y\}$. 
+* $x y$ is defined by letting $L_{x y}$ be the set 
+$$\{x' y + x y' - x'' y'' \vert x', x'' \in L_x, y', y'' \in L_y\} \cup \{x' y + x y' - x'' y'' \vert x', x'' \in R_x, y', y'' \in R_y\},$$ 
+and $R_{x y}$ be the set 
+$$\{x' y + x y' - x'' y'' \vert x', x'' \in L_x, y', y'' \in R_y\} \cup \{x' y + x y' - x'' y'' \vert x', x'' \in R_x, y', y'' \in L_y\}.$$ 
 
 The style of such definitions is familiar from [[material set theory]], where elements are conceived to be sets of elements, which themselves have elements, and so on, down to a bedrock established by a foundation axiom. In fact, games can be axiomatized as elements of a structure with two predicates $\in_L$, $\in_R$ satisfying some set-theoretic axioms. 
 
