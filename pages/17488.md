@@ -659,7 +659,7 @@ $$
       &\overset{\simeq}{\longrightarrow}&
     [X_k, Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
     \\
-    {}^{\mathllap{[S^1 \wedge \alpha, \sigma_k]}}\downarrow
+    {}^{\mathllap{[S^1 \wedge \alpha, \sigma_k]_\ast}}\downarrow
       &&
     \downarrow^{\mathrlap{[\alpha, Maps(S^1,\sigma_k)_\ast]_\ast}}
     \\
@@ -1271,7 +1271,7 @@ being the [[adjunct]] of the component map of $X$ on spheres of consecutive dime
 +-- {: .proof}
 ###### Proof
 
-First observe that from its components on consecutive spheres the functor $X$ is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the
+First observe that from its components on maps of consecutive spheres the functor $X$ is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the
 [[smash product]] of the hom-spaces between the consecutive spheres, for instance:
 
 $$
@@ -1350,7 +1350,7 @@ Further [below](#StrictModelStructureOnSequentialSpectra) we use prop. \ref{Sequ
 +-- {: .num_remark #TensoringOfSeqSpectraOverSpacesAsSpecialCaseOfTensoringTopologicalFunctors}
 ###### Remark
 
-Under the equivalence of prop. \ref{SequentialSpectraAsDiagramSpectra}, the general concept of tensoring of [[topologically enriched functors]] over topological spaces (according to [this def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)) restricts to the concept of tensoring of sequential spectral over topological spaces according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+Under the equivalence of prop. \ref{SequentialSpectraAsDiagramSpectra}, the general concept of tensoring of [[topologically enriched functors]] over topological spaces (according to [this def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)) restricts to the concept of tensoring of sequential spectra over topological spaces according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
 =--
 
@@ -1966,7 +1966,7 @@ $$
     y(S^n) \cdot i_+
   \right\}_{{S^n \in StdSpheres,} \atop {i_+ \in I_{Top^{\ast/}}}}
   \;\;
-  \in [StdSpheres, Top^{\ast/}] \simeq SeqSpec(Top)
+  \subset Mor([StdSpheres, Top^{\ast/}]) \simeq Mor(SeqSpec(Top))
 $$
 
 and
@@ -1978,7 +1978,7 @@ $$
     y(S^n) \cdot j_+
   \right\}_{{ S^n \in StdSpheres} \atop {j_+ \in J_{Top^{\ast/}}}}
   \;\;
-  \in [StdSpheres, Top^{\ast/}] \simeq SeqSpec(Top)
+  \subset Mor([StdSpheres, Top^{\ast/}]) \simeq Mor(SeqSpec(Top))
   \,,
 $$
 
@@ -2484,7 +2484,7 @@ For the following, recall that a [[continuous function]] $f \colon X \to Y$ betw
 +-- {: .num_lemma #nConnectedCWApproximationOfContinuousFunction}
 ###### Lemma
 
-Let $f \;\colon\; A \longrightarrow X$ be a [[continuous function]] between [[topological spaces]]. Then there exists for each $n \in \mathbb{N}$ a [[relative CW-complex]] $\hat f \colon A \hookrightarrow \hat Y$ together with an [[extension]] $\phi \colon Y \to X$, i.e.
+Let $f \;\colon\; A \longrightarrow X$ be a [[continuous function]] between [[topological spaces]]. Then there exists for each $n \in \mathbb{N}$ a [[relative CW-complex]] $\hat f \colon A \hookrightarrow \hat X$ together with an [[extension]] $\phi \colon \hat X \to X$, i.e.
 
 $$
   \array{
@@ -2629,7 +2629,7 @@ $$
 ### Topological enrichment
   {#TopologicalEnrichment}
 
-We discuss here how the [[hom-set]] of homomorphisms between any two sequential spectra is naturally equipped with a topology, and how these _[[hom-spaces]]_ interact well with the strict model structure on sequential spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. This is in direct analogy to the compatibility of compactly generated [[mapping spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces)) with the [[classical model structure on topological spaces|classical model structure on compactly generated topological spaces]] discussed at _[Classical homotopy theory -- Topological enrichment](Introduction+to+Stable+homotopy+theory+--+P#TopologicalEnrichment)_. It gives an improved handle on the analysis of morphisms of spectra below in [the proof of the stable model structure](#ProofOfTheStableModelStructureOnSequentialSpectra) and it paves the way to the discussion of fully fledge _[[mapping spectra]]_ below in _[[Introduction to Stable homotopy theory -- 1-2|part 1.2]]_. There we will give a fully general account of the principles underlying the following. Here we just consider a pragmatic minimum that allows us to proceed.
+We discuss here how the [[hom-set]] of homomorphisms between any two sequential spectra is naturally equipped with a topology, and how these _[[hom-spaces]]_ interact well with the strict model structure on sequential spectra from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. This is in direct analogy to the compatibility of compactly generated [[mapping spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces)) with the [[classical model structure on topological spaces|classical model structure on compactly generated topological spaces]] discussed at _[Classical homotopy theory -- Topological enrichment](Introduction+to+Stable+homotopy+theory+--+P#TopologicalEnrichment)_. It gives an improved handle on the analysis of morphisms of spectra below in [the proof of the stable model structure](#ProofOfTheStableModelStructureOnSequentialSpectra) and it paves the way to the discussion of fully fledged _[[mapping spectra]]_ below in _[[Introduction to Stable homotopy theory -- 1-2|part 1.2]]_. There we will give a fully general account of the principles underlying the following. Here we just consider a pragmatic minimum that allows us to proceed.
 
 
 
@@ -3178,9 +3178,9 @@ a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say t
 
 1. a **$Q$-weak equivalence** if $Q(f)$ is a weak equivalence;
 
-1. **a $Q$-cofibation** if it is a cofibration.
+1. a **$Q$-cofibration** if it is a cofibration.
 
-1. **a $Q$-fibration** if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
+1. a **$Q$-fibration** if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
 
 Write
 
@@ -3698,7 +3698,7 @@ Then $p^\ast \eta_Y$ is a $Q$-weak equivalence since it is the pullback of a $Q$
 
 In particular, the bottom right square is a homotopy pullback (since two opposite edges are weak equivalences, by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), and since the left square is a genuine pullback of a fibration, hence a homotopy pullback, the total bottom rectangle here exhibits a homotopy pullback by the [[pasting law]] for homotopy pullbacks ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
 
-Now by [[natural transformation|naturality]] of $\eta$, that total bottom rectangle is the same as the following rectangle
+Now by [[natural transformation|naturality]] of $\eta$, the maps between the corners of that total bottom rectangle is the same as in the following rectangle
 
 $$
   \array{
@@ -3723,11 +3723,11 @@ $$
   \,,
 $$
 
-where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, as we had just established. This means again that the right square is a homotopy pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), and since the total rectangle still is a homotopy pullback itself, by the previous remark, so is now also the left square, by the other direction of the [[pasting law]] for homotopy pullbacks ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
+where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, as we have just established. This means again that the right square is a homotopy pullback ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), and since the total rectangle still is a homotopy pullback itself, by the previous remark, so is now also the left square, by the other direction of the [[pasting law]] for homotopy pullbacks ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
 
 So far this establishes that the $\eta$-naturality square of $\tilde p$ is a homotopy pullback. We still need to show that also the $\eta$-naturality square of $f$ is a homotopy pullback.
 
-Factor $\tilde i$ as a cofibration followed by an acyclic fibration. Since $\tilde i$ is also a $Q$-weak equivalence, by the above, [[two-out-of-three]] for $Q$-fibrations gives that this factorization is of the form
+Factor $\tilde i$ as a cofibration followed by an acyclic fibration. Since $\tilde i$ is also a $Q$-weak equivalence, by the above, [[two-out-of-three]] for $Q$-weak equivalences gives that this factorization is of the form
 
 $$
   \array{
@@ -4087,7 +4087,7 @@ $$
   }
 $$
 
-exhibits a [[homotopy pullback]] in $SeqSpec(Top_{cg})_{strict}$. Since every  object in $SeqSpec(Top_{cg})_{strict}$ is fibrant, the vertical morphisms here are fibrations. The pullback of $Q(X)$ along $id_\ast$ is just $Q(X)$ itself, and the universally induced morphism into this pullback is just $\eta_X$ itself. Hence the square is a homotopy pullback precisely if $\eta_X$ is a weak equivalence in $SeqSpec(Top_{cg})_{strict}$, hence degreewise a [[weak homotopy equivalence]]. Since $Q(X)$ is an [[Omega-spectrum]] by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, this means precisely that $X$ is an Omega-spectrum.
+exhibits a [[homotopy pullback]] in $SeqSpec(Top_{cg})_{strict}$, since every  object in $SeqSpec(Top_{cg})_{strict}$ is fibrant and so the vertical morphisms here are fibrations. The pullback of $Q(X)$ along $id_\ast$ is just $Q(X)$ itself, and the universally induced morphism into this pullback is just $\eta_X$ itself. Hence the square is a homotopy pullback precisely if $\eta_X$ is a weak equivalence in $SeqSpec(Top_{cg})_{strict}$, hence degreewise a [[weak homotopy equivalence]]. Since $Q(X)$ is an [[Omega-spectrum]] by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, this means precisely that $X$ is an Omega-spectrum.
 
 
 =--
@@ -4189,7 +4189,7 @@ $$
   [X,\Omega Z]_{strict}
 $$
 
-being a bijection for all Omega-spectra $Z$. But since $\Omega$ preserves Omega-spectra by the first point above, this is still maps into a fibrant objects, hence is again equivalent (using again the property of the left Bousfield localization) to the hom in the stable model structure
+being a bijection for all Omega-spectra $Z$. But since $\Omega$ preserves Omega-spectra by the first point above, this is still maps into fibrant objects, hence is again equivalent (using again the property of the left Bousfield localization) to the hom in the stable model structure
 
 $$
   [f, \Omega Z]_{stable}
@@ -4744,9 +4744,9 @@ With this in hand, we now finally state the comparison between standard and alte
 There is a [[natural isomorphism]] in the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{stable})$ of the stable model structure, between the total [[derived functors]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) of the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and of the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
 
 $$
-  \Sigma (-)
-   \; \simeq \;
   (-) \wedge S^1
+   \; \simeq \;
+  \Sigma (-)
   \;\;\;\;\;
   \in Ho(SeqSpec(Top_{cg})_{stable})
 $$
@@ -5631,7 +5631,7 @@ Having finite coproducts means
 
 Regarding the initial object:
 
-The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All these together mean that for $X$ any fibrant-cofibrant spectrum, we have
+The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All these together mean that for $Z$ any fibrant-cofibrant spectrum, we have
 
 $$
   Hom_{Ho(Spectra)}(\Sigma^\infty \ast, Z)
@@ -5769,7 +5769,7 @@ $$
 
 preserves group structure.
 
-More explicitly, we may see the respect for group structure of the postcomposition opeation from the [[natural transformation|naturality]] of the loop composition map which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}).
+More explicitly, we may see the respect for group structure of the postcomposition operation from the [[natural transformation|naturality]] of the loop composition map which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}).
 
 To make this fully explicit, consider the following diagram in $Ho(Spectra)$:
 
@@ -5958,7 +5958,7 @@ $$
 This last expression is sometimes used to define cohomology with coefficients in an arbitrary spectrum. For examples see in the [[Introduction to Stable homotopy theory -- S|part S]] the section _[Orientation in generalized cohomology](Introduction+to+Stable+homotopy+theory+--+S#OrientationAndFiberIntegration)_.
 
 
-More generally, it is immediate now that there is a concept of $E$-cohomology not only for spaces and their [[suspension spectra]], but also for general spectra: for $X \in Ho(Spectra)$ be any spectrum, then
+More generally, it is immediate now that there is a concept of $E$-cohomology not only for spaces and their [[suspension spectra]], but also for general spectra: let $X \in Ho(Spectra)$ be any spectrum, then
 
 $$
   \tilde E^\bullet(X)
@@ -7320,7 +7320,7 @@ Here the top row is [[long exact sequence|long exact]], since it is the long [[h
 
 Prop. \ref{HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra} is the homotopy theoretic analog of the clause that makes a [[pre-abelian category]] into an [[abelian category]]:
 
-A pre-abelian category is an [[additive category]] in which [[fibers]] ([[kernels]]) and [[cofibers]] ([[cokernels]]) exist. This is an [[abelian category]] if the cofiber of the fiber of any morphism equals coincides with the fiber of the cofiber of that morphism.
+A pre-abelian category is an [[additive category]] in which [[fibers]] ([[kernels]]) and [[cofibers]] ([[cokernels]]) exist. This is an [[abelian category]] if the cofiber of the fiber of any morphism coincides with the fiber of the cofiber of that morphism.
 
 Here we see that in stable homotopy theory, whose homotopy category is additive, and in which homotopy fibers and homotopy cofibers exist, the analogous statement is true even in a stronger form: the homotopy cofiber projection of the homotopy fiber inclusion of any morphism coincides with that morphism, and so does the homotopy fiber projection of the homotopy cofiber inclusion.
 
@@ -7519,7 +7519,7 @@ $$
   i_X \colon X \longrightarrow X \vee Y
 $$
 
-is a cofibration according to theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
+is a cofibration according to theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 \wedge (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
 
 Hence its ordinary [[cofiber]], which is $Y$,  is its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), and so we have a [[homotopy cofiber sequence]]
 
