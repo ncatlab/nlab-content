@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -33,7 +34,9 @@ Throughout, for $p$ a [[prime number]] write $C_p \subset S^1$ for the [[cyclic 
 
 A definition says that a cyclotomic spectrum  is an [[circle group]]-[[genuine equivariant spectrum]] $X$ (modeled on [[orthogonal spectra]]) equipped with equivalences to its naive point-set fixed point spectra $\Phi^{C_p} X$ for all the [[cyclic group|cyclic]] [[subgroups]] $C_p \subset S^1$.
  
-A more abstract definition was given in ([Nikolaus-Scholze 17](#NikolausScholze17)):
+A more abstract definition was given in [Nikolaus-Scholze 17](#NikolausScholze17):[^HarmonizeLiterature]
+
+[^HarmonizeLiterature]: Maybe this definition does not exactly agree with other definitions in the literature; see $n$Forum discussion [here](https://nforum.ncatlab.org/discussion/6851/cyclotomic-spectrum/?Focus=89589#Comment_89589).
 
 +-- {: .num_defn #CyclotomicSpectrumViaTateSpectra}
 ###### Definition
