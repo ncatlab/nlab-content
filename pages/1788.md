@@ -115,7 +115,7 @@ $(\mathcal{X}, x) \,\in\, \widehat{\mathrm{Grpd}_\infty}$
 as an element in the homotopy pullback of the $n$th universal fibration along
 $\tau_n$.
 
-The resulting further homotopy pullback along its classifying map should be the $n$-connected cover 
+The resulting further homotopy pullback along its classifying map is the $n$-connected cover 
 $\mathrm{cn}_n(\mathcal{X},s)$
 of 
 $(\mathcal{X},x)$:
@@ -153,7 +153,52 @@ $(\mathcal{X},x)$:
 \end{tikzcd}
 
 
-Then consider the following tower of $\infty$-Grothendieck constructions on the $n$-truncations of an $\infty$-presheaf $\mathcal{X}(-)$, here shown in the first few stages:
+Since $Grpd_\infty$ is [[extensive category|extensive]], we may compute these pullbacks on the respective connected components. Here we have:
+
+\begin{tikzcd}
+    \mathrm{fib}(\tau_n)
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &
+    \mathcal{X} /\!/ \mathrm{Aut}(\mathcal{X})
+    \ar[
+      d,
+      "{
+        \tau_n /\!/ \mathrm{Aut}(\mathcal{X})
+      }"
+    ]
+    \\
+    \ast
+    \ar[
+      r,
+      "{
+        \vdash x
+      }"{swap}
+    ]
+    &
+    (\tau_n \mathcal{X}) /\!/ \mathrm{Aut}(\mathcal{X})
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny(pb)}"]
+    &
+    (\tau_n \mathcal{X}) /\!/ \mathrm{Aut}(\tau_n \mathcal{X})
+    \ar[d]
+    \\
+    &
+    B \mathrm{Aut}(\mathcal{X})
+    \ar[r]
+    &
+    B \mathrm{Aut}(\tau_n\mathcal{X})    
+\end{tikzcd}
+
+
+That the top right square is a homotopy pullback follows, for instance by the pasting law and the characterization of [[infinity actions|$\infty$-actions]].
+
+That the top left square is homotopy pullback as shown is seen by observing that it is the homotopy colimit of an evident homotopy pullback square of simplicial $\infty$-groupoids, whose right morphism is, evidently, a [[homotopy Kan fibration]]. This implies the claim by [this Prop.](geometric+realization+of+simplicial+topological+spaces#PreservationOfHomotopyLimits). (The same kind of argument also applies to the bottom right square.)
+
+
+Now consider the following tower of $\infty$-Grothendieck constructions on the $n$-truncations of an $\infty$-presheaf $\mathcal{X}(-)$, here shown in the first few stages:
 
 \begin{tikzcd}
     \mathrm{cn}_1
