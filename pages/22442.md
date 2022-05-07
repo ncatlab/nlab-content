@@ -187,7 +187,8 @@ In conclusion:
 
 The [[Cayley distance kernel]] (eq:CayleyDistanceKernel), regarded as a [[bilinear form]] on the [[linear span]] $\mathbb{R}[Sym(3)]$ is:
 
-$$
+\[
+  \label{DefinitenessOfKernelInDependenceOfParameter}
   \array{
     \text{indefinite} & \text{for} & \lambda \lt ln(2)
     \\
@@ -195,7 +196,12 @@ $$
     \\
     \text{positive definite} &\text{for}&  \lambda \gt ln(2)
   }
-$$
+\]
+
+\begin{remark}\label{RelationToWeightSystemsOnHorizontalChordDiagrams}
+**(relation to [[weight systems]] on [[horizontal chord diagrams]])** \linebreak
+Incidentally, the critical value $\lambda = ln(2)$ in (eq:DefinitenessOfKernelInDependenceOfParameter) is that corresponding to the [[fundamental representation|fundamental]] [[sl(2,C)]]-[[Lie algebra weight systems]] on [[horizontal chord diagrams]] (under the canonical identification of the latter with [[permutations]] and using [Cayley's observation](Cayley+distance#CayleyObservation) to express [[Cayley distance]] in terms of numbers of [[permutation cycles]]), see [[schreiber:Weight systems that are states|CSS21]].
+\end{remark}
 
 ## References
 
