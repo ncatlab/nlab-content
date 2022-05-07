@@ -169,6 +169,8 @@ The category of [[complex manifolds]] and [[holomorphic maps]] can be embedded i
 
 * [[Oka manifold]]
 
+* [[homotopy of rational maps]]
+
 * [[smooth Oka principle]]
 
 ## References
