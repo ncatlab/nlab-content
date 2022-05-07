@@ -60,14 +60,13 @@ The [[group homomorphism]] (eq:Spin3SquareToO4) is a [[double cover]] and hence 
 
 \[
   \label{Spin3TimesSpin3IsSpin4}
-  \label{Spin3SquareIsSpin4}
   \vartheta \;\colon\;
   Spin(3) \times Spin(3)
   \overset{\simeq}{\longrightarrow}
    Spin(4)
 \]
 
-Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quaternions]] $\mathbb{H}_{im} \simeq_{\mathbb{R}} \mathbb{R}^3$ is the [[conjugation action]] by unit quaternions, it follows in particular, that the canonical inclusion of [[Spin(3)]] into [[Spin(4)]] is given by the [[diagonal]] morphsm with respect to the identification (eq:Spin3SquareIsSpin4):
+Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quaternions]] $\mathbb{H}_{im} \simeq_{\mathbb{R}} \mathbb{R}^3$ is the [[conjugation action]] by unit quaternions, it follows in particular, that the canonical inclusion of [[Spin(3)]] into [[Spin(4)]] is given by the [[diagonal]] morphsm with respect to the identification (eq:Spin3TimesSpin3IsSpin4):
 
 \[
   \label{Spin3Diagonally}
@@ -88,7 +87,7 @@ Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quater
 
 =--
 
-(e.g. [Garrett 13](#Garrett13))
+(e.g. [Berger 87, Thm. 8.9.8](#Berger87), [Garrett 13](#Garrett13))
 
 In summary:
 
@@ -319,6 +318,8 @@ linebreak
 \linebreak
 
 ## References
+
+* {#Berger87} [[Marcel Berger]], Section 8.9 of: *Geometry I*, Springer 1987 ([doi:10.1007/978-3-540-93815-6](https://doi.org/10.1007/978-3-540-93815-6))
 
 
 * {#CadekVanzura98} [[Martin Čadek]], [[Jiří Vanžura]], _On 4-fields and 4-distributions in 8-dimensional vector bundles over 8-complexes_,  Colloquium Mathematicum 1998, 76 (2), pp 213-228 ([web](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-cmv76z2p213bwm))
