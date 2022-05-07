@@ -54,7 +54,7 @@ The _[[twisted Pontrjagin theorem]]_ relates twisted Cohomotopy with [[cobordism
 
 ### Twisted May-Segal theorem
 
-The [May-Segal theorem](configuration space of points#LoopSpacesOfSuspensions) has a twisted generalization:
+The [May-Segal theorem](configuration+space+of+points#LoopSpacesOfSuspensions) has a twisted generalization:
 
 
 +-- {: .num_prop #ScanningMapEquivalenceOverClosedManifold}
