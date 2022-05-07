@@ -19,11 +19,13 @@
 ## Idea 
 
 
-The concept of _[[resolution]]_ in [[homotopy theory]] specialized to [[simplicial homotopy theory]] is "simplicial resolution".  Simplicial resolutions can be constructed in various ways, for instance by a comonad, or by a step-by-step method that resembles the construction of a Eilenberg-Mac Lane space from a presentation, followed by adding cells to 'kill' the higher homotopy groups.
+The concept of _[[resolution]]_ in [[homotopy theory]] specialized to [[simplicial homotopy theory]] is "simplicial resolution".  Simplicial resolutions can be constructed in various ways, for instance, by a comonad, or by a step-by-step method, developed by Michel André, that resembles the construction of a Eilenberg-Mac Lane space from a presentation, followed by adding cells to 'kill' the higher homotopy groups.
 
 > the following needs attention
 
 ##Remark
+
+The term _simplicial resolution_ is also used more generally.
 
 In any ambient [[category]] or $\infty$-[[infinity-category|category]] $C$ that admits a notion of 
 [[colimit]] or [[weak limit|weak colimit]], a _simplicial resolution_
@@ -37,7 +39,7 @@ $$
 
 The term is also used for a [[Reedy model structure|Reedy fibrant]] replacement of a constant simplicial object in a [[model category]]; see also [[resolution]].
 
-[[Cocones]] under a simplicial diagram are exactly the [[augmented simplicial objects]], so a simplicial resolution of $c$ can alternately be described as an augmented simplicial object $y_\bullet : \Delta^{op}_+ \to C$ that is a colimiting cocone, and such that $y_{-1} = c$.
+[[cocone|Cocones]] under a simplicial diagram are exactly the [[augmented simplicial objects]], so a simplicial resolution of $c$ can alternately be described as an augmented simplicial object $y_\bullet : \Delta^{op}_+ \to C$ that is a colimiting cocone, and such that $y_{-1} = c$.
 
 ## Examples 
 
@@ -77,9 +79,14 @@ satisfying the simplicial identities.
 
 The resulting object is an augmented [[simplicial group]] that is free in all non-negative dimensions and is acyclic. It has zeroth homotopy equal to $G$ and all homotopy groups are trivial.
 
-Of course this construction did not depend on the fact that we were handling groups, so we could apply it to any [[comonad]] on any category (within reason!) This has the advantage of providing simplicial resolutions that are functorial. These are sometimes called _comonadic resolutions_.
+Of course this construction did not depend on the fact that we were handling groups, so we could apply it to any [[comonad]] on any category (within reason!) This has the advantage of providing simplicial resolutions that are functorial. These are sometimes called _comonadic resolutions_.  Working with [[monad]]s on a category gives, a cosimplicial object which is a _cosimplicial resolution_ given any object.
 
 This leads to the subject of [[monadic cohomology]]. 
+
+A *cautionary note* is in order. The simplicial resolution of an object derived from a [[comonad]] is sometimes presented in an opposite form, so 
+
+$$d_i = L^i\varepsilon L^{n-i}(G) : L^{n+1}(G) \to L^n(G),$$ 
+for $i = 0, \ldots, n$, and similarly for the degeneracies.  This is more or less equivalent to the form given here as it just uses the opposite simplicial object.
 
 
 ### Cech nerve
@@ -91,15 +98,35 @@ In an [[(infinity,1)-topos]] [[Čech cover]] $C(U) \stackrel{\simeq}{\to} X$
 
 * [[homological resolution]]
 
-## References 
+* [[monadic cohomology]]
 
-Classical soureces include Godement's book, 
+## References and Literature
+
+Classical soureces for the comonadic form include [[Roger Godement|Godement]]'s book, 
 
 * [[Roger Godement]], _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
 
 
-but the theory is explained in many sources including the monograph:
+The theory is explained in many sources including 
+
+* [[M. Barr]] and [[J. Beck]], 1969, _Homology and Standard Constructions_, in _Seminar on triples and categorical homology_, number 80 in Lecture Notes in Maths., Springer-Verlag, Berlin,
+
+and in Jack Duskin's  monograph:
+
+
 *  [[J. Duskin]], 1975, Simplicial methods and the interpretation of "triple" cohomology , number 163 in Mem. Amer. Math. Soc., 3, Amer. Math. Soc.
+
+
+The step-by-step method of producing a simplicial resolution was developed by [[Michel André]] in the texts:
+
+* [[Michel André]], _Méthode simpliciale en algèbre homologique et algèbre commutative_, Springer Lecture Notes in Mathematics, Vol 32, 1967.
+
+* [[Michel André]], _Homologie des algèbres commutatives_ Grundlehren der mathematischen Wissenschaften, Band 206. Springer. 1974
+
+with a view to applications in commutative algebra and in particular in the development of the cohomology known as [[André-Quillen cohomology]] and the study of the [[cotangent complex]].
+
+
+
 
 Simplicial resolutions in the context of 
 [[presentable (infinity,1)-category|presentable (infinity,1)-categories]] are discussed in section 6.1.4 of 
