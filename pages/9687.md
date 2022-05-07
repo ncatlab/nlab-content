@@ -241,6 +241,10 @@ See also:
 * Duifje Maria van Egmond, Urko Reinosa, Julien Serreau, Matthieu Tissier, 
 *A novel background field approach to the confinement-deconfinement transition* ([arXiv:2104.08974](https://arxiv.org/abs/2104.08974))
 
+* Erich Poppitz, *Notes on Confinement on $\mathbb{R}^3 \times S^1$: From Yang-Mills, super-Yang-Mills, and QCD(adj) to QCD(F)* ([arXiv:2111.10423](https://arxiv.org/abs/2111.10423))
+
+
+
 
 #### Via monopole condensation
  {#ViaMonopoleCondensation}
