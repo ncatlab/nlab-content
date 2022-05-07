@@ -15,6 +15,10 @@ The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
+and with emphasis on the full picture of [[twisted differential K-theory|twisted]] [[differential K-theory]] in:
+
+* {#Freed00} [[Daniel Freed]], *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry,  Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6), [spire:537392](https://inspirehep.net/literature/537392))
+
 {#BasisOfTheConjecture} Here:
 
 * [Minasian-Moore 97](#MinasianMoore97) observe that [[differential form]]-expressions derived for [[D-brane charge]] look like images of K-theory classes under the [[Chern character]];
