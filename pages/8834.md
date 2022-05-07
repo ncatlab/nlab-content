@@ -30,7 +30,7 @@
 ## Idea
   {#Idea}
 
-Given a [[pointed (∞,1)-category]] $\mathcal{C}$ (such as that [[presentable (∞,1)-category|presented]] by the [[classical model structure on pointed topological spaces]]), the _Toda bracket_ ([Toda 62](#Toda62)) is the operation that takes a sequence of 3 [[composition|composable]] [[1-morphisms]]
+Given a [[pointed (∞,1)-category]] $\mathcal{C}$ (such as that [[presentable (∞,1)-category|presented]] by the [[classical model structure on pointed topological spaces]]) or at least a [[(2,1)-category]] (such as its [[homotopy 2-category]]), the _Toda bracket_ ([Toda 62](#Toda62)) is the operation that takes a sequence of 3 [[composition|composable]] [[1-morphisms]] in $\mathcal{C}$
 
 $$
   X_0
@@ -40,9 +40,10 @@ $$
   X_2
     \overset{\;\;f_3\;\;}{\longrightarrow}  
   X_3
+  \,,
 $$
 
-in $\mathcal{C}$, equipped with a [[pair]] of overlapping [[null homotopies]] 
+equipped with a [[pair]] of overlapping [[null homotopies]] 
 
 \begin{xymatrix@C=15pt}
   X_0
@@ -152,7 +153,7 @@ to the [[higher homotopy]]-[[equivalence class]] of their [[pasting diagram|past
     }
 \end{xymatrix}
 
-Or rather, the Toda bracket is equivalently taken to be the [[homotopy class]] of the [[1-morphism]]
+Or rather, the Toda bracket is usually and equivalently taken to be the [[homotopy class]] of the [[1-morphism]]
 $
   \vdash 
   \big(
@@ -551,15 +552,17 @@ The conceptualization of Toda brackets a [[homotopy coherent diagram|homotopy co
 
 * {#HardieKampsKieboom99} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Rudger  Kieboom]], _Higher homotopy groupoids and Toda brackets_, Homology Homotopy Appl. Volume 1, Number 1 (1999), 117-134 ([euclid:hha/1139840198](https://projecteuclid.org/euclid.hha/1139840198))
 
-* {#HardieMarcumOda01} [[Keith Hardie]], [[Howard Marcum]], [[Nobuyuki Oda]], _Bracket operations in the homotopy theory of a 2-category_, Rend. Ist. Mat. Univ. Trieste 33, 19–70 (2001)
+* {#HardieMarcumOda01} [[Keith Hardie]], [[Howard Marcum]], [[Nobuyuki Oda]], _Bracket operations in the homotopy theory of a 2-category_, Rend. Ist. Mat. Univ. Trieste 33, 19–70 (2001) ([rendiconti:33/02](https://rendiconti.dmi.units.it/volumi/33/02.pdf))
 
 * {#HardieKampsMarcum02} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Howard Marcum]], _The Toda bracket in the homotopy category of a track bicategory_, Journal of Pure and Applied Algebra Volume 175, Issues 1–3, 8 November 2002, Pages 109-133 (<a href="https://doi.org/10.1016/S0022-4049(02)00131-7">doi:10.1016/S0022-4049(02)00131-7</a>)
 
 * [[Howard Marcum]], [[Nobuyuki Oda]], _Long Box Bracket Operations in Homotopy Theory_, Appl Categor Struct 19, 137–173 ([doi:10.1007/s10485-009-9186-3](https://doi.org/10.1007/s10485-009-9186-3))
 
-Application of Toda brackets in computations of [[stable homotopy groups of spheres]] via the [[Adams spectral sequence]]:
+Application of Toda brackets to the concrete computations of [[stable homotopy groups of spheres]]:
 
 * [Toda 62](#Toda62)
+
+* [Hardie-Marcum-Oda 01, Sec. 7](#HardieMarcumOda01)
 
 * {#IaksenWangXu20} [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _More stable stems_ ([arXiv:2001.04511](https://arxiv.org/abs/2001.04511))
 
