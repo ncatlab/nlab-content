@@ -180,7 +180,7 @@ Now let
 
 1. $K$ be any [[bicategory]]
 
-* $F, G \,\colon\, C \rightarrow K$ be [[functors]] such that every map in $C$ is sent to a map in $K$ possessing a [[right adjoint]] and satisfying the [[Beck-Chevalley Condition]] for any [[commutative square]] in $K$, 
+1. $F, G \,\colon\, C \rightarrow K$ be [[functors]] such that every map in $C$ is sent to a map in $K$ possessing a [[right adjoint]] and satisfying the [[Beck-Chevalley Condition]] for any [[commutative square]] in $K$, 
 
 1. $\alpha \,\colon\, F \rightarrow G$ be a [[natural transformation]].
 
