@@ -129,6 +129,10 @@ Discussion of [[character of a linear representation|characters]] for the [[symm
 
 * {#GnedinGorinKerov11} [[Alexander Gnedin]], [[Vadim Gorin]], [[Sergei Kerov]], *Block characters of the symmetric groups*, Journal of Algebraic Combinatorics, 38, no. 1 (2013), 79-101 ([arXiv:1108.5044](https://arxiv.org/abs/1108.5044), [doi:10.1007/s10801-012-0394-9](https://doi.org/10.1007/s10801-012-0394-9))
 
+From the perspective of the [[seminormal representation]]:
+
+* {#VershikOkounkov04} [[Anatoly Vershik]], [[Andrei Okounkov]], *A New Approach to the Representation Theory of the Symmetric Groups*, Zapiski Seminarod POMI (In Russian) v.307, 2004; English version in:  Selecta Mathematica, New Series **2**, 581-605 ([arXiv:math/0503040](https://arxiv.org/abs/math/0503040), [doi:10.1007/BF02433451](https://doi.org/10.1007/BF02433451))
+ 
 
 In relation to [[quantum information theory]]:
 
