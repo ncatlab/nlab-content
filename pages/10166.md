@@ -212,6 +212,11 @@ On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 
   > (for [[structure group]] commuting with the [[equivariance group]], but with [[equivariant differential topology|differentiable structure]])
 
+* [[Goro Nishida]], Section 2 of: _The transfer homomorphism in equivariant generalized cohomology theories_, J. Math. Kyoto Univ. 18(3): 435-451 (1978) ([doi:10.1215/kjm/1250522505](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-18/issue-3/The-transfer-homomorphism-in-equivariant-generalized-cohomology-theories/10.1215/kjm/1250522505.full))
+
+  > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
+
+
 * {#Lashof82} [[Richard Lashof]], _Equivariant bundles_, Illinois J. Math. 26(2): 257-271, 1982 ([doi:10.1215/ijm/1256046796.full](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-26/issue-2/Equivariant-bundles/10.1215/ijm/1256046796.full))
 
   > (for [[structure group]] commuting with the [[equivariance group]])
@@ -219,6 +224,12 @@ On general (topological) equivariant [[fiber bundles]]/[[principal bundles]]:
 * {#LashofMay86} [[Richard Lashof]], [[Peter May]], _Generalized equivariant bundles_, Bull. Soc. Math. Belg. Sér. A 38, 265-271, 1986 ([pdf](http://math.uchicago.edu/~may/PAPERS/55.pdf), [[LashofMayGeneralizedEquivariantBundles.pdf:file]])
 
   > (for [[structure group]] [[group extension|extending]] the [[equivariance group]])
+
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger, Section IV.1 of: _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778))
+
+  > (for [[structure group]] [[group extension|extending]] the [[equivariance group]])
+
 
 With [[abelian group|abelian]] [[structure group]]:
 
