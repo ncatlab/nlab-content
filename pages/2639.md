@@ -139,7 +139,7 @@ By following through these maps one can obtain an explicit description of the qu
 
 The original reference is
 
-* [[Samuel Eilenberg]], J. Zilber, _On Products of Complexes_ , Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) .
+* [[Samuel Eilenberg]], [[Joseph Zilber]], _On Products of Complexes_, Amer. Jour. Math. 75 (1): 200&#8211;204, (1953) ([jstor:2372629](https://www.jstor.org/stable/2372629))
 
 A weak version of the simplicial statement is in theorem 8.1.5 in 
 
