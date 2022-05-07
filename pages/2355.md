@@ -116,16 +116,25 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 ###### Definition
 **(in terms of the homotopy 2-category)**
 
-A pair of [[adjoint (∞,1)-functors]] is an [[adjunction]] in the [[homotopy 2-category of (∞,1)-categories]].
+Say that a 2-categorical pair of [[adjoint (∞,1)-functors]] is an [[adjunction]] in the [[homotopy 2-category of (∞,1)-categories]].
 
 =--
 
-
-This is [Riehl-Verity 15, Def. 4.0.1](#RiehlVerity15)
-
-For the equivalence to the other definitions see [Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15).
-
+This is [Riehl-Verity 15, Def. 4.0.1](#RiehlVerity15).
 For more see also at *[[formal (infinity,1)-category theory|formal $\infty$-category theory]]*.
+
+\begin{remark}
+Such a 2-categorical adjunctions (Def. \ref{InTermsOfTheHomotopy2Category}) determines an adjoint pair of $\infty$-functors in the sense of [Lurie 2009](#Lurie).
+\end{remark}
+([Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15)).
+
+
+\begin{proposition}
+  Every 2-categorical pair of adjoint $(\infty,1)$-functors in the sense of Def. \ref{InTermsOfTheHomotopy2Category} extends to a "homotopy coherent adjunction" in an essentially unique way.
+\end{proposition}
+
+([Riehl & Verity 2016, Thm. 4.3.11, 4.4.11](#RiehlVerity16))
+
 
 
 ## Properties
@@ -662,7 +671,7 @@ A pair of adjoint $(\infty,1)$-functors $(L \dashv R) : C \stackrel{\leftarrow}{
 ## References
 
 
-* {#Lurie} [[Jacob Lurie]], Section 5.2 in: _[[Higher Topos Theory]]_ 
+* {#Lurie} [[Jacob Lurie]], Section 5.2 in: _[[Higher Topos Theory]]_, 2009 
  
 
 Discussion of adjoint $(\infty,1)$-functors as [[adjunctions]] in the [[homotopy 2-category of (∞,1)-categories]] (and modeled via [[∞-cosmoi]]):
