@@ -34,4 +34,18 @@ See there [there](electromagnetic+field#FieldStrengthAsClosed2Form) for more.
 
 * [[magnetic dipole moment]]
 
+
+## References
+
+See also:
+
+* Wikipedia, *[Magnetic field](https://en.wikipedia.org/wiki/Magnetic_field)*
+
+In [[holographic QCD]]:
+
+* Umut Gursoy, *Holographic QCD and magnetic fields* ([arXiv:2104.02839](https://arxiv.org/abs/2104.02839))
+
+
+
+
 [[!redirects magnetic fields]]
