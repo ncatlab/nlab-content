@@ -188,6 +188,8 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 * [[UF-IAS-2012]], _[Meaning Explanations](https://ncatlab.org/ufias2012/published/Meaning%20Explanations)_
 
+* [[Jonathan Sterling]], _Type Theory and its Meaning Explanations_, [arxiv](https://arxiv.org/abs/1512.01837)
+
 
 Proposal for [[homotopy type theory]]:
 
