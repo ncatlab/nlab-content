@@ -25,7 +25,7 @@ This entry is about the book
 
   [doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)
 
-on [[category theory]] formulated "formally" via the [[2-category theory]] of the [[2-category]] [[Cat]] of all categories.
+on [[formal category theory]], which is [[category theory]] formulated "formally" via the [[2-category theory]] of the [[2-category]] [[Cat]] of all categories.
 
 This is one of the most influential and comprehensive historical books in low-dimensional [[higher category theory]], following the spirit of:
 
@@ -72,4 +72,3 @@ category: reference
 
 [[!redirects Gray-adjointness-for-2-categories]]
 
-[[!redirects formal category theory]]
