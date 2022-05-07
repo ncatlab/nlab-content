@@ -65,7 +65,7 @@ and whose face- and degeneracy maps are, similarly, the image under the Cartesia
 
 \end{proposition}
 \begin{proof}  
-  Since [[SimplicialSets]] is a [[category of presheaves]], namely over the [[simplex category]], this is a special case of the general fact that [[limits of presheaves are computed objectwise]].
+Since [[SimplicialSets]] is a [[category of presheaves]], namely over the [[simplex category]], this is a special case of the general fact that [[limits of presheaves are computed objectwise]].
 
 But it is also immediate to check that
 (eq:StructureMapsOfProductSimpliciaSet) with (eq:ComponentSetsOfProductSimplicialSet)
@@ -77,7 +77,7 @@ satisfies the defining [[universal property]] of the [[Cartesian product]].
 Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
 means in particular that a [[simplex]] 
 of the form $(s_\alpha(x), s_\beta(y) \in K \times L$ 
-may be non-degenerate even though its two components are degenerate
+may be non-degenerate even though its two components are each degenerate
 (see the archetypical Example \ref{NonDegenerateSimplicesInSimplicialSquare} below).
 
 Indeed, the proposition says that the degenerate simplices in $K \times L$ are precisely those such that their two simplex-components in $K$ and $L$, respectively, are in the image of the *same* degeneracy map $\alpha = \beta$.
@@ -93,14 +93,14 @@ Indeed, the proposition says that the degenerate simplices in $K \times L$ are p
 \begin{proposition}\label{NonDegenerateSimplicesInProductOfSimplices}
 **(non-degenerate $(p+q)$-simplices in $\Delta[p] \times \Delta[q]$)**
 \linebreak
-For $p,q \,\in\, \mathbb{N}$
+For $p,q \,\in\, \mathbb{N}$,
 the non-degenerate simplices in the [[Cartesian product]] (Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise})
 
 $$
   \Delta[p] \times \Delta[q]
 $$ 
 
-of standard [[simplices]] in [[sSet]] correspond, under the [[Yoneda lemma]], to precisely those morphisms of [[simplicial sets]]
+of standard [[simplices]] in [[sSet]] correspond, under the [[Yoneda lemma]], to precisely those [[morphisms]] of [[simplicial sets]]
 
 \[
   \label{GenericSimplexInProductOfSimplices}
@@ -111,7 +111,7 @@ of standard [[simplices]] in [[sSet]] correspond, under the [[Yoneda lemma]], to
 
 which satisfy the following equivalent conditions:
 
-* as morphisms of [[posets]], they are [[strictly monotone]];
+* as morphisms of [[posets]] they are [[strictly monotone]];
 
 * as [[permutations]] of $(p+q)$ elements they are $(p,q)$-[[shuffles]];
 
@@ -129,7 +129,7 @@ Such morphisms may hence be represented by [[paths]]
 
 * consisting of $p+q$ unit steps, 
 
-* each either horizontally or vertially:
+* each either horizontally or vertically:
 
 \begin{tikzcd}
   [
