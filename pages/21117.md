@@ -353,7 +353,7 @@ Implementation in [[experiment]]:
 
 First suggestion relating quantum error correction to [[black hole entropy]]:
 
-* {#VerlindeVerlinde12} [[Erik Verlinde]], [[Herman Verlinde]], *Black Hole Entanglement and Quantum Error Correction*, J. High Energ. Phys. 2013, 107 (2013) ([arXiv:1211.6913](https://arxiv.org/abs/1211.6913),  [doi:10.1007/JHEP10(2013)107](https://doi.org/10.1007/JHEP10(2013)107))
+* {#VerlindeVerlinde12} [[Erik Verlinde]], [[Herman Verlinde]], *Black Hole Entanglement and Quantum Error Correction*, J. High Energ. Phys. 2013, 107 (2013) ([arXiv:1211.6913](https://arxiv.org/abs/1211.6913),  <a href="https://doi.org/10.1007/JHEP10(2013)107">doi:10.1007/JHEP10(2013)107</a>)
 
 Introducing the idea of quantum error correcting codes given by [[tensor network states]]:
 
@@ -415,7 +415,7 @@ Further discussion of holographic quantum error correcting codes:
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
-* Ning Bao, Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
+* [[Ning Bao]], Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
 
 In relation to [[holographic Renyi entropy]]:
 
