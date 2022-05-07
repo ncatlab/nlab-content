@@ -103,16 +103,15 @@ See: [[homotopytypetheory:H-space]]
 
 ## References
 
-Introduction and survey includes
+Introduction and survey:
 
 * {#Arkowitz11} [[Martin Arkowitz]], _H-Spaces and Co-H-Spaces_, chapter 2 in _Introduction to homotopy theory_, Springer 2011 ([pdf](file:///C:/Users/Sony/Downloads/9781441973283-c1.pdf))
 
-The terminology $H$-space is a definition in a Chapter IV, Section 1 (dedicated to loop spaces) of 
+The terminology "$H$-space" is a definition in a Chapter IV, Section 1 (dedicated to loop spaces) of 
 
 * [[Jean-Pierre Serre]], _Homologie singuli&#232;re des espaces fibr&#233;s. Applications._, Ann. Math. __54__ (1951), 425--505. 
 
 More general notion of [[internalization|internal]] H-objects:
-
 
 * [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
 
@@ -121,15 +120,15 @@ More general notion of [[internalization|internal]] H-objects:
 
 
 
-Some other papers in the 1950s include
+Original articles:
 
 * [[Edwin Spanier]], [[Henry Whitehead]], _On fibre spaces in which the fibre is contractible_, Comment. Math. Helv. __29__, 1955, 1--8.
 
 * Arthur H. Copeland, _On $H$-spaces with two nontrivial homotopy groups_, Proc. AMS __8__, 1957, 109--129.
 
-* M. Sugawara:
+* [[Masahiro Sugawara]]:
   * _$H$-spaces and spaces of loops_, Math. J. Okayama Univ, __5__, 1955, 5--11;
-  * _A condition that a space is an $H$-space_, Math. J. Okayama Univ. __6__, 1957, 109--129;
+  * _A condition that a space is an $H$-space_, Math. J. Okayama Univ. __6__, 1957, 109--129; ([pdf](https://ousar.lib.okayama-u.ac.jp/files/public/3/33737/20160528030627675220/fulltext.pdf))
   * _A condition that a space is group-like_, Math. J. Okayama Univ. __7__, 1957, 123--149.
 
 * F. I. Karpelevi&#269;, A. L. Oni&#353;&#269;ik, _Algebra of homologies of space of paths_, Dokl. Akad. Nauk. SSSR, (N.S.), 106 (1956), 967--969. MR0081478
