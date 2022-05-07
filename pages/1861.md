@@ -229,8 +229,21 @@ relation to the [[Freudenthal suspension theorem]] ([Spanier 49, section 9](#Spa
 
 For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
 
-### Pontryagin construction
+### Pontryagin isomorphism between Cohomotopy and framed Cobordism
   {#RelationToCobordismGroup}
+
+The _[[Pontryagin isomorphism]]_ ([Pontryagin 38](#Pontryagin38), [Pontryagin 55](#Pontryagin55)) is an identification of [[cobordism classes]] of [[normally framed submanifolds]] of [[codimension]] $n$ in a [[closed manifold]] $X^d$ with the $n$-[[Cohomotopy]] of that manifold -- the [[homotopy classes]] of [[maps]] into the [[n-sphere]], which is exhibited by the _[[Cohomotopy charge map]]_, often known as the [[Pontryagin-Thom collapse construction]]_:
+
+$$
+  Cob^n_Fr(X)
+  \overset{\simeq}{\longrightarrow}
+  \pi^n(X)
+  \,.
+$$
+
+The analogous statement identifying [[cobordism classes]] of [[normally oriented submanifolds]] with [[homotopy classes]] of maps into the [[universal vector bundle|universal]] [[special orthogonal group|special orthogonal]] [[Thom space]] $M SO(n)$ is _[[Thom's theorem]]_ ([Thom 54](#Thom54)). Both statements, as well as their joint generalization to other [[tangential structures]] and notably their [[stabilization]] to [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[Cobordism cohomology theory]], have come to be widely known as the _[[Pontryagin-Thom collapse construction]]_, or similar, and form the basis of modern [[cobordism theory]] and its application in [[stable homotopy theory]].
+
+\linebreak
 
 For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the assignment of [[Cohomotopy charge]] (the _[[Pontryagin-Thom construction]]_, in this unstable and framed version due to [Pontrjagin 55](#Pontrjagin55), see review in [Kosinski 93, IX.5](#Kosinski93), [Milnor 97](#Milnor97)) identifies the [[set]] 
 
