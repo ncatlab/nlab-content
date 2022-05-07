@@ -122,7 +122,7 @@ Model categories which are both left and right proper include
 
 * The _global_ [[model structure on simplicial presheaves]] and any local such model structure over a site with [[point of a topos|enough points]] and weak equivalences the [[stalk]]wise weak equivalences.
 
-* The standard [[model structures on chain complexes]].
+* {#ModelStructureOnChainComplexesIsProper} The standard [[model structures on chain complexes]] (see [there](model+structure+on+chain+complexes#Properness)).
 
 * The projective [[model structure on differential graded-commutative algebras]] (unbounded). See [this MO discussion](http://mathoverflow.net/q/204414/381).
 
