@@ -26,7 +26,7 @@ In the case of the [[algebraic group]] $GL_n$ (the [[general linear group]]), th
 
 generalizing  local [[class field theory]] from [[abelian group|abelian]] [[Galois groups]] to non-abelian Galois groups.
 
-More generally, it states that for a [[local field]] $F$ and a [[reductive group]] $G$, the [[isomorphism classes]] of irreducible admissible representations of $G(F)$ are partitioned into _L-packets_ by the equivalence classes of _L-parameters_.
+More generally, it states that for a [[local field]] $F$ and a [[reductive group]] $G$, the [[isomorphism classes]] of irreducible admissible representations of $G(F)$ are partitioned into _L-packets_ by the equivalence classes of [[L-parameters]].
 
 ## Definitions:
 
@@ -114,7 +114,7 @@ Let $\rho_{i}:W_{F}\to \mathbb{C}^{\times}$ be the representation of the Weil gr
 
 ## Geometrization
 
-Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21). In this formulation the local Langlands correspondence is expressed as an equivalence between the category of certain $\ell$-adic sheaves on the moduli stack $\mathrm{Bun}_{G}$ of vector bundles on the Fargues-Fontaine curve on one hand, and the category of certain coherent sheaves on the moduli stack of L-parameters in the other (compare [[geometric Langlands correspondence]]). More precisely:
+Fargues-Scholze have developed a geometric approach to the local Langlands conjecture in [FarguesScholze21](#FarguesScholze21). In this formulation the local Langlands correspondence is expressed as an equivalence between the category of certain $\ell$-adic sheaves on the moduli stack $\mathrm{Bun}_{G}$ of $G$-torsors on the [[Fargues-Fontaine curve]] on one hand, and the category of certain coherent sheaves on the [[moduli stack of L-parameters]] in the other (compare [[geometric Langlands correspondence]]). More precisely:
 
 \begin{conjecture}
 There is an equivalence
