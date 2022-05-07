@@ -9,15 +9,20 @@
 =--
 =--
 
+
 # Semiabelian categories
 * table of contents
 {: toc}
 
 ## Idea
 
-The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[groups]], [[rng|rings without unit]], [[associative algebras]] without unit, [[Lie algebras]], as nicely as the axioms of an [[abelian category]] captures the properties of the categories of [[abelian groups]] and of [[modules]].
+The notion of _semi-abelian category_ is supposed to capture the properties of [[categories]] such as that of [[groups]], [[rng|rings without unit]], [[associative algebras]] without [[unit]], [[Lie algebras]], etc.; in generalization of how the notion of _[[abelian categories]]_ captures the properties of the categories of [[abelian groups]] and of [[modules]], etc.
 
-It is important to take rings and algebras without unit, since otherwise there is no zero object. And, similarly, ideals are not subrings-with-unit. Note that the category of rings is still [[protomodular category|protomodular]], however.
+\begin{remark}
+Here it is important to consider rings and algebras without [[unit]] (really: not necessarily having a [[unit]]), since otherwise there is no [[zero object]], and also to allow [[ideals]] to appear as subrings-without-unit. 
+
+Note that the category of rings with unit  is still [[protomodular category|protomodular]].
+\end{remark}
 
 
 
@@ -26,11 +31,11 @@ It is important to take rings and algebras without unit, since otherwise there i
 
 A [[category]] $C$ is **semi-abelian** if it
 
-* is [[exact category|Barr-exact]] (hence [[regular category|regular]] and in particular has finite [[limit]]s);
+* is [[exact category|Barr-exact]] (hence [[regular category|regular]] and in particular has [[finite limits]]);
 
 * has a [[zero object]];
 
-* has finite [[coproduct]]s; and
+* has [[finite product|finite]] [[coproducts]]; and
 
 * is [[protomodular category|protomodular]].
 
