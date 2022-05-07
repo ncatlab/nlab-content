@@ -1168,6 +1168,11 @@ with review in
 
 Supersymmetry seems to be favored by the [[Starobinsky model of cosmic inflation]] (see there for more).
 
+On [[supergravity]] coupled to the (non-supersymmetric) [[standard model of particle physics]]:
+
+* [[Cliff P. Burgess]], [[Fernando Quevedo]], *Who's Afraid of the Supersymmetric Dark? The Standard Model vs Low-Energy Supergravity* ([arXiv:2110.13275](https://arxiv.org/abs/2110.13275))
+
+
 
 ### Supersymmetry breaking
 
@@ -1193,6 +1198,7 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 Remembering that there is a considerable difference between global low energy supersymmetry and local higher energy supersymmetry aka [[supergravity]]:
 
 * {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
+
  
 [[!redirects supersymmetries]]
 [[!redirects Supersymmetry]]]
