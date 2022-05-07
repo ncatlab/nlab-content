@@ -17,7 +17,7 @@
 
 On a [[smooth manifold]] $X$ the smooth [[tangent vector fields]] $v \in \Gamma_X(T X)$ are geometrically defined as smoothly varying collections of smooth [[paths]] $\gamma_x \colon \mathbb{R}^1 \to X$ through every point $x \in X$ (i.e. $\gamma(0) = x$), with two such paths regarded as equivalent if their first [[derivative]] $v_x \in T_x X$ at $x$, seen in any [[chart]], coincides.
 
-By pre-composing a [[smooth function]] $f \colon  X \longrightarrow \mathbb{R}^1$ which such a path, we obtain a function $f\circ \gamma_x \;\colon\; \mathbb{R}^1 \to \mathbb{R}^1$ from the [[real line]] to itself. Therefore its [[derivative]] 
+By pre-composing a [[smooth function]] $f \colon  X \longrightarrow \mathbb{R}^1$ with such a path, we obtain a function $f\circ \gamma_x \;\colon\; \mathbb{R}^1 \to \mathbb{R}^1$ from the [[real line]] to itself. Therefore its [[derivative]] 
 
 $$
   (D_v f)(x) \coloneqq  d (f \circ \gamma)_0
