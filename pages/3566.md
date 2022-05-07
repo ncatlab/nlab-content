@@ -168,7 +168,7 @@ with further discussion in section 6.2.
 Lecture notes:
 
 
-* {#Rezk19} [[Charles Rezk]], _Lectures on Higher Topos Theory_, Leeds 2019 ([pdf](https://faculty.math.illinois.edu/~rezk/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]])
+* {#Rezk19} [[Charles Rezk]], p. 10 of: _Lectures on Higher Topos Theory_, Leeds 2019 ([pdf](https://faculty.math.illinois.edu/~rezk/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]])
 
 
 For [[model categories]], see
