@@ -1,4 +1,5 @@
 
+
 For $\mathbf{H}$ an $\infty$-topos
 and $G \in Groups(\mathbf{H})$,
 one would expect that 
