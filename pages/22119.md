@@ -1,0 +1,4 @@
+
+Given a coalgebra-Galois extension $U\hookrightarrow E$ of a $k$-algebra $U$, which is the appropriate generalization of a [[Hopf-Galois extension]], where $E$ is faithfully flat over the base $U$ as a left $E$-module, one constructs a coring, __Ehresmann coring__, out of these data. Its role is somewhat analogous to the gauge groupoid (see [[Atiyah Lie groupoid]]), and in Hopf-Galois case it is an intermediate stage in constructing another analogue, (Ehresmann-)[[Schauenburg bialgebroid]], see there.
+
+* [[T. Brzeziński]], R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series __309__, Cambridge 2003.
