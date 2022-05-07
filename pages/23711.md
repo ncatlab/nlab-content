@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include solid state physics -- contents]]
 =--
+#### Topological physics
++--{: .hide}
+[[!include topological physics -- contents]]
+=--
 =--
 =--
 
@@ -27,7 +31,7 @@ This terminology, which was established in the early 2000s, is meant to follow t
 
 If the gap closure happens over an isolated point, one speaks of a *nodal point* proper, or more specifically of a *Dirac point* or *Weyl point*, indicating the "degeneracy" (multiplicity) of the [[energy]] [[eigenstates]] at the point (2 for Weyl, 4 for Dirac). If the gap closes over a 1-dimensional manifold (a [[curve]] or a [[circle]]) one speaks of a *nodal line*. 
 
-Due to the gap on (a [[neighbourhood retract]] of) the [[complement]] of the nodal points/lines inside the [[Brillouin torus]], the [[Berry connection]] is well-defined away from the nodal loci, and it tends to be [[flat connection|flat]] in suitable hyperplanes there. It's [[holonomy]] around [[codimension]]=2 nodal loci (ie. around nodal lines in 3d materials and nodal points in effectively 2d materials such as [[graphene]], see also at *[[defect brane]]*) -- known as a *[[Berry phase]]* -- is then a property of the nodal locus alone, and to be interpreted as a measure for the "topological protection" of the gap over the nodal loci (e.g. [FWDF 16, II.B](#FWDF16), [Vanderbilt 18, 5.5.2](#Vanderbilt18)): Under adiabatic deformations of the material that do not excite modes above the gap, these nodal points may move and merge or split, but their total topological charge cannot change.
+Due to the gap on (a [[neighbourhood retract]] of) the [[complement]] of the nodal points/lines inside the [[Brillouin torus]], the [[Berry connection]] is well-defined away from the nodal loci, and it tends to be [[flat connection|flat]] in suitable hyperplanes there. It's [[holonomy]] around [[codimension]]=2 nodal loci (ie. around nodal lines in 3d materials and nodal points in effectively 2d materials such as [[graphene]], see also at *[[defect brane]]*) -- known as a *[[Berry phase]]* -- is then a property of the nodal locus alone, and to be interpreted as a measure for the "topological protection" of the gap over the nodal loci (e.g. [FWDF 16, II.B](#FWDF16), [Vanderbilt 18, 5.5.2](#Vanderbilt18)): Under [[quantum adiabatic theorem|adiabatic]] deformations of the material that do not excite modes above the gap, these nodal points may move and merge or split, but their total topological charge cannot change.
 
 Therefore semi-metals with such non-trivial Berry phases are examples of [[topological phases of matter]], and are sometimes called *topological semi-metals*, for emphasis. In fact, if the topological charges of the nodal loci in a semi-metal do happen to be trivial, then it is (in the deformation class of) a fully gapped [[insulator]] and may then be a *[[topological insulator]]* (if the [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] class of its [[valence bundle]] is non-trivial).
 
@@ -35,8 +39,9 @@ The archetypical and original example of a semi-metal is *[[graphene]]*, where t
 
 After the synthesis of graphene, which is an effectively 2-dimensional material (an atomic mono-layer) much attention has shifted to the synthesis and understanding of 3-dimensional semi-metals.
 
-## References
 
+
+## References
 
 General textbook account:
 
@@ -78,6 +83,14 @@ Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.
 
 [[!redirects semimetal]]
 [[!redirects semimetals]]
+
+[[!redirects topological semi-metal]]
+[[!redirects topological semi-metals]]
+
+[[!redirects topological semimetal]]
+[[!redirects topological semimetals]]
+
+
 
 [[!redirects Dirac point]]
 [[!redirects Dirac points]]
