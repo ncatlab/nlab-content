@@ -140,6 +140,12 @@ For $G = SO(3)$ and hence also for the [[finite groups]] of [[ADE classification
 
 * [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
 
+Discussion of [[commutative ring]]-structures with an eye towards [[rational equivariant K-theory]]:
+
+* [[Anna Marie Bohmann]], [[Christy Hazel]], [[Jocelyne Ishak]], [[Magdalena Kędziorek]], [[Clover May]], *Naive-commutative structure on rational equivariant K-theory for abelian groups* ([arXiv:2002.01556](https://arxiv.org/abs/2002.01556))
+
+* [[Anna Marie Bohmann]], [[Christy Hazel]], [[Jocelyne Ishak]], [[Magdalena Kędziorek]], [[Clover May]], *Genuine-commutative ring structure on rational equivariant K-theory for finite abelian groups* ([arXiv:2104.01079](https://arxiv.org/abs/2104.01079))
+
 [[!redirects equivariant rational stable homotopy theory]]
 
 [[!redirects rational stable equivariant homotopy theory]]
