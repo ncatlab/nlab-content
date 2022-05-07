@@ -5,11 +5,13 @@
 
 ## Selected writings
 
-On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]] ([[linear representations]] of the [[braid group]]):
+On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]] ([[braid group representations]]):
 
 * [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*,  New Journal of Physics, Volume 6, January 2004 ([arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090), [doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134))
 
 * [[Samuel J. Lomonaco]], [[Louis Kauffman]], _Topological Quantum Computing and the Jones Polynomial_, Proc. SPIE 6244, Quantum Information and Computation IV, 62440Z (12 May 2006) ([arXiv:quant-ph/0605004](https://arxiv.org/abs/quant-ph/0605004))
+
+* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Topological quantum computing and $SU(2)$ braid group representations*, Proceedings Volume 6976, Quantum Information and Computation VI; 69760M (2008) ([doi:10.1117/12.778068](https://doi.org/10.1117/12.778068), [rg:228451452](https://www.researchgate.net/publication/228451452))
 
 
 On [[Lord Kelvin]]'s ideas "[[On Vortex Atoms]]" in view of [[classical field theory|classical]] [[electromagnetism]]:
