@@ -25,5 +25,9 @@ The [[inverse function|inverse]] operation to [[multiplication]].
 
 * [[division ring]]
 
-* [[fraction]] [[rational numbers]]
+* [[division algebra]]
+
+* [[localization of a ring]], [[field of fractions]]
+
+* [[fraction]],  [[rational numbers]]
 
