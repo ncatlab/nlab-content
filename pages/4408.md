@@ -95,7 +95,7 @@ Given a posite $S$, an __ideal__ on $S$ (also called a __$(0,1)$-sheaf__; compar
 
 In other words, it is a [[sheaf]] valued in [[truth values]] (rather than in [[sets]] as is the default).
 
-A subset $I$ that satisfies condition (1) alone states that $I$ is a __[[lower subset]]__ (a $(0,1)$-[[presheaf]]).
+A subset $I$ that satisfies condition (1) alone states that $I$ is a __[[lower subset]]__ (a [[(0,1)-presheaf]]).
 
 The ideals on a posite form a [[frame]] $Id(S)$ (or $Sh_{0,1}(S)$) under inclusion, which may alternately be interpreted as a [[locale]].
 
