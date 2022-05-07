@@ -19,7 +19,7 @@
 
 In [[physics]], the _backreaction_ of an object or [[field configuration]] is its effect on other objects/fields by their mutual [[interaction]].
 
-Typically one speaks of backreaction only in situations where it has (previously) been _neglected_, in that all other fields have been regarded as a fixed [[background field]] for the given object/field. Given such a situation of a field in a [[background field]] one may then is what the backreaction of the former on the latter is or would have been.
+Typically one speaks of backreaction only in situations where it has (previously) been _neglected_, in that all other fields have been regarded as a fixed [[background field]] for the given object/field. Given such a situation of a field in a [[background field]] one may then ask what the backreaction of the former on the latter is or would have been.
 
 ## Examples
 
