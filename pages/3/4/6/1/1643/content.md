@@ -40,7 +40,7 @@ More generally, in any [[multicategory]] $M$, a **magma object** or **magma in $
 
 ## Properties
 
-### Square function
+### Square function {#square function}
 
 Every magma $(M,\cdot)$ has a morphism $(-)^2:M \to M$ called the __square__ and defined as $x^2 := x \cdot x$ for all $x \in M$. 
 
@@ -89,3 +89,6 @@ category: algebra
 
 [[!redirects magma object]]
 [[!redirects magma objects]]
+
+[[!redirects square function]]
+[[!redirects square functions]]
