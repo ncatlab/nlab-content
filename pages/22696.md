@@ -44,9 +44,9 @@ A __possibly empty group__ is a possibly empty left and right group as defined a
 
 * left and right multiplications are equal (i.e. $a/((b/b)/b) = (a\backslash (a\backslash a))\backslash b$) for all $a$ and $b$ in $G$. 
 
-## Possibly empty heaps
+## Pseudo-torsor
 
-Every possibly empty left group $G$ has a possibly empty [[heap]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = x \cdot (y \backslash z)$. Every possibly empty right group $H$ has a posdibly empty heap $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x / y) \cdot z$. This means every possibly empty group has two possibly empty heaps. If the (left or right) associative quasigroup is inhabited, then those possibly empty heaps are actually [[heaps]]. 
+Every possibly empty left group $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = x \cdot (y \backslash z)$. Every possibly empty right group $H$ has a pseudo-torsor $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x / y) \cdot z$. This means every possibly empty group has two pseudo-torsors. If the (left or right) associative quasigroup is inhabited, then those pseudo-torsors are actually [[torsors]]. 
 
 ## Examples
 
@@ -54,12 +54,10 @@ Every possibly empty left group $G$ has a possibly empty [[heap]] $t_G:G^3 \to G
 
 * The empty possibly empty group is an possibly empty group that is not a group. 
 
-* Any possibly empty group can be made into a [[pseudo-torsor]], and every pseudo-torsor could be made into a possibly empty group. 
-
 ## Related concepts
 
 * [[possibly empty loop]] (non-associative version)
 
 * [[possibly empty abelian group]] (commutative version)
 
-* [[pseudo-torsor]], [[heap]], [[group]], [[torsor]]
+* [[pseudo-torsor]], [[group]], [[torsor]]
