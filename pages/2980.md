@@ -8,7 +8,7 @@ A **double bicategory** is a structure similar to a [[double category]], but whe
 To define this notion, we need to include extra shapes of 2-dimensional cells in addition to the squares that appear in a double category: we also need vertical and horizontal [[globe|globes]].  The reason is that if we have associators for horizontal morphisms given
 by squares, it appears to be impossible to formulate the pentagon identity for these squares unless either 1) composition of vertical morphisms is strict, or 2) we introduce cells with new shapes.  In case 1) --- that is, if associativity and the unit laws hold strictly in one direction --- we have a 'pseudo double category', as studied by Grandis, Par&#233; and Fiore.  (See [[double category]] for more on this concept.)  In case 2) we have a double bicategory.
 
-The concept and terminology here were introduced by Verity in this thesis ([Verity 1992](#Verity92)). The definition can also be found in ([Morton 2009](#Morton09)) (especially [Section 3: Double bicategories](http://arxiv.org/PS_cache/math/pdf/0611/0611930v3.pdf#page=9) (direct pdf link)) and ([Morton 2007](#Morton07)).
+The concept and terminology here were introduced by Verity in his thesis ([Verity 1992](#Verity92)). The definition can also be found in ([Morton 2009](#Morton09)) (especially [Section 3: Double bicategories](http://arxiv.org/PS_cache/math/pdf/0611/0611930v3.pdf#page=9) (direct pdf link)) and ([Morton 2007](#Morton07)).
 
 
 
