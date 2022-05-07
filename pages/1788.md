@@ -40,7 +40,13 @@ Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topologi
 \end{imagefromfile}
 \end{center}
 
-
+\begin{centre}
+\begin{imagefromfile}
+  "file_name": "ZupanFlavourAnomaly.jpg",
+  "width": 690,
+  "caption": "from"
+\end{imagefromfile}
+\end{centre}
 
 
 
