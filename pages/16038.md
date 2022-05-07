@@ -48,7 +48,7 @@ Thus we may produce the cosimplicial canonical resolution of any set $X$. If $X$
 
 * [[simplicial resolution]]
 
-
+* [[bar and cobar construction]]
 
 
 ##References and Literature 
