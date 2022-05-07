@@ -157,6 +157,22 @@ $$
   \,.
 $$
 
+## Relation with $\sigma$-models
+
+Consider a [[sigma-model]] $X\hookrightarrow \mathbb{R}^{1,1}$ to the [[target space]] $\mathbb{R}^{1,1}$
+
+$$ S[q,\gamma] = \int_X \partial q \wedge \bar{\partial}\gamma, $$
+
+which has an abelian right-moving Kac-Moody symmetry $q\mapsto q+\lambda$ with $\partial\lambda=0$. We can can consider a theory where this symmetry is promoted to a [[gauge symmetry]], i.e.
+
+$$ S_{\mathrm{gauged}}[q,\gamma] = \int_X \partial_\beta q \wedge \bar{\partial}\gamma, $$
+
+where $\partial_\beta q := \partial q + \beta$ where $\beta\in\Omega^{1,\bullet}(X)$ is the [[connection]].
+If we choose the gauge with $q=0$, we obtain the $\beta$-$\gamma$ system with action
+
+$$ S_{\beta\gamma}[\beta,\gamma] = \int_X \beta \wedge \bar{\partial}\gamma. $$
+
+Thus, a $\beta$-$\gamma$ system can be interpreted as a chiral (or Kac-Moody) quotient along a null killing vector of a [[sigma-model]] with target space $\mathbb{R}^{1,1}$ ([LinRoc20](#LinRoc20)).
 
 ## Related concepts
 
@@ -176,4 +192,6 @@ Discussion in the context of [[BV-quantization]] and [[factorization algebras]] 
 A construction of [[chiral differential operator]]s via quantization of $\beta\gamma$ system in [[BV formalism]] with an intermediate step using factorization algebras:
 
 * [[Vassily Gorbounov]], [[Owen Gwilliami]], Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
+
+* {#LinRoc20} [[Ulf Lindstrom]], [[Martin Rocek]], _$\beta$-$\gamma$-systems interacting with sigma-models_, ([arXiv:2004.06544](https://arxiv.org/abs/2004.06544v3))
 
