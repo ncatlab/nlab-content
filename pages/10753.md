@@ -4,7 +4,7 @@
 
 ##Idea
 
-A **pointed type** is a [[type]] equipped with a [[term]].
+A **pointed type** is a [[type]] equipped with a [[term]] of that type.
 
 The [[categorical semantics]] is a [[pointed object]].
 
