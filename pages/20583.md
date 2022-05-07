@@ -12,6 +12,6 @@ When we define internal categories of some category $\mathcal{C}$ as monads in $
 
 * {#Pare2012} Robert Paré, _Mealy Morphisms of Enriched Categories_, Applied Categorical Structures **20** (2012) pp 251--273, doi:[10.1007/s10485-010-9238-8](https://doi.org/10.1007/s10485-010-9238-8).
 
-* Bryce Clarke, [Internal lenses as monad morphisms](http://conferences.inf.ed.ac.uk/ct2019/slides/63.pdf)
+* [[Bryce Clarke]], [Internal lenses as monad morphisms](http://conferences.inf.ed.ac.uk/ct2019/slides/63.pdf)
 
 [[!redirects Mealy morphisms]]
