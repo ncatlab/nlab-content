@@ -472,7 +472,7 @@ equipped with the _$TP$-tautological_ filter on $|T|_\bullet(n^\leq)$ defined as
 In more detail, a subset $\epsilon$ is large iff for each isomorphic copy
 of $T'={}^{\lt\omega}\omega$ in $T^\leq$ there is a vertex $v\in T'$
 and its immediate (in $T'$) descendants 
-$(v_1\leq_{lex}...\leq_{lex} v_k $ such that $(v_1,..,v_k) \in \epsilon \cap T'$.
+$v_1\leq_{lex}...\leq_{lex} v_k $ such that $(v_1,..,v_k) \in \epsilon \cap T'$.
 %A verification shows that this indeed defines a filter. 
  
 Note that the map $T^\leq_\bullet \to |T|_\bullet^{TP}$ is continuous
