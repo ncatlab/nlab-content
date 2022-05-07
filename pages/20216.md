@@ -70,7 +70,9 @@ Also: Given any connected closed manifold, the [[complement]] of any [[positive 
 
 ## Related concepts
 
-* [[Hopf degree theorem]]
+* [[Hopf degree theorem]], [[equivariant Hopf degree theorem]]
+
+* [[Pontrjagin theorem]], [[equivariant Pontrjagin theorem]]
 
 * [[Gauss-Bonnet theorem]]
 
