@@ -549,9 +549,8 @@ See also
 
 A discussion in the general context of [[geometric representation theory]] is in
 
-* R. J. Baston, M. G. Eastwood, _The Penrose transform its interaction with representation theory_ Oxford Science Publications, Clarendon Press, 1989 
- {#BastonEastwood89}
-
+* {#BastonEastwood89} [[Robert J. Baston]], [[Michael G. Eastwood]], _The Penrose transform its interaction with representation theory_ Oxford Science Publications, Clarendon Press, 1989 (ISBN:9780198535652, [spire:290342](https://inspirehep.net/literature/290342), [pdf](http://www.math.utah.edu/~ptrapa/math-library/baston-eastwood/baston-eastwood.pdf))
+ 
 and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is discussed in
 
 * {#Cap01} [[Andreas Čap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
