@@ -43,7 +43,7 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 ### Change of equivariance groups 
  {#ChangeOfGroupsAndFixedLoci}
 
-We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$ (e.g. [May 96, Sec. I.1](#May96), see also at [induced representation](induced+representation#GeneralAbtractDefinition) for a formulation in [[homotopy type theory]])
+We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$ (e.g. [May 96, Sec. I.1](#May96), [DHLPS 19, p.8](#DHLPS19), see also at [induced representation](induced+representation#GeneralAbtractDefinition) for a formulation in [[homotopy type theory]])
 
 \begin{tikzcd}
   G_1\mathrm{Spaces}
@@ -790,6 +790,11 @@ More discussion in the contex of [[equivariant homotopy theory]]:
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
 
 * {#BykovFlores15} Alexander Bykov, Raúl Juárez Flores _G-fibrations and twisted products_, Topology and its Applications Volume 196, Part B, December 2015, Pages 379-397 ([doi:10.1016/j.topol.2015.05.011](https://doi.org/10.1016/j.topol.2015.05.011))
+
+Specifically in the context of [[proper equivariant homotopy theory]]:
+
+
+* {#DHLPS19} [[Dieter Degrijse]], [[Markus Hausmann]], [[Wolfgang Lück]], [[Irakli Patchkoria]], [[Stefan Schwede]], _Proper equivariant stable homotopy theory_, Memoirs of the AMS ([arXiv:1908.00779](https://arxiv.org/abs/1908.00779))
 
 See also the references at _[[equivariant homotopy theory]]_.
 
