@@ -20,11 +20,20 @@ A [[physical system]] in [[solid state physics]] consisting of [[electrons]] con
 
 In an appropriate limit of low [[temperature]] aspects of this system are described by the [[topological quantum field theory]] called _[[Chern-Simons theory]]_. In this limit the system has been proposed as constituting a possible implementation of [[topological quantum computation]].
 
+
+## Properties
+
+### As a topological insulator
+
+The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological insulator]]. (While topological insulator materials typically show this behaviour without the need of a strong magnetic field.)
+
+(...)
+
 ## Related concepts
 
-* [[braid group statistics]]
+* [[braid group statistics]], [[anyon]]
 
-* [[anyon]]
+* [[topological insulator]]
 
 * [[topological quantum computation]]
 
