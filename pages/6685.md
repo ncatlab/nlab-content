@@ -1,7 +1,8 @@
 
-> This entry is about loops in [[topology]]. For loops in the sense of  [[algebra]] see *[[quasigroup]]* and *[[Moufang loops]]*.
+> This entry is about loops in [[topology]]. For loops in the sense of  [[algebra]] see at *[[loop (algebra)]]*, also at *[[quasigroup]]* and *[[Moufang loop]]*.
 
 ***
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -43,13 +44,14 @@ See [[looping]] and [[delooping]] for more.
 
 ## Related entries
 
+* [[loop]]
+
 * [[path]],
+
 * [[loop space]],
+
 * [[fundamental group]].
 
-
-[[!redirects loop]]
-[[!redirects loops]]
 
 [[!redirects Moore loop]]
 [[!redirects Moore loops]]
