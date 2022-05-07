@@ -58,17 +58,26 @@ The first order [[infinitesimal object|infinitesimal]] approximation to a Lie gr
 
 ### Lie's three theorems
 
-[[Sophus Lie]] has proved several theorems -- [[Lie's three theorems]] -- on the relationship between [[Lie algebra]]s and Lie groups. What is called [[Lie's third theorem]] is about the [[equivalence of categories]] of f.d. real Lie algebras and local Lie groups. [[Élie Cartan]] has extended this to a global integrability theorem called the Cartan-Lie theorem, nowadays after Serre also called Lie's third theorem.
+[[Sophus Lie]] has proved several theorems -- [[Lie's three theorems]] -- on the relationship between [[Lie algebras]] and Lie groups. What is called [[Lie's third theorem]] is about the [[equivalence of categories]] of f.d. real Lie algebras and local Lie groups. [[Élie Cartan]] has extended this to a global integrability theorem called the Cartan-Lie theorem, nowadays after Serre also called Lie's third theorem.
+
+
+### Lie subgroups
+
+
+\begin{prop}\label{CartanClosedSubgroupTheorem}
+**([[Cartan's closed subgroup theorem]])**
+
+If $H \subset G$ is a [[closed subgroup]] of a ([[finite number|finite]] [[dimension of a manifold|dimensional]]) [[Lie group]], then $H$ is a sub-Lie group, hence a [[smooth manifold|smooth]] [[submanifold]] such that its group operations are [[smooth functions]] with respect to the the [[submanifold]] [[smooth structure]].
+\end{prop}
 
 
 ### Classification
 
-+-- {: .num_prop}
-###### Prposition
+\begin{prop}
 
-Every connected finite-dimensional real Lie group is [[homeomorphism|homeomorphic]] to a [[product]] of a compact Lie group and a [[Cartesian space|Euclidean space]]. Every abelian connected compact f.d. real Lie group is a [[torus]] (a product of circles $T^n = S^1\times S^1 \times \ldots \times S^1$).
+Every connected finite-dimensional real Lie group is [[homeomorphism|homeomorphic]] to a [[product]] of a [[compact Lie group]] and a [[Cartesian space|Euclidean space]]. Every abelian connected compact f.d. real Lie group is a [[torus]] (a product of circles $T^n = S^1\times S^1 \times \ldots \times S^1$).
 
-=--
+\end{prop}
 
 The [[simple Lie group]]s have a classification into infinite series of 
 
