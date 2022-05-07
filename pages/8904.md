@@ -37,6 +37,17 @@ One may try to formulate semi-simplicial [[types]] in [[homotopy type theory]]. 
 
 As opposed to the [[simplex category]] $\Delta$, the subcategory $\Delta_+$ is a [[direct category]].
 
+## Examples
+ {#Examples}
+
+* in [[Sets]]: [[semisimplicial set]]:
+
+* in [[TopologicalSpaces]]: [[semi-simplicial topological space]]
+
+* in [[SimplicialSets]]: [[semi-Segal space]] (if extra conditions are met)
+
+* in [[type theory]]: [[homotopytypetheory:semi-simplicial types]]
+
 ## Related concepts
 
 * [[simplicial object]]
