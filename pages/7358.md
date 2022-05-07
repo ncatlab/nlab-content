@@ -32,6 +32,25 @@ We think of $X(\underline{1})$ as the "underlying space" of a $\Gamma$-space $X$
 $$ X(\underline{n}) \to X(\underline{1}) \times \dots \times X(\underline{1})$$
 are [[weak equivalences]].  We include in this the $0$th Segal map $X(\underline{0}) \to *$, which therefore requires that $X(\underline{0})$ is contractible.  Sometimes the very definition of *$\Gamma$-space* includes this homotopical condition as well.
 
+## Delooping
+
+One of the main advantages of $\Gamma$-spaces (and,
+more generally, $\Gamma$-objects) is that the [[delooping]] construction
+is very easy to express in this language.
+
+The delooping construction is a functor
+$$B\colon Fun(\Gamma^{op},M) \to Fun(\Gamma^{op},M),$$
+where $M$ is the [[relative category]] for which we are considering $\Gamma$-objects.
+The most common choices are $M=sSet$, the [[model category of simplicial sets]],
+and $M=Top$, the [[model category of topological spaces]].
+
+We define
+$$(B A)(S) := hocolim (T\mapsto A(S\times T)),$$
+where $T\in\Delta^\op$ and the argument of the [[homotopy colimit]] functor
+is a [[simplicial object]] in $M$.
+Here $T\in\Delta$ is converted first to an object of $\Gamma$
+via the functor $\Delta\to\Gamma$ described below.
+
 ## Properties
 
 ### Relation to simplicial sets
