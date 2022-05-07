@@ -242,6 +242,10 @@ Lest we forget, to be even more simple than an extra property, the groupoid of $
 
 For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the subobject classifier is the  [[universal fibration of (∞,1)-categories]] $Z|_{\infty Grpd} \to \infty Grpd$. See also section 6.1.6 _$\infty$-Topoi and Classifying objects_ of [[Higher Topos Theory|HTT]].
 
+## Formulation in homotopy type theory
+
+A map between [[homotopy type theory|homotopy types]] is equivalent to a [[dependent sum]] projection $f: \sum_{x: A} B(x) \to A$. If the types $B(x)$ are [[homotopy n-type|n-types]], $f$ forgets $n$-stuff.
+
 
 ## Related entries
 
