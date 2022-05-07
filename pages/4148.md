@@ -79,18 +79,28 @@ A category $\mathcal{C}$ is **strongly protomodular** when it is protomodular an
 
 * [[semi-abelian category]]
 
+* [[regular category]]
+
 ## References
 
 * [[Francis Borceux]], [[Dominique Bourn]], *[[Mal'cev, protomodular, homological and semi-abelian categories]]*, Mathematics and Its Applications __566__, Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
 
-* {#Bourne04} Dominique Bourn, _Protomodular aspect of the dual of a topos_, Advances in Mathematics 187(1), pp. 240-255, 2004.
+* [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_, Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
 
-* Dominique Bourn, _Action groupoid in protomodular categories_, [TAC](http://www.tac.mta.ca/tac/volumes/16/2/16-02abs.html)
+* {#Bourne04} [[Dominique Bourn]], _Protomodular aspect of the dual of a topos_, Advances in Mathematics 187(1), pp. 240-255, 2004.
 
-* {#BournJan03} Dominique Bourn, George Janelidze, _Characterization of protomodular varieties of universal algebras_, ([TAC](http://www.tac.mta.ca/tac/volumes/11/6/11-06abs.html))
 
-* {#Bourn2017} Dominique Bourn, [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017
+
+* [[Dominique Bourn]], _Action groupoid in protomodular categories_, [TAC](http://www.tac.mta.ca/tac/volumes/16/2/16-02abs.html)
+
+* {#BournJan03} [[Dominique Bourn]], [[George Janelidze]], _Characterization of protomodular varieties of universal algebras_, ([TAC](http://www.tac.mta.ca/tac/volumes/11/6/11-06abs.html))
+
+* {#Bourn2017} [[Dominique Bourn]], [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017
 
 [[!redirects protomodular categories]]
+
 [[!redirects Bourn-protomodular]]
 [[!redirects Bourn-protomodular category]]
+[[!redirects Bourn-protomodular categories]]
+
+
