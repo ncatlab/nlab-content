@@ -11,4 +11,6 @@ A [[Hilbert space]] $H$ over a field $F$ of real or complex numbers and with inn
 
 * [[separable space]]
 
+* [[U(ℋ)|$U(\mathcal{H})$]]
+
 [[!redirects separable Hilbert space]]
