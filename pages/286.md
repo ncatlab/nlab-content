@@ -15,7 +15,7 @@
 
 ## Idea
 
-Sensible reasoning in [[mathematics]] in general, and in [[higher structures]], such as ([[higher category theory|higher]]) [[category theory]], [[homotopy theory]],  [[homotopy type theory]], etc., should be suitably [[invariant]] under the respective notion of _[[equivalence]]_. This is a common issue whenever some structure is _[[generators and relations|presented]]_ by other structures, since the notion of equivalence of the presentation can be finer than that of the notion being presented. 
+Sensible reasoning in [[mathematics]] in general, and particularly in [[higher structures]], such as ([[higher category theory|higher]]) [[category theory]], [[homotopy theory]],  [[homotopy type theory]], etc., should be suitably [[invariant]] under the respective notion of _[[equivalence]]_. This is a common issue whenever some structure is _[[generators and relations|presented]]_ by other structures, since the notion of equivalence of the presentation can be finer than that of the notion being presented. 
 
 For instance, a [[category]] can be presented by a [[simplicial set]], but [[isomorphism]] of simplicial sets is much finer than [[equivalence of categories|equivalences]] of their corresponding categories. It is generally a _mistake_ to mix up these two levels and, for instance, assign to a category properties that are shared only by _some_ of the simplicial sets representing it, say, by distinguishing between [[isomorphism|isomorphic]] [[objects]]. This _breaks the equivalence invariance_.  (However, see [below](#Breaking).)
 
