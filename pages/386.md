@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-Equivalently this is the category whose [[objects]] are finite [[total order|totally ordered sets]], or finite ordinals, and whose [[morphisms]] are order-preserving functions between them.
+Equivalently this is the full sub-[[2-poset]] of [[Pos]] whose [[objects]] are finite [[total order|totally ordered sets]], or finite ordinals, and whose [[morphisms]] are order-preserving functions between them.
 
 =--
 
