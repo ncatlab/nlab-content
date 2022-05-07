@@ -268,7 +268,7 @@ For $C$ an [[(∞,1)-category]] and $n \geq -2$ in $\mathbb{Z}$ write $\tau_{\le
 So for instance for $C = $ [[∞Grpd]] we have $\tau_{\leq n} \infty Grpd = n Grpd$.
 
 
-+-- {: .num_prop}
++-- {: .num_prop #nTruncationReflection}
 ###### Proposition
 
 If $C$ is an [[(∞,1)-category]] that is [[presentable (∞,1)-category|presentable]] then the canonical inclusion [[(∞,1)-functor]]
@@ -762,7 +762,7 @@ Discussion in terms of [[model category]] [[presentable (∞,1)-category|present
 
 * {#Rezk} [[Charles Rezk]], Section 7 of: _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
  
-A classical article that amplifies the expression of [[Postnikov towers]] in [[sSet]] (hence in [[Infinity-Grp|$Grpd_{\infty}$]]) in terms of [[coskeleta]]:
+A classical article that amplifies the expression of [[Postnikov towers]] in [[sSet]] (hence in [[Infinity-Grpd|$Grpd_{\infty}$]]) in terms of [[coskeleta]]:
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
