@@ -36,7 +36,7 @@ In [[constructive mathematics]], and internally to a [[topos]], a number of clas
   * any [[injection]] $X\hookrightarrow X$ must be a [[bijection]].
   * for any function $f\colon \mathbb{N} \to X$ from the [[natural numbers]], there exist $n,m$ with $n \ne m$ such that $f(n) = f(m)$.
 
-  In contrast to the previous three notions, Dedekind-finite [[infinite sets]] can coexist with [[excluded middle|PEM]], although [[countable choice]] suffices to banish them.  The above two versions of Dedekind-finiteness are equivalent under PEM, but constructively they may differ.
+  In contrast to the previous three notions, Dedekind-finite [[infinite sets]] can coexist with [[excluded middle]], although [[countable choice]] suffices to banish them.  The above two versions of Dedekind-finiteness are equivalent with excluded middle, but constructively they may differ.  In addition, there are other forms of Dedekind-finiteness that are strictly stronger even with excluded middle; see [this MO question](https://mathoverflow.net/q/410013/) for instance.
 
 In constructive mathematics, one is usually interested in the finite sets, although the finitely indexed sets are also sometimes useful, as are the Dedekind-finite sets in the second sense.
 
