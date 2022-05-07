@@ -24,16 +24,16 @@ Just as a [[subobject classifier]] in a [[(1,1)-category]] classifies the [[mono
 
 ## Definition
 
-In a (2,1)-category $C$ with [[terminal object]] $*$ and finite [[2-pullback|(2,1)-pullbacks]], a __discrete object classifier__ is a morphism $inhabited: Set_* \rightarrow Set$ from a nonterminal [[pointed object]] $Set_*$ to a nonterminal object $Set$ such that for every [[faithful morphism]] $B \colon U \rightarrow G$ in $C$, there is a unique morphism $F:G \rightarrow Set$ such that there is a (2,1)-pullback [[diagram]] of the form
+In a (2,1)-category $C$ with [[terminal object]] $*$, [[interval object]] $I$, and finite [[2-pullback|(2,1)-pullbacks]], a __discrete object classifier__ is a morphism $inhabited: [I, Set] \rightarrow Set$ whose target is a nonterminal object $Set$ and whose source is the [[internal hom|internal]] [[hom-object]] $[I, Set]$ such that for every [[faithful morphism]] $B \colon U \rightarrow G$ in $C$, there is a unique morphism $F:G \rightarrow Set$ such that there is a (2,1)-pullback [[diagram]] of the form
 
-$$\array{U & \to & Set_* \\
+$$\array{U & \to & [I,Set] \\
   ^{B}\downarrow & \cong & \downarrow^{inhabited}\\
   G & \underset{\chi_U}{\to} & Set}$$
 
 +-- {: .num_remark}
 ###### Remark
 
-If $Set$ exists, it is typically called the **[[universe]] of [[set]]s** or **[[groupoid]] of sets**, and the corresponding $Set_*$ is called the **groupoid of [[pointed set]]s**. A global element $F:G \rightarrow Set$ is typically called an **[[indexed family]]**, an element $A:* \rightarrow Set$ is typically called a **set**, and a set $A:* \rightarrow Set$ is **[[inhabited object|inhabited]]** if there exists a morphism $B:* \rightarrow Set_*$ such that the $A$ [[factor]]s into $inhabited \circ B$. All these terms refer to the [[internal set theory]] of the (2,1)-category $C$. 
+If $Set$ exists, it is typically called the **[[universe]] of [[set]]s** or **[[groupoid]] of sets**. A global element $F:G \rightarrow Set$ is typically called an **[[indexed family]]**, an element $A:* \rightarrow Set$ is typically called a **set**, and a set $A:* \rightarrow Set$ is **[[inhabited object|inhabited]]** if there exists a morphism $B:* \rightarrow [I, Set]$ such that the $A$ [[factor]]s into $inhabited \circ B$. All these terms refer to the [[internal set theory]] of the (2,1)-category $C$. 
 
 The morphism $\chi_U$ is also called the **[[classifying morphism]]** of the discrete object $U$ and morphism $B:U \rightarrow G$.
 
