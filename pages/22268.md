@@ -28,75 +28,119 @@ Beware the existence of a book of similar title, by the same author and largely 
 ## Chapter I Foundations
 
 1. Basic notions
+
 2. General remarks. Examples
+
 3. Elementary properties
+
 4. Functorial properties
+
 5. Differentiable manifolds. Tubes and slices
+
+   * [[equivariant differential topology]]
+
 6. Families of subgroups
+
 7. Equivariant maps
+
 8. Bundles
+
+   * [[equivariant bundle]]
+
 9. Vector bundles
+
+   * [[equivariant vector bundle]]
+
 10. Orbit categories, fundamental groups, and coverings
+
+    * [[orbit category]]
+
+
 11. Elementary algebra of transformation groups
 
-* [[G-CW complex]]
 
-* [[equivariant Hopf degree theorem]]
-
-* [[equivariant differential topology]]
-
-* [[equivariant bundle]], [[equivariant vector bundle]]
-
-* [[orbit category]]
 
 ## Chapter II Algebraic Topology
 
 1. Equivariant CW-complexes
+
+   * [[G-CW complex]]
+
 2. Maps between complexes
+
 3. Obstruction theory
+
 4. The classification theorem of Hopf
+
+* [[equivariant Hopf degree theorem]]
+
+
 5. Maps between complex representation spheres
+
 6. Stable homotopy. Homology. Cohomology
+
+   * [[G-spectrum]]
+
+   * [[equivariant stable homotopy theory]]
+
+   * [[equivariant cohomology]]
+
 7. Homology with families
+
 8. The Burnside ring and stable homotopy
+
+   * [[equivariant stable Cohomotopy]]
+
 9. Bredon homology and Mackey functors
+
+   * [[Bredon cohomology]], [[Mackey functor]]
+
+
 10. Homotopy representations
 
-* [[G-CW complex]]
 
-* [[G-spectrum]]
 
-* [[equivariant stable homotopy theory]]
 
-* [[equivariant stable Cohomotopy]]
-
-* [[equivariant cohomology]]
-
-  [[Bredon cohomology]], [[Mackey functor]]
 
 ## Chapter III Localization
 
 1. Equivariant bundle cohomology
+
 2. Cohomology of some classifying spaces
+
 3. Localization
+
 4. Applications of localization
+
 5. Borel-Smith functions
+
 6. Further results for cyclic groups. Applications
+
 
 ## Chapter IV The Burnside Ring
 
 1. Additive invariants
+
 2. The Burnside ring
+
+   * [[Burnside ring]]
+
 3. The space of subgroups
+
 4. Prime ideals
+
 5. Congruences
+
 6. Finiteness theorems
+
 7. Idempotent elements
+
 8. Induction categories
+
 9. Induction theory
+
 10. The Burnside ring and localization
 
-* [[Burnside ring]]
 
 
 \linebreak
