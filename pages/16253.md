@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,11 +32,13 @@ with composition inherited from $\mathcal{C}$ and $\Delta$.
 
 ## Related concepts
 
+* [[cosimplicial abelian group]]
+
 * [[cosimplicial algebra]]
 
 ## References
 
-* {#Quillen67} [[Daniel Quillen]], _Homotopical Algebra_, Lecture Notes in Mathematics, vol. 43, Springer-Verlag, 1967
+* {#Quillen67} [[Daniel Quillen]], Chapter I, _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
 * [[Dai Tamaki]], [[Akira Kono]], Appendix A in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
