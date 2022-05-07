@@ -33,16 +33,23 @@ The [[set]] of irrational real numbers (a [[subset]] of the set of real numbers)
 
 We may give $\mathbb{J}$ a [[topological structure|topology]] as a [[subspace]] of the [[real line]] $\mathbb{R}$.  With this topology, $\mathbb{J}$ is sometimes called __[[Baire space of irrational numbers|Baire space]]__; however, one uses a different [[uniform structure]].  (This should be distinguished from the sense of [[Baire space]] as a space to which the [[Baire category theorem]] applies; however, $\mathbb{J}$ is an example of such a space.)
 
-### Abstract definition
+### In Archimedean integral domains
 
-Let $R$ be an [[Archimedean integral domain]] with the [[integers]] $\mathbb{Z} \subseteq R$ being a integral subdomain of $R$, with injection $f:\mathbb{Z} \hookrightarrow R$. The [[tight apartness relation]] $r # s$ in $R$ is defined as 
-$$r # s \coloneqq (r \lt s) \vee (s \lt r)$$
+Let $R$ be an [[Archimedean integral domain]] with the [[integers]] $\mathbb{Z} \subseteq R$ being a integral subdomain of $R$. 
 
-An element $r \in R$ is irrational if 
-$$isIrrational(r) \coloneqq \forall a \in \mathbb{Z}. \forall b \in \mathbb{Z}. (f(a) # 0) \wedge (f(a) \cdot r # f(b))$$
+An element $r \in R$ is irrational if for all $a \in \mathbb{Z}$ and $b \in \mathbb{Z}$, $\vert a \vert \gt 0$ and $\vert a \cdot r - b \vert \gt 0$. 
 
 The set of __irrational numbers__ in $R$ is defined as
-$$\mathbb{J}_R \coloneqq \{r \in R \vert isIrrational(r) \}$$
+$$\mathbb{J}_R \coloneqq \{r \in R \vert (\vert a \vert \gt 0) \wedge (\vert a \cdot r - b \vert \gt 0) \}$$
+
+### In integral domains with a p-adic norm
+
+Let $R$ be an [[integral domain]] with a [[p-adic norm]] $\vert(-)\vert_p$ for a [[prime number]] $p$, with the [[integers]] $\mathbb{Z} \subseteq R$ being a integral subdomain of $R$. 
+
+An element $r \in R$ is irrational if for all $a \in \mathbb{Z}$ and $b \in \mathbb{Z}$, $\vert a \vert_p \gt 0$ and $\vert a \cdot r - b \vert_p \gt 0$. 
+
+The set of __irrational numbers__ in $R$ is defined as
+$$\mathbb{J}_R \coloneqq \{r \in R \vert (\vert a \vert_p \gt 0) \wedge (\vert a \cdot r - b \vert_p \gt 0) \}$$
 
 ## History
 
