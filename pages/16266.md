@@ -171,6 +171,8 @@ As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking
 * {#ARVloc} [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]],
 [_On Algebraically Exact Categories and Essential Localizations of Varieties_](https://doi.org/10.1006/jabr.2000.8577)
 
+\bibitem{Garner.2011}
+
 [[!redirects distributivity of limits and colimits]]
 [[!redirects distributivity of colimits over limits]]
 [[!redirects distributivity of colimits and limits]]
