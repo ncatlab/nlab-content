@@ -54,7 +54,6 @@ In this vein, around 1989, the [[noncommutative projective geometry]]  was devel
 
 A huge project started, trying to classify Auslander-regular algebras, graded-connected and generated in degree one (that is, noncommutative analogons of projective n-space) for small dimensions n. In dimension 3, the initial work was done by Artin and Schelter, culminating in the influential papers (ATV1), (ATV2) by Mike Artin, John Tate and [[Michel Van den Bergh]] (see bibl.). In this classification a class of algebras re-appeared which were initially discovered by Odeskii and Feigin, the so called Sklyanin algebras. Ring-theoretic investigations of the Sklyanin algebras were done by Tate and Van den Bergh (Noetherianity for all dimensions n) and in dimension 4 a geometric study via 'point' and 'line' modules was carried out by Thierry Levasseur, Toby Stafford and Paul Smith. Further classifications in dimension 3 (dropping the degree one generator condition) and 4 were done by these people and their students. In the ungraded case, maximal orders with excellent homological properties were recently used in connection with quotient-singularities and their desingularizations as in the noncommutative crepant resolution by Michel Van den Bergh (Abel symposium 2002).
 
-A discussion between Lieven Le Bruyn and Zoran &#352;koda on an early version of this entry is archived at $n$Forum.
 
 ## Approaches 
 
@@ -69,12 +68,18 @@ Motivated by this, [[A. L. Rosenberg]] has developed many spectral constructions
 A space in the sense of a Grothendieck school is a sheaf $F$ of sets on the category of affine schemes $Aff$ equipped with some subcanonical Grothendieck topology and which is locally affine, i.e. there is a cover of $F$ (in the sense of induced Grothendieck topology on the category of presheaves) by representables. The noncommutative analogue of $Aff$ is the opposite to the category of noncommutative unital rings $NAff = Ring^{op}$. The problem is that the natural candidates for covers in $NAff$ are not making classes which satisfy the axioms for [[Grothendieck topology]], namely, the crucial stability under pullback fails. However $A$ can be equipped with a structure of a [[Q-category]], and then one can consider the sheaves of sets on a Q-category and define in an analogous way when they are locally affine. Similar approach works for noncommutative stacks.   
 
 ### Derived noncommutative geometry
+  {#DerivedNonCommutativeGeometry}
 
 [[derived noncommutative geometry|Derived noncommutative geometry]] is a subject related to the commutative [[derived algebraic geometry]] of [[Carlos Simpson|C. Simpson]]'s school. Cyclic and [[Hochschild homology]] play a major role. 
 
-This approach *represents* spaces by categories enriched in [[chain complex|cochain complexes]] ([[dg-category]] approach) or [[enriched category|enriched]] in [[spectrum|spectra]]. [[A-infinity category|A-infinity categories]] have some advantages over working with dg-categories.
+Here one thinks of [[dg-categories]], [[A-infinity categories]], [[Spectra]]-[[enriched categories]] and ultimately of [[stable (∞,1)-categories]] as [[formal duals]] to non-commutative derived spaces:
 
-Notice that such categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]]. Moreover, every [[stable (∞,1)-category]] may automatically be regarded as a stable [[(∞,1)-topos]]. Therefore, the method of thinking of a generalized space in terms of a triangulated category is in line with the way  [[topos theory]] and in particular [[higher topos theory]] characterizes generalized spaces by [[topos]]es.
+Any [[locally presentable (∞,1)-category|locally presentable]] [[stable (∞,1)-category]] may be regarded as a stable [[(∞,1)-topos]] (the "stable Giraud theorem", see [there](stable+infinity-category#StabGiraud)).
+Therefore, thinking of a non-commutative space as the [[formal dual]] to a  [[triangulated category]] or rather to a [[stable (∞,1)-category]] is directly analogous to the way  [[topos theory]] and in particular [[higher topos theory]] characterizes generalized spaces as formal duals of [[toposes]].
+
+More in detail, every [[stable (∞,1)-category]] with a set of generators is [[equivalence of (infinity,1)-categories|equivalently]] the $\infty$-category of [[(∞,1)-modules]] over an [[A-∞ algebra]] (or rather $A_\infty$-algebroid, in general, due to [Schwede-Shipley 01](stable+infinity-category#SchwedeShipley)) and in this sense manifestly the formal dual to a non-commutative derived variety (see [there](stable+infinity-category#AsCategoriesOfModules) for more).
+
+The notion of [[noncommutative motive]] as localizations of stable $\infty$-categories (see [there](noncommutative+motive#AsUniversalAditiveInvariant)), due to [Blumberg-Gepner-Tabuada 10](noncommutative+motive#BlumbergGepnerTabuada10), directly ties into this.
 
 The most nontrivial result seem to be a noncommutative 
 version of the [[degeneration of Hodge-to-de-Rham spectral sequence]], conjectured by Kontsevich and, in one version, [proved](http://front.math.ucdavis.edu/0611.5623) by [[D. Kaledin]]. 
