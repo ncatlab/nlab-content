@@ -41,7 +41,7 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 ### Change of groups and fixed loci
  {#ChangeOfGroupsAndFixedLoci}
 
-We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$, and how the cross-composite of this adjoint triple with itself yields the [[fixed locus]]-[[adjunction]].
+We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$, and how the cross-composite of this adjoint triple with itself yields the [[fixed locus]]-[[adjunction]]. (See also at [induced representation](induced+representation#GeneralAbtractDefinition) for a formulation in [[homotopy type theory]].)
 
 
 Throughout, let $G_1, G_2 \in $ [[TopologicalGroups]]
@@ -99,7 +99,7 @@ for the [[functor]] which takes a [[topological G-space|topological G2-space]] $
 Given a topological group homomorphism $\phi$ (eq:TopologicalGroupHomomorphism), the _coinduced action_ functor
 
 $$
-  Topolgical G_1 Actions
+  Topological G_1 Actions
   \overset{
      Maps(G_2,-)^{G_1}
   }{\longrightarrow}
