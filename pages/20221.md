@@ -67,9 +67,10 @@ There is an [[exceptional isomorphism]]
   \draw (center) to (left);
   \draw (center) to (right);
   \end{scope}
+
 \end{tikzpicture}
 
-between [[Spin(6)]] and [[SU(4)]], reflecting, under the [[classification of simple Lie groups]], the coincidence of [[Dynkin diagram]] of "[[D3]]" with [[A3]].
+between [[Spin(6)]] and [[SU(4)]], reflecting, under the [[classification of simple Lie groups]], the coincidence of the [[Dynkin diagrams]] "[[D3]]" and [[A3]].
 
 
 =--
