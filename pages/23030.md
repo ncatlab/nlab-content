@@ -641,7 +641,7 @@ Consider the following $G$-[[action objects]] [[internalization|internal]] to [[
 
   $$
     g \,\colon\, F(-) \,\mapsto\,  g \cdot F\big( g^{-1}\cdot (-) \big)
-    \,,
+    \,.
   $$
 
 \begin{proposition}
@@ -690,11 +690,12 @@ $$
   \,.
 $$
 
-We claim that for $H = G$ this is in fact an [[isomorphism]], exhibited by the following functor:
+In the special case $H = G$ there is in fact an [[isomorphism]], 
+evidently exhibited by the following functor:
 
 \begin{imagefromfile}
     "file_name": "GFixedMappingGroupoidFromEGToBGamma210901.jpg",
-    "width": 600,
+    "width": 660,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -713,15 +714,16 @@ $$
   \;\;\;\;
   \text{such that}
   \sigma([\mathrm{e}]) \,=\, \mathrm{e}
+  \,,
 $$
 
-(which exists and is continuous by the assumption that $G$ is discrete).
+which exists and is continuous by the assumption that $G$ is discrete.
 
 Observe that then $\mathbf{E}G$ is generated, under
 
-1. composition;
+1. composition,
 
-1. taking inverses;
+1. taking inverses,
 
 1. acting with elements of $H$
 
@@ -730,12 +732,12 @@ by the following two classes of morphisms:
 \[
   \label{GeneratingMorphisms}
   \big\{ (\mathrm{e} \to h) \,\vert\, h \in H \big\}
-  \,.
+  \,,
   \;\;\;
   \big\{
     \mathrm{e} \to \sigma([g]) \,\vert\, [g] \in G/H 
   \big\}
-  \;\;\;
+  \;\;\;\;\;
   \subset
   \;
   G \times G
@@ -746,7 +748,7 @@ Using this, consider the following expression for a pair of comparison functors:
 
 \begin{imagefromfile}
     "file_name": "HFixedMappingGroupoidFromEGToBGamma210901.jpg",
-    "width": 600,
+    "width": 660,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -765,7 +767,7 @@ Here
 
 \begin{imagefromfile}
     "file_name": "CompHFixedMappingGroupoidFromEGToBGamma210901.jpg",
-    "width": 670,
+    "width": 700,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -776,14 +778,21 @@ Here
 \end{imagefromfile}
 
 
-By construction we have $L \circ R \,=\, id$, so that it now suffices to give a [[natural transformation]] $id \xRightarrow{\eta} R \circ L$.
+One readily sees that this is well-defined, and that $L \circ R \,=\, id$. 
 
-This may be taken to be as follows, again stated in terms of the generating morphisms (eq:GeneratingMorphisms):
+Therefore it is now sufficient to give a [[natural transformation]] $id \xRightarrow{\eta} R \circ L$, hence for each functor $F$ a natural transformation 
+
+$$
+  \eta_F \,\colon\, F \Rightarrow R \circ L(F)
+  \,.
+$$
+
+This may be taken as follows, again stated in terms of the generating morphisms (eq:GeneratingMorphisms):
 
 
 \begin{imagefromfile}
     "file_name": "Nat1HFixedMappingGroupoidFromEGToBGamma210901.jpg",
-    "width": 500,
+    "width": 490,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -799,7 +808,7 @@ to the [[commuting square|commutativity]] of the two types of squares shown on t
 
 \begin{imagefromfile}
     "file_name": "Nat2HFixedMappingGroupoidFromEGToBGamma210901.jpg",
-    "width": 630,
+    "width": 650,
     "unit": "px",
     "margin": {
         "top": -20,
