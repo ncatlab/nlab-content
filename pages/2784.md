@@ -3,6 +3,7 @@
 ## Background
 
 * [[category theory]]
+
 * [[higher category theory]]
 
 ## Contents
@@ -10,6 +11,8 @@
 * [[vertical categorification]]
 
 * [[horizontal categorification]]
+
+* [[(∞,1)-categorification]]
 
 * [[decategorification]], [[Grothendieck group]]
 
@@ -22,7 +25,7 @@
 * [[Kazhdan-Lusztig theory]]
 * [[categorification via groupoid schemes]]
 * The [[geometric Langlands]] program
-:* [[geometric Satake]] 
+* [[geometric Satake]] 
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/categorification+-+contents)</div>
