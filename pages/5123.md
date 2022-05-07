@@ -28,7 +28,7 @@ Denote by
 +-- {: .num_defn #TheEilenbergZilberMap}
 ###### Definition
 
-For $A,B \in sAb$ two [[simplicial abelian group]], the **Eilenberg-Zilber map** (or **Eilenberg-MacLane map** or **shuffle map**) is the [[natural transformation]] on [[chain complexes]]
+For $A,B \in sAb$ two [[simplicial abelian group]], the **Eilenberg-Zilber map** (or **Eilenberg-MacLane map** or **shuffle map**) is the [[natural transformation]] of [[chain complexes]]
 
 $$
   \nabla_{A,B} 
@@ -59,7 +59,7 @@ $$
   \,,
 $$
 
-where 
+where:
 
 * the [[sum]] is over all $(p,q)$-[[shuffles]]
 
@@ -68,14 +68,20 @@ where
     \,,
   $$
 
-* $sgn(\mu,\nu)$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
+* $sgn(\mu,\nu)$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]],
 
-* the corresponding degeneracy maps are:
+* the maps $s_{\mu}$ and $s_\nu$ are defined by:
   
   $$ 
     s_{\mu}   
       \coloneqq 
-    s_{\mu_p - 1} \circ \cdots s_{\mu_2 - 1} \circ s_{\mu_1 - 1}
+    s_{\mu_p - 1} 
+     \circ 
+    \cdots 
+      \circ 
+    s_{\mu_2 - 1} 
+      \circ 
+    s_{\mu_1 - 1}
   $$
 
   and
@@ -83,14 +89,20 @@ where
   $$
     s_{\nu} 
       \coloneqq 
-    s_{\nu_q - 1} \circ \cdots s_{\nu_2 - 1} \circ s_{\nu_1 - 1}
+    s_{\nu_q - 1} 
+      \circ 
+    \cdots 
+      \circ
+    s_{\nu_2 - 1} 
+      \circ 
+    s_{\nu_1 - 1}
     \,.
   $$
 
 =--
 
 \begin{remark}
-The shift in the indices in Def. \ref{TheEilenbergZilberMap} is to be coherent with the convention that the [[shuffle]] $(\mu, \nu)$ is a [[permutation]] of $\{1, \dots, p+q\}$. In many references the shift disappears by making it a permutation of $\{0, \dots, p+q-1\}$ instead.) The sign $sign(\mu,\nu) \in \{-1,1\}$ is the [[signature of a permutation|signature]] of the corresponding [[permutation]].
+The shift in the indices in Def. \ref{TheEilenbergZilberMap} is to be coherent with the convention that the [[shuffle]] $(\mu, \nu)$ is a [[permutation]] of $\{1, \dots, p+q\}$. In many references the shift disappears by making it a permutation of $\{0, \dots, p+q-1\}$, instead.
 \end{remark}
 
 +-- {: .num_remark}
@@ -215,7 +227,7 @@ Review and further discussion:
 
 * {#May} [[Peter May]], Section 29.7 of _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
-* {#Quillen69} [[Dan Quillen]], part I, section 4 of _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725))
+* {#Quillen69} [[Dan Quillen]], part I, section 4 of: _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725))
 
 * [[Jean-Louis Loday]], Section 1.6 of: _Cyclic Homology_, Grund. Math. Wiss. 301, Springer, 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
 
