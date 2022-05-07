@@ -49,6 +49,9 @@ Einstein manifolds are precisely the solutions of [[Einstein's equations]] for p
 
 * [[Nigel Hitchin]], _Compact four-dimensional Einstein manifolds_, J. Diff geom. 9 (1974) 435-441 ([pdf](http://intlpress.com/JDG/archive/1974/9-3-435.pdf))
 
+* Jongmin Park, Jaewon Shin, Hyun Seok Yang, *Unification of Einstein Manifolds* ([arXiv:2109.00001](https://arxiv.org/abs/2109.00001))
+
+
 [[!redirects Einstein manifolds]]
 
 [[!redirects Einstein metric]]
