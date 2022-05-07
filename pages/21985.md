@@ -4,6 +4,8 @@
 
 #### Pontrjagin's construction
 
+##### General
+
 The _[[Pontryagin theorem]]_, i.e. the unstable and [[normally framed submanifold|framed]] version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
 
 * {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
@@ -41,6 +43,34 @@ Discussion of the early history:
 
 * [Kosinski 93, Section IX.9](#Kosinski93)
 
+##### Twisted/equivariant generalizations
+ {#TwistedEquivariantPontrjaginConstruction}
+
+The (straightforward) generalization of the [[Pontrjagin theorem]] to the [[twisted Pontrjagin theorem]], identifying [[twisted Cohomotopy]] with [[cobordism classes]] of [[normally twisted-framed submanifolds]], is made explicit in:
+
+* {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 in: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
+
+A general [[equivariant Pontrjagin theorem]] -- relating [[equivariant Cohomotopy]] to normal equivariant framed submanifolds -- remains elusive, but on [[free action|free]] [[G-manifolds]] it is again straightforward (and reduces to the [[twisted Pontrjagin theorem]] on the [[quotient space]]), made explicit in:
+
+* {#Cruickshank99} [[James Cruickshank]], Thm. 5.0.6, Cor. 6.0.13 in: _Twisted  Cobordism and its Relationship to Equivariant Homotopy Theory_, 1999 ([pdf](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk1/tape9/PQDD_0030/NQ46823.pdf), [[Cruickshank99.pdf:file]])
+
+
+##### In negative codimension
+ {#InNegativeCodimension}
+
+In [[negative number|negative]] [[codimension]], the [[Cohomotopy charge map]] from the [[Pontrjagin theorem]] gives the [May-Segal theorem](configuration+space+of+points#LoopSpacesOfSuspensions), now identifying [[Cohomotopy]] _[[cocycle spaces]]_ with [[configuration spaces of points]]:
+
+* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
+
+* {#Segal73} [[Graeme Segal]], _Configuration-spaces and iterated loop-spaces_, Invent. Math. __21__ (1973), 213&#8211;221. MR 0331377 ([pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf))
+c
+Generalization of these constructions and results is due to
+
+* {#McDuff75} [[Dusa McDuff]], _Configuration spaces of positive and negative particles_, Topology Volume 14, Issue 1, March 1975, Pages 91-107 (<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>)
+
+* {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], _Stable splittings of mapping spaces_, Algebraic topology. Springer 1987. 174-187 ([pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]])
+
+
 
 
 #### Thom's construction
@@ -56,7 +86,7 @@ Textbook accounts:
 
 
 
-#### Lashov's construction
+#### Lashof's construction
 
 The joint generalization of [Pontryagin 38a](#Pontryagin38a), [55](#Pontryagin55) (framing structure) and [Thom 54](#Thom54) (orientation structure) to any family of [[tangential structures]] ("[[(B,f)-structure]]") is first made explicit in  
 
