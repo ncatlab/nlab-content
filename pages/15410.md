@@ -11,6 +11,8 @@ One way to axiomatize [[conformal field theory]] (see there) in [[FQFT]]-style i
 
 ## References
 
+### General
+
 * {#Segal88} [[Graeme Segal]], 
 
   _The definition of conformal field theory_ , in _Differential geometrical methods in theoretical physics_ (Como, 1987), NATO Adv. Sci. Inst. Ser. C Math. Phys. Sci., 250, Kluwer Acad. Publ., Dordrecht, (1988), 165-171
@@ -20,9 +22,17 @@ One way to axiomatize [[conformal field theory]] (see there) in [[FQFT]]-style i
   _The definition of conformal field theory_ , preprint, 1988; also in: _Topology, geometry and quantum field theory_ , ed. U. Tillmann, London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577.
 
 
-Review in the context of the [[Mumford conjecture]] is in 
+Review in the context of the [[Mumford conjecture]]:
 
 * {#Madsen07} [[Ib Madsen]], section 2.2 of _Moduli spaces from a topological viewpoint_, Proceedings of the International Congress of Mathematics, Madrid 2006 (2007) ([pdf](http://www.icm2006.org/proceedings/Vol_I/20.pdf))
+
+
+
+[[!include D=2 CFT a functorial field theory -- references]]
+
+
+
+
 
 [[!redirects conformal cobordism categories]]
 
