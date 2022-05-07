@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
 =--
 =--
 
