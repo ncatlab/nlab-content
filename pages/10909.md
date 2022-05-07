@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -46,6 +47,10 @@ For more examples see also at MO _[Where do all the projection formulas come fro
 * [[dependent linear type theory]]
 
 ## References
+
+Discussion in [[real cohomology]] for [[integration of differential forms]]:
+
+* [[Raoul Bott]], [[Loring Tu]], Prop. 6.15 in: _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
 
 A general abstract account is in 
 
