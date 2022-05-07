@@ -324,17 +324,10 @@ This condition does not seem to alter the class of underlying [[(∞,1)-categori
 
 ## What is the relationship between (higher) category theory and homotopy theory?
 
-[[Homotopy theory]] serves as a foundation for much of modern (higher) [[category theory]].  For instance, the proof of equivalence of various models
-of [[(∞,n)-categories]] heavily relies on [homotopical algebra](#halg).
-It is difficult to draw a sharp boundary between the two subjects; [[(∞,1)-categories]] could definitely be seen as being part of both, for example.
+[[homotopy theory|Homotopy theory]] serves as a foundation for much of modern (higher) [[category theory]].  For instance, the proof of equivalence of various models of [[(∞,n)-categories]] heavily relies on [homotopical algebra](#halg).  It is difficult to draw a sharp boundary between the two subjects; [[(∞,1)-categories]] could definitely be seen as being part of both, for example.
 
-[[Homotopy theory]] also somewhat implicitly permeates classical [[category theory]].  For example, the correct notion of a [[pullback]] for diagrams
-of [[categories]] is not the strict [[pullback]],
-but rather incorporates an additional isomorphism
-between the images of two given objects.
-But this is precisely the [[homotopy pullback]]
-in the category of [[small categories]]
-equipped with the [[natural model structure]].
+[[homotopy theory|Homotopy theory]] also somewhat implicitly permeates classical [[category theory]].  For example, the correct notion of a [[pullback]] for diagrams of [[categories]] is not the strict [[pullback]], but rather incorporates an additional isomorphism between the images of two given objects.
+But this is precisely the [[homotopy pullback]] in the category of [[small categories]] equipped with the [[natural model structure]].
 
 ## What is a derived functor?
 {#derived}
