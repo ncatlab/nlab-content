@@ -368,7 +368,12 @@ The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ 
 
 * [[equivariant cobordism theory]]
 
+* [[equivariant rational homotopy theory]]
+
+  [[Borel-equivariant rational homotopy theory]]
+
 * [[equivariant motivic homotopy theory]]
+
 
 * [[Sullivan conjecture]]
 
