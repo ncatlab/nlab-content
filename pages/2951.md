@@ -59,6 +59,10 @@ On the [[homotopy type of spaces of rational functions]] from the [[Riemann sphe
 * [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
 Volume: 258;  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
 
+On the [[ordinary cohomology]] of the [[moduli space of Yang-Mills monopoles]]:
+
+* [[Graeme Segal]], Alex Selby, *The cohomology of the space of magnetic monopoles*, Commun. Math. Phys. 177, 775–787 (1996) ([doi:10.1007/BF02099547](https://doi.org/10.1007/BF02099547))
+
 
 On [[equivariant bundles]] with [[abelian group|abelian]] [[structure group]]:
 
