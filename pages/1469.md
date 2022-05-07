@@ -52,13 +52,17 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 ## References
  {#References}
 
-A neat textbook is
+Textbook accounts:
+
+* {#ShafarevichVol1} [[Igor Shafarevich]], *Basic Algebraic Geometry 1 -- Varieties in Projective Space*, Springer 1977, 1994, 2013 ([pdf](http://userpage.fu-berlin.de/aconstant/Alg2/Bib/Shafarevich.pdf), [doi:10.1007/978-3-642-57908-0](https://link.springer.com/book/10.1007/978-3-642-57908-0))
+
+Lecture notes:
 
 * [[Ravi Vakil]], _Foundations Of Algebraic Geometry_, Course notes ([web](http://math.stanford.edu/~vakil/216blog/))
 
 See also the references at _[[functorial geometry]]_.
 
-For reference see also 
+and see
 
 * _[[The Stacks Project]]_
 
