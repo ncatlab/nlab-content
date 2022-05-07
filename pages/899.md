@@ -263,3 +263,6 @@ The following monograph is not particulary about group representations, but some
  
  
 [[!redirects topological groups]]
+
+[[!redirects TopologicalGroups]]
+
