@@ -98,7 +98,7 @@ $$
 
 An immediate consequence is:
 
-\begin{prop}
+\begin{prop}\label{CoefficientsOfMonomialsAreNaturalNumbers}
   The [[coefficient]] of any [[monomial]] $x_1^{n_1} x_2^{n_2} \cdots$ appearing in a Schur polynomial is non-negative.
 \end{prop}
 
