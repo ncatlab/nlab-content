@@ -175,6 +175,8 @@ but that it is also the [[source]] of the slicing of the plain  Yoneda embedding
 
 ## Statement
 
+### In 1-category theory
+
 \begin{proposition}
 The following anti-parallel functors constitute an [[adjoint equivalence]]
 \begin{tikzcd}
@@ -491,6 +493,19 @@ Here:
 * the last step is again the [[co-Yoneda lemma]] (eq:PresheafAsColimitOfRepresentables), now for $B$ itself.
 
 \end{proof}
+
+
+### In simplicial model category theory
+
+The above argument applies verbatim also [[enriched presheaves]] such as [[simplicial presheaves]] for the case of enrichment over [[sSet]].
+
+Equipping simplicial presheaves with the [[projective model structure on simplicial presheaves]] and their slice with the respective [[slice model structure]], the above right adjoint functor (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a [[right Quillen functor]]:
+
+Since representables are [[cofibrant objects|cofibrant]], the unsliced simplicial hom out of a representable is a right Quillen functor by the [pullback-power axiom](enriched+model+category#PullbackPowerAxiom). Moreover, [[base change]] by pullback is a right Quillen functor (by [this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction)). Together this implies that their composite (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a right Quillen functor.
+
+(...)
+
+
 
 ## References
 
