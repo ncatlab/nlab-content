@@ -24,13 +24,13 @@ Just as a [[subobject classifier]] in a [[(1,1)-category]] classifies the [[mono
 
 ## Definition
 
-In a (2,1)-category $C$ with [[terminal object]] $*$ and finite [[2-pullback|(2,1)-pullbacks]], a __discrete object classifier__ is a nonterminal object $Set$ such that for every [[inhabited]] morphism $A: * \rightarrow Set$ and every [[faithful morphism]] $B \colon U \rightarrow G$ in $C$, there is a unique morphism $F:G \rightarrow Set$ such that there is a (2,1)-pullback [[diagram]] of the form
+In a (2,1)-category $C$ with [[terminal object]] $*$ and finite [[2-pullback|(2,1)-pullbacks]], a __discrete object classifier__ is a morphism $inhabited: Set_* \rightarrow Set$ from a nonterminal [[pointed object]] $Set_*$ to a nonterminal object $Set$ such that for every [[faithful morphism]] $B \colon U \rightarrow G$ in $C$, there is a unique morphism $F:G \rightarrow Set$ such that there is a (2,1)-pullback [[diagram]] of the form
 
-$$\array{U & \to & * \\
-  ^{B}\downarrow & \cong & \downarrow^{A}\\
+$$\array{U & \to & Set_* \\
+  ^{B}\downarrow & \cong & \downarrow^{inhabited}\\
   G & \underset{F}{\to} & Set}$$
 
-If $Set$ exists, it is typically called the __[[universe]] of [[set]]s__, a global element $F:G \rightarrow Set$ is typically called an [[indexed family]] and an element $A:* \rightarrow Set$ is typically called a set, where all these terms refer to the [[internal set theory]] of the (2,1)-category $C$. 
+If $Set$ exists, it is typically called the __[[universe]] of [[set]]s__, a global element $F:G \rightarrow Set$ is typically called an [[indexed family]] and an element $A:* \rightarrow Set$ is typically called a set, where all these terms refer to the [[internal set theory]] of the (2,1)-category $C$. A set $A:* \rightarrow Set$ is [[inhabited morphism|inhabited]] if it factors into $inhabited \circ B$, where $B:* \rightarrow Set_*$
 
 ## Examples
 
@@ -48,3 +48,7 @@ In the (2,1)-category [[Grpd]] of groupoids and functors between groupoids, the 
 * [[classifying morphism]]
 
 * [[type of types]], [[universe in a topos]]
+
+## References
+
+* David Corfield: _101 things to do with a 2-classifier_ ([blog](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html))
