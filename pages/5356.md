@@ -15,9 +15,10 @@ On [[Shimura varieties]]:
 
 * [[James Milne]], _Introduction to Shimura Varieties_, 2004, ([pdf](https://www.jmilne.org/math/articles/2005aX.pdf))
 
+
 On [[algebraic groups]]:
 
-* _Algebraic groups: The theory of group schemes of finite type over a field_, Cambridge University Press, 2017 ([description](http://www.jmilne.org/math/Books/iag.html))
+* {#Milne17} [[James Milne]], *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
 ## Related entries
 
