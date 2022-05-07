@@ -317,13 +317,12 @@ For the precise statement see at _[2-topos -- In terms of internal categories](2
 * [[locally internal category]]
 
 
+
 ## References
 
 Survey and introduction with an eye towards [[Lie theory]]:
 
 * [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_, Banach Center Publications, vol. 76, Warsawa 2007, 87-157 ([arXiv:0711.1608](http://arxiv.org/abs/0711.1608), [doi:10.4064/bc76-0-5 ](https://www.impan.pl/en/publishing-house/banach-center-publications/all/76/0/86184/in-ehresmann-s-footsteps-from-group-geometries-to-groupoid-geometries))
-
-
 
 * [[John Baez]], [[Alissa Crans]], _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
 
@@ -336,6 +335,10 @@ and with emphasis on [[topos theory]]:
 * {#Johnstone} [[Peter Johnstone]], section B.2.3 of: _[[Sketches of an Elephant]]_
  
 * [[Saunders MacLane]], [[Ieke Moerdijk]], section V.7 of: _[[Sheaves in Geometry and Logic]]_
+
+The original concept of categories internal to [[TopologicalSpaces]] and to [[SmoothManifolds]]:
+
+* [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
 The original proofs that the category of internal categories is [[cartesian closed category|cartesian closed]] when the ambient category is [[finitely complete category|finitely complete]] and [[cartesian closed category|cartesian closed]] are in
 
