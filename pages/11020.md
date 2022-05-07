@@ -10,7 +10,7 @@
 =--
 =--
 
-The **Vienna Circle** (in German, *Der Wiener Kreis*) were a group of philosophers, mathematicians, logicians and scientists who were active in Vienna in the 1920s and 1930s where they promoted a positivist view of the world and the use of formal languages to resolve or dissolve philosophical disputes. Prominent members included [[Rudolf Carnap]], Moritz Schlick, Hans Hahn, Otto Neurath, Olga Hahn-Neurath, Friedrich Waismann, Philipp Frank, and Herbert Feigl.
+The **Vienna Circle** (in German, *Der Wiener Kreis*) were a group of philosophers, mathematicians, logicians and scientists who were active in Vienna in the 1920s and 1930s where they promoted a positivist view of the world and the use of formal languages to resolve or dissolve philosophical disputes, hence the name of their position _Logical Positivism_. Prominent members included [[Rudolf Carnap]], Moritz Schlick, Hans Hahn, Otto Neurath, Olga Hahn-Neurath, Friedrich Waismann, Philipp Frank, and Herbert Feigl.
 
 In 1929, Hahn, Neurath and Carnap published the Circle's Manifesto, [The Scientific Conception of the World: The Vienna Circle](https://www.manchesterism.com/the-scientific-conception-of-the-world-the-vienna-circle/):
 
