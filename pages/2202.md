@@ -32,6 +32,8 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 
 * The opposite of the category of [[associative algebra]]s over a given [[base field]] $k$ with its usual tensor product $A \otimes B$.
 
+* The category of [[measurable locales]], equivalently, the opposite category of [[commutative von Neumann algebras]], equipped with the [[spatial tensor product]], which corresponds to the measure-theoretic product of measurable spaces (but not the categorical product).
+
 * The category [[Cat]] with the non-standard non-cartesian [[funny tensor product]].
 
 * The category of [[strict 2-categories]] with the [[Gray tensor product]], and the category of [[strict omega-categories]] with the [[Crans-Gray tensor product]].
