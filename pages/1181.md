@@ -212,7 +212,7 @@ It then is a theorem due to [[Andreas Blass]] ([1989](#Blass)) that $\mathcal{S}
 
 A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that [[classifying topos|classifying toposes]] for [[geometric theories]] over $\mathcal{S}$ exist precisely if $\mathcal{S}$ has a NNO.
 
-So from a different perspective, in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] (often) hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
+So from a different perspective, in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] (often) hinge on the existence of free unary systems or monoids, the intuition being that the free unary systems and free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
 
 Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ of finite sets [[graphic category|free graphic monoids]] exist.
 
