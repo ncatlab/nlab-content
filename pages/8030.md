@@ -26,6 +26,7 @@ Equivalently, since fast varying moduli appear as light or massless [[particles]
 
 
 ### For pure vacuum gravity compactifications
+ {#ForPureVacuumGravity}
 
 In pure [[classical field theory|classical]] [[gravity]] KK-compactifications have been suggested ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable due to the [[Penrose-Hawking singularity theorem]]. 
 
