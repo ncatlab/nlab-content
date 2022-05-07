@@ -1,3 +1,4 @@
+Sergei Novikov (Russian: Серге́й Петро́вич Но́виков) is a Russian mathematician.
 
 * <a href="https://en.wikipedia.org/wiki/Sergei_Novikov_(mathematician)">Wikipedia entry</a>
 
