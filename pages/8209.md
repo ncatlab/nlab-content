@@ -212,6 +212,8 @@ With emphasis on application to [[neutron stars]]:
 
 * Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
 
+* Carlos Hoyos, Niko Jokela, Matti Järvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, *Holographic approach to transport in dense QCD matter* ([arXiv:2109.12122](https://arxiv.org/abs/2109.12122))
+
 See also:
 
 * Alfonso Ballon-Bayona, Luis A. H. Mamani, Alex S. Miranda, Vilson T. Zanchin, *Effective holographic models for QCD: Thermodynamics and viscosity coefficients* ([arXiv:2103.14188](https://arxiv.org/abs/2103.14188))
