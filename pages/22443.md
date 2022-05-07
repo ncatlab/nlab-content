@@ -1421,7 +1421,7 @@ Mentioning of the Cayley distance kernel:
 
 The above discussion of the positivity of the Cayley distance kernel in dependence of the inverse temperature follows:
 
-* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Weight systems that are quantum states]]*
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]*
 
 
 Supplementary references:
