@@ -160,7 +160,7 @@ Further discussion
 
   > (in the context of the [[slice theorem]])
 
-* {#Antonyan02} Sergey Antonyan, *Universal proper G-spaces*, Topology and its Applications Volume 117, Issue 1, 15 January 2002, Pages 23-43 (<a href="https://doi.org/10.1016/S0166-8641(00)00115-2">doi:10.1016/S0166-8641(00)00115-2</a>)
+* {#Antonyan02} [[Sergey Antonyan]], *Universal proper G-spaces*, Topology and its Applications Volume 117, Issue 1, 15 January 2002, Pages 23-43 (<a href="https://doi.org/10.1016/S0166-8641(00)00115-2">doi:10.1016/S0166-8641(00)00115-2</a>)
 
 
 [[!redirects proper actions]]
