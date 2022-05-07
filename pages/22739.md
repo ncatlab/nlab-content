@@ -63,6 +63,8 @@ for all $a,b \in G$.
 
 * [[invertible magma]] (nondivisible version)
 
+* [[Malcev variety]]
+
 * [[centipede mathematics]]
 
 [[!redirects invertible magmas]]
