@@ -30,15 +30,7 @@ For every $n$, The canonical $(n+1)$-topos is [[nCat]], the [[n-category|(n+1)-c
 
 ## Related concepts
 
-* [[higher topos theory]]
-
-* [[(0,1)-topos]]
-
-* [[topos]]
-
-* [[2-topos]], [[(2,1)-topos]]
-
-* [[(∞,1)-topos]]
+[[!include flavors of higher toposes -- list]]
 
 
 ## References
