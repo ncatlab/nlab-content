@@ -100,6 +100,8 @@ $$
 
 * [[Schur-Weyl duality]]
 
+* [[Jucys-Murphy element]]
+
 ## References
 
 Textbook accounts:
