@@ -17,15 +17,27 @@
 ## Definition
 
 ### In 1-category theory
+ {#In1CategoryTheory}
 
-A [[functor]] $F: C \to D$ from the category $C$ to the category $D$ is _faithful_, or an embedding, if for each pair of objects $x, y \in C$, the function
 
-$$F : C(x,y) \to D(F(x), F(y))$$
+A [[functor]] $F \colon \mathcal{C} \to \mathcal{D}$ from a [[category]] $\mathcal{C}$ to a category $\mathcal{D}$ is called _faithful_, if for each [[pair]] of [[objects]] $x, y \in \mathcal{C}$, its [[function]] $F_{x,y}$ on [[hom-sets]] is [[injection|injective]]:
 
-between [[hom sets]] is [[injection|injective]]. The arrow function of $F$ assigns to each $f : x \rightarrow y$ an arrow $Ff : Fx \rightarrow Fy$, thereby defining a function 
-$$ F_{x,y} : hom(x,y) \rightarrow hom(Fx, Fy). f \mapsto Ff $$
+$$
+  \array{
+    \mathcal{C}(x,y) 
+    &\xhookrightarrow{\;\; F_{x,y} \;\;}&
+    \mathcal{D}(F(x), F(y))
+    \\
+    (x \overset{\phi}{\to} y)
+    &\mapsto&
+    \big(
+      F(x)\overset{F(\phi)}{\to} F(y)
+    \big)
+    \,.
+  }
+$$
 
-More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective functor|surjective]] &#8211; or loosely speaking, 'surjective on equations between given morphisms'. 
+More abstractly, we may say that a functor is faithful if it is $2$-[[k-surjective functor|surjective]] &#8211; or loosely speaking, 'surjective on equations between given morphisms'. 
 
 
 
@@ -49,6 +61,8 @@ A faithful functor [[reflected limit|reflects]] [[epimorphisms]] and [[monomorph
 
 
 ## Related concepts
+
+* [[embedding of categories]]
 
 [[!include properties of functors -- contents]]
 
