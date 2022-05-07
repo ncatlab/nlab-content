@@ -163,7 +163,7 @@ Using this, consider the following transformations of morphisms in slice categor
 
 **(1a)**
 
-\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+\begin{tikzcd}
     L(c) 
     \ar[rr, "f", dashed]
     \ar[dr]
@@ -177,7 +177,7 @@ Using this, consider the following transformations of morphisms in slice categor
 
 **(2a)**
 
-\begin{tikzcd}[column sep={between origins, 33}, row sep=4]
+\begin{tikzcd}
     c 
     \ar[
       rr,
@@ -188,12 +188,12 @@ Using this, consider the following transformations of morphisms in slice categor
       rrrr,
       rounded corners,
       to path={
-           -- ([yshift=+12pt]\tikztostart.north)
+           -- ([yshift=+30pt]\tikztostart.north)
            --node[above]{
                \scalebox{.7}{$
                  \widetilde{f}
                $}
-             } ([yshift=+8pt]\tikztotarget.north)
+             } ([yshift=+27pt]\tikztotarget.north)
            -- (\tikztotarget.north)}
     ]
     &&
@@ -243,7 +243,7 @@ Using this, consider the following transformations of morphisms in slice categor
     \ar[
       dr,
       phantom,
-      "\mbox{\tiny\rm(pb)}"
+      "\mbox{\tiny\rmfamily(pb)}"
     ]
       &&
     R(d)
