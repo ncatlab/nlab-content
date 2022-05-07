@@ -42,7 +42,7 @@ is an isomorphism for any $X$ (see Proposition \ref{nullary} below).  Moreover, 
 
 A category $C$ with finite products and all small coproducts is **infinitary distributive** if the statement applies to all small coproducts.  One can also consider $\kappa$-distributivity for a [[cardinal number]] $\kappa$, meaning the statement applies to coproducts of cardinality $\lt\kappa$.
 
-Any [[extensive category]] is distributive, but the converse is not true.
+Any [[extensive category]] with finite products is distributive, but the converse is not true.
 
 ## Properties 
 
