@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _octahedral group_, a [[finite group]], is the group ofn [[symmetries]] of an [[octahedron]].
+The _octahedral group_, a [[finite group]], is the group of [[symmetries]] of an [[octahedron]].
 
 As a symmetry group of one of the [[Platonic solids]], the octahedral group participates in one of the three exceptional entries cases of the _ADE pattern_:
 
@@ -39,7 +39,7 @@ More in detail, there are variants of the octahedral group corresponding to the 
 
 * the _rotational octahedral group_ $O \hookrightarrow SO(3)$ is the restriction to [[orientation]]-preserving symmetries, hence to [[special orthogonal group|SO(3)]]; this is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$;
 
-* finally the _binary octahedral group_ is the [[double cover]], hence the lift of $I$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]];
+* the _binary octahedral group_ is the [[double cover]], hence the lift of $O$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]];
 
 * next there is a [[string 2-group]] lift $String_{2O} \hookrightarrow String_{SU(2)}$ of the octahedral group ([Epa 10](#Epa10), [Epa & Ganter 16](#EpaGanter16))
 
