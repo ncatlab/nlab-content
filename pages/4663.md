@@ -9,7 +9,10 @@ On [[bundle gerbes]]:
 
 * [[Michael Murray]], _Bundle gerbes_, J. Lond. Math. Soc. **54** (1996) pp. 403-416 ([arXiv:dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015))
 
-On [[Yang-Mills monopoles]]:
+On identifying the [[moduli space of Yang-Mills monopoles]] for [[gauge group]] any [[classical Lie group]] with a space of [[rational maps]], namely [[holomorphic maps]] from the [[Riemann sphere]] to a [[flag variety]]:
+
+* [[Jacques Hurtubise]], [[Michael K. Murray]], *On the construction of monopoles for the classical groups*,  Comm. Math. Phys. 122(1): 35-89 (1989) ([euclid:cmp/1104178316](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-122/issue-1/On-the-construction-of-monopoles-for-the-classical-groups/cmp/1104178316.full)) 
+
 
 * [[Michael Murray]], *Stratifying monopoles and rational maps*, Commun. Math. Phys. 125, 661–674 (1989) ([doi:10.1007/BF01228347](https://doi.org/10.1007/BF01228347))
 
