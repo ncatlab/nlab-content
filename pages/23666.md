@@ -29,7 +29,7 @@ width="500">
 
 |  |  |
 |--|--|
-| [[metal]]/[[counductor]] | the electron [[chemical potential]] is inside the valence band |
+| [[metal]]/[[conductor]] | the electron [[chemical potential]] is inside the valence band |
 | [[insulator]] | the electron chemical potential is inside a *large* gap between (what is then) the valence- and conduction-band |
 | [[semi-conductor]] | the electron chemical potential is inside a *small* gap between valence and conduction band |
 | [[semi-metal]] | there is a *large* gap between valence and conduction band, except over a [[codimension]]$\geq 2$ locus, where the gap closes right at the chemical potential |
