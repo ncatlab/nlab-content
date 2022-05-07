@@ -114,6 +114,11 @@ A counterexample in 6-dimensional spacetime:
 
 ### More references
 
+For [[BTZ black holes]]:
+
+* [[Roberto Emparan]], Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_, JHEP 06 (2020) 038 ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
+
+
 Relation to the [[weak gravity conjecture]]:
 
 * [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
