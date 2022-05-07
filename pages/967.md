@@ -59,11 +59,11 @@ $(\mathcal{O} \dashv Spec)$-[[adjunction]] discussed at _[[Isbell duality]]_ and
 
 ## Properties
 
-* Total categories satisfy a very satisfactory [[adjoint functor theorem]]: any colimit-preserving functor from a total category to a locally small category has a [[right adjoint]].
+* Total categories satisfy a very satisfactory [[adjoint functor theorem]]: any colimit-preserving functor from a total category to a locally small category has a [[right adjoint]].  (See [Wood 1982](#Wood82), Thm. 1 for a clear statement of this fact and [StreetWalters](#StreetWalters), p. 372 for a proof).
 
 * Although the definition refers explicitly only to colimits, every total category is also [[complete category|complete]], i.e. has all small limits (this is a categorification of the fact that every cocomplete [[partial order]] is also complete).  It also has some large limits.  In fact, it has "all possible" large limits that a locally small category can have: if $F\colon D\to C$ is a functor such that $lim_d Hom_C(X,F d)$ is a small set for all $X\in C$, then $F$ has a limit.
 
-* A total category $\mathcal{C}$ is [[cartesian closed category|cartesian closed]] iff $L$ preserves binary products (cf. [Wood 1982](#Wood82), thm. 9).
+* A total category $\mathcal{C}$ is [[cartesian closed category|cartesian closed]] iff $L$ preserves binary products (cf. [Wood 1982](#Wood82), Thm. 9).
 
 ## Examples
 
@@ -82,7 +82,7 @@ Also, totality lifts along [[solid functors]]; that is, if the [[codomain]] of a
 
 For example
 
-* any category which is [[monadic]] over [[Set]] (see Kelly, Thm. 6.17)
+* any category which is [[monadic]] over [[Set]] (see ([Kelly](#Kelly)) Thm. 6.17)
 
 * any category admitting a [[topological functor]] to [[Set]]
 
@@ -127,10 +127,9 @@ But cototal categories do occur:
 
 ## References
 
-* [[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-category_, (contains the original definition of total categories)
+* {#StreetWalters}[[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-category_, (contains the original definition of total categories)
 
-* [[Max Kelly]], _A survey of totality for enriched and ordinary categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
- {#Kelly}
+*  {#Kelly} [[Max Kelly]], _A survey of totality for enriched and ordinary categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
 
 * [[Walter Tholen]], _Note on total categories_, Bulletin of the Australian Mathematical Society [cambridge journals](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=4759056)
  {#Tholen}
@@ -140,9 +139,9 @@ But cototal categories do occur:
 
 * {#Garner13} [[Richard Garner]], _Topological=Total_  ([arXiv:1310.0903](https://arxiv.org/abs/1310.0903))
 
-* [[Ross Street]], _The family approach to total cocompleteness and toposes_ , Trans. A. M. S. **284** (1984) pp.355-369, (<a href="https://www.ams.org/journals/tran/1984-284-01/S0002-9947-1984-0742429-3/S0002-9947-1984-0742429-3.pdf">AMS</a>)
+* {#Street84} [[Ross Street]], _The family approach to total cocompleteness and toposes_ , Trans. A. M. S. **284** (1984) pp.355-369, (<a href="https://www.ams.org/journals/tran/1984-284-01/S0002-9947-1984-0742429-3/S0002-9947-1984-0742429-3.pdf">AMS</a>)
 
-* {#Wood82} [[Richard J. Wood]], _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
+* {#Wood82} [[Richard J. Wood]], _Some remarks on total categories_, J. Algebra **75**:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
 
 [[!redirects total categories]]
 [[!redirects cototal category]]
