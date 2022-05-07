@@ -1,10 +1,27 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Definition
 
 A [[category]] is __subtractive__
 if it is [[pointed]], admits [[finite limits]],
 and left punctual [[reflexive relations]] are right punctual.
 
-Here a relation $r\colon R\to X\times Y$ is left (respectively right)
+Here a [[relation]] $r\colon R\to X\times Y$ is left (respectively right)
 __punctual__ if $(id_X,0)\colon X\to X\times Y$ (respectively $(0,id_Y)\colon Y\to X\times Y$) factors through $r$.
 
 ## Example
@@ -34,14 +51,14 @@ Applied Categorical Structures (2005) 13: 343–350,
 
 * [[Zurab Janelidze]], _Closedness properties of internal relations_.  A series of papers.
 
-** I. A unified approach to Malʹtsev, unital and subtractive categories.
+  * I. A unified approach to Malʹtsev, unital and subtractive categories.
 
-** II. Bourn localization.
+  * II. Bourn localization.
 
-** III. Pointed protomodular categories.
+  * III. Pointed protomodular categories.
 
-** IV. Expressing additivity of a category via subtractivity.
+  * IV. Expressing additivity of a category via subtractivity.
 
-** V. Linear Malʹtsev conditions.
+  * V. Linear Malʹtsev conditions.
 
-** VI. Approximate operations.
+  * VI. Approximate operations.
