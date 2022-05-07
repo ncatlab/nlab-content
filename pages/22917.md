@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -18,6 +29,13 @@ There is a similar phenomenon involving a change of variance. A functor $F : C^{
 
 - The contravariant powerset functor $\mathcal{P}: Set \to Set^{op}$ is left-adjoint to $\mathcal{P}^{op} : Set^{op} \to Set$, i.e. self-adjoint on the right.
 - More generally, in a symmetric monoidal closed category $(C, \otimes, I, \multimap)$, for a fixed object $A$, the functor $(-) \multimap A$ is self-adjoint on the right.
+
+## Related concepts
+ {#RelatedConcepts}
+
+* [[adjoint triple]]
+
+* [[ambidextrous adjunction]]
 
 
 [[!redirects self-adjoint functors]]
