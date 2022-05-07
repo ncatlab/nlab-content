@@ -5,6 +5,12 @@
 
 ## Selected writings
 
+
+On [[homotopy type of spaces of rational maps]]:
+
+* [[Charles P. Boyer]], [[B. M. Mann]], [[J. C. Hurtubise]], [[R. J. Milgram]], *The topology of the space of rational maps into generalized flag manifolds*, Acta Mathematica. 1994;173(1):61-101 ([doi:10.1007/BF02392569](https://projecteuclid.org/journals/acta-mathematica/volume-173/issue-1/The-topology-of-the-space-of-rational-maps-into-generalized/10.1007/BF02392569.full))
+
+
 On [[Sasakian geometry]]
 
 * {#BoyerGalicki07} [[Charles Boyer]], [[Krzysztof Galicki]], _Sasakian Geometry_, Oxford Mathematical Monographs, Oxford University Press, 2007 ([doi:10.1093/acprof:oso/9780198564959.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198564959.001.0001/acprof-9780198564959))
@@ -13,3 +19,6 @@ On [[Sasakian geometry]]
 
 
 category: people
+
+[[!redirects Charles P. Boyer]]
+[[!redirects C. P. Boyer]]
