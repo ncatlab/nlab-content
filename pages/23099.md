@@ -50,7 +50,7 @@ with
 
 Now, by the general discussion at *[[infinity-action|$\infty$-action]]* and at *[[Borel model structure]]* ([here](Borel+model+structure#RelationToSliceOverSimplicialClassifyingSpace)) -- this means that $X$ regarded in the [[slice (infinity,1)-category|slice]] over $B \pi$ is [[equivalence in an (infinity,1)-category|equivalent]] to the [[covering space]] $\widehat X$ *equipped* with its canonical [[group action]] by $\pi$.
 
-This allows to regard the [[rationalization]] of non-[[nilpotent spaces]] $X$ as being the image of the [[universal covers]] $\widehat X$ in $\pi_1(X)$-eqjuivariant homotopy theory. (Since the $\pi_1(X)$-action on a universal covering space is [[free action|free]] this necessarily Borel-equivariant.)
+This allows to regard the [[rationalization]] of non-[[nilpotent spaces]] $X$ as being the image of the [[universal covers]] $\widehat X$ in $\pi_1(X)$-eqjuivariant homotopy theory. (Since the $\pi_1(X)$-action on a universal covering space is [[free action|free]], this is necessarily Borel-equivariant.)
 
 This perspective is really due to 
 [Brown & Szczarba 95](#BrownSzczarba95) (based on [Brown & Szczarba 90](#BrownSzczarba90), [Brown & Szczarba 93](#BrownSzczarba93)) -- to spot it there, look ([here](#BrownSzczarba95Pages)) for: 2nd par. on  p. 883 (16 of 48) and around Thm. 4.4 on p. 896 (29 of 48).
