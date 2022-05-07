@@ -19,7 +19,7 @@
 
 ## Idea
 
-In general two objects are considered _equivalent_ if they may be replaced by one another in all contexts under consideration, in particular whenever one is not doing anything [[evil]].
+In general two objects are considered _equivalent_ if they may be replaced by one another in all contexts under consideration (see also the *[[principle of equivalence]]*).
 
 At the propositional level, the general theory of equivalence is discussed at [[equivalence relation]], but that leaves us with the question of the correct definition of equivalence in various situations.  Furthermore, we can work on a higher level and ask what the equivalences are, not just whether things are equivalent.
 
