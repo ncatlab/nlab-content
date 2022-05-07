@@ -396,7 +396,7 @@ the canonical inclusion of the projective spaces:
 
 Notice how, in this coordinatization, the projective spaces are horizontally included by adjoining a 0-coordinate to the _left_ of the list (eq:CoordinatesAsListsOfElements) and vertically by adjoining a 0-coordinate to the _right_.
 
-It follows that under forming a suitable [[colimit]] over this diagram as $n \to \infty$, in a suitable category (typically in [[homotopy types]] of [[topological spaces]] if $k$ is a [[topological field]], see also [below](#AsAtopologicalLieBundle)), the infinite projective space wants to be equivalent to the Thom space of its tautological line bundle:
+It follows that under forming a suitable [[colimit]] over this diagram as $n \to \infty$, in a suitable category (typically in [[homotopy types]] of [[topological spaces]] if $k$ is a [[topological field]], see also [below](#AsAtopologicalLieBundle)), the infinite projective space wants to be equivalent to the Thom space of its dual tautological line bundle:
 
 $$
   k P^\infty 
