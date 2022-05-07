@@ -71,9 +71,9 @@ For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \l
 
   of the [[poset]] $P_{i,j}$ which is equivalently
 
-  1. the [[poset]] of [[subset]]s of $[i,j]$ that contain both $i$ and $j$ (so in particular if $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve) with the partial order is given by inclusion.
+  1. the [[poset]] of [[subset]]s of $[i,j]$ that contain both $i$ and $j$ (so in particular if $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve) with the partial order is given by reverse inclusion.
 
-   1. the poset of [[path category|path]]s in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by 'subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $b$ visits all the vertices that $a$ does ... and perhaps some others as well.
+   1. the poset of [[path category|path]]s in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by 'subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $a$ visits all the vertices that $b$ does ... and perhaps some others as well.
 
       Of course, the way you go between the two descriptions is that a path corresponds to the set of vertices it visits and _vice versa_.
 
@@ -96,6 +96,14 @@ Under this isomorphism for instance the vertex $(0,0,1,0,1) \in (\Delta[1])^{\ti
   $$
 
   is induced by 'concatenation of the corresponding paths' and thus essentially by union of the sets involved.
+
++-- {: .num_remark}
+###### Remark
+
+The choice to order paths by reverse inclusion agrees with constructions such as the [[Duskin nerve]]. However, the other convention where they are ordered by inclusion also appears in the literature, such as [[Higher Topos Theory]] definition 1.1.5.1.  
+
+=--
+
 
 ### The homotopy coherent nerve
 
@@ -162,24 +170,26 @@ For $n = 2$, there are unique paths in $[2]$ from $[0]$ to $[1]$, and $[1]$ to $
 $$
   P_{0,2} = 
   \left\{
-    (0,2) \to (0,1,2)
+    (0,1,2) \to (0,2)
   \right\}
   = 
   \Delta[1]
   \,.
 $$
 
-So in $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,2\}$ and ending at $\{0,1,2\}$.  
+So in $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,1,2\}$ and ending at $\{0,2\}$.  
 
 $$
     \array{
-      & \nearrow\searrow^{\{0,1,2\}}
+      & \nearrow\searrow^{\{0,2\}}
       \\
-      0 &\Uparrow^{{k}}& 2
+      0 &\!\!\!\!\!\!\Uparrow^{{k}}& 2
       \\
-      & \searrow \nearrow_{\{0,2\}}
+      & \searrow \nearrow_{\{0,1,2\}}
     }
 $$
+
+Since $(0,1,2)$ is a product of $(0,1)$ and $(1,2)$, this simplex can also be depicted as $(1,2) \cdot (0,1) \Rightarrow (0,2)$.
 
 
 Everything else, in higher dimensions, is degenerate, so $S[2](0,2)\cong \Delta[1]$. Sometimes it is useful to think of this 1-simplex as 'rewriting' the direct path to that via 1, all this happening in the free category on the underlying graph of the poset $[2]$. (The construction of $S[n]$ in general has a nice interpretation in terms of higher dimensional [[rewriting]]. This can be given using the language of [[polygraph]]s or [[computad]]s.)
@@ -192,10 +202,10 @@ $$
   =
   \left\{
     \array{
-       \{0,3\}&\rightarrow & \{0,1,3\}
+       \{0,1,23\}&\rightarrow & \{0,1,3\}
        \\  
        \downarrow & \searrow &\downarrow\\
-       \{0,2,3\}&\rightarrow &\{0,1,2,3\}
+       \{0,2,3\}&\rightarrow &\{0,3\}
      }
   \right\}
   =
@@ -203,11 +213,11 @@ $$
   \,.
 $$
 
-In addition, there will be 2-simplexes filling the two triangles, coming from the chains $\{0,3\}\subset \{0,1,3\}\subset \{0,1,2,3\}$ and $\{0,3\}\subset \{0,2,3\}\subset \{0,1,2,3\}$ in the poset. 
+In addition, there will be 2-simplexes filling the two triangles, coming from the chains $\{0,1,2,3\}\subset \{0,1,3\}\subset \{0,3\}$ and $\{0,1,2,3\}\subset \{0,2,3\}\subset \{0,3\}$ in the poset. 
 
 $$
   \array{
-    & \nearrow && \searrow^{\mathrlap{\{0,1,2,3\}}}
+    & \nearrow && \searrow^{\mathrlap{\{0,3\}}}
     \\
     & & \Uparrow
     \\
@@ -215,7 +225,7 @@ $$
     \\
     && \Uparrow
     \\
-    & \searrow && \nearrow_{\mathrlap{\{0,3\}}}
+    & \searrow && \nearrow_{\mathrlap{\{0,1,2,3\}}}
   }
   \;\;\;\;\;
   \;\;\;\;\;
@@ -225,7 +235,7 @@ $$
   \;\;\;\;\;
   \;\;\;\;\;
   \array{
-    & \nearrow && \searrow^{\mathrlap{\{0,1,2,3\}}}
+    & \nearrow && \searrow^{\mathrlap{\{0,3\}}}
     \\
     & & \Uparrow
     \\
@@ -233,7 +243,7 @@ $$
     \\
     && \Uparrow
     \\
-    & \searrow && \nearrow_{\mathrlap{\{0,3\}}}
+    & \searrow && \nearrow_{\mathrlap{\{0,1,2,3\}}}
   }
   \,.
 $$
@@ -259,11 +269,11 @@ But the cube has one more face
 
 $$
   \array{
-    (0,2,4) &\to& (0,1,2,4)
+    (0,1,2,3,4) &\to& (0,1,2,4)
     \\
     \downarrow &\searrow& \downarrow
     \\
-    (0,2,3,4) &\to& (0,1,2,3,4)
+    (0,2,3,4) &\to& (0,2,4)
   }
 $$
 
@@ -274,13 +284,13 @@ $$
   \array{
     && 1 &&&& 3
     \\
-    & \nearrow &\Uparrow& \searrow && \nearrow && \searrow
+    & \nearrow &\Downarrow& \searrow && \nearrow && \searrow
     \\
     0 &&\to&& 2 &&  && 4
     \\
     &&  &&&& 3
     \\
-    & && && \nearrow &\Uparrow& \searrow
+    & && && \nearrow &\Downarrow& \searrow
     \\
     0 &&\to&& 2 && \to && 4  
   }
@@ -290,13 +300,13 @@ $$
   \array{
     && 1 &&&& 3
     \\
-    & \nearrow && \searrow && \nearrow &\Uparrow& \searrow
+    & \nearrow && \searrow && \nearrow &\Downarrow& \searrow
     \\
     0 &&&& 2 && \to && 4
     \\
     && 1 &&&& 
     \\
-    & \nearrow &\Uparrow& \searrow &&  && 
+    & \nearrow &\Downarrow& \searrow &&  && 
     \\
     0 &&\to && 2 && \to && 4  
   }
