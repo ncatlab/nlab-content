@@ -121,11 +121,12 @@ Comprehensive assessments of the situation after [Moriond 2019](http://moriond.i
 \begin{center}
 \begin{imagefromfile}
   "file_name": "ZupanFlavourAnomaly.jpg",
-  "width": 690
+  "width": 690,
+  "caption": "from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)"
 \end{imagefromfile}
 \end{center}
 
-> graphics grabbed from [Zupan 19](#Zupan19), see also [LHCb19, Fig. 5](#LHCb19)
+
 
 Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (see also [Lopes 20](#Lopes20), [CERN Courier 200311](#CERNCourir200311)):
 
@@ -135,6 +136,11 @@ Similarly [Smith 20](#Smith20) on behalf of [LHCb 2003.04831](#LHCb200304831) (s
   "width": 540
 \end{imagefromfile}
 \end{center}
+
+
+In fact [Virto 21, p.6](#Virto21) points out (their emphasis):
+
+> **Both $R_K$ and $P'_5$ have moved towards the Standard Model, but this actually improves the New Physics fits.** This is something to keep in mind when judging future measurements.
 
 
 
@@ -281,9 +287,6 @@ Outlook on the [[Belle II experiement]] to confirm the flavour anomalies, if rea
 
 > ([p. 20](#HHJLQV20):) Should  the  true  value  of $C_9^{NP}$ and $C_{10}^{NP}$ be at  the current best-fit points of the global fits, an analysis of inclusive $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]] with $50 ab^{-1}$ of data will exclude the SM point $C_9^{NP} = C_{10}^{NP} = 0$ at the level of $\sim 5$[[statistical significance|σ]].  This again underlines the necessity of a full angular analysis of $\bar B_ \to X_s \ell^+ \ell^-$ at [[Belle II]].
 
-Status analysis from [Virto 21](#Virto21):
-
-> (...)
 
 
 ## Relation to other anomalies
