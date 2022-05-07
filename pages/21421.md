@@ -74,6 +74,9 @@ More on [[mesons]] in [[holographic QCD]]:
 
 * Artur Amorim, Miguel S. Costa, Matti Järvinen, _Regge theory in a Holographic dual of QCD in the Veneziano Limit_ ([arXiv:2102.11296](https://arxiv.org/abs/2102.11296))
 
+* R. da Rocha, _Information in AdS/QCD: mass spectroscopy of isovector mesons_ ([arXiv:2103.03924](https://arxiv.org/abs/2103.03924))
+
+
 
 
 
