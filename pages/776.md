@@ -102,6 +102,7 @@ In any category:
   then it is also the coequalizer of its kernel pair.
 
 * If a [[kernel pair]] has a coequalizer, then it is the kernel pair of its coequalizer.
+
 \end{proposition}
 (e.g. [Borceux 1994, Prop. 2.5.7, 2.5.8](#Borceux94), [Taylor 1999, Lemma 5.6.6](#Taylor99)
 
