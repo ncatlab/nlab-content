@@ -61,6 +61,8 @@ in particular, the lengths of curves in $M$ are necessarily comparable to the us
 
 * [[signature of a metric]]
 
+* [[invariant Riemannian metric]]
+
 * [[orthogonal structure]]
 
 * [[Riemannian manifold]], [[pseudo-Riemannian manifold]]
