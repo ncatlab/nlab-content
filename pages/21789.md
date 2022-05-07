@@ -81,7 +81,8 @@ Relation to [[projective representations]]:
 * José Manuel Gómez, Johana Ramírez, _A Decomposition of twisted equivariant K-theory_ ([arXiv:2001.02164](https://arxiv.org/abs/2001.02164))
 
 
-
 [[!redirects equivariant twisted K-theory]]
+
+[[!redirects twisted equivariant topological K-theory]]
 
 
