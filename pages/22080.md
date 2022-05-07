@@ -117,7 +117,7 @@ Once again, all [[simplicial objects]] in [[chain complexes]] are Reedy cofibran
 Thus, the homotopy realization of $X\colon \Delta^{op} \to Ch$
 can be computed as
 $$\mathrm{N} \mathbf{Z} [-] \otimes X,$$
-which is isomorphic to the [[coproduct totalization]]
+which is isomorphic to the [[direct sum]] [[total complex]]
 of the [[double chain complex]]
 obtained by applying the [[Dold–Kan correspondence]]
 to the [[simplicial object]] $X\colon \Delta^{op}\to Ch$.
