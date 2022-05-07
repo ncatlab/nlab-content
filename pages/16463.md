@@ -27,7 +27,15 @@ One issue here is to do so at the level of [[quantum field theory]] proper, for 
 
 ## Related concepts
 
+* [[quantum gravity]]
+
 * [[grand unified theory]]
+
+* [[mass gap problem]]
+
+* [[M-theory]]
+
+* [[universal exceptionalism]]
 
 * [[gauge coupling unification]]
 
