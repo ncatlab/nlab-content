@@ -105,7 +105,7 @@ Discussion of possible realization of the [[SYK-model]] in [[condensed matter ph
 
 
 
-### In terms of weight systems on chord diagrams
+### In terms of chord diagrams
  {#ReferencesViaWeightSystems}
 
 Discussion of ([[Lie algebra weight system|Lie algebra]]-)[[weight systems]] on [[chord diagrams]] encoding [[SYK model]] [[single trace observables]]:
