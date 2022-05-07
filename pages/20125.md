@@ -136,6 +136,8 @@ In this context the [[Ryu-Takayanagi formula]] for [[holographic entanglement en
 
 * [[finite quantum mechanics in terms of dagger-compact categories]]
 
+* [[quantum many-body physics]], [[condensed matter physics]]
+
 * [[quantum computing]], [[quantum information theory]]
 
   [[quantum error correction]]
@@ -197,7 +199,7 @@ General:
 * [[Jens Eisert]], _Entanglement and tensor network states_, Modeling and Simulation 3, 520 (2013) ([arXiv:1308.3318](https://arxiv.org/abs/1308.3318))
 
 
-* Thorsten B. Wahl, _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
+* [[Thorsten B. Wahl]], _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
 
 
 Concrete materials:
@@ -272,7 +274,7 @@ Further interpretation of [[tensor networks]] in terms of [[quantum error correc
 
 * Andrew J. Ferris, David Poulin, *Tensor Networks and Quantum Error Correction*, Phys. Rev. Lett. 113, 030501 (2014) ([arXiv:1312.4578](https://arxiv.org/abs/1312.4578))
 
-and specifically in the context of [[holographic entanglement entropy]]:
+and specifically in the [[HaPPY code]] modelling [[holographic entanglement entropy]]:
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
 
@@ -282,12 +284,13 @@ reviewed in
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
-* [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
-
-See also
+Generalization to the [[Majorana dimer code]]:
 
 * [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
+reviewed in:
+
+* [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
 
 
 Discussion of [[asymptotic boundaries]] of hyperbolic tensor networks as [[quasicrystals]]:
