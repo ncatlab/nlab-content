@@ -56,6 +56,127 @@ the _chaotic groupoid_ on $X$. The intuition is probably that "everything being 
 
 * The [[nerves]] of codiscrete groupoids are precisely the [[codiscrete objects]] in [[sSet]], regarded as a [[cohesive topos]].
 
+## Examples
+ {Example}
+
+\begin{example}\label{UniversalGPrincipalBundle}
+**(chaotic groupoids as models for [[universal principal bundles]])**
+\linebreak
+  For $G \in Grp(Set)$ a [[group]], the [[pair groupoid]] on $G$ is [[isomorphism|isomorphic]] 
+
+$$
+  \big(
+    G \times G
+    \underoverset
+      {pr_2}
+      {pr_1}
+      {\rightrightarrows}
+  \big)
+  \;\;
+   \simeq
+  \;\;
+  \mathbf{E}G
+$$
+
+to the [[action groupoid]] of the right (say) [[group action]] of $G$ on itself by right group-multiplication:
+
+$$
+  \mathbf{E}G
+  \;\coloneqq\;
+  G \times G
+  \underoverset
+    {(-) \cdot (-)}
+    {pr_1}
+    {\rightrightarrows}
+  G  
+$$
+
+The [[nerve]] of the latter is *equal* to the standard incarnation (since we chose right action) of the [[universal principal simplicial complex]] $W G \, \in \, sSet$:
+
+$$
+  N(\mathbf{E}G)
+  \;\;
+  =
+  \;\;
+  W G
+  \,.
+$$
+
+The residual left multiplication action of $G$ on itself makes $\mathbf{E}G$ a $G$-[[action object]] [[internalization|internal to]] [[Grpd]]
+
+$$
+  \mathbf{E}G
+  \;\;\;
+  \in
+  \;
+  G Act(Grpd)
+  \,.
+$$
+
+Since the nerve operation is a [[right adjoint]] ([this Prop.](nerve+and+realization#NerveAndRealizationAreAdjoint)) it [[preserved limit|preserves]] [[action objects]], and the result
+
+$$
+  W G
+  \;=\;
+  N(\mathbf{E}G)
+  \;\;\;
+  \in
+  \;
+  G Act(sSet)
+$$
+
+is the standard $G$-action on the [[universal principal simplicial complex]] of $G$.
+
+The [[quotient]] of the group action on $\mathbf{E}G$ yields the [[delooping groupoid]] $\mathbf{B}G$ of $G$
+
+\[
+  \label{CoprojectionFromEGToBG}
+  \mathbf{E}G
+  \xrightarrow{\;\;}
+  (\mathbf{E}G)/G
+  \;=\;
+  \mathbf{B}G
+  \,.
+\]
+
+While the [[nerve]] operation does not in general preserve [[colimits]] ([this Exp.](nerve#NervesDoNotPreserveQuotientOfDeloopingByNormalSubgroup)) it does preserve (by [this Exp.](nerve#NerveDoesPreserveQuotientOfPairGroupoidOfGroupByGroupAction)) this particular colimit [[coprojection]] \eqref{CoprojectionFromEGToBG}. The resulting [[Kan fibration]]
+
+$$
+  N(\mathbf{E}G)
+  \;=\;
+  W G
+  \xrightarrow{\;\;}
+  (W G)/G
+  \;=\;
+  \overline{W}G
+  \;=\;
+  N(\mathbf{B}G)
+  \;=\;
+  N\big((\mathbf{E}G)/G\big)
+$$
+
+is the [[universal simplicial principal bundle]] with [[structure group]] $G \,\in\, Grp(Set) \xhookrightarrow{Disc} Grp(sSet)$ regarded as a [[simplicial group]].
+
+Finally, the [[geometric realization]] of this into [[compactly generated topological spaces|compactly generated]] [[topological spaces]] is the standard model for the [[universal principal bundle]] of $G$:
+
+$$
+  E G 
+    \;=\; 
+  \big\vert 
+    N(\mathbf{E}G)  
+  \big\vert
+    \xrightarrow{\;\;} 
+  \big\vert 
+    N(\mathbf{B}G)  
+  \big\vert
+    \;=\;
+  B G
+$$
+
+over its [[classifying space]] $B G \simeq K(G,1)$ (which here is an [[Eilenberg-MacLane space]], since $G$ was assumed to be [[discrete group]] -- but this was just for simplicitiy of exposition, the analogous discussion applies to the chaotic [[topological groupoid]] of a [[topological group]] $G$).
+
+\end{example}
+
 ## Related concepts
 
 * [[delooping groupoid]]
