@@ -167,13 +167,15 @@ Theorem \ref{LimitOverIdentityFunctorIsInitialObjecty} is actually a key of entr
 
 ## Related concepts
 
-* [[terminal object]]
+* [[terminal object]], [[bi-terminal object]]
 
 * [[bottom type]]
 
-* [[bi-terminal object]]
+* [[initial object in a 2-category]]
 
-* [[initial object in an (∞,1)-category]], [[h-initial object]]
+* [[initial object in an (∞,1)-category]]
+
+* [[h-initial object]]
 
 * [[adjoint functor theorem]] 
 
