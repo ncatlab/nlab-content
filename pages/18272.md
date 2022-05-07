@@ -186,19 +186,43 @@ Now the fact that [[left adjoint]] $\exists_f$ preserves [[unions]] is the fact 
 
 Another useful formula for interactions between images and pre-images and intersections is the projection formula: 
 
-+-- {: .num_prop} 
-###### Proposition 
-Let $f: X \to Y$ be a function, and let $S \subseteq X, T \subseteq Y$ be subsets. Then $f(S) \cap T = f(S \cap f^{-1}(T))$. 
-=-- 
+\begin{proposition} 
+\label{ProjectionFormulaForFunctionsAndInverseImages}
+Let $f \,\colon\, X \to Y$ be a [[function]], and let $S \subseteq X,\; T \subseteq Y$ be [[subsets]]. Then 
 
-+-- {: .proof} 
-###### Proof 
-The easy direction is the inclusion $f(S \cap f^{-1}(T)) \subseteq f(S) \cap T$: by the [[universal property|defining property]] of intersections, it suffices to show $f(S \cap f^{-1}(T)) \subseteq f(S)$ and $f(S \cap f^{-1}(T)) \subset T$. The first is clear since $S \cap f^{-1}(T) \subseteq S$, and $A \subseteq B$ implies $f(A) \subseteq f(B)$. Similarly, $f(S \cap f^{-1}(T)) \subseteq f(f^{-1}(T))$, and $f(f^{-1}(T)) \subseteq T$ since this is equivalent to $f^{-1}(T) \subseteq f^{-1}(T)$ by the adjunction between direct and inverse image. 
+$$
+  f\big(
+    S \cap f^{-1}(T)
+  \big) 
+  \;=\; 
+  f(S) \cap T 
+  \,.
+$$
 
-To be continued. 
+\end{proposition}
+(e.g. [Lee 2000, Ex. A.4(k)](#Lee00))
+\begin{proof}
+First observe that we have an inclusion$f(S \cap f^{-1}(T)) \subseteq f(S) \cap T$:
 
-=--
+By the [[universal property|defining property]] of [[intersections]], it suffices to show (i) $f\big(S \cap f^{-1}(T)\big) \subseteq f(S)$ and (ii) $f\big(S \cap f^{-1}(T)\big) \subset T$. Here (i) follows since $S \cap f^{-1}(T) \subseteq S$, and $A \subseteq B$ implies $f(A) \subseteq f(B)$. and (ii) is seen as 
 
+$$
+  f\big(
+    S \cap f^{-1}(T)
+  \big) 
+  \;\subseteq\; 
+  f\big(
+    f^{-1}(T)
+  \big) 
+  \;\subseteq\; 
+  T
+  \,,
+$$ 
+
+where the first step is the functoriality of images with respect to subset inclusions, and the second step is the [[adjunct]] of $f^{-1}(T) \subseteq f^{-1}(T)$ with respect to the [[adjunction]] between direct and inverse image. 
+
+Now to see that this inclusion is actually an equality...
+\end{proof}
 
 
 
@@ -209,6 +233,14 @@ To be continued.
 * [[limits and colimits by example]] 
 
 ## References 
+
+Textbook accounts include:
+
+* [[Tom Apostol]], [p. 44](http://www.ru.ac.bd/wp-content/uploads/sites/25/2019/03/205_04_Apostol-Mathematical-Analysis-1973.pdf#page=57) in: *Mathematical Analysis* 1973 ([pdf](http://www.ru.ac.bd/wp-content/uploads/sites/25/2019/03/205_04_Apostol-Mathematical-Analysis-1973.pdf))
+
+* {#Lee00} [[John M. Lee]], Exercise A.4 in: _Introduction to topological manifolds_. Graduate Texts in Mathematics 202 (2000), Springer.  ISBN: 0-387-98759-2, 0-387-95026-5.
+Second edition: Springer, 2011.  ISBN: 978-1-4419-7939-1 ([doi:10.1007/978-1-4419-7940-7](https://doi.org/10.1007/978-1-4419-7940-7), errata [pdf](https://sites.math.washington.edu/~lee/Books/ITM/errata.pdf))
+
 
 The slogan of Lawvere on logic and adjoint functors appears in 
 
