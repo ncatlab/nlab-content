@@ -75,7 +75,7 @@ The morphism $f$ is called (with respect to the given bifibration $\mathcal{C}_{
 
 * an _effective descent morphism_ if the comparison map is an [[equivalence of categories]].
 
-Now the [[Benabou–Roubaud theorem]] states that if $\mathcal{C}_{(-)}$ satisfies the [[Beck-Chevalley condition]], then descent data is equivalent to the structure of an [[algebra over a monad]] for $T_f$  (equivalently a coalgebra for $J_f$), hence is the [[Eilenberg-Moore category]] for these (co-)monads
+Now the [[Bénabou–Roubaud theorem]] states that if $\mathcal{C}_{(-)}$ satisfies the [[Beck–Chevalley condition]], then descent data is equivalent to the structure of an [[algebra over a monad]] for $T_f$  (equivalently a coalgebra for $J_f$), hence is the [[Eilenberg–Moore category]] for these (co-)monads
 
 $$
   Desc_{\mathcal{C}}(f)
@@ -88,7 +88,7 @@ Therefore when $\mathcal{C}_{(-)}$ satisfies the BC condition, then a morphism $
 
 This is the monadic formulation of descent theory, "monadic descent".
 
-(e.g. [Janelidze-Tholen 94, pp. 247-248 (3-4 of 37)](#JanelidzeTholen94)).
+(e.g. [Janelidze–Tholen 94, pp. 247-248 (3-4 of 37)](#JanelidzeTholen94)).
 
 
 
@@ -97,9 +97,9 @@ This is the monadic formulation of descent theory, "monadic descent".
 
 The main theorem is Beck's [[monadicity theorem]].
 
-Given a Grothendieck [[bifibration]] $p:E\to B$ and a morphism $f:b\to b'$ in the base category $B$, one can choose a [[direct image]] $f_!:E_b\to E_{b'}$ and an [[inverse image]] functor $f^*:E_{b'}\to E_b$, which form an [[adjunction]] $f_!\dashv f^*$. Under some conditions (see the [[Bénabou?Roubaud theorem]]), the morphism $f$ is an [[effective descent morphism]] (with respect to $p$ as a [[fibered category]]) iff the comparison functor for the [[monad]] induced by the adjunction $f_!\dashv f^*$ is monadic. 
+Given a Grothendieck [[bifibration]] $p:E\to B$ and a morphism $f:b\to b'$ in the base category $B$, one can choose a [[direct image]] $f_!:E_b\to E_{b'}$ and an [[inverse image]] functor $f^*:E_{b'}\to E_b$, which form an [[adjunction]] $f_!\dashv f^*$. Under some conditions (see the [[Bénabou–Roubaud theorem]]), the morphism $f$ is an [[effective descent morphism]] (with respect to $p$ as a [[fibered category]]) iff the comparison functor for the [[monad]] induced by the adjunction $f_!\dashv f^*$ is monadic. 
 
-We should now see that some instances of categories of [[descent]] data are canonically equivalent to and can be reexpressed via [[Eilenberg-Moore category|Eilenberg?Moore categories]] of monads, or dually comonads. 
+We should now see that some instances of categories of [[descent]] data are canonically equivalent to and can be reexpressed via [[Eilenberg–Moore category|Eilenberg–Moore categories]] of monads, or dually comonads. 
 
 
 ## Examples
@@ -107,7 +107,7 @@ We should now see that some instances of categories of [[descent]] data are cano
 ### Descent for the codomain fibration
  {#DescentForTheCodomainFibration}
 
-Let $\mathcal{C}$ be a [[locally Cartesian closed category]] with [[coequalizers]] (e.g. a [[topos]]). Then effective descent morphisms for the [[codomain fibration]] are precisely the [[regular epimorphisms]]. ([Janelidze-Tholen 94, 2.4](#JanelidzeTholen94)).
+Let $\mathcal{C}$ be a [[locally Cartesian closed category]] with [[coequalizers]] (e.g. a [[topos]]). Then effective descent morphisms for the [[codomain fibration]] are precisely the [[regular epimorphisms]]. ([Janelidze–Tholen 94, 2.4](#JanelidzeTholen94)).
 
 Hence for $f \colon X \longrightarrow Y$ any morphism in $\mathcal{C}$ and 
 
@@ -115,7 +115,7 @@ $$
   (f_! \dashv f^\ast \dashv f_\ast) \colon \mathcal{C}_{/X} \longrightarrow \mathcal{C}_{/Y}
 $$
 
-the induced [[base change]] [[adjoint triple]], then $\mathcal{C}_{/Y}$ is equivalent to the [[Eilenberg-Moore category]] of algebras over $f^\ast f_!$ (equivalently: of coalgebras of $f^\ast f_\ast$) precisely if $f$ is an [[effective epimorphism]].
+the induced [[base change]] [[adjoint triple]], then $\mathcal{C}_{/Y}$ is equivalent to the [[Eilenberg–Moore category]] of algebras over $f^\ast f_!$ (equivalently: of coalgebras of $f^\ast f_\ast$) precisely if $f$ is an [[effective epimorphism]].
 
 (Use [conservative pullback along epimorphisms](conservative+functor#PullbackAlongEpimorphisms) in the [[monadicity theorem]].)
 
@@ -154,7 +154,7 @@ On the other hand, as we will see in detail below, if we take a principal bundle
 
 * first push it forward in this generalized sense to an object $P \to Z$ in the [[overcategory]] $Top/Z$
 
-* and **then** pull back the result of that again along $X \to Z$ the result, while still not a principal bundle, is the total space $P$ of the bundle pulled back to the first term in the [[?ech nerve]] of $f : X \to Z$. This pullback is of central interest in the description of the geometric [[descent]] property of the bundle. 
+* and **then** pull back the result of that again along $X \to Z$ the result, while still not a principal bundle, is the total space $P$ of the bundle pulled back to the first term in the [[Čech nerve]] of $f : X \to Z$. This pullback is of central interest in the description of the geometric [[descent]] property of the bundle. 
 
 But the composite operation of pushforward of overcategories
 
@@ -262,7 +262,7 @@ The object $T P \in [I,C]_Y$ is given by
     }
   $$
 
-  which is the first term in the [[?ech nerve]] of $\pi$. So the total pullback is the pullback $P$ to $Y\times_X Y$:
+  which is the first term in the [[Čech nerve]] of $\pi$. So the total pullback is the pullback $P$ to $Y\times_X Y$:
 
   $$
     \array{
@@ -395,7 +395,7 @@ $$
   \,.
 $$
 
-As a corollary, the [[Eilenberg-Moore category|Eilenberg-Moore categories]] of the two monads are [[equivalence of categories|equivalent]]. Notice that the actions over the monad $p_! \nu^* $ are certain maps $p_!\nu^*h\to h$, hence $\nu^* h\to p^* h$ by adjointness. This matches one of the definitions for an [[equivariant sheaf]].
+As a corollary, the [[Eilenberg–Moore category|Eilenberg–Moore categories]] of the two monads are [[equivalence of categories|equivalent]]. Notice that the actions over the monad $p_! \nu^* $ are certain maps $p_!\nu^*h\to h$, hence $\nu^* h\to p^* h$ by adjointness. This matches one of the definitions for an [[equivariant sheaf]].
 
 The map $ \pi : P\to X$ of the principal bundle is an **[[effective descent morphism]]** with respect to the [[codomain fibration]] if the comparison functor for any of the two above isomorphic monads above is an equivalence of categories.  
 
@@ -442,7 +442,7 @@ All the ingredients of monadic descent generalize from [[category theory]] to [[
 ## References
 
 
-The [[Bénabou-Roubaud theorem]] on monadic descent is due to
+The [[Bénabou–Roubaud theorem]] on monadic descent is due to
 
 * [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98, ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), Biblioth&#232;que nationale de France)
 
@@ -456,7 +456,7 @@ Review and further developments include
 
 * [[Francis Borceux]], [[Stefan Caenepeel]], [[George Janelidze]], _Monadic approach to Galois descent and cohomology_, [arXiv:0812.1674](http://arxiv.org/abs/0812.1674)
 * S. Caenepeel, _Galois corings from the descent theory point of view,_ in: Fields Inst. Commun. __43__ (2004) 163–186
-* [[Tomasz Brzeziński]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, J. Appl Categor Struct (2011) 19: 821 [doi](https://doi.org/10.1007/s10485-009-9217-0)
+* [[Tomasz Brzeziński]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg–Moore category and a Beck-type theorem for a Morita context_, J. Appl Categor Struct (2011) 19: 821 [doi](https://doi.org/10.1007/s10485-009-9217-0)
 
 In triangulated setup there are several results including
 
