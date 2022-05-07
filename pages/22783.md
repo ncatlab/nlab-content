@@ -20,7 +20,6 @@
 For $G$ a [[simplicial group]], there is a [[reduced simplicial set|reduced]] [[simplicial set]], traditionally denoted $\overline W G$ and called the *[[classifying space]]* or *classifying complex* of $G$, which is a model for the [[delooping]] of $G$ and such that the [[functor]] $\overline{W}(-)$ is [[right adjoint]] to the standard [[simplicial loop space]]-construction $L$. 
 
 This pair of [[adjoint functors]] 
-
 $$
   SimplicialGroups
     \underoverset
@@ -29,7 +28,6 @@ $$
       {\bot}
   SimplicialSets_{red}
 $$
-
 is a [[Quillen equivalence]] between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]], modelling [[looping and delooping]] of [[homotopy types]] in [[simplicial homotopy theory]].
 
 ## Related concepts
@@ -41,7 +39,11 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
 
 ## References
 
-Originally due to:
+The functor $L$ (denoted there by $G$) was introduced by [[Kan]] in §7 of
+
+* [[Daniel M. Kan]], _A combinatorial definition of homotopy groups_, Annals of Mathematics 67:2 (1958), 282–312.  [doi](https://doi.org/10.2307/1970006).
+
+The functor $\bar W$ is essentially due to:
 
 * {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])
 
