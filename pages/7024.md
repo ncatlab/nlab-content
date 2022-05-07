@@ -5,7 +5,7 @@
 
 ## Selected writings
 
-On [[rational homotopy theory]] via a [[model structure on dg-algebras]]:
+On [[rational homotopy theory]] and the [[fundamental theorem of dg-algebraic rational homotopy theory]]:
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
