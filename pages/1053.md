@@ -489,11 +489,12 @@ Discussion of application of linear logic to [[quantum logic]], [[quantum comput
 
 * [[Ross Duncan]], _Types for quantum computation_, 2006 ([pdf](http://www.cs.ox.ac.uk/files/2425/Types%20for%20Quantum%20Computation.pdf))
 
-* Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
+* {#CCGP09} Gianpiero Cattaneo, Maria Luisa Dalla Chiara, Roberto
 Giuntini and Francesco Paoli, section 9 of _Quantum Logic and Nonclassical Logics_, p. 127 in  Kurt Engesser, Dov M. Gabbay, Daniel Lehmann (eds.) _Handbook of Quantum Logic and Quantum Structures: Quantum Logic_, 2009 North Holland
-  {#CCGP09}
+  
+* [[Ugo Dal Lago]], [[Claudia Faggian]], _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
 
-* Ugo Dal Lago, Claudia Faggian, _On Multiplicative Linear Logic, Modality and Quantum Circuits_ ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
+See also at *[[quantum programming languages]]*
 
 Discussion for [[matrix factorization]] in [[Landau–Ginzburg models]] is in
 
