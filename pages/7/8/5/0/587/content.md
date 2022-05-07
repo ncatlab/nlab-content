@@ -61,6 +61,8 @@ is as the [[slice category]] $\mathcal{C}_{/[\Gamma]}$ over the object that inte
 
 * [[context extension]]
 
+* [[telescope]]
+
 ## References
 
 A comprehensive definition of [[categorical semantics]] of contexts in [[homotopy type theory]] in [[type-theoretic model categories]] is in section 2 of 
