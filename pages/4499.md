@@ -57,7 +57,7 @@ Reviews and surveys include
 
 Discussion for [[real analytic spaces]] includes
 
-* {#Huisman02} [[Johannes Huisman]], section 2 of _The exponential sequence in real algebraic geometry and Harnack's Inequality for proper reduced real schemes_, Communications in Algebra, Volume 30, Issue 10, 2002 ([pdf](http://pageperso.univ-brest.fr/~huisman/rech/publications/exphi.pdf))
+* {#Huisman02} [[Johannes Huisman]], section 2 of _The exponential sequence in real algebraic geometry and Harnack's Inequality for proper reduced real schemes_, Communications in Algebra, Volume 30, Issue 10, 2002 ([journal](https://doi.org/10.1081/AGB-120014664))
 
 
 Generalization to more general [[analytic geometry]] includes
