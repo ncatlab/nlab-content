@@ -35,7 +35,7 @@ Equivalently, the Pontrjagin character is the [[Chern-Dold character]] on [[KO]]
 
 * Manuel Krannich, Jens Reinhold, Section 2.4 of: _Characteristic numbers of manifold bundles over surfaces with highly connected fibers_,  Journal of the London Mathematical Society, June 2020.  ([arXiv:1807.11539](https://arxiv.org/abs/1807.11539), [doi:10.1112/jlms.12344](https://doi.org/https://doi.org/10.1112/jlms.12344))
 
-* Daniel Grady, [[Hisham Sati]], Section 2.1 of: _Differential KO-theory: constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
+* [[Daniel Grady]], [[Hisham Sati]], Section 2.1 of: _Differential KO-theory: constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
 
 See also:
 
