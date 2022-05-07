@@ -251,6 +251,8 @@ The statement of Schur's lemma applies also to objects which are stable with res
 
 ## References
 
+Named after *[[Issai Schur]]*.
+
 Lecture notes include
 
 * {#tomDieck09} [[Tammo tom Dieck]], (1.1.2) in _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
