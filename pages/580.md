@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Extremal morphisms
 * table of contents
 {: toc}
@@ -35,6 +46,11 @@ Of course, the dual properties are all true of extremal monomorphisms.  (See [[c
 * [[normal monomorphism]], [[normal epimorphism]]
 * [[effective monomorphism]], [[effective epimorphism]]
 * [[split monomorphism]], [[split epimorphism]]
+
+## References
+
+* [[Francis Borceux]], Def. 4.3.2 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
 
 
 [[!redirects extremal morphism]]
