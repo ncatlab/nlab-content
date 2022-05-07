@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -26,9 +30,7 @@ A __possibly empty group__ is a [[possibly empty loop]] $(G,\backslash,/)$ that 
 
 * The empty possibly empty group is an possibly empty group that is not a group. 
 
-* And that is about it.
-
-* An possibly empty group object in the category of [[pointed sets]] can be made into a [[heap]]. 
+* Any possibly empty group can be made into a [[pseudo-torsor]], and every pseudo-torsor could be made into a possibly empty group. 
 
 ## Related concepts
 
@@ -36,4 +38,4 @@ A __possibly empty group__ is a [[possibly empty loop]] $(G,\backslash,/)$ that 
 
 * [[possibly empty abelian group]] (commutative version)
 
-* [[heap]], [[group]]. 
+* [[pseudo-torsor]], [[heap]], [[group]], [[torsor]]
