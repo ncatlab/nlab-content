@@ -135,9 +135,15 @@ Further discussion of the [[D-topology]] is in [CSW 13](#CSW13).
  [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary [[singular simplicial set]] $Sing(-)$ of the ordinary [[mapping space]] $Maps_{Top}$ with its [[compact-open topology]]:
 
 $$  
+  X,\, A 
+  \;\in\;
+  k TopSp
+  \;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;
   Sing_{diff}
   \left(
-  Maps_{Dfflg}
+  Maps_{dfflg}
   \big(
      X
      ,\,
@@ -161,7 +167,8 @@ $$
 \end{proposition}
 \begin{proof}
 By [SYH 10](#SYH10) we have the following morphism:
-$$
+\[
+  \label{AComparisonMoprphismForShapeOfDiffeologicalMappingSpace}
   Cdfflg
   \big(
     Maps_{Top}(X,\,A)
@@ -180,14 +187,14 @@ $$
   Maps_{dfflg}
   (X,\, A)
   \,,
-$$
+\]
 where $\mathbf{smap}$ is some topologization of the set of maps (defined on their [p. 6](https://arxiv.org/pdf/1010.3336.pdf#page=6) ) of which all we need to know is that:
 
-1. its image under $Cdfflg$ is [[isomorphism|isomorphic]] to the internal hom in diffeological spaces, according to their Prop. 4.7 ([p. 7](https://arxiv.org/pdf/1010.3336.pdf#page=7)),
+1. (shown on the right of (eq:AComparisonMoprphismForShapeOfDiffeologicalMappingSpace)) its image under $Cdfflg$ is [[isomorphism|isomorphic]] to the internal hom $Maps_{dfflg}$ in diffeological spaces, according to their Prop. 4.7 ([p. 7](https://arxiv.org/pdf/1010.3336.pdf#page=7)),
 
-1. it is [[weak homotopy equivalence|weak homotopy equivalent]], via some map $\phi$ according to their Prop. 5.4 ([p. 9](https://arxiv.org/pdf/1010.3336.pdf#page=9)) to the compact-open topology.
+1. (show on the left of (eq:AComparisonMoprphismForShapeOfDiffeologicalMappingSpace)) it is [[weak homotopy equivalence|weak homotopy equivalent]], via some map $\phi$ according to their Prop. 5.4 ([p. 9](https://arxiv.org/pdf/1010.3336.pdf#page=9)) to the compact-open topology.
 
-Hence the claim follows by the naturality of the weak homotopy equivalence from Prop. \ref{TopologicalHomotopyTypeIsCohesiveShapeOfCdfflg}
+Hence the claim follows by using [[2-out-of-3]] in the [[naturality square]] of the natural weak homotopy equivalence from Prop. \ref{TopologicalHomotopyTypeIsCohesiveShapeOfCdfflg}
 $$
   Sing_{diff} \circ Cdfflg 
   \;
@@ -198,7 +205,7 @@ $$
   \;
   Sing
 $$
-and using [[2-out-of-3]].
+applied to (eq:AComparisonMoprphismForShapeOfDiffeologicalMappingSpace).
 \end{proof}
 
 
