@@ -210,3 +210,6 @@ According to [Troelstra and van Dalen](#TvD):
 [[!redirects tight apartness structures]]
 [[!redirects tight apartness relation]]
 [[!redirects tight apartness relations]]
+
+[[!redirects inequality space]]
+[[!redirects inequality spaces]]
