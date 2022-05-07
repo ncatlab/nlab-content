@@ -469,6 +469,8 @@ A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says
 
 * [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
 
+* [[internalization]]
+
 * [[enriched Lawvere theory]]
 
 * [[globular theory]]
@@ -493,7 +495,7 @@ A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says
 
 The origin of the categorical formulation of [[algebraic theories]] as Lawvere theories is in
 
-* [[William Lawvere]], [[Functorial Semantics of Algebraic Theories]] , Ph.D. thesis Columbia University (1963).  Published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
+* [[William Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis Columbia University (1963).  Published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([tac:tr5](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
 The concept was then streamlined in
 
@@ -539,7 +541,7 @@ An elementary proof of the equivalence between infinitary [[Lawvere theories]] a
 
 Voevodsky proves an equivalence between Lawvere theories and l-bijective [[C-systems]] here:
 
-* [[Vladimir Voevodsky]] {#Voevodsky},  Lawvere theories and C-systems, arXiv:1512.08104 (2015). ([abstract](http://arxiv.org/abs/1512.08104))
+* {#Voevodsky} [[Vladimir Voevodsky]],  *Lawvere theories and C-systems*, arXiv:1512.08104 (2015). ([abstract](http://arxiv.org/abs/1512.08104))
 
 Other references are
 
