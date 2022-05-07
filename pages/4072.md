@@ -45,6 +45,7 @@ In particular, [[binary products]] are finite limits and the [[terminal object]]
 
 \begin{example}
   The [[functor]] of [[geometric realization]] of [[simplicial sets]]
+  into [[compactly generated topological spaces]]
   [[preserved limit|preserves]] finite limits (is a [[left exact functor]]), see [there](geometric+realization#GeometricRealizationIsLeftExact).
 
 More generally, the [[functor]] of  [[geometric realization of simplicial topological spaces]] (with respect to [[compactly generated topological spaces]]) preserves finite limits (by [this Prop.](geometric+realization+of+simplicial+topological+spaces#GeometricRealizationPreservesFiniteLimits)).
