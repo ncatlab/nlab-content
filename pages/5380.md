@@ -25,7 +25,7 @@ $$
   (\mathbb{A}^{n+1} \setminus \{0\})/\mathbb{G}_m
 $$
 
-of the [[complement]] of yhe origin inside the $(n+1)$-fold [[Cartesian product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$.
+of the [[complement]] of the origin inside the $(n+1)$-fold [[Cartesian product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$.
 
 Any point $(x_0,x_1,\ldots,x_n)\in \mathbb{A}^{n+1} - \{0\}$ gives _homogeneous coordinates_ for its image under the quotient map. When considered in this fashion, one often writes $[x_0:x_1:\ldots:x_n]$. Homogeneous  coordinates were introduced in [M&#246;bius 27](#Mobius27)
 
