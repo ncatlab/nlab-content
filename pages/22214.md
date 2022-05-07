@@ -47,6 +47,8 @@ In view of [[quantum computation]] (ie. quantum machine learning):
 
   > (on [[quantum neural networks]])
 
+* Yunchao Liu, Srinivasan Arunachalam, Kristan Temme, *A rigorous and robust quantum speed-up in supervised machine learning* ([arXiv:2010.02174](https://arxiv.org/abs/2010.02174))
+
 * [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
 * Stefano Mangini, Francesco Tacchino, Dario Gerace, Daniele Bajoni, Chiara Macchiavello, *Quantum computing models for artificial neural networks*, EPL (Europhysics Letters) 134(1), 10002 (2021) ([arXiv:2102.03879](https://arxiv.org/abs/2102.03879))
@@ -56,6 +58,9 @@ In view of [[quantum computation]] (ie. quantum machine learning):
 and with emphasis on [classically controlled](quantum+computation#ClassicalControlQuantumData) [[NISQ]]-computes:
 
 * [[John Preskill]], Section 6.5 of: *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
+
+* Kosuke Mitarai, Makoto Negoro, Masahiro Kitagawa, Keisuke Fujii, *Quantum Circuit Learning*, Phys. Rev. A 98, 032309 (2018) ([arXiv:1803.00745](https://arxiv.org/abs/1803.00745))
+
 
 * {#BenedettiLloydSackFiorentini19} Marcello Benedetti, Erika Lloyd, Stefan Sack, Mattia Fiorentini, *Parameterized quantum circuits as machine learning models*, Quantum Science and Technology 4, 043001 (2019) ([arXiv:1906.07682](https://arxiv.org/abs/1906.07682))
 
