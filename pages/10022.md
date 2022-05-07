@@ -331,6 +331,8 @@ and further in terms of [[quantum error correcting codes]] due to
 
 reviewed in
 
+* [[John Preskill]], *Is spacetime a quantum error-correcting code?*, talk at KITP 2015 ([pdf](http://theory.caltech.edu/~preskill/talks/Preskill-KITP-holographic-2015.pdf), [[Preskill_SpacetimeQEC.pdf:file]])
+
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
 * [[Pratik Rath]], *Aspects of Holography And Quantum Error Correction*, 2020 ([pdf](https://digitalassets.lib.berkeley.edu/etd/ucb/text/Rath_berkeley_0028E_19810.pdf), [[RathHolographyAndQEC.pdf:file]]) 
