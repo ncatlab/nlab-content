@@ -400,19 +400,21 @@ $$
 
 is an [[isomorphism]], of $\Gamma$-[[principal bundles]] over $U \subset G/H$.
 
-* It is clear by construction that that the map is 
+* It is clear by construction that the map is 
 
   1. [[continuous function|continuous]].
 
   1. $\Gamma$-equivariant.
 
-* To see that that map is an isomorphism it is sufficient to see that it is so over each $u \in U$:
+* To see that map is an isomorphism it is sufficient to see that it is so over each $u \in U$:
 
-* Injectivity here follows from the fact that $Q$ is a lift of $H$, so that the unique element lifting the [[neutral element]] is the neutral element.
+  * Injectivity here follows from the fact that $Q$ is a lift of $H$, so that the unique element lifting the [[neutral element]] is the neutral element.
 
-* To see that the map is surjective over each $u \in U$: 
+  * To see that the map is surjective over each $u \in U$: 
 
-  That $[\gamma, g] \in \big( \Gamma \rtimes_\alpha G \big)/Q$ is in the fiber over $u$ means that $ g^{-1} \sigma(u) \in H \subset G$. Then for $q \in Q$ the unique element with $pr_2(q) = g^{-1} \sigma(u)$ we see that $[\gamma, g] = \big[ (\gamma,g) \cdot q \big] = [\cdots, \sigma(u)]$, which is manifesty in the image of our map.
+    That $[\gamma, g] \in \big( \Gamma \rtimes_\alpha G \big)/Q$ is in the fiber over $u$ means that $ g^{-1} \sigma(u) \in H \subset G$. Then for $q \in Q$ the unique element with $pr_2(q) = g^{-1} \sigma(u)$ we see that $[\gamma, g] = \big[ (\gamma,g) \cdot q \big] = [\cdots, \sigma(u)]$, which is manifestly in the image of our map.
+
+    (Filling in the ellipses here, which is straightforward but unenlightning, actually gives the continuous inverse map.)
 
 \end{proof}
 
@@ -421,7 +423,7 @@ In fact every equivariant principal bundle over a coset space is of this form:
 
 
 \begin{prop}
-  Let $H \subset G$ be a [[closed subgroup]]. Then every $(\Gamma,\alpha)$-principal bundle (Def. \ref{EquivariantPrincipalBundles}) over the [[coset space]]
+  Let $H \subset G$ be a [[closed subgroup]]. Then every [[Hausdorff space]] $(\Gamma,\alpha)$-principal bundle (Def. \ref{EquivariantPrincipalBundles}) over the [[coset space]]
 
 $$
   P \overset{p}{\longrightarrow} G/H
@@ -487,7 +489,7 @@ $$
 
 to be its [[stabilizer subgroup]] under the [[semidirect product group]]-action. We observe that this has the stated properties:
 
-* $Q$ is a [[closed subgroup]] because [stabilizer subgroups are closed subgroup](closed+subgroup#StabilizerSubgroupsOfContinuousActionsOnT1SpacesAreClosed);
+* $Q$ is a [[closed subgroup]] because [stabilizer subgroups are closed subgroups](closed+subgroup#StabilizerSubgroupsOfContinuousActionsOnT1SpacesAreClosed) under the Hausdorff-ness assumption;
 
 * under $\Gamma \rtimes_\alpha G \overset{pr_2}{\longrightarrow} G$ we have $Q \to H$, since  for all $q \in Q$:
 
@@ -568,13 +570,13 @@ such that
      \array{
        E_{\vert U_i}
        &
-         \overset{\simeq}{\longrightarrow}
+         \overset{}{\longrightarrow}
        &
        E_i
        \\
        \big\downarrow
        &
-         {}^{{}_{(pb)}}
+         {}^{{}_{}}
        &
        \big\downarrow {}^{\mathrlap{p}}
        \\
@@ -584,7 +586,7 @@ such that
      }
    $$
 
-   from the restriction of $E$ to $U_i$ and the given  equivariant bundle over the coset space.
+   from the restriction of $E$ to $U_i$ and the given  equivariant bundle over the coset space (as [above](#OverCosetSpaces)).
 
 \end{definition}
 
