@@ -162,6 +162,7 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 * [[monoid]]
 * [[commutative monoid in a symmetric monoidal category]]
+* [[idempotent monoid in a monoidal category]]
 * [[module over a monoid]]
 * [[category of monoids]]
 * [[monoid in a monoidal (infinity,1)-category]]
