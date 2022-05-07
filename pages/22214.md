@@ -41,7 +41,7 @@ In view of [[quantum computation]] (ie. quantum machine learning):
 
 * Iris Cong, Soonwon Choi & Mikhail D. Lukin, *Quantum convolutional neural networks*, Nature Physics volume 15, pages 1273–1278 (2019)  ([doi:10.1038/s41567-019-0648-8](https://doi.org/10.1038/s41567-019-0648-8))
 
-  > (on [[quantm neural networks]])
+  > (on [[quantum neural networks]])
 
 * [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
