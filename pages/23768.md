@@ -1,4 +1,8 @@
 
+> This entry is about a notion in [[formal logic]] ([[type theory]]). For the notion in [[homotopy theory]] see at *[[mapping telescope]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
