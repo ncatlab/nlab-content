@@ -12,7 +12,6 @@ Conversely, $S \subset \mathcal{P}_n$ is then the [[stabilizer subgroup]] of the
 
 Most [[quantum error correcting codes]] known are in fact stabilizer codes.
 
-The condition $\{-1\} \notin S$ is necessary for the code subspace not to be trivial (the zero space). Notice that this implies that the elements with phases $\pm i$ in the definition ([here](Pauli+group#eq:PauliGroupAsMatrixSubgroup)) of the [[Pauli group]] do not appear in the stabilizer group $S$ (for their square would be $-1$), whence the stabilizer group is actually a subgroup of a tensor power $Q_n \subset \mathcal{P}_n$ of the [[quaternion group]] inside the [[Pauli group]] (see [there](Pauli+group#RelationToQuaternionGroup)).
 
 ## Properties
 
