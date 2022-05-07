@@ -59,6 +59,11 @@ The functor from the inserter to $A$ discards the data of $b$.
 
 * Let $C$ denote a category and $F : C \rightarrow C$ denote a functor. Then the notion of an [[algebra for an endofunctor]] of $F$ corresponds to the inserter of $F$ and $\mathrm{id}_C$, and the notion of a [[coalgebra for an endofunctor]] of $F$ corresponds to the inserter of $\mathrm{id}_C$ and $F$.
 
+## References
+
+* G.J. Bird, G.M. Kelly, A.J. Power, R.H. Street, _Flexible limits for 2-categories_, J. Pure and Applied Algebra __61__:1, 1-27, 1989, <a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>
+* Fernando Lucatelli Nunes, _Freely generated $n$-categories, coinserters and presentations of low dimensional categories_, [arxiv/1704.04474](https://arxiv.org/abs/1704.04474)
+
 [[!redirects inserters]]
 [[!redirects strict inserter]]
 [[!redirects strict inserters]]
