@@ -9,9 +9,11 @@ $$
   \big)
   \xrightarrow{ (pr_1, p^\ast(f)) }
   H_\bullet
-  \big(
-    A \oplus C
-  \big)
+  (
+    A
+  )
+  \oplus
+  H_\bullet(C)
   \xrightarrow{ f - p }
   H_\bullet(B) 
   \longrightarrow
@@ -132,6 +134,12 @@ is an [[injection]]: Consider a [[cycle]] $(a_n, c_n) \in A_n \times_{B_n} C_n$ 
 * $c_n = \partial c_{n+1}$.
 
 We need to show that then also $(a_n, c_n)$ is exact.
+
+By surjectivity if follows that there exists $(a_{n+1}, c_{n+1})$.
+By commutativity we have
+
+$f(\partial a_{n+1}) = p(c_n) = f(a_n)$
+
 
 First, it follows that also $f(a_n)$ is exact, because:
 
