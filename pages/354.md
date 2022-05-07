@@ -864,13 +864,19 @@ Textbook accounts include
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter IV.3 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
 
-* [[Paul Goerss]], [[Rick Jardine]], section I.3 of _[[Simplicial homotopy theory]]_, number 174 in Progress in Mathematics, Birkh&#228;user. 1999
+* [[Paul Goerss]], [[J. F. Jardine]], section I.3 of _[[Simplicial homotopy theory]]_, number 174 in Progress in Mathematics, Birkh&#228;user. 1999
 
-For Kan complexes as such see also the references at _[[simplicial set]]_ and at [[model structure on simplicial sets]].
+See also:
+
+* Wikipedia, *[Kan fibration](https://en.wikipedia.org/wiki/Kan_fibration)*
+
+For Kan complexes as such see also the references at _[[simplicial set]]_ and at *[[classical model structure on simplicial sets]]*.
 
 For Kan complexes as $\infty$-groupoids, see for instance  section 1.2.5 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+* [[Kerodon]], *Kan complexes* ([00SY](https://kerodon.net/tag/00SY))
 
 An early mention of this idea was in 
 
