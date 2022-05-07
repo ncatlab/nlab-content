@@ -25,6 +25,8 @@ As a higher inductive type, the cone is given by
       | base :  A -> Cone A
       | edge : A -> Id Cone A vertex base(a)
 
+It can equivalently be defined as the (homotopy) [[pushout]] of $A$ and the unit type $1$ under $A$.  This definition makes it clear that the cone type is always contractible.
+
 ## Examples
 
 * The [[unit type]] $1$ is the cone type of an empty type $0$. 
