@@ -239,5 +239,6 @@ See also
 [[!redirects cyclic category]]
 [[!redirects Connes' cyclic category]]
 [[!redirects category of cycles]]
+[[!redirects cycle category]]
 
 category: category
