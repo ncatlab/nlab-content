@@ -22,12 +22,11 @@ On [[Yang-Mills monopoles]]:
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
-On [[Skyrmions]] via "[[rational maps]]" of the [[Riemann sphere]] as for [[Yang-Mills monopoles]]:
+On [[Skyrmions]] via [[rational maps]] from the [[complex plane]], hence [[holomorphic functions]] from the [[Riemann sphere]], to itself, as for [[Yang-Mills monopoles]]:
 
 * [[Conor J. Houghton]], [[Nicholas Manton]], [[Paul Sutcliffe]], *Rational Maps, Monopoles and Skyrmions*, Nucl. Phys. B510 (1998) 507-537 ([arXiv:hep-th/9705151](https://arxiv.org/abs/hep-th/9705151), <a href="https://doi.org/10.1016/S0550-3213(97)00619-6">doi:10.1016/S0550-3213(97)00619-6</a>)
 
-
-* [[Nicholas S. Manton]], B.M.A.G. Piette, *Understanding Skyrmions using Rational Maps*, in: Casacuberta C., Miró-Roig R.M., Verdera J., Xambó-Descamps S. (eds.) European Congress of Mathematics. Progress in Mathematics, vol 201. Birkhäuser, Basel. 2001 ([doi:10.1007/978-3-0348-8268-2_27](https://doi.org/10.1007/978-3-0348-8268-2_27), [arXiv:hep-th/0008110](https://arxiv.org/abs/hep-th/0008110))
+* [[Nicholas S. Manton]], [[Bernard M.A.G. Piette]], *Understanding Skyrmions using Rational Maps*, in: Casacuberta C., Miró-Roig R.M., Verdera J., Xambó-Descamps S. (eds.) European Congress of Mathematics. Progress in Mathematics, vol 201. Birkhäuser, Basel. 2001 ([doi:10.1007/978-3-0348-8268-2_27](https://doi.org/10.1007/978-3-0348-8268-2_27), [arXiv:hep-th/0008110](https://arxiv.org/abs/hep-th/0008110))
 
 On constructing [[Skyrmions]] from [[instantons]] in [[D=5 Yang-Mills theory]] ([[hadron Kaluza-Klein theory]]):
 
