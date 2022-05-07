@@ -24,13 +24,21 @@ A _numerable open cover_ (alias _normal cover_) is an [[open cover]] of a [[topo
 
 ## Definition
 
-Let $\{U_i\}$ be an open [[cover]] of the [[topological space]] $X$ (actually Dold doesn't always require open, see discussion below). It is said to be **numerable** if there is a collection of functions $\phi_i:X \to [0,1]$ such that 
+Let $\{U_i\}$ be an open [[cover]] of the [[topological space]] $X$ (actually Dold doesn't always require open, see discussion below). It is said to be **numerable** if there is a collection of [[continuous functions]] $\phi_i \colon X \to [0,1]$ (to the [[closed interval]]) such that:
 
-* $\overline{supp(\phi_i)} \subset U_i$,
-* at each point $x\in X$, only finitely many of the $\phi_i$ are non-zero,
-* $\sum_i \phi_i(x) \equiv 1 \forall x\in X$.
+1. the [[support]] of the $i$th function is contained in the $i$th subset:
 
-The open cover $\phi_i^{-1}(0,1]$ is then a [[locally finite cover]] that [[refinement|refines]] $\{U_i\}$. The functions $\{\phi_i\}$ are a [[partition of unity]].
+   $Supp(\phi_i) \subset U_i$;
+
+1. at each point $x\in X$, only a [[finite number]] of the $\phi_i$ are non-zero;
+
+1. $\underset{x \in X}{\forall}  \sum_i \phi_i(x) \equiv 1  $.
+
+(The functions $\{\phi_i\}$ are a [[partition of unity]].)
+
+The collection of [[preimages]] $\phi_i^{-1}(0,1]$ then constitute a [[locally finite cover]] that [[refinement|refines]] $\{U_i\}$. 
+
+
 
 ## Alternative characterizations
 
@@ -62,10 +70,10 @@ For an open cover $\{U_i\}_{i\in I}$ of a [[topological space]] $X$ the followin
 
 ### As a coverage, as a site
 
-Numerable open covers form a [[site]] called the **numerable site**. More precisely, numerable open covers are a [[coverage]] on the category [[Top]] of topological spaces (this is essentially given in [Dold's lectures, A.2.17](#DoldLectures) , but not using this terminology).
+Numerable open covers form a [[site]] called the **numerable site**. More precisely, numerable open covers are a [[coverage]] on the category [[Top]] of topological spaces (this is essentially given in [Dold's lectures, A.2.17](#DoldLectures), but not using this terminology).
 
 
-For paracompact spaces, numerable covers are cofinal in open covers, so that the numerable site is equivalent to the open cover site for such spaces.
+For [[paracompact topological spaces]], numerable covers are [[cofinal functor|cofinal]] in open covers, so that the numerable site is equivalent to the open cover site for such spaces.
 
 There is also a 1944 result by Dieudonnne that numerable covers are cofinal in [[locally finite open cover|locally finite covers]] of [[normal spaces]] — need to add this! See, eg, Theorem 6.3 of Howes' _Modern analysis and topology_.
 
@@ -76,33 +84,30 @@ Many classical theorems concerning [[fiber bundles]] are stated for the numerabl
 
 ## References ##
 
-\bibitem{Stone} [[Arthur H. Stone]],
-_Paracompactness and product spaces_,
-Bulletin of the American Mathematical Society 54:10 (1948), 977–983.
+* {#Stone} [[Arthur H. Stone]],
+_Paracompactness and product spaces_, Bulletin of the American Mathematical Society 54:10 (1948), 977–983.
 doi:10.1090/s0002-9904-1948-09118-2.
 
-\bibitem{Michael} [[Ernest Michael]],
+* {#Michael} [[Ernest Michael]],
 _A note on paracompact spaces_.
-Proceedings of the American Mathematical Society 4:5 (1953), 831–838.
-doi:10.1090/s0002-9939-1953-0056905-8.
+Proceedings of the American Mathematical Society 4:5 (1953), 831–838. doi:10.1090/s0002-9939-1953-0056905-8.
 
-\bibitem{Morita} [[Kiiti Morita]],
+* {#Morita} [[Kiiti Morita]],
 _Paracompactness and product spaces_.
 Fundamenta Mathematicae 50:3 (1962), 223–236.
 doi:10.4064/fm-50-3-223-236.
 
-\bibitem{Morita2} [[Kiiti Morita]],
-_Products of normal spaces with metric spaces_.
-Mathematische Annalen 154:4 (1964), 365–382.
+* {#Morita2} [[Kiiti Morita]],
+_Products of normal spaces with metric spaces_, Mathematische Annalen 154:4 (1964), 365–382.
 doi:10.1007/bf01362570.
 
 * [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. (2) 78 1963 223–255 [MR0155330](http://www.ams.org/mathscinet-getitem?mr=155330) [jstor](http://www.jstor.org/stable/1970341) [doi](http://dx.doi.org/10.2307/1970341)
 
-\bibitiem{MardesicSegal} [[Sibe Mardešić]], [[Jack Segal]],
+* {#MardesicSegal} [[Sibe Mardešić]], [[Jack Segal]],
 _Shape Theory_.
 North-Holland Mathematical Library 26 (1982).
 
-\bibitem{Hoshina} [[Takao Hoshina]],
+* {# Hoshina} Takao Hoshina,
 _Extensions of mappings II_.
 Topics in General Topology, Elsevier (1989).
 
