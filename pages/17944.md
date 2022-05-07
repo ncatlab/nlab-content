@@ -1,5 +1,5 @@
 
-> This entry is about squares in [[geometry]]. For squares in [[category theory]] see *[[commutative square]]*.
+> This entry is about squares in [[geometry]]. For squares in [[category theory]] see *[[commutative square]]*. For squares in [[ring theory]], see *[[square function]]*. 
 
 ***
 
