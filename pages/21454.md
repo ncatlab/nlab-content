@@ -34,6 +34,8 @@ In [[gauged supergravity]] the [[gauge symmetry|gauging]] of a [[subgroup]] of a
 
 * [[embedding tensor]]
 
+* [[EL-∞ algebra]]
+
 ## References
 
 The concept originates with
