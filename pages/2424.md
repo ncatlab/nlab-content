@@ -52,7 +52,7 @@ In [Witten 87, very last sentence](#Witten87EllipticGenera):
 
 {#StringTheoryAtItsFinestQuote} In an interview recorded (1988) in:
 
-* {#DavisBrown88} P C W Davis & J Brown (eds.), *Superstrings: A theory of everything?*, Cambridge University Press 1988, 1991, Canto 1992 ([gbooks](https://books.google.us/books/about/Superstrings.html?id=SrSyTS4kzP8C)):
+* {#DavisBrown88} P C W Davis & J Brown (eds.), *Superstrings: A theory of everything?*, Cambridge University Press 1988, 1991, Canto 1992 ([gbooks](https://books.google.us/books?id=SrSyTS4kzP8C&lpg=PP1&vq=contents&pg=PA90#v=onepage&q&f=false)):
 
 
 > String theory at its finest is, or should be, a new branch of [[geometry]]. (p. 95)
