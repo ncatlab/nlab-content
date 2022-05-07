@@ -64,6 +64,20 @@ on [[topological G-spaces]] and their [[equivariant differential topology]], [[e
 
 ## II General Theory of $G$-Spaces
 
+### 1. Fiber bundles
+
+* [[fiber bundle]]
+
+### 2. Associated bundles
+
+* [[associated bundle]]
+
+* [[slice theorem]]
+
+### 3. Twisted products with a compact group
+
+### 4. Tubes and slices
+
 ## III Homological Theory of Finite Group Actions
 
 ## IV Locally Smooth Actions on Manifolds
