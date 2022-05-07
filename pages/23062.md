@@ -23,12 +23,17 @@
 
 For $G$ a [[topological group]], there exists a [[model category]]-[[mathematical structure|structure]] on the [[category]] of [[topological G-spaces]] whose [[weak equivalences]] and [[fibrations]] are those morphisms whose [[underlying]] [[continuous functions]] between $H$-[[fixed loci]], for all [[closed subgroups]] $H \subset_{clsd} G$, are weak equivalences or fibrations, respectively, in the [[classical model structure on topological spaces]], hence [[weak homotopy equivalences]] or [[Serre fibrations]], respectively.
 
-In the case that $G$ is a [[compact Lie group]], the corresponding [[homotopy theory]] coincides with that of [[G-CW complexes]] [[localization|localized]] at $G$-[[equivariant function|equivariant]] [[homotopy equivalences]].
+In the case that $G$ is a [[compact Lie group]], the corresponding [[homotopy theory]] coincides with that of [[G-CW complexes]] [[localization|localized]] at $G$-[[equivariant function|equivariant]] [[homotopy equivalences]]. 
 
-For general $G$, [[Elmendorf's theorem]] asserts that this is [[Quillen equivalence|Quillen equivalent]] to the [[model category of simplicial presheaves]] on the [[orbit category]] of $G$.
+For general $G$, [[Elmendorf's theorem]] asserts that the fine equivariant model structure is [[Quillen equivalence|Quillen equivalent]] to the [[model category of simplicial presheaves]] on the [[orbit category]] of $G$.
 
-The fine model structure is in contrast to the "coarse" or [[Borel model structure]], which instead presents the [[slice (infinity,1)-category|slice]] homotopy theory over the [[classifying space]] $B G$.
+All this makes the fine model structure serve as a foundation for [[equivariant homotopy theory]] and for [[equivariant cohomology]] in its refined form subsuming [[Bredon cohomology]].
 
+This is in contrast to the "coarse" or *[[Borel model structure]]* whose [[weak equivalences]] are simply the underlying [[weak homotopy equivalences]] (which need not restrict to weak homotopy equivalences on all [[fixed loci]]). The coarse Borel model structure instead presents the [[slice (infinity,1)-category|slice]] homotopy theory over the [[classifying space]] $B G$. The intrinsic [[cohomology]] of this coarse [[equivariant homotopy theory]] is just "Borel equivariant", hence computes cohomology of [[Borel constructions]].
+
+While one may, therefore, think of the fine model structure as exhibiting "genuine" equivariance (e.g. [Guillou, May & Rubin 13, p. 14-14](#GuillouMayRubin13)), beware that the term "genuine equivariant homotopy theory" has come to be adopted for something yet a little richer, namely to [[equivariant stable homotopy theory]] whose [[G-spectra]] are in addition equipped with "transfer maps".
+
+However, when the [[closed subgroups]] of $G$ that enter the definition of the fine model structure are taken to be [[compact groups]], then it is not wrong to speak of *[[proper equivariant homotopy theory]]* (potentially conflating two usages of the term "proper", but in a sensible way).
 
 ## Definition
 
@@ -68,13 +73,13 @@ $G Act\big(TopSp_{Qu}\big)_{fine}$ in [[topological G-spaces]] whose [[weak equi
        &\;\coloneqq\;
      \big\{
        G/H \times S^{n-1} \xhookrightarrow{\;} G/H \times D^n 
-     \big\}_{n \in \mathbb{N}}
+     \big\}_{n \in \mathbb{N}, H \underset{clsd}{\subset} G}
      \\
      I_{G Top} 
        &\;\coloneqq\;
      \big\{
        G/H \times D^n \xhookrightarrow{\;} G/H \times D^n \times I
-     \big\}_{n \in \mathbb{N}}
+     \big\}_{n \in \mathbb{N}, H \underset{clsd}{\subset} G}
      \end{aligned}
    \]
 
