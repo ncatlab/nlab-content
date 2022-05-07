@@ -24,6 +24,12 @@ Here (the equivalence class of) $x$ is to be thought of as $a^{-1}$.
 
 Equivalently, we can define $A_{a}$ to be the localisation of $A$ with respect to the multiplicative system $S = { a, a^{2}, a^{3}, \ldots }$. This general notion of localisation is discussed at [[localisation of a commutative ring]].
 
++-- {: .num_remark}
+###### Example
+
+If $A$ is the ring of integers $\mathbb{Z}$, and $a$ is $10$, then $A_{a}$ is the ring of [[decimal rational numbers]] $\mathbb{Z}[1/10]$. 
+
+=--
 
 +-- {: .num_remark}
 ###### Example
