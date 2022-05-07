@@ -1,4 +1,4 @@
-__Peter T. Johnstone__ is a Professor of Mathematics at the University of Cambridge and works in [[topos theory]].
+__Peter Tennant Johnstone__ is a Professor of Mathematics at the University of Cambridge and works in [[topos theory]].
 
 
 ## Books
@@ -15,6 +15,7 @@ __Peter T. Johnstone__ is a Professor of Mathematics at the University of Cambri
 
 category: people
 
-[[!redirects P. Johntsone]]
 [[!redirects P. T. Johnstone]]
 [[!redirects P. Johnstone]]
+[[!redirects Peter Tennant Johnstone]]
+[[!redirects Peter T. Johnstone]]
