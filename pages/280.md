@@ -73,7 +73,7 @@ Here the total space $Y/X$ of this bundle is typically the "weak" [[quotient]] (
 
 ### Actions of a group
 
-An **action** of a [[group]] $G$ on an [[object]] $S$ in a [[category]] $\mathcal{C}$ is a [[representation]] of $G$ on $S$, that is a [[group homomorphism]] $\rho \colon G \to Aut(S)$, where $Aut(S)$ is the [[automorphism group]] of $S$ in \mathcal{C}.  
+An **action** of a [[group]] $G$ on an [[object]] $S$ in a [[category]] $\mathcal{C}$ is a [[representation]] of $G$ on $S$, that is a [[group homomorphism]] $\rho \colon G \to Aut(S)$, where $Aut(S)$ is the [[automorphism group]] of $S$ in $\mathcal{C}$.  
 
 
 As indicated above, a more abstract but equivalent definition regards the group $G$ as a category (a [[groupoid]]), denoted $\mathbf{B} G$, with a single object $\ast$.  Then an _action_ of $G$ in the category $C$ is equivalently a [[functor]] of the form
