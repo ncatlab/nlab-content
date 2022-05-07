@@ -21,7 +21,7 @@
 
 ## Idea
 
-The [[axioms]] of traditional [[algebraic quantum field theory]] or [[locally covariant perturbative quantum field theory]], where one assigns a plain [[algebra]] (e.g. a [[C*-algebra]] or [[formal power series algebra]]) of [[observables]] to a [[spacetime]] region, fail when one considers [[gauge theory]] on [[spacetimes]] more general than [[Minkowski spacetime]] ([[AQFT on curved spacetimes]]): 
+The [[axioms]] of traditional [[algebraic quantum field theory]] or of [[locally covariant perturbative quantum field theory]] -- where one assigns a plain [[algebra]] (a [[C*-algebra]] for [[non-perturbative QFT]] and a  [[formal power series algebra]] for [[perturbative QFT]]) of [[observables]] to a [[spacetime]] region (a "[[local net of observables]]") -- fail when one considers [[gauge theory]] on [[spacetimes]] more general than [[Minkowski spacetime]] ([[AQFT on curved spacetimes]]): 
 
 The nature of [[gauge fields]] implies that to re-construct their global configuration (including non-trivial topology as in [[instanton sectors]]) one needs to locally remember the [[groupoid]] of [[gauge transformations]] (see [Eggertsson 14](https://ncatlab.org/schreiber/show/bachelor+thesis+Eggertsson), [Schenkel 14](#Schenkel14), [Schreiber 14](https://ncatlab.org/schreiber/show/Higher+field+bundles+for+gauge+fields) for exposition), and hence, after [[quantization]], some [[higher algebra]] of observables. 
 
