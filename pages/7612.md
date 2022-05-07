@@ -52,9 +52,15 @@ Introduction:
 
 * {#SpittersKrebbersvdWeegen} [[Bas Spitters]], Robberts Krebbers, Eelis van der Weegen, _From computational analysis to thoughts about analysis in HoTT_, MAP International spring school on formalization of Mathematics (2012) ([pdf](http://www.cs.ru.nl/~spitters/MapSpringSchool.pdf))
 
+See also:
+
+* Wikipedia, *[Formal verification](https://en.wikipedia.org/wiki/Formal_verification)*
+
 Sources listing real-world issues programming issues that might motivate verification of software include
 
 * _[Some disasters caused by numerical errors](https://web.archive.org/web/20200117070005/http://ta.twi.tudelft.nl/nw/users/vuik/wi211/disasters.html)_
+
+* Computerworld, *[Top software failures in recent history](https://www.computerworld.com/article/3412197/top-software-failures-in-recent-history.html#slide1)*, Feb 17, 2020
 
 * Wikipedia, _[List of software bugs](https://en.wikipedia.org/wiki/List_of_software_bugs)_
 
