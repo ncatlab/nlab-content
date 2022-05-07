@@ -195,3 +195,5 @@ From Altenkirch and Kaprosi 2017
 * Thorsten Altenkirch, Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
 
 * Thorsten Altenkirch, Luis Scoccola, _The Integers as a Higher Inductive Type_, [arXiv](https://arxiv.org/abs/2007.00167)
+
+[[!redirects quotient inductive types]]
