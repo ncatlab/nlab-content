@@ -172,6 +172,8 @@ The existence of the $G$-equivariant tubular neighbourhoods is for instance in [
 
 * [[equivariant bundle]]
 
+* [[equivariant good open cover]]
+
 * [[equivariant extension theorem]]
 
 * [[equivariant homotopy theory]]
