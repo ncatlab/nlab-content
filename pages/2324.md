@@ -96,3 +96,4 @@ ${}_R Mod\to Qcoh(Spec R)$ between the category of $R$-modules and the category 
 
 category: algebraic geometry
 
+[[!redirects Zariski duality]]
