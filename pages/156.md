@@ -31,7 +31,7 @@ A __skeleton__ of a category $C$ is defined to be a skeletal [[subcategory]] of 
 
 In the absence of the [[axiom of choice]], it is more appropriate to define a __skeleton__ of $C$ to be a weak skeleton as defined above.
 
-#### Existence of skeletons of categories
+#### Existence of Skeletons of Categories
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -57,11 +57,11 @@ In fact, the statement that every (possibly [[small category|small]]) category h
 
 Even with the more general notion of weak or ana-[[equivalence of categories]], some amount of choice is required to show that every category has a skeleton.  It would be interesting to know the precise strength of the statement "every category is weakly equivalent to a skeletal one."  
 
-### Skeletons as an Endo-2-Functor
+### Skeletons as an Endo-Pseudofunctor on $\mathfrak{Cat}$
 
-In the presence of choice, we can thusly turn the process of taking the skeleton of a category into an endo-2-functor.
+In the presence of choice we can thusly turn the process of taking the skeleton of a category into an endo-pseudofunctor on $\mathfrak{Cat}$, the $2$-category of categories.
 
-For each category $\mathcal{C}$, let $sk_\mathcal{C}$ denote a skeleton of $\mathcal{C}$ and let $E_\mathcal{C}:\mathcal{C}\simeq sk_\mathcal{C}:E_\mathcal{C}^{\sim1}$ denote the skeletal equivalence at $\mathcal{C}$. We define an endo-$2$-functor 
+For each category $\mathcal{C}$ let $sk_\mathcal{C}$ denote a skeleton of $\mathcal{C}$ and let $E_\mathcal{C}:sk_\mathcal{C}\simeq\mathcal{C}:E_\mathcal{C}^{\sim1}$ denote the skeletal equivalence at $\mathcal{C}$, with $\epsilon^{sk}_\mathcal{C}:E_\mathcal{C}\circ E^{\sim1}_\mathcal{C}\Rightarrow1_\mathcal{C}$ the skeletal transformation at $\mathcal{C}$. We define an endo-pseudofunctor 
 
 $$
 sk:\mathfrak{Cat}\to\mathfrak{Cat}
@@ -70,24 +70,31 @@ $$
 as follows:
 
 1. $sk(\mathcal{C})=sk_\mathcal{C},$
-1. $sk(F:\mathcal{C}\to\mathcal{D})=E_\mathcal{D}\circ F\circ E_\mathcal{C}^{\sim1}:sk_\mathcal{C}\to\mathcal{C}\to\mathcal{D}\to sk_\mathcal{D},$
+1. $sk(F:\mathcal{C}\to\mathcal{D})=E^{\sim1}_\mathcal{D}\circ F\circ E_\mathcal{C}:sk_\mathcal{C}\to\mathcal{C}\to\mathcal{D}\to sk_\mathcal{D},$
 1. $sk(\alpha:F\Rightarrow G)=i\circ\alpha\circ i^{-1}:sk(F)\Rightarrow sk(G),$ where 
-
 $$
 i\circ\alpha\circ i^{-1}:sk(F)\Rightarrow sk(G)
 $$ 
-
 is defined by 
-
 $$
 (i\circ\alpha\circ i^{-1})_X=i_{G(X)}\circ\alpha_X\circ i_{F(X)}^{-1}:F(X)'\to F(X)\to G(X)\to G(X)'.
+$$
+1. For each category $\mathcal{C}$, the unitor $\iota^{sk}_\mathcal{C}:1_{sk(\mathcal{C})}\Rightarrow sk(1_\mathcal{C})$ is defined by
+$$
+\iota^{sk}_\mathcal{C}=1_{1_{sk(\mathcal{C})}},
+$$
+since
+$$sk(1_\mathcal{C})=E^{\sim1}_\mathcal{C}\circ1_\mathcal{C}\circ E_\mathcal{C}=E^{\sim1}_\mathcal{C}\circ E_\mathcal{C}=1_{sk(\mathcal{C})}.$$
+1. For each pair of composable functors $F:\mathcal{C}\to\mathcal{D}$, $G:\mathcal{B}\to\mathcal{C}$, the associator $\alpha^{sk}_{F,G}:sk(F)\circ sk(G)\Rightarrow sk(F\circ G)$ is defined by
+$$
+\alpha^{sk}_{F,G}=1_{E^{\sim1}_\mathcal{D}\circ F}\star\epsilon^{sk}_\mathcal{C}\star1_{G\circ E_\mathcal{B}}:E^{\sim1}_\mathcal{D}\circ F\circ E_\mathcal{C}\circ E_\mathcal{C}^{\sim1}\circ G\circ E_\mathcal{B}\Rightarrow E^{\sim1}_\mathcal{D}\circ F\circ G\circ E_\mathcal{B}.
 $$
 
 ### Skeleton of an Indexed Category
 
 Using the above definition, we can canonically define the skeleton of an indexed category.
 
-Let $\psi:\mathcal{B}^{op}\to\mathfrak{Cat}$ be an indexed category. We define the **skeleton of $\psi$**, denoted
+Let $\psi:\mathcal{B}^{op}\to\mathfrak{Cat}$ be an indexed category. We define the **indexed skeleton of $\psi$**, denoted
 
 $$
 sk(\psi):\mathcal{B}^{op}\to\mathfrak{Cat},
@@ -99,21 +106,21 @@ to be the indexed category given by postcomposing $\psi$ with $sk$, so $sk(\psi)
 
 Using the above definition and the [[Grothendieck construction]], we can define the skeleton of a fibration using the skeleton of an indexed category.
 
-Let $p:\mathcal{E}\to\mathcal{B}$ be a fibration. We define the **skeleton of $p$**, denoted 
+Let $p:\mathcal{E}\to\mathcal{B}$ be a fibration. We define the **fibered skeleton of $p$**, denoted 
 
 $$
 sk(p):sk^p_\mathcal{E}\to\mathcal{B}
 $$
 
-to be the Grothendieck completion of the skeleton of the indexing by $p$. That is, $sk(p)$ is the fibration obtained by turning $p$ into an indexed category using the Grothendieck construction, taking the skeleton of this indexed category, then turning the resulting skeletal indexed category back into a fibration (via the Grothendieck construction again). We refer to the total category $sk^p_\mathcal{E}$ in the resulting fibration as the **$p$-skeleton** of $\mathcal{E}$, which is different than $sk_\mathcal{E}$ since we have only skeletalized the fiber categories of our original fibration and not the total category of the original fibration. In general, we will have that 
+to be the Grothendieck completion of the indexed skeleton of the indexing by $p$. That is, $sk(p)$ is the fibration obtained by turning $p$ into an indexed category using the Grothendieck construction, taking the indexed skeleton of this indexed category, then turning the resulting skeletal indexed category back into a fibration (via the Grothendieck construction again). We refer to the total category $sk^p_\mathcal{E}$ in the resulting fibration as the **$p$-skeleton** of $\mathcal{E}$, which is different than $sk_\mathcal{E}$ since we have only skeletalized the fiber categories of our original fibration and not the total category of the original fibration. In general, we will have that 
 $$
 sk_\mathcal{E}\ncong sk^p_\mathcal{E},
 $$
-although they are trivially equivalent.
+although they are trivially equivalent. As an example of this construction in action, we can pass from the monomorphism fibration on a category with pullbacks to the subobject fibration by taking the fibered skeleton. For details, see the subobject fibration section of [[codomain fibration]].
 
 ## Properties
 
-### Skeletons without choice
+### Skeletons without Choice
 
 Without any choice, we have the following theorems.
 
@@ -161,7 +168,7 @@ Notice that the [[axiom of choice]] fails in general when one considers [[intern
 [[David Roberts]]: The claim above about the necessity of the existence of the quotient needs to be checked.
 =--
 
-### Equivalents of choice
+### Equivalents of Choice
 
 Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a surjective equivalence $C\to S$.  In [[Categories, Allegories]] it is shown that the following are equivalent.
 
@@ -183,7 +190,7 @@ For convenience we add:
 1. Given an inhabited family $\{S_i\}_I$ of equinumerous sets there exists $0 \in I$  and a family of isomorphisms of the permutation groups $\{Aut(S_0) \to Aut(S_i)\}_I$.
 1. Given a family $\{S_i\}_I$ of inhabited equinumerous sets, there exists a family $(x_i)_I$ such that $x_i \in S_i$ for all $i \in I$.
 
-### Uniqueness of constructions
+### Uniqueness of Constructions
 
 It is well-known that objects defined by [[universal property|universal properties]] in a category, such as [[limits]] and [[colimits]], are not unique on the nose, but only unique up to unique canonical isomorphism.  It can be tempting to suppose that in a *skeletal* category, where any two isomorphic objects are equal, such objects will in fact be unique on the nose.  However, under the most appropriate definition of "unique," this is *not* true (in general), because of the presence of automorphisms.
 
