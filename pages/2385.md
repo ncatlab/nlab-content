@@ -105,7 +105,7 @@ $$
 ### Crystalline site
 
 For $X : Ring \to Set$ a [[scheme]], the [[big site]] $Ring^{op}/X_{dR}$
-of $X_{dR}$, is the [[crystaline site]] of $X$.
+of $X_{dR}$, is the [[crystalline site]] of $X$.
 
 ### Grothendieck connection
 
