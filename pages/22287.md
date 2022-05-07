@@ -29,7 +29,7 @@ This says that the type is inductively constructed from two [[terms]] in the typ
 
 ## Boolean logic
 
-The two-valued type is also called the type of [[boolean|booleans]]. One could recursively define the logical functions on $2$ as follows
+The two-valued type is also called the type of [[boolean|booleans]]. One could recursively define the logical functions on $\mathbf{2}$ as follows
 
 * For negation $\neg$
   * $\neg 0 := 1$
@@ -44,13 +44,11 @@ The two-valued type is also called the type of [[boolean|booleans]]. One could r
   * $0 \implies a := 1$
   * $1 \implies a := a$
 
-One could prove that $(\mathbf{2}, 0, 1, \neg, \wedge, \vee, \implies)$ form a [[Boolean algebra]]. 
+One could prove that $(\mathbf{2}, 0, 1, \neg, \wedge, \vee, \implies)$ form a [[Boolean algebra]]. The [[poset]] structure is given by implication.
 
-A _boolean predicate_ valued in a type $T$ is a function $P: T \rightarrow \mathbf{2}$, [[existential quantification]] on a predicate is given by 
-  $$\sum_{t:T} Path_\mathbf{2}(P(t),1)$$
+A _boolean predicate_ valued in a type $T$ is a function $P: T \rightarrow \mathbf{2}$, and the type $T \to \mathbf{2}$ is a boolean [[function algebra]] for finite types $T$, and if [[path types]] exist, for all types $T$. Thus the [[functor]] $F: U \to BoolAlg$, $F(T) = T \to \mathbf{2}$ for a [[type universe]] $U$ is a [[Boolean hyperdoctrine]], and one could do [[classical logic|classical]] [[first-order logic]] inside $U$ if $\mathbf{2}$ and path types exist in $U$. 
 
-and [[universal quantification]] on a predicate is given by
-  $$\prod_{t:T} Path_\mathbf{2}(P(t),1)$$
+In fact, just with [[dependent sum types]], [[dependent product types]], [[empty type]], [[unit type]], and the two-valued type in a type universe $U$, any [[many-valued logic|finitely-valued logic]] such as [[Łukasiewicz logic]] could be done inside $U$. 
 
 ## Properties
 
