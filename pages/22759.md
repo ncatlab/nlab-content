@@ -130,7 +130,7 @@ A definition of a [[free object|free]] [[poset]] as a quotient inductive-inducti
 
 ### Partial map classifiers
 
-Every [[partial map classifier]] $A_\bot$ is a [[free object|free]] [[pointed object|pointed]] [[countable set|denumerably]] complete [[partial order]] on a 0-truncated type $A$. They are also called free pointed $\omega$-cpos. [See Altenkirch, Danielsson, and Kraus, 2016](#partial)
+Every [[partial map classifier]] $A_\bot$ is a [[free object|free]] [[pointed object|pointed]] [[countable ordinal|omega]]-complete [[partial order]] on a 0-truncated type $A$. They are usually abbreviated as free pointed $\omega$-cpos. [See Altenkirch, Danielsson, and Kraus, 2016](#partial)
 
     Inductive omegacpo (A: Type) :=
     | inj: A -> omegacpo A
