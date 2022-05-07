@@ -10,7 +10,6 @@
 =--
 =--
 
-
 > under construction
 
 #Contents#
@@ -129,6 +128,11 @@ See also
 * R. Rim&#225;nyi, V. Tarasov, A. Varchenko, P. Zinn-Justin, _Extended Joseph polynomials, quantized conformal blocks, and a $q$-Selberg type integral_, [arxiv/1110.2187](http://arxiv.org/abs/1110.2187)
 
 * E. Mukhin, V. Tarasov, A. Varchenko, _KZ characteristic variety as the zero set of classical Calogero-Moser Hamiltonians_, [arxiv/1201.3990](http://arxiv.org/abs/1201.3990)
+
+On the [[flat vector bundles]] underlying the KZ-equation:
+
+* [[Ivan Marin]], *Knizhnik-Zamolodchikov bundles are topologically trivial* ([arXiv:0809.3590](https://arxiv.org/abs/0809.3590))
+
 
 [[!redirects Knizhnik-Zamolodchikov equations]]
 
