@@ -22,11 +22,11 @@
 
 The _homotopy hypothesis_ is the assertion that
 
-* [[∞-groupoids]] are equivalent to [[topological space]]s (considered modulo [[weak homotopy equivalence]])
+* [[∞-groupoids]] are [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of [[topological spaces]] at their [[weak homotopy equivalences]],
 
 or rather the stronger statement that
 
-* [[n-groupoid]]s are equivalent to [[homotopy n-type]]s for all [[extended natural number]]s $n \in \bar{\mathbb{N}}$
+* [[n-groupoids]] are equivalent to this localization of those topological spaces which are [[homotopy n-types]] for all [[extended natural numbers]] $n \in \bar{\mathbb{N}}$
 
 and moreover
 
@@ -34,11 +34,13 @@ and moreover
 
 What this actually means in detail depends on which definition of [[∞Grpd]] is being used and to which precise incarnation of [[Top]] it is being compared to. 
 
-There are some definitions of [[∞-groupoid]]s for which the homotopy hypothesis is a proven _theorem_ . Depending on where in the spectrum between [[geometric definitions of higher categories]] and [[algebraic definitions of higher categories]] a given definition of $\infty$-groupoids is located, the statement may be more or less obvious. 
+There are some definitions of [[∞-groupoids]] for which the homotopy hypothesis is a proven _theorem_, notably for the usual definition via [[Kan complexes]] (see at *[[classical model structure on simplicial sets]]*).
 
-For instance there is some justification for _defining_ an $\infty$-groupoid to _be_ equivalently a topological space (considered modulo weak homotopy equivalence). For this definition the homotopy hypothesis is of course a tautology.
+Depending on where in the spectrum between [[geometric definitions of higher categories]] and [[algebraic definitions of higher categories]] a given definition of $\infty$-groupoids is located, the statement may be more or less obvious. 
 
-A definition of $\infty$-groupoid that is still very geometrical but much more combinatorial is that given by [[Kan complexes]]. For these the homotopy hypothesis has a (non-trivial but fairly tractable) proof. The equivalence between Kan complexes and [[CW-complex]]es obtained this way is at the heart of all traditional [[homotopy theory]].
+For instance there is some justification for _defining_ an $\infty$-groupoid to _be_ equivalently a topological space considered modulo weak homotopy equivalence (see at *[[classical model structure on topological spaces]]*). For this definition the homotopy hypothesis is of course a tautology.
+
+A definition of $\infty$-groupoid that is still very geometrical but much more combinatorial is that given by [[Kan complexes]]. For these the homotopy hypothesis has a (non-trivial but fairly tractable) proof. The equivalence between Kan complexes and [[CW-complexes]] obtained this way is at the heart of all traditional [[homotopy theory]].
 
 A genuine algebraic definition of $\infty$-groupoids for which the homotopy theory has a (non-trivial but tractable) proof is given by [[algebraic Kan complex]]es. 
 
