@@ -51,7 +51,6 @@ Here are some other reasons why the empty space should not be considered (path-)
 
 See [[too simple to be simple]] for general theory.
 
-
 ## Related concepts
 
 [[!include empty objects -- contents]]
