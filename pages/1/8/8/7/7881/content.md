@@ -64,15 +64,15 @@ In the presence of classical logic and the well-ordering principle, this then im
 
 ### In weakly predicative mathematics
 
-[[predicative mathematics|Predicatively]], the power set $\Omega^N$ does not exist, but if function sets exist, then the mathematics is only weakly predicative. Assuming $E$ is a [[Heyting category|Heyting]] [[ΠW-pretopos]], one replaces the subset classifier $\Omega$ in the definition of the [[Dedekind real numbers]] with a [[Sierpinski space|Sierpinski space object]] $S$ in $Set$, defined as a $\omega$-[[small]] ([[countable set|countable]]) [[frame]] in $Set$, an initial $\sigma$-frame in $Set$. The continuum hypothesis then becomes that if there is a series of monomorphisms such that
+[[predicative mathematics|Predicatively]], the power set $\Omega^N$ does not exist, but if function sets exist, then the mathematics is only weakly predicative. Assuming $E$ is a [[Heyting category|Heyting]] [[ΠW-pretopos]], one replaces the subset classifier $\Omega$ in the definition of the [[Dedekind real numbers]] with a [[Sierpinski space|Sierpinski space object]] $\Sigma$ in $Set$, defined as an [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] in $Set$. The continuum hypothesis then becomes that if there is a series of monomorphisms such that
 
-$$N \hookrightarrow A\hookrightarrow S^N$$
+$$N \hookrightarrow A\hookrightarrow \Sigma^N$$
 
-then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $S^N \hookrightarrow A$.
+then either there exists a monomorphism $A \hookrightarrow N$ or a monomorphism $\Sigma^N \hookrightarrow A$.
 
 If the $\Pi W$-pretopos $E$ is [[Boolean category|Boolean]], then it is an elementary topos, the principle of excluded middle is true, and $S$ has two elements and is isomorphic to $\Omega$, so the pretopos is no longer predicative, and this definition reduces to the classical definition. 
 
-Since $S$ as defined above for Dedekind reals is a countable set, one could replace $S$ with $N$ itself, as $N$ is also countable. The continuum hypothesis then becomes that if there is a series of monomorphisms such that 
+Since $\Sigma$ as defined above is a [[countable]] set, one could replace $\Sigma$ with $N$ itself, as $N$ is also [[countable]]. The continuum hypothesis then becomes that if there is a series of monomorphisms such that 
 
 $$N \hookrightarrow A\hookrightarrow N^N$$
 
