@@ -503,7 +503,7 @@ is arguably all about this subject (although you wouldn\'t know it until about C
 
 A discussion of [[dependent type theory]] as the [[internal language]] of [[locally cartesian closed categories]] is in 
 
-* R. A. G. Seely, _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+* [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
 
 The observation that the poset of open subsets of a topological space serve as a model for [[intuitionistic logic]] is apparently originally due to
 
