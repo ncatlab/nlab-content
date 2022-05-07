@@ -492,13 +492,14 @@ For orderings of the braid group see
 
 * H. Langmaack, _Verbandstheoretische Einbettung von Klassen unwesentlich verschiedener Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
 
-### Braid group representations
 
-On [[linear representations]] of braid groups (see also at *[[braid group statistics]]*):
 
-* [[Camilo Arias Abad]], *Introduction to representations of braid groups* ([arXiv:1404.0724](https://arxiv.org/abs/1404.0724))
 
-* R. B. Zhang, *Braid group representations arising from quantum supergroups with arbitrary $q$ and link polynomials*, Journal of Mathematical Physics 33, 3918 (1992) ([doi:10.1063/1.529840](https://doi.org/10.1063/1.529840))
+[[!include braid group representations -- references]]
+
+
+
+
 
 ### Relation to moduli space of monopoles
 
@@ -520,11 +521,13 @@ category: knot theory
 [[!redirects braid]]
 [[!redirects braids]]
 
-
 [[!redirects pure braid]]
 [[!redirects pure braids]]
-
 
 [[!redirects Artin braid group]]
 [[!redirects Hurwitz braid group]]
 [[!redirects surface braid group]]
+
+[[!redirects braid group representation]]
+[[!redirects braid group representations]]
+
