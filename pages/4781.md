@@ -121,7 +121,7 @@ $$
 
 \begin{prop}\label{StableTangentBundleOfUnitSphereBundle}
 **([[stable tangent bundle]] of [[unit sphere bundle]])** \linebreak
-  The [[stable tangent bundle]] of a [[unit sphere bundle]] $S(\mathcal{V})$ in a [[real vector bundle]] $\mathcal{V} \overset{p}{\longrightarrow} M$ (Example \ref{UnitSphereBundles}) over a [[smooth manifold]] $M$ is [[isomorphism|isomorphic]] to the [[pullback bundle|pullback]]  of the [[direct sum of vector bundles|direct sum]] of the [[stable tangent bundle]] of the base manifold with that vector bundle:
+  The once-[[stable tangent bundle|stabilized]] [[tangent bundle]] of a [[unit sphere bundle]] $S(\mathcal{V})$ in a [[real vector bundle]] $\mathcal{V} \overset{p}{\longrightarrow} M$ (Example \ref{UnitSphereBundles}) over a [[smooth manifold]] $M$ is [[isomorphism|isomorphic]] to the [[pullback bundle|pullback]]  of the [[direct sum of vector bundles|direct sum]] of the [[stable tangent bundle]] of the base manifold with that vector bundle:
 
 $$
   T^{stab} S(\mathcal{V})
@@ -138,7 +138,7 @@ $$
 $$
 \end{prop}
 
-(This is claimed between the lines in [Milnor 56, p. 403](sphere-fiber+bundle#Milnor1956) and extracted as an explicit statement in [Crowley-Escher 03, Fact. 3.1](sphere-fiber+bundle#CrowleyEscher03).)
+This is stated without proof as [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03), apparently reading between the lines in [Milnor 56, p. 403](#Milnor1956).
 
 \begin{proof}\label{ProofOfStableTangentBundleOfUnitSphereBundle}
   Consider first the actual [[tangent bundle]] but to the [[open ball]]/[[disk]]-[[fiber bundle]] $D(\mathcal{V})$ that fills the given sphere-fiber bundle: By the standard splitting ([this Prop.](vertical+vector+field#SplittingOfTotalSpaceTangentBundle)) this is the [[direct sum of vector bundles|direct sum]]
