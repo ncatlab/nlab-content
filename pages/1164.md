@@ -38,6 +38,16 @@ Given a [[topological group]] $G$ the __orbit category__ $\operatorname{Orb}_G$ 
 
 =--
 
+(e.g. [tom Dieck 1987, I (10.1)](#tomDieck87))
+
++-- {: .num_remark }
+###### Remark
+
+Warning: This should not be confused with the situation where a group $G$ acts on a groupoid $\Gamma$ so that one obtains the [[orbit groupoid]].   
+
+=--
+
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -64,23 +74,27 @@ Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive act
 \end{remark}
 
 
-+-- {: .num_remark }
-###### Remark
 
-Warning: This should not be confused with the situation where a group $G$ acts on a groupoid $\Gamma$ so that one obtains the  [[orbit groupoid]].   
-
-=--
-
-More generally, given a family $F$ of subgroups of $G$ which is closed under conjugation and taking subgroups one looks at the full subcategory $\mathrm{Orb}_F\,G \subset \operatorname{Orb}_G$ whose objects are those $G/H$ for which $H\in F$.
-
-
-## Variants
-
-### Families of subgroups
-
-Sometimes a family, $\mathcal{W} \subset Sub_{Grp}(G)$, of [[subgroups]] is specified, and then a subcategory of $Orb_G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will still hold.
+\begin{remark}
+**(families of subgroups)**
+\linebreak
+More generally, given a family $\mathcal{F}$ of subgroups of $G$ which is closed under conjugation and taking subgroups one looks at the full subcategory $\mathrm{Orb}_F\,G \subset \operatorname{Orb}_G$ whose objects are those $G/H$ for which $H\in F$.
+For such families, many of the considerations of results such as [[Elmendorf's theorem]] will still hold.
+\end{remark}
 
 
+## Equivariant Postnikov tower
+
+Given a [[topological G-space]], there is (following [tom Dieck 1987, Sec. I.10](#tomDieck87)) a sequence of variants (enhancements) of the $G$-orbit category which mixes transitions between the [[fixed loci]] with [[n-truncated object in an (infinity,1)-category|n-truncations]] of their [[homotopy types]].
+
+### Equivariant set of connected components
+ {#EquivariantSetOfConnectedComponents}
+
+(...)
+
+[tom Dieck 1987, Sec. I.10](#tomDieck87)
+
+(...)
 
 ### Equivariant fundamental groupoid
  {#FundamentalCategoryOfAGSpace}
@@ -148,6 +162,7 @@ on (eq:FundamentalGroupoidOfAPresheafOfFixedLoci).
 \end{proposition}
 
 This follows by direct unwinding of the definitions; see also [Pronk & Scull 2021, below Def. 3.1](#PronkScull21).
+
 
 ### Equivariant universal cover
  {#EquivariantUniversalCover}
@@ -244,6 +259,8 @@ $$
 $$
 
 \end{proposition}
+
+> bottom right corner not quite right, will fix...
 
 
 \linebreak
@@ -525,6 +542,9 @@ with further discussion in
 
 
 [[!redirects orbit categories]]
+
+[[!redirects equivariant set of connected components]]
+[[!redirects equivariant sets of connected components]]
 
 [[!redirects equivariant fundamental groupoid]]
 [[!redirects equivariant fundamental groupoids]]
