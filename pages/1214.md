@@ -22,11 +22,21 @@ A __Malcev category__ is a [[finitely complete category|left exact category]] (=
 
 ## Examples
 
-Examples include the [[Grp|category of groups]], and in fact the category of $T$-algebras for any [[Lawvere theory|theory]] $T$ which contains a group operation (an $\Omega$-[[Omega-group|group]]). Other examples include the category, $Heyt$, of [[Heyting algebra]]s and the category of left closed [[magma]]s. The dual category to an [[elementary topos]] is a Malcev category.  A [[Malcev variety]] is a [[variety of algebras]] whose category of models is a Malcev category.
+\begin{example}\label{GroupsFormAMalcevCategory}
+ The category [[Grp]] of all [[groups]] (including [[non-abelian groups]]) is a Malcev category. More generally, for $\mathcal{C}$ any category with [[finite limits]], the category $Grp(\mathcal{C})$ of [[group objects]] [[internalization|internal]] to $\mathcal{C}$ is a Malcev category.
+\end{example}
+([Borceux & Bourn 2004, Ex. 2.2.6](#BorceuxBourn04))
+
+
+More generally, the category of $T$-algebras for any [[Lawvere theory|theory]] $T$ which contains a group operation (an $\Omega$-[[Omega-group|group]]). Other examples include the category, $Heyt$, of [[Heyting algebra]]s and the category of left closed [[magma]]s. The dual category to an [[elementary topos]] is a Malcev category.  A [[Malcev variety]] is a [[variety of algebras]] whose category of models is a Malcev category.
 
 ## Properties
 
-In any Malcev category, every [[internal category]] is a [[groupoid]].
+\begin{proposition}
+In any Malcev category, every [[internal category]] is an [[internal groupoid]].
+\end{proposition}
+
+
 
 ## Related notions
 
@@ -34,7 +44,7 @@ In any Malcev category, every [[internal category]] is a [[groupoid]].
 
 ## References
 
-* [[Francis Borceux]], [[Dominique Bourn]], _[[Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
+* {#BorceuxBourn04} [[Francis Borceux]], [[Dominique Bourn]], _[[Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
 
 * [[Dominique Bourn]], [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017 (textbook)
 
