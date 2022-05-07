@@ -145,6 +145,10 @@ A systematic development of [[Euclidean field theory|Euclidean]] [[perturbative 
 
 * {#Berghoff14b} [[Marko Berghoff]], _Wonderful compactifications in quantum field theory_,  Communications in Number Theory and Physics Volume 9 (2015) Number 3 ([arXiv:1411.5583](https://arxiv.org/abs/1411.5583))
 
+Analogous discussion for configuration spaces of points regarded as [[Hilbert schemes of points]] and with their [[ordinary cohomology]] replaced by [[K-theory]]:
+
+* Jian Zhou, _K-Theory of Hilbert Schemes as a Formal Quantum Field Theory_ ([arXiv:1803.06080](https://arxiv.org/abs/1803.06080))
+
 Discussion specifically in [[topological quantum field theory]] with an eye towards [[supersymmetry|supersymmetric]] field theory, in terms of the [[ordinary homology]] of [[configuration spaces of points]]:
 
 * [[Christopher Beem]], [[David Ben-Zvi]], [[Mathew Bullimore]], [[Tudor Dimofte]], [[Andrew Neitzke]], _Secondary products in supersymmetric field theory_ ([arXiv:1809.00009](https://arxiv.org/abs/1809.00009))
