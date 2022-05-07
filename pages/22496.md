@@ -27,7 +27,7 @@ For $G$ a [[group]], there is a [[groupoid]] $(G \rightrightarrows \ast)$ with
 
 * [[composition]] the group operation in $G$.
 
-This may be understood as the "[[delooping]]" of $G$ in the ambient [[(infinity,1)-topos]], and is, as such, natgurally denoted $\mathbf{B}G$.
+This may be understood as the "[[delooping]]" of $G$ in the ambient [[(infinity,1)-topos]], and is, as such, naturally denoted $\mathbf{B}G$.
 
 ## Related concepts
 
