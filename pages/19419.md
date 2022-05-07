@@ -54,9 +54,35 @@ The following is Definition 3.1 in [Inter-Universal Teichmüller theory I](#Moch
 
 \end{defn}
 
+\section{Examples of the kind in IUTT}
+
+Only one family of examples of initial Θ-data is given in the IUTT series of papers, pertaining directly to the [[abc conjecture]]. These examples are described in Corollary 2.2 of [IUTT IV](#IUTTIV). The language of stacks is used, but it seems possible to construct the examples without this. 
+
+We shall assume that we have defined the notion of a _compactly bounded_ subset of $\overline{\mathbb{Q}}$, the algebraic closure of $\mathbb{Q}$ (namely the [[algebraic numbers]]). This notion is due to Mochizuki. 
+
+\begin{defn} A _Mochizuki elliptic curve_ $E$ is one of the form $y^{2} = x(x-1)(x - \lambda)$ for some $\lambda \in \mathbb{Q}$ satisfying the following conditions:
+
+1. $\lambda$ belongs to a compactly bounded subset $K_V$ of $\overline{\mathbb{Q}}$ with certain properties (omitted here for the moment);
+
+1. $\lambda$ belongs to an [[field extension|extension]] of $\mathbb{Q}$ of degree less than or equal to a given positive integer $d$ (the choice of which comes from the statement of the [[abc conjecture]]);
+
+1. $\lambda$ does not belong to a certain subset of $K_V$, denoted $\mathfrak{Crc}_{d}$, where $d$ is as in 2., which Mochizuki constructs (details omitted for the moment here too);
+
+1. it is defined over a number field $F$ which is isomorphic to that obtained by beginning with the minimal field of definition of $E$ (regarded as defined over $\overline{\mathbb{Q}}$ for example) and then adjoining the fields of definition of the $30$-torsion points, that is, the $2$-torsion, $3$-torsion, and $5$-torsion points, as well as adjoining $\sqrt{-1}$;
+
+1. there is a prime $l \geq 5$ satisfying certain properties for which $E$ does not admit a sub-group scheme which as a group is isomorphic to the [[cyclic group]] $\mathbb{Z} / l \mathbb{Z}$. 
+
+\end{defn}
+
+\begin{rmk} The first part of Corollary 2.2 in [IUTT IV](#IUTTIV) precisely concerns the construction, given $K_{V}$ (whose construction with the required properties is standard), of $\mathfrak{Crc}_{d}$. The properties of $\mathfrak{Crc}_{d}$ are such that can one apply the theory of IUTT to deduce that the [[abc conjecture]] holds. \end{rmk}
+
+\begin{rmk} Given a Mochizuki elliptic curve $E$, one can show that one can construct initial Θ-data whose elliptic curve is $E$. TODO: details. \end{rmk} 
+
 \section{References}
 
 * {#MochizukiIUTTI} [[Shinichi Mochizuki]], _Inter-Universal Teichmüller Theory I: Construction Of Hodge Theaters_, (2017). [Link to paper](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20I.pdf)
+
+* {#IUTTIV} [[Shinichi Mochizuki]], _Inter-universal Teichmüller theory IV, Log-volume computations and set-theoretic foundations_ (2012) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Inter-universal%20Teichmuller%20Theory%20IV.pdf))
 
 * [[Taylor Dupuy]], Anton Hilado, _The Statement of Mochizuki's Corollary 3.12, Initial Theta Data, and the First Two Indeterminacies_, arXiv:[2004.13228](https://arxiv.org/abs/2004.13228)
 
