@@ -52,8 +52,8 @@ lattice containing the cylinder endpoints (the faces of cubes). To get
 
 ## Equivalence with simplicial sets
 
-One may wonder whether these models structures are equivalent to the model in [[simplicial sets]]. This is not the case for Cartisian cubes; see [mailing-list](https://groups.google.com/d/msg/homotopytypetheory/RQkLWZ_83kQ/tAyb3zYTBQAJ). However, this model does form a Grothendieck [[(infinity,1)-topos]], because it satisfies the Giraud axioms. For deMorgan cubical sets the geometric realization is not a Quillen equivalence (because of the reversal map); the counterexample is the unit interval quotient by the symmetry); see [Sattler](#sattlerHIM). Whether they are equivalent by another map is not yet excluded.
-The question whether the geometric realization for the cubical sets based on distribute lattices is an equivalence is still open.
+One may wonder whether these models structures are equivalent to the model in [[simplicial sets]]. This is not the case for Cartesian cubes; see [mailing-list](https://groups.google.com/d/msg/homotopytypetheory/RQkLWZ_83kQ/tAyb3zYTBQAJ). However, this model does form a Grothendieck [[(infinity,1)-topos]], because it satisfies the Giraud axioms. For deMorgan cubical sets the geometric realization is not a Quillen equivalence (because of the reversal map); the counterexample is the unit interval quotient by the symmetry); see [Sattler](#sattlerHIM). Whether they are equivalent by another map is not yet excluded.
+The question whether the geometric realization for the cubical sets based on distributive lattices is an equivalence is still open.
 
 ## References
 
