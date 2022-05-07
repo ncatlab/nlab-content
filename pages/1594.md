@@ -1,11 +1,12 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Geometry
+#### Higher Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
-#### $\infty$-Lie theory
+#### Higher Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
