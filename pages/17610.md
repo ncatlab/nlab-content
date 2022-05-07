@@ -26,13 +26,13 @@ Their [[KK-reduction]] down to 4 dimensions yields again ordinary black holes. T
 
 ## References
 
-The first black ring solution in 5d gravity was found in 
+The first black ring solution in was found, in [[D=5 gravity]], in 
 
-* Roberto Emparan, [[Harvey Reall]], _A rotating black ring in five dimensions_, Phys.Rev.Lett.88:101101,2002 ([arXiv:hep-th/0110260](https://arxiv.org/abs/hep-th/0110260))
+* [[Roberto Emparan]], [[Harvey Reall]], _A rotating black ring in five dimensions_, Phys. Rev. Lett.88:101101, 2002 ([arXiv:hep-th/0110260](https://arxiv.org/abs/hep-th/0110260))
 
 The first solution in [[D=5 supergravity]] was given in 
 
-* Henriette Elvang, Roberto Emparan, [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
+* Henriette Elvang, [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
 For more in the context of [[D1-D5-brane bound states]]
 
