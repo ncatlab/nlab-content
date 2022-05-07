@@ -24,9 +24,13 @@
 
 An **infinite product** is a sequence of numbers (usually [[real number|real]] or [[complex number|complex]] $(a_k)_{k\in\mathbb{N}}$ written as $\prod_{k=0}^\infty a_k$.  Like an [[infinite series]], we are interested in knowing whether such a product [[convergence|converges]], and if so, what it converges to.
 
+### As an operator
+
+For any group or semigroup $G$, one should be able to define an infinite product as an [[operator]] $\prod_{n:N} (-)(n) : (N \to G) \to (N \to G)$ over the [[function algebra|function $G$-module]] $N \to G$. 
+
 ## Internalisation
 
-In a [[cartesian monoidal category]] $C$, let $(G,\cdot)$ be an multiplicative [[magma object]], let $(N,0,s)$ be a [[natural numbers object]] in $C$, and let $a:N\to G$ be an __sequence object__ of elements in $G$. Then there exists a sequence object $b:N\to G$ called the __left infinite product object__ of $a$ inductively defined by $b(0) = a(0)$ and $b(s(n)) = b(n) \cdot a(s(n))$, and a sequence object $c:N\to G$ called the __right infinite product object__ of $a$ inductively defined by $c(0) = a(0)$ and $c(s(n)) = a(s(n)) \cdot c(n)$. The element $b(n)$ is called the __left $n$-th partial product__ of the sequence $a$, and the element $c(n)$ is called the __right $n$-th partial product__ of the sequence $a$. If the magma object is [[commutative]] and [[associative]], then the left and right infinite product objects of $a$ are equal and just called an __infinite product object__ of $a$. 
+In a [[cartesian closed category]] $C$, let $(G,\cdot)$ be an multiplicative [[magma object]], let $(N,0,s)$ be a [[natural numbers object]] in $C$, and let $a:N\to G$ be an __infinite sequence object__ of elements in $G$. Then there exists an infinite sequence object $b:N\to G$ called the __left infinite product object__ of $a$ inductively defined by $b(0) = a(0)$ and $b(s(n)) = b(n) \cdot a(s(n))$, and an infinite sequence object $c:N\to G$ called the __right infinite product object__ of $a$ inductively defined by $c(0) = a(0)$ and $c(s(n)) = a(s(n)) \cdot c(n)$. The element $b(n)$ is called the __left $n$-th partial product__ of the sequence $a$, and the element $c(n)$ is called the __right $n$-th partial product__ of the sequence $a$. If the magma object is [[commutative]] and [[associative]], then the left and right infinite product objects of $a$ are equal and just called an __infinite product object__ $d = \prod_{n:N} a(n)$ of $a$, where the element $d(n)$ is the __$n$-th partial product__. 
 
 ## Convergence
 
