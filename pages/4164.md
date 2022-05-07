@@ -15,13 +15,13 @@
 
 
 #Contents#
-* the following line creates the automatic table of contents
+* table of contents
 {:toc}
 
 
 ## Idea ##
 
-The Reeh-Schlieder theorem is a theorem about [[local nets]] in the [[Haag-Kastler approach]] to [[quantum field theory]]. It states that for certain nets the set of vectors $\mathcal{M}(\mathcal{O}) \Omega$ (local algebra of a bounded open set applied to the vacuum vector, see [[Haag-Kastler vacuum representation]] for definitions and details) is dense in the given [[state]] space, a [[Hilbert space]] $\mathcal{H}$.
+The *Reeh-Schlieder theorem* is a [[theorem]] about [[local nets]] in the [[Haag-Kastler approach]] to [[quantum field theory]]. It states that for certain nets the set of vectors $\mathcal{M}(\mathcal{O}) \Omega$ (local algebra of a bounded open set applied to the vacuum vector, see [[Haag-Kastler vacuum representation]] for definitions and details) is dense in the given [[state]] space, a [[Hilbert space]] $\mathcal{H}$.
 
 The Reeh-Schlieder theorem can be proven to be valid in the [[Haag-Kastler vacuum representation]], but the statement itself is sometimes used as an axiom and called the **Reeh-Schlieder property** in this case.
 
@@ -141,6 +141,8 @@ The fact that the vacuum vector is cyclic means that any arbitrary state in the 
 * [[spin-statistics theorem]]
 
 * [[Osterwalder-Schrader theorem]]
+
+* [[state-field correspondence]]
 
 ## References ##
 
