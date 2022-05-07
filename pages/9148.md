@@ -42,6 +42,19 @@ Real-world [[physical systems]] that show behaviour described by the Ising model
 
 ## References
 
+Original articles:
+
+* {#Wegner71} [[Franz Wegner]], _Duality in Generalized Ising Models and Phase Transitions without Local Order Parameters_, Journal of Mathematical Physics 12, 2259 (1971) ([doi:10.1063/1.1665530](https://doi.org/10.1063/1.1665530))
+
+  > (introducing the idea of [[lattice QCD]])
+
+
+(...)
+
+
+Review:
+
+
 * {#PeetersZamaklar09} [[Kasper Peeters]], [[Marija Zamaklar]], section 2.1 of _Euclidean Field Theory_, Lecture notes 2009-2011 ([web](http://maths.dur.ac.uk/users/kasper.peeters/eft.html), [pdf](http://maths.dur.ac.uk/users/kasper.peeters/pdf/eft.pdf))
 
 
