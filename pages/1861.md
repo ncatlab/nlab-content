@@ -749,6 +749,14 @@ This is a [[non-abelian group|non-abelian]] analog of the [[Dirac charge quantiz
 
 ## Examples
 
+### Cohomotopy in the lowest dimensions
+
+Since the [[0-sphere]] is the disjoint union of two points, $0$-cohomotopy corresponds to the powerset of the connected components of a space.
+
+Further, the $(-1)$-sphere is understood as the [[empty space]]. Since the only map to the empty space is the identity map from the empty space, the $(-1)$-cohomotopy of a space is measuring whether that space is empty. In the context of [[homotopy type theory]], this is the same as [[negation]].
+
+
+
 ### Of projective spaces
 
 Cohomotopy sets of [[projective spaces]] are computed in [West 71](#West71)
