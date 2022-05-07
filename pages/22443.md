@@ -788,6 +788,7 @@ Clearly $(1)_{\sigma \in Sym(n)}$ is an eigenvector with eigenvalue $e^{- \beta 
 (by Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations})
 
 #### The signature distribution
+ {#TheSignatureDistribution}
 
 \begin{prop}\label{SignatureDistributionIsEigenvector}
 A further [[eigenvector]] of the Cayley distance kernel is $(sgn(\sigma))_{\sigma \in Sym(n)}$ with corresponding [[eigenvalue]] 
@@ -991,14 +992,10 @@ is indefinite for all
 $$
   e^{\beta}
   \;\in\;
-  (
-    n - 2a - 2, n - 2a - 1
-  )
-  \,,
-  \;\;
-  a \in \mathbb{N}
+  (0,1) \cup (1,2) \cup \cdots \cup (n-2, n-1)
   \,,
 $$
+
 or equivalently: 
 
 For $0 \lt e^\beta \lt n-1$ the Cayley distance kernel is indefinite except possibly at [[integer]] values.
@@ -1034,7 +1031,9 @@ Now since the kernel on $Sym(n-1)$ is a [[principal submatrix]] of that for $Sym
   By the [[Gershgorin circle theorem]] and using Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel},
   all the [[eigenvalues]] of the kernel are within a distance $r(\beta)$ (eq:GershgorinRadiusExpression) from its diagonal values, which are all equal to $1 = e^{- \beta \cdot 0}$. 
 Since, moreover, all eigenvalues are [[real numbers|real]], the condition
-$$ 
+\[
+  \label{GershgorinRadiusConditionForNonNegativeEigenvalues}
+  \begin{aligned}
   r(\beta)
     \;=\;
   e^{- \beta \cdot n }
@@ -1050,9 +1049,28 @@ $$
   \big)
   - 
   1
-\;\;\leq\;\; 
-1
-$$
+  &
+  \;\;\leq\;\; 
+  1
+  \\
+  \Leftrightarrow
+  \;\;\;
+  e^{- \beta \cdot n }
+  \,
+  \underoverset
+    {k = 0}
+    {n - 1}
+    {\prod}
+  \big(
+    e^{\beta}
+    + 
+    k
+  \big)
+  &
+  \;\;\leq\;\; 
+  2  
+  \end{aligned}
+\]
 implies that all eigenvalues are contained in the [[interval]] $[0,2] \subset \mathbb{R}$ and hence in particular that they are non-negative.
 \end{proof}
 
@@ -1074,12 +1092,14 @@ $$
   \frac{
     n-1
   }{
-    2^{1/n} - 1
+    q^{1/n} - 1
   }  
-  \,.
 $$
+for $q = 3$.
 \end{prop}
 \begin{proof}
+First consider the case of $q =2$:
+
 In the given case (eq:InverseTemperatureEqualToNaturalLogarithmOfNaturalNumber)
 the Gershgorin bound (eq:GershgorinBoundOnTemperatureForPositivity) for positive semi-definity of the Cayley distance kernel reads
 $$   
@@ -1195,10 +1215,12 @@ $$
   }
   \end{aligned}
 $$
+
+Now to improve this to $q =3$: Assuming that at least $N \geq n-1$, we know that the eigenvalues of the homogeneous distribution (Example \ref{HomogeneousDistributionIsEigenvalue}) and of the signature distribution (Prop. \ref{SignatureDistributionIsEigenvector}) are non-negative (by Prop. \ref{SignOfTheEigenvalueOfTheSigantureDistribution}). But by the character formula for [[Cayley graph spectra]] ([this Prop](Cayley+graph+spectrum#CharacterFormula)) these are precisely the two eigenvalues with unit multiplicity. Therefore a strengthening of the [[Gershgorin circle theorem]] applies to all the remaining eigenvalues, saying ([this Prop.](Gershgorin+circle+theorem#StrengtheningForNonNegativeMatrices)) that these are in fact within *half* the Gershgorin radius (eq:GershgorinRadiusExpression). This allows us to put a factor of 1/2 on the left hand side of the first row of  (eq:GershgorinRadiusConditionForNonNegativeEigenvalues), which amounts to replacing the "2" by a "3" on the right of the second row.
 \end{proof}
 
 \begin{remark}
-  Computer-experiment suggests ([CSS21](#CSS21)) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $N$, at least, the inverse temperature $\beta = ln(N-1)$ is already sufficient for positive semi-definiteness.
+  Computer-experiment suggests ([CSS21](#CSS21)) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $N$, at least, the inverse temperature $\beta \geq ln(N-1)$ is already sufficient for positive semi-definiteness.
 \end{remark}
 
 
@@ -1231,7 +1253,6 @@ Supplementary references:
 
 * {#Stanley11} [[Richard Stanley]], *[Enumerative combinatorics](http://www-math.mit.edu/~rstan/ec/)* -- [Volume 1](http://www-math.mit.edu/~rstan/ec/ec1/), Wadsworth & Brooks/Cole Mathematics Series book series 1986, 1997 ([doi:10.1007/978-1-4615-9763-6](https://link.springer.com/book/10.1007/978-1-4615-9763-6)) reprinted in: Cambridge Studies in Advanced Mathematics, Cambridge University Press 2011 ([ISBN:9781107602625](https://www.cambridge.org/us/academic/subjects/mathematics/discrete-mathematics-information-theory-and-coding/enumerative-combinatorics-volume-1-2nd-edition?format=PB&isbn=9781107602625), [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
 
-* {#Kaski02} Petteri Kaski, *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.jpg:file]])
-
+* {#Kaski02} [[Petteri Kaski]], *Eigenvectors and spectra of Cayley graphs*, 2002 ([pdf](http://www.tcs.hut.fi/Studies/T-79.300/2002S/esitelmat/kaski_paper_020506.pdf), [[KaskiSpectraOfCayleyGraphs.jpg:file]])
 
 [[!redirects Cayley distance kernels]]
