@@ -203,7 +203,7 @@ of smoothly parameterized path $\infty$-groupoids in $A$ (Def. \ref{PathInfinity
      \,,
    \]
 
-   which means in particular (by $&#643; \simeq Disc \circ Shape$) that it is equivalent to the plain [[path ∞-groupoid]] from Def. \ref{PathInfinityGroupoid}, equipped with [[discrete object|discrete]] smooth structure:
+1. which means in particular (by $&#643; \simeq Disc \circ Shape$) that it is equivalent to the plain [[path ∞-groupoid]] from Def. \ref{PathInfinityGroupoid}, equipped with [[discrete object|discrete]] smooth structure:
 
    \[
      \label{SmoothlyParameterizePathInfinityGroupoidIsDiscrete}
