@@ -68,8 +68,15 @@ Beware here the required skeletal degree: On the one hand, the cellular approxim
 
 Such finite-dimensional $G$-principal bundles, universal for base spaces of fixed bounded dimension, have the advantage that they carry an ordinary [[smooth manifold]]-[[mathematical structure|structure]] (instead of just a [[generalized smooth space]]-structure) and as such an ordinary [[principal connection]], which is a [[universal connection]] for bundles over fixed bounded-dimensional base spaces. In this way these finite-dimensional universal bundles serve as a foundation for [[Chern-Weil theory]] ([Chern 51 -- p. 45 and 67](Chern-Weil+theory#Chern51), [Narasimhan-Ramanan 61](Chern-Weil+theory#NarasimhanRamanan61), [Narasimhan-Ramanan 63](Chern-Weil+theory#NarasimhanRamanan63), [Sclafly 80](Chern-Weil+theory#Schlafly80)).
 
+## Related concepts
+
+* [[CW-approximation theorem]]
+
+* [[Whitehead's theorem]]
 
 ## References
+
+### General
 
 * {#Spanier66} [[Edwin Spanier]], ch. 7. sec. 6, cor. 18 (p. 404)  of: _Algebraic topology_, Springer 1966 ([doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1))
 
@@ -78,10 +85,23 @@ Such finite-dimensional $G$-principal bundles, universal for base spaces of fixe
 * {#Hatcher02} [[Allen Hatcher]], Theorem 4.8, [p. 349](http://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=358) in: _Algebraic topology_, Cambridge Univ. Press 2002 ([web](http://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
 
 
-
-
 See also
 
 * Wikipedia, _[Cellular approximation](http://en.wikipedia.org/wiki/Cellular_approximation)_
 
+### In equivariant homotopy theory
+ {#ReferencesInEquivariantHomotopyTheory}
 
+Cellular approximation for [[G-CW complexes]] in [[equivariant homotopy theory]] is due to:
+
+* {#Matumoto71} [[Takao Matumoto]], Theorem 4.4 in: _On $G$-CW complexes and a theorem of JHC Whitehead_, J. Fac. Sci. Univ. Tokyo Sect. IA 18, 363-374, 1971 ([[matumoto.pdf:file]])
+
+Textbook account:
+
+* {#tomDieck87} [[Tammo tom Dieck]], Theorem 2.1 in: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+Review:
+
+* [[Jay Shah]], Theorem 2.5 in: _Equivariant algebraic topology_, 2010 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
+
+[[!redirects equivariant cellular approximation theorem]]
