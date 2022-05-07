@@ -1195,6 +1195,7 @@ Remembering that there is a considerable difference between global low energy su
 * {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
  
 [[!redirects supersymmetries]]
+[[!redirects Supersymmetry]]]
 
 [[!redirects supersymmetry algebra]]
 [[!redirects supersymmetry algebras]]
