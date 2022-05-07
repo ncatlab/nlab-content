@@ -174,6 +174,10 @@ Cautioning against the interpretation of type Ia [[supernovae]] as indicative of
   (preferring [[phantom dark energy]])
 
 
+* {#MRS21} [[Roya Mohayaee]], [[Mohamed Rameez]], [[Subir Sarkar]], *Do supernovae indicate an accelerating universe?* ([arXiv:2106.03119](https://arxiv.org/abs/2106.03119))
+
+
+
 
 ### In pAQFT
  {#ReferencedInpAQFT}
