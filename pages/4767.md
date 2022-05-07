@@ -15,7 +15,7 @@ Consider the [[field]] of [[real numbers]]; these numbers form a [[Lie group]] u
 
 The Lie groups $\mathbb{R}$ and $\mathbb{R}^+$ are in fact [[isomorphic]].  In fact, there is one isomorphism for each positive real number $b$ other than $1$; this number $b$ is called the __base__.  Fixing a base, the map from $\mathbb{R}^+$ to $\mathbb{R}$ is called the __real logarithm with base $b$__, written $x \mapsto \log_b x$; the map from $\mathbb{R}$ to $\mathbb{R}^+$ is the __real [[exponential map]] with base $b$__, written $x \mapsto b^x$.
 
-The real logarithms are handily defined using the [[Riemann integral]] as follows:
+The real logarithms are handily defined using the [[Riemann integral]] of the [[reciprocal]] as follows:
 \[ \label{integrals} \array {
    \ln x & \coloneqq \int_1^x \frac{1}{t} \,\mathrm{d}t ;\\
    \log_b x & \coloneqq \frac{\ln x}{\ln b} .\\
@@ -66,6 +66,8 @@ This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie 
 * [[logarithmic integral function]]
 
 * [[logarithmic cohomology operation]]
+
+* [[reciprocal]]
 
 
 [[!redirects logarithm]]
