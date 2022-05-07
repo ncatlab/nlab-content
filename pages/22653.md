@@ -103,7 +103,7 @@ $$
 $$
 
 \end{prop}
-This is stated on the [Wikipedia page](https://en.wikipedia.org/wiki/Jucys%E2%80%93Murphy_element), attributed to Jucys but without explicit reference. Possibly due to [Jucys 71](#Jucys71).
+This is attributed on the [Wikipedia page](https://en.wikipedia.org/wiki/Jucys%E2%80%93Murphy_element), Jucys but without explicit reference. Possibly due to [Jucys 71](#Jucys71).
 
 \begin{proof}
 
