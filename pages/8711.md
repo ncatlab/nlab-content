@@ -1,4 +1,4 @@
-Alexander Kurz is a Professor  in the department of Computer Science at Chapman University, Orange, Southern California.. He has written extensively on the applications of coalgebra techniques in modal logic
+Alexander Kurz is a Professor  in the department of Computer Science at Chapman University, Orange, Southern California.. He has written extensively on the applications of [[coalgebra]] techniques in [[modal logic]].
 
 * [Faculty Webpage](https://www.chapman.edu/engineering/about/faculty/program-faculty/alex-kurz.aspx).
 
@@ -16,4 +16,5 @@ Publication list (from previous post at Leicester University, UK.):
 
 
 category:people
+
 [[!redirects A. Kurz]]
