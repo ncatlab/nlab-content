@@ -1,7 +1,8 @@
 
+This entry is about the article
 
 
-* [[René Thom]]
+* [[René Thom]]:
 
   \linebreak
 
@@ -19,7 +20,17 @@
 
   [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf)
 
-on [[cobordism theory]], introducing [[Thom's theorem]].
+on [[differential topology]], proving [[Thom's theorem]] which identifies [[cobordism classes]] of [[oriented submanifolds]] with [[homotopy classes]] of maps into a universal [[Thom space]] $M SO(n)$.
+
+Together with 
+
+* {#Pontrjagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+
+or rather its belated exposition in
+
+* {#Pontrjagin55} [[Lev Pontrjagin]], _[[Smooth manifolds and their applications in homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955, AMS Translation Series 2, Vol. 11, 1959 ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
+
+due to which Thom's construction came to be mainly known as the _[[Pontryagin-Thom construction]]_, this lays the foundations of [[cobordism theory]] as such and as a tool in [[stable homotopy theory]].
 
 #Contents#
 * table of contents
