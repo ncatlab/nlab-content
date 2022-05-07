@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,10 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -27,13 +25,14 @@ $$
   ln 
   \left(
     \frac{1}{
-      max(EigVals(\rho))
+      max(\sigma(\rho))
     }
   \right)
   \,.
 $$
 
-(see e.g. [Chen 19, Def. 5.2.2](#Chen19))
+(see e.g. [Chen 19, Def. 5.2.2](#Chen19)).  Here, $\sigma(\rho)$ is the [[operator spectrum]] of $\rho$, which (in the finite-dimensional case) is the set of eigenvalues.
+
 
 ## References
 
@@ -45,8 +44,9 @@ In the context of [[holographic entanglement entropy]]:
 
 * [[Ning Bao]], [[Geoffrey Penington]], [[Jonathan Sorce]], [[Aron C. Wall]], Section 2.3 of: _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_,  JHEP 2019:69 ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
 
+
+[[!redirects min-entropy]]
 [[!redirects min-entropies]]
 
 [[!redirects min entropy]]
 [[!redirects min entropies]]
-
