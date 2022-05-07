@@ -75,6 +75,9 @@ Original sources include
 * M Khovanov, An invariant of tangle cobordisms, Trans. Amer. Math. Soc. __358__ (2006), no. 1, 315&#8211;327, arXiv:math.QA/0207264, [MR2006g:57046](http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=2171235&loc=fromreflist), [doi](http://dx.doi.org/10.1090/S0002-9947-05-03665-2)
 * Rapha&#235;l Rouquier, _Khovanov-Rozansky homology and 2-braid groups_, [arxiv/1203.5065](http://arxiv.org/abs/1203.5065)
  
+* [[Carlo Collari]],  _The Functoriality of Khovanov Homology and the Monodromy of Knots_, 2013 ([pdf](https://core.ac.uk/download/pdf/19204099.pdf), [[CollariKhovanovHomology.pdf:file]])
+
+
 
 An expository reviews are
 
