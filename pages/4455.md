@@ -68,7 +68,7 @@ A set $F$ with a [[linear order]] is **Dedekind complete** if
 
 ### In predicative constructive mathematics
 
-In predicative mathematics, subsets are large and therefore are proper classes. Instead, in the manner of [[formal topology]], predicative mathematicians typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __predicative cuts__, where $\Sigma$ is a [[sigma-frame|$\sigma$-frame]]. The definitions then become
+In predicative constructive mathematics, subsets are large and therefore are proper classes. Thus, any Dedekind completion of a [[dense linear order]], and in particular the rational numbers, is a [[proper class]]. Instead, predicative constructive mathematicians typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __predicative cuts__, where $\Sigma$ is a [[sigma-frame|$\sigma$-frame]]. The definitions then become
 
 +-- {: .num_defn}
 ###### Definition
