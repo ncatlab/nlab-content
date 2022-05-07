@@ -1325,6 +1325,8 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 * [[(∞,n)-category with adjoints]]
 
+* [[multi-adjoint]], [[weak adjoint]], [[solution set condition]]
+
 
 ## References
  {#References}
