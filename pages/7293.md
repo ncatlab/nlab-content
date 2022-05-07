@@ -17,7 +17,7 @@
 
 In [[algebraic topology]], what are called the _Steenrod squares_ is the system of [[cohomology operations]] on [[ordinary cohomology]] with [[coefficients]] in $\mathbb{Z}_2$ (the [[cyclic group of order 2]]) which is compatible with [[suspension]] (the "stable cohomology operations").  They are special examples of [[power operations]].
 
-The collwction of Steenrod squares for all degrees forms the _[[Steenrod algebra]]_, see there for more.
+The collection of Steenrod squares for all degrees forms the _[[Steenrod algebra]]_, see there for more.
 
 ## Definition
 
