@@ -75,7 +75,7 @@ In the case that we do have extra assumptions on the codomain in that
 
 * and with the [[Reedy category]] $R$ an ordinary category regarded as a [[SSet]]-[[enriched category]], 
 
-the Reedy model structure, having the same weak equivalences as the [[global model structure on functors]], presents similarly the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$, from $C$ into the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $C$.
+the Reedy model structure, having the same weak equivalences as the [[global model structure on functors]], presents similarly the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$, from $R$ into the [[(∞,1)-category]] [[presentable (∞,1)-category|presented by]] $C$.
 
 
 ## Remarks
