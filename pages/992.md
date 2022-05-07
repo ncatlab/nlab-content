@@ -19,7 +19,7 @@
 
 ## Idea
 
-A stable [[(∞,1)-category]] $C$, is a pointed $(\infty,1)$-category with finite [[limit]]s which is _stable_ under forming [[loop space objects]]: 
+A stable [[(∞,1)-category]] $C$, is a [[pointed (∞,1)-category]] with [[finite (∞,1)-limit]] which is _stable_ under forming [[loop space objects]]: 
 
 $C$ has a [[zero object]] and the corresponding loop [[(∞,1)-functor]]
 
