@@ -193,8 +193,6 @@ This is related to the definition of [[Pi-algebras]].
 
 In the context of [[simplicial groups]], representing [[connected]] [[homotopy types]], there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. 
 
-(e.g. [Scherer-Chorny 11, Sec. 1](#SchererChorny11))
-
 
 (This formula for the Whitehead product is due to [[Dan Kan]] and can be found in the old survey article of [[Ed Curtis]].  The proof that it works was never published. For more pointers see [MO:q/296479/381](https://mathoverflow.net/q/296479/381))
 
@@ -361,7 +359,9 @@ where the wedge product on the right is normalized as in (eq:WedgeProductNormali
 
 ([Andrews-Arkowitz 78, Thm. 6.1](#AndrewsArkowitz78), following [Deligne-Griffiths-Morgan-Sullivan 75](#DeligneGriffithsMorganSullivan75))
 
+###Relation to Goodwillie Calculus:
 
+See e.g. [Scherer-Chorny 11, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson product]]s.
 
 ## Examples
 
