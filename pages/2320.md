@@ -2,6 +2,10 @@
 
 ## Selected writings
 
+On [[twisted ad-equivariant K-theory]] via [[differentiable stacks]]:
+
+* [[Ulrich Bunke]], Ingo Schroeder, _Twisted K-Theory and TQFT_ ([arXiv:math/0504458](https://arxiv.org/abs/math/0504458), [spire:681555](https://inspirehep.net/literature/681555))
+
 On [[differential cohomology]]:
 
 * [[Ulrich Bunke]], _Differential cohomology_ ([arXiv:1208.3961](http://arxiv.org/abs/1208.3961))
