@@ -248,6 +248,10 @@ Relation to [[Calabi-Yau manifolds]]:
 
 * {#LLP17} [[Ivan Limonchenko]], [[Zhi Lu]], [[Taras Panov]], _Calabi-Yau hypersurfaces and SU-bordism_, Proceedings of the Steklov Institute of Mathematics 302 (2018), 270-278 ([arXiv:1712.07350](https://arxiv.org/abs/1712.07350))
 
+On the (failure of) the [[Conner-Floyd isomorphism]] for $MSU \to $ [[KO]]:
+
+* [[Serge Ochanine]], _Modules de SU-bordisme. Applications_, Bulletin de la Société Mathématique de France, Tome 115 (1987) , pp. 257-289 ([doi:10.24033/bsmf.2078]( https://doi.org/10.24033/bsmf.2078))
+
 Survey:
 
 * {#CLP19} Georgy Chernykh, [[Ivan Limonchenko]], [[Taras Panov]], _$SU$-bordism: structure results and geometric representatives_, Russian Math. Surveys 74 (2019), no. 3, 461-524 ([arXiv:1903.07178](https://arxiv.org/abs/1903.07178))
