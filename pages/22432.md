@@ -69,6 +69,8 @@ The permutation action restricted to the cycle is a [[cyclic permutation]].
 
 ## Related concepts
 
+* [[Cayley distance]], [[Kendall distance]]
+
 * [[cyclic permutation]]
 
 * [[orbit]]
