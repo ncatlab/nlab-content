@@ -49,12 +49,12 @@ but this cannot be done simply by dropping the last condition.
 
 ## Serre–Swan-type duality
 
-The category of measurable fields of Hilbert spaces on $(X,\Sigma,N)$ is equivalent
-to the category of [[W*-modules]] over the [[commutative von Neumann algebra]]
+The category of measurable fields of Hilbert spaces on $(X,\Sigma,N)$ (as defined above) is equivalent
+to the category of countably-generated [[W*-modules]] over the [[commutative von Neumann algebra]]
 $\mathrm{L}^\infty(X,\Sigma,N)$.
 
-(If we work with bundles of separable Hilbert spaces,
-then [[W*-modules]] must be countably generated.)
+(If we work with bundles of general, possibly nonseparable Hilbert spaces,
+then the [[W*-modules]] do not need to be countably generated.)
 
 ## Related entries
 
