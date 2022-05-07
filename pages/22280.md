@@ -63,13 +63,13 @@ A topos with a [[subobject classifier]] that is also a two-valued object is a [[
 
 ### Type theory
 
-Two-valued objects are the [[categorical semantics]] of the type of booleans in type theory (insert reference to HoTT book section 1.8 here). The [[inductive type|inductive property]] of the type of booleans, case analysis or if/else expressions, corresponds to the [[initial object|initiality]] of the two-valued object in the subcategory of objects with more than one global element, similar to how the principle of [[induction]] over [[natural numbers]] corresponds to the initiality of the [[natural numbers object]] in the subcategory of triples $(A, q:1\rightarrow A, f:A\rightarrow A)$ representing infinite sequences. 
+Two-valued objects are the [[categorical semantics]] of the [[two-valued type]] in type theory. The [[inductive type|inductive property]] of the two-valued type, case analysis or if/else expressions, corresponds to the [[initial object|initiality]] of the two-valued object in the subcategory of objects with more than one global element, similar to how the principle of [[induction]] over [[natural numbers]] corresponds to the initiality of the [[natural numbers object]] in the subcategory of triples $(A, q:1\rightarrow A, f:A\rightarrow A)$ representing infinite sequences. 
 
 ## Examples
 
 * The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[axiom of choice|choice sets]] are two-valued objects. 
 
-* Any [[interval object]] is a two-valued object with a [[morphism]] connecting the global elements $zero$ and $one$. 
+* Any [[interval object]] is a two-valued object with a [[2-morphism]] connecting the global elements $zero$ and $one$. 
 
 ## See also
 
@@ -78,3 +78,5 @@ Two-valued objects are the [[categorical semantics]] of the type of booleans in 
 * [[integers object]]
 
 * [[subobject classifier]]
+
+* [[two-valued type]], [[two-valued topos]], [[two-valued logic]]
