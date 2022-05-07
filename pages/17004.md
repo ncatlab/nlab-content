@@ -289,11 +289,11 @@ Discussion of stable Cohomotopy of [[Lie groups]]:
 * Sławomir Nowak, _Stable cohomotopy groups of compact spaces_, Fundamenta Mathematicae 180 (2003), 99-137 ([doi:10.4064/fm180-2-1](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/180/2))
 
 
-The identification of stable cohomotopy with the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite set]] is due to 
+The identification of stable cohomotopy with the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite sets]] is due to 
 
 * {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici, December 1972, Volume 47, Issue 1, pp 1–14 ([doi:10.1007/BF02566785](https://link.springer.com/article/10.1007/BF02566785))
 
-* {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  ([pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
+* {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>, [pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
 see also
 
@@ -351,7 +351,7 @@ see also
 
 Discussion of [[Boardman homomorphisms]] from stable cohomotopy is in 
 
-* {#Arlettaz04} Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
+* {#Arlettaz04} [[Dominique Arlettaz]], _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56 ([doi:10.2478/BF02475949](https://doi.org/10.2478/BF02475949))
 
 
 A lift of [[Seiberg-Witten invariants]] to classes in [[circle group]]-[[equivariant stable cohomotopy]] is discussed in
