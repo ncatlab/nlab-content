@@ -101,7 +101,7 @@ A dense unbounded inhabited irreflexive comparison is an irreflexive comparison 
 +-- {: .num_defn}
 ###### Definition
 
-Given a dense unbounded inhabited irreflexive completion $S$, a __cut__ is a pair $(L,U)$ of [[subsets]] such that:
+Given a dense unbounded inhabited irreflexive comparison $S$, a __cut__ is a pair $(L,U)$ of [[subsets]] such that:
 
 1.  $L$ is [[inhabited subset|inhabited]] (which is a special case of (5) for $F$ the [[empty subset]]);
 2.  Dually, $U$ is inhabited (a special case of (6));
