@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include model theory - contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 =--
 =--
 
@@ -45,6 +49,8 @@ The theory $\mathsf{DLO}$ of the _dense linear order without endpoints_ is the [
 * [[omega-categorical structure]]
 
 * [[homogeneous structure]]
+
+* [[locator]]
 
 ## References
 
