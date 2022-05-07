@@ -824,13 +824,14 @@ The spectrum Brown-representing a [[multiplicative cohomology theory]] inherits 
 
 ## References
 
-The original theorem was proven in
+The original version of the theorem:
 
-* {#Brown62} [[Edgar Brown]], _Cohomology theories_, Annals of Mathematics, Second Series 75: 467&#8211;484 (1962)
+* {#Brown62} [[Edgar Brown]], _Cohomology theories_, Annals of Mathematics, Second Series 75: 467&#8211;484 (1962) ([jstor:1970209](https://www.jstor.org/stable/1970209))
 
-The categorical generalization was proven in
+The category-theoretic generalization:
 
-* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965)
+* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) ([doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6))
+
 
 A simplified version of the proof was spelled out in 
 
