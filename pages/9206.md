@@ -114,6 +114,9 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 * Lakshya Bhardwaj, _Flavor Symmetry of 5d SCFTs, Part 2: Applications_ ([arXiv:2010.13235](https://arxiv.org/abs/2010.13235))
 
+* Hirotaka Hayashi, Hee-Cheol Kim, [[Kantaro Ohmori]], _6d/5d exceptional gauge theories from web diagrams_ ([arXiv:2103.02799](https://arxiv.org/abs/2103.02799))
+
+
 
 
 ### From M-theory on Calabi-Yau 3-folds
