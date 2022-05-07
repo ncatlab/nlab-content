@@ -567,7 +567,7 @@ Discussion in terms of D-branes as [[leaves]] of [[Dirac structures]] on [[Coura
 
 See also
 
-* [[Martin Cederwall]], Alexander von Gussich, Aleksandar Mikovic, [[Bengt Nilsson]], Anders Westerberg, _On the Dirac-Born-Infeld Action for D-branes_,  Phys.Lett.B390:148-152, 1997 ([arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173))
+* [[Martin Cederwall]], Alexander von Gussich, [[Aleksandar Mikovic]], [[Bengt Nilsson]], Anders Westerberg, _On the Dirac-Born-Infeld Action for D-branes_,  Phys.Lett.B390:148-152, 1997 ([arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173))
 
 * Ian I. Kogan, Dimitri Polyakov, _DBI Action from Closed Strings and D-brane second Quantization_, Int. J. Mod. Phys. A18 (2003) 1827 ([arXiv:hep-th/0208036](https://arxiv.org/abs/hep-th/0208036))
 
