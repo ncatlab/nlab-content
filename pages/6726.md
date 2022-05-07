@@ -2,12 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 #### Representation theory
 +-- {: .hide}
 [[!include representation theory - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
@@ -254,6 +260,11 @@ The concept first appears in work by [[Carl Jacobi]] on [[determinants]].
 It is named after:
 
 * [[Issai Schur]], *Über eine Klasse von Matrizen die sich einer gegeben Matrix zuordnen lassen*, Inaugural-Dissertation, Berlin (1901) JMF 32.0165.04
+
+See also
+
+* [[Richard Stanley]], Section II of: *Theory and application of plane partitions 1*, Studies in Applied Math. **50** 2 (1971), 167-188 ([pdf](http://www-math.mit.edu/~rstan/pubs/pubfiles/12-1.pdf), [[StanleyPlanePartitions1.pdf:file]])
+
 
 Textbook accounts:
 
