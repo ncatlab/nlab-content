@@ -35,3 +35,6 @@ On [[homotopy theory]]:
 
 category: people
 
+
+[[!redirects George W. Whitehead]]
+
