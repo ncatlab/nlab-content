@@ -32,6 +32,8 @@ We call it the **2-trivial model structure**, as it is a 2-categorical analogue 
 
 * In [[Cat]], this produces the [[canonical model structure]].
 
+* In the 2-category of spaces, continuous functions and homotopy classes of homotopies, this produces the [[model structure on topological spaces#Hurewicz (or Strøm) Model Structure|Hurewicz model structure]].
+
 * By duality, any such category has another model structure, with the same weak equivalences but where the cofibrations are the iso-cofibrations and the fibrations are determined.  In $Cat$, the two model structures are the same.
 
 * If $T$ is an [[accessible functor|accessible]] [[strict 2-monad]] on a [[locally finitely presentable category|locally finitely presentable]] [[strict 2-category]] $K$.  Then the category $T Alg_s$ of strict $T$-[[algebra over a monad|algebras]] admits a [[transferred model structure]] from the 2-trivial model structure on $K$.  The cofibrant objects therein are the [[flexible algebra]]s.
