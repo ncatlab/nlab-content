@@ -15,6 +15,10 @@
 +-- {: .hide}
 [[!include trigonometry -- contents]]
 =--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
 =--
 =--
 
@@ -26,7 +30,7 @@
 
 ## Idea
 
-The concept of  _Euclidean space_ in [[analysis]], [[topology]] and [[differential geometry]] and specifically _[[Euclidean geometry]]_ is a fomalization in modern terms of the [[spaces]] studied in [Euclid 300BC](#Euclid300BC), equipped with the [[extra structure|structures]] that Euclid recognised his spaces as having.
+The concept of  _Euclidean space_ in [[analysis]], [[topology]], [[differential geometry]] and specifically _[[Euclidean geometry]]_, and [[physics]] is a fomalization in modern terms of the [[spaces]] studied in [Euclid 300BC](#Euclid300BC), equipped with the [[extra structure|structures]] that Euclid recognised his spaces as having.
 
 In the strict sense of the word, Euclidean space $E^n$ of dimension $n$ is, up to [[isometry]], [[generalized the|the]] [[metric space]] whose underlying [[set]] is the [[Cartesian space]] $\mathbb{R}^n$ and whose [[distance]] function $d$ is given by the [[Euclidean norm]]: 
 
@@ -83,6 +87,8 @@ and other inner products are recovered by linearity.  (We must then use the axio
 * [[synthetic geometry]]
 
 * [[Euclidean field theory]]
+
+* [[geometric algebra]]
 
 ## References
 
