@@ -225,6 +225,8 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
   * [[permutative category]], [[bipermutative category]]
 
+  * [[symmetric monoidal dagger category]]
+
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
 * [[equivariant symmetric monoidal category]]
