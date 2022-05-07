@@ -415,8 +415,6 @@ It follows that:
 
 On [[homotopy limits]]:
 
-This following is claimed on the first two pages of [Anderson 1978](#Anderson78):
-
 \begin{proposition}\label{SufficientConditionsForRealizationToPreserveHomotopyPullback}
   If $f_\bullet \,\colon\, X_\bullet \xrightarrow{\;} Y_\bullet$ is a morphism of simplicial spaces such that 
 
@@ -426,6 +424,11 @@ This following is claimed on the first two pages of [Anderson 1978](#Anderson78)
 
 then the geometric realization of any [[homotopy pullback]]-square of $f_\bullet$ is a [[homotopy pullback]]-square in topological spaces.
 \end{proposition}
+([Anderson 1978, p. 2](#Anderson78))
+
+An alternative sufficient condition is: $Y_\bullet$ is pointed and degreewise connected ([Lurie HA, Lem. 5.5.6.17](#LurieHigherAlgebra)). For more see [Lurie SimplicialSpaces](#LurieSimplicialSpaces).
+
+
 
 
 #### Fat geometric realization
@@ -1081,6 +1084,10 @@ Discussion of sufficient conditions for geometric realization to be compatible w
 * Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
 
   (expanded version of [Rezk 14](#Rezk14))
+
+* {#LurieSimplicialSpaces} [[Jacob Lurie]], *Simplicial spaces*, Lecture 7 of: *[Algebraic L-theory and Surgery](https://www.math.ias.edu/~lurie/287x.html)* ([pdf](https://www.math.ias.edu/~lurie/287xnotes/Lecture7.pdf))
+
+* {#LurieHigherAlgebra} [[Jacob Lurie]], around Lemma 5.5.6.17 in: *[[Higher Algebra]]*
 
 
 ### Realization of topological stacks 
