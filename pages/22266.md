@@ -41,3 +41,15 @@ This should hold for $G$ a [[compact Lie group]] (such as a [[finite group]]) an
 * [[Jay Shah]], Theorem 2.9 in: _Equivariant algebraic topology_, 2010 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
 
 [[!redirects G-CW approximations]]
+
+[[!redirects G-CW-approximation]]
+[[!redirects G-CW-approximations]]
+
+
+[[!redirects G-CW approximation theorem]]
+[[!redirects G-CW approximation theorems]]
+
+[[!redirects G-CW-approximation theorem]]
+[[!redirects G-CW-approximation theorems]]
+
+
