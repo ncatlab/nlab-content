@@ -117,7 +117,7 @@ Judging from the preface to [[Sets for Mathematics|(Lawvere-Rosebrugh 2003)]] My
 
 * [[Colin McLarty]], _Defining Sets as Sets of Points of Spaces_ , JPL **17** (1988) pp.75-90.
 
-* [[Colin McLarty]], _Elementary Categories, Elementary Toposes_ , Oxford UP 1992.
+* [[Colin McLarty]], _[[Elementary Categories, Elementary Toposes]]_ , Oxford UP 1992 ([ISBN:9780198514732](https://global.oup.com/academic/product/elementary-categories-elementary-toposes-9780198514732?cc=ae&lang=en&))
 
 The Cantor text Lawvere refers to is
 
