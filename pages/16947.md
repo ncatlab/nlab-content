@@ -8,6 +8,11 @@ On [[G-spaces]], [[equivariant homotopy theory]] and [[equivariant cohomology]]:
 
 * [[Alejandro Adem]], [[James Davis]], *Topics in Transformation Groups*, Chapter 1 in: *Handbook of Geometric Topology*, 2001, Pages 1-54 ([doi:10.1016/B978-044482432-5/50002-0](https://doi.org/10.1016/B978-044482432-5/50002-0), [pdf](https://personal.math.ubc.ca/~adem/topics.pdf))
 
+On [[braid group representations]] seen in the [[topological K-theory]] of the [[classifying space]] of the [[braid group]]:
+
+* [[Alejandro Adem]], [[Daniel C. Cohen]], [[Frederick R. Cohen]], *On representations and K-theory of the braid groups*, Math. Ann. **326** (2003) 515-542 ([arXiv:math/0110138](https://arxiv.org/abs/math/0110138), [doi:10.1007/s00208-003-0435-8](https://doi.org/10.1007/s00208-003-0435-8))
+
+
 
 On [[free action|free]] [[group actions on n-spheres]] (or rather on [[product topological space|product spaces]] of [[n-spheres]]):
 
