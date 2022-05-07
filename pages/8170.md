@@ -33,7 +33,7 @@ See also
 
 * [[Gordon Kane]], _Compactifying M-theory on a $G_2$ manifold to describe/explain our world – Predictions for LHC (gluinos, winos, squarks),  and dark matter_ ([pdf](https://indico.cern.ch/event/506172/contributions/2026001/attachments/1256948/1855957/CMS_talk.pdf))
 
-* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
+* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017, 2021 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>, [ISBN:978-0-7503-3583-6](https://iopscience.iop.org/book/978-0-7503-3583-6))
 
 * {#Kane18} [[Gordon Kane]], _Exciting Implications of LHC Higgs Boson Data_ ([arXiv:1802.05199](https://arxiv.org/abs/1802.05199))
 
