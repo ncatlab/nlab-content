@@ -11,5 +11,10 @@ On [[skyrmions]]/[[solitons]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD corresp
 
 * {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
+On [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
+
+
+* Salvatore Baldino, Lorenzo Bartolini, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], _Holographic Nuclear Physics with Massive Quarks_ ([arXiv:2102.00680](https://arxiv.org/abs/2102.00680))
+
 
 category: people
