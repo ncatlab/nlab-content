@@ -53,7 +53,7 @@ Consider the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of [[
 (sometimes called the "[[global orbit category]]"), hence the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] of [[groupoids]] on the [[delooping groupoids]] of [[finite groups]] $G$.
 
 
-Then for $\mathbf{H}_{\subset}$ any [[base (infinity,1)-topos|base $\infty$-topos]] 
+Then for $\mathbf{H}_{\subset}$ any [[base (infinity,1)-topos|base $\infty$-topos]], 
 the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-category of $\infty$-presheaves]] over $Singularities$ (eq:CategoryOfSingularities)
 
 $$
@@ -137,7 +137,7 @@ $$
       ]
 \end{tikzcd}
 
-This follows on general abstract grounds (see at *[Adjoint quadruple -- Cohesion](adjoint+quadruple#CohesiveToposes)*) from the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] inclusion
+For the discrete equivariance groups considered here, this follows on general abstract grounds (see at *[Adjoint quadruple -- Cohesion](adjoint+quadruple#CohesiveToposes)*) from the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] inclusion
 
 $$
   \Singularities_{/\boxed{\prec}\mathbf{B}G}
@@ -149,12 +149,12 @@ $$
   \,,
 $$
 
-as discussed at *[[cohesion of global- over G-equivariant homotopy theory]]*.
+as discussed at *[[cohesion of global- over G-equivariant homotopy theory]]* (highlighted in [Rezk 2014, Sec. 7](#Rezk14)).
 
 
 ### Globally equivariant cohesive homotopy theory
 
-Now if $\mathbf{H}_{\subset}$ is itself [[cohesive (infinity,1)-topos|cohesive]] over [[Infinity-Grpd|$Grpd_\infty$]] then $\mathbf{H} = Glo(\mathbf{H}_{\subset})$ carries the following system of [[adjoint quadruples]]:
+This means that if $\mathbf{H}_{\subset}$ is itself [[cohesive (infinity,1)-topos|cohesive]] over [[Infinity-Grpd|$Grpd_\infty$]] then $\mathbf{H} = Glo(\mathbf{H}_{\subset})$ carries the following system of [[adjoint quadruples]]:
 
 
 \begin{imagefromfile}
