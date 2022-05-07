@@ -81,7 +81,9 @@ These last facts are part of the lore of the celebrated Burnside problem. The *f
 
 See also
 
-* GroupProps, _[Exponent of a group](https://groupprops.subwiki.org/wiki/Exponent_of_a_group)_
+* [[Groupprops]], _[Exponent of a group](https://groupprops.subwiki.org/wiki/Exponent_of_a_group)_
 
 * Wikipedia, _Burnside problem_, [web](https://en.wikipedia.org/wiki/Burnside%27s_problem)
+
+
 
