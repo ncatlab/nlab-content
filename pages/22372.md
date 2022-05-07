@@ -29,6 +29,6 @@ $Spin(11,3)$ denotes the [[spin group]]-cover of the [[Lorentz groups]] in [[sig
 
 ## References
 
-Construction via [[octonions]] and with speculations on a possible in the [[standard model of particle physics]]:
+Construction via [[octonions]] and with speculations on a possible role in the [[standard model of particle physics]]:
 
 * [[Kirill Krasnov]], _$Spin(11,3)$, particles and octonions_ ([arXiv:2104.01786](https://arxiv.org/abs/2104.01786))
