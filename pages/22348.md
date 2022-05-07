@@ -205,19 +205,41 @@ of $\mathfrak{F}$ on $X$.
 \subsubsection{Compactness and completeness as lifting properties}
 Diagram chasing reformulation of the notion above allows to define compactness and completeness as [lifting properties](en.wikipedia.org/wiki/Lifting_property).
 
-A metric space $M$ is _complete_ iff 
-$\bot\to (\mathbb{N}^{cofinite})^{\operatorname{cart}}_\bullet \rightthreetimes M_\bullet\circ [+1]\to M_\bullet$.
+Let $\mathbb{N}^{cofinite}$ and $\mathbb{N}^{\leq cofinite}$
+denote the set, resp. the linear order $ \mathbb{N}^\leq$, equipped 
+with the filter of cofinite subsets.
+
+A metric space $M$ is _complete_ iff either of the following equivalent conditions holds:
+
+i. $\bot\to (\mathbb{N}^{\leq cofinite})^{\operatorname{cart}}_\bullet \rightthreetimes M_\bullet\circ [+1]\to M_\bullet$.
+
+ii. $\bot\to (\mathbb{N}^{cofinite})^{\operatorname{cart}}_\bullet \rightthreetimes M_\bullet\circ [+1]\to M_\bullet$.
+
+iii. $(\mathbb{N}^{\leq cofinite})^{\operatorname{cart}}_\bullet\to
+(\mathbb{N}^{\leq cofinite}\cup\{\infty\})^{\operatorname{cart}}_\bullet  \rightthreetimes M_\bullet\to\top$.
 
 
 Such a reformulation raises the question whether the notion of completeness may be 
 defined with help of the archetypal counterexample: is a metric space $M$ complete 
 iff  
 $$ M_\bullet\circ [+1]\to M_\bullet \in (\mathbb {R}_\bullet\circ [+1]\to \mathbb{R}_\bullet)^{\rightthreetimes lr} ? $$
+It also allows to define the completion of a metric space 
+in terms of a weak factorisation system 
+$$M_\bullet \xrightarrow{((\mathbb{N}^{\leq cofinite})^{\operatorname{cart}}_\bullet\to
+(\mathbb{N}^{\leq cofinite}\cup\{\infty\})^{\operatorname{cart}}_\bullet)^{rl}} \hat M_\bullet \xrightarrow{((\mathbb{N}^{\leq cofinite})^{\operatorname{cart}}_\bullet\to
+(\mathbb{N}^{\leq cofinite}\cup\{\infty\})^{\operatorname{cart}}_\bullet)^r} \top
+$$
 
 
 
-A topological space $X$ is _compact_ iff for each ultrafilter $\mathfrak{U}$ it holds
-$\bot\to \mathfrak{U}^{\operatorname{diag}}_\bullet \rightthreetimes M_\bullet\circ [+1]\to M_\bullet$.
+
+A topological space $X$ is _compact_ iff for each ultrafilter $\mathfrak{U}$ either of the following equivalent conditions holds:
+
+i. $\bot\to \mathfrak{U}^{\operatorname{diag}}_\bullet \rightthreetimes X_\bullet\circ [+1]\to X_\bullet$.
+
+ii. $\mathfrak{U}^{\operatorname{diag}}_\bullet 
+\to (\mathfrak{U}\cup\{\infty\})^{\operatorname{diag}}_\bullet \rightthreetimes X_\bullet\to \top$.
+
 
 
 A topological space $K$ is _compact_ iff 
@@ -364,7 +386,7 @@ $$ (I^{\leq tails})^{\operatorname{cart}}_\bullet\to (|I|^{tails})^{\operatornam
 \rightthreetimes M_\bullet\to \top .$$
 \end{proposition}
 
-[Simon,2021](#Simon2021) implies that a theory is stable iff the lifting property iii. holds 
+([Simon,2021](#Simon2021)) implies that a theory is stable iff the lifting property iii. holds 
 for the situs associated with $M\times M$ considered in the language with arbitrary parameters, 
 for a saturated enough model $M$ of the theory.
 
@@ -436,13 +458,15 @@ $|T|_\bullet(n^\leq)=|T|^n$.
 Let $|T|^{TP}_\bullet$ denote the simplicial set $|T|_\bullet$
 equipped with the _$TP$-tautological_ filter on $|T|_\bullet(n^\leq)$ defined as follows:
 
-   a subset is not small iff it contains all the tuples
+   a subset is not small iff it contains all 
+   the lexicographically ordered tuples
    required to be inconsistent by the tree property 
    with respect to a subtree-counterexample to the tree property. 
 
 In more detail, a subset $\epsilon$ is large iff for each isomorphic copy
 of $T'={}^{\lt\omega}\omega$ in $T^\leq$ there is a vertex $v\in T'$
-and its immediate (in $T'$) descendants $v_1,..,v_k \in \epsilon \cap T'$.
+and its immediate (in $T'$) descendants 
+$(v_1\leq_{lex}...\leq_{lex} v_k $ such that $(v_1,..,v_k) \in \epsilon \cap T'$.
 %A verification shows that this indeed defines a filter. 
  
 Note that the map $T^\leq_\bullet \to |T|_\bullet^{TP}$ is continuous
@@ -472,7 +496,7 @@ By the definition of the filter, this set is large iff there is
 an infinitely branching subtree of infinite depth satisfying ii. 
 This implies that ii. and iii. are equivalent. 
 
-Finally, let us prove our filters are well-defined. 
+Finally, let us prove our $TP$-tautological filters are well-defined. 
 We need only to show that the union of 
 any two small sets $X\cup Y$ is small.
 Assume it is not small. 
@@ -485,7 +509,14 @@ by the same or greater number. Removing them
 leaves $X\cup Y$ not small. 
 But then we get that vertices of $X$ are 
 labelled by numbers strictly decreasing along 
-any branch, hence $X$ is finite. Hence, $Y$ is not small.
+any branch, hence $X$ is of finite depth. 
+Now pick a vertex labelled $0$. This means
+that below that vertex
+there is no infinite set of siblings that 
+each lexicographically ordered tuple is in $X$, 
+hence among any infinite set of siblings by Ramsey theorem there is
+an infinite set of siblings not in $X$, i.e. in $Y$. 
+Hence, $Y$ is not small.
 \end{proof}
 
 \begin{remark} One can similarly define 
