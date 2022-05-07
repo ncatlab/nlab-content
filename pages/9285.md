@@ -18,13 +18,12 @@
 The notion of _action object_ or _module object_ is the [[internalization]] of the notion of [[action]]/[[module]] of [[monoids]] (such as [[groups]] or [[rings]]) on [[sets]] (such as [[group representations]] or [[modules]]), into any [[monoidal category]] $\mathcal{C}$ to yield a notion of actions of [[monoid objects]] (such as [[group objects]] or [[ring objects]]) on the [[objects]] of that [[category]] $\mathcal{C}$.
 
 
-
 ## Definition
 
 +-- {: .num_defn #MonoidsInMonoidalCategory}
 ###### Definition
 
-Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$, then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
+Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$, then a **left module object** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
 
 1. an [[object]] $N \in \mathcal{C}$;
 
@@ -73,6 +72,63 @@ such that
      \,,
    $$
 
+=--
+
+## Generalisation
+A module and the monoid it lies over do not necessarily belong to the same category, a fact suggested by the [[microcosm principle]]:
+
++-- {: .num_defn #MonoidsInActegory}
+###### Definition
+Given a [[monoidal category]] $(\mathcal{M}, \odot, 1)$ and an $\mathcal{M}$-module (also called $\mathcal{M}$-[[actegory]]) $\mathcal{C}$ (supported by the monoidal action $\bullet : \mathcal{M} \times \mathcal{C} \to \mathcal{C}$), and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{M}, \odot, 1)$, then a **left module object** in $\mathcal{C}$ over $(A,\mu,e)$ is
+
+1. an [[object]] $N \in \mathcal{C}$;
+
+1. a [[morphism]] $\rho \;\colon\; A \bullet N \longrightarrow N$ (called the _[[action]]_);
+
+such that 
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \bullet N 
+         &\overset{e \bullet id}{\longrightarrow}&
+       A \bullet N
+       \\
+       & {}_{\mathllap{\lambda}}\searrow 
+       & \downarrow^{\mathrlap{\rho}} 
+       \\
+       && N
+     }
+     \,,
+   $$
+
+   where $\lambda$ is the [[actegory#Actegory|unitor]] of $\bullet$.
+
+
+1. (action property) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A \odot A) \bullet N
+         &\underoverset{\simeq}{\alpha_{A,A,N}}{\longrightarrow}&
+       A \bullet (A \bullet N)
+         &\overset{A \bullet \rho}{\longrightarrow}&
+       A \bullet N
+       \\
+       {}^{\mathllap{\mu \bullet N}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\rho}}
+       \\
+       A \bullet N
+         &\longrightarrow&
+         &\overset{\rho}{\longrightarrow}&
+       N
+     }
+     \,,
+   $$
+
+   where $\alpha$ is the [[actegory#Actegory|actor]] of $\bullet$.
 =--
 
 ## Examples
