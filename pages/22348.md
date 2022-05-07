@@ -8,7 +8,7 @@ the [[category of filters|category of filters on sets]]
 or, equivalently, the category of finitely additive measures 
 taking values 0 and 1 only, i.e. 
 a simplicial set equipped, for each $n\geq 0$, 
-with a filter, equiv. such a measure, 
+with a filter, equiv. such (not quite) a measure, 
 on the set of $n$-simplices such that 
 under any face or degeneration map the preimage of a large set is large. 
 We denote the category of situses by s&#x12CB;.
