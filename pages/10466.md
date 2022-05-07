@@ -333,6 +333,12 @@ The example of global equivariant [[algebraic K-theory]]:
 
 * [[Stefan Schwede]], _Global algebraic K-theory_ ([arXiv:1912.08872](https://arxiv.org/abs/1912.08872))
 
+On [[orbifold cohomology]] seen in [[global equivariant homotopy theory]]:
+
+* {#Juran20} [[Branko Juran]], _Orbifolds, Orbispaces and Global Homotopy Theory_ ([arXiv:2006.12374](https://arxiv.org/abs/2006.12374))
+
+following the suggestion in [Schwede 17, Intro](#Schwede17), [Schwede 18, p. ix-x](#Schwede18).
+
 
 [[!redirects global homotopy theory]]
 
