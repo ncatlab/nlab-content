@@ -32,7 +32,7 @@ If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Th
 
 ## Examples
 
-* Any [[locally finitely presentable category]] is a continuous category.
+* Any finitely [[accessible category]], and hence any [[locally finitely presentable category]], is a continuous category.
 
 * A [[Grothendieck topos]] is a continuous category if and only if it is an [[exponentiable object]] in the 2-category of Grothendieck toposes and [[geometric morphisms]], i.e. an [[exponentiable topos]].
 
