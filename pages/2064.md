@@ -142,9 +142,13 @@ Fiber bundles (then spelled fibre-bundles) were defined by [[Hassler Whitney]] i
 
 * [[Hassler Whitney]], _On the theory of sphere-bundles_, Proceedings of the National Academy of Sciences 26:2 (1940), 148-153.  [doi](https://doi.org/10.1073/pnas.26.2.148).
 
-Other sources include
+Other sources:
 
-* [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
+* [[Norman Steenrod]], Section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
+
+
+* [[Glen Bredon]], Section II.1 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
 
 
 * [[Dale Husemöller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/husemoller)) 
