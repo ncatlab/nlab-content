@@ -92,6 +92,7 @@ These are the [[Cartesian product]] $AdS_4 \times (S^7/G)$ of 4-[[dimension|dime
 ## Properties
 
 ### Higher gerbes on spherical space forms
+ {#HigherGerbesOnSphericalSpaceForms}
 
 Let $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$ be a [[finite group]] equipped with a [[continuous function|continuous]] [[free action]] on the [[n-sphere]] $S^{n+2}$ for some $n \in \mathbb{N}$. We write
 
@@ -119,6 +120,8 @@ Moreover, let $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[und
   Grp_\infty
   \,.
 \]
+
+(For example, $\Gamma = $ [[U(1)]] if $n \geq 1$, or $\Gamma \,=\,$ [[PU(ℋ)]] if $n \geq 2$.)
 
 This implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
 
@@ -185,27 +188,240 @@ for
 
 Consider the following two [[infinity-groupoid|$\infty$-groupoids]]:
 
-The [[shape modality|coehsive shape]] of the [[mapping stack]] from $\mathbf{B}G$ to $\mathbf{B}\Gamma$:
+The [[shape modality|cohesive shape]] of the [[mapping stack]] from $\mathbf{B}G$ to $\mathbf{B}\Gamma$
 
-and the [[shape modality|coehsive shape]] of the [[mapping stack]] from the [[spherical space form]] $S^{n+2}/G$ to $\mathbf{B}\Gamma$:
-
-
-In both cases we are showing on the right the canonical [[simplicial sets]] which present these $\infty$-groupoids, obtained by first using the expression of [[shape via cohesive path ∞-groupoid|snooth shape via the smooth path $\infty$-groupoid]] and then fact that the [[simplex category|simplicial]] [[homotopy colimit]] of $\infty$-groupoids presented by [[simplicial sets]] is given by the [[diagonal of a bisimplicial set|diagonal]] of the corresponding [[bisimplicial set]] (by [this Prop.](bisimplicial+set#DiagonalAsSimplicialHomotopyColimit)).
-
-
-There is a canonical comparison morphisms between these $\infty$-groupoids, given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n+2} \xrightarrow{\; p\;} \ast$:
-
-$$
+\[
+  \label{ShapeOfMappingStackFromBGToBGamma}
+  \begin{aligned}
+  &
+  \esh
+  \,
   Map
   \Big(
     \mathbf{B}G
     ,\,
     \mathbf{B}\Gamma
   \Big)
-    \xrightarrow
-    {\;\;\;
-       p^\ast
-    \;\;\;}
+  \\
+  &
+  \;\simeq\;
+  \esh
+  \,
+  Map
+  \Big(
+    \big(
+      G \rightrightarrows \ast
+    \big)
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)
+  \\
+  &
+  \;\simeq\;
+  \underset{\longrightarrow}{\lim}
+  N
+  TopFunc
+  \Big(
+    \big(
+      G \rightrightarrows \ast
+    \big) \times \Delta^{\bullet}
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)  
+  \;\simeq\;
+  \end{aligned}
+  \;\;
+  \left(
+    \array{
+      \vdots
+      \\
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \\
+      TopFunc
+      \Big(
+        \big(
+          G \rightrightarrows \ast
+        \big)
+        ,\,
+        \big(
+          \Gamma \rightrightarrows \ast
+        \big)
+      \Big)_2
+      \\
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \\
+      TopFunc
+      \Big(
+        \big(
+          G \rightrightarrows \ast
+        \big)
+        ,\,
+        \big(
+          \Gamma \rightrightarrows \ast
+        \big)
+      \Big)_1
+      \\
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \\
+      TopFunc
+      \Big(
+        \big(
+          G \rightrightarrows \ast
+        \big)
+        ,\,
+        \big(
+          \Gamma \rightrightarrows \ast
+        \big)
+      \Big)_0
+    }
+  \right)
+\]
+
+and the [[shape modality|cohesive shape]] of the [[mapping stack]] from the [[spherical space form]] $S^{n+2}/G$ to $\mathbf{B}\Gamma$
+
+\[
+  \label{ShapeOfMappingStackFromSphericalSpaceFormToBGamma}
+  \begin{aligned}
+  &
+  \esh
+  \,
+  Map
+  \Big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)
+  \\
+  & \;\simeq\;
+  \esh
+  \,
+  Map
+  \Big(
+    \big(
+      S^{n+2} \times G \rightrightarrows S^{n+2}
+    \big)
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)
+  \\
+  &
+  \;\simeq\;
+  \underset{\longrightarrow}{\lim}
+  N
+  TopFunc
+  \Big(
+    \big(
+      S^{n+2} \times G \rightrightarrows S^{n+2}
+    \big) \times \Delta^{\bullet}
+    ,\,
+    \big(
+      \Gamma \rightrightarrows \ast
+    \big)
+  \Big)  
+  \;\simeq\;
+  \end{aligned}
+  \;\;
+  \left(
+    \array{
+      \vdots
+      \\
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \\
+      TopFunc
+      \Big(
+        \big(
+          S^{n+2} \times G \rightrightarrows S^{n+2}
+        \big)
+        ,\,
+        \big(
+          \Gamma \rightrightarrows \ast
+        \big)
+      \Big)_2
+      \\
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \\
+      TopFunc
+      \Big(
+        \big(
+          S^{n+2} \times G \rightrightarrows S^{n+2}
+        \big)
+        ,\,
+        \big(
+          \Gamma \rightrightarrows \ast
+        \big)
+      \Big)_1
+      \\
+      \big\downarrow
+      \big\uparrow
+      \big\downarrow
+      \\
+      TopFunc
+      \Big(
+        \big(
+          S^{n+2} \times G \rightrightarrows S^{n+2}
+        \big)
+        ,\,
+        \big(
+          \Gamma \rightrightarrows \ast
+        \big)
+      \Big)_0
+    }
+  \right)
+\]
+
+
+
+In both cases we are showing on the right the canonical [[simplicial sets]] which present these $\infty$-groupoids, obtained by 
+
+1. using the expression of [[shape via cohesive path ∞-groupoid|snooth shape via the smooth path $\infty$-groupoid]] (by [this Prop.](shape+via+cohesive+path+∞-groupoid#SmoothShapeModelityGivenBySmoothPathInfinityGroupoid)),
+
+1. the fact that the [[simplex category|simplicial]] [[homotopy colimit]] of $\infty$-groupoids presented by [[simplicial sets]] is given by the [[diagonal of a bisimplicial set|diagonal]] of the corresponding [[bisimplicial set]] (by [this Prop.](bisimplicial+set#DiagonalAsSimplicialHomotopyColimit)).
+
+
+There is a canonical comparison morphism between these $\infty$-groupoids, given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n+2} \xrightarrow{\; p\;} \ast$:
+
+\[
+  \label{ComparisonMorphismBetweenShapesOfMappingStacks}
+  \esh
+  \,
+  Map
+  \Big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)
+  \xrightarrow
+  {\;\;\;
+     \esh \, Map(p/\!\!/G,\,\mathbf{B}\Gamma)
+  \;\;\;}
   \esh
   \,
   Map
@@ -216,13 +432,14 @@ $$
   \Big)  
   \,
   \,.
-$$
+\]
 
 We now discuss what this morphism does on [[homotopy groups]].. 
 
-\medskip
+$\,$
 
 \begin{lemma}
+\label{ConjugacyClassesOfGroupHomomorphismsSurjectOnPrincipalBundlesOverSphericalSpaceForm}
   Under the truncation assumption (eq:GammaIsNTruncated),
   the canonical [[function]]
   $$
@@ -627,8 +844,106 @@ $$
 $$
 
 
+\begin{lemma}
+\label{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivalentlyHaveConstantUnderlyingBundle}
+  Every [[1-morphism]] in 
+  $\esh \,Maps\big( S^{n+2}/G ,\, \mathbf{B}\Gamma \big)$
+  (eq:ShapeOfMappingStackFromSphericalSpaceFormToBGamma)
+  is equivalent (homotopic relative its endpoints) to 
+  one of the form
+  $$
+  \array{
+    P_0 \times [0,1]
+    &\xrightarrow{\;\;}&
+    P
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    S^{n+2}/G \times [0,1]
+    &=&
+    S^{n+2}/G \times [0,1]
+  }
+  $$
+\end{lemma}
 
+\begin{lemma}
+\label{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaParallelToOneComingFromShapeOfMapsFromBGToBGamma}
+  Every [[1-morphism]] in 
+  $\esh \,Maps\big( S^{n+2}/G ,\, \mathbf{B}\Gamma \big)$
+  (eq:ShapeOfMappingStackFromSphericalSpaceFormToBGamma)
+  is [[parallel morphism|parallel]] to
+  (has some [[source]] and [[target]] as) 
+  one in the image of 
+  $$
+    TopFun
+    \big(
+      (G \rightrightarrows \ast)
+      ,\,
+      (\Gamma \rightrightarrows \ast)
+    \big)_1
+    \xrightarrow{\; p^\ast \;}
+    TopFun
+    \big(
+      (S^{n+2} \times G \rightrightarrows S^{n+2})
+      ,\,
+      (\Gamma \rightrightarrows \ast)
+    \big)_1    
+  $$  
+\end{lemma}
+\begin{proof}
+By Lemma \ref{ConjugacyClassesOfGroupHomomorphismsSurjectOnPrincipalBundlesOverSphericalSpaceForm}
+and Lemma
+\ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivalentlyHaveConstantUnderlyingBundle}
+we may assume without restriction that the underlying bundle is constant
+along $\Delta^1$ on one whose transition function is constant on $S^{n+2}$. The remaining data in the 1-morphism is a continuous function
+$$
+  \phi
+  \,\colon\,
+  \Delta^1 \times S^{n+2}
+  \xrightarrow{\;\;}
+  \Gamma
+  \,.
+$$
+By the truncation assumption (eq:GammaIsNTruncated) this map has a continuous deformation to one that is constant along $S^{n+2}$ on $\phi(1,\ast)$.
+\end{proof}
 
+\begin{proposition}
+  The comparison morphism (eq:ComparisonMorphismBetweenShapesOfMappingStacks) is an [[isomorphism]] on [[connected components]].
+$$
+  \pi_0
+  \big(
+    \esh \, Map(p/\!\!/G,\,\mathbf{B}\Gamma)
+  \big)
+  \;\colon\;
+  \pi_0
+  \,
+  \esh
+  \,
+  Map
+  \big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  \xrightarrow{\;\; \sim \;\;}
+  \esh
+  \,
+  Map
+  \big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+$$
+\end{proposition}
+\begin{proof}
+  It is [[surjective]] by Lem. \ref{ConjugacyClassesOfGroupHomomorphismsSurjectOnPrincipalBundlesOverSphericalSpaceForm}
+and [[injective]] by Lemma \ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaParallelToOneComingFromShapeOfMapsFromBGToBGamma}.
+\end{proof}
+
+(...)
 
 
 ## Literature
@@ -645,6 +960,8 @@ Review:
 
 * Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXivL:1412.8187](https://arxiv.org/abs/1412.8187))
 
+* {#Allock15} Daniel Allcock, _Spherical space forms revisited_ ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906))
+
 
 Discussion for the [[7-sphere]] with application to [[near horizon geometries]] of [[M2-brane]] ([[AdS/CFT duality|AdS/CFT dual]] to the [[ABJM model]]):
 
@@ -654,7 +971,6 @@ Discussion for the [[7-sphere]] with application to [[near horizon geometries]] 
 
 
 
-* {#Allock15} Daniel Allcock, _Spherical space forms revisited_ ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906))
 
 
 
