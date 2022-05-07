@@ -70,7 +70,7 @@ The _[[equivariant triangulation theorem]]_ ([Illman 78](equivariant+triangulati
 
 Compact Lie groups make a somewhat unexpected appearance as [[equivariance groups]] in [[equivariant homotopy theory]], where the compact Lie condition on the [[equivariance group]] is needed in order for (the available proofs of) the [[equivariant Whitehead theorem]] to hold. 
 
-(Namely, the [[equivariant triangulation theorem]] [above](#EquivariantTriangulationTheorem) is used in these proofs to guaratee that the [[coset spaces]] $G/H$ for [[closed subset|closed]] [[subgroups]] $H$ are [[G-CW-complexes]].)
+(Namely, the [[equivariant triangulation theorem]] [above](#EquivariantTriangulationTheorem) is used in these proofs to guaratee that [[Cartesian products]] of [[coset spaces]] $G/H$ are themselves [[G-CW-complexes]].)
 
 ### In gauge theory
 
