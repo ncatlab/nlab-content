@@ -88,3 +88,5 @@ If $X$ is a variety over an algebraically closed field $k$ and $x\in X(k)$ is a 
 
 
 [[!redirects augmented algebras]]
+[[!redirects augmentation map]]
+[[!redirects augmentation maps]]
