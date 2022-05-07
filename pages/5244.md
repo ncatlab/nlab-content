@@ -53,6 +53,9 @@ Introduction and review:
 
 * {#Forstneric13} [[Franc Forstnerič]] (appendix by [[Finnur Lárusson]]), *Oka manifolds: From Oka to Stein and back*, Annales de la Faculté des sciences de Toulouse, Mathématiques, Série 6, Tome 22 (2013) no. 4, pp. 747-809 ([numdam:AFST_2013_6_22_4_747_0](https://afst.centre-mersenne.org/item/?id=AFST_2013_6_22_4_747_0))
 
+* [[Franc Forstnerič]], *Developments in Oka theory since 2017* ([arXiv:2006.07888](https://arxiv.org/abs/2006.07888))
+
+
 See also:
 
 * [[Finnur Lárusson]], *Affine simplices in Oka manifolds*, Documenta Mathematica (2009) Volume: 14, page 691-697 ([eudml:228723](https://eudml.org/doc/228723))
