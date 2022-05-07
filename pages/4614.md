@@ -1059,14 +1059,14 @@ On geometric realization of simplicial spaces as a [[left Quillen functor]] on t
 
 Discussion of sufficient conditions for geometric realization to be compatible with [[homotopy pullbacks]]:
 
-* D. Anderson, _Fibrations and geometric realization_ , 
-Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
+* {#Anderson78} [[Donald Werner Anderson]], _Fibrations and geometric realization_,  Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
 
 * {#Rezk14} [[Charles Rezk]], _When are homotopy colimits compatible with homotopy base change?_, 2014 ([pdf](https://faculty.math.illinois.edu/~rezk/i-hate-the-pi-star-kan-condition.pdf), [[RezkHomotopyColimitsBaseChange.pdf:file]])
 
 * Edoardo Lanari, _Compatibility of homotopy colimits and homotopy pullbacks of simplicial presheaves_ ([pdf](http://algant.eu/documents/theses/lanari.pdf), [[LanariHomotopyColimitsBaseChange.pdf:file]])
 
   (expanded version of [Rezk 14](#Rezk14))
+
 
 ### Realization of topological stacks 
 
