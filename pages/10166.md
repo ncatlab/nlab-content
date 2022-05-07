@@ -328,11 +328,11 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
   }
 \]
 
-Then the induced [[bundle]] of [[coset spaces]], shown on the right of (eq:EquivariantBundleOfCosetSpaces), is:
+Then the induced [[bundle]] of [[coset spaces]], shown on the right of (eq:EquivariantBundleOfCosetSpaces):
 
-1. a $(\Gamma,\alpha)$-principal bundle (under Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}) 
+1. is a $(\Gamma,\alpha)$-principal bundle (under Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}) 
 
-1. [[locally trivial]] as an ordinary $\Gamma$-[[fiber bundle]] in [[TopologicalSpaces]].
+1. is [[locally trivial]] as an ordinary $\Gamma$-[[fiber bundle]] in [[TopologicalSpaces]] as soon as the the [[coset space]] [[coprojection]] $G \to G/H$ [[coset space coprojection admitting local sections|admits local sections]].
 
 \end{prop}
 
@@ -780,7 +780,6 @@ On equivariant pricipal bundles with [[structure group]] the [[projective unitar
 In a context of [[equivariant elliptic cohomology]]:
 
 * [[Matthew Ando]], [[John Greenlees]], Part I of: _Circle-equivariant classifying spaces and the rational equivariant sigma genus_, Math. Z. 269, 1021–1104 (2011) ([arXiv:0705.2687](https://arxiv.org/abs/0705.2687), [doi:10.1007/s00209-010-0773-7](https://doi.org/10.1007/s00209-010-0773-7))
-
 
 ### For gauge theory on orbifolds
 
