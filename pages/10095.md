@@ -42,10 +42,29 @@ For $K$ a [[compact Lie group]] there is a unique [[connected topological space|
 
 This $G$ is called the **complexification** of $K$.
 
+### Oka property
+
+\begin{prop}\label{CosetSpacesOfComplexLieGroupsAreOkaManifolds}
+**([[coset spaces]] of [[complex Lie groups]] are [[Oka manifolds]])** \linebreak
+Every [[complex Lie group]] and every [[coset space]] ([[homogeneous space]]) of complex Lie groups is an [[Oka manifolds]].
+\end{prop}
+(review in [Forstnerič & Lárusson 11, p. 9](Oka+manifold#ForstnericLarusson11), [Forstnerič 2013, Thm. 2.6](Oka+manifold#Forstneric13))
+
+
+
 ## Related concepts
 
 * [[complex Lie algebra]]
 
 * [[relation between compact Lie groups and reductive algebraic groups]]
+
+
+## References
+
+* [[Dietmar Salamon]], *Notes on complex Lie groups*, 2019 ([pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/cx-lie.pdf), [[Salamon_ComplexLieGroups.pdf:file]])
+
+See also 
+
+* Wikipedia, *[Complex Lie group](https://en.wikipedia.org/wiki/Complex_Lie_group)*
 
 [[!redirects complex Lie groups]]
