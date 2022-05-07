@@ -127,11 +127,15 @@ If an extensive category also has [[finitely complete category|finite limits]], 
 \begin{remark}
 The alternative definitions of finitary disjunctive refer only to binary coproducts, but they obviously imply analogous statements for $n$-ary coproducts for all finite $n \ge 1$.  Less obviously, they also imply the analogous statement for $0$-ary coproducts (that is, [[initial object]]s).  In this case, the statement is that the initial object 0 is _strict_ (any map $a\to 0$ is an isomorphism).
 
-Furthermore, if binary coproducts are disjoint, then (at least assuming [[classical logic]]) any infinitary coproducts that exist are also disjoint, since
-  $$\bigsqcup_{a\in A} X_a \cong
-X_{a_0} \sqcup \bigsqcup_{a\neq a_0} X_a \cong
-X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
-  for any $a_0, a_1\in A$.  Therefore, if a finitary-extensive category has infinitary pullback-stable coproducts, it is necessarily infinitary-extensive.  In particular, a cocomplete [[locally cartesian closed category]] is finitary extensive if and only if it is infinitary extensive.
+Furthermore, if binary coproducts are [[disjoint coproduct|disjoint]], then (at least assuming [[classical logic]]) any infinitary coproducts that exist are also disjoint, since
+$$
+  \bigsqcup_{a\in A} X_a 
+  \;\;\cong\;\;
+   X_{a_0} \sqcup \bigsqcup_{a\neq a_0} X_a 
+  \;\;\cong\;\;
+  X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a
+$$
+for any $a_0, a_1\in A$.  Therefore, if a finitary-extensive category has infinitary pullback-stable coproducts, it is necessarily infinitary-extensive.  In particular, a cocomplete [[locally cartesian closed category]] is finitary extensive if and only if it is infinitary extensive.
 \end{remark}
 
 \begin{remark}
