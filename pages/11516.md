@@ -186,3 +186,6 @@ See also the references at _[[equivariant homotopy theory]]_.
 
 [[!redirects TopologicalGActions]]
 
+[[!redirects TopologicalGSpaces]]
+
+
