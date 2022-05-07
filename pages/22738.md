@@ -10,11 +10,11 @@
 
 ## Idea
 
-An algebra with a two-sided inverse.
+An algebra with a reciprocal that behaves like $\frac{1}{x}$ in the rational and real numbers.
 
 ## Definition
 
-A **reciprocal algebra** is a possibly [[non-associative algebra]] $A$, typically over a [[field]] $k$, which has the property that for non-zero element $b$, there exists an element $c$, called the __reciprocal__ of $b$, such that for every element $a$
+A **reciprocal algebra** is a possibly [[non-associative algebra]] $A$, typically over a [[field]] $k$, which has the property that for non-zero element $b$, there exists an element $c$, called the __[[reciprocal]]__ of $b$, such that for every element $a$
 
 * $a (c b) = a$
 * $(c b) a = a$
