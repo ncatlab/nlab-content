@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -5,25 +17,29 @@
 
 ## Idea
 
-A **Tambara module** is a [[profunctor]] endowed with additional structure that makes it interplay nicely with a monoidal [[action]]. They are used in the theory of [[optics (in computer science)]].
+A **Tambara module** is a [[profunctor]] endowed with additional [[mathematical structure|structure]] that makes it interplay nicely with a [[monoidal category|monoidal]] [[action]]. Tambara modules are used in the theory of [[optics (in computer science)]].
 
 
 ## Definition
-\begin{definition}
-Let $(\mathbf M, i, \odot)$ be a [[monoidal category]], let $\mathbf C$ and $\mathbf D$ be two [[actegory|left $\mathbf M$-actegories]] (in other terminology, left $\mathbf M$-modules). We denote $\mathbf M$ actions with $\cdot$.
 
-A (left) **Tambara module** is a profunctor $P : \mathbf C^{op} \times \mathbf D \to \mathbf{Set}$ equipped with a family of morphisms called (left) *strength*
+\begin{definition}
+Let $(\mathbf M, i, \odot)$ be a [[monoidal category]], let $\mathbf C$ and $\mathbf D$ be two [[actegory|left $\mathbf M$-actegories]] (in other terminology, left $\mathbf M$-modules). We denote $\mathbf M$ actions by $(-)\cdot (-)$.
+
+A (left) **Tambara module** is a [[profunctor]] $P \,\colon\, \mathbf C^{op} \times \mathbf D \to \mathbf{Set}$ equipped with a [[indexed set|family]] of [[morphisms]] called (left) *strength*
 $$
-   s_{a,b,m} : P(a,b) \longrightarrow P(m \cdot a, m \cdot b)
+   s_{a,b,m} \,\colon\, P(a,b) \longrightarrow P(m \cdot a, m \cdot b)
 $$
-which is [[natural transformation|natural]] in $a$ and $b$ and [[dinatural transformation|dinatural]] in $m$, and satisfies two coherence laws:
+which is [[natural transformation|natural]] in $a$ and $b$ and [[dinatural transformation|dinatural]] in $m$, and satisfies two [[coherence laws]]:
 
 1. $s_{a,b,i} = P(\rho_a, \rho_b^{-1})$, where $\rho$ comes with the [[actegory|module structures]] of $\mathbf C$ and $\mathbf D$.
+
 2. $s_{a,b,m \odot n} = P(\mu^{-1}_{m,n,a}, \mu_{m,n,b}) \circ s_{a,b,m} \circ s_{a,b,n}$ where $\mu$ comes with the [[actegory|module structures]] of $\mathbf C$ and $\mathbf D$.
 
 \end{definition}
 
-They're the same thing as (left) **strong profunctors**. A right Tambara module is defined in the exact way except $\mathbf C$ and $\mathbf D$ are assumed to be right $\mathbf M$-actegories and everything is correspondigly 'done on the other side'.
+This is same thing as (left) **strong profunctors**. 
+
+A right Tambara module is defined in the exact way except $\mathbf C$ and $\mathbf D$ are assumed to be right $\mathbf M$-actegories and everything is correspondigly 'done on the other side'.
 
 \begin{definition}
   Suppose now $\mathbf C$ and $\mathbf D$ have both left and right $\mathbf M$-actegories structures.
