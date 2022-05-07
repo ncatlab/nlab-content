@@ -210,7 +210,10 @@ References to the categorical forms of shape theory include
 
 * A. Deleanu, P.J. Hilton, _Borsuk's shape and Grothendieck categories of pro-objects_, Math. Proc. Camb. Phil. Soc. 79 (1976) 473-482.
 
-* D.  Bourn, [[Jean-Marc Cordier|J.-M. Cordier]], _Distributeurs et th&#233;orie de la forme_, Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;g. 21,(1980), no. 2, 161--188, [numdam](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1980__21_2).
+
+* [[Dominique Bourn]], [[Jean-Marc Cordier]], _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([numdam:CTGDC_1980__21_2_161_0](http://www.numdam.org/item/CTGDC_1980__21_2_161_0), [pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
+
+  > (via [[profunctors]])
 
 and
 
