@@ -64,7 +64,7 @@ $$
 
 =--
 
-This is due to ([Quillen 69](#Quillen69)), based on ([Milnor 60](#Milnor60)), reproduced e.g. as ([Kochmann 96, theorem 3.7.7, theorem 4.4.13](#Kochmann96)).
+This is due to ([Quillen 69](#Quillen69)), based on ([Milnor 60](#Milnor60)), reproduced e.g. as ([Kochman 96, theorem 3.7.7, theorem 4.4.13](#Kochman96)).
 
 **Proof strategy:** (for Milnor's part) 
 
@@ -113,7 +113,7 @@ the best reference as of turn of the millennium was still
 
 But see
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, 
    
@@ -126,7 +126,7 @@ But see
 
 Other review includes
 
-* {#Kochmann96} [[Stanley Kochmann]], theorem 3.7.7 (Milnor's theorem) of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], theorem 3.7.7 (Milnor's theorem) of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 4 _$B P$-Theory and the Adams-Novikov spectral sequence_, [pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)
 
