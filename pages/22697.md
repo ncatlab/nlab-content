@@ -53,7 +53,7 @@ A __possibly empty loop__ is a possibly empty left and right loop as defined abo
 
 ## Properties
 
-* Every __possibly empty commutative loop__ is a [[commutative invertible magma]]. 
+* Every __possibly empty commutative loop__ is a [[commutative invertible quasigroup]]. 
 
 * Every __possibly empty associative loop__ is a [[associative quasigroup]]. 
 
