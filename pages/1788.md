@@ -1,4 +1,52 @@
 
+\begin{tikzcd}
+  G \times P
+  \ar[
+    drr,
+    bend left=20,
+    "\rho"
+  ]
+  \ar[
+    ddr,
+    bend right=20,
+    "\mathrm{pr}_2\;\;\;"{below}
+  ]
+  \ar[
+    dr,
+    dashed,
+    "\simeq"{description}
+  ]
+  \\
+  & 
+  P \times_X P
+  \ar[
+    r
+  ]
+  \ar[d]
+  \ar[
+    dr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"{description}
+  ]
+  &
+  P 
+  \ar[
+    d,
+    "p"
+  ]
+  \\
+  &
+  P 
+  \ar[
+    r,
+    "p"{below}
+  ]
+  & 
+  X
+\end{tikzcd}
+
+
+
 $$
   \array{
     \widehat G 
