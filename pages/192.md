@@ -37,6 +37,8 @@ This definition is somewhat vague by design. Rather than canonize a fixed set of
 
 * quotient structures (i.e. [[presets]]/sets vs. sets/[[setoids]])
 
+* [[initial object|initial]] and [[free object|free]] structures, i.e. [[transfinite construction of free algebras]]/[[quotient inductive types]]
+
 * choice principles 
 
 * replacement or collection principles 
