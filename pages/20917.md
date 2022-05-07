@@ -69,4 +69,5 @@
 
 * [[15-sphere]]
 
+* [[infinite-dimensional sphere]]
 
