@@ -121,7 +121,7 @@ One way to state the [[coherence theorem]] for bicategories is that every bicate
 
 Note that $n=2$ is the greatest value of $n$ for which every weak $n$-category is equivalent to a fully strict one; see [[semi-strict infinity-category]] and [[Gray-category]].
 
-The proof of the coherence theorem is basically the same as the proof of the [[coherence theorem for monoidal categories]].  An abstract approach can be found in [[John Power|Power]]'s paper "A general coherence result."
+The proof of the coherence theorem is basically the same as the proof of the [[coherence theorem for monoidal categories]].  An abstract approach can be found in [Power 1989](#Power89)
 
 The strictification [[adjunction]] between bicategories and strict 2-categories can be expressed in terms of [[3-categories]]; see [Campbell](#Campbell18).
 
@@ -166,12 +166,12 @@ Discussion about the use of the term "weak enrichment" above is at _[[weak enric
 
 ## References
 
-* [[Jean Bénabou]], Introduction to Bicategories, _Lecture Notes in Mathematics 47_, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
+See also the references at *[[2-category]]*.
 
-See also the references at [[2-category]].
 
-* [[A. J. Power]],  _A general coherence result._
-J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
+* [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967), pp.1-77 ([doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299))
+
+* {#Power89} [[A. John Power]],  _A general coherence result._ J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
 
 * {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
  
