@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] formulated in terms of [[BV-BRST formalism]], the _classical master equation_ expresses the nilpotency of the [[BV-differential]] before [[quantization]], with the latter regarded as a [[Hamiltonian vector field]] with respect to the _[[antibracket]]_ $\{-,-\}$, for "Hamiltonian" the BV-BRST-extended [[action functional]] "S + S_{BRST}":
+In [[perturbative quantum field theory]] formulated in terms of [[BV-BRST formalism]], the _classical master equation_ expresses the nilpotency of the [[BV-differential]] before [[quantization]], with the latter regarded as a [[Hamiltonian vector field]] with respect to the _[[antibracket]]_ $\{-,-\}$, for "Hamiltonian" the BV-BRST-extended [[action functional]] "$S + S_{BRST}$":
 
 $$
   \left( 
@@ -30,7 +30,7 @@ $$
   \phantom{AA}
   \Leftrightarrow
   \phantom{AA}
-  \{S + S_{BRST}, S + BRST\} = 0
+  \{S + S_{BRST}, S + S_{BRST}\} = 0
   \,.
 $$
 
