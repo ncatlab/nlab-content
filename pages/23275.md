@@ -38,13 +38,17 @@ Now we show that $E$ and $M$ are replete subcategories of $Cat$.  Clearly they i
 
 If functors $F:C\to D$ and $G: D\to E$ are final, then we show that $G\circ F$ is final.  For $e\in E$, there is a element $(d,\alpha:e\to Gd)$ of $e/G$, and thence an element $(c,\beta:d\to Fc)$ of $d/F$, so we obtain an element $(c, e \stackrel{\alpha}{\to} Gd \stackrel{G\beta}{\to} GFc)$ of $e/GF$.  Now we must show that any two elements $(c,\gamma:e\to GFc),(c',\gamma':e\to GFc')$ are connected.  Since $G$ is final, elements $(Fc,\gamma)$ and $(Fc',\gamma')$ of $e/G$ are connected.  It suffices to consider the case of a zig-zag of length one: a morphism $f:Fc\to Fc'$ such that 
 
-```
-<nowiki>\[
-    \begin{xymatrix}
-        e \ar[r]^\gamma \ar[dr]_{\gamma'} & GFc \ar[d]^{Gf} \\ & GFc'
-    \end{xymatrix}
-\]</nowiki>
-```
+\begin{xymatrix}
+  e 
+    \ar[r]^\gamma 
+    \ar[dr]_{\gamma'} 
+  & 
+  GFc 
+    \ar[d]^{Gf} 
+  \\ 
+  & 
+  GFc'
+\end{xymatrix}
 
 By finality of $F$, the elements $(c,id:Fc\to Fc)$ and $(c', f:Fc\to Fc')$ of $Fc/F$ are connected.  A zig-zag path between them, by precomposition with $\gamma$, becomes a zig-zag path between $(c,\gamma)$ and $(c',\gamma')$.  So $G\circ F$ is final.
 
@@ -52,14 +56,10 @@ The proof that discrete fibrations form a subcategory is omitted.
 
 Now we must show that the lifting problem
 
-```
-<nowiki>\[
 \begin{xymatrix}
 A \ar[r]^f \ar[d]_e & X \ar[d]^m \\
 B \ar[r]_g \ar@{-->}[ru]^h & Y \\
 \end{xymatrix}
-\]</nowiki>
-```
 
 has a unique solution $h$ when $e\in E$ and $m\in M$.
 
@@ -67,27 +67,33 @@ We prove uniqueness first.  For $b\in B$, let $(a,\alpha:b\to e(a))\in b/e$.  Th
 
 Now we must show that this $h$ is well-defined, functorial, and a solution to the lifting problem.  If $(a',\alpha':b\to e(a'))$ is another element of $b/e$, then WLOG let $u:a\to a'$ such that
 
-```
-<nowiki>\[
 \begin{xymatrix}
-b \ar[r]^\alpha \ar[dr]_{\alpha'} & e(a) \ar[d]^{e(u)} \\
-& e(a')
+  b 
+    \ar[r]^\alpha 
+    \ar[dr]_{\alpha'} 
+  & 
+  e(a) 
+    \ar[d]^{e(u)} 
+  \\
+  & 
+  e(a')
 \end{xymatrix}
-\]</nowiki>
-```
 
 Lifting this diagram, we see that $g(\alpha)$ and $g(\alpha')$ must lift to morphisms with identical domain, so $h$ is well-defined on objects.
 
 For $\beta:b\to b'$ in $B$, let $\alpha:b'\in e(a)$, and by the diagram
 
-```
-<nowiki>\[
 \begin{xymatrix}
-b \ar[r]^\beta \ar[dr]_{\alpha\circ\beta} & b' \ar[d]^\alpha \\
-& e(a)
+  b 
+    \ar[r]^\beta 
+    \ar[dr]_{\alpha\circ\beta} 
+  & 
+  b' 
+    \ar[d]^\alpha 
+  \\
+  & 
+  e(a)
 \end{xymatrix}
-\]</nowiki>
-```
 
 we see that $g(\beta)$ and $g(\alpha\circ\beta)$ must lift to morphisms with identical domains, so $h(\beta)$ has domain $h(b)$.
 
@@ -95,12 +101,14 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 =--
 
+
 ## References
 
-* [[Ross Street]], [[R. F. C. Walters]], The Comprehensive Factorization of Functor
+* [[Ross Street]], [[R. F. C. Walters]], *The Comprehensive Factorization of Functor*, Bull. Amer. Math. Soc. 79(5): 936-941 ([bams:1183534973](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-79/issue-5/The-comprehensive-factorization-of-a-functor/bams/1183534973.full))
 
-* [[Fosco Loregian]], [[Emily Riehl]], Categorical Notions of Fibration
+* [[Fosco Loregian]], [[Emily Riehl]], *Categorical Notions of Fibration* ([arXiv:1806.06129](https://arxiv.org/abs/1806.06129))
 
-* [[Clemens Berger]], [[Ralph M. Kaufmann]], Comprehensive Factorization Systems
+* [[Clemens Berger]], [[Ralph M. Kaufmann]], *Comprehensive Factorization Systems*, Tbilisi Math. J. 10 (2017), 255-277 ([doi:10.1515/tmj-2017-0112](https://projecteuclid.org/journals/tbilisi-mathematical-journal/volume-10/issue-3/Comprehensive-factorisation-systems/10.1515/tmj-2017-0112.short))
 
 [[!redirects comprehensive factorization systems]]
+
