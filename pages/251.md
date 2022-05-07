@@ -285,7 +285,8 @@ See also
 
 * [[Mike Shulman]], [Comparing composites of left and right derived functors](http://nyjm.albany.edu/j/2011/17-5v.pdf), _New York J. Math._ **17** (2011) 75--125. [arXiv:0706.2868](http://arxiv.org/abs/0706.2868)
 
-* {#Myers16} David Jaz Myers, _String Diagrams For Double Categories and (Virtual) Equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
+* {#Myers16} David Jaz Myers, _String diagrams for double categories and (virtual) equipments_ ([arXiv:1612.02762](https://arxiv.org/abs/1612.02762))
+* Kenny Courser, _Open systems: a double categorical perspective_, PhD thesis, [arxiv/2008.02394](https://arxiv.org/abs/2008.02394)
 
 Model structures on the category of double categories are discussed in:
 
