@@ -67,7 +67,7 @@ There are many different kinds of of "logical theories", each of which correspon
 |[[minimal logic]]| |[[cartesian closed category]]
 |[[regular logic|regular]]| |[[regular category]]|
 |[[coherent logic|coherent]]| |[[coherent category]]|
-|[[disjunctive logic|disjunctive]]| |[[extensive category|lextensive category]] (aka finitary disjunctive category)|
+|[[disjunctive logic|disjunctive]]| |[[pre-lextensive category]]|
 |[[geometric logic|geometric]]| |[[coherent category|infinitary coherent category]] (aka [[geometric category]])|
 |[[constructive logic|constructive]] [[first-order logic|first-order]]| |[[Heyting category]]|
 |[[classical logic|classical]] [[first-order logic|first-order]]| |[[Boolean category]]|
