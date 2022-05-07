@@ -20,12 +20,12 @@ The localic completion of $X$ is the [[locale]] presented by [[generators]] $B(x
 
 1. If $B(x,\delta)\le B(y,\epsilon)$ (as above) then $B(x,\delta)\le B(y,\epsilon)$ (in the locale)
 2. $\top = \bigvee_{x\in X} B(x,\epsilon)$ for any $\epsilon$
-3. $B(x,\delta)\cap B(y,\epsilon) = \bigvee \{ B(z,\eta) \mid B(z,\eta) \le B(x,\delta) \text{ and } B(z,\eta) \le B(y,\epsilon) \}$
+3. $B(x,\delta)\cap B(y,\epsilon) = \bigvee \{ B(z,\eta) \mid B(z,\eta) \le B(x,\delta) \, \text{and} \, B(z,\eta) \le B(y,\epsilon) \}$
 4. $B(x,\delta) = \bigvee \{ B(y,\epsilon) \mid B(y,\epsilon) \lt B(x,\delta) \}$
 
 [Vickers](#VickersI) combines conditions (3) and (4) into:
 
-* $B(x,\delta)\cap B(y,\epsilon) = \bigvee \{ B(z,\eta) \mid B(z,\eta) \lt B(x,\delta) \text{ and } B(z,\eta) \lt B(y,\epsilon) \}$
+* $B(x,\delta)\cap B(y,\epsilon) = \bigvee \{ B(z,\eta) \mid B(z,\eta) \lt B(x,\delta) \, \text{and} \, B(z,\eta) \lt B(y,\epsilon) \}$
 
 On the other hand, condition (3) makes sense for any poset of generators replacing $\{B(x,\delta)\}$, and simply says that we regard the generators as a [[base]] rather than a [[subbase]].  Since the elements of a [[formal topology]] automatically form a base, [Palmgren](#Palmgren) (who works with formal topologies) can omit condition (3).
 
