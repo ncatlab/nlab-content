@@ -116,17 +116,19 @@ $$
   \pi^\ast \mathcal{V}
   \,.
 $$
-
 \end{proposition}
+
+(e.g. [Gollinger 16, inside the proof of Prop. 1.1.9](#Gollinger16))
+
 
 \begin{prop}\label{StableTangentBundleOfUnitSphereBundle}
 **([[stable tangent bundle]] of [[unit sphere bundle]])** \linebreak
   The once-[[stable tangent bundle|stabilized]] [[tangent bundle]] of a [[unit sphere bundle]] $S(\mathcal{V})$ in a [[real vector bundle]] $\mathcal{V} \overset{p}{\longrightarrow} M$ (Example \ref{UnitSphereBundles}) over a [[smooth manifold]] $M$ is [[isomorphism|isomorphic]] to the [[pullback bundle|pullback]]  of the [[direct sum of vector bundles|direct sum]] of the [[stable tangent bundle]] of the base manifold with that vector bundle:
 
 $$
-  T^{stab} S(\mathcal{V})
+  T S(\mathcal{V}) \times \mathbb{R}
   \;
-  \simeq
+  \simeq_{{}_M}
   \;
   S(p)^\ast
   \big(
@@ -138,7 +140,15 @@ $$
 $$
 \end{prop}
 
-This is stated without proof as [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03), apparently reading between the lines in [Milnor 56, p. 403](#Milnor1956).
+This is stated without proof as [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03), apparently reading between the lines in [Milnor 56, p. 403](#Milnor1956). The key sub-statement that 
+
+$$
+  T_{S(p)} S(\mathcal{V}) \times \mathbb{R}
+  \;\simeq_{{}_M}\;
+  \mathcal{V}
+$$
+
+is made explicit in [Gollinger 16, Prop. 1.1.9](#Gollinger16)
 
 \begin{proof}\label{ProofOfStableTangentBundleOfUnitSphereBundle}
   Consider first the actual [[tangent bundle]] but to the [[open ball]]/[[disk]]-[[fiber bundle]] $D(\mathcal{V})$ that fills the given sphere-fiber bundle: By the standard splitting ([this Prop.](vertical+vector+field#SplittingOfTotalSpaceTangentBundle)) this is the [[direct sum of vector bundles|direct sum]]
@@ -194,12 +204,17 @@ To conclude, it just remains to observe that the [[normal bundle]] of the [[n-sp
 
 Textbook accounts:
 
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]],  Section VII.1 in Volume 1 _De Rham Cohomology of Manifolds and Vector Bundles_, in: _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)  ([ISBN:978-0-12-302701-6](https://www.elsevier.com/books/connections-curvature-and-cohomology-v1/greub/978-0-12-302701-6))
+
 *  {#Tu17} [[Loring Tu]], Section 27.5 in: _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer 2017 ([ISBN:978-3-319-55082-4](https://www.springer.com/gp/book/9783319550824))
 
 
 See also:
 
 * [[Manifold Atlas]], _<a href="http://www.map.mpim-bonn.mpg.de/Tangent_bundles_of_bundles_(Ex)">Tangent bundles of bundles</a>_
+
+* {#Gollinger16} William Gollinger, Section 1.1.4 in: _Madsen-Tillmann-Weiss Spectra and a Signature Problem for Manifolds_, M&uuml;nster 2016 ([pdf](https://repositorium.uni-muenster.de/document/miami/7369e8b5-6ae4-4e42-b6f3-4602ec24427a/diss_gollinger.pdf))
 
 * {#Berglund20} Alexander Berglund, _Characteristic classes for families of bundles_ ([arXiv:2012.12170](https://arxiv.org/abs/2012.12170))
 
