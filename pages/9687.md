@@ -207,7 +207,7 @@ Textbook accounts:
 
   > (in view of [[Yang-Mills monopoles]])
 
-Introductions and surveys include
+Introductions and surveys:
 
 * Yuri L. Dokshitzer, around section 1.2 of _QCD Phenomenology_ ([arXiv:hep-ph/0306287](https://arxiv.org/abs/hep-ph/0306287))
 
