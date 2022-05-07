@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -210,13 +211,16 @@ Write
 
 * and write $PSh(C)/Y(c)$ for the [[over category]] of [[presheaf|presheaves]] on $C$ over the presheaf $Y(c)$, where $Y : C \to PSh(C)$ is the [[Yoneda embedding]]. 
 
-+-- {: .num_prop #representable_case}
++-- {: .num_prop #SliceOfPresheavesIsPresheavesOnSlice}
 ###### Proposition
 
-There is an [[equivalence of categories]]
+There is an [[equivalence of categories]] 
 
 $$
-  e : PSh(C/c) \stackrel{\simeq}{\to} PSh(C)/Y(c)
+  e \;\colon\; 
+  PSh(C/c) 
+  \xrightarrow{\;\;\simeq\;\;} 
+  PSh(C)/Y(c)
   \,.
 $$
 
@@ -227,21 +231,50 @@ $$
 ###### Proof
 
 The functor $e$ takes $F \in PSh(C/c)$ to the presheaf
-$F' : d \mapsto \sqcup_{f \in C(d,c)} F(f)$ which is equipped with the natural transformation $\eta : F' \to Y(c)$ with component map 
 
 $$
-  \eta_d : \sqcup_{f \in C(d,c)} F(f) \to C(d,c)
-  : ((f \in C(d,c), \theta \in F(f)) \mapsto f
-  \,.
+  F' 
+    \,\colon\, 
+  d 
+    \;\mapsto\; 
+  \underset{
+    f \in C(d,c)  
+  }{\sqcup}
+  F(f)
+$$ 
+
+which is equipped with the natural transformation $\eta : F' \to Y(c)$ with component map 
+
+$$
+  \array{
+    \eta_d 
+    &
+    \colon
+    &
+    \underset
+      {f \in C(d,c)}  
+    {\sqcup }
+      F(f) 
+    &
+    \longrightarrow 
+    &
+    C(d,c)
+    \\
+    &&
+    \theta \in F(f) 
+    &\mapsto& 
+    f
+    \,.
+  }
 $$
 
-A weak inverse of $e$ is given by the functor 
+One readily checks that a weak inverse of $e$ is given by the functor 
 $$
-  \bar e : PSh(C)/Y(c) \to PSh(C/c)
+  \bar e \;\colon\; PSh(C)/Y(c) \to PSh(C/c)
 $$
-which sends $\eta : F' \to Y(c)$ to $F \in PSh(C/c)$ given by
+which sends $\eta \,\colon\, F' \to Y(c)$ to $F \in PSh(C/c)$ given by
 $$
-  F : (f : d \to c) \mapsto F'(d)|_c
+  F \;\colon\; (f \,\colon\, d \to c) \mapsto F'(d)|_c
   \,,
 $$
 where $F'(d)|_c$ is the [[pullback]]
@@ -283,7 +316,7 @@ and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure 
 
 Consider $\int_C Y(c)$ , the [[category of elements]] of $Y(c):C^{op}\to Set$. This has objects $(d_1,p_1)$ with $p_1\in Y(c)(d_1)$, hence $p_1$ is just an arrow $d_1\to c$ in $C$. A map from $(d_1, p_1)$ to $(d_2, p_2)$ is just a map $u:d_1\to d_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in $C/c$.
 
-Hence, the above proposition \ref{representable_case} can be rephrased as $PSh(\int_C Y(c))\simeq PSh(C)/Y(c)$ which is an instance of the following formula:
+Hence, the above Prop. \ref{SliceOfPresheavesIsPresheavesOnSlice} can be rephrased as $PSh(\int_C Y(c))\simeq PSh(C)/Y(c)$ which is an instance of the following formula:
 
 =--
 
@@ -336,9 +369,7 @@ The slice adjunction $(f^*/X \dashv f_*/X)$ is discussed  <a href="http://ncatla
 We discuss [[point of a topos|topos points]] of over-toposes.
 
 
-+-- {: .num_prop #points-from-pairs}
-###### Observation
-
+\begin{lemma}\label{points-from-pairs}
 Let $\mathcal{E}$ be a [[topos]], $X \in \mathcal{E}$ an [[object]] and 
 
 $$
@@ -349,15 +380,14 @@ a [[point of a topos|point]] of $\mathcal{E}$. Then for every element $x \in e^*
 
 $$
   (e,x)
-  :
+  \;\colon\;
   Set \stackrel{\overset{x^*}{\leftarrow}}{\underset{x_*}{\to}}
   Set/e^*(X) 
   \stackrel{\overset{e^*/X}{\leftarrow}}{\underset{e_*/X}{\to}}
   \mathcal{E}/X
   \,.
 $$
-
-=--
+\end{lemma}
 
 Here $(e^*/X \dashv e_*/X)$ is the slice geometric morphism of $e$ over $X$ discussed [above](SliceGeometricMorphism) and $(x^* \dashv x_*)$ is the &eacute;tale geometric morphism discussed [above](GeneralEtaleGeometricMorphism) induced from the morphism 
 $* \stackrel{x}{\to} e^*(X)$.
@@ -442,7 +472,7 @@ The point corresponding the pair $(e,x)$ is the one constructed in Observation \
 
 * {#SGA4}[[Michael Artin]], [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Théorie des Topos et Cohomologie Etale des Schémas ([[SGA4]])_, Springer **LNM** vol.269 (1972). (In particular, exposé III.5 and exposé IV.5 on the "induced topos" - _topos induit_ = slice topos)
 
-* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _Categories and Sheaves_, Springer Heidelberg 2006.
+* {#KS06} [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Springer 2006.
 
 * {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (Especially section IV.7)
 
