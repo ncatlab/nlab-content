@@ -9,4 +9,9 @@ Identifying [[AdS/CFT in condensed matter physics]] and [[holographic entangleme
 
 * {#Swingle12} [[Brian Swingle]], _Constructing holographic spacetimes using entanglement renormalization_ ([arXiv:1209.3304](https://arxiv.org/abs/1209.3304), [spire:1185813](http://inspirehep.net/record/1185813))
 
+On [classically controlled quantum computation](quantum+computation#ClassicalControlQuantumData) on [[NISQ]]-machines in terms of [[holographic entanglement entropy|holographic]] [[tensor network]] states:
+
+* {#KimSwingle17} [[Isaac H. Kim]], [[Brian Swingle]], *Robust entanglement renormalization on a noisy quantum computer* ([arXiv:1711.07500](https://arxiv.org/abs/1711.07500))
+
+
 category: people
