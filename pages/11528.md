@@ -21,13 +21,37 @@
 
 ## Idea
 
-Given a [[simplicial group]] $G_\bullet$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[simplicial group actions]], hence of [[simplicial sets]] equipped with $G$-[[action]] which presents the [[(∞,1)-category]] of [[∞-actions]] of the [[∞-group]] (see there) presented by $G$.
+Given a [[topological space]] $G$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[topological G-spaces]], hence of [[topological spaces]] [[group object|equipped with]] [[continuous function|continuous]] [[group actions]].
 
-In the context of [[equivariant homotopy theory]] this is also called the "coarse model structure" (e.g. [Guillou, section 5](#Guillou)), since it is not equivalent to the "fine" homotopy theory of [[G-spaces]] which enters [[Elmendorf's theorem]].
+Analogously, given a [[simplicial group]] $G_\bullet$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[simplicial group actions]], hence of [[simplicial sets]] equipped with $G$-[[action]] 
+
+Both of these presents the [[(∞,1)-category]] of [[∞-actions]] of the [[∞-group]] (see there) presented by $G$.
+
+In the context of [[equivariant homotopy theory]] this is also called the "coarse model structure" (e.g. [Guillou, section 5](#Guillou)), since it is in general not equivalent to the "fine" homotopy theory on [[topological G-spaces]] that enters [[Elmendorf's theorem]].
 
 
 ## Definition
 
+### In topological spaces
+
+\begin{prop}\label{BorelModelStructureOnTopologicalSpaces}
+For $G \in Grp(Set) \xrightarrow{\;} Grp(TopSp)$ a [[discrete group|discrete]] [[topological group]] there is a [[model category]]-structure 
+
+$$
+  G Act\big(TopSp\big)_{proj}
+  \;\;\;
+  \in
+  \;
+  MdlCat
+$$ 
+
+on the [[category]] of [[topological G-spaces]] whose [[weak equivalences]] and [[fibrations]] are those [[morphisms]] whose [[underlying]] [[continuous functions]] are so in the  [[classical model structure on topological spaces]].
+\end{prop}
+
+([Guillou, Thm. 5.1](#Guillou))
+
+
+### In simplicial sets
 
 \begin{defn}\label{BorelModelStructure}
 
@@ -37,7 +61,7 @@ For $G_\bullet$ a [[simplicial group]] write
 
 * $G_\bullet Actions(sSet) \;\coloneqq\; sSetCat\big(\mathbf{B}G_\bullet, sSet\big)$ for the [[sSet]]-[[enriched functor category]] to [[SimplicialSets]].
 
-* $G_\bullet Acts(sSet)_{proj} \coloneqq sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ for the projective [[model structure on functors]] (projective [[model structure on simplicial presheaves]]). 
+* $G_\bullet Acts\big(sSet_{Qu}\big)_{proj} \coloneqq sSetCat\big(\mathbf{B}G_\bullet, sSet\big)_{proj}$ for the projective [[model structure on functors]] (projective [[model structure on simplicial presheaves]]). 
 
 This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model category]] ([DDK 80, Prop. 2.4](#DDK80), [Goerss & Jardine 09, Chapter V, Thm. 2.3](#GoerssJardine09)).
 
@@ -45,7 +69,89 @@ This is the $G_\bullet$ *Borel model structure*, naturally a [[simplicial model 
 
 ## Properties
 
-### Cofibrant replacement and homotopy quotients/fixed points
+### In topological spaces
+ {#PropertiesInTopologicalSpaces}
+
+#### Cofibrant replacement
+
+\begin{prop}\label{CofibrantObjectsInTopologicalBorelModelStructure}
+The [[cofibrant objects]] in $G Act\big( TopSp_{Qu}\big)_{proj}$ (Prop. \ref{BorelModelStructureOnTopologicalSpaces}) have [[free action]] by $G$. 
+\end{prop}
+([Guillou, Prop. 5.3](#Guillou))
+
+\begin{example}\label{ProductWithUniversalPrincipalGSpaceIsCofibrantReplacement}
+  Since the [[universal principal bundle|universal principal space]] $E G$ (the [[topological realization]] $E G \,=\, \big\vert W G\big\vert$ of the [[universal principal simplicial complex]]) is
+
+* [[contractible homotopy type|contractible]]: $E G \simeq_{whe} \ast$;
+
+* equipped with a [[free action]] by $G$,
+
+Prop. \ref{CofibrantObjectsInTopologicalBorelModelStructure} implies that the [[product]] with $E G$ in G Act(TopSp) (i.e. the [[product topological space]] with the induced [[diagonal action]]) serves as [[cofibrant replacement]] in $G Act(TopSp)$:
+
+$$
+  \varnothing
+    \underset{\;\in Cof\;}{\longrightarrow}
+  X \times E G
+    \underoverset{\;\in W \cap Fib\;}{pr_1}{\longrightarrow}
+  X
+  \;\;\;
+  \in
+  G Act\big(TopSp_{Qu}\big)_{proj}
+  \,.
+$$
+\end{example}
+
+
+
+#### Borel construction
+
+
+
+\begin{prop}\label{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}
+  There is a [[Quillen adjunction]]
+  $$
+    TopSp_{Qu}
+    \underoverset
+      {\underset{triv}{\longrightarrow}}
+      {\overset{(-)/G}{\longleftarrow}}
+      {\bot}
+    G Act\big(TopSp_{Qu}\big)_{proj}   
+  $$
+  between the [[classical model structure on topological spaces]] and the projective Borel model structure from Prop. \ref{BorelModelStructureOnTopologicalSpaces}, whose
+
+* [[right Quillen functor]] $triv$ assigns [[trivial actions]];
+
+* [[left Quillen functor]] assigns [[topological quotient spaces]].
+
+\end{prop}
+([Guillou, Ex. 5.5](#Guillou))
+
+\begin{prop}
+  The [[Borel construction]] exhibits the [[left derived functor]] of the [[quotient space]]-[[left Quillen functor]] in Prop. \ref{QuotentQuillenAdjunctionBetweenGSpacesToSpaces}:
+
+$$
+  X \,\in\, A Act(TopSp)
+  \;\;\;\;
+    \Rightarrow
+  \;\;\;\;
+  \big(\mathbb{L}(-)/G\big)(X)
+  \;\simeq\;
+  \frac{E G \times X}{G}
+  \;\;\;
+  \in
+  \;
+  Ho\Big( G Act\big( TopSp_{Qu} \big)_{proj}  \Big)
+  \,.
+$$ 
+\end{prop}
+\begin{proof}
+  Since the [[left derived functor]] of a left Quillen functor is given by the application of the latter on any [[cofibrant replacement]], the claim follows by Ex. \ref{ProductWithUniversalPrincipalGSpaceIsCofibrantReplacement}.
+\end{proof}
+
+
+### In simplicial sets
+
+#### Cofibrant replacement and homotopy quotients/fixed points
  {#CofibrantReplacementAndHomotopyQuotientsFixedPoints}
 
 \begin{prop}\label{CofibrationsOfSimplicialActions}
@@ -109,7 +215,7 @@ In particular,if $A$ is [[fibrant object|fibrant]] (the underlying simplicial se
 \end{remark}
 
 
-### Relation to the slice over the simplicial classifying space
+#### Relation to the slice over the simplicial classifying space
  {#RelationToSliceOverSimplicialClassifyingSpace}
 
 \begin{prop}\label{QuillenEquivalenceToSliceOverSimplicialClassifyingSpace}
@@ -197,7 +303,7 @@ which, in turn, follows, for instance, via the [[pasting law]]:
   }
   \ar[r]
   \ar[d]
-  \ar[dr,phantom,"\mbox{\tiny\rm(pb)}"]
+  \ar[dr,phantom,"\mbox{\tiny (pb)}"]
   & 
   X \times \Delta[k]
   \ar[
@@ -208,7 +314,7 @@ which, in turn, follows, for instance, via the [[pasting law]]:
   X \times_{\overline{W}G} W G
   \ar[r]
   \ar[d]
-  \ar[dr,phantom,"\mbox{\tiny\rm(pb)}"]
+  \ar[dr,phantom,"\mbox{\tiny (pb)}"]
   & 
   X 
   \ar[
@@ -226,7 +332,7 @@ which, in turn, follows, for instance, via the [[pasting law]]:
 
 
 
-### Relation to the model structure on plain simplicial sets
+#### Relation to the model structure on plain simplicial sets
  {#RelationToModelStructureOnPlainSimplicialSets}
 
 For $\mathcal{G} \,\in\, Groups(sSets)$ a [[simplicial group]], write $\mathcal{G}Actions(sSets)$ for the [[category]] of $\mathcal{G}$-[[actions]] on [[simplicial sets]].
@@ -523,7 +629,7 @@ of the inertia groupoid as follows (recall the nature of [[products of simplices
 \end{example}
 
 
-### Relation to the fine model structure of equivariant homotopy theory
+#### Relation to the fine model structure of equivariant homotopy theory
 
 The [[identity functor]] gives a [[Quillen adjunction]] between the Borel model structure and [[equivariant homotopy theory]] ([Guillou, section 5](#Guillou)).
 
@@ -553,7 +659,7 @@ is right Quillen.
 
 
 
-### Generalization to simplicial presheaves
+#### Generalization to simplicial presheaves
  {#GeneralizationToSimplicialPresheaves}
 
 Since the [[simplicial classifying space|universal simplicial principal complex]]-construction is [[functor|functorial]]
