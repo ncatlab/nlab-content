@@ -287,6 +287,8 @@ where the bottom and the right morphisms are [[monomorphism]]s. Therefore also t
 
 * The concrete sheaves on the [[concrete site]] [[CartSp]] are the [[diffeological spaces]].
 
+* The category of [[quasi-Borel space|quasi-Borel spaces]] is the category of concrete sheaves on the category of standard Borel spaces considered with the [[extensive category#Superextensive sites|extensive coverage]]. 
+
 
 ## Related concepts
 
