@@ -1,4 +1,40 @@
 
+
+\begin{prop}
+  If $f$ is an [[isomorphism]] with [[inverse morphism]] $f^{-1}$, then any [[left inverse]] or [[right inverse]] is already an actual [[inverse morphism]] and in fact is [[equality|equal]] to $f^{-1}$.
+\end{prop}
+In particular, [[inverse morphisms]] are unique when they exist.
+\begin{proof}
+  Let $g$ be a [left inverse]], hence such that $g \circ f \,=\, id$. 
+  Write $f^{-1}$ for the actual inverse, hence such that
+  $f^{-1} \circ f \,=\, id$ and $f \circ f^{-1} \,=\, id$.  
+  Then the following sequence of equalities implies that
+  $g = f^{-1}$:
+$$
+  \begin{aligned}
+    g 
+    & \;=\;
+    g \circ id
+    \\
+    & \;=\;
+    g \circ ( f \circ f^{-1} )
+    \\
+    & \;=\;
+    (g \circ f) \circ f^{-1}
+    \\
+    & \;=\;
+    id \circ f^{-1}
+    \\
+    & \;=\;
+    f^{-1}
+    \,.
+  \end{aligned}
+$$
+Here essentially all steps use just the definitions of the various morphisms, except the third, which uses [[associativity]] of [[composition]] in any [[category]].
+
+An analogous argument applies to right inverses; and, of course, either argument applies to actual inverses.
+\end{proof}
+
 \begin{remark}
   The sliced adjunction (Prop. \ref{SliceAdjoints}) in the second form (eq:SlicedAdjointFunctorsOverRb) is such that the sliced [[left adjoint]] form [[adjuncts]] of slicing morphisms, in that (again by [this Prop.](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)):
 
