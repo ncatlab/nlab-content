@@ -41,7 +41,7 @@ for $I$ the [[interval category]] $\{0 \to 1\}$.  $Arr(C)$ is also written $[\ma
 
 ## Properties
 
-* $Arr(C)$ is the equivalently the [[comma category]] $(id/id)$ where $id\colon C \to C$ is the [[identity functor]].
+* $Arr(C)$ is equivalently the [[comma category]] $(id/id)$ where $id\colon C \to C$ is the [[identity functor]].
 
 * $Arr(C)$ plays the role of a directed [[homotopy|path object]] for categories in that functors
 $$
