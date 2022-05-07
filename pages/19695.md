@@ -24,6 +24,8 @@ Generally, given some kind of [[space]] equipped with the [[action]] of a [[grou
 
 Specifically, given a [[topological group]] $G$ and a [[topological G-space]], its _fixed point space_ is the set of the set-theoretic [[fixed points]] of the $G$-[[action]], equipped with the [[subspace topology]].
 
+For more see at _[[topological G-space]]_ the section _[Change of groups and fixed loci](topological+G-space#ChangeOfGroupsAndFixedLoci)_.
+
 ### In equivariant homotopy theory
 
 The statement of [[Elmendorf's theorem]] is essentially that the [[equivariant homotopy theory]] of [[G-space|topological $G$-spaces]] is equivalently encoded in their systems of $H$-fixed point spaces, as $H$ varies over [[closed subspace|closed]] [[subgroups]] of $G$.
