@@ -34,7 +34,7 @@ $$
 
 may naturally be called the *Cayley distance kernel* (though it does not seem to have a standard name in existing literature).
 
-This is different from but akin to other [[kernel methods|kernels]] used in [[geometric group theory]], notably the more widely studied *[[Mallows kernel]]*, which is of the same form but using the [[Kendall distance]] instead of the [[Cayley distance]]. While these two [[distance]] [[functions]] are superficially similar (where the Cayley distance counts the minimum number of [[transpositions]] needed to turn one permutation intto another, the [[Kendall distance]] counts minimum numbers of *adjacent* [[transpositions]]) the two resulting kernels behave qualitatively differently:
+This is different from but akin to other [[kernel methods|kernels]] used in [[geometric group theory]], notably the more widely studied *[[Mallows kernel]]*, which is of the same form but using the [[Kendall distance]] instead of the [[Cayley distance]]. While these two [[distance]] [[functions]] are superficially similar (where the Cayley distance counts the minimum number of [[transpositions]] needed to turn one permutation into another, the [[Kendall distance]] counts minimum numbers of *adjacent* [[transpositions]]) the two resulting kernels behave qualitatively differently:
 
 Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel may become [[indefinite bilinear form|indefinite]], for small $\beta$, see Example \ref{CayleyDistanceKernelOnSym3} below.
 
@@ -526,7 +526,7 @@ it follows that this sum over the first row equals the Gershgorin radius plus 1 
  {#Positivity}
 
 \begin{prop}
-  A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive semi-definite bilinear form|positive semi-definite]] is that its [[inverse temperature]] satisfies the following [[inequality]]:
+  A sufficient condition for the Cayley distance kernel (Def. \ref{CayleyDistanceKernel}) on $Sym(n)$ to be [[positive semi-definite bilinear form|positive semi-definite]] is that its [[inverse temperature]] $\beta$ satisfies the following [[inequality]]:
 
 \[
   \label{GershgorinBoundOnTemperatureForPositivity}
@@ -572,7 +572,7 @@ implies that all eigenvalues are contained in the [[interval]] $[0,2] \subset \m
 \end{proof}
 
 \begin{prop}\label{ExplicitBoundForInverseTemperatureEnsuringPositivity}
-  For [[inverse temperature]] the [[natural logarithm]] of a [[natural number]]
+  For [[inverse temperature]] being the [[natural logarithm]] of a [[natural number]]
 \[
   \label{InverseTemperatureEqualToNaturalLogarithmOfNaturalNumber}
   \beta
