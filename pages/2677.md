@@ -124,14 +124,18 @@ After the very first observations by Tits, pioneers were [[Christophe Soulé]] a
 
 * [[John Baez]], _This Week's Finds 259_ ([html](http://math.ucr.edu/home/baez/week259.html) [blog](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html))
 
+
 * [[Alain Connes]], _Fun with $\mathbf{F}_1$_, 5 min. [video](http://www.dailymotion.com/video/x6xe0g_article-alain-connes_tech)
 
 * [[Lieven Le Bruyn]], _The field with one element_, seminar notes 2008 ([web](http://win.ua.ac.be/~lebruyn/b2hd-LeBruyn2008d.html))
 
 * {#Lorscheid14} [[Oliver Lorscheid]], _Lectures on $\mathbb{F}_1$_, 2014 ([pdf](http://www.impa.br/~lorschei/Lectures_on_F1.pdf))
 
-
 * [[Oliver Lorscheid]], _$\mathbb{F}_1$ for everyone_, 2018 ([arXiv:1801.05337](https://arxiv.org/abs/1801.05337))
+
+* [[Tim Hosgood]], _Under $\mathop{Spec}\mathbb{Z}$: a reader's companion_, master thesis, 2016 ([pdf](https://thosgood.com/assets/files/under-spec-z.pdf)).
+
+
 
 ### Original articles ###
 
