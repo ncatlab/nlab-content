@@ -90,7 +90,7 @@ The following proposition says that being a Hurewicz fibration is a *local prope
   
 Let $p \colon E \to B$ be a continuous function such that there exists a [[numerable open cover]] $U \overset{\phi}{\longrightarrow} B$ over which $E$ is a Hurewicz fibration, hence such that the [[pullback]] $\phi^\ast p$ is a Hurewicz fibration.
 
-Then $p$ is a Serre fibration
+Then $p$ is a Hurewicz fibration
 
 \end{prop}
 
