@@ -27,6 +27,10 @@ The $V_{c b}$-puzzle is different from, but related to, the [[flavour anomalies]
 
 * [[flavour anomaly]]
 
+* [[Cabibbo anomaly]]
+
+* [[(g-2)-anomaly]]
+
 ## References
 
 * {#GambinoJungSchacht19} Paolo Gambino, Martin Jung, Stefan Schacht, _The $V_{c b}$ puzzle: an update_ ([arXiv:1905.08209](https://arxiv.org/abs/1905.08209))
