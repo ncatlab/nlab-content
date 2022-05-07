@@ -27,6 +27,8 @@ The structuralist says, essentially, that the number "$3$" should denote "the th
 
 Thus, somewhat paradoxically, it turns out that one of the primary attributes of a structural set theory is that the *elements* of a set have *no* "internal" structure; they are only given structure by means of functions and relations.  In particular, they are not themselves sets, and by default cannot be elements of any other set (not in the sense that it is false that they are, but in the sense that it is meaningless to ask whether they are), so that elements of different sets cannot be compared (unless and until extra structure is imposed).  Structural set theory thus looks very much like [[type theory]].  We contrast it with [[material set theory|material set theories]] such as ZF, in which the elements of sets can have internal structure, and are often (perhaps always) themselves sets.
 
+Structural set theories can be distinguished by whether they include a formal notion of [[family]] of [[sets]]. Those that do are known as [[first-order set theory|first-order set theories]], while those that do not are known as [[zeroth-order set theory|seroth-order set theories]]. [[higher-order set theory|Higher-order set theories]] have a notion of families of families in addition to families of sets. This parallels [[logic]], where the role of [[proposition]]s is played by sets and the role of [[predicate]]s is played by families. Many structural set theories are only zeroth-order set theories, but the hSets and functions from hSets to the type hSet in [[homotopy type theory]] form a higher-order set theory. 
+
 It is hard to say precisely what makes a set theory "structural", but one attempt is the notion of a [[structurally presented set theory]].
 
 ## Examples
