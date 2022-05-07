@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -110,8 +109,12 @@ In this perspective picture number is an extra grading on [[differential forms o
 
   (for super-[[Wilson lines]])
 
+Review: 
+
+* [[Pietro Grassi]], *Integral Forms and Applications*, Sestri Levante 2015 ([pdf](https://agenda.infn.it/event/8823/attachments/55101/64989/Grassi-SL.pdf), [[GrassiIntegralForms2015.pdf:file]])
+
 See also:
 
-* Sergio L. Cacciatori, Simone Noja, Riccardo Re, _The Unifying Double Complex on Supermanifolds_ ([https://arxiv.org/abs/2004.10906](https://arxiv.org/abs/2004.10906))
+* Sergio L. Cacciatori, Simone Noja, Riccardo Re, _The Unifying Double Complex on Supermanifolds_ ([arXiv:2004.10906](https://arxiv.org/abs/2004.10906))
 
 
