@@ -5,7 +5,7 @@
 ***
 
 
-This are lecture notes gibing a detailed introduction to classical _[[homotopy theory]]_, starting with the concept of [[homotopy]] in [[topological spaces]] and motivating from this the "abstract homotopy theory" in general [[model categories]].
+This are lecture notes giving a detailed introduction to classical _[[homotopy theory]]_, starting with the concept of [[homotopy]] in [[topological spaces]] and motivating from this the "abstract homotopy theory" in general [[model categories]].
 
 $\,$
 
@@ -4784,7 +4784,7 @@ $$
 
 where $P f$ is any lift constructed as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}.
 
-This exhibits the bottom left morphism as the [[derived adjunction unit]], hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
+This exhibits the bottom left morphism as the [[derived adjunction unit]], hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_c$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
 
 =--
 
@@ -5905,7 +5905,7 @@ we call the **[[classical pointed homotopy category]]**.
 +-- {: .num_remark #NonDegenerateBasepointAsCofibrantObjects}
 ###### Remark
 
-The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$. But the cofibrant objects in $\mathcal{C}^{\ast}$ are now those for which the basepoint inclusion is a cofibration in $X$.
+The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$. But the cofibrant objects in $\mathcal{C}^{\ast/}$ are now those for which the basepoint inclusion is a cofibration in $X$.
 
 For $\mathcal{C}^{\ast/} = Top^{\ast/}_{Quillen}$ from def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces **with non-degenerate basepoints** or . Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
 
@@ -6073,7 +6073,7 @@ $$
   \,.
 $$
 
-Hence [[colimits]] in $Top_{cg}$ exists and are computed as in [[Top]]. Also [[limits]] in $Top_{cg}$ exists, these are obtained by computing the limit in [[Top]] and then applying the functor $k$ to the result.
+Hence [[colimits]] in $Top_{cg}$ exist and are computed as in [[Top]]. Also [[limits]] in $Top_{cg}$ exist, these are obtained by computing the limit in [[Top]] and then applying the functor $k$ to the result.
 
 =--
 
@@ -6105,7 +6105,7 @@ If $Y$ is (compactly generated and) a [[Hausdorff space]], then the topology on 
 
 The category $Top_{cg}$ of def. \ref{kTop} is [[cartesian closed category|cartesian closed]]:
 
-for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ of forming the [[Cartesian product]] in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
+for every $X \in Top_{cg}$ then the operation $X\times (-)$ of forming the [[Cartesian product]] in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
 
 $$
   Top_{cg}
@@ -6283,12 +6283,12 @@ $$
     }
    \\
    &\simeq
-    \frac{X\times Y \times Z}{ X \vee Y \vee Z}
+    \frac{X\times Y \times Z}{X \times \{y\}\times Z \sqcup \{x\}\times Y \times Z \sqcup X \times Y \times \{z\}}
   \end{aligned}
   \,.
 $$
 
-The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac{X\times Y \times Z}{ X \vee Y \vee Z}$.
+The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac{X\times Y \times Z}{X \times \{y\}\times Z \sqcup \{x\}\times Y \times Z \sqcup X \times Y \times \{z\}}$.
 
 The second statement follows directly with prop. \ref{CartesianClosureOfTopcg}.
 
