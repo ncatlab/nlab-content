@@ -20,16 +20,38 @@
 An [[action]]
 
 $$
-  * \;\colon\, G \times X \to X
+  (-)\cdot(-) 
+  \;\colon\;
+  G \times X \to X
 $$
 
-of a [[group]] $G$ on a [[set]] $X$ is called _transitive_ if it has a single [[orbit]], i.e., 
+of a [[group]] $G$ on a [[set]] $X$ is called _transitive_ if it has a single [[orbit]], i.e. for any two elements, $x, y \in X$, there exists $g\in G$ such that $y = g \cdot x$. 
 
-1. $X$ is [[inhabited set|inhabited]] 
+This is equivalent to saying that the [[shear map]]
 
-1. for any two elements, $x, y \in X$, there exists $g\in G$ such that $y = g * x$. 
+$$
+  \array{
+    G \times X
+    &
+    \overset
+      { (pr_2, \cdot) }
+      {\longrightarrow}&
+    X \times X
+    \\
+    (g, x) 
+    &
+    \mapsto
+    & 
+    \big( x, g \cdot x \big)
+    \,.
+  }
+$$
 
-(This definition rules out the action of $G$ on the [[empty set]]. Note that transitivity of an action is sometimes defined via (ii) alone.)
+is in [[epimorphism]]. In this form the definition makes sense for [[action objects]] [[internalization|internal]] to any ambient [[category]] with [[finite products]].
+
+Beware that often it is assumed that the underlying [[object]] $X$ of a transitive action is [[inhabited]] (but not always, see at *[[pseudo-torsor]]).
+
+
 
 For $k\ge 0$, an action $G \times X \to X$ is said to be **$k$-transitive** if the componentwise-action $G \times X^{\underline{k}} \to X^{\underline{k}}$ is transitive, where $X^{\underline{k}}$ denotes the set of tuples of $k$ distinct points (i.e., [[injective functions]] from $\{1,\dots,k\}$ to $X$).  For instance, an action of $G$ on $X$ is 3-transitive if any pair of triples $(a_1,a_2,a_3)$ and $(b_1,b_2,b_3)$ of points in $X$, where $a_i \ne a_j$ and $b_i \ne b_j$ for $i\ne j$, there exists $g \in G$ such that $(b_1,b_2,b_3) = (g a_1,g a_2,g a_3)$.
 
