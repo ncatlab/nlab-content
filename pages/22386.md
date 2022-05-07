@@ -28,6 +28,10 @@ If $H \subset G$ is a [[closed subgroup]] of a ([[finite number|finite]] [[dimen
 
 (due to [Cartan 52](#Cartan52), see [Lee 12, Thm. 20.12](#Lee12))
 
+## Consequences
+
+* [[continuous homomorphisms of Lie groups are smooth]]
+
 
 ## References
 
@@ -37,13 +41,17 @@ The statement is originally due to
 
 Textbook accounts:
 
+* [[Jeffrey M. Lee]], Theorem 5.81 in: _Manifolds and Differential Geometry_,  Graduate Studies in Mathematics 107, AMS 2009
+([doi:10.1090/gsm/107](https://doi.org/10.1090/gsm/107))
+
 * {#Lee12} [[John Lee]], Theorem 20.12 in: _Introduction to Smooth Manifolds_, Second Edition, Graduate Texts in Mathematics 218 (2012), Springer ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
 
-Theorem 5.81 in
 
-* [[Jeffrey M. Lee]], _Manifolds and Differential Geometry_, 
-Graduate Studies in Mathematics 107 (2009), AMS.
-[doi:10.1090/gsm/107](https://doi.org/10.1090/gsm/107).
+Lecture notes:
+
+* {#Wang13} [[Zuoqin Wang]], *Cartan's closed subgroup theorem*, Lecture 11 in: [李群引论](http://staff.ustc.edu.cn/~wangzuoq/Courses/13F-Lie/Lie.html), 2013 ([pdf](http://staff.ustc.edu.cn/~wangzuoq/Courses/13F-Lie/Notes/Lec%2011.pdf), [[Wang_CartanClosedSubgroupTheorem.pdf:file]])
+
+
 
 See also 
 
