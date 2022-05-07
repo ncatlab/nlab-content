@@ -17,14 +17,14 @@
 
 ### General
 
-The notion of a quasibialgebra generalizes this of a 
-[[bialgebra]][[Hopf algebra]] by introducing a nontrivial [[associativity]] [[coherence]] ([Drinfeld 89](#Drinfeld89)) isomorphisms (representable by multiplication with an element in triple tensor product) into axioms; a _quasi-Hopf algebra_ is a quasibialgebra with an antipode satisfying axioms which also involve nontrivial left and right unit coherences. 
+The notion of a quasibialgebra generalizes that of a 
+[[bialgebra]] [[Hopf algebra]] by introducing a nontrivial [[associativity]] [[coherence]] ([Drinfeld 89](#Drinfeld89)) [[isomorphisms]] (representable by multiplication with an element in triple tensor product) into axioms; a _quasi-Hopf algebra_ is a quasi-bialgebra with an [[antipode]] satisfying [[axioms]] which also involve nontrivial left and right unit coherences. 
 
-In particular, quasi-Hopf algebras may be obtained from ordinary Hopf algebras by twisting by a [[Drinfeld associator]], i.e. a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
+In particular, quasi-Hopf algebras may be obtained from ordinary [[Hopf algebras]] via twisting by a [[Drinfeld associator]], i.e. a nonabelian [[bialgebra cocycle|bialgebra 3-cocycle]].
 
 ### Motivation from quantum field theory
 
-Drinfel'd was motivated by study of [[monoidal categories]] in [[rational CFT|rational]] 2d [[conformal field theory]] (RCFT) as well as by an idea from [[Grothendieck]]'s _[[Esquisse d'un programme|Esquisse]]_ namely the [[Grothendieck-Teichmüller tower]] and its modular properties. In RCFT, the [[monoidal categories]] appearing can be, by [[Tannaka duality|Tannaka reconstruction]] considered as [[categories of modules]] of [[Hopf algebra]]-like objects where the flexibility of associativity coherence in building a theory were natural thus leading to quasi-Hopf algebras. 
+Drinfel'd was motivated by study of [[monoidal categories]] in [[rational CFT|rational]] [[2d conformal field theory]] (RCFT) as well as by an idea from [[Grothendieck]]'s _[[Esquisse d'un programme|Esquisse]]_ namely the [[Grothendieck-Teichmüller tower]] and its modular properties. In RCFT, the [[monoidal categories]] appearing can be, by [[Tannaka duality|Tannaka reconstruction]] considered as [[categories of modules]] of [[Hopf algebra]]-like objects where the flexibility of associativity coherence in building a theory were natural thus leading to quasi-Hopf algebras. 
 
 A special case of the motivation in RCFT has a toy example of [[Dijkgraaf-Witten theory]] which can be quite geometrically
 explained. Namely, where the [[groupoid convolution algebra]] of the [[delooping]] [[groupoid]] $\mathbf{B}G$ of a [[finite group]] $G$ naturally has the structure of a Hopf algebra, the [[twisted groupoid convolution algebra]] of $\mathbf{B}G$ equipped with a 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ is naturally a quasi-Hopf algebra.
@@ -32,7 +32,7 @@ Since such a 3-cocycle is precisely the [[background gauge field]] of the 3d [[T
 
 ## Definition (Drinfeld)
 
-A __quasibialgebra__ is a unital [[associative algebra]] $(A,m,\eta)$ with a structure of not necessarily coassociative coalgebra $(A,\Delta,\epsilon)$, with multiplicative
+A __quasibialgebra__ is a unital [[associative algebra]] $(A,m,\eta)$ with a structure of not necessarily [[coassociative coalgebra]] $(A,\Delta,\epsilon)$, with multiplicative
 comultiplication $\Delta$ and counit $\epsilon$, and an invertible element $\phi \in A\otimes A\otimes A$ such that 
 
 (i) the coassociativity is modified by conjugation by $\phi$ in the sense
@@ -64,7 +64,7 @@ A \otimes (M\otimes N) \stackrel{\Delta\otimes M\otimes N}\longrightarrow (A\oti
 \rightarrow (A\otimes M)\otimes (A\otimes N)\stackrel{\nu_M\otimes\nu_N}\longrightarrow M\otimes N
 $$
 
-Using the Sweedler-like notation $\phi = \sum \phi^1\otimes \phi^2\otimes \phi^3$, formulas
+Using the [[Sweedler notation|Sweedler-like notation]] $\phi = \sum \phi^1\otimes \phi^2\otimes \phi^3$, formulas
 
 $$
 \Phi_{M,N,P}: (M\otimes N)\otimes P\stackrel\cong\longrightarrow M\otimes (N\otimes P)
@@ -73,22 +73,22 @@ $$
 (m\otimes n)\otimes p\mapsto \sum (\phi^1\triangleright m)
 \otimes ((\phi^2\triangleright n)\otimes (\phi^3\triangleright p))
 $$
-define a natural transformation $\Phi$ 
-and the pentagon for $\phi$ yields the MacLane's pentagon for $\Phi$ understood as a new associator,
+define a [[natural transformation]] $\Phi$ 
+and the pentagon for $\phi$ yields the [[pentagon identity|MacLane's pentagon]] for $\Phi$ understood as a new [[associator]],
 $$
 (M\otimes\Phi_{N,P,Q})\Phi_{M,N\otimes P,Q}(\Phi_{M,N,P}\otimes Q)=\Phi_{M,N,P\otimes Q}\Phi_{M\otimes N,P,Q}
 $$
-For this reason, $\phi$ is sometimes called the associator of the quasibialgebra. While it is due Drinfeld, another variant of it, written as a formal power series and used in knot theory is often called the [[Drinfeld associator]] (see there).
+For this reason, $\phi$ is sometimes called the [[associator]] of the quasibialgebra. While it is due to Drinfeld, another variant of it, written as a [[formal power series]] and used in [[knot theory]] is often called the [[Drinfeld associator]] (see there).
 
-A __quasi-Hopf algebra__ is a quasibialgebra $(A, \Delta, \varepsilon, \phi)$ equipped with elements $\alpha,\beta \in A$ and an antiautomorhphism $S$ of $A$ such that:
+A __quasi-Hopf algebra__ is a quasibialgebra $(A, \Delta, \varepsilon, \phi)$ equipped with elements $\alpha,\beta \in A$ and an antiautomorhphism $S$ of $A$ (a suitable kind of [[antipode]]) such that:
 $$\sum_i S(b_i)\alpha c_i = \varepsilon (a) \alpha, \sum_i b_i\beta S(c_i) = \varepsilon(a)\beta$$
-for $a \in A$ with $\Delta(a) = \sum_i b_i \otimes c_i$ in Sweedler notation. Further we require:
+for $a \in A$ with $\Delta(a) = \sum_i b_i \otimes c_i$ in [[Sweedler notation]]. Further we require:
 $$\sum_i X_i\beta S(Y_i)\alpha Z_i = 1, \quad where \sum_i X_i \otimes Y_i\otimes Z_i = \phi,$$
 $$\sum_j S(P_j)\alpha Q_j\beta S(R_j) =1, \quad where \sum_j P_j \otimes Q_j \otimes R_j = \phi^{-1}.$$
 
 ### Twisting quasibialgebras by 2-cochains
 
-The associator $\phi$ is a counital 3-cocycle in the sense of bialgebra cohomology theory of Majid. The 3-cocycle condition is the pentagon for $\phi$. The abelian cohomology would add a coboundary of 2-cochain to get a cohomologous 3-cocycle. In nonabelian case, however, the twist by an invertible 2-cochain is done in a nonabelian way, described by Drinfeld and generalized by Majid to $n$-cochains.
+The [[associator]] $\phi$ is a counital 3-cocycle in the sense of bialgebra cohomology theory of [[Shahn Majid|Majid]]. The 3-cocycle condition is the [[pentagon identity|pentagon]] for $\phi$. The abelian cohomology would add a coboundary of 2-cochain to get a cohomologous 3-cocycle. In nonabelian case, however, the twist by an invertible 2-cochain is done in a nonabelian way, described by Drinfeld and generalized by Majid to $n$-cochains.
 
 Thus, for a bialgebra $A$, and fixed $n$, the
 $i$-th coface
@@ -105,9 +105,10 @@ If $F \in A^{\otimes n}$ is an $n$-cochain and $\phi\in A^{\otimes (n+1)}$ is an
 $$
 \phi^F = (\partial^+ F)\phi(\partial^- F^{-1}).
 $$
+
 Drinfeld proved that for $n=2$ the following is true. Given a quasiabialgebra $A = (A,m,\eta,\Delta,\epsilon,\phi)$ and a 2-cochain $F$, the data
-$A^F = (A,m,\eta,F\Delta(-)F^{-1},\epsilon,\phi^F)$ is also a quasibialgebra. Furthermore, categories of representations $A-mod$ and $A^F-mod$ are monoidally equivalent reflecting the idea that cohomologous cocycles lead to nonessential categorical effects. If $(A,R)$ is quasitriangular quasibialgebra then we can twist the
-R-element $R\in H\otimes H$ to $R^F = F_{21} R F$ to obtain quasitriangular quasibialgebra $(A^F,R^F)$ and their braided monoidal categories of representations are braided monoidally equivalent. 
+$A^F = (A,m,\eta,F\Delta(-)F^{-1},\epsilon,\phi^F)$ is also a quasibialgebra. Furthermore, [[categories of modules]] $A-mod$ and $A^F-mod$ are [[monoidal category|monoidally]] [[equivalence of categories|equivalent]] reflecting the idea that cohomologous cocycles lead to nonessential categorical effects. If $(A,R)$ is quasitriangular quasibialgebra then we can twist the
+R-element $R\in H\otimes H$ to $R^F = F_{21} R F$ to obtain quasitriangular quasibialgebra $(A^F,R^F)$ and their [[braided monoidal categories]] of representations are braided monoidally equivalent. 
 
 ## Related concepts
 
@@ -119,8 +120,8 @@ R-element $R\in H\otimes H$ to $R^F = F_{21} R F$ to obtain quasitriangular quas
 
 The notion was introduced in 
 
-* [[Vladimir Drinfel'd]], _&#1050;&#1074;&#1072;&#1079;&#1080;&#1093;&#1086;&#1087;&#1092;&#1086;&#1074;&#1099; &#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1099;_, Algebra i Analiz __1__ (1989), no. 6, 114--148, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=aa&paperid=53&what=fullt&option_lang=rus); translation _Quasi-Hopf algebras_, Leningrad Math. J. __1__ (1990), no. 6, 1419&#8211;1457 [MR1047964](http://www.ams.org/mathscinet-getitem?mr=1047964)
- {#Drinfeld89}
+* {#Drinfeld89} [[Vladimir Drinfel'd]], _&#1050;&#1074;&#1072;&#1079;&#1080;&#1093;&#1086;&#1087;&#1092;&#1086;&#1074;&#1099; &#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1099;_, Algebra i Analiz __1__ (1989), no. 6, 114--148, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=aa&paperid=53&what=fullt&option_lang=rus); translation _Quasi-Hopf algebras_, Leningrad Math. J. __1__ (1990), no. 6, 1419&#8211;1457 [MR1047964](http://www.ams.org/mathscinet-getitem?mr=1047964)
+ 
 
 The relation to [[Dijkgraaf-Witten theory]] appeared in
 
