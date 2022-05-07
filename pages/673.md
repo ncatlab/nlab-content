@@ -76,7 +76,7 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 ### Notes/Other
 
 
-* _A Crisis of Identification_, Inference: International Review of Science **4** Issue 3 (2019) ([link](https://inference-review.com/article/a-crisis-of-identification)). This article was subsequently reprinted for the special collection "A Christmas [Chrestomathy](https://en.wiktionary.org/wiki/chrestomathy), 2014–2020", in vol **5** Issue 4.
+* _A Crisis of Identification_, Inference: International Review of Science **4** Issue 3 (2019), doi:[10.37282/991819.19.2](https://doi.org/10.37282/991819.19.2). This article was subsequently reprinted for the special collection "A Christmas [Chrestomathy](https://en.wiktionary.org/wiki/chrestomathy), 2014–2020", in vol **5** Issue 4.
 
 * _Class forcing and topos theory_ (2018) notes from my 2015 talk at IHES, doi:[10.4225/55/5b2252e3092af](https://doi.org/10.4225/55/5b2252e3092af)
 
