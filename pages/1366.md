@@ -70,6 +70,11 @@ Alternatively, the map $J \to 1$ can be replaced with the projection from the si
 
 * of particular interest is the $(\infty,1)$-subcategory $(\infty,1)PresCat_1 \hookrightarrow (\infty,1)Cat_1$ of [[presentable (infinity,1)-category|presentable (∞,1)-categories]].
 
+## Related concepts
+
+* [[homotopy 2-category of (∞,1)-categories]]
+
+
 ## References
 
 In terms of [[complete Segal spaces]]:
