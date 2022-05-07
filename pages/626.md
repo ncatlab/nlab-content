@@ -9,7 +9,7 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
-#### Higher category theory Sur
+#### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
 =--
@@ -22,16 +22,67 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-_String diagrams_ constitute a graphical calculus for expressing operations in [[monoidal categories]]. The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
+_String diagrams_ constitute a graphical calculus for expressing operations in [[monoidal categories]]. 
 
-* putting strings next to each other denotes the monoidal product, and having no string at all denotes the unit;
+\begin{imagefromfile}
+    "file_name": "HotzFigure2.jpg",
+    "float": "right",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "From [Hotz 65](#Hotz65)"
+\end{imagefromfile}
 
-* braiding strings over each other corresponds to &#8211; yes, the [[braided monoidal category|braiding]] (if any);
+\begin{imagefromfile}
+    "file_name": "PenroseDepictAContraction.jpg",
+    "float": "right",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "From [Penrose 71a](#Penrose71a)"
+\end{imagefromfile}
 
-* bending strings around corresponds to dualities on [[dualizable object]]s (if any).
 
-Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
+\begin{imagefromfile}
+    "file_name": "PenroseRindlerFigureA1.jpg",
+    "float": "right",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "From [Penrose-Rindler 84, Append.](#PenroseRindler84)"
+\end{imagefromfile}
+
+In the archetypical cases of the [[Cartesian monoidal category]] of [[finite sets]] this is Hotz's notation ([Hotz 65](#Hotz65)) for [[automata]], while for  [[finite-dimensional vector spaces]] with their [[tensor product of vector spaces|usual tensor product]] this is Penrose's notation ([Penrose 71a](#Penrose71a), [Penrose-Rindler 84](#PenroseRindler84)) for [[tensor networks]]; but the same idea immediately applies more generally to any other [[monoidal category]] and yet more generally to [[bicategories]], etc.
+
+
+The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. 
+
+For instance:
+
+* putting strings next to each other denotes the [monoidal product](monoidal+category#eq:TensorProductFunctor), and having no string at all denotes the [[tensor unit]];
+
+* braiding strings over each other corresponds to &#8211; yes, the [[braided monoidal category|monoidal braiding]] (if any);
+
+* bending strings around corresponds to dualities on [[dualizable objects]] (if any).
+
+Many operations in monoidal categories that look  unenlightening in symbols become obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
 
 String diagrams may be seen as dual (in the sense of [[Poincaré duality]]) to [[commutative diagrams]]. For instance, in a [[2-category]], an example of a string diagram for a [[2-morphism]] (shown on the left) is shown on the right here:
 
@@ -94,9 +145,9 @@ String diagrams may be seen as dual (in the sense of [[Poincaré duality]]) to [
 
 String diagrams for monoidal categories can be obtained in the same way, by considering a monoidal category as a 2-category with a single object.
 
-## Variants and examples
+## Variants 
 
-There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encoding further geometric properties.  For instance:
+There are many additional [[extra structures]] on monoidal categories, or similar structures, which can usually be represented by encoding further geometric properties of their string diagram calculus For instance:
 
 * in monoidal categories which are _[[ribbon category|ribbon categories]]_ the strings from above behave as if they have a small transversal extension which makes them behave as ribbons. Accordingly, there is a _twist_ operation in the axioms of a ribbon category and graphically it corresponds to twisting the ribbons by 360 degrees.
 
@@ -126,19 +177,32 @@ There are many additional structures on monoidal categories, or similar structur
 
 * _Sheet diagrams_, string diagrams drawn on a branching surface, may be used for [[rig categories]], see [Comfort-Delpeuch-Hedges](#CDH).
 
-* String diagrams are closely related to Penrose's notation for working with tensors.  String diagrams for the monoidal category of finite-dimensional vector spaces with its usual tensor product are called [[tensor networks]].
-
-*  String diagrams for the monoidal category of finite-dimensional representations of the group [[SU(2)]] on complex vector spaces are called [[spin networks]].
-
 See also [Selinger 09](#Selinger09) for a review of different string diagram formalisms.
+
 
 ## Examples
  {#Examples}
 
+### In linear algebra
+ {#InLinearAlgebra}
+
+String diagram calculus in [[linear algebra]]:
+
+* {#PenroseNotation} String diagrams are closely related to Penrose's notation ([Penrose 71a](#Penrose71a), [71b](#Penrose71b), [72](#Penrose72), [Penrose-Rindler 84, Append.](#PenroseRindler84)) for working with [[tensors]], hence in the monoidal category of [[finite-dimensional vector spaces]] with its usual [[tensor product of vector spaces]]. More recently, string diagrams in this category have come to be known as *[[tensor networks]]*.
+
+
+### In representation theory
+ {#InRepresentationTheory}
+
+String diagram calculus in [[representation theory]]:
+
+*  String diagrams for the monoidal category of finite-dimensional [[linear representations]] of the group [[SU(2)]] on complex vector spaces are called [[spin networks]].
+
+
 ### In Lie theory
  {#ExamplesInLieTheory}
 
-For applications of string diagram calculus in [[Lie theory]], see at 
+For string diagrams calculus in [[Lie theory]] see at:
 
 * _[[Lie algebra object]]_
 
@@ -149,6 +213,7 @@ For applications of string diagram calculus in [[Lie theory]], see at
 * _[[Lie algebra weight system]]_.
 
 * _[[M2-brane 3-algebra]]_
+
 
 ### In perturbative quantum field theory
  {#ExamplesInpQFT}
@@ -250,25 +315,27 @@ The development and use of string diagram calculus pre-dates its graphical appea
 > ([Alex Kissinger, 2 May 2017](http://angg.twu.net/categories-2017may02.html#.2))
 
 
+
 The first formal definition of string diagrams in the literature appears to be in
 
-* [[Günter Hotz]], _Eine Algebraisierung des Syntheseproblems von Schaltkreisen_, EIK, Bd. 1, (185-205), Bd, 2, (209-231) 1965 ([part I](https://www.magentacloud.de/lnk/LiPMlYfh), [part II](https://www.magentacloud.de/lnk/YivslUWJ))
+* {#Hotz65} [[Günter Hotz]], _Eine Algebraisierung des Syntheseproblems von Schaltkreisen_, EIK, Bd. 1, (185-205), Bd, 2, (209-231) 1965 ([part I](https://www.magentacloud.de/lnk/LiPMlYfh), [part II](https://www.magentacloud.de/lnk/YivslUWJ), [[HotzSchaltkreise.pdf:file]])
 
 Application of string diagrams to [[tensor]]-calculus in [[mathematical physics]] (hence for the case that the ambient [[monoidal category]] is that of [[finite dimensional vector spaces]] equipped with the [[tensor product of vector spaces]]) was propagated by [[Roger Penrose]], whence [[physics|physicists]] know string diagrams as _Penrose notation for tensor calculus_:
 
-* [[Roger Penrose]], _Applications of negative dimensional tensors_, Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
 
-* [[Roger Penrose]], _Angular momentum: An approach to combinatorial spacetime_, in Ted Bastin (ed.) _Quantum Theory and Beyond_, Cambridge University Press (1971), pp.151-180 ([[PenroseAngularMomentum71.pdf:file]])
+* {#Penrose71a} [[Roger Penrose]], _Applications of negative dimensional tensors_, Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf), [[PenroseNegativeDimensionalTensors.pdf:file]])
 
-* [[Roger Penrose]], _On the nature of quantum geometry_, in: J. Klauder (ed.) _Magic Without Magic_, Freeman, San Francisco, 1972, pp. 333–354 ([spire:74082](http://inspirehep.net/record/74082), [[PenroseQuantumGeometry.pdf:file]])
+* {#Penrose71b} [[Roger Penrose]], _Angular momentum: An approach to combinatorial spacetime_, in Ted Bastin (ed.) _Quantum Theory and Beyond_, Cambridge University Press (1971), pp.151-180 ([[PenroseAngularMomentum71.pdf:file]])
 
-* [[Roger Penrose]], [[Wolfgang Rindler]], appendix (p. 424-434) of: _Spinors and space-time -- Volume 1: Two-spinor calculus and relativistic fields_, Cambridge University Press 1984 ([doi:10.1017/CBO9780511564048](https://doi.org/10.1017/CBO9780511564048))
+* {#Penrose72} [[Roger Penrose]], _On the nature of quantum geometry_, in: J. Klauder (ed.) _Magic Without Magic_, Freeman, San Francisco, 1972, pp. 333–354 ([spire:74082](http://inspirehep.net/record/74082), [[PenroseQuantumGeometry.pdf:file]])
+
+* {#PenroseRindler84} [[Roger Penrose]], [[Wolfgang Rindler]], appendix (p. 424-434) of: _Spinors and space-time -- Volume 1: Two-spinor calculus and relativistic fields_, Cambridge University Press 1984 ([doi:10.1017/CBO9780511564048](https://doi.org/10.1017/CBO9780511564048))
 
 See also 
 
 * Wikipedia, _[Penrose graphical notation](https://en.wikipedia.org/wiki/Penrose_graphical_notation)_
 
-From the point of view of [[monoidal category|monoidal]] [[category theory]], an early description of string diagram calculus (without actually depicting any string diagrams, see the above comments) in
+From the point of view of [[monoidal category|monoidal]] [[category theory]], an early description of string diagram calculus (without actually depicting any string diagrams, see the above comments) is in:
 
 * {#KellyLaplaza80} [[Max Kelly]], M. L. Laplaza, _Coherence for compact closed categories_. Journal of Pure and Applied Algebra, 19:193&#8211;213, 1980 (<a hef="https://doi.org/10.1016/0022-4049(80)90101-2">doi:10.1016/0022-4049(80)90101-2</a>, [pdf](https://core.ac.uk/download/pdf/82696829.pdf))
 
@@ -309,9 +376,9 @@ For more on the history of the notion see the bibliography in ([Selinger 09](#Se
 
 ### Details
 
-String diagrams for [[monoidal categories]] are discussed in
+String diagrams for [[monoidal categories]] are discussed in:
 
-* [[Günter Hotz]], "Eine Algebraisierung des Syntheseproblems von Schaltkreisen" (1965, in german) ([pdf](https://www.magentacloud.de/lnk/LiPMlYfh#file)) and ([pdf](https://www.magentacloud.de/lnk/YivslUWJ#file))
+* [Hotz 65](#Hotz65)
 
 * [[Andre Joyal]] and [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011.  ([pdf](http://tqft.net/other-papers/Geometry%20of%20Tensor%20Calculus%20-%20Joyal%20&%20Street.pdf))
 
