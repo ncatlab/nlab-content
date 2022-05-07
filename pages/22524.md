@@ -5,7 +5,7 @@
 
 ## Idea
 
-The *pentagon* is the [[regular polygon]] with 5 sides.
+The *pentagon* is any [[polygon]] with 5 sides.
 
 ## Related concepts
 
@@ -17,6 +17,7 @@ The *pentagon* is the [[regular polygon]] with 5 sides.
 See also:
 
 * Wikipedia, *[Pentagon](https://en.wikipedia.org/wiki/Pentagon)*
+* Dragutin Svrtan, Darko Veljan, Vladimir Volenec, _Geometry of pentagons: from Gauss to Robbins_, [arXiv:math.MG/0403503](https://arxiv.org/abs/math/0403503)
 
 [[!redirects pentagons]]
 
