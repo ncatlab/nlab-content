@@ -185,10 +185,9 @@ Proof that k-spaces form a [[regular category]]:
 * {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
 
 
-Other and later references include
+Other and later references:
 
 * {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
-
 
 
 * [[George Whitehead]], _Elements of homotopy theory_
@@ -206,12 +205,17 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, around note 4.3.22 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-
 * Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
+
+* [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
 
 * {#Schwede12} [[Stefan Schwede]], section A.2 of _[[Symmetric spectra]]_ (2012)
 
-* [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
+* [[Bernardo Uribe]], [[Wolfgang Lück]], Section 16 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
+
+  > (with focus on compactly generated [[topological G-spaces]] used in [[equivariant bundle]]-theory)
+
+
 
 
 [[!redirects compactly generated topological space]]
