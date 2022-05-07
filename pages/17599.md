@@ -16,7 +16,7 @@ In particular, there is always a "vertical 2-category" consisting of the objects
 
 ## Applications
 
-Augmented Virtual double categories are a natural context in which to compare [[proarrow equipments]] and [[Yoneda structures]], which are two different approaches to "formal category theory".  In both cases there is a notion of "profunctor" which are generally considered to be small-set-valued, but Yoneda structures require non-locally-small categories (the presheaf categories of non-small categories).  In this context the Yoneda embedding can be given a universal property relative to the horizontal arrows.  See [(Koudenburg)](#Koudenburg).
+Augmented Virtual double categories are a natural context in which to compare [[proarrow equipments]] and [[Yoneda structures]], which are two different approaches to "formal category theory".  In both cases there is a notion of "profunctor" which are generally considered to be small-set-valued, but Yoneda structures require non-locally-small categories (the presheaf categories of non-small categories).  In this context the Yoneda embedding can be given a universal property relative to the horizontal arrows.  See [(Koudenburg)](#Koudenburg19).
 
 ## Related pages
 
@@ -28,8 +28,7 @@ Augmented Virtual double categories are a natural context in which to compare [[
 
 * {#Koudenburg15} Seerp Roald Koudenburg, *A double-dimensional approach to formal category theory*, [arXiv](http://arxiv.org/abs/1511.04070), 2015.  In this paper augmented virtual categories are called "hypervirtual double categories".
 
-* {#Koudenberg19} Seerp Roald Koudenburg, *Augmented virtual double categories*, [arXiv](https://arxiv.org/abs/1910.11189), 2019.
-
+* {#Koudenburg19} Seerp Roald Koudenburg, *Augmented virtual double categories*, [arXiv](https://arxiv.org/abs/1910.11189), 2019.  This is a streamlined and expanded version of Sections 1, 2 and 3 of the previous paper, published in [TAC](http://www.tac.mta.ca/tac/volumes/35/10/35-10abs.html)
 
 [[!redirects hypervirtual double category]]
 [[!redirects hypervirtual double categories]]
