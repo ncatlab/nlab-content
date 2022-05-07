@@ -98,10 +98,10 @@ An [[optic (in computer science)|optic]] generalizes the way lenses 'remember' s
 
 * {#JohnsonRosebrugh20} [[Michael Johnson]], [[Robert Rosebrugh]], _The more legs the merrier: A new composition for symmetric (multi-)lenses_, EPTCS, 333, 2020 ([arXiv:2101.10482](https://arxiv.org/abs/2101.10482))
 
-* {#Clarke20a} Bryce Clarke, _Internal lenses as functors and cofunctors_, EPTCS, 323, 2020 ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
+* {#Clarke20a} [[Bryce Clarke]], _Internal lenses as functors and cofunctors_, EPTCS, 323, 2020 ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
 
-* {#Clarke20b} Bryce Clarke, _A diagrammatic approach to symmetric lenses_, EPTCS, 333, 2020 ([arXiv:2101.10481](https://arxiv.org/abs/2101.10481))
+* {#Clarke20b} [[Bryce Clarke]], _A diagrammatic approach to symmetric lenses_, EPTCS, 333, 2020 ([arXiv:2101.10481](https://arxiv.org/abs/2101.10481))
 
-* {#MyersSpivak} David J. Myers, David I. Spivak, _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
+* {#MyersSpivak} [[David Myers]], [[David Spivak]], _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
 
 [[!redirects lenses (in computer science)]]
