@@ -362,6 +362,26 @@ is then a Quillen pair.
 
 Since the codomain fibration $cod : [I,C] \to C$ is a [[bifibration]] when $C$ has all [[pullback]]s, there is a notion of [[monadic descent]] in this case. Details on this are at [monadic descent for codomain fibrations](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
 
+## The Subobject Fibration
+
+By restricting our attention to a subset of arrows in the codomain fibration and using the notion of the [[skeleton of a fibration]], we can define a fibration on a category $\mathcal{C}$ with pullbacks called the *subobject fibration* whose fibers are categories of [[subobjects]] for objects of $\mathcal{C}$. 
+
+Beginning with the codomain fibration $cod:\mathcal{C}^\to\to\mathcal{C}$ on a category $\mathcal{C}$ with pullbacks, we restrict our attention to the subcategory
+$$
+Mono(\mathcal{C})\subseteq\mathcal{C}^\to,
+$$
+the full subcategory of $\mathcal{C}^\to$ whose objects are monomorphisms in $\mathcal{C}$, called the **monomorphism category of $\mathcal{C}$**. The resulting functor 
+$$
+cod:Mono(\mathcal{C})\to\mathcal{C}
+$$
+is again a fibration since monomorphisms are stable under pullback; we will call this the **monomorphism fibration of $\mathcal{C}$**. The fibers $Mono(\mathcal{C})_X$ for $X\in\mathcal{C}$ are [[thin categories]] since parallel monos in a slice category are equal, but they aren't subobject categories since antisymmetry is only weakly satisfied -- objects with antiparallel arrows between them are necessarily isomorphic, but not necessarily equal. To remedy this, we take the [[fibered skeleton]] of the monomorphism fibration; briefly, we convert it into an [[indexed category]] using the [[Grothendieck construction]], take the [[skeleton]] of each index category, then turn it back into a fibration using the Grothendieck construction in the other direction. The resulting fibration is denoted 
+$$
+cod:Sub(\mathcal{C})\to\mathcal{C}
+$$
+and called the **subobject fibration of $\mathcal{C}$**, and the fibers $Sub(\mathcal{C})_X$ are skeletal thin categories, also known as [[poset categories]].
+
+If we take $\mathcal{C}=Set$ then the fibers $Mono(Set)_X$ of the monomorphism fibration are proper classes consisting of all sets isomorphic to subsets of $X$, which isn't what we want. The fibers $Sub(Set)_X$ consist of one representative from each isomorphism class of sets isomorphic to subsets of $X$, and is thusly isomorphic to the powerset of $X$ viewed as a poset. That is, $Sub(Set)_X\cong\mathcal{P}(X)$ as posets, with equality holding if we choose the right representatives.
+
 ## In higher category theory
 
 We discuss the codomain fibration in [[higher category theory]].
@@ -440,7 +460,6 @@ Secton 2.4.7 of
  {#Lurie}
 
 [[!redirects codomain fibrations]]
-
 [[!redirects codomain opfibration]]
 [[!redirects codomain opfibrations]]
 [[!redirects self-indexing]]
