@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary differential cohomology]]:
+
+* {#BBSS15} Christian Becker, [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. 349, 361 (2017) ([arXiv:1511.00316](https://arxiv.org/abs/1511.00316))
+
 On relating [[algebraic quantum field theory]] via [[local nets of observables]] to [[factorization algebras]]:
 
 * [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], _Model-independent comparison between factorization algebras and algebraic quantum field theory on Lorentzian manifolds_, Communications in Mathematical Physics volume 377, pages 971–997 (2020) ([arXiv:1903.03396v2](https://arxiv.org/abs/1903.03396), [doi:10.1007/s00220-019-03561-x](https://doi.org/10.1007/s00220-019-03561-x))
