@@ -524,6 +524,14 @@ The article by Dirac which came to be commonly cited in this context is
 
   (which proposes a [[membrane]]-model as a unification of the [[electron]] and the [[muon]])
 
+Broad review and further developments:
+
+
+* [[Dmitri Sorokin]], *Introductory Notes on Non-linear Electrodynamics and its Applications* ([arXiv:2112.12118](https://arxiv.org/abs/2112.12118))
+
+
+
+
 
 ### For single (abelian) D-branes
 
