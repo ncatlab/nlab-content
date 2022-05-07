@@ -231,7 +231,7 @@ For $X$ a [[smooth manifold]] and $k \in \mathbb{N}$, the space of _unordered co
   \Big)/\sim
 \]
 
-of the [[disjoint union]] of all unordred labeled $n$-point configuration spaces (eq:UnorderedLabeledFixednCOnfigurationSpace) by the [[equivalence relation]] which regards points with vanishing label as absent. 
+of the [[disjoint union]] of all unordered labeled $n$-point configuration spaces (eq:UnorderedLabeledFixednCOnfigurationSpace) by the [[equivalence relation]] which regards points with vanishing label as absent. 
 
 =--
 
