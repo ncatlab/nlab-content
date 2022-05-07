@@ -79,3 +79,9 @@ Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.
 [[!redirects semimetal]]
 [[!redirects semimetals]]
 
+[[!redirects Dirac point]]
+[[!redirects Dirac points]]
+
+[[!redirects Weyl point]]
+[[!redirects Weyl points]]
+
