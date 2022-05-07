@@ -277,7 +277,7 @@ The expansion of thermal field theory around the [[infinite-temperature thermal 
 
 and specifically with an eye to discussion of the [[quark-gluon plasma]] in
 
-* {#BlaizotIancuRebhan03} Jean-Paul Blaizot, Edmond Iancu, Anton Rebhan, _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
+* {#BlaizotIancuRebhan03} Jean-Paul Blaizot, Edmond Iancu, [[Anton Rebhan]], _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
 
 General discussion for [[QCD]]:
 
