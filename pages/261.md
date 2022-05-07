@@ -173,6 +173,9 @@ Notice the $Id$-labels, which indicate that the edges and faces labeled by them 
 ## Examples
  {#Examples}
 
+### The empty simplicial set
+
+The [[empty simplicial set]] is a simplicial set.
 
 ### $n$-simplices (Yoneda embeddings)
 
