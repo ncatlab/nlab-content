@@ -88,10 +88,10 @@ It is also worth mentioning some non-examples.
 
 ## References
 
-* Albert and [[Max Kelly|Kelly]], "The closure of a class of limits", J. Pure. App. Alg. 51 (1988), 1--17
+* Albert and [[Max Kelly|Kelly]], "The closure of a class of colimits", J. Pure. App. Alg. 51 (1988), 1--17
  {#AK}
 
-* [[Max Kelly]] and [[Robert Paré]], "A note on the Albert-Kelly paper 'The closure of a class of limits'", JPAA 51 (1988), 19--25
+* [[Max Kelly]] and [[Robert Paré]], "A note on the Albert-Kelly paper 'The closure of a class of colimits'", JPAA 51 (1988), 19--25
  {#KP}
 
 
