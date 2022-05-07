@@ -457,6 +457,15 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 
 * {#Wilson16} [[Dylan Wilson]], _Equivariant K-theory_, 2016 ([pdf](https://www.math.uchicago.edu/~dwilson/notes/equivariant-k-theory-talk.pdf), [[WilsonKTheory16.pdf:file]])
 
+See also
+
+* {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Thesis 2009 ([ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]])
+
+* {#Cantarero12} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Journal of K-Theory, Volume 9, Issue 3  June 2012, pp. 475 - 501  ([arXiv:0803.3244](https://arxiv.org/abs/0803.3244), [doi:10.1017/is011011005jkt173](https://doi.org/10.1017/is011011005jkt173))
+
+  > (short version of [Cantarero 09](#Cantarero09))
+
+
 On [[Bott periodicity]] in equivariant K-theory:
 
 * {#Atiyah68} [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, Volume 19, Issue 1, 1968, Pages 113–140 ([doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113))
@@ -519,20 +528,22 @@ That $G$-equivariant [[topological K-theory]] is [[representable functor|represe
 
 * {#LueckOliver01} [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
 
-
 This is enhanced to a representing [[naive G-spectrum]] in:
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Appendix A.5 of: _Loop groups and twisted K-theory I_, Journal of Topology, Volume 4, Issue 4, December 2011, Pages 737–798 ([arXiv:0711.1906](https://arxiv.org/abs/0711.1906))
 
-Review includes:
+In its incarnation (under [[Elmendorf's theorem]]) as a [[Spectra]]-valued [[presheaf]] on the $G$-[[orbit category]] this is discussed in
+
+* [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
+
+Review:
 
 * Valentin Zakharevich, Section 2.2 of: _K-Theoretic Computation of the Verlinde Ring_ ([pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf))
 
 * {#Ortiz09} Michael L. Ortiz, Theorem 2.2 in: _Differential Equivariant K-Theory_ ([arXiv:0905.0476](https://arxiv.org/abs/0905.0476))
 
-In its incarnation (under [[Elmendorf's theorem]]) as a [[Spectra]]-valued [[presheaf]] on the $G$-[[orbit category]] this is discussed in
+* [Cantarero 09, Thm. 1.0.2 & Sec. 3.4](#Cantarero09)
 
-* [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
 
 
 
