@@ -21,11 +21,17 @@ In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species 
 
 * [[boson]], [[fermion]], **anyon**
 
-* [[parastatistics]]
+* [[parastatistics]],
+
+* [[quantum Hall effect]],
+
+* [[topological quantum computation]]
 
 ## References
 
-* [[Klaus Fredenhagen]], Karl-Henning Rehren, Bert Schroer, _Superselection sectors with braid group statistics and exchange algebras_ 
+On the theory of anyons:
+
+* [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras_ 
 
   _I: General theory_ ([Euclid](http://projecteuclid.org/euclid.cmp/1104179464))
 
@@ -35,8 +41,12 @@ In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species 
 
 Discussion of braid group statistics of [[string-localized quantum fields]] or similar 1-dimensional entities in dimension 2+1 was maybe first discussed in 
 
-* J. M. Leinaas and J. Myrheim, _On the Theory of Identical Particles_, Il Nuovo
-Cimento 37 b (1977), 1-23.
+* J. M. Leinaas and J. Myrheim, _On the Theory of Identical Particles_, Il Nuovo Cimento 37 b (1977), 1-23.
+
+On [[anyons]] as potential basis of [[topological quantum computation]]:
+
+* Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
+
 
 
 [[!redirects anyon]]
