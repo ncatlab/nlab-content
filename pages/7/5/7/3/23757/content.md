@@ -15,9 +15,13 @@
 
 ## Definition ##
 
-Given a [[dense linear order]] $A$ and a [[countable dense linear order]] $B$ such that $B \subseteq A$, a **$B$-indexed locator** for an [[element]] $c \in A$ is a [[family]] of [[functions]] [[indexed set|indexed]] by the [[Cartesian product]] [[set]] $B \times B$ 
+Given a [[dense linear order]] $A$ and a [[countable dense linear order]] $B$ such that $B \subseteq A$, a **$B$-indexed locator** for an [[element]] $c \in A$ is an element of the indexed [[cartesian product]] of the [[family]] of [[functions]] 
 
-$$\mathcal{L}(c):\left(]a,b[ \to (]a,c[ + ]c,b[) \vert (a,b) \in B \times B\right)$$
+$$\left(]a,b[ \to (]a,c[ + ]c,b[)\right)_{(a,b) \in B \times B}$$ 
+
+[[indexed set|indexed]] by the [[cartesian product]] [[set]] $B \times B$ 
+
+$$l \in \prod_{a:B} \prod_{b:B} ]a,b[ \to (]a,c[ + ]c,b[)$$
 
 where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$. 
 
