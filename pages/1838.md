@@ -25,6 +25,8 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
   * [[light]]
 
+* [[topological photonics]]
+
 * [[magnetohydrodynamics]]
 
 * [[Dirac charge quantization]]
