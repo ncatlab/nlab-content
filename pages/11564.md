@@ -1297,7 +1297,9 @@ Surveys/expositions of this:
 
 * {#Schreiber14b} [[Urs Schreiber]], _[[schreiber:Differential cohomology is Cohesive homotopy theory]]_, talk at _[Higher Geometric Structures along the Lower Rhine June 2014](http://www.ru.nl/math/research/vmconferences/2014-higher/)_, 19-20 June  2014
 
-Exposition from the point of view of [[modal homotopy type theory|modal homotopy theory]]:
+* {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), Section 2.3 in: _Differential Cohomology: Categories, Characteristic Classes, and Connections_. Based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. ([arXiv:2109.12250](https://arxiv.org/abs/2109.12250))
+
+and from the point of view of [[modal homotopy type theory|modal homotopy theory]]:
 
 * [[Urs Schreiber]], _[[nLab:differential cohesion and idelic structure|Fractures, Ideles and the Differential Hexagon]]_, talk at _[Workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, CUNY Graduate Center, August 12-14 2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1806/in/channel/55/))
 
