@@ -23,7 +23,7 @@
 "kaonic space" ([Postnikov 1982, p. 34](#Postnikov82)) --
 if its topology is detected by the [[continuous map|continuous]] [[images]] of [[compact Hausdorff spaces]] inside it.
 
-Compactly generated spaces form a [[convenient category of topological spaces]] ([Steenrod 1967](#Steenrod67)) and as such have come to be commonly used in the foundations of [[algebraic topology]] and [[homotopy theory]], especially in their modern form as compactly generated *weakly Hausdorff* spaces, due to [McCord 1969, Sec. 2](#McCord69).
+As opposed to general topological spaces, compactly generated spaces form a [[cartesian closed category]] while still being general enough for most purposes of [[general topology]], hence form a [[convenient category of topological spaces]] ([Steenrod 1967](#Steenrod67)) and as such have come to be commonly used in the foundations of [[algebraic topology]] and [[homotopy theory]], especially in their modern guise as compactly generated *weakly Hausdorff* spaces, due to [McCord 1969, Sec. 2](#McCord69).
 
 
 ## Definitions 
@@ -35,8 +35,11 @@ The following conditions on a space $X$ are equivalent:
 
 1. For all spaces $Y$ and all functions $f\colon X \to Y$, $f$ is
 continuous if and only if $f$ is $k$-continuous.
+
 2. There is a [[set]] $S$ of compact Hausdorff spaces such that the previous condition holds for all $C \in S$.
+
 3. $X$ is an [[identification space]] of a [[disjoint union]] of compact Hausdorff spaces.
+
 4. A [[subspace]] $U \subseteq X$ is [[open subspace|open]] if and only if the [[preimage]] $t^{-1}(U)$ is open for any compact Hausdorff space $C$ and continuous $t\colon C \to X$.
 
 A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t\colon C\to X$ is closed (when $C$ is compact Hausdorff).  Some authors (especially the early authors on the subject) go on to require a [[Hausdorff space|Hausdorff]] space, but this seems to be unnecessary.
@@ -106,7 +109,7 @@ Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ 
 $$ k\Top \to \Top \to \Top_k $$
 of which the first is the inclusion of a [[full subcategory|full]] [[coreflective subcategory]], the second is [[bijective on objects functor|bijective on objects]], and the composite $k\Top \to Top_k$ is an [[equivalence of categories]].
 
-{#TheCoreflection} The [[coreflection]] $\Top \to k\Top$ is usually denoted $k$, also called *$k$-ification* ([May 1999, p. 49](#May99)) or, more recently, *kaonization* ([Kornell 2018](https://arxiv.org/abs/1811.01922)).
+{#TheCoreflection} The [[coreflection]] $\Top \to k\Top$ is usually denoted $k$ and sometimes called *$k$-ification* ([May 1999, p. 49](#May99)).[^3]
 
 
 This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
@@ -257,6 +260,7 @@ See also:
 [^1]: The reason for  choosing the term "k-space" in [Gale 1950](#Gale50) seems to be lost in history. The "k" is not for "Kelley", as [Kelley 1955](#Kelley55) came later. It might have been an allusion to the German word *kompakt*.
 
 [^2]: [[Martin Escardo]] recalls, [here in 2021](https://nforum.ncatlab.org/discussion/8638/compactly-generated-topological-space/?Focus=94755#Comment_94755), [[William Lawvere]] reporting, in 2003, on a conversation with [David Gale](#Gale50) as follows: "Now I have telephoned David Gale again. He states that he had participated in a seminar at Princeton in 1948-1949 in which Hurewicz lectured on his k-space definition and on the exponential law which results."
+
 
 
 [[!redirects compactly generated topological space]]
