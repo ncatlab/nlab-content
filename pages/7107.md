@@ -32,6 +32,8 @@ Assume the [[axiom of choice]].  Then we may identify and simplify some of the c
 
 ## Properties
 
+### General
+
 Here is an important theorem on ordinal cofinality, which following our definitions is entirely [[constructive mathematics|constructive]]:
 $$ ocf(ocf(Q)) = ocf(Q) .$$
 In general, an ordinal number $\alpha$ such that $ocf(\alpha) = \alpha$ is called __regular__, so every ordinal cofinality is regular.  For example, $0$, $1$, and $\omega$ are regular ordinals.
@@ -41,13 +43,14 @@ A __[[regular cardinal]]__ may be defined to be a collection of cardinals $C$ su
 Traditionally, one requires a regular ordinal or cardinal to be [[infinite set|infinite]], and thus classically they are the same with no exceptions.
 
 
-## Cofinality without choice
+### Cofinality without choice
+ {#CofinalityWithoutChoice}
 
 Assuming the consistency of the existence
 of arbitrarily large [[strongly compact cardinals]],
-it is consistent with ZF that
+it is consistent with Zermelo-Fraenkel [[set theory]] without the [[axiom of choice]] that
 every infinite set is a countable union of sets of smaller cardinality.
-See \cite{Gitik}.
+See [Gitik 1980](#Gitik80).
 
 
 ## Related concepts
@@ -56,7 +59,7 @@ See \cite{Gitik}.
 
 ## References
 
-* {#Gitik} M. Gitik, _All uncountable cardinals can be singular_, Israel Journal of Mathematics 35:1-2 (1980), 61-88.  [doi](http://dx.doi.org/10.1007/bf02760939).
+* {#Gitik80} M. Gitik, _All uncountable cardinals can be singular_, Israel Journal of Mathematics 35:1-2 (1980), 61-88 ([doi:10.1007/bf02760939](http://dx.doi.org/10.1007/bf02760939)).
 
 
 [[!redirects cofinality]]
