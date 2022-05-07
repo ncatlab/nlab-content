@@ -128,6 +128,73 @@ Further discussion of the [[D-topology]] is in [CSW 13](#CSW13).
 [[!include topological homotopy type is cohesive shape of continuous diffeology -- proposition]]
 
 
+\begin{proposition}\label{InternalHomOnDTopSpacesHasCorrectWeakType}
+  For $X, A \,\in\, DTopSp \hookrightarrow TopSp$ a [[pair]] of [[D-topological spaces]], their [[internal hom]] formed in diffeological spaces has diffeological [[singular simplicial complex]] [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary [[singular simplicial set]] of the ordinary [[mapping space]] $Maps_{Top}$ with its [[compact-open topology]]:
+
+$$  
+  Sing_{diff}
+  \,
+  Maps_{Dfflg}
+  \big(
+     X
+     ,\,
+     A
+  \big)
+  \underoverset
+    {\in \mathrm{W}_{wh}}
+    {}
+    {\longrightarrow}
+  Sing
+  \,
+  Maps_{Top}
+  \big(
+     X
+     ,\,
+     A
+  \big)
+$$
+\end{proposition}
+\begin{proof}
+By [SYH 10](#SYH10) we have the following morphism:
+$$
+  Cdfflg
+  \big(
+    Maps_{Top}(X,\,A)
+  \big)
+  \underoverset
+    { \in Cdfflg(\mathrm{W}_{wh}) }
+    { Cdfflg(\phi) }
+    {\longrightarrow}
+  Cdfflg
+  \big(
+    \mathbf{smap}(X ,\, A)
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  Maps_{dfflg}
+  (X,\, A)
+  \,,
+$$
+where $\mathbf{smap}$ is some topologization of the set of maps (defined on their [p. 6](https://arxiv.org/pdf/1010.3336.pdf#page=6) ) of which all we need to know is that:
+
+1. its image under $Cdfflg$ is [[isomorphism|isomorphic]] to the internal hom in diffeological spaces, according to their Prop. 4.7 ([p. 7](https://arxiv.org/pdf/1010.3336.pdf#page=7)),
+
+1. it is [[weak homotopy equivalence|weak homotopy equivalent]], via some map $\phi$ according to their Prop. 5.4 ([p. 9](https://arxiv.org/pdf/1010.3336.pdf#page=9)) to the compact-open topology.
+
+Hence the claim follows by the naturality of the weak homotopy equivalence from Prop. \ref{TopologicalHomotopyTypeIsCohesiveShapeOfCdfflg}
+$$
+  Sing_{diff} \circ Cdfflg 
+  \;
+  \underoverset
+    {\in \mathrm{W}_{wh}}
+    {}
+    {\longrightarrow}
+  \;
+  Sing
+$$
+and using [[2-out-of-3]].
+\end{proof}
 
 
 
