@@ -8,9 +8,9 @@ On the conjectural [[D-brane charge quantization in topological K-theory]]:
 
 The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K-theory]] originates with:
 
-* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_, JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
+* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_, JHEP9711:002, 1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
 
-* {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
+* {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
 
@@ -64,7 +64,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
 
-* {#GradySati19b} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
+* {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
 
@@ -78,7 +78,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * {#Witten00} [[Edward Witten]], _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A16:693-706, 2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
 
-* [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
+* [[Greg Moore]], _K-Theory from a physical perspective_, in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal, Cambridge University Press (2004)  ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018), [doi:10.1017/CBO9780511526398.011](https://doi.org/10.1017/CBO9780511526398.011))
 
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
@@ -89,11 +89,6 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 * [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([doi:10.1007/978-3-540-74956-1](https://doi.org/10.1007/978-3-540-74956-1), [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 * [[Fabio Ruffino]], _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
-
-
-A textbook account of D-brane charge in ([[twisted K-theory|twisted]]) [[topological K-theory]] is 
-
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008  ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 See also for instance
 
