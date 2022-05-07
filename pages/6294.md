@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Algebra
+#### Categorical algebra
 +-- {: .hide}
-[[!include higher algebra - contents]]
-=--
-#### Category theory
-+-- {: .hide}
-[[!include category theory - contents]]
+[[!include categorical algebra -- contents]]
 =--
 =--
 =--
@@ -19,11 +15,11 @@
 
 ## Idea
 
-For $C$ a [[cartesian monoidal category]] (a category with [[finite products]]), an __internal ring__ or a __ring object__ in $C$ is an [[internalization]] to the category $C$ of the notion of a [[ring]].
+For $C$ a [[cartesian monoidal category]] (a category with [[finite products]]), an *internal ring* or a *ring object* in $C$ is an [[internalization]] to the category $C$ of the notion of a [[ring]].
 
 Under some reasonable assumptions on $C$ that allow one to construct a ([[symmetric monoidal category|symmetric]]) [[monoidal category|monoidal]] [[tensor product]] on the [[category]] of [[abelian group|abelian]] [[group objects]] $Ab(C)$ [[internalization|internal]] to $C$, a ring object can also be defined as a [[monoid object]] internal to that monoidal category $Ab(C)$. 
 
-Sometimes one might take this last point of view a little further, especially in certain contexts of [[stable homotopy theory]] where a [[stable (∞,1)-category]] of [[spectra]] is already something like an [[(∞,1)-category]]-analogue of a [[category of abelian groups]]. With the understanding that a [[symmetric smash product of spectra]] plays a role analogous to [[tensor products of abelian groups]], monoids with respect to the [[smash product]] are often referred to as "$__$-rings" of one sort or another (as mentioned at "[[ring operad]]"). Thus we have carry-over phrases from the early days of stable homotopy theory, such as "[[A-∞ rings]]" (for monoids) and "[[E-∞ rings]]" (commutative monoids). Here it is understood that the monoid multiplication on spectra is an $(\infty, 1)$-refinement of a multiplicative structure on a corresponding [[cohomology theory]], with various forms of [[K-theory]] providing archetypal examples. 
+Sometimes one might take this last point of view a little further, especially in certain contexts of [[stable homotopy theory]] where a [[stable (∞,1)-category]] of [[spectra]] is already something like an [[(∞,1)-category]]-analogue of a [[category of abelian groups]]. With the understanding that a [[symmetric smash product of spectra]] plays a role analogous to [[tensor products of abelian groups]], monoids with respect to the [[smash product]] are often referred to as "$xyz$-rings" of one sort or another (as mentioned at "[[ring operad]]"). Thus we have carry-over phrases from the early days of stable homotopy theory, such as "[[A-∞ rings]]" (for monoids) and "[[E-∞ rings]]" (commutative monoids). Here it is understood that the monoid multiplication on spectra is an $(\infty, 1)$-refinement of a multiplicative structure on a corresponding [[cohomology theory]], with various forms of [[K-theory]] providing archetypal examples. 
 
 
 ## Definition 
