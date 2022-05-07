@@ -352,7 +352,7 @@ Textbook accounts include
 
 * {#Sharpe97} R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
 
-* {#CapSlovak09} [[Andreas ?ap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
 Discussion with an eye towards [[torsion constraints in supergravity]] is in
 
