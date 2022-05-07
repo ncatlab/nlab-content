@@ -55,11 +55,11 @@ If the original space is [[paracompact space|paracompact]] Hausdorff, then every
 
 * [[coset space]]
 
-### Orbit method
+* [[orbit method]]
 
-The __[[orbit method]]__ is a method in [[representation theory]] introduced by Kirillov, Kostant and Souriau; it is a special case of [[geometric quantization]].  The orbit method is based on the study of the [[representations]] constructed from the [[coadjoint orbits]] with Kirillov symplectic structure. The terminology 'geometric quantization' allows for more general underlying spaces.
+* [[slice theorem]]
 
-Given a [[compact space|compact]] [[Lie group]] $K$ with [[complexification]] $G$ and a [[unitary representation]] $\rho$ of $K$ on a finite-dimensional complex space $V$, the real orbits of the highest weight vector agrees with the complex orbits, i.e. the orbits of the extension of this representation to the representation of the complexification. These are the [[coherent state]] orbits; there is also an infinite-dimensional version for reductive groups and representations which allows them (so-called coherent state representations). 
+
 
 ## References
 
