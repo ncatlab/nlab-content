@@ -188,9 +188,9 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 The original papers on braided monoidal categories are by [[Andre Joyal|Joyal]] and [[Ross Street|Street]]. The published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results:
 
-* {#JoyalStreet86} [[André Joyal]] and [[Ross Street]], [Braided monoidal categories](http://maths.mq.edu.au/~street/JS1.pdf), _Macquarie Math Reports_ **860081** (1986). 
+* {#JoyalStreet86} [[André Joyal]] and [[Ross Street]], *Braided monoidal categories*, _Macquarie Math Reports_ **860081** (1986) ([pdf](http://maths.mq.edu.au/~street/JS1.pdf))
 
-* [[André Joyal]] and [[Ross Street]], _Braided tensor categories_ , Adv. Math. **102** (1993), 20--78.
+* [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993), 20--78 ([doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055))
 
 Around the same time the same definition was also proposed independently by [[Lawrence Breen]] in a letter to [[Pierre Deligne]]:
 
@@ -198,7 +198,7 @@ Around the same time the same definition was also proposed independently by [[La
 
 Textbook accounts include
 
-* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
+* {#EGNO15} [[nLab:Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
 
 
 For a review of definitions of braided monoidal categories, braided monoidal functors and braided monoidal natural transformations, see:
