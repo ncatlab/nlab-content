@@ -316,11 +316,11 @@ such that :
 
 \begin{remark}\label{SufficientConditionForEquivariantEnhancementOfLocalTrivialization}
   **(sufficient condition for plain local trivialization to have equivariant enhancement)**
-  A sufficient conditions for existence of plain local trivialization to imply a $G$-equivariant local trivialization, and hence for the inclusion in Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles} to be an actual [[equivalence of categories]], is that:
+  Sufficient conditions for existence of plain local trivialization to imply a $G$-equivariant local trivialization, and hence for the inclusion in Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles} to be an actual [[equivalence of categories]], are:
 
-1. $G$ is a [[finite group]];
+1. $G$ is a [[finite group]]; or
 
-1. $X$ is a [[locally compact topological space|locally compact]] [[separable metric space]] of [[finite number|finite]] [[dimension of a separable metric space|dimension]] and with a [[finite number]] of $G$-[[orbit types]];
+1. $X$ is a [[locally compact topological space|locally compact]] [[separable metric space]] of [[finite number|finite]] [[dimension of a separable metric space|dimension]] and with a [[finite number]] of $G$-[[orbit types]]; or
 
 1. $\mathcal{G}$ is a [[locally compact topological space|locally compact]] [[separable metric space]] such that for every $G$-[[orbit type]] $G/H \subset X$ the [[fixed locus]] $\mathcal{G}^H$ is an [[absolute neighbourhood retract]] (such as a [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[topological manifold]] or a [[finite number|finite]]-[[dimension of a cell complex|dimensional]] and [[locally finite CW-complex|locally finite]] [[CW-complex]], by the discussion [there](absolute+retract#Examples)).
 
