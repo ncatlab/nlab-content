@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,6 +37,13 @@ $$
 $$
 
 For $r \in \mathbb{Z}_p$ with $r = p$ the above sequences converges in the p-adic metric. 
+
+
+## Related entries
+
+* [[series]], [[power series]]
+
+* [[Mercator series]]
 
 ## References
 
