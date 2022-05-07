@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[representation theory]] of the [[symmetric groups]].
+
+## References
+
+Textbook accounts:
+
+* [[G. D. James]], *The Representation Theory of the Symmetric Groups*,  Lecture Notes in Mathematics, volume 682, Springer 1978 ([doi:10.1007/BFb0067708](https://link.springer.com/book/10.1007/BFb0067708), [pdf](http://www-users.math.umn.edu/~webb/oldteaching/Year2010-11/the-representation-theory-of-the-symmetric-groups-SLN.pdf))
+
+* {#Diaconis88} [[Persi Diaconis]], Chapter 7 of: *Group Representations  in Probability  and  Statistics*, IMS Lecture Notes Monogr. Ser., 11: 198pp. (1988) ([jstor:i397389](https://www.jstor.org/stable/i397389), [ISBN: 0940600145](https://projecteuclid.org/ebooks/institute-of-mathematical-statistics-lecture-notes-monograph-series/Group-representations-in-probability-and-statistics/toc/10.1214/lnms/1215467407), [pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
+
+See also:
+
+* Wikipedia, *[Representation theory of the symmetric group](https://en.wikipedia.org/wiki/Representation_theory_of_the_symmetric_group)*
+
+
+[[!redirects representation theory of the symmetric groups]]
+[[!redirects representation theory of symmetric groups]]
