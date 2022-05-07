@@ -306,7 +306,10 @@ Generally:
 
 * [[J. F. Jardine]], Z. Luo, _Higher principal bundles_, Mathematical Proceedings of the Cambridge Philosophical Society,  Volume 140, Issue 2 March 2006 , pp. 221-243 ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf), [doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911))
 
-* [[J. F. Jardine]], _Cocycle categories_, In: Baas N., Friedlander E., Jahren B., Østvær P. (eds) _Algebraic Topology_, Abel Symposia, vol 4. Springer 2009 ([arXiv:math/0605198](https://arxiv.org/abs/math/0605198), [doi:10.1007/978-3-642-01200-6_8]( https://doi.org/10.1007/978-3-642-01200-6_8))
+* [[J. F. Jardine]], _Cocycle categories_, In: [[Nils Baas]], [[Eric Friedlander]], B. Jahren , [[Arne Østvær]] (eds.) _Algebraic Topology_, Abel Symposia, vol 4. Springer 2009 ([arXiv:math/0605198](https://arxiv.org/abs/math/0605198), [doi:10.1007/978-3-642-01200-6_8]( https://doi.org/10.1007/978-3-642-01200-6_8))
+
+* [[Jacob Lurie]], Thm. 7.1.0.1 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
 
 * {#Wendt} [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv:1009.2930](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
 
