@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
-#### Homotopy theory
-+--{: .hide}
-[[!include homotopy - contents]]
-=--
 =--
 =--
 
@@ -19,18 +15,23 @@
 
 ## Idea
 
-In [[ODE]]/[[PDE]]-theory, the *homtopy analysis method* ([Liao 92](#Liao92)) is a method for solving a *non-linear* [[differential equation]] $N_x u(x) = 0$ by considering a [[homotopy]] of PDEs to a [[linear differential equation]] $L_x \big(u(x) - u_0(x)\big) = 0$
+In [[ODE]]/[[PDE]]-theory, what is known as the *homtopy analysis method* ([Liao 92](#Liao92)) is a method for solving a *non-linear* [[differential equation]] $N_x u(x) = 0$ by considering its [[convex combination]] with a suitably chosen [[linear differential equation]] $L_x \big(u(x) - u_0(x)\big) = 0$ and then solving the combined equation
 
-$$
-  q 
-  \;\mapsto
-  \;\;\;
+\[
+ \label{CombinationOfDifferentialEquations}
   q \cdot N_x u(x,q)
   \;+\;
   (1-q) \cdot L_x\big(u(x,q) - u_0(x,q)\big)
-$$
+  \;=\;
+  0
+  \,,
+  {\phantom{AAA}}
+  for\; q \in [0,1]
+\]
 
-and then solving this in terms of a [[Taylor series]]-expansion of the desired solution $u$ in the new parameter $q$ ("homotopy Maclaurin series"), which  transforms the original non-linear differential equation into an infinite sequence of [[linear differential equations]], that can (apparently) often be solved more readily.
+in terms of a [[Taylor series]]-expansion of the desired solution $u$ in the new parameter $q$ ("homotopy Maclaurin series"). This transforms the original non-linear problem into an infinite sequence of [[linear differential equations]], that can (apparently) often be solved more readily.
+
+The terminology "homotopy analysis method" alludes to regarding the  [[convex combination]] (eq:CombinationOfDifferentialEquations) as a "[[homotopy]] of [[differential equations]]" from the linear $L$ (at $q = 0$) to the non-linear $N$ (at $q = 1$). But it seems that there is no actual [[homotopy theory]] being used in discussion of the "homotopy analysis method".
 
 
 ## References
