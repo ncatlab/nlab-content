@@ -65,7 +65,7 @@ Exposition is in
 
 * [[Urs Schreiber]], _[[schreiber:Higher Structures|Higher Structures in Mathematics and Physics]]_, talk at [Oberwolfach Workshop 1651a](https://www.mfo.de/occasion/1651a/www_view), 2016 Dec. 18-23
 
-Details are in 
+Details:
 
 * _[[geometry of physics]]_, [[geometry of physics -- categories and toposes|categories and toposes]], ...
 
@@ -75,9 +75,9 @@ The most classical aspect of higher differential geometry is the theory of [[orb
 
 * [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf)),  _Orbifolds as Groupoids: an Introduction_ ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100))
 
-and standard textbook accounts include
+Textbook accounts:
 
-* [[Ieke Moerdijk]], [[Janez Mrcun]] _Introduction to Foliations and Lie Groupoids_, Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003)
+* [[Ieke Moerdijk]], [[Janez Mrcun]] _Introduction to Foliations and Lie Groupoids_, Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003) ([doi:10.1017/CBO9780511615450](https://doi.org/10.1017/CBO9780511615450))
 
 * [[Kirill Mackenzie]], _General Theory of Lie Groupoids and Lie Algebroids,_ Cambridge University Press, 2005, xxxviii + 501 pages 
 ([website](http://kchmackenzie.staff.shef.ac.uk/gt.html))
