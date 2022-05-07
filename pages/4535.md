@@ -42,3 +42,4 @@ In higher dimensions:
 
 [[!redirects Schwarzschild black hole]]
 [[!redirects Schwarzschild black holes]]
+[[!redirects Schwarzschild metric]]
