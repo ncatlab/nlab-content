@@ -116,7 +116,7 @@ $$\,$$
 
 $$T A \otimes T B \stackrel{\tau_{T A, B}}{\to} T(T A \otimes B) \stackrel{T(\sigma_{A, B})}{\to} T T(A \otimes B) \stackrel{m(A \otimes B)}{\to} T(A \otimes B)$$
 
-are both equal to $\alpha_{A, B}$. We show this for the first composite; the proof is similar for the second. If $\alpha_T$ denotes the monoidal constraint for $T$ and $\alpha_{T T}$ the constraint for the composite $T T$, then by definition $\alpha_{T T}$ is the composite given by  
+are both equal to $\alpha_{A, B}$. We show this for the second composite; the proof is similar for the first. If $\alpha_T$ denotes the monoidal constraint for $T$ and $\alpha_{T T}$ the constraint for the composite $T T$, then by definition $\alpha_{T T}$ is the composite given by  
 $$T T X \otimes T T Y \stackrel{\alpha_T T}{\to} T(T X \otimes T Y) \stackrel{T\alpha_T}{\to} T T(X \otimes Y)$$ 
 and so, using the properties of monoidal monads, we have a commutative diagram 
 
