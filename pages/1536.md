@@ -397,7 +397,7 @@ $$
 
 has a [[left adjoint|left]] and a [[right adjoint|right]] [[adjoint functor]].
 
-Restricted to [[Grothendieck fibration]]s and [[fibrations in groupoids]], both of these exhibit the above equivalences as [[adjoint equivalence]]s. Notice that much of the traditional literature discusses (just) the right adjoint. 
+Restricted to [[groupoid]]-valued functors and [[fibrations in groupoids]], both of these exhibit the above equivalences as [[adjoint equivalence]]s. Notice that much of the traditional literature discusses (just) the right adjoint. 
 
 #### The left adjoint
 
