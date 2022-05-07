@@ -7,6 +7,10 @@ On [[open/closed string duality]]:
 
 * [[Davide Gaiotto]], [[Leonardo Rastelli]], _A paradigm of open/closed duality: Liouville D-branes and the Kontsevich model_, JHEP 0507:053,2005 ([hep-th/0312196](https://arxiv.org/abs/hep-th/0312196))
 
+On [[KK-compactification|dimensional reduction]] of [[black rings]] in [[D=5 gravity]] to [[black holes]] in [[D=4 gravity]]:
+
+* [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _5D Black Rings and 4D Black Holes_, JHEP 0602:023, 2006 ([arXiv:hep-th/0504126](https://arxiv.org/abs/hep-th/0504126))
+
 
 On [[D3-D5 brane bound states]]:
 
