@@ -61,6 +61,11 @@ The __[[orbit method]]__ is a method in [[representation theory]] introduced by 
 
 Given a [[compact space|compact]] [[Lie group]] $K$ with [[complexification]] $G$ and a [[unitary representation]] $\rho$ of $K$ on a finite-dimensional complex space $V$, the real orbits of the highest weight vector agrees with the complex orbits, i.e. the orbits of the extension of this representation to the representation of the complexification. These are the [[coherent state]] orbits; there is also an infinite-dimensional version for reductive groups and representations which allows them (so-called coherent state representations). 
 
+## References
+
+* {#Bredon72} [[Glen Bredon]], Section I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+
 
 [[!redirects orbits]]
 
