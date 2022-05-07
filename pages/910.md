@@ -246,10 +246,10 @@ It follows that the category $k\Top$ of $k$-spaces and continuous maps is also c
 
 Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorff, conditions.
 
-
-### Local cartesian closure 
- {#LocalCartesianClosure}
-
+ 
+\begin{remark}{#LocalCartesianClosure}
+**(failure of local cartesian closure)**
+\linebreal
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
 cartesian closed]] ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95))
@@ -264,6 +264,40 @@ to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value]]s in which $\{1
 is closed but not open). From this one can get an [[exponential law for
 spaces]] over $B$ if $B$ is $T_0$, so that all fibres of spaces over
 $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
+\end{remark}
+
+
+\linebreak
+
+### Relation to locally compact Hausdorff spaces
+ {#RelationToLocallyCompactHausdorffSpaces}
+
+\begin{prop}\label{LocallyCompactHausdorffSpacesAreCompactlyGeneratedWeaklyHausdorff}
+  Every [[locally compact Hausdorff space]] is
+  a k-space and is
+  and [[weakly Hausdorff topological space|weakly Hausdorff]]:
+
+  $$
+    LCHausSp
+    \xhookrightarrow{\;}
+    h k TopSp
+  $$
+\end{prop}
+
+(e.g. [Strickland 2009, Prop. 1.7](compactly+generated+topological+space#Strickland09))
+
+\begin{prop}
+  The [[product topological space]] of a [[locally compact Hausdorff space]] with a k-space is already a k-space (i.e. without need of k-ification).
+\end{prop}
+
+(e.g. [Piccinini 1992, Thm. B.6](#Piccinini92), [Strickland 2009, Prop. 2.6](compactly+generated+topological+space#Strickland09))
+
+\begin{proposition}
+  A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
+\end{proposition}
+([Piccinini 92, Thm. B.4](#Piccinini92))
+
+
 
 ### Regularity
  {#Regularity}
@@ -319,6 +353,8 @@ A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparis
 
 ## References 
 
+### CG Hausdorff spaces
+
 The idea of compactly generated Hausdorff spaces first appears in print in:
 
 * {#Gale50} [[David Gale]], Section 1 of: _Compact Sets of Functions and Function Rings_, Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf), [doi:10.2307/2032373](https://doi.org/10.2307/2032373), [jstor:2032373](https://www.jstor.org/stable/2032373))
@@ -358,6 +394,42 @@ More history and early references, with emphasis on [[category theory|category-t
 
 * [[Horst Herrlich]], [[George Strecker]], Section 3.4 of: *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1* , Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
 
+The terminology "kaonic spaces", or rather the Russian version "каонные пространства" is used in 
+
+* {#Postnikov71} [[M M Postnikov]], *Введение в теорию Морса*, Наука 1971 ([web](http://libgen.is/book/index.php?md5=4BF450585846A0531FF485E34D062C0A))
+
+* {#Postnikov82} [[M M Postnikov]], p. 34 of: *Лекции по алгебраической топологии. Основы теории гомотопий*, Наука 1982 ([web](http://libgen.is/book/index.php?md5=34A8C3C956EB80877F4E3CF5A297F514))
+
+
+Proof that k-spaces form a [[regular category]]:
+
+* {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
+
+
+Further accounts:
+
+* [[George W. Whitehead]], Section I.4 of: *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+
+* [[Brian Day|Brian J. Day]], _Relationship of Spanier's Quasi-topological Spaces to k-Spaces_  , M. Sc. thesis University of Sydney 1968. ([pdf](http://www.math.mq.edu.au/~street/DayMasters.pdf))
+
+* Peter Booth, Philip R. Heath, [[Renzo A. Piccinini]], *Fibre preserving maps and functional spaces*, Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
+
+* {#Piccinini92} [[Renzo A. Piccinini]], Appendix B in: *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
+
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Section 0 of: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
+
+  > (in a context of [[rational homotopy theory]])
+
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, around note 4.3.22 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+
+* Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
+
+
+
+### CG weak Hausdorff spaces
 
 The idea of generalizing compact generation to weakly Hausdorff spaces appears in:
 
@@ -373,21 +445,14 @@ Review in this generality of CG weakly Hausdorff spaces:
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf), [[StricklandCGHWSpaces.pdf:file]])
 
+* {#Schwede12} [[Stefan Schwede]], Section A.2 of: _[[Symmetric spectra]]_ (2012)
+
 * [[Charles Rezk]], *Compactly Generated Spaces*, 2018 ([pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]])
 
 Brief review in preparation of the [[model structure on compactly generated topological spaces]]:
 
 * {#Hovey99} [[Mark Hovey]], Def. 2.4.21 in: _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
-The terminology "kaonic spaces", or rather the Russian version "каонные пространства" is used in 
-
-* {#Postnikov71} [[M M Postnikov]], *Введение в теорию Морса*, Наука 1971 ([web](http://libgen.is/book/index.php?md5=4BF450585846A0531FF485E34D062C0A))
-
-* {#Postnikov82} [[M M Postnikov]], p. 34 of: *Лекции по алгебраической топологии. Основы теории гомотопий*, Наука 1982 ([web](http://libgen.is/book/index.php?md5=34A8C3C956EB80877F4E3CF5A297F514))
-
-Proof that k-spaces form a [[regular category]]:
-
-* {#CagliariMatovaniVitale95} F. Cagliari, S. Mantovani, [[Enrico Vitale]], *Regularity of the category of Kelley spaces*, Applied Categorical Structures volume 3, pages 357–361 (1995) ([doi:10.1007/BF00872904](https://link.springer.com/article/10.1007/BF00872904), [pdf](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf))
 
 Review  with focus on compactly generated [[topological G-spaces]] in [[equivariant homotopy theory]] and specifically [[equivariant bundle]]-theory:
 
@@ -395,27 +460,8 @@ Review  with focus on compactly generated [[topological G-spaces]] in [[equivari
 
 
 
-See also:
 
-* [[George W. Whitehead]], Section I.4 of: *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
 
-* [[Brian Day|Brian J. Day]], _Relationship of Spanier's Quasi-topological Spaces to k-Spaces_  , M. Sc. thesis University of Sydney 1968. ([pdf](http://www.math.mq.edu.au/~street/DayMasters.pdf))
-
-* Peter Booth, Philip R. Heath, Renzo A. Piccinini, *Fibre preserving maps and functional spaces*, Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
-
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], Section 0 of: _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
-
-  > (in a context of [[rational homotopy theory]])
-
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, around note 4.3.22 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
-
-* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
-
-* [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
-
-* Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
-
-* {#Schwede12} [[Stefan Schwede]], section A.2 of _[[Symmetric spectra]]_ (2012)
 
 
 [^1]: The reason for  choosing the term "k-space" in [Gale 1950](#Gale50) seems to be lost in history. The "k" is not for "Kelley", as [Kelley 1955](#Kelley55) came later. It might have been an allusion to the German word *kompakt*.
