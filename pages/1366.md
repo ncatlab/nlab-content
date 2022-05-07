@@ -62,6 +62,10 @@ This is closely related to the complete Segal space model.
 
 $N$ is, in fact, the embedding of a [[reflective sub-(infinity,1)-category]]. The $(\infty,1)$-categories can be identified with the subcategory of $PSh(\Delta, \infty Gpd)$ of local objects with respect to the spine inclusions $Sp^n \subseteq \Delta^n$ and with the map $J \to 1$, where $J$ is the indiscrete simplicial space on two discrete objects.
 
+Alternatively, the map $J \to 1$ can be replaced with the projection from the simplicial discrete space formed from the union of two 2-simplices expressing the idea of a morphism with a left and right inverse $fg \simeq 1$ and $gh \simeq 1$.
+
+
+
 ## Applications
 
 * of particular interest is the $(\infty,1)$-subcategory $(\infty,1)PresCat_1 \hookrightarrow (\infty,1)Cat_1$ of [[presentable (infinity,1)-category|presentable (∞,1)-categories]].
