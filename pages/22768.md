@@ -144,7 +144,7 @@ and __additive [[disjunction]]__ is defined as
 
 $$a \vee b \coloneqq a \oplus (a^\bullet \otimes b)$$
 
-Let the binary operation $(-)\vartriangleleft(-):M\times M\to M$ be defined as 
+The binary operation __dilatation__ is defined as 
 
 $$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\oplus b)^\wedge$$
 
@@ -152,11 +152,9 @@ or as
 
 $$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\otimes b)^\vee$$
 
-The [[currying]] of $\vartriangleleft$ results in a __dilatation__ $(-)\vartriangleleft:M\to (M\to M)$. For every element $a$ in $M$, dilatation at $a$ is a [[retraction]] of contraction at $a$: $(a\vartriangleleft) \circ (a\vert) = id_M$, where $id_M$ is the [[identity function]] on $M$. 
-
 ## Additional possible equational axioms
 
-Here is a list of possible equational axioms that a minor scale might satisfy: 
+Here is a list of other possible equational axioms that a minor scale might satisfy: 
 
 * the __scale identities__: for all $a$ and $b$ in $M$, 
 
@@ -164,9 +162,15 @@ $$a \otimes b = (a^\vee \otimes b^\wedge) \vert (a^\wedge \otimes b^\vee)$$
 
 $$a \oplus b = (a^\wedge \oplus b^\vee) \vert (a^\vee \oplus b^\wedge)$$
 
-* $\top$ is a [[fixed point]] of $(-)^\vee$. 
+The rest of the axioms follow from the scale identities if the minor scale is an [[inequality space]]:
 
-* $\bot$ is a fixed point of $(-)^\wedge$.  
+* $\top$ is a [[fixed point]] of $(-)^\vee$:
+
+$$\top^\vee = \top$$
+
+* $\bot$ is a fixed point of $(-)^\wedge$:
+
+$$\bot^\wedge = \bot$$  
 
 * the __axiom of compensation__: for all $a$ in $M$,
 
@@ -198,6 +202,16 @@ $$a \otimes (b \otimes c) = (a \otimes b) \otimes c$$
 
 $$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
 
+* the various __[[lattice]] axioms__ for $(M,\top,\bot,\wedge,\vee)$
+
+* for all $a$ and $b$ in $M$, 
+
+$$(a \otimes b) \multimap (a^\wedge \vert b^\wedge) = \top$$
+
+* for all $a$ and $b$ in $M$, 
+
+$$(a^\vee \vert b^\vee) \multimap (a \oplus b) = \top$$
+
 ## Properties
 
 Every minor scale with $\bot = \top$ is [[trivial object|trivial]]. 
@@ -205,6 +219,8 @@ Every minor scale with $\bot = \top$ is [[trivial object|trivial]].
 $\bot$ is a [[fixed point]] of $(-)^\vee$ and $\top$ is a fixed point of $(-)^\wedge$. 
 
 As a minor scale is a [[closed midpoint algebra]], a minor scale has a [[partial order]] $\leq$. If $a \leq b$, then $a \multimap b = \top$. 
+
+The [[currying]] of $\vartriangleleft$ results in a __dilatation at an element__ $(-)\vartriangleleft:M\to (M\to M)$. For every element $a$ in $M$, dilatation at $a$ is a [[retraction]] of contraction at $a$: $(a\vartriangleleft) \circ (a\vert) = id_M$, where $id_M$ is the [[identity function]] on $M$. 
 
 ## Examples
 
