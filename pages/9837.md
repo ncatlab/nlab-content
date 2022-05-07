@@ -22,7 +22,9 @@ This entry collects links for the book
 
   Cambridge University Press 1986, second ed. 1999
 
-  ([pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf))
+  [doi:10.1007/978-1-4613-9572-0](https://link.springer.com/book/10.1007/978-1-4613-9572-0)
+
+  [pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf)
 
 on [[operator algebra]], [[operator K-theory]] and [[KK-theory]].
 
