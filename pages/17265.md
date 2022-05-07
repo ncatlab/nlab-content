@@ -3560,6 +3560,10 @@ The quick way to see the topological enrichment is indicated for instance in
 [[!redirects Quillen-Serre model structure on topological spaces]]
 [[!redirects Quillen-Serre model structure on Top]]
 
+[[!redirects Serre-Quillen model structure on topological spaces]]
+[[!redirects Serre-Quillen model structure on Top]]
+
+
 [[!redirects Serre model structure on topological spaces]]
 [[!redirects Serre model structure on Top]]
 [[!redirects Serre model structure]]
