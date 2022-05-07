@@ -23,9 +23,40 @@
 
 ## Idea
 
-(...)
+Given a [[group]] $G$ equipped with an [[action]] on some [[space]] $X$, a _slice through the $G$-orbits in $X$_ is a subspace $S\hookrightarrow X$ such that $X$ is exactly exhausted by the $G$-[[orbits]] of $S$. 
 
-## Preliminaries
+More generally, if $H \subset G$ is a [[subgroup]], then a _slice through $G$-orbits modulo $H$_ is a subspace $S \subset G$ to which the $H$-[[action]] on $X$ restricts, and such that the $G$-orbits of $S$ modulo this $H$-action on $S$ exactly exhaust $X$.
+
+In [[mathematics]], specifically in [[equivariant differential topology]], the terminology is traditionally used by default to refer to slices through [[open subset|open sub]] [[G-spaces]] $U \subset X$ of a given ambient [[topological G-space]] $X$.
+
+Here by a *slice theorem* is traditionally meant a list of sufficient conditions which guarantee that suitable slices do exist in a given situation. This plays a central role for instance in the [[local triviality]] of [[equivariant bundles]].
+
+In [[physics]] one typically considers this for $G$ a [[gauge group]], in which case one speaks of *gauge slices* and thinks of these as a choice of *[[gauge fixing]]* (see there for more).
+
+
+
+
+
+## Slices of group action
+
+There is the following [[general abstract]] definition of slices via [[adjunctions]] (which however seems not to be made explicit in existing literature):
+
+\begin{defn} Let $H \subset G$ be a [[subgroup]] inclusion such that restricting given [[actions]] ([[internalization|internal]] to a given ambient [[category]]) of $G$ to $H$ has a [[left adjoint]] $G \times_{H} (-)$ (e.g. for [[topological G-spaces]] the [topological induced action](topological+G-space#induced_action)).
+
+Then a *slice* in a $G$-action $U$ is an $H$-subaction inclusion $S \overset{i}{\hookrightarrow} U$ whose [[adjunct]] is an [[isomorphism]]
+
+$$
+  G \times_ H S
+  \underoverset
+    {\simeq}
+    {\tilde i}
+    {\longrightarrow}
+  U
+  \,.
+$$
+\end{defn}
+
+Here are more traditional ways to say this:
 
 \begin{defn}\label{SlicesDef}
   Let $G$ be a [[topological group]] and $X$ a [[topological G-space]].
@@ -132,7 +163,9 @@ $$
 $$
 \end{example}
 
-## Statement
+## Properties
+
+### Existence of slices
 
 A _slice theorem_ is a statement of sufficient conditions such that there is a slice through each point of a given [[topological G-space]].
 
