@@ -90,6 +90,7 @@ In all of the the following:
 
     is a smooth [[submanifold]] (by [this Prop.](equivariant+differential}topology#FixedLociOfSmoothProperActionsAreSubmanifolds)).
 
+All twisting classes, in the following are in ordinary Borel-equivariant cohomology, hence in the [[ordinary cohomology]] of a [[Borel construction]]. The "3-twist" and "torsion 2-twist" are in [[integral cohomology]] (of the Borel construction) and the "1-twist" has [[coefficients]] a finite [[cyclic group]].
 
 #### Transgression of 3-twist to 1-twist on inertia
  {#EquivariantPreliminaries}
@@ -447,7 +448,7 @@ Therefore the spectral sequence (eq:SerreSpectralSequenceForBorelConstructionOfR
 
 which the [[Bockstein homomorphism]] identifies with a [[torsion subgroup|torsion]] 2-class in [[integral cohomology]].
 
-Essentially this conclusion appears as [FHT 07, (3.5)](#FreedHopkinsTeleman07).
+Essentially this conclusion is claimed as [FHT 07, (3.5)](#FreedHopkinsTeleman07).
 
 
 #### Definition
@@ -457,11 +458,11 @@ Now we can indicate the definition of the twisted equivariant de Rham cohomology
 
 Write $\Lambda (\prec (X \sslash G))$ for the [[inertia orbifold]] of the [[global quotient orbifold]] of $X$ (eq:AProperSmoothGManifold).
 
-For $\alpha \in H^3_G(X)$
+For $\alpha \in H^3\big( X \sslash G; \, \mathbb{Z}  \big)$ a "3-twist" in the degree-3 [[integral cohomology]] of the [[homotopy quotient]] ([[Borel construction]]) of $X$ by $G$ (eq:AProperSmoothGManifold)
 
-* let $H_3 \in \Omega^3\big(  \Lambda (\prec (X \sslash G))  \big)$ be a de Rham image of $\alpha$ pulled back to the inertia orbifold, 
+* let $H_3 \in \Omega^3\big(  \Lambda (\prec (X \sslash G))  \big)$ be a [[de Rham isomorphism|de Rham image]] of $\alpha$ [[pullback in cohomology|pulled back]] to the [[inertia orbifold]], 
 
-* let $\nabla$ be a connection on the transgression (Def. \ref{TransgressionOntoFixedLocus}) of $\alpha$ to the inertia orbifold, which is [[flat connection|flat]] by Prop. \ref{ImageOfTransgressionMapIsInTorsionSubgroup} or, alternatively, by (eq:Transgression1ClassFromSerreSpectralSequence).
+* let $\nabla$ be a [[circle bundle with connection|connection]] on the transgression (Def. \ref{TransgressionOntoFixedLocus}) of $\alpha$ to the [[inertia orbifold]], which is [[flat connection|flat]] by Prop. \ref{ImageOfTransgressionMapIsInTorsionSubgroup} or, alternatively, by (eq:Transgression1ClassFromSerreSpectralSequence).
 
 Then equivariant twisted de Rham cohomology of $X$ is the de Rham cohomology of $\Lambda (\prec (X \sslash G))$ which is both 
 
@@ -469,7 +470,7 @@ Then equivariant twisted de Rham cohomology of $X$ is the de Rham cohomology of 
 
 * 3-twisted by $H_3$ 
 
-([Tu & Xu 2006, Def. 3.10](#TuXu06), see also [Bunke, Spitzweck & Schick 08, Def. 3.15](#BunkeSpitzweckSchick08)).
+([Tu & Xu 2006, Def. 3.10](#TuXu06), [Bunke, Spitzweck & Schick 08, Def. 3.15](#BunkeSpitzweckSchick08)).
 
 \linebreak
 
