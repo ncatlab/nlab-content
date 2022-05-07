@@ -284,15 +284,15 @@ The theory of HQFTs was developed in
 
 * {#Turaev00} [[Vladimir Turaev]], _Homotopy field theory in dimension 3 and crossed group-categories_ ([arXiv:math.GT/0005291](http://arxiv.org/abs/math.GT/0005291)). 
 
-* V. Turaev, Homotopy Quantum Field Theory, Tracts in Mathematics 10, (with Appendices by Michael Muger and Alexis Vurelizier), European Mathematical Society, June 2010.
+* [[Vladimir Turaev]], _Homotopy Quantum Field Theory_, Tracts in Mathematics 10, (with Appendices by Michael Muger and Alexis Vurelizier), European Mathematical Society, June 2010.
 
 * {#BrightwellTurner00} M. Brightwell and P. Turner, _Representations of the homotopy surface category of a simply connected space_, J. Knot Theory and its Ramifications, 9 (2000), 855--864. 
 
 * {#Rodrigues03} G. Rodrigues, _Homotopy Quantum Field Theories and the Homotopy Cobordism Category  in Dimension 1 + 1_, J. Knot Theory and its Ramifications, 12 (2003) 287--317 ([arXiv:math.QA/0105018](http://arxiv.org/abs/math.QA/0105018)). 
 
-* [[T. Porter]] and V. Turaev, Formal Homotopy Quantum Field Theories, I: Formal Maps and Crossed $C$-algebras, Journal of Homotopy and Related Structures 3(1), 2008, 113--159. ([arXiv:math.QA/0512032](http://arxiv.org/abs/math.QA/0512032)).
+* [[T. Porter]] and [[Vladimir Turaev|V. Turaev]], _Formal Homotopy Quantum Field Theories, I: Formal Maps and Crossed $C$-algebras_, Journal of Homotopy and Related Structures 3(1), 2008, 113--159. ([arXiv:math.QA/0512032](http://arxiv.org/abs/math.QA/0512032)).
 
-* [[T. Porter]], Formal Homotopy Quantum Field Theories II: Simplicial Formal Maps, in Cont. Math. 431, p. 375 - 404 (Streetfest volume: Categories in Algebra, Geometry and Mathematical Physics - edited by A. Davydov, M. Batanin, and M. Johnson, S. Lack, and A. Neeman) ([arXiv:math.QA/0512034](http://arxiv.org/abs/math.QA/0512034))
+* [[Tim Porter]], _Formal Homotopy Quantum Field Theories II: Simplicial Formal Maps_, Cont. Math. 431, p. 375 - 404 (Streetfest volume: Categories in Algebra, Geometry and Mathematical Physics - edited by A. Davydov, M. Batanin, and M. Johnson, S. Lack, and A. Neeman) ([arXiv:math.QA/0512034](http://arxiv.org/abs/math.QA/0512034))
 
 A treatment of HQFTs that includes some details of the links with TQFTs is given in [[HQFT-XMenagerie.pdf|HQFTs meet the Menagerie:file]], which is a set of notes prepared by [[Tim Porter]] for a school and workshop in Lisbon, Feb. 2011.
 
