@@ -23,8 +23,8 @@ It is an example of a space which is not [[semi-locally simply connected space|s
 
 Other terms can be found in the literature, such as “clamshell”,
 “infinite earring”, and “shrinking wedge of circles”.
-\cite{Dudley} is an early reference that mentions the terms “clamshell”
-and “Hawaiian earring”.
+\cite{Dudley} is an early reference that mentions both the terms “clamshell”
+and “Hawaiian earring”, though it appeared earlier ([Griffiths 1956](#Griffiths56)), with no specific name.
 
 ## Definition
 
@@ -45,6 +45,13 @@ Viewed in terms of [[general topology]], it would be hard to sell the Hawaiian e
 * [[Warsaw circle]]
 
 ## References
+
+
+An early paper not using any specific name is
+
+* {#Griffiths56} H.B. Griffiths, _Infinite Products of Semi-Groups and Local Connectivity_, Proceedings of the London Mathematical Society, s3-6 (1956) 455-480. [doi:10.1112/plms/s3-6.3.455](https://doi.org/10.1112/plms/s3-6.3.455)
+
+The name _Hawaiian earring_ seems to be due to
 
 * {#Dudley} R. M. Dudley, _Continuity of homomorphisms_, Duke Math. J. 28:4 (1961), 587-594. [doi:10.1215/S0012-7094-61-02859-9](https://doi.org/10.1215/S0012-7094-61-02859-9).
 
