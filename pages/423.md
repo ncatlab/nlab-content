@@ -1542,15 +1542,17 @@ See also [[examples in topology]].
 
 ## References
 
-A canonical compendium is
+Historical origins:
 
-* {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
+* [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123, (1895) ([gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
 Textbook accounts:
 
 * {#Kelley55} [[John Kelley]], _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
 * {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
+
+* {#Bourbaki71} [[Nicolas Bourbaki]], Chapter 1 of:  _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
