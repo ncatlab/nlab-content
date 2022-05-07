@@ -155,7 +155,7 @@ referring there to the category of *[[compactly generated topological space]]* (
 
 * {#Brown61} [[Ronnie Brown]], _Some problems of algebraic topology: a study of function spaces, function complexes, and FD-complexes_, DPhil thesis, Oxford University, 1961 (Note: the Appendix of this thesis was withdrawn from the examination.)  [(pdf)](https://ora.ox.ac.uk/objects/uuid:3af55800-4be7-462f-b91d-9769a6dac2c4)
  
-* {#Brown63} [[Ronnie Brown]], _Ten topologies for $X\times Y$_, Quart. J.Math. (2) 14 (1963), 303--319. ([doi:10.1093/qmath/14.1.303](https://doi.org/10.1093/qmath/14.1.303),  (pdf)](http://groupoids.org.uk/pdffiles/tentopologies.pdf))
+* {#Brown63} [[Ronnie Brown]], _Ten topologies for $X\times Y$_, Quart. J.Math. (2) 14 (1963), 303--319. ([doi:10.1093/qmath/14.1.303](https://doi.org/10.1093/qmath/14.1.303),  ([pdf](http://groupoids.org.uk/pdffiles/tentopologies.pdf))
 
 * {#Brown64} [[Ronnie Brown]], _Function spaces and product topologies_,  Quart. J. Math. (2) 15 (1964), 238--250. ([doi:10.1093/qmath/15.1.238](https://doi.org/10.1093/qmath/15.1.238))
 
