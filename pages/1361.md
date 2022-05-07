@@ -72,6 +72,7 @@ is a [[Quillen bifunctor]].
 \begin{proof}
   One just needs to see that the [[pullback-power axiom]] is implied by (in fact it is equivalent to) the [[pushout-product axiom]]. This equivalence is an instance of [[Joyal-Tierney calculus]] (see [this Prop.](Introduction+to+Homotopy+Theory#JoyalTierneyCalculus)):
 
+
 Writing 
 
 * $\mathrm{F}$, $\mathrm{C}$, $\mathrm{W}$ for the classes of [[fibrations]], [[cofibrations]], [[weak equivalences]], respectively;
@@ -80,7 +81,7 @@ Writing
 
 and
 
-* $(-) \,\perp \, (-)$ for the [[lifting property]],
+* $(-) \,&solb;\, (-)$ for the [[lifting property]],
 
 * $(-) \Box (-)$ for the [[pushout product]],
 
@@ -101,7 +102,7 @@ $$
     \;\;\;
     &
     \mathrm{C} \Box \mathrm{C}
-    &\,\perp\,&
+    &\,\;&solb;\;\,&
     \mathrm{FW}
     &
     \;\;\;
@@ -110,7 +111,7 @@ $$
     &
     \mathrm{C}
     &
-    \,\perp\,
+    \,&solb;\,
     &
     \mathrm{FW}^{\Box \mathrm{C}}
     &
@@ -137,8 +138,8 @@ $$
     \;\;\;
     &
     \mathrm{C} \Box \mathrm{CW}
-    &\,\perp\,&
-    \mathrm{F}
+    &\,\;&solb;\;\,&
+    \!\!\mathrm{F}\;\;\;
     &
     \;\;\;
     \Leftrightarrow
@@ -146,7 +147,7 @@ $$
     &
     \mathrm{C}
     &
-    \,\perp\,
+    \;&solb;\;
     &
     \mathrm{F}^{\Box \mathrm{CW}}
     &
@@ -172,7 +173,7 @@ $$
     &
     \mathrm{CW}
     &
-    \,\perp\,
+    \;&solb;\;
     &
     \mathrm{F}^{\Box \mathrm{C}}
     &
