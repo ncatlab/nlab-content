@@ -26,12 +26,30 @@ The [[projective unitary group]] on an infinite-dimensional [[separable Hilbert 
 
 ### General
 
+\begin{proposition}\label{UHCircleFiberBundle}
+  The [[U(1)]]-[[quotient space]] [[coprojection]] of [[U(ℋ)]]  over [[PU(ℋ)]] -- both in their strong [[operator topology]] -- is a [[circle group|circle]]-[[principal bundle]]:
+$$
+  \array{
+    S^1 &\hookrightarrow& \mathrm{U}(\mathcal{H})
+    \\
+    && \big\downarrow
+    \\
+    && PU(\mathcal{H})
+    \mathrlap{ \; \simeq \; \mathrm{U}(\mathcal{H})/S^1 }
+  }
+$$
+\end{proposition}
+([Simms 1970, Thm. 1](#Simms70))
+\begin{remark}
+  Prop. \ref{UHCircleFiberBundle} means in particular that $\mathrm{U}(\mathcal{H}) \xrightarrow{\;} PU(\mathcal{H})$ is [[locally trivial bundle|locally trivial]], hence that the [[coset space]] [[coprojection]] $\mathrm{U}(\mathcal{H}) \xrightarrow{\;} \mathrm{U}(\mathcal{H})/S^1$ admits [[local sections]]. See also at *[[coset space coprojection admitting local sections]]*.
+\end{remark}
+
 \begin{prop}\label{WellPointedInOperatorTopology}
   In its [[operator topology]] ([[U(ℋ)#WithOperatorTopology|here]]), $PU(\mathcal{H})$ is a [[well-pointed topological group]].
 \end{prop}
 ([Hebestreit & Sagave 2020, p. 23](#HebestreitSagave19), using [Dardalat & Pennig 2016, Prop. 2.26](twisted+K-theory#DardalatPennig16))
 
-### Nearby homomorphisms into $PU(\mathcal{H})$ are conjugate
+### Homomorphisms into $PU(\mathcal{H})$ 
 
 Since $\Gamma \,\coloneqq\,$ [[PU(ℋ)]] is not a (finite-dimensional) [[Lie group]], it falls outside the applicability of the general theorem that [[nearby homomorphisms from compact Lie groups are conjugate]]. 
 Nevertheless, the conclusion still holds, at least for [[domain]] $G$ a [[discrete group|discrete]], hence [[finite group]]:
@@ -52,7 +70,7 @@ Nevertheless, the conclusion still holds, at least for [[domain]] $G$ a [[discre
 
 General discussion:
 
-* [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
+* {#Simms70} [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
 
 * {#UribeLueck13} [[Bernardo Uribe]], [[Wolfgang Lück]], Section 15 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
