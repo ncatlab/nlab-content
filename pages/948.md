@@ -263,6 +263,9 @@ There is also
 ## References
  {#References}
 
+See also the references at _[[intuitionistic mathematics]]_ for more.
+
+
 Gentle introductions:
 
 * [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
@@ -332,7 +335,11 @@ The relation to [[realizability]] and [[computability]] is discussed in
 
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
-See also the references at _[[intuitionistic mathematics]]_ for more.
+On [[commutative algebra]] with constructive methods:
+
+* [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+
+
 
 [[!redirects constructive]]
 [[!redirects constructive mathematics]]
