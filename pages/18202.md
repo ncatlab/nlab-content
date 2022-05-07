@@ -34,11 +34,11 @@ More formally, there is a [[forgetful functor]] from the [[1-category]] of [[cat
 
 ## References
 
-The free category on a graph has a section in
+This notion of  *free category on a graph* has a section on it in
 
 * [[Francis Borceux]], _Handbook of categorical Algebra vol. 1_ , Cambridge UP 1994.
 
-and in 
+and also in 
 
 * {#MacLane} [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ , Springer 1998.
 
