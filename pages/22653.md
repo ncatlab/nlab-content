@@ -63,7 +63,7 @@ Write $sYTableaux_n$ for the [[set]] of [[standard Young tableaux]] with $n$ box
 
 for the [[Gelfand-Tsetlin basis]] (Young's [[seminormal representation]]).
 
-We'll notationally suppress the multiplicity index $m$ in the following.
+We will notationally suppress the multiplicity index $m$ in the following.
 
 \begin{prop}\label{EigenvaluesOfJMElements}
 
@@ -80,7 +80,7 @@ $$
 
 In particular, the Jucys-Murphy elements all commute with each other.
 
-This is due to [Jucys 71](#Jucys71), recalled as [Jucys 74 (12)](#Jucys74).
+This is due to [Jucys 71](#Jucys71), recalled as [Jucys 74 (12)](#Jucys74), and independently due to [Murphy 81 (3.8)](#Murphy81).
 
 
 ### Factorization of Cayley-Distance kernel
