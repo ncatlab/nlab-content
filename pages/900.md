@@ -329,7 +329,7 @@ Here
 ### Via spans 
  {#DefinitionViaSpans}
 
-\begin{rmk} We can give an explicit description of the arrows of pro-$\mathcal{C}$ as follows. First, for any object $e$ of $\mathcal{E}$, we introduce a relation $\sim$ on arrows with target $G(e)$ which identifies an arrow $f: F(d) \rightarrow G(e)$ with an arrow $f': F(d') \rightarrow G(e)$ for objects $d$ and $d'$ of $\mathcal{D}$ and an object $e$ of $\mathcal{E}$, if there is an object $d''$ of $\mathcal{D}$, an arrow $g: d'' \rightarrow d$ of $\mathcal{D}$, and an arrow $g': d'' \rightarrow d'$ of $\mathcal{D}$, such that $f \circ F(g) = f' \circ F(g')$. 
+\begin{rmk} We can give an explicit description of the arrows of pro-$\mathcal{C}$ as follows. First, for pro-objects $F: \mathcal{D} \rightarrow \mathcal{C}$ and $G: \mathcal{E} \rightarrow \mathcal{C}$ and for any object $e$ of $\mathcal{E}$, we introduce a relation $\sim$ on arrows with target $G(e)$ which identifies an arrow $f: F(d) \rightarrow G(e)$ with an arrow $f': F(d') \rightarrow G(e)$ for objects $d$ and $d'$ of $\mathcal{D}$ and an object $e$ of $\mathcal{E}$, if there is an object $d''$ of $\mathcal{D}$, an arrow $g: d'' \rightarrow d$ of $\mathcal{D}$, and an arrow $g': d'' \rightarrow d'$ of $\mathcal{D}$, such that $f \circ F(g) = f' \circ F(g')$. 
 
 This relation $\sim$ is in fact an [[equivalence relation]]. Symmetry is obvious. Reflexivity is immediately demonstrated using the identity arrows of $\mathcal{D}$. Transitivity would not hold for an arbitrary category, but follows from the assumption that $\mathcal{D}$ is cofiltered. Indeed, suppose that we have a zig-zag in $\mathcal{D}$ as follows. 
 
