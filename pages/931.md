@@ -12,79 +12,114 @@
 =--
 =--
 
-
-
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-For $G$ a [[group]],  a $G$-**torsor** (also called a **principal homogeneous space**) is an [[inhabited object]]/[[space]] $P$ with an [[action]] $\rho : G \times P \to P$ by $G$ that is
+A _torsor_ (in the category of sets) is, roughly speaking, a group that has forgotten its identity element; given any (non-empty) torsor with respect to a group $G$, we recover a group isomorphic to $G$ by making what is known as a _trivialisation_ of the torsor, which roughly corresponds to choosing an identity element. That we wish to keep track of the choice is precisely the reason for working with torsors.
 
-* [[free action|free]]: only the identity element acts with fixed points;
+Something analogous is present in the theory of [[Grothendieck fibration|fibrations]], where it can be important to make a choice of lifts ('cloven fibrations').
 
-and
+The notion of a torsor can be [[internalisation|internalised]] to any category with products, and more generally to any category in which the notion of an internal group can be made good sense of. We discuss this general notion below, after first discussing the notion in the category of sets. 
 
-* [[transitive action|transitive]]: for every two points in (a fiber of) the space, there is an element of the group taking one to the other.
 
-The second axiom says that $\langle \rho, \pi_2 \rangle: G \times P \to P \times P$ is surjective, and the first says it is injective. 
+## In the category of sets
 
-In other words, in the classical case where we are working in the category of sets over the point, a torsor is a [[heap]]:
+### Definition
 
-a $G$-set $P$ with action $\rho: G \times P \to P$ such that every choice of point $p \in P$ induces an isomorphism of $G$-sets
+\begin{defn} Let $G$ be a [[group]]. A _$G$-torsor_ is a [[set]] $T$ together with an [[action]] $a: G \times T \rightarrow T$ of $G$ on $T$ such that the map $a \times p_2: G \times T \rightarrow T \times T$ is an [[isomorphism]], where $p_2$ is the canonical [[projection]] map $G \times T \rightarrow T$. \end{defn}
 
-$$
-  \rho(-,p) : G \stackrel{\simeq}{\to} P
-  \,.
-$$
+\begin{rmk} \label{RemarkTorsorIsomorphicToStructureGroup} If $T$ is non-empty, we shall prove [below](#TrivialisationInSets) that it follows from the definition that $T$ is isomorphic to $U(G)$, the underlying set of $G$.  There are many such isomorphisms, and where torsors are used it is often important to choose/fix one. Such a choice is known as a _trivialisation_ of $T$. See [below](#TrivialisationInSets) below for more details. \end{rmk} 
 
-This says equivalently that _after picking any point of $P$ as the identity_ , $P$ acquires a group structure isomorphic to $G$. But this is a non-canonical isomorphism: every choice of point of $P$ yields a different isomorphism.
+\begin{rmk} As a consequence of Remark \ref{RemarkTorsorIsomorphicToStructureGroup}, a torsor with respect to some group can be thought of as a [[heap]]. \end{rmk}
 
-As a **slogan** we can summarize this as: _A torsor is like a group that has forgotten its neutral element._
+\begin{rmk} Asking that $a \times p_2$ be an isomorphism is the same as to say that it is both [[free action|free]] and [[transitive action|transitive]]: free-ness corresponds to injectivity of $a \times p_2$, and transitivity corresponds to surjectivity of it. \end{rmk}
 
-Again, this applies to torsors "over the point" in $Set$. More generally, one may consider torsors over some base space $B$ (in other words, working in the [[topos]] of sheaves over $B$ instead of $Set$). In this case the term __$G$-torsor__ is often used more or less a synonym for the term $G$-[[principal bundle]], but torsors are generally understood in contexts much wider than the term "principal bundle" is usually taken to apply. And a principal bundle is strictly speaking a torsor that is required to be _locally trivial_ . Thus, while the terminology 'principal bundle' is usually used in the setting of [[topological spaces]] or [[smooth manifold]]s, the term _torsor_ is traditionally used in the more general contex of [[Grothendieck topology|Grothendieck topologies]] (faithfully flat and &#233;tale topology in particular), [[topos|topoi]] and for generalizations in various category-theoretic setups. While in the phrase '$G$-principal bundle' $G$ is usually a (topological) [[group]] or [[groupoid]], when we say '$G$-torsor', $G$ is usually a [[presheaf]] or [[sheaf]] of group(oid)s, or $G$ is a plain [[category]] (not necessarily even a groupoid).
+\begin{example} An [[affine space]] of dimension $n$ over a [[field]] $k$ is a torsor for the additive group $k^n$: this acts by _translation_. \end{example}
+
+\begin{example} A [[unit of measurement]] is (typically) an element in an $\mathbb{R}^\times$-torsor, for $\mathbb{R}^\times$ the multiplicative group of non-zero [[real number]]s: for $u$ any unit and $r \in \mathbb{R}$ any non-vanishing real number, also $r u$ is a unit. And for $u_1$ and $u_2$ two units, one is expressed in terms of the other by a unique $r \neq 0$ as $u_1 = r u_2$. For instance for units of [[mass]] we have the unit of [[kilogram]] and that of gram and there is a unique number, $r = 1000$ with
+
+  $$
+    kg = 1000 g
+    \,.
+  $$
+
+\end{example}
+
+### Trivialisation
+
+\begin{prpn} \label{PropositionTorsorIsomorphicAsSetToStructureGroup} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. If $T$ is non-empty, it is isomorphic to the underlying set of $G$. \end{prpn}
+
+\begin{proof} Let $t$ be an [[element]] of $T$. The following diagram is [[cartesian square|cartesian]]. 
+
+\begin{centre}
+  \begin{tikzcd}
+    G \ar[r, "id \times t"] \ar[d, swap, "a \circ (id \times t)"] & G \times T \ar[d, "a \times p_2"] \\
+    T \ar[r, swap, "id \times t"] & T 
+  \end{tikzcd} 
+\end{centre}
+
+Since $\underline{T}$ is a $G$-torsor, we have that $a \times p_2$ is an isomorphism. The proposition thus follows immediately from the fact that pullbacks of isomorphisms are isomorphisms (as proven at [[pullback]]).
+
+\end{proof} 
+
+\begin{defn} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. A _trivialisation_ of $\underline{T}$ is an [[isomorphism]] between $T$ and the underlying set of $G$. \end{defn} 
+
+\begin{rmk} By Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup}, if $T$ is non-empty, $T$ is always isomorphic to the underlying set of $G$. Thus the notion of a trivialisation of $\underline{T}$ is a question of a _choice_ of isomorphism between $T$ and the underlying set of $G$. 
+
+The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} shows that any choice of element of $T$ gives rise to a trivialisation. Some of these may of course coincide. \end{rmk} 
+
+\begin{rmk} Let $\rho : G \rightarrow T$ be a trivialisation of a torsor $\underline{T}$. The map 
+
+$$p_{1} \circ \left( \rho^{-1} \times id \right): T \times T \rightarrow G \times T \rightarrow G$$ 
+
+where $p_1$ is the canonical map, can be interpreted as a notion of _division_ $d : P \times P \to G$, 'dividing' one element of $P$ by another to obtain an element of $G$. If we further compose $d$ with $\rho$ 
+
+$$\rho \circ d : T \times T \rightarrow G \rightarrow T,$$
+
+we can think of the resulting map $D$ as a 'division structure' on $T$ for which $\rho$ behaves as an identity, namely such that $D(g, g) = \rho$ for all $g \in G$. In this way, $T$ acquires a group structure isomorphic to that of $G$. 
+
+In this way, a trivialisation of a torsor equips with it a _choice_ of group structure amongst all of those isomorphic to $G$. 
+\end{rmk} 
+
+### Functoriality (change of structure group)
+
+
+\begin{prpn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. Observe that $\left(g_1, g_2, t \right) \mapsto \left( g_2 \cdot h(g_1)^{-1}, a(g_1, t) \right)$ defines an action $G_1 \times G_2 \times T \rightarrow G_2 \times T$ of $G_1$ on $G_2 \times T$. Then $\left(G_2 \times X \right) / G_1$, the quotient of $G_2 \times X$ with respect to this $G_1$-action, defines a $G_2$-torsor with respect to the action of $G_2$ induced by the group operation of $G_2$. \end{prpn}
+
+\begin{defn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. We refer to the $G_2$-torsor constructed from $\underline{T}$ using $h$ as in Proposition \ref{PropositionTorsorChangeOfStructureGroup} as the torsor obtained from $\underline{T}$ by _change of structure group_, and denote it $h_{*}\left(\underline{T}\right)$. \end{defn}
+
+
+## In general
+
+More generally, one may consider torsors over some base space $B$ (in other words, working in the [[topos]] of sheaves over $B$ instead of $Set$). In this case the term __$G$-torsor__ is often used more or less a synonym for the term $G$-[[principal bundle]], but torsors are generally understood in contexts much wider than the term "principal bundle" is usually taken to apply. And a principal bundle is strictly speaking a torsor that is required to be _locally trivial_ . Thus, while the terminology 'principal bundle' is usually used in the setting of [[topological spaces]] or [[smooth manifold]]s, the term _torsor_ is traditionally used in the more general contex of [[Grothendieck topology|Grothendieck topologies]] (faithfully flat and &#233;tale topology in particular), [[topos|topoi]] and for generalizations in various category-theoretic setups. While in the phrase '$G$-principal bundle' $G$ is usually a (topological) [[group]] or [[groupoid]], when we say '$G$-torsor', $G$ is usually a [[presheaf]] or [[sheaf]] of group(oid)s, or $G$ is a plain [[category]] (not necessarily even a groupoid).
 
 A __$G$-torsor__, without any base space given, can also simply be an inhabited transitive free $G$-[[action|set]], which is the same as a principal $G$-bundle over the [[point]]. The notion may also be defined in any category with products: a torsor over a [[group object]] $G$ is a [[well-supported object]] $E$ together with a $G$-action $\alpha: G \times E \to E$ such that the arrow 
 
 $$\langle \pi_1, \alpha \rangle: G \times E \to E \times E$$ 
 
-is an [[isomorphism]]. 
+is an [[isomorphism]].
 
-
-## Definition
+### Definition
 
 Let $G$ be a [[group]] object in some [[category]] $C$, that in the following is assumed, for simplicity, to be a [[cartesian monoidal category]].
 The [[object]]s of $C$ we sometimes call [[space]]s. Examples to keep in mind are $C = $ [[Set]] (in which case $G$ is an ordinary [[group]]) or [[Top]] (in which case it is a [[topological group]]) or [[Diff]] (in which case it is a [[Lie group]]).
 
-+-- {: .un_defn}
-###### Definition
-
-A left **$G$-torsor** is an [[inhabited object]] $P$ equipped with a $G$-[[action]], $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
+\begin{defn} A left **$G$-torsor** is an [[inhabited object]] $P$ equipped with a $G$-[[action]], $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
 
 $$\langle \rho, \pi_2 \rangle: G \times P \to P \times P$$ 
 
-is an [[isomorphism]]. 
-
-=--
+is an [[isomorphism]]. \end{defn}
 
 More generally, suppose $C$ is [[finitely complete category|finitely complete]], and let $B$ be an object. Then the [[slice category|slice]] $C/B$ is finitely complete, and the pullback functor $- \times B: C \to C/B$ preserves finite limits. Thus $\pi_2: G \times B  \to B$ acquires a group structure in $C/B$. 
 
-+-- {: .un_defn}
-###### Definition
-
-A left **$G$-torsor over $B$** is a $G$-torsor in $C/B$. 
-
-=--
+\begin{defn} A left **$G$-torsor over $B$** is a $G$-torsor in $C/B$. \end{defn}
 
 Thus, if $B = 1$ is a point, a torsor over a point is the same as an ordinary torsor in $C$, but sometimes the additional "over a point" is convenient for the sake of emphasis. 
 
 We restate this definition equivalently in more nuts-and-bolts terms. The ambient category is $C$, as before.
 
-+-- {: .un_defn}
-###### Equivalent definition
-
-A left $G$-torsor over $B \in C$ is a [[bundle]] $P\stackrel{\pi}{\to} B$ over $B$ together with a left group [[action]]
+\begin{defn} A left $G$-torsor over $B \in C$ is a [[bundle]] $P\stackrel{\pi}{\to} B$ over $B$ together with a left group [[action]]
 
 $$
   \rho : G\times_B P \to P
@@ -110,80 +145,31 @@ $$
 
 is an [[isomorphism]].  
 
-=--
+\end{defn}
 
-+-- {: .un_remark}
-###### Remark
-
-As we explain [below](#LocalTrivialization), a torsor is in some tautological sense **locally trivial**, but some care must be taken in interpreting this. One sense is that there is a cover $U$ of $1$ (so that $U \to 1$ is epi, i.e., $U$ is inhabited) such that the torsor, when pulled back to $U$, becomes trivial (i.e., isomorphic to $G$ as $G$-torsor). But this is a very general notion of "cover". A more restrictive sense frequently encountered in the literature is that "cover" means a coproduct of subterminal objects $U_i \hookrightarrow 1$ such that $U = \sum_i U_i$ is inhabited (e.g., an open cover of a space $B$ seen as the terminal object of the sheaf topos $Sh(B)$), and "torsor" would then refer to the local triviality condition for some such $U$. This is the more usual sense when referring to principal bundles as torsors. Or, "cover" could refer to a covering sieve in a [[Grothendieck topology]]. 
+\begin{rmk} As we explain [below](#LocalTrivialization), a torsor is in some tautological sense **locally trivial**, but some care must be taken in interpreting this. One sense is that there is a cover $U$ of $1$ (so that $U \to 1$ is epi, i.e., $U$ is inhabited) such that the torsor, when pulled back to $U$, becomes trivial (i.e., isomorphic to $G$ as $G$-torsor). But this is a very general notion of "cover". A more restrictive sense frequently encountered in the literature is that "cover" means a coproduct of subterminal objects $U_i \hookrightarrow 1$ such that $U = \sum_i U_i$ is inhabited (e.g., an open cover of a space $B$ seen as the terminal object of the sheaf topos $Sh(B)$), and "torsor" would then refer to the local triviality condition for some such $U$. This is the more usual sense when referring to principal bundles as torsors. Or, "cover" could refer to a covering sieve in a [[Grothendieck topology]]. 
 
 (The condition on the action can be translated to give transitivity etc. in the case of $B$ is a point (left as a standard exercise).)
 
-=--
+\end{rmk}
 
-## Examples
+### Examples
 
-### In sets
-
-Let $C = $ [[Set]]. 
-
-* An [[affine space]] of dimension $n$ over a [[field]] $k$ is a torsor for the additive group $k^n$: this acts by _translation_.
-
-* A [[unit of measurement]] is (typically) an element in an $\mathbb{R}^\times$-torsor, for $\mathbb{R}^\times$ the multiplicative group of non-zero [[real number]]s: for $u$ any unit and $r \in \mathbb{R}$ any non-vanishing real number, also $r u$ is a unit. And for $u_1$ and $u_2$ two units, one is expressed in terms of the other by a unique $r \neq 0$ as $u_1 = r u_2$. For instance for units of [[mass]] we have the unit of [[kilogram]] and that of gram and there is a unique number, $r = 1000$ with
-
-  $$
-    kg = 1000 g
-    \,.
-  $$
-
-### In topological spaces
+#### In topological spaces
 
 Let $C = $ [[Top]], so that all objects are [[topological space]]s and groups $G$ are [[topological group]]s. 
 
 A topological $G$-[[principal bundle]] $\pi: P \to B$ is an example of a torsor over $B$ in $Top$. This becomes a definition of principal bundle if we demand local triviality with respect to some open cover of $B$ (see the remarks [below](#LocalTrivialization)). 
 
-### In sheaves
+#### In sheaves
 
 Let $C = Sh(S)$ be a [[category of sheaves]] over a [[site]] $S$.
 
 The canonical example for a torsor in $C$ is the [[trivial torsor]] over a [[sheaf]] of groups, $G$.
 
-(...)
-
-### Group extensions {#GroupExtensions}
+#### Group extensions {#GroupExtensions}
 
 Every [[group extension]] $A \to \hat G \to G$ canonically equips $\hat G$ with the structure of an $A$-torsor over $G$. See <a href="http://ncatlab.org/nlab/show/group+extension#Torsors">Group extensions as torsors</a> for details
-
-## Properties {#Properties}
-
-
-### Torsors in $Set$
-
-Let $P$ be a $G$-torsor over the point in the category $C =$  [[Set]]. Then as objects of $C$, $P$ is [[isomorphism|isomorphic]] to $G$: 
-
-since $P$ is [[inhabited set|inhabited]] (here meaning non-empty), we may pick an point $p : * \to P$ of $P$. Write $\{p\} \to P$ for this morphism, for emphasis.  One sees that the diagram
-
-$$
-  \array{
-  G \simeq G \times \{p\} &\stackrel{(Id, p)}{\to}& G \times P
-  \\
-  \downarrow^{\mathrlap{\rho(-,p)}} && \downarrow^{\mathrlap{\langle \rho, \pi_2 \rangle}}
-  \\
-  P \times \{p\} &\stackrel{(Id,p)}{\to}& P \times P
-  }
-$$
-
-is a [[pullback]] diagram. But since $\rho$ is by assumption an [[isomorphism]], and since pullbacks of isomorphisms are isomorphisms, also $\rho(-,p) : G \to P$ is an isomorphism. 
-
-In other language, we say $P$ is **trivial** if it is isomorphic to $G$ as $G$-torsor, and a choice of isomorphism such as $\rho(-, p): G \to P$ is a **trivialization**. Notice that the composite 
-
-$$P \times P \stackrel{\rho^{-1}}{\to} G \times P \stackrel{\pi_1}{\to} G$$ 
-
-can be interpreted as "division" $d: P \times P \to G$, dividing one element of $P$ by another to get an element of $G$. If we further compose division with a choice of trivialization, 
-
-$$P \times P \stackrel{d}{\to} G \stackrel{\rho(-, p)}{\to} P,$$ 
-
-then we get a division structure $D$ on $P$ for which $p$ behaves as an identity (i.e., $D(x, x) = p$ for all $x \in P$), so that $P$ acquires a group structure isomorphic to that of $G$. 
 
 ### Local trivialization {#LocalTrivialization}
 
