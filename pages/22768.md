@@ -18,15 +18,27 @@ The idea of a minor scale comes from [[Peter Freyd]].
 
 ## Definition
 
-A __minor scale__ is a [[symmetric closed midpoint algebra]] $(M,\vert, \odot, (-)^\bullet, \bot, \top)$ with two functions $(-)^\wedge:M\to M$ and $(-)^\vee:M\to M$ such that 
+### In terms of zoom operations
 
-* for all $a$ in $M$, $(\bot \vert a)^\wedge = \bot$
+A __minor scale__ is a [[symmetric closed midpoint algebra]] $(M,\vert, \odot, (-)^\bullet, \bot, \top)$ with two functions $(-)^\wedge:M\to M$ called __$\top$-zooming__ and $(-)^\vee:M\to M$ called __$\bot$-zooming__ such that for all $a$ in $M$, 
 
-* for all $a$ in $M$, $(\bot \vert a)^\vee = a$
+$$(\bot \vert a)^\wedge = \bot$$
 
-* for all $a$ in $M$, $(a \vert \top)^\wedge = a$
+$$(\bot \vert a)^\vee = a$$
 
-* for all $a$ in $M$, $(a \vert \top)^\vee = \top$
+$$(a \vert \top)^\wedge = a$$
+
+$$(a \vert \top)^\vee = \top$$
+
+### In terms of central dilatations
+
+A __minor scale__ is a [[symmetric closed midpoint algebra]] $(M,\vert, \odot, (-)^\bullet, \bot, \top)$ with a function $(-)^\dagger:M\to M$ called __central dilatation__ such that for all $a$ in $M$,
+
+$$(\odot \vert a)^\dagger = a$$
+
+$$(\top \vert (\top \vert a))^\dagger = \top$$
+
+$$(\bot \vert (\bot \vert a))^\dagger = \bot$$
 
 ## Properties
 
@@ -49,6 +61,8 @@ If $a \leq b$, then $a \multimap b = \top$.
 ## Examples
 
 The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac{1}{2}$, $a^\bullet = 1 - a$, $\bot = 0$, $\top = 1$, $a^\wedge = max(2a-1,0)$, and $a^\vee = min(2a,1)$ is an example of a minor scale. 
+
+The set of truth values in Girard's [[linear logic]] is a minor scale. 
 
 ## Related concepts
 
