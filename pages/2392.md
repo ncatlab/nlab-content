@@ -683,6 +683,9 @@ For an account in terms of _analytic_ [[monads]], that is, monads that are carte
 
 * [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
 
+On the [[Eckmann-Hilton argument]] for (∞,1)-operads:
+
+* [[Tomer Schlank]], [[Lior Yanovski]], *The ∞-Categorical Eckmann-Hilton Argument*, Algebr. Geom. Topol. 19 (2019) 3119-3170 ([arXiv:1808.06006](https://arxiv.org/abs/1808.06006), [doi:10.2140/agt.2019.19.3119](https://doi.org/10.2140/agt.2019.19.3119))
 
 
 [[!redirects (∞,1)-operad]]
