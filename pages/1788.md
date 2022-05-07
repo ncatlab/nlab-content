@@ -1,85 +1,99 @@
 
+## Idea
 
-Such morphisms may hence be represented by [[paths]] 
+For $G$ a [[discrete group]] (often taken to be a [[finite group]]), and for $A$ any [[abelian group]] there is a [[transgression]] [[homomorphism]]
 
-* on a $(p+1)\times(q+1)$-lattice,
+\[
+  \label{TransgressionMapOnGroupCohomology}
+  H_{grp}^{\bullet + 1}(G,A)
+  \;=\;
+  H^{\bullet + 1}(B G;\, A)
+  \xrightarrow{ \tau }
+  H^n
+  \big(
+    \Lambda B G,
+    \,
+    A
+  \big)
+  \;\simeq\;
+  \underset{
+    [g] \in G^{ad}/G
+  }{\oplus}
+  H^n_{grp}\big(C_g, A \big)
+\]
 
-* from one corner to its opposite corner,
+from the [[group cohomology]] of $G$ to the [[groupoid cohomology]], in one degree lower,  of the [[inertia groupoid]]  $\Lambda B G$ of its [[delooping groupoid]] $B G \simeq (G \rightrightarrows G)$.
 
-* consisting of $p+q$ unit steps, 
+Since the [[inertia groupoid]] of the [[delooping groupoid]] is [[equivalence of groupoids|equivalent]] to a [[disjoint union]] over [[conjugacy classes]] $[g] \in G^{ad}/G$ of [[delooping groupoids]] of [[centralizer subgroups]] $C_g$ with $C_e = G$
 
-* each either horizontally or vertially:
+\[
+  \label{DecompositionOfTheInertiaGroupoid}
+  \Lambda B G
+  \;\simeq\;
+  \underset{ [g] \in G_{ad}/G }{\coprod}
+  B C_g
+  \;\simeq\;
+  B G \,\sqcup\, 
+  \underset{ [g] \neq [e] }{\coprod}
+  B C_g
+\]
 
-
-\begin{proof}
-
-From Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
-it
-
-is clear (Rem. \ref{DegenerateSimplicesInProductOfSimplicialSets}) that a 
-
-simplex $\sigma$ (eq:GenericSimplexInProductOfSimplices) is degenerate 
-
-precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then -- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ -- it must be that the path proceeds by $p + q$ unit steps. 
-
-\end{proof}
-
-
-Here is another way to think of these non-degenerate simplices:
-
-
-\begin{definition}
-For $X$ some [[simplicial set]] $x \in X_p$ some $p$-cell and 
-for $\mu = (\mu_1 \lt  \mu_2, \lt \cdots \lt \mu_q)$ a sequence of [[natural numbers]] in $\{0, \cdots p+q\}$, write
+this induces in particular a [[corestriction|corestricted]] transgression map withing the [[group cohomology]] of $G$:
 
 $$
-  s_\mu \colon X_p \to X_{p+q}
+  H_{grp}^{\bullet + 1}(G,A)
+  \longrightarrow
+  H_{grp}^{\bullet}(G,A)
+  \,.
 $$
 
-for the map dual to the sequence 
+It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGroupCohomology) maps an $(n+1)$-cocycle $c \colon G^{\times_{n+1}} \to A$ to the alternating sum
 
-$$
-  [p+q] 
-    \stackrel{\sigma_{\mu_q}}{\to}
-  [p+q-1]
-    \stackrel{\sigma_{\mu_{q-1}}}{\to}
-  \cdots
-   \stackrel{\sigma_{\mu_1}}{\to}
-   [p]
+\[
+  \label{SumFormulaForTransgressedCocycle}
+  \tau(c)(\gamma, g_{n-1}, \cdots, g_1, g_0)
+  \;=\;
+  \pm
+  \underset{
+    0 \leq j \ln n
+  }{\sum}
+  (-1)^j
+  \cdot
+  c( g_{n-1}, \cdots, g_{n-j}, Ad_j(\gamma), g_{n-j-1}, \cdots, g_0 )
   \,,
+\]
+
+where we use the shorthand
+
+$$
+  \begin{aligned}
+    Ad_j(\gamma)
+    & \;\coloneqq\;
+    Ad_{(g_{n-1}\cdots g_j)}(\gamma)
+    \\
+    & \;\coloneqq\;
+    (g_{n-1} \cdots g_j)^{-1} \cdot \gamma \cdot (g_{n-1} \cdots g_j)
+    \,,
+  \end{aligned}
 $$
 
-where $\sigma_i$ is the surjective monotone map that repeats the index $i$.
+(which restricts to $Ad_j(\gamma) = \gamma$ upon [[corestriction]] the connected components on the right of (eq:DecompositionOfTheInertiaGroupoid)).
 
-\end{definition}
+The historically influential example of this formula is the case $n=4$, $A = \mathbb{Z}$ or, equivalently, $n = 3$, $A = $ [[U(1)]], which:
 
+* implicitly underlies ([Dijkgraaf & Witten 1990, p. 24](#DijkgraafWitten90)) the discussion of [[Dijkgraaf-Witten theory]], 
+
+* explains ([Willerton 2008](#Willerton08)) the nature of the "twisted [[Drinfeld double]]" of the [[group algebra]] of $G$;
+
+* governs the expression ([Dove 2019, Sec. 6.4](#Dove19)) of 4-twisted [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
+
+Below we mean to spell out a general abstract definition of the transgression map (eq:TransgressionMapOnGroupCohomology) and a full proof of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] -- the classical [[Eilenberg-Zilber theorem]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08)).
 
 
 \linebreak
 
-Such morphisms may hence be represented by [[paths]] 
+and for $[c] \in H^{n+1}_{grp}(G, A) \;\simeq\; H^n(B G, A)$ an $(n+1)$-[[cocycle]] in the [[group cohomology]] of $G$
 
-* on a $(p+1)\times(q+1)$-lattice,
-
-* from one corner to its opposite corner,
-
-* consisting of $p+q$ unit steps, 
-
-* each either horizontally or vertially:
-
-
-\begin{proof}
-
-From Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
-it
-
-is clear (Rem. \ref{DegenerateSimplicesInProductOfSimplicialSets}) that a 
-
-simplex $\sigma$ (eq:GenericSimplexInProductOfSimplices) is degenerate 
-
-precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then -- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ -- it must be that the path proceeds by $p + q$ unit steps. 
-
-\end{proof}
 
 \begin{tikzcd}
   [
@@ -553,3 +567,16 @@ $$
     \big)        
   \end{aligned}
 $$
+
+## References
+
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990) 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
+
+
+* {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 ([arXiv:math/0503266](https://arxiv.org/abs/math/0503266))
+
+* [[Jean-Louis Tu]], [[Ping Xu]], Section 3 of: *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
+
+* [[Alejandro Adem]], [[Yongbin Ruan]], [[Bin Zhang]], Section 4 of: _A Stringy Product on Twisted Orbifold K-theory_, Morfismos (10th Anniversary Issue), Vol. 11, No 2 (2007), 33-64.  ([arXiv:math/0605534](https://arxiv.org/abs/math/0605534), [Morfismos pdf](www.morfismos.cinvestav.mx/Portals/morfismos/SiteDocs/Articulos/Volumen11/No2/Zhang/arz.pdf))
+
+* {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
