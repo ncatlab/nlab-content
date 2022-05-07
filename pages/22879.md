@@ -21,9 +21,9 @@
 ## Idea
 
 
-On the [[stable homotopy type|stable]] [[homotopy type]] of [[mapping spaces]] of [[rational maps]].
+On the [[stable homotopy type|stable]] [[homotopy type]] of [[mapping spaces]] of regular [[rational maps]].
 
-Under good conditions, the [[topological subspace|subspace inclusion]] of the space of [[rational maps]] into that of all [[continuous maps]] between given [[complex manifolds]] or [[algebraic varieties]] induces an [[isomorphism]] in integral [[ordinary homology]] in low degrees, while for maps out of the [[Riemann sphere]] this is even an isomorphism on [[homotopy groups]] in low degrees -- an observation that goes back to [Segal 1979](#Segal79):
+Under good conditions, the [[topological subspace|subspace inclusion]] of the space of regular [[rational maps]] into that of all [[continuous maps]] between given projective [[complex manifolds]] or [[algebraic varieties]] induces an [[isomorphism]] in integral [[ordinary homology]] in low degrees, while for maps out of the [[Riemann sphere]] this is even an isomorphism on [[homotopy groups]] in low degrees -- an observation that goes back to [Segal 1979](#Segal79):
 
 $$
   Maps_{rat}(X_1, X_2)
