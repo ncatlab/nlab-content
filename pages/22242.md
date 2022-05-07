@@ -41,3 +41,7 @@ This is precisely the underlying poset of the localic [[Zariski spectrum]].
 * [[Yves Diers]], _Some spectra relative to functors_.  Journal of Pure and Applied Algebra 22:1 (1981), 57–74.  [doi][1]
 
     [1]: https://doi.org/10.1016/0022-4049(81)90082-7
+
+* [[Axel Osmond]]: _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, [arXiv](https://arxiv.org/abs/2012.00853).
+
+* [[Axel Osmond]]: _On Diers theory of Spectrum II Geometries and dualities_, [arXiv](https://arxiv.org/abs/2012.02167).
