@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -83,6 +84,12 @@ include the following:
 
 \end{prop}
 
+## Examples
+
+\begin{example}\label{UnitaryGroupOnHilbertSpaceByCircleGroup}
+  For $\mathcal{H}$ an infinite-dimensional [[separable Hilbert space|separable]] [[complex numbers|complex]] [[Hilbert space]], the [[coset space]] of the [[unitary group]] [[U(ℋ)]] by its [[circle group|circle]] [[subgroup]] [[U(1)]] is the [[projective unitary group]] $\mathrm{U}(\mathcal{H})/U(1) \; \simeq$ [[PU(ℋ)]], both in their weak/strong [[operator topology]]. 
+This coset space coprojection falls outside the applicatibility of Prop. \ref{SufficientConditionsforCosetSpaceCoprojectionsHavingLocalSections}, and yet it does admit local sections ([Simms 1970, Thm. 1](projective+unitary+group+on+a+Hilbert+space#Simms70)).
+\end{example}
 
 ## Counter examples
  {#Counterexamples}
