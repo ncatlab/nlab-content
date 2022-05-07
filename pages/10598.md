@@ -21,10 +21,25 @@
 
 ## Idea
 
-The concept of _$G$-CW  complex_ is to that of [[CW-complexes]] as [[topological G-spaces]] are to [[topological spaces]]: for $G$ a [[compact topological group]], the notion of _$G$-CW-complex_ is much like that of [[CW-complex]], only that where in the latter case one builds a [[topological space]] from gluing of [[disks]] $D^n$ ("[[cell complex|cells]]") for a $G$-CW-complex one glues [[products]] of [[disks]] with $G$-[[orbits]] $G/H$ ([[coset spaces]]) for [[compact Lie group|compact]] [[subgroups]] $H$.
+The concept of _$G$-CW  complex_ is to that of [[CW-complexes]] as [[topological G-spaces]] are to [[topological spaces]]: for $G$ a [[compact topological group]], the notion of _$G$-CW-complex_ is much like that of [[CW-complex]], only that where in the latter case one builds a [[topological space]] from gluing of [[disks]] $D^n$ ("[[cell complex|cells]]") for a $G$-CW-complex one glues [[products]] ([[product topological spaces]]) of [[disks]] with $G$-[[orbits]] $G/H$ ([[coset spaces]]) for [[compact Lie group|compact]] [[subgroups]] $H$.
 
 These are [[cofibrant objects]] in the $G$-[[fine model structure on topological G-spaces]].
 
+## Definition
+
+(...)
+
+\begin{remark}\label{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}
+  For [[finite group|finite]] [[equivariance groups]] $G$, a $G$-CW-complex structure may be identified with 
+
+* a plain [[CW-complex]]-structure 
+
+* on which the $G$-[[group action|action]] is [[cell complex|cellular]] (sends $n$-cells onto $n$-cells, respecting their boundaries) 
+
+* which on cells that are sent to themselves actually restricts to the [[identity function|identity]] (i.e. cells that are fixed under the action are actually fixed point-wise).
+
+This special case was the original definition on [Bredon 1967b, I.1](#Bredon67b).
+\end{remark}
 
 ## Examples
 
@@ -53,6 +68,15 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 
 ## Properties
+
+### Closure properties
+
+\begin{proposition}\label{ClosureUnderProductsForFiniteGroups}
+  For $G$ a [[finite group]] (at least), the [[product]] of two $G$-CW-complexes in [[compactly generated weak Hausdorff spaces]] is itself a $G$-CW-complex.
+\end{proposition}
+\begin{proof}
+  Since for finite $G$, a $G$-CW complex is the same as a plain [[CW-complex]] equipped with a [[cell complex|cellular]] [[group action|action]] by $G$ (Rem. \ref{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}) it is clear that for this structure to be preserved by the product operation it is sufficient that the products of underlying cells constitute a CW-complex, hence that products preserve CW-complexes in compactly generated Hausdorff spaces. This is this case by [this Prop.](CW+complex#ClosureOfCWComplexesUnderCartesianProduct).
+\end{proof}
 
 ### Equivariant cellular approximation
 
