@@ -693,7 +693,7 @@ See at _[tmf -- Decomposition via arithmetic fracture squares](tmf#Decomopositio
 * {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
 by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
 
-* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011 ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
+* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](https://math.mit.edu/events/talbot/2007/tmfproc/Chapter09/Bousfield.pdf), [[Bauer_BousfieldLocalization.pdf:file]]), chapter 6 in:  [[Christopher Douglas]], [[John Francis]], [[André Henriques]], [[Michael Hill]] (eds.), _Topological Modular Forms_, Mathematical Surveys and Monographs Volume 201, AMS 2014  ([ISBN:978-1-4704-1884-7](https://bookstore.ams.org/surv-201))
 
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
