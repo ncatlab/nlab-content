@@ -33,6 +33,14 @@ If we wish to extend this treatment to types which are [[propositions]], we migh
 
 * [[David Corfield]], _Expressing 'The Structure of' in Homotopy Type Theory_, [pdf](https://ncatlab.org/davidcorfield/show/Expressing+%27The+Structure+of%27+in+Homotopy+Type+Theory), revised as Chapter 4 of _Modal Homotopy Type Theory: The Prospect of a New Logic for Philosophy_.
 
+The term "generalized the" was introduced by James Dolan and may first appear in print here:
+
+* [[John Baez]], Higher-dimensional algebra II: 2-Hilbert spaces, Adv. Math. 127 (1997), 125-189.  ([arxiv](http://arxiv.org/abs/q-alg/9609018))
+
+Quoting:
+
+> Given a tensor product of the 2-Hilbert spaces $H$ and $H'$, we often write its underlying 2-Hilbert space as $H \otimes H'$. This notation may tempt one to speak of ‘the’ tensor product of $H$ and $H'$, which is is legitimate if one uses the generalized ‘the’ as advocated by Dolan [7]. In a set, when we speak of ‘the’ element with a given property, we implicitly mean that this element is unique.  In a category, when we speak of ‘the’ object with a given property, we merely mean that this object is unique up to isomorphism — typically a specified isomorphism. Similarly, in a 2-category, when we speak of ‘the’ object with a given property, we mean that this object is unique up to equivalence — typically an equivalence that is specified up to a specified isomorphism. This is the sense in which we may refer to ‘the’ tensor product of $H$ and $H'$. The generalized ‘the’ may be extended in an obvious recursive fashion to $n$-categories.
+
 
 [[!redirects the]]
 [[!redirects generalised the]]
