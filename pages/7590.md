@@ -30,12 +30,18 @@ Then [[sifted (∞,1)-colimits]] preserve [[finite products|finite]] [[homotopy 
 
 ## Examples
 
+### Simplicial $\infty$-colimits
+
 \begin{prop}\label{SimplicialInfinityColimitsAreSifted}
 **(simplicial $\infty$-colimits are sifted)**
 \linebreak
   The $(\infty,1)$-colimits of [[simplicial object in an (infinity,1)-category|simplicial objects in an $(\infty,1)$-category]] are sifted.
 \end{prop}
-Since the [[opposite category|opposite]] of the [[simplex category]] is a [[sifted (∞,1)-category]] ([Lurie HTT, Prop. 5.5.8.4](#LurieHTT)).
+This is because the [[opposite category|opposite]] of the [[simplex category]] is a [[sifted (∞,1)-category]] ([Lurie HTT, Prop. 5.5.8.4](#LurieHTT)).
+
+\begin{remark}
+Simplicial $\infty$-colimits preserve even [[homotopy fiber products]], under mild conditions: see at *[[geometric realization of simplicial topological spaces]]* the section *[Preservation of homotopy limits](https://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces#PreservationOfHomotopyLimits)*.
+\end{remark}
 
 ## Related concepts
 
