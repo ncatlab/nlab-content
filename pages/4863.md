@@ -422,3 +422,5 @@ Discussion in [[higher differential geometry]] of Kaluza-Klein compactification 
 [[!redirects KK mechanism]]
 [[!redirects KK mechanisms]]
 
+[[!redirects Kaluza-Klein]]
+
