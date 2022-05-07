@@ -7,9 +7,9 @@ On the [[flavour anomalies]]:
 
 * {#CrivellinEtAl18} A. Cerri, [[Andreas Crivellin]] et. al. _Opportunities in Flavour Physics at the HL-LHC and HE-LHC_, Report from Working Group 4 on the [Physics of the HL-LHC, and Perspectives at the HE-LHC](https://indico.cern.ch/event/686494/) ([arXiv:1812.07638](https://arxiv.org/abs/1812.07638))
 
-* {#CCDGMV17} Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Joaquim Matias, Javier Virto, _Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data_, JHEP 1801 (2018) 093 ([arXiv:1704.05340](https://arxiv.org/abs/1704.05340))
+* {#CCDGMV17} Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Joaquim Matias, [[Javier Virto]], _Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data_, JHEP 1801 (2018) 093 ([arXiv:1704.05340](https://arxiv.org/abs/1704.05340))
 
-* Marcel Algueró, Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, Javier Virto, _Addendum: "Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data"_ ([arXiv:1903.09578](https://arxiv.org/abs/1903.09578))
+* Marcel Algueró, Bernat Capdevila, [[Andreas Crivellin]], Sébastien Descotes-Genon, Pere Masjuan, Joaquim Matias, [[Javier Virto]], _Addendum: "Patterns of New Physics in $b \to s \ell^+ \ell^-$ transitions in the light of recent data"_ ([arXiv:1903.09578](https://arxiv.org/abs/1903.09578))
 
 * Pere Arnan, [[Andreas Crivellin]], Marco Fedele, Federico Mescia, _Generic Loop Effects of New Scalars and Fermions in $b \to s \ell^+ \ell^-$ and a Vector-like 4th Generation_ ([arXiv:1904.05890](https://arxiv.org/abs/1904.05890))
 
