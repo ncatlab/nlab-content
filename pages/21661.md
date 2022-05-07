@@ -80,6 +80,9 @@ On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]
 
 * {#ADO20b} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 2.2 of: _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
 
+* Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], *Hidden Sectors from Multiple Line Bundles for the B−L MSSM* ([arXiv:2106.09087](https://arxiv.org/abs/2106.09087))
+
+
 
 
 
