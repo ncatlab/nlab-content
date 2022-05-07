@@ -742,7 +742,7 @@ A completely [[internal logic|internal]] characterization of local toposes is di
 This is based on part 2 of
 
 * [[Lars Birkedal]], _Developing Theories of Types and
-Computability via Realizability_ PhD Thesis ([pdf](http://itu.dk/people/birkedal/papers/devttc.pdf))
+Computability via Realizability_ PhD Thesis ([pdf](https://cs.au.dk/~birke/papers/devttc.pdf))
 
 Free local constructions are considered in 
 
