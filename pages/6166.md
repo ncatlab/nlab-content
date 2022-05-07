@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -16,7 +26,9 @@ Given a (not necessarily unital) [[ring]] $R$, a left $R$-[[module]] $(N,\nu)$, 
 
   * [[finitely generated algebra]]
 
-* [[finitely presented module]]
+  * [[finitely generated group]]
+
+  * [[finitely presented module]]
 
 * [[free module]]
 
