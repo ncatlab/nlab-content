@@ -16,7 +16,9 @@
 ## Idea
 
 
-Moonshine usually refers to the mysterious connections between the [[Monster simple group]] and the modular function $j$, the [[j-invariant]]. There were a bunch of [[conjectures]] about this connection that were proved by [[Richard Borcherds]], en passant mentioning the existence of the [[Moonshine vertex algebra]] (constructed then later in [FLM 89](#FrenkelLepowskiMeurman89)). Nowadays there is also Moonshine for other simple groups, by the work of J. Duncan. Eventually there should be an entry for the general moonshine phenomenon.
+In [[mathematics]], *Moonshine* refers to mysterious connections between the [[Monster simple group]] and the [[modular function]] $j$, the *[[j-invariant]]*. 
+
+There were a bunch of [[conjectures]] about this connection that were proved by [[Richard Borcherds]], en passant mentioning the existence of the [[Moonshine vertex algebra]] (constructed then later in [FLM 89](#FrenkelLepowskiMeurman89)). Nowadays there is also Moonshine for other [[simple groups]], by the work of J. Duncan. Eventually there should be an entry for the general moonshine phenomenon.
 
 The whole idea of moonshine began with [[John McKay]]'s observation that the [[Monster group]]'s first nontrivial [[irreducible representation]] has [[dimension]] 196883, and the [[j-invariant]] $j(\tau)$ has the [[Fourier series]] expansion
 $$
@@ -24,16 +26,16 @@ $$
 $$
 where $q=\exp(i2\pi\tau)$, and famously 196883+1=196884. Thompson observed in (1979) that the other coefficients are obtained from the dimensions of Monster's irreducible representations. 
 
-But the monster was merely _conjectured_ to exist until Griess (1982) explicitly constructed it. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
+But the [[Monster group]] was merely _conjectured_ to exist until Griess (1982) explicitly constructed it. The construction is horribly complicated (take the sum of three irreducible representations for the [[centralizer]] of an [[involution]] of...). 
 
-[Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89) constructed an infinite-dimensional [[module]] for the [[Monster vertex algebra]]. This is by a generalized [[Kac-Moody algebra]] via [[bosonic string theory]] and the [[Goddard-Thorn theorem|Goddard-Thorn "No Ghost" theorem]]. The [[Monster group]] acts naturally on this "Moonshine Module" (denoted by $V\natural$). 
+[Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89) constructed an infinite-dimensional [[module]] for the [[Monster vertex algebra]]. This is by a generalized [[Kac-Moody algebra]] via [[bosonic string theory]] and the [[Goddard-Thorn theorem|Goddard-Thorn "No Ghost" theorem]]. The [[Monster group]] [[group action|acts]] naturally on this "Moonshine Module" (denoted by $V\natural$). 
 
 To cut the story short, we end up getting from the Monster group to a module it acts on which is related to "modular stuff" (namely, the modular [[j-invariant]]). The idea [[Terry Gannon]] pitches is that Moonshine is a generalization of this association, it's a sort of "mapping" from "Algebraic gadgets" to "Modular stuff". 
 
 ## Automorphism groups of vertex operator algebras
  {#AutomorphismGroupsOfVertexOperatorAlgebras}
 
-Realizations of [[sporadic finite simple groups]] as [[automorphism groups of vertex operator algebras]] in [[heterotic string theory]] and [[type II string theory]] (mostly on [[K3-surfaces]], see [[HET - II duality]]):
+Realizations of [[sporadic finite simple groups]] as [[automorphism of a vertex operator algebra|automorphism groups of vertex operator algebras]] in [[heterotic string theory]] and [[type II string theory]] (mostly on [[K3-surfaces]], see [[HET - II duality]]):
 
 
 * The [[Conway group]] $Co_{0}$ is the [[automorphism group|group of]] [[automorphisms of a super VOA]] of the unique chiral [[number of supersymmetries|N=1]] [[super vertex operator algebra]] of [[central charge]] $c = 12$ without fields of [[conformal weight]] $1/2$
