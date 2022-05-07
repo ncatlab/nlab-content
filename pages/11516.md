@@ -768,6 +768,8 @@ See at _[[G-CW complex]]_.
 
 * [[slice theorem]]
 
+* [[equivariant fundamental groupoid]]
+
 * [[equivariant bundle]]
 
 * [[cyclotomic space]]
