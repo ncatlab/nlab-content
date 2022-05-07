@@ -8,7 +8,7 @@
 
 ## Idea
 
-[[Alain Connes]]\'s __cyclic category__ $\Lambda$ (sometimes denoted $\mathcal{C}$) is a [[small category]] whose [[presheaves]] -- called _[[cyclic sets]]_ or more generally _[[cyclic objects]]_  -- are somewhere intermediate between [[simplicial sets]] and [[symmetric sets]]. It strictly contains the [[simplex category]], and has [[cyclic groups]] for [[automorphism groups]]. Among its virtues, it is a self-dual category. 
+The __cyclic category__ ([Connes 83](#Connes83), see [Cartier 85](#Cartier85)) typically denoted $\Lambda$  (or sometimes $\mathcal{C}$) is a [[small category]] whose [[presheaves]] -- called _[[cyclic sets]]_ or more generally _[[cyclic objects]]_  -- are somewhere intermediate between [[simplicial sets]] and [[symmetric sets]]. It strictly contains the [[simplex category]], and has [[cyclic groups]] for [[automorphism groups]]. Among its virtues, it is a self-dual category. 
 
 The cycle category is used for the description of the cyclic structure on [[Hochschild homology]]/[[Hochschild cohomology]] and accordingly for the description of [[cyclic homology]]/[[cyclic cohomology]].
 
@@ -204,10 +204,23 @@ The cycle category is a [[generalized Reedy category]] (see [Berger-Moerdijk 08,
 
 ## References
 
-* [[Jean-Louis Loday]], *The Cyclic Category, Tor and Ext Interpretation* ([doi:10.1007/978-3-662-21739-9_6](https://doi.org/10.1007/978-3-662-21739-9_6))
+The original definition:
 
-  Chapter 6 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
+* {#Connes83} [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **269** (1983), S&#233;rie I, 953-958
 
+* {#Cartier85} [[Pierre Cartier]], Section 1.6 of: *Homologie cyclique : rapport sur des travaux récents de Connes, Karoubi, Loday, Quillen...*, Séminaire Bourbaki: volume 1983/84, exposés 615-632, Astérisque, no. 121-122 (1985), Exposé no. 621 ([numdam:SB_1983-1984__26__123_0](http://www.numdam.org/item/?id=SB_1983-1984__26__123_0))
+
+Exposition:
+
+* {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
+
+Textbook account:
+
+* [[Jean-Louis Loday]], *The Cyclic Category, Tor and Ext Interpretation* ([doi:10.1007/978-3-662-21739-9_6](https://doi.org/10.1007/978-3-662-21739-9_6)) and *Cyclic Spaces and $S^1$-Equivariant Homology* ([doi:10.1007/978-3-662-21739-9_7](https://link.springer.com/chapter/10.1007/978-3-662-21739-9_7))
+
+  Chapters 6 and 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
+
+See also:
 
 * [[V. Drinfeld]], _On the notion of geometric realization_, [arXiv:math.CT/0304064](http://front.math.ucdavis.edu/0304.5064)
 
@@ -224,7 +237,11 @@ The cycle category is a [[generalized Reedy category]] (see [Berger-Moerdijk 08,
 
 * {#Elm} [[Anthony Elmendorf]], *A simple formula for cyclic duality*, Proc. Amer. Math. Soc. Volume 118, Number 3 (July 1993), 709-711. ([pdf](http://www.ams.org/journals/proc/1993-118-03/S0002-9939-1993-1143017-0/S0002-9939-1993-1143017-0.pdf))
 
-* {BM08} [[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ ([arXiv:0809.3341](https://arxiv.org/abs/0809.3341))
+As a [[generalized Reedy category]]:
+
+* {#BM08} [[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_ ([arXiv:0809.3341](https://arxiv.org/abs/0809.3341))
+
+Relation to the paracyclic category:
 
 * {#NS} [[Thomas Nikolaus]], [[Peter Scholze]], *On topological cyclic homology* ([arxiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
