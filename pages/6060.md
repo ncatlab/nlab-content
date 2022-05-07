@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[twisted cohomology]]-version of [[de Rham cohomology]] (a simple example of [[twisted differential cohomology]]):
+The [[twisted cohomology]]-version of [[de Rham cohomology]] (a simple but important example of [[twisted differential cohomology]]):
 
 For $X$ a [[smooth manifold]] and $H \in \Omega^3(X)$ a closed [[differential form|differential 3-form]], the $H$ **twisted de Rham complex** is the $\mathbb{Z}_2$-[[graded vector space]] $\Omega^{even}(X) \oplus \Omega^{odd}(X)$ equipped with the $H$-twisted [[de Rham differential]]
 
@@ -108,8 +108,10 @@ The generalization of 3-twisted de Rham cohomology to [[orbifolds]] (often as th
 
 
 
-### Twist in any and higher degrees
+### Twist in higher degrees
  {#ReferencesTwistInHigherDegrees}
+
+Discussion of higher-degree twisted de Rham cohomology (often a the character image of [higher twisted K-theory](twisted+K-theory#ReferencesHigherTwists)):
 
 * [Teleman 04, Sec. 3](#Teleman04)
 
