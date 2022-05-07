@@ -29,6 +29,9 @@ On [[Becker-Gottlieb transfer]] and [[differential algebraic K-theory]]:
  
 * [[Ulrich Bunke]], [[David Gepner]], _Differential function spectra, the differential Becker-Gottlieb transfer, and applications to differential algebraic K-theory_, Memoirs of the American Mathematical Society 2021 ([arXiv:1306.0247](http://arxiv.org/abs/1306.0247), [ISBN:978-1-4704-4685-7](https://bookstore.ams.org/cdn-1608276327798/memo-269-1316/))
 
+On [[noncommutative motives]] in terms of [[algebraic K-theory]]:
+
+* {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology 17 (2013) 733&#8211;838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
 
 
 
