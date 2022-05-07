@@ -1595,12 +1595,14 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 * Thomas Church, _Homological stability for configuration spaces of manifolds_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
 
 
-
 * [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization homology_, Algebr. Geom. Topol. 17 (2017) 3137-3187 ([arXiv:1405.6696](https://arxiv.org/abs/1405.6696))
 
 * Christoph Schiessl, _Betti numbers of unordered configuration spaces of the torus_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
 
 * Christoph Schiessl, _Integral cohomology of configuration spaces of the sphere_ ([arxiv:1801.04273](https://arxiv.org/abs/1801.04273))
+
+* Weiyan Chen, *Twisted cohomology of configuration spaces and spaces of maximal tori via point-counting* ([arXiv:1603.03931](https://arxiv.org/abs/1603.03931))
+
 
 * Dan Petersen, _Cohomology of generalized configuration spaces_ ([arXiv:1807.07293](https://arxiv.org/abs/1807.07293))
 
