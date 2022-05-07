@@ -250,6 +250,8 @@ Here we are showing
 
 * [[Paul Sutcliffe]], *BPS Monopoles*, Int. J. Mod. Phys. A12:4663-4706 (1997) ([arXiv:hep-th/9707009](https://arxiv.org/abs/hep-th/9707009), [doi:10.1142/S0217751X97002504](https://doi.org/10.1142/S0217751X97002504))
 
+* [[Yakov Shnir]], Part II of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
+
 See also:
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
