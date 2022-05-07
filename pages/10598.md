@@ -65,11 +65,21 @@ See at _[[Elmendorf's theorem]]_.
 
 ## References
 
-The notion of [[G-CW-complexes]] and of the [[equivariant Whitehead theorem]] for [[compact Lie groups]] $G$ is due to:
+The notion of G-CW complexes is, for the case of [[finite groups]] $G$, due to
+
+* {#Bredon67b} [[Glen Bredon]], Section I.1. of _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967 ([doi:10.1007/BFb0082690](https://link.springer.com/book/10.1007/BFb0082690))
+
+announced in
+
+* {#Bredon67a} [[Glen Bredon]], _Equivariant cohomology theories_, Bull. Amer. Math. Soc. Volume 73, Number 2 (1967), 266-268. ([educlid:1183528794](https://projecteuclid.org/euclid.bams/1183528794))
+
+In the broader generality of general [[topological groups]] and specifically of [[compact Lie groups]], the nition of G-CW-complexes and their [[equivariant Whitehead theorem]] is due to:
 
 * {#Matumoto71} [[Takao Matumoto]], _On $G$-CW complexes and a theorem of JHC Whitehead_, J. Fac. Sci. Univ. Tokyo Sect. IA 18, 363-374, 1971 ([[matumoto.pdf:file]])
 
 *  [[Takao Matumoto]], _Equivariant K-theory and Fredholm operators_, J. Fac. Sci. Tokyo 18 (1971/72), 109-112 ([pdf](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_action_common_download&item_id=39826&item_no=1&attribute_id=19&file_no=1), [[MatumotoEquivariantKTheory.pdf:file]])
+
+(Which, in hindsight and with [[Elmendorf's theorem]], gives a deeper justification for the parametrization over the [[orbit category]] already proposed in [Bredon 67a](#Bredon67a), [Bredon 67b](#Bredon67b).)
 
 * {#Waner80} [[Stefan Waner]], _Equivariant Homotopy Theory and Milnor's Theorem_, Transactions of the American Mathematical Society Vol. 258, No. 2 (Apr., 1980), pp. 351-368 ([JSTOR](http://www.jstor.org/stable/1998061))
 
