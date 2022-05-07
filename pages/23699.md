@@ -36,6 +36,7 @@ such that
 
 ## See also ##
 
+* [[rational number]]
 * [[dyadic interval coalgebra]]
 * [[decimal interval coalgebra]]
 * [[unit interval]]
