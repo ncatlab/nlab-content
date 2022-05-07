@@ -60,13 +60,11 @@ The [[category]] of simplicial groups is the category of functors from $\Delta^{
 ### As Kan complexes
  {#AsKanComplexes}
 
-+-- {: .num_theorem #MooreTheorem}
-###### Theorem (J. C. Moore)
 
+\begin{theorem}\label{EverySimplicialGroupIsAKanComplex}
 The [[simplicial set]] underlying any simplicial group
 (by forgetting the group structure) is a [[Kan complex]].
-
-=--
+\end{theorem}
 
 This is due to ([Moore, 1954](#Moore54))
 
