@@ -68,6 +68,25 @@ is *not* [[locally compact topological space|locally compact]].
 
 * [[Kuiper's theorem]]
 
+(...)
+
+\begin{proposition}\label{UHCircleFiberBundle}
+  The [[U(1)]]-[[quotient space]] [[coprojection]] of [[U(ℋ)]]  over [[PU(ℋ)]] -- both in their strong [[operator topology]] -- is a [[circle group|circle]]-[[principal bundle]]:
+$$
+  \array{
+    S^1 &\hookrightarrow& \mathrm{U}(\mathcal{H})
+    \\
+    && \big\downarrow
+    \\
+    && PU(\mathcal{H})
+    \mathrlap{ \; \simeq \; \mathrm{U}(\mathcal{H})/S^1 }
+  }
+$$
+\end{proposition}
+([Simms 1970, Thm. 1](#Simms70))
+\begin{remark}
+  Prop. \ref{UHCircleFiberBundle} means in particular that $\mathrm{U}(\mathcal{H}) \xrightarrow{\;} PU(\mathcal{H})$ is [[locally trivial bundle|locally trivial]], hence that the [[coset space]] [[coprojection]] $\mathrm{U}(\mathcal{H}) \xrightarrow{\;} \mathrm{U}(\mathcal{H})/S^1$ admits [[local sections]]. See also at *[[coset space coprojection admitting local sections]]*.
+\end{remark}
 
 ## Related concepts
 
@@ -79,6 +98,10 @@ is *not* [[locally compact topological space|locally compact]].
 
 
 ## References
+
+Early discussion in relation to [[PU(ℋ)]]:
+
+* {#Simms70} [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
 
 Proof that the the weak- and strong- [[operator topologies]] agree on $U(\mathcal{H})$:
 
@@ -107,6 +130,11 @@ Proof of failure of local compactness:
 
 * {#GrigorchukHarpe2014} Rostislav Grigorchuk, Pierre de la Harpe, *Amenability and ergodic properties of topological groups: from Bogolyubov onwards*, in: *Groups, Graphs and Random Walks*, Cambridge University Press 2017 ([arXiv:1404.7030](https://arxiv.org/abs/1404.7030), [doi:10.1017/9781316576571.011]( https://doi.org/10.1017/9781316576571.011))
 
+Proof of [[Kazhdan's property (T)]] for $U(\mathcal{H})$:
+
+* [[Bachir Bekka]], *Kazhdan's Property (T) for the unitary group of a separable Hilbert space*, Geom. funct. anal. 13, 509–520 (2003) ([doi:10.1007/s00039-003-0420-0](https://doi.org/10.1007/s00039-003-0420-0))
+
+    
 
 [[!redirects U(H)]]
 
