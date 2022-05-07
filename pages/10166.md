@@ -1426,6 +1426,9 @@ in a context of [[Chern-Simons theory]] on [[orbifolds]].
 [[!redirects equivariant vector bundle]]
 [[!redirects equivariant vector bundles]]
 
+[[!redirects equivariant classifying space]]
+[[!redirects equivariant classifying spaces]]
+
 [[!redirects universal equivariant bundle]]
 [[!redirects universal equivariant bundles]]
 
