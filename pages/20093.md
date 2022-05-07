@@ -33,6 +33,8 @@ The [[physics]] of [[atomic nuclei]].
 
 * [[Skyrmion]]
 
+* [[Witten-Sakai-Sugimoto model]], [[nuclear matrix model]]
+
 * [[solid state physics]], [[high energy physics]]
 
 ## References
