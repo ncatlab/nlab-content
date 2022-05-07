@@ -480,10 +480,37 @@ $$
   \end{aligned}
 $$
 
-(...)
+Hence the first couple of [[Pontrjagin forms]] are
+
+$$
+  \begin{aligned}
+    p_1(\nabla)
+    & 
+    \;=\;
+    \frac
+      {\tr\big( (F_\nabla)^2 \big) }
+      { 8 \pi^2  }
+    \\
+    p_2(\nabla)
+    & \;=\;
+    \frac
+      {
+        - 2
+        \cdot
+        tr\big( (F_\nabla)^4 \big)
+        + 
+        tr\big(  (F_\nabla)^2 \big)^2
+      }
+      {128 \pi^4}
+  \end{aligned}
+$$
+
+(e.g. [Nakahara 2003, Exp. 11.5](#Nakahara03))
 
 ##### Euler forms
 
 (...)
 
+
+(e.g. [Nakahara 2003, Exp. 11.7](#Nakahara03))
 
