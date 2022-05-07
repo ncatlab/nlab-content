@@ -15,7 +15,7 @@ From [Ferris & Poulin 2013](#FerrisPoulin13):
 > The basic principle of quantum error correction (QEC)is to encode information into the long-range correlations of  [[quantum entanglement|entangled]] quantum many-body  states in  such  a  way that it  cannot be accessed locally. When a local error affects the system, it leaves a detectable imprint—called the error syndrome. The decoding problem consists  in inferring the recovery with greatest probability of success given the error syndrome.  In general, this is a hard problem, but for well-chosen codes, it can be solved efficiently either exactly or heuristically.
 
 
-In simple examples (see [below](#A3FoldqtritCode)), for $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a $n$-fold [[tensor product]] (typically of copies of itself), for some [[natural number]] $n \in \mathbb{N}$:
+In simple examples of passive correction of erasures (see [below](#A3FoldqtritCode)), for $\mathcal{H}$ a given [[Hilbert space]] of [[quantum states]] ([[finite dimensional vector space|finite-dimensional]] in practice), a *quantum error correcting code* is a choice of [[linear subspace|linear embedding]] (the *code subspace*) of $\mathcal{H}$ into a $n$-fold [[tensor product]] (typically of copies of itself), for some [[natural number]] $n \in \mathbb{N}$:
 
 $$
   \array{
@@ -220,6 +220,8 @@ See at *[[Majorana dimer code]]*.
 
 
 ## Related concepts
+
+* [[quantum entanglement]], [[holographic quantum entanglement]]
 
 * [[quantum computing]], [[topological quantum computing]]
 
