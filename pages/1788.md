@@ -1,4 +1,81 @@
 
+$$
+  \Delta[n+1]
+  \longrightarrow
+  [S,\overline{W}] \times S
+$$
+
+$$
+  (\phi,j)
+  \;\in\;
+  Hom(\Delta[n+1] \times S, \overline{W}) 
+  \times
+  Hom(\Delta[n+1], S)
+$$
+
+
+\begin{proposition}
+  The [[evaluation map]]
+  $$
+    [S,\overline{W}G] \times S
+    \xrightarrow{\;\;}
+    \overline{W}G
+  $$
+  (out of the [[product of simplicial sets|product]] of the [[simplicial hom complex]] out of $S$ with $S$)
+  takes any non-degenerate $n+1$-simplex of $[S,\overline{W}G] \times S$
+  $$
+    \array{
+      (\gamma, [0]) 
+      &\xrightarrow{ (g_{n-1}, id) }&
+      ( Ad_{n-1}(\gamma), [0]  )
+      &\xrightarrow{ (g_{n-2}, id) }&
+      \cdots
+      &\xrightarrow{ (g_{j}, id) }&
+      \big( Ad_{j}(\gamma), [0]  \big)      
+      \\
+      && && &&
+      \big\downarrow {}^{\mathrlap{ (e, [ [0],[1] ]) }}
+      \\
+      && && &&
+      (Ad_j(\gamma), [1])
+      &\xrightarrow{ (g_{n-j},id)  }
+      &
+      \cdots
+      &\xrightarrow{ (g_0,id) }&      
+      (Ad_0(\gamma), [1])
+    }
+  $$
+  to the following $n+1$ simplex of $\overline{W}G$:
+  $$
+    \array{
+      \bullet
+      &\xrightarrow{ g_{n-1} }&
+      \bullet
+      &\xrightarrow{ g_{n-2} }&
+      \cdots
+      &\xrightarrow{ g_{j} }&
+      \bullet
+      \\
+      && && &&
+      \big\downarrow {}^{\mathrlap{ 
+        Ad_j(\gamma)
+      }}
+      \\
+      && && &&
+      \bullet
+      &\xrightarrow{ g_{n-j} }
+      &
+      \cdots
+      &
+      \xrightarrow{ g_0 } 
+      &      
+      \bullet
+      \mathrlap{\,.}
+    }
+  $$
+\end{proposition}
+
+
   \begin{tikzcd}
     \scalebox{.8}{$
       \left( {[0]} \atop {[0]} \right)
