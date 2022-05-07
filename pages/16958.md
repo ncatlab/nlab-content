@@ -21,4 +21,6 @@ On [[cohomology operations]]:
 
 * [[Hopf invariant]]
 
+[[!redirects Martin C. Tangora]]
+
 category: people
