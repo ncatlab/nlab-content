@@ -41,6 +41,16 @@ For the time being see at _[[quantum computation]]_ for more.
 
 
 
+[[!include anyons in the quantum Hall effect -- references]]
+
+
+
+
+
+[[!include anyons in topological superconductors -- references]]
+
+
+
 
 [[!redirects topological quantum computing]]
 
