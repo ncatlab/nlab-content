@@ -16,9 +16,12 @@ On [[cyclic homology]] and homology of [[cyclic loop spaces]]:
 * {#Jones87} [[John D. S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
 
 
-On [[homotopy of rational maps]] and [[moduli spaces of monopoles]] related to [[braid groups]]:
+On the [[homotopy type of spaces of rational maps]] and [[moduli spaces of monopoles]] related to [[braid groups]]:
 
 * [[Ralph Cohen]], [[John D. S. Jones]],  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+
+* [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
+Volume: 258 (2000) ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
 
 
 
