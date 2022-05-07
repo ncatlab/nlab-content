@@ -7663,6 +7663,11 @@ Comparative discussion of the two perspectives on the S-matrix includes:
 
 * {#Schroer11} [[Bert Schroer]], _Causality and dispersion relations and the role of the S-matrix in the ongoing research_ ([arXiv:1102.0168](https://arxiv.org/abs/1102.0168))
 
+Discussion with emphasis on [[gravitational waves]] and [[perturbative quantum gravity]]:
+
+* [[Pierre Vanhove]], *S-matrix approach to general gravity and beyond* ([arXiv:2104.10148](https://arxiv.org/abs/2104.10148))
+
+
 See also
 
 * Wikipedia, _[S-matrix](http://en.wikipedia.org/wiki/S-matrix#History)_
