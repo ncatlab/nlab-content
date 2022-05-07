@@ -811,6 +811,8 @@ _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 5
 
 * Ruben Sandapen, _An overview of light-front holography_ ([arXiv:2001.03479](https://arxiv.org/abs/2001.03479))
 
+* [[Stanley Brodsky]], *Supersymmetric and Other Novel Features of Hadron Physics from Light-Front Holography*,  Proceedings of the 24th Workshop, "What Comes Beyond the Standard Models" ([arXiv:2112.02453](https://arxiv.org/abs/2112.02453))
+
 
 See also
 
