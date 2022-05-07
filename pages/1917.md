@@ -35,7 +35,16 @@ $$
 ### History 
 
 HQFTs were first defined (under a different name) by [[Graeme Segal]] as early as 1988 in ([Segal 88](#Segal88)).
-Their theory was developed by [[Vladimir Turaev]] ([Turaev 99](#Turaev99)) for 2-dimensional [[manifolds]]/[[cobordisms]] and extended to 3-dimensional ones in ([Turaev 00](#Turaev00)). At about the same time, ([Brightwell-Turner 00](#BrightwellTurner00)) looked at what they called the [[homotopy]] surface category and its [[representation]]s. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying [[manifolds]] already given by [[TQFT]]s, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces in the sense of [[sigma-models]].
+
+Starting from 1991, several papers by [[Dan Freed]],
+including \cite{FreedQuinn1991}, further develop the notion of a [[functorial field theory]], where bordisms in the domain category are equipped with a map
+to a target space (such as the [[Eilenberg–MacLane space]] $K(G,1)$ for a finite group $G$).
+See, in particular, Theorem 1.7 and the preceding discussion on page 6 of \cite{FreedQuinn1991}.
+
+From 1999, HQFTs were studied systematically by [[Vladimir Turaev]] ([Turaev 99](#Turaev99)) for 2-dimensional [[manifolds]]/[[cobordisms]] and extended to 3-dimensional ones in ([Turaev 00](#Turaev00)).
+Turaev also introduced the term “homotopy quantum field theory”.
+
+At about the same time, ([Brightwell-Turner 00](#BrightwellTurner00)) looked at what they called the [[homotopy]] surface category and its [[representation]]s. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying [[manifolds]] already given by [[TQFT]]s, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces in the sense of [[sigma-models]].
 
 In the proof of the [[cobordism hypothesis]] in ([[On the Classification of Topological Field Theories|Lurie 09]]) the concept of HQFTs was refined to [[extended TQFT]] by considering an [[(∞,n)-category of cobordisms]] $Bord_n(X)$ with maps to a given [[homotopy type]] $X$. For these the [[cobordism hypothesis]] essentially says (see at [For framed cobordisms in a topological space](cobordism+hypothesis#StatementForCobordismsInAManifold)) that $Bord_n(X)^\coprod$ is the [[free construction]] [[(∞,n)-category with duals]] on the [[fundamental ∞-groupoid]] $\Pi(X)$ of $X$.
 
@@ -264,6 +273,10 @@ After giving this talk, I learnt of the work [29] 1 which gives a good account o
 The original definition is due to [[Graeme Segal]] (who introduced them as (flat) [[elliptic objects]]), see §6 of
 
 * {#Segal88} [[Graeme Segal]], _Elliptic cohomology (after Landweber–Stong, Ochanine, Witten, and others)_, Séminaire Bourbaki, 40e année, 1987–88, No. 695 ([numdam:SB_1987-1988__30__187_0](http://www.numdam.org/item/?id=SB_1987-1988__30__187_0))
+
+These ideas were further developed in
+
+* {#FreedQuinn1991} [[Daniel S. Freed]], [[Frank Quinn]], _Chern-Simons Theory with Finite Gauge Group_, [arXiv:hep-th/9111004](https://arxiv.org/abs/hep-th/9111004).
 
 The theory of HQFTs was developed in
 
