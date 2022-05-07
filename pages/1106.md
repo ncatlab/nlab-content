@@ -30,27 +30,57 @@ For a similar link lists see also
 
 
 # Contents #
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Categorical Preliminaries
 
 
-
-##I Categories of Functors
+## I Categories of Functors
 
 * [[presheaf]]
 
 * [[category of presheaves]]
 
-##II Sheaves of Sets
+## II Sheaves of Sets
+
+### 1. Sheaves
+
+### 2. Sieves and Sheaves
 
 * [[category of open subsets]]
+
+* [[sieve]]
 
 * [[sheaf]]
 
 * [[global section]]/[[constant sheaf]]
+
+### 3. Sheaves and Manifolds
+
+### 4. Bundles
+
+* [[bundle]]
+
+### 5. Sheaves and Cross-Sections
+
+### 6. Sheaves as &Eacute;tale spaces
+
+* [[etale space]]
+
+### 7. Sheaves with algebraic structure
+
+* [[internalization]]
+
+* [[group object]]
+
+### 8. Sheaves are Typical
+
+### 9. Inverse Image Sheaf
+
+
+
 
 ##III Grothendieck Topologies and Sheaves
 
@@ -180,9 +210,9 @@ For a similar link lists see also
 
 ### 6. Group actions
 
-* [[group]]
+* [[group]], [[action]]
 
-* [[action]]
+* [[group object]], [[action object]]
 
 * [[permutation representation]]
 
