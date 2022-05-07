@@ -16,7 +16,7 @@
 
 ## Definition
 
-The [[dimension]] of a [[separable metric space]] is taken to be its [[covering dimension]], which coincides with its (small and large) inductive dimension (e.g. [Engelking 78, thm 1.7.7](#Engelking78))
+The [[dimension]] of a [[separable metric space]] is taken to be its [[covering dimension]], which coincides with its (small and large) [[inductive dimension]] (e.g., [Engelking 78, Theorem 1.7.7](#Engelking78))
 
 ## Related concepts
 
