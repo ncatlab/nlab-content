@@ -31,6 +31,10 @@ On the analog of the [[Atiyah-Hirzebruch spectral sequence]] for [[twisted equiv
 
 * [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Bernardo Uribe]], [[Mario Velasquez]], _Segal's spectral sequence in twisted equivariant K-theory for proper and discrete actions_, Proceedings of the Edinburgh Mathematical Society **61** 1 (2018) ([arXiv:1307.1003](https://arxiv.org/abs/1307.1003), [doi:10.1017/S0013091517000281](https://doi.org/10.1017/S0013091517000281))
 
+On the [[topology]] of the infinite [[unitary group]] [[U(ℋ)]] on a [[separable Hilbert space]] ([[operator topology]] and [[compact-open topology]]):
+
+* {#EspinozaUribe} [[Jesus Espinoza]], [[Bernardo Uribe]], _Topological properties of the unitary group_, JP Journal of Geometry and Topology **16** (2014) Issue 1, pp 45-55 ([arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [journal](http://www.pphmj.com/abstract/8730.htm))
+
 
 category: people
 
