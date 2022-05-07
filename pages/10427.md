@@ -153,6 +153,9 @@ Specifically for [[cohesive homotopy type theory]] see:
 
 * {#Myers08} [[David Jaz Myers]], _Good Fibrations through the Modal Prism_ ([arXiv:1908.08034](https://arxiv.org/abs/1908.08034))
 
+Formalization of the [[shape modality|shape]]/[[flat modality|flat]]-[[fracture square]] ([[differential cohomology hexagon]]) in [[cohesive homotopy type theory]]: 
+
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
 
 
 [[!redirects modal homotopy type theories]]
