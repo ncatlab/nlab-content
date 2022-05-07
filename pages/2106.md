@@ -72,3 +72,7 @@ Symplectic geometry is also involved in [[geometric optics]], [[geometric quanti
 * N. R. Wallach, _Symplectic geometry and Fourier analysis_, Math. Sci. Press, Brookline, Mass., 1977.
 * wikipedia [symplectic geometry](http://en.wikipedia.org/wiki/Symplectic_geometry)
 Application: "Jacobi's elimination of nodes" is moved to [[equivariant localization and elimination of nodes]]. 
+
+A proof of the Arnold conjecture in symplectic geometry is in 
+
+* Mohammed Abouzaid, Andrew J. Blumberg, _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
