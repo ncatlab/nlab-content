@@ -3091,6 +3091,7 @@ $$
 ([Quillen 67, II.3 lemma](#Quillen67))
 
 ### Homotopy
+ {#SectionAbstractHomotopy}
 
 We discuss how the concept of [[homotopy]] is abstractly realized in [[model categories]], def. \ref{ModelCategory}.
 
