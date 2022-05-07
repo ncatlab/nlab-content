@@ -1590,6 +1590,8 @@ But examples of fundamental importance include for instance
 
   * [[Baer sum]]
 
+  * [[solvable group]], [[nilpotent group]]
+
   * [[ring extension]]
 
 * [[Lie group cohomology]] 
