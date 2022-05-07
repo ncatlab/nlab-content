@@ -68,3 +68,5 @@ Thus, $\pi_n(X,\mathbf{Z}/k\mathbf{Z})$ is defined for all $n\ge 2$.
 
 * [[Joseph A. Neisendorfer]], _Homotopy groups with coefficients_, 
 Journal of Fixed Point Theory and Applications 8:2 (2010), 247–338.  [doi:10.1007/s11784-010-0020-1](http://dx.doi.org/10.1007/s11784-010-0020-1).
+
+[[!redirects Peterson spaces]]
