@@ -8,9 +8,11 @@ Kirill Mackenzie was a Reader in the School of Mathematics and Statistics and ha
 
 ## Selected writings
 
-On [[Lie groupoids]] and [[Lie algebroids]]:
+On [[Lie groupoids]]and [[Lie algebroids]]:
 
 * [[Kirill Mackenzie]], _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([doi:10.1017/CBO9780511661839](https://doi.org/10.1017/CBO9780511661839), [MR:896907](http://www.ams.org/mathscinet-getitem?mr=896907))
+
+  (> Ch. II on [[topological groupoids]])
 
 * [[Kirill Mackenzie]], _General Theory of Lie Groupoids and Lie Algebroids,_ Cambridge University Press, 2005 ([doi:10.1017/CBO9781107325883](https://doi.org/10.1017/CBO9781107325883))
 
