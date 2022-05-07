@@ -12,6 +12,8 @@
 
 * [[Picard-Lefschetz theory]]
 
+* [[orbifold]]
+
 * [[conical singularity]]
 
 * [[ADE singularity]]
@@ -27,3 +29,9 @@
 * A. O. Remizov, _A brief introduction to singularity theory_, ([pdf](http://www.sissa.it/fa/download/publications/remizov.pdf))
 
 [[!redirects singularities]]
+
+[[!redirects orbifold singularity]]
+[[!redirects orbifold singularities]]
+
+[[!redirects orbi-singularity]]
+[[!redirects orbi-singularities]]
