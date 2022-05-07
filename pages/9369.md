@@ -43,12 +43,19 @@ A [[complex analytic space]] is a _Stein space_ precisely if its [[reduction mod
 
 ## Examples
 
+\begin{example}
 Every [[domain of holomorphy]] in some $\mathbb{C}^n$ is a Stein manifold.
+\end{example}
 
+\begin{example}
 Every closed [[submanifold|sub-]][[complex manifold]] of a Stein manifold is itself Stein.
+\end{example}
 
-Every non-[[compact topological space|compact]] [[Riemann surface]] is a Stein manifold (by Behnke-Stein).
-
+\begin{example}\label{SteinSurfacesAreOpenRiemannSurfaces}
+**(Stein surfaces are open Riemann surfaces)** \linebreak
+A [[connected topological space|connected]] [[Riemann surface]] is a [[Stein manifold]] if and only if it is open (i.e. not [[compact topological space|compact]]).
+\end{example}
+([Behnke & Stein 1947](#BehnkeStein47), review in [Wehler 2020, 15.3](#Wehler20))
 
 
 
@@ -114,16 +121,34 @@ The _[[Oka-Grauert principle]] states that for any [[Stein manifold]] $X$ the ho
 
 ## References
 
-The original article is 
+The original article:
 
-* {#Stein51} [[Karl Stein]],  _Analytische Funktionen mehrerer komplexer Ver&#228;nderlichen zu vorgegebenen Periodizit&#228;tsmoduln und das zweite Cousinsche Problem_, Math. Ann. (in German) 123: 201&#8211;222, (1951) MR 0043219
+* {#Stein51} [[Karl Stein]],  _Analytische Funktionen mehrerer komplexer Veränderlichen zu vorgegebenen Periodizitätsmoduln und das zweite Cousinsche Problem_, Math. Ann. (in German) 123: 201&#8211;222, (1951) ([doi:10.1007/BF02054949](https://doi.org/10.1007/BF02054949), MR 0043219) 
 
-The theory was the developed in
+Further development:
 
-* {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) [doi](http://dx.doi.org/10.1007/BF01351803)
+* {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) ([doi:10.1007/BF01351803](http://dx.doi.org/10.1007/BF01351803))
+
+Relation to [[Riemann surfaces]]:
+
+* {#BehnkeStein47} [[Heinrich Behnke]], [[Karl Stein]], *Entwicklung analytischer Funktionen auf Riemannschen Flächen*, Mathematische Annalen volume 120, pages 430–461 (1947) ([doi:10.1007/BF01447838](https://doi.org/10.1007/BF01447838))
 
 
-Reviews include
+
+Texbook accounts:
+
+* {#GrauertRemmert04} [[Hans Grauert]], [[Reinhold Remmert]], _Theory of Stein Spaces_, Springer-Verlag, Berlin Heidelberg, 2004.
+
+* {#Forstneric11} [[Franc Forstnerič]], Section 5.3 of: _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011 ([doi:10.1007/978-3-642-22250-4](https://link.springer.com/book/10.1007/978-3-642-22250-4))
+
+  > (in relation to the [[Oka principle]])
+
+Lecture notes:
+
+* {#Wehler20} [[Joachim Wehler]], Section 15 in: *Riemann surfaces* 2020 ([pdf](https://www.mathematik.uni-muenchen.de/~wehler/20190530_RiemannSurfacesScript.pdf))
+
+See also:
+
 
 * Wikipedia, _[Stein manifold](http://en.wikipedia.org/wiki/Stein_manifold)_
 
@@ -131,12 +156,6 @@ Reviews include
 
 * {#Maddock09} Zachary Maddock, _Dolbeault cohomology_, notes 2009 ([[MaddockDolbeault09.pdf:file]])
 
-
-Texbook accounts include
-
-* {#GrauertRemmert04} [[Hans Grauert]], [[Reinhold Remmert]], _Theory of Stein Spaces_, Springer-Verlag, Berlin Heidelberg, 2004.
-
-* {#Forstneric11} [[Franc Forstnerič]], _Stein manifolds and holomorphic mappings -- The homotopy principle in complex analysis_, Springer 2011
 
 Discussion of the relation to affine varieties includes
 
