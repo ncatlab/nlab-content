@@ -1450,3 +1450,8 @@ Constructive proofs can be found in
 [[!redirects Kan-Quillen model structure on simplicial sets]]
 [[!redirects Kan-Quillen model structure]]
 [[!redirects classical model category of simplicial sets]]
+
+[[!redirects Kan-Quillen model structure]]
+[[!redirects Kan–Quillen model structure]]
+
+
