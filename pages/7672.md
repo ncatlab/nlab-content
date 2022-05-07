@@ -561,8 +561,7 @@ Lecture notes:
 
 * [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 13 in: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
 
-
-* Arpon Raksit, _Vector fields and the J-homomorphism_, 2014 ([pdf](http://stanford.edu/~arpon/math/files/vfields.pdf))
+* [[Arpon Raksit]], _Vector fields and the J-homomorphism_, 2014 ([pdf](http://stanford.edu/~arpon/math/files/vfields.pdf), [[Raksit_JHomomorphism.pdf:file]])
 
 * {#Westerland14} [[Craig Westerland]], _Views on the J-homomorphism_, MSRI talk, 2014 ([recording](https://mathinstitutes.org/videos/videos/1464), [pdf](https://docs.google.com/viewer?url=https://www.msri.org/workshops/685/schedules/17895/documents/1978/assets/20102), [[WesterlandJHomomorphism.pdf:file]])
 
