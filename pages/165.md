@@ -95,6 +95,8 @@ See [[simplicial fundamental groupoid]].
 
 * [[fundamental category]], [[fundamental (∞,1)-category]]
 
+* [[equivariant fundamental groupoid]]
+
 * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
 ## References
