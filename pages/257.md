@@ -450,6 +450,8 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 
 * [[premodel category]]
 
+* [[model (∞,1)-category]]
+
 [[!include algebraic model structures - table]]
 
 ## References
