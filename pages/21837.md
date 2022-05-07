@@ -75,12 +75,19 @@ Tentative formulation via [[conformal nets]]:
 ##### H-string elliptic genus
 {#ReferencesEllipticGeneraAsPartitionFunctionsOfHStrings}
 
+Further on the elliptic genus of the [[heterotic string]] being the [[Witten genus]]:
+
 The interpretation of [[equivariant elliptic genera]] as [[partition functions]] of [[parametrized WZW models]] in [[heterotic string theory]]:
 
 * {#DistlerSharpe07} [[Jacques Distler]], [[Eric Sharpe]], section 8.5 of _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
 
 
 * {#Ando07} [[Matthew Ando]], _Equivariant elliptic cohomology and the Fibered WZW models of Distler and Sharpe_, [talk 2007](http://www.math.ucsb.edu/~drm/GTPseminar/2007-fall.php) ([lecture notes pdf](http://www.math.ucsb.edu/~drm/GTPseminar/notes/20071026-ando/20071026-malmendier.pdf))
+
+Speculations on physics aspects of lifting the [[Witten genus]] to [[topological modular forms]]:
+
+* [[Yuji Tachikawa]], _Topological modular forms and the absence of a heterotic global anomaly_ ([arXiv:2103.12211](https://arxiv.org/abs/2103.12211))
+
 
 
 
