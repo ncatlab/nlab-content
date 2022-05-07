@@ -149,6 +149,22 @@ $$
 commutes. This is the very definition of [[natural number object]] $X = \mathbb{N}$.
 =--
 
+### Bi-pointed sets
+
+Another example of an initial algebra is the [[bi-pointed set]] $\mathbf{2}$.  
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{T}$ be  [[topos]] and let $F : \mathcal{T} \to \mathcal{T}$ the functor given by
+
+$$
+  F : X \mapsto * \coprod *
+$$
+
+
+Then an initial algebra over $F$ is precisely a [[bi-pointed object]] $\mathbf{2}$ in $\mathcal{T}$. 
+=--
 
 ### More examples
 
