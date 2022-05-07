@@ -8,6 +8,10 @@ On the [[algebraic K-theory]] $K(R)$ of a [[ring spectrum]] $R$ ([[iterated alge
 
 * [[John Lind]], _Bundles of spectra and algebraic K-theory_, Pacific J. Math. 285 (2016) 427-452 ([arXiv:1304.5676](https://arxiv.org/abs/1304.5676), [doi:10.2140/pjm.2016.285.427](https://doi.org/10.2140/pjm.2016.285.427))
 
+On [[equivariant twisted cohomology theory]]:
+
+* [[John Lind]], *Equivariantly Twisted Cohomology Theories*, Baltimore 2014 (slides [pdf](https://jlind.yourweb.csuchico.edu/papers/equivtwists_jmm2014.pdf), [[LindEquivariantlyTwistedCohomology.pdf:file]])
+
 
 On [[spherical T-duality]] in [[iterated algebraic K-theory]]:
 
