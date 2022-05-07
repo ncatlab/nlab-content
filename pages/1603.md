@@ -44,8 +44,6 @@ Some consider the concept of quasigroup to be an example of [[centipede mathemat
 
 ## Definitions
 
-### Classical definition
-
 The usual definition is this:
 +-- {: .un_defn}
 ###### Definition
@@ -57,8 +55,6 @@ A __quasigroup__ is a [[set]] $G$ equipped with a binary operation $G \times G \
 Then $l$ is called the __left quotient__ $y / x$ ($y$ divided by $x$, $y$ over $x$) and $r$ is called the __right quotient__ $x \backslash y$ ($x$ dividing $y$, $x$ under $y$).
 =--
 Note that we must specify, in the definition, that $l$ and $r$ are unique; without associativity, we cannot prove this.
-
-### As a set with three binary operations
 
 As with the inverse elements of a group, we can make the quotients into operations so that all axioms are equations:
 +-- {: .un_defn}
@@ -75,12 +71,6 @@ A __quasigroup__ is a [[set]] $G$ equipped with three binary operations (product
 
 Also, without the right quotient we have left quasigroups, and without the left quotient the right quasigroups.
 Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]]. There are weaker structures, say left and right quasigroups in which either $\backslash$ or $/$ is well defined. 
-
-### As a set with two binary operations
-
-Actually see: [[possibly empty loop]] and [[possibly empty group]] (articles TBD)
-
-### Loops
 
 In any case:
 +-- {: .un_defn}
