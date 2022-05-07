@@ -399,6 +399,10 @@ A survey on various notions of Homotopical category:
 
 * [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_ ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
 
+Also:
+
+* [[Markus Land]], *Introduction to Infinity-Categories*, Birkh&auml;user 2021 ([doi:10.1007/978-3-030-61524-6](https://link.springer.com/book/10.1007/978-3-030-61524-6))
+
 Lecture notes are in 
 
 * [[Dylan Wilson]], _Lectures on higher categories_ ([pdf](https://sites.google.com/a/uw.edu/dwilson/notes))
