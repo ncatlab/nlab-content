@@ -269,3 +269,12 @@ Entropy-like quantities appear in the study of many PDEs, with entropy estimates
 
 [[!redirects entropy]]
 [[!redirects entropies]]
+
+[[!redirects von Neumann entropy]]
+[[!redirects von Neumann entropies]]
+
+[[!redirects Shannon entropy]]
+[[!redirects Shannon entropies]]
+
+
+
