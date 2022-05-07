@@ -86,8 +86,8 @@ The terminology "Coulomb branch" and "Higgs branch" first appears in
 
 The dimensional reduction to $D = 3$ was first considered in
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
- {#SeibergWitten96}
+* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
+ 
 
 The [[confinement]]-phenomenon was observed in 
 
@@ -115,8 +115,9 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 * {#Moore12} [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
  
 
-
 * [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
+
+* [[Yuji Tachikawa]], *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics, vol. 890, 2014 ([arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), [web version](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html))
 
 
 
