@@ -76,6 +76,9 @@ On 3-[[twisted equivariant K-theory]] via the [[universal equivariant PU(H)-bund
 
 * {#BEJU14} [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2014) ([arXiv:1202.1880](https://arxiv.org/abs/1202.1880), [doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061))
 
+* [[Jesus Espinoza]], [[Bernardo Uribe]], *Topological properties of spaces of projective unitary representations*, Rev. Acad. Colombiana Cienc. Exact. Fís. Natur. 40 (2016), no. 155, 337-352 ([arXiv:1511.06785](https://arxiv.org/abs/1511.06785), [scielo:S0370-39082016000200013](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0370-39082016000200013), [doi:10.18257/raccefyn.317](https://doi.org/10.18257/raccefyn.317))
+
+
 * [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
 The corresponding version of the [[Atiyah-Hirzebruch spectral sequence]]:
