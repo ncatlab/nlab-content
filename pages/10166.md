@@ -266,9 +266,9 @@ such that the following conditions holds:
   & X
 \end{tikzcd}
 
-* {#EquivariantPrincipality} **(principality)** the _shear map_
+* {#EquivariantPrincipality} **(principality)** the _[[shear map]]_
 
-  $
+  $$
     \array{
       \Gamma \times P
       &\longrightarrow&
@@ -278,7 +278,7 @@ such that the following conditions holds:
       &\mapsto&
       (\rho(\gamma)(p), p)
     }
-  $
+  $$
 
   is an [[isomorphism]], hence this [[commuting diagram]] is moreover a [[pullback square]] (in [[topological G-spaces]]):
 
