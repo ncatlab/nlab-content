@@ -102,7 +102,9 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 * [[Conner-Floyd isomorphism]]
 
-  ([[Landweber exact functor theorem]] for [[KU]] and [[KSp]])
+  ([[Landweber exact functor theorem]] for [[KU]] and [[KSp]], see also _[[cobordism theory determining homology theory]]_)
+
+  
 
 
 ### 11. Mappings into spheres
