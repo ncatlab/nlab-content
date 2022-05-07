@@ -7551,7 +7551,7 @@ for the sets of morphisms given by [[tensoring]] (def. \ref{TensoringAndPowering
 
 These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the _projective [[model structure on functors|model structure on topologically enriched functors]]_ over $\mathcal{C}$.
 
-Analgously, for $\mathcal{C}$ a pointed topologically enriched category, write
+Analogously, for $\mathcal{C}$ a [[pointed topological space|pointed topologically]]-[[enriched category]], write
 
 $$
   I_{Top^{\ast/}}^{\mathcal{C}}
@@ -7641,6 +7641,7 @@ For instance, the fact that a morphism of topologically enriched functors $\eta 
 
 $$
   \left(
+  \;\;\;
   \array{
     y(c) \cdot S^{n-1} &\longrightarrow& F
     \\
@@ -7648,9 +7649,11 @@ $$
     \\
     y(c) \cdot D^n &\longrightarrow& G
   }
+  \;\;\;
   \right)
-  \;\;\;\leftrightarrow\;\;\;
-  \left(
+  \;\;\;\;\;\leftrightarrow\;\;\;\;\;
+  \left(  
+  \;\;\;
   \array{
      S^{n-1} &\longrightarrow& F(c)
      \\
@@ -7658,11 +7661,12 @@ $$
      \\
      D^n &\longrightarrow& G(c)
   }
+  \;\;\;
   \right)
   \,,
 $$
 
-and hence the statement follows with part A) of the proof of lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
+and hence the statement follows with part (A) of the proof of lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
 With these three lemmas in hand, the remaining formal part of the proof goes through verbatim as [above](#VerificationOfTopQuillen): repeatedly use the [[small object argument]] (prop. \ref{SmallObjectArgument}) and the [[retract argument]] (prop. \ref{RetractArgument}) to establish the two [[weak factorization systems]]. (While again the structure of a [[category with weak equivalences]] is evident.)
 
