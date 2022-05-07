@@ -107,7 +107,7 @@ $$
 
 (a "[[strong monoidal functor]]", def. \ref{LaxMonoidalFunctor} below).
 
-We had already seen [in part 1.1](Introduction+to+Stable+homotopy+theory+--+1-1#Additivity) that $Ho(Spectra)$ is an [[additive category]], where [[wedge sum]] of spectra is a [[direct sum]] operation $\oplus$. We discuss here that the [[smash product of spectra]] is the corresponding operation analogous to a [[tensor product of abelian groups]].
+We have already seen [in part 1.1](Introduction+to+Stable+homotopy+theory+--+1-1#Additivity) that $Ho(Spectra)$ is an [[additive category]], where [[wedge sum]] of spectra is a [[direct sum]] operation $\oplus$. We discuss here that the [[smash product of spectra]] is the corresponding operation analogous to a [[tensor product of abelian groups]].
 
 
 | [[abelian groups]] | [[spectra]] |
@@ -115,7 +115,7 @@ We had already seen [in part 1.1](Introduction+to+Stable+homotopy+theory+--+1-1#
 | $\oplus$ [[direct sum]]  | $\vee$ [[wedge sum]]  |
 | $\otimes$ [[tensor product of abelian groups|tensor product]] | $\wedge$ [[smash product of spectra|smash product]] |
 
-This further strenghtens the statement that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]]. In particular, with respect to the smash product of spectra, the [[sphere spectrum]] becomes a [[ring spectrum]] that is the coresponding analog of the ring of [[integers]].
+This further strenghtens the statement that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]]. In particular, with respect to the smash product of spectra, the [[sphere spectrum]] becomes a [[ring spectrum]] that is the corresponding analog of the ring of [[integers]].
 
 With the analog of the tensor product in hand, we may consider doing [[algebra]] -- the theory of [[rings]] and their [[modules]] -- [[internalization|internal]] to spectra. This "[[higher algebra]]" accordingly is the theory of _[[ring spectra]]_ and _[[module spectra]]_.
 
@@ -133,7 +133,7 @@ Using this structure there is finally a full characterization of [[stable homoto
 
 There is a key point to be dealt with here: the [[smash product of spectra]] has to exhibit a certain _graded commutativity_. Informally, there are two ways to see this:
 
-First, we have seen above that under the [[Dold-Kan correspondence]] [[chain complexes]] yield examples of spectra. But the [[tensor product of chain complexes]] is graded commutative.
+First, under the [[Dold-Kan correspondence]] [[chain complexes]] yield examples of spectra. But the [[tensor product of chain complexes]] is graded commutative.
 
 Second, more fundamentally, we see in the discussion of the [[Brown representability theorem]] ([here](#BrownRepresentabilityTheorem)) that every ([[sequential spectrum|sequential]]) [[spectrum]] $A$ induces a [[generalized homology theory]] given by the formula $X \mapsto \pi_\bullet(E \wedge X)$ (where the smash product is just the degreewise smash of pointed objects). By the [[suspension isomorphism]] this is such that for $X = S^n$ the [[n-sphere]], then $\pi_{\bullet\geq 0}(E \wedge S^n) \simeq \pi_{\bullet \geq 0}(E_n)$. This means that instead of thinking of a [[sequential spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) as indexed on the [[natural numbers]] equipped with [[addition]] $(\mathbb{N},+)$, it may be more natural to think of sequential spectra as indexed on the [[n-spheres]] equipped with their smash product of pointed spaces $(\{S^n\}_n, \wedge)$.
 
@@ -191,7 +191,7 @@ $$
   \,,
 $$
 
-where here $(-1)^n \colon S^n \to S^n$ denotes the homotopy class of a [[continuous function]] of [[degree of a continuous function|degree]] $(-1)^n \in \mathbb{Z} \simeq [S^n, S^n]$.
+where $(-1)^n \colon S^n \to S^n$ denotes the homotopy class of a [[continuous function]] of [[degree of a continuous function|degree]] $(-1)^n \in \mathbb{Z} \simeq [S^n, S^n]$.
 
 
 =--
@@ -419,7 +419,7 @@ Let $(\mathcal{C}, \otimes, 1)$ be a [[monoidal category]], def. \ref{MonoidalCa
 
 =--
 
-For **proof** see at _[[monoidal category]]_ [this lemma](monoidal+category#kel1) and [this lemma](monoidal+category#kel2).
+For proof see at _[[monoidal category]]_ [this lemma](monoidal+category#kel1) and [this lemma](monoidal+category#kel2).
 
 +-- {: .num_remark #CoherenceForMonoidalCategories}
 ###### Remark
@@ -1796,7 +1796,7 @@ $$
   \,.
 $$
 
-(The canonical continuous isomorphism $G \simeq G^{op}$ induces a canonical euqivalence of topologically enriched categories $(\mathbf{B}(G_+))^{op} \simeq \mathbf{B}(G_+)$.)
+(The canonical continuous isomorphism $G \simeq G^{op}$ induces a canonical equivalence of topologically enriched categories $(\mathbf{B}(G_+))^{op} \simeq \mathbf{B}(G_+)$.)
 
 So a topologically enriched functor
 
@@ -1999,7 +1999,7 @@ In this form the statement is also known as **[[Yoneda reduction]]**.
 
 =--
 
-The **proof** of prop. \ref{YonedaReductionTopological} is [[formal dual|formally dual]] to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
+The proof of prop. \ref{YonedaReductionTopological} is [[formal dual|formally dual]] to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
 
 Now that [[natural transformations]] are expressed in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
 
@@ -2034,7 +2034,7 @@ which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to Maps(F(c),F(d))_
 +-- {: .proof}
 ###### Proof
 
-The coequalizer of pointed topological spaces that we need to consider has underlying it a coequalizer of underlying pointed sets  ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). That in turn is the colimit over the diagram of underlying sets with the basepointe adjoined to the diagram ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects)). For a coequalizer diagram adding that extra point to the diagram clearly does not change the colimit, and so we need to consider the plain coequalizer of sets.
+The coequalizer of pointed topological spaces that we need to consider has underlying it a coequalizer of underlying pointed sets  ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). That in turn is the colimit over the diagram of underlying sets with the basepoint adjoined to the diagram ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects)). For a coequalizer diagram adding that extra point to the diagram clearly does not change the colimit, and so we need to consider the plain coequalizer of sets.
 
 That is just the set of [[equivalence classes]] of [[pairs]]
 
@@ -3373,7 +3373,7 @@ $$
     \\
     {}^{\mathllap{(\rho_1)_{x,y}}}\downarrow
      &&
-    \downarrow^{\mathrlap{(\rhi_2)_{x,y}}}
+    \downarrow^{\mathrlap{(\rho_2)_{x,y}}}
     \\
     G_1(x\otimes_{\mathcal{C}} y)
      &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
@@ -3810,7 +3810,7 @@ Here $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym 
 
 Below we will often use these identifications to write just "$n$" for any of these objects, leaving implicit the identifications $n \mapsto \{1, \cdots, n\} \mapsto S^n$.
 
-Consider the pointed topological diagram categries  (def. \ref{PointedTopologicalFunctorCategory}, [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) over these categories:
+Consider the pointed topological diagram categories  (def. \ref{PointedTopologicalFunctorCategory}, [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) over these categories:
 
 * $[Seq,Top^{\ast/}_{cg}]$ is called the category of **sequences** of pointed topological spaces (e.g. [HSS 00, def. 2.3.1](#HoveyShipleySmith00));
 
@@ -3955,7 +3955,7 @@ Explicitly:
 +-- {: .num_lemma #FSPStructuredSphereSpectra}
 ###### Lemma
 
-The monoids $\mathbb{S}_{dia}$ from def. \ref{TopologicalDiagramCategoriesForSpectra} are, when identified as [[functors with smash product]] via prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} given by assigning
+The monoids $\mathbb{S}_{dia}$ from def. \ref{TopologicalDiagramCategoriesForSpectra} are, when identified with [[functors with smash product]] via prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, given by assigning
 
 $$
   \mathbb{S}_{seq} \;\colon\; n \mapsto S^{n}
@@ -3983,7 +3983,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By construction these functors with smash products are the composites, according to prop. \ref{MonoidalFunctorComp}, of the monoidal functors $seq$, $sym$, $orth$, respectively, with the lax monoidal functor corresponding to $\mathbb{S}_{exc}$. The former have as structure maps the canonical identifications by definition, and the latter has as structure map the canonical identifications by lemmma \ref{FSPExcisiveSphere}.
+By construction these functors with smash products are the composites, according to prop. \ref{MonoidalFunctorComp}, of the monoidal functors $seq$, $sym$, $orth$, respectively, with the lax monoidal functor corresponding to $\mathbb{S}_{exc}$. The former have as structure maps the canonical identifications by definition, and the latter has as structure map the canonical identifications by lemma \ref{FSPExcisiveSphere}.
 
 =--
 
@@ -4003,7 +4003,7 @@ $$
   SeqSpec(Top_{cg})
 $$
 
-which identifies the [[category of modules]] (def. \ref{ModulesInMonoidalCategory}) over the [[monoid object|monoid]] $\mathbb{S}_{seq}$ (remark \ref{RestrictionsOfExcisiveSphere}) in the [[Day convolution]] monoidal structure (prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}) over the topological functor category $[Seq,Top^{\ast/}_{cg}]$ from def. \ref{TopologicalDiagramCategoriesForSpectra} with the category of [[sequential spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra))
+which identifies the [[category of modules]] (def. \ref{ModulesInMonoidalCategory}) over the [[monoid object|monoid]] $\mathbb{S}_{seq}$ (remark \ref{RestrictionsOfExcisiveSphere}) in the [[Day convolution]] monoidal structure (prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}) over the topological functor category $[Seq,Top^{\ast/}_{cg}]$ from def. \ref{TopologicalDiagramCategoriesForSpectra} with the category of [[sequential spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)).
 
 Under this equivalence, an $\mathbb{S}_{seq}$-module $X$ is taken to the sequential pre-spectrum $X^{seq}$ whose component spaces are the values of the [[pre-excisive functor]] $X$ on the standard [[n-sphere]] $S^n = (S^1)^{\wedge n}$
 
@@ -4022,7 +4022,7 @@ $$
 under the isomorphism of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 
 $$
-  \mathbb{S}_{seq}(n_1) \wedge X(n_1) \longrightarrow X_{n_1 + n_2}
+  \mathbb{S}_{seq}(n_1) \wedge X(n_2) \longrightarrow X_{n_1 + n_2}
 $$
 
 evaluated at $n_1 = 1$
@@ -4078,7 +4078,7 @@ $$
 is indeed uniquely fixed by the components of the form
 
 $$
-  \mathbb{S}_{seq}(1) \wedge X(n) \longrightarrow X(n)
+  \mathbb{S}_{seq}(1) \wedge X(n) \longrightarrow X(n+1)
   \,.
 $$
 
@@ -4208,7 +4208,7 @@ A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
 such that
 
-1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma(n)$-[[action]];
+1. each $f_n$ [[intertwiner|intertwines]] the $\Sigma(n)$-[[action]];
 
 1. the following [[commuting diagram|diagrams commute]]
 
@@ -4307,7 +4307,7 @@ $$
   \mathbb{S}_{orth} Mod
 $$
 
-and symmetric spectra sre equivalently the module objects over the incarnation $\mathbb{S}_{sym}$ of the sphere spectrum
+and symmetric spectra are equivalently the module objects over the incarnation $\mathbb{S}_{sym}$ of the sphere spectrum
 
 $$
   SymSpec(Top_{cg})
@@ -4776,7 +4776,7 @@ for the category that these form.
 
 (e.g. [Schwede 12, def. 1.3](#Schwede12))
 
-We discuss **examples** below in a dedicated section _[Examples](#Examples)_.
+We discuss examples below in a dedicated section _[Examples](#Examples)_.
 
 
 +-- {: .num_prop #RingSpectraAreDayMonoids}
@@ -5027,7 +5027,7 @@ Here we discuss the analogous construction for the more general structured spect
 
 Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ be a [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and let $A \in Mon([\mathcal{C},Top^{\ast/}_{cg}],\otimes_{Day}, y(1_{\mathcal{C}}))$ be a [[monoid in a monoidal category|monoid in]] (def. \ref{MonoidsInMonoidalCategory}) the pointed topological [[Day convolution]] monoidal category over $\mathcal{C}$ from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}.
 
-Then the [[category of modules|category of left A-modules]] (def. \ref{ModulesInMonoidalCategory}) is a pointed topologically [[enriched functor category]] category ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk))
+Then the [[category of modules|category of left A-modules]] (def. \ref{ModulesInMonoidalCategory}) is a pointed topologically [[enriched functor category]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk))
 
 $$
   A Mod
@@ -5121,7 +5121,7 @@ Then define a [[topologically enriched category]] $\mathcal{D}$ to have [[object
 
 $$
   \begin{aligned}
-    \mathcal{D}(c_2,c3) \wedge \mathcal{D}(c_1,c_2)
+    \mathcal{D}(c_2,c_3) \wedge \mathcal{D}(c_1,c_2)
     & \simeq
     \left(
     \overset{c_5}{\int}
@@ -5470,7 +5470,7 @@ $$
   \,.
 $$
 
-Equivalently these are pushoutdiagrams in $Top^{\ast/}_{cg}$ of the form
+Equivalently these are pushout diagrams in $Top^{\ast/}_{cg}$ of the form
 
 $$
   \array{
@@ -5540,7 +5540,7 @@ $$
 where the top and bottom are [[long exact sequences]] of [[stable homotopy groups]].
 
 Now proceed by [[induction]]. For $i = 0$ then clearly smash tensoring with $K_0 = \ast$ preserves stable weak homotopy equivalences. So assume that smash tensoring with $K_i$ does, too. Observe that $(-)\wedge S^n$ preserves stable weak homotopy equivalences, since $\Sigma X[1]\to X$ is a stable weak homotopy equivalence ([lemma](Introduction+to+Stable+homotopy+theory+
---+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)). Hence in the above the two vertical morphisms on the left and the two on the right are isomorphism. Now the [[five lemma]] implies that also $f \wedge K_{i+1}$ is an isomorphism.
+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)). Hence in the above the two vertical morphisms on the left and the two on the right are isomorphisms. Now the [[five lemma]] implies that also $f \wedge K_{i+1}$ is an isomorphism.
 
 Finally, the statement for a non-finite cell complex follows with these arguments and then using that spheres are [[compact topological spaces|compact]] and hence maps out of them into a [[transfinite composition]] factor through some finite stage ([prop.](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)).
 
@@ -5804,7 +5804,7 @@ $$
        \\
        \ast & \otherwise
      }
-   \right\}
+   \right.
 $$
 
 for [[symmetric spectra]]:
@@ -5863,7 +5863,7 @@ $$
     \left\{
       \array{
         \overset{n_1 = \ast \in \mathbf{B}(O(q-n))}{\int}
-          O(q)_+ \underset{O(q-n)}{\wedge} S^{q-n} \wedge K
+          O(q)_+ \wedge S^{q-n} \wedge K
         & if \; q \geq n
         \\
         \ast & otherwise
@@ -5901,7 +5901,7 @@ from def. \ref{FreeStructuredSpectrum} have component spaces that admit the stru
 +-- {: .proof}
 ###### Proof
 
-We consider the case of [[orthogonal spectra]]. The case of [[symmetric spectra]] works verbatim the same, and the case of [[sequential spectra]] is tivial.
+We consider the case of [[orthogonal spectra]]. The case of [[symmetric spectra]] works verbatim the same, and the case of [[sequential spectra]] is trivial.
 
 By prop. \ref{ExplicitFormOfFreeSpectra} we have to show that for all $q \geq n \in \mathbb{N}$ the topological spaces of the form
 
@@ -6036,14 +6036,14 @@ $$
   \left(
     \mathbb{S}_{dia} \otimes_{Day} (y(n_1) \wedge K_1)
   \right)
-   \otimes_{Day}
+   \otimes_{\mathbb{S}_{dia}}
   \left(
     \mathbb{S}_{dia} \otimes_{Day} ( y(n_2) \wedge K_2 )
   \right)
     \;\simeq\;
   \mathbb{S}_{dia}
    \otimes_{Day}
-  ( y(n_1) \wedge K ) \otimes_{Day} ( y(n_2) \wedge K )
+  ( y(n_1) \wedge K_1 ) \otimes_{Day} ( y(n_2) \wedge K_2 )
   \,.
 $$
 
@@ -6057,7 +6057,7 @@ $$
       (y(n_2) \wedge K_2)
     \right)(c)
     & =
-    \overset{c_1,_2}{\int}
+    \overset{c_1,c_2}{\int}
       Dia(c_1 + c_2, c)
         \wedge
       y(n_1)(c_1) \wedge K_1
@@ -6082,7 +6082,7 @@ $$
   \,.
 $$
 
-For the last statement we may use that $\Sigma^\infty_{dia} K \simeq \mathbb{S}_{dia} \wedge K$, by lemma \ref{ExplicitExpressionForFreeSpectra}), and that $\mathbb{S}_{dia}$ is the [[tensor unit]] for $\otimes_{\mathbb{S}_{dia}}$ by prop. \ref{MonoidalCategoryOfModules}.
+For the last statement we may use that $\Sigma^\infty_{dia} K \simeq \mathbb{S}_{dia} \wedge K$, by lemma \ref{ExplicitExpressionForFreeSpectra}, and that $\mathbb{S}_{dia}$ is the [[tensor unit]] for $\otimes_{\mathbb{S}_{dia}}$ by prop. \ref{MonoidalCategoryOfModules}.
 
 To see that $\Sigma^\infty_{dia}$ is braided, write $\Sigma^\infty_{dia}K\simeq \mathbb{S} \wedge K$. We need to see that
 
@@ -6238,7 +6238,7 @@ $$
   \,.
 $$
 
-Now for $X$ any sequential spectrum, then a morphism $f \colon F_0 S^0 \to X$ is uniquely determined by its 0th components $f_0 \colon S^0 \to X_0$ (that's of course the very free property of $F_0 S^0$); as the compatibility with the structure maps forces the first component, in particular, to be $\sigma_0^X\circ \Sigma f$:
+Now for $X$ any sequential spectrum, then a morphism $f \colon F_0 S^0 \to X$ is uniquely determined by its 0th components $f_0 \colon S^0 \to X_0$ (that's of course the very free property of $F_0 S^0$) as the compatibility with the structure maps forces the first component, in particular, to be $\sigma_0^X\circ \Sigma f$:
 
 $$
   \array{
@@ -6397,7 +6397,7 @@ $$
   }
 $$
 
-which says that the image of any $(g,s) \in O(q)_+  \wedge S^q$ in the quotient $Q(q)_+ \wedge_{Q(q-k)} S^q$ is labeled by $([g],s)$.
+which says that the image of any $(g,s) \in O(q)_+  \wedge S^q$ in the quotient $Q(q)_+ \wedge_{Q(q-k)} S^q$ is labeled by $([g],s)$. (Explicitly, the inverses between $O(q)_+ \wedge_{O(q-n)}S^{q}$ and $O(q)/O(q-n)_+ \wedge S^{q}$ are $[g,s] \mapsto ([g], g s)$ and $([g], s) \mapsto [g,g^{-1}s]$.)
 
 It follows that $(\Sigma^n\lambda_n)_q$ is the smash product of a projection map of [[coset spaces]] with the identity on the sphere:
 
@@ -6593,7 +6593,7 @@ By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories ar
 $$
   \mathbb{S}_{dia}Mod
    \simeq
-  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
+  [ \mathbb{S}_{dia} Free_{dia}Mod^{op}, Top^{\ast/}_{cg} ]
 $$
 
 and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
@@ -6650,7 +6650,7 @@ for the set of images under forming free spectra of the morphisms in $J_{Top^{\a
 ###### Proposition
 
 The sets $I^{strict}_{dia}$
-and $J^{strict}_{dia}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
+and $J^{strict}_{dia}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively, sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
 
 =--
 
@@ -6827,7 +6827,7 @@ where now $\mathbb{S}_{dia}Mod(-,-)$ is the [[hom-space]] functor of $\mathbb{S}
 +-- {: .num_prop #PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms}
 ###### Proposition
 
-The operations of forming pushout products and pullback powering with respect to smash tensoring in def. \ref{PushoutProductWithRespectToSmashTensoring} is compatible with the strict model structure $\mathbb{S}_{dia}Mod_{strict}$ on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and with the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$  ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) in that pushout product takes two cofibrations to a cofibration, and to an acyclic cofibration if at least one of the inputs is acyclic, and pullback powering takes a fibration and a cofibration to a fibration, and to an acylic one if at least one of the inputs is acyclic:
+The operations of forming pushout products and pullback powering with respect to smash tensoring in def. \ref{PushoutProductWithRespectToSmashTensoring} are compatible with the strict model structure $\mathbb{S}_{dia}Mod_{strict}$ on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and with the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$  ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) in that pushout product takes two cofibrations to a cofibration, and to an acyclic cofibration if at least one of the inputs is acyclic, and pullback powering takes a fibration and a cofibration to a fibration, and to an acylic one if at least one of the inputs is acyclic:
 
 $$
   \begin{aligned}
@@ -6965,7 +6965,7 @@ $$
   ((X\to\ast)^{\Box(i_0,i_1)})
     \;\simeq\;
   X^{(i_0,i_1)}
-  \,,.
+  \,.
 $$
 
 But since every object in $\mathbb{S}_{dia}Mod_{strict}$ is fibrant, so that $X \to \ast$ is a fibration, and since $(i_0,i_1)$ is a [[relative cell complex]] inclusion and hence a cofibration in $(Top^{\ast/}_{cg})_{Quilln}$, prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} says that $X^{(i_0,i_1)} \colon X^{I_+}\to X \times X$ is a fibration.
@@ -7158,22 +7158,7 @@ $$
   \,.
 $$
 
-This implies that if the [[tensor unit]] $1$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is already implied by the pushout-product axiom.  This is because then we have a lift in
-
-$$
-  \array{
-    \emptyset &\longrightarrow& Q 1
-    \\
-    {}^{\mathllap{\in Cof}}\downarrow
-      &\nearrow&
-    \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in W}}
-    \\
-    1 &=& 1
-  }
-  \,.
-$$
-
-This lift is a weak equivalence by [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)). Since it is hence a weak equivalence between cofibrant objects, it is preserved by the left Quillen functor $(-) \otimes X$ (for any cofibrant $X$) by [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)). Hence now $p_1 \otimes X$ is a weak equivalence by [[two-out-of-three]].
+This implies that if the [[tensor unit]] $1$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is already implied by the pushout-product axiom.  This is because $Q 1 \to 1$ is a weak equivalence between cofibrant objects, and so is preserved by the left Quillen functor $(-) \otimes X$ (for any cofibrant $X$) by [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)).
 
 Since for all the categories of spectra that we are interested in here the tensor unit is always cofibrant (it is always a version of the [[sphere spectrum]], being the image under the left Quillen functor $\Sigma^\infty_{dia}$ of the cofibrant pointed space $S^0$, prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}), we may ignore the unit axiom.
 
@@ -7186,7 +7171,7 @@ Since for all the categories of spectra that we are interested in here the tenso
 
 Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) with cofibrant [[tensor unit]] $1$.
 
-Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}) such that the [[localization]] functor $\gamma\colon \mathcal{C}_c\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) on the [[category of cofibrant objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FullSubcategoriesOfFibrantCofibrantObjects)) carries the structure of a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}) such that the [[localization]] functor $\gamma\colon \mathcal{C}_c\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) on the [[category of cofibrant objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FullSubcategoriesOfFibrantCofibrantObjects)) carries the structure of a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
 
 $$
   \gamma
@@ -7224,7 +7209,7 @@ $$
 
 of cofibrant objects preserves acyclic cofibrations (by [[Ken Brown's lemma]], [here](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)).
 
-Every morphism $(f,g)$ in the [[product category]] $\mathcal{C}_{c}\times \mathcal{C}_{c}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) may be written as a composite of a pairing with an identity morphisms
+Every morphism $(f,g)$ in the [[product category]] $\mathcal{C}_{c}\times \mathcal{C}_{c}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) may be written as a composite of a pairing with identity morphisms
 
 $$
   (f,g)
@@ -7304,7 +7289,7 @@ $$
 
 Then consider the associators:
 
-The essential uniqueness of derived functors shows that the left derived functor of $(-)\otimes ( (-) \otimes (-) )$ and of $( (-) \otimes (-) )\otimes (-) $ is the composite of two applications of $\otimes^L$, due to the factorization
+The essential uniqueness of derived functors shows that the left derived functors of $(-)\otimes ( (-) \otimes (-) )$ and of $( (-) \otimes (-) )\otimes (-) $ are the composites of two applications of $\otimes^L$, due to the factorization
 
 $$
   \array{
@@ -7358,7 +7343,7 @@ $$
   }
 $$
 
-and similarly for the case with the parenthesis to the left.
+and similarly for the case with the parentheses to the left.
 
 So let
 
@@ -7457,7 +7442,7 @@ $$
 
 and hence by the universal property of the factorization through the derived functor, there exists a unique natural isomorphism $\alpha^L$ such as to make this composite of natural isomorphisms equal to the one shown on the right. Hence the [[pentagon identity]] satisfied by $\alpha$ implies a pentagon identity for $\alpha^L$, and so $\alpha^L$ is an [[associator]] for $\otimes^L$.
 
-Moreover, this equation of natural isomorphisms says that on components the following [[commuting diagram|diagram commutes]]
+Moreover, this equality of natural isomorphisms says that on components the following [[commuting diagram|diagram commutes]]
 
 $$
   \array{
@@ -7596,7 +7581,7 @@ $$
 
 =--
 
-The explicit **proof** of prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory} is tedious. An abstract proof using tools from homotopical [[2-category theory]] is [here](monoidal+model+category#LocalizationFunctorIsLaxMonoidal).
+The explicit proof of prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory} is tedious. An abstract proof using tools from homotopical [[2-category theory]] is [here](monoidal+model+category#LocalizationFunctorIsLaxMonoidal).
 
 +-- {: .num_defn #MonoidalQuillenAdjunction}
 ###### Definition
@@ -7647,7 +7632,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-As in the proof of prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}, consider the following pasting composite of commuting diagams:
+As in the proof of prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}, consider the following pasting composite of commuting diagrams:
 
 
 $$
@@ -7736,7 +7721,7 @@ With some general monoidal homotopy theory established, we now discuss that stru
      \,.
    $$
 
-1. Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures on [[structured spectra]] modeled on $Dia$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]]  (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+1. Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structure on [[structured spectra]] modeled on $Dia$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]]  (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
 
    $$
      \left(
@@ -7973,7 +7958,7 @@ $$
 
 The top square stabilizes to the actual [[stable homotopy theory]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). On the other hand, the top square does not reflect the [[symmetric monoidal smash product of spectra]] (by remark \ref{RestrictionsOfExcisiveSphere}). But the total vertical composite $\Sigma^\infty_{dia} = dia_! \Sigma^\infty$ does, in that it is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}) by prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}.
 
-Hence to obtain a [[stable model category]] which is also a [[monoidal model category]] with respect to the [[symmetric monoidal smash product of spectra]], it is now sufficient to find such a monoidal model structure on $\mathbb{S}_{dia}Mod$ such that $(seq_! \dashv seq^\ast)$ becomes a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
+Hence to obtain a [[stable model category]] which is also a [[monoidal model category]] with respect to the [[symmetric monoidal smash product of spectra]], it is now sufficient to find such a monoidal model structure on $\mathbb{S}_{dia}Mod$ such that $(dia_! \dashv dia^\ast)$ becomes a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
 
 
 =--
@@ -8008,7 +7993,7 @@ Moreover, this is a [[cofibrantly generated model category]] ([def.](Introductio
 
 ([Mandell-May 02, theorem 4.2](#May02))
 
-We give the **proof** [below](#StableModelStructureOnDiagramSpectraProof), after
+We give the proof [below](#StableModelStructureOnDiagramSpectraProof), after
 
 
 
@@ -8045,7 +8030,7 @@ Notice that:
 +-- {: .num_lemma}
 ###### Lemma
 
-The factorization in def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructureMaps} is through a cofibration followed followed by a left [[homotopy equivalence]] in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$
+The factorization in def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructureMaps} is through a cofibration followed by a left [[homotopy equivalence]] in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$.
 
 =--
 
@@ -8127,12 +8112,12 @@ Altogether this implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} t
 =--
 
 
-The point of the class $K$ in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} is to make the following true:
+The point of the class $J^{stable}$ is to make the following true:
 
 +-- {: .num_lemma #KInjectivesAreAcyclicCofibrations}
 ###### Lemma
 
-A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $J^{stable}$-[[injective morphism]] (for $K$ from def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) precisely if
+A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $J^{stable}$-[[injective morphism]] precisely if
 
 1. it is a fibration in the strict model structure (hence degreewise a fibration);
 
@@ -8176,7 +8161,7 @@ A morphism in $\mathbb{S}_{dia}Mod$ which is both
 
 1. a stable weak homotopy equivalence (def. \ref{StableOrthStructureClassesOfMorphisms});
 
-1. a $J^{stable}$-[[injective morphisms]]
+1. a $J^{stable}$-[[injective morphism]]
 
 is an acyclic fibration in the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}, hence is degreewise a [[weak homotopy equivalence]] and [[Serre fibration]] of topological spaces;
 
@@ -8209,7 +8194,7 @@ By exactness and by the assumption that $\pi_\bullet(f)$ is an isomorphism, this
 
 
 
-Observe also that $F$, being the pullback of a $J^{stable}$-injective morphisms (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) is a $J^{stable}$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Since stable weak homotopy equivalences between Omega-spectra are already degreewise weak homotopy equivalences, together this says that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree.
+Observe also that $F$, being the pullback of a $J^{stable}$-injective morphism, is (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) a $J^{stable}$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Since stable weak homotopy equivalences between Omega-spectra are already degreewise weak homotopy equivalences, together this says that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is an isomorphism for all $n$ and for each homotopy group in positive degree.
 
 
 To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that, by assumption of $J^{stable}$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a homotopy pullback (in topological spaces) of $\Omega (f_{n+1})$. But, by the above, $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
@@ -8219,11 +8204,11 @@ To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe t
 +-- {: .num_lemma #RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}
 ###### Lemma
 
-The [[retracts]] of $J^{stable}$-[[relative cell complexes]] are precisely the morphisms which are
+The [[retracts]] of $J^{stable}$-[[relative cell complexes]] are precisely the morphisms which are both
 
 1. stable weak homotopy equivalences (def. \ref{StableOrthStructureClassesOfMorphisms}),
 
-1. as well as cofibrations with respect to the strict model structure  of prop. \ref{StrictModelStructureOnDiagramSpectra}.
+1. cofibrations with respect to the strict model structure  of prop. \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
@@ -8233,9 +8218,9 @@ The [[retracts]] of $J^{stable}$-[[relative cell complexes]] are precisely the m
 +-- {: .proof}
 ###### Proof
 
-Since all elements of $J^{stable}$ are stable weak homotopy equivalences as well as strict cofibrations by lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations}, it follows that every retract of a relative $K$-cell complex has the same property.
+Since all elements of $J^{stable}$ are stable weak homotopy equivalences as well as strict cofibrations by lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations}, it follows that every retract of a relative $J^{stable}$-cell complex has the same property.
 
-In the other direction, if $f$ is a stable weak homotopy equivalence and a strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $J^{stable}$-cell complex $i$ followed by a $J^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable weak homotopy equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $K$-cell complex $i$.
+In the other direction, if $f$ is a stable weak homotopy equivalence and a strict cofibration, by the [[small object argument]] it factors $f \colon \stackrel{i}{\to}\stackrel{p}{\to}$ as a relative $J^{stable}$-cell complex $i$ followed by a $J^{stable}$-[[injective morphism]] $p$. By the previous statement $i$ is a stable weak homotopy equivalence, and so by assumption and by [[two-out-of-three]] so is $p$. Therefore lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} implies that $p$ is a strict acyclic fibration. But then the assumption that $f$ is a strict cofibration means that it has the [[left lifting property]] against $p$, and so the [[retract argument]] implies that $f$ is a retract of the relative $J^{stable}$-cell complex $i$.
 
 
 =--
@@ -8254,7 +8239,7 @@ The $J^{stable}$-[[injective morphisms]] are precisely those which are
 +-- {: .num_lemma #StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations}
 ###### Lemma
 
-A morphism in $\mathbb{S}_{dia}Mod$ (for $Diq \neq Sym$) is both
+A morphism in $\mathbb{S}_{dia}Mod$ (for $Dia \neq Sym$) is both
 
 1. a stable weak homotopy equivalence (def. \ref{StableEquivalencesForDiagramSpectra})
 
@@ -8317,7 +8302,7 @@ $$
 ###### Proof
 
 Since the [[forgetful functor]] $seq^\ast$ "creates weak equivalences",
-in that a morphism of orthogonal spectra is a weak equivalence precisely if the underlying morphism of sequential spectra is (by def. \ref{StableOrthStructureClassesOfMorphisms}) it is sufficient to show (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#InCaseTheRightAdjointCreatesWeakEquivalences)) that for every cofibrant sequential spectrum $X$, the [[adjunction unit]]
+in that a morphism of orthogonal spectra is a weak equivalence precisely if the underlying morphism of sequential spectra is (by def. \ref{StableOrthStructureClassesOfMorphisms}), it is sufficient to show (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#InCaseTheRightAdjointCreatesWeakEquivalences)) that for every cofibrant sequential spectrum $X$, the [[adjunction unit]]
 
 $$
   X
@@ -8377,7 +8362,7 @@ whose components in degree $q \geq n_1$ are the identity. These are the composit
 
 $$
   \array{
-    F^{seq}_{n_1} S^{n_2} &\longrightarrow& F_0 S^{n_2-n_1}
+    F^{seq}_{n_1} S^{n_2} &\longrightarrow& F^{seq}_0 S^{n_2-n_1}
     \\
     {}^{\mathllap{\eta}}\downarrow
     &&
@@ -8411,7 +8396,7 @@ $$
   \,.
 $$
 
-Since $SeqSpec(Top_{cg})_{stable}$ is a [[stable model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentiaSpectraIsStableModelCategory)) in that the derived suspension looping adjunction is an equivalence of categories, and and since this is a condition only on the [[homotopy category of a model category|homotopy categories]], and since $\mathbb{R}seq^ast$ manifestly preserves the construction of [[loop space objects]], this implies that we have a [[commuting square]] of [[adjoint equivalences]] of homotopy categories
+Since $SeqSpec(Top_{cg})_{stable}$ is a [[stable model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentiaSpectraIsStableModelCategory)) in that the derived suspension looping adjunction is an equivalence of categories, and and since this is a condition only on the [[homotopy category of a model category|homotopy categories]], and since $\mathbb{R}seq^\ast$ manifestly preserves the construction of [[loop space objects]], this implies that we have a [[commuting square]] of [[adjoint equivalences]] of homotopy categories
 
 $$
   \array{
@@ -8512,7 +8497,7 @@ $$
   \end{aligned}
 $$
 
-follows again from the monoidal stucture on the strict model category of theorem \ref{MonoidalStrictModelStructure}.
+follows again from the monoidal structure on the strict model category of theorem \ref{MonoidalStrictModelStructure}.
 
 It hence remains to see that
 
@@ -8566,7 +8551,7 @@ We may rewrite it as
 
 $$
   \begin{aligned}
-    F_{n_3}(i_{n_4})_+ \otimes (dom(k_{n_1}) \Box (i_{n_2})_+  )
+    F_{n_3}(i_{n_4})_+ \otimes dom((k_{n_1}) \Box (i_{n_2})_+  )
       & \simeq
     F_{n_3}(i_{n_4})_+
       \otimes
@@ -8904,7 +8889,8 @@ is a [[tensor triangulated category]] in the sense of def. \ref{TensorTriangulat
 
 (e.g. [Hovey-Palmieri-Strickland 97, 9.4](HoveyPalmieriStrickland97))
 
-We break up the **proof** into lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums}, lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, lemma \ref{SmashProductOfSpectraCompatibleWithSuspension} and lemma \ref{GradedCommutativityOfSuspendedSphereSpectra}.
+We break up the proof into lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums}, lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, lemma \ref{SmashProductOfSpectraCompatibleWithSuspension} and lemma \ref{GradedCommutativityOfSuspendedSphereSpectra}.
+
 
 +-- {: .num_lemma #DerivedSmashProductOfSpectraPreservesDirectSums}
 ###### Lemma
@@ -8938,9 +8924,9 @@ $$
 The direct sum in $Ho(Spectra)$ is represented by the [[wedge sum]] in $SeqSpec(Top_{cg})$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts
 ), [prop.](Introduction+to+Stable+homotopy+theory+--+1-1#ProductsAreBiproducts)). Since wedge sum of sequential spectra is the [[coproduct]] in $SeqSpec(Top_{cg})$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#WedgeSumOfSpectra)) and since the [[forgetful functor]] $seq^\ast \colon OrthSpec(Top_{cg}) \longrightarrow SeqSpec(Top_{cg})$ preserves colimits (since by prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} it acts by precomposition on functor categories, and since for these colimits are computed objectwise), it follows that also wedge sum of orthogonal spectra represents the direct sum operation in the stable homotopy category.
 
-Now assume without restriction that $V$, $X$ and $Y$ are cofibrant orthogonal spectra representing the objects of the same name in the stable homotopy catgeory. Since wedge sum is coproduct, it follows that also the wedge sum $X \vee Y$ is cofibrant.
+Now assume without restriction that $V$, $X$ and $Y$ are cofibrant orthogonal spectra representing the objects of the same name in the stable homotopy category. Since wedge sum is coproduct, it follows that also the wedge sum $X \vee Y$ is cofibrant. Also recall that the fibrant replacement that is part of the derived functor construction is preserved by left Quillen functors. 
 
-Since $V \wedge^L (-)$ is a [[left Quillen functor]] by theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}, it follows that the derived tensor product $V \wedge^L (X \oplus Y)$ is represented by the plain [[symmetric monoidal smash product of spectra]] $V \wedge (X \vee Y)$. By def.
+Since $V \wedge (-)$ is a [[left Quillen functor]] by theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}, it follows that the derived tensor product $V \wedge^L (X \oplus Y)$ is represented by the plain [[symmetric monoidal smash product of spectra]] $V \wedge (X \vee Y)$. By def.
 \ref{SsymModuleSymmetricSpectra} (or more explicitly by prop. \ref{AbstractFormulaGivesSmashProductOfSymmetricSpectra}) this is the [[coequalizer]]
 
 $$
@@ -8973,7 +8959,7 @@ $$
     \wedge
     (X(c_2) \vee Y(c_2))
     \\
-    &
+    &\simeq
     \overset{c_1,c_2}{\int}
     Orth(c_1 \otimes_{Orth} c_2, -)
     \wedge
@@ -9025,7 +9011,7 @@ preserves [[homotopy cofiber sequences]].
 We may choose a cofibrant representative of $X$ in $OrthSpec(Top_{cg})_{stable}$, which we denote by the same symbol. Then the functor
 
 $$
-  X \wedge (-) \;\colon\; OrthSpec(Top_{cg})_{stable} \longrightarrow OrthSpec(Top_{cg})_{stable}_{stable}
+  X \wedge (-) \;\colon\; OrthSpec(Top_{cg})_{stable} \longrightarrow OrthSpec(Top_{cg})_{stable}
 $$
 
 is a left Quillen functor in that it preserves cofibrations and acyclic cofibrations by theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} and it is a [[left adjoint]] by prop. \ref{MonoidalCategoryOfModules}. Hence its [[left derived functor]] is equivalently its restriction to cofibrant objects followed by the localization functor.
@@ -9059,7 +9045,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} the [[symmetric monoidal smash product of spectra]] is a [[left Quillen functor]], and by prop. \ref{SmashTensoringWithCellComplexIsLeftQuillen} and lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} the canonical suspension operation is the [[left derived functor]] of the [[left Quillen functor]] $(-)\wedge S^1$ of smash tensoring with $S^1$. Therefore all three expressions are represented by application of the underived functors on cofibrant representatives in $OrthSpec(Top_{cg})$ (the fibrant replacement that is part of the derived functor construction is preserved by left Quillen functors).
+By theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} the [[symmetric monoidal smash product of spectra]] is a [[left Quillen functor]], and by prop. \ref{SmashTensoringWithCellComplexIsLeftQuillen} and lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} the canonical suspension operation is the [[left derived functor]] of the [[left Quillen functor]] $(-)\wedge S^1$ of smash tensoring with $S^1$. Therefore all three expressions are represented by application of the underived functors on cofibrant representatives in $OrthSpec(Top_{cg})$.
 
 So for $X$ and $Y$ cofibrant orthogonal spectra (which we denote by the same symbol as the objects in the homotopy category which they represent), by def.
 \ref{SsymModuleSymmetricSpectra} (or more explicitly by prop. \ref{AbstractFormulaGivesSmashProductOfSymmetricSpectra}), the object $\Sigma(X \wedge^L Y) \in Ho(Spectra)$ is represented by the [[coequalizer]]
@@ -9076,7 +9062,7 @@ $$
   \,,
 $$
 
-where the two morphisms bing coequalized are the images of those of def. \ref{SsymModuleSymmetricSpectra} under smash tensoring with $S^1$. Now it is sufficient to observe that for any $K \in Top^{\ast/}_{cg}$ we have canonical isomorphisms
+where the two morphisms being coequalized are the images of those of def. \ref{SsymModuleSymmetricSpectra} under smash tensoring with $S^1$. Now it is sufficient to observe that for any $K \in Top^{\ast/}_{cg}$ we have canonical isomorphisms
 
 $$
   (X \otimes_{Day} Y) \wedge K
@@ -9160,7 +9146,7 @@ Here we use
 
 * then the fact that the [[sphere spectrum]] is the [[tensor unit]] of the smash product of spectra (cor. \ref{MonoidalStableHomotopyCategory});
 
-* then the isomorphism of stable homotopy groups with graded homs out of the spjere spectrum ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)).
+* then the isomorphism of stable homotopy groups with graded homs out of the sphere spectrum ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)).
 
 =--
 
@@ -9177,7 +9163,7 @@ $$
     \\
     {}^{\mathllap{\tau_{\Sigma^{n_1}\mathbb{S}, \Sigma^{n_2}\mathbb{S}}}}\downarrow
       &&
-    \downarrow^{\mathrlap{(-1)}}
+    \downarrow^{\mathrlap{(-1)^{n_1 n_2}}}
     \\
     (\Sigma^{n_2} \mathbb{S}) \wedge^L (\Sigma^{n_1} \mathbb{S})
       &\underset{\simeq}{\longrightarrow}&
@@ -9387,7 +9373,7 @@ $$
 
 That this pairing is associative and unital follows directly from the associativity and unitality of $\mu$ and the [[coherence]] of the isomorphism on the left (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}). Evidently the pairing is graded. That it is bilinear follows since addition of morphisms in the stable homotopy category is given by forming their [[direct sum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment)) and since $\wedge$ distributes over direct sum (lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums},  part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory})).
 
-It only remains to show graded-commutivity of the pairing. This is exhibited by the following [[commuting diagram]]:
+It only remains to show graded-commutativity of the pairing. This is exhibited by the following [[commuting diagram]]:
 
 $$
   \array{
@@ -9540,7 +9526,7 @@ $$
 
 under prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}.
 
-(It is straightforward to unwind all this categorical algebra to concrete component expressions by proceeding as in the proof of [this lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)).)
+(It is straightforward to unwind all this categorical algebra to concrete component expressions by proceeding as in the proof of [this lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum).)
 
 
 =--
@@ -9552,7 +9538,7 @@ This finally allows to uniquely characterize the [[stable homotopy theory]] that
 ###### Theorem
 **(Schwede-Shipley uniqueness theorem)**
 
-The [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of every [[stable homotopy category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelCategory)) canonically has graded hom-groups with the structure of modules over $\pi_\bullet^s = \pi_\bullet(\mathbb{S})$ (example \ref{StableStemsRingStructure}). In terms of this, the following are equivalent:
+The [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of every [[stable model category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelCategory)) canonically has graded hom-groups with the structure of modules over $\pi_\bullet^s = \pi_\bullet(\mathbb{S})$ (example \ref{StableStemsRingStructure}). In terms of this, the following are equivalent:
 
 1. There is a [[zig-zag]] of [[Quillen equivalences]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence)) between $\mathcal{C}$ and the stable [[model structure on topological sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) (equivalently (thm. \ref{SequentialSpectraQuillenEquivalence}) the stable [[model structure on orthogonal spectra]])
 
@@ -9626,7 +9612,7 @@ $$
 
 More generally, by prop. \ref{SmashProductOfFreeSpectra} the orthogonal [[suspension spectrum]] functor is a [[strong monoidal functor]], and so by prop. \ref{RingSpectraAreDayMonoids} the [[suspension spectrum]] of a monoid in $Top^{\ast/}_{cg}$ (for instance $G_+$ for $G$ a [[topological group]]) canonically carries the structure of an orthogonal ring spectrum.
 
-The orthogonal sphere spectrum is the special case of this with $\mathbb{S}_{orth} \simeq \Sigma^\infty_{orth} S^0$ for $S^0$ the tensor unit in $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and hence a monoid by example \ref{MonoidGivenByTensorUnit}.
+The orthogonal sphere spectrum is a special case of this with $\mathbb{S}_{orth} \simeq \Sigma^\infty_{orth} S^0$ for $S^0$ the tensor unit in $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and hence a monoid by example \ref{MonoidGivenByTensorUnit}.
 
 
 
@@ -9639,7 +9625,7 @@ We discuss the model of [[Eilenberg-MacLane spectra]] as [[symmetric spectra]] a
 +-- {: .num_defn #ReducedALinearizationOfnSphere}
 ###### Definition
 
-For $A$ an [[abelian group]] and $n \in \mathbb{N}$, the **reduced $A$-linearization** $A[S^n]_\ast$ of the [[n-sphere]] $S^n$ is the [[topological space]], whose underlying set is the [[quotient]]
+For $A$ an [[abelian group]] and $n \in \mathbb{N}$, the **reduced $A$-linearization** $A[S^n]_\ast$ of the [[n-sphere]] $S^n$ is the [[topological space]] whose underlying set is the [[quotient]]
 of the [[tensor product]]  with $A$ of the [[free abelian group]] on the underlying set of $S^n$,
 
 $$
@@ -9710,7 +9696,7 @@ For $A$ a [[countable set|countable]] [[abelian group]], then the **orthogonal [
   $$
     \sigma_n
       \;\colon\;
-    S^1 (H A)_n
+    S^1 \wedge (H A)_n
       \longrightarrow
     (H A)_{n+1}
   $$
@@ -9730,7 +9716,7 @@ For $A$ a [[countable set|countable]] [[abelian group]], then the **orthogonal [
      x,
     \left(
        \underset{i}{\sum} a_i y_i
-    \right),
+    \right)
     \right)
       \mapsto
     \underset{i}{\sum} a_i (x,y_i)
@@ -9862,7 +9848,7 @@ As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogon
 ([Schwede 12, I, example 1.16](#Schwede12))
 
 
-For the universal complex Thom spectrum [[MU]] the construction is a priori directly analogous, but with the real [[Cartesian space]] $\mathbb{R}^n$ replace by the [[complex vector space]] $\mathbb{C}^n$ thoughout. This makes the [[n-sphere]] $S^n = S^{(\mathbb{R}^n)}$ be replaced by the $2n$-sphere $S^{2n} \simeq S^{\mathbb{C}^n}$ throughout. Hence the construction requires a second step in which the resulting $S^2$-spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialTSpectra)) is turned into an actual [[orthogonal spectrum]]. This proceeds differently than for [[sequential spectra]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#AdjunctionBetweenSequentialSpectraAndSequentialTSpectra)) due to the need to have compatible [[orthogonal group]]-[[action]] on all spaces.
+For the universal complex Thom spectrum [[MU]] the construction is a priori directly analogous, but with the real [[Cartesian space]] $\mathbb{R}^n$ replace by the [[complex vector space]] $\mathbb{C}^n$ throughout. This makes the [[n-sphere]] $S^n = S^{(\mathbb{R}^n)}$ be replaced by the $2n$-sphere $S^{2n} \simeq S^{\mathbb{C}^n}$ throughout. Hence the construction requires a second step in which the resulting $S^2$-spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialTSpectra)) is turned into an actual [[orthogonal spectrum]]. This proceeds differently than for [[sequential spectra]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#AdjunctionBetweenSequentialSpectraAndSequentialTSpectra)) due to the need to have compatible [[orthogonal group]]-[[action]] on all spaces.
 
 +-- {: .num_defn #OrthogonalComplexThomSpectrum}
 ###### Definition
@@ -10040,7 +10026,7 @@ where
 
 Here the top part of the diagram is from remark \ref{SummarySituationForStrictModelStructure}, while the vertical [[Quillen equivalence]] $(seq_! \dashv seq^\ast)$ is from theorem \ref{OrthogonalSpectraStableModelStructure}.
 
-Moreover, the top and bottom [[model categories]] are [[monoidal model categories]] (def. \ref{MonoidalModelCategory}): $Top^{\ast/}_{cg}$ with respect to the [[smash product]] of [[pointed topological spaces]] (theorem \ref{MonoidalStrictModelStructure}) and $OrthSpec(Top_{cg})_{strict}$ as well as $OrthSpec(Top_{cg})_{stable}$ with respect to the [[symmetric monoidal smash product of spectra]] (theorem \ref{MonoidalStrictModelStructure} and theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}); and the compsite vertical adjunction
+Moreover, the top and bottom [[model categories]] are [[monoidal model categories]] (def. \ref{MonoidalModelCategory}): $Top^{\ast/}_{cg}$ with respect to the [[smash product]] of [[pointed topological spaces]] (theorem \ref{MonoidalStrictModelStructure}) and $OrthSpec(Top_{cg})_{strict}$ as well as $OrthSpec(Top_{cg})_{stable}$ with respect to the [[symmetric monoidal smash product of spectra]] (theorem \ref{MonoidalStrictModelStructure} and theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}); and the composite vertical adjunction
 
 $$
   \array{
@@ -10134,7 +10120,7 @@ $$
   \,.
 $$
 
-This implies that for $E \in OrthSpec(Top_{cg})$ a commutative[[orthogonal ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
+This implies that for $E \in OrthSpec(Top_{cg})$ a commutative [[orthogonal ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
 
 
 | [[monoidal model category|monoidal]] [[stable model category]] | -[[localization]]$\to$ | [[tensor triangulated category]] |
