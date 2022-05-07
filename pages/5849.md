@@ -218,7 +218,7 @@ $\,$
 ### Via Kan extension of adjoint pairs
  {#ViaKanExtensionOfAdjointPairs}
 
-A rich source of adjoint quadruples arises form [[adjoint pairs]] between [[small categoires]] by left/right [[Kan extension]] to their [[categories of presheaves]]. 
+A rich source of adjoint quadruples arises form [[adjoint pairs]] between [[small categories]] by left/right [[Kan extension]] to their [[categories of presheaves]]. 
 
 More interesting examples of adjoint quadruples tend to arise from these presheaf constructions when the quadruple ([[corestriction|co]])[[restriction|restricts]] to sub-[[categories of sheaves]].
 
