@@ -25,7 +25,7 @@ Note that "groupoid" here does not mean *[[groupoid]]*, but *[[magma]]*. The ter
 
 An *Ackermann groupoid* is a [[partially ordered set|partially ordered]] [[magma]] $(M,\circ, 1,\leq)$ that is left unital ($1\circ a = a$ for all $a\in M$), and has a binary operation, "implication", written $b\to c$ satisfying $a \leq b\to c$ if and only if $a\circ b \leq c$.
 
-This might be called an _implicational Ackermann groupoid_, since it provides semantic models for an implicational fragment of logic. A _positive_ Ackermann groupoid upgrades the underlying [[poset]] to a [[distributive lattice]], permitting the interpretation of additional logical connectives.
+This might be called an _implicational Ackermann groupoid_, since it provides semantic models for an implicational fragment of logic, together with [[intensional conjunction]] (here $\to$ models implication, analogous to [[linear implication]] in [[linear logic]]). A _positive_ Ackermann groupoid upgrades the underlying [[poset]] to a [[distributive lattice]], permitting the interpretation of additional logical connectives, namely (classical) [[logical conjunction]] and [[logical disjunction]].
 
 ## Example
 
