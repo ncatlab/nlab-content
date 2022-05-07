@@ -89,7 +89,7 @@ The higher-order version of tangent Lie algebroids are [[jet bundle]] [[D-scheme
 
 One of the earliest reference seems to be
 
-* [[Ted Courant]], _Tangent Lie algebroid_ ([pdf](http://www.iop.org/EJ/article/0305-4470/27/13/026/ja941326.pdf))
+* [[Ted Courant]], _Tangent Lie algebroids_.  Journal of Physics A: Mathematical and General 27:13 (1994), 4527-4536.  [doi](http://dx.doi.org/10.1088/0305-4470/27/13/026).
 
 [[!redirects tangent Lie algebroids]]
 
