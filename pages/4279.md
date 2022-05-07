@@ -67,6 +67,7 @@ The perspective that states are normalized positive linear functionals on the al
 ## Definition
 
 ### For unital star algebras
+ {#DefinitionForUnitalStarAlgebras}
 
 +-- {: .num_defn #StateOnAStarAlgebra}
 ###### Definition
@@ -80,7 +81,7 @@ $$
 
 such that
 
-1. (positivity) for all $A \in \mathcal{A}$ the value of $\rho$ on the product $A^\ast A$ is 
+1. {#PositivityCondition} (positivity) for all $A \in \mathcal{A}$ the value of $\rho$ on the product $A^\ast A$ is 
 
    1. [[real part|real]] $\,\rho(A^\ast A) \in \mathbb{R} \hookrightarrow \mathbb{C}$ 
 
