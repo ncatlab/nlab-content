@@ -1,3 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
 There are two different notions of a discrete valuation.
 
 A __discrete valuation__ on a field $K$ is a function $v:K\to \mathbf{Z}\cup \{\infty\}$ such that 
@@ -26,9 +34,16 @@ Two valuations on the same field are equivalent if one is the positive power of 
 
 A valuation is __non-archimedean__ if $C$ above can be taken $1$ and archimedean otherwise. A (multiplicative) valuation is __discrete__ if there is a neighborhood $U\ni 1\in \mathbf{R}_+$ such that the only $x\in K$ such that $|x|\in U$ is $1_K\in K$.  
 
+## Properties
+
 By a theorem of Gel'fand and Tornheim the only archimedean valuation fields are the subfields of $\mathbf{C}$ with a valuation which is equivalent to the valuation obtained by resriction from the standard absolute value on $\mathbf{C}$.
 
-* A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.  
-* Serge Lang, _Algebraic number theory_. GTM 110, Springer 1970, 2000
+## Literature
+
+* {#FroehlichCassels67} [[Albrecht Fröhlich]], [[J. W. S. Cassels]] (eds.), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fröhlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965 (ISBN:9780950273426, [pdf](https://www.math.arizona.edu/~cais/scans/Cassels-Frohlich-Algebraic_Number_Theory.pdf), [errata pdf](https://www.ma.imperial.ac.uk/~buzzard/errata.pdf) by [[Kevin Buzzard]])
+
+
+
+* [[Serge Lang]], _Algebraic number theory_. GTM 110, Springer 1970, 2000
 
 [[!redirects discrete valuations]]
