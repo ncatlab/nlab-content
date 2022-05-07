@@ -20,7 +20,7 @@
 
 ## Idea
 
-One of the basic facts of [[category theory]] is that [[left adjoint|left]]/[[right adjoint|right]] [[adjoint functors]] preserves [[colimits|co]]/[[limits]], respectively.
+One of the basic facts of [[category theory]] is that [[left adjoint|left]]/[[right adjoint|right]] [[adjoint functors]] [[preserved limit|preserves]] [[colimits|co]]/[[limits]], respectively.
 
 ## Statement
 
