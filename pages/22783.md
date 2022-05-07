@@ -21,7 +21,7 @@
 
 ## Idea
 
-For $G$ a [[simplicial group]], there is a [[reduced simplicial set|reduced]] [[simplicial set]], traditionally denoted $\overline W G$ and called the *[[classifying space]]* or *classifying complex* of $G$, which is a model for the [[delooping]] of $G$ and such that the [[functor]] $\overline{W}(-)$ is [[right adjoint]] to the standard [[simplicial loop space]]-construction $L$. 
+For $G$ a [[simplicial group]], there is a [[reduced simplicial set|reduced]] [[simplicial set]], traditionally denoted $\overline W G$ and called the *[[classifying space]]* or *classifying complex* of $G$, which is a model for the [[delooping]] of $G$ and such that the [[functor]] $\overline{W}(-)$ is [[right adjoint]] to the standard [[simplicial loop space]]-construction $G$ (here denoted by $L$ to avoid a clash of notations).
 
 This pair of [[adjoint functors]] 
 $$
@@ -380,23 +380,24 @@ $$
 
 ## References
 
-The functor $\overline{W}$ is essentially due to:
+The idea of constructing $\overline{W}$ using the [[bar construction]]
+is due to [[Eilenberg]] and [[MacLane]], who apply it to [[simplicial rings]] with the usual [[tensor product]] operation:
 
-* {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])
+* {#EilenbergMacLane53I} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, I_, Annals of Mathematics Second Series, Vol. 58, No. 1 (Jul., 1953), pp. 55-106 ([jstor:1969820](https://www.jstor.org/stable/1969820)) (See, in particular, §17.)
 
-* {#EilenbergMacLane53I} [[Samuel Eilenberg]], [[Saunders Mac Lane]], _On the Groups $H(\Pi,n)$, I_, Annals of Mathematics Second Series, Vol. 58, No. 1 (Jul., 1953), pp. 55-106 ([jstor:1969820](https://www.jstor.org/stable/1969820)) 
+This was also later discussed in
 
-Its [[left adjoint]] [[simplicial loop space]] functor $L$ was introduced by [[Kan]] (there denoted "$G$") in 
+* {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])  (See, in particular, §3.)
 
-* [[Daniel M. Kan]], §7 of: _A combinatorial definition of homotopy groups_, Annals of Mathematics 67:2 (1958), 282–312.  [doi](https://doi.org/10.2307/1970006).
-
-The adjunction was explicitly spelled out by [[Kan]] in
+The first reference where $\bar W$ is defined explicitly for [[simplicial groups]] and the adjunction between [[simplicial groups]] and [[reduced simplicial sets]] is explicitly spelled out is
 
 * {#Kan58} [[Daniel Kan]], Sections 10-11 in: _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53 ([jstor:1970042](https://www.jstor.org/stable/1970042))
 
-Kan's paper also appears to be the first reference where $\bar W$ is defined explicitly.
+The [[left adjoint]] [[simplicial loop space]] functor $L$ is also discussed by [[Kan]] (there denoted "$G$") in 
 
-As part of a [[Quillen equivalence]]:
+* [[Daniel M. Kan]], §7 of: _A combinatorial definition of homotopy groups_, Annals of Mathematics 67:2 (1958), 282–312.  [doi](https://doi.org/10.2307/1970006).
+
+The [[Quillen equivalence]] was established in
 
 * {#Quillen69} [[Dan Quillen]], Section 2 of: _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([jstor:1970725](http://www.jstor.org/stable/1970725))
 
@@ -426,3 +427,5 @@ Generalization to [[simplicial presheaves]]:
 [[!redirects simplicial delooping]]
 [[!redirects simplicial deloopings]]
 
+[[!redirects simplicial delooping functor]]
+[[!redirects simplicial delooping functors]]
