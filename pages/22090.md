@@ -300,6 +300,15 @@ Both statements, Pontryagin's and Thom's, as well as their joint generalization 
 
 \linebreak
 
+
+## Related concepts
+
+* [[equivariant Pontrjagin theorem]]
+
+* [[Hopf degree theorem]], [[equivariant Hopf degree theorem]]
+
+* [[Poincaré–Hopf theorem]]
+
 ## References
 
 
