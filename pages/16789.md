@@ -21,6 +21,20 @@ The [[sphere]] of [[dimension]] 4.
 
 ## Properties
 
+
+### Basic differential geometry
+  {#Differential geometry}
+
+An embedded radius-$R$ 4-sphere inherits a [[volume form]] (a degree-4 [[differential form]] from the ambient $5$-dimensional [[Euclidean space]], namely
+$$
+  \omega = \frac{1}{R} \sum_{j=1}^{5} (-1)^{j-1} x_j d x_1 \wedge \ldots \wedge \widehat{d x_j} \wedge \ldots \wedge d x_{5}
+$$
+where the hat means omit that factor. This is equal to $\ast d r$, where $\ast$ is the [[Hodge star operator]] in $\mathbb{R}^5$ for the Euclidean [[Riemannian metric|metric]], and $d r$ is the [[exterior derivative]] of the radius function.
+
+The volume of the manifold $S^4$ with this volume form is then given by $8\pi^2R^4/3$. 
+
+
+
 ### Coset space structure
  {#CosetSpaceStructure}
 
