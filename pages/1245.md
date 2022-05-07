@@ -1,5 +1,6 @@
+
 [[!redirects Tohoku]]
-[[!redirects Tohoku]]
+
 [[Alexander Grothendieck]] wrote in 1955 a revolutionary article on [[homological algebra]], which was, after almost 3 years in redaction, published in 1957 in T&#244;hoku Mathematical Journal:
 
 * A. GROTHENDIECK, Sur quelques points d'alg&#232;bre homologique, T&#244;hoku Math. J. vol 9, n.2, 3, 1957, The [Tohoku university](http://www.tohoku.ac.jp/english/), Sendai, Japan; [MR21&#9839;1328](http://www.ams.org/mathscinet-getitem?mr=0102537). Project Euclid open access pdf scans of the French original: [part 1](http://projecteuclid.org/euclid.tmj/1178244839),
