@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[exotic 7-spheres]]:
+
+* {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399&#8211;405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
+
+
 On the [[cobordism ring]]:
 
 * {#Milnor60} [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521 ([jstor:2372970](https://www.jstor.org/stable/2372970))
