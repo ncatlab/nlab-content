@@ -79,52 +79,48 @@ Let $C$ be an [[(∞,1)-category]]. An **orthogonal factorization system** on $C
 ## Properties
 
 ### Closure properties
+ {#ClosureProperties}
 
-+-- {: .num_prop}
-###### Proposition
+\begin{proposition}
+\label{RightClassStableUnderLimitsInArrowCategory}
+For $(L,R)$ a factorization system in an [[(∞,1)-category]] $\mathcal{C}$, the [[full sub-(∞,1)-category]] of the [[arrow category]] $Func(\Delta^1, \mathcal{C})$ on the morphisms in $R$ is closed under [[(∞,1)-limits]] of shapes that exist in $\mathcal{C}$. [[formal duality|Dually]], the full subcategory on $L$ is closed under [[(∞,1)-colimits]] that exist in $\mathcal{C}$.
+\end{proposition}
+([Lurie 2009, prop. 5.2.8.6 (7), (8)](#Lurie))
 
-For $(L,R)$ a factorization system in an [[(∞,1)-category]] $\mathcal{C}$, the [[full sub-(∞,1)-category]] of the [[arrow category]] $Func(\Delta^1, \mathcal{C})$ on the morphisms in $R$ is closed under [[(∞,1)-limits]] of shapes that exist in $\mathcal{C}$. Similarly the full subcategory on $L$ is closed under [[(∞,1)-colimits]] that exist in $\mathcal{C}$.
+In fact:
+\begin{proposition}
+\label{RightClassReflectiveInArrowCategory}
+The [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of the [[arrow category]] on the right class is a [[reflective sub-(infinity,1)-category|reflective sub-$\infty$-category]]
+$$
+  \big(\mathcal{C}^{\Delta[1]}\big)_R
+  \underoverset
+    {\underset{}{\hookrightarrow}}
+    {\overset{}{\longleftarrow}}
+    {\;\; \bot \;\;}
+  \mathcal{C}^{\Delta[1]}
+$$
 
-=--
+Moreover, the [[unit of an adjunction|adjunction units]] 
+$\eta_f \colon f \to \bar f$ are of the form
 
-This is ([Lurie, prop. 5.2.8.6 (7), (8)](#Lurie)).
+$$
+  \array{
+     X &\stackrel{\in L}{\longrightarrow}& \bar X
+     \\
+     {}^{\mathllap{f}}
+     \big\downarrow 
+     && 
+     \big\downarrow{}^{\mathrlap{\bar f \in R} }
+     \\
+     Y &\stackrel{\simeq}{\longrightarrow}& \bar Y
+  }
+  \,.
+$$
+(In words: the reflection into $\big(\mathcal{C}^{\Delta[1]}\big)_R$ is given by the factorization in $(L,R)$.)
+\end{proposition}
+([Lurie 2009, Lemma 5.2.8.19](#Lurie))
 
-### Reflection
 
-+-- {: .num_defn}
-###### Definition
-
-
-Let $(L,R)$ be an orthogonal factorization system on an $(\infty,1)$-category $\mathcal{C}$. Write $\mathcal{C}^I_R \hookrightarrow \mathcal{C}^I$ for the [[full sub-(∞,1)-category]] of the arrow category on the morphisms in $R$.
-
-Then
-
-1. this is a [[reflective sub-(∞,1)-category]]
-
-   $$
-     \mathcal{C}^I_R \stackrel{\stackrel{}{\leftarrow}}{\hookrightarrow}
-     \mathcal{C}^I
-   $$
-
-1. The [[unit of an adjunction|adjunction units]] 
-   $\eta_f : f \to \bar f$ are of the form
-
-   $$
-     \array{
-        X &\stackrel{\in L}{\to}& \bar X
-        \\
-        {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{\bar f \in R} }
-        \\
-        Y &\stackrel{\simeq}{\to}& \bar Y
-     }
-     \,.
-   $$
-
-   (In words: the reflection into $\mathcal{C}^I_R$ is given by the factorization in $(L,R)$).
-
-=--
-
-This is ([Lurie, lemma 5.2.8.19](#Lurie)).
 
 
 ## Examples
@@ -167,3 +163,6 @@ Formalization in [[homotopy type theory]] is discussed in
 
 [[!redirects factorization system in an (∞,1)-category]]
 [[!redirects factorization system in an (infinity,1)-category]]
+
+[[!redirects factorization system in an infinity1-category]]
+[[!redirects orthogonal factorization system in an infinity1-category]]
