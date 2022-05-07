@@ -24,6 +24,12 @@ On IIA [[NS5-branes]] and their [[T-duality|T-dual]] [[orientifolds]] with [[RR-
 
 * {#FengHeKarchUranga01} [[Bo Feng]], [[Yang-Hui He]], [[Andreas Karch]], [[Angel Uranga]], _Orientifold dual for stuck NS5 branes_, JHEP 0106:065, 2001 ([arXiv:hep-th/0103177](https://arxiv.org/abs/hep-th/0103177))
 
+
+On [[bottom-up model building]] for [[intersecting D-brane models]]:
+
+* {#AldazabalIbanezQuevedoUranga00} G. Aldazabal, [[Luis Ibáñez]], [[Fernando Quevedo]], [[Angel Uranga]], _D-Branes at Singularities: A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067v2](https://arxiv.org/abs/hep-th/0005067))
+
+
 On [[toric duality]]:
 
 
@@ -34,7 +40,7 @@ On [[toric duality]]:
 
 
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[string phenomenology]]
 
