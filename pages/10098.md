@@ -5,7 +5,7 @@
 
 On [[iterated algebraic K-theory]] and the [[red-shift conjecture]]:
 
-* [[Christian Ausoni]], [[John Rognes]], _The chromatic red-shift in algebraic K-theory_, Enseign. Math. (2) 54 (2008), 9-11. ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/gmconj-AR.pdf), [[AusoniRognesRedShiftInAlgebraicKTheory.pdf:file]])
+* [[Christian Ausoni]], [[John Rognes]], _The chromatic red-shift in algebraic K-theory_, Enseign. Math. (2) 54 (2008), 9-11. ([pdf](http://www.math.univ-paris13.fr/~ausoni/papers/gmconj-AR.pdf), [[AusoniRognesRedShiftInAlgebraicKTheory.pdf:file]], [doi:10.5169/seals-109873](http://doi.org/10.5169/seals-109873))
 
 
 On the first [[algebraic K-theory]] $K(ku)$ of [[topological K-theory]] ([[iterated algebraic K-theory]]):
@@ -17,6 +17,8 @@ On the first [[algebraic K-theory]] $K(ku)$ of [[topological K-theory]] ([[itera
 * [[Christian Ausoni]], _On the algebraic K-theory of the complex K-theory spectrum_, Inventiones mathematicae volume 180, pages 611–668 (2010) ([arXiv:0902.2334](http://arxiv.org/abs/0902.2334), [doi:10.1007/s00222-010-0239-x](https://doi.org/10.1007/s00222-010-0239-x))
 
 ## Related entries
+
+* [[iterated algebraic K-theory]]
 
 * [[red-shift conjecture]]
 
