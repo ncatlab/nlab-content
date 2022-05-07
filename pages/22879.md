@@ -30,6 +30,107 @@ On the [[homotopy type]] of [[mapping spaces]] of [[rational maps]], mostly from
 
 * [[Oka principle]]
 
+## Properties
+
+* For $n \in \mathbb{N}_+$, consider [[complex projective n-space]]
+$\mathbb{C}P^n$. 
+
+* Say that a [[continuous map]] $f \;\colon\; \Sigma_2 \to \mathbb{C}P^n$ out of a 2-[[dimension of a manifold|dimensional]] [[manifold]] has *degree* $d \in \mathbb{N}$ if the [[pullback in cohomology|pullback]] of the generator $1 \in \mathbb{Z} \simeq H^2\big( \mathbb{C}P^n;\, \mathbb{Z}\big)$ is $f^\ast(1) = d \in \mathbb{Z} \simeq H^2(\Sigma_2;\, \mathbb{Z})$.
+
+* For $\Sigma$ a [[compact topological space|compact]] [[connected topological space|connected]] [[Riemann surface]] write $g_\Sigma \in \mathbb{N}$ for its [[genus of a Riemann surface|genus]]. 
+
+\begin{proposition}\label{SegalOnHomotopyTypeOfRationalMapsIntoCPn}
+  For $\Sigma$ a [[compact topological space|compact]] [[connected topological space|connected]] [[Riemann surface]], the inclusion
+  \[
+    Maps_{
+      {rat}
+    }^{deg = d}
+    \big(
+      \Sigma
+      ,\,
+      \mathbb{C}P^n
+    \big)
+    \xhookrightarrow{ \;\; i \;\; }
+    Maps_{
+      {top}
+    }^{deg = d}
+    \big(
+      \Sigma
+      ,\,
+      \mathbb{C}P^n
+    \big)
+  \]
+  of 
+
+  1. the [[topological subspace]] of [[rational maps]] to [[complex projective n-space]] into 
+
+  1. the [[connected component]] of maps of [[degree of a map|degree]] $d$ of the [[mapping space]] (with the [[compact open topology]]) of all [[continuous maps]] 
+
+is
+
+* for $g_\Sigma = 0$ (i.e. $\Sigma$ the [[Riemann sphere]]):
+
+  an [[isomorphism]] on [[homotopy groups]] in degrees $\leq d (2 n -1)$;
+
+* for $g_\Sigma \geq 1$:
+
+  an [[isomorphism]] on [[ordinary homology|ordinary]] [[homology groups]] in degrees $\leq (d - 2g) (2 n -1)$.
+
+\end{proposition}
+([Segal 1979, Prop. 1.2, 1.3](#Segal79))
+
+\begin{example}
+  In the special case that $n = 1$ and $\Sigma = S^2$ is the [[2-sphere]] with its [[complex structure]], so that both [[domain]] and [[codomain]] are the [[Riemann sphere]] $\mathbb{C}P^1$, Prop. \ref{SegalOnHomotopyTypeOfRationalMapsIntoCPn} says that
+$$
+    Maps_{
+      {rat}
+    }^{deg = d}
+    \big(
+      \mathbb{C}P^1
+      ,\,
+      \mathbb{C}P^1
+    \big)
+    \xhookrightarrow{ \;\; i \;\; }
+    Maps_{
+      {top}
+    }^{deg = d}
+    \big(
+      S^2
+      ,\,
+      S^2
+    \big)
+$$
+
+is an isomorphism on [[homotopy groups]] up to degree $\leq d$.
+\end{example}
+([Segal 1979, Prop. 1.1'](#Segal79)) This statement controls the classification of [[Yang-Mills monopoles]].
+
+\begin{remark}\label{ComaprisonToHomotopicalOkaPrinciple}
+  Prop. \ref{SegalOnHomotopyTypeOfRationalMapsIntoCPn} may be compared to the [homotopical Oka principle](Oka+principle#HomotopicalOkaPrinciple), which applies (since $\mathbb{C}P^n$ is an [[Oka manifold]] by [this Prop.](Oka+manifold#ComplexProjectiveSpaceIsOkaManifold)) to the complementary case of connected *non-compact* ("open") Riemann surfaces $\Sigma$ (which are [[Stein manifolds]] by [this Example](Stein+manifold#SteinSurfacesAreOpenRiemannSurfaces)), in which case it says that the corresponding inclusion of the space of [[holomorphic maps]]
+
+$$
+    Maps_{
+      {hol}
+    }
+    \big(
+      \Sigma
+      ,\,
+      \mathbb{C}P^n
+    \big)
+    \xhookrightarrow{ \;\; i \;\; }
+    Maps_{
+      {top}
+    }
+    \big(
+      \Sigma
+      ,\,
+      \mathbb{C}P^n
+    \big)
+$$
+
+induces an isomorphism on all [[homotopy groups]], hence is a [[weak homotopy equivalence]] -- reflecting the fact that non-compactness of the Riemann surfaces and absence of any asymptotic boundary condition provides a large supply of holomorphic functions.
+\end{remark}
+
 ## References
 
 Original article:
