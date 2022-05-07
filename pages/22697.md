@@ -1,9 +1,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Group Theory
+#### Algebra
 +-- {: .hide}
-[[!include group theory - contents]]
+[[!include higher algebra - contents]]
 =--
 =--
 =--
