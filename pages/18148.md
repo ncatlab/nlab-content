@@ -27,6 +27,10 @@ holds. The identity element is [[idempotent]].
 
 Some authors take a magma to be unital by default (cf. [[Borceux-Bourn]] Def. 1.2.1). 
 
+## Properties
+
+The [[Eckmann-Hilton argument]] holds for unital magmas: two compatible ones on a set must be equal, associative and commutative.
+
 ## Examples
 
 Examples include [[unital rings]] etc.
@@ -34,7 +38,7 @@ Examples include [[unital rings]] etc.
 
 ## Related concepts
 
-* [[unital magma]]
+* [[associative magma]]
 
 * [[commutative magma]]
 
