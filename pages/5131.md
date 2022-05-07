@@ -679,7 +679,7 @@ $$\begin{matrix}
 \end{matrix}$$
 (Arrows have been used where itex does not seem to have an `headless arrow'! What follows is produced via presheaf.com.)
            
-<img src="http://presheaf.com/cache/d2u2r4t67211k1v3i6u4a2403c50323b.png" title="click to go to presheaf.com for editing"/>}
+<img src="http://presheaf.com/cache/d2u2r4t67211k1v3i6u4a2403c50323b.png" title="click to go to presheaf.com for editing"/>
 
 
 The left hand shuffle, labelled $(0\lt1)$, corresponds to $\left(\begin{array}{ccccc}0&1&2&2&2\\0&0&0&1&2\end{array}\right)$, so gives the path along the bottom of the square and then up the right hand side. 
