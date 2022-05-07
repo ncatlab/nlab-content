@@ -1001,10 +1001,13 @@ In conclusion we find that for determining the $\infty$-stack condition for _str
 The global model structures on simplicial presheaves are
 all [[left proper model categories|left]] and [[right proper model categories]].
 Since left [[Bousfield localization of model categories]] preserves
-left properness (as discussed there), the local model structures are
-also left proper. 
+left properness (as discussed [there](Bousfield+localization+of+model+categories#ExistenceForLeftProperCombinatorialSimplicialModelCategories)), all local model structures on simplicial presheaves are also left proper. 
 
-But the local model structures are not in general right proper anymore.
+But the local model structures are not in general right proper anymore. 
+A sufficient condition for them to be right proper is given in the following Prop. \ref{StalkwiseWeakEquivalencesImpliesRightProperness}.
+
+The injective local model structures which are right proper are [[locally cartesian closed model categories]] and [[presentable (infinity,1)-category|present]] [[locally cartesian closed (infinity,1)-categories]] (by the discussion [there](locally+cartesian+closed+infinity,1-category#PresentationTheorem)).
+
 
 +-- {: .num_prop #OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks}
 ###### Proposition
@@ -1013,19 +1016,20 @@ Let $C$ be a [[site]] with [[point of a topos|enough points]]. Then the weak equ
 
 =--
 
-p. 12 [here](http://www.math.uiuc.edu/K-theory/0175/))
+(p. 12 [here](http://www.math.uiuc.edu/K-theory/0175/))
 
-+-- {: .num_prop }
++-- {: .num_prop #StalkwiseWeakEquivalencesImpliesRightProperness}
 ###### Proposition
 
 A sufficient condition for an injective or projective local model structure
 of simplicial presheaves over a [[site]] $C$ to be right proper is that
-the weak equivalences are precisely the [[stalk]] wise weak equivalences of
-simplicial sets.
+the weak equivalences are precisely the [[stalk]]-wise [[simplicial weak equivalence|weak equivalences of simplicial sets]].
 
 =--
 
-By prop. \ref{OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks} this is true for instance for the injective Jardine model structure when $C$ has [[point of a topos|enough points]].
+This is mentioned for instance in ([Olsson, remark 4.3](#Olsson)).
+
+By Prop. \ref{OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks} this sufficient condition holds, for instance, for the injective Jardine model structure when $C$ has [[point of a topos|enough points]].
 
 +-- {: .proof}
 ###### Proof
@@ -1049,13 +1053,17 @@ $$
   \array{
     g^* X &\to& X
     \\
-    \downarrow^{\mathrlap{g^* f}} && \downarrow^{\mathrlap{f}} 
+    \big\downarrow 
+      {}^{\mathrlap{g^* f}} 
+    && 
+    \big\downarrow 
+      {}^{\mathrlap{f}} 
     \\
     A &\stackrel{g}{\to}& B
   }
 $$
 
-is a weak equivalence if for all topos points $x$ the stalk $x^* (g^* f)$ is a weak equivalence of simplicial sets. But since stalks preserve finite limits, we have a pullback diagram of simplicial sets
+is a weak equivalence if for all topos points $x$ the stalk $x^* (g^* f)$ is a weak equivalence of simplicial sets. But since stalks preserve [[finite limits]], we have a pullback diagram of simplicial sets
 
 $$
   \array{
@@ -1069,7 +1077,7 @@ $$
 $$
 
 It is now sufficient to observe that $x^* g$ is a [[Kan fibration]],
-this implies the result then by the fact that the 
+which implies the result by the fact that the 
 [[classical model structure on simplicial sets]] is right proper. 
 
 To see this, notice that  $x^*(g)$ is a Kan fibration precisely if for all $1 \leq k $ and $0 \leq i \leq k$ the morphism
@@ -1077,7 +1085,9 @@ To see this, notice that  $x^*(g)$ is a Kan fibration precisely if for all $1 \l
 $$
   (x^* A)^{\Delta[k]}
   \to
-  (x^* A)^{\Lambda[k]^i} \times_{(x^* B)^{\Lambda[k]^i} } (x^* B)^{\Delta[k]}
+  (x^* A)^{\Lambda[k]^i} 
+    \times_{(x^* B)^{\Lambda[k]^i} } 
+  (x^* B)^{\Delta[k]}
 $$
 
 is an [[epimorphism]] of sets. Since stalks commute with finite limits, this is equivalent to 
@@ -1095,7 +1105,6 @@ being an epimorphism. Now the morphism in parenthesis is an epimorphism since th
 
 =--
 
-This is mentioned for instance in ([Olsson, remark 4.3](#Olsson)).
 
 
 ## Closed monoidal structure {#MonoidalStructure}
@@ -1390,7 +1399,7 @@ The proposal for descent objects for strict $\infty$-groupoid-valued presheaves 
 
 * [[Ross Street]], _Categorical and combinatorial aspects of descent theory_ ([arXiv](http://arxiv.org/abs/math/0303175)) {#Street03}
 
-The relation to the general descent condition is discussed in
+The relation to the general descent conditionF is discussed in
 
 * [[Dominic Verity]], _[[Verity on descent for strict omega-groupoid valued presheaves|Relating descent notions]]_ {#Verity}
 
@@ -1407,6 +1416,12 @@ A useful collection of facts is in
 [[!redirects projective model structure on simplicial presheaves]]
 [[!redirects projective model structures on simplicial presheaves]]
 
+[[!redirects projective global model structure on simplicial presheaves]]
+[[!redirects projective global model structures on simplicial presheaves]]
+
 [[!redirects injective model structure on simplicial presheaves]]
 [[!redirects injective model structures on simplicial presheaves]]
+
+[[!redirects injective global model structure on simplicial presheaves]]
+[[!redirects injective global model structures on simplicial presheaves]]
 
