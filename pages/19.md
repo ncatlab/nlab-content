@@ -363,9 +363,11 @@ This and much more history is recalled in
 
 * {#FongSpivak18} Brendan Fong, [[David Spivak]], _An invitation to applied category theory_, 2018 ([web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf))
 
-* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 (introduces categories by examples arising in [[mathematical physics]])
+* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
 
-* [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, [2018](https://www.worldscientific.com/worldscibooks/10.1142/10737)
+  > (introduces categories by examples arising in [[mathematical physics]])
+
+* [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, World Scientific 2021 ([doi:10.1142/12253](https://doi.org/10.1142/12253))
 
 #### Topos theory
 
