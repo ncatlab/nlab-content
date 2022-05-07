@@ -92,6 +92,12 @@ The abelianization functor, being a [[left adjoint]], preserves a [[colimit]] of
   If the [[terminal object in an (infinity,1)-category|terminal map]] $\mathbf{B}G \to \ast$ out of the [[delooping groupoid]] $\mathbf{B}G$ of a [[discrete group]] $G$ is an [[epimorphism in an (infinity,1)-category|epimorphism in the $\infty$-category]] [[Infinity-Grpd|$Grpd_\infty$]] of [[infinity-groupoid|$\infty$-groupoids]], then $G$ must be perfect (see the discussion [there](epimorphism+in+an+infinity1-category#TerminalEpimorphismsInInfinityGroupoids)).
 \end{example}
 
+##Related entries
+
+*  [[Quillen plus construction]]
+
+*  [[Steinberg group]]
+
 ## References
 
 * {#Lang02} [[Serge Lang]], _Algebra_, $3^{rd}$ edition, Springer 2002 ([pdf](https://math24.files.wordpress.com/2013/02/algebra-serge-lang.pdf))
