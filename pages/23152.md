@@ -86,9 +86,11 @@ The intention of this list is to make it easier for advisors, administrators, an
 
 ### Mathematical Research Institute of Oberwolfach 
 
-* research in paris
+* [research in pairs](https://www.mfo.de/scientific-program/long-term/research-in-pairs)
 
-### Institut Henri Poincaré 
+### Institut Henri Poincaré
+
+* [research in Paris](http://www.ihp.fr/en/research-in-paris/submit)
 
 ### Clay Mathematics Institute 
 
