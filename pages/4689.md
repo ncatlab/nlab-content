@@ -209,6 +209,11 @@ and with applications to [[cosmology]] in
 
 * {#BFHPR16} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, [[Nicola Pinamonti]], [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
 
+Regarding the [[cosmological constant]]:
+
+* [[John Donoghue]], *The cosmological constant and the use of cutoffs* ([arXiv:2009.00728](https://arxiv.org/abs/2009.00728))
+
+
 Corrections at [[loop order|1-loop]] from [[quantum gravity]] to the [[anomalous magnetic moment]] of the [[leptons]] are discussed in
 
 * {#BerendsGastman75} F. A. Berends, R. Gastmans, _Quantum gravity and the electron and muon anomalous magnetic moment_, Phys. Lett. B55 Issue 3 Feb 1975 311-312 (<a href="doi.org/10.1016/0370-2693(75)90608-5">doi:10.1016/0370-2693(75)90608-5</a>)
