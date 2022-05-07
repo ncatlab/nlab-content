@@ -281,27 +281,43 @@ Namely, the previous argument applies, but only to the point $0 \in Sierp$, whil
 
 
 
-A space is Hausdorff (axiom $T_2$) iff every two distinct points have disjoint open neighbourhoods. To give two disjoint open subsets is to give a map to the space with two open points and one closed point. To give two distinct points is to give an injective map. Hence, every two
+Next, a space is [[Hausdorff space|Hausdorff]] (axiom $T_2$) iff every two distinct points have disjoint open neighbourhoods. To give two disjoint open subsets is to give a map to the space with two open points and one closed point. To give two distinct points is to give an injective map. Hence, every two
 distinct points have disjoint open neighbourhoods iff any such injective map extends to a map to that space with three points.
 
 * *$X$ is a [[Hausdorff space|$T_2$-space]].
 
-This is represented by the following lifting property diagram. 
+{#IllustrationOfLiftingForT2} This is represented by the following lifting property diagram. 
 
-  \begin{tikzcd}
+\begin{tikzcd}
 [
-  column sep={between origins, 40pt}, 
+  column sep={between origins, 50pt}, 
   row sep={between origins, 40pt}
 ]
   \boxed{\{0\leftrightarrow 1\}} 
   \ar[
     rr,
-    "{ \forall }"
+    "{ }"
   ]
-  \ar[dd,"{ (injective) }"]
+  \ar[dd, hook, "{ \forall  }"{left} ]
   &&
-  \boxed{\overset{\boxed{\boxed{u},\boxed{v}}}{\searrow_c\swarrow}}  
-    \ar[dd]
+  \boxed{
+    \overset{
+      \boxed{
+        \boxed{u}
+        \;\;
+        \,
+        \;\;
+        \boxed{v}}
+      }{
+        \underset{
+           c
+        }
+        {
+          \searrow \;\, \swarrow
+        }
+      }
+  }  
+  \ar[dd]
   \\
   \\
   X
@@ -316,6 +332,8 @@ This is represented by the following lifting property diagram.
   &&
   \ast
 \end{tikzcd}
+
+\linebreak
 
 Axioms $T_3-T_5$ and others require finite topological spaces with 4 to 7 points, and we need to introduce appropriate notation. 
 
