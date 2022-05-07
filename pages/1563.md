@@ -188,7 +188,7 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
 *  _Equality in hyperdoctrines and
 comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
 
-* _Teoria delle categorie sopra un topos di base_, lecture notes from Perugia (1972--73) -- available online [here](http://conceptualmathematics.wordpress.com/2012/06/04/perugia-notes-prof-f-w-lawvere/)
+* _Teoria delle categorie sopra un topos di base_, lecture notes from Perugia (1972--73) -- available online [here](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1972-perugia-lecture-notes.pdf)
 
     (on basic category theory, the [[category of sets]] and [[elementary toposes]], and an approach to [[indexed categories]])
 
