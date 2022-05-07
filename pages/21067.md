@@ -76,7 +76,7 @@ In these cases, the notion of _free group_, _free monoid_, et cetera coincide wi
 * Given a [[monoid]] or [[group]] $M$, the algebras of the $M$-[[action monad]] on [[Set]] are the $M$-sets, i.e. sets equipped with an [[action]] of $M$. The morphisms are the [[equivariant maps]]. 
 * The example above generalizes to [[action monads]] given by [[monoid objects]] in a general [[monoidal category]]. Famous examples of this construction in mathematics are smooth actions of [[Lie groups]] on [[manifolds]] and actions of [[rings]] on their [[modules]].
 
-
+* The algebras of the [[maybe monad]] $(-)_*\colon Set \to Set$, which adds a disjoint point, are the pointed sets.
 * The algebras of the [[power set]] monad are the sup-[[semilattices]].
 * The algebras of the [[distribution monad]] are [[convex spaces]], and more generally algebras of [[probability monads]] correspond to generalized [[convex spaces]] or [[conical spaces]] (see [[probability monad#algebras_expectation_values|probability monad - algebras]]).
 
