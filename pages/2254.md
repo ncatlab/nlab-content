@@ -400,13 +400,13 @@ in countably many generators $t_i$ in degree $2 i$.
 
 The [[Lazard theorem]] \ref{LazardTheorem} first of all implies, via prop. \ref{LazardRingIsUniversal}, that there exists an abundance of 1-dimensional formal group laws: given any ring $R$ then every choice of elements $\{t_i \in R\}$ defines a formal group law. (On the other hand, it is nontrivial to say which formal group law that is.)
 
-Deeper is the fact expressed by the [[Milnor-Quillen theorem on MU]]: the Lazard ring in its polynomial incarnation of prop. \ref{LazardTheorem} is canonically identieif with the [[graded commutative ring]] $\pi_\bullet(M U)$ of [[stable homotopy groups]] of the universal complex [[Thom spectrum]] [[MU]]. Moreover:
+Deeper is the fact expressed by the [[Milnor-Quillen theorem on MU]]: the Lazard ring in its polynomial incarnation of prop. \ref{LazardTheorem} is canonically identified with the [[graded commutative ring]] $\pi_\bullet(M U)$ of [[stable homotopy groups]] of the universal complex [[Thom spectrum]] [[MU]]. Moreover:
 
 1. [[MU]] carries a [[universal complex orientation on MU|universal complex orientation]] in that for $E$ any [[homotopy commutative ring spectrum]] then homotopy classes of homotopy ring homomorphisms $M U \to E$ are in bijection to [[complex oriented cohomology theory|complex orientations]] on $E$;
 
 1. every [[complex oriented cohomology|complex orientation]] on $E$ induced a 1-dimensional commutative [[formal group law]] ([prop.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheoryFormalGroupLaw))
 
-1. under forming stable homtopy groups every ring spectrum homomorphism $M U \to E$ induces a ring homomorphism 
+1. under forming stable homotopy groups every ring spectrum homomorphism $M U \to E$ induces a ring homomorphism 
 
    $$
      L \simeq \pi_\bullet(M U) \longrightarrow \pi_\bullet(E)
