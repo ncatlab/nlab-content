@@ -68,12 +68,12 @@ A **rationalization** of a [[simply connected space|simply connected]] [[topolog
 ### Rationalization as a localization of $Top$/$\infty Grpd$
 
 In [[rational homotopy theory]] one considers
-the [[Quillen adjunction]]
+the [[PL de Rham complex|PL de Rham]] [[Quillen adjunction]]
 
 $$
   (\Omega^\bullet
    \dashv K)
-  :
+  \;\colon\;
   dgAlg_{\mathbb{Q}} 
    \stackrel{\overset{\Omega^\bullet}{\leftarrow}}{\underset{K}{\to}}
   sSet
@@ -85,6 +85,8 @@ $$
   \Omega^\bullet(X) = Hom_{sSet}(X, \Omega^\bullet_{pl}(\Delta^\bullet_{Diff}))
   \,.
 $$
+
+The [[fundamental theorem of dg-algebraic rational homotopy theory]] says that on [[nilpotent spaces]] with [[finite type]] [[rational chomology]] this induces an [[equivalence of categories|equivalence]] of [[homotopy categories]].
 
 Intrinsically this should model something like the (partially) left exact [[localization of an (∞,1)-category]] of [[∞Grpd]] at those morphisms that are [[rational homotopy equivalence]]s.
 
@@ -463,7 +465,7 @@ For more see at _[[rational stable homotopy theory]]_.
 
 ## References
 
-* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], p. 133-140 in: _Homotopy Limits, Completions and Localizations_, Lecture Notes in Mathematics Vol. 304, Springer 1972 ([doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4))
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], p. 133-140 in: _[[Homotopy Limits, Completions and Localizations]]_, Lecture Notes in Mathematics Vol. 304, Springer 1972 ([doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4))
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], Def. 11.1 in: _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
