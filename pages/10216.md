@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[equivariant homotopy theory]] and [[equivariant algebraic K-theory]]:
+
+* {#Lueck89} [[Wolfgang Lück]], _Transformation Groups and Algebraic K-Theory_, Lecture Notes in Mathematics **1408** (Springer 1989) ([doi:10.1007/BFb0083681](https://doi.org/10.1007/BFb0083681))
+
+
 On [[equivariant K-theory]] as a [[Spectra]]-valued [[presheaf]] on the [[orbit category]] (a [[naive G-spectrum]]):
 
 * [[James Davis]], [[Wolfgang Lück]], _Spaces over a Category and Assembly Maps in Isomorphism Conjectures in K- and L-Theory_, K-Theory 15:201–252, 1998 ([pdf](https://jfdmath.sitehost.iu.edu/teaching/m721F19/assembly.pdf))
