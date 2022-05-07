@@ -19,6 +19,8 @@ Hilbert's [[Nullstellensatz]] (German: "zero locus theorem") characterizes joint
 
 ## Related concepts
 
+* [[quadratic formula]]
+
 * [[critical locus]], [[derived critical locus]]
 
 * [[moment map]], [[Hamiltonian]]
