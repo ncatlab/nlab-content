@@ -113,7 +113,8 @@ A different terminology and slightly different emphasis is often used within the
 ...
 
 
-### Strong shape in terms of $(\infty,1)$-sheaves on a space
+### Strong shape via $\infty$-topos theory
+ {#StrongShapeViaInfinityToposTheory}
 
 There is a way to study the [[strong shape theory]] of a [[topological space]] $X$ in terms of [[∞-stack]]s on $X$, i.e. in terms of the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ on the [[category of open subsets]] of $X$. This is described in
 
@@ -313,7 +314,7 @@ Math. 688 (1978) 150-160. Springer-Verlag.
 
 and more recently
 
-*  [[Joel W. Robbin]], Dietmar A. Salamon, _Dynamical systems, shape theory and the Conley  index_, Ergodic Theory Dynam. Systems 8 (1988) 375 -  393,
+*  [[Joel W. Robbin]], [[Dietmar A. Salamon]], _Dynamical systems, shape theory and the Conley  index_, Ergodic Theory Dynam. Systems 8 (1988) 375 -  393,
 
 * A. Giraldo, M. A. Mor&#243;n, F. R. Ruiz del Portal, [[J. M. R. Sanjurjo]], _Shape of global attractors in topological spaces_, Nonlinear Analysis 60 (2005) 837 - 847 [doi](https://dx.doi.org/10.1016/j.na.2004.03.036)
 
