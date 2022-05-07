@@ -229,6 +229,9 @@ Specifically on [[ADE-singularities]]:
 
 * {#Witten99} [[Edward Witten]], _Heterotic String Conformal Field Theory And A-D-E Singularities_, JHEP 0002:025, 2000 ([arXiv:hep-th/9909229](https://arxiv.org/abs/hep-th/9909229))
 
+A kind of unusual boundary condition for heterotic strings, (analogous to open [[M5-branes]] ending in  [[Yang monopoles]] on [[M9-branes]]):
+
+* [[Joseph Polchinski]], _Open Heterotic Strings_, JHEP 0609 (2006) 082 ([arXiv:hep-th/0510033](http://arxiv.org/abs/hep-th/0510033))
 
 
 
@@ -237,6 +240,9 @@ Specifically on [[ADE-singularities]]:
 
 
 
+
+
+[[!include higher gauge theory of the Green-Schwarz mechanism -- references]]
 
 
 
@@ -354,12 +360,6 @@ Reviews include
 
 * Bj&#246;rn Andreas, _$N=1$ Heterotic/F-theory duality_ PhD thesis ([pdf](http://edoc.hu-berlin.de/dissertationen/physik/andreas-bjoern/PDF/Andreas.pdf))
 
-### "Open" heterotic string
-
-A kind of unusual boundary condition for heterotic strings, (analogous to open [[M5-branes]] ending in 
-[[Yang monopoles]] on [[M9-branes]]) is discussed in
-
-* [[Joseph Polchinski]], _Open Heterotic Strings_, JHEP 0609 (2006) 082 ([arXiv:hep-th/0510033](http://arxiv.org/abs/hep-th/0510033))
 
 
 
