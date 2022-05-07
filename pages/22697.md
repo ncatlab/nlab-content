@@ -62,6 +62,10 @@ A __possibly empty loop__ is a set that  above such that the following are true:
 
 A __possibly empty loop__ is a set $G$ with a binary operation, __multiplication__ $(-)\cdot(-):G\times G\to G$, and two unary operations, the __left inverse__ ${^{-1}(-)}:G \to G$ and the __right inverse__ $(-)^{-1}:G \to G$, such that $G$ with multiplication and the left inverse is a left [[invertible magma]] and $G$ with multiplication and the right inverse is a right [[invertible magma]]. 
 
+## Properties
+
+* Every __possibly empty commutative loop__ is a [[commutative invertible magma]]. 
+
 ## Examples
 
 * Every [[loop (algebra)|loop]] is a possibly empty loop. 
@@ -74,10 +78,12 @@ A __possibly empty loop__ is a set $G$ with a binary operation, __multiplication
 
 * [[quasigroup]]
 
-* [[invertible magma]]
+* [[invertible magma]], [[commutative invertible magma]]
 
 * [[possibly empty group]] (associative version)
 
-* [[possibly empty abelian loop]] (commutative version)
-
 * [[loop (algebra)|loop]]
+
+[[!redirects possibly empty abelian loop]]
+
+[[!redirects possibly empty commutative loop]]
