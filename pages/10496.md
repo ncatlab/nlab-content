@@ -4,13 +4,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Topological physics
++--{: .hide}
+[[!include topological physics -- contents]]
+=--
 #### Solid state physics
 +-- {: .hide}
 [[!include solid state physics -- contents]]
-=--
-#### Homotopy theory
-+--{: .hide}
-[[!include homotopy - contents]]
 =--
 =--
 =--
