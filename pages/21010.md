@@ -57,7 +57,7 @@ _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 5
 
 * [[Stanley Brodsky]], [[Guy de Teramond]], [[Hans Günter Dosch]], _Light-Front Holography and Supersymmetric Conformal Algebra: A Novel Approach to Hadron Spectroscopy, Structure, and Dynamics_ ([arXiv:2004.07756](https://arxiv.org/abs/2004.07756))
 
-Concerning [[confinement]] and [[chiral symmetry breaking]]:
+Further concerning [[confinement]] and [[chiral symmetry breaking]]:
 
 * [[Guy de Teramond]], [[Stanley Brodsky]], _Longitudinal dynamics and chiral symmetry breaking in holographic light-front QCD_ ([arXiv:2103.10950](https://arxiv.org/abs/2103.10950))
 
