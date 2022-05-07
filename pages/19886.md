@@ -550,7 +550,7 @@ Interpretation in terms of the [[Goodwillie-Taylor tower]] of mapping spaces is 
 
 * {#Goodwillie03} [[Thomas Goodwillie]], p. 6 of _Calculus. III. Taylor series_, Geom. Topol. 7 (2003), 645--711 ([journal](http://www.msp.warwick.ac.uk/gt/2003/07/p019.xhtml), [arXiv:math/0310481](http://arxiv.org/abs/math/0310481)))
 
-Generalization via [[nonabelian Poincaré duality]] from [[codomains]] which are $n$-fold [[suspensions]] to general [[n-connective spaces]]:
+A proof via [[nonabelian Poincaré duality]]:
 
 * Lauren Bandklayder, _Stable splitting of mapping spaces via nonabelian Poincaré duality_ ([arxiv:1705.03090](https://arxiv.org/abs/1705.03090))
 
