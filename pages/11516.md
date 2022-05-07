@@ -438,7 +438,7 @@ Let $H \subset G$ be a [[subgroup]]-inclusion. Write
 
 * $N(H) \hookrightarrow G$ for the corresponding [[normalizer subgroup]] inclusion
 
-* $H(N) \twoheadrightarrow N(H)/H = W(G)$ for the [[coprojection]] to its [[quotient group]] by $H$ (the "[[Weyl group]]" of $H$).
+* $N(H) \twoheadrightarrow N(H)/H = W(H)$ for the [[coprojection]] to its [[quotient group]] by $H$ (the "[[Weyl group]]" of $H$).
 
 Then the composite of 
 
