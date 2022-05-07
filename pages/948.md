@@ -156,9 +156,20 @@ See also earlier conceptions of proofs expressing the 'cause' of a theorem, wher
 
 ## Related entries
 
-See also _[[intuitionistic mathematics]]_ and _[[realizability]]_ and _[[computability]]_.
+See also 
+
+* [[intuitionistic mathematics]]
+
+* [[realizability]]
+
+* [[computability]]
+
+* [[constrictive set theory]]
 
 * [[constructive analysis]]
+
+* [[taboo]]
+
 
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
 
@@ -249,9 +260,7 @@ There is also
 ## References
  {#References}
 
-### General
-
-Gentle introductions include
+Gentle introductions:
 
 * [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
 
@@ -264,13 +273,15 @@ Bull. Amer. Math. Soc. 54 (2017), 481-498 ([pdf](http://dx.doi.org/10.1090/bull/
 
 * Stanford Encyclopedia of Philosophy, _[Constructive mathematics](http://plato.stanford.edu/entries/mathematics-constructive/)_
 
-An more technical introduction to constructive reasoning in mathematics is in the introduction of 
+An more technical introduction to constructive reasoning in mathematics is (with an eye towards [[homotopy type theory]]) in the introduction of:
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-Other references include the following.
+Other accounts:
 
 *  [[Errett Bishop]] (1967). _Foundations of Constructive Analysis_. Rewritten with Douglas Bridges in 1985 as _Constructive Analysis_.
+
+* [[Michael J. Beeson]], *Foundations of Constructive Mathematics*,  Ergebnisse der Mathematik und ihrer Grenzgebiete **3** 6, Springer 1985 ([doi:10.1007/978-3-642-68952-9](https://link.springer.com/book/10.1007/978-3-642-68952-9), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-642-68952-9.pdf))
 
 * [[Douglas Bridges]] and [[Fred Richman]], _Varieties of constructive mathematics_ (1987)
 
@@ -285,6 +296,13 @@ Other references include the following.
 *  [[André Joyal]] and [[Ieke Moerdijk]] (1995). _Algebraic set theory_.
 
 *  [[Frank Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
+
+In view of [[reverse mathematics]]:
+
+* [[Hajime Ishihara]], _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006) ([doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406),  [pdf](https://philosophiascientiae.revues.org/pdf/406))
+
+* [[Hannes Diener]], *Constructive Reverse Mathematics*, 2018 ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
+
 
 General comments on intuitionistic mathematics/logic as the natural language for [[physics]] are in
 
