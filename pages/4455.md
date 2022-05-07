@@ -54,6 +54,8 @@ The operation of forming the set of Dedekind cuts is idempotent, so the Dedekind
 
 ## Generalisations
 
+### Quasiorders
+
 One can generalise Dedekind completion from [[linear orders]] to [[quasiorders]].
 
 +-- {: .num_defn}
@@ -85,6 +87,31 @@ A good example of a duiq is the set of [[rational number|rational]]-valued [[fun
 
 Sections 4.31--39 of _[[HAF]]_ do things in even more generality, but I don\'t really understand it yet.
 
+###Irreflexive comparisons 
+
+Unfortunately, quasiorders are not very useful in constructive mathematics, so they are usually replaced by irreflexive [[comparison]]s. An irreflexive  comparison is a set with a binary relation that satisfies the irreflexive and comparison properties:
+
+* $x \lt x$ is false
+* if $x \lt z$, then $x \lt y$ or $y \lt z$
+
+A dense unbounded inhabited irreflexive comparison is an irreflexive comparison $S$ such that, given finite (here always meaning [[Kuratowski-finite]]) [[subsets]] $F$ and $G$ of $S$ such that $x \lt z$ whenever $x \in F$ and $z \in G$, we have some $y$ in $S$ such that $x \lt y$ and $y \lt z$ whenever $x \in F$ and $z \in G$.
+
++-- {: .num_defn}
+###### Definition
+
+Given a dense unbounded inhabited irreflexive completion $S$, a __cut__ is a pair $(L,U)$ of [[subsets]] such that:
+
+1.  $L$ is [[inhabited subset|inhabited]] (which is a special case of (5) for $F$ the [[empty subset]]);
+2.  Dually, $U$ is inhabited (a special case of (6));
+3.  If $x \lt y \in L$, then $x \in L$;
+4.  Dually, if $x \gt y \in U$, then $x \in U$;
+5.  If $F$ is a finite subset of $L$ (which we may assume inhabited if we include (1)), then for some $x \in L$, every $y \in F$ satisfies $y \lt x$;
+6.  Dually, if $F$ is a finite (inhabited) subset of $U$, then for some $x \in U$, every $y \in F$ satisfies $y \gt x$;
+7.  If $L \lt x \lt U$ and $L \lt y \lt U$, then $x = y$;
+8.  If $x \in L$ and $y \in U$, then $x \lt y$.
+=--
+
+We then define __Dedekind-complete__ dense unbounded inhabited irreflexive comparisons and __Dedekind completions__ of dense unbounded inhabited irreflexive comparisons the same as for dense linear orders, using this notion of cut.
 
 ## One-sided Dedekind completions
 
