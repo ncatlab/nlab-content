@@ -84,7 +84,7 @@ Recall that every [[symplectic manifold]] provides an example of a Poisson manif
 The [[opposite category]] of that of commutative real (super) Poisson algebras we call the category of **classical mechanical systems**
 
 $$
-  ClassMechSys := CPoiss^{op}
+  ClassMechSys \coloneqq CPoiss^{op}
   \,.
 $$ 
 
@@ -112,7 +112,7 @@ and [[dissipative system]]s). In real worlds, physicists believe that such syste
 For $(A, \cdot, \{-,-\})$ a Poisson algebra, $A$ together with its [[module]] $\Omega^1(A)$ of [[Kähler differential]]s naturally form a [[Lie-Rinehart pair]], with bracket given by
 
 $$
-  [d a, d b ] := d \{a,b\}
+  [d a, d b ] \coloneqq d \{a,b\}
   \,.
 $$
 
@@ -126,7 +126,7 @@ If the Poisson algebra comes from a [[Poisson manifold]] $X$, then this Lie-Rine
 +-- {: .num_defn}
 ###### Definition
 
-Given $S := (A,\cdot, \{-,-\})$ a classical mechanical system, we say
+Given $S \coloneqq (A,\cdot, \{-,-\})$ a classical mechanical system, we say
 
 * an **[[observable]]** of $S$ is an element $a \in A$, hence we call $A$ the **algebra of observables**;
 
@@ -192,7 +192,7 @@ Write $StarAlg_{\mathbb{C}}$ for the category of [[star-algebra]]s over the [[co
 The [[opposite category]]
 
 $$
-  QuantMechSys := StarAlg^{op}
+  QuantMechSys \coloneqq StarAlg^{op}
 $$
 
 we call the category of **[[quantum mechanical systems]]**.
@@ -209,7 +209,7 @@ def. \ref{ClassMechSys}, a **[[quantization]]** of it is -- if it exists --
 
 * such that in the limit $\hbar \to 0$ we have
 
-  1. $A_\hbar \to A_0 := A \otimes_{\mathbb{R}}\mathbb{C}$;
+  1. $A_\hbar \to A_0 \coloneqq A \otimes_{\mathbb{R}}\mathbb{C}$;
 
   1. for all $a,b \in A_{\hbar}$: $\frac{1}{i \hbar } [a,b] = \{a,b\}$.
 
