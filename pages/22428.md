@@ -5,8 +5,7 @@
 
 On [[kernel methods]] in [[machine learning]]:
 
-* [[Julien Mairal]], [[Jean-Philippe Vert]], *Machine Learning with Kernel Methods*, 2017 ([pdf](http://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/slides/master2017/master2017.pdf), [[MarailVertKernelMethods.pdf:file]])
-
+* [[Julien Mairal]], [[Jean-Philippe Vert]], *Machine Learning with Kernel Methods*, lecture notes 2017 ([webpage](http://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/course/2021mva/index.html), [pdf](http://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/slides/master2017/master2017.pdf), [[MairalVertKernelMethods.pdf:file]])
 
 Proof that the [[Mallows kernel]] and [[Kendall kernel]] are [[positive definite bilinear form|positive definite]]:
 
