@@ -186,6 +186,8 @@ Simulation of [[galaxy formation]] in feedback with [[cosmic reionization]]:
 
 * _The Quijote simulations_ ([arXiv:1909.05273](https://arxiv.org/abs/1909.05273))
 
+* Tomoaki Ishiyama  et al., *The Uchuu Simulations: Data Release 1 and Dark Matter Halo Concentrations* ([arXiv:2007.14720](https://arxiv.org/abs/2007.14720))
+
 * [[gevolution]] (for [[inhomogeneous cosmology]])
 
 [[!redirects galaxy formation]]
