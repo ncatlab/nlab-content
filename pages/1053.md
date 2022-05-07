@@ -393,6 +393,7 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 
 * [[scale]]
   * [[Heyting scale]]
+  * [[minor scale]]
 
 ## References
 
