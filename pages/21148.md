@@ -46,6 +46,10 @@ On [[skyrmion]] models for [[neutron stars]]:
 
 On [[nuclear physics]] and [[quark-hadron duality]] at high density such as in [[neutron stars]]:
 
-* [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([https://arxiv.org/abs/2004.09082](https://arxiv.org/abs/2004.09082))
+* [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arxiv:2004.09082](https://arxiv.org/abs/2004.09082))
+
+On [[Skyrmions]] with [[vector mesons]] in relation to [[hidden local symmetry]]:
+
+* [[Mannque Rho]], *Skyrmions and Fractional Quantum Hall Droplets Unified by Hidden Symmetries in Dense Matter* ([arXiv:2109.10059](https://arxiv.org/abs/2109.10059))
 
 category: people
