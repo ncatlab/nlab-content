@@ -35,6 +35,8 @@
 
   [[topological order]]
 
+* [[quasicrystal]]
+
 ## Related concepts
 
 * [[phase transition]]
