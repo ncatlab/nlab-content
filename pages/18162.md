@@ -1739,6 +1739,24 @@ $X$ is [[perfectly normal topological space|perfectly normal]] if any two disjoi
 
 ## Applications.
 
+The following notation and terminology helps to discuss applications. 
+
+### Quillen negation 
+
+For a class $P$ of morphisms in a category, its {\em left Quillen negation} $P^{\;\;\;\,&solb;\,\;\;\; l}$ with respect to the lifting property, respectively its {\em right Quillen negation} $P^{\;\;\;\,&solb;\,\;\;\; r}$, 
+is the class of all morphisms which have the left, respectively right, lifting property with respect to each morphism in the class $P$. In notation,
+$$
+P^{\;\;\;\,&solb;\,\;\;\; l} := \{ i \,\,:\,\, \forall p\in P\,\, i\;\;\;\,&solb;\,\;\;\; p\},
+P^{\;\;\;\,&solb;\,\;\;\; r} := \{ p \,\,:\,\, \forall i\in P\,\, i\;\;\;\,&solb;\,\;\;\; p\}, P^\lr:=(P^\lrl)^\rlr,..$$
+
+As the terminology might suggest, 
+taking the Quillen negation of a class/property $P$ is a simple way to define a class of morphisms excluding non-isomorphisms 
+from $P$, in a way which is useful in a diagram chasing computation, and is often used to
+define properties of morphisms starting from an explicitly given class of (counter)examples. 
+A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples. 
+
+
+
 ### Urysohn lemma and Tietze extension theorem. 
 
 We now explain how to view the standard proof of the [[Urysohn lemma]] in terms of lifting properties.
@@ -1816,6 +1834,20 @@ $A\to B \;\;\;\,&solb;\,\;\;\; {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\l
 Finally, for $A=\varnothing$ the latter implies that $\varnothing \to B \;\;\;\,&solb;\,\;\;\;   \Lambda_2 \to \Lambda_1$.
 This implies the Urysohn lemma that 
 $$\varnothing \to B \;\;\;\,&solb;\,\;\;\;   \Lambda_2 \to \Lambda_1\text{ iff }\varnothing \to B \;\;\;\,&solb;\,\;\;\;   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1$$
+
+The following theorem is a summary of considerations above. A noted above, item (3) is the usual statement of Urysohn lemma, and item (2) is similar but not equivalent to the Tietze extension theorem. 
+
+\begin{theorem}
+
+1. $ \{\Lambda_2\to \Lambda_1\} ^{&solb; l} \subset  \{\Lambda_\infty\to \Lambda_1\}^{&solb; l} \subset   \{{[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1\}^{&solb; l}  $$
+
+2. $ \{\Lambda_2\to \Lambda_1\} ^{&solb; l}  \subset  \{\Lambda_\infty\to \{o\}\}^{&solb; l} \subset   \{{[0,1]} \to \{o\}\}^{&solb; l} $$
+
+3. for arbitrary space $B$ it holds  
+$$\varnothing \to B \;\;\;\,&solb;\,\;\;\;   \Lambda_2 \to \Lambda_1\,\,\,\text{ iff }\,\,\,\varnothing \to B \;\;\;\,&solb;\,\;\;\;   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1$$
+
+\end{theorem}
+
 
 
 
