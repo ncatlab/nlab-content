@@ -41,7 +41,7 @@ In [[classical mathematics]], any [[inhabited set|inhabited]] subset of the natu
 ###### Proposition 
 **(a Brouwerian counterexample)**
 
-If any inhabited subset of the natural numbers possesses a minimal element, then the [[excluded middle|law of excluded middle]] holds.
+If every inhabited subset of the natural numbers possesses a minimal element, then the [[excluded middle|law of excluded middle]] holds.
 =--
 
 +-- {: .proof}
