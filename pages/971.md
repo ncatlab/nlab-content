@@ -238,10 +238,13 @@ Some recent developments in the theory of accessible categories can be found in 
 
 * [[Tibor Beke]], [[Jiří Rosický]], *Abstract elementary classes and accessible categories*, 2011, [arxiv](https://arxiv.org/abs/1005.2910)
 
-* Michael Lieberman, Jiří Rosický, Sebastien Vasey, *Internal sizes in μ-abstract elementary classes*, [arxiv](https://arxiv.org/abs/1708.06782)
+* Michael Lieberman, [[Jiří Rosický]], Sebastien Vasey, *Internal sizes in μ-abstract elementary classes*, [arxiv](https://arxiv.org/abs/1708.06782)
 
-* Michael Lieberman, Jiří Rosický, Sebastien Vasey , *Set-theoretic aspects of accessible categories*, [arxiv](https://arxiv.org/abs/1902.06777)
+* Michael Lieberman, [[Jiří Rosický]], Sebastien Vasey , *Set-theoretic aspects of accessible categories*, [arxiv](https://arxiv.org/abs/1902.06777)
 
+See also:
+
+* {#Rezk2021} [[Charles Rezk]], *Generalizing accessible ∞-categories*, 2021 ([pdf](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf)).
 
 
 [[!redirects accessible categories]]
