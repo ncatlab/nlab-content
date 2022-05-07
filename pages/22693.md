@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
 =--
 =--
 
@@ -15,6 +19,10 @@
 ## Definition
 
 A __left associative [[quasigroup]]__ is a [[semigroup]] $(G, \cdot)$ equipped with a __left division__ $(-)\backslash(-):G \times G \to G$  such that $x \cdot (x \backslash y) = y$ and $x \backslash (x \cdot y) = y$. A __right associative [[quasigroup]]__ is a [[semigroup]] $(G, (-)\cdot(-):G \times G \to G)$ equipped with a __right division__ $(-)/(-):G \times G \to G$ such that $(x / y) \cdot y = x$ and $(x \cdot y) / y = x$. A __two-sided associative [[quasigroup]]__ or just an __associative quasigroup__ is a semigroup that is both a left associative quasigroup and a right associative quasigroup. 
+
+## Pseudo-torsors
+
+Every left associative quasigroup $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = x \cdot (y \backslash z)$. Every right associative quasigroup $H$ has a [[pseudo-torsor]] $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x / y) \cdot z$. This means every associative quasigroup has two pseudo-torsors. If the (left or right) associative quasigroup is inhabited, then those pseudo-torsors are actually [[torsors]]. 
 
 ## Category of associative quasigroups
 
