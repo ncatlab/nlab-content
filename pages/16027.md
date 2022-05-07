@@ -26,7 +26,13 @@ An **infinite product** is a sequence of numbers (usually [[real number|real]] o
 
 ### As an operator
 
-For any group or semigroup $G$, one should be able to define an infinite product as an [[operator]] $\prod_{n:N} (-)(n) : (N \to G) \to (N \to G)$ over the [[function algebra|function $G$-module]] $N \to G$. 
+For any group or semigroup $G$, one should be able to define an infinite product as an [[operator]] 
+
+$$\prod_{n=0}^\infty (-)(n) : (\mathbb{N} \to G) \to (\mathbb{N} \to G)$$ 
+
+over the [[function algebra|function $G$-module]] $\mathbb{N} \to G$, such that [[currying]] the operator results in the partial product $\mathbb{N}$-[[action]] 
+
+$$\product_{n=0}^{(-)} (-)(n) : (\mathbb{N} \to G) \times \mathbb{N} \to G$$ 
 
 ## Internalisation
 
