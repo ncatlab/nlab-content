@@ -28,6 +28,8 @@ For example, [[L-∞ algebras]], which are [[Lie algebra objects]] [[internaliza
 
 ## Related entries
 
+* [[higher homotopy]]
+
 * [[higher category theory]], [[higher topos theory]], [[(∞,1)-categorification]]
 
 * [[homotopy type theory]], [[univalent foundations for mathematics]]
