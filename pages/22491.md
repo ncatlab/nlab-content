@@ -67,6 +67,7 @@ For example:
 ## Properties
 
 ### Character formula
+ {#CharacterFormulaForCayleyGraphSpectra}
 
 \begin{prop}\label{CharacterFormula}
 **(character formula for Cayley graph spectra)** \linebreak
@@ -105,7 +106,7 @@ For example:
 
 \end{prop}
 
-([Diaconis & Shahshahani 81, Cor. 3](#DiaconisShahshahani81), [Rockmore, Kostelec, Hordijk & Stadler 02, Thm. 1.1](#RockmoreKostelecHordijkStadler02),  [Kaski 02, Cor. 5.4](#Kaski02), [Foster-Greenwood & Kriloff 16, Thm. 4.3](#FosterGreenwoodKriloff16), see also [Liu & Zhou 18, Thm. 2.6](#LiuZhou18); in the special case that$G$ is an [[abelian group]] the result is due to [Lovász 1975](#Lovasz75)) 
+([Diaconis & Shahshahani 81, Cor. 3](#DiaconisShahshahani81), [Rockmore, Kostelec, Hordijk & Stadler 02, Thm. 1.1](#RockmoreKostelecHordijkStadler02), [Foster-Greenwood & Kriloff 16, Thm. 4.3](#FosterGreenwoodKriloff16), see also [Liu & Zhou 18, Thm. 2.6](#LiuZhou18); in the special case that$G$ is an [[abelian group]] the result is due to [Lovász 1975](#Lovasz75); a comprehensive account is in [Kaski 02, Sec. 2 & 4, Cor. 5.4](#Kaski02)) 
 
 
 ## References
@@ -114,7 +115,7 @@ For example:
 
 * [[László Babai]], *Spectra of Cayley graphs*, Journal of Combinatorial Theory, Series B Volume 27, Issue 2, October 1979, Pages 180-189 (<a href="https://doi.org/10.1016/0095-8956(79)90079-0">doi:10.1016/0095-8956(79)90079-0</a>)
 
-* {#DiaconisShahshahani81} [[Persi Diaconis]], [[Mehrdad Shahshahani]], *Generating a random permutation with random transpositions*, Z. Wahrscheinlichkeitstheorie verw Gebiete 57, 159–179 (1981) ([doi:10.1007/BF00535487](https://doi.org/10.1007/BF00535487))
+* {#DiaconisShahshahani81} [[Persi Diaconis]], [[Mehrdad Shahshahani]], *Generating a random permutation with random transpositions*, Z. Wahrscheinlichkeitstheorie verw. Gebiete 57, 159–179 (1981) ([doi:10.1007/BF00535487](https://doi.org/10.1007/BF00535487))
 
 * {#RockmoreKostelecHordijkStadler02} Dan Rockmore, Peter Kostelec, Wim Hordijk, Peter F. Stadler, *Fast Fourier Transform for Fitness Landscapes*, Applied and Computational Harmonic Analysis Volume 12, Issue 1, January 2002, Pages 57-76 ([doi:10.1006/acha.2001.0346](https://doi.org/10.1006/acha.2001.0346))
  
