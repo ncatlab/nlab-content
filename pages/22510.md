@@ -1,10 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
-An *Ackermann groupoid* is a particular type of algebraic structure that provides semantics for a flavour of [[relevance logic]], a weak form of [[substructural logic]]. 
+An *Ackermann groupoid* is a particular type of [[algebra|algebraic]] [[mathematical structure]] that provides [[semantics]] for a flavour of [[relevance logic]], a weak form of [[substructural logic]]. 
 
-Note that "groupoid" here does not mean [[groupoid]], but [[magma]]. The terminology comes from logic, rather than category theory.
+Note that "groupoid" here does not mean *[[groupoid]]*, but *[[magma]]*. The terminology comes from logic, rather than category theory.
 
 ## Definition
 
