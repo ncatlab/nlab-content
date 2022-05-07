@@ -155,8 +155,8 @@ Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is w
 
 [[!redirects Calabi-Yau category]]
 [[!redirects Calabi-Yau categories]]
-[[!redirects Calabi?Yau category]]
-[[!redirects Calabi?Yau categories]]
+[[!redirects Calabi–Yau category]]
+[[!redirects Calabi–Yau categories]]
 [[!redirects Calabi--Yau category]]
 [[!redirects Calabi--Yau categories]]
 
