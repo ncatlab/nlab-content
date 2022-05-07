@@ -107,11 +107,17 @@ The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
 See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06), [Dungan 10, 2.4.2, proof in section 2.5](#Dungan10)).
 
 
+\begin{prop}\label{ProjectiveModelStructureOnConnectiveChainComplexesIsProper}
+  The projective model structure on connective chain complexes is a [[proper model category]].
+\end{prop}
+([Jardine 03, Prop. 1.5](#Jardine03))
+
 \begin{proposition}
 \label{ProjectiveModelStructureOnConnectiveChainComplexesIsMonoidal}
 {#MonoidalModelStructureOnConnectiveChainComplexes} With respect to the degreewise [[tensor product of chain complexes]] this is a [[monoidal model category]].
 \end{proposition}
-([Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
+([Jardine 03, Prop. 1.5](#Jardine03),  [Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
+
 
 
 ##### Injective structure on cochain complexes
@@ -1116,7 +1122,7 @@ Finally a third approach to the unbounded case is discussed in
 
 A discussion of the homotopy theory of [[presheaves]] of unbounded chain complex is in
 
-* [[J. F. Jardine]], _Presheaves of chain complexes_ ([ps](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.57.6884&rep=rep1&type=ps))
+* {#Jardine03} [[J. F. Jardine]], _Presheaves of chain complexes_, K-theory 30.4 (2003): 365-420 ([pdf](https://pdfs.semanticscholar.org/360c/fd4eb76da956e0c8dd897377f6d6f342e44e.pdf), [[JardinePresheavesOfChainComplexes.pdf:file]])
 
 A model structure on noncommutative [[dg-algebra]]s whose proof strategy is useful also for cochain complexes is in
 
