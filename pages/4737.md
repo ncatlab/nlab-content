@@ -84,11 +84,11 @@ Moreover, we require the $G$-action to be free and proper, that is,
 
 * [proper]$P\times_{G_0} G_1 \xrightarrow{id\times \Phi} P\times P$ is a proper map , i.e. the preimage of a compact is compact.
 
-These two conditions are equivalent to the fact that
+These two conditions are equivalent to the fact that the [[shear map]]
 
 $$ P\times_{G_0} G_1 \xrightarrow{id\times \Phi} P\times_M P$$
 
-is an isomorphism.
+is an [[isomorphism]].
 
 
 ## Applications
