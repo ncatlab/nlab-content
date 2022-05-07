@@ -37,9 +37,13 @@ The statement is originally due to
 
 Textbook accounts:
 
-* {#Lee12} [[John Lee]], Theorem 20.12 in: _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
+* {#Lee12} [[John Lee]], Theorem 20.12 in: _Introduction to Smooth Manifolds_, Second Edition, Graduate Texts in Mathematics 218 (2012), Springer ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf))
 
+Theorem 5.81 in
 
+* [[Jeffrey M. Lee]], _Manifolds and Differential Geometry_, 
+Graduate Studies in Mathematics 107 (2009), AMS.
+[doi:10.1090/gsm/107](https://doi.org/10.1090/gsm/107).
 
 See also 
 
