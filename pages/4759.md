@@ -273,6 +273,81 @@ Now by another induction over these short exact sequences, the claim follows.
 
   See [[determinant line bundle]] for more.
 
+### Top Chern class
+ {#TopChernClass}
+
+For $\mathcal{V}_X$ a [[complex vector bundle]] of complex [[rank]] $n$, the highest degree [[Chern class]] that may generally be non-vanishing is $c_n$. This is hence often called the _[[top Chern class]]_ of the vector bundle.
+
+\begin{prop}
+  The [[top Chern class]] of a [[complex vector bundle]] $\mathcal{V}_X$ equals the [[Euler class]] $e$ of the underlying [[real vector bundle]] $\mathcal{V}^{\mathbb{R}}_X$:
+
+$$
+  \mathcal{V}_X
+  \;
+  \text{has complex rank}\;n
+  \;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;   
+  c_n
+  \big(
+    \mathcal{V}_X
+  \big)
+  \;\;
+    =
+  \;\;
+  e
+  \big(
+    \mathcal{V}^{\mathbb{R}}_X
+  \big)
+  \;\;\;\;
+  \in
+  H^{2n}
+  \big(
+   X; 
+   \,
+   \mathbb{Z} 
+  \big)
+  \,.
+$$
+\end{prop}
+
+(e.g. [Bott-Tu 82 (20.10.6)](#BottTu82))
+
+\begin{prop}
+  The [[top Chern class]] of a [[complex vector bundle]] $\mathcal{V}_X$ equals the [[pullback in cohomology|pullback]] of any [[Thom class]] 
+$th \;\in\; H^{2n}\big( \mathcal{V}_X; \mathbb{Z} \big)$ on $\mathcal{V}_X$ along the [[zero-section]]:
+
+$$
+  \mathcal{V}_X
+  \;
+  \text{has complex rank}\;n
+  \;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;   
+  c_n
+  \big(
+    \mathcal{V}_X
+  \big)
+  \;\;\;  
+    =
+  \;\;\;
+  (0_X)^\ast
+  (th)
+  \;\;
+  \in
+  \;
+  H^{2n}
+  \big(
+    X ;
+    \,
+    \mathbb{Z}
+  \big)
+$$
+\end{prop}
+
+(e.g. [Bott-Tu 82, Prop. 12.4](#BottTu82))
+
+
 ### Splitting principle and Chern roots
  {#SplittingPrinciple}
 
@@ -602,16 +677,15 @@ In [[Yang-Mills theory]] field configurations with non-vanishing [[second Chern 
 
 ## References
 
-Original articles include
+Original articles:
 
 * {#Hirzebruch56} [[Friedrich Hirzebruch]], Chapter 1, Section 4 of: _Neue topologische Methoden in der Algebraischen Geometrie_, Ergebnisse der Mathematik und Ihrer Grenzgebiete. 1. Folge, Springer 1956 ([doi:10.1007/978-3-662-41083-7](https://www.springer.com/de/book/9783662406052))
-
 
 * [[A. Grothendieck]], _La th&#233;orie des classes de Chern_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __86__ (1958), p. 137--154, ([numdam:BSMF_1958__86__137_0](http://www.numdam.org/item?id=BSMF_1958__86__137_0))
 
 
 
-Textbook accounts include
+Textbook accounts:
 
 * {#KobayashiNomizu63} [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], Section  XII.3 in: _Foundations of Differential Geometry, Volume 1_, Wiley 1963 ([web](https://www.zuj.edu.jo/download/foundations-of-differential-geometry-vol-1-kobayashi-nomizu-pdf/), [ISBN:9780471157335](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+Volume+1-p-9780471157335), [Wikipedia](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry))
 
@@ -619,6 +693,8 @@ Textbook accounts include
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], chapter IX of volume II of _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 * [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
+
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
 
 * {#Kochman96} [[Stanley Kochman]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
