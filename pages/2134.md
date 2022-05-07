@@ -15,9 +15,9 @@
 
 ## Idea
 
-Schur's lemma is one of the basic facts of [[representation theory]]. It concerns basic properties of the [[hom-sets]] between [[irreducible representations|irreducible]] [[linear representations]] of [[groups]]. 
+Schur's lemma is one of the fundamental facts of [[representation theory]]. It concerns basic properties of the [[hom-sets]] between [[irreducible representations|irreducible]] [[linear representations]] of [[groups]]. 
 
-The lemma consists of two parts that depend on different assumptions (often not highlighted in the literature). 
+The lemma consists of two parts that depend on different assumptions (a distinction often not highlighted in the literature): 
 
 1. The first statement applies over _every_ [[ground field]]: 
 
@@ -25,13 +25,13 @@ The lemma consists of two parts that depend on different assumptions (often not 
 
 1. The second statement applies only in the special case that the [[ground field]] is an [[algebraically closed field]] (such as the [[complex numbers]]) and that the [[representations]] are [[finite dimensional vector space|finite-dimensional]]: 
 
-   It says that in this case, moreover the only non-trivial [[endomorphisms]] of an [[irreducible representation]] are multiples of the [[identity morphism]].
+   It says that, in this case, moreover the only non-trivial [[endomorphisms]] of an [[irreducible representation]] are multiples of the [[identity morphism]].
 
 
 
 ## Statement
 
-Let $G$ be a [[group]]. In the following 
+Let $G$ be a [[group]]. In the following:
 
 * "representation" means _[[linear representation]] of $G$_, linear over some [[ground field]]. 
 
@@ -49,9 +49,9 @@ An
 
    It follows that the [[endomorphism ring]] of an [[irreducible representation]] is a [[division ring]].
 
-2. In the case that the [[ground field]] is an [[algebraically closed field]] of [[characteristic zero]]; [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are a multiple $c id$ of the [[identity morphism|identity operator]]. 
+2. In the case that the [[ground field]] is an [[algebraically closed field]]; [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are a multiple $c \cdot id$ of the [[identity morphism|identity operator]]. 
 
-   In other words, the nontrivial automorphisms of irreducible representations, _a priori_ possible by (1), are ruled out over algebraically closed fields.  
+   In other words, nontrivial automorphisms of irreducible representations, _a priori_ possible by (1), are ruled out over algebraically closed fields.  
 
 =--
 
@@ -69,26 +69,26 @@ $$
 
 of any $G$-[[representations]] are $G$-[[invariant]] [[subspaces]]. But by the very definition of [[irreducible representation|irreducibility]], the only such subspaces of $V$ and $W$ are the degenerate ones: their zero subspaces and the full spaces themselves.
 
-Now if the [[kernel]] is all of $V$ or the [[image]] is [[zero object|zero]], $f$ is the [[zero morphism]]. The only case left is that the [[kernel]] is [[zero object|zero]] _and_ the [[image]] is all of $W$, but this means that $f$ is [[injective map|injective]] and [[surjective map|surjective]] and is hence an [[isomorphism]].
+Now if the [[kernel]] is all of $V$ or the [[image]] is [[zero object|zero]], then $f$ is the [[zero morphism]]. The only case left is that the [[kernel]] is [[zero object|zero]] _and_ the [[image]] is all of $W$, but this means that $f$ is [[injective map|injective]] and [[surjective map|surjective]] and is hence an [[isomorphism]].
 
 For the second statement:
 
-Now we use that over an [[algebraically closed field]] $k$ of every linear [[endomorphism]] of a [[finite dimensional vector space]] has an [[eigenvalue]] $c \in k$ (which is, ultimately, due to the [[fundamental theorem of algebra]] for [[algebraically closed fields]]). Now with $f$ also the linear combination
+Now we use that over an [[algebraically closed field]] $k$ of every [[linear map|linear]] [[endomorphism]] of a [[finite dimensional vector space]] has an [[eigenvalue]] $c \in k$ (which is, ultimately, due to the [[fundamental theorem of algebra]] for [[algebraically closed fields]]). Now, with $f$ also the linear combination
 
 $$
-  (f - c \mathrm{id}) \;\colon\; V \longrightarrow V
+  (f - c \cdot \mathrm{id}) \;\colon\; V \longrightarrow V
 $$
 
-is a [[homomorphism]] of $G$-[[representations]]. But then, by the first part, this must be an [[isomorphism]] or [[zero morphism|zero]]. It is not an [[isomorphism]], by construction, since now the [[eigenvectors]] with [[eigenvalue]] $c$ are in the [[kernel]]. Therefore the linear combination it must be [[zero morphism|zero]]
+is a [[homomorphism]] of $G$-[[representations]]. But then, by the first part, this must be an [[isomorphism]] or [[zero morphism|zero]]. But it is not an [[isomorphism]], by construction, since now the [[eigenvectors]] with [[eigenvalue]] $c$ are in the [[kernel]]. Therefore, all of the linear combination must be [[zero morphism|zero]]
 
 $$
-  f - c id = 0
+  f - c \cdot id = 0
 $$
 
 and hence
 
 $$
-  f = c id
+  f = c \cdot id
 $$
 
 is a multiple of the identity.
@@ -163,9 +163,11 @@ $$
     \,,\,
     W
   \right\rangle
-  \phantom{AA}
-  \text{and}
-  \phantom{AA}
+$$
+
+and
+
+$$
   \left\langle
     V
     \,,\,
@@ -206,7 +208,7 @@ of $G$. By the evident $\mathbb{Z}$-linear extension, the above pairing gives an
   \mathbb{Z}
 \]
 
-Now $R(G)$ is a [[free abelian group]] whose canonical [[generators and relations|generators]] are nothing but the [[isomorphism classes]] $V_i$ of the [[finite-dimensional vector space|finite-dimensional]] [[irreducible representations]]:
+Now  the underlying [[abelian group]] of $R(G)$ is a [[free abelian group]] whose canonical [[generators and relations|generators]] are nothing but the [[isomorphism classes]] $V_i$ of the [[finite-dimensional vector space|finite-dimensional]] [[irreducible representations]]:
 
 $$
   R(G) \;\simeq_{\mathbb{Z}}\;  \mathbb{Z}\big[ \{V_i\}_i \big]
