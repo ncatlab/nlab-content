@@ -19,28 +19,47 @@ A [[metrisable space|metrisable]] [[topological space]] $Y$ is an _absolute neig
 
 A [[metrisable space|metrisable]] topological space $Y$ is an _absolute retract_ if for _any_ embedding $Y\subset Z$ as a [[closed subspace]] in a [[metrisable topological space]] $Z$, $Y$ is a [[retract]] of $Z$.
 
+## Properties
+ {#Properties}
+
+\begin{prop}\label{ANRIsLocalProperty}
+  **(ANR is a local property for metrizable spaces)** \linebreak
+  A [[metrizable topological space]] which admits an [[open cover]] by [[absolute neighbourhood retracts]] is itself an [[absolute neighbourhood retract]].
+\end{prop}
+
+(review in [Hu 65, III Thm. 8.1](#Hu65))
+
+\begin{prop}
+A [[metrisable topological space]] is an [[absolute retract]] precisely if it is 
+
+1. a [[contractible topological space]],
+
+1. an [[absolute neighborhood retract]].
+
+\end{prop}
+
+([Hu 65, Prop. II.7.2](#Hu65))
+
+
 ## Examples
+ {#Examples}
+
 
 \begin{example}
-  Every ([[finite number|finite]]-[[dimension|dimension of a manifold]]) [[topological manifold]] is an [[absolute neighbourhood retract]].
+  Every ([[finite number|finite]]-[[dimension of a manifold|dimensional]]) 
+  [[metrizable topological space|metrizable]] [[locally Euclidean topological space]] -- in particular every [[topological manifold]] -- is an [[absolute neighbourhood retract]].
 
 \end{example}
+
+By Prop. \ref{ANRIsLocalProperty}. (review in [Hu 65, III Cor. 8.3](#Hu65))
 
 \begin{example}
   Every [[finite number|finite]]-[[dimension of a CW complex|dimensional]] [[locally finite CW complex|locally finite]] [[CW-complex]] is an [[absolute neighbourhood retract]].
 
 \end{example}
 
+([Dugundji 52](#Dugundji52), [Kodama 56](#Kodama56), review in [Hu 65, III Cor. 8.4](#Hu65))
 
-## Properties
-
-A [[metrisable topological space]] is an absolute retract precisely if it is 
-
-1. a [[contractible topological space]],
-
-1. an [[absolute neighborhood retract]].
-
-([Hu 65, Prop. II.7.2](#Hu65))
 
 ## Related concepts
 
@@ -61,7 +80,15 @@ Further development:
 
 * [[Olof Hanner]], _Some theorems on absolute neighbourhood retracts_, Akriv F&ouml;r Matematik Band 1 nr 30 (1950) ([doi:10.1007/BF02591376](https://doi.org/10.1007/BF02591376))
 
+* {#Dugundji52} J. Dugundji, _Note on CW polytopes_, Portugaliae mathematica (1952) **11** 1 (1952) 7-10-b ([dml:114693](https://eudml.org/doc/114693))
+
+* {#Kodama56} Yukihiro Kodama, _Note on an absolute neighborhood extensor for metric spaces_, Journal of the Mathematical Society of Japan **8** 3 (1956) 206-215
+
+([doi:10.2969/jmsj/00830206](https://doi.org/10.2969/jmsj/00830206))
+
 * [[Karol Borsuk]], _Concerning the classification of topological spaces from the stand point of the theory of retracts_, Fundamenta Mathematicae **46** (3) (1959) 321-330 ([dml:213516](https://eudml.org/doc/213516))
+
+Textbook accounts and review:
 
 * [[Karol Borsuk]], _Theory of retracts_, Vol. 44. Państwowe Wydawn. Naukowe, 1967
 
