@@ -77,6 +77,13 @@ Here the [[direct sum]] is indexed by [[partitions]] $\lambda$ of $n$ by $k$ [[p
 
 Review:
 
+Textbook accounts:
+
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], Section 6.1 of: _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
+
+* Ambar N. Sengupta, Section 10.2 of: *Representing Finite Groups -- A Semisimple Introduction*, Springer 2012 ([doi:10.1007/978-1-4614-1231-1](https://link.springer.com/book/10.1007/978-1-4614-1231-1))
+
+
 In a context of [[quantum information theory]]:
 
 * Jordi Tura i Brugués, *Schur-Weyl duality* ([pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-49571-2%2F1.pdf)), Appendix A in: *Characterizing Entanglement and Quantum Correlations Constrained by Symmetry*,  Springer Theses (2017) ([doi:10.1007/978-3-319-49571-2](https://link.springer.com/book/10.1007/978-3-319-49571-2))
