@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Geometry
+#### Higher geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -27,7 +28,9 @@ $$
 
 Otherwise $\mathcal{X}$ is called _bad_.
 
-If $\mathcal{X}$ is even the [[global quotient orbifold|global quotient]] of a [[finite group]] one also says that it is _very good_.
+If $\mathcal{X}$ is even the [[global quotient orbifold|global quotient]] of a [[smooth manifold]] by a [[finite group]] [[group action|action]] one says that it is _very good_.
+
+In the other direction, an orbifold that is the [[global quotient orbifold|global quotient]] of a [[smooth manifold]] by some ([[compact Lie group|compact]]) [[Lie group]]  is called a *[[presentable orbifold]]*.
 
 ## References
 
