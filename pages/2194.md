@@ -282,12 +282,15 @@ The [[Fourier transform]] on abelian [[locally compact groups]] is formulated in
 
 
 ### Basic properties of dual groups
+ {#BasicPropertiesOfDualGroups}
 
 There are many properties of Hausdorff abelian [[locally compact groups]] that implies properties of their Pontrjagin duals.  For example:
 
 * If $A$ is [[finite group|finite]], then $\widehat{A}$  is finite.
 
 * If $A$ is [[compact topological group|compact]], then $\widehat{A}$ is [[discrete group|discrete]].
+
+  (see also at *[[nearby homomorphisms from compact Lie groups are conjugate]]*)
 
 * If $A$ is [[discrete group|discrete]], then $\widehat{A}$  is [[compact topological group|compact]].
 
