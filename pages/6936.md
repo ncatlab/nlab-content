@@ -159,6 +159,10 @@ A [[quotient inductive type]] is a higher inductive type that includes a "0-trun
 * [[partial map classifiers]]
 * [[internal type theory]]
 
+### FinSet
+
+Since [[FinSet]] is the initial [[2-rig]], one should be able to construct it as a higher inductive type with a [[1-truncation]] constructor. 
+
 ### Rezk completion
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Rezk completion]] or [[stack completion]] of a [[pregroupoid]] to a [[groupoid]] is a higher inductive type and the [[1-truncated]] analogue of the quotient set construction above. 
