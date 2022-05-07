@@ -436,7 +436,7 @@ such that
 +-- {: .un_prop}
 ###### Proposition
 
-Under these conditions there is for each [[finite group]] $G$ the structure of a [[monoidal model category]] on the category $\mathcal{E}^{\mathbf{B}G}$ of objects in $\mathcal{E}$ equipped with a $G$-[[action]], for which the [[forgetful functor]]
+Under these conditions there is for each [[finite group]] $G$ the structure of a [[monoidal model category]] on the [[Borel model structure]] $\mathcal{E}^{\mathbf{B}G}$ of objects in $\mathcal{E}$ equipped with a $G$-[[group action|action]], for which the [[forgetful functor]]
 
 $$
   \mathcal{E}^{\mathbf{B}G} \to \mathcal{E}
@@ -491,7 +491,7 @@ Further variation of the axiomatics is discussed in
 
 * {#BataninBerger13} [[Michael Batanin]], [[Clemens Berger]], _Homotopy theory for algebras over polynomial monads_ ([arXiv:1305.0086](https://arxiv.org/abs/1305.0086))
 
-The monoidal model structure on $\mathcal{E}^{\mathbf{B}G}$ is discussed for instance in
+The monoidal model structure on the [[Borel model structure]] $\mathcal{E}^{\mathbf{B}G}$ is discussed for instance in
 
 * {#BergerMoerdijkResolution} [[Clemens Berger]], [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_, Topology 45 (2006), 807&#8211;849.
 
