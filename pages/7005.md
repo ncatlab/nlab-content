@@ -269,6 +269,8 @@ One might also try to construct the Hoffman-Streicher groupoid model in a constr
 
 * contrary to univalence is the [[axiom UIP]]
 
+* [[directed univalence axiom]]
+
 ## References
  {#References}
 
