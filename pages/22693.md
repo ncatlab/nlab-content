@@ -38,7 +38,7 @@ $$
   (g_1, h_1) \backslash_{G \times H} (g_2, h_2) = (g_1 \backslash_G g_2, h_1 \backslash_H h_2)
 $$
 
-for all $(g_1, h_1), (g_2, h_2) \in U(G) \times U(H)$. The direct product of associative quasigroups is thus the [[cartesian product]] in $AssocQuasiGrp$. The [[endofunctor]] $P(G) = G \times 1$ is the [[identity functor]] on $AssocQuasiGrp$ while the endofunctor $P(G) = G \times 0$ is a [[constant functor]] that sends every associative quasigroup to $0$. 
+for all $(g_1, h_1), (g_2, h_2) \in U(G) \times U(H)$, with [[product projections]] $p_G: G \times H \to G$ $p_H: G \times H \to H$ where $p_G(g, h) = g$ and $p_H(g,h) = h$ for all $(g,h)\in G \times H$ The direct product of associative quasigroups is thus the [[cartesian product]] in $AssocQuasiGrp$. The [[endofunctor]] $P(G) = G \times 1$ is the [[identity functor]] on $AssocQuasiGrp$ while the endofunctor $P(G) = G \times 0$ is a [[constant functor]] that sends every associative quasigroup to $0$. 
 
 An __associative subquasigroup__ of an associative quasigroup $G$ is an associative quasigroup $H$ with an associative quasigroup [[monomorphism]] 
 $$
