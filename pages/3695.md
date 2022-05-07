@@ -87,6 +87,11 @@ Interconnection between exact WKB method, Stokes data and cluster algebras has b
 
 * Xiaomeng Xu, _Stokes phenomenon and Yang-Baxter equations_, [arxiv/1808.07654](https://arxiv.org/abs/1808.07654), [doi](https://doi.org/10.1007/s00220-019-03565-7); _Stokes phenomenon, dynamical r-matrices and Poisson geometry_, [doi](https://doi.org/10.13097/archive-ouverte/unige:84496); _Frobenius manifolds and quantum groups_ [arxiv/1801.00123](https://arxiv.org/abs/1801.00123); _Stokes phenomenon, Gelfand-Zeitlin systems and relative Ginzburg-Weinstein linearization_ [arxiv/1701.08113](https://arxiv.org/abs/1701.08113)
 
+* Kenzo Ishikawa, Kenji Nishiwaki, Kin-ya Oda, _New effect in wave-packet scatterings of quantum fields: Saddle points, Lefschetz thimbles, and Stokes phenomenon_, [https://arxiv.org/abs/2102.12032](arxiv/2102.12032)
+
+> We find a new contribution in wave-packet scatterings, which has been overlooked in the standard formulation of S-matrix. As a concrete example, we consider a two-to-two scattering of light scalars ϕ by another intermediate heavy scalar Φ, in the Gaussian wave-packet formalism: ϕϕ→Φ→ϕϕ. This contribution can be interpreted as an "in-time-boundary effect" of Φ for the corresponding Φ→ϕϕ decay, proposed by Ishikawa et al., with a newly found modification that would cure the previously observed ultraviolet divergence. We show that such an effect can be understood as a Stokes phenomenon in an integral over complex energy plane: The number of relevant saddle points and Lefschetz thimbles (steepest descent paths) discretely changes depending on the configurations of initial and final states in the scattering. 
+
+
 
 Proceedings volumes:
 
