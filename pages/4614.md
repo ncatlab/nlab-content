@@ -142,7 +142,7 @@ Noticing that the union of degenerate simplices appearing here is a [[Reedy mode
 
 =--
 
-The notion of good simplicial topological space goes back to ([Segal73](#Segal73)), that of proper simplicial topological space to ([May](#May)). 
+The notion of good simplicial topological space goes back to ([Segal73](#Segal73)), that of proper simplicial topological space to ([May 1972](#May72)). 
 
 +-- {: .num_prop #GoodImpliesProper}
 ###### Proposition
@@ -387,7 +387,7 @@ $$
 
 =--
 
-This appears for instance as ([May, corollary 11.6](#May)).  See also the proof that geometric realization of simplicial sets preserves pullbacks, at [[geometric realization]].
+This appears for instance as ([May 1972, Cor. 11.6](#May72)).  See also the proof that geometric realization of simplicial sets preserves pullbacks, at [[geometric realization]].
 
 It is essential here that we are working in a category $Top$ such as compactly generated spaces or k-spaces: in the category of *all* topological spaces this would not be true.  It works in these cases because product and/or quotient topologies in these categories are slightly different from in the category of all topological spaces.
 
@@ -429,7 +429,7 @@ If $X_\bullet \to Y_\bullet$ is an objectwise weak homotopy equivalence between 
 =--
 +-- {: .proof}
 ###### Proof
-The following proof is essentially from ([May74, A.4](#May_Einf)); see also ([Dugger, prop. 17.4, example 18.2](#Dugger)).  It relies on two facts relating [[Hurewicz cofibration]]s to [[weak homotopy equivalence]]s:
+The following proof is essentially from ([May 1974, A.4](#May_Einf)); see also ([Dugger, prop. 17.4, example 18.2](#Dugger)).  It relies on two facts relating [[Hurewicz cofibration]]s to [[weak homotopy equivalence]]s:
 
 1. [[pushout|Pushouts]] along [[Hurewicz cofibration]]s preserve [[weak homotopy equivalence]]s, and
 
@@ -967,7 +967,7 @@ A proof that ordinary and fat geometric realisation give homotopic spaces, for t
 
 A standard textbook reference is chapter 11 of
 
-* {#May} [[Peter May]], _The geometry of iterated loop spaces_ ([pdf]())
+* {#May72} [[Peter May]], _The geometry of iterated loop spaces_, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
 
 
 A proof that good simplicial spaces are proper is implicit in the proof of lemma A.5 in ([Segal74](#Segal74)). Explicitly it appears in
