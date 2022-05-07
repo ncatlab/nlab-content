@@ -37,6 +37,9 @@ Examples of quarkonia:
 
 * Zebo Tang, _Quarkonium production: An experimental overview_ ([arXiv:2002.10793](https://arxiv.org/abs/2002.10793))
 
+* An-Ping Chen, Yan-Qing Ma, Hong Zhang, *A short theoretical review of charmonium production* ([arXiv:2109.04028](https://arxiv.org/abs/2109.04028))
+
+
 
 
 
