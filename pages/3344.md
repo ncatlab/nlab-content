@@ -116,7 +116,7 @@ If $\mathcal{A}$ is a local test category, one can describe the model structure 
 
 Apart from the archetypical example of the [[simplex category]] we have the following
 
-* The [[cube category]] is a test category ([Grothendieck](#Grothendieck), [Cisinski](#Cisinski)), however not a strict one ([Kan](#Kan)). (The corresponding [[model category]] is discussed at [[model structure on cubical sets]].=)
+* The [[cube category]] is a test category ([Grothendieck](#Grothendieck), [Cisinski](#Cisinski)), however not a strict one ([Kan](#Kan)). (The corresponding [[model category]] is discussed at [[model structure on cubical sets]].)
 
   The category of [[cubes]] equipped with [[connection on a cubical set]] is even a strict test category ([Maltsiniotis, 2008](#Maltsiniotis)).
 
