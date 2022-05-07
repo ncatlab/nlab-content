@@ -70,6 +70,7 @@ Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called 
 
 * [[polynomial observable]]
 
+* [[quadratic function]]
 
 ## References
  {#References}
@@ -123,9 +124,6 @@ See also
 
 [[!redirects quadratic map]]
 [[!redirects quadratic maps]]
-
-[[!redirects quadratic function]]
-[[!redirects quadratic functions]]
 
 [[!redirects signature of a quadratic form]]
 [[!redirects signatures of a quadratic form]]
