@@ -409,10 +409,9 @@ Consider
 
 * $el W$ the [[category of elements]] of $W$.
 
-+-- {: .num_prop}
-###### Proposition
-
-We have a natural isomorphism in $C$
+\begin{proposition}\label{CoendAsColimitOverCategoryOfElements}
+**(coend as [[colimit]] over [[category of elements]])** \linebreak
+There is a [[natural isomorphism]] in $C$
 
 $$
   \int^{d \in D} W(d) \cdot F(d)
@@ -422,10 +421,9 @@ $$
   )
 $$
 
-between the coend as indicated and the [[colimit]] over the opposite of the 
-category of elements of $W$.
+between the coend, as indicated, and the [[colimit]] over the [[opposite category|opposite]] of the [[category of elements]] of $W$.
 
-=--
+\end{proposition}
 
 This is equation (3.34) in ([Kelly](#Kelly)) in view of (3.70).
 
