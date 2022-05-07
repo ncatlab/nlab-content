@@ -564,6 +564,10 @@ The Reedy model structure on categories of simplicial objects is discussed in mo
 
 * {#Dugger} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
   
+Monoidal Reedy model structures are discussed in
+
+* Moncef Ghazel, Fethi Kadhi, _Reedy diagrams in V-model categories_, [arXiv:1610.06535](https://arxiv.org/abs/1610.06535), [doi:10.1007/s10485-019-09566-w](https://doi.org/10.1007/s10485-019-09566-w).
+
 
 
 [[!redirects Reedy model category]]
