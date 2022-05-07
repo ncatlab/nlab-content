@@ -41,7 +41,7 @@ An [[elementary topos]] $E$ is **well-pointed** if
 
 ### Strong generation
 
-In a well-pointed topos, the terminal object is even a [[strong generator]],
+In a well-pointed topos, the terminal object is even an [[extremal generator]],
 
   * equivalently: the global section functor $E(1,-)$ is a [[conservative functor]].
   * equivalently: if $f:A\to B$ induces a bijection $E(1,A) \cong E(1,B)$, then $f$ is an isomorphism.
@@ -49,7 +49,7 @@ In a well-pointed topos, the terminal object is even a [[strong generator]],
 
 To prove the last version, let $\chi_A : B\to \Omega$ be the classifying map of $A$, and let $\top : B\to \Omega$ be the classifying map of the maximal subobject.  If every global element $b:1\to B$ factors through $A$, then $\chi_A b = \top b$ for all such $b$.  Hence $\chi_A = \top$ by well-pointedness, so $A$ is isomorphic to the maximal subobject.
 
-Note that in any category with [[equalizers]], a strong generator is automatically a generator, since the equalizer of two parallel morphisms is the maximal subobject just when the two morphisms are equal.  So the above statements are also equivalent to well-pointedness.
+Note that in any category with [[equalizers]], an extremal generator is automatically a generator, since the equalizer of two parallel morphisms is the maximal subobject just when the two morphisms are equal.  So the above statements are also equivalent to well-pointedness.
 
 ### Boolean properties
 
@@ -92,13 +92,13 @@ Incidentally, a well-pointed topos in a constructive metalogic is still "two-val
 
 ### In a pretopos or coherent category
 
-If $E$ is only a [[pretopos]] or a [[coherent category]], we have to strengthen the condition that 1 is a generator to the condition that 1 is a [[separator|extremal generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a extremal generator.
+If $E$ is only a [[pretopos]] or a [[coherent category]], we have to strengthen the condition that 1 is a generator to the condition that 1 is an [[extremal generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a extremal generator.
 
 This strengthening is important in [[predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course, the same applies whenever one is studying an arbitrary pretopos, not just a predicative version of $Set$.
 
 ### In a lextensive category
 
-If $E$ is only a [[lextensive category]], such as in a [[category of sets]] without [[quotient sets]] (as commonly found in the [[syntactic category]] of an [[extensional type theory]]), then $1$ is only a [[initial object|noninitial]] [[indecomposable object|indecomposable]] [[extremal epimorphism|extremal]] [[generator]]. 
+If $E$ is only a [[lextensive category]], such as in a [[category of sets]] without [[quotient sets]] (as commonly found in the [[syntactic category]] of an [[extensional type theory]]), then $E$ is well-pointed if $1$ is only a [[initial object|noninitial]] [[indecomposable object|indecomposable]] [[extremal generator]]. 
 
 ### In more general categories
 
