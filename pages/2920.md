@@ -959,7 +959,7 @@ By the corollary to [[Dugger's theorem]] on presentations for [[combinatorial mo
 Therefore there is little loss in assuming this extra structure, which the following statement of the theorem does.
 
 
-+-- {: .num_theorem }
++-- {: .num_theorem #ExistenceForLeftProperCombinatorialSimplicialModelCategories}
 ###### Theorem
 
 If $C$ is a
