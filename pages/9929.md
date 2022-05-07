@@ -34,7 +34,7 @@ For more detailed introduction see at _[[Introduction to Cobordism and Complex O
 ### In terms of generalized first Chern classes
  {#DefInTermsOfGeneralizedFirstChernClass}
 
-Write $\mathbb{C}P^\infty \simeq B U(1) \simeq K(\mathbb{Z},2)$ for the inifinite [[complex projective space]], equivalently the [[classifying space]] for [[circle group]]-[[principal bundles]] (an [[Eilenberg-MacLane space]]); write $S^2$ for the [[2-sphere]] and write
+Write $\mathbb{C}P^\infty \simeq B U(1) \simeq K(\mathbb{Z},2)$ for the infinite [[complex projective space]], equivalently the [[classifying space]] for [[circle group]]-[[principal bundles]] (an [[Eilenberg-MacLane space]]); write $S^2$ for the [[2-sphere]] and write
 
 $$
   i \;\colon\; S^2 \longrightarrow B U(1)
