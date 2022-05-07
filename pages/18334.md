@@ -84,7 +84,7 @@ Assignment of [[BV-BRST complexes]] as a homotopy AQFT is discussed in
 
 Discussion of [[orbifold|orbifolding]] via [[categorification]]:
 
-* [[Marco Benini]], Marco Perin, [[Alexander Schenkel]], [[Lukas Woike]], _Categorification of algebraic quantum field theories_ Lett. Math. Phys. 2021 ([h)arXiv:2003.13713](https://arxiv.org/abs/2003.13713))
+* [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], [[Lukas Woike]], _Categorification of algebraic quantum field theories_, Lett. Math. Phys. 2021 ([h)arXiv:2003.13713](https://arxiv.org/abs/2003.13713))
 
 
 Application to [[semi-topological 4d Chern-Simons theory]]:
