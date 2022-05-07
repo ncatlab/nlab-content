@@ -14,6 +14,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The **core** of a [[commutative ring]] $R$ consists of those elements for which homomorphisms out of that ring have no choice as to how to act: that is, $r \in R$ such that for any homomorphisms $f,g \colon R \to S$ we must have $f(r) = g(r)$.   By the universal property of the coproduct these are precisely the elements on which the coinjections $i_1, i_2 \colon R \to R + R$ are equal.  Since the coproduct of commutative rings is their tensor product, these are precisely the elements such that
+
+$$    r \otimes 1 = 1 \otimes r \; \in R \otimes_{\mathbb{Z}} R. $$
+
 ## Definition
 
 ### Core of a ring
