@@ -72,6 +72,9 @@ On [[generalized Calabi-Yau manifolds]]:
 
 * [[Mariana Grana]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of N=1 vacua_, [hep-th/0505212](http://arxiv.org/abs/hep-th/0505212)
 
+On [[BPS-states]] in [[string theory]]/[[supergravity]] using [[G-structures]]:
+
+* [[Ruben Minasian]], [[Daniël Prins]], [[Hagen Triendl]], _Supersymmetric branes and instantons on curved spaces_, JHEP 10 (2017) 159 ([arXiv:1707.07002](https://arxiv.org/abs/1707.07002))
 
 
 category: people
