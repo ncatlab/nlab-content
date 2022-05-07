@@ -130,10 +130,12 @@ Original articles include
 
 * {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971. ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
 
-
-A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]]: 
+Textbook accounts
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778))
+
+* {#tomDieck87} [[Tammo tom Dieck]], Section II.6 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
 
 and a more modern version taking into account the theory of [[symmetric monoidal categories of spectra]] is in
 
