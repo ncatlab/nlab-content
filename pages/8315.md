@@ -302,6 +302,14 @@ There are convenient software implementations for large-scale computations of ce
 
 ## References
 
+
+[[!include cohomology -- early references]]
+
+
+
+
+### General
+
 A standard textbook account is from p. 139 on in 
 
 *  [[Allen Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, Cambridge Univ. Press 2002, 
