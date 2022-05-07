@@ -16,6 +16,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 The microscopic geometry of transversal [[Dp-D(p+2)-brane intersections]] and [[Dp-D(p+4)-brane intersections]] look like warped [[non-commutative geometry|non-commutative]] [[metric cones]] on [[fuzzy spheres]] (namely on the spheres around the lower dimensional [[D-branes]] inside the higher dimensional D-branes). These have hence been called _fuzzy funnels_.
 
