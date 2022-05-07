@@ -2,9 +2,10 @@
 
 +-- {: .num_section #sectiona }
 =--
+
 ## Introduction ## {: .num_section}
 
-In ([Michor 1984a](#MR764972)) and ([Michor 1984b](#MR767683)), Michor gives a description of a category of "smooth manifolds" due to himself and Kriegl which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary smooth manifolds in the finite dimensional situation. This is also true in the Banach space situation; it is not stated in the paper, but easy to generalize from the finite dimensional situation.
+In ([Michor 1984a](#MR764972)) and ([Michor 1984b](#MR767683)), Michor gives a description of a category of "smooth manifolds" due to himself and Kriegl which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary [[smooth manifolds]] in the finite dimensional situation. This is also true in the [[Banach space]] situation; which is not stated in the paper, but follows readily from the finite dimensional situation.
 
 
 +-- {: .num_section #sectionb }
@@ -125,10 +126,10 @@ For [[Chen spaces]] and [[diffeological spaces]], the story is similar. Each cat
 
 ## References ##
 
-* {: #MR764972 } P. Michor, (1984). A convenient setting for differential geometry and global analysis. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 63&#8211;109.
+* {: #MR764972 } [[Peter Michor]], (1984). *A convenient setting for differential geometry and global analysis*. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 63&#8211;109.
 
-* {: #MR767683 } P. Michor, (1984). A convenient setting for differential geometry and global analysis. II. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 113&#8211;178.
+* {: #MR767683 } [[Peter Michor]], (1984). *A convenient setting for differential geometry and global analysis. II*. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 113&#8211;178.
 
-* Andreas Kriegl, [[Peter Michor]], [[The Convenient Setting of Global Analysis]], Mathematical Surveys and Monographs, 53 AMS (1997) [pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)
+* [[Andreas Kriegl]], [[Peter Michor]], [[The Convenient Setting of Global Analysis]], Mathematical Surveys and Monographs, 53 AMS (1997) [pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)
 
-* {: #MR2805746 } Stacey, A. (2011). Comparative smootheology. _Theory Appl. Categ._, _25_, No. 4, 64&#8211;117.
+* {: #MR2805746 } [[Andrew Stacey]] (2011). Comparative smootheology. _Theory Appl. Categ._, _25_, No. 4, 64&#8211;117.
