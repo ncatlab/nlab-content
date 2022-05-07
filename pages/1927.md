@@ -18,24 +18,30 @@
 
 An _effective epimorphism_ is a [[morphism]] $c\to d$ in a [[category]] which behaves in the way that a [[covering]] is expected to behave, in the sense that "$d$ is the union of the parts of $c$, identified with each other in some specified way".
 
-A morphism with a [[kernel pair]] (such as any morphism in a category with [[pullbacks]]) is an effective epimorphism if and only if it is a [[regular epimorphism]] and a [[strict epimorphism]].  For morphisms without kernel pairs, the notion of effective epimorphism is of questionable usefulness.
 
 
 ## Definition 
 
-An **effective epimorphism** in a [[category]] $C$ is a [[morphism]] $f : c \to d$ that has a [[kernel pair]] $c \times_d c$ and is the [[quotient object]] of this kernel pair, in that 
+\begin{definition}
+An **effective epimorphism** in a [[category]] $C$ is a [[morphism]] $f \colon c \to d$ that has a [[kernel pair]] $c \times_d c$ and is the [[quotient object]] of this kernel pair, in that 
 
 $$
   c \times_d c \;\rightrightarrows\; c \overset{f}{\to} d
 $$
 
 is a [[colimit]] diagram (a [[coequalizer]]).
+\end{definition}
 
 In other words, this says that $f : c \to d$ is effective if $d$ is the [[coimage]] of $f$.
 
 Sometimes we say that such morphism $f$ is an [[effective quotient]].
 
-The [[duality|dual]] concept is that of [[effective monomorphism]].
+The [[formal duality|dual]] concept is that of [[effective monomorphism]].
+
+\begin{remark}
+A morphism with a [[kernel pair]] (such as any morphism in a category with [[pullbacks]]) is an effective epimorphism if and only if it is a [[regular epimorphism]] (see [there](regular+epimorphism#MorphismsWithKernelPairsAreRegularIffEffective)) and a [[strict epimorphism]].  For morphisms without kernel pairs, the notion of effective epimorphism is of questionable usefulness.
+\end{remark}
+
 
 ## Properties
 
