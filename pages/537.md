@@ -17,7 +17,7 @@
 
 The notion of _disjoint coproduct_ is a generalization to arbitrary [[categories]] of that of _[[disjoint union]]_ of sets.
 
-One says that a [[coproduct]] $X + Y$ of two [[objects]] $X, Y$ in a [[category]] $\mathcal{C}$ is _disjoint_ if the [[intersection]] of $X$ with $Y$ in $X \coprod Y$ is [[initial object|empty]]. In this case one writes $X \coprod Y \coloneqq X + Y$ for the coproduct and speaks of the _[[disjoint union]]_ of $X$ with $Y$.
+One says that a [[coproduct]] $X + Y$ of two [[objects]] $X, Y$ in a [[category]] $\mathcal{C}$ is _disjoint_ if the [[intersection]] of $X$ with $Y$ in $X + Y$ is [[initial object|empty]]. In this case one often writes $X \coprod Y \coloneqq X + Y$ for the coproduct, particularly if the coproduct is [[extensive category|stable under pullbacks]], and speaks of the _[[disjoint union]]_ of $X$ with $Y$.
 
 ## Definition
 
@@ -43,7 +43,7 @@ b & \to & a+b &&&
 a & \to & a+b}
 $$
 
-An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to \coprod_i a_i$ is monic and the intersection of any two is initial.  Note that every 0-ary coproduct (that, is initial object) is disjoint.
+An arbitrary coproduct $\sum_i a_i$ is disjoint if each coprojection $a_i\to \sum_i a_i$ is monic and the intersection of any two is initial.  Note that every 0-ary coproduct (that, is initial object) is disjoint.
 
 ## Examples
 
