@@ -140,6 +140,8 @@ See also:
 ### Spectra
  {#ReferencesSpectra}
 
+Discussion of [[Cayley graph spectrum|Cayley graph spectra]]:
+
 * [[László Lovász]], *Spectra of graphs with transitive groups*, Period. Math. Hungar., 6(2):191–195,1975 ([doi:10.1007/BF02018821](https://doi.org/10.1007/BF02018821), [pdf](https://web.cs.elte.hu/~lovasz/scans/spectra-of-graphs.pdf))
 
 * [[László Babai]], *Spectra of Cayley graphs*, Journal of Combinatorial Theory, Series B Volume 27, Issue 2, October 1979, Pages 180-189 (<a href="https://doi.org/10.1016/0095-8956(79)90079-0">doi:10.1016/0095-8956(79)90079-0</a>)
