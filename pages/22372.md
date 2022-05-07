@@ -23,8 +23,11 @@ $Spin(11,3)$ denotes the [[spin group]]-cover of the [[Lorentz groups]] in [[sig
 
 ## Related entries
 
-* [[Spin(10,2)]]
 * [[D=14 supersymmetry]]
+
+* [[Spin(10,2)]]
+
+* [[Spin(9,1)]]
 
 [[!include low dimensional rotation groups -- table]]
 
