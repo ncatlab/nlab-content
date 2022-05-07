@@ -17,7 +17,7 @@ He made fundamental contributions to the study of mathematical [[general relativ
 
 On [[Penrose graphical notation]] ([[string diagrams]]) for [[tensor]]-calculus:
 
-* [[Roger Penrose]], _Applications of negative dimensional tensors_, Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf))
+* [[Roger Penrose]], _Applications of negative dimensional tensors_, Combinatorial Mathematics and its Applications, Academic Press (1971) ([pdf](http://www2.math.uic.edu/~kauffman/Penrose.pdf), [[PenroseNegativeDimensionalTensors.pdf:file]])
 
 * [[Roger Penrose]], _Angular momentum: An approach to combinatorial spacetime_, in Ted Bastin (ed.) _Quantum Theory and Beyond_, Cambridge University Press (1971), pp.151-180 ([[PenroseAngularMomentum71.pdf:file]])
 
