@@ -21,7 +21,7 @@ It is claimed ([IUTT IV](#IUTTIV)) that a proof of the [[abc conjecture]] can be
 
 ## Overview of the proof
 
-### Dénouement
+### Dénouement {#Dénouement}
 
 The logic of the final part of Mochizuki's approach to the [[abc conjecture]] is fairly straightforward in outline, and not, as far we know, a point of contention. We describe it here, deliberately using completely different notation from the IUTT papers to bring out the structure of the argument. Throughout, we shall assume that we have certain data $\mathbb{M}$, which we shall treat as a black box.
 
@@ -38,7 +38,7 @@ The logic of the final part of Mochizuki's approach to the [[abc conjecture]] is
 
 \end{assum}
 
-\begin{thm} (Conditional on Corollary 3.12 of IUT III) The abc conjecture holds. \end{thm} 
+\begin{thm} (Conditional on Corollary 3.12 of IUTT III) The abc conjecture holds. \end{thm} 
 
 \begin{proof} Follows immediately from Corollary \ref{CorollaryInequalityForConstant} and Assumption \ref{AssumptionConstantInvolvedInAbcConjecture}. \end{proof}
 
@@ -46,6 +46,24 @@ The logic of the final part of Mochizuki's approach to the [[abc conjecture]] is
 
 That Assumption \ref{AssumptionConstantInvolvedInAbcConjecture} holds is the main purpose of [IUTT IV](#IUTTIV). It is established by Theorem 1.10 and Corollary 2.2. Theorem 1.10 establishes the particular inequality of the form $c_{\mathbb{M}} \geq -1$ that will be made use of; Corollary 2.2 specialises and refines it to an inequality which directly implies the abc conjecture. As far we know, these parts of the argument are expected to be sound.
 \end{rmk}
+
+### The key corollary
+
+As discussed in the previous section, the cornerstone of the IUTT series papers (at least with regard to the abc conjecture) is Corollary 3.12 in [IUTT III](#IUTTIII). We attempt here to explain certain aspects of this corollary. We shall continue to use completely different notation from the IUTT papers to try to bring out certain key ideas. To begin with, we shall continue to assume that we have a black box of data $\mathbb{M}$.
+
+\begin{assum} There is a certain subset $T_{\mathbb{M}}$ of $\mathbb{R} \cup \{ \infty \}$, where $\mathbb{R}$ is the [[real number|set of real numbers]].  \end{assum}  
+
+\begin{assum} There is a real number $q_{\mathbb{M}}$. \end{assum}
+
+There are two key aspects to Corollary 3.12 in [IUTT III](#IUTTIII), which we now state.
+
+\begin{thm} \label{TheoremIUTTMain} (If correct!) For any $t_{\mathbb{M}} \in T_{\mathbb{M}}$, we in fact have that $t_{\mathbb{M}} \neq \infty$, and thus that $t_{\mathbb{M}} \in \mathbb{R}$. Moreover, $-t_{\mathbb{M}} \geq -q_{\mathbb{M}}$. \end{thm}
+
+\begin{rmk} A major point of confusion in attempts to understand Mochizuki's work has surrounded what Mochizuki refers to as 'indeterminacies'. At the level we are working at here, things are clear: all that matters is that $t_{\mathbb{M}}$ may be any one of a set of possible real numbers (what this set is is described precisely by Mochizuki, but this is irrelevant to the question of understanding the logic of the overall argument), whilst $q_{\mathbb{M}}$ is a specific real number. 
+
+In particular, the [dénouement](#Dénouement) of Mochizuki's argument to prove the abc conjecture goes through regardless of the choice of $t_{\mathbb{M}}$ amongst the set $T_{\mathbb{M}}$.  
+\end{rmk} 
+
 
 ## Related concepts
 
