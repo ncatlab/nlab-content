@@ -72,7 +72,7 @@ Review in view of modern gravitational wave detection (see [below](#ReferencesEx
 * Rong-Gen Cai et al., *The Gravitational-Wave Physics*, National Science Review 4 (2017) 687-706 ([arXiv:1703.00187](https://arxiv.org/abs/1703.00187), [doi:10.1093/nsr/nwx029](https://doi.org/10.1093/nsr/nwx029))
 
 
-* Ligong Bian et al., *The Gravitational-Wave Physics II: Progress* ([arXiv:2106.10235](https://arxiv.org/abs/2106.10235))
+* Ligong Bian et al., *The Gravitational-Wave Physics II: Progress*, Sci. China Phys. Mech. Astron. 2021 ([arXiv:2106.10235](https://arxiv.org/abs/2106.10235), [spire:1869296](https://inspirehep.net/literature/1869296))
 
 ### Theoretical predictions
   {#eferencesTheoreticalPredictions}
