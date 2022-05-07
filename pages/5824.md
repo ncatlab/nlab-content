@@ -26,18 +26,29 @@ In [[category theory]], the *pasting law* or *pullback lemma* is a statement abo
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[category]] or more generally an [[(∞,1)-category]] or [[derivator]]. Consider a [[commuting diagram]] in $\mathcal{C}$ of the following shape:
+Let $\mathcal{C}$ be a [[category]] or more generally an [[(∞,1)-category]]. Consider a [[commuting diagram]] in $\mathcal{C}$ of the following shape:
 
 
-$$
-  \array{
-    x & \longrightarrow & y & \longrightarrow & z
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    u & \longrightarrow & v & \longrightarrow & w
-  }
-$$
+\begin{tikzcd}
+  {}
+  \ar[r]
+  \ar[d]
+  &
+  {}
+  \ar[r]
+  \ar[d]
+  &
+  {}
+  \ar[d]
+  \\
+  {}
+  \ar[r,]
+  &
+  {}
+  \ar[r]
+  &
+  {}  
+\end{tikzcd}
 
 Then:
 
@@ -52,6 +63,7 @@ For **proof** see
 * for [[category theory]]: at _[pullback -- pasting law](pullback#Pasting)_
 
 * for [[(∞,1)-category theory]]: at _[(∞,1)-limit -- pushout pasting law](limit+in+a+quasi-category#PushoutPasting)_
+
 
 
 ## Related statements
@@ -74,6 +86,42 @@ $$
 
 in which the total rectangle (consisting of $x,z,u,w$) is a pullback, and moreover the induced map $y\to v\times z$ is a [[monomorphism]].  Then the left-hand square (consisting of $x,y,u,v$) is also a pullback.
 =--
+
+In a [[regular category]] this also works in the other direction, if the bottom left morphisms is a [[regular epimorphism]]:
+\begin{proposition}
+\label{WrongWayPastingLawInRegularCategory}
+  In a [[regular category]], consider a [[commuting diagram]] of the form
+\begin{tikzcd}
+  {}
+  \ar[r]
+  \ar[d]
+  \ar[dr,phantom,"\mbox{\tiny(pb)}"]
+  &
+  {}
+  \ar[r]
+  \ar[d]
+  &
+  {}
+  \ar[d]
+  \\
+  {}
+  \ar[r, ->>]
+  &
+  {}
+  \ar[r]
+  &
+  {}  
+\end{tikzcd}
+where 
+
+1. the left square is a [[pullback]];
+
+1. the bottom left morphism is an [[regular epimorphism]].
+
+Then right right square is a pullback iff the total rectangle is.
+\end{proposition}
+(e.g. [Gran 2020, Lem. 1.15](regular+category#Gran20))
+
 
 Another related statement involves a pair of rectangles and equalizers.
 
