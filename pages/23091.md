@@ -230,11 +230,11 @@ Textbook accounts:
 ### Outlook
  {#ReferencesOutlook}
 
-Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
+Indications of open questions and possible future directions in [[algebraic topology]] and ([[stable homotopy theory|stable]]) [[homotopy theory]]:
+
+* [[Mark Hovey]], *[Algebraic Topology Problem List](https://www-users.cse.umn.edu/~tlawson/hovey/)*
 
 * [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
-
-and in
 
 * {#ProblemsInHomotopyTheoryWiki} _Problems in homotopy theory_ ([wiki](http://topology-octopus.herokuapp.com/problemsinhomotopytheory/show/HomePage))
  
