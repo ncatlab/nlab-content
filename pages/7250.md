@@ -29,12 +29,13 @@ Relation to the [[group completion theorem]]:
 
 See also:
 
-* Dustin Clausen, _Plus construction considerations_, [MO:a/121351](http://mathoverflow.net/a/121351/2503)
+* [[Dustin Clausen]], _Plus construction considerations_, [MO:a/121351](http://mathoverflow.net/a/121351/2503)
 
-Discussion in [[(∞,1)-category theory]]:
+Discussion in [[(∞,1)-category theory]] in relation to [[epimorphism in an (infinity,1)-category|$(\infty,1)$-epimorphisms]]:
 
-* {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf))
+* {#Raptis17} [[George Raptis]], *Some characterizations of acyclic maps*, Journal of Homotopy and Related Structures volume 14, pages 773–785 (2019) 2017 ([arxiv:1711.08898](https://arxiv.org/abs/1711.08898), [doi:10.1007/s40062-019-00231-6](https://doi.org/10.1007/s40062-019-00231-6))
 
+* {#Hoyois19} [[Marc Hoyois]], *On Quillen's plus construction*, 2019 ([pdf](http://www.mathematik.ur.de/hoyois/papers/acyclic.pdf), [[Hoyois_PlusConstruction.pdf:file]])
 
 
 
