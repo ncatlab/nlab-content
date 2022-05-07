@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -344,7 +345,7 @@ A space is [[extremally disconnected]] iff the closure of an open subset is open
 
 * *$X$ is [[extremally disconnected]].
 
-{#IllustrationOfLiftingForT2} This is represented by the following lifting property diagram. 
+{#IllustrationOfLiftingForExtremallyDisconnected} This is represented by the following lifting property diagram. 
 
 \begin{tikzcd}
 [
