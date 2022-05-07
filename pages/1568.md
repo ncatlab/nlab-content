@@ -141,6 +141,7 @@ That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; tha
 
 * [[germ-determined ideal]]
 
+* [[ideal in a monoid]]
 
 [[!redirects ideal]]
 [[!redirects ideals]]
