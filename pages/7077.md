@@ -16,27 +16,43 @@
 
 ## Idea
 
-A _locally cartesian closed model category_ is a [[locally cartesian closed category]] which is equipped with the structure of a [[model category]] in a compatible way.
+A _locally cartesian closed model category_ is a [[locally cartesian closed category]] which is equipped with the structure of a [[model category]] in a compatible way, namely such that all right [[base change]]-[[adjunctions]] along [[fibrations]] are [[Quillen adjunctions]], hence such that all their [[dependent product]]-functors are [[right Quillen functors]].
+
+\begin{remark}\label{RelationToCartesianClosedModelCategories}
+**(relation to [[cartesian closed model categories]])** \linebreak
+Beware that, despite the terminology, the axioms on a locally cartesian closed model category (Def. \ref{LocallyCartesianClosedModelCategory}) do *not* imply that the underlying [[model category]] (or any of its [[slice model categories]]) is a [[cartesian closed model category]] -- and in most examples this is not the case. Namely, the axioms here (eq:RightBaseChangeQuillenAdjunction) only require [[Quillen functors]] in one variable (the second variable for [[internal homs]], with the other variable a fixed [[fibrant object]]) where those of a [[cartesian closed model category]] require [[Quillen bifunctors]].
+\end{remark}
 
 ## Definition
 
-A [[model category]] $\mathcal{C}$ which is additionally a [[locally cartesian closed category]] is called a **locally cartesian closed model category** if for any [[fibration]] $g\colon A\to B$ between [[fibrant objects]], the [[dependent product]]/[[base change]] [[adjunction]]
-$$ 
-  g^* 
-  \;\colon\; 
-  \mathcal{C}/B 
-     \rightleftarrows 
-  \mathcal{C}/A 
-  \;\colon\; 
-  \Pi_g 
-$$
-is a [[Quillen adjunction]] between the corresponding [[slice model structures]].
+\begin{definition}\label{LocallyCartesianClosedModelCategory}
+**(locally cartesian closed model category)** \linebreak
+A **locally cartesian closed model category** is
 
-Concretely, this means that both [[cofibrations]] and [[trivial cofibrations]] are [[pullback-stability|stable]] under [[pullback]] along fibrations between fibrant objects.
+* a [[model category]] $\mathcal{C}$,
 
-Equivalently this means that for all $A \to B$ as above the [[internal hom]] [[adjunction]] in the [[slice category]] over $B$
+* whose underlying category is a [[locally cartesian closed category]] 
 
-$$
+* such that for evert [[fibration]] $g\colon A\to B$ between [[fibrant objects]], the [[dependent product]]/[[base change]] [[adjunction]]
+
+  $$ 
+    g^* 
+    \;\colon\; 
+    \mathcal{C}/B 
+       \rightleftarrows 
+    \mathcal{C}/A 
+    \;\colon\; 
+    \Pi_g 
+  $$
+
+  is a [[Quillen adjunction]] between the corresponding [[slice model structures]].
+
+Concretely, this means that both [[cofibrations]] and [[trivial cofibrations]] are [[pullback-stability|stable]] under [[pullback]] along fibrations between [[fibrant objects]].
+
+Equivalently this means that for all [[fibrations]] $A \to B$ the [[internal hom]] [[adjunction]] in the [[slice category]] over $B$
+
+\[
+  \label{RightBaseChangeQuillenAdjunction}
   (-) \times_{\mathcal{C}/_B} A 
   \;:\;
   \mathcal{C}/_B
@@ -44,9 +60,10 @@ $$
   \mathcal{C}/_B
   \;:\;
   [A, -]_{\mathcal{C}/_B}
-$$
+\]
 
 is a [[Quillen adjunction]].
+\end{definition}
 
 
 ## Examples
