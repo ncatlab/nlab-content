@@ -90,6 +90,8 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 
   * [[loop space]], [[free loop space]], [[derived loop space]]
 
+* [[pointed (∞,1)-category]], [[pointed model category]]
+
 * [[suspension object]]
 
   * [[suspension]], **reduced suspension**
@@ -105,3 +107,9 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
     * [[Sullivan model of a suspension]]
 
 [[!redirects reduced suspensions]]
+
+[[!redirects reduced suspension object]]
+[[!redirects reduced suspension objects]]
+
+
+
