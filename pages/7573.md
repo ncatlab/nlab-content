@@ -34,7 +34,7 @@ $$
 
 * a sheaf precisely if every such comparison map is [[(-2)-truncated]], namely an [[equivalence]].
 
-More generally, in [[(n,1)-topos]] theory, the plus-construction is applied $(n+1)$-times in a row to an [[(n,1)-presheaf]] (a presheaf of $(n-1)$-groupoids), at each step decreasing the truncatedness of the comparison map until at the last step it becomes an actual [[(n,1)-sheaf]]; see [Anel and Leena Subramaniam, 2020](#ALS).  When $n=\infty$, even a countable sequence of applications does not suffice, but a transfinite one does; see [Lurie, section 6.5.3](#Lurie).
+More generally, in [[(n,1)-topos]] theory, the plus-construction is applied $(n+1)$-times in a row to an [[(n,1)-presheaf]] (a presheaf of $(n-1)$-groupoids), at each step decreasing the truncatedness of the comparison map until at the last step it becomes an actual [[(n,1)-sheaf]], a.k.a. stack; see [Anel and Leena Subramaniam, 2020](#ALS).  When $n=\infty$, even a countable sequence of applications does not suffice, but a transfinite one does; see [Lurie, section 6.5.3](#Lurie).
 
 ## Definition
 
@@ -60,16 +60,16 @@ The first and last of these definitions also work for higher sheaves on higher s
 
 ## Construction of sheafification
 
-The basic property of the plus-construction is that we can construct [[sheafification]] by iterating it.  For ordinary presheaves of sets, two iterations suffice: for any presheaf $A$, $A^+$ is separated, while if $A$ is separated then $A^+$ is a sheaf; thus $A^{++}$ is the sheafification of any presheaf $A$.
+The basic property of the plus-construction is that we can construct [[sheafification]] (a.k.a. stack completion, in the higher-categorical case) by iterating it.  For ordinary presheaves of sets, two iterations suffice: for any presheaf $A$, $A^+$ is separated, while if $A$ is separated then $A^+$ is a sheaf; thus $A^{++}$ is the sheafification of any presheaf $A$.
 
 +-- {: .num_remark}
 ###### Remark
 Note, though, that $(-)^+ : PSh(C) \to SepPSh(C)$ is not left adjoint to the inclusion $\iota : SepPSh(C) \hookrightarrow PSh(C)$ of the full subcategory of separated presheaves. If it were, it would be a [[reflector]] and therefore satisfy $(-)^+ \circ \iota \cong Id$. But this is false, since the plus construction applied to separated presheaves yields their sheafification. See [this MathOverflow question](http://mathoverflow.net/questions/49486/the-single-plus-construction-is-not-the-left-adjoint-of-the-inclusion-of-separat) for details.
 =--
 
-More generally, when working with presheaves of $n$-groupoids for some finite $n$, it takes $n+2$ iterations for the plus-construction to converge to a sheaf.  In the case $n=\infty$, no finite number of iterations suffices, and not even a countable number, but a transfinite number does.
+More generally, when working with presheaves of $n$-groupoids for some finite $n$, it takes $n+2$ iterations for the plus-construction to converge to a sheaf/stack.  In the case $n=\infty$, no finite number of iterations suffices, and not even a countable number, but a transfinite number does.
 
-We now sketch a proof of these facts, using the [[implicit infinity-category convention]] so that our results apply to higher sheaves as well as ordinary ones.
+We now sketch a proof of these facts, using the [[implicit infinity-category convention]] so that our results apply to higher sheaves/stacks as well as ordinary ones.
 
 We use the fourth definition above $A^+ = Lan_{r^{op}} Ran_{s^{op}} A$, which we will write more shortly as $A^+ = r_! s_* A$.  There is a canonical map $A\to A^+$, which we can more easily construct and study with the following observation:
 
@@ -83,6 +83,8 @@ We use the fourth definition above $A^+ = Lan_{r^{op}} Ran_{s^{op}} A$, which we
 \end{proof}
 
 Thus, we can identify $Psh(C)$ with either the [[discrete objects]] or [[codiscrete objects]] in $Psh(J)$, via the fully faithful functors $r^*$ or $s_*$.  If we regard $A\in Psh(C)$ as the discrete object $r^*A$, then the plus-construction is similarly identified with $r^* r_! s_* s^* r^* A$.  Thus $r^*(A^+)$ can be written as $&#643; \sharp r^* A$, where $&#643; = r^* r_!$ is the reflector into the discrete objects and $\sharp = s_* s^*$ is the reflector into the codiscrete objects.
+
+The rest of the proof can actually be carried out "synthetically" in the [[internal logic|internal]] [[homotopy type theory]] of the cohesive topos $Psh(J)$.  This argument is formalized [in the HoTT/Coq library](#HoTTplus).  But here we formulate the argument externally and categorically.
 
 \begin{lemma}\label{PlusWellPointed}
 The plus-construction is a [[well-pointed endofunctor]].  That is, we have a natural transformation $\eta : A \to A^+$ and a homotopy (an equality in the case $n=0$) $\theta : \eta_{A^+} \sim (\eta_A)^+$.  Moreover, the whiskered homotopy $\theta \eta_A$ is homotopic to the naturality square $\eta_{A^+} \circ \eta_A \sim (\eta_A)^+ \circ \eta_A$.
@@ -153,7 +155,7 @@ Since the plus-construction preserves finite limits, it suffices to observe that
 
 So far everything has been very formal.  The concrete input from the fact that we are talking about a Grothendieck topology comes here:
 
-\begin{lemma}
+\begin{lemma}\label{#Composing}
 If $f:A\to B$ is a [[monomorphism in an (infinity,1)-category|monomorphism]] that is plus-connected, then $f^+ : A^+ \to B^+$ is an equivalence.
 \end{lemma}
 \begin{proof}
@@ -176,6 +178,13 @@ If $A$ is $n$-separated, then by definition $\eta_A : A\to A^+$ is $n$-truncated
 Thus, by induction, if $A$ is $n$-separated, the $(n+2)$-th iteration of the plus-construction is $(n-(n+2))$-separated, i.e. $(-2)$-separated, i.e. a sheaf.
 \end{proof}
 
+\begin{remark}
+Note that we do not need to know that the category $J$ is obtained as the category of covering sieves for a topology on $C$.  We only need that there is a projection $r:J\to C$ that is a fibration with cofiltered fibers and a fully faithful right adjoint, plus the result of Lemma \ref{Composing}.  In particular, $J$ could be a "mono-saturated lex modulator" in the sense of [ALS](#ALS), generating a non-topological localization of $Psh(C)$.
+\end{remark}
+
+\begin{remark}
+We can also construct left exact localizations of non-presheaf toposes in this way.  If $E$ is a topos that is itself a left exact localization of some presheaf topos $Psh(C)$, then a lex modulator on $E$ induces a $J$ as above, and by composing the reflectors $&#643;$ and $\sharp$ with the reflection into $E$ we can make the same argument work to construct a left exact localization of $E$.
+\end{remark}
 
 ## Related concepts
 
@@ -206,6 +215,10 @@ Amer. J. Math. 84 1962 205&#8211;216, [MR144341](http://www.ams.org/mathscinet-g
 The plus-construction is studied for higher sheaves, and shown to converge after $n+2$ steps for $n$-presheaves, in
 
 * {#ALS} [[Mathieu Anel]], Chaitanya Leena Subramaniam.  _Small object arguments, plus-construction, and left-exact localizations_.  [arxiv:2004.00731](https://arxiv.org/abs/2004.00731), 2020.
+
+The above argument is formalized in the internal logic of $Psh(J)$ here:
+
+* {#HoTTplus} Canonical binary meets of subuniverses, <https://github.com/HoTT/HoTT/blob/master/theories/Modalities/Meet.v>
 
 [[!redirects plus-construction on presheaves]]
 [[!redirects plus constructions on presheaves]]
