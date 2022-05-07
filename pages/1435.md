@@ -87,3 +87,6 @@ category: category
 
 [[!redirects category of commutative rings]]
 [[!redirects categories of commutative rings]]
+
+[[!redirects CommutativeRings]]
+
