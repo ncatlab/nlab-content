@@ -1,4 +1,6 @@
 
+> this entry needs attention
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,9 +21,9 @@
 
 ## Definition
 
-A non-[[empty category|empty]] [[full subcategory|full]] [[triangulated subcategory]] is called _thick_ (or __&#233;paisse__) if it is closed under taking [[direct summands]] (e.g. [Murayama, Def. 11](#Murayama)).
+A non-[[empty category|empty]] [[full subcategory|full]] (pre-)[[triangulated subcategory]] is called _thick_ (or __&#233;paisse__) if it is "closed under [[direct summands]]" (e.g. [Murayama, Def. 11](#Murayama), see [Stacks Project, Def. 13.6.1](#StacksProject05RA)).
 
-Sometimes this is considered in the generality of [[abelian categories]], where a thick subcategory is an [[additive category|additive]] [[full subcategory]] which closed under taking [[direct summands]], [[kernels]] of [[epimorphisms]], [[cokernels]] of [[monomorphisms]], and [[extensions]] (e.g. [Dichev 2009](#Dichev09)).
+Sometimes this is considered in the generality of [[abelian categories]], where a thick subcategory is something like an [[additive category|additive]] [[full subcategory]] which is closed under [[direct summands]], [[kernels]] of [[epimorphisms]], [[cokernels]] of [[monomorphisms]], and [[extensions]] (e.g. [Dichev 2009](#Dichev09)).
 
 > The following needs harmonizing.
 
@@ -60,7 +62,7 @@ A basic example is the quotient of the category of abelian groups modulo the tor
 A thick subcategory (here always in the strong sense) is said to be [[localizing subcategory|localizing]] if $T$ is thick and the canonical functor $Q$ admits a right adjoint $A/T\to A$, often called the __section functor__. In other words $A/T$ is a reflective subcategory of $A$. Every coreflective thick subcategory $T$ admits a section functor, and the converse holds if $A$ has injective envelopes. A thick subcategory $T\subset A$ is a coreflective iff $(T,F)$ is a [[torsion theory]] where
 
 $$
-F := \{X\in Ob A\,|\,A(T,X) = 0\}
+F \coloneqq \{X\in Ob A\,|\,A(T,X) = 0\}
 $$
 
 ## Thick subcategories and saturation
@@ -77,13 +79,16 @@ Conversely, let $\Sigma$ be a saturated class of morphisms of $A$ with a calculu
 
 * [[thick subcategory theorem]]
 
-## Link
 
-* Springer eom: [localization of categories](http://eom.springer.de/l/l060290.htm)
 
 ## References
 
 * [[Pierre Gabriel]], _Des cat&#233;gories ab&#233;liennes_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
+
+* {#StacksProject05RA} [[The Stacks Project]], *[Quotients of triangulated categories](https://stacks.math.columbia.edu/tag/05RA)*
+
+* [[eom]], *[Localization of categories](http://eom.springer.de/l/l060290.htm)*
+
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, lecture 26, _Thick subcategories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture26.pdf))
 
