@@ -91,25 +91,14 @@ These are the [[Cartesian product]] $AdS_4 \times (S^7/G)$ of 4-[[dimension|dime
 
 ## Properties
 
-### Higher gerbes on spherical space forms
+### Concordances of higher gerbes over spherical space forms
  {#HigherGerbesOnSphericalSpaceForms}
 
-Let $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$ be a [[finite group]] equipped with a [[continuous function|continuous]] [[free action]] on the [[n-sphere]] $S^{n+2}$ for some $n \in \mathbb{N}$. We write
+We discuss the [[concordance]] [[infinity-groupoid|$\infty$-groupoid]] of $\Gamma$-[[principal bundles]] on [[spherical space forms]] $S^{n+2}/G$ in that case that the [[topological group]] $\Gamma$ is a [[homotopy n-type]].
 
-\[
-  \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
-  S^{n+2}
-  \overset{\; q \;}{\twoheadrightarrow}
-  S^{n+2}/G
-  \;\;\;
-  \in
-  \;
-  TopSp
-\]
+In more detail:
 
-for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical space form]].
-
-Moreover, let $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] is a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]].
+Let $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] is a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]] for some $n \in \mathbb{N}$:
 
 \[
   \label{GammaIsNTruncated}
@@ -121,40 +110,27 @@ Moreover, let $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[und
   \,.
 \]
 
-(For example, $\Gamma = $ [[U(1)]] if $n \geq 1$, or $\Gamma \,=\,$ [[PU(ℋ)]] if $n \geq 2$.)
+(For example, $\Gamma = $ [[U(1)]] for any $n \geq 1$, or $\Gamma \,=\,$ [[PU(ℋ)]] for any $n \geq 2$.)
 
-This implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
+Moreover, let  $S^{n+2}/G$ be a [[spherical space form]] of [[dimension of a manifold|dimension]] $n+2$, hence the [[topological quotient space|quotient space]] of the [[n-sphere|$(n+2)$-sphere]] $S^{n+2}$ 
+by a [[free action]] of a [[finite group]]
+$G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$. We write
 
-$$
-  \tau_{n+1} Shp(\Gamma) \,\simeq\, Shp(\Gamma)
+\[
+  \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
+  S^{n+2}
+  \overset{\phantom{--} q \phantom{--}}{\twoheadrightarrow}
+  S^{n+2}/G
   \;\;\;
   \in
   \;
-  Grp_\infty
-$$
-
-and hence that every $\Gamma$-principal bundle on $S^n$ is [[isomorphism|isomorphic]] to the [[trivial bundle]]:
-
-\[
-  \label{UniqueGerbesOnNSphere}
-  \tau_0 \Gamma PrnBdl(TopSp)_X
-  \;\;
-  \simeq
-  \;\;
-  Maps
-  \big(
-    Shp(S^n) 
-    ,\,
-    B \Gamma
-  \big)
-  \;\;
-  \simeq
-  \;\;
-  \ast
-  \,.
+  TopSp
 \]
 
-Here we write 
+for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical space form]].
+
+
+We will write:
 
 $$
   \array{
@@ -186,6 +162,9 @@ for
 
 1. its associated [[D-topological space|D-]][[topological stack]] $\mathbf{B}\Gamma$ regarded as an object in [[smooth infinity-groupoid|$SmthGrpd_\infty$]].
 
+
+\begin{definition}
+\label{ShapesOfMappingStacks}
 Consider the following two [[infinity-groupoid|$\infty$-groupoids]]:
 
 The [[shape modality|cohesive shape]] of the [[mapping stack]] from $\mathbf{B}G$ to $\mathbf{B}\Gamma$
@@ -234,7 +213,7 @@ The [[shape modality|cohesive shape]] of the [[mapping stack]] from $\mathbf{B}G
   \Big)  
   \;\simeq\;
   \end{aligned}
-  \;\;
+  \!\!\!\!\!\!\!\!\!
   \left(
     \array{
       \vdots
@@ -252,6 +231,7 @@ The [[shape modality|cohesive shape]] of the [[mapping stack]] from $\mathbf{B}G
         \big(
           G \rightrightarrows \ast
         \big)
+        \times \Delta^2
         ,\,
         \big(
           \Gamma \rightrightarrows \ast
@@ -269,6 +249,7 @@ The [[shape modality|cohesive shape]] of the [[mapping stack]] from $\mathbf{B}G
         \big(
           G \rightrightarrows \ast
         \big)
+        \times \Delta^1
         ,\,
         \big(
           \Gamma \rightrightarrows \ast
@@ -338,7 +319,7 @@ and the [[shape modality|cohesive shape]] of the [[mapping stack]] from the [[sp
   \Big)  
   \;\simeq\;
   \end{aligned}
-  \;\;
+  \!\!\!\!\!\!\!\!\!
   \left(
     \array{
       \vdots
@@ -356,6 +337,7 @@ and the [[shape modality|cohesive shape]] of the [[mapping stack]] from the [[sp
         \big(
           S^{n+2} \times G \rightrightarrows S^{n+2}
         \big)
+        \times \Delta^2
         ,\,
         \big(
           \Gamma \rightrightarrows \ast
@@ -373,6 +355,7 @@ and the [[shape modality|cohesive shape]] of the [[mapping stack]] from the [[sp
         \big(
           S^{n+2} \times G \rightrightarrows S^{n+2}
         \big)
+        \times \Delta^1
         ,\,
         \big(
           \Gamma \rightrightarrows \ast
@@ -397,16 +380,56 @@ and the [[shape modality|cohesive shape]] of the [[mapping stack]] from the [[sp
   \right)
 \]
 
-
-
 In both cases we are showing on the right the canonical [[simplicial sets]] which present these $\infty$-groupoids, obtained by 
 
 1. using the expression of [[shape via cohesive path ∞-groupoid|snooth shape via the smooth path $\infty$-groupoid]] (by [this Prop.](shape+via+cohesive+path+∞-groupoid#SmoothShapeModelityGivenBySmoothPathInfinityGroupoid)),
 
 1. the fact that the [[simplex category|simplicial]] [[homotopy colimit]] of $\infty$-groupoids presented by [[simplicial sets]] is given by the [[diagonal of a bisimplicial set|diagonal]] of the corresponding [[bisimplicial set]] (by [this Prop.](bisimplicial+set#DiagonalAsSimplicialHomotopyColimit)).
 
+\end{definition}
 
-There is a canonical comparison morphism between these $\infty$-groupoids, given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n+2} \xrightarrow{\; p\;} \ast$:
+\begin{example}
+\label{OneMorphismInShapeOfMappingStackFromSphericalSpaceFormToBGamma}
+  A [[1-morphism]] in (eq:ShapeOfMappingStackFromSphericalSpaceFormToBGamma)
+from a bundle $P_0\vert_0$ to a bundle $P_1\vert_1$ over $S^{n+2}/G$ is a diagram of [[homomorphisms]] of [[principal bundles]] of this form:
+
+\begin{tikzcd}
+    P_0\vert_0
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny (pb)}"]
+    &
+    P_0
+    \ar[d, "p_0"]
+    \ar[r, "\phi"{above}, "\sim"{below}] 
+    &
+    P_1
+    \ar[d, "p_1"]
+    \ar[dr, phantom, "\mbox{\tiny (pb)}"]
+    &
+    P_1\vert_1
+    \ar[d]
+    \ar[l]
+    \\
+    S^{n+2}/G \times \{0\}
+    \ar[r, hook]
+    &
+    S^{n+2}/G \times [0,1]
+    \ar[r,-,shift left=1pt]
+    \ar[r,-,shift right=1pt]
+    &
+    S^{n+2}/G \times [0,1]
+    &
+    S^{n+2}/G \times \{1\}
+    \ar[l, hook']
+\end{tikzcd}
+
+\end{example}
+
+\begin{definition}
+\label{ComparisonMorphismBetweenShapesOfMappingStacks}
+There is a canonical comparison morphism between the shapes of mapping stacks in Def. \ref{ShapesOfMappingStacks},
+given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n+2} \xrightarrow{\; p\;} \ast$:
 
 \[
   \label{ComparisonMorphismBetweenShapesOfMappingStacks}
@@ -433,6 +456,7 @@ There is a canonical comparison morphism between these $\infty$-groupoids, given
   \,
   \,.
 \]
+\end{definition}
 
 We now discuss what this morphism does on [[homotopy groups]].. 
 
@@ -444,15 +468,46 @@ $\,$
   the canonical [[function]]
   $$
     Hom(G,\Gamma)_{/\sim_{conj}}
-    \overset{\phantom{----}}{\twoheadrightarrow}
-    \big(
+    \xrightarrow{\phantom{--}\sim\phantom{--}}
+    \Big(
       \Gamma PrnBdl(TopSp)_{S^{n + 2}/G}
-    \big)_{/\sim_{iso}}
+    \Big)_{/\sim_{iso}}
   $$
-is a [[surjection]].
+  is an [[isomorphism]].
 \end{lemma}
 \begin{proof}
-According to (eq:UniqueGerbesOnNSphere), every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/G$ trivializes when [[pullback bundle|pulled back]] along the coprojection $q$ (eq:CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms). The corresponding [[Cech cohomology|Cech cocycle]] is a [[topological functor]]
+The $n$-truncation condition (eq:GammaIsNTruncated) on $\Gamma$ implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
+
+$$
+  \tau_{n+1} Shp(\Gamma) \,\simeq\, Shp(\Gamma)
+  \;\;\;
+  \in
+  \;
+  Grp_\infty
+$$
+
+and hence that every $\Gamma$-principal bundle on $S^{n+2}$ is [[isomorphism|isomorphic]] to the [[trivial bundle]]:
+
+\[
+  \label{UniqueGerbesOnNSphere}
+  \tau_0 \Gamma PrnBdl(TopSp)_{S^{n+2}}
+  \;\;
+  \simeq
+  \;\;
+  Maps
+  \big(
+    Shp(S^{n+2}) 
+    ,\,
+    B \Gamma
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \ast
+  \,.
+\]
+
+Therefore, every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/G$ trivializes when [[pullback bundle|pulled back]] along the coprojection $q$ (eq:CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms). The corresponding [[Cech cohomology|Cech cocycle]] is a [[topological functor]]
 
 $$
   \big(
@@ -679,7 +734,7 @@ Moreover, notice the following sequence of [[natural equivalences]] [[equivalenc
   \end{array}
 \]
 
-The composite of these bijections (eq:MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace) is that induced by pre-composition with 
+The composite of these [[weak homotopy equivalence|equivalences]] (eq:MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace) is again the morphism induced by pre-composition with 
 
 $$
   S^{n+2} \xrightarrow{\; p \;} \ast
@@ -816,22 +871,31 @@ Now, by [[functor|functoriality]] of the [[nerve]]-operation followed by [[topol
 
 Here
 
-* the top and bottm horizontal functions are bijections by (eq:CocyclesToClassifyingMapsIsBijection),
+* the top and bottom horizontal functions are bijections by (eq:CocyclesToClassifyingMapsIsBijection),
 
 * the right vertical functions are bijections by (eq:MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace).
 
 By commutativity of the total rectangle, 
-this implies that the left vertical functions exhibit a [[retraction]], as shown. With this, the commutativity of the two squares separately each implies that the middle horizontal function is a surjection, as shown.
+this implies that the left vertical functions exhibit a [[retraction]], as shown, in particular the bottom left function is [[surjective]]. (Moreover, the commutativity of the two squares separately each implies that the middle horizontal function is also a surjection, as shown.)
+
+But the bottom left function is clearly also [[injective]]: If $\phi \colon S^{n+2} \xrightarrow{\;} \Gamma$ is a Cech coboundary between Cech cocycles that are constant along $S^{n+2}$, then $\phi(\ast)$ conjugates the corresponding [[group homomorphisms]] into each other. 
+
+Therefore the bottom left morphism is both injective as well as surjective, hence bijective.
 \end{proof}
+
 
 
 More generally, the analogous conclusion evidently still holds for $\Gamma$-principal bundles on the [[topological product space]] $S^{n+2}/G \times \Delta^k$ with the [[topological k-simplex]]
 
 $$
+  \tau_0
+  \,
   \Gamma PrnBdl(TopSp)_{S^{n+2}/G \times \Delta^k}
   \;\;
    \simeq
   \;\;
+  \tau_0
+  \,
   TopFunc
   \big(
     S^{n+2} \times G \times \Delta^k
@@ -846,109 +910,219 @@ $$
 
 \begin{lemma}
 \label{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivalentlyHaveConstantUnderlyingBundle}
-  Every [[1-morphism]] in 
+  Every [[1-morphism]] 
+  in 
   $\esh \,Maps\big( S^{n+2}/G ,\, \mathbf{B}\Gamma \big)$
-  (eq:ShapeOfMappingStackFromSphericalSpaceFormToBGamma)
+  (Exp. \ref{OneMorphismInShapeOfMappingStackFromSphericalSpaceFormToBGamma})
   is equivalent (homotopic relative its endpoints) to 
   one of the form
-  $$
+  \[
+  \label{OneMorphismInShapeOfMappingStacksOutOfAConstantBundle}
   \array{
-    P_0 \times [0,1]
-    &\xrightarrow{\;\;}&
-    P
+    P \times \Delta^1
+    &\xrightarrow{\phantom{--}}&
+    P'
     \\
     \big\downarrow
+    {}^{\mathrlap{p \times id_{[0,1]}}}
     &&
     \big\downarrow
+    {}^{\mathrlap{p'}}
     \\
-    S^{n+2}/G \times [0,1]
+    S^{n+2}/G \times \Delta^1
     &=&
-    S^{n+2}/G \times [0,1]
+    S^{n+2}/G \times \Delta^1
   }
-  $$
-\end{lemma}
-
-\begin{lemma}
-\label{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaParallelToOneComingFromShapeOfMapsFromBGToBGamma}
-  Every [[1-morphism]] in 
-  $\esh \,Maps\big( S^{n+2}/G ,\, \mathbf{B}\Gamma \big)$
-  (eq:ShapeOfMappingStackFromSphericalSpaceFormToBGamma)
-  is [[parallel morphism|parallel]] to
-  (has some [[source]] and [[target]] as) 
-  one in the image of 
-  $$
-    TopFun
-    \big(
-      (G \rightrightarrows \ast)
-      ,\,
-      (\Gamma \rightrightarrows \ast)
-    \big)_1
-    \xrightarrow{\; p^\ast \;}
-    TopFun
-    \big(
-      (S^{n+2} \times G \rightrightarrows S^{n+2})
-      ,\,
-      (\Gamma \rightrightarrows \ast)
-    \big)_1    
-  $$  
+  \]
 \end{lemma}
 \begin{proof}
-By Lemma \ref{ConjugacyClassesOfGroupHomomorphismsSurjectOnPrincipalBundlesOverSphericalSpaceForm}
-and Lemma
-\ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivalentlyHaveConstantUnderlyingBundle}
-we may assume without restriction that the underlying bundle is constant
-along $\Delta^1$ on one whose transition function is constant on $S^{n+2}$. The remaining data in the 1-morphism is a continuous function
+  By the [[classifying space|classification theory]] of principal bundles (or, more concretely, by the proof of [this Prop.](concordance#ConcordantTopologicalPrincipalBundlesAreIsomorphic)), every principal bundle on a [[cylinder]] like $S^{n+2}/G  \times [0,1]$ is isomorphic to the constant re-extension of its restriction to one end of the cylinder. With the given 1-morphism denoted as in Exp. \ref{OneMorphismInShapeOfMappingStackFromSphericalSpaceFormToBGamma} we write $\ell$ for such an isomorphism onto its $P_0$-component:
+
+\begin{tikzcd}
+    &
+    P_0
+    \ar[dd, "p_0"{description}]
+    \\
+    P_0\vert_0 \times \Delta^1
+    \ar[dd, "p_0\vert_0 \,\times\, \mathrm{id}_{[0,1]}"{description}]
+    \ar[ur, "\ell"{above}, "\sim"{below, sloped}]
+    &
+    \\
+    &
+    S^{n+2}/G \times \Delta^1
+    \\
+    S^{n+2}/G \times \Delta^1
+    \mathrlap{\,,}
+    \ar[ur, -, shift left=1pt]
+    \ar[ur, -, shift right=1pt]
+\end{tikzcd}
+
+which is such that the restriction of $\ell$ to $\{0\} \subset [0,1]$ is the [[identity morphism]]
+
+\[
+  \label{RestrictionOfEllToLeftEndpointIsIdentity}
+  \ell\vert_0 \;\colon\; P_0 \xrightarrow{\; id \;} P_0
+  \mathrlap{\,.}
+\]
+
+
+From this we may construct the following  [[2-morphism]] in (eq:ShapeOfMappingStackFromSphericalSpaceFormToBGamma):
+
+\[\label{A2MorphismInShapeOfMappingStackWithDegeenrateTwoFace}\]
+\begin{tikzcd}[column sep={between origins, 90pt}]
+    &
+    s_0^\ast
+    (
+      P_0
+    )
+    \ar[dd]
+    \ar[dr, "s_0^\ast\phi"{above}, "\sim"{sloped, below}]
+    &[-6pt]
+    \\
+    s_0^\ast
+    (
+      P_0\vert_0 \times \Delta^1
+    )
+    \ar[ur, "s_0^\ast(\ell)"{above}, "\sim"{below, sloped}]
+    \ar[rr, crossing over]
+    \ar[dd]
+    &
+    &
+    s_0^\ast
+    (
+      P_1
+    )
+    \ar[dd]
+    \\
+    &
+    S^{n+2}/G \times \Delta^2
+    \ar[dr, -, shift left=1pt]
+    \ar[dr, -, shift right=1pt]
+    \\
+    S^{n+2}/G \times \Delta^2
+    \ar[ur, -, shift left=1pt]
+    \ar[ur, -, shift right=1pt]
+    \ar[rr, -, shift left=1pt]
+    \ar[rr, -, shift right=1pt]
+    &&
+    S^{n+2}/G \times \Delta^2
+\end{tikzcd}
+
+Here $\sigma_1 \,\colon\, \Delta^2 \to \Delta^1$ denotes the map of [[topological simplices]] which collapses the 2-[[face]]:
+
+\begin{tikzcd}
+    \Delta^1
+    \ar[r, "\delta_2"]
+    \ar[
+      rr,
+      rounded corners,
+      to path={
+        -- ([yshift=-7pt]\tikztostart.south)
+        -- node[below]{\scalebox{.7}{$\mathrm{const}_0$}}
+          ([yshift=-7pt]\tikztotarget.south)
+        -- (\tikztotarget.south)        
+      }
+    ]
+    &
+    \Delta^2 
+    \ar[r, "\sigma_1"]
+    & 
+    \Delta^1
+    &[10pt]
+    \Delta^1
+    \ar[r, "\delta_{0,1}"]
+    \ar[
+      rr,
+      rounded corners,
+      to path={
+        -- ([yshift=-7pt]\tikztostart.south)
+        -- node[below]{\scalebox{.7}{$\mathrm{id}$}}
+          ([yshift=-7pt]\tikztotarget.south)
+        -- (\tikztotarget.south)        
+      }
+    ]
+    &
+    \Delta^2 
+    \ar[r, "\sigma_1"]
+    & 
+    \Delta^1
+    \mathrlap{\,.}
+\end{tikzcd}
+
+Therefore the 2-[[face]] of the above [[2-morphism]] (eq:A2MorphismInShapeOfMappingStackWithDegeenrateTwoFace) is degenerate (where the last step uses (eq:RestrictionOfEllToLeftEndpointIsIdentity)):
+
 $$
+  \begin{aligned}
+    \delta_2^\ast
+    \big(
+      \sigma_1^\ast(\ell)
+    \big)
+    &
+    \;=\;
+    const_0^\ast(\ell)
+    \\
+    &
+    \;=\;
+    \ell\vert_0 \times id_{\Delta^1}
+    \\
+    &
+    \;=\;
+    id_{P_0} \times id_{\Delta^1}
+    \;=\;
+    id_{ P_0 \times \Delta^1 }
+    \mathrlap{\,,}
+  \end{aligned}
+$$
+
+while the 0-[[face]] is the original morphism $\phi$ 
+
+$$
+  \delta_0^\ast
+  \big(
+    s_0^\ast(\phi)
+  \big)
+  \;=\;
+  \mathrm{id}_{\Delta^1}^\ast(\phi)
+  \;=\;
   \phi
-  \,\colon\,
-  \Delta^1 \times S^{n+2}
-  \xrightarrow{\;\;}
-  \Gamma
-  \,.
+  \,,
 $$
-By the truncation assumption (eq:GammaIsNTruncated) this map has a continuous deformation to one that is constant along $S^{n+2}$ on $\phi(1,\ast)$.
+
+and the 1-[[face]] is of the claimed form (eq:OneMorphismInShapeOfMappingStacksOutOfAConstantBundle):
+
+$$
+  \begin{aligned}
+    \delta_1^\ast
+    \big(
+      s_0^\ast(\phi)
+      \circ
+      s_0^\ast(\ell)
+    \big)
+    & 
+    \;=\;
+    \delta_1^\ast
+    \big(
+      s_0^\ast( \phi \circ \ell )
+    \big)
+    \\
+    &
+    \;=\;
+    \phi \circ \ell
+    \;\colon\;
+    P_0\vert_0 \xrightarrow{\;} P_1
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+Hence the 2-morphism (eq:A2MorphismInShapeOfMappingStackWithDegeenrateTwoFace) exhibits the claimed homotopy relative endpoints.
 \end{proof}
 
-\begin{proposition}
-  The comparison morphism (eq:ComparisonMorphismBetweenShapesOfMappingStacks) is an [[isomorphism]] on [[connected components]].
-$$
-  \pi_0
-  \big(
-    \esh \, Map(p/\!\!/G,\,\mathbf{B}\Gamma)
-  \big)
-  \;\colon\;
-  \pi_0
-  \,
-  \esh
-  \,
-  Map
-  \big(
-    \mathbf{B}G
-    ,\,
-    \mathbf{B}\Gamma
-  \big)
-  \xrightarrow{\;\; \sim \;\;}
-  \esh
-  \,
-  Map
-  \big(
-    S^{n+2}/G
-    ,\,
-    \mathbf{B}\Gamma
-  \big)
-$$
-\end{proposition}
-\begin{proof}
-  It is [[surjective]] by Lem. \ref{ConjugacyClassesOfGroupHomomorphismsSurjectOnPrincipalBundlesOverSphericalSpaceForm}
-and [[injective]] by Lemma \ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaParallelToOneComingFromShapeOfMapsFromBGToBGamma}.
-\end{proof}
 
 (...)
 
 
 ## Literature
 
-Historical articles
+Historical articles:
 
 * {#Killing1891} [[Wilhelm Killing]], _Ueber die Clifford-Klein’schen Raumformen_, Math. Ann. 39 (1891), 257–278 ([doi:10.1007/BF01206655](https://doi.org/10.1007/BF01206655))
 
