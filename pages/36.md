@@ -60,6 +60,28 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
         &=&
         G
       }
+      \;\;\;\;\;\;\;\;
+      \array{
+        \ast \times G
+        &
+        \overset{
+          e \times id
+        }{\longrightarrow}
+        &
+        G \times G
+        \\
+        {}^{\mathllap{
+           \simeq
+        }} 
+        \big\uparrow
+        &&
+        \big\downarrow
+        {}^{{}_{\mathrlap{ m }}}
+        \\
+        G 
+        &=&
+        G
+      }
     $$
 
   * [[associativity]]
@@ -86,22 +108,62 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
 
     $$
       \array{
+        G
+        &
+        \overset{
+          diag
+        }{
+          \longrightarrow
+        }
+        &
         G \times G
         &
           \overset{ id \times (-)^{-1} }{\longrightarrow}
         &
         G \times G
         \\
-        \big\downarrow
+        &
+        \searrow
+        &
         &&
         \big\downarrow {}^{_{\mathrlap{m}}}
         \\
+        &&
         \ast
         &
         \underset{ e }{\longrightarrow}
         &
         G
       }
+      \;\;\;\;\;\;\;\;\;
+      \array{
+        G
+        &
+        \overset{
+          diag
+        }{
+          \longrightarrow
+        }
+        &
+        G \times G
+        &
+          \overset{ (-)^{-1} \times id }{\longrightarrow}
+        &
+        G \times G
+        \\
+        &
+        \searrow
+        &
+        &&
+        \big\downarrow {}^{_{\mathrlap{m}}}
+        \\
+        &&
+        \ast
+        &
+        \underset{ e }{\longrightarrow}
+        &
+        G
+     }
     $$
 
 
