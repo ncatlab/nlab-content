@@ -1289,7 +1289,7 @@ Precursor discussion:
 
 The original definition:
 
-* {#tomDieck69} [[Tammo tom Dieck]], _Faserb&uuml;ndel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
+* {#tomDieck69} [[Tammo tom Dieck]], _Faserbündel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
 
