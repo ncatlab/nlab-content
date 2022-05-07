@@ -17,7 +17,7 @@
 
 ## Idea
 
-Several classes of [[string theory vacua]] require the presence of exactly 24 [[branes]] of [[codimension]] 4 transverse to a [[K3-surface]]-[[fiber]]; this happens notably:
+Several classes of [[string theory vacua]] require the presence of exactly [[24]] [[branes]] of [[codimension]] 4 transverse to a [[K3-surface]]-[[fiber]]; this happens notably:
 
 * in [[F-theory]] on an [[elliptically fibered K3-surface]], which requires/implies the presence of 24 [[D7-branes]] ([Sen 96, p. 5](#Sen96)),
 
