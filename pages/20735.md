@@ -256,6 +256,10 @@ See also:
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
+On the [[ordinary cohomology]] of the moduli space of YM-monopoles:
+
+* [[Graeme Segal]], Alex Selby, *The cohomology of the space of magnetic monopoles*, Commun. Math. Phys. 177, 775–787 (1996) ([doi:10.1007/BF02099547](https://doi.org/10.1007/BF02099547))
+
 The special case of [[gauge group]] [[SU(3)]]:
 
 * F. A. Bais, [[Bernd Schroers]], *Quantisation of Monopoles with Non-abelian Magnetic Charge*, Nucl. Phys. B512 (1998) 250-294 ([arXiv:hep-th/9708004](https://arxiv.org/abs/hep-th/9708004))
