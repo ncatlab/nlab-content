@@ -118,3 +118,17 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+
+#### For Dyson-Schwinger equations
+ {#ForDysonSchwingerEquations}
+
+Discussion of [[round chord diagrams]] organizing [[Dyson-Schwinger equations]]:
+
+* Nicolas Marie, [[Karen Yeats]], *A chord diagram expansion coming from some Dyson-Schwinger equations*, Communications in Number Theory and Physics, 7(2):251291, 2013 ([arXiv:1210.5457](https://arxiv.org/abs/1210.5457))
+
+* Markus Hihn, [[Karen Yeats]], *Generalized chord diagram expansions of Dyson-Schwinger equations*, Ann. Inst. Henri Poincar Comb. Phys. Interact. 6 no 4:573-605 ([arXiv:1602.02550](https://arxiv.org/abs/1602.02550))
+
+Review in:
+
+* Ali Assem Mahmoud, Section 3 of: *On the Enumerative Structures in Quantum Field Theory* ([arXiv:2008.11661](https://arxiv.org/abs/2008.11661))
