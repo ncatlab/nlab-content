@@ -47,7 +47,7 @@ $$
   }
 $$
 
-is just the same as data a function $X \to F$. We think of the projection $X \times F \overset{pr_2}{\to} X$ as encoding the fact that there is one copy of $F$ associated with each point of $X$, and think of a function with values in $F$ as something that, of course, takes values in $F$ over each point of $X$. One says that this projection, suggestively shown vertically,
+is just the same data as a function $X \to F$. We think of the projection $X \times F \overset{pr_2}{\to} X$ as encoding the fact that there is one copy of $F$ associated with each point of $X$, and think of a function with values in $F$ as something that, of course, takes values in $F$ over each point of $X$. One says that this projection, suggestively shown vertically,
 
 $$
   \array{
