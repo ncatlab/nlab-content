@@ -1723,6 +1723,9 @@ Further exposition:
 
 * [[Introduction to Topology -- 2]], *[Groupoids](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+2#Groupoid)*
 
+* Alberto Santini, *Topological groupoids* ([pdf](http://web.math.ku.dk/~moller/students/alberto.pdf))
+
+  > (about groupoids in [[topology]], notably [[fundamental groupoids]] -- not about [[topological groupoids]])
 
 See also:
 
