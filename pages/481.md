@@ -36,6 +36,18 @@ A **Heyting functor** is a [[coherent functor]] between Heyting categories which
 
 Any [[topos]], and in fact any [[well-powered category|well-powered]] [[infinitary coherent category]], is a Heyting category.  Any [[Boolean category]] is also a Heyting category.
 
+## Related concepts
+
+* [[Boolean category]]
+
+* [[De Morgan category]]
+
+* [[Heyting pretopos]]
+
+* [[elementary topos]]
+
+* [[Heyting algebra]]
+
 ## References
 
 * [[Peter Freyd]], Andre Scedrov, _[[Categories, Allegories]]_
