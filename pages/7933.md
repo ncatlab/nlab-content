@@ -264,7 +264,7 @@ $$
 
   [[differential fivebrane structure|differential second fractional Pontryagin class]] 
 
-  $\tfrac{1}{6}\hat \mathbf{p}_2 : \mathbf{B}String_{conn} \to \mathbf{B}^z U(1)_{conn}$
+  $\tfrac{1}{6}\hat \mathbf{p}_2 : \mathbf{B}String_{conn} \to \mathbf{B}^7 U(1)_{conn}$
 
 So [[Planck's constant]] here is  $\hbar = 6$ (relative to the naive multiple).
 
