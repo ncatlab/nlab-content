@@ -1,4 +1,26 @@
 
+
+$$
+  H_{\bullet+1}(B) 
+  \longrightarrow
+  H_\bullet
+  \big(
+    A \times_B C 
+  \big)
+  \xrightarrow{ (pr_1, p^\ast(f)) }
+  H_\bullet
+  \big(
+    A \oplus C
+  \big)
+  \xrightarrow{ f - p }
+  H_\bullet(B) 
+  \longrightarrow
+  H_{\bullet-1}
+  \big(
+    A \times_B C 
+  \big)
+$$
+
 \begin{prop}
   The [[pullback]] $p^\ast f$ of a [[quasi-isomorphism]] $f$ of [[chain complexes]] along a degreewise [[surjection]] $p$ of chain complexes is itself a quasi-isomorphism:
 
@@ -64,10 +86,22 @@ $$
       H_n(f) \;\colon\; H_n(A) \xrightarrow{\;\simeq\;} H_n(B)
     $$ 
 
-  * $p \;\colon\; C \to B$ be a [[chain map]] which is a [[surjection]] in degree $n+1$
+  * $p \;\colon\; C \to B$ be a [[chain map]] which is a [[surjection]] in degrees $n+1$ and $n + 2$
 
     $$
-      p_{n+1} \;\colon\; C_{n+1} \overset{\;\;\;\;}{\twoheadrightarrow} B_{n+1}
+      \array{
+        p_{n+1} 
+        &\colon\;& 
+        C_{n+1} 
+        \overset{\;\;\;\;}{\twoheadrightarrow} 
+        B_{n+1}
+        \\
+        p_{n+2} 
+        &\colon\;& 
+        C_{n+2} 
+        \overset{\;\;\;\;}{\twoheadrightarrow} 
+        B_{n+2}
+      }
     $$
 
 Then the [[pullback]] $p^\ast(f)$ is also an [[isomorphism]] on [[chain homology]] in degree $n$:
@@ -91,7 +125,7 @@ $  H_n
    p^\ast(f)
   \big) 
 $
-is an [[injection]]: Consider a [[cycle]] $(a_n, c_n) \in A \times_B C$ whose image under $p^\ast(f)$ becomes exact:
+is an [[injection]]: Consider a [[cycle]] $(a_n, c_n) \in A_n \times_{B_n} C_n$ whose image under $p^\ast(f)$ becomes exact:
 
 * $d(a_n,c_n) = 0$,
 
@@ -99,7 +133,7 @@ is an [[injection]]: Consider a [[cycle]] $(a_n, c_n) \in A \times_B C$ whose im
 
 We need to show that then also $(a_n, c_n)$ is exact.
 
-It follows that also $f(a_n)$ is exact, because:
+First, it follows that also $f(a_n)$ is exact, because:
 
 $$
   \begin{array}{lll}
@@ -128,6 +162,57 @@ $$
   f(a_{n+1}) = p(c'_{n+1})
   \,.
 $$
+
+Since 
+
+$$
+  \partial p(c_{n+1} - c'_{n+1}) = 0
+$$
+
+there is
+
+$$
+  f(a_{n+2}) = p(c_{n+1} - c'_{n+1}) + \partial b_{n+2}
+$$
+
+now
+
+$$
+  f(a_{n+1} + \partial a_{n+2})
+  \;=\;
+  f(a_{n+1}) + \partial b_{n+2}
+  \;=\;
+  p(c'_{n+1}) + p(c_{n+1} - c'_{n+1})
+  \;=\;
+  p(c_{n+1})
+$$
+
+So 
+
+$$
+  \big(
+    a_{n+1} + \partial a_{n+2}
+    ,\,
+    c_{n+1}
+  \big)
+  \;\in\;
+  A_{n+1} \underset{B_{n+1}}{\times} C_{n+1}
+$$
+
+and
+
+$$
+  \partial
+  \big(
+    a_{n+1} + \partial a_{n+2}
+    ,\,
+    c_{n+1}
+  \big)
+  \;=\;
+  (a_n, c_n)
+  \,.
+$$
+
 
 Since, in summary, this implies that 
 
