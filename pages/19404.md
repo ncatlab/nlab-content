@@ -38,7 +38,7 @@ For more on this see at _[[group actions on n-spheres]]_.
 ### 7-dim spherical space forms with $Spin$-structure
  {#7DSphericalSpaceFormsWithSpinStructure}
 
-For $n =7$ all the groups $G$ in [Wolf's classification](#Wolf74) [[action|act]] as [[subgroups]] of [[special orthogonal group|SO(8)]], the latter equipped with its defining action on $\mathbequib{R}^8$ restricted to the action on $S^7 = S(\mathbb{R}^8) \subset \mathbb{R}^8$.
+For $n =7$ all the groups $G$ in [Wolf's classification](#Wolf74) [[action|act]] as [[subgroups]] of [[special orthogonal group|SO(8)]], the latter equipped with its defining action on $\mathbb{R}^8$ [[restriction|restricted]] to the action on the [[7-sphere]] $S^7 = S(\mathbb{R}^8) \subset \mathbb{R}^8$.
 
 Therefore one may consider the [[lift]] $\widehat{G}$ of these [[subgroups]] to subgroups of the [[spin group]] $Spin(8) \to SO(8)$ through the [[double cover]]-projection. Such a lift corresponds to a choice of [[spin structure]] on the [[spherical space form]] $S^7/G$.  These Spin-lifts $\widehat{G}$, have been classified in ([Gadhia 07](#Gadhia07)).
 
