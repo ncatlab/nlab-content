@@ -381,7 +381,7 @@ which is part of a [[long exact sequence of homotopy groups|long exact homotopy 
 #### For general topological base spaces
  {#ForMoreGeneralTopologicalSpaces}
 
-Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not neccesarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
+Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not necessarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
 
 For $\Sigma$ any [[surface]], the [[fundamental group]] of the (ordered) [[configuration space of points]] in $\Sigma$ may be regarded as generalized (pure) braid group.
 This group is of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
