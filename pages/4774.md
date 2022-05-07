@@ -117,7 +117,7 @@ that is the identity on $\mathfrak{g}^*$.
 
 ## Applications
 
-* A [[covariant derivative]] is the 1-form [[curvature]] of [[∞-Lie algebra valued forms|Lie algebroid valued differential forms]] with values in an actoin Lie algebroid.
+* A [[covariant derivative]] is the 1-form [[curvature]] of [[∞-Lie algebra valued forms|Lie algebroid valued differential forms]] with values in an action Lie algebroid.
 
 * [[equivariant de Rham cohomology]]
 
