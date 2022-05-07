@@ -136,25 +136,27 @@ Further discussion of the [[D-topology]] is in [CSW 13](#CSW13).
 
 $$  
   Sing_{diff}
-  \,
+  \left(
   Maps_{Dfflg}
   \big(
      X
      ,\,
      A
   \big)
+  \right)
   \underoverset
     {\in \mathrm{W}_{wh}}
     {}
     {\longrightarrow}
   Sing
-  \,
+  \left(
   Maps_{Top}
   \big(
      X
      ,\,
      A
   \big)
+  \right)
 $$
 \end{proposition}
 \begin{proof}
