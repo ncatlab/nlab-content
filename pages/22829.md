@@ -44,5 +44,10 @@ See also:
 
 * Wikipedia, *[Cyclic category](https://en.wikipedia.org/wiki/Cyclic_category)*
 
+In the context of [[geometric realization of topological stacks|geometric realization]] of [[loop stacks]] and [[inertia stacks]]:
+
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 7.2 of: _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__ 2 (2004) 185-201 ([arxiv:math.AT/0210222](http://arxiv.org/abs/math/0210222), [doi:10.1093/qmath/hag053](https://doi.org/10.1093/qmath/hag053))
+
+
 [[!redirects cyclic spaces]]
 
