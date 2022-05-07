@@ -471,9 +471,16 @@ Textbook accounts:
 
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
-See also
+See also:
 
 * Wikipedia: _[Braid group](http://en.wikipedia.org/wiki/Braid_group)_
+
+* Joshua Lieber, *Introduction to Braid Groups*, 2011 ([pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lieber.pdf))
+
+* Juan González-Meneses, *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, Tome 18 (2011) no. 1, pp. 15-59 ([ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0))
+
+* Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
+
 
 On the [[group homology]] and [[group cohomology]] of braid groups:
 
@@ -485,6 +492,13 @@ For orderings of the braid group see
 
 * H. Langmaack, _Verbandstheoretische Einbettung von Klassen unwesentlich verschiedener Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
 
+### Braid group representations
+
+On [[linear representations]] of braid groups (see also at *[[braid group statistics]]*):
+
+* [[Camilo Arias Abad]], *Introduction to representations of braid groups* ([arXiv:1404.0724](https://arxiv.org/abs/1404.0724))
+
+* R. B. Zhang, *Braid group representations arising from quantum supergroups with arbitrary $q$ and link polynomials*, Journal of Mathematical Physics 33, 3918 (1992) ([doi:10.1063/1.529840](https://doi.org/10.1063/1.529840))
 
 ### Relation to moduli space of monopoles
 
