@@ -71,6 +71,10 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * G.S.H. Cruttwell, Bruno Gavranović, [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
 
+Quantum neural networks (in [[quantum computation]] for [[quantum machine learning]]):
+
+* Iris Cong, Soonwon Choi & Mikhail D. Lukin, *Quantum convolutional neural networks*, Nature Physics volume 15, pages 1273–1278 (2019)  ([doi:10.1038/s41567-019-0648-8](https://doi.org/10.1038/s41567-019-0648-8))
+
 
 
 ### Relation to tensor networks
