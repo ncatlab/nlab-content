@@ -490,11 +490,9 @@ This is part of the statement of the [[Quillen adjunction]] between then [[class
 \begin{proof}\label{ProofThatPointInclusionsInLocallyEuclideanHausdorffSpacesArehCofibs}
 By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]] $U$ which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$. Now let:
 
-* $\epsilon \,\in\, (0,\epsilon)$ be a [[positive number|positive]] [[real number]];
-
 * $K \;\coloneqq\; B_{\leq 1}(0)$ the [[closed ball]] (hence [[compact space|compact]] by [[Heine-Borel theorem|Heine-Borel]]) around the origin in $\mathbb{R}^n$ of unit [[radius]];
 
-* $U \;\coloneqq\; B_{\lt 1 + \epsilon}(0)$ the [[open ball]] around the origin of [[radius]] $1 + \epsilon$;
+* $V \;\coloneqq\; B_{\lt 1}(0)$ the [[open ball]] around the origin of [[radius]] $1$;
 
 * $\phi \colon X \to[0,1]$ be given by 
 
@@ -504,7 +502,7 @@ By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]]
 
   It is manifest that this is a well defined function and that the [[restrictions]] $\phi|_{U}$ and $\phi|_{X\setminus K}$ are [[continuous functions]]. Moreover, since [[compact subspaces of Hausdorff spaces are closed]], $X \setminus K$ is [[open subset|open]] and $\big\{ U ,\, X \setminus K \big\}$ is an [[open cover]] of $X$. Therefore (by the [[sheaf]]-property of continuous functions), $\phi$ is continuous on all of $X$. 
 
-* $\eta \colon (\vec x, t) \mapsto (1-t)\cdot \vec x$.
+* $\eta \colon V\times[0,1]\to X$ the homotopy given by $(\vec x, t) \mapsto (1-t)\cdot \vec x$.
 
 It is immediate to see that this data satisfies the conditions discussed in Prop. \ref{CharactrerizationViaNeighbourhoodDeformation}. Since [[Hausdorff spaces]] are [[T1|$T_1$]],  so that all of their points are [[closed point|closed]], that proposition applies and implies the claim.
 \end{proof}
