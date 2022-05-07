@@ -62,4 +62,6 @@ Traditional physics arguments along these lines include for instance
 
 * [[Luis Alvarez-Gaumé]], _Supersymmetry and the Atiyah-Singer index theorem_, Comm. Math. Phys. Volume 90, Number 2 (1983), 161-173. ([EUCLID](http://projecteuclid.org/euclid.cmp/1103940278))
 
+* Florian Hanisch, Matthias Ludewig, _A Rigorous Construction of the Supersymmetric Path Integral Associated to a Compact Spin Manifold_, ([arXiv:1709.10027](https://arxiv.org/abs/1709.10027))
+
 [[!redirects Atiyah-Singer index theorems]]
