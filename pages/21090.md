@@ -141,6 +141,7 @@ Markov categories as defined here appear in:
 * {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, 2019. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
 * [[Tobias Fritz]] and Eigil Fjeldgren Rischel, _The zero-one laws of Kolmogorov and Hewitt--Savage in categorical probability_, 2019. ([arXiv:1912.02769](http://arxiv.org/abs/1912.02769))
+* Tobias Fritz, Tomáš Gonda, Paolo Perrone, Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, [arXiv:2010.07416](https://arxiv.org/abs/2010.07416)
 
 See also the references therein.
 
