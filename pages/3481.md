@@ -52,7 +52,7 @@ The third is a weaker condition, and while some may refer to as a "weak axiom of
 
 * An extension of this argument shows that [[COSHEP]] is sufficient to imply AMC.
 
-* The [[Reflection Principle]] (RP) is equivalent to AMC (the one called strong AMC by van den Berg). RP is motivated by the regular extension principle (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
+* The [[Reflection Principle]] (RP) is equivalent to AMC (the one called strong AMC by van den Berg). RP is motivated by the [[regular extension axiom]] (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
 
 * However, AMC does not imply [[countable choice]] or any of the other usual consequences of AC.
 
