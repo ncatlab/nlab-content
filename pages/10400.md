@@ -27,3 +27,14 @@ if each of its constituent parts (positive and negative), converges; the sum of 
 Notion to cover later: principal value of a double series
 
 
+## Related concepts
+
+* [[finite set]], [[finite series]], [[polynomial]]
+
+* [[natural numbers]], [[infinite series]], [[power series]]
+
+* [[integers]], **doubly infinite series**, [[Laurent series]]
+
+* [[rational numbers]], series indexed in rationals, [[Puiseux series]]
+
+* [[real numbers]], [[definite integral]], [[Fourier transform]]
