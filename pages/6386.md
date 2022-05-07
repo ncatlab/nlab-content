@@ -46,6 +46,11 @@ Given a [[field]] $k$, an algebraic __[[number field]]__ $K$ over $k$ is a finit
 
 An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coefficients. Equivalently, an element $\alpha$ of a field extension $K$ of $\mathbb{Q}$ is an algebraic integer if the [[ring]] $\mathbb{Z}[\alpha]$ is of finite [[rank]] as a $\mathbb{Z}$-module. It follows easily from this characterization that the collection of all algebraic integers forms a commutative ring. 
 
+### In p-adic complex numbers ###
+
+A p-adic complex number $\alpha \in \overline{\mathbb{C}_p}$ is called __transcendental__ if the [[p-adic norm]] of the difference of $\alpha$ and every algebraic number is positive:
+
+$$\mathrm{isTranscendental}(\alpha) \coloneqq \forall \beta \in \overline{\mathbb{Q}}.\vert \alpha - \beta \vert_p \gt 0$$ 
 
 ## Related concepts
 
