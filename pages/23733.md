@@ -16,12 +16,12 @@
 
 ## Definition ##
 
-Given a [[commutative monoid]] $(M, \cdot, 1)$, we say that $a$ *divides* $b$ ($a \vert b$) if there exists a [[natural number]] $c$ such that $a \cdot c = b$ and $c \cdot a = b$. 
+Given a [[commutative monoid]] $(M, \cdot, 1)$, we say that [[element]] $a \in M$ *divides* $b \in M$ ($a \vert b$) if there exists an element $c \in M$ such that $a \cdot c = b$ and $c \cdot a = b$. 
 
-Let $F \colon CRing \to CMon$ be the [[forgetful functor]] from [[CRing]] to [[CMon]]. Given a [[commutative ring]] $R$, let us define the [[cancellative monoid]] $R^\times$ as the cancellative [[submonoid]] of the multiplicative monoid $F(R)$ such that every other cancellative submonoid $S$ of $F(R)$ is a cancellative submonoid of $R^\times$. 
+Let $F \colon CRing \to CMon$ be the [[forgetful functor]] from [[CRing]] to [[CMon]] that only remember the multiplicative monoid structure of commutative rings. Given a [[commutative ring]] $R$, let us define the [[cancellative monoid]] $\mathrm{Can}(R)$ as the cancellative [[submonoid]] of the multiplicative monoid $F(R)$ such that every other cancellative submonoid $S$ of $F(R)$ is a cancellative submonoid of $\mathrm{Can}(R)$. 
 
 \begin{definition}
-A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in R^\times$ and $b \in R^\times$, there is an element $c \in R^\times$ such that $c \vert a$ and $c \vert b$, and for every other element $d \in R^\times$ such that $d \vert a$ and $d \vert b$, $d \vert c$. 
+A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)s$, there is an element $c \in \mathrm{Can}(R)$ such that $c \vert a$ and $c \vert b$, and for every other element $d \in \mathrm{Can}(R)$ such that $d \vert a$ and $d \vert b$, $d \vert c$. 
 \end{definition}
 
 ## See also ##
@@ -29,6 +29,8 @@ A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in R^\
 * [[commutative ring]]
 
 * [[GCD domain]]
+
+* [[reciprocal ring]]
 
 * [[field]]
 
