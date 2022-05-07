@@ -356,7 +356,7 @@ A more intrinsic characterization of these "[[model toposes]]" ([Rezk 2010](#Rez
 
 The generalization of these [[model toposes]] from 1-sites to [[simplicial site|simplicial]] [[model sites]] is due to
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics 193.2 (2005): 257-372. ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
+* {#ToenVezzosi05} [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics 193.2 (2005): 257-372. ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
 
 The term *$\infty$-topos* is due to 
 
