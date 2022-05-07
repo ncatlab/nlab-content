@@ -7,7 +7,7 @@
 
 There are many [[conjectures]] due to [[Edward Witten]]; but by _the Witten conjecture_  one usually refers to the statement proven in ([Kontsevich 92](#Kontsevich92)) with new proofs due to [Mirzakhani 07a](#Mirzakhani07a), [Mirzakhani 07b](#Mirzakhani07b) and others.
 
-This is about a [[generating function]] for [[intersection pairing]] numbers of Mumford-Morita-Miller stable classes on the compactification of a [[moduli space of punctured curves]]. The conjecture relates them to the [[Korteweg-de Vries integrable hierarchy]]. The conjectured was formulated by [[Edward Witten]] based on the conjectured equivalence of the [[partition function]] of two models of 2-dimensional [[quantum gravity]] (i.e. [[string]] [[worldsheet]] [[field theories]]), which are not manifestly equivalent. 
+This is about a [[generating function]] for [[intersection pairing]] numbers of Mumford-Morita-Miller stable classes on the compactification of a [[moduli space of punctured curves]]. The conjecture relates them to the [[Korteweg-de Vries integrable hierarchy]]. The conjecture was formulated by [[Edward Witten]] based on the conjectured equivalence of the [[partition function]] of two models of 2-dimensional [[quantum gravity]] (i.e. [[string]] [[worldsheet]] [[field theories]]), which are not manifestly equivalent. 
 
 ## References
 
