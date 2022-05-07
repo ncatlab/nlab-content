@@ -23,3 +23,4 @@ On [[buildings]]:
 category: people
 
 [[!redirects Ken Brown]]
+[[!redirects Kenneth S. Brown]]
