@@ -5,7 +5,7 @@ The counterexamples here should serve as specimens of possible pittfalls in cate
 
 ## List
 
-1. Taking the center of a group does not a define a functor from groups to abelian groups. 
+1. Taking the center of a group does not a define a functor from groups to abelian groups. (We get a functor after restricting to the [[core | cores]].)
 
 1. Sending an object of a category to its [[automorphism]] group (or its [[endomorphism]] monoid) is not in general functorial.
 
@@ -15,7 +15,7 @@ The counterexamples here should serve as specimens of possible pittfalls in cate
 
 1. The category of topological spaces and [[local homeomorphism | local homeomorphisms]] is [[locally cartesian closed category | locally cartesian closed]] but not [[cartesian closed category | cartesian closed]] since it does not have a terminal object.
 
-1. There are functors $D:Aff\to Vect$ and $A:Vect \to Aff$ between the categories of [[vector spaces]] and [[affine spaces]], and we have $D(A(V)) \cong V$ for any $V\in Vect$ and $A(D(U)) \cong U$ for any $U\in Aff$, but the categories are not [[equivalence of categories|equivalent]] --- the second isomorphism is not natural.
+1. There are functors $D:Aff\to Vect$ (taking the vector space of displacements) and $A:Vect \to Aff$ (taking the underlying affine space) between the categories of [[vector spaces]] and [[affine spaces]], and we have $D(A(V)) \cong V$ for any $V\in Vect$, and for any $U\in Aff$ there exists some isomorphism $A(D(U)) \cong U$ (after choosing a point in $U$ to serve as the origin), but the categories are not [[equivalence of categories|equivalent]] --- the second isomorphisms cannot be chosen naturally, not even after restricting to the [[core|cores]].
 
 1. The opposite of the category of commutative [[von Neumann algebra | von Neumann algebras]] has a [[subobject classifier]] and it's [[finitely complete category | finitely complete]], but is not a topos since it is not [[cartesian closed]]. See [this MO question](https://mathoverflow.net/questions/384346/is-the-opposite-category-of-commutative-von-neumann-algebras-a-topos).
 
