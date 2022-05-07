@@ -69,7 +69,7 @@ Textbook accounts are in
 
 * R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlangen program_ Springer (1997)
 
-* {#CapSlovak09} [[Andreas Cap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009 ([publisher](http://bookstore.ams.org/surv-154))
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009 ([ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154))
 
 * [ps](http://www.math.muni.cz/~slovak/Vyuka/gs2.ps)
 
