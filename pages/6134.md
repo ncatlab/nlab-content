@@ -7,9 +7,9 @@
 
 ## Some publications
 
-* [[Albrecht Dold|A. Dold]], D. Puppe, _Homologie nicht-additiver Funktoren. Anwendungen_ , Ann. Inst. Fourier **11** (1961) pp.201-312. ([pdf](http://archive.numdam.org/ARCHIVE/AIF/AIF_1961__11_/AIF_1961__11__201_0/AIF_1961__11__201_0.pdf))
+* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Ann. Inst. Fourier **11** (1961) pp. 201-312. ([numdam:AIF_1961__11__201_0](http://archive.numdam.org/item/AIF_1961__11__201_0), [pdf](http://archive.numdam.org/article/AIF_1961__11__201_0.pdf))
 
-* D. Puppe, _Korrespondenzen in abelschen Kategorien_ , Math. Ann. **148** (1962) pp.1-30. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002290812))
+* Dieter Puppe, _Korrespondenzen in abelschen Kategorien_ , Math. Ann. **148** (1962) pp.1-30. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002290812))
 
 ## related $n$Lab entries
 
