@@ -80,6 +80,10 @@ Moreover, the relation $2 \cdot [S^1_{Lie}] \,\simeq\, 0$ is represented by the 
 
 The original computation via [[Pontryagin's theorem]] in [[cobordism theory]]:
 
+* [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
+
+with a more comprehensive account in:
+
 * {#Pontrjagin55} [[Lev Pontrjagin]], Section 14 of: _[[Smooth manifolds and their applications in homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
 
 
