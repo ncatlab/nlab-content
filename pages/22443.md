@@ -1419,9 +1419,9 @@ Mentioning of the Cayley distance kernel:
 
 * [[Michael A. Fligner]], [[Joseph S. Verducci]] (eds.), p. xx of: *Probability Models and Statistical Analyses for Ranking Data*, Lecture Notes in Statistics **80**, Springer 1993 ([doi:10.1007/978-1-4612-2738-0](https://link.springer.com/book/10.1007/978-1-4612-2738-0))
 
-The above discussion is largely motivated from and overlaps with:
+The above discussion of the positivity of the Cayley distance kernel in dependence of the inverse temperature follows:
 
-* {#CSS21} *[[schreiber:Weight systems that are quantum states]]*
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Weight systems that are quantum states]]*
 
 
 Supplementary references:
