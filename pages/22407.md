@@ -34,7 +34,9 @@ The corresponding generalization including also the second property is that of a
 A [[terminal object]] $\mathbf{1}$ is called a **strict terminal object** if every [[morphism]] [[domain|from]] $\mathbf{1}$ is an [[isomorphism]]:
 
 $$
-  \mathbf{1} \overset{\simeq}{\longrightarrow} \X
+  \mathbf{1} 
+    \overset{\simeq}{\longrightarrow} 
+  \X
   \,.
 $$
 
@@ -51,10 +53,10 @@ $$
 * In general, for any algebraic theory with two constants $0$ and $1$ and a binary operation for which $0$ is a (left) absorbing element and $1$ is a (left) unit, the trivial model is strictly terminal.
 
 
-##Related concepts
+## Related concepts
 
-* [[strict initial object]]
+* the [[formal dual]] concept: [[strict initial object]]
 
 ##References
 
-* [[Zhen Lin]], _What do algebraic theories with strictly terminal trivial models look like?_, [MO question](https://mathoverflow.net/q/159234/)
+* [[Zhen Lin Low]], _What do algebraic theories with strictly terminal trivial models look like?_, [MO question:159234](https://mathoverflow.net/q/159234/)
