@@ -415,7 +415,7 @@ As a direct corollary of the general statement we have:
     \;\;
     \simeq
     \;\;
-    \mathcal{A} \,\times\, \mathbf{B}\mathca;{A}
+    \mathcal{A} \,\times\, \mathbf{B}\mathcal{A}
     \,.
   $$
 \end{prop}
