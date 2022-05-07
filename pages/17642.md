@@ -1,6 +1,6 @@
 ## About
 
-Niles Johnson is an assistant professor in [[algebraic topology]] at The Ohio State University.
+Niles Johnson is an associate professor in [[algebraic topology]] at The Ohio State University.
 
 Website:
 
