@@ -47,6 +47,8 @@ A [[magma]] is a magmoid with only one object.
 
 A [[semicategory]] is a magmoid where the binary operation is [[associative]], a [[category]] is a semicategory (hence magmoid) such that each object has an [[identity element|identity morphism]] and each morphism has [[unit law|a left unit and a right unit]] equal to an identity element, and a [[groupoid]] is a category (hence magmoid) where each morphism has an [[inverse element|inverse morphism]]. 
 
+A [[transitive relation]] is a magmoid [[enriched category|enriched]] on [[truth values]], or a magmoid $M$ where thete is at most one morphism from every object $a$ to object $b$ in $M$
+
 ## Related concepts
 
 * [[magma]]
