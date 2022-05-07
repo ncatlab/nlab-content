@@ -180,7 +180,7 @@ This is also called the _[[descent object]]_ of $\mathbf{Y}$ for _[[descent]]_ a
 ###### Proposition
 **([[Cech groupoid]] co-represents [[matching families]] -- [[codescent]])**
 
-For [[Grpd]] regarded as a [[cosmos]] for [[enriched category theory]], via its [[cartesian closed category]]-structire, and $\mathcal{C}$ a [[site]], let
+For [[Grpd]] regarded as a [[cosmos]] for [[enriched category theory]], via its [[cartesian closed category]]-structure, and $\mathcal{C}$ a [[site]], let
 
 $$
   \mathbf{Y} \in [\mathcal{C}^{op}, Set] \hookrightarrow [\mathcal{C}^{op}, Grpd]
@@ -201,7 +201,7 @@ $$
 
 between the [[hom-object|hom-groupoid]] of [[Grpd]]-[[enriched presheaves]]  and the set of [[matching families]] (Def. \ref{CompatibleElements}).
 
-Since therefor the Cech-groupoid co-represents the [[descent object]], it is sometimes called the _[[codescent object]]_ along the given covering.
+Since therefore the Cech-groupoid co-represents the [[descent object]], it is sometimes called the _[[codescent object]]_ along the given covering.
 
 Moreover, under this identification the canonical morphism $C\left( \{U_i\}_i \right) \overset{p_{\{U_i\}_i}}{\longrightarrow} X$ induces the comparison morphism
 
