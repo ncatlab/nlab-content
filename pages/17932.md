@@ -19,6 +19,11 @@ On the [[Gromov-Witten/Donaldson-Thomas correspondence]]:
 
 * [[Davesh Maulik]], [[Alexei Oblomkov]], [[Andrei Okounkov]], [[Rahul Pandharipande]], _Gromov-Witten/Donaldson-Thomas correspondence for toric 3-folds_ ([arXiv:0809.3976](https://arxiv.org/abs/0809.3976v1))
 
+On the [[representation theory of the symmetric group]] via the [[seminormal representation]]:
+
+* {#VershikOkounkov04} [[Anatoly Vershik]], [[Andrei Okounkov]], *A New Approach to the Representation Theory of the Symmetric Groups*, Zapiski Seminarod POMI (In Russian) v.307, 2004; English version in:  Selecta Mathematica, New Series **2**, 581-605 ([arXiv:math/0503040](https://arxiv.org/abs/math/0503040), [doi:10.1007/BF02433451](https://doi.org/10.1007/BF02433451))
+
+
 Discussion of [[Witten indices]] and [[K-theory|K-theoretic]] [[enumerative geometry]] (with [[Hilbert schemes]]):
 
 * [[Andrei Okounkov]], _Lectures on K-theoretic computations in enumerative geometry_ ([arXiv:1512.07363](https://arxiv.org/abs/1512.07363))
