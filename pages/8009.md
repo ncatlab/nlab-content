@@ -1,4 +1,7 @@
-**[[Isbell duality]] between [[algebra]] and [[geometry]]**
+**[[duality between algebra and geometry|duality between]] 
+$\;$[[algebra]] and [[geometry]]**
+
+
 
 
 | $\phantom{A}$[[nLab:geometry]]$\phantom{A}$  | $\phantom{A}$[[nLab:category]]$\phantom{A}$ | $\phantom{A}$[[nLab:dual category]]$\phantom{A}$ |  $\phantom{A}$[[nLab:algebra]]$\phantom{A}$ |
