@@ -52,9 +52,13 @@ In this perspective picture number is an extra grading on [[differential forms o
 
   (with an eye towards [[superstring field theory]])
 
-* C. A. Cremonini, [[Pietro Grassi]], _Pictures from Super Chern-Simons Theory_ ([arXiv:1907.07152](https://arxiv.org/abs/1907.07152))
+* [[C. A. Cremonini]], [[Pietro Grassi]], _Pictures from Super Chern-Simons Theory_ ([arXiv:1907.07152](https://arxiv.org/abs/1907.07152))
 
   (with an eye towards [[super Chern-Simons theory]])
+
+Review:
+
+* [[Pietro Grassi]], *Integral Forms and Applications*, Sestri Levante 2015 ([pdf](https://agenda.infn.it/event/8823/attachments/55101/64989/Grassi-SL.pdf), [[GrassiIntegralForms2015.pdf:file]])
 
 
 Via [[pure spinors]]:
