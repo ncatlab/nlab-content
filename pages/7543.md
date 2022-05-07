@@ -20,7 +20,7 @@ The _Segal condition_ is a condition on a [[simplicial object]] $X_\bullet \in \
 
 Hence if one thinks of $X_0$ as a collection of [[objects]] and of $X_1$ as a collection of [[morphisms]], then $X_\bullet$ satisfies the Segal condition precisely if each $X_{n \geq 2}$ can be interpreted as the collection of sequences of [[composition|composable]] morphisms of length $n$. The precise formulation is below in _[Definition -- For simplicial objects](#ForSimplicialObjects)_.
 
-Accordingly, if $\mathcal{C} = $ [[Set]] is the category of [[sets]], then the Segal condition characterizes precisely those [[simplicial sets]] which are the [[nerve]] of a [[small category]], theorem \ref{NerveTheorem} below. This is the observation due to ([Segal 1968](#Segal)), following [[Grothendieck]], which today gives the Segal condition its name. Sometimes this statement also called the _nerve theorem_ (no relation to what is called _[[nerve theorem]]_ in [[homotopy theory]]).
+Accordingly, if $\mathcal{C} = $ [[Set]] is the category of [[sets]], then the Segal condition characterizes precisely those [[simplicial sets]] which are the [[nerve]] of a [[small category]], theorem \ref{NerveTheorem} below. This is the observation due to [Grothendieck 1961](#Grothendieck61) as recalled in [Segal 1968](#Segal68)), which today gives the Segal condition its name. Sometimes this statement also called the _nerve theorem_ (no relation to what is called _[[nerve theorem]]_ in [[homotopy theory]]).
 
 It is useful to decompose this statement into its constituents as follows: 
 
@@ -149,7 +149,7 @@ A [[simplicial set]] is the [[nerve]] of a [[small category]] precisely if it sa
 
 =--
 
-This is due to ([Segal 1968](#Segal)), following [[Grothendieck]].
+This is due to [Grothendieck 61](#Grothendieck61), recalled in [Segal 1968](#Segal68).
 
 +-- {: .num_remark}
 ###### Remark
@@ -525,11 +525,11 @@ See at _[[globular theory]]_ for more.
 
 The "Segal conditions" are originally due to:
 
-* {#Grothendieck61} [[Alexander Grothendieck]], Prop. 4.1 of: _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+* {#Grothendieck61} [[Alexander Grothendieck]], Prop. 4.1 of: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), [English transl. pdf](https://labs.thosgood.com/builds/fga-3-III.pdf))
 
 and named after their mentioning in
 
-* {#Segal} [[Graeme Segal]], Section 2 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/)) 
+* {#Segal68} [[Graeme Segal]], Section 2 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/)) 
  
 
 
