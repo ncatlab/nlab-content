@@ -1,4 +1,6 @@
 
+$\twoheadrightarrow$
+
 \begin{example}
   Let 
 
