@@ -512,6 +512,8 @@ $$
 
 * [[product]], [[coproduct]]
 
+* [[sink]], [[cosink]]
+
 * [[Kan extension]]
 
 * [[internal limit]]
