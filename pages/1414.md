@@ -1,4 +1,4 @@
-+-- {: .rightHandSide}
+column+-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### $(\infty,1)$-Category theory
@@ -40,7 +40,7 @@ regard the $n$-simplex as an [[strict omega-category|n-category]].
 
 
 
-## Definition
+## Definitions
 
 
 ### The cosimplicial $sSet$-category
@@ -53,7 +53,7 @@ $$
 
 that induces the homotopy coherent nerve.
 
-##### A categorical description 
+### A categorical description 
 
 Recall from the entry, [[reflexive graph]], that a [[graph]], $\Gamma$, is _reflexive_ if for each [[vertex]] $v$ there is a (specified) [[edge]] $v \to v$. Similarly a **reflexive [[quiver]]** has a specified identity edge $i_X: X \to X$ on each object (vertex) $X$.
 
@@ -66,13 +66,13 @@ The composite,  $G = FU : Cat\to Cat$, defines a [[comonad]] on $Cat$.
 
 By the definition its  [[simplicial resolution]] gives an augmented simplicial endofunctor $S :\Delta\to sSet-Cat$ with natural augmentation $S\to Id$, and which is a cofibrant replacement construction in the [[Bergner model structure]] on $sSet-Cat$ ("model structure for simplicially enriched categories"). 
 
-##Remark
+####Remark
 
 Some *words of caution*, as always with simplicial resolutions, there are two conventions which differ by being the opposite simplicial object of each other.  In the original paper, Cordier uses a different one of these conventions from some of the other sources mentioned here. A similar problem occurs in the following combinatorial description as some sources use 'reverse inclusion' where others just use 'inclusion'reverse inclusion' for the partial order on the poset. This corresponds more or less exactly to the distinction between 'op-lax' and 'lax' functors in the theory oe 2-categories. 
 
 Because of this, it is always important to test the definition being used on a simple example, $[2]$ will do, before commiting to the use of any specific formulae. We will see this again in another Remark later on in this entry.
 
-##### A combinatorial description
+### A combinatorial description
 
 For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the $SSet$-category $S[n]$ as follows:
 
@@ -161,11 +161,11 @@ and hence may consistently be named $S$.
 
 
 
-## Examples and illustration
+## Examples and illustrations
 
 ### For the cosimplicial $sSet$-category {#IllustratOfCosimpSSetCat}
 
-We illustrate here the nature of the cosimplicial $sSet$-category $S : [n] \mapsto S[n]$.
+We illustrate here the nature of the cosimplicial $sSet$-category $S : [n] \mapsto S[n]$, viewed from the combinoatiral viewpoint above.
 
 We will examine the lowest dimensional cases. 
 
@@ -189,10 +189,14 @@ $$
   \right\}
   = 
   \Delta[1]
-  \,.
+  \,,
 $$
 
-So in $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,1,2\}$ and ending at $\{0,2\}$.  
+so in $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,1,2\}$ and ending at $\{0,2\}$.  
+\begin{tikzcd}[column sep=small]
+& 1  \arrow[dr] & \\
+0 \arrow{rr}\arrow[ur] & & 2
+\end{tikzcd}
 
 $$
     \array{
