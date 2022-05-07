@@ -39,7 +39,7 @@ In general the only practicable way to carry out such computations is by doing t
 
 (Here the re-occurence of the root "spectr-" it is a historical coincidence, but a lucky one.)
 
-Here we give a expository introduction to the concept of spectral sequences, building up in detail to the spectral sequence of a filtered complex.
+Here we give an expository introduction to the concept of spectral sequences, building up in detail to the spectral sequence of a filtered complex.
 
 We put these spectral sequences to use in
 
@@ -1755,7 +1755,7 @@ The concept of exact couple so far just collects the sequences of long exact seq
 +-- {: .num_remark #Observingd1}
 ###### Remark
 
-The sequence of long exact sequences in remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $\pi_{t-s}(X_s)$ appears _twice_:
+The sequence of long exact sequences in remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $\pi_{t-s}(X_s)$ appears in _two_ of them, and thus we can string them all together:
 
 $$
   \array{
@@ -1879,7 +1879,7 @@ with
 
 1. $\tilde i \coloneqq i|_{im(i)}$;
 
-1. $\tilde j \coloneqq j \circ (im(i))^{-1}$;
+1. $\tilde j \coloneqq j \circ i^{-1}$;
 
 1. $\tilde k \coloneqq k|_{ker(d)}$.
 
@@ -1956,7 +1956,7 @@ As we pass to derived exact couples, by def. \ref{DerivedExactCouple},
 the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ in each step, since
 
 $$
-  deg(\tilde j) = deg( j \circ im(i)^{-1}) = deg(j) + (1,1)
+  deg(\tilde j) = deg( j \circ i^{-1}) = deg(j) + (1,1)
   \,.
 $$
 
