@@ -60,11 +60,14 @@ Every [[paracompact topological space|paracompact]] [[Banach manifold]] is an [[
 \end{example}
 By [Palais 1966, Cor. to Thm. 5 on p. 3](#Palais66).
 
+\begin{proposition}\label{ClosedInclusionIntoANRIsANRIffhCofibration}
+  Let $X$ be an [[absolute neighbourhood retract]] (ANR) and $A \xhookrightarrow{i} X$ a [[closed subspace]]-inclusion. Then $A$ is an ANR precisely iff the inclusion $i$ is a [[Hurewicz cofibration]].
+\end{proposition}
+([Aguilar, Gitler & Prieto 2002, Thm. 4.2.15](#AGP02))
+
 \begin{example}
   Every [[finite number|finite]]-[[dimension of a CW complex|dimensional]] [[locally finite CW complex|locally finite]] [[CW-complex]] is an [[absolute neighbourhood retract]].
-
 \end{example}
-
 ([Dugundji 52](#Dugundji52), [Kodama 56](#Kodama56), review in [Hu 65, III Cor. 8.4](#Hu65))
 
 
