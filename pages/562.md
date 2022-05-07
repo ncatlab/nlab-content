@@ -15,7 +15,7 @@
 
 ## Idea 
 
-A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **fibered category** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the [[fiber]]s $E_b = p^{-1}(b)$ depend (contravariantly) [[pseudofunctor|pseudofunctorially]] on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
+A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **fibered category** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the [[fiber]]s $E_b = p^{-1}(b)$ depend (contravariantly) [[pseudofunctor|pseudofunctorially]] on $b\in B$. One calls $E$ the **total category** (not to be confused with [[total category]]) and $B$ the **base category**. One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
 
 There is an [[equivalence of categories|equivalence]] of [[strict 2-category|2-categories]] 
 
