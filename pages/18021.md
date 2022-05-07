@@ -25,7 +25,7 @@ The generalization of this construction to non-reduced simplicial sets and [[sim
 
 ## References
 
-* {#Kan58} [[Daniel Kan]], _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53
+* {#Kan58} [[Daniel Kan]], _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53 ([jstor:1970042](https://www.jstor.org/stable/1970042))
 
 
 * [[Peter May]], chapter VI of _Simplicial objects in algebraic topology_, Van Nostrand, Princeton (1967) ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
