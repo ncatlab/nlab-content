@@ -28,6 +28,8 @@ See at _[[trigonometric function]]_.
 
 * [[exponential]]
 
+* [[exponential ring]]
+
 * [[Euler's formula]]
 
 * [[trigonometric identity]]
