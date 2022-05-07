@@ -923,6 +923,34 @@ between
 
 =--
 
+### Rational maps to complex projective space
+
+A similar relation holds for mapping spaces not to spheres, but to [[complex projective spaces]]:
+
+\begin{prop}\label{RationalMapsToCPnAsConfigurationsOfPoints}
+  The [[homotopy of rational maps|homotopy type of the space of rational maps]] from the [[Riemann sphere]] to [[complex projective space|complex projective $n$-space]] $\mathbb{C}P^n$ of algebraic [degree](homotopy+of+rational+maps#NotionsOfDegree) $d$ is that of the configuration space of at most $d$ points in $\mathbb{R}^2$ with labels in $S^{2n-1}$:
+
+$$
+    Maps_{
+      {rat}
+    }^{deg = d}
+    \big(
+      \Sigma
+      ,\,
+      \mathbb{C}P^n
+    \big)
+  \;\simeq_{htpy}\;
+  \underset{ \leq d}{Conf}
+  \big(
+    \mathbb{R}^2;
+    S^{2k+1}
+  \big)
+$$
+\end{prop}
+
+([Cohen & Shimamoto 91, Theorem 1](#CohenShimamoto91))
+
+
 
 ### Knizhnik-Zamolodchicov connection
 
@@ -1445,7 +1473,11 @@ For relation to [[instantons]] via [[topological Yang-Mills theory]]:
 
 * {#AtiyahJones78} [[Michael Atiyah]], [[John David Stuart Jones]], _Topological aspects of Yang-Mills theory_, Comm. Math. Phys. Volume 61, Number 2 (1978), 97-118 ([arXiv:1103904210](https://projecteuclid.org/euclid.cmp/1103904210))
 
-In speculation regarding [[Galois theory]] over the [[sphere spectrum]]:
+An analogous statement for [[homotopy of rational maps]] related to [[Yang-Mills monopoles]]:
+
+* {#CohenShimamoto91} [[Ralph L. Cohen]], [[Don H. Shimamoto]], *Rational Functions, Labelled Configurations, and Hilbert Schemes*, Journal of the London Mathematical Socienty **43** 2 (1991) 509-528 ([doi:10.1112/jlms/s2-43.3.509](https://doi.org/10.1112/jlms/s2-43.3.509))
+
+In the context of speculations regarding [[Galois theory]] over the [[sphere spectrum]]:
 
 * {#MoravaBeardsly17} [[Jack Morava]], [[Jonathan Beardsley]], _Toward a Galois theory of the integers over the sphere spectrum_,  Journal of Geometry and Physics Volume 131, September 2018, Pages 41-51 ([arXiv:1710.05992](https://arxiv.org/abs/1710.05992))
 
