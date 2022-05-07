@@ -47,6 +47,8 @@ Non-archimedean fields include
 
 * [[archimedean valued field]]
 
+* [[archimedean integral domain]]
+
 * [[archimedean group]]
 
 * [[non-archimedean analytic geometry]]
