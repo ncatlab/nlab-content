@@ -10,7 +10,7 @@
 
 * [[MU]], [[MSU]], ...
 
-  [[MΩΩSU(n)]]
+  [[Ravenel's spectrum|MΩΩSU(n)]]
 
   [[MP-theory|MP]], [[MR-theory|MR]]
 
