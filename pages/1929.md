@@ -66,7 +66,7 @@ and generalizations with emphasis on noncommutative base are studied in
 
 See also
 
-* Thomas Booker, Ross Street, _Torsors, herds and flocks_, [arxiv/0912.4551](http://arxiv.org/abs/0912.4551) [doi](http://dx.doi.org/10.1016/j.jalgebra.2010.12.009)
+* Thomas Booker, Ross Street, _Torsors, herds and flocks_, J. Algebra 330:1 (2011) 346–374 [arxiv/0912.4551](http://arxiv.org/abs/0912.4551) [doi](http://dx.doi.org/10.1016/j.jalgebra.2010.12.009)
 
 
 [[!redirects quantum heaps]]
