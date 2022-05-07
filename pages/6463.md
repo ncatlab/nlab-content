@@ -74,7 +74,7 @@ This is for instance exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk
 ###### Proposition
 **(diagonal is homotopy colimit)**
 
-The diagonal of a bisimplicial set $X_{\bullet,\bullet}$ is also (up to weak equivalence) the [[homotopy colimit]] of $X$ regarded as a simpliciall diagram in the [[model structure on simplicial sets]]
+The diagonal of a bisimplicial set $X_{\bullet,\bullet}$ is also (up to weak equivalence) the [[homotopy colimit]] of $X$ regarded as a simplicial diagram in the [[model structure on simplicial sets]]
 
 $$  
   diag X \simeq hocolim (X : \Delta^{op} \to sSet_{Quillen})
