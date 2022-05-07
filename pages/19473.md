@@ -45,11 +45,14 @@ For discussion in [[philosophy]] and linguistics, see
 
  {#philosophy} Earlier work in philosophy includes
 
-* Lou Goble, 1970. Grades Of Modality. Logique Et Analyse 13, pp. 323-334, ([paper](http://virthost.vub.ac.be/lnaweb/ojs/index.php/LogiqueEtAnalyse/article/view/405)).
+* Lou Goble, 1970. _Grades Of Modality_. Logique Et Analyse 13, pp. 323-334, ([paper](http://virthost.vub.ac.be/lnaweb/ojs/index.php/LogiqueEtAnalyse/article/view/405)).
+*  David Kaplan, _S5 with multiple possibility_, The Journal of Symbolic Logic, 35:355–356, 1970.
 
-* Kit Fine, 1972. In so many possible worlds. Notre Dame Journal of Formal Logics 13: 516–520.
+* Kit Fine, 1972. _In so many possible worlds_. Notre Dame Journal of Formal Logics 13: 516–520.
 
-* David Lewis, 1973. Counterfactuals. Oxford: Blackwell
+* David Lewis, 1973. _Counterfactuals_. Oxford: Blackwell
+
+* M. Fattorosi-Barnaba  and  F. de Caro.  _Graded  modalities I_. Studia  Logica, 44:197–221,1985
 
 
 [[!redirects graded modalities]]
