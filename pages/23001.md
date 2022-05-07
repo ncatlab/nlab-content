@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On the [[topology]] of the infinite [[unitary group]] [[U(ℋ)]] on a [[separable Hilbert space]] ([[operator topology]] and [[compact-open topology]]):
+
+* {#EspinozaUribe} [[Jesus Espinoza]], [[Bernardo Uribe]], _Topological properties of the unitary group_, JP Journal of Geometry and Topology **16** (2014) Issue 1, pp 45-55 ([arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [journal](http://www.pphmj.com/abstract/8730.htm))
+
+
 On 3-[[twisted equivariant K-theory]] via the [[universal equivariant PU(H)-bundle|universal equivariant $PU(\mathcal{H})$-bundle]]:
 
 * {#BEJU14} [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2014) ([arXiv:1202.1880](https://arxiv.org/abs/1202.1880), [doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061))
