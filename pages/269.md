@@ -212,6 +212,11 @@ We denote by $p : \square^{n} \rightarrow \square^{0}$ the arrow $y(\underbrace{
 
 =--
 
+## Model structure
+
+The category of cubical sets admits a [[Cisinski model structure]].
+See the article [[model structure on cubical sets]] for more information.
+
 ## Expository material
 
 For Expository and other material, see [[cubical set - exposition]]. 
@@ -237,6 +242,8 @@ For Expository and other material, see [[cubical set - exposition]].
 * [[cubical truncation, skeleton, and co-skeleton]]
 
 * [[homotopy groups of a cubical Kan complex]]
+
+* [[model structure on cubical sets]]
 
 [[!redirects Cubical set]]
 [[!redirects Cubical Set]]
