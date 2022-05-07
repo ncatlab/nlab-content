@@ -47,6 +47,10 @@ By the [[universal property]], the two-valued object is unique up to [[isomorphi
 
 ## Properties
 
+### As an initial object
+
+The two-valued object $\mathbf{2}$ is an [[initial object]] in the category of [[bi-pointed object]]s.
+
 ### Coproducts
 
 The two-valued object $\mathbf{2}$ is the [[disjoint coproduct]] of the terminal object $1$ with itself. 
@@ -63,19 +67,13 @@ A topos with a [[subobject classifier]] that is also a two-valued object is a [[
 
 ### Type theory
 
-Two-valued objects are the [[categorical semantics]] of the [[two-valued type]] in type theory. The [[inductive type|inductive property]] of the two-valued type, case analysis or if/else expressions, corresponds to the [[initial object|initiality]] of the two-valued object in the subcategory of objects with more than one global element, similar to how the principle of [[induction]] over [[natural numbers]] corresponds to the initiality of the [[natural numbers object]] in the subcategory of triples $(A, q:1\rightarrow A, f:A\rightarrow A)$ representing infinite sequences. 
-
-## Examples
-
-* The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[axiom of choice|choice sets]] are two-valued objects. 
-
-* Any [[interval object]] is a two-valued object with a [[2-morphism]] connecting the global elements $zero$ and $one$. 
+Two-valued objects are the [[categorical semantics]] of the [[two-valued type]] in type theory. The [[inductive type|inductive property]] of the two-valued type, case analysis or if/else expressions, corresponds to the [[initial object|initiality]] of the two-valued object in the subcategory of triples $(A, t:1\rightarrow A, f:1\rightarrow A)$ representing [[bi-pointed object]]s, similar to how the principle of [[induction]] over [[natural numbers]] corresponds to the initiality of the [[natural numbers object]] in the subcategory of triples $(A, q:1\rightarrow A, f:A\rightarrow A)$ representing infinite sequences. 
 
 ## See also
 
 * [[natural numbers object]]
 
-* [[integers object]]
+* [[bi-pointed object]]
 
 * [[subobject classifier]]
 
