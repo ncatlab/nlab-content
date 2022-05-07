@@ -62,7 +62,7 @@ The main historical contributors to Hodge theory include [[William Hodge]], [[Ph
 
 * [[Claire Voisin]], _Hodge theory and the topology of complex K&#228;hler and complex projective manifolds_ (survey, [pdf](http://www.math.columbia.edu/~thaddeus/seattle/voisin.pdf))
 
-* {#Voisin02} [[Claire Voisin]], _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+* {#Voisin02} [[Claire Voisin]], _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
 
 * Mark Green, [[Claire Voisin]], Jacob Murre, _Algebraic cycles and Hodge theory_ Lecture Notes in Mathematics, 1594 (1993)
 {#GreenVoisinMurre}
