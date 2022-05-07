@@ -25,7 +25,7 @@ It starts with a short (12 page) letter to Quillen, dated 19 Feb. 1983, but then
 
 *  _[[Les Dérivateurs]]_ (another 2000 page manuscript taking  up some of the themes in Pursuing Stacks, section 69) Dating from the end of 1990 and the start of 1991.
 
-In the same time he also wrote voluminous intellectual memoirs _Recoltes et Semailles_. 
+In the same time he also wrote voluminous intellectual memoirs _Récoltes et Semailles_. 
 
 En Guise de Programme [p I](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Guise1.jpg) [p II](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Guise2.jpg), a text written by Grothendieck as a course description while teaching in Montpellier "Introduction &#224; la recherche". 
 
@@ -37,7 +37,7 @@ For an account of his work, including some of the work published in the 1980s, s
 
 The video of a talk by W. Scharlau on his life can be seen [here](http://www.dailymotion.com/video/x8juek_colloque-grothendieck-winfried-scha_tech).
 
-* Reminiscenes of Grothendieck, 2007 conversations of [[Sasha Beilinson]], [[Luc Illusie]], [[Vladimir Drinfel'd]], [[Spencer Bloch]],  ([pdf](http://www.math.uchicago.edu/~mitya/langlands/reminiscences1.pdf))
+* Reminiscences of Grothendieck, 2007 conversations of [[Sasha Beilinson]], [[Luc Illusie]], [[Vladimir Drinfel'd]], [[Spencer Bloch]],  ([pdf](http://www.math.uchicago.edu/~mitya/langlands/reminiscences1.pdf))
 
 * [[Pierre Cartier]], _Alexander Grothendieck: A Country Known Only by Name_ ([pdf](http://www.ams.org/notices/201504/rnoti-p373.pdf))
 
