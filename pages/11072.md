@@ -137,7 +137,7 @@ The semantics of ! as a comonad is discussed in:
 
 
 
-* [[Martin Hyland]] and [[Andreas Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+* [[Martin Hyland]] and Andreas Schalk, _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
  {#HylandSchalk01}
  
 Construction of such comonads based on cofree comonoids can be found in (among other places):
@@ -177,6 +177,19 @@ The modal approach to a term calculus for the $!$-modality can be found in:
 * Philip  Wadler.   *A  syntax  for  linear  logic.*   In Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics , volume 802 of LNCS . Springer Verlag, April 1993
 
 * Andrew Barber, *Dual Intuitionistic Linear Logic*, Technical Report ECS-LFCS-96-347, University of Edinburgh, Edinburgh (1996), [web](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/)
+
+
+A [[quantum programming language]] based on this linear/non-linear type theory adunction is [[QWIRE]]:
+
+* [[Jennifer Paykin]], [[Robert Rand]], [[Steve Zdancewic]], *QWIRE: a core language for quantum circuits*, POPL 2017: Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming LanguagesJanuary 2017 Pages 846–858 ([doi:10.1145/3009837.3009894](https://doi.org/10.1145/3009837.3009894))
+
+applied to [[verified programming]] after implementation in [[Coq]]:
+
+* [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
+
+and using ambient [[homotopy type theory]]:
+
+* [[Jennifer Paykin]], [[Steve Zdancewic]], *A HoTT Quantum Equational Theory*, [talk at QPL2019](http://qpl2019.org/a-hott-quantum-equational-theory/) ([arXiv:1904.04371](https://arxiv.org/abs/1904.04371))
 
 
 category: logic
