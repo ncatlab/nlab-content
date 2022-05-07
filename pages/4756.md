@@ -28,6 +28,8 @@ The [[∞-stackification]] of a $(2,1)$-presheaf is a certain [[2-sheaf]] or [[s
 
 ## Related concepts
 
+* [[(0,1)-presheaf]]
+
 * [[presheaf]]
 
 * **(2,1)-presheaf**
