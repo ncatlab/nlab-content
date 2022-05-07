@@ -536,6 +536,9 @@ See also
 
 * [[Lorenz Eberhardt]], _$AdS_3/CFT_2$ at higher genus_ ([arXiv:2002.11729](https://arxiv.org/abs/2002.11729))
 
+* [[Lorenz Eberhardt]], _Summing over Geometries in String Theory_ ([arXiv:2102.12355](https://arxiv.org/abs/2102.12355))
+
+
 
 On [[black brane|black]]$\;$[[D6-D8-brane bound states]] in [[massive type IIA string theory]], with [[defect QFT|defect]] [[D2-D4-brane bound states]] inside them realizing [[AdS3-CFT2]] "inside" [[AdS7-CFT6]]:
 
