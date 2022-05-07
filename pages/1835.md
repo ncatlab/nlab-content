@@ -35,11 +35,9 @@ A __scheme__ is a [[locally ringed space]] $(X, \mathcal{O}_X)$ such that, for e
 Here $\mathcal{O}_{X} | U$ denotes the restriction of $\mathcal{O}_{X}$ to $U$, that is to say, the sheaf $i^{*}(\mathcal{O}_{X})$, where $i: U \hookrightarrow X$ is the inclusion map, and $i^{*}$ is the corresponding [[inverse image]] functor from the category of sheaves on $X$ to the category of sheaves on $U$.
 
 A [[morphism of schemes]] $f : (X,\mathcal{O}_X) \to (Y,\mathcal{O}_Y)$ is a morphism of the underlying [[locally ringed space]]s. This means it is a morphism of [[ringed space|ringed spaces]] such that for each point $x \in X$ the induced map of [[local ring]]s
-
 $$
   (\mathcal{O}_Y)_{f(x)} \to  (\mathcal{O}_X)_x
 $$
-
 is _local_ (in that it carries the maximal ideal to the maximal ideal). See [[functor of points]].
 
 
@@ -56,14 +54,12 @@ The _category of $k$-functors_, denoted by $co Psh (M_k)$, is defined to be the 
 The forgetful functor $O_k:R\to R$ sending a $k$-ring to its underlying set is called the _affine line_.
 
 For the full and faithful contravariant functor
-
 $$Sp_k:\begin{cases}
 M_k&\to& co Psh(M_k)
 \\
 A&\mapsto& M_k(A,-)
 \end{cases}$$
-
- $Sp_k A$ (and every isomorphic functor) is called an _affine $k$-scheme_. $Sp_k$ restricts to an equivalence between the categories of $k$-rings and the category $Aff Sch_k$ of affine $k$-schemes. We think of this category as of $M_k^{op}$. The functor $Sp_k$ commutes with limits and scalar extension (see below). Consequently $Aff Sch_k$ is closed under limits and base change.
+$Sp_k A$ (and every isomorphic functor) is called an _affine $k$-scheme_. $Sp_k$ restricts to an equivalence between the categories of $k$-rings and the category $Aff Sch_k$ of affine $k$-schemes. We think of this category as of $M_k^{op}$. The functor $Sp_k$ commutes with limits and scalar extension (see below). Consequently $Aff Sch_k$ is closed under limits and base change.
 
 Note that the affine line $O_k$ defined above is naturally isomorphic to $M_k(k[t],-)$, and so $O_k$ is an affine $k$-scheme.
 
@@ -86,15 +82,11 @@ For $\phi:k\to k'$ the ''base change'' functor $(-)\otimes_k k':co Psh(M_k)\to c
 Now we come to the definition of not necessarily affine k-schemes
 
 For a $k$-functor $X\in coPsh(M_k)$ and $E\subseteq O(X)$ a set of functions on $X$, we define
-
 $$V(E)(R):=\{x\in X(R) |\forall f\in E, f(x)=0\}$$
-
 and
-
 $$D(E)(R):=\{x\in X(R)|f\in E, \;\text{ the } \; f(x) \; \text{ generate the unit ideal of } \; R\}$$
 
 For a transformation $u:Y\to X$ of $k$-functors and $Z\subseteq X$ a subfunctor we define
-
 $$u^{-1}(Z)(R):=\{y\in Y(R)|u(y)\in Z(R)\}$$
 
 A subfunctor $Y\subseteq X$ is called _open subfunctor_ resp. _closed subfunctor_ if for every transformation $u:T\to X$ we have $u^{-1}(Y)$ is of the form $V(E)$ resp. $D(E)$.
@@ -120,7 +112,6 @@ The category of $k$-schemes is closed under finite limits, forming open- and clo
 
 The __fundamental theorem on morphisms of schemes__ asserts that there is a [[fully faithful functor]] from the category $Sch$ of schemes to $Psh(Aff) \equiv Psh(CRing^{op}) $,  the category of [[presheaf|presheaves]] on the category of affine schemes, or equivalently on the opposite of the category of commutative rings,
 given by
-
 $$(X,\mathcal{O}_X)\mapsto Sch((|Spec (-)|,\mathcal{O}_{Spec(-)}),(X,\mathcal{O}_X))$$
 
 This identifies schemes with those presheaves on [[CRing]]${}^{op}$ that
@@ -140,6 +131,16 @@ Demazure-Gabriel steer a middle course involving [[universes]]: assuming two uni
 ## Properties
 
 * [[schemes are sober]]
+
+The category of schemes admits [[small coproducts]].
+
+It does not admit [[coequalizers]]:
+<https://mathoverflow.net/questions/9961/colimits-of-schemes/23966#23966>
+
+The category of schemes admits [[finite limits]].
+
+It does not admit [[infinite products]]:
+<https://mathoverflow.net/questions/9134/arbitrary-products-of-schemes-dont-exist-do-they/65534#65534>
 
 (...)
 
