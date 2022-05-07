@@ -66,13 +66,13 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
       \left\{
       \array{
         \big(
-          d_i g_n, 
+          d_i(g_n), 
           \,
-          d_{i-1} g_{n-1},
+          d_{i-1}(g_{n-1}),
           \,
           \cdots
           ,\,
-          (d_0 g_{n-i}) \cdot g_{n-i-1},
+          d_0(g_{n-i}) \cdot g_{n-i-1},
           \,
           g_{n -  i - 2}, 
           \,
@@ -84,13 +84,13 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
         i \lt n
         \\
         \big(
-          d_n g_n,
+          d_n(g_n),
           \,
-          d_{n-1} g_{n-1},
+          d_{n-1}(g_{n-1}),
           \,
           \cdots,
           \,
-          d_1 g_1
+          d_1(g_1)
         \big)
         & \text{if} &
         i = n
@@ -104,13 +104,13 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
     s_i(g_n, g_{n-1}, \cdots, g_0)
     \;\coloneqq\;
     \big(
-      s_i g_n,
+      s_i(g_n),
       \,
-      s_{i - 1} g_{n-1},
+      s_{i - 1}(g_{n-1}),
       \,
       \cdots,
       \,
-      s_0 g_{n-1},
+      s_0(g_{n-1}),
       \,
       e,
       \,
@@ -123,7 +123,7 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
     \,,
   $$
 
-  where $e$ is the respective [[neutral element]].
+  where $e$ denotes the respective [[neutral element]].
 
 This carries a $G$-[[action]] by left multiplication on the first factor:
 
@@ -132,9 +132,10 @@ This carries a $G$-[[action]] by left multiplication on the first factor:
   \array{
     G \times W G &\overset{}{\longrightarrow}& W G
     \\
-    \big(h, (g_n, g_{n-1}, \cdots, g_0)\big)
+    \big(h_n, (g_n, g_{n-1}, \cdots, g_0)\big)
      &\mapsto&
-    (h \cdot g_n, \, g_{n-1}, \cdots, g_0)
+    (h_n \cdot g_n, \, g_{n-1}, \cdots, g_0)
+    \mathrlap{\,.}
   }
 \]
 
@@ -152,7 +153,7 @@ $$
   W G \longrightarrow \overline{W} G
 $$
 
-is known as the standard model for the simplicial $G$-[[universal principal bundle]].
+is known as the standard model for the simplicial $G$-[[universal principal bundle]] (see [below](#ClassificationOfSimplicialPrincipalBundles)).
 
 \end{definition}
 
@@ -349,7 +350,7 @@ In all of the following, $G$ is any simplicial group.
 ### Classification of simplicial principal bundles 
  {#ClassificationOfSimplicialPrincipalBundles}
 
-The object $\overline{W}G$ serves as the [[classifying space]] for [[simplicial principal bundles]] ([Goerss & Jardine 09, Section V, Thm. 3.9](#GoerssJardine09), see also [NSS 12, Section 4.1](#NSS12)).
+The object $\overline{W}G$ serves as the [[classifying space]] for [[simplicial principal bundles]] ([May 67, §21](#May67), [Goerss & Jardine 09, Section V, Thm. 3.9](#GoerssJardine09), see also [NSS 12, Section 4.1](#NSS12)).
 
 ### Slice model structure
  {#SliceModelStructure}
@@ -395,7 +396,7 @@ As part of a [[Quillen equivalence]]:
 
 Textbook accounts:
 
-* [[Peter May]], p. 87-88 in: _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
+* {#May67} [[Peter May]], p. 87-88 in: _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
