@@ -31,7 +31,7 @@ $$ F(I_C) = I_D ,$$
 
 $$ F([X,Y]) = [F(X),F(Y)].$$
 
-but it should also preserve all of the additional structure transformations. Strict closed functors are not common "in nature" (due to the problem of [[evil]]), but they are sometimes useful to consider in syntactic studies of closed categories, as for example in [[coherence theorem|coherence problems]]. 
+but it should also preserve all of the additional structure transformations. Strict closed functors are not common "in nature" (since their definition violates the [[principle of equivalence]]), but they are sometimes useful to consider in [[syntax|syntactic]] studies of closed categories, as for example in [[coherence theorem|coherence problems]]. 
 
 More commonly occurring in nature are functors that preserve the closed structure merely up to a transformation, which may perhaps be invertible.  Just as [[lax monoidal functors]] are often called simply "monoidal functors," the "lax" sort of closed functor for which the transformation is not invertible are often called simply *closed functors*, the ones where it is invertible being called *strong*.
 
