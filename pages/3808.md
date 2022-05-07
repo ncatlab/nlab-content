@@ -55,9 +55,9 @@ Historical origins:
 
 Textbook accounts:
 
-* A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965. 
+* {#FroehlichCassels67} [[Albrecht Fröhlich]], [[J. W. S. Cassels]] (eds.), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fröhlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965 (ISBN:9780950273426, [pdf](https://www.math.arizona.edu/~cais/scans/Cassels-Frohlich-Algebraic_Number_Theory.pdf), [errata pdf](https://www.ma.imperial.ac.uk/~buzzard/errata.pdf) by [[Kevin Buzzard]])
 
-* Albrecht Fr&#246;hlich, Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics **27**, 1993
+* [[Albrecht Fröhlich]], Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics **27**, 1993
 
 In a context of [[automorphic forms]] and the [[Langlands correspondence]]:
 
