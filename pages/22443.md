@@ -927,7 +927,7 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
      \gt 0 
        & for & 
      \mathrlap{
-       e^\beta \gt n-1
+       e^\beta \gt n-1 \;or\; e^{\beta} \in (n-2a-3,  n-2a-2),\, a \in \mathbb{N}
      }
      \\
      = 0 
@@ -989,7 +989,7 @@ $$
   e^{\beta}
   \;\in\;
   (
-    n - 2a - 2,  \lt n - 2a - 1
+    n - 2a - 2, n - 2a - 1
   )
   \,,
   \;\;
