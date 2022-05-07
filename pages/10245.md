@@ -17,7 +17,11 @@
 
 There is supposed to be a $(p=3)$-[[brane]] in 6-dimensional [[supersymmetry|super]]-[[spacetime]] given by the [[Green-Schwarz action functional]] induced by the exceptional super Lie algebra $(3+2)$-cocycle on $\mathfrak{siso}(5,1)$ ([Hughes-Liu-Polchinski 86](#HughesLiuPolchinski86)).
 
+This is thought to be the [[intersecting brane|intersection]] locus of two [[M5-branes]] ([Papadopoulos & Townsend 1996](#PapadopoulosTownsend96), [Tseytlin 1996](#Tseytlin96), [Howe, Lambert & West 1998, p. 2](#HoweLambertWest98), [Kachru, Oz & Yin 1998](#KachruOzYin98)).
+
 Since this brane has [[codimension]] 2, it is a *[[defect brane]]*.
+
+
 
 ## Related concepts
 
@@ -50,9 +54,14 @@ Discussion of the [[3-brane in 6d]] explicitly as a [[black brane]] in an [[M5-b
 
 and the understanding of this configuration as resulting from two intersecting M5-branes is due to 
 
-* [[George Papadopoulos]], [[Paul Townsend]], _Intersecting M-branes_, Phys. Lett. B380 (1996) 273 ([arXiv:hep-th/9603087](http://arxiv.org/abs/hep-th/9603087))
+* {#PapadopoulosTownsend96} [[George Papadopoulos]], [[Paul Townsend]], _Intersecting M-branes_, Phys. Lett. B380 (1996) 273 ([arXiv:hep-th/9603087](http://arxiv.org/abs/hep-th/9603087))
 
-* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475 (1996) 149 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>)
+* {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475 (1996) 149 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>)
+
+with a [[matrix model]]-description in:
+
+* {#KachruOzYin98} [[Shamit Kachru]], [[Yaron Oz]], [[Zheng Yin]], *Matrix Description of Intersecting M5 Branes* JHEP 9811:004, (1998) ([arXiv:hep-th/9803050](https://arxiv.org/abs/hep-th/9803050))
+
 
 For more on this see
 
@@ -61,7 +70,7 @@ For more on this see
 
 The relation to [[D=4 N=2 super Yang-Mills theory]] is discussed in
 
-* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _Classical M-Fivebrane Dynamics and Quantum $N=2$ Yang-Mills_, Phys. Lett. B418 (1998) 85-90 ([arXiv:hep-th/9710034](https://arxiv.org/abs/hep-th/9710034))
+* {#HoweLambertWest98} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _Classical M-Fivebrane Dynamics and Quantum $N=2$ Yang-Mills_, Phys. Lett. B418 (1998) 85-90 ([arXiv:hep-th/9710034](https://arxiv.org/abs/hep-th/9710034))
 
 * [[Neil Lambert]], [[Peter West]], _Gauge Fields and M-Fivebrane Dynamics_, Nucl. Phys. B524 (1998) 141-158 ([arXiv:hep-th/9712040](https://arxiv.org/abs/hep-th/9712040))
 
@@ -73,4 +82,7 @@ and via [[F-theory]] in
 
 * Robert de Mello Koch, Alastair Paulin-Campbell, Joao P. Rodrigues, _Monopole Dynamics in $\mathcal{N}=2$ super Yang-Mills Theory From a Threebrane Probe_, Nucl. Phys. B559 (1999) 143-164 ([arXiv:hep-th/9903207](https://arxiv.org/abs/hep-th/9903207))
 
+
+[[!redirects M5-brane intersection]]
+[[!redirects intersecting M5-branes]]
 
