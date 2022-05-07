@@ -167,11 +167,17 @@ Suggestion that an actual [[E8]]-[[principal bundle]] on 11d spacetime plays a r
 
 
 
-The observation that the condition is implied by [[supergravity C-field|C-field]] [[charge quantization]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]) is due to
+The observation that the condition is implied by [[supergravity C-field|C-field]] [[charge quantization]] in [[J-homomorphism|J-]][[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]):
 
-* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
+* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_,  
+Comm. Math. Phys. **377** (2020) 1961-2025 ([doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2), [arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
-* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. **384** 403–432 (2021) ([doi:10.1007/s00220-021-03951-0](https://doi.org/10.1007/s00220-021-03951-0), [arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+
+surveyed in:
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Sec. 5.3 of: *[[schreiber:The Character Map in Twisted Non-Abelian Cohomology]]* ([arXiv:2009.11909](https://arxiv.org/abs/2009.11909))
+
 
 Discussion of the [[Page charge]] in relation to the [[Myers effect]] in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of [[fuzzy 3-sphere|fuzzy]] [[3-sphere]]-shape:
 
