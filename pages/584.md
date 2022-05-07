@@ -283,6 +283,12 @@ A detailed construction of the [[(n,r)-category|(2,2)-category]] of 2-dimensiona
 
 * {#SchommerPries13} [[Chris Schommer-Pries]], _Dualizability in Low-Dimensional Higher Category Theory_ ([arXiv:1308.3574](http://arxiv.org/abs/1308.3574))
 
+Discussion of a [[2-category]] of complex cobordisms, aimed at formalizing chiral [[2d CFT]]:
+
+* [[André Henriques]], *The complex cobordism 2-category*, 2021 ([video](http://andreghenriques.com/ComplexCob2CatandCentralExt.mp4))
+
+
+
 ### In dimension 3
 
 * [[Bruce Bartlett]], [[Christopher Douglas]], [[Christopher Schommer-Pries]], [[Jamie Vicary]], _Extended 3-dimensional bordism as the theory of modular objects_ ([arXiv:1411.0945](http://arxiv.org/abs/1411.0945))
