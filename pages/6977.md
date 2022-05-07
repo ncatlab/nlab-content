@@ -40,7 +40,7 @@ The dual concept, which applies to cosinks ("sources"), is called a (perhaps sem
 
 ## Examples
 
-* If $D$ is the [[terminal category]], then a $U$-structured sink is simply a family of objects $A_i$ of $C$, a lift is just a cocone $A_i\to B$, a morphism of lifts is a morphism of cocones, hence a semi-final lift is simply a [[colimits]] in $C$.
+* If $D$ is the [[terminal category]], then a $U$-structured sink is simply a family of objects $A_i$ of $C$, a lift is just a cocone $A_i\to B$, a morphism of lifts is a morphism of cocones, hence a semi-final lift is simply a [[colimit]] in $C$.
 
 * An empty $U$-structured sink is just an object $Y$ of $D$, a lift of it is a morphism $Y\to U(B)$, and a morphism of lifts is a morphism $B\to B'$ so that $Y\to U(B')$ factors as $Y\to U(B)\to U(B')$. Hence, a semi-final lift of such a sink is a [[free object]] with unit morphism $h\colon Y\to U(B)$ of $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint (i.e. if it admits [[discrete objects]]).
 
