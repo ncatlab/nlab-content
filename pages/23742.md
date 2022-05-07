@@ -19,11 +19,11 @@
 
 ## Definition ##
 
-In [[constructive mathematics]], a [[set]] $X$ has __stable equality__ if any two elements of $X$ are equal if (hence iff) they are [[double negation|not not]] equal.  
+In [[constructive mathematics]], a [[set]] $X$ has __stable equality__ if any two [[elements]] of $X$ are [[equality|equal]] if (hence iff) they are [[double negation|not not]] equal.  
 
 ## Examples ##
 
-* Every set with [[decidable equality]] has stable equality, but not conversely.
+* Every [[set]] with [[decidable equality]] has stable equality, but not conversely.
 
 ## See also ##
 
@@ -33,3 +33,5 @@ In [[constructive mathematics]], a [[set]] $X$ has __stable equality__ if any tw
 ## References
 
 * {#BauerSwan18} [[Andrej Bauer]] and [[Andrew Swan]], *Every metric space is separable in function realizability*, 2018, [arxiv](https://arxiv.org/abs/1804.00427)
+
+[[!redirects stable equalities]]
