@@ -5,7 +5,7 @@
 
 ## Statement
 
-Let $A$ be a [[Hopf algebra]] over a [[field]] $k$, and let $B$ be a normal su Hopf algebra of $A$. Then
+Let $A$ be a [[Hopf algebra]] over a [[field]] $k$, and let $B$ be a normal sub Hopf algebra of $A$. Then
 
 $$
   Cotor_A(B,k) \simeq Cotor_{A//B}(k,k)
@@ -19,7 +19,7 @@ This is used in computations with the [[Adams spectral sequence]].
 
 Due to 
 
-* A. Liulevicius, _Notes on Homotopy of Thorn Spectra_, Amer. J. of Math., 86 
+* A. Liulevicius, _Notes on Homotopy of Thom Spectra_, Amer. J. of Math., 86 
 (1964), 1-16. 
 
 Textbook accounts include
