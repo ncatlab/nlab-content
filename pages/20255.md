@@ -248,7 +248,7 @@ Derivation from classification of [[higher curvature corrections]] to [[D=11 sup
 * [[Paul Howe]], [[Dimitrios Tsimpis]], Around (56) in: _On higher-order corrections in M theory_, JHEP 0309 (2003) 038 ([arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129))
 
 
-* {#SoueresTsimpis17} Bertrand Souères, [[Dimitrios Tsimpis]], Section 4 of: _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
+* {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], Section 4 of: _The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity_, Phys. Rev. D 95, 026013 (2017) ([arXiv:1612.02021](https://arxiv.org/abs/1612.02021))
 
 
 ### In relation to the quantum anomaly of the M5-brane
@@ -272,9 +272,9 @@ that this term disappears (cancels) when properly taking into account the singul
 
 This formulation via an anomaly 12-form is (re-)derived also in
 
-* {#BahBonettiMinasianNardoni18} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+* {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
 
-* {#BBMN19} Ibrahima Bah, Federico Bonetti, [[Ruben Minasian]], Emily Nardoni, _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_ ([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
+* {#BBMN19} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_ ([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
 
 
 [[!redirects one-loop anomaly polynomial I8]]
