@@ -56,7 +56,7 @@ First note that the 2-limit of $S\circ G$ is equivalent to the full subcategory 
 $$ C/x \to ([D,C] \Downarrow G). $$
 Now this functor has a left adjoint given by taking colimits.  Thus, it is an equivalence if and only if the unit and counit of the adjunction are isomorphisms.
 
-The unit is the map from an equifibered transformation over $G$ into the pullback of its colimit.  The latter underlies an equifibered $\alpha'$ by construction, so the unit is an isomorphism just when (1)$\Rightarrow$(2).  Similarly, the counit is the map into an object over $x$ from the colimit of its pullback.  Thus, it is an isomorphism just when (2)$\Rightarrow$(1).
+The unit is the map from an equifibered transformation over $G$ into the pullback of its colimit.  The latter underlies an equifibered $\alpha'$ by construction, so the unit is an isomorphism just when (2)$\Rightarrow$(1).  Similarly, the counit is the map into an object over $x$ from the colimit of its pullback.  Thus, it is an isomorphism just when (1)$\Rightarrow$(2).
 =--
 
 The condition (1)$\Rightarrow$(2) is precisely the statement that the colimit of $G$ is [[universal colimit|universal]], i.e. preserved by pullback.  The condition (2)$\Rightarrow$(1) is a form of [[descent]].
