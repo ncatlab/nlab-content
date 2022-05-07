@@ -11,7 +11,8 @@
 
 ## External links
 
-* [webpage](http://www.physics.umb.edu/Research/QBism/chris.html)
+* [Faculty webpage](http://www.physics.umb.edu/Research/QBism/chris.html)
+* [Quantum Dreams Page](http://www.perimeterinstitute.ca/personal/cfuchs/)
 
 
 category: people
