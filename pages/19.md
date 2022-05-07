@@ -361,6 +361,8 @@ This and much more history is recalled in
 
 * [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf))
 
+* [[Martin Brandenburg]], *Einführung in die Kategorientheorie*, Springer 2017 ([doi:10.1007/978-3-662-53521-9](https://link.springer.com/book/10.1007/978-3-662-53521-9))
+
 * {#FongSpivak18} Brendan Fong, [[David Spivak]], _An invitation to applied category theory_, 2018 ([web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf))
 
 * {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
