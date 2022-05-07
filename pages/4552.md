@@ -16,9 +16,13 @@ On [[homotopy types with finite homotopy groups]]:
 * [[Jean-Louis Loday]], _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179--202.
  
 
-On the relation between [[free loo spaces]]/[[cyclic loop spaces]] and [[Hochschild homology]]/[[cyclic homology]]:
+On the relation between [[free loop spaces]]/[[cyclic loop spaces]] and [[Hochschild homology]]/[[cyclic homology]]:
 
 * {#Loday11}[[Jean-Louis Loday]], _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
+
+On [[operads]]:
+
+* [[Jean-Louis Loday]], [[Bruno Vallette]], *Algebraic Operads*, Grundlehren der mathematischen Wissenschaften **346**, Springer 2012 ([ISBN 978-3-642-30362-3](https://www.springer.com/gp/book/9783642303616), [pdf](http://irma.math.unistra.fr/~loday/PAPERS/LodayVallette.pdf))
 
 
 Other:
