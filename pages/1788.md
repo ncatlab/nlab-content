@@ -1,4 +1,8 @@
 
+$U(\mathcal{H})$
+
+[[U(ℋ)]]
+
 Let $\phi \;\colon\; G \xrightarrow{\;} \Gamma$ be a [[crossed homomorphism]], hence equivalently a plain group homomorphism
 $(\phi(-),\,(-)) \,\colon\, G \xrightarrow{\;} \Gamma \rtimes G$.
 Say that another crossed homomorphism $\phi'$ is nearby if it is so as a plain homomorphism $(\phi'(-),(-))$. 
