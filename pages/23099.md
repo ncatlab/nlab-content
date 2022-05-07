@@ -83,9 +83,17 @@ and further developed in:
 
 * [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
 
+Comparative review is in:
+
+* Sergei O. Ivanov, Section 12 of: *An overview of rationalization theories of non-simply connected spaces and non-nilpotent groups* ([arXiv:2111.10694](https://arxiv.org/abs/2111.10694))
+
+
+
+
+
 A textbook account is in:
 
 * {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
 
-(While [FHT 15](#FelixHalperinThomas15) does discuss, mostly in its Section 7, some aspects of non-simply connected spaces via the rational homotopy of their [[covering spaces]] with attention to $\pi_1$-actions, it does not seem to establish or mention aspects of a systematic generalization of the [[fundamental theorem of dg-algebraic rational homotopy theory]] to this situation -- nor does it cite any of the above.)
+> (While [FHT 15](#FelixHalperinThomas15) does discuss, mostly in its Section 7, some aspects of non-simply connected spaces via the rational homotopy of their [[covering spaces]] with attention to $\pi_1$-actions, it does not seem to establish or mention aspects of a systematic generalization of the [[fundamental theorem of dg-algebraic rational homotopy theory]] to this situation -- nor does it cite any of the above.)
 
