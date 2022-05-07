@@ -89,6 +89,7 @@ So that then finally is the relation, in the ADE classification, between the sim
 
 ## Related concepts
 
+* [[24]]
 * [[McKay correspondence]]
 
 ## References
@@ -111,7 +112,7 @@ See also
 
 * Wikipedia, _[ADE classification](http://en.wikipedia.org/wiki/ADE_classification)_
 
-Discsssion of the free finite group actions on spheres goes back to
+Discussion of the free finite group actions on spheres goes back to
 
 * {#Milnor57} [[John Milnor]], _Groups which act on $S^n$ without fixed points_, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([JSTOR](http://www.jstor.org/stable/2372566))
 
