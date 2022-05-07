@@ -135,8 +135,8 @@ In fact, these are [[sSet]]-[[enriched functors]] which induced an [[equivalence
 This kind of relation is discussed in more detail at _[[∞-action]]_.
 
 
-\begin{remark}
-
+\begin{remark}\label{sSetEnrichmentOfAdjunctionToSliceOverSimpClassSpace}
+**(sSet-enrichement of the adjunction)** \linebreak
 The statement that (eq:QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace) is an [[sSet]]-*[[enriched adjunction]]* is not made explicit in [DDK 80](#DDK80); there it only says that the functors form a plain [[adjoint functors|adjunction]] ([DDK 80, Prop. 2.3](#DDK80)) and that they are each [[sSet]]-[[enriched functors]] ([DDK 80, Prop. 2.4](#DDK80)). 
 
 The remaining observation that we have a [[natural isomorphism]] of [[sSet]]-[[hom-objects]]
@@ -151,37 +151,38 @@ $$
   \big[
     X,
     \,
-    (V \times W G)
+    (V \times W G)/G
   \big]
 $$
 
 hence
 
 $$
-  sSetCat\big(\mathbf{B}G_\bullet, sSet\big)
+  Hom
   \Big(
     \big( X \times_{\overline{W}G} W G \big) \times \Delta[\bullet],
     \,
     V
   \Big)
   \;\simeq\;
-  sSet_{/\overline{W}G}
+  Hom
   \big(
     X \times \Delta[\bullet],
     \,
-    (V \times W G)
+    (V \times W G)/G
   \big)
 $$
 
-follows from the plain adjunction by the natural isomorphism
+follows from the plain adjunction and the natural isomorphism
 
 $$
-  { (X \times_{\overline{W}G} W G) \times \Delta[k] } 
-  { {\simeq} (X \times \Delta[k]) \times_{\overline{W}G} W G  } 
+  (X \times_{\overline{W}G} W G) \times \Delta[\bullet] 
+  \;\simeq\;
+  (X \times \Delta[\bullet]) \times_{\overline{W}G} W G  
   \,,
 $$
 
-which, in full detail, follows for instance from the [[pasting law]]:
+which, in turn, follows, for instance, via the [[pasting law]]:
 
 \begin{tikzcd}
   {
@@ -213,6 +214,7 @@ which, in full detail, follows for instance from the [[pasting law]]:
   \ar[r]
   &
   \overline{W}G
+  \,.
 \end{tikzcd}
 
 \end{remark}
@@ -255,7 +257,7 @@ The result is also mentioned as:
 
 Discussion in relation to the "fine" model structure of [[equivariant homotopy theory]] which appears in [[Elmendorf's theorem]] is in 
 
-* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
+* {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
 
 
