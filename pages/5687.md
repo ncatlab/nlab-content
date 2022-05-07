@@ -37,7 +37,7 @@ We take [[Top]] to be the category of [[k-space]]s in the following.
 +-- {: .num_defn #WellPointedSimplicialTopologicalGroup}
 ###### Definition
 
-A simplicial topological group $G$ is called **well-pointed** if for $*$ the trivial simplicial topological group and $i : * \to G$ the unique [[homomorphism]], all components $i_n : * \to G_n$ are [[closed cofibrations]].
+A simplicial topological group $G$ is called **[[well-pointed simplicial topological group|well-pointed]]** if for $*$ the trivial simplicial topological group and $i : * \to G$ the unique [[homomorphism]], all components $i_n : * \to G_n$ are [[closed cofibrations]].
 
 =--
 
@@ -120,9 +120,9 @@ The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), t
 
 
 \begin{proposition}\label{RealizationOfWellPointedIsWellPointed}
-If $G$ is a [well-pointed](#WellPointedSimplicialTopologicalGroup) simplicial topological group, then
+If $G$ is a [[well-pointed simplicial topological group]] (Def. \ref{WellPointedSimplicialTopologicalGroup}), then
 
-1. $G$ is a [[nice simplicial topological space|good simplicial topological space]];
+1. its [[underlying]] [[simplicial topological space]] is [[good simplicial topological space|good]];
 
 1. $\overline{W} G$ is a [[nice simplicial topological space|proper simplicial topological space]];
 
@@ -170,22 +170,6 @@ Discussion of [[homotopy theory]] over a base $B$ is in
 
 [[!redirects topological simplicial group]]
 [[!redirects topological simplicial groups]]
-
-[[!redirects well-pointed simplicial topological group]]
-[[!redirects well pointed simplicial topological group]]
-[[!redirects well-pointed simplicial topological groups]]
-[[!redirects well pointed simplicial topological groups]]
-
-[[!redirects well-pointed topological group]]
-[[!redirects well pointed topological group]]
-[[!redirects well-pointed topological groups]]
-[[!redirects well pointed topological groups]]
-
-
-[[!redirects well-sectioned simplicial topological group]]
-[[!redirects well sectioned simplicial topological group]]
-[[!redirects well-sectioned simplicial topological groups]]
-[[!redirects well sectioned simplicial topological groups]]
 
 
 
