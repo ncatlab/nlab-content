@@ -15,7 +15,7 @@
 
 
 
-**Lev Sem&#1105;novi&#269; Pontrjagin** (&#1051;&#1077;&#1074; &#1057;&#1077;&#1084;&#1105;&#1085;&#1086;&#1074;&#1080;&#1095; &#1055;&#1086;&#1085;&#1090;&#1088;&#1103;&#1075;&#1080;&#1085;) was an influential Soviet mathematician working in Moscow. His main works till the late 1940s were in topology, especially the study of topological groups (including study of [[Pontrjagin duality]]) and algebraic topology in which he also explored applications of differentiable manifolds for computation of homotopy groups; including the introduction of framed cobordism in that work. After the success of the French mathematical school in the late 1940s in introducing new methods of sheaf theory, which Pontrjagin did not like as less direct than the more intuitive geometric methods he was master of, and after some pressure from the government, Pontrjagin switched into applied mathematics where he did some fundamental work, especially in optimization theory.  
+**Lev Sem&#1105;novi&#269; Pontrjagin** (&#1051;&#1077;&#1074; &#1057;&#1077;&#1084;&#1105;&#1085;&#1086;&#1074;&#1080;&#1095; &#1055;&#1086;&#1085;&#1090;&#1088;&#1103;&#1075;&#1080;&#1085;) was an influential Soviet mathematician working in Moscow. His main works till the late 1940s were in [[general topology]], especially the study of [[topological groups]] (including study of [[Pontrjagin duality]]) and [[algebraic topology]] in which he also explored applications of [[differentiable manifolds]] for computation of [[homotopy groups]] (the [[Pontrjagin theorem]]); including the introduction of unstable framed [[cobordism]] (unstable [[Cohomotopy]]) in that work. After the success of the French mathematical school in the late 1940s in introducing new methods of [[sheaf and topos theory|sheaf theory]], which Pontrjagin did not like as being less direct than the more intuitive geometric methods he was master of, and after some pressure from the government, Pontrjagin switched into [[applied mathematics]] where he did some fundamental work, especially in [[optimization theory]].  
 
 Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind since the age of 14.
 
@@ -25,9 +25,9 @@ Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind s
 
 Introducing [[Pontrjagin duality]]:
 
-* [[Lev Pontrjagin]], *Theory of topological commutative groups*, Uspekhi Mat. Nauk, 1936, no. 2, 177–195 ([mathnet:umn8882](http://mi.mathnet.ru/eng/umn8882))
+* {#Pontrjagin34} [[Lev Pontrjagin]], *Theory of topological commutative groups*, Annals of Mathematics Second Series, Vol. 35, No. 2 (Apr., 1934), pp. 361-388 ([doi:10.2307/1968438](https://doi.org/10.2307/1968438))
 
-  English translation: Annals of Mathematics Second Series, Vol. 35, No. 2 (Apr., 1934), pp. 361-388 ([doi:10.2307/1968438](https://doi.org/10.2307/1968438))
+  Russian translation: Uspekhi Mat. Nauk, 1936, no. 2, 177–195 ([mathnet:umn8882](http://mi.mathnet.ru/eng/umn8882))
 
 
 Introducing [[Pontryagin's theorem]] -- the [[bijection]] between [[cobordism classes]] of [[normally framed submanifolds]] of a [[closed manifold|closed]] [[smooth manifold]] and its [[Cohomotopy]]-sets, established via the  [[Pontryagin-Thom collapse]]/[[Cohomotopy charge]] -- and its application to the computation of 
