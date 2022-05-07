@@ -72,7 +72,7 @@ $$
   \,.
 $$
 
-The [[exponential]] of minus this distance is known as the *Mallows kernel*:
+For $\beta \in \mathbb{R}_{\geq 0}$, the [[exponential]] of this distance weighted by $- \beta$ is known as the *Mallows kernel*:
 
 \[
   \label{MallowsKernel}
@@ -80,7 +80,7 @@ The [[exponential]] of minus this distance is known as the *Mallows kernel*:
   \;\mapsto\;
   \exp
   \big(
-    - d_K(\sigma_1, \sigma_2)
+    - \beta d_K(\sigma_1, \sigma_2)
   \big)
 \]
 
@@ -88,7 +88,7 @@ The [[exponential]] of minus this distance is known as the *Mallows kernel*:
 
 
 \begin{theorem}
-The Mallows kernel (eq:MallowsKernel) is [[positive definite bilinear form|positive definite]].
+The Mallows kernel (eq:MallowsKernel) is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$.
 \end{theorem}
 
 ([Jiao-Vert 18, Theorem 1](#JiaoVert18))
