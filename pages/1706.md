@@ -804,7 +804,7 @@ Lecture notes and reviews on the topic of the cobordisms hypothesis include
 
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, AMS 2011
 
-* [[Daniel Freed]], _The cobordism hypothesis_, , Bulletin of the American Mathematical Society 50 (2013), pp. 57-92, ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100))
+* [[Daniel Freed]], _The cobordism hypothesis_, Bulletin of the American Mathematical Society 50 (2013), pp. 57-92, ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100), [doi:10.1090/S0273-0979-2012-01393-9](https://doi.org/10.1090/S0273-0979-2012-01393-9))
 
 * {#SchommerPries13} [[Chris Schommer-Pries]], _Dualizability in Low-Dimensional Higher Category Theory_ ([arXiv:1308.3574](http://arxiv.org/abs/1308.3574))
 
