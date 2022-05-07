@@ -16,7 +16,7 @@ The book
 
   Cambridge University Press (2016)
 
-  ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
+  ([ISBN:9781107150300](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
 
 lays the foundations of the theory of [[programming languages]] in terms of [[type theory]].
 In over 500 pages, the author formally specifies and step-by-step extends established type systems and reasons about type safety and operational semantics (not so much dependent types and categorical semantics). The book also contains a discussion of logic in type theory and features of variants of the Algol programming language, in particular.
