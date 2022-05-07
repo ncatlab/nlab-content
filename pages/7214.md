@@ -19,7 +19,7 @@
 ###### Definition
 **($\Delta$-Generated spaces)**
 
-A **$\Delta$-generated space** ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[weak topology|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
+A **$\Delta$-generated space** (alias **numerically generated space**) ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[weak topology|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
 
 A [[morphism]] between $\Delta$-generated spaces is just a [[continuous function]], hence the [[category]] of $\Delta$-generated spaces is the [[full subcategory]] on these spaces inside all [[Top|TopologicalSpaces]], 
 
@@ -174,9 +174,16 @@ Relation to [[diffeological spaces]]:
 
 
 [[!redirects Delta-generated topological spaces]]
-
 [[!redirects Delta-generated space]]
 [[!redirects Delta-generated spaces]]
+[[!redirects Δ-generated topological space]]
+[[!redirects Δ-generated topological spaces]]
+[[!redirects Δ-generated space]]
+[[!redirects Δ-generated spaces]]
+[[!redirects numerically generated topological space]]
+[[!redirects numerically generated topological spaces]]
+[[!redirects numerically generated space]]
+[[!redirects numerically generated spaces]]
 
 [[!redirects Euclidean-generated space]]
 [[!redirects Euclidean-generated spaces]]
