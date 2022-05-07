@@ -149,6 +149,8 @@ This is the group underlying the [[Burnside ring]].
 
 * [[Elmendorf's theorem]]
 
+* [[G-CW approximation]]
+
 ## References
 
 The theorem at the level of [[stable homotopy groups]] is due to
