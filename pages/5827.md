@@ -67,6 +67,11 @@ Concepts which relate to (non-degenerate) bilinear forms from the [[nPOV]] and/o
 [[!redirects positive definite bilinear form]]
 [[!redirects positive definite bilinear forms]]
 
+[[!redirects positive semi-definite bilinear form]]
+[[!redirects positive semi-definite bilinear forms]]
+
 
 [[!redirects symmetric bilinear form]]
 [[!redirects symmetric bilinear forms]]
+
+
