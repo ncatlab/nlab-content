@@ -633,11 +633,13 @@ write:
 
 \end{proposition}
 \begin{proof}
-Since representables are [[cofibrant objects|cofibrant]] (evidently so in the projective model structure, since [[acyclic Kan fibrations]]  [are surjective](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective)), the unsliced simplicial hom out of a representable is a right Quillen functor by the [pullback-power axiom](enriched+model+category#PullbackPowerAxiom) in the $sSet_{Qu}$-[[enriched model category]] $sSh(\mathcal{C})$. 
+Observe that
 
-Moreover, [[base change]] by [[pullback]] is a right Quillen functor on [[slice model categories]] of $sSet_{Qu}$  (by [this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction)). 
+1. Since representables are [[cofibrant objects|cofibrant]] (evidently so in the projective model structure, since [[acyclic Kan fibrations]]  [are surjective](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective)), the unsliced simplicial hom out of a representable is a right Quillen functor by the [pullback-power axiom](enriched+model+category#PullbackPowerAxiom) in the $sSet_{Qu}$-[[enriched model category]] $sSh(\mathcal{C})$. 
 
-Together this implies that their composite (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a right Quillen functor.
+1. The [[base change]]-functor by [[pullback]] is a right Quillen functor on [[slice model categories]] of $sSet_{Qu}$  (by [this Prop.](slice+model+structure#LeftBaseChangeQuillenAdjunction)). 
+
+Together this implies that their composite (eq:SliceHomOfPresheavesAsFiberOfPlainHom) is a [[right Quillen functor]].
 \end{proof}
 
 
