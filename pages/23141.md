@@ -195,7 +195,7 @@ for the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-topos of $\i
 
 ## Statement
 
-### The adjunction of sites
+### The adjoint pair between sites
  {#TheAdjunctionOfSites}
 
 \begin{lemma}\label{TruncatedObjectsInSliceOverGOrbiSingularity}
@@ -209,7 +209,7 @@ for the [[(infinity,1)-category of (infinity,1)-presheaves|$\infty$-topos of $\i
 
    hence those which are [[delooping groupoid|deloopings]] of [[subgroup]]-inclusions $H \xhookrightarrow{\;\; i_H \;\;} G$;
 
-1. is [[reflective sub-(infinity,1)-category|reflective]], with reflector being the [[image]]-factorization of [[group homomorphisms]]
+1. is [[reflective sub-(infinity,1)-category|reflective]], with reflector being the [[image]]-factorization of [[group homomorphisms]]:
 
 $$
       Sngrlt_{/\prec G}
@@ -240,6 +240,8 @@ $$
 \end{lemma}
 \begin{proof}
   That 0-truncated morphisms between 1-groupoids are equivalently the [[faithful functors]] is [this Prop.](n-truncated+object+of+an+infinity1-category#TruncatedMorphismsBetweenGroupoids). With this in hand, it is immediate to check the [hom-equivalence](adjoint+infinity1-functor#CharacterizationInTermsOfHomEquivalences) (here just a [[natural bijection]] of [[hom-sets]]) which characterizes the adjunction.
+
+Finally, since the 0-truncation is the restriction of that on the ambient [[(infinity,1)-topos|$\infty$-topos]] $\infty Grpd_{/B G}$ it preserves [[finite products]], by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts). 
 \end{proof}
 
 \begin{lemma}\label{GOrbitsAs0TruncatedObjectsInSliceOverGOrbiSingularity}
@@ -381,7 +383,7 @@ the [[slice (infinity,1)-category|slice]] of $Snglrt$ (Def. \ref{CategoryOfOrbiS
 
 
 
-### The cohesion of homotopy theories
+### The adjoint quadruple between homotopy theories
  {#TheCohesionOfHomotopyTheories}
 
 \begin{prop}\label{SliceOfGlobalHOverGOrbiSingularityIsCohesiveOverGH}
@@ -462,6 +464,7 @@ by  [[(infinity,1)-Kan extension|$\infty$-Kan extension]]
  of the adjoint pair from Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}.
 \end{proof}
 
+> {#Gap} Gap: The above sites don't actually have all finite products, while the proof above refers to a lemma which assumes they do. Am patching this...
 
 ## References
 
