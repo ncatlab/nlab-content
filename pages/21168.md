@@ -1,4 +1,6 @@
 
+> This entry may need to be merged with _[[cochain on a simplicial set]]_.
+
 \tableofcontents
 
 ## Idea
