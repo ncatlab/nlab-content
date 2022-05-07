@@ -76,7 +76,12 @@ The [[KK-compactification]] of $D=10$ super-Yang-Mills to the point is a [[theor
 
 * [[Martin Cederwall]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _$D=10$ Super-Yang-Mills at $O(\alpha'^2)$_, JHEP 0107:042,2001 ([arXiv:hep-th/0104236](http://arxiv.org/abs/hep-th/0104236))
 
-* [[Mikhail Movshev]], [[Albert Schwarz]], _On maximally supersymmetric Yang-Mills theories_, Nucl.Phys. B681 (2004) 324-350 ([arXiv:hep-th/0311132](https://arxiv.org/abs/hep-th/0311132))
+* [[Mikhail Movshev]], [[Albert Schwarz]], _On maximally supersymmetric Yang-Mills theories_, Nucl. Phys. B681 (2004) 324-350 ([arXiv:hep-th/0311132](https://arxiv.org/abs/hep-th/0311132))
+
+On [[scattering amplitudes]] in [[pure spinor]]-formalism:
+
+* Maor Ben-Shahar, [[Max Guillen]], *10D Super-Yang-Mills Scattering Amplitudes From Its Pure Spinor Action* ([arXiv:2108.11708](https://arxiv.org/abs/2108.11708))
+
 
 [[!redirects 10d super Yang-Mills]]
 
