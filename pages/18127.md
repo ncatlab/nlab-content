@@ -1113,11 +1113,11 @@ We will need also the following local version:
 ###### Definition
 **([[semi-locally simply connected topological space]])**
 
-A [[topological space]] $X$ is called  _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $U_x \subset X$ such that every loop in $X$ is contractible as a loop in $X$,
+A [[topological space]] $X$ is called  _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $U_x \subset X$ such that every loop in $U_x$ is contractible as a loop in $X$,
 hence such that the induced morphism of [[fundamental groups]] (def. \ref{PushElementsFundamentalGroup})
 
 $$
-  \pi_1(U,x) \to \pi_1(X,x)
+  \pi_1(U_x,x) \to \pi_1(X,x)
 $$
 
 is trivial (i.e. sends everything to the [[neutral element]]).
@@ -1206,7 +1206,7 @@ A [[homomorphism]] between groupoids is the obvious: a [[function]] between thei
 
 For example if $f \;\colon\; X \to Y$ is a [[continuous function]] between topological spaces, then postcomposition of [[paths]] with this function induces a groupoid homomorphism $f_\ast \;\colon\; \Pi_1(X) \longrightarrow \Pi_1(Y)$ between the [[fundamental groupoids]] from above.
 
-Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a genralization of [[group theory]].
+Groupoids with groupoid homomorphisms ([[functors]]) between them form a [[category]] [[Grpd]] (def. \ref{1CategoryOfGroupoids} below) which includes the categeory [[Grp]] of [[groups]] as the [[full subcategory]] of the groupoids with a single object. This makes precise how groupoid theory is a generalization of [[group theory]].
 
 However, for groupoids more than for groups one is typically interested in "[[conjugation actions]]" on homomorphisms. These are richer for groupoids than for groups, because one may conjugate with a different morphism at each object. If we think of groupoids as special cases of [[categories]], then these "conjugation actions on homomorphisms" are _[[natural transformations]]_ between [[functors]].
 
