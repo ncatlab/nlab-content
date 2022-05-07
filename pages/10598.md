@@ -37,7 +37,7 @@ if a [[compact Lie group]] $G$ acts on a [[compact topological space|compact]] [
 \begin{proposition}\label{GManifoldsAreGCWComplexes}
 For $G$ a [[compact Lie group]], every [[closed manifold|closed]] [[smooth manifold|smooth]] [[G-manifold]] admits the structure of a G-CW complex. 
 \end{proposition}
-This is due to [Matumoto 72, Prop. 4.4](#Matumoto72), [Illman 72, Th. 2.6](#Illman72), [Illman 73, Thm. 2.1](#Illman73), [Illman 83, Thm. 7.1, Cor. 7.2](equivariant+triangulation+theorem#Illman83) -- review in [ALR 07, theorem 3.2](#ALR07), see also [Waner 80, p. 6](#Waner80).
+This is due to [Matumoto 72, Prop. 4.4](#Matumoto72), [Illman 72a, Thm. 3.1, Cor. 4.1](#Illman72a), [Illman 72b, Thm. 2.6](#Illman72), [Illman 73, Thm. 2.1](#Illman73), [Illman 83, Thm. 7.1, Cor. 7.2](equivariant+triangulation+theorem#Illman83) -- review in [ALR 07, theorem 3.2](#ALR07), see also [Waner 80, p. 6](#Waner80).
 
 Moreover, if the manifold does have a [[manifold with boundary|boundary]], then its G-CW complex may be chosen such that the boundary is a G-subcomplex. ([Illman 83, last sentence above theorem 7.1](equivariant+triangulation+theorem#Illman83))
 
@@ -89,7 +89,9 @@ In the broader generality of general [[topological groups]] and specifically of 
 
 and, independently, due to:
 
-* {#Illman72} [[Sören Illman]], Section 2 of: *Equivariant singular homology and cohomology for actions of compact lie groups* ([doi:10.1007/BFb0070055](https://doi.org/10.1007/BFb0070055)) In: H. T. Ku, L. N. Mann, J. L. Sicks, J. C. Su (eds.), *Proceedings of the Second Conference on Compact Transformation Groups* Lecture Notes in Mathematics, vol 298. Springer 1972 ([doi:10.1007/BFb0070029](https://link.springer.com/book/10.1007/BFb0070029))
+* {#Illman72a} [[Sören Illman]], Chapter I of: *Equivariant algebraic topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
+
+* {#Illman72b} [[Sören Illman]], Section 2 of: *Equivariant singular homology and cohomology for actions of compact lie groups* ([doi:10.1007/BFb0070055](https://doi.org/10.1007/BFb0070055)) In: H. T. Ku, L. N. Mann, J. L. Sicks, J. C. Su (eds.), *Proceedings of the Second Conference on Compact Transformation Groups* Lecture Notes in Mathematics, vol 298. Springer 1972 ([doi:10.1007/BFb0070029](https://link.springer.com/book/10.1007/BFb0070029))
 
 * {#Illman73} [[Sören Illman]], Section 2 of: *Equivariant algebraic topology*, Annales de l'Institut Fourier, Tome 23 (1973) no. 2, pp. 87-91 ([doi:10.5802/aif.458](https://doi.org/10.5802/aif.458))
 
@@ -113,11 +115,7 @@ Textbook accounts:
 
 Lecture notes:
 
-* [[Jay Shah]], _Equivariant algebraic topology_, 2010 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf), [[ShahEquivariantAlgebraicTopology.pdf:file]])
-
 * {#Blumberg17} [[Andrew Blumberg]], _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
-
-
 
 
 
