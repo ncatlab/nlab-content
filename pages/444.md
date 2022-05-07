@@ -695,11 +695,11 @@ The notion of the nerve of an [[cover]] (in modern parlance: of its [[Cech group
 
 ### For categories
 
-The notion of the nerve of a general category may be due to:
+The notion of the nerve of a general category already appears in Proposition 4.1 of
 
-* [[Alexander Grothendieck]],  *Th&eacute;orie  de  la  descente,  etc.*,   Seminaire  Bourbaki,  **195**  (1959-1960)
+* [[Alexander Grothendieck]], _TECHNIQUES DE CONSTRUCTION ET THÉORÈMES D’EXISTENCE EN GÉOMÉTRIE ALGÉBRIQUE.  III : PRÉSCHEMAS QUOTIENTS_, Séminaire BOURBAKI, 13e année, 1960/61, no. 212, February 1961.  [PDF](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf).
 
-and its first prominent appearance in print is:
+Another early appearance in print is
 
 * [[Graeme Segal]], Section 2 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
 
