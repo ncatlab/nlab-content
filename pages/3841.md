@@ -100,19 +100,28 @@ $\lambda$-[[combinatorial model categories]].
 Then notions make sense for all cardinals, not necessarily regular.
 However, the relevant concepts reduce to those for regular cardinals.
 
-Recall that the [[cofinality]] $cof(\lambda)$ of a cardinal $\lambda$
-is the smallest cardinal $\mu$ such that $\lambda$ is a sum
-of $\mu$ cardinals smaller than $\lambda$.
+The relevance of regular cardinals for these concepts
+was already pointed out by [[Gabriel]] and [[Ulmer]]
+in their original treatise on [[locally presentable categories]], where on page 2 we read:
 
-A cardinal $\lambda$ is regular if and only if $\lambda=cof(\lambda)$.
+> Sei $\alpha$ eine Kardinalzahl, wobei $3 \le \alpha \lt \infty$.
+Eine geordnete Menge $(N,\le)$ heisst
+*$\alpha$-gerichtet*, wenn es für jede Familie $(\nu_i)_{i\in I}$ in $N$
+mit $Kard(I) \lt \alpha$ ein $\mu$ gibt
+derart, dass $\nu_i\le\mu$.
+Sei $\beta$ die kleinste reguläre Kardinalzahl $\ge \alpha$.
+Dann ist jede $\alpha$-gerichtete Menge auch $\beta$-gerichtet.
+Wir setzen deshalb im folgenden zusatzlich voraus,
+dass $\alpha$ regulär ist (vgl. §0).
 
 If $\lambda$ is not a [[regular cardinal]],
 then a category has $\lambda$-[[filtered colimits]]
 if and only if it has $\lambda^+$-[[filtered colimits]],
 and $\lambda^+$ is always a [[regular cardinal]] (assuming the [[axiom of choice]]).
+In this case,
+a category is locally $\lambda$-presentable
+if and only if it is locally $\lambda^+$-presentable.
 
-A category is locally $\lambda$-presentable
-if and only if it is locally $cof(\lambda)$-presentable.
 
 ## Related concepts
 
@@ -121,6 +130,11 @@ if and only if it is locally $cof(\lambda)$-presentable.
 * [[cofinality]]
 
 * [[arity class]]
+
+
+## References
+
+* [[Peter Gabriel]], [[Friedrich Ulmer]], Lokal präsentierbare Kategorien, Lecture Notes in Mathematics 221, [doi](http://dx.doi.org/10.1007/bfb0059396).
 
 
 [[!redirects regular cardinal]]
