@@ -12,5 +12,3 @@ category: people
 
 [[!redirects James R. Munkres]]
 [[!redirects James Raymond Munkres]]
-
-[[!redirects James R. Munkres]]
