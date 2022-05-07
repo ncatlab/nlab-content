@@ -154,7 +154,7 @@ The general abstract formulation in [[stable homotopy theory]] is sketched in se
 
 and in section 10 of
 
-* {#ABG11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+* {#ABG11} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_, Geom. Topol. 22(7): 3761-3825 (2018).  ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203), [doi:10.2140/gt.2018.22.3761](https://doi.org/10.2140/gt.2018.22.3761))
  
 
 A review and applications to [[quantization]] of [[local prequantum field theory]] is in 
