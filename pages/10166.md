@@ -26,7 +26,7 @@
 
 Generally, for $G$ some [[group]], a _$G$-equivariant bundle_ is a [[bundle]], specifically a [[fiber bundle]] ([[principal bundle]], [[vector bundle]], etc.) all whose component spaces (total space $E$, base space $X$, [[fiber]] $F$, but also possibly the [[structure group]] $\Gamma$) are equipped with $G$-[[actions]], such that all structure morphisms (in particular the projection $E \overset{p}{\to} X$, but also the $\Gamma$-[[action]] for [[principal bundles]] etc.)  are $G$-[[equivariant functions]].
 
-In short, this should mean ([[schreiber:TED cohomology|GSS 21]], Def. \ref{EquivariantPrincipalBundles} below) that $G$-equivariant (fiber-, principal-,...) bundles are (fiber-, principal, ...) bundles _[[internalization|internal]]_ to a [[category]] of [[G-spaces]] (e.g. [[topological G-spaces]], [[G-manifolds]] but also [[G-sets]] etc.).
+In short, this should mean ([SS 2021, Sec. 2.1](#SatiSchreiber21), Def. \ref{EquivariantPrincipalBundles} below) that $G$-equivariant (fiber-, principal-,...) bundles are (fiber-, principal, ...) bundles _[[internalization|internal]]_ to a [[category]] of [[G-spaces]] (e.g. [[topological G-spaces]], [[G-manifolds]] but also [[G-sets]] etc.).
 
 While the existing literature does not state the definition of equivariant bundles via [[internalization]], one sees (Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles} below) that the explicit definition in [tom Dieck 69](#tomDieck69), [tom Dieck 87, Sec. I.8](#tomDieck87) (for the case of [[principal bundles]]) is the equivalent external description, _including_, thereby, an [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\Gamma$ -- together with the respective compatibility conditions, which equivalently say (as highlighted in
 [tom Dieck 69, Sec. 1.2](#tomDieck69), also [Murayama-Shimakawa 95, below 1.1](#MurayamaShimakawa95), see the discussion [here](category+of+G-sets#InternalGroupActions)) that the joint action is that of the [[semidirect product group]] $\Gamma \rtimes G$.
@@ -138,7 +138,10 @@ $$
 \end{remark}
 In a [[Cartesian monoidal category]] there is a notion of [[internalization|internal]] [[group objects]]:
 
+
 ### Equivariant groups
+
+We follow the terminology of [SS 2021, Def. 2.1.2](#SatiSchreiber21):
 
 \begin{defn}\label{EquivariantTopologicalGroup}
 (**equivariant topological groups**)
@@ -215,9 +218,9 @@ $$
 
 ### Equivariant bundles
 
-We say that a $G$-equivariant principal bundle is a [[principal bundle]] [[internalization|internal]] to [[topological G-spaces]].
+We say that a $G$-equivariant principal bundle is a [[principal bundle]] [[internalization|internal]] to [[topological G-spaces]] ([SS 2021, Def. 2.1.3](#SatiSchreiber21)).
 
-(Beware that, following tradition in equivariant bundle theory, we do not impose a [[local trivialization|local trivializability condition]] at this point, but add this as an extra clause later and then speak explicitly of _locall trivial equivariant bundles_ -- for more on this see at _[Notions of equivariant local triviality](#NotionsOfEquivariantLocalTriviality)_.)
+(Beware that, following tradition in equivariant bundle theory, we do not impose a [[local trivialization|local trivializability condition]] at this point, but add this as an extra clause later and then speak explicitly of _locally trivial equivariant bundles_ -- for more on this see at _[Notions of equivariant local triviality](#NotionsOfEquivariantLocalTriviality)_.)
 
 \begin{defn}\label{EquivariantPrincipalBundles}
 (**[[equivariant principal bundle]]**)
@@ -644,9 +647,10 @@ Therefore it is now sufficient to see that the coset bundle $(\Gamma \rtimes_\al
  {#NotionsOfEquivariantLocalTriviality}
 
 
-The literature considers various different notions of [[local triviality]] of equivariant bundles. We list them and then (...eventually...) discuss sufficient conditions under which these imply each other.
+The literature considers various different notions of [[local triviality]] of equivariant bundles. Some of these look quite different, but are indeed all equivalent, under mild conditions ([SS 2021, Thm. 2.1.2](#SatiSchreiber21)).
 
-> under construction
+
+> under construction, for details see [SS 2021, Sec. 2.2](#SatiSchreiber21)
 
 \begin{definition}\label{tomDieckEquivariantLocalTrivialization}
 **(tom Dieck's equivariant local triviality condition -- [tom Dieck 69, Def. 2.3](#tomDieck69), [tom Dieck 87, p. 58](#tomDieck87))**\linebreak
@@ -1420,6 +1424,10 @@ Review and examples over the [[2-sphere]]:
 See also:
 
 * {#Zou20} [[Foling Zou]], _Notes on equivariant bundles_ ([arXiv:2008.01268](https://arxiv.org/abs/2008.01268))
+
+Discussion in the context of [[principal infinity-bundles|principal $\infty$-bundles]]:
+
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* ([arXiv:2112.13654](https://arxiv.org/abs/2112.13654))
 
 
 
