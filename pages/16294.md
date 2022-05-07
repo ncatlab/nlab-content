@@ -24,7 +24,7 @@ The refinement of the concept of [[lax colimits]] from [[category theory]] to [[
 
 ## Properties
 
-In the special case of functors $f : C \to (\infty,1)Cat$, lax (co)limits can be given by the [(∞,1)-end] and coend.
+In the special case of functors $f : C \to (\infty,1)Cat$, lax (co)limits can be given by the [[(∞,1)-end]] and coend.
 
 $$
   laxcolim(f)   \simeq \int^{c \in C} C_{c/} \times f(c)
