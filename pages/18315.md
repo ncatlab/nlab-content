@@ -51,6 +51,12 @@ Non-tautological examples:
 
 * [[cancellative monoid]]
 
+* [[right cancellative category]]
+
+* [[cancellative category]]
+
+[[!include oidification - table]]
+
 ## References
 
 
