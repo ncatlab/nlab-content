@@ -35,15 +35,20 @@ For $\mathbf{H}$ and $\mathbf{K}$ two [[(∞,1)-topos]]es, a **$(\infty,1)$-geom
 The (non-full) [[sub-(∞,1)-category]] of [[(∞,1)Cat]] on [[(∞,1)-toposes]] and $(\infty,1)$-geometric morphisms between them is  [[(∞,1)Toposes]].
 
 
-## Further details
+## Examples
 
-For the moment see the discussion and the further links at [[geometric morphism]]
+* [[terminal geometric morphism]]
+
+* [[locally infinity-connected (infinity,1)-topos|locally $\infty$-connected $\infty$-topos]]
+
+* [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]]
+
 
 ## Related concepts
 
 * [[geometric morphism]]
 
-* **$(\infty,1)$-geometric morphism**
+* [[terminal geometric morphism]]
 
 ## References
 
