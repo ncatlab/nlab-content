@@ -52,6 +52,7 @@ Consider a morphism $f: A \rightarrow B$  in an $(\infty,1)$-category $M$. The C
 See [[groupoid object in an (∞,1)-category]].
 
 
+
 ## Applications and occurences
 
 * The [[cohomology]] theory obtained by mapping out of [[Čech covers]] instead of general [[hypercovers]] is [[Čech cohomology]].
