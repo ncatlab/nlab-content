@@ -327,7 +327,7 @@ $\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a [[nice
 
 A [[proof]] that the category of $\Delta$-generated spaces is [[locally presentable category|locally presentable]] is in:
 
-* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
+* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], Thm. 3.6 of: _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
 
 See also at _[[directed homotopy theory]]_.
 
