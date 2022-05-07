@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -396,15 +397,20 @@ $$
 ### General
  {#GeneralReferences}
 
-The notion and term _twisted bundle_ (with finite rank) apparently first appears in 
+The concept of twisted vector bundles was introduced, as a model for [[twisted K-theory]] (in the generality of [[equivariant bundles]] and [[orbifold K-theory]]) in:
 
-* [[Marco Mackaay]], _A note on the holonomy of connections in twisted bundles_ ([arXiv:math/0106019](http://arxiv.org/abs/math/0106019)) .
+* {#LupercioUribe01} [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 7.2 of: *Gerbes over Orbifolds and Twisted K-theory*, Comm. Math. Phys. 245(3): 449-489.  ([arXiv:math/0105039](http://arxiv.org/abs/math/0105039), [doi:10.1007/s00220-003-1035-x](https://doi.org/10.1007/s00220-003-1035-x))
 
-The equivalent notion of [[gerbe module]] apparently appears first in
+The [[Cech cohomology|Cech cocycle]]-incarnation of twisted vector bundles (effectively due to [Lupercio & Uribe 2001, Def. 7.2.1](#LupercioUribe01)) was considered in:
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Gerbes over Orbifolds and Twisted K-theory_ ([arXiv:math/0105039](http://arxiv.org/abs/math/0105039)) ,
+* {#Mackaay03} [[Marco Mackaay]], _A note on the holonomy of connections in twisted bundles_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 44 (2003) no. 1, pp. 39-62.  ([arXiv:math/0106019](http://arxiv.org/abs/math/0106019), [numdam:CTGDC_2003__44_1_39_0](http://www.numdam.org/item/?id=CTGDC_2003__44_1_39_0))
 
-there explicitly in terms of [[Cech cohomology|Cech cocycles]] relative to an [[open cover]]. The generalization to infinite rank and arbitrary covering morphisms was amplified in ([CBMMS](#CBMMS)) below.
+An equivalent characterization of twisted vector bundles (identified in [Lupercio & Uribe 2001, (v2-) Prop. 7.2.2 ](#LupercioUribe01)) appeared under the name *[[bundle gerbe module]]* in: 
+
+* {#BCMMS02}  [[Peter Bouwknegt]], [[Alan Carey]], [[Varghese Mathai]], [[Michael Murray]], [[Danny Stevenson]], Section 4 of: _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv:hep-th/0106194](http://arxiv.org/abs/hep-th/0106194), [doi:10.1007/s002200200646](https://doi.org/10.1007/s002200200646))
+  
+
+  
 
 Discussion of a [[splitting principle]] for twisted vector bundles (phrased in terms of [[gerbe modules]]) is in
 
@@ -413,28 +419,23 @@ Discussion of a [[splitting principle]] for twisted vector bundles (phrased in t
 
 ### In twisted K-theory 
 
-Just as [[vector bundle]]s model cocycles in [[K-theory]], twisted vector bundles model cocycles in [[twisted K-theory]].
+Just as [[vector bundles]] model cocycles in [[K-theory]], twisted vector bundles model cocycles in [[twisted K-theory]].
 
-For twists $c$ that are torsion class (i.e. have finite order as group elements in the [[cohomology group]] $H(X,\mathbf{B}^2 A)$ ) this was realized in
+* [Lupercio & Uribe 2001](#LupercioUribe01)
 
-* [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
-  {#CBMMS} 
+* [BCMMS 2002](#BCMMS02)
 
-which also, apparently, is the source where gerbe modules as such were first introduced.
+The generalization of this construction to non-torsion twists requires using [[vectorial bundles]] instead of plain [[vector bundles]]. Full twisted K-theory in terms of twisted vectorial bundles was realized in
 
-The generalization of this construction to non-torsion twists requires using [[vectorial bundle]]s instead of plain [[vector bundle]]s. Full twisted K-theory in terms of twisted vectorial bundles was realized in
-
-* [[Kiyonori Gomi]], _Twisted K-theory and finite-dimensional approximation_ ([arXiv](http://arxiv.org/abs/0803.2327))
-
-There the twisted cocycle equation discussed above appears on the bottom of page 7.
+* [[Kiyonori Gomi]], p. 7 of _Twisted K-theory and finite-dimensional approximation_ ([arXiv:0803.2327](http://arxiv.org/abs/0803.2327))
 
 Then there is
 
-* [[Max Karoubi]], _Twisted bundles and twisted K-theory_, Clay Mathematics Proceedings, Volume 19 (2011) ([pdf](http://www.math.jussieu.fr/~karoubi/Publications/89.pdf))
- {#Karoubi}
+* {#Karoubi} [[Max Karoubi]], _Twisted bundles and twisted K-theory_, Clay Mathematics Proceedings, Volume 19 (2011) ([pdf](http://www.math.jussieu.fr/~karoubi/Publications/89.pdf))
+ 
 
-* [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
- {#Pennig}
+* {#Pennig} [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
+ 
 
 
 ### As 2-sections of 2-bundles
