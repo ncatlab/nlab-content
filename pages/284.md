@@ -396,9 +396,9 @@ A survey with an eye towards [[higher algebra]] is in
 
 * [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
 
-A survey on various notions of Homotopical category:
+A survey on various notions of [[homotopical categories]]:
 
-* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_ ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
+* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *Stable categories and structured ring spectra*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
 
 Also:
 
