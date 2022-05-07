@@ -106,3 +106,6 @@ For affine monoids and other finitely generated commutative monoids see:
 * {#BrunsGubeladze} Winfried Bruns and Joseph Gubeladze, *Polytopes, Rings, and K-theory*, Springer, Berlin, 2009.   ([pdf of preliminary incomplete version](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.126.2385&rep=rep1&type=pdf))
 
 * {#RosalesGarcía-Sánchez} José Carlos Rosales and Pedro A. García-Sánchez, *Finitely Generated Commutative Monoids*, Nova Publishers, 1999. 
+
+
+[[!redirects commutative]]
