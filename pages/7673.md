@@ -158,7 +158,7 @@ In fact, any category with attributes gives rise to a full comprehension categor
 
 +-- {: .num_lemma #CWAasCmpC}
 ###### Lemma
-The category $\mathbf{CwA}$ of categories with attributes (def. \ref{CategoryWithAttributes}) is equivalent to the category of $\mathbf{CompCat}_{\text{full,split}}$ of full split comprehension categories (def. \ref{FullAndSplitComprehensionCategory}).
+The category $\mathbf{CwA}$ of categories with attributes (def. \ref{CategoryWithAttributes}) is equivalent to the category $\mathbf{CompCat}_{\text{full,split}}$ of full split comprehension categories (def. \ref{FullAndSplitComprehensionCategory}).
 
 (These are, however, quite different as subcategories of $\mathbf{CompCat}$.)
 =--
