@@ -7,13 +7,12 @@
 
 Event structures were introduced in order to abstract away from the precise 'places' and times at which events occur in distributed systems. The structure focuses on the events and the causal ordering between them.
 
+Event structures in the sense of this article are sometimes also called *prime* event structures. There are other variants, for example where the partial order $\leq$ is replaced by an *enabling relation* $\vdash$. This is usually more expressive, because an event can have *disjunctive causes*: if $a \vdash e$ and $b \vdash e$, then either of $a$ or $b$ suffices for $e$ to occur. In a prime event structure, if $a \leq e$ and $b \leq e$ then *both* $a$ and $b$ must occur before $e$; these are *conjunctive causes*. 
 
 ##Definition##
 
-Event structures in the following sense are sometimes also called *prime* event structures. 
-
 \begin{definition}
-An *event structure* is a tuple $(E,\leq, \mathrm{Con})$ consisting of a [[poset]] $(E,\le)$ of _events_, and a nonempty set $\mathrm{Con} \subseteq \mathcal{P}(E)$ of _consistent subsets_, satisfying the following axioms:
+An *event structure* is a tuple $(E,\leq, \mathrm{Con})$ consisting of a [[poset]] $(E,{\le})$ of _events_, and a nonempty set $\mathrm{Con} \subseteq \mathcal{P}(E)$ of _consistent subsets_, satisfying the following axioms:
 
 *  finite causes: for every event $e$ the set $\{e'\mid e'\le e\}$ is finite;
 
@@ -21,7 +20,7 @@ An *event structure* is a tuple $(E,\leq, \mathrm{Con})$ consisting of a [[poset
 
 * if $X \in \mathrm{Con}$ and $Y \subseteq X$ then $Y \in \mathrm{Con}$; 
 
-* if $X \in \mathrm{Con}$, $e \in X$, and $e' \leq e$, then $X \cup \{ e\} \in \mathrm{Con}$;
+* if $X \in \mathrm{Con}$, $e \in X$, and $e' \leq e$, then $X \cup \{ e\} \in \mathrm{Con}$.
 
 \end{definition}
 
@@ -36,6 +35,7 @@ An *event structure with binary conflict* is a tuple $(E, \leq, \#)$, where $(E,
 
 \end{definition}
 
+Event structures with binary conflict can be characterised as follows:
 \begin{proposition}
 If $(E, \leq, \#)$ is an event structure with binary conflict, then defining $\mathrm{Con} = \{ X \subseteq E \mid \forall e, e' \in X. \neg (e \# e') \} $
 makes $(E, \leq, \Con)$ an event structure. 
@@ -49,61 +49,38 @@ then defining $\# = \{ (e, e') \mid \{ e, e'\} \in \mathrm{Con} \}$  makes $(E, 
 
 That is, event structures with binary conflict correspond to event structures in which pairwise consistency implies mutual consistency.  
 
-Let $\mathbb{E} = (E,\le, \sharp)$ be an event structure. Define its set of **configurations**, 
-$C(\mathbb{E}) = C(E,\le, \sharp)$, to consist of those subsets $X \subseteq E$, which are 
+We write $E$ for $(E, \leq, \Con)$ whenever possible. The possible states of an event structures are called *configurations*.
  
-* conflict-free: if $e, e'\in X$ then $\neg (e\sharp e')$,
+\begin{definition} 
 
-and 
+Let $E$ be an event structure. A **configuration** of $E$
+ is a subset $x \subseteq E$ which is consistent ($x \in \Con$) and down-closed (if $e\in x$ and $e' \leq e$ then $e' \in x$). The set of \emph{finite} configurations of $E$ is denoted $\mathscr{C}(E)$. 
 
-*  downward closed:  if $e\in X$, $\downarrow e\subseteq X$.
 \end{definition}
 
-A morphism $f : \mathbb{E}\to \mathbb{E}'$ of event structures consists of a [[partial function]] $f : E \to  E'$ such that 
-
-* if 
-$X\in C(\mathbb{E})$, then $f(X) \in C(\mathbb{E}')$
-
-and 
-
-*  if $e_0$ and $e_1$ are in $X$ with both $f(e_0)$ and $f(e_1)$ defined and  $f(e_0)=f(e_1)$ then $e_0 = e_1$. 
-
-
-
-####Gloss####
-This second condition says that if both $f(e_0)$ and $f(e_1)$ are defined and either $f(e_0)\sharp' f(e_1)$ or $f(e_0)=f(e_1)$, then either $e_0\sharp e_1$, or $e_0 = e_1$. 
-
-
-Winskel and Neilsen explain the definition as follows: 
-
-_A morphism $f : \mathbb{E}\to \mathbb{E}'$ between event structures expresses how behaviour in $\mathbb{E}$ determines behaviour in $\mathbb{E}'$. The partial function, $f$, expresses how the occurrence of an event in $\mathbb{E}$ implies the simultaneous occurrence of an event in $\mathbb{E}'$; the fact that $f(e) = e'$ can be understood as expressing that the event $e$ is a ''component'' of the event $e'$ and, in this sense, that the occurrence of $e$ implies the simultaneous occurrence of $e'$. If two distinct events in $\mathbb{E}$ have the same image in $\mathbb{E}'$ under $f$ then they cannot belong to the same configuration. _
-
-(There is more discussion of the notion of morphism of event structures in the notes referred to  below.)
-
-
-With this definition of morphism, we get the category, $\mathbf{ES}$ of event structures.
-
-
-
-In some sources, rather than stress the _inconsistency relation_, the complementary _consistency relation_.  This leads to the definition of a family, $Con$, of finite subsets of $E$, which satisfy
-
-
-* $\{e\}\in E$ for all $e\in E$;
-
-* $Y\subseteq X\in Con$ implies $Y\in Con$,
-
-and 
-
-* $X\in Con$ and $e\leq e'\in X$ then $X\cup \{e\}\in Con$.
 
 ##The category of event structures##
 
+\begin{definition}
+A (total) **map of event structures** from $(E, \leq, \Con)$ to $(E', \leq', \Con')$ is a function $f : E \to E'$ such that:
+
+* $f$ preserves configurations: if $x\in \mathscr{C}(E)$, then $f(x) \in \mathscr{C}(E')$.
+
+* $f$ is locally injective: if $e, e' \in x \in \mathscr{C}(E)$ and $f(e) = f(e')$, then $e = e'$.
+ 
+\end{definition}
+
+Intuitively, a map $E \to E'$ expresses that all executions of $E$ can be faithfully simulated within $E'$. 
+
+*Partial* maps of event structures are also important in the literature, for example in the event structure model of CCS. The definition is the same when $f$ is a partial function, and the condition $f(e) = f(e')$ means in particular that they are both defined. Winskel and Nielsen explain this definition as follows: 
+
+_A morphism $f : E\to E'$ between event structures expresses how behaviour in $E$ determines behaviour in $E'$. The partial function, $f$, expresses how the occurrence of an event in $E$ implies the simultaneous occurrence of an event in $E'$; the fact that $f(e) = e'$ can be understood as expressing that the event $e$ is a ''component'' of the event $e'$ and, in this sense, that the occurrence of $e$ implies the simultaneous occurrence of $e'$. If two distinct events in $E$ have the same image in $E'$ under $f$ then they cannot belong to the same configuration. _
+
+
+With this definition of morphism, and the obvious notions of identity and composition, we get the category $\mathbf{ES}$ of event structures (and total maps). 
 
 
 ##Event structures as presheaves 
-
-
-##Event structures with symmetry##
 
 
 
