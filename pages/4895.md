@@ -6,12 +6,13 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
-#### Physics
+#### Quantum systems
 +--{: .hide}
-[[!include physicscontents]]
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
