@@ -112,11 +112,11 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 ## References
 
-An introduction is in 
+Introduction:
 
 * Dagmar Bruss, _Characterizing entanglement_, J. Math. Phys. 43, 4237 (2002) [arXiv:quant-ph/0110078](http://arxiv.org/abs/quant-ph/0110078) [doi](http://dx.doi.org/10.1063/1.1494474)
 
-Exposition of entanglement as a phenomenon of non-[[Cartesian monoidal category|Cartesian]] [[monoidal categories]] is in
+Exposition of entanglement as a phenomenon of non-[[Cartesian monoidal category|Cartesian]] [[monoidal categories]]:
 
 * {#Baez04} [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspective_, D. Rickles et al. (ed.) _[The structural foundations of quantum gravity](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)_ 240-265 ([arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040))
 
@@ -128,6 +128,10 @@ A discussion in [[quantum mechanics in terms of dagger-compact categories]] is i
 See also
 
 * W. D&#252;r, G. Vidal, J. I. Cirac, _Three qubits can be entangled in two inequivalent ways_, Phys. Rev. A. __62__, 062314
+
+Discussion in [[quantum optics]]:
+
+* [[Tim Byrnes]], [[Ebubechukwu Ilo-Okeke]], Section 10 of: *Quantum Atom Optics: Theory and Applications to Quantum Technology*, Cambridge University Press 2021 ([arXiv:2007.14601](https://arxiv.org/abs/2007.14601), [CUP](https://www.cambridge.org/core/books/quantum-atom-optics/2D867888B5C666D3A936F1C942C99568))
 
 A connection to algebraic geometry is proposed in 
 
