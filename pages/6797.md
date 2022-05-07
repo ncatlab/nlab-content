@@ -23,7 +23,7 @@ Generally by a _higher spin field theory_ is meant a [[quantum field theory]] th
 
 Folklore had it that all higher spin field theories with _[[mass]]-less_ higher spin fields are inconsistent due to negative norm states ("ghost") appearing in their [[quantization]]. (This argument underlies the dominance of $\mathcal{N} = 1$ [[11-dimensional supergravity]], see the introduction to the entry _[[12-dimensional supergravity]]_ for more on this). 
 
-But then it was discovered that there is a gigher spin gauge theory ([Vasiliev 96](#Vasiliev96)) which is a kind of [[higher gauge theory]] whose [[field (physics)|field content]] is an _infinite tower_ of massless fields of ever higher [[spin]].
+But then it was discovered that there is a higher spin gauge theory ([Vasiliev 96](#Vasiliev96)) which is a kind of [[higher gauge theory]] whose [[field (physics)|field content]] is an _infinite tower_ of massless fields of ever higher [[spin]].
 
 Ever since the refine folklore says that higher spin theories with a _finite_ number of higher spin field species is inconsistent, but that an infinite tower can fix the problem (...add reference...). 
 
@@ -92,7 +92,7 @@ And conversely:
 
 ### Relation with double field theory
 
-Discussion of appearence of spin-2 Fierz-Pauli fields in [[double field theory]]:
+Discussion of the appearance of spin-2 Fierz-Pauli fields in [[double field theory]]:
 
 * Chen-Te Ma, Franco Pezzella, _More Stringy Effects in Target Space from Double Field Theory_, JHEP 08 (2020) 113 ([arXiv:1909.00411](https://arxiv.org/abs/1909.00411v2))
 
