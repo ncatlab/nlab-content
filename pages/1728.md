@@ -281,6 +281,10 @@ Discussion of defects in [[prequantum field theory]], hence for [[coefficients]]
  {#FiorenzaValentino}
 
 * {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]] et. al, _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
+
+DIscussion with emphasis on [[Koszul duality]] such as in [[holography as Koszul duality]]:
+
+* [[Natalie Paquette]], Brian R. Williams, *Koszul duality in quantum field theory* ([arXiv:2110.10257](https://arxiv.org/abs/2110.10257))
  
 
 ### Examples
