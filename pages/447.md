@@ -375,3 +375,7 @@ Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139]
 [[!redirects the geometric realization of a Kan fibration is a Serre fibration]]
 [[!redirects the geometric realization of a Kan fibration is a Hurewicz fibration]]
 
+
+[[!redirects topological realization]]
+[[!redirects topological realizations]]
+
