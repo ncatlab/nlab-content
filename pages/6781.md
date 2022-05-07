@@ -95,7 +95,7 @@ $i$-th coface
 $$
 \partial^i  = id_{A^{\otimes (i-1)}}\otimes \Delta \otimes \id_{A^{\otimes (n-i)}} : A^{\otimes n}\to A^{\otimes (n+1)}, 
 $$
-for $1\leq i\leq n$, and $\partial^0 = 1\otimes id_{A^{\otimes n}}$, $\partial^n = 
+for $1\leq i\leq n$, and $\partial^0 = 1\otimes id_{A^{\otimes n}}$, $\partial^{n+1} = 
 id_{A^{\otimes n}}\otimes 1$. For $F\in A^{\otimes n}$, Majid defines
 $$
 \partial^+ F = \prod_{i\,\,\,\,even} (\partial^i F),\,\,\,\,\,\partial^- F = \prod_{i\,\,\,\,odd} (\partial^i F),
