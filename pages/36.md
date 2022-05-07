@@ -191,7 +191,7 @@ Here is a list matching some extra structure/property of the ambient category $\
 
 The [[extra structure]] required on the ambient category $\mathcal{C}$ is sometimes referred to as a _[[doctrine]]_ for internalization.   For example, there is a doctrine of [[monoidal categories]], a doctrine of [[finitely complete category|categories with finite limits]], a doctrine of [[cartesian closed categories]], and so on.
 
-Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of the process of internalization in a [[doctrine]], although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $\mathcal{D}$ to which [[Sets]] (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $\mathcal{D}$, if this definition of foo in $Sets$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
+Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of the process of internalization in a [[doctrine]], although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $\mathcal{D}$ to which [[Sets]] (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $\mathcal{D}$, if this definition of foo in $Sets$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalization_, or [[externalization]], of internal foos.
 
 
 ## Examples
