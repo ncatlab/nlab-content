@@ -58,7 +58,7 @@ Some introductory notes:
 
 * Simon Rose, _Introduction to Gromov-Witten theory_ ([arXiv:1407.1260](http://arxiv.org/abs/1407.1260))
 
-* {#Bertram02} [[Albrecht Bertram]], *Stable Maps and Gromov-Witten Invariants*, School and Conference on Intersection Theory and Moduli Trieste, 9-27 September 2002 ([pdf](users.ictp.it/~pub_off/lectures/lns019/Bertram/Bertram.pdf))
+* {#Bertram02} [[Albrecht Bertram]], *Stable Maps and Gromov-Witten Invariants*, School and Conference on Intersection Theory and Moduli Trieste, 9-27 September 2002 ([pdf](http://users.ictp.it/~pub_off/lectures/lns019/Bertram/Bertram.pdf))
 
 And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
