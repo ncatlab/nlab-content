@@ -2130,6 +2130,12 @@ In order to see surjectivity, we may use that the $\infty$-groupoid of concordan
 
 ## Literature
 
+See also the references at *[[group actions on spheres]]*.
+
+### Riemannian spherical space forms
+
+Historically and by default, spherical space forms are understood in [[Riemannian geometry]] hence with finite groups acting (freely and) by [[isometries]] on [[n-spheres]].
+
 Historical articles:
 
 * {#Killing1891} [[Wilhelm Killing]], _Ueber die Clifford-Klein’schen Raumformen_, Math. Ann. 39 (1891), 257–278 ([doi:10.1007/BF01206655](https://doi.org/10.1007/BF01206655))
@@ -2138,14 +2144,10 @@ Solution of the classification problem:
 
 * {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Third ed.: Publish or Perish, Boston, 1974, Sixth edition: AMS Chelsea Publishing 2011 ([doi:10.1090/chel/372](https://doi.org/10.1090/chel/372))
 
-Review:
-
-* [[Ian Hambleton]], _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187))
 
 Streamlined re-proof:
 
 * {#Allcock15} [[Daniel Allcock]], _Spherical space forms revisited_, Trans. Amer. Math. Soc. 370 (2018), 5561-5582  ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906), [doi:10.1090/tran/7167](https://doi.org/10.1090/tran/7167))
-
 
 Discussion for the [[7-sphere]] with application to [[near horizon geometries]] of [[M2-brane]] ([[AdS/CFT duality|AdS/CFT dual]] to the [[ABJM model]]):
 
@@ -2154,7 +2156,27 @@ Discussion for the [[7-sphere]] with application to [[near horizon geometries]] 
 * {#Gadhia07} [[Sunil Gadhia]], _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007 ([spire:1393845](http://inspirehep.net/record/1393845/))
 
 
+### Topological spherical space form
+
+General uotients of $n$-spheres by finite group actions that are (free and) just required to be continuous are known as *topological spherical space form*:
+
+* {#MadsenThomasWall76} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *The topological spherical space form problem II: existence of free actions*, Topology Volume 15, Issue 4, 1976, Pages 375-382 (<a href="https://doi.org/10.1016/0040-9383(76)90031-8">doi:10.1016/0040-9383(76)90031-8</a>)
+
+* {#MadsenThomasWall83} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *Topological spherical space form problem III: Dimensional bounds and smoothing*,  Pacific J. Math. 106(1): 135-143 (1983) ([pjm:1102721110](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-106/issue-1/Topological-spherical-space-form-problem-III-Dimensional-bounds-and-smoothing/pjm/1102721110.full))
 
 
+Review:
+
+* [[Ian Hambleton]], _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187), [ISBN:9781571463012](https://www.intlpress.com/site/pub/pages/books/items/00000439/index.php))
+
+### Smooth spherical space forms
+
+If the action by $G$ on the $n$-sphere is (free and) [[smooth function|smooth]], one speaks of *smooth spherical space forms*:
+
+* [Madsen, Thomas and Wall 1983](#MadsenThomasWall83)
+
+* {#Madsen78} [[Ib Madsen]], *Smooth spherical space forms*, Geometric Applications of Homotopy Theory I. Springer 1978. 303-352 ([doi:10.1007/BFb0069224](https://link.springer.com/book/10.1007/BFb0069224),  [pdf](https://link.springer.com/content/pdf/10.1007/BFb0069243.pdf))
 
 [[!redirects spherical space forms]]
+
+
