@@ -6,8 +6,9 @@
 
 There is a pair of [[adjoint functors]]
 
-$$
-  TopologicalSpaces
+\[
+  \label{AdjointFunctorsBetweenTopSpAndDifflgSp}
+  TopSp
   \underoverset{
     \underset{
       Cdfflg
@@ -17,8 +18,8 @@ $$
       Dtplg
     }{\longleftarrow}
   }{\phantom{AA}\bot\phantom{AA}}
-  DiffeologicalSpaces
-$$
+  DifflgSp
+\]
 
 between the [[categories]] of [[Top|TopologicalSpaces]] and of [[DiffeologicalSpaces]], where
 
