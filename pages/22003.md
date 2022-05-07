@@ -10,4 +10,7 @@ On [[nucleon]]-[[interaction]] modeled via [[Skyrmions]]:
 
 * [[Derek Harland]], [[Chris Halcrow]], _Nucleon-nucleon potential from skyrmion dipole interactions_ ([arXiv:2101.02633](https://arxiv.org/abs/2101.02633))
 
+* [[Chris Halcrow]], [[Thomas Winyard]], _A consistent two-skyrmion configuration space from instantons_ ([arXiv:2103.15669](https://arxiv.org/abs/2103.15669))
+
+
 category: people
