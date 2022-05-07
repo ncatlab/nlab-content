@@ -49,6 +49,9 @@ See also claims of _topological holography_
 
 * Jihwan Oh, Yehao Zhou, _Feynman diagrams and $\Omega$-deformed M-theory_ ([arXiv:2002.07343](https://arxiv.org/abs/2002.07343))
 
+Review with emphasis on [[QFT with defects]]:
+
+* [[Natalie Paquette]], Brian R. Williams, *Koszul duality in quantum field theory* ([arXiv:2110.10257](https://arxiv.org/abs/2110.10257))
 
 
 
