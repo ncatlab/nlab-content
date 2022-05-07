@@ -391,9 +391,19 @@ See also
 
 For the [[special linear Lie algebra]] $\mathfrak{sl}(2)$
 
-* [[Sergei Chmutov]], [[Alexander Varchenko]], _Remarks on the Vassiliev knot invariants coming from $\mathfrak{sl}(2)$_, Topology 36 (1), 153-178, 1997
+* [[Sergei Chmutov]], [[Alexander Varchenko]], _Remarks on the Vassiliev knot invariants coming from $\mathfrak{sl}(2)$_, Topology 36 (1), 153-178, 1997 (<a href="https://doi.org/10.1016/0040-9383(95)00071-2">doi:10.1016/0040-9383(95)00071-2</a>)
+
+* S. Tyurina, [[Alexander Varchenko]], *A remark on $\mathfrak{sl}_2$ approximation of the Kontsevich integral of the unknot*, Journal of Mathematical Sciences **131** (2005) 5270–5274  ([arXiv:math/0111201](https://arxiv.org/abs/math/0111201), [doi:10.1007/s10958-005-0399-1](https://doi.org/10.1007/s10958-005-0399-1))
+
 
 * E. Kulakova, S. Lando, T. Mukhutdinova, G. Rybnikov, _On a weight system conjecturally related to $\mathfrak{sl}_2$_, European Journal of Combinatorics Volume 41, October 2014, Pages 266-277 ([arXiv:1307.4933](https://arxiv.org/abs/1307.4933))
+
+
+### For $\mathfrak{sl}(N)$
+
+For the [[special linear Lie algebra]] $\mathfrak{sl}(N)$ for all $N$:
+
+* [[Fumikazu Nagasato]], *A Diagrammatic Construction of the $(sl(N,\mathbb{C}, \rho))$-Weight System*, Interdisciplinary Information Sciences, **9** 1 (2003) 43-51 ([doi:10.4036/iis.2003.43](https://doi.org/10.4036/iis.2003.43))
 
 
 ### For $\mathfrak{gl}(1\vert1)$
