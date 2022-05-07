@@ -28,6 +28,8 @@ In [[characteristic zero]], the [[irreducible representations]] of the symmetric
 
 * [[Specht module]]
 
+* [[Schur-Weyl duality]]
+
 ## References
 
 Textbook accounts:
@@ -43,6 +45,9 @@ See also:
 
 * Wikipedia, *[Representation theory of the symmetric group](https://en.wikipedia.org/wiki/Representation_theory_of_the_symmetric_group)*
 
+In relation to [[quantum information theory]]:
+
+* [[Alonso Botero]], *Quantum Information and the Representation Theory of the Symmetric Group*, Rev. colomb. mat. vol.50 no. 2 Bogotá July/Dec. 2016 ([doi:10.15446/recolma.v50n2.62210](https://doi.org/10.15446/recolma.v50n2.62210), [pdf](http://www.scielo.org.co/pdf/rcm/v50n2/v50n2a05.pdf))
 
 [[!redirects representation theory of the symmetric groups]]
 [[!redirects representation theory of symmetric groups]]
