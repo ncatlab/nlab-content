@@ -20,6 +20,40 @@
 
 By $MSp$ one denotes the [[Thom spectrum]] for stable [[Sp(n)]]-[[G-structure|structure]], [[Brown representability theorem|representing]] what is called "symplectic" or "quaternionic" [[cobordism cohomology theory]]. The coefficient ring is, accordingly, the "quaternionic"/"symplectic" [[bordism ring]], usually denoted $\Omega^{Sp}_\bullet$.
 
+## Properties
+
+### Relation to $MU$
+
+The canonical [[topological group]]-[[subgroup|inclusions]]
+
+$$
+  1
+  \;\subset\;
+  Sp(k)
+  \;\subset\;
+  SU(2k)
+  \;\subset\;
+  U(2k)
+$$ 
+
+([[trivial group]] into [[quaternionic unitary group]] into [[special unitary group]] into [[unitary group]]) induce [[ring spectrum]]-[[homomorphism]] of [[Thom spectra]]
+
+$$
+  M Fr
+   \;\longrightarrow\;
+  M Sp
+   \;\longrightarrow\;
+  M SU
+   \;\longrightarrow\;
+  M \mathrm{U}
+$$
+
+(from [[MFr]] to [[MSp]] to [[MSU]] to [[MU]])
+
+and hence corresponding [[multiplicative cohomology theory]]-[[homomorphisms]] of [[cobordism cohomology theories]].
+
+(e.g. [Conner-Floyd 66, p. 27 (34 of 120)](#ConnerFloyd66))
+
 ## Related entries
 
 * [[quaternionic oriented cohomology theory]]
@@ -31,10 +65,9 @@ By $MSp$ one denotes the [[Thom spectrum]] for stable [[Sp(n)]]-[[G-structure|st
 
 * {#Novikov62} [[Sergei Novikov]], _Homotopy properties of Thom complexes_, Mat. Sbornik 57 (1962), no. 4, 407–442, 407&#8211;442 ([pdf](http://www.mi-ras.ru/~snovikov/6.pdf), [[NovikovThomComplexes.pdf:file]])
 
-* [[Arunas Liulevicius]], _Notes on Homotopy of Thom Spectra_, American Journal of Mathematics
-Vol. 86, No. 1 (1964), pp. 1-16 ([jstor:2373032](https://www.jstor.org/stable/2373032))
+* [[Arunas Liulevicius]], _Notes on Homotopy of Thom Spectra_, American Journal of Mathematics Vol. 86, No. 1 (1964), pp. 1-16 ([jstor:2373032](https://www.jstor.org/stable/2373032))
 
-
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Section 5 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 * [[Robert Stong]], _Some Remarks on Symplectic Cobordism_, Annals of Mathematics Second Series, Vol. 86, No. 3 (Nov., 1967), pp. 425-433 ([doi:10.2307/1970608](https://doi.org/10.2307/1970608))
 
