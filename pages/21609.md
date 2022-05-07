@@ -5,10 +5,14 @@
 
 ## Selected writings
 
+On the [[moduli space of Yang-Mills monopoles]] and [[rational maps]] to [[complex projective spaces]]:
+
+* [[Charles P. Boyer]], [[B. M. Mann]], *Monopoles, non-linear $\sigma$-models, and two-fold loop spaces*,  Commun. Math. Phys. 115, 571–594 (1988) ([arXiv:10.1007/BF01224128](https://doi.org/10.1007/BF01224128))
+
 
 On [[homotopy type of spaces of rational maps]]:
 
-* [[Charles P. Boyer]], [[B. M. Mann]], [[J. C. Hurtubise]], [[R. J. Milgram]], *The topology of the space of rational maps into generalized flag manifolds*, Acta Mathematica. 1994;173(1):61-101 ([doi:10.1007/BF02392569](https://projecteuclid.org/journals/acta-mathematica/volume-173/issue-1/The-topology-of-the-space-of-rational-maps-into-generalized/10.1007/BF02392569.full))
+* [[Charles P. Boyer]], [[B. M. Mann]], [[J. C. Hurtubise]], [[R. J. Milgram]], *The topology of the space of rational maps into generalized flag manifolds*, Acta Mathematica. 1994 173(1):61-101 ([doi:10.1007/BF02392569](https://projecteuclid.org/journals/acta-mathematica/volume-173/issue-1/The-topology-of-the-space-of-rational-maps-into-generalized/10.1007/BF02392569.full))
 
 
 On [[Sasakian geometry]]
