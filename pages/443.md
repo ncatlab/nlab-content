@@ -50,6 +50,7 @@ To each span $S$ from $X$ to $Y$, there is a corresponding relation from $X$ to 
 $$Span \to Rel$$ 
 
 ## Limits and colimits##
+ {#LimitsAndColimit}
 
 The category $Rel$ does have [[products]] and [[coproducts]]; they coincide (by self-duality) and are just [[disjoint unions]] of sets. However, otherwise $Rel$ has very few (co)limits; it doesn't even have
 splittings of all idempotents. All symmetric idempotents have splittings, but the order-relation $\leq \; \subseteq \{0,1\} \times \{0,1\}$ can't be
