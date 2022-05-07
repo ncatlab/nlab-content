@@ -255,7 +255,7 @@ $$
 \end{example}
 
 
-## cRelated concepts
+## Related concepts
 
 * [[Kendall distance]]
 
