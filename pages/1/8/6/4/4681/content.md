@@ -42,6 +42,8 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 ## Related concepts
 
+* [[function]], [[quadratic function]], [[polynomial function]]
+
 * [[operator product]]
 
 * [[linear isomorphism]]
