@@ -304,7 +304,11 @@ $\,$
 
 Let $G$ be a [[discrete group]] and $A$ an [[abelian group|abelian]] [[discrete group]], regarded as equipped with the trivial $G$-[[action]]. Let $n \in \mathbb{N}$.
 
-Write $\overline{W}G = G^{\times^\bullet}\in$ [[sSet]] for the [[nerve]] of the [[groupoid]] $*\sslash G$ and write $DK(A[n]) \in $ [[sSet]] for the [[image]] under the [[Dold-Kan correspondence]] of the [[chain complex]] which is the $n$-fold [[suspension of a chain complex]] of $A$. 
+Write 
+
+* $\overline{W}G = G^{\times^\bullet}\in$ [[sSet]] for the [[simplicial classifying space]], hence  the [[nerve]] of the [[delooping groupoid]] $*\sslash G$;
+
+* $DK(A[n]) \in $ [[sSet]] for the [[image]] under the [[Dold-Kan correspondence]] of the [[chain complex]] which is the $n$-fold [[suspension of a chain complex]] of $A$. 
 
 
 +-- {: .num_prop #DiscreteGroupCohomologyBySimplicialHomotopy}
