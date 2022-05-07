@@ -1206,6 +1206,8 @@ $$
 
 ### Global equivariant homotopy theory
 
+See at *[[cohesion of global- over G-equivariant homotopy theory]]*.
+
 [[!include equivariant homotopy theory -- table]]
 
 
