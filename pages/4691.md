@@ -180,6 +180,8 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 ## Related concepts
 
+* [[Renyi entropy]]
+
 * [[entropic force]]
 
 * [[dissipative system]]
