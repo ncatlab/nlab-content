@@ -225,7 +225,7 @@ Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[e
 
   _Elmendorf’s Theorem via Model Categories_,  2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msproject.2010.pdf)) 
 
-  _Elmendorf’s Theorem for Cofibrantly Generated Model Categories_ MS thesis, Z&uuml;rich 2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msthesis.2010.pdf))
+  _Elmendorf’s Theorem for Cofibrantly Generated Model Categories_, MS thesis, Z&uuml;rich 2010 ([pdf](http://web.math.ku.dk/~jg/students/stephan.msthesis.2010.pdf))
 
 * {#Stephan13} [[Marc Stephan]], _On equivariant homotopy theory for model categories_, Homology Homotopy Appl. 18(2) (2016) 183-208 ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856), [doi:10.4310/HHA.2016.v18.n2.a10](https://dx.doi.org/10.4310/HHA.2016.v18.n2.a10))
 
