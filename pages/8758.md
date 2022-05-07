@@ -11,6 +11,10 @@
 
 [[category of simple graphs]]
 
+### Properties
+
+* [[graph distance]]
+
 ### Extra properties
 
 * [[reflexive graph|reflexive]], [[directed graph|directed]]
