@@ -33,6 +33,11 @@ On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]
 
 * [[Louis H. Kauffman]], *Majorana Fermions and Representations of the Braid Group*, International Journal of Modern Physics AVol. 33, No. 23, 1830023 (2018) ([arXiv:1710.04650](https://arxiv.org/abs/1710.04650), [doi:10.1142/S0217751X18300235](https://doi.org/10.1142/S0217751X18300235))
 
+On [[quantum computation]] and more generally on [[quantum systems]]:
+
+* [[Louis Kauffman]], [[Samuel J. Lomonaco]], *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) (ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007))
+
+
 
 category: people
 
