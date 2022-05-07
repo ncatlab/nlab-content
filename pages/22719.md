@@ -20,11 +20,13 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The concept of an absorption category should be the [[oidification]] of an [[absorption monoid]]. 
+
 ## Definition
 
 An __absorption category__ or __annihilation category__ $C$ is a [[category]] where for every two objects $a, b \in Ob(C)$ there is a morphism $0_{a\to b}: a \to b$, such that for any objects $a, b, c, d \in Ob(C)$, for any morphism $f:b \to c$, $f \circ 0_{a\to b} = 0_{a\to c}$, and for any morphism $g:d \to a$, $0_{a\to b} \circ g = 0_{d\to b}$. 
-
-[Is this terminology attested in the literature?] 
 
 Such a structure is the same thing as a [[enriched category theory|category enriched]] in the category of [[pointed sets]], taking the [[monoidal category|monoidal product]] to be the [[smash product]].  
 
