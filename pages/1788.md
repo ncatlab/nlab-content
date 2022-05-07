@@ -747,4 +747,20 @@ $$
 * twisted cohomology is really non-abelian cohomology equipped with a non-abelian cohomology operation called the twist
 
 
+# Para construction
 
+In [[deep learning]] and [[game theory]], we usually think of neural networks/economic agents as processes taking in an input $A$ and producing an output $B$. However, we additionally want to model that these processes have extra, "hidden" inputs. In neural networks we call these _weights_ (or _parameters_) and in game theory we call these _strategies_.
+
+In other words, we want to form a category where a morphism $A \to B$ contains the data of i) a _parameter space_ $P$ and b) a morphism $f : P \otimes A \to B$. From this description we see that this construction necesissitates a choice of some underlying monoidal category $\mathcal{C}$.
+
+Such a morphism might be visualised using the string diagram language of monoidal categories (left), however, this notation does not emphasize the special role played by $P$, which is part of the data of the morphism itself. Parameters and data in machine learning have different semantics; by separating them on two different axes, we obtain a graphical language which is more closely tied to these semantics (right).
+
+<img src="/nlab/files/standard_vs_para.png" width="500"/>
+
+This lends itself to a intuitive graphical language, where composition with a $Q$-parameterised morphism $B \to C$ can be visualised as follows:
+
+<img src="/nlab/files/para_comp2.gif" width="500"/>
+
+This construction is called $\mathbf{Para}(\mathcal{C})$, originally introduced in (backprop as functor) in a simplified form; then succesively refined in (compDL), (catfoundofgraddesc), (towardscatcybernetics)
+
+[[para construction]]
