@@ -7,7 +7,7 @@ The aim of **formal category theory**  is to axiomatise the constructions of cat
 
 > The purpose of category theory is to try to describe certain general aspects of the structure of mathematics.  Since category theory is also part of mathematics, this categorical type of description should apply to it as well as to other parts of mathematics. ([Gray 74](#Gray74))
 
-Contexts to develop formal category theory include [[proarrow equipments]] and [[Yoneda structures]].
+Contexts to develop formal category theory include [[Yoneda structures]], [[proarrow equipments]], and [[KZ doctrines]].
 
 ## Related pages
 
@@ -15,8 +15,7 @@ Contexts to develop formal category theory include [[proarrow equipments]] and [
 * [[virtual double category]]
 * [[virtual equipment]]
 * [[Yoneda structure]]
-* [[2-category equipped with proarrows]]
-
+* [[KZ doctrine]]
 
 ## References
 
