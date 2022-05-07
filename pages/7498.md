@@ -156,7 +156,7 @@ For the first condition observe that the degeneracy maps of the [[nerve]] of an 
 
 For the second condition, observe  that [[projections]] $X \times G^n \to G^n$ are evidently [[Serre fibrations]] whose ordinary [[fiber]] is $X$, so that $X \to X \times G^n \to G^n$ is a [[homotopy fiber sequence]] (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)).
 
-For the third point, notice that in the present case the horn-filling map [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration) is in fact an [[isomorphism]], hence certainly surjective on connected components. 
+For the third point, notice that in the present case the horn-filling map [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration) are all [[isomorphisms]], hence certainly surjective on connected components.
 \end{proof}
 
 \begin{prop}\label{TopologicalBorelConstructionOnPrincipalBundles}
