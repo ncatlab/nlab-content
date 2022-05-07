@@ -187,6 +187,10 @@ Introduction and review:
 
 * {#Forstneric12} [[Franc Forstnerič]], *Gromov's contribution to the Oka principle*, 2012 ([pdf](https://www.fmf.uni-lj.si/~forstneric/papers/2012Gromov%27scontribution.pdf), [[Forstneric_GromovContributionToOka.pdf:file]])
 
+See also:
+
+* Georges Elencwajg, [MO:a/60053](http://mathoverflow.net/a/60053/381)
+
 
 Original articles:
 
@@ -208,17 +212,21 @@ See also:
 
 * [[Finnur Lárusson]], *Applications of a Parametric Oka Principle for Liftings*, In: *Complex Analysis*. Trends in Mathematics. Birkhäuser (2010) ([doi:10.1007/978-3-0346-0009-5_12](https://doi.org/10.1007/978-3-0346-0009-5_12)) 
 
+
 Discussion in terms of [[higher complex analytic geometry]] and [[complex analytic ∞-groupoids]]:
 
 * {#Larusson01} [[Finnur Lárusson]], _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_,  International Journal of Mathematics Vol. 14, No. 02, pp. 191-209 (2003)  ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103), [doi:10.1142/S0129167X03001727](https://doi.org/10.1142/S0129167X03001727))
 
 * {#Larusson03} [[Finnur Lárusson]], _Model structures and the Oka principle_, Journal of Pure and Applied Algebra Volume 192, Issues 1–3, 1 September 2004, Pages 203-223 ([math.CV/0303355](http://arxiv.org/abs/math/0303355), [doi:10.1016/j.jpaa.2004.02.005](https://doi.org/10.1016/j.jpaa.2004.02.005))
 
-Some other articles on Oka principle:
+Application to [[minimal surfaces]]:
+
+* [[Antonio Alarcón]], [[Franc Forstnerič]], *New complex analytic methods in the theory of minimal surfaces: a survey*,  Journal of the Australian Mathematical Society, 106(3), 287-341 ([arXiv:1711.08024](https://arxiv.org/abs/1711.08024), [doi:10.1017/S1446788718000125](https://doi.org/10.1017/S1446788718000125))
+
+See also:
 
 * Tyson Ritter, _A strong Oka principle for embeddings of some planar domains into $C\times C^*$_, [arxiv/1011.4116](http://arxiv.org/abs/1011.4116)
 
-Related MO discussion: [by Georges Elencwajg](http://mathoverflow.net/a/60053/381)
 
 [[!redirects Oka theory]]
 [[!redirects Oka's theory]]
