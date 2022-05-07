@@ -115,7 +115,7 @@ $$
     L &\to& Y
   }
   \;\;
-  |
+  \vert
   \;\;
    i \in I
   \right\}
