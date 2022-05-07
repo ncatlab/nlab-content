@@ -226,7 +226,7 @@ The standard example is that where $X$ and $Y$ are [[topological space]]s and $S
 
 A [[continuous map]] $f : X \to Y$ induces the obvious functor $f^{-1} : Op(Y) \to Op(X)$, since [[preimages]] of open subsets under continuous maps are open. 
 
-Hence presheaves canonically push-forward
+Hence presheaves canonically push forward
 
 $$
   f_* : PSh(X) \to PSh(Y)
