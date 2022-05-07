@@ -35,6 +35,10 @@ On the [[Green-Schwarz sigma-model]] for the [[M5-brane]]:
 
 * [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
 
+On [[intersecting brane|intersecting]] [[M2-M5 brane bound states]]:
+
+* [[Kurt Lechner]], _Intersecting M2- and M5-branes_, Phys. Lett. B589 (2004) 147-154 ([arXiv:hep-th/0402078](https://arxiv.org/abs/hep-th/0402078), [doi:10.1016/j.physletb.2004.03.056](https://doi.org/10.1016/j.physletb.2004.03.056))
+
 
 
 ## Related $n$Lab entries
