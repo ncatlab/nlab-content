@@ -1,3 +1,6 @@
+
+$\to$
+
 |[[finite topological space]] |[[open subsets]] |[[specialization order]] | 
 |--|--|--|
 | [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrows 1 \;\Big\}$ |
