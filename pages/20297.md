@@ -3,7 +3,9 @@
 
 ## Selected writings
 
-* {#FritschPiccinini90} Rudolf Fritsch, Renzo Piccinini, _Cellular structures in topology_, Cambridge University Press (1990)
+On [[cell complexes]] ([[CW-complexes]]) in [[topology]] ([[algebraic topology]]):
+
+* {#FritschPiccinini90} Rudolf Fritsch, [[Renzo Piccinini]], _Cellular structures in topology_, Cambridge University Press (1990)
 
 * Rudolf Fritsch, [[Dana May Latch]], _Homotopy inverses for nerve_, Bull. Amer. Math. Soc. (N.S.), Volume 1, Number 1 (1979), 258-262.
 
