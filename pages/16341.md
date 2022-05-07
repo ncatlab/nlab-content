@@ -167,7 +167,7 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 
 
-* Florian Marty, Dections 1.2, 1.3 in:_Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009 ([web](http://thesesups.ups-tlse.fr/540/))
+* Florian Marty, Dections 1.2, 1.3 in: _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009 ([web](http://thesesups.ups-tlse.fr/540/))
 
 * [[Martin Brandenburg]], Section 4.1 of: _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](http://arxiv.org/abs/1410.1716))
 
