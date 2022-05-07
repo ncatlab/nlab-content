@@ -46,4 +46,8 @@ As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type th
 
 * Tom Hirschowitz. *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. [pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document)
 
+* Richard Garner, *Two-dimensional models of type theory*. Mathematical structures in computer science 19.4 (2009): 687-736. [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf)
+
+* Philip Saville, *Cartesian closed bicategories: type theory and coherence*. PhD thesis, 2020. [pdf](https://arxiv.org/pdf/2007.00624.pdf).
+
 [[!redirects type 2-theory]]
