@@ -15,11 +15,39 @@ This entry colllects material related to the book
 on [[topological G-spaces]], their [[equivariant homotopy theory]] and their [[equivariant cohomology]] ([[Bredon cohomology]]).
 
 
-Related entries:
+#Contents#
+* table of contents
+{:toc}
 
-* [[topological G-space]]
+
+## 0 Background on Topological Groups and Lie Groups
+
+* [[topological group]]
+
+* [[classical Lie group]]
+
+* [[Lie group]]
+
+* [[compact Lie group]]
+
+## I Transformation Groups
+
+* [[group action]], [[topological G-space]]
+
+* [[equivariant function]]
+
+* [[isotropy group]]
+
+* [[orbit]]
+
+* [[homogeneous space]], [[coset space]], [[orbit type]]
 
 * [[slice theorem]]
+
+* [[fixed points]]
+
+
+
 
 
 
