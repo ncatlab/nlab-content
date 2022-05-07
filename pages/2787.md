@@ -36,16 +36,20 @@ An object $A$ of a [[concrete category]] $C$ is __finitely generated__ if it is 
 
 The object $A$ is __finitely presented__ if it is the [[coequalizer]] of a [[parallel pair]] $R \rightrightarrows F$ such that $R$ is also free on a finite set.
 
+## Examples
+
+* A set $X$ is a finitely generated object in [[Sets]] iff it is [[finite set|(Kuratowski-)finite]]. For this to hold constructively, [[filtered categories]] (appearing in the definition of _[[filtered colimit]]_) have to be understood as categories admitting cocones of every _Bishop-finite_ diagram.
+
+*  For $R$ a [[ring]], an $R$-[[module]] $N$ is a [[finitely generated module]] if it is a [[quotient]] of a [[free module]] with a finite [[basis of a free module|basis]].
+
+* [[finitely generated group]]
+
 ## Related concepts
 
 * [[finitely presentable object]]
+
 * [[generators and relations]]
 
-## Examples
-
-* A set $X$ is a finitely generated object in Set iff it is [[finite set|(Kuratowski-)finite]]. For this to hold constructively, [[filtered categories]] (appearing in the definition of _[[filtered colimit]]_) have to be understood as categories admitting cocones of every _Bishop-finite_ diagram.
-
-*  For $R$ a [[ring]], an $R$-[[module]] $N$ is a [[finitely generated module]] if it is a [[quotient]] of a [[free module]] with a finite [[basis of a free module|basis]].
 
 ## References
 
