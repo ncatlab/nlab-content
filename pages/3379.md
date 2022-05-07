@@ -109,7 +109,7 @@ This adjunction is idempotent and factors into the [[reflection]] into [[discret
 
 The characterization of idempotent adjunctions is proven/due to:
 
-* {#MacDonaldStone82} [[John L. MacDonald]], [[Arthur Stone]], Prop. 2.8 in: *The tower and regular decomposition*, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 23 (1982) no. 2, pp. 197-213 ([numdam:CTGDC_1982__23_2_197_0](http://www.numdam.org/item/?id=CTGDC_1982__23_2_197_0))
+* {#MacDonaldStone82} [[John L. MacDonald]], [[Arthur L. Stone]], Prop. 2.8 in: *The tower and regular decomposition*, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 23 (1982) no. 2, pp. 197-213 ([numdam:CTGDC_1982__23_2_197_0](http://www.numdam.org/item/?id=CTGDC_1982__23_2_197_0))
 
 See also:
 
