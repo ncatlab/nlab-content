@@ -115,9 +115,9 @@ and in the discussion of [[Chern-Simons theory]] ("Schwarz-type TQFT") in
 
 The [[FQFT]]-[[axioms]] for global (i.e. 1-functorial) TQFTs are due to
 
-* {#Atiyah89} [[Michael Atiyah]], _Topological quantum field theories_, Publications Math&#233;matiques de l'IH&#201;S 68 (68): 175&#8211;186,  (1989) ([Numdam](http://www.numdam.org/item?id=PMIHES_1988__68__175_0))
+* {#Atiyah89} [[Michael Atiyah]], _Topological quantum field theories_, Publications Math&#233;matiques de l'IH&#201;S 68 (68): 175&#8211;186,  (1989) ([numdam:PMIHES_1988__68__175_0](http://www.numdam.org/item?id=PMIHES_1988__68__175_0))
 
-Exposition of the conceptual ingrediants includes
+Exposition of the conceptual ingredients:
 
 * [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspective_ ([arXiv:quant-ph/0404040](http://arxiv.org/abs/quant-ph/0404040))
 
