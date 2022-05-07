@@ -222,7 +222,25 @@ Similarly, a **left Kan fibration** is one that has the lifting property for all
 and a **right Kan fibration** is one that has the lifting property for all horns except possibly the first one.  See [[fibrations of quasi-categories]] for more details.
 
 
+## Examples
+ {#Examples}
 
+\begin{example}\label{EmptyBundleIsKanFibration}
+**([[empty bundle]] is [[Kan fibration]])**
+Every [[empty bundle]] $\varnothing \to X$ is a [[Kan fibration]], since none of the [[commuting squares]] that one would have to [[lifting property|lift in]] actually exist
+
+  $$
+    \array{
+      \Lambda_k^n &\overset{ \not \exists }{\longrightarrow}& \varnothing
+      \\
+      \big\downarrow && \big\downarrow
+      \\
+      \Delta^n &\longrightarrow& B
+    }
+  $$
+
+(keeping in mind that the [0-simplex has no horns](horn#ZeroSimplexHasNoHorns), hence that all horns are [[inhabited set|inhabited]], so that there is *no* [[morphism]] from any horn to the [[empty simplicial set]]).
+\end{example}
 
 
 ## Properties
