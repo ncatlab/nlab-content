@@ -23,7 +23,7 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 Let $F:CRing \to CMon$ be the [[forgetful functor]] from [[CRing]] to [[CMon]] that only remember the multiplicative monoid structure of commutative rings. Given a [[commutative ring]] $R$, let us define the [[cancellative monoid]] $\mathrm{Can}(R)$ as the cancellative [[submonoid]] of the multiplicative monoid $F(R)$ such that every other cancellative submonoid $S$ of $F(R)$ is a cancellative submonoid of $\mathrm{Can}(R)$. 
 
 \begin{definition}
-A commutative ring $R$ is a **inverse ring** if $\mathrm{Can}(R)$ is the [[abelian group]] of [[units]] $R^\times$. 
+A commutative ring $R$ is a **inverse ring** if $\mathrm{Can}(R)$ is the [[group]] of [[units]] $R^\times$. 
 \end{definition}
 
 ## Examples ##
