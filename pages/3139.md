@@ -16,3 +16,6 @@ This is called "Chern-Simons gerbe" because for a given $G$-[[principal bundle]]
 
 * a connection on the Chern-Simons gerbe has as [[curvature]] 3-form the [[Chern-Simons form]] of a [[connection on a bundle|connection]] on $P$.
 
+## Related concepts
+
+* [[Chern-Simons theory]]
