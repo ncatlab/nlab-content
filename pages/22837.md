@@ -258,9 +258,9 @@ Consider the following [[commuting diagram]] of [[SimplicialSets]]:
 
 Here:
 
-* all [[objects]] are [[fibrant objects]] ([[Kan complexes]]), since 
+* all [[objects]] are [[fibrant objects]] ([[Kan complexes]]), since [[simplicial classifying spaces]] $\overline{W}\mathcal{G}$ are Kan complexes, either directly by [this Prop.](simplicial+classifying+space#SimplicialClassifyingSpaces), or as follows:
 
-  * [[simplicial groups]] have underlying [[Kan complexes]] ([this Thm.](simplicial+group#MooreTheorem)) hence are [[fibrant objects]] in the [[model structure on simplicial groups]];
+  * [[simplicial groups]] have underlying [[Kan complexes]] ([this Thm.](simplicial+group#MooreTheorem), which we use below to know that $\mathcal{G}_{ad} \to \ast $ is a [[Kan fibration]]), hence are [[fibrant objects]] in the [[model structure on simplicial groups]];
 
   * the [[simplicial classifying space]]-functor $W(-)/(-)$ is a [[right Quillen functor]] to the [[model structure on reduced simplicial sets]] ([this Prop.](model+structure+on+reduced+simplicial+sets#QuillenAdjunctionWithSimplicialGroups)), hence takes values in [[fibrant objects]];
 
