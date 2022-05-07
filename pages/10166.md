@@ -610,6 +610,73 @@ Therefore it is now sufficient to see that the coset bundle $(\Gamma \rtimes_\al
 
 \end{proof}
 
+\begin{lemma}
+  Let the [[equivariance group]] $G$ be a [[compact Lie group]], consider a [[closed subgroup]] $H \subset G$ and [[topological G-space|topological H-spaces]] $S, F$. Then the canonical projection
+
+$$
+  \array{
+    G \times_H 
+    \big(
+      S \times F
+    \big)
+    \\
+    \big\downarrow
+    \\
+    G \times_H S
+  }
+$$
+
+is a [[locally trivial]] $F$-[[fiber bundle]].
+
+\end{lemma}
+
+([Lashof 82, Lem. 1.1](#Lashof82))
+
+\begin{proof}
+
+Since $G$ is assumed to be a [[compact Lie group]], it admits a [[bi-invariant Riemannian metric]] ([this Prop.](compact+Lie+group#CompactLieGroupsAdmitBiinvariantMetrics)). With respect to this metric, consider a small open [[normal vector|normal]] $\epsilon$-neighbourhood to $H$ at $e$ in $G$
+
+$$
+  D
+  \,\coloneqq\,
+  D_\epsilon N_e H
+  \,\subset \,
+  N H 
+  \;
+    \underoverset{\simeq}{\exp}{\longrightarrow}
+  \;
+  T H
+$$
+
+i.e. of points that with respect to some choice of [[tubular neighbourhood]] of $H \subset G$ are a normal distance $\lt \epsilon$ from $H$.
+
+Then
+
+$$
+  \array{
+    D \times H 
+    \underoverset{ \simeq }{ (-)\cdot(-) }{\longrightarrow}
+    D \cdot H
+  }
+$$
+
+$$
+  D \cdot S 
+  \;=\;
+  (D \cdot H) \times_H S
+  \;\subset\;
+  G \times_H S
+$$
+
+is an open subset
+
+(...)
+
+
+
+
+\end{proof}
+
 
 ### Notions of equivariant local triviality
  {#NotionsOfEquivariantLocalTriviality}
