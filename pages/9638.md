@@ -27,6 +27,40 @@ Specifically, _[[topological quantum computation]]_ is (or is meant to be) quant
 
 There are arguments that a good formal context for quantum computing is (via [[computational trinitarianism]]) [[linear logic]]/[[linear type theory]] (e.g. [Lago-Faffian 12](#LagoFaffian12)). See also at _[[quantum logic]]_.
 
+\linebreak
+
+Any practical quantum computer will be *classically controlled* ([Knill 96](#Knill96), [Ömer 03](#Omer03), [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07)):
+
+
+\begin{imagefromfile}
+    "file_name": "ClassicallyControlledQuantumComputation.jpg",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Miszczak 11](#Miszczak11)"
+\end{imagefromfile}
+
+\begin{imagefromfile}
+    "file_name": "SQRAMPrinciple.jpg",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07)"
+\end{imagefromfile}
+
+
+
+
 
 
 ## Related entries
@@ -97,11 +131,18 @@ Introduction and survey:
 
 
 
-
-
 [[!include quantum programming languages -- references]]
 
 
+### Classically controlled quantum computing
+
+* {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode*, 1996 ([LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [pdf](https://www.osti.gov/servlets/purl/366453))
+
+* {#Omer03} [[Bernhard Ömer]], *Structured Quantum Programming*, 2003/2009 ([pdf](http://www.itp.tuwien.ac.at/~oemer/doc/structquprog.pdf))
+
+* {#NagarajanPapanikolaouWilliams07} Rajagopal Nagarajan, Nikolaos Papanikolaou, David Williams, *Simulating and Compiling Code for the Sequential Quantum Random Access Machine*, Electronic Notes in Theoretical Computer Science Volume 170, 6 March 2007, Pages 101-124 ([doi:10.1016/j.entcs.2006.12.014](https://doi.org/10.1016/j.entcs.2006.12.014))
+
+* {#Miszczak11} [[Jarosław Adam Miszczak]], *Models of quantum computation and quantum programming languages*, Bull. Pol. Acad. Sci.-Tech. Sci., Vol. 59, No. 3 (2011), pp. 305-324 ([arXiv:1012.6035](https://arxiv.org/abs/1012.6035))
 
 
 
