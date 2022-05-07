@@ -368,7 +368,8 @@ Since the composite of these equivalences is still [[natural equivalence|natural
 \end{definition}
 
 \begin{remark}
-Recall that $\mathbf{B}\mathcal{G}$ is the [[moduli stack]] of $\mathcal{G}$-[[principal ∞-bundles]], in that for $X \in SmoothGroupoids_\inft$ there is a [[natural equivalence]] (of [[∞-groupoids]])
+Notice that the [[delooping]] $\mathbf{B}\mathcal{G} \in \mathbf{H}$ of an [[∞-group]] $\mathcal{G} \in Groups(\mathbf{H})$ is the [[moduli ∞-stack]] of $\mathcal{G}$-[[principal ∞-bundles]], in that ([[schreiber:Principal infinity-bundles|NSS 12]])
+for $X \in \mathbf{H}$ there is a [[natural equivalence]] (of [[∞-groupoids]])
 
 \[
   \label{ModulationOfPrincipalInfinityBundles}
@@ -399,7 +400,7 @@ $$
   \,.
 $$
 
-But for this reduced information much less than the full [[moduli stack]] may be necessary: A *[[classifying space]]* for $\mathcal{G}$-[[principal ∞-bundles]] is a [[discrete object]] in $Groupoids_\infty \xhookrightarrow{Disc} SmoothGroupoids_\infty$, such that [[homotopy classes]] of maps into it still correspond to [[equivalence classes]] of [[principal ∞-bundles]], at least over suitable domains.
+But for this reduced information much less than the full [[moduli stack]] may be necessary: A *[[classifying space]]* for $\mathcal{G}$-[[principal ∞-bundles]] is a [[discrete object]] in $Groupoids_\infty \xhookrightarrow{Disc} \mathbf{H}$, such that [[homotopy classes]] of maps into it still correspond to [[equivalence classes]] of [[principal ∞-bundles]], at least over suitable domains (traditionally: [[paracompact topological spaces]], hence in particular [[smooth manifolds]]).
 \end{remark}
 
 Slightly coarser than plain equivalence classes of principal $\infty$-bundles are [[concordance classes]] of principal $\infty$-bundles (in fact, often the two notions coincide, see e.g. [Roberts-Stevenson 16, Cor. 15](#nonabelian+cohomology#RobertsStevenson16)):
