@@ -134,3 +134,11 @@ $$
 [[!redirects Chern form]]
 [[!redirects Chern forms]]
 
+[[!redirects Pontrjagin form]]
+[[!redirects Pontrjagin forms]]
+
+[[!redirects Pontryagin form]]
+[[!redirects Pontryagin forms]]
+
+
+
