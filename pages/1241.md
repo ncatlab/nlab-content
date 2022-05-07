@@ -515,6 +515,10 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 
 * Shyam Balaji, Michael A. Schmidt, _A unified $SU(4)$ theory for the $R_D^{(\ast)}$ and $R_K^{(\ast)}$ anomalies_ ([arXiv:1911.08873](https://arxiv.org/abs/1911.08873))
 
+Modeled [[intersecting D-brane model|on branes]]:
+
+* [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
+*Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
 
 
 
@@ -536,6 +540,7 @@ Relation to [[leptoquarks]] and [[flavour anomalies]]:
 [[!redirects Pati-Salam model]]
 [[!redirects Pati-Salam models]]
 
+[[!redirects Pati-Salam GUT]]
 [[!redirects Pati-Salam GUT model]]
 [[!redirects Pati-Salam GUT models]]
 
