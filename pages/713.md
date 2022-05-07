@@ -214,11 +214,16 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 ## Related concepts
 
-* [[free coproduct completion]]
 
-* [[idempotent completion]]
+* free cocompletions
+ 
+  * [[free coproduct completion]]
+ 
+  * [[idempotent completion]], [[Karoubi envelope]]
 
-* [[Cauchy completion]]
+  * [[Cauchy completion]]
+
+* [[free completion]]
 
 ## References 
 
