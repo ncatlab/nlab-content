@@ -671,6 +671,9 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#GengEtAl21} Li-Sheng Geng, Benjamín Grinstein, Sebastian Jäger, Shuang-Yi Li, Jorge Martin Camalich, Rui-Xiang Shi, *Implications of new evidence for lepton-universality violation in $b \to s \ell^+ \ell^-$ decays*, Phys. Rev. D **104** (2021) 035029  ([arXiv:2103.12738](https://arxiv.org/abs/2103.12738), [doi:10.1103/PhysRevD.104.035029](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.104.035029))
 
+* David London, Joaquim Matias, *$B$ Flavour Anomalies: 2021 Theoretical Status Report* ([arXiv:2110.13270](https://arxiv.org/abs/2110.13270))
+
+
 Outlook:
 
 * {#AllanachGripaiosYou17} [[Ben Allanach]], Ben Gripaios, Tevong You, _The Case for Future Hadron Colliders From $B \to K^{(\ast)}\mu^+ \mu^-$ Decays_, JHEP03(2018)021 ([arXiv:1710.06363](https://arxiv.org/abs/1710.06363))
