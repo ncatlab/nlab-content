@@ -8,6 +8,10 @@
 
 * _[[Physical Mathematics and the Future]]_ (2014)
 
+On [[braid group statistics]] in the [[fractional quantum Hall effect]]:
+
+* [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
+
 
 On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
 
