@@ -88,7 +88,7 @@ $$
   \,.
 $$
 
-It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGroupCohomology) maps an $(n+1)$-cocycle $c \colon G^{\times_{n+1}} \to A$ to the alternating sum
+It is a [[folklore]] [[theorem]] that the transgression (eq:TransgressionMapOnGroupCohomology) maps an $(n+1)$-cocycle $c \colon G^{\times_{n+1}} \to A$ to the alternating [[sum]] (of [[functions]] with values in the [[abelian group]] $A$ with group operation denoted "$+$")
 
 \[
   \label{SumFormulaForTransgressedCocycle}
@@ -112,7 +112,7 @@ $$
   Ad_{n-1}(\gamma)
   \xrightarrow{ g_{n-2} }
   \cdots
-  \crightarrpw{ g_0 }
+  \xrightarrow{ g_0 }
   Ad_{0}(\gamma)
   \;\;\;\;\;
   \in
@@ -136,7 +136,7 @@ $$
 
 (which restricts to $Ad_j(\gamma) = \gamma$ upon [[corestriction]] to the connected component on the right of (eq:DecompositionOfTheInertiaGroupoid)) indexed by $[\gamma]$.
 
-In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ or, equivalently, $n = 3$ and $A = $ [[U(1)]], this formula:
+In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ or, equivalently, $n = 3$ and $A = $ [[U(1)]], this formula (eq:SumFormulaForTransgressedCocycle):
 
 * implicitly underlies ([Dijkgraaf & Witten 1990, p. 24](#DijkgraafWitten90)) the discussion of [[Dijkgraaf-Witten theory]]; 
 
@@ -144,16 +144,300 @@ In historically influential examples, for the case $n = 4$ and $A = \mathbb{Z}$ 
 
 * governs the expression ([Dove 2019, Sec. 6.4](#Dove19)) of 4-[[twisted cohomology|twisted]] [[equivariant elliptic cohomology]] at the [[Tate curve]] in terms of 3-[[twisted equivariant K-theory|twisted equivariant]] [[Tate K-theory]].
 
-Below we mean to spell out a general abstract definition of the transgression map (eq:TransgressionMapOnGroupCohomology) and a full proof of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] -- the classical [[Eilenberg-Zilber theorem]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08)).
+Below we mean to spell out a general abstract definition of the transgression map (eq:TransgressionMapOnGroupCohomology) and a [full proof](#ProofOfTheComponentFormula) of its component formula (eq:SumFormulaForTransgressedCocycle), amplifying that its form is a direct consequence of -- besides some basic [[homotopy theory]]/[[homological algebra]] which we review [below](#BackgroundAndLemmata)  -- the classical [[Eilenberg-Zilber theorem]] (which was partially re-discovered in [Willerton 2008, Sec. 1](#Willerton08)).
 
 
 \linebreak
 
-## Lemmas
+
+## Background and Lemmata
+ {#BackgroundAndLemmata}
+
+### Homotopy and homological algebra
+
+Some relevant basics of [[homotopy theory]] in relation to [[homological algebra]]:
+
+\begin{definition}\label{HomotopyCategories}
+**([[homotopy categories]])**
+
+We write:
+
+* $Ho(sSet)$ for the [[classical homotopy category]], realized as the [[homotopy category of a model category|homotopy category of]] the [[classical model structure on simplicial sets]];
+
+* $Ho(sAb)$ for the [[homotopy category of a model category|homotopy category of]] the [[model structure on simplicial abelian groups]];
+
+* $Ho(Ch^+)$ for the [[homotopy category of a model category|homotopy category of]] the [[model structure on connective chain complexes]].
+
+For $A \in $ [[Ab]], and $n \in \mathbb{N}$ we write
+
+$$
+  A[n] 
+    \,\in\, 
+  Ch^+_\bullet 
+    \xrightarrow{Loc_{\mathrm{W}}} 
+  Ho(Ch^+_\bullet)
+$$
+
+for the [[chain complex]] concentrated on $A$ in degree $n$.
+
+We denote (using the same symbols for [[derived functors]] as for the original [[functors]]):
+
+* the [[derived adjunction]] of the ([[free construction|free]] [[simplicial abelian group]] $\dashv$ [[underlying]] [[simplicial set]])-[[Quillen adjunction]] ([here](model+structure+on+simplicial+abelian+groups#eq:QuillenAdjunctionWithClassicalModelStructureOnSimplicialSets)) by
+
+  \[
+    \label{DerivedFreeSimplicialAbelianGroupAdjunction}
+    Ho(sAb)
+      \underoverset
+       {\underset{frgt}{\longrightarrow}}
+       {\overset{\mathbb{Z}(-)}{\longleftarrow}}
+       {\;\;\;\;\;\;\bot\;\;\;\;\;\;}
+    Ho(sSet)
+  \]
+
+* the [[derived adjunction|derived]] [[adjoint equivalence]]  of the [[Dold-Kan correspondence|Dold-Kan]] [[Quillen equivalence]] ([here](Dold-Kan+correspondence#ModelCatVersion)) by
+
+  \[
+    \label{DerivedDoldKanAdjunction}
+    Ho(Ch^+_\bullet)
+      \underoverset
+        {\underset{DK}{\longrightarrow}}
+        {\overset{N_\bullet}{\longleftarrow}}
+        {\;\;\;\;\;\;\bot_{\mathrlap{\simeq}}\;\;\;\;\;\;}
+    Ho(sAb)
+  \]
+
+* the [[derived adjunction|derived]] [[internal-hom]]-[[Quillen adjunction]] ([here](monoidal+model+category#InternalHomQuillenAdjunction)), for any $X \in $ [[SimplicialSets]], by
+
+  \[
+    \label{DerivedInternalHomAdjunction}
+    Ho(sSet)
+      \underoverset
+        {\underset{[X,-]}{\longrightarrow}}
+        {\overset{X \times (-)}{\longleftarrow}}
+        {\bot}
+    Ho(sSet)
+    \,,
+  \]
+
+  (whose underived [[right adjoint]] is the [[simplicial mapping complex]]-construction).
+
+\end{definition}
+
+
+### Simplicial classifying spaces
+
+\begin{remark}\label{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}
+**([[delooping groupoid]] and [[simplicial classifying space]] of [[finite group]])** \linebreak
+The [[nerve]] of the [[delooping groupoid]] of a [[discrete group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial classifying space]] of $G$ (see [this Example](simplicial+classifying+space#SimplicialClassifyingSpaceOfAnOrdinaryGroup)): 
+$$
+  N
+  \big(
+    G \rightrightarrows \ast
+  \big)
+  \;\simeq\;
+  \overline{W} G
+  \;\;\;
+  \in
+  \;
+  sSet
+  \,.
+$$
+For notational brevity we will be referring to $\overline{W}G$ in the following, but it may be helpful to keep thinking of the [[nerve]] of the [[delooping groupoid]]. 
+From that perspective, an [[n-simplex]] in $\overline{W}G$, which is an [[n-tuple]] of [[group]] [[elements]], is suggestively denoted as a sequence of [[morphisms]]:
+
+$$
+  \big(\overline{W}G\big)_{n}
+  \;\;
+    =
+  \;\;
+  \Big\{
+    \bullet
+    \xrightarrow{g_{n-1}}
+    \bullet
+    \xrightarrow{\;}
+    \cdots
+    \bullet
+    \xrightarrow{\;}
+    \bullet
+    \xrightarrow{g_1}
+    \bullet
+    \xrightarrow{g_0}
+    \bullet
+    \;\big\vert\;
+    g_i \in G
+  \Big\}
+  \,.
+$$
+
+\end{remark}
+
+We denote the [[image]] of $\overline{W}G$ in the [[classical homotopy category]] by
+
+$$
+  B G
+  \;=\;
+  \mathbf{B} G
+  \;=\;
+  Loc_{\mathrm{W}}(\overline{W}G)
+  \;\;\;
+  \in
+  \;
+  Ho(sSet)
+  \,.
+$$
+
+
+
+### Group(oid) cohomology
+
+Some relevant basics of [[cohomology]], for the cases of [[ordinary cohomology]] and [[group cohomology]]:
+
+\begin{definition}\label{EilenbergMacLaneSpaces}
+**([[Eilenberg-MacLane spaces]])** \linebreak
+  For $A \,\in\,$ [[Ab]], and $n \in \mathbb{N}$, we write
+  $$
+    B^n A \,=\, K(A,n) 
+    \,\coloneqq\,
+    frgt \circ DK(A[n])
+    \;\;\;
+    \in
+    \;
+    sAb 
+      \xrightarrow{ Loc_{\mathrm{W}}}
+    Ho(sAb)
+     \xrightarrow{frgt}
+    Ho(sSet)
+  $$
+  for (the [[homotopy type]] of) the [[Eilenberg-MacLane space]]
+  with $A$ in degree $n$.
+\end{definition}
+
+\begin{definition}\label{OrdinaryCohomology}
+**([[ordinary cohomology]])** \linebreak
+  For $X \in Ho(sSet)$,  $A \,\in\, Ab$  and $n \in \mathbb{N}$,
+  the degree-$n$ *[[ordinary cohomology]]* of $X$ with [[coefficients]] in $A$ is
+  $$
+    H^n(X;\, A)
+    \;=\;
+    Ho(sSet)(X, \, B^n A)
+    \,,
+  $$
+  where on the right we have the [[Eilenberg-MacLane space]] from Def. \ref{EilenbergMacLaneSpaces}.
+\end{definition}
+
+
+The following is an immediate re-casting of the traditional definition of [[group cohomology]]:
+
+\begin{definition}\label{GroupCohomology}
+**([[group cohomology]])** \linebreak
+ For $G \,\in\, $ [[Groups]] and $A \,\in\,$ [[AbelianGroups]], 
+the [[group cohomology]] of $G$ with [[coefficients]] in $A$ is, in degree $n \in \mathbb{N}$, the [[hom-group]]
+
+$$
+  H^n_{grp}(G;\,A)
+  \;=\;
+  Ho(Ch^+_\bullet)
+  \big(
+    N_\bullet 
+     \circ
+    \mathbb{Z}(\overline{W}G),
+    \,
+    A[n]
+  \big)
+  \,.
+$$
+
+\end{definition}
+
+\begin{proposition}
+\label{GroupCohomologyIsOrdinaryCohomologyOfClassifyingSpace}
+**([[group cohomology]] is [[ordinary cohomology]] of [[classifying space]])** \linebreak
+ For $G \,\in\, $ [[Groups]] and $A \,\in\,$ [[AbelianGroups]], 
+ the [[group cohomology]] (Def. \ref{GroupCohomology}) of $G$ with coefficient in $A$ is [[natural isomorphism|naturally isomorphic]] to the [[ordinary cohomology]] of the [[simplicial classifying space]] of $G$ with [[coefficients]] in $B^n A$:
+
+$$
+  H^n_{grp}(G;\, A)
+  \;\simeq\;
+  H^n(B G,\, B^A)
+  \,.
+$$
+
+\end{proposition}
+
+\begin{proof}
+
+By the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the [above](#HomotopyCategories) [[derived adjunctions]]:
+
+$$
+  \begin{aligned}
+    H^n_{grp}(G;\, A)
+    & \;0\;
+    Ho(Ch^+_\bullet)
+    \big(
+      N_\bullet \circ \mathbb{Z}(\overline{W}G),
+      \,
+      A[n]
+    \big)
+    \\
+    & \;\simeq\;
+    Ho(sAb)
+    \big(
+      \mathbb{Z}(\overline{W}G),
+      \,
+      DK(A[n])
+    \big)
+    \\
+    & \;\simeq\;
+    Ho(sSet)
+    \big(
+      \overline{W}G
+      \,
+      frgt \circ DK(A[n])
+    \big)
+    \\
+    & \;=\;
+    Ho(sSet)
+    \big(
+      B G
+      \,
+      B^n A
+    \big)
+    \\
+    & \;=\;
+    H^n(B G;\, A)  
+    \,.
+  \end{aligned}
+$$
+
+\end{proof}
+
+This Prop. \ref{GroupCohomologyIsOrdinaryCohomologyOfClassifyingSpace}, in view of Rem. \ref{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}  justifies the following definition:
+
+\begin{definition}\label{GroupoidCohomology}
+**([[groupoid cohomology]])** \linebreak
+For $\mathcal{G} \,=\, (\mathcal{G}_1 \rightrightarrows \mathcal{G}_0) \,\in\,$ [[Groupoids]] and $A \,\in\,$ [[Ab]], $n \,\in\, \mathbb{N}$, the degree-$n$ *[[groupoid cohomology]]* of $\mathcal{G}$ with [[coefficients]] in $A$ is the [[ordinary cohomology]] (Def. \ref{OrdinaryCohomology}) of the [[homotopy type]] of the [[nerve]] of $\mathcal{G}$, regarded in the [[classical homotopy category]]: 
+
+$$
+  H^n
+  \big(
+    \mathcal{G};\,
+    A
+  \big)
+  \;\coloneqq\;
+  Ho(sSet)
+  \big(
+    N(\mathcal{G}),
+    \,
+    B^n A
+  \big)
+  \,.
+$$
+\end{definition}
+
 
 ### Products of simplices
 
-We have the following fundamental fact about [[products of simplices]] (see there for more):
+Some fundamental fact about [[products of simplicial sets]]:
 
 \begin{proposition}\label{NonDegenerateSimplicesInProductOfSimplices}
 **(non-degenerate $(p+q)$-simplices in $\Delta[p] \times \Delta[q]$)**
@@ -183,8 +467,6 @@ which satisfy the following equivalent conditions:
 * as morphisms of [[finitely generated object|finitely generated]] [[categories]] they take generating morphisms to generating morphisms;
 
 \end{proposition}
-
-(e.g. [Kerodon 2.5.7.2](#Kerodon): [00RH](https://kerodon.net/tag/00RH))
 
 Such morphisms may hence be represented by [[paths]]
 
@@ -300,63 +582,19 @@ Such morphisms may hence be represented by [[paths]]
 \end{tikzcd}
 
 \begin{proof}
-From Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise} 
-it is clear (Rem. \ref{DegenerateSimplicesInProductOfSimplicialSets}) that a 
-simplex $\sigma$ (eq:GenericSimplexInProductOfSimplices) is degenerate 
+From [this Prop.](product+of+simplices#CartesianProductOfSimplicialSetsIsComponentwise) 
+it is clear (see [this Remark](product+of+simplices#DegenerateSimplicesInProductOfSimplicialSets)) that a 
+simplex $\sigma \,\colon\, \Delta[p+q] \xrightarrow{\;} \Delta[p] \times \Delta[q]$  is degenerate 
 precisely if, when regarded as a path as above, it contains a [[constant function|constant]] step, i.e. one which moves neither horizontally nor vertically. But then -- by degree reasons, since we are looking at paths of $p + q$ steps in a lattice of side length $p$ and $q$ -- it must be that the path proceeds by $p + q$ unit steps. 
 \end{proof}
 
 ### Nerve of the inertia groupoid
 
-We have the following basic facts about the [[inertia groupoid]] (see there for more):
-
-\begin{remark}\label{DeloopingGroupoidAndSimplicialClassifyingSpaceOfFiniteGroup}
-**([[delooping groupoid]] and [[simplicial classifying space]] of [[finite group]])** \linebreak
-The [[nerve]] of the [[delooping groupoid]] of a [[discrete group]] $G$ is [[isomorphism|isomorphic]] to the [[simplicial classifying space]] of $G$ (see [this Example](simplicial+classifying+space#SimplicialClassifyingSpaceOfAnOrdinaryGroup)): 
-$$
-  N
-  \big(
-    G \rightrightarrows \ast
-  \big)
-  \;\simeq\;
-  \overline{W} G
-  \;\;\;
-  \in
-  \;
-  sSet
-  \,.
-$$
-For notational brevity we will be referring to $\overline{W}G$ in the following, but it may be helpful to keep thinking of the nerve of the delooping groupoid. 
-From that perspective, an [[n-simplex]] in $\overline{W}G$, which is an [[n-tuple]] of group elements, is suggestively denoted as a sequence of composable arrows:
-
-$$
-  \big(\overline{W}G\big)_{n}
-  \;\;
-    =
-  \;\;
-  \Big\{
-    \bullet
-    \xrightarrow{g_{n-1}}
-    \bullet
-    \xrightarrow{\;}
-    \cdots
-    \bullet
-    \xrightarrow{\;}
-    \bullet
-    \xrightarrow{g_1}
-    \bullet
-    \xrightarrow{g_0}
-    \bullet
-    \;\big\vert\;
-    g_i \in G
-  \Big\}
-  \,.
-$$
-
-\end{remark}
-
+Some basic facts about the [[nerve]] of an [[inertia groupoid]]:
 
 \begin{proposition}
+\label{InertiaGroupoidOfDeloopingGroupoidIsAdjointActionGroupoid}
+**([[inertia groupoid]] of [[delooping groupoid]] is [[adjoint action|adjoint]] [[action groupoid]])** \linebreak
 The inertia groupoid $\Lambda \mathbf{B} G$ is [[isomorphism|isomorphic]] to the [[action groupoid]] of the [[adjoint action]] of $G$ on itself:
 $$
   \Lambda \mathbf{B}G
@@ -624,29 +862,26 @@ As a consequence:
 \end{proposition}
 
 
-## Proof
+## Proof of the component formula
+ {#ProofOfTheComponentFormula}
 
-We have the following sequence of [[natural isomorphisms]], which are
+We prove that the formula (eq:SumFormulaForTransgressedCocycle) indeed expresses transgression in group cohomology. 
 
-* [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of [[derived adjunctions]] of
+(...)
 
-  * the [[Dold-Kan correspondence]],
-
-  * the [[free abelian group]]/[[forgetful functor]]-adjunction,
-
-* the [[Eilenberg-Zilber theorem]]:
+Consider the following sequence of [[natural isomorphisms]]:
 
 $$
   \begin{aligned}
-    H^n
+    H^n_{grp}
     \big(
-      B G; A
+      G;\, A
     \big)
     &
     \;=\;
     Ho(sSet)
     \big(
-      N \circ \mathbb{Z}(\overline{W}G),
+      N_\bullet \circ \mathbb{Z}(\overline{W}G),
       \,
       A[n]
     \big)
@@ -655,22 +890,27 @@ $$
     \;\simeq\;
     Ho(sSet)
     \big(
-      \overline{W}G; \, undrlg \circ DK\big( A[n] \big)
+      \overline{W}G; \, frgt \circ DK\big( A[n] \big)
     \big)
     \\
+    =
+    H^n
+    \big(
+      B G;\, A
+    \big)
     &
     \;\overset{[S,-]}{\to}\;
     Ho(sSet)
-    \big(
-      [S,\overline{W}G];\, \, \big[S,undrlg \circ DK\big( A[n] \big)\big]
-    \big)
+    \Big(
+      [S,\overline{W}G];\, \, \big[S, frgt \circ DK\big( A[n] \big)\big]
+    \Big)
     \\
     & 
     \;\simeq\;
     Ho(sSet)
     \Big(
       [S,\overline{W}G] \times S,
-      \, undrlg \circ DK\big( A[n] \big)  
+      \, frgt \circ DK\big( A[n] \big)  
     \Big)
     \\
     &
@@ -684,38 +924,38 @@ $$
     \\
     &
     \;\simeq\;
-    Ho(Ch_{\geq 0}(\mathbb{Z}))
+    Ho(Ch^+_\bullet)
     \Big(
-      N \circ \mathbb{Z}\big( [S, \overline{W}G] \times S \big),
+      N_\bullet \circ \mathbb{Z}\big( [S, \overline{W}G] \times S \big),
       \,
       A[n]
     \Big)    
     \\
     &
     \;\overset{EZ}{\simeq}\;
-    Ho(Ch_{\geq 0}(\mathbb{Z}))
+    Ho(Ch^+_\bullet)
     \Big(
-      N\circ \mathbb{Z}\big([S, \overline{W}G]\big) 
+      N_\bullet \circ \mathbb{Z}\big([S, \overline{W}G]\big) 
         \otimes 
-      \underset{\mathbb{Z}[1]}{\underbrace{N \circ \mathbb{Z}(S)}},
+      \underset{\mathbb{Z}[1]}{\underbrace{N_\bullet \circ \mathbb{Z}(S)}},
       \,
       A[n]
     \Big)    
     \\
     &
     \;\simeq\;
-    Ho(Ch_{\geq 0}(\mathbb{Z}))
+    Ho(Ch^+_\bullet)
     \Big(
-      N\circ \mathbb{Z}\big([S, \overline{W}G]\big),
+      N_\bullet \circ \mathbb{Z}\big([S, \overline{W}G]\big),
       \,
       A[n] \oplus A[n-1]
     \Big)    
     \\
     & 
     \;\overset{pr_2}{\to}\;
-    Ho(Ch_{\geq 0}(\mathbb{Z}))
+    Ho(Ch^+_\bullet)
     \Big(
-      N\circ \mathbb{Z}\big([S, \overline{W}G]\big),
+      N_\bullet \circ \mathbb{Z}\big([S, \overline{W}G]\big),
       \,
       A[n-1]
     \Big)    
@@ -727,8 +967,27 @@ $$
       \,
       A
     \big)        
+    \,.
   \end{aligned}
 $$
+
+Here 
+
+* the first three lines recall the identification from Prop. \ref{GroupCohomologyIsOrdinaryCohomologyOfClassifyingSpace};
+
+* the fourth line is the [component function](functor#eq:ComponentFunctionOnHomSets) on [[hom-sets]] of the [[derived functor|derived]] [[internal hom]]/[[simplicial mapping complex]]-[[functor]] out of the minimal simplicial circle $S$ (Def. \ref{MinimalSimplicialCircle});
+
+* the fifth line is the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the derived [[free abelian group|free]] [[simplicial abelian group]]-adjunction (eq:DerivedFreeSimplicialAbelianGroupAdjunction);
+
+* the sixth line is the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the derived [[Dold-Kan equivalence]] (eq:DerivedDoldKanAdjunction);
+
+* the seventh line is pre-composition with the [[Eilenberg-Zilber map]], using that this is a [[quasi-isomorphism]] (and hence an [[isomorphism]] in the [[homotopy category]] [[model structure on connective chain complexes|on chain complexes]]) by the [[Eilenberg-Zilber theorem]];
+
+* ...
+
+* ...
+
+* the last line is Def. \ref{GroupoidCohomology} of [[groupoid cohomology]].
 
 Chasing a cocycle through this sequence and using Prop. \ref{FormOfTheSimplicialEvaluationMap} when it gets to go through the [[Eilenberg-Zilber map]] yields (eq:SumFormulaForTransgressedCocycle).
 
@@ -752,3 +1011,9 @@ The transgression formula itself (without derivation) is also considered, in a c
 and specifically in the context of equivariant [[Tate K-theory]] in:
 
 * {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+
+
+[[!redirects transgressions in group cohomology]]
+
+[[!redirects transgression of group cocycles]]
+[[!redirects transgressions of group cocycles]]
