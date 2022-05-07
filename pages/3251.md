@@ -131,7 +131,7 @@ Original articles include
 * {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971. ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
 
 
-A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
+A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]]: 
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], and Mark Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778))
 
@@ -194,7 +194,7 @@ A construction of equivariant stable homotopy theory in terms of [[spectral Mack
 
 see at _[[spectral Mackey functor]]_ for more references.
 
-A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation is i 
+A fully [[(∞,1)-category theory|(∞,1)-category theoretic]] formulation:
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727 ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
