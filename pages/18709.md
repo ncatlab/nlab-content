@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
 =--
 =--
 
@@ -26,6 +30,7 @@ Often, but not always, this is considered in [[homotopy theory]] or even in [[st
  {#Properties}
 
 \begin{prop}\label{StableTangentBundleOfUnitSphereBundle}
+**([[stable tangent bundle]] of [[unit sphere bundle]])** \linebreak
   The [[stable tangent bundle]] of a [[unit sphere bundle]] $S(\mathcal{V})$ in a [[real vector bundle]] $\mathcal{V} \overset{p}{\longrightarrow} M$ (Example \ref{UnitSphereBundles}) over a [[smooth manifold]] $M$ is [[isomorphism|isomorphic]] to the [[pullback bundle|pullback]]  of the [[direct sum of vector bundles|direct sum]] of the [[stable tangent bundle]] of the base manifold with that vector bundle:
 
 $$
@@ -35,7 +40,7 @@ $$
   \;
   S(p)^\ast
   \big(
-    T^{stab} M 
+    T M 
     \oplus_M
     \mathcal{V}
   \big)
@@ -43,8 +48,51 @@ $$
 $$
 \end{prop}
 
-(e.g. [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03), following [Milnor 56, p. 403](#Milnor1956))
+(This is claimed between the lines in [Milnor 56, p. 403](#Milnor1956) and extracted as an explicit statement in [Crowley-Escher 03, Fact. 3.1](#CrowleyEscher03).)
 
+\begin{proof}\label{ProofOfStableTangentBundleOfUnitSphereBundle}
+  Consider first the actual [[tangent bundle]] but to the [[open ball]]/[[disk]]-[[fiber bundle]] $D(\mathcal{V})$ that fills the given sphere-fiber bundle: By the standard splitting ([this Prop.](vertical+vector+field#SplittingOfTotalSpaceTangentBundle)) this is the [[direct sum of vector bundles|direct sum]]
+
+$$
+  T 
+  \big(
+   D(\mathcal{V})
+  \big)
+  \;\simeq\;
+  \big(
+     D(p)^\ast T M
+  \big)
+  \oplus_M
+  T_p D(\mathcal{V})
+  \,,
+$$
+
+where $T_p D(\mathcal{V})$ is the [[vertical tangent bundle]] of the disk bundle. But, by definition of disk bundles, that is the restriction of the vertical tangent bundle of the vector bundle $\mathcal{V}$ itself, and that is just the pullback of that vector bundle along itself (by [this Example](vertical+vector+field#SplittingOfTotalSpaceTangentBundle)):
+
+$$
+  \begin{aligned}
+  \cdots
+  & 
+  \simeq\;
+  \big(
+    D(p)^\ast T M
+  \big)
+  \oplus_M
+  \big(
+    D(p)^\ast \mathcal{V}
+  \big)
+  \\
+  & \simeq\;
+  D(p)^\ast
+  \big(
+    T M \oplus_M \mathcal{V}
+  \big)
+  \,.
+  \end{aligned}
+$$
+
+To conclude, it just remains to observe that the [[normal bundle]] of the [[n-sphere]]-boundary inside the $(n+1)$-ball is manifestly [[trivial bundle|trivial]], so that the restriction of the tangent bundle of $D(\mathcal{V})$ to $S(\mathcal{V})$ is the [[stable tangent bundle]] of $S(\mathcal{V})$.
+\end{proof}
 
 ## Examples
 
