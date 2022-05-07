@@ -120,7 +120,7 @@ This is given by letting a projective unitary act by conjugation on a Fredholm o
 
 ## Related concepts
 
-* [[universal equivariant PU(H)-bundle]]
+* [[PU(ℋ)]], [[universal equivariant PU(H)-bundle|universal equivariant $PU(\mathcal{H})$-bundle]]
 
 * [[projective linear group]]
 
@@ -148,7 +148,6 @@ On the spaces of [[group homomorphisms]] into $PU(\mathcal{H})$ (with an eye tow
 [[!redirects projective unitary groups]]
 
 [[!redirects PU(n)]]
-[[!redirects PU(H)]]
 
 
 
