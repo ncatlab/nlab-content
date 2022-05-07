@@ -22,7 +22,7 @@ A **two-valued topos** is a topos with exactly two [[truth value|truth values]].
 
 ## Definition
 
-A topos $\mathcal{E}$ is called _two-valued_ if its [[subobject classifier]] $\Omega$ has precisely two global elements $1\overset{true}{\to}\Omega$ and $1\overset{false}{\to}\Omega$.
+A topos $\mathcal{E}$ is called _two-valued_ if its [[subobject classifier]] $\Omega$ is [[two-valued object|two-valued]], with precisely two global elements $1\overset{true}{\to}\Omega$ and $1\overset{false}{\to}\Omega$.
 
 
 ## Properties
@@ -46,7 +46,7 @@ A topos $\mathcal{E}$ is called _two-valued_ if its [[subobject classifier]] $\O
 
 ## Related entries
 
-* [[two-valued logic]]
+* [[two-valued object]], [[two-valued logic]]
 
 * [[well-pointed topos]]
 
