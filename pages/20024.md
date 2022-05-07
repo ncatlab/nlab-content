@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,6 +26,16 @@ See also [[rotation permutation]].
 
 ## Related concepts
 
+* [[permutation cycle]]
+
 * [[cyclic group]]
+
+## References
+
+See also:
+
+* Wikipedia, *[Cyclic permutation](https://en.wikipedia.org/wiki/Cyclic_permutation)*
+
+
 
 [[!redirects cyclic permutations]]
