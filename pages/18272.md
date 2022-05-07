@@ -29,7 +29,7 @@ A strong pedagogy would not only instill this sort of basic training, but make t
 ###### Proposition
 **([[images]] preserve [[unions]] but not in general [[intersections]])**
 
-Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_i \subset X\}_{i \in I}$ be a set of [[subsets]] of $X$. Then 
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_i \subset X\}_{i \in I}$ be an [[indexed set]] of [[subsets]] of $X$. Then 
 
 1. $im_f\left( \underset{i \in I}{\cup}  S_i\right) = \left(\underset{i \in I}{\cup} im_f(S_i)\right)$ (the [[image]] under $f$ of a [[union]] of subsets is the union of the images)
 
@@ -47,7 +47,7 @@ The [[injective function|injection]] in the second item is in general proper. If
 ###### Proposition 
 **(pre-images preserve unions and intersections)** 
 
-Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_i \subset Y\}_{i \in I}$ be a set of [[subsets]] of $Y$. Then 
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_i \subset Y\}_{i \in I}$ be an [[indexed set]] of [[subsets]] of $Y$. Then 
 
 1. $f^{-1}\left( \underset{i \in I}{\cup}  T_i\right) = \left(\underset{i \in I}{\cup} f^{-1}(T_i)\right)$ (the [[pre-image]] under $f$ of a [[union]] of subsets is the union of the pre-images), 
 
