@@ -100,7 +100,7 @@ $$
     + 
     \int_{[0,1]} \iota_{\partial_t} \Psi^*(d_X \omega) d t
     \\
-    & = \int_{[0,1]} [d_Y,\iota_{\partial_t}] \Psi^* (\omega) d t
+    & = \int_{[0,1]} (d_Y \iota_{\partial_t} + \iota_{\partial_t}d_Y) \Psi^* (\omega) d t
     \\
     & = \int_{[0,1]} \mathcal{L}_{t} \Psi^* (\omega) d t
     \\
@@ -115,11 +115,11 @@ $$
   \,,
 $$
 
-where in the [[integral]] we used first that the [[exterior differential]] commutes with pullback of [[differential forms]], then [[Cartan's magic formula]] $[d,\iota_{\partial t}] = \mathcal{L}_t$ for the [[Lie derivative]] along the [[cylinder]] on $X$ and finally the [[Stokes theorem]].
+where in the [[integral]] we used first that the [[exterior differential]] commutes with pullback of [[differential forms]], then [[Cartan's magic formula]] $d_Y \iota_{\partial_t} + \iota_{\partial_t}d_Y = \mathcal{L}_t$ for the [[Lie derivative]] along the [[cylinder]] on $X$ and finally the [[Stokes theorem]].
 
 =--
 
-The **Poincar&#233; lemma** proper is the special case of this statement for the case that $f_1 = const_y$ is a function constant on a point $y \in Y$:
+The **Poincar&#233; lemma** proper is the special case of this statement for the case that $f_2 = const_y$ is a function constant on a point $y \in Y$:
 
 +-- {: .num_prop}
 ###### Corollary
@@ -146,7 +146,7 @@ form on $X$ in positive degree an explicit formula for a form
 $\lambda$ with $d \lambda = \omega$ is given by
 
 $$
-  \lambda = \int_{[0,1]} \iota_{\partial_t}\Psi^*(\omega) d t
+  \lambda = - \int_{[0,1]} \iota_{\partial_t}\Psi^*(\omega) d t
   \,.
 $$
 
@@ -155,7 +155,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In the general situation discussed above we now have $f_1^* = 0$
+In the general situation discussed above we now have $f_2^* = 0$
 in positive degree.
 
 =--
