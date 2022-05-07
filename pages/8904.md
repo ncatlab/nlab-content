@@ -104,3 +104,6 @@ More along these lines is in
 [[!redirects semisimplicial types]]
 [[!redirects category of semisimplices]]
 [[!redirects categories of semisimplices]]
+
+[[!redirects semisimplicial]]
+[[!redirects semi-simplicial]]
