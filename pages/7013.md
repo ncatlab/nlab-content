@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -99,7 +100,7 @@ Hence every presentable locally cartesian closed $\infty$-category interprets [[
 
 =--
 
-This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]].  The latter should in addition possess [[univalence|univalent universes]], but that is at present known only weakly except for a restricted class.  See also _[[internal logic of an (∞,1)-topos]]_.
+{#UnivalentUniverses} This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]], which in addition interpret [[univalence axiom|univalent]] [[type universes]] ([[(infinity,1)-topos#Shulman19|Shulman 19]]).
 
 This statement is not fully satisfactory for several reasons.  Firstly, it assumes local presentability.  Secondly, rather than staying in the world of $(\infty,1)$-categories, it goes by way of a strict presentation.  Thus, the existence and behavior of a "universal model" is unclear.
 
@@ -161,6 +162,7 @@ A discussion of object classifiers, univalent families, and model category prese
 [[!redirects locally cartesian closed (∞,1)-category]]
 [[!redirects locally cartesian closed (infinity,1)-categories]]
 [[!redirects locally cartesian closed (∞,1)-categories]]
+[[!redirects locally cartesian closed infinity,1-category]]
 
 [[!redirects locally Cartesian closed (∞,1)-category]]
 [[!redirects locally Cartesian closed (∞,1)-categories]]
