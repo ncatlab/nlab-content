@@ -310,6 +310,9 @@ Skyrmion [[scattering amplitudes]]:
 
 * T. Gisiger, M. B. Paranjape, _Skyrmion-Skyrmion Scattering_ ([arXiv:hep-th/9310050](https://arxiv.org/abs/hep-th/9310050))
 
+* David Foster, [[Steffen Krusch]], *Scattering of Skyrmions*, Nuclear Physics B 897, 697-716, 2015 ([arXiv:1412.8719](https://arxiv.org/abs/1412.8719))
+
+
 [[nucleon]]$\,$[[interaction]]:
 
 * [[Chris Halcrow]], [[Derek Harland]], _An attractive spin-orbit potential from the Skyrme model_ ([arXiv:2007.01304](https://arxiv.org/abs/2007.01304))
