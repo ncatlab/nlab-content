@@ -165,6 +165,8 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[categorical algebra]]
 
+[[!include oidification - table]]
+
 ## References
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
