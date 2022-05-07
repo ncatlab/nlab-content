@@ -67,8 +67,8 @@ Lu introduces the name bialgebroid for a structure which is equivalent to the Ta
 
 Modern treatments are in 
 
-* [[Gabriella Böhm]], _Internal bialgebroids, entwining structures and corings_, [math.QA/0311244](http://arxiv.org/abs/math/0311244), in: Algebraic structures and their representations, 207&#8211;226,
-Contemp. Math. __376__, Amer. Math. Soc. 2005.
+* [[Gabriella Böhm]], _Internal bialgebroids, entwining structures and corings_, [math.QA/0311244](http://arxiv.org/abs/math/0311244), in: Algebraic structures and their representations, 207&#8211;226,  Contemp. Math. __376__, Amer. Math. Soc. 2005.
+
 * [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
 * [[Kornél Szlachányi]], _The monoidal Eilenberg&#8211;Moore construction and bialgebroids_, J. Pure Appl. Algebra __182__, no. 2&#8211;3 (2003) 287&#8211;315; _Fiber functors, monoidal sites and Tannaka duality for bialgebroids_, [arxiv/0907.1578](http://arxiv.org/abs/0907.1578)
 * [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_{R}$-bialgebras and duality_, J. Algebra 251: 279-294, 2002, [math.QA/0012164](http://arxiv.org/abs/math/0012164)
