@@ -199,9 +199,9 @@ A [[commutative ring]] $R$ which is [[isomorphism|isomorphic]] to its [[core of 
 \end{definition}
 ([Bousfield-Kan 72, &#167;1, def. 2.1](#BousfieldKan72), [Bousfield 79, 6.4](#Bousfield79))
 
-\begin{proposition}
+\begin{proposition}\label{SolidityMeansThatMultiplicationIsAnIsomorphism}
+**([[solid ring|solidity]] means that [[multiplication]] is [[isomorphism]])** \linebreak
   A [[commutative ring]] $R$ is solid (Def. \ref{SolidRing}) iff its [[multiplication]] morphism is an [[isomorphism]]:
-
 $$
   R\; \text{is solid}
   \;\;\;\;\;\;\;\;\;
@@ -216,18 +216,102 @@ $$
   \,.
 $$
 \end{proposition}
-([Bousfield & Kan 1972](#BousfieldKan72))
+([Bousfield & Kan 1972, 2.4](#BousfieldKan72) -- this is called a *T-ring* in [Bowshell & Schultz 1977, Def. 1.6](#BowshellSchultz77)) 
+\begin{proof}
+In one direction, assume that multiplication is an isomorphism. Since both 
+$r \mapsto 1 \otimes r$ and $r \mapsto r \otimes 1$ are [[right inverses]]
+
+\begin{tikzcd}
+    R 
+    \ar[
+      rr,
+      shift left=3pt,
+      "{ r \,\mapsto\, 1 \otimes r }"{above}
+    ]
+    \ar[
+      rr,
+      shift right=3pt,
+      "{ r \,\mapsto\, r \otimes 1 }"{below}
+    ]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=-11pt]\tikztostart.south)
+           --node[below]{
+               \scalebox{.7}{$
+                 \mathrm{Id}
+               $}
+             } ([yshift=-9pt]\tikztotarget.south)
+           -- (\tikztotarget.south)}
+    ]
+    &&
+    R \otimes_{{}_{\mathbb{Z}}} R
+    \ar[
+      rr,
+      " (-) \cdot (-) "{above},
+      "\sim"{below, yshift=1pt}
+    ]
+    &&
+    R
+    \mathrlap{\,,}
+\end{tikzcd}
+
+and since right inverses of isomorphisms are unique ([this Prop.](inverse#InversesAreUnique)), it follows that these two morphisms on the left are in fact equal, and therefore that their equalizer, hence the core of $R$ (by Rem. \ref{CoreAsEqualizerAndAsRegularImage}), is $R$.
+
+In the other direction, assume that $1 \otimes r \,=\, r \otimes 1$ for all $r \in R$. Then 
+$$
+  \begin{aligned}
+    r_1 \,\otimes\, r_2  
+    & \;=\;
+    \big( r_1 \,\otimes\, 1 \big) 
+      \cdot 
+    \big( 1 \otimes r_2 \big)
+    \\
+    & \;=\;
+    \big( 1 \,\otimes\, r_1 \big) 
+      \cdot 
+    \big( 1 \otimes r_2 \big)
+    \\
+    & \;=\;
+    1 
+      \,\otimes\, 
+    \big(
+      r_1 \cdot r_2
+    \big)
+    \,,
+  \end{aligned}
+$$
+and therefore $(-)\cdot(-)$ is a [[bijection]], hence an [[isomorphism]] of rings.
+\end{proof}
 
 
 
-## Classification
+## Properties
+
+\begin{prop}\label{CoresAreSolid}
+**(cores are solid)** \linebreak
+The core (Def. \ref{CoreOfARing}) of any ring $R$ is solid (Def. \ref{SolidRing}):
+$$
+  c c R 
+    \;\simeq\; 
+  c R
+  \,.
+$$
+\end{prop}
+([Bousfield-Kan 72, prop. 2.2](#BousfieldKan72))
+
+
+
+
+## Examples
 
 +-- {: .num_theorem}
 ###### Theorem
 
 The following is the complete list of solid rings (Def. \ref{SolidRing}) up to [[isomorphism]]:
 
-1. The [[localization of a ring|localization]] of the ring of [[integers]] at a [[subsetset]] $Pr$ of [[prime numbers]]
+1. The [[localization of a ring|localization]] of the ring of [[integers]] at a [[subset]] $Pr$ of [[prime numbers]]
 
    $$
      \mathbb{Z}\big[Pr^{-1}\big]
@@ -266,20 +350,94 @@ The following is the complete list of solid rings (Def. \ref{SolidRing}) up to [
 
 ([Bousfield-Kan 72, prop. 3.5](#BousfieldKan72), [Bousfield 79, p. 276](#Bousfield79))
 
+In particular:
 
-## Properties
+\begin{example}\label{RationalNumbersFormASolidRing}
+**([[rational numbers]] form a [[solid ring]])** \linebreak
+The ring $\mathbb{Q}$ of [[rational numbers]] is a [[solid ring]].
+\end{example}
+\begin{proof}
+  Since every [[rational number]] may be written as 
+  $$
+    r \,=\,q / p \,=\, \tfrac{1}{p} \cdot q \,\in\, \mathbb{Q}
+  $$
+  for some $p, q \,\in\, \mathbb{Z}$,
+  we have
+  $$
+    \begin{aligned}
+        1 \otimes r
+      & 
+      \;=\;
+      1 
+        \,\otimes\, 
+      \big( \tfrac{1}{p} \cdot q \big)
+      \\
+      & \;=\;
+      \big( \tfrac{1}{p} \cdot p \big)
+        \,\otimes\, 
+      \big( \tfrac{1}{p} \cdot q \big)
+      \\
+      & \;=\;
+      \tfrac{1}{p} 
+        \,\otimes\, 
+      \big(
+        p \cdot \tfrac{1}{p} \cdot q
+      \big)
+      \\ 
+      & \;=\;
+      \tfrac{1}{p} 
+        \,\otimes\, 
+      \big( 
+        q \cdot 1 
+      \big)
+      \\
+      & \;=\;
+      \big(
+        \tfrac{1}{p} \cdot q
+      \big) 
+        \,\otimes\, 
+      1
+      \\
+      & \;=\;
+      r \,\otimes\, 1 
+      \;\;\;\;\;\;
+      \in
+      \;
+      \mathbb{Q} \otimes_{{}_{\mathbb{Z}}} \mathbb{Q}
+      \,.
+    \end{aligned}
+  $$
+  Here the third and the fifth line use the [[equivalence relation]] defining the [[tensor product of abelian groups]] for the case of rings:
+  $$
+    r_1 
+      \,\otimes\, 
+    \big( n \cdot r_2 \big)
+      \,=\, 
+    \big(
+      r_1 
+      \,\cdot\,
+      n 
+    \big)
+      \,\otimes\, 
+    r_2
+    \;\;\;
+    \in
+    \;
+    \mathbb{Q} \otimes_{{}_{\mathbb{Z}}} \mathbb{Q}
+    \,,
+    \;\;\;\;
+    \text{for}\; n \,\in\, \mathbb{Z}
+    \,.
+  $$
+\end{proof}
 
-\begin{prop}\label{CoresAreSolid}
-**(cores are solid)** \linebreak
-The core (Def. \ref{CoreOfARing}) of any ring $R$ is solid (Def. \ref{SolidRing}):
-$$
-  c c R 
-    \;\simeq\; 
-  c R
-  \,.
-$$
-\end{prop}
-([Bousfield-Kan 72, prop. 2.2](#BousfieldKan72))
+\begin{remark}\label{NoOtherCharZeroFieldIsSolid}
+**(no other [[field]] of [[characteristic zero]] is a [[solid ring]])** \linebreak
+  The same argument shows that no other [[field]] of [[characteristic zero]] $k$ is a solid ring, since, being a proper [[superset]] $\mathbb{K} \supset \mathbb{Q}$, it contains elements $k \in \mathbb{K}$ for which there are *no* pairs of [[integers]] $q$, $p$ such that $p \cdot k \,=\, q$.
+In particular, the [[real numbers]] are not a [[solid ring]]. 
+
+This is, ultimately, the reason why the [[derived adjunction|derived]] [[PL de Rham complex|PL de Rham]]-[[Quillen adjunction]] is [[idempotent adjunction|idempotent]] only over $k = \mathbb{Q}$ (where it models [[rationalization]] of [[homotopy types]], see at *[[fundamental theorem of dg-algebraic rational homotopy theory]]*).
+\end{remark}
 
 
 ## Related concepts
@@ -291,10 +449,24 @@ $$
 
 ## References
 
-* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81 ([link](http://www.sciencedirect.com/science/article/pii/0022404972900230))
+The original articles:
 
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81 (<a href="https://doi.org/10.1016/0022-4049(72)90023-0">doi:10.1016/0022-4049(72)90023-0</a>)
 
 * {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+
+The concept re-appears under the name "T-rings" in
+
+* {#BowshellSchultz77} R. A. Bowshell and P. Schultz, *Unital rings whose additive endomorphisms commute*, Mathematische Annalen volume 228, pages 197–214 (1977) ([doi10.1007/BF01420290](https://doi.org/10.1007/BF01420290))
+
+and under the name "$\mathbb{Z}$-epimorphs" in:
+
+* {#DicksStephenson84} Warren Dicks, W. Stephenson, *Epimorphs and Dominions of Dedekind Domains*, Journal of the London Mathematical Society, Volume s2-29, Issue 2, April 1984, Pages 224–228 ([doi:10.1112/jlms/s2-29.2.224](https://doi.org/10.1112/jlms/s2-29.2.224))
+    
+Generalization to [[monoids in monoidal categories]]:
+
+* {#Gutierrez13} [[Javier J. Gutiérrez]], *On solid and rigid monoids in monoidal categories*, Applied Categorical Structures 23, no. 2 (2015), 575-589 ([arXiv:1303.5265](https://arxiv.org/abs/1303.5265))
+
 
 [[!redirects cores of rings]]
 
