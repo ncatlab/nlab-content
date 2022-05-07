@@ -24,6 +24,8 @@ In [[quantum hadrodynamics]], _charmonium_ $J/\psi$ is the [[charm quark|charm]]
 
 ## References
 
+* An-Ping Chen, Yan-Qing Ma, Hong Zhang, *A short theoretical review of charmonium production* ([arXiv:2109.04028](https://arxiv.org/abs/2109.04028))
+
 See also
 
 * Wikipedia, _[J/psi meson](https://en.m.wikipedia.org/wiki/J/psi_meson)_
