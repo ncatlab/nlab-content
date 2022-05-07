@@ -1082,10 +1082,10 @@ The separation condition (eq:PairOfSeparatedNeighbourhoods) on a pair of disjoin
   \big\{
     e_F 
       \leftrightarrows 
-    e_U=e_{\bar U}
+    e_U=
     e_{\varnothing}
       =
-    e_{\bar V}=e_V 
+    e_U 
       \leftrightarrows
     e_G 
   \big\}  
@@ -1154,10 +1154,10 @@ The separation condition (eq:PairOfSeparatedClosedNeighbourhoods) on a pair of d
   \big\{
     e_F 
       \leftrightarrows 
-    e_U=
+    e_U=e_{\bar U}=
     e_{\varnothing}
       =
-    e_U 
+    e_{\bar V}=e_V 
       \leftrightarrows
     e_G 
   \big\}  
@@ -1202,7 +1202,7 @@ This separation condition  on a pair of disjoint subsets means equivalently that
   \ar[dd]
   \ar[rr]
   && 
-  [0,1]\times_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}
+  {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}
   \ar[dd]
   \\
   \\
@@ -1232,7 +1232,7 @@ If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal ar
     f'
     &\colon&
     S 
-    &\longrightarrow& [0,1]\times_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1\}
+    &\longrightarrow& [0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1\}
     \\
     &&
     x
@@ -1300,7 +1300,7 @@ If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal ar
     &\colon&
     S 
     &\longrightarrow&  
-  [0,1]
+  {[0,1]}
     \\
     &&
     x
@@ -1489,10 +1489,11 @@ regular Hausdorff space is also $T2\frac{1}{2}$.
    $$
      \{x\} \longrightarrow  {X} 
      \;\;\;\,\rightthreetimes\,\;\;\;  
-     [0,1] \cup \{F\} \longrightarrow  \{x{\searrow}F\}
+     [0,1] \vee_{\{1\}} {\{1\leftrightarrow F\}} 
+        \longrightarrow  \{ \overset{e_{[0,1]}}{}  \searrow F\}
    $$ 
-
-   where points $F$ and $1$ are topologically indistinguishable, $[0,1]$ goes to $x$, and $F$ goes to $F$.
+Here in $[0,1] \vee_{\{1\}} {\{1\leftrightarrow F\}}$ 
+the points $F$ and $1$ are topologically indistinguishable, $[0,1]$ goes to $x$, and $F$ goes to $F$.
 
    Every completely regular space is also regular.
 
@@ -1519,11 +1520,11 @@ and $\big\{\overset{V}{}{\searrow}\underset{y}{}\big\}$.
    $$   
       \emptyset \longrightarrow  {X} 
       \;\;\;\,\rightthreetimes\,\;\;\;  
-      \{0'\} \cup [0,1] \cup \{1'\} 
-      \longrightarrow  \{0=0'{\searrow}x{\swarrow}1=1'\} 
+       [0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1'\} 
+      \longrightarrow  \{0=0'{\searrow}e_{[0,1]}{\swarrow}1=1'\} 
    $$
-
-   where points $0',0$ and $1,1'$ are topologically indistinguishable, $[0,1]$ goes to $x$, and both $0,0'$ map to point $0=0'$,  and both $1,1'$ map to point $1=1'$.
+Here in $[0,1]\vee_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1'\}$
+   the points $0',0$ and $1,1'$ are topologically indistinguishable, $[0,1]$ goes to $e_{[0,1]}$, and both $0,0'$ map to point $0=0'$,  and both $1,1'$ map to point $1=1'$.
 
 
 *  $X$ is normal Hausdorff, or T4, if it is both T1 and normal. Every normal
