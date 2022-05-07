@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
 =--
 =--
 
