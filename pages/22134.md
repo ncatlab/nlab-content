@@ -11,8 +11,6 @@ The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] 
 
 * [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics. 2002, Vol 227, Num 3, pp 605-622  ([arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108))
 
-* Chetan Nayak, Steven H. Simon, [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
-
 * D. Melnikov, A. Mironov, S. Mironov, A. Morozov, An. Morozov, _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 ([arXiv:1703.00431](https://arxiv.org/abs/1703.00431), [doi:10.1016/j.nuclphysb.2017.11.016](https://doi.org/10.1016/j.nuclphysb.2017.11.016))
 
 Textbook accounts:
@@ -21,7 +19,9 @@ Textbook accounts:
 
 Review:
 
-* Ady Stern, Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science 08 Mar 2013: Vol. 339, Issue 6124, pp. 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
+* Chetan Nayak, Steven H. Simon, [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
+
+* [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science 08 Mar 2013: Vol. 339, Issue 6124, pp. 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
     
 * {#LahtinenPachos17} Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
 
