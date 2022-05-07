@@ -192,13 +192,19 @@ Also, when a property is not always preserved it is useful to label those maps w
 
 ### Properties preserved
 
-1. By definition, the preimage of an open set is open.
+\begin{prop}\label{PropertiesPreservedByAContinuousFunction}
 
-1. Similarly, the preimage of an [[closed set]] is closed.
+Under a [[continuous function]]:
 
-1. The [[image]] of a [[connected space|connected subset]] is again connected.
+1. the [[preimage]] of an [[open subset]] is open;
 
-1. The image of a [[compact space|compact subset]] is again compact (see at _[[continuous images of compact spaces are compact]]_)
+1. the [[preimage]] of an [[closed subset]] is closed;
+
+1. the [[image]] of a [[connected space|connected subset]] is again connected;
+
+1. theimage of a [[compact space|compact subset]] is again compact (see at _[[continuous images of compact spaces are compact]]_).
+
+\end{prop}
 
 ### Special maps
 
