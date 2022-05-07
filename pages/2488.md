@@ -63,7 +63,7 @@ Using this, it shall be useful to slightly reformulate the above as follows:
 +-- {: .num_lemma}
 ###### Observation
 
-An [[∞-groupoid]] $A$ is $n$-truncated precisely for all other [[∞-groupoid]]s $X$ the hom-$\infty$-groupoid $\infty Grpd(X,A)$ is $n$-truncated.
+An [[∞-groupoid]] $A$ is $n$-truncated precisely when for all other [[∞-groupoid]]s $X$ the hom-$\infty$-groupoid $\infty Grpd(X,A)$ is $n$-truncated.
 
 =--
 
