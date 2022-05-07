@@ -236,3 +236,6 @@ The [[level of a topos]]-structure of simplicial (co-)skeleta is discussed in
 
 [[!redirects n-skeleton]]
 [[!redirects n-skeleta]]
+
+[[!redirects cellular skeleton]]
+[[!redirects cellular skeleta]]
