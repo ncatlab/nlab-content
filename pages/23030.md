@@ -1396,9 +1396,11 @@ As 1-[[cocycles]] in [[non-abelian group cohomology]]:
 
 * {#Milne17} [[James Milne]], Sec. 15.a-b & 3.k (16.a-b & 27.a in the [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf)) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
-
 * [[Groupprops]], *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
 
+In view of [[homotopy fixed points]]:
+
+* R. Virk, Section 3 of: *On fixed point stacks* ([arXiv:2112.06871](https://arxiv.org/abs/2112.06871))
 
 In discussion of [[equivariant principal bundles]]:
 
