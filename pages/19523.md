@@ -37,7 +37,7 @@ It has been shown that the effect of such [[backreaction]] is small or invisible
 
 The [[standard model of cosmology]] assumes that cosmic inhomogeneities may be neglected to zeroth order, and studies [[structure formation]] as a perturbation about a spatially homogeneous [[FRW model]] [[background field|background]] [[spacetime]].
 
-Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] and the observational preference for [[phantom dark energy]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
+Given that the [[standard model of cosmology]] faces some issues (e.g. [BCKRW 15](standard+model+of+cosmology#BCKRW15), [Riess et. al. 16](#RiessEtAl16), [MRS 21](#MRS21)) related to _[[dark energy]]_ (a [[cosmological constant]], and possibly related issues such as [[cosmic inflation]] and the observational preference for [[phantom dark energy]]), it has been suggested that these may be but an artefact of the overly idealistic approximation of cosmic homogeneity, and that a more accurate inhomogeneous cosmology would not need to assume any [[dark energy]]/[[cosmological constant]].
 
 References suggesting/discussing/checking this idea include the following: [Célérier 00](#Celerier00), [Buchert 00](#Buchert00), [Wetterich 01](#Wetterich01), [Schwarz 02](#Schwarz02), [Räsänen 03](#Rasanen03), [Alnes-Amarzguioui-Gron 06](#AlnesAmarzguiouiGron06), [Alnes-Amarzguioui 06](#AlnesAmarzguioui06), [Buchert-Larena-Alimi 06](#BuchertLarenaAlimi06), [Enqvist-Mattsson 06](#EnqvistMattsson06) [Buchert 07](#Buchert07), [Sarkar 08](#Sarkar08), [Notari 09](#Notari09), [Blomqvist 10](#Blomqvist10), [Buchert 11](#Buchert11), [Buchert-Räsänen 11](#BuchertRasanen11), [Scharf 13](#Scharf13), [Smoller-Temple-Vogler 14](#SmollerTempleVogler14), [Ludwick 15](#Ludwick15) [Moffat 16](#Moffat16), [Ludwick 18](#Ludwick18) [Colin-Mohayaee-Rameez-Sarkar 19](#SarkarEtAl18), [Colin-Mohayaee-Rameez-Sarkar 19b](#ColinMoymhayeeRamezSarkar19),
  [Sarkar 18](#Sarkar18), [Lombriser 19](#Lombriser19), [Deledicque 19](#Deledicque19), [Heinesen-Buchert 20](#HeinesenBuchert20).
@@ -233,7 +233,6 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 ### General
 
-
 * {#EllisStoeger87} [[George Ellis]], W. Stoeger, _The 'fitting problem' in cosmology_,  Classical and Quantum Gravity, Volume 4, Number 6, 1987 ([doi:10.1088/0264-9381/4/6/025](https://iopscience.iop.org/article/10.1088/0264-9381/4/6/025))
 
 
@@ -254,6 +253,10 @@ See also
 * Wikipedia, _[Inhomogeneous cosmology](https://en.wikipedia.org/wiki/Inhomogeneous_cosmology)_
 
 * Wikipedia, _[Accelerating expansion of the universe -- Alternative theories](https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe#Alternative_theories)_
+
+Critical review of [[dark energy]] in the standard model of cosmology:
+
+* {#MRS21} [[Roya Mohayaee]], [[Mohamed Rameez]], [[Subir Sarkar]], *Do supernovae indicate an accelerating universe?* ([arXiv:2106.03119](https://arxiv.org/abs/2106.03119))
 
 
 ### Theory of backreaction
@@ -383,13 +386,13 @@ Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
 
 * {#MacphersonLaskyPrice18} Hayley Macpherson, Paul D. Lasky, Daniel J. Price, _The trouble with Hubble: Local versus global expansion rates in inhomogeneous cosmological simulations with numerical relativity_,  ApJ Letters ([arXiv:1807.01714](https://arxiv.org/abs/1807.01714))
 
-* {#SarkarEtAl18} J. Colin, R. Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics **631** L13 (2019) doi:[10.1051/0004-6361/201936373](https://doi.org/10.1051/0004-6361/201936373), ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
+* {#SarkarEtAl18} Jacques Colin, [[Roya Mohayaee]], [[Mohamed Rameez]], [[Subir Sarkar]], _Evidence for anisotropy of cosmic acceleration_, Astronomy & Astrophysics **631** L13 (2019) doi:[10.1051/0004-6361/201936373](https://doi.org/10.1051/0004-6361/201936373), ([arXiv:1808.04597](https://arxiv.org/abs/1808.04597))
 
 * {#Sarkar18} [[Subir Sarkar]], _Is the universe isotropic?_, talk at _[Current Themes in High Energy Physics and Cosmology 2018](https://indico.nbi.ku.dk/event/973/)_ ([pdf](https://indico.nbi.ku.dk/event/973/contributions/8344/attachments/2648/3858/Sarkar_Copenhagen18_cosmo.pdf))
 
 * {#Rameez19} [[Mohamed Rameez]], _On the Real Inhomogeneous Universe and the Weirdness of 'Dark Energy'_ ([Nov. 14, 2019](https://4gravitons.com/2019/11/15/guest-post-on-the-real-inhomogeneous-universe-and-the-weirdness-of-dark-energy/))
 
-* {#ColinMoymhayeeRamezSarkar19} Jacques Colin, Roya Mohayaee, [[Mohamed Rameez]], [[Subir Sarkar]], _A response to Rubin & Heitlauf: "Is the expansion of the universe accelerating? All signs still point to yes"_ ([arXiv:1912.04257](https://arxiv.org/abs/1912.04257))
+* {#ColinMoymhayeeRamezSarkar19} Jacques Colin, [[Roya Mohayaee]], [[Mohamed Rameez]], [[Subir Sarkar]], _A response to Rubin & Heitlauf: "Is the expansion of the universe accelerating? All signs still point to yes"_ ([arXiv:1912.04257](https://arxiv.org/abs/1912.04257))
 
 
 * {#Lombriser19} Lucas Lombriser, _On the cosmological constant problem_, Phys. Lett. B 797, 134804 (2019) ([arXiv:1901.08588](https://arxiv.org/abs/1901.08588), [doi:10.1016/j.physletb.2019.134804](https://doi.org/10.1016/j.physletb.2019.134804)) 
