@@ -35,6 +35,8 @@ Review:
 
 * Rafe Mazzeo, _The Atiyah-Singer Index theorem: what it is and why you should care_, ([slides](https://docplayer.net/52573131-The-atiyah-singer-index-theorem-what-it-is-and-why-you-should-care-rafe-mazzeo-october-10-2002.html))
 
+* [[Daniel Freed]], _The Atiyah-Singer index theorem_, ([slides](https://web.ma.utexas.edu/users/dafr/cmsa.pdf))
+
 See also 
 
 * Wikipedia, _[Atiyah-Singer index theorem](http://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem)_
