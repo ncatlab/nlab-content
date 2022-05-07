@@ -42,7 +42,9 @@ The trefoil knot is the simplest non-trivial knot.  In its simplest representati
 
 Classifying knots up to isotopy is usually done using [[knot invariant|knot invariants]]. Some of these are simple to define (these tend to be geometric and also tend to be hard to calculate) others are harder to define and to show they are invariants but are easier to calculate. A few are reasonably easy to define and to calculate... Yippee!
 
-It is often useful to consider the domain circle of a knot as being oriented.  This is then represented by putting a directional arrow on diagrams of the knot. Such oriented knots are usually considered up to [[ambient isotopy]] in which the isotopy is orientation preserving. This leads to the idea of [[invertible knot|invertible knots]].  It is also possible to take the [[mirror reflection]] of  knots and thus to introduce the concept of [[achiral knot|achiral knots]].
+It is often useful to consider the domain circle of a knot as being oriented.  This is then represented by putting a directional arrow on diagrams of the knot. Such oriented knots are usually considered up to [[ambient isotopy]] in which the isotopy is orientation preserving. This leads to the idea of [[invertible knot|invertible knots]].  It is also possible to take the [[mirror reflection]] of  knots and thus to introduce the concept of [[knot chirality]], a [[knot invariant]]; Knots that remain equivalent to their mirror images possess a certain symmetry called [[achiral knot|achiral knots]] or equivalently, [[amphicheiral]]. An alternative definition of this notion is the following: 
+A knot $K$ is [[amphicheiral]] if there exists an orientation-reversing [[homeomorphism]] of $R^3$ mapping $K$ to itself. 
+
 
 ## Relevant nLab Pages
 
@@ -104,6 +106,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 
 Expositions:
+
+* Hoste, Thistlethwaite and Weeks, _The First 1,701,936 Knots_, Scientific American, 20, No. 4, 1998. ([link to pdf](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.215.7894))
 
 * [[Aaron Lauda]], _Knot theory explained (1:24 min lightning idea)_,  USC Dornsife College of Letters, Arts and Sciences ([video](https://www.youtube.com/embed/kxaWqKM5JyQ))
 
