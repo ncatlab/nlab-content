@@ -50,7 +50,7 @@ Over the site [[CartSp]], the [[Cech nerve]] of an [[open cover]] becomes split 
 
 ## References
 
-* [[Dan Dugger]], [[Sharon Hollander]], [[Dan Isaksen]], _Hypercovers and simplicial presheaves_ ([arXiv:math.AT/0205027](http://front.math.ucdavis.edu/0205.5027))
+* [[Dan Dugger]], [[Sharon Hollander]], [[Dan Isaksen]], _Hypercovers and simplicial presheaves_ ([arXiv:math.AT/0205027](https://arxiv.org/abs/math/0205027))
 
 
 [[!redirects split hypercovers]]
