@@ -91,11 +91,11 @@ Here
 
 The concept of adiabatic switching in the time direction was introduced in
 
-* {#LippmannSchwinger50} B. A. Lippmann, [[Julian Schwinger]], Phys. Rev. 79, 469 (1950)
+* {#LippmannSchwinger50} B. A. Lippmann, [[Julian Schwinger]], *Variational Principles for Scattering Processes. I*,  Phys. Rev. 79, 469 (1950) ([doi:10.1103/PhysRev.79.469](https://doi.org/10.1103/PhysRev.79.469))
 
 reviewed for instance in
 
-* {#Strocchi13} [[Franco Strocchi]], sectioon 6.3 of _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
+* {#Strocchi13} [[Franco Strocchi]], section 6.3 of _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press, 2013
 
 and the corresponding formula for the interacting eigenstates in terms of the free ones is due to
 
