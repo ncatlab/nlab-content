@@ -8,7 +8,7 @@ In the autumn of 2020, at the kind initiative of [[Brendan Fong]], the nLab deci
 
 \section{Plan}
 
-In March 2020, the nLab made an initial [request for donations](#Donate) to support the running of the nLab, via the Topos Institute. Thank you very much to everyone who donated! The amounts raised should be sufficient to finance the running of the nLab for a number of years, and no further request for donations for this purpose will be made until necessary. It is possible in the future that funds donated to the nLab may be put to the development of the nLab in other ways, but there are no definite plans for this yet.
+In March 2021, the nLab made an initial [request for donations](#Donate) to support the running of the nLab, via the Topos Institute. Thank you very much to everyone who donated! The amounts raised should be sufficient to finance the running of the nLab for a number of years, and no further request for donations for this purpose will be made until necessary. It is possible in the future that funds donated to the nLab may be put to the development of the nLab in other ways, but there are no definite plans for this yet.
 
 \section{Financial overview}
 
@@ -17,7 +17,7 @@ The current state of the nLab finances is as follows. It will be updated regular
 
 | Month | Funds | Income (one-off donations) | Income (monthly donations) | Expenditure|
 |-------|-------| ---------------------------|----------------------------|--------------|
-| March 2020 | 6573 | 6505 | 68 | 0 |
+| March 2021 | 6573 | 6505 | 68 | 0 |
 
 
 \section{Donate!}
