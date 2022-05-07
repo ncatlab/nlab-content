@@ -60,7 +60,11 @@ Complex projective space has the following [[coset space]]-realizations:
 
 ## References
 
-Discussion in the context of the [[twistor fibration]] and with an eye towards [[Yang-Mills theory]]:
+Complex projective 3-space is conceived in the guise as the [[twistor space]] of 4d [[Minkowski spacetime]] in
+
+* {#Penrose67} [[Roger Penrose]], Section VI of: _Twistor algebra_,  Journal of Mathematical Physics 8 (2): 345&#8211;366, (1967) ([doi:10.1063/1.1705200](https://doi.org/10.1063/1.1705200))
+
+Discussion of $\mathbb{C}P^3$ as the [[domain]] of the [[twistor fibration]] and with an eye towards [[Yang-Mills theory]]:
 
 * [[Michael Atiyah]], Section III.1 of: _Geometry of Yang-Mills fields_, Pisa, Italy: Sc. Norm. Sup. (1979) 98 ([spire:150867](https://inspirehep.net/literature/150867))
 
