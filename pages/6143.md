@@ -48,9 +48,11 @@ _[[Kazhdan's property (T)]]_
 
 * [[compact topological group]], [[compact Lie group]]
 
-* [[maximal compact subgroup]]
+* [[maximal compact subgroup]], [[closed subgroup]]
 
 * [[locally compact groupoid]]
+
+* [[coset space coprojections admitting local sections]]
 
 ## References
 
