@@ -178,9 +178,9 @@ $$
 $$
 
 
-### Relation to equivariant homotopy theory
+### Relation to global equivariant homotopy theory
 
-The $G$-orbit category is the [[slice (∞,1)-category]] of the [[global orbit category]] $Orb$ over the [[delooping]] $\mathbf{B}G$:
+The $G$-orbit category is the [[slice (∞,1)-category]] of the [[global orbit category]] $Orb$ (the version with [[faithful functors]] as morphisms) over the [[delooping]] $\mathbf{B}G$:
 
 $$
   Orb_G \simeq Orb_{/\mathbf{B}G}
