@@ -1,9 +1,14 @@
+[[!redirects Yoneda Lemma for higher categories]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Yoneda lemma for higher categories
-#### $(\infty,n)$-Category theory
+#### Yoneda lemma
 +--{: .hide}
+[[!include Yoneda lemma - contents]]
+=--
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
 =--
 =--
 =--
@@ -16,7 +21,14 @@
 
 ## Idea
 
-The statement (not yet proved in general) of the Yoneda Lemma for higher categories should be the direct extension of the [[Yoneda lemma]] for [[categories]] and [[(infinity,1)-categories]] to the setting of other [[higher categories]].
+One expects the [[Yoneda lemma]] to generalize to essentially every flavor of [[higher category theory]]. Various special cases have been (defined and) proven, such as the:
+
+* [[Yoneda lemma for (∞,1)-categories]]
+
+* [[Yoneda lemma for bicategories]]
+
+* [[Yoneda lemma for tricategories]]
+
 
 ## Yoneda embedding 
  {#YonedaEmbedding}
