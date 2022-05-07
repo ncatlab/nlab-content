@@ -23,8 +23,12 @@ By a _diquark_ one refers to a [[bound state]] of two [[constituent quarks]] _in
 
 * [[dilepton]]
 
+* [[hadron supersymmetry]]
 
 ## References
+
+* Mauro Anselmino, Enrico Predazzi, Svante Ekelin, Sverker Fredriksson, [[Don B. Lichtenberg]], *Diquarks*, Rev. Mod. Phys. **65** (1993) 1199 ([doi:10.1103/RevModPhys.65.1199](https://doi.org/10.1103/RevModPhys.65.1199))
+
 
 * Martin Oettel, _Baryons as Relativistic Bound States of Quark and Diquark_ ([arXiv:nucl-th/0012067](https://arxiv.org/abs/nucl-th/0012067), [spire:538966](https://inspirehep.net/literature/538966))
 
