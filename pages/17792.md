@@ -17,7 +17,7 @@
 
 A _finite product_ is a [[product]] ([[Cartesian product]]) of a [[finite number]] of factors.
 
-Finite products are generated from the empty product (the [[terminal object]]) and binary products.
+Finite products are generated from the empty product (the [[terminal object]]) and binary products (those with two factors, often -- but not always -- understood by default under "product".)
 
 Similarly a _finite coproduct_ is a [[coproduct]] of a [[finite number]] of summands. This is generated from the empty coproduct (the [[initial object]]) and binary coproducts.
 
@@ -69,3 +69,8 @@ $$
 
 [[!redirects finite coproduct]]
 [[!redirects finite coproducts]]
+
+[[!redirects binary product]]
+[[!redirects binary products]]
+
+
