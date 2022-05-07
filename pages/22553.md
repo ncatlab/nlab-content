@@ -26,7 +26,9 @@ $$
 
 This code "protects against $n/2-1$ errors" in an evident sense.
 
-More concretely, much attention in [[coding theory]] is on the special lass of *[[linear codes]]*, where $L$ and $P$ carry the structure of [[vector spaces]] (necessarily over a [[finite field]] if they are [[finite sets]] or relevance in practice) and where the inclsion $L \hookrightarrow P$ is a [[linear map]].
+Much attention in [[coding theory]] is instead on the special lass of *[[linear codes]]*, where $L$ and $P$ carry the structure of [[vector spaces]] (necessarily over a [[finite field]] if they are [[finite sets]] of relevance in practice) and where the inclsion $L \hookrightarrow P$ is a [[linear map]].
+
+
 
 ## Examples
 
