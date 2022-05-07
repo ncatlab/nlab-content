@@ -97,7 +97,7 @@ This restricts to the usual strict order $\lt$ on Dedekind reals.  We also have 
 
 For Dedekind reals, the strict ordering is often taken to be the more basic concept, as the weak ordering can be derived from it ($\leq$ is the [[negation]] of $\gt$).  However, this is not so for the MacNeille reals, and the two orderings (weak and strict) exist separately.
 
-They are not entirely unrelated, however; we do have $x \lt z$ whenever $x \lt y \leq z$ or $x \leq y \lt z$.  Also, while neither of $\leq$ and $\gt$ is the negation of the other, they are mutually exclusive, and it is impossible for both to be false.
+They are not entirely unrelated, however; we do have $x \lt z$ whenever $x \lt y \leq z$ or $x \leq y \lt z$.  Also, while neither of $\leq$ and $\gt$ is the negation of the other, they are mutually exclusive, and it is impossible for both to be false.  As such, the pair of relations $({\leq},{\gt})$ makes the MacNeille real numbers into a tight interpretation of the classical theory of [[total orders]] in the [[antithesis interpretation]].
 
 
 ## References
