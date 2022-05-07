@@ -181,7 +181,7 @@ It is this kind of relation which is generalized by the nonabelian Hodge theorem
 
 #### Statement
 
-A quick review of the theorem in ([Simpson 92](#Simpson92)) is for instance in ([Raboso 15, section 1.2](#Raboso15)). An elegant abstract reformulation in terms of [[differential cohesion]]/[[D-geometry]], following ([Simpson 96](#Simpson96)) is in ([Raboso 15, section 3.3.1](#Raboso15)):
+A quick review of the theorem in ([Simpson 92](#Simpson92)) is for instance in ([Raboso 15, section 1.2](#Raboso15)). An elegant abstract reformulation in terms of [[differential cohesion]]/[[D-geometry]], following ([Simpson 96](#Simpson96)) is in ([Raboso 15, section 3.3](#Raboso15)):
 
 Analogous to how the [[de Rham stack]] $\int_{inf} X = X_{dR}$ of $X$ is the ([[homotopy quotient|homotopy]]) [[quotient]] of $X$ by the first order [[infinitesimal neighbourhood]] of the [[diagonal]] in $X \times X$, so there is a space ([[stack]]) $X_{Dol}$ which is the formal completion of the 0-section of the [[tangent bundle]] of $X$ ([Simpson 96](#Simpson96)).
 
