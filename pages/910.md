@@ -167,22 +167,22 @@ The category of compactly generated [[Hausdorff spaces]] is a [[regular category
  {#Homotopy}
 
 \begin{proposition}\label{kIficationIsWeakHomotopyEquivalence}
-  For every [[topological space]] $X$, the canonical [[continuous function]] to its $k$-ification (the [[adjunction unit]]) is a [[weak homotopy equivalence]], hence induces an [[isomorphism]] on all [[homotopy groups]]:
+  For every [[topological space]] $X$, the canonical [[continuous function]] from the $k$-ification (the [[adjunction counit]]) is a [[weak homotopy equivalence]], hence induces an [[isomorphism]] on all [[homotopy groups]]:
 
 $$
-  X
+  k(X)
     \underoverset
       {whe}
       {\;\eta^k_X\;}
       {\longrightarrow}
-  k(X)
+  X
   \,,
   \;\;\;
   \text{i.e.}
   \;\;\;
-  \pi_0(X)
-    \xrightarrow{\;\sim\;}
   \pi_0\big(k(X)\big)
+    \xrightarrow{\;\sim\;}
+  \pi_0(X)
   \,,
   \;\;
   \text{and}  
@@ -193,9 +193,9 @@ $$
     {n \in \mathbb{N}_+}
   }{\forall}
   \Big(
-    \pi_n(X,\,x)   
+    \pi_n\big( k(X),\,x \big)   
       \xrightarrow{\sim}
-    \pi_n\big( k(X),\, x \big)
+    \pi_n(X,\, x)
   \Big)
   \,.
 $$
