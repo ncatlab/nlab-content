@@ -437,8 +437,7 @@ A counterexample due to Muro, Schwede, and Strickland
 constructs a triangulated category that does not arise
 as the [[homotopy category]] of an (∞,1)-category.
 
-[[Triangulated categories]] are a variation on the theme of
-[[homotopy categories]] and suffer from the same set of defects.
+[[triangulated category|Triangulated categories]] are a variation on the theme of [[homotopy categories]] and suffer from the same set of defects.
 In particular, computations with [[homotopy limits]] or [[homotopy colimits]]
 are extremely difficult or impossible beyond the simplest cases.
 
