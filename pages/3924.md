@@ -76,7 +76,7 @@ $$
 
 that satisfy a [[coherence law]] among themselves.
 
-If one thinks of the bicategory as obtained from a [[geometric definition of higher categories|geometrically defined 2-category]] $C$, then the composition opeeration of 1-morphisms is a _choice_ of  2-[[horn]]-fillers and the associator is a _choice_ of filler of the spheres $\partial \Delta[3] \to C$ formed by these. 
+If one thinks of the bicategory as obtained from a [[geometric definition of higher categories|geometrically defined 2-category]] $C$, then the composition operation of 1-morphisms is a _choice_ of  2-[[horn]]-fillers and the associator is a _choice_ of filler of the spheres $\partial \Delta[3] \to C$ formed by these. 
 
 
 ### In monoidal categories
