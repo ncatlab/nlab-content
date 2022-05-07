@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -53,6 +54,8 @@ A [[continuous function]] $i \colon A \longrightarrow X$ is a **Hurewicz cofibra
 * and any [[left homotopy]] $F \colon A\times I\to Y$ such that $F(-,0)=f$ 
 
 there is a homotopy $\tilde{F} \colon X\times I\to Y$ such that 
+
+> (somebody needs to fix the formatting...)
   
 * $\tilde{F}\circ(i\times id_I)=F$ 
 
@@ -103,19 +106,35 @@ A Hurewicz cofibration $i \colon A\to X$ (def. \ref{HurewiczCofibration}) is cal
 
 If $A\subset X$ is closed and the inclusion is a cofibration, then the pair $(X,A)$ is called an [[NDR-pair]].
 
-There is also a version of the definition for [[pointed spaces]].
+
 
 ## Properties
 
 ### Subspace inclusions
  {#Inclusions}
 
-+-- {: .num_prop}
-###### Proposition
 
-A [[topological subspace]] inclusion $A \hookrightarrow X $ is a Hurewicz cofibration precisely if $A \times I \cup X \times \{0\}$ is a [[retract]] of $X\times I$.
+\begin{proposition}\label{CharacterizationViaRetractionOfPushoutProduct}
+  A [[closed subset|closed]] [[topological subspace]]-inclusion $A \xhookrightarrow{\;} X$ is a Hurewicz cofibration precisely if its [[pushout product]] with the endpoint inclusion $\{0\} \xhookrightarrow{\;} [0,1]$ into the [[topological interval]]
+\[
+  \label{PushoutProductMap}
+  X \times \{0\}
+  \cup
+  A \times [0,1]
+  \xrightarrow{\;\;}
+  X \times [0,1]
+\]
+admits a [[retraction]].
+\end{proposition}
+(e.g. [Gutiérrez, Prop. 8.3](#Gutierrez))
 
-=--
+
+\begin{example}\label{KifiedProductsOfCofibrationsWithCompactlyGeneratedSpaces}
+  Let $A \xhookrightarrow{i} X$ be a [[closed subset|closed]] [[topological subspace]]-inclusion of [[compactly generated topological spaces]] which is a Hurewicz cofibration. Then for $Y$ any [[compactly generated topological space]], the [[k-ification|k-ified]] [[product space]]-construction $Y \times A \xhookrightarrow{ id_Y \times i  } Y \times X$ is itself a Hurewicz cofibration.
+\end{example}
+\begin{proof}
+  Since [[compactly generated spaces]] with the k-ified product space construction form a [[cartesian closed category]], the operation $Y \times (-)$ is a [[left adjoint]] and [[left adjoints preserve colimits|hence]] [[preserved colimit|preserves]] the [[pushout]] in (eq:PushoutProductMap). It follows that the retract which exhibits, according to Prop. \ref{CharacterizationViaRetractionOfPushoutProduct}, the cofibration property of $i$, may be extended as a [[constant function]] in $Y$ to yield a retract that exhibits the cofibration property of $Y \times i$.
+\end{proof}
 
 +-- {: .num_cor}
 ###### Corollary
@@ -135,7 +154,17 @@ This is part of the statement of the [[Quillen adjunction]] between then [[class
  {#Closedness}
 
 
-Every Hurewicz cofibration $i$ injective and a [[homeomorphism]] onto its image ([Homotopietheorie](#Homotopietheorie) (1.17)). In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], $i(A)$ is always closed (the same in the category of all [[Hausdorff spaces]]), but in the category [[Top]] of all topological spaces there are pathological counterexamples. 
+\begin{prop}
+Every Hurewicz cofibration $i$ is [[injective function|injective]] and a [[homeomorphism]] onto its image.
+\end{prop}
+
+([Homotopietheorie](#Homotopietheorie) (1.17)). 
+
+\begin{prop}\label{HurewiczCofibrationsInCGWHSpacesAreClosed}
+In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], the image $i(A)$ of a Hurewicz cofibration is always closed (the same in the category of all [[Hausdorff spaces]]), 
+\end{prop}
+
+But in the plain category [[Top]] of all topological spaces there are pathological counterexamples. 
 
 The simplest example (see [Homotopietheorie](#Homotopietheorie)) is the following: let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\emptyset$ are open in $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration (useful exercise!). 
 
@@ -214,11 +243,21 @@ The [[product]] of two closed cofibrations is a closed cofibration.
 
 ## References
 
+Named after *[[Witold Hurewicz]]*.
+
+Original articles:
+
 * [[Dieter Puppe]], _Bemerkungen &#252;ber die Erweiterung von Homotopien_, Arch. Math. (Basel) 18 1967 81--88; MR0206954 (34 #6770) [doi](http://dx.doi.org/10.1007/BF01899475)
 
 * [[Arne Strøm]], _Note on cofibrations_,  Math. Scand.  19  1966 11--14 [file](http://www.mscand.dk/article.php?id=1782) MR0211403 (35 #2284); _Note on cofibrations II_,  Math. Scand.  22  1968 130--142 (1969) [file](http://www.mscand.dk/article.php?id=1867) MR0243525 (39 #4846) 
 
-* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], and [[Dieter Puppe]]. Homotopietheorie. Vol. 157. Springer-Verlag, 1970.
+Textbook accounts:
+
+* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
+Lecture notes:
+
+* {#Gutierrez} [[Javier Gutiérrez]], *Cofibrations*, ([pdf](https://www.math.ru.nl/~gutierrez/files/Lecture08.pdf), [[Gutierrez_Cofibrations.pdf:file]])
 
 The fact that morphisms of fibrant pullback diagrams along closed cofibrations induce closed cofibrations is in
 
