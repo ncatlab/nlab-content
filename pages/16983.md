@@ -43,6 +43,7 @@ These taboos are unprovable in [[homotopy type theory]], even if we assume const
 These taboos are unprovable in constructive homotopy type theory, but they may be provable if we assume a constructive taboo *or* a homotopical taboo.
 
 * [[sets cover]]
+* [[Whitehead's principle]]
 
 ## Related entries
 
