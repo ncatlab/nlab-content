@@ -277,13 +277,14 @@ Another important early reference is
 
 * {#Gray} [[John W. Gray]], _Fibred and Cofibred Categories_ , pp.21-83 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
 
-A concise and didactic introduction to fibrations can be found in ch.12 of 
+Textbook accounts:
 
-* [[Michael Barr]], [[Charles Wells]], _Category Theory for Computing Science_ , Prentice Hall 1995&#179;. ([TAC reprints no.22 (2012)](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html))
+* [[Michael Barr]], [[Charles Wells]], Chapter 12 of: *Category Theory for Computing Science* , Prentice Hall 1995&#179;. ([TAC reprints no.22 (2012)](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html))
 
-More thorough is ch.8 of
+* [[Francis Borceux]], Chapter 8 of: *[[Handbook of Categorical Algebra]] vol. 2*, Cambridge UP 1994.
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] vol. 2_ , Cambridge UP 1994.
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Chapter 9 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
 
 Hermida worked on the 2-category of fibrations and the application of fibrations to computer science. 
 
