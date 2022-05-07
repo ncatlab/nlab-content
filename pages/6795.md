@@ -44,6 +44,9 @@ On [[E11]]-[[exceptional field theory]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
+On [[higher curvature corrections]] in [[heterotic supergravity]]:
+
+* Hao-Yuan Chang, [[Ergin Sezgin]], Yoshiaki Tanii, *Dimensional reduction of higher derivative heterotic supergravity* ([arXiv:2110.13163](https://arxiv.org/abs/2110.13163))
 
 
 
