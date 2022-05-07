@@ -25,6 +25,8 @@
 
 ## Related concepts
 
+* [[principal submatrix]]
+
 * [[Gershgorin circle theorem]]
 
 ## References
