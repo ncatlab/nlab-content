@@ -199,7 +199,7 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[polynomial Poisson algebra]]
 
-
+* [[polynomial function]]
 
 [[!redirects polynomial]]
 [[!redirects polynomials]]
@@ -208,3 +208,6 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 [[!redirects polynomial rings]]
 [[!redirects polynomial algebra]]
 [[!redirects polynomial algebras]]
+
+[[!redirects free commutative algebra]]
+[[!redirects free commutative algebras]]
