@@ -1,13 +1,27 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* automatic table of contents
 {:toc}
 
 
 ## Idea
 
-Sometimes for categories having some fixed property and/or structure, one can produce a recipe which gives (up to suitable equivalence) all the examples (and nothing else). 
+Sometimes for [[categories]] having some fixed [[extra property]] and/or [[extra structure]], one can produce a recipe which gives (up to suitable equivalence) all the examples (and nothing else). 
 
-There are several typical classes of reconstruction theorems (which are all to some extent related).
+There are several typical classes of such *reconstruction theorems* (which are all to some extent related).
 
 ## Tannakian reconstruction theorems 
 
@@ -19,7 +33,7 @@ Examples include the classical Tannaka theorem and Krein theorem, [[Doplicher-Ro
 
 These theorems for schemes (or varieties only) reconstruct a [[scheme]] (variety) out of the category of quasicoherent or only coherent sheaves (or a [[derived category]] version of them). In that class one can find Gabriel--Rosenberg theorem, [[Bondal-Orlov reconstruction theorem]], reconstruction theorems of [P. Balmer](http://www.math.ucla.edu/~balmer) and of [G. Garkusha](http://www-maths.swan.ac.uk/staff/gg) and so on. There is also a class of reconstructions where for some derived categories a realization as derived categories of representation of quivers can be reconstructed.
 
-There is a large class of __abelian reconstruction theorems__, for example the Gabriel--Popescu theorem. In _topos theory_ the __Giraud theorem__ is also a reconstruction theorem (of a site out of a topos, though a nonuniqueness of the resulting site is involved, not affecting cohomology, hence, according to Grothendieck, nonessential). 
+There is a large class of __abelian reconstruction theorems__, for example the [[Gabriel-Popescu theorem]]. In _topos theory_ the __[[Giraud theorem]]__ is also a reconstruction theorem (of a [[site]] out of a [[topos]], though a nonuniqueness of the resulting site is involved, not affecting cohomology, hence, according to Grothendieck, nonessential). 
 
 ## Lawvere's reconstruction theorem
 
@@ -31,10 +45,10 @@ __[[Lawvere's reconstruction theorem]]__ reconstructs a Lawvere theory $C$ from 
 
 ## Heuristics
 
-Typically in the proofs of most reconstruction theorems an implicit use of the  Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. Barr embedding theorem and Freyd--Mitchell embedding theorem. 
+Typically in the proofs of most reconstruction theorems an implicit use of the  Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. [[Barr embedding theorem]] and [[Freyd-Mitchell embedding theorem]]. 
 
 
-##References
+## References
 
 * [[André Joyal]], [[Ross Street]], [An introduction to Tannaka duality and quantum groups](http://www.maths.mq.edu.au/~street/CT90Como.pdf), in Part II of _Category Theory, Proceedings, Como 1990_, eds. A. Carboni, M. C. Pedicchio and G. Rosolini,  Lec. Notes in Mathematics __1488__, Springer, Berlin, 1991, pp. 411&#8211;492 [doi:10.1007/BFb0084207](http://dx.doi.org/10.1007/BFb0084207).
 
