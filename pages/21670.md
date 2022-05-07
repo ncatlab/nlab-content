@@ -28,3 +28,6 @@ Review references
 
 
 category: reference
+
+[[!redirects Methods of Homological Algebra]]
+
