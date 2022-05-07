@@ -58,6 +58,8 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
 ## Related concepts
 
+* [[sigma-complete lattice|$\sigma$-complete lattice]]
+
 * [[complete lattice]]
 
 * [[distributive lattice]]
