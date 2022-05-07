@@ -60,6 +60,7 @@ Any practical quantum computer will be *classically controlled* ([Knill 96](#Kni
     "caption": "From [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07)"
 \end{imagefromfile}
 
+See the list of references [below](#ReferencesClassicallyControlledQuantumComputing).
 
 ### Quantum languages and quantum circuits
 
@@ -183,12 +184,16 @@ Review:
 
 
 ### Classically controlled quantum computing 
+ {#ReferencesClassicallyControlledQuantumComputing}
 
 Theory of classically controlled quantum computing and parameterized quantum circuits:
 
 * {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode*, 1996 ([LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [pdf](https://www.osti.gov/servlets/purl/366453))
 
 * {#Omer03} [[Bernhard Ömer]], *Structured Quantum Programming*, 2003/2009 ([pdf](http://www.itp.tuwien.ac.at/~oemer/doc/structquprog.pdf))
+
+* Simon Perdrix, Philippe Jorrand, *Classically-Controlled Quantum Computation*, Math. Struct. in Comp. Science, 16:601-620, 2006 ([arXiv:quant-ph/0407008](https://arxiv.org/abs/quant-ph/0407008))
+
 
 * {#NagarajanPapanikolaouWilliams07} Rajagopal Nagarajan, Nikolaos Papanikolaou, David Williams, *Simulating and Compiling Code for the Sequential Quantum Random Access Machine*, Electronic Notes in Theoretical Computer Science Volume 170, 6 March 2007, Pages 101-124 ([doi:10.1016/j.entcs.2006.12.014](https://doi.org/10.1016/j.entcs.2006.12.014))
 
