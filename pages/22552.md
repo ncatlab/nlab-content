@@ -2,6 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Categorification
 +-- {: .hide}
 [[!include categorification - contents]]
@@ -55,24 +63,8 @@ A [[transitive relation]] is a magmoid [[enriched category|enriched]] on [[truth
 
 ## Related concepts
 
-* [[oidification]]
-
-  * __magmoid__, [[magma]]
-
-  * [[unital magmoid]], [[unital magma]]
-
-  * [[quasigroupoid]], [[quasigroup]]
-
-  * [[loopoid]], [[loop]]
-
-  * [[semicategory]], [[semigroup]]
-
-  * [[category]], [[monoid]]
-
-  * [[associative quasigroupoid]], [[associative quasigroup]]
-
-  * [[groupoid]], [[group]]
-
 * [[magmoidal category]]
+
+[[!include oidification - table]]
 
 [[!redirects magmoids]]
