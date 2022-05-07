@@ -73,7 +73,7 @@ and
 $$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{1 \otimes e_x}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
 are identity morphisms.  Then $(C, \otimes, I)$ is a cartesian monoidal category (see [this MO question](#dremodaris) for discussion of one of the technical details).
 
-So, suppose $(C, \otimes, 1)$ is a semicartesian monoidal category.  The unique map $e_x : x \to I$ is a [[monoidal natural transformation]].  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.  The converse is also true.
+So, suppose $(C, \otimes, 1)$ is a semicartesian symmetric monoidal category.  The unique map $e_x : x \to I$ is a [[monoidal natural transformation]].  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.  The converse is also true.
 
 The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$, apparently discovered by Robin Houston, is mentioned on page 47 of the slides at:
 
