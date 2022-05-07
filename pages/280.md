@@ -198,6 +198,8 @@ $$act^{*}(x^{*}_2,act(x^{*}_1,y)) = act^{*}(x^{*}_2\cdot x^{*}_1, y) $$
 ## Related concepts
  {#RelatedConcepts}
 
+* [[action object]]
+
 * **action**, [[∞-action]],
 
   * [[conjugation action]], [[adjoint action]]
