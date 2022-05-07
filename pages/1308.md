@@ -134,6 +134,14 @@ Expositions:
 * [[Andrew Stacey]], [animation](https://web.archive.org/web/20150326221729/http://www.math.ntnu.no/~stacey/documents/eckmannhilton.mpg) (mpeg)
 {#Stacey}
 
+
+Formulation in [[homotopy type theory]]:
+
+* [[UF-IAS-2012|Univalent Foundations Project]], Thm. 2.1.6 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* 2013 ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+* [[Kristina Sojakova]], *Syllepsis in Homotopy Type Theory*, 2021 ([[Sojakova_Syllepsis_20210728.pdf:file]])
+
+
 Generalization to [[higher algebra]]/[[higher category theory]] via [[operads]]/[[(∞,1)-operads]]:
 
 * {#Batanin} [[Michael Batanin]], _The Eckmann-Hilton argument and higher operads_ ,  Adv. Math.  217  (2008),  no. 1, 334--385; ([arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281))
