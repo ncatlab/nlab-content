@@ -106,8 +106,10 @@ of $\mu$ cardinals smaller than $\lambda$.
 
 A cardinal $\lambda$ is regular if and only if $\lambda=cof(\lambda)$.
 
-A category has $\lambda$-[[filtered colimits]]
-if and only if it has $cof(\lambda)$-[[filtered colimits]].
+If $\lambda$ is not a [[regular cardinal]],
+then a category has $\lambda$-[[filtered colimits]]
+if and only if it has $\lambda^+$-[[filtered colimits]],
+and $\lambda^+$ is always a [[regular cardinal]] (assuming the [[axiom of choice]]).
 
 A category is locally $\lambda$-presentable
 if and only if it is locally $cof(\lambda)$-presentable.
