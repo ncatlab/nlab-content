@@ -1341,7 +1341,8 @@ Detailed discussion of the injective model structures on simplicial presheaves i
 * {#Jardine96} [[John F. Jardine]], _Boolean localization, in practice_, Documenta Mathematica, Vol. 1 (1996), 245-275 ([documenta:vol-01/13](https://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
   
 
-* [[John F. Jardine]], _[[Local homotopy theory]]_ (2011) ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/book.pdf))
+* [[John F. Jardine]], _[[Local homotopy theory]]_, Springer Monographs in Mathematics, 2015 ([doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7))
+
 
 
 The projective model structure is discussed in
