@@ -450,6 +450,9 @@ The ([[isotopy]] [[equivalence class|class]] of an) [[embedding of differentiabl
 [[!redirects n-sphere]]
 [[!redirects n-spheres]]
 
+[[!redirects d-sphere]]
+[[!redirects d-spheres]]
+
 [[!redirects spheres]]
 
 [[!redirects infinite sphere]]
