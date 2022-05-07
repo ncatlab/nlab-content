@@ -48,7 +48,7 @@ for the [[full subcategory]] of the [[classical homotopy category]]  ([[homotopy
 
 * [[nilpotent space|nilpotent]]: the [[fundamental group]] $\pi_1(X)$ is a [[nilpotent group]] and the higher [[homotopy groups]] are [[nilpotent modules]] over it;
 
-* of rational [[finite type]]: the [[rational cohomology]]-[[cohomology group|groups]] are [[finite number|finite]]-[[dimension|dimensional]], $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$, for all $n \in \mathbb{N}$.
+* rationally [[of finite type]]: the [[rational cohomology]]-[[cohomology group|groups]] are [[finite number|finite]]-[[dimension|dimensional]], $dim_{\mathbb{Q}}\big( H^n(X;,\mathbb{Q}) \big) \lt \infty$, for all $n \in \mathbb{N}$.
 
 and
 
