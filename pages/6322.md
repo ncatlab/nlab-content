@@ -124,12 +124,15 @@ Textbooks:
 
 * [[Robert E. Marshak]], Chapter 5 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
 
-
 * B. L. Ioffe , V. S. Fadin, L. N. Lipatov, _Quantum Chromodynamics -- Perturbative and Nonperturbative Aspects_, Cambridge University Press (2010) ([doi:10.1017/CBO9780511711817](https://doi.org/10.1017/CBO9780511711817))
 
 with emphasis on [[phenomenology]]:
 
 * {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf))
+
+On QCD's [[running coupling constant]]:
+
+* [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
 
 Rigorous construction as a [[perturbative quantum field theory]] via [[causal perturbation theory]] is discussed in
 
