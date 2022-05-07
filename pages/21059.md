@@ -134,7 +134,7 @@ $$
   \big)^{deg}
 $$
 
-hence a [[weight system]] [[horizontal chord diagrams]] closed to [[Sullivan chord diagrams]], these now being the [[multi-trace observables]] on these these) is
+hence a [[weight system]] [[horizontal chord diagrams]] closed to [[Sullivan chord diagrams]], these now being the [[multi-trace observables]] on these) is
 
 \[
   \label{M2M5BraneBoundStateInWeightSystems}
