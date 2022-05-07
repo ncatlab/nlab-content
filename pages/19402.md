@@ -22,9 +22,9 @@
 
 ## Idea
 
-The [[continuous function|continuous]] [[group action]] of a [[topological group]] $G$ is called "proper" if it behaves like the action of a [[compact topological group]] without $G$ necessarily being compact. 
+The [[continuous function|continuous]] [[group action]] of a [[topological group]] $G$ is called "proper" if it behaves like the action of a [[compact topological group]], without $G$ necessarily being compact. 
 
-In particular, the [[isotropy groups]] of a proper action are [[compact topological groups|compact]].
+In particular, the [[isotropy groups]] of a proper action are [[compact topological group|compact]].
 
 
 ## Definition
