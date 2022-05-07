@@ -337,6 +337,11 @@ sign errors in the literature. For both these reasons, we present our calculatio
 
   > (via [[TT deformation]])
 
+Gauged skyrmions with more realistic binding energies:
+
+* [[Josh Cork]], [[Derek Harland]], [[Thomas Winyard]], *A model for gauged skyrmions with low binding energies* ([arXiv:2109.06886](https://arxiv.org/abs/2109.06886))
+
+
 In strong [[magnetic fields]]:
 
 * {#ChenQiuFukushima21} Shi Chen, Zebin Qiu, Kenji Fukushima, *Skyrmions in a magnetic field and $\pi^0$ domain wall formation in dense nuclear matter* ([arXiv:2104.11482](https://arxiv.org/abs/2104.11482))
