@@ -50,9 +50,14 @@ Then consider the [[coset space]] $G/T$ and the $G/T$-[[fiber bundle]] $Y\to X$ 
 
 $$
   \array{
-    Y &\stackrel{(g_1,\cdots, g_n)}{\longrightarrow}& B T & \simeq B U(1)^n 
+    Y 
+      &\stackrel{(g_1,\cdots, g_n)}{\longrightarrow}& 
+    B T 
+      & \simeq B U(1)^n 
     \\
-    \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{B i}}
+    \big\downarrow {}^{\mathrlap{p}} 
+      && 
+    \big\downarrow {}^{\mathrlap{B i}}
     \\
     X &\stackrel{g}{\longrightarrow}& B G
   }
@@ -152,7 +157,7 @@ $$
   \,.
 $$
 
-This case is what is traditionally is often meant by default by the "splitting principle".
+This case is typically the default meaning of the "splitting principle".
 
 For the [[special unitary group]] the situation is the same, only that here the splitting is into a sum of line bundles whose [[tensor product]] is constrained to be [[trivial vector bundle|trivializable]].
 
