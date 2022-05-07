@@ -31,7 +31,7 @@ There are many equivalent ways of characterizing a space $S$ as __Hausdorff__. T
 +-- {: .num_defn #classical}
 ###### Definition
 
-Given points $x$ and $y$ of $S$, if $x \neq y$, then there exist [[open neighbourhoods]] $U$ of $x$ and $V$ of $y$ in $S$ that are [[disjoint subsets|disjoint]]: sutch that their [[intersection]] $U \cap V$ is the [[empty set]] (or explicitly, such that $x' \ne y'$ whenever $x' \in U$ and $y' \in V$).
+Given points $x$ and $y$ of $S$, if $x \neq y$, then there exist [[open neighbourhoods]] $U$ of $x$ and $V$ of $y$ in $S$ that are [[disjoint subsets|disjoint]]: such that their [[intersection]] $U \cap V$ is the [[empty set]] (or explicitly, such that $x' \ne y'$ whenever $x' \in U$ and $y' \in V$).
 =--
 
 That is, any two distinct points can be _separated_ by open neighbourhoods, and it is simply a mundane way of saying that $\ne$ is [[open subset|open]] in the [[product topology]] on $S \times S$.
