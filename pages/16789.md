@@ -739,6 +739,7 @@ Counterexamples (via [[graph complexes]]) to the analogue of the [[Smale conject
 
 * Akio Kawauchi, _Smooth homotopy 4-sphere_ ([arXiv:1911.11904](https://arxiv.org/abs/1911.11904))
 
+* David T. Gay, _Diffeomorphisms of the 4-sphere, Cerf theory and Montesinos twins_ ([arXiv:2102.12890](https://arxiv.org/abs/2102.12890))
 
 ### Branched covers
 
