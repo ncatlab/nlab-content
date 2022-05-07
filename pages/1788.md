@@ -1,4 +1,18 @@
 
+\begin{proposition}\label{ClosedInclusionIntoANRIsANRIffhCofibration}
+  Let $X$ be an [[absolute neighbourhood retract]] (ANR) and $A \xhookrightarrow{i} X$ a [[closed subspace]]-inclusion. Then $i$ is a [[Hurewicz cofibration]] iff $A$ is itself an ANR.
+\end{proposition}
+([Aguilar, Gitler & Prieto 2002, Thm. 4.2.15](#AGP02))
+
+
+\begin{proposition}
+  Let $X$ be a [[paracompact topological space|paracompact]] [[Banach manifold]]. Then the inclusion $A \hookrightarrow X$ of any [[closed subspace|closed]] sub-[[Banach manifolds]] is a [[Hurewicz cofibration]].
+\end{proposition}
+\begin{proof}
+  Being a closed subspace of a paracompact space, $A$ is itself paracompact (by [this Prop.](paracompact+topological+space#ClosedSubspacesOfParacompactsAreParacompact)). But paracompact Banach manifolds are [[absolute neighbourhood retracts]] ([this Prop.](absolute+retract#ParacompactBanachManifoldsAreANRs))
+Therefore the statement follows with Prop. \ref{ClosedInclusionIntoANRIsANRIffhCofibration}.
+\end{proof}
+
 \begin{tikzcd}[row sep=small]
     A 
     \ar[
