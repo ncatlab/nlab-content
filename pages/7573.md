@@ -18,7 +18,9 @@ This is a subentry of _[[sheaf]]_ about the _plus-construction on presheaves_. F
 ## Idea
  {#Idea}
 
-The _plus construction_ $(-)^+ : PSh(C) \to PSh(C)$ on presheaves over a [[site]] $C$ is an operation that replaces a [[presheaf]] via [[local isomorphisms]] first by a [[separated presheaf]] and then by a [[sheaf]].
+The _plus construction_ $(-)^+ : PSh(C) \to PSh(C)$ on presheaves over a [[site]] $C$ is an operation that makes a presheaf "closer" to being a sheaf.
+
+For ordinary sheaves of sets, the plus construction replaces a [[presheaf]] first by a [[separated presheaf]] and then by a [[sheaf]].
 
 $$
   PSh(C) \stackrel{(-)^+}{\to} SepPSh(C)
@@ -26,13 +28,13 @@ $$
   \,.
 $$
 
-Notice that in terms of [[n-truncated]] morphisms, a presheaf is
+(The first of these steps, however, is not a [[reflective subcategory|reflection]] into $SepPsh(C)$.)  Notice that in terms of [[n-truncated]] morphisms, a presheaf is
 
-* separated precisely if every [[descent morphism]] is [[(-1)-truncated]], namely a [[monomorphism]];
+* separated precisely if every comparison map $A(U) \to Desc(A,U)$ to the set of [[descent data]] is [[(-1)-truncated]], namely a [[monomorphism]];
 
-* a sheaf precisely if every [[descent morphism]] is [[(-2)-truncated]], namely an [[equivalence]].
+* a sheaf precisely if every such comparison map is [[(-2)-truncated]], namely an [[equivalence]].
 
-In the context of [[(n,1)-topos]] theory, therefore, the plus-construction is applied $(n+1)$-times in a row. The second but last step makes an [[(infinity,1)-presheaf|(n,1)-presheaf]] into a [[prestack|separated infinity-stack]] and then the last step into an actual [[(infinity,1)-sheaf|(n,1)-sheaf]]. (See [Lurie, section 6.5.3](#Lurie).)
+More generally, in [[(n,1)-topos]] theory, the plus-construction is applied $(n+1)$-times in a row to an [[(n,1)-presheaf]] (a presheaf of $(n-1)$-groupoids), at each step decreasing the truncatedness of the comparison map until at the last step it becomes an actual [[(n,1)-sheaf]].  When $n=\infty$, even a countable sequence of applications does not suffice, but a transfinite one does.
 
 ## Definition
 
@@ -43,7 +45,6 @@ In the context of [[(n,1)-topos]] theory, therefore, the plus-construction is ap
 Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^{op}\to Set$ be a functor. Then the _plus construction (functor)_ $(-)^+ : PSh(C) \to PSh(C)$, resp. the _plus construction_ $A^+$ _of_ $A \in PSh(C)$ is defined by one of following equivalent descriptions:
 
 1. $A^+:U\mapsto colim_{(R\to U)\in J(U)}A(R)$ where $J(U)$ denotes the poset of $J$-covering [[sieve|sieves]] on $U$.
-
 
 1. For $U\in C^{op}$ we define $A^+(U)$ to be an [[equivalence class]] of pairs $(R,s)$ where $R\in J(U)$ and $s=(s_f\in A(dom f)|f\in R)$ is a [[matching family|compatible family]] of elements of $A$ relative to $R$, and $(R,s)\sim (R^\prime,s^\prime)$ iff there is a $J$-covering sieve $\R^{\prime \prime}\subseteq R\cap R^\prime$ on which the restrictions of $s$ and $s^\prime$ agree.
 
