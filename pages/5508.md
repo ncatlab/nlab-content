@@ -170,15 +170,7 @@ This is [[Higher Topos Theory|HTT, example 7.2.1.4]].
 
 ## Related concepts
 
-* [[dimension]]
-
-  * **homotopy dimension**
-
-  * [[cohomological dimension]] 
-
-  * [[covering dimension]]
-
-  * [[Heyting dimension]]
+[[!include notions of dimension -- contents]]
 
 
 ## References
