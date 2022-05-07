@@ -138,6 +138,13 @@ Some examples of terminal objects in notable categories follow:
 
 * [[strict terminal object]]
 
+## References
+
+Textbook account:
+
+* [[Francis Borceux]], Section 2.3 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+
 
 [[!redirects terminator]]
 [[!redirects terminal object]]
