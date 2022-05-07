@@ -94,7 +94,7 @@ the Reedy model structure, having the same weak equivalences as the [[global mod
 
 * If $R$ admits more than one structure of Reedy category, then $C^R$ will have more than one Reedy model structure.  For instance, if $R = (\cdot\to\cdot)$ is the [[walking arrow]], then we can regard it as either the ordinal $2$ or its opposite $2^{op}$, resulting in two different Reedy model structures on $C^2$.
 
-* For a general Reedy category $R$, the diagonal functor $C\to C^R$ need not be either a right or a left [[Quillen adjunction|Quillen functor]] (although, of course, it has left and right adjoints given by colimits and limits over $R$).  One can, however, characterize those Reedy categories for which one or the other is the case, and in this case one can construct [[homotopy limit|homotopy limits]] and colimits using the derived functors of these Quillen adjunctions.
+* For a general Reedy category $R$, the diagonal functor $\Delta : C\to C^R$ need not be either a right or a left [[Quillen adjunction|Quillen functor]] (although, of course, it has left and right adjoints given by colimits and limits over $R$).  $\Delta$ is a left Quillen functor if and only if for all objects $r$, the category $r / R_-$ is either connected or empty.  Dually, $\Delta$ is a right Quillen functor if and only if for all objects $r$, the category $R_+ / r$ is empty or connected.  In these cases, one can construct [[homotopy limit|homotopy limits]] and colimits using the derived functors of the Quillen adjunctions $\mathrm{colim} \dashv \Delta \dashv \mathrm{lim}$.
 
 ## Properties 
   {#Properties}
