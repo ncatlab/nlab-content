@@ -162,9 +162,12 @@ Discussion in [[equivariant homotopy theory]]:
 * Paolo Masulli, _Equivariant homotopy: $KR$-theory_, Master thesis (2011) ([pdf](http://www.math.ku.dk/~jg/students/masulli.msthesis.2011.pdf), [[MasulliKRTheory2011.pdf:file]])
 
 
-Computations over [[compact Lie groups]] are spelled out in
+Computations over [[compact Lie groups]] in the context of [[twisted ad-equivariant K-theory]]:
 
-* Chi-Kwong Fok, _The real K-Theory of compact Lie groups_, 2014 ([pdf](http://pi.math.cornell.edu/~ckfok/Chi_Kwong_Fok_thesis.pdf))
+* [[Chi-Kwong Fok]], *The Real K-theory of compact Lie groups*, SIGMA 10 (2014), 022, ([arXiv:1308.3871](https://arxiv.org/abs/1308.3871), [doi:10.3842/SIGMA.2014.022](https://doi.org/10.3842/SIGMA.2014.022))
+
+* [[Chi-Kwong Fok]], *Equivariant twisted Real K-theory of compact Lie groups*,   Journal of Geometry and Physics 124 (2018) 325-349 ([arXiv:1503.00957](https://arxiv.org/abs/1503.00957), [doi:10.1016/j.geomphys.2017.11.013](https://doi.org/10.1016/j.geomphys.2017.11.013))
+
 
 Discussion in the general context of [[real oriented cohomology theory]] is in 
 
