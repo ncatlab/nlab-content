@@ -119,6 +119,10 @@ along with synopsises, in English, of many sections at
 
 * [[Mark Haiman]], [English synopsises of most of EGA I and II](https://math.berkeley.edu/~mhaiman/math256-fall18-spring19/#ega)
 
+There is an ongoing open-source project to translate EGA into English:
+
+* [English translation of EGA I, and partial translations of the rest](https://github.com/ryankeleti/ega)
+
 Daniel Murfet has written notes for parts of EGA, see
 
 * [[Daniel Murfet]], [The Rising Sea](http://therisingsea.org/?page_id=3)
