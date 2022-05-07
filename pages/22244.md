@@ -30,3 +30,5 @@ where all [[morphisms]] are (represented by) $G$-[[equivariant functions]], the 
 * [[structure group]], [[gauge group]]
 
 * [[equivariant bundle]]
+
+[[!redirects equivariance groups]]
