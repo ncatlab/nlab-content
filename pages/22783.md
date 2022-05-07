@@ -173,11 +173,18 @@ For $G$ a [[simplicial group]], its *standard simplicial classifying complex* is
   \,.
 \]
 
-The corresponding quotient [[coprojection]]
+The corresponding quotient [[coprojection]], whose [[fiber]] is, manifestly, $G$
 
-$$
-  W G \longrightarrow \overline{W} G
-$$
+\[
+  \label{TheUniversalSimplicialPrincipalBundle}
+  \array{
+    G &\xhookrightarrow{fib}& W G
+    \\
+    && \big\downarrow
+    \\
+    && \overline{W} G
+  }
+\]
 
 is known as the standard model for the simplicial $G$-[[universal principal bundle]] (see [below](#ClassificationOfSimplicialPrincipalBundles)).
 
@@ -638,18 +645,65 @@ This follows as the combination of the following facts:
 
 \end{proof}
 
-\begin{prop}
+\begin{prop}\label{UniversalSimplicialPrincipalBundleIsKanFibration}
   The coprojection $W G \overset{}{\longrightarrow} \overline{W}G$
   is a [[Kan fibration]].
 \end{prop}
 (e.g [Goerss & Jardine 09, Sec. V Lemma 4.1 (p. 270)](#GoerssJardine09))
 
-\begin{prop}
+\begin{prop}\label{UniversalPrincipalSimplicialComplexIsContractible}
   The simplicial set $W G$ is [[contractible]].
 \end{prop}
-(e.g [Goerss & Jardine 09, Sec. V Lemma 4.6 (p. 270)](#GoerssJardine09))
+(e.g [Goerss & Jardine 09, Sec. V Lemma 4.6 (p. 270)](#GoerssJardine09), see also the discussion at *[[décalage]]*)
 
+\begin{prop}\label{HomotopyGroupsOfBarWG}
+  The [[simplicial homotopy groups]] of $\overline{W} G$ are those of $G$, shifted up in degree by one:
 
+$$
+  \pi_n(G) \;\simeq\; \pi_{n+1}\big(\overline{W}(G)\big)
+  \,.
+$$
+\end{prop}
+\begin{proof}
+  By Prop. \ref{UniversalSimplicialPrincipalBundleIsKanFibration} the [[universal simplicial principal bundle]] (eq:TheUniversalSimplicialPrincipalBundle) is a [[Kan fibration]] between [[Kan complexes]] (by Prop. \ref{SimplicialClassifyingSpaces} and [this Prop.](simplicial+group#EverySimplicialGroupIsAKanComplex)). Therefore this is a [[homotopy fiber sequence]] (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback))
+$$
+  G
+  \xrightarrow{hofib}
+  W G
+  \xrightarrow{\;\;q\;\;}
+  \overline{W}G
+  \,.
+$$
+This implies a [[long exact sequence of homotopy groups]] of the form
+$$  
+  \cdots
+  \xrightarrow{\;}
+  \pi_{n+1}(W G)
+  \xrightarrow{\;\;}
+  \pi_{n+1}(\overline{W}G)
+  \xrightarrow{\;\;}
+  \pi_n(G)
+  \xrightarrow{\;\;}
+  \pi_n(W G)
+  \xrightarrow{\;}
+  \cdots
+  \,.
+$$
+But Prop. \ref{UniversalPrincipalSimplicialComplexIsContractible} says that 
+$\pi_n(W G)$ is [[trivial group|trivial]] for all $n$, so that this collapses to [[short exact sequences]]:
+
+$$
+  0
+  \xrightarrow{\;\;}
+  \pi_{n+1}(\overline{W}G)
+  \xrightarrow{\;\simeq\;}
+  \pi_n(G)
+  \xrightarrow{\;\;}
+  0
+$$
+which exhibit the claim to be proven.
+
+\end{proof}
 
 ### Classification of simplicial principal bundles 
  {#ClassificationOfSimplicialPrincipalBundles}
