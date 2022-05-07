@@ -141,6 +141,8 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 * [[Brown representability theorem]]
 
+* [[Yoneda Lemma for higher categories]]
+
 ## References
 
 * {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_
