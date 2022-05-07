@@ -43,8 +43,11 @@ Diffeological groups were intoduced in
 
 * {#Souriau84} [[Jean-Marie Souriau]], _Groupes différentiels et physique mathématique_,  In: Denardo G., Ghirardi G., Weber T. (eds.) Group Theoretical Methods in Physics. Lecture Notes in Physics, vol 201. Springer 1984 ([doi:10.1007/BFb0016198](https://doi.org/10.1007/BFb0016198))
 
-
 motivated by the examples appearing in [[geometric quantization]], such as the (Hamiltonian) [[diffeomorphism group]] and its [[quantomorphism group]] extension.
+
+Textbook account:
+
+* {#PIZ} [[Patrick Iglesias-Zemmour]], Chapter 7 of: _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
 
 
 [[!redirects diffeological groupoid]]
