@@ -122,6 +122,7 @@ While measure theory only gets more complicated in constructive mathematics, it 
 
 * [[measurable locale]]
 
+* [[noncommutative measurable space]]
 
 ## References
 
