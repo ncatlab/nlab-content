@@ -134,7 +134,7 @@ recalled for instance in
 
 * Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
 
-Review also in:
+Exposition also in:
 
 * [[Jakob Schwichtenberg]], *[divergence-perturbation-series-qft](http://jakobschwichtenberg.com/divergence-perturbation-series-qft)*
 
