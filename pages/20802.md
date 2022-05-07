@@ -31,7 +31,7 @@ $$
 
 The study of [[Yang-Mills theory]] in the [[large N limit]] but at fixed ’t Hooft coupling controls the [[AdS/CFT correspondence]]:
 
-[[large N limit]] $N_c \to \infty$ at fixed [['t Hooft coupling]] $\lambda = g_{YM}^2 N_c$
+[[large N limit]] $\;N_c \to \infty$ at fixed [['t Hooft coupling]] $\lambda = g_{YM}^2 N_c$
 
 
 | $\lambda \lt 1$ | $\lambda \gt 1$ |
