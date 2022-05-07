@@ -58,7 +58,7 @@ With [[Bott periodicity]] 8.
 
 The [[differential K-theory]] for KO is discussed in
 
-* {#GradySati18} Daniel Grady, [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
+* {#GradySati18} [[Daniel Grady]], [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_ ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059))
 
 The full [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] is discussed in
 
