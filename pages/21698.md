@@ -23,7 +23,10 @@
 
 ### General
 
-The construction of [[algebraic K-theory]] $K(R)$, originally defined for [[rings]] $R$, generalizes to [[ring spectra]]. But algebraic K-theory is itself [[Brown representability theorem|represented]] by a ring spectrum, so that this construction may then be iterated to yield _iterated algebraic K-theories_ $K(K(R))$, $K(K(K(R)))$, etc.
+The construction of [[algebraic K-theory]] $K(R)$, originally defined for [[rings]] $R$, generalizes to [[A-∞ ring|$A_\infty$]]-[[ring spectra]]. 
+When $R$ happens to be a [[connective spectrum|connective]] [[E-infinity ring|$E_\infty$]]-[[ring spectrum]], then also the [[Brown representability theorem|representing spectrum]] $K(R)$ of its algebraic K-theory is a [[connective spectrum|connective]] [[E-infinity ring|$E_\infty$]]-[[ring spectrum]]
+([Schwänzl & Vogt 1994, Thm. 1](#SchwaenzlVogt94), [EKMM 1997, Thm. 6.1](#EKMM97)) so that this construction may then be iterated to yield _iterated algebraic K-theories_ $K(K(R))$, $K(K(K(R)))$, etc.
+
 
 The [[red-shift conjecture]] says that this iteration plays a special role in [[chromatic homotopy theory]].
 
@@ -43,7 +46,10 @@ The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-
 
 ### Algebraic K-theory of ring spectra
 
-On the [[algebraic K-theory]] of [[ring spectra]]:
+On the [[algebraic K-theory]] of ([[connective spectrum|connective]]) [[ring spectra]]:
+
+* {#SchwaenzlVogt94} [[Roland Schwänzl]], [[Rainer Vogt]], *Basic Constructions in the K-Theory of Homotopy Ring Spaces*, Transactions of the American Mathematical Society, Vol. 341, No. 2 (Feb., 1994), pp. 549-584 ([jstor:2154572](https://www.jstor.org/stable/2154572), [doi:10.2307/2154572](https://doi.org/10.2307/2154572))
+
 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], chapter VI of _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
