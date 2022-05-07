@@ -106,7 +106,12 @@ The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
 ([Quillen 67, II.4, pages II.4.11, II.4.12](#Quillen67)).
 See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06), [Dungan 10, 2.4.2, proof in section 2.5](#Dungan10)).
 
-{#MonoidalModelStructureOnConnectiveChainComplexes} With respect to the degreewise [[tensor product of chain complexes]] this is a [[monoidal model category]] ([Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
+
+\begin{proposition}
+\label{ProjectiveModelStructureOnConnectiveChainComplexesIsMonoidal}
+{#MonoidalModelStructureOnConnectiveChainComplexes} With respect to the degreewise [[tensor product of chain complexes]] this is a [[monoidal model category]].
+\end{proposition}
+([Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
 
 
 ##### Injective structure on cochain complexes
@@ -1094,15 +1099,15 @@ See also
 
 * [[Dan Christensen]], _Derived categories and projective classes_ , (2005) ([hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Christensen/derived))
 
-Another approach is due to [[James Gillespie]], using [[cotorsion pairs]].  An overview of this work is in
+Another approach is due to James Gillespie, using [[cotorsion pairs]].  An overview of this work is in
 
 * [[Mark Hovey]], _Cotorsion pairs and model categories_, 2006 ([pdf](http://homepages.math.uic.edu/~bshipley/hovey.pdf))
 {#HoveyOverview}
 
 Some generalizations and simplifications of the original approach are discussed in
 
-* [[James Gillespie]], _Kaplansky classes and derived categories_, 2007, [pdf](http://phobos.ramapo.edu/~jgillesp/updated%20qcsheaf.pdf)
-{#Gillespie}
+* {#Gillespie} James Gillespie, _Kaplansky classes and derived categories_, 2007, [pdf](http://phobos.ramapo.edu/~jgillesp/updated%20qcsheaf.pdf)
+
 
 Finally a third approach to the unbounded case is discussed in
 
