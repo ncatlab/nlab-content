@@ -187,7 +187,7 @@ Theorem \ref{AdameksTheorem} applies (in particular) to any functor $F: Set \to 
   $$T = 1 + T^2$$ 
   would seem to imply that the structure $T$ behaves something like a structural "sixth root of unity", and indeed the structural isomorphism $T \cong F(T)$ allows one to exhibit an isomorphism 
   $$T = T^7$$ 
-  constructively, as famously explored by Andreas Blass in the paper "[[Seven trees in one]]". 
+  constructively, as famously explored by Andreas Blass in the paper "[Seven trees in one](#BlassSeven)". 
 
 
 * Let $F: Set \to Set$ be the functor $F(X) = X^*$ (the free monoid from an earlier example). Then the initial $F$-algebra is the set of isomorphism classes of finite planar rooted [[trees]] (not necessarily binary as in the previous example). 
@@ -207,6 +207,7 @@ Theorem \ref{AdameksTheorem} applies (in particular) to any functor $F: Set \to 
 
 
 ## References
+* {#BlassSeven} [[Andreas Blass]], _Seven Trees in One_ ([arXiv:9405205](https://arxiv.org/abs/math/9405205))
 
 A textbook account of the basic theory is in [Chapter 10](http://www.andrew.cmu.edu/course/80-413-713/notes/chap10.pdf) of
 
