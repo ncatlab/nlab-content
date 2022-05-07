@@ -951,7 +951,7 @@ Relation to [[Goodwillie calculus]]:
 
 * {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819))
 
-Two further examples of tangent $(\infty,1)$-categories, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]]:
+Two further examples of [[tangent structure on an (infinity,1)-category]], on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]]:
 
 * [[Michael Ching]], _Dual tangent structures for infinity-toposes_, ([arXiv:2101.08805](https://arxiv.org/abs/2101.08805))
 
