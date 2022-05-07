@@ -79,10 +79,51 @@ $$
 
 
 ### Hook-content formula
+ {#HookContentFormula}
 
-See at *[[hook content formula]]*
+The *[[hook-content formula]]* expresses the number of semistandard Young-Tableau $T$ with
 
+1. shape $\lambda = (\lambda_1 \geq \cdots \geq \lambda_i)$ (a [[partition]]),
 
+1. labels in $\{1, \cdots, N\}$,
+
+1. sum of labels $\sum_{i,j} T_{i,j}$ 
+
+through the following identification of the *generating function* for numbers of semistandard Young tableaux (ssYT) as a [[polynomial]] in a [[variable]] $q$:
+
+$$
+  \underset{
+    T \in ssYT_\lambda(N)
+  }{\sum}
+  q^{ \sum_{i,j} T_{i,j} }
+  \;\;=\;\;
+  q^{ \sum_i i \cdot \lambda_i }
+  \underset{
+    { i \in \{1, \cdots, rows(\lambda)\} }
+    \atop
+    {j \in \{1, \cdots, \lambda_j\}}
+  }{\prod}
+  \frac{
+    1 - q^{N + content(i,j)}
+  }{
+    1 - q^{\ell hook(i,j)}
+  }
+  \,,
+$$
+
+where 
+
+$$
+  content(i,j) \;\coloneqq\; j - 1
+  \,,
+  {\phantom{AAAA}}
+  \ell hook(i,j) 
+  \;=\;
+  \text{length of hook at (i,j)th box}
+  \,.
+$$
+
+See at *[[hook-content formula]]* for more.
 
 ## References
 
