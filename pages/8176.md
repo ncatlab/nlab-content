@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Homological algebra
 +--{: .hide}
 [[!include homological algebra - contents]]
@@ -102,7 +106,7 @@ $$
   \,.
 $$
 
-(e.g. [Kochmann 96, theorem 2.6.3](#Kochmann96), [Davis 91, theorem 9.34](#Davis91))
+(e.g. [Kochman 96, theorem 2.6.3](#Kochman96), [Davis 91, theorem 9.34](#Davis91))
 
 ### In equivariant cohomology
 
@@ -145,7 +149,7 @@ Textbook accounts include
 
 * [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _I: The Serre spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch1.pdf))
 
-* {#Kochmann96} [[Stanley Kochmann]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Davis91} Davis, _Lecture notes in algebraic topology_, 1991
 
