@@ -19,10 +19,15 @@ On [[topological quantum computation]] with [[anyons]] in [[Chern-Simons theory]
 
 * [[Eric Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
+On [[entanglement entropy]] as a characteristic of [[topological phases of matter]]:
+
+* Hong-Chen Jiang, [[Zhenghan Wang]], Leon Balents, *Identifying Topological Order by Entanglement Entropy*, Nature Physics 8, 902-905 (2012) ([arXiv:1205.4289](https://arxiv.org/abs/1205.4289))
+
 
 Introducing the [[4d TQFT]] [[Walker-Wang model]]:
 
 * [[Kevin Walker]], [[Zhenghan Wang]], _(3+1)-TQFTs and Topological Insulators_, Frontiers of Physics volume 7, pages 150–159 (2012) ([arXiv:1104.2632](http://arxiv.org/abs/1104.2632), [doi:10.1007/s11467-011-0194-z](https://doi.org/10.1007/s11467-011-0194-z))
+
 
 
 ## Related entries
