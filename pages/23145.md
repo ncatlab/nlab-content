@@ -59,6 +59,8 @@ has zero norm under that metric.
 
 The largest [[Mathieu group]], $M_{24}$, is the [[automorphism group]] of a [[Steiner system]] containing 24 blocks. $M_{24}$ is also the automorphism group of the [[binary Golay code]], an [[abelian group]] which is a 12-dimensional subspace of the [[vector space]] $\mathbb{F}_2^{24}$.
 
+The binary Golay code can be used to construct the Leech lattice. Essentially, each codeword defines a point in 24-dimensional space, and we can fill in and build out this set. In more detail: Let $c$ be a Golay codeword, scale it by a factor 2, and add either $4x$, where $x$ is a vector in $\mathbb{Z}^{24}$ whose components sum to an even number, or $1 + 4y$ where $y \in \mathbb{Z}^{24}$ and its components sum to an odd number.
+
 ### 24-cell and the binary tetrahedral group
 
 The [[24-cell]] is a four-dimensional [[regular polytope]] with 24 vertices. Interpreting these vertices as [[quaternion]]s, they form a [[group]] under quaternion multiplication, and this group is [[isomorphism|isomorphic]] to the [[binary tetrahedral group]].
@@ -106,3 +108,5 @@ Families of two-dimensional [[conformal field theory|conformal field theories]],
 * [[Terry Gannon]], section 2.5.1 of: *Moonshine Beyond the Monster* Cambridge University Press, 2006  ([doi:10.1017/CBO9780511535116](https://doi.org/10.1017/CBO9780511535116))
 
 * [Bernoulli Numbers and the J-homomorphism](https://golem.ph.utexas.edu/category/2020/12/bernoulli_numbers_and_the_jhom.html) at the $n$-Category Café
+
+* Sloane, N. J. (1980). A note on the Leech lattice as a code for the Gaussian channel. Information and Control, 46(3), 270--272.
