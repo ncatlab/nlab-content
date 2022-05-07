@@ -26,7 +26,7 @@ Johan van Benthem proposed ([JvB](#JvB)) such a treatment for a certain [[type t
 
 * John MacFarlane, _Logical Constants:Permutation invariance_, [SEP](http://plato.stanford.edu/entries/logical-constants/#PerInv)
 
-* F. I. Mautner, _An Extension of Klein's Erlanger Program: Logic as Invariant-Theory_, American Journal of Mathematics, Vol. 68, No. 3 (Jul., 1946), pp. 345-384 (based on [[Hermann Weyl]]'s formulation of the program in _Classical Groups_, pp. 13-18)
+* F. I. Mautner, _An Extension of Klein's Erlanger Program: Logic as Invariant-Theory_, American Journal of Mathematics, Vol. 68, No. 3 (Jul., 1946), pp. 345-384 (based on [[Hermann Weyl]]'s formulation of the program in _Classical Groups_, pp. 13-18) ([JSTOR](https://www.jstor.org/stable/2371821)).
 
 * {#Ln} [[Alfred Tarski]], 1986, _What are Logical Notions?_, History and Philosophy of Logic, 7: 143&#8211;154. (Transcript of a 1966 talk, ed. J. Corcoran.) doi:[10.1080/01445348608837096](http://dx.doi.org/10.1080/01445348608837096)
 
