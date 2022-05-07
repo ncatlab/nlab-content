@@ -305,7 +305,7 @@ Further early discussions (aimed at [[simplicial homotopy theory]]):
 
 * [[Pierre Gabriel]], [[Michel Zisman]], *[[Calculus of fractions and homotopy theory]]*
 
-* [[J. Peter May]], _Simplicial objects in algebraic topology_, Van Nostrand Mathematical Studies 11 (1967).
+* [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
 *  [[Edward B. Curtis]], _Simplicial homotopy theory_, Advances in Mathematics 6 (1971) 107–209 (<a href="https://doi.org/10.1016/0001-8708(71)90015-6">doi:10.1016/0001-8708(71)90015-6</a>, [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808))
 
