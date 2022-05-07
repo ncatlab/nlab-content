@@ -32,7 +32,7 @@ There are many different notations used in the literature for the bidirectional 
 
 ### General
 
-* Joshua Dunfield, Neel Krishnaswami, *Bidirectional Typing* (Survey), 2019, ([pdf](https://www.cl.cam.ac.uk/~nk480/bidir-survey.pdf))
+* Jana Dunfield, Neel Krishnaswami, *Bidirectional Typing* (Survey), 2019, ([pdf](https://www.cl.cam.ac.uk/~nk480/bidir-survey.pdf))
 
 * Pierce, B. C., Turner, D. N.: _Local Type Inference_, ACM SIGPLAN–SIGACT Symposium on Principles of Programming Languages (POPL), San Diego, California, 1998, Full version in ACM Transactions on Programming Languages and Systems (TOPLAS), 22(1), January 2000, pp. 1–44, ([pdf](http://www.cis.upenn.edu/~bcpierce/papers/lti-toplas.pdf)).  This is usually cited as the "original" paper on bidirectional typechecking.
 
@@ -64,13 +64,13 @@ There are many different notations used in the literature for the bidirectional 
 
 * Rowan Davies and Frank Pfenning. *Intersection types and computational effects*. In P. Wadler, editor, Proceedings of the Fifth International Conference on Functional Programming (ICFP'00), pages 198-208, Montreal, Canada, September 2000. ACM Press. [pdf](http://www.cs.cmu.edu/~fp/papers/icfp00.pdf)
 
-* Joshua Dunfield and Frank Pfenning. *Tridirectional typechecking*. In X.Leroy, editor, Conference Record of the 31st Annual Symposium on Principles of Programming Languages (POPL'04), pages 281-292, Venice, Italy, January 2004. ACM Press. Extended version available as Technical Report CMU-CS-04-117, March 2004. [pdf](http://www.cs.cmu.edu/~fp/papers/popl04.pdf)
+* Jana Dunfield and Frank Pfenning. *Tridirectional typechecking*. In X.Leroy, editor, Conference Record of the 31st Annual Symposium on Principles of Programming Languages (POPL'04), pages 281-292, Venice, Italy, January 2004. ACM Press. Extended version available as Technical Report CMU-CS-04-117, March 2004. [pdf](http://www.cs.cmu.edu/~fp/papers/popl04.pdf)
 
-* Joshua Dunfield, Neelakantan R. Krishnaswami, *Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism*, 2013, [arxiv](https://arxiv.org/abs/1306.6032)
+* Jana Dunfield, Neelakantan R. Krishnaswami, *Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism*, 2013, [arxiv](https://arxiv.org/abs/1306.6032)
 
 * Francisco Ferreira and Brigitte Pientka, *Bidirectional Elaboration of Dependently Typed Programs*, 2014, [pdf](https://www.cs.mcgill.ca/~fferre8/papers/BidirectionalElaboration.pdf).  Despite the name, this paper is not about full [[dependent type theory]] but only has one level of dependency.
 
-* Joshua Dunfield, Neelakantan R. Krishnaswami, *Sound and Complete Bidirectional Typechecking for Higher-Rank Polymorphism with Existentials and Indexed Types*, 2016, [arxiv](https://arxiv.org/abs/1601.05106)
+* Jana Dunfield, Neelakantan R. Krishnaswami, *Sound and Complete Bidirectional Typechecking for Higher-Rank Polymorphism with Existentials and Indexed Types*, 2016, [arxiv](https://arxiv.org/abs/1601.05106)
 
 [[!redirects bidirectional type checking]]
 [[!redirects bidirectional type-checking]]
