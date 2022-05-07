@@ -9,15 +9,13 @@
 =--
 =--
 
-
-
 # Meros
 * this block creates the table of contents, leave as is
 {: toc}
 
 ## Idea
 
-The concept of **meros** (plural **meroi** or **meroses**) is a [[relation|relational]] analogue of that of a *[[topos]]*; where the [[morphisms]] in a topos are like [[functions]], the morphisms in a meros are like [[relations]]. Like [[Set]] is the canonical [[base topos]], to [[Rel]] is the archetypical meros. More generally, like topoi provide a context for generalized [[constructive set theory]] so meroi provide a context for generalized [[relational set theory]]. 
+The concept of **meros** (plural **meroi** or **meroses**) is a [[relation|relational]] analogue of that of a *[[topos]]*; where the [[morphisms]] in a topos are like [[functions]], the morphisms in a meros are like [[relations]]. Like [[Set]] is the canonical [[base topos]], so [[Rel]] is the archetypical meros. More generally, like topoi provide a context for generalized [[constructive set theory]], so meroi provide a context for generalized [[relational set theory]]. 
 
 Where the [[boolean]] [[truth values]] of [[set theory]] are identified/generalized to [[elements]] of the [[subobject classifier]] of a topos, a meros instead represents Boolean values as degrees of inclusion between relations: between any two objects, there is a false relation (a [[zero morphism]]) and a true relation.
 
@@ -130,6 +128,7 @@ A *meros* is an I-category (Def. \ref{ICategory}) where:
 
 \end{defn}
 
+
 ## Properties
 
 \begin{prop} \label{Zero relations}
@@ -170,4 +169,6 @@ The notion of meroi was introduced in:
 * {#Kawahara95} [[Kawahara Yasuo]], _Relational Set Theory_, in Proceedings of the 6th International Conference on Category Theory and Computer Science, 1995 ([doi:10.1007/3-540-60164-3_19](http://dx.doi.org/10.1007/3-540-60164-3_19), [pdf](https://www.researchgate.net/profile/Yasuo-Kawahara/publication/226561376_Relational_set_theory/links/569f960908ae21a564270542/Relational-set-theory.pdf))
 
 
+[[!redirects meros]]
 [[!redirects meroi]]
+[[!redirects meroses]]
