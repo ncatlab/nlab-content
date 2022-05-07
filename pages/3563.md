@@ -95,6 +95,7 @@ One then proves equality of partial functions $(\lambda x. t)(a) = t[a/x]$, by i
 [Hofstra](#Hofstra) _defines_ a PCA to be a functionally complete partial applicative structure. This is an unbiased definition, in the sense that it does not privilege certain elements $k$, $s$ (or, for that matter, any other system of combinators that provide functional completeness). 
 
 ### Examples of combinators
+ {#ExamplesOfCombinators}
 
 1. Let us check that $s k k$ indeed represents the identity function $I$. This is trivial: we have, for any $a \in A$, equalities between defined terms 
 $$s k k a = (k a)(k a) = a.$$
