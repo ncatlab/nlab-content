@@ -41,3 +41,4 @@ Viewed in terms of [[general topology]], it would be hard to sell the shrinking 
 * [[Warsaw circle]]
 
 [[!redirects Hawaiian earring spaces]]
+[[!redirects Hawaiian earring space]] 
