@@ -144,10 +144,6 @@ and __additive [[disjunction]]__ is defined as
 
 $$a \vee b \coloneqq a \oplus (a^\bullet \otimes b)$$
 
-## Properties
-
-Every minor scale with $\bot = \top$ is [[trivial object|trivial]]. 
-
 Let the binary operation $(-)\vartriangleleft(-):M\times M\to M$ be defined as 
 
 $$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\oplus b)^\wedge$$
@@ -158,23 +154,57 @@ $$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\otimes b)^\vee$$
 
 The [[currying]] of $\vartriangleleft$ results in a __dilatation__ $(-)\vartriangleleft:M\to (M\to M)$. For every element $a$ in $M$, dilatation at $a$ is a [[retraction]] of contraction at $a$: $(a\vartriangleleft) \circ (a\vert) = id_M$, where $id_M$ is the [[identity function]] on $M$. 
 
-$\bot$ is a [[fixed point]] of $(-)^\vee$ and $\top$ is a fixed point of $(-)^\wedge$. 
+## Additional possible equational axioms
 
-As a minor scale is a [[closed midpoint algebra]], a minor scale has a [[partial order]] $\leq$. If $a \leq b$, then $a \multimap b = \top$. 
+Here is a list of possible equational axioms that a minor scale might satisfy: 
 
-## Additional possible axioms
+* the __scale identities__: for all $a$ and $b$ in $M$, 
 
-A minor scale satisfies the __axiom of balance__ if for all $a$ and $b$ in $M$,
+$$a \otimes b = (a^\vee \otimes b^\wedge) \vert (a^\wedge \otimes b^\vee)$$
+
+$$a \oplus b = (a^\wedge \oplus b^\vee) \vert (a^\vee \oplus b^\wedge)$$
+
+* $\top$ is a [[fixed point]] of $(-)^\vee$. 
+
+* $\bot$ is a fixed point of $(-)^\wedge$.  
+
+* the __axiom of compensation__: for all $a$ in $M$,
+
+$$a = a^\vee \vert a^\wedge$$
+
+* the __axioms of central distributivity__: for all $a$ in $M$,
+
+$$a \otimes \odot = a^\wedge \vert \bot$$ 
+
+$$a \oplus \odot = a^\vee \vert \top$$
+
+* the __axiom of balance__: for all $a$ and $b$ in $M$,
 
 $$a \vert (a \multimap b) = b \vert (b \multimap a)$$
 
-A minor scale satisfies the __disjunction property__ if for all $a$ and $b$ in $M$,
+* the __disjunction property__: for all $a$ and $b$ in $M$,
 
 $$(a \multimap b) \vee (b \multimap a) = \top$$
 
-A minor scale satisfies the __coalgebra equation__ if for all $a$ in $M$,
+* the __coalgebra equation__: for all $a$ in $M$,
 
 $$a^\vee \vee (a^\wedge)^\bullet = \top$$
+
+* __associativity of multiplicative conjunction__: for all $a$, $b$, and $c$ in $M$
+
+$$a \otimes (b \otimes c) = (a \otimes b) \otimes c$$
+
+* __associativity of multiplicative disjunction__: for all $a$, $b$, and $c$ in $M$
+
+$$a \oplus (b \oplus c) = (a \oplus b) \oplus c$$
+
+## Properties
+
+Every minor scale with $\bot = \top$ is [[trivial object|trivial]]. 
+
+$\bot$ is a [[fixed point]] of $(-)^\vee$ and $\top$ is a fixed point of $(-)^\wedge$. 
+
+As a minor scale is a [[closed midpoint algebra]], a minor scale has a [[partial order]] $\leq$. If $a \leq b$, then $a \multimap b = \top$. 
 
 ## Examples
 
