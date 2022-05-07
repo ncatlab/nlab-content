@@ -19,5 +19,9 @@ On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for (single)
 
 * [[Mohammad Garousi]], _An off-shell D-brane action at order $\alpha'{}^2$ in flat spacetime_, Phys. Rev. D 93, 066014 (2016) ([arXiv:1511.01676](https://arxiv.org/abs/1511.01676))
 
+On [[higher curvature corrections]] to [[D=11 supergravity]] in [[M-theory]]:
+
+* [[Mohammad Garousi]], _Minimal gauge invariant couplings at order $\ell^6_p$ in M-theory_ ([arXiv:2102.00639](https://arxiv.org/abs/2102.00639))
+
 
 category: people
