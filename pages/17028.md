@@ -63,8 +63,6 @@ For the analogous statement on the equivariant [[Lazard ring]] see [Greenlees 01
 * [[William Abram]], [[Igor Kriz]], _The equivariant complex cobordism ring of a finite abelian group_ ([arXiv:1509.08540](http://arxiv.org/abs/1509.08540))
 
 
-[[!redirects equivariant cobordism]]
-[[!redirects equivariant cobordism theory]]
 [[!redirects equivariant complex cobordism theory]]
 
 [[!redirects equivariant MU]]
