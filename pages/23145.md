@@ -1,3 +1,16 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -5,17 +18,25 @@
 
 ## Idea
 
-24 is the [[natural number]] that follows 23 and precedes 25. It occurs in modern systems of measurement for historical reasons, thanks ultimately to its having many integer factors, and it arises in many circumstances in mathematics and physics, the relations between which are not always immediately apparent.
+24 is the [[natural number]] that follows 23 and precedes 25. It occurs in modern systems of measurement for historical reasons, thanks ultimately to its having many [[prime factors]]
+
+$$
+  24
+  \,=\,
+  2 \cdot 2 \cdot 2 \cdot 3 
+$$
+
+and it arises in many circumstances in [[mathematics]] and [[physics]], the relations between which are not always immediately apparent.
 
 ## Examples
 
 ### Modular arithmetic
 
-Fix a natural number $n$, and consider those numbers $x$ whose squares are congruent to 1 modulo $n$:
+Fix a [[natural number]] $n$, and consider those numbers $x$ whose squares are congruent to 1 [[modulo]] $n$:
 
 \[ x^2 \equiv 1 (\mod n) \, . \]
 
-A necessary condition for satisfying this is for $x$ and $n$ to be coprime. For some choices of $n$, this condition is sufficient, i.e., every $x$ coprime to $n$ satisfies this congruence. In fact, this congruence is equivalent to $gcd(x,n) = 1$ if and only if $n$ divides 24.
+A necessary condition for satisfying this is for $x$ and $n$ to be [[coprime integer|coprime]]. For some choices of $n$, this condition is sufficient, i.e., every $x$ coprime to $n$ satisfies this congruence. In fact, this congruence is equivalent to $gcd(x,n) = 1$ if and only if $n$ divides 24.
 
 ### Cannonball problem
 
@@ -45,23 +66,36 @@ The [[third stable homotopy group of spheres]] is the [[cyclic group]] of order 
 
 ### String theory
 
-[[bosonic string theory|Bosonic string theory]] naturally lives in 26 [[spacetime]] dimensions, which can be broken down into 2 dimensions for the string worldsheet itself and 24 orthogonal directions. This is also related to the conventional choice of normalization for the [[central charge]] of the [[Virasoro algebra]]:
+Critical [[bosonic string theory|Bosonic string theory]] requires 26 [[spacetime]] [[dimension of a manifold|dimensions]] of [[target spacetime]] (for vanishing [[dilaton]], at least), which can be broken down into 2 dimensions for the string [[worldsheet]] itself and 24 transversal directions for its oscillations. 
+
+This is also related to the conventional choice of normalization for the [[central charge]] of the [[Virasoro algebra]]:
 
 \[ [L_m, L_n] = (m - n) L_{m+n} + \frac{c}{12}(m^3 - m) \delta_{m+n,0} \, . \]
 
 Several classes of [[string theory vacua]] require the presence of exactly [[24 branes transverse to K3|24 branes of codimension 4]] transverse to a [[K3-surface]]-[[fiber]].
 
+
 ## Related concepts
 
-Appearances of 24 and its factors, particularly 8 and 12, are a meta-pattern in mathematics; another such meta-pattern is [[ADE classification]]. Sometimes these meta-patterns overlap. For example, tessellating $\mathbb{R}^4$ with regular 24-cells creates the 24-cell honeycomb, in which the centers of the 24-cells are the points of the $D_4$ lattice. Meanwhile, the [[binary tetrahedral group]] corresponds to the $E_6$ [[Dynkin diagram]] (see [[McKay correspondence]]). Families of two-dimensional [[conformal field theory|conformal field theories]], in which the [[Virasoro algebra]] plays a key role, are among the examples of ADE classifications.
+Appearances of 24 and its factors, particularly 8 and 12, are a meta-pattern in mathematics; another such meta-pattern is [[ADE classification]]. Sometimes these meta-patterns overlap. 
+
+For example, [[tesselation|tessellating]] $\mathbb{R}^4$ with regular 24-cells creates the 24-cell honeycomb, in which the centers of the 24-cells are the points of the $D_4$ lattice. Meanwhile, the [[binary tetrahedral group]] corresponds to the $E_6$ [[Dynkin diagram]] (see *[[McKay correspondence]]*). 
+
+Families of two-dimensional [[conformal field theory|conformal field theories]], in which the [[Virasoro algebra]] plays a key role, are among the examples falling into an ADE classification.
 
 * [[Bernoulli number]]
+
 * [[moduli space of curves]]
 
 ## References
 
 * [More Mysteries of the Number 24](https://golem.ph.utexas.edu/category/2007/06/more_mysteries_of_the_number_2.html) at the $n$-Category Café
+
 * [John Baez on the Number 24](https://math.ucr.edu/home/baez/numbers/#24)
-* H. Cohn, A. Kumar, S. D. Miller, D. Radchenko and M. Viazovska, "Universal optimality of the $E_8$ and Leech lattices and interpolation formulas", [arXiv:1902.05438](https://arxiv.org/abs/1902.05438).
-* T. Gannon, *Moonshine Beyond the Monster* (Cambridge University Press, 2006), section 2.5.1.
+
+* H. Cohn, A. Kumar, S. D. Miller, D. Radchenko and M. Viazovska, *Universal optimality of the $E_8$ and Leech lattices and interpolation formulas*, 
+([arXiv:1902.05438](https://arxiv.org/abs/1902.05438)).
+
+* [[Terry Gannon]], section 2.5.1 of: *Moonshine Beyond the Monster* Cambridge University Press, 2006  ([doi:10.1017/CBO9780511535116](https://doi.org/10.1017/CBO9780511535116))
+
 * [Bernoulli Numbers and the J-homomorphism](https://golem.ph.utexas.edu/category/2020/12/bernoulli_numbers_and_the_jhom.html) at the $n$-Category Café
