@@ -51,6 +51,30 @@ Then every [[smooth function|smooth]] [[action]] of $G$ on $X$ is [[proper actio
 
 (e.g. [Lee 12, Corollary 21.6](#Lee12))
 
+### Equivariant triangulation theorem
+ {#EquivariantTriangulationTheorem}
+
+The _[[equivariant triangulation theorem]]_ ([Illman 78](equivariant+triangulation+theorem#Illman78), [Illman 83](equivariant+triangulation+theorem#Illman83)) says that for $G$ a compact Lie group and $X$ a [[compact topological space|compact]] [[smooth manifold]] equipped with a [[smooth function|smooth]] $G$-[[action]], there exists a $G$-[[equivariant triangulation]] of $X$.
+
+## Examples
+
+* A [[discrete group]] is a compact Lie group iff it is a [[finite group]].
+
+* The [[classical Lie groups]] for *definite* [[inner product space|inner products]] are compact, such as the [[orthogonal groups]], the [[unitary groups]], the [[quaternionic unitary groups]], etc., but not the [[Lorentz group]] etc.
+
+
+## Applications
+
+### In equivariant homotopy theory
+ {#InEquivariantHomotopyTheory}
+
+Compact Lie groups make a somewhat unexpected appearance as [[equivariance groups]] in [[equivariant homotopy theory]], where the compact Lie condition on the [[equivariance group]] is needed in order for (the available proofs of) the [[equivariant Whitehead theorem]] to hold. 
+
+(Namely, the [[equivariant triangulation theorem]] [above](#EquivariantTriangulationTheorem) is used in these proofs to guaratee that the [[coset spaces]] $G/H$ for [[closed subset|closed]] [[subgroups]] $H$ are [[G-CW-complexes]].)
+
+### In gauge theory
+
+In [[gauge theory]] ([[Yang-Mills theory]]/[[Chern-Simons theory]], ...) ...
 
 
 ## Related concepts
