@@ -356,7 +356,7 @@ Notice that in Def. \ref{EquivariantPrincipalBundles} we do *not* explicitly dem
 
       *Empty bundles are principal! (and locally trivial!), in the above sense.*
 
-      While this degenerate case is irrelevant for ordinary principal bundles, it is crucial for equivariant principal bundles, since their [[fixed loci]] often have empty total space. In fact, if the action $\alpha$ of the [[structure group]] $\Gamma$ is trivial (as is often the case in applications) then it follows at once that any fixed locus of an equivariant principal bundle can have only one of two typical fibers, $\Gamma$ or $\varnothing$, while the structure group is $\Gamma$, in both cases.
+      While this degenerate case is irrelevant for ordinary principal bundles, it is crucial for equivariant principal bundles, since their [[fixed loci]] often have empty total space. In fact, if the action $\alpha$ of $G$ on the [[structure group]] $\Gamma$ is trivial (as is often the case in applications) then it follows at once that any fixed locus of an equivariant principal bundle can have only one of two typical fibers, $\Gamma$ or $\varnothing$, while the structure group is $\Gamma$, in both cases.
 
 \end{remark}
 
