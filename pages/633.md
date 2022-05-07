@@ -32,7 +32,7 @@ is [[full and faithful functor|full and faithful]].
 
 ## Variations
 
-This is not always the "right" notion of fully-faithfulness in a 2-category.  In particular, in [[enriched category theory]] this definition does not recapture the correct notion of enriched fully-faithfulness.  It is possible, however, to characterize $V$-fully-faithful functors 2-categorically; see [[codiscrete cofibration]]. In general, fully faithful morphisms should be defined with respect to a [[proarrow equipment]]: in particular, this recovers $V$-fully-faithfulness. A 1-cell $f : A \to B$ in a proarrow equipment is **fully faithful** if the [[unit of an adjunction|unit of the adjunction]] $\eta \colon 1 \to f^* f_*$ is invertible.
+This is not always the "right" notion of fully-faithfulness in a 2-category.  In particular, in [[enriched category theory]] this definition does not recapture the correct notion of enriched fully-faithfulness.  It is possible, however, to characterize $V$-fully-faithful functors 2-categorically; see [[codiscrete cofibration]]. In general, fully faithful morphisms should be defined with respect to a [[proarrow equipment]] (or some other context for [[formal category theory]]): in particular, this recovers $V$-fully-faithfulness. A 1-cell $f : A \to B$ in a proarrow equipment is **fully faithful** if the [[unit of an adjunction|unit of the adjunction]] $\eta \colon 1 \to f^* f_*$ is invertible.
 
 ## Examples
 
