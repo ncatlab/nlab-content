@@ -27,6 +27,8 @@ Their [[complements]] are known as [[null subsets]] or [[negligible subsets]].
 
 * [[full subset]]
 
+* [[deterministic random variable]]
+
 ## References
 
 See also: 
