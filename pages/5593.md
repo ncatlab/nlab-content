@@ -169,6 +169,10 @@ The following paper developes covering uniformities constructively, and includes
 * [[Peter Johnstone]], 1989; A constructive theory of uniform locales. I. Uniform covers; General topology and applications, 179--193; Lecture Notes in Pure and Applied Mathematics 134 (1991).
  {#Johnstone89}
 
+These ideas are developed further in
+
+* Graham Manuell, _Uniform locales and their constructive aspects_, [arxiv:2106.00678](https://arxiv.org/abs/2106.00678)
+
 A constructive and predicative theory in the programme of [[formal topology]] can be found here:
 
 * [[Giovanni Curi]]; On the collection of points of a formal space; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146.
