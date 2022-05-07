@@ -176,6 +176,11 @@ See also:
 
 * [Quantiki](https://www.quantiki.org/) -- Quantum Information Portal and Wiki
 
+Discussion in terms of [[monoidal category]]-theory and [[finite quantum mechanics in terms of dagger-compact categories]]:
+
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
+
+
 
 Experimental demonstration of "quantum supremacy" ("quantum advantage"):
 
