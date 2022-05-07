@@ -83,7 +83,31 @@ where $B_k$ is the $k$th [[Bernoulli number]] ([Ando-Hopkins-Rezk 10, prop. 10.2
 ### Relation to the Todd genus
   {#RelationToTheToddGenus}
 
-Given the [[complexfication]] of a  [[real vector bundle]] $\mathcal{X}$ to a [[complex vector bundle]] $\mathcal{E} \otimes \mathbb{C}$, the $\hat A$-class of $\mathcal{E}$ is the [[square root]] of the [[Todd class]] of $\mathcal{E} \otimes \mathbb{C}$ (e.g. [de Lima 03, Prop. 7.2.3](#deLima03)).
+
+On an [[almost complex manifold]] $M_{\mathrm{U}}$, the [[Todd class]] coincides with the [[A-hat genus|A-hat class]] up to the [[exponential]] of half the [[first Chern class]]:
+
+$$
+  Td(M_{\mathrm{U}})
+   \;=\;
+  \big(e^{c_1/2} \hat A\big)(M_{\mathrm{U}})
+  \,.
+$$
+
+(e.g. [Freed 87 (1.1.14)](#Freed87)).
+
+In particular, on manifolds $M_{S\mathrm{U}}$ with [[special unitary group|SU]]-[[G-structure|structure]], where $c_1 = 0$, the Todd class is actually equal to the [[A-hat genus|A-hat class]]:
+
+$$
+  Td(M_{S\mathrm{U}}) 
+   \;=\;
+  \hat A(M_{S\mathrm{U}})
+  \,.
+$$
+
+
+\linebreak
+
+Given the [[complexification]] of a  [[real vector bundle]] $\mathcal{X}$ to a [[complex vector bundle]] $\mathcal{E} \otimes \mathbb{C}$, the $\hat A$-class of $\mathcal{E}$ is the [[square root]] of the [[Todd class]] of $\mathcal{E} \otimes \mathbb{C}$ (e.g. [de Lima 03, Prop. 7.2.3](#deLima03)).
 
 
 ### As a Rozansky-Witten invariant
@@ -110,6 +134,12 @@ This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+
 
 
 ## References
+
+Review:
+
+* {#Freed87} [[Daniel Freed]], Sections 1.1, 1.2 of: _Geometry of Dirac operators_, 1987 ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]])
+
+
 
 The $\hat A$-genus as the index of the spin complex is discussed for instance in:
 
