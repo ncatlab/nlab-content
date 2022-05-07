@@ -22,6 +22,10 @@ A __symmetric cancellative midpoint algebra__ is a [[symmetric midpoint algebra]
 
 * for all $a$, $b$, and $c$ in $M$, if $a \vert b = a \vert c$, then $b = c$
 
+## Properties
+
+For all $a$ and $b$ in $M$, $a = b$ if and only if $a^\bullet \vert b = \odot$. 
+
 ## Examples
 
 The [[rational numbers]], [[real numbers]], and the [[complex numbers]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = 0$, and $a^{\bullet} = -a$ are examples of symmetric cancellative midpoint algebras. 
