@@ -13,7 +13,7 @@ Refinement types are present in languages like LiquidHaskell and F-star. Refinem
 * Tim Freeman, [[Frank Pfenning]], _Refinement types for ML_, Proceedings of the ACM Conference on Programming Language Design and Implementation, 1991, pp. 268&#8211;277, ([pdf](https://www.cs.cmu.edu/~fp/papers/pldi91.pdf)).
 * Hongwei Xi, Frank Pfenning, _Dependent types in practical programming_, in A. Aiken, editor, Conference Record of the 26th Symposium on Principles of Programming Languages (POPL'99),pages 214&#8211;227. ACM Press, January 1999.
 * Susumu Hayashi, _Logic of refinement types_, Proceedings of the Workshop on Types for Proofs and Programs, 1993, pp. 157&#8211;172
-* [[Joshua Dunfield]], _Combining Two Forms of Type Refinements_, 2002, ([report](http://www.cs.cmu.edu/~joshuad/papers/combining/))
+* [[Jana Dunfield]], _Combining Two Forms of Type Refinements_, 2002, ([report](https://research.cs.queensu.ca/home/jana/papers/combining/Dunfield02_combining.pdf))
 * Yitzhak Mandelbaum, David Walker, [[Robert Harper]], _An Effective Theory of Type Refinements_, ([pdf](http://www.cs.cmu.edu/~rwh/papers/effref/icfp03.pdf))
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic and Extrinsic Typing_, ([pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf))
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
