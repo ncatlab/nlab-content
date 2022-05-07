@@ -32,22 +32,22 @@ Let $R$ be a [[ring]]. A __divided power $R$-algebra__, or __PD-$R$-algebra__, i
 
 satisfying the following conditions:
 
-1. For each $x\in A$, we have $\gamma_{0}(x)=1$.
+1. For each $x\in I$, we have $\gamma_{0}(x)=1$.
 
-1. For each $x\in A$, we have $\gamma_{1}(x)=x$.
+1. For each $x\in I$, we have $\gamma_{1}(x)=x$.
 
-1. For each $x\in A$ and each $n\geq2$, we have $\gamma_{n}(x)\in I$.
+1. For each $x\in I$ and each $n\geq2$, we have $\gamma_{n}(x)\in I$.
 
-1. For each $x,y\in A$, we have
+1. For each $x,y\in I$, we have
 $$\gamma_{n}(x+y)=\sum_{k=0}^{n}\gamma_{n-k}(x)\gamma_{k}(y).$$
 
-1. For each $\lambda$ in $A$ and each $x\in I$, we have
+1. For each $\lambda\in A$ and each $x\in I$, we have
 $$\gamma_{n}(\lambda x)=\lambda^{n}\gamma_{n}(x).$$
 
-1. For each $x\in A$ and each $m,n\in\mathbb{N}$, we have
+1. For each $x\in I$ and each $m,n\in\mathbb{N}$, we have
 $$\gamma_{n}(x)\gamma_{m}(x)=\frac{(n+m)!}{n!m!}\gamma_{n+m}(x).$$
 
-1. For each $x\in A$ and each $m,n\in\mathbb{N}$, we have
+1. For each $x\in I$ and each $m,n\in\mathbb{N}$, we have
 $$\gamma_{m}(\gamma_{n}(x))=\frac{(n m)!}{(n!)^{m}m!}\gamma_{n m}(x).$$
 
 
@@ -80,7 +80,7 @@ Divided power algebras were originally introduced in
 
 * [[Henri Cartan]], _Puissances divisées_, Séminaire Henri Cartan, Tome 7 (1954–1955) no. 1, Exposé no. 7, 11 p. [Numdam:SHC_1954–1955__7_1_A7_0](http://www.numdam.org/item/SHC_1954-1955__7_1_A7_0/).
 
-Their theory was further developed in [[Pierre Berthelot|Berthelot\\'s PhD thesis (in the context of [[crystalline cohomology]]), which was later published as:
+Their theory was further developed in [[Pierre Berthelot]]'s PhD thesis (in the context of [[crystalline cohomology]]), which was later published as:
 
 * [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $p \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. ([doi:10.1007/BFb0068636](https://link.springer.com/book/10.1007/BFb0068636),  MR 0384804)
 
@@ -101,6 +101,7 @@ In relation to the [[sphere spectrum]]
 
 [[!redirects PD-algebra]]
 [[!redirects PD-algebras]]
+
 [[!redirects divided power structure]]
 [[!redirects divided power structures]]
 [[!redirects divided power algebras]]
