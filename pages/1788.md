@@ -1,4 +1,35 @@
 
+\begin{prop}
+  The [[pullback]] $p^\ast f$ of a [[quasi-isomorphism]] $f$ of [[chain complexes]] along a degreewise [[surjection]] $p$ of chain complexes is itself a quasi-isomorphism:
+
+$$
+  \array{   
+    A \times_B C 
+    &
+    \overset{
+     p^\ast f \, \in \mathrm{QIso}
+    }{\longrightarrow}&
+    C
+    \\
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow {}^{\mathrlap{p \in Surj}}
+    \\
+    A
+    &
+    \underset{
+      f \in \mathrm{QIso}
+    }{\longrightarrow}
+    &
+    B
+  }
+$$
+
+\end{prop}
+\begin{proof}
+For we show that $H_\bullet(p^\ast f)_\bullet$  
+\end{proof}
+
 \begin{prop}\label{InducedQuilleAdjunctionsOnModelCategoriesOfPointedObjects}
 **(induced [[Quillen adjunction]] on [[model categories of pointed objects]])** \linebreak
 Given a [[Quillen adjunction]] between [[model categories]]
