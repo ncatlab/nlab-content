@@ -108,10 +108,10 @@ but it was already described earlier by others such as Seppo Linnainmaa:
 
 A categorical analysis of (non-interleaved) forward and reverse AD is given by 
 
-* [[Matthijs Vákár]], CHAD: Combinatory Homomorphic Automatic Differentiation. 2021. [arXiv preprint 2103.15776](https://arxiv.org/abs/2103.15776) [Haskell implementation](https://github.com/VMatthijs/CHAD)
+* [[Matthijs Vákár]], CHAD: Combinatory Homomorphic Automatic Differentiation. 2021. [arXiv preprint 2103.15776](https://arxiv.org/abs/2103.15776) [Haskell implementation](https://github.com/VMatthijs/CHAD; funded by European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 895827) 
 
-* [[Fernando Lucatelli Nunes]], [[Matthijs Vákár]], CHAD for Expressive Total Languages. 2021. [arXiv preprint 2110.00446] (https://arxiv.org/abs/2110.00446)
+* [[Fernando Lucatelli Nunes]], [[Matthijs Vákár]], CHAD for Expressive Total Languages. 2021. [arXiv preprint 2110.00446] (https://arxiv.org/abs/2110.00446; funded by European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 895827) 
 
 A categorical analysis of (interleaved) forward mode AD for calculating higher order derivatives is given by 
 
-* [[Mathieu Huot]], [[Sam Staton]], [[Matthijs Vákár]], Higher Order AD of Higher Order Functions. 2021. [arXiv preprint 2101.06757](https://arxiv.org/abs/2101.06757)
+* [[Mathieu Huot]], [[Sam Staton]], [[Matthijs Vákár]], Higher Order AD of Higher Order Functions. 2021. [arXiv preprint 2101.06757](https://arxiv.org/abs/2101.06757; funded by European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 895827) 
