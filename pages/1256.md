@@ -46,7 +46,7 @@ Coherent logic (including sequents, as above) is the [[internal logic]] of a [[c
 
 * Any (finitary) [[algebraic theory]] is a coherent, in that every [[cartesian monoidal category]] can be conservatively completed to a [[coherent category]].
 
-* A good example of a coherent theory that is not [[algebraic theory|algebraic]] (in any of the usual senses, although it comes from algebra) is the theory of a [[local ring]]; a similar example is the theory of a [[discrete field]].
+* A good example of a coherent theory that is not [[algebraic theory|algebraic]] (in any of the usual senses, although it comes from algebra) is the theory of a [[local ring]]; similar examples are the theories of a [[discrete integral domain]] and a [[discrete field]].
 
 * The theory of a [[total order]] is coherent, though also not algebraic.  The theory of a [[partial order]] is [[essentially algebraic theory|essentially algebraic]], but the totality axiom $\vdash_{x,y} (x\le y) \vee (y\le x)$ is coherent but not essentially algebraic.
 
