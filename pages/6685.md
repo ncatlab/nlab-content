@@ -48,9 +48,13 @@ See [[looping]] and [[delooping]] for more.
 
 * [[path]],
 
-* [[loop space]],
+* [[loop space]], [[free loop space]]
 
-* [[fundamental group]].
+* [[fundamental group]]
+
+* [[loop group]]
+
+* [[loop braid group]]
 
 
 [[!redirects Moore loop]]
