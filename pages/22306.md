@@ -36,7 +36,7 @@ Any complete augmented algebra is a [[quotient]] of the algebra of [[noncommutat
 The quotient map can be chosen to induce an isomorphism of [[associated graded algebras]] in degree 1.
 (Corollary A.1.7 in Quillen \cite{Quillen}.)
 
-A morphism of compelte augmented algebras is an [[effective epimorphism]]
+A morphism of complete augmented algebras is an [[effective epimorphism]]
 if and only if it is surjective,
 equivalently, the degree 1 component of its associated graded is surjective.
 (Proposition A.1.8 in Quillen \cite{Quillen}.)
