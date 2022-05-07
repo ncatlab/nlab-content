@@ -34,7 +34,7 @@ $$
   \sigma \;\colon\; M String \longrightarrow tmf
 $$
 
-of [[E-∞ rings]], from the [[String structure]]-[[Thom spectrum]] to [[tmf]]  This is refinement of the [[Witten genus]] (see there for more)
+of [[E-∞ rings]], from the [[String structure]]-[[Thom spectrum]] to the [[tmf]]-[[spectrum]].  This is refinement of the [[Witten genus]] (see there for more)
 
 $$
   w \;\colon\; \Omega^{String,rat}_\bullet \longrightarrow MF_\bullet
