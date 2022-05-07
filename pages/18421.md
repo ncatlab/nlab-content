@@ -44,6 +44,8 @@ These two happen to constitute [[cohesive ∞-toposes]], due to the local contra
 
 * [[discrete ∞-groupoid]]
 
+* [[D-topological ∞-groupoid]]
+
 * [[smooth ∞-groupoid]]
 
 * [[formal smooth ∞-groupoid]]
@@ -66,3 +68,10 @@ These two happen to constitute [[cohesive ∞-toposes]], due to the local contra
 [[!redirects topological infinity-groups]]
 [[!redirects topological ∞-group]]
 [[!redirects topological ∞-groups]]
+
+[[!redirects topological infinity-stack]]
+[[!redirects topological infinity-stacks]]
+
+[[!redirects topological ∞-stack]]
+[[!redirects topological ∞-stacks]]
+
