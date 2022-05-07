@@ -30,11 +30,28 @@ The first black ring solution in was found, in [[D=5 gravity]], in
 
 * [[Roberto Emparan]], [[Harvey Reall]], _A rotating black ring in five dimensions_, Phys. Rev. Lett.88:101101, 2002 ([arXiv:hep-th/0110260](https://arxiv.org/abs/hep-th/0110260))
 
+
 The first solution in [[D=5 supergravity]] was given in 
 
-* Henriette Elvang, [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
+* [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
-For more in the context of [[D1-D5-brane bound states]]
+Review:
+
+* {#EmparanReall06} [[Roberto Emparan]], [[Harvey Reall]], _Black Rings_, Class. Quant. Grav. 23:R169, 2006 ([arXiv:hep-th/0608012](https://arxiv.org/abs/hep-th/0608012))
+
+As [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on a [[4-manifold]] [[product manifold|times]] the black ring's [[circle]]:
+
+* [Emparan-Reall 06, Sec. 4.1, 4.2, 6.1](#EmparanReall06)
+
+following
+
+* {#MaldacenaStromingerWitten97} [[Juan Maldacena]], [[Andrew Strominger]], [[Edward Witten]], _Black Hole Entropy in M-Theory_, 	JHEP 9712:002, 1997 ([arXiv:hep-th/9711053](https://arxiv.org/abs/hep-th/9711053))
+
+
+
+
+
+More in the context of [[D1-D5-brane bound states]]
 
 * [[Iosif Bena]], [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
 
