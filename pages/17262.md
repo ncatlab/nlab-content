@@ -120,6 +120,8 @@ The following shows the [[subgroup lattices]] of the first few [[generalized qua
 
 * [[dihedral group]]
 
+* [[Pauli group]]
+
 * [[canonical formula of myth]]
 
 
