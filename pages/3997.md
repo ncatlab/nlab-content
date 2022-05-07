@@ -60,15 +60,6 @@ The definitions given above are all "up to isomorphism", i.e. they satisfy the [
 
 [Kissinger](http://permalink.gmane.org/gmane.science.mathematics.categories/6644) suggested a concise way to state creation/preservation/etc. of limits.  However, there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
 
-## References
-
-Definition V.1 in
-
-* {#MacLane71} [[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_ (1971)
-
-Definition 13.17(2) in
-
-* [[Jiří Adámek]], [[Horst Herrlich]], [[George E. Strecker]], _[[Abstract and Concrete Categories]]_.
 
 ## Related pages
 
@@ -79,6 +70,19 @@ Definition 13.17(2) in
 * **created limit**
 
 * [[lifted limit]]
+
+
+
+## References
+
+Definition V.1 in
+
+* {#MacLane71} [[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_ (1971)
+
+Definition 13.17(2) in
+
+* [[Jiří Adámek]], [[Horst Herrlich]], [[George E. Strecker]], _[[Abstract and Concrete Categories]]_.
+
 
 [[!redirects created limits]]
 [[!redirects creation of limits]]
