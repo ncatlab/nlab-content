@@ -85,13 +85,17 @@ $$
 
 * the associative law for composition of morphisms:
 
-$$
-\array{
-C_1 \times_{C_0} C_1 \times_{C_0} C_1 & \stackrel{c\times_{C_0} 1}{\to} & C_1 \times_{C_0} C_1 \\
-{}^{1\times_{C_0}c}\downarrow         & {}                              & \downarrow^{c} \\
-C_1 \times_{C_0} C_1                  & \stackrel{c}{\to}               & C_1
-}
-$$
+\begin{centre}
+
+\begin{xymatrix@R10mm}
+
+({C_1}\times_{{C_0}}{C_1})\times_{{C_0}}{C_1} \ar[d]_{\langle\pi_0\circ\pi_2,\pi_1\times1_{{C_1}}\rangle} \ar[r]^{~~~~~{c}\times_{_{_{{C_0}}}}1_{{C_1}}} \ar[r] & {C_1}\times_{{C_0}}{C_1} \ar[dd]^{{c}} \\ 
+{C_1}\times_{{C_0}}({C_1}\times_{{C_0}}{C_1}) \ar[d]_{1_{{C_1}}\times_{_{_{{C_0}}}}{c}} \\
+{C_1}\times_{{C_0}}{C_1} \ar[r]_{~~~~{c}} & {C_1}
+
+\end{xymatrix}
+
+\end{centre}
 
 * the left and right unit laws for composition of morphisms:
 
@@ -104,7 +108,8 @@ C_0 \times_{C_0} C_1  & \stackrel{e \times_{C_0} 1}{\to} &
 }
 $$
 
-Here, the [[pullback]] $C_1 \times_{C_0} C_1$ is defined via the square
+The relevant pullbacks and uniquely induced isomorphisms are formed as below:
+
 $$
 \array{
 C_1 \times_{C_0} C_1 & \stackrel{p_2}{\to} & C_1 \\
@@ -112,6 +117,34 @@ C_1 \times_{C_0} C_1 & \stackrel{p_2}{\to} & C_1 \\
 C_1                  & \stackrel{t}{\to}   & C_0
 }
 $$
+
+\begin{centre}
+
+\begin{xymatrix@R10mm}
+
+({C_1}\times_{{C_0}}{C_1})\times_{{C_0}}{C_1} \ar[r]^{~~~~~~~~~~\pi_3} \ar[d]_{\pi_2} & {C_1} \ar[d]^{{t}} \\ {C_1}\times_{{C_0}}{C_1} \ar[r]_{~~~{s}\circ{c}} & {C_0}
+
+\end{xymatrix}
+
+\begin{xymatrix@R10mm}
+
+{C_1}\times_{{C_0}}({C_1}\times_{{C_0}}{C_1}) \ar[r]^{~~~~~~~\pi_5} \ar[d]_{\pi_4} & {C_1}\times_{{C_0}}{C_1} \ar[d]^{{t}\circ{c}} \\ {C_1} \ar[r]_{{s}} & {C_0}
+
+\end{xymatrix}
+
+\begin{xymatrix@R10mm}
+
+({{C_1}}\times_{{C_0}}{{C_1}})\times_{{C_0}}{{C_1}} \ar[rr]^{~~~~~~~~~~\pi_3} \ar[dd]_{\pi_2} \ar@{-->}[rd]^{~~\pi_1\times_{{C_0}}1_{{C_1}}} & & {{C_1}} \ar[d]^{1_{{C_1}}} \\ & {{C_1}}\times_{{C_0}}{{C_1}} \ar[r]^{~~~\pi_1} \ar[d]_{\pi_0} & {{C_1}} \ar[d]^{{t}} \\ {{C_1}}\times_{{C_0}}{{C_1}} \ar[r]_{~~~\pi_1} & {{C_1}} \ar[r]_{~{s}} & {{C_0}}
+
+\end{xymatrix}
+
+\begin{xymatrix@R10mm}
+
+({{C_1}}\times_{{C_0}}{{C_1}})\times_{{C_0}}{{C_1}} \ar@/^1pc/[rrd]^{\pi_1\times_{{C_0}}1_{{C_1}}} \ar[ddd]_{\pi_2} \ar@{-->}[rd]_{\langle\pi_0\circ\pi_2,\pi_1\times1_{{C_1}}\rangle~~~~}  \\ & {{C_1}}\times_{{C_0}}({{C_1}}\times_{{C_0}}{{C_1}}) \ar[r]^{~~~~~\pi_5} \ar[dd]_{\pi_4} & {{C_1}}\times_{{C_0}}{{C_1}} \ar[d]^{\pi_0} \\ & & {{C_1}} \ar[d]^{{t}} \\ {{C_1}}\times_{{C_0}}{{C_1}} \ar[r]_{~~~\pi_0} & {{C_1}} \ar[r]_{~~{s}} & {{C_0}}
+
+\end{xymatrix}
+
+\end{centre}
 
 Notice that inherent to this definition is the assumption that the [[pullbacks]] involved actually exist. This holds automatically when the [[ambient category]] $A$ has finite [[limit|limits]], but there are some important examples such as $A =\,$ [[Diff]] where this is not the case.  Here it is helpful to assume simply that $s$ and $t$ have all [[pullbacks]]; in the case of $Diff$ this occurs if they are submersions.
 
