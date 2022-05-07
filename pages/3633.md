@@ -161,6 +161,17 @@ Good review on the relation to [[thermal quantum field theory]] and [[black hole
 
 * {#GibbonsPerry78} [[Gary Gibbons]], Malcolm J. Perry, _Black Holes and Thermal Green Functions_, Vol. 358, No. 1695 (1978) ([jstor:79482](https://www.jstor.org/stable/79482))
 
+New formalization in terms of complex metrics:
+
+* [[Maxim Kontsevich]], [[Graeme Segal]], *Wick rotation and the positivity of energy in quantum field theory* ([arXiv:2105.10161](https://arxiv.org/abs/2105.10161))
+
+review talks:
+
+* [[Graeme Segal]], _Wick rotation and the positivity of energy in quantum field theory_, talk at Institut des Hautes Études Scientifiques (IHÉS), June 2014 ([video recording](https://www.youtube.com/watch?feature=player_embedded&v=vTvXHL6ZJik))
+
+* [[Graeme Segal]], *Wick Rotation and the Positivity of Energy in Quantum Field Theory*, talk at IAS Physics Group Meeting, December 2021 ([video recording](https://www.ias.edu/video/wick-rotation-and-positivity-energy-quantum-field-theory))
+
+
 Discussion of thermal Wick rotation on global [[anti-de Sitter spacetime]] (which is already periodic in _real_ time) is in
 
 * {#AllenFolacciGibbons87} B. Allen, A. Folacci, [[Gary Gibbons]], _Anti-de Sitter space at finite temperature_, Physics Letters B Volume 189, Issue 3, 7 May 1987, Pages 304-310 (<a href="https://doi.org/10.1016/0370-2693(87)91437-7">doi:10.1016/0370-2693(87)91437-7</a>)
@@ -169,7 +180,6 @@ See also
 
 * Dirk Schlingemann, _From euclidean field theory to quantum field theory_ ([arXiv:hep-th/9802035](http://arxiv.org/abs/hep-th/9802035))
 
-* [[Graeme Segal]], _Wick rotation and the positivity of energy in quantum field theory_ ([video](https://www.youtube.com/watch?feature=player_embedded&v=vTvXHL6ZJik))
 
 * {#Witten13} [[Edward Witten]], _The Feynman $i \epsilon$ in String Theory_ ([arXiv:1307.5124](http://arxiv.org/abs/1307.5124))
 
