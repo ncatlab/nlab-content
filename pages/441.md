@@ -83,6 +83,8 @@ Beware that any would-be horn of the 0-simplex (whose [[boundary of a simplex|bo
 This is not a matter of convention if one sticks to the usual definition of [[Kan fibration]] as having [[right lifting property|right lifting]] against *all horns*:  In particular one must *not* declare a would-be horn of the 0-simplex to be itself the [[empty simplicial set]], as that would make the [[nerve of a category|nerve]] of the [[empty groupoid]] fail to be a [[Kan complex]] (Def. \ref{KanComplex}). 
 
 Conversely, the fact that every horn is [[inhabited set|inhabited]] means that any morphism out of the [[empty simplicial set]] (an [[empty bundle]] $\varnothing \to X$) is a [[Kan fibration]] (Def. \ref{KanFibration}).
+
+This is in contrast to the situation for [[acyclic Kan fibrations]], see [there](acyclic+Kan+fibration#AcyclicKanFibrationsAreSurjective).
 \end{remark}
 
 
