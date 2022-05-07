@@ -8,6 +8,10 @@ On [[higher curvature corrections]] to [[D=11 supergravity]]:
 
 * [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg, _Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints_ ([arXiv:hep-th/0010182](https://arxiv.org/abs/hep-th/0010182))
 
+On [[higher curvature corrections]] in [[D=11 supergravity]]/[[M-theory]] via analysis of [[superparticle]] [[scattering amplitudes]]:
+
+* [[Kasper Peeters]], [[Jan Plefka]], [[Steffen Stern]], _Higher-derivative gauge field terms in the M-theory action_, JHEP 0508 (2005) 095 ([arXiv:hep-th/0507178](https://arxiv.org/abs/hep-th/0507178))
+
 
 On [[Euclidean field theory]]:
 
