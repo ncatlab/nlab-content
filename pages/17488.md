@@ -2433,13 +2433,13 @@ A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphis
 +-- {: .num_prop #CylinderSpectrumOverCWSpectrumIsGood}
 ###### Proposition
 
-For $X\in SeqSpec(Top)_{stable}$ a [[CW-spectrum]], def. \ref{CWSpectrum}, then its standard [[cylinder spectrum]] $X \wedge (I_+)$ of def. \ref{StandardCylinderSpectrumSequential} satisfies the conditions on an abstract [[cylinder object]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory)) in that the inclusion
+For $X\in SeqSpec(Top)_{strict}$ a [[CW-spectrum]], def. \ref{CWSpectrum}, then its standard [[cylinder spectrum]] $X \wedge (I_+)$ of def. \ref{StandardCylinderSpectrumSequential} satisfies the conditions of an abstract [[cylinder object]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory)) in that the inclusion
 
 $$
   X \vee X \longrightarrow X \wedge (I_+)
 $$
 
-(of the [[wedge sum]] of $X$ with itself, example \ref{WedgeSumOfSpectra}) is a cofibration in $SeqSpec(Top)_{stable}$.
+(of the [[wedge sum]] of $X$ with itself, example \ref{WedgeSumOfSpectra}) is a cofibration in $SeqSpec(Top)_{strict}$.
 
 =--
 
