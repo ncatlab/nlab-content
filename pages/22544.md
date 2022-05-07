@@ -21,7 +21,7 @@ by a *dimer* one means an [[edge]] $a \to b$ in some [[graph]] that models a giv
 
 Typically this goes along with some prescription for what is to be associated with/modeled by this dimer. 
 
-For example a [[Majorana dimer]] encodes an pair of [[entanglement|entangled]] [[qbits]] ("spins"). In [[Majorana dimer codes]] these dimers arrange as the [[chords]] of a [[chord diagram]], see at *[[holographic entanglement entropy]]* the section *[Chord diagra, representation](holographic+entanglement+entropy#ChordDiagramRepresentation)*.
+For example a [[Majorana dimer]] encodes an pair of [[entanglement|entangled]] [[qbits]] ("spins"). In [[Majorana dimer codes]] these dimers arrange as the [[chords]] of a [[chord diagram]], see at *[[holographic entanglement entropy]]* the section *[Chord diagram, representation](holographic+entanglement+entropy#ChordDiagramRepresentation)*.
 
 ## References
 
