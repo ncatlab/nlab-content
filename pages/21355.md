@@ -36,6 +36,15 @@ Discussion via [[AdS/QCD]]:
 
 * Miguel Angel Martin Contreras, Saulo Diles, Alfredo Vega, _Heavy quarkonia spectroscopy at zero and finite temperature in bottom-up AdS/QCD_ ([arXiv:2101.06212](https://arxiv.org/abs/2101.06212))
 
+Observation of a charmonium decay products interpreted as originating from a fully [[charm quark|charmed]] [[tetraquark]]:
+
+* [[LHCb collaboration]], *Observation of structure in the $J/\psi$-pair mass spectrum*, Science Bulletin 65 (2020) 1983 ([arXiv:2006.16957](https://arxiv.org/abs/2006.16957), [doi:10.1016/j.scib.2020.08.032](https://doi.org/10.1016/j.scib.2020.08.032), [CERN news](https://phys.org/news/2020-07-cern-physicists-discovery-unique-particle.html))
+
+reviewed in 
+
+* [[Jean-Marc Richard]], *About the $J/\psi J/\psi$ peak of LHCb: fully-charmed tetraquark?*, Science Bulletin Volume 65, Issue 23, 15 December 2020, Pages 1954-1955 ([arXiv:2008.01962](https://arxiv.org/abs/2008.01962), [doi:10.1016/j.scib.2020.08.020](https://doi.org/10.1016/j.scib.2020.08.020))
+
+
 
 [[!redirects charmonia]]
 
