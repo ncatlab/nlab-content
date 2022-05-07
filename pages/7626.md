@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -29,19 +30,24 @@ In [[quantum physics]] one speaks of the "statistics" of a [[particle]] species 
 
 ## References
 
-On the theory of anyons:
+The concept of [[anyons]] satisfying [[braid group statistics]] goes back to:
 
-* [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras_ 
+* J. M. Leinaas, J. Myrheim, _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
-  _I: General theory_ ([Euclid](http://projecteuclid.org/euclid.cmp/1104179464))
+* [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. 48, 1144, 1982 ([doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144))
 
-  _II: Geometric aspects and conformal covariance_ ([pdf](ftp://ftp.theorie.physik.uni-goettingen.de/pub/papers/rehren/92/superselection_sectors_II_RMP.pdf))
+Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
 
-* [[Jürg Fröhlich]], F. Gabbiani, _Braid statistics in local quantum theory_, Reviews in Mathematical Physics, Volume 2, Issue 03, pp. 251-353 (1990).
+* [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- I: General theory_,   Comm. Math. Phys. Volume 125, Number 2 (1989), 201-226.  ([euclid:cmp/1104179464](http://projecteuclid.org/euclid.cmp/1104179464))
 
-Discussion of braid group statistics of [[string-localized quantum fields]] or similar 1-dimensional entities in dimension 2+1 was maybe first discussed in 
+* [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- II: Geometric aspects and conformal covariance_,  Reviews in Mathematical PhysicsVol. 04, No. spec01, pp. 113-157 (1992)  ([doi:10.1142/S0129055X92000170](https://doi.org/10.1142/S0129055X92000170) [pdf](ftp://ftp.theorie.physik.uni-goettingen.de/pub/papers/rehren/92/superselection_sectors_II_RMP.pdf))
 
-* J. M. Leinaas and J. Myrheim, _On the Theory of Identical Particles_, Il Nuovo Cimento 37 b (1977), 1-23.
+* [[Jürg Fröhlich]], F. Gabbiani, _Braid statistics in local quantum theory_, Reviews in Mathematical Physics, Volume 2, Issue 03, pp. 251-353 (1990) ([doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107))_
+
+
+On [[anyons]] in the [[quantum Hall effect]]:
+
+* Ady Stern, _Anyons and the quantum Hall effect -- A pedagogical review_, Annals of Physics Volume 323, Issue 1, January 2008, Pages 204-249 ([doi:10.1016/j.aop.2007.10.008](https://doi.org/10.1016/j.aop.2007.10.008), [arXiv:0711.4697](https://arxiv.org/abs/0711.4697))
 
 On [[anyons]] as potential basis of [[topological quantum computation]]:
 
