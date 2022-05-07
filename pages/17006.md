@@ -22,6 +22,8 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Harold Steinacker]], _Higher-spin gravity and torsion on quantized space-time in matrix models_ ([arXiv:2002.02742](https://arxiv.org/abs/2002.02742))
 
+* [[Yuhma Asano]], [[Harold Steinacker]], *Spherically symmetric solutions of higher-spin gravity in the IKKT matrix model* ([arXiv:2112.08204](https://arxiv.org/abs/2112.08204))
+
 
 ## Related $n$Lab entries
 
