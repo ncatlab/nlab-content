@@ -19,11 +19,11 @@
 
 ## Idea
 
-A _homotopy coherent diagram_ is a [[diagram]] of [[object]]s in a [[homotopical category]], where [[commutative diagram|commutativity]] is replaced by explicit [[homotopies]], those homotopies are to then be [[coherent]]ly linked by higher homotopies ... and so on. 
+A _homotopy coherent diagram_ is a [[diagram]] of [[object]]s in a [[homotopical category]], where [[commutative diagram|commutativity]] is replaced by explicit [[homotopies]], those homotopies are to then be [[coherent]]ly linked by higher homotopies ... and so on.  
 
 It is a model for an [[(∞,1)-functor]].
 
-The idea perhaps intuitively makes sense but the management of the interactions between the various levels of homotopy requires care. The ideas were handled in various ways , but we will concentrate on approaches linked to the initial work of [[Michael Boardman]] and [[Rainer Vogt]] and then developed further by [[Jean-Marc Cordier]] and [[Tim Porter]]. 
+The idea perhaps intuitively makes sense but the management of the interactions between the various levels of homotopy requires care. The ideas were handled in various ways , but we will concentrate on approaches linked to the initial work of [[Michael Boardman]] and [[Rainer Vogt]] and then developed further by [[Jean-Marc Cordier]] and [[Tim Porter]]. There was another more-or-less equivalent approach by [[Dwyer]] and [[Kan]], but this did not make the relationship with homotopy coherence quite so explicit.
 
 We will often use h.c. as an abbreviation for ''homotopy coherent''.
 
@@ -120,7 +120,7 @@ making $X$ and $Y$ homotopy equivalent as h.c. diagrams.
 a homotopy equivalent $Y$, then $Y$ will be a h. c. version of a $G$-space, i.e. a
 h. c. diagram of shape $BG$, the corresponding one object groupoid to $G$.)
 
-### Homotopy coherent nerve
+### Cordier's Homotopy coherent nerve
 
 
 
@@ -140,7 +140,7 @@ $$
 =--
 
 This suggested the extension of h.c. diagrams to other contexts such as a
-general locally Kan $SSet$-category, $\mathcal{B}$ and suggests the definition of homotopy coherent diagram in a $\mathcal{S}$-category and thus a [[homotopy coherent nerve]] of an $SSet$-category.
+general locally Kan $SSet$-category, $\mathcal{B}$ and further suggests the definition of homotopy coherent diagram in a $\mathcal{S}$-category and thus a [[homotopy coherent nerve]] of an $SSet$-category.  This was first done by Cordier and Porter in 1986, (see references). If the $SSet$-category is "locally Kan", this homotopy coherent nerve is a [[quasicategory]].
 
 
 To understand simplical h.c. diagrams and thus the h.c. simplicial [[nerve]] $N(\mathcal{B})$, we  unpack the definition of homotopy coherence, for convenience, repeating some points made in [[homotopy coherent nerve]].
@@ -160,7 +160,7 @@ we will denote the composite
 
 $$K_1 \times K_2 \to \mathcal{B}(x,y)\times \mathcal{B}(y,z) \stackrel{c}{\to} \mathcal{B}(x,z)$$
 
-just by $f_2.f_1$ or $f_2f_1$.  (We already have seen this in the h.c. diagram above for 
+just by $f_2.f_1$ or $f_2f_1$.  (We will seen this in the h.c. diagram below for 
 $\mathbb{A} = [3]$.  $X(123)X(01)$ is actually $X(123)(I \times X(01) )$, whilst $X(23)X(012)$ is exactly what it states.)
 
 
@@ -330,7 +330,7 @@ $$X(012) : X(0)\times I \to X(2),$$
 
 $$X(012) : X(02) \simeq X(12)X(01).$$
 
-1. For a diagram indexed by $[3]$: Draw a 3-simplex, marking the vertices
+2. For a diagram indexed by $[3]$: Draw a 3-simplex, marking the vertices
 $X(0), \ldots, X(3)$, the edges $X(ij)$, etc., the faces $X(ijk)$, etc.  The 
 homotopies $X(ijk)$ fit together to make the sides of a square
 
@@ -351,14 +351,14 @@ filling this square, in the sense that restricting to each side of the square in
 
 
 These can be continued for larger $[n]$, and the results glued together to
-make larger h.c. diagrams.  Of course, this is not how it is done, but it
-provides some understanding of the basic idea.  
+make larger h.c. diagrams.  Of course, this is not how it is actually done, but may
+provide some help in understanding  the basic idea.  
 
 
 
 
 
-## References
+## References and Literature
 
 For [[Rainer Vogt|Vogt]]'s theorem, the original reference is 
 
