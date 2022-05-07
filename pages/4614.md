@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -575,30 +576,31 @@ into the [[topological space]] of $i$th $n$-[[horn]]s admits a [[section]] (in [
 +-- {: .num_remark}
 ###### Remark
 
-This global notion of topological Kan fibration is considered in ([BrownSzczarba, def. 2.1, def. 6.1](#BrownSzczarba)). In fact there a stronger condition is imposed: a [[Kan complex]] in [[Set]] automatically has the lifting property not only against all full [[horn]] inclusions but also against sub-horns; and in ([BrownSzczarba](#BrownSzczarba)) all these fillers are required to be given by global sections. This ensures that with $X$ globally Kan also the [[internal hom]] $[Y,X] \in sTop$ is globally Kan, for any simplicial topological space $Y$. This is more than we need and want to impose here. For our purposes it is sufficient to observe that if $f$ is globally Kan in the sense of ([BrownSzczarba, def. 6.1](#BrownSzczarba)), then it is so also in the [above sense](#GloballyKanSimplicialTopologicalSpace).
+This global notion of topological Kan fibration is considered in ([Brown & Szczarba, def. 2.1, def. 6.1](#BrownSzczarba)). In fact there a stronger condition is imposed: a [[Kan complex]] in [[Set]] automatically has the lifting property not only against all full [[horn]] inclusions but also against sub-horns; and in ([Brown & Szczarba](#BrownSzczarba)) all these fillers are required to be given by global sections. This ensures that with $X$ globally Kan also the [[internal hom]] $[Y,X] \in sTop$ is globally Kan, for any simplicial topological space $Y$. This is more than we need and want to impose here. For our purposes it is sufficient to observe that if $f$ is globally Kan in the sense of ([Brown & Szczarba, def. 6.1](#BrownSzczarba)), then it is so also in the [above sense](#GloballyKanSimplicialTopologicalSpace).
 
 =--
 
 
-Recall from the discussion at [[universal principal ∞-bundle]] that for $G$ a [[simplicial topological group]] the [[universal simplicial principal bundle]] $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological space]]s traditionally denoted $W G \to \bar W G$. 
+Recall from the discussion at [[universal principal ∞-bundle]] that for $G$ a [[simplicial topological group]] the [[universal simplicial principal bundle]] $\mathbf{E}G \to \mathbf{B}G$ is presented by the morphism of [[simplicial topological spaces]] traditionally denoted 
+$W G \to \overline{W} G$ (see also at *[[universal principal simplicial complex]]*).  
 
 +-- {: .num_prop #SimplicialTopologicalUniversalBundle}
 ###### Proposition
 
-Let $G$ be a [[simplicial topological group]]. Then 
+Let $G$ be a [[simplicial topological group]]. Then:
 
 1. $G$ is a globally Kan simplicial topological space;
 
-1. $\bar W G$ is a globally Kan simplicial topological space;
+1. $\overline{W} G$ is a globally Kan simplicial topological space;
 
-1. $W G \to \bar W G$ is a global Kan fibration.
+1. $W G \to \overline{W} G$ is a global Kan fibration.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), the second is noted in ([RobertsStevenson](#RobertsStevenson)), the third appears as ([BrownSzczarba, lemma 6.7](#BrownSzczarba)).
+The first statement appears as ([Brown & Szczarba, theorem 3.8](#BrownSzczarba)), the second is noted in ([Roberts & Stevenson](#RobertsStevenson)), the third appears as ([Brown & Szczarba, lemma 6.7](#BrownSzczarba)).
 
 =--
 
@@ -1032,7 +1034,7 @@ See also
 
 On globally Kan simplicial spaces:
 
-* {#BrownSzczarba} E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
+* {#BrownSzczarba} [[Edgar H. Brown]], R. H. Szczarba, _Continuous cohomology and real homotopy type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 
 
 On the [[right adjoint]] to geometric realization of simplicial topological spaces 
@@ -1043,10 +1045,14 @@ On geometric relatization of [[semi-simplicial topological spaces]]:
 
 * [[Johannes Ebert]], [[Oscar Randal-Williams]], *Semi-simplicial spaces*, Algebr. Geom. Topol. 19 (2019) 2099-2150 ([arXiv:1705.03774](https://arxiv.org/abs/1705.03774))
 
-
-On Geometric realization of general [[Cech nerves]]:
+On geometric realization of general [[Cech nerves]]:
 
 * {#DuggerIsaksen} [[Dan Dugger]], [[Dan Isaksen]], _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
+
+On geometric realization of simplicial spaces as a [[left Quillen functor]] on the [[Reedy model category]] of [[Top]]:
+
+* [[Lars Hesselholt]], *Reedy model structure on the category of simplicial spaces; geometric realization is a left Quillen functor*, Lecture 11 in [Algebraic Topology I](https://www.math.nagoya-u.ac.jp/~larsh/teaching/S2008/), 2008 ([pdf](https://www.math.nagoya-u.ac.jp/~larsh/teaching/S2008/lecture11.pdf), [[Hesselholt_RealSimpSpOnReedy.pdf:file]])
+
 
 ### (Non-)Compatibility with homotopy pullbacks
  {#ReferencesCompatibilityHomotopyPullback}
