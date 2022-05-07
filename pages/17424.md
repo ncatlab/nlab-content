@@ -37,7 +37,7 @@ For $n \in \mathbb{N}$, the real projective space $\mathbb{R}P^n$ admits the str
 +-- {: .proof}
 ###### Proof
 
-Use that $\mathbb{R}P^n \simeq S^n/(\mathbb{Z}/2)$ is the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere]] by the $\mathbb{Z}/2$-action which identifies antipodal points.
+Use that $\mathbb{R}P^n \simeq S^n/(\mathbb{Z}/2)$ is the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere]] by the $\mathbb{Z}/2$-action which identifies [[antipode|antipodal points]].
 
 The standard CW-complex structure of $S^n$ realizes it via two $k$-cells for all $k \in \{0, \cdots, n\}$, such that this $\mathbb{Z}/2$-action restricts to a homeomorphism between the two $k$-cells for each $k$. Thus $\mathbb{R}P^n$ has a CW-complex structure with a single $k$-cell for all $k \in \{0,\cdots, n\}$. 
 
