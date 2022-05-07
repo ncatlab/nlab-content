@@ -13,6 +13,9 @@ On [[Yang-Mills monopoles]]:
 
 * [[Michael Murray]], *Stratifying monopoles and rational maps*, Commun. Math. Phys. 125, 661–674 (1989) ([doi:10.1007/BF01228347](https://doi.org/10.1007/BF01228347))
 
+* [[Jacques Hurtubise]], [[Michael K. Murray]], *Monopoles and their spectral data*, Comm. Math. Phys. 133(3): 487-508 (1990) ([euclid:cmp/1104201504](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-133/issue-3/Monopoles-and-their-spectral-data/cmp/1104201504.full))
+
+
 
 Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] in degree 3 via [[bundle gerbes]] ([[Jandl gerbes]]) suitable for classifying [[D-brane charge]] on [[orientifolds]]:
 
@@ -29,3 +32,6 @@ Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] i
 * [[Chern-Simons 2-gerbe]]
 
 category: people
+
+
+[[!redirects Michael K. Murray]]
