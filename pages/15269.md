@@ -153,7 +153,7 @@ An analogous discussion for [[derived categories]] of coherent sheaves is in
 
 See also:
 
-* Duiliu-Emanuel Diaconescu, Mauro Porta, Francesco Sala, _McKay correspondence, cohomological Hall algebras and categorification_ ([arXiv:2004.13685](https://arxiv.org/abs/2004.13685))
+* [[Duiliu-Emanuel Diaconescu]], Mauro Porta, Francesco Sala, _McKay correspondence, cohomological Hall algebras and categorification_ ([arXiv:2004.13685](https://arxiv.org/abs/2004.13685))
 
 
 
