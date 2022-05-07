@@ -213,3 +213,5 @@ Appendix A.2 of
 [[!redirects Quillen bifunctors]]
 [[!redirects left Quillen bifunctor]]
 [[!redirects left Quillen bifunctors]]
+[[!redirects right Quillen bifunctor]]
+[[!redirects right Quillen bifunctors]]
