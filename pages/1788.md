@@ -1,6 +1,8 @@
 
-\begin{prop}
-  If $G$ is a [[finite group]] then its Pontrjagin dual is equivalently its [[cohomology group]] in degree-2 [[group cohomology]] with [[integer coefficients]]:
+\begin{prop}\label{PontrajginDualOfCompactGroupAsSecondGroupCohomologyGroup}
+  **(Pontrjagin dual of compact group as second group cohomology group)**
+  \linebreak
+  If $G$ is a [[finite group]] (more generally: a [[compact Lie group]]) then its Pontrjagin dual is equivalently its [[cohomology group]] in degree-2 [[group cohomology]] (more generally: refined [[Lie group cohomology]]) with [[integer]] [[coefficients]]:
   $$
     \widehat{G}
     \;\simeq\;
@@ -19,9 +21,161 @@
     \big)
     \,.
   $$
-
-  Since $H^{\bullet\geq 1}(G;\, \mathbb{R}) \,=\, 0$ for finite groups, the [[long exact sequence]] of [[n-groups]] $\mathbb{Z} \xhookrightarrow{\;} \mathbb{R} \twoheadarrow S^1 \xrightarrow{\;\;} B \mathbb{Z}$
 \end{prop}
+\begin{proof}
+  The key point is that, by assumption on $G$, we have
+  \[
+    \label{RealGroupCohomologyOfCompactGroupVanishes}
+    H^{\bullet \geq 1}_{grp}
+    \big(
+      G;\, \mathbb{R} 
+    \big)
+    \;=\;
+    0
+    \,.
+  \]
+
+Using this, the conclusion is obtained as follows:
+The defining [[short exact sequence]] of [[groups]]
+$$
+  \mathbb{Z} \xhookrightarrow{\;} \mathbb{R} \twoheadrightarrow S^1
+$$
+extends to a [[homotopy fiber sequence]] of [[2-groups]] (and further of [[n-groups]])
+$$
+  \mathbb{Z}
+    \xrightarrow{\;\;}
+  \mathbb{R}
+    \xrightarrow{\;\;}
+  S^1 
+    \xrightarrow{\;\;} 
+  B \mathbb{Z}
+    \xrightarrow{\;\;} 
+  B \mathbb{R}
+    \xrightarrow{\;\;} 
+  \cdots
+  \,.
+$$
+
+This induces a [[long exact sequence]] of [[cohomology groups]] induced from the [[long exact sequence of homotopy groups]] of image under this fiber sequence under the [[derived hom-space]] $\mathbf{H}(B G,-) \coloneqq Maps(B G;\, -)$:
+$$
+  \array{
+  \cdots
+  &\to&
+  \pi_1
+  \left(
+    \mathbf{H}(B G, \, B^2 \mathbb{R})
+  \right)
+  &\xrightarrow{\;\;}&
+  \pi_1
+  \left(
+    \mathbf{H}(B G, \, B^2 S^1)
+  \right)
+  &\xrightarrow{\;\;}&
+  \pi_0
+  \left(
+    \mathbf{H}(B G, \, B^2 \mathbb{Z})
+  \right)
+  &\xrightarrow{\;\;}&
+  \pi_0
+  \left(
+    \mathbf{H}(B G, \, B^2 \mathbb{R})
+  \right)
+  &\to&
+  \cdots
+  \\
+  &&
+  =
+  &&
+  =
+  &&
+  =
+  &&
+  =
+  \\
+  \cdots
+  &\to&
+  \underset{
+    = 0
+  }{
+  \underbrace{
+  H^1
+  \big(
+    B G
+    \;,
+    \mathbb{R}
+  \big)
+  }
+  }
+  &\xrightarrow{\;\;}&
+  H^1
+  \big(
+    B G
+    \;,
+    S^1
+  \big)
+  &\xrightarrow{\;\simeq\;}&
+  H^2
+  \big(
+    B G
+    \;,
+    \mathbb{Z}
+  \big)
+  &\xrightarrow{\;\;}&
+  \underset{
+    = 0
+  }{
+  \underbrace{
+  H^2
+  \big(
+    B G
+    \;,
+    \mathbb{R}
+  \big)
+  }
+  }
+  &\to&
+  \cdots
+  \,.
+  }
+$$
+Using the assumption (eq:RealGroupCohomologyOfCompactGroupVanishes) under the braces, this implies the middle isomorphism, as shown.
+
+Now the claim follows by re-expressing $H^1(G;\, S^1)$ as follows:
+
+$$
+  \begin{aligned}
+  H^2(B G;\, \mathbb{Z})
+  \;\simeq\;
+  H^1(B G;\, S^1)
+  &
+  \;\simeq\;
+  \pi_0 \mathbf{H}\big( B G, \, B S^1 \big)
+  \\
+  &
+  \;\simeq\;
+  \pi_0 Groupoids\big( G \rightrightarrows \ast, \, S^1 \rightrightarrows \ast \big)
+  \\
+  & \;\simeq\;
+  \pi_0 
+  \Big(
+    Groups\big(G,S^1\big) \sslash S^1
+  \Big)
+  \\
+  & \;\simeq\;
+  \pi_0 
+  \Big(
+    Groups\big(G,\,S^1\big) \times B S^1
+  \Big)
+  \\
+  & \;\simeq\;
+  Groups(G,S^1)
+  \;\simeq\;
+  \widehat G
+  \,,
+  \end{aligned}
+$$
+where the last step uses that the [[circle group]], being [[abelian]], has [[trivial action|trivial]] [[conjugation action]] on the [[hom-set]] of [[group homomorphisms]].
+\end{proof}
 
 
 $$
