@@ -22,7 +22,7 @@
  {#Idea}
 
 In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 2014](#&solb;)) with respect to simple or archetypal counterexamples represented by finite preorders, and closely following standard definitions. It is convenient to refer
-as __the left/right Quillen negation of a morphism__
+as _the left/right [[Quillen negation]] of a morphism_
 to the class of morphism having the left/right lifting property
 with respect to the morphism, and say that the separation axioms
 are defined by the Quillen negation of archetypal counterexamples.
