@@ -123,6 +123,10 @@ This conjecture has been established in ([Elgueta 2021](#Elg21)). See also ([Com
 
 ## References
 
+A textbook treatment is given in 
+
+* [[Niles Johnson]], [[Donald Yau]], _Bimonoidal Categories, $E_n$-Monoidal Categories, and Algebraic K-Theory_ ([arXiv:2107.10526](https://arxiv.org/abs/2107.10526)).
+
 The [[coherence law|coherence]] for the [[distributivity law]] in bimonoidal categories has been given in
 
 * M. Laplaza, _Coherence for distributivity_, Lecture Notes in Mathematics 281, Springer Verlag, Berlin, 1972, pp. 29-72.
