@@ -1,4 +1,14 @@
 
+$$
+  B H \to B G
+$$
+
+$\simeq$
+
+$$
+  H \backslash\!\!\backslash G \sslash G
+$$
+
 
 $$
 \{
