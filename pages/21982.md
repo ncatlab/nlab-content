@@ -83,7 +83,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int. J. Geom. Meth. Mod. Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
 
-* [[Jarah Evslin]], _What Does(n't) K-theory Classify?_ ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328))
+* [[Jarah Evslin]], _What Does(n't) K-theory Classify?_, Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328), [spire:730502](https://inspirehep.net/literature/730502))
 
 
 * [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([doi:10.1007/978-3-540-74956-1](https://doi.org/10.1007/978-3-540-74956-1), [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
