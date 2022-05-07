@@ -167,7 +167,11 @@ Dependent (multivariate) polynomial functors are considered in
 Talks on polynomial functors are available at
 
 * _Workshop on Polynomial Functors_, Topos Institute,
-15–19 March 2021, ([website](https://topos.site/p-func-2021-workshop/))
+15–19 March 2021. ([website](https://topos.site/p-func-2021-workshop/))
+
+A book in progress and a course on polynomial functors are available at
+
+* Nelson Niu & [[David Spivak]], _Polynomial Functors: A General Theory of Interaction_, Topos Institute, 15 July - 26 August 2021. ([website](https://topos.site/poly-course/), [pdf](https://github.com/ToposInstitute/poly/raw/main/Book-Poly.pdf))
 
 Generalization to [[homotopy theory]] and [[higher category theory]] is discussed in 
 
