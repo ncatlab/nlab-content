@@ -22,7 +22,7 @@ Quotient inductive types are [[higher inductive types]] with a [[0-truncation]] 
 
 ## Examples
 
-All higher inductive types described below are given together with some pseudo-[[Coq]] code, which would implement that HIT if Coq supported HITs natively.
+All quotient inductive types described below are given together with some pseudo-[[Coq]] code, which would implement that QIT if Coq supported QITs natively.
 
 ### Integers
 
@@ -116,7 +116,9 @@ According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] th
 
 ### Partial map classifiers
 
-From Altenkirch et al. 2018
+From Altenkirch, Danielsson, and Kraus 2016
+
+Examples include the [[Sierpinski space]] $1_\bot$. 
 
 ### Internal type theory
 
@@ -128,4 +130,12 @@ From Altenkirch and Kaprosi 2017
 
 ## References
 
-* {#AltenkirchKaprosi} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
+* [[Univalent Foundations Project]], section 11 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
+
+* [[Thorsten Altenkirch]], Nils Anders Danielsson, Nicolai Kraus, _Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type_ [arXiv](https://arxiv.org/abs/1610.09254), 2016
+
+* Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
+
+* Thorsten Altenkirch, Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, POPL17, 2017 [PDF](http://www.cs.nott.ac.uk/~psztxa/publ/tt-in-tt.pdf)
+
+* Thorsten Altenkirch, Luis Scoccola, _The Integers as a Higher Inductive Type_, [arXiv](https://arxiv.org/abs/2007.00167)
