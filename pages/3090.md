@@ -336,3 +336,5 @@ Every [[covering space]] projection is a Serre fibration, in fact a [[Hurewicz f
 * {#Cauty92} R. Cauty, _Sur les ouverts des CW-complexes et les fibr&#233;s de Serre_,  Colloquy Math. 63 (1992), 1--7
 
 [[!redirects Serre fibrations]]
+[[!redirects Serre fibration of topological spaces]]
+[[!redirects Serre fibrations of topological spaces]]
