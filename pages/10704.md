@@ -284,3 +284,6 @@ Formalization in [[homotopy type theory]]:
 
 [[!redirects p-local homotopy type]]
 [[!redirects p-local homotopy types]]
+
+[[!redirects localization of spaces]]
+[[!redirects localizations of spaces]]
