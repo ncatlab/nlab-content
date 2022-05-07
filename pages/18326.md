@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,10 +15,10 @@
 
 ## Idea
 
-A **Freyd category** is one way to axiomatize models of [[call-by-value]] programming languages.
-It abstracts the structure of the [[Kleisli category]] of a [[monad in computer science|monad]], consisting of a category $\mathbb{V}$ that model values and another category with the same objects $\mathbb{C}$ that model computations.
+A **Freyd category** is one way to axiomatize models of [[call-by-value]] [[programming languages]].
+It abstracts the structure of the [[Kleisli category]] of a [[monad in computer science|monad]], consisting of a [[category]] $\mathbb{V}$ that models values and another category with the same [[objects]] $\mathbb{C}$ that models computations.
 
-Freyd categories thus provide a categorical semantics for typed programming languages with side effects such as memory access or printing. This is in the spirit of the discussion at [[relation between type theory and category theory]], except that page is for non-side-effecting languages. The types of the programming language are interpreted as objects of the categories. A [[type|typed]] term (i.e., program expression) $\Gamma\vdash t : X$ is interpreted as a morphism $\Gamma \to X$ in $\mathbb{C}$. Among the terms, it is often very important to identify those that are "values", which in particular have no side effects, and these are interpreted as morphisms in $\mathbb{V}$. Freyd categories are based around premonoidal categories, which captures the fact that reordering the execution of side effects is often subtle. 
+Freyd categories thus provide a [[categorical semantics]] for typed [[programming languages]] with [[side effects]] such as memory access or printing. This is in the spirit of the discussion at [[relation between type theory and category theory]], except that page is for non-side-effecting languages. The types of the programming language are interpreted as objects of the categories. A [[type|typed]] term (i.e., program expression) $\Gamma\vdash t \colon X$ is interpreted as a morphism $\Gamma \to X$ in $\mathbb{C}$. Among the terms, it is often very important to identify those that are "values", which in particular have no side effects, and these are interpreted as morphisms in $\mathbb{V}$. Freyd categories are based around premonoidal categories, which captures the fact that reordering the execution of side effects is often subtle. 
 
 Freyd categories resolve the following complaint about using [[monad]]s and [[Kleisli category|Kleisli categories]] to model impure effects in programming languages. The Kleisli category for a monad presumes the existence of some slightly higher-order types, since if $X$ is an object then so is $T(X)$, and yet it is surely possible to understand the nature of effectful computation without also assuming the existence of certain types. Freyd categories make sense even for purely first order programming languages, and the object $T(X)$, if it exists, has a universal property, thus decoupling this relationship. 
 
@@ -84,7 +85,7 @@ On the other hand, a colimit-preserving monad on $\hat{\mathbb{V}}$ is the [same
 
 Freyd categories were first used in
 
-* John Power and Hayo Thielecke "Environments, Continuation Semantics and&#160;Indexed Categories",  Theoretical Aspects of Computer Software, Third International Symposium, TACS '97
+* [[John Power]] and Hayo Thielecke "Environments, Continuation Semantics and&#160;Indexed Categories",  Theoretical Aspects of Computer Software, Third International Symposium, TACS '97
 
 and named Freyd categories in
 
@@ -100,15 +101,15 @@ The definition with monoidal actions appears in
 
 The idea of extending Freyd categories to monads on presheaf categories appears in
 
-* John Power, "Generic models for computational effects",  Theor. Comput. Sci. 364(2): 254-269 (2006)
+* [[John Power]], "Generic models for computational effects",  Theor. Comput. Sci. 364(2): 254-269 (2006)
 
 This also contains the observation that enriched Lawvere theories are examples of Freyd categories, but the precise correspondence between the concepts is given in
 
-* {#Staton14} _Staton, S., 2014. Freyd categories are Enriched Lawvere Theories. Electronic Notes in Theoretical Computer Science, Proceedings of the Workshop on Algebra, Coalgebra and Topology (WACT 2013) 303, 197&#8211;206. [doi:10.1016/j.entcs.2014.02.010](https://doi.org/10.1016/j.entcs.2014.02.010) (free)_. 
+* {#Staton14} [[Sam Staton]], 2014. *Freyd categories are Enriched Lawvere Theories*. Electronic Notes in Theoretical Computer Science, Proceedings of the Workshop on Algebra, Coalgebra and Topology (WACT 2013) 303, 197&#8211;206. [doi:10.1016/j.entcs.2014.02.010](https://doi.org/10.1016/j.entcs.2014.02.010) (free). 
 
 The connection with monads in the category of profunctors is discussed in
 
-* Bart Jacobs, Chris Heunen, Ichiro Hasuo, "Categorical semantics for arrows". J. Funct. Program. 19(3-4): 403-438. 2009.
+* [[Bart Jacobs]], [[Chris Heunen]], Ichiro Hasuo, "Categorical semantics for arrows". J. Funct. Program. 19(3-4): 403-438. 2009.
 [preprint pdf](http://homepages.inf.ed.ac.uk/cheunen/publications/2008/arrows/arrows.pdf)
 
 and 
