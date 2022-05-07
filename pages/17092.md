@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -35,7 +36,7 @@ For maps $F \colon E \longrightarrow F$ between genuine [[G-spectra]], they are 
 
 ## Related concepts
 
-* [[G-CW approximation]]
+* [[G-CW approximation theorem]], [[equivariant cellular approximation theorem]]
 
 * [[Elmendorf's theorem]]
 
