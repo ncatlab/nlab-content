@@ -9,6 +9,10 @@ On [[bundle gerbes]]:
 
 * [[Michael Murray]], _Bundle gerbes_, J. Lond. Math. Soc. **54** (1996) pp. 403-416 ([arXiv:dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015))
 
+On [[Yang-Mills monopoles]]:
+
+* [[Michael Murray]], *Stratifying monopoles and rational maps*, Commun. Math. Phys. 125, 661–674 (1989) ([doi:10.1007/BF01228347](https://doi.org/10.1007/BF01228347))
+
 
 Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] in degree 3 via [[bundle gerbes]] ([[Jandl gerbes]]) suitable for classifying [[D-brane charge]] on [[orientifolds]]:
 
