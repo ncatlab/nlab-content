@@ -1,4 +1,4 @@
-column+-- {: .rightHandSide}
++-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### $(\infty,1)$-Category theory
@@ -165,7 +165,7 @@ and hence may consistently be named $S$.
 
 ### For the cosimplicial $sSet$-category {#IllustratOfCosimpSSetCat}
 
-We illustrate here the nature of the cosimplicial $sSet$-category $S : [n] \mapsto S[n]$, viewed from the combinoatiral viewpoint above.
+We illustrate here the nature of the cosimplicial $sSet$-category $S : [n] \mapsto S[n]$, viewed from the combinatoiral viewpoint above.
 
 We will examine the lowest dimensional cases. 
 
@@ -193,20 +193,10 @@ $$
 $$
 
 so in $S[2](0,2)$, there is a 1-simplex $k$ starting at $\{0,1,2\}$ and ending at $\{0,2\}$.  
-\begin{tikzcd}[column sep=small]
-& 1  \arrow[dr] & \\
-0 \arrow{rr}\arrow[ur] & & 2
-\end{tikzcd}
 
-$$
-    \array{
-      & \nearrow\searrow^{\{0,2\}}
-      \\
-      0 &\!\!\!\!\!\!\Uparrow^{{k}}& 2
-      \\
-      & \searrow \nearrow_{\{0,1,2\}}
-    }
-$$
+\begin{center}\begin{xymatrix} &1\ar[dr]^{(1,2)}&\\
+ 0\ar[ur]^{(0,1)} \ar[rr]_{(0,2)}\ar@{}[rr]<3ex>^{\Large{\Downarrow} (0,1,2)}&&2\end{xymatrix}\end{center}
+
 
 Since $(0,1,2)$ is a product of $(0,1)$ and $(1,2)$, this simplex can also be depicted as $(1,2) \cdot (0,1) \Rightarrow (0,2)$.
 
@@ -409,6 +399,7 @@ Thus, the decomposable faces of $S(\Delta^n)(0,n)$ are the ones omitting the top
 ## Related concepts
 
 ### Comonadic resolution
+(To be edited)
 
 The use of $S[A]$, above, extends that given at the start of this page. Here $S$ is related  to the [[left adjoint]] of the homotopy coherent nerve, but is defined using a [[comonadic resolution]].  The [[comonad]] comes from the adjunction between small categories and directed graphs with distinguished 'unit' loops. The 'forgetful' part of the adjunction forgets the composition in the category, but remembers that the identity arrows are special. The left adjoint /  'free' part of the adjunction takes a directed graph (with distinguished 'identity' loops, and forms the free category on the non-identity arrows. As usual, we can form a [[comonad]] from this  and hence form a functorial [[simplicial resolution]] of any small category, $A$.  
 
