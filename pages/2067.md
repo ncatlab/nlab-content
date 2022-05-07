@@ -299,7 +299,72 @@ in $X/{x_2}$ and evidently is the identity there if and only if $h$ is the ident
 
 ### In $(\infty,1)$-categories
 
-The notion of cartesian morphism generalizes from [[category theory]] to [[(∞,1)-category theory]]. We describe it for two different incarnations of the notion of [[(∞,1)-category]]: [[quasi-categories]] and [[simplicially enriched categories|sSet categories]].
+The notion of cartesian morphism generalizes from [[category theory]] to [[(∞,1)-category theory]]. We can give an abstract definition
+
++-- {: .num_defn}
+###### Definition
+**(cartesian edge in an $(\infty,1)$-category)**
+
+Let $p : X \to Y$ be a functor of [[(∞,1)-categories]]. Then, a [[morphism]] $f : x \to x'$ in $X$ is **$p$-cartesian** if and only if the commutative square induced by the distributivity of $p$ over composition 
+
+  \begin{centre}
+    \begin{tikzcd}
+      X(a,x) \arrow[r, "{X(a,f)}"] \arrow[d, "p"]
+      & X(a,x') \arrow[d, "p"]
+      \\ Y(p(a),p(x)) \arrow[r, "{Y(p(a),p(f))}"]
+      & Y(p(a),p(x'))
+    \end{tikzcd}
+  \end{centre}
+
+
+is a pullback square for every $a \in X$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $p : X \to Y$ be a functor of [[(∞,1)-categories]]. Then, a [[morphism]] $f : x \to x'$ in $X$ is $p$-cartesian iff the commutative square
+
+  \begin{centre}
+    \begin{tikzcd}
+      X_{/x} \arrow[r, "{f_!}"] \arrow[d, "p"]
+      & X_{/x'} \arrow[d, "p"]
+      \\ Y_{/p(x)} \arrow[r, "{p(f)_!}"]
+      & Y_{/p(x')}
+    \end{tikzcd}
+  \end{centre}
+
+
+is a pullback square.
+
+=--
++-- {: .proof}
+###### Proof
+
+The definition of being $p$-cartesian can be described as a pullback square of hom-functors. By the contravariant [[(∞,1)-Grothendieck construction]], $X(-, x)$ is classified by the [[right fibration]], $X_{/x} \to X$, and $Y(p-, p(x))$ is classified by the pullback of $Y_{/p(x)} \to Y$ along $p$; that is by the [[comma category]] $(p \downarrow p(x)) \to Y$. There is a commutative diagram
+
+
+  \begin{centre}
+    \begin{tikzcd}
+      X_{/x} \arrow[r, "{f_!}"] \arrow[d, "p"]
+      & X_{/x'} \arrow[d, "p"]
+      \\ (p \downarrow p(x)) \arrow[r] \arrow[d]
+      & (p \downarrow p(x') \arrow[r] \arrow[d]
+      & X \arrow[d, "p"]
+      \\ Y_{/p(x)} \arrow[r, "{p(f)_!}"]
+      & Y_{/p(x')} \arrow[r] & Y
+    \end{tikzcd}
+  \end{centre}
+
+The bottom-right square and wide rectangle are pullbacks by construction. By the [[pasting law]], the bottom-left square is a pullback, and thus the top-left square is a pullback if and only if the tall rectangle is.
+
+By the [[(∞,1)-Grothendieck construction]], the top-left square is a pullback iff $f$ is $p$-cartesian, so the proposition follows.
+
+=--
+
+
+We can also discuss adaptations of the abstract idea to two different models of [[(∞,1)-category]] theory:  [[quasi-categories]] and [[simplicially enriched categories|sSet categories]].
 
 #### In quasi-categories
 
