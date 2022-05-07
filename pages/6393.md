@@ -62,7 +62,7 @@ There are other formulations of the [[superstring]] which are thought to be equi
 
 ### General
 
-The original articles that formulated the NSR model are
+The original articles that formulated the NSR model:
 
 * [[André Neveu]], [[John Schwarz]], _Factorizable dual model of pions_, Nucl. Phys. B31, 86 (1971) (<a href="https://doi.org/10.1016/0550-3213(71)90448-2">doi:10.1016/0550-3213(71)90448-2</a>)
 
@@ -73,7 +73,7 @@ The original articles that formulated the NSR model are
 * {#FriedanMartinecShenker86} [[Daniel Friedan]], [[Emil Martinec]], [[Stephen Shenker]], _Conformal invariance, supersymmetry and string theory_, Nucl. Phys., B271 (1986) 93 (<a href="https://doi.org/10.1016/S0550-3213(86)80006-2">doi:10.1016/S0550-3213(86)80006-2</a>)
 
 
-Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string include
+Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string:
 
 * [[Stanley Deser]], [[Bruno Zumino]], _A complete action for the spinning string_ Physics Letters B 65 (4): 369-373 (1976) ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
 
@@ -86,6 +86,11 @@ Definition of the NSR string in [[RR-field]] [[background field|backgrounds]] is
 See also 
 
 * Nathan Benjamin, Ying-Hsuan Lin, _Lessons from the Ramond sector_ ([arXiv:2005.02394](https://arxiv.org/abs/2005.02394))
+
+Relation to the [[Berkovits superstring]]:
+
+
+* [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* ([arXiv:2106.04448](https://arxiv.org/abs/2106.04448))
 
  
 
