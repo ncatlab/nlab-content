@@ -162,9 +162,7 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 * [[Saunders MacLane]], Section III.6 in: _[[Categories for the Working Mathematician]]_, Springer (1971) 
 
-* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
-
-
+* [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], p. 7 in: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
 
 * Florian Marty, Dections 1.2, 1.3 in: _Des Ouverts Zariski et des Morphismes Lisses en G&#233;om&#233;trie Relative_, Ph.D. Thesis, 2009 ([web](http://thesesups.ups-tlse.fr/540/))
