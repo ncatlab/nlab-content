@@ -55,14 +55,24 @@ Any ordinary [[category]] $C$ gives rise to three relative categories in a funct
 * A **maximal homotopical category** $max C$, in which every morphism is a weak equivalence.
 
 
-
-
 ## Properties
+
+### Categories of relative categories
+
+Let $\mathbf{RelCat}$ be the [[large category]] of [[small category|small]] relative categories and relative functors. It is a [[locally presentable category|locally finitely presentable]] [[cartesian closed category]], and we refer to the [[exponential object]] $[C, D]_h$ as the **relative functor category**. $\mathbf{RelCat}$ is, in particular, a ([[strict 2-category|strict]]) [[2-category]].
+
+Let $\mathbf{SsRelCat}$ be the full subcategory of semi-saturated relative categories. The inclusion $\mathbf{SsRelCat} \hookrightarrow \mathbf{RelCat}$ has a left [[adjoint]] that preserves finite [[product|products]], so $\mathbf{SsRelCat}$ is a [[reflective subcategory|reflective]] [[exponential ideal]] of $\mathbf{RelCat}$.
+
+There are then the following strings of [[adjunctions]]:
+$$min \dashv und \dashv max \dashv weq : \mathbf{RelCat} \to \mathbf{Cat}$$
+$$Ho \dashv min^+ : \mathbf{Cat} \to \mathbf{RelCat}$$
+$$Ho \dashv min^+ \dashv und \dashv max \dashv weq : \mathbf{SsRelCat} \to \mathbf{Cat}$$
+Moreover, because $min^+$ embeds $\mathbf{Cat}$ as a reflective exponential ideal in $\mathbf{SsRelCat}$ and in $\mathbf{RelCat}$, the functor $Ho : \mathbf{SsRelCat} \to \mathbf{Cat}$ preserves finite products.
 
 ### As enriched categories
  {#AsEnrichedCategories}
 
-The application of relative categories as expressing the idea of having a subcategory of distinguished morphisms can be neatly packaged into viewing relative categories as [[enriched categories]] over the category of sets with distinguished subsets (see also at *[[F-category]]* for a [[2-category]]-theoretic version of this idea).
+The application of relative categories as expressing the idea of having a subcategory of distinguished morphisms can be neatly packaged into viewing relative categories as [[enriched categories]] over the category of sets with distinguished subsets. An equivalent formulation is that of an *[[M-category]]* (see also at *[[F-category]]* for a [[2-category]]-theoretic version of this idea).
 
 Let $PairSet$ be the [[cartesian closed category]] whose objects are pairs of small sets $(X, A)$ such that $A \subseteq X$, and whose morphisms $(X, A) \to (Y, B)$ are functions $f : X \to Y$ with $f(A) \subseteq B$.
 
@@ -88,19 +98,6 @@ that restricts to $W(Y,Z) \times W(X,Y) \to W(X,Z)$
 that is subject to identity and associativity relations. It's immediate that this is exactly the same data as a relative category $(C,W)$. And under this identification, enriched functors and relative functors are the same thing.
 
 =--
-
-
-### Categories of relative categories
-
-Let $\mathbf{RelCat}$ be the [[large category]] of [[small category|small]] relative categories and relative functors. It is a [[locally presentable category|locally finitely presentable]] [[cartesian closed category]], and we refer to the [[exponential object]] $[C, D]_h$ as the **relative functor category**. $\mathbf{RelCat}$ is, in particular, a ([[strict 2-category|strict]]) [[2-category]].
-
-Let $\mathbf{SsRelCat}$ be the full subcategory of semi-saturated relative categories. The inclusion $\mathbf{SsRelCat} \hookrightarrow \mathbf{RelCat}$ has a left [[adjoint]] that preserves finite [[product|products]], so $\mathbf{SsRelCat}$ is a [[reflective subcategory|reflective]] [[exponential ideal]] of $\mathbf{RelCat}$.
-
-There are then the following strings of [[adjunctions]]:
-$$min \dashv und \dashv max \dashv weq : \mathbf{RelCat} \to \mathbf{Cat}$$
-$$Ho \dashv min^+ : \mathbf{Cat} \to \mathbf{RelCat}$$
-$$Ho \dashv min^+ \dashv und \dashv max \dashv weq : \mathbf{SsRelCat} \to \mathbf{Cat}$$
-Moreover, because $min^+$ embeds $\mathbf{Cat}$ as a reflective exponential ideal in $\mathbf{SsRelCat}$ and in $\mathbf{RelCat}$, the functor $Ho : \mathbf{SsRelCat} \to \mathbf{Cat}$ preserves finite products.
 
 
 ### Model structures
