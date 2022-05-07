@@ -39,7 +39,7 @@ The term is also used for a [[Reedy model structure|Reedy fibrant]] replacement 
 
 [[Cocones]] under a simplicial diagram are exactly the [[augmented simplicial objects]], so a simplicial resolution of $c$ can alternately be described as an augmented simplicial object $y_\bullet : \Delta^{op}_+ \to C$ that is a colimiting cocone, and such that $y_{-1} = c$.
 
-### Examples 
+## Examples 
 
 1. A basic example is the free simplicial resolution of a group.
 
@@ -95,7 +95,7 @@ This leads to the subject of [[monadic cohomology]].
 
 Classical soureces include Godement's book, 
 
-** [[Roger Godement]], _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
+* [[Roger Godement]], _Topologie Algébrique et Théorie des Faisceaux_. Actualités Sci. Ind. No. 1252. Publ. Math. Univ. Strasbourg. No. 13 Hermann, Paris 1958.
 
 
 but the theory is explained in many sources including the monograph:
