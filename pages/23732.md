@@ -3,9 +3,9 @@
 
 ## Selected writings
 
-On [[motives]] over positive characteristic bases (developing techniques to avoid [[resolution of singularities]]):
+On [[motives]] over [[positive characteristic]] bases (developing techniques to avoid [[resolution of singularities]]):
 
-* [[Shane Kelly]], _Voevodsky motives and ldh descent_, Asterisque 391 (2017), [arXiv version](https://arxiv.org/abs/1305.5349).
+* [[Shane Kelly]], _Voevodsky motives and ldh descent_, Asterisque 391 (2017), [arXiv:1305.5349](https://arxiv.org/abs/1305.5349).
 
 On the proof that [[sheaf toposes are equivalently the left exact reflective subcategories of presheaf toposes]]:
 
