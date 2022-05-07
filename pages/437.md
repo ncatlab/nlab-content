@@ -115,6 +115,16 @@ Path objects are used to define a notion of [[right homotopy]] between morphisms
 
 From a path space object may be derived [[loop space object]]s.
 
+## References
+
+The general definition in [[model categories]] is due to:
+
+* {#Quillen67} [[Daniel Quillen]], Section I.1, Def. 4, p. 9 (15 of 165) in: _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967 ([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
+
+Lecture notes:
+
+* *[[Introduction to Homotopy Theory]]*, around [this Def.](Introduction+to+Homotopy+Theory#PathAndCylinderObjectsInAModelCategory)
+
 
 [[!redirects path object]]
 [[!redirects path objects]]
