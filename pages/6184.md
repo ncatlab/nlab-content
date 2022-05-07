@@ -25,8 +25,9 @@ Dowker, _On Verlinde's formula for the dimensions of vector bundles on moduli sp
 
 * Juergen Fuchs, Christoph Schweigert, _A representation theoretic approach to the WZW Verlinde formula_, 1997
 
-A generalization to logarithmic CFTs has been suggested in
+A generalization to [[logarithmic 2d CFTs]] has been suggested in:
 
-* Thomas Creutzig, Terry Gannon, _Logarithmic conformal field theory, log-modular tensor categories and modular forms_ J. Phys. A __50__, 404004 (2017) [doi](https://doi.org/10.1088/1751-8121/aa8538)
+* [[Thomas Creutzig]], [[Terry Gannon]], _Logarithmic conformal field theory, log-modular tensor categories and modular forms_, J. Phys. A __50__, 404004 (2017) ([doi:10.1088/1751-8121/aa8538](https://doi.org/10.1088/1751-8121/aa8538), [arXiv:1605.04630](https://arxiv.org/abs/1605.04630))
 
 [[!redirects Verlinde formulas]]
+
