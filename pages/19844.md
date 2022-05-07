@@ -817,6 +817,7 @@ In relation to [[electroweak field|electroweak]] [[precision measurements]]:
 
 * Jorge Alda, Jaume Guasch, Siannah Penaranda, _Anomalies in B mesons decays: A phenomenological approach_ ([arXiv:2012.14799](https://arxiv.org/abs/2012.14799))
 
+* Jorge Alda, Jaume Guasch, Siannah Penaranda, *Anomalies in B mesons decays: Present status and future collider prospects* ([arXiv:2105.05095](https://arxiv.org/abs/2105.05095))
 
 
 
@@ -927,6 +928,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 * {#HLN21} Gudrun Hiller, Dennis Loose, Ivan Nišandžić, _Flavorful leptoquarks at the LHC and beyond: Spin 1_ ([arXiv:2103.12724](https://arxiv.org/abs/2103.12724))
 
 * {#GST21} [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
+
+* [[Andreas Crivellin]], Luc Schnell, *Complete Set of Feynman Rules for Scalar Leptoquarks* ([arXiv:2105.04844](https://arxiv.org/abs/2105.04844))
+
 
 \linebreak
 
