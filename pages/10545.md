@@ -284,9 +284,9 @@ $$
 
 on generators:
 
-* $\xi_n$ being the linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$;
+* $\xi_n$ being the linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$, has degree $2p^i - 2$;
 
-* $\tau_n$ being linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
+* $\tau_n$ being linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$, has degree $2p^i - 1$.
 
 Moreover, the coproduct on $\mathcal{A}^\ast_{\mathbb{F}_p}$ is given by
 
