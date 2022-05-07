@@ -109,6 +109,8 @@ The reluctance to add function spaces is similar to the problem of function spac
 ## References
  {#References}
 
+For more see also the references at _[[constructive mathematics]]_.
+
 The roots of Brouwer's intuitionism are apparently in his PhD thesis
 
 * [[L.E.J. Brouwer]], _Over de Grondslagen der Wiskunde, PhD thesis_, Universiteit van Amsterdam, 1907.
@@ -121,27 +123,29 @@ Early exposition and endorsement:
 
 * [[Hermann Weyl]], *Über die neue Grundlagenkrise der Mathematik*, Zürich 1920 ([gdz](https://gdz.sub.uni-goettingen.de/id/PPN266833020_0010?tify={%22pages%22:[45],%22panX%22:0.525,%22panY%22:0.381,%22view%22:%22info%22,%22zoom%22:0.659}), [purl:PPN266833020_0010](http://resolver.sub.uni-goettingen.de/purl?PPN266833020_0010))
 
-Then an axiomatization of intuitionistic mathematics is given in
+* [[Hermann Weyl]], *Die heutige Erkenntnislage in der Mathematik*, Weltkreis-Verlag, Erlangen 1926. ([GoogleBooks](https://books.google.de/books/about/Die_heutige_Erkenntnislage_in_der_Mathem.html?id=1KU_AQAAIAAJ&redir_esc=y))
+
+
+Then an [[axiom|axiomatization]] of intuitionistic mathematics is given in
 
 * [[Stephen Kleene]], R. E. Vesley, _The foundations of intuitionistic mathematics_, North-Holland (1965)
 
 in terms of [[realizability]] (the [[Kleene-Vesley topos]]), and hence intuitionistic mathematics is shown to be consistent.
 
-General reviews include
+General review:
 
 * Stanford Encyclopedia of Philosophy, _[Intuitionism in the Philosophy of Mathematics](http://plato.stanford.edu/entries/intuitionism/)
 
-Reviews with further developments include for instance
+Reviews with further developments:
 
 * [[Frank Waaldijk]], _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_  ([web](http://www.fwaaldijk.nl/mathematics.html#onthefoundations))
 
   (with a focus on [[constructive analysis]]).
 
-Discussion of one approach to basic [[topology]] in intuitionistic mathematics is in
+Discussion of an approach to [[general topology]] in intuitionistic mathematics:
 
 * {#Waaldijk96} [[Frank Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
 
-For more see also the references at _[[constructive mathematics]]_.
 
 
 
