@@ -119,15 +119,23 @@ See at _[[Sullivan model of free loop space]]_.
 
 ## References
 
-* [[Kathryn Hess]], _Free loop spaces in topology and physics_, [pdf](http://sma.epfl.ch/~hessbell/Pub_Edinburgh.pdf), slides from Meeting of Edinburgh Math. Soc. Glasgow, 14 Nov 2008
+* David Chataur, Alexandru Oancea, *Basics on free loop spaces*, Chapter I
+in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
-* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf))
+* [[Kathryn Hess]], _Free loop spaces in topology and physics_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_Edinburgh.pdf)), slides from Meeting of Edinburgh Math. Soc. Glasgow, 14 Nov 2008
 
-* {#Loday11} [[Jean-Louis Loday]], _Free loop space and homology_ ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405))
+In the context of [[Hochschild homology]] (and [[cyclic homology]]):
 
+* {#Jones87} [[John D.S. Jones]], _Cyclic homology and equivariant homology_, Invent. Math. __87__, 403-423 (1987) ([pdf](https://math.berkeley.edu/~nadler/jones.pdf), [doi:10.1007/BF01389424](https://doi.org/10.1007/BF01389424))
 
-* [[D. Ben-Zvi]], D. Nadler, _Loop spaces and connections_,
-[arxiv/1002.3636](http://arxiv.org/abs/1002.3636)
+reviewed in:
+
+* {#Loday92} [[Jean-Louis Loday]], *Cyclic Spaces and $S^1$-Equivariant Homology* ([doi:10.1007/978-3-662-21739-9_7](https://link.springer.com/chapter/10.1007/978-3-662-21739-9_7))
+
+  Chapter 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
+
+* {#Loday11} [[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
+
 
 
 [[!redirects free loop space]]
