@@ -39,6 +39,7 @@ $$
 is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. At least when the latter is formalized in terms of [[derivators]], then this is proven in [Renaudin 06](#Renaudin06), see Corollary \ref{EquivalenceToHoPrDer} below.
 
 ## Details
+ {#Details}
 
 +-- {: .num_example #2CategoryOfModelCategories}
 ###### Definition
@@ -48,7 +49,7 @@ Write
 
 1. $ModCat$ for the [[2-category]] whose [[objects]] are [[model categories]], whose [[1-morphisms]] are [[left Quillen functors]] and [[2-morphisms]] are [[natural transformations]].
 
-1. $CombModCat \subset ModCat$ for the [[full sub-2-category]] on the [[combinatorial model categories]].
+1. $CombModCat \subset ModCat$ for the [[full sub-2-category]] on the ([[left proper model categories|left proper]] [^1]) [[combinatorial model categories]].
 
 =--
 
@@ -186,9 +187,15 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 
 
 ## References
+ {#References}
 
 * {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
 ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
+
+Beware that, for the time being, the entry [above](#Details) is referring to the numbering in the arXiv version of [Renaudin 2006](#Renaudin06), which differs from that in the published version.
+
+
+[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version there. It should not be necessary (but can easily be convenient), since every combinatorial model category is Quillen equivalent to a left proper one (by [[Dugger's theorem]], see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)). 
 
 
 [[!redirects HoCombModCat]]
