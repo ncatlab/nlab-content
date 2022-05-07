@@ -56,7 +56,9 @@ here are some seminar notes:
 
 Some introductory notes:
 
-* Simon Rose, _Introduction to Gromov-Witten theory_, [arXiv](http://arxiv.org/abs/1407.1260v1).
+* Simon Rose, _Introduction to Gromov-Witten theory_ ([arXiv:1407.1260](http://arxiv.org/abs/1407.1260))
+
+* {#Bertram02} [[Albrecht Bertram]], *Stable Maps and Gromov-Witten Invariants*, School and Conference on Intersection Theory and Moduli Trieste, 9-27 September 2002 ([pdf](users.ictp.it/~pub_off/lectures/lns019/Bertram/Bertram.pdf))
 
 And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
@@ -136,7 +138,7 @@ Expositions and summaries of this are in
 
 GW theory of [[orbifolds]] (hence in [[higher differential geometry]]) has been introduced in
 
-* Weimin Chen, [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _Orbifolds in mathematics and physics_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
+* [[Weimin Chen]], [[Yongbin Ruan]], _Orbifold Gromov-Witten Theory_, in _Orbifolds in mathematics and physics_ (Madison, WI, 2001), 25&#8211;85, Contemp. Math., 310, Amer. Math. Soc., Providence, RI, 2002 ([arXiv:math/0103156](http://arxiv.org/abs/math/0103156))
 
 A review with further pointers is in 
 
