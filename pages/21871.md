@@ -35,3 +35,7 @@ The parsing problem, i.e. given a grammar $G$ and a string $\alpha \in V^\star$ 
 * [[context-free grammar]]
 
 * [[mildly context-sensitive grammar]]
+
+[[!redirects context-sensitive grammars]]
+[[!redirects context sensitive grammar]]
+[[!redirects context sensitive grammars]]
