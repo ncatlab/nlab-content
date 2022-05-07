@@ -31,7 +31,7 @@ $$
   [1] = \{ 0 \lt 1\}
 $$
 
-and so on, so that $[n] = \{ 0 \lt \ldots \lt n\}$
+and so on, so that $[n] = \{ 0 \lt \cdots \lt n\}$
 
 This counting is off by one compared to the [[cardinality]] of these sets. 
 
