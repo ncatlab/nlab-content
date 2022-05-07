@@ -40,7 +40,17 @@ More generally, in any [[multicategory]] $M$, a **magma object** or **magma in $
 
 ## Properties
 
+### Square function
+
 Every magma $(M,\cdot)$ has a morphism $(-)^2:M \to M$ called the __square__ and defined as $x^2 := x \cdot x$ for all $x \in M$. 
+
+### Magmas as actions
+
+An [[action]] of a set $A$ on another set $B$ is a function $act:A \times B \to B$. So this means that a magma is just an action of a set on itself. 
+
+### Opposite magmas
+
+There exists a function on the binary operation set $B:(M\times M\to M)\to (M\times M\to M)$ called the __[[braiding]]__ that takes every binary operation on the set to its opposite binary operation, where for every magma operation $m:M\times M\to M$ and for all elements $a,b$ in $M$, $B(m)(a,b) = m(b,a)$. The set $M$ with the opposite binary operation is the [[opposite magma]] of $M$. $B$ is an [[involution]]; the opposite of an opposite magma is the original magma itself; this follows from the fact that [[Set]] is a [[symmetric monoidal category]]. Fixed points of $B$ are called __[[commutative magma|commutative]]__ binary operations. 
 
 ## Free magmas
 
