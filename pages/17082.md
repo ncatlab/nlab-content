@@ -26,7 +26,7 @@ Taking the class of morphisms having the lifting property with respect to each m
 is a simple, and unexpectedly common, way to define a class of morphisms excluding non-isomorphisms from $P$,
 in a way which is useful in a diagram chasing computation.
 A number of elementary notions may be expressed by iteratively
-using the lifting property starting from a list of simple or archetypal (counter)examples.
+using the lifting property starting from a list of simple or archetypal (counter) examples.
 
 
 The _lifting property_ is a property of a pair of [[morphism]]s in a [[category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. 
