@@ -21,7 +21,12 @@
 
 Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appearing as a single-layer honeycomb lattice. This may be planar or tubular, etc. 
 
-Graphene is a prime example (and among the first to be discovered) of a [[topological phase of matter]], specifically of a [[topological semi-metal]] (if its tiny [[spin-orbit coupling]] is ignored or remains unresolved, hence for all practical purposes) or a [[topological insulator]] (theoretically, due to the tiny spin-orbit coupling that does open the gap in the [[electronic band structure]] at the would-be nodal point).
+{#PrimeExampleOfTopologicalPhase} Graphene is a prime example (and among the first to be discovered) of a [[topological phase of matter]]. Specifically:
+
+1. at coarse resolution (currently accessible to [[experiment]]) it appears as a  ([[time-reversal symmetry|time-reversal]] and space inversion-symmetric) [[topological semi-metal]], due to a gap between its [[valence band]] and [[conduction band]] which closes only over two [[Dirac points]] in its [[Brillouin torus]];
+
+1. at finer resolution -- namely when the [[spin-orbit coupling]] of the [[electrons]] is resolved, which turns out to open a small energy gap also at the two Dirac points -- graphene appears as a ([[time-reversal symmetry|time-reversal symmetric]]) [[topological insulator]]  ([Kane & Mele 05a](#KaneMele05a)), whose non-trivial [[topological phase of matter|topological phase ]] is witnessed by the non-trivial [[Kane-Mele invariant]] in [[cyclic group of order two|$\mathbb{Z}/2$]] ([Kane & Mele 05b](#KaneMele05b)).
+
 
 ## Related concepts
 
@@ -37,6 +42,12 @@ The synthesis/detection of graphene is due to
 * [[Konstantin Novoselov]], [[Andre Geim]], S. V. Morozov, D. Jiang, Y. Zhang, S.V. Dubonos, I.V. Grigorieva, A.A. Firsov, _Electric field effect in atomically thin carbon films_, Science __306__, no. 5696, pp. 666-669 (2004) ([doi:10.1126/science.1102896](http://dx.doi.org/10.1126/science.1102896), [arXiv:cond-mat/0410550](https://arxiv.org/abs/cond-mat/0410550))
 
 (The procedure, won a Nobel Prize and the authors made it freely available without patenting.)
+
+Observation that the [[spin-orbit coupling]] in graphene should open the gap at the [[Dirac points]] revealing a [[quantum spin Hall effect]] in graphene:
+
+* {#KaneMele05a} [[Charles Kane]], [[Eugene Mele]], _Quantum Spin Hall Effect in Graphene_, Phys. Rev. Lett. 95, 226801 (2005) ([arXiv:cond-mat/0411737](https://arxiv.org/abs/cond-mat/0411737), [doi:10.1103/PhysRevLett.95.226801](https://doi.org/10.1103/PhysRevLett.95.226801))
+
+* {#KaneMele05b} [[Charles Kane]], [[Eugene Mele]],  *$Z_2$ Topological Order and the Quantum Spin Hall Effect*, Phys. Rev. Lett. **95** (2005) 146802 ([doi:10.1103/PhysRevLett.95.146802](https://doi.org/10.1103/PhysRevLett.95.146802))
 
 Review:
 
@@ -56,9 +67,6 @@ The 2+1 dim [[Dirac equation]] is used in modeling graphene:
 
 * Mar&#237;a A. H. Vozmediano, _Renormalization group aspects of graphene_, [pdf](http://www.isis.stfc.ac.uk/groups/theory/downloads/the-strong-correlations-puzzle8120.pdf)
 
-On the [[quantum spin Hall effect]] in graphene:
-
-* [[Charles Kane]], [[Eugene Mele]], _Quantum Spin Hall Effect in Graphene_, Phys. Rev. Lett. 95, 226801 (2005) ([arXiv:cond-mat/0411737](https://arxiv.org/abs/cond-mat/0411737), [doi:10.1103/PhysRevLett.95.226801](https://doi.org/10.1103/PhysRevLett.95.226801))
 
 category: physics
     
