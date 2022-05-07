@@ -1,17 +1,16 @@
 
-* [webpage](https://sites.google.com/view/yxmartins)
-
-* [Math-Phys-Cat page](https://math-phys.group/yuri-ximenes-martins/)
+* [webpage](math-phys.group/~yxmartins)
+* [arXiv](https://arxiv.org/a/martins_y_1.html), [ORCID](https://orcid.org/0000-0003-3717-6774), [HAL](https://hal.archives-ouvertes.fr/search/index/?q=yuri-ximenes-martins&submit=),  [Zenodo](https://zenodo.org/search?page=1&size=20&q=%22Ximenes%20Martins,%20Yuri%22) and [Google Scholar](https://scholar.google.com/citations?user=5gsjGswAAAAJ&hl=pt-BR);
 
 I am a PhD student at [Departament of Mathematics](http://www.mat.ufmg.br/posgrad/) of Universidade Federal de Minas Gerais (UFMG), Brazil. 
 
-I am mainly interested in using applying (higher) categorical theory to Physics and Mathematics, and also in some aspects of differential geometry. Previously I was involved with mathematical aspects of Astrophysics.
+I am mainly interested in applying (higher) categorical theory to Physics and Mathematics, and also in some aspects of differential geometry. Previously I was involved with mathematical aspects of Astrophysics.
 
-I am co-founder of a research group on mathematical-physics and categorification called [[Math-Phys-Cat Group]], see [here](https://math-phys.group/).
+The best way to contact me is through yurixm@ufmg.br. 
 
-* [arXiv](https://arxiv.org/a/martins_y_1.html), [ORCID](https://orcid.org/0000-0003-3717-6774), [HAL](https://hal.archives-ouvertes.fr/search/index/?q=yuri-ximenes-martins&submit=),  [Zenodo](https://zenodo.org/search?page=1&size=20&q=%22Ximenes%20Martins,%20Yuri%22) and [Google Scholar](https://scholar.google.com/citations?user=5gsjGswAAAAJ&hl=pt-BR);
+I am co-founder of a research group on mathematical-physics and categorification called [[Math-Phys-Cat Group]]. 
 
-The best way to contact me is through the email yurixm@ufmg.br. 
+* [Group website](https://math-phys.group/).
 
 ## Writings
 ### Papers and Preprints
@@ -28,7 +27,7 @@ On obstructions to realize gravity (as Einstein--Hilbert--Palatini theories) in 
 
 * [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Geometric Obstructins on Gravity_, 2019, ([arXiv:1912.11198](https://arxiv.org/abs/1912.11198))
 
-On the classification problem of extensions to the Standard Model of particle physics:
+On the classification problem of extensions of Yang-Mills-Type theories:
 
 * [[Yuri Ximenes Martins]], Luiz Felipe Andrade Campos, [[Rodney Josué Biezuner]], _On Extensions of Yang-Mills-Type Theories, Their Spaces and Their Categories_, 2020, ([arXiv:2007.01660](https://arxiv.org/abs/2007.01660)). Submitted
 
@@ -42,9 +41,9 @@ On the axiomatization problem of Astrophysics:
 
 On a program attempting to get existence and multiplicity results for geometric objects on $C^k$-manifolds fulfilling arbitrarily given regularity conditions.
 
-* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Existence of $B^k_{\alpha,\beta}$-Structures on $C^k$-Manifolds_, 2019. ([arXiv:1908.04442](https://arxiv.org/abs/1908.04442)). Submitted
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Existence of $B^k_{\alpha,\beta}$-Structures on $C^k$-Manifolds_, 2019. ([arXiv:1908.04442](https://arxiv.org/abs/1908.04442)). To appear in São Paulo Journal of Mathematical Sciences
 
-* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Geometric Regularity Results on $B_{\alpha,\beta}^{k}$-Manifolds, I: Affine Connections_, 2020. ([arXiv:1910.03113](https://arxiv.org/abs/1910.03113)). Submitted
+* [[Yuri Ximenes Martins]], [[Rodney Josué Biezuner]], _Geometric Regularity Results on $B_{\alpha,\beta}^{k}$-Manifolds, I: Affine Connections_, 2020. ([arXiv:1910.03113](https://arxiv.org/abs/1910.03113)). To appear in Methods of Functional Analysis and Topology
 
 On an axiomatization proposal to the notion of strong emergence between Lagrangian field theories:
 
@@ -87,7 +86,7 @@ On a vertical categorification of Lie algebras (called Lie algebroidal categorie
 
 ## Advising
 
-Currently I am (co)advising three master students (joint [[Rodney Josué Biezuner]]). For past advising, see [here](https://sites.google.com/view/yxmartins/teaching/advising).
+Currently I am (co)advising three master students (joint [[Rodney Josué Biezuner]]). For past advising, see [here](https://math-phys.group/~yxmartins/Teaching/Advising).
 
 
 * Mayk Alves de Andrade, _Modal Homotopy Type Theory on the Foundations of Physics_, started 2019/2
