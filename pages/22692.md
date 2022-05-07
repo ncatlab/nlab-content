@@ -16,6 +16,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+One should be able to abstract away the additive structure of an [[integral domain]] and just focus on the multiplicative structure, yielding the concept of _integral monoid_. 
+
 ## Definition
 
 An [[absorption monoid]] $M$ is an __integral monoid__ if it is nontrivial and the submonoid $M \backslash \{0\}$ is a [[cancellative monoid]] (i.e., $1 \neq 0$ and left and right multiplication by $c$ is injective if $c \neq 0$, which may be combined as left and right multiplication by $c$ is injective if and only if $c \neq 0$). 
