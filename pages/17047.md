@@ -59,21 +59,33 @@ In [[homotopy type theory]] with [[universes]], one can reduce indexed W-types t
 The identity types of an indexed W-type are another indexed W-type.  This has been formalized by [Huginin](#Huginin).
 
 ## References {#References} 
-* Per Martin-L&#246;f, _Hauptsatz for the intuitionistic theory of iterated inductive definitions_, 1971, Studies in Logic and the Foundations of Mathematics - Elsevier
-* Per Martin-L&#246;f, _An Intuitionistic Theory of Types: Predicative Part_, 1975, in Logic Colloquium 1973.
-* {#Dybjer91}Peter Dybjer, _Inductive Families_  Formal aspects of computing 6 (4), 440-465 [PS](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.ps)
-* Peter Dybjer, _Inductive sets and families in Martin-L&#246;f's type theory and their set-theoretic semantics_, 1991 Logical frameworks 2, 6
-* {#Dybjer2000}Peter Dybjer, _A general formulation of simultaneous inductive-recursive definitions in type theory_, 2000, The Journal of Symbolic Logic 65 (02), 525-549
-*{#DybjerSetzer2001} Peter Dybjer, Anton Setzer, _Indexed induction-recursion_, 2001
-Proof Theory in Computer Science, 93-113
-* {#Paulin93}Christine Paulin-Mohring, _Inductive definitions in the system Coq rules and properties_, 1993 Typed lambda calculi and applications, 328-345.
-* {#CoquandPaulin}Thierry Coquand, Christine Paulin, _Inductively defined types_, COLOG-88 Volume 417 of the series Lecture Notes in Computer Science pp 50-66 [Springer](http://link.springer.com/chapter/10.1007%2F3-540-52335-9_47)
+
+* [[Per Martin-Löf]], _Hauptsatz for the intuitionistic theory of iterated inductive definitions_, 1971, Studies in Logic and the Foundations of Mathematics - Elsevier
+
+* [[Per Martin-Löf]], _An Intuitionistic Theory of Types: Predicative Part_, 1975, in Logic Colloquium 1973.
+
+* {#Dybjer91} [[Peter Dybjer]], _Inductive Families_  Formal aspects of computing 6 (4), 440-465 [PS](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.ps)
+
+* [[Peter Dybjer]], _Inductive sets and families in Martin-L&#246;f's type theory and their set-theoretic semantics_, 1991 Logical frameworks 2, 6
+
+* {#Dybjer2000} [[Peter Dybjer]], _A general formulation of simultaneous inductive-recursive definitions in type theory_, 2000, The Journal of Symbolic Logic 65 (02), 525-549
+
+*{#DybjerSetzer2001} [[Peter Dybjer]], Anton Setzer, _Indexed induction-recursion_, 2001 Proof Theory in Computer Science, 93-113
+
+* {#Paulin93} Christine Paulin-Mohring, _Inductive definitions in the system Coq rules and properties_, 1993 Typed lambda calculi and applications, 328-345.
+
+* {#CoquandPaulin} [[Thierry Coquand]], Christine Paulin, _Inductively defined types_, COLOG-88 Volume 417 of the series Lecture Notes in Computer Science pp 50-66 [Springer](http://link.springer.com/chapter/10.1007%2F3-540-52335-9_47)
 [G books](https://books.google.dk/books?id=o_f4UwiZtL0C&pg=PA50)
-* {#AGHMM}Thorsten Altenkirch, Neil Ghani, Peter Hancock, Conor McBride, and Peter Morris, _Indexed containers_ [PDF](http://strictlypositive.org/indexed-containers.pdf)
+
+* {#AGHMM} [[Thorsten Altenkirch]], [[Neil Ghani]], Peter Hancock, Conor McBride, and Peter Morris, _Indexed containers_ ([pdf](http://strictlypositive.org/indexed-containers.pdf))
+
 * {#DybjerSetzer} Peter Dybjer and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
-* Nicola Gambino and Martin Hyland, Wellfounded Trees and Dependent Polynomial Functors. [PDF](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/gambino-hyland-polynomial-functors.pdf)
+
+* [[Nicola Gambino]] and [[Martin Hyland]], *Wellfounded Trees and Dependent Polynomial Functors* [PDF](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/gambino-hyland-polynomial-functors.pdf)
+
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765)) {#vdBergMoerdijk13}
-* {#Sattler} Christian Sattler, _slides_ [slides](http://cs.ioc.ee/types15/slides/sattler-slides.pdf)
+
+* {#Sattler} [[Christian Sattler]], _slides_ [slides](http://cs.ioc.ee/types15/slides/sattler-slides.pdf)
 
 * {#Hugunin} Jasper Hugunin, _IWTypes_, <https://github.com/jashug/IWTypes>
 
