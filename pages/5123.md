@@ -114,7 +114,7 @@ The sum in Def. \ref{TheEilenbergZilberMap} may be understood as being over all 
 +-- {: .num_prop}
 ###### Proposition
 
-This Eilenberg-Zilber map (Def. \ref{TheEilenbergZilberMap}) restricts to the [[normalized chain complex]] inside the [[Moore complex]], to a morphism of the form
+This Eilenberg-Zilber map (Def. \ref{TheEilenbergZilberMap}) [[corestriction|co]]/[[restriction|restricts]] to the [[normalized chain complex]] inside the [[Moore complex]], to a [[chain map]] of the form:
 
 $$
   \nabla_{A,B} 
@@ -130,6 +130,7 @@ $$
 
 ## Properties
 
+### Monoidal properties
 
 +-- {: .num_prop}
 ###### Proposition
@@ -139,34 +140,6 @@ The Eilenberg-Zilber map (Def. \ref{TheEilenbergZilberMap}) is a [[lax monoidal 
 =--
 
 See at *[[monoidal Dold-Kan correspondence]]* for details.
-
-
-+-- {: .num_prop}
-###### Proposition
-
-On [[normalized chain complexes]] the EZ map (Def. \ref{TheEilenbergZilberMap}) has a [[left inverse]], given by the [[Alexander-Whitney map]] $\Delta_{A,B}$:
-
-$$
-  Id 
-  \colon
-  N A \otimes N B \stackrel{\nabla_{A,B}}{\to} N(A \otimes B)
-  \stackrel{\Delta_{A,B}}{\longrightarrow}
-  N A \otimes N B
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-**([[Eilenberg-Zilber theorem]])**
-
-For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a [[chain homotopy|chain]]-[[homotopy equivalence]].
-
-=--
-
-(e.g. [May, 29.10](#May)).
-
 
 For the next statement notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[symmetric monoidal categories]].
 
@@ -191,6 +164,109 @@ $$
 [[commuting diagram|commutes]], where $\sigma$ denotes the [[braiding|symmetry isomorphism]] in $sAb$ and $Ch_\bullet^+$.
 
 =--
+
+### Eilenberg-Zilber theorem
+
+\begin{proposition}\label{EZAWDeformationRetract}
+**([[Eilenberg-Zilber/Alexander-Whitney deformation retraction]])** \linebreak
+
+Let 
+
+* $A, B \,\in\, sAb = $ [[SimplicialAbelianGroups]]
+
+and denote 
+
+* by $N(A), N(B) \,\in\, Ch^+_\bullet = $ [[ConnectiveChainComplexes]] their [[normalized chain complexes]], 
+
+* by $A \otimes B \,\in\, sAb$ the degreewise [[tensor product of abelian groups]],
+
+* by $N(A) \otimes N(B)$ the [[tensor product of chain complexes]].
+
+Then there is a [[deformation retraction]]
+
+\begin{tikzcd}
+  N(A) \otimes N(B)
+  \ar[
+    rr,
+    bend right=20,
+    "\mathrm{id}"{below},
+    "\ "{above, name=t}
+  ]
+  \ar[
+    rr,
+    phantom,
+    "\ "{name=s, yshift=-6pt}
+  ]
+  \ar[
+    r,
+    "\nabla_{A,B}"
+  ]
+  &
+  N( A \otimes B )
+  \ar[
+    r,
+    "\Delta_{A,B}"
+  ]
+  &
+  N(A) \otimes N(B)
+  \ar[
+    from=s,
+    to=t,
+    -,
+   shift left=1pt
+  ]
+  \ar[
+    from=s,
+    to=t,
+    -,
+   shift right=1pt
+  ]
+\end{tikzcd}
+
+\begin{tikzcd}
+  N( A \otimes B )
+  \ar[
+    rr,
+    bend right=20,
+    "\mathrm{id}"{below},
+    "\ "{above, name=t}
+  ]
+  \ar[
+    rr,
+    phantom,
+    "\ "{name=s, yshift=-6pt}
+  ]
+  \ar[
+    r,
+    "\Delta_{A,B}"
+  ]
+  &
+  N(A) \otimes N(B)
+  \ar[
+    r,
+    "\nabla_{A,B}"
+  ]
+  &
+  N( A \otimes B )
+  \ar[
+    from=s,
+    to=t,
+    Rightarrow
+  ]
+\end{tikzcd}
+
+where 
+
+* $\nabla_{A,B}$ is the [[Eilenberg-Zilber map]];
+
+* $\Delta_{A,B}$ is the [[Alexander-Whitney map]].
+
+\end{proposition}
+
+For unnormalized chain complexes, where we have a [[homotopy equivalence]], this is the original [[Eilenberg-Zilber theorem]] ([Eilenberg & Zilber 1953](EZAW+deformation+retraction#EilenbergZilber53), [Eilenberg & MacLane 1954, Thm. 2.1](EZAW+deformation+retraction#EilenbergMacLane54)). The above [[deformation retraction]] for normalized chain complexes is [Eilenberg & MacLane 1954, Thm. 2.1a](EZAW+deformation+retraction#EilenbergMacLane54). Both are reviewed in [May 1967, Cor. 29.10](EZAW+deformation+retraction#May67). Explicit description of the [[homotopy operator]] is given in [Gonzalez-Diaz & Real 1999](EZAW+deformation+retraction#GonzalezDiazReal99).
+
+
+
 
 ## Applications
 
