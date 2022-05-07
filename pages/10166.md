@@ -23,7 +23,7 @@
 
 Generally, for $G$ some [[group]], a _$G$-equivariant bundle_ is a [[bundle]], specifically a [[fiber bundle]] ([[principal bundle]], [[vector bundle]], etc.) all whose component spaces (total space $E$, base space $X$, [[fiber]] $F$, but also possibly the [[structure group]] $\mathcal{G}$) are equipped with $G$-[[actions]], such that all structure morphisms (in particular the projection $E \overset{p}{\to} X$, but also the $\mathcal{G}$-[[action]] for [[principal bundles]] etc.)  are $G$-[[equivariant functions]].
 
-In short, this should mean that $G$-equivariant (fiber-, principal-,...) bundles are (fiber-, principal, ...) bundles _[[internalization|internal]]_ to a [[category]] of [[G-spaces]] (e.g. [[topological G-spaces]], [[G-manifolds]] but also [[G-sets]] etc.). 
+In short, this should mean ([[schreiber:TED cohomology|GSS 21]]) that $G$-equivariant (fiber-, principal-,...) bundles are (fiber-, principal, ...) bundles _[[internalization|internal]]_ to a [[category]] of [[G-spaces]] (e.g. [[topological G-spaces]], [[G-manifolds]] but also [[G-sets]] etc.). 
 
 While the existing literature does not state the definition of equivariant bundles via [[internalization]], one sees that the explicit definition in [tom Dieck 69](#tomDieck69) (for the case of [[principal bundles]]) is the equivalent external description, _including_, thereby, an [[action]] of the [[equivariance group]] $G$ on the [[structure group]] $\mathcal{G}$ -- together with the respective compatibility conditions, which equivalently say (as highlighted e.g. in [Murayama-Shimakawa 95, below 1.1](#MurayamaShimakawa95), see the discussion [here](category+of+G-sets#InternalGroupActions)) that the joint action is that of the [[semidirect product group]] $\mathcal{G} \rtimes G$.
 
@@ -38,6 +38,144 @@ Much of the literature on equivariant bundles is interested
 and/or
 
 * as [[twisted cohomology|twists]] for [[twisted equivariant cohomology theories]], and here most of the existing literature focuses on [[twisted equivariant K-theory]] and specifically on its equivariant degree-3 twist by equivariant [[projective bundles]] (e.g. [Barcenas-Espinoza-Joachim-Uribe 12](#BarcenasEspinozaJoachimUribe12),  [Uribe-Lück 14, Sec. 15](#UribeLueck14)).
+
+## Definition
+
+> under construction
+
+We discuss  equivariant bundles in/as [[topological spaces]], for definiteness and due to their relevance as models in [[equivariant homotopy theory]]. Much of the discussion generalizes, say to [[smooth manifolds]] or general [[toposes]].
+
+\begin{defn}\label{TopologicalGSpaces}
+(**topological $G$-spaces**)\linebreak
+
+For $G$ be a [[topological group]] we write 
+$$
+  G Actions(TopologicalSpaces)
+  \;\in\;
+  Categories
+$$ 
+for the [[category]] of [[topological spaces]] equipped with [[continuous function|continuous]] $G$-[[actions]] and with $G$-[[equivariant function|equivariant]] [[continuous functions]] between them ("maps"); i.e. for the category of "[[G-spaces]]", often denote "$G Spaces$" or even $G Sp$ or similar.
+
+In the following we refer to this $G$ as the _[[equivariance group]]_.
+\end{defn} 
+
+\begin{remark}
+(**further conditions on the equivariance group**) \linebreak
+
+For purposes of [[equivariant homotopy theory]] one needs (for instance for [[Elmendorf's theorem]] to hold) the [[topological group|topological]] [[equivariance group]] $G$ in Def. \ref{TopologicalGSpaces} to be that underlying a [[compact Lie group]], such as a [[finite group]]. But for the plain [[point-set topology]] of equivariant bundles, this condition is not necessary.
+\end{remark}
+
+\begin{defn}\label{EquivariantTopologicalGroup}
+(**equivariant topological groups**) \linebreak
+
+Given an [[equivariance group]] $G$ (Def. \ref{TopologicalGSpaces}), 
+a _$G$-[[equivariant topological group]]_ is a [[group object]] [[internalization|internal]] to [[topological G-spaces]]
+  $$
+    \mathcal{G}
+    \;\in\;
+    Groups
+    \big(
+      G Actions
+      (
+        TopologicalSpaces
+      )
+    \big)
+    \,.
+  $$
+\end{defn}
+
+\begin{prop}\label{EquivariantGroupsAsSemidirectProductGroups}
+  (**Equivariant groups as semidirect product groups**) \linebreak
+
+The [[category]] of $G$-equivariant topological groups (Def. \ref{EquivariantTopologicalGroup}) is [[equivalence of categories|equivalent]] to that of [[semidirect products]] $(-) \rtimes G$ regarded as [[pointed objects]] in the [[slice category]] of [[Groups]] over $G$:
+
+$$
+  \array{
+    Groups
+      \big(
+        G Actions
+        (
+          TopologicalSpaces
+        )
+      \big)
+    &
+      \overset{
+         \;\;
+         \;\;
+      }{\hookrightarrow}
+    &
+    Groups^{G/}_{/G}
+    \\
+    \mathcal{G}
+    &\mapsto&
+    \mathcal{G} \rtimes G
+    \,.
+  }
+$$
+\end{prop}
+
+\begin{prop}\label{ActionsOfEquivariantGroupsAsSemidirectProductGroupActions}
+  (**Equivariant group actions as semidirect product group actions**) \linebreak
+
+  Under the identification of $G$-[[equivariant group|equivariant groups]] $\mathcal{G}$
+  with [[semidirect product groups]] $\mathcal{G} \rtimes G$ 
+  (Prop. \ref{EquivariantGroupsAsSemidirectProductGroups})
+  we have an [[equivalence of categories|equivalence]] of their
+  [[actions]] given by
+  $$
+    \array{
+      \mathcal{G}
+      Actions
+      \big(
+        G Actions
+        (
+          TopologicalSpaces
+        )
+      \big)
+      &\overset{}{
+        \longrightarrow
+      }&
+      (
+        \mathcal{G} \rtimes G
+      )
+      Actions( TopologicalSpaces )
+    }
+  $$
+\end{prop}
+
+\begin{defn}
+(**[[equivariant principal bundle]]**) \linebreak
+
+  Given 
+
+  * an [[equivariance group]] $G \in Groups(TopologicalSpaces)$;
+ 
+  * $X \in G Actions(TopologicalSpaces)$ (Def. \ref{TopologicalGSpaces}),
+  
+  * $\mathcal{G} \in Groups\big(  G Actions(TopologicalSpaces) \big)$ (Def. \ref{EquivariantTopologicalGroup});
+
+a _$G$-[[equivariant principal bundle]] over $X$ with [[structure group]] $\mathcal{G}$ is:
+
+* a _total $G$-space_ $P \in G Actions(TopologicalSpaces)$;
+
+* an [[action]] of $\mathcal{G}$ on $P$ (hence [[internalization|internal]] to [[G-spaces]]!);
+
+such that :
+
+* the action is [[free action]];
+
+* its [[quotient]] is $X$:
+
+  $
+    P/\mathcal{G} \;\simeq\; X
+    \,,
+  $
+
+
+* the quotient [[coprojection]] is [[locally trivial bundle|locally trivial]] (...)
+
+\end{defn}
+
 
 
 ## Examples
