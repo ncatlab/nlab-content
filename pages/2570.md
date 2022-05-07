@@ -279,6 +279,8 @@ Analogous statements hold for each symmetric group $S_n$.
 
 * [[Smith normal form]]
 
+* [[matrix analysis]]
+
 ## References
 
 See also 
