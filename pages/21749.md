@@ -64,6 +64,9 @@ In further turn, even-periodic [[Bredon cohomology]] with coefficients in the [[
 [[!include incarnations of rational equivariant topological K-theory -- table ]]
 
 
+## Related concepts
+
+* [[equivariant Chern character]]
 
 ## References
 
