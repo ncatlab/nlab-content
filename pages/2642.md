@@ -97,6 +97,8 @@ $$
 
 * [[reducible representation]]
 
+* [[irreducible character]]
+
 * [[simple object]]
 
 * [[fundamental representation]]
