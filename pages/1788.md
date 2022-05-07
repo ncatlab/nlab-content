@@ -1,4 +1,96 @@
 
+$$
+  \begin{array}{lll}
+    &
+    \mathbf{H}
+    \bigg(
+      (-)
+      ,\,
+      Maps
+      \Big(
+        \underset{\longrightarrow}{\lim}
+        \,
+        LConst(S_\bullet)
+        ,\,
+        X
+      \Big)
+    \bigg)
+    \\
+    & \;\simeq\;
+    \mathbf{H}
+    \Big(
+      (-)
+      \times
+      \underset{\longrightarrow}{\lim}
+      \,
+      LConst(S_\bullet)
+      ,\,
+      X
+    \Big)
+    &
+    \text{ (eq:MappingStackAdjunction) }
+    \\
+    & \;\simeq\;
+    \mathbf{H}
+    \Big(
+      \underset{\longrightarrow}{\lim}
+      \big(
+        (-)
+        \times
+        LConst(S_\bullet)
+      \big)
+      ,\,
+      X
+    \Big)
+    &
+    \text{ [[universal colimits]] }
+    \\
+    & \;\simeq\;
+    \underset{\longleftarrow}{\lim}
+    \,
+    \mathbf{H}
+    \big(
+      (-)
+      \times
+      LConst(S_\bullet)
+      ,\,
+      X
+    \big)
+    \\
+    & \;\simeq\;
+    \underset{\longleftarrow}{\lim}
+    \,
+    \mathbf{H}
+    \Big(
+      (-)
+      ,\,
+      Maps
+      \big(
+        LConst(S_\bullet)
+        ,\,
+        X
+      \big)
+    Big)
+    \\
+    & \;\simeq\;
+    \mathbf{H}
+    \Big(
+      (-)
+      ,\,
+      \underset{\longleftarrow}{\lim}
+      \,
+      Maps
+      \big(
+        LConst(S_\bullet)
+        ,\,
+        X
+      \big)
+    Big)
+  \end{array}
+$$
+
+
+
 \[
   \label{MappingStackAdjunction}
 \]
