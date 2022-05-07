@@ -18,10 +18,17 @@
 
 In [[solid state physics]], a *semiconductor* is a [[crystal|crystalline]] material for which the [[electron]] [[chemical potential]] lies in a *small* gap between a [[valence band]] and a [[conduction band]]. 
 
-This means that a semi-conductor behaves like an [[insulator]] unless some energy is supplied to lift the electrons out of the [[valence bundle]] into the [[conduction bundle]], in which case it starts behaving like a [[conductor]]. This "external switching" of electron conductivity is the basis of [[transistors]] and [[digital computers]].
+This means that a semi-conductor behaves like an [[insulator]] unless a little extra energy is supplied to lift the electrons out of the [[valence bundle]] into the [[conduction bundle]], in which case it starts behaving like a [[conductor]] (or [[metal]]). 
 
+This "external switching" of electron conductivity in semi-conductors is the basis of [[transistors]] and hence of [[digital computers]].
+
+## Related concepts
+
+* [[semi-metal]]
 
 ## References
+
+See also:
 
 * Wikipedia, *[Semiconductor](https://en.wikipedia.org/wiki/Semiconductor)*
 
