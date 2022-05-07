@@ -14,31 +14,39 @@
 
 ## Idea
 
-There should be a non-associative version of a [[possibly empty abelian group]], given that one of the axioms in that article states, using only subtraction, that the derived addition binary operation is associative. That leads to the concept of a _possibly empty abelian loop_. 
-
-The definition of a possibly empty abelian loop given below is a variant of the definition of a [[possibly empty abelian group]], which itself is a variant of the definition of a [[possibly empty group]], which [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
+There should be a commutative version of a [[invertible magma]]. That leads to the concept of a _commutative invertible magma_. 
 
 ## Definition
 
-A __possibly empty abelian loop__ is a [[set]] $G$ with a binary operation $(-)-(-):G \times G \to G$ called __[[subtraction]]__ such that:
+A __commutative invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with a unary operation $(-)^{-1}:G \to G$ called the __inverse__ such that 
 
-  * For all $a$ and $b$ in $G$, $a-a=b-b$
-  * For all $a$ in $G$, $a-(a-a)=a$
-  * For all $a$ in $G$, $(a-a)-((a-a)-a)=a$
-  * For all $a$ and $b$ in $G$, $a-((b-b)-b) = b-((a-a)-a)$
+* $a \cdot (b \cdot b^{-1}) = a$
+* $(a \cdot b) \cdot b^{-1} = a$
+* $(a \cdot b^{-1}) \cdot b = a$ 
 
-For any element $a$ in a possibly empty abelian loop $G$, the element $a-a$ is called an __identity element__, and the element $(a-a)-a$ is called the __inverse element__ of $a$. For all elements $a$ and $b$, __addition__ of $a$ and $b$ is defined as $a-((b-b)-b)$. 
+for all $a,b \in G$. 
+
+
+## Properties
+
+* Every commutative invertible magma is a [[commutative quasigroup]] whose __division__ operation is $a / b = a \cdot b^{-1}$. 
 
 ## Examples
 
-* Every abelian [[loop]] is a possibly empty abelian loop. 
+* Every [[commutative loop]] is a commutative invertible [[unital magma]]. 
 
-* Every possibly empty abelian group is a possibly empty abelian loop. 
+* Every commutative invertible semigroup is a commutative invertible magma. 
 
-* The empty possibly empty abelian loop is an possibly empty abelian loop that is not an abelian loop. 
+* Every [[abelian group]] is a commutative invertible monoid.
+
+* The empty magma is a commutative invertible magma. 
 
 ## Related concepts
 
-* [[possibly empty abelian group]] (associative version)
+* [[invertible magma]] (non-commutative version)
 
-* [[possibly empty loop]] (non-commutative version)
+* [[commutative magma]] (non-invertible version)
+
+* [[commutative loop]] (unital version)
+
+* [[possibly empty abelian group]] (associative version)
