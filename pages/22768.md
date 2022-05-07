@@ -142,7 +142,7 @@ $$a \otimes b = (a^\vee \otimes b^\wedge) \vert (a^\wedge \otimes b^\vee)$$
 
 $$a \oplus b = (a^\wedge \oplus b^\vee) \vert (a^\vee \oplus b^\wedge)$$
 
-The rest of the axioms follow from the scale identities if the minor scale is an [[inequality space]]:
+The rest of the axioms follow from the scale identities:
 
 * $\top$ is a [[fixed point]] of $(-)^\vee$:
 
