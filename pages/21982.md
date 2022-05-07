@@ -103,12 +103,12 @@ based on
 
 * {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
 
-* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
+* {#BrodzkiMathaiRosenbergSzabo06} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706, 2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
 
-* {#BMRS2} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
+* {#BMRS2} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys. 13:497-552, 2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
  
 
-* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. 103:012004,2008 ([arXiv:0709.2128](http://arxiv.org/abs/0709.2128))
+* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. 103:012004, 2008 ([arXiv:0709.2128](http://arxiv.org/abs/0709.2128))
 
 In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in
 
@@ -126,7 +126,7 @@ In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-b
 
 In particular, actual checks of the proposal that D-brane charge is given by K-theory, via concrete computation in [[boundary conformal field theory]], have revealed some subtleties:
 
-* [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP 0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
+* {#FredenhagenQuella05} [[Stefan Fredenhagen]], [[Thomas Quella]], _Generalised permutation branes_, JHEP 0511:004, 2005 ([arXiv:hep-th/0509153](https://arxiv.org/abs/hep-th/0509153))
 
   > It might surprise that despite all the progress that has been made in understanding branes on group manifolds, there are usually not enough D-branes known to explain the whole charge group predicted by (twisted) K-theory.
 
@@ -197,9 +197,9 @@ An elaborate proposal for the correct flavour of real equivariant K-theory neede
 
 * {#Precis} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
-Discussion of the alleged K-theory classification of D-brane charge in relation to the [[M-theory]] [[supergravity C-field]] is in
+Discussion of the alleged K-theory classification of D-brane charge in relation to the [[M-theory]] [[supergravity C-field|C-field]] is in
 
-* {#DMW00} D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
+* {#DMW00} [[Duiliu-Emanuel Diaconescu]], [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv.Theor.Math.Phys.6:1031-1134,2003 ([arXiv:hep-th/0005090](http://arxiv.org/abs/hep-th/0005090)), summarised in _A Derivation of K-Theory from M-Theory_ ([arXiv:hep-th/0005091](http://arxiv.org/abs/hep-th/0005091))
 
 See also
 
