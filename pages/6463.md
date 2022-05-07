@@ -386,17 +386,23 @@ This is Lemma 2.7 in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/
 
 =--
 
+## Related concepts
+
+* [[π-Kan condition]]
+
+* [[decalage]]
+
 ## References
 
 Some standard material is for instance in
 
-* [[Paul Goerss]] and [[Rick Jardine]], _Simplicial Homotopy Theory_
-{#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]] and [[Rick Jardine]], _Simplicial Homotopy Theory_
+
 
 * [[Rick Jardine]], Lecture 008 (2010) ([pdf](http://jardine.math.uwo.ca/HomTh/lecture008a.pdf))
 
-* [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
-{#Isaacson}
+* {#Isaacson} [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+
 
 The total simplicial set functor goes back to
 
@@ -420,9 +426,10 @@ The diagonal-induced model structure on $ssSet$ is discussed in
 * {#Moerdijk} [[Ieke Moerdijk]], _Bisimplicial sets and the group completion theorem_  in _Algebraic K-Theory: Connections with Geometry and Topology_, pp 225&#8211;240. Kluwer, Dordrecht (1989)
  
 
-On the behaviour of fibrations under [[geometric realization]] of bisimplicial setsL
+On the behaviour of fibrations under [[geometric realization]] of bisimplicial sets:
 
-* D. Anderson, _Fibrations and geometric realization_, Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
+* {#Anderson78} [[Donald Werner Anderson]], _Fibrations and geometric realization_,  Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([euclid:1183541139](http://projecteuclid.org/euclid.bams/1183541139))
+
 
 Discussion of the [[simplicial classifying space]]-construction $\overline{W}$ respecting [[fibrant objects]] is in Fact 2.8 of:
 
