@@ -17,7 +17,7 @@
 
 \section{Idea}
 
-A sketch is one formalisation of the notion of a [[theory]], going back to [[Charles Ehresmann]]. It is highly diagrammatic, and has the advantage of being very close to category theory, allowing it to very naturally express the category theoretic structure which is required to construct a model of the theory (finite products, say). On the other hand, it is not a very concise notion: as Example \ref{ExampleSketchUnitalMagmas} illustrates, writing down the full details of a sketch even in the simplest examples takes time!
+A sketch is one formalisation of the notion of a [[theory]], going back to [[Charles Ehresmann]]. It is highly diagrammatic, and has the advantage of being very close to [[category theory]], allowing it to very naturally express the category theoretic structure which is required to construct a [[model]] of the theory ([[finite products]], say). On the other hand, it is not a very concise notion: as Example \ref{ExampleSketchUnitalMagmas} illustrates, writing down the full details of a sketch even in the simplest examples takes time!
 
 There is a precise correspondence between categories of models of sketches and [[accessible category|accessible categories]] and [[locally presentable category|locally presentable categories]], discussed below.
 
@@ -356,7 +356,9 @@ where the source of $(\alpha,b)$ is $(s_S(\alpha), b)$, and vice versa. $S$ is o
 The set of diagrams is the union of the following three sets:
 
 * The horizontal diagrams are constant in the second parameter: $H = \{ (D, b) | D \in \mathsf{Diagrams}(S), b \in \mathsf{Vertex}(T) \}$
+
 * The vertical diagrams are constant in the first parameter: $V =  \{ (a, D) |  a \in \mathsf{Vertex}(S), D \in \mathsf{Diagrams}(T) \}$
+
 * Also add every square diagram: $C$ is the set of squares for each edge $\alpha$ in $S$, $\beta \in T$  
        \begin{center}
           \begin{tikzcd} 
@@ -366,7 +368,7 @@ The set of diagrams is the union of the following three sets:
         \end{center}  
 The set of cones and cocones are define analogously to the set of commuting diagrams, except _only_ the vertical and horizontal cones are taken. 
      
-This tensor product, along with the unit $(*, \emptyset, \emptyset, \emptyset)$, gives the category of sketches a second symmetric monoidal category.
+This tensor product, along with the unit $(\ast, \emptyset, \emptyset, \emptyset)$, gives the category of sketches a second symmetric monoidal category.
 =--
 
 This monoidal structure is useful for considering structures like double categories (i.e. categories in the category of categories).
@@ -378,7 +380,16 @@ Let $S,T$ be sketches, and $X$ some category. Then the category of models of $S$
 
 =--
 
+## Related concepts
+
+* [[internalization]]
+
 ## References
+
+Original articles:
+
+
+* [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
 An overview of the theory is given in
 
