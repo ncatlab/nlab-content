@@ -27,6 +27,14 @@ On the [[WZW term]] in [[chiral perturbation theory]]:
 
 * Yasunori Lee, [[Kantaro Ohmori]], [[Yuji Tachikawa]], _Revisiting Wess-Zumino-Witten terms_ ([arXiv:2009.00033](https://arxiv.org/abs/2009.00033))
 
+Speculations on lifting the [[Witten genus]] of the [[heterotic string]] to [[topological modular forms]]:
+
+* [[Yuji Tachikawa]], _Topological modular forms and the absence of a heterotic global anomaly_ ([arXov:2103.12211](https://arxiv.org/abs/2103.12211))
+
+
+
+
+
 
 ## Related entries
 
