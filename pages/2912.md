@@ -9,7 +9,7 @@
 * [German Wikipedia entry](http://de.wikipedia.org/wiki/Daniel_Marinus_Kan)
 
 
-*  [[Clark Barwick]], [[Michael Hopkins]], [[Haynes Miller]], and [[Ieke Moerdijk]], _Daniel M. Kan (1927—2013)_, Notices of the American Mathematical Society, **62-09** (2015) ([PDF](https://www.ams.org/notices/201509/rnoti-p1042.pdf)).
+*  [[Clark Barwick]], [[Michael Hopkins]], [[Haynes Miller]], and [[Ieke Moerdijk]], _Daniel M. Kan (1927—2013)_, Notices of the American Mathematical Society, **62-09** (2015) ([pdf](https://www.ams.org/notices/201509/rnoti-p1042.pdf), [doi:10.1090/noti1282](https://doi.org/10.1090/noti1282)).
 
 
 [[Clark Barwick]] has posted (on 7 August 2013) the following:
