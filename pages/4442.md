@@ -402,6 +402,9 @@ Sketch of a derivation of AdS/CFT:
 
 * {#Nastase18} [[Horatiu Nastase]], _Towards deriving the AdS/CFT correspondence_ ([arXiv:1812.10347](https://arxiv.org/abs/1812.10347))
 
+* [[Ofer Aharony]], [[Shai Chester]], [[Erez Urbach]], _A Derivation of AdS/CFT for Vector Models_ ([arXiv:2011.06328](https://arxiv.org/abs/2011.06328))
+
+
 
 Further references include:
  
