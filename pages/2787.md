@@ -50,10 +50,15 @@ The object $A$ is __finitely presented__ if it is the [[coequalizer]] of a [[par
 
 * [[generators and relations]]
 
+* [[finite object]]
+
+* [[object of finite type]]
 
 ## References
 
-The general definition is in [[Locally Presentable and Accessible Categories]], definition 1.67.
+The general definition is Def. 1.67 in:
+
+* [[Jiří Adámek]], [[Jiří Rosický]], *[[Locally Presentable and Accessible Categories]]*, London Mathematical Society Lecture Note Series, number 189, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
 
 [[!redirects finitely generated object]]
 [[!redirects finitely generated objects]]
