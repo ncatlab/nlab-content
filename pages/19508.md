@@ -36,7 +36,12 @@ $$
   Ho(Pr(\infty,1)Cat)
 $$
 
-is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. At least when the latter is formalized in terms of [[derivators]], then this is proven in [Renaudin 06](#Renaudin06), see Corollary \ref{EquivalenceToHoPrDer} below.
+is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. 
+
+A proof for this statement, not just for [[homotopy categories]] but for the full homotopy theories, is now claimed in [Pavlov 2021](#Pavlov21).
+
+An anlogous equivalence, but with presentable [[derivators]] and just at the level of [[homotopy 2-categories]], is due to  [Renaudin 06](#Renaudin06), see Corollary \ref{EquivalenceToHoPrDer} below.
+
 
 ## Details
  {#Details}
@@ -189,11 +194,16 @@ between the [[homotopy category]] of [[combinatorial model categories]] and that
 ## References
  {#References}
 
+The equivalence of the [[homotopy 2-category]] of [[combinatorial model categories]] with that of presentable [[derivators]] is due to:
+
 * {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
 ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
 
-Beware that, for the time being, the entry [above](#Details) is referring to the numbering in the arXiv version of [Renaudin 2006](#Renaudin06), which differs from that in the published version.
+  > Beware that, for the time being, the entry [above](#Details) is referring to the numbering in the arXiv version of [Renaudin 2006](#Renaudin06), which differs from that in the published version.
 
+The equivalence of the full homotopy theory (in particular the [[homotopy 2-category]]) of [[combinatorial model categories]] with [[presentable (infinity,1)-categories|presentable $\infty$-categories]] is due to
+
+* {#Pavlov21} [[Dmitri Pavlov]], *Combinatorial model categories are equivalent to presentable quasicategories* (draft) 2021 ([pdf](https://dmitripavlov.org/comb.pdf))
 
 [^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories may be taken to pass through only left proper ones.
 
