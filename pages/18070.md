@@ -1379,6 +1379,9 @@ General accounts:
 
   (in [[algebraic topology]])
 
+* Lucas Williams, *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal: Vol. 21 : Iss. 1 , Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8]( https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
+
+
 In relation to the [[space of finite subsets]]:
 
 * {#Handel00} David Handel, _Some Homotopy Properties of Spaces of Finite Subsets of Topological Spaces_, Houston Journal of Mathematics, Electronic Edition Vol. 26, No. 4, 2000 (<a href="https://www.math.uh.edu/~hjm/pdf26(4)/08handel.pdf">pdf</a>[hjm:Vol26-4](https://www.math.uh.edu/~hjm/Vol26-4.html))
