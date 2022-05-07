@@ -38,3 +38,6 @@ Church monoids were introduced in
 * Robert K. Meyer, _Conservative extension in relevant implication_, Studia Logica volume 31 (1973) pp39–46, doi:[10.1007/BF02120525](https://doi.org/10.1007/BF02120525)
 
 and named for [[Alonzo Church]].
+
+
+[[!redirects Church monoids]]
