@@ -17,7 +17,7 @@ A derived Morita equivalence in the context of [[homological mirror symmetry]] a
 
 Related notions include [[Fourier-Mukai transform]], [[mirror symmetry]]
 
-The classical work in algebra concerning the Morita for derived categories of modules is due Ricard (also called Ricard equivalence)
+The classical work in algebra concerning the Morita for derived categories of modules is due Rickard (also called Rickard equivalence)
 
 * Jeremy Rickard, _Morita theory for derived categories_, J. London Math. Soc.  2-39:3 (1989) 436-456 [doi](https://doi.org/10.1112/jlms/s2-39.3.436)
 
