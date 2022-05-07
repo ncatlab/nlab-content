@@ -41,6 +41,8 @@ $$
 
 * An interval type is a [[suspension type]] of the [[unit type]], and the suspension of an interval type is a 2-[[globe]] type. 
 
+* An interval type is a [[cone type]] of the unit type.
+
 * An interval type is a [[cubical type]] $\Box^1$. 
 
 ## Related concepts
@@ -48,6 +50,8 @@ $$
 * [[interval]], [[interval object]]
 
 * [[suspension type]]
+
+* [[cone type]]
 
 * [[cubical type theory]]
 
