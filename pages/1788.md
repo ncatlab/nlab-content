@@ -1,4 +1,6 @@
 
+[[CrossedHomomorphismsAsSlicedFunctors210831.jpg:file]]
+
 \begin{tikzcd}
       &&
       \mathbf{B}(\Gamma \rtimes G)
