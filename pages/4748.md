@@ -676,7 +676,7 @@ The description of [[connections on a 2-bundle]] in terms of such parallel 2-tra
 
 Much further discussion and illustration and relation to [[tensor networks]] is in
 
-* {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_ ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139))
+* {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_, Journal of Mathematical Physics 60, 043506 (2019) ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139), [doi:10.1063/1.5078532](https://doi.org/10.1063/1.5078532))
 
 Applications are discussed in
 
