@@ -84,8 +84,9 @@ If $R$ is a [[ring]] (or [[rig]]) and $M$ an $R$-[[module]], then a __unit__ in 
 
 
 ### Units of measurement
+ {#UnitsOfMeasurement}
 
-In [[physics]], the quantities of a given dimension generally form an $\mathbb{R}$-[[line]], a $1$-dimensional [[vector space]] over the [[real numbers]].  Since $\mathbb{R}$ is a field, any non-[[zero]] quantity is a unit, called in this context a __unit of measurement__.  This is actually a special case of a unit in a module, where $R \coloneqq \mathbb{R}$ and $M$ is the line in question.
+In [[physics]], the quantities of a given dimension generally form an $\mathbb{R}$-[[line]], a $1$-dimensional [[real vector space]]. Since $\mathbb{R}$ is a [[field]], any non-[[zero]] element is a unit, called in this context a __[[unit of measurement]]__.  This is actually a special case of a unit in a module, where $R \coloneqq \mathbb{R}$ and $M$ is the line in question.
 
 Often (but not always) these quantities form an [[orientation|oriented]] line, so that nonzero quantities are either positive or negative.  Then we usually also require a unit of measurement to be positive.  In fact, for some dimensions, there is no physical meaning to a negative quantity, in which case the quantities actually form a module over the rig $\mathbb{R}_{\ge 0}$ and every nonzero element is "positive."
 
