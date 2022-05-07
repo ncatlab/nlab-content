@@ -19,10 +19,8 @@
 
 * [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
 
-## Idea
-
-
-See [[cover]], [[covering space]].
+The term “covering” can refer to [[cover]], [[covering space]],
+or a [[covering family]] in a [[Grothendieck topology]].
 
 
 [[!redirects coverings]]
