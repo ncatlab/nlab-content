@@ -42,8 +42,9 @@ see at _[[K(n)-local stable homotopy theory]]_ (...)
 ([[Spectral Schemes|Lurie SpecSchm, example 3.13]])
 
 ### Codensity monad of the inclusion into all homotopy types
+ {#CodensityMonadOfInclusionIntoAllHomotopyTypes}
 
-The inclusion of homotopy types with finite groups into all homotopy types generates a [[condensity monad]] whose algebras lie somewhere between [[totally disconnected]] compact Hausdorff [[condensed mathematics|condensed]] $\infty$-groupoids, and all compact Hausdorff condensed $\infty$-groupoids. (See [Scholze](#Scholze) for more details.)
+The inclusion of homotopy types with finite groups into all homotopy types generates a [[codensity monad]] whose algebras lie somewhere between [[totally disconnected]] compact Hausdorff [[condensed mathematics|condensed]] $\infty$-groupoids, and all compact Hausdorff condensed $\infty$-groupoids. (See [Scholze](#Scholze) for more details.)
 
 
 
