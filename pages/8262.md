@@ -154,7 +154,6 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming AC) every
 =--
 
 
-
 ## Examples
 
 * The free abelian group on the [[singular simplicial complex]] of a [[topological space]] $X$ consists of the [[singular chains]] on $X$.
@@ -170,6 +169,8 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming AC) every
 * [[free group]]
 
 * [[free commutative monoid]]
+
+* [[free simplicial abelian group]]
 
 ## References
 
