@@ -219,6 +219,10 @@ Implications for the significance across channels:
 
 > $[\ldots]$  A more structural way of addressing the flavor structure of the model is the idea of implementing [[GUT|Pati-Salam unification]]
 
+[LIOS 21](#LIOS21):
+
+> we obtain the global significance to be 3.9 standard deviations
+
 \linebreak
 
 ### Outlook
@@ -570,6 +574,7 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#CFFIN21} Claudia Cornella, Darius A. Faroughy, [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias Neubert]], _Reading the footprints of the B-meson flavor anomalies_ ([arXiv:2103.16558](https://arxiv.org/abs/2103.16558))
 
+* {#LIOS21} Davide Lancierini, [[Gino Isidori]], Patrick Owen, Nicola Serra, _On the significance of new physics in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2104.05631](https://arxiv.org/abs/2104.05631))
 
 Outlook:
 
@@ -899,6 +904,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#GST21} [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
+[[leptoquarks]] explaining both the [[flavour anomalies]] and the [(g-2)-anomalies](anomalous+magnetic+moment#Anomalies):
+
+* Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
 
 [[leptoquarks]] within a [[Randall-Sundrum model]]:
 
