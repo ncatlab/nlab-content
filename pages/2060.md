@@ -192,11 +192,11 @@ The concrete description in terms of model theory on marked simplicial sets is i
 
 The direct description of the universal fibration is discussed at
 
-* {#direct} [A construction of the universal cocartesian fibration](https://mathoverflow.net/questions/383275/)
+* {#direct} MathOverflow: _[A construction of the universal cocartesian fibration](https://mathoverflow.net/questions/383275/)_
 
-Kerodon talks about fibrations with the use of (∞,2)-category theory in chapter 5.
+Discussion of fibrations via [[(∞,2)-category]] theory 
 
-* [Kerodon](https://kerodon.net/)
+* [[Jacob Lurie]], chapter 5 _[Fibrations of ∞-Categories](https://kerodon.net/tag/01J2)_ (2021) in: _[[Kerodon]]_
 
 [[!redirects universal fibration of (∞,1)-categories]]
 
