@@ -13,6 +13,11 @@ On the [[Monster vertex algebra]]:
 * {#BorcherdsConwayQueenSloane} [[Richard Borcherds]], [[John Conway]], L. Queen, N. J. A. Sloane, _A Monster Lie Algebra?_, In: _Sphere Packings, Lattices and Groups_, Grundlehren der mathematischen Wissenschaften (A Series of Comprehensive Studies in Mathematics), vol 290. Springer 1993 ([doi:10.1007/978-1-4757-2249-9_30](https://doi.org/10.1007/978-1-4757-2249-9_30), [pdf](http://neilsloane.com/doc/Me99.pdf))
 
 
+On [[Lie groups]] and [[quantum groups]]:
+
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
+
+
 [[!redirects R. E. Borcherds]]
 [[!redirects Richard Ewen Borcherds]]
 [[!redirects Richard E. Borcherds]]
