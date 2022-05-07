@@ -65,7 +65,7 @@ Many tools and results about small categories, in particular concerning [[limit]
 
 There are various notions and techniques to deal with this problem and reduce or relate large categories to small categories as much as possible:
 
-* In the simplest case the large category is *essentially* small in that it is [[equivalence of categories|equivalent]] to a [[small category]].  Then (for all non-[[evil]] purposes) you can simply replace it with a small category.
+* In the simplest case the large category is *essentially* small in that it is [[equivalence of categories|equivalent]] to a [[small category]].  Then (for all purposes adhering to the [[principle of equivalence]]) you can simply replace it with a small category.
 
 * Many large categories that arise in practice are (even essentially) large but still *accessible*.  An [[accessible category]] is a large category which behaves like the category of [[ind-object]]s of a small category and is therefore, while itself large, entirely governed by a small category.
 
