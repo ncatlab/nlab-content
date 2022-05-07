@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -21,7 +20,7 @@
 
 The __trivial group__ is the [[group]] whose underlying [[set]] is the [[singleton]], hence whose only [[element]] is the [[neutral element]].
 
-In the context of [[nonabelian groups]] the trivial group is usually denoted $1$, while in the context of [[abelian groups]] it is usually denoted $0$.   
+In the context of [[nonabelian groups]] the trivial group is usually denoted $1$, while in the context of [[abelian groups]] it is usually denoted $0$ (being the [[zero object]]) and also called the *zero group* (notably in [[homological algebra]]).   
 
 The trivial group is a [[zero object]] (both [[initial object|initial]] and [[terminal object|terminal]]) of [[Grp]].
 
@@ -48,3 +47,6 @@ The trivial group is an example of a [[trivial algebra]].
 
 [[!redirects trivial quotient group]]
 [[!redirects trivial quotient groups]]
+
+[[!redirects zero group]]
+[[!redirects zero groups]]
