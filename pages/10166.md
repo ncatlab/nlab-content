@@ -1230,11 +1230,15 @@ that a homotopy-inverse is given by the evident inclusion functor $i$ that fills
 \begin{remark}
   To the extent that passage to fixed loci commutes with 
   realization (this would be guaranteed if we could use ordinary
-  geometric realization in Prop. \ref{RealizationOfMurayamaShimakawaGroupoidForDiscreteGIsClassifyingSpace}),
+  geometric realization in Prop. \ref{RealizationOfMurayamaShimakawaGroupoidForDiscreteGIsClassifyingSpace} which works as soon as $\Gamma$ is compact Lie),
   Prop. \ref{FixedLociOfcalBGammaForDiscreteG} immediately implies
   the behaviour of equivariant classifying spaces under 
   fixed loci according to [Lashof 82, Thm. 2.17](#Lashof82) and [Lashof & May 86, Thm. 10](#LashofMay86).
+  
+  Related discussion is in [Guillou, May & Merling 17, pp. 15](#GuillouMayMerling17).
 \end{remark}
+
+
 
 (...)
 
