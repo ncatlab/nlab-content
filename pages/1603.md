@@ -72,16 +72,31 @@ A __quasigroup__ is a [[set]] $G$ equipped with three binary operations (product
 Also, without the right quotient we have left quasigroups, and without the left quotient the right quasigroups.
 Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]]. There are weaker structures, say left and right quasigroups in which either $\backslash$ or $/$ is well defined. 
 
-For good measure, here is another special kind of quasigroup:
-+-- {: .un_defn}
-###### Definition
+## Left and right quasigroups
 
-A __[[group]]__ is an associative quasigroup with [[identity elements]].
-=--
+The left (resp. right) quasigroups that are also left (right) [[invertible magmas]] can be explicitly defined through the left (right) quotient operation itself, with multiplication being defined from the left (right) quotient. 
+
+A __left quotient__ on a set $G$ is a binary operation $(-)\backslash(-):G\times G\to G$, such that:
+
+  * For all $a$ and $b$ in $G$, $a\backslash a=b\backslash b$
+  * For all $a$ in $G$, $(a\backslash (a\backslash a))\backslash (a\backslash a)=a$
+
+For any element $a$ in $G$, the element $a\backslash a$ is called a __right identity element__, and the element $a\backslash (a\backslash a)$ is called the __right inverse element__ of $a$. For all elements $a$ and $b$ in $G$, __left multiplication__ of $a$ and $b$ is defined as $(a\backslash (a\backslash a))\backslash b$. 
+
+The multiplication operation is __associative__ if for all $a$, $b$, and $c$ in $G$, $(a\backslash b)\backslash c= b\backslash ((a\backslash (a\backslash a))\backslash c)$, __unital__ if there exists an element $1$ in $G$ such that for all $a$ in $G$, $a\backslash a = 1$, and __commutative__ if for all $a$ and $b$ in $G$, $(a\backslash (a\backslash a))\backslash b = (b\backslash (b\backslash b))\backslash a$. 
+
+A __right quotient__ on a set $G$ is a binary operation $(-)/(-):G\times G\to G$ such that:
+
+  * For all $a$ and $b$ in $G$, $a/a=b/b$
+  * For all $a$ in $G$, $(a/a)/((a/a)/a)=a$
+
+For any element $a$ in $G$, the element $a/a$ is called a __left identity element__, and the element $(a/a)/a$ is called the __left inverse element__ of $a$. For all elements $a$ and $b$, __right multiplication__ of $a$ and $b$ is defined as $a/((b/b)/b)$. The multiplication operation is __associative__ if for all $a$, $b$, and $c$ in $G$, $a/(b/c)=(a/((c/c)/c)/b$, __unital__ if there exists an element $1$ in $G$ such that for all $a$ in $G$, $a/a=1$, and __commutative__ if for all $a$ and $b$ in $G$, $a/((b/b)/b) = b/((a/a)/a)$. 
+
+A quasigroup that is left invertible and right invertible can be defined as a set with a left and right quotient $(G,\backslash,/)$ where left and right multiplications are equal (i.e. $a/((b/b)/b) = (a\backslash (a\backslash a))\backslash b$) for all $a$ and $b$ in $G$. If additionally, there exists a element $1$ in $G$ such that $a\backslash a = 1$ and $a/a = 1$, then the quasigroup is a [[loop (algebra)|loop]]. If the comdition is relaxed to the requirements that left and right identity elements are equal (i.e. $a/a = a \backslash a$) for all $a$ in $G$ and the element $1$ is not required to be in $G$, then the loop might [[possibly empty loop|possibly be empty]]. If the associativity requirement is added to the left and right quotients of the quasigroup, then it becomes an [[associative quasigroup]], where equality of left and right identity and inverse elements can be derived. 
 
 ## Examples
 
-*  Any group is an associative quasigroup, of course.
+*  Any group is an associative quasigroup with [[identity elements]].
 * Every [[associative quasigroup]], every [[nonassociative group]], and every [[loop (algebra)|loop]] is a quasigroup. 
 * Every [[invertible magma]] is a quasigroup. 
 *  Any [[abelian group]] is a quasigroup in two other ways: the product switches places with one of the quotients.  (The other quotient remains a quotient.)
