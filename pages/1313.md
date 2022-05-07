@@ -34,7 +34,7 @@ An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ in a [[cartesian 
 
 The above is actually a complete definition, but here we spell it out.
 
-Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[product]]s with $Y$ exist.  (Usually, $C$ actually has all binary products.)  Then an __exponential object__ is an object $X^Y$ equipped with an __[[evaluation map]]__ $\mathrm{ev}\colon X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e\colon Z \times Y \to X$, there exists a unique map $u\colon Z \to X^Y$ such that
+Let $X$ and $Y$ be objects of a [[category]] $C$ such that all binary [[products]] with $Y$ exist.  (Usually, $C$ actually has all binary products.)  Then an __exponential object__ is an object $X^Y$ equipped with an __[[evaluation map]]__ $\mathrm{ev}\colon X^Y \times Y \to X$ which is universal in the sense that, given any object $Z$ and map $e\colon Z \times Y \to X$, there exists a unique map $u\colon Z \to X^Y$ such that
 $$ Z \times Y \stackrel{u \times \mathrm{id}_Y}\to X^Y \times Y \stackrel{\mathrm{ev}}\to X $$
 equals $e$.
 
@@ -47,18 +47,21 @@ As with other [[universal construction]]s, an exponential object, if any exists,
 
 As before, let $C$ be a category and $X,Y\in C$.
 
-* If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$.
+* If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$.  As above, the existence of $X^Y$ requires that all binary products with $Y$ exist.
 
-* If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__ (or *powerful*, cf. Street-Verity [pdf](http://www.emis.de/journals/TAC/volumes/23/3/23-03.pdf)).  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable.
+* If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__ (or *powerful*, cf. Street-Verity [pdf](http://www.emis.de/journals/TAC/volumes/23/3/23-03.pdf)).  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable (which requires that all binary products exist too).
 
-* More generally, a morphism $f\colon Y \to A$ is __exponentiable__ (or *powerful*) when it is exponentiable in the [[over category]] $C/A$.  This is equivalent to saying that the [[base change]] functor $f^*$ has a [[right adjoint]], usually denoted $\Pi_f$ and called a [[dependent product]].  In particular, $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ iff every morphism is exponentiable, iff all pullback functors have right adjoints.
+* More generally, a morphism $f\colon Y \to A$ is __exponentiable__ (or *powerful*) when it is exponentiable in the [[over category]] $C/A$.  This is equivalent to saying that all pullbacks along $f$ exist and that the resulting [[base change]] functor $f^* : C/A \to C/Y$ has a [[right adjoint]], usually denoted $\Pi_f$ and called a [[dependent product]].  In particular, $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ iff every morphism is exponentiable, iff all pullback functors have right adjoints.  (Sometimes locally cartesian closed categories are also required to have a terminal object, and hence to also be cartesian closed.)
 
-* Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.  (The reader should beware that some authors say "exponentiable" for what is here called "exponentiating.")
+* Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  (This requires that $C$ have all binary products.)  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.  (The reader should beware that some authors say "exponentiable" for what is here called "exponentiating.")
 
 Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).  Some coexponential objects occur naturally in algebraic categories (such as [[rings]] or [[frames]]) whose opposites are viewed as categories of spaces (such as [[schemes]] or [[locales]]).  Cf. also [[cocartesian closed category]].
 
 When $C$ is not cartesian but merely monoidal, then the analogous notion is that of a [[residual|left/right residual]].
 
+## Properties
+
+* If $C$ has equalizers of coreflexive pairs, then any pullback of an exponentiable morphism is exponentiable.  This follows from the [[adjoint triangle theorem]], since the left adjoint $\Sigma_f$ of pullback is [[comonadic functor|comonadic]].
 
 ## Examples 
 
@@ -100,7 +103,7 @@ The condition that a topological space be core-compact (i.e. exponentiable) is i
 
 * In a [[type theory]] with [[dependent product]]s, every display morphism is exponentiable in the category of [[context]]s ---even in a type theory without identity types, so that not every morphism is display and the relevant slice category need not have all products.
 
-* In a [[functor category]] $D^C$, a [[natural transformation]] $\alpha:F\to G$ is exponentiable if (though probably not "only if") it is [[cartesian natural transformation|cartesian]] and each component $\alpha_c:F c \to G c$ is exponentiable in $D$.  Given $H\to F$, we define $\Pi_\alpha(H)(c) = \Pi_{\alpha_c}(H c)$; then for $u:c\to c'$ to obtain a map $\Pi_{\alpha_c}(H c) \to \Pi_{\alpha_{c'}}(H c')$ we need a map $\alpha_{c'}^*(\Pi_{\alpha_c}(H c)) \to H c'$.  But since $\alpha$ is cartesian, $\alpha_{c'}^*(\Pi_{\alpha_c}(H c)) \cong \alpha_c^* (\Pi_{\alpha_c}(H c))$, so we have the counit $\alpha_c^* (\Pi_{\alpha_c}(H c)) \to H c$ that we can compose with $H u$.
+* In a [[functor category]] $D^C$, a [[natural transformation]] $\alpha:F\to G$ is exponentiable if it is [[cartesian natural transformation|cartesian]] and each component $\alpha_c:F c \to G c$ is exponentiable in $D$.  Given $H\to F$, we define $\Pi_\alpha(H)(c) = \Pi_{\alpha_c}(H c)$; then for $u:c\to c'$ to obtain a map $\Pi_{\alpha_c}(H c) \to \Pi_{\alpha_{c'}}(H c')$ we need a map $\alpha_{c'}^*(\Pi_{\alpha_c}(H c)) \to H c'$.  But since $\alpha$ is cartesian, $\alpha_{c'}^*(\Pi_{\alpha_c}(H c)) \cong \alpha_c^* (\Pi_{\alpha_c}(H c))$, so we have the counit $\alpha_c^* (\Pi_{\alpha_c}(H c)) \to H c$ that we can compose with $H u$.  (This is certainly not an if-and-only-if, however: for instance, if $C$ is small, then all morphisms of $Set^C$ are exponentiable, whether or not they are cartesian.)
 
 However, exponentiating objects do matter sometimes.
 
@@ -108,7 +111,7 @@ However, exponentiating objects do matter sometimes.
 
 * [[Toby Bartels]] has [argued](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023187) that [[predicative mathematics]] can have a set of [[truth value]]s as long as this set is not exponentiating (or even exponentiates only [[finite set]]s).
 
-* A [[dialogue category]] is a [[symmetric monoidal category]] equipped with an exponentiating object.
+* A [[dialogue category]] is a [[symmetric monoidal category]] equipped with the non-cartesian monoidal analogue of an exponentiating object.
 
 ### Relative Examples
 
