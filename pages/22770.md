@@ -16,7 +16,7 @@
 
 ## Idea
 
-The idea of a scale comes from [[Peter Freyd]]. Scales are models of multiplicative-additive [[linear logic]]. 
+The idea of a scale comes from [[Peter Freyd]], in his attempt to give an algebraic (in the sense of universal algebra) description of the real [[interval]], which he believed to be more fundamental than the [[real numbers]] themselves in [[analysis]], and of concepts from analysis such as [[Lipschitz continuity]], [[limits]], [[differentiation]] and [[differential equations]]. Freyd also discovered that scales are models of multiplicative-additive [[linear logic]] with a midpoint operation. 
 
 ## Definition
 
