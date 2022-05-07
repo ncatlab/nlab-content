@@ -58,19 +58,10 @@ This appears as [[Higher Topos Theory|HTT, cor. 7.2.2.30]].
 
 ## Related concepts
 
-* [[dimension]]
+[[!include notions of dimension -- contents]]
 
-  * [[dimension of a cell complex]]
 
-  * [[homotopy dimension]]
 
-  * **cohomological dimension** 
-
-  * [[virtual cohomological dimension]]
-
-  * [[covering dimension]]
-
-  * [[Heyting dimension]]
 
 ## References
 
