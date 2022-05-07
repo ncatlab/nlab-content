@@ -4,9 +4,11 @@
 
 ## Selected writings
 
-On classification of [[Yang-Mills monopoles]] via [[rational maps]], namely [[holomorphic maps]] between [[Riemann spheres]]:
+On classification of [[Yang-Mills monopoles]] via [[rational maps]] ([[holomorphic maps]], really) from the [[Riemann sphere]] to a [[flag variety]]:
 
-* Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
+* {#IonnadouSutcliffe99a} [[Theodora Ioannidou]], [[Paul Sutcliffe]], *Monopoles and Harmonic Maps*, J. Math. Phys. 40:5440-5455 (1999) ([arXiv:hep-th/9903183](https://arxiv.org/abs/hep-th/9903183))
+
+* [[Theodora Ioannidou]], [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
 
 Discussion relating [[skyrmions]] with [[instantons]], [[calorons]] and [[solitons]] and [[monopoles]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]] via [[D=5 Yang-Mills theory]], [[hadron Kaluza-Klein theory]]):
 
