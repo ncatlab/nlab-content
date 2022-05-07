@@ -148,13 +148,18 @@ Finally, one can ask for the existence of additional compatibility commutative d
 
 * [[spectrum of a tensor triangulated category]]
 
+* [[tensor category]], [[triangulated category]]
+
+* [[tensor (∞,1)-category]]
+
+
 ## References
 
-* {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Memoirs of the AMS 610 (1997) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf))
+* {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Memoirs of the AMS 610 (1997) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf), [doi:10.1090/memo/0610](http://dx.doi.org/10.1090/memo/0610))
 
-* {#Balmer05} [[Paul Balmer]], _The spectrum of prime ideals in tensor triangulated categories, J. Reine Angew. Math., 588:149&#8211;168, 2005 ([arXiv:0409360](http://arxiv.org/abs/math/0409360))
+* {#Balmer05} [[Paul Balmer]], _The spectrum of prime ideals in tensor triangulated categories, J. Reine Angew. Math., 588:149&#8211;168, 2005 ([arXiv:0409360](http://arxiv.org/abs/math/0409360), [doi:10.1515/crll.2005.2005.588.149](https://doi.org/10.1515/crll.2005.2005.588.149))
 
-* {#May01} [[Peter May]], _The Additivity of Traces in Triangulated Categories_, Advances in Mathematics, Volume 163, Issue 1, 2001, Pages 34-73, [doi](https://doi.org/10.1006/aima.2001.1995)
+* {#May01} [[Peter May]], _The Additivity of Traces in Triangulated Categories_, Advances in Mathematics, Volume 163, Issue 1, 2001, Pages 34-73 ([doi:10.1006/aima.2001.1995](https://doi.org/10.1006/aima.2001.1995))
 
 Review:
 
