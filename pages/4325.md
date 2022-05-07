@@ -41,6 +41,9 @@ See at _[[free infinite loop space]]_.
 
 ## References
 
+* [[Ib Madsen]], [[Victor Snaith]], [[Jørgen Tornehave]], *Infinite loop maps in geometric topology*, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 81, Issue 3, (1977)([doi:10.1017/S0305004100053482](https://doi.org/10.1017/S0305004100053482))
+
+
 * [[Peter May]], _Infinite loop space theory_, Bull. Amer. Math. Soc. Volume 83, Number 4 (1977), 456-494. ([euclid:1183538891](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183538891), [doi:10.1090/S0002-9904-1977-14318-8](https://doi.org/10.1090/S0002-9904-1977-14318-8))
 
   _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
