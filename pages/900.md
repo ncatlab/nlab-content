@@ -314,7 +314,7 @@ Here
 
 * the second step is the definition of the [[opposite category]], using Remark \ref{BetweenFilteredLimitsAndFilteredColimits};
 
-* the third step uses that [[hom-functors preserve limits]], which means that $\mathcal{K}^{op}  \xrightarrow{\;\mathcal{K}(-,k)\;} Sets$ takes *[[colimits]] in $\mathcal{K}$* to *limits in $\mathcal{K}$*, here for $\mathcal{K} = Func(\mathcal{C},Sets)$;
+* the third step uses that [[hom-functors preserve limits]], which means that $\mathcal{K}^{op}  \xrightarrow{\;\mathcal{K}(-,k)\;} Sets$ takes *[[colimits]] in $\mathcal{K}$* to *limits in [[Sets]], here for $\mathcal{K} = Func(\mathcal{C},Sets)$;
 
 * the fourth step is the [[Yoneda lemma]];
 
