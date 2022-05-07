@@ -64,7 +64,7 @@ In particular, the existence of a nowhere vanishing [[vector field]] (for which 
 
 The converse also holds: If the Euler characteristic of a closed manifold vanishes, then a nowhere vanishing vector field exists (e.g. [MO:a/47553/58526](https://math.stackexchange.com/a/47553/58526)).
 
-Also: Given any connected closed manifold, the [[complement]] of any [[positive number]] of points carries a nowhere vanishing vector field (as any connected non-compact manifold does, e.g. [MO:a/52026/381](https://mathoverflow.net/a/52026/381)). Smoothly scaling this to zero towards these points gives a vector field on the original manifold which may be used in the PH-theorem.
+Also: Given any connected closed manifold, the [[complement]] of any [[positive number]] of [[disjoint union|disjoint]] [[open balls]] carries a nowhere vanishing vector field (namely: choose any vector field with isolated zeros on the original manifold and then deform continuously to push all these zeros into inside the open balls). Smoothly scaling this vector field to zero towards the centers of these open balls gives a vector field on the original manifold which may be used in the PH-theorem.
 
 
 
