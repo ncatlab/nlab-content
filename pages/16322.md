@@ -90,18 +90,18 @@ Scott made the underlying categorical structure explicit in a later paper, where
 
 For a modern analysis of Scott's representation theorem, see:
 
-* {#Hyland13} [[Martin Hyland]]. Classical lambda calculus in modern dress. To appear in _Mathematical Structures in Computer Science_, 2013. [arxiv](http://arxiv.org/abs/1211.5762)
+* {#Hyland13} [[Martin Hyland]]. _Classical lambda calculus in modern dress_ Mathematical Structures in Computer Science, 27(5) (2017) 762-781. doi:[10.1017/S0960129515000377](). [arxiv:1211.5762](http://arxiv.org/abs/1211.5762)
 
-* {#Hyland14} [[Martin Hyland]], _Towards a Notion of Lambda Monoid_ , Electronic Notes in Theoretical Computer Science **303** (2014) pp.59-77.
+* {#Hyland14} [[Martin Hyland]], _Towards a Notion of Lambda Monoid_ , Electronic Notes in Theoretical Computer Science **303** (2014) pp.59-77, doi:[10.1016/j.entcs.2014.02.004](https://doi.org/10.1016/j.entcs.2014.02.004)
 
 Bicategorical and monoidal generalizations of the notion of reflexive object are discussed in:
 
-* [[R. A. G. Seely]]. Modelling Computations : a 2-categorical Framework. LICS 1987. ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
+* [[R. A. G. Seely]]. _Modelling Computations : a 2-categorical Framework_. LICS 1987. ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
 
 * [[Bart Jacobs]]. Semantics of lambda-I and of other substructure lambda calculi.  M. Bezem and J.F. Groote (eds.) _Typed Lambda Calculi and Applications_, Springer
-LNCS 664, 1993, p. 195-208.
+LNCS 664, 1993, p. 195-208, doi:[10.1007/BFb0037107](https://doi.org/10.1007/BFb0037107)
 
-* [[Noam Zeilberger]]. Linear lambda terms as invariants of rooted trivalent maps. 31 Jan 2016. ([arXiv](http://arxiv.org/abs/1512.06751))
+* [[Noam Zeilberger]]. Linear lambda terms as invariants of rooted trivalent maps, Journal of Functional Programming, 26, e21, 20 pages, 2016, doi:[10.1017/S095679681600023X](https://doi.org/10.1017/S095679681600023X), [arXiv:1512.06751](http://arxiv.org/abs/1512.06751)
 
 ## Related concepts
 
