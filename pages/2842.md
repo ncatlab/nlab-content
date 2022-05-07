@@ -481,22 +481,22 @@ More generally, every [[retract]] of a [[relative cell complex]] inclusion is a 
 
 This is part of the statement of the [[Quillen adjunction]] between then [[classical model structure on topological spaces]] and the [[Strøm model structure]] (see [below](#StromModelStructure)).
 
-### Basepoints in locally Euclidean spaces
+### Closed points in locally Euclidean spaces
  {#BasepointsInLocallyEuclideanSpaces}
 
 \begin{proposition}
-  Any [[point]]-inclusion into a [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[locally Euclidean space]] is an h-cofibration.
+  Any [[point]]-inclusion into a [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[locally Euclidean space|locally Euclidean]] [[Hausdorff space]] is an h-cofibration.
 \end{proposition}
 \begin{proof}
-By assumption, any point has a [[neighbourhood]] which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$. Now let:
+By definition of [[locally Euclidean spaces]], any point has a [[neighbourhood]] which is [[chart]], being a [[Euclidean space]] that may be identified with a [[vector space]] $\mathbb{R}^n$ with the given point being the origin $0 \,\in\, \mathbb{R}^n$. Now let:
 
 * $U \;\coloneqq\; B_\epsilon(1)$ be the [[closed ball]] in $\mathbb{R}^n$ of unit [[radius]];
 
-* $\phi_{\vert U}$ be the [[distance]] from the origin;
+* $\phi_{\vert U}$ be the [[distance]] from the origin and $\phi_{\vert X\setminus U}$ to be the [[constant function]] to $1 \in [0,1]$.
 
 * $\eta \colon (\vec x, t) \mapsto (1-t)\cdot \vec x$.
 
-It is immediate to see that this data satisfies the conditions required by Prop. \ref{CharactrerizationViaNeighbourhoodDeformation}.
+It is immediate to see that this data satisfies the conditions discussed in Prop. \ref{CharactrerizationViaNeighbourhoodDeformation}. Since every point in a [[Hausdorff space]] is [[closed point|closed]], that proposition applies and implies the claim.
 \end{proof}
 
 
