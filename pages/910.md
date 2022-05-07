@@ -18,12 +18,12 @@
 
 {#IsCalled} A [[topological space]] is called _compactly generated_ 
 -- also called a
-"k-space"[^1] ([Gale 1950, 1.](#Gale50)),
+"k-space"[^1] ([Gale 1950, 1.](#Gale50), following lectures by [[Witold Hurewicz|Hurewicz]] in 1948),
 "Kelley space" ([Gabriel & Zisman 1967, III.4](#GabrielZisman67)), or
 "kaonic space" ([Postnikov 1982, p. 34](#Postnikov82)) --
 if its topology is detected by the [[continuous map|continuous]] [[images]] of [[compact Hausdorff spaces]] inside it.
 
-Compactly generated spaces form a [[convenient category of topological spaces]] ([Steenrod 1967](#Steenrod67)) and as such have come to be commonly used in the foundations of [[algebraic topology]] and [[homotopy theory]], especially in their modern form as compactly generated *weakly Hausdorff* spaces ([McCord 1969](#McCord69)).
+Compactly generated spaces form a [[convenient category of topological spaces]] ([Steenrod 1967](#Steenrod67)) and as such have come to be commonly used in the foundations of [[algebraic topology]] and [[homotopy theory]], especially in their modern form as compactly generated *weakly Hausdorff* spaces, due to [McCord 1969, Sec. 2](#McCord69).
 
 
 ## Definitions 
@@ -171,7 +171,7 @@ The idea of compactly generated spaces appears first, assuming the Hausdorff con
 * {#Gale50} David Gale, Section 1 of: _Compact Sets of Functions and Function Rings_,
 Proc. AMS **1** (1950) pp.303-308. ([pdf](http://www.ams.org/journals/proc/1950-001-03/S0002-9939-1950-0036503-X/S0002-9939-1950-0036503-X.pdf), [doi:10.2307/2032373](https://doi.org/10.2307/2032373), [jstor:2032373](https://www.jstor.org/stable/2032373))
 
-where it is attributed to [[Witold Hurewicz]].
+where it is attributed to [[Witold Hurewicz]], who lectured on the topic in Princeton, 1948-1949.[^2]
 
 Early textbook accounts assuming the Hausdorff condition:
 
@@ -245,6 +245,8 @@ See also:
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, around note 4.3.22 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
 
 * Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
@@ -254,6 +256,7 @@ See also:
 
 [^1]: The reason for  choosing the term "k-space" in [Gale 1950](#Gale50) seems to be lost in history. The "k" is not for "Kelley", as [Kelley 1955](#Kelley55) came later. It might have been an allusion to the German word *kompakt*.
 
+[^2]: [[Martin Escardo]] recalls, [here in 2021](https://nforum.ncatlab.org/discussion/8638/compactly-generated-topological-space/?Focus=94755#Comment_94755), [[William Lawvere]] reporting, in 2003, on a conversation with [David Gale](#Gale50) as follows: "Now I have telephoned David Gale again. He states that he had participated in a seminar at Princeton in 1948-1949 in which Hurewicz lectured on his k-space definition and on the exponential law which results."
 
 
 [[!redirects compactly generated topological space]]
