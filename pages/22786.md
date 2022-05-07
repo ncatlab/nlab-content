@@ -27,7 +27,21 @@ $$e^{a + b} = e^a \cdot e^b$$
 
 ## Properties
 
-The monoid homomorphism is an [[group]] homomorphism into the multiplicative subgroup of two-sided [[units]] of $R$, due to the fact that the additive monoid of $R$ is a [[group]]
+The monoid homomorphism is an [[group]] homomorphism into the multiplicative subgroup of two-sided [[units]] of $R$, due to the fact that the additive monoid of $R$ is a [[group]]. 
+
+### Trigonometric functions
+
+If an exponential ring $R$ has elements $i$ and $\frac{1}{2}$ in $R$ such that $i \cdot i = -1$ and $\frac{1}{2} + \frac{1}{2} = 1$, then the __[[sine]]__ and __[[cosine]]__ could be defined as 
+
+$$
+\sin{x} \coloneqq \frac{1}{2}\cdot i\cdot (e^{-i\cdot x} - e^{i\cdot x}) = \frac{1}{2}\cdot (e^{-x \cdot i} - e^{x \cdot i}) \cdot i
+$$
+
+$$
+\cos{x} \coloneqq \frac{1}{2}\cdot (e^{i\cdot x} + e^{-i\cdot x})
+$$
+
+It could be proven from these definitions that the sine and cosine satisfy various [[trigonometric identities]]. 
 
 ## Examples
 
