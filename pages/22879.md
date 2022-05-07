@@ -21,10 +21,22 @@
 ## Idea
 
 
-On the [[homotopy type]] of [[mapping spaces]] of [[rational maps]].
+On the [[stable homotopy type|stable]] [[homotopy type]] of [[mapping spaces]] of [[rational maps]].
 
-Under good conditions, the [[topological subspace|subspace inclusion]] of the space of [[rational maps]] into that of all [[continuous maps]] between given [[algebraic varieties]] induces an [[isomorphism]] in [[ordinary homology]] in low degrees. For maps out of the [[Riemann sphere]] this is even an isomorphism on [[homotopy groups]] in low degrees.
+Under good conditions, the [[topological subspace|subspace inclusion]] of the space of [[rational maps]] into that of all [[continuous maps]] between given [[complex manifolds]] or [[algebraic varieties]] induces an [[isomorphism]] in integral [[ordinary homology]] in low degrees, while for maps out of the [[Riemann sphere]] this is even an isomorphism on [[homotopy groups]] in low degrees -- an observation that goes back to [Segal 1979](#Segal79):
 
+$$
+  Maps_{rat}(X_1, X_2)
+  \xhookrightarrow{ {homology\; iso} \atop {in\; low\; degree} }
+  Maps_{cts}(X_1, X_2)
+  \,.
+$$
+
+Whenever this is the case then this provides
+
+1. from left to right: topological tools for analyzing [[moduli spaces]] of rational hypersurfaces;
+
+1. from right to left: small algebraic models for [[stable homotopy types|stable]] [[homotopy types]] of [[mapping spaces]].
 
 ## Properties
 
@@ -167,9 +179,9 @@ Here the number of poles in the rational function  is the number $n$ of particle
 
 Generalization to higher dimensional domain spaces:
 
-* Say that the *degree* of a [[rational map]] $f \;\colon\; \mathbb{C}P^n \to \mathbb{C}P^n$ between two [[complex projective spaces]] is the degree of the [[polynomials]] that define it.
+* Say that the *degree* of a [[rational map]] $f \;\colon\; \mathbb{C}P^{n_1} \to \mathbb{C}P^{n_2}$ between two [[complex projective spaces]] is the degree of the [[polynomials]] that define it.
 
-* In generalization of (eq:DegreeOfAMapToCPn), say that a [[continuous map]] $f \;\colon\; \mathbb{C}P^n \to \mathbb{C}P^n$ between two [[complex projective spaces]] has *degree* $d \in \mathbb{N}$ (Rem. \ref{NotionsOfDegree}) if this is the induced factor for [[pullback in cohomology|pullback in]] their second [[integers|integral]] [[ordinary cohomology]] (see [here](complex+projective+space#OrdinaryHomologyAndCohomology))
+* In generalization of (eq:DegreeOfAMapToCPn), say that a [[continuous map]] $f \;\colon\; \mathbb{C}P^{n_1} \to \mathbb{C}P^{n_2}$ between two [[complex projective spaces]] has *degree* $d \in \mathbb{N}$ (Rem. \ref{NotionsOfDegree}) if this is the induced factor for [[pullback in cohomology|pullback in]] their second [[integers|integral]] [[ordinary cohomology]] (see [here](complex+projective+space#OrdinaryHomologyAndCohomology))
 
   \[
     \label{DegreeOfAMapBetweenComplexProjectiveSpaces}
@@ -191,14 +203,14 @@ Generalization to higher dimensional domain spaces:
 \begin{prop}\label{HomologyEquivalenceForMapsBetweenComplexProjectiveSpaces}
   For $1 \leq n_1 \leq n_2$, and $d \in \mathbb{N}$, the inclusion 
   $$
-    Maps^d_{rat}
+    Maps^{deg = d}_{rat}
     \big(
       \mathbb{C}P^{n_1}
       ,\,
       \mathbb{C}P^{n_2}
     \big)
     \xhookrightarrow{\;\;\;\;}
-    Maps^d_{cts}
+    Maps^{deg = d}_{cts}
     \big(
       \mathbb{C}P^{n_1}
       ,\,
