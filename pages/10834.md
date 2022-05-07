@@ -55,6 +55,8 @@ For rings every finitely generated ring is already also finitely presented.
 
   * [[finitely generated module]]
 
+  * [[finitely generated group]]
+
 
 ## References
 
