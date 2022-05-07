@@ -15,6 +15,13 @@ On the [[string Lie 2-algebra]]:
 
 * {#Schmidt19} [[Lennart Schmidt]], _Twisted Weil Algebras for the String Lie 2-Algebra_, in [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]] (eds.) _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_ [Durham Symposium](http://www.maths.dur.ac.uk/lms/) 2018, Fortschritte der Physik 2019 ([arXiv:1903.02873](https://arxiv.org/abs/1903.02873))
 
-  (on [[Weil algebras]] for the [[string Lie 2-algebra]])
+  > (on [[Weil algebras]] for the [[string Lie 2-algebra]])
+
+
+On regularized [[quantization]] of [[Green-Schwarz sigma-models]] for [[super p-branes]], specifically of the [[super 4-brane in 9d]], in generalization of the [matrix model of the M2-brane](M2-brane#QuantizationViaBFSSMatrixModel):
+
+
+* [[Meer Ashwinkumar]], [[Lennart Schmidt]], [[Meng-Chwan Tan]], Section 2 of: _Matrix Regularization of Classical Nambu Brackets and Super $p$-Branes_ ([arXiv:2103.06666](https://arxiv.org/abs/2103.06666))
+
 
 category: people
