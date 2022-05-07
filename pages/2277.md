@@ -129,6 +129,11 @@ Project of classification and transcription
 
 * [SGA, EGA, FGA](https://agrothendieck.github.io/SGAEGAFGA.html) By Mateo Carmona
 
+For an essay on content of EGA (about 50 years after the publication) see
+
+* U. Görtz, _Classics revisited: Éléments de Géométrie Algébrique_, Jahresbericht der Deutschen Mathematiker-Vereinigung __120__, 235–290 (2018) [doi](https://doi.org/10.1365/s13291-018-0181-1)
+
+
 [[!redirects SGA]]
 [[!redirects FGA]]
 [[!redirects Éléments de géométrie algébrique]]
