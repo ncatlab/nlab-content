@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
-#### Physics
+#### Quantum systems
 +--{: .hide}
-[[!include physicscontents]]
+[[!include quantum systems -- contents]]
 =--
 =--
 =--
