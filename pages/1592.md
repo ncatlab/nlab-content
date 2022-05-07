@@ -550,8 +550,15 @@ Therefore $p$ exhibits $\mathbb{R}^1$ as a universal covering space of $S^1$, by
 
 ## References
 
-See the references at _[[covering space]]_.
+See also the references at _[[covering space]]_.
 
+Original discussion of universal covering spaces in terms of equivalence classes of based paths:
+
+* [[William S. Massey]], Chapter 5, Section 10 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
+
+Discussion in the generality of [[equivariant homotopy theory]]:
+
+* [[Tammo tom Dieck]], Section I (10.13) of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 [[!redirects universal cover]]
 [[!redirects universal covers]]
