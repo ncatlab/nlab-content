@@ -96,4 +96,5 @@ On toric symmetries of $\mathbb{C}P^3$:
 _Toric symmetry of $\mathbb{C}P^3$_, Advances in Theoretical and Mathematical Physics, Vol. 16, No. 4, 2012 ([arXiv:1109.5157](https://arxiv.org/abs/1109.5157))
 
 
+[[!redirects CP3]]
 
