@@ -1,4 +1,47 @@
 
+\begin{tikzcd}
+      &&
+      \mathbf{B}(\Gamma \rtimes G)
+      \ar[
+        d,
+        "\mathbf{B}\mathrm{pr}_2"
+      ]
+      \\
+      \mathbf{B}G
+      \mathrlap{\,.}
+      \ar[
+        rr,-,
+        shift right=1pt
+      ]
+      \ar[
+        rr,-,
+        shift left=1pt
+      ]
+      \ar[
+        urr,
+        dashed,
+        bend left=30,
+        "\ "{right, name=s}
+      ]
+      \ar[
+        urr,
+        dashed,
+        bend right=10,
+        "\ "{left, name=t}
+      ]
+      &&
+      \mathbf{B}G
+      %
+      \ar[
+        from=s,
+        to=t,
+        dashed,
+        Rightarrow
+      ]
+\end{tikzcd}
+
+
+
 \begin{proposition}
   [[internalization|Internal to]] some 
   ambient [[category]] $\mathcal{C}$
