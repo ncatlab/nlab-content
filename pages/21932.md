@@ -128,5 +128,6 @@ Discussion in the context of [[K3-spectra]]:
 [[!redirects elliptically fibered complex K3-surface]]
 [[!redirects elliptically fibered complex K3-surfaces]]
 
-
+[[!redirects elliptically fibered K3]]
+[[!redirects elliptically fibered K3s]]
 
