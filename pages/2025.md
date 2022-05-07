@@ -353,9 +353,23 @@ In the context of [[ultracategories]], $Comp$ is equivalent to $Fun_{RUlt}(\ast,
 The [[infinitary pretopos]] of [[condensed sets]]
 is the completion of the [[pretopos]] of [[compact Hausdorff spaces]].
 
+### Relation to compactly generated topological spaces
+
+\begin{proposition}\label{kSpacesAreTheColimitsInTopOfCompactHausdorffSpaces}
+**([[k-spaces]] are the [[Top#UniversalConstructions|colimits in Top]] of [[compact Hausdorff spaces]])**
+\linebreak
+  A [[topological space]] is a [[k-space]] (Def. \ref{kSpace})
+iff it is a [[colimit]] as formed in [[Top]] (according to [this Prop.](Top#DescriptionOfLimitsAndColimitsInTop)) of a [[diagram]] of [[compact Hausdorff spaces]].
+\end{proposition}
+([Escardo, Lawson & Simpson 2004, Lem. 3.2 (v)](#EscardoLawsonSimpson04))
+
+Such colimits of compact Hausdorff spaces are also equivalently [[quotient topological spaces]] of [[locally compact Hausdorff spaces]], see [there](locally+compact+topological+space#kSpacesAreTheQuotientSpacesOfLocallyCompactHausdorffSpaces).
+
+
+
 ## Related concepts
 
-* [[compact space]], [[locally compact space]].
+* [[compact space]], [[locally compact space]], [[compactly generated topological space]]
 
 * [[paracompact Hausdorff space]]
 
@@ -366,6 +380,12 @@ is the completion of the [[pretopos]] of [[compact Hausdorff spaces]].
 * {#MarraReggio} Vincenzo Marra, Luca Reggio, _A characterisation of the category of compact Hausdorff spaces_, ([arXiv:1808.09738](https://arxiv.org/abs/1808.09738))
 
 * {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
+
+Relation to [[compactly generated topological spaces]]:
+
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+
+
 
 
 [[!redirects compactum]]
