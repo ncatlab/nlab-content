@@ -234,7 +234,45 @@ An object $X$ in an extensive category $\mathcal{C}$ is a [[connected object]], 
 
 \begin{proof}
 \label{ProofThatInExtensiveCategoryCOnnectedObjectsArePrimitiveUnderCoproduct}
-In one direction, assume that $X$ is connected. If now $X \,\simeq\, U + V$ is a coproduct decomposition, then, by connectedness, the [[isomorphism]] $X \xrightarrow{\sim} U + V$ factor through one of the coproduct inclusions of $i_U, i_V \colon U, V \hookrightarrow U + V$. If it factors through say $U$, then the [[subobject]] $i_U$ is all of $X$, and $V$ is forced to be initial: by [[disjoint coproducts|disjointness of coproducts]], which holds in any extensive category, by [this item](#DisjointAndPullbackStableCoproducts) above. 
+In one direction, assume that $X$ is connected and consider an [[isomorphism]] $X \xrightarrow{\sim} X_1 \sqcup X_2$ to a [[coproduct]]. By assumption of connectedness, this morphism factors through one of the summands, say through $X_1$, as shown in the bottom row of the following diagram: 
+
+\begin{tikzcd}
+    X_2
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny (pb)}"]
+    &
+    \varnothing
+    \ar[r]
+    \ar[d]
+    \ar[dr, phantom, "\mbox{\tiny (pb)}"]
+    &
+    X_2
+    \ar[d, "i_2"{right}]
+    \\
+    X
+    \ar[r]
+    \ar[
+      rr, 
+      rounded corners,
+      to path={
+        -- ([yshift=-7pt]\tikztostart.south)
+        -- node[below]{\scalebox{.7}{$\sim$}} 
+           ([yshift=-6pt]\tikztotarget.south)
+        -- ([yshift=-0pt]\tikztotarget.south)
+      }
+    ]
+    &
+    X_1
+    \ar[r, "i_1"{below}]
+    &
+    X_1 \sqcup X_2
+    \mathrlap{\,.}
+\end{tikzcd}
+Consider then the [[pullback]] of the total bottom morphism along the inclusion $i_2$ of the other summand. Since pullbacks of isomorphisms are isomorphisms, the resulting top left object must be (isomorphic to) $X_2$, as shown. On the other hand, by the [[pasting law]] this pullback factors into two pullback squares, as shown above. But the pullback on the right gives the [[initial object]], since [[disjoint coproducts|coproducts are disjoint]] in an extensive category (see [above](#DisjointAndPullbackStableCoproducts)). This exhibits a morphisms $X_2 \to \varnothing$. But since the initial objects in extensive categories are [[strict initial objects]], this must be an isomorphism, $X_2 \simeq \varnothing$. By the same argument, $X_1$ cannot be an initial object, since otherwise $X$ would be too, which it is not by assumption of connectedness (Rem. \ref{InitialObjectIsNotConnected}). Hence we have shown that exactly one of the two summands in $X \simeq X_1 \sqcup X_2$ is initial.
+
+
+
 
 In the other direction, assume that $X$ has non non-trivial coproduct decomposition and consider any [[morphism]] $f \colon X \to Y + Z$ into a coproduct. By [[extensive category|extensivity]], 
 this implies (eq:HomIntoCoproductIsPullbackIfDomainIsCoproduct)
