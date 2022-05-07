@@ -4,15 +4,20 @@ _Francis Borceux_ is a [[category theory|category theorist]] at Louvain (Belgium
 
 ## Writings
 
-Borceux wrote a 3-volume 
+On [[category theory]], and [[categorical algebra]]"
 
 * __[[Handbook of Categorical Algebra]]__
 
-He coauthored books
+On [[nonabelian homological algebra]], such as its [[diagram chasing lemmas]], in [[Mal'cev categories]], [[protomodular categories]], [[semi-abelian categories]] and [[homological categories]]:
+
+* [[Francis Borceux]], [[Dominique Bourn]], *[[Mal'cev, protomodular, homological and semi-abelian categories]]*, Mathematics and Its Applications __566__,  Kluwer 2004 ([doi:10.1007/978-1-4020-1962-3](https://link.springer.com/book/10.1007/978-1-4020-1962-3))
+
+
+
+Further:
 
 * F. Borceux, [[George Janelidze]], _[[Galois theories]]_, Cambridge Studies in Advanced Mathematics __72__
 
-* F. Borceux, [[Dominique Bourn]], _[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]_, Mathematics and Its Applications __566__, Kluwer 2004
 
 * Francis Borceux, Gilberte Van den Bossche, _Algebra in a localic topos with applications to ring theory_, Lecture Notes in Mathematics __1038__, Springer 1983, ix+240 pp. [MR85h:18005](http://www.ams.org/mathscinet-getitem?mr=724431)
 
