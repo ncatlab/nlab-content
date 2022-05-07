@@ -58,7 +58,7 @@ This seems to be correct whenever $\alpha$ really is either an ordinal or the op
 
 ## References
 
-* [Cafe discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html) mainy on the ternary version
+* [Cafe discussion](http://golem.ph.utexas.edu/category/2010/07/ternary_factorization_systems.html) mainly on the ternary version
 
 * [Forum discussion](https://nforum.ncatlab.org/discussion/1629) including the k-ary case, even when k is infinite
 
