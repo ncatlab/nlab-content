@@ -236,7 +236,8 @@ The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](
 
 * Eiichi Abe, _Hopf algebras_, Cambridge UP 1980.
 
-* [[Pierre Cartier]], _A primer on Hopf algebras_, Frontiers in number theory, physics, and geometry II, 537--615 <a href="http://dx.doi.org/10.1007/978-3-540-30308-4_12">doi</a>; preprint IH&#201;S 2006-40, 81p [pdf](http://preprints.ihes.fr/2006/M/M-06-40.pdf) [pdf2loc](http://www.math.osu.edu/~kerler.2/VIGRE/InvResPres-Sp07/Cartier-IHES.pdf) 
+
+* [[Pierre Cartier]], _A primer on Hopf algebras_, Frontiers in number theory, physics, and geometry II, 537--615, preprint IH&#201;S 2006-40, 81p ([doi:10.1007/978-3-540-30308-4_12](https://doi.org/10.1007/978-3-540-30308-4_12),  [pdf](http://preprints.ihes.fr/2006/M/M-06-40.pdf),  [pdf](http://www.math.osu.edu/~kerler.2/VIGRE/InvResPres-Sp07/Cartier-IHES.pdf), [[CartierHopfAlgebras.pdf:file]])
 
 * V. G. [[Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 2 798--820, AMS 1987, [djvu:1.3 M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5 M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.pdf)
 
