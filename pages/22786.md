@@ -15,11 +15,11 @@
 
 ## Idea
 
-Exponential rings are rings that behave like the [[real numbers]] with its [[exponential map]]. 
+Exponential rings are [[rings]] that behave like the [[real numbers]] with its [[exponential map]]. 
 
 ## Definitions
 
-A [[ring]] $R$ is a __exponential ring__ if it has a monoid [[homomorphism]] $e^{(-)}:R \to R$ from the additive monoid of $R$ to the multiplicative monoid of $R$: 
+A [[ring]] $R$ is a __exponential ring__ if it is equipped with a [[monoid]] [[homomorphism]] $e^{(-)}:R \to R$ from the additive monoid of $R$ to the multiplicative monoid of $R$: 
 
 $$e^{0} = 1$$
 
