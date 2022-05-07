@@ -30,6 +30,12 @@
 * [[Hopf link]]
 
 
+**Types*
+
+* [[prime knot]]
+
+* [[mutant knot]]
+
 
 **[[knot invariants]]**
 
