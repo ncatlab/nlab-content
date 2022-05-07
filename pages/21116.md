@@ -17,11 +17,13 @@ On [[tensor networks]] and ([[holographic entanglement entropy|holographic]]) [[
 
 * A. Kshetrimayum, C. Balz, B. Lake, [[Jens Eisert]], _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
 
-On holographic [[tensor networks]] as [[quantum error correcting codes]]:
+Introducing [[Majorana dimer codes]] ([[quantum error correcting codes]] induced by [[tensor networks]] exhibiting [[holographic entanglement entropy]]):
 
-* Alexander Jahn, Marek Gluza, Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
+* [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], *Majorana dimers and holographic quantum error-correcting code*, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
-* Alexander Jahn, [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
+Review:
+
+* [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
 
 On classification of ([[topological phases of matter|topological]]) [[phases of matter]] via [[tensor network states]]:
 
@@ -31,9 +33,9 @@ On classification of ([[topological phases of matter|topological]]) [[phases of 
 
 Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[tensor networks]] as conformal [[quasicrystals]] (see also at [[AdS/CFT in solid state physics]]):
 
-* Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+* [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_ ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
 
-* Alexander Jahn, Zoltán Zimborás, [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
+* [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
 
 
 
