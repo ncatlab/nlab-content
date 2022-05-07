@@ -653,16 +653,14 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 
 The local differential form data of $\infty$-connections was introduced in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]],
-  _$L_\infty$-algebra connections_ in Fauser (eds.) Recent Developments in QFT, Birkh&#228;user (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
-  {#SSSI}
+* {#SSSI} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-infinity algebra connections|L-∞ algebra connections and applications to String- and Chern-Simons n-transport]]_, in: *Quantum Field Theory*, Birkh&#228;user (2009) 303-424 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480), [doi:10.1007/978-3-7643-8736-5_17](https://doi.org/10.1007/978-3-7643-8736-5_17))
+  
+* {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, October 2012, Volume 315, Issue 1, pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String- and Fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">web</a>).
-{#SSSIII}
 
 The global description was then introduced in 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]] -- An $\infty$-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [Euclid](http://projecteuclid.org/euclid.atmp/1358950853)) 
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]] -- An $\infty$-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:atmp/1358950853](http://projecteuclid.org/euclid.atmp/1358950853)) 
 
 
 A more comprehensive account is in sections 3.9.6, 3.9.7 of
