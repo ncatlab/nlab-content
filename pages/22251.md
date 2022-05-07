@@ -13,6 +13,10 @@ Anatoly Malcev (Анато́лий Ива́нович Ма́льцев; [ˈmɐl�
 
 * [[maximal compact subgroup]]
 
+## References
+
+[List of publications at Math-Net.Ru](http://www.mathnet.ru/php/person.phtml?&personid=26552&option_lang=eng).
+
 [[!redirects А. И. Мальцев]]
 [[!redirects А. Мальцев]]
 [[!redirects Анатолий Иванович Мальцев]]
