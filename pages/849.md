@@ -799,6 +799,8 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[Sullivan model of mapping space]]
 
+* [[residual]]
+
 ## References
 
 
