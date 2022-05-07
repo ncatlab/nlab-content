@@ -404,11 +404,16 @@ The classification in Theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} goes ba
 
 * {#Klein1884} [[Felix Klein]], chapter I of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
 
+Expository review of the argument in [Klein 1884](#Klein1884):
+
+* {#Senechal90} Marjorie Senechal, *Finding the Finite Groups of Symmetries of the Sphere*, The American Mathematical Monthly **97** 4 (1990) 329-335 ([jstor:2324519](https://www.jstor.org/stable/2324519))
+
+
 Textbook accounts:
 
-* {#MillerBlichfeldtDickson16} G. A. Miller, H. F. Blichfeldt, L. E. Dickson, _Theory and applications of finite groups_, Dover, New York, 1916
+* {#MillerBlichfeldtDickson16} G. A. Miller, H. F. Blichfeldt, [[Leonard E. Dickson]], _Theory and applications of finite groups_, Dover, New York, 1916 ([ark:/13960/t0ht2kb4x](https://archive.org/details/theoryapplicatio00milluoft/))
 
-* {#Lamotke86} [[Klaus Lamotke]], _Regular Solids and Isolated Singularities_, Vieweg 1986
+* {#Lamotke86} [[Klaus Lamotke]], _Regular Solids and Isolated Singularities_, Vieweg 1986 ([doi:10.1007/978-3-322-91767-6](https://link.springer.com/book/10.1007/978-3-322-91767-6))
 
 * {#Rees05} [[Elmer Rees]], _Notes on Geometry_, Springer 2005
 
@@ -452,8 +457,7 @@ The [[universal higher central extension]] of finite subgroups of $SU(2)$ ("[[Pl
 
   also(?): Journal of the London Mathematical Society, Volume s1-40, Issue 1 (1965) ([doi:10.1112/jlms/s1-40.1.569b](https://doi.org/10.1112/jlms/s1-40.1.569b))
 
-* {#ConwaySmith03} [[John Conway]], D. A. Smith, _On quaternions and octonions: their geometry, arithmetic and 
-symmetry_ A K Peters Ltd., Natick, MA, 2003
+* {#ConwaySmith03} [[John Conway]], D. A. Smith, *On quaternions and octonions: their geometry, arithmetic and  symmetry*, A K Peters Ltd., Natick, MA, 2003
 
 * {#MFF12} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], appendix B of _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
