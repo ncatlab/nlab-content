@@ -29,17 +29,15 @@ Inst. Hautes &#201;tudes Sci. Publ. Math. 11 (1961), 5&#8211;167. Ch. 0.&#167;8&
 * III_2. &#201;tude cohomologique des faisceaux coh&#233;rents (Seconde partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 17 (1963), 5&#8211;91. Ch. III .&#167;6&#8211;7. 
 
-* IV_1. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Premi&#232;re partie) 
-Inst. Hautes &#201;tudes Sci. Publ. Math. 20 (1964), 5&#8211;259. Ch.0.&#167;14&#8211;23 ; Ch. IV.&#167;1. 
+* IV_1. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Premi&#232;re partie)  Inst. Hautes &#201;tudes Sci. Publ. Math. 20 (1964), 5&#8211;259. Ch.0.&#167;14&#8211;23 ; Ch. IV.&#167;1. 
 
 * IV_2. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Seconde partie) 
 Inst. Hautes &#201;tudes Sci. Publ. Math. 24 (1965), 5&#8211;231. Ch. IV2.&#167;2&#8211;7 . 
 
-* IV_3. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Troisi&#232;me partie) 
-Inst. Hautes &#201;tudes Sci. Publ. Math. 28 (1966), 5&#8211;255. Ch. IV.&#167;8&#8211;15. 
+* IV_3. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Troisi&#232;me partie) Inst. Hautes &#201;tudes Sci. Publ. Math. 28 (1966), 5&#8211;255. Ch. IV.&#167;8&#8211;15 ([numdam:PMIHES_1966__28__5_0/](http://www.numdam.org/item/PMIHES_1966__28__5_0/))
 
 * IV_4. &#201;tude locale des sch&#233;mas et des morphismes de sch&#233;mas (Quatri&#232;me partie) 
-Inst. Hautes &#201;tudes Sci. Publ. Math. 32 (1967), 5&#8211;361. Ch.IV.&#167;16&#8211;21. 
+Inst. Hautes &#201;tudes Sci. Publ. Math. 32 (1967), 5&#8211;361. Ch.IV.&#167;16&#8211;21 ([numdam:PMIHES_1967__32__5_0](http://www.numdam.org/item/PMIHES_1967__32__5_0))
 
 There was a second edition of EGA I:
 
@@ -132,6 +130,7 @@ Project of classification and transcription
 For an essay on content of EGA (about 50 years after the publication) see
 
 * U. Görtz, _Classics revisited: Éléments de Géométrie Algébrique_, Jahresbericht der Deutschen Mathematiker-Vereinigung __120__, 235–290 (2018) [doi](https://doi.org/10.1365/s13291-018-0181-1)
+
 
 
 [[!redirects SGA]]
