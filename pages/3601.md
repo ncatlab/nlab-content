@@ -229,6 +229,10 @@ Quantum information in relation to the [[representation theory of the symmetric 
 
 * [[Alonso Botero]], *Quantum Information and the Representation Theory of the Symmetric Group*, Rev. colomb. mat. vol.50 no. 2 Bogotá July/Dec. 2016 ([doi:10.15446/recolma.v50n2.62210](https://doi.org/10.15446/recolma.v50n2.62210), [pdf](http://www.scielo.org.co/pdf/rcm/v50n2/v50n2a05.pdf))
 
+In relation to the [[AdS-CFT correspondence]] via [[holographic entanglement entropy]]:
+
+* Bowen Chen, Bartlomiej Czech, Zi-zhi Wang, *Quantum Information in Holographic Duality* ([arXiv:2108.09188](https://arxiv.org/abs/2108.09188))
+
 
 
 
