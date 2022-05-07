@@ -2,7 +2,7 @@
 ### M2-M5 brane bound states in the BMN matrix model
  {#M2M5BraneBoundStatesInTheBMNMatrixModel}
 
-There is the suggestion  ([MSJVR 02](BMN+matrix+model#MSJVR02), checked in [AIST 17a](BMN+matrix+models#AIST17a), [AIST 17b](BMN+matrix+models#AIST17b)) that, in the [[BMN matrix model]], [[supersymmetry|supersymmetric]] [[M2-M5-brane bound states]] are identified with [[isomorphism classes]] of certain "limit sequences" of longitudinal-[[light cone]]-[[constant function|constant]] $N \times N$-[[matrix]]-[[field (physics)|fields]] constituting [[finite-dimensional vector space|finite-dimensional]] [[complex numbers|complex]] [[Lie algebra representations]] of [[su(2)]].
+There is the suggestion  ([MSJVR 02](BMN+matrix+model#MSJVR02), checked in [AIST 17a](BMN+matrix+model#AIST17a), [AIST 17b](BMN+matrix+model#AIST17b)) that, in the [[BMN matrix model]], [[supersymmetry|supersymmetric]] [[M2-M5-brane bound states]] are identified with [[isomorphism classes]] of certain "limit sequences" of longitudinal-[[light cone]]-[[constant function|constant]] $N \times N$-[[matrix]]-[[field (physics)|fields]] constituting [[finite-dimensional vector space|finite-dimensional]] [[complex numbers|complex]] [[Lie algebra representations]] of [[su(2)]].
 
 
 #### Traditional discussion
