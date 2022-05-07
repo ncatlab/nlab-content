@@ -170,7 +170,7 @@ If $S^1 = \ast \underset{\ast \coprod \ast}{\coprod} \ast$ denotes the [[homotop
 
 * [[effective epimorphism]]
 
-* **effective epimorphism in an $(\infty,1)$-category**
+* [[groupoid objects in an (∞,1)-topos are effective]]
 
 * [[regular epimorphism in an (∞,1)-category]]
 
@@ -180,13 +180,13 @@ If $S^1 = \ast \underset{\ast \coprod \ast}{\coprod} \ast$ denotes the [[homotop
 
 ## References
 
-Section 7.7 of 
 
-* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
-Section 6.2.3 of
+* {#Rezk} [[Charles Rezk]], Section 7.7 of: _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
-* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+* {#Lurie} [[Jacob Lurie]], Section 6.2.3 of: _[[Higher Topos Theory]]_
+
 
 [[!redirects effective epimorphism in an (∞,1)-category]]
 [[!redirects effective epimorphisms in an (∞,1)-category]]
