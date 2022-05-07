@@ -19,7 +19,7 @@
 
 If a [[group]] $G$ [[action|acts]] on a group $\Gamma$ (on the left, say) by group [[automorphism]]
 
-$$  
+$$
   \rho : G \to Aut(\Gamma)
   \,,
 $$
@@ -30,7 +30,7 @@ $$
   (\delta,h)(\gamma,g)= (\delta \rho(h)(\gamma) , h g)
 $$
 
-for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$. 
+for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$.
 
 If the twist is trivial, then this reduces to just the [[direct product group]] construction, whence the name.
 
@@ -52,6 +52,18 @@ The definitions above are not symmetric in left and right; since the first defin
 
 However, right and left semidirect products are equivalent.  Essentially, this is because any left action $(h,g) \mapsto {}^h{g}$ defines a right action $(g,h) \mapsto g^h \coloneqq {}^{h^{-1}}g$ and vice versa.
 
+### As a left adjoint
+
+Consider the [[category]] $GrpActions$ with
+
+* [[objects]] $(G,\Gamma,\rho)$ where $G$ and $\Gamma$ are [[groups]] and $\rho: G \to \Aut(\Gamma)$ is a [[group homomorphisms]], and whose
+
+* [[morphisms]] $(G,\Gamma,\rho) \to (G',\Gamma',\rho')$ are $G$-[[equivariant]] pairs of morphisms $f: G \to G'$ and $h: \Gamma \to \Gamma'$, i.e. such that $h(\rho(g)(\gamma)) = \rho(f(g))(h(\gamma))$ for all $g \in G$ and $\gamma \in \Gamma$.
+
+There is a [[forgetful functor]] $U: Arr(Grp) \to GrpActions$ from the [[arrow category]] of [[Grp]], sending a [[group homomorphism]] $f\colon G \to \Gamma$ to $(G,\Gamma,\rho)$ where $\rho: G \to Aut(\Gamma)$ is given by conjugation, i.e. $\rho(g)(\gamma) = g \gamma g^{-1}$.
+
+Now, its [[left adjoint functor]] $GrpActions \to Arr(Grp)$ maps $(G,\Gamma,\rho)$ to the [[inclusion]] $G \hookrightarrow \Gamma \rtimes_\rho G$.
+
 ### As a Grothendieck construction
 
 Writing $\mathbb{B} G$ for the [[category]] with a single [[object]] $\ast$ and the [[group]] $G$ as its [[hom set]] (i.e. the [[delooping]] [[groupoid]] of $G$), define a [[functor]] $F \colon \mathbb{B}G \to$ [[Cat]] to send that single object to the delooping groupoid of $\Gamma$, i.e. $* \mapsto \mathbb{B}\Gamma$ and to send the morphisms $G \to Aut(\Gamma)$ according to the given [[action]] of $G$ on $\Gamma$.
@@ -62,8 +74,7 @@ $$
   \mathbb{B}( \Gamma \rtimes G)
   \;\simeq\;
   \int_{\mathbb{B}G}F
-$$ 
-
+$$
 
 ### Semidirect products of groupoids
 
@@ -73,11 +84,11 @@ $G$-space.
 
 So if $X=Ob(\Gamma)$, then $\Gamma \rtimes \, G$ has object set $X$ and
 a morphism $y \to x$ is a pair $(\gamma,g)$ such that $\gamma: y \to
-g x$ in $\Gamma$. The composition law is then given again by   
+g x$ in $\Gamma$. The composition law is then given again by
 
 $$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g) $$
 
-if  $(\delta, h): z \to y$, so that $\delta: z \to h y$ in $\Gamma$. 
+if  $(\delta, h): z \to y$, so that $\delta: z \to h y$ in $\Gamma$.
 
 If $\Gamma$ is a discrete groupoid, and so identified with $X$, then
 we get $X \rtimes \, G$ which is the [[action groupoid]] of the action. In
@@ -113,7 +124,7 @@ Semidirect product groups $A \rtimes_\rho G$ are precisely the split [[group ext
 
 ### The automorphisms on the circle group
 
-For $U(1) = \mathbb{R}/\mathbb{Z}$ the [[circle group]], the [[automorphism group]] is 
+For $U(1) = \mathbb{R}/\mathbb{Z}$ the [[circle group]], the [[automorphism group]] is
 
 $$
   Aut(U(1)) \simeq \mathbb{Z}_2
@@ -133,7 +144,7 @@ $$
   (c_1 \; mod \; \mathbb{Z}, \sigma_1)
   \cdot
   (c_2\; mod \; \mathbb{Z}, \sigma_2)
-  = 
+  =
   (c_1 + \sigma_1(c_2) \; mod \; \mathbb{Z}, \sigma_1 + \sigma_2)
   \,.
 $$
@@ -146,7 +157,7 @@ $$
 
 ## References
 
-A general survey is in 
+A general survey is in
 
 * Wikipedia, _[Semidirect product](http://en.wikipedia.org/wiki/Semi-direct_product)_
 
