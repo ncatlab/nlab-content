@@ -1,8 +1,7 @@
 [[!redirects Directed Homotopy Theory]]
 This entry is about the book
 
-* [[Marco Grandis]], __Directed algebraic topology,
-Models of non-reversible worlds__, New Mathematical Monographs __13__, Cambridge Univ. Press 2009 (x+434 pages)
+* [[Marco Grandis]], _Directed algebraic topology, Models of non-reversible worlds_, New Mathematical Monographs __13__, Cambridge Univ. Press 2009 (x+434 pages)
 
 is the first monograph on the subject of [[directed space]]s and [[directed homotopy theory]]. 
 
