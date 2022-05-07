@@ -118,6 +118,10 @@ On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex s
 
 * [[Michael Atiyah]], _Geometric Models of Helium_,  Modern Physics Letters AVol. 32, No. 14, 1750079 (2017) ([arXiv:1703.02532](https://arxiv.org/abs/1703.02532), [doi:10.1142/S0217732317500791](https://doi.org/10.1142/S0217732317500791))
 
+On [[twistors]]:
+
+* [[Michael Atiyah]], Maciej Dunajski, Lionel Mason, _Twistor theory at fifty: from contour integrals to twistor strings_,  Proc. R. Soc. A473: 20170530 ([arXiv:1704.07464](https://arxiv.org/abs/1704.07464), [doi:10.1098/rspa.2017.0530](http://dx.doi.org/10.1098/rspa.2017.0530))
+
 
 
 
