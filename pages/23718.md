@@ -18,7 +18,7 @@
 
 ## Idea ##
 
-A field with a notion of a limit of a function that satisfy the algebraic limit theorems. 
+A [[field]] with a notion of a [[limit of a sequence|limit]] of a [[function]] that satisfy the [[algebraic limit theorems]]. 
 
 ## Definition ##
 
