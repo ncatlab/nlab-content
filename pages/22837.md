@@ -78,6 +78,7 @@ Recall that the [[free loop space object]] of $\mathbf{B}\mathcal{G}$ (in partic
 \]
 
 
+
 ### For simplicial sets
  {#ForSimplicialSets}
 
