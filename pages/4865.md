@@ -119,7 +119,7 @@ $p_2 - (\frac{1}{2}p_1)^2$ is divisible by 48. Hence $I_8$ is integral.
 
 Possible [[higher curvature corrections]] to 11-dimensional supergravity are discussed in the references listed [below](#ReferencesHigherCurvatureCorrections).
 
-The first correction is an $R^4$-term at order $\ell^3_{P}$ (11d [[Planck length]]). In [Tsimpis 04](#Tsimpis04) it is shown that part of this is a topological term (total derivative) which related to the [[flux quantization]]-condition of the [[supergravity C-field]].
+The first correction is an $R^4$-term at order $\ell^3_{P}$ (11d [[Planck length]]). In [Tsimpis 04](#Tsimpis04) it is shown that part of this is a topological term (total derivative) which relates to the [[shifted C-field flux quantization]].
 
 For effects of higher curvature corrections in a [[Starobinsky model of cosmic inflation]] see [there](Starobinsky+model+of+cosmic+inflation#EmbeddingIntoSupergravity).
 
