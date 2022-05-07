@@ -112,7 +112,8 @@ Y_K n & = & (\lambda r. r(LLLLLLLLLLLLLLLLLLLLLLLLLLr)) n \\
 
 In [[combinatory logic]] (based on the combinators $S$, $K$, and $I$), one construction is  
 
-$$ Y =  S(K (S I I))(S(S (K S)(S(K K)I)))(K (S I I))$$ 
+
+$$S(K(SII)) \big(S(S(KS)K)(K(SII))\big) $$ 
 
 following the standard formulas $S x y z = (x z)(y z)$, $K x y = x$ and $I x = x$, and where bracketings left unspecified are by convention to the left. For a derivation of this, see the article on [combinatory algebra](http://ncatlab.org/nlab/show/partial+combinatory+algebra#examples_of_combinators_8). 
 
