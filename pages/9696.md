@@ -34,6 +34,9 @@ More on [[quantum error correcting codes]] via [[holographic tensor networks]]:
 
 * [[Fernando Pastawski]], [[John Preskill]], *Code properties from holographic geometries*, Phys. Rev. X 7, 021022 (2017) ([arXiv:1612.00017](https://arxiv.org/abs/1612.00017))
 
+On [[noisy intermediate-scale quantum computing]]:
+
+* [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
 
 
 category: people
