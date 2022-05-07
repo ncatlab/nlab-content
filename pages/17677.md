@@ -44,7 +44,7 @@ One way to understand this is in terms of type formation that is invariant under
 * [[dependent sum type]] and [[dependent product type]] formation in 
 $$(X: BAut(A)) \to (X \to \mathcal{U}) \to \mathcal{U},$$
 
-* list type formation in 
+* list type formation and [[n-truncation modality|truncation]] $\| X\|_n$ in 
 $$(X: BAut(A)) \to \mathcal{U},$$
 
 * [[identity type]] formation in 
