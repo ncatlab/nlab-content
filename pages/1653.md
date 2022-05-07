@@ -81,7 +81,7 @@ Localizable measurable spaces can also be studied via the lattice $\Sigma/\mathc
 
 ### Relation to Boolean toposes
 
-In terms of [[topos theory]], measured spaces are closely related to [[Boolean toposes]] (e.g. [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
+In terms of [[topos theory]], measurable spaces are closely related to [[Boolean toposes]] (e.g. [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
 
 ## In alternative foundations
 
@@ -153,7 +153,7 @@ See also
 
 * {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006 ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
 
-* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
+* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.normalesup.org/~henry/Thesis.pdf))
 
 
 +-- {: .query}
