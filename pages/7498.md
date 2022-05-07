@@ -159,16 +159,13 @@ For the second condition, observe  that [[projections]] $X \times G^n \to G^n$ a
 For the third point, notice that in the present case the horn-filling map [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration) are all [[isomorphisms]], hence certainly surjective on connected components.
 \end{proof}
 
+
 \begin{prop}\label{TopologicalBorelConstructionOnPrincipalBundles}
 **(Borel construction on principal bundle is equivalent to plain quotient)**
 \linebreak
 Assume that:
 
-* $G$ and $X$ are both 
-
-  1. [[connected topological space|connected]], $\pi_0 = \ast$; 
-
-  1. with [[abelian group|abelian]] [[fundamental group]], $\pi_1 \,\in\, Ab \hookrightarrow Grp$;
+* $G$ and $X$ are both [[connected topological space|connected]], $\pi_0 = \ast$; 
 
 * the [[coprojection]] $X \xrightarrow{\;q\;} X/G$ is a [[locally trivial bundle|locally trivial]] $G$-[[fiber bundle]] (hence a $G$-[[principal bundle]]), 
 
@@ -183,7 +180,7 @@ $$
 \begin{proof}
 We need to show that the comparison morphism induces an [[isomorphisms]] on all [[homotopy groups]] $\pi_n$.
 
-For $n = 0$ this is immediate, as passage to [[connected components]] is a [[coequalizer]] ([here](connected+space#eq:ConnectedComponentsAsCoequalizer)) and using that [[colimits commute with colimits]]. This implies that both $\pi_0(X/G)$ as well as $\pi_0\big( (X \times E G) / G\big)$ are the [[singleton set]] (by the assumption that $X$ is connected and since $E G$ is connected) and hence isomorphic.
+For $n = 0$ this is immediate, as passage to [[connected components]] is a [[coequalizer]] ([here](connected+space#eq:ConnectedComponentsAsCoequalizer)) and using that [[colimits commute with colimits]]. This implies that both $\pi_0(X/G)$ as well as $\pi_0\big( (X \times E G) / G\big)$ are the [[singleton set]] (by the assumption that $X$ is connected and since $E G$ is connected) and hence are isomorphic.
 
 In order to compare the remaining higher [[homotopy groups]], 
 observe that, under the given assumption, with $X \to X/G$ also the coprojection $X \times E G \xrightarrow{ \;\; } (X \times E G)/G$ to the Borel construction itself is a locally trivial fiber bundle: 
@@ -338,9 +335,7 @@ and hence induces a morphism of [[long exact sequences of homotopy groups]], whi
     \big)
 \end{tikzcd}
 
-Here the outer vertical morphisms are all [[isomorphisms]] by the fact that $E G \xrightarrow{\;} \ast$ is a [[weak homotopy equivalence]]. Therefore the [[five lemma]] implies that also the middle vertical morphism is an isomorphism, for all $n$.
-
-(Notice that for the the five lemma to apply also at $n = 0$ we need to ensure that $\pi_1(X/G)$ in the bottom row is [[abelian group|abelian]]. But this is the case by the assumption that $\pi_0(G) = \ast$, from which the exactness of the bottom sequence implies that $\pi_1(X/G)$ is a quotient of $\pi_1(X)$, which is abelian by assumption. The analogous argument applies to the top row at $n = 0$). 
+Here the outer vertical morphisms are all [[isomorphisms]] by the fact that $E G \xrightarrow{\;} \ast$ is a [[weak homotopy equivalence]]. Therefore the [[five lemma]] (in its generality of possibly non-abelian groups, [here](five+lemma#FiveLemmaForNonabelianGroups)) implies that also the middle vertical morphism is an isomorphism, for all $n$.
 \end{proof}
 
 ### As the realization of the action groupoid
