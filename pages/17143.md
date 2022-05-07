@@ -598,7 +598,7 @@ The analogous universal finite-rank complex orientation on [[MΩΩSU(n)]]: [Hopk
 
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_,1986
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochman]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
