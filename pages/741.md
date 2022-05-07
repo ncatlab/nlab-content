@@ -16,7 +16,7 @@
 
 ## Definition
 
-A **finite group** is a [[group]] whose underlying [[set]] is [[finite set|finite]].
+A **finite group** is a [[group]] whose [[underlying]] [[set]] is [[finite set|finite]].
 
 This is equivalently a [[group object]] in [[FinSet]].
 
@@ -69,7 +69,9 @@ For more on this see
 
 #### "Most finite groups are nilpotent" 
 
-The meaning of the title is this curious fact (based on empirical evidence, anyway): if we are counting isomorphism classes of groups up to a given order, then most of them are $2$-[[p-primary group|primary]] groups (and therefore [[nilpotent group|nilpotent]]; see [[class equation]]). For example, it is reported that "out of the 49,910,529,484 groups of order at most 2000, a staggering 49,487,365,422 of them have order 1024". 
+The meaning of the title is this curious fact (based on empirical evidence, anyway): if we are counting [[isomorphism classes]] of finite groups up to a given [[order of a grouporder]], then most of them are $2$-[[p-primary group|primary]] groups (and therefore [[nilpotent group|nilpotent]]; see at *[[class equation]]*). 
+
+For example, it is reported that "out of the 49,910,529,484 groups of order at most 2000, a staggering 49,487,365,422 of them have order 1024". 
 
 (It has also been suggested that a more meaningful weighting would divide each isomorphism class representative by the order of its [[automorphism group]]; as of this writing the nLab authors don't know how much this would affect the strength of the assertion "most finite groups are nilpotent".) 
 
@@ -113,9 +115,12 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 ## References
  {#References}
 
-An early textbook on finite groups:
+Early textbook accounts:
 
 * {#Burnside1897} [[William Burnside]], _Theory of Groups of Finite Order_, 1897 ([pdf](http://www.gutenberg.org/files/40395/40395-pdf.pdf)), reprinted by Cambridge University Press 2012 ([doi:10.1017/CBO9781139237253]( https://doi.org/10.1017/CBO9781139237253))
+
+* {#MillerBlichfeldtDickson16} G. A. Miller, H. F. Blichfeldt, [[Leonard E. Dickson]], _Theory and applications of finite groups_, Dover, New York, 1916 ([ark:/13960/t0ht2kb4x](https://archive.org/details/theoryapplicatio00milluoft/))
+
 
 On the [[representation theory]] ([[linear representations]]) of finite groups over [[algebraic number fields]]:
 
