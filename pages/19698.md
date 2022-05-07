@@ -18,7 +18,7 @@
 
 ## Idea
 
-The concept of an **institution** provides an abstract category-theoretic rendering of the informal concept of a _logical system_. It was introduecd by Burstall and [[Joseph Goguen|Goguen]] in the 1970s in order to get a grip on the proliferation of specification logics in programming and constitutes a genuine contribution of theoretical [[computer science]] to general logic and [[abstract model theory]].
+The concept of an **institution** provides an abstract category-theoretic rendering of the informal concept of a _logical system_. It was introduced by Burstall and [[Joseph Goguen|Goguen]] in the 1970s in order to get a grip on the proliferation of specification logics in programming and constitutes a genuine contribution of theoretical [[computer science]] to general logic and [[abstract model theory]].
 
 ## Definition
 
