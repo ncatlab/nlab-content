@@ -12,7 +12,7 @@ This entry colllects material related to the book
   [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)
 
 
-on [[topological G-spaces]] and their [[equivariant differential topology]], [[equivariant homotopy theory]] and [[equivariant cohomology]] ([[Bredon cohomology]]).
+on [[transformation groups]]/[[topological G-spaces]] and their [[equivariant differential topology]], [[equivariant homotopy theory]] and [[equivariant cohomology]] ([[Bredon cohomology]]).
 
 See also 
 
