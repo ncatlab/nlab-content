@@ -988,6 +988,12 @@ Discussion in view of [[supersymmetry]]:
 
 * {#Miettinen96} Mauri Miettinen, _Weil Algebras and Supersymmetry_ ([arXiv:hep-th/9612209](https://arxiv.org/abs/hep-th/9612209), [cds:317377](http://cds.cern.ch/record/317377), [spire:427720](http://inspirehep.net/record/427720))
 
+Discussion in relation to [[equivariant K-theory]] and [[equivariant elliptic cohomology]]:
+
+* [[Michel Duflo]], [[Michèle Vergne]], *Cohomologie équivariante et descente*, Astérisque, no. 215 (1993) ([numdam:AST_1993__215__5_0](http://www.numdam.org/book-part/AST_1993__215__5_0))
+
+* [[Michèle Vergne]], *Bouquets revisited and equivariant elliptic cohomology*, International Journal of Mathematics 2021 ([arXiv:2005.00312](https://arxiv.org/abs/2005.00312), [doi:10.1142/S0129167X21400127](https://doi.org/10.1142/S0129167X21400127))
+
   
 
 [[!redirects equivariant de Rham complex]] 
