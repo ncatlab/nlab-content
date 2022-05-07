@@ -62,7 +62,7 @@ $$\emptyset \cdot \{0|\} + 0 \cdot \{0\} - \emptyset \cdot \{0\} = \emptyset + 0
 
 The other contributions work out similarly: everything ends up being the empty set, so the answer is $\{\emptyset | \emptyset\} = 0$.
 
-Conway motivates this definition from the observation that, because $x - x' \gt 0$ and $y - y' \gt 0$, then if multiplication makes any sense at all, we should have $(x - x')(y - y') \gt 0$ and thus $x y \gt x' y + x y' - x' y'$. Therefore, elements of this form should appear in $L_{x y}$. Following this kind of logic for the other possible combinations leads to the definition of multiplication given above.
+Conway motivates this definition from the observation that, if $x' \in L_x$ and $y' \in L_y$, then $x - x' \gt 0$ and $y - y' \gt 0$. And so, if multiplication makes any sense at all, we should have $(x - x')(y - y') \gt 0$ and thus $x y \gt x' y + x y' - x' y'$. Therefore, elements of this form should appear in $L_{x y}$. Following this kind of logic for the other possible combinations leads to the definition of multiplication given above.
 
 ## In constructive mathematics
 
