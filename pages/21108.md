@@ -76,7 +76,7 @@ Analysis of possible quasicrystal configurations:
 via [[machine learning]]:
 
 * Roman Eremin, Pavel Zolotarev, Tilmann Leisegang, Pavlo Solokha, 
-*A machine learning approach for predictingformation enthalpy: A case study ofMackay-type approximants of icosahedralquasicrystals*, AIP Conference Proceedings 2163, 020003 (2019) ([doi:10.1063/1.51300822163](https://doi.org/10.1063/1.51300822163))
+*A machine learning approach for predicting formation enthalpy: A case study of Mackay-type approximants of icosahedral quasicrystals*, AIP Conference Proceedings 2163, 020003 (2019) ([doi:10.1063/1.5130082](https://doi.org/10.1063/1.5130082))
 
 via [[topological data analysis]]:
 
