@@ -188,7 +188,7 @@ These general considerations are quite commonplace in algebraic topology, where 
 
 * [[representable functor theorem]]
 
-* [[Yoneda lemma]]
+* [[Yoneda lemma]], [[Yoneda embedding]]
 
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
 
@@ -200,7 +200,11 @@ These general considerations are quite commonplace in algebraic topology, where 
 
 ## References
 
-A discussion of representable functors in the context of enriched category theory is in section 1.6 and section 1.10 of
+Early accounts:
+
+* [[Alexander Grothendieck]], Section A.1 of: *Technique de descente et théorèmes d'existence en géométrie algébriques. II. Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195, 22 p.  ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/?id=SB_1958-1960__5__369_0))
+
+A discussion of representable functors in the context of [[enriched category theory]] is in section 1.6 and section 1.10 of
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
