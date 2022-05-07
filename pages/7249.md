@@ -57,6 +57,8 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
 ## References
 
+(See also the references at *[[homotopy theory]]*, *[[algebraic topology]]* and *[[(infinity,1)-category theory|$(\infty,1)$-category theory]]*.)
+
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
 
 * [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
@@ -75,8 +77,6 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 * [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
 
 * [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, 2008 ([pdf](https://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Trieste-Lecture-Notes.pdf), [[SergeraertCombinatorialHomotopyTheory.pdf:file]])
-
-
 
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
