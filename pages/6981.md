@@ -1,5 +1,6 @@
 
 **[[computational trinitarianism]]** = 
+\linebreak
 **[[propositions as types]]**
 +**[[programs as proofs]]**
 +**[[relation between type theory and category theory|relation type theory/category theory]]**
