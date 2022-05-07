@@ -43,11 +43,6 @@ By definition of [[terminal object]] $1$, the unique global element $i:1\rightar
 
 If the category has a [[strict initial object]] $\emptyset$, then every morphism $f:\emptyset\rightarrow B$ is vacuously an injection, since there are no global elements $x:1\rightarrow\emptyset$. 
 
-+-- {: .query}
-Anonymous: Under what conditions are all injections in a category monomorphisms? Obviously injections are monomorphisms in a [[well-pointed]] [[topos]] or [[pretopos]] (those are models of particular types of set theories), but does that remain true in a (pre)topos without well-pointedness, a [[coherent category]] or an [[exact category]]?
-
-Anonymous: There is [this stackexchange post](https://math.stackexchange.com/questions/53405/conditions-for-monic-iff-injective), but the answers only refer to concrete categories with a [[forgetful functor]] to Set and a [[free functor]] from Set, rather than arbitrary abstract categories. 
-=-- 
 
 ## Related concepts
 
@@ -56,6 +51,8 @@ Anonymous: There is [this stackexchange post](https://math.stackexchange.com/que
 * [[monomorphism]]
 
 * [[embedding]]
+
+* [[injective-on-objects functor]]
 
 * [[monomorphism in an (infinity,1)-category]]
 
