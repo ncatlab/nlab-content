@@ -141,7 +141,7 @@ $$  x \stackrel{f_1}{\longleftarrow} y \stackrel{f_2}{\longrightarrow} z $$
 
 For more on this, see the entry [[calculus of fractions]].
 
-Dorette Pronk has extended this idea to construct a [[bicategory of fractions|bicategories of fractions]]  where a class of 1-arrows is sent to [[equivalence|equivalences]].
+[[Dorette Pronk]] has extended this idea to construct a [[bicategory of fractions|bicategories of fractions]]  where a class of 1-arrows is sent to [[equivalence|equivalences]].
 
 ### In abelian categories
 
@@ -215,7 +215,7 @@ See also [[localization of a simplicial model category]].
 
 The classical reference to localization for categories is the book by Gabriel and Zisman:
 
-* P. Gabriel, M. Zisman, _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
+* [[Pierre Gabriel], [[Michele Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
  
 A more recent account of localization with a [[calculus of fractions]] is section 7 of
 
