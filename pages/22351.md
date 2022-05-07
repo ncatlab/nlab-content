@@ -182,6 +182,10 @@ there exists a slice through $x$ (Def. \ref{SlicesDef}).
 
 This appears as [Palais 61, Prop. 2.3.1](#Palais61).
 
+
+> Warning: This assumes not quite the usual notion of "proper action", though the notions agree under mild (?) conditions. Will expand...
+
+
 For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to be a [[linear representation]] (e.g. [tomDieck 87, Thm. 5.6](#tomDieck87)).
 
 ##Examples
