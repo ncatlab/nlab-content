@@ -118,13 +118,13 @@ The role in shape theory is discussed in
 
 For a description of the [[Giry monad]] as a codensity monad, see
 
-* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1708.01050](https://arxiv.org/abs/1708.01050))
+* {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
 
 
 
 Other references include
 
-* {#Avery17} [[Tom Avery]], _Structure and Semantics_, ([arXiv:1410.4432](https://arxiv.org/abs/1410.4432))
+* {#Avery17} [[Tom Avery]], _Structure and Semantics_, ([arXiv:1708.01050](https://arxiv.org/abs/1708.01050))
 
 * C. Casacuberta, A. Frei, _Localizations as idempotent approximations to completions_ , JPAA **142** (1999) no. 1 pp.25–33. ([draft](http://atlas.mat.ub.es/personals/casac/articles/cfre1.pdf))
 
