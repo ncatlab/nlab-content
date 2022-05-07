@@ -90,9 +90,9 @@ The full statement for this general case was then proven in
 Volume 225, Issue 3, 20 October 2010, Pages 1224&#8211;1247 ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
  
 
-Lecture notes on this are in 
+Lecture notes on this:
 
-* [[Weiping Zhang]], _Analytic aspects of geometric quantization_, 2009 ([pdf](http://www.math.ac.cn/PPT/PPT-hlg-lecture/ppt-hlg-2008/zhangweiping-hlg.pdf), [Wayback Machine PDF](https://web.archive.org/web/20131001200950/http://www.math.ac.cn/PPT/PPT-hlg-lecture/ppt-hlg-2008/zhangweiping-hlg.pdf))
+* [[Weiping Zhang]], _Analytic aspects of geometric quantization_, 2009 ([pdf](http://www.math.ac.cn/PPT/PPT-hlg-lecture/ppt-hlg-2008/zhangweiping-hlg.pdf), [[ZhangAnalyticGeometricQuantization.pdf:file]])
 
 Further generalizations are discussed in 
 
