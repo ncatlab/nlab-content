@@ -1,4 +1,46 @@
 
+$$
+  \big(X \times_{\overline{W}G} W G\big)
+  \times \Delta[k]
+  \;\simeq\;
+  \big(
+    X \times \Delta[k]
+  \big) 
+  \times_{\overline{W}G} W G
+$$
+
+\begin{tikzcd}
+  {
+    { (X \times_{\overline{W}G} W G) \times \Delta[k] } 
+    \atop
+    { \mathllap{\simeq} (X \times \Delta[k]) \times_{\overline{W}G} W G  } 
+  }
+  \ar[r]
+  \ar[d]
+  \ar[dr,phantom,"\mbox{\tiny\rm(pb)}"]
+  & 
+  X \times \Delta[k]
+  \ar[
+    d,
+    "\mathrm{pr}_1"
+  ]
+  \\
+  X \times_{\overline{W}G} W G
+  \ar[r]
+  \ar[d]
+  \ar[dr,phantom,"\mbox{\tiny\rm(pb)}"]
+  & 
+  X 
+  \ar[
+    d
+  ]
+  \\
+  W G
+  \ar[r]
+  &
+  \overline{W}G
+\end{tikzcd}
+
 \begin{tikzcd}[column sep=5pt]
   \ast 
   \ar[r]
