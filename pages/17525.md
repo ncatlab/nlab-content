@@ -9,38 +9,56 @@
 =--
 =--
 
-#Contents#
+
+#Content`s#
 * table of contents
 {:toc}
 
 ## Definition
 
-+-- {: .num_defn #CoreOfARing}
-###### Definition
-**(core of a ring)**
+### Core of a ring
 
-For $R$ a [[commutative ring]], its **[[core of a ring|core]]** $c R$ is the [[regular image]] of the unique [[ring]] [[homomorphism]] $\mathbb{Z} \overset{e}{\longrightarrow} R$ from the [[integers]] (which are the [[initial object]] among [[CommutativeRings]]).  That is, it is the smallest [[regular monomorphism]] into $R$ in the [[category]] of [[CommutativeRings]].
+\begin{definition}\label{CoreOfARing}
+**(core of a ring)** \linebreak
+For $R$ a [[unital ring|unital]] [[commutative ring]], its **[[core of a ring|core]]** is the following [[subobject|sub-ring]] of the [[tensor product of abelian groups]] $R \otimes_{{}_{\mathbb{Z}}} R$:
 
-By the general construction of [[regular images]] ([here](image#AsEqualizer)), this can be computed as the [[equalizer]] of the two inclusions from $R$ into the [[pushout]] $R\sqcup_{\mathbb{Z}} R$.  Since $\mathbb{Z}$ is [[initial object|initial]], this is just the [[coproduct]] $R\sqcup R$ in [[CommutativeRings]], which is the [[tensor product of abelian groups]] $R\otimes R$ equipped with its canonically induced commutative ring structure ([this Prop.](CRing#CoproductIsTensorProduct)).
+$$
+  c R
+  \;\coloneqq\;
+  \Big\{
+    \,
+    r \in R 
+    \,\left\vert\,
+    1 \otimes r \,=\, r \otimes 1 
+    \;\in\; R \otimes_{{}_{\mathbb{Z}}} R 
+    \right.
+    \,
+  \Big\}
+$$ 
+\end{definition}
 
-Thus, a more explicit characterization of $c R$ is as the [[equalizer]] in
+([Bousfield & Kan 1972, Sec. 1](#BousfieldKan72))
+
+\begin{remark}\label{CoreAsEqualizerAndAsRegularImage}
+**(core as [[equalizer]] and as [[regular image]])** \linebreak
+In [[category theory|category-theoretic]] terminology, Def. \ref{CoreOfARing} describes the [[equalizer]] ([Bousfield 1979, 6.4](#Bousfield79))
 
 $$
   c R 
-    \overset{equ}{\longrightarrow}
+    \xrightarrow{\;equ\;}
   R 
-    \stackrel{\longrightarrow}{\longrightarrow}
-  R \otimes R
+    \overset{\phantom{AAAAAA}}\rightrightarrows
+  R \otimes_{{}_{\mathbb{Z}}} R
   \,,
 $$
 
-where the top morphism is
+where the top [[morphism]] is
 
 $$
   R 
     \;\simeq\; 
   \mathbb{Z} \otimes R 
-  \xrightarrow{e \otimes id} 
+    \xrightarrow{e \otimes id} 
   R \otimes R
 $$
 
@@ -50,19 +68,66 @@ $$
   R 
     \;\simeq\; 
   R \otimes \mathbb{Z}  
-    \xrightarrow{id \otimes e} 
+    \xrightarrow{\;id \otimes e\;} 
   R \otimes R
-  \,.
+  \,,
 $$
 
-=--
+with
 
-\begin{definition}\label{SolidRing}
-**(solid rings)** \linebreak
-A [[commutative ring]] $R$ which is [[isomorphism|isomorphic]] to its [[core of a ring|core]] (Def. \ref{CoreOfARing}), $R \,\simeq\, c R$ is called a **solid ring**.
-\end{definition}
+\[
+  \label{UniqueRingHomomorphismFromTheIntegers}
+  \array{
+    \mathbb{Z}
+    &\xrightarrow{ \;e\; } &
+    R
+    \\
+    1 &\mapsto& 1
+  }
+\]
 
-([Bousfield-Kan 72, &#167;1, def. 2.1](#BousfieldKan72), [Bousfield 79, 6.4](#Bousfield79))
+denoting the unique [[ring homomorphism]] form the [[commutative ring]] of [[integers]], which is the [[initial object]] in [[CommutativeRings]].
+
+Observing (by [this Prop.](CRing#CoproductIsTensorProduct))
+that the [[tensor product of abelian groups]] $R \otimes_{{}_{\mathbb{Z}}} R$ equipped with its canonically induced [[commutative ring]] [[mathematical structure|structure]] is the [[coproduct]] in [[CommutativeRings]]
+
+$$
+  R \otimes_{{}_{\mathbb{Z}}} R
+    \;\simeq\;
+  R \sqcup R
+$$
+
+this means equivalently that the core is the [[equalizer]] of the two [[coprojections]] into the [[coproduct]]:
+
+$$
+  c R 
+    \xrightarrow{\;equ\;}
+  R 
+    \overset{\phantom{AAAAAA}}\rightrightarrows
+  R \sqcup R  
+    \;\simeq\;
+  R \underset{\mathbb{Z}}{\coprod} R
+  \,,
+$$
+
+hence -- since $\mathbb{Z}$ is the [[initial object]] in [[CommutativeRings]] -- into the [[cofiber coproduct]] of $\mathbb{Z} \xrightarrow{e} R$ (eq:UniqueRingHomomorphismFromTheIntegers) with itself.
+
+In this form, the core is manifestly ([here](image#AsEqualizer)) the *[[regular image]]* of the initial morphism $\mathbb{Z} \xrightarrow{e} R$:
+
+$$
+  c R 
+    \;\simeq\;
+  Im_{reg}
+  \left( 
+    \mathbb{Z} \xrightarrow{e} R 
+  \right)
+    \xhookrightarrow{\phantom{AA}}
+  R
+  \,,
+$$
+
+hence the smallest [[regular monomorphism]] into $R$ in the [[category]] of [[CommutativeRings]].
+\end{remark}
 
 \begin{remark}\label{DualInterpretation}
 **(geometric interpretation)** \linebreak
@@ -84,7 +149,7 @@ $$
 
 exhibits $R \otimes R$ as the ring of functions on $Spec(R) \times Spec(R)$. 
 
-Hence the terminal morphism $Spec(R) \to Spec(\mathbb{Z})$ induced the corresponding [[Cech groupoid]] [[internal groupoid|internal]] to $CRing^{op}$
+Hence the terminal morphism $Spec(R) \to Spec(\mathbb{Z})$ induces the corresponding [[Cech groupoid]] [[internal groupoid|internal]] to $CRing^{op}$
 
 $$
   \array{
@@ -125,17 +190,47 @@ This is morally the reason why for $E$ a [[homotopy commutative ring spectrum]] 
 
 
 
+
+### Solid rings
+
+\begin{definition}\label{SolidRing}
+**(solid rings)** \linebreak
+A [[commutative ring]] $R$ which is [[isomorphism|isomorphic]] to its [[core of a ring|core]] (Def. \ref{CoreOfARing}), $R \,\simeq\, c R$ is called a **solid ring**.
+\end{definition}
+([Bousfield-Kan 72, &#167;1, def. 2.1](#BousfieldKan72), [Bousfield 79, 6.4](#Bousfield79))
+
+\begin{proposition}
+  A [[commutative ring]] $R$ is solid (Def. \ref{SolidRing}) iff its [[multiplication]] morphism is an [[isomorphism]]:
+
+$$
+  R\; \text{is solid}
+  \;\;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;\;
+  R \otimes_{{}_{\mathbb{Z}}} R
+    \underoverset
+      {\simeq}
+      {\;(-) \cdot (-)\;}
+      {\longrightarrow}
+  R
+  \,.
+$$
+\end{proposition}
+([Bousfield & Kan 1972](#BousfieldKan72))
+
+
+
 ## Classification
 
 +-- {: .num_theorem}
 ###### Theorem
 
-The following is the complete list of solid rings (def. \ref{CoreOfARing}) up to [[isomorphism]]:
+The following is the complete list of solid rings (Def. \ref{SolidRing}) up to [[isomorphism]]:
 
-1. The [[localization of a ring|localization]] of the ring of [[integers]] at a set $J$ of [[prime numbers]]
+1. The [[localization of a ring|localization]] of the ring of [[integers]] at a [[subsetset]] $Pr$ of [[prime numbers]]
 
    $$
-     \mathbb{Z}[J^{-1}]
+     \mathbb{Z}\big[Pr^{-1}\big]
      \,;
    $$
 
@@ -174,19 +269,18 @@ The following is the complete list of solid rings (def. \ref{CoreOfARing}) up to
 
 ## Properties
 
-+-- {: .num_prop}
-###### Proposition
-
-The core of any ring $R$ is solid (def. \ref{CoreOfARing}):
-
+\begin{prop}\label{CoresAreSolid}
+**(cores are solid)** \linebreak
+The core (Def. \ref{CoreOfARing}) of any ring $R$ is solid (Def. \ref{SolidRing}):
 $$
-  c c R \simeq c R
+  c c R 
+    \;\simeq\; 
+  c R
   \,.
 $$
-
-=--
-
+\end{prop}
 ([Bousfield-Kan 72, prop. 2.2](#BousfieldKan72))
+
 
 ## Related concepts
 
@@ -198,7 +292,6 @@ $$
 ## References
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], _The core of a ring_, Journal of Pure and Applied Algebra, Volume 2, Issue 1, April 1972, Pages 73-81 ([link](http://www.sciencedirect.com/science/article/pii/0022404972900230))
-
 
 
 * {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
