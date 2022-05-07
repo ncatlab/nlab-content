@@ -36,6 +36,10 @@ The [[trivial group]] with $a \vert b = a \cdot b$, $\odot = 1$ and $a^{\bullet}
 
 * [[midpoint algebra]]
 
+* [[cancellative midpoint algebra]]
+
+* [[symmetric closed midpoint algebra]]
+
 * [[symmetric midpoint group]]
 
 ## References
