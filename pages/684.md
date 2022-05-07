@@ -45,10 +45,12 @@ $$
 
 A ([[generalised element|generalised]]) [[global point|element]] of $\Omega X$ may be thought of as a [[loop]] in $X$ at the [[base point]] $*$.
 
+When the point $x : {*} \to X$ is not clear from context, we can write $\Omega_x X$ or $\Omega(X,x)$ to indicate the point.
+
 
 ### Remarks
 
-Since $\mathbf{C}(X,-)$ commutes with homotopy limits, one has a natural homotopy equivalence $\Omega\mathbf{C}(X,Y)\simeq \mathbf{C}(X,\Omega Y)$, for any two objects $X$ and $Y$ in $\mathbf{C}$.
+Since $\mathbf{C}(X,-)$ commutes with homotopy limits, one has a natural homotopy equivalence $\Omega_{\bar{y}}\mathbf{C}(X,Y)\simeq \mathbf{C}(X,\Omega_y Y)$, for any objects $X$ and pointed object $(Y,y)$ in $\mathbf{C}$, where $\bar{y}$ denotes the morphism $X \to * \to Y$.
 
 See also 
 
