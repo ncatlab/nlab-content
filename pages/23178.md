@@ -22,7 +22,7 @@
 
 What is called *singular cohesion* in [SaSc 2020](#SaSc20), following observations in [Rezk 2014](#Rezk14), is a form of [[cohesion]] [[cohesive (infinity,1)-toposes|on $\infty$-toposes]] which enhances any [[base (infinity,1)-topos|base]] notion of "smooth" cohesive geometry to a "singular-smooth" cohesive geometry which reflects the possible presence of [[orbi-singularities]].
 
-For example, where [[smooth manifolds]] are faithfully embedded among the [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]] of [[smooth infinity-groupoids]], so their [[orbifolds]] are faithfully embedded among [[singular-smooth infinity-groupoid|singular-smooth $\infty$-groupoids]].
+For example, where [[smooth manifolds]] are faithfully embedded into the [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]], so their [[orbifolds]] are faithfully embedded among [[singular-smooth infinity-groupoid|singular-smooth $\infty$-groupoids]] such that, for [[global quotient orbifolds]], their [[cohesive shape]] is the homotopy type of the underlying [[G-spaces]] in [[proper equivariant homotopy theory|proper]] [[equivariant homotopy theory]].
 
 For the [[base (infinity,1)-topos|base $\infty$-topos]] [[Infinity-Grpd|$Grpd_\infty$]], embodying plain [[homotopy theory]], its singular-cohesive enhancement is [[global equivariant homotopy theory]] and hence every singular-cohesive $\infty$-topos is cohesive over (in particular) [[global equivariant homotopy theory]], hence may be thought of as embodying a "globally equivariant and cohesive" homotopy theory.
 
@@ -137,14 +137,13 @@ $$
       ]
 \end{tikzcd}
 
-This follows formally from the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] inclusion
+This follows on general abstract grounds (see at *[Adjoint quadruple -- Cohesion](adjoint+quadruple#CohesiveToposes)*) from the [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] inclusion
 
 $$
   \Singularities_{/\boxed{\prec}\mathbf{B}G}
   \underoverset
-{\hookleftarrow}
+    {\hookleftarrow}
     {\overset{\tau_0}{\longrightarrow}}
-    
     {\;\;\; \bot \;\;\;}
   G Orbits
   \,,
@@ -155,7 +154,7 @@ as discussed at *[[cohesion of global- over G-equivariant homotopy theory]]*.
 
 ### Globally equivariant cohesive homotopy theory
 
-Now if $\mathbf{H}_{\subset}$ is itself [[cohesive (infinity,1)-topos|cohesive]] over [[Infinity-Grpd|$Grpd_\infty$]] then $\mathbf{H} = Glo(\mathbf{H}_{\subset})$ carries the following system of [[adjoint triples]] of [[adjoint modalities]]:
+Now if $\mathbf{H}_{\subset}$ is itself [[cohesive (infinity,1)-topos|cohesive]] over [[Infinity-Grpd|$Grpd_\infty$]] then $\mathbf{H} = Glo(\mathbf{H}_{\subset})$ carries the following system of [[adjoint quadruples]]:
 
 
 \begin{imagefromfile}
@@ -171,21 +170,37 @@ Now if $\mathbf{H}_{\subset}$ is itself [[cohesive (infinity,1)-topos|cohesive]]
     "caption": "From [SaSc 21](https://ncatlab.org/schreiber/show/Equivariant+principal+infinity-bundles)"
 \end{imagefromfile}
 
+
 ### Singular cohesion
 
-From this is obtained a pair of [[adjoint triples]] of [[adjoint modalities]] on $\mathbf{H} \,\coloneqq\, Glo(\mathbf{H}_{\smooth})$ which jointly reflect that its objects are [[geometric homotopy types]] whose geometric nature is "cohesive with [[orbi-singularities]]".
+From this is obtained, in particular, a pair of [[adjoint triples]] of [[adjoint modalities]] on $\mathbf{H} \,\coloneqq\, Glo(\mathbf{H}_{\smooth})$ which jointly reflect that its objects are [[geometric homotopy types]] whose geometric nature is "cohesive with [[orbi-singularities]]":
 
-(...)
 
-For example, when $\mathbf{H}_{\subset} \,=\,$ [[smooth infinity-groupoids|$SmthGrpd_\infty$]] containing [[diffeological spaces]] as the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of [[n-truncated object of an (infinity,1)-category|0-truncated]] [[concrete objects]]
+\begin{imagefromfile}
+    "file_name": "SingularCohesionModalities_20211026.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+### Orbifolds among singular-smooth $\infty$-groupoids
+
+For example, when $\mathbf{H}_{\subset} \,=\,$ [[smooth infinity-groupoids|$SmthGrpd_\infty$]],  containing [[diffeological spaces]] as the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of [[n-truncated object of an (infinity,1)-category|0-truncated]] [[concrete objects]]
 
 $$
   DiffSpc
   \xhookrightarrow{ i_{\tau_0, \sharp_1} }
   SmthGrpd_\infty
+  \,,
 $$
 
-then $\mathbf{H} \,\coloneqq\, Glo(SmthGrpd_\infty)$ contains diffeological [[orbifolds]] as a [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of orbi-singular- hence $\box{\prec}$-[[modal objects]]
+then the singular-cohesive $\infty$-topos $\mathbf{H} \,\coloneqq\, Glo(SmthGrpd_\infty)$ of *[[singular-smooth infinity-groupoids|singular-smooth $\infty$-groupoids]]* contains diffeological [[orbifolds]] as a [[full sub-(infinity,1)-category|full sub]] [[(2,1)-category]] of orbi-singular-,  hence of $\boxed{\prec}$-[[modal objects]]
 
 $$
   \array{
@@ -199,10 +214,11 @@ $$
     X \sslash G
     &\mapsto&
     \boxed{\prec}(X \sslash G)
+    \mathrlap{\,,}
   }
 $$
 
-in such a way that their [[shape modality|shape]] 
+and in such a way that their [[shape modality|shape]] 
 
 $$
   \esh 
@@ -218,13 +234,18 @@ $$
   \mathbf{H}_{/\boxed{\prec}\mathbf{B}G}
 $$
 
-is the incarnation of the [[D-topological space]] underlying $X$ as a [[G-space]] in $G$-[[equivariant homotopy theory]] (via [[Elmendorf's theorem]]):
+is the incarnation of the [[D-topological space]] underlying $X$ as a [[G-space]] in $G$-[[equivariant homotopy theory]] (via [[Elmendorf's theorem]]).
 
 
+## Related concepts
 
+* [[orbifold cohomology]]
 
+* [[equivariant homotopy theory]]
 
-(...)
+  * [[globally equivariant homotopy theory]]
+
+  * [[cohesion of global- over G-equivariant homotopy theory]]
 
 
 ## References
@@ -249,4 +270,7 @@ in discussion of [[equivariant bundle|equivariant]] [[principal infinity-bundle|
 
 [[!redirects singular-cohesive (infinity)-topos]]
 [[!redirects singular-cohesive (infinity)-toposes]]
+
+[[!redirects singular-cohesive (infinity,1)-topos]]
+[[!redirects singular-cohesive (infinity,1)-toposes]]
 
