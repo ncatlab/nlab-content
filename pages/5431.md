@@ -32,3 +32,15 @@ On [[tensor networks]]:
 
 * [[Jacob Biamonte]], _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
 
+On [[quantum machine learning]]:
+
+* [[Jacob Biamonte]], Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan Wiebe, [[Seth Lloyd]], *Quantum Machine Learning*, Nature **549**  (2017) 195–202 ([doi:10.1038/nature23474](https://doi.org/10.1038/nature23474))
+
+  EurekaAlert, *Quanutum Machine Learning* [14-Sep-2017](https://www.eurekalert.org/pub_releases/2017-09/iiop-qml091417.php)
+
+
+
+
+
+
+
