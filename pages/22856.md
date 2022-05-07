@@ -65,7 +65,7 @@ If $(A,I,\gamma)$ is a divided power algebra, then $n! \gamma_n(x) = x^n$ for ev
 ###### Proof 
 
 It's true for $n=0$ and $n=1$. 
-For $n \geq 2$, this follows by induction, since $n! \gamma_n(x) = (n-1)! \gamma_{n-1}(x) \cdot 1! \gamma_1(x) = x^{n-1} \cdot x$.
+For $n \geq 2$, this follows by [[induction]], since $n! \gamma_n(x) = (n-1)! \gamma_{n-1}(x) \cdot 1! \gamma_1(x) = x^{n-1} \cdot x$.
 
 =--
 
