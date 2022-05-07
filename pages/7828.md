@@ -237,7 +237,7 @@ which is reviewed and amplified further in
 
 Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] in degree 3 via [[bundle gerbes]] ([[Jandl gerbes]]) suitable for classifying [[D-brane charge]] on [[orientifolds]]:
 
-* [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
+* [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_, Adv. Theor. Math. Phys. 23 (2019) 2093-2159, DOI:[10.4310/ATMP.2019.v23.n8.a5](https://doi.org/10.4310/ATMP.2019.v23.n8.a5) ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
 
 * {#HMSV19} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_, Commun. Math. Phys. 378, 1843–1873 (2020) ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041))
 
