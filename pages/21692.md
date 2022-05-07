@@ -26,8 +26,7 @@ The _fibration lemma_ ([Bousfield-Kan 72, Chapter II](#BousfieldKan72)) in ([[ra
 +-- {: .num_prop #RationalFibrationLemma} 
 ###### Proposition
 **(rational fibration lemma)**
-
-Let
+Let 
 
 $$
   \array{
@@ -41,15 +40,15 @@ $$
 
 be a [[Serre fibration]] of [[connected topological space|connected]] [[topological spaces]], with [[fiber]] $F$ (over any base point) also connected.
 
-If in addition
+If, for $k$ a [[ground field]] of [[characteristic zero]]:
 
-1. the [[fundamental group]] $\pi_1(B)$ [[nilpotent module|acts nilpotently]] on the [[homology groups]] $H_\bullet(F,k)$ 
+1. the [[fundamental group]] $\pi_1(B)$ [[nilpotent module|acts nilpotently]] on the [[rational cohomology|k-rational]] [[homology groups]] $H_\bullet(F,k)$ 
 
-   (e.g. if $B$ is [[simply connected topological space|simply connected]], or if the fibration is a [[principal bundle]]);
+   (e.g. if $B$ is [[simply connected topological space|simply connected]], or if the fibration is a [[principal bundle]]),
 
-1. at least one of $A$, $F$ is rationally [[of finite type]] 
+1. at least one of $A$, $F$ is rationally [[of finite type]],
 
-then the [[cofiber]] of any [[relative Sullivan model]] for $p$ is a [[Sullivan model]] for $F$.
+then the [[cofiber]] of any [[relative Sullivan model]] for $p$ is a [[Sullivan model]] for $F$ (both as [[dgc-algebras]] over $k$).
 
 =-- 
 
