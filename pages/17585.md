@@ -144,12 +144,12 @@ $$
   (\wedge^\bullet(  V\oplus s V ), d_{\mathcal{L}X})  
 $$
 
-is a model for the rationalization of the [[homotopy fiber sequence]]
+is a model for the [[rationalization]] of the [[homotopy fiber sequence]]
 
 $$
   \mathcal{L}X 
     \longrightarrow
-  \mathcal{L}X / / S^1
+  \mathcal{L}X \sslash S^1
     \longrightarrow
   B S^1
 $$
@@ -174,15 +174,15 @@ $$
   \,.
 $$
 
-Moreover the $S^1$-equivariant cohomology of the loop space, hence the ordinary cohomology of the cyclic loop space $\mathcal{L}X/^h S^1$ is the [[cyclic homology]] $HC_\bullet$ of the singular chains:
+Moreover the $S^1$-equivariant cohomology of the loop space, hence the ordinary cohomology of the [[cyclic loop space]] $\mathcal{L}X \sslash S^1$ is the [[cyclic homology]] $HC_\bullet$ of the singular chains:
 
 $$
-  H^\bullet(\mathcal{L}X/^h S^1)
+  H^\bullet(\mathcal{L}X \sslash S^1)
     \simeq
   HC_\bullet( C^\bullet(X) )
 $$
 
-([Loday 11](#Loday11))
+([Jones 87, Thm. A](cyclic+homology#Jones87), review in [Loday 92, Cor. 7.3.14](cyclic+homology#Loday92), [Loday 11, Sec 4](cyclic+homology#Loday11))
 
 If the [[coefficients]] are [[rational numbers|rational]], and $X$ is of [[finite type]] then by prop. \ref{SullivanModelForTheFreeLoopSpace} and prop. \ref{ModelForS1quotient}, and the general statements at _[[rational homotopy theory]]_, the [[cochain cohomology]] of the above [[minimal Sullivan models]] for $\mathcal{L}X$ and $\mathcal{l}X/S^1$ compute the rational [[Hochschild homology]] and [[cyclic homology]] of (the cochains on) $X$, respectively. 
 
@@ -198,7 +198,7 @@ $$
 $$
 
 $$
-  H^\bullet(\mathcal{L}X/^h S^1)
+  H^\bullet(\mathcal{L}X \sslash S^1)
     \simeq
   HC_\bullet( \Omega^\bullet(X) )
   \,.
@@ -253,25 +253,25 @@ $$
   \end{aligned}
 $$
 
-and prop. \ref{ModelForS1quotient} gives for the rationalization of $\mathcal{L}S^4 / / S^1$ the model
+and prop. \ref{ModelForS1quotient} gives for the rationalization of $\mathcal{L}S^4 \sslash S^1$ the model
 
 $$
-  ( \wedge^\bullet \langle \omega_2, \omega_4, \omega_6, h_3, h_7 \rangle  , d_{\mathcal{L}S^4 / / S^1} ) 
+  ( \wedge^\bullet \langle \omega_2, \omega_4, \omega_6, h_3, h_7 \rangle  , d_{\mathcal{L}S^4 \sslash S^1} ) 
 $$
 
 with 
 
 $$
   \begin{aligned}
-    d_{\mathcal{L}S^4 / / S^1} h_3 & = 0
+    d_{\mathcal{L}S^4 \sslash S^1} h_3 & = 0
     \\
-    d_{\mathcal{L}S^4 / / S^1} \omega_2 & = 0
+    d_{\mathcal{L}S^4 \sslash S^1} \omega_2 & = 0
     \\
-    d_{\mathcal{L}S^4 / / S^1} \omega_4 & = h_3 \wedge \omega_2 
+    d_{\mathcal{L}S^4 \sslash S^1} \omega_4 & = h_3 \wedge \omega_2 
     \\
-    d_{\mathcal{L}S^4 / / S^1} \omega_6 & = h_3 \wedge \omega_4
+    d_{\mathcal{L}S^4 \sslash S^1} \omega_6 & = h_3 \wedge \omega_4
     \\
-    d_{\mathcal{L}S^4 / / S^1} h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4 + \omega_2 \wedge \omega_6
+    d_{\mathcal{L}S^4 \sslash S^1} h_7 & = -\tfrac{1}{2} \omega_4 \wedge \omega_4 + \omega_2 \wedge \omega_6
   \end{aligned}
   \,.
 $$
@@ -458,10 +458,10 @@ $$
   \end{aligned}
 $$
 
-and prop. \ref{ModelForS1quotient} gives for the rationalization of $\mathcal{L}S^2 / / S^1$ the model
+and prop. \ref{ModelForS1quotient} gives for the rationalization of $\mathcal{L}S^2 \sslash S^1$ the model
 
 $$
-  ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, \omega^C_2 h_1, h_3 , d_{\mathcal{L}S^2 / / S^1} ) 
+  ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, \omega^C_2 h_1, h_3 , d_{\mathcal{L}S^2 \sslash S^1} ) 
 $$
 
 with 
