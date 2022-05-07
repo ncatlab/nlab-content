@@ -46,7 +46,7 @@ example of such a structure on the [[BRST complex]] of the [[bosonic string]] th
 
 [Lada-Stasheff 92](#LadaStasheff92) credit [Schlessinger-Stasheff 85](deformation+theory#SchlessingerStasheff85) with the introduction of the concept, but while that article considers many closely related structures, it does not consider $L_\infty$-algebras as such. [Lada-Markl 94](#LadaMarkl94) credit other work by Schlessinger-Stasheff as the origin, but that work appeared much later as [Schlessinger-Stasheff 12](deformation+theory#SchlessingerStasheff12).
 
-According to [Stasheff 16, slide 25](#Stasheff16), Zwiebach had this structure already in 1989, when Stasheff recognized it in a talk by Zwiebach at a [[GUT]] conference in Chapel-Hill.   Zwiebach in turn had been following the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97).
+According to [Stasheff 16, slide 25](#Stasheff16), Zwiebach had this structure already in 1989, when Stasheff recognized it in a talk by Zwiebach at a [[GUT]] conference in Chapel-Hill.   Zwiebach, in turn, was following the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97).
 
 The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
 is due to [Lada-Markl 94](#LadaMarkl94).
@@ -623,7 +623,7 @@ such that for each $\mathfrak{g} \in L_\infty Alg_k$
 
 =--
 
-This appears for instance as ([KrizMay, cor. 1.6](#KrizMay)).
+This appears for instance as ([Kriz & May 1995, Cor. 1.6](#KrizMay95)).
 
 ### Relation to $\infty$-Lie groupoids
 
