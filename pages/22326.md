@@ -5,7 +5,13 @@
 
 Discussion of [[higher curvature corrections]] to [[11-dimensional supergravity]] (i.e. in [[M-theory]]):
 
+
 * [[Arkady Tseytlin]], _$R^4$ terms in 11 dimensions and conformal anomaly of (2,0) theory_, Nucl. Phys. B584: 233-250, 2000 ([arXiv:hep-th/0005072](https://arxiv.org/abs/hep-th/0005072))
+
+#### Via 11d superspace cohomology
+
+Via 11d [[superspace]]-cohomology (or mostly):
+
 
 * [[Kasper Peeters]], Pierre Vanhove, Anders Westerberg, _Supersymmetric $R^4$ actions and quantum corrections to superspace torsion constraints_ ([arXiv:hep-th/0010182](https://arxiv.org/abs/hep-th/0010182))
 
@@ -33,9 +39,29 @@ Discussion of [[higher curvature corrections]] to [[11-dimensional supergravity]
 
 * [[Bertrand Souères]], _Supergravities in Superspace_, Lyon 2018 ([tel:01998725](https://tel.archives-ouvertes.fr/tel-01998725), [pdf](https://tel.archives-ouvertes.fr/tel-01998725/document))
 
-and from the [[ABJM  model]]:
+#### Via superparticle scattering in 11d
+
+Via analysis of would-be [[superparticle]] [[scattering amplitudes]] on [[D=11 supergravity]] backgrounds:
+
+* [[Kasper Peeters]], [[Jan Plefka]], [[Steffen Stern]], _Higher-derivative gauge field terms in the M-theory action_, JHEP 0508 (2005) 095 ([arXiv:hep-th/0507178](https://arxiv.org/abs/hep-th/0507178))
+
+
+
+#### Via lifting 10d stringy corrections
+
+From lifting [[string length scale|alpha']]-corrections in [[type IIA string theory]] through the [[duality between M-theory and type IIA string theory]]:
+
+* [[James Liu]], [[Ruben Minasian]], _Higher-derivative couplings in string theory: dualities and the B-field_, Nucl. Phys. B 2013 ([arXiv:1304.3137](https://arxiv.org/abs/1304.3137))
+
+
+#### Via the ABJM M2-brane model
+
+
+From the [[ABJM  model]] for the [[M2-brane]]:
 
 * Damon J. Binder, [[Shai Chester]], Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
+
+#### See also
 
 See also
 
