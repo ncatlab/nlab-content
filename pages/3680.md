@@ -19,16 +19,22 @@
 The notion of **final $(\infty,1)$-functor** (also called a **cofinal $(\infty,1)$-functor**) is the generalization of the notion of [[final functor]] from [[category theory]] to [[(∞,1)-category]]-theory.
 
 An [[(∞,1)-functor]] $p : K' \to K$ is final precisely if precomposition with $p$ preserves [[(∞,1)-colimit]]: 
-
 if $p$ is final then for $F : K \to C$ any [[(∞,1)-functor]] we have
-
 $$
   \lim_\to (K \stackrel{F}{\to} C)
   \simeq
-  \lim_{\to} ( K' \stackrel{p}{\to} K \stackrel{F}{\to} C)  
+  \lim_{\to} ( K' \stackrel{p}{\to} K \stackrel{F}{\to} C),
 $$
-
 when either of these [[(∞,1)-colimits]] exist.
+
+## Warning
+
+The term “cofinal (∞,1)-functor” can mean either a functor for which the precomposition functor preserves colimits (in Lurie's [[Higher Topos Theory]]) or limits (in Cisinski's [[Higher Categories and Homotopical Algebra]]).
+
+Given that the two main sources for [[quasicategories]] assign opposite meanings to this term, it is best to avoid its usage altogether.
+
+Further adding to the confusion is that some sources, like Borceux's [[Handbook of Categorical Algebra]] use the term “final functor” for a functor for which the precomposition functor preserves limits, in contrast to the majority of the literature.
+Such usage, fortunately, is marginal.
 
 ## Definition
 
@@ -498,7 +504,7 @@ This can be used to establish a Bousfield-Kan formula for homotopy colimits; see
 
 * [[homotopy final functor]]
 
-* final $(\infty,1)$-functor
+* [[initial (∞,1)-functor]]
 
 ## References
 
