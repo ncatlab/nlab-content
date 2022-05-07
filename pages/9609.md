@@ -48,7 +48,7 @@ $$
 ## Examples
  {#Examples}
 
-In a standard model for [[synthetic differential geometry]]/[[differential cohesion]] such as the [[Cahiers topos]] $\mathbf{H}$, for $X \in SmthMfd \overset{y}{\hookrightarrow} \mathbf{H}$ an ordinary [[smooth manifold]], its [[synthetic tangent bundle]] coincides with the traditional [[tangent bundle]] $T X \overset{p}{\to} T X$:
+In a standard model for [[synthetic differential geometry]]/[[differential cohesion]] such as the [[Cahiers topos]] $\mathbf{H}$, for $X \in SmthMfd \overset{y}{\hookrightarrow} \mathbf{H}$ an ordinary [[smooth manifold]], its [[synthetic tangent bundle]] coincides with the traditional [[tangent bundle]] $T X \overset{p}{\to} X$:
 
 $$
   \array{
