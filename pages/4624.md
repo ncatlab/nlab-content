@@ -53,6 +53,8 @@ If $C$ has pullbacks of monomorphisms, $Sub$ is often used to denote the contrav
 
 * [[well-powered category]] 
 
+* [[(n+1,1)-category of n-truncated objects]]
+
 ## References
 
 * {#Johnstone}  [[Elephant]] 
