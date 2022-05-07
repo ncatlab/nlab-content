@@ -39,6 +39,10 @@ In an [[(infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$, let $X_\bullet \,\colo
 
 for the *$\infty$-quotient coprojection*, i.e. induced universal morphism from $X_0$ to the [[(infinity,1)-colimit|$\infty$-colimit]]. Then:
 
+\begin{proposition}
+\label{GroupoidObjectsInAnInfinityToposAreEffective}
+**(groupoid objects in an $\infty$-topos are effective)**
+\linebreak
 If $X_\bullet$ is a [[groupoid object in an (infinity,1)-category|groupoid object]] in that it satisfies the groupoidal [[Segal conditions]], then the $\infty$-quotient coprojection (eq:InfinityQuotientCoprojection) is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] in that $X_\bullet$ [[equivalence in an (infinity,1)-category|equivalent]] to its [[Cech nerve]]:
 
 $$
@@ -58,10 +62,45 @@ $$
     }
   \Big)
 $$
-
+\end{proposition}
 ([Lurie 2009, Def. 6.1.2.14, Prop. 6.1.0.6 (3.iv)](#Lurie09))
 
-This correspondence also holds with respect to morphisms. If $L : Func(\Delta^{op}, \mathbf{H}) \to \Func([1], \mathbf{H})$ is the functor that sends a simplicial object to the universal morphism from $X_0$ to the colimit and $R : \Func([1], \mathbf{H}) \to Func(\Delta^{op}, \mathbf{H})$ sends a morphism to its Cech nerve, then $(L, R)$ restricts to an equivalence between the full subcategories of groupoids and effective epimorphisms.
+Morever, this correspondence extends to morphisms:
+\begin{proposition}
+In any [[(infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$ 
+the correspondence of Prop. \ref{GroupoidObjectsInAnInfinityToposAreEffective}
+extends to an  [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]] 
+\[
+  \label{EquivalenceOfEffectiveEpimorphisms}
+  Grpd(\mathbf{H})
+  \underoverset
+    { 
+       \underset{
+         (-)_0 
+          \to 
+         \underset{\longrightarrow}{\lim}(-)
+       }
+       {\longrightarrow} 
+    }         
+    { 
+       \overset{ 
+         (-)^{\times_\bullet} 
+       }
+       {\longleftarrow}
+    }
+    {\sim}
+  \big(
+    \mathbf{H}^{\Delta[1]}
+  \big)_{eff}
+\]
+between 
+the [[groupoid objects in an (infinity,1)-category|groupoid objects in $\mathbf{H}$]]
+and
+the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of the [[arrow category]] on the [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]].
+\end{proposition}
+([Lurie 2009, below Cor. 6.2.3.5](#Lurie09))
+
+Here the [[(infinity,1)-functors|$\infty$-functors]] are the [[restriction]] of  $L \colon Func(\Delta^{op}, \mathbf{H}) \to \Func([1], \mathbf{H})$ which sends a [[simplicial object]] to the universal morphism from $X_0$ to its [[(infinity,1)-colimit|$\infty$-colimit]] and $R \colon \Func([1], \mathbf{H}) \to Func(\Delta^{op}, \mathbf{H})$ sends a morphism to its Cech nerve.
 
 This follows since the correspondence in both directions is computed by taking a Kan extension to $Func(\Delta_+^{op}, \mathbf{H})$ followed by a restriction, and this identifies both sides with the same full subcategory of $Func(\Delta_+^{op}, \mathbf{H})$.
 
