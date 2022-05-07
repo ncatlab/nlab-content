@@ -103,7 +103,7 @@ Let
 * $X \,\in\, G Act(TopSp)$ be a ([[compactly generated weak Hausdorff space|cgwh]])-[[topological G-space]].
 
 \begin{prop}\label{HomotopyFiberSequenceofTopologicalBorelConstruction}
-Then the topological [[Borel construction]] $(X \times E G)/G$ fits into a [[homotopy fiber sequence]] of the form
+The topological [[Borel construction]] $(X \times E G)/G$ fits into a [[homotopy fiber sequence]] of the form
 
 \[
   \label{HomotopyFiberSequenceOfTopologicalBorelConstruction}
@@ -118,7 +118,6 @@ Then the topological [[Borel construction]] $(X \times E G)/G$ fits into a [[hom
   B G
   \,.
 \]
-
 \end{prop}
 \begin{proof}
   The sequence (eq:HomotopyFiberSequenceOfTopologicalBorelConstruction) is the image under [[geometric realization of simplicial topological spaces]] of the sequence of [[simplicial topological spaces]]
@@ -160,6 +159,189 @@ For the second condition, observe  that [[projections]] $X \times G^n \to G^n$ a
 For the third point, notice that in the present case the horn-filling map [here](geometric+realization+of+simplicial+topological+spaces#eq:HomotopyTheoreticKanFibration) is in fact an [[isomorphism]], hence certainly surjective on connected components. 
 \end{proof}
 
+\begin{prop}\label{TopologicalBorelConstructionOnPrincipalBundles}
+**(Borel construction on principal bundle is equivalent to plain quotient)**
+\linebreak
+Assume that:
+
+* $G$ and $X$ are both 
+
+  1. [[connected topological space|connected]], $\pi_0 = \ast$; 
+
+  1. with [[abelian group|abelian]] [[fundamental group]], $\pi_1 \,\in\, Ab \hookrightarrow Grp$;
+
+* the [[coprojection]] $X \xrightarrow{\;q\;} X/G$ is a [[locally trivial bundle|locally trivial]] $G$-[[fiber bundle]] (hence a $G$-[[principal bundle]]), 
+
+then the topological Borel construction is [[weak homotopy equivalence|weakly homotopy equivalent]] to the plain [[quotient space]]:
+$$
+  (X \times E G)/G
+  \xrightarrow{ \in \,\mathrm{W}_{whe} }
+  X/G
+  \,.
+$$
+\end{prop}
+\begin{proof}
+We need to show that the comparison morphism induces an [[isomorphisms]] on all [[homotopy groups]] $\pi_n$.
+
+For $n = 0$ this is immediate, as passage to [[connected components]] is a [[coequalizer]] ([here](connected+space#eq:ConnectedComponentsAsCoequalizer)) and using that [[colimits commute with colimits]]. This implies that both $\pi_0(X/G)$ as well as $\pi_0\big( (X \times E G) / G\big)$ are the [[singleton set]] (by the assumption that $X$ is connected and since $E G$ is connected) and hence isomorphic.
+
+In order to compare the remaining higher [[homotopy groups]], 
+observe that, under the given assumption, with $X \to X/G$ also the coprojection $X \times E G \xrightarrow{ \;\; } (X \times E G)/G$ to the Borel construction itself is a locally trivial fiber bundle: 
+Namely from this [[commuting diagram]]
+
+\begin{tikzcd}
+    &[-28pt]
+    G
+    \ar[
+      rr,-,
+      shift left=1pt
+    ] 
+    \ar[
+      rr,-,
+      shift right=1pt
+    ]
+    \ar[d]
+    &&
+    G
+    \ar[
+      d,
+      "g \,\mapsto\, g \cdot x_0"
+    ]
+    &[-28pt]
+    \\
+    (U \times G) \times EG
+    \ar[
+      r,
+      phantom,
+      "\subset"
+    ]
+    \ar[
+      d,
+      "{
+        \big(\mathrm{pr_1}, (g,p) \mapsto g \cdot p \big)
+      }"
+    ]
+    &
+    {X} \times E G
+    \ar[
+      rr,
+      "\mathrm{pr}_1"{above},
+      "\in \, \mathrm{W}"{below}
+    ]
+    \ar[d]
+    &&
+    {X}
+    \ar[
+      d,
+      "q"
+    ]
+    \ar[
+      r,
+      phantom,
+      "\supset"
+    ]
+    &
+      {U} \times G
+      \ar[
+        d,
+        "\mathrm{pr}_1"
+      ]
+    \\
+    U \times E G
+    \ar[
+      r,
+      phantom,
+      "\subset"
+    ]
+    &
+    ({X} \times E G) / G
+    \ar[
+      rr,
+      "\mathrm{pr}_1/G"
+    ]
+    &&
+    {X}/G
+    \ar[
+      r,
+      phantom,
+      "\supset"
+    ]
+    &
+    U
+\end{tikzcd}
+
+one sees that for $\big\{ U_i \subset X/G\big\}_{i \in I}$ an [[open cover]] of $X/G$ over which $X \to X/G$ trivializes, we have that 
+$\big\{  U_i \times E G \,\subset\, (X \times E G)/G \}_{i \in I}$ is an open cover over which the quotient coprojection into the Borel construction  trivializes.
+
+But since locally trivial bundles are [[Serre fibrations]] ([this Prop.](https://ncatlab.org/nlab/show/Serre+fibration#FiberBundlesAreSerreFibrations)), it follows that the above diagram is a morphism of [[homotopy fiber sequences]] (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdinaryPullback)), 
+and hence induces a morphism of [[long exact sequences of homotopy groups]], which contains the following segments, for all $n \in \mathbb{N}$:
+
+\begin{tikzcd}
+    \pi_{n+1}(G)
+    \ar[r]
+    \ar[
+      d,
+      "{ \sim }"{yshift=-4pt, xshift=-3pt, sloped}
+    ]
+    &
+    \pi_{n+1}
+    \big(
+      X \times E G
+    \big)
+    \ar[r]
+    \ar[
+      d,
+      "{ \sim }"{yshift=-4pt, xshift=-3pt, sloped}
+    ]
+    &
+    \pi_{n+1}
+    \big(
+      (X \times E G)/G
+    \big)
+    \ar[r]
+    \ar[d]
+    &
+    \pi_n(G)
+    \ar[r]
+    \ar[
+      d,
+      "{ \sim }"{yshift=-4pt, xshift=-3pt, sloped}
+    ]
+    &
+    \pi_n
+    \big(
+      X \times E G
+    \big)
+    \ar[
+      d,
+      "{ \sim }"{yshift=-4pt, xshift=-3pt, sloped}
+    ]
+    \\
+    \pi_{n+1}(G)
+    \ar[r]
+    &
+    \pi_{n+1}(X)
+    \ar[r]
+    &
+    \pi_{n+1}
+    \big(
+      X/G
+    \big)
+    \ar[r]
+    &
+    \pi_n(G)
+    \ar[r]
+    &
+    \pi_n
+    \big(
+      X
+    \big)
+\end{tikzcd}
+
+Here the outer vertical morphisms are all [[isomorphisms]] by the fact that $E G \xrightarrow{\;} \ast$ is a [[weak homotopy equivalence]]. Therefore the [[five lemma]] implies that also the middle vertical morphism is an isomorphism, for all $n$.
+
+(Notice that for the the five lemma to apply also at $n = 0$ we need to ensure that $\pi_1(X/G)$ in the bottom row is [[abelian group|abelian]]. But this is the case by the assumption that $\pi_0(G) = \ast$, from which the exactness of the bottom sequence implies that $\pi_1(X/G)$ is a quotient of $\pi_1(X)$, which is abelian by assumption. The analogous argument applies to the top row at $n = 0$). 
+\end{proof}
 
 ### As the realization of the action groupoid
 
@@ -261,7 +443,7 @@ The image of the Borel construction in [[rational homotopy theory]] is the [[Wei
 
 
 
-## References
+## Literature
 
 As a [[right Quillen functor]] on the [[model structure on simplicial group actions]]:
 
