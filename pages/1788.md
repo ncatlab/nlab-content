@@ -1,22 +1,45 @@
 
-* [[flat connections]] [[Maurer-Cartan forms]]
 
-  $d\, A^i \,=\,  f^i{}_{j k} A^j \wedge A^k$
+$$
+  \mathcal{D}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \mathcal{C}
+$$
 
-* flat string 2-connections
+$$
+  \mathcal{D}^{op}
+    \underoverset
+      {\underset{L^{op}}{\longrightarrow}}
+      {\overset{R^{op}}{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \mathcal{C}^{op}
+$$
 
-  $ d, B_3 \;=\; k_{i j} F^i \wedge F^j $
+$$
+  \mathcal{D}^{op}_{/R(\ast)}
+    \underoverset
+      {\underset{L^{op}_{/\ast}}{\longrightarrow}}
+      {\overset{R^{op}_{/\ast}}{\longleftarrow}}
+      {\;\;\;\;\;\bot_{\mathrlap{{}_{Qu}}}\;\;\;\;\;}
+  \mathcal{C}^{op}_{/\ast}
+$$
 
-* cohomotopy classifies
 
-  - cobordism classes of normally framed submanifolds
+$$
+  \mathcal{D}^{\ast/}
+    \underoverset
+      {\underset{R^{\ast/}}{\longrightarrow}}
+      {\overset{L^{\ast/}}{\longleftarrow}}
+      {\;\;\;\;\;\bot\;\;\;\;\;}
+  \mathcal{C}^{\ast/}
+$$
 
-  - deg 2: moduli of YM monopones
-  
-* maps into twistor space...
 
-* twisted cohomology is really non-abelian cohomology equipped with a non-abelian cohomology operation called the twist
 
+\linebreak
 
 
 $$
@@ -190,4 +213,30 @@ $$
   &&
   R(b)
 \end{tikzcd}
+
+\linebreak
+
+
+
+
+
+* [[flat connections]] [[Maurer-Cartan forms]]
+
+  $d\, A^i \,=\,  f^i{}_{j k} A^j \wedge A^k$
+
+* flat string 2-connections
+
+  $ d, B_3 \;=\; k_{i j} F^i \wedge F^j $
+
+* cohomotopy classifies
+
+  - cobordism classes of normally framed submanifolds
+
+  - deg 2: moduli of YM monopones
+  
+* maps into twistor space...
+
+* twisted cohomology is really non-abelian cohomology equipped with a non-abelian cohomology operation called the twist
+
+
 
