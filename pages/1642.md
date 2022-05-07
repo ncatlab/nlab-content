@@ -97,9 +97,14 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 ## References
 
-Semicategories and semigroups are mentioned for instance in section 2 in
+Semicategories and semigroups are mentioned for instance 
 
-* W. Dale Garraway, _Sheaves for an involutive quantaloid_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 4 (2005), p. 243-274  ([numdam](http://www.numdam.org/item?id=CTGDC_2005__46_4_243_0))
+* W. Dale Garraway, Section 2 in _Sheaves for an involutive quantaloid_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 4 (2005), p. 243-274  ([numdam](http://www.numdam.org/item?id=CTGDC_2005__46_4_243_0))
+
+Discussion in the context of [[Lie theory]]:
+
+* [[Joachim Hilgert]], [[Karl-Hermann Neeb]], *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer 1993 ([doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640))
+
 
 
 [[!redirects semigroup]]
@@ -113,4 +118,7 @@ Semicategories and semigroups are mentioned for instance in section 2 in
 [[!redirects semi-monoids]]
 [[!redirects semimonoid]]
 [[!redirects semimonoids]]
+
+[[!redirects Lie semigroup]]
+[[!redirects Lie semigroups]]
 
