@@ -164,11 +164,9 @@ The conjecture has been proven for the following [[dimensions]]
 
 The archetypical example is
 
-* [[quaternionic projective space]] $\mathbb{H}P^2$
+* [[quaternionic projective plane]] $\,\mathbb{H}P^2$
 
-This is the first of the list of examples 
-of spaces that are both [[quaternion-Kähler manifolds]] 
-as well as a [[symmetric spaces]], called _[[Wolf spaces]]_.
+This is the first of the list of examples  of spaces that are both [[quaternion-Kähler manifolds]]  as well as [[symmetric spaces]], called _[[Wolf spaces]]_.
 
 See around Prop. \ref{WoldSpacesArePositiveQuaternionKaehler} above.
 
