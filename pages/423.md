@@ -1541,7 +1541,7 @@ A canonical compendium is
 
 Textbook accounts:
 
-* {#Kelley55} [[John Kelley]], _General Topology_, Graduate Texts in Mathematics, Springer 1955
+* {#Kelley55} [[John Kelley]], _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
@@ -1559,7 +1559,7 @@ See also
 
 and see also the references at _[[algebraic topology]]_.
 
-Lecture notes include
+Lecture notes: 
 
 * [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
