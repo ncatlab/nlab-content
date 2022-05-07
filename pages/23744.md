@@ -23,15 +23,15 @@
 
 ## Idea
 
-A setoid which satisfies a [[structure identity principle]]. 
+A [[setoid]] which satisfies a [[structure identity principle]]. 
 
 ## Definition 
 
-In type theory, a [[setoid]] $(T, \equiv)$ is **univalent** or **saturated** if for all $a:T$ and $b:T$, $p(a, b):(a \equiv b) \to (a = b)$. 
+In [[type theory]], a [[setoid]] $(T, \equiv)$ is **[[univalence|univalent]]** or **saturated** if for all $a:T$ and $b:T$, $p(a, b):(a \equiv b) \to (a = b)$. 
 
 ## Properties 
 
-* Every univalent setoid is a [[set]]. 
+* Every univalent setoid is a [[set]] (i.e. an [[h-set]]). 
 
 ## See also 
 
