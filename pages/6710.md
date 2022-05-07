@@ -273,6 +273,8 @@ This is discussed at _[Spin^c -- Properties -- As the homotopy fiber of smooth w
 
 For $X$ an [[orientation|oriented]] [[manifold]], the map $X \to \ast$ is [[orientation in generalized cohomology|generalized oriented]] in [[periodic complex K-theory]] precisely if $X$ has a $Spin^c$-structure.
 
+See at _[[K-orientation]]_ for more.
+
 ### Relation to metaplectic structures
  {#RelationToMetaplecticStructures}
 
