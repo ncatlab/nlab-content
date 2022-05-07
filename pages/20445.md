@@ -39,4 +39,9 @@ The $V_{c b}$-puzzle is different from, but related to, the [[flavour anomalies]
 
 * {#Ricciardi21} Giulia Ricciardi, _Semileptonic B decays and $\vert V_{x b}\vert$ update_ ([arXiv:2103.06099](https://arxiv.org/abs/2103.06099))
 
+With emphasis on [[lattice QCD]]-computations:
+
+* Matthew Wingate, _Quark flavor physics and lattice QCD_ ([arXiv:2103.17224](https://arxiv.org/abs/2103.17224))
+
+
 
