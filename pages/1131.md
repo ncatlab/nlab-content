@@ -334,6 +334,8 @@ For more see at
 
 * [[model structure for L-infinity algebras]], the section _[on dg-Lie algebras](model+structure+for+L-infinity+algebras#OndgLieAlgebras)_.
 
+* [[relation between L-∞ algebras and dg-Lie algebras]]
+
 ### Relation to dg-coAlgebras
 
 Via the above relation to $L_\infty$-algebras, dg-Lie algebras are also connected by adjunction to [[dg-coalgebras]]
