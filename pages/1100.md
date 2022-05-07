@@ -358,11 +358,17 @@ The generalization of these [[model toposes]] from 1-sites to [[simplicial site|
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_, Advances in Mathematics 193.2 (2005): 257-372. ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
 
+The term *$\infty$-topos* is due to 
+
+* {#Lurie03} [[Jacob Lurie]], *On $\infty$-Topoi* ([arXiv:math/0306109](https://arxiv.org/abs/math/0306109))
+
 The term *[[model topos]]* was later coined in:
 
 * {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
 
+
 A comprehensive conceptualization and discussion of [[(∞,1)-toposes]] is then due to 
+
 
 * [[Jacob Lurie]], section 6.1 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
