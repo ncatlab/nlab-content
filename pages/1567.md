@@ -137,6 +137,8 @@ From Proposition \ref{sd2}, it is not very hard to deduce Birkhoff's theorem. Th
 
 Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lattice. 
 
+Every [[frame]] and every [[sigma-frame|$\sigma$-frame]] is a distributive lattice. 
+
 Any [[linear order]] is a distributive lattice. 
 
 An [[integral domain]] is a [[Prüfer domain]] iff its lattice of [[ideals]] is distributive. The classical example is $\mathbb{Z}$; equivalently, the (opposite of the) multiplicative monoid $\mathbb{N}$ ordered by divisibility, with $1$ at the bottom and $0$ at the top. 
