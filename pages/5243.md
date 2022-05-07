@@ -23,10 +23,66 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The _Oka-Grauert principle_ states that for any [[Stein manifold]] $X$ the holomorphic and the topological classification of [[complex vector bundles]] on $X$ coincide. The original reference is ([Grauert 58](#Grauert58)).
+In [[complex geometry]], the _Oka-Grauert principle_ states that over [[complex manifolds]] $S$ which are *[[Stein manifolds]]*, the [[non-abelian cohomology]]-classification of [[holomorphic vector bundles]] coincides with that of [[topological vector bundles]], 
 
-The principle should maybe better be called the _Oka-Grauert-Gromov principle/theory_. Gromov viewed it in his book on partial differential relations as one of the examples of [[h-principle]]. 
+$$
+  S \;\text{is Stein}
+  \;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;
+  H^1
+  \Big(
+    S;
+    \,
+    \underline{GL(n, \mathbb{C})}_{hol}
+  \Big)
+  \,\simeq\,
+  H^1
+  \Big(
+    S;
+    \,
+    \underline{GL(n, \mathbb{C})}_{top}
+  \Big)
+  \,.
+$$
+
+This was originally proven for holomorphic [[line bundles]] in [Oka 1913](#Oka13) (in which case it says that [[holomorphic line bundles]] over [[Stein manifolds]] are fully classified by their [[first Chern class]]) and generalized in [Grauert 1958](#Grauert58) to holomorphic [[vector bundles]] and further to holomorphic [[principal bundles]] with [[structure group]] any [[complex Lie group]].
+
+As a principle, this *Oka-Grauert principle* is sometimes stated as ([Forstnerič 12](#Forstneric12)):
+
+> Analytic problems on Stein spaces which can be cohomologically formulated have only topological [[obstructions]].
+
+More generally, for suitable [[complex manifolds]] $A$ now called *[[Oka manifolds]]* ([Forstnerič 2009a](#Forstneric09a)) -- including (see [here](Oka+manifold#ComplexProjectiveSpaceIsOkaManifold)) the complex [[Grassmannians]] that serve as [[classifying spaces]] for [[complex vector bundles]] --, the inclusion into the [[compact-open topology|space of continuous maps]] $S \to A$, out of a [[Stein manifold]] $S$, of the [[topological subspace|subspace]] of [[holomorphic functions]] is a [[weak homotopy equivalence]]:
+
+$$
+  Maps_{hol}(S, \, A) 
+    \xhookrightarrow{ \simeq_{whe} } 
+  Maps(S, \, A)
+  \;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;
+  \underset{n \in \mathbb{N}}{\forall}
+  \;\;
+  \pi_n
+  \big(
+    Maps_{hol}(S, \, A) 
+  \big)
+    \xrightarrow{\sim}
+  \pi_n 
+  \big( 
+    Maps(S, \, A)
+  \big)  
+  \,.
+$$
+
+More generally, an analogous statement applies to suitable [[fiber bundles]] of [[Oka manifolds]] over [[Stein manifolds]] and their [[spaces of sections]] ([Forstnerič 2009b](#Forstneric09b)).
+
+This [[homotopy theory|homotopy theoretic]] *weak homotopy equivalence Oka principle* goes back to results of [Gromov 89](#Gromov89), where (?) it is viewed an an example of the [[h-principle]]. 
+
+The [[duality]] between [[Stein manifolds]] and [[Oka manifolds]] in this [[homotopy theory|homotopy]]-theoretic Oka principle is fully brought out by the existence of a [[model category]] for [[complex analytic ∞-groupoids]] in which a [[complex manifold]] is [[cofibrant object|cofibrant]]/[[fibrant object]] if it is [[Stein manifold|Stein]]/[[Oka manifold|Oka]], respectively ([Lárusson 2001](#Larusson01), [03](#Larusson03)).
+
 
 ## Homotopical Oka principle
  {#HomotopicalOkaPrinciple}
@@ -106,7 +162,7 @@ The category of [[complex manifolds]] and [[holomorphic maps]] can be embedded i
 
 =--
 
-([Larusson 03](#Larusson03) -- this apparently follows an observation due to [[J. F. Jardine]] and uses his [[intermediate model structure on simplicial presheaves]])
+([Larusson 03](#Larusson03) -- apparently this follows an observation due to [[J. F. Jardine]] and uses his [[intermediate model structure on simplicial presheaves]])
 
 
 ## Related concepts
@@ -129,21 +185,28 @@ Introduction and review:
 
 * [[Franc Forstnerič]], *Developments in Oka theory since 2017* ([arXiv:2006.07888](https://arxiv.org/abs/2006.07888))
 
+* {#Forstneric12} [[Franc Forstnerič]], *Gromov's contribution to the Oka principle*, 2012 ([pdf](https://www.fmf.uni-lj.si/~forstneric/papers/2012Gromov%27scontribution.pdf), [[Forstneric_GromovContributionToOka.pdf:file]])
+
+
 Original articles:
 
-* [[Kiyoshi Oka]], _Sur les fonctions des plusieurs variables. III: Deuxi&#232;me probl&#232;me de Cousin_, J. Sc. Hiroshima Univ. __9__, 7&#8211;19 (1939) ([doi:10.32917/hmj/1558490525](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-9/issue-none/Sur-les-fonctions-analytiques-de-plusieurs-variables-IIIDeuxi%c3%a8me-probl%c3%a8me-de/10.32917/hmj/1558490525.full))
+* {#Oka13} [[Kiyoshi Oka]], _Sur les fonctions des plusieurs variables. III: Deuxi&#232;me probl&#232;me de Cousin_, J. Sc. Hiroshima Univ. __9__, 7&#8211;19 (1939) ([doi:10.32917/hmj/1558490525](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-9/issue-none/Sur-les-fonctions-analytiques-de-plusieurs-variables-IIIDeuxi%c3%a8me-probl%c3%a8me-de/10.32917/hmj/1558490525.full))
 
 * {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) ([doi:10.1007/BF01351803](http://dx.doi.org/10.1007/BF01351803))
  
-* [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
+* {#Gromov89} [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
 
-* [[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874 ([arxiv/0705.0591](http://arxiv.org/abs/0705.0591), [doi:10.4310/PAMQ.2010.v6.n3.a11](https://dx.doi.org/10.4310/PAMQ.2010.v6.n3.a11))
+*[[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874 ([arxiv/0705.0591](http://arxiv.org/abs/0705.0591), [doi:10.4310/PAMQ.2010.v6.n3.a11](https://dx.doi.org/10.4310/PAMQ.2010.v6.n3.a11))
 
 Proof of the [[homotopy theory|homotopy-theoretic]] Oka principle:
 
 * {#Forstneric09a} [[Franc Forstnerič]], _Oka manifolds_, Comptes Rendus Mathematique, Acad. Sci. Paris 347 (2009), 1017&#8211;20 ([arXiv:0906.2421](https://arxiv.org/abs/0906.2421), [doi:10.1016/j.crma.2009.07.005](https://doi.org/10.1016/j.crma.2009.07.005))
 
 * {#Forstneric09b} [[Franc Forstnerič]], _Oka maps_, Comptes Rendus Mathematique, Acad. Sci. Paris, Ser. I 348 (2010) 145-148 ([arxiv/0911.3439](http://arxiv.org/abs/0911.3439), [doi:10.1016/j.crma.2009.12.004](https://doi.org/10.1016/j.crma.2009.12.004))
+
+See also:
+
+* [[Finnur Lárusson]], *Applications of a Parametric Oka Principle for Liftings*, In: *Complex Analysis*. Trends in Mathematics. Birkhäuser (2010) ([doi:10.1007/978-3-0346-0009-5_12](https://doi.org/10.1007/978-3-0346-0009-5_12)) 
 
 Discussion in terms of [[higher complex analytic geometry]] and [[complex analytic ∞-groupoids]]:
 
