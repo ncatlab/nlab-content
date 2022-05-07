@@ -24,13 +24,13 @@ The formal system of [[type theory]] has semantics in many [[categories]], and i
 
 ## Dictionary
 
-Martin Escardo has given the following translations between the two fields;
+[[Martín Escardó]] has given the following translations between the two fields;
 
 | general topology | type theory |
 |--|--|
 | [[topological space|space]] | [[type]] |
 | [[continuous function]] | [[function]] |
-| [[clopen set]] | -[[decidable object|decidable]] set |
+| [[clopen set]] | [[decidable object|decidable]] set |
 | [[open set]] | semi-decidable set |
 | [[closed set]] | set with semi-decidable [[complement]] |
 | [[discrete space]] | type with [[decidable equality]] |
