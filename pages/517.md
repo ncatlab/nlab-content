@@ -34,6 +34,12 @@ On [[H-infinity ring spectra]]:
 
 * {#BrunerMayMcLureSteinberger86} R. Bruner, [[Peter May]], [[James McClure]], M. Steinberger, _$H_\infty$-Ring Spectra and their Applications_, Lecture Notes in Mathematics 1176, Springer 1986 ([doi:10.1007/BFb0075405](https://link.springer.com/book/10.1007/BFb0075405), [pdf](http://www.math.uchicago.edu/~may/BOOKS/h_infty.pdf))
 
+On [[equivariant bundles]]:
+
+* [[Richard Lashof]], [[Peter May]], _Generalized equivariant bundles_, Bull. Soc. Math. Belg. Sér. A 38, 265-271, 1986 ([pdf](http://math.uchicago.edu/~may/PAPERS/55.pdf), [[LashofMayGeneralizedEquivariantBundles.pdf:file]])
+
+
+
 On [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc.:
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]],
