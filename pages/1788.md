@@ -1,4 +1,29 @@
 
+\begin{prop}
+  If $G$ is a [[finite group]] then its Pontrjagin dual is equivalently its [[cohomology group]] in degree-2 [[group cohomology]] with [[integer coefficients]]:
+  $$
+    \widehat{G}
+    \;\simeq\;
+    H^2_{grp}
+    \big(
+      G
+      ;\,
+      \mathbb{Z}
+    \big)
+    \;=\;
+    H^2
+    \big(
+      B G
+      ;\,
+      \mathbb{Z}
+    \big)
+    \,.
+  $$
+
+  Since $H^{\bullet\geq 1}(G;\, \mathbb{R}) \,=\, 0$ for finite groups, the [[long exact sequence]] of [[n-groups]] $\mathbb{Z} \xhookrightarrow{\;} \mathbb{R} \twoheadarrow S^1 \xrightarrow{\;\;} B \mathbb{Z}$
+\end{prop}
+
+
 $$
     \left(
       \big(
