@@ -1,20 +1,82 @@
 
-# Opposite magmas (monoids / groups / rings / algebras)
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+# Opposite magmas
 * table of contents
 {: toc}
 
+
 ## Idea
 
-Every [[magma]] $A$ has an opposite $A^op$ in which the operation goes the other direction.  This is especially applied when $A$ is a [[monoid]], [[group]], [[ring]], or algebra ([[nonassociative algebra|nonassociative]] or [[associative algebra|associative]]).
+The _opposite_ of a magma -- hence of a set with a binary operation $(x,y) \mapsto x y$ --  has the same underlying set of elements, but binary operation changed by _reversing the order_ of the factors: $(x,y) \mapsto y x$.
+
+This is often considered for the case that $A$ a [[monoid]], [[group]], [[ring]], or algebra ([[nonassociative algebra|nonassociative]] or [[associative algebra|associative]]), in which case one speaks of the _opposite group_, _opposite ring_, etc.
 
 
 ## Definitions
 
 ### In $Set$
 
-Let $A$ be a [[magma]], that is a [[set]] ${|A|}$ equipped with a [[binary operation]] ${|A|} \times {|A|} \to {|A|}$ written as multiplication or juxtaposition.  Then the same set ${|A|}$ may be equipped with another binary operation which we will write as $*$.  Specifically,
-\[ \label{elementDefinition} x * y \coloneqq y x .\]
-This defines a new magma, the __opposite__ of $A$, denoted $A^op$ (also sometimes $A^*$ or $A^\perp$).
+Let $A$ be a [[magma]], that is a [[set]] ${|A|}$ equipped with a [[binary operation]] 
+
+$$
+  \array{
+    {\left\vert A \right\vert} \times 
+    {\left\vert A \right\vert} 
+    &\longrightarrow& 
+    {\left\vert A \right\vert}
+    \\
+    (x,y)
+    &\mapsto&
+    x \cdot y 
+    \mathrlap{
+      \coloneqq 
+    {\color{blue}x} {\color{red}y}  
+    }
+  }
+$$ 
+
+written as multiplication or juxtaposition.  
+
+Then the _opposite magna_ $A^{op}$ (also denoted $A^*$ or $A^\perp$) has the same underlying set
+
+$$
+  \left\vert A^{op} \right\vert
+  \;\coloneqq\;
+  \left\vert A \right\vert
+$$
+
+but [[binary operation]] that of $A$ but with the [[ordering]] in the [[pair]] of arguments reversed:
+
+
+\[
+  \label{elementDefinition}
+  \array{
+    {\left\vert A^{op} \right\vert} 
+      \times 
+    {\left\vert A^{op} \right\vert} 
+    &\longrightarrow& 
+    {\left\vert A^{op} \right\vert}
+    \\
+    (x,y)
+    &\mapsto&
+    x * y 
+    \mathrlap{
+      \coloneqq  
+    {\color{red}y}{\color{blue}x}
+    }
+    \,.
+  }
+\]
 
 If $A$ is a [[monoid]] or a [[group]] (or [[semigroup]], [[quasigroup]], [[quasigroup|loop]], etc), the same definition applies, and we see that $A^op$ is again a monoid or a group (etc).
 
