@@ -193,18 +193,24 @@ _[[Toby Bartels|Second person]]_:  No, you\'re thinking of Lawvere.  When I find
 
 For ease of reference, we will number the examples.
 
-1.  The first example is obvious.
+\begin{example}\label{FirstExample}
+The first example is obvious.
+\end{example}
 
-2.  The second example is a slight variation of (1).
+\begin{example}\label{SecondExample}
+The second example is a slight variation of Exp. \ref{FirstExample}.
+\end{example}
 
-3.  The third example is completely different from either (1) or (2).
-
+\begin{example}\label{ThirdExample}
+The third example is completely different from both Exp. \ref{SecondExample}.
+\end{example}
 
 ## References  
+ {#References}
 
 The original definition appeared in section 3 of
 
-* FirstName LastName, _Title_, Journal (year)  ([arXiv:xxxxxx](http://put.url/here), [pdf](http://another.url/)).
+* FirstName LastName, _Title_, Journal, **vol** num (year) pages-pages  ([arXiv:xxxxxx](http://put.url/here), [doi:yyyyyyy](http://another.url), [pdf](http://yet.another.url/)).
 
 
 [[!redirects uvw]]
