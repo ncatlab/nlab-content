@@ -58,7 +58,7 @@ Equivalently this means the following:
 The function $f : X \to Y$ is an immersion precisely if for every point $x \in X$ the [[differential]] 
 
 $$
-  d f|_x : T_x X \to T_{f(y)} Y
+  d f|_x : T_x X \to T_{f(x)} Y
 $$ 
 
 between the [[tangent space]] of $X$ at $x$ and the tangent space of $Y$ at $f(y)$ is an [[injection]].
