@@ -323,3 +323,9 @@ Further development includes
 
 [[!redirects Quillen's theorem A]]
 [[!redirects Quillen's theorem B]]
+[[!redirects Quillen's Theorem A]]
+[[!redirects Quillen's Theorem B]]
+[[!redirects Quillen theorem A]]
+[[!redirects Quillen theorem B]]
+[[!redirects Quillen Theorem A]]
+[[!redirects Quillen Theorem B]]
