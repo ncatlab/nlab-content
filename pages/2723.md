@@ -59,6 +59,11 @@ Relation to the [[RNS string]]:
 
 * [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* ([arXiv:2106.04448](https://arxiv.org/abs/2106.04448))
 
+Relation to the [[Green-Schwarz superstring]]:
+
+* [[Max Guillen]], *Green-Schwarz and Pure Spinor Formulations of Chiral Strings* ([arXiv:2108.11724](https://arxiv.org/abs/2108.11724))
+
+
 ### Sheaf ov VOAs
 
 A good reference that explains the sheaf of vertex operator algebra perspective on the Berkovits superstring is
