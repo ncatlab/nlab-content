@@ -24,6 +24,10 @@ The local decay process of a [[false vacuum]] in the presence of [[gravity]] ([[
 
 ## Related concepts
 
+* [[bubble of nothing]]
+
+* [[false vacuum eternal inflation]]
+
 
 [[!include states and observables -- content]]
 
