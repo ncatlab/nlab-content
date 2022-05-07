@@ -108,6 +108,7 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 
 =--
 
+
 ### In the homotopy 2-category
   {#InTheHomotopy2Category}
 
@@ -123,6 +124,8 @@ A pair of [[adjoint (∞,1)-functors]] is an [[adjunction]] in the [[homotopy 2-
 This is [Riehl-Verity 15, Def. 4.0.1](#RiehlVerity15)
 
 For the equivalence to the other definitions see [Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15).
+
+For more see also at *[[formal (infinity,1)-category theory|formal $\infty$-category theory]]*.
 
 
 ## Properties
