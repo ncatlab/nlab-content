@@ -198,23 +198,38 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 
 ## Related concepts
 
+* [[exponential object]], [[mapping space]], [[internal hom]]
+
+* [[convenient category of topological spaces]]
+
+\linebreak
+
 * **cartesian closed category**, [[locally cartesian closed category]]
 
 * [[cartesian closed functor]], [[locally cartesian closed functor]]
 
 * [[cartesian closed model category]], [[locally cartesian closed model category]]
 
+* [[cartesian closed 2-category]]
+
 * [[cartesian closed (∞,1)-category]], [[locally cartesian closed (∞,1)-category]]
 
 * [[cartesian closed enriched category]], [[locally cartesian closed enriched category]]
 
-* [[cartesian closed 2-category]]
 
-## Literature
+## References
 
-Some of the major examples are treated in
+Textbook account:
 
-* S. Niefield, _Cartesianness: topological spaces, uniform spaces and affine schemes_, J. Pure Appl. Algebra __23__ (1982) 147-167 <a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi</a>
+* [[Francis Borceux]], Def. 6.1.5 in: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
+Discussion with focus on [[mapping spaces]] ([[compact-open topology]]) in [[topological spaces]] and [[compactly generated topological spaces]]:
+
+* [[Susan Niefield]], *Cartesianness*, PhD thesis, Rutgers 1978 ([proquest:302920643](https://www.proquest.com/docview/302920643))
+
+* [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces and affine schemes_, J. Pure Appl. Algebra __23__ (1982) 147-167 (<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>)
+
+See also the references at *[[exponential object]]*.
 
 
 [[!redirects cartesian closed]]
