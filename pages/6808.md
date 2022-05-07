@@ -75,4 +75,12 @@ Specifically on the [[swampland conjectures]]/[[landscape of string theory vacua
 
   > The conclusion  that  effective  field  theorists  should  draw  from  this is that unlike super-symmetric string models in flat or AdS space-time, many of which have at least perturbative definitions as mathematical models obeying the axioms of quantum mechanics, all literature on the String Landscape is speculation based on the unfounded notion that all string models with a given amount of SUSY are part of one single model and that it makes sense to define an effective action that encompasses all string models. Every single non-perturbative construction of string models contradicts this claim $[\cdots]$
 
+Musings on [[holography]] and  and [[quantum information]] (such as through [[holographic entanglement entropy]]):
+
+* [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
+
+
+
+
+
 category: people
