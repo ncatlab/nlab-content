@@ -299,6 +299,11 @@ In summary this means (by [this Prop.](homotopy+pullback#HomotopyPullbackByOrdin
 
 A [[point-set topology|point-set argument]] for [[topological spaces]]/[[topological groups]] is spelled out in [Gruher 2007, App. A](#Gruher07). Discussion of the [[presentable (infinity,1)-category|presentation]] of the phenomenon in the [[classical model structure on topological spaces]] in the abstract style [above](#ForSimplicialSets) is indicated in [Klein, Schochet & Smith 2009](#KleinSchochetSmith09).
 
+### In homotopy type theory
+  {#InHomotopyTypeTheory}
+
+(...)
+
 ## Examples
 
 ### For discrete (finite) groups
