@@ -48,7 +48,7 @@ A discrete object in the [[2-category]] [[Cat]] is, of course, a [[discrete cate
 
 ### Discrete groupoids
 
-A discrete object in the [[(2,1)-category]] [[Grpd]] of [[groupoids]] is also called a [[0-truncated]] object or [[0-groupoid]] or [[homotopy n-type|homotopy 0-type]] or just [[h-level|0-type]].
+A discrete object in the [[(2,1)-category]] [[Grpd]] of [[groupoids]] is also called a [[0-truncated]] object or [[0-groupoid]] or [[homotopy n-type|homotopy 0-type]] or just [[h-level|0-type]] or [[h-set]].
 
 See also the discussion at [[discrete space]] and [[discrete groupoid]].
 
