@@ -155,6 +155,8 @@ induces an isomorphism on all [[homotopy groups]], hence is a [[weak homotopy eq
 **(relation to [[twistor string theory]])** \linebreak
   In the context of [[twistor string theory]], 
 the spaces of rational maps (eq:RationalMappingSpaceInsideContinuousMappingSpace) for $n = 3$ are interpreted as [[moduli spaces]] of [[D1-brane]]-[[instantons]] in [[twistor space]].
+
+Here the number of poles in the rational function  is the number $n$ of particles in the [[n-point function]], and the genus and degree encode the particle's [[helicity]] and the [[loop order]] of the [[scattering amplitude]].
 \end{remark}
 
 ## References
