@@ -16,7 +16,7 @@ Let $V$ be a [[vector space]] over a [[local field]] $K$ (usually $\mathbb{R}$ o
 
 ## Foundational issues
 
-The full Hahn--Banach theorem may be seen as a weak form of the [[axiom of choice]]; this is the perspective taken in, for example, _[[HAF]]_.  It fails in [[dream mathematics]] and is generally not accepted in [[constructive mathematics]].  (Does it actually imply [[excluded middle]]?) 
+The full Hahn--Banach theorem may be seen as a weak form of the [[axiom of choice]]; this is the perspective taken in, for example, _[[HAF]]_.  It fails in [[dream mathematics]] and is generally not accepted in [[constructive mathematics]].  (Does it actually imply [[excluded middle]]? No, but the [[ultrafilter principle]] frequently used to prove the Hahn-Banach theorem implies [[De Morgan's law]] which is usually not accepted in constructive mathematics.) 
 
 The Hahn-Banach theorem can be proven in [[set theory]] with the axiom of choice, or more weakly in set theory assuming the [[ultrafilter theorem]], itself a weak form of choice. (To be continued...)
 
