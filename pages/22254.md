@@ -135,6 +135,8 @@ $$
 
 * [category of G-sets -- For internal group actions](category+of+G-sets#InternalGroupActions)
 
+* [[equivariance group]]
+
 \linebreak
 
 [[!redirects equivariant groups]]
