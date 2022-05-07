@@ -1,5 +1,5 @@
 
-* [website](http://www.maths.adelaide.edu.au/people/danny.stevenson)
+* [website](https://researchers.adelaide.edu.au/profile/daniel.stevenson)
 
 ## Selected writings
 
