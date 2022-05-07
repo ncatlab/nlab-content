@@ -516,6 +516,10 @@ Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}, this i
 
 * [[semidirect product group]]
 
+* [[Fox derivative]]
+
+
+
 ## References
 
 ### To abelian groups
@@ -534,6 +538,11 @@ in the context of [[group cohomology]]:
 ### To general groups
 
 The general [[non-abelian group|non-abelian]] notion: 
+
+In homotopy theory, crossed homomorphisms  with possibly non-abelian codomain already occur in 
+
+* [[J. H. C. Whitehead]], _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496, (section 3).
+
 
 In discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]:
 
