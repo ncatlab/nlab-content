@@ -2478,11 +2478,10 @@ slice through the origin in $\mathbb{R}^{p,1}$, hence in the [[closed future con
 
 =--
 
-
-+-- {: .num_cor #CausalPropagatorIsSkewSymmetric}
-###### Corollary
+\begin{proposition}
+\label{CausalPropagatorIsSkewSymmetric}
 **([[causal propagator]] is skew-symmetric)**
-
+\linebreak
 Under reversal of arguments the [[advanced and retarded causal propagators]] from prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime} are related by
 
 $$
@@ -2497,8 +2496,7 @@ $$
 \Delta_S(x-y) = - \Delta_S(y-x)
 \,.
 $$
-
-=--
+\end{proposition}
 
 +-- {: .proof}
 ###### Proof
@@ -3658,10 +3656,10 @@ Here
 
 It follows that:
 
-+-- {: .num_cor #GreenFunctionFeynmanPropagator}
-###### Corollay
+\begin{proposition}
+\label{GreenFunctionFeynmanPropagator}
 **([[Feynman propagator]] is [[Green function]])**
-
+\linebreak
 The [[Feynman propagator]] $\Delta_F$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) is proportional to a [[Green function]] for the [[Klein-Gordon equation]] in that
 
 $$
@@ -3670,10 +3668,7 @@ $$
   (+i) \delta(x-y)
   \,.
 $$
-
-
-=--
-
+\end{proposition}
 
 +-- {: .proof}
 ###### Proof
