@@ -31,8 +31,9 @@ and [[structure]] like
 The idea behind CHAD will be to view forward and reverse AD as the unique structure (stuff) preserving functor (homomorphism of $S$-categories) from the initial $S$-category $Syn$ to two suitably chosen $S$-categories $\Sigma_{CSyn}LSyn$ and $\Sigma_{CSyn}LSyn^{op}$.
 
 ### The source language
-Consider the initial $S$-category $Syn$ (put differently, the S-properties category that is freely generated from $S$-stuff).
+Consider the initial $S$-category $Syn$ (put differently, the S-properties category that is freely generated from $S$-structure).
 We can think of this category as a programming language: its objects are types and its morphisms are programs modulo [[beta-equivalence]] and [[eta-equivalence]].
+In fact, for a wide class of programming languages, we can find a suitable choice of stuff $S$, such that the programming language arises as the initial $S$-category.
 We will refer to this category as the _source language_ of our AD transformation: its morphisms are the programs we want to differentiate.
 
 For example, if we choose the property part of $S$ to consist of Cartesian closure and the structure part of $S$ consists of designated objects $R$ and $Z$ and morphisms $sin$, $cos$, $(+)$, and $(*)$, then $Syn$ is the simply typed [[lambda-calculus]] with base types $R$ and $Z$ and the primitive operations $sin$, $cos$, $(+)$, and $(*)$.
