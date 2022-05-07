@@ -1069,6 +1069,8 @@ explanations via assumption of [[Z'-bosons]]:
 
   > (in view of [[Higgs field]] [metastability](Higgs+field#MassAndVacuumInstability))
 
+* Disha Bhatia, Nishita Desai, Amol Dighe, Frugal $U(1)_X$ models with non-minimal flavor violation for $b \to s \ell \ell$ anomalies and neutrino mixing* ([arXiv:2109.07093](https://arxiv.org/abs/2109.07093))
+
 
 #### Dark matter
  {#ReferencesDarkMatter}
