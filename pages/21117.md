@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -40,15 +44,21 @@ From [Zhu & Cross 20](#ZhuCross20):
 
 Specifically on [[holographic tensor network|holographic quantum error correcting codes]] (see references [below](#ReferencesViaHolographicTensorNetworks)):
 
+From [Harlow 20](#Harlow20):
+
+> The codes provided by AdS/CFT often come close to saturating theoretical bounds on the performance of quantum codes. It seems AdS/CFT may be a tool for discovering better quantum cryptography?
+
+[WVSB 20](#WVSB20):
+
+> $[$ [[holographic tensor network|holographic codes]] $]$ could be promising candidates to circumvent our results and could possibly realise a universal set of unitary implementations of logical operators.
+
+
 From [CDCW 21](#CDCW21):
 
 > There are a number of reasons to suspect that [[holographic tensor network|holographic codes]] may be of practical use for quantum computing.
 
 > Holographic codes can admit erasure thresholds comparable to that of the widely-studied surface code, and likewise for their threshold against Pauli errors.  Their holographic structure also naturally leads to an organization of encoded qubits into a hierarchy of levels of protection from errors, which could be useful for applications which call for many qubits withvarying levels of protection. In particular, this is reminiscent of many schemes for magic state distillation -- and indeed, the concatenated codes utilized for magic state distillation share a similar hierarchical structure to holographic codes. The layered structure of holographic codes is also reminiscent of memory architectures in classical computers, where it is useful to have different levels of short- and long-term memory.  Although these codes have some notable drawbacks, in particular holographic stabilizer codes require nonlocal stabilizer generators, other codes such as concatenated codes suffer similar drawbacks and have still proven to be useful. Conversely, the stringent requirement of non-local stabilizer generators allows holographic codes to protect many more qubits than a topological code and in fact attain a finite nonzero encoding rate, which is typically not possible for topological codes. Nonetheless, many open questions remain about the usefulness of holographic codes for fault-tolerant quantum computing.
 
-[WVSB 20](#WVSB20):
-
-> $[$ [[holographic tensor network|holographic codes]] $]$ could be promising candidates to circumvent our results and could possibly realise a universal set of unitary implementations of logical operators.
 
 ### Quantum error correcting codes
 
@@ -443,6 +453,9 @@ Exposition and review:
 
 * [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], *The AdS/CFT Correspondence and Holographic Codes* ([doi:10.1142/9781786348210_0013](https://doi.org/10.1142/9781786348210_0013), [doi:10.1142/9781786348210_0014](https://www.worldscientific.com/doi/abs/10.1142/9781786348210_0014)), Part 5 in: Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
+* {#Harlow20} [[Daniel Harlow]], *Computation and Holography*, talk at [Snowmass Computational Frontier Workshop 2020](https://indico.fnal.gov/event/43829/) ([pdf](https://indico.fnal.gov/event/43829/contributions/193566/attachments/132763/163346/snowmasscomp.pdf), [[HarlowComputationHolography.pdf:file]])
+
+
 * [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
 
 Further discussion of holographic quantum error correcting codes:
@@ -482,7 +495,6 @@ In relation to [[holographic Renyi entropy]]:
 * [[Chris Akers]], [[Pratik Rath]], *Holographic Renyi entropy from quantum error correction*,  J. High Energ. Phys. 2019, 52 (2019) ([arXiv:1811.05171](https://arxiv.org/abs/1811.05171))
 
 From [[tesselations]] of higher-dimensional [[hyperbolic space]]:
-
 
 * Vivien Londe, Anthony Leverrier, *Golden codes: quantum LDPC codes built from regular tessellations of hyperbolic 4-manifolds* ([arXiv:1712.08578](https://arxiv.org/abs/1712.08578))
 
