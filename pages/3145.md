@@ -51,7 +51,7 @@ On [[elliptic genera]], the [[Witten genus]] and the [[string orientation of tmf
 
 The construction of [[tmf]] was originally announced, as joint work with [[Mark Mahowald]] and [[Haynes Miller]], in 
 
-* {#Hopkins94} [[Michael Hopkins]], section 9 of _Topological modular forms, the Witten Genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematics, Z&#252;rich 1994 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf))
+* {#Hopkins94} [[Michael Hopkins]], section 9 of _Topological modular forms, the Witten Genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematics, Z&#252;rich 1994 ([[Hopkins_TopModFormsAtICM.pdf:file]], [doi:10.1007/978-3-0348-9078-6_49](https://doi.org/10.1007/978-3-0348-9078-6_49))
 
 (There the spectrum was still called "$eo_2$" instead of "$tmf$".) The details of the definition then appeared in
 
