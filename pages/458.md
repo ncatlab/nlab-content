@@ -388,40 +388,42 @@ This is a small part of a pattern in [[higher topos theory]], described at [[n-l
 
 
 ## Examples
+ {#Examples}
 
 ### General topology
 
-As explained above, the functor from [[topological spaces]] to locales
+As explained above, the [[functor]] from [[topological spaces]] to locales
 provides a very large collection of examples.
-When restricted to [[sober topological spaces]], this functor becomes fully faihtful
+When restricted to [[sober topological spaces]], this functor becomes [[fully faithful functor|fully faithful]]
 and its [[essential images]] consists of [[spatial locales]].
 
-Without the axiom of [[excluded middle]],
+Without the [[axiom]] of [[excluded middle]],
 many classical examples, such as [[the locale of real numbers]]
 or [[Cantor space]],
-can cease to be spatial.
+can cease to be [[spatial locale|spatial]].
 
 Naturally, one is interested in examples of locales that are not spatial,
 and a few are given below.
 
 ### Measure theory
+ {#ExamplesMeasureTheory}
 
 An amazing feature of [[pointfree topology]] is that
 it contains not only point-set [[general topology]],
 but also point-set [[measure theory]], again as a [[full subcategory]].
 
 Specifically, recall from the [[duality between geometry and algebra]]
-that various categories of commutative algebras are contravariantly
-equivalent to certain corresponding categories of spaces.
+that various categories of [[commutative algebras]] are [[opposite category|contravariantly]]
+[[equivalence of categories|equivalent]] to certain corresponding categories of spaces.
 The category of algebras relevant for [[measure theory]]
 is the category of [[commutative von Neumann algebras]]
 and ultraweak \*-homomorphisms;
 it is widely accepted that dropping the commutativity
-condition and passing to the opposite category yields
+condition and passing to the [[opposite category]] yields
 the correct category of noncommutative measurable spaces.
 
 The category of [[commutative von Neumann algebras]]
-is contravariantly equivalent to several other categories:
+is contravariantly [[equivalence of categories|equivalent]] to several other categories:
 
 * compact strictly localizable enhanced measurable spaces and measurable maps;
 
@@ -443,12 +445,12 @@ formalisms must be developed for point-set topological spaces
 and for point-set measurable spaces.
 
 With the exception of [[discrete locales]],
-[[measurable locales]] are never spatial.
+[[measurable locales]] are *never* spatial.
 
 ### Intersections of dense sublocales
 
 Another important source of nonspatial sublocales
-is given by intersections (of arbitrary cardinality)
+is given by [[intersections]] (of arbitrary cardinality)
 of [[dense sublocales]].
 
 Again, in contrast to the point-set setting,
