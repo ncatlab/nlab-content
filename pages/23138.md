@@ -4,10 +4,12 @@
 
 ## Idea
 
-A **meros** (plural **meroi**) is a relational analogue of topoi. The morphisms of meroi are like relations, and they are a venue for generalized [[relational set theory]].
+A **meros** (plural **meroi** or **meroses**) is a relational analogue of a topos. Where the morphisms of topoi are like functions, the morphisms of meroi are like relations, and meroi are a place for generalized [[relational set theory]] like how topoi are a place for generalized [[constructive set theory]].
+
+Conceptually, the Boolean values of set theory are identified with elements of the [[subobject classifier]] of a topos. A meros instead represents Boolean values as degrees of inclusion between relations; between any two objects, there is a false relation (a [[zero morphism]]) and a true relation.
 
 
-## Definition 
+## Definition
 
 Following Kawahara, we define an auxiliary venue for meroi first. An I-category is a [[dagger category]] where every [[hom-set]] has [[lattice]] structure. Specifically,
 
@@ -86,7 +88,12 @@ $0 \sqsubseteq 0 \div \alpha \iff \alpha \circ 0 \sqsubseteq 0 \iff \alpha \circ
 
 ## Examples
 
-[[Rel]] is the example meros, by analogy with [[Set]] and topoi.
+[[Rel]] is the classic example meros, by analogy with [[Set]] and topoi. Kawahara uses the example of Rel × Rel.
+
+
+## Related Concepts
+
+* [[SEAR]]
 
 
 ## References
