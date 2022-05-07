@@ -27,17 +27,20 @@ or, equivalently, the closures of disjoint open subsets are disjoint.
 
 ## Properties
 
+The extremally disconnected spaces can be characterized among the Hausdorff spaces by the fact that any continuous function mapping a dense subspace of an extremally disconnected space to a compact Hausdorff space, can be extended to the whole space. They can also be characterized among the completely regular spaces by the fact that the lattice of continuous functions mapping an extremally dis connected space to the unit interval is complete (cf. ([Giliman-Jerison, 1960](#GilimanJerison1960)), 3N and 6M). ([Strauss 1967](#Strauss67))
+
+
 ### As projective objects
 
 \begin{theorem}\label{GleasonTheorem}
 **([Gleason 1958](#Gleason58))** 
 \linebreak
 Extremally disconnected topological spaces are precisely the [[projective objects]] in the [[category]] of [[compact topological space|compact]] [[Hausdorff topological spaces]], and in fact in 
-the category of [[topological spaces]] and [[proper maps]] between them.
+the category of regular Hausdorff [[topological spaces]] and [[proper maps]] between them.
 \end{theorem}
 
 See e.g. ([Bhatt-Scholze 13, below theorem 1.8](BhattScholze13)).
-For the second part see [Strauss 1967](#Strauss67).
+For the second part see ([Strauss 1967](#Strauss67)).
 
 
 +-- {: .num_prop}
@@ -167,9 +170,13 @@ The result on projective spaces stems from
 * {#Strauss67} D. P. Strauss,  (1967). _Extremally Disconnected Spaces._ Proceedings of the American Mathematical Society, 18(2), 305. [doi:10.2307/2035286] (https://doi.org/10.2307/2035286)
 
 
+
 Textbook account:
 
 * [[Peter Johnstone]], _[[Stone Spaces]]_
+
+* {#GilimanJerison1960} L.Giliman, M.Jerison. Rings of continuous functions. Van Nostrand, 1960.
+
 
 Discussion in the context of the [[pro-etale site]]:
 
