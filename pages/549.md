@@ -194,7 +194,7 @@ $$
   }
 $$
 
-the map from $K$ to $Z_\beta$ factors through some $Z_{\alpha}$, with $\alpha \lt \beta$, since $Z_\beta$ is a [[filtered colimit]] and using the assumed smallnes of $K$ (see _[[compact object]]_). Because $Z_{\alpha+1}$ was defined to be a pushout over squares including this one, we have a map $L \rightarrow Z_{\alpha +1} \rightarrow Z_{\beta} = colim_\alpha Z_{\alpha}$, which is the desired lift:
+the map from $K$ to $Z_\beta$ factors through some $Z_{\alpha}$, with $\alpha \lt \beta$, since $Z_\beta$ is a [[filtered colimit]] and using the assumed smallness of $K$ (see _[[compact object]]_). Because $Z_{\alpha+1}$ was defined to be a pushout over squares including this one, we have a map $L \rightarrow Z_{\alpha +1} \rightarrow Z_{\beta} = colim_\alpha Z_{\alpha}$, which is the desired lift:
 
 $$
   \array{
