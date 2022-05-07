@@ -118,7 +118,7 @@ from the stability properties of orthogonal factorization systems:
 +-- {: .num_prop}
 ###### Proposition
 
-Final functors and [discrete fibrations](http://ncatlab.org/nlab/show/discrete+fibration) form an [orthogonal factorization system](https://ncatlab.org/nlab/show/orthogonal+factorization+system).
+Final functors and [discrete fibrations](http://ncatlab.org/nlab/show/discrete+fibration) form an [orthogonal factorization system](https://ncatlab.org/nlab/show/orthogonal+factorization+system) called the [[comprehensive factorization system]].
 
 =--
 
