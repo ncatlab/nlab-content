@@ -184,7 +184,7 @@ Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. 
 * {#KM} [[Andreas Kriegl]]; [[Peter Michor]] , _[[The Convenient Setting of Global Analysis]]_, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).
 
 
-* {#ELS} M. Escard&#243;, J.Lawson, A. Simpson, _Comparing Cartesian closed categories of (core) compactly generated spaces_, Topology and its Applications, 143 (2004), 105&#8211;145. [(link to ps file)](http://www.cs.bham.ac.uk/~mhe/papers/ELS03.ps)
+* {#ELS} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
 
 * {#NS} [[Neil Strickland]], _The Category of CGWH Spaces). [(online article)](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf)
