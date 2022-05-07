@@ -56,7 +56,7 @@ The [[properly discontinuous action|properly discontinuous]] [[free action|free]
 
 * {#Carmo92} M. P. do Carmo, _Riemannian geometry_, Mathematics: Theory & Applications, Birkhaeuser Boston Inc., Boston, MA, 1992, Translated from the second Portuguese edition by Francis Flaherty.
 
-* Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXivL:1412.8187](https://arxiv.org/abs/1412.8187))
+* Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187))
 
 [[!redirects Clifford-Klein forms]]
 
