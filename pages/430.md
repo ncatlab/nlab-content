@@ -110,7 +110,7 @@ There are the fields of:
 
 * [[rational numbers]],
 
-* [[algebraic numbers]],
+* (all) [[algebraic numbers]], (Kontsevich-Zagier) [[period]]s
 
 * [[real numbers]],
 
@@ -118,7 +118,13 @@ There are the fields of:
 
 * [[p-adic numbers]] (for $p$ a [[prime number]]).
 
-* Also the various [[finite fields]].
+Other examples
+
+* [[finite field]]s $\mathbf{F}_{p^n}$ where $p$ is a prime
+
+* algebraic [[number field]]s -- finite degree extensions of the field of rational numbers
+
+* [[function field]]s
 
 =--
 
@@ -137,7 +143,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * [[ring]]
 
-* [[finite field]], 
+* [[finite field]], [[field with one element]]
 
 * [[residue field]]
 
@@ -151,23 +157,20 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * [[topological field]]
 
-* [[field with one element]]
-
 * [[graded field]]
+
+* [[model theory of fields]]
 
 * [[infinity-field]]
 
 ## References
 
-* {#MRR87} Ray Mines, [[Fred Richman]], Wim Ruitenburg,  _A Course in Constructive Algebra_.  Springer, 1987.
- 
+* {#MRR87} Ray Mines, [[Fred Richman]], Wim Ruitenburg,  _A course in constructive algebra_, Universitext, Springer, 1987.
 
 * {#Elephant} [[Peter Johnstone]], [[Sketches of an Elephant]], Part D.  The [[classifying topos]] for fields is discussed in section D3.1.11(b).
  
-
-* {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) pp 238-260. doi:[10.1016/0021-8693(77)90284-8](https://doi.org/10.1016/0021-8693%2877%2990284-8)
+* {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) 238-260 [doi](https://doi.org/10.1016/0021-8693%2877%2990284-8)
  
-
 * [[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the theory of fields_ ([arXiv:0808.1972](http://arxiv.org/abs/0808.1972))
 
 
