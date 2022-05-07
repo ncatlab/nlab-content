@@ -75,5 +75,5 @@ Moreover, this model structure is combinatorial.
 
 * {#Muro} [[Fernando Muro]], _Dwyer–Kan homotopy theory of enriched categories_.  [arXiv:1201.1575](https://arxiv.org/abs/1201.1575).
 
-
-
+[[!redirects Dwyer-Kan model structure on enriched categories]]
+[[!redirects Dwyer–Kan model structure on enriched categories]]
