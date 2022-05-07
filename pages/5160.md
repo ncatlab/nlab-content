@@ -20,9 +20,9 @@ On the [[group theory]] and [[representation theory]] (and introducing [[Schur-W
 
 * [[Hermann Weyl]],  *The Classical Groups:  Their Invariants and Representations*,  Princeton University Press, Princeton, N.J., 1939 ([jstor:j.ctv3hh48t](https://www.jstor.org/stable/j.ctv3hh48t))
 
-On [[philosophy]]
+On [[philosophy of mathematics]]:
 
-* [[Hermann Weyl]], _Philosophy of Mathematics and Natural Science._ Princeton University Press, 2nd edition, Princeton University Press, 1950.
+* [[Hermann Weyl]], _Philosophy of Mathematics and Natural Science_, Princeton University Press, 2nd edition, Princeton University Press, 1950 ([ISBN:9780691141206](https://press.princeton.edu/books/paperback/9780691141206/philosophy-of-mathematics-and-natural-science))
 
 
 
