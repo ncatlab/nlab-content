@@ -37,7 +37,7 @@ For any element $a$ in a possibly empty nonunital ring $R$, the element $a-a$ is
 
 ## Related concepts
 
-* [[possibly empty abelian group]]
+* [[commutative invertible semigroup]]
 
 * [[nonunital ring]]
 
