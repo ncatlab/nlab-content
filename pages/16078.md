@@ -41,7 +41,7 @@ Textbook accounts include
 
 Discussion including the higher order obstructions in [[Spencer cohomology]] to [[integrability of G-structures]] is in
 
-* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([jstor:1994134](http://www.jstor.org/stable/1994134))
 
 Formalization in [[homotopy type theory]] is in
 
