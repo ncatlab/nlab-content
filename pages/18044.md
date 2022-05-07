@@ -36,11 +36,19 @@ Observe that
 
    At the level of [[homotopy groups]] this is the following basic fact:
 
+   $\,$
+
    For $E$ a [[homotopy commutative ring spectrum]], its [[stable homotopy groups]] $\pi_\bullet(E)$ inherit the structure of a $\mathbb{Z}$-graded [[super-commutative ring]]  (according to [this](geometry+of+physics+--+superalgebra#SupercommutativeSuperalgebraZGraded)). See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra) [this proposition](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum).
 
-   But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and every [[E-infinity ring]] $E$ is canonically $\mathbb{S}$-graded ([Sagave-Schlichtkrull 11, theorem 1.7-18](#SagaveSchlichtkrull11)). 
+   $\,$
+
+   But more is true: the $E_\infty$-analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and every [[E-infinity ring]] $E$ is canonically $\mathbb{S}$-graded ([Sagave-Schlichtkrull 11, theorem 1.7-1.8](#SagaveSchlichtkrull11)). 
+
+   $\,$
 
    So [[E-∞ geometry]] in itself is already a [[categorification|categorified]]/homotopified version of [[supergeometry]], but of $\mathbb{Z}$-graded supergeometry, not of the proper $\mathbb{Z}/2$-graded supergeometry.
+
+   $\,$
 
    (That grading over the [[sphere spectrum]] is closely related to [[superalgebra]] had been highlighted in [Kapranov 13](#Kapranov13), but the issue of the difference between homotopified $\mathbb{Z}$-grading compared to homotopified $\mathbb{Z}/2$-grading had been left open.)
 
