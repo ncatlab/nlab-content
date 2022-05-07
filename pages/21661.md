@@ -76,9 +76,9 @@ Review:
 
 On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]:
 
-* {#ADO20a} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_ ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455))
+* {#ADO20a} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 4.2 of: _Line Bundle Hidden Sectors for Strongly Coupled Heterotic Standard Models_, Fortsch. Phys. 2021 ([arXiv:2003.05455](https://arxiv.org/abs/2003.05455), [doi:10.1002/prop.202100052](https://doi.org/10.1002/prop.202100052))
 
-* {#ADO20b} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 2.2 of: _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_ ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029))
+* {#ADO20b} Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], Section 2.2 of: _Explicit Soft Supersymmetry Breaking in the Heterotic M-Theory B−L MSSM_, J. High Energ. Phys. 2021, 33 (2021). ([arXiv:2012.11029](https://arxiv.org/abs/2012.11029), <a href="https://doi.org/10.1007/JHEP08(2021)033">doi:10.1007/JHEP08(2021)033</a>)
 
 * Anthony Ashmore, Sebastian Dumitru, [[Burt Ovrut]], *Hidden Sectors from Multiple Line Bundles for the B−L MSSM* ([arXiv:2106.09087](https://arxiv.org/abs/2106.09087))
 
