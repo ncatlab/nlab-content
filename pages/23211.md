@@ -1,9 +1,30 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
-A map $p$ of [[topological spaces]] is a __Serre microfibration__
-if for any lifting square for $\{0\}\times K\to [0,1]\times K$ and $p$,
-we can find $\epsilon\gt0$ such that the lifting property is satisfied
-after restricting to $[0,\epsilon]\times K\subset [0,1]\times K$.
+A [[continuous function|map]] $p$ of [[topological spaces]] is called a __Serre microfibration__
+if for any [[lifting problem|lifting square]] for $\{0\}\times K\to [0,1]\times K$ and $p$,
+we can find $\epsilon\gt0$ such that the [[lifting property]] is satisfied
+after [[restriction|restricting]] to $[0,\epsilon]\times K\subset [0,1]\times K$.
 
 ## Properties
 
@@ -19,3 +40,6 @@ It is a Serre fibration if and only it is a [[homeomorphism]].
 * [[h-principle]]
 
 * [[Serre fibration]]
+
+
+[[!redirects Serre microfibrations]]
