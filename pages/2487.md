@@ -330,3 +330,6 @@ See at *[[representation theory of the general linear group]]*.
 
 [[!redirects general linear group]]
 [[!redirects general linear groups]]
+
+
+[[!redirects GL(n)]]
