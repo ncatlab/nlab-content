@@ -107,7 +107,7 @@ Thus, regular categories are equivalent to unital (or unitary) tabular allegorie
 
 A **union allegory** is an allegory whose hom-posets have finite joins that are preserved by composition.  Thus a union allegory is locally a [[lattice]].  If additionally it is locally a [[distributive lattice]], it is called a **distributive allegory**.  The category of maps in a unitary tabular union allegory is a [[coherent category]] (a "pre-logos"), and conversely the bicategory of relations in a coherent category is a (unitary tabular) distributive allegory.  In particular, every unitary tabular union allegory is distributive, but in the non-tabular case this can fail: for instance, any [[modular lattice]] can be regarded as a one-object union allegory and need not be distributive.
 
-A **division allegory** is a distributive allegory in which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r: A \to B$ and $s \colon A \to C$, there exists $r/s: B \to C$ such that
+A **division allegory** is a distributive allegory in which composition on one (and therefore the other) side has a right adjoint (left or right division). That is: given $r: A \to B$ and $s \colon A \to C$, there exists $s/r: B \to C$ such that
 
 $$t \leq s/r \in \hom(B, C) \Leftrightarrow t \circ r \leq s \in \hom(A, C)$$ 
 
