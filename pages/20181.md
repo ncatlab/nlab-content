@@ -679,7 +679,9 @@ For the case of [[representation tori]]
 
 Discussion of equivariant maps between suitable matching pairs of $G$-spaces is in
 
-* {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
+* {#tomDieck79} [[Tammo tom Dieck]], Section 8.4 of: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
+
+* {#tomDieck87} [[Tammo tom Dieck]], Section II.4 of: _[[Transformation Groups]]_, de Gruyter 1987 ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372)) 
 
 
 Discussion specifically for the [[codomain]] a [[representation sphere]] (i.e.  for [[equivariant cohomotopy]]):
