@@ -559,10 +559,10 @@ The _[[universal coefficient theorem]]_ identifies, under suitable conditions, [
 
 Various notions of [[cohomology groups]] in the context of [[algebra]] can be expressed as $Ext$-groups, for instance:
 
-* For $G$ a [[discrete group]] with $\mathbb{Z}[G]$ its [[group ring]], over the [[integers]], and for $N$ a linear $G$-[[representation]], hence a $\mathbb{Z}[G]$-[[module]], the [[group cohomology]] of $G$ with [[coefficients]] in $N$ is 
+* For $G$ a [[discrete group]], with $K[G]$ its [[group ring]] over a commutative ring K, and for $N$ a $K$-linear $G$-[[representation]]   (hence a $K[G]$-[[module]]), the [[group cohomology]] of $G$ with [[coefficients]] in $N$ is 
   
   $$
-    Ext^\bullet_{\mathbb{Z}[G]Mod}(\mathbb{Z}, N)
+    Ext^\bullet_{K[G]Mod}(K, N)
     \,.
   $$
 
@@ -574,10 +574,10 @@ Various notions of [[cohomology groups]] in the context of [[algebra]] can be ex
 
   is the [[Hochschild cohomology]] of $A$ with [[coefficients]] in $N$.
 
-* For $\mathfrak{g}$ a [[Lie algebra]] with [[universal enveloping algebra]] $\mathcal{U}(\mathfrak{g})$ and $N$ a Lie algebra module, hence an $\mathcal{U}(\mathfrak{g})$-module, the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in $N$ is
+* For $\mathfrak{g}$ a [[Lie algebra]] over a commutative ring $K$, with [[universal enveloping algebra]] $\mathcal{U}(\mathfrak{g})$, and $N$ a Lie algebra module (hence an $\mathcal{U}(\mathfrak{g})$-module), the [[Lie algebra cohomology]] of $\mathfrak{g}$ with [[coefficients]] in $N$ is
 
   $$
-    Ext^\bullet_{\mathcal{U}(\mathfrak{g}) Mod}(\mathcal{U}(\mathfrak{g}), N)
+    Ext^\bullet_{\mathcal{U}(\mathfrak{g}) Mod}(K, N)
     \,.
   $$
 
