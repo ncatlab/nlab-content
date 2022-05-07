@@ -274,6 +274,9 @@ Formalization of the shape/flat-[[fracture square]] ([[differential cohomology h
 
 * [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
 
+For a philosophical treatment 
+
+* [[David Corfield]], Chap. 5 of [Modal Homotopy Type Theory](https://ncatlab.org/davidcorfield/show/Modal+Homotopy+Type+Theory)
 
 [[!redirects cohesive homotopy type theories]]
 
