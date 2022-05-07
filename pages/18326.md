@@ -17,6 +17,8 @@
 A **Freyd category** is one way to axiomatize models of [[call-by-value]] programming languages.
 It abstracts the structure of the [[Kleisli category]] of a [[monad in computer science|monad]], consisting of a category $\mathbb{V}$ that model values and another category with the same objects $\mathbb{C}$ that model computations.
 
+Freyd categories thus provide a categorical semantics for typed programming languages with side effects such as memory access or printing. This is in the spirit of the discussion at [[relation between type theory and category theory]], except that page is for non-side-effecting languages. The types of the programming language are interpreted as objects of the categories. A [[type|typed]] term (i.e., program expression) $\Gamma\vdash t : X$ is interpreted as a morphism $\Gamma \to X$ in $\mathbb{C}$. Among the terms, it is often very important to identify those that are "values", which in particular have no side effects, and these are interpreted as morphisms in $\mathbb{V}$. Freyd categories are based around premonoidal categories, which captures the fact that reordering the execution of side effects is often subtle. 
+
 Freyd categories resolve the following complaint about using [[monad]]s and [[Kleisli category|Kleisli categories]] to model impure effects in programming languages. The Kleisli category for a monad presumes the existence of some slightly higher-order types, since if $X$ is an object then so is $T(X)$, and yet it is surely possible to understand the nature of effectful computation without also assuming the existence of certain types. Freyd categories make sense even for purely first order programming languages, and the object $T(X)$, if it exists, has a universal property, thus decoupling this relationship. 
 
 ## Definition
@@ -45,6 +47,10 @@ A Freyd category is given by
 If $T$ is a [[strong monad]] on a category $\mathbb{V}$ with finite products, then the Kleisli category of $T$ forms a Freyd category and $J$ has a right adjoint. 
 
 Conversely, if $(\mathbb{V},\mathbb{C},J)$ is a Freyd category and $J$ has a right adjoint $R$, then the Freyd category arises as the [[Kleisli category]] of the monad $RJ$.
+
+In more detail, the passage from a strong monad to a Freyd category is as follows. If $T$ is a strong monad on a category $\mathbb{V}$ with finite products, then the Kleisli category $\mathbb{C}$ has a premonoidal structure given by $X\otimes Y=X\times Y$ on objects and where for a morphism $f:Y\to Z$ in $\mathbb{C}$ (i.e. $f:Y\to T(Z)$ in $\mathbb{V}$) then the right tensor $(X\rtimes f):X\otimes Y\to X\otimes Z$ is given by the composite
+$X\times Y\xrightarrow f X\times T(Z) \xrightarrow {\mathrm{str}} T(X\times Z)$ in $\mathbb{V}$. The left tensor $(f\ltimes X):Y\otimes X\to Z\otimes X$ is given by the composite
+$Y\times X\xrightarrow f T(Z)\times X \xrightarrow {\mathrm{str}} T(Z\times X)$ in $\mathbb{V}$. This is a premonoidal structure, and it is monoidal if and only if the monad $T$ is a [[commutative monad]]. 
 
 ### Relation to Lawvere theories and PROPs
 
