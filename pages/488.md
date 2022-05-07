@@ -25,6 +25,10 @@ There are several conditions on a topos that are necessary and sufficient to be 
 * The [[subobject classifier]] $\Omega$ is an [[internalization|internal]] Boolean algebra.
 * The maps $\top, \bot: 1 \to \Omega$ are a [[coproduct]] cone (so in particular, $\Omega \cong 1 + 1$, and in fact this is enough, because the map $[\top, \bot]: 1 + 1 \to \Omega$ is always a monomorphism, and any monic endomorphism of $\Omega$ is an automorphism).
 
+### Warning
+
+Let $C$ be a Boolean pretopos, i.e. a [[pretopos]] in which is also a [[Boolean category]], and let $Sh(C)$ be the [[classifying topos]] for $C$. Then it does *not* follow that $Sh(C)$ is Boolean. In fact, this is rarely the case, even if $C$ is the classifying pretopos for a theory in classical first-order logic. See [Blass and Scedrov](#BlassScedrov75) for a characterization of which classical first-order theories have Boolean classifying topoi -- in particular, any such theory is $\aleph_0$-[[categoricity|categorical]]. Nevertheless, as discussed below, [[Barr's theorem]] shows that any topos admits a surjection from a Boolean topos.
+
 ## Properties
 
 ### As a context for foundations
@@ -111,7 +115,7 @@ Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#
 
 ## References
 
-* [[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
+* {#BlassScedrov75} [[Andreas Blass]], Andrej Scedrov, _Boolean Classifying Topoi_ , JPAA **28** (1983) pp.15-30.
 
 * {#Diaconescu75}Radu Diaconescu, _Axiom of Choice and Complementation_ , Trans. AMS **51** no.1 (1975) pp.176-178. ([pdf](http://www.ams.org/journals/proc/1975-051-01/S0002-9939-1975-0373893-X/S0002-9939-1975-0373893-X.pdf))
 
