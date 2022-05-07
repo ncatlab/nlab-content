@@ -11,6 +11,12 @@ On [[skyrmions]]/[[solitons]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD corresp
 
 * {#Bartolini17} Lorenzo Bartolini, [[Stefano Bolognesi]], Andrea Proto, _From the Sakai-Sugimoto Model to the Generalized Skyrme Model_, Phys. Rev. D 97, 014024 2018 ([arXiv:1711.03873](https://arxiv.org/abs/1711.03873))
 
+In relation to [[Yang-Mills monopoles]]:
+
+* [[Stefano Bolognesi]], *Solitons, Large $N$ and Holography*, 2015 ([[Bolognesi_SolitonsHolography.pdf:file]])
+
+
+
 On [[baryons]] in the [[Sakai-Sugimoto model]] of [[holographic QCD]]:
 
 
