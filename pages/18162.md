@@ -348,7 +348,7 @@ $$
   \left\{
     \;\;
      \array{
-       && U  &=& x &=& V
+       && U  &\color{red}=& x &\color{red}=& V
        \\
        & \swarrow & && && & \searrow
        \\
