@@ -9,7 +9,7 @@ An __approach space__ is a set $X$ together with a __distance__ $d\colon X \time
 
 1. $d(x, \{x\}) = 0$ 
 
-1. $d(x, \emptyset) = 0$
+1. $d(x, \emptyset) = \infty$
 
 1. for all $A, B \in \mathcal{P}$: 
    $d(x, A\cup B) = \min\{ d(x, A), d(x, B) \}$
@@ -25,7 +25,7 @@ Every approach space $d$ induces a [[topological space|topology]] on $X$ via the
 
 ## Examples
 
-* Every [[topological space]] is induced by a canonical approach structure given by $d(x, A) = 0$ if $x \in Cl(X)$ and $d(x, A) = \infty$ otherwise.
+* Every [[topological space]] is induced by a canonical approach structure given by $d(x, A) = 0$ if $x \in Cl(A)$ and $d(x, A) = \infty$ otherwise.
 
 * The [[one-point compactification]] of a metric space $d$ can be metrised in a canonical way as an approach space by 
 
