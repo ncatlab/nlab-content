@@ -128,6 +128,10 @@ Comprehensive discussion for the [[muon]]:
 
 * T. Aoyama et al., _The anomalous magnetic moment of the muon in the Standard Model_ ([arXiv:2006.04822](https://arxiv.org/abs/2006.04822))
 
+* Alex Keshavarzi, Kim Siang Khaw, Tamaki Yoshioka, *Muon $g-2$: current status* ([arXiv:2106.06723](https://arxiv.org/abs/2106.06723))
+
+
+
 
 ### Experiment and deviation
 
