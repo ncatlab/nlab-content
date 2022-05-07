@@ -49,5 +49,10 @@ See also
 
 [[!redirects centralizers]]
 
+[[!redirects centralizer group]]
+[[!redirects centralizer groups]]
+
 [[!redirects centralizer subgroup]]
 [[!redirects centralizer subgroups]]
+
+
