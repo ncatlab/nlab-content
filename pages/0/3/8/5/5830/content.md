@@ -287,7 +287,9 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[higher structures]]
 
-* [[intensional type theory]], [[observational type theory]], [[extensional type theory]]
+* [[intensional type theory]], [[extensional type theory]]
+
+* [[observational type theory]], [[higher observational type theory]]
 
 * [[cubical type theory]]
 
