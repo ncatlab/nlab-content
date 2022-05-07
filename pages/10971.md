@@ -6,7 +6,11 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
-#### Algebraic Quantum Field Theory
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -32,6 +36,8 @@ Fock spaces hence appear as [[spaces of quantum states]] of [[free fields]] in [
 * [[tensor algebra]]
 
 * [[second quantization]]
+
+* [[quantum many-body physics]]
 
 [[!include states and observables -- content]]
 
