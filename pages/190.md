@@ -10,13 +10,9 @@
 +--{: .hide}
 [[!include categories of categories - contents]]
 =--
-#### Higher category theory
+#### 2-category theory
 +--{: .hide}
-[[!include higher category theory - contents]]
-=--
-#### [[categories of categories - contents|categories of categories]]
-+-- {: .hide}
-[[!include categories of categories - contents]]
+[[!include 2-category theory - contents]]
 =--
 =--
 =--
@@ -87,10 +83,17 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## Related concepts
 
+* [[elementary theory of the category of categories]]
+
 [[!include categories of categories - contents]]
 
 
 ## References
+
+* {#Law66} [[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
+
+* [[John Gray]], _[[Adjointness for 2-Categories|Formal category theory: adjointness for 2-categories]]_, Lecture Notes in Mathematics, Vol. 391. 
+Springer 1974 ([doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280))
 
 See also the references at _[[category]]_ and _[[category theory]]_.
 
