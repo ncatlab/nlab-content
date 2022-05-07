@@ -2,7 +2,7 @@
 
 The concept of [[L-∞ algebras]] as [[graded vector spaces]] equipped with $n$-ary brackets satisfying a generalized [[Jacobi identity]] was introduced in generality in
 
-* {#Stasheff92} [[Jim Stasheff]], _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_ Number 1510 in Lecture Notes in Math. Springer, Berlin, 1992
+* {#Stasheff92} [[Jim Stasheff]], _Differential graded Lie algebras, quasi-Hopf algebras and higher homotopy algebras_, in _Quantum groups_ Number 1510 in Lecture Notes in Math. Springer, Berlin, 1992, doi:[10.1007/BFb0101184](https://doi.org/10.1007/BFb0101184).
 
 * {#LadaStasheff92} [[Tom Lada]], [[Jim Stasheff]],  _Introduction to sh Lie algebras for physicists_, Int. J. Theo. Phys. 32 (1993), 1087--1103. ([arXiv:hep-th/9209099](http://arxiv.org/abs/hep-th/9209099))
 
