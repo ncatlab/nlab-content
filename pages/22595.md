@@ -313,12 +313,156 @@ for $a \in \mathbb{Z}$, $b \in \mathbb{N}$, $c \in \mathbb{Z}$, $d \in \mathbb{N
 For every decimal fraction $p \in \mathbb{Z}[1/10]$, $q \in \mathbb{Z}[1/10]$, and $r \in \mathbb{Z}[1/10]$, $p \cdot (q + r) = p \cdot q + p \cdot r$. 
 =--
 
++-- {: .proof} 
+###### Proof 
+
+By definition of the set of decimal fractions, there exist numbers $a \in \mathbb{Z}$, $b \in \mathbb{N}$, $c \in \mathbb{Z}$, $d \in \mathbb{N}$, $e \in \mathbb{Z}$, $f \in \mathbb{N}$ such that $a/10^b = p$, $c/10^d = q$, and $e/10^f = q$. Thus, 
+
+$$q + r = c/10^d + e/10^f = (c \cdot 10^f + e \cdot 10^d)/10^{(d + f)}$$ 
+
+$$p \cdot (q + r) = a/10^b \cdot (c \cdot 10^f + e \cdot 10^d)/10^{(d + f)} = (a \cdot (c \cdot 10^f + e \cdot 10^d))/10^{b + (d + f)}$$ 
+
+$$p \cdot q = a/10^b \cdot c/10^d = (a \cdot c)/10^{(b + d)}$$ 
+
+$$p \cdot r = a/10^b \cdot e/10^f = (a \cdot e)/10^{(b + f)}$$ 
+
+$$p \cdot q + p \cdot r = (a \cdot c)/10^{(b + d)} + (a \cdot e)/10^{(b + f)} = ((a \cdot c) \cdot 10^{(b + f)} + (a \cdot e) \cdot 10^{(b + d)})/10^{(b + d) + (b + f)}$$ 
+
+by definition of addition and multiplication. By left distributivity of multiplication over addition of integers, 
+
+$$(a \cdot (c \cdot 10^f + e \cdot 10^d))/10^{b + (d + f)} = (a \cdot (c \cdot 10^f) + a \cdot (e \cdot 10^d))/10^{b + (d + f)}$$
+
+and by associativity of multiplication of integers, 
+
+$$(a \cdot (c \cdot 10^f) + a \cdot (e \cdot 10^d))/10^{b + (d + f)} = ((a \cdot c) \cdot 10^f + (a \cdot e) \cdot 10^d)/10^{b + (d + f)}$$
+
+Now we consider the following integer expressions: by the right distributive property of multiplication over addition in integers, 
+
+$$((a \cdot c) \cdot 10^f + (a \cdot e) \cdot 10^d) \cdot 10^{(b + d) + (b + f)} = ((a \cdot c) \cdot 10^f) \cdot 10^{(b + d) + (b + f)} + ((a \cdot e) \cdot 10^d) \cdot 10^{(b + d) + (b + f)}$$
+
+$$((a \cdot c) \cdot 10^{(b + f)} + (a \cdot e) \cdot 10^{(b + d)}) \cdot 10^{b + (d + f)} = ((a \cdot c) \cdot 10^{(b + f)}) \cdot 10^{b + (d + f)} + ((a \cdot e) \cdot 10^{(b + d)}) \cdot 10^{b + (d + f)}$$
+
+and by the associative property of multiplication in integers,
+
+$$((a \cdot c) \cdot 10^f) \cdot 10^{(b + d) + (b + f)} + ((a \cdot e) \cdot 10^d) \cdot 10^{(b + d) + (b + f)} = (a \cdot c) \cdot (10^f \cdot 10^{(b + d) + (b + f)}) + (a \cdot e) \cdot (10^d \cdot 10^{(b + d) + (b + f)})$$
+
+$$((a \cdot c) \cdot 10^{(b + f)}) \cdot 10^{b + (d + f)} + ((a \cdot e) \cdot 10^{(b + d)}) \cdot 10^{b + (d + f)} = (a \cdot c) \cdot (10^{(b + f)} \cdot 10^{b + (d + f)}) + (a \cdot e) \cdot (10^{(b + d)} \cdot 10^{b + (d + f)})$$
+
+By the fact that exponentiation is an $\mathbb{N}$-action over multiplication on the integers, 
+
+$$(a \cdot c) \cdot (10^f \cdot 10^{(b + d) + (b + f)}) + (a \cdot e) \cdot (10^d \cdot 10^{(b + d) + (b + f)}) = (a \cdot c) \cdot 10^{f + ((b + d) + (b + f))} + (a \cdot e) \cdot (10^{d + ((b + d) + (b + f))}$$
+
+$$(a \cdot c) \cdot (10^{(b + f)} \cdot 10^{b + (d + f)}) + (a \cdot e) \cdot (10^{(b + d)} \cdot 10^{b + (d + f)}) = (a \cdot c) \cdot 10^{(b + f) + (b + (d + f))} + (a \cdot e) \cdot 10^{(b + d) + (b + (d + f))}$$
+
+and by the associativity and commutativity of addition on the natural numbers, 
+
+$$(a \cdot c) \cdot 10^{f + ((b + d) + (b + f))} + (a \cdot e) \cdot (10^{d + ((b + d) + (b + f))} = (a \cdot c) \cdot 10^{(f + (b + d)) + (b + f)} + (a \cdot e) \cdot (10^{d + ((b + f) + (b + d))}$$
+
+$$(a \cdot c) \cdot 10^{(f + (b + d)) + (b + f)} + (a \cdot e) \cdot (10^{d + ((b + f) + (b + d))} = (a \cdot c) \cdot 10^{(b + f) + ((b + d) + f)} + (a \cdot e) \cdot (10^{(d + (b + f)) + (b + d)}$$
+
+$$(a \cdot c) \cdot 10^{(b + f) + ((b + d) + f)} + (a \cdot e) \cdot (10^{(d + (b + f)) + (b + d)} = (a \cdot c) \cdot 10^{(b + f) + (b + (d + f))} + (a \cdot e) \cdot (10^{(b + d) + ((b + f) + d)}$$
+
+$$(a \cdot c) \cdot 10^{(b + f) + (b + (d + f))} + (a \cdot e) \cdot (10^{(b + d) + ((b + f) + d)} = (a \cdot c) \cdot 10^{(b + f) + (b + (d + f))} + (a \cdot e) \cdot (10^{(b + d) + (b + (f + d))}$$
+
+$$(a \cdot c) \cdot 10^{(b + f) + (b + (d + f))} + (a \cdot e) \cdot (10^{(b + d) + (b + (f + d))} = (a \cdot c) \cdot 10^{(b + f) + (b + (d + f))} + (a \cdot e) \cdot (10^{(b + d) + (b + (d + f))}$$
+
+Thus, 
+
+$$((a \cdot c) \cdot 10^f + (a \cdot e) \cdot 10^d) \cdot 10^{(b + d) + (b + f)} = ((a \cdot c) \cdot 10^{(b + f)} + (a \cdot e) \cdot 10^{(b + d)}) \cdot 10^{b + (d + f)}$$
+
+By definition of equality of decimal fractions, since 
+
+$$((a \cdot c) \cdot 10^f + (a \cdot e) \cdot 10^d) \cdot 10^{(b + d) + (b + f)} = ((a \cdot c) \cdot 10^{(b + f)} + (a \cdot e) \cdot 10^{(b + d)}) \cdot 10^{b + (d + f)}$$
+
+then
+
+$$((a \cdot c) \cdot 10^f) + (a \cdot e) \cdot 10^d))/10^{b + (d + f)} = ((a \cdot c) \cdot 10^{(b + f)} + (a \cdot e) \cdot 10^{(b + d)})/10^{(b + d) + (b + f)}$$
+
+Thus, $p \cdot (q + r) = p \cdot q + p \cdot r$. 
+
+=-- 
+
 +-- {: .num_prop} 
 ###### Proposition
 **(Right distributivity of multiplication over addition)
 
 For every decimal fraction $p \in \mathbb{Z}[1/10]$, $q \in \mathbb{Z}[1/10]$, and $r \in \mathbb{Z}[1/10]$, $(p + q) \cdot r = p \cdot r + q \cdot r$. 
 =--
+
++-- {: .proof} 
+###### Proof 
+
+By definition of the set of decimal fractions, there exist numbers $a \in \mathbb{Z}$, $b \in \mathbb{N}$, $c \in \mathbb{Z}$, $d \in \mathbb{N}$, $e \in \mathbb{Z}$, $f \in \mathbb{N}$ such that $a/10^b = p$, $c/10^d = q$, and $e/10^f = q$. Thus, 
+
+$$p + q = a/10^b + c/10^d = (a \cdot 10^d + c \cdot 10^b)/10^{(b + d)}$$ 
+
+$$(p + q) \cdot r = (a \cdot 10^d + c \cdot 10^b)/10^{(b + d)} \cdot e/10^f = ((a \cdot 10^d + c \cdot 10^b) \cdot e)/10^{(b + d) + f)}$$ 
+
+$$p \cdot r = a/10^b \cdot e/10^f = (a \cdot e)/10^{(b + f)}$$ 
+
+$$q \cdot r = c/10^d \cdot c/10^d = (c \cdot e)/10^{(d + f)}$$ 
+
+$$p \cdot r + q \cdot r = (a \cdot e)/10^{(b + f)} + (c \cdot e)/10^{(d + f)} = ((a \cdot e) \cdot 10^{(d + f)} + (c \cdot e) \cdot 10^{(b + f)})/10^{(b + f) + (d + f)}$$ 
+
+by definition of addition and multiplication. By right distributivity of multiplication over addition of integers, 
+
+$$((a \cdot 10^d + c \cdot 10^b) \cdot e)/10^{(b + d) + f)} = ((a \cdot 10^d) \cdot e + (c \cdot 10^b) \cdot e)/10^{(b + d) + f)}$$
+
+and by associativity of multiplication of integers, 
+
+$$((a \cdot 10^d) \cdot e + (c \cdot 10^b) \cdot e)/10^{(b + d) + f)} = (a \cdot (10^d \cdot e) + c \cdot (10^b \cdot e))/10^{(b + d) + f)}$$
+
+and by commutativity of multiplication of integers,
+
+$$(a \cdot (10^d \cdot e) + c \cdot (10^b \cdot e))/10^{(b + d) + f)} = (a \cdot (e \cdot 10^d) + c \cdot (e \cdot 10^b))/10^{(b + d) + f)}$$
+
+and by associativity of multiplication of integers, 
+
+$$(a \cdot (e \cdot 10^d) + c \cdot (e \cdot 10^b))/10^{(b + d) + f)} = ((a \cdot e) \cdot 10^d + (c \cdot e) \cdot 10^b)/10^{(b + d) + f)}$$
+
+Now we consider the following integer expressions: by the right distributive property of multiplication over addition in integers, 
+
+$$((a \cdot e) \cdot 10^d + (c \cdot e) \cdot 10^b) \cdot 10^{(b + f) + (d + f)} = ((a \cdot e) \cdot 10^d) \cdot 10^{(b + f) + (d + f)} + ((c \cdot e) \cdot 10^b) \cdot 10^{(b + f) + (d + f)}$$
+
+$$((a \cdot e) \cdot 10^{(d + f)} + (c \cdot e) \cdot 10^{(b + f)}) \cdot 10^{(b + d) + f)} = ((a \cdot e) \cdot 10^{(d + f)}) \cdot 10^{(b + d) + f)} + ((c \cdot e) \cdot 10^{(b + f)}) \cdot 10^{(b + d) + f)}$$
+
+and by the associative property of multiplication in integers,
+
+$$((a \cdot e) \cdot 10^d) \cdot 10^{(b + f) + (d + f)} + ((c \cdot e) \cdot 10^b) \cdot 10^{(b + f) + (d + f)} = (a \cdot e) \cdot (10^d \cdot 10^{(b + f) + (d + f)}) + (c \cdot e) \cdot (10^b \cdot 10^{(b + f) + (d + f)})$$
+
+$$((a \cdot e) \cdot 10^{(d + f)}) \cdot 10^{(b + d) + f)} + (c \cdot e) \cdot 10^{(b + f)}) \cdot 10^{(b + d) + f)} = (a \cdot e) \cdot (10^{(d + f)} \cdot 10^{(b + d) + f)}) + (c \cdot e) \cdot (10^{(b + f)} \cdot 10^{(b + d) + f)})$$
+
+By the fact that exponentiation is an $\mathbb{N}$-action over multiplication on the integers, 
+
+$$(a \cdot e) \cdot (10^d \cdot 10^{(b + f) + (d + f)}) + (c \cdot e) \cdot (10^b \cdot 10^{(b + f) + (d + f)}) = (a \cdot e) \cdot 10^{d + ((b + f) + (d + f))} + (c \cdot e) \cdot (10^{b + ((b + f) + (d + f))}$$
+
+$$(a \cdot e) \cdot (10^{(d + f)} \cdot 10^{(b + d) + f)}) + (c \cdot e) \cdot (10^{(b + f)} \cdot 10^{(b + d) + f)}) = (a \cdot e) \cdot 10^{(d + f) + ((b + d) + f)} + (c \cdot e) \cdot 10^{(b + f) + ((b + d) + f)}$$
+
+and by the associativity and commutativity of addition on the natural numbers, 
+
+$$(a \cdot e) \cdot 10^{d + ((b + f) + (d + f))} + (c \cdot e) \cdot (10^{b + ((b + f) + (d + f))} = (a \cdot e) \cdot 10^{(d + (b + f)) + (d + f)} + (c \cdot e) \cdot (10^{b + ((d + f) + (b + f))}$$
+
+$$(a \cdot e) \cdot 10^{(d + (b + f)) + (d + f)} + (c \cdot e) \cdot (10^{b + ((d + f) + (b + f))} = (a \cdot e) \cdot 10^{(d + f) + (d + (b + f))} + (c \cdot e) \cdot (10^{(b + (d + f)) + (b + f)}$$
+
+$$(a \cdot e) \cdot 10^{(d + (b + f)) + (d + f)} + (c \cdot e) \cdot (10^{b + ((d + f) + (b + f))} = (a \cdot e) \cdot 10^{(d + f) + ((d + b) + f)} + (c \cdot e) \cdot (10^{(b + f) + (b + (d + f))}$$
+
+$$(a \cdot e) \cdot 10^{(d + f) + ((d + b) + f)} + (c \cdot e) \cdot (10^{(b + f) + (b + (d + f))} = (a \cdot e) \cdot 10^{(d + f) + ((b +d) + f)} + (c \cdot e) \cdot (10^{(b + f) + ((b + d) + f)}$$
+
+Thus, 
+
+$$((a \cdot e) \cdot 10^d + (c \cdot e) \cdot 10^b) \cdot 10^{(b + f) + (d + f)} = ((a \cdot e) \cdot 10^{(d + f)} + (c \cdot e) \cdot 10^{(b + f)}) \cdot 10^{(b + d) + f)}$$
+
+By definition of equality of decimal fractions, since 
+
+$$((a \cdot e) \cdot 10^d + (c \cdot e) \cdot 10^b) \cdot 10^{(b + f) + (d + f)} = ((a \cdot e) \cdot 10^{(d + f)} + (c \cdot e) \cdot 10^{(b + f)}) \cdot 10^{(b + d) + f)}$$
+
+then
+
+$$((a \cdot e) \cdot 10^d + (c \cdot e) \cdot 10^b)/10^{(b + d) + f)} = ((a \cdot e) \cdot 10^{(d + f)} + (c \cdot e) \cdot 10^{(b + f)})/10^{(b + f) + (d + f)}$$
+
+Thus, $(p + q) \cdot r = p \cdot r + q \cdot r$. 
+
+=-- 
 
 +-- {: .num_prop} 
 ###### Proposition
@@ -439,6 +583,10 @@ Thus, $p \cdot 1 = p$.
 
 The decimal fractions $(\mathbb{Z}[1/10], 0, +, -)$ form a [[commutative ring]]. 
 =--
+
+### Sign 
+
+...
 
 ## Related entries
 
