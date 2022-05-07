@@ -157,9 +157,9 @@ However:
 \linebreak
   The [[convenient category of topological spaces|convenient]] [[full subcategories]]
 $$
-  kwHaus 
+  kTop
     \xhookrightarrow{\;} 
-  kHas
+  kHaus
     \xhookrightarrow{\;}
   Top
 $$
@@ -170,6 +170,16 @@ and of
 are regular 
 ([Cagliari, Matovani & Vitale 1995, p. 3](#CagliariMatovaniVitale95)).
 \end{example}
+
+\begin{example}
+\label{CompactlyGeneratedGSpacesFormARegularCategory}
+**(compactly generated $G$-spaces form a regular category)**
+For $G \,\in\, Grp(kTop)$ a [[compactly generated weakly Hausdorff space|compactly generated weak Hausdorff]] [[topological group]], its category of [[internal actions]], hence the category of CGWH-[[topological G-spaces]] $G Act(kTop)$ is a regular category.
+\end{example}
+\begin{proof}
+  The [[forgetful functor]] $G Act(kTop) \xrightarrow{\;} kTop$
+[[created limit|creates]] all [[limits]] and [[colimits]] ([this Prop.](topological+G-space#ForgetfulFunctorCreatesLimitsAndColimits)). Since regularity is entirely a condition on limits and colimits ([this Def.](regular+category#RegularCategory)) the statement follows from Ex. \ref{CompactlyGeneratedHausdorffSpacesAreRegular}.
+\end{proof}
 
 \begin{example}
 If $T$ is a [[Mal'cev theory]] (e.g., the theory of groups), then the category $Top^T$ of $T$-models in [[Top]] is regular. This is because for $T$ Mal'cev, coequalizer maps in $Top^T$ are necessarily open surjections, and open surjections are stable under pullback. 
