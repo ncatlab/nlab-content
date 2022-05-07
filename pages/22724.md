@@ -19,7 +19,7 @@ The concept of a _cancellative category_ is the generalization of the concept of
 
 ## Definition
 
-In [[category theory]], "cancellative" is a synonym for *all [[morphism|arrows]] are [[monomorphism|monic]] and [[epimorphism|epic]]*. Thus the typical way for right cancellative categories to be constructed to take a category $C$ and then restrict to a class of epimorphisms closed under composition, such as all epic monomorphisms, or [[isomorphisms]], etc. 
+In [[category theory]], "cancellative" is a synonym for *all [[morphism|arrows]] are [[monomorphism|monic]] and [[epimorphism|epic]]*. Thus the typical way for cancellative categories to be constructed to take a category $C$ and then restrict to a class of monic and epic morphisms closed under composition, such as all monic and epic morphisms, or [[isomorphisms]], etc. 
 
 In fact every cancellative $C$ arises this way (in the tautological sense of applying this consideration to $C$ itself): a [[category]] $\mathcal{C}$ being _cancellative_ means all its _morphisms are monos and epis_. 
 
@@ -29,7 +29,7 @@ if $f\circ h_0=f\circ h_1$, then $h_0=h_1$.
 
 ## Examples
 
- * any [[cancellative monoid]], regared as a category with a single object
+ * any [[cancellative monoid]], regarded as a category with a single object
 
  * any [[groupoid]]
 
