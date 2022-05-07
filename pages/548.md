@@ -367,13 +367,15 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 ## References 
  {#References}
 
+### General
+
 2-groups were introduced, under the name _gr-categories_, in 
 
 * {#Sinh73} [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973), ([web] (http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html))
 
-supervised by [[Grothendieck]].
+supervised by [[Alexander Grothendieck]].
 
-Exposition and discussion of 2-groups as special [[monoidal categories]] ([[Picard 2-group]]) is in 
+Exposition and discussion of 2-groups as special [[monoidal categories]] ([[Picard 2-groups]]) is in:
 
 *  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories 12 (2004), 423-491. ([arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)).
 
@@ -383,11 +385,31 @@ Computational enumeration of geometrically [[discrete group|discrete]] 2-groups 
 
 * Graham Ellis, Le van Luyen, _Homotopy 2-types of Low order_ ([pdf](http://hamilton.nuigalway.ie/preprints/2t.pdf))
 
-Discussion of structured 2-groups (e.g. smooth 2-groups) is in sections 2.6.5 and 3.4.2 of 
+Beware that most of the above discussion is about [[discrete infinity-group|geometrically discrete]] 2-groups.
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+Discussion of structured 2-groups (notably [[smooth 2-groups]]) is in: 
 
-For more on this see the references at [[string 2-group]].
+* [[Urs Schreiber]], Sections 2.6.5 and 3.4.2 of: _[[schreiber:differential cohomology in a cohesive topos]]_
+
+For more on this see the references at *[[string 2-group]]*.
+
+### Examples
+
+A key example due to its universality for [[higher central extensions]] of [[compact Lie groups]] by the [[circle 2-group]] to [[smooth 2-groups]] is 
+
+* the *[[string 2-group]]* -- see [there](string+2-group#References) for references.
+
+Further on [[2-group]]-[[higher central extensions|extensions]] by the [[circle 2-group]]:
+
+of [[tori]] (see also at *[[T-duality 2-group]]*):
+
+* [[Nora Ganter]], _Categorical Tori_, SIGMA 14 (2018), 014, 18 ([arXiv:1406.7046](https://arxiv.org/abs/1406.7046))
+
+of [[finite subgroups of SU(2)]] (to [[Platonic 2-groups]]):
+
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
+
+
 
 [[!redirects 2-groups]]
 
