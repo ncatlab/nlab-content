@@ -145,7 +145,7 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 * {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], *Majorana dimers and holographic quantum error-correcting code*, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
 
-* {#Yan20} Han Yan, *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
+* {#Yan20} [[Han Yan]], *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
 
 \begin{imagefromfile}
     "file_name": "HaPPYCodesAsDimerCode.jpg",
