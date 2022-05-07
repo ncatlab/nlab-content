@@ -60,6 +60,8 @@ These results can all be generalized to [[enriched categories]], and also relati
 * [[B. J. Day]], [[Steve Lack]], _Limits of small functors_, JPAA, [pdf](http://www.maths.usyd.edu.au/u/stevel/papers/small.pdf)
 
 * [[Boris Chorny]], [[William Dwyer]], _The homotopy theory of small diagrams over large categories_,  Forum Math. 21 (2009), no. 2, 167--179; [preprint](http://math.haifa.ac.il/chorny/publications/Chorny,%20Dwyer%20-%20SmallFunctors.pdf)
+
+* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
   
 The results of Chorny--Dwyer are cited by Rosicky in _Accessible categories and homotopy theory_, [pdf](http://www.math.yorku.ca/~tholen/HB07Rosicky.pdf)
 
