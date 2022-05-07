@@ -271,6 +271,6 @@ Remarks on how the relation between Reshitikhin-Turaev and FSR seem to have an i
 * [[Urs Schreiber]], _Towards 2-functorial CFT_ ([blog entry](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html))
 {#Schreiber}
 
-There is it discussed how the basic [[string diagram]] that in FSR formalism encodes a field insertion on, possibly, a defect line and encodes the disk amplittudes of the CFT is the string diagram Poincar&eacute;-dual to the cylinder in a 3-category of [[n-vector space|3-vector space]]s.
+There is it discussed how the basic [[string diagram]] that in FSR formalism encodes a field insertion on, possibly, a defect line and encodes the disk amplitudes of the CFT is the string diagram Poincar&eacute;-dual to the cylinder in a 3-category of [[n-vector space|3-vector space]]s.
 
 For references on the [[holographic principle]] in QFT, see there.
