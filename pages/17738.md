@@ -37,6 +37,15 @@ For the moment see _[here](Majorana+spinor#DiracAndWeylRepresentations)_.
 
 * [[Weyl spinor]], [[Majorana spinor]]
 
+## Literature
+
+See the references at *[[spin representation]]*.
+
+What it would mean if [[neutrinos]] were Dirac spinors:
+
+* Salvador Centelles Chuliá, *Theory and phenomenology of Dirac neutrinos* ([arXiv:2110.15755](https://arxiv.org/abs/2110.15755))
+
+
 
 [[!redirects Dirac spinor]]
 [[!redirects Dirac spinors]]
