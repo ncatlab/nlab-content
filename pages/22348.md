@@ -88,22 +88,26 @@ iff $f:M\to N$ is an quasi-isometry.
 Given a filter $\mathfrak{F}$ on a set $X$, 
 there is a coarsest situs structure on 
 $X$ viewed as a simplicial set (i.e. 
-the simplicial set $X_\bullet$ represented by $X$) 
+the simplicial set $|X|_\bullet$ represented by $X$) 
 such that its filter on the set $X$ of $0$-simplices is 
 finer than $\mathfrak{F}$. 
-Dually, there is a finest  situs structure on $X_\bullet$
+Dually, there is a finest  situs structure on $|X|_\bullet$
 such that its filter on the set of $0$-simplices is coarser than $\mathfrak{F}$.
 {#DiagCartDefn} We denote these situses by 
- $\mathfrak{F}^{\operatorname{cart}}$
-and  $\mathfrak{F}^{\operatorname{diag}}$, respectively.
+ $|X^\mathfrak{F}|_\bullet^{\operatorname{cart}}$
+and  $|X^\mathfrak{F}|_\bullet^{\operatorname{diag}}$, respectively.
 
 
-In fact this gives two fully faithful embeddings of the category of filters
-into the category of situses.
+
+ In fact this gives two fully faithful embeddings of the category of filters into the category of situses
+$$ |-^\mathfrak{F}|_\bullet^{\operatorname{cart}}, |-^\mathfrak{F}|_\bullet^{\operatorname{diag}} : &#x12CB;  \to s&#x12CB; $$
+
+
  
 {#PreordersAsSituses} In a similar way one can define two fully faithful embeddings of the category of filters on preorders
-and continuous monotone maps. 
-
+and continuous monotone maps. We denote these by 
+$X^{\leq\mathfrak{F}}_\bullet^{\operatorname{cart}}$
+and  $X^{\leq\mathfrak{F}}_\bullet^{\operatorname{diag}}$, respectively.
 
 
 
