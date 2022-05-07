@@ -280,7 +280,7 @@ Given $\hat E$ a smooth cohomology theory.
 The **homotopy formula**:
 
 given $h : M \times [0,1] \stackrel{smooth}{\to} N$
-a smooth homotopy we have
+a [[smooth homotopy]] we have
 
 $$
   h^*_1(X) - h^*_0(X)
