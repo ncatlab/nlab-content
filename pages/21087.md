@@ -87,10 +87,14 @@ Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
 * [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
 
 
-
 Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-brane]] via [[AdS4/CFT3]]
 
 * Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _The M-theory Archipelago_ ([arXiv:1907.13222](https://arxiv.org/abs/1907.13222))
+
+Specifically in [[AdS5/CFT4]] via [[D3-brane]] contributions:
+
+* Yosuke Imamura, *Finite-$N$ superconformal index via the AdS/CFT correspondence* ([arXiv:2108.12090](https://arxiv.org/abs/2108.12090))
+
 
 
 
