@@ -56,7 +56,7 @@ We make the following remarks:
 
 * The kernel pair is always a [[congruence]] on $d$ in $C$; informally, $\ker(f) = d\times_c d$ is the [[subobject]] of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the "kernel" of a function in [[Set]]). The coequalizer above is supposed to be the "object of equivalence classes" of $\ker(f)$ as an internal [[equivalence relation]].
 
-* A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every coequalizer is the coequalizer of its kernel pair. (See for instance Lemma 5.6.6 in _[[Practical Foundations]]_.)
+* A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every regular epimorphism is the coequalizer of its kernel pair. (See for instance Lemma 5.6.6 in _[[Practical Foundations]]_.)
 
 * The last condition may equivalently be stated in the form "coequalizers of kernel pairs are stable under pullback". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
 
