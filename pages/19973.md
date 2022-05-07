@@ -184,6 +184,11 @@ On [[flavour physics]] and [[flavour anomalies]] seen at the [[LHCb experiment]]
 
   > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
 
+Outlook:
+
+* [[Riccardo Barbieri]], _A view of flavour physics in 2021_ ([arXiv:2103.15635](https://arxiv.org/abs/2103.15635))
+
+
 
 ### The flavour problem
  {#ReferencesFlavorProblem}
