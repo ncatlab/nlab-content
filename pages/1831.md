@@ -362,9 +362,12 @@ This is  [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 =--
 
-### Free (co)cartesian fibrations
+### Adjoints to the inclusion into (∞,1)Cat/C
 
-The inclusion of the cartesian fibrations and cartesian functors in the category $(\infty,1)Cat_{/C}$ has a left adjoint.
+The inclusion of the cartesian fibrations and cartesian functors in the category $(\infty,1)Cat_{/C}^{cart} \subseteq (\infty,1)Cat_{/C}$ has both a left and a right adjoint.
+
+
+The left adjoint is given by the construction of "free fibrations"
 
 +-- {: .un_prop}
 ###### Proposition 
@@ -390,6 +393,28 @@ $$
   \simeq \Fun_{C^{op}}^{cart}((C^{op} \downarrow p^{op}), q^{op})^{op}
   \simeq \Fun_C^{cocart}((p \downarrow C), q)
 $$
+
+=--
+
+On the other side,
+
++-- {: .un_prop}
+###### Proposition 
+
+The inclusions $(\infty,1)Cat_{/C}^{cart} \subseteq (\infty,1)Cat_{/C}$
+and  $(\infty,1)Cat_{/C}^{cocart} \subseteq (\infty,1)Cat_{/C}$
+have right adjoints.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We handle the cartesian case. The functor tensor product $- \otimes_C C_{/\bullet}$
+is the left adjoint part of an adjunction between $Fun(C^{op}, (\infty,1)Cat)$ and $(\infty,1)Cat$. Since it sends $1 \mapsto C$, we also get an adjunction 
+between $Fun(C^{op}, (\infty,1)Cat)$ and $(\infty,1)Cat_{/C}$
+
+By the description of the [[(∞,1)-Grothendieck construction]] as a [[lax (∞,1)-colimit]], the left adjoint part is an equivalence $Fun(C^{op}, (\infty,1)Cat) \to (\infty,1)Cat_{/C}^{cart}$
 
 =--
 
