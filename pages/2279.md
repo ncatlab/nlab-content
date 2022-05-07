@@ -40,7 +40,7 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos)
 
 * [[Cat]] -- the [[2-category]] of [[categories]], hence of [[(1,1)-categories]] -- should be the archetypical [[2-topos]] (i.e. [[(2,2)-topos]]).
 
-* [[Pos]] -- the category of [[posets]] and monotone maps, hence of [[(0,1)-categories]] -- should form the archetypal example of a $(1,2)$-topos.
+* [[Pos]] -- the category of [[posets]] and monotone maps, hence of [[(0,1)-categories]] -- should be the archetypal [[(1,2)-topos]].
 
 * [[∞Grpd]] -- the [[(∞,1)-category]] of [[∞-groupoids]], hence of [[(∞,0)-categories]] -- is the archetypical [[(∞,1)-topos]];
 
