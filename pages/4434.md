@@ -38,6 +38,13 @@ Such a morphism, $f$, may probably also be called an [[embedding]].
 
 The dual concept is that of [[effective epimorphism]]. See there for more discussion.
 
+## References
+
+Exposition and examples:
+
+* [[Qiaochu Yuan]], *[Regular and effective monomorphisms and epimorphisms](https://qchu.wordpress.com/2012/11/03/regular-and-effective-monomorphisms-and-epimorphisms/)*, 2012
+
+
 
 [[!redirects effective mono]]
 [[!redirects effective monomorphism]]
