@@ -472,35 +472,19 @@ xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S02
 
 ### Formulation by conformal nets
 
-* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
 For further references see [[conformal net]].
 
-### Formulation by functors on conformal cobordisms
- {#FQFTReferences}
 
-The idea that CFT should have an axiomatization
-as [[FQFT]] -- representations of [[conformal cobordism categories]] for cobordisms equipped with [[conformal structure]] -- was promoted in
 
-* [[Graeme Segal]], 
 
-  _The definition of conformal field theory_, in _Differential geometrical methods in theoretical physics_ (Como, 1987), NATO Adv. Sci. Inst. Ser. C Math. Phys. Sci., 250, Kluwer Acad. Publ., Dordrecht, (1988), 165-171 
 
-  _Two-dimensional conformal field theories and modular functors_ , in _Proceedings of the IXth International Congress on Mathematical Physics_ , Swansea, 1988, Hilger, Bristol (1989) 22-37.
+[[!include D=2 CFT a functorial field theory -- references]]
 
-  _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
 
-See also
 
-* [[Richard Blute]], [[Prakash Panangaden]], [[Dorette Pronk]], _Conformal field theory as a nuclear functor_ GDP Festschrift ([pdf](http://aix1.uottawa.ca/~rblute/conf.pdf))
 
-Tentative ideas about a refinement of this to _extended_ ([[2-functor|2-functorial]] CFT) have famously been sketched in 
-
-* [[Stefan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
-
-Useful related seminar notes are 
-
-* Daniel Evans, _Conformal field theory seminar notes_ ([pdf](http://math.berkeley.edu/~devans/CFT.pdf))
 
 
 ### Formulation by algebra in modular tensor categories
@@ -512,7 +496,7 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 
 * [The FRS theorem of RCFT](http://golem.ph.utexas.edu/string/archives/000813.html)
 
-* {#KapustinSaulina} [[Anton Kapustin]], [[nLab:Natalia Saulina]] _Surface operators in 3d TFT and 2d Rational CFT_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1012.0911](http://arxiv.org/abs/1012.0911))
+* {#KapustinSaulina} [[Anton Kapustin]], [[nLab:Natalia Saulina]] _Surface operators in 3d TFT and 2d Rational CFT_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1012.0911](http://arxiv.org/abs/1012.0911))
  
 * {#Kong} [[Liang Kong]], _Conformal field theory and a new geometry_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ ([arXiv:1107.3649](http://arxiv.org/abs/1107.3649))
  
@@ -533,6 +517,13 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 
 [[!redirects 2d conformal field theory]]
 [[!redirects 2d conformal field theories]]
+
+[[!redirects D=2 conformal field theory]]
+[[!redirects D=2 conformal field theories]]
+
+[[!redirects D=2 CFT]]
+[[!redirects D=2 CFT]]
+
 
 [[!redirects D=2 CFT]]
 
