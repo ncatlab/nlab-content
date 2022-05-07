@@ -49,7 +49,7 @@ Attempts to explain the [[flavour anomalies]] with a composite Higgs boson:
 * [[Andreas Crivellin]], Dario Müller, Christoph Wiegand, _$b \to s \ell^+ \ell^-$ Transitions in Two-Higgs-Doublet Models_ ([arXiv:1903.10440](https://arxiv.org/abs/1903.10440))
 
 
-* Peter Stangl, _Flavour anomalies and (fundamental) partial compositeness_ ([arXiv:1907.05158](https://arxiv.org/abs/1907.05158))
+* [[Peter Stangl]], _Flavour anomalies and (fundamental) partial compositeness_ ([arXiv:1907.05158](https://arxiv.org/abs/1907.05158))
 
 
 [[!redirects composite Higgs models]]
