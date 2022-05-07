@@ -30,6 +30,8 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 ## Related concepts
 
+* [[quantum many-body physics]]
+
 * [[rigid body dynamics]]
 
 * [[degeneracy pressure]]
@@ -121,8 +123,7 @@ General:
 
 * [[Jens Eisert]], _Entanglement and tensor network states_, Modeling and Simulation 3, 520 (2013) ([arXiv:1308.3318](https://arxiv.org/abs/1308.3318))
 
-
-* Thorsten B. Wahl, _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
+* [[Thorsten B. Wahl]], _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
 
 Specifically [[tree tensor networks]]:
 
