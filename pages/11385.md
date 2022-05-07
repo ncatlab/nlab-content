@@ -37,7 +37,13 @@ For $E$ an [[E-∞ ring]] and $X$ a [[topological space]] ([[∞-groupoid]], [[h
 The $n$-th [[cup product]] power of this $a$ is the composite
 
 $$
-  a^n \;\colon\; X^{\times n} \stackrel{(a,\cdots,a)}{\longrightarrow} E^{\times n} \stackrel{\mu}{\longrightarrow} E
+  a^n 
+    \;\colon\; 
+  X^{\times n} 
+    \stackrel{(a,\cdots,a)}{\longrightarrow} 
+  E^{\times n} 
+    \stackrel{\mu}{\longrightarrow} 
+  E
   \,,
 $$
 
