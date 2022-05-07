@@ -72,22 +72,23 @@ For a counter-example see Example \ref{DenseSubcategoriesOfSimplexCategory} belo
  {#Examples}
 
 \begin{example}
-Let $V$ be a category of [[algebras]] and $n \in \mathbb{N}$ such that $V$ has a presentation with operations of at most arity $n$.  Let $v$ be the free $V$-algebra on $n$ generators.  Then the [[full subcategory]] with object $v$ is dense in $V$.
-
-\end{example}
-
-
-\begin{example}
 The inclusion of the [[discrete category]] on the [[singleton set]] into all of [[Sets]] is a [[dense subcategory]] inclusion.
 
+More generally, if $C$ is an essentially small category, then the [[Yoneda embedding]] $C \to [C^{op},Set]$ is dense.
+\end{example}
+
+\begin{example}
+Let $V$ be a category of [[algebras]] and $n \in \mathbb{N}$ such that $V$ has a presentation with operations of at most arity $n$.  Let $v$ be the free $V$-algebra on $n$ generators.  Then the [[full subcategory]] with object $v$ is dense in $V$.
+
+More generally, if $V$ is a $\kappa$-[[accessible category]], then the full subcategory inclusion $V_\kappa \subseteq V$ of $\kappa$-[[presentable objects]] is dense. This means in particular that if $C$ is a small category, then the canonical inclusion $C \to Ind(C)$ into the [[Ind category]] is dense, and that categories of sheaves have small dense subcategories.
 \end{example}
 
 \begin{example}\label{DenseSubcategoriesOfSimplexCategory}
-  Consider the [[simplex category]] $\Delta$, regarded in the usual way as a [[subcategory]] of [[Cat]].
+  Consider the [[simplex category]] $\Delta$, regarded in the usual way as a [[subcategory]] of [[Cat]]. Let $\Delta_{\leq [1]} \subset \Delta$ be the full subcategory with object set $\{[0],[1]\}$ -- i.e. comprising the 0-dimensional simplex and the 1-dimensional simplex.
 
 Then 
 
-1. $\Delta_{\lt 2} \hookrightarrow \Delta$ is a [[dense subcategory]] inclusion;
+1. $\Delta_{\leq [1]} \hookrightarrow \Delta$ is a [[dense subcategory]] inclusion;
 
 1. $\Delta \hookrightarrow \mathbf{Cat}$ is a [[dense subcategory]] inclusion, 
 
@@ -95,7 +96,11 @@ Then
 
 \end{example}
 
+\begin{example}
+The category $Top$ of [[topological spaces]] does not have any small full subcategory which is dense. Indeed, $Top$ is not generated under colimits by any small subcategory.
 
+The category $Set^{op}$ has a small full subcategory which is dense if and only if there is not a proper class of [[measurable cardinals]], a result due to Isbell.
+\end{example}
 
 
 
