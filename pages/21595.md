@@ -143,7 +143,7 @@ Pitts gives a survey and discussion, together with further reasoning principles.
 
 See also:
 
-* {#Zamdzhiev20} Vladimir Zamdzhiev, _Reflecting Algebraically Compact Functors_, 	EPTCS 323, 2020, pp. 15-23 ([arXiv:1906.0964](https://arxiv.org/abs/1906.0964))
+* {#Zamdzhiev20} Vladimir Zamdzhiev, _Reflecting Algebraically Compact Functors_, 	EPTCS 323, 2020, pp. 15-23 ([arXiv:1906.09649](https://arxiv.org/abs/1906.09649))
 
 
 
