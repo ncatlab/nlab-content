@@ -55,6 +55,7 @@ On the [[Yoneda lemma for (∞,1)-categories]]:
 
 * [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]]
 
+* [[infinity-cosmos]]
 
 [[!redirects D. Verity]]
 
