@@ -3,7 +3,7 @@
 
 * [[thermodynamics]], 
 
-* [[thermal quantum field theory]]
+* [[thermal quantum field theory]], [[Euclidean field theory]]
 
   * [[KMS state]]
 
@@ -20,3 +20,5 @@
 * Wikiedpia, _[Temperature](http://en.wikipedia.org/wiki/Temperature)_
 
 [[!redirects temperatures]]
+
+[[!redirects inverse temperature]]
