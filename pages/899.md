@@ -255,6 +255,9 @@ A proof is spelled out by [[Todd Trimble]] [here on MO](http://mathoverflow.net/
 
 ## References
 
+* {#Bredon72} [[Glen Bredon]], Chapter 0 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+
 * {#ArhangelskiiTkachenko08} Alexander Arhangel'skii, Mikhail Tkachenko, _Topological Groups and Related Structures_, Atlantis Press 2008
 
 The following monograph is not particulary about group representations, but some content of this page is based on it:
