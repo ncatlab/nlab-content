@@ -70,3 +70,5 @@ $$
 
 > $[\ldots]$  A more structural way of addressing the flavor structure of the model is the idea of implementing [[GUT|Pati-Salam unification]]
 
+* {#Buras20}  [[Andrzej Buras]], _Gauge Theory of Weak Decays (2020) ([doi:10.1017/9781139524100](https://doi.org/10.1017/9781139524100) [CERN review](https://cerncourier.com/a/the-hitchhikers-guide-to-weak-decays/))
+
