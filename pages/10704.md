@@ -245,7 +245,7 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 * {#MayPonto} [[Peter May]], [[Kate Ponto]], _More concise algebraic topology: Localization, completion, and model categories_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/mayponto.pdf))
 
-* {#CasacubertaPeschke} Carles Casacuberta and Georg Peschke, _Localizing with respect to self maps of the circle_ ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cpes.pdf)).
+* {#CasacubertaPeschke} Carles Casacuberta and Georg Peschke, _Localizing with respect to self maps of the circle_ ([pdf](http://www.ub.edu/topologia/casacuberta/articles/cpes.pdf)).
 
 
 * {#Lurie} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
