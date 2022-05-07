@@ -1,7 +1,17 @@
 
 The book
 
-* [[Paul Taylor]],  _Practical Foundations of Mathematics_ ([web](http://www.paultaylor.eu/~pt/prafm/index.html))
+* [[Paul Taylor]],  
+
+  **Practical Foundations of Mathematics**
+
+  Cambridge Studies in Advanced Mathematics **59**
+
+  Cambridge University Press 1999
+
+  ISBN 0-521-63107-6
+
+  [webpage](http://www.paultaylor.eu/~pt/prafm/index.html)
 
 is a description of how (in Taylor\'s opinion) the [[foundations]] of mathematics should really be done, with an eye towards matching how mathematics is done in practice (with the consequence that the system is no stronger than necessary).
 
