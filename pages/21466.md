@@ -1,4 +1,4 @@
-[[!redirects embedding tensors and tensor hierarchy in super Lie theory -- references]]
+
 
 ### Embedding tensors and tensor hierarchy in super/dg-Lie theory
   {#EmbeddingTensorsAndTensorHierarchyInSuperdgLieTheory}
@@ -141,7 +141,7 @@ Def. \ref{TheSuperLieAlgebraInducedFromVectorSpace} indeed gives a [[super Lie a
 
 We proceed by [[induction]]:
 
-By Remark \ref{ConstraintsOnBracketInSuperLieAlgebraInducedByVectorSpace} we have that the super Jacobi identity holds for for all [[triples]] $f_1, f_2, f_3 \in MultEnd(V)$ with $deg(f_3) \geq 0$.
+By Remark \ref{ConstraintsOnBracketInSuperLieAlgebraInducedByVectorSpace} we have that the super Jacobi identity holds for all [[triples]] $f_1, f_2, f_3 \in MultEnd(V)$ with $deg(f_3) \geq 0$.
 
 Now assume that the super Jacobi identity has been shown for triples $(f_1, f_2, f_3(v))$ and $(f_1, f_3, f_2(v))$, for any $v \in V$. The following computation shows that then it holds for $(f_1, f_2, f_3)$:
 
@@ -431,7 +431,7 @@ $$
   \Theta \;\colon\; V \longrightarrow \mathfrak{g} \coloneqq \mathfrak{gl}(V)
 $$
 
-from $V$ to the [[general linear Lie algebra]] on $V$, is square-0 (eq:NilpotencyOfQ) precisely if it is an _[[embedding tensor]]_ (Def. \ref{EmbeddingTensor}), in that:
+from $V$ to the [[general linear Lie algebra]] on $V$, is square-0 precisely if it is an _[[embedding tensor]]_ (Def. \ref{EmbeddingTensor}), in that:
 
 $$
   [\Theta, \Theta]
@@ -457,12 +457,12 @@ By unwinding of the definition (eq:SuperLieBracketOnDegree0InSuperLieAlgebraIndu
 
 $$
   \begin{aligned}
-    \big( \tfrac{1}{2} [Q,Q](v_1) \big)(v_2)
+    \big( \tfrac{1}{2} [\Theta,\Theta](v_1) \big)(v_2)
     & =
-    [Q, Q(v_1)](v_2)
+    [\Theta, \Theta(v_1)](v_2)
     \\
     & =
-    [Q, 
+    [\Theta, 
       \underset{
         \mathclap{
           = \rho_{\Theta(v_1)}(v_2)   
@@ -470,17 +470,17 @@ $$
       }
       {
         \underbrace{
-          (Q(v_1))(v_2)
+          (\Theta(v_1))(v_2)
         }
       }
     ] 
     - 
-    [Q(v_1), Q(v_2)]
+    [\Theta(v_1), \Theta(v_2)]
     \\
     & =
     \Theta( \rho_{\Theta(v_1)}(v_2) )
     -
-    [ \Theta(v_1), \Theta(v) ]
+    [ \Theta(v_1), \Theta(v_2) ]
   \end{aligned}
 $$
 
@@ -500,6 +500,9 @@ According to [Palmkvist 13, 3.1](tensor+hierarchy#Palmkvist13), [Lavau-Palmkvist
 
 =--
 
+
+
+[[!redirects embedding tensors and tensor hierarchy in super Lie theory -- references]]
 
 
 
