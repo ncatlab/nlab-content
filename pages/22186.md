@@ -8,6 +8,8 @@ His interests are in the general areas of Representation theory and homological 
 
 ## Selected papers
 
-* [[L. El Kaoutit]], _Wide Morita Contexts in Bicategories,_ Arab. J. Sci. Eng.__33__, (2008), 153&#8211;173
+On [[Morita contexts]] in [[bicategories]]:
+
+* [[L. El Kaoutit]], _Wide Morita Contexts in Bicategories, _ Arab. J. Sci. Eng.__33__, (2008), 153&#8211;173
 
 category: people
