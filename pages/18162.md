@@ -240,7 +240,7 @@ $$
   \big\{  
     \varnothing 
     ,\,
-    \{1\}
+    \{0\}
     ,\,
     \{0,1\}
   \big\}
@@ -277,7 +277,7 @@ to the [[point space]]:
   \ast
 \end{tikzcd}
 
-Namely, the previous argument applies, but only to the point $0 \in Sierp$, while now $\{1\} \,\subset\, Sierp$ *is* [[open subset|open]]. Therefore the existence of lifts now means that any two points must *both* have an [[open neighbourhood]] not containing the other, which is the definition of a [[T1-space|$T_1$-space]].
+Namely, the previous argument applies, but only to the point $1 \in Sierp$, while now $\{0\} \,\subset\, Sierp$ *is* [[open subset|open]]. Therefore the existence of lifts now means that any two points must *both* have an [[open neighbourhood]] not containing the other, which is the definition of a [[T1-space|$T_1$-space]].
 
 
 
@@ -450,12 +450,12 @@ For example:
 |[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture | 
 |--|--|--|--|
 | [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$| $\boxed{\{\boxed{0},\boxed{1}\}}$ |
-| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \leftarrow 1 \;\Big\}$ | $\boxed{\{\boxed{0}\rightarrow 1\}}$|
-| [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrows 1 \;\Big\}$ |  $\boxed{\{0\leftrightarrow 1\}}$ |
+| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{0\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \rightarrow 1 \;\Big\}$ | $\boxed{\{\boxed{0}\rightarrow 1\}}$|
+| [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrow 1 \;\Big\}$ |  $\boxed{\{0\leftrightarrow 1\}}$ |
 | [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\}  \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  | $\boxed{*}$ |
 
 
-Notice here how in $\big\{\; 0 \leftarrow 1 \;\}$ the point $1$ is [[open point|open]] (as there do emanate arrows form it) while the point ${0}$ is [[closed point|closed]] (as no arrows emanate from it).
+Notice here how in $\big\{\; 0 \rightarrow 1 \;\}$ the point $0$ is [[open point|open]] (as there do emanate arrows form it) while the point ${1}$ is [[closed point|closed]] (as no arrows emanate from it).
 
 
 Under this identitification of [[finite topological spaces]] $X$ with  [[preordered sets]] regarded as [[thin categories]] $Spec(X)$, the [[continuous maps]] between topological spaces correspond to [[functors]] between their specialization preorders:
@@ -531,7 +531,7 @@ $$
   }{
     \Big\{\;
       0 
-      \leftarrow
+      \rightarrow
       1
     \;\Big\}
   }
@@ -546,7 +546,7 @@ $$
   }{
     \Big\{\;
       0 
-      \leftrightarrows
+      \leftrightarrow
       1
     \;\Big\}
   }
@@ -603,7 +603,7 @@ $$
 In this notation, the open subsets of the domain are 
 $$\{\{U\}, \{V\}, \{a,U\}, \{V,b\}, \{U,x,V\}\},\{a,U,x,V,b\}\}
 $$
-In codomain, points $a$ and $b$ are closed, and the only point left is open.
+In the codomain, points $a$ and $b$ are closed, and the only point left is open.
 
 
 
@@ -684,6 +684,13 @@ Namely, any function to such a [[codiscrete space]] is continuous, and any funct
 \]
 
 We may now encode topological separation properties of the two subsets in terms of factorizations (hence liftings) of this their [[characteristic function]]:
+
+
+Often $F$ and $G$ will be points (identified with their [[singleton]] subsets); in that case, one usually says _distinct_ in place of _disjoint_.
+
+Often $F$ or $G$ will be closed sets; notice that disjoint closed sets are automatically separated, while a closed set and a point, if disjoint, are automatically topologically disjoint.
+
+To express the assumption that $F$ or $G$ is closed, we may modify the topology on $\{e_F,e_{\varnothing}, e_G$ and make the points $e_F$ and/or $e_G$ closed as appropriate. 
 
 
 
@@ -1177,40 +1184,142 @@ $ of point $e_G$.
 ### Separated by a function
 
 
-They are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps $F$ to $0$ and $G$ to $1$:
+We say that two disjoint subsets $F$ and $G$ are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps $F$ to $0$ and $G$ to $1$:
 
-$$ \exists\; f: S \to \mathbf{R},\; F \subseteq f^*(\{0\}) \;\wedge\; G \subseteq f^*(\{1\}) .$$
+$$ \exists\; f: S \to \mathbb{R},\; F \subseteq f^{-1}(\{0\}) \;\wedge\; G \subseteq f^{-1}(\{1\}) .$$
 
-The arrow  $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
+Equivalently, we may assume that $f$ takes values in $[0,1]\subseteq \mathbb{R}$.
 
-$$ S \longrightarrow   \{0'\} \cup [0,1] \cup \{1'\}  \longrightarrow  \{ 0'=F \leftrightarrow \bullet \leftrightarrow  1'=G\} $$
 
-where points $0',0$ and $1,1'$ are topologically indistinguishable,
-and $0'$ maps to $F$, and $1'$ maps to $G$, and $[0,1]$ maps to $\bullet$.
-Notice that sets separated by a function must be separated by closed neighbourhoods (the preimages of $[-\epsilon, \epsilon]$ and $[1-\epsilon, 1+\epsilon]$).
+This separation condition  on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfSeparatedClosedNeighbourhoods) factors as
 
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  && 
+  [0,1]\times_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\}
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    e_F
+      \leftrightarrow 
+    e_{[0,1]}
+      \leftrightarrow
+    e_G 
+  \big\}  
+\end{tikzcd}
+If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal arrow defined as 
+\[
+  \label{CharacteristicFunctiontoR01ForPairOfDIsjointSubsets}
+  \array{
+    f'
+    &\colon&
+    S 
+    &\longrightarrow& [0,1]\times_{\{0,1\}} \{0'\leftrightarrow 0, 1\leftrightarrow 1\}
+    \\
+    &&
+    x
+    &\mapsto&
+    \left\{
+    \array{
+      e_F &\vert& x \in F
+      \\
+      e_G &\vert& x \in G
+      \\   
+      f(x) &\vert& otherwise 
+    }
+    \right.
+  }
+\]
 
 
 ### Precisely separated by a function
 
-Finally, they are __precisely separated by a function__ if there exists a continuous real-valued function on the space that maps precisely $F$ to $0$ and $G$ to $1$:
+Finally, we say that two disjoint subsets $F$ and $G$ are __separated by a function__ if there exists a continuous [[real number|real]]-valued [[function]] on the space that maps precisely $F$ to $0$ and $G$ to $1$:
 
-$$ \exists\; f: S \to \mathbf{R},\; F = f^*(\{0\}) \;\wedge\; G = f^*(\{1\}) .$$
-    
-The arrow  
-$S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors as    
-    
+$$ \exists\; f: S \to \mathbf{R},\; F = f^{-1}(\{0\}) \;\wedge\; G = f^{-1}(\{1\}) .$$
 
-$$ S \longrightarrow   [0,1]  \longrightarrow  \{ 0=F \leftrightarrow \bullet\leftrightarrow  1=G\}$$
+Equivalently, we may assume that $f$ takes values in $[0,1]\subseteq \mathbb{R}$.
 
-where
-  $0'$ maps to $F$, and $1'$ maps to $G$, and $(0,1)$ maps to $\bullet$.
+
+This separation condition  on a pair of disjoint subsets means equivalently that their [[characteristic function]] (eq:CharacteristicFunctionForPairOfSeparatedClosedNeighbourhoods) factors as
+
+\begin{tikzcd}
+[
+  column sep={between origins, 60pt}, 
+  row sep={between origins, 40pt}
+]
+  \varnothing
+  \ar[dd]
+  \ar[rr]
+  && [0,1]
+  \ar[dd]
+  \\
+  \\
+  S
+  \ar[
+    rr,
+    "{ S_{F,G} }"{below}
+  ]
+  \ar[
+    uurr,
+    dashed,
+    "{ \exists }"
+  ]
+  &&
+  \big\{
+    0 
+      \leftrightarrow 
+    e_{(0,1)}
+      \leftrightarrow
+    1 
+  \big\}  
+\end{tikzcd}
+If $f:S\to [0,1]$ in a separating function as above, we may take the diagonal arrow defined as 
+\[
+  \label{CharacteristicFunctiontoRForPairOfDIsjointSubsets}
+  \array{
+    f'
+    &\colon&
+    S 
+    &\longrightarrow&  
+  [0,1]
+    \\
+    &&
+    x
+    &\mapsto&
+    \left\{
+    \array{
+      0 &\vert& x \in F
+      \\
+      1 &\vert& x \in G
+      \\   
+      f(x) &\vert& otherwise 
+    }
+    \right.
+  }
+\]
+
+
   Notice that sets separated by a function must be separated by closed neighbourhoods (the preimages of $[-\epsilon, \epsilon]$ and $[1-\epsilon, 1+\epsilon]$).
    Notice that sets precisely separated by a function must be separated by a function.
-
-Often $F$ and $G$ will be points (identified with their [[singleton]] subsets); in that case, one usually says _distinct_ in place of _disjoint_.
-
-Often $F$ or $G$ will be closed sets; notice that disjoint closed sets are automatically separated, while a closed set and a point, if disjoint, are automatically topologically disjoint.
 
 
 \linebreak
