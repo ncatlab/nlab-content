@@ -40,7 +40,6 @@ $$
 
 ### Relation to Schur polynomials
 
-
 Given a [[semistandard Young tableau]] $T$, we write $X^T$ for  the [[monomial]] which contains one factor of the [[variable]] $x_k$ for each occurrence of $k$ in the Young tableau: 
 
 \[
@@ -79,6 +78,9 @@ $$
 ([Sagan 01, Def. 4.4.1](#Sagan01), review in [Sagan Enc., p. 1](#SaganEnc))
 
 
+### Hook-content formula
+
+See at *[[hook content formula]]*
 
 
 
@@ -94,6 +96,7 @@ Survey in the context of [[Schur functions]]:
 
 
 See also the references at *[[Young tableau]]*.
+
 
 
 [[!redirects semistandard Young tableaux]]
