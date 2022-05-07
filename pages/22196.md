@@ -37,5 +37,5 @@ Thanks for your support!
 
 \section{A community endeavour}
 
-The details of donations will not be made public. The nLab will view itself as equally endebted to those who contribute a smaller amount as to those who contribute a larger amount. When we work on the nLab, we work for everybody: those who have made a donation, and those who have not. 
+The details of donations will not be made public. The nLab will view itself as equally indebted to those who contribute a smaller amount as to those who contribute a larger amount. When we work on the nLab, we work for everybody: those who have made a donation, and those who have not. 
 
