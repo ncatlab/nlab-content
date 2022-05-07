@@ -29,7 +29,7 @@ Detection due to
 
 Review in
 
-* Particle Data Group, _[The Review of Particle Physics 2017](http://pdg.lbl.gov/2017/)_ _110. Pentaquarks_ ([pdf](http://pdg.lbl.gov/2017/reviews/rpp2017-rev-pentaquarks.pdf))
+* [[Particle Data Group]], _[The Review of Particle Physics 2017](http://pdg.lbl.gov/2017/)_ _110. Pentaquarks_ ([pdf](http://pdg.lbl.gov/2017/reviews/rpp2017-rev-pentaquarks.pdf))
 
 See also 
 
