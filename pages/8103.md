@@ -1,6 +1,11 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Roman_Jackiw)
 
+On Jackiw's work on [[Chern-Simons theory]]:
+
+* Robert D. Pisarski, _Roman Jackiw and Chern-Simons theories_ ([arXiv:2103.15868](https://arxiv.org/abs/2103.15868))
+
+
 ## Selected writings
 
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
