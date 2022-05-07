@@ -403,8 +403,7 @@ An extensive treatment of the links between theories, sketches and models can be
 * [[Michael Makkai]], [[Robert Paré]], _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989. 
 {#MakkaiPare}
 
-* [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Originally published by:
-Springer-Verlag, New York, 1985, republished in:
+* [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Originally published by: Springer-Verlag, New York, 1985, republished in:
 Reprints in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
 
 That not only every sketchable category is [[accessible category|accessible]] but that conversely every [[accessible category]] is sketchable is due to
