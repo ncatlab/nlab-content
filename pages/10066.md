@@ -13,7 +13,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -372,14 +371,15 @@ This is never an [[isomorphism]], unless $G$ is the trivial group. But the [[Ati
 [[!include Segal completion -- table]]
 
 ### Rationalization
+ {#Rationalization}
 
 [[!include incarnations of rational equivariant topological K-theory -- table ]]
 
 ### Equivariant Chern-character
 
-There is an [[equivariant Chern character]] map from equivariant K-theory to [[equivariant ordinary cohomology]].
+There is an [[equivariant Chern character]] map from equivariant K-theory to [[rational cohomology|rational]] [[equivariant ordinary cohomology]] [above](#Rationalization)
 
-(e.g. [Stefanich](#Stefanich))
+(e.g. [Stefanich](#Stefanich), [Sati-Schreiber 20, Sec. 3.4](#SatiSchreiber20))
 
 
 
@@ -481,9 +481,11 @@ Vol. 347, No. 1 (Jan., 1995), pp. 77-98 ([jstor:2154789](https://www.jstor.org/s
 
 
 
-The equivariant [[Chern character]] is discussed in 
+The [[equivariant Chern character]] is discussed in 
 
 * {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
+
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], Sec. 3.4 of: _[[schreiber:The Character Map in Equivariant Twistorial Cohomotopy|The character map in equivariant twistorial Cohomotopy]]_ ([arXiv:2011.06533](https://arxiv.org/abs/2011.06533))
 
 Discussion relating to K-theory of [[homotopy quotients]]/[[Borel constructions]] is in 
 
