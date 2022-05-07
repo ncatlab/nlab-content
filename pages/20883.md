@@ -359,7 +359,7 @@ reviewed in
 
 Discussion of [[fundamental representation|fundamental]] $\mathfrak{gl}(n)$-weight systems in terms of [[Cayley distance kernels]] on the [[symmetric group]]:
 
-* {#CSS21} *[[schreiber:Weight systems that are quantum states]]*
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
 
 ### Via string diagrams
 
