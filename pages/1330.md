@@ -13,7 +13,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -73,6 +73,10 @@ This is [[Higher Topos Theory|HTT, def. 5.2.7.2]].
 This is the topic of section 5.2.7  and 5.5.4 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+With an eye towards [[modal homotopy type theory]]:
+
+* [[Marco Vergura]], *Localization Theory in an Infinity Topos*, 2019 ([pdf](https://ir.lib.uwo.ca/cgi/viewcontent.cgi?article=8583&context=etd), [ir.lib.uwo.ca:etd/6257](https://ir.lib.uwo.ca/etd/6257))
 
 
 [[!redirects localization of an (∞,1)-category]]
