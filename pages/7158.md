@@ -1,15 +1,32 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
 For the moment see [[polyhedron]].
 
 (...)
 
 ## Examples
 
+Convex regular polyons:
+
+* [[triangle]]
+
+* [[square]]
+
 * [[pentagon]]
+
+* [[hexagon]]
+
+* ...
 
 ## Related pages
 
-* [[triangle]]
+* [[tesselation]]
 
 * [[scissors congruence]]
 
