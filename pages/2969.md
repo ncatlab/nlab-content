@@ -9,13 +9,16 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Generally, given a [[category]] with a concept of [[path space object]] and hence of [[right homotopy]], then a [[morphism]] $i \colon A \longrightarrow B$ is said to have the _right homotopy extension property_ with respect to an [[object]] $X$ if it has the [[left lifting property]] against one of the two path endpoint evaluation maps $p_0 \colon Path(X) \longrightarrow X$, i.e. if in every [[commuting square]] as below, a diagonal lift exists:
+A [[morphism]] is said to have the *homotopy extension property* if [[homotopies]] out of its [[domain]] [[extension|extend]] to [[homotopies]] out of its [[codomain]].
+
+More in detail, given a [[category]] with a concept of [[path space object]] and hence of [[right homotopy]], then a [[morphism]] $i \colon A \longrightarrow B$ is said to have the _right homotopy extension property_ with respect to an [[object]] $X$ if it has the [[left lifting property]] against one of the two path endpoint evaluation maps $p_0 \colon Path(X) \longrightarrow X$, i.e. if in every [[commuting square]] as below, a diagonal lift exists:
 
 $$
   \array{
@@ -53,58 +56,141 @@ Specifically in the archetypical case that the ambient category is that of [[top
 
 ### In topological spaces
 
-+-- {: .num_defn #LeftHomotopyExtensionPropertyInTop}
-###### Definition
+\begin{definition}\label{LeftHomotopyExtensionPropertyInTop}
+**(homotopy extension property for left homotopies in topological spaces)**
+\linebreak
+A [[continuous function]] $i \colon A \xrightarrow{\;} X$ of [[topological spaces]] is said to satisfy the (left) **homotopy extension property** (HEP) with respect to a space $Y$ if 
 
-A [[continuous function]] $i \colon A\to X$ of [[topological spaces]] is said to satisfy the (left) **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}\colon X\to Y$ and a [[homotopy]] $F \colon A\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}\colon X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. 
+* for any map $f \colon X \longrightarrow Y$ and any [[left homotopy]] $\eta \,\colon\,  A \times [0,1] \longrightarrow Y$ such that $\eta(-,0) = f \circ i$, there exists a [[left homotopy]] $\widehat{\eta} \,\colon\,  X \times [0,1] \longrightarrow Y$ such that $\widehat{\eta} \circ (i \times id) = \eta$;
 
-If we write 
+equivalently:
+
+* given a [[commuting diagram]] in [[Top|TopSp]] of solid arrows as shown below, there exists a dashed arrow $\widehat \eta$ making all sub-diagrams commute:
+
+\begin{tikzcd}[column sep={between origins, 40pt}]
+    A
+    \ar[
+      dd,
+      "{i}"{left}
+    ]
+    \ar[
+      rr,
+      "{(\mathrm{id},\, 0)}"
+    ]
+    &&
+    A \times [0,1]
+    \ar[
+      dd,
+      "{ i \times \mathrm{id} }"{right}
+    ]
+    \ar[
+      dl,
+      "{\eta}"{left, yshift=3pt}
+    ]
+    \\
+    &
+    Y
+    \\
+    X
+    \ar[
+      rr,
+      "{ (\mathrm{id},\, 0) }"{below}
+    ]
+    \ar[
+      ur,
+      "{f}"
+    ]
+    &&
+    X \times [0,1]
+    \ar[
+      ul,
+      dashed,
+      "{ \widehat \eta }"{description}
+    ]
+\end{tikzcd}
+ 
+
+The map $f$ is sometimes said to be the _initial condition_ of a _homotopy extension problem_ and $\widehat{\eta}$ is called the [[extension]] of the homotopy $\eta$ subject to that initial condition. 
+
+The map $i$ is called a **[[Hurewicz cofibration]]** if it satisfies this homotopy extension property with respect to all spaces $Y$.
+\end{definition}
+
+\begin{remark}
+**(re-formulation in terms of right homotopies)**
+\linebreak
+In a [[convenient category of topological spaces|convenient]] [[cartesian closed category]] $TopSp$ of [[topological spaces]] (such as that of [[compactly generated topological spaces]]) the [[product]] $\dashv$ [[internal hom]]-[[adjunction]]
 
 $$
-  f \coloneqq \tilde{f}\circ i=F(-,0)
-  \,;
-$$ 
-
-then this is expressed by means of the [[commutative diagram]]
-
-$$
-\array{
-  A & & \stackrel{i}\to && X
-  \\
-  &\searrow^f && \swarrow^{\tilde{f}}&
-  \\
-  {}^{\mathllap{\sigma_0}}\downarrow & &Y && 
-    \downarrow^{\mathrlap{\sigma_0}}
-  \\
-  &\nearrow{F}&&\nwarrow{\exists\tilde{F}}&
-  \\
-  A\times I &&\stackrel{i\times id}\to&&X\times I
-}
+  TopSp
+    \underoverset
+    {\underset{ (-)^{[0,1]} }{\longrightarrow}}
+    {\overset{ (-) \times [0,1]  }{\longleftarrow}}
+    {\;\;\;\;\;\bot\;\;\;\;\;}
+  TopSp
 $$
 
-Here we denote $\sigma_0 \colon x\mapsto (x,0)$, so that $F\circ\sigma_0=F(-,0)$. The map $\tilde{f}$ is sometimes said to be the _initial condition_ of a _homotopy extension problem_. $\tilde{F}$ is the extension of the homotopy $F$ with given initial condition which itself extends $F\circ\sigma_0$. 
-
-=--
-
-Of course it is superfluous to write the arrow $f:A\to Y$: if we erase it, the commutativity of the remaining square just surrounding its position is saying $F\circ\sigma_0=\tilde{f}\circ i$; however it is conceptually nice to think of $\tilde{f}$ as extending some $f:=F\circ\sigma_0$. 
-
-One can instead of the diagram above write a diagram involving [[adjunction|adjoint]] maps. In other words, instead of any homotopy $h:A\times I\to Y$ we use the [[exponential object|exponential law]] to write $h':A\to Y^I$ where the correspondence is given by the formula $h'(a)(t)=f(a,t)$. Then the homotopy lifting property is the existence of the diagonal map $\tilde{F}'$ in the diagram:
+allows to pass to [[adjunct]] morphisms in Def. \ref{LeftHomotopyExtensionPropertyInTop} 
 
 $$
   \array{
-    A &\stackrel{F'}\to& Y^I
+    TopSp
+    \big(
+      A \times [0,1]
+      ,\,
+      Y
+    \big)
+    &\simeq&
+    TopSp
+    \big(
+      A
+      ,\,
+      Y^{[0,1]}
+    \big)
     \\
-    \downarrow^{i} &{}^{\exists\tilde{F}'}\nearrow&  \downarrow^{ev_0}
-    \\
-    X&\stackrel{\tilde{f}}{\to}& Y
+    \eta &\leftrightarrow& \eta'
   }
-  \,.
 $$
 
-where $ev_0:Y^I\to Y$ is the map of evaluation at zero $u\mapsto u(0)$. This is an instance of [[right lifting property]] with respect to maps $ev_0$. 
+and equivalently express the above diagram of [[left homotopies]] as the following (somewhat more transparent) diagram of [[right homotopies]], where $ev_0 \,\colon\, Y^{[0,1]}\to Y$ denotes [[evaluation]] at 0 $\gamma \mapsto \gamma(0)$:
 
-A map is a **[[Hurewicz cofibration]]** if it satisfies the homotopy extension property with respect to all spaces.
 
+\begin{tikzcd}
+    A
+    \ar[
+      d,
+      "{i}"{left}
+    ]
+    \ar[
+      r,
+      "{ \eta' }"{above}
+    ]
+    &
+    Y^{[0,1]}
+    \ar[
+      d,
+      "\mathrm{ev}_0"
+    ]
+    \\
+    X
+    \ar[
+      r,
+      "{f}"{below}
+    ]
+    \ar[
+      ur,
+      dashed,
+      "\widehat \eta'"{description}
+    ]
+    &
+    Y
+\end{tikzcd}
+
+
+
+In this equivalent formulation, the homotopy extension property is simply the [[right lifting property]] against the [[evaluation]] map $ev_0 \;\colon\; Y^{[0,1]} \xrightarrow{\;} Y$ out of the [[path space]] of $Y$.
+\end{remark}
+
+(e.g. [May 1999, p. 43](#May99))
 
 
 ## Properties
@@ -158,6 +244,18 @@ By the definition of $\tilde{G}$ and the commutativity of the original double sq
 =--
 
 
+## Literature
+
+Textbook accounts:
+
+* {#May99} [[Peter May]], Section 6.1 of: *[[A concise course in algebraic topology]]*, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
+* {#Hatcher02} [[Allen Hatcher]], p. 14-17 in: *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
+
+
+See also:
+
+* Wikipedia, *[Homotopy extension property](https://en.wikipedia.org/wiki/Homotopy_extension_property)*
 
 [[!redirects h-cofibration]]
 [[!redirects h-cofibrations]]
