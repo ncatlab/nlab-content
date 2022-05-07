@@ -21,6 +21,10 @@ which is a [[Hilbert W*-module]] over $A$.
 
 ## Related concepts
 
+* [[measurable field of Hilbert spaces]]
+
+* [[Serre-Swan theorem]]
+
 * [[W*-representation]]
 
 * [[Hilbert C*-module]]
