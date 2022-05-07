@@ -64,6 +64,14 @@ A [[brane]] for a LG model is given by a [[matrix factorization]] of its superpo
 
 ## References
 
+The original reference is
+
+* [[В. Л. Гинзбург]], [[Л. Д. Ландау]], _К теории сверхпроводимости_, ЖЭТФ 20 (1950), 1064.
+
+English translation:
+
+* [[Vitaly Ginzburg]], [[Lev Landau]], _On the Theory of Superconductivity_,  [DOI](https://doi.org/10.1007/978-3-540-68008-6_4).
+
 ### In superconductivity
 
 Discussion as a model for [[superconductors]]:
