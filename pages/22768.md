@@ -14,9 +14,37 @@
 
 ## Idea
 
-The idea of a minor scale comes from [[Peter Freyd]]. 
+The idea of a minor scale comes from [[Peter Freyd]]. Minor scales are models of [[multiplicative linear logic]]. 
 
 ## Definition
+
+### In terms of multiplicative conjunction and disjunction
+
+A __minor scale__ is a [[symmetric closed midpoint algebra]] $(M,\vert, \odot, (-)^\bullet, \bot, \top)$ with two binary operations $(-)\otimes(-):M\times M\to M$ called __[[multiplicative conjunction]]__ and $(-)\oplus(-):M\times M\to M$ called __[[multiplicative disjunction]]__ such that for all $a$ in $M$, 
+
+$$\bot \otimes a = \bot$$
+
+$$\bot \oplus a = a$$
+
+$$a \otimes \top = a$$
+
+$$a \oplus \top = \top$$
+
+__$\bot$-zooming__ can be defined as 
+
+$$a^\vee \coloneqq a \oplus a$$
+
+and __$\top$-zooming__ can be defined as 
+
+$$a^\wedge \coloneqq (a^\bullet \oplus a^\bullet)^\bullet$$
+
+__Central dilatations__ can be defined as 
+
+$$b^\dagger \coloneqq ((\odot \vert \bot)\oplus b)^\wedge$$
+
+or as 
+
+$$b^\dagger \coloneqq ((\odot \vert \top)\otimes b)^\vee$$
 
 ### In terms of zoom operations
 
@@ -30,23 +58,13 @@ $$(a \vert \top)^\wedge = a$$
 
 $$(a \vert \top)^\vee = \top$$
 
-Defining binary operators $(-)\otimes(-):M\times M\to M$ as 
+__Multiplicative conjunction__ can be defined as
 
 $$a \otimes b \coloneqq (a \vert b)^\wedge$$
 
-and $(-)\oplus(-):M\times M\to M$ as 
+__Multiplicative disjunction__ can be defined as 
 
 $$a \oplus b \coloneqq (a \vert b)^\vee$$
-
-the above axioms can be rewritten as 
-
-$$\bot \otimes a = \bot$$
-
-$$\bot \oplus a = a$$
-
-$$a \otimes \top = a$$
-
-$$a \oplus \top = \top$$
 
 __Central dilatations__ can be defined as 
 
@@ -74,11 +92,11 @@ and __$\top$-zooming__ can be defined as
 
 $$a^\wedge \coloneqq (((\bot \vert \odot) \vert a)^\dagger)^\dagger$$
 
-$(-)\otimes(-):M\times M\to M$ can be defined as 
+__multiplicative conjunction__ can be defined as 
 
 $$a \otimes b \coloneqq (a \vert b)^\wedge$$
 
-and $(-)\oplus(-):M\times M\to M$ can be defined as 
+and __multiplicative disjunction__ can be defined as 
 
 $$a \oplus b \coloneqq (a \vert b)^\vee$$
 
@@ -88,7 +106,11 @@ Every minor scale with $\bot = \top$ is [[trivial object|trivial]].
 
 Let the binary operation $(-)\vartriangleleft(-):M\times M\to M$ be defined as 
 
-$$a\vartriangleleft b \coloneqq (((a^\bullet \vert \bot)\vert b)^\vee)^\wedge$$
+$$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\oplus b)^\wedge$$
+
+or as 
+
+$$a\vartriangleleft b \coloneqq ((a^\bullet \vert \bot)\otimes b)^\vee$$
 
 The [[currying]] of $\vartriangleleft$ results in a __dilatation__ $(-)\vartriangleleft:M\to (M\to M)$. For every element $a$ in $M$, dilatation at $a$ is a [[retraction]] of contraction at $a$: $(a\vartriangleleft) \circ (a\vert) = id_M$, where $id_M$ is the [[identity function]] on $M$. 
 
@@ -102,7 +124,7 @@ If $a \leq b$, then $a \multimap b = \top$.
 
 ## Examples
 
-The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac{1}{2}$, $a^\bullet = 1 - a$, $\bot = 0$, $\top = 1$, $a^\wedge = max(2a-1,0)$, and $a^\vee = min(2a,1)$ is an example of a minor scale. 
+The [[unit interval]] with $a \vert b \coloneqq \frac{a + b}{2}$, $\odot = \frac{1}{2}$, $a^\bullet = 1 - a$, $\bot = 0$, $\top = 1$, $a \otimes b = max(a + b - 1,0)$, $a \oplus b = min(a + b,1)$, $a^\wedge = max(2a - 1,0)$ and $a^\vee = min(2a,1)$ is an example of a minor scale. 
 
 The set of truth values in Girard's [[linear logic]] is a minor scale. 
 
