@@ -33,7 +33,7 @@ The [[slice (infinity,1)-topos|slice]] of [[global equivariant homotopy theory]]
 
 1. $G$-equivariant homotopy theory [[full sub-(infinity,1)-category|faithfully embeds]] into the $\prec\!\! G$-slice of the global theory in two different ways, one of them interpreted as the inclusion of [[G-spaces]] $X$ as [[global quotient orbifold|global]] [[orbispaces]] $X \!\sslash\! G$, 
 
-1. these inclusions have a compatible pair of [[reflective sub-(infinity,1)-category|reflections]], one of which forms the [[spaces of sections]] $\Gamma_{{}_{\prec G}}$ over the $G$-singularity $\prec\!\! G$:
+1. these inclusions have a compatible pair of [[reflective sub-(infinity,1)-category|reflections]], one of which forms the [[spaces of sections]] $FixLoc \,\coloneqq\, \Gamma_{{}_{\prec G}}$ over the $G$-singularity $\prec\!\! G$:
 
 \begin{tikzcd}
   \phantom{AAAAAAA}
@@ -58,7 +58,7 @@ The [[slice (infinity,1)-topos|slice]] of [[global equivariant homotopy theory]]
   }
       \ar[
         rr,
-        "{ \Gamma_{\scalebox{.6}{$\prec G$}}    }"{description}
+        "{ \mathrm{FixLoc}    }"{description}
       ]
       \ar[
         rr,
@@ -434,7 +434,7 @@ For $\mathbf{H}$ any [[(infinity,1)-topos|$\infty$-topos]] and $G \,\in\, Grp(Fi
 \end{tikzcd}
 where those going to the left are [[fully faithful (infinity,1)-functors|fully faithful]] and the top one [[preserved limit|preserves]] [[finite product|finite]] [[homotopy products]].
 \end{prop}
-\begin{proof}
+\begin{proof}\label{ProofOfTheCohesiveAdjointQuadruple}
   Notice that 
   $$
     (Glo \mathbf{H})_{/\prec G}
@@ -457,8 +457,9 @@ where those going to the left are [[fully faithful (infinity,1)-functors|fully f
     \,,
   $$
   by [this Prop.](slice+infinity1-topos#SheavesOnBigSite).
-  With this, the statement follows by  [[(infinity,1)-Kan extension|$\infty$-Kan extension]]
-  of the adjoint pair from Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}.
+  With this, the statement follows -- via [this Prop.](adjoint+quadruple#KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple) --
+by  [[(infinity,1)-Kan extension|$\infty$-Kan extension]]
+ of the adjoint pair from Prop. \ref{GOrbitsAreReflectiveInSliceOverGOrbiSingularity}.
 \end{proof}
 
 
