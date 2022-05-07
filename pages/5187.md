@@ -27,7 +27,7 @@
 
 A _Boardman-Vogt resolution_ or _W-construction_ is a particular choice of cofibrant [[resolution]] of [[topological operads]] (or [[simplicial operads]] or similar). It is closely related to the operation of forming the [[dendroidal homotopy coherent nerve]]. Its restriction to [[Top]]-[[enriched categories]] / [[simplicial categories]] is accordingly closely related to the ordinary [[homotopy coherent nerve]].
 
-The construction is an variant of the _[[free operad]]_ construction, where the free composites of operations are further labeled by "distances" such that for vanishing distance the free composite is replaced with the actual composite.
+The construction is a variant of the _[[free operad]]_ construction, where the free composites of operations are further labeled by "distances" such that for vanishing distance the free composite is replaced with the actual composite.
 
 The original Boardman-Vogt resolution over [[Top]] generalizes naturally to a cofibrant [[resolution]] in the [[model structure on operads]] for operads enriched over any suitable [[monoidal model category]] that is equipped with a suitable [[comonoid|comonoidal]] [[interval object]]. In this general form the construction subsumes
 
@@ -191,7 +191,7 @@ One shows that this collection naturally carries the structure of an operad, etc
 +-- {: .un_remark}
 ###### Remark
 
-The object $(H \otimes P)(T)$ is to be thought of as the space whose points are tuples conisting of one operation in $P$ per vertex in $T$, of that arity, and of labels in $H$ assigned to the inner edges in $T$.
+The object $(H \otimes P)(T)$ is to be thought of as the space whose points are tuples consisting of one operation in $P$ per vertex in $T$, of that arity, and of labels in $H$ assigned to the inner edges in $T$.
 
 The object $(H \otimes P)^-(T)$ is a similar space, but where some of the labels on the inner edges are omitted. 
 
