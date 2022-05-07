@@ -22,6 +22,15 @@ For now, see:
 
 * [[fat geometric realization]]
 
+## Related concepts
+
+* [[homotopy weighted colimit]], [[homotopy weighted limit]],
+
+* [[homotopy colimit]], [[homotopy limit]],
+
+* [[homotopy Kan extension]]
+
+
 ## References
 
 
