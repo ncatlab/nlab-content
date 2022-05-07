@@ -37,7 +37,7 @@ One straightforward approach, at least if we are thinking along lines of [[exclu
 
 1. Letting $i: U \to K \times K$ denote the [[equalizer]] of $m: K \times K \to K$ and $e \circ !: K \times K \to 1 \to K$, add the axiom that $j = \pi_1 \circ i: U \to K \times K \to K$ (provably monic in finite limit logic) is a [[regular monomorphism]]: the [[equalizer]] of its [[cokernel pair]]; 
 
-1. Add the axiom that $(0, j): 1 + U \to K$ (provably a disjoint embedding) is [[epimorphism|epic]]. 
+1. Add the axiom that $(0, j): 1 + U \to K$ is a [[monomorphism|monic]] [[epimorphism|epic]]. 
 
 Some commentary might be in order. Clearly $U$ plays the role of the [[group of units]] of $K$, realized as a [[subobject]] by $j: U \to K$. Axiom 3. says that $0$ and $U$ exhaust all of $K$, but without going so far to say that $(0, j): 1 + U \to K$ is an [[isomorphism]], an inappropriately strong condition in the case of $Top$ (as it would force the point $0: 1 \to K$ to be open, making $K$ a [[discrete space]]). 
 
