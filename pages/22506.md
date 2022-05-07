@@ -26,7 +26,7 @@ This idea was proposed by [Maldacena-Susskind 13](#MaldacenaSusskind13) as a sol
 ## As a slogan for the Ryu-Takayanagi formula
  {#AsASloganForTheRyuTakayanagiFormula}
 
-The idea may usefully be compared -- and maybe is in parts a way of turning into prose -- the *[[Ryu-Takayanagi formula]]* (which has a more well-defined content is a *[[theorem]]* in a class of discrete [[tensor network]]-models), which equates 
+The idea may usefully be compared -- and maybe is in parts a way of turning into prose -- the *[[Ryu-Takayanagi formula]]* (which has a more well-defined content as a *[[theorem]]* in a class of discrete [[tensor network]]-models), which equates 
 
 * **(quantum entanglement:)** the [[entanglement entropy]] of a [[boundary field theory|boundary]] [[quantum field theory]] in a subspace of an [[asymptotic boundary]] 
 
