@@ -257,7 +257,7 @@ $$
   \big)
 $$
 
-with the [[nerve]] of the [[action groupoid]] of $G$ acting on itself by left multiplication ([[isomorphism|isomorphic]] to the [[pair groupoid]] on the underlying set of $G$):
+with the [[nerve]] of the [[action groupoid]] of $G$ acting on itself by right multiplication ([[isomorphism|isomorphic]] to the [[pair groupoid]] on the underlying set of $G$):
 
 \begin{tikzcd}
   & g_2 g_1
