@@ -58,6 +58,10 @@ On [[equivariant complex oriented cohomology theory]]:
 
 * [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl. Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
 
+On [[tensor triangulated categories]] and [[traces]]:
+
+* {#May01} [[Peter May]], _The Additivity of Traces in Triangulated Categories_, Advances in Mathematics, Volume 163, Issue 1, 2001, Pages 34-73 ([doi:10.1006/aima.2001.1995](https://doi.org/10.1006/aima.2001.1995))
+
 On [[parametrized stable homotopy theory]]:
 
 * [[Peter May]], [[Johann Sigurdsson]], _Parametrized Homotopy Theory_, Mathematical Surveys and Monographs, vol. 132, AMS 2006  ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
