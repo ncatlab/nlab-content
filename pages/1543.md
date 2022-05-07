@@ -148,7 +148,7 @@ Therefore in order to avoid ambiguous terminology in the following, we will now 
 ###### Definition
 
 Let $G$ be a [[locally compact topological group]] and $P$ a [[completely regular topological space]] equipped with a [[continuous function]] [[action]] $\rho : P \times G \to P$. 
-If $G$ acts _freely_ on $P$, (no element $g \in G$ except the neutral element has any fixed points in $P$ under the action) then the map 
+If $G$ acts _[[free action|freely]]_ on $P$, (no element $g \in G$ except the neutral element has any fixed points in $P$ under the action) then the [[coprojection]] 
 
 $$
   P \to P/G =: X
