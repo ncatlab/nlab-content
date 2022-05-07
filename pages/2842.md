@@ -325,13 +325,13 @@ $$
   }
 $$
 
-be a [[commuting diagram]] of [[topological space]]s such that
+be a [[commuting diagram]] of [[topological spaces]] such that
 
 * the horizontal morphisms are closed cofibrations;
 
-* the morphisms $p_0$ and $p$ are [[Hurewicz fibration]]s.
+* the morphisms $p_0$ and $p$ are [[Hurewicz fibrations]].
 
-Then the induced morphism on [[pullback]]s is also a closed cofibration
+Then the induced morphism on [[pullbacks]] is also a closed cofibration
 
 $$
   X_0 \times_{B_0} E_0 \hookrightarrow X \times_B E
@@ -348,6 +348,14 @@ This is stated and proven in ([Kieboom](#Kieboom)).
 The [[product]] of two closed cofibrations is a closed cofibration.
 
 =--
+
+## Examples
+
+\begin{example}\label{RelativeCWComplexes}
+  Any [[relative CW complex]]-inclusion is an h-cofibration.
+\end{example}
+Proofs may be found spelled out in: [Félix, Halperin & Thomas 2000, Prop. 1.9](rational+homotopy+theopry#FelixHalperinThomas00), [Mathew 2010](#Mathew10)
+
 
 ## References
 
@@ -368,6 +376,10 @@ Textbook accounts:
 Lecture notes:
 
 * {#Gutierrez} [[Javier Gutiérrez]], *Cofibrations*, ([pdf](https://www.math.ru.nl/~gutierrez/files/Lecture08.pdf), [[Gutierrez_Cofibrations.pdf:file]])
+
+Exposition:
+
+* {#Mathew10} [[Akhil Mathew]], *Examples of cofibrations*, 2010 ([web](https://amathew.wordpress.com/2010/10/08/examples-of-cofibrations/))
 
 The fact that morphisms of fibrant pullback diagrams along closed cofibrations induce closed cofibrations is in
 
