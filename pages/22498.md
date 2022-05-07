@@ -17,6 +17,17 @@
 
 The [[representation theory]] of the [[symmetric groups]].
 
+## Properties
+
+### Irreducible representations
+ {#IrreducibleRepresentations}
+
+In [[characteristic zero]], the [[irreducible representations]] of the symmetric group are, up to [[isomorphism]], given by the [[Specht modules]] labled by [[partitions]] of $n$ (e.g. [Sagan 01, Thm. 2.4.6](#Sagan01)).
+
+## Related concepts
+
+* [[Specht module]]
+
 ## References
 
 Textbook accounts:
