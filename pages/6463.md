@@ -70,8 +70,8 @@ This is for instance exercise 1.6 in  in [chapter 4](http://www.maths.abdn.ac.uk
 
 
 
-+-- {: .num_prop }
-###### Proposition
+\begin{proposition}
+\label{DiagonalAsSimplicialHomotopyColimit}
 **(diagonal is homotopy colimit)**
 
 The diagonal of a bisimplicial set $X_{\bullet,\bullet}$ is also (up to weak equivalence) the [[homotopy colimit]] of $X$ regarded as a simplicial diagram in the [[model structure on simplicial sets]]
@@ -81,7 +81,7 @@ $$
   \,.
 $$
 
-=--
+\end{proposition}
 
 This appears for instance as theorem 3.6 in ([Isaacson](#Isaacson)).
 
