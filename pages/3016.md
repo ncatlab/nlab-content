@@ -13,9 +13,9 @@
 =--
 =--
 
-[Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_ .  This is appropriate for an encyclopedia.
+[Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_.  This is appropriate for an encyclopedia.
 
-However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, the $n$Lab *has* a particular point of view, which we may call the **$n$POV** or the _[[higher category theory|n-]] [[category theory|categorical]] point of view_ .
+However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, the $n$Lab *has* a particular point of view, which we may call the **$n$POV** or the _[[higher category theory|n-]] [[category theory|categorical]] point of view_.
 
 To some extent the $n$POV is just the observation that [[category theory]] and [[higher category theory]], hence in particular of [[homotopy theory]], have a plethora of useful applications.
 
@@ -56,7 +56,7 @@ This arresting metaphor of "la mer qui monte" ("[[the rising sea]]"), which over
 
 ## Examples
 
-For an (incomplete) list of examples of topics for which the $n$POV has proven to be a useful perspective see
+For an (incomplete) list of examples of topics for which the $n$POV has proven to be a useful perspective, see
 
 * [[applications of (higher) category theory]]
 
