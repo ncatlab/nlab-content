@@ -30,6 +30,8 @@ A _wallpaper group_ is a [[crystallographic group]] ([[space group]]) in [[dimen
 
 * [[finite rotation group]]
 
+* [[tesselation]]
+
 ## References
 
 e. g. 
