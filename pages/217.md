@@ -96,6 +96,7 @@ The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETC
 * [[ETCC]]
 * [[practical foundations of mathematics]]
 * [[foundations of mathematics]]
+* [[ETCR]]
 
 ## References
 
