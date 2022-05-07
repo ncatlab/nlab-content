@@ -15,6 +15,12 @@ On [[knot theory]] related to [[physics]]/[[quantum field theory]]:
 * [[Louis Kauffman]] (ed.) _The Interface of Knots and Physics_, Proceedings of Symposia in Applied Mathematics
 Volume 51 (1996) ([pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf), [doi:10.1090/psapm/051](https://doi.org/10.1090/psapm/051))
 
+
+On the [[Crane-Yetter model]] [[4d TQFT]]:
+
+* {#CraneYetterKauffman94} [[Louis Crane]], [[Louis Kauffman]], [[David Yetter]], _State-Sum invariants of 4-manifolds I_, Journal of Knot Theory and Its Ramifications Vol. 06, No. 02, pp. 177-234 (1997)  ([arXiv:hep-th/9409167](https://arxiv.org/abs/hep-th/9409167), [pdf](http://arxiv.org/PS_cache/hep-th/pdf/9409/9409167v1.pdf), [doi:10.1142/S0218216597000145](https://doi.org/10.1142/S0218216597000145))
+
+
 On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]] ([[braid group representations]]):
 
 * [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*,  New Journal of Physics, Volume 6, January 2004 ([arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090), [doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134))
