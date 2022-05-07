@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Topological physics
++--{: .hide}
+[[!include topological physics -- contents]]
 =--
 =--
 =--
@@ -25,6 +25,8 @@ The field of _topological photonics_ deals with [[electromagnetism|electromagnet
 * [[topological phases of matter]]
 
 * [[topological field theory]]
+
+* [[optics]]
 
 ## References
 
