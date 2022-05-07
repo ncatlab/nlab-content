@@ -115,11 +115,16 @@ is not a regular epi in $Cat$. A very similar example is found at [Bednarczyk et
 
 ## References
 
-* {#Johnstone} [[Peter Johnstone]], Section A _[[Sketches of an Elephant]]_ 
+* {#Johnstone} [[Peter Johnstone]], Section A of: _[[Sketches of an Elephant]]_ 
 
 * {#Bed} Marek A. Bednarczyk, Andrzej M. Borzyszkowski, and Wieslaw Pawlowski, *Generalized congruences &#8211; epimorphisms in $\mathcal{C}a t$*, Theory and Applications of Categories [electronic only] 5 (1999), 266-280. [https://eudml.org/doc/120226](https://eudml.org/doc/120226?lang=fr&limit=5) 
 
 * {#Taylor} [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge Studies in Advanced Mathematics 59, Cambridge University Press 1999. 
+
+Exposition and examples:
+
+* [[Qiaochu Yuan]], *[Regular and effective monomorphisms and epimorphisms](https://qchu.wordpress.com/2012/11/03/regular-and-effective-monomorphisms-and-epimorphisms/)*, 2012
+
 
 [[!redirects regular epimorphisms]]
 [[!redirects regular epi]]
