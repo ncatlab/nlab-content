@@ -95,12 +95,12 @@ There is a well-known algebraic (more or less) characterisation of the real line
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
 *  An ordered field is __Dedekind complete__ if it is [[Dedekind completion|Dedekind-complete]].
 
-We speak of [[the]] such field because it is unique up to unique [[isomorphism]].
+In impredicative mathematics, we speak of [[the]] such field because it is unique up to unique [[isomorphism]].
 
 +-- {: .un_theorem}
 ###### Theorem
 
-There is an archimedean field $\mathbb{R}$ which is Dedekind-complete, and into which every archimedean field embeds.  Furthermore, every Dedekind-complete ordered field is isomorphic to $\mathbb{R}$, and uniquely so. 
+Assuming impredicative foundations, there is an archimedean field $\mathbb{R}$ which is Dedekind-complete, and into which every archimedean field embeds.  Furthermore, every Dedekind-complete ordered field is isomorphic to $\mathbb{R}$, and uniquely so. 
 =--
 
 +-- {: .proof}
@@ -109,7 +109,11 @@ There is an archimedean field $\mathbb{R}$ which is Dedekind-complete, and into 
 Construct $\mathbb{R}$ using, say, Dedekind cuts of rational numbers.  Then it is well known how to prove these facts about $\mathbb{R}$, so we omit the proof for now.
 =--
 
-However, we note that the proof is valid in weak [[foundations]], in particular internal to any [[topos]] with a [[natural numbers object]].  One can actually work in even weaker foundations than that; see the constructions at [[real numbers object]].  Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]].
+However, we note that the proof is valid in weak [[foundations]], in particular internal to any [[topos]] with a [[natural numbers object]].  One can actually work in even weaker foundations than that; see the constructions at [[real numbers object]].  
+
+Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]]. 
+
+However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, the Dedekind real numbers would no longer be unique up to unique isomorphism, but rather there would be a set of Dedekind real numbers for each universe. 
 
 ### The Cauchy complete ordered field
 
@@ -120,7 +124,25 @@ There is a well-known algebraic (more or less) characterisation of the real line
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
 *  An ordered field is __[[complete space|Cauchy complete]]__ if every [[Cauchy net]] in the field [[converges]].
 
-We speak of [[the]] such field because it is unique up to unique [[isomorphism]].
+In impredicative mathematics, we speak of [[the]] such field because it is unique up to unique [[isomorphism]].
+
++-- {: .un_theorem}
+###### Theorem
+
+Assuming impredicative foundations, there is an archimedean field $\mathbb{R}$ which is Cauchy-complete, and into which every archimedean field embeds.  Furthermore, every Cauchy-complete ordered field is isomorphic to $\mathbb{R}$, and uniquely so. 
+=--
+
++-- {: .proof}
+###### Proof
+
+Construct $\mathbb{R}$ using, say, Cauchy nets of rational numbers.  Then it is well known how to prove these facts about $\mathbb{R}$, so we omit the proof for now.
+=--
+
+However, we note that the proof is valid in weak [[foundations]], in particular internal to any [[topos]] with a [[natural numbers object]]. One can actually work in even weaker foundations than that; see the constructions at [[real numbers object]].  
+
+Even weaker foundations are possible if one allows the [[underlying set]] of $\mathbb{R}$ to be [[proper class|large]]. 
+
+However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, the Cauchy real numbers would no longer be unique up to unique isomorphism, but rather there would be a set of Cauchy real numbers for each universe. 
 
 ### The terminal archimedean field
 
@@ -131,7 +153,9 @@ There is a well-known algebraic (more or less) characterisation of the real line
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
 *  An archimedean field is __terminal__ if it is a [[terminal object]] in the category of archimedean fields.
 
-We speak of [[the]] such field because it is unique up to unique [[isomorphism]].
+In impredicative mathematics, we speak of [[the]] such field because it is unique up to unique [[isomorphism]].
+
+However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, there is only a terminal archimedean field if there is a maximal universe in which all the other universes [[embedding|embed]] into. 
 
 ### As an archimedean group
 
