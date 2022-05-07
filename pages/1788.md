@@ -1,4 +1,139 @@
 
+$$
+\begin{aligned}
+    \tau_0
+    \,
+    \mathbf{H}
+    \big(
+      X, \, B \mathcal{G}
+    \big)
+    & \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    \big[
+      X, \, B \mathcal{G}
+    \big]
+    \\
+    &
+    \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    \big[
+      X,
+      \,
+      &#643;
+      \, 
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    &#643;
+    \,
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    Disc
+    \,
+    \mathrm{Sing}
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \mathrm{Sing}
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \Big(
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    (\Delta^\bullet_{\mathrm{smth}})
+    \Big)
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \Big(
+    \mathbf{H}
+    \big(
+      X
+      \times
+      \Delta^\bullet_{\mathrm{smth}}
+      \,
+      \mathbf{B}\mathcal{G}
+    \big)
+    \Big)
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \big(
+      {\mathcal{G}}PrinBund_{X \times \Delta^\bullet_{\mathrm{smth}}}
+    \big)
+    \\
+    & \;\simeq\;
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \,
+    \tau_0
+    \big(
+    {\mathcal{G}}PrinBund_{X \times \Delta^\bullet_{\mathrm{smth}}}
+    \big)
+    \\
+    & \;\simeq\;
+    \Big(
+      \tau_0
+      \big(
+        {\mathcal{G}}PrinBund_{ X }
+      \big)
+    \Big)
+    \big/
+    \Big(
+      \tau_0
+      \big(
+      {\mathcal{G}}PrinBund_{X \times \Delta^1_{\mathrm{smth}}}
+      \big)
+    \Big)
+    \\
+    & \;\simeq\;
+    \big(
+      {\mathcal{G}}PrinBund_X
+    \big)_{\sim_{\mathrm{conc}}}
+  \end{aligned}
+$$
+
+
 $\leftrightarrows$
 
 $\ldots$
