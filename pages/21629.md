@@ -81,6 +81,11 @@ $$
 This is [Lurie 09b, Theorem 1.3.6](#Lurie09b), [Lurie 17, Theorem 6.2.6.15](#Lurie17).
 
 
+## Related concepts
+
+* [[looping and delooping]]
+
+* [[Quillen equivalence between simplicial groups and reduced simplicial sets]]
 
 
 ## References
