@@ -57,7 +57,7 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
 * [[Edward Curtis]], _Simplicial Homotopy Theory_, Advances in Math., 6, (1971), 107 &#8211; 209.
 
-* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996)
+* [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1996) ([doi:10.1007/978-3-0346-0189-4)]([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)))
 
 * {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
 
