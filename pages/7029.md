@@ -17,18 +17,46 @@
 
 ## Definition
 
+### In sets
+ {#InSets}
+
 \begin{definition}
+\label{FreeGroupActionInComponents}
 A [[group action]]
 
 $$
   (-)\cdot(-) \;\colon\; G \times X \to X
 $$
 
-of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$,  the [[equation]] $g \cdot x = x$ [[implication|implies]] $g = e_G$ (the [[neutral element]]), hence if only the action of the [[neutral element]] has [[fixed points]].
+of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$,  the [[equation]] $g \cdot x = x$ [[implication|implies]] $g = \mathrm{e}$ (the [[neutral element]]), hence if only the action of the [[neutral element]] has [[fixed points]]
+
+\[
+  \label{FreenessConditionInComponents}
+  \underset{x \in X}{\exists}
+  \;\;
+  g \cdot x \,=\, x  
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  g \,=\, \mathrm{e} 
+  \,.
+\]
 
 Equivalently, an action is free if and only if for any [[pair]] of elements $x,y \in X$, there is _at most one_ group element $g \in G$ such that $g \cdot x = y$. 
 
-This means equivalently that the action is free if and only if its [[shear map]] is a [[monomorphism]]:
+\end{definition}
+
+\begin{remark}
+Beware the similarity to and difference of free actions with [[effective group action|effective action]]: a free action is effective, but an effective action need not be free.
+\end{remark}
+
+\begin{remark}
+A free action that is also [[transitive action|transitive]] is called _[[regular action|regular]]_ (at least after passing to its [[linear representation|linear]] [[permutation representation]]).
+\end{remark}
+
+\begin{proposition}
+\label{FreeGroupActionViaMonomorphicShearMap}
+A group action is free according to Def. \ref{FreeGroupActionInComponents} iff its [[shear map]] is a [[monomorphism]]:
 
 \[
   \label{FreeActionWitnessedByMonomorphicShearMap}
@@ -53,18 +81,246 @@ This means equivalently that the action is free if and only if its [[shear map]]
     \,.
   }
 \]
+\end{proposition}
+\begin{proof}
+  In one direction, assume that the 
+action is free in the sense of Def. \ref{FreeGroupActionInComponents}.
+Then given $(x,g\cdot x) = (x', g' \cdot x')$
+it follows that $x = x'$ and thus that $g \cdot x = g' \cdot x$, which by (eq:FreenessConditionInComponents) implies that $g = g'$. This implication means that the shear map is injective.
 
-In this form the definition makes sense for [[action objects]] [[internalization|internal]] to any ambient [[category]] (with [[finite products]]).
+In the other direction, assume that the shear map is injective. Then given $g \cdot x = x$, hence equivalently $(x, g \cdot x) = (x, \mathrm{e} \cdot x)$ it follows that ($x = x$ and) $g = \mathrm{e}$. This is the required implication (eq:FreenessConditionInComponents).
+\end{proof}
+
+
+### In categories with finite products
+
+In the form (eq:FreeActionWitnessedByMonomorphicShearMap) the definition of free action makes sense more generally for [[action objects]] [[internalization|internal]] to any ambient [[category]] (with [[finite products]]):
+
+\begin{definition}
+\label{FreeInternalActions}
+  Let $\mathcal{C}$ be a [[category]] with [[finite products]], let $G \,\in\, Grp(\mathcal{C})$ be an [[internal group]] and $G \curvearrowright X \,\in\, G Act(\mathcal{C}) $ an [[internal action]]:
+
+$$
+  G \times X \xrightarrow{\;\; rho \;\;} X
+  \,.
+$$
+
+Then this is a *free action* if its [[shear map]] is a [[monomorphism]]  in $\mathcal{C}$: 
+\[
+  \label{FreeInternalAction}
+  \rho \; \text{is free}
+  \;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;
+  G \times X \xhookrightarrow{\; (\rho, pr_2)\;} X \times X
+  \,.
+\] 
 \end{definition}
 
 
-\begin{remark}
-Beware the similarity to and difference of free actions with [[effective group action|effective action]]: a free action is effective, but an effective action need not be free.
-\end{remark}
+### In an $\infty$-topos
+ {#DefinitionInAnInfinityTopos}
 
-\begin{remark}
-A free action that is also [[transitive action|transitive]] is called _[[regular action|regular]]_ (at least after passing to its [[linear representation|linear]] [[permutation representation]]).
-\end{remark}
+Def. \ref{FreeInternalActions} also makes sense in the generality of [[(infinity,1)-category theory|$(\infty,1)$-category theory]], with [[monomorphisms]] understood to be [[n-truncated object in an (infinity,1)-category|(-1)-truncated morphisms]].
+
+\begin{definition}
+\label{FreeInfinityAction}
+**(free $\infty$-action in an $\infty$-topos)**
+\linebreak
+Let
+
+* $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]];
+
+* $G \,\in\, Grp(\mathbf{H})$ a [[group object in an (infinity,1)-category|group object]] (a [[geometric homotopy theory|geometric]] [[infinity-group|$\infty$-group]]);
+
+* $G \curvearrowright X \,\in\, G Act(\mathbf{H})$ an [[infinity-action|$\infty$-action]] of $G$ on $X$.
+
+we say that the $\infty$-action is *free*, if its [[shear map]] $shear_1$ is [[(-1)-truncated]]:
+
+\begin{tikzcd}
+      X \times G
+      \ar[rr, "\rho"]
+      \ar[dd, "\mathrm{pr}_1"{left}]
+      \ar[dr, hook, dashed, "\mathrm{shear}_1"{sloped}]
+      &&
+      X
+      \ar[dr, -, shift left=1pt]
+      \ar[dr, -, shift right=1pt]
+      \ar[dd, ->>]
+      \\
+      &
+      X \times X
+      \ar[rr, crossing over, "\mathrm{pr}_1"{pos=.17}]
+      \ar[ddrr, phantom, "{\mbox{\tiny (pb)}}"{pos=.1}]
+      &&
+      X
+      \ar[dd]
+      \\
+      X
+      \ar[dr, -, shift left=1pt]
+      \ar[dr, -, shift right=1pt]
+      \ar[rr, ->>]
+      &&
+      X /\!\!/ G
+      \ar[dr]
+      \\
+      &
+      X \ar[rr]
+      \ar[from=uu, crossing over, "\mathrm{pr}_2"{left, pos=.25}]
+      &&
+      \ast
+\end{tikzcd}
+
+\end{definition}
+
+\begin{lemma}
+\label{HigherShearMapsOfFreeInfinityActionsAreMinusOneTruncated}
+**(higher shear maps of free $\infty$-actions are $(-1)$-truncated)**
+\linebreak
+  If an $\infty$-action is free according to Def. \ref{FreeInfinityAction}, then also all its higher shear maps $shear_n$ are [[(-1)-truncated]]:
+
+\begin{tikzcd}
+      {}
+      \ar[d, -, shift left=15pt, dotted]
+      \ar[from=d, -, shift left=10pt, dotted]
+      \ar[d, -, shift left=5pt, dotted]
+      \ar[from=d, -, dotted]
+      \ar[d, -, shift right=5pt, dotted]
+      \ar[from=d, -, shift right=10pt, dotted]
+      \ar[d, -, shift right=15pt, dotted]
+      &
+      {}
+      \ar[d, -, shift left=15pt, dotted]
+      \ar[from=d, -, shift left=10pt, dotted]
+      \ar[d, -, shift left=5pt, dotted]
+      \ar[from=d, -, dotted]
+      \ar[d, -, shift right=5pt, dotted]
+      \ar[from=d, -, shift right=10pt, dotted]
+      \ar[d, -, shift right=15pt, dotted]
+      \\
+      X
+        \times 
+      {G} \times {G}
+      \ar[d, shift left=10pt, hook]
+      \ar[from=d, shift left=5pt]
+      \ar[d]
+      \ar[from=d, shift right=5pt]
+      \ar[d, shift right=10pt]
+      \ar[r, hook, "\mathrm{shear}_2"]
+      &
+      X \times X \times X
+      \ar[d, shift left=10pt]
+      \ar[from=d, shift left=5pt]
+      \ar[d]
+      \ar[from=d, shift right=5pt]
+      \ar[d, shift right=10pt]
+      \\
+      X
+        \times 
+      {G}
+      \ar[d, shift left=5pt, hook]
+      \ar[from=d]
+      \ar[d, shift right=5pt]
+      \ar[r, hook, "\mathrm{shear}_1"]
+      &
+      X \times X
+      \ar[d, shift left=5pt]
+      \ar[from=d]
+      \ar[d, shift right=5pt]
+      \\
+      X
+      \ar[r, -, shift right=1pt]
+      \ar[r, -, shift left=1pt, "\mathrm{shear}_0"{above}]
+      \ar[d, ->>]
+      &
+      X
+      \ar[d, ->>]
+      \\
+      X /\!\!/ G
+      \ar[r]
+      &
+      \ast
+\end{tikzcd}
+
+\end{lemma}
+\begin{proof}
+  Notice that for $X \twoheadrightarrow \mathcal{X}$ any [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] in the $\infty$-topos $\mathbf{H}$, we have for $n \in \mathbb{N}_+$ the following [[homotopy pullback]] [[pasting diagram]]:
+
+\begin{tikzcd}[column sep=30pt] 
+    &&
+    X^{\times^{n+2}_{\mathcal{X}}}
+    \ar[dl]
+    \ar[dd, phantom, "\mbox{\tiny (pb)}"]
+    \ar[dr]
+    \\
+    & 
+    X^{\times^{n+1}_{\mathcal{X}}}
+    \ar[dl]
+    \ar[dr]
+    \ar[dd, phantom, "\mbox{\tiny (pb)}"]
+    &&
+    X^{\times^2_{\mathcal{X}}}
+    \ar[dl]
+    \ar[dr]
+    \ar[dd, phantom, "\mbox{\tiny (pb)}"]
+    \\
+    X^{\times^n_{\mathcal{X}}}
+    \ar[dr]
+    &&
+    X
+    \ar[dl]
+    \ar[dr]
+    &&
+    X
+    \ar[dl]
+    \\
+    &
+    \mathcal{X}
+    &&
+    \mathcal{X}
+\end{tikzcd}
+Here the two bottom squares are homotopy Cartesian by definition of [[Cech nerves]], and the top square is homotopy Cartesian since the Cech nerve is a [[groupoid object in an (infinity,1)-category|groupoid object]] (see also at *[[groupoid objects in an (∞,1)-topos are effective]]*) which satisfies the groupoidal [[Segal conditions]] (by [this Def.](groupoid+object+in+an+infinity1-category#GroupoidObjectsViaGroupoidalSegalCondition)).
+
+But this implies, for all $n \geq 1$, that the $n+1$st shear map is the [[homotopy fiber product]] in the [[arrow category]] $\mathbf{H}^{\Delta[1]}$ of the 1st with the $n$th shear map over the [[identity morphism]] on $X$:
+
+\begin{tikzcd}
+    X \times G^{\times^{n+1}}
+    \ar[rr]
+    \ar[dr, hook, dashed, "\mathrm{shear}_{n+1}"{sloped, below}]
+    \ar[dd]
+    &&
+    X \times G
+    \ar[dr, hook, "\mathrm{shear}_1"{sloped}]
+    \ar[dd, "\mathrm{pr}_1"{left, pos=.3}]
+    \\
+    &
+    X^{\times^{n+2}}
+    \ar[rr, crossing over]
+    \ar[ddrr, phantom, "\mbox{\tiny (pb)}"{pos=.15}]
+    &&
+    X \times X
+    \ar[dd, "\mathrm{pr}_1"{left, pos=.3}]
+    \\
+    X \times G^{\times^n}
+    \ar[rr]
+    \ar[dr, hook, "\mathrm{shear}_n"{sloped}]
+    &&
+    X
+    \ar[dr, -, shift left=1pt]
+    \ar[dr, -, shift right=1pt]
+    \\
+    &
+    X^{\times^{n+1}}
+    \ar[rr]
+    \ar[from=uu, crossing over]
+    &&
+    X
+\end{tikzcd}
+
+Now the claim follows by [[induction]] from the fact that [[(-1)-truncated]] morphisms are the right class in an [[orthogonal factorization system in an (infinity,1)-category|orthogonal factorization system]] (namely the 
+[[(n-connected, n-truncated) factorization system]] for $n = -1$) and such classes of morphisms are closed under all [[(infinity,1)-limits|$\infty$-limits]], in particular under [[homotopy pullbacks]], in the [[arrow category]] (by [this Prop.](orthogonal+factorization+system+in+an+infinity1-category#RightClassStableUnderLimitsInArrowCategory)).
+\end{proof}
+
 
 ## Examples
 
@@ -90,28 +346,19 @@ Let
 
 * $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]];
 
-* $G \,\in\, Groups(\mathbf{H})$ a [[group object in an (infinity,1)-category|group object]] ([[infinity-group|$\infty$-group]]);
+* $G \,\in\, Grp(\mathbf{H})$ a [[group object in an (infinity,1)-category|group object]] (a [[geometric homotopy theory|geometric]] [[infinity-group|$\infty$-group]]);
 
 * $G \curvearrowright X \,\in\, A Act(\mathbf{H})$ an [[infinity-action|$\infty$-action]] of $G$ on $X$.
 
-If this is an $\infty$-[[free action]] in that all its higher [[shear map]] are [[n-truncated object in an (infinity,1)-category|(-1)-truncated]]
-
-\[
-  \label{HigherShearMapsOfInfinityFreeAction}
-  \underset{n \in \mathbb{N}}{\forall}
-  \;\;
-  X \times G^{\times_n}
-  \xhookrightarrow{ \phantom{---}  }
-  X^{\times_{n+1}}
-\]
-
-then the [[homotopy quotient]] 
+If this is a free $\infty$-action (Def. \ref{FreeInfinityAction}) then the [[homotopy quotient]] 
 
 \[
   \label{HomotopyQuotientAsInfinityColimit}
   X 
     \!\sslash\! G 
-   \,=\, \underset{\underset{[n] \in \Delta^{op}}{\longrightarrow}}{\lim} X \times G^{\times_n}
+   \,=\, 
+   \underset{\underset{[n] \in \Delta^{op}}{\longrightarrow}}{\lim} 
+  X \times G^{\times_n}
   \;\;\;
   \in
   \;
@@ -176,7 +423,7 @@ in that
   \,.
 \]
 
-In particular, if both $X$ and $G$ are already [[0-truncated]], then the action of $G$ on $X$ is $\infty$-free iff it is free in the ordinary sense (eq:FreeActionWitnessedByMonomorphicShearMap), and then the homotopy quotient coincides with their ordinary quotient.
+In particular, if both $X$ and $G$ are already [[0-truncated]], then the action of $G$ on $X$ is free iff it is free in the [[1-category]] theoretic sense (eq:FreeInternalAction), and then the homotopy quotient coincides with their ordinary quotient.
 \end{proposition}
 
 \begin{proof}
@@ -202,9 +449,7 @@ every morphism into it out of $U \times \mathbf{B}K$  factors through the [[proj
 
 Here $\ast$ denotes the [[terminal object]], which we adjoin, without changing the situation, to bring out the form of the [[lifting problem]].
 
-The left morphism above is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] as shown, hence is [[(-1)-connected]], since the [[underlying]] [[infinity-groupoid|$\infty$-groupoid]] $K \in Grpd_\infty$ of every [[discrete infinity-groupoid|discrete $\infty$-group]] is [[inhabited object|inhabited]] and since $LConst$, being an [[inverse image]]-functor, is a [[lex functor|lex]] [[left adjoint]] and hence [[preserved limit|preserves]] [[Cech nerves]] and [[(infinity,1)-colimits|$\infty$-colimits]] and hence [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]].
-
-Notice, therefore, that *if* the right vertical morphism $X \!\sslash\! G \xrightarrow{\;\;} \ast$ were [[(-1)-truncated]] (hence if $X \!\sslash\! G$ were [[subterminal object|subterminal]]), then the [[(n-connected, n-truncated) factorization system]] would imply the required [[lift]]. While this would-be argument fails, as $X \!\sslash\! G$ is in general far from being subterminal, the following argument observes that with a suitable choice of [[atlases]] for all four [[infinity-stack|$\infty$-stacks]], their [[groupoid object in an (infinity,1)-category|groupoid objects]] do form a [[lifting problem]] to which the [[(n-connected, n-truncated) factorization system]] does apply:
+Incidentally, the left morphism above is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] as shown, hence is [[(-1)-connected]]. Threfore, *if* the right vertical morphism $X \!\sslash\! G \xrightarrow{\;\;} \ast$ were [[(-1)-truncated]] (hence if $X \!\sslash\! G$ were [[subterminal object|subterminal]]), then the [[(n-connected, n-truncated) factorization system]] would imply the required [[lift]]. While this would-be argument fails, as $X \!\sslash\! G$ is in general far from being subterminal, the following argument observes that with a suitable choice of [[atlases]] for all four [[infinity-stack|$\infty$-stacks]], their [[groupoid object in an (infinity,1)-category|groupoid objects]] do form a [[lifting problem]] to which the [[(n-connected, n-truncated) factorization system]] does apply:
 
 So consider extending the above square diagram to a square of [[augmented simplicial object|augmented]] [[simplicial objects]] by considering  [[atlas|atlases]] and their [[Cech nerves]], as shown by the following solid arrows:
 \begin{tikzcd}[row sep=30pt]
@@ -303,11 +548,13 @@ So consider extending the above square diagram to a square of [[augmented simpli
     \ast
 \end{tikzcd}
 {#ObservingTheConnectedTruncatedLiftingPropblems}
-By the [[inhabited object|inhabitation]] of $K$ 
-all the upper horizontal squares have a [[(-1)-connected]] morphisms $\twoheadrightarrow$ on the left.
-Moreover, by the assumption (eq:HigherShearMapsOfInfinityFreeAction) the their right morphisms are [[(-1)-truncated]] $\hookrightarrow$.
+Observe that all the upper horizontal squares in this diagram have, as indicated: 
 
-Since $n$-connected/$n$-truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] (here: of [[simplicial objects]] in $\mathbf{H}$) are detected objectwise,  this means that the entire square diagram of [[simplicial objects]] (i.e. disregarding the bottom square) has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right.  Therefore, the [[(n-connected, n-truncated) factorization system]] implies that there exist compatible dashed [[lifts]] filling all the upper squares, as shoown. 
+1. a [[(-1)-connected]] morphisms $\twoheadrightarrow$ on the left, since the [[underlying]] [[infinity-groupoid|$\infty$-groupoid]] $K \in Grpd_\infty$ of every [[discrete infinity-groupoid|discrete $\infty$-group]] is [[inhabited object|inhabited]] and since $LConst$, being an [[inverse image]]-functor, is a [[lex functor|lex]] [[left adjoint]] and hence [[preserved limit|preserves]] [[Cech nerves]] and [[(infinity,1)-colimits|$\infty$-colimits]] and hence [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]].
+
+1. a [[(-1)-truncated]] morphism $\hookrightarrow$ on the right, by Lemma \ref{HigherShearMapsOfFreeInfinityActionsAreMinusOneTruncated}.
+
+Since [[n-connected object in an (infinity,1)-topos|$n$-connected]]/[[n-truncated object in an (infinity,1)-category|$n$-truncated]] morphisms in  [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] (here: of [[simplicial objects]] in $\mathbf{H}$) are detected objectwise (since they are characterized by [[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups]]),  this means that the entire square diagram of [[simplicial objects]] (i.e. disregarding the bottom square) has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right.  Therefore, the [[(n-connected, n-truncated) factorization system]] implies that there exist compatible dashed [[lifts]] filling all the upper squares, as shown. 
 
 But then taking the [[(infinity,1)-colimits|$\infty$-colimit]] over [[simplicial objects]] and using that [[groupoid objects in an (infinity,1)-topos are effective|groupoid objects in an $\infty$-topos are effective]], recovers the bottom square, but now also equipped with a dashed [[lift]]. This is the claimed factorization which shows that $X \!\sslash\! G$ is [[0-truncated]];
 
