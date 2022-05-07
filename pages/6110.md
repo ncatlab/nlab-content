@@ -11,8 +11,14 @@ This entry collects material related to the book
 
   [doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)
 
-
 on applications of [[differential forms]], or rather of [[de Rham cohomology]], in [[algebraic topology]].
+
+
+Related references:
+
+* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
+
+
 
 #Contents#
 * table of contents
