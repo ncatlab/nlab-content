@@ -417,3 +417,4 @@ The following pages develop various aspects of set theory in SEAR or related the
 * [[categories in SEAR]]: defining small categories, in response to a query on the blog.
 * [[universes in SEAR]]: how to formulate an axiom of [[Grothendieck universes]].
 * [[SEAR+?]]: a variant theory containing a [[choice operator]].
+* [[ETCR]]: A categorical version of Bounded SEARC. 
