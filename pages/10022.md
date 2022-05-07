@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,13 +27,13 @@ A more precise version of this idea is given by the *Ryu-Takayanagi formula*, se
 
 This kind of relation between [[entropy]] of [[quantum systems]] and [[area]]/[[volumes]] of critical surfaces in a [[curved spacetime]] is akin to the [[Bekenstein-Hawking entropy]]-formula for [[black holes]], and indeed it is meant to *subsume* the [[black hole entropy]]-formua for black holes in [[anti de Sitter spacetimes]].
 
-While in the original context of the [[AdS-CFT correspondence]] the Ryu-Takayanagi formula remains ill-defined, or at least intractable in detail (not the least because it is, ultimately, a statement about [[non-perturbative quantum field theory|non-perturbative]] [[string theory]], hence about [[M-theory]], which remains elusive), its general idea led to the discovery of fully well-defined discretized ("toy") models  of holography in terms of [[tensor networks]] that express ([[code subspaces]]) of [[quantum error correcting codes]] (such as the [[HaPPY code]] and [[Majorana dimer codes]]). In these holographic [[tensor network]] models the behaviour of holographic entanglement entropy, and of several other expected aspects of [[holography]], turn out to have a faithful reflection (up to lattice effects caused by the discretization) amenable to explicit analysis, by tools 
+While in the original context of the [[AdS-CFT correspondence]] the Ryu-Takayanagi formula remains ill-defined, or at least intractable in detail (not the least because it is, ultimately, a statement about [[non-perturbative quantum field theory|non-perturbative]] [[string theory]], hence about [[M-theory]], which [remains elusive](M-theory#TheOpenProblem)), its general idea led to the discovery of fully well-defined discretized ("toy") models  of holography in terms of [[tensor networks]] that express ([[code subspaces]]) of [[quantum error correcting codes]] (such as the [[HaPPY code]] and [[Majorana dimer codes]]). In these holographic [[tensor network]] models the behaviour of holographic entanglement entropy, and of several other expected aspects of [[holography]], turn out to have a faithful reflection (up to lattice effects caused by the discretization) amenable to explicit analysis, by tools 
 
 1. from [[quantum information theory]],
 
 1. from [[condensed matter physics]] (see also at *[[AdS/CMT]]*).
 
-The power of these [[quantum information theory]]-methods in making precise and detailed sense of [[quantum gravity]] in a [[holographic]] [[bulk]] [[spacetime]] has re-informed the earlier idea in [[AdS/CFT]] that notions of [[spacetime]] and of [[quantum gravity]] may be defined and in fact *emerge* from [[quantum entanglement]], an idea that has become known under the slogan "[It from Qbit](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)". Just to keep in mind that, a priori, this applies "only" to the *extra* (higher) [[bulk]] [[dimension|dimensions]] of [[spacetime]], while the definition of the [[boundary field theory]] typically relies on some notion space(-time) already (maybe unless one considers bulk duals of [[D(-1)-branes]]...).
+The power of these [[quantum information theory]]-methods in making precise and detailed sense of [[quantum gravity]] in a [[holography|holographic]] [[bulk]] [[spacetime]] has re-informed the earlier idea in [[AdS/CFT]] that notions of [[spacetime]] and of [[quantum gravity]] may be defined and in fact *emerge* from [[quantum entanglement]], an idea that has become known under the slogan "[It from Qbit](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)". Just to keep in mind that, a priori, this applies "only" to the *extra* (higher) [[bulk]] [[dimension|dimensions]] of [[spacetime]], while the definition of the [[boundary field theory]] typically relies on some notion space(-time) already (maybe unless one considers bulk duals of [[D(-1)-branes]]...).
 
 
 
