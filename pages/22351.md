@@ -43,13 +43,17 @@ There is the following [[general abstract]] definition of slices via [[adjunctio
 
 \begin{defn} Let $H \subset G$ be a [[subgroup]] inclusion such that restricting given [[actions]] ([[internalization|internal]] to a given ambient [[category]]) of $G$ to $H$ has a [[left adjoint]] $G \times_{H} (-)$ (e.g. for [[topological G-spaces]] the [topological induced action](topological+G-space#induced_action)).
 
-Then a *slice* in a $G$-action $U$ is an $H$-subaction inclusion $S \overset{i}{\hookrightarrow} U$ whose [[adjunct]] is an [[isomorphism]]
+Then an *$H$-slice* in a $G$-action $U$ is an $H$-subaction inclusion $S \overset{i}{\hookrightarrow} U$ whose induction/restriction-[[adjunct]] is an [[isomorphism]]:
 
 $$
   G \times_ H S
   \underoverset
     {\simeq}
-    {\tilde i}
+    {
+      \;\;
+      \tilde i
+      \;\;
+    }
     {\longrightarrow}
   U
   \,.
