@@ -713,7 +713,13 @@ The original result is due to
 
 * {#VigueBurghelea85} [[Micheline Vigué-Poirrier]], Dan Burghelea, _A model for cyclic homology and algebraic K-theory of 1-connected topological spaces_, J. Differential Geom. Volume 22, Number 2 (1985), 243-253 ([Euclid](https://projecteuclid.org/euclid.jdg/1214439821))
 
-Review is in 
+Examples:
+
+* Bitjong Ndombol & M. El Haouari, *The free loop space equivariant cohomology algebra of some formal spaces*, Mathematische Zeitschrift **266** (2010) 863–875 ([doi:10.1007/s00209-009-0602-z](https://doi.org/10.1007/s00209-009-0602-z))
+
+* Kentaro Matsuo, *The Borel cohomology of the loop space of a homogeneous space*, Topology and its Applications **160** 12 (2013) 1313-1332 ([doi:10.1016/j.topol.2013.05.001](https://doi.org/10.1016/j.topol.2013.05.001))
+
+Review:
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
