@@ -112,7 +112,7 @@ $$
   \,.
 $$
 
-If now one has a [[Thom isomorphism]] ($E$-[[orientation in generalized cohomology|orientation]]) $ [D X \otimes_{\mathbb{S}} E, E] \simeq [X,E]$ that identifies the cohomology of the dual object with the original cohomology, then together with produces the [[Umkehr map]]
+If now one has a [[Thom isomorphism]] ($E$-[[orientation in generalized cohomology|orientation]]) $ [D X \otimes_{\mathbb{S}} E, E] \simeq [X,E]$ that identifies the cohomology of the dual object with the original cohomology, then together with the above this produces the [[Umkehr map]]
 
 $$
   [X,E] \simeq [D X \otimes_{\mathbb{S}} E, E] \to E
