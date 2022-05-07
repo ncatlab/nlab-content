@@ -181,3 +181,5 @@ Review:
 
 [[!redirects gravitational field]]
 [[!redirects gravitational fields]]
+
+[[!redirects D=4 gravity]]
