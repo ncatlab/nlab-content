@@ -109,6 +109,7 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
 
 1. The [[p-norm]] generalizes to [[sequence spaces]] and [[Lebesgue spaces]]. 
 
+* [[operator norm]] in [[operator algebra]]/[[functional analysis]]
 
 ### Minkowski Functionals
 
