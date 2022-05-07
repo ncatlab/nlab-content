@@ -53,6 +53,12 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 
 On [[Yang-Mills monopoles]]:
 
+* K. Lee, V. P. Nair, Erick J. Weinberg, *Black Holes in Magnetic Monopoles*, Phys. Rev. D45 (1992) 2751-2761 ([arXiv:hep-th/9112008](https://arxiv.org/abs/hep-th/9112008))
+
+* H. W. Braden, V. Varela, *Solutions for Einstein-Yang-Mills-Dilaton- σ Models*, Phys. Rev. D58:124020, 1998 ([arXiv:hep-th/9804204](https://arxiv.org/abs/hep-th/9804204))
+
+
+
 * Betti Hartmann, Burkhard Kleihaus, Jutta Kunz, *Axially Symmetric Monopoles and Black Holes in Einstein-Yang-Mills-Higgs Theory*, Phys. Rev. D65 (2002) 024027 ([arXiv:hep-th/0108129](https://arxiv.org/abs/hep-th/0108129))
 
 
