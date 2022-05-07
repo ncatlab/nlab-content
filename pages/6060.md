@@ -396,7 +396,7 @@ Here:
   \,.
 \]
 
-But since $\langle{g}\rangle \simeq \mathbb{Z}/(ord(g))$ is a [[cyclic group]] (by the assumption that $G$ is a [[finite group]]) it follows (by [this Prop.](finite+rotation+group#GroupCohomologyOfFiniteSubgroupsOfSU2)) that its [[group cohomology]] is concentrated in even degrees:
+But since $\langle{g}\rangle \simeq \mathbb{Z}/(ord(g))$ is a [[cyclic group]] (by the assumption that $G$ is a [[finite group]]) it follows (by [this Prop.](finite+rotation+group#GroupCohomologyOfFiniteSubgroupsOfSU2) or Lem. 4.51 in [BSST 07](Pontrjagin+dual#BSST07)) that its [[group cohomology]] is concentrated in even degrees:
 
 $$
   H^n
