@@ -309,15 +309,44 @@ For the precise statement see at _[2-topos -- In terms of internal categories](2
 * [[(n × k)-category]]
 
 * [[internal site]]
+
 * [[internal logic]]
+
 * [[enriched category]]
+
 * [[locally internal category]]
+
 
 ## References
 
-A survey with an eye towards [[Lie groupoids]] is in
+Survey and introduction with an eye towards [[Lie theory]]:
 
-* [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_, [arXiv:0711.1608](http://arxiv.org/abs/0711.1608)
+* [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_, Banach Center Publications, vol. 76, Warsawa 2007, 87-157 ([arXiv:0711.1608](http://arxiv.org/abs/0711.1608), [doi:10.4064/bc76-0-5 ](https://www.impan.pl/en/publishing-house/banach-center-publications/all/76/0/86184/in-ehresmann-s-footsteps-from-group-geometries-to-groupoid-geometries))
+
+
+
+* [[John Baez]], [[Alissa Crans]], _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
+
+Textbook accounts:
+
+* [[Francis Borceux]], Chapter 8 in Vol 1 _Basic Category Theory_ of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)  ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+
+and with emphasis on [[topos theory]]:
+
+* {#Johnstone} [[Peter Johnstone]], section B.2.3 of: _[[Sketches of an Elephant]]_
+ 
+* [[Saunders MacLane]], [[Ieke Moerdijk]], section V.7 of: _[[Sheaves in Geometry and Logic]]_
+
+The original proofs that the category of internal categories is [[cartesian closed category|cartesian closed]] when the ambient category is [[finitely complete category|finitely complete]] and [[cartesian closed category|cartesian closed]] are in
+
+* {#BastianiEhresmann_69} [[Andrée Bastiani]], [[Charles Ehresmann]]
+_Cat&#233;gories de foncteurs structur&#233;s_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 11 no. 3 (1969), p. 329-384 ([numdam:CTGDC_1969__11_3_329_0](http://www.numdam.org/item?id=CTGDC_1969__11_3_329_0))
+ 
+
+and in 
+
+* {#BastianiEhresmann_72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 13 no. 2 (1972), p. 104-214 ([Numdam](http://www.numdam.org/item?id=CTGDC_1972__13_2_104_0))
+
 
 Discussion in terms of [[monads]] in [[spans]] is in 
 
@@ -326,32 +355,10 @@ Discussion in terms of [[monads]] in [[spans]] is in
 A detailed discussion with emphasis on the correct [[anafunctor]] morphisms between internal categories is in 
 
 * [[David Roberts]], _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
-
-Discussion with emphasis on [[topos theory]] is in section B.2.3 of 
-
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
-
-and in section V.7 of 
-
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-
-An introduction is also in
-
-* [[John Baez]], [[Alissa Crans]], _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
-
-The original proofs that the category of internal categories is cartesian closed when the ambient category is finitely complete and cartesian closed are in
-
-* [[Andrée Bastiani]], [[Charles Ehresmann]]
-_Cat&#233;gories de foncteurs structur&#233;s_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 11 no. 3 (1969), p. 329-384 ([Numdam](http://www.numdam.org/item?id=CTGDC_1969__11_3_329_0))
- {#BastianiEhresmann_69}
-
-and in 
-
-* [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 13 no. 2 (1972), p. 104-214 ([Numdam](http://www.numdam.org/item?id=CTGDC_1972__13_2_104_0))
- {#BastianiEhresmann_72}
+ 
 
 An old discussion on variants of internal categories, crossed modules and 2-groups is archived [here](http://nforum.mathforge.org/discussion/621/internal-category/?Focus=29967#Comment_29967).
+
 [[!redirects internal categories]]
 [[!redirects internal groupoid]]
 [[!redirects internal groupoids]]
