@@ -34,7 +34,12 @@ is given by
 as usual
 
 * for each $f:A\to B$ in $C$ a [[2-morphism]] $\alpha_f: G(f) \circ
-\alpha_A \Rightarrow \alpha_B \circ F(f)$
+\alpha_A \Rightarrow \alpha_B \circ F(f)$:
+
+\begin{tikzcd}
+F A \ar[r,"F(f)"] \ar[d,"\alpha_A"']\ar[dr,phantom,"\Rightarrow"] & F B \ar[d,"\alpha_B"]\\
+G A \ar[r,"G(f)"'] & G B
+\end{tikzcd}
 
 such that
 
