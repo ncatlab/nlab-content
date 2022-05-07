@@ -58,6 +58,11 @@ Then there exists a [[Riemannian metric]] on $X$ which is [[invariant]] with res
 
 ([Bredon 72, VI Theorem 2.1](#Bredon72), see also [Ziller 13, Theorem 3.0.2](#Ziller13))
 
+## Examples
+
+In discrete [[metric spaces]]:
+
+* [[Cayley distance]], [[Kendall distance]]
 
 ## Related concepts
 
