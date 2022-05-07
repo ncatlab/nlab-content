@@ -20,7 +20,7 @@ In a [[metric space]], the [[diameter]] of a [[subset]] $A$ is the [[supremum]] 
 A __Cauchy filter__ on a metric space is a [[proper filter]] $F$ with, for each strictly [[positive number]] $\delta$, a set $A \in F$ with, for each $x,y \in A$, $d(x,y) \leq \delta$.
 =--
 
-(It is actually sufficient to consider enough sufficiently small values of $\delta$, say [[rational number|rational]] $\delta$ or $2^{-n}$ for $n$ a [[natural number]].)
+(It is actually sufficient to consider enough sufficiently small values of $\delta$, say [[rational number|rational]] $\delta$ or [[decimal fraction]] $\delta$.)
 
 In a [[gauge space]], instead of a single number $\delta$ to estimate diameter, we use $\delta$ together with a gauging distance $d$.
 
