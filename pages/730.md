@@ -143,3 +143,5 @@ category: category
 [[!redirects category of simplicial sets]]
 [[!redirects categories of simplicial sets]]
 
+[[!redirects SimplicialSets]]
+
