@@ -94,48 +94,39 @@ $\{\{x_1,x_2\}\to \{*\}\}^{&solb; \ell} = \{\{x_1,x_2\}\to \{*\}\}^{&solb;  r} =
 It is clear that $C^{&solb;\ell r} \supset C$ and $C^{&solb; r\ell} \supset C$. The class $C^{&solb;  r}$ is always closed under retracts, [[pullback|pullbacks]], (small) [[product|products]] (whenever they exist in the category) and composition of morphisms, and contains all isomorphisms of C. Meanwhile, $C^{&solb;  \ell}$ is closed under retracts, [[pushout]]s, (small) [[coproduct]]s and transfinite composition ([[filtered colimit]]s) of morphisms (whenever they exist in the category), and also contains all isomorphisms.
 
 ## Examples
+
 A number of notions can be defined by passing to the left or right Quillen negation several times starting from a list of explicit examples, i.e. as $C^{&solb; \ell}, C^{&solb;  r}, C^{&solb; \ell r}, C^{&solb; \ell\ell}$, where $C$ is a class consisting of several explicitly given morphisms. A useful intuition is to think that the property of left-lifting against a class $C$ is a kind of negation
 of the property of being in $C$, and that right-lifting is also a kind of negation. Hence the classes obtained from $C$ by taking Quillen negation an odd number of times, such as $C^{&solb; \ell}, C^{&solb;  r}, C^{&solb; \ell r\ell}, C^{&solb; \ell\ell\ell}$ etc., represent various kinds of negation of $C$, so $C^{&solb; \ell}, C^{&solb;  r}, C^{&solb; \ell r\ell}, C^{&solb; \ell\ell\ell}$ each consists of morphisms which are far from having property $C$.
 
-### Examples of lifting properties in algebraic topology
-A map $f:U\to B$ has the ''path lifting property'' iff $\{0\}\to [0,1] \,\,&solb;\,\, f$ where $\{0\} \to [0,1]$ is the inclusion of one end point of the closed interval into the interval $[0,1]$.
 
-A map $f:U\to B$ has the [[homotopy lifting property]] iff $X \to X\times [0,1] \,\,&solb;\,\, f$ where $X\to X\times [0,1]$ is the map $x \mapsto (x,0)$.
+***
 
-### Examples of lifting properties coming from model categories
+{#Copied} copied over to the Examples-section at *[[lifting property]]* from here on
 
-#### Fibrations and cofibrations.
+***
 
-* Let _Top_ be the category of [[topological space]]s, and let $C_0$ be the class of maps $S^n\to D^{n+1}$, [[embedding]]s of the boundary $S^n=\partial D^{n+1}$ of a ball into the ball $D^{n+1}$. Let $WC_0$ be the class of maps embedding the upper semi-sphere into the disk. $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$ are the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations.[Hovey, Model Categories, Def. 2.4.3, Th.2.4.9](https://archive.org/details/arxiv-math9803002)
 
-* Let _sSet_ be the category of [[simplicial set]]s. Let $C_0$ be the class of boundary inclusions $\partial \Delta[n] \to \Delta[n]$, and let $WC_0$ be the class of horn inclusions $\Lambda^i[n] \to \Delta[n]$. Then the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations are, respectively, $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$.
-[(Model Categories, Def. 3.2.1, Th.3.6.5)](https://archive.org/details/arxiv-math9803002)
+### Elementary examples 
 
-* Let _Ch_($R$) be the category of [[chain complex]]es over a [[commutative ring]] $R$. Let $C_0$ be the class of maps of form
-$\cdots\to 0\to R \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots,$
-and $WC_0$ be
- $\cdots \to 0\to 0 \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots.$
-Then $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$ are the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations.
- [(Model Categories, Def. 2.3.3, Th.2.3.11)](https://archive.org/details/arxiv-math9803002)
+#### Sets
 
-## Elementary examples in various categories
-
-### Sets
-In _Set_, 
+In _[[Set]]_, 
 
 * $\{\emptyset\to \{*\}\}^{&solb;  r}$ is the class of surjections,
 
 * $(\{a,b\}\to \{*\})^{&solb;  r}=(\{a,b\}\to \{*\})^{&solb; \ell}$ is the class of injections.
 
-### Modules
-In the category $R$-_Mod_ of [[module|modules]] over a commutative ring $R$,
+#### Modules
+
+In the category *[[RMod]]* of [[module|modules]] over a [[commutative ring]] $R$,
 
 * $\{0\to R\}^{&solb;  r}, \{R\to 0\}^{&solb;  r}$ is the class of surjections, resp. injections,
 
 * A module $M$ is projective, resp. [[injective]], iff $0\to M$ is in $\{0\to R\}^{&solb; \ell r}$, resp. $M\to 0$ is in $\{R\to 0\}^{&solb;  rr}$.
 
-### Groups
-In the category _Grp_ of [[Group|groups]], 
+#### Groups
+
+In the category _[[Grp]]_ of [[Group|groups]], 
 
 * $\{\mathbb{Z} \to 0\}^{&solb;  r}$, resp. $\{0\to \mathbb{Z}\}^{&solb;  r}$, is the class of injections, resp. surjections (where $\mathbb{Z}$ denotes the infinite [[cyclic group]]),
 
@@ -168,7 +159,7 @@ $G \to G/H$ is in $( \mathbb{F}_n \to \mathbb{F}_n/\le\!w_1,...,w_i\!\ge)^{\rl}$
 * $\{0\to A : A\,\,\text{ abelian}\}^{&solb; \ell l}$ is the class 
 of homomorphisms whose kernel is perfect
 
-For a finite group $G$, in the category of finite groups, 
+For a [[finite group]] $G$, in the category of finite groups, 
 
 * $\{0\to {\mathbb{Z}}/p{\mathbb{Z}}\} \,\,&solb;\,\, G\to 1$ iff the [[order]] of $G$ is prime to $p$,
 
@@ -194,28 +185,73 @@ $H=G_0 \vartriangleleft G_1  \vartriangleleft \ldots  \vartriangleleft G_n =G$ s
 
 
 
+### In algebraic topology and in model categories
+
+Lifting properties are paramount in [[homotopy theory]] and [[algebraic topology]]. In "abstract homotopy theory" lifting properties are encoded in the structures of [[model categories]], whose defintion revolves all around compatible classes of [[weak factorization systems]]. In particular:
+
+* the [[cofibrations]] in a model category are precisely the class with the left lifting property against the [[acyclic fibrations]],
+
+* the [[fibrations]] in a model category are precisely the class with the right lifting property against the [[acyclic cofibrations]],
+
+#### Serre fibrations of topological spaces
+
+The [[classical model structure on topological spaces]] $Top_{Qu}$ is controlled by the following lifting properties:
+
+consider let $C_0$ be the class of maps $S^n\to D^{n+1}$, [[embeddings]] of the boundary $S^n=\partial D^{n+1}$ of a ball into the ball $D^{n+1}$. Let $WC_0$ be the class of maps embedding the upper semi-sphere into the disk. $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$ are the classes of [[Serre fibrations]], acyclic cofibrations, acyclic fibrations, and cofibrations. [Hovey, Model Categories, Def. 2.4.3, Th.2.4.9](https://archive.org/details/arxiv-math9803002)
+
+#### Hurewicz fibrations of topological spaces
 
 
-### Uniform spaces 
+A map $f:U\to B$ has the ''path lifting property'' iff $\{0\}\to [0,1] \,\,&solb;\,\, f$ where $\{0\} \to [0,1]$ is the inclusion of one end point of the closed interval into the interval $[0,1]$.
 
-In the category of [[uniform  space]]s or [[metric space]]s with [[uniformly continuous]] maps.
-
-* A space $X$ is [[complete]] iff $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}} \,\,&solb;\,\, X\to \{0\}$ where $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}}$ is the obvious inclusion between the two subspaces of the real line with induced metric, and $\{0\}$ is the metric space consisting of a single point,
-
-* A subspace $i:A\to X$ is closed iff $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}} \,\,&solb;\,\, A\to X.$
+A map $f:U\to B$ has the [[homotopy lifting property]] iff $X \to X\times [0,1] \,\,&solb;\,\, f$ where $X\to X\times [0,1]$ is the map $x \mapsto (x,0)$.
 
 
 
-## Topological spaces 
+#### Kan fibrations of simplicial sets
 
-Many elementary properties in general topology, such as compactness, being dense or open, 
+The [[classical model structure on simplicial sets]] $sSet_{Qu}$ is controlled by the following lifting properties:
+
+Let $C_0$ be the class of boundary inclusions $\partial \Delta[n] \to \Delta[n]$, and let $WC_0$ be the class of horn inclusions $\Lambda^i[n] \to \Delta[n]$. Then the classes of [[Kan fibrations]], acyclic cofibrations, acyclic fibrations, and cofibrations are, respectively, $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$.
+[(Model Categories, Def. 3.2.1, Th.3.6.5)](https://archive.org/details/arxiv-math9803002)
+
+#### Degreewise surjections of chain complexes
+
+A [[model structure on chain complexes]] is controlled by the following lifting properties:
+
+* Let _Ch_($R$) be the category of [[chain complexes]] over a [[commutative ring]] $R$. Let $C_0$ be the class of maps of form
+$\cdots\to 0\to R \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots,$
+and $WC_0$ be
+ $\cdots \to 0\to 0 \to 0 \to 0 \to \cdots \to \cdots \to R \xrightarrow{\operatorname{id}} R \to 0 \to 0 \to \cdots.$
+Then $WC_0^{&solb; \ell}, WC_0^{&solb; \ell r}, C_0^{&solb; \ell}, C_0^{&solb; \ell r}$ are the classes of fibrations, acyclic cofibrations, acyclic fibrations, and cofibrations.
+ [(Model Categories, Def. 2.3.3, Th.2.3.11)](https://archive.org/details/arxiv-math9803002)
+
+
+
+
+
+
+
+### In topological spaces 
+
+Many elementary properties in [[general topology]], such as compactness, being dense or open, 
 can be expressed as iterated Quillen negation of morphisms of finite topological spaces
 in the category _Top_ of topological spaces. This leads to a concise, if useless, notation 
 for a number of properties. Items below use notation for morphisms of finite topological spaces 
 defined in the page on [[separation axioms in terms of lifting properties]],
 and some examples are explained there in detail.
 
-### Examples of interated Quillen negations defining natural properties
+
+#### Uniform spaces 
+
+In the category of [[uniform  spaces]] or [[metric spaces]] with [[uniformly continuous]] maps.
+
+* A space $X$ is [[complete]] iff $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}} \,\,&solb;\,\, X\to \{0\}$ where $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}}$ is the obvious inclusion between the two subspaces of the real line with induced metric, and $\{0\}$ is the metric space consisting of a single point,
+
+* A subspace $i:A\to X$ is closed iff $\{1/n\}_{n \in \mathbb{N}} \to \{0\}\cup \{1/n\}_{n \in \mathbb{N}} \,\,&solb;\,\, A\to X.$
+
+
+#### Iterated lifting properties
 
 *         $(\emptyset\longrightarrow \{o\})^r$   is the class of surjections
 *         $(\emptyset\longrightarrow \{o\})^r$   is the class of maps $A\longrightarrow B$ where $A\neq \emptyset$ or $A=B$
@@ -254,10 +290,10 @@ where the topology on $A$ is pulled back from $B$
 
 
 
-### Examples of properties of topological spaces expressed as iterated Quillen negation of maps between finite topological spaces.
+#### Separation axioms
 
 Here follows a list of examples of well-known properties defined by 
-iterated Quillen negation starting from maps between finite topological spaces, often with less than 5 elements. 
+iterated Quillen negation starting from maps between [[finite topological spaces]], often with less than 5 elements.  See at *[[separation axioms in terms of lifting properties]]*  for more on the following.
 
 
 *   a space $K$ is non-empty iff $K\longrightarrow \{o\}$ is in $   (\emptyset\longrightarrow \{o\})^l$
