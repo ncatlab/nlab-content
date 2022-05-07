@@ -110,11 +110,11 @@ A very different sort of general result has to do with the [[internal logic]] of
 ## References
  {#References}
 
-On internalization with focus on [[H-spaces]], [[internal monoids]] and [[internal groups]] (and proving the [[Eckmann-Hilton argument]]):
+The notion of internalization with focus on [[H-spaces]], [[internal monoids]] and [[internal groups]] (and proving the [[Eckmann-Hilton argument]]) originates with:
 
-* [[Beno Eckmann]], [[Peter Hilton]], *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221 ([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
+* {#EckmannHilton61} [[Beno Eckmann]], [[Peter Hilton]], *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221 ([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
 
-* [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
+* {#EckmannHilton62} [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
 
 * [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories III primitive categories_,  Math. Ann. **150** 165–187 (1963) ([doi:10.1007/BF01470843](https://doi.org/10.1007/BF01470843)) 
 
@@ -128,7 +128,11 @@ Moreover with discussion of [[action objects]]:
 
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], around p. 8 of: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
-Discussion of [[internal categories]], [[internal functors]], [[internal limits]], [[internal sites]]:
+Discussion of [[internal categories]] goes back to around
+
+* [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
+
+and internal category theory ([[internal functors]], [[internal limits]], [[internal sites]]) is discussed in
 
 * [MacLane-Moerdijk 92, Sec. V.7](#MacLaneMoerdijk92)
 
