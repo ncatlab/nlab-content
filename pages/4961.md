@@ -65,7 +65,8 @@ However, if we restrict the [[codomain]] of $Disc$
 to [[locally connected spaces]], then the [[left adjoint functor]]
 of $Disc$ does exist and it computes the set of [[connected components]] of a given [[locally connected space]], i.e., is the $\pi_0$ functor.
 
-This is discussed at _[locally connected spaces -- cohesion over sets](locally+connected+topological+space#CohesionOverSets)_.
+This is discussed at _[locally connected spaces -- cohesion over sets](locally+connected+topological+space#CohesionOverSets)_
+and [[cosheaf of connected components]].
 
 ## References
 
