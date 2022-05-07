@@ -353,29 +353,30 @@ Other sources include the following.
 * [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford University Press, 2017.
 [doi](https://doi.org/10.1007/BFb0094441)
 
+
 ### Categorical logic and elementary toposes
  {#CategoricalLogicAndElementaryToposes}
 
-* [[Colin McLarty]], _[[Elementary Categories, Elementary Toposes]]_, Oxford University Press 1992 (reprinted in 2005)
+On [[categorical logic]] via toposes:
 
-* [[Jonathan Chapman]], [[Frederick Rowbottom]], _[[Relative Category Theory and Geometric Morphisms.  A Logical Approach]]_, Oxford University Press 1992.
+* [[Colin McLarty]], _Elementary Categories, Elementary Toposes_, Oxford University Press 1992 (reprinted in 2005) ([ISBN:9780198514732](https://global.oup.com/academic/product/elementary-categories-elementary-toposes-9780198514732))
 
-* [[J. L. Bell]], _[[Toposes and Local Set Theories.  An Introduction]]_, Oxford University Press 1988.
+* Jonathan Chapman, Frederick Rowbottom, _Relative Category Theory and Geometric Morphisms.  A Logical Approach_, Oxford University Press 1992 ([ISBN:9780198534341](https://global.oup.com/academic/product/relative-category-theory-and-geometric-morphisms-9780198534341))
+
+* J. L. Bell, _Toposes and Local Set Theories.  An Introduction_, Oxford University Press 1988 ([doi:10.2307/2274680](https://doi.org/10.2307/2274680))
 
 * [[Robert Goldblatt]], _Topoi. The categorial analysis of logic_, Studies in Logic and the Foundations of Math. __98__, North-Holland Publ. Co., Amsterdam, 1979, 1984; (Rus. transl. Mir Publ., Moscow 1983). 
 
 * {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], _Introduction to higher order categorical logic_, Cambridge Studies in Advanced Mathematics 7 (1986) ([ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534))
 
-* [[Bart Jacobs]], _[[Categorical logic and type theory]]_, Studies in Logic and the Foundations of Mathematics 141 (1999).  North-Holland Publishing Co.
+* [[Bart Jacobs]], _Categorical logic and type theory_, Studies in Logic and the Foundations of Mathematics 141 (1999).  North-Holland Publishing Co.
 ISBN: 0-444-50170-3
 
 ### Algebra, ringed toposes, algebraic geometry
 
-* [[Monique Hakim]], _[[Topos annelés et schémas relatifs]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete 64 (1972),
-ISBN 3-540-05573-8, 0-387-05573-8.
+* [[Monique Hakim]], _Topos annelés et schémas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete 64 (1972) ([ISBN:9783540055730](https://www.springer.com/gp/book/9783540055730))
 
-* [[Francis Borceux]], [[Gilberte van den Bossche]], _Algebra in a localic topos with applications to ring theory_, Lecture Notes in Mathematics 1038 (1983),
-ISBN: 3-540-12711-9.
+* [[Francis Borceux]], Gilberte van den Bossche, _Algebra in a localic topos with applications to ring theory_, Lecture Notes in Mathematics 1038 (1983), ISBN: 3-540-12711-9 ([ISBN:9783540127116](https://www.springer.com/gp/book/9783540127116))
 
 ### Quantum theory
 
