@@ -239,6 +239,118 @@ and so on.
 
 \end{example}
 
+
+
+
+\begin{example}
+\label{NonDegenerateSimplicesInSimplicialSquare}
+**(non-degenrate simplices in [[simplicial set|simplicial]] [[square]])**
+\linebreak
+The complete set of non-degenerate simplices in 
+$\Delta[1] \times \Delta[1]$
+is, in specialization of Example \ref{CylindersOfSimplices}, 
+according to Prop. \ref{CartesianProductOfSimplicialSetsIsComponentwise}
+and in the notation of Remark \ref{NotationForSimplicesInAProductOfSimplices}, 
+the following:
+
+  \begin{tikzcd}
+    \scalebox{.8}{$
+      \left( {[0]} \atop {[0]} \right)
+    $}
+    \ar[
+      rr,
+      "{
+        \left(
+        {[0,0]}
+        \atop
+        {[0,1]}
+        \right)
+      }"{above, scale=.8}
+    ]
+    \ar[
+      dd,
+      "{
+        \left(
+        {[0,1]}
+        \atop
+        {[0,0]}
+        \right)
+      }"{left, scale=.8}
+    ]
+    \ar[
+      ddrr,
+      "{
+        \left(
+        { [0,1] }
+        \atop
+        { [0,1] }
+        \right)
+      }"{description, scale=.8}
+    ]
+    &&
+    \scalebox{.8}{$
+      \left( {[0]} \atop {[1]} \right)
+    $}
+    \ar[
+      dd,
+      "{
+        \left(
+        {[0,1]}
+        \atop
+        {[1,1]}
+        \right)
+      }"{right, scale=.8}
+    ]
+    \ar[
+      ddll,
+      phantom,
+      "{
+        \left(
+        { [0,0,1] }
+        \atop
+        { [0,1,1] }
+        \right)
+      }"{pos=.15, scale=.8}
+    ]
+    \ar[
+      ddll,
+      phantom,
+      "{
+        \left(
+        { [0,1,1] }
+        \atop
+        { [0,0,1] }
+        \right)
+      }"{pos=.85, scale=.8}
+    ]
+    \\
+    \\
+    \scalebox{.8}{$
+      \left( {[1]} \atop {[0]} \right)
+    $}
+    \ar[
+      rr,
+      "{
+        \left(
+        {[1,1]}
+        \atop
+        {[0,1]}
+        \right)
+      }"{below, scale=.8}
+    ]
+    &&
+    \scalebox{.8}{$
+      \left( {[1]} \atop {[1]} \right)    
+    $}
+  \end{tikzcd}
+
+See also [Friedman 2008, Fig. 20](#Friedman08).
+\end{example}
+
+
+
+
+
 \begin{example}
   The non-degenerate simplices in 
   $$
@@ -538,7 +650,7 @@ Exposition:
 
 Textbook accounts:
 
-* [[Greg Friedman]], Appendix B.6 in: *Singular Intersection Homology*,  Cambridge University Press 2020 ([doi:10.1017/9781316584446](https://doi.org/10.1017/9781316584446), [pdf](http://faculty.tcu.edu/gfriedman/IHbook.pdf))
+* {#Friedman20} [[Greg Friedman]], Appendix B.6 in: *Singular Intersection Homology*,  Cambridge University Press 2020 ([doi:10.1017/9781316584446](https://doi.org/10.1017/9781316584446), [pdf](http://faculty.tcu.edu/gfriedman/IHbook.pdf))
 
 
 [[!redirects product of simplices]]
