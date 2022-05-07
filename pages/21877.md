@@ -91,31 +91,6 @@ We have a [[pushout diagram]] in [in topological spaces](Top#UniversalConstructi
 
 $$
   \array{
-    \overline{
-      \mathbb{K}P^{n+1}
-      \setminus
-      \mathbb{K}P^n
-    }
-    &\longrightarrow&
-    \mathbb{K}P^{n+1}
-    \\
-    \big\uparrow
-    &{}_{^{(po)}}&
-    \big\uparrow
-    \\
-    \partial
-    \big(
-      \mathbb{K}P^{n+1}
-      \setminus
-      \mathbb{K}P^n
-    \big)
-    &\longrightarrow&
-    \mathbb{K}P^n
-  }
-  \;\;\;\;\;\;\;
-  \simeq
-  \;\;\;\;\;\;\;
-  \array{
     D^{ (n+1)\cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) }
     &\longrightarrow&
     \mathbb{K}P^{n+1}
@@ -148,70 +123,6 @@ $$
      \,.
   }
 $$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Observe the following [[homeomorphism]]
-
-$$
-  \array{
-    \mathbb{K}P^{n+1} \setminus \mathbb{K}P^n
-    &\overset{\;\;\;\simeq\;\;\;}{\longrightarrow}&
-    Int
-    \big(
-      D^{(n+1) dim_{{}_{\mathbb{R}}}(\mathbb{K})}
-    \big)
-    \,\simeq\,
-    \left\{
-      (y_0, \cdots, y_n, r)
-      \,\left\vert\,
-      \array{
-         r \in (0,1] \subset \mathbb{R}\,,
-         \\
-         \left\vert \vec y \right\vert^2 + r^2  = 1 
-      }
-      \right.
-    \right\}
-    & 
-    \subset 
-    \mathbb{K}^{n+2}
-    \\
-    \big[
-      z_0
-      \,\colon\,
-      \cdots
-      \,\colon\,
-      z_n
-      \,\colon\,
-      z_{n+1}
-    \big]
-    &\mapsto&
-    \tfrac{1}{\left\vert \vec z\right\vert}
-    \Big(
-      z_0
-      \cdot
-      \tfrac{ z^\ast_{n+1} }{ \left\vert z_{n+1}\right\vert }
-      \,,\,
-      \cdots
-      \,,\,
-      z_n
-      \cdot
-      \tfrac{ z^\ast_{n+1} }{ \left\vert z_{n+1}\right\vert }
-      \,,\,
-      \left\vert z_{n+1}\right\vert
-    \Big)
-  }
-$$
-
-in terms of which the [[topological boundary]] on the left corresponds to the subspace with $r = 0$ on the right.
-
-With this it is clear that we have [[pushout diagrams]] as claimed on underlying sets. It remains to check that these are also pushouts of topological spaces. See the argument [here](projective+space#CellComplexStructureOnTopologicalProjectiveSpace).
-
-
-
 
 =--
 
