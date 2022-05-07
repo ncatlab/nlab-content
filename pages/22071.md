@@ -30,6 +30,16 @@ The [[homotopy coequalizer]] of $f\colon A\to B$ and $0\colon A\to B$ is known a
 
 In particuar there is the homotopy (co)-fiber of the [[zero object]] with itself, the [[loop space object]]- and [[reduced suspension]]-operation. Asking these operations to be equivalences in a suitable sense leads to the concept of _[[linear model categories]]_ and _[[stable model categories]]_.
 
+## Examples
+
+Model categories which are pointed without being [[linear model category|linear]] or even [[stable model category|stable]]:
+
+* [[classical model structure on pointed topological spaces]]
+
+Pointed model categories which are [[stable model category|stable]]:
+
+* [[model structure on spectra]]
+
 ## Related entries
 
 * [[homotopy fiber]]
