@@ -78,6 +78,9 @@ where the inclusion from $Gr n Top$ to $Gr (n+1) Top$ is given by taking the $(n
 
 * [[n-localic (∞,1)-topos]]
 
+[[!include flavors of higher toposes -- list]]
+
+
 ## References
 
 The material on this page is taken from
