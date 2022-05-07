@@ -27,6 +27,8 @@ This entry provides a hyperlinked index for the book
   
   Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
+  [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)
+
 on basics of [[category theory]] and the foundations of [[homological algebra]] and [[abelian sheaf cohomology]].
 
 See also the related lecture notes
