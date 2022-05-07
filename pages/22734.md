@@ -25,6 +25,8 @@ In [[thermodynamics]] the term "absolute zero", short for "absolute zero tempera
 
 ## Related concepts
 
+* [[quantum phase transition]]
+
 * [[temperature]], [[inverse temperature]]
 
 * [[topological order]], [[topological entropy]]
@@ -36,3 +38,4 @@ See also:
 * Wikipedia, *[Absolute zero](https://en.wikipedia.org/wiki/Absolute_zero)*
 
 [[!redirects absolute zero temperature]]
+
