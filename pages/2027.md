@@ -50,3 +50,11 @@ Of course, if the underlying set of the ring has [[decidable equality]] ---as is
 [[!redirects integral cancellable rigs]]
 [[!redirects integral cancellable semiring]]
 [[!redirects integral cancellable semirings]]
+
+[[!redirects discrete integral domain]]
+[[!redirects discrete integral domains]]
+
+[[!redirects Heyting integral domain]]
+[[!redirects Heyting integral domains]]
+[[!redirects heyting integral domain]]
+[[!redirects heyting integral domains]]
