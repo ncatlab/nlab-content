@@ -25,11 +25,14 @@ In the [[classical limit]], there is a different manifestation of the same theor
 
 ## References
 
-Original references:
+Original reference:
 
 * {#Weinberg65} [[Steven Weinberg]], _Infrared photons and gravitons_, Phys. Rev. 140, B516 (1965) ([doi:10.1103/PhysRev.140.B516](https://doi.org/10.1103/PhysRev.140.B516))
 
-...
+Review with focus on [[photons]] in [[electromagnetism]]:
+
+* Noah Miller, *From Noether's Theorem to Bremsstrahlung: a pedagogical introduction to large gauge transformations and classical soft theorems* ([arXiv:2112.05289](https://arxiv.org/abs/2112.05289))
+
 
 Discussion of application to [[gravitational waves]] in the [[classical limit]]:
 
