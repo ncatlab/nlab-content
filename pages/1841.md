@@ -345,7 +345,7 @@ $$
 that is supported in some compact spatial region $U \times \mathbb{R} \subset X$ with boundary sphere $\partial U \simeq S^2$. 
 
 $$
-  q = \int_U j_{mag} = \int_U j_{mag} = \int_{S^2} F
+  q = \int_U j_{mag} = \int_U dF =\int_{\partial U} F = \int_{S^2} F
 $$
 
 by the [[Stokes theorem]]. It follows from the fact that $F$ is the curvature 2-form on a circle bundle that $q$ is integral: it is given by the first [[Chern class]] of the bundle.
