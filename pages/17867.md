@@ -40,6 +40,9 @@ In textbooks on "geometric algebra", Clifford algebra is instead introduced with
 
 One point being made here is that the traditional physics textbook emphasis on the special geometry of the [[Cartesian space]] $\mathbb{R}^3$ with its exceptional [[vector product]] structure is outdated and contra-productive and can be replaced by a more elegant and more universal description in terms of [[bivector]] calculus (which canonically embeds into the [[Clifford algebra]]). In this respect geometric algebra may be thought of as a streamlined exposition of the geometry of [[rotation]] and [[spin]]. 
 
+## Related concepts
+
+* [[dyadic rational algebra]]
 
 ## References
 
