@@ -525,11 +525,12 @@ This is due to ([Fiorenza-Rogers-Schreiber 13, section 2.6.1](#FiorenzaRogersSch
 
 
 ## References
+ {#References}
 
 A [[crossed module]] presentation of a topological realization of the string 2-group is implicit in 
 
-* [[Stephan Stolz]], [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.5463&rep=rep1&type=pdf))
-{#StolzTeichner}
+* {#StolzTeichner} [[Stephan Stolz]], [[Peter Teichner]], _What is an elliptic object?_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.5463&rep=rep1&type=pdf))
+
 
 A realization of the string 2-group in [[∞-groupoid]]s [[internalization|internal to]] [[Banach space]]s by [[Lie integration]] of the skeletal version of the [[string Lie 2-algebra]] is in
 
@@ -576,9 +577,20 @@ A model of the string 2-group using the smooth [[free loop space]] (instead of t
 
 * {#MurrayRobertsWockel17} [[Michael Murray]], [[David Roberts]], [[Christoph Wockel]], _Quasi-periodic paths and a string 2-group model from the free loop group_ ([arXiv:1702.01514](https://arxiv.org/abs/1702.01514))
 
-Discussion in the context of [[matrix factorizations]] and [[equivariant K-theory]] is in
+Discussion in the context of [[matrix factorizations]] and [[equivariant K-theory]]:
 
 * {#FreedTeleman14} [[Daniel S. Freed]], [[Constantin Teleman]], _Dirac families for loop groups as matrix factorizations_, [arxiv/1409.6051](http://arxiv.org/abs/1409.6051)
+
+Further on [[2-group]]-[[higher central extensions|extensions]] by the [[circle 2-group]]:
+
+of [[tori]]:
+
+* [[Nora Ganter]], _Categorical Tori_, SIGMA 14 (2018), 014, 18 ([arXiv:1406.7046](https://arxiv.org/abs/1406.7046))
+
+of [[finite subgroups of SU(2)]] (to [[Platonic 2-groups]]):
+
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
+
 
 Discussion of a general definition of smooth [[string group]] extensions $A\rightarrow \mathrm{String}(H)\rightarrow H$ of a [[compact]] [[simply connected]] [[Lie group]] $H$, with $A$ not necessarily chosen to be $\mathbf{B}U(1)$ but only of the same [[homotopy type]], in
 
