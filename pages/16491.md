@@ -36,3 +36,6 @@ The [[left adjoint]] to this construction is the operation of forming _[[induced
 
 [[!redirects branching rule]]
 [[!redirects branching rules]]
+
+[[!redirects restricted action]]
+[[!redirects restricted actions]]
