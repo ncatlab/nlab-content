@@ -57,7 +57,8 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
  
   * face maps are given by
 
-    $$
+    \[
+      \label{FaceMapsOfWG}
       d_i
       \big(
         g_n, g_{n-1}, \cdots, g_0
@@ -96,7 +97,7 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
         i = n
       }
       \right.
-    $$
+    \]
 
 * degeneracy maps are given by
 
@@ -158,10 +159,92 @@ is known as the standard model for the simplicial $G$-[[universal principal bund
 
 \end{definition}
 
-(due to [MacLane 54, p. 3](#MacLane54), [Kan 58, Def. 10.3](#Kan58), see also [Goerss & Jardine 09, p. 269](#GoerssJardine09))
+(due to [MacLane 54, p. 3](#MacLane54), [Kan 58, Def. 10.3](#Kan58), the above follows [Goerss & Jardine 09, p. 269](#GoerssJardine09))
+
+\begin{example}\label{LowDimensionCellsOfWG}
+**(low-dimension cells of $W G$)** \linebreak
+  Unwinding the definition of the face maps (eq:FaceMapsOfWG), one finds that the  generic [[1-simplex]] in $W G$ looks as follows
+
+  \begin{tikzcd}
+    d_1(g_1)
+    \ar[
+      rr,
+      "{(g_1, g_0)}"
+    ]
+    &&
+    d_0(g_1)\cdot g_0
+  \end{tikzcd}
+
+while the generic [[2-simplex]] in $W G$ looks as follows:
+
+  \begin{tikzcd}[column sep=-10pt, row sep=large]
+    &&
+    \scalebox{.7}{$
+      {d_0 d_2(g_2) \cdot d_1(g_1)}
+      \,=\,
+      {d_1 d_0(g_2) \cdot d_1(g_1)}
+    $}
+    {}
+    \ar[
+      ddrr,
+      "{
+        \scalebox{1.3}{$($}
+          d_0(g_2) \cdot g_1,
+          \,
+          g_0
+        \scalebox{1.3}{$)$}
+      }"{above, sloped, pos=.6},
+      "\ "{below, name=s, pos=.02}
+    ]
+    \\
+    \\
+    {
+      {\phantom{=\,} d_1 d_2(g_2)}
+      \atop
+      {=\, d_1 d_1(g_2)}
+    }
+    \ar[
+      rrrr,
+      "{
+        \scalebox{1.3}{$($}
+        d_1(g_2),
+        \,
+        d_0(g_1)\cdot g_0
+        \scalebox{1.3}{$)$}
+      }"{below},
+      "{\ }"{above, name=t}
+    ]
+    \ar[
+      uurr,
+      "{
+        \scalebox{1.3}{$($}
+          d_2(g_2),
+          \,
+          d_1(g_1)
+        \scalebox{1.3}{$)$}
+      }"{above, sloped, pos=.4}
+    ]
+    &&&&
+    {
+      {\phantom{=,} d_0 d_0(g_2) \cdot d_0(g_1) \cdot g_0}
+      \atop
+      {=\,  d_0 d_1(g_2)\cdot d_0(g_1) \cdot g_0}
+    }
+    \ar[
+      from=s,
+      to=t,
+      Rightarrow,
+      "{
+        (g_2, g_1, g_0)
+      }"{description}
+    ]
+  \end{tikzcd}
+
+\end{example}
 
 
-\begin{example}
+\begin{example}\label{SimplicialClassifyingSpaceOfAnOrdinaryGroup}
+**(simplicial classifying space of an ordinary group)** \linebreak
   In the special case that 
   $$
     G \in Groups \overset{const}{\hookrightarrow} SimplicialGroups
@@ -406,7 +489,7 @@ This was also later discussed in
 
 * {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])  (See, in particular, §3.)
 
-The first reference where $\bar W$ is defined explicitly for [[simplicial groups]] and the adjunction between [[simplicial groups]] and [[reduced simplicial sets]] is explicitly spelled out is
+The first reference where $\overline{W}$ is defined explicitly for [[simplicial groups]] and the adjunction between [[simplicial groups]] and [[reduced simplicial sets]] is explicitly spelled out is
 
 * {#Kan58} [[Daniel Kan]], Sections 10-11 in: _On homotopy theory and c.s.s. groups_, Ann. of Math. 68 (1958), 38-53 ([jstor:1970042](https://www.jstor.org/stable/1970042))
 
