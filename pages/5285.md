@@ -21,7 +21,7 @@
 
 The _singular homology_ of a [[topological space]] $X$ is the [[simplicial homology]] of its [[singular simplicial complex]]:
 
-a **singular $n$-[[chain]]** on $X$ is a [[formal linear combination]] of [[singular simplices]] $\sigma : \Delta^n \to X$, and a singular $n$-[[cycle]] is such a chain such that its oriented [[boundary]] in $X$ vanishes. Two singular chains are **homologous** if they differ by a boudary. The **singular homology** of $X$ in degree $n$ is the group of $n$-cycles modulo those that are boundaries.
+a **singular $n$-[[chain]]** on $X$ is a [[formal linear combination]] of [[singular simplices]] $\sigma : \Delta^n \to X$, and a singular $n$-[[cycle]] is such a chain such that its oriented [[boundary]] in $X$ vanishes. Two singular chains are **homologous** if they differ by a boundary. The **singular homology** of $X$ in degree $n$ is the group of $n$-cycles modulo those that are boundaries.
 
 Singular homology of a topological space conincide with its [[ordinary homology]] as defined more abstractly (see at [[generalized homology theory]]).
 
