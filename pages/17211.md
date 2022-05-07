@@ -66,7 +66,7 @@ $$
 
 Since [[generalized homology]]/[[generalized cohomology]] is typically more tractable than [[homotopy groups]]/[[cohomotopy]] (in particular when [[homology spectra split]]), the Boardman homomorphism is often used to partially reduce computations of the latter in terms of computations of the former. 
 
-One example is the computation of the homotopy grous of [[MU]] via the [[homology of MU]] ([[Quillen's theorem on MU]]), see [below](#ForComplexOrientedCohomologyTheories).
+One example is the computation of the homotopy groups of [[MU]] via the [[homology of MU]] ([[Quillen's theorem on MU]]), see [below](#ForComplexOrientedCohomologyTheories).
 
 ## Examples
 
