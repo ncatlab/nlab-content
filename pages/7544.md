@@ -162,6 +162,10 @@ A vague version of the above proposed definition is on the very last slide of
 
 * {#Shulman12} [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
 
+It was elaborated further in
+
+* [[Mike Shulman]], [Elementary (∞,1)-Topoi](https://golem.ph.utexas.edu/category/2017/04/elementary_1topoi.html) (blog post, 2017)
+
 See also
 
 * [[Michael Shulman]], _Towards elementary infinity-toposes_, Vladimir Voevodsky Memorial Conference, IAS, September 2018, [talk](https://www.youtube.com/watch?v=ld4YL787dAk).
