@@ -55,14 +55,11 @@ The main example is the __tangent microbundle__ $(M\times M,p_1,M,i)$ of a topol
 
 If $M$ is a smooth manifold, then the tangent microbundle is equivalent to the tangent bundle ([Kupers18, Example 27.2.3](#Kupers18)). 
 
-
-+--{: .query}
-[[David Roberts]]: A couple of years ago I thought of importing topological groupoids to this concept for the following reason: The tangent microbundle $M\times M$, when $M$ is a manifold, is the groupoid integrating the tangent bundle $TM$ of $M$. If we have a general Lie groupoid, we can form the Lie algebroid, which is a very interesting object. If we have a topological groupoid, it seems to me that there should be a microbundle-like object that acts like the algebroid of that groupoid. This should reduce to the tangent microbundle in the case of the codiscrete groupoid = pair groupoid. Perhaps not all topological groupoids would have an associated algebroid, but those wih source and target maps that are [topological submersions](http://www.google.com.au/url?sa=t&source=web&ct=res&cd=1&url=http%3A%2F%2Fbooks.google.com.au%2Fbooks%3Fid%3DxiZgzmXVy9AC%26pg%3DPA66%26lpg%3DPA66%26dq%3Dtopological%2Bsubmersion%26source%3Dbl%26ots%3D8LFo35R79c%26sig%3Dd6GJNwpOF5BM4FX4ag2Q5jfU5UA%26hl%3Den%26ei%3Db4laSoDhOKfs6gPcxs2VCw%26sa%3DX%26oi%3Dbook_result%26ct%3Dresult%26resnum%3D1&ei=b4laSoDhOKfs6gPcxs2VCw&usg=AFQjCNEfAa7QvOXntdIikSLkvT1X9U2gjQ) probably will.  
-=--
-
 ## References
 
-Microbundles were defined by [[John Milnor]].  The original paper can be found [here](http://www.maths.ed.ac.uk/~aar/papers/micro001.pdf).
+The original reference is
+
+* [[John Milnor]], _Microbundles.  Part I_, Topology 3 (1964), Supplement 1, 53–80. doi: https://doi.org/10.1016/0040-9383(64)90005-9, [PDF](http://www.maths.ed.ac.uk/~aar/papers/micro001.pdf).
 
 Classic treatments of their elementary theory include:
 
@@ -80,4 +77,5 @@ Useful references are for instance
 
 
 [[!redirects tangent microbundle]]
+[[!redirects tangent microbundles]]
 [[!redirects microbundles]]
