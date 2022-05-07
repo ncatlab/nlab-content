@@ -100,6 +100,7 @@ Alternative detection channel:
 
 
 ### Relation to flavour anomalies
+ {#RelationToFloavourAnomalies}
 
 As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
