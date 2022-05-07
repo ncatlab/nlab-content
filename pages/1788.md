@@ -1,4 +1,32 @@
 
+$$
+  \begin{aligned}
+  max
+  \big(
+    EigVals[e^{- \ln(N) \cdot d_c}]
+  \big)
+  & 
+  \;=\;
+  EigVals[e^{- \ln(N) \cdot d_c}]_{\lambda = (n)}
+  \\
+  & =
+  \frac{n!}{N^n}
+  \underset{
+    = N^n
+  }{
+  \underbrace{
+    \left\vert
+      ssYT_{(n)}(N)
+    \right\vert
+    }
+  }
+  \\
+  & =
+  n!
+  \end{aligned}
+$$
+
+
 \begin{defn}\label{SetsOfSemistandardYoungTableau}
   **(notation for sets of semistandard Young tableaux)
   For $n, N \in \mathbb{N}$, write 
