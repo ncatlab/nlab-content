@@ -24,6 +24,7 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 
 * [[axiom of infinity]] -- a large cardinal axiom relative to finitist theories, but not relative to ZF
 * [[inaccessible cardinal]] -- the smallest sort of large cardinal in ZF, equivalent to the existence of a [[Grothendieck universe]].
+* [[axiom of replacement]], an axiom schemata that states that certain [[families]] of sets or [[diagrams]] in the [[category of sets]], which usually can be proven (for example, in [[Zermelo set theory]] or in a [[well-pointed topos]]) to be [[large sets|large]] or [[proper classes]], are instead [[small set|small]]. This implies that certain cardinals which previously were large are now small. 
 * [[measurable cardinal]] -- the boundary between "small" large cardinals and "large" large cardinals
 * [[real-valued-measurable cardinal]], a “solution” to the Banach–Ulam problem.
 * [[strongly compact cardinal]], whose existence controls properties images of [[accessible functors]]
