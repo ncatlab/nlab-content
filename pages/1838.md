@@ -25,6 +25,10 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
   * [[light]]
 
+* [[Hall effect]], [[quantum Hall effect]]
+
+  [[spin Hall effect]], [[quantum spin Hall effect]]
+
 * [[topological photonics]]
 
 * [[magnetohydrodynamics]]
