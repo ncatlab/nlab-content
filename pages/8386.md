@@ -9,7 +9,7 @@
 =--
 =--
 
-> This page is about the concept of polymorphism in computer science. For the generalisation of morphisms introduced by [[Shinichi Mochizuki]], see [[poly-morphism]].
+> This page is about the concept of polymorphism in computer science. For the concept in [[type theory]] see [[universe polymorphism]]. For the generalisation of morphisms introduced by [[Shinichi Mochizuki]], see [[poly-morphism]].
 
 # Polymorphism
 * table of contents
