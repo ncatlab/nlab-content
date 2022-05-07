@@ -90,3 +90,7 @@ is equivalent to $F$.
 The $(\infty,n)$-Yoneda embedding $y : C \to PSh(C)$ preserves all [[(∞,n)-limit]]s that exist in $C$.
 
 =--
+
+## Related concepts
+
+* [[higher directed topoi]]
