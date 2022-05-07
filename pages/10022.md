@@ -355,6 +355,9 @@ Embedding of the [[HaPPY code]] and the bit-thread models in more general [[Majo
 
 * {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
+* {#KahnZimborasEisert19} [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Central charges of aperiodic holographic tensor network models_, Phys. Rev. A 102, 042407 ([arXiv:1911.03485](https://arxiv.org/abs/1911.03485))
+
+
 reviewed in:
 
 * {#JahnEisert21} [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
