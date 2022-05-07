@@ -133,16 +133,16 @@ In particular, the underlying [[endofunctor]] of a strong monad is a [[strong fu
 
 ### Costrength
 
-A _costrength_ for the monad $T$ is a natural transformation $s_{A,B}:T A \otimes B \to T(A\otimes B)$ satisfying analogous diagrams to those for the strength.
+A __costrength__ for the monad $T$ is a natural transformation $s_{A,B}:T A \otimes B \to T(A\otimes B)$ satisfying analogous diagrams to those for the strength.
 
-Note that the "co-" in "costrength" does _not_ refer to the [[opposite category]]. The terminology makes more sense in the context of [[closed monoidal categories]], where strength and costrength appear on the two sides of the [[internal hom]]. See [the dedicated section](#costrength_and_pointwise_structure) for the details.
+Note that the "co-" in "costrength" does _not_ refer to the [[opposite category]]; instead it refers to the reversal of the tensor product, $A\otimes^{rev} B = B\otimes A$.  The terminology also makes sense in the context of [[closed monoidal categories]], where strength and costrength appear on the two sides of the [[internal hom]]. See [the dedicated section](#costrength_and_pointwise_structure) for the details.
 
 When the category $C$ is [[symmetric monoidal category|symmetric monoidal]], the [[braiding]] $b$ allows to obtain a strength from a costrength and vice versa,
 \begin{tikzcd}
 T A \otimes B \ar{r}{b_{T A,B}}[swap]{\cong} & B\otimes T A \ar{r}{t_{B,A}} & T(B \otimes A) \ar{r}{Tb_{B,A}}[swap]{\cong} & T(A\otimes B) .
 \end{tikzcd}
 
-When strength and costrength commute in a suitable way, one speaks of a [[commutative monad]].
+A __bistrength__ is a strength and a costrength such that the two induced maps $(X\otimes T Y) \otimes Z \to T((X\otimes Y)\otimes Z$ agree.  If the category is symmetric monoidal, then $T$ is a [[commutative monad]] if it is equipped with a strength (hence also a costrength) such that the two induced map $T X \otimes T Y \to T(X\otimes Y$ agree.
 
 
 ## Examples
