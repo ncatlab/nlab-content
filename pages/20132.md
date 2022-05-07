@@ -190,6 +190,7 @@ The existence of the $G$-equivariant tubular neighbourhoods is for instance in [
 
 * {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press 1972 ([pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf), [ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1))
 
+* {#Illman72} [[Sören Illman]], *Equivariant algebraic topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
 
 * [[Tammo tom Dieck]], Section I.5 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
