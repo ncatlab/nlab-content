@@ -67,12 +67,15 @@ Hence flavour universality in the [[standard model of particle physics]] demands
 
 is essentially equal to 1. Any [[statistical significance|significant]] departure of this [[observable]] from 1 would be a _flavour anomaly_ and would mean that there are fundamental processes at play which are not described by the current [[standard model of particle physics]] ("New Physics").
 
+Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). 
 
-Moreover, in the [[standard model of particle physics|standard model]] the decays involved here are "forbidden" (have vanishing decay rate) at [[tree level]], so that only [[loop orders]] contribute to any possible flavour anomaly. But these loop contributions are sensitive to effects from putative undiscovered [[fundamental particles]] which "run in the loops" as [[virtual particles]], and which thus may show up as a flavour anomaly even if their [[mass]] is too large for them to be seen as scattering products (i.e. as actual, non-[[virtual particles]]). This way tests of lepton flavour universality provide a means to potentially detect New Physics with indirect high-luminosity/high-[[precision experiment]] (see e.g. [Brambilla et al. 14, Section 5](#Brambilla14) [AHRS 20](#AHRS20)), complementary to the traditional high-energy direct detection measurements.
+{#CleanObservablesInIntroduction} Finally, in forming the "branching" [[ratios]] (eq:RKInIntroduction) it is expected that "hadronic uncertainties cancel out", namely that [[non-perturbative effects]] of [[QCD]], which remain largely unknown (due to the [open problem of confinement](confinement#OpenProblemConfinementReferences)), contribute the same (unknown) factor to numerator and denominator and hence do not affect the ratio ([Hiller & Krüger 2004](#HillerKrueger04), see also [Isidori et al. 2021](#IsidoriEtAl21)). Also [[QED]]-[[radiative corrections]], while not cancelling out in this way, have been argued to be negligible ([Bordone, Isidori and Pattori 2016](#BordoneIsidoriPattori16)). Therefore these branching ratios are regarded as "clean observables" in that their value, to relevant precision, is unambiguously predicted by the [[standard model of particle physics]].
 
-Notice that the channel $R_K$ (eq:RKInIntroduction) is just one of many in which flavour anomalies may and have been seen. There are other decay channels of [[B-mesons]], and there are also flavour anomalies in decays of, for instance,  [[kaons]] ([Buras 16](kaon#Buras16), [Buras 18](kaon#Buras18)) as well as in angular observables ([LHCb 20](#LHCb2012)).
+This way, tests of lepton flavour universality through measurement of branching ratios like (eq:RKInIntroduction) provide a means to potentially detect "New Physics" (effects not described by the present [[standard model of particle physics|standard model]]) via *indirect* high-luminosity/high-[[precision experiment]] (see e.g. [Brambilla et al. 2014, Section 5](#Brambilla14) [AHRS 2020](#AHRS20)), complementary to traditional high-energy *direct* detection measurements.
 
-See [Alonso 19](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
+Notice that the channel $R_K$ (eq:RKInIntroduction) is just one among the more prominent of several channels in which flavour anomalies may and have been seen. There are other decay channels of [[B-mesons]] such as with differing spectator quarks ([LHCB 2021](#LHCB21)) and there are also flavour anomalies in decays of, for instance, [[kaons]] ([Buras 16](kaon#Buras16), [Buras 2018](kaon#Buras18)) as well as in angular observables ([LHCb 2020](#LHCb2012)).
+
+See [Alonso 2019](#Alonso19) for general introduction to an audience with basic background in [[quantum field theory]].
 
 
 ## Statistical significance
@@ -471,7 +474,7 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
 Early suggestion to look for New Physics in B-meson decays:
 
-* {#Hiller02} [[Gudrun Hiller]], * $b \to s \ell^+ \ell^-$ decays in and beyond the Standard Model*, AIP Conf. Proc. 549:614-618, 2002 ([arXiv:hep-ph/0008092](https://arxiv.org/abs/hep-ph/0008092))
+* {#Hiller02} [[Gudrun Hiller]], *$b \to s \ell^+ \ell^-$ decays in and beyond the Standard Model*, AIP Conf. Proc. 549:614-618, 2002 ([arXiv:hep-ph/0008092](https://arxiv.org/abs/hep-ph/0008092))
 
 * [[Gudrun Hiller]], *Physics reach of rare b-decays*, Nucl. Phys. Proc. Suppl. 115 (2003) 76-81 ([arXiv:hep-ph/0207121](https://arxiv.org/abs/hep-ph/0207121))
 
@@ -480,6 +483,23 @@ Early suggestion to look for New Physics in B-meson decays:
 and specifically concerning the [[LHCb]]-experiment
 
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](http://cds.cern.ch/record/1027442), [pdf](http://cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
+
+On the branching ratios being "clean", i.e. with small theoretic uncertainty: 
+
+early arguments:
+
+* {#HillerKrueger04} [[Gudrun Hiller]], F. Krüger, *More Model-Independent Analysis of $b \to s$ Processes*, Phys. Rev. D69 : 074020, 2004 ([arXiv:hep-ph/0310219](https://arxiv.org/abs/hep-ph/0310219))
+
+regarding [[QED]]-[[radiative corrections]]:
+
+* {#BordoneIsidoriPattori16} Marzia Bordone, [[Gino Isidori]], Andrea Pattori, *On the Standard Model predictions for $R_K$ and $R_{K^\ast}$*, Eur. Phys. J. C 76, 440 (2016). ([arXiv:1605.07633](https://arxiv.org/abs/1605.07633), [doi:10.1140/epjc/s10052-016-4274-7](https://doi.org/10.1140/epjc/s10052-016-4274-7))
+
+* [[Gino Isidori]], Saad Nabeebaccus, Roman Zwicky, *QED Corrections in $\bar B \to \bar K \ell^+ \ell^-$ at the Double-Differential Level* ([arXiv:2009.00929](https://arxiv.org/abs/2009.00929))
+
+comprehensive analysis:
+
+* {#IsidoriEtAl21} [[Gino Isidori]], Davide Lancierini, Abhijit Mathad, Patrick Owen, Nicola Serra, Rafael Silva Coutinho, *A general effective field theory description of $b \to s l^+ l^-$ lepton universality ratios* ([arXiv:2110.09882](https://arxiv.org/abs/2110.09882))
+
 
 General introduction to the issue in [[B-meson]] decays:
 
@@ -569,7 +589,7 @@ Brief review from the point of view of [[non-perturbative effect|non-perturbativ
 
 * {#LHCb2012} [[LHCb collaboration]], _Angular analysis of the $B^+ \to K^{\ast + } \mu^+ \mu^-$ decay_ ([arXiv:2012.13241](https://arxiv.org/abs/2012.13241))
 
-* [[LHCb collaboration]] *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
+* {#LHCB21} [[LHCb collaboration]] *Tests of lepton universality using $B^0 \to K^0_S l^+ l^-$− and $B^+ \to K^\ast \ell^+ \ell^-$ decays* ([arXiv:2110.09501](https://arxiv.org/abs/2110.09501))
 
 
 
