@@ -62,6 +62,8 @@ See also [Illustris Project Website](#IllustrisProjectWebsite): _[What are we le
 
 ## References
 
+### General
+
 Review includes
 
 * [[Joel Primack]], _Dark Matter and Structure Formation in the Universe_, Chapter 1 of _Formation of Structure in the Universe_, Proceedings of the Jerusalem Winter School 1996, edited by A. Dekel and J.P. Ostriker ([arXiv:astro-ph/9707285](https://arxiv.org/abs/astro-ph/9707285))
@@ -81,6 +83,11 @@ See also
 Application of [[persistent homology]] to cosmological structure formation:
 
 * Matteo Biagetti, [[Alex Cole]], [[Gary Shiu]], _The Persistence of Large Scale Structures I: Primordial non-Gaussianity_ ([arXiv:2009.04819](https://arxiv.org/abs/2009.04819))
+
+On structure formation during [[cosmic inflation]] via [[inhomogeneous cosmology|inhomogeneous]] [[quantum cosmology]]:
+
+* [[Martin Bojowald]], Ding Ding, *Canonical description of cosmological backreaction*, JCAP **03** (2021) 083
+([arXiv:2011.03018](https://arxiv.org/abs/2011.03018))
 
 
 ### Computer simulation
