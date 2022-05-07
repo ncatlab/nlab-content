@@ -49,20 +49,6 @@ A morphism $i$ in a category has the ''left lifting property'' with respect to a
 * if the outer square of the following diagram commutes, then there exists $h$ completing the diagram, i.e. for each $f:A\to X$ and $g:B\to Y$ such that $p\circ f = g \circ i$ there exists $h:B\to X$ such that $h\circ i = f$ and $p\circ h = g$.
 
 
-
-|[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture |
-|--|--|--|--|
-| [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$| $\boxed{\{\boxed{0},\boxed{1}\}}$ |
-| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{0\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \rightarrow 1 \;\Big\}$ | $\boxed{\{\boxed{0}\rightarrow 1\}}$|
-| [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrow 1 \;\Big\}$ |  $\boxed{\{0\leftrightarrow 1\}}$ |
-| [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\}  \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  | $\boxed{*}$ \begin{tikcd}\end{tikzcd} A
-\end{tikzcd} |
-
-
-
-
-
-
 \begin{tikzcd}
 [
   column sep={between origins, 160pt},
@@ -89,6 +75,10 @@ A morphism $i$ in a category has the ''left lifting property'' with respect to a
 
 This is sometimes also known as the morphism $i$ being ''weakly orthogonal to'' the morphism $p$; however, ''orthogonal to'' will refer to
 the stronger property that whenever $f$ and $g$ are as above, the diagonal morphism $h$ exists and is also required to be unique.
+
+
+
+
 
 For a class $C$ of morphisms in a category, its ''left weak orthogonal'' or its ''left Quillen negation''
  $C^{&solb; \ell}$ with respect to the lifting property, respectively its ''right weak orthogonal'' and its ''right Quillen negation'' 
