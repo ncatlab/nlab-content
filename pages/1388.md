@@ -50,6 +50,8 @@ The higher analog of a commutative ring is an [[E-∞ ring]].
 
 ## References
 
+See the references at *[[ring spectrum]]*.
+
 Another version of the $A_\infty$-ring is simply what is usually called the $A_\infty$-[[A-infinity-algebra|algebra]] in the case when the [[ground ring]] is the ring of integers. See
 
 * Gerald Dunn, _Lax operad actions and coherence for monoidal $n$-Categories, $A_{\infty}$ rings and modules_, Theory Appl. Cat. 1997, n.4 ([TAC](http://www.emis.de/journals/TAC/volumes/1997/n4/3-04abs.html))
