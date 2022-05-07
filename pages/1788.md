@@ -1,4 +1,94 @@
 
+Let $\phi \;\colon\; G \xrightarrow{\;} \Gamma$ be a [[crossed homomorphism]], hence equivalently a plain group homomorphism
+$(\phi(-),\,(-)) \,\colon\, G \xrightarrow{\;} \Gamma \rtimes G$.
+Say that another crossed homomorphism $\phi'$ is nearby if it is so as a plain homomorphism $(\phi'(-),(-))$. 
+
+Then the above theorem says that there is an element $(\gamma,\,h) \,\in\, \Gamma \rtimes G$ such that
+
+$$
+  \big(
+    \phi'(g),\,g
+  \big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \gamma, \, h
+  \big)^{-1}
+  \cdot
+  \big(
+    \phi'(g),\,g
+  \big)
+  \cdot
+  \big(
+    \gamma, \, h
+  \big)
+  \,.
+$$
+
+In order for such a conjugation to be a crossed conjugation of the original morphism, we need $h = \mathrm{e}$. 
+
+Notice that we know already that $h \in C(G)$ is in the [[center of a group|center]] of $G$, since the projection of both sides of the equation to $G$ must be the identity, by construction of crossed homomorphisms.
+
+Hence the further conjugation of the above equation by $\big(\mathrm{e},\,h^{-1}\big)$ yields:
+
+$$
+  \Big(
+    \alpha(h^{-1})
+    \big(
+      \phi'(g),\, g
+    \big)
+  \Big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \mathrm{e},\, h 
+  \big)
+  \cdot
+  \big(
+    \gamma, \, h
+  \big)^{-1}
+  \cdot
+  \big(
+    \phi'(g),\,g
+  \big)
+  \cdot
+  \big(
+    \gamma, \, h
+  \big)
+  \cdot
+  \big(
+    \mathrm{e},\, h^{-1} 
+  \big)
+  \,.
+$$
+
+Therefore, if the action of $G$ on $\Gamma$ restricts along the inclusion $C(G) \xhookrightarrow{\;} G$ to the [[trivial action]], then
+
+$$
+  \big(
+    \gamma, \, h
+  \big)
+  \cdot
+  \big(
+    \mathrm{e},\, h^{-1} 
+  \big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \gamma, \, \mathrm{e}
+  \big)  
+$$
+
+corresponds to a crossed conjugation
+
+$$
+  \phi'(-) \;=\;  \gamma^{-1} \cdot \phi(-) \cdot \alpha(-)(\gamma)
+  \,.
+$$
+
 [[CrossedHomomorphismsAsSlicedFunctors210831.jpg:file]]
 
 \begin{tikzcd}
