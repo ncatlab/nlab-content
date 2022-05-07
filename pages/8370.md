@@ -27,6 +27,7 @@
 ### Classical
 
 #### Plain
+  {#ClassicalPlain}
 
 Under the identifications
 
@@ -129,7 +130,15 @@ For more detailed review see [Eades 12, Sec. 3](#Eades12).
 #### Parametrized
  {#ClassicalParametrized}
 
-More in detail, with some more recent insights included, the trilogy is this:
+More is true: Since
+
+1. computation happens in [[contexts]] and is [[proof relevance|proof relevant]];
+
+1. [[categories]] give rise to their [[codomain fibration|systems of]] [[slice categories]] and are in general [[(∞,1)-categories]];
+
+1. [[types]] may [[dependent type theory|depend]] on other types and are in general [[homotopy type theory|homotopy types]]
+
+the traditional computational trilogy [above](#ClassicalPlain) enhances to read as follows:
 
 | In [[dependent type theory|dependent]] <br/> [[homotopy type theory]]: | In  [[programming languages]] <br/> and [[computation]]: | In [[locally cartesian closed (∞,1)-categories|locally cartesian closed]] <br/> [[(∞,1)-categories]]/[[(∞,1)-toposes]]: |
 |--|--|--|
@@ -137,7 +146,7 @@ More in detail, with some more recent insights included, the trilogy is this:
 
 See also [Shulman 18](#Shulman18).
 
-In this deeper form yet another equivalence -- to [[algebraic topology]] ([[schreiber:Proper Orbifold Cohomology|Sati&Schreiber 20]], [p. 5](https://ncatlab.org/schreiber/files/orbi210313.pdf#page=5)) -- opens up, as [[generalized elements]] in an [[(∞,1)-topos]] may equivalently be regarded as [[cocycles]] in ([[non-abelian cohomology|non-abelian]]) [[cohomology]], and in [[twisted cohomology]] if in a [[slice (∞,1)-category]] ([[schreiber:Proper Orbifold Cohomology|Sati&Schreiber 20]] [p. 6](https://arxiv.org/pdf/2008.01101.pdf#page=6), [[schreiber:The Character Map in Twisted Non-Abelian Cohomology|FSS 20]]), whence we have a *computational tetralogy*:
+In this deeper form yet another equivalence -- to [[algebraic topology]] ([[schreiber:Proper Orbifold Cohomology|Sati+Schreiber 20]], [p. 5](https://ncatlab.org/schreiber/files/orbi210313.pdf#page=5)) -- opens up, as [[generalized elements]] in an [[(∞,1)-topos]] may equivalently be regarded as [[cocycles]] in ([[non-abelian cohomology|non-abelian]]) [[cohomology]], and in [[twisted cohomology]] if in a [[slice (∞,1)-category]] ([[schreiber:Proper Orbifold Cohomology|Sati+Schreiber 20]] [p. 6](https://arxiv.org/pdf/2008.01101.pdf#page=6), [[schreiber:The Character Map in Twisted Non-Abelian Cohomology|FSS 20]]), whence we have a *computational tetralogy*:
 
 > (from Sati&Schreiber 21, "Topological and Quantum Systems")
 
