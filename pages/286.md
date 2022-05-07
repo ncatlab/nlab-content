@@ -98,18 +98,33 @@ Defining higher categorial structures using such equalities tends to lead to *st
 #### In the concept of $\dagger$-categories
   {#daggers}
 
-A **[[†-category]]** is a category $C$ with a functor
+A **[[†-category]]** is a [[category]] $C$ with a function $(-)^\dagger: Hom_C(A,B) \to hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
+
+* For every $A \in Ob(C)$, $(1_A)^\dagger = 1_A$
+* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$ and $g \in Hom_C(B,C)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$
+* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$, $((f)^\dagger)^\dagger = f$. 
+
+However, there is another definition of a †-category, as a category $C$ with a functor
 
 $$F\colon C \to C^{op} $$
 
 which is the identity on objects and has $F^2 = 1$.  
 
-This definition break equivalence-invariance: it imposes equations between objects, so we cannot transport a dagger-category structure along an equivalence of categories.
-Often concepts violating the principle of equivalence (like the concept of "strict monoidal category") have equivalence-invariant counterparts (like the concept of "monoidal category").  But in this particular case there appears to be no known way to express the idea without equations between objects.  Both [[Hilb]] and [[nCob]] are dagger-categories.  This fact is important.  Try saying it in a way that obeys the principle of equivalence!  
+This second definition break equivalence-invariance: it imposes equations between objects, so we cannot transport a dagger-category structure along an equivalence of categories.
+
+##### Historical comments
+
+It was once believed that there was no known way to express the idea without equations between objects. This stemmed from the fact that category theorists were using functors to define the dagger. It was only later that it was recognized that one could include the dagger in the definition of dagger categories in the same way that one includes composition of morphisms in the definition of category, which resulted in a definition of dagger category that doesn't violate the principle of equivalence. 
+
+This section has been left here for historical perspective.
+
++-- {: .query}
+This definition break equivalence-invariance: it imposes equations between objects, so we cannot transport a dagger-category structure along an equivalence of categories. Often concepts violating the principle of equivalence (like the concept of “strict monoidal category”) have equivalence-invariant counterparts (like the concept of “monoidal category”). But in this particular case there appears to be no known way to express the idea without equations between objects. Both [[Hilb]] and [[nCob]] are dagger-categories. This fact is important. Try saying it in a way that obeys the principle of equivalence!
 
 It is possible that this problem will force a change in thinking in either the concept of the principle of equivalence or our thinking in quantum theory.
 
-+-- {: .query}
+See also the MO discussion -- [Are dagger categories truly evil?](https://mathoverflow.net/q/220032/447).
+
 [[Mike Shulman]]: Actually, I believe that $\dagger$-structure on a category *can* be transported along an equivalence of categories!  Suppose that $F\colon C \to D \colon G$ is an [[adjoint equivalence]] with unit $\eta\colon Id_C \overset{\cong}{\to} G F$ and counit $\varepsilon\colon F G \overset{\cong}{\to} Id_D$, where $D$ is a $\dagger$-category.  Given $f\colon x\to y$ in $C$, define $f^\dagger$ to be the following composite:
 $$ y \overset{\eta}{\to} G F y \overset{G((F f)^\dagger)}{\to} G F x \overset{\eta^{-1}}{\to} x. $$
 This evidently defines a functor $C^{op} \to C$ that is the identity on objects.  Now $F(f^\dagger)$ is given by
@@ -188,8 +203,6 @@ _Toby_:  I did the diagrams a bit, but I don\'t have any more time for a complet
 
 [[Mike Shulman]]: Okay, you are right.  "Transporting along an equivalence" should mean that the forgetful functor is an equiv-fibration, i.e. lifts entire adjoint equivalences rather than merely functors that happen to be equivalences.  I think I disagree, however, that primitive operations (in something that we want to think of as a kind of category theory) should be freely allowed to talk about objects and be strict; I think they should also be formulated in a dependent type theory that only uses equality of objects as a typing assertion.  Dagger categories also satisfy this property.
 =--
-
-See also the MO discussion -- [Are dagger categories truly evil?](https://mathoverflow.net/q/220032/447).
 
 ### In physics
 
