@@ -70,7 +70,7 @@ The identity types of an indexed W-type are another indexed W-type.  This has be
 
 * {#Dybjer2000} [[Peter Dybjer]], _A general formulation of simultaneous inductive-recursive definitions in type theory_, 2000, The Journal of Symbolic Logic 65 (02), 525-549
 
-*{#DybjerSetzer2001} [[Peter Dybjer]], Anton Setzer, _Indexed induction-recursion_, 2001 Proof Theory in Computer Science, 93-113
+* {#DybjerSetzer2001} [[Peter Dybjer]], Anton Setzer, _Indexed induction-recursion_, 2001 Proof Theory in Computer Science, 93-113
 
 * {#Paulin93} Christine Paulin-Mohring, _Inductive definitions in the system Coq rules and properties_, 1993 Typed lambda calculi and applications, 328-345.
 
@@ -79,7 +79,7 @@ The identity types of an indexed W-type are another indexed W-type.  This has be
 
 * {#AGHMM} [[Thorsten Altenkirch]], [[Neil Ghani]], Peter Hancock, Conor McBride, and Peter Morris, _Indexed containers_ ([pdf](http://strictlypositive.org/indexed-containers.pdf))
 
-* {#DybjerSetzer} Peter Dybjer and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
+* {#DybjerSetzer} [[Peter Dybjer]] and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
 
 * [[Nicola Gambino]] and [[Martin Hyland]], *Wellfounded Trees and Dependent Polynomial Functors* [PDF](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/gambino-hyland-polynomial-functors.pdf)
 
