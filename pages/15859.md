@@ -24,7 +24,7 @@
 
 ##Idea##
 
-In the mid 1970s [[Julian Cole]] proposed a [[topos theory|topos-theoretic]] construction of spectra arising in the sense of [[spectrum of a commutative ring]] but for more general [[algebraic theories|(algebraic) theories]], as [[right adjoints]] to [[forgetful functors]] that generalized [[Monique Hakim|M. Hakim's]] approach to [[locally ringed topos|locally ringed toposes]].
+In the mid 1970s [[Julian Cole]] proposed a [[topos theory|topos-theoretic]] construction of [[spectrum (geometry)|spectra in geometry]] arising in the sense of [[spectrum of a commutative ring]] but for more general [[algebraic theories|(algebraic) theories]], as [[right adjoints]] to [[forgetful functors]] that generalized [[Monique Hakim|M. Hakim's]] approach to [[locally ringed topos|locally ringed toposes]].
 
 Basic ingredients are pairs of [[geometric theories]] $\mathbb{S}$ and $\mathbb{T}$ over the same [[language]] such that $\mathbb{T}$ results from $\mathbb{S}$ by addition of further [[axioms]]. Then $\mathbb{T}-Mod_\mathcal{E}$ is a [[full subcategory]] of $\mathbb{S}-Mod_\mathcal{E}$ and the spectrum construction can be viewed as a sort of generalization of a right adjoint to the inclusion. The quotient relation between the two theories gives the construction a model-theoretic flavor.
 
