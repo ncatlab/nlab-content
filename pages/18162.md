@@ -20,7 +20,7 @@
 ## Idea
  {#Idea}
 
-In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 2014](#\rightthreetimes)). 
+In [[topology]], some of the [[separation axioms]] that may be considered on [[topological spaces]] may equivalently be reformulated in terms of [[lifting properties]] ([Gavrilovich 2014](#\rightthreetimes)) with respect to simple counterexamples represented by finite preorders, and closely following standard definitions. 
 
 To see this, first notice/recall  the following two simple examples of [[lifting properties]] in [[diagrams]] in [[TopSp]].
 
@@ -29,7 +29,8 @@ The property
 * *$X \xrightarrow{f} Y$ is a [[surjective function]]*.
 
 means equivalently that $f$ has the [[right lifting property]]
-against the unique map from the [[empty space]] to the [[point space]]:
+against the unique map from the [[empty space]] to the [[point space]], 
+the simplest map which is not surjective:
 
 \begin{tikzcd}
 [
@@ -63,7 +64,14 @@ against the unique map from the [[empty space]] to the [[point space]]:
 
 Namely, a [[commuting diagram]] of the outer form is equivalently just the choice of a single point in $Y$ (this being the [[image]] of the bottom map), and the existence of the dashed lift means that any such point has a [[preimage]] through $f$. This is the very definition of [[surjective function|surjectivity]].
 
+Note that we have defined surjectivity with help of a simplest counterexample: the map on the left is perhaps the simplest example 
+of a non-surjective map. We shall see that this pattern holds 
+in other examples as well. Part of the reason that a map never has the left lifting property with respect to itself unless it is an isomorphism,
+and thus taking the lifting prperty is a simplest way to define a class of morphism not containing a given counterexample or without a given property 
+in a matter useful in a diagram chasing computation. 
+
 \linebreak
+
 
 
 Similarly, the property
@@ -95,7 +103,7 @@ $$
   \Big\}
 $$
 
-to the [[point space]]:
+to the [[point space]], one of the simplest non-injective maps:
 
 \begin{tikzcd}
 [
@@ -199,7 +207,9 @@ to the [[point space]]:
   \ast
 \end{tikzcd}
 
-Namely, now [[continuous function|continuity]] restricts the top map to be such that neither $x_i \in\; X$ is contained in an [[open subset]] that does not contain the other: For if it were, then the [[pre-image]] of that open subset would be $\{x_i\} \,\subset\, CoDsc\big( \{0,1\} \big)$, which however is *not* open (eq:OpenSubsetsOfTheCodiscreteSpaceOnTwoElements). This means that if $X_1$ is a [[T0-space|$T_0$-space]] then any such top map must be the [[constant function]], and this is equivalent to the existence of a lift in the diagram.
+Namely, now [[continuous function|continuity]] restricts the top map to be such that neither $x_i \in\; X$ is contained in an [[open subset]] that does not contain the other (this is the usual way to state the axiom): For if it were, then the [[pre-image]] of that open subset would be $\{x_i\} \,\subset\, CoDsc\big( \{0,1\} \big)$, which however is *not* open (eq:OpenSubsetsOfTheCodiscreteSpaceOnTwoElements). This means that if $X_1$ is a [[T0-space|$T_0$-space]] then any such top map must be the [[constant function]], and this is equivalent to the existence of a lift in the diagram.
+
+Note that [[codiscrete space]] with two points is a simple example of not a $T_0$-space.
 
 \linebreak
 
@@ -209,7 +219,8 @@ Proceeding in this manner, one sees that the property
 * *$X$ is a [[T1-space|$T_1$-space]].
 
 means equivalently that its unique map $X \to \ast$ to the [[point space]] has the [[right lifting property]]
-against the unique map from the [[Sierpinski space]] $Sierp$ 
+against the unique map from the [[Sierpinski space]] $Sierp$,
+again the simplest not a $T_1$-space.  
 
 $$
   Set
@@ -473,7 +484,10 @@ $$
     \;\;
   \right\}
 $$
-
+In this notation, the open subsets of the domain are 
+$$\{\{U\}, \{V\}, \{a,U\}, \{V,b\}, \{U,x,V\}\},\{a,U,x,V,b\}\}
+$$
+In codomain, points $a$ and $b$ are closed, and the only point left is open.
 
 \linebreak
 
