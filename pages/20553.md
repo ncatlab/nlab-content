@@ -26,5 +26,5 @@ The [[special linear group]] in [[dimension]] 2 over the [[integers]].
 
 ## References
 
-* Groupprops, _[Special linear group:SL(2,Z)](https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z))_
+* [[Groupprops]], _[Special linear group:SL(2,Z)](https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z))_
 
