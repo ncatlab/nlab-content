@@ -125,18 +125,6 @@ With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$. 
 $$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
 is actually an isomorphism in $\Top_k$, which we may call a *$k$-homeomorphism* (e.g. [Strickland 09, prop. 2.12](#Strickland09)).  In fact, it is actually a homeomorphism, i.e. an isomorphism already in $Top$.
 
-+-- {: .query}
-[[Zoran Škoda]]: I do not understand the remark. I mean if the domain is k-space then by the characterization above continuous is the same as k-continuous. Thus if both domain and codomain are continuous then homeo is the same as k-homeo. I assume that even in noHausdorff case, the test-open topology for $X$ and $Y$ k-spaces gives a k-space and that the cartesian product has the correction for the k-spaces. 
-
-[[Todd Trimble]]: That may be just the point: that the domain is not necessarily a $k$-space. I have to admit that I haven't worked through the details of this exposition, but one thing I tripped over is the fact that we're dealing with _all_ topological spaces $X$, $Y$, not just $k$-spaces. 
-
-[[Mike Shulman]]: But any topological space is isomorphic in $k\Top$ to its $k$-ification, right?  So $k\Top$ might as well be defined to consist of $k$-spaces and continuous maps. 
-
-[[Todd Trimble]]: Okay, you're right that makes sense. So in that case, it seems that Zoran definitely has a point here.
-
-[[Mike Shulman]]: See the [nForum discussion](https://nforum.ncatlab.org/comments.php?DiscussionID=1958).
-=--
-
 It follows that the category $k\Top$ of $k$-spaces and continuous maps is also cartesian closed, since it is equivalent to $\Top_k$.  Its exponential object is the $k$-ification of the one constructed above for $\Top_k$.  Since for $k$-spaces, $k$-continuous implies continuous, the underlying set of this exponential space $k\Top(X,Y)$ is the set of all continuous maps from $X$ to $Y$.  Thus, when $X$ is Hausdorff, we can identify this space with the $k$-ification of the usual [[compact-open topology]] on $Top(X,Y)$.
 
 Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorff, conditions.
