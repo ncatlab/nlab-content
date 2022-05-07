@@ -32,7 +32,7 @@ See _[[characteristic class]]_ for more.
 
 Textbook accounts include
 
-* {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochman96} [[Stanley Kochman]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 
 
