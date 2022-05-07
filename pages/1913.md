@@ -131,6 +131,7 @@ $$
 $$
 
 This integral in turn encodes the $n$-functoriality of the $n$-functor: it effectively says that
+
 * if we decompose the standard $n$-cube $[0,1]^n$ into $N^n$ little subcubes $(C_k)_{k\in \mathbb{N}^n}$  for $N \in \mathbb{N}$
 * and apply the $n$-functor to each of these to obtain a result (a real number) to be denoted $\omega(C_k)$;
 * then by $n$-functoriality the result of the application of the functor to the full $\Sigma$ is the composition of all the $\omega(C_k)$ in $\mathbb{R}$. i.e. their sum
