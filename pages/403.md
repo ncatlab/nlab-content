@@ -332,6 +332,8 @@ It is useful to contrast the notion of [[internal category]] with that of [[enri
 
 As described there, [[internalization]] is a quite general phenomenon, of which [[internal categories]] are a particular case. However, the distinction between "internalization" and "enrichment" becomes less clear in generality.  For example, in addition to categories enriched over a monoidal category, one can define categories enriched over a [[bicategory]] or an [[virtual double category]]. It then turns out that a category enriched over the bicategory (or virtual double category) of [[span|spans]] in a lex category $C$ _which has one object_ is precisely an _internal_ category in $C$.
 
+See also at [enriched category](enriched+category#internalization_versus_enrichment).
+
 
 ## Related concepts
 
