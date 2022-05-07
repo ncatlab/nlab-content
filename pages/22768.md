@@ -42,37 +42,21 @@ $$\bot \oplus a = a$$
 
 $$a \oplus \top = \top$$
 
-__Linear implication__ can be defined as
-
-$$a \multimap b \coloneqq a^\bullet \oplus b$$
-
-__$\bot$-zooming can be defined as 
-
-$$a^\vee \coloneqq a \oplus a$$
-
-and __$\top$-zooming__ can be defined as 
-
-$$a^\wedge \coloneqq (a^\bullet \oplus a^\bullet)^\bullet = a \otimes a$$
-
-__Central dilatations__ can be defined as 
-
-$$b^\dagger \coloneqq ((\odot \vert \bot)\oplus b)^\wedge$$
-
-or as 
-
-$$b^\dagger \coloneqq ((\odot \vert \top)\otimes b)^\vee$$
-
 ### In terms of linear implication
 
-From $\multimap$ one could define the zoom operators. 
++-- {: .standout}
+Note: linear implication is usually denoted using $\multimap$. We use $\rightarrowtail$ instead because there is no left-pointing $\multimap$ in [[LaTeX]] for the dual linear implication, while there is $\leftarrowtail$  
+=--
+
+From $\rightarrowtail$ one could define the zoom operators. 
 
 __$\bot$-zooming__ can be defined as 
 
-$a^\vee \coloneqq a^\bullet \multimap a$
+$a^\vee \coloneqq a^\bullet \rightarrowtail a$
 
 __$\top$-zooming__ can be defined as 
 
-$a^\wedge \coloneqq (a \multimap a^\bullet)^\bullet$
+$a^\wedge \coloneqq (a \rightarrowtail a^\bullet)^\bullet$
 
 ### In terms of zoom operations
 
@@ -85,26 +69,6 @@ $$(\bot \vert a)^\vee = a$$
 $$(a \vert \top)^\wedge = a$$
 
 $$(a \vert \top)^\vee = \top$$
-
-__Multiplicative conjunction__ can be defined as
-
-$$a \otimes b \coloneqq (a \vert b)^\wedge$$
-
-__Multiplicative disjunction__ can be defined as 
-
-$$a \oplus b \coloneqq (a \vert b)^\vee$$
-
-__Linear implication__ can be defined as
-
-$$a \multimap b \coloneqq a^\bullet \oplus b$$
-
-__Central dilatations__ can be defined as 
-
-$$b^\dagger \coloneqq ((\odot \vert \bot)\oplus b)^\wedge$$
-
-or as 
-
-$$b^\dagger \coloneqq ((\odot \vert \top)\otimes b)^\vee$$
 
 ### In terms of central dilatations
 
@@ -154,6 +118,20 @@ or as
 
 $$a\vartriangleleft b \coloneqq ((a^\bullet \vert \top)\otimes b)^\vee$$
 
+### Defining operations in terms of other operations
+
+Multiplication conjunction, multiplicative disjunction, $\top$-zooming, $\bot$-zooming, linear implication, and dual linear implication can all be defined in terms of each other, $\vert$, and $(-)^\bullet$. 
+
+<table>
+<tr><th markdown="1">operation</th><th markdown="1">$a \otimes b$</th><th markdown="1">$a \oplus b$</th><th markdown="1">$a^\wedge$</th><th markdown="1">$a^\vee$</th><th markdown="1">$a \leftarrowtail b$</th><th markdown="1">$a \rightarrowtail b$</th></tr>
+<tr><th markdown="1">$a \otimes b$</th><th markdown="1">$a \otimes b$</th><th markdown="1">$(a^\bullet \oplus b^\bullet)^\bullet$</th><th markdown="1">$(a\vert b)^\wedge$</th><th markdown="1">$((a^\bullet \vert b^\bullet)^\vee)^\bullet$</th><th markdown="1">$a^\bullet \leftarrowtail b$</th><th markdown="1">$(a \rightarrowtail b^\bullet)^\bullet$</th></tr>
+<tr><th markdown="1">$a \oplus b$</th><th markdown="1">$(a^\bullet \otimes b^\bullet)^\bullet$</th><th markdown="1">$a \oplus b$</th><th markdown="1">$((a^\bullet \vert b^\bullet)^\wedge)^\bullet$</th><th markdown="1">$(a \vert b)^\vee$</th><th markdown="1">$(a \leftarrowtail b^\bullet)^\bullet$</th><th markdown="1">$a^\bullet \rightarrowtail b$</th></tr>
+<tr><th markdown="1">$a^\wedge$</th><th markdown="1">$a \otimes a$</th><th markdown="1">$(a^\bullet \oplus a^\bullet)^\bullet$</th><th markdown="1">$a^\wedge$</th><th markdown="1">$((a^\bullet)^\vee)^\bullet$</th><th markdown="1">$a^\bullet \leftarrowtail a$</th><th markdown="1">$(a \rightarrowtail a^\bullet)^\bullet$</th></tr>
+<tr><th markdown="1">$a^\vee$</th><th markdown="1">$(a^\bullet \otimes a^\bullet)^\bullet$</th><th markdown="1">$a \oplus a$</th><th markdown="1">$((a^\bullet)^\wedge)^\bullet$</th><th markdown="1">$a^\vee$</th><th markdown="1">$(a \leftarrowtail a^\bullet)^\bullet$</th><th markdown="1">$a^\bullet \rightarrowtail a$</th></tr>
+<tr><th markdown="1">$a \leftarrowtail b$</th><th markdown="1">$a^\bullet \otimes b$</th><th markdown="1">$(a \oplus b^\bullet)^\bullet$</th><th markdown="1">$(a^\bullet \vert b)^\wedge$</th><th markdown="1">$((a \vert b^\bullet)^\vee)^\bullet$</th><th markdown="1">$a \leftarrowtail b$</th><th markdown="1">$(a^\bullet \rightarrowtail b^\bullet)^\bullet$</th></tr>
+<tr><th markdown="1">$a \rightarrowtail b$</th><th markdown="1">$(a \otimes b^\bullet)^\bullet$</th><th markdown="1">$a^\bullet \oplus b$</th><th markdown="1">$((a \vert b^\bullet)^\wedge)^\bullet$</th><th markdown="1">$(a^\bullet \vert b)^\vee$</th><th markdown="1">$(a^\bullet \leftarrowtail b^\bullet)^\bullet$</th><th markdown="1">$a \rightarrowtail b$</th></tr>
+</table>
+
 ## Additional possible equational axioms
 
 Here is a list of other possible equational axioms that a minor scale might satisfy: 
@@ -190,7 +168,7 @@ $$a \vert (a \multimap b) = b \vert (b \multimap a)$$
 
 * the __disjunction property__: for all $a$ and $b$ in $M$,
 
-$$(a \multimap b) \vee (b \multimap a) = \top$$
+$$(a \rightarrowtail b) \vee (b \rightarrowtail a) = \top$$
 
 * the __coalgebra equation__: for all $a$ in $M$,
 
@@ -228,11 +206,11 @@ $$a \vee (a \wedge b) = a$$
 
 * for all $a$ and $b$ in $M$, 
 
-$$(a \otimes b) \multimap (a^\wedge \vert b^\wedge) = \top$$
+$$(a \otimes b) \rightarrowtail (a^\wedge \vert b^\wedge) = \top$$
 
 * for all $a$ and $b$ in $M$, 
 
-$$(a^\vee \vert b^\vee) \multimap (a \oplus b) = \top$$
+$$ (a \oplus b) \leftarrowtail (a^\vee \vert b^\vee) = \bot$$
 
 ## Properties
 
