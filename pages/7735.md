@@ -20,11 +20,24 @@ On [[I8]]:
 
 * {#HarveyMinasianMoore98b} [[Jeff Harvey]], [[Ruben Minasian]], [[Greg Moore]], _Non-abelian Tensor-multiplet Anomalies_, JHEP9809:004, 1998 ([arXiv:hep-th/9808060](https://arxiv.org/abs/hep-th/9808060))
 
-On the [[quantum anomaly]] of [[M5-branes]]:
 
-* {#BahBonettiMinasianNardoni18} Ibrahima Bah, [[Federico Bonetti]], [[Ruben Minasian]], Emily Nardoni, _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+## Selected writings
 
-* {#BBMN19} Ibrahima Bah, [[Federico Bonetti]], [[Ruben Minasian]], Emily Nardoni, _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_ ([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
+On [[M5-branes]] and their [[quantum anomaly]]-cancellation:
+
+* {#BahBonettiMinasianNardoni18} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Class $\mathcal{S}$ Anomalies from M-theory Inflow_, Phys. Rev. D 99, 086020 (2019) ([arXiv:1812.04016](https://arxiv.org/abs/1812.04016))
+
+* {#BBMN19} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomaly Inflow for M5-branes on Punctured Riemann Surfaces_,  J. High Energ. Phys. 2019, 123 (2019)
+([arXiv:1904.07250](https://arxiv.org/abs/1904.07250))
+
+* {#BBMN19b} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], [[Emily Nardoni]], _Anomalies of QFTs from M-theory and Holography_, J. High Energ. Phys. 2020, 125 (2020) ([arXiv:1910.04166](https://arxiv.org/abs/1910.04166))
+
+
+* {#BahBonettiMinasian20} [[Ibrahima Bah]], [[Federico Bonetti]], [[Ruben Minasian]], _Discrete and higher-form symmetries in SCFTs from wrapped M5-branes_, J. High Energ. Phys. 2021, 196 (2021) ([arXiv:2007.15003](https://arxiv.org/abs/2007.15003))
+
+
+
+
 
 On [[type II geometry]] and [[non-geometric vacua]]:
   
