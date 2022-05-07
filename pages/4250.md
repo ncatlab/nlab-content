@@ -26,9 +26,10 @@ For the other notion of homotopy groups see [[geometric homotopy groups in an (�
 
 
 ## Definition
+ {#Definition}
 
-Recall that since an [[(∞,1)-topos]] $\mathbf{H}$ has all [[limits in a quasi-category|limits]],  it is naturally
-[powered over ∞Grpd](http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring):
+Since an [[(∞,1)-topos]] $\mathbf{H}$ has all [[limits in a quasi-category|$(\infty,1)$-limits]],  it is 
+[powered over ∞Grpd](limit+in+a+quasi-category#Tensoring) (see at *[Powering of $\infty$-toposes over $\infty$-groupoids](infinity1-topos#PoweringOfInfinityToposesOverInfinityGroupoids)*):
 
 $$
   (-)^{(-)} 
@@ -42,15 +43,16 @@ $$
 
 Let $S^n  \,\coloneqq\, \partial \Delta[n+1]$ (or  $S^n \coloneqq Ex^\infty \partial \Delta[n+1]$) be the ([[Kan fibrant replacement]]) of the [[boundary of a simplex|boundary of the (n+1)-simplex]], i.e. the model in [[∞Grpd]] of the [[pointed object|pointed]] [[n-sphere]].
 
-Then for $X \in \mathbf{H}$ an object, the power object $X^{S^n} \,\in\, \mathbf{H}$ plays the role of the space of of maps from the $n$-sphere into $X$, as in the definition of [[simplicial homotopy groups]], to which this reduces in the case that $\mathbf{H} = $ [[∞Grpd]]. 
+Then for $X \in \mathbf{H}$ an [[object]], the [[powering|power object]] $X^{S^n} \,\in\, \mathbf{H}$ plays the role of the space of of maps from the $n$-sphere into $X$, as in the definition of [[simplicial homotopy groups]], to which this reduces in the case that $\mathbf{H} = $ [[∞Grpd]]. 
 
-By powering the canonical morphism $ i_n : * \to S^n$ induces a morphism
+Moreover, [[powering]] of the canonical morphism $ i_n \colo * \to S^n$ induces a morphism
 
 $$
-  X^{i_n} : X^{S^n} \to X
+  X^{i_n} \;\colon\; X^{S^n} \longrightarrow X
 $$
 
-which is restriction to the basepoint. This morphism may be regarded as an object of the [[over quasi-category|over]] [[(∞,1)-topos]] $\mathbf{H}_{/X}$.
+which is restriction to the basepoint. This morphism may be regarded as an object of the [[slice (∞,1)-topos]] $\mathbf{H}_{/X}$.
+
 
 ### Of objects
 
@@ -63,14 +65,16 @@ For $n \in \mathbb{N}$ define
 $$
   \pi_n(X) 
     \;\coloneqq\;
-  \tau_{\leq 0} X^{i_n} \in \mathbf{H}_{/X}
+  \tau_{\leq 0} X^{i_n} 
+  \;\;\;\in\;
+  \mathbf{H}_{/X}
 $$
 
-to be the [[n-truncated object of an (infinity,1)-topos|0-truncation]] of the object $X^{i_n}$.
+to be the [[n-truncated object of an (infinity,1)-topos|0-truncation]] of the [[powering|power object]] $X^{i_n}$.
 
 =--
 
-Passing to the 0-truncation here amounts to dividing out the [[homotopy|homotopies]] between maps from the $n$-sphere into $X$. The [[n-truncated object of an (infinity,1)-topos|0-truncated]] objects in $\mathbf{H}_{/X}$ have the interpretation of [[sheaf|sheaves]] on $X$. So in the world of [[∞-stack]]s a homotopy [[group object]] is a [[sheaf]] of groups.
+Passing to the 0-truncation here amounts to dividing out the [[homotopy|homotopies]] between maps from the $n$-sphere into $X$. The [[n-truncated object of an (infinity,1)-topos|0-truncated]] objects in $\mathbf{H}_{/X}$ have the interpretation of [[sheaf|sheaves]] on $X$. So in the world of [[∞-stacks]] a homotopy [[group object]] is a [[sheaf]] of groups.
 
 To see that there is indeed a group structure on these _homotopy sheaves_ as usual, notice from the general properties of [[power]]ing we have that 
 
@@ -303,4 +307,8 @@ The model in terms of the [[model structure on simplicial presheaves]] is duscus
 [[!redirects homotopy sheaves]]
 
 [[!redirects categorical homotopy groups in an infinity-topos]]
+[[!redirects categorical homotopy groups in an infinity1-topos]]
+
 [[!redirects categorical homotopy groups]]
+
+
