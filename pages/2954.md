@@ -26,6 +26,11 @@ Freed's work revolves around the mathematical ingredients and foundations of mod
 
 ## Selected writings
 
+On [[spin geometry]], [[Dirac operators]] and [[index theory]]:
+
+* {#Freed87} [[Dan Freed]], _Geometry of Dirac operators_, 1987 ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]])
+
+
 On [[instantons]] and [[4-manifolds]]:
 
 * [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
