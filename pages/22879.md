@@ -21,9 +21,12 @@
 ## Idea
 
 
-On the [[stable homotopy type|stable]] [[homotopy type]] of [[mapping spaces]] of regular [[rational maps]].
+On the [[stable homotopy type|stable]] [[homotopy type]] of [[mapping spaces]] of (regular) [[rational maps]].
 
-Under good conditions, the [[topological subspace|subspace inclusion]] of the space of regular [[rational maps]] into that of all [[continuous maps]] between given projective [[complex manifolds]] or [[algebraic varieties]] induces an [[isomorphism]] in integral [[ordinary homology]] in low degrees, while for maps out of the [[Riemann sphere]] this is even an isomorphism on [[homotopy groups]] in low degrees -- an observation that goes back to [Segal 1979](#Segal79):
+Under good conditions, the [[topological subspace|subspace inclusion]] of the space of [[rational maps]] (regular, see Rem. \ref{NotionsOfRationalMaps}),
+between given projective [[complex manifolds]] or [[algebraic varieties]],
+into the [[mapping space]] of all [[continuous maps]]  
+induces an [[isomorphism]] in integral [[ordinary homology]] in low degrees, while for maps out of the [[Riemann sphere]] this is even an isomorphism on [[homotopy groups]] in low degrees:
 
 $$
   Maps_{rat}(X_1, X_2)
@@ -32,17 +35,30 @@ $$
   \,.
 $$
 
-Whenever this is holds it provides
+This phenomenon originates in results of [Segal 1979](#Segal79) and is commonly referred to by Segal's name (e.g. "theorems of Segal-type" in [Friedlander & Lawson 1997, Sec. 5.C](#FriedlanderLawson97).
+
+Whenever this holds it provides
 
 1. from left to right: [[homotopy theory|homotopy theoretic]] tools for analyzing [[moduli spaces]] of rational hypersurfaces;
 
-1. from right to left: small algebraic models for [[stable homotopy types|stable]] [[homotopy types]] of [[mapping spaces]].
+1. from right to left: small algebraic models for [[stable homotopy types|stable]] [[homotopy types]] of [[mapping spaces]]
+
+at least up to some dimension.
 
 ## Details
+
+Some remarks on the terminology being used:
 
 \begin{remark}\label{NotionsOfDegree}
 **("degree")**\linebreak
   Most or all of the following statement invoke an [[integer]] "degree" of [[continuous functions]]. Beware that this is *not* the [[degree of a continuous function]] (see there) in the usual sense of [[algebraic topology]], except in special cases (such as the archetypical example \ref{TheArchetypicalExample}). 
+\end{remark}
+
+\begin{remark}\label{NotionsOfRationalMaps}
+**("rational maps")** \linebreak
+  It it tradition (starting with Segal) to speak of [[rational maps]] in the following, but in the end the focus on *regular rational maps* ("morphisms": e.g. [Friedlander & Lawson 1997, p. 27](#FriedlanderLawson97))), as is necessary to regard them as [[continuous functions]] defined everywhere on the given [[domain]] $X_1$.
+
+In many cases of interest, such as when the [[domain]] $X_1$ is a non-singular [[complex curve]]/[[Riemann surface]] and the [[codomain]] $X_2$ a [[complex projective space]], then all rational maps from $X_1$ to $X_2$ are automatically regular (e.g. [Shafarevich Vol1, Cor. 2.3](rational+map#ShafarevichVol1)). 
 \end{remark}
 
 ### Maps from a Riemann surface to a projective space
@@ -137,7 +153,29 @@ $$
 
 is an isomorphism on [[homotopy groups]] up to degree $\leq d$.
 \end{example}
-([Segal 1979, Prop. 1.1'](#Segal79)) This statement controls the classification of [[Yang-Mills monopoles]].
+([Segal 1979, Prop. 1.1'](#Segal79)) 
+
+\begin{remark}\label{RelationToYangMillsMonopoles}
+**(relation to [[Yang-Mills monopoles]])** \linebreak
+Example \ref{TheArchetypicalExample} controls the classification of [[Yang-Mills monopoles]]. See there for more
+\end{remark}
+
+\begin{remark}\label{RelationToGromovWittenTheory}
+**(relation to [[Gromov-Witten theory]])**
+  A compactification and [[quotient stack]] of the space of rational maps 
+  in (eq:RationalMappingSpaceInsideContinuousMappingSpace) is considered in [[Gromov-Witten theory]], e.g. [Bertram 2002, p. 9](Gromov-Witten+theory#Bertram02).
+\end{remark}
+
+\begin{remark}\label{RelationToTwistorStringTheory}
+**(relation to [[twistor string theory]])** \linebreak
+  In the context of [[twistor string theory]], 
+the spaces of rational maps $\Sigma \to \mathbb{C}P^3$ (eq:RationalMappingSpaceInsideContinuousMappingSpace)  are interpreted as [[moduli spaces]] of [[D1-brane]]-[[instantons]] in the [[twistor space]] [[complex projective 3-space|$\mathbb{C}P^3$]] ([Witten 2004, Sec. 3](twistor+string+theory#Witten04)).
+
+Such rational maps are also argued to encode [[scattering amplitudes]] in [[D=4 N=8 supergravity]] ([Cachazo & Skinner 2012](twistor+string+theory#CachazoSkinner12))
+
+Here the number of poles in the rational function  is the number $n$ of particles in the [[n-point function]], and the genus and degree encode the particle's [[helicity]] and the [[loop order]] of the [[scattering amplitude]].
+\end{remark}
+
 
 \begin{remark}\label{ComaprisonToHomotopicalOkaPrinciple}
 **(comparison to the [[homotopical Oka principle]])** \linebreak
@@ -166,13 +204,6 @@ $$
 induces an isomorphism on all [[homotopy groups]], hence is a [[weak homotopy equivalence]] -- reflecting the fact that non-compactness of the Riemann surfaces and absence of any asymptotic boundary condition provides a large supply of holomorphic functions.
 \end{remark}
 
-\begin{remark}\label{RelationToTwistorStringTheory}
-**(relation to [[twistor string theory]])** \linebreak
-  In the context of [[twistor string theory]], 
-the spaces of rational maps $\Sigma \to \mathbb{C}P^3$ (eq:RationalMappingSpaceInsideContinuousMappingSpace)  are interpreted as [[moduli spaces]] of [[D1-brane]]-[[instantons]] in the [[twistor space]] [[complex projective 3-space|$\mathbb{C}P^3$]].
-
-Here the number of poles in the rational function  is the number $n$ of particles in the [[n-point function]], and the genus and degree encode the particle's [[helicity]] and the [[loop order]] of the [[scattering amplitude]].
-\end{remark}
 
 ### Maps between projective spaces
  {#MapsBetweenProjectiveSpaces}
@@ -260,10 +291,13 @@ Further discussion:
 
 * [[Fred Cohen]], [[Ralph Cohen]], [[B. M. Mann]], [[R. J. Milgram]], _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
+* {#FriedlanderLawson97} [[Eric M. Friedlander]], [[H. Blaine Lawson]], Section 5.C of: *Duality Relating Spaces of Algebraic Cocycles and Cycles*, Topology Volume 36, Issue 2, March 1997, Pages 533-565 ([pdf](https://dornsife.usc.edu/assets/sites/1163/docs/Preprint_versionsPublications/10/projH.pdf))
+
 * [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
 Volume: 258 (2000)  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
 
-* Yasuhiko Kamiyama, *Remarks on spaces of real rational functions*, The Rocky Mountain Journal of Mathematics Vol. 37, No. 1 (2007), pp. 247-257 ([jstor:44239357](https://www.jstor.org/stable/44239357))
+* {#Kamiyama07} Yasuhiko Kamiyama, *Remarks on spaces of real rational functions*, The Rocky Mountain Journal of Mathematics Vol. 37, No. 1 (2007), pp. 247-257 ([jstor:44239357](https://www.jstor.org/stable/44239357))
+
 
 Generalization to the case that the [[codomain]] is 
 
@@ -271,20 +305,20 @@ Generalization to the case that the [[codomain]] is
 
 * [[Frances Kirwan]], *On spaces of maps from Riemann surfaces to Grassmannians and applications to the cohomology of moduli of vector bundles*, Ark. Mat. 24(1-2): 221-275 (1985) ([doi:10.1007/BF02384399](https://www.projecteuclid.org/journals/arkiv-for-matematik/volume-24/issue-1-2/On-spaces-of-maps-from-Riemann-surfaces-to-Grassmannians-and/10.1007/BF02384399.full))
 
+... a [[toric variety]]:
+
+* [[Martin A. Guest]], *The topology of the space of rational curves on a toric variety*, Acta Math. 174(1): 119-145 (1995) ([doi:10.1007/BF02392803](https://projecteuclid.org/journals/acta-mathematica/volume-174/issue-1/The-topology-of-the-space-of-rational-curves-on-a/10.1007/BF02392803.full), [arXiv:alg-geom/9301005](https://arxiv.org/abs/alg-geom/9301005))
+
 ... a [[flag manifold]]:
 
 * [[C. P. Boyer]], [[B. M. Mann]], [[J. C. Hurtubise]], [[R. J. Milgram]], *The topology of the space of rational maps into generalized flag manifolds*, Acta Mathematica. 1994 Mar 1;173(1):61-101 ([doi:10.1007/BF02392569](https://projecteuclid.org/journals/acta-mathematica/volume-173/issue-1/The-topology-of-the-space-of-rational-maps-into-generalized/10.1007/BF02392569.full))
 
 * [[J. C. Hurtubise]], *Holomorphic maps of a Riemann surface into a flag manifold*, J. Differential Geom. 43(1): 99-118 (1996) ([doi:10.4310/jdg/1214457899](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-43/issue-1/Holomorphic-maps-of-a-Riemann-surface-into-a-flag-manifold/10.4310/jdg/1214457899.full))
 
-... a [[toric variety]]:
-
-* [[Martin A. Guest]], *The topology of the space of rational curves on a toric variety*, Acta Math. 174(1): 119-145 (1995) ([doi:10.1007/BF02392803](https://projecteuclid.org/journals/acta-mathematica/volume-174/issue-1/The-topology-of-the-space-of-rational-curves-on-a/10.1007/BF02392803.full), [arXiv:alg-geom/9301005](https://arxiv.org/abs/alg-geom/9301005))
-
-
 Application to [[Skyrmions]]:
 
 * Steffen Krusch, *Homotopy of rational maps and the quantization of Skyrmions*, Annals of Physics Volume 304, Issue 2, April 2003, Pages 103-127 (<a href="https://doi.org/10.1016/S0003-4916(03)00014-9">doi:10.1016/S0003-4916(03)00014-9</a>)
+
 
 ### Maps between projective spaces
 
