@@ -424,11 +424,6 @@ Review:
 
 * [[Pratik Rath]], *Aspects of Holography And Quantum Error Correction*, 2020 ([pdf](https://digitalassets.lib.berkeley.edu/etd/ucb/text/Rath_berkeley_0028E_19810.pdf), [[RathHolographyAndQEC.pdf:file]]) 
 
-See also:
-
-* Fernando Pastawski, John Preskill, *Code properties from holographic geometries* ([arXiv:1612.00017](https://arxiv.org/abs/1612.00017))
-
-
 
 Introduction of the more general [[Majorana dimer code]]:
 
@@ -444,16 +439,19 @@ Further discussion of holographic quantum error correcting codes:
 
 * Enrico M. Brehm, Benedikt Richter, *Classical Holographic Codes*, Phys. Rev. D 96, 066005 (2017) ([arXiv:1609.03560](https://arxiv.org/abs/1609.03560))
 
-* [[Robert J. Harris]], Nathan A. McMahon, Gavin K. Brennen, [[Thomas M. Stace]], *Calderbank-Steane-Shor Holographic Quantum Error Correcting Codes*, Phys. Rev. A 98, 052301 (2018) ([arXiv:1806.06472](https://arxiv.org/abs/1806.06472))
+* [[Fernando Pastawski]], [[John Preskill]], *Code properties from holographic geometries*, Phys. Rev. X 7, 021022 (2017) ([arXiv:1612.00017](https://arxiv.org/abs/1612.00017))
+
+
+* [[Robert J. Harris]], [[Nathan A. McMahon]], [[Gavin K. Brennen]], [[Thomas M. Stace]], *Calderbank-Steane-Shor Holographic Quantum Error Correcting Codes*, Phys. Rev. A 98, 052301 (2018) ([arXiv:1806.06472](https://arxiv.org/abs/1806.06472))
 
 * Tamara Kohler, Toby Cubitt, *Toy Models of Holographic Duality between local Hamiltonians*, 	J. High Energy Phys. 2019:17 (2019) ([arXiv:1810.08992](https://arxiv.org/abs/1810.08992))
 
 * Tobias J. Osborne, Deniz E. Stiegemann, *Dynamics for holographic codes*, J. High Energ. Phys. 2020, 154 (2020) ([arXiv:1706.08823](https://arxiv.org/abs/1706.08823))
 
-* Nathan A. McMahon, Gavin K. Brennen, Thomas M. Stace, Robert J. Harris, Elliot Coupe, *Decoding Holographic Codes with an Integer Optimisation Decoder* ([arXiv:2008.10206](https://arxiv.org/abs/2008.10206))
+* [[Nathan A. McMahon]], [[Gavin K. Brennen]], [[Thomas M. Stace]], [[Robert J. Harris]], Elliot Coupe, *Decoding Holographic Codes with an Integer Optimisation Decoder* ([arXiv:2008.10206](https://arxiv.org/abs/2008.10206))
 
 
-* Terry Farrelly, [[Robert J. Harris]], Nathan A. McMahon, [[Thomas M. Stace]], *Tensor-network codes* ([arXiv:2009.10329](https://arxiv.org/abs/2009.10329))
+* [[Terry Farrelly]], [[Robert J. Harris]], [[Nathan A. McMahon]], [[Thomas M. Stace]], *Tensor-network codes* ([arXiv:2009.10329](https://arxiv.org/abs/2009.10329))
 
 * ChunJun Cao, Brad Lackey, *Approximate Bacon-Shor Code and Holography* ([arXiv:2010.05960](https://arxiv.org/abs/2010.05960))
 
