@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 =--
 =--
 
@@ -42,6 +46,10 @@ $$
 * [[initial object]], [[terminal object]]
 
 * [[h-initial object]]
+
+* [[terminal object in a 2-category]]
+
+* [[initial object in a 2-category]]
 
 
 ##References#
