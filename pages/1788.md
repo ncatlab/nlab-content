@@ -1,5 +1,40 @@
 
 \begin{tikzcd}
+        \mathrm{X} \!\times\! \{0\}
+        \;\cup\;
+        \mathrm{A} \!\times\! [0,1]
+        \ar[
+          r,
+          "{ i \Box 0  }"
+        ]
+        \ar[
+          rr,
+          rounded corners,
+          to path={
+            -- ([yshift=-9pt]\tikztostart.south)
+            --node[above]{
+                \scalebox{.7}{$\mathrm{id}$}
+              }
+              ([yshift=-9pt]\tikztotarget.south)
+            -- (\tikztotarget.south)}
+        ]
+        &
+        \mathrm{X} \times [0,1]\;.
+        \ar[
+          r,
+          dashed,
+          "{r}"
+        ]
+        &
+        \mathrm{X} \!\times\! \{0\}
+        \;\cup\;
+        \mathrm{A} \!\times\! [0,1]
+\end{tikzcd}
+
+
+\linebreak
+
+\begin{tikzcd}
     &[-28pt]
     G
     \ar[
