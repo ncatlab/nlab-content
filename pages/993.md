@@ -11,19 +11,21 @@ In [[geometry]], a __spectrum__ is a geometric [[space]] constructed from some a
 
 Examples are 
 
-+ the [[Gelfand spectrum]] of a $C^*$-algebra, 
++ the [[Gelfand spectrum]] of a commutative [[C*-algebra]],
+
+* the spectrum of a commutative [[von Neumann algebras]] is an enhanced [[measurable space]],
 
 * the Grothendieck [[spectrum of a commutative ring]], 
 
-* the formal spectrum of a complete noetherian commutative ring, 
+* the formal spectrum of a complete noetherian [[commutative ring]], 
 
-* the primitive spectrum of a noncommutative (but unital) ring, 
+* the [[primitive spectrum]] of a noncommutative (but unital) ring, 
 
-* the left spectrum of a noncommutative ring, 
+* the [[left spectrum]] of a noncommutative ring, 
 
-* Rosenberg's spectrum of an [[abelian category]], 
+* the [[Rosenberg spectrum]] of an [[abelian category]], 
 
-* Gabriel's spectrum of indecomposable injectives, 
+* the [[Gabriel spectrum]] of indecomposable injectives, 
 
 * the [[Pierce spectrum]], 
 
@@ -42,3 +44,4 @@ The word 'spectrum' in this setup originates from the fact that the spectrum of 
 
 * [MO discussion](http://mathoverflow.net/a/20293/381) on the history of the idea of a space of ideals on which a ring is a ring of functions, both in analysis and in algebraic geometry
 
+* [[Axel Osmond]], _The general construction of Spectra_, [arXiv:2102.01259](https://arxiv.org/abs/2102.01259).
