@@ -29,12 +29,12 @@ Let $S$ be a [[Cauchy space]] (such as a [[uniform space]] or a [[metric space]]
 ## Examples ##
 
 * The [[Dedekind real numbers]] are sequentially Cauchy complete. 
-* The [[HoTT book real numbers]] are sequentially Cauchy complete. 
 
 ## See also ##
 
 * [[Cauchy space]]
 * [[complete space]]
+* [[modulated Cauchy complete space]]
 
 ## References ##
 
