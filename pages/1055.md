@@ -63,7 +63,7 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 In French, the verb 'étaler' means, roughly, to spread out; '-er' becomes '-é' to make a past participle.  So an 'espace étalé' is a space that has been spread out over $B$.  On the other hand, 'étale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  
 
 
-To quote from the [Wiktionnaire française](https://fr.wiktionary.org/wiki/%C3%A9tale):
+To quote from the [Wiktionnaire français](https://fr.wiktionary.org/wiki/%C3%A9tale):
 
 > 'étale' _qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant_ 
 ('flot' = 'flow' and 'jusant' = 'ebb').
