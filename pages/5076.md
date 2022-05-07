@@ -83,7 +83,8 @@ $$
   \big)
 $$
 then it is still a [[full sub-(infinity,1)-category|full sub-$(\infty,1)$-category]] of its pro-objects, in the sense of Def. \ref{CategoryOfProObjectsOfLargeAccessibleCategory}, via the usual [[(infinity,1)-Yoneda embedding|$(\infty,1)$-Yoneda embedding]]:
-$$
+\[
+  \label{PlainObjectsAmongProObjects}
   \array{
     \mathcal{C}
     &\xhookrightarrow{\phantom{---}}&
@@ -93,7 +94,7 @@ $$
       &\mapsto&
     \mathcal{C}(c,-)
   }
-$$
+\]
 This is because the above tensoring means that $\mathcal{C}(c,-)$ is a [[right adjoint|right]]$\,$[[adjoint (infinity,1)-functor|adjoint $(\infty,1)$-functor]] and [[right adjoints preserve limits|these preserve limits]] and are accessible (by [this Prop.](accessible+infinity1-functor#AdjointFunctorsAreAccessible))
 \end{remark}
 
