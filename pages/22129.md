@@ -1,6 +1,7 @@
 
 
 ### Braid group cryptography
+ {#BraidGroupCryptographyReferences}
 
 Partly motivated by the possibility of [[quantum computation]] eventually breaking the security of [[cryptography]] based on [[abelian groups]], such as [[elliptic curves]], there are proposals to use [[non-abelian group|non-abelian]] [[braid groups]] for purposes of [[cryptography]] ("post-quantum cryptography").
 
@@ -46,7 +47,7 @@ Original article:
 
 Review:
 
-*  José Ignacio Escribano Pablos, María Isabel González Vasco, Misael Enrique Marriaga and Ángel Luis Pérez del Pozo, _The Cracking of WalnutDSA: A Survey_, in: _ Interactions between Group Theory, Symmetry and Cryptology_, Symmetry 2019, 11(9), 1072_ ([doi:10.3390/sym11091072](https://doi.org/10.3390/sym11091072))
+*  José Ignacio Escribano Pablos, María Isabel González Vasco, Misael Enrique Marriaga and Ángel Luis Pérez del Pozo, _The Cracking of WalnutDSA: A Survey_, in: _Interactions between Group Theory, Symmetry and Cryptology_, Symmetry 2019, 11(9), 1072 ([doi:10.3390/sym11091072](https://doi.org/10.3390/sym11091072))
 
 #### Further developments
 
