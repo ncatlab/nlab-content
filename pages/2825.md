@@ -42,7 +42,7 @@ On the [[string orientation of tmf]]:
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Michael Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 
-On [[global equivariant homotopy theory]] as a [[cohesive (∞,1)-topos]]:
+On [[slice (infinity,1)-topos|slices]] of [[global equivariant homotopy theory]] as a [[cohesive (∞,1)-topoi]] over $G$-[[equivariant homotopy theory]] ([[cohesion of global- over G-equivariant homotopy theory]]):
 
 * [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_, 2014
 ([pdf](http://www.math.uiuc.edu/~rezk/global-cohesion.pdf), [[Rezk14.pdf:file]])
