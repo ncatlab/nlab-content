@@ -240,6 +240,9 @@ See also:
 * {#tomDieck87} [[Tammo tom Dieck]], Section I.5 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 
+* [[Sergey Antonyan]], *Characterizing slices for proper actions of locally compact groups*, Topology and its Applications Volume 239, 15 April 2018, Pages 152-159 ([arXiv:1702.08093](https://arxiv.org/abs/1702.08093), [doi:10.1016/j.topol.2018.02.026](https://doi.org/10.1016/j.topol.2018.02.026))
+
+
 
 [[!redirects slice theorems]]
 
