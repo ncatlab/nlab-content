@@ -58,10 +58,18 @@ In [[AQFT]]:
 
 * [[Roberto Longo]], Feng Xu, _Von Neumann Entropy in QFT_ ([arxiv:1911.09390](https://arxiv.org/abs/1911.09390))
 
-
 See also
 
 * Wikipedia, _[Entropy of entanglement](http://en.wikipedia.org/wiki/Entropy_of_entanglement)_
+
+Discussion of entanglement entropy for [[topological phases of matter]]:
+
+* [[Alexei Kitaev]], [[John Preskill]], *Topological entanglement entropy*, Phys. Rev. Lett. 96 (2006) 110404 ([arXiv:hep-th/0510092](https://arxiv.org/abs/hep-th/0510092))
+
+
+* Hong-Chen Jiang, [[Zhenghan Wang]], Leon Balents, *Identifying Topological Order by Entanglement Entropy*, Nature Physics 8, 902-905 (2012) ([arXiv:1205.4289](https://arxiv.org/abs/1205.4289))
+
+
 
 [[!redirects entanglement entropies]]
 
