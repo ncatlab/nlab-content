@@ -242,7 +242,7 @@ $$
   }
 $$
 
-exhibiting an inverse of $r$. Therefore $r$ is an isomorphism, hence is in $L$, by prop. \ref{IsomorphismsAreIntersection}, hence so is the composite $f = r \circ \ell$.
+exhibiting an inverse of $r$. Therefore $r$ is an isomorphism, hence is in $L$, by prop. \ref{IsomorphismsAreIntersection}, hence so is the composite $g = r \circ \ell$.
 
 =--
 
