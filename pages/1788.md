@@ -2,13 +2,6 @@
 $\ldots$
 
 
-\begin{remark}
-  Notice that 
-
-  * bullet items without trailing vertical whitespace 
-  * trigger a bug when followed by closure of the environment.
-\end{remark}
-
 
 Please do not delete the following example for the moment!
 
@@ -34,8 +27,3 @@ Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topologi
 
 \linebreak
 
-
-
-\begin{remark}
-* First of all it's like this
-\end{remark}
