@@ -40,6 +40,11 @@ In other words, for every [[pair]] $X,Y$ of [[objects]] in $\mathcal{C}$, the [[
 
 ## References
 
+The homotopy 2-category of [[topological spaces]], [[continuous functions]] and [[homotopies]], regarded as a [[strict (2,1)-category]], hence a [[Grpd]]-[[enriched category]]:
+
+* [[Peter H. H. Fantham]], [[Eric J. Moore]], *Groupoid Enriched Categories and Homotopy Theory*, Canadian Journal of Mathematics **35** 3 (1983) 385-416 ([doi:10.4153/CJM-1983-022-8](https://doi.org/10.4153/CJM-1983-022-8))
+
+
 On the [[Toda bracket]] understood as [[homotopy coherent diagram|homotopy-coherent]] [[pasting diagrams]] in a [[pointed (infinity,1)-category|pointed]] [[homotopy 2-category]]:
 
 * {#HardieKampsKieboom99} [[Keith Hardie]], [[Klaus Heiner Kamps]], [[Rudger  Kieboom]], _Higher homotopy groupoids and Toda brackets_, Homology Homotopy Appl. Volume 1, Number 1 (1999), 117-134 ([euclid:hha/1139840198](https://projecteuclid.org/euclid.hha/1139840198))
@@ -64,3 +69,4 @@ In the context of the [[homotopy 2-category of (∞,1)-categories]]:
 
 
 [[!redirects homotopy 2-categories]]
+
