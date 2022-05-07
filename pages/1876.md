@@ -60,6 +60,9 @@ Any comonad on $A$ induces an augmented [[simplicial object|simplicial]] [[endof
 
 ## References
 
+* {#ApplegateTierney70} [[Harry Applegate]], [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. **137** (1970) 56-99 ([doi:10.1007/BFb0060440](https://doi.org/10.1007/BFb0060440))
+
+
 Some introductory material on [[comonads]], [[coalgebra over a comonad|coalgebras]] and [[co-Kleisli morphisms]] can be found in
 
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
