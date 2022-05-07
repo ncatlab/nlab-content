@@ -279,3 +279,5 @@ Some related remarks are in
 [[!redirects slice homotopy-toposes]]
 [[!redirects slice homotopy-topoi]]
 
+[[!redirects slice infinity1-topos]]
+
