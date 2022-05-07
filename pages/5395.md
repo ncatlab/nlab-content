@@ -269,7 +269,7 @@ is small-cocomplete, then $\mathcal{A}$ is small cocomplete.
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] II_ , Cambridge UP 1994. (section 4.5, pp.221ff) 
 {#Borceux}
 
-* [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc. **7** (1975) pp.294-297.
+* {#Johnstone} [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc. **7** (1975) pp.294-297.
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]] I_ , Oxford UP 2002. (section A1.1, p.5)
 
