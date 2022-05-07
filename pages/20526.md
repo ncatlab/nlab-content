@@ -123,17 +123,23 @@ If a given charge can be populated by [[BPS states]], then the physical spectrum
 #### Electric weak gravity conjecture
 
 \begin{conjecture}\label{ElectricWeakGravityConjecture}
-Given a $U(1)$-[[gauge theory]] weakly coupled to [[gravity]] with [[gauge coupling]] $g$, there exists an electrically charged state with mass $m$ and charge $q$ satisfying
+Given a $U(1)$-[[gauge theory]] weakly coupled to [[gravity]] with [[gauge coupling]] $g$, there must exist an electrically charged state with mass $m$ and charge $q$ satisfying
 
 $$ m \leq \sqrt{2} g q M_p, $$
 
 where $M_p$ is the [[Planck mass]].
 \end{conjecture}
 
+The electric weak gravity conjecture can be also formulated by stating that there must exist an electrically charged state satisfying 
+
+$$ \frac{Q}{m} \leq \frac{Q_{\mathrm{ext}}}{M_{\mathrm{ext}}} $$
+
+where $Q=q g$ is the non-quantized charge, $Q_{\mathrm{ext}}$ and $M_{\mathrm{ext}}$ are charge and mass of an [[extremal black hole]].
+
 #### Magnetic weak gravity conjecture
 
 \begin{conjecture}
-Given a $U(1)$-[[gauge theory]] weakly coupled to [[gravity]] with [[gauge coupling]] $g$, The cutoff scale $\Lambda$ of the [[effective field theory]] is bounded from above by the [[gauge coupling]] as
+Given a $U(1)$-[[gauge theory]] weakly coupled to [[gravity]] with [[gauge coupling]] $g$, The cutoff scale $\Lambda$ of the [[effective field theory]] must be bounded from above by the [[gauge coupling]] as
 
 $$ \Lambda \leq g M_p^{(d-2)/2}, $$
 
@@ -142,7 +148,11 @@ where $M_p$ is the [[Planck mass]] and $d$ is the [[dimension]].
 
 #### Convex hull weak gravity conjecture
 
-(...)
+\begin{conjecture}
+Given a $U(1)^n$-[[gauge theory]] weakly coupled to [[gravity]], let $\vec{z}_i:=\vec{q}_i/m \in\mathbb{R}^n$ be the charge to mass ratio of a charged state $i$ and let $I$ be the set of charged states in the theory. Then, the [[convex hull|convex set]] of the set $\{\pm\vec{z}_i\}_{i\in\I}$ must contain the unit ball as measured by the kinetic matrix of the $U(1)^n$-[[gauge theory]].
+\end{conjecture}
+
+This condition is a stronger statement than requiring the weak gravity conjecture to be satised for each $U(1)$-[[gauge theory]].
 
 #### Sublattice (or tower) weak gravity conjecture
 
@@ -198,7 +208,7 @@ Any [[non-supersymmetric vacuum]] is at best metastable (and eventually has to d
 ### dS conjecture
 
 \begin{conjecture}
-The scalar potential $V$ of an [[effective field theory]] weakly coupled to gravity must satisfy the following bound on its derivatives:
+The scalar [[potential]] $V$ of an [[effective field theory]] weakly coupled to gravity must satisfy the following bound on its derivatives:
 
 $$ |\nabla V| \geq \frac{c}{M_p}V, $$
 
@@ -210,19 +220,19 @@ The dS conjecture was further refined as it follows.
 \begin{conjecture}
 The previous bound needs to be imposed only if the condition 
 $$ \mathrm{min}(\nabla_i\nabla_j V) \leq -\frac{c'}{M_p^2}V, $$
-for some $c'\sim\mathcal{O}(1)$, on the second derivative of the potential is violated.
+for some $c'\sim\mathcal{O}(1)$, on the second derivative of the [[potential]] is violated.
 \end{conjecture}
 
 Thanks to this refinement, only proper dS minima are excluded and not general critical points.
 
-### Transplanckian censorship conjecture
+### Trans-planckian censorship conjecture
 
 (...)
 
 ### Asymptotic dS conjecture
 
 \begin{conjecture}
-The scalar potential $V$ of an [[effective field theory]] weakly coupled to [[gravity]] presents a runaway behavior when approaching an infinite field distance point, i.e.
+The scalar [[potential]] $V$ of an [[effective field theory]] weakly coupled to [[gravity]] presents a _runaway behavior_ when approaching an infinite field distance point, i.e.
 
 $$ |\nabla V| \geq c V, $$
 
