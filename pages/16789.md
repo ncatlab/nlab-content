@@ -110,7 +110,7 @@ See at _[[Calabi-Penrose fibration]]_.
 ###### Proposition
 **([[Arnold-Kuiper-Massey theorem]])**
 
-The 4-sphere is the [[quotient space]] of the [[complex projective plane]] by the [[action]] on homogeneous coordinates of [[complex conjugation]]:
+The 4-sphere is the [[quotient space]] of the [[complex projective plane]] by the [[action]] of [[complex conjugation]] (on homogeneous coordinates):
 
 $$
   \mathbb{C}P^2 / (-)^*
