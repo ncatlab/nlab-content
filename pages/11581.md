@@ -52,11 +52,12 @@ See also
 
 Relation to [[quantum error correction]]:
 
-* [[Jeffrey Harvey]], [[Gregory Moore]], _Moonshine, Superconformal Symmetry, and Quantum Error Correction_ ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
+* [[Jeffrey A. Harvey]], [[Gregory W. Moore]], *Moonshine, Superconformal Symmetry, and Quantum Error Correction*,  J. High Energ. Phys. **2020**, 146 (2020). ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
+
 
 Possible relation to [[bosonic M-theory]]:
 
- [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
+* [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], _Monstrous M-theory_ ([arXiv:2008.06742](https://arxiv.org/abs/2008.06742))
 
 
 
