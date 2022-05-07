@@ -509,24 +509,25 @@ $$
 
 ##### Euler forms
 
-With the [[curvature form]] again regarded as a 2-form valued $n \times n$-[[matrix]]
+For $n = 2k$ and 
+with the [[curvature form]] again regarded as a 2-form valued $(2k) \times (2k)$-[[square matrix]]
 
 $$ 
   F_{\nabla}
   \;=\;
   \big(
     (F_{\nabla})^a{}_b
-  \big)
+  \big)_{1 \leq a,b, \leq 2k}
 $$
 
-the [[Euler form]] is [[Pfaffian]], hence the following [[sum]] over [[permutations]] $\sigma \in Sym(2n)$ with summands signed by the the [[signature of a permutation|signature]] $sgn(sigma) \in \{\pm 1\}$:
+the [[Euler form]] is its [[Pfaffian]] of this matrix, hence the following [[sum]] over [[permutations]] $\sigma \in Sym(2k)$ with summands signed by the the [[signature of a permutation|signature]] $sgn(\sigma) \in \{\pm 1\}$:
 
 $$
-  \chi_{2n}(\nabla)
+  \chi_{2k}(\nabla)
   \;=\;
   \frac
-    {(-1)^n}
-    { (4 \pi)^n \cdot n! }
+    {(-1)^k}
+    { (4 \pi)^k \cdot k! }
   \underset{\sigma}{\sum}
     sgn(\sigma)
     \cdot
@@ -536,11 +537,11 @@ $$
     \wedge
       \cdots
     \wedge
-    (F_{\nabla})_{\sigma(2n-1)\sigma(2n)}
+    (F_{\nabla})_{\sigma(2k-1)\sigma(2k)}
   \,.
 $$
 
-The first one is, using the [[Einstein summation convention]]:
+The first of these is, using the [[Einstein summation convention]] and the [[Levi-Civita symbol]]:
 
 $$
   \chi_4(\nabla)
