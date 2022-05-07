@@ -17,7 +17,7 @@
 
 Given a [[dense linear order]] $A$ and a [[countable dense linear order]] $B$ such that $B \subseteq A$, a **$B$-indexed locator** for an [[element]] $c \in A$ is a [[family]] of [[functions]] [[indexed set|indexed]] by the [[Cartesian product]] [[set]] $B \times B$ 
 
-$$\mathcal{L}(c)(a, i):\left(]a,b[ \to (]a,c[ + ]c,b[) \vert (a,b) \in B \times B\right)$$
+$$\mathcal{L}(c):\left(]a,b[ \to (]a,c[ + ]c,b[) \vert (a,b) \in B \times B\right)$$
 
 where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$. 
 
