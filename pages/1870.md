@@ -439,3 +439,6 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 
 
 [[!redirects twisted K-theories]]
+
+[[!redirects twisted topological K-theory]]
+[[!redirects twisted topological K-theories]]
