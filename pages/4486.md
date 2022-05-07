@@ -497,6 +497,16 @@ Early account, in the context of [[Cohomotopy]], [[cobordism theory]] and the [[
 [[!redirects twice differentiable functions]]
 [[!redirects twice differentiability]]
 
+[[!redirects iterated differentiable map]]
+[[!redirects iterated differentiable maps]]
+[[!redirects iterated-differentiable map]]
+[[!redirects iterated-differentiable maps]]
+[[!redirects iterated differentiable function]]
+[[!redirects iterated-differentiable functions]]
+[[!redirects iterated-differentiable function]]
+[[!redirects iterated differentiable functions]]
+[[!redirects iterated differentiability]]
+
 [[!redirects C-n map]]
 [[!redirects C-n maps]]
 [[!redirects C-n function]]
