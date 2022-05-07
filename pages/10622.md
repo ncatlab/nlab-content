@@ -27,6 +27,9 @@ On [[microbundles]]:
 
 On [[equivariant bundles]] (equivariant [[fiber bundles]]):
 
+* {#LashofRothenberg78} [[Richard Lashof]], [[Melvin Rothenberg]], Section 1 of: _$G$-Smoothing theory_, p. 211-266 in: _Algebraic and Geometric Topology_, Proceedings of Symposia in Pure Mathematics, Vol. XXXII, Part 1, American Mathematical Society 1978 ([doi:10.1090/pspum/032.1](https://doi.org/10.1090/pspum/032.1), [[LashofRothenbergGSmoothingTheory.pdf:file]])
+
+
 * [[Richard Lashof]], _Equivariant bundles_, Illinois J. Math. 26(2): 257-271 ([doi:10.1215/ijm/1256046796.full](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-26/issue-2/Equivariant-bundles/10.1215/ijm/1256046796.full))
 
 * [[Richard Lashof]], [[Peter May]], _Generalized equivariant bundles_, Bull. Soc. Math. Belg. Sér. A 38, 265-271, 1986 ([pdf](http://math.uchicago.edu/~may/PAPERS/55.pdf), [[LashofMayGeneralizedEquivariantBundles.pdf:file]])
