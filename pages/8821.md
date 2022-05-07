@@ -77,11 +77,15 @@ The initial objects of any of the following types of categories are strict:
 
 * in [[posets]],
 
-* in [[toposes]], 
+* in [[toposes]],
 
 * in [[extensive categories]],
 
 * in [[distributive categories]].
+
+Specifically the initial objects of [[Set]], [[Cat]], [[Top]] are all strict.
+
+At the other extreme, a [[zero object]] is only a strict initial object if the category is trivial ([[equivalence of categories|equivalent]] to the [[terminal category]]).
 
 At the other extreme, a [[zero object]] is a strict initial object only if the category is trivial (i.e. [[equivalence of categories|equivalent]] to the [[terminal category]]).
 
