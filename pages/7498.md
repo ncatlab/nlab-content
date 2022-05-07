@@ -85,7 +85,7 @@ As an example:
     \,,
   $$
 
-This follows because the morphism is the image of the terminal morphism $X \xrightarrow{\;} \ast$ under the [[right Quillen functor]] from Prop. \ref{BorelConstructionIsRightQuillenFunctor}, hence is a fibration of $X \to \ast$ is.
+This follows because the morphism is the image of the terminal morphism $X \xrightarrow{\;} \ast$ under the [[right Quillen functor]] from Prop. \ref{BorelConstructionIsRightQuillenFunctor}, hence is a fibration if $X \to \ast$ is.
 \end{example}
 For generalization of this statement to [[simplicial presheaves]] see [NSS 12b, Thm. 3.91](#NSS12b).
 
