@@ -250,7 +250,7 @@ Proofnets originated with Girard's seminal paper introducing linear logic:
 
 * [[Paul-André Melliès]], _A topological correctness criterion for non-commutative logic_ , London Mathematical Society Lecture Notes Series 316, 2004. ([pdf](https://hal.inria.fr/hal-00154204/document))
  
-* {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Proceedings of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
+* {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Proceedings of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](https://www.irif.fr/~mellies/papers/Mellies06csl.pdf))
 
 * [[Paul-André Melliès]], _Categorical semantics of linear logic_ ([pdf](http://profs.sci.univr.it/~bellin/panorama.pdf))
 
