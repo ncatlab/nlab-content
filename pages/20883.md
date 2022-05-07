@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -45,9 +46,11 @@ Eventually, a (counter-)example of a weight system which at least does not arise
 
 #### On horizontal chord diagrams
 
-For [[horizontal chord diagrams]] we have: _[[all horizontal weight systems are partitioned Lie algebra weight systems]]_. 
+For [[horizontal chord diagrams]] we have: 
 
-([Bar-Natan 96](#BarNatan96))
+* _[[all horizontal weight systems are partitioned Lie algebra weight systems]]_ ([Bar-Natan 96](#BarNatan96))
+
+* the [[fundamental representation|fundamental]] [[general linear Lie algebra|$\mathfrak{gl}(n)$]]-weight system coincides with the [[Cayley distance kernel]] at [[inverse temperature]] $\beta = \ln(n)$ ([CSS21](#CSS21))
 
 ### Stringy weight systems span classical Lie algebra weight systems
 
@@ -354,6 +357,11 @@ reviewed in
 
 * {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, Section 2.2 of: _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
 
+Discussion of [[fundamental representation|fundamental]] $\mathfrak{gl}(n)$-weight systems in terms of [[Cayley distance kernels]] on the [[symmetric group]]:
+
+* {#CSS21} *[[schreiber:Weight systems that are quantum states]]*
+
+### Via string diagrams
 
 From the construction given in [Bar-Natan 95, Section 2.4](#BarNatan95) the interpretation of [[Lie algebra weight systems]] in terms of [[string diagrams]] for [[Lie algebra objects]] in [[tensor categories]] is evident, but standard textbooks in [[knot theory]]/[[combinatorics]] do not pick this up:
 
@@ -378,14 +386,6 @@ See also
 
 * Alexander Schrijver, _On Lie algebra weight systems for 3-graphs_ ([arXiv:1412.6923](https://arxiv.org/abs/1412.6923))
 
-Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] on [[chord diagrams]]:
-
-* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070), [[BarNatanGaroufaldis96.pdf:file]])
-
-On the [[logical equivalence]] between the [[four-colour theorem]] and a statement about transition from the [[small N limit]] to the [[large N limit]] for [[Lie algebra weight systems]] on [[Jacobi diagrams]] via the [['t Hooft double line construction]]:
-
-* [[Dror Bar-Natan]], _Lie Algebras and the Four Color Theorem_, Combinatorica 17-1(1997) 43–52  ([arXiv:q-alg/9606016](https://arxiv.org/abs/q-alg/9606016), [doi:10.1007/BF01196130](https://doi.org/10.1007/BF01196130))
-
 
 ### For $\mathfrak{sl}(2)$
 
@@ -401,6 +401,17 @@ For the [[special linear Lie algebra]] $\mathfrak{sl}(2)$
 For the [[super Lie algebra]] $\mathfrak{gl}(1\vert1)$:
 
 * {#FFKV97} [[José Figueroa-O’Farrill]], [[Takashi Kimura]], [[Arkady Vaintrob]], _The universal Vassiliev invariant for the Lie superalgebra $\mathfrak{gl}(1\vert1)$_, Commun. Math. Phys. 185 (1997) 93-127 ([arXiv:q-alg/9602014](https://arxiv.org/abs/q-alg/9602014))
+
+
+### Further discussion
+
+Relation of the [[colored Jones polynomial]] to [[Lie algebra weight systems]] on [[chord diagrams]]:
+
+* [[Dror Bar-Natan]], [[Stavros Garoufalidis]], _On the Melvin–Morton–Rozansky conjecture_, Invent math (1996) 125: 103 ([doi:10.1007/s002220050070](https://doi.org/10.1007/s002220050070), [[BarNatanGaroufaldis96.pdf:file]])
+
+On the [[logical equivalence]] between the [[four-colour theorem]] and a statement about transition from the [[small N limit]] to the [[large N limit]] for [[Lie algebra weight systems]] on [[Jacobi diagrams]] via the [['t Hooft double line construction]]:
+
+* [[Dror Bar-Natan]], _Lie Algebras and the Four Color Theorem_, Combinatorica 17-1(1997) 43–52  ([arXiv:q-alg/9606016](https://arxiv.org/abs/q-alg/9606016), [doi:10.1007/BF01196130](https://doi.org/10.1007/BF01196130))
 
 
 [[!include weight systems on chord diagrams in physics]]
