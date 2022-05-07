@@ -37,8 +37,6 @@ Non-archimedean fields include
 
 * [[archimedean group]]
 
-* [[non-archimedean analytic geometry]]
-
 [[!redirects archimedean field]]
 [[!redirects archimedean fields]]
 [[!redirects non-archimedean field]]
