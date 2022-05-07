@@ -241,13 +241,18 @@ Then given a saturated full and faithfull essentially surjective anafunctor, we 
 
 ## Questions of size {#SizeQuestions}
 
-In general, it seems that even if $C$ and $D$ are [[small categories]], then the category $Ana(C,D)$ of anafunctors from $C$ to $D$ is not necessarily even essentially small, and thus the 2-category $Cat_{ana}$ of categories and anafunctors is not [[cartesian closed category|cartesian closed]].
+Even if $C$ and $D$ are [[small categories]], then the category $Ana(C,D)$ of anafunctors from $C$ to $D$ is not necessarily even essentially small, and thus the 2-category $Cat_{ana}$ of categories and anafunctors is not [[cartesian closed category|cartesian closed]].  Some models in which this fails to be true are sketched in [this MO discussion](#HenryMO).
 
-This is true, however, under the assumption of COSHEP, since in that case (as above) anafunctors represent maps in $Ho(Cat)$, which is locally small by general model category theory.  More specifically, under COSHEP every anafunctor $C\leftarrow F \to D$ is equivalent to one where the set of objects of $F$ is $C_0'$, where $C_0'\to C_0$ is a projective cover of the set $C_0$ of objects of $C$.
+This is true, however, under the assumption of [[COSHEP]], since in that case (as above) anafunctors represent maps in $Ho(Cat)$, which is locally small by general model category theory.  More specifically, under COSHEP every anafunctor $C\leftarrow F \to D$ is equivalent to one where the set of objects of $F$ is $C_0'$, where $C_0'\to C_0$ is a projective cover of the set $C_0$ of objects of $C$.
 
-COSHEP is actually stronger than necessary for this; all that is really needed is [[WISC]], i.e. for any set $X$, the full subcategory of $Set/X$ consisting of surjections has a [[weakly initial set]].  For in that case, any anafunctor $C\leftarrow F \to D$ is equivalent to one where the set of objects of $F$, equipped with its surjection to $C_0$, belongs to the weakly initial set.  Note that COSHEP implies WISC, as do the [[axiom of multiple choice]] and the axiom of [[small violations of choice]].
+COSHEP is actually stronger than necessary for this; all that is really needed is [[WISC]], i.e. for any set $X$, the full subcategory of $Set/X$ consisting of surjections has a [[weakly initial set]].  For in that case, any anafunctor $C\leftarrow F \to D$ is equivalent to one where the set of objects of $F$, equipped with its surjection to $C_0$, belongs to the weakly initial set.  Note that COSHEP implies WISC, as do the [[axiom of multiple choice]] and the axiom of [[small violations of choice]] (SVC).
 
-In Makkai's paper referenced below, he proves that $Ana(C,D)$ is small under the assumption of his [[small cardinality selection axiom]], which also follows from SVC.  It is not obvious, however, what the [[structural set theory|structural]] counterparts of these two axioms might be.  Although they carry the same feel that "choice is violated only in a small way," Makkai's proof from SCSA is an "injective" approach, in that the set of possibilities for the objects of $F$ is constructed mainly from $D$, rather than purely from $C$ as in the "projective" approach above using COSHEP or WISC.
+In [Makkai's paper](#Makkai), he proves that $Ana(C,D)$ is essentially small under the assumption of his [[small cardinality selection axiom]] (SCSA), which also follows from SVC.  Although SCSA and WISC carry the same feel that "choice is violated only in a small way," Makkai's proof from SCSA is an "injective" approach, in that the set of possibilities for the objects of $F$ is constructed mainly from $D$, rather than purely from $C$ as in the "projective" approach above using COSHEP or WISC.
+
+Another axiom ensuring that $Ana(C,D)$ is essentially small is the [[axiom of stack completions]] (ASC), since if $D\to \hat{D}$ is an intrinsic stack completion we have $Ana(C,D) \simeq Fun(C,\hat{D})$.
+
+In particular, the bicategory of categories and anafunctors is locally essentially small and cartesian closed in the internal logic of any [[Grothendieck topos]], because the latter satisfies WISC, SCSA, and ASC.
+
 
 ##Anafunctors in homotopy type theory
 
@@ -307,8 +312,7 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 
 The term "anafunctor" was introduced by Michael Makkai in
 
-* [[Michael Makkai]], _Avoiding the axiom of choice in general category theory_, Journal of Pure and Applied Algebra **108** isse 2 (1996) pp 109-173, doi:[10.1016/0022-4049(95)00029-1](https://doi.org/10.1016/0022-4049%2895%2900029-1), ([author's page](http://www.math.mcgill.ca/makkai/anafun/)) 
-{#Makkai}
+* {#Makkai} [[Michael Makkai]], _Avoiding the axiom of choice in general category theory_, Journal of Pure and Applied Algebra **108** isse 2 (1996) pp 109-173, doi:[10.1016/0022-4049(95)00029-1](https://doi.org/10.1016/0022-4049%2895%2900029-1), ([author's page](http://www.math.mcgill.ca/makkai/anafun/)) 
 
 motivated in part to complete the analogy prophase:anaphase::profunctor:??.
 
@@ -347,7 +351,9 @@ Closely related, still a bit more general, are the considerations in
 
 * Jardine, _Cocycle categories_ K-theory 0782 ([web](http://www.math.uiuc.edu/K-theory/0782/)) ([pdf](http://www.math.uiuc.edu/K-theory/0782/coc-cat3.pdf))
 
+Some models of set theory in which the bicategory of anafunctors fails to be small are sketched in the answers to
 
+* {#HenryMO} Simon Henry, _Non smallness of the set of anafunctors without AC?_, URL (version: 2017-03-16): <https://mathoverflow.net/q/264585>
 
 
 [[!redirects anafunctor]]
