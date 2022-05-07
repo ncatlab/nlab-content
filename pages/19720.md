@@ -40,6 +40,10 @@ The [[equivariant cohomology]]/[[equivariant spectrum]]-version of [[algebraic K
 * [[equivariant elliptic cohomology]]
 
 ## References
+
+
+* {#Lueck89} [[Wolfgang Lück]], _Transformation Groups and Algebraic K-Theory_, Lecture Notes in Mathematics **1408** (Springer 1989) ([doi:10.1007/BFb0083681](https://doi.org/10.1007/BFb0083681))
+
  
 * Z. Fiedorowicz, H. Hauschild, [[Peter May]], theorem 0.4 of _Equivariant algebraic K-theory_, _Equivariant algebraic K-theory_, Algebraic K-Theory. Springer, Berlin, Heidelberg, 1982. 23-80 ([pdf](http://math.uchicago.edu/~may/PAPERS/40.pdf))
 
