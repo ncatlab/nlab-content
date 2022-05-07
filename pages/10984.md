@@ -34,10 +34,10 @@ The [[monad]] induced by an ambidextrous adjunction is a [[Frobenius monoid]] ob
 Let $\mathcal{D} \in Cat_\infty$ be an [[(∞,1)-category]] with small [[(∞,1)-colimits]]. For $f \;\colon\; X \longrightarrow Y$ a morphism of [[∞-groupoids]], write 
 
 $$
-  f^\ast \;\colon\; [Y,\mathcal{C}] \longrightarrow [X,\mathcal{C}]
+  f^\ast \;\colon\; [Y,\mathcal{D}] \longrightarrow [X,\mathcal{D}]
 $$
 
-for the induced pullback of [[(∞,1)-functor (∞,1)-categories]] (which one may think of as the categories of $\mathcal{C}$-valued [[local systems]] over $X$ and $Y$, respectively). The [[left adjoint]] and [[right adjoint]] (if it exists) of this are left and right [[(∞,1)-Kan extension]].
+for the induced pullback of [[(∞,1)-functor (∞,1)-categories]] (which one may think of as the categories of $\mathcal{D}$-valued [[local systems]] over $X$ and $Y$, respectively). The [[left adjoint]] and [[right adjoint]] (if it exists) of this are left and right [[(∞,1)-Kan extension]].
 
 
 +-- {: .num_defn #AmbidextrousKanExtension}
