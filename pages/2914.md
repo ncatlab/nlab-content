@@ -422,8 +422,12 @@ $$
 
 ## Examples
 
-\begin{example}
-The [[classical model structure on pointed topological spaces]] is the model structure on the [[undercategory]] under the point (the [[category of pointed objects]]) of the [[classical model structure on topological spaces]].
+\begin{example}\label{ModelCategoriesOfPointedObjects}
+**([[model categories of pointed objects]])**
+\linebreak
+For every [[model category]] $\mathcal{C}$, its [[category of pointed objects]], hence the [[undercategory|category under]] the [[terminal object]] $\mathcal{C}^{\ast/}$ carries the under-category model structure: the canonical *[[model structure on pointed objects]]*.
+
+For instance, the [[classical model structure on pointed topological spaces]] is the model structure on the [[undercategory]] under the point (the [[category of pointed objects]]) of the [[classical model structure on topological spaces]].
 \end{example}
 
 
