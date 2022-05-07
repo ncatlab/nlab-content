@@ -370,7 +370,8 @@ A more model-independent abstract formulation is discussed in
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
-* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_, Cambridge University Press 2022 ([pdf](emilyriehl.github.io/files/elements.pdf))
+* {#Riehl22} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_, Cambridge University Press 2022 ([pdf](https://emilyriehl.github.io/files/elements.pdf))
+
 
 For discussion in [[homotopy type theory]] see _[[internal category in homotopy type theory]]_ and see
 
