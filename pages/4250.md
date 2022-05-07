@@ -19,8 +19,9 @@ This is a sub-entry of [[homotopy groups in an (∞,1)-topos]].
 
 For the other notion of homotopy groups see [[geometric homotopy groups in an (∞,1)-topos]].
 
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -30,14 +31,18 @@ Recall that since an [[(∞,1)-topos]] $\mathbf{H}$ has all [[limits in a quasi-
 [powered over ∞Grpd](http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring):
 
 $$
-  (-)^{(-)} : \infty Grpd^{op} \times \mathbf{H} \to \mathbf{H}
+  (-)^{(-)} 
+  \;\colon\; 
+  \infty Grpd^{op} \times \mathbf{H} 
+    \longrightarrow 
+  \mathbf{H}
   \,.
 $$
 
 
-Let $S^n = \partial \Delta[n+1]$ (or  $S^n := Ex^\infty \partial \Delta[n+1]$) be the ([[Kan fibrant replacement]]) of the [[boundary of a simplex|boundary of the (n+1)-simplex]], i.e. the model in [[∞Grpd]] of the [[pointed object|pointed]] $n$-[[sphere]].
+Let $S^n  \,\coloneqq\, \partial \Delta[n+1]$ (or  $S^n \coloneqq Ex^\infty \partial \Delta[n+1]$) be the ([[Kan fibrant replacement]]) of the [[boundary of a simplex|boundary of the (n+1)-simplex]], i.e. the model in [[∞Grpd]] of the [[pointed object|pointed]] [[n-sphere]].
 
-Then for $X \in \mathbf{H}$ an object, the power object $X^{S^n} \in \mathbf{H}$ plays the role of the space of of maps from the $n$-sphere into $X$, as in the definition of [[simplicial homotopy groups]], to which this reduces in the case that $\mathbf{H} = $ [[∞Grpd]]. 
+Then for $X \in \mathbf{H}$ an object, the power object $X^{S^n} \,\in\, \mathbf{H}$ plays the role of the space of of maps from the $n$-sphere into $X$, as in the definition of [[simplicial homotopy groups]], to which this reduces in the case that $\mathbf{H} = $ [[∞Grpd]]. 
 
 By powering the canonical morphism $ i_n : * \to S^n$ induces a morphism
 
@@ -56,7 +61,9 @@ which is restriction to the basepoint. This morphism may be regarded as an objec
 For $n \in \mathbb{N}$ define
 
 $$
-  \pi_n(X) := \tau_{\leq 0} X^{i_n} \in \mathbf{H}_{/X}
+  \pi_n(X) 
+    \;\coloneqq\;
+  \tau_{\leq 0} X^{i_n} \in \mathbf{H}_{/X}
 $$
 
 to be the [[n-truncated object of an (infinity,1)-topos|0-truncation]] of the object $X^{i_n}$.
