@@ -146,13 +146,21 @@ from fields to posets. Here $V$ assigns to a field $K$ the poset of equivalence 
 2. There is a very general construction which takes as input an arbitrary field $k$ and a totally ordered abelian group $G$, and produces as output a valuation ring whose value group is naturally identified with $G$. This is the ring of [[Hahn series]], see there. 
 
 
+
+## Related concepts
+
+* [[valuation]]
+
+* [[discrete valuation]]
+
+* [[class field theory]]
+
+
 ## Literature
 
-Related entries: [[valuation]], [[discrete valuation]], [[class field theory]]
+* {#FroehlichCassels67} [[Albrecht Fröhlich]], [[J. W. S. Cassels]] (eds.), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fröhlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965 (ISBN:9780950273426, [pdf](https://www.math.arizona.edu/~cais/scans/Cassels-Frohlich-Algebraic_Number_Theory.pdf), [errata pdf](https://www.ma.imperial.ac.uk/~buzzard/errata.pdf) by [[Kevin Buzzard]])
 
-* A. Fr&#246;hlich, J. W. S. Cassels (editors), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fr&#246;hlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965.  
-
-* Serge Lang, _Algebraic number theory_. GTM 110, Springer 1970, 2000
+* [[Serge Lang]], _Algebraic number theory_. GTM 110, Springer 1970, 2000
 
 * O. Zariski, Samuel, _Commutative algebra_
 
