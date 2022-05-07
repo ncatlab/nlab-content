@@ -6,9 +6,9 @@
 
 In [[deep learning]] and [[game theory]], we usually think of neural networks/economic agents as processes taking in an input $A$ and producing an output $B$. However, we additionally want to model that these processes have extra, "hidden" inputs not available to the outside world. In neural networks we call these _weights_ (or _parameters_) and in game theory we call these _strategies_.
 
-In other words, we want to form a category where a morphism $A \to B$ contains the data of a) a _parameter space_ $P$ and b) a morphism $f : P \otimes A \to B$. From this description we see that this construction necessitates a choice of some underlying monoidal category $\mathcal{C}$.
+In other words, we want to form a category where a morphism $A \to B$ contains the data of a) a _parameter space_ $P$ and b) a morphism $f : P \otimes A \to B$. From this description we see that this construction necessitates a choice of some underlying [[monoidal category]] $\mathcal{C}$.
 
-Such a morphism might be visualised using the string diagram language of monoidal categories (below, left). However, this notation does not emphasize the special role played by $P$, which is part of the data of the morphism itself. Parameters and data in machine learning have different semantics; by separating them on two different axes, we obtain a graphical language which is more closely tied to these semantics (below, right).
+Such a morphism might be visualised using the [[string diagram]] language of monoidal categories (below, left). However, this notation does not emphasize the special role played by $P$, which is part of the data of the morphism itself. Parameters and data in [[machine learning]] have different semantics; by separating them on two different axes, we obtain a graphical language which is more closely tied to these semantics (below, right).
 
 <img src="/nlab/files/standard_vs_para.png" width="500"/>
 
@@ -16,11 +16,11 @@ This gives us an intuitive way to compose parameterised maps:
 
 <img src="/nlab/files/para_comp2.gif" width="500"/>
 
-This construction is called $\mathbf{Para}(\mathcal{C})$, originally introduced in ([Backprop as Functor](#FongSpivakTuyeras2017)) in a specialised form; then succesively refined in ([Compositional Deep Learning](#CompDL)), ([Categorical Foundations of Gradient-based learning](#Cruttwell2021)), ([Towards Foundations of Categorical Cybernetics](#CatCyber)).
+This construction is called $\mathbf{Para}(\mathcal{C})$, originally introduced in ([Backprop as Functor](#FongSpivakTuyeras2017)) in a specialised form; then successively refined in ([Compositional Deep Learning](#CompDL)), ([Categorical Foundations of Gradient-based learning](#Cruttwell2021)), ([Towards Foundations of Categorical Cybernetics](#CatCyber)).
 
 ## Definition 
 
-Let $(\mathbf C, I, \otimes)$ be a symmetric monoidal category. Then $\mathbf{Para}(\mathcal{C})$ is a bicategory with the following data:
+Let $(\mathbf C, I, \otimes)$ be a [[symmetric monoidal category]]. Then $\mathbf{Para}(\mathcal{C})$ is a bicategory with the following data:
 
 
 * Its 0-cells are the objects of $\mathcal{C}$.
@@ -51,13 +51,17 @@ todo
 
 When the base category is set to be the category of [[optics (in computer science)]], then $\mathbf{Para(\mathbf{Optic(\mathcal{C})})}$ recovers the category of [[neural networks]] defined in ([Towards Foundations of Categorical Cybernetics](#CatCyber)).
 
+## Related concepts 
+
+* [[lenses (in computer science)]]
+
 
 ## References
 
 * {#FongSpivakTuyeras2017} [[Brendan Fong]], [[David Spivak]], Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455))
 
-* {#Cruttwell2021} G.S.H. Cruttwell, Bruno Gavranović, [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+* {#Cruttwell2021} [[G.S.H. Cruttwell]], [[Bruno Gavranović]], [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
 
-* {#CatCyber} Matteo Capucci, Bruno Gavranovć,Jules Hedges, Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:2015.06332](https://arxiv.org/pdf/2105.06332.pdf))
+* {#CatCyber} Matteo Capucci, [[Bruno Gavranović]], [[Jules Hedges]], Eigil Fjeldgren Rischel, _Towards Foundations of Categorical Cybernetics_, ([arXiv:2015.06332](https://arxiv.org/pdf/2105.06332.pdf))
 
 * {#CompDL} Bruno Gavranović, _Compositional Deep Learning_, ([arXiv:1907.08292](https://arxiv.org/abs/1907.08292))
