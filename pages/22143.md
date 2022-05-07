@@ -5,15 +5,19 @@ On [[quantum programming languages]] ([[programming languages]] for [[quantum co
 
 General:
 
-* [[Jarosław Adam Miszczak]], *High-level Structures for Quantum Computing*, Morgan&Claypool 2012 ([doi:10.2200/S00422ED1V01Y201205QMC006](https://doi.org/10.2200/S00422ED1V01Y201205QMC006), [pdf](https://www.morganclaypool.com/doi/pdf/10.2200/S00422ED1V01Y201205QMC006))
+* [[Jarosław Adam Miszczak]], *Models of quantum computation and quantum programming languages*, Bull. Pol. Acad. Sci.-Tech. Sci., Vol. 59, No. 3 (2011), pp. 305-324 ([arXiv:1012.6035](https://arxiv.org/abs/1012.6035))
+
+* {#Miszczak12} [[Jarosław Adam Miszczak]], *High-level Structures for Quantum Computing*, Morgan&Claypool 2012 ([doi:10.2200/S00422ED1V01Y201205QMC006](https://doi.org/10.2200/S00422ED1V01Y201205QMC006), [pdf](https://www.morganclaypool.com/doi/pdf/10.2200/S00422ED1V01Y201205QMC006))
 
 See also:
 
 * Wikipedia, _[Quantum programming](https://en.wikipedia.org/wiki/Quantum_programming)_
 
-Survey:
+Surveys of existing languages:
 
 * Simon Gay, _Quantum  programming languages: Survey and bibliography_, Mathematical Structures in Computer Science16(2006) ([doi:10.1017/S0960129506005378](https://doi.org/10.1017/S0960129506005378),  [pdf](http://www.dcs.gla.ac.uk/~simon/publications/QPLsurvey.pdf))
+
+* Sunita Garhwal, Maryam Ghorani , Amir Ahmad, *Quantum Programming Language: A Systematic Review of Research Topic and Top Cited Languages*,  Arch Computat Methods Eng 28, 289–310 (2021) ([doi:10.1007/s11831-019-09372-6](https://doi.org/10.1007/s11831-019-09372-6))
 
 
 Quantum programming via [[quantum logic]] understood as [[linear type theory]] [[categorical semantics|interpreted in]] [[symmetric monoidal categories]]:
@@ -24,10 +28,13 @@ Quantum programming via [[quantum logic]] understood as [[linear type theory]] [
 
 * [[Ross Duncan]], *Types for Quantum Computing*, 2006 ([pdf](http://personal.strath.ac.uk/ross.duncan/papers/rduncan-thesis.pdf))
 
+* {#LagoFaffian12} [[Ugo Dal Lago]], [[Claudia Faggian]], _On Multiplicative Linear Logic, Modality and Quantum Circuits_, EPTCS 95, 2012, pp. 55-66 ([arXiv:1210.0613](http://arxiv.org/abs/1210.0613))
+
 The corresponding [[string diagrams]] are known in quantum computation as *[[quantum circuit diagrams]]*:
 
-* Ryan O’Donnell, *Introduction to the Quantum Circuit Model*, 2015 ([pdf](https://www.cs.cmu.edu/~odonnell/quantum15/lecture01.pdf))
+* [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], Chapter 3 of: *Principles of Quantum Computation and Information*, World Scientific 2018  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
 
+* [Miszczak 12, Sec. 4.3](#Miszczak12)
 
 
 [[functional programming languages]] for [[quantum computation]]:
@@ -53,7 +60,7 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
 * {#AltenkirchGrattage05} [[Thorsten Altenkirch]], [[Jonathan Grattage]], _A functional quantum programming language_, Logic in Computer Science, 2005. Proceedings. 20th Annual IEEE Symposium on, 26-29 June 2005 Page(s):249 - 258 ([arXiv:quant-ph/0409065](https://arxiv.org/abs/quant-ph/0409065), [doi:10.1109/LICS.2005.1](https://doi.org/10.1109/LICS.2005.1), [pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
 
-* [[Jonathan Grattage]], _An overview of QML with a concrete implementation in Haskell_, Quantum Physics and Logic 2008 ([arXiv:0806.2735](https://arxiv.org/abs/0806.2735))
+* [[Jonathan Grattage]], _An overview of QML with a concrete implementation in Haskell_, talk at *Quantum Physics and Logic 2008*, ENTCS: Proceedings of QPL V - DCV IV, 157-165, Reykjavik, Iceland, 2008 ([arXiv:0806.2735](https://arxiv.org/abs/0806.2735))
 
 [[QWIRE]]:
 
@@ -69,6 +76,9 @@ The corresponding [[string diagrams]] are known in quantum computation as *[[qua
 
   > (using ambient [[homotopy type theory]])
 
+On classically controlled quantum computation:
+
+* [[Bernhard Ömer]], *Structured Quantum Programming*, 2003/2009 ([pdf](http://www.itp.tuwien.ac.at/~oemer/doc/structquprog.pdf))
 
 
 
