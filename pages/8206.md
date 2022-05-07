@@ -83,6 +83,8 @@ Discussion for [[D=4 N=8 supergravity]]:
 
 * {#CachazoSkinner12} Freddy Cachazo, [[David Skinner]], *Gravity from Rational Curves*, Phys. Rev. Lett. 110, 161301, 2012 ([arXiv:1207.0741](https://arxiv.org/abs/1207.0741), [arXiv:10.1103/PhysRevLett.110.161301](https://doi.org/10.1103/PhysRevLett.110.161301))
 
+* {#Adamo15} Tim Adamo, *Gravity with a cosmological constant from rational curves*, JHEP 1511: 098, 2015 ([arXiv:1508.02554](https://arxiv.org/abs/1508.02554))
+
 
 [[!redirects twistor string]]
 [[!redirects twistor strings]]
