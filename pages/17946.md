@@ -4,7 +4,7 @@ He got his Ph.D. degree in 1956 from the University of Michigan, advised by [[Ed
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/James_Munkres)
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[topology]]
 
@@ -12,3 +12,5 @@ category: people
 
 [[!redirects James R. Munkres]]
 [[!redirects James Raymond Munkres]]
+
+[[!redirects James R. Munkres]]
