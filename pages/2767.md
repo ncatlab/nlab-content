@@ -23,6 +23,9 @@ $$1 \stackrel{d}{\to} D \stackrel{\Delta}{\to} D^C$$
 
 names a functor $\Delta d: C \to D$ which is the constant functor at $d$. Here $\Delta: D \to D^C$ denotes a [[diagonal functor]].) 
 
+Viewing $D \cong [1,D]$, it is possible to see that $\Delta$ is a base change of the functor categories $D^1$ and $D^C$, given the functor $!_C: C \to 1$.
+
+
 More generally, we may say that a functor $F:C\to D$ is **essentially constant** if it is [[naturally isomorphic]] to a constant functor.
 
 ## Properties
