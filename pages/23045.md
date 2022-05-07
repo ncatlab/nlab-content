@@ -23,7 +23,10 @@
 
 The [[unitary group]] on an infinite-dimensional [[separable Hilbert space|separable]] [[complex vector space|complex]] [[Hilbert space]] $\mathcal{H}$ is traditionally denoted $U(\mathcal{H})$. It does not quite have an established prose name, but is often referred to by some combination of the words "unitary group" and "strong topology".
 
+Its [[quotient]] by the [[circle group|circle]] [[subgroup]] [[U(1)]] is the corresponding [[projective unitary group]] [[PU(ℋ)]].
+
 ## Properties
+
 
 \begin{prop}\label{WithNormTopology}
   The [[norm topology]] makes $U(\mathcal{H})$ a [[topological group]], in fact a [[Banach Lie group]].
@@ -60,10 +63,8 @@ is *not* [[locally compact topological space|locally compact]].
 \end{prop}
 ([Grigorchuk & de la Harpe 2014, Sec. 5](#GrigorchukHarpe2014))
 
-spring
 
 (...)
-
 
 * [[Kuiper's theorem]]
 
