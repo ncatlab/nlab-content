@@ -59,6 +59,9 @@ Conversely, every Hausdorff convergence space becomes a complete Hausdorff Cauch
 
 A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bounded__) if every proper filter is contained in a Cauchy filter.  Equivalently (assuming the [[ultrafilter principle]]), $S$ is precompact iff every [[ultrafilter]] is Cauchy.  A Cauchy space is [[compact space|compact]] (as a convergence space) iff it is both complete and precompact.  Conversely, it is precompact iff its completion is compact.
 
+## See also 
+
+* [[Cauchy structure]]
 
 ## References
 
@@ -68,8 +71,6 @@ A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bou
 [[!redirects Cauchy space]]
 [[!redirects Cauchy spaces]]
 
-[[!redirects Cauchy structure]]
-[[!redirects Cauchy structures]]
 [[!redirects Cauchy-continuous structure]]
 [[!redirects Cauchy-continuous structures]]
 [[!redirects Cauchy continuous structure]]
