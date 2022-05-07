@@ -1,5 +1,6 @@
 \bibitem{MarraReggio2020}
 
+\bibitem{vanDenBergGarner2011}
 
 $$
   \array{
