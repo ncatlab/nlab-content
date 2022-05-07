@@ -158,13 +158,18 @@ Note that any cartesian closed category with finite coproducts must be distribut
 
 ## References
 
-Discussion with focus on application to [[topological spaces]]:
+Discussion with focus on application to [[topological spaces]] and [[compactly generated topological spaces]]:
 
 * {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 - 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
+
+* [[Susan Niefield]], *Cartesianness*, PhD thesis, Rutgers 1978 ([proquest:302920643](https://www.proquest.com/docview/302920643))
 
 * {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.(<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>, [pdf](https://core.ac.uk/download/pdf/81936509.pdf))
 
 * {#Niefield81} [[Susan Niefield]], _Cartesian inclusion: locales and toposes._, Communications in Algebra, 9.16, 1981, pp. 1639-1671  ([doi:10.1080/00927878108822672](https://doi.org/10.1080/00927878108822672))
+
+* [[Francis Borceux]], Section 7.1 of: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
 
 Discussion for [[locales]]:
 
