@@ -182,13 +182,15 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 * [[Renyi entropy]]
 
+* [[min-entropy]]
+
 * [[relative entropy]]
+
+* [[entanglement entropy]], [[holographic entanglement entropy]]
 
 * [[entropic force]]
 
 * [[dissipative system]]
-
-* [[entanglement entropy]], [[holographic entanglement entropy]]
 
 
 ## References
