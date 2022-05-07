@@ -40,13 +40,15 @@ If $C$ has pullbacks of $n$-truncated morphisms, $Trunc_n$ is often used to deno
 
 ## Examples
 
-* A [[(0,1)-category]] of (-1)-truncated objects is a [[poset of subobjects]]. 
+* A [[(0,1)-category]] of (-1)-truncated objects of an object $X$ is a [[poset of subobjects]] of $X$. 
 
-* A [[well-pointed category|well-pointed]] [[Heyting category|Heyting]] [[pretopos]] of 0-truncated objects of the [[terminal object]] $1$ is a (possibly) predicative [[category of sets]]. 
+* A [[well-pointed category|well-pointed]] [[Heyting category|Heyting]] [[pretopos]] of 0-truncated objects of the [[terminal object]] $1$ is a (possibly) [[predicative mathematics|predicative]] model of the [[category of sets]]. 
 
-* A [[well-pointed category|well-pointed]] [[Heyting category|Heyting]] [[Π-pretopos]] of 0-truncated objects of the [[terminal object]] of $1$ is a (possibly) weakly predicative [[category of sets]]. 
+* A [[well-pointed category|well-pointed]] [[Heyting category|Heyting]] [[Π-pretopos]] of 0-truncated objects of the [[terminal object]] of $1$ is a (possibly) [[predicative mathematics|weakly predicative]] model of the [[category of sets]]. 
 
-* A [[well-pointed category|well-pointed]] [[topos]] of 0-truncated objects of the [[terminal object]] $1$ is an impredicative [[category of sets]]. 
+* A [[well-pointed category|well-pointed]] [[topos]] of 0-truncated objects of the [[terminal object]] $1$ is an [[predicative mathematics|impredicative]] model of the [[category of sets]]. 
+
+* A [[well-pointed category|well-pointed]] [[W-topos]] of 0-truncated objects of the [[terminal object]] $1$ whose 0-truncated (-1)-[[connected object|connected]] [[morphisms]] all have [[sections]] is a model of [[ETCS]]. 
 
 ## Related concepts
 
