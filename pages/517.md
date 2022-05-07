@@ -17,6 +17,9 @@ On [[algebraic topology]]
 
 * [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_
 
+On [[simplicial objects]] in [[algebraic topology]] ([[simplicial homotopy theory]]):
+
+* [[Peter May]], _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
 On [[infinite loop spaces]]:
 
