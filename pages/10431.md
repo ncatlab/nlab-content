@@ -40,8 +40,17 @@ which behaves as insulator in the [[bulk]] but has conducting edge states on the
 
 * [[topological photonics]]
 
+* [[quantum material]]
+
 
 ## References
+
+Textbook account:
+
+* [[Tudor D. Stanescu]], Section II.5 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
+
+
+See also:
 
 * Wikipedia, _[Topological insulator](http://en.wikipedia.org/wiki/Topological_insulator)_
 
@@ -54,8 +63,7 @@ which behaves as insulator in the [[bulk]] but has conducting edge states on the
 * J. Kellendonk, _On the $C^\ast$-algebraic approach to topological phases for insulators_, [arxiv/1509.06271](http://arxiv.org/abs/1509.06271)
 
 * A. Kitaev, Periodic table for topological insulators and superconductors. (Advances in
-Theoretical Physics: Landau Memorial Conference) AIP Conference Proceedings 1134,
-22-30 (2009).
+Theoretical Physics: Landau Memorial Conference) AIP Conference Proceedings 1134, 22-30 (2009).
 
 The topological insulator in 2D exhibiting a quantum spin Hall effect has been first proposed in
 
