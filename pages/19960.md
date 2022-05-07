@@ -649,7 +649,7 @@ reviewed in:
 
 * [[Shigeki Sugimoto]], _Holographic QCD -- Status and perspectives_, 2012 ([[Sugimoto12.pdf:file]])
 
-* {#Rebhan14} Anton Rebhan, _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
+* {#Rebhan14} [[Anton Rebhan]], _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
@@ -686,13 +686,18 @@ and its relation to [[baryons]]:
 
 
 
-##### Van Raamsdonk-Whyte model
+##### Further models
 
 Variant with [[D4-brane|D4]] [[flavor branes]]:
 
 * [[Mark Van Raamsdonk]], Kevin Whyte, _Baryon charge from embedding topology and a continuous meson spectrum in a new holographic gauge theory_, JHEP 1005:073, 2010 ([arXiv:0912.0752](https://arxiv.org/abs/0912.0752))
 
 * Shigenori Seki, _Intersecting D4-branes Model of Holographic QCD and Tachyon Condensation_, JHEP 1007:091, 2010 ([arXiv:1003.2971](https://arxiv.org/abs/1003.2971))
+
+See also:
+
+* Nick Evans, Jack Mitchell, *Domain Wall AdS/QCD* ([arXiv:2108.12152](https://arxiv.org/abs/2108.12152))
+
 
 
 
@@ -1128,9 +1133,9 @@ Application to [[anomalous magnetic moment]] of the [[muon]]:
 * Luigi Cappiello, _What does Holographic QCD predict for anomalous $(g-2)_\mu$?_, 2015 ([pdf](https://agenda.infn.it/getFile.py/access?contribId=19&sessionId=5&resId=0&materialId=paper&confId=9430))
 
 
-* Josef Leutgeb, Anton Rebhan, _Axial vector transition form factors in holographic QCD and their contribution to the anomalous magnetic moment of the muon_ ([arXiv:1912.01596](https://arxiv.org/abs/1912.01596))
+* [[Josef Leutgeb]], [[Anton Rebhan]], _Axial vector transition form factors in holographic QCD and their contribution to the anomalous magnetic moment of the muon_ ([arXiv:1912.01596](https://arxiv.org/abs/1912.01596))
 
-* Josef Leutgeb, Anton Rebhan, _Axial vector transition form factors in holographic QCD and their contribution to the muon $g-2$_ ([arXiv:2012.06514](https://arxiv.org/abs/2012.06514))
+* [[Josef Leutgeb]], [[Anton Rebhan]], _Axial vector transition form factors in holographic QCD and their contribution to the muon $g-2$_ ([arXiv:2012.06514](https://arxiv.org/abs/2012.06514))
 
 
 
@@ -1160,7 +1165,7 @@ Discussion of the [[theta angle]] via the the [[graviphoton]] in the [[higher WZ
 
 Discussion of the Witten-Veneziano mechanism
 
-* Josef Leutgeb, Anton Rebhan, _Witten-Veneziano mechanism and pseudoscalar glueball-meson mixing in holographic QCD_ ([arxiv:1909.12352](https://arxiv.org/abs/1909.12352))
+* [[Josef Leutgeb]], [[Anton Rebhan]], _Witten-Veneziano mechanism and pseudoscalar glueball-meson mixing in holographic QCD_ ([arxiv:1909.12352](https://arxiv.org/abs/1909.12352))
 
 
 
