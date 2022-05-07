@@ -27,11 +27,19 @@ The refinement of the concept of [[lax colimits]] from [[category theory]] to [[
 In the special case of functors $f : C \to (\infty,1)Cat$, lax (co)limits can be given by the [[(∞,1)-end]] and coend.
 
 $$
-  laxcolim(f)   \simeq \int^{c \in C} C_{c/} \times f(c)
+  laxcolim(f)   \simeq \int^{c \in C} (C_{c/})^{op} \times f(c)
+$$
+$$
+  oplaxcolim(f)   \simeq \int^{c \in C} C_{c/} \times f(c)
 $$
 $$
   laxlim(f)  \simeq \int_{c \in C} Fun(C_{/c}, f(c))
 $$
+$$
+  oplaxlim(f)  \simeq \int_{c \in C} Fun((C_{/c})^{op}, f(c))
+$$
+
+Take care to note that lax colimits correspond to _oplax_ cones, just as in the 2-categorical case.
 
 ## Examples
 
