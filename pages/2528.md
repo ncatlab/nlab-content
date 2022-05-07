@@ -81,11 +81,15 @@ Many [[foundations]] based on [[type theory]], such as those of Per Martin-L&#24
 
 It is possible to develop type-theoretic foundations in which presets are *not* equipped with identity relations (only metamathematical identity or interconvertibilty *judgements*); see [[tobybartels:preset]] for some discussion.  The presentation axiom is not provable in the base theory, although it is provable in the impredicative version (where identity relations can be defined, following [[Gottfried Leibniz|Leibniz]]\'s definition of equality).  A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
-The sorts in [[Michael Makkai]]\'s [[FOLDS]] are presets.  FOLDS is very different from the other foundations considered above, since it is based strictly on prerelations and has no notion of prefunction.  As far as I can tell, it therefore does not prove the presentation axiom.
-
 In [[homotopy type theory]], a preset is called  an [[homotopy type]] and a prefunction is simply called a function, and the identity type represents [[homotopy equivalence]] instead of equality. In homotopy type theory, there is a truncation operation that allows homotopy types to be turned into [[n-types]], and for $n=0$, the 0-type is a set and the identity type for a 0-type is equality. 
 
 If you are willing to accept the presentation axiom, then you can define a notion of preset internal to a given theory of sets: as a [[projective set]].  (With the full axiom of choice, therefore, a preset is simply a set.)  Alternatively, you might forgo presets as such but define a prefunction between sets to be an entire relation; although not everything translates, some of the properties are similar.
+
+### In logic
+
+If an untyped [[first-order logic]] does not have equality of propositions or equality of predicates, then the [[domain of discourse]] is a preset instead of a set. This remains true for typed first-order logic with multiple types, which are presets if each type does not have local equality. 
+
+The sorts in [[Michael Makkai]]\'s [[FOLDS]] are presets.  FOLDS is very different from the other foundations considered above, since it is based strictly on prerelations and has no notion of prefunction.  As far as I can tell, it therefore does not prove the presentation axiom.
 
 ## Applications
 
