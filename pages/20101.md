@@ -49,6 +49,9 @@ After the discovery of the [[Higgs field]] at the two major other detectors of [
 
 ## Selected publications
 
+### On flavour anomalies
+
+On [[flavour anomalies]]:
 
 * {#Koppenburg07} [[Patrick Koppenburg]], _Selection of $B_u \to \ell \ell K$ at LHCb and Sensitivity to $R_K$_, 2007 ([cern:1027442](cds.cern.ch/record/1027442), [pdf](cds.cern.ch/record/1027442/files/lhcb-2007-034.pdf))
 
@@ -112,6 +115,13 @@ survey:
 * [[Niels Tuning]], _Recent results from LHCb_, Nikhef 2020 ([nikhef event:2253](https://indico.nikhef.nl/event/2253), [pdf](https://indico.nikhef.nl/event/2253/material/slides/0.pdf), [[TuningFlavourAnomaly20.pdf:file]])
 
   > In recent years a number of results in flavour physics have drawn some attention due to tensions with respect to Standard Model predictions. An overview of these results will be shown, together with a few recent results from this Spring, both on the flavour anomalies and 'classical' flavour physics
+
+### On tetraquarks
+
+On [[tetraquarks]]:
+
+* [[LHCb collaboration]], *Observation of structure in the $J/\psi$-pair mass spectrum*, Science Bulletin 65 (2020) 1983 ([arXiv:2006.16957](https://arxiv.org/abs/2006.16957), [doi:10.1016/j.scib.2020.08.032](https://doi.org/10.1016/j.scib.2020.08.032), [CERN news](https://phys.org/news/2020-07-cern-physicists-discovery-unique-particle.html))
+
 
 
 ## References
