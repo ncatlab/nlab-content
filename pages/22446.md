@@ -99,13 +99,17 @@ Lecture notes:
 
 * {#Meckes19} [[Mark Meckes]], Section 7.1 of: *Lecture notes on matrix analysis*, 2019 ([pdf](https://case.edu/artsci/math/mwmeckes/matrix-analysis.pdf), [[MeckesMatrixAnalysis.pdf:file]])
 
+Exposition:
+
+* Zack Cramer, *The Gershgorin circle theorem*  2017 ([[CramerGershgorinCircleTheorem.pdf:file]])
+
 
 See also:
 
 * Wikipedia, *[Gershgorin circle theorem](https://en.wikipedia.org/wiki/Gershgorin_circle_theorem)*
 
 
-Strengthening for special matrices:
+Strengthening for matrices with non-negative entries:
 
 * Imre Bárány, József Solymosi, *Gershgorin disks for multiple eigenvalues of non-negative matrices* ([arXiv:1609.07439](https://arxiv.org/abs/1609.07439))
 
