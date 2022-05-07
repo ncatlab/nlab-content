@@ -32,6 +32,7 @@ Given a [[finite group]] $G$ of [[cardinality]] ${\vert G \vert}$, then the [[co
 The _[[Schur orthogonality relation]]_ is the statement that the [[complex numbers|complex]] [[irreducible representation|irreducible]] [[group characters]] $\{\chi^{(a)}\}_a$ form an [[orthonormal basis]] of the space of [[class functions]] under this [[inner product]]:
 
 \[
+  \label{FirstSchurOrthogonalityRelation}
   \langle \chi^{(a)}, \chi^{(b)} \rangle 
   = 
   \left\{
