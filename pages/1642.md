@@ -85,6 +85,8 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 * [[rectangular band]]
 
+[[!include oidification - table]]
+
 ## References
 
 Semicategories and semigroups are mentioned for instance in section 2 in
