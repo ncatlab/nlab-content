@@ -31,4 +31,10 @@ Commentarii Mathematici Helvetici __71__, n. 1, 192-212, [doi](http://dx.doi.org
 
 * [[Benoit Fresse]], _Operads & Grothendieck-Teichm&#252;ller groups - draft document_, [pdf](https://hal.archives-ouvertes.fr/hal-00656333) 
 
-[[!redirects Malcev completion]]
+[[!redirects Malcev completions]]
+[[!redirects Mal'cev completion]]
+[[!redirects Mal'cev completions]]
+[[!redirects Maltsev completion]]
+[[!redirects Maltsev completions]]
+[[!redirects Mal'tsev completion]]
+[[!redirects Mal'tsev completions]]
