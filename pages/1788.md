@@ -1,5 +1,88 @@
 
 \begin{tikzcd}
+    &[-28pt]
+    G
+    \ar[
+      rr,-,
+      shift left=1pt
+    ] 
+    \ar[
+      rr,-,
+      shift right=1pt
+    ]
+    \ar[d]
+    &&
+    G
+    \ar[
+      d,
+      "g \,\mapsto\, g \cdot x_0"
+    ]
+    &[-28pt]
+    \\
+    (U \times G) \times EG
+    \ar[
+      r,
+      phantom,
+      "\subset"
+    ]
+    \ar[
+      d,
+      "{
+        \big(\mathrm{pr_1}, (g,p) \mapsto g \cdot p \big)
+      }"
+    ]
+    &
+    \mathrm{X} \times E G
+    \ar[
+      rr,
+      "\mathrm{pr}_1"{above},
+      "\in \, \mathrm{W}"{below}
+    ]
+    \ar[d]
+    &&
+    \mathrm{X}
+    \ar[
+      d,
+      "q"
+    ]
+    \ar[
+      r,
+      phantom,
+      "\supset"
+    ]
+    &
+      \mathrm{U} \times G
+      \ar[
+        d,
+        "\mathrm{pr}_1"
+      ]
+    \\
+    U \times E G
+    \ar[
+      r,
+      phantom,
+      "\subset"
+    ]
+    &
+    (\mathrm{X} \times E G) / G
+    \ar[
+      rr,
+      "\mathrm{pr}_1/G"
+    ]
+    &&
+    \mathrm{X}/G
+    \ar[
+      r,
+      phantom,
+      "\supset"
+    ]
+    &
+      \mathrm{U}
+\end{tikzcd}
+
+
+
+\begin{tikzcd}
         \Lambda^n_k
         \ar[
           rr,
