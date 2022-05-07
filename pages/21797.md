@@ -15,6 +15,11 @@ On [[equivariant elliptic cohomology]] in the form of [[orbifold K-theory]] on [
 * {#Huan18} [[Zhen Huan]], _Quasi-Elliptic Cohomology I_, Advances in Mathematics, Volume 337, 15 October 2018, Pages 107-138 ([arXiv:1805.06305](https://arxiv.org/abs/1805.06305), [doi:10.1016/j.aim.2018.08.007](https://doi.org/10.1016/j.aim.2018.08.007))
 
 
+* [[Zhen Huan]], [[Matthew Spong]], *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* ([arXiv:2006.00554](https://arxiv.org/abs/2006.00554))
+
+
+
+
 
 ## Related $n$Lab entries
 
