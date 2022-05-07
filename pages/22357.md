@@ -38,7 +38,7 @@ A [[topological group|topological]] [[subgroup]] $H \subset G$ of a [[topologica
 
 \begin{prop}\label{StabilizerSubgroupsOfContinuousActionsOnT1SpacesAreClosed}
 **([[stabilizer subgroups]] of [[topological G-space|continuous actions]] on [[T1-spaces]] are closed)**
-  Let $G$ be a [[topological group]], $X \in G Action(TopologicalSpaces)$ a [[topological G-space]] whose underlying [[topological space]] is a [[T1-space]], e.g. a [[Hausdorff space]].
+  Let $G$ be a [[topological group]] and let $X \in G Actions(TopologicalSpaces)$ a [[topological G-space]] whose underlying [[topological space]] is a [[T1-space]], e.g. a [[Hausdorff space]].
 
 Then for all [[points]] $x \in X$  their [[isotropy groups]], hence their [[stabilizer subgroup]]
 
