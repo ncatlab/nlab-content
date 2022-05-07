@@ -35,7 +35,7 @@ If $I$ is any [[ideal]] of $R$, then we can generalise from a zero-divisor to an
 
 ## Related concepts
 
-* [[absorption monoid]]
+* [[absorption magma]]
 
 [[!redirects zero-divisor]]
 [[!redirects zero-divisors]]
