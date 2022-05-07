@@ -1165,7 +1165,7 @@ $$
     \;=\;
     \tfrac{1}{N^n \cdot \chi^{(\lambda)}(e)}
     \underset{
-      T \in ssYT_n(\{1, \cdots, N\})
+      T \in ssYT_n(N)
     }{\sum}
     \underset{\sigma \in Sym(n)}{\sum}
     \chi^{ \left\vert T \right\vert }(\sigma)
