@@ -9,4 +9,6 @@ For example:
 
 * [[smooth space]]
 
+* [[algebraic limit field]]
+
 [[!redirects differentiable spaces]]
