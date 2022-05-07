@@ -6,4 +6,8 @@ __Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriq
 
 See also [[Cahiers topos]] which owes its name to this journal.
 
+## Related entries
+
+* [[list of journals publishing category theory]]
+
 [[!redirects Cahiers de Topologie et Géométrie Différentielle Catégoriques]]
