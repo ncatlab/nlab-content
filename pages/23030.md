@@ -554,6 +554,323 @@ From this, the second statement follows by observing that the action in the form
 
 
 
+
+## Properties
+
+### Restriction to subgroups
+
+\begin{proposition}\label{WeylGroupActsOnNonAbGroup1CohomOfSubgroup}
+**([[Weyl group]] [[group action|acts]] on [[non-abelian group cohomology|non-abelian group 1-cohomology]] of [[subgroup]])**
+\linebreak
+For $H \subset G$ a [[subgroup]], the set of crossed homomorphisms $H \to \Gamma$ (Def. \ref{CrossedHomomorphism}), with respect to the restricted action of $H$ on $\Gamma$, carries a [[group action]] of the [[normalizer subgroup]] $N_G(H) \,\subset\, G$,
+given by
+\[
+  \label{ActionOfNormalizerOnCrossedHomomorphismsFromSubgroup}
+  \array{
+    N_G(H) \times CrsHom(H,\,G)
+    &\xrightarrow{\;\;}&
+    CrsHom(H,\,G)
+    \\
+    (n, \phi)
+    &\mapsto&
+    \phi_{n}
+    \mathrlap{
+    \;\coloneqq\;
+    \alpha(n)
+    \Big(
+      \phi
+      \big(
+        n^{-1} \cdot (-) \cdot n
+      \big)
+    \Big) 
+    \,.
+    }
+  }
+\]
+Moreover, on crossed-conjugation classes (Def. \ref{AdjointActionOnCrossedHomomorphisms}), hence on first [[non-abelian group cohomology]], this action descends to an action of the [[Weyl group]] $W_G(H) \coloneqq N_G(H)/H$:
+$$
+  H^1_{Grp}(H,\,\Gamma)
+  \;\;\;
+  \in
+  \;
+  W_G(H) Act(Sets)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+
+**1. Action property.** It is clear that (eq:ActionOfNormalizerOnCrossedHomomorphismsFromSubgroup) is a group action if only $\phi_n$ is indeed a crossed homomorphism. This follows by a direct computation: 
+$$
+  \begin{array}{lll}
+    \phi_n( h_1 \cdot h_2 )
+    & 
+    \;=\;
+    \alpha(n)
+    \Big(
+      \phi
+      \big( 
+        n^{-1} \cdot h_1 \cdot h_2 \cdot n 
+      \big)
+    \Big)
+    &
+    \text{definition of}\; \phi_n
+    \\
+    &
+    \;=\;
+    \alpha(n)
+    \Big(
+      \phi
+      \big( 
+        n^{-1} \cdot h_1 \cdot n \cdot n^{-1} \cdot h_2 \cdot n 
+      \big)
+    \Big)
+    & 
+    \text{group property of}\; N_G(H) \subset G
+    \\
+    & \;=\;
+    \alpha(n)
+    \Big(
+      \phi
+      \big( 
+        n^{-1} \cdot h_1 \cdot n
+      \big)
+      \cdot
+      \alpha(n^{-1} \cdot h_1 \cdot n)
+      \big(
+        \phi( n^{-1} \cdot h_2 \cdot n )
+      \big)
+    \Big)
+    & 
+    \text{crossed homomorphism property of} \; \phi
+    \\
+    & \;=\;
+    \alpha(n)
+    \Big(    
+      \phi
+      \big( 
+        n^{-1} \cdot h_1 \cdot n  
+      \big)
+    \Big)
+      \cdot
+    \alpha(h_1 \cdot n)
+    \Big(
+      \phi\big( n^{-1} \cdot h_2 \cdot n \big)
+    \Big)    
+    &
+    \text{action property of} \; \alpha
+    \\
+    & \;=\;
+    \alpha(n)
+    \Big(    
+      \phi
+      \big( 
+        n^{-1} \cdot h_1 \cdot n  
+      \big)
+    \Big)
+      \cdot
+    \alpha(h_1)
+    \bigg(
+      \alpha(n)
+      \Big(
+        \phi\big( n^{-1} \cdot h_2 \cdot n \big)
+      \Big)    
+    \bigg)
+    &
+    \text{action property of} \; \alpha
+    \\
+    & \;=\;
+    \phi_n(h_1)
+    \cdot
+    \alpha(h_1)
+    \big(
+      \phi_n(h_2)
+    \big)
+    &
+    \text{definition of}\; \phi_n
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+**2. Descent to crossed-conjugation classes.**
+To see that the action (eq:ActionOfNormalizerOnCrossedHomomorphismsFromSubgroup) descends to group cohomology, we need to show for 
+
+$$
+  \phi'(-)
+  \;=\;
+  \gamma^{-1} \cdot \phi(-) \cdot \alpha(-)(\gamma)
+$$
+
+a crossed conjugation between some $\phi'$ and $\phi$, that there also exists a crossed conjugation between $\phi'_n$ and $\phi_n$. The following direct computation shows that this is given by crossed conjugation with $\alpha(n)(\gamma)$:
+
+$$
+  \begin{array}{lll}
+    \phi'_n(h)
+    & 
+    \;=\;
+    \alpha(n)
+    \Big(
+      \gamma^{-1} 
+        \cdot 
+      \phi\big( n^{-1} \cdot h \cdot n \big) 
+      \cdot 
+      \alpha
+        \big( n^{-1} \cdot h \cdot n \big)
+        (\gamma)
+    \Big)
+    &
+    \text{assumption with definition of} \; \phi_n
+    \\
+    & 
+    \;=\;     
+    \alpha(n)
+    \big(
+      \gamma^{-1} 
+    \big)
+      \cdot 
+    \alpha(n)
+    \Big(
+      \phi\big( 
+        n^{-1} \cdot h \cdot n 
+      \big) 
+    \Big)
+    \cdot 
+    \alpha(h)
+    \Big(
+      \alpha(n)(\gamma)
+    \Big)
+    &
+    \text{action property of} \; \alpha
+    \\
+    & \;=\;
+    \big(
+      \alpha(n)(\gamma)
+    \big)^{-1}
+      \cdot
+    \phi_n(h)
+      \cdot
+    \alpha(h)
+    \big(
+      \phi(n)(\gamma)
+    \big)
+    &
+    \text{definition of} \; \phi_n
+    \,.
+  \end{array}
+$$ 
+
+**Alternative argument for 1. & 2.**
+Alternatively, the previous two statements also follow more immediately, by using the identification from Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} of the conjugation groupoid of crossed homomorphisms $\phi \colon H \to \Gamma$ with that of homomorphic sections $ \big( \phi(-),\, (-) \big) \,\colon\, H \to \Gamma \rtimes H$. In this latter incarnation, the action by $n$ is simply the "conjugation action by the adjoint action", in that:
+
+$$
+  n
+  \;\colon\;
+  \big(
+    \phi(-),\, (-) 
+  \big)
+  \;\;
+  \mapsto
+  \;\;
+  \big(
+    \phi_n(-),\, (-) 
+  \big)
+  \;\;
+  =
+  \;\;
+  \big(
+    \mathrm{e} ,\, n
+  \big)
+  \cdot
+  \Big(
+    \phi
+    \big(
+      n^{-1}\cdot(-)\cdot n
+    \big)
+    ,\, 
+    \big( 
+      n^{-1} \cdot(-) \cdot n
+    \big) 
+  \Big)
+  \cdot
+  \big(
+    \mathrm{e} ,\, n^{-1}
+  \big)
+  \,.
+$$ 
+
+In this formulation it is manifest that homomorphisms and conjugation are preserved, and the only point to check is that the section-property is also respected, which is immediate.
+
+**3. Descent to action of Weyl group.**
+To conclude, we need to show that the action of $H \subset B_G(H)$ is trivial on conjugacy classes, hence that 
+for $n \in H \subset N(H)$ there is a crossed conjugation between $\phi_n$ and $\phi$. The following direct computation shows that this is given by crossed conjugation with $\phi(n)$ (which is well-defined, by the assumption that $n \in H$):
+$$
+  \begin{array}{lll}
+    \phi_n(h)
+    &
+    \;=\;
+    \alpha(n)
+    \Big(
+      \phi
+      \big(
+        n^{-1} \cdot h \cdot n
+      \big)
+    \Big)
+    & 
+    \text{definition of} \; \phi_n
+    \\
+    & 
+    \;=\;
+    \alpha(n)
+    \bigg(
+      \phi(n^{-1})
+      \cdot
+      \alpha(n^{-1})
+      \Big(
+         \phi(h)
+         \cdot
+         \alpha(h)
+         \big(
+           \phi(n)
+         \big)
+      \Big)
+    \bigg)
+    &
+    \text{crossed homomorphism property of} \; \phi
+    \\
+    & \;=\;
+    \alpha(n)
+    \big(
+      \phi(n^{-1}) 
+    \big)
+    \cdot
+    \phi(h)
+    \cdot
+    \alpha(h)
+    \big(
+      \phi(n)
+    \big)
+    &
+    \text{action property of} \; \alpha
+    \\
+    & \;=\;
+    \big(
+      \phi(n)
+    \big)^{-1}
+    \cdot
+    \phi(h)
+    \cdot
+    \alpha(h)
+    \big(
+      \phi(n)
+    \big)
+    &
+    \text{crossed homomorphism property of} \; \phi
+    \mathrlap{\,.}
+  \end{array}
+$$
+\end{proof}
+
+
+
 ## Examples
 
 ### In relation to crossed modules
@@ -781,6 +1098,7 @@ $$
   \,,
   \;\;\;\;
   \text{such that}
+  \;
   \sigma([\mathrm{e}]) \,=\, \mathrm{e}
   \,,
 $$
@@ -815,7 +1133,7 @@ by the following two classes of morphisms:
 Using this, consider the following expression for a pair of comparison functors:
 
 \begin{imagefromfile}
-    "file_name": "HFixedMappingGroupoidFromEGToBGamma210901.jpg",
+    "file_name": "HFixedMappingGroupoidFromEGToBGamma210905.jpg",
     "width": 660,
     "unit": "px",
     "margin": {
@@ -825,7 +1143,6 @@ Using this, consider the following expression for a pair of comparison functors:
         "left": 10
     }
 \end{imagefromfile}
-
 
 Here 
 
@@ -889,276 +1206,6 @@ to the [[commuting square|commutativity]] of the two types of squares shown on t
 Indeed, the top square commutes by the $H$-equivariance of $\beta$, while the bottom square commutes by the naturality of $\beta$.
 \end{proof}
 
-
-## Properties
-
-### Restriction to subgroups
-
-\begin{proposition}\label{WeylGroupActsOnNonAbGroup1CohomOfSubgroup}
-**([[Weyl group]] [[group action|acts]] on [[non-abelian group cohomology|non-abelian group 1-cohomology]] of [[subgroup]])**
-\linebreak
-For $H \subset G$ a [[subgroup]], the set of crossed homomorphisms $H \to \Gamma$ (Def. \ref{CrossedHomomorphism}), with respect to the restricted action of $H$ on $\Gamma$, carries a [[group action]] of the [[normalizer subgroup]] $N_G(H) \,\subset\, G$,
-given by
-$$
-  \array{
-    N_G(H) \times CrsHom(H,\,G)
-    &\xrightarrow{\;\;}&
-    CrsHom(H,\,G)
-    \\
-    (n, \phi)
-    &\mapsto&
-    \phi_{n}
-    \mathrlap{
-    \;\coloneqq\;
-    \alpha(n)
-    \Big(
-      \phi
-      \big(
-        n^{-1} \cdot (-) \cdot n
-      \big)
-    \Big) 
-    \,.
-    }
-  }
-$$
-Moreover, on crossed-conjugation classes (Def. \ref{AdjointActionOnCrossedHomomorphisms}), hence on first [[non-abelian group cohomology]], this action descends to an action of the [[Weyl group]] $W_G(H) \coloneqq N_G(H)/H$:
-$$
-  H^1_{Grp}(H,\,\Gamma)
-  \;\;\;
-  \in
-  \;
-  W_G(H) Act(Sets)
-  \,.
-$$
-\end{proposition}
-\begin{proof}
-For the first statement:
-It is clear that this is a group action if only $\phi_n$ is indeed a crossed homomorphism. This follows by a direct computation: 
-$$
-  \begin{array}{lll}
-    \phi_n( h_1 \cdot h_2 )
-    & 
-    \;=\;
-    \alpha(n)
-    \Big(
-      \phi
-      \big( 
-        n^{-1} \cdot h_1 \cdot h_2 \cdot n 
-      \big)
-    \Big)
-    &
-    \text{definition of}\; \phi_n
-    \\
-    &
-    \;=\;
-    \alpha(n)
-    \Big(
-      \phi
-      \big( 
-        n^{-1} \cdot h_1 \cdot n \cdot n^{-1} \cdot h_2 \cdot n 
-      \big)
-    \Big)
-    & 
-    \text{group property of}\; N_G(H) \subset G
-    \\
-    & \;=\;
-    \alpha(n)
-    \Big(
-      \phi
-      \big( 
-        n^{-1} \cdot h_1 \cdot n
-      \big)
-      \cdot
-      \alpha(n^{-1} \cdot h_1 \cdot n)
-      \big(
-        \phi( n^{-1} \cdot h_2 \cdot n )
-      \big)
-    \Big)
-    & 
-    \text{crossed homomorphism property of} \; \phi
-    \\
-    & \;=\;
-    \alpha(n)
-    \Big(    
-      \phi
-      \big( 
-        n^{-1} \cdot h_1 \cdot n  
-      \big)
-    \Big)
-      \cdot
-    \alpha(h_1 \cdot n)
-    \Big(
-      \phi\big( n^{-1} \cdot h_2 \cdot n \big)
-    \Big)    
-    &
-    \text{action property of} \; \alpha
-    \\
-    & \;=\;
-    \alpha(n)
-    \Big(    
-      \phi
-      \big( 
-        n^{-1} \cdot h_1 \cdot n  
-      \big)
-    \Big)
-      \cdot
-    \alpha(h_1)
-    \bigg(
-      \alpha(n)
-      \Big(
-        \phi\big( n^{-1} \cdot h_2 \cdot n \big)
-      \Big)    
-    \bigg)
-    &
-    \text{action property of} \; \alpha
-    \\
-    & \;=\;
-    \phi_n(h_1)
-    \cdot
-    \alpha(h_1)
-    \big(
-      \phi_n(h_2)
-    \big)
-    &
-    \text{definition of}\; \phi_n
-    \mathrlap{\,.}
-  \end{array}
-$$
-
-To see that this action descends to group cohomology, we need to show for 
-
-$$
-  \phi'(-)
-  \;=\;
-  \gamma^{-1} \cdot \phi(-) \cdot \alpha(-)(\gamma)
-$$
-
-a crossed conjugation between some $\phi'$ and $\phi$, that there also exists a crossed conjugation between $\phi'_n$ and $\phi_n$. The following direct computation shows that this is given by crossed conjugation with $\alpha(n)(\gamma)$:
-
-$$
-  \begin{array}{lll}
-    \phi'_n(h)
-    & 
-    \;=\;
-    \alpha(n)
-    \Big(
-      \gamma^{-1} 
-        \cdot 
-      \phi\big( n^{-1} \cdot h \cdot n \big) 
-      \cdot 
-      \alpha
-        \big( n^{-1} \cdot h \cdot n \big)
-        (\gamma)
-    \Big)
-    &
-    \text{assumption with definition of} \; \phi_n
-    \\
-    & 
-    \;=\;     
-    \alpha(n)
-    \big(
-      \gamma^{-1} 
-    \big)
-      \cdot 
-    \alpha(n)
-    \Big(
-      \phi\big( 
-        n^{-1} \cdot h \cdot n 
-      \big) 
-    \Big)
-    \cdot 
-    \alpha(h)
-    \Big(
-      \alpha(n)(\gamma)
-    \Big)
-    &
-    \text{action property of} \; \alpha
-    \\
-    & \;=\;
-    \big(
-      \alpha(n)(\gamma)
-    \big)^{-1}
-      \cdot
-    \phi_n(h)
-      \cdot
-    \alpha(h)
-    \big(
-      \phi(n)(\gamma)
-    \big)
-    &
-    \text{definition of} \; \phi_n
-    \,.
-  \end{array}
-$$ 
-
-To conclude, we need to show that 
-for $n \in H \subset N(H)$ there is a crossed conjugation between $\phi_n$ and $\phi$. The following direct computation shows that this is given by crossed conjugation with $\phi(n)$ (which is indeed defined, by the assumption that $n \in H$):
-$$
-  \begin{array}{lll}
-    \phi_n(h)
-    &
-    \;=\;
-    \alpha(n)
-    \Big(
-      \phi
-      \big(
-        n^{-1} \cdot h \cdot n
-      \big)
-    \Big)
-    & 
-    \text{definition of} \; \phi_n
-    \\
-    & 
-    \;=\;
-    \alpha(n)
-    \bigg(
-      \phi(n^{-1})
-      \cdot
-      \alpha(n^{-1})
-      \Big(
-         \phi(h)
-         \cdot
-         \alpha(h)
-         \big(
-           \phi(n)
-         \big)
-      \Big)
-    \bigg)
-    &
-    \text{crossed homomorphism property of} \; \phi
-    \\
-    & \;=\;
-    \alpha(n)
-    \big(
-      \phi(n^{-1}) 
-    \big)
-    \cdot
-    \phi(h)
-    \cdot
-    \alpha(h)
-    \big(
-      \phi(n)
-    \big)
-    &
-    \text{action property of} \; \alpha
-    \\
-    & \;=\;
-    \big(
-      \phi(n)
-    \big)^{-1}
-    \cdot
-    \phi(h)
-    \cdot
-    \alpha(h)
-    \big(
-      \phi(n)
-    \big)
-    &
-    \text{crossed homomorphism property of} \; \phi
-    \mathrlap{\,.}
-  \end{array}
-$$
-\end{proof}
 
 
 
