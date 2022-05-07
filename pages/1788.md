@@ -1,4 +1,11 @@
 
+# Contents (or put a title here)
+* this block creates the table of contents, leave as is
+{: toc}
+
+## Idea ##
+
+
 Please do not delete the following example for the moment!
 
 An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
