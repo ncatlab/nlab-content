@@ -554,6 +554,9 @@ As a consequence:
 
 * [[free loop space]], [[derived loop space]]
 
+* [[transgression in group cohomology]]
+
+
 ## References
 
 Original articles:
