@@ -50,10 +50,23 @@ For suitable [[continuous function|continuous]] [[actions]] of $G$ on a [[topolo
 
 Def. \ref{TheOrbitCategory} yields a [[small category|small]] [[enriched category|topologically enriched]] category (though of course if $G$ is a [[discrete group]], the enrichment of $\operatorname{Orb}_G$ is likewise discrete).  
 
-Of course, like any category, it has a [[skeleton]], but as usually defined it is not itself skeletal, since there can exist distinct subgroups $H$ and $K$ such that $G/H\cong G/K$.
-
+Of course, like any category, it has a [[skeleton]], but as usually defined it is not itself skeletal, since there can exist distinct subgroups $H$ and $K$ such that $G/H \cong G/K$.
 
 =--
+
+
+\begin{remark}\label{GActionsAndGOrbits}
+**([[G-set|$G$-sets]] are the [[free coproduct completion]] of [[orbit category|$G$-orbits]])**
+\linebreak
+  Let $G \,\in\, Grp(Set)$ be a [[discrete group]]. Write
+
+* [[G-set|$G Set$]] for its category of [[group actions]] on [[sets]], 
+
+* $G Orbt \xhookrightarrow{\;} G Set$ for its [[orbit category]], the [[full subcategory]] on the [[transitive actions]], hence the [[coset space|sets of cosets]] $G/H$, for [[subgroups]] $H \subset G$.
+
+Since every [[G-set]] $X$ decomposes as a [[disjoint union]] of [[transitive actions]], namely of [[orbits]] of [[elements]] of $X$, this inclusion exhibits $G Set$ as the [[free coproduct completion]] of [[orbit category|G Orbt]].
+\end{remark}
+
 
 +-- {: .num_remark }
 ###### Remark
@@ -67,7 +80,7 @@ More generally, given a family $F$ of subgroups of $G$ which is closed under con
 
 ## Variants
 
-Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\operatorname{Orb}_G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will go across to the restricted setting.
+Sometimes a family, $\mathcal{W}$, of subgroups is specified, and then a subcategory of $\operatorname{Orb}_G$ consisting of the $G/H$ where $H\in \mathcal{W}$ will be considered. If the trivial subgroup is in $\mathcal{W}$ then many of the considerations of results such as [[Elmendorf's theorem]] will still hold.
 
 ## Examples
  {#Examples}
