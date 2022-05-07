@@ -588,12 +588,14 @@ is the passage to the $H$-[[fixed locus]] $(-)^H$ equipped with its residual [[W
 
 ### Further limits and colimits
 
-\begin{lemma}
+\begin{lemma}\label{RecognitionOfCartesianQuotientProjection}
+**(recognition of cartesian quotient projections)**
   Let $G$ be a [[compact topological group]] and let $f \colon X \longrightarrow Y$ be morphism of [[Hausdorff space|Hausdorff]] $G$-spaces.
 
-Then its [[quotient]] [[natural transformation|naturality]] square 
+Then its [[quotient topological space|quotient]] [[natural transformation|naturality]] square 
 
-$$
+\[
+  \label{QuotientSpaceNaturalitySquare}
   \array{
     X 
     &\overset{f}{\longrightarrow}&
@@ -607,13 +609,26 @@ $$
      &\overset{f/G}{\longrightarrow}&
     Y/G
   }
+\]
+
+is a [[pullback square]] if and only if $f$ preserves [[isotropy groups]], i.e. if and only if for each $x \in X$ we have
+
+$$  
+  G_x \,\simeq\, G_{f(x)}
 $$
 
-is a [[pullback square]] if and only if $f$ preserves [[isotropy groups]].
+as an [[isomorphism]] of [[stabilizer]] [[subgroups]] of $G$.
 \end{lemma}
 
 ([Bykov-Flores 15, Prop. 4.1](#BykovFlores15))
 
+\begin{remark}
+The assumption in Lemma \ref{RecognitionOfCartesianQuotientProjection} is met in particular when the action on both sides is [[free action|free]], whence all [[isotropy groups]] are [[trivial group|trivial]].
+
+This is the case in which $X$ and $Y$ are $G$-[[principal bundles]] without, however, necessarily needing to be [[locally trivial]] for Lemma \ref{RecognitionOfCartesianQuotientProjection} to apply ("[Cartan principal bundles](principal+bundle#CartanPrincipalBundles)").
+
+On the other hand, even if $G$ is not [[compact topological group|compact]] but $X \to X/G$ and $Y \to Y/G$ are $G$-[[principal bundles]] which are [[locally trivial]], then it follows again that (eq:QuotientSpaceNaturalitySquare) is a [[pullback]] (since then the universal comparison morphism $X \to Y \times_{X/G} Y/G$ is a morphism of [[locally trivial]] [[principal bundles]] over the common base space $X/G$, which is an isomorphism since it is so on any [[open cover]] over which both $X$ and $Y \times_{X/G} Y/G$ trivialize).
+\end{remark}
 
 
 ### Equivariant Tietze extension theorem
