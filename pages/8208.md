@@ -77,6 +77,9 @@ See also
 
 * Pierre Vanhove, Federico Zerbini, _Building blocks of closed and open string amplitudes_ ([arXiv:2007.08981](https://arxiv.org/abs/2007.08981))
 
+As an [[isomorphism]] of [[Lie algebras]]:
+
+* Hadleigh Frost, *The Algebraic Structure of the KLT Relations for Gauge and Gravity Tree Amplitudes*, SIGMA **17** 101 (2021) ([arXiv:2111.07257](https://arxiv.org/abs/2111.07257))
 
 
 
