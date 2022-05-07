@@ -17,7 +17,7 @@
 
 ## Idea
 
-A *relevance monoidal category* is a [[symmetric monoidal category]] which has [[monoidal category with diagonals|diagonal maps]] $A\to A\otimes A$, but not projection maps $A \to I$.  (If it had both, it would be a [[cartesian monoidal category]]; while if it had projection maps but not diagonals it would be a [[semicartesian monoidal category]].)  The name comes from the connection with [[relevance logic]].
+A *relevance monoidal category* is a [[symmetric monoidal category]] which has [[monoidal category with diagonals|diagonal maps]] $A\to A\otimes A$, but not projection maps $A \to I$.  (If it had both, it would be a [[cartesian monoidal category]]; while if it had projection maps but not diagonals it would be a [[semicartesian monoidal category]].)  The name comes from the connection with [[relevance logic]], and seems to have been introduced in ([Petrić 2002](#Petric02)).
 
 ## Definition
 
@@ -31,7 +31,9 @@ One can of course additionally ask that a relevance monoidal category be [[close
 
 ## Examples
 
-* The category of [[pointed sets]], which is equivalent to the category of sets and [[partial functions]], is a relevance monoidal category with its pointed [[smash product]].
+* The category of [[pointed sets]], which is equivalent to the category of sets and [[partial functions]], is a relevance monoidal category with its pointed [[smash product]] ([Došen-Petrić 2007](#DosenPetric07)).
+
+* Any [[Church monoid]] is a relevance monoidal category whose underlying category is a [[poset]].
 
 ## Related concepts
 
@@ -41,9 +43,13 @@ One can of course additionally ask that a relevance monoidal category be [[close
 
 * [[monoidal category]]
 
+* [[relevance logic]]
+
 
 ## References
 
-* K. Dosen and Z. Petric, _Relevant Categories and Partial Functions_, Publications de l'Institut Mathématique, Nouvelle Série, Vol. 82(96), pp. 17–23 (2007) ([doi:10.2298/PIM0796017D](https://doi.org/10.2298/PIM0796017D), [arxiv:math/0504133](http://arxiv.org/abs/math/0504133))
+* {#Petric02} Z. Petrić, _Coherence in Substructural Categories_, Studia Logica volume 70, (2002) pp.271–296, doi:[10.1023/A:1015186718090](https://doi.org/10.1023/A:1015186718090), arXiv:[math/0006061](https://arxiv.org/abs/math/0006061)
+
+* {#DosenPetric07} K. Došen and Z. Petrić, _Relevant Categories and Partial Functions_, Publications de l'Institut Mathématique, Nouvelle Série, Vol. 82(96), pp. 17–23 (2007) ([doi:10.2298/PIM0796017D](https://doi.org/10.2298/PIM0796017D), [arxiv:math/0504133](http://arxiv.org/abs/math/0504133))
 
 [[!redirects relevance monoidal categories]]
