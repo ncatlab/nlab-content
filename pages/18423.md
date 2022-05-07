@@ -182,6 +182,7 @@ This is due to [Pavlov et al. 19, Thm. 1.1](#BEBP19) (see discussion [here](http
 
 ## Consequences
 
+
 ### Smooth Oka principle
  {#ConsequenceSmoothOkaPrinciple}
 
@@ -304,6 +305,277 @@ Here
 * the last step applies again Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupod}.
 
 Since the composite of these equivalences is still [[natural equivalence|natural]] in $U$, the statement (eq:SmoothOkaPrincipleEquivalence) follows by the [[(∞,1)-Yoneda embedding]].
+\end{proof}
+
+### Classification of principal $\infty$-bundles
+
+\begin{definition}
+  \label{ClassifyingSpaceAsShapeOfDelooping}
+  For $\mathcal{G} \,\in\, Groups(SmoothGroupoids_\infty)$
+  any [[smooth ∞-group]], write
+  $$
+    B \mathcal{G}
+    \;\;
+    \coloneqq
+    \;\;
+    &#643;
+    \mathbf{B} 
+    \mathcal{G}
+    \;\;
+    \simeq
+    \mathbf{B} 
+    &#643;
+    \mathcal{G}
+  $$
+  for the [[shape modality|shape]] of its [[delooping]], equivalently (since [[shape modality|shape]] preserves the simplicial [[(∞,1)-colimits]] and the [[finite products]] involved in defining the [[delooping]] as the realization of the [[Cech nerve]] of the [[effective epimorphism]] $\ast \to \mathbf{B}\mathcal{G}$) the delooping of its shape.
+\end{definition}
+
+\begin{remark}
+Recall that $\mathbf{B}\mathcal{G}$ is the [[moduli stack]] of $\mathcal{G}$-[[principal ∞-bundles]], in that for $X \in SmoothGroupoids_\inft$ there is a [[natural equivalence]] (of [[∞-groupoids]])
+
+$$
+  \mathcal{G}PrinBund_X
+  \;\;
+  \simeq
+  \;\;
+  \mathbf{H}(X,\mathbf{B}\mathcal{G})
+  \;\;\;
+  \in
+  \;
+  Groupoids_\infty
+  \,.
+$$
+
+In particular, upon [[n-truncated object of an (infinity,1)-category|0-truncation]] $\tau_0$, this means that the [[moduli stack]] $\mathbf{B}\mathcal{G}$ classifies [[equivalence classes]] of [[principal ∞-bundles]]:
+
+$$
+  \big(\mathcal{G}PrinBund_X\big)_{/\sim_{equ}}
+  \;\;
+  \simeq
+  \;\;
+  \tau_0\, \mathbf{H}(X,\mathbf{B}\mathcal{G})
+  \;\;\;
+  \in
+  \;
+  Sets
+  \,.
+$$
+
+But for this reduced information much less than the full [[moduli stack]] may be necessary: A *[[classifying space]]* for $\mathcal{G}$-[[principal ∞-bundles]] is a [[discrete object]] in $Groupoids_\infty \xhookrightarrow{Disc} SmoothGroupoids_\infty$, such that [[homotopy classes]] of maps into its still correspond to [[equivalence classes]] of [[principal ∞-bundles]], at least over suitable domains.
+\end{remark}
+
+Slightly coarser than plain equivalence classes of principal $\infty$-bundles are [[concordance classes]] of principal $\infty$-bundles (in fact, often the two notions coincide):
+
+\begin{definition}\label{ConcordanceClassesOfPrincipalInfinityBundles}
+  **([[concordance classes]] of [[principal ∞-bundles]])** \linebreak
+  For $\mathcal{G} \in Groups(SmoothGroupoids)_\infty$
+  and any $X \in SMoothGroupoids_\infty$,  
+  we say that a *[[concordance]]* between two [[principal ∞-bundles]]
+  $$
+    P_0, P_1 \;\in\; \mathcal{G}PrinBund(SmoothGroupoids|infty)_X
+  $$
+  is a principal $\infty$-bundle on the [[cylinder]] over $X$
+  $$
+    \widehat P \;\in\; \mathcal{G}PrinBund_{X \times \mathbb{R}}
+  $$
+  whose restriction to the points $0,1 \,\in\, mathbb{R}$ is 
+  [[equivalence in an (∞,1)-category|equivalent]] to the 
+  given pair of bundles:
+  $$
+    {\widehat P}_{\vert X \times \{0\}}
+    \;\simeq\;
+    P_0
+    \;\;\;\;\;\;\;
+    \text{and}
+    \;\;\;\;\;\;\;
+    {\widehat P}_{\vert X \times \{1\}}
+    \;\simeq\;
+    P_1
+    \,.
+  $$
+  We write
+  $$
+    \big(
+       \mathcal{G}PrinBund_X
+    \big)_{/\sim_{conc}}
+    \;\;
+      \coloneqq
+    \;\;
+    \big(
+       \mathcal{G}PrinBund_X
+    \big)
+    \big/
+    \big(
+       \mathcal{G}PrinBund_{X \times \mathbb{R}}
+    \big)
+  $$
+  for the set of [[equivalence classes]] of [[principal ∞-bundles]] under this concordance [[relation]].
+\end{definition}
+
+\begin{proposition}
+  For 
+
+  * any [[smooth ∞-group]] $\mathcal{G} \,\in\, Groups(SmoothGroupoids_\infty)$;
+
+ * any [[smooth manifold]] $X \,\in\, SmoothManifolds \xhookrightarrow{\;\;y\;\;} SmoothGroupoids_\infty$
+
+the space $B \mathcal{G} \,\in\, Groupoids_\infty \xhookrightarrow{Disc} SmoothGroupoids_\infty$ (Def. \ref{ClassifyingSpaceAsShapeOfDelooping}) is a [[classifying space]] for $\mathcal{G}$-[[principal ∞-bundles]] over $X$, up to [[concordance]] (Def. \ref{ConcordanceClassesOfPrincipalInfinityBundles}), in that we have a [[natural bijection]]:
+
+$$
+  \big(
+    \mathcal{G}PrinBund_X
+  \big)_{/\sim_{conc}}
+  \;\;
+  \simeq
+  \;\;
+  \tau_0
+  \,
+  \mathbf{H}
+  \big(
+    X,\,
+    B \mathcal{G}
+  \big)
+  \,.
+$$
+
+\end{proposition}
+
+\begin{proof}
+
+$$
+\begin{aligned}
+    \tau_0
+    \,
+    \mathbf{H}
+    \big(
+      X, \, B \mathcal{G}
+    \big)
+    & \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    \big[
+      X, \, B \mathcal{G}
+    \big]
+    \\
+    &
+    \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    \big[
+      X,
+      \,
+      &#643;
+      \, 
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    &#643;
+    \,
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    Pnts
+    \,
+    Disc
+    \,
+    \mathrm{Sing}
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \mathrm{Sing}
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \Big(
+    \big[
+      X,
+      \,
+      \mathbf{B}\mathcal{G}
+    \big]
+    (\Delta^\bullet_{\mathrm{smth}})
+    \Big)
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \Big(
+    \mathbf{H}
+    \big(
+      X
+      \times
+      \Delta^\bullet_{\mathrm{smth}}
+      \,
+      \mathbf{B}\mathcal{G}
+    \big)
+    \Big)
+    \\
+    & \;\simeq\;
+    \tau_0
+    \,
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \big(
+      {\mathcal{G}}PrinBund_{X \times \Delta^\bullet_{\mathrm{smth}}}
+    \big)
+    \\
+    & \;\simeq\;
+    \underset{\longrightarrow}{\mathrm{lim}}
+    \,
+    \tau_0
+    \big(
+    {\mathcal{G}}PrinBund_{X \times \Delta^\bullet_{\mathrm{smth}}}
+    \big)
+    \\
+    & \;\simeq\;
+    \Big(
+      \tau_0
+      \big(
+        {\mathcal{G}}PrinBund_{ X }
+      \big)
+    \Big)
+    \big/
+    \Big(
+      \tau_0
+      \big(
+      {\mathcal{G}}PrinBund_{X \times \Delta^1_{\mathrm{smth}}}
+      \big)
+    \Big)
+    \\
+    & \;\simeq\;
+    \big(
+      {\mathcal{G}}PrinBund_X
+    \big)_{\sim_{\mathrm{conc}}}
+  \end{aligned}
+$$
+
 \end{proof}
 
 
