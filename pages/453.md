@@ -194,6 +194,47 @@ For a [[morphism]] $f$ in a [[regular category]], the following conditions are a
 \end{prop}
 
 
+### Pullback and pasting law
+
+In a [[regular category]], the usual [[pasting law]] implication also applies along [[regular epimorphisms]] also in the reverse direction, :
+
+\begin{proposition}
+\label{WrongWayPastingLawInRegularCategory}
+  In a [[regular category]], consider a [[commuting diagram]] of the form
+\begin{tikzcd}
+  {}
+  \ar[r]
+  \ar[d]
+  \ar[dr,phantom,"\mbox{\tiny(pb)}"]
+  &
+  {}
+  \ar[r]
+  \ar[d]
+  &
+  {}
+  \ar[d]
+  \\
+  {}
+  \ar[r, ->>]
+  &
+  {}
+  \ar[r]
+  &
+  {}  
+\end{tikzcd}
+where 
+
+1. the left square is a [[pullback]];
+
+1. the bottom left morphism is an [[regular epimorphism]].
+
+Then right right square is a pullback iff the total rectangle is.
+\end{proposition}
+(e.g. [Gran 2020, Lem. 1.15](regular+category#Gran20))
+
+
+
+
 ### Factorization properties 
 
 
@@ -234,11 +275,10 @@ The classes of [[regular epimorphism]], [[monomorphism]]s in a regular category 
 
 ### Embedding properties 
 
-+-- {: .num_barrembeddingtheorem}
-###### Proposition
-
-If a regular category is small, it admits particularly nice embeddings into presheaf categories. See [[Barr embedding theorem]] for more. 
-
+\begin{remark}
+\label{barrembeddingtheorem}
+If a regular category is small, it admits particularly nice embeddings into presheaf categories. See *[[Barr embedding theorem]]* for more. 
+\end{remark}
 
 ### Axiomatizability properties 
 
