@@ -57,7 +57,7 @@ A [[homomorphism]] of adic rings is a ring [[homomorphism]] that is also a [[con
 
 The [[opposite category]] of $AdicRing$ (on [[Noetherian rings]]) is that of affine [[formal schemes]].
 
-Similarly, for $R$ any fixed [[commutative ring]], then adic rings under $R$ are _adic $R$-algebras_. We write $Adic A Alg$ and $Adic A CAlg$ for the corresponding categories.
+Similarly, for $R$ any fixed [[commutative ring]], then adic rings under $R$ are _adic $R$-algebras_. We write $Adic R Alg$ and $Adic R CAlg$ for the corresponding categories.
 
 =--
 
