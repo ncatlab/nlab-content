@@ -7,13 +7,13 @@
 
 **Morse theory** is the method of studying the [[topology]] of a [[smooth manifold]] $M$ by the study of [[Morse functions]] $M\to\mathbb{R}$ and their associated [[gradient flows]]. 
 
-Classical Morse theory centered around simple statements like Morse inequalities, concerning just the [[Betti number]]s. It is useful not only for studying manifolds, but also for studying infinite CW-type spaces *homotopically filtered in manifolds*, as by Milnor and Bott (especially *The stable homotopy of the classical groups*) for spaces of paths in a smooth manifold.
+Classical Morse theory centered around simple statements like Morse inequalities, concerning just the [[Betti number]]s. It is useful not only for studying manifolds, but also for studying infinite CW-type spaces *homotopically filtered in manifolds*, as by Milnor and Bott (especially the *stable homotopy of the classical groups*) for spaces of paths in a smooth manifold.
 
 Novikov--Morse theory is a variant using [[multivalued functions]]. There is also a [[discrete Morse theory]] for combinatorial cell complexes.
 
-There are some infinite-dimensional generalizations like Floer instanton homology for 3-dimensional manifolds and also the Hamiltonian variant of [[Floer homology]] (and cohomology) for (finite dimensional) [[symplectic manifolds]]. Especially well studied is the case of the [[cotangent bundle]] of a differentiable manifold with its standard symplectic structure; this is sometimes called Floer--Oh homology. Floer homology has been partly motivated by Arnold's conjecture on periodic trajectories in [[classical mechanics]]. The symplectic variant of Floer cohomology is related to [[quantum cohomology]]. 
+There are some infinite-dimensional generalizations like Floer instanton homology for 3-dimensional manifolds and also the Hamiltonian variant of [[Floer homology]] (and cohomology) for (finite dimensional) [[symplectic manifolds]]. An especially well-studied case is that of the [[cotangent bundle]] of a differentiable manifold with its standard symplectic structure; this is sometimes called Floer--Oh homology. Floer homology has been partly motivated by Arnold's conjecture on periodic trajectories in [[classical mechanics]]. The symplectic variant of Floer cohomology is related to [[quantum cohomology]]. 
 
-Founders of Morse theory were [[Marston Morse]], [[Raoul Bott]] and [[Albert Schwarz]].
+The founders of Morse theory were [[Marston Morse]], [[Raoul Bott]] and [[Albert Schwarz]].
 
 ## Definitions
 
@@ -23,11 +23,11 @@ On a smooth manifold $M$, a [[smooth map|smooth]] function $\varphi: M \to \math
 * the [[Hessian]] of $\varphi$ at these points is nondegenerate.
 
 The Morse functions on $M$ are dense in most reasonable topologies you could put on $C^{\infty}(M)$.
-A further condition which is useful in case $M$ is not compact is 
+A further condition which is useful, in case $M$ is not compact, is 
 
 * if the (closed!) preimage of $( -\infty , \lambda ] $ under $\varphi$ is compact for all $\lambda$, then $\varphi$ is said to be *coercive*, whether or not it is Morse.
 
-Together with a (smooth) Riemann structure $g =\langle \cdot,\bullet\rangle$, any real function $\varphi$ on $M$ defines a [[flow]] on $M$ by the equation
+Together with a (smooth) Riemann structure $g =\langle \cdot,\cdot\rangle$, any real function $\varphi$ on $M$ defines a [[flow]] on $M$ by the equation
 $$ - \langle \dot x, Y_x \rangle = Y_x \varphi = d\varphi(Y_x).$$
 The Morse functions are notable in that the flows they define have isolated fixed-points with trivially linearizable dynamics, and <nowiki>...[fixme: less vague?]...</nowiki> no other stable cyles.
 
@@ -35,7 +35,7 @@ When $\varphi$ is Morse and coercive, the unstable manifolds of the fixpoints ca
 
 ### Sketch of a trivial application
 
-Let $ X \to Y $ be a surjective submersion of compact smooth manifolds, and assume $Y$ is connected.  By suitable implicit function theorems, the preimage of any parametrized nonstationary curve $\gamma :(0,1)\to Y$ is a submanifold of $X$, and furthermore the parameter is a Morse function on this submanifold, having *no critical points*. (It is *not* coercive).  By a very little more analysis, the Morse gradient flow is therefore a smooth family of homotopy equivalences.  A trivial adjustment of the Riemann structure further allows that the Morse flow sends fibers to fibers diffeomorphically, so that in fact the fibers over neighboring points of $Y$ are diffeomorphic.  But since $Y$ is connected, this implies that *all* the fibers are diffeomorphic, so that $X\to Y$ is a smooth fiber bundle over $Y$.
+Let $ X \to Y $ be a surjective submersion of compact smooth manifolds, and assume $Y$ is connected.  By suitable implicit function theorems, the preimage of any parametrized non-stationary curve $\gamma :(0,1)\to Y$ is a submanifold of $X$, and furthermore the parameter is a Morse function on this submanifold, having *no critical points*. (It is *not* coercive).  By a little more analysis, the Morse gradient flow is therefore a smooth family of homotopy equivalences.  A trivial adjustment of the Riemann structure further allows that the Morse flow sends fibers to fibers diffeomorphically, so that in fact the fibers over neighboring points of $Y$ are diffeomorphic.  But since $Y$ is connected, this implies that *all* the fibers are diffeomorphic, so that $X\to Y$ is a smooth fiber bundle over $Y$.
 
 ### Slightly less-trivial example
 
@@ -56,7 +56,7 @@ The restriction to the [[unit sphere]] in $\mathbb{R}^{n+1}$ of a generic quadra
 
 * [[Marco Gualtieri]], _[Course page](http://www.math.toronto.edu/mgualt/Morse%20Theory/Morse_2009.html)_, lecture notes and links.
 
-* [[Martin Guest]], [Morse theory in the 1990s](http://arxiv.org/abs/math/0104155).
+* [[Martin A. Guest|Martin Guest]], Morse theory in the 1990s, [arXiv:math/0104155](http://arxiv.org/abs/math/0104155).
 
 * [[Loring Tu]], _Morse theory_ [node](http://www.math.harvard.edu/history/bott/bottbio/node9.html) on online bio of R. Bott
 
@@ -68,11 +68,13 @@ The restriction to the [[unit sphere]] in $\mathbb{R}^{n+1}$ of a generic quadra
 Press, 1965.
 * Matthias Schwarz, _Morse homology_, Progress in Mathematics __111__, 1993 
 
-There is also a variant due Barannikov, and in more abstract form Viterbo:
+There is also a variant due to Barannikov, and in a more abstract form due to Viterbo:
 
 * S. Barannikov, _The framed Morse complex and its invariants_, Advances in Soviet Math. 21 (1994), 93-115.
 
-* Fran&#231;ois Laudenbach, _On an article by S. A. Barannikov_, [arxiv/1509.03490](http://arxiv.org/abs/1509.03490) 
+* Fran&#231;ois Laudenbach, _On an article by S. A. Barannikov_, [arxiv/1509.03490](http://arxiv.org/abs/1509.03490)
+
+* Dorian Le Peutrec, Francis Nier, Claude Viterbo, [_Precise Arrhenius Law for p-forms: The Witten Laplacian and Morse–Barannikov Complex_](https://link.springer.com/article/10.1007/s00023-012-0193-9), Annales Henri Poincar&#233; 14 (2013), 567–610.
 
 ### Relation to supersymmetric quantum mechanics
 
