@@ -302,7 +302,20 @@ A [[point-set topology|point-set argument]] for [[topological spaces]]/[[topolog
 ### In homotopy type theory
   {#InHomotopyTypeTheory}
 
-(...)
+Recall that in [[homotopy type theory]], we represent an $\infty$-group $G$ by its classying type, a pointed connected type $B G$. An $\infty$-action of $G$ on an object $a$ of type $A$ is given by a homomorphism $G \to Aut_A(a)$, represented by a pointed map $B G \to_* (A,a)$. (Since $B G$ is connected, it doesn't matter whether we restrict the codomain to the [[connected component]] of $A$ at $a$.)
+We thus see that the type of all actions of $G$ on objects of $A$ is the function type $B G \to A$. In particular, the type of $U$-small $G$-types, where $U$ is a universe, is $B G \to U$.
+
+By adjointness, the homotopy orbit type of a $G$-type $X : B G \to U$ is given by the $\Sigma$-type, $X \sslash G := \sum_{t : B G} X(t)$. (The homotopy fixed points are given by the $\Pi$-type.)
+
+The adjoint action of $G$ on itself is given by the map $G^{ad} : B G \to U$, $t \mapsto (t =_{B G} t)$.
+
+Putting this together, we get that the homotopy orbits of the adjoint action are
+\[
+  G^{ad} \sslash G = \sum_{t:B G}(t =_{B G} t) = (S^1 \to B G),
+\]
+where in the last step we used the universal property of the homotopical circle, $S^1$, defined as a [higher inductive type] with a point constructor $base : S^1$ and a path constructor $loop : base =_{S^1} base$.
+
+The function type $S^1 \to B G$ is the representation of the free loop type of $B G$, $\mathcal{L}(B G)$, completing the argument.
 
 ## Examples
 
