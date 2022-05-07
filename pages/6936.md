@@ -299,6 +299,8 @@ See ([Lumsdaine-Shulman17](#LumsdaineShulman17)).
 
 * **higher inductive type**, [[initial algebra of a presentable ∞-monad]]
 
+* [[quotient inductive type]]
+
 
 ## References
 
