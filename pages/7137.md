@@ -36,7 +36,7 @@ See also
 
 For 
 
-* [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_, ([pdf](http://www.math.uni-bonn.de/people/scholze/Geometrization.pdf))
+* [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([pdf](http://www.math.uni-bonn.de/people/scholze/Geometrization.pdf))
 
 
 [[!redirects local Langlands conjectures]]
