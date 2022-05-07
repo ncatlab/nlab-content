@@ -4,11 +4,14 @@
 
 The following lists basic references on *[[homotopy theory]]*, *[[algebraic topology]]* and some *[[(infinity,1)-category theory|$(\infty,1)$-category theory]]* and *[[homotopy type theory]]*, but see these entries for more pointers.
 
+Historical article at the origin of all these subjects:
+
+* [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123 (1895) ([gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
 
 ### Topological homotopy theory
 
-Textbook accounts of [[homotopy theory]] of [[topological spaces]]:
+Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[point-set topology]]"):
 
 * {#Hilton53} [[Peter J. Hilton]], *An introduction to homotopy theory*, Cambridge University Press 1953 ([doi:10.1017/CBO9780511666278](https://doi.org/10.1017/CBO9780511666278))
 
