@@ -85,7 +85,7 @@ But since in all cases the weak equivalences are the same (where they apply, for
 By Lurie's result these are in each case in turn equivalent to the [[homotopy category of an (infinity,1)-category|homotopy category of]] the [[(∞,1)-topos]] of [[∞-stacks]]. So in particular they serve as a home for general [[cohomology]].
 
 
-Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[∞-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold?Kan correspondence]] as a simplicial sheaf.
+Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[∞-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold–Kan correspondence]] as a simplicial sheaf.
 
 
 ## The different model structures and their interrelation 
@@ -1342,7 +1342,7 @@ The projective model structure is discussed in
 
 See also
 
-* Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, November 2001 , pp. 283--301(19) ([journal](http://www.ingentaconnect.com/content/klu/kthe/2001/00000024/00000003/00384649?crawler=true))
+* Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, (2001), 283–301, [doi](http://dx.doi.org/10.1023/a:1013302313123).
 
 A brief review in the context of [[nonabelian Hodge theory]] is in section 4 of
 
