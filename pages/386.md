@@ -30,9 +30,11 @@ $$
   \,.
 $$
 
-Equivalently this is the full sub-[[2-poset]] of [[Pos]] whose [[objects]] are finite [[total order|totally ordered sets]], or finite ordinals, and whose [[morphisms]] are order-preserving functions between them.
+Equivalently, this is the category whose [[objects]] are finite [[total order|totally ordered sets]], or finite ordinals, and whose [[morphisms]] are order-preserving functions between them. 
 
 =--
+
+\begin{rmk} As a consequence of the equivalent description, $\Delta_a$ can be viewed as a full sub-[[2-poset]] of [[Pos]]. \end{rmk}
 
 +-- {: .num_defn }
 ###### Definition
