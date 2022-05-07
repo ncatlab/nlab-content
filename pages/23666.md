@@ -22,8 +22,7 @@ Often, the values of $E_{\mathbf{n}}(-)$ are closely spaced as $\mathbf{n}$ vari
 The band geometry around the electron [[chemical potential]] of a material controls its electrical conductivity:
 
 <center>
-<img src="https://nlab.preschema.com/nlab/files/ElectronicBandStructure-20220504.png" 
-width="500">
+<img src="https://ncatlab.org/nlab/files/ElectronicBandStructure-20220504.png" width="500">
 (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22]])
 </center>
 
@@ -36,7 +35,7 @@ width="500">
 
 
 <center>
-<img src="https://nlab.preschema.com/nlab/files/SemiMetalBandStructure-20220405.jpg" width="400">
+<img src="https://ncatlab.org/nlab/files/SemiMetalBandStructure-20220405.jpg" width="400">
 (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22]])
 </center>
 
@@ -66,3 +65,9 @@ See also:
 The electronic band structure of [[graphene]] was predicted in
 
 * [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 ([doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622))
+
+[[!redirects electronic band structures]]
+
+[[!redirects electronic energy band]]
+[[!redirects electronic energy bands]]
+
