@@ -57,7 +57,7 @@ As before, let $C$ be a category and $X,Y\in C$.
 
 Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).  Some coexponential objects occur naturally in algebraic categories (such as [[rings]] or [[frames]]) whose opposites are viewed as categories of spaces (such as [[schemes]] or [[locales]]).  Cf. also [[cocartesian closed category]].
 
-When $C$ is not cartesian but merely monoidal, then the analogous notion is that of a [[residual|left/right residual]].
+{#WhenCIsNotCartesian} When $C$ is not cartesian but merely monoidal, then the analogous notion is that of a [[internal hom|left/right internal hom]].
 
 ## Properties
 
