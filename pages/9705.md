@@ -27,8 +27,12 @@ Gromov introduced many techniques of proving the h-principle including the metho
 
 ## References
 
-* [[eom]]: [H-principle](http://www.encyclopediaofmath.org/index.php/H-principle), [convex integration](http://www.encyclopediaofmath.org/index.php/Convex_integration); wikipedia: [homotopy principle](https://en.wikipedia.org/wiki/Homotopy_principle)
+* [[eom]]: [H-principle](http://www.encyclopediaofmath.org/index.php/H-principle), [convex integration](http://www.encyclopediaofmath.org/index.php/Convex_integration); 
+
+Wikipedia: [homotopy principle](https://en.wikipedia.org/wiki/Homotopy_principle)
+
 * MathOverflow: [h-principle-and-pdes](http://mathoverflow.net/questions/88513/h-principle-and-pdes)
+
 * [[Mikhail Gromov]], _Partial differential relations_, Ergebn. Math. Grenzgeb. (3), 9, Springer (1986)
 * M. Gromov, _A topological technique for the construction of solutions of differential equations and inequalities_, Proc. Int. Congress Math. Nice 1970, vol. 2, 221-225, [djvu w OCR](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.djvu), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.pdf)
 * M. Gromov, Papers on h-principle: geometric methods for solving partial differential equations/inequalities and the homotopy structure in the spaces of their solutions, [list](http://www.ihes.fr/~gromov/topics/topic2.html) (with some links)
