@@ -29,7 +29,7 @@ $$
   (Epi(\mathbf{H}), Mono(\mathbf{H})) \subset Mor(\mathbf{H}) \times Mor(\mathbf{H})
 $$
 
-whose left class consists of the [[n-connected object in an (∞,1)-topos|(-1)-connected]] morphisms , the [[effective epimorphism in an (∞,1)-category|(∞,1)-effective epimorphisms]], while the right class consists of the [[n-truncated object in an (∞,1)-category|(-1)-truncated morphisms]] morphisms, hence the [[monomorphism in an (∞,1)-category|(∞,1)-monomorphisms]].
+whose left class consists of the [[n-connected object in an (∞,1)-topos|(-1)-connected]] morphisms, the [[effective epimorphism in an (∞,1)-category|(∞,1)-effective epimorphisms]], while the right class consists of the [[n-truncated object in an (∞,1)-category|(-1)-truncated morphisms]] morphisms, hence the [[monomorphism in an (∞,1)-category|(∞,1)-monomorphisms]].
 
 So given a morphism $f : X \to Y$ in $\mathbf{H}$ with epi-mono factorization
 
