@@ -20,9 +20,37 @@
 * table of contents
 {:toc}
 
-## Definition
+## Definitions
 
 A __left associative [[quasigroup]]__ is a [[semigroup]] $(G, \cdot)$ equipped with a __left division__ $(-)\backslash(-):G \times G \to G$  such that $x \cdot (x \backslash y) = y$ and $x \backslash (x \cdot y) = y$. A __right associative [[quasigroup]]__ is a [[semigroup]] $(G, (-)\cdot(-):G \times G \to G)$ equipped with a __right division__ $(-)/(-):G \times G \to G$ such that $(x / y) \cdot y = x$ and $(x \cdot y) / y = x$. A __two-sided associative [[quasigroup]]__ or just an __associative quasigroup__ is a semigroup that is both a left associative quasigroup and a right associative quasigroup. 
+
+In every associative quasigroup $G$, $a/a = b\backslash b$ for every $a$ and $b$ in $G$. This is because for every $a$ and $b$ in $G$, $b \cdot a = b \cdot (a/a) \cdot a = b \cdot (b\backslash b) \cdot a$. Left dividing both sides by $b$ and right dividing both sides by $a$ results in $a/a = b\backslash b$. This means in particular that $a/a = a\backslash a$, which means that every associative quasigroup is a [[possibly empty loop]]. Thus, an associative quasigroup is a associative possibly empty loop, or a possibly empty group. In particular, there is an additional definition of an associative quasigroup in terms of the left and right divisions alone, without any semigroup operation at all: 
+
+A __left associative quasigroup__ is a [[set]] $G$ with a binary operation $(-)\backslash(-):G \times G \to G$ (a [[magma]]) such that:
+
+  * For all $a$ and $b$ in $G$, $a\backslash a=b\backslash b$
+  * For all $a$ in $G$, $(a\backslash (a\backslash a))\backslash (a\backslash a)=a$
+  * For all $a$, $b$, and $c$ in $G$, $(a\backslash b)\backslash c= b\backslash ((a\backslash (a\backslash a))\backslash c)$. 
+
+For any element $a$ in $G$, the element $a\backslash a$ is called a __right identity element__, and the element $a\backslash (a\backslash a)$ is called the __right inverse element__ of $a$. For all elements $a$ and $b$ in $G$, __left multiplication__ of $a$ and $b$ is defined as $(a\backslash (a\backslash a))\backslash b$. 
+
+A __right associative quasigroup__ is a [[set]] $G$ with a binary operation $(-)/(-):G \times G \to G$ such that:
+
+  * For all $a$ and $b$ in $G$, $a/a=b/b$
+  * For all $a$ in $G$, $(a/a)/((a/a)/a)=a$
+  * for all $a$, $b$, and $c$ in $G$, $a/(b/c)=(a/((c/c)/c)/b$
+
+For any element $a$ in a $G$, the element $a/a$ is called a __left identity element__, and the element $(a/a)/a$ is called the __left inverse element__ of $a$. For all elements $a$ and $b$, __right multiplication__ of $a$ and $b$ is defined as $a/((b/b)/b)$. 
+
+An __associative quasigroup__ is a possibly empty left and right group as defined above such that the following are true:
+
+* left and right identity elements are equal (i.e. $a/a = a \backslash a$) for all $a$ in $G$
+
+* left and right inverse elements are equal (i.e. $(a/a)/a = a\backslash (a\backslash a)$) for all $a$ in $G$
+
+* left and right multiplications are equal (i.e. $a/((b/b)/b) = (a\backslash (a\backslash a))\backslash b$) for all $a$ and $b$ in $G$. 
+
+This definition [first appeared on the heap article](https://ncatlab.org/nlab/revision/diff/heap/13) and is due to [[Toby Bartels]].
 
 ## Pseudo-torsors
 
