@@ -95,7 +95,7 @@ into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]].
 
 =--
 
-This global notion of Kan simplicial spaces is considered for instance in ([BrownSzczarba](#BrownSzczarba)) and ([May](#May)).
+This global notion of Kan simplicial spaces is considered for instance in ([Brown & Szczarba 1989](#BrownSzczarba89)) and ([May](#May)).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -113,7 +113,7 @@ Let $G$ be a simplicial topological group. Then
 +-- {: .proof}
 ###### Proof
 
-The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), the second is noted in ([Roberts & Stevenson 2012](#RobertsStevenson12)), the third as ([BrownSzczarba, lemma 6.7](#BrownSzczarba)).
+The first statement appears as ([Brown & Szczarba 1989, theorem 3.8](#BrownSzczarba89)), the second is noted in ([Roberts & Stevenson 2012](#RobertsStevenson12)), the third as ([Brown & Szczarba 1989, lemma 6.7](#BrownSzczarba89)).
 
 =--
 
@@ -142,16 +142,12 @@ If $G$ is a [[well-pointed simplicial topological group]] (Def. \ref{WellPointed
 
 ## References
 
-Basics theory of simplicial topological groups is in
+Basic discussion of simplicial topological groups:
 
-* E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
-type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
-{#BrownSzczarba}
+* {#BrownSzczarba89} [[Edgar H. Brown]], [[R. H. Szczarba]], *Continuous cohomology and real homotopy type* , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([doi:10.1090/S0002-9947-1989-0929667-6](https://doi.org/10.1090/S0002-9947-1989-0929667-6),  [pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 
-and
+* {#May} [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 
-* [[Peter May]], _Geometry of iterated loop spaces_ , SLNM 271, Springer-Verlag, 1972 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
-{#May}
 
 Discussion of their [[geometric realization of simplicial topological spaces|geometric realization]] and [[principal infinity-bundles|principal $\infty$-bundles]]:
 
