@@ -113,7 +113,7 @@ $$
 
 This main result is corollary 7.6.13 of [Cisinski 20](#Cisinski20). Model categories are (∞,1)-categories with weak equivalences and fibrations as defined in [Cisinski Def. 7.4.12](#Cisinski20).
 
-We spell out a proof for the special case that $\mathcal{C}$ carries the [[extra structure]] of a [[simplicial model category]]:
+We spell out a proof for the special case that $\mathcal{C}$ carries the [[extra structure]] of a [[simplicial model category]] (this proof was written [in 2011](https://ncatlab.org/nlab/revision/model+structure+on+an+over+category/7) when no comparable statement seemed to be available in the literature):
 
 +-- {: .num_prop #PresentationOfSliceInfinityCat}
 ###### Proposition
@@ -271,7 +271,7 @@ Quillen's criterion for Quillen equivalences now yields the statements about equ
 
 * {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([pdf](http://www-math.mit.edu/~psh/undercat.pdf), [arXiv:1507.01624](https://arxiv.org/abs/1507.01624))
 
-* {#Cisinski20} [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+* {#Cisinski20} [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_, 2020 ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
 [[!redirects model structure on an overcategory]]
 [[!redirects model structure on an under category]]
