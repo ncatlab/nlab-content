@@ -1,4 +1,12 @@
 
+\begin{tikzcd}
+  X
+  \ar[d, "{\sim}"{xshift=-6pt, yshift=-2pt, sloped}]
+  \\
+  Y
+\end{tikzcd}
+
+
 $$
 \{
 \boxed{
