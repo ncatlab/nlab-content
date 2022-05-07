@@ -246,6 +246,7 @@ An alternative derivation of this statement, using the formula for [[Cayley grap
 
 
 ### Projectors
+ {#Projectors}
 
 [Murphy 81, p. 291 (5 of 11)](#Murphy81)
 
