@@ -23,11 +23,11 @@
 
 ## Idea
 
-Similar to how an [[inequality space]] has an [[apartness relation]] whose negation implies equality, a stable setoid ought to have a [[equivalence relation]] (i.e. setoid) whose double negation implies equality. 
+Similar to how an [[inequality space]] has an [[apartness relation]] whose [[negation]] implies [[equality]], a *stable setoid* ought to have a [[equivalence relation]] (i.e. setoid) whose [[double negation]] [[implication|implies]] equality. 
 
 ## Definition 
 
-In type theory, a [[setoid]] $(T, \equiv)$ is **stable** if for all $a:T$ and $b:T$, $p(a, b):\neg\neg(a \equiv b) \to (a = b)$. 
+In [[type theory]], a [[setoid]] $(T, \equiv)$ is **stable** if for all $a:T$ and $b:T$, $p(a, b):\neg\neg(a \equiv b) \to (a = b)$. 
 
 ## Properties 
 
