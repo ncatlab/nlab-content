@@ -290,7 +290,47 @@ A **cellular map** between CW-complexes $X$ and $Y$ is a [[continuous function]]
 
 ## Properties
 
-### Closure properties
+
+
+### Topological properties
+ {#TopologicalProperties}
+
+
+\begin{prop}\label{CWComplexesAreLocallyContractible}
+Every  CW-complex is a [[locally contractible topological space]].
+\end{prop}
+(e.g. [Hatcher 2002, prop. A.4](#Hatcher02)). 
+
+\begin{prop}
+**([[CW-complexes are paracompact Hausdorff spaces]])**
+\linebreak
+Every CW-complex is a 
+
+1. a [[normal topological space]], in particular a [[Hausdorff space]],
+
+1. a [[paracompact topological space]].
+
+\end{prop}
+
+\begin{prop}\label{CWComplexIsCompactlyGenerated}
+Every CW-complex is a [[compactly generated topological space]].
+\end{prop}
+
+\begin{proof}
+Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed. 
+
+For the converse direction, since [[a CW-complex is a Hausdorff space]] and since [[compact subspaces of Hausdorff spaces are closed]], the intersection of a closed subset with a compact subset is closed.
+\end{proof}
+
+In fact:
+
+\begin{prop}
+  Every CW-complex is a [[Delta-generated topological space]].
+\end{prop}
+See there, [this Prop.](Delta-generated+topological+space#CWComplexesAreDTopologicalSpaces)
+
+
+### Products of CW-complexes
 
 If $A \hookrightarrow X$ is an inclusion of CW-complexes, then the quotient $X/A$ is naturally itself a CW-complex, such that the quotient map $X \to X/A$ is cellular.
 
@@ -320,49 +360,7 @@ and so then the [[product topological space]] $X \times Y$ itself has CW-complex
 
 (e.g. [Hatcher 2002, theorem A.6](#Hatcher02))
 
-### Local contractibility
- {#LocalContractibility}
 
-
-+-- {: .num_prop #CWComplexesAreLocallyContractible}
-###### Proposition
-
-A CW-complex is a [[locally contractible topological space]].
-
-=--
-
-For instance ([Hatcher 2002, prop. A.4](#Hatcher02)). 
-
-### Compactness properties
-
-+-- {: .num_prop }
-###### Proposition
-**([[CW-complexes are paracompact Hausdorff spaces]])**
-
-Every CW-complex is a 
-
-1. a [[normal topological space]], in particular a [[Hausdorff space]],
-
-1. a [[paracompact topological space]].
-
-=--
-
-
-+-- {: .num_prop #CWComplexIsCompactlyGenerated}
-###### Proposition
-
-Every CW-complex is a [[compactly generated topological space]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed. 
-
-For the converse direction, since [[a CW-complex is a Hausdorff space]] and since [[compact subspaces of Hausdorff spaces are closed]], the intersection of a closed subset with a compact subset is closed.
-
-=--
 
 
 ### Up to homotopy equivalence 
