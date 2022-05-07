@@ -136,7 +136,7 @@ By [[duality between algebra and geometry]], we may think of the [[opposite cate
 So the [[initial object]] $\mathbb{Z}$ in [[CRing]] becomes the [[terminal object]] [[Spec(Z)]] in $CRing^{op}$, and so for every $R$ there is a unique morphism
 
 $$
-  Spec(R) \longrightarrow Spec(Z)
+  Spec(R) \longrightarrow Spec(\mathbb{Z})
 $$
 
 in $CRing^{op}$, exhibiting every affine [[arithmetic scheme]] $Spec(R)$ as equipped with a map to the base scheme [[Spec(Z)]].
