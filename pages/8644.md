@@ -115,6 +115,12 @@ For more see at _[Yang-Mills instanton -- SU(2)-instantons from the correct math
 
 (See also the general references at _[[instanton]]_.)
 
+Textbook account:
+
+
+* [[Robert E. Marshak]], Section 10.3 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
+
+
 Physics-style  surveys include the introductory lecture notes
 
 * [[Marcos Marino]], _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
@@ -217,7 +223,7 @@ Relation to the [[scanning map]] and [[configuration spaces of points]] in:
 
 The construction of [[Skyrmions]] from [[instantons]] is due to 
 
-* {#AtiyahManton89} [[Michael Atiyah]], N S Manton, _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+* {#AtiyahManton89} [[Michael Atiyah]], [[Nick S. Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
 The relation between [[skyrmions]], [[instantons]], [[calorons]], [[solitons]] and [[monopoles]] is usefully reviewed and further developed in 
 
