@@ -1,3 +1,8 @@
+Edwine Evariste Moise was a mathematician based at Michigan, Harvard, and CUNY.
+
+He got his Ph.D. degree in 1947 from UT Austin, advised by [[Robert Lee Moore]].
+
+His Ph.D. students include [[James R. Munrkes]].
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Edwin_E._Moise)
 
