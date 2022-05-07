@@ -54,6 +54,11 @@ On [[Kazama-Suzuki models]]:
 
 * [[Davide Gaiotto]], _Kazama-Suzuki models and BPS domain wall junctions in $N=1$ $SU(n)$ Super Yang-Mills_ ([arxiv:1306.5661](https://arxiv.org/abs/1306.5661))
 
+On [[extended TQFTs]] allegedly modelling [[topological phases of matter]] in [[solid state physics]]:
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Condensations in higher categories* ([arXiv:1905.09566](https://arxiv.org/abs/1905.09566))
+
+
 On the [[Witten index]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 * [[Davide Gaiotto]], Tadashi Okazaki, _Sphere correlation functions and Verma modules_ ([arXiv:1911.11126](https://arxiv.org/abs/1911.11126))
