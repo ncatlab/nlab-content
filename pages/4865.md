@@ -244,7 +244,7 @@ Much computational detail is displayed in
 
 In terms of [[pure spinors]]:
 
-* Max Guillen, _Pure spinors and $D=11$ supergravity_ ([arXiv:2006.06014](https://arxiv.org/abs/2006.06014))
+* [[Max Guillen]], _Pure spinors and $D=11$ supergravity_ ([arXiv:2006.06014](https://arxiv.org/abs/2006.06014))
 
 
 ### Classical solutions and BPS states
