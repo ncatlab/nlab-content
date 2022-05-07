@@ -245,6 +245,7 @@ See also
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
+
 ### Classification by rational maps
 
 On the classification of monopoles by [[rational maps]], namely [[holomorphic maps]] between [[Riemann spheres]]:
@@ -263,9 +264,16 @@ On the classification of monopoles by [[rational maps]], namely [[holomorphic ma
 
 * {#GibbonsManton86} [[Gary Gibbons]], [[Nicholas Manton]], _Classical and Quantum Dynamics of BPS Monopoles_, Nucl. Phys. B274 (1986) 183-224 ([spire:18322](http://inspirehep.net/record/18322), <a href="https://doi.org/10.1016/0550-3213(86)90624-3">doi:10.1016/0550-3213(86)90624-3</a>)
 
+* Jacques Hurtubise, *The classification of monopoles for the classical groups*, Commun.Math. Phys. 120, 613–641 (1989) ([doi:10.1007/BF01260389](https://doi.org/10.1007/BF01260389))
+
+* [[Michael Murray]], *Stratifying monopoles and rational maps*, Commun. Math. Phys. 125, 661–674 (1989) ([doi:10.1007/BF01228347](https://doi.org/10.1007/BF01228347))
+ 
+ 
+
 
 * S. Jarvis, *A rational map of Euclidean monopoles via radial scattering*, J. Reine angew. Math. **524** (2000) 17-41([doi:10.1515/crll.2000.055](https://doi.org/10.1515/crll.2000.055))
- 
+
+* Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles and Harmonic Maps*, J. Math. Phys. 40:5440-5455 (1999) ([arXiv:hep-th/9903183](https://arxiv.org/abs/hep-th/9903183))
 
 
 * Theodora Ioannidou, [[Paul Sutcliffe]], *Monopoles from Rational Maps*, Phys. Lett. B457 (1999) 133-138 ([arXiv:hep-th/9905066](https://arxiv.org/abs/hep-th/9905066))
