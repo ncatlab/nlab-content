@@ -23,7 +23,7 @@
 
 ## Idea
 
-The notion of _Weil algebra_ is ordinarily defined for a [[Lie algebra]] $\mathfrak{g}$. It may be understood as the [[Chevalley-Eilenberg algebra]] of the tangent [[Lie 2-algebra]] $T \mathfrak{g}$ or $inn(\mathfrak{g})$ of $\mathfrak{g}$, generalizing the notion of [[tangent Lie algebroid]] $T X$ from a 0-[[truncated]] Lie algebroid $X$ (a [[smooth manifold]]) to the one-obeject [[Lie algebroid]] $\mathfrak{g}$.
+The notion of _Weil algebra_ is ordinarily defined for a [[Lie algebra]] $\mathfrak{g}$. It may be understood as the [[Chevalley-Eilenberg algebra]] of the tangent [[Lie 2-algebra]] $T \mathfrak{g}$ or $inn(\mathfrak{g})$ of $\mathfrak{g}$, generalizing the notion of [[tangent Lie algebroid]] $T X$ from a 0-[[truncated]] Lie algebroid $X$ (a [[smooth manifold]]) to the one-object [[Lie algebroid]] $\mathfrak{g}$.
 
 Generally, for every [[Lie-∞-algebroid]] $\mathfrak{a}$ one may define the corresponding tangent Lie-$\infty$-algebroid $T \mathfrak{a}$, whose Chevalley-Eilenberg algebra may be called the Weil algebra of $\mathfrak{a}$:
 
