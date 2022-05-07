@@ -25,7 +25,7 @@ This largely explains their relevance in all contexts of $G$-[[equivariant algeb
 
 In particular (Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} below, which is not made explicit in traditional literature):
 
-* the [[local coefficient bundle]] for [[non-abelian cohomology|non-abelian]] [[group cohomology]] in degree-1 is the image of the projection out of the semidirect product group under forming [[delooping groupoids]],
+* the [[local coefficient bundle]] for [[non-abelian cohomology|non-abelian]] [[group cohomology]] in degree-1 is the image of the projection gout of the semidirect product group under forming [[delooping groupoids]],
 
 * the [[strict (2,1)-category]]-theoretic [[sections]] of this bundle form precisely the [[groupoids]] of crossed homomorphisms with "crossed conjugations" (Def. \ref{AdjointActionOnCrossedHomomorphisms} below) between them;
 
@@ -309,13 +309,22 @@ All the formulas [above](#ComponentDefinition) may conceptually be understood as
 **([[groupoid]] of [[crossed homomorphisms]] is [[slice category|sliced]] [[functor groupoid]] of [[delooping groupoids]])**
 \linebreak
   The [[groupoid]] 
-  $$
+  \[
+    \label{ConjugationGroupoidOfCrossedHomomorphismsInPropRelatingToSlicedFunctor}
      CrsHom(G,\Gamma) \sslash_{\!\! ad} \Gamma  
+     \;\;
+       \coloneqq
+     \big(
+       CrsHom(G,\Gamma) \times \Gamma
+       \rightrightarrows
+       \Gamma
+     \big)
+     \;\;
      \;\;\;
      \in
      \;
      Grpd
-  $$
+  \]
   of crossed homomorphisms (Def. \ref{CrossedHomomorphism}) with conjugations between them (Def. \ref{AdjointActionOnCrossedHomomorphisms}) is [[isomorphism|isomorphic]] to the [[slice category|sliced]] [[functor groupoid]] of [[sections]] of the [[delooping groupoid]] $\mathbf{B}(\Gamma \rtimes G)$ of the [[semidirect product group]]:
 
 \[
@@ -478,35 +487,9 @@ $$
 
 ## Examples
 
-Let $G \,\in\, Grp(Top)$ and $\Gamma \,\in\, Grp\big( G Act(Top) \big)$ be [[topological groups]] which are [[compact Lie groups]] (to be on the safe side). Then:
 
-\begin{proposition}
-\label{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces}
-**(equivariant connected components of equivariant classifying spaces)**
-\linebreak
-A [[topological G-space|G-equivariant]] [[classifying space]] $B_G \Gamma$ for $G$-[[equivariant bundle|equivariant]] $\Gamma$-[[principal bundles]] exists, and the [[connected components]] of its $H$-[[fixed loci]], for [[compact subgroups]] $H \subset G$, are in [[bijection]] to the [[conjugacy classes]] (Def. \ref{AdjointActionOnCrossedHomomorphisms}) of crossed homomorphisms (Def. \ref{CrossedHomomorphism}) from $H$ to $\Gamma$ (with respect to the [[restricted action]] of $H$ on $\Gamma$):
+### In relation to crossed modules
 
-\[
-  \label{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces}
-  \pi_0
-  \left(
-    \left(
-      B_G \Gamma
-    \right)^{H}
-  \right)
-  \;\;
-  \simeq
-  \;\;
-  CrsHom(H,\Gamma)_{/\sim}
-  \,.
-\]
-\end{proposition}
-\begin{proof}
-After a little reformulation via
-Prop. \ref{GraphOfACrossedHomomorphism}
-and
-Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}, this is the statement of [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](#May90). 
-\end{proof}
 
 \begin{example}\label{ARelationToCrossedModules}
 **(a relation to [[crossed modules]])**
@@ -575,6 +558,260 @@ Therefore the statement (eq:CrossedHomomorphismsBijectiveTo2Group2MorphismsOutOf
 
 The analogous statement for general 2-morphisms is indicated in [Noohi 07, p. 12](#Noohi07).
 \end{example}
+
+
+
+### In relation to equivariant bundles
+
+Let $G \,\in\, Grp(Top)$ and $\Gamma \,\in\, Grp\big( G Act(Top) \big)$ be [[topological groups]] which are [[compact Lie groups]] (to be on the safe side). Then:
+
+\begin{proposition}
+\label{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces}
+**(equivariant connected components of equivariant classifying spaces)**
+\linebreak
+A [[topological G-space|G-equivariant]] [[classifying space]] $B_G \Gamma$ for $G$-[[equivariant bundle|equivariant]] $\Gamma$-[[principal bundles]] exists, and the [[connected components]] of its $H$-[[fixed loci]], for [[compact subgroups]] $H \subset G$, are in [[bijection]] to the [[conjugacy classes]] (Def. \ref{AdjointActionOnCrossedHomomorphisms}) of crossed homomorphisms (Def. \ref{CrossedHomomorphism}) from $H$ to $\Gamma$ (with respect to the [[restricted action]] of $H$ on $\Gamma$):
+
+\[
+  \label{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces}
+  \pi_0
+  \left(
+    \left(
+      B_G \Gamma
+    \right)^{H}
+  \right)
+  \;\;
+  \simeq
+  \;\;
+  CrsHom(H,\Gamma)_{/\sim}
+  \,.
+\]
+\end{proposition}
+\begin{proof}
+After a little reformulation via
+Prop. \ref{GraphOfACrossedHomomorphism}
+and
+Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}, this is the statement of [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](#May90). 
+\end{proof}
+
+In view of the explicit construction of universal equivariant principal bundles in [Murayama & Shimakawa 1995](#MurayamaShimakawa95), one may understand the statement of Prop. \ref{EquivariantConnectedComponentsOfEquivariantClassifyingSpaces} on elementary grounds, as follows:
+
+Consider the following $G$-[[action objects]] [[internalization|internal]] to [[Groupoids]]:
+
+* the [[delooping groupoid]] 
+
+  $$
+    \mathbf{B}\Gamma 
+      \,\coloneqq\, 
+    \big( \Gamma \rightrightarrows \ast\big)
+    \;\;\;
+    \in
+    \;
+    G Act\big( Groupids \big)
+  $$ 
+
+  via the $G$-action on $\Gamma$ by [[group homomorphism|group]] [[automorphisms]];
+
+* the [[pair groupoid]] 
+
+  $$
+    \mathbf{E}G 
+      \,\coloneqq\, 
+    \big( G \times G \rightrightarrows G\big)
+  $$ 
+
+  via the left multiplication action of $G$ on all three copies of $G$;
+
+* the [[functor groupoid]]
+
+  \[
+    \label{EquivariantFunctorGroupoidFromEGToBGamma}
+    Fnctr
+    \big(
+      \mathbf{E}G
+      ,\,
+      \mathbf{B}\Gamma
+    \big)
+    \;\;\;
+    \in
+    \;
+    G Act\big( Groupids \big)
+  \]
+
+  with the induced [[conjugation action]] on component functions of  [[functors]] and [[natural transformations]]:
+
+  $$
+    g \,\colon\, F(-) \,\mapsto\,  g \cdot F\big( g^{-1}\cdot (-) \big)
+    \,,
+  $$
+
+\begin{proposition}
+\label{HFixedLociOFMappingGroupoidFromEGToBGamma}
+**(crossed homomorphisms are [[fixed loci]] in [[functor groupoid]] from [[pair groupoid|$\mathbf{E}G$]] to [[delooping groupoid|$\mathbf{B}\Gamma$]])**
+\linebreak
+  If $G$ a [[discrete group]], then for each [[subgroup]] $H \subset G$, there is an [[equivalence of groupoids]] (in fact of [[topological groupoids]])
+
+$$
+  Fnctr
+  \big(
+    \mathbf{E}G
+    ,\,
+    \mathbf{B}G
+  \big)^H
+  \;\simeq\;
+  CrsHom(H,\Gamma) 
+    \sslash_{\!\!ad}
+  \Gamma
+$$
+
+between 
+
+* the $H$-[[fixed locus|fixed]] sub-groupoid of the functor groupoid (eq:EquivariantFunctorGroupoidFromEGToBGamma) and
+
+* the conjugation groupoid (eq:ConjugationGroupoidOfCrossedHomomorphismsInPropRelatingToSlicedFunctor) of crossed homomorphisms $H \to \Gamma$.
+
+\end{proposition}
+We take this statement and the following proof from [SS21](https://ncatlab.org/schreiber/show/TED+cohomology).
+\begin{proof}
+  By Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} the statement is equivalently that
+$$
+  Fnctr
+  \big(
+    \mathbf{E}G
+    ,\,
+    \mathbf{B}G
+  \big)^H
+  \;\simeq\;
+  Fnctr_{{}_{/\mathbf{B}H}}
+  \big(
+    \mathbf{B}H
+    ,\,
+    \mathbf{B}(\Gamma \rtimes H)
+  \big)
+  \,.
+$$
+
+We claim that for $H = G$ this is in fact an [[isomorphism]], exhibited by the following functor:
+
+\begin{imagefromfile}
+    "file_name": "GFixedMappingGroupoidFromEGToBGamma210901.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+For general $H \subset G$, choose a section of the [[coset space]]-projection
+
+$$
+  \sigma \,\colon\, G/H \xrightarrow{\;} G
+  \,,
+  \;\;\;\;
+  \text{such that}
+  \sigma([\mathrm{e}]) \,=\, \mathrm{e}
+$$
+
+(which exists and is continuous by the assumption that $G$ is discrete).
+
+Observe that then $\mathbf{E}G$ is generated, under
+
+1. composition;
+
+1. taking inverses;
+
+1. acting with elements of $H$
+
+by the following two classes of morphisms:
+
+\[
+  \label{GeneratingMorphisms}
+  \big\{ (\mathrm{e} \to h) \,\vert\, h \in H \big\}
+  \,.
+  \;\;\;
+  \big\{
+    \mathrm{e} \to \sigma([g]) \,\vert\, [g] \in G/H 
+  \big\}
+  \;\;\;
+  \subset
+  \;
+  G \times G
+  \,.
+\]
+
+Using this, consider the following expression for a pair of comparison functors:
+
+\begin{imagefromfile}
+    "file_name": "HFixedMappingGroupoidFromEGToBGamma210901.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+Here 
+
+* $L$ is the restriction along $(H \times H \rightrightarrow H) \xhookrightarrow{\;} (G \times G \rightrightarrows G)$ of the previous isomorphism for $H = $G;
+
+* $R$ is given in terms of the above generating morphisms (eq:GeneratingMorphisms) as follows:
+
+\begin{imagefromfile}
+    "file_name": "CompHFixedMappingGroupoidFromEGToBGamma210901.jpg",
+    "width": 670,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+By construction we have $L \circ R \,=\, id$, so that it now suffices to give a [[natural transformation]] $id \xRightarrow{\eta} R \circ L$.
+
+This may be taken to be as follows, again stated in terms of the generating morphisms (eq:GeneratingMorphisms):
+
+
+\begin{imagefromfile}
+    "file_name": "Nat1HFixedMappingGroupoidFromEGToBGamma210901.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+It just remains to check that this is indeed natural in the functors $F$, which amounts, for each $H$-equivariant natural transformation $G \xRightarrow{\beta} F'$,
+to the [[commuting square|commutativity]] of the two types of squares shown on the right here:
+
+\begin{imagefromfile}
+    "file_name": "Nat2HFixedMappingGroupoidFromEGToBGamma210901.jpg",
+    "width": 630,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Indeed, the top square commutes by the $H$-equivariance of $\beta$, while the bottom square commutes by the naturality of $\beta$.
+\end{proof}
+
 
 ## Related concepts
 
