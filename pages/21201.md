@@ -118,6 +118,8 @@ With emphasis on [[Skyrmions]] involving [[vector mesons]]:
 
 * Yong-Liang Ma, Ghil-Seok Yang, Yongseok Oh, Masayasu Harada, _Skyrmions with vector mesons in the hidden local symmetry approach_, Phys. Rev. D87:034023, 2013 ([arXiv:1209.3554](https://arxiv.org/abs/1209.3554))
 
+* [[Mannque Rho]], *Skyrmions and Fractional Quantum Hall Droplets Unified by Hidden Symmetries in Dense Matter* ([arXiv:2109.10059](https://arxiv.org/abs/2109.10059))
+
 
 
 [[!include hadrons as KK-modes of 5d Yang-Mills theory -- references]]
