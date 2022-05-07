@@ -1,4 +1,66 @@
 
+\begin{tikzcd}
+    \mathrm{Ho}
+    \Big(
+      \big(
+        \mathrm{dgcAlg}^{\geq 0 }_{\color{blue}\mathbb{Q}}
+      \big)^{\mathrm{op}}_{\mathrm{proj}}
+    \Big)
+    \ar[
+      dd,
+      "{
+        \mathbb{R}
+        \big(
+          (-) \otimes_{\mathbb{Q}} \mathbb{R}
+        \big)
+      }"{right}
+    ]
+    &&
+    \;\;
+    \mathrm{Ho}
+    \big(
+      \mathrm{sSets}_{\mathrm{Qu}}
+    \big)^{\mathrm{fin}_{\mathbb{Q}}}
+    \ar[
+      ll,
+      "
+        \mathbb{L}
+        \Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{Q}}\mathrm{LdR}}
+      "{above}
+    ]
+    \ar[
+      dd,-,
+      shift right=1pt
+    ]
+    \ar[
+      dd,-,
+      shift left=1pt
+    ]
+    \\
+    \\
+    \mathrm{Ho}
+    \Big(
+    \big(   
+      \mathrm{dgcAlg}^{\geq 0}_{\color{blue}\mathbb{R}}
+    \big)^{\mathrm{op}}_{\mathrm{proj}}
+    \Big)
+    &&
+    \;\;
+    \mathrm{Ho}
+    \big(
+      \mathrm{sSets}_{\mathrm{Qu}}
+    \big)^{\mathrm{fin}_{\mathbb{Q}}}
+    \ar[
+      ll,
+      "
+        \mathbb{L}
+        \Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{R}}\mathrm{LdR}}
+      "{below}
+    ]
+\end{tikzcd}
+
+
+\linebreak
 
 For $\mathbf{H}$ an $\infty$-topos
 and $G \in Groups(\mathbf{H})$,
