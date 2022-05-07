@@ -84,16 +84,21 @@ Between Landweber exact spectra, every [[phantom map]] is already null-homotopic
 
 ## References
 
-For the special case of $E = $[[KU]] the statement is originally due to
+For the special case of $E = $[[KU]] the statement ([[Conner-Floyd isomorphism]]) is originally due to:
 
-* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 [pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf)
+* {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], Theorem 10.1 in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
-The general result for complex orientation originates in 
+
+The general result for [[complex oriented cohomology]] is due to:
 
 * {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610 ([jstor:2373808](https://www.jstor.org/stable/2373808))
 
+Textbook accounts:
 
-Lecture notes include
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Theorem 6.37 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
+
+Lecture notes:
 
 * {#LurieLecture15} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture15.pdf))
  
@@ -102,13 +107,11 @@ Lecture notes include
 
 * {#Lurie17} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
  
-
 See also
 
 * Wikipedia, _[Landweber exact functor theorem](http://en.wikipedia.org/wiki/Landweber_exact_functor_theorem)_
 
 For the even 2-periodic case:
-
 
 * {#LurieLect18} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 , Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
 
