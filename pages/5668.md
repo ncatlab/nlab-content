@@ -17,20 +17,20 @@
 ## Idea
 
 
-As described in Cartmell's [Generalised Algebraic Theories and
+As described in [[John Cartmell]]'s [Generalised Algebraic Theories and
 Contextual
-Categories](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9), a
+Categories](#Cartmell86), a
 generalized algebraic theory (GAT) consists of:
 
 1. An [algebraic theory](algebraic+theory) of sorts, which may itself
      be multi-sorted.
 
-2. A collection of operations, each having zero or more arguments and one
+1. A collection of operations, each having zero or more arguments and one
      result.  Each $n$-ary operation is also given with $(n+1)$-many [derived
      operations](http://en.wikipedia.org/w/index.php?title=Universal_algebra&oldid=413212476#Derived_Operations)
      of the algebraic theory of sorts, all of the same arity, specifying the sort of each argument and the sort of the result.
 
-3. Equations between pairs of derived operations[^derived] with the same arity and whose result sorts are provably equal in the algebraic theory of sorts (see example below).
+1. Equations between pairs of derived operations[^derived] with the same arity and whose result sorts are provably equal in the algebraic theory of sorts (see example below).
 
 To avoid confusion, this article will refer to the sorts of the algebraic theory of sorts as "supersorts" (this convention is not used in Cartmell's paper).
 
@@ -44,7 +44,7 @@ The theory of categories is a GAT:
    and one binary operation "Hom(-,+)" with arguments of supersort "Ob"
    and result of supersort "Mor".
 
-2. Its operations include:
+1. Its operations include:
 
 * The unary operation $id(-)$ with argument sort given by the
         derived operation $x\mapsto x$ and result sort given by the
@@ -55,7 +55,7 @@ The theory of categories is a GAT:
         given by $x,y,z\mapsto Hom(y,z)$ and result sort given by
         $x,y,z\mapsto Hom(x,z)$
 
-3. Its equations are
+1. Its equations are
 
 * $comp(id(a),f)=f$ where argument $a$ has sort $x,y\mapsto x$
     and argument $f$ has sort $x,y\mapsto Hom(x,y)$
@@ -121,7 +121,7 @@ A [many-sorted algebraic theory](algebraic+theory#multisorted_algebraic_theories
 
 Cartmell's paper explains how for every GAT there is an [[essentially algebraic theory]] (EAT) with the same models and for every EAT there is a GAT with the same models. In this sense they are more or less equivalent in descriptive power.
 
-Cartmell's paper (in section 6) compares EAT's to [[Cartesian logic]].
+Cartmell's paper (in section 6) compares EAT's to [[cartesian logic]].
 
 However (not in Cartmell's paper), there is no notion in the world of EAT's equivalent to a "GAT without sort equations". This is relevant because it yields an interpretation result.  Just as the theory of finite-limit categories is an EAT, and one can interpret any EAT in a finite-limit category, so too is the theory of monoidal categories a GAT without sort equations, and one can interpret any[^any] GAT without sort
 equations in a monoidal category.
@@ -154,3 +154,10 @@ Might there be such a thing as an $n$-GAT, where a $0$-GAT is an algebraic theor
 I feel like there must be some sort of way to eliminate the notion of "arity" and put in its place an arbitrary (G)AT, recovering the original notion using the single-sorted Peano algebra (one constant "0", one unary operation "S", and no equations) or binary tree algebra (one constant "0", one binary operation "B", and no equations).  But I can't quite put my finger on how to do it.  -- [[Adam]]
 =--
 
+## References
+
+* {#Cartmell86} [[John Cartmell]], _Generalised Algebraic Theories and Contextual Categories_, Annals of Pure and Applied Logic, 32(0):209 – 243, 1986, [doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9)
+
+[[!redirects generalized algebraic theories]]
+[[!redirects generalised algebraic theories]]
+[[!redirects generalised algebraic theory]]
