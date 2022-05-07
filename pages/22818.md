@@ -49,4 +49,9 @@ If Mochizuki's corollary 3.12 happens to be true, then [[Szpiro's conjecture]] a
 
 * Taylor Dupuy, Anton Hilado, _Probabilistic Szpiro, Baby Szpiro, and Explicit Szpiro from Mochizuki's Corollary 3.12_, ([arxiv:2004.13108](https://arxiv.org/abs/2004.13108))
 
+Lectures on Mochizuki's inequality:
+
+* Taylor Dupuy, "A User's Guide to Mochizuki's Inequality", Spring 2019, University of Tennesse Knoxville, Barrett Lectures ([slides](https://www.dropbox.com/s/b63figtzrg86u5t/IUTFAQ.pdf?))
+
 [[!redirects Mochizuki's Corollary 3.12]]
+[[!redirects Mochizuki's inequality]]
