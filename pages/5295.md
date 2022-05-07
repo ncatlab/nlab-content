@@ -81,7 +81,7 @@ Brouwer's student Arend Heyting (who later succeeded Brouwer as professor in Ams
 
 *  We have the [[fan theorem]] and [[bar theorem]], which are classically true but fail in [[Russian constructivism]].
 
-*  There\'s also some stuff about [[choice sequences]] that is highly philosophical, involving mathematical principles such as the [[Brouwer-Kripke scheme]].
+*  There\'s also some stuff about [[choice sequences]] that is highly philosophical, involving mathematical principles such as the [[Kripke's schema]].
 
 Although it\'s not enough to derive all of the above, much of the essence of intuitionistic mathematics, or at least intuitionistic [[analysis]], can be summarized in the theorem that every (set-theoretic) [[function]] from the [[unit interval]] to the [[real line]] is [[uniformly continuous map|uniformly continuous]].
 
