@@ -299,7 +299,7 @@ we have for the given [[finite subgroup of SU(2)]] (by [this Prop](finite+rotati
 
 \[
   \label{IntegralCohomologyOfClassifyingSpaceOfFiniteSubgroupOfSU2}
-  H^4(B G, \mathbb{Z})
+  H^n(B G, \mathbb{Z})
   \;\simeq\;
   \left\{
   \array{
