@@ -225,7 +225,7 @@ A [[circle 2-group]] [[principal 2-bundle]] is also incarnated as a [[centrally 
 
 ## Other constructions
 
-Let $Vectr$ be the [[stack]] of [[vectorial bundle]]s. (If we just take [[vector bundle]]s we get a notion of twisted K-theory that only allows twists that are finite order elements in their [[cohomology group]]).
+Let $Vectr$ be the [[stack]] of [[vectorial bundles]]. (If we just take [[vector bundle]]s we get a notion of twisted K-theory that only allows twists that are finite order elements in their [[cohomology group]]).
 
 There is a canonical morphism
 
@@ -393,6 +393,12 @@ The generalization of this to [[groupoid K-theory]] is in ([FHT 07, around p. 26
 
 * {#Pennig} [[Ulrich Pennig]], _Twisted K-theory with coefficients in $C^\ast$-algebras_, ([arXiv:1103.4096](http://arxiv.org/abs/1103.4096))
  
+Comparison between [[homotopy theory|homotopy theoretic]] and [[operator algebra|operator algebraic]] constructions:
+
+* {#HebestreitSagave19} [[Fabian Hebestreit]], [[Steffen Sagave]], *Homotopical and operator algebraic twisted K-theory*, Mathematische Annalen **378** (2020) 1021-1059 ([arXiv:1904.01872](https://arxiv.org/abs/1904.01872), [doi:10.1007/s00208-020-02066-6](https://doi.org/10.1007/s00208-020-02066-6))
+
+
+
 
 Discussion in terms of [[vectorial bundles]] is in
 
@@ -400,11 +406,6 @@ Discussion in terms of [[vectorial bundles]] is in
  
 * {#GomiTerashima} [[Kiyonori Gomi]], [[Yuji Terashima]], _Chern-Weil Construction for Twisted K-Theory_, Communication ins Mathematical Physics, Volume 299, Number 1, 225-254 ([doi:10.1007/s00220-010-1080-1](https://doi.org/10.1007/s00220-010-1080-1))
  
-
-The twisted version of [[differential K-theory]] is discussed in
-
-* [[Alan Carey]], _Differential twisted K-theory and applications_ ESI preprint ([pdf](http://www.esi.ac.at/preprints/esi1945.pdf))
-
 Discussion of combined [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[KR-theory]] on [[orbifold|orbi-]] [[orientifolds]]:
 
 * [[El-kaïoum M. Moutuou]], _Twistings of KR for Real groupoids_ ([arXiv:1110.6836](http://arxiv.org/abs/1110.6836))
