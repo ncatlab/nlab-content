@@ -1,21 +1,31 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
 ## Related entries
 
 * [[error correcting codes]]
 
-  * [[binary Golay code]]
+  * [[linear code]]
 
-  * [[binary linear code]]
+    * [[Hamming code]]
 
-  * [[Hamming code]]
+    * [[binary linear code]]
+
+      * [[binary Golay code]], [[Mathieu group]], [[Leech lattice]]
 
 * [[quantum error correcting code]]
 
-* [[Mathieu group]]
+  * [[HaPPY code]]
+
+  * [[Majorana dimer code]]
 
 * [[combinatorial design]]
-
-* [[Leech lattice]]
 
 * [[adinkra]] 
 
