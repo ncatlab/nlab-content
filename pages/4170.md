@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $C$ a [[site]] and $c \in C$ an [[object]], the [[over category]] $C/c$ may naturally be thought of as a generalization of the notion of [[category of open subsets]] of $c$ in the case of $C = $ [[Top]]: its [[object]]s are probes of $c$ by arbitrary other objects of $C$.
+For $C$ a [[site]] and $c \in C$ an [[object]], the [[slice category]] $C/c$ may naturally be thought of as a generalization of the notion of [[category of open subsets]] of $c$ in the case of $C = $ [[Top]]: its [[object]]s are probes of $c$ by arbitrary other objects of $C$.
 
 The over-category naturally inherits the structure of a [[site]] itself -- this is called the _big site_ of $C$. The corresponding [[sheaf topos]] $Sh(C/c)$ is the [[topos]]-incarnation of the object $c$.
 
@@ -45,6 +45,12 @@ In the special case that $C$ is some category of spaces with a terminal object $
 [[!redirects gros site]]
 [[!redirects gros sites]]
 
+[[!redirects slice site]]
+[[!redirects slice sites]]
+
+
 [[!redirects large site of an object in a site]]
 [[!redirects large sites of objects in a site]]
 [[!redirects large sites of objects in sites]]
+
+
