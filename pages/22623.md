@@ -293,13 +293,16 @@ Review:
 
 Textbook accounts:
 
-* [[Shlomo Sternberg]], Section 5.4 of: *Group Theory and Physics*, Cambridge University Press 1994
+* [[Shlomo Sternberg]], Section 5.4 and Appendix C.4 of: *Group Theory and Physics*, Cambridge University Press 1994
 
 
 Review:
 
-* {#Peluse14} [[Sarah Peluse]], Section 1 of: *Irreducible representations of $SU(n)$ with prime power degree*, S&eacute;minaire Lotharingien de Combinatoire 71 (2014), Article B71d ([pdf](https://www.emis.de/journals/SLC/wpapers/s71peluse.pdf))
+* {#Peluse14} Sarah Peluse, Section 1 of: *Irreducible representations of $SU(n)$ with prime power degree*, S&eacute;minaire Lotharingien de Combinatoire 71 (2014), Article B71d ([pdf](https://www.emis.de/journals/SLC/wpapers/s71peluse.pdf))
 
+* *Some Notes on Young Tableaux as useful for irreps of $\mathrm{su}(n)$* ([pdf](http://www.physics.mcgill.ca/~keshav/673IV/youngtableaux.pdf))
+
+* Section 2 of: *Group Theory primer $SU(n)$* ([pdf](http://web.physics.ucsb.edu/~phys229B/s2013/Lectures_files/Chap13grouptheory.pdf))
 
 
 [[!redirects hook length formulas]]
