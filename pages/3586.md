@@ -23,7 +23,7 @@ Since the wave front set is the set of (co-)directions along which, locally, the
 
 Microlocal analysis in this sense was introduced by ([Sato 70](#Sato70)),  soon  followed  by  ([H&#246;rmander 71](#Hoermander71), [H&#246;rmander 83](#Hoermander83)) who  both  introduced the notion of [[wave front set]].
 This microlocal point of  view was then extended to [[sheaf  theory]]  by
-[Kashiwara-Schapira 82](#KashiwaraSchapira82), [Kashiwara-Schapira 82](#KashiwaraSchapira85)) who  introduced  the  notion  of _[[microsupport]]_  of  sheaves giving rise to _[[microlocal sheaf theory]]_ (see [Schapira 17](#Schapira17)). Beware that some authors still use the term "microlocal analysis" for this sheaf theoretic concept.
+[Kashiwara-Schapira 82](#KashiwaraSchapira82), [Kashiwara-Schapira 85](#KashiwaraSchapira85)) who  introduced  the  notion  of _[[microsupport]]_  of  sheaves giving rise to _[[microlocal sheaf theory]]_ (see [Schapira 17](#Schapira17)). Beware that some authors still use the term "microlocal analysis" for this sheaf theoretic concept.
 
 
 ## Overview
