@@ -96,11 +96,9 @@ The [[image]] of the [[vector space]] (eq:SpaceOfStringyWeightSystems) of [[stri
 
 ## Related theorems
 
-* [[weight systems are associated graded of Vassiliev invariants]]
 
-* [[weight systems are cohomology of loop space of configuration space]]
+[[!include facts about chord diagrams and weight systems -- contents]]
 
-* [[weight systems are cohomology of knot graph complex]]
 
 ## References
 
