@@ -66,7 +66,8 @@ associated with each 7-dimensional [[spherical space form]] equipped with [[spin
 
 Hence this allows to stratify [Wolf's classification](#Wolf74) of 7-dimensional spherical space forms, first into the cases that do and that do not admit any [[spin structure]], and then the former further into the dimension $N$ of the space of [[Killing spinors]] that they carry.
 
-It turns out that the resulting sub-classification **for $N \geq 4$** demands $\widehat{G}$ to be a [[finite subgroup of SU(2)]]; hence this is an [[ADE classification]] ([MFFGME 09, Sections 3-7](#MFFGME09)):
+In the case  $N \geq 4$
+It turns out that the resulting sub-classification demands $\widehat{G}$ to be a [[finite subgroup of SU(2)]]; hence this is an [[ADE classification]] ([MFFGME 09, Sections 3-7](#MFFGME09)):
 
 * $N = 8$: here $\widehat{G} = \mathbb{Z}/2$, the [[cyclic group of order 2]];
 
