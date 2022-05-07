@@ -34,7 +34,7 @@ The [[slice (infinity,1)-topos|slice]] of [[global equivariant homotopy theory]]
 1. these inclusions have a compatible pair of [[reflective sub-(infinity,1)-category|reflections]], one of which forms the [[spaces of sections]] over the $G$-singularity $\prec G$.
 
 
-This observation is due to [Rezk 2014](#Rezk14), where this is proven by direct construction of the respective [[adjoint quadruple]] of [[(infinity,1)-functors|$\infty$-functors]]. Below we discuss how the evident [[reflective (infinity,1)-category|reflection]] of the $G$-[[orbit category]] inside the $\prec G$-[[slice (infinity,1)-category|slice]] of the "[[global orbit categort]]" (see Rem. \ref{TerminologySingularities} below) immediately induces this cohesive relation by [[(infinity,1)-Kan extension|$\infty$-Kan extension]].
+This observation is due to [Rezk 2014](#Rezk14), where this is proven by direct construction of the respective [[adjoint quadruple]] of [[(infinity,1)-functors|$\infty$-functors]]. Below we discuss how the evident [[reflective (infinity,1)-category|reflection]] of the $G$-[[orbit category]] inside the $\prec G$-[[slice (infinity,1)-category|slice]] of the "[[global orbit category]]" (see Rem. \ref{TerminologySingularities} below) immediately induces this cohesive relation by [[(infinity,1)-Kan extension|$\infty$-Kan extension]].
 
 
 ## Preliminaries
