@@ -1,4 +1,8 @@
 
+> This entry is about squares in [[geometry]]. For squares in [[category theory]] see *[[commutative square]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
