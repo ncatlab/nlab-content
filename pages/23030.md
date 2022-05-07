@@ -42,6 +42,15 @@ $$
   reduces to that of an ordinary [[group homomorphism]].
 \end{remark}
 
+\begin{remark}\label{AbelianCase}
+  In the special case that $\Gamma$ in Def. \ref{CrossedHomomorphism} is an [[abelian group]], crossed homomorphisms are also known as
+
+* [[cocycles]] in [[group cohomology]] in degree 1; 
+
+* *[[derivations on a group]]*. 
+
+\end{remark}
+
 ## Properties
 
 ### Relation to semidirect product groups
@@ -106,16 +115,26 @@ $$
 \end{proof}
 
 
+## Related concepts
+
+* [[group cohomology]]
+
+* [[semidirect product group]]
+
 ## References
 
 For the special case that $\Gamma$ is an [[abelian group]] (in the context of [[homological algebra]]):
 
 * [[Saunders Mac Lane]], Section IV.2 of: _Homology_ (1975) reprinted as Classics in Mathematics. Springer-Verlag, Berlin, 1995. x+422 pp. ISBN 3-540-58662-8 ([doi:10.1007/978-3-642-62029-4](https://link.springer.com/book/10.1007/978-3-642-62029-4))
 
+
 The general notion (in discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]):
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
 
+Discussion for [[finite groups]]:
+
+* Tsunenobu Asai, Yugen Takegahara, *On the number of crossed homomorphisms*, Hokkaido Math. J. **28** 3 (1999) 535-543 ([doi:10.14492/hokmj/1351001235](https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-28/issue-3/On-the-number-of-crossed-homomorphisms/10.14492/hokmj/1351001235.full))
 
 [[!redirects crossed homomorphisms]]
 
