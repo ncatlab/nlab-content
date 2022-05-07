@@ -79,16 +79,17 @@ Given a [[semistandard Young tableau]] $T$, we write $X^T$ for  the [[monomial]]
 
 We write 
 
-$$
-  ssYT(\lambda)
-$$
+\[
+  \label{SetOfSemistandardYoungTableaux}
+  ssYT_\lambda \;\supset\; ssYY_\lambda(N)
+\]
 
-for the set of semistandard Youn tableaux whose underlying [[partition]] (i.e. forgetting its labels) is $\lambda$.
+for the set of semistandard Young tableaux whose underlying [[partition]] (i.e. forgetting its labels) is $\lambda$, and, respectively, for its [[subset]] on those whose labels are bounded as $T_{i,j} \leq N$.
 
 \begin{prop}
-  For $n \in \mathbb{N}$ and $\lambda$ a [[partition]] of $n$, the corresponding Schur polynomial $s_\lambda$ is equal to the [[sum]] over the [[monomials]] (eq:MonomialAssociatedWithSemistandardYoungTableau) associated with all [[semistandard Young tableau]] of shape $\lambda$:
+  For $n \in \mathbb{N}$ and $\lambda$ a [[partition]] of $n$, the corresponding Schur polynomial $s_\lambda$ is equal to the [[sum]] over the [[monomials]] (eq:MonomialAssociatedWithSemistandardYoungTableau) associated with all [[semistandard Young tableaux]] (eq:SetOfSemistandardYoungTableaux) of shape $\lambda$:
 
-$$
+\[
   s_\lambda
   \;\;=\;\;
   \underset{
@@ -96,11 +97,27 @@ $$
   }{\sum}
   x^T
   \,.
-$$
+\]
 \end{prop}
 
-
 ([Sagan 01, Def. 4.4.1](#Sagan01), review in [Sagan Enc., p. 1](#SaganEnc))
+
+This means that the Schur polynomial $s_\lambda$ in $N$ variables is the sum over semistandard Young tableaux (eq:SetOfSemistandardYoungTableaux) of shape $\lambda$ and with labels bounded as $T_{i,j} \leq N$:
+
+\[
+  \label{SchurPolynomialWithFiniteNumberOfvariablesAsSumOverssYT}
+  s_\lambda
+  \big(
+    x_1, \cdots, x_N
+  \big)
+  \;\;=\;\;
+  \underset{
+    {T \in ssYT_\lambda(N)},
+  }{\sum}
+  x^T
+  \,.
+\]
+
 
 An immediate consequence is:
 
