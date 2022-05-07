@@ -88,6 +88,8 @@ This is relevant to [[constructive algebra]], as this shows that formulating cha
 
 * [[carrying]]
 
+* [[currying]]
+
 * [[numeral]]
 
 * [[countable ordinal]]
