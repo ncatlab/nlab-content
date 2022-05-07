@@ -19,9 +19,10 @@
 
 To the extent that an [[(∞,1)-topos]] may be thought of as representing a *[[space]]*, the *shape* of the $\infty$-topos is the underlying [[pro-homotopy theory|pro-]][[homotopy type]] of this space (Def. \ref{ShapeOfAnInfinityTopos} below). Equivalently, the shape of an $\infty$-topos is the generalized [[étale homotopy]]-type of its [[terminal object]] (Def. \ref{ShapeOfToposAsImageOfItsPointUnderProLeftAdjointToLConst}, Prop. \ref{ShapeOfToposIsShapeOfItsTerminalObject} below).
 
-In the special case that the [[(∞,1)-topos]] $\mathbf{H}$ is that of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on (the [[site]] of [[category of open subsets|open subsets]] of) a [[paracompact space|paracompact]] [[topological space]] -- $\mathbf{H} \,\simeq\, Sh_{(\infty,1)}(X)$ --  then its shape coincides with the [[strong shape]] of $X$ in the classical sense of [[shape theory]]: a [[pro-object]] $Shp(X)$ in the [[category]] of [[CW-complexes]].
+In the special case that the [[(∞,1)-topos]] is that of [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on (the [[site]] of [[category of open subsets|open subsets]] of) a [[paracompact space|paracompact]] [[topological space]], its shape coincides with the [[strong shape]] of $X$ in the classical sense of [[shape theory]].
 
-In the special case that the $\infty$-topos is a [[slice (infinity,1)-topos|slice]] $\mathbf{H}_{/X}$ of a [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] $\mathbf{H}$ over an object $X \,\in\, \mathbf{H}$, then the shape of $\mathbf{H}_{/X}$ is the [[shape modality|cohesive shape]] of $X$ (Prop. \ref{ShapeOfSliceOfCohesiveInfinityTopos} below).
+In the special case that the $\infty$-topos is a [[slice (infinity,1)-topos|slice]] of a [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] $\mathbf{H}$ over some object, its shape is the [[shape modality|cohesive shape]] of that object (Prop. \ref{ShapeOfSliceOfCohesiveInfinityTopos} below).
+
 
 ## Definition
  {#Definition}
@@ -324,7 +325,7 @@ $$
   Shp(\ast_{\mathbf{H}})
 \end{aligned}
 $$
-Here the line is just Def. \ref{LurieShapeOfAnInfinityTopos} (alternatively: is Prop. \ref{ShapeIsGlobalSectionsOfLConst}), and the second line is, if one wishes, the geometric discreteness of plain $\infty$-groupoids.
+Here the line is just Def. \ref{LurieShapeOfAnInfinityTopos} (alternatively: is Prop. \ref{ShapeIsGlobalSectionsOfLConst}), and the second line follows by the [[cartesian monoidal (infinity,1)-category|cartesian]] [[closed monoidal (infinity,1)-category|closure]] of [[∞Grpd]].
 The third line is the characteristic [hom-equivalences](adjoint+infinity1-functor#CharacterizationInTermsOfHomEquivalences) of the [[adjoint (infinity,1)-functor|adjunction]] $\Gamma \dashv LConst$ . In the second but last step we use that $LConst$, being a [[left exact functor]], [[preserved limit|preserves]] [[terminal object in an (infinity,1)-category|terminal objects]]. The last step is the definition (eq:ProLeftAdjointToLConst) of the [[pro-left adjoint]].
 \end{proof}
 
