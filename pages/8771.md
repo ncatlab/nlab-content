@@ -29,7 +29,7 @@ To check transitivity observe that $ x \leq y $ and $ y \leq z$ imply $ z \stack
 
 *  Any [[quantale]] is an idempotent semiring, or dioid, under [[join]] and multiplication.
 
-* The set of [[language|languages]] over a given alphabet $A$ forms an idempotent semiring in which $L + L' = L \cup L'$ and multiplication is given by concatentation. In fact this is a quantale $P(A^\ast)$ where the multiplication is the $\mathbf{2}$-[[enriched category|enriched]] [[Day convolution]] product induced from the monoid multiplication of the free monoid $A^\ast$. 
+* The set of [[language|languages]] over a given alphabet $A$ forms an idempotent semiring in which $L + L' = L \cup L'$ and multiplication is given by concatenation. In fact this is a quantale $P(A^\ast)$ where the multiplication is the $\mathbf{2}$-[[enriched category|enriched]] [[Day convolution]] product induced from the monoid multiplication of the free monoid $A^\ast$. 
 
 *  The [[tropical semiring|tropical algebra]] and the [[max-plus algebra]] are idempotent semirings.
 
