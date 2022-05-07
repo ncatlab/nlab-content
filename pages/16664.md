@@ -3,6 +3,11 @@ Michael Campbell McCord was an American mathematician probably best known for hi
 
 ## References
 
+On [[homotopy groups]] and [[weak homotopy equivalences]] of [[finite topological spaces]]:
+
+* {#McCord} [[Michael C. McCord]], _Singular homology groups and homotopy groups of finite topological spaces_, Duke Math. J. Volume 33, Number 3 (1966), 465-474. ([euclid.dmj/1077376525](http://projecteuclid.org/euclid.dmj/1077376525))
+
+
 On the [[nerve theorem]]:
 
 * {#McCord67} [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its  open covers_, Proc. Amer. Math. Soc. 18 (1967), 705&#8211;708 ([jstor:2035443](https://www.jstor.org/stable/2035443))
@@ -17,3 +22,5 @@ On the construction of [[classifying spaces]] using (and introducing) [[compactl
 * [[Quillen's theorem A]]
 
 category:people
+
+[[!redirects Michael McCord]]
