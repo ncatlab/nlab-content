@@ -98,6 +98,10 @@ Textbook account:
 
 * [[Mikio Nakahara]], Section 10.5.2 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
+Experimental search for magnetic monopoles via the [[Schwinger effect]]:
+
+* B. Acharya et al., *First experimental search for production of magnetic monopoles via the Schwinger mechanism* ([arXiv:2106.11933](https://arxiv.org/abs/2106.11933))
+
 
 A general account of [[vacuum]] [[QFT with defects|defects]] such as [[domain walls]] and monopoles is in 
 
