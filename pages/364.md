@@ -50,3 +50,5 @@ On the [[Yoneda lemma for (∞,1)-categories]]:
 
 
 category: people
+
+[[!redirects Riehl]]
