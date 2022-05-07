@@ -32,6 +32,8 @@ For [[semimetals]] the Berry phases of the [[valence bundle]] around their nodal
 
 ## References
 
+### General
+
 The original article:
 
 * {#Berry84} [[Michael V. Berry]], *Quantal phase factors accompanying adiabatic changes*, Proc. R. Soc. Lond. A **392** (1984) 45–57 ([doi:10.1098/rspa.1984.0023](https://doi.org/10.1098/rspa.1984.0023), [jstor:2397741](https://www.jstor.org/stable/2397741))
@@ -43,6 +45,7 @@ The formulation in terms of [[connections]] on [[fiber bundles]] and their [[hol
 The special case of Berry phases around the 1-cycles of a [[Brillouin torus]] -- [[Zak phases]]:
 
 * {#Zak89} [[Joshua Zak]], *Berry’s phase for energy bands in solids*, Phys. Rev. Lett. **62** (1989) 2747 ([doi:10.1103/PhysRevLett.62.2747](https://doi.org/10.1103/PhysRevLett.62.2747))
+
 
 Review and further discussion:
 
@@ -60,6 +63,9 @@ See also:
 
 * Wikipedia, *[Berry connection and curvature](https://en.wikipedia.org/wiki/Berry_connection_and_curvature)*
 
+### Experimental observation
+
+* Marcos Atala, Monika Aidelsburger, Julio T. Barreiro, Dmitry Abanin, Takuya Kitagawa, Eugene Demler, Immanuel Bloch: *Direct measurement of the Zak phase in topological Bloch bands*, Nature Physics **9** (2013) 795–800 ([doi:10.1038/nphys2790](https://doi.org/10.1038/nphys2790))
 
 
 [[!redirects Berry connections]]
