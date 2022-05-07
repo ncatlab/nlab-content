@@ -92,6 +92,7 @@ This follows because the morphism is the image of the terminal morphism $X \xrig
 For generalization of this statement to [[simplicial presheaves]] see [NSS 12b, Thm. 3.91](#NSS12b).
 
 #### In topological spaces
+ {#HomotopyPropertiesInTopologicalSpaces}
 
 In the following, we write $TopSp$ for the [[convenient category of topological spaces|convenient category]] of [[compactly generated weak Hausdorff spaces]].
 
