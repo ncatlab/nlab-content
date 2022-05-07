@@ -28,7 +28,7 @@ Let $R$ be a [[ring]]. A __divided power $R$-algebra__, or __PD-$R$-algebra__, i
 
 - $I$ an [[ideal]] of $A$;
 
-- $\gamma=\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ an [[indexed set]] of [[functions]] (of underlying [[sets]]);
+- $\gamma=\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ an [[indexed set]] of [[functions]] (of [[underlying]] [[sets]]);
 
 satisfying the following conditions:
 
