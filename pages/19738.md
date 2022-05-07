@@ -36,6 +36,10 @@ A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]], 
 
 But one says _presheaf_ instead of (set-valued) _contravariant functor_ when one is interested in studying its [[sheafification]], or even if one is just interested in regarding the [[category of functors]] with its structure of a [[topos]]: the [[presheaf topos]].
 
+### Young diagrams
+
+A *[[Young diagram]]* is a [[partition]] that wants to become a [[Young tableaux]].
+
 ### Quivers
 
 A _[[quiver]]_ is just a [[directed graph]] ([[pseudograph]], to be explicit). 
