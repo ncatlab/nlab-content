@@ -15,7 +15,7 @@
 
 ## Definition
 
-An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] (or an element of a [[monoid]]) is another morphism $f^{-1} : Y \to X$ which is both a left-inverse (a [[retraction]]) as well as a right-inverse (a [[section]]) of $f$, in that 
+An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] or [[unital magmoid]] (or an element of a [[monoid]] or [[unital magma]]) is another morphism $f^{-1} : Y \to X$ which is both a left-inverse (a [[retraction]]) as well as a right-inverse (a [[section]]) of $f$, in that 
 $$
   f \circ f^{-1} : Y \to Y 
 $$
@@ -46,9 +46,9 @@ equals the [[identity morphism]] on $X$.
 
 * In a [[balanced category]], such as a [[topos]] or more particularly [[Set]], every morphism that is both [[monomorphism|monic]] and [[epimorphism|epic]] is an [[isomorphism]] and thus has an inverse. A [[partial order]] is an unbalanced category where every morphism is both monic and epic. Only its [[identity morphisms]] have inverses. 
 
-## In non-associative contexts
+## In non-unital contexts
 
-These can be a little more complicated; see [[quasigroup]] for some discussion of the one-object version.
+These can be a little more complicated; see [[quasigroup]] for some discussion of the one-object version, and [[quasigroupoid]] for the many-object version. 
 
 
 ## Related concepts
