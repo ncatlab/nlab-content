@@ -1249,6 +1249,50 @@ that a homotopy-inverse is given by the evident inclusion functor $i$ that fills
 
 (...)
 
+
+\begin{proposition}
+\label{EquivariantClassifyingSpaceForAbelianCompactLieStructureGroup}
+  If $\Gamma$ is a [[compact Lie group]] which is also [[abelian group|abelian]] (hence a [[direct product group]] of an [[n-torus]] with a abelian [[finite group]]) and regarded as carrying trivial $G$-action, then a classifying [[G-space]] for $G$-equivariant $\Gamma$-principal bundles is given by $Map(E G ,\, B\Gamma)$.
+\end{proposition}
+This is [Lashof, May & Segal 1983, Lem. 1 with Thm. 2](#LashofMaySegal83),
+re-stated more explicitly in [May 1990, Thm. 10](#May90).
+
+This implies that for abelian compact Lie structure groups $\Gamma$, the isomorphism classes of $G$-equivariant $\Gamma$-principal bundles over some [[G-CW complex]] $X$ have the same classification as plain $\Gamma$-[[principal bundles]] over its [[Borel construction]] $X_G \,\coloneqq\, (E G \times X)/G$:
+
+$$
+  \begin{aligned}
+    \big(
+       G Equ \Gamma PrnBdl_X
+    \big)_{/\sim}
+    &
+    \;\simeq\;
+    \tau_0
+    \,
+    Map\big( X ,\, \Map(EG ,\, B \Gamma) \big)^G
+    \\
+    & 
+    \;\simeq\;
+    \tau_0
+    \,
+    Map\big( E G \times X ,\, B \Gamma \big)^G    
+    \\
+    & 
+    \;\simeq\;
+    \tau_0
+    \,
+    Map\big( (E G \times X)/G ,\, B \Gamma \big)
+    \\
+    & 
+    \;\simeq\;
+    \big(
+      \Gamma PrnBdl_{X_G}
+    \big)_{/\sim}
+    \,.
+  \end{aligned}
+$$ 
+In the form of the resulting composite bijection, this statement appears as [May 1990, Thm. 3](#May90).
+
+
 \linebreak
 
 
@@ -1342,7 +1386,7 @@ More on [[equivariant principal bundles]] and their [[classifying spaces]]/[[uni
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
 
-* {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
+* {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9), [jstor:2160733](https://www.jstor.org/stable/2160733))
 
   > (for [[structure group]] [[semidirect product group|split]]-[[group extension|extending]] the [[equivariance group]])
 
