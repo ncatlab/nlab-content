@@ -117,7 +117,7 @@ A step in the latter direction was conjectured in ([Joyal 2011](#Joyal11)), and 
 
 However, this "syntactic $(\infty,1)$-category" will not in general be locally presentable, lacking appropriate colimits.  There is thus a mismatch between the two best statements we have at present, for the two directions of the internal language correspondence.
 
-Furthermore, nothing is yet known about the *initiality* of this syntactic $(\infty,1)$-category, which is a central aspect of what it means to have an internal language.  Finally, no one has yet explicitly constructed an "internal language" type theory from an $(\infty,1)$-category, and so of course the desired adjunction/equivalence cannot yet even be stated as a precise conjecture.
+{#Initiality} Furthermore, the *initiality* of this syntactic $(\infty,1)$-category is subtle (see at *[[initiality conjecture]]*), but such initiality is a central aspect of what it means to have an internal language.  Finally, no one has yet explicitly constructed an "internal language" type theory from an $(\infty,1)$-category, and so of course the desired adjunction/equivalence cannot yet even be stated as a precise conjecture.
 
 
 
