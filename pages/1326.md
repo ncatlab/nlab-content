@@ -1,14 +1,31 @@
-A **cochain complex** $V^\bullet$ in an [[Ab-enriched category]] $C$ is nothing but a [[chain complex]] in $C$, but with the sign of the $\mathbb{Z}$-grading reversed.
 
-This means that for a cochain complex $(V^\bullet,d)$ the differential (or *coboundary*) $d$ _increases_ the degree
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A **cochain complex** $V^\bullet$ in an [[Ab-enriched category]] $C$ may be regarded as a [[chain complex]] (see there for more) in $C$, but with the sign of the $\mathbb{Z}$-grading reversed.
+
+This means that for a cochain complex $(V^\bullet,d)$ the [[differential]] (or *coboundary* operator) $d$ _increases_ the degree
 
 $$
-  d : V^{k} \to V^{k+1}
+  d \colon V^{k} \to V^{k+1}
   \,.
 $$
 
 
-# Examples #
+## Examples 
 
 * An archetypical example is the deRham cochain complex of [[differential form]]s on a [[manifold]] $X$, or more generally of [[differential forms in synthetic differential geometry]]. 
 
@@ -20,5 +37,6 @@ $$
 
 * By the dual [[Dold-Kan correspondence]] cochain complexes in non-negative degree are equivalent to [[simplicial object|cosimplicial]] abelian groups.
 
-
 [[!redirects cochain complexes]]
+
+
