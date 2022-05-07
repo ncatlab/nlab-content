@@ -46,6 +46,15 @@ This is called an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **in
 
 =--
 
+\begin{remark}
+**(the 0-simplex has no horns)**
+  Beware that any would-be horn of the 0-simplex is *ex*-cluded in Def. \ref{Horn}: The 0-simplex has *no* horn. 
+
+This is not a matter of convention, in particular one must *not* declare a would-be horn of the 0-simplex to be the [[empty set]]: This would make the [[nerve of a category|nerve]] of the [[empty groupoid]] fail to be a [[Kan complex]]. 
+
+Conversely, the fact that every horn is [[inhabited set|inhabited]] means that any morphism out of the empty [[simplicial set]], $\varnothing \to X$, is a [[Kan fibration]].
+\end{remark}
+
 +-- {: .num_remark }
 ###### Remark
 
