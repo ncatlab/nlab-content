@@ -45,7 +45,15 @@ The [[coequalizer]] of the kernel pair, if it exists, is supposed to be the "obj
 
 If a morphism has a kernel pair and is a coequalizer, then it is the coequalizer of its kernel pair.  This is a special case of the correspondence of [[generalized kernels]] in enriched categories.
 
-See also: [[regular epimorphism]], [[regular category]], [[exact category]]
+In any category with binary [[pullbacks]], the kernel pair of the [[identity morphism]] $id$ on an object $X$ is the [[diagonal morphism]] $(id,id)$ of $X$ and has a [[coequalizer]] [[isomorphic]] to $X$ itself. 
+
+## Related concepts
+
+* [[regular epimorphism]]
+
+* [[regular category]]
+
+* [[exact category]]
 
 
 [[!redirects kernel pairs]]
