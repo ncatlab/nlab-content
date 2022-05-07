@@ -205,7 +205,10 @@ The second sentence follows directly by the remarks above.
 
 =--
 
-Note that there is nothing special about ${|Sing(-)|}$ in the proof; any functorial CW replacement would do just as well (such as that obtained by the [[small object argument]]).  However, ${|Sing(-)|}$ has the advantage that its geometric realization can be computed alternately in terms of diagonals of bisimplicial sets, as we now show.
+{#OtherGoodResolutions} Note that there is nothing special about ${|Sing(-)|}$ in the proof; any functorial CW replacement would do just as well (such as that obtained by the [[small object argument]], or the constructions denoted $\tau(-)$ and $simp(-)$ in [Segal 1974, p. 308-309](#Segal74)).  
+
+
+However, ${|Sing(-)|}$ has the advantage that its geometric realization can be computed alternately in terms of diagonals of bisimplicial sets, as we now show.
 
 If $S_{\bullet,\bullet} \colon  \Delta^{op} \times \Delta^{op} \to Set$ is a [[bisimplicial set]], we write $d S$ for its [[diagonal]], which is the composite
 $$\Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\longrightarrow} Set.$$
