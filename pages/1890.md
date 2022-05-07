@@ -31,7 +31,7 @@ A _strength_ and a _costrength_ for a [[monad]] on a [[monoidal category]] are [
 The notion of strength can be motivated at least in the following ways.
 
 * A strong monad over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actegory|actegories]], on the category $V$ (acting on itself on the left for a strength, on the right for a costrength). 
-* A strength for a monad is a compatibility condition between the monad and the tensor product "from the left", less symmetric that being a [[monoidal monad]], as it lacks the [[commutative monad|commutativity]] property. A _costrength_ is a similar notion, where the action is on the right.
+* A strength for a monad is a compatibility condition between the monad and the tensor product "from the left", less symmetric than being a [[monoidal monad]], as it lacks the [[commutative monad|commutativity]] property. A _costrength_ is a similar notion, where the action is on the right.
 * A strength for a monad is a way of creating "slices", expressions over tensor products which are trivial in the first component. (The costrength gives expressions which are trivial in the second component.)
 * A strong monad is a [[tensorial strength|strong endofunctor]] with a monad structure which is compatible with the strength.
 * If $V$ is a [[monoidal closed category]], then a strong monad is the same thing as a $V$-[[enriched monad]], and a costrength is the same thing as a pointwise structure for the monad on the [[internal homs]]. In particular, every monad on [[Set]] is canonically strong.
