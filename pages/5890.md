@@ -23,7 +23,7 @@
 ###### Theorem
 **(Kuiper's theorem)**
 
-For $\mathcal{H}$ a [[separable Hilbert space|separable]] infinite-dimensional complex [[Hilbert space]], the [[group]] of bounded and invertible [[linear operators]] $GL(\mathcal{H})$, regarded as a [[topological group]] under the [[norm topology]] or [[strong operator topology]] or [[weak operator topology]], is [[contractible]]. 
+For $\mathcal{H}$ a [[separable Hilbert space|separable]] infinite-dimensional [[complex numbers|complex]] [[Hilbert space]], the [[group]] of [[bounded operator|bounded]] and [[invertible element|invertible]] [[linear operators]] $GL(\mathcal{H})$, regarded as a [[topological group]] under the [[norm topology]] or [[strong operator topology]] or [[weak operator topology]], is [[contractible]]. 
 
 The [[unitary group]] [[U(ℋ)|$U(\mathcal{H})$]], being [[homotopy equivalence|homotopy equivalent]] to $GL(\mathcal{H})$ by the [[Gram-Schmidt process]], is also contractible. 
 
