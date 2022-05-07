@@ -15,6 +15,7 @@ Contexts to develop formal category theory include [[proarrow equipments]] and [
 * [[virtual double category]]
 * [[virtual equipment]]
 * [[Yoneda structure]]
+* [[2-category equipped with proarrows]]
 
 
 ## References
