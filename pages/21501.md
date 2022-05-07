@@ -3,7 +3,6 @@
 ###### Proposition
 **([[adjunction between topological spaces and diffeological spaces]])**
 
-
 There is a pair of [[adjoint functors]]
 
 \[
@@ -84,7 +83,7 @@ Finally, these adjunctions are a sequence of [[Quillen equivalences]] with respe
 
 =--
 
-These adjunctions and their properties are observed in [Shimakawa-Yoshida-Haraguchi 10, Prop. 3.1, Prop. 3.2, Lemma 3.3](diffeological+space#SYH10). The model structures and Quillen equivalences are due to [Haraguchi 13, Thm. 3.3](#model+structure+on+Delta-generated+topological+spaces#Haraguchi13) (on the left) and [Haraguchi-Shimakawa 13, Sec. 7](model+structure+on+diffeological+spaces#HaraguchiShimakawa13) (on the right, but this may have a gap).
+These adjunctions and their properties are observed in [Shimakawa-Yoshida-Haraguchi 10, Prop. 3.1, Prop. 3.2, Lemma 3.3](diffeological+space#SYH10). The model structures and Quillen equivalences are due to [Haraguchi 13, Thm. 3.3](#model+structure+on+Delta-generated+topological+spaces#Haraguchi13) (on the left) and [Haraguchi-Shimakawa 13, Sec. 7](model+structure+on+diffeological+spaces#HaraguchiShimakawa13) (on the right).
 
 +-- {: .proof}
 ###### Proof
@@ -141,7 +140,7 @@ is given by the [[identity function]] on the underlying sets $(\epsilon_X)_s = i
 
 Therefore $\eta_X$ is an [[isomorphism]], namely a [[homeomorphism]], precisely if the open subsets of $X_s$ with respect to the topology on $X$ are precisely those with respect to the topology on $Dtplg(Cdfflg(X))$, which means equivalently that the open subsets of $X$ coincide with those whose pre-images under all continuous functions $\phi \colon \mathbb{R}^n \to X$ are open. This means equivalently that $X$ is a D-topological space.
 
-Finally, to see that we have an [[idempotent adjunction]], we check that the [[comonad]]
+Finally, to see that we have an [[idempotent adjunction]], it is sufficient to check (by [this Prop.](idempotent+adjunction#EquivalentConditionsForIdempotency)) that the [[comonad]]
 
 $$
   Dtplg \circ Cdfflg \;\colon\; TopologicalSpaces \to TopologicalSpaces
