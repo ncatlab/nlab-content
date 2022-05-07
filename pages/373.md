@@ -275,9 +275,14 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 ## References
 
+Early texts
+
+* [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967), pp.1-77 ([doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299))
+
+
 Exposition and review:
 
-* {#KellyStreet74} [[Max Kelly]] and [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, in G. M. Kelly (ed.)Lecture Notes in Mathematics **420**, Springer 1974 ([doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101))
+* {#KellyStreet74} [[Max Kelly]] and [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, in G. M. Kelly (ed.) Lecture Notes in Mathematics **420**, Springer 1974 ([doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101))
 
 * [[Ross Street]], _Encyclopedia article on 2-categories and bicategories_ ([pdf](http://www.maths.mq.edu.au/~street/Encyclopedia.pdf))
 
@@ -292,6 +297,10 @@ Exposition and review:
   > (including a discussion of the [[coherence theorem]])
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
+On [[coherence theorems]]:
+
+* {#Power89} [[A. John Power]],  _A general coherence result._ J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
 
 
 Relation between bicategories and Tamsamani weak 2-categories:
