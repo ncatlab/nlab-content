@@ -17,5 +17,9 @@ On [[black holes in string theory]] via the [[BFSS matrix model]]:
 
 * [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes in Various Dimensions from Matrix Theory_, Phys.Lett.B416:62-66,1998 ([arXiv:hep-th/9709108](https://arxiv.org/abs/hep-th/9709108))
 
+Proposing [[ER = EPR]]:
+
+ * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
+
 
 category: people
