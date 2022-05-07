@@ -130,14 +130,23 @@ Literature references for the abstract notion of [[sesquicategory]], a structure
 
 ## References 
 
-* [[Roger Godement]], *Topologie alg&#233;brique et theorie des faisceaux*, Hermann, Paris, 1958. 
- {#Godement}
+Early review:
 
-* [[Charles Ehresmann]], *Cat&#233;gories double et cat&#233;gories structur&#233;es*, C.R. Acad. Paris 256 (1963), 1198-1201. ([ResearchGate link](https://www.researchgate.net/publication/266276121_Categories_doubles_et_categories_structurees))
- {#Ehresmann} 
+* {#Street}  [[Ross Street]], *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam 1996. ([pdf](http://maths.mq.edu.au/~street/45.pdf)) 
 
-* [[Ross Street]], *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam 1996. ([pdf](http://maths.mq.edu.au/~street/45.pdf)) 
- {#Street} 
+Modern review:
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 2.3 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
+Original articles:
+
+* {#Godement} [[Roger Godement]], *Topologie alg&#233;brique et theorie des faisceaux*, Hermann, Paris, 1958. 
+ 
+
+* {#Ehresmann} [[Charles Ehresmann]], *Cat&#233;gories double et cat&#233;gories structur&#233;es*, C.R. Acad. Paris 256 (1963), 1198-1201. ([ResearchGate link](https://www.researchgate.net/publication/266276121_Categories_doubles_et_categories_structurees))
+  
+
+ 
 
 
 [[!redirects strict 2-category]]
