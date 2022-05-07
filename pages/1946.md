@@ -571,9 +571,11 @@ The Reedy model structure on categories of simplicial objects is discussed in mo
 
 [[!redirects latching object]]
 [[!redirects latching objects]]
-
 [[!redirects matching object]]
 [[!redirects matching objects]]
-
+[[!redirects latching map]]
+[[!redirects latching maps]]
+[[!redirects matching map]]
+[[!redirects matching maps]]
 
 [[!redirects Reedy model structures]]
