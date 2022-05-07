@@ -383,7 +383,7 @@ Discussion of Kaluza-Klein-style dimensional reduction in [[Wick rotation|Wick r
 
 and specifically with an eye to discussion of the [[quark-gluon plasma]] in
 
-* {#BlaizotIancuRebhan03} Jean-Paul Blaizot, Edmond Iancu, Anton Rebhan, section 2.2.4 of _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
+* {#BlaizotIancuRebhan03} Jean-Paul Blaizot, Edmond Iancu, [[Anton Rebhan]], section 2.2.4 of _Thermodynamics of the high temperature quark gluon plasma_, Quark–Gluon Plasma 3, pp. 60-122 (2004) ([arXiv:hep-ph/0303185](https://arxiv.org/abs/hep-ph/0303185), [spire:615570](http://inspirehep.net/record/615570))
 
 * {#Blaizot04} Jean-Paul Blaizot, around p. 17 of _Thermodynamics of the high temperature Quark-Gluon Plasma_, AIP Conf. Proc. 739, 63-96 (2004) ([doi:10.1063/1.1843592](https://doi.org/10.1063/1.1843592))
 
