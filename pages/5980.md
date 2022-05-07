@@ -55,6 +55,8 @@ $$
 
 * [[term introduction rule]], [[term elimination rule]]
 
+* [[telescope]]
+
 [[!redirects terms]]
 [[!redirects inhabitant]]
 [[!redirects inhabitants]]
