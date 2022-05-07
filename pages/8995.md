@@ -8,6 +8,10 @@ On [[reflective factorization systems]]:
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
  
+On [[regular and exact completions]] (and on [[free coproduct completions]], etc.):
+
+* [[Aurelio Carboni]], [[Enrico Vitale]], *Regular and exact completions*, Journal of Pure and Applied Algebra **125** 1–3  (1998) 79-116 (<a href="https://doi.org/10.1016/S0022-4049(96)00115-6">doi:10.1016/S0022-4049(96)00115-6</a>)
+
 
 On [[Cartesian bicategories]]:
 
