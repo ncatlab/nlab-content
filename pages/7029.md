@@ -98,6 +98,8 @@ If this is an $\infty$-[[free action]] in that all its higher [[shear maps]] are
 
 \[
   \label{HigherShearMapsOfInfinityFreeAction}
+  \underset{n \in \mathbb{N}}{\forall}
+  \;\;\;
   X \times G^n
   \xhookrightarrow{ \phantom{---}  }
   X^{\times_{n+1}}
@@ -118,7 +120,8 @@ then the [[homotopy quotient]]
 
 is [[equivalence in an (infinity,1)-category|equivalent]] to the plain [[quotient]], namely to the [[coequalizer]]
 
-$$
+\[
+  \label{QuotientAsCoequalizer}
   \tau_0(X) 
     /
   \tau_0(G) 
@@ -133,7 +136,7 @@ $$
   \in
   \;
   \mathbf{H}_0
-$$
+\]
 
 of [[0-truncated]] objects 
 
@@ -149,9 +152,10 @@ of [[0-truncated]] objects
   \ar[
     l, 
     shift right=7pt, 
-    "\mathclap{\times}"{pos=0}, 
+    "{\mathclap{\times}}"{description, pos=0}, 
     "{\tau_0}"{above}
   ]
+  \ar[l, phantom, "{\scalebox{.7}{$\bot$}}"]
 \end{tikzcd}
 
 in that
@@ -304,6 +308,8 @@ But then taking the [[(infinity,1)-colimits|$\infty$-colimit]] over [[simplicial
 
 \[
   \label{ZeroTruncationOfHomotopyQuotientOfFreeAction}
+  i_0
+  \circ
   \tau_0
   \big(
     X \!\sslash\! G
@@ -322,6 +328,8 @@ $$
     X \!\sslash\! G
     & 
     \;\simeq\;
+    i_0
+    \circ
     \tau_0
     \big( 
       X \!\sslash\! G
@@ -331,35 +339,53 @@ $$
     \\
     & 
     \;\simeq\;
+    i_0
+    \circ
     \tau_0
-    \big( 
+    \Big( 
       \underset{\underset{ [n] \in \Delta^{op} }{\longrightarrow}}{\lim}
       \,
       X \times G^{\times_n}
-    \big)    
+    \Big)    
     &
     \text{ (eq:HomotopyQuotientAsInfinityColimit) }
     \\
     & \;\simeq\;
+    i_0
+    \Big(
     \underset{\underset{ [n] \in \Delta^{op} }{\longrightarrow}}{\lim}
     \,
     \tau_0(X) \times \big(\tau_0(G)\big)^{\times_n}
+    \Big)
     &
     \text{ (eq:ZeroTruncationReflectionInProofOfFreeHomotopyQuotients) }
     \\
     & \;\simeq\;
-    coeq
-    \big(
-      \tau_0(X) \times \tau_0(G)
-      \overset{\phantom{---}}{\rightrightarrows}
-      \tau_0(X)
-    \big)
+    i_0
+    \Big(
+      coeq
+      \big(
+        \tau_0(X) \times \tau_0(G)
+        \overset{\phantom{---}}{\rightrightarrows}
+        \tau_0(X)
+      \big)
+    \Big)
     &
     \text{ (eq:InclusionOfParallelPairIntoOppositeSimplexCategoryIsFinal) }
+    \\
+    & \;=\;
+    i_0
+    \big(
+      \tau_0(X)
+      /
+      \tau_0(G)
+    \big)
+    &
+    \text{ (eq:QuotientAsCoequalizer). }
   \end{array}  
 $$
 
-In in the last line we used (from [this Example](final+functor#FirstPairOfFaceMapsFinalInOppositeSimplexCategory)) that the inclusion of the [[diagram]] consisting of a [[pair]] of [[parallel morphisms]] into the [[opposite category|opposite]] of the [[simplex category]] is [[final functor]]
+In the second but last line we used (from [this Example](final+functor#FirstPairOfFaceMapsFinalInOppositeSimplexCategory)) that the inclusion of the [[diagram]] consisting of a [[pair]] of [[parallel morphisms]] into the [[opposite category|opposite]] of the [[simplex category]] is [[final functor]]
 \[
   \label{InclusionOfParallelPairIntoOppositeSimplexCategoryIsFinal}
     \left(
@@ -376,7 +402,7 @@ In in the last line we used (from [this Example](final+functor#FirstPairOfFaceMa
     \text{is final}
     \,,
 \]
-meaning that the [[colimit]] over a [[simplicial object]] is equivalently the [[coequalizer]] of the first two [[face maps]].
+meaning that the [[colimit]] over a [[simplicial object]] in a [[1-category]] is equivalently the [[coequalizer]] of the first two [[face maps]].
 \end{proof}
 
 
