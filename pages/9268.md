@@ -54,6 +54,10 @@ If the underlying type of manifolds is [[Banach manifold]], then one speaks of _
 
 * [[Karl-Hermann Neeb]], _Towards a Lie theory of locally convex groups_, Japanese Journal of Math. 1 (2006), 291-468 ([arXiv:1501.06269](https://arxiv.org/abs/1501.06269)) 
 
+
+* [[Alexander Schmeding]],  Chaper 3 of: *An introduction to infinite-dimensional differential geometry*, Cambridge University Press ([arXiv:2112.08114](https://arxiv.org/abs/2112.08114))
+
+
 [[!redirects infinite-dimensional Lie groups]]
 
 [[!redirects Banach-Lie group]]
