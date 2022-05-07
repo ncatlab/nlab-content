@@ -145,7 +145,7 @@ $$
   +_* \Delta^* \hat G_1 \times \hat G_2
 $$
 
-The first step forms the [[pullback]] of the short exact sequence along rhe diagonal on $G$:
+The first step forms the [[pullback]] of the short exact sequence along the diagonal on $G$:
 
 $$
   \array{
