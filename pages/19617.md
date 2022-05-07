@@ -44,6 +44,8 @@ On other global geometric aspects of theoretical physics (e.g. [[classical doubl
 
 ## Invited talks
 
+* _Towards an extended/higher correspondence -- generalised geometry, bundle gerbes and global T-duality_, seminar at [University of Hertfordshire](https://www.herts.ac.uk/research/groups-and-units/mathematics-and-mathematical-physics), 12th May 2021
+
 * _Global Double Field Theory and tensor hierarchy_, seminar at [Prague Mathematical Physics Seminar Series](https://www.youtube.com/channel/UCIYkS8Ei3JBIpG1az60MceQ), 1st April 2021 ([recording](https://www.youtube.com/watch?v=c0M3VAXWdTQ&t=405s&ab_channel=PragueMathematicalPhysicsSeminar))
 
 * _Higher geometric aspects of global Double Field Theory_, seminar at [Exceptional Geometry Seminar Series](https://sites.google.com/view/egseminars), 28th August 2020 ([recording](https://drive.google.com/file/d/1Hzn_sN0GewfYaP1ZGrIw8jUunDnhud-8/view?usp=sharing), [slides](https://drive.google.com/file/d/1xa_aq8K8aBR1mxwnKFIZjtST2QBGpnSO/view?usp=sharing))
