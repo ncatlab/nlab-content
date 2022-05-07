@@ -35,5 +35,9 @@ On [[Cartesian bicategories]]:
 
 * [[bicategory of relations]]
 
+
 category: people
+
 [[!redirects Robert F. C. Walters]]
+[[!redirects R. F. C. Walters]]
+
