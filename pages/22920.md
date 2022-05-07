@@ -1,13 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
 
-# Contents
+
+# Contents #
 * table of contents
 {: toc}
 
 
 ## Idea
 
-A result in [[ergodic theory]] concerning the structure of measure-preserving dynamical systems. 
+A result in [[ergodic theory]] concerning the structure of [[measure]]-preserving [[dynamical systems]]. 
 
 ## References
 
