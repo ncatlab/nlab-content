@@ -22,6 +22,10 @@ For finite [[types]] in [[type theory]] and in [[homotopy type theory]] see at *
 * table of contents
 {:toc}
 
+## Idea
+
+The terminology of "objects of finite type" or of objects that "have finite type"  is common in various contexts and usually means something like *[[finitely generated object]]*; but beware that conventional usage across contexts is not fully systematic.
+
 ## Definitions
 
 ### In algebraic geometry
