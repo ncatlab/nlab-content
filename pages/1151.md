@@ -801,32 +801,16 @@ See also
 
 * [[cohomological integration]]
 
-## References and history
+## References
  {#References}
 
-The original references on [[cochain cohomology]] and [[ordinary cohomology]] in the form of [[singular cohomology]]:
 
-* [[Andrei Kolmogoroff]], _Über die Dualität im Aufbau der kombinatorischen Topologie_, Recueil Mathématique 1(43) (1936), 97–102.  ([mathnet](http://mi.mathnet.ru/msb5361))
 
-A footnote on the first page reads:
+[[!include cohomology -- early references]]
 
-> Die Resultate dieser Arbeit wurden für den Fall gewöhnlicher Komplexe vom Verfasser im Frühling und im Sommer 1934 erhalten und teilweise an der Internationalen Konferenz für Tensoranalysis (Moskau) im Mai 1934 vorgetragen. Die hier dargestellte allgemeinere Theorie bildete den Gegenstand eines Vortrages, den der Verfasser an der Internationalen Topologischen Konferenz (Moskau, September 1935) hielt; bei letzterer Gelegenheit erfuhr er, dass ein grosser Teil dieser Resultate im Falle von Komplexen indessen von Herrn Alexander erhalten worden ist. Vgl. die inzwischen erschienenen Noten von Herrn Alexander in den «Proceedings of the National Academy of Sciences U.S.A.», 21, (1935), 509—512. Herr Alexander trug über seine Resultate ebenfalls an der Moskauer Topologischen Konferenz vor. Verallgemeinerungen für abgeschlossene Mengen und die Konstruktion eines Homologieringes für Komplexe und abgeschlossene Mengen, über welche der Verfasser ebenso an der Tensorkonferenz 1934 vorgetragen hat, werden in einer weiteren Publikation dargestellt. Diese weitere Begriffsbildungen sind übrigens ebenfalls von Herrn Alexander gefunden und teilweise in den erwähnten Noten publiziert. 
 
-* [[Andrei Kolmogoroff]], _Homologiering des Komplexes und des lokal-bicompakten Raumes_, Recueil Mathématique 1(43) (1936), 701–705.  [mathnet](http://mi.mathnet.ru/msb5475).
+### General
 
-* [[J. W. Alexander]], _On the chains of a complex and their duals_, Proc. Nat. Acad. Sei. USA, 21(1935), 509–511 ([doi:10.1073/pnas.21.8.50](https://doi.org/10.1073/pnas.21.8.50))
-
-* [[J. W. Alexander]], _On the ring of a compact metric space_, Proc. Nat. Acad. Sci. USA, 21(1935), 511–512 ([doi:10.1073/pnas.21.8.511](https://doi.org/10.1073/pnas.21.8.511))
-
-* [[J. W. Alexander]], _On the connectivity ring of an abstract space_, Ann. of Math., 37 (1936), 698–708 ([doi:10.2307/1968484](https://doi.org/10.2307/1968484), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/alexcon.pdf))
-
-The term “cohomology” was introduced by [[Hassler Whitney]] in
-
-* {#Whitney37} [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45 ([doi:10.1215/S0012-7094-37-00304-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-3/issue-1/On-matrices-of-integers-and-combinatorial-topology/10.1215/S0012-7094-37-00304-1.short))
-
-See also
-
-* [[Hassler Whitney]], _On products in a complex_, Annals of Math. 39 (1938) 397–432 ([doi:10.2307/1968795](https://doi.org/10.2307/1968795))
 
 The general abstract perspective on cohomology as highlighted in the text above was essentially established in:
 
@@ -864,8 +848,7 @@ The only fundamental new addition to this insight that is available now and was 
 * These categories $H = Ho_{SSh}$ are precisely the [[homotopy category of an (infinity,1)-category|hom-wise decategorification]] of [[(∞,1)-category of (∞,1)-sheaves]] otherwise known as the [[(∞,1)-topoi]] of [[∞-stacks]].
 
 
-This is propositon 6.5.2.1 in [[Jacob Lurie]]'s _[[Higher Topos Theory]]_ and builds on the fundamental work by K. Brown, Joyal and Jardine and others on the 
-[[model structure on simplicial presheaves]].
+This is propositon 6.5.2.1 in [[Jacob Lurie]]'s _[[Higher Topos Theory]]_ and builds on the fundamental work by K. Brown, Joyal and Jardine and others on the  [[model structure on simplicial presheaves]].
 
 For a _motivation_ of these definitions from the point of view of cohomology as a homotopy hom-set of $\infty$-stacks see for instance the introductory pages of
 
