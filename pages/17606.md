@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -37,11 +38,23 @@ The universal Platonic 2-group extensions $\mathcal{G}_{uni}[i]$ of  $G_{ADE}$ [
 
 $$
   \array{
-    \mathcal{G}_{uni}[i] &\longrightarrow& \mathbf{B}G_{ADE} &\longrightarrow& \mathbf{B}^3 \mathbb{Z}/{\vert G_{ADE}\vert}
+    \mathcal{G}_{uni}[i] 
+      &\longrightarrow& 
+    \mathbf{B}G_{ADE} 
+      &\longrightarrow& 
+    \mathbf{B}^3 \mathbb{Z}/{\vert G_{ADE}\vert}
     \\
-    \downarrow && \downarrow && \downarrow^{\mathrlap{\mathbf{B}^3 i}}
+    \big\downarrow 
+      && 
+    \big\downarrow 
+      && 
+    \big\downarrow^{\mathrlap{\mathbf{B}^3 i}}
     \\
-    String(SU(2)) &\longrightarrow& \mathbf{B} SU(2) &\underset{\mathbf{c}_2}{\longrightarrow}& \mathbf{B}^3 U(1)
+    String(SU(2)) 
+      &\longrightarrow& 
+    \mathbf{B} SU(2) 
+      &\underset{\mathbf{c}_2}{\longrightarrow}& 
+    \mathbf{B}^3 U(1)
   }
   \,,
 $$
@@ -58,10 +71,9 @@ See also at _[[finite subgroup of SU(2)]] -- [Discrete torsion](finite+rotation+
 
 ## References
 
-* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([[Epa_Platonic2Groups.pdf:file]])
 
-
-* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
 
 [[!redirects Platonic 2-groups]]
 
