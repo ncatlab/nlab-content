@@ -105,7 +105,7 @@ Review is in
 
 An argument that RR-charge may occur in [[irrational number|irrational]] ratios is due to
 
-* [[Constantin Bachas]], [[Michael Douglas]], [[Christoph Schweigert]], around (2.8) of _Flux Stabilization of D-branes_, JHEP 0005:048,2000 ([arXiv:hep-th/0003037](https://arxiv.org/abs/hep-th/0003037))
+* {#BDS00} [[Constantin Bachas]], [[Michael Douglas]], [[Christoph Schweigert]], around (2.8) of _Flux Stabilization of D-branes_, JHEP 0005:048, 2000 ([arXiv:hep-th/0003037](https://arxiv.org/abs/hep-th/0003037))
 
 In a sequence of followup articles, authors found this problematic and tried to make sense of it:
 
@@ -117,6 +117,9 @@ In a sequence of followup articles, authors found this problematic and tried to 
 
 * {#Zhou01} Jian-Ge Zhou, _D-branes in B Fields_, Nucl.Phys. B607 (2001) 237-246 ([arXiv:hep-th/0102178](https://arxiv.org/abs/hep-th/0102178))
 
+Observation that this paradox is resolved under [[schreiber:Hypothesis H]], at least for [[fractional D-branes]]:
+
+* [[Simon Burton]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Lift of fractional D-brane charge to equivariant Cohomotopy theory|Lift of fractional D-brane charge to equivariant Cohomotopy theory]]*, J Geom  Phys **161** (2021) 104034 ([doi:10.1016/j.geomphys.2020.104034](https://doi.org/10.1016/j.geomphys.2020.104034), [arXiv:1812.09679]([arXiv:1812.09679](https://arxiv.org/abs/1812.09679))
 
 
 
