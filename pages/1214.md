@@ -1,3 +1,5 @@
+[[!redirects Mal&#39;cev category]]
+[[!redirects Mal&#39;cev category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,15 +18,15 @@
 ## Definition
 
 
-A __Mal'cev category__ is a [[finitely complete category|left exact category]] (= having [[finite limits]]) in which any [[reflexive relation|reflexive]] [[internal relation]] is an [[congruence|equivalence relation]]. Equivalently, the [[fibers]] of its [[fibration of points]] are [[unital category|unital]] (equivalently the fibers of the fibration of points are strongly unital). 
+A __Malcev category__ is a [[finitely complete category|left exact category]] (= having [[finite limits]]) in which any [[reflexive relation|reflexive]] [[internal relation]] is an [[congruence|equivalence relation]]. Equivalently, the [[fibers]] of its [[fibration of points]] are [[unital category|unital]] (equivalently the fibers of the fibration of points are strongly unital). 
 
 ## Examples
 
-Examples include the [[Grp|category of groups]], and in fact the category of $T$-algebras for any [[Lawvere theory|theory]] $T$ which contains a group operation (an $\Omega$-[[Omega-group|group]]). Other examples include the category, $Heyt$, of [[Heyting algebra]]s and the category of left closed [[magma]]s. The dual category to an [[elementary topos]] is a Mal'cev category.  A [[Malʹcev variety]] is a [[variety of algebras]] whose category of models is a Mal'cev category.
+Examples include the [[Grp|category of groups]], and in fact the category of $T$-algebras for any [[Lawvere theory|theory]] $T$ which contains a group operation (an $\Omega$-[[Omega-group|group]]). Other examples include the category, $Heyt$, of [[Heyting algebra]]s and the category of left closed [[magma]]s. The dual category to an [[elementary topos]] is a Malcev category.  A [[Malcev variety]] is a [[variety of algebras]] whose category of models is a Malcev category.
 
 ## Properties
 
-In any Mal'cev category, every [[internal category]] is a [[groupoid]].
+In any Malcev category, every [[internal category]] is a [[groupoid]].
 
 ## Related notions
 
