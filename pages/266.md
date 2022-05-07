@@ -991,7 +991,7 @@ and its applications to the theory of (2-dimensional) [[flat functors]] can be s
 
 For a treatment of left Kan extensions as 'partial colimits', see
 
-* [[Paolo Perrone]], [[Walter Tholen]], _Kan extensions are partial colimits_, ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are [[partial evaluation|partial]] colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
 
 
 [[!redirects Kan extension]]
