@@ -60,9 +60,11 @@ Review and further discussion in:
 
 * {#Riehl14} [[Emily Riehl]], Chapter 18 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
+* {#RiehlVerity15} [[Emily Riehl]], [[Dominic Verity]], Section 3 of: _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
+
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], Section 1.3 in: _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
-* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], Chapter 1 of: *Elements of $\infty$-Category Theory*, 2021- ([pdf](https://math.jhu.edu/~eriehl/elements.pdf))
+* {#RiehlVerity21} [[Emily Riehl]], [[Dominic Verity]], Chapter 1 of: *Elements of $\infty$-Category Theory*, 2021- ([pdf](https://math.jhu.edu/~eriehl/elements.pdf))
 
 [[!redirects homotopy 2-category of (infinity,1)-categories]]
 
