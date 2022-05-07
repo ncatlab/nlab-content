@@ -49,7 +49,7 @@ Every family consisting of a single [[isomorphism]] $\{V \stackrel{\cong}{\to}U\
 
 =--
 
-If we drop the first and third conditions, we obtain something a bit stronger than a [[coverage]]; at the page [[coverage]] this notion is called a *cartesian coverage*.  Conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies. On the other hand, for some analogues in noncommutative algebraic geometry, rather the stability axiom fails. 
+If we drop the second and third conditions, we obtain something a bit stronger than a [[coverage]]; at the page [[coverage]] this notion is called a *cartesian coverage*.  Conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies. On the other hand, for some analogues in noncommutative algebraic geometry, rather the stability axiom fails. 
 
 
 +-- {: .num_defn}
