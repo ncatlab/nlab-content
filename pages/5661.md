@@ -37,8 +37,4 @@ The components of a  natural equivalence  are [[equivalences]] between the [[obj
 
 * [[natural isomorphism]]
 
-* **natural equivalence**
-
-(...)
-
 [[!redirects natural equivalences]]
