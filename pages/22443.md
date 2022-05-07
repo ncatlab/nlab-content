@@ -354,10 +354,9 @@ Computer experiment ([CSS21](#CSS21)) suggest that the exceptional positive semi
 
 ## Properties
 
-### Gershgorin radius
+### Sum over one row
 
-We discuss the [[Gershgorin radius]] of the Cayley distance kernel, in Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel} below. First we establish a couple of lemmas: 
-
+We give a useful expression (Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel} below) for the sum over the first row of the Cayley distance kernel. This appears both in the expression for its Gershgorin radius (Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel}) as well as being the eigenvalue of the kernel on the homogeneous distribution (Example \ref{HomogeneousDistributionIsEigenvalue}).
 
 \begin{lemma}\label{SumOfExpLambdaNumCyclesOverPermutations}
 For $n \in \mathbb{N}$, with $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, and for any [[variable]] $\beta$, we have (as an [[equation]] between [[polynomials]] in $e^\beta$):
@@ -531,6 +530,98 @@ $$
 $$
 \end{proof}
 
+An immediate variant of Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations}:
+
+\begin{lemma}\label{SumOfSgnExpLambdaNumCyclesOverPermutations}
+For $n \in \mathbb{N}$, with $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, and for any [[variable]] $\beta$, we have (as an [[equation]] between [[polynomials]] in $e^\beta$):
+  $$
+    \underset{
+      \sigma \in Sym(n)
+    }{
+      \sum
+    }
+    sgn(\sigma)
+      \cdot
+    e^{ \beta \cdot \left\vert Cycles(\sigma) \right\vert }
+    \;=\;
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      e^{\beta} - k
+    \big)
+    \,,
+  $$
+  where 
+  $sgn(\sigma)$ denotes the [[signature of a permutation]]. 
+\end{lemma}
+This is mentioned, without proof, at [MO:q/245010](https://mathoverflow.net/a/245010/).
+\begin{proof}
+  We compute as follows:
+$$
+  \begin{aligned}
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      e^{\beta} - k
+    \big)
+    & 
+    \;=\;
+    (-1)^n
+    \underoverset    
+      {k = 0}
+      {n-1}
+      {\prod}
+    \big(
+      - e^{\beta} + k
+    \big)
+    \\
+    & 
+    \;=\;
+    (-1)^n
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    (-e^\beta)^{\left\vert Cycles(\sigma)\right\vert}
+    \\
+    & \;=\;
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    (-1)^{n - \left\vert Cycles(\sigma)\right\vert}
+    \cdot
+    (e^\beta)^{\left\vert Cycles(\sigma)\right\vert}
+    \\
+    & \;=\;
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    (-1)^{\left\vert EvenLengthCycles(\sigma)\right\vert}
+    \cdot
+    (e^\beta)^{\left\vert Cycles(\sigma)\right\vert}
+    \\
+    & \;=\;
+    \underset{
+      \sigma \in Sym(n)
+    }{\sum}
+    sgn(\sigma)
+    \cdot
+    (e^\beta)^{\left\vert Cycles(\sigma)\right\vert}
+  \end{aligned}
+$$
+
+Here the second step is Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations}.
+
+To see the fourth step, notice that if $n$ is even/odd there must be an even/odd number of permutations of odd length. Therefore $n$ plus the number of odd-length permutations cancels out in signs and thus leaves the sign of the number of even permutations.
+
+The last step is the observation that the signature of a permutation is the sign of its number of even-length permutations, since for each cycle there is one less transposition than elements in the cycle (see [here](Cayley+distance#eq:CyclicPermutationAsProductOfTranspositions)).
+\end{proof}
+
+
+Another immediate consequence of Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations} is this:
 
 \begin{lemma}\label{SumOverFirstRowOfCayleyDistanceKernel}
 **(sum over first row of Cayley distance kernel)** \linebreak
@@ -599,6 +690,12 @@ where:
 * the last step uses Lemma \ref{SumOfExpLambdaNumCyclesOverPermutations}.
 
 \end{proof}
+
+
+
+### Gershgorin disc
+
+We discuss the [[Gershgorin radius]] of the Cayley distance kernel, in Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel} below.
 
 
 \begin{prop}\label{GershgorinRadiiOfCayleyDistanceKernel}
@@ -707,27 +804,6 @@ This follows from the [[right invariant metric|right invariance]] of the [[Cayle
 \end{proof}
 
 
-\begin{lemma}\label{SumOfSgnExpLambdaNumCyclesOverPermutations}
-  For $n \in \mathbb{N}$ and $Sym(n)$ denoting the [[symmetric group]] on $n$ elements, we have
-  $$
-    \underset{
-      \sigma \in Sym(n)
-    }{
-      \sum
-    }
-    sgn(\sigma) \cdot e^{ \beta \cdot  \left\vert Cycles(\sigma) \right\vert }
-    \;=\;
-    \underoverset    
-      {k = 0}
-      {n-1}
-      {\prod}
-    \big(
-      e^{\beta} - k
-    \big)
-    \,.
-  $$
-\end{lemma}
-(e.g. discussion at [MO:q/245010](https://mathoverflow.net/a/245010/))
 
 \begin{lemma}\label{SumOverSgnFirstRowOfCayleyDistanceKernel}
 **(signed sum over first row of Cayley distance kernel)** \linebreak
