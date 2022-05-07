@@ -29,25 +29,36 @@ A _tetraquark_ is an [[exotic meson]] which is a [[bound state]] of four [[quark
 * [[XYZ meson]]
 
 ## References
+ {#References}
 
 
 ### General 
 
-The idea of tratraquarks is mentioned already in the original articles on [[quarks]].
+The idea of tetraquarks is mentioned already in the original articles on [[quarks]].
 
 The original proposal for tetraquarks with two [[heavy quark]] constitutents:
 
 * J.P. Ader,  J.M. Richard, P. Taxil, *Do narrow heavy multiquark states exist?*, Phys. Rev. D 25 (1982) 2370 ([doi:10.1103/PhysRevD.25.2370](https://doi.org/10.1103/PhysRevD.25.2370), [spire:166170](https://inspirehep.net/literature/166170))
 
+and fully heave tetraquarks:
+
+* L. Heller and J. A. Tjon, *Bound states of heavy *Q^2 Q^{-2}* systems*, Phys. Rev. D **32** (1985) 755 ([doi:10.1103/PhysRevD.32.755](https://doi.org/10.1103/PhysRevD.32.755))
     
 See also:
 
 * Wikipedia, _[Tetraquark](https://en.m.wikipedia.org/wiki/Tetraquark)
 
+### Via hadron supersymmetry
 
-Discussion in view of [[hadron supersymmetry]] in [[holographic light front QCD]]:
+Discussion in view of [[hadron supersymmetry]] and [[diquark]]-models:
+
+in [[holographic light front QCD]]:
 
 * [[Hans Günter Dosch]], [[Stanley Brodsky]], [[Guy de Teramond]], [[Marina Nielsen]], [[Liping Zou]], _Exotic States in a Holographic Theory_, [QCD 20)](https://inspirehep.net/conferences/1778269) ([arXiv:2012.02496](https://arxiv.org/abs/2012.02496))
+
+in regards to experimental results:
+
+* M. A. Bedolla, J. Ferretti, C. D. Roberts, E. Santopinto, *Spectrum of fully-heavy tetraquarks from a diquark+antidiquark perspective* ([arXiv:1911.00960](https://arxiv.org/abs/1911.00960), [doi:10.1140/epjc/s10052-020-08579-3](https://doi.org/10.1140/epjc/s10052-020-08579-3))
 
 ### Experimental detection
  {#ExperimentalDetection}
