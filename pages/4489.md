@@ -2,9 +2,18 @@ _Tomasz Brzezi&#324;ski_ is a Polish-UK mathematician and [[mathematical physici
 
 * Tomasz's Swansea pages: [homepage](https://www.swansea.ac.uk/staff/science/maths/brzezinski-t/).
 
+##Selected publications
+
 Monograph:
 
 * T. Brzezi&#324;ski, R. Wisbauer, _Corings and comodules_, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+
+##Articles.
+
+* T. Brzeziński and [[S. Majid]], _Coalgebra bundles_, Commun. Math. Phys, 191, (1998), 467 – 492
+
+
+* T. Brzeziński, A. Vazquez Marquez and [[J. Vercruysse]], _The Eilenberg-Moore category and a Beck-type theorem for a Morita context_, Applied Categorical Structures, 19, (2011), 821–858.
 
 [[!redirects Tomasz Brzeziński]]
 [[!redirects T. Brzeziński]]
