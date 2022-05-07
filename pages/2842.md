@@ -23,7 +23,7 @@
 In [[algebraic topology]] and [[homotopy theory]],
 *Hurewicz cofibrations* are a kind of [[cofibration]] of [[topological spaces]], hence a kind of [[continuous function]] satisfying certain [[extension]] properties. 
 
-Specifically, a [[continuous function]] is a _Hurewicz cofibration_ if it satisfies the [[homotopy extension property]] for all target spaces and with respect to the standard notion of [[left homotopy]] of topological spaces given by the standard topological [[interval object]]/[[cylinder object]].
+Specifically, a [[continuous function]] is a _Hurewicz cofibration_ ([Strøm 1966](#Strom66)) if it satisfies the [[homotopy extension property]] for all target spaces and with respect to the standard notion of [[left homotopy]] of topological spaces given by the standard topological [[interval object]]/[[cylinder object]].
 
 
 In [[point-set topology]] Hurewicz cofibrations are often just called _cofibrations_,for short. If their [[image]] is a [[closed subspace]] they are called _[[closed cofibrations]]_. 
@@ -178,9 +178,38 @@ A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is cal
 
 ## Properties
 
-### Subspace inclusions
+
+### Closedness
+ {#Closedness}
+
+\begin{prop}
+Every Hurewicz cofibration $i$ is [[injective function|injective]] and a [[homeomorphism]] onto its image.
+\end{prop}
+
+([tDKP 1970](#tDKP70) (1.17)). 
+
+\begin{prop}\label{HurewiczCofibrationsInCGWHSpacesAreClosed}
+In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], the image $i(A)$ of a Hurewicz cofibration is always closed.
+The same holds in the category of all [[Hausdorff spaces]].
+\end{prop}
+
+(e.g. [May 1999, Sec. 6.2, p. 44 (52 of 251)](#May99))
+
+But in the plain category [[Top]] of all topological spaces there are pathological counterexamples:
+
+\begin{example}
+Let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\varnothing$ are [[open subsets]] of $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration. 
+\end{example}
+([Strøm 1955, p. 5](#Strom66))
+
+
+### Characterization for closed subspace inclusions
  {#Inclusions}
 
+When the [[image]] of a Hurewicz cofibration is a [[closed subspace]] -- which is automatically the case in [[weakly Hausdorff topological spaces]], by Prop. \ref{}HurewiczCofibrationsInCGWHSpacesAreClosed -- then there are a number of equivalent reformulations of the defining homotopy extension property (Def. \ref{HurewiczCofibration}).
+
+
+#### Via retracts of the pushout-product with $0 \hookrightarrow [0,1]$
 
 \begin{proposition}\label{CharacterizationViaRetractionOfPushoutProduct}
   A [[closed subset|closed]] [[topological subspace]]-inclusion $A \xhookrightarrow{\;i\;} X$ is a Hurewicz cofibration precisely if its [[pushout product]] with the endpoint inclusion $0 \,\colon\,  \ast \xhookrightarrow{\;} [0,1]$ into the [[topological interval]]
@@ -241,45 +270,132 @@ A Hurewicz cofibration $i \colon A\to X$ (Def. \ref{HurewiczCofibration}) is cal
   Since [[compactly generated spaces]] with the k-ified product space construction form a [[cartesian closed category]], the operation $Y \times (-)$ is a [[left adjoint]] and [[left adjoints preserve colimits|hence]] [[preserved colimit|preserves]] the [[pushout]] in (eq:PushoutProductMap). It follows that the retract which exhibits, according to Prop. \ref{CharacterizationViaRetractionOfPushoutProduct}, the cofibration property of $i$, may be extended as a [[constant function]] in $Y$ to yield a retract that exhibits the cofibration property of $Y \times i$.
 \end{proof}
 
-+-- {: .num_cor}
-###### Corollary
 
-A subcomplex inclusion into a [[CW-complex]] is a closed Hurewicz cofibration.
+#### Via neighbourhood deformations
 
-=--
+\begin{proposition}\label{CharactrerizationViaNeighbourhoodDeformation}
+  A [[closed subset|closed]] [[topological subspace]]-inclusion $A \xhookrightarrow{\;i\;} X$ is a Hurewicz cofibration precisely if the following condition holds:
 
-By Prop. \ref{CharacterizationViaRetractionOfPushoutProduct}, see e.g. Bredon _Topology and Geometry_, p. 431.
+There exists:
+
+(1) a [[neighbourhood]] $U$ of $A$ in $X$
+
+   $$
+     A \xhookrightarrow{\;} U \xhookrightarrow{\;} X
+   $$
+
+(2) a [[left homotopy]] $\eta$ shrinking this neighbourhood into $A$ relative to $A$, in that it makes the following [[commuting diagram|diagram commute]]:
+
+\begin{tikzcd}[column sep=20pt]
+    &
+    A \times [0,1]
+    \ar[
+      dr,
+      ->>
+    ]
+    \\[-25pt]
+    U 
+    \ar[
+      d,
+      hook,
+      "{
+        (\mathrm{id}, 0)
+      }"{left}
+    ]
+    \ar[
+      drr,
+      hook,
+      "{  
+      }"
+    ]
+    & 
+    &
+    A
+    \ar[
+      d,
+      hook
+    ]
+    \\
+    U \times [0,1]
+    \ar[
+      rr,
+      dashed,
+      "{\eta}"{description}
+    ]
+    \ar[
+      from=uur,
+      hook,
+      crossing over
+    ]
+    &&
+    X
+    \\
+    U
+    \ar[
+      u,
+      hook,
+      "{
+        (\mathrm{id}, 1)
+      }"{left}
+    ]
+    \ar[
+      rr,
+      dashed
+    ]
+    &&
+    A 
+    \ar[
+     u,
+     hook
+    ]
+\end{tikzcd}
+
+(3) another [[continuous function]] $\phi \colon X \xrightarrow{\;} [0,1]$ which makes the following [[commuting diagram|diagram commute]]:
+
+\begin{tikzcd}[row sep=small]
+    A 
+    \ar[
+      d,
+      hook
+    ]
+    \ar[rr]
+    &&
+    \{0\}
+    \ar[
+      d,
+      hook
+    ]
+    \\
+    X
+    \ar[
+      rr,
+      dashed,
+      "{\phi}"{description}
+    ]
+    &&
+    {[0,1]}
+    \\
+    X \setminus U
+    \ar[
+      u,
+      hook
+    ]
+    \ar[rr]
+    &&
+    \{1\}
+    \ar[
+      u,
+      hook
+    ]
+\end{tikzcd}
+
+and in fact such that only $A$ is the [[preimage]] of zero: $A \,=\, \phi^{-1}(\{0\})$.
+\end{proposition}
+
+(This is due to [Strøm 1966, Thm. 2](#Strom66); recalled, e.g., in [Bredon 1993, Thm. 1.5 on p. 431](#Bredon93))
 
 
-More generally, every [[retract]] of a [[relative cell complex]] inclusion is a closed Hurewicz cofibration. 
 
-This is part of the statement of the [[Quillen adjunction]] between then [[classical model structure on topological spaces]] and the [[Strøm model structure]] (see [below](#StromModelStructure))
-
-
-### Closedness
- {#Closedness}
-
-
-\begin{prop}
-Every Hurewicz cofibration $i$ is [[injective function|injective]] and a [[homeomorphism]] onto its image.
-\end{prop}
-
-([tDKP 1970](#tDKP70) (1.17)). 
-
-\begin{prop}\label{HurewiczCofibrationsInCGWHSpacesAreClosed}
-In the category of [[weakly Hausdorff space|weakly Hausdorff]] [[compactly generated spaces]], the image $i(A)$ of a Hurewicz cofibration is always closed.
-The same holds in the category of all [[Hausdorff spaces]].
-\end{prop}
-
-(e.g. [May 1999, Sec. 6.2, p. 44 (52 of 251)](#May99))
-
-But in the plain category [[Top]] of all topological spaces there are pathological counterexamples:
-
-\begin{example}
-Let $A =\{a\}$ and $X=\{a,b\}$ be the one and two element sets, both with the [[codiscrete topology]] (only $X$ and $\varnothing$ are [[open subsets]] of $X$), and $i:A\hookrightarrow X$ is the inclusion $a\mapsto a$. Then $i$ is a non-closed cofibration. 
-\end{example}
-
-[Strøm 1955, p. 5](#Strom66)
 
 ### Str&#248;m's model structure
  {#StromModelStructure}
@@ -354,10 +470,20 @@ The [[product]] of two closed cofibrations is a closed cofibration.
 
 ## Examples
 
+### Relative cell complex inclusions
+
 \begin{example}\label{RelativeCWComplexes}
   Any [[relative CW complex]]-inclusion is an h-cofibration.
 \end{example}
-Proofs may be found spelled out in: [Félix, Halperin & Thomas 2000, Prop. 1.9](rational+homotopy+theopry#FelixHalperinThomas00), [Mathew 2010](#Mathew10)
+Proofs may be found spelled out in: [Bredon 1993, Cor. I.4 on p. 431](#Bredon93), [Félix, Halperin & Thomas 2000, Prop. 1.9](rational+homotopy+theopry#FelixHalperinThomas00), [Mathew 2010](#Mathew10)
+
+More generally, every [[retract]] of a [[relative cell complex]] inclusion is a closed Hurewicz cofibration. 
+
+This is part of the statement of the [[Quillen adjunction]] between then [[classical model structure on topological spaces]] and the [[Strøm model structure]] (see [below](#StromModelStructure)).
+
+### Basepoints in locally Euclidean spaces
+
+(...)
 
 
 ## References
@@ -374,6 +500,8 @@ Original articles:
 
 
 Textbook accounts:
+
+* {#Bredon93} [[Glen Bredon]], Section VII.1 of: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
 * {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie* Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
