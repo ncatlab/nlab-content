@@ -59,6 +59,7 @@ An ideal of $S$ is just a subobject of $S$ in $Mod_S$. Under the assumption that
 
 * [[principal ideal of a monoid]]
 
+* [[ideal of a ring]]
 
 [[!redirects ideal of a monoid]]
 [[!redirects ideals of a monoid]]
