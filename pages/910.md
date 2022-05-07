@@ -249,7 +249,7 @@ Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorf
  
 \begin{remark}{#LocalCartesianClosure}
 **(failure of local cartesian closure)**
-\linebreal
+\linebreak
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
 cartesian closed]] ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95))
@@ -283,14 +283,13 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
     h k TopSp
   $$
 \end{prop}
-
 (e.g. [Strickland 2009, Prop. 1.7](compactly+generated+topological+space#Strickland09))
 
 \begin{prop}
   The [[product topological space]] of a [[locally compact Hausdorff space]] with a k-space is already a k-space (i.e. without need of k-ification).
 \end{prop}
 
-(e.g. [Piccinini 1992, Thm. B.6](#Piccinini92), [Strickland 2009, Prop. 2.6](compactly+generated+topological+space#Strickland09))
+(e.g. [Lewis 1978, Lem. 2.4](#Lewis78); [Piccinini 1992, Thm. B.6](#Piccinini92), [Strickland 2009, Prop. 2.6](compactly+generated+topological+space#Strickland09))
 
 \begin{proposition}
   A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
@@ -439,7 +438,7 @@ where it is attributed to [[John C. Moore]].
 
 Review in this generality of CG weakly Hausdorff spaces:
 
-* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
+* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_, PhD thesis Chicago, 1978
 
 * {#May99} [[Peter May]], Chapter 5 of: _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
