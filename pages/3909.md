@@ -525,11 +525,11 @@ Introductions and surveys:
 
 * {#FioresiLledoVaradarajan07} R. Fioresi, M. A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J.Math.Phys.48:113505,2007 ([arXiv:0609813](https://arxiv.org/abs/math/0609813))
 
-* [[Michael Atiyah]], Maciej Dunajski, Lionel Mason, _Twistor theory at fifty: from contour integrals to twistor strings_,  Proc. R. Soc. A473: 20170530 ([arXiv:1704.07464](https://arxiv.org/abs/1704.07464), [doi:10.1098/rspa.2017.0530](http://dx.doi.org/10.1098/rspa.2017.0530))
+* [[Michael Atiyah]], [[Maciej Dunajski]], [[Lionel J. Mason]], _Twistor theory at fifty: from contour integrals to twistor strings_,  Proc. R. Soc. A473: 20170530 ([arXiv:1704.07464](https://arxiv.org/abs/1704.07464), [doi:10.1098/rspa.2017.0530](http://dx.doi.org/10.1098/rspa.2017.0530))
 
 * {#Adamo17} Tim Adamo, _Lectures on twistor theory_ ([arXiv:1712.02196](https://arxiv.org/abs/1712.02196))
 
-* L. J. Mason, N. M. J. Woodhouse, _Integrability, self-duality and twistor theory_, OUP 1996
+* [[Lionel J. Mason]], N. M. J. Woodhouse, _Integrability, self-duality and twistor theory_, OUP 1996
 
 * R. S. Ward, R. O. Wells, Jr. _Twistor geometry and field theory_, Cambridge Univ. Press 1990
 
@@ -604,7 +604,7 @@ A general discussion of Penrose-Ward-type transforms sending [[circle 2-bundles]
 
 * [[David Chatterjee]], sections 4 and 8 of _On gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
 
-* L. J. Mason, R. A. Reid-Edwards, A. Taghavi-Chabert, appendix of _Conformal field theories in six-dimensional twistor space_, J. Geom. Phys. 62 (2012), no. 12, 2353-2375 ([arXiv:1111.2585](http://arxiv.org/abs/1111.2585))
+* [[Lionel J. Mason]], R. A. Reid-Edwards, A. Taghavi-Chabert, appendix of _Conformal field theories in six-dimensional twistor space_, J. Geom. Phys. 62 (2012), no. 12, 2353-2375 ([arXiv:1111.2585](http://arxiv.org/abs/1111.2585))
  {#MREIC11}
 
 * [[Christian Saemann]], [[Martin Wolf]], _On twistors and conformal field theories from six dimensions_, J. Math. Phys. 54:013507, 2013  ([arXiv.1111.2539](http://arxiv.org/abs/1111.2539))
