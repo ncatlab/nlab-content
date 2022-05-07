@@ -20,6 +20,37 @@ A [[characteristic class]].
 
 By the [[Hirzebruch-Riemann-Roch theorem]] the [[index]] of the [[Dolbeault operator]] is the Todd genus (e.g. [Gilkey 95, section 5.2](#Gilkey95) (more generally so for the [[Spin^c Dirac operator]]).
 
+## Definition
+
+The [characteristic series](genus#LogarithmAndCharacteristicSeries) of the Todd genus is
+
+$$
+  x \,\mapsto\, \frac{x}{ 1 - e^{-x} }
+  \,.
+$$
+
+This means that as a [[formal power series]] in [[Chern classes]] $c_i$ the Todd class starts out as
+
+$$
+  td 
+    \;=\;
+  1 
+    + 
+  \tfrac{1}{2} c_1
+    + 
+  \tfrac{1}{12} 
+  \big(
+    c_1^2 + c_2 
+  \big) 
+    + 
+  \tfrac{1}{24}
+  c_1 c_2
+    + 
+  \mathcal{O}(deg \geq 8)
+  \,.
+$$
+
+
 ## Properties
 
 ### Relation to Thom class and Chern character
