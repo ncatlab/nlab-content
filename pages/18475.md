@@ -148,6 +148,10 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Rong-Gen Cai, Li Li, Li-Fang Li, Run-Qiu Yang, _Introduction to Holographic Superconductor Models_, Sci China-Phys Mech Astron, 2015, 58(6):060401 ([arXiv:1502.00437](https://arxiv.org/abs/1502.00437))
 
+* Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]],
+*Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
+
+
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
 * [[Jan Zaanen]], _Planckian dissipation, minimal viscosity and the transport in cuprate strange metals_, SciPost Phys. 6, 061 (2019) ([arXiv:1807.10951](https://arxiv.org/abs/1807.10951))
