@@ -102,7 +102,7 @@ As an example:
 \begin{proposition}\label{DeloopedKanFibrationOfHomomorphismOfSimplicialGroups}
   Let $\mathcal{G}_1 \xrightarrow{\phi} \mathcal{G}_2$ be a [[homomorphism]] of [[simplicial groups]] which is a [[Kan fibration]].
 Then the induced morphism of [[simplicial classifying spaces]]
-$\overline{W}\mathcal{G}_1 \xrightarrow{ \overline{W}(\phi)} \overline{W}\mathcal{G}_2$ is a [[Kan fibration]] if and only if $\pi_0(\phi) \colon \pi_0(\mathcal{G}_1) \twoheadrightarrow{\;} \pi_0(\mathcal{G}_1)$ is a [[surjection]].
+$\overline{W}\mathcal{G}_1 \xrightarrow{ \overline{W}(\phi)} \overline{W}\mathcal{G}_2$ is a [[Kan fibration]] if and only if $\phi$ is a [[surjection]] on [[connected components]]: $\pi_0(\phi) \colon \pi_0(\mathcal{G}_1) \twoheadrightarrow{\;} \pi_0(\mathcal{G}_1)$.
 \end{proposition}
 ([Goerss & Jardine, Ch. V, Cor. 6.9](#GoerssJardine))
 \begin{proof}
