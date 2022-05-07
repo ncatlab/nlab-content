@@ -494,11 +494,11 @@ $$
     E^\bullet(\mathbb{C}P^\infty)
     \\
     & \simeq 
-    E^\bullet( \underset{\longleftarrow}{\lim}_n \mathbb{C}P^n )
+    E^\bullet( \underset{\longrightarrow}{\lim}_n \mathbb{C}P^n )
    \\
-    &\simeq \underset{\longrightarrow}{\lim}_n E^\bullet(\mathbb{C}P^n)
+    &\simeq \underset{\longleftarrow}{\lim}_n E^\bullet(\mathbb{C}P^n)
    \\
-   &\simeq \underset{\longrightarrow}{\lim}_n ( E^\bullet(\ast) [c_1^E] / ((c_1^E)^{n+1})  )
+   &\simeq \underset{\longleftarrow}{\lim}_n ( E^\bullet(\ast) [c_1^E] / ((c_1^E)^{n+1})  )
    \\
    & \simeq E^\bullet(\ast)[ [ c_1^E ] ]
    \,,
