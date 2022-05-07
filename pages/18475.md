@@ -118,7 +118,7 @@ Reviews and lectures:
 * K. Schalm and R. Davison, _A simple introduction to AdS/CFT
 and its application to condensed matter physics_,  D-ITP Advanced Topics in Theoretical Physics Fall 2013, ([[SchalmDavisonAdSCFT.pdf:file]])
 
-* Andrea Amoretti, _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
+* {#Amoretti17} [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
 
 * Hong Liu, Julian Sonner, _Quantum many-body physics from a gravitational lens_, Nature Rev.Phys. 2 (2020) 11, 615-633 ([arXiv:2004.06159](https://arxiv.org/abs/2004.06159), [doi:10.1038/s42254-020-0225-1](https://doi.org/10.1038/s42254-020-0225-1))
 
