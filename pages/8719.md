@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[delta-generated topological spaces]] and [[compactly generated topological spaces]]:
+
+* [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+
 On [[directed homotopy theory]] and [[higher dimensional transition systems]]:
 
 * [[Philippe Gaucher]], _Directed algebraic topology and higher dimensional transition system_, New-York Journal of Mathematics 16 (2010), 409 - 461 ([arxiv:0903.4276](http://arxiv.org/abs/0903.4276))
