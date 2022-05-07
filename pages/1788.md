@@ -1,3 +1,7 @@
+$$
+a_N(n) ~ \frac{N^n}{\pi^{N/2}} \cdot \biggl( \frac{N}{n}   \biggr)^{\frac{N(N-1)}{4}} \cdot \prod_{j = 1}^N \Gamma \biggl( \frac{j}{2} \biggr) .
+$$
+
 
 $$
   \begin{aligned}
