@@ -141,6 +141,13 @@ Discussion of de Sitter [[perturbative string theory vacua]] and their role in t
 
 * [[Michael Dine]], Jamie A.P. Law-Smith, Shijun Sun, Duncan Wood, Yan Yu, _Obstacles to Constructing de Sitter Space in String Theory_ ([arXiv:2008.12399](https://arxiv.org/abs/2008.12399))
 
+In view of [[alpha']] [[higher curvature corrections]]:
+
+* Ivano Basile, Alessia Platania, _String Tension between de Sitter vacua and Curvature Corrections_ ([arXiv:2103.06276](https://arxiv.org/abs/2103.06276))
+
+  > "We show that the resulting higher-derivative $\alpha'$-corrections forbid the existence of de Sitter vacua, at least in regimes where string-loop corrections can be neglected."
+
+
 
 On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
 
