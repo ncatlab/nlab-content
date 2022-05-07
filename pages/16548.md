@@ -75,6 +75,7 @@ The [[Eilenberg-Moore category]] of [[coalgebras]] over the Jet comonad has the 
 * in [[Borger's absolute geometry]] a similar base change as above is interpreted as the [[arithmetic jet space]] construction.
 
 ## References
+ {#References}
 
 In the context of [[differential geometry]] the comonad structure on the jet bundle construction, as well as the interpretation of its EM-category as that of partial differential equations, is due to
 
