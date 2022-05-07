@@ -132,9 +132,11 @@ the following are equivalent:
 
 4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is an [[isomorphism]] in $B$, then $Q^* \colon A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
 
+5. The [[left adjoint]] $Q^*$ is [[dense functor|dense]].
+
 =--
 
-This is originally due to ([Gabriel-Zisman 67, prop. 1.3, page 7](#GabrielZisman67)). 
+The equivalence of statements 1 to 4 are originally due to ([Gabriel-Zisman 67, prop. 1.3, page 7](#GabrielZisman67)). The equivalence of 1 and 5 is due to ([Ulmer, Theorem 1.13](#Ulmer68)).
 
 +-- {: .proof}
 ###### Proof
@@ -393,6 +395,8 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 ## References
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, Springer 1967 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/GZ.pdf))
+
+* {#Ulmer68} [[Friedrich Ulmer]], _Properties of Dense and Relative Adjoint Functors_, Journal of Algebra 1968
 
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
 
