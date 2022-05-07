@@ -1,5 +1,5 @@
-009638231
--- {: sarah ann alvarez rightHandSide}
+
++-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Fields and quanta
@@ -377,6 +377,9 @@ Notes Phys. 741 (Springer, Berlin Heidelberg 2008) (<a href="https://doi.org/10.
 * Masahiro Kawasaki, Kazunori Nakayama, _Axions : Theory and Cosmological Role_, Annual Review of Nuclear and Particle Science Vol.63:1-552   ([arXiv:1301.1123](https://arxiv.org/abs/1301.1123))
 
 * Luca Di Luzio, Maurizio Giannotti, Enrico Nardi, Luca Visinelli, _The landscape of QCD axion models_ ([arXiv:2003.01100](https://arxiv.org/abs/2003.01100))
+
+* Igor G. Irastorza, *An introduction to axions and their detection* ([arXiv:2109.07376](https://arxiv.org/abs/2109.07376))
+
 
 
 See also:
