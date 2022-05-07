@@ -91,4 +91,7 @@ However, by [[Joyal-Tierney calculus#IteratedLifting|Joyal-Tierney calculus]], t
 [[!redirects pushout product axiom]]
 
 
+[[!redirects pullback-power axiom]]
 [[!redirects pullback power axiom]]
+
+
