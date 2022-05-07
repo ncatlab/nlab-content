@@ -1679,12 +1679,16 @@ with emphasis to the resulting [[configuration spaces of points]], as in
 [[!redirects ordered configuration spaces of points]]
 [[!redirects ordered configuration space of n points]]
 [[!redirects ordered configuration spaces of n points]]
+[[!redirects configuration space of ordered points]]
+[[!redirects configuration spaces of ordered points]]
+
 
 [[!redirects unordered configuration space of points]]
 [[!redirects unordered configuration spaces of points]]
 [[!redirects unordered configuration space of n points]]
 [[!redirects unordered configuration spaces of n points]]
-
+[[!redirects configuration space of unordered points]]
+[[!redirects configuration spaces of unordered points]]
 
 [[!redirects configuration space (mathematics)]]
 [[!redirects configuration spaces (mathematics)]]
