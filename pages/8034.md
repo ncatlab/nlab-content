@@ -16,59 +16,86 @@
 
 ## p-torsion of abelian groups
 
-Since any [[abelian group]] $G$ is a $\mathbb{Z}$-module we can form for any  $z\in \mathbb{N}$ the [[torsion subgroup]]
+Since any [[abelian group]] $G$ is a $\mathbb{Z}$-[[module]] we can form for any  $z\in \mathbb{N}$ the [[torsion subgroup]]
 
-$$G[z]:=\{g|g\in G,  z g = 0\}$$
+$$
+  G[z]
+  \,\coloneqq\,
+  \big\{
+    g
+    \,\vert\, 
+    g \in G,  
+    \,
+    z g = 0
+  \big\}
+  \,.
+$$
 
-Of particular interest in this article are those cases where $z=p^n$ for a [[prime number]] $p$ and a [[natural number]] $n$.
+Of particular interest in this article are those cases where $z = p^n$ for a [[prime number]] $p$ and a [[natural number]] $n$.
 
 There are two important constructions to perform with these $G[p^n]$ namely taking [[limits]] and [[colimits]]:
 
-$$S_p(G):=colim_n G[p^n]$$
+$$
+  S_p(G)
+  \,\coloneqq\,
+  colim_n G[p^n]
+$$
 
 
-$$T_p(G):=lim G[p^n]$$
+$$
+  T_p(G)
+  \,\coloneqq\,
+  lim_n G[p^n]
+  \,.
+$$
 
 
 
-Here $S_p(G)$ sometimes is called *$p$-[[torsion subgroup]]*; if $G$ is finite $S_p(G)$ is also called *[[Sylow p-subgroup]] of $G$*.
+Here $S_p(G)$ is sometimes called the *$p$-[[torsion subgroup]]*; if $G$ is [[finite group|finite]] then $S_p(G)$ is also called *[[Sylow p-subgroup]] of $G$*.
 
-$T_p(G)$ is called [[nLab:Tate module|p-adic Tate module]] of $G$.
+$T_p(G)$ is called [[Tate module|p-adic Tate module]] of $G$.
 
-Note that sometimes by "the Tate module" is meant a specific example of a Tate module. This example is mentioned below.
+Note that sometimes by "the Tate module" is meant a specific example of a Tate module. This example is mentioned [below](#PAdicTateModule).
 
 ## p-torsion of fields
 
-$G[p]$ is obviously the kernel of the [[nLab:Frobenius]] endomorphism of $G$:
+$G[p]$ is obviously the [[kernel]] of the [[Frobenius]] [[endomorphism]] of $G$:
 
-$$G[p]=(ker\, (g\mapsto g^p))$$
+$$
+  G[p]
+  \,=\,
+  \big(
+    ker \, (g \mapsto g^p)
+  \big)
+  \,.
+$$
 
-In this form we can extend the Frobenius and hence this notion of $p$-torsion from abelian groups to fields if we require our field to be of characteristic $p$ such that we have $(a+b)^p=a^p+b^p$.
+In this form we can extend the Frobenius and hence this notion of $p$-torsion from [[abelian groups]] to [[fields]], if we require our field to be of [[characteristic]] $p$ such that we have $(a+b)^p = a^p + b^p$.
 
 In fact the definition of $p$-torsion via the Frobenius has the advantage that we get additionally an adjoint notion to $p$-torsion which is sometimes called *Verschiebung*; this is explained at [[nLab:Demazure, lectures on p-divisible groups, I.9, the Frobenius morphism
 ]].
 
 ## p-torsion of schemes
 
-If $X$ denotes some [[nLab:scheme]] over a $k$-ring for $k$ being a field of characteristic $p$, we define its $p$-torsion component-wise by $X^{(p)}(R):=X(s_* R)$.
+If $X$ denotes some [[scheme]] over a $k$-[[ring]] for $k$ being a [[field]] of [[characteristic]] $p$, we define its $p$-torsion component-wise by $X^{(p)}(R) \coloneqq X(s_* R)$.
 
 ## p-torsion of group schemes
 
-Let $G$ is a commutative group scheme over a scheme $S$.  Define the multiplication by $p$ map as follows -   $[p]: G \xrightarrow{\Delta} G \times_S .... \times_S G \to G$.
+Let $G$ is a commutative group scheme over a scheme $S$.  Define the multiplication by $p$ map as follows -   $[p] \colon G \xrightarrow{\Delta} G \times_S .... \times_S G \to G$.
 
   Because $G$ is a commutative group scheme, this is a map in the category of group schemes.  The $[p]$ torsion, $G[p]$, is then the pullback along the identity section of the multiplication by $[p]$ map.
 
-The fiber of $G[p]$ at a given $s \in S$ is a group.  (Its a group scheme over the residue field of $s$).   And it is the p-torsion in the fiber of $G$ at $s$.
+The fiber of $G[p]$ at a given $s \in S$ is a group.  (Its a group scheme over the residue field of $s$).   And it is the $p$-torsion in the fiber of $G$ at $s$.
 
 The notions of $S_p$, (as an Ind-scheme) and $T_p$ (as a scheme) readily generalize using this notion of $p$-torsion.
 
-+-- {: .num_example}
++-- {: .num_example #PAdicTateModule}
 ###### Example
-(*the* $p$-adic [[nLab:Tate module]])
+(*the* $p$-adic [[Tate module]])
 
 Let $G$ be a commutative group scheme over a field $k$ with separable closure $k^{sep}$.
 
-Then $T_p(G(k^{sep}))$ is called *the $p$-adic Tate module of $G$*.
+Then $T_p\big(G(k^{sep})\big)$ is called *the $p$-adic Tate module of $G$*.
 =--
 
 This Tate module enters the [[Tate conjecture]].
@@ -111,4 +138,9 @@ satisfying (1)(2)(3).
 
 ## References
 
-* see the references at [[nLab:p-divisible group]], in particular the notes by Richard Pink.  Shatz Group Schemes, Formal Groups, and p-Divisible Groups is also very readable.
+see the references at [[nLab:p-divisible group]], in particular the notes 
+
+* Richard Pink, *Shatz Group Schemes, Formal Groups, and $p$-Divisible Groups*
+
+[[!redirects p-torsion subgroup]]
+[[!redirects p-torsion subgroups]]
