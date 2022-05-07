@@ -38,3 +38,8 @@ See also
 
 * Xiao-Liang Qi, Pengfei Zhang, _The Coupled SYK model at Finite Temperature_ ([arXiv:2003.03916](https://arxiv.org/abs/2003.03916))
 
+* Akash Goel, [[Herman Verlinde]], _Towards a String Dual of SYK_ ([arXiv:2103.03187](https://arxiv.org/abs/2103.03187))
+
+
+
+
