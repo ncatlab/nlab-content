@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -30,7 +31,12 @@ Similarly there is the anomalous magenetic moment $g_\mu - 2$ of the [[muon]] an
 ## Anomalies
  {#Anomalies}
 
-In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become notorious for apparently showing a noticeable _discrepancy_ between [[theory (physics)|theoretic prediction]] from the [[standard model of particle physics]] and its value as determined in [[experiment]]. The discrepancy is now found to have [[statistical significance]] around 3.5[[standard deviation|σ]] ([DHMZ 17](#DHMZ17)) or 4[[standard deviation|σ]] ([Jegerlehner 18a](#Jegerlehner18a)). Recent measurements may even show a possible deviation around 2.5 [[standard deviation|σ]] for the electron's anomalous magnetic moment (see [Falkowski 18](#Falkowski18)). Details depend on understanding of [[non-perturbative effects]] ([Jegerlehner 18b, section 2](#Jegerlehner18b)).
+In fact, the anomalous magnetic moment of the [[muon]] $g_\mu - 2$ has become notorious for apparently showing a noticeable _discrepancy_ between [[theory (physics)|theoretic prediction]] from the [[standard model of particle physics]] and its value as determined in [[experiment]]. The discrepancy is now found to have [[statistical significance]] around 3.5[[standard deviation|σ]] ([DHMZ 17](#DHMZ17)) or 4[[standard deviation|σ]] ([Jegerlehner 18a](#Jegerlehner18a)). 
+
+In April 2021, after years of re-doing the Brookhaven experiment, Fermilab confirms these findings and states a statistical significance of the deviation of 4.2 sigma ([Fermilab, 7th April 21](#Fermilab7thApril21)).
+
+
+Recent measurements may even show a possible deviation around 2.5 [[standard deviation|σ]] for the electron's anomalous magnetic moment (see [Falkowski 18](#Falkowski18)). Details depend on understanding of [[non-perturbative effects]] ([Jegerlehner 18b, section 2](#Jegerlehner18b)).
 
 In particular, there seems to be inconsistencies in the theoretical understanding of the relevant [[lattice QCD]]-computations:
 
@@ -137,6 +143,7 @@ Discussion of precision experiment and possible deviation from theory:
 
 * {#Falkowski18} [[Adam Falkowski]], _[Both $g-2$ anomalies](http://resonaances.blogspot.com/2018/06/alpha-and-g-minus-two.html)_, June 2018
 
+* {#Fermilab7thApril21} Fermilab, Twitter announcement, 7th April 2021 ([twitter:Fermilab/status/1379812359804317698](https://twitter.com/Fermilab/status/1379812359804317698))
 
 ### Relation to flavour anomalies
 
