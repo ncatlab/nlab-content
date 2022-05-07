@@ -2,20 +2,21 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
+=--
+
 
 
 
