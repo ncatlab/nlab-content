@@ -566,6 +566,7 @@ Outlook:
 
 * {#GGJLMCS21} Li-Sheng Geng, Benjamín Grinstein, Sebastian Jäger, Shuang-Yi Li, Jorge Martin Camalich, Rui-Xiang Shi, _Implications of new evidence for lepton-universality violation in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2103.12738](https://arxiv.org/abs/2103.12738))
 
+* [[Riccardo Barbieri]], Section 5 of: _A view of flavour physics in 2021_ ([arXiv:2103.15635](https://arxiv.org/abs/2103.15635))
 
 Outlook for [[Belle II]] to confirm the [[flavour anomalies]], if they are real:
 
