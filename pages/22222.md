@@ -45,6 +45,16 @@ Every [[parametric right adjoint]] with [[locally small category|locally small]]
 The [category of fields](field#category) has a multi-initial object, i.e. the functor $Fld \to 1$ has a left multi-adjoint (Def. \ref{MultiAdjoints}).  This consists of all the "[[prime fields]]", $\mathbb{Q}$ and $\mathbb{F}_p$ for some [[prime number]] $p$.
 \end{example}
 
+\begin{example}
+The forgetful functor from the category of commutative [[local rings]] and local homomorphisms to the category of sets has a left multi-adjoint.
+\end{example} 
+
+## Multi-monads
+
+Any functor $U: A\to B$ which has a left multi-adjoint generates a _multi-monad_ on $B$. Categories $A$ which can be reconstructed from this multi-monad are called multi-monadic ([Diers 80](#Diers1980)).
+
+Multi-monadic categories on $Set$ can be characterized in the following way: they are regular, with connected limits, with coequalizers of coequalizable pairs, their equivalence relations are effective, their forgetful functors preserve coequalizers of equivalence relations and reflect isomorphisms. Unlike  monadic categories they need not have products. Examples include local rings, fields, inner spaces, locally compact spaces, locally compact groups, and complete ordered sets. ([Diers 80, p.153](#Diers1980))
+
 ## Diers spectrum
 
 The notion of a multiadjoint functor is used to define the [[Diers spectrum]].
@@ -68,6 +78,8 @@ See also:
 * {#Osmond2020a} [[Axel Osmond]], _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.00853))
 
 * {#Osmond2020b} [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
+
+* {#Diers1980} [[Yves Diers]], _Multimonads and multimonadic categories_, Journal of Pure and Applied Algebra 17 (1980) 153-170 ([pdf](https://core.ac.uk/download/pdf/82552386.pdf))
 
 [[!redirects left multi-adjoint]]
 [[!redirects right multi-adjoint]]
