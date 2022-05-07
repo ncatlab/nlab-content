@@ -297,7 +297,7 @@ in $X/{x_2}$ and evidently is the identity there if and only if $h$ is the ident
 
 ### In $(\infty,1)$-categories
 
-The notion of cartesian morphism generalizes from [[category theory]] to [[(∞,1)-category theory]]. We can give an abstract definition
+The notion of cartesian morphism generalizes from [[category theory]] to [[(∞,1)-category theory]]. The definition given above can be rephrased as a pullback relation between homsets, which we can take as an abstract definition
 
 +-- {: .num_defn}
 ###### Definition
@@ -318,6 +318,8 @@ Let $p : X \to Y$ be a functor of [[(∞,1)-categories]]. Then, a [[morphism]] $
 is a pullback square for every $a \in X$.
 
 =--
+
+Similarly, the reformulation in terms of slice/cone categories generalizes directly, and is indeed equivalent to the definition given above:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -370,7 +372,7 @@ If $f : x \to y$, then $X_{/f} \to X_{/x}$ is an [[equivalence of (∞,1)-catego
 =--
 
 
-We can also discuss adaptations of the abstract idea to two different models of [[(∞,1)-category]] theory:  [[quasi-categories]] and [[simplicially enriched categories|sSet categories]].
+To make this concrete, we can also discuss adaptations of the abstract idea to two different models of [[(∞,1)-category]] theory:  [[quasi-categories]] and [[simplicially enriched categories|sSet categories]].
 
 #### In quasi-categories
 
