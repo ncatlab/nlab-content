@@ -87,6 +87,8 @@ Relation to [[tensor networks]]:
 
 * Lin Chen, Xirong Liu, Ling-Yan Hung, _Bending the Bruhat-Tits Tree II: the p-adic BTZ Black hole and Local Diffeomorephism on the Bruhat-Tits Tree_ ([arXiv:2102.12024](https://arxiv.org/abs/2102.12024))
 
+* Feng Qu, _The effective field theory on a finite boundary of the Bruhat-Tits tree_ ([arXiv:2103.02882](https://arxiv.org/abs/2103.02882))
+
 
 
 Including [[spinors]]:
