@@ -182,6 +182,17 @@ There is the claim ([DGKV 19](#DGKV19)) that the discrepancy with the standard m
 
 and also that the discrepancy increases further with [[QED]]-corrections taken into account ([Mishra-Mahajan 20,p. 20-21](#MishraMahajan20)).
 
+New measurements reported by [[LHC]] [in March 2021](https://home.cern/news/news/physics/intriguing-new-result-lhcb-experiment-cern) imply:
+
+[HLN 21](#HLN21):
+
+> Naive combination of $R_K$ and $R_{K*}$ measurements shows a deviation from the standard model above $4 \sigma$
+
+[GGJLMCS 21](#GGJLMCS21):
+
+> We find that the data on clean observables is at  variance with the SM at a level of $3.9 \signa$.  Furthermore, scenarios withpure left-handed or axial currents provide a better desciption of these data with a significance close to $5 \sigma$.
+
+
 
 If the ongoing evaluation of the data of [[LHC]]'s Run 2 confirms the measurements of Run 1, then the [[statistical significance]] of the effect in each decay channel separately should have reached 5 [[standard deviations|σ]] ([Crivellin et. al 18, p. 12](#CrivellinEtAl18), [Zupan 19, 4.6](#Zupan19)) and hence conventionally count as detection of flavour anomaly (see [here](statistical+significance#ParticlePhysics)), which would make it the first established "new physics" seen at the [[LHC]]. More recent extrapolation based on [LHCb Collaboration 18](#LHCbCollaboration18) predicts a [[statistical significance]] between 6 and 10 $\sigma$ by the year 2025 ([LKLR 19, p. 12](#LKLR19)).
 
@@ -568,6 +579,8 @@ Outlook:
 
 * Florian U. Bernlochner, Manuel Franco Sevilla, Dean J. Robinson, Guy Wormser,  _Semitauonic b-hadron decays: A lepton flavor universality laboratory_ ([arXiv:2101.08326](https://arxiv.org/abs/2101.08326))
 
+* {#GGJLMCS21} Li-Sheng Geng, Benjamín Grinstein, Sebastian Jäger, Shuang-Yi Li, Jorge Martin Camalich, Rui-Xiang Shi, _Implications of new evidence for lepton-universality violation in $b \to s \ell^+ \ell^-$ decays_ ([arXiv:2103.12738](https://arxiv.org/abs/2103.12738))
+
 
 Outlook for [[Belle II]] to confirm the [[flavour anomalies]], if they are real:
 
@@ -857,6 +870,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 * {CFFPSV20} Marco Ciuchini, Marco Fedele, Enrico Franco, Ayan Paul, Luca Silvestrini, Mauro Valli, _Lessons from the $B^{0,+} \to B^{\ast, 0,+} \mu^+ \mu^-$ angular analysis_ ([arXiv:2011.01212](https://arxiv.org/abs/2011.01212))
 
 
+* Andrei Angelescu, Damir Bečirević, Darius A. Faroughy, Florentin Jaffredo, Olcyr Sumensari, _On the single leptoquark solutions to the B-physics anomalies_ ([arXiv:2103.12504](https://arxiv.org/abs/2103.12504))
+
+* {#HLN21} Gudrun Hiller, Dennis Loose, Ivan Nišandžić, _Flavorful leptoquarks at the LHC and beyond: Spin 1_ ([arXiv:2103.12724](https://arxiv.org/abs/2103.12724))
 
 
 
