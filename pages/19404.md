@@ -91,12 +91,37 @@ These are the [[Cartesian product]] $AdS_4 \times (S^7/G)$ of 4-[[dimension|dime
 
 ## Properties
 
+
 ### Concordances of higher gerbes over spherical space forms
  {#HigherGerbesOnSphericalSpaceForms}
 
-We discuss the [[concordance]] [[infinity-groupoid|$\infty$-groupoid]] of $\Gamma$-[[principal bundles]] on [[spherical space forms]] $S^{n+2}/G$ in that case that the [[topological group]] $\Gamma$ is a [[homotopy n-type]].
+We discuss the [[concordance]] [[infinity-groupoid|$\infty$-groupoid]] of $\Gamma$-[[principal bundles]] on [[spherical space forms]] $S^{n+2}/G$ (Def. \ref{ShapesOfMappingStacks} below)
+in the case that the [[topological group]] $\Gamma$ is a [[braided infinity-group|braided]] [[homotopy n-type]] (Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms} below). 
 
-In more detail:
+The claim of Theorem \ref{ComparisonMapOfConcordanceInfinityGroupoidsIsEquivalence} below is that this is equivalently the [[hom infinity-groupoid|hom $\infty$-groupoid]] of maps of [[classifying spaces]] $B G \to B \Gamma$.
+
+In the special case that $\Gamma \,=\, $ [[PU(ℋ)]], this result recovers (Example \ref{EquivariantClassifyingSpaceOfPUHBundles} below) the [[equivariant homotopy groups]] of the [[equivariant classifying space]] for [[equivariant principal bundles|equivariant $PU(\mathcal{H})$-principal bundles]] (originally due to [Uribe et al., 2014](twisted+equivariant+K-theory#BEJU14)) -- a statement which falls out of the scope of most traditional theory of [[equivariant principal bundles]] since [[PU(ℋ)]] is not a [[compact Lie group]].
+
+Conversely, Thm. \ref{ComparisonMapOfConcordanceInfinityGroupoidsIsEquivalence} generalizes this classification of equivariant $PU(\mathcal{H})$-principal bundles to any [[braided infinity-group|braided]] [[homotopy n-type|$n$-truncated]] [[structure group]], at the (small) cost of requiring that the [[equivariance group]] corresponds to some $\geq n+2$-dimensional [[spherical space form]]  -- in which case it is essentially an incarnation (via the proof of Prop. \ref{ConcordancesOnSphericalSpaceFormIsMapsOfClassifyingSpaces} below) of the [[smooth Oka principle]] over that spherical space form.
+
+
+
+\linebreak
+
+* *[Preliminaries](#Preliminaries)*
+
+* *[The classification theorem](#TheClassificationTheorem)*
+
+* *[Lemmas and proofs](#LemmasAndProofs)*
+
+\linebreak
+
+
+
+#### Preliminaries
+ {#Preliminaries}
+
+Concretely, we consider the following situation:
 
 \begin{definition}
 \label{AssumptionForHigherGerbesOnSphericalSpaceForms}
@@ -152,9 +177,9 @@ $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$.
 \begin{example}
 The archetypical examples of [[topological groups]] which satisfy Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms} are: 
 
-1. The [[circle group]], $\Gamma = $ [[U(1)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},1)$, which is [[homotopy n-type|n-truncated]] for $n \geq 1$ and whose [[delooping]] is $K(\mathbb{Z},2)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]);
+1. The [[circle group]], $\Gamma = $ [[U(1)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},1)$, which is [[homotopy n-type|n-truncated]] for $n \geq 1$ and whose [[delooping]]  $K(\mathbb{Z},2)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]);
 
-1. the [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$,  which is [[homotopy n-type|n-truncated]] for $n \geq 2$ and whose [[delooping]] is $K(\mathbb{Z},3)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]).
+1. the [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], whose underlying homotopy type is that of the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$,  which is [[homotopy n-type|n-truncated]] for $n \geq 2$ and whose [[delooping]]  $K(\mathbb{Z},3)$ is not just [[braided infinity-group|braided]] but even [[abelian infinity-group|abelian]] (i.e. [[E-infinity space|$E_\infty$]]).
 
 Hence for both of these [[structure groups]], the 7-dimensional spherical space forms discussed [above](#7DSphericalSpaceFormsWithSpinStructure) satisfy Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}.
 \end{example}
@@ -365,6 +390,8 @@ With every $\Gamma$-principal bundle trivialized over the covering by $S^{n+2}$ 
 
 \begin{definition}
 \label{ShapesOfMappingStacks}
+**($\infty$-groupoids of concordances of principal bundles on spherical space forms)**
+\linebreak
 Consider the following two [[infinity-groupoid|$\infty$-groupoids]]:
 
 The [[shape modality|cohesive shape]] of the [[mapping stack]] from $\mathbf{B}G$ to $\mathbf{B}\Gamma$
@@ -589,6 +616,292 @@ In both cases we are showing on the right the canonical [[simplicial sets]] whic
 1. the fact that the [[simplex category|simplicial]] [[homotopy colimit]] of $\infty$-groupoids presented by [[simplicial sets]] is given by the [[diagonal of a bisimplicial set|diagonal]] of the corresponding [[bisimplicial set]] (by [this Prop.](bisimplicial+set#DiagonalAsSimplicialHomotopyColimit)).
 
 \end{definition}
+
+
+#### The classification theorem
+ {#TheClassificationTheorem}
+
+\begin{proposition}
+\label{ConcordancesOnSphericalSpaceFormIsMapsOfClassifyingSpaces}
+  Under Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}, 
+  the $\infty$-groupoid of [[concordances]] of $\Gamma$-principal bundles on $S^{n+2}/G$ is [[equivalence of infinity-groupoids|equivalent]] to the [[hom infinity-groupoid|hom $\infty$-groupoid]] from $B G$ to $B \Gamma$:
+$$
+  \esh
+  \,
+  Maps
+  \big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  \;\;  
+  \simeq
+  \;\;
+  Maps
+  \big( 
+     B G
+     ,\,
+     B \Gamma
+  \big)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+  Since $S^{n+2}/G$ is a [[smooth manifold]], the [[smooth Oka principle]] ([here](shape+via+cohesive+path+∞-groupoid#ConsequenceSmoothOkaPrinciple)) gives that 
+$$
+  \begin{aligned}
+  \esh
+  \,
+  Maps
+  \big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  &
+  \;\simeq\;
+  Maps
+  \big(
+    \esh
+    \,
+    S^{n+2}/G
+    ,\,
+    \esh
+    \,
+    \mathbf{B}\Gamma
+  \big)
+  &
+  \;=\;
+  Maps
+  \big(
+    Shp
+    (
+      S^{n+2}/G
+    )
+    ,\,
+    B \Gamma
+  \big)
+  \,.
+  \end{aligned}
+$$
+From here, the claim follows by the following sequence of [[natural equivalences]] [[equivalence in an (infinity,1)-category|in]] [[Infinity-Grpd|$Grpd_\infty$]]:
+
+\[
+  \label{MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace}
+  \begin{array}{lll}
+    Maps
+    \big(
+      Shp(S^{n+2}/G)
+      ,\,
+      B \Gamma
+    \big)
+    & 
+    \;\simeq\;
+    Maps
+    \big(
+      Shp(S^{n+2} \sslash G)
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    &
+    \;\simeq\;
+    Maps
+    \big(
+      Shp(S^{n+2}) \sslash G
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    &
+    \;\simeq\;
+    Maps
+    \big(
+      \underset{\longrightarrow}{\lim}
+      \,
+      Shp(S^{n+2}) \times G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    & \;\simeq\;
+    \underset{\longleftarrow}{\lim}
+    \,
+    Maps
+    \big(
+      Shp(S^{n+2}) \times G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    & \;\simeq\;
+    \underset{\longleftarrow}{\lim}
+    \,
+    Maps
+    \big(
+      G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    &
+    \text{ by (eq:GammaIsNTruncated) }
+    \\
+    & \;\simeq\;
+    Maps
+    \big(
+      \underset{\longrightarrow}{\lim}
+      \,
+      G^{\times_\bullet}
+      ,\,
+      B \Gamma
+    \big)
+    \\
+    & \;\simeq\;
+    Maps
+    \big(
+      B G
+      ,\,
+      B \Gamma
+    \big)
+  \end{array}
+\]
+\end{proof}
+
+Moreover:
+
+\begin{definition}
+\label{ComparisonMorphismBetweenShapesOfMappingStacks}
+There is a canonical comparison morphism between the shapes of mapping stacks in Def. \ref{ShapesOfMappingStacks},
+given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n+2} \xrightarrow{\; p\;} \ast$:
+
+\[
+  \label{ComparisonMorphismBetweenShapesOfMappingStacks}
+  \esh
+  \,
+  Map
+  \Big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)
+  \xrightarrow
+  {\;\;\;
+     \esh \, Map(p/\!\!/G,\,\mathbf{B}\Gamma)
+  \;\;\;}
+  \esh
+  \,
+  Map
+  \Big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \Big)  
+  \,
+  \,.
+\]
+\end{definition}
+
+\begin{theorem}
+\label{ComparisonMapOfConcordanceInfinityGroupoidsIsEquivalence}
+  Under Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}, the comparison morphism (eq:ComparisonMorphismBetweenShapesOfMappingStacks) is an [[equivalence of infinity-groupoids|equivalence of $\infty$-groupoids]].
+\end{theorem}
+\begin{proof}
+  The claim means that the comparison morphism is a [[weak homotopy equivalence]], hence that it induces [[isomorphisms]] on all [[homotopy groups]] $\pi_n$. For $\pi_0$ this is Prop. \ref{ComparisonMorphismBijectiveOnConnectedComponents} below, while for $\pi_1$ this is Prop. \ref{ComparisonMorphismIsoOnFundamentalGroups} below, whose proof has an evident generalization to all $n$.
+\end{proof}
+
+\begin{corollary}
+ \label{SmoothOkaForMapsOutOfBGIntoBGammaIfGammaIsBraidedTruncated}
+  Under Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}, there is an [[equivalence of infinity-groupoids|equivalence of $\infty$-groupoids]] of the form:
+\[
+  \label{TheResultingSmoothOkaLikeEquivalence}
+  \esh
+  \,
+  Map
+  \big(
+    \mathbf{B}G
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  Map
+  \big(
+    B G
+    ,\,
+    B \Gamma
+  \big)
+\]
+\end{corollary}
+\begin{proof}
+ This is the composite of 
+Prop. \ref{ConcordancesOnSphericalSpaceFormIsMapsOfClassifyingSpaces}
+with 
+Thm. \ref{ComparisonMapOfConcordanceInfinityGroupoidsIsEquivalence}.
+\end{proof}
+\begin{remark}
+Cor. \ref{SmoothOkaForMapsOutOfBGIntoBGammaIfGammaIsBraidedTruncated} is of the form of the [[smooth Oka principle]] but for [[domain]] not a [[smooth manifold]] but the [[delooping groupoid]] of the [[finite group]] $G$. 
+
+In contrast to the case where the domain is a smooth manifold, equivalences of the form (eq:TheResultingSmoothOkaLikeEquivalence) fail in general, unless some extra condition like Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms} is imposed. 
+
+For example, in the case that both $G$ and $\Gamma$ are [[compact Lie groups]], the $\infty$-groupoids on the left of (eq:TheResultingSmoothOkaLikeEquivalence) are the [[hom infinity-groupoid|hom $\infty$-groupoids]] of the [[global orbit category]] for compact Lie [[equivariance groups]]. 
+\end{remark}
+
+\begin{example}
+\label{EquivariantClassifyingSpaceOfPUHBundles}
+**(equivariant classifying space of $PU(\mathcal{H})$-bundles)**
+\linebreak
+In the case that 
+
+* the [[structure group]] is $\Gamma = $ [[PU(ℋ)]] 
+
+* the [[equivariance group]] $G$ is a [[finite group]] which has any [[free action]] on any [[n-sphere]] for $n \geq 4$
+
+Cor. \ref{SmoothOkaForMapsOutOfBGIntoBGammaIfGammaIsBraidedTruncated} immediately implies that the [[homotopy groups]]
+
+$$
+  \pi_k
+  \Big(
+    Map
+    \big(
+      \mathbf{B}G 
+      ,\,
+      \mathbf{B}PU(\mathcal{H})
+    \big)
+  \Big)
+  \;\;
+  \simeq
+  \;\;
+  \pi_k
+  \Big(
+    Map
+    \big(
+      B G
+      ,\,
+      B^3 \mathbb{Z}
+    \big)
+  \Big)
+  \;\;
+  =
+  \;\;
+  H^{3-k}_{Grp}
+  (
+    G
+    ;\,
+    \mathbb{Z}
+  )
+$$
+
+are given by the [[group cohomology]] of $G$ with [[coefficients]] in the [[integers]], as shown.
+
+This recovers the statement of [Uribe & al. 2014, Thm. 1.10](twisted+equivariant+K-theory#BEJU14), see also [Uribe & Lück 2014, Thm. 15.17](twisted+equivariant+K-theory#UribeLueck14).
+\end{example}
+
+\linebreak
+
+#### Lemmas and proofs
+ {#LemmasAndProofs}
+
 
 \begin{example}
 \label{OneMorphismInShapeOfMappingStackFromSphericalSpaceFormToBGamma}
@@ -933,39 +1246,6 @@ Similarly, a $\Lambda^2_0$-horn is the following type of data:
 and is filled by the evident directly analogous procedure.
 \end{proof}
 
-\begin{definition}
-\label{ComparisonMorphismBetweenShapesOfMappingStacks}
-There is a canonical comparison morphism between the shapes of mapping stacks in Def. \ref{ShapesOfMappingStacks},
-given by [[precomposition]] with the [[terminal object|terminal morphism]] $S^{n+2} \xrightarrow{\; p\;} \ast$:
-
-\[
-  \label{ComparisonMorphismBetweenShapesOfMappingStacks}
-  \esh
-  \,
-  Map
-  \Big(
-    \mathbf{B}G
-    ,\,
-    \mathbf{B}\Gamma
-  \Big)
-  \xrightarrow
-  {\;\;\;
-     \esh \, Map(p/\!\!/G,\,\mathbf{B}\Gamma)
-  \;\;\;}
-  \esh
-  \,
-  Map
-  \Big(
-    S^{n+2}/G
-    ,\,
-    \mathbf{B}\Gamma
-  \Big)  
-  \,
-  \,.
-\]
-\end{definition}
-
-We now discuss what this morphism does on [[homotopy groups]].. 
 
 $\,$
 
@@ -1058,89 +1338,7 @@ It follows by [[2-out-of-3]] that also the function on the right is a bijection:
   \Big)
 \]
 
-Moreover, notice the following sequence of [[natural equivalences]] [[equivalence in an (infinity,1)-category|in]] [[Infinity-Grpd|$Grpd_\infty$]]:
-
-\[
-  \label{MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace}
-  \begin{array}{lll}
-    Maps
-    \big(
-      Shp(S^{n+2}/G)
-      ,\,
-      B \Gamma
-    \big)
-    & 
-    \;\simeq\;
-    Maps
-    \big(
-      Shp(S^{n+2} \sslash G)
-      ,\,
-      B \Gamma
-    \big)
-    \\
-    &
-    \;\simeq\;
-    Maps
-    \big(
-      Shp(S^{n+2}) \sslash G
-      ,\,
-      B \Gamma
-    \big)
-    \\
-    &
-    \;\simeq\;
-    Maps
-    \big(
-      \underset{\longrightarrow}{\lim}
-      \,
-      Shp(S^{n+2}) \times G^{\times_\bullet}
-      ,\,
-      B \Gamma
-    \big)
-    \\
-    & \;\simeq\;
-    \underset{\longleftarrow}{\lim}
-    \,
-    Maps
-    \big(
-      Shp(S^{n+2}) \times G^{\times_\bullet}
-      ,\,
-      B \Gamma
-    \big)
-    \\
-    & \;\simeq\;
-    \underset{\longleftarrow}{\lim}
-    \,
-    Maps
-    \big(
-      G^{\times_\bullet}
-      ,\,
-      B \Gamma
-    \big)
-    &
-    \text{ by (eq:GammaIsNTruncated) }
-    \\
-    & \;\simeq\;
-    Maps
-    \big(
-      \underset{\longrightarrow}{\lim}
-      \,
-      G^{\times_\bullet}
-      ,\,
-      B \Gamma
-    \big)
-    \\
-    & \;\simeq\;
-    Maps
-    \big(
-      B G
-      ,\,
-      B \Gamma
-    \big)
-  \end{array}
-\]
-
-The composite of these [[weak homotopy equivalence|equivalences]] (eq:MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace) is again the morphism induced by pre-composition with 
+Observe that the composite of the [[weak homotopy equivalence|equivalences]] in (eq:MapsIntoTruncatedBGammaSeeSphericalSpaceFormAsClassifyinSpace) is again the morphism induced by pre-composition with 
 
 $$
   S^{n+2} \xrightarrow{\; p \;} \ast
@@ -1151,7 +1349,7 @@ $$
   \,.
 $$ 
 
-Now, by [[functor|functoriality]] of the [[nerve]]-operation followed by [[topological realization of simplicial topological spaces|topological realization]], the following [[commuting diagram|diagram commutes]]:
+Therefore, by [[functor|functoriality]] of the [[nerve]]-operation followed by [[topological realization of simplicial topological spaces|topological realization]], the following [[commuting diagram|diagram commutes]]:
 
 \begin{tikzcd}[column sep=small]
   {}
@@ -1617,7 +1815,7 @@ Idea: As in Lem. \ref{OneMorphismsInShapeOfMapsFromSphericalFormToBGammaEquivale
 \end{proof}
 
 \begin{lemma}\label{DeformationOfCechCoboundaryGivesConcordanceOfCocycles}
-  Let $c(-) \xrightarrow{\gamma(-)} c(-)^{\gamma(-)}$ be a 1-morphism such that the cocycle $c(1)$ is constant along $S^{n+2}$. Then for every continuous function
+  Let $c(-) \xrightarrow{\gamma(-)} c(-)^{\gamma(-)}$ be a 1-morphism such that $c(1)$ is trivial: $\underset{(x,g) \in S^{n+2} \times G}{\forall} \,  c(1)(x,g) = \mathrm{e}$. Then for every continuous function
 
 $$
   \widehat{\gamma} \,\colon\,
@@ -1642,9 +1840,131 @@ $$
   \,.
 $$
 \end{lemma}
-\begn{proof}
-  There is the obvious (...) way to turn $\widehat \gamma$ into 
-a 2-morphism of the shape of of the simplicial square whose two vertical 1-faces are degenerate.
+\begin{proof}
+  There is the obvious way to turn $\widehat \gamma$ into 
+a 2-morphism of the shape of the simplicial square whose two vertical 1-faces are degenerate (the right one by the assumption that $c(1)$ is trivial, so that $c(1)^{\gamma} \,=\, c(1)$):
+
+\begin{tikzcd}[row sep={between origins, 30pt}, column sep={between origins, 40pt}]
+    &&
+    c(0)
+    \ar[rrrrrrrr, "{\gamma(0)}"{description, pos=.5}]
+    \ar[dddd,-, dashed]
+    &&&&
+    \phantom{AA}
+    \ar[dddd,-, dotted, crossing over]
+    &&&&
+    c(0)^{\gamma(0)}
+    \ar[dddd,-, dotted]
+    \\
+    &
+    c(0)
+    \ar[ur,-,dashed]
+    \ar[dddd,-,dotted]
+    \ar[rrrrrrrr, crossing over, "{\widehat{\gamma}(t')(0)}"{description}]
+    &&&&
+    \phantom{AA}
+    \ar[ur,-,dotted]
+    \ar[ddd,-,dotted, crossing over]
+    &&&&
+    c(0)^{\widehat{\gamma}(t')(0)}
+    \ar[ur,-,dotted]
+    \\
+    c(0)
+    \ar[ur,-,dashed]
+    \ar[rrrrrrrr, crossing over, "{ \widehat{\gamma}(1)(0)}"{description}]
+    \ar[dddr, -, dashed]
+    &&&&
+    \phantom{AA}
+    \ar[ur,-,dotted]
+    &&&&
+    c(0)^{\widehat{\gamma}(1)(0)}
+    \ar[ur, -, dotted]
+    \\
+    &&&&&
+    {}
+    \\
+    &&
+    c(t)
+    \ar[rrrrrrrr, "{\gamma(t)}"{description, pos=.5}]
+    \ar[dddd,-, dashed]
+    &&&{}&
+    \phantom{AA}
+    \ar[dddd,-, dotted]
+    &{}&&&
+    c(t)^{\gamma(t)}
+    \ar[dddd,-, dotted]
+    \\
+    &
+    c(t)
+    \ar[ur,-,dotted]
+    \ar[dddd,-,dotted]
+    \ar[rrrrrrrr, crossing over, "{ \widehat{\gamma}(t')(t) }"{description}]
+    \ar[dddr, -, dashed]
+    &&&&
+    \phantom{AA}
+    \ar[ur,-,dotted]
+    \ar[uu, -, dotted, crossing over]
+    \ar[ddd, -, dotted]
+    &&&&
+    c(t)^{ \widehat{\gamma}(t')(t) }
+    \ar[ur,-,dotted]
+    \ar[uuuu,-,dotted, crossing over]
+    \\
+    c(t)
+    \ar[ur, -, dotted]
+    \ar[uuuu, -, dashed]
+    \ar[rrrrrrrr, crossing over, "\widehat{\gamma}(1)(t)"{description}]
+    &&&& 
+    \phantom{AA}
+    \ar[ur, -, dotted]
+    \ar[uuuu, -, dotted, crossing over]
+    &&&&
+    c(t)^{\widehat{\gamma}(1)(t)}
+    \ar[ur, -, dotted]
+    \ar[uuuu, -, dotted, crossing over]
+    \\
+    &
+    &&&&
+    {}
+    \\
+    &&
+    c(1)
+    \ar[rrrrrrrr, "{\gamma(1)}"{description, pos=.5}]
+    &&&
+    {}
+    &
+    {}
+    &&&&
+    c(1)^{\gamma(1)}
+    \\
+    &
+    c(1)
+    \ar[ur,-,dashed]
+    \ar[rrrrrrrr, "{ \widehat{\gamma}(t')(1) }"{description}]
+    &&&&
+    \phantom{AA}
+    \ar[ur,-,dotted]
+    \ar[uu,-,crossing over, dotted]
+    &&&&
+    c(1)^{\widehat{\gamma}(t')(1)}
+    \ar[ur,-,dotted]
+    \ar[uuuu,-,crossing over, dotted]
+    \\
+    c(1)
+    \ar[ur,-,dashed]
+    \ar[uuuu,-,dashed]
+    \ar[rrrrrrrr, "{ \widehat{\gamma}(1)(1) }"{description}]
+    &&&&
+    \phantom{AA}
+    \ar[ur, -, dotted]    
+    \ar[uuuu, -, dotted, crossing over]
+    &&&&
+    c(1)^{\widehat{\gamma}(1)(1)}
+    \ar[ur, -, dotted]
+    \ar[uuuu, -, dotted, crossing over]
+\end{tikzcd}
+
+
 \end{proof}
 
 \begin{lemma}
@@ -1691,7 +2011,29 @@ $$
 and this holds by the truncation assumption (eq:GammaIsNTruncated).
 \end{proof}
 
-\begin{proposition}\label{ComparisonMorphismIsoOnFundamentalGroups}
+\begin{remark}
+\label{ConcordancesOfHigherGerbesOnSphericalSpaceFormHaveGroupStructure}
+  With (eq:DeloopingOfShapeIsInfinityGroup) in Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}, Prop. \ref{ConcordancesOnSphericalSpaceFormIsMapsOfClassifyingSpaces} implies that the space of concordances has [[infinity-group|$\infty$-group]] structure:
+$$
+  \esh
+  \,
+  Maps
+  \big(
+    S^{n+2}/G
+    ,\,
+    \mathbf{B}\Gamma
+  \big)
+  \;\;\;
+  \in
+  \;
+  Grp(Grpd_\infty) 
+  \,.
+$$
+\end{remark}
+
+
+\begin{proposition}
+\label{ComparisonMorphismIsoOnFundamentalGroups}
 The comparison morphism (Def. \ref{ComparisonMorphismBetweenShapesOfMappingStacks}) is an [[isomorphism]] on [[fundamental groups]] (for any basepoint):
 $$
   \pi_1
@@ -1730,7 +2072,10 @@ $$
 $$
 \end{proposition}
 \begin{proof}
-  By Lemma \ref{ComparisonMorphisnInjectiveOnFundamentalGroups} it is injective, and by Lemma \ref{ComparisonMorphismSurjectiveOnFundamentalGroups} it is surjective.
+  By Lemma \ref{ComparisonMorphisnInjectiveOnFundamentalGroups} this function is [[injective]] on fundamental groups.
+
+In order to see surjectivity, we may use that the $\infty$-groupoid of concordances has 
+[[infinity-group|group structure]] (Rem. \ref{ConcordancesOfHigherGerbesOnSphericalSpaceFormHaveGroupStructure}), which implies that all its [[connected components]] have isomorphic [[homotopy groups]]. Therefore it is sufficient to consider the connected component of the trivial cocycle $c$. Here, Lemma \ref{ComparisonMorphismSurjectiveOnFundamentalGroups} gives the surjectivity.
 \end{proof}
 
 
@@ -1759,7 +2104,6 @@ Discussion for the [[7-sphere]] with application to [[near horizon geometries]] 
 * {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 * {#Gadhia07} [[Sunil Gadhia]], _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007 ([spire:1393845](http://inspirehep.net/record/1393845/))
-
 
 
 
