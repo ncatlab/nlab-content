@@ -4,9 +4,9 @@
 
 ## Idea
 
-By analogy with [[graded algebra]], a **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]], $(\mathcal{M}, \otimes, I) \to ([\mathcal{C}, \mathcal{C}], \circ, id_{\mathcal{C}})$. This generalizes the concept of [[monad]] which may be consider as graded by $\mathbf{1}$, the [[terminal category]]. This definition may be rephrased in terms of a lax action of $\mathcal{M}$ on $\mathcal{C}$.
+By analogy with [[graded algebra]], an **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]], $(\mathcal{M}, \otimes, I) \to ([\mathcal{C}, \mathcal{C}], \circ, id_{\mathcal{C}})$. This generalizes the concept of [[monad]], which may be considered as graded by $\mathbf{1}$, the [[terminal category]]. This definition may be rephrased in terms of a lax action of $\mathcal{M}$ on $\mathcal{C}$.
 
-Equivalently, a $\mathcal{M}$-graded monad is a lax [[2-functor]] from the [delooping](https://ncatlab.org/nlab/show/delooping#deloopings_of_higher_categorical_structures) (or "suspension") of $\mathcal{M}$, $\mathbf{B} \mathcal{M} \to Cat$. Just as [[monads]] may be defined in any 2-category, $K$, this suggests that we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
+Equivalently, an $\mathcal{M}$-graded monad is a lax [[2-functor]] from the [[delooping#deloopings_of_higher_categorical_structures|delooping]] (or "suspension") of $\mathcal{M}$, $\mathbf{B} \mathcal{M} \to Cat$. Just as [[monads]] may be defined in any 2-category, $K$, this suggests that we may generalize graded monads to lax 2-functors $\mathbf{B} \mathcal{M} \to K$.
 
 A further generalization is to category-valued monads, lax functors from any category to $Cat$ ([OrchWadEad](#OrchWadEad)), and then to 2-category-valued monads from any 2-category.
 
