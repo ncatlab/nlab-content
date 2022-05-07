@@ -64,6 +64,221 @@ The *category of sets with rational numbers* is the category $SwRN$ whose object
 
 ## Properties
 
+### Commutative ring structure on the rational numbers ###
+
++--{: .num_defn}
+###### Definition
+The rational number **zero** $0 \in \mathbb{Q}$ is defined as
+
+$$0 \coloneqq 0/1$$
+=--
+
++--{: .num_defn}
+###### Definition
+The binary operation **addition** $(-)+(-):\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$a/b + c/d \coloneqq (a \cdot i(d) + c \cdot i(b))/(b \cdot d)$$
+
+for $a \ in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $c \in \mathbb{Z}$, $d \in \mathbb{Z}_{#0}$. 
+=--
+
++--{: .num_prop}
+###### Proposition
+For any $q \in \mathbb{Q}$ and $r \in \mathbb{Q}$, $q + r = r + q$. 
+=--
+
++--{: .proof}
+###### Proof
+TODO
+=--
+
++--{: .num_defn}
+###### Definition
+The unary operation **negation** $-(-):\mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$-(a/b) \coloneqq (-a)/b$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$ 
+=--
+
++--{: .num_defn}
+###### Definition
+The binary operation **subtraction** $(-)-(-):\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$a/b - c/d \coloneqq (a \cdot i(d) - c \cdot i(b))/(b \cdot d)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $c \in \mathbb{Z}$, $d \in \mathbb{Z}_{#0}$
+=--
+
++--{: .num_defn}
+###### Definition
+The rational number **one** $1 \in \mathbb{Q}$ is defined as 
+
+$$1 \coloneqq 1/1$$
+=--
+
++--{: .num_defn}
+###### Definition
+The binary operation **multiplication** $(-)\cdot(-):\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$a/b \cdot c/d \coloneqq (a \cdot c)/(b \cdot d)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $c \in \mathbb{Z}$, $d \in \mathbb{Z}_{#0}$
+=--
+
++--{: .num_defn}
+###### Definition
+The right $\mathbb{N}$-action **exponentiation** $(-)^{(-)}:\mathbb{Q} \times \mathbb{N} \to \mathbb{Q}$ is defined as
+
+$$(a/b)^n \coloneqq (a^n)/(b^n)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $n \in \mathbb{N}$.
+=--
+
+This makes the rational numbers into a commutative ring. 
+
+### Order structure on the rational numbers ###
+
++--{: .num_defn}
+###### Definition
+The [[predicate]] *is positive*, denoted as $isPositive(a/b)$, is defined as
+
+$$isPositive(a/b) \coloneqq (a \gt 0) \wedge (i(b) \gt 0) \vee (a \lt 0) \wedge (i(b) \lt 0)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$. 
+=--
+
++--{: .num_defn}
+###### Definition
+The [[predicate]] *is negative*, denoted as $isNegative(a/b)$, is defined as
+
+$$isNegative(a/b) \coloneqq (a \gt 0) \wedge (i(b) \lt 0) \vee (a \lt 0) \wedge (i(b) \gt 0)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$. 
+=--
+
++--{: .num_defn}
+###### Definition
+The [[predicate]] *is zero*, denoted as $isZero(a/b)$, is defined as
+
+$$isZero(a/b) \coloneqq a = 0$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$. 
+=--
+
++--{: .num_defn}
+###### Definition
+The [[predicate]] *is non-positive*, denoted as $isNonPositive(a/b)$ is defined as
+
+$$isNonPositive(a/b) \coloneqq \neg isPositive(a/b)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$. 
+=--
+
++--{: .num_defn}
+###### Definition
+The [[predicate]] *is non-negative*, denoted as $isNonNegative(a/b)$, is defined as
+
+$$isNonNegative(a/b) \coloneqq \neg isNegative(a/b) $$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$. 
+=--
+
++--{: .num_defn}
+###### Definition
+The [[predicate]] *is non-zero*, denoted as $isNonZero(a/b)$, is defined as
+
+$$isNonZero(a/b) \coloneqq isPositive(a/b) \vee isNegative(a/b)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$. 
+=--
+
+
++--{: .num_defn}
+###### Definition
+The [[relation]] *is less than*, denoted as $p \lt q$, is defined as
+
+$p \lt q \coloneqq isPositive(q - p)$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
+=--
+
++--{: .num_defn}
+###### Definition
+The dependent type *is greater than*, denoted as $p \gt q$, is defined as
+
+$p \lt q \coloneqq isNegative(q - p)$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
+=-- 
+
++--{: .num_defn}
+###### Definition
+The dependent type *is apart from*, denoted as $p \# q$, is defined as
+
+$p \lt q \coloneqq isNonZero(q - p)$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
+
+=--  
+
++--{: .num_defn}
+###### Definition
+The dependent type *is less than or equal to*, denoted as $p \leq q$, is defined as
+
+$p \lt q \coloneqq isNonNegative(q - p)$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
+
+=--  
+
++--{: .num_defn}
+###### Definition
+The dependent type *is greater than or equal to*, denoted as $p \leq q$, is defined as
+
+$p \lt q \coloneqq isNonPositive(q - p)$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
+=--  
+
+### Pseudolattice structure on the rational numbers ###
+
++--{: .num_defn}
+###### Definition
+The **ramp function** $ramp:\mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$ramp(a/b) \coloneqq (ramp(a) \cdot ramp(i(b)) + ramp(-a) \cdot ramp(i(-b)))/(b \cdot b)$$
+
+for $a \in \mathbb{Z}$, $b \in \mathbb{Z}_{#0}$, $ramp:\mathbb{Z} \to \mathbb{Z}$.
+=--
+
++--{: .num_defn}
+###### Definition
+The **minimum** $min:\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$min(p,q) \coloneqq p - ramp(p - q)$$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
+=--
+
++--{: .num_defn}
+###### Definition
+The **maximum** $max:\mathbb{Q} \times \mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$max(p, q) \coloneqq p + ramp(q - p)$$
+
+for $p:\mathbb{Q}$, $q:\mathbb{Q}$.
+=--
+
++--{: .num_defn}
+###### Definition
+The **absolute value** $\vert(-)\vert:\mathbb{Q} \to \mathbb{Q}$ is defined as
+
+$$\vert p \vert \coloneqq max(p, -p)$$
+
+for $p:\mathbb{Q}$. 
+=--
+
 ### Algebraic closure
 
 The [[algebraic closure]] $\overline{\mathbb{Q}}$ of the rational numbers is called the [[field]] of _[[algebraic numbers]]_. The [[absolute Galois group]] $Gal(\overline{\mathbb{Q}}\vert \mathbb{Q})$ has some curious properties, see [there](absolute+Galois+group#OfTheRationalNumbers).
