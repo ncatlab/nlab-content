@@ -905,3 +905,9 @@ In conclusion, the situation is summarized by the following table.
 Related talk notes:
 
 * [[Urs Schreiber]], _[[schreiber:Differential cohesion and Arithmetic geometry]]_, talk at [Karslruher Weihnachts-Workshop 2015](http://www.math.kit.edu/iag3/~herrlich/seite/weihnachts-workshops)
+
+Formalization in [[cohesive homotopy type theory|cohesive]] [[modal homotopy type theory|modal homotopy type theory]] [[homotopy type theory]]: 
+
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+
+
