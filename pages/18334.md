@@ -95,6 +95,9 @@ More on relevant [[model category]]-structures:
 
 * Victor Carmona, *Algebraic Quantum Field Theories: a homotopical view* ([arXiv:2107.14176](https://arxiv.org/abs/2107.14176))
 
+See also:
+
+* [[Simen Bruinsma]], [[Christopher J. Fewster]], [[Alexander Schenkel]], *Relative Cauchy evolution for linear homotopy AQFTs* ([arXiv:2108.10592](https://arxiv.org/abs/2108.10592))
 
 
 
