@@ -93,4 +93,4 @@ The $(\infty,n)$-Yoneda embedding $y : C \to PSh(C)$ preserves all [[(∞,n)-lim
 
 ## Related concepts
 
-* [[higher directed topoi]]
+* [[higher topos theory]]
