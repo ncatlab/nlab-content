@@ -21,9 +21,11 @@ Reviewing the classification of possible long-range [[forces]], hence of [[scatt
 
 * [[Daniel Baumann]], _What long-range forces are allowed?_, 2019 ([[BaumannLongRange19.pdf:file]])
 
+On [[general relativity]]:
 
+* [[Daniel Baumann]], *[General Relativity](http://cosmology.amsterdam/general-relativity/)*, 2021 ([pdf](http://cosmology.amsterdam/wp-content/uploads/2021/10/GR-Oct19.pdf))
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[cosmology]]
 
