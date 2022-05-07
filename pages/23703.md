@@ -16,7 +16,8 @@
 
 
 ## Definition ##
-A **cartesian monoidal dagger category** is a [[monoidal dagger category]] $(C, \times, 1)$ with 
+
+A **cartesian monoidal dagger category** is [[category]] which is both a [[dagger category]] and a [[cartesian monoidal category]] in a compatible way, namely a [[monoidal dagger category]] $(C, \times, 1)$ with 
 
 * a morphism $p_A \in Hom_C(A \times B,A)$ for $A \in Ob(C)$ and $B \in Ob(C)$. 
 * a morphism $p_B \in Hom_C(A \times B,B)$ for $A \in Ob(C)$ and $B \in Ob(C)$. 
@@ -38,4 +39,8 @@ In a cartesian monoidal dagger category, the tensor product is called a **cartes
 ## See also ##
 
 * [[dagger category]]
+
 * [[monoidal dagger category]]
+
+* [[cartesian monoidal category]]
+
