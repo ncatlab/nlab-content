@@ -38,7 +38,12 @@ The classical monograph on spin geometry is
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
-Lecture notes include
+Discussion with an eye towards [[mathematical physics]]:
+
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 5 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
+
+Lecture notes:
 
 * {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_, 2010
 
