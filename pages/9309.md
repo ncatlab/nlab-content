@@ -743,4 +743,7 @@ From the [[M5-brane]]
 [[!redirects Dirac-Born-Infeld action functional]]
 [[!redirects DBI action functional]]
 
+[[!redirects DBI theory]]
+[[!redirects DBI theories]]
+
 
