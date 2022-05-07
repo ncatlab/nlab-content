@@ -34,14 +34,26 @@ Then a [[left exact category]] $\mathcal{C}$ is said to be **protomodular** when
 
 ## Examples
 
-*  Certain categories of [[varieties of algebras]], such as the category of groups, the category of rings, the category of associative or Lie algebras over a given ring $A$, the category of Heyting algebras, the varieties of $\Omega$-[[Omega-groups|groups]]. (It is shown in [Bourn-Janelidze](#BournJan03) that  a variety $V$ of universal algebras is protomodular if and only if it has $0$-ary terms $e_1, \ldots ,e_n$, binary terms $t_1,\ldots,t_n$, and $(n+1)$-ary term $t$ satisfying
+\begin{example}\label{GroupsFormAProtomodularCategory}
+ The category [[Grp]] of all [[groups]] (including [[non-abelian groups]]) is pointed protomodular \end{example}
+([Borceux & Bourn 2004, Ex. 3.1.4](#BorceuxBourn04))
+
+\begin{example}
+Certain categories of [[varieties of algebras]], such as the category of groups, the category of rings, the category of associative or Lie algebras over a given ring $A$, the category of Heyting algebras, the varieties of $\Omega$-[[Omega-groups|groups]]. (It is shown in [Bourn-Janelidze](#BournJan03) that  a variety $V$ of universal algebras is protomodular if and only if it has $0$-ary terms $e_1, \ldots ,e_n$, binary terms $t_1,\ldots,t_n$, and $(n+1)$-ary term $t$ satisfying
 the identities $t(x, t_1(x, y),\ldots,t_n(x, y)) = y$ and $t_i(x, x) = e_i$ for each $i = 1,\ldots,n$.)
+\end{example}
 
-* Categories of algebraic varieties as above [[internal category|internal]] to a left exact category, for example, [[TopGrp]].
+\begin{example}
+Categories of algebraic varieties as above [[internal category|internal]] to a left exact category, for example, [[TopGrp]].
+\end{example}
 
-*  Constructions which inherit the property of being protomodular, such as the slice categories $\mathcal{C}/Z$ and the fibres $Pt_Z \mathcal{C}$ of the fibration $\pi$ of pointed objects for instance, or more generally the domain $\mathcal{C}$ of any pullback preserving and conservative functor $U : \mathcal{C} \to \mathcal{D}$; when its codomain $\mathcal{D}$ is protomodular.
+\begin{example}
+Constructions which inherit the property of being protomodular, such as the slice categories $\mathcal{C}/Z$ and the fibres $Pt_Z \mathcal{C}$ of the fibration $\pi$ of pointed objects for instance, or more generally the domain $\mathcal{C}$ of any pullback preserving and conservative functor $U : \mathcal{C} \to \mathcal{D}$; when its codomain $\mathcal{D}$ is protomodular.
+\end{example}
 
-* The dual of a [[topos]].
+\begin{example}
+The dual of a [[topos]].
+\end{example}
 
 ##Consequences of protomodularity
 
