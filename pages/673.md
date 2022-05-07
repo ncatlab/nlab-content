@@ -2,34 +2,49 @@
 [[!redirects David Roberts]]
 
 
+* table of contents
+{:toc}
+
+## About me
+
 I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
+
+From May 2022 I am a Visiting Associate Lecturer at Adelaide University, in the School of Mathematical Sciences, and I teach in the Maths Learning Centre (NB this is an independent part of the university!).
 
 For March 2018–December 2021 I was a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
-Previous to this, for July-2017 to February 2018 I was a Lecturer (=Assistant Professor in the US system) in the School of Mathematical Sciences.
+Previous to this, for July-2017 to February 2018 I was a 'Level B' Lecturer (=Assistant Professor in the US system) in the School of Mathematical Sciences.
 I was also a Research Associate at the University of Adelaide from October 2012 to April 2015. 
+
+I have also worked as an applied statistician/survey analyst/data analyst/consultant in the public sector, with 3+ years experience of daily work in the software [SAS](https://en.wikipedia.org/wiki/SAS_%28software%29).
 
 You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905), [Google Scholar](https://scholar.google.com.au/citations?user=KGianq8AAAAJ&hl=en), [MathOverflow](https://mathoverflow.net/users/4177/david-roberts), [arXiv](https://arxiv.org/a/roberts_d_1.html), [ORCiD](http://orcid.org/0000-0002-3478-0522), [Publons](https://publons.com/a/430214/), or my blog, [theHigherGeometer](https://thehighergeometer.wordpress.com/).
 
 If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat prime]])@gmail.[etc] or [first].[last]@adelaide.edu.au
 
 
-* table of contents
-{:toc}
 
 
 ## Writing
 
 ### Preprints
 
-* _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). Submitted for publication
+
+
+* _Homotopy equivalence of topological categories (2009/2022), arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when  I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022).
+
+
 
 ### Papers
 
 
-* _Extending Whitney's extension theorem: nonlinear function spaces_, Annales de l'Institut Fourier, Online first, doi:[10.5802/aif.3424](https://doi.org/10.5802/aif.3424), [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
+* _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). Accepted for publication, Compositionality, 14 Feb 2022.
 
-* _Many finite-dimensional lifting bundle gerbes are torsion_ (2021), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936). Bulletin of the Australian Mathematical Society, published online doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X).
+
+* _Many finite-dimensional lifting bundle gerbes are torsion_, Bulletin of the Australian Mathematical Society **105** Issue 2 (2022) 323–338, doi:[10.1017/S000497272100071X](https://doi.org/10.1017/S000497272100071X), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936).
+
+* _Extending Whitney's extension theorem: nonlinear function spaces_, Annales de l’Institut Fourier **71** no. 3 (2021) 1241–1286, doi:[10.5802/aif.3424](https://doi.org/10.5802/aif.3424), [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
+
 
 * _The elementary construction of formal anafunctors_, Categories and General Algebraic Structures with Applications vol **15** issue 1 (2021) 183–229, doi:[10.52547/cgasa.15.1.183](https://doi.org/10.52547/cgasa.15.1.183), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552). (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title). 
 
@@ -75,6 +90,8 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 ### Notes/Other
 
+
+* _Explicit String bundles_ (2014/2022) arXiv:[2203.04544](https://arxiv.org/abs/2203.04544). (Notes from a talk delivered at Herriot-Watt University on 26 June 2014 at the Workshop on Higher Gauge Theory and Higher Quantization) 
 
 * _A Crisis of Identification_, Inference: International Review of Science **4** Issue 3 (2019), doi:[10.37282/991819.19.2](https://doi.org/10.37282/991819.19.2). This article was subsequently reprinted for the special collection "A Christmas [Chrestomathy](https://en.wiktionary.org/wiki/chrestomathy), 2014–2020", in vol **5** Issue 4.
 
