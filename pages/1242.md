@@ -289,6 +289,8 @@ The [[connecting homomorphism]] of the [[long exact sequence in homology]] induc
 
 ### Classes of examples
 
+* [[short exact sequence of vector bundles]]
+
 * [[long exact sequence of homotopy groups]]
 
 * [[long exact sequence in homology]]/[[long exact sequence in homology|in cohomology]]
