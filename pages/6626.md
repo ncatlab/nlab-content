@@ -44,7 +44,7 @@ From weaker to stronger:
 
 *  For __large separation__, $P$ must be written in the language of first-order class theory; of course, this only makes sense *in* a class theory.  The difference in strength between the class theories $MK$ and $NBG$ is precisely that the former has large separation but the latter does not.
 
-*  Separation is sometimes called __restricted comprehension__; for __full comprehension__ aka simply __comprehension__, no set $X$ needs to be given ahead of time.  Full comprehension was proposed by [[Gottlob Frege]], but leads to [[Russell's paradox]].  However, full comprehension can sometimes be allowed if the ambient logic is nonclassical, such as [[linear logic]] or [[paraconsistent logic]].
+*  Separation is sometimes called __restricted comprehension__; for __[[full comprehension]]__, a.k.a. simply __comprehension__, no set $X$ needs to be given ahead of time.  Full comprehension was proposed by [[Gottlob Frege]], but leads to [[Russell's paradox]].  However, full comprehension can sometimes be allowed if the ambient logic is nonclassical, such as [[linear logic]] or [[paraconsistent logic]].
 
 *  For __stratified comprehension__, no set $X$ is given, but $P$ is restricted to stratified formulas, in which each [[variable]] $x$ can be given a consistent [[natural number]] $\sigma(x)$ (its stratification) such that $x \in y$ appears in the formula only if $\sigma(y) = \sigma(x) + 1$.  This is used in [[Van Quine]]\'s [[New Foundations]].
 
@@ -184,14 +184,7 @@ Full separation follows from the [[axiom of replacement]] and the principle of [
 * Carboni, Janelidze, Kelly, Par&#233;. _On localization and stabilization for factorization systems_.  Applied Categorical Structures, 1997.
  {#Carboni97}
 
-### In linear logic
 
-Full comprehension (a.k.a. "naive set theory") in the context of logic without the [[contraction rule]] is discussed in:
-
-* Grishin, V. N., "Predicate and set theoretic calculi based on logic without contraction rules" (Russian), _Izvestiya Akademii Nauk SSSR Seriya Matematicheskaya_, 45(1): 47 &#8211; 68, 1981. English translation in Math. USSR Izv., 18(1): 41 &#8211; 59, 1982. ([math-net.ru](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=1547&option_lang=eng))
-
-* [[Jean-Yves Girard]], Light Linear Logic, _Information and Computation_, 14(3):123-137, 2003. ([pdf.gz](http://iml.univ-mrs.fr/~girard/LLL.pdf.gz))
-* [[Kazushige Terui]], Light Affine Set Theory: A Naive Set Theory of Polynomial Time, _Studia Logica: An International Journal for Symbolic Logic_, Vol. 77, No. 1 (Jun., 2004), pp. 9-40. ([jstor](http://www.jstor.org/stable/20016605)) ([pdf](http://www.kurims.kyoto-u.ac.jp/~terui/lastfin.pdf)).  See also Terui's slides, [Linear Logic and Naive Set Theory (Make our garden grow)](http://www.kurims.kyoto-u.ac.jp/~terui/summer3.pdf)
 
 category: foundational axiom
 
@@ -218,6 +211,7 @@ category: foundational axiom
 [[!redirects axiom schemas of specification]]
 [[!redirects axiom schemata of specification]]
 
+[[!redirects comprehension axiom]]
 [[!redirects axiom of comprehension]]
 [[!redirects axioms of comprehension]]
 [[!redirects axiom scheme of comprehension]]
@@ -279,15 +273,6 @@ category: foundational axiom
 [[!redirects axiom schema of restricted comprehension]]
 [[!redirects axiom schemas of restricted comprehension]]
 [[!redirects axiom schemata of restricted comprehension]]
-
-[[!redirects full comprehension]]
-[[!redirects axiom of full comprehension]]
-[[!redirects axioms of full comprehension]]
-[[!redirects axiom scheme of full comprehension]]
-[[!redirects axiom schemes of full comprehension]]
-[[!redirects axiom schema of full comprehension]]
-[[!redirects axiom schemas of full comprehension]]
-[[!redirects axiom schemata of full comprehension]]
 
 [[!redirects stratified comprehension]]
 [[!redirects axiom of stratified comprehension]]
