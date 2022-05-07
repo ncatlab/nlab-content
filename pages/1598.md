@@ -111,6 +111,12 @@ Therefore these are all [[isomorphic]] as bare group. But equipped with their ca
 
 * _[[Hilbert's fifth problem]]_
 
+
+### Relation to topological groups
+
+* [[continuous homomorphisms of Lie groups are smooth]]
+
+
 ### Homotopy groups
 
 List of [[homotopy groups]] of the manifolds underlying the classical [[Lie groups]] are for instance in ([Abanov 09](#Abanov09)).
@@ -228,12 +234,17 @@ The [[exceptional Lie groups]] incude
 
 * [[Hans Duistermaat]], J. A. C. Kolk, _Lie groups_, 2000
 
-* {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
-
-
 * Mark Haiman, lecture notes by [[Theo Johnson-Freyd]], _Lie groups_, Berkeley 2009 ([pdf](http://math.berkeley.edu/~theojf/LieGroups.pdf))
 
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf))
+
+
+* {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
+
+
+* {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
+
+
 
 ### Homotopy groups
 
@@ -259,12 +270,18 @@ Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PD
 
 On [[mapping spaces]] of [[continuous function|continuous]] [[homomorphisms]] from [[topological groups]] to [[Lie groups]]:
 
-* [[Pierre Conner]], [[Edwin Floyd]], Ch. III, Lem. 38.1 in: _Differentiable periodic maps_, Ergebnisse der Mathematik und ihrer Granzgebiete **33**, Springer 1964 ([doi:10.1007/978-3-662-41633-4](https://link.springer.com/book/10.1007/978-3-662-41633-4))
-
+for maps out of [[finitely generated group|finitely generated]] [[discrete groups]]":
 
 * [[Frederick R. Cohen]], [[Mentor Stafa]], *A survey on spaces of homomorphisms to Lie groups*,  In: Callegaro F., Cohen F., De Concini C., Feichtner E., Gaiffi G., Salvetti M. (eds.) *Configuration Spaces*, INdAM Series, vol 14, Springer 2016 ([arXiv:1412.5668](https://arxiv.org/abs/1412.5668), [doi:10.1007/978-3-319-31580-5_15](https://doi.org/10.1007/978-3-319-31580-5_15)) 
 
+for maps out of [[compact Lie groups]] and the fact that [[nearby homomorphisms from compact Lie groups are conjugate]]:
+
+* [[Pierre Conner]], [[Edwin Floyd]], Ch. III, Lem. 38.1 in: _Differentiable periodic maps_, Ergebnisse der Mathematik und ihrer Grenzgebiete **33**, Springer 1964 ([doi:10.1007/978-3-662-41633-4](https://link.springer.com/book/10.1007/978-3-662-41633-4))
+
 * [[Charles Rezk]], *Nearby homomorphisms from compact Lie groups are conjugate* ([MO:q/123624](https://mathoverflow.net/q/123624/381))
+
+* {#Rezk14} [[Charles Rezk]], Rem. 2.2.1 in: *[[Global Homotopy Theory and Cohesion]]*, 2014 ([pdf](http://www.math.uiuc.edu/~rezk/global-cohesion.pdf), [[Rezk14.pdf:file]])
+
 
 [[!redirects Lie groups]]
 
