@@ -24,9 +24,9 @@ In [[higher category theory]], there are several periodic tables, analogous to t
 
 ## History
 
-The first periodic table of [[n-categories]], due to [[John Baez]] and [[James Dolan]], was a slightly distorted version of their periodic table of $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories.
+The first periodic table of [[n-categories]], due to [[John Baez]] and [[James Dolan]] in [BaezDolan95](#BaezDolan95), was the following. Originally, Baez and Dolan referred to it as a periodic table of $k$-tuply monoidal $n$-categories, as opposed to simply of $n$-categories, but in today's terminology the periodic table of $k$-tuply monoidal $n$-categories would be the one at the page [[k-tuply monoidal n-category]]. That page contains various notes on the table.
 
-Fully filled out, the table looked like this:
+Fully filled out, the table looks like this:
 <table><tr><th markdown="1">$k$&#8595;\$n$&#8594;</th><th markdown="1">$-2$</th><th markdown="1">$-1$</th><th markdown="1">$0$</th><th markdown="1">$1$</th><th markdown="1">$2$</th><th>...</th></tr>
 <tr><th markdown="1">$0$</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>[[2-category]]</td><td>...</td></tr>
 <tr><th markdown="1">$1$</th><td>"</td><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>...</td></tr>
@@ -34,22 +34,18 @@ Fully filled out, the table looked like this:
 <tr><th markdown="1">$3$</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>...</td></tr>
 <tr><th markdown="1">$4$</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>...</td></tr>
 <tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
-Actually, the columns where $n = -1$ and $n = -2$ were not there, but they appeared to be required by the pattern of the table.
 
-We now recognise that a $0$-tuply monoidal $n$-category should be *pointed*, leading to a slightly different table (see that page). Similarly, the definition given when $k \gt 0$ didn\'t mention pointedness, giving essentially the definition of $(k-1)$-[[k-tuply connected n-category|simply connected]] $(n+k)$-category. This makes a difference to the notions of morphism and higher morphism between such structures.
+The columns with $n = -1$ and $n = -2$ were not originally there, but they follow the pattern of the table. 
 
-Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) about how these don't end up quite right if you just look at $(k-1)$-simply connected $(n+k)$-categories, but in all cases we have analyzed they do come out correct if you look at the pointed versions.  More on this can be found in the appendix to  [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
+Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) observing that the above table does not quite behave 'correctly' with respect to higher morphisms if one restricts to $(k-1)$-simply connected $(n+k)$-categories, but things do appear to come out correctly if one looks at the 'pointed' version of the table at [[k-tuply monoidal n-category]]. More on this can be found in the appendix to [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
 
 
 ## Examples
 
-... appearances in TWF, filling gaps, the first extension to small $n$, the established literature on $(n,r)$-categories, the stabilisation hypothesis, the tangle hypothesis, the table with Lie algebroids and the like, the appendix to John\'s and Mike\'s paper; most of these individual tables will have their own pages; ...
-
-* $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories;
-* $(n,r)$-[[(n,r)-category|categories]];
-* $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids;
-* $k$-tuply monoidal $(n,r)$-categories, a [[k-tuply monoidal (n,r)-category|combination of all of the above]];
-* etc.
+* $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories
+* $(n,r)$-[[(n,r)-category|categories]]
+* $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids
+* $k$-tuply monoidal $(n,r)$-categories, a [[k-tuply monoidal (n,r)-category|combination of all of the above]]
 
 
 ## Related entries
@@ -57,6 +53,10 @@ Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) ab
 * [[stabilization hypothesis]]
 
 * [[delooping hypothesis]]
+
+\section{References} 
+
+* {#BaezDolan95} [[John Baez]], [[James Dolan]], _Higher-dimensional algebra and topological quantum field theory_, J. Math. Phys. 36, No. 11, 6073-6105 (1995), [arXiv:q-alg/9503002](https://arxiv.org/abs/q-alg/9503002), [doi](https://doi.org/10.1063/1.531236)
 
 
 [[!redirects periodic table]]
