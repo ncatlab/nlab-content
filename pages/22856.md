@@ -24,31 +24,36 @@ A *divided power algebra* is a [[commutative ring]] $A$ together with an [[ideal
 
 A __divided power algebra__ is a triple $(A,I,\gamma)$ with
 
-- $A$ a [[commutative ring]];
+- $A$ a [[commutative ring]] (with identity);
 
 - $I$ an [[ideal]] of $A$;
 
-- $\gamma=\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ an [[indexed set]] of [[functions]] (of [[underlying]] [[sets]]);
+- $\gamma=\{\gamma_{n}\colon I\to I\}_{n\geq 1}$ an [[indexed set]] of [[functions]] (of [[underlying]] [[sets]]);
 
 satisfying the following conditions:
 
-1. For each $x\in I$, we have $\gamma_{0}(x)=1$.
-
 1. For each $x\in I$, we have $\gamma_{1}(x)=x$.
 
-1. For each $x\in I$ and each $n\geq2$, we have $\gamma_{n}(x)\in I$.
+1. For each $x,y\in I$ and $n\geq 0$, we have
+$$
+\gamma_{n}(x+y)=\sum_{k=0}^{n}\gamma_{n-k}(x)\gamma_{k}(y),
+$$
+where we take the convention that $\gamma_0(x)\equiv 1$, even though this isn't an element of $I$ except in trivial cases;
 
-1. For each $x,y\in I$, we have
-$$\gamma_{n}(x+y)=\sum_{k=0}^{n}\gamma_{n-k}(x)\gamma_{k}(y).$$
+1. For each $\lambda\in A$, each $x\in I$ and $n\geq 0$, we have
+$$
+\gamma_{n}(\lambda x)=\lambda^{n}\gamma_{n}(x).
+$$
 
-1. For each $\lambda\in A$ and each $x\in I$, we have
-$$\gamma_{n}(\lambda x)=\lambda^{n}\gamma_{n}(x).$$
+1. For each $x\in I$ and each $m,n\geq 0$, we have
+$$
+\gamma_{n}(x)\gamma_{m}(x)=\frac{(n+m)!}{n!m!}\gamma_{n+m}(x).
+$$
 
-1. For each $x\in I$ and each $m,n\in\mathbb{N}$, we have
-$$\gamma_{n}(x)\gamma_{m}(x)=\frac{(n+m)!}{n!m!}\gamma_{n+m}(x).$$
-
-1. For each $x\in I$ and each $m,n\in\mathbb{N}$, we have
-$$\gamma_{m}(\gamma_{n}(x))=\frac{(n m)!}{(n!)^{m}m!}\gamma_{n m}(x).$$
+1. For each $x\in I$ and each $m\geq 0$, $n\geq 1$, we have
+$$
+\gamma_{m}(\gamma_{n}(x))=\frac{(n m)!}{(n!)^{m}m!}\gamma_{n m}(x).
+$$
 
 For a given $(A,I)$, a __divided power structure__ on $(A,I)$ is a $\gamma$ making $(A, I, \gamma)$ a divided power algebra.
 
@@ -62,13 +67,13 @@ Genuine powers can be constructed in the expected way from the divided powers, a
 +-- {: .num_prop} 
 ###### Proposition
 
-If $(A,I,\gamma)$ is a divided power algebra, then $n! \gamma_n(x) = x^n$ for every $x \in I$ and $n \in \mathbb{N}$.
+If $(A,I,\gamma)$ is a divided power algebra, then $n! \gamma_n(x) = x^n$ for every $x \in I$ and $n \geq 0$ (taking $x^0:=1$).
 =--
 
 +-- {: .proof} 
 ###### Proof 
 
-It's true for $n=0$ and $n=1$. 
+It is true for $n=0$ and $n=1$ by definition. 
 For $n \geq 2$, this follows by [[induction]], since $n! \gamma_n(x) = (n-1)! \gamma_{n-1}(x) \cdot 1! \gamma_1(x) = x^{n-1} \cdot x$.
 
 =--
