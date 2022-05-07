@@ -118,6 +118,26 @@ This means that the Schur polynomial $s_\lambda$ in $N$ variables is the sum ove
   \,.
 \]
 
+In particular, the evaluation of a Schur polynomial at $N$ unit values is the number of [[semistandard Young tableaux]] with labels $\leq N$:
+
+\[
+  \label{SchurPolynomialCountsNumberOfSemiStandardYoungTableaux}
+  s_\lambda
+  \big(
+    x_1\!=\!1, \cdots, x_N \!=\! 1
+  \big)
+  \;\;=\;\;
+  \underset{
+    {T \in ssYT_\lambda(N)},
+  }{\sum}
+  1
+  \;\;=\;\;
+  \left\vert
+    ssYT_\lambda(N)
+  \right\vert
+  \,.
+\]
+
 
 An immediate consequence is:
 
