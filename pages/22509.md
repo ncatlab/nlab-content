@@ -21,6 +21,8 @@ A *Church monoid* is a particular type of [[algebra|algebraic]] [[mathematical s
 
 A Church monoid is a [[partially ordered set|partially ordered]] [[commutative monoid]] $(M,\circ, 1,\leq)$ that is has a binary operation, "implication", written $a\to b$ that as an operation $b\mapsto (a\to b)$ is [[right adjoint]] to the [[functor]] $-\circ a$. Here $M$ is considered as a [[thin category]] associated to the underlying [[poset]]. Additionally, for all $a\in M$, $a \leq a\circ a$, resulting in a [[monoidal category with diagonals]], where $\circ$ is the monoidal product.
 
+The operation $\circ$ models [[intensional conjunction]], as $\to$ models implication, analogous to [[linear implication]] in [[linear logic]].
+
 
 ## Related concepts
 
@@ -33,4 +35,6 @@ A Church monoid is a [[partially ordered set|partially ordered]] [[commutative m
 
 Church monoids were introduced in
 
-* Robert K. Meyer, _Conservative extension in relevant implication_, Studia Logica volume 31 (1973) pp39–46, doi:[10.1007/BF02120525](https://doi.org/10.1007/BF02120525).
+* Robert K. Meyer, _Conservative extension in relevant implication_, Studia Logica volume 31 (1973) pp39–46, doi:[10.1007/BF02120525](https://doi.org/10.1007/BF02120525)
+
+and named for [[Alonzo Church]].
