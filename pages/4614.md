@@ -606,7 +606,7 @@ where $(D/ -)\colon D \to Cat$ sends each object of $D$ to its [[overcategory]],
 $$ N(D/ -) \otimes_D X_\bullet \to \Delta \otimes_{\Delta} X_\bullet = {|X_\bullet|} $$
 which is also called the **Bousfield-Kan map**.
 
-Since the Str&#248;m model structure is a [[simplicial model category]], standard arguments involving Reedy model structures imply that the Bousfield-Kan map is a Str&#248;m weak equivalence (i.e. a homotopy equivalence) whenever $X$ is Str&#248;m Reedy cofibrant (i.e. proper).  Thus we have (see also [Arkhipov & Ørsted 2018, Exp. 6.4](#ArkhipovOrsted18)):
+Since the Str&#248;m model structure is a [[simplicial model category]], standard arguments involving Reedy model structures imply that the [[Bousfield-Kan map]] is a Str&#248;m [[weak equivalence]] (i.e. a [[weak homotopy equivalence]]) whenever $X$ is Str&#248;m Reedy cofibrant (i.e. proper).  Thus we have (see also [Arkhipov & Ørsted 2018, Exp. 6.4](#ArkhipovOrsted18)):
 
 +-- {: .num_prop #RealizationOfGoodSimplicialSpacesIsHomotopyColimit}
 ###### Proposition
