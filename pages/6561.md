@@ -26,7 +26,7 @@
 
 ## Idea
 
-According to the [classification of superconformal symmetry](supersymmetry#ClassificationSuperconformal), there should exists [[superconformal field theories]] in 6 dimensions...
+According to the [classification of superconformal symmetry](supersymmetry#ClassificationSuperconformal), there should exist [[superconformal field theories]] in 6 dimensions...
 
 [[!include superconformal symmetry -- table]]
 
@@ -36,7 +36,7 @@ In ([Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97)) such has been derived, i
 
 In accord with this the [AdS7-CFT6](AdS-CFT#AdS7CFT6) correspondence predicts that the nonabelian 6d theory is the corresponding theory for $N$ coincident M5-branes.
 
-In the non-abelian case this is expected ([Witten 07](#Witten07)) that the compactification of such theories are at the heart of the phenomenon that leads to [[S-duality]] in [[super Yang-Mills theory]] and further to [[geometric Langlands duality]] ([Witten 09](#Witten09)).
+In the non-abelian case it is expected ([Witten 07](#Witten07)) that the compactification of such theories are at the heart of the phenomenon that leads to [[S-duality]] in [[super Yang-Mills theory]] and further to [[geometric Langlands duality]] ([Witten 09](#Witten09)).
 
 Due to the [[self-dual higher gauge theory|self-duality]] a characterization of these theories by an [[action functional]] is subtle. Therefore more direct descriptions are still under investigation (for instance [SSW11](#SSW11)). Review includes ([Moore11](#Moore11), [Moore 12](#Moore12)).
 
