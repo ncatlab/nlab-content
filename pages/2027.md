@@ -24,13 +24,15 @@ in constructive mathematics, there are different inequivalent ways to define an 
 If we replace "$ab$ is nonzero iff elements $a$ and $b$ are nonzero" in the above definition by "$ab$ is nonzero [[xor]] either $a$ or $b$ is zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete integral domain**.  This condition implies that $0\neq 1$.
 =--
 
-Such an integral domain $D$ is 'discrete' in that it decomposes as a coproduct $D = \{0\} \sqcup D^\times$ (where $D^\times$ is the subset of elements that are not zero-divisors). 
+Such an integral domain $D$ is 'discrete' in that it decomposes as a coproduct $D = \{0\} \sqcup D^\times$ (where $D^\times$ is the subset of elements that are not zero-divisors). An advantage is that this is a [[coherent logic|coherent theory]] and hence also a [[geometric theory]].  A disadvantage is that this axiom is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[integers]] and the ring of [[rational number|rationals]].
 
 +-- {: .num_defn #heyting}
 ###### Definition
 
 If we interpret 'nonzero' as a reference to a [[tight apartness relation]], thus defining the apartness relation $\#$ by $x # y$ iff $x - y$ is invertible, then we obtain the notion of **Heyting integral domain**. (As shown [here](/nlab/show/local+ring#internal), the ring operations become strongly extensional functions.)   In addition to $0\# 1$, the condition then means that every element apart from $0$ is not a zero-divisor.
 =--
+
+This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'integral domain'.  An advantage is that the (located Dedekind) [[real numbers]] form a Heyting integral domain. A disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
 
 Of course, if the underlying set of the ring has [[decidable equality]] ---as is true of $\mathbf{Z}$, $\mathbf{Q}$, $\mathbf{Z}/n$, [[finite fields]], etc--- then a Heyting integral domain is a discrete integral domain.
 
