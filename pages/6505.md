@@ -331,6 +331,8 @@ Review includes
 
 * {#Marle16} Charles-Michel Marle, _From tools in symplectic and Poisson geometry to Souriau's theories of statistical mechanics and thermodynamics_, Entropy 2016, 18(10), 370 ([arXiv:1608.00103](https://arxiv.org/abs/1608.00103))
 
+* Charles-Michel Marle, On Gibbs states of mechanical systems with symmetries, arXiv:2012.00582v2 [math.DG], Januray 13th 2021  
+
 * Barbaresco, F.; Gay-Balmaz, F. Lie Group Cohomology and (Multi)Symplectic Integrators: New Geometric Tools for Lie Group Machine Learning Based on Souriau Geometric Statistical Mechanics. Entropy 2020, 22, 498. https://www.mdpi.com/1099-4300/22/5/498
 
 * Koszul, J.-L., Introduction to Symplectic Geometry, SPRINGER, 2019
