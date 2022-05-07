@@ -62,7 +62,7 @@ On the morphisms, the functor gives for example the [[pushforward of measures]].
 
 The [[unit]] of the [[monad]] gives, for each space of outcomes, a map $X\to P X$, which we can think of as picking out "those outcomes which are not really random", or "Dirac delta" (see [[Dirac measure]] and [[valuation (measure theory)#dirac_valuation|Dirac valuation]]. 
 
-These can be seen as the laws of a deterministic random variable.
+These can be seen as the laws of a [[deterministic random variable]].
 
 
 ### The multiplication: mixing probability measures.
