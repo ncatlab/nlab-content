@@ -59,7 +59,7 @@ Let $(X,\tau)$ be a [[topological space]].
 
    > graphics grabbed from [Vickers 89](#Vickers89)
 
-1. If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _closed point_ of $X$.
+1. If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that $x$ is a _[[closed point]]_ of $X$.
 
 1. Given any subset $S \subset X$, then its _topological closure_ $Cl(S)$ is the smallest closed subset containing $S$:
 
