@@ -30,42 +30,33 @@ in the framework for working with [[algebra|algebraic]] objects that are equippe
 A _condensed set_ is a [[sheaf]] of [[sets]] on the [[pro-étale site]] of a point — in other words, on the [[category]] of [[profinite spaces]] with finite jointly [[surjective]] families of maps as [[covers]] — which is the [[colimit]] of a [[small diagram]] of [[representables]] (a [[small sheaf]]).
 
 That is, a condensed set is a [[functor]]
-
 $$
   ProfiniteSet^op 
   \longrightarrow
   Set
 $$
-
 such that the natural maps
-
 $$
   T(\emptyset)
   \longrightarrow
   *
 $$
-
 and
-
 $$
   T(S\sqcup S')
   \longrightarrow
   T(S) \times T(S')
 $$
-
 are [[bijections]] for any [[profinite sets]] $S$ and $S'$,
 whereas the natural [[fork]]
-
 $$
   T(S)\to T(S')
   \rightrightarrows 
   T(S'\times_S S')
 $$
-
 is an [[equalizer]] for any [[surjection]] of [[profinite sets]] $S'\to S$.
 
 \end{definition}
-
 
 [Scholze, p.7](#ScholzeLCM) modifies this definition to deal with size issues: 
 
@@ -76,6 +67,31 @@ The category of condensed sets is then the (large) [[colimit]] of the category o
 ## Properties
 
 Condensed sets form a [[pretopos]].
+
+See \cite[Proposition 1.7]{ScholzeLCM} for the following proposition.
+
+\begin{proposition}
+The [[forgetful functor]]
+from the category of [[topological spaces]]
+to condensed sets is a [[faithful functor]].
+It becomes [[fully faithful]] when restricted
+to [[compactly generated spaces]].
+(In the case of κ-condensed sets, one must take κ-compactly generated
+spaces instead.)
+
+This functor admits a left adjoint,
+which sends a condensed set $T$
+to the [[topological space]] given by the underlying set $T(*)$ of $T$
+equipped with the [[quotient topology]] induced by the map
+$$\coprod_{S\to T}S\to T(*),$$
+where $S$ runs over all (κ-small) [[profinite sets]] mapping into $T$.
+The [[counit]] of this adjunction coincides with the counit $X^{cg}\to X$
+of the adjunction between (κ-small) [[compactly generated spaces]]
+and [[topological spaces]].
+\end{proposition}
+
+The left adjoint exists also for topological groups and other algebraic
+structures, but in this case, the underlying set is not $T(*)$.
 
 ## Related concepts
 
