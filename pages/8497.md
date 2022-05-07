@@ -153,7 +153,7 @@ Regarding the conjugation action as the [[internal hom]] of actions immediately 
 
 * [[inner automorphism]]
 
-* [[adjoint action]]
+* [[adjoint action]], [[free loop space of classifying space]]
 
 * [[conjugate subgroup]]
 
