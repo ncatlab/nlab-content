@@ -10,9 +10,9 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
-#### Physics
+#### Topological physics
 +--{: .hide}
-[[!include physicscontents]]
+[[!include topological physics -- contents]]
 =--
 =--
 =--
