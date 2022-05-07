@@ -32,13 +32,13 @@ $$
   \,.
 $$
 
-Whenever this is the case then this provides
+Whenever this is holds it provides
 
-1. from left to right: topological tools for analyzing [[moduli spaces]] of rational hypersurfaces;
+1. from left to right: [[homotopy theory|homotopy theoretic]] tools for analyzing [[moduli spaces]] of rational hypersurfaces;
 
 1. from right to left: small algebraic models for [[stable homotopy types|stable]] [[homotopy types]] of [[mapping spaces]].
 
-## Properties
+## Details
 
 \begin{remark}\label{NotionsOfDegree}
 **("degree")**\linebreak
