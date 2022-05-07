@@ -499,7 +499,9 @@ That core, like every [[∞-groupoid]] is equivalent to the disjoint union over 
 
 * [[hom-category]]
 
-* [[hom-space]], **derived hom-space**, [[cocycle space]]
+* [[hom-space]], [[cocycle space]]
+
+* [[simplicial mapping complex]]
 
 [[!include homotopy-homology-cohomology]]
 
@@ -588,3 +590,7 @@ and section 3.6.2 of
 [[!redirects (∞,1)-categorical hom]]
 
 [[!redirects (∞,1)-categorical hom-spaces]]
+
+[[!redirects derived mapping space]]
+[[!redirects derived mapping spaces]]
+
