@@ -15,3 +15,7 @@
 * [[dimension of a cell complex]]
 
 * [[dimension of a separable metric space]]
+
+* small [[inductive dimension]] of a [[regular space]]
+
+* large [[inductive dimension]] of a [[normal space]]
