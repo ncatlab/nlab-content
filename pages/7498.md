@@ -123,6 +123,8 @@ The image of the Borel construction in [[rational homotopy theory]] is the [[Wei
 
 ## Related concepts
 
+* [[simplicial classifying space]]
+
 * [[Borel equivariant cohomology]]
 
   * [[equivariant ordinary cohomology]]
