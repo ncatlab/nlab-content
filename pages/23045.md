@@ -37,7 +37,7 @@ The [[unitary group]] on an infinite-dimensional [[separable Hilbert space|separ
 
 ## References
 
-Proof that the weak- and strong- [[operator topology]] as well as the [[compact-open topology]] (...) all agree on $U(\mathcal{H})$:
+Proof that the weak- and strong- [[operator topology]] as well as the [[compact-open topology]] (...) all agree on $U(\mathcal{H})$ (and the norm topology is still strictly finer):
 
 * {#Schottenloher} [[Martin Schottenloher]], _The Unitary Group In Its Strong Topology_ ([arXiv:1309.5891](https://arxiv.org/abs/1309.5891)), Advances in Pure Mathematics **08** 05 (2018) ([doi:10.4236/apm.2018.85029](https://www.scirp.org/html/4-5301487_84967.htm))
 
@@ -49,6 +49,6 @@ Previous influential but wrong claim that they do not:
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Appendix of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
 
 
-
+This paper made the mistake of assuming that because various topologies were distinct on $GL(\mathcal{H})$, they remain distinct on $U(\mathcal{H})$.
 
 
