@@ -77,7 +77,7 @@ so that $N(x) = [x, 0]$ is the negation and the hypothesis becomes the condition
 
 ### In the category of spectra -- Anderson duality
 
-In the [[stable (infinity,1)-category of spectra]], the [[sphere spectrum]] (which induces [[Spanier-Whitehead duality]] on spectra which are [[dualizable objects]] with respect to the [[smash product of spectra]]) is not a dualizing object.  However, the [[Anderson spectrum]] $I_{\mathbb{Z}}$ is a dualizing object on a suitable subcategory of finite spectra ([[Representability Theorems|Lurie, Example 4.3.9]]).  The [[duality]] operation $[-,I_{\mathbb{Z}}]$ that it induces in [[Anderson duality]].
+In the [[stable (infinity,1)-category of spectra]], the [[sphere spectrum]] (which induces [[Spanier-Whitehead duality]] on spectra which are [[dualizable objects]] with respect to the [[smash product of spectra]]) is not a dualizing object.  However, the [[Anderson spectrum]] $I_{\mathbb{Z}}$ is a dualizing object on a suitable subcategory of finite spectra ([[Representability Theorems|Lurie, Example 4.3.9]]).  The [[duality]] operation $[-,I_{\mathbb{Z}}]$ that it induces is [[Anderson duality]].
 
 For instance, the Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)); and [[tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska 12](#Stojanoska12))
 
