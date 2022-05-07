@@ -1,3 +1,8 @@
+
+$\oslash$
+
+$ \underline{\overline{\vert\!/\!\vert}}$
+
 $i \boxslash p$
 
 Test
