@@ -42,7 +42,7 @@ There are two basic approaches possible: to define what a __real number__ is as 
 
 ### Dedekind cuts {#Dedekind}
 
-Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of $\mathbb{Q}$ (the set of [[rational numbers]]) such that:
+Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of $\mathbb{Q}$ (the set of [[rational numbers]]) or a [[dense order|dense]] [[subring]] like $\mathbb{Z}[1/10]$ (the set of [[decimal fractions]]) such that:
 
 *  If $a \in L$, then $b \in L$ for some $b \gt a$.
 *  If $b \in U$, then $a \in U$ for some $a \lt b$.
@@ -60,7 +60,7 @@ See [[Dedekind cut]] for more.
 
 ### Cauchy sequences
 
-Classically, a real number can be given by an [[infinite sequence|infinite]] [[Cauchy sequence]] of [[decimal rational number|decimal fractions]] $\mathbb{Z}[1/10]$, each of which is a decimal fraction that approximates the real number to a given number of decimal places. However, many real numbers have several representations, i.e. 
+Classically, a real number can be given by an [[infinite sequence|infinite]] [[Cauchy sequence]] of [[decimal fractions]] $\mathbb{Z}[1/10]$, each of which is a decimal fraction that approximates the real number to a given number of decimal places. However, many real numbers have several representations, i.e. 
 
   $$1/10 = 0.099999... = 0.10000...$$
 
