@@ -41,7 +41,7 @@ See [[states]].
 
   * [[compact operator]], [[Calkin algebra]]
 
-* **operator algebra**
+* [[operator norm]]
 
 * [[C*-algebra]]
 
