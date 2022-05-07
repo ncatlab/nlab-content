@@ -395,6 +395,7 @@ Specifically, such free smooth actions exist in particular on all $S^{2 k \cdot 
 
 ([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed in [Hambleton 2014, Thm. 6.1](#Hambleton14))
 
+Classification results on groups satisfying these conditions are discussed in [Wall 2013](#Wall13).
 
 \begin{example}
 \label{FiniteSubgroupsOfSUTwoSatisfyTheSmithAndTheMilnorCondition}
@@ -464,6 +465,15 @@ Existence results:
 * {#MadsenThomasWall76} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *The topological spherical space form problem II: existence of free actions*, Topology Volume 15, Issue 4, 1976, Pages 375-382 (<a href="https://doi.org/10.1016/0040-9383(76)90031-8">doi:10.1016/0040-9383(76)90031-8</a>)
 
 * {#MadsenThomasWall83} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *Topological spherical space form problem III: Dimensional bounds and smoothing*,  Pacific J. Math. 106(1): 135-143 (1983) ([pjm:1102721110](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-106/issue-1/Topological-spherical-space-form-problem-III-Dimensional-bounds-and-smoothing/pjm/1102721110.full))
+
+Classification results:
+
+* {#Wall13} [[C. T. C. Wall]], *On the Structure of Finite Groups with Periodic Cohomology*, 381-413 in: *Lie Groups: Structure, Actions, and Representations*, Progress in Mathematics **306** Birkhäuser 2013 ([doi:10.1007/978-1-4614-7193-6_16](https://doi.org/10.1007/978-1-4614-7193-6_16))
+
+following
+
+* {#Wolf74} [[Joseph Wolf]], Part III of: _Spaces of constant curvature_, Third ed.: Publish or Perish, Boston, 1974, Sixth edition: AMS Chelsea Publishing 2011 ([doi:10.1090/chel/372](https://doi.org/10.1090/chel/372))
+
 
 Discussion of free actions on [[product topological space|products]] of spheres:
 
