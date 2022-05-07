@@ -51,7 +51,7 @@ Archimedean groups include
 
 * [[dyadic rationals]]
 
-* finite [[decimals]]
+* [[decimal rationals]]
 
 * [[real numbers]]
 
