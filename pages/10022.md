@@ -64,13 +64,13 @@ Talking this perspective to the extreme suggests a description of [[bulk]] [[spa
 <img src="https://ncatlab.org/nlab/files/BlackHoleTensorNetwork.jpg" width="500"></a>
 </center>
 
-> graphics grabbed from [Harlow 18](#Harlow18)
+> graphics grabbed from [Harlow 18](#Harlow18), see at *[[HaPPY code]]*
 
 <center>
 <img src="https://ncatlab.org/nlab/files/AdSRindlerTensorNetwork.jpg" width="500"></a>
 </center>
 
-> graphics grabbed from [Harlow 18](#Harlow18)
+> graphics grabbed from [Harlow 18](#Harlow18), see at *[[HaPPY code]]*
 
 In this context the Ryu-Takayanagi formula for holographic entanglement entropy ([above](#RyuTakayanagiFormula)) has an exact proof [PYHP 15, Theorem 2](#PYHP15).
 
@@ -88,6 +88,9 @@ In this context the Ryu-Takayanagi formula for holographic entanglement entropy 
 
 * [[p-adic AdS-CFT]]
 
+* [[quantum error correcting code]]
+
+  * [[HaPPY code]]
 
 ## References
  {#References}
@@ -158,7 +161,7 @@ and further in terms of [[quantum error correcting codes]] due to
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
 
-* {#PYHP15} Fernando Pastawski, Beni Yoshida, [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
+* {#PYHP15} [[Fernando Pastawski]], [[Beni Yoshida]], [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
 
 * Helia Kamal, [[Geoffrey Penington]], _The Ryu-Takayanagi Formula from Quantum Error Correction: An Algebraic Treatment of the Boundary CFT_ ([arXiv:1912.02240](https://arxiv.org/abs/1912.02240))
 
