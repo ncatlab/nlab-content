@@ -61,6 +61,23 @@ A minimal inductive definition of the [[dyadic rational numbers]] as a quotient 
     | funcsqrt : forall (n : nat) forall (x : dyadic) act (succ n) (act (succ n) x) == act n x
     | contr1 : forall (x y : dyadic) (p q : x == y), p == q.
 
+A definition of the dyadic rationals as a [[symmetric midpoint algebra]]
+
+    Inductive dyadic : Type :=
+    | zero : dyadic
+    | succ : dyadic -> dyadic
+    | neg : dyadic -> dyadic
+    | mid : dyadic -> dyadic -> dyadic
+    | inv : forall (x : dyadic) neg neg x == x
+    | idem : forall (x : dyaduc) mid x x == x
+    | comm : forall (x y : dyadic) mid x y == mid y x
+    | medial : forall (w x y z : dyadic) mid (mid w x) (mid y z) = mid (mid w y) (mid x z)
+    | neutr : forall (x : dyadic) mid (neg x) x == zero
+    | distneg : forall (x y : dyadic) mid (neg x) (neg y) == neg mid x y
+    | distsucc : forall forall (x y : dyadic) mid (succ x) (succ y) == succ mid x y
+    | twicesucc : forall forall (x y : dyadic) mid (succ succ x) y == succ mid x y
+    | contr1 : forall (x y : dyadic) (p q : x == y), p == q.
+
 ### Classically extended natural numbers
 
 The [[set]] of [[extended natural numbers]] as it behaves in [[classical mathematics]] as a quotient inductive type
