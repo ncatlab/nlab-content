@@ -3297,6 +3297,8 @@ The formulation via the axioms of [[differential cohesion]] that we use here fol
 
 * {#Schreiber} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+* [[Hisham Sati]], [[Urs Schreiber]], Sec. 3.1.3 of: *[[schreiber:Proper Orbifold Cohomology]]* ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations Part I -- Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
 * [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017 ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf))
