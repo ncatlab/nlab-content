@@ -46,7 +46,7 @@ But piecewise flat spacetimes also appear naturally as the "[[far-horizon geomet
 
 * {#CheegerMuellerSchrader84} [[Jeff Cheeger]], Werner Müller, Robert Schrader, _On the curvature of piecewise flat spaces_, Comm. Math. Phys. Volume 92, Number 3 (1984), 405-454 ([euclid:1103940867](https://projecteuclid.org/euclid.cmp/1103940867))
 
-* {#Barrett87} [[John Barrett]], _The geometry of classical Regge calculus_, Classical and Quantum Gravity, Volume 4, Number 6, 1987 ([web](http://iopscience.iop.org/article/10.1088/0264-9381/4/6/015/meta))
+* {#Barrett87} [[John Barrett]], _The geometry of classical Regge calculus_, Classical and Quantum Gravity, Volume 4, Number 6, 1987 ([doi:10.1088/0264-9381/4/6/015/meta](http://iopscience.iop.org/article/10.1088/0264-9381/4/6/015/meta))
 
 * {#WilliamsTuckey92} R. M. Williams, P. A. Tuckey, _Regge calculus: a brief review and bibliography_, Classical and Quantum Gravity, Volume 9, Number 5, 1992 ([web](http://iopscience.iop.org/article/10.1088/0264-9381/9/5/021/meta))
 
