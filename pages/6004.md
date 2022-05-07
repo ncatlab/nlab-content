@@ -13,15 +13,38 @@
 =--
 =--
 
-This entry is to record the monograph on [[category theory]] and [[topos theory]].
+This entry is to record the monograph 
 
 * [[Francis Borceux]], 
 
-  _Handbook of Categorical Algebra_, 
+  **Handbook of Categorical Algebra**
+
+  * Vol 1: 
+
+    **Basic Category Theory**
+
+    [doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)
+
+  * Vol. 2: 
+
+    **Categories and Structures**
+
+    [doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)
+
+  * Vol 3: 
+
+    **Categories of Sheaves**
+
+  Encyclopedia of Mathematics and its Applications **50**
 
   Cambridge University Press (1994)
 
-A review of the book may be found in: Bull. London Math. Soc. __28__:4, 440-442, [doi](http://dx.doi.org/10.1112/blms/28.4.440)
+
+on [[category theory]], [[categorical algebra]] and [[topos theory]].
+
+Book review:
+
+* [[Peter Johnstone]], Bull. London Math. Soc. __28__:4, 440-442 ([doi:10.1112/blms/28.4.440](http://dx.doi.org/10.1112/blms/28.4.440))
 
 
 ## Contents
