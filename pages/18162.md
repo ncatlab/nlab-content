@@ -1562,7 +1562,7 @@ As a lifting diagram this is
   column sep={between origins, 80pt},
   row sep={between origins, 40pt}
 ]
-  \boxed{\{x\leftrightarrow y\}}
+  \{\boxed{x}\leftrightarrow \boxed{y}\}
   \ar[
     rr,
     "{ }"
@@ -1634,7 +1634,7 @@ As a lifting diagram this is
   column sep={between origins, 70pt},
   row sep={between origins, 40pt}
 ]
-  \boxed{\{0\leftrightarrow 1\}}
+  \{\boxed{0}\leftrightarrow \boxed{1}\}
   \ar[
     rr,
     "{ }"
