@@ -406,5 +406,8 @@ Nicely reviewed in (aimed at readers with minimal background in this problem):
 [[!redirects bit thread]]
 [[!redirects bit threads]]
 
+[[!redirects holographic tensor network]]
+[[!redirects holographic tensor networks]]
+
 
 
