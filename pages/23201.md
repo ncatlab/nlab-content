@@ -1,4 +1,3 @@
-[[!redirects groupoid objects in an (infinity,1)-topos are effective]]
 
 
 +-- {: .rightHandSide}
@@ -67,6 +66,9 @@ $$
 
 Morever, this correspondence extends to morphisms:
 \begin{proposition}
+\label{EquivalenceBetweenGroupoidsAndEffectiveEpimorphisms}
+**(equivalence between groupoids and effective epimoirphisms)**
+\linebreak
 In any [[(infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$ 
 the correspondence of Prop. \ref{GroupoidObjectsInAnInfinityToposAreEffective}
 extends to an  [[equivalence of (infinity,1)-categories|equivalence of $\infty$-categories]] 
@@ -100,10 +102,23 @@ the [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of the [[arrow
 \end{proposition}
 ([Lurie 2009, below Cor. 6.2.3.5](#Lurie09))
 
-Here the [[(infinity,1)-functors|$\infty$-functors]] are the [[restriction]] of  $L \colon Func(\Delta^{op}, \mathbf{H}) \to \Func([1], \mathbf{H})$ which sends a [[simplicial object]] to the universal morphism from $X_0$ to its [[(infinity,1)-colimit|$\infty$-colimit]] and $R \colon \Func([1], \mathbf{H}) \to Func(\Delta^{op}, \mathbf{H})$ sends a morphism to its Cech nerve.
+Here the [[(infinity,1)-functors|$\infty$-functors]] are the [[restriction]] of  $L \colon Func(\Delta^{op}, \mathbf{H}) \to \Func([1], \mathbf{H})$ which sends a [[simplicial object]] to the universal morphism from $X_0$ to its [[(infinity,1)-colimit|$\infty$-colimit]] and $R \colon \Func([1], \mathbf{H}) \to Func(\Delta^{op}, \mathbf{H})$ sends a morphism to its [[Cech nerve]].
 
 This follows since the correspondence in both directions is computed by taking a Kan extension to $Func(\Delta_+^{op}, \mathbf{H})$ followed by a restriction, and this identifies both sides with the same full subcategory of $Func(\Delta_+^{op}, \mathbf{H})$.
 
+\begin{remark}
+\label{InterpretationInTermsOfInfinityStacksWithAtlases}
+**(interpretation in terms of $\infty$-stacks equipped with atlases)**
+\linebreak
+  In as far as every object $\mathcal{X} \,\in\, \mathbf{H}$ in an [[(infinity,1)-topos|$\infty$-topos]] may be thought of an an [[infinity-stack|$\infty$-stack]], an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $X \twoheadrightarrow \mathcal{X}$ is an *[[atlas]]* for this [[infinity-stack|$\infty$-stack]] and its [[Cech nerve]] is the $\infty$-groupoid that *presents* the $\infty$-stack.
+
+For example, if $\mathbf{H} \,=\,$ [[D-topological infinity-groupoids|$DTopGrpd_\infty$]] or $=$ [[smooth infinity-groupoid|$SmthGrpd_\infty$]] and $X \twoheadrightarrow \mathcal{X}$ is such that the [[Cech nerve]] takes values in [[0-truncated]] [[concrete objects]] (using that these are [[cohesive (infinity,1)-topos|cohesive $\infty$-toposes]]), then this recovers the traditional terminology in the field of [[topological groupoids]]/[[topological stacks]] and [[diffeological groupoids]]/[[differentiable stacks]].
+
+From this perspective, Prop. \ref{EquivalenceBetweenGroupoidsAndEffectiveEpimorphisms} says that all [[(infinity,1)-toposes|$\infty$-toposes]] verify the expected relation between [[internal groupoids]] and [[geometric stacks]] equipped with [[atlases]].
+For example, in this traditional terminology, a "[[Morita morphism]]" or "[[Hilsum-Skandalis morphism]]" between [[internal groupoids]] $X_\bullet$, $Y_\bullet$ is a morphism between their associated $\infty$-stacks $\left\vert X_\bullet \right\vert \to \left\vert Y_\bullet\right\vert$, and, conversely, Prop. \ref{EquivalenceBetweenGroupoidsAndEffectiveEpimorphisms} says that a morphism of $\infty$-stacks equipped with compatible [[atlases]] becomes equivalently a morphism of presenting groupoids.
+
+See [p. 27](https://arxiv.org/pdf/2008.01101.pdf#page=27) in [[schreiber:Proper Orbifold Cohomology|Sati & Schreiber 2020]].
+\end{remark}
 
 ## Literature
 
@@ -113,3 +128,4 @@ This follows since the correspondence in both directions is computed by taking a
 
 [[!redirects groupoid objects in an infinity1-topos are effective]]
 
+[[!redirects groupoid objects in an (infinity,1)-topos are effective]]
