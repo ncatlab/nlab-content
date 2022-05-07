@@ -55,7 +55,16 @@ that induces the homotopy coherent nerve.
 
 ##### An abstract description 
 
-Recall that a reflexive graph is a simplicial set of dimension $1$, i.e. 1-skeletal; they form a full subcategory $reflGraph\hookrightarrow Cat$. The forgetful functor $U: Cat \to reflGraph$ has a left adjoint $F$ hence $G = FU : Cat\to Cat$ is a comonad. By the definition its [[bar and cobar construction|cobar construction]], or equivalently  its [[simplicial resolution]] is an augmented simplicial endofunctor $S\to Id$ featuring $S :\Delta\to sSet Cat$ and whose augmentation is a cofibrant replacement of a 1-category in the [[Bergner model structure]] on $sSet Cat$ ("model structure for simplicially enriched categories"). 
+Recall from the entry, [[reflexive graph]], that a [[graph]], $\Gamma$ is _reflexive_ if for each [[vertex]] $v$ there is a (specified) [[edge]] $v \to v$. Similarly a **reflexive [[quiver]]** has a specified identity edge $i_X: X \to X$ on each object (vertex) $X$.
+
+
+The [[free category]] on a reflexive quiver has the same objects,
+ [[identity morphism]]s corresponding to the identity edges,
+ and non-identity morphisms consisting of paths of non-identity edges. The functor, $F$, that assigns the free category on $\Gamma$ to $\Gamma$, in this sense, is left adjoint to the forgetful functor, $U: Cat \to reflGraph$. (We will look at some simple cases of this construction later.)
+
+The composite,  $G = FU : Cat\to Cat$, defines a [[comonad]] on $Cat$. 
+
+By the definition its  [[simplicial resolution]] gives an augmented simplicial endofunctor $S :\Delta\to sSet-Cat$ with natural augmentation $S\to Id$, and which is a cofibrant replacement construction in the [[Bergner model structure]] on $sSet-Cat$ ("model structure for simplicially enriched categories"). 
 
 
 
