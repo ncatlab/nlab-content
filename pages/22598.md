@@ -85,7 +85,7 @@ $$
     {j \in \{1, \cdots, \lambda_j\}}
   }{\prod}
   \frac{
-    1 - q^{N + j - 1}
+    1 - q^{N + j - i}
   }{
     1 - q^{\ell hook(i,j)}
   }
@@ -94,7 +94,7 @@ $$
 Traditionally the expression
 
 $$
-  content(i,j) \;\coloneqq\; j - 1
+  content(i,j) \;\coloneqq\; j - i
 $$
 
 is also called the *content* of the $(i,j)$-box in a Young diagram. Using this terminology, the above formula becomes 
