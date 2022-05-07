@@ -16,6 +16,11 @@ On [[chromatic homotopy theory]] and introducing [[Ravenel's spectra]] and [[Rav
 
 * {#Ravenel84} [[Douglas Ravenel]], _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
 
+On [[stable homotopy groups of spheres]] and [[chromatic homotopy theory]]:
+
+* {#MahowaldRavenel87} [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_, in: [[Samuel Gitler]] (ed.): _The Lefschetz Centennial Conference: Proceedings on Algebraic Topology II_, Contemporary Mathematics volume 58, AMS 1987  ([ISBN:978-0-8218-5063-3](https://bookstore.ams.org/conm-58-2), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf), [[MahowaldRavenelHomotopyGroupsOfSpheres.pdf:file]])
+
+
 On [[elliptic genera]]:
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et al (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
