@@ -15,12 +15,7 @@
 
 ## Idea
 
-The [[ring]] of symmetric [[polynomials]] in $n$ [[variables]] has a [[linear basis]] $\{s_\lambda\}$ of __Schur polynomials__ indexed by [[partitions]] $\lambda = \lambda_1 \geq \lambda_2 \geq \ldots \geq \lambda_n$  in $n$ parts. 
-
-The Schur polynomials  are precisely the [[irreducible characters]] of [[finite dimensional vector space|finite dimensional]] polynomial [[linear representation|representations]] of [[general linear group|GL(n)]]. 
-
-Also, the character $\chi_{\lambda}$ of $V_\lambda$, the irreducible representation of $S_k$ attached to $\lambda$ (for $k$ the size $|\lambda|$ of the partition) maps to the Schur polynomial under the character map
-$ch$ from virtual characters to symmetric polynomials. This correspondance between representations of the symmetric groups and the general linear groups is called [[Schur Weyl Duality]] 
+The *Schur polynomials* $s_\lambda$, are [[polynomials]] in $n$ [[variables]] indexed by [[partitions]] $\lambda = \lambda_1 \geq \lambda_2 \geq \ldots \geq \lambda_n$ of $n$, which constitute a [[linear basis]] of the [[ring]] of [[symmetric polynomials]] in $n$ variables
 
 ## Definition
 
@@ -38,11 +33,29 @@ $$
   a_{\lambda+\delta}/a_{\delta}.
 $$
 
-As is usual in the theory of [[symmetric functions]] one can also deal with [[formal power series]] in infinitely many variables. To make this precise one uses an [[inverse limit]] (see Macdonald) and obtains a __Schur function__ $s_{\lambda}$ for each partition, depending on countably many variables $x_1, x_2,\dots,x_n,x_{n+1}, \dots$.
+As is usual in the theory of [[symmetric functions]] one can also deal with [[formal power series]] in infinitely many variables. To make this precise one uses an [[inverse limit]] (see [Macdonald 95](#Macdonald95)) and obtains a __Schur function__ $s_{\lambda}$ for each partition, depending on countably many variables $x_1, x_2,\dots,x_n,x_{n+1}, \dots$.
 
 ## Properties
 
 ### In terms of $Sym(n)$-Characters
+
+We write
+
+$$
+  \array{
+    Sym(n)
+    &
+      \overset{CycLenghs}{\longrightarrow}
+    &
+    Part(n)
+    \\
+    \big\downarrow & \nearrow_{\mathrlap{\simeq}}
+    \\
+    Sym(n)/_{ad}Sym(n)
+  }
+$$
+
+for the function that sends a [[permutation]] of $n$ elements to the [[partition]] of $n$ given by the lengths of its [[permutation cycles]] ([this Prop.](symmetric+group#ConjugacycClassesOfSymmetricGroupCorrespondToCycleSet)).
 
 \begin{prop}
 **(Frobenius formula)**
@@ -56,12 +69,22 @@ $$
     {\sum}
   \chi^{(\lambda)}(\sigma)
   \cdot
-  p_\sigma
+  p_{CycLengths(\sigma)}
 $$
 \end{prop}
 
 ([Sagan 01, Thm. 4.6.4](#Sagan01), [Sagan Enc., Thm. 3](#SaganEnc))
 
+
+### Schur-Weyl duality
+
+
+The Schur polynomials  are precisely the [[irreducible characters]] of [[finite dimensional vector space|finite dimensional]] polynomial [[linear representation|representations]] of [[general linear group|GL(n)]]. 
+
+Also, the character $\chi_{\lambda}$ of $V_\lambda$, the irreducible representation of $S_k$ attached to $\lambda$ (for $k$ the size $|\lambda|$ of the partition) maps to the Schur polynomial under the character map
+$ch$ from virtual characters to symmetric polynomials. 
+
+This correspondence between [[linear representations]] of the [[symmetric groups]] and the [[general linear groups]] is called *[[Schur-Weyl duality]]*.
 
 
 ## Generalizations via Schur functors
@@ -94,11 +117,13 @@ The concept first appears in work by [[Carl Jacobi]] on [[determinants]].
 
 It is named after:
 
-* [[Issai Schur]], *Über eine Klasse von Matrizen die sich einer gegeben Matrix zuordnen lassen*, Inaugural-Dissertation, Berlin (1901)
+* [[Issai Schur]], *Über eine Klasse von Matrizen die sich einer gegeben Matrix zuordnen lassen*, Inaugural-Dissertation, Berlin (1901) JMF 32.0165.04
 
 Textbook accounts:
 
-* I. G. Macdonald, Section I.3 of: _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995 ([ISBN:9780198739128](https://global.oup.com/academic/product/symmetric-functions-and-hall-polynomials-9780198739128?cc=ae&lang=en&))
+* {#Macdonald95} [[Ian G. Macdonald]], Section I.3 of: _Symmetric functions and Hall polynomials_, Oxford Math. Monographs, 2nd enlarged ed. 1995 ([ISBN:9780198739128](https://global.oup.com/academic/product/symmetric-functions-and-hall-polynomials-9780198739128?cc=ae&lang=en&))
+
+* {#Stanley99} [[Richard Stanley]], Sections 7.10, 7.15 in: *Enumerative combinatorics 2*, Cambridge University Press (1999, 2010) ([doi:10.1017/CBO9780511609589](https://doi.org/10.1017/CBO9780511609589), [webpage](http://www-math.mit.edu/~rstan/ec/))
 
 
 * {#Sagan01} [[Bruce Sagan]], Section 4.4 of: _The symmetric group_, Springer 2001 ([doi:10.1007/978-1-4757-6804-6](https://link.springer.com/book/10.1007/978-1-4757-6804-6), [pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
@@ -108,7 +133,7 @@ Textbook accounts:
 
 Survey:
 
-* {#SaganEnc} [[Bruce E. Sagan]], _Schur functions_, in (M. Hazewinkel, ed.) Encyclopaedia of Mathematics, Springer ([pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf), [[SaganSchurFunctions.pdf:file]])
+* {#SaganEnc} [[Bruce E. Sagan]], _Schur functions_, in: [[Michiel Hazewinkel]] (ed.), *[[eom|Encyclopaedia of Mathematics]]*, Springer 2002 ([pdf](http://www.mth.msu.edu/~sagan/Papers/Old/schur.pdf), [[SaganSchurFunctions.pdf:file]])
 
 * Wikipedia, *[Schur polynomial](https://en.wikipedia.org/wiki/Schur_polynomial)*
 
