@@ -224,7 +224,7 @@ in the test model structure on $Sh(C)$ to the classical weak homotopy type of $X
 admit CW-structures, so that we even get the classical homotopy type of $X$ characterized by the sheaf represented by $X$ on $C$.
 Such geometric models of weak homotopy types of manifolds are used for instance by Madsen and Weiss ([Madsen-Weiss07](#Madsen-Weiss07)) and Kupers ([Kupers19](#Kupers19)).
 
-Examples of such `test site' $C$ are given by: euclidian spaces (seen as $C^\infty$-manifolds), or contractible Stein complex manifolds.
+Examples of such 'test sites' $C$ are given by: euclidian spaces (seen as $C^\infty$-manifolds), or contractible Stein complex manifolds.
 If $G$ is a real (or complex) Lie group, then representations of $G$ in the topos of sheaves on differentiable (or complex analytic) manifolds
 is a local test topos. One may also replace $G$ by any orbifold, presented as an internal groupoid in the category of manifolds.
 
