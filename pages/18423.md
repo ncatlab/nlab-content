@@ -684,6 +684,7 @@ applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smoot
 * {#ChristensenWu13} [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], Def. 4.3 of: _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
 
+[[!redirects shape via cohesive path ∞-groupoids]]
 
 [[!redirects shape via cohesive path infinity-groupoid]]
 
@@ -691,5 +692,7 @@ applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smoot
 [[!redirects shape via the cohesive path infinity-groupoid]]
 
 [[!redirects smooth Oka principle]]
+
+
 
 
