@@ -37,7 +37,9 @@ Only the intensional but not the [[extensional type theory|extensional]] [[Marti
 
 * [[homotopy type theory]]
 
-* [[extensional type theory]], [[observational type theory]]
+* [[extensional type theory]]
+
+* [[observational type theory]], [[higher observational type theory]]
 
 * [[function extensionality]]
 
