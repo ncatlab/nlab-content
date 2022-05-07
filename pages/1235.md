@@ -43,7 +43,7 @@ See also
 
 ## References
 
-* <a href="http://en.wikipedia.org/wiki/Motive_(algebraic_geometry)">wikipedia article on motives</a> and references therein.
+* <a href="http://en.wikipedia.org/wiki/Motive_(algebraic_geometry)">Wikipedia article on motives</a> and references therein.
 
 * A. Beilinson, V. Vologodsky, _A DG guide to Voevodsky's motives_, [math.AG/0604004](http://de.arxiv.org/abs/math/0604004)
 
