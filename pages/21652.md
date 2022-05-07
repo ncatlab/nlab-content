@@ -25,7 +25,7 @@ A variant of the notion of [[determinant]] for [[matrices]] with values in [[div
 
 ## Examples and applications
 
-The [[special linear group]] [[SL(2,H)]] over the [[quaternions]] is defined with respect to the [[Dieudonné determinant]]. As a consequence, the [[unitary matrices]] inside [[SL(2,H)]] are the full quaternionic [[unitary group]] [[Sp(2)]], not just the [[special unitary group]].
+The [[special linear group]] [[SL(2,H)]] over the [[quaternions]] is defined with respect to the Dieudonné determinant. As a consequence, the [[unitary matrices]] inside [[SL(2,H)]] are the full quaternionic [[unitary group]] [[Sp(2)]].  The same is true for all $n$, not just $n = 2$.  
 
 ## References
 
