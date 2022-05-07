@@ -20,11 +20,11 @@
 
 ## Idea
 
-Just as a [[subobject classifier]] in a [[(1,1)-category]] classifies the [[monomorphisms]] or [[(-1)-truncated]] morphisms (and thus the [[subobjects]]) of the category, a discrete object classifier in a [[(2,1)-category]] should classify the [[fully faithful functor|fully faithful]] or [[0-truncated]] morphisms (and thus the [[discrete morphism|discrete objects]]) in the (2,1)-category. 
+Just as a [[subobject classifier]] in a [[(1,1)-category]] classifies the [[monomorphisms]] or [[(-1)-truncated]] morphisms (and thus the [[subobjects]]) of the category, a _discrete object classifier_ in a [[(2,1)-category]] should classify the [[faithful functor|faithful]] or [[0-truncated]] morphisms (and thus the [[discrete morphism|discrete objects]]) in the (2,1)-category, see at _[n-truncated morphisms -- between groupoids](n-truncated+object+of+an+infinity-category#TruncatedMorphismsBetweenGroupoids)_). 
 
 ## Definition
 
-In a (2,1)-category $C$ with [[terminal object]] $*$ and finite [[2-pullback|(2,1)-pullbacks]], a __discrete object classifier__ is a nonterminal object $Set$ such that for every [[inhabited]] morphism $A: * \rightarrow Set$ and every [[fully faithful morphism]] $B: U \rightarrow G$ in $C$, there is a unique morphism $F:G \rightarrow Set$ such that there is a (2,1)-pullback [[diagram]] of the form
+In a (2,1)-category $C$ with [[terminal object]] $*$ and finite [[2-pullback|(2,1)-pullbacks]], a __discrete object classifier__ is a nonterminal object $Set$ such that for every [[inhabited]] morphism $A: * \rightarrow Set$ and every [[faithful morphism]] $B \colon U \rightarrow G$ in $C$, there is a unique morphism $F:G \rightarrow Set$ such that there is a (2,1)-pullback [[diagram]] of the form
 
 $$\array{U & \to & * \\
   ^{B}\downarrow & \cong & \downarrow^{A}\\
