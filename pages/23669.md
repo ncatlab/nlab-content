@@ -34,3 +34,4 @@ A **semiadditive dagger 2-poset** is a [[dagger 2-poset]] $C$ such that
 
 * [[dagger 2-poset]]
 * [[semiadditive category]]
+* [[semiadditive dagger category]]
