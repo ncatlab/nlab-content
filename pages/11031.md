@@ -27,7 +27,7 @@
 
 What has been called _Geometry of Interaction_ ([Girard 89](#Girard89)) is a kind of [[semantics]] for [[linear logic]]/[[linear type theory]] that is however different in method from the usual [[categorical semantics]] in [[monoidal categories]]. Instead of interpreting a [[proof]] of a linear entailment $A\vdash B$ as a [[morphism]] between [[objects]] $A$ and $B$ in a [[monoidal category]] as in [[categorical semantics]], the _Geometry of Interaction_ interprets it as an [[endomorphism]] on the object $A\multimap B$. This has been named _operational semantics_ to contrast with the traditional _denotational semantics_.
 
-That also the "operational semantics" of GoI has an interpretation in [[category theory]], though, namely in [[compact closed categories]] induced from [[traced monoidal categories]] was first suggested in ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) and then developed in ([Haghverdi 00](#Haghverdi00), [Abramsky-Haghverdi-Scott 02](#AbramskyHaghverdiScott02), [Haghverdi-Scott 05](#HaghverdiScott05)). See ([Shirahata](#Shirahata)) for a good review.
+That also the "operational semantics" of GoI has an interpretation in [[category theory]], though, namely in [[compact closed categories]] induced from [[traced monoidal categories]] was first suggested in ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) and then developed in ([Hines 97](#Hines97),[Haghverdi 00](#Haghverdi00), [Abramsky-Haghverdi-Scott 02](#AbramskyHaghverdiScott02), [Haghverdi-Scott 05](#HaghverdiScott05)). See ([Shirahata](#Shirahata)) for a good review.
 
 ## Properties
 
@@ -122,6 +122,9 @@ The operational categorical semantics in [[traced monoidal categories]] is due t
 
 * [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. (1996), 119, 447 ([pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf))
  {#JoyalStreetVerity96}
+
+* [[Peter Hines]],  _The Algebra of Self-Similarity and its Applications,  PhD Thesis, University of Wales, U.K. 1997 ([pdf](https://peterhines.info/papers/phd.pdf))
+ {#Hines97}
 
 * [[Esfandir Haghverdi]],  _A Categorical Approach to Linear Logic_, Geometry of Proofs and Full Completeness, PhD Thesis, University of Ottawa, Canada 2000.
  {#Haghverdi00}
