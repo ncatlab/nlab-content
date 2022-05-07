@@ -226,7 +226,7 @@ Compare the role of [[universal differential envelope]] and [[Amitsur complex]] 
 
 #### Relation to Hochschild homology
 
-The module of K&#228;hler differentials on $R$ is isomorphism to the first [[Hochschild homology]] of $R$
+The module of K&#228;hler differentials on $R$ is isomorphic to the first [[Hochschild homology]] of $R$
 
 $$
   \Omega_K^1(R) \simeq HH_1(R,R)
@@ -254,7 +254,7 @@ But there is a solution to this, and an explanation for why something goes wrong
 
 Smooth spaces such as [[manifold]]s are _not_ modeled on the category $C =$ [[CRing]]${}^{op}$, as [[varieties]] are. Instead, they are modeled on the category $C = \mathbb{L}$ of [[smooth loci]], which is $= C^\infty Ring^{op}$ the opposite of the category of [[generalized smooth algebra|C-infinity rings]].
 
-In particular, the algebra $A = C^\infty(X)$ of smooth functions on a [[manifold]] carries naturally the structure of such a $C^\infty$-ring. This does have "underlying" it the ordinary commuttative ring of functions that forget the $C^\infty$-ring structure, but forgetting this structure is precisely what makes the definition of K&#228;hler differentials fail to reproduce that of ordinary smooth 1-forms.
+In particular, the algebra $A = C^\infty(X)$ of smooth functions on a [[manifold]] carries naturally the structure of such a $C^\infty$-ring. This does have "underlying" it the ordinary commutative ring of functions that forget the $C^\infty$-ring structure, but forgetting this structure is precisely what makes the definition of K&#228;hler differentials fail to reproduce that of ordinary smooth 1-forms.
 
 If we do regard $C^\infty(X)$ as a [[generalized smooth algebra|C-infinity ring]], the its K&#228;hler differentials do agree with ordinary 1-forms on $X$.
 
