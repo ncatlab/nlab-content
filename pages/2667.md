@@ -689,6 +689,11 @@ Representation Theory and Geometry_, Cambridge U. Press, 1997.
 
 * [[Bruce E. Sagan]], _The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions_, Springer, Berlin, 2001.
 
+A treatment of the category of Schur functors as the free 2-rig on one generator is in
+
+* [[John Baez]], [[Joe Moeller]], [[Todd Trimble]], _Schur functors and categorified plethysm_, ([arXiv:2106.00190](https://arxiv.org/abs/2106.00190))
+
+
 [[species|Species]] were invented here:
 
 * [[André Joyal]], Une th&#233;orie combinatoire des s&#233;ries formelles, _Adv. Math_ **42** (1981), 1--82.
@@ -775,5 +780,3 @@ We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $
 
 [[!redirects Schur functors]]
 
-[[!representation of the symmetric group]]
-[[!representations of the symmetric group]]
