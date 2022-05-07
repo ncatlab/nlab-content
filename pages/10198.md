@@ -71,7 +71,11 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 
 * Imre Lakatos, _Proof and refutations_
 
-* Jacques Hadamard, _Psychology of invention in the mathematical field_, Princeton University Press 1945
+* [[Hermann Weyl]], _Philosophy of Mathematics and Natural Science_, Princeton University Press, 2nd edition, Princeton University Press, 1950 ([ISBN:9780691141206](https://press.princeton.edu/books/paperback/9780691141206/philosophy-of-mathematics-and-natural-science))
+
+* [[Jacques Hadamard]], _Psychology of invention in the mathematical field_, Princeton University Press 1945
+
+
 
 The role of [[Heraclitus]]:
 
