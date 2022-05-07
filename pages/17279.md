@@ -27,6 +27,8 @@ Thus it seems possible (and sometimes is claimed) that the perturbative series a
 
 ## References
 
+### General
+
 Original articles include
 
 * {#JentschuraZinnJustin04} Jentschura, [[Jean Zinn-Justin]], Phys. Lett. B 596 (2004), 138-144
@@ -63,6 +65,13 @@ See also
 
 * Itzykson seminar at IHES,  _Resurgence and Quantization_, April 2017 ([web](https://www.fondation-hadamard.fr/fr/lmh-mathematiques-et-physique/seminaire-itzykson))
 
+### In string theory
+
 * [[Ricardo Schiappa]], _Resurgence Asymptotics in String Theory_, talk at IHES 2017 ([video](https://www.youtube.com/watch?v=8tw4MaBwTEA))
+
+In the [[SYK model]] and [[AdS2-CFT1 duality]]:
+
+* [[Paolo Gregori]], [[Ricardo Schiappa]], *From Minimal Strings towards Jackiw-Teitelboim Gravity: On their Resurgence, Resonance, and Black Holes* ([arXiv:2108.11409](https://arxiv.org/abs/2108.11409))
+
 
 [[!redirects resurgence]]
