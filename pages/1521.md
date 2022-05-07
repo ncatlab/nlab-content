@@ -1,4 +1,4 @@
 
 > This page used to point to some notes on the idea of formalizing [[quantization]] (the supposed process that takes [[prequantum field theory]]/[[classical mechanics|classical field theory]] to [[quantum field theory]]) by essentially realising the [[path integral]] as a [[Kan extension]].
 
-> The content that used to be here has been superceded. Discussion of quantization in terms of Kan extension and [[pushforward in generalized cohomology]] is now at _[[motivic quantization]]_, with notes being at _[[schreiber:master thesis Nuiten]]_ and _[[schreiber:Quantization via Linear homotopy types]]_ .
+> The content that used to be here has been superseded. Discussion of quantization in terms of Kan extension and [[pushforward in generalized cohomology]] is now at _[[motivic quantization]]_, with notes being at _[[schreiber:master thesis Nuiten]]_ and _[[schreiber:Quantization via Linear homotopy types]]_ .
