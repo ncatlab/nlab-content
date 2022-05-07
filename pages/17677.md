@@ -5,7 +5,9 @@
 
 ## Idea
 
-Philosophers have sought a means to isolate the properly [[logic|logical]] components of a language from the remainder. A prominent idea here has been to use [[invariant|invariance]] under arbitrary [[permutations]] of the domain of objects. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup).
+Philosophers have sought a means to isolate the properly [[logic|logical]] components of a language from the remainder. For a philosopher such as [[Rudolf Carnap]], this was considered an important step in establishing the [analytic-synthetic distinction](analytic+versus+synthetic#analyticsynthetic_distinction_in_philosophy), separating that which is true by virtue of form from that which has empirical content. Famously [[Willard Quine]] argued against such a distinction in his “Two Dogmas of Empiricism” ([Quine 1951](#Quine51)).
+
+A prominent idea in the attempt to isolate the logical components of a language has been to use [[invariant|invariance]] under arbitrary [[permutations]] of the corresponding domain of objects of the universe of discourse. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different [transformation groups](action#ActionsOfAGroup).
 
 Tarski's informal definition ([Ln](#Ln)) is reproduced here,
 >Now suppose we continue this idea, and consider still wider classes of transformations.
@@ -41,7 +43,7 @@ Van Benthem demonstrates that types possessing an invariant element are precisel
 
 > If a statement, concept, or construction is purely logical, then it should  be invariant under all equivalences of the structures involved. A statement that is not invariant must involve some non-logical specifics, pertaining not to general logical form but to some particular aspects of the objects bearing the structure.  If it is the hallmark of a logical concept that it should pertain only to general, formal structure and not to any specific features of  the objects bearing that structure, then this formal character may be witnessed  by the fact that the concept is invariant under all equivalence transformations.
 
-One way to understand this is in terms of type formation that is invariant under type equivalence. So given a type $A: \mathcal{U}$, we have for instance
+One way to understand this formally is in terms of type formation that is invariant under type equivalence. So given a type $A: \mathcal{U}$, we have for instance
 
 * [[dependent sum type]] and [[dependent product type]] formation in 
 $$(X: BAut(A)) \to (X \to \mathcal{U}) \to \mathcal{U},$$
@@ -70,6 +72,8 @@ Types formed from two or more types may be treated similarly, so that the format
 * F. I. Mautner, _An Extension of Klein's Erlanger Program: Logic as Invariant-Theory_, American Journal of Mathematics, Vol. 68, No. 3 (Jul., 1946), pp. 345-384 (based on [[Hermann Weyl]]'s formulation of the program in _Classical Groups_, pp. 13-18) ([JSTOR](https://www.jstor.org/stable/2371821)).
 
 * {#Ln} [[Alfred Tarski]], 1986, _What are Logical Notions?_, History and Philosophy of Logic, 7: 143&#8211;154. (Transcript of a 1966 talk, ed. J. Corcoran.) doi:[10.1080/01445348608837096](http://dx.doi.org/10.1080/01445348608837096)
+
+* {#Quine51} [[Willard Quine]], 1951, _Two Dogmas of Empiricism_, The Philosophical Review, 60(1): 20–43. Reprinted in Quine _From a Logical Point of View_, New York: Harper, 1953, pp. 20–46.
 
 * V. McGee, 1996, _Logical Operations_, Journal of Philosophical Logic, 25: 567&#8211;580
 
