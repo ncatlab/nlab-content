@@ -187,10 +187,11 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992 ([doi:10.1007/978-1-4612-0509-8](https://link.springer.com/book/10.1007/978-1-4612-0509-8))
 
+Discussion of quantum probability theory:
 
-Introductions to quantum probability theory
+* {#Meyer95} [[Paul-André Meyer]], *Quantum Probability for Probabilists*,  Lecture Notes in Mathematics **1538**, Springer 1995 ([doi:10.1007/BFb0084701](https://link.springer.com/book/10.1007/BFb0084701))
 
-* Hans Maassen, _Quantum Probability Theory_, 1998 ([pdf](https://www.math.ru.nl/~maassen/lectures/qp.pdf), [[MaassenQuantumProbability.pdf:file]])
+* [[Hans Maassen]], _Quantum Probability Theory_, Lecture notes 1998 ([pdf](https://www.math.ru.nl/~maassen/lectures/qp.pdf), [[MaassenQuantumProbability.pdf:file]])
 
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
