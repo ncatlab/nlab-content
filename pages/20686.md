@@ -45,5 +45,14 @@ See also
 * {#DescotesGenon19b} Sebastien Descotes-Genon, _Light-cone sum rules for $B \to K \pi$ form factors and applications to rare decays_, talk at [bsll2019](https://indico.in2p3.fr/event/18646/) ([pdf](https://indico.in2p3.fr/event/18646/contributions/74316/attachments/54770/71918/slides_bslllyon.pdf), [[DescotesGenonBssl19.pdf:file]])
 
 
+### Via holographic QCD
+
+via [[holographic QCD]]:
+
+for [[nucleons]]:
+
+* Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
+
+
 [[!redirects form factors]]
 
