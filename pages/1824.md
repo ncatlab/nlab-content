@@ -55,7 +55,7 @@ The main example is the __tangent microbundle__ $(M\times M,p_1,M,i)$ of a topol
 
 If $M$ is a smooth manifold, then the tangent microbundle is equivalent to the tangent bundle ([Kupers18, Example 27.2.3](#Kupers18)). 
 
-## References
+## References and Literature
 
 The original reference is
 
