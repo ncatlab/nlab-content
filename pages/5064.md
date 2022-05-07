@@ -191,7 +191,7 @@ Discussion in the context of [[BV-quantization]] and [[factorization algebras]] 
 
 A construction of [[chiral differential operator]]s via quantization of $\beta\gamma$ system in [[BV formalism]] with an intermediate step using factorization algebras:
 
-* [[Vassily Gorbounov]], [[Owen Gwilliami]], Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
+* [[Vassily Gorbounov]], [[Owen Gwilliam]], Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
 
 * {#LinRoc20} [[Ulf Lindstrom]], [[Martin Rocek]], _$\beta$-$\gamma$-systems interacting with sigma-models_, ([arXiv:2004.06544](https://arxiv.org/abs/2004.06544v3))
 
