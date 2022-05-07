@@ -73,6 +73,8 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 * [[Niles Johnson]], _Visualizing 7-manifolds_, 2012 ([nilesjohnson.net/seven-manifolds.html](https://nilesjohnson.net/seven-manifolds.html))
 
+* {#CrowleyEscher03} [[Diarmuid Crowley]], [[Christine Escher]], _A classification of $S^3$-bundles over $S^4$_, Differential Geometry and its Applications Volume 18, Issue 3, May 2003, Pages 363-380 (<a href="https://doi.org/10.1016/S0926-2245(03)00012-3">doi:10.1016/S0926-2245(03)00012-3</a>))
+
 See also
 
 * Wikipedia, _[Exotic sphere](https://en.wikipedia.org/wiki/Exotic_sphere)_
