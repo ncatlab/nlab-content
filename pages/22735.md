@@ -21,6 +21,8 @@
 
 * [[Landau's Fermi liquid theory]]
 
+* [[semi-metal]]
+
 * [[strange metal]]
 
 ## References
