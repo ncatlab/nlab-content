@@ -908,6 +908,8 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 ## References
 
+### General
+
 Original articles
 
 * [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series, Vol. 63, No. 3 (May, 1956), pp. 430-436 ([jstor:1970012](https://www.jstor.org/stable/1970012))
@@ -948,6 +950,24 @@ Discussion of characterization of principal bundles by rational [[universal char
 Discussion of classifying spaces in the context of [[measure theory]] is in 
 
 * {#Marin17} Ivan Marin, _Measure theory and classifying spaces_ ([arXiv:1702.01889](https://arxiv.org/abs/1702.01889))
+
+### For equivariant bundles
+ {#ReferencesForEquivariantBundles}
+
+Discussion of classifying [[G-spaces]] for $G$-[[equivariant principal bundles]]:
+
+
+* {#tomDieck69} [[Tammo tom Dieck]], _Faserb&uuml;ndel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
+
+* {#Lashof82} [[Richard Lashof]], _Equivariant bundles_, Illinois J. Math. 26(2): 257-271, 1982 ([doi:10.1215/ijm/1256046796.full](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-26/issue-2/Equivariant-bundles/10.1215/ijm/1256046796.full))
+ 
+* {#May90} [[Peter May]], _Some remarks on equivariant bundles and classifying spaces_, Théorie de l'homotopie, Astérisque, no. 191 (1990), 15 p. ([numdam:AST_1990__191__239_0](http://www.numdam.org/item/?id=AST_1990__191__239_0))
+
+* {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
+
+* {#UribeLueck14} [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
+
+* {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]] _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565)) 
 
 
 
