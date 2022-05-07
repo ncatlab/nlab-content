@@ -38,6 +38,9 @@ In any case, the [[forgetful functor]] from $Hilb$ to [[Vect]] is [[faithful fun
 
 * [[tensor product of Banach spaces]]
 
+* [[semiadditive dagger category]]
+
+* [[compact closed dagger category]]
 
 ## References
 
