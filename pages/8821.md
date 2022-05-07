@@ -34,11 +34,31 @@ The corresponding generalization including also the second property is that of a
 
 An [[initial object]] $\varnothing$ is called a **strict initial object** if every [[morphism]] [[codomain|to]] $\varnothing$ is an [[isomorphism]]:
 
-$$
-  X \overset{\simeq}{\longrightarrow} \emptyset
+\[
+  \label{MorphismToStrictInitialObjectIsIsomorphism}
+  X \overset{f}{\longrightarrow} \varnothing
+  \;\;\;\;\;\;\;\;\;
+    \Rightarrow
+  \;\;\;\;\;\;\;\;\;
+  X \underoverset{\simeq}{f}{\longrightarrow} \emptyset
   \,.
-$$
+\]
 
+
+## Properties
+ {#Properties}
+
+* The [[Cartesian product]] of any [[object]] $X$ with a strict initial object is isomorphic to the strict initial object, $X \times \varnothing \simeq \varnothing$, because the [[projection]] $pr_1 \colon \varnothing \times X \to \varnothing$ exists by definition of Cartesian products, whence (eq:MorphismToStrictInitialObjectIsIsomorphism) implies that it is an isomorphism 
+
+  $$
+    \varnothing \times X 
+      \underoverset
+        {\;\;\;\simeq\;\;\;}
+        {pr_1}
+        {\longrightarrow} 
+    \varnothing
+    \,.
+  $$
 
 
 
