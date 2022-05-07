@@ -85,6 +85,8 @@ quantum algorithms:
 
 * [[quantum mechanical system]]
 
+* [[quantum many-body physics]]
+
 * [[quantum field theory]]
 
   [[algebraic quantum field theory]]
