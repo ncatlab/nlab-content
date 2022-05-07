@@ -170,6 +170,8 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 * [[group]], **group object**, [[group object in an (∞,1)-category]]
 
+* [[group action]], [[action object]]
+
 * [[groupoid]], [[groupoid object]], [[groupoid object in an (∞,1)-category]]
 
 * [[infinity-groupoid]], [[infinity-groupoid object]], [[groupoid object in an (∞,1)-category]]
@@ -178,6 +180,16 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 ## References
  {#References}
+
+The general definition of internal groups seems to have first been formulated in:
+
+* {#Grothendieck61} [[Alexander Grothendieck]], p. 104 (7 of 21) of: _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+
+following the general principle of [[internalization]] formulated in:
+
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 340 (3 of 23) in: *Technique de descente et théorèmes d'existence en géométrie algébriques. II: Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195 ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/SB_1958-1960__5__369_0), [pdf](http://www.numdam.org/item/SB_1958-1960__5__369_0.pdf))
+
+
 
 On [[internalization]], [[H-spaces]], [[monoid objects]], [[group objects]] in [[algebraic topology]]/[[homotopy theory]] and introducing the [[Eckmann-Hilton argument]]:
 
