@@ -22,6 +22,11 @@
 
 ## Selected writings
 
+On the $G$-[[Borel model structure]] and its [[Quillen equivalence]] with the [[slice model structure]] over the [[simplicial classifying space]] $\overline W G$:
+
+* {#DDK80} [[Emmanuel Dror]], [[William Dwyer]], [[Daniel Kan]], _Equivariant maps which are self homotopy equivalences_, Proc. Amer. Math. Soc. 80 (1980), no. 4, 670&#8211;672 ([jstor:2043448](http://www.jstor.org/stable/2043448))
+
+
 On (enhancement and generalization of) [[Elmendorf's theorem]] in [[equivariant homotopy theory]]:
 
 * {#DwyerKan84} [[William Dwyer]], [[Daniel Kan]], _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
