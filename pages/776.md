@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -86,6 +87,25 @@ By [[formal duality]], a coequalizer in $\mathcal{C}$ is equivalently an [[equal
 
 ## Properties
 
+### Relation to kernel pairs
+ {#RelationToKernelPairs}
+
+\begin{proposition}
+In any category:
+
+* If a [[morphism]] 
+
+  1. is the [[coequalizer]] of some pair of [[parallel morphisms]] (hence: is a [[regular epimorphism]]) 
+
+  1. has a [[kernel pair]], 
+
+  then it is also the coequalizer of its kernel pair.
+
+* If a [[kernel pair]] has a coequalizer, then it is the kernel pair of its coequalizer.
+\end{proposition}
+(e.g. [Borceux 1994, Prop. 2.5.7, 2.5.8](#Borceux94), [Taylor 1999, Lemma 5.6.6](#Taylor99)
+
+
 ### Relation to pushouts
 
 Coequalizers are closely related to [[pushouts]]:
@@ -166,10 +186,11 @@ Coequalizers were defined in the paper
 for any finite collection of parallel morphisms.
 The paper refers to them as _right equalizers_, whereas [[equalizers]] are referred to as _left equalizers_.
 
-Textbook account:
+Textbook accounts:
 
-* [[Francis Borceux]], Section 2.4 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
+* {#Borceux94} [[Francis Borceux]], Section 2.4 in Vol. 1: *Basic Category Theory* of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
+* {#Taylor99} [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge Studies in Advanced Mathematics 59, Cambridge University Press 1999 ([webpage](http://www.paultaylor.eu/~pt/prafm/index.html))
 
 [[!redirects coequalizers]]
 [[!redirects coequaliser]]
