@@ -163,6 +163,8 @@ The existence of the $G$-invariant tubular neighbourhoods is for instance in [Br
 
 * [[equivariant bundle]]
 
+* [[equivariant extension theorem]]
+
 * [[equivariant homotopy theory]]
 
 * [[equivariant stable homotopy theory]]
