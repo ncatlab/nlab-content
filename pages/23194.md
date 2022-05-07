@@ -21,7 +21,7 @@
 
 ## Idea
 
-The notion of [[good open cover]] in the generality of [[topological G-spaces]] and [[G-manifolds]], hence the notion of good open covers generalized from [[differential topology]] to [[equivariant differential topology]].
+The notion of *equivariant good open cover* is the generalization of the notion of [[good open cover]] from [[differential topology]] to [[equivariant differential topology]], hence from [[topological spaces]] to [[topological G-spaces]] and [[G-manifolds]], 
 
 ## Properties
 
