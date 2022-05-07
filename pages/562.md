@@ -24,7 +24,7 @@ $$
   \int
 $$
 
-between the 2-category of fibrations, cartesian functors, and vertical natural trasnformations over $B$, and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called $B$-[[indexed categories]].
+between the 2-category of fibrations, cartesian functors, and vertical natural transformations over $B$, and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called $B$-[[indexed categories]].
 
 The construction $\int : [B^{op}, Cat] \to Fib(B) : F \mapsto \int F$ of a fibration from a pseudofunctor is sometimes called the _[[Grothendieck construction]]_, although fortunately (or unfortunately) Grothendieck performed many constructions.  Less ambiguous terms for $\int F$ are the [[category of elements]] and the [[oplax colimit]] of $F$.
 
