@@ -27,7 +27,11 @@ The entry is about monads in the sense of category theory, for another concept s
 
 A [[monad]] is a structure that is a lot like a [monoid](https://ncatlab.org/nlab/show/monoid+in+a+monoidal+category), but that lives in a [[bicategory]] rather than a [[monoidal category]].  In other words, the concept of a monad is a [[vertical categorification]] of that of a monoid.
 
-Monads are among the most pervasive structures in [[category theory]] and its applications: for example, they are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold-Kan correspondence]], much of [[homological algebra]].
+Monads are among the most pervasive structures in [[category theory]] and its applications.   For their applications to computer science, see [[monad (computer science)|monads in computer science]].
+
+Many of these applications use monads in the bicategory [[Cat]], which is called a monad *on a category*.   These are central to the category-theoretic account of [[universal algebra]], as well as underlying the theory of [[simplicial objects]] and thus, via the [[Dold-Kan correspondence]], much of [[homological algebra]].   
+
+
 
 ## Definition
 
@@ -131,8 +135,7 @@ Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adj
 ## Examples 
 
 
-### Monads in $Set$
-
+### Monads on $Set$
 
 Many of these monads also have standard usages as [[monad (computer science)|monads in computer science]].
 
