@@ -4,6 +4,8 @@ Chris Isham is an Emeritus Professor and Senior Research Investigator at Imperia
 
 * [biography](http://en.wikipedia.org/wiki/Christopher_Isham) (brief)
 
+* Section 3 of: *Chris Isham: mentor, colleague, friend*, by [[Michael Duff]] ([arXiv:2112.13722](https://arxiv.org/abs/2112.13722))
+
 ## Selected writings
 
 On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-theory on 8-manifolds]]):
