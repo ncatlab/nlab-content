@@ -55,7 +55,9 @@ A commutative [[quasigroup]] is a commutative magma such that every pair of elem
  
 ## Related concepts
 
-* [[partial function]]
+* [[subtraction]]
+
+* [[monus]]
 
 * A _[[derivative]]_ is a limiting ratio of differences.
 
