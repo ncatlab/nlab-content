@@ -1,2 +1,2 @@
 
-see [[Chern-Simons circle 3-bundle]]
+see *[[Chern-Simons circle 3-bundle]]*
