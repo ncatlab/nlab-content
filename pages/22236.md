@@ -38,7 +38,9 @@ $ \gt 4\sigma$ ([Belfatto-Beradze-Berezhiani 19](#BelfattoBeradzeBerezhiani19))
 
 * Matthew Kirk, _Cabibbo anomaly versus electroweak precision tests: An exploration of extensions of the Standard Model_, Phys. Rev. D 103, 035004 (2021) ([arXiv:2008.03261](https://arxiv.org/abs/2008.03261))
 
+A [[leptoquark]] model meant to address all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once:
 
+* {#MarzoccaTrifinopoulos21} [[David Marzocca]], Sokratis Trifinopoulos, *A Minimal Explanation of Flavour Anomalies: B-Meson Decays, Muon Magnetic Moment, and the Cabbibo Angle* ([arXiv:2104.05730](https://arxiv.org/abs/2104.05730))
 
 
 
