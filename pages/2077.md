@@ -122,3 +122,11 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 [[!redirects strictly order-preserving functions]]
 [[!redirects strict order-preserving function]]
 [[!redirects strict order-preserving functions]]
+
+
+[[!redirects strictly monotone function]]
+[[!redirects strictly monotone functions]]
+
+[[!redirects strictly monotone]]
+
+
