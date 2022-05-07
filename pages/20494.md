@@ -56,7 +56,7 @@ A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "b"] \\ C \ar[r, "c"'] & X
 \end{tikzcd}\end{center}
 Upon composing with the sections to $q$ and $m$
 \begin{center}\begin{tikzcd}
-C \ar[d, "t"'] \ar[r, "p"]\ar[dd, bend right, equals]& P \ar[d, "u"]  \\
+C \ar[d, "t"'] \ar[r, "n"]\ar[dd, bend right, equals]& P \ar[d, "u"]  \\
  A \ar[r, "p"] \ar[d, "q"'] & B \ar[d, "b"] \\ C \ar[r, "c"'] & X
 \end{tikzcd}\end{center}
 we see that $c$ factors through the claimed pushout $P$ as $c = (b  u) n$. We must verify that $b$ also factors as $b = (b  u)  m$. Since $p$ is an epimorphism, it suffices to prove that $b p = b u m p$, which follows easily:
