@@ -46,7 +46,11 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 * [[fermionic modality]]
 
-* [[Pauli exclusion principle]], [[fermion sea]]
+* [[Pauli exclusion principle]]
+
+* [[fermion sea]]
+
+* [[Landau's Fermi liquid model]]
 
 * [[spin-statistics theorem]]
 
