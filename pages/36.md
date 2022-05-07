@@ -51,7 +51,7 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
         {}^{\mathllap{
            \simeq
         }} 
-        \big\uparrow
+        \big\downarrow
         &&
         \big\downarrow
         {}^{{}_{\mathrlap{ m }}}
@@ -73,7 +73,7 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
         {}^{\mathllap{
            \simeq
         }} 
-        \big\uparrow
+        \big\downarrow
         &&
         \big\downarrow
         {}^{{}_{\mathrlap{ m }}}
