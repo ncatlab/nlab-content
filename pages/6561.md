@@ -186,7 +186,7 @@ See also the references and discussion at _[[M5-brane]]_.
 
 and the resulting relation to the [[geometric Langlands correspondence]] is disucssed in 
 
-* {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, AMS 2010 ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
+* {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, CRM Proceedings & Lecture Notes Volume: 50, AMS 2010 ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/crmp-50))
  
 
 For more references on this see at _[[N=2 D=4 super Yang-Mills theory]]_ the section _[References - Constructions from 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
@@ -282,13 +282,14 @@ Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
 
 * [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
 
-### Extended TQFT and quantum anomalies
 
-Relation to [[extended TQFT]] and [[quantum anomalies]] (motivated via [[M5-brane]] lore) is discussed in
 
-* [[Dan Freed]], _[[4-3-2 8-7-6]]_
 
-* [[David Ben-Zvi]], _Algebraic geometry of topological field theories_, talk at _[Reimagining the Foundations of Algebraic Topology April 07, 2014 - April 11, 2014](https://www.msri.org/workshops/689)_ ([web video](https://www.msri.org/workshops/689/schedules/18216))
+
+[[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
+
+
+
 
 
 
