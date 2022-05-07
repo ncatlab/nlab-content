@@ -138,3 +138,6 @@ For more on permutation patterns, see:
 [[!redirects permutation]]
 [[!redirects permutations]]
 
+[[!redirects cycle notation]]
+[[!redirects cycle notations]]
+
