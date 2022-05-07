@@ -46,3 +46,5 @@ One of the standard references for the poset viewpoint is
 The Wikipedia entry is
 
 * [residuated mapping](https://en.wikipedia.org/wiki/Residuated_mapping)
+
+[[!redirects residuated mapping]]
