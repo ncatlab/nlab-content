@@ -21,7 +21,9 @@
 
 ## Definition
 
-A **number field** is a [[finite number|finite]] [[field extension]] of the [[field]] of [[rational numbers]], $\mathbb{Q}$, In other words, a field $k$ of [[characteristic zero]] such that under the field [[homomorphism]] $i: \mathbb{Q} \hookrightarrow k$, the field $k$ is a [[finite number|finite]]-[[dimension|dimensional]] [[vector space]] over $\mathbb{Q}$ with respect to the scalar multiplication [[action]] of $\mathbb{Q}$
+A **number field** is a [[finite number|finite]] [[field extension]] of the [[field]] of [[rational numbers]], $\mathbb{Q}$. 
+
+In other words, a number field is a field $k$ of [[characteristic zero]] such that under the field [[homomorphism]] $i: \mathbb{Q} \hookrightarrow k$, the field $k$ is a [[finite number|finite]]-[[dimension|dimensional]] [[vector space]] over $\mathbb{Q}$ with respect to the scalar multiplication [[action]] of $\mathbb{Q}$
 
 $$\mathbb{Q} \otimes k \stackrel{i \otimes 1}{\to} k \otimes k \stackrel{mult}{\to} k$$
 
