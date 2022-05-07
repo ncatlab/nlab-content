@@ -147,7 +147,7 @@ A weak version of the simplicial statement is in theorem 8.1.5 in
 
 The stronger version as stated above, due to Dold and Puppe, is in chapter 2 of 
 
-* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Ann. Inst. Fourier **11** (1961) pp.201-312. ([numdam:AIF_1961__11__201_0](http://archive.numdam.org/item/AIF_1961__11__201_0), [pdf](http://archive.numdam.org/article/AIF_1961__11__201_0.pdf))
+* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Ann. Inst. Fourier **11** (1961) pp. 201-312. ([numdam:AIF_1961__11__201_0](http://archive.numdam.org/item/AIF_1961__11__201_0), [pdf](http://archive.numdam.org/article/AIF_1961__11__201_0.pdf))
 
 and is discussed in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
