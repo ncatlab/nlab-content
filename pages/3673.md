@@ -299,7 +299,7 @@ The arguments for (right-)transfer of model structures go back to
 
 Proofs can be found in 
 
-* {#GoerssJardine} [[Paul Goerss]], Jardine, J. F., _Simplicial homotopy theory_ , Progress Mathematics 174, Birkhäuser Verlag, Basel, 1999.
+* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_ , Progress Mathematics 174, Birkhäuser Verlag, Basel, 1999.
 
 
 The explicit study of (right-)transfer of model structures (on categories of sheaves) is apperently originally due to 
