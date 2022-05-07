@@ -20,7 +20,7 @@ The __sedenions__ are the [[non-associative algebra]] $\mathbb{S}$ over the [[re
 
 ## Properties
 
-Although every sedenion has a multiplicative [[inverse element|inverse]], $\mathbb{S}$ is *not* a [[division algebra]] (which is possible since it is not [[associative algebra|associative]]).
+Although every sedenion has a multiplicative [[inverse element|inverse]], $\mathbb{S}$ is *not* a [[division algebra]], since it has [[zero divisors]].
 
 ## References
 
