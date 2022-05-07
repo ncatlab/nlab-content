@@ -16,7 +16,7 @@
 
 ## Idea
 
-For $\mathcal{G}$ a [[topological group]] or [[simplicial group]], or generally an [[∞-group]], the [[homotopy type]] of the [[free loop space]] of its [[classifying space]]/[[delooping]] is [[equivalence in an (infinity,1)-category|equivalent]] to the [[homotopy quotient]] of the [[conjugation action|conjugation]] [[∞-action]] of $\mathcal{G}$ on iself:
+For $\mathcal{G}$ a [[topological group]] or [[simplicial group]], or generally an [[∞-group]], the [[homotopy type]] of the [[free loop space]] of its [[classifying space]]/[[delooping]] is [[equivalence in an (infinity,1)-category|equivalent]] to the [[homotopy quotient]] of the [[adjoint action|conjugation]] [[∞-action]] of $\mathcal{G}$ on iself:
 
 $$
   \mathcal{L} \mathbf{B}\mathcal{G}
@@ -52,7 +52,7 @@ $$
   \mathbf{H}_{/\mathbf{B}\mathcal{G}}
 $$
 
-one may turn this around ([NSS 12a, Exp. 4.13 (3)](#NSS12a), [SS 20, Exp. 2.82](#SS20)) and *define* the [[conjugation action]] of an [[∞-group]] [[∞-stack]] to be that whose [[homotopy quotient]] over $\mathbf{B}\mathcal{G}$ is the left vertical morphism (eq:HomotopyPullbaclDefiningFreeLoopSpaceObject) in the defining [[homotopy pullback]]-construction of the [[free loop space object]] of $\mathbf{B}\mathcal{G}$.
+one may turn this around ([NSS 12a, Exp. 4.13 (3)](#NSS12a), [SS 20, Exp. 2.82](#SS20)) and *define* the [[adjoint action]] of an [[∞-group]] [[∞-stack]] to be that whose [[homotopy quotient]] over $\mathbf{B}\mathcal{G}$ is the left vertical morphism (eq:HomotopyPullbaclDefiningFreeLoopSpaceObject) in the defining [[homotopy pullback]]-construction of the [[free loop space object]] of $\mathbf{B}\mathcal{G}$.
 
 ## Proof
 
@@ -95,7 +95,7 @@ and write
 
 * $\overline{W}\mathcal{G} \,=\, \frac{W \mathcal{G}}{\mathcal{G}} \in sSet$ for the [[simplicial classifying space]];
 
-* $\mathcal{G}_{ad} \in \mathcal{G}Actions(sSet)$ for the [[conjugation action]] of $\mathcal{G}$ on itself:
+* $\mathcal{G}_{ad} \in \mathcal{G}Actions(sSet)$ for the [[adjoint action]] of $\mathcal{G}$ on itself:
 
   \[
     \label{ConjugationAction}
@@ -127,7 +127,7 @@ and write
 
 
 \begin{proposition}\label{FreeLoopSpaceOfSimplicialClassifyingSpaceAsAdQuotient}
-  The [[free loop space object]] of the [[simplicial classifying space]] $\overline{W} \mathcal{G}$ is [[isomorphism|isomorphic]] in the [[classical homotopy category]] to the [[Borel construction]] of the [[conjugation action]] (eq:ConjugationAction):
+  The [[free loop space object]] of the [[simplicial classifying space]] $\overline{W} \mathcal{G}$ is [[isomorphism|isomorphic]] in the [[classical homotopy category]] to the [[Borel construction]] of the [[adjoint action]] (eq:ConjugationAction):
 
 $$
   \mathcal{L}
@@ -422,12 +422,17 @@ See also:
 
 * {#MODiscussion} MathOverflow discussion [MO/q/20671](https://mathoverflow.net/q/20671/381)
 
-Discussion in the generality of [[∞-groups]] in [[(∞,1)-toposes]]:
+Discussion in the generality of [[∞-groups]] in [[(∞,1)-toposes]] and defining the [[adjoint action]] in this generality:
 
 * {#NSS12a} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], Example 4.13 (3) in: *[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]*, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015), pages 749-801 
 ([doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6), [arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
 * {#SS20} [[Hisham Sati]], [[Urs Schreiber]], Example 2.82 in: *[[schreiber:Proper Orbifold Cohomology]]* ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+
+and formulated more in the language of [[homotopy type theory]]:
+
+* {#BuchholtzDoornRijke18} [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], p. 11 of: _Higher Groups in Homotopy Type Theory_, LICS '18: Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science  ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315), [doi:10.1145/3209108.3209150](https://doi.org/10.1145/3209108.3209150))
+
 
 [[!redirects free loop spaces of classifying spaces]]
 
