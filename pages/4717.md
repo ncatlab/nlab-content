@@ -27,9 +27,9 @@ $$
   Y
 $$
 
-there is a [[natural transformation]] (or more generally, a $2$-[[2-morphism|morphism]]) $\eta\colon id_X \to R \circ L$, called the __unit__ of the adjunction.  (A reason for the name is that $R \circ L$ is a [[monad]], which is a kind of [[monoid object]], and $\eta$ is the [[identity element|identity]] of this monoid.  Since 'identity' in this context would suggest an [[identity natural transformation]], we use the synonym 'unit'.)
+there is a [[natural transformation]] (or more generally, a $2$-[[2-morphism|morphism]]) $\eta\colon id_X \to R \circ L$, called the __unit__ of the adjunction (in older texts, called a "front adjunction").  (A reason for the name is that $R \circ L$ is a [[monad]], which is a kind of [[monoid object]], and $\eta$ is the [[identity element|identity]] of this monoid.  Since 'identity' in this context would suggest an [[identity natural transformation]], we use the synonym 'unit'.)
 
-Similarly, there is $2$-morphism $\epsilon\colon L \circ R \to id_Y$, called the __counit__ of the adjunction.  (This is the co-identity of the [[comonad]] $L \circ R$.)
+Similarly, there is $2$-morphism $\epsilon\colon L \circ R \to id_Y$, called the __counit__ of the adjunction (in older texts, called a "back adjunction").  (This is the co-identity of the [[comonad]] $L \circ R$.)
 
 ## Properties
 
@@ -82,6 +82,9 @@ Every [[adjunction]] $(L \dashv R)$ gives rise to a [[monad]] $T \coloneqq R \ci
 
 [[!redirects adjunction counit]]
 [[!redirects adjunction counits]]
+
+[[!redirects front adjunction]]
+[[!redirects back adjunction]]
 
 [[!redirects lali]]
 [[!redirects rali]]
