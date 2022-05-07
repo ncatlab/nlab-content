@@ -55,9 +55,11 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 [[category theory|Category theoretic]] treatments of deep learning in neural networks:
 
-* Brendan Fong, David Spivak, Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455))
+* [[Brendan Fong]], [[David Spivak]], Rémy Tuyéras, _Backprop as Functor: A compositional perspective on supervised learning_, ([arXiv:1711.10455](https://arxiv.org/abs/1711.10455))
 
 * [[David Spivak]], _Learners' languages_, ([arXiv:2103.01189](https://arxiv.org/abs/2103.01189))
+
+\bibitem{Spivak202103}
 
 * G.S.H. Cruttwell, Bruno Gavranović, [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
 
