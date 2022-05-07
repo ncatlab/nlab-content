@@ -51,7 +51,14 @@ A [[metrisable topological space]] is an [[absolute retract]] precisely if it is
 
 \end{example}
 
-By Prop. \ref{ANRIsLocalProperty}. (review in [Hu 65, III Cor. 8.3](#Hu65))
+By Prop. \ref{ANRIsLocalProperty} (see also [Hu 65, III Cor. 8.3](#Hu65)).
+
+In fact:
+
+\begin{example}\label{ParacompactBanachManifoldsAreANRs}
+Every [[paracompact topological space|paracompact]] [[Banach manifold]] is an [[absolute neighbourhood retract]].
+\end{example}
+By [Palais 1966, Cor. to Thm. 5 on p. 3](#Palais66).
 
 \begin{example}
   Every [[finite number|finite]]-[[dimension of a CW complex|dimensional]] [[locally finite CW complex|locally finite]] [[CW-complex]] is an [[absolute neighbourhood retract]].
@@ -80,13 +87,15 @@ Further development:
 
 * [[Olof Hanner]], _Some theorems on absolute neighbourhood retracts_, Arkiv F&ouml;r Matematik Band 1 nr 30 (1950) ([doi:10.1007/BF02591376](https://doi.org/10.1007/BF02591376))
 
-* {#Dugundji52} J. Dugundji, _Note on CW polytopes_, Portugaliae mathematica (1952) **11** 1 (1952) 7-10-b ([dml:114693](https://eudml.org/doc/114693))
+* {#Dugundji52} [[James Dugundji]], _Note on CW polytopes_, Portugaliae mathematica (1952) **11** 1 (1952) 7-10-b ([dml:114693](https://eudml.org/doc/114693))
 
-* {#Kodama56} Yukihiro Kodama, _Note on an absolute neighborhood extensor for metric spaces_, Journal of the Mathematical Society of Japan **8** 3 (1956) 206-215
-
-([doi:10.2969/jmsj/00830206](https://doi.org/10.2969/jmsj/00830206))
+* {#Kodama56} Yukihiro Kodama, _Note on an absolute neighborhood extensor for metric spaces_, Journal of the Mathematical Society of Japan **8** 3 (1956) 206-215 ([doi:10.2969/jmsj/00830206](https://doi.org/10.2969/jmsj/00830206))
 
 * [[Karol Borsuk]], _Concerning the classification of topological spaces from the stand point of the theory of retracts_, Fundamenta Mathematicae **46** (3) (1959) 321-330 ([dml:213516](https://eudml.org/doc/213516))
+
+Discussion for [[infinite-dimensional manifolds]]:
+
+* {#Palais66} [[Richard S. Palais]], *Homotopy theory of infinite dimensional manifolds*, Topology **5** 1 (1966) 1-16 (<a href="https://doi.org/10.1016/0040-9383(66)90002-4">doi:10.1016/0040-9383(66)90002-4</a>)
 
 Textbook accounts and review:
 
@@ -95,6 +104,9 @@ Textbook accounts and review:
 * {#Hu65} [[Sze-Tsen Hu]], _Theory of Retracts_, Wayne State University Press (1965) ([google-books](https://books.google.ae/books/about/Theory_of_Retracts.html?id=GVTvAAAAMAAJ&redir_esc=y))
 
 * [[Sibe Mardešić]], _Absolute Neighborhood  Retracts and Shape  Theory_ ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mardesic.pdf))
+
+
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Def. 4.2.10 in: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 
 See also:
