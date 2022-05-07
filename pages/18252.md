@@ -410,7 +410,7 @@ $$
   \,.
 $$
 
-See for instance [this Lemma](universal+complex+orientation+on+MU#UniversalComplexLineBundleThomSpace) at _[[universal complex orientation on MU]]_.
+See at _[[zero-section into Thom space of universal line bundle is weak equivalence]]_.
 
 \linebreak
 
