@@ -19,27 +19,13 @@
 
 ## Idea
 
-A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way -- an [[inductive type]].  In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist. In particular W-types can be used to provide a [[constructive mathematics|constructive]] counterpart of the [[classical logic|classical]] notion of a [[well-ordering]] and to uniformly define a variety of [[inductive types]]. More complex inductive types, such as strictly positive inductive types, can be reduced to W-types; see [AAG](#AAG). This can even be extended to [[inductive families]].
+A *W-type* is a [[set]] or [[type]] which is defined [[induction|inductively]] in a [[well-founded relation|well-founded]] way based on a type of "constructors" and a type of "arities".  It is thus a particular kind of [[inductive type]], with one constructor having a certain canonical form.
+
+In most [[set theory|set theories]], W-types can be proven to exist, but in [[predicative mathematics]] or [[type theory]], where this is not the case, they are often assumed explicitly to exist. In particular, W-types can be used to provide a [[constructive mathematics|constructive]] counterpart of the [[classical logic|classical]] notion of a [[well-ordering]] and to uniformly define a variety of [[inductive types]]. More complex inductive types, with multiple constructors that are assumed only to be strictly positive, can be reduced to W-types, at least in the presence of other structure such as [[sum types]] and [[function extensionality]]; see for instance [AAG](#AAG). This can even be extended to [[inductive families]].
 
 The [[terms]]/[[elements]] of a W-type can be considered to be "rooted well-founded [[trees]]" with a certain branching type; different W-types are distinguished by their branching signatures.  A branching signature is represented essentially by a [[family of sets]] $\{A_b\}_{b\in B}$ which can be interpreted as requiring that each *node* of the tree is labeled with an element of the set $B$, and that if a node is labeled by $b$ then it has exactly ${|A_b|}$ outgoing edges, each labeled by an element of $A_b$.  From a more computational point of view, the W-type can be viewed as a data type, where $B$ indexes the set of *constructors* and $A_b$ is the *arity* of the constructor $b$.
 
-If the trees are not required to be well-founded, we obtain instead a [[coinduction|coinductively]] defined type, called a "co-W-type" or an [[M-type]].
-
-## Examples
-
-(1) The most basic W-type is the [[natural numbers]].  Here there are two constructors:
-
-* $0$ of arity zero, and
-* $S$ of arity one.
-Therefore, zero is a natural number, any natural number has a successor, and all natural numbers are generated in this way.
-
-(2) Similarly, if $X$ is any set, then the W-type $L X$ of [[lists]] of elements of $X$ has $|X|+1$ constructors:
-
-* $nil$ of arity zero, and
-* $cons(x,-)$ of arity one, for each $x\in X$.
-Therefore, $nil$ is a list, $cons(x,\ell)$ is a list for any list $\ell$ and $x\in X$, and all lists are generated in this way.
-
-(3) [[identity type]]s arise as a more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).
+If we remove the requirement that the trees are well-founded, we obtain instead a kind of [[coinductive type]] called an [[M-type]] (presumably since "M" is like a "W" upside down).
 
 
 ## Definition
