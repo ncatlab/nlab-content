@@ -239,6 +239,8 @@ $$
 
 * [[rational homotopy theory]]
 
+* [[relation between L-∞ algebras and dg-Lie algebras]]
+
 ## References
 
 In [[characteristic zero]] and in positive degrees the model structure is due to
