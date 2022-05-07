@@ -183,7 +183,12 @@ Thus $\alpha_k=\alpha$, $\alpha_0=1$, $\alpha_{k-1}=\iota(\gamma')\alpha$, and $
 
 There is much more to tell in this particular story.  It is possible to replacing $S^1$ by a [[simplex]] (but keeping $L M$ the same) and so build up more complicated objects in $\Omega^*(L M)$.  This is the starting point of Chen's theory of [[iterated integrals]] and further developments of the theory can be found in the work of Jones, Getzler, and Petrack.
 
-## Transgression to mapping spaces in terms of internal homs {#InternalHom}
+### Transgression in group cohomology
+
+See at *[[transgression in group cohomology]]*.
+
+### Transgression to mapping spaces in terms of internal homs 
+ {#InternalHom}
 
 > just a rough remark, for the moment
 
