@@ -1,10 +1,6 @@
-$$
-a_N(n) ~ \frac{N^n}{\pi^{N/2}} \cdot \biggl( \frac{N}{n}   \biggr)^{\frac{N(N-1)}{4}} \cdot \prod_{j = 1}^N \Gamma \biggl( \frac{j}{2} \biggr) .
-$$
-
 
 $$
-  \begin{aligned}
+ \begin{aligned}
   \left\vert
     sYT_n(N)
   \right\vert  
@@ -14,101 +10,103 @@ $$
     n \to \infty
   }{\sim}
   \;
-  \underset{
-    \gamma_N
-  }{
-  \underbrace{
-    (2 \pi)^{ -(N-1)/2 }
-    \cdot
-    N^{ N^2 / 2 }
-  }
-  }
+  \left(
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4} N(N-1) }
   \cdot
-  n^{ - (N - 1)(N + 2)/4 }
+  \frac
+    {N^n}
+    {N!}
   \cdot
-  N^{ n }
+   2^N
+   \cdot
+   \pi^{ - \tfrac{1}{2} N }
   \cdot
-  n^{ (N - 1)/2 }
+  \Gamma
+  \left(
+    1 + \tfrac{N}{2}
+  \right)  
   \cdot
   \underset{
     \mathclap{
-      x_1 \geq \cdots \geq x_N
+    \Gamma
+    \left( 
+      N
+    \right)
+      \cdot
+    (2\pi)^{ \tfrac{1}{2}(N-1) }
+    \cdot
+    N^{ \tfrac{1}{2} - N }
     }
-  }{\int}
-    \;\;\;\;\;
-    \underset{
-      D(x_1, \cdots, x_N)
-    }{
+  }{
+  \underbrace{
+  \underoverset
+    {j=0}
+    {N-1}
+    {\prod}
+    \Gamma
+    \left(
+      1 + \tfrac{1}{2}j
+    \right)  
+   }
+   }
+   \\
+   & \;=\;
+  \left(
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4} N(N-1) }
+  \cdot
+  \frac
+    {N^n}
+    {N!}
+  \cdot
+   2^N
+   \cdot
+   \pi^{ - \tfrac{1}{2} N }
+  \cdot
+  \underset{
+    \tfrac{N}{2}\Gamma(N/2)
+  }{
     \underbrace{
-    \underset{i \lt j}{\prod}
-    \big(
-      x_i - x_j 
-    \big)
-    }
-    }
-    e^{ - N \left\vert x\right\vert^2 /2 }
-   d x_1 \cdots d x_{N}
-   \\
-   & \;=\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{2} N^2 + n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 + N ) }
-   \cdot
-   \underset{
-     \mathclap{
-       x_1 \geq \cdots \geq x_N
-     }
-   }{\int}
-    \;\;\;\;\;
-   \underset{i \lt j}{\prod}
-   \big(
-     x_i - x_j 
-   \big)
-   e^{ - N \left\vert x\right\vert^2 /2 }
-   d x_1 \cdots d x_{N}
-   \\
-   & \;=\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{2} N^2 + n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 + N ) }
-   \cdot
-   \underset{
-     \mathclap{
-       { x_1 \geq \cdots \geq x_N }
-       \atop
-       { \vert x \vert^2 = 1 }
-     }
-   }{\int}
-    \;\;\;\;\;
-   \underset{i \lt j}{\prod}
-   \big(
-     x_i - x_j 
-   \big)
-   dvol_{S^{N}}
-   \,
-   \int_0^{\infty}
-   R^{ N(N-1) / 2 }
-   e^{ - N R^2 /2 }
-   d R
-   \\
-   & \;\propto\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{2} N^2 + n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 + N ) }
-   \,
-   N^{ - \tfrac{1}{4} (N^2 - N) }
-   \\
-   & \;=\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{4} (N^2 + N) + \tfrac{1}{2} n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 + N ) }
+    \Gamma
+    \left(
+      1 + \tfrac{N}{2}
+    \right)  
+  }
+  }
+  \cdot
+  \Gamma
+  \left( 
+    N
+  \right)
+    \cdot
+  (2\pi)^{ \tfrac{1}{2}(N-1) }
+    \cdot
+  N^{ \tfrac{1}{2} - N }
+  \\
+  & 
+  \;=\;
+  \tfrac{1}{\pi}
+  \left(
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4} N(N-1) }
+  \cdot
+  \frac
+    {N^{n-1}}
+    {N!}
+  \cdot
+   2^{\tfrac{3}{2}(N-1)}
+  \cdot
+  \Gamma
+  \left(
+    \tfrac{N}{2}
+  \right)  
+  \cdot
+  \Gamma
+  \left( 
+    N
+  \right)
+    \cdot
+  N^{ \tfrac{1}{2} - N }
   \end{aligned}
 $$
