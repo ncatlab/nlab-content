@@ -424,8 +424,9 @@ Further refinement to the "soft-wall model" is due to [KKSS 06](#KKSS06) and fur
 
 
 ## Comparison with experiment
+ {#ComparisonWithExperiment}
 
-Comparison with [[experiment]] (mostly using bottom-up models).
+Comparison of holographic QCD models with [[experiment]] (mostly using bottom-up models).
  
 Computations due to [Katz-Lewandowski-Schwartz 05](#KatzLewandowskiSchwartz05) using the hard-wall model ([Erlich-Katz-Son-Stephanov 05](#ErlichKatzSonStephanov05)) find the following comparison of AdS/QCD predictions to [[QCD]]-[[experiment]]
 
