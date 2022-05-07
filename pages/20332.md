@@ -19,7 +19,7 @@ A [[space]] which is both a [[quaternion-Kähler manifold]] as well as a [[symme
 
 ## Examples
 
-* [[quaternionic projective space]]
+* [[quaternionic projective plane]]
 
 ## Properties
 
