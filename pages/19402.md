@@ -36,7 +36,7 @@ is a [[proper continuous function]].
 
 ## Examples
 
-### Lie groups actions on smooth manifolds
+### Lie group actions on smooth manifolds
 
 +-- {: .num_prop #SmoothActionOfCompactLieGroupOnSmoothManifoldIsProper} 
 ###### Proposition
