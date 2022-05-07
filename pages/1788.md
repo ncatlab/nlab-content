@@ -2,7 +2,7 @@
 |[[finite topological space]] |[[open subsets]] |[[specialization order]] | 
 |--|--|--|
 | [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrows 1 \;\Big\}$ |
-| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \leftarrow 1 \;\Big\}$ |
+| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; \textcircled{0} \leftarrow \tikz \node[circle,draw] { 1}; \;\Big\}$ |
 | [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$ |
 | [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\},\, \{0,1\} \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  |
 
