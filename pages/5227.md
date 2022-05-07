@@ -63,7 +63,7 @@ A **Petri net** $N$ consists of
   *   $post:  P\times E\to \mathbb{N}$.
 =--
 
-## Categorical Semantics of Petri Nets
+## Categorical Semantics of Petri Nets {#semantics}
 
 The functions $pre$ and $post$ can be [[curried]] to write a Petri net as a pair of functions 
 
@@ -75,7 +75,7 @@ E \ar[r,shift left=.5ex,"\mathrm{pre}"] \ar[r,shift right=.5ex,"\mathrm{post}",s
 
 where $\mathbb{N}[P]$ denotes the [[free monoid|free commutative monoid]] on the set $P$ of places. Written this way, the analogy to [[directed graph|graphs]] is clearer. The main difference is that now the source and target functions land in a [[free monoid|free commutative monoid]] rather than just a set. Thus, Petri nets can be thought of as _symmetric monoidal graphs_ because each edge is a multi-edge between a permutable sum of vertices. Just as [[directed graph|graphs]] generate [[free categories]], Petri nets should generate free [[symmetric monoidal categories]]. As Petri nets often model processes in various sciences, the free symmetric monoidal categories that they generate model the operational semantics of these processes. For a given Petri net $P$, the free symmetric monoidal $FP$ that it generates should have objects given by possible markings of $P$ and morphisms given by ways of composing the events in sequence and in parallel.
 
-The first to explore this idea were [Meseguer and Montanari](#monoids) who constructed an adjunction between Petri nets and a subcategory of the category $CMC$ of [[commutative monoidal categories]]. This adjunction was modified in [_Generalized Petri Nets_](#gen) to get
+The first to explore this idea were [Meseguer and Montanari](#monoids) who constructed an adjunction between Petri nets and a subcategory of the category $CMC$ of [[commutative monoidal categories]]. This adjunction was modified in [_Petri nets based on Lawvere theories_](#gen) to get
 
 \begin{center}
 \begin{tikzcd}
@@ -136,7 +136,7 @@ On the categorical semantics of Petri nets:
 
 * {#monoids} [[José Meseguer]] and [[Ugo Montanari]], _Petri nets are monoids_, Information and Computation, Volume 88, Issue 2, Pages 105-155, 1990. [journal](https://www.sciencedirect.com/science/article/pii/0890540190900138), [pdf](https://core.ac.uk/download/pdf/82342688.pdf)
 
-* {#gen} [[Jade Master]], Generalized Petri Nets. Available at [arXiv:1904.09091](https://arxiv.org/abs/1904.09091)
+* {#gen} [[Jade Master]], _Petri nets based on Lawvere theories_, Mathematical Structures in Computer Science 30, no. 7 (2020): 833-864. Available at [journal](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/petri-nets-based-on-lawvere-theories/9E0F011860A1285DDC498B740774FBDC)
 
 
 * {#functorial} [[Roberto Bruni]], [[José Meseguer]], [[Ugo Montanari]], and [[Vladimiro Sassone]]. _Functorial models for Petri nets_ Information and Computation 170, no. 2 (2001): 207-236. [pdf](https://eprints.soton.ac.uk/264742/1/prenetsIandCOff.pdf)
