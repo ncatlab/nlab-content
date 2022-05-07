@@ -178,7 +178,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * [[Boolean topos]]
 * [[law of excluded middle]]
 * [[skeletal geometric morphism]]
-
+* [[ultrafilter principle]]
 
 ## References
 
