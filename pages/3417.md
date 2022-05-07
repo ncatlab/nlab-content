@@ -130,17 +130,19 @@ Dywer, Spalinski and later [[Charles Rezk|Rezk]] then pointed out that there oug
 
 * {#Bergner04} [[Julie Bergner]], _A model category structure on the category of simplicial categories_, Trans. AMS ([arXiv:0406507](http://arxiv.org/abs/math/0406507))
 
-A survey is in
-
-* [[Julie Bergner]], Section 3 of: _A survey of $(\infty,1)$-categories_ ([arXiv:math/0610239](http://arxiv.org/abs/math/0610239))
-
-See also:
+Also:
 
 * [[Jacob Lurie]], Section A.3.2 of: _[[Higher Topos Theory]]_
 
-and
-
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_, [GoodwillieI.pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf)
+
+Survey and review:
+
+* [[Julie Bergner]], Section 3 of: _A survey of $(\infty,1)$-categories_ ([arXiv:math/0610239](http://arxiv.org/abs/math/0610239))
+
+* [[Emily Riehl]], Section 16 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+
+
 
 
 Recall the slight but crucial difference between the two notions of "[[simplicial categories]]", the other being an [[internal category]] in [[sSet]]. But also for this latter concept there is a [[model category]] structure which presents [[(infinity,1)-categories]], see
