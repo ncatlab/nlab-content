@@ -565,6 +565,11 @@ Relation of quantum error correcting codes to the [[Monster vertex operator alge
 
 * [[Jeffrey A. Harvey]], [[Gregory W. Moore]], *Moonshine, Superconformal Symmetry, and Quantum Error Correction*,  J. High Energ. Phys. **2020**, 146 (2020). ([arXiv:2003.13700](https://arxiv.org/abs/2003.13700))
 
+In relation to the [[large N limit]]:
+
+* Alexey Milekhin, *Quantum error correction and large $N$* ([arXiv:2008.12869](https://arxiv.org/abs/2008.12869))
+
+
 
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
