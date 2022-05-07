@@ -19,9 +19,9 @@ On the [[model structure on equivariant dgc-algebras]] and the [[fundamental the
 * [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra Volume 133, Issue 3, 30 December 1998, Pages 271-287 (<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">doi:10.1016/S0022-4049(97)00127-8</a>)
 
 
-With [[Ronnie Brown]], Golasinski  gave the folk model structure on the category of [[crossed complexes]]:
+With [[Ronnie Brown]], Golasiński  gave the folk model structure on the category of [[crossed complexes]]:
 
-* [[Ronald Brown]] and [[Marek  Golasinski]], _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 30 no. 1 (1989), p. 61-82 ([pdf](http://www.numdam.org/item?id=CTGDC_1989__30_1_61_0))
+* [[Ronald Brown]] and [[Marek  Golasiński]], _A model structure for the homotopy theory of crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 30 no. 1 (1989), p. 61-82 ([pdf](http://www.numdam.org/item?id=CTGDC_1989__30_1_61_0))
 
 
 
