@@ -25,10 +25,10 @@ The _Dieudonné determinant_ is a variant of the notion of [[determinant]] which
 
 ## Definition
 
-[Dieudonné 43](#Dieudonne) showed that for $K$ a [[division ring]], there is a [[group homomorphism|group]] [[isomorphism]] of the form
+[Dieudonné 43](#Dieudonne) showed that for $K$ a [[division ring]], there is a [[group homomorphism]] of the form
 
 \[
-  \label{TheGroupIsomorphism}
+  \label{TheGroupHomomorphism}
   \alpha 
     \;\colon\;
   GL(n,K)/[GL(n,K), GL(n,K)] 
@@ -45,16 +45,14 @@ where
 
 * and $G/[G,G]$ is the [[abelianization]] of the group $G$.  
 
-Moreover, this group isomorphism (eq:TheGroupIsomorphism)
+Moreover, this group homomorphism (eq:TheGroupHomomorphism)
 is uniquely determined by the following properties:
 
 * If a row of the matrix $T$ is left multiplied by $a \in K^\times$ then $\alpha(T)$ is left multiplied by $[a] \in K^\times/[K^\times K^\times]$.
 
 * If a multiple of one row of $T$ is added to another row of $T$, then $\alpha(T)$ is unchanged.
 
-* If two consecutive rows of $T$ are exchanged, then $\alpha(T)$ is multiplied by $[-1] \in K^\times/[K^\times, K^\times]$.
-
-Composing the isomorphism $\alpha$ (eq:TheGroupIsomorphism)
+Composing the homomorphism $\alpha$ (eq:TheGroupHomomorphism)
 with the [[quotient]] [[coprojection]] 
 
 $$
@@ -81,7 +79,7 @@ gives the **Dieudonné determinant**
 
 ## The quaternionic case
 
-In the case that $K = \mathbb{H}$ is the [[quaternions]],  we have a further group isomorphism 
+In the case that $K = \mathbb{H}$ is the [[quaternions]], we have a group isomorphism 
 
 $$ 
   \mathbb{H}^\times 
