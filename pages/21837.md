@@ -5,7 +5,6 @@
 
 The interpretation of [[elliptic genera]] (especially the [[Witten genus]]) as the [[partition function]] of a [[2d superconformal field theory]] (or [[Landau-Ginzburg model]]) --  and especially of the [[heterotic string]] ("H-string") or [[type II superstring]] [[worldsheet]] theory has precursors in
 
-
 * [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies, characters and strings*, Nuclear Physics B Volume 287, 1987, Pages 317-361 (<a href="https://doi.org/10.1016/0550-3213(87)90108-8">doi:10.1016/0550-3213(87)90108-8</a>)
 
 * [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies and modular invariance in string theory*, Physics Letters B 177 (3-4), 317-323, 1986 (<a href="https://doi.org/10.1016/0370-2693(86)90760-4">doi:10.1016/0370-2693(86)90760-4</a>)
@@ -18,12 +17,9 @@ and then strictly originates with:
 
 * [[Edward Witten]], _On the Landau-Ginzburg Description of $N=2$ Minimal Models_, Int. J. Mod. Phys.A9:4783-4800,1994 ([arXiv:hep-th/9304026](http://arxiv.org/abs/hep-th/9304026))
 
-
-
 * [[Toshiya Kawai]], [[Yasuhiko Yamada]], Sung-Kil Yang, _Elliptic Genera and $N=2$ Superconformal Field Theory_, Nucl. Phys. B414:191-212, 1994 ([arXiv:hep-th/9306096](http://arxiv.org/abs/hep-th/9306096), <a href="https://doi.org/10.1016/0550-3213(94)90428-6">doi:10.1016/0550-3213(94)90428-6</a>)
 
 * Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067, 2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
-
 
 * [[Matthew Ando]], [[Eric Sharpe]], _Elliptic genera of Landau-Ginzburg models over nontrivial spaces_, Adv. Theor. Math. Phys. 16 (2012) 1087-1144 ([arXiv:0905.1285](https://arxiv.org/abs/0905.1285))
 
@@ -33,7 +29,9 @@ Review in:
 
 * [[Katrin Wendland]], Section 2.4 in: _Snapshots of Conformal Field Theory_, in: _Mathematical Aspects of Quantum Field Theories_ Mathematical Physics Studies. Springer 2015  ([arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4))
 
-#### Via super vertex operator algebra
+#### Formulations
+
+##### Via super vertex operator algebra
 
 Formulation via [[super vertex operator algebras]]:
 
@@ -50,7 +48,7 @@ based on [[chiral differential operators]]:
 * [[Vassily Gorbounov]], [[Fyodor Malikov]], [[Vadim Schechtman]], _Gerbes of chiral differential operators_, Math. Res. Lett. 7(1), 55&#8211;66 (2000) ([arXiv:math/9906117](http://arxiv.org/abs/math/9906117), [arXiv:math/0003170](http://arxiv.org/abs/math/0003170), [arXiv:math/0005201](http://arxiv.org/abs/math/0005201))
 
 
-#### Via Dirac-Ramond operators on free loop space
+##### Via Dirac-Ramond operators on free loop space
 
 Tentative interpretation as [[indices]] of [[Dirac-Ramond operators]] as would-be [[Dirac operators on smooth loop space]]:
 
@@ -64,22 +62,49 @@ Tentative interpretation as [[indices]] of [[Dirac-Ramond operators]] as would-b
 
 * [[Orlando Alvarez]], [[Paul Windey]], _Analytic index for a family of Dirac-Ramond operators_, Proc. Natl. Acad. Sci. USA, 107(11):4845&#8211;4850, 2010 ([arXiv:0904.4748](https://arxiv.org/abs/0904.4748))
 
-
-#### Via functorial QFT
-
-Tentative formulation via [[functorial quantum field theory]] ([[(2,1)-dimensional Euclidean field theories and tmf]]):
-
-* {#StolzTeichner11} [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS 2011 ([arXiv:1108.0189](https://arxiv.org/abs/1108.0189))
-
-#### Via conformal nets
+##### Via conformal nets
 
 Tentative formulation via [[conformal nets]]:
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:1103.4187](https://arxiv.org/abs/1103.4187), [doi:10.1090/pspum/083](https://doi.org/10.1090/pspum/083))
 
 
-#### Occurrences in string theory
 
+#### Conjectural interpretation in tmf-cohomology
+ {#InterpretationInTMFCohomology}
+
+The resulting suggestion that, roughly, deformation-classes ([[concordance]] classes) of [[2d SCFTs]] with [[target space]] $X$ are the [[Whitehead-generalized cohomology|generalized cohomology]] of $X$ with [[coefficients]] in the [[spectrum]] of [[topological modular forms]] ([[tmf]]):
+
+* {#StolzTeichner11} [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS 2011 ([arXiv:1108.0189](https://arxiv.org/abs/1108.0189))
+
+and the more explicit suggestion that, under this identification, the [[Chern-Dold character]] from [[tmf]] to [[modular forms]], sends a [[2d SCFT]] to its [[partition function]]/[[elliptic genus]]/supersymmetric index:
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], Section 5 of: *Holomorphic SCFTs with small index*, Canadian Journal of Mathematics ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589), [doi:10.4153/S0008414X2100002X](https://doi.org/10.4153/S0008414X2100002X))
+
+This perspective is also picked up in [Gukov, Pei, Putrov & Vafa 18](#GukovPeiPutrovVafa18).
+ 
+Discussion of the [[2d SCFTs]] (namely [[supersymmetry|supersymmetric]] [[SU(2)]]-[[WZW-models]]) conjecturally corresponding, under this conjectural identification, to 
+
+the elements of 
+$\mathbb{Z}/24$ 
+[$\simeq$](tmf#BoardmanHomomorphismInTmfIs6Connected) 
+$
+  tmf^{-3}(\ast)
+    =
+  \pi_3(tmf) 
+$ 
+[$\simeq$](tmf#BoardmanHomomorphismInTmfIs6Connected) 
+$\pi_3(\mathbb{S})$ 
+(the [[third stable homotopy group of spheres]]):
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], [[Edward Witten]], p. 17 of: *A Note On Some Minimally Supersymmetric Models In Two Dimensions*, ([arXiv:1902.10249](https://arxiv.org/abs/1902.10249)) in S. Novikov et al. *Integrability, Quantization, and Geometry: II. Quantum Theories and Algebraic Geometry*, Proc. Symposia Pure Math., 103(2), 2021 ([ISBN: 978-1-4704-5592-7](https://bookstore.ams.org/pspum-103-2))
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Mock modularity and a secondary elliptic genus* ([arXiv:1904.05788](https://arxiv.org/abs/1904.05788))
+
+* [[Theo Johnson-Freyd]], *Topological Mathieu Moonshine* ([arXiv:2006.02922](https://arxiv.org/abs/2006.02922))
+
+
+#### Occurrences in string theory
 
 ##### H-string elliptic genus
 {#ReferencesEllipticGeneraAsPartitionFunctionsOfHStrings}
@@ -120,7 +145,7 @@ Further discussion in:
 
 * Murad Alim, Babak Haghighat, Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, _Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes_ ([arXiv:1012.1608](https://arxiv.org/abs/1012.1608))
 
-* [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884), [spire:1704312](https://inspirehep.net/literature/1704312))
+* {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], _4-manifolds and topological modular forms_ ([arXiv:1811.07884](https://arxiv.org/abs/1811.07884), [spire:1704312](https://inspirehep.net/literature/1704312))
 
 
 ##### M-string elliptic genus
