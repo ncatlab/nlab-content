@@ -91,7 +91,7 @@ The creating limits part also comes from the fact that the forgetful functor is 
 
 +-- {: .num_prop}
 ###### Proposition
-The inclusion $i_G: G Set \to G^\delta Set$ creates all finite limits and all colimits.
+The inclusion $i_G: G Set \to G^\delta Set$ [[created limit|creates]] all [[finite limits]] and all [[colimits]].
 =--
 
 +-- {: .proof}
@@ -106,39 +106,49 @@ The category $G Set$ has all [[finite limits]] and arbitrary [[colimits]].
 
 +-- {: .num_cor}
 ###### Corollary
-The adjunction $i_G \dashv r_G$ is a geometric morphism.
+
+The [[adjunction]] $i_G \dashv r_G$ is a [[geometric morphism]].
+
 =--
 
 +-- {: .num_cor}
 ###### Corollary
-A map in $G Set$ is a [[monomorphism]] if and only if it is injective; [[epimorphism]] if and only if it is surjective.
+
+A map in $G Set$ is a [[monomorphism]] if and only if it is [[injective function|injective]]; [[epimorphism]] if and only if it is [[surjective function|surjective]].
+
 =--
 
 +-- {: .proof}
 ###### Proof
-A map is monic if and only if its kernel pair is an isomoprhism, and similarly for epic, and the forgetful functor to $Set$ preserves all finite limits and colimits.
+
+A map is monic if and only if its [[kernel pair]] is an [[isomorphism]], and similarly for epic, and the forgetful functor to $Set$ preserves all finite limits and colimits.
+
 =--
 
 +-- {: .num_cor}
 ###### Corollary
-The [[subobject classifier]] of $G Set$ is $\Omega = 2$, the two-point set
-with the trivial $G$-action.
+
+The [[subobject classifier]] of $G Set$ is $\Omega = 2$, the two-point set with the [[trivial action|trivial]] $G$-action.
+
 =--
 
 +-- {: .num_prop}
 ###### Proposition
+
 The [[exponential object]] in $G^\delta Set$ is defined by $Y^X = \{\text{functions}\;X \to Y\}$, with the $G^\delta$-action given by
 $$
   g \cdot f = g \circ f \circ g^{-1}.
 $$
-The exponential object $Y^X$ in $G Set$ is given by the subset of the functions $X \to Y$ that have an open stabilizer, ie.
+The exponential object $Y^X$ in $G Set$ is given by the subset of the functions $X \to Y$ that have an open [[stabilizer subgroup|stabilizer]], ie.
 $$
   Y^X = r_G(i_G(Y)^{i_G(X)}).
 $$
+
 =--
 
 +-- {: .proof}
 ###### Proof
+
 Let $A, X, Y$ be $G^\delta$-sets. Given a map $f:A \times X \to Y$, we obtain $\hat{f}:A \to Y^X$ by
 $$
   \hat{f}(a)(x) = f(a, x).
