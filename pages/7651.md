@@ -128,6 +128,8 @@ vector fields and flows)
 
 * [[integrand]]
 
+* [[closed midpoint algebra]]
+
 * [[Lebesgue integration]]
 
 * [[Lebesgue space]]
