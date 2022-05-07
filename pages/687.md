@@ -57,3 +57,7 @@ category: category
 
 [[!redirects Gpd]]
 [[!redirects category of groupoids]]
+
+[[!redirects Groupoids]]
+
+
