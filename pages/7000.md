@@ -3,9 +3,9 @@
 
 * [[discrete space]], [[discrete ∞-groupoid]]
 
-**[[codiscrete objects]]**
+**[[codiscrete objects]]** ([[chaos]])
 
-* [[codiscrete space]]
+* [[codiscrete space]], [[codiscrete groupoid]]
 
 **[[concrete objects]]**
 
