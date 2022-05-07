@@ -140,6 +140,8 @@ The Schur-Weyl measure is the [[pushforward measure]] of the probability distrib
 
 * [[asymptotic representation theory]]
 
+* [[Robinson-Schensted-Knuth algorithm]]
+
 
 ## References
 
