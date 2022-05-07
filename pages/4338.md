@@ -31,7 +31,7 @@ The non-zero-divisors of any rig $R$ form a [[monoid]] under multiplication, whi
 
 ## Generalisations
 
-If $I$ is any [[ideal]] of $R$, then we can generalise from a zero-divisor to an $I$-divisor.  In a way, this is nothing new; $x$ is an $I$-divisor in $R$ if and only if $[x]$ is a zero-divisor in $R/I$.  Ultimately, this is related to the notion of [[divisor]] in [[algebraic geometry]].
+If $I$ is any [[ideal]] of $R$, then we can generalise from a zero-divisor to an $I$-[[divisor (ring theory)|divisor]].  In a way, this is nothing new; $x$ is an $I$-divisor in $R$ if and only if $[x]$ is a zero-divisor in $R/I$.  Ultimately, this is related to the notion of [[divisor]] in [[algebraic geometry]].
 
 
 [[!redirects zero-divisor]]
