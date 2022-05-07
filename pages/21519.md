@@ -19,7 +19,17 @@ A _global quotient orbifold_ is an [[orbifold]] that is represented by a [[G-spa
 
 The [[orbifold cohomology]] of global quotient orbifolds is a version of [[equivariant cohomology]] of $X$.
 
-The orbifolds that are global quotients of [[smooth manifolds]] by the action of a [[discrete group]] are called _[[good orbifolds]]_, or _[[very good orbifolds]]_ if the group is even [[finite group|finite]]. All others are called _bad orbifolds_ ([Thurston 92, Ch. 13, Def. 13.2.3](good+orbifold#Thurston92)).
+{#PresentableAndGoodOrbifolds} The orbifolds that are [[Morita equivalence|Morita-]][[equivalence in an (infinity,1)-category|equivalently]] global quotients of [[smooth manifolds]] by... 
+
+1. ... an [[group action|action]] of a [[Lie group]] are also called *[[presentable orbifolds]]*;
+
+1. ...the action of a [[discrete group]] are called _[[good orbifolds]]_, 
+
+1. ... the action of a [[finite groups]] are called _[[very good orbifolds]]_ .
+
+Non-good orbifolds are also called _bad orbifolds_ ([Thurston 92, Ch. 13, Def. 13.2.3](good+orbifold#Thurston92)). It is [[conjecture|conjectured]] ([Adem, Leida & Ruan 2007, Conj. 1.55](presentable+orbifold#AdemLeidaRuan07)) that *every* orbifold is [[presentable orbifold|presentable]].
+
+
 
 
 ## Related concepts
