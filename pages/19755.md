@@ -135,7 +135,7 @@ $$1 \underset{\sigma}{\to} 1 \qquad
 
 We can express this more compactly by writing $\sigma$ in "cycle notation", as the composition $\sigma = (1)(2\,4\,6)(3\,5)$, or $\sigma = (2\,4\,6)(3\,5)$ leaving implicit the action of the identity (1).
 
- 
+
 Even in the simple example of $S_3$ one can see some patterns. 
 
 * $(12)$ clearly has order 2, whilst $(123)$ has square $(132)$, which is also the inverse of $(123)$, and has order 3.
@@ -160,12 +160,6 @@ $$\sigma_1\sigma_2\sigma_1= \sigma_2\sigma_1\sigma_2$$
 
 which relates this symmetric group to the [[braid group]], **Br 3**, and to the [[trefoil knot|trefoil group]].  It is clear that there is an epimorphism $S_3\to Br_3$ obtained by making the two braid generators become the transpositions. 
 
-
-### Relation to the field with one element
-
-One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
-
-See [there](field+with+one+element#AlgebraOverF1).
 
 
 ### Conjugacy classes
@@ -248,7 +242,16 @@ $\,$
 
 $\,$
 
-$\,$
+
+### Representation theory
+
+See at *[[representation theory of the symmetric group]]*.
+
+### Relation to the field with one element
+
+One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
+
+See [there](field+with+one+element#AlgebraOverF1).
 
 
 ### Classifying space and universal Thom space
