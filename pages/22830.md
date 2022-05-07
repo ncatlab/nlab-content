@@ -77,6 +77,8 @@ From this one may extract component models by invoking the right [[Quillen adjun
 
 * [[Huan's inertia orbifold]]
 
+* [[double dimensional reduction]]
+
 ## References
 
 Groupoid models that plausibly represent cyclic loop stacks are discussed (under the notation "$Loops^{ext}$") in 
