@@ -965,7 +965,7 @@ The sign of the eigenvalue (eq:EigenvectorOfSignDistribution) is as follows:
 Since Example \ref{HomogeneousDistributionIsEigenvalue} and Prop. \ref{SignatureDistributionIsEigenvector} rely on $1(\sigma)$
 and $sgn(\sigma)$ being multiplicative [[group characters]], and the only multiplicative characters of a symmetric group are these two, the trivial one and the [[sign representation|sign]], the other eigenvectors must be found by other means.
 
-([Kaski](#Kaski), Corollary 5.4) gives all eigenvectors with eigenvalues $\frac{1}{d_k} \sum_{g: G} \alpha(\sigma) \chi_k(\sigma)$, where $\chi_k$ is any character of $S_n$ and $d_k$ is the dimension of the associated representation, the exponentiated Cayley distance $\alpha(\sigma) = e^{-\beta \cdot d(\sigma, e)}$ being a class function. 
+([Kaski](#Kaski), Corollary 5.4) gives all eigenvectors with eigenvalues $\frac{1}{d_k} \sum_{\sigma: Sym(n)} \alpha(\sigma) \chi_k(\sigma)$, where $\chi_k$ is any character of $S_n$ and $d_k$ is the dimension of the associated representation, the exponentiated Cayley distance $\alpha(\sigma) = e^{-\beta \cdot d(\sigma, e)}$ being a class function. 
 
 \end{remark}
 
