@@ -38,6 +38,12 @@ The submagma of every power-associative [[invertible magma]] $M$ [[generator|gen
 
 Every [[associative algebra]] or [[semigroup]] is of course power-associative.  More generally, every [[alternative algebra]] is also power-associative.  Every [[Jordan algebra]], although not necessarily alternative, is power-associative.  Every [[Cayley–Dickson algebra]], even beyond the [[octonions]] (the last alternative one), is power-associative.
 
+## See also
+
+* [[polynomial function]]
+
+[[!redirects power function]]
+[[!redirects power functions]]
 
 [[!redirects power-associative algebra]]
 [[!redirects power-associative algebras]]
