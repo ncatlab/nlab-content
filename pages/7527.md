@@ -9,4 +9,6 @@ Not to be confused with [[Dana Scott]].
 category: people
 
 [[!redirects Philip Scott]]
+
+[[!redirects Philip J. Scott]] 
 [[!redirects Phil Scott]]
