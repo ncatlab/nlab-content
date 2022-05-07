@@ -33,7 +33,7 @@ Write
   dgcAlgebras^{\geq 0}_{\mathbb{R}}
 \]
 
-for the [[simplicial object]] in [[dgc-algebras]] given by [[polynomial differential forms on simplices]] over the [[real numbers]] (see also at [[fundamental theorem of dgc-algebraic homotopy theory]] -- [change of scalars](fundamental+theorem+of+dg-algebraic+rational+homotopy+theory#ChangeOfScalars)).
+for the [[simplicial object]] in [[dgc-algebras]] given by [[polynomial differential forms on simplices]] over the [[real numbers]] (see also at [[fundamental theorem of dgc-algebraic rational homotopy theory]] -- [change of scalars](fundamental+theorem+of+dg-algebraic+rational+homotopy+theory#ChangeOfScalars)).
 
 
 +-- {: .num_defn #PLdeRhamComplex} 
