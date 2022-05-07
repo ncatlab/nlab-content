@@ -411,10 +411,10 @@ That not only every sketchable category is [[accessible category|accessible]] bu
 
 * Christian Lair, _Cat&#233;gories modelables et cat&#233;gories esquissables_, [Diagrammes (1981)](http://www.numdam.org/article/DIA_1981__6__A5_0.pdf).
 
-The category of sketches itself was studied as a semantics for type theory in:
+The category of sketches itself was studied as a [[categorical semantics]] for [[type theory]] in:
 
-* [[John W. Gray]], _The Category of Sketches as a Model for Algebraic Semantics_, Categories in Computer Science and Logic: Proceedings of the AMS-IMS-SIAM Joint Summer Research Conference Held June 14-20, 1987 with Support from the National Science Foundation. Vol. 92. American Mathematical Soc., 1989.
-{#Gray}
+* {#Gray} [[John W. Gray]], _The Category of Sketches as a Model for Algebraic Semantics_, Categories in Computer Science and Logic: Proceedings of the AMS-IMS-SIAM Joint Summer Research Conference Held June 14-20, 1987 with Support from the National Science Foundation. Vol. 92. American Mathematical Soc., 1989.
+
 
 [[!redirects sketches]]
 [[!redirects finite product sketch]]
