@@ -49,14 +49,14 @@ and whose face- and degeneracy maps are, similarly, the image under the Cartesia
 
 \[
   \label{StructureMapsOfProductSimpliciaSet}
-  d^{K \times K}_i(x,y) 
+  d^{K \times L}_i(x,y) 
   \;=\; 
   \big(
     d^K_i(x), \, d^L_i(y)
   \big)
   \,,
   \;\;\;\;\;
-  s^{K \times K}_i(x,y) 
+  s^{K \times L}_i(x,y) 
   \;=\; 
   \big(
     s^K_i(x), \, s^L_i(y)
