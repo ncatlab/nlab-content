@@ -34,7 +34,7 @@ A _group object_ in an [[(∞,1)-category]] generalizes and unifies two familiar
 
 * it generalizes the notion of _[[equivalence relation]]_ -- or rather the [[internalization|internal]] notion of _[[congruence]]_  -- from [[category theory]] to [[(∞,1)-category theory]].
 
-Of particular relevance are such group objects that define [[quotient object|effective quotients]]
+Of particular relevance are such group objects that define [[groupoid objects in an (∞,1)-topos are effective|effective quotients]]
 
 * these are [[delooping|deloopable]];
 
@@ -55,7 +55,7 @@ $$
  \cdots C_2 \stackrel{\to}{\stackrel{\to}{\to}} C_1 \stackrel{\to}{\to} C_0
 $$
 
-being **effective** means that it is the [[Cech nerve]] 
+being **[[groupoid objects in an (∞,1)-topos are effective|effective]]** means that it is the [[Cech nerve]] 
 
 $$
  \cdots 
@@ -557,6 +557,8 @@ This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
 ## Related concepts
 
 * [[∞-group]]
+
+* [[groupoid objects in an (∞,1)-topos are effective]]
 
 * [[monoid]]. [[monoid object]], [[monoid object in an (∞,1)-category]]
 
