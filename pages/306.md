@@ -20,7 +20,7 @@
 
 ## Idea
 
-Subsets $A$ of a set $X$ correspond precisely to maps from $X$ to the set of truth values of classical logic via their [[characteristic function]] $\chi_A:X\to \{0,1\}$ . The concept of a **subobject classifier** generalizes this situation to [[toposes]] other than [[Set]]:
+Subsets $A$ of a set $X$ correspond precisely to maps from $X$ to the set of truth values of classical logic via their [[characteristic function]] $\chi_A:X\to \{0,1\}$. The concept of a **subobject classifier** generalizes this situation to [[toposes]] other than [[Set]]:
 
 A _subobject classifier_ in a [[topos]] is a morphism 
 $true : * \to \Omega$ such that every [[monomorphism]] $A \hookrightarrow B$ in the topos (hence every [[subobject]]) is the [[pullback]] of this morphism along a unique morphism (the [[characteristic morphism]] of $A$) $B \to \Omega$.
