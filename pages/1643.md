@@ -34,6 +34,9 @@ More generally, in any [[multicategory]] $M$, a **magma object** or **magma in $
 
 The [[Eckmann-Hilton argument]] holds for unital magma structures: two compatible ones on a set must be equal, associative and commutative.
 
+## Related concepts
+
+* [[magmoid]]
 
 
 ## Literature
