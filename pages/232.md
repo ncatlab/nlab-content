@@ -219,6 +219,7 @@ Internalization and enrichment may also be understood as the result of interpret
 See also at [internal category](internal+category#InternalAndEnrichedCategories).
 
 ## Examples
+ {#Examples}
 
 * A category enriched in [[Set]] is a [[locally small category]].
 
@@ -233,6 +234,8 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
   Again beware: the term 'topological category' is perhaps more commonly used to mean a category [[internalization|internal to]] Top.  People also use it for _[[topological concrete category]]_. And again: a category enriched in Top is a special case of one internal to Top, namely one where the space of objects is discrete.
 
 * A category enriched in [[Cat]] is a [[strict 2-category]].
+
+* A category enriched in [[Grpd]] is a [[strict (2,1)-category]].
 
 * A [[strict n-category]] is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|strict omega-categories]].
 
