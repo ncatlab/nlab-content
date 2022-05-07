@@ -78,6 +78,7 @@ $$
   \;\;=\;\;
   q^{ \sum_i i \cdot \lambda_i }
     \cdot
+  \!\!\!\!\!\!\!
   \underset{
     { i \in \{1, \cdots, rows(\lambda)\} }
     \atop
@@ -106,6 +107,7 @@ $$
   \;\;=\;\;
   q^{ \sum_i i \cdot \lambda_i }
     \cdot
+  \!\!\!\!\!\!\!
   \underset{
     { i \in \{1, \cdots, rows(\lambda)\} }
     \atop
