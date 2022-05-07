@@ -115,7 +115,6 @@ Discussion of the [[moduli space of monopoles]] for [[SU(2)]]-[[Yang-Mills theor
 * {#Segal79} [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. Volume 143 (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
 
 
-
 [[!include D-brane charge quantization in topological K-theory -- references]]
 
 
