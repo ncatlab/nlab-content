@@ -35,6 +35,8 @@ On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] 
 
 On [[superstring field theory]], [[supergeometry]], [[integration over supermanifolds]] of [[differential forms on supermanifolds]] and on [[picture changing operators]]:
 
+* [[Pietro Grassi]], *Integral Forms and Applications*, Sestri Levante 2015 ([pdf](https://agenda.infn.it/event/8823/attachments/55101/64989/Grassi-SL.pdf), [[GrassiIntegralForms2015.pdf:file]])
+
 * {#CatenacciGrassiNoja18} [[Roberto Catenacci]], [[Pietro Grassi]], [[Simone Noja]], _Superstring Field Theory, Superforms and Supergeometry_, Journal of Geometry and Physics Volume 148, February 2020, 103559 ([arXiv:1807.09563](https://arxiv.org/abs/1807.09563))
 
 On [[integration over supermanifolds]] and [[picture changing operators]] in view of [[super Chern-Simons theory]]:
