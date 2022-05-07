@@ -99,7 +99,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The analogous defintion for more than two arguments yields __multilinear maps__. There is a [[multicategory]] of abelian groups and multilinear maps between them; the bilinear maps are the [[binary morphisms]], and the multilinear maps are the [[multimorphisms]]. 
+The analogous definition for more than two arguments yields __multilinear maps__. There is a [[multicategory]] of abelian groups and multilinear maps between them; the bilinear maps are the [[binary morphisms]], and the multilinear maps are the [[multimorphisms]]. 
 
 =--
 
