@@ -388,10 +388,12 @@ $$
 
 * {#Gleason50} [[Andrew Gleason]], _Spaces with a compact Lie group of transformations_, Proc. of A.M.S 1, (1950), 35 - 43 ([jstor:2032430](https://www.jstor.org/stable/2032430), [doi:10.2307/2032430](https://doi.org/10.2307/2032430))
 
-* {#Steenrod51} [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951.
+* {#Steenrod51} [[Norman Steenrod]], Section I.7 of: _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951.
 
 
 * {#Mostert53} [[Paul Mostert]], _Local Cross Sections in Locally Compact Groups_, Proceedings of the American Mathematical Society, Vol. 4, No. 4 (Aug., 1953), pp.645-649 ([jstor:2032540](https://www.jstor.org/stable/2032540), [doi:10.2307/2032540](https://doi.org/10.2307/2032540))
+
+* {#Bredon72} [[Glen Bredon]], Section I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
 * {#Cohen} R. Cohen, _Topology of fiber bundles_, Lecture notes ([pdf](http://math.stanford.edu/~ralph/fiber.pdf))
