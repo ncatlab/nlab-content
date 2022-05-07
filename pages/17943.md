@@ -167,6 +167,16 @@ This establishes an equivalence as required. In fact this is an [[adjoint equiva
 
 * [[fundamental group of the circle is the integers]]
 
+## In homotopy type theory
+
+In [[homotopy type theory]], the fundamental theorem of covering spaces is really just a special case of the universal property of $1$-truncation. 
+
+Indeed, in HoTT a covering space over a type $X$ is usually defined as a dependent type $C: X \to \mathsf{Sets}$. We can get the more familiar bundle definition of a covering space by taking the [[dependent sum type]] $\sum_{x : X} C(x)$, which comes equipped with a canonical projection $\operatorname{proj}_1: \sum_{x : X} C(x) \to X$.
+
+Since $\mathsf{Sets}$ is a $1$-type, then by the universal property of 1-truncation we have an equivalence:
+$$(\Vert X \Vert_1 \to \mathsf{Sets}) \simeq (X \to \mathsf{Sets}).$$
+The 1-truncation $\Vert X \Vert_1$ is the [[fundamental groupoid]] of $X$, so this really is the fundamental theorem of covering spaces.
+
 ## References
 
 Lecture notes include
