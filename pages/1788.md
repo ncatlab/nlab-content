@@ -17,25 +17,100 @@ If this is an $\infty$-[[free action]] in that all its higher [[shear maps]] are
   X^{\times_{n+1}}
 \end{tikzcd}
 
-then the [[homotopy quotient]] is [[0-truncated]], in that for every $U \,\in\, \mathbf{H}$ and every $\infty$-group $K$ (sufficient to consider those in the image of $Grpd_\infty \xrightarrow{ LConst } \mathbf{H}$)
-factors through the [[projection]] $U \times \mathbf{B}K \xrightarrow{ pr_2 } U$:
+then the [[homotopy quotient]] 
+
+$$
+  X 
+    \!\sslash\! G 
+   \,=\, \underset{\underset{[n] \in \Delta^{op}}{\longrightarrow}}{\lim} X \times G^{\times_n}
+  \;\;\;
+  \in
+  \;
+  \mathbf{H}
+$$
+
+is equivalent to the plain [[quotient]], namely the [[coequalizer]]
+
+$$
+  \tau_0(X) 
+    /
+  \tau_0(G) 
+   \,=\, 
+  coeq
+  \big(
+    \tau_0(X) \times \tau_0(G)
+    \overset{\phantom{---}}{\rightrightarrows}
+    \tau_0(X)
+  \big)
+  \;\;\;
+  \in
+  \;
+  \mathbf{H}_0
+$$
+
+
+of [[0-truncated]] objects 
+
+$$
+  \mathbf{H}_{0} 
+    \underoverset
+      {\underset{i_0}{\hookrightarrow}}
+      {\overset{\tau_0}{\leftarrow}}
+      {\;\; \bot \;\;}
+  \mathbf{H}
+$$
+
+in that
+
+$$
+  X \!\sslash\! G
+  \;\;
+  \simeq
+  \;\;
+  i_0\big( \tau_0(X)/\tau_0(G) \big)
+  \;\;\;
+  \in
+  \;
+  \mathbf{H}_0
+  \xhookrightarrow{i_0}
+  \mathbf{H}
+  \,.
+$$
+
+In particular, if both $X$ and $G$ are already [[0-truncated]], then the action of $G$ on $X$ is $\infty$-free iff it is free in the ordinary sense, and then the homotopy quotient coincides with their ordinary quotient.
+\end{proposition}
+
+\begin{proof}
+First we show that $X \!\sslash\! G$ is [[0-truncated]], in that for every $U \,\in\, \mathbf{H}$ and every [[infinity-group|
+$\infty$-group]] $K$ in the [[inverse image]] $Grpd_\infty \xrightarrow{ LConst } \mathbf{H}$ of the [[terminal geometric morphism]],
+every morphism into it out of $U \times \mathbf{B}K$  factors through the [[projection]] onto $U$:
 
 \begin{tikzcd}
-  \mathbf{B}K
-  \ar[rr]
-  \ar[d]
+  U \times \mathbf{B}K
+  \ar[rr, "\forall"]
+  \ar[d, ->>, "\mathrm{pr}_1"]
   &&
   X /\!\!/ G
+  \ar[d]
   \\
+  U
+  \ar[urr, dashed, "\exists"]
+  \ar[rr, -, shift left=1pt]
+  \ar[rr, -, shift right=1pt]
+  &&
   \ast
-  \ar[urr, dashed]
 \end{tikzcd}
-\end{proposition}
-\begin{proof}
-Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the [[terminal object]] $\ast$ and then form the following diagram of [[atlas|atlases]] and their [[Cech nerves]] over it:
-  \begin{tikzcd}
-    K \times K
-    \ar[dd, shift left=12pt]
+
+Here $\ast$ denotes the [[terminal object]], which we adjoin, without changing the situation, to bring out the form of the [[lifting problem]].
+
+The left morphism above is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] as shown, hence is [[(-1)-connected]], since the [[underlying]] [[infinity-groupoid|$\infty$-groupoid]] $K \in Grpd_\infty$ of every $\infty$-group is [[inhabited object|inhabited]] and since $LConst$, being an [[inverse image]]-functor, is a [[lex functor|lex]] [[left adjoint]] and hence preserves [[Cech nerves]] and [[(infinity,1)-colimits|$\infty$-colimits]] and hence [[effective epimorphism in an (infinity,1)-category|effective epimorphisms]].
+
+Notice, therefore, that *if* the right vertical morphism $X \!\sslash\! G \xrightarrow{\;\;} \ast$ were [[(-1)-truncated]] (hence if $X \!\sslash\! G$ were [[subterminal object|subterminal]]), then the [[(n-connected, n-truncated) factorization system]] would imply the required [[lift]]. While this would-be argument fails, as, $X \!\sslash\! G$ is in general far from being subterminal, the following argument observes that with a suitable choice of [[atlases]] for all four [[infinity-stack|$\infty$-stacks]], their [[groupoid object in an (infinity,1)-category|groupoid objects]] do form a [[lifting problem]] to which the [[(n-connected, n-truncated) factorization system]] does apply:
+
+So consider extending the above square diagram to a square of [[augmented simplicial object|augmented]] [[simplicial objects]] by considering  [[atlas|atlases]] and their [[Cech nerves]], as shown by the following solid arrows:
+\begin{tikzcd}
+    U \times K \times K
+    \ar[dd, shift left=12pt, start anchor={[yshift=-4pt]}]
     \ar[from=dd, shift left=6pt]
     \ar[dd]
     \ar[from=dd, shift right=6pt]
@@ -52,7 +127,7 @@ Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the
     \ar[dr, hook]
     \\
     & 
-    \ast
+    U
     \ar[rr, crossing over]
     \ar[ur, dashed]
     &&
@@ -63,7 +138,7 @@ Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the
     \ar[from=dd, shift right=6pt]
     \ar[dd, shift right=12pt]
     \\
-    K
+    U \times K
     \ar[rr]
     \ar[dr, ->>]
     \ar[dd, shift left=6pt]
@@ -77,7 +152,7 @@ Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the
     \ar[dd, shift right=6pt]
     \\
     & 
-    \ast
+    U
     \ar[rr, crossing over]
     \ar[from=uu, shift left=12pt, crossing over, end anchor={[yshift=7pt]}]
     \ar[uu, shift left=6pt, crossing over, start anchor={[yshift=3pt]}]
@@ -91,7 +166,7 @@ Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the
     \ar[from=dd]
     \ar[dd, shift right=6pt]
     \\
-    \ast
+    U
     \ar[rr]
     \ar[dd, ->>]
     \ar[dr, -, shift left=1pt]
@@ -103,7 +178,7 @@ Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the
     \ar[dr, -, shift right=1pt]
     \\
     &
-    \ast 
+    U
     \ar[rr, crossing over]
     \ar[from=uu, shift left=6pt, crossing over]
     \ar[uu, crossing over]
@@ -113,21 +188,25 @@ Given a morphism $\mathbf{B}K \to X \sslash G$, regard it as a morphism over the
     X
     \ar[dd, ->>]
     \\
-    \mathbf{B}K
+    \mathbf{B}K \times U
     \ar[rr]
     \ar[dr]
-    &&
+       &&
     X /\!\!/ G
     \ar[dr]
     \\
     & 
-    \ast
+    U
     \ar[rr]
     \ar[from=uu, ->>, crossing over]
     \ar[ur, dashed]
     &&
     \ast
-  \end{tikzcd}  
-By the assumptions on $K$ and on $G \curvearrowright X$ all the upper horizontal squares have a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism on the right. Since connected/truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves]] are detected objectwise,  this means that the entire square diagram of [[Cech nerve]] [[simplicial objects]] has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right. Therefore, the [[(n-connected, n-truncated) factorization system]] there exist compatible dashed [[lifts]] filling all the upper squares. But then passaged back to the [[(infinity,1)-colimits]] and using that [[groupoid objects in an (infinity,1)-topos are effective|groupoid objects in an $\infty$-topos are effective]], shows that there is a dashed [[lift]] in the bottom square. This is the claimed factorization through the point.
+\end{tikzcd}
+By the assumptions on $K$ and on $G \curvearrowright X$ all the upper horizontal squares have a [[(-1)-connected]] morphism $\twoheadrightarrow$ on the left and a [[(-1)-truncated]] morphism $\hookrightarrow$ on the right. Since $n$-connected/$n$-truncated morphisms for [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] (here: of [[simplicial objects]] in $\mathbf{H}$) are detected objectwise,  this means that the entire square diagram of [[Cech nerve]] [[simplicial objects]] has a [[(-1)-connected]] morphism on the left and a [[(-1)-truncated]] morphism in the right. 
+
+Therefore, the [[(n-connected, n-truncated) factorization system]] there exist compatible dashed [[lifts]] filling all the upper squares. But then passag back to the [[(infinity,1)-colimits]] and using that [[groupoid objects in an (infinity,1)-topos are effective|groupoid objects in an $\infty$-topos are effective]], shows that there is a dashed [[lift]] in the bottom square. This is the claimed factorization which shows that $X \!\sslash\! G$ is [[0-truncated]].
+
+(...)
 \end{proof}
 
