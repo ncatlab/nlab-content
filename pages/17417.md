@@ -24,10 +24,36 @@
 An [[action]]
 
 $$
-  * \;\colon\; G \times X \to X
+  (-)\cdot(-) \;\colon\; G \times X \to X
 $$
 
-of a [[group]] $G$ on a [[set]] $X$ is called _regular_ if it is both [[transitive action|transitive]] and [[free action|free]], that is, if for any pair of elements $x,y \in X$, there is _exactly one_ group element $g \in G$ such that $g * x = y$.
+of a [[group]] $G$ on an [[inhabited set]] $X$ is called _regular_ if it is both [[transitive action|transitive]] and [[free action|free]].
+
+In terms of [[elements]] this means that if for any pair of elements $x,y \in X$, there is _exactly one_ group element $g \in G$ such that $g \cdot x = y$.
+
+More abstractly this means that the [[shear map]] 
+
+$$
+  \array{
+    G \times X
+    &
+    \overset
+      { (pr_2, \cdot) }
+      {\longrightarrow}&
+    X \times X
+    \\
+    (g, x) 
+    &
+    \mapsto
+    & 
+    \big( x, g \cdot x \big)
+    \,.
+  }
+$$
+
+is an [[isomorphism]].
+
+In this case $X$ is also called a *$G$-[[torsor]]*. If the condition is dropped that $X$ be [[inhabited object|inhabited]] it is still called a *[[pseudo-torsor]]*.
 
 ## Properties
 
