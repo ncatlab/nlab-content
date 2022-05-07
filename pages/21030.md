@@ -158,6 +158,5 @@ Using the [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] to the 
 
 
 
-
 [[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
 
