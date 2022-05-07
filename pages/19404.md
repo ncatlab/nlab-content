@@ -137,7 +137,7 @@ In the following, let
 
    1. $G$ has a [[G-manifold|smooth]] [[free action]] on the [[d-sphere]] for some $d \in \mathbb{N}$ and for some [[smooth structure]] (possibly [[exotic smooth structure|exotic]]);
 
-   1. for each $n \in \mathbb{N}$ there exists $d \geq  n + 2$ such that $G$ has a [[G-manifold|smooth]] [[free action]] on the [[n-sphere]] for some [[smooth structure]] (possibly [[exotic smooth structure|exotic]]):
+   1. for each $n \in \mathbb{N}$ there exists $d \geq  n + 2$ such that $G$ has a [[G-manifold|smooth]] [[free action]] on the [[d-sphere]] equipped with some [[smooth structure]] (possibly [[exotic smooth structure|exotic]]):
 
       \[
         \label{ExistenceOfHighDimensionalSmoothFreeGActionsOnSpheres}
