@@ -124,6 +124,8 @@ The [[homotopy groups]] of $SO(4)$ in [[low-dimensional topology|low degrees]] a
 
 ## References
 
+* {#Berger87} [[Marcel Berger]], Section 8.9.8 of: *Geometry I*, Springer 1987 ([doi:10.1007/978-3-540-93815-6](https://doi.org/10.1007/978-3-540-93815-6))
+
 
 * Jason Hanson, _Rotations in three, four, and five dimensions_ ([arXiv:1103.5263](https://arxiv.org/abs/1103.5263))
 
