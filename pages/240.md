@@ -90,9 +90,9 @@ These are analogues, for [[disjunction]] and [[existential quantification]], of 
 Incidentally, a well-pointed topos in a constructive metalogic is still "two-valued" in the sense that a global element of the subobject classifier is false if and only if it is not true.  However, it is not two-valued in the (classically equivalent) sense that every global element of the subobject classifier is either true or false.
 
 
-### In a pretopos
+### In a pretopos or coherent category
 
-If $E$ is only a [[pretopos]], we have to strengthen the condition that 1 is a generator to the condition that 1 is a [[separator|extremal generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a strong generator.
+If $E$ is only a [[pretopos]] or a [[coherent category]], we have to strengthen the condition that 1 is a generator to the condition that 1 is a [[separator|extremal generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a extremal generator.
 
 This strengthening is important in [[predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course, the same applies whenever one is studying an arbitrary pretopos, not just a predicative version of $Set$.
 
