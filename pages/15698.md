@@ -1,4 +1,4 @@
-
+Valter Moretti is a mathematical physicists who deals with several mathematical aspects of quantum and quantum-relativistic theories.
 
 * [webpage](https://moretti.maths.unitn.it/home.html)
 
