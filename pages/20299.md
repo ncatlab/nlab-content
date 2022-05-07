@@ -16,6 +16,11 @@ On unstable [[cohomology operations]] (hence: in [[non-abelian cohomology]]):
 
 On [[Hopf rings]] in [[algebraic topology]]:
 
+* [[Douglas Ravenel]], [[W. Stephen Wilson]], _The Hopf ring for complex cobordism_,  Bull. Amer. Math. Soc. 80 (6) 1185 - 1189, November 1974 (<a href="https://doi.org/10.1016/0022-4049(77)90070-6">doi:10.1016/0022-4049(77)90070-6</a>, [euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-80/issue-6/The-Hopf-ring-for-complex-cobordism/bams/1183536024.full?tab=ArticleLink), [pdf](https://people.math.rochester.edu/faculty/doug/mypapers/hopfring.pdf))
+
+  > (on [[MU]])
+
+
 * [[W. Stephen Wilson]], _Hopf rings in algebraic topology_, Expositiones Mathematicae, 18:369–388, 2000 ([pdf](https://math.jhu.edu/~wsw/papers2/math/39-hopf-rings-expo-2000.pdf))
 
 
