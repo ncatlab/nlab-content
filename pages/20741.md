@@ -75,6 +75,12 @@ Quantum neural networks (in [[quantum computation]] for [[quantum machine learni
 
 * Iris Cong, Soonwon Choi & Mikhail D. Lukin, *Quantum convolutional neural networks*, Nature Physics volume 15, pages 1273–1278 (2019)  ([doi:10.1038/s41567-019-0648-8](https://doi.org/10.1038/s41567-019-0648-8))
 
+* {#MariBromleyIzaacSchuldKilloran20} Andrea Mari, Thomas R. Bromley, Josh Izaac, Maria Schuld, Nathan Killoran,  *Transfer learning in hybrid classical-quantum neural networks*, Quantum 4, 340 (2020) ([arXiv:1912.08278](https://arxiv.org/abs/1912.08278))
+
+
+* Stefano Mangini, Francesco Tacchino, Dario Gerace, Daniele Bajoni, Chiara Macchiavello, *Quantum computing models for artificial neural networks*, EPL (Europhysics Letters) 134(1), 10002 (2021) ([arXiv:2102.03879](https://arxiv.org/abs/2102.03879))
+
+
 
 
 ### Relation to tensor networks
