@@ -88,7 +88,7 @@ A _partial combinatory algebra_ , also called a _Sch&#246;nfinkel algebra_ ,  is
 
 * {#Bunder84}M. W. Bunder, Category Theory Based on Combinatory Logic , Arch. Math. Logik **24** (1984) pp.1-15. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002045680))
 
-* {#Freyd89}[[Peter Freyd]], _Combinators_ , Contemp. Math. **92** (1989) pp.63-66.
+* {#Freyd89}[[Peter Freyd]], _Combinators_ , Contemp. Math. **92** (1989) pp.63-66. ([pdf](http://www.math.upenn.edu/~pjf/combinators.pdf))
 
 * R. Hindley, J. Seldin, _Introduction to Combinators and $\lambda$-Calculus_ , Cambridge UP 1986.
 
