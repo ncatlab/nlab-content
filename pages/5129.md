@@ -93,14 +93,21 @@ the _unshuffle_ side of shuffles is used.
 
 * [[shuffles of trees]]
 
+* [[Eilenberg-Zilber map]]
+
+* [[Eilenberg-Zilber theorem]]
+
 ## References
 
-$(p,q)$-shuffles are discussed in:
-
+Original articles:
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], On the groups $H(\Pi,n)$, I, Ann. of Math. (2) 58, (1953), 55&#8211;106. ([jstor](https://www.jstor.org/stable/1969820))
 
-* {#AguiarMahajan10} [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], [[Stephen Chase]], [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([author pdf](http://www.math.cornell.edu/~maguiar/a.pdf)) (See section 2.2.3.)
+Review:
+
+* {#AguiarMahajan10} [[Marcelo Aguiar]], [[Swapneel Mahajan]], Section 2.2.3 in: _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], [[Stephen Chase]], [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([author pdf](http://www.math.cornell.edu/~maguiar/a.pdf))
+
+* [[Kerodon]], 2.5.7.2 *$(p,q)$-Shuffles* ([00RH](https://kerodon.net/tag/00RH))
 
 The two dual equivalent characterizations of $(p,q)$-shuffles (called _shuffles of linear trees_ or _shuffles of linear orders_) are discussed in section 1.1 of
 
