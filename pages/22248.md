@@ -39,7 +39,7 @@ and
 
 ## References
 
-* [[John Lind]], *Equivariantly Twisted Cohomology Theories*, Baltimore 2014 (slides  [pdf](https://jlind.yourweb.csuchico.edu/papers/equivtwists_jmm2014.pdf), [[LindEquivariantlyTwistedCohomology.pdf:file]])
+* {#Lind14} [[John Lind]], *Equivariantly Twisted Cohomology Theories*, Baltimore 2014 (slides  [pdf](https://jlind.yourweb.csuchico.edu/papers/equivtwists_jmm2014.pdf), [[LindEquivariantlyTwistedCohomology.pdf:file]])
 
 [[!redirects twisted equivariant cohomology theory]]
 [[!redirects twisted equivariant cohomology theories]]
