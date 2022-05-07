@@ -114,12 +114,19 @@ There are higher analogs of the BM-theorem with (pushout) squares replaced by hi
 
 ### Classical
 
-The original connectivity  statement of the theorem is due to 
+The original connectivity  statement:
 
-* {#BlakersMassey51} [[Albert Blakers]], [[William  Massey]], _The homotopy groups of a triad I_ , Annals of Mathematics 53: 161&#8211;204, (1951)
+* {#BlakersMassey51} [[Albert Blakers]], [[William  Massey]], _The homotopy groups of a triad I_ , Annals of Mathematics 53: 161&#8211;204, (1951) ([jstor:1969346](https://www.jstor.org/stable/1969346))
+
+The algebraic statement and proof:
+
+* [[Albert Blakers]], [[William Massey]], _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417 ([jstor:1969744](https://www.jstor.org/stable/1969744))
   
 
-Reviews include
+Textbook accounts:
+
+* {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], Section 15 of: *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
 
 * {#Kochmann96} [[Stanley Kochmann]], theorem 3.2.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
@@ -128,13 +135,10 @@ Reviews include
 * {#tomDieck08} [[Tammo tom Dieck]],  theorem 6.4.1 _Algebraic Topology_, EMS Textbooks in Mathematics, (2008) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
 
 
-The algebraic statement and proof is in 
-
-* [[Albert Blakers]], [[William Massey]], _The homotopy groups of a triad. {III}_,  Ann. of Math. (2), 58: (1953) 409--417. 
 
 The Blakers-Massey's Connectivity Theorem was shown to be a consequence of Farjoun's "cellular inequalities" 
 
-* Farjoun, _Cellular spaces, null spaces and homotopy localization_m No. 1621-1622. Springer, 1996]
+* [[Emmanuel Dror Farjoun]], _Cellular spaces, null spaces and homotopy localization_m No. 1621-1622. Springer, 1996]
 
 is Theorem 1.B of 
 
