@@ -853,6 +853,9 @@ Other concepts:
 
 * [[Kan fibration]]
 
+[[Kan objects]] can be defined in any [[category]],
+see there for more information.
+
 
 ## References
 
@@ -885,4 +888,3 @@ Discussion of the [[homotopy theory]] of [[smooth ∞-groupoids]] presented by "
 
 
 [[!redirects Kan complexes]]
-
