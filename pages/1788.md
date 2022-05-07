@@ -1,4 +1,254 @@
 
+\begin{tikzcd}
+  (X \times W G)/G
+  \\
+  \\
+  X \times_G (G \times G)
+  \\
+  X \times_G G
+\end{tikzcd}
+
+
+\begin{lemma}
+
+Cofibrant resolution of 
+
+$$
+  \varnothing
+  \xrightarrow{\;\;}
+  N
+  \big(
+    (C_g \times \mathbb{R}) \times \mathbb{Z}
+    \rightrightarrows
+    (C_g \times \mathbb{R})
+  \big)
+  \xrightarrow{ \;\simeq\; }
+  \Lambda_g
+$$  
+
+\end{lemma}
+
+$$
+  \big(
+    X^g 
+      \times 
+    W
+    \big( 
+      (C_g \times \mathbb{R}) \sslash \mathbb{Z}
+    \big)
+  \big)
+  \big/
+  \big(
+    (C_g \times \mathbb{R}) \sslash \mathbb{Z}
+  \big)
+  \xrightarrow{\;\;\;}
+  \big(
+    [B\mathbb{Z}, X \sslash G]
+    \times
+    W( B\mathbb{Z} )
+  \big)
+  \big/
+  B \mathbb{Z}
+$$
+
+degree 0:
+
+$$
+  \big(
+    X^g 
+      \times 
+    (C_g \times \mathbb{R}) 
+  \big)
+  \big/
+  \big(
+    (C_g \times \mathbb{R})
+  \big)
+  \xrightarrow{\;\; x \mapsto \big( (\ast \overset{1}{\to} \ast) \mapsto (x \overset{g}{\to} g) \big) \;\;}
+  Hom(B\mathbb{Z}, X \sslash G)
+$$
+
+
+degree 1:
+
+$$
+  \big(
+    X^g 
+      \times 
+    (C_g \times \mathbb{R})
+  \xrightarrow{\;\;
+    (x,h) \mapsto conjugation
+  \;\;}
+  Hom(B\mathbb{Z}\times \Delta[1], X \sslash G)
+$$
+
+degree 2:
+
+$$
+  \big(
+    X^g 
+      \times 
+    \mathbb{Z}
+      \times
+    (C_g \times \mathbb{R})
+  \xrightarrow{\;\;\;\;}
+  \big(
+    Hom(B\mathbb{Z} \times \Delta[2], X \sslash G)
+    \times
+    W( B\mathbb{Z} )
+  \big)
+  \big/
+  B \mathbb{Z}
+$$
+
+
+Identify
+
+$$
+  S^1 \;\simeq\; \mathbb{R} / \mathbb{Z}
+$$
+
+consider
+
+$$
+  \mathbb{R}
+  \xrightarrow{\;q\;}
+  S^1
+$$
+
+$$
+  \mathbb{Z}
+  \times 
+  \mathbb{R}
+  \xrightarrow{
+    \;\;
+    (n,r) \mapsto (r, r + n)
+    \;\;
+  }
+  \mathbb{R}
+  \times_{S^1}
+  \mathbb{R}  
+$$
+
+$$
+  \mathbb{Z} \times \mathbb{Z} \times \mathbb{R}
+  \xrightarrow{ \;\; (n_1, n_2, r) \mapsto (r, r + n_1, r + n_1 + n_2)  \;\; }
+  \mathbb{R}
+    \times_{S^1}
+  \mathbb{R}
+    \times_{S^1}
+  \mathbb{R}
+$$
+
+$$
+  &#643; S^1 
+  \xrightarrow{ \sim }
+  B \mathbb{Z}
+$$
+
+\linebreak
+
+$$
+  W(B \mathbb{Z})_n
+  \;=\;
+  \mathbb{Z}^n
+    \times
+  \cdots
+    \times
+  \mathbb{Z}^2
+    \times
+  \mathbb{Z}
+$$
+
+\linebreak
+
+$$
+  \big(
+  Hom
+  \big(
+    B \mathbb{Z} \times \Delta[1],
+    \,
+    X \sslash G
+  \big)
+  \times
+  W(B \mathbb{Z})_1
+  \big)
+  /
+  (B \mathbb{Z})_1
+  \;\;\;
+  \simeq
+  \;\;\;
+  \underset{ [g] }{\coprod}
+  X^g \sslash C_g
+$$
+
+
+$$
+  \big(
+  Hom
+  \big(
+    B \mathbb{Z} \times \Delta[2],
+    \,
+    X \sslash G
+  \big)
+  \times
+  W(B \mathbb{Z})_2
+  \big)
+  /
+  (B \mathbb{Z})_2
+  \;\;\;
+  \simeq
+  \;\;\;
+$$
+
+ 
+\linebreak
+
+$$
+  \langle g, 1 \rangle
+  \xhookrightarrow{\;\;}
+  { C_g \times \mathbb{R} }
+  \xrightarrow{\;\;}
+  \Lambda_g
+$$
+
+$$
+  \mathbb{Z} \times C_g \times \mathbb{R}
+  \xrightarrow
+    {\;\;   
+      (n, h, r) \mapsto \big( (h,r), ( g^n g, n + r  )  \big)
+    \;\;}
+  (C_g \times \mathbb{R})
+  \times_{\Lambda_g}
+  (C_g \times \mathbb{R})
+$$
+
+$$
+  \big(
+    X^g
+    \times
+    W( X^g \sslash \Lambda_g )
+  \big)
+  /
+  (\Lanbda)
+$$
+
+$$
+  \big(
+    X^g
+    \times
+    W( X^g \sslash \Lambda_g )
+  \big)
+  /
+  (X^g \sslash \Lambda_g)
+$$
+
+
+\linebreak
+
+***
+
+\linebreak
+
 $$
   (S^1)\hat{_I}
 $$
