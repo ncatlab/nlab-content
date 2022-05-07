@@ -21,7 +21,7 @@
 
 ## Definition
 
-For $f : X \to Y$ a [[smooth function]], a **critical point** is a point $x \in X$ at which the [[derivative]] $d X : T X \to T Y$ vanishes.
+For $f : X \to Y$ a [[smooth function]], a **critical point** is a point $x \in X$ at which the [[derivative]] $d X : T X \to T Y$ vanishes (or at heast has non-maximal rank).
 
 The collection of all critical points is also called the **critical locus** of $f$.
 
@@ -38,6 +38,13 @@ A formalization of this in [[cohesive (infinity,1)-topos|cohesive geometry]] is 
 * [[extremum]]
 
 * [[derived critical locus]]
+
+## Rereferences
+
+
+* {#Thom54} [[René Thom]], p. 18 of: _[[Quelques propriétés globales des variétés différentiables]]_, Comment. Math. Helv. 28, (1954). 17-86 ([doi:10.1007/BF02566923](https://doi.org/10.1007/BF02566923), [dml:139072](https://eudml.org/doc/139072), [digiz:GDZPPN002056259](http://www.digizeitschriften.de/dms/img/?PID=GDZPPN002056259), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf))
+
+
 
 [[!redirects critical locus]]
 
