@@ -1,4 +1,3 @@
-[[!redirects complete spreads]]
 ## Idea
 
 A complete spread over a [[locale]] $X$ is a [[map of locales]] $L\to X$
@@ -16,7 +15,7 @@ together with a [[map of locales]] $l\colon L\to X$
 such that the connected components of opens $l^*U$ for all opens $U$ in $X$
 form a [[base]] for the [[locale]] $L$.
 
-See Proposition 4.3 in Funk \cite{Funk} for other equivalent
+See Proposition 4.3 in \cite{Funk} for other equivalent
 characterizations of spreads.
 
 Recall that the [[category of elements]]
@@ -41,7 +40,7 @@ The inverse functor is given by the [[cosheaf of connected components]] construc
 
 ## References
 
-* [[Jonathon Funk]], _The display locale of a cosheaf_.
+* {#Funk} [[Jonathon Funk]], _The display locale of a cosheaf_.
 
 * [[Marta Bunge]], [[Jonathon Funk]], _[[Singular Coverings of Toposes]]_.
 
