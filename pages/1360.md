@@ -69,7 +69,7 @@ Spelled out, this means that a simplicial model category is
 ### Enrichment, tensoring, and cotensoring 
  {#EnrichmentTensoringCotensoring}
 
-Let $\mathcal{C}$ be a category equipped with the structure of a [[model category]] and with that of an [[sSet]]-[[enriched category]], i.e., which is [[tensoring|tensored]] and [[cotensoring|cotensored]] over [[sSet]].
+Let $\mathcal{C}$ be a category equipped with the structure of a [[model category]] and with that of an [[sSet]]-[[enriched category]], which is [[tensoring|tensored]] and [[cotensoring|cotensored]] over [[sSet]].
 
 +-- {: .num_prop #EquivalenceOfConditions}
 ###### Proposition
@@ -78,7 +78,9 @@ The following conditions -- that each make $\mathcal{C}$ into a _simplicial mode
 
 1. the [[tensoring]] $\otimes : \mathcal{C} \times sSet \to \mathcal{C}$ is a left [[Quillen bifunctor]];
 
-1. for any cofibration $X \to Y$ and fibration $A \to B$ in $\mathcal{C}$, the induced morphism 
+1. [pullback-power axiom](enriched+model+category#PullbackPowerAxiom): 
+
+   for any cofibration $X \to Y$ and fibration $A \to B$ in $\mathcal{C}$, the induced morphism 
 
    $$
      \mathcal{C}(Y, A) \to \mathcal{C}(X, A) \times_{\mathcal{C}(X,B)} \mathcal{C}(Y,B)
@@ -97,7 +99,7 @@ The following conditions -- that each make $\mathcal{C}$ into a _simplicial mode
 
 =--
 
-This follows directly from the defining properties of [[tensoring]] and [[cotensoring]].
+This follows directly, by [[Joyal-Tierney calculus]],  from the defining properties of [[tensoring]] and [[cotensoring]] (as in [this Prop.](enriched+model +category#MonoidalModelCategoryIsEnrichedModelOverItself)).
 
 We list in the following some implications of these equivalent conditions.
 
