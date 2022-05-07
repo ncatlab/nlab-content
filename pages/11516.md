@@ -78,17 +78,68 @@ for the [[functor]] which takes a [[topological G-space|topological G2-space]] $
 
 \end{defn}
 
-
-#### Induced action
-
-(...)
-
 \begin{example}\label{RestrictedAction}
 **(restricted action)** \linebreak
 
-(...)
+For $\phi \coloneqq i \colon H \hookrightarrow G$ a [[subgroup]]-inclusion, the pullback action in Def. \ref{PullbackAction} is obtained by restricting the $G$-action to that of its subgroup $H$.
 
 \end{example}
+
+
+#### Induced action
+
+
+\begin{definition}\label{InducedAction}
+**(induced action)**\linebreak
+Given a topological group homomorphism $\phi$ (eq:TopologicalGroupHomomorphism), the _induced action_ functor
+
+$$
+  Topological G_1 Actions
+  \overset{
+     G_2 \times_{G_1} (-)
+  }{\longrightarrow}
+  Topological G_2 Actions
+$$
+
+sends $X \in Topological G_1 Spaces$ to the [[quotient space]] of its [[Cartesian product]] with $G_2$ by the [[diagonal action]] of $G_1$ (which  on $G_2$ is by inverse right multiplication through $\phi$):
+
+$$
+  G_2 \times_{G_1} X
+  \;\coloneqq\;
+  \big(
+    G_2 \times X
+  \big)
+  \big/
+  \big(
+    (g_2, x) \sim (g_2 \cdot \phi(g_1)^{-1}, g_1 \cdot x)
+    \,\vert\,
+    g_1 \in G_1
+  \big)
+$$
+
+and equipped with the $G_2$-action given by left multiplication on the $G_2$-factor.
+
+\end{definition}
+
+\begin{example}\label{QuotientsAsInducedActions}
+**(Quotients as induced actions)** \linebreak
+
+If $\phi \coloneqq G \longrightarrow 1$ is the [[terminal object|terminal]] morphims to the [[trivial group]], then its induced action (Def. \ref{InducedAction}) is the operation of forming $G$-[[quotient spaces]] (the $G$-[[orbit]]-space):
+
+$$
+  \array{
+    Topological G Actions
+    &\longrightarrow&
+    Topological 1 Actions 
+    \mathrlap{  \;  = TopologicalSpaces }
+    \\
+    X &\mapsto &  1 \times_G X \mathrmlap{ \; = X/G }
+    \,.
+  }
+$$
+
+\end{example}
+
 
 #### Coinduced action
  {#CoinducedActions}
