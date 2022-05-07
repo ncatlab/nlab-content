@@ -681,7 +681,7 @@ for a unique $\widetilde f  \;\colon\; L(c) \longrightarrow d$, to be called the
 
 =--
 
-(e.g [Borceux, vol 1, Def. 3.1.1](#Borceux))
+(e.g. [Borceux, Vol. 1, Definition 3.1.1](#Borceux94))
 
 
 +-- {: .num_prop #UniversalMorphismsAreInitialObjectsInCommaCategory}
@@ -846,7 +846,7 @@ This diagram can be recovered directly from the image under the equivalence $[C^
 
 
 
-### in terms of Kan extensions/liftings
+### In terms of Kan extensions/liftings
 
 Given $L \colon C \to D$, we have that it has a [[right adjoint]] $R\colon D \to C$ precisely if the [[left Kan extension]] $Lan_L 1_C$ of the [[identity]] along $L$ exists and is [absolute](/nlab/show/Kan+extension#AbsoluteKanExtension), in which case
 
@@ -1210,7 +1210,7 @@ See at _[[adjoint functor theorem]]_ for more.
 ### Relation to monads
  {#RelationToMonads}
 
-Every [[adjunction]] $(L \dashv R)$ induces a [[monad]] $R \circ L$ and a [[comonad]] $L \circ R$. There is in general more than one adjunction which gives rise to a given monad this way, in fact there is a [[category]] of adjunctions for a given monad. The [[initial object]] in that category is the adjunction over the [[Kleisli category]] of the monad and the [[terminal object]] is that over the [[Eilenberg-Moore category]] of algebras. (e.g. [Borceux, vol 2. prop. 4.2.2](#Borceux)) The latter is called the _[[monadic adjunction]]_.
+Every [[adjunction]] $(L \dashv R)$ induces a [[monad]] $R \circ L$ and a [[comonad]] $L \circ R$. There is in general more than one adjunction which gives rise to a given monad this way, in fact there is a [[category]] of adjunctions for a given monad. The [[initial object]] in that category is the adjunction over the [[Kleisli category]] of the monad and the [[terminal object]] is that over the [[Eilenberg-Moore category]] of algebras. (e.g. [Borceux, Vol. 2, Proposition 4.2.1](#Borceux94)) The latter is called the _[[monadic adjunction]]_.
 
 Moreover, passing from [[adjunctions]] to monads and back to their [[monadic adjunctions]] constitutes itself an [[adjunction]] between adjunctions and monads, called the _[[semantics-structure adjunction]]_.
 
@@ -1393,7 +1393,7 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 For the basics, see any text on [[category theory]] (and see the references at _[[adjunction]]_), for instance:
 
-* {#Borceux94} [[Francis Borceux]], Vol 1, Section 3 of _[[Handbook of Categorical Algebra]]_
+* {#Borceux94} [[Francis Borceux]], Section 3 in Volume 1 and Section 4.2 in Volume 2 of _[[Handbook of Categorical Algebra]]_
 
 * {#Johnstone} [[Peter Johnstone]], first pages of _[[Elephant|Sketches of an Elephant]]_
  
