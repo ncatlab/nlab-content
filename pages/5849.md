@@ -665,6 +665,7 @@ As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjo
 
 
 
+
 ### Cohesion
  {#CohesiveToposes}
 
@@ -778,6 +779,162 @@ $$
 
 If $\mathcal{S}$ is a *[[cohesive site]]* then the 
 induced adjoint quadruple from Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple} ([[corestriction|co]])[[restriction|restricts]] to the [[category of sheaves]] $Sh(\mathcal{S}) \xhookrightarrow{\;} PSh(\mathcal{S})$ and exhibits it as a [[cohesive topos]].
+\end{example}
+
+The proof of Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple} as spelled out below applies verbatim also in [[(infinity,1)-category theory|$\infty$-category theory]]. Here, it has interesting examples even without passage to [[(infinity,1)-sheaves|$\infty$-sheaves]],  when the [[(infinity,1)-site|$\infty$-sites]] are higher than [[1-sites]]:
+
+\begin{example}\label{COhesionOfGlobalOverGEquivariantHomotopyTheory}
+**([[cohesion of global- over G-equivariant homotopy theory]])**
+\linebreak
+  For $G$ a group, there is an adjunction of [[(2,1)-categories]]
+
+\begin{tikzcd}
+  \mathrm{Sngrt}_{/\prec G}
+  \ar[
+    r,
+    shift left=7pt,
+    "{ \tau_0 }"{above},
+    "{ \mathclap{\times} }"{description, pos=.0}
+  ]
+  &
+  G \mathrm{Orbt}
+  \ar[
+    l,
+    shift left=7pt,
+    hook',
+    "{ i }"{below}
+  ]
+  \ar[
+    l,
+    phantom,
+    "{\scalebox{.6}{$\bot$}}"{description}
+  ]
+\end{tikzcd}
+
+between the [[slice (infinity,1)-category|slice]] of the [[global orbit category]] over the object corresponding to $G$, and the $G$-[[orbit category]]. The adjoint quadruple of [[(infinity,1)-functors|$\infty$-functors]] between [[(infinity,1)-categories of (infinity,1)-presheaves|$\infty$-categories of $\infty$-presheaves]] induced by this  via Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple} exhibits slices of [[global homotopy theory]] as being [[cohesive (infinity,1)-topos|cohesive]] over $G$-[[equivariant homotopy theory]]
+
+\begin{tikzcd}
+  \phantom{AAAAAAA}
+  \overset{
+    \mathclap{
+    \raisebox{8pt}{
+      \tiny
+      \color{blue}
+      \begin{tabular}{c}
+        global equivariant
+        \\
+        homotopy theory sliced
+        \\
+        over $G$-orbi-singularity
+        \\   
+        \phantom{A}
+      \end{tabular}
+    }\;\;\;\;
+    }
+  }{
+    \;\;(\mathrm{Glo} \mathrm{Grpd}_\infty)_{/\prec G}\;\;
+  }
+      \ar[
+        rr,
+        "{ \mathrm{FixLoc}    }"{description}
+      ]
+      \ar[
+        rr,
+        shift left=40pt,
+        "{  }"{description, pos=.35},
+        "\mathclap{\times}"{description, pos=0}
+      ]
+      &&
+     \overset{
+       \mathclap{
+       \;\;
+       \raisebox{3pt}{
+         \tiny
+         \color{blue}
+         \begin{tabular}{c}
+            $G$-equivariant
+            \\
+            homotopy theory
+            \\
+            \phantom{A}
+         \end{tabular}
+       }
+       }
+     }{
+       \;\; G \mathrm{Grpd}_\infty \;\;
+      }
+     \phantom{AAAAAAA}
+      \ar[
+        ll,
+        hook',
+        shift right=20pt,
+        "{ \mathrm{OrbSp} }"{description}
+      ]
+      \ar[
+        ll,
+        hook',
+        shift right=-20pt,
+        "{  }"{description, pos=.35}
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=10pt,
+        "{\scalebox{.5}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=30pt,
+        "{\scalebox{.5}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=-10pt,
+        "{\scalebox{.5}{$\bot$}}"
+      ]
+\end{tikzcd}
+
+For more on this see at *[[cohesion of global- over G-equivariant homotopy theory]]*.
+\end{example}
+
+This example is a special case of the following general class:
+\begin{example}\label{nTruncationsOfFullSubcategoriesOfInfinityToposes}
+  For $n \,\in\, \mathbb{N}$ and
+  for $\mathcal{S} \xhookrightarrow{\;\;} \mathbf{H} $ any [[small (infinity,1)-category|small]] [[full sub-(infinity,1)-category|full sub-$\infty$-category]] of an [[(infinity,1)-topos|$\infty$-topos]] which is 
+
+1. has all [[finite products|finite]] [[homotopy products]], these being computed in $\mathbf{H}$,
+
+1. is closed under [[n-truncated object of an (infinity,1)-category|$n$-truncation]] 
+
+then the $n$-truncation reflection restricts
+
+
+\begin{tikzcd}
+  \mathcal{S}
+  \ar[
+    r,
+    shift left=7pt,
+    "{ \tau_n }"{above},
+    "{ \mathclap{\times} }"{description, pos=.0}
+  ]
+  &
+  \mathcal{S}_{\tau_n}
+  \ar[
+    l,
+    shift left=7pt,
+    hook',
+    "{ i }"{below}
+  ]
+  \ar[
+    l,
+    phantom,
+    "{\scalebox{.6}{$\bot$}}"{description}
+  ]
+\end{tikzcd}
+
+and its preserves finite products (by [this Prop.](n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts)). Hence its Kan extensions according to Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple} exhibit the [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-presheaves]] $PSh_\infty(\mathcal{S})$ as being [[cohesive (infinity,1)-topos|cohesive]] over $PSh_\infty(\mathcal{S}_{\tau_n})$.
 \end{example}
 
 \linebreak
