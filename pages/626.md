@@ -23,7 +23,7 @@
 
 ## Idea
 
-_String diagrams_ (also _[[Penrose notation]]_ or _[[tensor networks]]_) constitute a graphical calculus for expressing operations in [[monoidal categories]]. The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
+_String diagrams_ constitute a graphical calculus for expressing operations in [[monoidal categories]]. The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. For instance
 
 * putting strings next to each other denotes the monoidal product, and having no string at all denotes the unit;
 
@@ -94,8 +94,7 @@ String diagrams may be seen as dual (in the sense of [[Poincaré duality]]) to [
 
 String diagrams for monoidal categories can be obtained in the same way, by considering a monoidal category as a 2-category with a single object.
 
-
-## Variants
+## Variants and examples
 
 There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encoding further geometric properties.  For instance:
 
@@ -127,7 +126,11 @@ There are many additional structures on monoidal categories, or similar structur
 
 * _Sheet diagrams_, string diagrams drawn on a branching surface, may be used for [[rig categories]], see [Comfort-Delpeuch-Hedges](#CDH).
 
-See also [Selinger 09](#Selinger09).
+* String diagrams are closely related to Penrose's notation for working with tensors.  String diagrams for the monoidal category of finite-dimensional vector spaces with its usual tensor product are called [[tensor networks]].
+
+*  String diagrams for the monoidal category of finite-dimensional representations of the group [[SU(2)]] on complex vector spaces are called [[spin networks]].
+
+See also [Selinger 09](#Selinger09) for a review of different string diagram formalisms.
 
 ## Examples
  {#Examples}
