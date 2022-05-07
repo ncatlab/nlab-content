@@ -471,6 +471,7 @@ Further accounts:
 
 * Peter Booth, Philip R. Heath, [[Renzo A. Piccinini]], *Fibre preserving maps and functional spaces*, Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
 
+
 * {#Piccinini92} [[Renzo A. Piccinini]], Appendix B in: *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
 
 
@@ -498,6 +499,9 @@ where it is attributed to [[John C. Moore]].
 Review in this generality of CG weakly Hausdorff spaces:
 
 * {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_, PhD thesis Chicago, 1978
+
+* {#FritschPiccinini90} [[Rudolf Fritsch]], [[Renzo Piccinini]], Appendix A.1 of: _Cellular structures in topology_, Cambridge University Press (1990) ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf))
+
 
 * {#May99} [[Peter May]], Chapter 5 of: _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
