@@ -41,6 +41,8 @@ There is a generalization, the noncommutative measure theory, which is more or l
 
 * [[valuation (measure theory)]]
 
+* [[noncommutative measure theory]]
+
 ## References
 
 A comprehensive five-volume treatise (with a sixth volume forthcoming) is
@@ -55,7 +57,7 @@ A classical (slightly dated) concise treatise is
 
 * [[Paul Halmos]], _Measure Theory_, D. Van Nostrand Company, 1950.
 
-* [[Donald L. Cohn]], _Measure Theory_, Birkhäuser, 1980.  ISBN: 3-7643-3003-1 
+* Donald L. Cohn, _Measure Theory_, Birkhäuser, 1980.  ISBN: 3-7643-3003-1 
 
 Other texts include
 
