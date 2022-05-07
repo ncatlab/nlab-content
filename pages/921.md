@@ -60,7 +60,13 @@ See [[Dedekind cut]] for more.
 
 ### Cauchy sequences
 
-Classically, a real number can be given by an [[infinite sequence]] of rational numbers, each of which is a decimal fraction that approximates the real number to a given number of decimal places.  We can generalise this to any [[Cauchy sequence]] of rational numbers.  However, now each real number has several representations, so we need to specify an [[equivalence relation]] on the Cauchy sequences.  Thus, $\mathbb{R}$ is constructed as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
+Classically, a real number can be given by an [[infinite sequence|infinite]] [[Cauchy sequence]] of [[decimal rational number|decimal fractions]] $\mathbb{Z}[1/10]$, each of which is a decimal fraction that approximates the real number to a given number of decimal places. However, many real numbers have several representations, i.e. 
+
+  $$1/10 = 0.099999... = 0.10000...$$
+
+so we need to specify an [[equivalence relation]] on the Cauchy sequences.  Thus, $\mathbb{R}$ is constructed as a [[subquotient]] of the [[function set]] $\mathbb{Z}[1/10]^{\mathbb{N}}$.
+
+We can generalise this to any [[Cauchy sequence]] of rational numbers, and $\mathbb{R}$ is constructed as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
 
 This construction is equivalent to the construction by Dedekind cuts, at least assuming [[weak countable choice]] (which also follows from [[excluded middle]]).  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]] (which accepts [[countable choice]]).  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.  (On the other hand, by generalising to Cauchy [[nets]], we recover the Dedekind reals again.)
 
