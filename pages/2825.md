@@ -82,6 +82,10 @@ On [[compactly generated topological spaces]]:
 
 * [[Charles Rezk]], *Compactly Generated Spaces*, 2018 ([pdf](https://faculty.math.illinois.edu/~rezk/cg-spaces-better.pdf), [[Rezk_CompactlyGeneratedSpaces.pdf:file]])
 
+On [[accessible (infinity,1)-categories|accessible $(\infty,1)$-categories]]:
+
+* [[Charles Rezk]], *Generalizing accessible ∞-categories*, 2021 ([pdf](https://faculty.math.illinois.edu/~rezk/accessible-cat-thoughts.pdf)).
+
 
 On [[spectral algebraic geometry]]:
 
