@@ -47,7 +47,7 @@ Comm. Math. Phys., 26 (1972), pp. 222--236; archived as [arXiv:math-ph/0203002](
 * J. H. Rawnsley, _Coherent states and K&#228;hler manifolds_,
 Quart. J. Math. Oxford (2), 28 (1977), pp. 403--415
 
-* V. Bargmann, _On a Hilbert space of analytic functions and an associated integral transform_, Communications on Pure and Applied Mathematics __14__ (1961) 187-214 [MR0157250](http://www.ams.org/mathscinet-getitem?mr=157250) [doi](ttp://dx.doi.org/10.1002/cpa.3160140303)
+* V. Bargmann, _On a Hilbert space of analytic functions and an associated integral transform_, Communications on Pure and Applied Mathematics __14__ (1961) 187-214 [MR0157250](https://www.ams.org/mathscinet-getitem?mr=157250) [doi](ttp://dx.doi.org/10.1002/cpa.3160140303)
 
 * F. A. Berezin, _Quantization_, Math. USSR Izv., 8 (1974), 1109-1163. MR 0395610 (52:16404) 
 
@@ -56,12 +56,14 @@ coherent states and the moment map_, J. of Geometry and Physics 12 (1993) 165-18
 
 * Enrico Onofri, _A note on coherent state representations of Lie groups_, J. Math. Phys. __16__:5, 1087-1089, may 1975. 
 
-* for physical aspects [wikipedia:Coherent_state](http://en.wikipedia.org/wiki/Coherent_state).
+* for physical aspects [wikipedia:Coherent_state](https://en.wikipedia.org/wiki/Coherent_state).
 
 * V. V. Kisil, _Integral representations and coherent states_,
 Bulletin of the Belgian Mathematical Society, v. 2 (1995), No 5, pp. 529-540.
 
 * Thomas Appl,  Diethard H Schiller, _Generalized hypergeometric coherent states_, J. Phys A37:7 (2004) 2731 [doi](https://doi.org/10.1088/0305-4470/37/7/015)
+* M. Spera, _On Kahlerian coherent states_, in Proc. Int. Conf. on Geometry, Integrability and Quantization 241-256, Institute of Biophysics and Biomedical Engineering, Bulg. Acad. Sci. 2000.
+* Rukmini Dey, Kohinoor Ghosh, Pullback coherent and squeezed states and quantization, [arXiv:2108.08082](https://arxiv.org/abs/2108.08082)
 
 Coherent states can be generalized to [[noncommutative geometry]], most notably for [[quantum groups]]:
 
@@ -69,9 +71,9 @@ Coherent states can be generalized to [[noncommutative geometry]], most notably 
 operators and invariant correlation functions and their quantum group
 counterparts_, J. Math. Phys. __36__ (1995), pp. 2030--2052.
 
-* [[Branislav Jurčo|B. Jurčo]], P. &#352;tovi&#269;ek, [Coherent states for quantum compact groups](http://projecteuclid.org/euclid.cmp/1104288026), Comm. Math. Phys. __182__ (1996), pp. 221--251; [hep-th/9403114](http://arXiv.org/abs/hep-th/9403114)
+* [[Branislav Jurčo|B. Jurčo]], P. &#352;tovi&#269;ek, [Coherent states for quantum compact groups](http://projecteuclid.org/euclid.cmp/1104288026), Comm. Math. Phys. __182__ (1996), pp. 221--251; [hep-th/9403114](https://arXiv.org/abs/hep-th/9403114)
 
-* [[Zoran Škoda|Z. Škoda]], [Coherent states for Hopf algebras](http://dx.doi.org/10.1007/s11005-007-0166-y), Letters in Mathematical Physics __81__, N.1, pp. 1-17, July 2007; distinct earlier version, arXiv: [math.QA/0303357](http://arXiv.org/abs/math/0303357)
+* [[Zoran Škoda|Z. Škoda]], [Coherent states for Hopf algebras](https://doi.org/10.1007/s11005-007-0166-y), Letters in Mathematical Physics __81__, N.1, pp. 1-17, July 2007; distinct earlier version, arXiv: [math.QA/0303357](http://arXiv.org/abs/math/0303357)
 
 * N. Aizawa, R. Chakrabarti, _Coherent state on $SU_q(2)$ homogeneous space_, J. Phys. A __42__:29 [arXiv:0905.0194](http://arxiv.org/abs/0905.0194).
 
