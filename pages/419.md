@@ -445,6 +445,8 @@ See [[model structure on monoids in a monoidal model category]].
 
 ## References 
 
+* {#Hovey98} [[Mark Hovey]], _Monoidal model categories_ ([arXiv:math/9803002](https://arxiv.org/abs/math/9803002))
+
 Textbook accounts:
 
 * {#Hovey99} [[Mark Hovey]], Def. 4.2.6 in: _[[Model Categories]]_, Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
