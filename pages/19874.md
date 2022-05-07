@@ -209,6 +209,7 @@ within [[GUT]]-models and specifically within [[Pati-Salam models]]:
 
 * [[Andreas Crivellin]], Luc Schnell, *Complete Set of Feynman Rules for Scalar Leptoquarks* ([arXiv:2105.04844](https://arxiv.org/abs/2105.04844))
 
+* We-Fu Chang, *One colorful resolution to the neutrino mass generation, three lepton flavor universality anomalies, and the Cabibbo angle anomaly* ([arXiv:2105.06917](https://arxiv.org/abs/2105.06917))
 
 
 \linebreak
