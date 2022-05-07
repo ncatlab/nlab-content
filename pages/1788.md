@@ -247,6 +247,83 @@ An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
   {\phantom{AAAAAAAA}}
 \end{xymatrix}
 
+\begin{prop}
+  For $n \geq 1$ a [[positive number|positive]] [[natural number]] and $(X,x)$ a [[pointed topological space]]/[[pointed homotopy type]], the canonical [[morphism]] from reduced to unreduced Cohomotopy of $X$ in degree $n$ is an [[isomorphism]]:
 
+$$
+  {\widetilde \pi}^{n \geq 1}(X,x)
+    \overset{\;\;\simeq\;\;}{\longrightarrow}
+  {\pi}^{n \geq 1}(X)
+  \,.
+$$
+\end{prop}
+\begin{proof}
+  For $Maps(-,-)$ denoting [[compact-open topology|mapping space]] for [[topological spaces]] and $Maps^{\ast/}(-,-)$ the subspace for [[pointed topological spaces]], observe that 
+
+$$
+  Maps^{\ast/}\big((X,x),(S^n,\ast) \big)
+    \overset{fib(ev_x)}{\longrightarrow}
+  Maps\big(X,S^n \big)
+    \overset{ev_x}{\longrightarrow}
+  S^n
+$$
+
+(where $ev_x$ is the [[evaluation map]] at $x \in X$) is a [[homotopy fiber sequence]] as soon as $X$ is represented by a [[cell complex]] (e.g. [[CW-complex]]). 
+
+(This follows either from the [pullback-power axiom](enriched+model+category#PullbackPowerAxiom) in the [[classical model structure on topological spaces]], or, more abstractly from the characterization of [[derived hom-spaces]] in [[slice (infinity,1)-category|coslice (infinity,1)-categories]] [here](slice+infinity-category#HamSpacesInASlice)).
+
+Therefore we have the corresponding [[long exact sequence of homotopy groups]], which starts out as
+
+\begin{xymatrix@C=20pt}
+  \pi_1\big( S^n \big)
+  \ar[r]
+  \ar@{=}[d]
+  & 
+  \pi_0 \mathrm{Maps}^{\ast/}\big((X,x),(S^n,\ast) \big)
+  \ar[r]^{  }
+  \ar@{=}[d]
+  &
+  \pi_0 \mathrm{Maps}\big(X,S^n \big)
+  \ar[r]
+  \ar@{=}[d]
+  &
+  \pi_0(S^n)
+  \ar@{=}[d]
+  \\
+  {\overbrace{
+  \begin{array}{ccc}
+    \mathbb{Z} &\!\!\vert\!\!& n = 1
+    \\
+    \ast &\!\!\vert\!\!& n \geq 2
+  \end{array}
+  }}
+  \ar[r]
+  &
+  {\widetilde \pi}{}^n(X,x)    
+  \ar[r]
+  &
+  {\pi}{}^n(X)
+  \ar[r]
+  &
+  \ast
+  \,.
+\end{xymatrix}
+
+By exactness, this yields the claim for $n \geq 2$; while for $n = 1$ it gives the desired isomorphism only up to a possibly non-trivial [[quotient set|quotient]] by an [[action]] of $\mathbb{Z} \simeq \pi_1(S^1)$:
+
+$$
+  {\widetilde \pi}{}^1(X,x)/\pi_1(S^1)
+  \simeq
+  \pi^1(X)
+  \,.
+$$
+
+Hence it is now sufficient to see that the $\pi_1(S^1)$-[[action]] on reduced 1-Cohomotopy is always trivial:
+
+The action of $n \in \pi_1(S^1)$ takes $\big[ (X,x) \overset{ \;c\; }{\longrightarrow} (S^1,\ast) \big]$ to any $\big[ (X,x) \overset{ \;c'\; }{\longrightarrow} (S^1,\ast) \big]$ such that $[X \overset{c}{\longrightarrow} S^1] \overset{\eta}{\Rightarrow} [X \overset{c'}{\longrightarrow} S^1]$ in $\pi^1(X)$, with $[\eta(x,-)] = n \in \pi_1(S^1)$. 
+
+But using the [[group]]-structure on $S^1 = \mathbb{R}/\mathbb{Z}$  we have that one such $\eta$ is given by $\eta(x,t) \coloneqq c(x) + n t \,mod\, \mathbb{Z}$, which yields $c'(x) = c(x) + n \,mod\, \mathbb{Z}$ and hence $c' = c$.
+
+\end{proof}
 
 
