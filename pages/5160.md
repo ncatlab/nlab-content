@@ -16,7 +16,7 @@ On [[intuitionistic mathematics]] following [[L.E.J. Brouwer]]:
 
 * [[Hermann Weyl]], *Über die neue Grundlagenkrise der Mathematik*, Zürich 1920 ([gdz](https://gdz.sub.uni-goettingen.de/id/PPN266833020_0010?tify={%22pages%22:[45],%22panX%22:0.525,%22panY%22:0.381,%22view%22:%22info%22,%22zoom%22:0.659}), [purl:PPN266833020_0010](http://resolver.sub.uni-goettingen.de/purl?PPN266833020_0010))
 
-* [[Hermann Weyl]], *Die heutige Erkenntnislage in der Mathematik*, Weltkreis-Verlag, Erlangen 1926.
+* [[Hermann Weyl]], *Die heutige Erkenntnislage in der Mathematik*, Weltkreis-Verlag, Erlangen 1926. ([GoogleBooks](https://books.google.de/books/about/Die_heutige_Erkenntnislage_in_der_Mathem.html?id=1KU_AQAAIAAJ&redir_esc=y))
 
 Both of these are available in English translations as part of:
 
