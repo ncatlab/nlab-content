@@ -203,7 +203,7 @@ This is for instance in Verdier's exposé III.5 prop.5.4 ([SGA4](#SGA4), p.295).
 
 We now discuss this in more detail for the special case of over-[[presheaf toposes]].
 
-Let $C$ be a [[small category]], $c$ an [[object]] of $C$ and let $C/c$ be the [[over category]] of $C$ over $c$. 
+Let $C$ be a [[small category]], $c$ an [[object]] of $C$ and let $C/c$ be the [[slice category]] of $C$ over $c$. 
 
 Write
 
@@ -213,6 +213,7 @@ Write
 
 +-- {: .num_prop #SliceOfPresheavesIsPresheavesOnSlice}
 ###### Proposition
+**([[slice of presheaves is presheaves on slice]])**
 
 There is an [[equivalence of categories]] 
 
