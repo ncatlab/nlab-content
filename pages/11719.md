@@ -1,9 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Rational homotopy theory
++--{: .hide}
+[[!include differential graded objects - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
+
+The *real homotopy theory* of [Brown & Szczarba 1995](#BrownSzczarba95) is [[rational homotopy theory]] over [[ground field]] the [[real numbers]], but replacing in the [[fundamental theorem of dg-algebraic rational homotopy theory]] the plain [[real cohomology]]-groups by real [[continuous cohomology]] (to make up for the fact that $\mathbb{R}$ is not a [[solid ring]]).
 
 > The authors of ([Brown-Szczarba 95](#BrownSzczarba95)) show how the Bousfield-Gugenheim approach to [[rational homotopy theory]] may be extended to the framework of [[continuous cohomology]]. In the usual theory, the extension from the [[rational numbers|rationals]] to the [[real numbers|reals]] has always been effected by a formal tensoring with the reals. While this allows a connection to [[de Rham complex|de Rham theory]], it has always been preferable to have a direct construction of real homotopy theory akin to the [[Postnikov tower]]-like construction of [[rational homotopy theory]]. Unfortunately, in the usual situation, such a construction is impossible due to the incompatibility of the algebra of $\mathbb{R}$ (as an [[abelian group]]) with its natural [[topology]]. The authors of ([Brown-Szczarba 95](#BrownSzczarba95)) remedy this problem by creating a theory of [[minimal models]] which incorporates the usual topology of the reals and a generalization of [[van Est's theorem]] saying that $H^*(K(\mathbb{R},n); \mathbb{R})$ is a freely generated algebra on one generator (a result which is not true in the discrete topology case). By using the natural topology of $\mathbb{R}$, there is an immediate connection to [[continuous cohomology]] and applications such as [[characteristic classes]] of [[foliations]]. 
 
@@ -17,9 +37,17 @@ In ([Brown-Szczarba 90](#BrownSzczarba90)) is established an equivalence between
 
 ## References
 
-* {#BrownSzczarba95} [[Edgar Brown]], Robert Szczarba, _Real and Rational Homotopy Theory_, in Handbook of Algebraic Topology. Elsevier, 1995 ([Zentralblatt](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
+On [[real homotopy theory]] ([[rational homotopy theory]] over the [[real numbers]]) using [[continuous cohomology|continuous]] [[real cohomology]]:
 
-* [[Edgar Brown]], Robert Szczarba, _Real and rational homotopy theory for spaces with arbitrary fundamental group_ Duke Mathematical Journal 71. (1993): 229-316.
+* {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*,  Elsevier, 1995 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
 
-* {#BrownSzczarba90} [[Edgar Brown]], Robert Szczarba, _Continuous cohomology and Real homotopy type II_ Asterisque 191, Societe Mathematique De France (1990) ([JSTOR](http://www.jstor.org/stable/2001017))
+* {#BrownSzczarba90} [[Edgar Brown]], [[Robert H. Szczarba]], _Continuous cohomology and Real homotopy type II_ Asterisque 191, Societe Mathematique De France (1990) ([numdam:AST_1990__191__45_0](http://www.numdam.org/book-part/AST_1990__191__45_0))
+
+with emphasis on globally [[Kan complex|Kan fibrant]] [[simplicial topological spaces]] (such as [[simplicial topological groups]]);
+
+* {#BrownSzczarba89} [[Edgar H. Brown]], [[Robert H. Szczarba]], *Continuous cohomology and real homotopy type* , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([doi:10.1090/S0002-9947-1989-0929667-6](https://doi.org/10.1090/S0002-9947-1989-0929667-6),  [pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
+
+with arbitrary [[fundamental group]]:
+
+* [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
