@@ -151,10 +151,38 @@ $$
 
 is an inner product as required.  Notice that the sum is well defined by [[locally finite cover|local finiteness]] of the supports of the partition functions $f_i$. Hence it is pointwise a finite sum of positive definite symmetic bilinear forms on $E_x$, and as such itself pointwise a positive definite symmetric bilinear form.
 
-
-
-
 =--
+
+
+## Related concepts
+
+* [[vector bundle]] 
+   
+  * [[real vector bundle]]
+
+  * [[complex vector bundle]]
+
+    * [[holomorphic vector bundle]], [[pseudoholomorphic vector bundle]]
+
+  * [[universal vector bundle]]
+
+  * [[dual vector bundle]]
+
+  * [[module bundle]]
+
+  * [[direct sum of vector bundles]]
+
+  * [[short exact sequence of vector bundles]]
+ 
+  * [[connection on a vector bundle]]
+
+  * [[flat vector bundle]]
+
+  * [[real vector bundle]], [[complex vector bundle]]
+
+  * [[super vector bundle]]
+
+
 
 ## References
 
@@ -164,7 +192,7 @@ Discussion with an eye towards [[topological K-theory]] is in
 
 * [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
 
-* {#Hatcher} [[Allen Hatcher]], section 1.1 of _Vector bundles and K-Theory_, (partly finished book) [web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+* {#Hatcher} [[Allen Hatcher]], section 1.1 of: _Vector bundles and K-Theory_ ([webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf))
 
 
 [[!redirects inner products on vector bundles]]
