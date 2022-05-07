@@ -50,9 +50,15 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 ## Properties
 
-### Elmendorf's theorem
+### Equivariant CW-approximation
 
-The collection of $G$-CW-complexes has a [[full sub-(infinity,1)-category|full embedding]] into the [[(infinity,1)-presheaves]] on the [[orbit category]] $Orb(G)$.  This is given by sending a $G$-CW complex, $Y$, to the presheaf sending $G/H$ to $Y^H$, the subspace of $Y$ fixed by $H$.
+See at _[[G-CW approximation]]_.
+
+### Equivariant Whitehead theorem
+
+See at _[[equivariant Whitehead theorem]]_.
+
+### Elmendorf's theorem
 
 See at _[[Elmendorf's theorem]]_.
 
