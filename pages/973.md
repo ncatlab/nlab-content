@@ -427,8 +427,18 @@ The category of sketches itself was studied as a [[categorical semantics]] for [
 
 * {#Gray} [[John W. Gray]], _The Category of Sketches as a Model for Algebraic Semantics_, Categories in Computer Science and Logic: Proceedings of the AMS-IMS-SIAM Joint Summer Research Conference Held June 14-20, 1987 with Support from the National Science Foundation. Vol. 92. American Mathematical Soc., 1989.
 
+See also
+
+* [[Martin Brandenburg]], *Large limit sketches and topological space objects* ([arXiv:2106.11115](https://arxiv.org/abs/2106.11115))
+
 
 [[!redirects sketches]]
+
 [[!redirects finite product sketch]]
+[[!redirects finite product sketches]]
+
 [[!redirects finite limit sketch]]
 [[!redirects finite limit sketches]]
+
+[[!redirects limit sketch]]
+[[!redirects limit sketches]]
