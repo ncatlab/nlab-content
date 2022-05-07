@@ -49,7 +49,18 @@ The [[homotopy type]] of the [[interval]] can be encoded as
     | segment : zero == one.
 
 See [[interval type]].  The interval can be proven to be [[contractible type|contractible]].  On the other hand, if the constructors `zero` and `one` satisfy their elimination rules definitionally, then the existence of an interval type implies [[function extensionality]]; see [this blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/).
-The interval can be defined as the -1-truncation of the booleans; see [here](https://groups.google.com/d/msg/homotopytypetheory/-5mLEi_qMTo/gpNUsmI-ZT4J).
+The interval can be defined as the -1-truncation of the booleans; see [here](https://groups.google.com/d/msg/homotopytypetheory/-5mLEi_qMTo/gpNUsmI-ZT4J): 
+
+    Inductive interval : Type :=
+    | inj : boolean -> interval
+    | contr0 : forall (p q : interval) p == q
+
+Or more directly: 
+
+    Inductive interval : Type :=
+    | zero : interval
+    | one : interval
+    | contr0 : forall (p q : interval) p == q
 
 ### The 2-sphere
 
@@ -107,6 +118,23 @@ The (homotopy) [[homotopy pushout|pushout]] of $f \colon A\to B$ and $g\colon A\
     | inl : B -> hpushout f g
     | inr : C -> hpushout f g
     | glue : forall (a : A), inl (f a) == inr (g a).
+
+### Disjunctions
+
+The [[disjunction]] of two types $A$ and $B$, yielding an [[hProp]]: 
+
+    Inductive disjunction (A B:Type) : Type :=
+    | inl : A -> disjunction A B
+    | inr : B -> disjunction A B.
+    | contr0 : forall (p q : disjunction A B) p == q
+
+### Existential quantifiers
+
+The [[existential quantifier]] of a type $A$ and a type family $B:A \to Type$, yielding an [[hProp]]: 
+
+    Inductive existquant (A:Type) (B:A->Type) : Type :=
+    | exist : forall (x:A), B x -> existquant A B
+    | contr0 : forall (p q : existquant A B) p == q
 
 ### Quotients of sets
  {#QuotientsOfSets}
