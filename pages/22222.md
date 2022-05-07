@@ -74,4 +74,5 @@ See also:
 [[!redirects multi-adjoints]]
 [[!redirects multiadjoint]]
 [[!redirects multiadjoints]]
-
+[[!redirects left multiadjoint]]
+[[!redirects left multiadjoints]]
