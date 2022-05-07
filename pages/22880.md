@@ -1,6 +1,11 @@
 
 ## Selected writings
 
+
+On the [[moduli space of Yang-Mills monopoles]] and [[rational maps]] to [[complex projective spaces]]:
+
+* [[Charles P. Boyer]], [[B. M. Mann]], *Monopoles, non-linear $\sigma$-models, and two-fold loop spaces*,  Commun. Math. Phys. 115, 571–594 (1988) ([arXiv:10.1007/BF01224128](https://doi.org/10.1007/BF01224128))
+
 On [[homotopy type of spaces of rational maps]]:
 
 * [[Fred Cohen]], [[Ralph Cohen]], [[B. M. Mann]], [[R. J. Milgram]], _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
