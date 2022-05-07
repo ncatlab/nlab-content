@@ -23,6 +23,8 @@ The counterexamples here should serve as specimens of possible pittfalls in cate
 
 1. Let $C$ be a category without an [[initial object]] and let $R : C \to 1$ be the unique functor from $C$ into the [[terminal category]]. Then $R$ preserves all limits but does not have a left adjoint because this left adjoint would have to send the unique object of 1 to an initial object. 
 
+1. [[dense functor | Dense functors]] are not closed under composition. For example, $\Delta_{\lt 2}$ is dense in the [[simplex category]] $\Delta$ and $\Delta$ is dense in $\mathbf{Cat}$, but $\Delta_{\lt 2}$ is not dense in $\mathbf{Cat}$.
+
 
 ## See also
 
