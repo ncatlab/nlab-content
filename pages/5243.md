@@ -89,11 +89,11 @@ Introduction and review:
 
 Original articles:
 
-* K. Oka, _Sur les fonctions des plusieurs variables. III: Deuxi&#232;me probl&#232;me de Cousin_, J. Sc. Hiroshima Univ. __9__, 7&#8211;19 (1939)
+* [[Kiyoshi Oka]], _Sur les fonctions des plusieurs variables. III: Deuxi&#232;me probl&#232;me de Cousin_, J. Sc. Hiroshima Univ. __9__, 7&#8211;19 (1939) ([doi:10.32917/hmj/1558490525](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-9/issue-none/Sur-les-fonctions-analytiques-de-plusieurs-variables-IIIDeuxi%c3%a8me-probl%c3%a8me-de/10.32917/hmj/1558490525.full))
 
-* {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) [doi](http://dx.doi.org/10.1007/BF01351803)
+* {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) ([doi:10.1007/BF01351803](http://dx.doi.org/10.1007/BF01351803))
  
-* [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897.
+* [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
 
 * [[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874, [arxiv/0705.0591](http://arxiv.org/abs/0705.0591)
 
