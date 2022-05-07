@@ -182,13 +182,11 @@ If $S^1 = \ast \underset{\ast \coprod \ast}{\coprod} \ast$ denotes the [[homotop
 
 Section 7.7 of 
 
-* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
-  {#Rezk}
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
 
 Section 6.2.3 of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-  {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects effective epimorphism in an (∞,1)-category]]
 [[!redirects effective epimorphisms in an (∞,1)-category]]
