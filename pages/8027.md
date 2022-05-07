@@ -75,7 +75,7 @@ The origin of the AGT correspondence is:
 
 The [[2d TQFT]] obtained from this by forming the 4d index is discussed in 
 
-* {#GPRR10} Abhijit Gadde, Elli Pomoni, Leonardo Rastelli, Shlomo S. Razamat, _S-duality and 2d Topological QFT_, JHEP 1003:032, 2010 ([arXiv:0910.2225](http://arxiv.org/abs/0910.2225))
+* {#GPRR10} Abhijit Gadde, Elli Pomoni, [[Leonardo Rastelli]], Shlomo S. Razamat, _S-duality and 2d Topological QFT_, JHEP 1003:032, 2010 ([arXiv:0910.2225](http://arxiv.org/abs/0910.2225))
 
 Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]]
 
