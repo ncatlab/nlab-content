@@ -501,7 +501,7 @@ $$
   \;\colon\;
   \Delta[1]
   \longrightarrow
-  \mathbf{B}G
+  \mathbf{B} \mathbb{Z}
 $$
 
 acts on the morphisms 
