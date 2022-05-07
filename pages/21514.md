@@ -7,4 +7,7 @@ On a [[model structure on diffeological spaces]] (beware: for non-standard diffe
 
 * [[Hiroshi Kihara]], _Model category of diffeological spaces_, Journal of Homotopy and Related Structures, (2018), 1-40 ([arXiv:1605.06794](https://arxiv.org/abs/1605.06794))
 
+* [[Hiroshi Kihara]], *Quillen equivalences between the model categories of smooth spaces, simplicial sets, and arc-gengerated spaces* ([arXiv:1702.04070](https://arxiv.org/abs/1702.04070))
+
+
 category: people
