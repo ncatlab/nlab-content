@@ -290,6 +290,7 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 
 
 ### Over coset spaces
+ {#OverCosetSpaces}
 
 \begin{prop}\label{EquivariantCosetSpaceBundles}
 **(semidirect product coset space bundles are locally trivial)**
@@ -337,6 +338,84 @@ Then the induced [[bundle]] of [[coset spaces]], shown on the right of (eq:Equiv
 \end{prop}
 
 This is [tom Dieck 69, Lemma in Sec. 2.1](#tomDieck69)
+
+\begin{proof}
+
+The first statement is evident. 
+
+For the second statement, let $\sigma$ denote a local section over an open subset $U \subset G/H$:
+
+$$
+  \array{
+    &&
+    G_{\vert \mathcal{U}}
+    &\longrightarrow&
+    G
+    \\
+    &
+    {}^{\mathllap{
+      \sigma
+    }}
+    \nearrow
+    &
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow 
+    \\
+    U 
+    &=&
+    U
+    &\longrightarrow&
+    G/H
+    \mathrlap{\,,}
+  }
+$$
+
+We claim that then
+
+$$
+  \array{
+    \Gamma \times U
+    &&
+    \underoverset
+     {\simeq}
+     {
+       (\gamma,u)
+       \mapsto
+       [\gamma,\sigma(u)]
+     }
+     {
+      \longrightarrow
+    }
+    &&
+    \big( 
+      \Gamma \times_\alpha G
+    \big) / Q
+    \\
+    & \searrow && \swarrow
+    \\
+    && U
+  }
+$$
+
+is an [[isomorphism]], of $\Gamma$-[[principal bundles]] over $U \subset G/H$.
+
+* It is clear by construction that that the map is 
+
+  1. [[continuous function|continuous]].
+
+  1. $\Gamma$-equivariant.
+
+* To see that that map is an isomorphism it is sufficient to see that it is so over each $u \in U$:
+
+* Injectivity here follows from the fact that $Q$ is a lift of $H$, so that the unique element lifting the [[neutral element]] is the neutral element.
+
+* To see that the map is surjective over each $u \in U$: 
+
+  That $[\gamma, g] \in \big( \Gamma \rtimes_\alpha G \big)/Q$ is in the fiber over $u$ means that $ g^{-1} \sigma(u) \in H \subset G$. Then for $q \in Q$ the unique element with $pr_2(q) = g^{-1} \sigma(u)$ we see that $[\gamma, g] = \big[ (\gamma,g) \cdot q \big] = [\cdots, \sigma(u)]$, which is manifesty in the image of our map.
+
+\end{proof}
+
 
 In fact every equivariant principal bundle over a coset space is of this form:
 
