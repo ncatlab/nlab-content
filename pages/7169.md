@@ -21,7 +21,7 @@
 
 On a [[space]] of suitable even [[dimension]] the _[[cup product]]_ on suitable mid-dimensional [[cohomology]] is often called the _intersection product_ -- this, or its evaluation on the [[fundamental class]] of the whole space.
 
-Under [[Poincaré duality]] these cohomology classes may corrrespond to [[cycles]] and then under suitable conditions or in a suitable sense, the cup product dually counts (or otherwise detects) literally the [[intersection]] points of the two subspaces, whence the name. It is the topic of _[[intersection theory]]_ to make this statement precise, classical results to this extent include [[Bézout's theorem]] and its refinement to the [[Serre intersection formula]].
+Under [[Poincaré duality]] these cohomology classes may correspond to [[cycles]] and then under suitable conditions or in a suitable sense, the cup product dually counts (or otherwise detects) literally the [[intersection]] points of the two subspaces, whence the name. It is the topic of _[[intersection theory]]_ to make this statement precise, classical results to this extent include [[Bézout's theorem]] and its refinement to the [[Serre intersection formula]].
 
 If here [[cohomology]] is replaced by [[differential cohomology]] then [[quadratic refinements]] of the intersection product provide the [[Lagrangians]] for [[higher dimensional Chern-Simons theory]] and govern the structure of [[self-dual higher gauge theory]]. See there for more.
 
@@ -56,7 +56,7 @@ The [[signature of a quadratic form]] of the [[quadratic form]] induced by the i
 
 In dimension 4, see also:
 
-* Wikipedia, _[Intersection form (4-manifold)](http://en.wikipedia.org/wiki/Intersection_form_(4-manifold))_
+* Wikipedia, _[Intersection form (4-manifold)](http://en.wikipedia.org/wiki/Intersection_form_%284-manifold%29)_.
 
 ### In $\mathbb{Z}_2$-cohomology
 
