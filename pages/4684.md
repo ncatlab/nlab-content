@@ -444,8 +444,17 @@ Then the [[gluing functions]] for the Euclidean charts on $S$ are $k$-fold diffe
 
 See the examples at _[[differentiable manifold]]_.
 
+## Related concepts
+
+* [[triangulation theorem]]
+
 
 ## References
+
+Historical articles:
+
+* [[Hellmuth Kneser]], *Die Topologie der Mannigfaltigkeiten*, Jahresbericht der Deutschen Mathematiker-Vereinigung (1926), Volume: 34, page 1-13 ([eudml:145701](https://eudml.org/doc/145701))
+
 
 Textbook accounts:
 
