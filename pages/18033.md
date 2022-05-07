@@ -44,6 +44,9 @@ provide, via [[AdS/CFT]], a precise and detailed construction of [[large-N limit
 
 * Johan Henriksson, _Analytic Bootstrap for Perturbative Conformal Field Theories_ ([arXiv:2008.12600](https://arxiv.org/abs/2008.12600))
 
+* Pedro Liendo, Zhengwen Liu, Junchen Rong, *The old conformal bootstrap revisited* ([arXiv:2108.07295](https://arxiv.org/abs/2108.07295))
+
+
 See also
 
 * Wikipedia, _[Conformal bootstrap](https://en.wikipedia.org/wiki/Conformal_bootstrap)_
