@@ -279,10 +279,13 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 
 * {#fb} [[Francis Borceux]], Section 2.11 of: _[[Handbook of Categorical Algebra]] 1, Basic category theory_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
-  > (this says "final functor" for the version under which limits are invariant_
+  > (this says "final functor" for the version under which limits are invariant)
 
 * {#Riehl14} [[Emily Riehl]], Section 8.3 of: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
+* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+
+  > (this says "confinal functor" for the version under which colimits are invariant)
 
 
 [[!redirects cofinal functor]]
