@@ -60,7 +60,7 @@ Under the identifications
 
 1. [[relation between type theory and category theory]]
 
-The following notions are equivalent:
+the following notions are equivalent:
 
 | In [[intuitionistic mathematics|intuitionistic]] [[logic]] <br/> and [[type theory]]: | In  [[programming languages]] <br/> and [[computation]]: | In [[category theory]] <br/> and [[topos theory]]: |
 |--|--|--|
@@ -117,8 +117,7 @@ The following notions are equivalent:
 
 \end{tikzpicture}
 
-
-Whence these three subjects are but three perspectives on a single underlying phenomenon.
+whence these three subjects are but three perspectives on a single underlying phenomenon.
 
 This insight dates from the late 1970s; an early record is [Lambek & Scott 86](#LambekScott86); it is explicitly highlighted as a *trilogy* ([Wikipedia](https://en.wikipedia.org/wiki/Trilogy): "three works of art that are connected and can be seen either as a single work or as three individual works") in [Melliès 06, Sec. 1](#Mellies06):
 
