@@ -38,15 +38,15 @@ $$
 ### In equivariant homotopy theory
   {#InEquivariantHomotopyTheory}
 
-In [[equivariant homotopy theory]] one uses the term _Weyl group_ more general for the [[quotient group]] 
+In [[equivariant homotopy theory]] one uses the term _Weyl group_ more generally for the [[quotient group]] 
 
 $$
   W_G H = (N_G H) / H
 $$ 
 
-of the [[normalizer]] of any [[subgroup]] $H \hookrightarrow G$ by that subgroup (e.g. [May 96, p. 13](#May96)). 
+of the [[normalizer]] of a given [[subgroup]] $H \hookrightarrow G$ by that subgroup (e.g. [May 96, p. 13](#May96)). 
 
-The relevance of the Weyl group in this sense is that it is the maximal group which canonically [[action|acts]] on $H$-[[fixed points]] of a [[topological G-space]]. (See for instance at _[[tom Dieck splitting]]_.) 
+The relevance of the Weyl group in this sense is that it is the maximal group which canonically [[action|acts]] on $H$-[[fixed points]] of a [[topological G-space]]. (See at _[Change of equivariance group and fixed loci](topological+G-space#ChangeOfGroupsAndFixedLoci) for details and, e.g. at _[[tom Dieck splitting]]_ for applications) .
 
 This may be seen from the fact that the Weyl group of $H \subset G$ is the [[automorphism group]] of the [[coset space]] $G/H$ in the [[orbit category]] of $G$:
 
