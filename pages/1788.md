@@ -114,6 +114,18 @@ $$
 
 \linebreak
 
+* fields, observables, states, positivity
+
+* foundations $\Rightarrow$ Tate-sphere Cohomotopy on orbifolds
+
+* reduces
+
+  * at singulartities to equivariant Cohomotopy
+
+  * away from  singularities to J-twisted Cohomotopy.
+
+
+\linebreak
 $$
   \delta_i a_{j k}
   + 
@@ -154,6 +166,8 @@ $$
   (d \rho_{i_0}) a_{i_0 i}
 $$
 
+\linebrr
+
 
 \linebreak
 
@@ -166,4 +180,8 @@ $$
   \;=\;
   a_{i j}
 $$
+
+
+\linebreak
+
 
