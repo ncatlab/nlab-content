@@ -6,7 +6,13 @@ Andrew Gleason was the Hollis Professor of Mathematics and Natural Philosophy at
 
 * [biography](http://en.wikipedia.org/wiki/Andrew_Gleason) (brief)
 
+
 ## Selected writings
+
+On [[extremally disconnected topological spaces]] as [[projective objects]]:
+
+* {#Gleason58} [[Andrew M. Gleason]], _Projective topological spaces_ , Ill. J. Math. **2** no.4A (1958) pp.482-489. ([euclid:ijm/1255454110](https://projecteuclid.org/euclid.ijm/1255454110))
+
 
 On [[equivariant Tietze extension theorems]] and on the [[slice theorem]]:
 
@@ -33,3 +39,7 @@ On [[Gleason's theorem]]:
 * [[equivariant Tietze extension theorem]]
 
 category: people
+
+[[!redirects Andrew M. Gleason]]
+
+
