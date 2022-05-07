@@ -54,7 +54,7 @@ The idea of semi-topological 4d CS theory, and its relation to [[Yangians]] and 
 
 * [[Kevin Costello]], [[Masahito Yamazaki]],  _Gauge Theory And Integrability, III_ ([arxiv:1908.02289](https://arxiv.org/abs/1908.02289))
 
-* [[Meer Ashwinkumar]], _Integrable Lattice Models and Holography_ ([arXiv:2003.08931](https://arxiv.org/abs/2003.08931))
+* [[Meer Ashwinkumar]], _Integrable Lattice Models and Holography_, JHEP 02 (2021) 227 ([arXiv:2003.08931](https://arxiv.org/abs/2003.08931))
 
 Rigorous discussion using [[homotopy theory]] (see at [[homotopical AQFT]]):
 
