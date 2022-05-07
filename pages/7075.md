@@ -89,7 +89,7 @@ In other words, the Hopf fibration is the $U(1)$-bundle with unit first [[Chern 
 An explicit [[topological space]] presenting the Hopf fibration may be obtained as follows. Identify
 
 $$ 
-  S^3 \simeq \{(z_0, z_1) \in \mathbb{C}\times \mathbb{C} \,|\, {|z_0|}^2 + {|z_1|}^2 = 1\}
+  S^3 \simeq \{(z_0, z_1) \in \mathbb{C}\times \mathbb{C} \,|\, {|z_0|}^2 + {|z_1|}^2 = 1\} = S(\mathbb{C}^2)
 $$
 
 and
@@ -105,7 +105,7 @@ gives the Hopf fibration. (Thus, the Hopf fibration is a circle bundle naturally
 $$
   S^2 \simeq \{(z, x) \in \mathbb{C} \times \mathbb{R} 
   \,|\,
-  {|z|}^2 + x^2 = 1\}
+  {|z|}^2 + x^2 = 1\} = S(\mathbb{C} \times \mathbb{R})
   \,.
 $$
 
