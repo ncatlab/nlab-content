@@ -195,10 +195,10 @@ The category $Singularities$ in Def. \ref{CategoryOfSingularities}, when general
 ###### Proposition
 **([[global equivariant homotopy theory]] [[cohesive (∞,1)-topos|cohesive]] over [[base (∞,1)-topos]])**
 
-Let $\mathbf{H}$ be any [[(∞,1)-topos]] and consider the [[(∞,1)-category of (∞,1)-presheaves]] on the category of singularities (Def. \ref{CategoryOfSingularities}) over the [[base (∞,1)-topos]] $\mathbf{H}$, hence the [[(∞,1)-functor (∞,1)-category]]
+Let $\mathbf{H}_{\subset}$ be any [[(∞,1)-topos]] and consider the [[(∞,1)-category of (∞,1)-presheaves]] on the category of singularities (Def. \ref{CategoryOfSingularities}) over the [[base (∞,1)-topos]] $\mathbf{H}$, hence the [[(∞,1)-functor (∞,1)-category]]
 
 $$
-  \mathbf{H}_{sing}
+  \mathbf{H}
   \;\coloneqq\;
   Sh_\infty\big( Singularities, \mathbf{H}\big)
   \;=\;
@@ -206,18 +206,18 @@ $$
   \,.
 $$
 
-This is a [[cohesive (∞,1)-topos]] over the [[base (∞,1)-topos]] $\mathbf{H}$ in that the [[global section]]-[[geometric morphisms]] enhances to an [[adjoint quadruple]] of [[adjoint (∞,1)-functors]]
+This is a [[cohesive (∞,1)-topos]] over the [[base (∞,1)-topos]] $\mathbf{H}_{\subset}$ in that the [[global section]]-[[geometric morphisms]] enhances to an [[adjoint quadruple]] of [[adjoint (∞,1)-functors]]
 
 \[
   \label{SingularitiesAdjointQuadruple}
   \big(
-    \Pi_{sing}
+    Cncl
     \dashv
-    Disc_{sing}
+    Spc
     \dashv
-    \Gamma_{sing}
+    Smth
     \dashv
-    coDisc_{sing}
+    Snglrt
   \big)
   \;\colon\;
   \mathbf{H}_{sing}
@@ -227,37 +227,41 @@ This is a [[cohesive (∞,1)-topos]] over the [[base (∞,1)-topos]] $\mathbf{H}
 
 such that
 
-1. $Disc_{sing}, coDisc_{sing} \;\colon\; \mathbf{H} \to \mathbf{H}_{sing}$ are [[fully faithful (∞,1)-functors]];
+1. $Spc, Snglrt \;\colon\; \mathbf{H} \to \mathbf{H}_{sing}$ are [[fully faithful (∞,1)-functors]];
 
-1. $\Pi_{sing}$ preserves [[finite products]].
+1. $Cncl$ preserves [[finite products]].
 
 hence inducing an [[adjoint triple]] of [[adjoint modalities]]
 
 $$
-  &#643;_{sing}
+  \boxed{
+    \lt
+  }
+  \;
   \dashv 
-  \flat_{sing}
+  \;
+  \boxed{\subset}
+  \;
   \dashv
-  \sharp_{sing}
+  \;
+  \boxed{\prec}
   \;\colon\;
-  \mathbf{H}_{sing} \to \mathbf{H}_{sing}
+  \mathbf{H} \to \mathbf{H}
 $$
-
-("[[shape modality|shape]]", "[[flat modality|flat]]", "[[sharp modality|sharp]]" for singularities).
 
 Moreover, for $G$ a [[finite group]] regarded under the inclusion
 
 $$
-  G \in Grp \overset{Disc}\hookrightarrow Grp(\mathbf{H}) \overset{Disc_{sing}}{\hookrightarrow} Grp\left(\mathbf{H}_{sing}\right)
+  G \in Grp \overset{Disc}\hookrightarrow Grp(\mathbf{H}_{\subset}) \overset{Spc}{\hookrightarrow} Grp\left(\mathbf{H}\right)
 $$
 
 and writing 
 
 $$
-  \mathbf{B}G \in \mathbf{H}_{sing}
+  \mathbf{B}G \in \mathbf{H}_{\subset}
 $$
 
-for its [[delooping]] under $Grp\left( \mathbf{H}_{sing} \right) \underoverset{\simeq}{\mathbf{B}}{\longrightarrow} \mathbf{H}^{\ast/}_{cn}$,
+for its [[delooping]] under $Grp\left( \mathbf{H}_{\subset} \right) \underoverset{\simeq}{\mathbf{B}}{\longrightarrow} \mathbf{H}_{\subset}^{\ast/}_{cn}$,
 
 in constrast to the [[(∞,1)-Yoneda embedding]]
 
@@ -265,8 +269,8 @@ $$
   \mathbb{B}G 
   \overset{y}{\longrightarrow}
   Sh_\infty\left( Singularities, \infty \mathrm{Grpd}\right)
-  \overset{Disc}{\longrightarrow}
-  Sh_\infty\left( Singularities, \mathbf{H}\right)
+  \overset{Dsc}{\longrightarrow}
+  Sh_\infty\left( Singularities, \mathbf{H}_{\subset}\right)
 $$ 
 
 we have
@@ -274,11 +278,19 @@ we have
 \[
   \label{ShapeOfOrbifoldSingularity}
   \begin{aligned}
-     &#643;_{sing} \mathbb{B}G 
-     & \simeq\; \ast/G = \ast
+     \boxed{\lt} \mathbb{B}G 
+     & 
+     \;\simeq\; 
+     \ast/G 
+     \,=\, 
+     \ast
      \\
-     \flat_{sing} \mathbb{B}G 
-     &\simeq\; \ast \sslash G = \mathbf{B}G
+     \boxed{\subset} \mathbb{B}G 
+     &
+     \;\simeq\; 
+     \ast \sslash G 
+     \,=\, 
+     \mathbf{B}G
   \end{aligned}
 \]
 
@@ -306,12 +318,12 @@ Conversely we have:
 ###### Proposition
 **([[orbifold]] [[singularities]] are the [[codiscrete object|codiscrete]] aspect of [[homotopy quotients]]**)
 
-Let $\mathbf{H}$ itself be a [[cohesive (∞,1)-topos]] over [[∞Groupoids]]
+Let $\mathbf{H}_{\subset}$ itself be a [[cohesive (∞,1)-topos]] over [[∞Groupoids]]
 
 $$
-  (\Pi \dashv Disc \dashv \Gamma \dashv coDisc)
+  (Shp \,\dashv\, Dsc \,\dashv\, Pnt \,\dashv\, Cht)
   \;\colon\;
-  \mathbf{H} \leftrightarrow \infty Groupoids
+  \mathbf{H}_{\subset} \leftrightarrow \infty Groupoids
   \,.
 $$
 
@@ -319,7 +331,7 @@ $$
 Then in the situation of Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}
 
 $$
-  coDisc_{sing} \mathbf{B}G
+  \prec \mathbf{B}G
   \;\simeq\;
   \mathbb{B}G
   \,.
@@ -330,10 +342,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $\mathcal{S}$ be a cohesive [[(∞,1)-site]] of definition for $\mathbf{H}$, so that 
+Let $\mathcal{S}$ be a cohesive [[(∞,1)-site]] of definition for $\mathbf{H}_{\subset}$, so that 
 
 $$
-  \mathbf{H}_{sing}
+  \mathbf{H}
   \;\simeq\;
   Sh_\infty
   \left(
@@ -343,30 +355,35 @@ $$
   \right)
 $$
 
-and $\Pi(S) \simeq \ast$ for $S \in \mathcal{S} \overset{y}{\hookrightarrow} \mathbf{H}$.
+and $Shp(S) \simeq \ast$ for $S \in \mathcal{S} \overset{y}{\hookrightarrow} \mathbf{H}_{\subset}$.
 
 Then as [[(∞,1)-presheaves]] regarded this way we have
 
 $$
   \begin{aligned}
-    coDisc_{sing} \mathbf{B}G
+    \prec \mathbf{B}G
     \;\colon\;
     S \times \mathbb{B}K 
     & \mapsto
-    \mathbf{H}_{sing}\left( S \times \mathbb{B}K, coDisc_{sing} Disc \mathbf{B}G \right)
+    \mathbf{H}
+    \left( 
+       S \times \mathbb{B}K
+       ,\,
+       \prec Dsc \mathbf{B}G 
+    \right)
     \\
     & \simeq
-    \mathbf{H}\big( 
+    \mathbf{H}_{\subset}\big( 
        S 
          \times 
        \underset{
          \simeq \mathbf{B}K
        }{
        \underbrace{
-         \Gamma_{sing}\left( \mathbb{B}K\right)
+         Smth \left( \mathbb{B}K\right)
        }}
-       , 
-       Disc \mathbf{B}G 
+       ,\,
+       Dsc \mathbf{B}G 
     \big)    
     \\
     & \simeq
@@ -375,7 +392,7 @@ $$
          \simeq \mathbf{B}K
        }{
        \underbrace{
-         \Pi(S \times \mathbf{B}K)
+         Shp(S \times \mathbf{B}K)
        }}
        \,,
        \mathbf{B}G 
@@ -393,8 +410,9 @@ $$
     \big)
     \\
     & \simeq
-    \mathbf{H}_{sing}\big(
-       S \times \mathbb{B}K, 
+    \mathbf{H}\big(
+       S \times \mathbb{B}K
+       ,\, 
        \mathbb{B}G
     \big)
   \end{aligned}
@@ -422,18 +440,18 @@ Just for the record:
 
 +-- {: .num_lemma #GammaPreservesnTruncatedMorphisms}
 ###### Lemma
-**($\Gamma_{sing}$ preserves [[n-truncated object in an (∞,1)-category|n-truncated morphisms]])**
+**($Smth$ preserves [[n-truncated object in an (∞,1)-category|n-truncated morphisms]])**
 
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its [[globally equivariant homotopy theory]] from Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}.
+Let $\mathbf{H}_{\subset}$ be a [[cohesive (∞,1)-topos]] with $\mathbf{H}_{sing}$ its [[globally equivariant homotopy theory]] from Prop. \ref{CohesionOfGlobalEquivariantHomotopyTheory}.
 
 Then in particular the functor (eq:SingularitiesAdjointQuadruple)
 
 $$
-  \Gamma_{sing}
+  Smth
   \;\colon\;
-  \mathbf{H}_{sing}
-  \longrightarrow
   \mathbf{H}
+  \longrightarrow
+  \mathbf{H}_{\subset}
 $$
 
 preserves [[n-truncated object in an (∞,1)-category|n-truncated morphisms]] for all $n$.
