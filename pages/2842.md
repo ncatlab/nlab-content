@@ -638,7 +638,7 @@ Original articles:
 
 * {#Strom66} [[Arne Strøm]], _Note on cofibrations_,  Math. Scand.  **19** (1966) 11-14 ([jstor:24490229](https://www.jstor.org/stable/24490229), [dml:165952](https://eudml.org/doc/165952), MR0211403)
 
-* {#Strom68} [[Arne Strøm]], _Note on cofibrations II_,  Math. Scand.  **22** (1968) 130--142 (1969) ([jstor:24489730](https://www.jstor.org/stable/24489730), [dml:166037](https://eudml.org/doc/166037), MR0243525)
+* {#Strom68} [[Arne Strøm]], _Note on cofibrations II_,  Math. Scand.  **22** (1968) 130--142 ([jstor:24489730](https://www.jstor.org/stable/24489730), [dml:166037](https://eudml.org/doc/166037), MR0243525)
 
 * [[Dieter Puppe]], _Bemerkungen &#252;ber die Erweiterung von Homotopien_, Arch. Math. (Basel) 18 1967 81--88 ([doi:10.1007/BF01899475](http://dx.doi.org/10.1007/BF01899475), MR0206954)
 
