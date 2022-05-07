@@ -234,6 +234,13 @@ Other identifications/analogies of the Riemann zeta function (and more generally
 
 See also at _[[function field analogy]]_.
 
+
+## Related concepts
+
+* [[Riemann hypothesis]]
+
+
+
 ## References
 
 
