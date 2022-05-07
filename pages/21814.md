@@ -25,7 +25,7 @@ A _defect brane_ ([Bershoeff-Ortin-Riccioni 11](#BershoeffOrtinRiccioni11)) is a
 
 An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensional spacetime, hence as a codimension-2 "0-brane". This suggests that general codimension-2 defect branes may serve as string-theoretic models for anyons. 
 
-(This observation is briefly mentioned in [deBoer & Shigemori 2012, p. 65](#deBoerShigemori12)).
+This general observation is briefly mentioned in [deBoer & Shigemori 2012, p. 65](#deBoerShigemori12). Concrete implementation of anyonic defect strings in [[4d TQFT]] is discussed in [Kong, Tian & Zhang 2020, Sec. 2.2](#KongTianZhang20).
 
 
 ## Related concepts
@@ -80,6 +80,9 @@ and in [[D=5 supergravity]]:
 
 * [[Masaki Shigemori]], *Interpolating between multi-center microstate geometries*, JHEP 09 (2021) 010 ([arXiv:2105.11639](https://arxiv.org/abs/2105.11639))
 
+and in the [[3d toric code]]-[[4d TQFT]]:
+
+* {#KongTianZhang20} [[Liang Kong]], Yin Tian, Zhi-Hao Zhang, Section 2.2 of: *Defects in the 3-dimensional toric code model form a braided fusion 2-category*, J. High Energ. Phys. 2020, 78 (2020) ([arXiv:2009.06564](https://arxiv.org/abs/2009.06564), <a href="https://doi.org/10.1007/JHEP12(2020)078">doi:10.1007/JHEP12(2020)078</a>)
 
 [[!redirects defect branes]]
 
