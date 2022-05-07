@@ -70,6 +70,10 @@ The last fact is closely connected to this: $FinSet$, made symmetric monoidal us
 
 All these universal properties have useful duals.  $FinSet^{op}$ is the free category with finite products on one object and also the free category with finite limits on one object; the symmetric monoidal category $(FinSet, +)^{op}$ is equivalent to the PROP for cococommutative comonoids.
 
+### In Grpd
+
+$FinSet$ is a [[natural numbers object]] in the [[(2,1)-topos]] [[Grpd]] of [[groupoids]] and [[functors]]. It is also a [[free object|free]] [[monoid object]] on one generator in [[Grpd]], an [[initial object|initial]] [[rig object]] in [[Grpd]], and a [[Heyting category|Heyting algebra object]] in [[Grpd]]. This all follows from tye fact that the category $FinSet$ is the [[vertical categorification]] of the [[poset]] $\mathbb{N}$ of natural numbers. 
+
 ### In topos theory
 
 The category $FinSet$ is an [[elementary topos]] and the inclusion $FinSet \hookrightarrow Set$ is a [[logical morphism]] of toposes. ([[Elephant|Elephant, example 2.1.2]]).
