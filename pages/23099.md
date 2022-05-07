@@ -82,9 +82,9 @@ based on
 
 * {#BrownSzczarba93} [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
-and further developed in
+with related discussion in 
 
-* [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
+* {#GomezTatoHalperinTanre00} [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
 
 which is reviewed in:
 
