@@ -6,7 +6,13 @@ He is on the Steering Board of the Journal '[[Compositionality]]'.
 
 * [Homepage](http://maths.mq.edu.au/~slack/) of Steve Lack.
 
-## Some papers including preprints
+## Selected writings
+
+On [[extensive categories]] and [[distributive categories]]:
+
+* {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
+
+See also:
 
 * John Bourke and Stephen Lack, Skew monoidal categories and skew multicate- gories, Journal of Algebra, 506:237–266, 2018.
 
