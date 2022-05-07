@@ -31,7 +31,7 @@ Due to the genuinely [[infinity-category|omega-categorical]] nature of the setup
 
 Introducing an [[axiom]] to this system just means postulating terms of (the type of) the shape of prescribed [[opetopes]]. For example: 
 
-* **$n$-trunction** -- For the language inside an [[(infinity,n)-category]] one demands that all [[k-morphisms]] for $k \geq n+1$ are marked as [[equivalences]];
+* **$n$-truncation** -- For the language inside an [[(infinity,n)-category]] one demands that all [[k-morphisms]] for $k \geq n+1$ are marked as [[equivalences]];
 
 * **$k$-adjoints** -- To axiomatize that two $k$-morphism are [[left adjoint]] and [[right adjoint]] to each other, respectively, one postulates the existence of $k+1$-morphisms serving as [[unit of an adjunction]] and [[counit of an adjunction]] and of a [[3-morphism]] marked as [[equivalence]] which axiomatizes the [[zig-zag identities]].
 
