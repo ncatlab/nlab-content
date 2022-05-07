@@ -57,6 +57,11 @@ Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantu
 
 
 
+[[!include anyons in topological superconductors -- references]]
+
+
+
+
 
 ### Experimental detection of anyons
  {#ExperimentalRealization}
@@ -80,9 +85,13 @@ The claimed observation of abelian anyons is apparently more securely establishe
 
 
 
+[[!redirects braid statistics]]
 
 
 [[!redirects anyon]]
 [[!redirects anyons]]
 
-[[!redirects braid statistics]]
+[[!redirects Majorana zero mode]]
+[[!redirects Majorana zero modes]]
+
+
