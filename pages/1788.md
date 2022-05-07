@@ -1,3 +1,4 @@
+
 [[frame#As sites|section link test]]
 
 Please do not delete the following example for the moment!
@@ -12,8 +13,7 @@ An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
 
 \linebreak
 
-\bibitem{Witten1995StringTheoryInVariousDimensions}
-
+\bibitem{Witten1995}
 
 \linebreak
 
