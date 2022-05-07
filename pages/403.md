@@ -22,11 +22,9 @@
 
 ## Idea
 
-The notion of a [[category]] can be formulated [[internalization|internal]] to any other category with enough [[pullback|pullbacks]]. By regarding [[group|groups]] as one-object ([[delooping]]) [[groupoid|groupoids]], this generalizes the familiar way in which, for instance
+The notion of a [[category]] can be formulated [[internalization|internal]] to any other category with enough [[pullback|pullbacks]]. 
 
- * [[topological groups]] are groups _internal to [[topological space]]s_
- 
- * [[Lie groups]] are groups _internal to [[smooth manifold]]s_.
+By regarding [[group|groups]] as [[pointed object|pointed]] [[n-connected object of an (infinity,1)-topos|connected]] ([[delooping]]) [[groupoid|groupoids]], this generalizes the notion of [[internal groups]].
 
 An ordinary [[small category]] is a category internal to [[Set]].
 
@@ -293,6 +291,14 @@ Note that the displayed statement is a proposition in the language of finitely c
 If the ambient category is a [[topos]], then with the right kind of notion of internal functor, the internal groupoids form the corresponding [[(2,1)-topos]] of [[groupoid]]-valued stacks and the internal categories form the corresponding [[2-topos]] of [[category]]-valued stacks/[[2-sheaves]].
 
 For the precise statement see at _[2-topos -- In terms of internal categories](2-topos#InTermsOfInternalCategories)_
+
+## Internal versus enriched categories
+ {#InternalAndEnrichedCategories}
+
+In the case of the notion of [[categories]] themselves, there is a dichotomy between [[internal category|internal categories]] and [[enriched category|enriched categories]], both of which are ways of generalizing the notion of category, according to whether it is [defined](category#definitions) by a single collection of all morphisms or by several collections of morphisms, a family of collections indexed by pairs of objects.  In some cases, one of these generalizations is a special case of the other, but in general they are incomparable.
+
+As described on this page, __internalization__ is a quite general phenomenon, of which [[internal categories]] are a particular case. However, the distinction between "internalization" and "enrichment" becomes less clear in generality.  For example, in addition to categories enriched over a monoidal category, one can define categories enriched over a [[bicategory]] or an [[virtual double category]]. It then turns out that a category enriched over the bicategory (or virtual double category) of [[span|spans]] in a lex category $C$ _which has one object_ is precisely an _internal_ category in $C$.
+
 
 
 ## Related concepts
