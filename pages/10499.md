@@ -735,7 +735,7 @@ And in the context of commutative DG-rings in
 
 This and further generalization is in
 
-* {#BarthelHeard15} [[Tobias Barthel]], Drew Heard, Gabriel Valenzuela _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
+* {#BarthelHeard15} [[Tobias Barthel]], [[Drew Heard]], Gabriel Valenzuela, _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
 
 Discussion in [[homotopy type theory]]:
 
