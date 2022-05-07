@@ -21,7 +21,7 @@ Given a [[commutative monoid]] $(M, \cdot, 1)$, we say that [[element]] $a \in M
 Given a [[commutative ring]] $R$, let $\mathrm{Can}(R)$ be the [[multiplicative submonoid of cancellative elements]] in $R$. 
 
 \begin{definition}
-A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)s$, there is an element $c \in \mathrm{Can}(R)$ such that $c \vert a$ and $c \vert b$, and for every other element $d \in \mathrm{Can}(R)$ such that $d \vert a$ and $d \vert b$, $d \vert c$. 
+A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, there is an element $c \in \mathrm{Can}(R)$ such that $c \vert a$ and $c \vert b$, and for every other element $d \in \mathrm{Can}(R)$ such that $d \vert a$ and $d \vert b$, $d \vert c$. 
 \end{definition}
 
 ## See also ##
