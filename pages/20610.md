@@ -28,14 +28,15 @@ on basics of [[locales]] and [[pointfree topology]].
 
 The following lists chapterwise linked lists of keywords to relevant and related existing entries, as far as they already exist. 
 
-## I. Spaces and [[lattice|Lattices]] of Open Sets
+I. Spaces and [[lattice|Lattices]] of Open Sets
 
  1. [[Sober spaces]]
  2. The axiom $T_D$: another case of spaces easy to reconstruct
  3. Summing up
  4. Aside: several technical properties of $T_D$-spaces
 
-## II. [[Frames]] and [[Locales]]. Spectra
+II. [[Frames]] and [[Locales]]. Spectra
+
  1. [[Frames]]
  2. [[Locales]] and [[localic maps]]
  3. Points
@@ -43,7 +44,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  5. The unit σ and [[spatiality]]
  6. The unit λ and [[sobriety]]
 
-## III. [[Sublocales]]
+III. [[Sublocales]]
+
  1. [[Extremal monomorphisms]] in [[Loc]]
  2. [[Sublocales]]
  3. The co-frame of [[sublocales]]
@@ -56,7 +58,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  10. Other special sublocales: one-point sublocales, and [[Boolean locale|Boolean]] ones
  11. [[Sublocales]] as quotients. Factorizing frames is surprisingly easy
 
-## IV. Structure of [[Localic Morphisms]]. The Categories [[Loc]] and [[Frm]]
+IV. Structure of [[Localic Morphisms]]. The Categories [[Loc]] and [[Frm]]
+
  1. Special morphisms. Factorizing in Loc and Frm
  2. The down-set functor and free constructions
  3. [[Limits]] and a [[colimit]] in [[Frm]]
@@ -64,7 +67,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  5. More on the structure of [[coproduct]]
  6. [[Epimorphisms]] in [[Frm]]
 
-## V. [[Separation Axioms]]
+V. [[Separation Axioms]]
+
  1. Instead of $T_1$: [[subfit]] and [[fit]]
  2. Mimicking the [[Hausdorff axiom]]
  3. I-Hausdorff frames and [[regular monomorphisms]]
@@ -72,7 +76,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  5. Quite like the classical case: [[Regular]], [[completely regular]] and [[normal]]
  6. The categories [[RegLoc]], [[CRegLoc]], [[HausLoc]] and [[FitLoc]]
 
-## VI. More on [[Sublocales]]
+VI. More on [[Sublocales]]
+
  1. Subspaces and [[sublocales]] of spaces
  2. Spatial and induced [[sublocales]]
  3. [[Complemented sublocales]] of spaces are spatial
@@ -82,7 +87,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  7. Locales with no non-spatial sublocales
  8. Spaces with no non-induced sublocales
 
-## VII. [[Compactness]] and [[Local Compactness]]
+VII. [[Compactness]] and [[Local Compactness]]
+
  1. Basics, and a technical lemma
  2. [[Compactness]] and [[separation]]
  3. Kuratowski-Mrówka characterization
@@ -92,7 +98,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  7. One more spatiality theorem
  8. [[Supercompactness]]. Algebraic, superalgebraic and [[supercontinuous frames]]
 
-## VIII. (Symmetric) Uniformity and Nearness
+VIII. (Symmetric) Uniformity and Nearness
+
  1. Background
  2. [[Uniformity]] and [[nearness]] in the point-free context
  3. Uniform homomorphisms. Modelling embeddings. Products
@@ -102,13 +109,15 @@ The following lists chapterwise linked lists of keywords to relevant and related
  7. Functoriality. [[CUniFrm]] is coreﬂective in [[UniFrm]]
  8. An easy completeness criterion
 
-## IX. [[Paracompactness]]
+IX. [[Paracompactness]]
+
  1. [[Full normality]]
  2. [[Paracompactness]], and its various guises
  3. An elegant, specifically point-free, characterization of [[paracompactness]]
  4. A pleasant surprise: paracompact (co)reflection
 
-## X. More about Completion
+X. More about Completion
+
  1. A variant of the [[completion of uniform frames]]
  2. Two applications
  3. Cauchy points and the resulting space
@@ -116,14 +125,16 @@ The following lists chapterwise linked lists of keywords to relevant and related
  5. [[Cauchy completion]]. The case of countably generated uniformities
  6. Generalized Cauchy points
 
-## XI. [[Metric Frames]]
+XI. [[Metric Frames]]
+
  1. Diameters and metric diameters
  2. Metric spectrum
  3. [[Uniform Metrization Theorem]]
  4. [[Metrization theorems]] for plain frames
  5. Categories of [[metric frames]]
 
-## XII. [[Entourages]]. [[Asymmetric Uniformity]]
+XII. [[Entourages]]. [[Asymmetric Uniformity]]
+
  1. [[Entourages]]
  2. [[Uniformities]] via [[entourages]]
  3. [[Entourages]] versus [[covers]]
@@ -133,14 +144,16 @@ The following lists chapterwise linked lists of keywords to relevant and related
  7. The adjunction $QUnif \leftrightarrows QUniFrm$
  8. [[Quasi-uniformity]] in the point-free context via [[entourages]]
 
-## XIII. [[Connectedness]]
+XIII. [[Connectedness]]
+
  1. A few observations about sublocales
  2. [[Connected]] and disconnected locales
  3. [[Locally connected]] locales
  4. A weird example
  5. A few notes
 
-## XIV. Frame of Reals and Real Functions
+XIV. Frame of Reals and Real Functions
+
  1. The frame $L(R)$ of [[reals]]
  2. Properties of $L(R)$
  3. $L(R)$ versus the usual space of reals
@@ -150,7 +163,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  7. More general real functions
  8. Notes
 
-## XV. [[Localic Groups]]
+XV. [[Localic Groups]]
+
  1. Basics
  2. The category of [[localic groups]]
  3. [[Closed Subgroup Theorem]]
@@ -158,7 +172,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  5. Uniformities
  6. Notes
 
-## Appendix I. [[Posets]]
+Appendix I. [[Posets]]
+
  1. Basics
  2. [[Zorn’s Lemma]]
  3. [[Suprema]] and [[infima]]
@@ -167,7 +182,8 @@ The following lists chapterwise linked lists of keywords to relevant and related
  6. (Semi)lattices as algebras. [[Distributive lattices]]
  7. [[Pseudocomplements]] and [[complements]].  [[Heyting]] and [[Boolean algebras]]
 
-## Appendix II. Categories
+Appendix II. Categories
+
  1. [[Categories]]
  2. [[Functors]] and [[natural transformations]]
  3. Some basic constructions
