@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,155 +23,281 @@
 ## Idea
 
 
-The _[[Pontryagin isomorphism]]_ ([Pontryagin 38](#Pontryagin38), [Pontryagin 55](#Pontryagin55), review in [Kosinski 93, IX 5.5](#Kosinski93)) is an identification of [[cobordism classes]] of [[normally framed submanifolds]] of [[codimension]] $n$ in a [[closed manifold]] $X^d$ with the $n$-[[Cohomotopy]] of that manifold -- the [[homotopy classes]] of [[maps]] into the [[n-sphere]] --, which is exhibited by the _[[Cohomotopy charge map]]_, often known as the [[Pontryagin-Thom collapse construction]]_:
+The _[[Pontryagin theorem]]_ ([Pontryagin 38a](#Pontryagin38a), [50](#Pontryagin50), [55 II.6](#Pontryagin55)) identifies: 
 
-$$
-  Cob^n_Fr(X)
-  \overset{\simeq}{\longrightarrow}
-  \pi^n(X)
-  \,.
-$$
+* the [[cobordism classes]] of [[normally framed submanifolds]] of [[codimension]] $n$ in a [[closed manifold|closed]] [[smooth manifold]] $M^d$
 
-The analogous statement, identifying [[cobordism classes]] of [[normally oriented submanifolds]] with [[homotopy classes]] of maps into the [[universal vector bundle|universal]] [[special orthogonal group|special orthogonal]] [[Thom space]] $M SO(n)$, is _[[Thom's theorem]]_ ([Thom 54](#Thom54)). Both statements, as well as their joint generalization to other [[tangential structures]] and notably their [[stabilization]] to [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[Cobordism cohomology theory]], have come to be widely known as the _[[Pontryagin-Thom collapse construction]]_, or similar, and form the basis of modern [[cobordism theory]] and its application in [[stable homotopy theory]].
+with 
 
-## Details
+* the $n$-[[Cohomotopy]] of that manifold -- the [[homotopy classes]] of [[maps]] into the [[n-sphere]];
 
-For $X$ a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $D$, the assignment of [[Cohomotopy charge]] (the _[[Pontryagin-Thom construction]]_, in this unstable and framed version due to [Pontrjagin 55](#Pontrjagin55), see review in [Kosinski 93, IX.5](#Kosinski93), [Milnor 97](#Milnor97)) identifies the [[set]] 
-
-$$
-  SubMfd_{/bord}^{d}(X)
-$$
-
-of [[cobordism classes]] of  [[closed manifold|closed]] and [[normally framed submanifolds]] $\Sigma \overset{\iota}{\hookrightarrow} X$ of [[dimension]] $d$ inside $X$ with the [[cohomotopy]] $\pi^{D-d}(X)$ of $X$ in degree $D- d$
-
-$$
-  SubMfd_{/bord}^{d}(X)
-    \underoverset{\simeq}{\;\;\;PT\;\;\;}{\longrightarrow}
-  \pi^{D-d}(X)
-  \,.
-$$
-
-(e.g. [Kosinski 93, IX Theorem (5.5)](#Kosinski93))
-
-In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[cobordism groups]] in sufficiently high [[codimension]] (essentially given by [[disjoint union]] of [[submanifolds]]) this way induces a group structure on the cohomotopy sets in sufficiently high degree.
-
-
-
-{#PontrjaginThomConstructionGraphics}$\,$
-
-<center>
-<img src="https://ncatlab.org/nlab/files/PontrjaginThomConstructionI.jpg" width="800">
-</center>
-
-> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
-
-Here the [[normal framing]] of the submanifolds plays the role of the [[charge]] in [[Cohomotopy]] which they carry:
-
-{#nCohomotopyChargeOfSubmanifoldsIsNormalFraming}$\,$
-
-<center>
-<img src="https://ncatlab.org/nlab/files/nCohomotopyChargeOfSubmanifoldsIsNormalFraming.jpg" width="800">
-</center>
-
-> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
-
-
-For example:
-
-{#nCohomotopyOfEuclideanNSpaceIllustration}$\,$
-
-
-<center>
-<img src="https://ncatlab.org/nlab/files/nCohomotopyOfEuclideanNSpace.jpg" width="840">
-</center>
-
-> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
-
-
-This construction generalizes to [[equivariant cohomotopy]], see [there](equivariant+cohomotopy#PontryaginThomConstruction).
-
-With the [[equivariant Hopf degree theorem]] the above example has the following $\mathbb{Z}_2$-[[equivariant homotopy theory|equivariant]] version (see [there](equivariant+Hopf+degree+theorem#EquivariantCohomotopyOfRepresentationSpheres)):
-
-{#EquivariantnCohomotopyOfEuclideanNOrientifoldIllustration}$\,$
-
-
-<center>
-<img src="https://ncatlab.org/nlab/files/EquivariantNCohomotopyOfEuclideanNOrientifold.jpg" width="840">
-</center>
-
-> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
-
-
-Further by the [[equivariant Hopf degree theorem]] (see [there](equivariant+Hopf+degree+theorem#EquivariantCohomotopyOfRepresentationTori)), this example generalizes to [[equivariant cohomotopy]] of [[toroidal orbifold|toroidal]] [[orientifolds]]:
-
-
-{#EquivariantnCohomotopyOfToroidalNOrientifoldIllustration}$\,$
-
-<center>
-<img src="https://ncatlab.org/nlab/files/EquivariantCohomotopyOfToroidalOrientifold.jpg" width="850">
-</center>
-
-> graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
-
-\linebreak
-
-### Composition/product in Cohomotopy
-  {#ProductInCohomotopy}
-
-Under the [[Pontryagin-Thom isomorphism]] ([above](#RelationToCobordismGroup)) the product in Cohomotopy, i.e. the [[composition]] operation
-
-$$
-  \array{
-    \pi^{n_1}
-    \big( 
-      S^{n_2 + n_1}
-    \big)
-    \times
-    \pi^{n_2 + n_1}(X)
-    &\overset{}{\longrightarrow}&
-    \pi^{n_1}(X)
-    \\
-    (c_1, c_2) &\mapsto& c_1 \circ c_2
-  }
-  \,,
-$$
-
-corresponds to forming [[product manifolds]] of submanifolds, in that (see also [Kosinski 93, Section IX 6.1](#Kosinski93)):
-
-
-$$
-    \mathrm{PT}^{-1}(c_1 \circ c_2)
-    \;\simeq\;
-    \Big[
-      \mathrm{PT}^{-1}(c_2) \times \mathrm{PT}^{-1}(c_1)
-      \;\subset\;
-      \mathrm{PT}^{-1}(c_2) \times \mathbb{R}^{n_2 + n_1}
-      \;\subset\;
-      X
-    \Big]
-  \,.
-$$
-
-This is exhibited by the following [[pasting diagram]] of [[pullbacks]]/[[fiber products]] (repeatedly using the [[pasting law]]):
+via 
 
 \begin{imagefromfile}
-        "file_name": "ProductInCohomotopyUnderPT.jpg",
-        "web": "nlab",
-        "width": 600,
-        "unit": "px",
-        "margin": {
-            "top": -20,
-            "right": 0,
-            "bottom": 20,
-            "left": 20,
-            "unit": "px"
-        },
-        "alt": "product in Cohomotopy under the PT isomorphism",
-        "caption": "from [SS21](https://ncatlab.org/schreiber/show/Equivariant+Cohomotopy+and+Oriented+Cohomology+Theory)"
+    "file_name": "PontryaginConstruction.jpg",
+    "float": "right",
+    "width": 540,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [SS 2021](https://ncatlab.org/schreiber/show/M-Theory+as+Mf-Theory)"
 \end{imagefromfile}
 
-Here the vertical inclusions are the defining ones of the [[submanifolds]] or of their [[normal bundles]], identified with some choice of [[tubular neighbourhoods]].
 
+* the _[[Cohomotopy charge map]]_, often known as the _[[Pontryagin-Thom collapse construction]]_, which sends a [[normally framed submanifold]] $\Sigma^{d-n} \subset M^d$ to the [[continuous function]] taking values in the [[one-point compactification]] $\big( \mathbb{R}^n \big)^{cpt} \simeq S^n$ that assigns to points in $M^d$ sufficiently close to $\Sigma$ their "directed distance" from $\Sigma$, namely their [[normal vector]], and regards all other points as being "[[vanishing at infinity|at infinity]]":
+
+\begin{xymatrix@C=20pt}
+  \overset{
+    \mathclap{
+    \raisebox{3pt}{
+      \tiny
+      \color{blue}
+      \bf
+      \begin{tabular}{c}
+        unstable
+        \\
+        framed Cobordism
+      \end{tabular}
+    }
+    }
+  }{
+  \mathrm{Cob}^{n}_{\mathrm{Fr}}
+    \big(
+      M^d
+    \big)
+  }
+  \ar@{}[r]
+  |-{:=}
+  &
+  \mathrm{NFramedSubMflds}_{d-n}
+  \big(
+    M^d
+  \big)_{\!\!\big/\mathrm{brdsm}}
+  \ar@<+10pt>[rr]
+    ^-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          asymptotic directed distance
+        \end{tabular}
+      }
+    }
+  \ar@{}[rr]
+    |-{ \simeq }
+  \ar@<-10pt>@{<-}[rr]
+    _-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        regular pre-image of $0$
+      }
+    }
+  &
+  {\phantom{AAAAA}}
+  &
+  \mathrm{Maps}
+  \big(
+    M^d
+    \,,\,
+    S^n
+  \big)_{\!\!\big/ \mathrm{hmpty}}
+  \ar@{}[r]
+    |-{ =: }
+  &
+  \overset{
+    \mathclap{
+    \raisebox{3pt}{
+      \tiny
+      \color{blue}
+      \bf
+      \begin{tabular}{c}
+        unstable
+        \\
+        Cohomotopy
+      \end{tabular}
+    }
+    }
+  }{
+    \pi^n
+    \big(
+      M^d
+    \big)
+  }
+\end{xymatrix}
+
+In this form, with the assumption that $M^d$ is [[closed manifold|closed]], hence [[compact topological space|compact]], the statement appears for instance in [Kosinski 93, Sec. IX Prop. 5.5](#Kosinski93).
+
+More generally, if the [[smooth manifold]] $M^d$ is not assumed to be [[compact topological space|compact]], essentially the same [[Pontryagin-Thom construction]] still gives an identification of the [[cobordism classes]] of its [[normally framed submanifolds]] with the _[[reduced cohomology|reduced]]_ [[Cohomotopy]] of its [[one-point compactification]]:
+
+\begin{xymatrix@C=20pt}
+  \overset{
+    \mathclap{
+    \raisebox{3pt}{
+      \tiny
+      \color{blue}
+      \bf
+      \begin{tabular}{c}
+        unstable
+        \\
+        framed Cobordism
+      \end{tabular}
+    }
+    }
+  }{
+  \mathrm{Cob}^{n}_{\mathrm{Fr}}
+    \big(
+      M^d
+    \big)
+  }
+  \ar@{}[r]
+  |-{:=}
+  &
+  \mathrm{NFramedSubMflds}_{d-n}
+  \big(
+    M^d
+  \big)_{\!\!\big/\mathrm{brdsm}}
+  \ar@<+10pt>[rr]
+    ^-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          asymptotic directed distance
+        \end{tabular}
+      }
+    }
+  \ar@{}[rr]
+    |-{ \simeq }
+  \ar@<-10pt>@{<-}[rr]
+    _-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        regular pre-image of $0$
+      }
+    }
+  &
+  {\phantom{AAAAA}}
+  &
+  \pi_0
+  \mathrm{Maps}^{\ast/\!}
+  \Big(
+    \big(
+      M^d
+    \big)^{\mathrm{cpt}}
+    \,,\,
+    S^n
+  \Big)
+  \ar@{}[r]
+    |-{ =: }
+  &
+  \overset{
+    \mathclap{
+    \raisebox{3pt}{
+      \tiny
+      \color{blue}
+      \bf
+      \begin{tabular}{c}
+        unstable
+        \\
+        reduced Cohomotopy
+      \end{tabular}
+    }
+    }
+  }{
+    {\widetilde \pi}{}^n
+    \Big(
+      \big(
+        M^d
+      \big)^{\mathrm{cpt}}
+    \Big)
+  }
+\end{xymatrix}
+
+This form of Pontryagin's theorem seems to be [[folklore]] (e.g. [here](https://www.tdx.cat/bitstream/handle/10803/129511/FCM_THESIS.pdf#page=8)). It is made fully explicit in [Csépai 20, p. 12-13](#Csepai20).
+
+An analogous statement, identifying [[cobordism classes]] of [[normally oriented submanifolds]] with [[homotopy classes]] of maps into the [[universal vector bundle|universal]] [[special orthogonal group|special orthogonal]] [[Thom space]] $M SO(n)$, is _[[Thom's theorem]]_ ([Thom 54](#Thom54)):
+
+\begin{xymatrix@C=20pt}
+  {\phantom{AA}}
+  \overset{
+    \mathclap{
+    \raisebox{3pt}{
+      \tiny
+      \color{blue}
+      \bf
+      \begin{tabular}{c}
+        unstable
+        \\
+        oriented Cobordism
+      \end{tabular}
+    }
+    }
+  }{
+  \mathrm{Cob}^{n}_{\mathrm{SO}}
+    \big(
+      M^d
+    \big)
+  }
+  \ar@{}[r]
+  |-{:=}
+  &
+  \mathrm{NOrientedSubMflds}_{d-n}
+  \big(
+    M^d
+  \big)_{\!\!\big/\mathrm{brdsm}}
+  \ar@<+10pt>[rr]
+    ^-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          asymptotic directed distance
+        \end{tabular}
+      }
+    }
+  \ar@{}[rr]
+    |-{ \simeq }
+  \ar@<-10pt>@{<-}[rr]
+    _-{
+      \mbox{
+        \tiny
+        \color{olive}
+        \bf
+        regular pre-image of $B \mathrm{SO}(n)$
+      }
+    }
+  &
+  {\phantom{AAAAA}}
+  &
+  \pi_0
+  \mathrm{Maps}^{\ast/\!}
+  \Big(
+    \big(
+      M^d
+    \big)^{\mathrm{cpt}}
+    \,,\,
+    M \mathrm{SO}(n)
+  \Big)
+  {\phantom{AAAAAAAA}}
+\end{xymatrix}
+
+(Now the notion of asymptotic directed distance depends on the [[normal bundle|normal tangent spaces]], along $\Sigma$, which themselves vary now in the [[Grassmannian]] $Gr_n$, hence in the [[classifying space]] $B SO(n) \subset M SO(n)$.)
+
+
+Both statements, Pontryagin's and Thom's, as well as their joint generalization to other [[tangential structures]] (besides framing and orientation structure) and notably their [[stabilization]] to [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[Cobordism cohomology theory]], have all come to be widely known as _the [[Pontryagin-Thom construction]]_, or similar, a term commonly used also for rather more involved cases, such as [[MUFr]]-theory. This type of construction constitutes the basis of modern [[cobordism theory]] and its application in [[stable homotopy theory]].
+
+\linebreak
 
 ## References
 
@@ -178,13 +305,21 @@ Here the vertical inclusions are the defining ones of the [[submanifolds]] or of
 [[!include Pontryagin-Thom construction -- references]]
 
 
+
+
+
+[[!redirects Pontryagin isomorphism]]
 [[!redirects Pontryagin's isomorphism]]
 
 [[!redirects Pontrjagin isomorphism]]
 [[!redirects Pontrjagin's isomorphism]]
 
+[[!redirects Pontryagin theorem]]
+[[!redirects Pontrjagin theorem]]
+
 [[!redirects Pontryagin's theorem]]
 [[!redirects Pontrjagin's theorem]]
+
 
 
 
