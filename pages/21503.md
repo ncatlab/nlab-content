@@ -70,6 +70,9 @@ See also
 
 * {#ChristensenWu14} [[J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
+* [[Hiroshi Kihara]], *Quillen equivalences between the model categories of smooth spaces, simplicial sets, and arc-gengerated spaces* ([arXiv:1702.04070](https://arxiv.org/abs/1702.04070))
+
+
 * [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _On homotopy types of diffeological cell complexes_ ([arXiv:1912.05359](https://arxiv.org/abs/1912.05359))
 
 [[!redirects model category of diffeological spaces]]
