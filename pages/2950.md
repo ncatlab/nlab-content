@@ -1,4 +1,3 @@
-[[!redirects Greg Moore]]
 
 * [website](http://www.physics.rutgers.edu/~gmoore/)
 
@@ -30,6 +29,12 @@ On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 * Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in Time-Dependent Orbifolds_, JHEP 0210:031, 2002 ([arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182))
 
 
+On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge quantization]] and [[higher U(1)-gauge theory]]:
+
+* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
+
+* [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_, Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+
 On relating the [[Monster vertex operator algebra]] abs its cousins to [[quantum error correction]]:
 
 
@@ -49,4 +54,8 @@ On relating the [[Monster vertex operator algebra]] abs its cousins to [[quantum
 * [[Donaldson-Thomas invariant]]
 
 category: people
+
+[[!redirects Gregory W. Moore]]
+[[!redirects Greg Moore]]
+
 
