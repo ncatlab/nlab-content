@@ -24,7 +24,7 @@ An **inaccessible cardinal** is a [[cardinal number]] $\kappa$ which cannot be "
 
 ## Definition
 
-An **inaccessible cardinal** is a [[cardinal number|regular strong limit cardinal]].  Here, $\kappa$ is _regular_ if every sum of $\lt\kappa$ cardinals, each of which is $\lt\kappa$, is itself $\lt\kappa$; $\kappa$ is a _strong limit_ if $\lambda\lt \kappa$ implies $2^\lambda\lt\kappa$.  In other words, the class of sets of cardinality $\lt\kappa$ is closed under the operations of indexed [[union]]s and taking [[power set]]s.
+An **inaccessible cardinal** is a [[cardinal number|regular strong limit cardinal]].  Here, $\kappa$ is _regular_ if every sum of $\lt\kappa$ cardinals, each of which is $\lt\kappa$, is itself $\lt\kappa$; $\kappa$ is a _strong limit_ if $\lambda\lt \kappa$ implies $\vert\Omega\vert^\lambda\lt\kappa$, where $\Omega$ is the set of truth values. In other words, the class of sets of cardinality $\lt\kappa$ is closed under the operations of indexed [[union]]s and taking [[power set]]s.
 
 By this definition, $0$ (the cardinality of the [[empty set]]), $1$ (the cardinality of the [[point]]), and $\aleph_0$ (the cardinality of the set of [[natural number]]s) are all inaccessible.  Usually one explicitly requires inaccessible cardinals to be uncountable, so as to exclude these cases.  One can also justify excluding $0$ and $1$ by interpreting the requirement that $1 \lt \kappa$ as the nullary part of a requirement whose binary part is closure under indexed unions.
 
