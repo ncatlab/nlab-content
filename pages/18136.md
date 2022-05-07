@@ -9,6 +9,13 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
 
 
 ## Related concepts
@@ -17,5 +24,8 @@
 
 ## References
 
+See also:
+
 * Wikipedia, _[Pointwise convergence](https://en.wikipedia.org/wiki/Pointwise_convergence)_
 
+[[!redirects topology of pointwise convergence]]
