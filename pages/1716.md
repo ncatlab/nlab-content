@@ -43,7 +43,7 @@ The collection of [[preimages]] $\phi_i^{-1}(0,1]$ then constitute a [[locally f
 ## Alternative characterizations
 
 \begin{proposition}
-(Ernest Michael, Kiiti Morita, Arthur H. Stone, see Morita \cite[Theorem 1.2]{Morita}.)                         
+([[Ernest Michael]], [[Kiiti Morita]], [[Arthur H. Stone]], see Morita \cite[Theorem 1.2]{Morita}.)                         
 For an open cover $\{U_i\}_{i\in I}$ of a [[topological space]] $X$ the following properties are equivalent.                      
 
 * $U$ is a numerable cover, i.e., it admits a compatible positive partition;
