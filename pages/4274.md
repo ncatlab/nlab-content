@@ -100,7 +100,7 @@ $$
       \\
       & = 
       \exp\left(
-        \sum_{k \geq 2} G_k(q) \frac{z^k}{k!}
+        \sum_{k \geq 2} 2G_k(q) \frac{z^k}{k!}
       \right)
    \end{aligned}
   \,,
