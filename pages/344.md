@@ -281,6 +281,8 @@ with $U \coloneqq f^\ast(i_Y)$ and $V \coloneqq f^\ast(i_Z)$.
 But, by assumption, either $U$ or $V$ is initial, meaning that $X$ is [[isomorphism|isomorphic]] to either $V$ or $U$, respectively, so that $f$ factors through either $Y$ or $X$, respectively. In other words, $f$ belongs to exactly one of the two subsets $\hom(X, Y) \hookrightarrow \hom(X, Y + Z)$ or $\hom(X, Z) \hookrightarrow \hom(X, Y + Z)$. 
 \end{proof}
 
+Another useful fact is that any extensive category with [[finite products]] is [[distributive]].
+
 ## Related concepts
 
 * [[extensive 2-category]]
