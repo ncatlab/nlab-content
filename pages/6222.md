@@ -17,26 +17,46 @@
 
 ## Definition
 
+\begin{definition}
+**(solvable group)**\linebreak
 A [[group]] is __solvable__ if it is a [[finite number|finite]] iterated [[group extension]] of an [[abelian group]] by [[abelian groups]]. 
 
-In other words, there exists a finite sequence 
+In other words, a group $G$ is solvable if and only if there exists a finite sequence 
 
 $$
-  \{ 1\}\subset G_1 \subset G_2 \subset \ldots \subset G_k = G,
+  \{ 1\}
+    \;\subset\;
+  G_1 
+    \;\subset\;
+  G_2 
+    \;\subset\;
+  \ldots 
+    \;\subset\;
+  G_k 
+   \;=\; 
+  G 
+  \,,
 $$
 
-in which $G_{j-1}$ is [[normal subgroup|normal]] in $G_j$ and $G_j/G_{j-1}$ is [[abelian group|abelian]].
+in which 
+
+1. $G_{j-1}$ is [[normal subgroup|normal]] in $G_j$ 
+
+1. the [[quotient groups]] $G_j/G_{j-1}$ are [[abelian group|abelian]].
+
+\end{example}
 
 ## Examples
 
-### Galois groups
-
+\begin{example}\label{GaloisGroups}
+**([[Galois groups]])**\linebreak
 The terminology "solvable groups" comes from elementary [[Galois theory]]: every [[polynomial]] [[equation]] $\phi$ over an [[integral domain]] $K$ has a corresponding [[Galois group]] $Gal(\phi/K)$, and $Gal(\phi/K)$ is a solvable group if and only if $\phi$ is a [[solvable polynomial equation|solvable equation]] (meaning that all its solutions in an [[algebraic closure]] of $K$ are expressible using the elements of $K$, the field operations, and extraction of roots).
+\end{example}
 
-
-### Nilpotent groups
-
+\begin{example}\label{NilpotentGroups}
+**([[nilpotent groups]])**
 A [[nilpotent group]] is a solvable group given by *[[central extensions|central]]* [[group extensions]].
+\end{example}
 
 ## Related concepts
 
