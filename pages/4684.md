@@ -452,13 +452,16 @@ Historical articles:
 
 * [[Hellmuth Kneser]], *Die Topologie der Mannigfaltigkeiten*, Jahresbericht der Deutschen Mathematiker-Vereinigung (1926), Volume: 34, page 1-13 ([eudml:145701](https://eudml.org/doc/145701))
 
+* J. W. Cannon, *The recognition problem: What is a topological manifold?*, Bull. Amer. Math. Soc. 84 (1978), 832-866 ([doi:10.1090/S0002-9904-1978-14527-3](https://doi.org/10.1090/S0002-9904-1978-14527-3))
+
 
 Textbook accounts:
 
 * [[John M. Lee]], _Introduction to topological manifolds_. Graduate Texts in Mathematics 202 (2000), Springer.  ISBN: 0-387-98759-2, 0-387-95026-5.
 Second edition: Springer, 2011.  ISBN: 978-1-4419-7939-1 ([doi:10.1007/978-1-4419-7940-7](https://doi.org/10.1007/978-1-4419-7940-7), errata [pdf](https://sites.math.washington.edu/~lee/Books/ITM/errata.pdf))
 
-See also
+See also:
+
 
 * Wikipedia, _[Topological manifold](https://en.wikipedia.org/wiki/Topological_manifold)_
 
