@@ -74,6 +74,8 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 * [[commutative magma]]
 
+* [[commutative invertible semigroup]]
+
 * [[tensor product of abelian groups]], [[direct sum of abelian groups]]
 
 * [[free abelian group]], [[finite abelian group]]
