@@ -203,7 +203,7 @@ A **category with families** is a category $C$ together with
   \end{aligned}
   $$
 =--
-Intuitively, $F(\Gamma)$ is the set of terms in the context $\Gamma$ indexed by their type, and the representing object for the map $(C/\Gamma)^{op} \to Set$ is the context $\Gamma; A$.
+Intuitively, $F(\Gamma)$ is the set of terms in the context $\Gamma$ indexed by their type, and the representing object for the map $(C/\Gamma)^{op} \to Set$ is the projection from context $\Gamma; A$ to context $\Gamma$.
 
 We can then prove:
 
