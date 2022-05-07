@@ -22,8 +22,12 @@ On the [[flavour anomalies]] and their potential explanation by [[leptoquarks]]:
 
 and in relation to [[axions]]:
 
-
 * [[Javier Fuentes-Martin]], Mario Reig, Avelino Vicente, _4321... axion!_ ([arXiv:1907.02550](https://arxiv.org/abs/1907.02550))
+
+On [[flavour anomalies]] via [[leptoquarks]] in [[Pati-Salam GUT]]$\,$[[intersecting D-brane model|on branes]]:
+
+* [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
+*Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
 
 
 category: people
