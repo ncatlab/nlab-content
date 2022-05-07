@@ -1,4 +1,38 @@
 
+
+\begin{tikzcd}[row sep=-6pt, column sep=14pt]
+  123
+  \ar[rrrr,-]
+  \ar[ddddd,-]
+  \ar[ddrrr,-]
+  &&
+  &&
+  132
+  \ar[ddddd,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  &&&
+  \scalebox{.8}{$321$}
+  \ar[dddr,-]
+  \\
+  &
+  \scalebox{1.2}{231}
+  \ar[ddl,-]
+  \ar[uuurrr,-, crossing over]
+  \ar[urr,-]
+  \\
+  {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A} \atop {\phantom{A}}}}}}}}
+  \\
+  213
+  \ar[rrrr,-]
+  &&&&
+  312
+\end{tikzcd}
+
+
+
+
 $$
   \array{
     &
