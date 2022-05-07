@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ any [[object]], the [[over-(∞,1)-category]] $\mathbf{H}/X$ is itself an $(\infty,1)$-topos: the _over-$(\infty,1)$-topos_ .
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ any [[object]], the [[over-(∞,1)-category]] $\mathbf{H}/X$ is itself an $(\infty,1)$-topos: the _over-$(\infty,1)$-topos_ (the *[[fundamental theorem of (infinity,1)-topos theory|fundamental theorem of $\infty$-topos theory]]*).
 
 If we think of $\mathbf{H}$ as a [[big topos]], then for $X \in \mathbf{H}$ we may think of $\mathbf{H}/X \in $ [[(∞,1)-topos]] as the [[little topos]]-incarnation of $X$. The [[object]]s of $\mathbf{H}/X$ we may think of as [[(∞,1)-sheaves]] on $X$.
 
@@ -229,6 +229,8 @@ If a [[homotopy type theory]] is the [[internal language]] of $\mathbf{H}$, then
 
 ## Related concepts
 
+* [[fundamental theorem of topos theory]]
+
 * [[arrow category]]
 
 * [[over-category]] 
@@ -249,14 +251,13 @@ If a [[homotopy type theory]] is the [[internal language]] of $\mathbf{H}$, then
 
 ## References
 
-The general notion is discussed in section 6.3.5 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], Section 6.3.5 of: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
-Some related remarks are in 
+Some related remarks are in:
 
-* [[Jacob Lurie]], _[[Structured Spaces]]_ 
-{#StrSp}
+* {#StrSp} [[Jacob Lurie]], _[[Structured Spaces]]_ 
+
 
 [[!redirects over-(∞,1)-topos]]
 
