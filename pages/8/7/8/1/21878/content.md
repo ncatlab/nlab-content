@@ -24,6 +24,8 @@ A [[vector bundle]] with [[fibers]] [[quaternionic vector spaces]].
 
 * [[quaternionic oriented cohomology theory]]
 
+* [[quaternionic K-theory]]
+
 
 ## References
 
