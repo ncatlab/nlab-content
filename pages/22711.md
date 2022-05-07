@@ -76,6 +76,19 @@ and in the [[3d toric code]]-[[4d TQFT]]:
 
 * {#KongTianZhang20} [[Liang Kong]], Yin Tian, Zhi-Hao Zhang, Section 2.2 of: *Defects in the 3-dimensional toric code model form a braided fusion 2-category*, J. High Energ. Phys. 2020, 78 (2020) ([arXiv:2009.06564](https://arxiv.org/abs/2009.06564), <a href="https://doi.org/10.1007/JHEP12(2020)078">doi:10.1007/JHEP12(2020)078</a>)
 
+* Zhen Bi, Yi-Zhuang You, Cenke Xu, *Anyon and loop braiding statistics in field theories with a topological $\Theta$ term*, Phys. Rev. B **90** (2014) 081110(R)  ([doi:10.1103/PhysRevB.90.081110](https://doi.org/10.1103/PhysRevB.90.081110))
+
+and in 3d [[symmetry protected topological phases]]:
+
+* Chao-Ming Jian, Xiao-Liang Qi, *Layer Construction of 3D Topological States and String Braiding Statistics*, Phys. Rev. X **4** (2014) 041043 $[$[doi:10.1103/PhysRevX.4.041043](https://doi.org/10.1103/PhysRevX.4.041043)$]$
+
+* Shenghan Jiang, Andrej Mesaros, and Ying Ran, *Generalized Modular Transformations in (3+1)D Topologically Ordered Phases and Triple Linking Invariant of Loop Braiding*, Phys. Rev. X **4** 031048 ([doi:10.1103/PhysRevX.4.031048](https://doi.org/10.1103/PhysRevX.4.031048))
+
+
+and similar models for [[condensed matter theory]]:
+
+* [[Chenjie Wang]], [[Michael Levin]], *Braiding Statistics of Loop Excitations in Three Dimensions*, Phys. Rev. Lett. **113** (2014) 080403 ([doi:10.1103/PhysRevLett.113.080403](https://doi.org/10.1103/PhysRevLett.113.080403))
+
 
 Relation to [[braided monoidal category|braided]] [[tensor categories]]:
 
