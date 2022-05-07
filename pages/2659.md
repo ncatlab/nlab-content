@@ -181,7 +181,7 @@ It is this kind of relation which is generalized by the nonabelian Hodge theorem
 
 #### Statement
 
-A quick review of the theorem in ([Simpson 92](#Simpson92)) is for instance in ([Raboso 14, section 1.2](#Raboso14)). An elegant abstract reformulation in terms of [[differential cohesion]]/[[D-geometry]], following ([Simpson 96](#Simpson96)) is in ([Raboso 14, section 4.2.1](#Raboso14)):
+A quick review of the theorem in ([Simpson 92](#Simpson92)) is for instance in ([Raboso 15, section 1.2](#Raboso15)). An elegant abstract reformulation in terms of [[differential cohesion]]/[[D-geometry]], following ([Simpson 96](#Simpson96)) is in ([Raboso 15, section 3.3.1](#Raboso15)):
 
 Analogous to how the [[de Rham stack]] $\int_{inf} X = X_{dR}$ of $X$ is the ([[homotopy quotient|homotopy]]) [[quotient]] of $X$ by the first order [[infinitesimal neighbourhood]] of the [[diagonal]] in $X \times X$, so there is a space ([[stack]]) $X_{Dol}$ which is the formal completion of the 0-section of the [[tangent bundle]] of $X$ ([Simpson 96](#Simpson96)).
 
@@ -194,7 +194,7 @@ $$
   \,,
 $$
 
-where the superscript on the right denotes restriction to semistable Higgs bundles with vanishing [[first Chern class]] (see [Raboso 14, theorem 4.2](#Raboso14)). 
+where the superscript on the right denotes restriction to semistable Higgs bundles with vanishing [[first Chern class]] (see [Raboso 15, Theorem 3.3](#Raboso15)). 
 
 #### Generalizations to twisted bundles
 
@@ -239,7 +239,7 @@ Works by [[Carlos Simpson]] on nonabelian Hodge theory include:
 
 The nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) is generalized to [[twisted bundles]] in: 
 
-* {#Raboso14} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([arXiv:1501.05872](http://arxiv.org/abs/1501.05872), [pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
+* {#Raboso15} [[Alberto García Raboso]], _A twisted nonabelian Hodge correspondence_, PhD thesis 2014 ([arXiv:1501.05872](http://arxiv.org/abs/1501.05872), [pdf slides](http://www.math.toronto.edu/agraboso/files/TwistedNAHT_Talk_Handout.pdf))
 
 
 [[!redirects nonabelian Hodge theorem]]
