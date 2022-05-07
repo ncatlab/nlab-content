@@ -360,7 +360,7 @@ That such pairs of statements commonly arise is a truism in constructive mathema
 
 The antithesis interpretation also explains why there are often both weak and strong versions of $P^-$ (or even $P^+$ sometimes), having especially to do with the interpretation of [[disjunction]].  This comes up already in defining what a [[set]] is, because of the nature of the [[equality relation]] on a set $S$.  As in the example about about rational and irrational real numbers, every set should also be equipped with an antithesis [[inequality relation]] $\#$, and the axioms for this may be derived from the axioms for an equality relation.  The [[transitive relation|transitivity]] axiom for equality has two obvious interpretations in linear logic, which lead to two different interpretations in intuitionistic logic as axioms for $\#$: a weak version (intepreting $\parr$) stating (for elements $x, y, z$ of $S$) that if $x \# z$, then $y \# z$ if $x = y$, and $x \# y$ if $y = z$; and a strong version (interpreting $\oplus$) stating that if $x \# z$, then $x \# y$ or $y \# z$.  (The weak version really does follow from the strong version because we also automatically have that $x = y$ and $x \# y$ can never both be true.)  Ultimately, the weak version says only that $\#$ is an [[inequality relation]] on the set $S$, while the strong version says that $\#$ is an [[apartness relation]].
 
-Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint subsets.
+Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint pairs of subsets.
 
 
 ## Related concepts
@@ -394,6 +394,7 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 * [[scale]]
   * [[Heyting scale]]
   * [[minor scale]]
+
 
 ## References
 
