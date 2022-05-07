@@ -162,10 +162,6 @@ For relation to [[physics]] see
 ## References
 {#Lurie}
 
-In 
-
-* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
-
 Both approaches to higher geometry are described, in the special case of [[derived algebraic geometry]], in
 
 * [[Jacob Lurie]], _[[Derived Algebraic Geometry]]_, Ph.D. thesis.
