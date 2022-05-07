@@ -6,9 +6,11 @@ Institut de Recherche en Informatique Fondamentale (IRIF), and University Paris-
 * [Research themes](https://www.irif.fr/~jep/node1.html) (in French)
 
 
-##Selected publications
+## Selected publications
 
-* [[Jean-Eric Pin]], _Tropical semirings_, [Hal preprint, hal-00113779](https://hal.archives-ouvertes.fr/hal-00113779/file/Tropical.pdf); see  [[tropical semiring]].
+On [[tropical semirings]]:
+
+* [[Jean-Eric Pin]], _Tropical semirings_, [Hal preprint, hal-00113779](https://hal.archives-ouvertes.fr/hal-00113779/file/Tropical.pdf).
 
 
 category:people
