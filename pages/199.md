@@ -69,3 +69,5 @@ category: category
 [[!redirects category of vector bundles]]
 [[!redirects categories of vector bundles]]
 
+[[!redirects VectorSpaces]]
+
