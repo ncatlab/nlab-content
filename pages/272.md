@@ -141,11 +141,15 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
 The original article that introduced the [[Haag-Kastler axioms]] is
 
-* {#Haag64} [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
+* {#Haag64} [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 ([doi:10.1063/1.1704187](https://doi.org/10.1063/1.1704187), [spire:9124](https://inspirehep.net/literature/9124))
 
 following 
 
 * {#Haag59} [[Rudolf Haag]], _Discussion des "axiomes" et des propri&#233;t&#233;s asymptotiques d&#8217;une th&#233;orie des champs locales avec particules compos&#233;es, Les Probl&#232;mes Math&#233;matiques de la Th&#233;orie Quantique des Champs_, Colloque Internationaux du CNRS LXXV (Lille 1957), CNRS Paris (1959), 151.
+
+translated to English as: 
+
+* [[Rudolf Haag]], *Discussion of the ‘axioms’ and the asymptotic properties of a local field theory with composite particles*, EPJ H 35, 243–253 (2010) ([doi:10.1140/epjh/e2010-10041-3](https://doi.org/10.1140/epjh/e2010-10041-3))
 
 The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]] to more general and [[curvature|curved]] spacetimes (see [[AQFT on curved spacetimes]]) is due to
 
