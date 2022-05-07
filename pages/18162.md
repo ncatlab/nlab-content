@@ -843,13 +843,19 @@ functional analysis.)
 
    Thus, $X$ is Hausdorff if and only if it is both T0 and R1. Every Hausdorff space is also T1.
 
-*  $X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separated by closed neighbourhoods, i.e.
-
+*  $X$ is $T2\frac{1}{2}$, or Urysohn, if any two distinct points in $X$ are separated by closed neighbourhoods. As a lifting property this is
    $$
     \{x,y\} \hookrightarrow  {X} 
     \;\;\;\,\rightthreetimes\,\;\;\;
-     \{\overset{x}{}{\searrow}\overset{}{x'}{\swarrow}\overset{X}{}{\searrow}\overset{}{y'}{\swarrow}\overset{\boxed{y}}{}\} 
+     \boxed{\{\overset{\boxed{x}}{}{\searrow}\underset{x'}{}{\swarrow}\overset{\boxed{X}}{}
+}\!\!\!\!\!\!
+\boxed{
+{\,\,\,\,\,\,\searrow}\underset{y'}{}{\swarrow}\overset{\boxed{y}}{}
+}
+\} 
+
     \longrightarrow  \{\boxed{x=x'=X=y'=y}\}
+
    $$
 
    Every $T2\frac{1}{2}$ space is also Hausdorff.
