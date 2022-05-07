@@ -36,6 +36,9 @@ The [[Pontrjagin product]] is due to:
 
 Discussion of homology of (iterated) loop spaces:
 
+* [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America, Vol. 46, No. 4 (Apr. 15, 1960), pp. 543-545 (3 pages) ([jstor:70867 ](https://www.jstor.org/stable/70867))
+
+
 * [[Eldon Dyer]], [[Richard Lashof]], _Homology of Iterated Loop Spaces_,  American Journal of Mathematics Vol. 84, No. 1 (Jan., 1962), pp. 35-88 ([jstor:2372804 ](https://www.jstor.org/stable/2372804))
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], p. 262 & Appendix of: _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264 ([doi:10.2307/1970615](https://doi.org/10.2307/1970615), [pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
@@ -51,6 +54,9 @@ Discussion of homology of (iterated) loop spaces:
 
 * Jonathan A. Scott, _Algebraic Structure in the Loop Space Homology Bockstein Spectral Sequence_,  Transactions of the American Mathematical Society Vol. 354, No. 8 (Aug., 2002), pp. 3075-3084 ([jstor:3073034](https://www.jstor.org/stable/3073034))
 
+* [[Victor Buchstaber]], [[Jelena Grbić]], *Hopf algebras and homology of loop suspension spaces* ([pdf](http://www.personal.soton.ac.uk/jg1u11/Papers/Buchstaber.Grbic.pdf), [[BuchstaberGrbicHopfAlgebrasAndHomology.pdf:file]]) in: V. Buchstaber et al. (eds.), *Topology, Geometry, Integrable Systems, and Mathematical Physics: Novikov’s Seminar 2012–2014*, American Mathematical Society Translations - Series 2
+Advances in the Mathematical Sciences, 2014 ([ISBN:978-1-4704-1871-7](https://bookstore.ams.org/trans2-234))
+
 
 See also:
 
@@ -63,5 +69,9 @@ See also:
 
 [[!redirects loop space homology]]
 [[!redirects loop space homologies]]
+
+[[!redirects homology of H-spaces]]
+
+
 
 
