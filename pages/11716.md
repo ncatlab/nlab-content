@@ -28,8 +28,9 @@ A _tensor triangulated category_ is a [[category]] that carries the structure of
 +-- {: .num_defn}
 ###### Definition
 
+There are different variants of the definition in the literature, asking for successively more structure.
 
-A **tensor triangulated category** is a [[category]] $Ho$ equipped with 
+To start with, a **tensor triangulated category** must be at least a [[category]] $Ho$ equipped with 
 
 1. the structure of a [[symmetric monoidal category]] $(Ho, \otimes, 1, \tau)$ ("[[tensor category]]");
 
@@ -136,6 +137,8 @@ In addition one may ask that
 
 This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)) except for statements concerning possible further [[closed monoidal category]] structure. There this is called "symmetric monoidal structure compatible with the triangulation".
 
+Finally, one can ask for the existence of additional compatibility commutative diagrams, for instance representing a "derived shadow" of the [[pushout product]] axiom of a [[monoidal model category]].  These can be found as (TC3), (TC4), and (TC5) in ([May](#May01)).
+
 
 ## Examples
 
@@ -150,6 +153,8 @@ This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97))
 * {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Memoirs of the AMS 610 (1997) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf))
 
 * {#Balmer05} [[Paul Balmer]], _The spectrum of prime ideals in tensor triangulated categories, J. Reine Angew. Math., 588:149&#8211;168, 2005 ([arXiv:0409360](http://arxiv.org/abs/math/0409360))
+
+* {#May01} [[Peter May]], _The Additivity of Traces in Triangulated Categories_, Advances in Mathematics, Volume 163, Issue 1, 2001, Pages 34-73, [doi](https://doi.org/10.1006/aima.2001.1995)
 
 Review:
 
