@@ -76,8 +76,6 @@ The above definition is the way it is usually phrased, but in fact it is equival
 
   * the [[model structure for quasi-categories]]
 
-  * the [[model structure for quasi-categories]]
-
   and many model structures derived from these, such as 
 
   * the injective global [[model structure on simplicial presheaves]] over any (simplicial) category;
