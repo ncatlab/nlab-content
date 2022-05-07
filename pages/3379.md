@@ -49,7 +49,7 @@ Let $F: C \rightleftarrows D : G$ be an [[adjunction]] with [[unit of an adjunct
      \,,
    $$ 
 
-   where $F_2$ and $G_1$ are [[fully faithful functor|fully faithful]], i.e. $F_1\dashv G_1$ is a [[reflective subcategory|reflection]] and $F_2 \vdash G_2$ is a coreflection.
+   where $F_2$ and $G_1$ are [[fully faithful functor|fully faithful]], i.e. $F_1\dashv G_1$ is a [[reflective subcategory|reflection]] and $F_2 \dashv G_2$ is a coreflection.
 
 When these conditions hold, the adjunction is said to be **idempotent**.  
 
