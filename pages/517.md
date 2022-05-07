@@ -38,6 +38,13 @@ On [[equivariant bundles]]:
 
 * [[Richard Lashof]], [[Peter May]], _Generalized equivariant bundles_, Bull. Soc. Math. Belg. Sér. A 38, 265-271, 1986 ([pdf](http://math.uchicago.edu/~may/PAPERS/55.pdf), [[LashofMayGeneralizedEquivariantBundles.pdf:file]])
 
+* {#May90} [[Peter May]], _Some remarks on equivariant bundles and classifying spaces_, Théorie de l'homotopie, Astérisque, no. 191 (1990), 15 p. ([numdam:AST_1990__191__239_0](http://www.numdam.org/item/?id=AST_1990__191__239_0))
+
+
+On [[equivariant bundles]] with [[abelian group|abelian]] [[structure group]]:
+
+* {#LashofMaySegal83} [[Richard Lashof]], [[Peter May]], [[Graeme Segal]], _Equivariant bundles with abelian structural group_, Contemporary Mathematics,  Volume 19, 1983 ([doi:10.1090/conm/019](http://dx.doi.org/10.1090/conm/019), [pdf](http://www.math.uchicago.edu/~may/PAPERS/45.pdf), [[LashofMaySegalEquivariantBundles.pdf:file]])
+
 
 
 On [[higher algebra]] ([[brave new algebra]]) in [[stable homotopy theory]], i.e. on [[ring spectra]], [[module spectra]] etc.:
