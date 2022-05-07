@@ -193,7 +193,7 @@ Then there is a correspondence between
   * subject to coherence laws.
 
 +-- {: .query}
-Right unitality entails that $X \odot [Y] \cong X \otimes Y \odot [I] \cong [X \otimes Y]$ so basically $\odot$ is fixed on objects. Is it better to fix this on the nose? Is this evil?
+Right unitality entails that $X \odot [Y] \cong X \otimes Y \odot [I] \cong [X \otimes Y]$ so basically $\odot$ is fixed on objects. Is it better to fix this on the nose? Does this violate the [[principle of equivalence]]?
 =--
   
 This correspondence is used in the formulation of [[call-by-push-value]] as an adjoint logic.
