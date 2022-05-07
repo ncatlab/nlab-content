@@ -49,12 +49,15 @@ Review:
 * [[Richard Szabo]], _Equivariant cohomology and localization of path integrals_, Lecture Notes in Physics, N.S. Monographs __63__. Springer  2000. xii+315 pp. (preprint version: _Equivariant localization of path integrals_, [hep-th/9608068](http://arxiv.org/abs/hep-th/9608068))
 
 
-
-* [[Loring Tu]], _Localization in equivariant cohomology_, from biography web on R. Bott, [node21](http://www.math.harvard.edu/history/bott/bottbio/node21.html)
-
+* [[Loring Tu]], _Localization in equivariant cohomology_, from biography web on [[Raoul Bott]], [node21](http://www.math.harvard.edu/history/bott/bottbio/node21.html)
 
 
 * [[Vasily Pestun]], _Review of localization in geometry_ ([arXiv:1608.02954](https://arxiv.org/abs/1608.02954)), chapter in: [[Vasily Pestun]], [[Maxim Zabzine]] (eds.) _Localization techniques in quantum field theories_,  J. Phys. A: Math. Theor. 50 440301, 2017 ([doi:10.1088/1751-8121/aa63c1](https://iopscience.iop.org/article/10.1088/1751-8121/aa63c1), [arXiv:1608.02952](https://arxiv.org/abs/1608.02952), [full pdf](http://pestun.ihes.fr/pages/LocalizationReview/LocQFT.pdf))
+
+Textbook account:
+
+* [[Loring Tu]], Part V in: *Introductory Lectures on Equivariant Cohomology*, Annals of Mathematics Studies **204**, AMS 2020 ([ISBN:9780691191744](https://press.princeton.edu/books/hardcover/9780691191744/introductory-lectures-on-equivariant-cohomology))
+
 
 See also:
 
