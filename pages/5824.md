@@ -111,6 +111,14 @@ The proof is spelled out in:
 
 * [[Andrej Bauer]], *The pullback lemma in gory detail*, 2012 ([pdf](http://math.andrej.com/wp-content/uploads/2012/05/pullback.pdf), [[Bauer_PullbackLemma.pdf:file]])
 
+### In model category theory
+
+Discussion in [[model category]]-theory
+
+for [[right proper model categories]]:
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], Prop. 13.3.15 of: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
 ### In $(\infty,1)$-category theory
 
 Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category theory]]
