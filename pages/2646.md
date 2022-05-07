@@ -1,3 +1,6 @@
+Daniel K. Dugger is a professor of mathematics at the University of Oregon.
+He got his PhD in 1999 at MIT, advised by [[Michael J. Hopkins]].
+
 * [website](https://pages.uoregon.edu/ddugger/)
 
 
