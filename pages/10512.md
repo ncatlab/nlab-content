@@ -30,6 +30,9 @@ The magma object $A$ is __power-associative__ if, for each $n$, all of these $n$
 
 If $\mathcal{C}$ is [[Set]], then a magma object is simply a [[magma]], and we have a __power-associative magma__.  If $\mathcal{C}$ is $K$-[[Mod]] for $K$ a [[commutative ring]], then a magma object is a [[nonassociative algebra]] over $K$, and we have a __power-associative algebra__.
 
+## Properties
+
+The submagma of every power-associative [[invertible magma]] $M$ [[generator|generated]] by an element $a \in M$ is a [[cyclic group]]. This means in particular there is a $\mathbb{Z}$-[[action]] on $M$ $(-)^{(-)}:M\times\mathbb{Z}\to M$ called the __[[power]]__. 
 
 ## Examples
 
