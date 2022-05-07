@@ -17,13 +17,16 @@ dropping the restriction that the measure takes only two values.
 With appropriate definitions, s&#x12CB; is a full subcategory of $sM$.
 
 
-Intuitively, these filters(measures) are viewed 
+Intuitively, these filters (measures) are viewed 
 as additional structure of topological nature on a simplicial set 
 ("the situs structure on a simplicial set")
-giving a meaning to the phrase "a simplex is sufficiently small":
+giving a precise meaning to the phrase "a simplex is sufficiently small":
 by definition, we say "a property holds for all small enough $n$-simplices"
-iff it holds on a set in the filter, and we refer to sets 
-in the filter as _neighbourhoods_. 
+iff it holds "almost everywhere" according to the filter (measure), 
+i.e. on a set in the filter, or, resp., on a set of full measure.
+We refer to sets 
+in the filter, resp., sets of full measure, 
+as _neighbourhoods_. 
 In particular, 
 the situs structure "on a set" (i.e. on the simplicial set represented by the set) allows one to talk about an n-tuple of points 
 being "sufficiently near each other" for $n\ge 2$.
@@ -43,7 +46,7 @@ limit, (uniform) continuity and convergence,
 equicontinuity of sequences of functions;
 in algebraic topology, being locally trivial and geometric realisation; in 
 geometry, quasi-isomorphism;
-in model theory, stability and simplicity and several Shelah's dividing lines, e.g. NIP, NOP, NSTOP, $NSOP_i$, $NTP_i$, of a theory. 
+in model theory, stability and simplicity and several Shelah's dividing lines, e.g. NIP, NOP, NSTOP, $NSOP_i$, $NTP_i$, $NATP$, of a theory. 
 
 No homotopy theory for situses has been developed,
 although the naive definition of an [interval object](#IntervalSitus) 
@@ -980,6 +983,8 @@ Pure and Applied Logic, 163(11):1624 – 1641, 2012. [(pdf)](https://arxiv.org/a
 
 * {#Simon2021} [Simon2021] Pierre Simon. A note on stability and NIP in one variable. 
 [(pdf)](https://arxiv.org/abs/2103.15799)
+
+* {#AhnKimLee2021} [AhnKimLee2021] JinHoo Ahn, Joonhee Kim, and Junguk Lee. On the Antichain Tree Property. [pdf](https://arxiv.org/pdf/2106.03779.pdf)
 
 * {#3} [3] Misha Gavrilovich. Remarks on Shelah's classification theory and Quillen's negation.
  [(pdf)](http://mishap.sdf.org/yetanothernotanobfuscatedstudy.pdf)
