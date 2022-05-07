@@ -51,7 +51,7 @@ Some examples from [[general topology]], [[measure theory]], [[differential geom
 |[[commutative von Neumann algebra]]|normal \*-homomorphism|$\mathbf{C}$|closed \*-ideal|compact strictly localizable enhanced measurable space|measurable map||
 |commutative unital [[C*-algebra]]|\*-homomorphism|$\mathbf{C}$|closed \*-ideal|compact Hausdorff space|continuous map|[[Gelfand duality]]|
 |[[commutative algebra]] over $k$|homomorphism|$k$|ideal|[[coherent space]] / [[affine scheme]]|[[continuous map]] / [[morphism of schemes]]|[[Zariski duality]]|
-|finitely generated germ-determined [[C$^\infty$-ring]]|C$^\infty$-homomorphism|$\mathbf{R}$|germ-determined ideal|[[smooth locus]] (e.g., [[smooth manifold]])|[[smooth map]]|[[Milnor duality]]|
+|finitely generated germ-determined [[C^∞-ring]]|C$^\infty$-homomorphism|$\mathbf{R}$|germ-determined ideal|[[smooth locus]] (e.g., [[smooth manifold]])|[[smooth map]]|[[Milnor duality]]|
 |finitely presented complex [[EFC-algebra]]|EFC-homomorphism|$\mathbf{C}$|ideal|globally finitely presented [[Stein space]]|holomorphic map|[[Stein duality]]|
 
 
