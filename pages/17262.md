@@ -120,7 +120,7 @@ The following shows the [[subgroup lattices]] of the first few [[generalized qua
 
 * [[dihedral group]]
 
-* [[Pauli group]]
+* [[Pauli group]], [[stabilizer code]]
 
 * [[canonical formula of myth]]
 
