@@ -18,8 +18,9 @@
 {:toc}
 
 ## Definition
+ {#Definition}
 
-A [[pointed topological space]] $(X,x)$ is called *well-pointed* if the base-point inclusion $\{x\} \xhookrightarrow{\;} X$ is a closed [[Hurewicz cofibration]] (e.g. [tom Dieck 2008, p. 102](#tomDieck2008)).
+A [[pointed topological space]] $(X,x)$ is called *well-pointed* if the base-point inclusion $\{x\} \xhookrightarrow{\;} X$ is a closed [[Hurewicz cofibration]] (e.g. [tom Dieck 2008, p. 102](#tomDieck2008)). If the topological space is [[Hausdorff topological space|Hausdorff]], then closedness is implied (by [this Prop.](Hurewicz+cofibration#HurewiczCofibrationsInCGWHSpacesAreClosed)) and one may require just a Hurewicz cofibration (eg. [Bredon 1993, VII, Def. 1.8](#Bredon93)).
 
 A [[topological group]] is called well-pointed if it is so at its [[neutral element]], hence if $\{\mathrm{e}\} \xhookrightarrow{\;} G$ is a closed [[Hurewicz cofibration]].
 
