@@ -24,7 +24,12 @@
 
 ## Idea
 
-_Elmendorf's theorem_  ([Elmendorf 83](#Elmendorf83), [Guillou 06, Prop. 3.15](#Guillou06), [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8 & 5.6](#GuillouMayRubin13)) states that for $G$ a [[topological group]], the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] ([[G-spaces]]) at the _[[weak homotopy equivalences]] on [[fixed point spaces]]_ of [[closed subset|closed]] [[subgroups]] (also presented by [[G-CW complexes]], see at _[[equivariant homotopy theory]]_ for more).
+_Elmendorf's theorem_ states that for $G$ a [[topological group]], the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the classical $G$-[[equivariant homotopy theory]], namely the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] ([[G-spaces]]) at the _[[weak homotopy equivalences]] on all [[fixed point spaces]]_ of [[closed subset|closed]] [[subgroups]].
+
+This is due, in various stages of refinement (see Remark \ref{AssumptionsAndRefinementsInTheLiterature} below) to [Elmendorf 83](#Elmendorf83), [Cordier-Porter 96, Thm. 3.11](#CordierPorter96) [Guillou 06, Prop. 3.15](#Guillou06), [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8 & 5.6](#GuillouMayRubin13).
+
+In particular this means that the $G$-[[equivariant homotopy theory]], thus identified with an [[(∞,1)-category of (∞,1)-presheaves]], is an [[(∞,1)-topos]] and in fact (since $Orb_G$ has [[finite products]]) a [[cohesive (∞,1)-topos]]; a point expanded on in [Rezk 14](#Rezk14), [Sati-Schreiber 20](#SatiSchreiber20) (for more on this see at _[[orbifold cohomology]]_).
+
 
 More in detail, write $Top^G$ for the [[category]] of [[compactly generated topological spaces]] which are equipped with a [[continuous function|continuous]] $G$-[[action]] ([[G-spaces]]). Say that a $G$-[[equivariant function|equivariant]] [[continuous function]] $f \colon X \longrightarrow Y$ between $G$-spaces is a **weak $G$-homotopy equivalence** if for all [[closed subspace|closed]] [[subgroups]] $H \hookrightarrow G$ the induced function on $H$-[[fixed point spaces]] $f^H \colon X^H \longrightarrow Y^H$ is an ordinary [[weak homotopy equivalence]]. Write 
 
@@ -48,31 +53,27 @@ $$
 Then Elmendorf's theorem asserts that there is an [[equivalence of (∞,1)-categories]]
 
 $$
-  Top^G[\{weak\;G-homotopy\;equivalences\}^{-1}]
-  \simeq
+ L_{G whe}
+  Top^G
+  \;\simeq\;
   PSh_\infty(Orb_G)
   \,.
 $$
 
-\begin{remark}
-This is stated in [Elmendorf 83](#Elmendorf83) as an [[equivalence of categories|equivalence]] of [[homotopy categories]] and refined in [Guillou 06, Prop. 3.15](#Guillou06) to a [[Quillen equivalence]] of [[presentable (infinity,1)-category|presenting]] [[model categories]].
+\begin{remark}\label{AssumptionsAndRefinementsInTheLiterature}
+(**survey of available proofs.**)
+
+This is stated in [Elmendorf 83](#Elmendorf83) as an [[equivalence of categories|equivalence]] of [[homotopy categories]] and refined in [Cordier-Porter 96, Thm. 3.11](#CordierPorter96), [Guillou 06, Prop. 3.15](#Guillou06) to a ([[simplicial Quillen adjunction|simplicial]]) [[Quillen equivalence]] of [[presentable (infinity,1)-category|presenting]] [[model categories]].
 
 Notice that [Elmendorf 83](#Elmendorf83) assumes $G$ to be a [[compact Lie group]], while [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) showed that the equivalence of [[homotopy categories]] works even for any [[topological group]].
 
-However, [Guillou 06](#Guillou06) assumes $G$ to be a [[finite group]] and [Guillou-May-Rubin 13](#GuillouMayRubin13) assume it to be [[discrete group]] in order to get an actual [[Quillen equivalence]] (either on topological spaces [Guillou 06, Prop. 3.15](#Guillou06), or on simplicial sets [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13)).
+However, [Guillou 06](#Guillou06) assumes $G$ to be a [[finite group]] and [Cordier-Porter 96](#CordierPorter96), [Guillou-May-Rubin 13](#GuillouMayRubin13) assume it to be [[discrete group]] in order to get an actual [[Quillen equivalence]] (either on topological spaces [Guillou 06, Prop. 3.15](#Guillou06), or on simplicial sets [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13) and on topological spaces but simplicially enriched [Cordier-Porter 96](#CordierPorter96)).
 
-While [Stephan 13](#Stephan13) claims that [Piacenza 91](#Piacenza91) also gives a [[Quillen equivalence]], this is not what [Piacenza 91, Thm. 6.3](#Piacenza91) actually states. (What is stated goes in the direction of claiming that the [[derived adjunction]] is an equivalence, but does it go all the way?)
+While [Stephan 13](#Stephan13) claims that [Piacenza 91](#Piacenza91) also gives a [[Quillen equivalence]], this is not what [Piacenza 91, Thm. 6.3](#Piacenza91) actually states. (What is stated is the main step in checking that the [[derived adjunction]] is an equivalence.)
 
 The statement of a Quillen equivalence for $G$ *any* [[topological group]] is in [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8](#GuillouMayRubin13).
 
 \end{remark}
-
-+-- {: .num_remark}
-###### Remark
-
-In particular this says that the $G$-[[equivariant homotopy theory]], thus identified with an [[(∞,1)-category of (∞,1)-presheaves]], is an [[(∞,1)-topos]].
-
-=--
 
 
 
@@ -80,7 +81,7 @@ In particular this says that the $G$-[[equivariant homotopy theory]], thus ident
  {#ModelCategoryPresentation}
 
 A version of the theorem that applies fairly generally for ([[discrete group|discrete]]) [[group objects]] in suitable [[cofibrantly generated model categories]] is in ([Guillou 06](#Guillou06), [Stephan 10](#Stephan10), [Stephan 13](#Stephan13)).
-
+ Refe
 +-- {: .num_defn}
 ###### Definition
 
@@ -213,7 +214,11 @@ Generalization of [Elmendorf 83](#Elmendorf83) to more general topological group
 
 * {#May96} [[Peter May]] et al., Section V.3 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics Volume: 91; 1996 ([ISBN:978-0-8218-0319-6](https://bookstore.ams.org/cbms-91), [pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf), [pdf](https://ncatlab.org/nlab/files/MayEtAlEquivariant96.pdf))
 
-Refinement of the equivalence of homotopy categories to a [[Quillen equivalence]] of [[model categories]]:
+Enhancement of Elmendorf's equivalence of homotopy categories to an [[sSet]]-[[enriched adjunction]] at least close to a [[simplicial Quillen adjunction|simplicial]] [[Quillen equivalence]] is in
+
+* {#CordierPorter96} [[Jean-Marc Cordier]], [[Timothy Porter]], Thm. 3.11 of: _Categorical Aspects of Equivariant Homotopy_, Applied Cat. Structures, **4** (1996) 195 - 212 ([doi:10.1007/BF00122252](https://doi.org/10.1007/BF00122252)) (Proceedings of the European Colloquium of Category Theory, 1994)
+
+and explicit enhancement to a [[Quillen equivalence]] of [[model categories]] based on the [[classical model structure on topological spaces]] and/or the [[classical model structure on simplicial sets]]:
 
 * {#Guillou06} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_, 2006 ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf), [[GuillouEquivariantHomotopy.pdf:file]])
 
@@ -227,26 +232,37 @@ Refinement of the equivalence of homotopy categories to a [[Quillen equivalence]
 
 * {#GuillouMayRubin13} [[Bertrand Guillou]], [[Peter May]], [[Jonathan Rubin]], Sections 1 and 5.2 in: _Enriched model categories in equivariant contexts_, Homology, Homotopy and Applications 21 (1), 2019 ([arXiv:1307.4488](https://arxiv.org/abs/1307.4488), [arXiv:10.4310/HHA.2019.v21.n1.a10](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a10))
 
+A more general class of Quillen equivalences of which these model-category theoretic enhancements of Elmendorf's theorem turn out to be special cases are discussed in
 
+* [[William Dwyer]], [[Daniel Kan]], Section 2 of: _Singular functors and realization functors_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 147-153 (<a href="https://doi.org/10.1016/1385-7258(84)90016-7">doi:10.1016/1385-7258(84)90016-7</a>)
 
-A generalization to [[orbispaces]] is discussed in 
+* [[Emmanuel Dror Farjoun]], Prop. 1.3 in: _Homotopy Theories for Diagrams of Spaces_, Proceedings of the AMS, Vol. 101, No. 1 (Sep., 1987), pp. 181-189 ([jstor:2046572 ](https://www.jstor.org/stable/2046572 ))
 
-* [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
+* {#Chorny13} [[Boris Chorny]], _Homotopy  theory  of  relative  simplicial  presheaves_,  Israel J. Math. 205 (2015), no. 1, 471–484, ([arXiv:1310.2932](https://arxiv.org/abs/1310.2932))
 
-Discussion in the broader context of [[global equivariant homotopy theory]] is in 
+These Elmendorf [[Quillen equivalences]] (as in [Stephan 13](#Stephan13)) apply to other [[model categories]], and yield Elmendorf-like equivalences in other contexts:
+
+* [[Jonathan Rubin]], _Elmendorf constructions for G-categories and G-posets_ ([arXiv:2006.08876](https://arxiv.org/abs/2006.08876))
+
+See also related discussion of "[[orbispaces]]", starting with:
+
+* [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916)),
+
+relating to [[global equivariant homotopy theory]]:
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
-Some of the categorical aspects of Elmendorf's theorem are examined in
+and then to [[orbifolds]]:
 
-* {#CordierPorter96} [[Jean-Marc Cordier]], [[Timothy Porter]], _Categorical Aspects of Equivariant Homotopy_, Applied Cat.Structures, **4** (1996) 195 - 212. doi:[10.1007/BF00122252](https://doi.org/10.1007/BF00122252) (Proceedings of the European Colloquium of Category Theory, 1994)
-
-A recent n-cat café discussion initiated by [[John Huerta]] and probing some of its uses in Mathematical Physics, can be found [here](https://golem.ph.utexas.edu/category/2018/06/elmendorfs_theorem.html#more).
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
 
 
-Generalization to $I$-orbits for a small category $I$ is in
 
-* {#Chorny13} [[Boris Chorny]], _Homotopy  theory  of  relative  simplicial  presheaves_,  Israel J. Math. 205 (2015), no. 1, 471–484, ([arXiv:1310.2932](https://arxiv.org/abs/1310.2932))
+An n-cat café discussion initiated by [[John Huerta]] and probing some of its uses in Mathematical Physics, can be found [here](https://golem.ph.utexas.edu/category/2018/06/elmendorfs_theorem.html#more), following
+
+* [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. 371: 425. (2019 ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](https://doi.org/10.1007/s00220-019-03442-3))
+
+
 
 [[!redirects Elmendorf theorem]]
 
