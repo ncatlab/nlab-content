@@ -219,7 +219,7 @@ More generally, the [[KK-compactification]] of [[11d supergravity]] of [[fibers]
 
 * [[George Papadopoulos]], [[Paul Townsend]], _Compactification of D=11 supergravity on spaces of exceptional holonomy_, Phys. Lett. B357:300-306,1995 ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
-Dedicated [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]] ) goes back to:
+Dedicated [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]]) goes back to:
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
@@ -250,7 +250,7 @@ Expanding on [Atiyah-Witten 01](#AtiyahWitten01):
 * [[Bobby Acharya]], Lorenzo Foscolo, Marwan Najjar, Eirik Eik Svanes, _New $G_2$-conifolds in M-theory and their Field Theory Interpretation_ ([arXiv:2011.06998](https://arxiv.org/abs/2011.06998))
 
 
-See also
+See also:
 
 * {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
@@ -272,10 +272,13 @@ More discussion of the non-abelian gauge group enhancement at [[orbifold]] singu
 
 * Max Hubner, _Local $G_2$-Manifolds, Higgs Bundles and a Colored Quantum Mechanics_ ([arXiv:2009.07136](https://arxiv.org/abs/2009.07136))
 
+Discussion in relation to the [[duality between M-theory and heterotic string theory]]:
+
+* [[Bobby Acharya]], Alex Kinsella, [[David Morrison]], *Non-Perturbative Heterotic Duals of M-Theory on $G_2$ Orbifolds* ([arXiv:2106.03886](https://arxiv.org/abs/2106.03886))
 
 
 
-Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in
+Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in:
 
 * {#BilalDerendingerSfetos} [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
  
