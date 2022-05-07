@@ -32,10 +32,11 @@ If $H \subset G$ is a [[closed subgroup]] of a ([[finite number|finite]] [[dimen
 
 * [[continuous homomorphisms of Lie groups are smooth]]
 
+* [[coset space coprojection admitting local sections]]
 
 ## References
 
-The statement is originally due to 
+The statement is originally due to:
 
 * {#Cartan52} [[Élie Cartan]], _La théorie des groupes finis et continus et l'analysis situs_, Mémorial des sciences mathématiques, no. 42 (1952) , 68 p ([numdam:MSM_1952__42__1_0](http://www.numdam.org/item/?id=MSM_1952__42__1_0))
 
@@ -61,5 +62,7 @@ See also
 
 [[!redirects closed subgroup theorem]]
 [[!redirects closed-subgroup theorem]]
+
+[[!redirects closed subgroups of Lie groups are Lie]]
 
 
