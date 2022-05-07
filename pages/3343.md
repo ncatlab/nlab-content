@@ -30,7 +30,12 @@ On [[classifying toposes]]
 
 On [[string field theory]]:
 
-* Branislav Jur&#269;o, Korbinian Muenster, _Type II superstring field theory: geometric approach and operadic description_, JHEP 1304:126 (2013) [arXiv/1303.2323](http://arxiv.org/abs/1303.2323) <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>
+* Branislav Jur&#269;o, Korbinian Muenster, _Type II superstring field theory: geometric approach and operadic description_, JHEP 1304:126 (2013) ([arXiv/1303.2323](http://arxiv.org/abs/1303.2323), <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>)
+
+On [[string field theory]] in terms of [[L-infinity algebras|$L_\infty$-algebras]]:
+
+* {#DoubekJurcoMuenster13} [[Martin Doubek]], [[Branislav Jurco]], Korbinian Muenster, _Modular operads and the quantum open-closed homotopy algebra_, J. High Energ. Phys. 2015, 1–55 (2015) ([arXiv:1308.3223](https://arxiv.org/abs/1308.3223), <a href="https://doi.org/10.1007/JHEP12(2015)158">doi:10.1007/JHEP12(2015)158</a>)
+
 
 On [[Riemannian geometry]] on [[Courant algebroids]] and relation to [[supergravity]] [[equations of motion]]:
 
