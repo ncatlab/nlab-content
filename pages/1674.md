@@ -115,7 +115,7 @@ Methods somewhat similar to those used to prove GCH implies AC can be used to es
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Tarski)** 
-Over ZF (or ETCS), the axiom of choice holds iff every infinite set $Y$ can be put into bijection with its square: $Y^2 \cong Y$. 
+Over ZF (or ETCS without choice), the axiom of choice holds iff every infinite set $Y$ can be put into bijection with its square: $Y^2 \cong Y$. 
 =-- 
 
 +-- {: .proof} 
