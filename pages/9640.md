@@ -10,7 +10,7 @@ On [[topological quantum computation]]:
 
 On [[topological quantum computation]] with [[anyons]]/[[quantum Hall effect]]:
 
-* Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman]], Sankar Das Sarma, _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083, 2008 ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083))
+* Chetan Nayak, Steven H. Simon, [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083, 2008 ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083))
 
 
 ## Related entries
