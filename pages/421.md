@@ -388,6 +388,10 @@ The [[orientals]] relate simplices to [[globes]].
 [[!redirects topological n-simplex]]
 [[!redirects topological n-simplices]]
 
+[[!redirects topological k-simplex]]
+[[!redirects topological k-simplices]]
+
+
 [[!redirects geometric n-simplex]]
 [[!redirects geometric n-simplices]]
 
