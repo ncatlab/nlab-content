@@ -464,7 +464,8 @@ The concept of a model category originates with
 
 * {#Hirschhorn02} [[Philip Hirschhorn]], _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
-* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Jeffrey H. Smith]], _Homotopy Limits Functors on Model Categories and Homotopical Categories_, [AMS](https://bookstore.ams.org/surv-113-s/), Mathematical Surveys and Monographs 113 (2004).
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
+
 
 * [[J. Peter May]], [[Kate Ponto]], _[[More Concise Algebraic Topology]]_, The University of Chicago Press, 2012.  Part 4.
 
