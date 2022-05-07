@@ -115,7 +115,7 @@ $$
 
 Given any [[ground field]] $\mathbb{F}$ (in fact any [[ground ring]], notably the [[integers]]) there is, for each [[natural number]] $n$, a canonical [[isomorphism]] of [[graded abelian groups]] between 
 
-1. the[[weight systems]]
+1. the [[weight systems]]
 
    $$
      \mathcal{W}_n^{pb}
