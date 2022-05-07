@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -214,12 +215,12 @@ This is ([Badzioch 02, theorem 1.3](#Badzioch02)).
 
 ### Homotopy groups
 
-Let $T$ be an _abelian Lawvere theory_,  a theory that contains the theory of [[abelian group]], $Ab \to T$. Then every simplicial $T$-algebra has an underlying abelian [[simplicial group]] and is necessarily a [[Kan complex]].
+Let $T$ be an _abelian Lawvere theory_,  a theory that contains the theory of [[abelian group]], $Ab \to T$. Then every simplicial $T$-algebra has an underlying [[simplicial abelian group]] and is necessarily a [[Kan complex]].
 
 +-- {: .num_prop}
 ###### Observation
 
-The [[homotopy group]]s $\pi_*$ of a simplicial abelian $T$-agebra form an $\mathbb{N}$-graded $T$-algebra $\pi_*(A)$
+The [[homotopy groups]] $\pi_*$ of a simplicial abelian $T$-agebra form an $\mathbb{N}$-graded $T$-algebra $\pi_*(A)$
 
 =--
 
@@ -289,6 +290,8 @@ But they do satisfy the assumptions of proposition \ref{QuillenCriterion} ([Quil
 
 ## Related concepts
 
+* [[model structure on simplicial abelian groups]]
+
 * [[model structure on cosimplicial algebras]]
 
 * [[model structure on monoids]]
@@ -303,7 +306,7 @@ But they do satisfy the assumptions of proposition \ref{QuillenCriterion} ([Quil
 
   [[∞-algebra over an (∞,1)-algebraic theory]]
 
-  * [[homotopy T-algebra]] / **model structure on simplicial T-algebras**
+  * [[homotopy T-algebra]]
 
 * [[algebra over an operad]] 
 
@@ -381,4 +384,4 @@ Discussion of divided [[power operations]] on simplicial algebras is in
 [[!redirects simplicial algebra]]
 [[!redirects simplicial algebras]]
 
-[[!redirects model structure on simplicial abelian groups]]
+
