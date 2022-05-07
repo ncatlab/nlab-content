@@ -167,6 +167,13 @@ For more see [[Alexandroff topology]].
 
 Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions of [[prosets]]. ([Rosolini](#Rosolini))
 
+## Examples
+
+* The [[function algebra]] of [[rational number|rational]]-valued [[functions]] on any [[set]] $X$ is a partial order. 
+
+* The [[function algebra]] of [[Cauchy real number|Cauchy real]]-valued functions on $X$ is a partial order. In fact, it is the [[Cauchy completion]] of the function algebra of [[rational number|rational]]-valued [[functions]] on $X$. 
+
+* More generally, if $A$ is a [[vector space]] on the [[rational numbers]] with a [[quadratic form]], then $A$ is a partial order, and its Cauchy completion is a vector space of same dimension on the [[Cauchy real numbers]] with a quadratic form. In particular, the Cauchy [[complex numbers]] and the [[Gaussian rationals]] are partial orders. 
 
 ## Related concepts
 
