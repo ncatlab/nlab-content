@@ -1512,8 +1512,7 @@ $$
 $$
 
 For instance if each of the groupoids is the [[delooping]] $\mathcal{G}_i = B G_i$
-of a [[group]] $G_i$ (example \ref{GroupoidFromDelooping}) then the product groupoid is the
-delooping groupoid of the [[direct product group]]:
+of a [[group]] $G_i$ (example \ref{GroupoidFromDelooping}) then the product groupoid is the [[delooping groupoid]] of the [[direct product group]]:
 
 $$
   \underset{i \in I}{\prod} B G_i
@@ -2131,7 +2130,7 @@ _Groups are equivalently pointed connected groupoids_.
 
 +-- {: .num_example #DeloopingGroupoidDisjointUnion}
 ###### Example
-**([[disjoint union]] of [[delooping]] groupoids)
+**([[disjoint union]] of [[delooping groupoids]])
 
 Let $\{G_i\}_{i \in I}$ be a [[set]] of [[groups]]. Then there is a groupoid
 $\underset{i \in I}{\sqcup} B G_i$ which is the disjoint union groupoid (example \ref{GroupoidsCoproduct}) of the [[delooping]] groupoids $B G_i$ (example \ref{GroupoidFromDelooping}).
@@ -2200,7 +2199,7 @@ $$
   B Aut_{\mathcal{G}}(x) \hookrightarrow \mathcal{G}
 $$
 
-from the delooping groupoid (def. \ref{GroupoidFromDelooping}) of the automorphism group. This takes the
+from the [[delooping groupoid]] (def. \ref{GroupoidFromDelooping}) of the automorphism group. This takes the
 unique object of $B Aut_{\mathcal{G}}(x)$ to $x$ and takes every automorphism of $x$ "to itself",
 regarded now again as a morphism in $\mathcal{G}$.
 
@@ -2281,7 +2280,7 @@ is clearly a group isomorphism as required.
 
 +-- {: .num_lemma #DeloopingGroupoidEquivalence}
 ###### Lemma
-**([[equivalence of groupoids|equivalences]] between [[coproducts|disjoint unions]] of [[delooping]] groupoids)**
+**([[equivalence of groupoids|equivalences]] between [[coproducts|disjoint unions]] of [[delooping groupoids]])**
 
 Let $\{G_i\}_{i \in I}$ and $\{H_j\}_{j \in J}$ be sets of [[groups]] and consider a homomorphism ([[functor]])
 
@@ -2293,7 +2292,7 @@ $$
   \underset{j \in J}{\sqcup} B H_j
 $$
 
-between the corresponding disjoint unions of [[delooping]] groupoids (example \ref{GroupoidFromDelooping}).
+between the corresponding disjoint unions of [[delooping groupoids]] (example \ref{GroupoidFromDelooping}).
 
 Then the following are equivalent:
 
@@ -2319,7 +2318,7 @@ $$
   \beta \;\colon\; F \circ G \Rightarrow id
 $$
 
-are in each separate [[delooping]] groupoid $B G_i$ (resp. $B H_j$) of the form
+are in each separate [[delooping groupoid]] $B G_i$ (resp. $B H_j$) of the form
 
 $$
   \array{
@@ -2355,7 +2354,7 @@ $$
   \mathcal{G} \simeq \underset{i \in I}{\sqcup} B G_i
 $$
 
-between $\mathcal{G}$ and a [[disjoint union]] of [[delooping]] groupoids (example \ref{DeloopingGroupoidDisjointUnion}).
+between $\mathcal{G}$ and a [[disjoint union]] of [[delooping groupoids]] (example \ref{DeloopingGroupoidDisjointUnion}).
 This is called a _[[skeleton]]_ of $\mathcal{G}$.
 
 Concretely, this exists for $I = \pi_0(\mathcal{G})$ the set of [[connected components]] of $\mathcal{G}$ (def. \ref{GroupoidConnectedComponents}) and for $G_i \coloneqq Aut_{\mathcal{G}}(x)$ the [[automorphism group]] (def. \ref{InGrupoidAutomorphismGroup}) of any object $x$ in the given connected component.
@@ -3749,9 +3748,9 @@ $$
 
 +-- {: .num_example #GroupRepresentationsAsDeloopingRepresentations}
 ###### Example/Definition
-**([[group representations]] are [[groupoid representations]] of [[delooping]] [[groupoids]])**
+**([[group representations]] are [[groupoid representations]] of [[delooping groupoids]])**
 
-If $\mathcal{G} = B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}), then
+If $\mathcal{G} = B G$ is the [[delooping groupoid]] of a [[group]] $G$ (example \ref{GroupoidFromDelooping}), then
 a [[groupoid representation]] of $B G$ is a _[[group representation]]_ of $G$ (def. \ref{GroupoidRepresentation}), and one writes
 
 $$
@@ -3760,7 +3759,7 @@ $$
 
 for the [[representation category|representation groupoid]].
 
-For each object $x \in X$ the canonical inclusion of the delooping groupoid of the [[automorphism group]]
+For each object $x \in X$ the canonical inclusion of the [[delooping groupoid]] of the [[automorphism group]]
 (from def. \ref{InGrupoidAutomorphismGroup})
 
 $$
