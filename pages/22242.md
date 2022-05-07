@@ -25,6 +25,19 @@ The associated Diers spectrum functor is a functor
 $$CRing^{op} \to Set$$
 that sends a [[commutative ring]] to its [[prime spectrum]].
 
+## Example
+
+The category of [[reduced rings]] and injective homomorphisms
+is a [[multireflexive subcategory]] of the category of [[commutative rings]]
+and ring homomorphisms.
+
+The associated Diers spectrum functor is a functor
+$$CRing^{op} \to Set$$
+that sends a [[commutative ring]] to its poset of [[radical ideals]].
+This is precisely the underlying poset of the localic [[Zariski spectrum]].
+
 ## Reference
 
-* [[Yves Diers]], _Some spectra relative to functors_.  Journal of Pure and Applied Algebra 22:1 (1981), 57–74.  [doi](https://doi.org/10.1016/0022-4049(81)90082-7).
+* [[Yves Diers]], _Some spectra relative to functors_.  Journal of Pure and Applied Algebra 22:1 (1981), 57–74.  [doi][1]
+
+    [1]: https://doi.org/10.1016/0022-4049(81)90082-7
