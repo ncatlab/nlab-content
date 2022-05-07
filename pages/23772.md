@@ -28,6 +28,10 @@ where $x^2$ is the canonical [[square function]] of the multiplicative [[monoid]
 
 * [[quadratic form]]
 
+* [[polynomial function]]
+
+* [[real quadratic function]]
+
 ## References
 
 * Wikipedia, _[Quadratic function](https://en.wikipedia.org/wiki/Quadratic_function)_
