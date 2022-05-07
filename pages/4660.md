@@ -82,8 +82,7 @@ A corrected definition of topological group cohomology has been given by Segal
 
 * [[Graeme Segal]], _Cohomology of topological groups_ In Symposia Mathematica, Vol. IV (INDAM, Rome, 1968/69), pages 377{387. Academic Press, London, (1970).
 
-* [[Graeme Segal]], _A classifying space of a topological group in the sense of Gel'fand-Fuks. Funkcional. Anal. i Prilozen.,
-9(2):48{50, (1975).
+* [[Graeme Segal]], _A classifying space of a topological group in the sense of Gel'fand-Fuks. Funkcional. Anal. i Prilozen., 9(2):48{50, (1975).
 
 
 
