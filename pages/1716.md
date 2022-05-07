@@ -85,8 +85,7 @@ Many classical theorems concerning [[fiber bundles]] are stated for the numerabl
 ## References ##
 
 * {#Stone} [[Arthur H. Stone]],
-_Paracompactness and product spaces_, Bulletin of the American Mathematical Society 54:10 (1948), 977–983.
-doi:10.1090/s0002-9904-1948-09118-2.
+_Paracompactness and product spaces_, Bulletin of the American Mathematical Society 54:10 (1948), 977–983 ([doi:10.1090/S0002-9904-1948-09118-2](https://doi.org/10.1090/S0002-9904-1948-09118-2))
 
 * {#Michael} [[Ernest Michael]],
 _A note on paracompact spaces_.
