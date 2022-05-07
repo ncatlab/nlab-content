@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Kripke's schema is a principle first found implicitly in the [[intuitionistic mathematics|school of Brouwer]], going beyond base constructive logic. It ties propositions (or, in some formulations, membership of subsets of the naturals) to the values of infinite sequences in $\{0, 1\}$. 
+Kripke's schema is a principle first found implicitly in the [[intuitionistic mathematics|school of Brouwer]], going beyond base [[constructive logic]]. It ties [[propositions]] (or, in some formulations, membership of [[subsets]] of the [[natural numbers|naturals]]) to the values of infinite [[sequences]] in $\{0, 1\}$. 
 
 ## Formulation
 __KS__:
@@ -22,9 +32,10 @@ For every binary sequence $b$, there exists a binary sequence $a$, such that $b$
 This is to say, to any sequence there is a certain sort of inverse sequence. Classically, of course, the value $1 - {\mathrm{max}}(b)$ exactly determines whether $b$ is the zero sequence and thus the constant sequence $a$ with that value does the job. But constructively one can't generally inspect all return values of a sequence $b$.
 
 ## Implications
+
 Sequences are nicely behaved objects and, in turn, KS can be shown to be equivalent to the claim that every inhabited subset of the naturals is countable. 
 
-It also has implications for metric spaces.
+It also has implications for [[metric spaces]].
 
 It can be shown that (WPFP + MP) iff LPO. Those principles are thus not provable in Russian constructivism (adopting MP but not LPO). Indeed, formulations of KS contradict the so called Constructive Church's Thesis.
 
