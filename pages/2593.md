@@ -334,7 +334,7 @@ See also [[division algebra and supersymmetry]].
 
 This subsumes some of the results in
 
-* [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
+* [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989) ([doi:10.1103/PhysRevLett.62.2579](https://doi.org/10.1103/PhysRevLett.62.2579))
 
 The cohomology of the [[super Poincare Lie algebra]] in low dimensions $\leq 5$ is analyzed in
 
