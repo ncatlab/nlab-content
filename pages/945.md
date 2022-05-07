@@ -53,7 +53,9 @@ A [[functor]] $i \colon S \to C$ is __dense__ if it satisfies the following equi
 
 1. the corresponding [[restricted Yoneda embedding]] $C \to [S^{op},Set]$ is [[full and faithful functor|fully faithful]].
 
-1. the [[left Kan extension]] $lan_i i$ is the identity.
+1. the [[left Kan extension]] $lan_i i$ exists, is [[pointwise Kan extension|pointwise]], and is isomorphic to the identity.
+
+1. $C$ is the closure of $S$ under [[colimits]] of a family of [[diagrams]], by which is meant a class of pairs $(F \colon L^{op} \to \mathcal{V}, P \colon L \to C)$ consisting of a [[weight]] and a diagram for that weight, and these colimits are $i$-absolute (i.e. preserved by the [[nerve]] $N_i$ of $i$). See [(Theorem 5.19 of Kelly)](#Kelly), for instance.
 
 \end{definition}
 
@@ -139,7 +141,7 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
  
 * [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_ , Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e), [pdf](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e/c/rm36_01.pdf))
 
-* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ , Cambridge UP 1982. (Reprinted as [TAC reprint no.10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) (2005); chapter 5, pp.85-112)
+* {#Kelly} [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ , Cambridge UP 1982. (Reprinted as [TAC reprint no.10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) (2005); chapter 5, pp.85-112)
 
 * [[William Lawvere]], _John Isbell's Adequate Subcategories_, TopCom **11** no.1 2006. ([link](http://at.yorku.ca/t/o/p/d/65.htm))
 
