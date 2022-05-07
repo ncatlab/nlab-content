@@ -495,7 +495,7 @@ This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes t
 
 The notion originates in 
 
-* {#Penrose67} [[Roger Penrose]], _Twistor algebra_,  Journal of Mathematical Physics 8 (2): 345&#8211;366, (1967) 
+* {#Penrose67} [[Roger Penrose]], _Twistor algebra_,  Journal of Mathematical Physics 8 (2): 345&#8211;366, (1967) ([doi:10.1063/1.1705200](https://doi.org/10.1063/1.1705200))
 
 * [[Roger Penrose]], _The twistor programme, Reports on Mathematical Physics 12 (1): 65&#8211;76 (1977)
 
@@ -531,6 +531,7 @@ Introductions and surveys include
 * {#Adamo17} Tim Adamo, _Lectures on twistor theory_ ([arXiv:1712.02196](https://arxiv.org/abs/1712.02196))
 
 * L. J. Mason, N. M. J. Woodhouse, _Integrability, self-duality and twistor theory_, OUP 1996
+
 * R. S. Ward, R. O. Wells, Jr. _Twistor geometry and field theory_, Cambridge Univ. Press 1990
 
 Review of the application in [[super Yang-Mills theory]] includes
@@ -562,7 +563,7 @@ and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is 
 
 More on traditional applications to [[quantum field theory]] is in 
 
-* {#WardWells90} R.S. Ward, R.O. Wells, _Twistor geometry and field theory_, Cambridge Univ. Press 1990.
+* {#WardWells90} R.S. Ward, R.O. Wells, _Twistor geometry and field theory_, Cambridge Univ. Press 1990 ([doi:10.1017/CBO9780511524493](https://doi.org/10.1017/CBO9780511524493))
   
 
 The relation of twistor geometry to [[MHV amplitudes]] in 4d [[Yang-Mills theory]] and [[twistor string theory]] is due to 
