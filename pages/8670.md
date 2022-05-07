@@ -1,16 +1,19 @@
-[[!redirects Mochizuki's proof of abc]]
-[[!redirects Mochizuki's proof of abc]]
-[[!redirects Mochizuki's proof of abc]]
-[[!redirects Mochizuki's proof of abc]]
 
-> In the references (to date not formally published) listed at _[[inter-universal Teichmüller theory]]_, [[Shinichi Mochizuki]] has claimed in particular a proof of the _[[abc conjecture]]_. A few weeks after the announcement of the proof Vesselin Dimitrov observed some problems in these documents and made these public in the form of a comment to the MathOverflow forum in the thread titled "[Philosophy behind Mochizuki's work on the ABC conjecture](http://mathoverflow.net/questions/106560/philosophy-behind-mochizukis-work-on-the-abc-conjecture/#107279)". This page is hopefully eventually trying to record stable insights arising from this discussion.
+#Contents#
+* table of contents
+{:toc}
 
-+-- {: .standout} 
-This page was originally created by an anonymous user. As the original post by Vesselin Dimitrov at MathOverflow is periodically revised, and this entry was created apparently without his knowledge, the contents of this entry should be treated with discretion and caution until the situation has been clarified. -- Todd Trimble 
-=-- 
+## Idea
 
-> The following is for the moment mostly verbatim copied from the MO discussion.
+In the preprints listed at _[[inter-universal Teichmüller theory]]_, [[Shinichi Mochizuki]] has claimed, in particular, a proof of the _[[abc conjecture]]_. Over the years, the proposed proof has been met with a fair amount of scepticism from various authors, some of which is referenced below.
 
+## Reactions
+
+### Dimitrov's commentary
+  
+> The following is verbatim quoted from [Dimitrov 2012](#Dimitrov12).
+
+***
 
 **Completely rewritten. (9/26)**
 
@@ -99,7 +102,17 @@ A side remark: note that the inverse $1/\ell$ of the prime level from the de Rha
 
 **Added on 3-13-13.** Mochizuki has posted revisions of his second and third papers on Inter-Universal Teichmuller Theory. They can be found at the bottom of his webpage [here](http://www.kurims.kyoto-u.ac.jp/~motizuki/papers-english.html).
 
-## Related concepts
+***
+
+> end of verbatim quote from [Dimitrov 2012](#Dimitrov12).
+
+
+### Scholze & Stix's comment
+
+See [Scholze & Stix 2018](#ScholzeStix18).
+
+
+## Related entries
 
 * [[abc conjecture]]
 
@@ -107,4 +120,11 @@ A side remark: note that the inverse $1/\ell$ of the prime level from the de Rha
 
 ## References
 
-* [[Peter Scholze]], [[Jakob Stix]], _Why abc is still a conjecture_, ([pdf](https://ncatlab.org/nlab/files/why_abc_is_still_a_conjecture.pdf))
+For [[Shinichi Mochizuki]]'s proposed proof see the references at *[[inter-universal Teichmüller theory]]*.
+
+Commentary on this proof by other authors:
+
+* {#Dimitrov12} Vesselin Dimitrov, MO comment 2012 ([MO:a/107279](https://mathoverflow.net/a/107279/381))
+
+* {#ScholzeStix18} [[Peter Scholze]], [[Jakob Stix]], _Why abc is still a conjecture_, 2018 ([pdf](https://ncatlab.org/nlab/files/why_abc_is_still_a_conjecture.pdf))
+
