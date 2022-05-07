@@ -91,7 +91,7 @@ The [[roots]] of the sine function, hence the argument where its value is [[zero
 
 * [[hyperbolic sine]], [[hyperbolic cosine]]
 
-* [[exponential]], [[Euler's formula]]
+* [[exponential]], [[exponential ring]], [[Euler's formula]]
 
 * [[trigonometric identity]] 
 
