@@ -15,9 +15,9 @@
 
 ## Idea
 
-Sensible reasoning in [[mathematics]] in general, and in higher structures such as ([[higher category theory|higher]]) [[category theory]], [[homotopy type theory]], etc. in particular, should be invariant under the respective notion of _[[equivalence]]_. This is an issue whenever some structure is _[[generators and relations|presented]]_ by other structures, since the notion of equivalence of the presentation can be finer than that of the notion being presented. 
+Sensible reasoning in [[mathematics]] in general, and in [[higher structures]], such as ([[higher category theory|higher]]) [[category theory]], [[homotopy theory]],  [[homotopy type theory]], etc., should be suitably [[invariant]] under the respective notion of _[[equivalence]]_. This is a common issue whenever some structure is _[[generators and relations|presented]]_ by other structures, since the notion of equivalence of the presentation can be finer than that of the notion being presented. 
 
-For instance, a [[category]] can be presented by a [[simplicial set]], but [[isomorphism]] of simplicial sets is much finer than [[equivalence of categories|equivalences]] of their corresponding categories. It is generally a _mistake_ to mix up these two levels and, for instance, assign to a category properties that are shared only by _some_ of the simplicial sets representing it, say, by distinguishing between [[isomorphism|isomorphic]] objects. This _breaks the equivalence invariance_.  (However, see [below](/nlab/show/principle+of+equivalence#Breaking).)
+For instance, a [[category]] can be presented by a [[simplicial set]], but [[isomorphism]] of simplicial sets is much finer than [[equivalence of categories|equivalences]] of their corresponding categories. It is generally a _mistake_ to mix up these two levels and, for instance, assign to a category properties that are shared only by _some_ of the simplicial sets representing it, say, by distinguishing between [[isomorphism|isomorphic]] [[objects]]. This _breaks the equivalence invariance_.  (However, see [below](#Breaking).)
 
 The ideas here generalize in many directions.  For example, not only properties, but also constructions involving categories and functors, can fail to preserve equivalences.  
 
@@ -91,7 +91,7 @@ It does not break equivalence-invariance to state that two [[morphisms]] are equ
 
 It violates the principle of equivalence to state that two morphisms in a $2$-[[2-category|category]] are equal, because these morphisms are objects in a [[hom-category]], but does not violate the principle of equivalence to state that that two $2$-morphisms are equal, given a common source and target.  And so on.  In an $\infty$-[[infinity-category|category]], *every* claim of equality break equivalence-invariance.
 
-Defining higher categorial structures using such 'evil' equalities tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
+Defining higher categorial structures using such equalities tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
 
 
 #### In the concept of $\dagger$-categories
@@ -214,8 +214,6 @@ See at
 
 ## How to break equivalence-invariance
 {#Breaking}
-
-> Or: just because it looks evil doesn\'t mean that it really is.
 
 Just as we can make use of [[basis|bases]] in [[linear algebra]], so we may make use of [[strict categories]] to discuss [[category theory]].  Philosophically, the concept of strict category is not in itself a breaking of equivalence-invariance; what does break equivalence-invariance is to say that $Set$ (and other well-known categories such as [[Grp]], etc) *are* strict categories.  Mathematically, strict categories form a $1$-[[1-groupoid|groupoid]] $Str Cat_\sim$ that is different from the $2$-[[2-groupoid|groupoid]] $Cat_\sim$, but there is still a canonical [[pseudo functor]] from $Str Cat_\sim$ to $Cat_\sim$ that we may find useful.
 
