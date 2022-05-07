@@ -21,10 +21,15 @@ Since every [[orbit]] of a [[group]] $G$ (typically taken to be a [[topological 
 
 ## Related concepts
 
+* [[orbit]]
+
 * [[orbit category]]
 
 ## References
 
-(...)
+* {#Bredon72} [[Glen Bredon]], Section I.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+
+
 
 [[!redirects orbit types]]
