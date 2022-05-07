@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[monoidal category]] is **strict** if its [[associator]] and left/right [[unitors]] and are [[identity natural transformations]].
+A [[monoidal category]] is **strict** if its [[associator]] and left/right [[unitors]] are [[identity natural transformations]].
 
 
 ## Related concepts
