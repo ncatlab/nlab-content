@@ -452,6 +452,7 @@ This is, ultimately, the reason why the [[derived adjunction|derived]] [[PL de R
 
 * [[Adams spectral sequence]]
 
+* [[idempotent monoid in a monoidal category]]
 
 ## References
 
