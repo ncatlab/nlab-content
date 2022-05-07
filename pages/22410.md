@@ -57,6 +57,10 @@ Examples of references using this terminology: [StacksProject](#StacksProject), 
 
 * Even if a $G$-[[equivariant principal bundle]] is an actual [[torsor]] ([[internalization|in]] [[topological G-spaces]] [[slice category|sliced]] over a given base) its [[fixed loci]] will generally only be (similarly internal) pseudo-torsors.
 
+## Related concepts
+
+* [empty heap](heap#empty)
+
 ## References
 
 The term seems to be due to:
