@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -64,19 +65,20 @@ A [[brane]] for a LG model is given by a [[matrix factorization]] of its superpo
 
 ## References
 
-The original reference is
+### In superconductivity
+
+Discussion as a model for [[superconductors]]:
+
+The original article:
 
 * [[В. Л. Гинзбург]], [[Л. Д. Ландау]], _К теории сверхпроводимости_, ЖЭТФ 20 (1950), 1064.
 
 English translation:
 
-* [[Vitaly Ginzburg]], [[Lev Landau]], _On the Theory of Superconductivity_,  [DOI](https://doi.org/10.1007/978-3-540-68008-6_4).
+* [[Vitaly Ginzburg]], [[Lev Landau]], _On the Theory of Superconductivity_,  In: _On Superconductivity and Superfluidity_ Springer (2009) ([doi:1007/978-3-540-68008-6_4](https://doi.org/10.1007/978-3-540-68008-6_4))
 
-### In superconductivity
 
-Discussion as a model for [[superconductors]]:
-
-Review
+Review:
 
 * {#Chapman00} S. J. Chapman, Section 2 of: _A Hierarchy of Models for Type-II Superconductors_, IAM Review Vol. 42, No. 4 (2000), pp. 555-598 ([jstor:2653134](https://www.jstor.org/stable/2653134))
 
