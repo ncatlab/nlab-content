@@ -59,7 +59,9 @@ On the other hand, analysts run across semigroups often in the wild, and don\'t 
 
 Another variant with strong links with category theory is that of [[inverse semigroups]], which [[Charles Ehresmann]] showed were closely related to [[ordered groupoid]]s. Inverse semigroups naturally occur when considering partial symmetries of an object.
 
+## Examples
 
+* The natural numbers with a binary operation $(-) +_n (-):\mathbb{N}\times\mathbb{N}\to\mathbb{N}$ inductively defined as $0 +_n 0 = n$, $S(x) +_n y = S(x +_n y)$, and $x +_n S(y) = S(x +_n y)$ for all $x,y:\mathbb{N}$ is a commutative semigroup for all $n:\mathbb{N}$. 
 
 ## Internalization 
 
