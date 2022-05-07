@@ -142,7 +142,7 @@ $$
   \array{
     Sym(n)
     &
-      \overset{CycLenghs}{\longrightarrow}
+      \overset{CycLengths}{\longrightarrow}
     &
     Part(n)
     \\
@@ -156,7 +156,7 @@ for the function that sends a [[permutation]] $\sigma$ of $n$ elements to the [[
 
 \[
   \label{CycleLengths}
-  CycLenghts(\sigma)
+  CycLengths(\sigma)
   \;=\;
   (l_1 \geq l_2 \geq \cdots \geq l_{\left\vert Cycles(\sigma)\right\vert})
 \] 
