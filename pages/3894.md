@@ -336,6 +336,7 @@ See the list at [[twisted differential c-structure]].
 
 * [[homothety]]
 
+* [[tangential structure]]
 
 ## References
 
