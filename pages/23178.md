@@ -247,3 +247,6 @@ and in
 
 in discussion of [[equivariant bundle|equivariant]] [[principal infinity-bundle|principal $\infty$-bundles]], where the above diagrams are taken from.
 
+[[!redirects singular-cohesive (infinity)-topos]]
+[[!redirects singular-cohesive (infinity)-toposes]]
+
