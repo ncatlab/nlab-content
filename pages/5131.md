@@ -803,3 +803,7 @@ Textbook accounts:
 
 [[!redirects product of simplicial sets]]
 [[!redirects products of simplicial sets]]
+
+[[!redirects Cartesian product of simplices]]
+[[!redirects Cartesian products of simplices]]
+
