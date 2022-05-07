@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -160,12 +159,13 @@ $$
 
 +-- {: .num_prop}
 ###### Proposition
+**([[Eilenberg-Zilber theorem]])**
 
 For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a chain [[homotopy equivalence]].
 
 =--
 
-This is in 29.10 of ([May](#May)).
+Revirw includes [May, 29.10](#May).
 
 
 For the next statement notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[symmetric monoidal categories]].
@@ -235,7 +235,9 @@ Review and further discussion:
 
 * [[Tim Porter]], Section 11.2 of: _[[Crossed Menagerie]]_,
 
-* [[Kerodon]], *The Eilenberg-Zilber Homomorphism* ([00RS](https://kerodon.net/tag/00RS))
+* [[Kerodon]], 2.5.7 *The Shuffle Product* ([00RF](https://kerodon.net/tag/00RF))
+
+  *The Eilenberg-Zilber Homomorphism* ([00RS](https://kerodon.net/tag/00RS))
 
 The specific maps introduced by Eilenberg-Mac Lane have stronger properties which for simplicial sets $K,L$ make $C(K) \otimes C(L)$ a strong deformation retract of $C(K \times L)$. This is exploited in 
 
