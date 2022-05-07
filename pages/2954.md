@@ -45,6 +45,13 @@ On [[twisted equivariant K-theory]] with an eye towards [[twisted ad-equivariant
 
 * [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
 
+On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge quantization]]:
+
+* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
+
+* [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_, Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+
+
 On [[twisted ad-equivariant K-theory]] of [[compact Lie groups]] and the identification with the [[Verlinde ring]] of [[positive energy representations]] of their [[loop group]]:
 
 * [[Daniel S. Freed]], [[Michael Hopkins]], [[Constantin Teleman]], 
@@ -94,13 +101,16 @@ On the [[cobordism hypothesis]]:
 * [[Chern-Simons theory]]
 
 
-[[!redirects Daniel Freed]][[!redirects Daniel S. Freed]]
 
 category: people
 
 
 
 [[!redirects D. Freed]]
+[[!redirects Daniel Freed]]
+[[!redirects Daniel S. Freed]]
 
 [[!redirects Freed]]
 [[!redirects Dan Freed]]
+
+
