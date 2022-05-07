@@ -2811,7 +2811,7 @@ On [[Hopf rings]] of [[ordinary homology]] of topological K-theories:
 
 Topological K-theory of [[Eilenberg-MacLane spaces]] is discussed in
 
-* {#AndersonHodgkin68} D.W. Anderson, Luke Hodgkin _The K-theory of Eilenberg-Maclane complexes_, Topology, Volume 7, Issue 3, August 1968, Pages 317-329 ([doi:10.1016/0040-9383(68)90009-8](https://doi.org/10.1016/0040-9383(68)90009-8))
+* {#AndersonHodgkin68} [[Donald W. Anderson]], Luke Hodgkin _The K-theory of Eilenberg-Maclane complexes_, Topology, Volume 7, Issue 3, August 1968, Pages 317-329 ([doi:10.1016/0040-9383(68)90009-8](https://doi.org/10.1016/0040-9383(68)90009-8))
 
 Topological topological K-theory of [[classifying spaces]] of [[Lie groups]] is in
 
