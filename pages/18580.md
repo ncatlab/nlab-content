@@ -15,7 +15,9 @@
 
 ## Idea
 
-The floor and ceiling of a [[real number]] are [[integers]], the result of rounding the real number down or up (respectively).  When viewed as [[functions]] from $\mathbb{R}$ to itself (or to $\mathbb{Z}$), these are standard examples of functions exhibiting partial notions of [[continuity]]: the floor function is both [[right-continuous map|right-continuous]] and [[upper semicontinuous map|upper semicontinuous]], while the ceiling function is both [[left-continuous map|left-continuous]] and [[lower semicontinuous map|lower semicontinuous]].  They are [[step functions]] used to approximate definite [[integrals]] of [[continuous maps]] and otherwise to relate integrals and [[series]].  They provide convenient notation to express various notions of [[rounding]].  From the perspective of [[order theory]], the maps may be seen as the [[right adjoint]] and [[left adjoint]] (respectively) of the [[inclusion map]] from $\mathbb{Z}$ to $\mathbb{R}$.
+By the *floor* and *ceiling* of a [[real number]] one means the [[integers]], obtained by rounding the real number down or up, respectively.
+
+When viewed as [[functions]] from $\mathbb{R}$ to itself (or to $\mathbb{Z}$), these are standard examples of functions exhibiting partial notions of [[continuity]]: the floor function is both [[right-continuous map|right-continuous]] and [[upper semicontinuous map|upper semicontinuous]], while the ceiling function is both [[left-continuous map|left-continuous]] and [[lower semicontinuous map|lower semicontinuous]].  They are [[step functions]] used to approximate definite [[integrals]] of [[continuous maps]] and otherwise to relate integrals and [[series]].  They provide convenient notation to express various notions of [[rounding]].  From the perspective of [[order theory]], the maps may be seen as the [[right adjoint]] and [[left adjoint]] (respectively) of the [[inclusion map]] from $\mathbb{Z}$ to $\mathbb{R}$.
 
 
 ## Definitions
