@@ -205,11 +205,13 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 The notion of internalization with focus on [[H-spaces]], [[internal monoids]] and [[internal groups]] (and proving the [[Eckmann-Hilton argument]]) originates with:
 
-* {#EckmannHilton61} [[Beno Eckmann]], [[Peter Hilton]], *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221 ([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
+* {#EckmannHilton61} [[Beno Eckmann]], [[Peter Hilton]], *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221 ([doi:10.4064/fm-50-2-207-221](https://doi.org/10.4064/fm-50-2-207-221))
 
-* {#EckmannHilton62} [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
+* {#EckmannHilton62} [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories I.  Multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
 
-* [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories III primitive categories_,  Math. Ann. **150** 165–187 (1963) ([doi:10.1007/BF01470843](https://doi.org/10.1007/BF01470843)) 
+* [[Beno Eckmann]], [[Peter J. Hilton]], _Group-like structures in general categories II.  Equalizers, limits, lengths_.  Mathematische Annalen 151:2 (1963), 150–186.  [doi:10.1007/bf01344176](https://doi.org/10.1007/bf01344176).
+
+* [[Beno Eckmann]], [[Peter Hilton]], _Group-like structures in general categories III.  Primitive categories_,  Math. Ann. **150** 165–187 (1963) ([doi:10.1007/BF01470843](https://doi.org/10.1007/BF01470843)) 
 
 Highlighting the role of the [[Yoneda lemma]] in internalization:
 
