@@ -296,6 +296,8 @@ for the continuous case.
 
 * {#QBS} [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Proceedings of LICS 2017. ([arXiv](https://arxiv.org/abs/1701.02547))
 
+* [[Sean Moss]], [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
+
 An introduction to some of the concepts can be also found in:
 
 * {#notesperrone} [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 5. ([arXiv](http://arxiv.org/abs/1912.10642))
