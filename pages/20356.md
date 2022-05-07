@@ -7,7 +7,7 @@
 
 Original reference:
 
-* [[Hans Samelson]].  _A Connection Between the Whitehead and the Pontryagin Product_.  American Journal of Mathematics 75:4 (1953), 744.  [doi:10.2307/2372549](https://doi.org/10.2307/2372549)
+* [[Hans Samelson]].  _A Connection Between the Whitehead and the Pontryagin Product_.  American Journal of Mathematics 75:4 (1953), 744–752.  [doi:10.2307/2372549](https://doi.org/10.2307/2372549)
 
 Expository accounts:
 
