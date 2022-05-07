@@ -115,7 +115,7 @@ $$p_j(m') = p_j(m) - r \cdot p_j(m_j) = 0$$
 and so $m' \in M \cap F_{\lt j}$. Thus $m' \in M \cap F_{\leq i}$ for some $i \lt j$. At the same time, $m'$ cannot be written as a linear combination of the $m_k$; again, this contradicts minimality of $j$. Thus the $m_k$ generate $M$, as claimed. 
 =-- 
 
-Since the [[integers]] $\mathbb{Z}$ for a pid, and [[abelian groups]] are the same as $\mathbb{Z}$-[[modules]], we have 
+Since the [[integers]] $\mathbb{Z}$ form a pid, and [[abelian groups]] are the same as $\mathbb{Z}$-[[modules]], we have 
 
 +-- {: .num_cor} 
 ###### Corollary 
