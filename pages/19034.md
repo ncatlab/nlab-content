@@ -48,7 +48,7 @@ For more on this see at [[string phenomenology]] the section _[Top-down models a
 
 In [[string phenomenology]] the terminology as such was introduced and specifically the "bottom-up approach" was advertized in
 
-* {#AldazabalIbanezQuevedoUranga00} G. Aldazabal, [[Luis Ibáñez]], F. Quevedo, [[Angel Uranga]], _D-Branes at Singularities : A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067](http://xxx.lanl.gov/abs/hep-th/0005067))
+* {#AldazabalIbanezQuevedoUranga00} G. Aldazabal, [[Luis Ibáñez]], F. Quevedo, [[Angel Uranga]], _D-Branes at Singularities : A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067v2](https://arxiv.org/abs/hep-th/0005067))
 
 while the "top-down approach" in [[string phenomenology]] originates with
 
