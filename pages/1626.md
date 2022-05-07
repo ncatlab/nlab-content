@@ -21,7 +21,7 @@ A [[topological space]] is __connected__ if it can not be split up into two inde
 
 Every topological space may be decomposed into disjoint maximal connected [[subspaces]], called its __[[connected components]]__.  The underlying set of a topological space is the [[disjoint union]] of the underlying sets of its connected components, but the space itself is not necessarily the [[coproduct]] of its connected components in the category of spaces.
 
-One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (such as for example _locally connected spaces_; see below).
+One often studies topological ideas first for connected spaces and then generalises to general spaces.  This is especially true if one is studying such [[nice topological space]]s that every space *is* a coproduct of connected components (such as for example _[[locally connected topological spaces]]_).
 
 
 ## Definitions
@@ -138,10 +138,9 @@ Every topological space $X$ admits an [[equivalence relation]] $\sim$ where $x \
 ###### Definition
 **(connected components)**
 
-For $(X,\tau)$ a [[topological space]], then its _[[connected components]]_
+For $(X,\tau)$ a [[topological space]], tits _[[connected components]]_
 are the [[equivalence classes]] under the [[equivalence relation]] on $X$ which
-regards two points as equivalent if they both sit in some [[open subset]]
-which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
+regards two points as equivalent if they both sit in some [[open subset]] which, as a [[topological subspace]] (example \ref{SubspaceTopology}), is [[connected topological space|connected]] (def. \ref{ConnectedTopologicalSpace}):
 
 $$
   (x \sim y)
@@ -164,15 +163,15 @@ $$
 **(quasi-components)**
 
 
-There is another equivalence relation $\sim_q$ modelling a notion of connected components,  where $x \sim_q y$ iff $f(x) = f(y)$ for every [[continuous map]] $f \colon X \to D$ to a _[[discrete space]]_ $D$. 
+There is another [[equivalence relation]] $\sim_q$ modelling a notion of connected components,  where $x \sim_q y$ iff $f(x) = f(y)$ for every [[continuous map]] $f \colon X \to D$ to a _[[discrete space]]_ $D$. 
 
-The [[equivalence class]] of $x$ may be alternatively described as the [[intersection]] of all [[clopen set|clopen subsets]] that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. 
+The corresponding [[equivalence class]] of $x$ may alternatively be described as the [[intersection]] of all [[clopen set|clopen subsets]] that contain $x$. This is called the **quasi-component** of $x$, denoted here as $QConn(x)$. 
 
-It is easy to prove that:
+It is easy to prove that this relates to the equivalence classes $Conn(x)$ from Def. \ref{ComponentsConnected} as
 
 $$Conn(x) \subseteq QConn(x)$$
 
-and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below), but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace]] of the [[real line]]).
+and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is [[locally connected topological space|locally connected]], but also in other circumstances (such as the space of [[rational numbers]] as a [[topological subspace|subspace]] of the [[real line]]).
 
 =--
 
@@ -540,7 +539,7 @@ A path-connected [[Hausdorff space]] $X$ is arc-connected.
 
 This immediately generalizes to the statement that in a Hausdorff space $X$, any two points that can be connected by a path $\alpha: I \to X$ can be connected by an arc: just apply the theorem to the image $\alpha(I)$.
 
-For a proof of this theorem, see [Willard](#Willard), theorem 31.2. More precisely, that result states that a _Peano space_, i.e., a [[compact space|compact]], connected, locally connected, and [[metrizable space]], is arc-connected if it is path-connected. It then suffices to observe that the continuous image $\alpha(I) \subseteq X $ of a path is in fact a Peano space, so that the path $\alpha: I \to \alpha(I)$ can be replaced by an arc.
+For a proof of this theorem, see [Willard](#Willard), theorem 31.2. More precisely, that result states that a _Peano space_, i.e., a [[compact space|compact]], [[connected topological space|connected]], [[locally connected topological space|locally connected]], and [[metrizable space]], is arc-connected if it is path-connected. It then suffices to observe that the continuous image $\alpha(I) \subseteq X $ of a path is in fact a Peano space, so that the path $\alpha: I \to \alpha(I)$ can be replaced by an arc.
 
 +-- {: .num_lemma}
 ###### Lemma
