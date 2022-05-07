@@ -212,6 +212,11 @@ With emphasis on application to [[neutron stars]]:
 
 * Carlos Hoyos, Niko Jokela, Matti Jarvinen, Javier G. Subils, Javier Tarrio, Aleksi Vuorinen, _Transport in strongly coupled quark matter_ ([arXiv:2005.14205](https://arxiv.org/abs/2005.14205))
 
+See also:
+
+* Alfonso Ballon-Bayona, Luis A. H. Mamani, Alex S. Miranda, Vilson T. Zanchin, *Effective holographic models for QCD: Thermodynamics and viscosity coefficients* ([arXiv:2103.14188](https://arxiv.org/abs/2103.14188))
+
+
 
 
 
