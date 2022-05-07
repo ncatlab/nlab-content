@@ -25,7 +25,7 @@ For $G$ a [[group]] ([[internalization|internal]] to some [[category]], traditio
 
 * the action is _principal_ meaning that 
 
-  * the canonical morphism $(p_1, \rho) :  P \times G \to P \times_X P$ is an [[isomorphism]], which in turn means that the action is _free_ and _transitive_ over $X$, hence that each [[fiber]] of $P \to X$ looks like $G$ once we choose a base point;
+  * the canonical morphism $(p_1, \rho) :  P \times G \to P \times_X P$ is an [[isomorphism]], which in turn means that the action is _[[free action|free]]_ and _[[transitive action|transitive]]_ over $X$, hence that each [[fiber]] of $P \to X$ looks like $G$ once we choose a base point;
 
   and / or / equivalently (depending on technical details, see below)
 
