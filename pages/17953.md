@@ -45,6 +45,11 @@ A closely related stabilization mechanism is that of branes turned into "[[giant
 
 ### Polarization of D-branes
 
+Precursor discussion appears in
+
+* [[Roberto Emparan]], _Born-Infeld Strings Tunneling to D-branes_, Phys. Lett. B423 (1998) 71-78 ([arXiv:hep-th/9711106](https://arxiv.org/abs/hep-th/9711106))
+
+
 The effect now known as the "Myers effect" in [[D-brane]] theory was first described in:
 
 * {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
