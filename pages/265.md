@@ -366,3 +366,7 @@ and, similarly, in section 7 of
 [[!redirects right derived functor]]
 [[!redirects left derived functors]]
 [[!redirects right derived functors]]
+
+[[!redirects left derived]]
+[[!redirects right derived]]
+
