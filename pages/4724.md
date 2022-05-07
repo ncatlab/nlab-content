@@ -538,6 +538,8 @@ is a [[Lie group]].
 
 ## Related concepts
 
+* [[differential topology]]
+
 * [[smooth manifold]]
 
 * [[diffeological space]], [[smooth set]]
