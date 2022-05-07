@@ -776,9 +776,13 @@ See also:
 
 Textbook accounts:
 
+* {#Palais60} [[Richard Palais]], *The classification of $G$-spaces*, Memoirs of the AMS **36**, 1960  ([ISBN:978-0-8218-9979-3](https://bookstore.ams.org/memo-1-36) [pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf), [[Palais_ClassificationOfGSpaces.pdf:file]])
+
+  > (the term "G-space" appears here)
+
+
 * {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
-  (the term "G-space" appears here)
 
 * [[Tammo tom Dieck]], Chapter 8 in: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
 
