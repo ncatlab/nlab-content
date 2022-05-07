@@ -57,9 +57,8 @@ A __possibly empty group__ is a set $S$ with a binary operation $(-)\cdot(-):S\t
 * left [[Malcev operation|Malcev identity]]: $b \cdot b^{-1} \cdot a = a$ for all $a,b\in S$
 * right [[Malcev operation|Malcev identity]]: $a \cdot b^{-1} \cdot b = a$ for all $a,b\in S$
 * [[commutative|commutativity]] with [[inverse elements]]: $a \cdot a^{-1} = a^{-1} \cdot a$ for all $a\in S$
-* [[unique|uniqueness]] of [[identity element]] if [[inhabited]]: $a \cdot a^{-1} = b \cdot b^{-1}$ for all $a,b\in S$. 
 
-One could then define __left division__ to be $a \backslash b = a^{-1} b$ and __right division__ to br $a / b = a b^{-1}$. 
+One could then define __left division__ to be $a \backslash b = a^{-1} \cdot b$ and __right division__ to br $a / b = a \cdot b^{-1}$. 
 
 ## Pseudo-torsor
 
