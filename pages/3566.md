@@ -39,12 +39,30 @@ is a [[full and faithful (∞,1)-functor]]. This is in [Higher Topos Theory](#re
 Equivalently this means that for every object $X \in C$ the induced morphism
 
 $$
-  \mathcal{C}(X,f) \colon \mathcal{C}(X,Y) \to \mathcal{C}(X,Z)
+  \mathcal{C}(X,f) 
+  \;\colon\; 
+  \mathcal{C}(X,Y) 
+    \longrightarrow
+  \mathcal{C}(X,Z)
 $$
 
-of [[∞-groupoids]] is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $\mathcal{C}(X,Y)$ as a direct summand in a  [[coproduct]] decomposition of $\mathcal{C}(X,Z)$.
+of [[∞-groupoids]] is such that its image in the [[homotopy category of an (∞,1)-category|homotopy category]] exhibits $\mathcal{C}(X,Y)$ as a [[disjoint union|disjoint summand]] in a  [[coproduct]] decomposition of $\mathcal{C}(X,Z)$.
 
-So if $\mathcal{C}(X,Y) = \underset{i \in \pi_0\mathcal{C}(X,Y)}{\coprod} \mathcal{C}(X,Y)_{i }$ and $\mathcal{C}(X,Z) = \underset{j \in \pi_0(\mathcal{C}(X,Z)}{\coprod} \mathcal{C}(X,Z)_j$ is the decomposition into connected components, then there is an [[injective function]]
+So if 
+
+$$
+  \mathcal{C}(X,Y) 
+  \;=\; 
+  \underset{i \in \pi_0\mathcal{C}(X,Y)}{\coprod} \mathcal{C}(X,Y)_{i }
+  \;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;
+  \mathcal{C}(X,Z) 
+  \;=\; 
+  \underset{j \in \pi_0(\mathcal{C}(X,Z)}{\coprod} \mathcal{C}(X,Z)_j
+$$ 
+
+is the decomposition into [[connected components]], then there is an [[injective function]]
 
 $$
   j 
