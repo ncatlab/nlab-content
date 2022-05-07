@@ -69,6 +69,14 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 ## Related topics
 
+* [[magma]] (nonassociative version)
+
+* [[commutative semigroup]] (commutative version)
+
+* [[invertible semigroup]] (invertible version)
+
+* [[monoid]] (unital version)
+
 *  There is a strong connection between semigroups and finite automata; see e.g. [[Krohn-Rhodes theory]].
 
 * [[inverse semigroups]]
