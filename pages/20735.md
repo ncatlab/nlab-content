@@ -248,7 +248,7 @@ Here we are showing
 
 * {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_, M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
 
-* [[Paul Sutcliffe]], *BPS Monopoles*, Int. J. Mod. Phys. A12:4663-4706 (1997) ([arXiv:hep-th/9707009](https://arxiv.org/abs/hep-th/9707009))
+* [[Paul Sutcliffe]], *BPS Monopoles*, Int. J. Mod. Phys. A12:4663-4706 (1997) ([arXiv:hep-th/9707009](https://arxiv.org/abs/hep-th/9707009), [doi:10.1142/S0217751X97002504](https://doi.org/10.1142/S0217751X97002504))
 
 See also:
 
@@ -335,9 +335,9 @@ Discussion of [[Rozansky-Witten invariants]] of [[moduli spaces of monopoles]]:
 
 Relation to [[braid groups]]:
 
-* {#CohenCohenMannMilgram91} [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
+* {#CohenCohenMannMilgram91} [[Fred Cohen]], [[Ralph Cohen]], [[B. M. Mann]], [[R. James Milgram]], _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
-* [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+* [[Ralph Cohen]], [[John D. S. Jones]], _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
 
 
 
