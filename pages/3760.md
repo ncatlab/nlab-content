@@ -24,7 +24,7 @@ For a presentation, you give a set of generators $X$, so there will be an epimor
 
 ## Definition
 
-A presentation of a group, $G$, is a coequalizer diagram $F R \rightrightarrows F X \twoheadrightarrow G$, where $FX$ is the free group on a set of *generators*, and $FR$ one on a set of *relations* (or *relators*, depending on how the relations are specified).
+A presentation of a group, $G$, is a [[coequalizer|coequalizer diagram]] $F R \rightrightarrows F X \twoheadrightarrow G$, where $FX$ is the free group on a set of *generators*, and $FR$ one on a set of *relations* (or *relators*, depending on how the relations are specified).
 
 
 This is not quite the usual `classical' form of the definition, so we will take it apart to show the relationship.
