@@ -668,7 +668,7 @@ $$
 
 In the context of [[Lie groupoid]] theory these are known as the [[Morita equivalence]]s between groupoids. 
 There here arise as a special case. 
-Compar also the notion of [[anafunctor]].
+Compare also the notion of [[anafunctor]].
 
 =--
 
@@ -688,7 +688,7 @@ defined as the composite vertical morphism in the
 
 $$
   \array{
-   \mathbf{E}_f B &\stackrel{\simeq}{\to}\gt& C
+   \mathbf{E}_f B &\stackrel{\simeq}{\to}& C
    \\
    \downarrow && \downarrow^{\mathrlap{f}}
    \\
