@@ -111,5 +111,9 @@ For affine monoids and other finitely generated commutative monoids see:
 
 * {#RosalesGarcía-Sánchez} José Carlos Rosales and Pedro A. García-Sánchez, *Finitely Generated Commutative Monoids*, Nova Publishers, 1999. 
 
+For a treatment of free commutative monoids in [[homotopy type theory]]
+
+* Vikraman Choudhury, [[Marcelo Fiore]], _Free Commutative Monoids in Homotopy Type Theory_ ([arXiv:2110.05412](https://arxiv.org/abs/2110.05412))
+
 
 [[!redirects commutative]]
