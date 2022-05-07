@@ -605,6 +605,8 @@ The above result can be seen as an effective way to compute the sheaf cohomology
 
 * [[relative cohomology]]
 
+* [[twisted equivariant cohomology]]
+
 * <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
 
 * [[twisted ordinary cohomology]], [[twisted K-theory]], [[twisted tmf]]
@@ -613,9 +615,11 @@ The above result can be seen as an effective way to compute the sheaf cohomology
 
 * [[twisted ordinary cohomology]], [[twisted Bredon cohomology]]
 
-* [[twisted K-theory]]
+* [[twisted K-theory]], [[twisted equivariant K-theory]]
 
 * [[twisted Cohomotopy]]
+
+* [[twisted equivariant cohomology]]
 
 ## References 
 
