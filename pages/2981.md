@@ -138,9 +138,7 @@ See [[geometric realization of simplicial topological spaces]] for more details.
 
 ## References
 
-
-
-The original article is
+The model structure was originally established in
 
 * {#Strom72} [[Arne Strøm]], _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972) ([pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/strom-the-homotopy-category-is-a-homotopy-category-1972.pdf), [[Strom_HomotopyCategory.pdf:file]])
 
@@ -150,16 +148,20 @@ using results on [[Hurewicz cofibrations]] from:
 
 * [[Arne Strøm]], _Note on cofibrations II_,  Math. Scand.  **22** (1968) 130--142 (1969) ([jstor:24489730](https://www.jstor.org/stable/24489730), [dml:166037](https://eudml.org/doc/166037), MR0243525)
 
-A proof using different techniques, as well as a generalisation, is in the following paper.
+A new proof using [[algebraic weak factorization systems]], and  its generalization to any [[bicomplete category]] which is [[power|powered]], [[copower|copowered]] and [[enriched category|enriched]] in [[TopSp]] is due to:
 
-* {#BarthelRiehl} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089))
+* {#BarthelRiehl13} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089), [euclid:agt/1513715550](https://projecteuclid.org/euclid.agt/1513715550))
  
+Beware that a proof of the Strøm model structure was also claimed in 
 
-Beware that a proof was also claimed in 
+* [[Peter May|May]], [[Johann Sigurdsson|Sigurdsson]], *[[Parametrized Homotopy Theory]]*, 
 
-* [[Peter May|May]], [[Johann Sigurdsson]], *[[Parametrized Homotopy Theory]]*, 
+but relying on a statement in 
 
-{#SeriousError} but this contains a serious mistake originating in a paper of Cole (noticed by [[Richard Williamson]]) which invalidates the argument; see [Barthel & Riehl, p. 2 and Rem 5.12 and Sec. 6.1](#BarthelRiehl) for more. The same mistake appears in other works co-authored by May, including the books with Ponto.
+* [[Michael Cole]], *Many homotopy categories are homotopy categories*, Topology and its Applications 153 (2006) 1084–1099 ([doi:10.1016/j.topol.2005.02.006](https://doi.org/10.1016/j.topol.2005.02.006))
+
+which later was noticed to be false, by [[Richard Williamson]], see [Barthel & Riehl, p. 2 and Rem 5.12 and Sec. 6.1](#BarthelRiehl13) for details. 
+
 
 
 [[!redirects Strøm's model category]]
