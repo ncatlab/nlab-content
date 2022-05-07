@@ -8,8 +8,6 @@ Please do not delete the following example for the moment!
 
 An article by \cite{vandenBergGarner2011} and another by \cite{MarraReggio2020}.
 
-\section{Van Kampen's Theorem}
-Beep beep! Van Kampen's theorem concerns the [[fundamental group]] of a topological space.
 
 
 \section{References}
@@ -65,5 +63,86 @@ $$
 $$
 
 $\Eta$
+
+Write
+
+$$
+  \array{
+    Q
+    \\
+    \mathllap{
+      {}^{{}_{
+        h \mapsto (\phi(h),h)
+      }}
+    }
+    \big\uparrow
+    \\ 
+    H
+  }
+$$
+
+$$
+  (\phi(g_1 g_2), g_1 g_2)
+  =
+  (\phi(g_1), g_1)
+  \cdot
+  (\phi(g_2), g_2)  
+  =
+  \big(
+    \phi(g_1) \cdot \alpha(g_1)(\phi(g_2)),
+    g_1 \cdot g_2
+  \big)
+$$
+
+$$
+  \array{
+    (\gamma, u)
+    &\mapsto&
+    [\gamma, \sigma(u)]
+    \\
+    \Gamma \times U 
+    &
+    \underoverset{}{[id \times \sigma]}{
+      \rightleftarrows
+    }
+    &
+    \big(
+      \Gamma \rtimes_\alpha G_{\vert U} 
+    \big)/ Q
+    \\
+    \gamma 
+    \phi(\sigma(u)),
+    u
+    &&
+    [\gamma, g]
+  }
+$$
+
+
+$$
+  [\gamma,g]
+  \;=\;
+  (\gamma,g)
+    \cdot
+  ( \phi(g^{-1} \sigma(u)),  g^{-1} \sigma(u)  )
+  \;=\;
+  (
+    \gamma
+    \alpha(g)(\phi(g^{-1} \sigma(u)))
+  )
+$$
+
+$$
+    \gamma
+    \alpha(g)(\phi(g^{-1} \sigma(u)))
+   =
+    \gamma
+    \alpha(g)(  \phi(g^{-1}) \alpha(g^{-1})(\phi(\sigma(u)))  )
+  =
+  \gamma
+  \alpha(g)(\phi(g^{-1}))
+  \phi(\sigma(u))
+$$
+
 
 
