@@ -124,6 +124,11 @@ See also
 
 * Wikipedia, _[Anomalous magnetic dipole moment](https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment)_
 
+Prediction to [[loop order]] 5 in [[QED]]:
+
+* Tatsumi Aoyama, Masashi Hayakawa, Toichiro Kinoshita, Makiko Nio, *Tenth-Order QED Contribution to the Electron $g-2$ and an Improved Value of the Fine Structure Constant*, Phys. Rev. Lett. 109, 111807 ([arXiv:1205.5368](https://arxiv.org/abs/1205.5368), [doi:10.1103/PhysRevLett.109.111807](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.109.111807))
+
+
 Comprehensive discussion for the [[muon]]:
 
 * T. Aoyama et al., _The anomalous magnetic moment of the muon in the Standard Model_ ([arXiv:2006.04822](https://arxiv.org/abs/2006.04822))
