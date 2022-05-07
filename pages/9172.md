@@ -44,6 +44,11 @@ The history of [Weinberg 67](#Weinberg67) is recounted in
 
 * Frank Close, _[Birth of a Symmetry](http://cerncourier.com/cws/article/cern/70137)_, Cern Courier, Oct 13 2017
 
+Textbook account:
+
+* [[Robert E. Marshak]], Chapter 6 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
+
+
 See also
 
 * [[Michael Peskin]], _Precision Theory of Electroweak Interactions_ ([arXiv:2003.05433](https://arxiv.org/abs/2003.05433))
