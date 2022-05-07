@@ -17,6 +17,19 @@
 
 A _regular $(\infty,1)$-category_ is the analog of a [[regular category]] for [[(∞,1)-category]] theory.
 
+## Definition
+
++-- {: .num_defn #ExactInfinityCategory}
+###### Definition
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,1)$-category_ if
+
+1. $\mathcal{C}$ has a [[terminal object in an (∞,1)-category|terminal object]] and [[homotopy fiber products]];
+
+1. $\mathcal{C}$ admits a [[factorization system]] $(S_L,S_R)$, where $S_L$ is the collection of [[regular epimorphism|regular]] [[n-connected]] morphisms and $S_R$ is the collection of [[n-truncated]] morphisms. 
+
+=--
+
 ## Related concepts
 
 * [[regular category]]
