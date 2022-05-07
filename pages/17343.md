@@ -8487,7 +8487,7 @@ $$
     \\
     Path(X) &\underset{\in W \cap Fib}{\longleftarrow}& \widetilde{Path(X)} &\overset{\phi}{\longrightarrow}& Path(Y)
     \\
-    &{}_{\mathllap{(p^X_0,p^X_1)}}\searrow& \downarrow^{\mathrlap{(p^Y_0,p^Y_1)}} && \downarrow^{\mathrlap{(\tilde p^X_0,\tilde p^X_1)}}
+    &{}_{\mathllap{(p^X_0,p^X_1)}}\searrow& \downarrow^{\mathrlap{(\tilde p^X_0,\tilde p^X_1)}} && \downarrow^{\mathrlap{(p^Y_0,p^Y_1)}}
     \\
     && X \times X &\overset{(f,f)}{\longrightarrow}& Y \times Y
   }
@@ -8521,7 +8521,7 @@ $$
   \array{
     X &\longrightarrow& (f \circ p_0^X, f\circ p_1^X)^\ast Path(Y) &\longrightarrow& Path(Y)
     \\
-    &{}_{\mathllap{\in W}}\searrow& \downarrow^{\mathrlap{\in W \cap Fib}} && \downarrow^{\mathrlap{(p_0^Y, p_1^Y)}}_{\mathrlap{\in Fib}}
+    &{}_{\mathllap{\in W}}\searrow& \downarrow^{\mathrlap{\in Fib}} && \downarrow^{\mathrlap{(p_0^Y, p_1^Y)}}_{\mathrlap{\in Fib}}
     \\
     && Path(X) &\overset{(f \circ p_0^X, f\circ p_1^X)}{\longrightarrow}& Y \times Y
   }
