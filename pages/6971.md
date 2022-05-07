@@ -80,7 +80,7 @@ Only the intensional, but not the extensional, [[Martin-Löf type theory]] has [
 
 * [[intensional type theory]], [[homotopy type theory]]
 
-* [[observational type theory]]
+* [[observational type theory]], [[higher observational type theory]]
 
 ## Examples
 
