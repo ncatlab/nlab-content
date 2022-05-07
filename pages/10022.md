@@ -371,6 +371,7 @@ reviewed in:
 * {#Yan19} [[Han Yan]], *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
 
 
+
 See also:
 
 * {#HMPSR19}  Felix M. Haehl, Eric Mintun, Jason Pollack, Antony J. Speranza, [[Mark Van Raamsdonk]], _Nonlocal multi-trace sources and bulk entanglement in holographic conformal field theories_, J. High Energ. Phys. (2019) 2019: 005 ([arxiv:1904.01584](https://arxiv.org/abs/1904.01584), [talk recording](https://youtu.be/kRCwzyliJ1M))
@@ -379,6 +380,7 @@ See also:
 
 * [[Chris Akers]], [[Geoff Penington]], *Quantum minimal surfaces from quantum error correction* ([arXiv:2109.14618](https://arxiv.org/abs/2109.14618))
 
+* [[Alexander Jahn]], [[Marek Gluza]], Charlotte Verhoeven, Sukhbinder Singh, [[Jens Eisert]]. *Boundary theories of critical matchgate tensor networks* ([arXiv:2110.02972](https://arxiv.org/abs/2110.02972))
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
