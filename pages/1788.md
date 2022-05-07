@@ -1,4 +1,40 @@
 
+$$
+  \array{
+    &
+    123
+    \\
+    &
+    \swarrow \downarrow \searrow
+    \\
+    213 & 132 & 321 
+    \\
+    & 
+    \searrow \downarrow \swarrow
+    \\   
+    & 
+    312
+  }
+$$
+
+$\,$
+
+$\,$
+
+$$
+  \array{
+    & \vdots
+    \\
+    213 & 132 & 321 
+    \\
+    & 
+    \searrow \downarrow \swarrow
+    \\   
+    & 
+    231
+  }
+$$
+
 
 This main result is corollary 7.6.13 of [Cisinski 20](#Cisinski20). Model categories are (∞,1)-categories with weak equivalences and fibrations as defined in [Cisinski Def. 7.4.12](#Cisinski20).
 
