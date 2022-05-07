@@ -18,3 +18,4 @@ Realization of [[quantum error correction]] in [[experiment]]:
 category: people
 
 [[!redirects Wojchiek H. Zurek]]
+[[!redirects Wojciech H. Zurek]]
