@@ -73,6 +73,9 @@ via [[topological data analysis]]:
 
 * Pavlo Solokha et al., *New Quasicrystal Approximant in the Sc–Pd System: From Topological Data Mining to the Bench*, Chem. Mater. 2020, 32, 3, 1064–1079 ([doi:10.1021/acs.chemmater.9b03767](https://doi.org/10.1021/acs.chemmater.9b03767))
 
+* Søren S. Sørensen, *Revealing hidden medium-range order in amorphous materials using topological data analysis*, Science Advances  09 Sep 2020:
+Vol. 6, no. 37, eabc2320 ([doi:10.1126/sciadv.abc2320](https://doi.org/10.1126/sciadv.abc2320))
+
 
 ### In AdS/CFT
 
