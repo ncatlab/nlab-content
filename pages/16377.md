@@ -24,7 +24,7 @@ In fact, according to the [[brane scan]], a [[super p-brane|super 2-brane]] [[si
 
 * 4: [[super 2-brane in 4d]]
 
-* 5: ...
+* 5: [[super 2-brane in 5d]]
 
 * 7: ...
 
