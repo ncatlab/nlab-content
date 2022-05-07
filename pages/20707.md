@@ -32,5 +32,10 @@ On the [[Knizhnik-Zamolodchikov connection]] on [[configuration spaces of points
 
 * {#Kohno14} [[Toshitake Kohno]], _Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks_,  Acta Math Vietnam 39, 575–598 (2014)  ([doI;10.1007/s40306-014-0088-6](doi:10.1007/s40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf))
 
+On [[braid group representations]]:
+
+* [[Toshitake Kohno]], *Introduction to representation theory of braid groups*, Peking 2018 ([pdf](https://www.math.pku.edu.cn/misc/puremath/summerschool/Peking_SummerSchool_kohno.pdf), [[KohnoBraidRepresentations.pdf:file]])
+
+
 
 category: people
