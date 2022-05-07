@@ -128,9 +128,9 @@ On the [[representation theory]] ([[linear representations]]) of finite groups o
 
 Discussion of [[group characters]] and [[group cohomology]] of finite groups:
 
-* [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
+* [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([numdam:PMIHES_1961__9__23_0](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
-* [[Alejandro Adem]], R.James Milgram, _Cohomology of Finite Groups_, Springer 2004
+* [[Alejandro Adem]], [[R. James Milgram]], _Cohomology of Finite Groups_, Springer 2004
 
 * {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
 
