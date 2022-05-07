@@ -55,9 +55,11 @@ that induces the homotopy coherent nerve.
 
 ##### An abstract description 
 
-Recall that a reflexive graph is a simplicial set of dimension $1$, i.e. 1-skeletal; they form a full subcategory $reflGraph\hookrightarrow Cat$. The forgetful functor $U: Cat \to reflGraph$ has a left adjoint $F$ hence $G = FU : Cat\to Cat$ is a comonad. By the definition its [[bar and cobar construction|cobar construction]] is an augmented simplicial endofunctor $S\to Id$ featuring $S :\Delta\to sSet Cat$ and whose augmentation is a cofibrant replacement of a 1-category in the [[Bergner model structure]] on $sSet Cat$ ("model structure for simplicially enriched categories"). 
+Recall that a reflexive graph is a simplicial set of dimension $1$, i.e. 1-skeletal; they form a full subcategory $reflGraph\hookrightarrow Cat$. The forgetful functor $U: Cat \to reflGraph$ has a left adjoint $F$ hence $G = FU : Cat\to Cat$ is a comonad. By the definition its [[bar and cobar construction|cobar construction]], or equivalently  its [[simplicial resolution]] is an augmented simplicial endofunctor $S\to Id$ featuring $S :\Delta\to sSet Cat$ and whose augmentation is a cofibrant replacement of a 1-category in the [[Bergner model structure]] on $sSet Cat$ ("model structure for simplicially enriched categories"). 
 
-##### An explicit description
+
+
+##### A combinatorial description
 
 For $[n]$ the finite [[ordinal number|ordinal]] $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ and for $\Delta[n]$ be  standard [[simplicial set|simplicial]] $n$-[[simplex]], define the $sSet$-category $S[n]$ as follows:
 
@@ -465,13 +467,13 @@ In more modern terminology as [[Kan complex]]es can be considered as [[∞-group
 
 
 
-## References
+## References and Literature.
 
 The homotopy coherent nerve operation was introduced, explicitly, in
 
 * [[Jean-Marc Cordier]], _Sur la notion  de diagramme homotopiquement coh&#233;rent_, Cahier Top. et Geom. Diff. XXIII 1, 1982, 93-112, available from [numdam](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1982__23_1)
 
-Cordier made the link with earlier work by R.D. Leitch.
+Cordier made the link with earlier work by R.D. Leitch,
 
 * R. D. Leitch, _The homotopy commutative cube_, J. London Math. Soc. (2) 9, (1974), 23&#8211;29.
 
@@ -483,7 +485,7 @@ With [[Tim Porter]], Cordier proved the simplicial generalisation of a theorem o
 
 *  [[Jean-Marc Cordier]], [[Tim Porter]], _Vogt's theorem on categories of homotopy coherent diagrams_, Math. Proc. Cambridge Philos. Soc. __100__, (1986), 65 &#8211; 90.
 
-This theorem describes an equivalence between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the homotopy category of [[homotopy coherent diagram]]s in the sense of Vogt. This paper includes an explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a quasicategory as well as the harder result on when [[outer horn]]s in this quasicategory can be filled.
+This theorem describes an equivalence between the category obtained by inverting the 'levelwise' homotopy equivalence in a category of diagrams, and the homotopy category of [[homotopy coherent diagram]]s in the sense of Vogt. This paper includes an explicit proof that the homotopy coherent nerve of a locally Kan simplicially enriched category is a [[quasicategory]], as well as the harder result on when [[outer horn]]s in this quasicategory can be filled.
 
 Vogt's original version of the theorem is in 
 
@@ -501,7 +503,7 @@ An elementary discussion of the concept of homotopy coherence forms Chapter V of
 
 
 
-For the role played by the simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
+For the role played by Cordier's simplicial nerve in the context of relating quasi-categories to simplicially enriched categories as models for $(\infty,1)$-categories see 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_, section 1.1.5
 * [[Andre Joyal]], _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf)
