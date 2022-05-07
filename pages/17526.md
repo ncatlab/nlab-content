@@ -8,3 +8,5 @@
 * [[rational homotopy theory]], [[nilpotent topological space]]
 
 category: people
+
+[[!redirects Joseph A. Neisendorfer]]
