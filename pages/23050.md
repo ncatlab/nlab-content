@@ -46,7 +46,7 @@ We have
 
 * $(Rel(X), \cap,\cup,\to, \emptyset, X^2)$ is a Boolean algebra,
 
-*  $(Rel(X), ; \Delta)$ is a monad, where $\Delta$ is th e diagonal / equality relation;
+*  $(Rel(X), ; \Delta)$ is a monad, where $\Delta$ is the diagonal / equality relation;
 
 * the residuation relation is satisfied.
 
