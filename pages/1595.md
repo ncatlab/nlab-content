@@ -90,11 +90,14 @@ The Freudenthal suspension theorem motivated introducing the [[stable homotopy g
 
 * [[suspension isomorphism]]
 
+* [[stem of homotopy groups of spheres]]
+
 ## References
 
 Due to 
 
-* {#Freudenthal37} [[Hans Freudenthal]],  _&#220;ber die Klassen der Sph&#228;renabbildungen_, Compositio Math., 5:299-314, 1937.
+* {#Freudenthal37} [[Hans Freudenthal]],  _&#220;ber die Klassen der Sph&#228;renabbildungen_, Compositio Math., 5:299-314, 1937 ([numdam:CM_1938__5__299_0](http://www.numdam.org/item/?id=CM_1938__5__299_0))
+
 
 Textbook accounts include
 
