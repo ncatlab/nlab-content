@@ -40,7 +40,13 @@ which in turn are both instances of the general framework of [[classical field t
 
 Theoretical physics also studies lots of approximate, hypothetical "toy"- and test-case [[models (in theoretical physics)]], exploring the "space of physical theories", and parts of [[mathematical physics]] overlaps with pure [[mathematics]], the relation to physics only serving as a motivation that may or may not eventually lead back to statements about [[phenomenology]]. 
 
+## Related entries
 
+* [[topological physics -- contents]]
+
+* [[fields and quanta - table]]
+
+* [[geometry of physics]]
 
 ## References
 
