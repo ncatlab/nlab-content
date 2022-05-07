@@ -11,7 +11,11 @@ A _dyadic rational number_ is a [[rational number]] $r \in \mathbb{Q}$ such that
 
 1. there exists $n,a \in \mathbb{N}$ such that $r = \frac{a}{2^n}$.
 
+The [[commutative ring]] of dyadic rational numbers $\mathbb{Z}[1/2]$ is the [[localization of a commutative ring|localization]] of the [[integers]] $\mathbb{Z}$ [[localisation of a commutative ring away from an element|away from]] $2$.
+
 ## Related entries
+
+* [[decimal rational number]]
 
 * [[Urysohn's lemma]]
 
