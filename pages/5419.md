@@ -1,4 +1,4 @@
-__Victor P. Snaith__ is an algebraist, algebraic topologist and algebraic geometer (born 1944), prof. emeritus at Sheffield [web](http://victor-snaith.staff.shef.ac.uk), [univ. record](http://maths.dept.shef.ac.uk/maths/staff_info.php?id=34). 
+__Victor P. Snaith__ was an algebraist, algebraic topologist and algebraic geometer (born 1944, died 2021), prof. emeritus at Sheffield [web](http://victor-snaith.staff.shef.ac.uk), [univ. record](http://maths.dept.shef.ac.uk/maths/staff_info.php?id=34). 
 
 
 ## Selected writings
