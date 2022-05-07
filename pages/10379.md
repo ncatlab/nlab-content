@@ -16,7 +16,7 @@ The definition we will give here is just an ultra-special case of that given in 
 +-- {: .num_defn #space}
 ###### Definition
 
-A _(dyadic or two valued) Chu space_ $\mathcal{P}$ is a triple $(P_o, \models_P, P_a)$, where $P_o$ is a set of _objects_, and $P_a$ is a set of _attributes_.  The _satisfaction_ relation $\models_P$ is a subset of $P_o\times P_a$.
+A _(dyadic or two valued) Chu space,_ $\mathcal{P}$, is a triple, $(P_o, \models_P, P_a)$, where $P_o$ is a set of _objects_, and $P_a$ is a set of _attributes_.  The _satisfaction_ relation $\models_P$ is a subset of $P_o\times P_a$.
 =--
 
 The terminology used here is motivated by the link with [[formal concept analysis]].  Alternative terminologies include (from Pratt's [Coimbra notes](http://boole.stanford.edu/pub/coimbra.pdf)) $P_o$ is a set of  *points* constituting the *carrier*, whilst $P_a$ is the set of *states*, which  constitutes the *cocarrier* of the Chu space.
@@ -54,9 +54,9 @@ If $\mathcal{P} = (P_o, \models_P, P_a)$ is a dyadic Chu space, then $\mathcal{P
 
 The links with [[formal concept analysis]] are in:
 
-* [[Guo-Qiang Zhang]]  _[Chu spaces, concept lattices, and domains](http://newton.eecs.cwru.edu/papers/chu-concepts-entcs.pdf)_ in Brookes, S., Panangaden, P., eds.: Electronic Notes in Theoretical Computer Science. Volume 83., (2004) 
+* [[Guo-Qiang Zhang]],   _[Chu spaces, concept lattices, and domains](http://newton.eecs.cwru.edu/papers/chu-concepts-entcs.pdf)_ in Brookes, S., Panangaden, P., eds.: Electronic Notes in Theoretical Computer Science. Volume 83., (2004) 
 
-* [[P. Hitzler]], Guo-Qiang Zhang.: _A cartesian closed category of approximating concepts_
+* [[P. Hitzler]], [[Guo-Qiang Zhang]], _A cartesian closed category of approximating concepts_
 In: Proceedings of the 12th International Conference on Conceptual Structures, 
 ICCS 2004, Huntsville, Al, July 2004. Volume 3127 of Lecture Notes in Artificial 
 Intelligence., Springer-Verlag (2004) 170&#8211;185.
