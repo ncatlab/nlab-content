@@ -383,6 +383,9 @@ Further textbook account:
 
 * {#Cisinski19} [[Denis-Charles Cisinski]], Section 7.11 in: _Higher category theory and homotopical algebra_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
+On factorication of functors between presentable $\infty$-categories as [[coreflections]] followed by a tower of [[monadic functors]]:
+
+* Lior Yanovski, *The Monadic Tower for $\infty$-Categories* ([arXiv:2104.01816](https://arxiv.org/abs/2104.01816))
 
 
 
