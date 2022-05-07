@@ -408,9 +408,9 @@ $$
 #### Fixed loci with residual Weyl group action
  {#FixedLociWithResidualWeylGroupAction}
 
-Combining these [[adjunctions]] to "pull-pull" through the [[correspondence]]
+Combining these [[adjunctions]] to "pull-push" through the [[correspondence]]
 
-\begin{tikzcd}
+\begin{tikzcd}[row sep=0pt]
   & 
   N\!(H)
   \ar[
