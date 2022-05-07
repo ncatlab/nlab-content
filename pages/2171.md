@@ -384,7 +384,8 @@ which is part of a [[long exact sequence of homotopy groups|long exact homotopy 
 Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not necessarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
 
 For $\Sigma$ any [[surface]], the [[fundamental group]] of the (ordered) [[configuration space of points]] in $\Sigma$ may be regarded as generalized (pure) braid group.
-This group is of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
+These *surface braid groups are of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
+
 
 Yet more generally, one may consider the fundamental group of the configuration space of points of any topological space $X$.
 
@@ -405,7 +406,7 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 #### Artin presentation
 
-The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]] given by 
+The **Artin braid group**, $Br({n+1})$, defined using $n+1$ strands is a [[group]] given by 
 
 * generators: $y_i$, $i = 1, \ldots, n$;
 
@@ -453,54 +454,61 @@ $$
 
 
 ## Examples
+ {#Examples}
 
-The first few examples for low values of $n$:
+The first few examples of the braid group $Br(n)$ for low values of $n$:
 
-+-- {: .num_example}
-###### The group $Br_1$
+\begin{example}
+The group $Br(1)$ has no generators and no relations, so is the [[trivial group]]:
+$$
+  Br(1) \;\simeq\; 1  
+  \,.
+$$
 
-By default, $Br_1$ has no generators and no relations, so is trivial.
+\end{example}
 
-=--
+\begin{example}
+The group $Br(2)$ has one generator and no relations, so is the infinite cyclic group of [[integers]]:
+$$
+  Br(2) \;\simeq\; \mathbb{Z}
+  \,.
+$$
+\end{example}
 
-+-- {: .num_example}
-###### The group $Br_2$
 
-By default, $Br_2$ has one generator and no relations, so is infinite cyclic.
+\begin{example}\label{TheBraidgroupBr3}
+The group $Br(3)$ (we will simplify notation writing $u = y_1$, $v = y_2$)
+has presentation 
 
-=--
+$$
+  Br(3)
+  \;\simeq\;
+  \mathcal{P} 
+  \coloneqq 
+  \big( 
+     u,v : r \equiv u v u v^{-1} u^{-1} v^{-1}
+  \big).
+$$
 
+This is also known as the "trefoil [[knot group]]", i.e., the [[fundamental group]] of the [[complement]] of a [[trefoil knot]]. 
+\end{example}
 
-+-- {: .num_example}
-###### The group $Br_3$
-
-(We will simplify notation writing $u = y_1$, $v = y_2$.)
-
-This then has presentation 
-
-$$\mathcal{P} = ( u,v : r \equiv u v u v^{-1} u^{-1} v^{-1}).$$
-
-It is also the 'trefoil group', i.e., the fundamental group of the complement of a [[trefoil knot]]. 
-=--
-
-+-- {: .num_example}
-
-###### The group $Br_4$
-
-Simplifying notation as before, we have generators $u,v,w$ and relations
+\begin{example}
+The group $Br(4)$ (simplifying notation as [before](#TheBraidgroupBr3)) has generators $u,v,w$ and relations:
 
  *  $r_u \equiv  v w v w^{-1} v^{-1} w^{-1}$,
  *  $r_v \equiv  u w u^{-1} w^{-1}$,
  *  $r_w \equiv  u v u v^{-1} u^{-1} v^{-1}$.
-=--
 
-## Surface braid groups
+\end{example}
 
-In terms of the geometric definition above, it is possible to consider configurations of points on surfaces other than the plane, which gives rise to the more general notion of a _surface braid group_.  For example, the **Hurwitz braid group** (or **sphere braid group**) comes from considering configurations of points on the [[2-sphere]] $S^2$.  Algebraically, the Hurwitz braid group $H_{n+1}$ has all of the generators and relations of the Artin braid group $Br({n+1})$, plus one additional relation:
+\begin{example}\label{HurwitzBraidGroup}
+The **Hurwitz braid group** (or **sphere braid group**) is the [surface braid group](#ForMoreGeneralTopologicalSpaces) for $\Sigma$ the [[2-sphere]] $S^2$.  Algebraically, the Hurwitz braid group $H_{n+1}$ has all of the generators and relations of the Artin braid group $Br({n+1})$, plus one additional relation:
 
 $$ 
   y_1 y_2 \dots y_{n-1} y_n^2 y_{n-1}\dots y_2 y_1
 $$
+\end{example}
 
 
 ## Related entries
@@ -608,6 +616,7 @@ category: knot theory
 
 [[!redirects Artin braid group]]
 [[!redirects Hurwitz braid group]]
-[[!redirects surface braid group]]
 
+[[!redirects surface braid group]]
+[[!redirects surface braid groups]]
 
