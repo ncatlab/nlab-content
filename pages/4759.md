@@ -352,7 +352,7 @@ $$
  {#SplittingPrinciple}
 
 
-Under the [[splitting principle]] all Chern classes are determnined by [[first Chern classes]]: 
+Under the [[splitting principle]] all Chern classes are determined by [[first Chern classes]]: 
 
 Write $i \colon T \simeq U(1)^n \hookrightarrow U(n)$ for the [[maximal torus]] inside the [[unitary group]], which is the [[subgroup]] of [[diagonal matrix|diagonal]] unitary matrices. Then 
 
