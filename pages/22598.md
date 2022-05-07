@@ -21,7 +21,7 @@ A formula counting [[semistandard Young tableaux]] with fixed underlying [[Young
 
 ## Preliminaries
 
-Given a [[Young diagram]], the *hook* at any one of its boxes is the collection of boxes to the right and below that box, and including the box itself. We write $\ell hook$ for the "length" of such a hook, i.e. for the number of boxes it contains. Formally:
+Given a [[Young diagram]], the *hook* at any one of its boxes is the collection of boxes to the right and below that box, and including the box itself. We write "$\ell hook$" for the *length* of such a hook, i.e. for the number of boxes it contains. Formally:
 
 \begin{defn}
 **(hook length)** \linebreak
@@ -85,9 +85,40 @@ $$
   \frac{
     1 - q^{N + j - 1}
   }{
-    1 - \ell hook(i,j)
+    1 - q^{\ell hook(i,j)}
   }
 $$
+
+Traditionally the expression
+
+$$
+  content(i,j) \;\coloneqq\; j - 1
+$$
+
+is also called the *content* of the $(i,j)$-box in a Young diagram. Using this terminology, the above formula becomes
+
+$$
+  \underset{
+    T \in ssYT_\lambda(N)
+  }{\sum}
+  q^{ n(T) }
+  \;\;=\;\;
+  q^{ \sum_i i \cdot \lambda_i }
+  \underset{
+    { i \in \{1, \cdots, rows(\lambda)\} }
+    \atop
+    {j \in \{1, \cdots, \lambda_j\}}
+  }{\prod}
+  \frac{
+    1 - q^{N + content(i,j)}
+  }{
+    1 - q^{\ell hook(i,j)}
+  }
+  \,,
+$$
+
+whence its name.
+
 
 ## References
 
@@ -108,8 +139,13 @@ See also:
 
 * Mark Wildon, *A corollary of Stanley's Hook Content Formula* ([arXiv:1904.08904](https://arxiv.org/abs/1904.08904))
 
+[[!redirects hook-content formulas]]
 
+[[!redirects hook/content formula]]
+[[!redirects hook/content formulas]]
+
+
+[[!redirects hook content formula]]
 [[!redirects hook content formulas]]
 
-[[!redirects hook-content formula]]
-[[!redirects hook-content formulas]]
+
