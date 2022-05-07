@@ -420,7 +420,7 @@ is the category of [[commutative von Neumann algebras]]
 and ultraweak \*-homomorphisms;
 it is widely accepted that dropping the commutativity
 condition and passing to the [[opposite category]] yields
-the correct category of noncommutative measurable spaces.
+the correct category of [[noncommutative measurable spaces]].
 
 The category of [[commutative von Neumann algebras]]
 is contravariantly [[equivalence of categories|equivalent]] to several other categories:
