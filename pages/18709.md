@@ -137,6 +137,13 @@ Then its [[homotopy fiber]] inclusion is the classifying map $\vdash Fr(S^n)$ of
     "i"
   ]
   \ar[d]
+  \ar[
+    dr,
+    phantom,
+    "\mbox{\tiny\rm(pb)}"{
+      description
+    }
+  ]
   &
   O(n+1)
   \ar[
@@ -248,7 +255,7 @@ This isomorphism is manifestly $O(n)$-equivariant, and its quotient on both side
 In parametrized generalization of this situation, it follows that:
 
 \begin{corollary}\label{OnceStabilizedVerticalTangentBundlesOfSphereBundlesArePulledBackFromBase}
-**(onece-[[stable tangent bundle|stabilized]] [[vertical tangent bundles]] to [[sphere-fiber bundles]] are [[pullback bundle|pulled back]] from base)**
+**(once-[[stable tangent bundle|stabilized]] [[vertical tangent bundles]] to [[sphere-fiber bundles]] are [[pullback bundle|pulled back]] from base)**
   Let 
   $
     S(p) \colon S(\mathcal{V}) \to X
