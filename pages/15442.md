@@ -32,6 +32,6 @@ This _genus of a number field_ was originally introduced in ([Weil 39](#Weil39))
 
 ## References
 
-* {#Weil39} [[André Weil]], _Sur l'analogie entre les corps de nombres alg&#233;brique et les corps de donctions elg&#233;brique_, Revue Scient. 77, 104-106, 1939
+* {#Weil39} [[André Weil]], _Sur l'analogie entre les corps de nombres alg&#233;briques et les corps de fonctions alg&#233;briques_, Revue Scient. 77, 104-106, 1939
 
 * {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
