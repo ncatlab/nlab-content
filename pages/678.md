@@ -136,18 +136,34 @@ Applications appear for instance at
 
 ## References ##
 
-The theory of simplicial presheaves and of simplicial sheaves was developed by J. Jardine in a long series of articles, some of which are listed below. It's usage as a model for [[infinity-stack]]s was developed by T&#246;en as described at [[infinity-stack homotopically]].
+The original articles are
 
-* **JardStackSSh** -- J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3(2), 2001 p. 361-284 ([pdf](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf))
-* **JardSimpSh** -- J. Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* [[Kenneth S. Brown]], _Abstract homotopy theory and generalized sheaf cohomology_.  Transactions of the American Mathematical Society 186 (1973), 419-419.  [doi](http://dx.doi.org/10.1090/s0002-9947-1973-0341469-9).
 
-For their interpretation in the more general context of [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-sheaves]] see [section 6.5.2]() of
+* [[Kenneth S. Brown]], [[Stephen M. Gersten]], _Algebraic K-theory as generalized sheaf cohomology_.  In: Higher K-Theories.  Lecture Notes in Mathematics (1973), 266–292.  [doi](http://dx.doi.org/10.1007/bfb0067062).
 
-*  [[Jacob Lurie]], [[Higher Topos Theory]] .
+* [[J. F. Jardine]], _Simplicial objects in a Grothendieck topos_.  In: Applications of algebraic K-theory to algebraic geometry and number theory.  Contemporary Mathematics (1986), 193-239.  [doi](http://dx.doi.org/10.1090/conm/055.1/862637)
 
+* [[J. F. Jardine]], _Simplical presheaves_.  Journal of Pure and Applied Algebra 47:1 (1987), 35-87.  [doi][1]
+  [1]: http://dx.doi.org/10.1016/0022-4049(87)90100-9
+
+A modern expository account is
+
+* [[John F. Jardine]], _Local Homotopy Theory_, Springer, 2015.  [doi](http://dx.doi.org/10.1007/978-1-4939-2300-7).
+
+
+Further articles:
+
+* [[J. F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_.  Homology, Homotopy and Applications 3:2 (2001), 361-384.  [doi](http://dx.doi.org/10.4310/hha.2001.v3.n2.a5).
+
+* [[J. F. Jardine]], _Fields Lectures: Simplicial presheaves_.
+[PDF](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf).
+
+For their interpretation in the more general context of [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-sheaves]] see Section 6.5.2 of
+
+*  [[Jacob Lurie]], [[Higher Topos Theory]].
 
 [[!redirects simplicial presheaves]]
 
 [[!redirects category of simplicial presheaves]]
 [[!redirects categories of simplicial presheaves]]
-
