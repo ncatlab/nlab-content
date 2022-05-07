@@ -342,18 +342,21 @@ Oiriginal articles:
 
 * [[Per Martin-Löf]], p. 169 (17 of 23) in: *Constructive Mathematics and Computer Programming*, Studies in Logic and the Foundations of Mathematics Volume 104, 1982, Pages 153-175 (<a href="https://doi.org/10.1016/S0049-237X(09)70189-2">doi:10.1016/S0049-237X(09)70189-2</a>)
 
-* [[Per Martin-Löf]], p. 31-34 in: _Intuitionistic type theory_, Lecture notes Padua 1984 (notes by Giovanni Sambin), Bibliopolis, Napoli (1984) ([pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]])
+* [[Per Martin-Löf]], p. 31-34 in: _Intuitionistic type theory_, Lecture notes Padua 1984 (notes by [[Giovanni Sambin]]), Bibliopolis, Napoli (1984) ([pdf](https://archive-pml.github.io/martin-lof/pdfs/Bibliopolis-Book-retypeset-1984.pdf), [[MartinLofIntuitionisticTypeTheory.pdf:file]])
 
 
-A survey is in chapter 1 of 
+Survey in
 
-* [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
- {#Warren}
 
-Extensionality and intensionality isses are studied in
+* {#Warren} [[Michael Warren]], Chapter 1 ofL _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
+ 
 
-* [[Thomas Streicher]], _Investigations Into Intensional Type Theory_, Habilitationsschrift ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf))
- {#Streicher}
+Issues of [[extensional type theory|extensional]]/[[intensional type theory]] 
+
+* {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
+
+* {#Streicher} [[Thomas Streicher]], _Investigations Into Intensional Type Theory_, Habilitationsschrift ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf))
+ 
 
 ### As inductive types
  {#ReferencesByInductiveTypes}
@@ -379,7 +382,7 @@ Extensionality and intensionality isses are studied in
 
 The observation that identity types witness [[groupoid]] and [[infinity-groupoid]]-structure:
 
-* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: Giovanni Sambin et al. (eds.) , _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz) [[HofmannStreicherGroupoidInterpretation.pdf:file]])
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_, in: [[Giovanni Sambin]] et al. (eds.), _Twenty-five years of constructive type theory_, Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ISBN:9780198501275](https://global.oup.com/academic/product/twenty-five-years-of-constructive-type-theory-9780198501275), [ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz) [[HofmannStreicherGroupoidInterpretation.pdf:file]])
 
 
 * {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], _Homotopy theoretic models of identity type_,  Mathematical Proceedings of the Cambridge Philosophical Society vol 146, no. 1 (2009) ([arXiv:0709.0248](http://arxiv.org/abs/0709.0248))
