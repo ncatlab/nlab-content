@@ -279,6 +279,8 @@ More general states in this case are given by [[density matrices]].
 
 ## Related concepts
 
+* [[GNS construction]]
+
 [[!include states and observables -- content]]
 
 
@@ -288,9 +290,11 @@ More general states in this case are given by [[density matrices]].
 
 * {#Meyer95} [[Paul-André Meyer]], Section I.1.1 in: *Quantum Probability for Probabilists*,  Lecture Notes in Mathematics **1538**, Springer 1995 ([doi:10.1007/BFb0084701](https://link.springer.com/book/10.1007/BFb0084701))
 
-
 * {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf), [[GleasonAlgebraic.pdf:file]])
 
+With an eye towards [[density matrices]] and their [[entropy]]:
+
+* Paolo Facchi, Giovanni Gramegna, Arturo Konderak, around (6) in: *Entropy of quantum states* ([arXiv:2104.12611](https://arxiv.org/abs/2104.12611), [spire:1860877](https://inspirehep.net/literature/1860877))
 
 ### Original articles
 
