@@ -1512,6 +1512,11 @@ and has since seen a multitude of further developments.
 
 Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Clark Barwick]].
 
+A treatment of the [[Yoneda lemma]] for categories internal to an arbitrary [[(∞,1)-topos]] is in 
+
+* Louis Martini, _Yoneda's lemma for internal higher categories_, ([arXiv:2103.17141](https://arxiv.org/abs/2103.17141))
+
+
 ### Formalization in homotopy type theory
  {#ReferencesFormalizationInHomotopyTypeTheory}
 
