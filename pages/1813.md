@@ -87,7 +87,7 @@ $$
   C \stackrel{}{\to} [S^{op},V]
 $$
 
-is given by 
+is given by the [[restricted Yoneda embedding]]
 
 $$
   N(c) : S^{op} \stackrel{S_C^{op}}{\to} C^{op}
