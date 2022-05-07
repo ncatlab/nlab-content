@@ -18,7 +18,7 @@ It is possible to define inverses in a magma without defining an [[identity elem
 
 ## Definition
 
-An __invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with a unary operation $(-)^{-1}:G \to G$ called the __inverse__ such that
+An __invertible magma__ is a [[magma]] $(G,(-)\cdot(-):G\times G\to G)$ with a unary operation $(-)^{-1}:G \to G$ called the __[[inverse]]__ such that
 
 * $a \cdot (b^{-1} \cdot b) = a$
 * $(b^{-1} \cdot b) \cdot a = a$
@@ -50,6 +50,8 @@ for all $a,b \in G$.
 * [[commutative invertible magma]] (commutative version)
 
 * [[invertible semigroup]] (associative version)
+
+* [[reciprocal algebra]]
 
 * [[centipede mathematics]]
 
