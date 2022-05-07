@@ -32,6 +32,17 @@ using the lifting property starting from a list of simple or archetypal (counter
 The _lifting property_ is a property of a pair of [[morphism]]s in a [[category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. 
 A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples.
 
+
+|[[finite topological space]] |[[open subsets]] |[[specialization order]]|as picture |
+|--|--|--|--|
+| [[discrete space]] <br/>  $Dsc\big(\{ 0,1 \}\big)$ | $\Big\{\; \varnothing,\, \{0\},\, \{1\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \phantom{\leftarrow} 1 \;\Big\}$| $\boxed{\{\boxed{0},\boxed{1}\}}$ |
+| [[Sierpinski space]] <br/> $Sierp$ | $\Big\{\; \varnothing,\, \{0\},\, \{0,1\} \;\Big\}$ | $\Big\{\; 0 \rightarrow 1 \;\Big\}$ | $\boxed{\{\boxed{0}\rightarrow 1\}}$|
+| [[codiscrete space]] <br/> $CoDsc\big( \{0,1\} \big)$ | $\Big\{\; \varnothing,\, \{0,1\}  \;\Big\}$ | $\Big\{\; 0 \leftrightarrow 1 \;\Big\}$ |  $\boxed{\{0\leftrightarrow 1\}}$ |
+| [[point space]] <br/> $\ast$ | $\Big\{ \varnothing,\, \{0\} = \{1\}  \;\Big\}$ |  $\Big\{\; 0 = 1 \;\Big\}$  | $\boxed{*}$ |
+
+
+
+
 A useful intuition is to think that the lifting property as a kind of negation:
 taking the class of morphisms having the lifting property with respect to each morphism in a class $P$ 
 is a simple way to define a class of morphisms excluding non-isomorphisms from $P$,
