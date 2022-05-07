@@ -67,17 +67,17 @@ and
 $$ x \otimes y \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes y \stackrel{\ell_y}{\longrightarrow} y $$
 respectively, where $e$ stands for the unique morphism to the terminal object and $r$, $\ell$ are the right and left unitors.  We can thus ask whether $p_x$ and $p_y$ make $x \otimes y$ into the [[product]] of $x$ and $y$.  If so, it is a theorem that $C$ is a cartesian monoidal category.  (This theorem has been observed by Eilenberg and Kelly ([1966](#EilKel66), p.551), but they may not have been the first to note it.) 
 
-Alternatively, suppose that $(C, \otimes, I)$ is a symmetric monoidal category equipped with [[monoidal natural transformations]] $e_x : x \to I$ and $\Delta_x: x \to x \otimes x$ such that 
+Alternatively, suppose that $(C, \otimes, I)$ is a **symmetric** monoidal category equipped with [[monoidal natural transformations]] $e_x : x \to I$ and $\Delta_x: x \to x \otimes x$ such that 
 $$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{e_x \otimes 1}{\longrightarrow} I \otimes x \stackrel{\ell_x}{\longrightarrow} x $$
 and
 $$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{1 \otimes e_x}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
-are identity morphisms.  Then $(C, \otimes, I)$ is a cartesian monoidal category. 
+are identity morphisms.  Then $(C, \otimes, I)$ is a cartesian monoidal category (see [this MO question](#dremodaris) for discussion of one of the technical details).
 
 So, suppose $(C, \otimes, 1)$ is a semicartesian monoidal category.  The unique map $e_x : x \to I$ is a [[monoidal natural transformation]].  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.  The converse is also true.
 
-The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$, apparently discovered by Robin Houston, is mentioned here:
+The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$, apparently discovered by Robin Houston, is mentioned on page 47 of the slides at:
 
-* John Baez, Universal algebra and diagrammatic reasoning, 2006. [pdf](http://math.ucr.edu/home/baez/universal/)
+* John Baez, _Universal algebra and diagrammatic reasoning_, 2006. [link](http://math.ucr.edu/home/baez/universal/)
 
 and as of 2014, Nick Gurski plans to write up the proof in a paper on semicartesian monads.
 
@@ -111,7 +111,9 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 
 * [[Malte Gerhold]], [[Stephanie Lachs]], [[Michael Schürmann]], _Categorial Lévy Processes_, [arXiv:1612.05139](https://arxiv.org/abs/1612.05139).
 
-* [Monoidal Categories with Projections](https://golem.ph.utexas.edu/category/2016/08/monoidal_categories_with_proje.html) (blog discussion)
+* [[Tom Leinster]], [Monoidal Categories with Projections](https://golem.ph.utexas.edu/category/2016/08/monoidal_categories_with_proje.html) (blog discussion)
+
+* {#dremodaris} MO user 'dremodaris', _A semicartesian monoidal category with diagonals is cartesian: proof?_ [MO348480](https://mathoverflow.net/q/348480/)
 
 
 [[!redirects semicartesian category]]
