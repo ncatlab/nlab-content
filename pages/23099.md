@@ -63,6 +63,10 @@ This perspective is really due to
 
 ## References
 
+The notion of fiberwise [[rationalization]] is due to
+
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], Section I.8 in: _Homotopy Limits, Completions and Localizations_, Lecture Notes in Mathematics Vol. 304, Springer 1972 ([doi:10.1007/978-3-540-38117-4](https://doi.org/10.1007/978-3-540-38117-4))
+
 Rational homotopy theory (as well as [[real homotopy theory]]) for general connected spaces $X$ and regarded as Borel-equivariant rational homotopy theory of their [[covering spaces]] is laid out, and the corresponding [[fundamental theorem of dg-algebraic rational homotopy theory]] is proven, in: 
 
 * {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*, North Holland (1995) 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
