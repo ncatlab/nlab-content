@@ -99,7 +99,7 @@ It is interesting to note that:
 
 Here 
 
-* $Conf_N(\mathbb{R}^2) \simeq K( PBr(N), 1 ) \simeq B PBr(n)$ is an [[Eilenberg-Mac lane space]]/[[classifying space]] for the [[pure braid group]]
+* $Conf_N(\mathbb{R}^2) \simeq K( PBr(N), 1 ) \simeq B PBr(n)$ is an [[Eilenberg-MacLane space]]/[[classifying space]] for the [[pure braid group]]
 
 * $Conf_N(\mathbb{R}^3)$ is a [[simply connected topological space|simply connected]] higher [[homotopy type]]:
 
