@@ -849,6 +849,7 @@ Specifically on [[small N corrections]] in [[holographic QCD]]:
 
 * Salvatore Baldino, [[Stefano Bolognesi]], Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
 
+* Vikas Yadav, Aalok Misra, *On M-Theory Dual of Large-$N$ Thermal QCD-Like Theories up to $\mathcal{O}(R^4)$ and $G$-Structure Classification of Underlying Non-Supersymmetric Geometries* ([arXiv:2004.07259](https://arxiv.org/abs/2004.07259))
 
 
 
