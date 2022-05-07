@@ -27,6 +27,10 @@ The _[[equivariant triangulation theorem]]_ ([Illman 78](#Illman78), [Illman 83]
 
 ## Related concepts
 
+* [[triangulation]], [[triangulation theorem]]
+
+* [[equivariant triangulation theorem]]
+
 * [[equivariant differential topology]]
 
 ## References
