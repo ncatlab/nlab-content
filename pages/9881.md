@@ -149,7 +149,49 @@ Discussion of superstring scattering amplitudes in terms of [[pure spinors]] wit
 
 For more see also at _[[superstring field theory]]_, such as
 
-* Corinne de Lacroix, Harold Erbin, Sitender Pratap Kashyap, [[Ashoke Sen]], Mritunjay Verma, _Closed Superstring Field Theory and its Applications_,  International Journal of Modern Physics AVol. 32, No. 28n29, 1730021 (2017) ([arXiv:1703.06410](https://arxiv.org/abs/1703.06410))
+* Corinne de Lacroix, [[Harold Erbin]], Sitender Pratap Kashyap, [[Ashoke Sen]], Mritunjay Verma, _Closed Superstring Field Theory and its Applications_,  International Journal of Modern Physics AVol. 32, No. 28n29, 1730021 (2017) ([arXiv:1703.06410](https://arxiv.org/abs/1703.06410))
+
+The [[1-loop]] amplitudes in [[type II string theory]] have been discussed in 
+
+* [[Michael Green]], [[John Schwarz]], _Supersymmetrical string theories_, Phys. Lett. 109 B (1982) 444-448.
+
+and for [[heterotic string theory]] in 
+
+* [[David Gross]], J.A. Harvey, E.J. Martinec and R. Rohm, _Heterotic String Theory (II). The interacting heterotic string_, Nucl. Phys. B267 (1986) 75.
+
+The description of [[2-loop]] amplitudes, including the integration over the super-[[moduli space of conformal structures]] in superstring theory:
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings I, Main Formulas_, Phys. Lett. B529:241-255, 2002 ([arXiv:hep-th/0110247](http://arxiv.org/abs/hep-th/0110247))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings II, The Chiral Measure on Moduli Space_, Nucl. Phys. B636:3-60, 2002 ([arXiv:hep-th/0110283](http://arxiv.org/abs/hep-th/0110283))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings III, Slice Independence and Absence of Ambiguities_, Nucl. Phys. B636:61-79, 2002 ([arXiv:hep-th/0111016](http://arxiv.org/abs/hep-th/0111016))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings IV, The Cosmological Constant and Modular Forms_, Nucl. Phys. B639:129-181, 2002 ([arXiv:hep-th/0111040](http://arxiv.org/abs/hep-th/0111040))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings V: Gauge Slice Independence of the N-Point Function_, Nucl. Phys. B715:91-119, 2005 ([arXiv:hep-th/0501196](http://arxiv.org/abs/hep-th/0501196))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VI: Non-Renormalization Theorems and the 4-Point Function_,  	Nucl. Phys. B715:3-90, 2005 ([arXiv:hep-th/0501197](http://arxiv.org/abs/hep-th/0501197))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VII, Cohomology of Chiral Amplitudes_, Nucl. Phys. B804:421-506, 2008 ([arXiv:0711.4314](http://arxiv.org/abs/0711.4314))
+
+Review of this work:
+
+* A.Morozov, _NSR Superstring Measures Revisited_, JHEP0805:086,2008 ([arXiv:0804.3167](http://arxiv.org/abs/0804.3167))
+
+Further development in:
+
+* [[Eric D'Hoker]], [[Carlos Mafra]], [[Boris Pioline]], [[Oliver Schlotterer]], _Two-loop superstring five-point amplitudes I: Construction via chiral splitting and pure spinors_ ([arXiv:2006.05270](https://arxiv.org/abs/2006.05270))
+
+* [[Eric D'Hoker]], [[Carlos Mafra]], [[Boris Pioline]], [[Oliver Schlotterer]], _Two-loop superstring five-point amplitudes II: Low energy expansion and S-duality_ ([doi:2008.08687](https://arxiv.org/abs/2008.08687))
+
+
+The technical issue of the [[moduli space]] of [[super Riemann surfaces]] of higher genus (for higher loop string scattering amplitudes) is discussed in
+
+* [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
+
+* [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_ ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
+
 
 
 
@@ -162,7 +204,7 @@ For more see also at _[[superstring field theory]]_, such as
 
 Here is a commented list of references on the degreewise [finiteness of string scattering amplitudes](#Finiteness).
 
-#### Bosonic string
+#### Finiteness of bosonic string scattering
 
 Introductory lecture notes include
 
@@ -177,7 +219,7 @@ There are also arguments in
 
 * Simon Davis, _On the domain of string perturbation theory_, Classical and Quantum Gravity, Volume 6, Issue 12, pp. 1791-1803 (1989) ([web](http://adsabs.harvard.edu/abs/1989CQGra...6.1791D))
 
-#### Superstring
+#### Finiteness of superstring scattering
 
 
 Finiteness of heterotic and type II superstring $n$-point functions in flat spacetime is argued for in
@@ -198,45 +240,11 @@ argues finiteness of the superstring amplitudes at each order.
 
 Also
 
-* [[Eric D'Hoker]], [[Duong Phong]], _Momentum Analyticity and Finiteness of the 1-Loop Superstring Amplitude_,  	Phys.Rev.Lett. 70 (1993) 3692-3695 ([arXiv:hep-th/9302003](http://arxiv.org/abs/hep-th/9302003))
+* [[Eric D'Hoker]], [[Duong Phong]], _Momentum Analyticity and Finiteness of the 1-Loop Superstring Amplitude_,  Phys. Rev. Lett. 70 (1993) 3692-3695 ([arXiv:hep-th/9302003](http://arxiv.org/abs/hep-th/9302003))
 
 * [[Eric D'Hoker]], [[Duong Phong]], _The Box Graph In Superstring Theory_, Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9410152](http://arxiv.org/abs/hep-th/9410152))
 
 * [[Eric D'Hoker]], [[Duong Phong]], _Dispersion Relations in String Theory_; Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9404128](http://arxiv.org/abs/hep-th/9404128))
-
-The 1-loop amplitudes in [[type II string theory]] have been discussed in 
-
-* [[Michael Green]], [[John Schwarz]], _Supersymmetrical string theories_, Phys. Lett. 109 B (1982) 444-448.
-
-and for [[heterotic string theory]] in 
-
-* [[David Gross]], J.A. Harvey, E.J. Martinec and R. Rohm, _Heterotic String Theory (II). The interacting heterotic string_, Nucl. Phys. B267 (1986) 75.
-
-The description of 2-loop amplitudes, including the integration over the super-[[moduli space of conformal structures]] in superstring theory is given in the series of articles
-
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings I, Main Formulas_, Phys.Lett.B529:241-255,2002 ([arXiv:hep-th/0110247](http://arxiv.org/abs/hep-th/0110247))
-
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings II, The Chiral Measure on Moduli Space_, Nucl.Phys.B636:3-60,2002 ([arXiv:hep-th/0110283](http://arxiv.org/abs/hep-th/0110283))
-
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings III, Slice Independence and Absence of Ambiguities_, Nucl.Phys.B636:61-79,2002 ([arXiv:hep-th/0111016](http://arxiv.org/abs/hep-th/0111016))
-
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings IV, The Cosmological Constant and Modular Forms_, Nucl.Phys.B639:129-181,2002 ([arXiv:hep-th/0111040](http://arxiv.org/abs/hep-th/0111040))
-
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings V: Gauge Slice Independence of the N-Point Function_,  	Nucl.Phys.B715:91-119,2005 ([arXiv:hep-th/0501196](http://arxiv.org/abs/hep-th/0501196))
-
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VI: Non-Renormalization Theorems and the 4-Point Function_,  	Nucl.Phys.B715:3-90,2005 ([arXiv:hep-th/0501197](http://arxiv.org/abs/hep-th/0501197))
-
-* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VII, Cohomology of Chiral Amplitudes_,  	Nucl.Phys.B804:421-506,2008 ([arXiv:0711.4314](http://arxiv.org/abs/0711.4314))
-
-A review of this work is in 
-
-* A.Morozov, _NSR Superstring Measures Revisited_, JHEP0805:086,2008 ([arXiv:0804.3167](http://arxiv.org/abs/0804.3167))
-
-The technical issue of the [[moduli space]] of [[super Riemann surfaces]] of higher genus (for higher loop string scattering amplitudes) is discussed in
-
-* [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
-
-* [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_ ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
 
 Arguments for the finiteness of superstring scattering amplitudes to all loop order based on the [[Berkovits superstring]]-formulation have been promoted in 
 
