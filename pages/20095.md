@@ -43,7 +43,7 @@ See also
 
 Attempts to explain the [[flavour anomalies]] with a composite Higgs boson:
 
-* {#Marzocca18} David Marzocca, _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
+* {#Marzocca18} [[David Marzocca]], _Addressing the B-physics anomalies in a fundamental Composite Higgs Model_, JHEP07(2018)121 ([arXiv:1803.10972](https://arxiv.org/abs/1803.10972))
 
 
 * [[Andreas Crivellin]], Dario Müller, Christoph Wiegand, _$b \to s \ell^+ \ell^-$ Transitions in Two-Higgs-Doublet Models_ ([arXiv:1903.10440](https://arxiv.org/abs/1903.10440))
