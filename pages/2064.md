@@ -22,9 +22,8 @@
 
 ## Idea
 
-A __fibre bundle__ or __fiber bundle__ is a [[bundle]] in which every [[fibre]] is [[isomorphism|isomorphic]], in some coherent way, to a __standard fibre__ (sometimes also called __typical fiber__). Though it is pre-dated by many examples and methods, systematic usage of [[locally trivial|locally]] [[trivial fibre bundles]] with structure groups in mainstream mathematics started with a famous book of Steenrod. 
+A _fibre bundle_ or _fiber bundle_ is a [[bundle]] in which every [[fibre]] is [[isomorphism|isomorphic]], in some coherent way, to a _standard fibre_ or _typical fiber_. Usually one also requires that it be [[locally trivial]], hence locally of the form of a [[Cartesian product]] with that typical fiber.
 
-One may say that 'fibre bundles are [[fibrations]]' by the [[Milnor slide trick]].
 
 
 ## Definitions
@@ -90,6 +89,24 @@ Under the interpretation of [modules as generalized vector bundles](http://ncatl
 
 In [[noncommutative geometry]] both principal and associated bundles have analogues. The principal bundles over noncommutative spaces typically have structure group replaced by a [[Hopf algebra]]; the most well-known class whose base is described by a single algebra are [[Hopf--Galois extensions]]; the global sections of the associated bundle are formed using cotensor product. Transition functions can be to some extent emulated using noncommutative localizations, which yield nonaffine generalizations of Hopf--Galois extensions. Another generalization is when Hopf--Galois extensions in the sense of comodule algebras are replaced by entwining structures with analogous Galois condition. 
 
+## Properties
+
+### Relation to fibrations
+ {#RelationToFibrations}
+
+\begin{prop}
+
+Every [[locally trivial]] topological fiber bundle projection is a [[Serre fibration]], and a [[Hurewicz fibration]] if it is also a [[numerable bundle]].
+
+\end{prop}
+
+\begin{proof}
+  It is clear that the [[projection]] out of a [[Cartesian product]] is a [[Serre fibration]]. With this, the statement follows from [[local triviality]] and the local recognition of Serre fibrations ([this Prop](Serre+fibration#MapIsSerreFibrationIfLocallySo)) and of [[Hurewicz fibrations]] ([this Prop.](Hurewicz+fibration#MapIsHurewiczFibrationIfPullbackToNumerableCoverIsSo)), respectively.
+\end{proof}
+
+\begin{remark}
+  Beware that the converse statement is far from being true.
+\end{remark}
 
 ## Related concepts
 
