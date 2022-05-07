@@ -794,6 +794,8 @@ The generalization to [[supergeometry]] is
 
 * [[derivations of smooth functions are vector fields]]
 
+* [[EFC-algebra]]
+
 ## References {#References}
 
 Textbook account
