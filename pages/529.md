@@ -149,8 +149,6 @@ For $R$ a pseudocompact ring, it is then easy to construct the corresponding pse
 
 ## Properties
 
-### General
-
 +-- {: .num_prop }
 ###### Proposition
 
@@ -167,20 +165,101 @@ There is an [[adjunction]]
 
 $$
   (R[-]\dashv (-)^\times)
-  \colon 
-  Alg_R \stackrel{\overset{R[-]}{\leftarrow}}{\underset{(-)^\times}{\to}} Grp
+  \;\colon\; 
+  Alg_R 
+    \underoverset
+      {
+        \underset{
+          \;\;\;
+          (-)^\times
+          \;\;\;
+        }{
+          \longrightarrow
+        }
+      } 
+      {
+        \overset{
+          \;\;\;
+          R[-]
+          \;\;\;
+        }{
+          \leftarrow
+        }
+      }
+      {}
+  Grp
 $$
 
-between the [[category]] of [[associative algebras]] over $R$ and that of [[groups]], where $R[-]$ forms group rings and $(-)^\times$ assigns to an $R$-algebra its [[group of units]].
+between the [[category]] of [[Algebras]] ([[associative algebras]] over $R$) and that of [[Groups]], where $R[-]$ forms [[group rings]] and $(-)^\times$ assigns to an $R$-algebra its [[group of units]].
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Let $V$ be an [[abelian group]]. A [[homomorphism]] of rings $R[G]\to End(V)$ of the group ring to the [[endomorphism ring]] of $V$ is equivalently a $R[G]$-[[module]] structure on $V$. And any [[homomorphism]] of groups $p:G\to Aut(V)$ to the [[automorphism group]] of $V$ extends to to a morphism of rings. This observation is used extensively in the theory of [[group representation|group representations]]. See also at _[module -- Abelian groups with G-action as modules over a ring ](http://ncatlab.org/nlab/show/module#AbelianGroupsWithGAction)_.
+Let $V$ be an [[abelian group]]. A [[homomorphism]] of rings $R[G] \to End(V)$ of the group ring to the [[endomorphism ring]] of $V$ is equivalently a $R[G]$-[[module]] structure on $V$. 
+
+Any [[homomorphism]] of groups $p \colon G \to Aut(V)$ to the [[automorphism group]] of $V$ extends to to a morphism of rings. 
+
+This observation is used extensively in the theory of [[group representation|group representations]]. See also at _[module -- Abelian groups with G-action as modules over a ring ](http://ncatlab.org/nlab/show/module#AbelianGroupsWithGAction)_.
 
 =--
+
+\begin{prop}\label{ComplexGroupAlgebraOfFiniteGroupAsDirectSumOfEndomorphismAlgebras}
+  For $G$ a [[finite group]] with [[isomorphism classes]] of [[irreducible representations]] $[V] \in Irreps_{\mathbb{C}}(G)_{/\sim}$ over the [[complex numbers]], the complex [[group algebra]] of $G$ is [[isomorphism|isomorphic]] to the [[direct sum]] of the linear [[endomorphism algebras]] of the [[complex vector spaces]] underlying the [[irreps]]:
+$$
+  \mathbb{C}[G]
+  \;\simeq\;
+  \underset{
+    [V] \in Irreps_{\mathbb{C}}(G)_{/\sim}
+  }{ \oplus }
+  End_{\mathbb{C}}(V)
+$$ 
+\end{prop}
+(e.g. [Fulton-Harris 91, Prop. 3.29](#FultonHarris91))
+\begin{proof}
+  For every representation $V$, the defining [[group action]]
+  $$
+    G 
+      \overset{}{\longrightarrow} 
+    Aut_{\mathbb{C}}(V) 
+      \hookrightarrow
+    End_{\mathbb{C}}(V)
+  $$
+  [[extension|extends]] uniquely to an algebra homomorphism
+  $$
+    \mathbb{C}[G]
+      \overset{ \phi_V }{\longrightarrow} 
+    Aut_{\mathbb{V}}(V) 
+      \hookrightarrow
+    End_{\mathbb{C}}(V)
+    \,.
+  $$
+  Observe that this is a [[surjection]], since if it were not then we could split off a  non-trivial [[cokernel]], contradicting the assumption that $V$ is irreducible.
+
+  We claim that the resulting homomorphism to the [[direct sum]]
+  $$
+    \mathbb{C}[G]
+      \overset{ (\phi_V)_{[V]} }{\longrightarrow} 
+    Aut_{\mathbb{V}}(V) 
+      \hookrightarrow
+    \underset{
+      [V] \in Irreps_{\mathbb{C}}(G)_{/\sim}
+    }{\oplus} 
+    End_{\mathbb{C}}(V)
+  $$
+  is an [[isomorphism]]: By the previous comment it is sujective, hence it is sufficient to observe that the [[dimension of a vector space|dimension]] of the group algebra equals that of the right hand side, hence that
+$$
+  dim\big( 
+    \mathbb{C}[Sym(G)]
+  \big)
+  \;=\;
+  \underset{[V]}{\sum} \big( dim(V)\big)^2
+  \,.
+$$ 
+This is the case by [this property](regular+representation#RegularRepDecomposedIntoIrreps) of the [[regular representation]].
+\end{proof}
+
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -191,8 +270,6 @@ Let $G$ be a [[finite group]], let $R = k$ be a field.
 Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is not divisible by the [[characteristic]] of k.
 
 =--
-
-### Localizations
 
 
 ## Related concepts
@@ -210,6 +287,10 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 * [[∞-group ∞-ring]]
 
 ## References
+
+Textbook accounts:
+
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], Section 3.4 of: _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
 
 Lecture notes include
 
