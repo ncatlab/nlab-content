@@ -53,11 +53,16 @@
 
 * {#Meijer1991} Erik Meijer, Maarten Fokkinga, Ross Paterson, _Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire_, 1991 ([doi:10.1.1.41.125](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.125))
 
-* {#Moggi1991} Eugenio Moggi, _Notions of computations and monads_, 1991 ([pdf](https://person.dibris.unige.it/moggi-eugenio/ftp/ic91.pdf))
+* {#Moggi1991} [[Eugenio Moggi]], _Notions of computations and monads_, 1991 ([pdf](https://person.dibris.unige.it/moggi-eugenio/ftp/ic91.pdf))
+
+
+* David R. Cok, *Reasoning about functional programming in Java and C++*, ISSTA '18: Companion Proceedings for the ISSTA/ECOOP 2018 WorkshopsJuly 2018 Pages 37–39 ([doi:10.1145/3236454.3236483](https://doi.org/10.1145/3236454.3236483))
 
 Discussion of aspects of [[quantum computing]] in terms of [[monad (in computer science)|monads]] in functional programming are in
 
 * [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
+
+
 
 [[!redirects functional program]]
 [[!redirects functional programs]]
