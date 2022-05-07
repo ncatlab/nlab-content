@@ -158,14 +158,22 @@ Note that any cartesian closed category with finite coproducts must be distribut
 
 ## References
 
-  * {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.(<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi</a>)
+Discussion with focus on application to [[topological spaces]]:
 
-  * {#Niefield81} [[Susan Niefield]], _Cartesian inclusion: locales and toposes._, Communications in Algebra, 9.16, 1981, pp. 1639-1671.  [doi](https://doi.org/10.1080/00927878108822672)
+* {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 - 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
 
-  * {#Hyland} [[Martin Hyland]], _Function Spaces in the Category of Locales._, [available from Hyland's website](https://doi.org/10.1080/00927878108822672)
+* {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.(<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>, [pdf](https://core.ac.uk/download/pdf/81936509.pdf))
 
- * {#DayKelly} [[Brian Day]] and [[G. Max Kelly]], _On topological quotients preserved by pullback or
-products_, [doi](https://doi.org/10.1017/S0305004100045850)
+* {#Niefield81} [[Susan Niefield]], _Cartesian inclusion: locales and toposes._, Communications in Algebra, 9.16, 1981, pp. 1639-1671  ([doi:10.1080/00927878108822672](https://doi.org/10.1080/00927878108822672))
+
+Discussion for [[locales]]:
+
+* {#Hyland} [[Martin Hyland]], _Function Spaces in the Category of Locales._ ([doi:10.1080/00927878108822672](https://doi.org/10.1080/00927878108822672))
+
+Discussion for [[internal groupoids]] in [[Top]] ([[topological groupoids]]):
+
+* [[Susan B. Niefield]], [[Dorette A. Pronk]], *Internal groupoids and exponentiability*, Cahiers de topologie et géométrie différentielle catégoriques, [**LX** 4 (2019)](http://cahierstgdc.com/index.php/volume-lx/) ([pdf](http://cahierstgdc.com/wp-content/uploads/2019/10/Niefield-Pronk-LX-4.pdf))
+
 
 [[!redirects exponential object]]
 [[!redirects exponential objects]]
