@@ -117,6 +117,8 @@ The _[[Oka-Grauert principle]] states that for any [[Stein manifold]] $X$ the ho
 
 ## Related concepts
 
+* [[EFC-algebra]]
+
 * [[complex analytic ∞-groupoid]]
 
 ## References
