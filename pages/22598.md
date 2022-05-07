@@ -68,7 +68,7 @@ Write:
 
 ## Statement
 
-With the above ingredients, we have the following [[equality]] of [[polynomials]] in one [[variable]] $q$, where the left hand side is called the *generating function* for numbers of semistandard Young tableaux with (fixed shape $\lambda$ and entries $\leq N$ and) fixed sum of labels:
+With the above ingredients, we have the following [[equality]] of [[polynomials]] in one [[variable]] $q$, where the left hand side is called the *generating function* for numbers of semistandard Young tableaux with (fixed shape $\lambda$ and entries $\leq N$ and) fixed sum of labels ([Krattenthaler 98, Thm. 1](#Krattenthaler98)):
 
 $$
   \underset{
@@ -97,7 +97,7 @@ $$
   content(i,j) \;\coloneqq\; j - 1
 $$
 
-is also called the *content* of the $(i,j)$-box in a Young diagram. Using this terminology, the above formula becomes
+is also called the *content* of the $(i,j)$-box in a Young diagram. Using this terminology, the above formula becomes 
 
 $$
   \underset{
@@ -134,7 +134,7 @@ Further proofs:
 
 * [[Christian Krattenthaler]], *An Involution Principle-Free Bijective Proof of Stanley's Hook-Content Formula*, Discrete Mathematics and Theoretical Computer Science **3**, 1998, 11–32 ([hal:hal-00958904](https://hal.inria.fr/hal-00958904), [pdf](https://hal.inria.fr/hal-00958904/document))
 
-* [[Christian Krattenthaler]], *Another involution principle-free bijective proof of Stanley's hook-content formula*, J. Combin. Theory Ser. A 88 (1999), 66-92 ([arXiv:math/9807068](https://arxiv.org/abs/math/9807068))
+* {#Krattenthaler98} [[Christian Krattenthaler]], *Another involution principle-free bijective proof of Stanley's hook-content formula*, J. Combin. Theory Ser. A 88 (1999), 66-92 ([arXiv:math/9807068](https://arxiv.org/abs/math/9807068))
 
 * Graham Hawkes, *An Elementary Proof of the Hook Content Formula* ([arXiv:1310.5919](https://arxiv.org/abs/1310.5919))
 
