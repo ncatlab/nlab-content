@@ -377,7 +377,7 @@ for all [[prime numbers]] $p$ (Def. \ref{pqCondition}).
 
 In this case there exists also a [[smooth structure]] on some [[n-sphere]] (possibly an [[exotic smooth structure]]) such that $G$ has a [[smooth function|smooth]] [[free action]] on it.
 
-Specifically, such free smooth actions exist in particular on all $S^n$ for which $n+1$ is any multiple of the [[Artin-Lam induction exponent]], hence exist on spheres of arbitrarily large dimension.
+Specifically, such free smooth actions exist in particular on all $S^{2 k \cdot e(G) - 1}$, for all $k \in \mathbb{N}$, where $e(G) \,\in\, \mathbb{N}_+$ is the  [[Artin-Lam induction exponent]] of $G$, hence exist on spheres of arbitrarily large dimension.
 \end{proposition}
 
 ([Madsen, Thomas and Wall 1976, Thm. 0.5-0.6](#MadsenThomasWall76), [1983, Thm. 5](#MadsenThomasWall83), reviewed in [Hambleton 2014, Thm. 6.1](#Hambleton14))
@@ -405,7 +405,9 @@ Given an continuous [[action]] of the [[circle group]] on the [[topological spac
 
 (...)
 
-## References
+## Literature
+
+See also the references at *[[spherical space form]]*.
 
 ### Characterization of finite free actions by homeomorphisms
 
@@ -463,7 +465,7 @@ Classification of free finite group actions by [[isometries]], hence with [[quot
 
 review:
 
-* {#Hambleton14} [[Ian Hambleton]], _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187))
+* {#Hambleton14} [[Ian Hambleton]], _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187), [ISBN:9781571463012](https://www.intlpress.com/site/pub/pages/books/items/00000439/index.php))
 
 streamlined re-proof:
 
