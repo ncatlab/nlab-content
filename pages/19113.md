@@ -269,9 +269,10 @@ See also [Goncalves-Guaschi 11, appendix](#GoncalvesGuaschi11).
 ###### Proposition
 **([[group cohomology]] of [[finite subgroups of SU(2)]])
 
-Let $G_{ADE}$ be a [[finite subgroup of SU(2)]]. Then its [[group cohomology]] with [[integer]] [[coefficients]] is as follows:
+Let $G_{ADE} \xhookrightarrow{i} SU(2)$ be a [[finite subgroup of SU(2)]]. Then its [[group cohomology]] with [[integer]] [[coefficients]] is as follows:
 
-$$
+\[
+  \label{IntegralGroupCohomologyOfFiniteSubgroupsOfSU2}
   H^n_{grp}(G_{ADE}, \mathbb{Z})
   \;\simeq\;
   \left\{
@@ -280,18 +281,21 @@ $$
     \\
     G_{ADE}^{ab} &\vert&  n = 2 \, mod \, 4
     \\
-    \mathbb{Z}/{\vert G_{ADE}\vert} &\vert& n \, \text{positive multiple of} \, 4
+    \mathbb{Z}/{\vert G_{ADE}\vert} 
+     &\vert& 
+    n \, \text{positive multiple of} \, 4
     \\
     0 &\vert& \text{otherwise} 
   }
   \right.
-$$
+\]
 
 Here $G_{ADE}^{ab}$ denotes the [[abelianization]]  of $G_{ADE}$ and $\vert G_{ADE}\vert$ its [[cardinality]], hence $\mathbb{Z}/{\vert G_{ADE}\vert}$ the [[cyclic group]] whose [[order of a group|order]] is the cardinality of $G_{ADE}$.
 
 The [[group homology]] with [[integer]] [[coefficients]] is
 
-$$
+\[
+  \label{IntegralGroupHomologyOfFiniteSubgroupsOfSU2}
   H_n^{grp}(G_{ADE}, \mathbb{Z})
   \;\simeq\;
   \left\{
@@ -300,18 +304,18 @@ $$
     \\
     G^{ab}_{ADE} &\vert&  n = 1 \, mod \, 4
     \\
-    \mathbb{Z}/{\vert G_{ADE}\vert} &\vert& n= 3 \,mod\, 4
+    \mathbb{Z}/{\vert G_{ADE}\vert} &\vert& n = 3 \,mod\, 4
     \\
     0 &\vert& \text{otherwise} 
   }
   \right.
-$$
+\]
 
 
 =--
 
+This general statement is [Epa & Ganter 16, p. 12](#EpaGanter16). The three exceptional cases are worked out in explicit detail in [Tomoda & Zvengrowski 08, Section 4](#TomodaZvengrowski08). The vanishing of $H^3(G_{ADE},\mathbb{Z}) = H^2(G_{ADE}, \mathbb{C}^\times)$ is also [FHHP 01, Cor. 3.1](#FHHP01).
 
-([Tomoda & Zvengrowski 08](#TomodaZvengrowski08), [Epa & Ganter 16, p. 12](#EpaGanter16), see also [FHHP 01, Cor. 3.1](#FHHP01))
 
 +-- {: .num_remark #DiscreteTorsion} 
 ###### Remark
@@ -334,8 +338,47 @@ of Prop. \ref{GroupCohomologyOfFiniteSubgroupsOfSU2}, regarded as expressing [[o
 
 See also at _[[Platonic 2-group]] -- [Relation to String 2-group](Platonic+2-group#RelationToTheString2Group)_.
 
-
 =--
+
+\begin{proposition}
+\label{RestrictingTheSecondChernClassFromSU2ToFiniteSubgroup}
+For $G_{ADE} \xhookrightarrow{i} Spin(3)$ a [[finite subgroup of SU(2)]], the [[pullback in cohomology]] along the induced map $B G_{ADE} \xrightarrow{B i} B SU(2)$ of [[classifying spaces]]  sends 
+
+* the generator $c_2 \,\in\,H^4(B SU(2), \mathbb{Z}) \simeq \mathbb{Z}$ (the [[universal characteristic class|universal]] [[second Chern class]]) 
+
+to 
+
+* a generator of $H^4(B G_{ADE}, \mathbb{Z}) \simeq \mathbb{Z}/\left\vert G_{ADE}\right\vert$ (eq:IntegralGroupCohomologyOfFiniteSubgroupsOfSU2)
+
+in that the [[pullback in cohomology]] is identified with the [[quotient]] [[coprojection]] from the [[integers]] to the [[cyclic group]] of [[order of a group|order]] that of $G_{ADE}$:
+
+\[
+  \label{RestrictionOf4CohomologyOfBSU2ToBGADE}
+  \array{
+    H^4_{grp}(SU(2), \mathbb{Z})
+    &=&
+    H^4(B SU(2), \mathbb{Z})
+    &\simeq&
+    \mathbb{Z}
+    \\
+    {}^{\mathllap{i^\ast}}\big\downarrow
+    &&
+    {}^{\mathllap{B i^\ast}}\big\downarrow
+    &&
+    \big\downarrow {}^{\mathrlap{ {quotient} \atop {coprojection}  }}
+    \\
+    H^4_{grp}(G_{ADE}, \mathbb{Z})
+    &=&
+    H^4(B G_{ADE}, \mathbb{Z})
+    &\simeq&
+    \mathbb{Z}/\left\vert G_{ADE}\right\vert
+    \mathrlap{\,.}
+  }
+\]
+
+\end{proposition}
+
+This is equivalently the statement of [Epa & Ganter 16, Prop. 4.1](#EpaGanter16), whose proof is analogous to that of Lemma 3.1 there, where the analogue of (eq:RestrictionOf4CohomologyOfBSU2ToBGADE) is the top left square of the commuting diagram on [p. 11](https://arxiv.org/pdf/1605.09192.pdf#page=11).
 
 
 ## Related concepts
