@@ -267,7 +267,7 @@ Discussion of the corresponding perspective in [[algebraic geometry]], via [[Del
 
 The [[mapping stacks]] of orbifolds are discussed in
 
-* W. Chen, _On a notion of maps between orbifolds_, I. Function spaces, Commun. Contemp. Math. 8 (2006), no. 5, 569&#8211;620.
+* [[Weimin Chen]], *On a notion of maps between orbifolds, I. Function spaces*, Commun. Contemp. Math. 8 (2006), no. 5, 569&#8211;620 ([arXiv:math/0603671](https://arxiv.org/abs/math/0603671), [doi:10.1142/S0219199706002246](https://doi.org/10.1142/S0219199706002246)).
 
 * {#RobertsVozzo18} [[David Roberts]], [[Raymond Vozzo]], _The Smooth Hom-Stack of an Orbifold_, In : Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1. Springer, Cham (2018) ([arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [doi:10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3))
 
