@@ -37,7 +37,7 @@ A **$V$-enriched model category** is
 
 * such that 
 
-  * {#PullbackPowerAxiom} **(pullback-power axiom)** for every [[cofibration]] $i \colon A \to B$ and [[fibration]] $p \colon X \to Y$ in $C_0$ the [[pullback powering]] morphism (dual to the [[pushout product]]) with respect to the powering in $V$ 
+  * {#PullbackPowerAxiom} **([[pullback-power axiom]])** for every [[cofibration]] $i \colon A \to B$ and [[fibration]] $p \colon X \to Y$ in $C_0$ the [[pullback powering]] morphism (dual to the [[pushout product]]) with respect to the powering in $V$ 
 
     $$
       C(B,X) \stackrel{(i^* , p_*)}{\to} C(A,X) \times_{C(A,Y)} C(B,Y)
@@ -74,15 +74,25 @@ is a [[Quillen bifunctor]].
 
 * [[enriched homotopical category]].
 
-* [[pushout-product]] , [[pushout-product  axiom]]
+* [[pushout-product]], [[pushout-product  axiom]]
  
 * [[pullback power]]
 
 ## References
 
-* [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and diagram categories_ ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567))
+Textbook account:
+
+* [[Jacob Lurie]], Def. A.3.1.5 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+See also:
+
+* [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and presheaf categories_, New York J. Math. 26 (2020) 37–9 ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567), [](https://www.emis.de/journals/NYJM/j/2020/26-3.html), [NYJM:2020/26-3](https://www.emis.de/journals/NYJM/j/2020/26-3.html))
 
 [[!redirects enriched model categories]]
 
 [[!redirects enriched model structure]]
 [[!redirects enriched model structures]]
+
+[[!redirects enriched model category theory]]
+
+
