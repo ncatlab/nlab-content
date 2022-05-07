@@ -34,6 +34,8 @@ See also [[constant morphism]].
 
 * [[steady function]]
 
+* [[deterministic random variable]], [[almost surely]]
+
 
 [[!redirects constant function]]
 [[!redirects constant functions]]
