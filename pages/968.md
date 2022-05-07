@@ -72,9 +72,21 @@ $S^1$-[[equivariant homotopy theory]] ([Spalinski 95](#Spalinski95), [Blumberg 0
 
 ## References
 
-The definition is originally due to 
+The original definition:
 
 * [[Alain Connes]], _Cohomologie cyclique et foncteurs $Ext^n$_, C.R.A.S. **269** (1983), S&#233;rie I, 953-958
+
+* [[Pierre Cartier]], Section 1.6 of: *Homologie cyclique : rapport sur des travaux récents de Connes, Karoubi, Loday, Quillen...*, Séminaire Bourbaki: volume 1983/84, exposés 615-632, Astérisque, no. 121-122 (1985), Exposé no. 621 ([numdam:SB_1983-1984__26__123_0](http://www.numdam.org/item/?id=SB_1983-1984__26__123_0))
+
+Textbook account (in the generality of [[cyclic spaces]]):
+
+* [[Jean-Louis Loday]], *Cyclic Spaces and $S^1$-Equivariant Homology* ([doi:10.1007/978-3-662-21739-9_7](https://link.springer.com/chapter/10.1007/978-3-662-21739-9_7))
+
+  Chapter 7 in: *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
+
+Exposition:
+
+* {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
 
 Connections to [[simplicial sets]] are in:
 
@@ -100,8 +112,5 @@ An old query is archived in $n$Forum [here](http://nforum.mathforge.org/discussi
 
 There are fairly recent slides by Spalinski on the subject [here](http://www.mimuw.edu.pl/~cat09/slides/Spalinski.pdf), which also discuss relationships with [[dihedral sets]] and [[quaternionic set]]s, as studied by [[Loday]].
 
-See also 
-
-* {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
 
 [[!redirects cyclic sets]]
