@@ -139,3 +139,7 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 * [[Kimmo I. Rosenthal]], _Sheaves and Local Equivalence Relations_ , Cah. Top. G&#233;om. Diff. Cat. **XXV** 2 (1984) pp.179-206. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1984__25_2/CTGDC_1984__25_2_179_0/CTGDC_1984__25_2_179_0.pdf))
 
 * [[Kimmo I. Rosenthal]], _Covering &#201;tendues and Freyd's Theorem_ , Proc. AMS **99** 2 (1987) pp.221-222. ([pdf](http://www.ams.org/journals/proc/1987-099-02/S0002-9939-1987-0870775-X/S0002-9939-1987-0870775-X.pdf))
+
+[[!redirects etendue]]
+[[!redirects etendues]]
+[[!redirects étendues]]
