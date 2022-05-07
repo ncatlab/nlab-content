@@ -1,4 +1,5 @@
 
+
 Edward Witten is a theoretical physicist at the Institute for Advanced Study.
 
 * [website](http://www.sns.ias.edu/~witten/)
@@ -23,17 +24,17 @@ Since about the turn of the millennium Witten has tended to more esoteric mathem
 {:toc}
 
 ## Quotes
+ {#Quotes}
 
 In [Witten 87, very last sentence](#Witten87EllipticGenera):
 
 > A properly developed theory of [[elliptic cohomology]] is likely to shed some light on what [[string theory]] really means.
 
 
-
 \begin{imagefromfile}
     "file_name": "WittenInDavisBrown_StringMathematicsGeometry.jpg",
     "float": "right",
-    "width": 350,
+    "width": 420,
     "unit": "px",
     "margin": {
         "top": -40,
@@ -43,13 +44,42 @@ In [Witten 87, very last sentence](#Witten87EllipticGenera):
     }
 \end{imagefromfile}
 
+
 \linebreak 
 
-{#StringTheoryAtItsFinestQuote} On p. 95 of
+{#StringTheoryAtItsFinestQuote} In an interview recorded (1988) in:
 
-* PCW Davis & J Brown (eds.), *Superstrings: A theory of everything?*, Cambridge University Press 1988, 1991, Canto 1992:
+* {#DavisBrown88} P C W Davis & J Brown (eds.), *Superstrings: A theory of everything?*, Cambridge University Press 1988, 1991, Canto 1992 ([gbooks](https://books.google.us/books/about/Superstrings.html?id=SrSyTS4kzP8C)):
 
-> String theory at its finest is, or should be, a new branch of [[geometry]].
+
+> String theory at its finest is, or should be, a new branch of [[geometry]]. (p. 95)
+
+> I would consider trying to elucidate this proper generalization of geometry as the central problem of physics, certainly the central problem of string theory.  (p. 96)
+
+> What should have happened, by rights, is that the  correct mathematical structures should have been developed in the twenty-first or twenty-second century, and then finally physicists should have invented string theory as a physical theory that is made possible by these structures. (p. 102)
+
+> we are paying the price for the fact that we didn't come by this thing in the usual way. (p. 103)
+
+\linebreak
+
+\begin{imagefromfile}
+    "file_name": "WittenInDavisBrown_StringMathematicsGeometryII.jpg",
+    "float": "right",
+    "width": 420,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "From [Davis and Brown 1988](#DavisBrown88)"
+\end{imagefromfile}
+
+
+{#FurtherInDavisBrown88} Further in [Davis & Brown 1988, p. 102](#DavisBrown88):
+
+> It's been said that string theory is part of the physics of the twenty-first century that fell by chance into the twentieth century. That's a remark that was made by a leading physicist $[$[[Daniele Amati]], see [below](#Witten21stCenturyQuote)$]$ about fifteen years ago. What he meant was that  human beings on planet Earth never had the conceptual framework that would lead them to invent string theory on purpose. String theory was invented essentially by accident in a long sequence of events, starting with the Veneziano model that was formulated in 1968. No-one invented it on purpose, it was invented by a lucky accident. By rights, twentieth century physicists shoulnd't have had the priviledge of studying this theory. By rights, string theory  shouldn't have been invented unitl our knowledge of some of the areas that are prerequisite for string theory had developed to the point that it was possible for us to have the right concept of what it was all about.
 
 
 \linebreak
@@ -57,6 +87,8 @@ In [Witten 87, very last sentence](#Witten87EllipticGenera):
 In [Nova interview 2003](http://www.pbs.org/wgbh/nova/elegant/view-witten.html), also [American Scientist Astronomy Issue 2002](http://www.sns.ias.edu/~witten/papers/string.pdf):
 
 > {#Witten21stCenturyQuote} Back in the early '70s, the Italian physicist, [[Daniele Amati]] reportedly said that string theory was part of 21st-century physics that fell by chance into the 20th century. I think it was a very wise remark. 
+
+
 
 \linebreak
 
