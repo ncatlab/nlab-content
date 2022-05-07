@@ -1,6 +1,8 @@
+[[!redirects Mal&#39;cev completion]]
+[[!redirects Mal&#39;cev completion]]
 ## Idea
 
-In a 1949 paper devoted to the study of the coset spaces of nilpotent Lie groups, Mal'cev exhibited an equivalence between the category of torsion free radicable nilpotent finite rank groups and the category of finite dimensional, nilpotent rational Lie algebras. This involves a completion construction which is used also in the general formulation of Hausdorff series (cf. Bourbaki) which takes values in the Mal'cev completion of the universal enveloping algebra on two generators. 
+In a 1949 paper devoted to the study of the coset spaces of nilpotent Lie groups, [[Anatoly Malcev]] exhibited an equivalence between the category of torsion free radicable nilpotent finite rank groups and the category of finite dimensional, nilpotent rational Lie algebras. This involves a completion construction which is used also in the general formulation of Hausdorff series (cf. Bourbaki) which takes values in the Mal'cev completion of the universal enveloping algebra on two generators. 
 
 ## Definition
 
