@@ -43,6 +43,22 @@ There is a generalization, the noncommutative measure theory, which is more or l
 
 ## References
 
+A comprehensive five-volume treatise (with a sixth volume forthcoming) is
+
+* [[David H. Fremlin]], _[[Measure Theory]]_, Volumes 1–5, Torres Fremlin, Colchester.  Volume 1, 2000; Volume 2, 2001; Volume 3, 2002; Volume 4, 2003; Volume 5, 2008.  [Website](https://www1.essex.ac.uk/maths/people/fremlin/mt.htm).
+
+A more concise two-volume treatise is
+
+* [[Vladimir Bogachev]], _[[Measure theory]]_, Volumes I, II.  Springer, 2007.  ISBN: 978-3-540-34513-8, 3-540-34513-2.
+
+A classical (slightly dated) concise treatise is
+
+* [[Paul Halmos]], _Measure Theory_, D. Van Nostrand Company, 1950.
+
+* [[Donald L. Cohn]], _Measure Theory_, Birkhäuser, 1980.  ISBN: 3-7643-3003-1 
+
+Other texts include
+
 * [[Ernst-Erich Doberkat]], _Measures and all that --- A Tutorial_ ([arxiv/1409.2662](http://arxiv.org/abs/1409.2662))
 
 * {#Connes1995} [[Alain Connes]] (1995); _[[Noncommutative Geometry]]_.
