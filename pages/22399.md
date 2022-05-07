@@ -30,3 +30,5 @@ which is a [[Hilbert W*-module]] over $A$.
 * [[duality between geometry and algebra]]
 
 [[!redirects Hilbert W*-modules]]
+[[!redirects W*-modules]]
+[[!redirects W*-module]]
