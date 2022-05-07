@@ -22,7 +22,7 @@
 <img src="https://ncatlab.org/nlab/files/SomePrimes.jpg" width="60"/>
 </div>
 
-A _prime number_ is a [[natural number]] which cannot be written as a [[multiplication|product]] of two smaller numbers, hence a natural number greater than 1, which is [[division|divisible]] only by 1 and by itself.
+A _prime number_ is a nonzero [[natural number]] that cannot be written as a [[multiplication|product]] of finitely many natural numbers (all) other than itself, hence a natural number greater than 1 that is [[division|divisible]] only by 1 and itself.
 
 This means that every [[natural number]] $n \in \mathbb{N}$ is, up to re-ordering of factors, _uniquely_ expressed as a product of a tuple of prime numbers:
 
