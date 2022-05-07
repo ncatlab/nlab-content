@@ -242,8 +242,6 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
 
 ### As a fundamental brane (GS-type $\sigma$-model)
 
-[[fundamental M2-brane sigma-model -- references]]
-
 The [[Green-Schwarz sigma-model]]-type formulation of the [[supermembrane]] in 11d (as in the [[brane scan]]) first appears in 
 
 * {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
@@ -283,13 +281,7 @@ See also
 * M.P. Garcia del Moral, C. Las Heras, P. Leon, J.M. Pena, A. Restuccia, _Fluxes, Twisted tori, Monodromy and $U(1)$ Supermembranes_ ([arXiv:2005.06397](https://arxiv.org/abs/2005.06397))
 
 
-
-Discussion of $G_7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
-
- {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
-
-* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
-
+[[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
  
 
@@ -359,7 +351,6 @@ Review:
 * Kazuo Hosomichi, _M2-branes and AdS/CFT: A Review_ ([arXiv:2003.13914](https://arxiv.org/abs/2003.13914))
 
 
-[[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
 
 
