@@ -44,7 +44,7 @@ $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $
 
 * Strengthening the last example, there is an [[factorization system in a 2-category|orthogonal factorization system]] (in the up-to-isomorphism [[strict 2-category|strict]] sense) on $Cat$, in which eso functors are the left class and fully faithful functors are the right class.
 
-  This is an "up-to-isomorphism" version of the [[bo-ff factorization system]], which is a 1-categorical orthogonal factorization system on $Cat$ in which the left class consists of [[bijective-on-objects functors]].  Thus essentially surjective is a non-[[evil]] version of "bijective on objects", i.e. the version which views $Cat$ as a bicategory.
+  This is an "up-to-isomorphism" version of the [[bo-ff factorization system]], which is a 1-categorical orthogonal factorization system on $Cat$ in which the left class consists of [[bijective-on-objects functors]].  Thus the notion of essential surjectivity is a version of "bijective on objects" which does respect the [[principle of equivalence]], i.e. the version which views [[Cat]] as a [[bicategory]].
 
   In particular, while a functor factors uniquely-up-to-isomorphism as a b.o. functor followed by a fully faithful one, it factors only uniquely-up-to-equivalence as an e.s.o. functor followed by a fully faithful one.  Since b.o. functors are also e.s.o., any (eso,ff) factorization of some functor is equivalent to its (bo,ff) factorization.
 
