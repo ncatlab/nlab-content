@@ -275,46 +275,37 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 ## References
 
-A brief account of the definition is in
+Exposition and review:
+
+* {#KellyStreet74} [[Max Kelly]] and [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, in G. M. Kelly (ed.)Lecture Notes in Mathematics **420**, Springer 1974 ([doi:10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101))
 
 * [[Ross Street]], _Encyclopedia article on 2-categories and bicategories_ ([pdf](http://www.maths.mq.edu.au/~street/Encyclopedia.pdf))
 
-A more detailed account of the definition, including a discussion of its  [[coherence theorem]], is in
+* {#Lack10} [[Steve Lack]], _A 2-categories companion_,  In: Baez J., May J. (eds.) *[[Towards Higher Categories]]*. The IMA Volumes in Mathematics and its Applications, vol 152. Springer 2010 ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535), [doi:10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4))
+
+  > (including discussion of ([[strict 2-limits|strict]]) [[2-limits]])
+
+* [[John Power]], _2-Categories_, BRICS Notes Series 1998 ([pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf))
 
 * [[Tom Leinster]], _Basic bicategories_ ([arXiv:9810017](http://arxiv.org/abs/math/9810017))
 
-A comprehensive monograph is
+  > (including a discussion of the [[coherence theorem]])
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
-Some 2-category theory, including [[2-limit]]s/2-colimit is discussed in
 
-* [[Steve Lack]], _A 2-categories companion_ ([arXiv:0702535](http://arxiv.org/abs/math/0702535))
+Relation between bicategories and Tamsamani weak 2-categories:
 
-and
-
-* [[John Power]], _2-Categories_ ([pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf))
-
-An older reference which introduces some of the basic notions is
-
-* [[Max Kelly]] and [[Ross Street]], *Review of the elements of 2-categories*, Sydney Category Seminar 1972/1973, LNM 420
-
-A relation between bicategories and Tamsamani weak 2-categories is established in 
-
-* [[Steve Lack]], [[Simona Paoli]], _2-nerves for bicategories_ ([arXiv](http://arxiv.org/abs/math/0607271))
-{#LackPaoli}
-
-The reverse construction is in
+* {#LackPaoli} [[Steve Lack]], [[Simona Paoli]], _2-nerves for bicategories_ ([arXiv](http://arxiv.org/abs/math/0607271))
 
 * [[Simona Paoli]], _From Tamsamani weak 2-categories to bicategories_ ([arXiv](http://www.maths.mq.edu.au/~simonap/Bicategories_Rev_4.pdf))
 
 There is a [[model category]] structure on 2-categories -- the [[canonical model structure]] -- that models the [[(2,1)-category]] underlying [[2Cat]]:
 
-* [[Steve Lack]],  _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
-{#LackStrict}
+* {#LackStrict} [[Steve Lack]],  _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
 
-* [[Steve Lack]],  _A Quillen Model Structure for Biategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
-{#LackFolkModel}
+
+* {#LackFolkModel} [[Steve Lack]],  _A Quillen Model Structure for Biategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
 
 Discussion of weak 2-categories in the style of [[A-infinity categories]] is (using [[dendroidal sets]] to model the higher [[operads]]) in
 
