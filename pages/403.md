@@ -403,6 +403,10 @@ and in
 
 * {#BastianiEhresmann_72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 13 no. 2 (1972), p. 104-214 ([Numdam](http://www.numdam.org/item?id=CTGDC_1972__13_2_104_0))
 
+See also:
+
+* [[Enrico Ghiorzi]], Section 1.2 of: *Complete internal categories* ([arXiv:2004.08741](https://arxiv.org/abs/2004.08741))
+
 
 Discussion in terms of [[monads]] in [[spans]] is in 
 
