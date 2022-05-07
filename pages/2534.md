@@ -42,7 +42,7 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
 *  The _[[set difference]]_ of multisets is the multiset given by
 
-   $$ \mathcal{X} \backslash \mathcal{Y} = \langle \{ a \in X \cup Y \;|\; mu_X(a) \gt \mu_Y(a) \}, \mu_X - \mu_Y \rangle .$$
+   $$ \mathcal{X} \backslash \mathcal{Y} = \langle \{ a \in X \cup Y \;|\; \mu_X(a) \gt \mu_Y(a) \}, \mu_X - \mu_Y \rangle .$$
 
 *  The __sum__ of multisets is the multiset whose cardinality is given by addition of cardinal numbers; this has no analogue for ordinary sets.
 
