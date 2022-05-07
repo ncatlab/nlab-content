@@ -15,10 +15,16 @@
 
 ## Definition
 
-A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]]. Gaunt categories are necessarily [[skeletal]]; a skeletal category is gaunt iff every [[automorphism]] is an [[identity morphism]].
+A [[category]] is called **gaunt** if all its [[isomorphisms]] are in fact [[identities]]. This is really a property of [[strict categories]]; that is, it is not [[principle of invariance|invariant]] under [[equivalence of categories]]. 
 
 
 ## Properties
+
+### Relation to skeletal categories, thin categories, poset categories
+
+Gaunt categories are necessarily [[skeletal]]; a skeletal category is gaunt iff every [[automorphism]] is an [[identity morphism]]. Consequently a [[thin]] gaunt category is skeletal, and since a thin skeletal category is a [[poset category]] a thin gaunt category is also a poset category.
+
+Note that a gaunt category need not be thin, since we may have parallel non-isomorphisms which are not equal. Similarly, a thin category need not be gaunt since we may have isomorphisms that aren't the identity.
 
 ### Relation to complete Segal spaces
 
