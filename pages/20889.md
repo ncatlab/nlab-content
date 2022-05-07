@@ -1,4 +1,4 @@
-
+* [Home page](https://physics.berkeley.edu/people/faculty/geoff-penington)
 
 ## Selected writings
 
