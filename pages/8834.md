@@ -253,17 +253,66 @@ then the Toda bracket is the [[homotopy class]] of this 1-morphism in the [[homo
 
 Here the last [[pasting diagram]] on the bottom right shows the [[homotopy cofiber]]-construction equivalently realized via [[mapping cones]] (ordinary [[cofiber coproducts]] after [[cofibrant resolution|resolving]] points to [[cones]]), by which one may present the top [[homotopy coherent diagram]] in, for instance, any [[pointed model category|pointed]] [[cofibration category]]- or [[model category]]-[[presentable (infinity,1)-category|presentation]] of the [[pointed (∞,1)-category]] $\mathcal{C}$.
 
-It is in this last form, by "consecutively extending maps over cones", that the Toda bracket was introduced in [Toda 62](#Toda62), and in which it is still presented in most references to date. The more abstract formulation shown at the top, via [[homotopy coherent diagram|homotopy]]-[[pasting diagrams]], is made more explicit in [Hardie-Kamps-Kieboom 99, (0.2)-(0.3)](#HardieKampsKieboom99), [Hardie-Marcum-Oda 01](#HardieMarcumOda01),  [Hardie-Kamps-Marcum 02, (2.2)](#HardieKampsMarcum02) (formalized there inside a [[homotopy 2-category]]).
+It is in this last form, by "consecutively extending maps over cones", that the Toda bracket was introduced in [Toda 62](#Toda62), and in which it is still presented in most references to date. 
 
+The more abstract formulation shown at the top, via [[homotopy coherent diagram|homotopy]]-[[pasting diagrams]], is made more explicit in [Hardie-Kamps-Kieboom 99, (0.2)-(0.3)](#HardieKampsKieboom99), [Hardie-Marcum-Oda 01](#HardieMarcumOda01),  [Hardie-Kamps-Marcum 02, (2.2)](#HardieKampsMarcum02) (formalized there inside a [[homotopy 2-category]]).
 
-More precisely,  traditionally authors want the Toda bracket to be independent of the choice of [[null homotopies]] $(\phi_1,\phi_2)$ and thus regard (eq:TheTodaBracketDependingOnTheNullHomotopies) in a suitable [[quotient set]] of
-$
+{#GroupActionOnChoicesOfTodaBrackets} From this abstract homotopy-pasting perspective it is manifest that the set of choices of refined Toda brackets (eq:TheTodaBracketDependingOnTheNullHomotopies) for given maps $(f_1, f_2, f_2)$ is, if [[inhabited set|inhabited]], a [[torsor]] over the [[direct product group]] 
+
+\[
+  \label{SymmetryGroupOfTodaBracket}
+  \begin{aligned}
+  G_{(X_0, X_1, X_2, X_3)}
+  &
+  \coloneqq
+  \;
+  \pi_1 \mathcal{C}(X_0,X_2) \times \pi_1 \mathcal{C}(X_1, X_3)^{op}
+  \\
+  & 
+  =
+  \; 
+  \pi_0 \mathcal{C}(X_0, \Omega X_2) \times \pi_0 \mathcal{C}(X_1, \Omega X_3)^{op}
+  \\
+  & = \;
+  \pi_0 \mathcal{C}(\Sigma X_0, X_2) \times \pi_0 \mathcal{C}(\Sigma X_1, X_3)^{op}
+  \,,
+  \end{aligned}
+\]
+
+whose [[action]] is given by the evident [[composition]] of [[2-morphisms]]:
+
+\begin{imagefromfile}
+    "file_name": "GroupActionOnTodaBracket.jpg",
+    "width": 750,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [SS21](https://ncatlab.org/schreiber/show/M-Theory+as+Mf-Theory)"
+\end{imagefromfile}
+
+The _plain Toda bracket_ is meant to be independent of the choice of [[null homotopies]] $(\phi_1,\phi_2)$ and thus taken to be the image of (eq:TheTodaBracketDependingOnTheNullHomotopies) in the [[quotient set]] by this action
+
+$$
+  \big\langle
+    f_1, f_2, f_3
+  \big\rangle
+  \;\;
+    \in
+  \;\;
   Ho(\mathcal{C})
   \big(
     X_0, \Omega X_3
   \big)
-$
-where this dependence is quotiented out. Often authors take the plain Toda bracket to *be* the [[subset]] 
+  \big/
+  G_{X_0, X_1, X_2, X_3}
+  \,.
+$$
+
+With elements in the quotient set identified with the [[orbit]]-sets, the plain Toda bracket may be taken to *be* the [[orbit]] of this action, hence the [[subset]] 
 
 \[
   \label{PlainTodaBracket}
@@ -276,7 +325,9 @@ where this dependence is quotiented out. Often authors take the plain Toda brack
     \big\langle
       f_1, f_2, f_3
     \big\rangle_{(\phi_1,\phi_2)}
+    \;
     \left\vert
+    \;
     \array{
       0 
         &\overset{\phi_1}{\Rightarrow}&  
@@ -318,7 +369,7 @@ where this dependence is quotiented out. Often authors take the plain Toda brack
 
 of all the classes (eq:TheTodaBracketDependingOnTheNullHomotopies) as one varies the [[null homotopies]] $(\phi_1,\phi_2)$.
 
-{#TheTodaBundle} This means that the plain Toda bracket (eq:PlainTodaBracket) is not a function with values, but a [[bundle]] with [[fibers]] (whose elements are the refined Toda brackets (eq:TheTodaBracketDependingOnTheNullHomotopies)):
+{#TheTodaBundle} This means that the plain Toda bracket (eq:PlainTodaBracket) is not a function with values, but a [[bundle]] with [[fibers]]  (whose elements are the refined Toda brackets (eq:TheTodaBracketDependingOnTheNullHomotopies)):
 
 \begin{xymatrix@C=17pt@R=10pt}
     {\phantom{AAAA}}
