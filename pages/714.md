@@ -37,7 +37,18 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 
 ### Dagger categories
 
-A **dagger category**, or &#8224;-category, is a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]], hence an ordinary [[functor]] from the [[opposite category]] $C^{op}$ of $C$ to $C$ itself
++-- {: .un_defn}
+###### Definition
+
+A **dagger category** or $\dagger$-category $C$ is a [[category]] with a function $(-)^\dagger: Hom_C(A,B) \to hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
+
+* For every $A \in Ob(C)$, $(1_A)^\dagger = 1_A$
+* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$ and $g \in Hom_C(B,C)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$
+* For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$, $((f)^\dagger)^\dagger = f$. 
+
+=--
+
+There is another definition which violates the [[principle of equivalence]], since it imposes equations on objects: a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]], hence an ordinary [[functor]] from the [[opposite category]] $C^{op}$ of $C$ to $C$ itself
 
 $$
   \dagger : C^{op} \to C
@@ -48,9 +59,6 @@ which
 1. is the identity on [[objects]], 
 
 1. is an [[involution]] $\dagger \circ \dagger = \mathrm{id}_C$.
-
-Note that regarded as an extra structure on categories, the concept of &#8224;-structure violates the [[principle of equivalence]], since it imposes equations on objects.
-
 
 ### Special morphisms
 
@@ -287,11 +295,13 @@ A &#8224;-[[simplicial set]] can be defined to be a simplicial set $X$ equipped 
 The category of &#8224;-simplicial sets (and dagger preserving maps)
 is the category of [[presheaf|presheaves]] on the category whose objects are the ordinals $[n]$, but where the maps $[m]\to [n]$ are order reversing or preserving.
 
-
 #### $\dagger$-Graphs
 
 * [[dagger-graph]]
 
+### $\dagger$-2-posets
+
+A [[dagger 2-poset|$\dagger$-2-poset]] is a $\dagger$-category that is also a [[2-poset]]. Examples of $\dagger$-2-posets include [[allegories]] and [[bicategories of relations]]. 
 
 ###  $(\infty,1)$-&#8224;-categories {##oo1Version}
 
@@ -326,7 +336,6 @@ For more on this see
 ## Related concepts
 
 * [[star-category]], [[C-star-category]]
-* [[dagger 2-poset]]
 
 ## References
 
