@@ -6,8 +6,13 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
 =--
 =--
+=--
+
 
 
 # Dependent linear type theory
