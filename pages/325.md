@@ -183,7 +183,7 @@ $$
 but whose product operation is that of $G$ but combined with a switch of the order of the arguments:
 
 $$
-  \cdot_{G^{op}} : S \times S \stackrel{\sigma}{\to} S \times S \stackrel{\cdot_S}{\to} S
+  \cdot_{G^{op}} : S \times S \stackrel{\sigma}{\to} S \times S \stackrel{\cdot_G}{\to} S
   \,.
 $$
 
