@@ -15,6 +15,11 @@ On [[combinatorial model categories]]:
 
 * [[Jiří Rosický]], *On combinatorial model categories*, Appl. Cat. Str. 17 (2009), 303-316 ([arXiv:0708.2185](https://arxiv.org/abs/0708.2185))
 
+On [[convenient categories of topological spaces]] and [[directed homotopy theory]]:
+
+* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
+
+
 On [[class-locally presentable categories]]:
 
 * [[Boris Chorny]], [[Jiří Rosický]], _Class-locally presentable and class-accessible categories_, Journal of Pure and Applied Algebra **216**, Issue 10 (2012) pp 2113–2125 ([doi:10.1016/j.jpaa.2012.01.015](https://doi.org/10.1016/j.jpaa.2012.01.015))
