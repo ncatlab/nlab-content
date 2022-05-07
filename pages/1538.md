@@ -251,6 +251,8 @@ Dijkgraaf-Witten theory is to be thought of as the finite group version of [[Che
 
 ## Related concepts
 
+* [[transgression in group cohomology]]
+
 * [[schreiber:∞-Chern-Simons theory]]
 
 * [[higher dimensional Chern-Simons theory]]
