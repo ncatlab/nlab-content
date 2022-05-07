@@ -1,5 +1,51 @@
 
 $$
+  \langle{g}\rangle 
+    \hookrightarrow 
+  C_G(g)
+    \twoheadrightarrow 
+  G/\langle{g}\rangle
+$$
+
+$$
+  \array{
+    B \langle{g}\rangle
+    &\longrightarrow& 
+    \ast
+    \\
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow
+    \\
+    X^g \!\sslash\! C_G(g)
+    &\xrightarrow{\;}&
+    X^g \!\sslash\! \frac{C_G(g)}{\langle{g}\rangle}
+    \\
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow
+    \\
+    B G
+    &\xrightarrow{\;}&
+    B \frac{C_G(g)}{\langle{g}\rangle}
+  }
+$$
+
+$$
+  \array{
+    (W H) / H
+    &\longrightarrow&
+    (Y \times \overline{W} G)/G
+    \\
+    && \big\downarrow
+    \\
+    &&
+    \big(Y \times \overline{W} (G/H) \big) / (G/H)      
+  }
+$$
+
+
+$$
  \begin{array}{cc}
   a & b
  \end{array}
