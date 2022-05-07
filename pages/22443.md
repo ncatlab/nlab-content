@@ -1007,12 +1007,12 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
 
 1. labeled by [[partitions]] $\lambda$ of $n$,
 
-1. have multiplicity the square of the dimension $\chi^{(\lambda)}(1)$ of the $\lambda$th [[Specht module]];
+1. have multiplicity the square $\big(\chi^{(\lambda)}(e)\big)^2$ of the [[dimension]] of the $\lambda$th [[Specht module]];
 
 1. are given by
 
    $$
-     EV_\lambda[e^{- \beta\cdot d_C}]
+     EigVals[e^{- \beta\cdot d_C}]_\lambda
      \;=\;
      \tfrac{1}{\chi^{(\lambda)}(1)}
      \underset{ \sigma \in Sym(n) }{\sum}
@@ -1023,8 +1023,24 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
    $$
  
    where $\chi^{(\lambda)}$ is the [[irreducible character]] corresponding to the $\lambda$th [[Specht module]].
+
+1. correspond to [[eigenvectors]] given by the [[complex conjugation|complex conjugate]] of the $(i,j)$-components, for fixed $i,j  \in \big\{1, \cdots, \chi^{(\lambda)}(e) \big\}$, of the $\lambda$th [[Specht module]] $\chi^{(\lambda)} \colon Sym(n) \to U\big(\chi^{(\lambda)}(e)\big)$ regarded for each [[permutation]] $\sigma$ as a [[unitary matrix]] $\big(chi^{(\lambda)}(\sigma)_{i,j}\big)_{i,j}$:
+
+   $$
+     EigVects[e^{-\beta \cdot d_X}]_{\lambda, i, j}
+     \;=\;
+     \big(
+       \bar rho^{(\lambda)}(\sigma)_{i j}
+     \big)_{\sigma \in Sym(n)}
+     \;\;
+     \in
+     \;
+     \mathbb{C}[Sym(n)]
+   $$
  
 \end{prop}
+
+
 
 
 \linebreak
