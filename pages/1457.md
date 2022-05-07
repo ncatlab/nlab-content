@@ -41,7 +41,7 @@ and it may be shown that the open balls form a [[basis for a topology|basis]] fo
 
 ### Metrizable spaces
 
-A **metrizable space** is a [[topological space]] $X$ which admits a metric such that the  [[metric topology]] agrees with the topology on $X$. In general, many different metrics (even ones giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
+A **[[metrizable topological space]]** is a [[topological space]] $X$ which admits a metric such that the  [[metric topology]] agrees with the topology on $X$. In general, many different metrics (even ones giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
 
 Metrizable spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], [[regular space|regular]], and even [[normal space|normal]]. They are also [[paracompact space|paracompact]]. 
 
@@ -172,7 +172,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 *  {#Lawvere73}  [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
    
 
-* {#Meng} [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+* {#Meng} Xiao-qing Meng, _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
  
 * {#HST} Dirk Hofmann, Gavin J. Seal, and Walter Tholen (editors), *Monoidal topology: A Categorical Approach to Order, Metric, and Topology*,  Cambridge University Press, 2014
 
