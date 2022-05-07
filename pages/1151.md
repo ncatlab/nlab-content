@@ -801,12 +801,12 @@ See also
 
 * [[cohomological integration]]
 
-## History and references 
+## References and history
  {#References}
 
-The original references are
+The original references on [[cochain cohomology]] and [[ordinary cohomology]] in the form of [[singular cohomology]]:
 
-* [[Andrei Kolmogoroff]], _Über die Dualität im Aufbau der kombinatorischen Topologie_, Recueil Mathématique 1(43) (1936), 97–102.  [mathnet](http://mi.mathnet.ru/msb5361).
+* [[Andrei Kolmogoroff]], _Über die Dualität im Aufbau der kombinatorischen Topologie_, Recueil Mathématique 1(43) (1936), 97–102.  ([mathnet](http://mi.mathnet.ru/msb5361))
 
 A footnote on the first page reads:
 
@@ -814,25 +814,25 @@ A footnote on the first page reads:
 
 * [[Andrei Kolmogoroff]], _Homologiering des Komplexes und des lokal-bicompakten Raumes_, Recueil Mathématique 1(43) (1936), 701–705.  [mathnet](http://mi.mathnet.ru/msb5475).
 
-* [[J. W. Alexander]], On the chains of a complex and their duals, Proc. Nat. Acad. Sei. USA, 21(1935), 509–511.
+* [[J. W. Alexander]], _On the chains of a complex and their duals_, Proc. Nat. Acad. Sei. USA, 21(1935), 509–511 ([doi:10.1073/pnas.21.8.50](https://doi.org/10.1073/pnas.21.8.50))
 
-* [[J. W. Alexander]], On the ring of a compact metric space, Proc. Nat. Acad. Sci. USA, 21(1935), 511–512.
+* [[J. W. Alexander]], _On the ring of a compact metric space_, Proc. Nat. Acad. Sci. USA, 21(1935), 511–512 ([doi:10.1073/pnas.21.8.511](https://doi.org/10.1073/pnas.21.8.511))
 
-* [[J. W. Alexander]], On the connectivity ring of an abstract space, Ann. of Math., 37 (1936), 698–708.
+* [[J. W. Alexander]], _On the connectivity ring of an abstract space_, Ann. of Math., 37 (1936), 698–708 ([doi:10.2307/1968484](https://doi.org/10.2307/1968484), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/alexcon.pdf))
 
 The term “cohomology” was introduced by [[Hassler Whitney]] in
 
-* [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45.  [doi](https://doi.org/10.1215/s0012-7094-37-00304-1).
+* {#Whitney37} [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45 ([doi:10.1215/S0012-7094-37-00304-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-3/issue-1/On-matrices-of-integers-and-combinatorial-topology/10.1215/S0012-7094-37-00304-1.short))
 
 See also
 
-* [[Hassler Whitney]], _On products in a complex_, Annals of Math. 39 (1938) 397–432.  [doi](https://doi.org/10.2307/1968795).
+* [[Hassler Whitney]], _On products in a complex_, Annals of Math. 39 (1938) 397–432 ([doi:10.2307/1968795](https://doi.org/10.2307/1968795))
 
-The general perspective on cohomology was essentially established in
+The general abstract perspective on cohomology as highlighted in the text above was essentially established in:
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ (1973)
 
-and apparently known in one form or other before that.
+but probably known in one form or other before that.
 
 This article establishes that 
 
