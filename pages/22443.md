@@ -38,7 +38,7 @@ This is different from but akin to other [[kernel methods|kernels]] used in [[ge
 
 Where the [[Mallows kernel]] is [[positive definite bilinear form|positive definite]] for all $\beta \geq 0$ ([Jiao-Vert 18, Thm. 1](Kendall+tau+distance#JiaoVert18)), the Cayley distance kernel becomes [[indefinite bilinear form|indefinite]], for sufficiently small non-integer values of $e^\beta$, see Example \ref{CayleyDistanceKernelOnSym3} and Prop. \ref{FailureOfPositivityForBetaBelowLn2} below.
 
-Curiously, computer experiment suggests ([CSS21](#CSS21)) that for *integer* values of $N \coloneqq e^\beta$ the Cayley distance kernel is always positive (semi-)definite, see Example \ref{CayleyDistanceKernelOnSym4}. At exactly these values the Cayley distance kernel equals ([CSS21](#CSS21)) the [[fundamental representation|fundamental]] $\mathfrak{gl}(N)$-[[Lie algebra weight system]] on [[horizontal chord diagrams]] (for the [[general linear Lie algebra]] $\mathfrak{gl}(n)$ regarded as a [[metric Lie algebra]] with the [[trace]] in its defining [[fundamental representation]], as in [Bar-Natan 95](stringy+weight+systems+span+classical+Lie+algebra+weight+systems#BarNatan95)) under the [[monoid]]-[[homomorphism]] 
+We prove below (following [CSS21](#CSS21)) that for *integer* values of $N \coloneqq e^\beta$ the Cayley distance kernel is always positive (semi-)definite, see Example \ref{CayleyDistanceKernelOnSym4}. At exactly these values the Cayley distance kernel equals ([CSS21](#CSS21)) the [[fundamental representation|fundamental]] $\mathfrak{gl}(N)$-[[Lie algebra weight system]] on [[horizontal chord diagrams]] (for the [[general linear Lie algebra]] $\mathfrak{gl}(n)$ regarded as a [[metric Lie algebra]] with the [[trace]] in its defining [[fundamental representation]], as in [Bar-Natan 95](stringy+weight+systems+span+classical+Lie+algebra+weight+systems#BarNatan95)) under the [[monoid]]-[[homomorphism]] 
 
 $$
   \array{
@@ -1001,6 +1001,7 @@ is a [[class function]] for all $\beta$, which is immediate by [Cayley's observa
 
 It thus follows from the general [character formula](Cayley+graph+spectrum#CharacterFormulaForCayleyGraphSpectra) and the [[representation theory of the symmetric group]] ([here](representation+theory+of+the+symmetric+group#IrreducibleRepresentations)) that:
 
+
 \begin{prop}\label{CharacterFormulaForEigenvalues}
 **(character formula for eigenvalues)** \linebreak
   The [[eigenvalues]] of the Cayley distance kernel $e^{- \beta \cdot d_C}$ on $Sym(n)$ are:
@@ -1024,23 +1025,147 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
  
    where $\chi^{(\lambda)}$ is the [[irreducible character]] corresponding to the $\lambda$th [[Specht module]].
 
-1. correspond to [[eigenvectors]] given by the [[complex conjugation|complex conjugate]] of the $(i,j)$-components, for fixed $i,j  \in \big\{1, \cdots, \chi^{(\lambda)}(e) \big\}$, of the $\lambda$th [[Specht module]] $\chi^{(\lambda)} \colon Sym(n) \to U\big(\chi^{(\lambda)}(e)\big)$ regarded for each [[permutation]] $\sigma$ as a [[unitary matrix]] $\big(chi^{(\lambda)}(\sigma)_{i,j}\big)_{i,j}$:
+1. correspond to [[eigenvectors]] given by the [[complex conjugation|complex conjugate]] of the $(i,j)$-components, for fixed $i,j  \in \big\{1, \cdots, \chi^{(\lambda)}(e) \big\}$, of the $\lambda$th [[Specht module]] $S^{(\lambda)} \colon Sym(n) \to U\big(\chi^{(\lambda)}(e)\big)$ regarded for each [[permutation]] $\sigma$ as a [[unitary matrix]] $\big(S^{(\lambda)}(\sigma)_{i,j}\big)_{i,j}$:
 
-   $$
+   \[
+     \label{EigenvectorsOfCayleyDistanceKernel}
+     \left\vert 
+       \lambda, (i,j)
+     \right\rangle
+     \;\coloneqq\;
      EigVects[e^{-\beta \cdot d_X}]_{\lambda, i, j}
      \;=\;
      \big(
-       \bar \rho^{(\lambda)}(\sigma)_{i j}
+       \bar S^{(\lambda)}(\sigma)_{i j}
      \big)_{\sigma \in Sym(n)}
      \;\;
      \in
      \;
      \mathbb{C}[Sym(n)]
-   $$
+     \,.
+   \]
  
 \end{prop}
 
 
+#### Dual basis
+ {#DualBasis}
+
+We make explicit the [[inner product]] with respect to which the Cayley distance kernel is a [[hermitian matrix]]:
+
+\begin{defn}\label{CartesianInnerProduct}
+**(Cartesian inner product)**
+
+Let 
+
+$$
+  \array{
+    \mathbb{C}[Sym(n)]
+    \times
+    \mathbb{C}[Sym(n)]
+    &
+    \overset{  
+      \;\;\;\;\;\;
+      \langle -,-\rangle
+      \;\;\;\;\;\;
+    }{
+      \longrightarrow
+    }
+    &
+    \mathbb{C}
+    \\
+    \Big(
+      \big(
+        v_1(\sigma)
+      \big)_{\sigma \in Sym(n)},
+      \;
+      \big(
+        v_2(\sigma')
+      \big)_{\sigma' \in Sym(n)}
+    \Big)
+    &
+      \mapsto
+    &
+    \underset{\sigma \in Sym(n)}{\sum}
+      \bar 
+      v_1(\sigma) 
+      \cdot 
+      v_2(\sigma)
+  }
+$$
+
+denote the [[sesquilinear form]] induced by the canonical [[linear basis]] of the [[linear span]] $\mathbb{C}[Sym(n)]$.
+
+\end{defn}
+
+\begin{prop}\label{DualEigenvectorBasis}
+**(dual eigenvector basis)**
+
+With respect to the Cartesian inner product from Def. \ref{CartesianInnerProduct}, the eigenvectors (eq:EigenvectorsOfCayleyDistanceKernel) from Prop. \ref{CharacterFormulaForEigenvalues} have a [[dual basis]] given by
+
+\[
+  \label{TheDualEigenvectorBasis}
+  \left\langle
+   \lambda, (i, j)
+  \right\vert
+  \;\coloneqq\;
+  \frac
+  {
+    \chi^{(\lambda)}(e)
+  }
+  {
+    n!
+  }
+  EigVects[e^{- \beta \cdot d_C}]_\lambda
+  \;=\;
+  \frac
+  {
+    \chi^{(\lambda)}(e)
+  }
+  {
+    n!
+  }
+  \big(
+    \bar S^{(\lambda)}_{i j}(\sigma)
+  \big)_{\sigma \in Sym(n)}
+  \,.
+\]
+\end{prop}
+Beware that the original eigenvector basis (eq:EigenvectorsOfCayleyDistanceKernel) already involves the [[complex conjugate]] $\bar S$ of component entries.
+
+\begin{proof}
+  This is a restatement of the [[Schur orthogonality relation]] for [[irreps]], here for the [[Specht modules]] $S^{(\lambda)}$:
+
+  We compute as follows:
+$$
+  \begin{aligned}
+    \big\langle
+      \lambda_1, (i_1, j_1)
+    \big\vert
+      \lambda_2, (i_2, j_2)
+    \big\rangle
+    & 
+    \;=\;
+    \frac{ \chi^{(\lambda_1)}(e) }{ n! }
+    \underset{\sigma \in Sym(n)}{\sum}
+    S^{(\lambda_1)}(\sigma)_{j_1 i_1}
+    \overline{
+      S^{(\lambda_2)}(\sigma)_{i_2 j_2}
+    }
+    \\
+    & \;=\;
+    \delta^{\lambda_1 \lambda_2}
+    \delta_{i_1 i_2} \delta_{j_1 j_2}
+    \,.
+  \end{aligned}
+$$
+
+Here the first step unwinds the definitions 
+(using (eq:TheDualEigenvectorBasis) and (eq:EigenvectorsOfCayleyDistanceKernel) in Def. \ref{CartesianInnerProduct}), 
+and the last step is the [[grand Schur orthogonality relation]] 
+([this equation](Schur+orthogonality+relation#eq:SchurOrthogonalityForIrreps)).
+
+\end{proof}
 
 
 \linebreak
@@ -1423,10 +1548,10 @@ Now to improve this to $q =3$: Since we may assume that at least $N \gt n-1$, we
 \end{proof}
 
 \begin{remark}
-  Computer-experiment suggests ([CSS21](#CSS21)) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $N$, at least, the inverse temperature $\beta \geq ln(N-1)$ is already sufficient for positive semi-definiteness.
+  Computer-experiment suggests ([CSS21](#CSS21), [Bar-Natan 21](#BarNatan21)) that the above bounds (Prop. \ref{ExplicitBoundForInverseTemperatureEnsuringPositivity}) are extremely loose: For the first few values of $N$, at least, the inverse temperature $\beta \geq ln(N-1)$ is already sufficient for positive semi-definiteness.
 \end{remark}
 
-
+\linebreak
 
 
 
