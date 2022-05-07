@@ -97,6 +97,9 @@ On the relation between AC and the well-ordering principle in general toposes se
 
 * J. Todd Wilson, "An Intuitionistic version of Zermelo's proof that every choice set can be well-ordered", J. Symbolic Logic, 66:3 (2001), 1121--1126; ([JSTOR](http://www.jstor.org/stable/2695096): paywalled), [formalization in the Lean Theorem Prover] (https://github.com/lambdacalculator/lean-choice).
 
+The proof that Zorn's Lemma doesn't imply excluded middle (and hence doesn't imply choice without assuming excluded middle):
+
+* {#Bell} J. L. Bell. Zorn’s lemma and complete Boolean algebras in intuitionistic type theories. The Journal of Symbolic Logic, 62(4):1265–1279, 1997. doi:10.2307/2275642.
 
 [[!redirects well-ordering theorem]]
 [[!redirects well-ordering principle]]
