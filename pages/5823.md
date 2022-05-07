@@ -8,10 +8,15 @@ He is currently based at Indiana University ([Home page](https://math.indiana.ed
 * _On certain enumeration problems in two-dimensional topology_ , 
 Math. Res. Lett.16(3) (2009), 515-529.
 
+Introducing the [[Reshetikhin-Turaev construction]]:
+
+* {#ReshetikhinTuraev91} [[Nikolai Reshetikhin]], [[Vladimir Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([doi:10.1007/BF01239527](https://doi.org/10.1007/BF01239527), [pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
+
 
 On [[knot theory]] and [[3-manifolds]]:
 
-*  *Quantum invariants of knots and 3-manifolds*, Second revised edition, de Gruyter Studies in Mathematics, vol. 18, Walter de Gruyter and Co., Berlin, 2010.
+* [[Vladimir Turaev]], _Quantum invariants of knots and 3-manifolds_, de Gruyter Studies in Mathematics **18** Walter de Gruyter & Co., Berlin, 1994 ([doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221))
+
 
 On  [[HQFT|homotopy quantum field theory]]:
 
