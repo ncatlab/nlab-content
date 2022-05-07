@@ -2,6 +2,7 @@
 * [webpage](http://maths.dur.ac.uk/~dma0pms/)
 
 
+
 ## Selected writings
 
 On [[Yang-Mills monopoles]]:
@@ -29,27 +30,24 @@ On [[Skyrmions]] via [[rational maps]] from the [[complex plane]], hence [[holom
 
 * [[Conor J. Houghton]], [[Nicholas Manton]], [[Paul Sutcliffe]], *Rational maps, monopoles and skyrmions*, Nucl. Phys. B510 (1998) 507-537 ([arXiv:hep-th/9705151](https://arxiv.org/abs/hep-th/9705151), <a href="https://doi.org/10.1016/S0550-3213(97)00619-6">doi:10.1016/S0550-3213(97)00619-6</a>)
 
-* [[Richard Battye]], [[Paul Sutcliffe]], *Skyrmions, Fullerenes and Rational Maps*, 	Rev. Math. Phys. 14 (2002) 29-86 ([arXiv:hep-th/0103026](https://arxiv.org/abs/hep-th/0103026))
+* [[Richard Battye]], [[Paul Sutcliffe]], *Skyrmions, Fullerenes and Rational Maps*, Rev. Math. Phys. 14 (2002) 29-86 ([arXiv:hep-th/0103026](https://arxiv.org/abs/hep-th/0103026))
+
+Introducing the [[Atiyah-Sutcliffe conjecture]]:
+
+* [[Michael F. Atiyah]], [[Paul M. Sutcliffe]], _The geometry of point particles_, Proc. Roy. Soc. London Ser. A 458 (2002), 1089–1115 ([hep-th/0105179](https://arxiv.org/abs/hep-th/0105179), [doi:10.1098/rspa.2001.0913](https://doi.org/10.1098/rspa.2001.0913))
 
 
 On [[skyrmions]] as [[model (in theoretical physics)|models]] of [[atomic nuclei]]:
 
 * {#BattyeMantonSutcliffe10} [[Richard A. Battye]], [[Nicholas Manton]], [[Paul Sutcliffe]], _Skyrmions and Nuclei_, pp. 3-39 (2010) ([doi:10.1142/9789814280709_0001](https://doi.org/10.1142/9789814280709_0001)) in:  [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
-including beyond the [[pion]] also the [[rho-meson]]:
-
+and including beyond the [[pion]] also the [[rho-meson]]:
 
 * {#NayaSutcliffe18a} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions and clustering in light nuclei_, Phys. Rev. Lett. 121, 232002 (2018) ([arXiv:1811.02064](https://arxiv.org/abs/1811.02064)) 
 
 * {#NayaSutcliffe18b} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions in models with pions and rho_, JHEP 05 (2018) 174 ([arXiv:1803.06098](https://arxiv.org/abs/1803.06098))
 
   APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
-
-
-[[Atiyah-Sutcliffe conjecture]] has origin in 
-
-* M. F. Atiyah, P. M. Sutcliffe, _The geometry of point particles_, Proc. Roy. Soc.
-London Ser. A 458 (2002), 1089–1115, [hep-th/0105179](https://arxiv.org/abs/hep-th/0105179) [doi](https://doi.org/10.1098/rspa.2001.0913)
 
 ## Related $n$Lab entries
 
@@ -60,4 +58,7 @@ London Ser. A 458 (2002), 1089–1115, [hep-th/0105179](https://arxiv.org/abs/he
 * [[atomic nucleus]]
 
 category: people
+
+[[!redirects Paul M. Sutcliffe]]
 [[!redirects P. M. Sutcliffe]]
+
