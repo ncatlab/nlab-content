@@ -30,7 +30,7 @@ $$\array{U & \to & * \\
   ^{B}\downarrow & \cong & \downarrow^{A}\\
   G & \underset{F}{\to} & Set}$$
 
-If $Set$ exists, it is typically called the __[[universe]] of [[set]]s__, a global element $F:G \rightarrow Set$ is typically called an [[indexed family]] and an element $A:* \rightarrow Set$ is typically called a set, where all these terms refer to the [[internalization|internal]] [[structural set theory]] of the (2,1)-category $C$. 
+If $Set$ exists, it is typically called the __[[universe]] of [[set]]s__, a global element $F:G \rightarrow Set$ is typically called an [[indexed family]] and an element $A:* \rightarrow Set$ is typically called a set, where all these terms refer to the [[internal set theory]] of the (2,1)-category $C$. 
 
 ## Examples
 
