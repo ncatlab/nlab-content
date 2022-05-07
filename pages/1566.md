@@ -25,6 +25,8 @@ Alternatively, just as a [[monoid]] can be seen as a [[category]] with one objec
 
 Commutative monoids with [[homomorphisms]] between them form a _[[category of commutative monoids]]_.
 
+Every commutative monoid has the canonical structure of a [[module]] over the commutative [[rig]] $\mathbb{N}$. That is, [[CMon]] = $\mathbb{N}$-[[Mod]].
+
 ### In any symmetric monoidal category
 
 
