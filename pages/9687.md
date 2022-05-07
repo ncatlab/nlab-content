@@ -215,9 +215,11 @@ Introductions and surveys:
 
 * Erhard Seiler, _The Confinement Problem_ ([pdf](http://physik.uni-graz.at/~dk-user/talks/Seiler20081113-14.pdf))
 
-* Wikipedia, _[Color confinement](http://en.wikipedia.org/wiki/Color_confinement)_
+* Roman Pasechnik, Michal Šumbera, *Different faces of confinement*, Universe 7 (2021) 9, 330 ([arXiv:2109.07600](https://arxiv.org/abs/2109.07600), [doi:10.3390/universe7090330](https://doi.org/10.3390/universe7090330))
 
-Discussion includes
+See also: 
+
+* Wikipedia, _[Color confinement](http://en.wikipedia.org/wiki/Color_confinement)_
 
 * _[What is Strongly-Coupled Quantum Chromodynamics?](https://ensnaredinvacuum.wordpress.com/2015/02/11/what-is-strongly-coupled-quantum-chromodynamics/)_
 
