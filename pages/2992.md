@@ -73,3 +73,4 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
 [[!redirects rational number]]
 [[!redirects rational numbers]]
 [[!redirects field of rational numbers]]
+[[!redirects rationals]]
