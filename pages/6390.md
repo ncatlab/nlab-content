@@ -79,7 +79,12 @@ That some [[particle]]s have a property called [[spinor|spin]] was found in 1922
 
 ### General 
 
-Discussion of worldline dynamics of spinning particles in background fields is for instance in:
+Lecture notes in view of application to [[perturbative quantum field theory]] via [[worldline formalism]]:
+
+* Olindo Corradini, [[Christian Schubert]], James P. Edwards, Naser Ahmadiniaz, *Spinning Particles in Quantum Mechanics and Quantum Field Theory* ([arXiv:1512.08694](https://arxiv.org/abs/1512.08694))
+
+
+Discussion of worldline dynamics of spinning particles in background fields:
 
 * J.W. van Holten, _Relativistic Dynamics of Spin in Strong
 External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
