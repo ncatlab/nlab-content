@@ -359,6 +359,24 @@ See also at [enriched category](enriched+category#internalization_versus_enrichm
 
 ## References
 
+The general definition of internal categories seems to have first been formulated in:
+
+* {#Grothendieck61} [[Alexander Grothendieck]], p. 106 (9 of 21) of: _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
+
+following the general principle of [[internalization]] formulated in
+
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 370 (3 of 23) in: *Technique de descente et théorèmes d'existence en géométrie algébriques. II: Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195 ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/SB_1958-1960__5__369_0), [pdf](http://www.numdam.org/item/SB_1958-1960__5__369_0.pdf))
+
+The concept of [[topological groupoids]] and [[Lie groupoids]] goes back to
+
+* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_, Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp. 137-150 ([[EhresmannCategoriesTopologiques.pdf:file]], [zbMath:0205.28202](https://zbmath.org/?q=an:0205.28202))
+
+and their understanding as categories internal to [[TopologicalSpaces]] and to [[SmoothManifolds]] is often attributed to
+
+* [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
+
+but it seems that the definition is not actually contained in there, certainly not in its simple and widely understood form due to [Grothendieck 61](#Grothendieck61).
+
 Survey and introduction with an eye towards [[Lie theory]]:
 
 * [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_, Banach Center Publications, vol. 76, Warsawa 2007, 87-157 ([arXiv:0711.1608](http://arxiv.org/abs/0711.1608), [doi:10.4064/bc76-0-5 ](https://www.impan.pl/en/publishing-house/banach-center-publications/all/76/0/86184/in-ehresmann-s-footsteps-from-group-geometries-to-groupoid-geometries))
@@ -375,13 +393,6 @@ and with emphasis on [[topos theory]]:
  
 * [[Saunders MacLane]], [[Ieke Moerdijk]], section V.7 of: _[[Sheaves in Geometry and Logic]]_
 
-The original concept of [[topological groupoids]] and [[Lie groupoids]] goes back to
-
-* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_, Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp. 137-150 ([[EhresmannCategoriesTopologiques.pdf:file]], [zbMath:0205.28202](https://zbmath.org/?q=an:0205.28202))
-
-and their understanding as categories internal to [[TopologicalSpaces]] and to [[SmoothManifolds]] may originate around:
-
-* [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
 The original proofs that the category of internal categories is [[cartesian closed category|cartesian closed]] when the ambient category is [[finitely complete category|finitely complete]] and [[cartesian closed category|cartesian closed]] are in
 
