@@ -115,7 +115,7 @@ $$
   \underoverset
     {
       \underset
-        {\;\;\; \mathbb{R} exp \;\;\;}
+        {\;\;\; \mathbb{R} exp_{PL} \;\;\;}
         {\longrightarrow}
     }
     {
@@ -151,7 +151,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
     \\
     X
     &\mapsto&
-    \mathbb{R}\exp \circ \Omega^\bullet_{PLdR}(X)
+    \mathbb{R}\exp_{PL} \circ \Omega^\bullet_{PLdR}(X)
     }    
   $$
 
@@ -161,7 +161,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
       {\eta_X^{der}}
       {rationalization}
       {\longrightarrow}
-    \mathbb{R}\exp \circ \Omega^\bullet_{PLdR}(X)
+    \mathbb{R}\exp_{PL} \circ \Omega^\bullet_{PLdR}(X)
   $$
 
 * on the [[full subcategories]] of nilpotent and finite rational homotopy types from Def. \ref{NilpotententFiniteRationalHomotopyTypes} it restricts to an [[equivalence of categories]]:
@@ -176,7 +176,7 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
     \underoverset
       {
         \underset
-          {\;\;\; \mathbb{R} exp \;\;\;}
+          {\;\;\; \mathbb{R} exp_{PL} \;\;\;}
           {\longrightarrow}
       }
       {
@@ -196,7 +196,131 @@ of the [[Quillen adjunction between simplicial sets and connective dgc-algebras]
 
 ([Bousfield-Gugenheim 76, Theorems 9.4 & 11.2](#BousfieldGugenheim76))
 
+## Change of scalars
+ {#ChangeOfScalars}
 
+Often it is desireable to work with dgc-algebras not over the [[rational numbers]] but over the [[real numbers]], because these relate to [[de Rham complex|de Rham theory]] (e.g.: [[the PL de Rham complex of a smooth manifold is equivalent to the de Rham complex]]). While a [[PL de Rham complex]]-[[Quillen adjunction]] $\Omega^\bullet_{\mathrm{P}\!k\!\mathrm{LdR}} \dashv \exp_{\mathrm{P}\!k\!\mathrm{L}}$ ("piecewise $k$-linear") exists over all [[ground fields]] $k$ of [[characteristic zero]], with induced [[derived adjunction]]
+
+$$
+  Ho
+  \Big(
+    \big(
+      DGCAlgebras^{\geq 0}_{k}
+    \big)^{op}_{proj}
+  \Big)
+  \underoverset
+    {\underset{\mathbb{R} exp_{\mathrm{P}\!k\!\mathrm{L}}}{\longrightarrow}}
+    {\overset{\mathbb{L} \Omega^\bullet_{\mathrm{P}\!k\!\mathrm{LdR}}}{\longleftarrow}}
+    {\bot}
+  Ho
+  \big(
+    SimplicialSets_{Qu}
+  \big)
+  \,,
+$$
+
+this does not model $k$-[[localization]] of [[homotopy type|spaces]] unless $k = \mathbb{Q}$. However, it does still relate to [[rationalization]] under [[extension of scalars]], given by the [[derived adjunction]] (via [this Prop.](model+structure+on+dg-algebras#ExtensionOfScalarsQuillenAdjunction))
+$$
+  Ho
+  \Big(
+    \big(
+      DGCAlgebras^{\geq 0}_{k}
+    \big)^{op}_{proj}
+  \Big)
+  \underoverset
+    {
+      \underset{
+        \mathbb{R}\big( (-)\otimes_{\mathbb{Q}}\mathbb{R} \big)
+      }{
+        \longrightarrow
+      }
+    }
+    {
+      \overset{
+        \mathbb{L} res_{\mathbb{Q}}
+      }{
+      \longleftarrow
+      }
+    }
+    {\bot}
+  Ho
+  \Big(
+    \big(
+      DGCAlgebras^{\geq 0}_{\mathbb{Q}}
+    \big)^{op}_{proj}
+  \Big)
+  \,,
+$$
+in that the following holds:
+
+\begin{proposition}
+  For $k$ be a [[field]] of [[characteristic zero]], the following [[diagram]] of [[derived functors]] [[commuting diagram|commutes]] up to [[natural isomorphism]]:
+
+\begin{tikzcd}
+    \mathrm{Ho}
+    \Big(
+      \big(
+        \mathrm{dgcAlg}^{\geq 0 }_{\color{blue}\mathbb{Q}}
+      \big)^{\mathrm{op}}_{\mathrm{proj}}
+    \Big)
+    \ar[
+      dd,
+      "{
+        \mathbb{R}
+        \big(
+          (-) \otimes_{\mathbb{Q}} \mathbb{R}
+        \big)
+      }"{left}
+    ]
+    &&
+    \;\;
+    \mathrm{Ho}
+    \big(
+      \mathrm{sSets}_{\mathrm{Qu}}
+    \big)^{\mathrm{fin}_{\mathbb{Q}}}
+    \ar[
+      ll,
+      "
+        \mathbb{L}
+        \Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{Q}}\mathrm{LdR}}
+      "{above}
+    ]
+    \ar[
+      dd,-,
+      shift right=1pt
+    ]
+    \ar[
+      dd,-,
+      shift left=1pt
+    ]
+    \\
+    \\
+    \mathrm{Ho}
+    \Big(
+    \big(   
+      \mathrm{dgcAlg}^{\geq 0}_{\color{blue}\mathbb{R}}
+    \big)^{\mathrm{op}}_{\mathrm{proj}}
+    \Big)
+    &&
+    \;\;
+    \mathrm{Ho}
+    \big(
+      \mathrm{sSets}_{\mathrm{Qu}}
+    \big)^{\mathrm{fin}_{\mathbb{Q}}}
+    \ar[
+      ll,
+      "
+        \mathbb{L}
+        \Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{R}}\mathrm{LdR}}
+      "{below}
+    ]
+\end{tikzcd}
+
+
+
+\end{proposition} 
+
+This is effectivley the statement of [Bousfield&Gugenheim 1976, Lem. 11.7](#BousfieldGugenheim76).
 
 ## Related concepts
 
