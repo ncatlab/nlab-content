@@ -176,6 +176,8 @@ $$
 
 ## Related concepts
 
+* [[G-CW approximation]]
+
 * [[equivariant Whitehead theorem]]
 
 * [[tom Dieck splitting]]
