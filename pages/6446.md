@@ -59,6 +59,9 @@ A [[theory]] is o-minimal if every model $M$ of $T$ is an o-minimal structure.
 * Thomas Scanlon, _Algebraic differential equations from covering maps_, Adv. Math. __330__ (2018) 1071-1100 [doi](https://doi.org/10.1016/j.aim.2018.03.008)
 * Benjamin Bakker, Yohan Brunebarbe, Jacob Tsimerman, _o-minimal GAGA and a conjecture of Griffiths_, [arxiv/1811.12230](https://arxiv.org/abs/1811.12230)
 
+* [[Reid Barton]], Johan Commelin, _Model categories for o-minimal geometry_ ([arXiv:2108.11952](https://arxiv.org/abs/2108.11952))
+
+
 [[!redirects O-minimal structure]]
 [[!redirects o-minimal structures]]
 [[!redirects order-minimal structure]]
