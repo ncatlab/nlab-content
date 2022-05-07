@@ -47,16 +47,9 @@ This is [[Higher Topos Theory|HTT, theorem 7.2.3.6]].
 
 ## Related concepts
 
-* [[dimension]]
+[[!include notions of dimension -- contents]]
 
-  * [[dimension of a cell complex]]
 
-  * [[homotopy dimension]]
 
-  * [[cohomology dimension]]
-
-  * **covering dimension**
-
-  * [[Heyting dimension]]
 
 [[!redirects covering dimensions]]
