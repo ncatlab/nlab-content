@@ -24,7 +24,7 @@
 An __adjoint triple__ (of [[functors]] between [[categories]] or generally of [[1-morphisms]] in a [[2-category]])
 
 $$
-  ( F\dashv G\dashv H) \colon C \longrightarrow D 
+  (F \dashv G \dashv H) \colon C \to D 
 $$
 
 is a [[triple]] of [[functors]]/morphisms $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$.   That is, it is an [[adjoint string]] of length 3.
@@ -43,7 +43,7 @@ $$
 
 =--
 
-This fact plays an important role in [Licata-Shulman, 5.1](#LicataShulman).  Relatedly, it also appears in the characterization of certain kinds of [[geometric morphism]] (e.g. the [[local geometric morphism|local]] ones) in terms of adjunctions in the 2-category [[Topos]].
+This fact plays an important role in [Licata--Shulman, 5.1](#LicataShulman).  Relatedly, it also appears in the characterization of certain kinds of [[geometric morphism]] (e.g. the [[local geometric morphism|local]] ones) in terms of adjunctions in the 2-category [[Topos]].
 
 It may be suggestive to denote this like so
 
@@ -76,29 +76,29 @@ The two adjunctions imply of course that $G$ preserves all [[limit]]s and [[coli
 Every adjoint triple 
 
 $$
-  (F \dashv G \dashv H) : C \to D
+  (F \dashv G \dashv H) \colon C \to D
 $$ 
 
 gives rise to an [[adjunction|adjoint pair]] 
 
 $$
-  (G F \dashv G H) : C \to C
+  (G F \dashv G H) \colon C \to C
 $$ 
 
-consisting of a [[monad]] $G F$ [[left adjoint]] to the [[comonad]] $G H$ on $C$;
-
-as well as an adjoint pair
+consisting of the [[monad]] $G F$ [[left adjoint]] to the [[comonad]] $G H$ on $C$;
+as well as to an adjoint pair
 
 $$
-   ( F G \dashv H G ) : D \to D
-   \,.
+   (F G \dashv H G) \colon D \to D
 $$
+
+consisting of the comonad $F G$ left adjoint to the monad $H G$ on $D$.
 
 =--
 
 See [[adjoint monad]] for more.
 
-In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoints and comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right adjoint comonad. (Theorems 5.8.1 and 5.8.2 in ([SGL](#SGL)).)
+In general there is a duality (an [[dual equivalence|antiequivalence of categories]]) between the categories of monads having right adjoints and of comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right-adjoint comonad. ([SGL, Theorems V.8.1 and V.8.2](#SGL))
 
 ### Fully faithful adjoint triples
  {#FullyFaithFulAdjointTriples}
@@ -113,15 +113,15 @@ For an adjoint triple $F\dashv G\dashv H$ we have that $F$ is [[full and faithfu
 +-- {: .proof}
 ###### Proof
 
-By a basic <a href="http://nlab.mathforge.org/nlab/show/adjoint+functor#FullyFaithfulAndInvertibleAdjoints">property</a> of [[adjoint functors]] we have that 
+By a basic [[adjoint functor#FullyFaithfulAndInvertibleAdjoints|property]] of [[adjoint functor]]s, we have that 
 
 * the [[left adjoint]] $F$ being full and faithful is equivalent to the [[unit of an adjunction|unit]] $Id \to G F$ being a [[natural isomorphism]];
 
 * the [[right adjoint]] $H$ being full and faithful is equivalent to the counit $G H \to Id$ being a [[natural isomorphism]].
 
-Moreover, by note \ref{AdjointPairFromAdjointTriple} and the fact that adjoints are unique up to isomorphism, we have that $G F$ is isomorphic to the identity precisely if $G H$ is. 
+Moreover, by Note \ref{AdjointPairFromAdjointTriple} and the fact that adjoints are unique up to isomorphism, we have that $G F$ is isomorphic to the identity precisely if $G H$ is. 
 
-Finally, by a standard fact about [[adjoint functor]]s (for instance ([Elephant, lemma 1.1.1](#Elephant)) $G H$ is isomorphic to the identity precisely if it is so by the [[unit of an adjunction|adjunction unit]].
+Finally, by a standard fact about [[adjoint functor]]s (see for instance ([Elephant, Lemma A1.1.1](#Elephant))), we have that $G H$ is isomorphic to the identity precisely if it is so by the [[unit of an adjunction|counit]].
 
 =--
 
@@ -205,37 +205,36 @@ The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps be
 
 Some remarks on adjoint triples are in
 
-* {#Johnstone} [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+* {#Johnstone} [[Peter Johnstone]], _Remarks on punctual local connectedness_, [tac/25-03](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html).
 
 
-The [[modal type theory]] of adjoint triples is discussed in 
+The [[modal type theory]] of adjoint triples is discussed in
 
-* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf))
+* {#LicataShulman} [[Dan Licata]] and [[Mike Shulman]], _Adjoint logic with a 2-category of modes_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf)).
+
 
 On spherical triples see
 
-* {#Anno} Rina Anno, _Spherical functors_, ([arxiv/0711.4409](http://arxiv.org/abs/0711.4409)).
-   
+* {#Anno} Rina Anno, _Spherical functors_, [arxiv/0711.4409](https://arxiv.org/abs/0711.4409).
 
-Generalities are in 
 
-* {#Elephant} [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
- 
+Generalities are in
+
+* {#Elephant} [[Peter Johnstone]], _[[Sketches of an Elephant]]_.
+
 
 Proofs of the folklore Proposition \ref{FullyFaithful} can be found in
 
 * {#DyckhoffTholen} Roy Dyckhoff and [[Walter Tholen]], "Exponentiable morphisms, partial products, and pullback complements", JPAA 49 (1987), 103--116.
- 
 
 * {#KellyLawvere} [[G.M. Kelly]] and [[F.W. Lawvere]], "On the complete lattice of essential localizations", Bulletin de la Soci&#233;t&#233; Math&#233;matique de Belgique, S&#233;rie A, v. 41 no 2 (1989) 289--319.
- 
 
-* {#SGL} [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, (1992) (Lemma 7.4.1).
- 
+* {#SGL} [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic|Sheaves in Geometry and Logic --- A First Introduction to Topos Theory]]_, Springer (1992), [doi](https://dx.doi.org/10.1007/978-1-4612-0927-0).
 
-Several lemmas concerning adjoint pairs and adjoint triples are included in 
 
-* [[Alexander Rosenberg]], _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125, [doi](http://dx.doi.org/10.1023/A:1000479824211)
+Several lemmas concerning adjoint pairs and adjoint triples are included in
+
+* [[Alexander Rosenberg]], _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125, [doi](https://dx.doi.org/10.1023/A:1000479824211)
 
 together with geometric consequences. Note a somewhat nonstandard usage of terminology continuous functor (also flatness in the paper includes having right adjoint).
 
