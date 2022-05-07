@@ -254,7 +254,7 @@ to that of [[semidirect product groups]] of the form $(-) \rtimes G$
     \big)
   \Big)
 \]
-and regarded as [[pointed objects]] in the [[slice category]] of [[Groups]] via the homomorphisms
+and regarded as [[pointed objects]] in the [[slice category]] of [[Groups]] over $G$ via the canonical homomorphisms
 \[
   \label{CoSliceMorphismsInOutOfSemidirectProductGroup}
   \array{
@@ -271,6 +271,7 @@ and regarded as [[pointed objects]] in the [[slice category]] of [[Groups]] via 
     \,.
   }
 \]
+(which jointly witness the semidirect product as a split group extension of $G$, see [there](group+extension#SplitExtensionsAndSemidirectProductGroups)).
 \end{prop}
 \begin{proof}
 This is a straightforward matter of unwinding the definitions:
@@ -644,7 +645,7 @@ In conclusion, $(R,\rho)$ is an action of the semidirect product group $\mathcal
 
 This implies immediately that the condition for a map $X \to X$ to be an action homomorphisms on both sides are the same. 
 
-And so the functor (eq:EquivalenceBetweenEquivariantActionsAndSemidirecProductActions) is in fact an [[isomorphism]] on both objects as well as morphisms, hence in particular an [[equivalence of categories]].
+And so the functor (eq:EquivalenceBetweenEquivariantActionsAndSemidirecProductActions) is in fact an [[isomorphism]] on both objects as well as morphisms, hence in particular is an [[equivalence of categories]].
 \end{proof}
 
 ## Related concepts
