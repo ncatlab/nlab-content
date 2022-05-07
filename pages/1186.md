@@ -72,19 +72,19 @@ That $\mathcal{C}$ is locally presentable is equivalent to each of the following
 
 1. There exists a [[combinatorial simplicial model category]] $A$ and and [[equivalence of (infinity,1)-categories]] $\mathcal{C} \simeq L_W A$ with the [[simplicial localization]] of $A$.
  
-   More explicitly: with $\mathcal{C}$ incarnated as a [[quasi-category]] there is [[equivalence of quasi-categories]] $ \mathcal{C} \simeq N(A^\circ)$ of $\mathcal{C}$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on [[fibrant object|fibrant]] and [[cofibrant objects]].
+   More explicitly: with $\mathcal{C}$ incarnated as a [[quasi-category]] there is an [[equivalence of quasi-categories]] $ \mathcal{C} \simeq N(A^\circ)$ of $\mathcal{C}$ with the [[homotopy coherent nerve]] of the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] of $A$ on [[fibrant object|fibrant]] and [[cofibrant objects]].
 
 1. $\mathcal{C}$ is [[accessible (infinity,1)-category|accessible]] and for every [[cardinal number|regular cardinal]] $\kappa$ the [[full sub-(∞,1)-category]] $\mathcal{C}^\kappa \hookrightarrow \mathcal{C}$ on the $\kappa$ [[compact object in an (∞,1)-category|compact objects]] admits $\kappa$-small [[(∞,1)-colimits]].
 
 
 1. There exists a [[cardinal number|regular cardinal]] $\kappa$ such that $\mathcal{C}$ is $\kappa$-[[accessible (infinity,1)-category|accessible]] and $C^\kappa$ admits $\kappa$-small [[limit in quasi-categories|colimits]];
 
-1. There exists a [[cardinal number|regular cardinal]] $\kappa$, a [[small (∞,1)-category]] $D$ with $\kappa$-small [[limit in quasi-categories|colimits]] and an equivalence $Ind_\kappa D \stackrel{\simeq}{\to} \mathcal{C}$ with the category of $\kappa$-[[ind-object]]s of $D$.
+1. There exists a [[cardinal number|regular cardinal]] $\kappa$, a [[small (∞,1)-category]] $D$ with $\kappa$-small [[limit in quasi-categories|colimits]] and an equivalence $Ind_\kappa D \stackrel{\simeq}{\to} \mathcal{C}$ with the category of $\kappa$-[[ind-objects]] of $D$.
 
 
 =--
 
-This is [Lurie, theorem 5.5.1.1](#Lurie), following ([Simpson](#Simpson)). 
+This is [Lurie, theorem 5.5.1.1](#Lurie), following [Simpson 99](#Simpson99), [Dugger 00](#Dugger00); review in [Cisinski 19, Thm. 7.11.16, Rem. 7.11.17](#Cisinski19).
 
 
 +-- {: .num_remark}
@@ -349,7 +349,7 @@ Notice that this makes the [[symmetric monoidal (∞,1)-category of presentable 
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-category $Alg_{(\infty,1)}(C)$ of algebras over $C$ regarded as an [[(∞,1)-algebraic theory]] is locally presentable.
+For $C$ an $(\infty,1)$-category with finite [[products]], the $(\infty,1)$-category $Alg_{(\infty,1)}(C)$ of algebras over $C$ regarded as an [[(∞,1)-algebraic theory]] is locally presentable.
 
 =--
 
@@ -366,20 +366,23 @@ For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-cate
 
 The theory of locally presentable $(\infty,1)$-categories was first implicitly conceived in terms of [[model category]] presentations in
 
-* {#Simpson} [[Carlos Simpson]],  _A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+* {#Simpson99} [[Carlos Simpson]],  _A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
  
 
-The full intrinsic $(\infty,1)$-categorical theory appears in section 5 
+The full intrinsic $(\infty,1)$-categorical theory appears in  
 
-* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Lurie} [[Jacob Lurie]], Section 5 of: _[[Higher Topos Theory]]_
  
+with section A.3.7 establishing the relation to [[combinatorial model categories]] and [[Dugger's theorem]] in [[Higher Topos Theory|HTT, prop A.3.7.6]].
 
-with section A.3.7 establishing the relation [[combinatorial model categories]] and [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) in [[Higher Topos Theory|HTT, prop A.3.7.6]]
+The statement of [[Dugger's theorem]] -- of which the characterization of locally presentable $(\infty,1)$-categories as localizations of $(\infty,1)$-presheaf categories is a variant -- is due to 
 
-The statement of [Dugger's theorem](combinatorial+model+category#DuggerTheorem) of which the characterization of locally presentable $(\infty,1)$-categories as localizations of $(\infty,1)$-presheaf categories is a variant is due to 
+* {#Dugger00} [[Dan Dugger]], _[[Combinatorial model categories have presentations]]_,  Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
 
-* {#Dugger}[[Dan Dugger]], _[[Combinatorial model categories have presentations]]_
- 
+Further textbook account:
+
+* {#Cisinski19} [[Denis-Charles Cisinski]], Section 7.11 in: _Higher category theory and homotopical algebra_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+
 
 
 
