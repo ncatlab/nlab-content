@@ -51,7 +51,7 @@ An [[object classifier]] is a (small) _self-reflection_ of the $(\infty, 1)$-top
  {#Definition}
 
 
-Let $\mathcal{C}$ be a [[(∞,1)-category]], and let $S$ be a class of [[1-morphisms]] of $\mathcal{C}$ which is stable under [[(∞,1)-pullback]]. Then an **$S$-classifier** is a [[terminal object in an (∞,1)-category|terminal object]] in the sub-category of arrows $\mathcal{C}^{\Delta^1}$ of $S$ whose morphisms are [[(∞,1)-pullback]] squares in $\mathcal{C}$.
+Let $\mathcal{C}$ be a [[(∞,1)-category]], and let $S$ be a class of [[1-morphisms]] of $\mathcal{C}$ which is stable under [[(∞,1)-pullback]]. Then an **$S$-classifier** is a [[terminal object in an (∞,1)-category|terminal object]] in the sub-[[arrow category|category of arrows]] $\mathcal{C}^{\Delta^1}$ of $S$ whose morphisms are [[(∞,1)-pullback]] squares in $\mathcal{C}$.
 
 Explicitly, an $S$-classifier consists of 
 
