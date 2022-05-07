@@ -1132,19 +1132,21 @@ Results on the classification of supersymmetry [[super Lie algebras]] (including
 
 * [[Riccardo D'Auria]], [[Sergio Ferrara]], M. A. Lled&#243;, [[Veeravalli Varadarajan]], _Spinor Algebras_, J.Geom.Phys. 40 (2001) 101-128 ([arXiv:hep-th/0010124](http://arxiv.org/abs/hep-th/0010124))
 
-Review includes
+Review include:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter II.2.2 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * {#Kac03} [[Victor Kac]], _Classification of supersymmetries_, Proceedings of the ICM, Beijing 2002, vol. 1, 319--344 ([arXiv:math-ph/0302016](http://arxiv.org/abs/math-ph/0302016))
-
-
 
 * {#Duff08} [[Michael Duff]], section A of _Near-horizon brane scan revived_, Nucl. Phys. B810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
 
 For more on this see at _[[super Poincaré Lie algebra]]_.
 
+
+On holomorphically [[topological twist|twisted]] [[superconformal algebras]]:
+
+* [[Ingmar Saberi]], [[Brian Williams]], *Superconformal algebras and holomorphic field theories* ([arXiv:1910.04120](https://arxiv.org/abs/1910.04120))
 
 
 
@@ -1199,12 +1201,16 @@ Remembering that there is a considerable difference between global low energy su
 
 * {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
 
+
  
 [[!redirects supersymmetries]]
-[[!redirects Supersymmetry]]]
+[[!redirects Supersymmetry]]
 
 [[!redirects supersymmetry algebra]]
 [[!redirects supersymmetry algebras]]
+
+[[!redirects superconformal algebra]]
+[[!redirects superconformal algebras]]
 
 
 [[!redirects local supersymmetry]]
@@ -1216,3 +1222,4 @@ Remembering that there is a considerable difference between global low energy su
 [[!redirects supersymmetric]]
 
 [[!redirects supersymmetric quantum field theory]]
+
