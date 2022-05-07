@@ -56,12 +56,13 @@ With [[Bott periodicity]] 8.
 
 ### General
 
-The [[differential K-theory]] for KO is discussed in
+On the [[differential K-theory]] for KO:
 
 * {#GradySati18} [[Daniel Grady]], [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_, Advances in Mathematics Volume 384, 25 June 2021, 107671 ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059), [doi:10.1016/j.aim.2021.107671](https://doi.org/10.1016/j.aim.2021.107671))
 
+* [[Kiyonori Gomi]], Mayuko Yamashita, *Differential KO-theory via gradations and mass terms* ([arXiv:2111.01377](https://arxiv.org/abs/2111.01377))
 
-The full [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] is discussed in
+On the full [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]]:
 
 * {#GradySati19} Daniel Grady, [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
