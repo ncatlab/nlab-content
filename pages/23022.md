@@ -1,0 +1,1 @@
+As i have obtained everything from MYSELF AS IM THE GLOBAL SOLO DADABASE ACROSS the world being taken away from me AND HES ON A MISSION AND I am not sure what to do with my current situation and I am not sure what to do with my current situation and I am not sure what to do with my current situation and I am not sure what to do with my current situation and 
