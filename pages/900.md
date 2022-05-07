@@ -202,7 +202,8 @@ The form of [[shape theory]] developed by  [[Sibe Mardesic|Marde&#353;i&#263;]] 
 
 ## References
 
-* [[Alexander Grothendieck]], _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960, [(pdf)](http://archive.numdam.org/article/SB_1958-1960__5__369_0.pdf).
+* [[Alexander Grothendieck]], Section A.2 of: *Technique de descente et théorèmes d'existence en géométrie algébriques. II. Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195, 22 p.  ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/?id=SB_1958-1960__5__369_0))
+
 
 
 * (SGA4-1) [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Pr&#233;faisceaux_, Exp. 1 ([retyped pdf](http://www.math.polytechnique.fr/~orgogozo/SGA4/01/01.pdf)) in _Th&#233;orie des topos et cohomologie &#233;tale des sch&#233;mas. Tome 1: Th&#233;orie des topos_, S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois-Marie 1963&#8211;1964 ([[SGA 4]]). Dirig&#233; par M. Artin, A. Grothendieck, et J. L. Verdier. Avec la collaboration de N. Bourbaki, P. Deligne et B. Saint-Donat. Lecture Notes in Mathematics __269__, Springer 1972. [pdf of SGA 4, Tome 1](http://www.iecn.u-nancy.fr/~gaillapy/SGA/grothendieck_sga_4.1.pdf)
