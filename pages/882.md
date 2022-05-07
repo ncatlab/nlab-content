@@ -6,12 +6,16 @@
 +-- {: .hide}
 [[!include relations - contents]]
 =--
+#### (0,1)-categoty theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
 =--
 =--
+=--
 
+A __transitive relation__ is a [[semicategory]] or [[magmoid]] $A$ such that for all objects $a$ and $b$ in $A$, there are no more than one morphism with domain $a$ and codomain $b$. Equivalently, a transitive relation is a semicategory or magmoid [[enriched category|enriched]] on [[truth values]]. 
 
-
-A (binary) [[relation]] $\sim$ on a set $A$ is __transitive__ if in every chain of $3$ pairwise related elements, the first and last elements are also related:
+[[set theory|Set theoretically]], a (binary) [[relation]] $\sim$ on a [[set]] $A$ is __transitive__ if in every chain of $3$ pairwise related elements, the first and last elements are also related:
 $$\forall (x, y, z: A),\; x \sim y \;\wedge\; y \sim z \;\Rightarrow\; x \sim z$$
 which generalises from $3$ to any finite, positive number of elements.
 
