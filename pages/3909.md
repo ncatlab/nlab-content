@@ -508,7 +508,7 @@ The relation to [[self-dual Yang-Mills theory]] is due to
 * {#Ward77} R. S. Ward, _On Selfdual gauge fields_, Phys. Lett. A61 (1977) 81-82.
  
 
-Introductions and surveys include
+Introductions and surveys:
 
 * [[Yuri Manin]], chapters 1 and 2 of _[[Gauge Field Theory and Complex Geometry]], Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
 
@@ -533,6 +533,9 @@ Introductions and surveys include
 * L. J. Mason, N. M. J. Woodhouse, _Integrability, self-duality and twistor theory_, OUP 1996
 
 * R. S. Ward, R. O. Wells, Jr. _Twistor geometry and field theory_, Cambridge Univ. Press 1990
+
+* [[Roger Penrose]], *Twistor Theory: A Geometric Perspective for Describing the Physical World* ([doi:10.1017/9781108854399.011](https://doi.org/10.1017/9781108854399.011)), chapter in: [[Gabriel Catren]], [[Mathieu Anel]] (eds.) *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) ([doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
+
 
 Review of the application in [[super Yang-Mills theory]] includes
 
