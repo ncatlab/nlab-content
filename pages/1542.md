@@ -70,7 +70,7 @@ $$
     \underoverset
       {pr_2}
       {pr_1}
-      {\rightrightarrows}
+      {\rightrightarrows} G
   \big)
   \;\;
    \simeq
