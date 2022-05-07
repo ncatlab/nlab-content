@@ -61,12 +61,13 @@ See also:
 
 * Aritra Ghosh, Chandrasekhar Bhamidipati, _Thermodynamic geometry and interacting microstructures of BTZ black holes_ ([arXiv:2001.10510](https://arxiv.org/abs/2001.10510))
 
-* Roberto Emparan, Antonia Micol Frassino, Benson Way, _Quantum BTZ black hole_ ([arXiv:2007.15999](https://arxiv.org/abs/2007.15999))
+* [[Roberto Emparan]], Antonia Micol Frassino, Benson Way, _Quantum BTZ black hole_, JHEP11 (2020) 137 ([arXiv:2007.15999](https://arxiv.org/abs/2007.15999))
 
+* Pablo Bueno, Pablo A. Cano, Javier Moreno, Guido van der Velde, *Regular black holes in three dimensions* ([arXiv:2104.10172](https://arxiv.org/abs/2104.10172))
 
 In view of the [[cosmic censorship hypothesis]]:
 
-* Roberto Emparan, Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_ ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
+* [[Roberto Emparan]], Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_, JHEP 06 (2020) 038 ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
 
 Via [[topological M-theory]]:
 
