@@ -36,11 +36,11 @@ A _tetraquark_ is an [[exotic meson]] which is a [[bound state]] of four [[quark
 
 The idea of tetraquarks is mentioned already in the original articles on [[quarks]].
 
-The original proposal for tetraquarks with two [[heavy quark]] constitutents:
+The original proposal for tetraquarks with two [[heavy quark]] [[constitutent quark|constitutents]]:
 
 * J.P. Ader,  J.M. Richard, P. Taxil, *Do narrow heavy multiquark states exist?*, Phys. Rev. D 25 (1982) 2370 ([doi:10.1103/PhysRevD.25.2370](https://doi.org/10.1103/PhysRevD.25.2370), [spire:166170](https://inspirehep.net/literature/166170))
 
-and fully heave tetraquarks:
+and fully heavy tetraquarks:
 
 * L. Heller and J. A. Tjon, *Bound states of heavy *Q^2 Q^{-2}* systems*, Phys. Rev. D **32** (1985) 755 ([doi:10.1103/PhysRevD.32.755](https://doi.org/10.1103/PhysRevD.32.755))
     
@@ -63,6 +63,8 @@ in regards to experimental results:
 ### Experimental detection
  {#ExperimentalDetection}
 
+#### Fully charmed tetraquark
+
 [[experiment|Experimental]] detection of a tetraquark resonance $X(6900)$ made entirely of four [[charm quarks]] and argued to be the first observed "true" tetraquark state (instead of just a "[[diquark]] molecule"):
 
 * [[LHCb collaboration]], *Observation of structure in the $J/\psi$-pair mass spectrum*, Science Bulletin 65 (2020) 1983 ([arXiv:2006.16957](https://arxiv.org/abs/2006.16957), [doi:10.1016/j.scib.2020.08.032](https://doi.org/10.1016/j.scib.2020.08.032), [CERN news](https://phys.org/news/2020-07-cern-physicists-discovery-unique-particle.html))
@@ -82,6 +84,17 @@ reviewed in:
 * [[Jean-Marc Richard]], *About the $J/\psi$ $J/\psi$ peak of LHCb: fully-charmed tetraquark?*, Science Bulletin Volume 65, Issue 23, 15 December 2020, Pages 1954-1955 ([arXiv:2008.01962](https://arxiv.org/abs/2008.01962), [doi:10.1016/j.scib.2020.08.020](https://doi.org/10.1016/j.scib.2020.08.020))
 
 * [[Jean-Marc Richard]], *Fully-heavy tetraquarks and other heavy multiquarks*, Nuclear and Particle Physics Proceedings 00 (2021) 1–5 ([arXiv:2105.02503](https://arxiv.org/abs/2105.02503))
+
+
+#### $T_{c c}$ tetraquark
+
+Indication of a tetraquark $c c \bar u \bar d$ with two [[charm quarks]], and [[anti-particle|anti]]-[[up quark]] and an [[anti-particle|anti]]-[[down quark]]:
+
+* [[LHCb collaboration]], *Observation of an exotic narrow doubly charmed tetraquark* ([arXiv:2109.01038](https://arxiv.org/abs/2109.01038))
+
+* [[LHCb collaboration]], *Study of the doubly charmed tetraquark $T^+_{c c}$* ([arXiv:2109.01056](https://arxiv.org/abs/2109.01056))
+
+
 
 
 [[!redirects tetraquarks]]
