@@ -9,6 +9,9 @@ On [[naturalness]]:
 
 * {#Wells18} [[James Wells]], _Finetuned Cancellations and Improbable Theories_ ([arXiv:1809.03374](https://arxiv.org/abs/1809.03374))
 
+
+* [[James Wells]], *Evaluation and Utility of Wilsonian Naturalness* ([arXiv:2107.06082](https://arxiv.org/abs/2107.06082))
+
 On [[split supersymmetry]]:
 
 * [[James Wells]], _Implications of Supersymmetry Breaking with a Little Hierarchy between Gauginos and Scalars_,  Proceedings of [SUSY 2003](http://www.physics.arizona.edu/susy2003/) ([arXiv:hep-ph/0306127](https://arxiv.org/abs/hep-ph/0306127))
