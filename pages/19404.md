@@ -38,7 +38,7 @@ For more on this see at _[[group actions on n-spheres]]_.
 ### 7-dim spherical space forms with $Spin$-structure
  {#7DSphericalSpaceFormsWithSpinStructure}
 
-For $n =7$ all the groups $G$ in [Wolf's classification](#Wolf74) [[action|act]] as [[subgroups]] of [[special orthogonal group|SO(8)]], the latter equipped with its defining action on $\mathbb{R}^8$ restricted to the action on $S^7 = S(\mathbb{R}^8) \subset \mathbb{R}^8$.
+For $n =7$ all the groups $G$ in [Wolf's classification](#Wolf74) [[action|act]] as [[subgroups]] of [[special orthogonal group|SO(8)]], the latter equipped with its defining action on $\mathbequib{R}^8$ restricted to the action on $S^7 = S(\mathbb{R}^8) \subset \mathbb{R}^8$.
 
 Therefore one may consider the [[lift]] $\widehat{G}$ of these [[subgroups]] to subgroups of the [[spin group]] $Spin(8) \to SO(8)$ through the [[double cover]]-projection. Such a lift corresponds to a choice of [[spin structure]] on the [[spherical space form]] $S^7/G$.  These Spin-lifts $\widehat{G}$, have been classified in ([Gadhia 07](#Gadhia07)).
 
@@ -89,17 +89,124 @@ This analysis applies to the classification of the [[near horizon geometry]] of 
 
 These are the [[Cartesian product]] $AdS_4 \times (S^7/G)$ of 4-[[dimension|dimensional]] [[anti de Sitter spacetime]] with a 7-[[dimension|dimensional]] [[spherical space form]] $S^7/G$ with [[spin structure]] and $N \geq 4$, as above ([MFFGME 09](#MFFGME09)).
 
-## References
+## Properties
 
-* {#Killing1891} [[Wilhelm Killing]], _Ueber die Clifford-Klein’schen Raumformen_, Math. Ann. 39 (1891), 257–278
+### Higher gerbes on spherical space forms
+
+Let $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$ be a [[finite group]] equipped with a [[continuous function|continuous]] [[free action]] on the [[n-sphere]] $S^{n+2}$ for some $n \in \mathbb{N}$. We write
+
+\[
+  \label{CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms}
+  S^n
+  \overset{\; q \;}{\twoheadrightarrow}
+  S^n/G
+  \;\;\;
+  \in
+  \;
+  TopSp
+\]
+
+for the [[quotient space]] [[coprojection]] onto the corresponding [[spherical space form]].
+
+Moreover, let $\Gamma \,\in\, Grp(TopSp)$ be a [[topological group]] whose [[underlying]] [[homotopy type]] is a [[homotopy n-type]], hence [[n-truncated object of an (infinity,1)-category|n-truncated]].
+
+$$
+  \tau_n Shp(\Gamma) \,\simeq\, Shp(\Gamma)
+  \;\;\;
+  \in
+  \;
+  Grp_\infty
+  \,.
+$$
+
+This implies that its [[classifying space]] $B \Gamma \,\simeq\, Shp( \left\vert \Gamma \rightrightarrows \ast \right\vert  )$ is an $(n+1)$-type
+
+$$
+  \tau_{n+1} Shp(\Gamma) \,\simeq\, Shp(\Gamma)
+  \;\;\;
+  \in
+  \;
+  Grp_\infty
+$$
+
+and hence that every $\Gamma$-principal bundle on $S^n$ is [[isomorphism|isomorphic]] to the [[trivial bundle]]:
+
+\[
+  \label{UniqueGerbesOnNSphere}
+  \tau_0 \Gamma PrnBdl(TopSp)_X
+  \;\;
+  \simeq
+  \;\;
+  Maps
+  \big(
+    Shp(S^n) 
+    ,\,
+    B \Gamma
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \ast
+  \,.
+\]
+
+Here we write 
+
+$$
+  \array{
+    Grp(TopSp)
+    &
+    \xrightarrow{\; Dtoplg \;}
+    &
+    Grp(DiffSp)  
+    &
+    \xrightarrow{\;}
+    &
+    Grpd(SmthGrp_{\infty})
+    &
+    \xrightarrow{\;}
+    &
+    SmthGrp_\infty
+    \\
+    \Gamma \rightrightarrows \ast
+    &&
+    &\mapsto&
+    &&
+    \mathbf{B}\Gamma
+  }
+$$
+
+for the [[delooping groupoid]] of $\Gamma$, regarded as a [[topological groupoid]], and for its associated [[D-topological space|D-]][[topological stack]].
+
+
+According to (eq:UniqueGerbesOnNSphere), every $\Gamma$-[[principal bundle]] on the spherical space form $S^n/G$ trivializes when [[pullback bundle|pulled back]] along the coprojection $q$ (eq:CoprojectionInDiscussionOfGerbesOnSphericalSpaceForms). The corresponding [[Cech cohomology|Cech cocycle]] is a [[topological functor]]
+
+out of the [[action groupoid]] $S^n \times G \rightrightarros X$ of $G$ acting on $S^n$ into the [[delooping groupoid]] $\Gamma \rightrightarrows \ast$:
+
+(...)
+
+
+## Literature
+
+Historical articles
+
+* {#Killing1891} [[Wilhelm Killing]], _Ueber die Clifford-Klein’schen Raumformen_, Math. Ann. 39 (1891), 257–278 ([doi:10.1007/BF01206655](https://doi.org/10.1007/BF01206655))
+
+Solution of the classification problem:
 
 * {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Publish or Perish, Boston, Third ed., 1974
+
+Review:
+
+* Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXivL:1412.8187](https://arxiv.org/abs/1412.8187))
+
+
+Discussion for the [[7-sphere]] with application to [[near horizon geometries]] of [[M2-brane]]:
 
 * {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 * {#Gadhia07} [[Sunil Gadhia]], _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007 ([spire:1393845](http://inspirehep.net/record/1393845/))
 
-* Ian Hambleton, _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXivL:1412.8187](https://arxiv.org/abs/1412.8187))
 
 
 * {#Allock15} Daniel Allcock, _Spherical space forms revisited_ ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906))
