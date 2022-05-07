@@ -302,7 +302,7 @@ A general account is for instance in section 9.6 of
 
 The characterization of weak homotopy equivalences by lifts up to homotopy seems is in
 
-* [[Rick Jardine]], _Simplicial Presheaves_, Journal of Pure and Applied Algebra 47, 1987, no.1, 35-87.
+* [[J. F. Jardine]], _Simplicial Presheaves_, Journal of Pure and Applied Algebra 47, 1987, no.1, 35-87.
  {#Jardine}
 
 * [[Rainer Vogt]], _The HELP-Lemma and its converse in Quillen model categories_ ([arXiv:1004.5249](http://arxiv.org/abs/1004.5249))
