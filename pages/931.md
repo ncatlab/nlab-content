@@ -91,7 +91,6 @@ Thus a trivialisation of a torsor equips with it a _choice_ of group structure a
 
 Torsors can be transported, or in other words pushed forward, along group homomorphisms, as we shall now show.
 
-
 \begin{prpn} Let $h : G_1 \rightarrow G_2$ be a [[homomorphism|group homomorphism]], and let $\underline{T} = \left( T, a \right)$ be a $G_1$-torsor. Observe that $\left(g_1, g_2, t \right) \mapsto \left( g_2 \cdot h(g_1)^{-1}, a(g_1, t) \right)$ defines an action $G_1 \times G_2 \times T \rightarrow G_2 \times T$ of $G_1$ on $G_2 \times T$. Then $\left(G_2 \times T \right) / G_1$, the quotient of $G_2 \times X$ with respect to this $G_1$-action, defines a $G_2$-torsor with respect to the action of $G_2$ induced by left multiplication, namely that given by $\left( g, \left[ (g', t') \right] \right) \mapsto \left[ \left(g g', t' \right) \right]$, where $\left[ p \right]$, for some $p \in G_2 \times T$, denotes the orbit of $p$ with respect to the action of $G_1$ on $G_2 \times T$. \end{prpn}
 
 \begin{proof} We shall demonstrate that the map 
@@ -104,13 +103,13 @@ $$\left( (g, t), \left[ (g', t') \right] \right) \mapsto \left( g\left(g'\right)
 
 induces a map 
 
-$$\overline{i} : \left( \left( G_2 \times T \right) / G_1 \right) \times \left( \left( G_2 \times T \right) / G_1 \right) \rightarrow G_2 \times \left( \left( G_2 \times T \right) / G_1 \right),$$
+$$\overline{i} : \left( \left( G_2 \times T \right) / G_1 \right) \times \left( \left( G_2 \times T \right) / G_1 \right) \rightarrow G_2 \times \left( \left( G_2 \times T \right) / G_1 \right).$$
 
-that is it respects, in its left factor, the passage to the quotient by the action of $G_1$.
+That is, it respects, in its left factor, the passage to the quotient by the action of $G_1$.
 
 Suppose indeed that we have $(g, t) \in G_2 \times T$ and $\left( g_1, g'', t'' \right) \in G_1 \times G_2 \times T$ such that $(g, t) = \left( g'' \cdot h(g_1)^{-1}, a(g_1, t'') \right)$. We make the following observations.
 
-1. $\left(g'' \cdot h(g_1)^{-1} \right) \left(g'\right) ^{-1} = g'' \left( g' h(g_1) \right)^{-1}$
+1. $g''  h(g_1)^{-1} \left(g'\right) ^{-1} = g'' \left( g' h(g_1) \right)^{-1}$
 1. $\left[ (g', t') \right] = \left[ \left( g' h\left(g_1^{-1}\right)^{-1}, a(g_1^{-1}, t') \right) \right] = \left[ \left( g' h(g_1), a\left(g_1^{-1}, t'\right) \right) \right]$
 
 Putting these together, we obtain that
@@ -126,17 +125,17 @@ $$
 
 as required.
 
-We now observe that $\overline{i}$ defines an inverse to $a \times p_{2}$, where $a$ is the action of $G_2$ on $\left( G_2 \times T \right) / G_1$ induced by left multiplication, and $p_2$ is the projection map $G_2 \times \left( \left( G_2 \times T \right) / G_1 \right) \rightarrow \left( \left( G_2 \times T \right) / G_1 \right)$. Indeed, for any $g, g' \in G_2$ and $t \in T$, we have that 
+We now observe that $\overline{i}$ defines an inverse to $a' \times p_{2}$, where $a'$ is the action of $G_2$ on $\left( G_2 \times T \right) / G_1$ induced by left multiplication, and $p_2$ is the projection map $G_2 \times \left( \left( G_2 \times T \right) / G_1 \right) \rightarrow \left( \left( G_2 \times T \right) / G_1 \right)$. In one direction, for any $g, g' \in G_2$ and $t \in T$, we have that 
 
 $$\overline{i}\left( \left[ \left(g' g, t \right) \right], \left[ \left( g, t \right) \right] \right) = \left( g' g g^{-1}, \left[ \left( g, t \right) \right] \right) = \left( g', \left[ \left( g, t \right) \right] \right),$$ 
 
-as required, and similarly we have that $a \times p_2$ applied to 
+as required. In the other direction, suppose that we have $\left( \left[ \left(g, t \right) \right], \left[ \left( g', t' \right) \right] \right) \in \left( \left( G_2 \times T \right) / G_1 \right) \times \left( \left( G_2 \times T \right) / G_1 \right)$. Since the map $a \times p_2 : G_1 \times T \rightarrow T \times T$ is an isomorphism, there is a $g_1 \in G_1$ such that $t' = a(g_1, t)$, and we have that $\left[ \left(g, t \right) \right] = \left[ \left( g h(g_1)^{-1}, t' \right) \right]$. We then have that $a' \times p_2$ applied to 
 
-$$\overline{i}\left( \left[ \left(g, t \right) \right], \left[ \left( g', t' \right) \right] \right) = \left( g \left(g'\right)^{-1}, \left[ \left( g', t' \right) \right] \right)$$ 
+$$\overline{i}\left( \left[ \left(g, t \right) \right], \left[ \left( g', t' \right) \right] \right) = \overline{i}\left( \left[ \left(g h(g_1)^{-1}, t' \right) \right], \left[ \left( g', t' \right) \right] \right) =  \left( g h(g_1)^{-1} \left(g'\right)^{-1}, \left[ \left( g', t' \right) \right] \right)$$ 
 
-gives 
+is
 
-$$\left( \left[ \left(g \left( g' \right)^{-1} g', t' \right) \right],  \left[ \left( g', t' \right) \right] \right) = \left( \left[ \left(g, t \right) \right], \left[ \left( g', t' \right) \right] \right),$$
+$$\left( \left[ \left(g h(g_1)^{-1} \left( g' \right)^{-1} g', t' \right) \right],  \left[ \left( g', t' \right) \right] \right) = \left( \left[ \left(g h(g_1)^{-1}, t' \right) \right], \left[ \left( g', t' \right) \right] \right) = \left( \left[ \left(g, t \right) \right], \left[ \left( g', t' \right) \right] \right),$$
 
 as required.
 
