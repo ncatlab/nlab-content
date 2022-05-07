@@ -24,7 +24,7 @@ Tensoring with $k$ is a right exact functor, so we have an exact sequence
 
 $$k \otimes_R N \stackrel{k \otimes_R f}{\to} k \otimes_R M \to k \otimes_R M/N \to 0.$$ 
 
-Nakayama's lemma says that if $k \otimes_R M/N \cong 0$, then $M/N \cong 0$. Equivalently, that if $k \otimes_R f$ is epic, then $f$ is epic. In particular, to check whether a finite set of elements $v_1, \ldots, v_n$ generates $M$, it suffices to check whether the residue classes $v_i mod \mathfrak{m}M$ generate the vector space $M/\mathfrak{m}M$, which is a linear algebra calculation. 
+Nakayama's lemma says that if $k \otimes_R M/N \cong 0$, then $M/N \cong 0$. Equivalently, that if $k \otimes_R f$ is epic, then $f$ is epic. In particular, to check whether a finite set of elements $v_1, \ldots, v_n$ generates $M$, it suffices to check whether the residue classes $v_i \mod \mathfrak{m}M$ generate the vector space $M/\mathfrak{m}M$, which is a linear algebra calculation. 
 
 +-- {: .num_remark} 
 ###### Example 
