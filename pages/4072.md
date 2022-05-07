@@ -84,9 +84,13 @@ how a category with equalizers and all small products has all [[small limits]].
 \end{remark}
 
 \begin{remark}\label{LFiniteLimits}
+**([[saturation of a class of limits|saturation]] to [[L-finite limits]])**
+\linebreak
 Prop. \ref{FiniteLimitsFromPullbacksAndTerminalObject} implies that finite limits are contained in the [[saturation of a class of limits|saturation]] of the class containing only [[finite products]] and [[equalizers]], and also that of the class containing only [[pullbacks]] and [[terminal objects]].  
 
-But the existence of finite limits in fact implies that of the larger class of [[L-finite limits]], and this is the largest class of limits implied by the existence of finite limits. Therefore [[L-finite limits]] constitute the full [[saturation of a class of limits|saturation class]] of both equalizers+finite products as well as pullbacks+terminal objects.
+But the existence of finite limits in fact implies that of the larger class of [[L-finite limits]], and this is the largest class of limits implied by the existence of finite limits ([Paré 1990, Prop 7](#Pare90), see [there](L-finite+category#CharacterizationsOfLFiniteLimits)). 
+
+Therefore Prop. \ref{FiniteLimitsFromPullbacksAndTerminalObject} implies that [[L-finite limits]] constitute also the full [[saturation of a class of limits|saturation class]] of both equalizers+finite products as well as pullbacks+terminal objects.
 \end{remark}
 
 
@@ -103,6 +107,9 @@ Textbook account:
 * {#Borceux94} [[Francis Borceux]], around Def. 2.8.2 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
+On the saturation to [[L-finite limits]]:
+
+* {#Pare90} [[Robert Paré]], Section 3 of: *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746 ([doi:10.4153/CJM-1990-038-6](https://doi.org/10.4153/CJM-1990-038-6))
 
 
 [[!redirects finite limits]]
