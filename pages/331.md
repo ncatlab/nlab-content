@@ -191,7 +191,10 @@ Textbooks on mathematical logic:
 
 * [[Pierre Cartier]], _Logique, cat&#233;gories et faisceaux_, S&#233;minaire Bourbaki, 20 (1977-1978), Exp. No. 513, 24 p. ([numdam]( http://www.numdam.org/item?id=SB_1977-1978__20__123_0))
 
-* [[Lambek]], J.; [[Philip Scott|Scott]], P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
+* {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], _Introduction to higher order categorical logic_, Cambridge Studies in Advanced Mathematics 7 (1986) ([ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534))
+
+
+
 
 * [[Jim Lambek]], [[Phil Scott]], _Reflections on the categorical foundations of mathematics_ ([pdf](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf))
 
