@@ -98,7 +98,11 @@ According to Baues, Moore spaces are $H \pi$-duals to Eilenberg--Mac Lane spaces
 Just as there is a [[Postnikov decomposition]] of a space as a tower of fibrations, so there is a [[Moore decomposition]] as a tower of cofibrations.
 
 
+## Related concepts
 
+* [[Peterson space]]
+
+* [[Eilenberg–MacLane space]]
 
 ##References##
 
