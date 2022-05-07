@@ -280,6 +280,9 @@ See also
 
 * M.P. Garcia del Moral, C. Las Heras, P. Leon, J.M. Pena, A. Restuccia, _Fluxes, Twisted tori, Monodromy and $U(1)$ Supermembranes_ ([arXiv:2005.06397](https://arxiv.org/abs/2005.06397))
 
+* Pedro D. Alvarez, Pedro García, Maria Pilar Garcia del Moral, Joselen M. Peña, Reginaldo Prado, *Spinning solutions for the bosonic M2-brane with $C_{\pm}$ fluxes* ([arXiv:2104.08927](https://arxiv.org/abs/2104.08927))
+
+
 
 [[!include quantization of M2-brane on Minkowski spacetime to BFSS matrix model -- references]]
 
