@@ -368,15 +368,18 @@ A direct proof of this (not using that good implies proper) appears as ([Segal74
 A recent paper treating the special case where $X_\bullet$ is the nerve of a [[topological category]], and each $X_n$ is of the [[homotopy type]] of a [[CW-complex]], is [Wang 2017](#Wang17), [Wang 18](#Wang18).
 
 ### Compatibility with limits
+ {#CompatibilityWithLimits}
 
-We discuss how geometric realization interacts with [[limit]]s of simplicial topological spaces.
+We discuss how geometric realization interacts with [[limits]] of simplicial topological spaces.
 
 #### Ordinary geometric realization
 
 +-- {: .num_prop #RealizationPreservesPullbacks}
 ###### Proposition
+**(geometric realization prerserves pullbacks)** \linebreak
 
-Geometric realization preserves [[pullback]]s: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphism]]s
+In the category [[Top]] of [[compactly generated topological spaces]],
+geometric realization of simplicial spaces [[preserved limit|preserves]] [[pullbacks]]: for $X_\bullet \to Y_\bullet \leftarrow Z_\bullet$ a [[diagram]] in $Top^{\Delta^{op}}$ there are [[natural transformation|natural]] [[homeomorphisms]]
 
 $$
   {|X_\bullet|} \,\times_{|Y_\bullet|}\, {|Z_\bullet|}
@@ -387,10 +390,27 @@ $$
 
 =--
 
-This appears for instance as ([May 1972, Cor. 11.6](#May72)).  See also the proof that geometric realization of simplicial sets preserves pullbacks, at [[geometric realization]].
+This appears for instance as ([May 1972, Cor. 11.6](#May72)).  See also the proof that [[geometric realization]] of [[simplicial sets]] [[preserved limit|preserves]] [[pullbacks]], at [[geometric realization]] ([here](geometric+realization#GeometricRealizationIsLeftExact)).
 
-It is essential here that we are working in a category $Top$ such as compactly generated spaces or k-spaces: in the category of *all* topological spaces this would not be true.  It works in these cases because product and/or quotient topologies in these categories are slightly different from in the category of all topological spaces.
+\begin{remark}
+It is essential in Prop. \ref{RealizationPreservesPullbacks} to work in a category $Top$ such as [[compactly generated topological spaces]] (also "k-spaces"): in the category of *all* topological spaces the proposition would not be true.  It works in these cases because product and/or quotient topologies in these categories are slightly different from in the category of all topological spaces.
+\end{remark}
 
+It follows that:
+
+\begin{prop}\label{GeometricRealizationPreservesFiniteLimits}
+  Geometric realization of simplicial compactly-generated topological spaces preserves all [[finite limits]].
+\end{prop}
+\begin{proof}
+
+  By [this Prop.](finite+limit#FiniteLimitsFromPullbacksAndTerminalObject)
+  finite limits are preserved as soon as 
+
+  1. the [[terminal object]] is preserved, which here is evidently the case;
+
+  1. [[pullbacks]] are preserved, which is the case by Prop. \ref{RealizationPreservesPullbacks}.
+
+\end{proof}
 
 #### Fat geometric realization
 
@@ -399,20 +419,18 @@ The operation of [fat geometric realization](#FatGeometricRealization) does not 
 Write ${\Vert * \Vert}$ for the fat geometric realization of the point. Notice that due to the identification of $sTop$ with its [[overcategory]] over the point (the simplicial topological space constant on the point), $sTop\simeq sTop/*$, we may regard fat geometric gealization as a functor with values in the [[overcategory]] $Top/{\Vert*\Vert}$ over the 
 [fat geometric realization of the point](#GeometricRealizationOfThePoint).
 
-+-- {: .num_prop #FatRealizationPreservesConnectedFiniteLimits}
-###### Claim
 
+\begin{prop}\label{FatRealizationPreservesConnectedFiniteLimits}
 The functor
 
 $$
   {\Vert - \Vert} \colon  Top^{\Delta^{op}} \to Top/{\Vert*\Vert}
 $$
 
-preserves all [[finite limit]]s.
+preserves all [[finite limits]].
+\end{prop}
 
-=--
-
-See ([Gepner-Henriques 07, Remark 2.23](#GepnerHenriques07)).
+This is claimed in [Gepner-Henriques 07, Remark 2.23](#GepnerHenriques07).
 
 
 ### Relation to the homotopy colimit
@@ -1026,7 +1044,7 @@ On geometric relatization of [[semi-simplicial topological spaces]]:
 
 On Geometric realization of general [[Cech nerves]]:
 
-* {#DuggerIsaksen} [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
+* {#DuggerIsaksen} [[Dan Dugger]], [[Dan Isaksen]], _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
 
 ### (Non-)Compatibility with homotopy pullbacks
  {#ReferencesCompatibilityHomotopyPullback}
