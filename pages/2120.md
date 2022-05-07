@@ -198,7 +198,7 @@ Under a [[continuous function]]:
 
 1. the [[preimage]] of an [[open subset]] is open;
 
-1. the [[preimage]] of an [[closed subset]] is closed;
+1. the [[preimage]] of a [[closed subset]] is closed;
 
 1. the [[image]] of a [[connected space|connected subset]] is again connected;
 
@@ -276,7 +276,9 @@ Waaldijk's negative result can be circumvented by dropping the insistence on poi
 
 * [[function with rapidly decreasing partial derivatives]]
 
-## References
+## Literature
+
+Discussion in [[constructive mathematics]]:
 
 * {#Waaldijk2003} [[Frank Waaldijk]], _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
 
