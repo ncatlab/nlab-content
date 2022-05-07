@@ -302,7 +302,7 @@ Further development:
 
 * Francisco Correa, Andreas Fring, Takanobu Taira, _Complex BPS Skyrmions with real energy_ ([arXiv:2102.05781](https://arxiv.org/abs/2102.05781))
 
-
+* [[Chris Halcrow]], [[Thomas Winyard]], _A consistent two-skyrmion configuration space from instantons_ ([arXiv:2103.15669](https://arxiv.org/abs/2103.15669))
 
 
 
