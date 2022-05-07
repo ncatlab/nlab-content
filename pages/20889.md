@@ -15,6 +15,11 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 * [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_ ([arXiv:1911.11977](https://arxiv.org/abs/1911.11977))
 
+On [[holographic entanglement entropy]] and [[quantum error correcting codes]]:
+
+* [[Chris Akers]], [[Geoff Penington]], *Quantum minimal surfaces from quantum error correction* ([arXiv:2109.14618](https://arxiv.org/abs/2109.14618))
+
+
 category: people
 
 
