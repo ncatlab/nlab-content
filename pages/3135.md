@@ -129,7 +129,7 @@ In the unstable range for low $n$ they instead start out as follows
 | $U(7)$ | " | " | " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{5040}$ | 0 |
 | $U(8)$ | " | " | " | " | " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ |
 
-Due to the [[unitary group#SUn | relation to the special unitary group]], the higher homotopy groups of $U(n)$ and $SU(n)$ agree. The $U(2)$ row can be found using the fact that $SU(2)$ is diffeomorphic to $S^3$. The $U(3)$ row can be found using [Mimura-Toda 63](#MimuraToda63). Otherwise the table is given in columns $\pi_k$, $k= 6,\ldots, 15$, and in rows $U(n)$, $n=4,\ldots,8$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
+Due to the [[unitary group#SUn | relation to the special unitary group]], the higher homotopy groups of $U(n)$ and $SU(n)$ agree. The $U(2)$ row can be found using the fact that $SU(2)$ is [[diffeomorphism|diffeomorphic]] to the [[3-sphere]] $S^3$. The $U(3)$ row can be found using [Mimura-Toda 63](#MimuraToda63). Otherwise the table is given in columns $\pi_k$, $k= 6,\ldots, 15$, and in rows $U(n)$, $n=4,\ldots,8$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
 
 ### In infinite dimension
 
@@ -322,8 +322,11 @@ This implies the claim.
 
 ## References
 
+(...)
 
 * {#MimuraToda63} M. Mimura and H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
+
+For [[U(ℋ)]]:
 
 * {#EspinozaUribe} Jesus Espinoza, [[Bernardo Uribe]], _Topological properties of the unitary group_, JP Journal of Geometry and Topology
 **16** (2014) Issue 1, pp 45-55 ([arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [doi:10.18257/raccefyn.317](http://dx.doi.org/10.18257/raccefyn.317))
