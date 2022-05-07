@@ -38,7 +38,9 @@ is a [[Quillen equivalence]] between the [[model structure on simplicial groups]
 
 ### In components
 
-\begin{definition}\label{WGAndBarWGInComponents}
+
+\begin{definition}\label{WGInComponents}
+**(standard universal principal simplicial complex)** \linebreak
   For $G$ a [[simplicial group]], 
   one writes
   $$
@@ -152,18 +154,26 @@ This carries a $G$-[[action]] by left multiplication on the top degree component
   }
 \]
 
-(It is this straightforward simplicial incarnation of the left $G$-action that singles out the model $W G$ for the universal simplicial principal space. For another model with an alternative good property see at *[[groupal model for universal principal simplicial complex]]*.)
+\end{definition}
 
-The [[quotient]] of $W G$ by this $G$-action (eq:GActionOnWG) is denoted
+\begin{remark}
+It is the straightforward simplicial incarnation of the left $G$-action (eq:GActionOnWG) that singles out the model $W G$ (Def. \ref{WGInComponents}) for the universal simplicial principal space. For another model with an alternative good property see at *[[groupal model for universal principal simplicial complex]]*.
+\end{remark}
+
+\begin{definition}\label{BarWGInComponents}
+**(standard simplicial classifying complex)** \linebreak
+For $G$ a [[simplicial group]], its *standard simplicial classifying complex* is the 
+[[quotient]] of $W G$ (Def. \ref{WGInComponents}) by its $G$-action (eq:GActionOnWG) 
 
 \[
   \label{OverlineWGAsQuotientOfWG}
   \overline{W} G
   \;\coloneqq\;
   W G / G
+  \,.
 \]
 
-and the quotient [[coprojection]]
+The corresponding quotient [[coprojection]]
 
 $$
   W G \longrightarrow \overline{W} G
@@ -171,8 +181,7 @@ $$
 
 is known as the standard model for the simplicial $G$-[[universal principal bundle]] (see [below](#ClassificationOfSimplicialPrincipalBundles)).
 
-
-{#StructureMapsOfSimplicialClassifyingComplex} Under the [[isomorphism]]
+{#StructureMapsOfSimplicialClassifyingComplex} This means, under the [[isomorphism]]
 
 $$
   \big(
@@ -184,9 +193,10 @@ $$
   G_n/G_n \times G_{n-1} \times \cdots \times G_0
   \;\simeq\;
   G_{n-1} \times \cdots \times G_{0}
+  \,,
 $$
 
-the above face maps (eq:FaceMapsOfWG) and degeneracy maps (eq:DegeneracyMapsOfWG) on $W G$ imply the following structure maps on the simplicial classifying complex 
+that the above face maps (eq:FaceMapsOfWG) and degeneracy maps (eq:DegeneracyMapsOfWG) of $W G$ imply the following structure maps on the simplicial classifying complex:
 
 $$
   \overline{W}G
@@ -313,9 +323,37 @@ $$
 
 (This goes back to [MacLane 1954, p. 3](#MacLane54), [Kan 1958, Def. 10.3](#Kan58); the above follows [Goerss & Jardine 1999/2009, p. 269](#GoerssJardine09).)
 
+\begin{remark}\label{Decalage}
+**([[décalage]])** \linebreak
+Conversely, comparison of Def. \ref{BarWGInComponents} with Def. \ref{WGInComponents} shows that $W G$ is obtained from $\overline{W} G$ by shifting down in degree and discarding the 0th face- and degeneracy maps:
+
+$$
+  (W G)_{n} \;\simeq\; (\overline{W}G)_{n+1}
+$$
+
+$$
+  \begin{aligned}
+    d^{W G}_i & \;=\; d^{ \overline{W}G }_{i+1}
+    \\
+    s^{W G}_i & \;=\; s^{\overline{W}G}_{i + 1}
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+
+One refers to this relation as saying that $W G$ is the *[[décalage]]* of $\overline{W}G$, in the form
+
+$$
+  W G \;=\; Dec^0\big( \overline{W}G  \big)
+  \,.
+$$
+
+See the example [there](decalage#ExampleForSimplicialClassifyingSpaces).
+
+\end{remark}
+
 \begin{example}\label{LowDimensionCellsOfWG}
 **(low-dimension cells of $W G$)** \linebreak
-  Unwinding the definition of the face maps (eq:FaceMapsOfWG), one finds that the  generic [[1-simplex]] in $W G$ looks as follows
+  Unwinding the definition of the face maps (eq:FaceMapsOfWG), one finds that the  generic [[1-simplex]] in $W G$ (Def. \ref{WGInComponents}) looks as follows:
 
   \begin{tikzcd}
     d_1(g_1)
@@ -325,6 +363,7 @@ $$
     ]
     &&
     d_0(g_1)\cdot g_0
+    \mathrlap{\,,}
   \end{tikzcd}
 
 while the generic [[2-simplex]] in $W G$ looks as follows:
@@ -401,7 +440,7 @@ while the generic [[2-simplex]] in $W G$ looks as follows:
   $$
     G \in Groups \overset{const}{\hookrightarrow} SimplicialGroups
   $$
-  is an ordinary [[discrete group]] regarded as a [[simplicial group]] (which is [[constant functor|constant]] as a [[functor]] on the [[opposite category|opposite]] [[simplex category]]) the definitions in Def. \ref{WGAndBarWGInComponents} reduce as follows:
+  is an ordinary [[discrete group]] regarded as a [[simplicial group]] (which is [[constant functor|constant]] as a [[functor]] on the [[opposite category|opposite]] [[simplex category]]) the definitions in Def. \ref{WGInComponents} reduce as follows:
 
 The simplicial set $W G$ is that whose
 
