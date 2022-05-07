@@ -5,9 +5,9 @@
 
 ## Idea
 
-A class of [[quantum error correcting codes]] whose [[code subspaces]] are the [[images]] of [[linear maps]] given by [[tensor networks]] of the shape of [[round chord diagrams]].
+A class of [[quantum error correcting codes]] whose [[code subspaces]] are the [[images]] of [[linear maps]] given by [[tensor networks]] of the shape of [[round chord diagrams]] with chords acting as [[Majorana dimer|Majorana dimers]].
 
-Subsumes the [[HaPPY code]] and, like this, exhibits [[holographic entanglement entropy]]:
+The Majorana dimer code subsumes the [[HaPPY code]]:
 
 \begin{imagefromfile}
     "file_name": "HaPPYCodesAsDimerCode.jpg",
@@ -21,6 +21,9 @@ Subsumes the [[HaPPY code]] and, like this, exhibits [[holographic entanglement 
     },
     "caption": "From [JGPE 19](#JGPE19)"
 \end{imagefromfile}
+
+and makes the nature of [[holographic entanglement entropy]] particularly manifest (see [there](holographic+entanglement+entropy#ChordDiagramRepresentation) for more).
+
 
 ## Related concepts
 
