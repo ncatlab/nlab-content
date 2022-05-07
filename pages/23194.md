@@ -88,7 +88,7 @@ is
   For $G \,\in\, Grp(FinSet) \xhookrightarrow{Grp(Dsc)} Grp(kTopSp)$ a [[finite group]], the [[topological G-space]] [[underlying]] a [[smooth manifold|smooth]] [[G-manifold]] admits a properly equivariant good open cover (Def. \ref{ProperlyEquivariantOpenCover}).
 \end{proposition}
 
-([Yang 2014, Thm. 2.11](#Yang14), using this [[equivariant triangulation theorem]])
+([Yang 2014, Thm. 2.11](#Yang14), using the [[equivariant triangulation theorem]])
 
 ## Related entries
 
