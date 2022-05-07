@@ -23,7 +23,7 @@ A space that is not complete has "gaps" that may be filled to form its _completi
 
 ## Definitions
 
-A space (which may be a [[metric space]], a [[Cauchy space]], or anything in between) is __Cauchy-complete__, or simply __complete__, if every [[Cauchy filter]] converges, equivalently if every [[Cauchy net]] converges.  A space is __sequentially complete__ if every [[Cauchy sequence]] converges.  Note that a sequentially complete metric space must be complete (in [[classical mathematics]]), but this does not hold for more general spaces (nor even for metric spaces in [[constructive mathematics]]).
+A space (which may be a [[metric space]], a [[Cauchy space]], or anything in between) is __Cauchy-complete__, or simply __complete__, if every [[Cauchy filter]] converges, equivalently if every [[Cauchy net]] converges.  A space is __[[sequentially Cauchy-complete]]__ if every [[Cauchy sequence]] converges.  Note that a sequentially complete metric space must be complete (in [[classical mathematics]]), but this does not hold for more general spaces (nor even for metric spaces in [[constructive mathematics]]).
 
 A space is __topologically complete__ if its [[underlying topological space]] is completely [[metrizable space|metrizable]].  There are various other notions related to this.  See [[topologically complete space]].
 
