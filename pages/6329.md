@@ -143,6 +143,12 @@ A note on how the Schr&#246;dinger picture in the form of [[extended quantum fie
 
 * [[Urs Schreiber]], _[[schreiber:AQFTfromFQFT.pdf:file]]_, Communications in Mathematical Physics, Volume 291, Issue 2 (2009), pp.357-401 
 
+[[operator algebra|Operator algebraic]] formulation of [[quantum error correction]] in the Heisenberg picture:
+
+* Cédric Bény, Achim Kempf, David W. Kribs, _Generalization of Quantum Error Correction via the Heisenberg Picture_, Phys. Rev. Lett. 98, 100502 – Published 7 March 2007 ([doi:10.1103/PhysRevLett.98.100502](https://doi.org/10.1103/PhysRevLett.98.100502), [arXiv:quant-ph/0608071](https://arxiv.org/abs/quant-ph/0608071))
+
+* Cédric Bény, Achim Kempf, David W. Kribs, _Quantum Error Correction of Observables_, Phys. Rev. A 76, 042303 (2007) ([arXiv:0705.1574](https://arxiv.org/abs/0705.1574))
+
 
 [[!redirects dynamical picture]]
 [[!redirects picture of dynamics]]
