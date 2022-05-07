@@ -367,7 +367,7 @@ $$
 
 =--
 
-A direct proof of this (not using that good implies proper) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof has been given by [[Tammo tom Dieck]]. 
+A direct proof of this (not using that good implies proper) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof using properness is due to [tom Dieck 1974, Prop. 1](#tomDieck74).
 
 A recent paper treating the special case where $X_\bullet$ is the nerve of a [[topological category]], and each $X_n$ is of the [[homotopy type]] of a [[CW-complex]], is [Wang 2017](#Wang17), [Wang 18](#Wang18).
 
@@ -1097,9 +1097,13 @@ The notion of *good* simplicial spaces is due to
 
 * {#Segal73} [[Graeme Segal]], Appendix 2 of: *Configuration-spaces and iterated loop-spaces*, Invent. Math. __21__ (1973), 213&#8211;221.  ([doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377)
 
-and the notion of *fat* geometric realization togeteher with its homotopy equivalence to ordinary realization for good simplicial spaces is due to:
+and the notion of *fat* geometric realization together with its homotopy equivalence to ordinary realization for good simplicial spaces is due to:
 
-* {#Segal74} [[Graeme Segal]], Appendix A of _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_, Topology, 13:293&#8211;312, 1974 (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>)
+* {#Segal74} [[Graeme Segal]], Appendix A of: _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_, Topology, 13:293&#8211;312, 1974 (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>)
+
+* {#tomDieck74} [[Tammo tom Dieck]], *On the homotopy type of classifying spaces*, Manuscripta Math 11, 41–49 (1974) ([doi:10.1007/BF01189090](https://doi.org/10.1007/BF01189090))
+
+    
 
 More discussion of the comparison of different realization functors is in: 
 
