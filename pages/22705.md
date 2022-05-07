@@ -25,15 +25,7 @@
 |[[alternative algebra]]|[[alternative magmoid|alternative]] [[linear magmoid]]|
 |[[strict monoidal category]]|[[strict 2-category]]|
 |[[strict 2-group]]|[[strict 2-groupoid]]|
-
-| [[higher algebra|higher algebraic]] [[mathematical structure|structure]] | [[weak enrichment|weak]] [[oidification]] |  
-|----------------|----------|
-|[[point]]|[[truth value]]|
-|[[truth value]]|[[set]] with [[binary relation|binary relation]]|
-|[[set]]|[[quiver]] ([[groupoid]] with [[0-truncated]] [[correspondence]])|
-|[[monoid]]|[[weak category|category]]|
-|[[group]]|[[groupoid]]
-|[[groupoid]]|[[2-groupoid]] with [[1-truncated]] [[correspondence]]|
+|[[monoidal poset]]|[[2-poset]]|
 |[[monoidal groupoid]]|[[(2,1)-category]]|
 |[[monoidal category]]|[[2-category]]/[[bicategory]]|
 |[[2-group]]|[[2-groupoid]]/[[bigroupoid]]|
