@@ -71,7 +71,7 @@ For introduction see
 
 * [[Nathaniel Stapleton]], _An Introduction to HKR Character Theory_ ([pdf](http://homepages.uni-regensburg.de/~stn30788/papers/Characters.pdf))
 
-* {#Raksit15} Arpon Raksit, _Characters in global equivariant homotopy theory_, 2015 ([pdf](http://web.stanford.edu/~arpon/math/files/senior-thesis.pdf))
+* {#Raksit15} Arpon Raksit, _Characters in global equivariant homotopy theory_, 2015 ([pdf](https://www.math.harvard.edu/media/raksit.pdf))
 
 Original articles includes
 
