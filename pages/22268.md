@@ -39,9 +39,13 @@ Beware the existence of a book of similar title, by the same author and largely 
 
    * [[equivariant differential topology]]
 
+   * [[slice theorem]]
+
 6. Families of subgroups
 
 7. Equivariant maps
+
+   * [[equivariant function]]
 
 8. Bundles
 
