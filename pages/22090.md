@@ -303,7 +303,7 @@ Both statements, Pontryagin's and Thom's, as well as their joint generalization 
 
 ## Related concepts
 
-* [[equivariant Pontrjagin theorem]]
+* [[equivariant Pontrjagin theorem]], [[twisted Pontrjagin theorem]]
 
 * [[Hopf degree theorem]], [[equivariant Hopf degree theorem]]
 
