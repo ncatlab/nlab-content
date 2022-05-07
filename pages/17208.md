@@ -296,7 +296,7 @@ $q_{\mathbb{C}^{n+2}}^{-1}(S)$ is a union of open cyclinders, hence is open. By 
 \end{prop}
 
 \begin{proof}
-  Essentially by definition, $\mathbb{C}P^n$ is the [[quotient space]] of the [[circle group]]-[[action]] on the [[unit sphere]]  $S^{2n+1} \simeq S\big(\mathbb{C}^{2n+2}\big)$. 
+  Essentially by definition, $\mathbb{C}P^n$ is the [[quotient space]] of the [[circle group]]-[[action]] on the [[unit sphere]]  $S^{2n+1} \simeq S\big(\mathbb{C}^{2n+2}\big)$ (e.g. [Bott & Tu 1982, Exp. 14.22](#BottTu82)). 
 
 First of all, this implies that $\mathbb{C}P^n$ is [[connected topological space|connected]], since $S^{2n+1}$ is, hence $\pi_0\big( \mathbb{C}P^n\big) = \ast$.
 
@@ -660,7 +660,6 @@ are all [[epimorphisms]]. Therefore this sequence satisfies the [[Mittag-Leffler
 $$
   \begin{aligned}
     H^\bullet(\mathbb{C}P^\infty, R)
-    \\
     &
      \simeq
     H^\bullet( \underset{\longleftarrow}{\lim}_n \mathbb{C}P^n , R)
@@ -996,6 +995,11 @@ Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[
   [[infinite complex projective G-space]]
 
 ## References
+
+Textbook accounts:
+
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Exp. 14.22 of: _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
+
 
 See also
 
