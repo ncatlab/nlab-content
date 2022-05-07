@@ -19,7 +19,7 @@
 
 ## Idea
 
-There are various [[norms]] that may be placed on the [[tensor product]] of the underlying [[vector spaces]] of two [[Banach spaces]]; the result is not usually [[complete space|complete]], but of course we may take its [[completion]].  One of these, the _projective tensor product_, makes [[Ban]] (the category of Banach spaces and [[short linear maps]]) into a [[closed symmetric monoidal category]], but there are others that still put useful structures on $Ban$.  If we start with [[Hilbert spaces]], then there is a choice of norm that will make the result into a Hilbert space; then [[Hilb]] also becomes a closed symmetric monoidal category.
+There are various [[norms]] that may be placed on the [[tensor product]] of the underlying [[vector spaces]] of two [[Banach spaces]]; the result is not usually [[complete space|complete]], but of course we may take its [[completion]].  One of these, the _projective tensor product_, makes [[Ban]] (the category of Banach spaces and [[short linear maps]]) into a [[closed symmetric monoidal category]], but there are others that still put useful structures on $Ban$.  If we start with [[Hilbert spaces]], then there is a choice of norm that will make the result into a Hilbert space; then [[Hilb]] also becomes a symmetric monoidal category.
 
 
 ## Definitions
@@ -97,7 +97,7 @@ As far as I can tell, the Hilbert-space cross norm $\sigma$ doesn\'t apply to ar
 Looking only at the general theory of cross norms, the projective and injective cross norms appear naturally:
 
 +-- {: .num_prop #topbot}
-###### Proposition [(Ryan Proposition 6.1)](#Ryan)
+###### Proposition [(Ryan 2002, Prop. 6.1)](#Ryan02)
 
 Let $V$ and $W$ be Banach spaces and $\chi$ be any norm on $V \otimes W$. Then $\chi$ is a cross norm if and only if
 $$ {\|x\|_\epsilon} \leq {\|x\|_\chi} \leq {\|x\|_\pi},$$
@@ -152,12 +152,21 @@ We need the [[Hahn–Banach theorem]] for $\epsilon$ to be a cross norm; but $\s
 
 * M. Nielsen and I. Chuang.  _Quantum Computation and Quantum Information_.  Cambridge University Press.  2000.  {#NielsenChuang}
 
-* R. Ryan.  _Introduction to Tensor Products of Banach Spaces_.  Springer Monographs in Mathematics. Springer-Verlag London. 2002.  {#Ryan}
+* {#Ryan02} [[Raymond A. Ryan]],  _Introduction to Tensor Products of Banach Spaces_.  Springer Monographs in Mathematics. Springer-Verlag London. 2002.   ([doi:10.1007/978-1-4471-3903-4](https://www.springer.com/gp/book/9781852334376), [toc pdf](https://d-nb.info/962673145/04))
 
-Many facts taken from Wikipedia:
+* J. M. Egger, *Notes on Banach spaces and Hilbert spaces* ([pdf](https://ms.mcmaster.ca/~hanj18/jme-files/jme-banachnotes.pdf))
 
-* [Topological tensor product](https://en.wikipedia.org/wiki/Topological_tensor_product) (which also discusses tensor products of [[locally convex spaces]]),
-* [Tensor product of Hilbert spaces](https://en.wikipedia.org/wiki/Tensor_product_of_Hilbert_spaces).
+See also:
+
+* Wikipedia, *[Topological tensor product](https://en.wikipedia.org/wiki/Topological_tensor_product)*
+ 
+  (which also discusses tensor products of [[locally convex spaces]]),
+
+* Wikipedia, *[Tensor product of Hilbert spaces](https://en.wikipedia.org/wiki/Tensor_product_of_Hilbert_spaces)*
+
+Exposition in
+
+* [[Qiaochu Yuan]], *<a href="https://qchu.wordpress.com/2012/06/23/banach-spaces-and-lawvere-metrics-and-closed-categories/">Banach spaces (and Lawvere metrics, and closed categories)</a>*
 
 
 [[!redirects tensor product of a Banach space]]
