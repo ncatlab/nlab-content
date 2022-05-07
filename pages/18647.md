@@ -33,9 +33,9 @@ A Lie ideal is always a [[subobject|sub]]-[[Lie algebra]]
 
 ## References
 
-See also 
+See also: 
 
-*  Groupprops Wiki, _[Ideal of a Lie ring](https://groupprops.subwiki.org/wiki/Ideal_of_a_Lie_ring)_
+*  [[Groupprops]], _[Ideal of a Lie ring](https://groupprops.subwiki.org/wiki/Ideal_of_a_Lie_ring)_
 
 [[!redirects Lie ideals]]
 
