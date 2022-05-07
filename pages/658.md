@@ -88,11 +88,8 @@ $$
   \,.
 $$
 
-Indeed, there is an equivalence of bicategories between $V Prof$ and the 2-category of categories and colimit-preserving functors and natural transformations between their presheaf categories.  Note that the latter is a [[strict 2-category]] which can thus serve as a "natural" strictification of $V Prof$.
+Indeed, there is an equivalence of bicategories between $V Prof$ and the 2-category of categories and colimit-preserving functors and natural transformations between their presheaf categories.  Note that the latter is a [[strict 2-category]] which can thus serve as a "natural" strictification of $V Prof$ (e.g. [Cattani 1999, Prop. 4.2.4](#Cattani99)).
 
-An explicit statement of this can be found for instance as prop. 4.2.4 in
-
-* Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.brics.dk/DS/99/1/BRICS-DS-99-1.pdf))
 
 From this perspective, the representable profunctor induced by an ordinary $V$-functor $f : C \to D$ is 
 the [[adjunct]] of the postcomposition 
@@ -194,9 +191,9 @@ The original published source for profunctors is
 
 based on several series of lectures starting in 1969, but these notes are hard to come by. They are available from the author by request. Much (if not most) of the existing work on profunctors has been developed by B&#233;nabou.
 
-[[Marta Bunge]] independently considered profunctors in chapter 3 of her unpublished 1966 PhD thesis
+Also
 
-* [[Marta Bunge]], _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
+* [[Marta Bunge]], Chpater 3 of: _Categories of Set-Valued Functors_, University of Pennsylvania, 1966
 
 based on suggestions by [[Bill Lawvere]], including the monograph
 
@@ -231,6 +228,11 @@ Internal profunctors are considered in
 
 * [[Peter Johnstone]], _Sketches of an [[Elephant]] I_, Oxford UP 2002. (pp.359-367)
 
+The relation to [[locally presentable categories]] is almost explicit in:
+
+* {#Cattani99} [[Gian Luca Cattani]], *Presheaf Models for Concurrency*, PhD thesis from BRICS, University of Aarhus 1999 ([pdf](http://www.brics.dk/DS/99/1/BRICS-DS-99-1.pdf), [[Cattani_PresheafModels.pdf:file]])
+
+
 Profunctors play an important in categorical [[shape theory]]. The original source is 
 
 * D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
@@ -243,9 +245,9 @@ M. Batanin discusses simplicial enriched profunctors in the context of strong sh
 
 * M. Batanin , _Categorical Strong Shape Theory_ , Cah. Top. G&#233;om. Diff. Cat. **38** no.1 (1997) pp.3-66. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
 
-For an overview and application in computer science see
+Overview and application in [[computer science]]:
 
-* G. L. Cattani, G. Winskel, _Profunctors, Open Maps, and Bisimulation_ , BRICS Report **04-22** (2004). ([pdf](http://www.brics.dk/RS/04/22/BRICS-RS-04-22.pdf))
+* [[Gian Luca Cattani]], G. Winskel, _Profunctors, Open Maps, and Bisimulation_ , BRICS Report **04-22** (2004). ([pdf](http://www.brics.dk/RS/04/22/BRICS-RS-04-22.pdf))
 
 ### Expositions
 
@@ -297,19 +299,6 @@ Profunctors are often notated with a slashed or barred arrow, as in $C$&#8696;$D
       \ar[r]|-@{|}
 
 
-## Discussion ##
-
-The following discussion is about where to put the "op" in the definition of a profunctor.
-
-+--{.query}
-_Todd_: There is an inevitable debate here about whether one should use $C^{op} \otimes D \to V$ or $C \otimes D^{op} \to V$. My own convention is to use the latter. For example, every functor $C \to D$ yields a profunctor by composition with the Yoneda embedding on $D$. 
-
-[[Mike Shulman|Mike]]: My convention is $D^{op}\otimes C$.  I agree with your reasoning for why $D$ should be contravariant; I like to put it first because in the hom-functor $C(-,-)$ the contravariant variable appears first.
-
-[[Sridhar Ramesh]]: But surely, just as well, a functor from $C$ to $D$ yields a contravariant functor from $C$ to $Set^D$ and thus a profunctor $C^{op} \otimes D \to V$, by composition with the contravariant Yoneda embedding of $D$ into $Set^D$? At the moment, I still do not see why there is reason to prefer in the abstract general one to the other of $(c, d) \mapsto Hom_D(F(c), d)$ and $(d, c) \mapsto Hom_D(d, F(c))$, though it's not an issue I've thought very much about or have strong emotions regarding. Are there further reasons beyond the above?
-
-[[Mike Shulman]]: Well, the covariant Yoneda embedding is arguably more natural and important than the contravariant one.  If a profunctor $C$&#8696;$D$ is a functor $C\to Set^{D^{op}}$, then we can think of it as assigning to every $c\in C$ a presheaf on $D$, which may or may not be representable.  The profunctor "is" a functor just when all its values are representable presheaves.  Of course, if instead a profunctor $C$&#8696; $D$ were a functor $C^{op}\to Set^D$, i.e. $C\to (Set^D)^{op}$, then we could think of it as assigning to each $c\in C$ a functor $D\to Set$, which might or might not be (co)representable.  However, for a bunch of reasons it's often more natural to think of an object of $D$ as determined by the maps *into* it, rather than the maps *out* of it---in other words by its [[generalized elements]], or in yet other words by the presheaf it represents.  Although of course *formally*, there is a complete duality.
-=--
 
 
 [[!redirects profunctors]]
