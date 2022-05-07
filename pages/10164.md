@@ -20,7 +20,9 @@ Given a [[linear map|linear]] [[endomorphism]], an _[[eigenvector]]_ of it is a 
 
 ## Properties
 
-* *[[Gershgorin circle theorem]]*
+* [[Gershgorin circle theorem]]
+
+* [[normal eigenvalue]]
 
 
 ## References
