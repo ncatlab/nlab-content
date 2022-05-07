@@ -109,16 +109,16 @@ In parts of the literature, deformation retracts are required to be strong by de
 
 ### In topological spaces
 
-In the category [[Top]] of [[topological spaces]] the standard [[cylinder object]] is given by [[cartesian product]] with the [[interval]] $I := [0,1]$.
+In the category [[Top]] of [[topological spaces]] the standard [[cylinder object]] is given by [[cartesian product]] with the [[interval]] $I \coloneqq [0,1]$.
 
-With respect to the corresponding notion of [[left homotopy]],  if $X$ is a topological space and $A\subset X$ a subspace, then $A$ is a strong deformation retract of $X$ if there exists a [[continuous map]] $H:X\times I\to X$ such that $H(a,t)=a$ for all $a\in A$, $t\in I=[0,1]$, $H(x,0) = x$ for all $x\in X$ and $H(x,1)\in A$ for all $x\in X$. 
+With respect to the corresponding notion of [[left homotopy]],  if $X$ is a topological space and $A\subset X$ a [[topological subspace|subspace]], then $A$ is a strong deformation retract of $X$ if there exists a [[continuous map]] $H \colon X\times I\to X$ such that $H(a,t) = a$ for all $a\in A$, $t\in I=[0,1]$, $H(x,0) = x$ for all $x\in X$ and $H(x,1)\in A$ for all $x\in X$. 
 
-Equivalently, there are continuous maps $i:A\to X$ and $r:X\to A$ such that $r\circ i = id_A$ and $i\circ r\sim id_X (rel A)$, where $\sim (rel A)$ denotes [[homotopy]] with fixed $A$. More generally, for any continuous map $j:Z\to Y$ we say that it is __deformation retractable__ if there is $r:Y\to Z$ such that $j\circ r\sim id_Y$ and $r\circ j = id_Z$.
+Equivalently, there are [[continuous maps]] $i \colon A\to X$ and $r \colon X\to A$ such that $r \circ i = id_A$ and $i\circ r\sim id_X (rel A)$, where $\sim (rel A)$ denotes [[homotopy]] with fixed $A$. More generally, for any continuous map $j \colon Z\to Y$ we say that it is __deformation retractable__ if there is $r \colon Y\to Z$ such that $j\circ r\sim id_Y$ and $r\circ j = id_Z$.
 
-A pair $(X,A)$ is an __[[NDR-pair]]__ if there are two continuous maps, $u:X\to I,\; H:X\times I\to X$ such that $H(a,t)=a$ for all $a\in A$ and all $t$, $H(x,0)=x$ for all $x\in X$, $u^{-1}(0)=A$ and $H(x,1)\in A$ for all $x$ such that $u(x)\lt 1$. 
-If $(X,A)$ is an NDR-pair, then the inclusion has a left [[homotopy inverse]] iff $A$ is also a [[retract]] of $X$ (in [[Top]], in the standard categorical sense).
+A pair $(X,A)$ is an __[[NDR-pair]]__ if there is a [[pair]] of continuous maps, $u \colon X\to I,\; H \colon X\times I\to X$ such that $H(a,t)=a$ for all $a\in A$ and all $t$, $H(x,0)=x$ for all $x\in X$, $u^{-1}(0)=A$ and $H(x,1)\in A$ for all $x$ such that $u(x)\lt 1$. 
+If $(X,A)$ is an NDR-pair, then the inclusion has a left [[homotopy inverse]] iff $A$ is also a [[retract]] of $X$ (in [[Top]], in the standard [[category theory|category-theoretic]] sense).
 
-The pair $(X,A)$ is a __DR-pair__ if it is a deformation retract and there is a function $u:X\to I$ such that $A=u^{-1}(0)$ (i.e. it gives simultaneously a deformation retract and a NDR-pair). If $(X,A)$ is an NDR-pair then the inclusion $A\hookrightarrow X$ is a homotopy equivalence iff $A$ is a deformation retract of $X$. Any map $f:X\to Y$ is a [[homotopy equivalence]] iff $X$ is the deformation retract of the mapping cylinder of $f$. If $(X,A)$ is an NDR-pair and $A$ is [[contractible space|contractible]], then the quotient map $X\to X/A$ is a homotopy equivalence. 
+The pair $(X,A)$ is a __DR-pair__ if it is a deformation retract and there is a function $u \colon X\to I$ such that $A=u^{-1}(0)$ (i.e. it gives simultaneously a deformation retract and a NDR-pair). If $(X,A)$ is an NDR-pair then the inclusion $A\hookrightarrow X$ is a homotopy equivalence iff $A$ is a deformation retract of $X$. Any map $f:X\to Y$ is a [[homotopy equivalence]] iff $X$ is the deformation retract of the mapping cylinder of $f$. If $(X,A)$ is an NDR-pair and $A$ is [[contractible space|contractible]], then the quotient map $X\to X/A$ is a homotopy equivalence. 
 
 
 ### In chain complexes
@@ -235,9 +235,11 @@ For unnormalized chain complexes, where we have a [[homotopy equivalence]], this
 
 ## References ##
 
-For instance
+Textbook accounts
 
-* [[George Whitehead]], _Elements of homotopy theory_, chapter 1. 
+* [[George Whitehead]], chapter 1 of: *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+
+* [[Peter May]], Section 6.4 of: _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 [[!redirects deformation retracts]]
 
