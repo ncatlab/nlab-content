@@ -233,6 +233,9 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 * {#FGHW} Fiore, Gambino, Hyland and Winskel, _Relative pseudomonads, Kleisli bicategories, and substitution monoidal structures_, ([web](https://arxiv.org/pdf/1612.03678.pdf))
 
 
+* {#PT} [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+
+
 This reference might also give helpful clues:
 
 * [[Daniel Dugger]], _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
