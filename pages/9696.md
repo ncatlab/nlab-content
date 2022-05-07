@@ -12,6 +12,11 @@ On [[quantum error correction]]:
 * Panos Aliferis, [[Daniel Gottesman]], [[John Preskill]], *Quantum accuracy threshold for concatenated distance-3 codes*, Quant. Inf. Comput. 6 (2006) 97-165 ([arXiv:quant-ph/0504218](https://arxiv.org/abs/quant-ph/0504218))
 
 
+On [[entanglement entropy]] as an indicator of [[topological phases of matter]]:
+
+* [[Alexei Kitaev]], [[John Preskill]], *Topological entanglement entropy*, Phys. Rev. Lett. 96 (2006) 110404 ([arXiv:hep-th/0510092](https://arxiv.org/abs/hep-th/0510092))
+
+
 On [[quantum computation]]:
 
 * [[John Preskill]], *Quantum Computation*, lecture notes ([web](http://theory.caltech.edu/~preskill/ph229/))
