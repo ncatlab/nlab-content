@@ -73,8 +73,8 @@ $$
 
 ## Properties
 
-### Invariance
- {#Invariance}
+### Basic properties
+ {#BasicProperties}
 
 The following is immediate from Def. \ref{CayleyDistance}:
 
@@ -101,6 +101,48 @@ $$
  \,.
 $$
 \end{prop}
+
+\begin{prop}\label{CayleyDistancePreservedByInclusionOfSymmetricGroups}
+  Cayley distance is preserved under the canonical inclusions of [[symmetric groups]]
+
+\[
+  \label{CanonicalInclusionsOfSymmetricGroups}
+  Sym(n)
+  \overset{
+    i
+  }{
+    \hookrightarrow 
+  }
+  Sym(n+1)
+  \hookrightarrow 
+  Sym(n+2)
+  \hookrightarrow
+  \cdots
+\]
+
+in that 
+
+$$
+  d_C( \sigma_1, \sigma_2 ) 
+    \; = \;
+  d_C\big( 
+    i(\sigma_1), i(\sigma_2)
+  \big) 
+  \,.
+$$
+
+In other words, when regarding the [[metric space]] given by the set of permutations in $Sym(n)$ with their Cayley distance function between them 
+
+* as an $(\mathbb{R}_{\geq 0}, \geq)$0-[[enriched category]] (see [here](metric+space#LawvereMetricSpace)), then the [[functors]] induced by the inclusions (eq:CanonicalInclusionsOfSymmetricGroups) are [[fully faithful functor|fully faithful]] and hence are [[full subcategory]] inclusions.
+
+* as a [[matrix]], then the inclusions (eq:CanonicalInclusionsOfSymmetricGroups) correspond to  [[principal submatrices]].
+
+\end{prop}
+\begin{proof}
+  This is clear from the definition via minimum numbers of transpositions:
+  Since $i(\sigma_1)$ and $i(\sigma_2)$ necessarily agree in the $n+1$st entry, no permutation in a minimal sequence effects this entry, which means that all permutations in the minimal sequence already come from $Sym(n)$.
+\end{proof}
+
 
 ### In terms of numbers of cycles
  {#InTermsOfNumbersOfCycles}
