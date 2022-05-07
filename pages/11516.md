@@ -42,6 +42,8 @@ In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces
 ### Change of equivariance groups 
  {#ChangeOfGroupsAndFixedLoci}
 
+In the following $TopSp$ is a [[cartesian closed monoidal category|cartesian closed]] [[convenient category of topological spaces]], such as that of [[compactly generated topological spaces]].
+
 We discuss how any homomorphism of topological groups induces an [[adjoint triple]] of [[functors]] between the corresponding $Topological G Spaces$ (e.g. [May 96, Sec. I.1](#May96), [DHLPS 19, p.8](#DHLPS19), see also at [induced representation](induced+representation#GeneralAbtractDefinition) for a formulation in [[homotopy type theory]])
 
 \begin{tikzcd}
@@ -169,7 +171,7 @@ $$
     Topological 1 Actions 
     \mathrlap{  \;  = TopologicalSpaces }
     \\
-    X &\mapsto &  1 \times_G X \mathrmlap{ \; = X/G }
+    X &\mapsto &  1 \times_G X \mathrlap{ \; = X/G }
     \,.
   }
 $$
@@ -592,6 +594,7 @@ is the passage to the $H$-[[fixed locus]] $(-)^H$ equipped with its residual [[W
 ### Limits and colimits
  {#LimitsAndColimits}
 
+Recalling that the ambient category is assumed to be a [[cartesian closed monoidal category|cartesian closed]] [[convenient category of topological spaces]], such as that of [[compactly generated topological spaces]]:
 
 \begin{proposition}
   \label{ForgetfulFunctorCreatesLimitsAndColimits}
@@ -605,6 +608,16 @@ is the passage to the $H$-[[fixed locus]] $(-)^H$ equipped with its residual [[W
 
 Now the [[forgetful functor]] in question is the respective [[monadic functor]]
 and a general theorem ([this Prop.](created+limit#MonadicFunctorsCreateLimits))  says that monadic functors create all limits that exist in their codomain and those colimits which exist there and are preserved by the monad.
+\end{proof}
+
+\begin{proposition}
+\label{CompactlyGeneratedGSpacesFormARegularCategory}
+**(compactly generated topological $G$-spaces form a regular category)**
+\linebreak
+  For $TopSp$ denoting the category of [[compactly generated weakly Hausdorff spaces]] or [[compactly generated Hausdorff spaces]], and for $G \,\in\, Grp(TopSp)$ a [[topological group]], the category $G Act(TopSp)$ of topological $G$-spaces is a [[regular category]].
+\end{proposition}
+\begin{proof}
+  By [this Prop.](compactly+generated+topological+space#kHausIsRegular) the given convenient category of topological spaces is regular. Since regularity is purely a condition on limits and colimits ([this Def.](regular+category#RegularCategory)) it transfers along any [[forgetful functor]] which [[created limits|creates]] limits and colimits. Therefore the statement follows by Prop. \ref{ForgetfulFunctorCreatesLimitsAndColimits}.
 \end{proof}
 
 \begin{lemma}\label{RecognitionOfCartesianQuotientProjection}
