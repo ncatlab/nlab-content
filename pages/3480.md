@@ -230,7 +230,39 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Apply the [[enriched Yoneda lemma]] verbatim as for the statement about permutation representations as above.
+We can repeat the argument given above for permutation representations, this time employing the [[enriched Yoneda lemma]].
+
+Indeed, we may identify $F$ with the $V$-functor
+$$[\bullet]^*\colon\mathbf{Fun}_V(\mathbf{B}A,V)\to\underbrace{\mathbf{Fun}_V(\mathbf{pt}_V,V)}_{\cong V}$$
+given by precomposition along the $V$-functor $[\bullet]\colon\mathbf{pt}_V\to\mathbf{B}A$ picking the unique object $\bullet$ of $\mathbf{B}A$.
+
+Now we note that the functor $[\bullet]^*$ (given by sending an $A$-module $M\colon\mathbf{B}A\to V$) to its evaluation $M(\bullet)$ at the unique object $\bullet$ of $\mathbf{B}A$) is $V$-naturally isomorphic to the $V$-functor $\mathbf{Nat}_V(h_\bullet,-)$, since
+$$\mathbf{Nat}_V(h_\bullet,M)\cong M(\bullet)$$
+by the enriched Yoneda lemma. So in summary we have $F\cong[\bullet]^*\cong\mathbf{Nat}_V(h_\bullet,-)$.
+
+We can then compute $End(F)$ as follows:
+
+$$
+  \begin{aligned}
+    End(F)
+    &\overset{\mathrm{def}}{=}
+    \mathbf{Nat}_V(F,F)
+    \\
+    &\cong
+    \mathbf{Nat}_V(\mathbf{Nat}_V(h_{\bullet},-),\mathbf{Nat}_V(h_{\bullet},-))
+    \\
+    &\cong
+    \mathbf{Nat}_V(h_{\bullet},h_{\bullet})
+    \\
+    &\cong
+    \mathbf{Hom}_{\mathbf{B}A}(\bullet,\bullet)
+    \\
+    &\overset{\mathrm{def}}{=}
+    A,
+  \end{aligned}
+$$
+
+where we have applied the [[enriched Yoneda lemma]] twice.
 
 =--
 
