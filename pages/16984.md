@@ -1,10 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
-Let $E$ be a [[perfectoid field]] (for example $\mathbb{C}_{p}$). The Fargues-Fontaine curve $X_{E}$ is a complete curve whose closed points parametrize the untilts of $E$. Such an untilt may be recovered as the residue field of the corresponding point.
+Let $E$ be a [[perfectoid field]] (for example $\mathbb{C}_{p}$). The *Fargues-Fontaine curve* $X_{E}$ is a [[complete variety|complete]] [[algebraic curve]] whose [[closed points]] parametrize the untilts of $E$. Such an untilt may be recovered as the [[residue field]] of the corresponding point.
 
 ## Construction
 
-Let $E$ be a perfectoid field, let $\mathcal{O}_{E}$ be its ring of integers, and let $W(\mathcal{O}_{E})$ be the [[Witt vectors]] of $\mathcal{O}_{E}$. Let $\phi:E\to E$ be the Frobenius morphism. We define a norm $\vert\cdot\vert_{r}$ on $W(\mathcal{O}_{E})[1/p]$ as follows:
+Let $E$ be a perfectoid field, let $\mathcal{O}_{E}$ be its [[ring of integers]], and let $W(\mathcal{O}_{E})$ be the [[Witt vectors]] of $\mathcal{O}_{E}$. Let $\phi:E\to E$ be the Frobenius morphism. We define a [[norm]] $\vert\cdot\vert_{r}$ on $W(\mathcal{O}_{E})[1/p]$ as follows:
 
 $$\vert \sum_{n\gg -\infty} [a_{n}]p^{n}\vert_{r}=\sup_{n}\vert a_{n}\vert p^{-r n}$$
 
