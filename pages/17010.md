@@ -21,7 +21,23 @@
 * table of contents
 {:toc}
 
+\begin{imagefromfile}
+    "file_name": "Apostol_StereographicProjection.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Apostol 1973](#Apostol73)"
+\end{imagefromfile}
+
+
 ## Idea
+
 
 _Stereographic projection_ is the name for a specific [[homeomorphism]] (for any $n \in \mathbb{N}$) form the [[n-sphere]] $S^n$ with one point $p \in S^n$ removed to the [[Euclidean space]] $\mathbb{R}^n$ 
 
@@ -30,11 +46,25 @@ $$
   \,.
 $$
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/StereographicProjection.png" width="300" >
-</div>
+One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^{n+1}$ in the standard way, such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. 
 
-One thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^{n+1}$ in the standard way, such that they [[intersection|intersect]] in the [[equator]] of the $n$-sphere. For $p \in S^n$ one of the corresponding poles, the _stereorgraphic projection_ is the  map which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane. 
+
+\begin{imagefromfile}
+    "file_name": "StereographicProjection.png",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+For $p \in S^n$ one of the corresponding poles, the _stereorgraphic projection_ is the  map which sends a point $x \in S^{n}\backslash \{p\}$ along the line connecting it with $p$ to the equatorial plane. 
+
+
 
 
 If one applies stereographic projection to _both_ possible poles $p_+, p_- \in S^n$ of the sphere given a fixed equatorial plane, then one obtains two different [[homeomorphisms]]
@@ -319,7 +349,12 @@ If we assume $a, b, c$ are coprime, and further (re)arrange the triple so that $
 
 ## References
 
-See also
+Textbook accounts:
+
+* {#Apostol73} [[Tom Apostol]], Fig. 1.3 in: *Mathematical Analysis* 1973 ([pdf](http://www.ru.ac.bd/wp-content/uploads/sites/25/2019/03/205_04_Apostol-Mathematical-Analysis-1973.pdf))
+
+
+See also:
 
 * Wikipedia, _[Stereographic projection](https://en.wikipedia.org/wiki/Stereographic_projection)_
 
