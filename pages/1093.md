@@ -492,6 +492,7 @@ The characterization of sheaf toposes and Grothendieck topologies in terms of le
 
 where it is implied by the combination of Corollary VII 4.7 and theorem V.4.1.
 
+There is also a direct proof in [[Shane Kelly]], _What is the relationship between Grothendieck pretopologies and Grothendieck topologies?_ ([web] (https://www.ms.u-tokyo.ac.jp/~kelly/pdfs/grothendieckTop.pdf)) .
 
 The characterization of $Sh(S)$ as the [[homotopy category]] of $PSh(S)$ with respect to local isomorphisms is emphasized at the beginning of the text
 
@@ -508,6 +509,8 @@ It's a bit odd that the full final statement does not seem to be stated there ex
 * lemma 16.3.2 states that the unit of the [[adjoint functor|adjunction]] $Id_{PSh(S)} \rightarrow i \circ \bar{(-)} : PSh(S) \to PSh(S)$ is componentwise a [[local isomorphism]];
 
 * using this corollary 7.2.2 says that $Sh(S) \simeq Ho_{PSh(S)}$ with the [[homotopy category]] $Ho_{PSh(S)}$ formed using [[local isomorphism]]s as weak equivalences.
+
+
 
 
 
