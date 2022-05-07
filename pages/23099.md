@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -75,20 +76,19 @@ Rational homotopy theory (as well as [[real homotopy theory]]) for general conne
 
 based on
 
+* [[Stephen Halperin]], [[Daniel Tanré]], *Homotopie filtrée et fibres $C^\infty$*, Illinois J. Math. 34(2): 284-324 (1990) ([doi:10.1215/ijm/1255988268](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-34/issue-2/Homotopie-filtr%c3%a9e-et-fibres-Cinfty/10.1215/ijm/1255988268.full))
+
 * {#BrownSzczarba90} [[Edgar Brown]], [[Robert H. Szczarba]], _Continuous cohomology and Real homotopy type II_ Asterisque 191, Societe Mathematique De France (1990) ([numdam:AST_1990__191__45_0](http://www.numdam.org/book-part/AST_1990__191__45_0))
 
 * {#BrownSzczarba93} [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
 
-and further developed in:
+and further developed in
 
 * [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0), [jstor:118074](https://www.jstor.org/stable/118074))
 
-Comparative review is in:
+which is reviewed in:
 
 * Sergei O. Ivanov, Section 12 of: *An overview of rationalization theories of non-simply connected spaces and non-nilpotent groups* ([arXiv:2111.10694](https://arxiv.org/abs/2111.10694))
-
-
-
 
 
 A textbook account is in:
