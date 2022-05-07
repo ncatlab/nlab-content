@@ -665,7 +665,15 @@ For the case of [[representation tori]]
 > graphics grabbed form [Sati-Schreiber 19](#SatiSchreiber19)
 
 
-<br/>
+\linebreak
+
+## Related concepts
+
+* [[Hopf degree theorem]]
+
+* [[Poincaré–Hopf theorem]]
+
+* [[Pontrjagin theorem]], [[equivariant Pontrjagin theorem]]
 
 ## References
 
