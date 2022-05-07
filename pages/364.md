@@ -31,11 +31,14 @@ On [[transferred model structures]] and [[model structures on functors]]:
 
 
 
-On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]]:
+On [[(∞,1)-category theory]] via the [[homotopy 2-category of (∞,1)-categories]] ([[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]):
 
 * [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics Volume 280, 6 August 2015, Pages 549-642 ([arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021))
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
+
+* {#Riehl21} [[Emily Riehl]], *The formal theory of ∞-categories*, talk at *[Categories and Companions Symposium June 8–12, 2021](http://web.science.mq.edu.au/groups/coact/seminar/CaCS2021/)* ([video](https://youtu.be/iX5Fxen3K-U))
+
 
 On [[(∞,1)-functors]] and [[(∞,1)-monads]]:
 
