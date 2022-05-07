@@ -1995,9 +1995,11 @@ to the class in $(E/\mathbb{S})_d$ of this diagram:
 \end{xymatrix}
 
 
-  Then: This function a [[bijection]] which respects the canonical 
-  fibrations of both sides over 
-  $\mathbb{S}_{d-1}$.
+Then: This function a [[bijection]] 
+
+> No, that's wrong. Not a bijection, just a map. Will fix...
+
+which respects the canonical  fibrations of both sides over $\mathbb{S}_{d-1}$.
     
 \end{proposition}
 See also [this Prop.](d-invariant#EFluxesAreCocycleInCofiberTheory) at _[[d-invariant]]_.
