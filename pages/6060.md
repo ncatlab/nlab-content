@@ -85,7 +85,7 @@ This is also called _[[H-cohomology]]_ ([Cavalcanti 03, p. 19](#Cavalcanti03)).
 #### Preliminaries
  {#EquivariantPreliminaries}
 
-The following construction and argument may be found in [Becerra & Uribe 2009, Section 3.2](orbifold+K-theory#BecerraUribe09). The analogous argument in terms of [[bundle gerbes]] is in [Tu & Xu 2006, Prop. 2.6 & 3.6](#TuXu06).
+The following construction and argument may be found in [Becerra & Uribe 2009, Section 3.2](orbifold+K-theory#BecerraUribe09). The corresponding argument in terms of [[bundle gerbes]] is in [Tu & Xu 2006, Prop. 2.6 & 3.6](#TuXu06) and a corresponding argument in terms of a [[Serre spectral sequence]] (?) is sketched in [Freed, Hopkins & Teleman 07, (3.5)](#FreedHopkinsTeleman07).
 
 For $g \in G$ consider the right [[group action]] of the [[direct product group]] $C_G(g) \times \mathbb{Z}$ on the [[fixed locus]] $X^g$ (eq:gFixedLocusInGManifold) given by
 
@@ -312,7 +312,7 @@ Further discussion (often as the [[codomain]] of the [[twisted Chern character]]
 
 * [[Varghese Mathai]], [[Danny Stevenson]], Section 3 of: _Chern character in twisted K-theory: equivariant and holomorphic cases_, Commun. Math. Phys. 236:161-186, 2003 ([arXiv:hep-th/0201010](https://arxiv.org/abs/hep-th/0201010))
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Section 2 of: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
+* {#FreedHopkinsTeleman07} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Section 2 of: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
 
 * {#Teleman04} [[Constantin Teleman]], around Prop. 3.7 in: _K-theory of the moduli of bundles over a Riemann surface and deformations of the Verlinde algebra_, in: [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_, Cambridge 2004 ([arXiv:math/0306347](https://arxiv.org/abs/math/0306347), [spire:660158](https://inspirehep.net/literature/660158))
 
