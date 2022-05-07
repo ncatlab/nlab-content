@@ -454,13 +454,20 @@ $\mathbf{H}_{/Type}$ is the "context of the universe". And so this says that the
 
 ## References
 
-Secton 2.4.7 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
- {#Lurie}
+
+* {#Lurie} [[Jacob Lurie]], Section 2.4.7 of: _[[Higher Topos Theory]]_ 
+ 
 
 [[!redirects codomain fibrations]]
+
 [[!redirects codomain opfibration]]
 [[!redirects codomain opfibrations]]
+
 [[!redirects self-indexing]]
 [[!redirects self-indexing of a category]]
+
+[[!redirects family fibration]]
+[[!redirects family fibrations]]
+
+
