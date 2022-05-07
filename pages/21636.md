@@ -5,11 +5,11 @@
 
 I am a PhD student at [Departament of Mathematics](http://www.mat.ufmg.br/posgrad/) of Universidade Federal de Minas Gerais (UFMG), Brazil. 
 
-Presently I am mainly interested in (higher) gauge theory, geometric regularity theory, in finding general theorems on emergence between field theories,  in applying categorification methods in algebra and differential geometry, in abstracting standard results and in the axiomatization problem of Astrophysics.
+I am mainly interested in using applying (higher) categorical theory to Physics and Mathematics, and also in some aspects of differential geometry. Previously I was involved with mathematical aspects of Astrophysics.
 
-I am a co-founder of a research group on mathematical-physics and categorification, called Algebraic, Categorical and Geometric Methods in Physics (or just [[Math-Phys-Cat Group]]). For our website, see [here](https://math-phys.group/).
+I am co-founder of a research group on mathematical-physics and categorification called [[Math-Phys-Cat Group]], see [here](https://math-phys.group/).
 
-You can also find me on: [arXiv](https://arxiv.org/a/martins_y_1.html), [ORCID](https://orcid.org/0000-0003-3717-6774), [HAL](https://hal.archives-ouvertes.fr/search/index/?q=yuri-ximenes-martins&submit=),  [Zenodo](https://zenodo.org/search?page=1&size=20&q=%22Ximenes%20Martins,%20Yuri%22) and [Google Scholar](https://scholar.google.com/citations?user=5gsjGswAAAAJ&hl=pt-BR). For my CV, see [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
+* [arXiv](https://arxiv.org/a/martins_y_1.html), [ORCID](https://orcid.org/0000-0003-3717-6774), [HAL](https://hal.archives-ouvertes.fr/search/index/?q=yuri-ximenes-martins&submit=),  [Zenodo](https://zenodo.org/search?page=1&size=20&q=%22Ximenes%20Martins,%20Yuri%22) and [Google Scholar](https://scholar.google.com/citations?user=5gsjGswAAAAJ&hl=pt-BR);
 
 The best way to contact me is through the email yurixm@ufmg.br. 
 
@@ -60,6 +60,8 @@ On a functorial extension of Feynman rules from Feynman graphs to structured hyp
 
 ###Textbooks and Lecture Notes
 
+For the complete list, see [here](https://sites.google.com/prod/view/yxmartins/teaching/lectures).
+
 On an introduction to (algebraic) topology and differential geometry aiming the study of general spherically symmetric black holes (in Brazilian portuguese):
 
 * Fábio Dadam, [[Yuri Ximenes Martins]], _Topologia, Geometria e Buracos Negros_, NEA, 2016. ([hal-02908935v1](https://hal.archives-ouvertes.fr/hal-02908935v1))
@@ -71,7 +73,7 @@ On an introduction to abstract [[homotopy theory]] by means of [[model categorie
 
 ## Selected Talks
 
-For the full list of talks and invited talks, see [here](https://sites.google.com/view/yxmartins/teaching/advising) or [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
+For the complete list, see [here](https://sites.google.com/prod/view/yxmartins/research/papers-and-talks).
 
 On the role of higher category theory in the foundations of physics:
  
@@ -83,11 +85,10 @@ On a vertical categorification of Lie algebras (called Lie algebroidal categorie
 
 * _Lie Algebroidal Categories_, Young Algebraist Meeting, UFMG, 2020. ([hal-02907904v1](https://hal.archives-ouvertes.fr/hal-02907904v1))
 
-## Current Advising
+## Advising
 
-Currently I am (co)advising four master students (joint [[Rodney Josué Biezuner]]). For the full list, including past advising, see [here](https://sites.google.com/view/yxmartins/teaching/advising) or [here](https://math-phys.group/wp-content/uploads/2020/07/cv_yuri.pdf).
+Currently I am (co)advising three master students (joint [[Rodney Josué Biezuner]]). For past advising, see [here](https://sites.google.com/view/yxmartins/teaching/advising).
 
-* Luiz Felipe Andrade Campos, _On Extensions of Yang-Mills-Type Theories_, started 2019/1
 
 * Mayk Alves de Andrade, _Modal Homotopy Type Theory on the Foundations of Physics_, started 2019/2
 
