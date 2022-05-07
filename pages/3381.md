@@ -119,6 +119,8 @@ We can express this more compactly by writing $\sigma$ in "cycle notation", as t
 
 * [[permutation D-brane]]
 
+* [[unitary isomorphism]]
+
 ## References
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
