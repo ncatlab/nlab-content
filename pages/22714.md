@@ -41,7 +41,7 @@ $$
 
 * A one-object flexible magmoid is a [[flexible magma]]. 
 
-* A [[Mod]]-enriched flexible magmoid is called a flexible algebroid. 
+* A [[Mod]]-enriched flexible magmoid is called a flexible [[linear magmoid]]. 
 
 ## Related concepts
 
