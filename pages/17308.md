@@ -434,6 +434,95 @@ $$
 
 =--
 
+
+In fact, for computing [[hom-sets]] in the homotopy category, it is sufficient that the [[domain]] is [[cofibrant object|cofibrant]] and the [[codomain]] is [[fibrant object|fibrant]]:
+
++-- {: .num_lemma #HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}
+###### Lemma
+
+For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, the morphism
+
+$$
+ Hom_{Ho(\mathcal{C})}(P X,Q Y)
+  =
+ Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
+   \overset{Hom_{\mathcal{C}}(j_X, p_Y)}{\longrightarrow}
+ Hom_{\mathcal{C}}(X,Y)/_{\sim}
+$$
+
+(on [[homotopy classes]] of morphisms, well defined by prop. \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations}) is a [[natural bijection]].
+
+=--
+
+([Quillen 67, I.1 corollary 1](#Quillen67))
+
++-- {: .proof}
+###### Proof
+
+We may factor the morphism in question as the composite
+
+$$
+  Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
+    \overset{Hom_{\mathcal{C}}(id_{P X}, p_Y)/_\sim }{\longrightarrow}
+  Hom_{\mathcal{C}}(P X, Y)/_{\sim}
+    \overset{Hom_{\mathcal{C}}(j_X, id_Y)/_\sim}{\longrightarrow}
+  Hom_{\mathcal{C}}(X,Y)/_{\sim}
+  \,.
+$$
+
+This shows that it is sufficient to see that for $X$ cofibrant and $Y$ fibrant, then
+
+$$
+  Hom_{\mathcal{C}}(id_X, p_Y)/_\sim
+   \;\colon\;
+  Hom_{\mathcal{C}}(X, Q Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
+$$
+
+is an isomorphism, and dually that
+
+$$
+  Hom_{\mathcal{C}}(j_X, id_Y)/_\sim
+  \;\colon\;
+  Hom_{\mathcal{C}}(P X, Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
+$$
+
+is an isomorphism. We discuss this for the former; the second is [[formal dual|formally dual]]:
+
+First, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is surjective is the [[lifting property]] in
+
+$$
+  \array{
+    \emptyset &\longrightarrow& Q Y
+    \\
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{p_Y}}_{\mathrlap{\in W \cap Fib}}
+    \\
+    X &\overset{f}{\longrightarrow}& Y
+  }
+  \,,
+$$
+
+which says that any morphism $f \colon X \to Y$ comes from a morphism $\hat f \colon X \to Q Y$ under postcomposition with $Q Y \overset{p_Y}{\to} Y$.
+
+Second, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is injective is the lifting property in
+
+$$
+  \array{
+    X \sqcup X &\overset{(f,g)}{\longrightarrow}& Q Y
+    \\
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{p_Y}}_{\mathrlap{\in W \cap Fib}}
+    \\
+    Cyl(X) &\underset{\eta}{\longrightarrow}& Y
+  }
+  \,,
+$$
+
+which says that if two morphisms $f, g \colon X \to Q Y$ become homotopic after postcomposition with $p_Y \colon Q X \to Y$, then they were already homotopic before.
+
+=--
+
+
+
+
 ## Derived functors
  {#DerivedFunctors}
 
@@ -757,17 +846,20 @@ on the [[double category of model categories]] ([this Prop.](double+category+of+
 
 ## References
 
-The original account is due to
+The original account:
 
-* {#Quillen67} [[Daniel Quillen]], _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+* {#Quillen67} [[Daniel Quillen]], Chapter I, _Axiomatic homotopy theory_ in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
-Review includes
+Review:
 
 * {#DwyerSpalinski95} [[William Dwyer]], J. Spalinski, _[[Homotopy theories and model categories]]_ ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf)) in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ 1995
 
 * {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], section II.1 of _[[Simplicial homotopy theory]]_ Birkh&#228;user 1999, 2009
 
 
+* *[[Introduction to Homotopy Theory]]*, [this Section](Introduction+to+Homotopy+Theory#TheHomotopyCategory)
+
+  > (where the above material is mostly taken from)
 
 [[!redirects homotopy categories of model categories]]
 
