@@ -635,7 +635,7 @@ Coends and [[ends]] were introduced by [[Nobuo Yoneda]] (of the [[Yoneda lemma]]
 
 * [[Nobuo Yoneda]], _On Ext and exact sequences_, Journal of the Faculty of Science. University of Tokyo. Section I.  Volume 8 (1960), 507–576.
 
-The standard reference is
+Textbook accounts:
 
 * [[Max Kelly]], _Basic concepts in enriched category theory_ 
   ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
@@ -649,11 +649,15 @@ The standard reference is
 
   * the end of general $V$-enriched functors in terms of weighted limits is in section 3.10 .
 
+
+* [[Francis Borceux]], Def. 6.6.8 in: *[[Handbook of Categorical Algebra]]*, Vol. 2:  *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+
+* {#Fosco} [[Fosco Loregian]], _Coend calculus_, Cambridge University Press 2021 ([arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657]( https://doi.org/10.1017/9781108778657), ISBN:9781108778657).
+
+See also:
+
 * [Ends](http://golem.ph.utexas.edu/category/2014/01/ends.html), $n$-Category Caf&#233; discussion.
 
-A textbook account is available in the book
-
-* {#Fosco} [[Fosco Loregian]], _Coend calculus_ ([arXiv](http://arxiv.org/abs/1501.02503)).
 
 Application in [[conformal field theory]]:
 
