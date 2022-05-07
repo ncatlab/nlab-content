@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -213,9 +214,9 @@ $$
 
 ### Equivariant bundles
 
-We say that a $G$-equivariant principal bundle is a [[principal bundle]] [[internalization|internal]] to [[topological G-spaces]]. 
+We say that a $G$-equivariant principal bundle is a [[principal bundle]] [[internalization|internal]] to [[topological G-spaces]].
 
-(Beware that, following tradition in equivariant bundle theory, we do not impose a [[local trivialization|local trivializability condition]] at this point, but add this as an extra clause later and then speak explicitly of _locall trivial equivariant bundles_ -- for more on this see at _[Notions of equivariant local triviality](#NotionsOfEquivariantLocalTriviality)_.) 
+(Beware that, following tradition in equivariant bundle theory, we do not impose a [[local trivialization|local trivializability condition]] at this point, but add this as an extra clause later and then speak explicitly of _locall trivial equivariant bundles_ -- for more on this see at _[Notions of equivariant local triviality](#NotionsOfEquivariantLocalTriviality)_.)
 
 \begin{defn}\label{EquivariantPrincipalBundles}
 (**[[equivariant principal bundle]]**)
@@ -294,20 +295,20 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 
 \begin{prop}\label{EquivariantCosetSpaceBundles}
 **(semidirect product coset space bundles are locally trivial)**
-  Let $H \subset G$ be a [[closed subgroup]], 
-  and let 
-  $Q$ be a lift of $H$ to a [[closed subgroup]] of the [[semidirect product group]], as shown on the left here:
+  Let $H \subset G$ be a [[closed subgroup]],
+  and let
+  ${\widehat H}$ be a lift of $H$ to a [[closed subgroup]] of the [[semidirect product group]], as shown on the left here:
 
 \[
   \label{EquivariantBundleOfCosetSpaces}
   \array{
-    Q &\subset& \Gamma \rtimes_\alpha G
+    {\widehat H} &\subset& \Gamma \rtimes_\alpha G
     &{\phantom{A}}&
     \big(
-      \Gamma \rtimes_\alpha G 
+      \Gamma \rtimes_\alpha G
     \big)
     \big/
-    Q
+    {\widehat H}
     \\
     {}^{\mathllap{\simeq}}
     \big\downarrow
@@ -331,7 +332,7 @@ and called the _base space_ $(X,\rho) \in G Actions(TopologicalSpaces)$ the foll
 
 Then the induced [[bundle]] of [[coset spaces]], shown on the right of (eq:EquivariantBundleOfCosetSpaces):
 
-1. is a $(\Gamma,\alpha)$-principal bundle (under Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}) 
+1. is a $(\Gamma,\alpha)$-principal bundle (under Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})
 
 1. is [[locally trivial]] as an ordinary $\Gamma$-[[fiber bundle]] in [[TopologicalSpaces]] as soon as the the [[coset space]] [[coprojection]] $G \to G/H$ [[coset space coprojection admitting local sections|admits local sections]].
 
@@ -341,7 +342,7 @@ This is [tom Dieck 69, Lemma in Sec. 2.1](#tomDieck69)
 
 \begin{proof}
 
-The first statement is evident. 
+The first statement is evident.
 
 For the second statement, let $\sigma$ denote a local section over an open subset $U \subset G/H$:
 
@@ -360,9 +361,9 @@ $$
     &
     \big\downarrow
     &{}^{{}_{(pb)}}&
-    \big\downarrow 
+    \big\downarrow
     \\
-    U 
+    U
     &=&
     U
     &\longrightarrow&
@@ -388,9 +389,9 @@ $$
       \longrightarrow
     }
     &&
-    \big( 
+    \big(
       \Gamma \times_\alpha G
-    \big) / Q
+    \big) / {\widehat H}
     \\
     & \searrow && \swarrow
     \\
@@ -400,7 +401,7 @@ $$
 
 is an [[isomorphism]], of $\Gamma$-[[principal bundles]] over $U \subset G/H$.
 
-* It is clear by construction that the map is 
+* It is clear by construction that the map is
 
   1. [[continuous function|continuous]].
 
@@ -408,11 +409,11 @@ is an [[isomorphism]], of $\Gamma$-[[principal bundles]] over $U \subset G/H$.
 
 * To see that map is an isomorphism it is sufficient to see that it is so over each $u \in U$:
 
-  * Injectivity here follows from the fact that $Q$ is a lift of $H$, so that the unique element lifting the [[neutral element]] is the neutral element.
+  * Injectivity here follows from the fact that ${\widehat H}$ is a lift of $H$, so that the unique element lifting the [[neutral element]] is the neutral element.
 
-  * To see that the map is surjective over each $u \in U$: 
+  * To see that the map is surjective over each $u \in U$:
 
-    That $[\gamma, g] \in \big( \Gamma \rtimes_\alpha G \big)/Q$ is in the fiber over $u$ means that $ g^{-1} \sigma(u) \in H \subset G$. Then for $q \in Q$ the unique element with $pr_2(q) = g^{-1} \sigma(u)$ we see that $[\gamma, g] = \big[ (\gamma,g) \cdot q \big] = [\cdots, \sigma(u)]$, which is manifestly in the image of our map.
+    That $[\gamma, g] \in \big( \Gamma \rtimes_\alpha G \big)/{\widehat H}$ is in the fiber over $u$ means that $ g^{-1} \sigma(u) \in H \subset G$. Then for $\hat h \in \widehat H$ the unique element with $pr_2(\hat h) = g^{-1} \sigma(u)$ we see that $[\gamma, g] = \big[ (\gamma,g) \cdot q \big] = [\cdots, \sigma(u)]$, which is manifestly in the image of our map.
 
     (Filling in the ellipses here, which is straightforward but unenlightning, actually gives the continuous inverse map.)
 
@@ -429,14 +430,14 @@ In fact every equivariant principal bundle over a coset space is of this form:
 $$
   P \overset{p}{\longrightarrow} G/H
   \,,
-$$ 
+$$
 
-which is [[locally trivial]] as an ordinary $\Gamma$-[[principal bundle]], is [[isomorphism|isomorphic]] 
+which is [[locally trivial]] as an ordinary $\Gamma$-[[principal bundle]], is [[isomorphism|isomorphic]]
 
 \[
   \label{TrivializingBundleIosmorphismOverCosetSpace}
   \array{
-    (\Gamma \rtimes_\alpha G)/Q
+    (\Gamma \rtimes_\alpha G)/{\widehat H}
     &&
     \underoverset
       {\simeq}
@@ -445,9 +446,9 @@ which is [[locally trivial]] as an ordinary $\Gamma$-[[principal bundle]], is [[
     &&
     P
     \\
-    & 
+    &
     \searrow
-    && 
+    &&
     \swarrow
     \\
     &&
@@ -455,11 +456,11 @@ which is [[locally trivial]] as an ordinary $\Gamma$-[[principal bundle]], is [[
   }
 \]
 
-to a [[coset space]]-bundle $(\Gamma \rtimes_\alpha G)/Q \longrightarrow G/H$ from Prop. \ref{EquivariantCosetSpaceBundles}, for $Q$ a lift of $H$ to a [[closed subgroup]] of the [[semidirect product group]]:
+to a [[coset space]]-bundle $(\Gamma \rtimes_\alpha G)/{\widehat H} \longrightarrow G/H$ from Prop. \ref{EquivariantCosetSpaceBundles}, for ${\widehat H}$ a lift of $H$ to a [[closed subgroup]] of the [[semidirect product group]]:
 
 $$
   \array{
-    Q &\subset& \Gamma \rtimes_\alpha G
+    {\widehat H} &\subset& \Gamma \rtimes_\alpha G
     \\
     {}^{\mathllap{\simeq}}
     \big\downarrow
@@ -481,43 +482,43 @@ $$
 \begin{proof}
 
 Regard $P$ as equipped with the [[action]] of the [[semidirect product group]] $\Gamma \rtimes_\alpha G$, by Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles}.
-   
-Let $e \in P_{[H]}$ be any point in the [[fiber]] over $[H] \in G/H$, and take 
+
+Let $e \in P_{[H]}$ be any point in the [[fiber]] over $[H] \in G/H$, and take
 
 $$
-  Q \;\coloneqq\; Stab_{\Gamma \rtimes_\alpha G}(e)
+  {\widehat H} \;\coloneqq\; Stab_{\Gamma \rtimes_\alpha G}(e)
 $$
 
 to be its [[stabilizer subgroup]] under the [[semidirect product group]]-action. We observe that this has the stated properties:
 
-* $Q$ is a [[closed subgroup]] because [stabilizer subgroups are closed subgroups](closed+subgroup#StabilizerSubgroupsOfContinuousActionsOnT1SpacesAreClosed) under the Hausdorff-ness assumption;
+* ${\widehat H}$ is a [[closed subgroup]] because [stabilizer subgroups are closed subgroups](closed+subgroup#StabilizerSubgroupsOfContinuousActionsOnT1SpacesAreClosed) under the Hausdorff-ness assumption;
 
-* under $\Gamma \rtimes_\alpha G \overset{pr_2}{\longrightarrow} G$ we have $Q \to H$, since  for all $q \in Q$:
+* under $\Gamma \rtimes_\alpha G \overset{pr_2}{\longrightarrow} G$ we have ${\widehat H} \to H$, since  for all $\hat h \in \widehat H$:
 
   $$
     \begin{aligned}
-      [H] 
-      &= p(q \cdot e) 
+      [H]
+      &= p(\hat h \cdot e)
       \\
-      & = pr_2(q) \cdot p(e) 
+      & = pr_2(\hat h) \cdot p(e)
       \\
-      & = pr_2(q) \cdot [H]
+      & = pr_2(\hat h) \cdot [H]
     \end{aligned}
   $$
 
-* $Q \to H$ is 
+* ${\widehat H} \to H$ is
 
   * a [[surjection]] because the action of $\Gamma$ on the [[fibers]] of $P$ is a [[transitive action]],
 
-  * an [[injection]] because the action of $\Gamma$ on the [[fibers]] of $P$ is a [[free action]] 
-  
+  * an [[injection]] because the action of $\Gamma$ on the [[fibers]] of $P$ is a [[free action]]
+
   (by [principality](#EquivariantPrincipality)).
 
-Moreover, it is clear by construction that (eq:TrivializingBundleIosmorphismOverCosetSpace) is a $(\Gamma \rtimes_\alpha G)$-[[equivariant function|equivariant]] [[continuous function]] over $G/H$. 
+Moreover, it is clear by construction that (eq:TrivializingBundleIosmorphismOverCosetSpace) is a $(\Gamma \rtimes_\alpha G)$-[[equivariant function|equivariant]] [[continuous function]] over $G/H$.
 
 Hence to see that (eq:TrivializingBundleIosmorphismOverCosetSpace) is an [[isomorphism]] (a [[homeomorphism]] of underlying [[topological spaces]]) it is sufficient to see that after [[forgetful functor|forgetting]] the $G$-[[action]] we have a morphism between ordinary $\Gamma$-[[principal bundles]] over their common base space, because any such is an [[isomorphism]], as is manifest from its restriction to any common [[local trivialization]].
 
-Therefore it is now sufficient to see that the coset bundle $(\Gamma \rtimes_\alpha G)/Q \longrightarrow G/H$ is [[locally trivial]] as a $\Gamma$-[[principal bundle]]. But this is the statement of Prop. \ref{EquivariantCosetSpaceBundles}.
+Therefore it is now sufficient to see that the coset bundle $(\Gamma \rtimes_\alpha G)/{\widehat H} \longrightarrow G/H$ is [[locally trivial]] as a $\Gamma$-[[principal bundle]]. But this is the statement of Prop. \ref{EquivariantCosetSpaceBundles}.
 
 \end{proof}
 
@@ -532,8 +533,8 @@ The literature considers various different notions of [[local triviality]] of eq
 
 \begin{definition}\label{tomDieckEquivariantLocalTrivialization}
 **(tom Dieck's equivariant local triviality condition -- [tom Dieck 69, Def. 2.3](#tomDieck69), [tom Dieck 87, p. 58](#tomDieck87))**\linebreak
-  An equivariant principal bundle 
-  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
+  An equivariant principal bundle
+  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})
   $$
     P \overset{p}{\longrightarrow} B
     \;\;
@@ -541,19 +542,19 @@ The literature considers various different notions of [[local triviality]] of eq
     \;
     (\Gamma,\alpha)PrincipalBundles
   $$
-  is **[[locally trivial]]** if there exists 
+  is **[[locally trivial]]** if there exists
 
 1. an index-[[set]] $I$,
 
 1. an $I$-[[indexed set]] of [[topological subspace|sub]]-[[topological G-space|G-spaces]]
- 
+
    $$
      U_i \;\subset\; B
      \;\;
      \in
      G Actions
      \big(
-      TopologicalSpaces 
+      TopologicalSpaces
      \big)
    $$
 
@@ -561,7 +562,7 @@ The literature considers various different notions of [[local triviality]] of eq
 
 1. an $I$-[[indexed set]] of $E_i \overset{p_i}{\to} G/H_i \;\in\; (\Gamma,\alpha)PrincipalBundles$ over their [[coset spaces]];
 
-such that 
+such that
 
 1. $\big\{ U_i \hookrightarrow B \big\}_{i \in I}$ is an [[open cover]] in [[TopologicalSpaces]];
 
@@ -594,8 +595,8 @@ such that
 
 \begin{definition}\label{BierstoneEquivariantLocalTrivialization}
 **(Bierstone's equivariant local triviality condition -- [Bierstone 78, Sec. 4, p. 619-620](#Bierstone78))**\linebreak
-  An equivariant principal bundle 
-  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
+  An equivariant principal bundle
+  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})
 
   $$
     P \overset{p}{\longrightarrow} X
@@ -605,14 +606,14 @@ such that
     (\Gamma,\alpha)PrincipalBundles
   $$
 
-  is **[[locally trivial]]** if for each point $x \in X$ (with [[isotropy 
-group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there exists 
+  is **[[locally trivial]]** if for each point $x \in X$ (with [[isotropy
+group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there exists
 
-1. an [[open neighbourhood]] 
+1. an [[open neighbourhood]]
 
    $$
-     U_x 
-       \;\subset\; 
+     U_x
+       \;\subset\;
      X \;\; \in \; G_x Actions(TopologicalSpaces)
    $$
 
@@ -644,8 +645,8 @@ group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there 
 
 \begin{definition}\label{LashofEquivariantLocalTrivialization}
 **(Lashof's equivariant local triviality condition --  [Lashof 82, p. 258](#Lashof82), [Lashof-May 86, p. 267](#LashofMay86))**\linebreak
-  An equivariant principal bundle 
-  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})  
+  An equivariant principal bundle
+  (Def. \ref{EquivariantPrincipalBundles}, Prop. \ref{PrincipalBundlesInternalToGSpacesEquivalentTotomDieckBundles})
 
   $$
     P \overset{p}{\longrightarrow} X
@@ -655,8 +656,8 @@ group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there 
     (\Gamma,\alpha)PrincipalBundles
   $$
 
-  is **[[locally trivial]]** if for each point $x \in X$ (with [[isotropy 
-group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there exists 
+  is **[[locally trivial]]** if for each point $x \in X$ (with [[isotropy
+group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there exists
 
 1. an index-[[set]] $I$;
 
@@ -666,7 +667,7 @@ group]]/[[stabilizer group]] denoted $G_x \coloneqq Stab_G(x) \subset X$) there 
 
 1. an $I$-[[indexed set]] of $\Gamma_i \;\in\; H_i Actions(TopologicalSpaces)$ lifting $\Gamma \in TopologicalSpaces$;
 
-such that 
+such that
 
 1. the [[orbits]] of the [[slice theorem|slices]] $\big\{ G\cdot S_i \subset X \big\}_{i \in I}$ form an [[open cover]] over $X$;
 
@@ -677,9 +678,9 @@ such that
      \array{
        P_{\vert G\cdot S_i}
        &\longrightarrow&
-       G 
+       G
          \times_{H_i}
-       \big( 
+       \big(
          S_i \times \Gamma_i
        \big)
        \\
@@ -719,18 +720,18 @@ such that
 \begin{proof}
   It is sufficient to see that Lashof's local model bundles in (eq:LashofLocalTrivalityHomomorphism) are examples of tom Dieck's local model bundles in (eq:tomDieckLocalTrivalityHomomorphism).
 
-So let $H \subset G$ be a [[closed subgroup]], $S \subset X$ be an $H$-[[slice theorem|slice]] and 
+So let $H \subset G$ be a [[closed subgroup]], $S \subset X$ be an $H$-[[slice theorem|slice]] and
 
 \[
   \label{LashofActionOfHOnGammaInProofLashofImpliestoDieck}
   \phi \colon H \to \Gamma
 \]
 
-be the [[homomorphism]] through which $H$ acts on $\Gamma$ in Lashof's model for the equivariant bundle over the orbit of the slice. 
+be the [[homomorphism]] through which $H$ acts on $\Gamma$ in Lashof's model for the equivariant bundle over the orbit of the slice.
 
 $$
   \array{
-    G \times_H 
+    G \times_H
     (S \times \Gamma)
     \\
     \big\downarrow
@@ -740,16 +741,16 @@ $$
   }
 $$
 
-By Prop. \ref{EquivariantPrincipalBundlesOverCosetSpacesAreSemidirectProductCosetsSpaceBundles} and using that $\alpha = 1$ we obtain from $\phi$ an equivariant principal bundle over $G/H$ by taking the subgroup $Q$ in (eq:EquivariantBundleOfCosetSpaces) to be the [[graph of a function|graph]] of $\phi$ (eq:LashofActionOfHOnGammaInProofLashofImpliestoDieck)
+By Prop. \ref{EquivariantPrincipalBundlesOverCosetSpacesAreSemidirectProductCosetsSpaceBundles} and using that $\alpha = 1$ we obtain from $\phi$ an equivariant principal bundle over $G/H$ by taking the subgroup ${\widehat H}$ in (eq:EquivariantBundleOfCosetSpaces) to be the [[graph of a function|graph]] of $\phi$ (eq:LashofActionOfHOnGammaInProofLashofImpliestoDieck)
 
 $$
-  Q
+  {\widehat H}
   \;\coloneqq\;
   graph(\phi)
-  \;\subset\; 
+  \;\subset\;
   \Gamma \times G
   \,.
-$$ 
+$$
 
 Observing that the [[coset space]] by a subgroup of this form coincindes with the quotient by the [[diagonal action]]
 
@@ -763,7 +764,7 @@ $$
 makes it evident that tom Dieck's condition (eq:tomDieckLocalTrivalityHomomorphism) is satisfied for Lashof's local model in that the following square is manifestly a [[pullback]]:
 
 $$
-  \array{   
+  \array{
     G
     \times_H
     (S \times \Gamma)
@@ -771,7 +772,7 @@ $$
     \longrightarrow
     &
     G \times_H \Gamma
-    & 
+    &
     =
     &
     (\Gamma \times G)
@@ -781,7 +782,7 @@ $$
     \big\downarrow
     &&
     \big\downarrow
-    & 
+    &
     \swarrow
     \\
     G \times_H S
