@@ -1,10 +1,32 @@
 ## Idea
 
+An _exact $(\infty,1)$-category_ is the analog of an [[exact category]] for [[(∞,1)-category]] theory.
+
+## Definition
+
++-- {: .num_defn #ExactInfinityCategory}
+###### Definition
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _exact $(\infty,1)$-category_ if
+
+1. $\mathcal{C}$ has a [[terminal object in an (∞,1)-category|terminal object]] and [[homotopy fiber products]];
+
+1. [[groupoid object in an (infinity,1)-category|groupoid objects]] in $\mathcal{C}$ are effective:
+
+1. realization of groupoid objects is [[universal colimit|universal]].
+
+=--
+
+## Properties
+
 There is a [[Quillen Q-construction]] for exact (infinity,1)-categories which allows to compute its [[algebraic K-theory]].
 
 ## Related concepts
 
 * [[exact category]]
+
+* [[regular (infinity,1)-category]], [[coherent (infinity,1)-category]], [[(infinity,1)-pretopos]]
+
 * [[Quillen Q-construction]]
 
 ## References
