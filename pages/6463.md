@@ -415,8 +415,7 @@ The diagonal, total d&#233;calage and total simplicial set constructions are dis
 
 The diagonal-induced model structure on $ssSet$ is discussed in
 
-* [[Ieke Moerdijk]], _Bisimplicial sets and the group completion theorem_  in _Algebraic K-Theory: Connections with Geometry and Topology_ , pp 225&#8211;240. Kluwer,
-Dordrecht (1989)
+* [[Ieke Moerdijk]], _Bisimplicial sets and the group completion theorem_  in _Algebraic K-Theory: Connections with Geometry and Topology_, pp 225&#8211;240. Kluwer, Dordrecht (1989)
  {#Moerdijk}
 
 The behaviour of fibrations under [[geometric realization]] of bisimplicial sets is discussed in
