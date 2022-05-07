@@ -3,7 +3,10 @@
 * table of contents
 {:toc}
 
+## Idea
 In [[computer science]], originally in [[database theory]], **lenses** are used in situations where some structure is converted to a different form -- a *view* -- in such a way that changes made to the view can be reflected as updates to the original structure. The same construction has been devised on numerous occasions ([Hedges](#Hedges)).
+
+More recently, lenses (and their [[monoidal category|non-cartesian]] generalization, [[optic (in computer science)|optics]], have been adopted in the context of categorical systems theory, since they represent a *bidirectional stateful computation* remindful of the way some systems expose and update their internal state. For instance, see first chapter of ([Myers and Spivak](#MyersSpivak)) or ([Spivak](#SpivakACT19)).
 
 ## Definition
 
@@ -65,7 +68,7 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 
 * {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
 
-* [[David Spivak]], _Lenses:  applications and generalizations_, [slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf) of talk at ACT 19. 
+* {#SpivakACT19} [[David Spivak]], _Lenses:  applications and generalizations_, [slides](http://math.ucr.edu/home/baez/ACTUCR2019/ACTUCR2019_spivak.pdf) of talk at ACT 19. 
 
 * {#Spivak19} [[David Spivak]], _Generalized Lens Categories via functors $C^{op} \to Cat$_, preprint, 2019 ([arXiv:1908.02202](https://arxiv.org/abs/1908.02202))
 
@@ -78,5 +81,7 @@ An [[optic (in computer science)|optic]] defines a symmetric monoidal functor fr
 * {#Clarke20a} Bryce Clarke, _Internal lenses as functors and cofunctors_, EPTCS, 323, 2020 ([doi:10.4204/EPTCS.323.13](http://dx.doi.org/10.4204/EPTCS.323.13))
 
 * {#Clarke20b} Bryce Clarke, _A diagrammatic approach to symmetric lenses_, EPTCS, 333, 2020 ([arXiv:2101.10481](https://arxiv.org/abs/2101.10481))
+
+* {#MyersSpivak} David J. Myers, David I. Spivak, _Categorical systems theory_, [github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book)
 
 [[!redirects lenses (in computer science)]]
