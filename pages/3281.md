@@ -32,7 +32,7 @@ A _stable model category_ is a 1-[[category]] structure used to present a [[stab
 
 A **stable model category** $\mathcal{C}$ is
 
-* a [[pointed category|pointed]] [[model category]]
+* a [[pointed model category]]
 
 * such that the [[loop space object]] functor $\Omega$ and the [[suspension object]] functor $\Sigma$, are inverse [[equivalence of categories|equivalences]] on the [[homotopy category of a model category|homotopy category]] $Ho(C)$:
 
