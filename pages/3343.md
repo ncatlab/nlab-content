@@ -32,9 +32,15 @@ On [[Riemannian geometry]] on [[Courant algebroids]] and relation to [[supergrav
 * [[Branislav Jurčo]], [[Jan Vysoky]], _Courant Algebroid Connections and String Effective Actions_, Proceedings of Tohoku Forum for Creativity, Special volume: Noncommutative Geometry and Physics IV ([arXiv:1612.01540](https://arxiv.org/abs/1612.01540))
 
 
-In [[schreiber:Higher Structures|higher structures]] in [[M-theory]]:
+On [[schreiber:Higher Structures|higher structures]] in [[M-theory]]:
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_,  Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
+
+On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras]]:
+
+* [[Leron Borsten]], [[Branislav Jurco]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double Copy from Homotopy Algebras_ ([arXiv:2102.11390](https://arxiv.org/abs/2102.11390))
+
+
 
 category: people
 
