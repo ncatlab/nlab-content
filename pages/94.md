@@ -639,6 +639,8 @@ and
 
 ## Related concepts
 
+* [[homomorphism of L-∞ algebras]]
+
 * [[A-∞ algebra]]
 
 * [[E-∞ algebra]]
