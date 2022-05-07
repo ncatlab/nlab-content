@@ -51,14 +51,11 @@ There is an [[infinitesimal space|infinitesimal]] version of a Lie group, a so-c
 The first order [[infinitesimal object|infinitesimal]] approximation to a Lie group is its [[Lie algebra]].
 
 
-
-
 ## Properties
 
 ### Lie's three theorems
 
-[[Sophus Lie]] has proved several theorems -- [[Lie's three theorems]] -- on the relationship between [[Lie algebras]] and Lie groups. What is called [[Lie's third theorem]] is about the [[equivalence of categories]] of f.d. real Lie algebras and local Lie groups. [[Élie Cartan]] has extended this to a global integrability theorem called the Cartan-Lie theorem, nowadays after Serre also called Lie's third theorem.
-
+[[Sophus Lie]] proved several theorems, known as [[Lie's three theorems]], on the relationship between [[Lie algebras]] and Lie groups. Lie's third theorem is about the [[equivalence of categories]] of finite-dimensional real Lie algebras and local Lie groups. Because [[Élie Cartan]] extended this to a global integrability theorem, Lie's third theorem is also called the Cartan-Lie theorem.
 
 ### Lie subgroups
 
