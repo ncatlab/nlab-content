@@ -108,7 +108,7 @@ One can view $X$ as a 'constant scheme' over any other base scheme $Y$ by [[base
 
 * [[FinSet]]
 
-* [[finite object]]
+* [[finite object]], [[finite type]]
 
 * the [[cardinality]] of a finite set is a [[finite number]]
 
@@ -131,6 +131,8 @@ One can view $X$ as a 'constant scheme' over any other base scheme $Y$ by [[base
 * [[finite category]]
 
 * [[space of finite subsets]]
+
+* [[finite homotopy type]], [[π-finite homotopy type]]
 
 \section{References}
 
