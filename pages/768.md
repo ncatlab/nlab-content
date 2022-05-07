@@ -445,7 +445,7 @@ Accordingly there is an induced CW-complex structure on the [[classifying spaces
 
 =--
 
-A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](#Hatcher)). 
+A general proof is spelled out in [Hatcher, section 1.2 (pages 31-34)](#Hatcher). For the case of [[real vector bundle|real]]- , [[complex vector bundle|complex]]- and [[quaternionic vector bundles]] see at _[[cell structure on projective space]]_.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -754,7 +754,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-For $X$ a [[paracompact topological space]], the operation of [[pullback]] of the [[universal principal bundle]] $E O(n) \to B O(n)$ from def. \ref{EOn} along [[continuous functions]] $f \colon X \to B O(n)$ eastblishes a [[bijection]]
+For $X$ a [[paracompact topological space]], the operation of [[pullback]] of the [[universal principal bundle]] $E O(n) \to B O(n)$ from def. \ref{EOn} along [[continuous functions]] $f \colon X \to B O(n)$ establishes a [[bijection]]
 
 $$
   [X, B O(n)]
@@ -766,7 +766,7 @@ between [[homotopy classes]] of functions from $X$ to $B O(n)$ and isomorphism c
 
 =--
 
-A full proof is spelled out in ([Hatcher, section 1.2, theorem 1.16](#Hatcher))
+A full proof is spelled out in [Hatcher, section 1.2, theorem 1.16](#Hatcher).
 
 
 ### For symmetric principal bundles
