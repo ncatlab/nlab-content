@@ -278,7 +278,7 @@ $$
 
 or equivalently by the end
 
-$$ [X,Y]_{Day}(c) = \int_{c_1} V\left(X(c_1),Y(c\otimes c_2)\right) $$
+$$ [X,Y]_{Day}(c) = \int_{c_1} V\left(X(c_1),Y(c\otimes c_1)\right) $$
 
 =--
 
