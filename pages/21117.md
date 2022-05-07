@@ -429,21 +429,19 @@ and concrete implementation by the [[HaPPY code]]:
 
 * {#PYHP15} [[Fernando Pastawski]], [[Beni Yoshida]], [[Daniel Harlow]], [[John Preskill]], _Holographic quantum error-correcting codes: Toy models for the bulk/boundary correspondence_, JHEP 06 (2015) 149 ([arXiv:1503.06237](https://arxiv.org/abs/1503.06237))
 
-Review:
+Introduction of the more general [[Majorana dimer code]]:
+
+* [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
+
+Exposition and review:
+
+* [[John Preskill]], *Is spacetime a quantum error-correcting code?*, talk at KITP 2015 ([pdf](http://theory.caltech.edu/~preskill/talks/Preskill-KITP-holographic-2015.pdf))
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_, PoS TASI2017 (2018) 002 ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040), [doi:10.22323/1.305.0002](https://doi.org/10.22323/1.305.0002))
 
 * [[Pratik Rath]], *Aspects of Holography And Quantum Error Correction*, 2020 ([pdf](https://digitalassets.lib.berkeley.edu/etd/ucb/text/Rath_berkeley_0028E_19810.pdf), [[RathHolographyAndQEC.pdf:file]]) 
 
-Exposition:
-
-* [[John Preskill]], *Is spacetime a quantum error-correcting code?*, talk at KITP 2015 ([pdf](http://theory.caltech.edu/~preskill/talks/Preskill-KITP-holographic-2015.pdf))
-
-Introduction of the more general [[Majorana dimer code]]:
-
-* [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
-
-Review:
+* [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], *The AdS/CFT Correspondence and Holographic Codes* ([doi:10.1142/9781786348210_0013](https://doi.org/10.1142/9781786348210_0013), [doi:10.1142/9781786348210_0014](https://www.worldscientific.com/doi/abs/10.1142/9781786348210_0014)), Part 5 in: Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
 * [[Alexander Jahn]], [[Jens Eisert]], _Holographic tensor network models and quantum error correction: A topical review_ ([arXiv:2102.02619](https://arxiv.org/abs/2102.02619))
 
@@ -461,6 +459,9 @@ Further discussion of holographic quantum error correcting codes:
 * Tamara Kohler, Toby Cubitt, *Toy Models of Holographic Duality between local Hamiltonians*, 	J. High Energy Phys. 2019:17 (2019) ([arXiv:1810.08992](https://arxiv.org/abs/1810.08992))
 
 * Tobias J. Osborne, Deniz E. Stiegemann, *Dynamics for holographic codes*, J. High Energ. Phys. 2020, 154 (2020) ([arXiv:1706.08823](https://arxiv.org/abs/1706.08823))
+
+* Martina Gschwendtner, Robert König, Burak Şahinoğlu & Eugene Tang, *Quantum error-detection at low energies*, Journal of High Energy Physics volume 2019, Article number: 21 (2019) ([arXiv:1902.02115](https://arxiv.org/abs/1902.02115))
+
 
 * [[Nathan A. McMahon]], [[Gavin K. Brennen]], [[Thomas M. Stace]], [[Robert J. Harris]], Elliot Coupe, *Decoding Holographic Codes with an Integer Optimisation Decoder* ([arXiv:2008.10206](https://arxiv.org/abs/2008.10206))
 
@@ -500,10 +501,14 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 
 * {#SimonsFoundationItFromQBit} [[Simons Foundation]], *[It from Qubit: Simons Collaboration on Quantum Fields, Gravity and Information](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)*
 
+
+* Iulia Georgescu, *Strings and qubits*, Nature Reviews Physics volume 1, page 477 (2019) ([doi:s42254-019-0087-6](https://www.nature.com/articles/s42254-019-0087-6))
+
 * Natalie Wolchover, *[How Space and Time Could Be a Quantum Error-Correcting Code](https://www.quantamagazine.org/how-space-and-time-could-be-a-quantum-error-correcting-code-20190103/)*, Quanta Magazine, Jan. 3 2019
 
 * [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
 
+    
 
 
 [[!redirects quantum error correction code]]
@@ -514,4 +519,14 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 
 [[!redirects code subspace]]
 [[!redirects code subspaces]]
+
+
+[[!redirects holographic quantum error correction]]
+
+[[!redirects holographic quantum error correction code]]
+[[!redirects holographic quantum error correction codes]]
+
+[[!redirects holographic quantum error correcting code]]
+[[!redirects holographic quantum error correcting codes]]
+
 
