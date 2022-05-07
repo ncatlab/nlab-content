@@ -121,6 +121,13 @@ turns out to
 
 This class (eq:TwistedChernCharacterAsTwistedDeRhamClassOfTwistedCharClass) is the *twisted Chern character* of the twisted K-theory class $[V_1, V_2]$ ([BCMMS 2002, p. 26](#BCMMS02)).
 
+## Related concepts
+
+* [[Chern character]]
+
+* [[equivariant Chern character]]
+
+* [[twisted equivariant Chern character]]
 
 ## References
 
