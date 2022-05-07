@@ -1,0 +1,16 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Hans_Samelson)
+
+* J. J. O'Connor, E. F. Robertson, _Hans Samelson_ ([web](https://mathshistory.st-andrews.ac.uk/Biographies/Samelson/))
+
+## Selected writings
+
+On [[topological groups]]:
+
+* [[Hans Samelson]], _Beiträge zur Topologie der Gruppenmannigfaltigkeiten_, Ann. of Math. 2, 42, (1941), 1091 - 1137. ([jstor:1970463](https://www.jstor.org/stable/1970463), [doi:10.2307/1970463](https://doi.org/10.2307/1970463))
+
+## Related $n$Lab entries
+
+* [[Samelson product]]
+
+category: people
