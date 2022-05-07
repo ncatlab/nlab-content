@@ -67,13 +67,18 @@ See there for more.
 
 ### General
 
-Modern textbook account in terms of [[Frölicher spaces]] and [[diffeological spaces]]:
+Textbook accounts: 
+
+* [[Alexander Schmeding]],  *An introduction to infinite-dimensional differential geometry*, Cambridge University Press ([arXiv:2112.08114](https://arxiv.org/abs/2112.08114))
+
+in terms of [[Frölicher spaces]] and [[diffeological spaces]]:
 
 * {#KM} [[Andreas Kriegl]], [[Peter Michor]]: _[[The convenient setting of global analysis]]_, AMS (1997) 
  
 Aspects of the [[homotopy theory]] of infinite-dimensional manifolds:
 
 * {#Palais66} [[Richard S. Palais]], *Homotopy theory of infinite dimensional manifolds*, Topology **5** 1 (1966) 1-16 (<a href="https://doi.org/10.1016/0040-9383(66)90002-4">doi:10.1016/0040-9383(66)90002-4</a>)
+
 
 ### Integration
 
@@ -96,3 +101,5 @@ Vol. 124, No. 1 (Jul., 1966), pp. 148-157 ([JSTOR]( http://www.jstor.org/stable/
 [[!redirects infinite dimensional smooth manifolds]]
 [[!redirects infinite-dimensional smooth manifold]]
 [[!redirects infinite-dimensional smooth manifolds]]
+
+[[!redirects infinite-dimensional differential geometry]]
