@@ -20,16 +20,22 @@ A _sifted $(\infty,1)$-colimit_ is an [[(∞,1)-colimit]] over a [[diagram]] tha
 ## Properties
 
 
-+-- {: .num_prop }
-###### Proposition
-
+\begin{prop}
 Let $C$ be an [[(∞,1)-category]] such that [[products]] preserve [[sifted (∞,1)-colimits]] (for instance an [[(∞,1)-topos]], see [[universal colimits]]).
 
-Then [[sifted (∞,1)-colimits]] preserve finite products.
+Then [[sifted (∞,1)-colimits]] preserve [[finite products|finite]] [[homotopy products]].
+\end{prop}
 
-=--
+([Lurie HTT, lemma 5.5.8.11](#LurieHTT)).
 
-This is ([Lurie, lemma 5.5.8.11](#Lurie)).
+## Examples
+
+\begin{prop}\label{SimplicialInfinityColimitsAreSifted}
+**(simplicial $\infty$-colimits are sifted)**
+\linebreak
+  The $(\infty,1)$-colimits of [[simplicial object in an (infinity,1)-category|simplicial objects in an $(\infty,1)$-category]] are sifted.
+\end{prop}
+Since the [[opposite category|opposite]] of the [[simplex category]] is a [[sifted (∞,1)-category]] ([Lurie HTT, Prop. 5.5.8.4](#LurieHTT)).
 
 ## Related concepts
 
@@ -39,11 +45,15 @@ This is ([Lurie, lemma 5.5.8.11](#Lurie)).
 
 ## References
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
- {#Lurie}
+* {#LurieHTT} [[Jacob Lurie]], *[[Higher Topos Theory]]*
+ 
 
 
 [[!redirects sifted (∞,1)-colimit]]
 [[!redirects sifted (∞,1)-colimits]]
 
 [[!redirects sifted (infinity,1)-colimits]]
+
+[[!redirects sifted infinity-colimit]]
+[[!redirects sifted infinity-colimits]]
+
