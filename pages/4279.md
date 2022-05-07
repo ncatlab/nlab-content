@@ -3,6 +3,7 @@
 
 ***
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -83,9 +84,21 @@ such that
 
    1. [[real part|real]] $\,\rho(A^\ast A) \in \mathbb{R} \hookrightarrow \mathbb{C}$ 
 
-   1. as such [[non-negative real number|non-negative]]: $\rho(A^\ast A) \geq 0$.
+   1. as such [[non-negative real number|non-negative]]: 
 
-1. (normalization) $\rho(1) = 1$.
+   \[
+     \label{Positivity}
+     \rho(A^\ast A) \geq 0
+   \]
+
+1. (normalization) 
+   
+   \[
+     \label{Normalization}
+     \rho(\mathbf{1}) = 1
+   \]
+
+   for $\mathbf{1} \in \mathcal{A}$ the [[unit]] in the algebra.
 
 =--
 
@@ -270,9 +283,142 @@ More general states in this case are given by [[density matrices]].
 
 ## Properties
 
-* [[Fell's theorem]];
+### Closure properties
 
-* [[Gleason's theorem]]
+\begin{example}\label{Mixtures}
+**(mixtures, convex combinations)**
+
+For $k \in \mathbb{N}_+$, let 
+
+* $\big( \rho_i \colon \mathcal{A} \to \mathbb{C}  \big)_{i = 1}^k$
+
+  be a $k$-[[tuple]] of states;
+
+* $\big( p_i \in \mathbb{R}_{\geq 0} \big)_{i = 1}^k$, 
+  $\underoverset{i = 1}{k}{\sum} p_i \;=\; 1$ 
+
+  be a [[probability distribution]] on the [[finite set]] $\{1, \cdots, k\}$
+
+then the [[convex combination]]
+
+$$
+  \underoverset{i = 1}{k}{\sum} p_i \cdot \rho_i
+  \;\;\;
+  \in
+  \;
+  \mathcal{A}^\ast
+$$
+
+is another state on the star-algebra $\mathcal{A}$.
+
+
+\end{example}
+
+\begin{prop}\label{OperatorStateCorrespondence}
+**(operator-state correspondence)**
+
+For $\rho \;\colon\; \mathcal{A} \to \mathbb{C}$ a state, with a non-null observable $O \in \mathcal{A}$, $\rho(O^\ast O) \neq 0$, then also
+
+\[
+  \label{OperatorImageOfState}
+  \rho_O
+  \;\colon\;
+  A 
+    \;\mapsto\; 
+  \tfrac{1}{ \rho(O^\ast O) }
+  \cdot
+  \rho\big( O^\ast \cdot A \cdot O \big)
+\]
+
+is a state.
+
+\end{prop}
+\begin{proof}
+
+To check positivity (eq:Positivity), we compute for any $A \in \mathcal{A}$ as follows:
+
+$$
+  \begin{aligned}
+    \rho_O
+    \big(
+      A^\ast
+      \cdot
+      A
+    \big)
+    & =
+    \tfrac{1}{\rho(O^\ast O)}
+    \cdot
+    \rho
+    \big(
+      O^\ast
+      \cdot
+      (
+        A^\ast
+        \cdot
+        A
+      )
+      \cdot
+      O
+    \big)
+    \\
+    & =
+    \tfrac{1}{\rho(O^\ast O)}
+    \cdot
+    \rho
+    \big(
+      (
+        A \cdot O
+      )^\ast
+      \cdot
+      (
+        A
+        \cdot
+        O
+      )
+    \big)
+    \\
+    & \geq 0
+    \,,
+  \end{aligned}
+$$
+
+where the first step is the definition (eq:OperatorImageOfState) the second step uses the [[anti-homomorphisms]]-property of the star-involution, and the last step follows by the assumed positivivity of $\rho$.
+
+To check normalization (eq:Normalization), we observe that:
+
+$$
+  \begin{aligned}
+    \rho_O(\mathbf{1})
+    & =
+    \tfrac{1}{\rho(O^\ast O)}
+    \cdot
+    \rho
+    \big(
+      O^\ast \cdot \mathbf{1} \cdot O
+    \big)
+    \\
+    & =
+    \tfrac{1}{\rho(O^\ast O)}
+    \cdot
+    \rho
+    \big(
+      O^\ast \cdot O
+    \big)
+    \\
+    & = 1
+    \,.
+  \end{aligned}
+$$
+
+\end{proof}
+
+### Fell's theorem
+
+See at *[[Fell's theorem]]*.
+
+### Gleason's theorem
+
+See at *[[Gleason's theorem]]*.
 
 
 
