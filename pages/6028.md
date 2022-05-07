@@ -32,3 +32,6 @@ category: people
 [[!redirects I. Newton]]
 
 [[!redirects Newton]]
+
+[[!redirects Newtonian]]
+
