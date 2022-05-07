@@ -26,9 +26,12 @@ $$ f \otimes f^\prime: V \otimes V^\prime \to W \otimes W^\prime $$
 
 The same category can often be made into a monoidal category in more than one way.  For example the category [[Set]] can be made into a monoidal category with cartesian [[product]] or disjoint union (i.e. [[coproduct]]) as the 'tensor product'.   We can also make [[Vect]] into a monoidal category with direct sum as the 'tensor product' --- this may seem perverse, but it's actually very useful.
 
-For any monoidal category $M$, the operation of tensor product is actually a [[functor]]
+For any monoidal category $M$, the operation of tensor product is actually a [[functor]]:
 
-$$\otimes : M \times M \to M$$
+\[
+  \label{TensorProductFunctor}
+  \otimes \colon  M \times M \longrightarrow M
+\]
 
 This functor, which we can think of as a kind of 'multiplication', makes $M$ into a [[vertical categorification|vertically categorified]] version of a [[monoid]].  This explains the term 'monoidal category'. 
 
