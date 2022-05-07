@@ -100,6 +100,10 @@ Discussion can be found [here](http://mathoverflow.net/a/114666/2926) and [here]
 
 ## Related concepts
 
+* [[profinite group]]
+
+* [[finitely generated group]]
+
 * [[finite abelian group]]
 
 * [[finite group scheme]]
