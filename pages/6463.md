@@ -25,12 +25,12 @@ A bisimplicial set is a [[bisimplicial object]] in [[Set]].
 
 +-- {: .num_defn }
 ###### Definition
-**(diagonal)**
+**([[diagonal of a bisimplicial set|diagonal]])**
 
-For $X_{\bullet,\bullet}$ a bisimplicial set, its **diagonal** is the simplicial set that is the precomposition with $(Id, Id) : \Delta^{op} \to \Delta^{op} \times \Delta^{op}$, i.e. the simplicial set with components
+For $X_{\bullet,\bullet}$ a bisimplicial set, its **[[diagonal of a bisimplicial set|diagonal]]** is the simplicial set that is the precomposition with $(Id, Id) \colon \Delta^{op} \to \Delta^{op} \times \Delta^{op}$ with the [[diagonal morphism|diagonal]] [[functor]] on the [[opposite category|opposite]] of the [[simplex category]], i.e. the simplicial set with components
 
 $$
-  d(X)_n = X_{n,n}
+  d(X)_n \;\coloneqq\; X_{n,n}
   \,.
 $$
 
@@ -213,17 +213,19 @@ After [[geometric realization]] these spaces are even related by a [[homeomorphi
 +-- {: .num_remark }
 ###### Remark
 
-The standard [[delooping]] functor for [[simplicial groups]]
+The [[simplicial classifying space]]-[[functor]] for [[simplicial groups]]
 
 $$
-  \bar W : sGrp \to sSet_*
+  \overline{W} 
+    \;\colon\; 
+  sGrp \longrightarrow sSet_*
 $$
 
-is the composite
+is the [[composition|composite]]
 
 $$
   \bar W 
-   : 
+   \colon
   sGrp
    \stackrel{\mathbf{B}}{\longrightarrow}
   sGrpd
@@ -236,7 +238,7 @@ $$
 
 =--
 
-We have the following explicit formula for $ T X$, attributed to [[John Duskin]]:
+We have the following explicit formula for $T X$, attributed to [[John Duskin]]:
 
 +-- {: .num_lemma }
 ###### Lemma
@@ -400,9 +402,9 @@ The total simplicial set functor goes back to
 
 * [[M. Artin]], [[B. Mazur]], _On the Van Kampen theorem_ , Topology 5 (1966) 179&#8211;189.
 
-The diagonal, total d&#233;calage and total simplicial set constructions are discussed in
+The [[diagonal of a bisimplicial set|diagonal]], total d&#233;calage and [[total simplicial set]] constructions are discussed in
 
-* [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
+* [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_, Topology and its applications, volume 153 (1)  (2005) ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf), [doi:10.1016/j.topol.2004.12.003](https://doi.org/10.1016/j.topol.2004.12.003))
 
 * [[Antonio Cegarra]], [[Josué Remedios]], _The behaviour of the $\bar W$-construction on the homotopy theory of bisimplicial sets_, Manuscripta Mathematica, volume 124 (4) Springer (2007)
  {#CegarraRemedios}
@@ -415,17 +417,16 @@ The diagonal, total d&#233;calage and total simplicial set constructions are dis
 
 The diagonal-induced model structure on $ssSet$ is discussed in
 
-* [[Ieke Moerdijk]], _Bisimplicial sets and the group completion theorem_  in _Algebraic K-Theory: Connections with Geometry and Topology_, pp 225&#8211;240. Kluwer, Dordrecht (1989)
- {#Moerdijk}
+* {#Moerdijk} [[Ieke Moerdijk]], _Bisimplicial sets and the group completion theorem_  in _Algebraic K-Theory: Connections with Geometry and Topology_, pp 225&#8211;240. Kluwer, Dordrecht (1989)
+ 
 
-The behaviour of fibrations under [[geometric realization]] of bisimplicial sets is discussed in
+On the behaviour of fibrations under [[geometric realization]] of bisimplicial setsL
 
-* D. Anderson, _Fibrations and geometric realization_ , 
-Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
+* D. Anderson, _Fibrations and geometric realization_, Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
 
-Discussion of respect of $\bar W$ for fibrant objects is discussed in fact 2.8 of 
+Discussion of the [[simplicial classifying space]]-construction $\overline{W}$ respecting [[fibrant objects]] is in Fact 2.8 of:
 
-* [[Antonio M. Cegarra]], Benjam&#237;n A. Heredia, Josu&#233; Remedios, _Double groupoids and homotopy 2-types_ ([arXiv:1003.3820](http://arxiv.org/abs/1003.3820))
+* [[Antonio Martínez Cegarra]], Benjam&#305;n A. Heredia, [[Josué Remedios]],  _Double groupoids and homotopy 2-types_, Appl. Categ. Struct. 20, No. 4, 323-378 (2012), see also [arXiv:1003.3820](http://arxiv.org/abs/1003.3820).
 
 
 [[!redirects bisimplicial set]]
