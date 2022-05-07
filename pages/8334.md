@@ -49,6 +49,13 @@ It has been suggested ([Doering-Isham, section 1](#DoeringIsham)) that the secon
 
 * Edward Anderson, _On the Semiclassical Approach to Quantum Cosmology_ Class. Quant. Grav. 28 185008 (2011) ([arXiv:1101.4916](http://arxiv.org/abs/1101.4916))
 
+### Applications
+
+On [[structure formation]] during [[cosmic inflation]] in quantum [[inhomogeneous cosmology]]:
+
+* [[Martin Bojowald]], Ding Ding, *Canonical description of cosmological backreaction*, JCAP **03** (2021) 083
+([arXiv:2011.03018](https://arxiv.org/abs/2011.03018))
+
 ### Supersymmetric quantum cosmology
 
 Quantum cosmology for [[supergravity]] and its relation to the [[E10]] [[U-duality]] group is discussed in 
