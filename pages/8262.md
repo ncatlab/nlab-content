@@ -43,11 +43,11 @@ This is the _free abelian group functor_. For $S \in $ [[Set]], the **free abeli
 =--
 
 Of course, this notion is meant to be invariant under isomorphism: it doesn't depend on the left adjoint chosen. Thus, if a functor of the form $\hom_{Set}(S, U-): Ab \to Set$ is [[representable functor|representable]] by 
-an abelian group $A$, then we may say $A$ is "the" free abelian group on $S$. A specific choice of isomorphism 
+an abelian group $A$, then we may say $A$ is a free abelian group on $S$. A specific choice of isomorphism 
 
 $$\hom_{Ab}(A, -) \cong \hom_{Set}(S, U-)$$ 
 
-corresponds, via the [[Yoneda lemma]], to a function $S \to U A$ which exhibits $S$, or rather its image under this function, as a specific [[basis]] of $A$. 
+corresponds, via the [[Yoneda lemma]], to a function $S \to U A$ which exhibits $S$, or rather its image under this function, as a specific [[basis]] of $A$. If $A$ is so equipped with such a universal arrow $S \to U A$, then it is harmless to call $A$ "the" free abelian group on $S$. 
 
 Explicit descriptions of free abelian groups are discussed [below](#Properties).
 
