@@ -40,15 +40,19 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 * [[Levin-Wen model]]
 
-* [[superconductivity]]
+* [[quantum material]]
+
+  * [[superconductivity]]
+
+  * [[topological phases of matter]]
+
+  * [[topological order]]
+
+  * [[symmetry protected trivial order]]
 
 * [[AdS-CFT in condensed matter physics]]
 
 * [[phase of matter]]
-
-* [[topological order]]
-
-* [[symmetry protected trivial order]]
 
 * [[Josephson effect]]
 
@@ -59,7 +63,6 @@ See at _[[K-theory classification of topological phases of matter]]_.
 ## References
 
 ### General
-
 
 
 * {#LandauLifshitz59} [[Lev Landau]], [[Evgeny Lifshitz]], _Theory of Elasticity_, part VII of  _[[Course of Theoretical Physics]]_, 1959, 1970
