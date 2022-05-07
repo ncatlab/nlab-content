@@ -23,6 +23,10 @@ On [[equivariant homotopy theory]] and [[equivariant cohomology]]:
 
 * [[Tammo tom Dieck]], _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
+On [[algebraic topology]]:
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_. European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86))
+
 
 On [[representation theory]]:
 
