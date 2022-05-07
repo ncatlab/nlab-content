@@ -113,8 +113,7 @@ Y & = & \lambda y. (s I I)(s(k y)(s I I)) \\
  & = & s(\lambda y. s I I)\big(\lambda y. s(k y)(s I I)\big) \\ 
  & = & s(k (s I I)) \big(s(\lambda y. s(k y))(\lambda y. s I I)\big) \\ 
  & = & s(k (s I I)) \big(s(s(k s)k)(k (s I I))\big)
-
-}$$ 
+}$$
 
 
 ## Examples of PCAs
