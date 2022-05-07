@@ -28,6 +28,14 @@ From [PDG 18](#PDG18):
 <img src="https://ncatlab.org/nlab/files/CKMMatrixDefinition.jpg" width="730">
 </center>
 
+## Observation and anomaly
+
+See at
+
+* [[Cabibbo anomaly]]
+
+* [[V_cb puzzle]]
+
 
 ## Related concepts
 
@@ -38,6 +46,8 @@ From [PDG 18](#PDG18):
 * [[weak nuclear force]]
 
 * [[V_cb puzzle]]
+
+* [[Cabibbo anomaly]]
 
 ## References
 
