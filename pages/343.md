@@ -35,7 +35,7 @@ The term __cartesian category__ usually means a category with finite products bu
 
 Cartesian monoidal categories have a number of special and important properties, such as the existence of diagonal maps $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$.  In applications to computer science we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]].  In fact, any object in a cartesian monoidal category becomes a comonoid in a unique way.  
 
-Moreover, one can show (e.g. [Fox 1976](#Fox) or [Heunen-Vicary 12, p. 79 (p. 85 of the pdf)](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
+Moreover, one can show (e.g. [Fox 1976](#Fox76) or [Heunen-Vicary 2012, p. 79 (p. 85 of the pdf)](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
 $$           \Delta_x : x \to x \otimes x $$
 and
 $$             e_x : x \to I   $$
@@ -80,13 +80,15 @@ Cartesian categories may be [[freely generated]] from sets, categories, signatur
 
 ## References
 
+The characterization of cartesian monoidal categories as [[symmetric monoidal categories]] with [[extra structure]]:
+
+* {#Fox76} [[Thomas Fox]], *Coalgebras and cartesian categories*, Communications in Algebra **4** 7 (1976) 665-667 ([doi:10.1080/00927877608822127](https://doi.org/10.1080/00927877608822127), [pdf](https://www.tandfonline.com/doi/pdf/10.1080/00927877608822127))
+
+
 Discussion with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] is in
 
 * {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], _Lectures on categorical quantum mechanics_, 2012 ([pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf))
 
-The characterization of cartesian monoidal categories as symmetric monoidal categories with extra structure is in
-
-* {#Fox} [[Thomas Fox]], _[Coalgebras and cartesian categories](https://scholar.google.com/scholar?cluster=16650370452723874837)_ , Communications in Algebra 4(7) (1976) pp.665-667. 
 
 [[!redirects cartesian monoidal category]]
 [[!redirects cartesian monoidal categories]]
