@@ -230,7 +230,9 @@ The more general question of whether one can extend a finite continuous valuatio
 * [[correspondence between measure and valuation theory]]
 * [[monad]], [[Giry monad]], [[monads in computer science]]
 * [[extended probabilistic powerdomain]], [[probabilistic powerdomain]], [[valuation monad on locales]]
-* [[measure]], [[τ-additive measure]]
+* [[probability valuation]]
+* [[sigma-continuous valuation]], [[sigma-continuous probability valuation]]
+* [[measure]], [[τ-additive measure]], [[probability measure]]
 
 
 
@@ -275,6 +277,7 @@ For the problem of [extending valuations to measures](#extending_valuations_to_m
 *  {#Manilla02} Mauricio Alvarez-Manilla, _Extension of valuations on locally compact sober spaces_, Topology and its Applications Volume 124, Issue 3, 20 October 2002, Pages 397-433 (<a href="https://doi.org/10.1016/S0166-8641(01)00249-8">doi:10.1016/S0166-8641(01)00249-8</a>)
 
 
+* Alex Simpson, [Measure, randomness and sublocales](https://www.sciencedirect.com/science/article/pii/S0168007211001874). 
 
 * [[Klaus Keimel]] and [[Jimmie D. Lawson]], _Measure extension theorems for_
 $T_0$ _spaces_, 2004 ([doi:10.1016/j.topol.2004.02.019](https://doi.org/10.1016/j.topol.2004.02.019))
