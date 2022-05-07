@@ -103,7 +103,7 @@ In some fields, the term 'kernel' refers to an [[equivalence relation]] that cat
 
 In [[ring]] theory, even when one assumes that rings have units preserved by ring homomorphisms, the traditional notion of kernel (an [[ideal]]) exists in the category of non-unital rings (and is not itself a unital ring in general).  A purely category-theoretic theory of unital rings can be recovered either by using the kernel pair instead or (to fit better the usual language) moving to a category of [[modules]].
 
-In [[universal algebra]], this may be handled in the framework of [[Malcev variety|Mal?cev varieties]].
+In [[universal algebra]], this may be handled in the framework of [[Malcev variety|Mal'cev varieties]].
 
 Kashiwara-Schapira, following the terminology of EGA, uses kernel as a synonym of equalizer (and co-kernel of co-equalizer).
 
