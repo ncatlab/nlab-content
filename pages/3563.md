@@ -105,7 +105,7 @@ $$k I a b = ((k I) a) b = I b = b.$$
 1. Following the proof of functional completeness, we have 
 $$\lambda x. x x = s(\lambda x. x)(\lambda x. x) = s I I$$ 
 
-1. Finally, consider the classical construction of the [[fixed-point combinator]], $Y = \lambda y. (\lambda x. y(x x))(\lambda x. y(x x))$. We have firstly 
+1. {#FinallyClassicalConstruction} Finally, consider the classical construction of the [[fixed-point combinator]], $Y = \lambda y. (\lambda x. y(x x))(\lambda x. y(x x))$. We have firstly 
 $$\lambda x. y(x x) = s(\lambda x. y)(\lambda x. x x) = s(k y)(s I I)$$ 
 which means 
 $$\array{
