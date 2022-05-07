@@ -86,11 +86,12 @@ On [[twisted K-theory]] and [[twisted equivariant K-theory]]:
 
 * {#AtiyahSegal05} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory and cohomology_ ([arXiv:math/0510674](http://arxiv.org/abs/math/0510674))
 
-On [[higher U(1)-gauge theory]]:
 
-* [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], _The uncertainty of fluxes_ 	Commun.Math.Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
+On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge quantization]] and [[higher U(1)-gauge theory]]:
 
-* [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_ 	Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
+
+* [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_, Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
 
 [[!redirects G. Segal]]
