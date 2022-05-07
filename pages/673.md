@@ -23,6 +23,8 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints
 
+* _Many finite-dimensional lifting bundle gerbes are torsion_ (2021), arXiv:[2104.07936](https://arxiv.org/abs/2104.07936). Submitted for publication.
+
 * _The formal construction of formal anafunctors_ (2018), arXiv:[1808.04552](https://arxiv.org/abs/1808.04552) doi:[10.25909/5b6cfd1a73e55](https://doi.org/10.25909/5b6cfd1a73e55) (Note that this was cited in _Internal Categories, Anafunctors and Localisations_ with the title _Strict 2-sites, J-spans and Localisations_, and some paper containing these notes may yet have that title) Submitted.
 
 
