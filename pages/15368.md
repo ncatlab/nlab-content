@@ -62,7 +62,7 @@ This means that a category [[enriched category|enriched over]] this monoidal cat
 1. ([[composition]]) for all $x,y,z \in X$ a morphism in $[0,\infty)_{\geq}$ of the form
 
    $$
-     \circ_{x,y,z} \;\colon\; d(x,y) + d(x,z) \longrightarrow d(x,z)
+     \circ_{x,y,z} \;\colon\; d(x,y) + d(y,z) \longrightarrow d(x,z)
    $$
 
 such that
