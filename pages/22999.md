@@ -104,6 +104,12 @@ of the [[adjoint action]] of $PU(\mathcal{H})$ on the space of [[group homomorph
 \end{proposition}
 ([BEJU 2014, around Cor. 1.11](#BEJU14))
 
+
+## Related concepts
+
+* [[U(ℋ)|$U(\mathcal{H})$]]
+
+
 ## References
 
 * {#BEJU14} [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2014) ([arXiv:1202.1880](https://arxiv.org/abs/1202.1880), [doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061))
@@ -113,4 +119,4 @@ of the [[adjoint action]] of $PU(\mathcal{H})$ on the space of [[group homomorph
 
 [[!redirects universal equivariant PU-bundle]]
 
-
+[[!redirects universal equivariant PU(ℋ)-bundle]]
