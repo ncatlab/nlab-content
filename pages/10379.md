@@ -61,7 +61,7 @@ In: Proceedings of the 12th International Conference on Conceptual Structures,
 ICCS 2004, Huntsville, Al, July 2004. Volume 3127 of Lecture Notes in Artificial 
 Intelligence., Springer-Verlag (2004) 170&#8211;185.
 
-* Guo-Qiang Zhang, Shen, G.: [Approximable Concepts, Chu spaces, and information systems](http://www.tac.mta.ca/tac/volumes/17/5/17-05.pdf)Theory and Applications of Categories 17, 2006, no.7
+* Guo-Qiang Zhang, Shen, G.: [Approximable Concepts, Chu spaces, and information systems](http://www.tac.mta.ca/tac/volumes/17/5/17-05.pdf), Theory and Applications of Categories 17, 2006, no.7
 
 General applications of Chu spaces are in:
 
