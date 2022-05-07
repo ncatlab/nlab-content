@@ -205,7 +205,8 @@ see also
 
 * {#ConnesConsani16} [[Alain Connes]], [[Caterina Consani]], _Absolute algebra and Segal's Gamma sets_, Journal of Number Theory 162 (2016): 518-551 ([arXiv:1502.05585](https://arxiv.org/abs/1502.05585))
 
-* {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([pdf](http://www.people.virginia.edu/~jdb8pc/Thesis.pdf))
+* {#Berman18} [[John D. Berman]], p. 92 of: _Categorified algebra and equivariant homotopy theory_, PhD thesis 2018  ([arXiv:1805.08745](https://arxiv.org/abs/1805.08745))
+
 
 ### Relation to equivariant cobordism theory
 
