@@ -79,6 +79,9 @@ Review:
 
 * {#Furukawa08} Shunsuke Furukawa, *Entanglement Entropy in Conventional and Topological Orders*, talk at [Topological Aspects of Solid State Physics](http://www.issp.u-tokyo.ac.jp/public/tassp/) 2008 ([pdf](http://www.issp.u-tokyo.ac.jp/public/tassp/pdf_presentation/SY_S_Furukawa.pdf), [[FurukawaEntanglementEntropy.pdf:file]])
 
+In terms of [[Renyi entropy]] (it's indeopendent of the Renyi entropy parameter):
+
+* Ulrich Schollwöck, *(Almost) 25 Years of DMRG - What Is It About?* ([pdf](https://confs.physics.ox.ac.uk/pauli2016/files/slides/Schollwoeck.pdf))
 
 Further discussion:
 
