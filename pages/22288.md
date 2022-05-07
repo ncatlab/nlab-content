@@ -26,6 +26,11 @@ and any [[open subset]] $V\subset X$ such that $A\subset V$
 there is an [[open subset]] $U\subset X$ such that $A\subset U\subset V$
 and $Ind(\bar U\setminus U)\le n-1$.
 
+## Properties
+
+The subspace theorem: for every subspace $M$ of a [[regular space]] $X$ we have $ind(M)\le ind(X)$.
+(Theorem 1.1.2 in \cite{Engelking95}.)
+
 ## Related concepts
 
 [[!include notions of dimension -- contents]]
