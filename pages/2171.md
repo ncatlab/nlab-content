@@ -21,7 +21,7 @@ The _braid group_ $Br_n$ is the [[group]] whose elements are [[isotopy]] classes
 
 Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ points at the top of the diagram with $n$-points at the bottom.
 
-[[3-strand-braid-1-SVG]]
+
 
 
 
@@ -445,6 +445,8 @@ $$
 * [[braid group statistics]]
 
 * [[braid category]]
+
+* [[infinitesimal braid relation]]
 
 [[!include chord diagrams and weight systems -- table]]
 
