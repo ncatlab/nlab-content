@@ -911,7 +911,9 @@ The Cartan model for equivariant de Rham cohomology is originally due to
 
 * {#Cartan50} [[Henri Cartan]], _La transgression dans un groupe de Lie et dans un espace fibré principal_, Colloque de topologie (espaces fibrés). Bruxelles, 1950
 
-Review includes
+Review:
+
+* [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], Section 7.1 of: *Heat Kernels and Dirac Operators*, Grundlehren **298**, Springer 2004 ([ISBN:9783540200628](https://www.springer.com/gp/book/9783540200628))
 
 * {#Meinrenken06} [[Eckhard Meinrenken]], _Equivariant cohomology and the Cartan model_, in: _Encyclopedia of Mathematical Physics_, Pages 242-250 Academic Press 2006 ([pdf](http://www.math.toronto.edu/mein/research/enc.pdf), [doi:10.1016/B0-12-512666-2/00344-8](https://doi.org/10.1016/B0-12-512666-2/00344-8))
 
@@ -987,7 +989,9 @@ Discussion in view of [[supersymmetry]]:
 * {#Miettinen96} Mauri Miettinen, _Weil Algebras and Supersymmetry_ ([arXiv:hep-th/9612209](https://arxiv.org/abs/hep-th/9612209), [cds:317377](http://cds.cern.ch/record/317377), [spire:427720](http://inspirehep.net/record/427720))
 
   
- 
+
+[[!redirects equivariant de Rham complex]] 
+[[!redirects equivariant de Rham complexes]] 
 
 [[!redirects Weil model]]
 [[!redirects Weil models]]
