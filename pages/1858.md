@@ -22,7 +22,7 @@ A _path $n$-groupoid_  $P_n(X)$ of a smooth space (or [[generalized smooth space
 
 * a truncation of sorts of an [[path ∞-groupoid]] of $X$.
 
-Its [[k-morphisms|j-morphisms]] are given by (possibly equivalence classes of) $j$-dimensional smooth paths in $X$, i.e. usually smooth maps $\gamma : D^k \to X$. Composition is by gluing of such maps.
+Its [[k-morphisms|j-morphisms]] are given by (possibly equivalence classes of) $j$-dimensional smooth paths in $X$, i.e. usually smooth maps $\gamma : D^j \to X$. Composition is by gluing of such maps.
 
 ## Path 1-groupoid
 
