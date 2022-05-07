@@ -28,6 +28,137 @@ An [[iterated loop space object]] in [[Top]].
 
 See at _[[May recognition theorem]]_.
 
+### Homotopy
+ {#Homotopy}
+
+
+\begin{prop}\label{IteratedLoopSpaceAsHomotopyFiberOfMappingSpace}
+ For $A$ a [[pointed homotopy type]], hence an [[∞-groupoid]] equipped with a base point $\ast \xrightarrow{ pt_A } A$,
+then for $n \,\in\, \mathbb{N}$, the [[iterated loop space|n-fold loop space]] of $A$ is the [[homotopy fiber]] of the basepoint-[[evaluation map]] on the [[mapping space]] from the [[homotopy type]] of the [[n-sphere]]:
+$$
+  \Omega^n A
+  \xrightarrow{ hofib(ev_{\ast}) }
+  Maps
+  \big( 
+    &#643; S^n 
+    ,\,
+    A
+  \big)
+  \xrightarrow{ ev_\ast }
+  A
+$$
+\end{prop}
+\begin{proof}
+  We may [[presentable (infinity,1)-category|present]] the sequence in the [[classical model structure on topological spaces]] or the [[classical model structure on simplicial sets]], in the latter case we may assume that $A$  is presented by a [[Kan complex]], so that, in either case, it is a [[fibrant object]].
+
+In either case, the canonical model for the [[iterated loop space]] is evidently the ordinary [[1-category]]-theoretic [[fiber]] of the [[evaluation map]] out of the [[internal hom]]:
+$$
+  \Omega^n A
+  \xrightarrow{ ev_\ast }
+  Maps( &#643; S^d ,\, A )
+  \xrightarrow{ ev_\ast }
+  A
+  \,.
+$$
+Moreover, the evaluation map is equivalently the image of the point inclusion under the [[internal hom]]-functor
+$$
+  ev_\ast 
+  \;=\;
+  Maps( \ast \to S^n ,\, A )
+  \,.
+$$
+Since either model category is a [[cartesian closed category|cartesian closed]] [[monoidal model category]], hence an [[enriched model category]] over itself ([this Exp.](enriched+model+category#TheClassicalModelCategoriesOfTopSpacesAndSimpSets))
+and since the canonical model for $\ast \to &#643;  S^n$ is a [[cofibration]], in either case, the [[pullback-power axiom]] implies that $ev_\ast$ is a [[fibration]]. Therefore its ordinary fiber above models the [[homotopy fiber]], and the claim follows.
+\end{proof}
+\begin{corollary}\label{LESOfHomotopyGroupswithMappingSpace}
+The [[homotopy groups]] of the [[mapping space]] $Maps(&#643;  S^n ,\, A)$ out of an [[n-sphere]] form a [[long exact sequence]] with those of $A$, of the following form:
+\begin{tikzcd}[column sep=10pt]
+    \cdots
+    \ar[r]
+    &
+    \pi_{\bullet + 1}(A)
+    \ar[rr]
+    &&
+    \pi_{\bullet+d}(A)
+    \ar[
+      rr
+    ]
+    &&
+    \pi_{ \bullet }
+    \big(
+      \mathrm{Maps}
+      ( 
+        S^n 
+        \,
+         A 
+      )
+    \big)
+    \ar[
+      rr
+    ]
+    &&
+    \pi_{\bullet}(A)
+    \ar[
+      rr
+    ]
+    &&
+    \pi_{\bullet + d-1}(A)
+    \ar[r]
+    &
+    \cdots
+\end{tikzcd}
+\end{corollary}
+\begin{proof}
+  This is the [[long exact sequence of homotopy groups]] 
+  applied to the [[homotopy fiber sequence]]
+  from Prop. \ref{IteratedLoopSpaceAsHomotopyFiberOfMappingSpace}.
+\end{proof}
+
+\begin{example}
+  If $A \,\in\, Grp_\infty$ is [[n-truncated object of an (infinity,1)-category|n-truncated]], then the [[evaluation map]] out of the [[mapping space]] from the [[n-sphere|(n+2)-sphere]] into it is a [[weak homotopy equivalence]]:
+
+$$
+  \tau_{n}(A) \,\simeq\, A
+  {\phantom{AAAAA}}
+  \Rightarrow
+  {\phantom{AAAAA}}
+  Maps
+  \big(
+     &#643; S^{n+2}
+     ,\,
+     A
+  \big)
+  \underoverset
+    {\in \mathrm{W}_{wh}}
+    {ev_\ast}
+    {\longrightarrow}
+  A
+  \,.
+$$
+\end{example}
+\begin{proof}
+  By assumption, the [[long exact sequence]] from Cor. \ref{LESOfHomotopyGroupswithMappingSpace} collapses to exact segments of the form
+$$
+  \ast
+  \to
+  \pi_{\bullet}
+  \big(
+     Maps(&#643; S^{n+2},\, A) 
+  \big)
+  \xrightarrow{ 
+    \;\;\;
+    \pi_\bullet(ev_\ast) 
+    \;\;\;
+  }
+  \pi_\bullet(A)
+  \to
+  \ast
+  \,.
+$$
+\end{proof}
+
+
+
 ### Cohomology
 
 +-- {: .num_prop #RationalCohomologyOfIteratedLoopSpaceOf2kSphere}
