@@ -181,8 +181,6 @@ Under [[T-duality]] this translates to 24 [[D6-branes]] in [[type IIA string the
 
 Notice that the _net charge_ of these 24 D7-branes is supposed to vanish, due to [[S-duality]] effects (e.g. [Denef 08, below (3.41)](#Denef08)).
 
-(This reminds one of the situation for the [[third stable homotopy group of spheres]]...)
-
 For analogous discussion of 24 NS5-branes in [[heterotic string theory]] on [[K3]] see [Schwarz 97, around p. 50](duality+in+string+theory#Schwarz97).
 
 For more see at _[[24 branes transverse to K3]]_.
