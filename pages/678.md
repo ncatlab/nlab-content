@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic toc goes here
+* table of contents
 {:toc}
 
 ## Definition ##
@@ -167,3 +167,5 @@ For their interpretation in the more general context of [[(infinity,1)-category 
 
 [[!redirects category of simplicial presheaves]]
 [[!redirects categories of simplicial presheaves]]
+
+[[!redirects SimplicialPresheaves]]
