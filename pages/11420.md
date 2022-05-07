@@ -179,3 +179,6 @@ Second Series, Vol. 146, No. 3 (Nov., 1997), pp. 509-544
 [[!redirects formal completion of a ring]]
 [[!redirects formal completion of rings]]
 
+[[!redirects complete ring]]
+[[!redirects complete rings]]
+
