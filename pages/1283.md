@@ -498,6 +498,10 @@ with a restrictive notion of equivariance ("strong" equivariance):
 
 with a general notion of higher equivariance:
 
+* [[Kiyonori Gomi]], [[Yuji Terashima]], Sec 5 of: _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
+
+  > (this article speaks in terms of [[Deligne cohomology]])
+
 * [[Thomas Nikolaus]], [[Christoph Schweigert]], *Equivariance In Higher Geometry*, Adv. Math., 226(4): 3367-3408, 2011 ([arXiv:1004.4558](https://arxiv.org/abs/1004.4558), [doi:10.1016/j.aim.2010.10.016](https://doi.org/10.1016/j.aim.2010.10.016))
 
 * [[Michael Murray]], [[David Michael Roberts]], [[Danny Stevenson]], [[Raymond Vozzo]],  *Equivariant bundle gerbes*, Advances in Theoretical and Mathematical Physics 21 (2017) no. 4 pp 921-975 ([arXiv:1506.07931](https://arxiv.org/abs/1506.07931), [doi:10.4310/ATMP.2017.v21.n4.a3](https://dx.doi.org/10.4310/ATMP.2017.v21.n4.a3))
