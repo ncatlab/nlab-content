@@ -1399,6 +1399,12 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 ## References
 
+The original reference is
+
+* [[A. K. Bousfield]], _The localization of spaces with respect to homology_, Topology 14 (1975), 133–150.  [doi]
+
+  [doi]: http://dx.doi.org/10.1016/0040-9383(75)90023-3
+
 Bousfield localization appears as definition 3.3.1 in
 
 * {#Hirschhorn} [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 2009,
