@@ -169,12 +169,16 @@ More on extended QFTs is also at
 
 With an eye towards the full extension of [[Chern-Simons theory]]:
 
-* [[Dan Freed]], _Remarks on Fully Extended 3-Dimensional
-Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
+* [[Dan Freed]], _Remarks on Fully Extended 3-Dimensional Topological Field Theories_ (2011) ([pdf](http://www.ma.utexas.edu/users/dafr/stringsmath_np.pdf))
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]],  _[[Topological Quantum Field Theories from Compact Lie Groups]]_ , in P. R. Kotiuga (ed.) _A celebration of the mathematical legacy of Raoul Bott_ AMS (2010) ([arXiv](http://arxiv.org/abs/0905.0731))
 
-* [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+and with emphasis on the invertible [[quantum anomaly]]-theory in one dimension higher:
+
+* [[Daniel Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
+
+* Lukas Müller, _Extended Functorial Field Theories and Anomalies in Quantum Field Theories_ ([arXiv:2003.08217](https://arxiv.org/abs/2003.08217))
+
 
 For TQFTs appearing in [[solid state physics]] in the context of [[topological order]]:
 
