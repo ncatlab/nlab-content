@@ -11,6 +11,17 @@ Andr&#233;e Charles Ehresmann is a category theorist and the editor in chief of 
 * [[sketch]]
 * [[monoidal closed category]]
 
+
+
+## Selected writings
+
+On [[internalization]] of [[mathematical structures]] via [[sketches]]:
+
+* [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
+
+
+
+
 category: people
 
 [[!redirects Andrée Charles Ehresmann]]
