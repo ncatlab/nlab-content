@@ -20,7 +20,9 @@ A __commutative [[quasigroup]]__ is a [[commutative magma]] $(G,(-)\cdot(-):G \t
 
 * Every [[commutative loop]] is a commutative quasigroup. 
 
-* The [[empty magma]] is a commutative quasigroup. 
+* Every [[commutative invertible magma]] is a commutative quasigroup.
+
+* The empty magma is a commutative quasigroup. 
 
 ## Related concepts
 
