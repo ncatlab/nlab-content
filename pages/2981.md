@@ -142,15 +142,13 @@ See [[geometric realization of simplicial topological spaces]] for more details.
 
 The main article is 
 
-* {#Strom72} [[Arne Strøm]], _The homotopy category is a homotopy category_ , Archiv der Mathematik 23 (1972)
+* {#Strom72} [[Arne Strøm]], _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972) ([pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/strom-the-homotopy-category-is-a-homotopy-category-1972.pdf), [[Strom_HomotopyCategory.pdf:file]])
 
-but it depends on earlier results of several authors and mostly his own earlier papers
+using results on [[Hurewicz cofibrations]]:
 
-* [[Arne Strøm]], 
+* [[Arne Strøm]], _Note on cofibrations_,  Math. Scand.  **19** (1966) 11-14 ([jstor:24490229](https://www.jstor.org/stable/24490229), [dml:165952](https://eudml.org/doc/165952), MR0211403)
 
-  * _Note on cofibrations_,  Math. Scand.  19  1966 11--14 ([file](http://www.mscand.dk/article.php?id=1782) MR0211403 (35 #2284)); 
-
-  * _Note on cofibrations II_,  Math. Scand.  22  1968 130--142 (1969) ([file](http://www.mscand.dk/article.php?id=1867) MR0243525 (39 #4846))
+* [[Arne Strøm]], _Note on cofibrations II_,  Math. Scand.  **22** (1968) 130--142 (1969) ([jstor:24489730](https://www.jstor.org/stable/24489730), [dml:166037](https://eudml.org/doc/166037), MR0243525)
 
 One modern re-proof can be found in
 
