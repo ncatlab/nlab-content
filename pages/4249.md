@@ -75,6 +75,12 @@ Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\
 
 [[!include fundamental scales -- contents]]
 
+## References
+ {#References}
+
+See also:
+
+* Wikipedia, *[Mass](https://en.wikipedia.org/wiki/Mass)*
 
 
 [[!redirects mass]]
