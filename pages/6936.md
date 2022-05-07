@@ -120,6 +120,50 @@ The [[quotient]] of an [[hProp]]-value [[equivalence relation]], yielding an [[h
 
 This is already interesting in [[extensional type theory]], where [[quotient types]] are not always included.  For more general homotopical quotients of "[[internal groupoids]]" as in the  [[(∞,1)-Giraud theorem]], we first need a good definition of what such an internal groupoid is.
 
+### Integers
+
+A definition of the set of [[integers]] as a higher inductive type. 
+
+    Inductive int : Type :=
+    | zero : int
+    | succ : int -> int
+    | pred : int -> int
+    | linv : forall (x : int) pred succ x == x
+    | rinv : forall (x : int) succ pred x == x
+    | contr1 : forall (x y : int) (p q : x == y), p == q.
+
+Another definition of the integers as an inductive type: 
+
+    Inductive int : Type :=
+    | zero : int
+    | succ : int -> int
+    | neg : int -> int
+    | axiom1 : neg zero  == zero
+    | axiom2 : forall (x : int) succ neg succ x == neg x
+    | contr1 : forall (x y : int) (p q : x == y), p == q.
+
+A definition of the [[commutative ring]] of integers as a higher inductive type. 
+
+    Inductive int : Type :=
+    | zero : int
+    | one : int
+    | neg : int -> int
+    | add : int -> int -> int
+    | mult : int -> int -> int
+    | alunital : forall (x : int) add zero x == x
+    | arunital : forall (x : int) add x zero == x
+    | aassoc : forall (x y z : int) add x (add y z) == add (add x y) z
+    | acomm : forall (x y : int) add x y = add y x
+    | alinv : forall (x : int) add (neg x) x == zero
+    | arinv : forall (x : int) add x (neg x) == zero
+    | ldist : forall (x y z : int) mult x (add y z) == add (mult x y) (mult x z)
+    | rdist : forall (x y z : int) mult (add x y) z == add (mult x z) (mult y z)
+    | mlunital : forall (x : int) mult one x == x
+    | mrunital : forall (x : int) mult x one == x
+    | massoc : forall (x y z : int) mult x (mult y z) == mult (mult x y) z
+    | mcomm : forall (x y : int) mult x y = mult y x
+    | contr1 : forall (x y : int) (p q : x == y), p == q.
+
 ### Localization
 
 Suppose we are given a family of [[function type|functions]]:
