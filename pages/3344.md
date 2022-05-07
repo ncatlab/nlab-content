@@ -178,7 +178,7 @@ The test category nature of the groupoidal [[Theta category]] is discussed in
 
 * {#Ara} [[Dimitri Ara]], _The groupoidal analogue $\tilde \Theta$ to Joyal's category $\Theta$ is a test category_ ([arXiv:1012.4319](http://arxiv.org/abs/1012.4319)) 
 
-and the [Theta category]] itself is discussed in
+and the [[Theta category]] itself is discussed in
 
 * [[Denis-Charles Cisinski]], [[Georges Maltsiniotis]], _La cat&#233;gorie $\Theta$ de Joyal est une cat&#233;gorie test_ , JPAA **215** no.5 (2011) pp.962-982. ([pdf](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/theta.pdf), in French)
 {#CisMal11}
