@@ -84,7 +84,7 @@ $$
 
 commutes, and hence that also $\tilde U \subset U$, so that in fact $\tilde U \simeq U$.
 
-Next we consider the implication $(f^* induces injection on subobjects) \Rightarrow (f^* is conservative)$.
+Next we consider the implication ($f^*$ induces injection on subobjects) $\Rightarrow$ ($f^*$ is conservative).
 
 Assume $f^* (X \stackrel{\phi}{\to} X')$ is an isomorphism. We have to show that then $\phi$ is an isomorphism. Consider the [[image]] factorization $X \to im(\phi) \hookrightarrow X'$. Since $f^*$ preserves pushouts and pullbacks, it preserves epis and monos and so takes this to the image factorization 
 
