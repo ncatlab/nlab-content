@@ -64,13 +64,16 @@ of a [[topological space]].
 Its algebras are precisely the [[Stone spaces]].
 ([Sipoș, Theorem 2](#Sipos)).
 
-
 * The codensity monad of the inclusion $N \to Top$, where
 $N$ denotes the [[full subcategory]] of [[Top]] consisting
 of arbitrary [[small products]] of the [[Sierpinski space|Sierpiński space]],
 is the [[localic spectrum]] of the [[frame]] of opens of a [[topological space]].
 Its algebras are precisely the [[sober spaces]].
 ([Sipoș, Theorem 6](#Sipos))
+
+* The codensity monad of the inclusion of [[countable sets]] in all sets, $Ctbl \hookrightarrow Set$, assigns to each set $X$ the set of ultrafilters on $X$ closed under countable intersections. This still holds for the inclusion of the full subcategory of $Ctbl$ on the single set $\mathbb{N}$.
+
+* More generally, the codensity monad of the inclusion of sets of cardinality less than that of fixed $Y$, $Set_{\lt Y} \hookrightarrow Set$, assigns to each set $X$ the set of $Y$-complete ultrafilters on $X$. 
 
 * For the codensity monad induced by the inclusion of [[homotopy types with finite homotopy groups]] into all [[homotopy types]] see [there](homotopy+type+with+finite+homotopy+groups#CodensityMonadOfInclusionIntoAllHomotopyTypes).
 
