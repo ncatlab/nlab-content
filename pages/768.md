@@ -36,6 +36,8 @@ The phrase "classifying space" is also sometimes used for the realization of the
 
 ### For principal bundles
 
+> A good account is in [Rudolf & Schnidt 17, Sec. 3, esp. Thm. 3.5.1 & Prop. 3.6.2](#RudolfSchnidt17). 
+
 For $G$ a [[topological group]] there is a classifying space $B G \in$ [[Top]] for topological $G$-[[principal bundle]]s, hence a space such that for $X$ any sufficiently nice topological space there is a [[natural isomorphism]]
 
 $$
@@ -947,7 +949,7 @@ Textbook accounts:
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
-* [[Gerd Rudolph]], [[Matthias Schmidt]], Thm. 3.5.1 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* {#RudolfSchnidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], Thm. 3.5.1 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
  
 Discussion in [[simplicial homotopy theory]]:
