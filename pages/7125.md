@@ -233,6 +233,7 @@ This establishes a bijective correspondence between $Y_1\to j^\ast(X,Y,u)$ and $
 =--
 
 In particular, the left adjoint $j_!$ exists if the fringe functor $f$ is the [[direct image]] of a geometric morphism, or the [[inverse image]] of an [[essential geometric morphism]].
+$$j_!\dashv j^\ast\dashv j_\ast \colon \mathbf{Gl}(f)\to F\quad .$$
 
 The existence of a _right_ adjoint for the fringe functor: $f\dashv r\colon F\to E$, on the other hand, corresponds to the existence of an 'amazing' right adjoint for the open subtopos inclusion: $i_\ast\dashv i^!:\mathbf{Gl}(f)\to E$.
 
@@ -248,9 +249,6 @@ $$i_!\dashv i^\ast\dashv i_\ast \dashv i^!\colon \mathbf{Gl}(f)\to E$$
 
 where $i_!$ and $i_\ast$ are fully faithful.
 
-In particular, when the fringe functor is the inverse image of an essential geometric morphism, we get an additional shorter adjoint string involving the closed subtopos as well:
-
-$$j_!\dashv j^\ast\dashv j_\ast \colon \mathbf{Gl}(f)\to F\quad .$$
 
 ### Examples 
 
