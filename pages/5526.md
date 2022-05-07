@@ -43,50 +43,6 @@
 * [[cohesive site]], [[∞-cohesive site]]
 
 
-## Structures in a cohesive $(\infty,1)$-topos
-
-**[[cohesive (∞,1)-topos -- structures|structures in a cohesive (∞,1)-topos]]**
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ConcreteObjects">concrete objects</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#InfinGroups">cohesive ∞-groups</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Cohomology">cohomology and principal ∞-bundles</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Concordance">concordance</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">geometric homotopy and Galois theory</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#vanKampenTheorem">van Kampen theorem</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Paths">paths and geometric Postnikov towers</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Coverings">universal coverings and geometric Whitehead towers</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#FlatDifferentialCohomology">flat ∞-connections and local systems</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#deRhamCohomology">de Rham cohomology</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">∞-Lie algebras</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">Maurer-Cartan forms and curvature characteristic forms</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">differential cohomology</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernWeilTheory">Chern-Weil homomorphism and ∞-connections</a>
-
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#ChernSimonsTheory">higher holonomy and Chern-Simons functional</a>
-
-## Structures with infinitesimal cohesion
-
-**[[cohesive (∞,1)-topos -- infinitesimal cohesion|infinitesimal cohesion]]**
-
-* . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#InfinitesimalPaths">de Rham space</a>
-
-* [[formal cohesive ∞-groupoid]]
-
-* . <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#StrucInfinitesimalLocalSystem">de Rham theorem</a>
-
 
 ## Models
 
@@ -95,7 +51,7 @@
 
   * [[discrete space]], [[discrete group]], [[discrete groupoid]]
 
-* **[[Euclidean-topological ∞-groupoid]]**
+* **[[D-topological ∞-groupoid]]**
 
   * [[topological space]], [[topological groupoid]], [[topological group]]
 
@@ -115,7 +71,7 @@
 
   * [[superpoint]], [[supergeometry]], [[supermanifold]], [[super Lie group]], [[super ∞-groupoid]], [[synthetic differential super ∞-groupoid]]
 
+* **[[cohesion of global- over G-equivariant homotopy theory]]**
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/cohesive+infinity-toposes+-+contents)</div>
 
 
