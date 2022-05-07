@@ -66,7 +66,7 @@ The [[simplicial set]] underlying any simplicial group
 (by forgetting the group structure) is a [[Kan complex]].
 \end{theorem}
 
-This is due to ([Moore, 1954](#Moore54))
+This is due to [Moore 1954, Theorem 3 on p. 18-04](#Moore54), review in [May 67, Theorem 17.1](#MaySimplicialObjects),$\;$ [Curtis 1971, Sec. 3, Lem. 3.1](#Curtis71), $\;$ [Weibel 1994, Lem. 8.2.8](#Weibel94), $\;$ [Joyal & Tierney 2005, p. 14](#JoyalTierney05).
 
 In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provides explicit fillers.  This implies that constructions on a simplicial group that use fillers of horns can often be adjusted to be functorial by using the algorithmically defined fillers.  An argument that just uses 'existence' of fillers can be refined to give something more 'coherent'.
 
@@ -138,7 +138,7 @@ $$
 $$
 
 is a [[Kan fibration]]. This is for instance 
-([Weibel, exercise 8.2.6](#Weibel)). By the disucssion at [[fiber sequence]] it is therefore sufficient to observe that
+([Weibel, exercise 8.2.6](#Weibel94)). By the disucssion at [[fiber sequence]] it is therefore sufficient to observe that
 
 $$
   \array{
@@ -675,19 +675,14 @@ One place in the literature where the observation that $W G $ is the [[decalage]
 
 ## References 
 
-A standard reference for the case of _abelian_ simplicial groups is [chapter 5](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi) of
 
-* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_   Progress in Mathematics, Birkh&#228;user (1999), Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+* {#MaySimplicialObjects} [[Peter May]], Chapter IV, Section 17 of: _Simplicial Objects in Algebraic Topology_ University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
 
+* {#Curtis71} [[Edward B. Curtis]], Section 3 of: _Simplicial homotopy theory_, Advances in Mathematics 6 (1971) 107–209 (<a href="https://doi.org/10.1016/0001-8708(71)90015-6">doi:10.1016/0001-8708(71)90015-6</a>, [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808))
 
-Also chapter IV of
-
-* {#MaySimplicialObjects} [[Peter May]], _Simplicial Objects in Algebraic Topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu)).
+* {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], Chapter V of: _[[Simplicial homotopy theory]]_   Progress in Mathematics, Birkh&#228;user (1999), Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
   
-
-and chapter 8 of
-
-* {#Weibel} [[Charles Weibel]], _An introduction to homological algebra_ Cambridge (1994)
+* {#Weibel94} [[Charles Weibel]], Chapter 8 of: _An introduction to homological algebra_ Cambridge (1994)
  
 
 The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. 
@@ -696,9 +691,9 @@ This proof that simplicial groups are Kan complexes is originally due to theorem
 
 * [[John Moore]],  _Semi-Simplicial Complexes And Postnikov Systems_, in _Symposium International De Topologia Algebraica_ , 1956 conference, book published in 1958
 
-which appears in more detail as  theorem 3 on p. 18-04 of
+which appears in more detail as Theorem 3 on p. 18-04 of
 
-* {#Moore54} [[John Moore]], _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
+* {#Moore54} [[John Moore]], _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam:SHC_1954-1955__7_2_A8_0](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
  
 and is often attributed to
 
@@ -708,8 +703,7 @@ In fact, it seems that this is the origin of the very notion of [[Kan complex]].
 
 A proof is also on p. 14 of
 
-* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] chapter I of _An introduction to simplicial homotopy theory_, 2005  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01))
-
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] chapter I of _An introduction to simplicial homotopy theory_, 2005  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
 
 Section 1.3.3 of
 
@@ -719,11 +713,11 @@ discusses simplicial groups in the context of [[nonabelian algebraic topology]].
 
 Additional useful references include
 
-* [[Rick Jardine]], Luo, _Higher order principal bundles_ ([web](http://www.math.uiuc.edu/K-theory/0681/))
- {#JardineLuo}
+* {#JardineLuo} [[Rick Jardine]], Luo, _Higher order principal bundles_ ([web](http://www.math.uiuc.edu/K-theory/0681/))
+ 
 
-* [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_ ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
- {#CegarraRemedios}
+* {#CegarraRemedios} [[Antonio Cegarra]], [[Josué Remedios]], _The relationship between the diagonal and the bar constructions on a bisimplicial set_ ([pdf](http://www.ugr.es/~acegarra/Paperspdfs/TRBDWC.pdf))
+ 
 
 category: simplicial object
 [[!redirects simplicial groups]]
