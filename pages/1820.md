@@ -594,23 +594,20 @@ Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]
 
 After [[Jeff Smith]] presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently lemma 1.8 in 
 
-* {#Beke} [[Tibor Beke]], _Sheafifiable homotopy model categories_ , Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
+* {#Beke} [[Tibor Beke]], _Sheafifiable homotopy model categories_, Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
  
 
-The very definition of combinatorial model categories appears also for instance as definition A.2.6.1 in 
+The definition of combinatorial model categories appears also for instance as 
 
-* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_;
+* {#Lurie} [[Jacob Lurie]], Def. A.2.6.1 in: _[[Higher Topos Theory]]_;
  
-or definition 1.3 in 
-
-* {#Barwick} [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
-
+* {#Barwick} [[Clark Barwick]], Def. 1.3 in: _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
 
 Smith's theorem appears as ([Lurie, A.2.6.10](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
 
 Dugger's theorem is due to
 
-* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_ Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
+* {#Dugger01} [[Daniel Dugger]], _[[Combinatorial model categories have presentations]]_, Adv. Math. 164 (2001), no. 1, 177-201 ([arXiv:math/0007068](http://arxiv.org/abs/math/0007068))
  
 based on results in
 
@@ -622,7 +619,7 @@ Futher details are discussed in:
 
 Review:
 
-* [[George Raptis]], *Notes on combinatorial model categories* 2014/2020 ([pdf](https://graptismath.net/files/notes-comb-model-cat.pdf) [[RaptisCombinatorialModelCategories.pdf:file]])
+* [[George Raptis]], *Notes on combinatorial model categories* 2014/2020 ([pdf](https://graptismath.net/files/notes-comb-model-cat.pdf), [[RaptisCombinatorialModelCategories.pdf:file]])
 
 On the [[localization of a 2-category]][[Ho(CombModCat)]] of combinatorial model categories at the [[Quillen equivalences]] and its equivalence to the [[homotopy 2-category]] of (locally) presentable [[derivators]]:
 
