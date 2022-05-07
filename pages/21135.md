@@ -32,6 +32,16 @@ Relation to the [[GSO projection]]:
 * Justin Kaidi, Julio Parra-Martinez, [[Yuji Tachikawa]], _Topological Superconductors on Superstring Worldsheets_ ([arXiv:1911.11780](https://arxiv.org/abs/1911.11780))
 
 
+For [[quasicrystals]] via [[KK-theory]] of the [[noncommutative topology of quasiperiodicity]]:
+
+* {#Bellissard03} Jean Bellissard, *The Noncommutative Geometry of Aperiodic Solids*, in: Geometric and Topological Methods for Quantum Field Theory, pp. 86-156 (2003) ([pdf](http://people.math.gatech.edu/~jeanbel/Publi/ncg02.pdf), [doi:10.1142/9789812705068_0002](https://doi.org/10.1142/9789812705068_0002))
+
+* {#Ypma05} Fonger Ypma, *Quasicrystals, $C^\ast$-algebras and K-theory*, 2005 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.214.4414&rep=rep1&type=pdf))
+
+* {#Putnam10} Ian F. Putnam, *Non-commutative methods for the K-theory of $C^\ast$-algebras of aperiodic patterns from cut-and-project systems*,  Commun. Math. Phys. 294, 703–729 (2010) ([pdf](https://www.math.uvic.ca/faculty/putnam/r/0802_CMP.pdf), [doi:10.1007/s00220-009-0968-0](https://doi.org/10.1007/s00220-009-0968-0))
+
+* Hervé Oyono-Oyonoa, Samuel Petite, *$C^\ast$-algebras of Penrose hyperbolic tilings*, Journal of Geometry and Physics Volume 61, Issue 2, February 2011, Pages 400-424 ([doi:10.1016/j.geomphys.2010.09.019](https://doi.org/10.1016/j.geomphys.2010.09.019))
+
 
 #### Holographic  
 
