@@ -40,10 +40,11 @@ Original articles:
 
 Review:
 
+
+* [[Anatoly Vershik]], *Gel'fand-Tsetlin algebras, expectations, inverse limits, Fourier analysis*, pp. 619 in: [[Pavel Etingof]], [[Vladimir S. Retakh]], [[Isadore Singer]] (eds.) *The Unity of Mathematics* In Honor of the Ninetieth Birthday of [[I. M. Gelfand]], Birkhäuser 2006 ([arXiv:math/0503140](https://arxiv.org/abs/math/0503140), [ISBN:978-0-8176-4467-3](https://www.springer.com/gp/book/9780817640767))
+
 * David Grabovsky, *The Gelfand-Tsetlin Basis*, 2018 ([pdf](http://www.math.columbia.edu/~ums/Finite%20Group%20Rep%20Theory2.pdf), [[GrabovskyGelfandTsetlinBasis.pdf:file]])
-
-* [[Anatoly Vershik]], *Gel'fand-Tsetlin algebras, expectations, inverse limits, Fourier analysis*, pp. 619 in: [[Pavel Etingof]], [[Vladimir S. Retakh]], [[Isadore Singer]] (eds.) *The Unity of Mathematics* In Honor of the Ninetieth Birthday of [[I. M. Gelfand]], ([arXiv:math/0503140](https://arxiv.org/abs/math/0503140), [ISBN:978-0-8176-4467-3](https://www.springer.com/gp/book/9780817640767))
-
+ 
 
 See also:
 
