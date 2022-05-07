@@ -336,7 +336,7 @@ The slice adjunction $(f^*/X \dashv f_*/X)$ is discussed  <a href="http://ncatla
 We discuss [[point of a topos|topos points]] of over-toposes.
 
 
-+-- {: .num_prop}
++-- {: .num_prop #points-from-pairs}
 ###### Observation
 
 Let $\mathcal{E}$ be a [[topos]], $X \in \mathcal{E}$ an [[object]] and 
@@ -367,7 +367,7 @@ Hence the [[inverse image]] of $(e,x)$ sends $A \to X$ to the [[fiber]] of $e^*(
 +-- {: .num_prop}
 ###### Corollary
 
-If $\mathcal{E}$ has [[point of a topos|enough point]]s then so does the slice topos $\mathcal{E}/X$ for every $X \in \mathcal{E}$.
+If $\mathcal{E}$ has [[point of a topos|enough points]] then so does the slice topos $\mathcal{E}/X$ for every $X \in \mathcal{E}$.
 
 =--
 
@@ -405,6 +405,19 @@ over all points $* \stackrel{x}{\to} e^*(X)$. Since in [[Set]] every object $S$ 
 The claim then follows with the assumption that $\mathcal{E}$ has enough points.
 
 =--
+
+It turns out that all points of $\mathcal{E}/X$ correspond to pairs $(e,x)$ as above, with $e$ a [[point of a topos|point]] of $\mathcal{E}$ and $x \in e^*(X)$ an element. More precisely:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{E}$ be a [[topos]] and $X$ an [[object]] in $\mathcal{E}$. Then the category of [[point | points]] of the over-topos $\mathcal{E}/X$ is equivalent to the category with: as objects the pairs $(e,x)$ with $e$ a [[point]] of $\mathcal{E}$ and $x \in e^*(X)$ an element; and as morphisms $(e,x) \to (e',x')$ the [[natural transformation | natural transformations]] $\eta : e^* \to (e')^*$ such that $\eta_X(x) = x'$.
+
+=--
+
+This is [SGA4 (1972, Exposé IV, Proposition 5.12, p. 382)](#SGA4), in the special case where $E' = Set$. In the statement of the proposition, we used the (now standard) convention that a morphism of points (or [[geometric transformation]]) $e \to e'$ is a natural transformation $e^* \to (e')^*$. Note however that SGA4 uses the opposite convention, see [SGA4 (1972, Exposé IV, 3.2, p. 328)](#SGA4).
+
+The point corresponding the pair $(e,x)$ is the one constructed in Observation \ref{points-from-pairs}.
 
 
 ## Related concepts
