@@ -197,7 +197,7 @@ and so $\tilde \mu$ is a Lie homomorphism.
 ### Angular momentum
  {#AngularMomentum}
 Consider the action of SO(3) on $\mathbb{R}^3$, which induces a Hamiltonian action on $T^*\mathbb{R}^3\cong\mathbb{R}^3\times\mathbb{R}^3$ via 
-$$(q,p)\xrightarrow{A\in\text{SO(3)}}(Aq,pA^{-1})$$
+$$(q,p)\xrightarrow{A\in\text{SO(3)}}(A q, p A^{-1})$$
 where $q$ is a column vector and $p$ is a row vector. Then the momentum map for this Hamiltonian action is 
 $$\mu\colon T^*(\mathbb{R}^3)\to \mathfrak{so}(3)^*,\quad \left\langle\mu(q,p),\;\vec\theta\cdot\begin{pmatrix}\Omega_1\\\Omega_2\\\Omega_3\end{pmatrix} \right\rangle\to (\vec{q}\times \vec p)\cdot\vec{\theta}$$
 where 
