@@ -12,6 +12,11 @@ On [[anyons]] satisfying [[non-abelian group|non-abelian]] [[braid group statist
 
 * [[Gregory Moore]], [[Nicholas Read]], _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
 
+On the [[K-theory classification of D-brane charge]]:
+
+* [[Greg Moore]], _K-Theory from a physical perspective_, in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal, Cambridge University Press (2004)  ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018), [doi:10.1017/CBO9780511526398.011](https://doi.org/10.1017/CBO9780511526398.011))
+
+
 
 On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
 
