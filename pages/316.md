@@ -157,3 +157,5 @@ These are shaped like the homotopy-theoretic cone, so maybe there is a deeper re
 
 [[!redirects cone]]
 [[!redirects cones]]
+[[!redirects cocone]]
+[[!redirects cocones]]
