@@ -53,7 +53,7 @@ More in detail, if $I,J \subset Mor(\mathcal{C})$ are the classes of [[generatin
 
 =--
 
-([Hirschhorn 05](#Hirschhorn05), [May & Ponto 2012, Th. 15.3.6](#MayPonto12)).
+([Hirschhorn 2005](#Hirschhorn05); [May & Ponto 2012, Th. 15.3.6](#MayPonto12)).
 
 +-- {: .num_prop #ModelStructureInheritsCombinatorial}
 ###### Proposition
@@ -73,17 +73,17 @@ and by prop. \ref{ModelStructureInheritsGoodProperties} with $\mathcal{C}$ cofib
 +-- {: .num_prop #ModelStructureInheritsEnriched}
 ###### Proposition
 
-If $\mathcal{C}$ is an [[cartesian enriched model category]], then so is $\mathcal{C}_{/X}$.
+If $\mathcal{C}$ is an [[enriched model category]] over a [[cartesian closed model category]], then so is its [[enriched slice category]] $\mathcal{C}_{/X}$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By basic properties of [[cartesian enriched categories]] they are stable under slicing, where tensoring is computed in $\mathcal{C}$.
+By basic properties of [[enriched categories]] over [[cartesian closed categories]] they are stable under slicing, where tensoring is computed in $\mathcal{C}$ (see at *[[enriched slice category]]*).
 Hence with $\mathcal{C}$ enriched also $\mathcal{C}_{/X}$ is.
 The [[pushout product axiom]] now follows from the fact
-that in overcategories pushouts can be computed in the underlying category $\mathcal{C}$.
+that in overcategories pushouts are reflected in the underlying category $\mathcal{C}$ (by [this Prop.](over+category#LimitsAndColimits)).
 The [[unit axiom]] follows from the unit axiom of $\mathcal{C}$
 using the fact that tensorings are computed in $\mathcal{C}$.
 
