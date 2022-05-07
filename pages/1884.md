@@ -2801,6 +2801,10 @@ The proof of the [[Hopf invariant one]] theorem in terms of topological K-theory
 
 * {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf))
 
+On [[Hopf rings]] of [[odinary homology]] of topological K-theories:
+
+* [[Neil Strickland]], _Bott periodicity and Hopf rings_, 1992 ([pdf](https://neil-strickland.staff.shef.ac.uk/research/thesis.pdf), [[StricklandHopfRings.pdf:file]])
+
 
 ### For non-compact spaces
 
