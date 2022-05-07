@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include induction - contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 =--
 =--
 
