@@ -179,16 +179,18 @@ $$
 
 ## Related concepts
 
-* [[Whitehead's theorem]]
 
-* [CW-approximation for sequential spectra](CW-spectrum#CWApproximation)
+* in [[stable homotopy theory]]: [CW-approximation for sequential spectra](CW-spectrum#CWApproximation)
 
 * in [[equivariant homotopy theory]]: [[G-CW approximation]]
 
+* [[Whitehead's theorem]]
+
+* [[cellular approximation theorem]]
 
 ## References
 
-* {#tomDieck08} [[Tammo tom Dieck]], section 8.6 of _Algebraic topology_, EMS (2008)
+* {#tomDieck08} [[Tammo tom Dieck]], section 8.6 of: _Algebraic topology_, EMS (2008)
 
 * {#Hatcher} [[Allen Hatcher]], _Algebraic topology_, Cambridge Univ. Press 2002; Chapter 4, [Section 4.1 pdf](http://www.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf)
 
@@ -197,3 +199,11 @@ $$
 
 [[!redirects CW approximations]]
 [[!redirects CW-approximations]]
+
+[[!redirects CW approximation theorem]]
+[[!redirects CW approximation theorems]]
+
+[[!redirects CW-approximation theorem]]
+[[!redirects CW-approximation theorems]]
+
+
