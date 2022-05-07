@@ -32,11 +32,14 @@ Introducing the [[simplicial classifying space]] construction $\overline{W}G$:
 
 * {#MacLane54} [[Saunders MacLane]], *Constructions simpliciales acycliques*, Colloque Henri Poincar&eacute; 1954 ([[MacLaneConstructionsSimplicialesAcycliques.pdf:file]])
 
+On [[geometric realization of simplicial topological spaces]] for constructing [[classifying spaces]], understood as simplicial [[coends]] in [[compactly generated topological spaces]]:
+
+* {#MacLane70} [[Saunders MacLane]], _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday*, Lecture Notes in Mathematics *168*,  Springer 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
+
 
 On [[category theory]]:
 
-
-* _[[Categories Work|Categories for the Working Mathematician]]-
+* *[[Categories Work|Categories for the Working Mathematician]]*
 
 On [[sheaf and topos theory]]:
 
