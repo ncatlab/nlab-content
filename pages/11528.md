@@ -21,7 +21,7 @@
 
 ## Idea
 
-Given a [[topological space]] $G$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[topological G-spaces]], hence of [[topological spaces]] [[group object|equipped with]] [[continuous function|continuous]] [[group actions]].
+Given a [[topological group]] $G$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[topological G-spaces]], hence of [[topological spaces]] [[group object|equipped with]] [[continuous function|continuous]] [[group actions]].
 
 Analogously, given a [[simplicial group]] $G_\bullet$, the _Borel model structure_ is a [[model category]] structure on the [[category]] of [[simplicial group actions]], hence of [[simplicial sets]] equipped with $G$-[[action]] 
 
