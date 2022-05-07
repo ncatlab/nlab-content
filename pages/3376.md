@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[enriched model categories]]:
+
+* [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and presheaf categories_, New York J. Math. 26 (2020) 37–9 ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567), [](https://www.emis.de/journals/NYJM/j/2020/26-3.html), [NYJM:2020/26-3](https://www.emis.de/journals/NYJM/j/2020/26-3.html))
+
+
 On [[classifying spaces]]/[[universal principal bundles]] for [[equivariant principal bundles]]:
 
 * {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]] _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565)) 
