@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,7 +17,7 @@
 
 ## Idea
 
-Under the identification of [[homotopy types]] of [[topological spaces]] with [[simplicial sets]]/[[Kan complexes]] (see at _[[homotopy hypothesis]]_) there is a standard construction ([Kan 58](#Kan58)) traditionally denoted $G$, for the [[loop space]] $\Omega X$ of a [[connected topological space]] as a [[simplicial group]]. It is the [[left adjoint]] in an [[adjunction]]
+In [[simplicial homotopy theory]] there is a standard construction ([Kan 58](#Kan58)), traditionally denoted $G$, for the simplicial analog of the [[homotopy type]] of the [[loop space]] $\Omega X$ of a [[connected topological space]], now incarnated as a [[simplicial group]]: It is the [[left adjoint]] in an [[adjunction]]
 
 $$
   (G \dashv \overline{W}) 
@@ -19,7 +30,7 @@ $$
   sGrp
 $$
 
-between [[reduced simplicial sets]] and [[simplicial groups]], whose [[right adjoint]] is the simplicial [[classifying space]] construction.
+between [[reduced simplicial sets]] and [[simplicial groups]], whose [[right adjoint]] is the [[simplicial classifying space]] construction.
 
 The generalization of this construction to non-reduced simplicial sets and [[simplicial groupoids]] is the [[Dwyer-Kan loop groupoid]] functor.
 
