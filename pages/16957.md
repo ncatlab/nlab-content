@@ -20,3 +20,5 @@ On [[cohomology operations]]:
 * [[Hopf invariant]]
 
 category: people
+
+[[!redirects Robert E. Mosher]]
