@@ -28,6 +28,9 @@ In [[solid state physics]], the *Haldane model* is a [[model (in theoretical phy
 
 A curious property of the Haldane model, not shared by all [[Chern insulators]] in general, is that its [[Berry curvature]] is strongly localized around the nodal [[Dirac points]], hence that the [[Berry connection]] is essentially [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the nodal points.
 
+(eg. [Atteia 16, Sec. 3.4](#Atteia16))
+
+
 ## References
 
 The original article:
@@ -39,6 +42,10 @@ Review:
 * Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) $[$[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)$]$
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
+
+See also:
+
+* {#Atteia16} Jonathan Atteia, *Topology and electronic transport in Dirac systems under irradiation* (2016) $[$[tel:02426217](https://tel.archives-ouvertes.fr/tel-02426217), [pdf](https://tel.archives-ouvertes.fr/tel-02426217/document)$]$
 
 Realization in [[experiment]]:
 
