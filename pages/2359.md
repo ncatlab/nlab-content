@@ -71,7 +71,7 @@ There are various different-looking ways to define the stable homotopy category.
 
 One of the first constructions of the stable homotopy category is due to ([Adams 74, part III, sections 2 and 3](#Adams74)), following ([Boardman 65](#Boardman65)). This _[[Adams category]]_ is defined to be the category of [[CW-spectra]] with [[homotopy classes]] (with respect to [[cylinder spectra]]) of "eventually defined" functions between them.
 
-Hostorically this was advertized as being a construction free of tools of [[category theory]]. See ([Lewis-May-Steinberger 86, pages 1-3](#LewismaySteinberger86)) for review and critical assessment
+Historically this was advertised as being a construction free of tools of [[category theory]]. See ([Lewis-May-Steinberger 86, pages 1-3](#LewismaySteinberger86)) for review and critical assessment
 
 ### Via left homotopy
  {#ViaSpectrificationofSequentialPreSpectra}
@@ -177,7 +177,7 @@ A fun scan of the (pre-)history of the stable homotopy category:
 
 See also the references at _[[stable homotopy theory]]_.
 
-Original articles realizing the stabel homotopy category as the [[homotopy category]] of a [[model category]] include
+Original articles realizing the stable homotopy category as the [[homotopy category]] of a [[model category]] include
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
