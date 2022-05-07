@@ -29,4 +29,4 @@ Every [[monotonic function]] on the Dedekind real numbers is locally nonconstant
 
 ## References 
 
-* Auke Booij, *Extensional constructive real analysis via locators*, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+* Auke Booij, *Extensional constructive real analysis via locators*, ([arXiv:1805.06781](https://arxiv.org/abs/1805.06781))
