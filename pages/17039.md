@@ -29,8 +29,8 @@ This page collects pointers related to the conference and book project:
 
   and  [book project](http://ercpqg-espace.sciencesconf.org/resource/page/id/1), 
 
-   * _New spaces in mathematics: formal and conceptual reflections_, Cambridge University Press 2021, ([website](https://www.cambridge.org/core/books/new-spaces-in-mathematics/2AB1C65DD7F83F5BA2605E8411FDD271))
-   * _New spaces in physics: formal and conceptual reflections_, Cambridge University Press 2021, ([website](https://www.cambridge.org/core/books/new-spaces-in-physics/7CE95474C203AE0A19D66CBE35139D38))
+   * _New spaces in mathematics: formal and conceptual reflections_, Cambridge University Press 2021, ([websiteCUP](https://www.cambridge.org/core/books/new-spaces-in-mathematics/2AB1C65DD7F83F5BA2605E8411FDD271) [gBooks](https://books.google.hr/books?id=8XUfEAAAQBAJ))
+   * _New spaces in physics: formal and conceptual reflections_, Cambridge University Press 2021, ([websiteCUP](https://www.cambridge.org/core/books/new-spaces-in-physics/7CE95474C203AE0A19D66CBE35139D38) [gBooks](https://books.google.hr/books?id=30IwzQEACAAJ))
 
 
   ([toc pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf))
