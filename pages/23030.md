@@ -31,7 +31,7 @@ In particular (Prop. \ref{GroupoidOfCrossedHomorphismsIsSlicedFunctorGroupoid} b
 
 * and the [[connected components]] of these groupoids is the [[non-abelian cohomology|non-abelian]] [[group cohomology]] $H^1(G,\Gamma)$ (Rem. \ref{AsGroup1Cocycles}, \ref{AsCoboundariesInGroupCohomology}).
 
-This last fact is classical in the special case that $\Gamma$ is an [[abelian group]], where it serves to define [[group cohomology]] with coefficients in degree 1 ([MacLane 1975, IV.2](#MacLane75)).
+This last fact is widely appreciated (see Rem. \ref{ReferencesForNonabelianCrossedHomomorphisms} below) in the special case that $\Gamma$ is an [[abelian group]], where it serves to define ordinary [[group cohomology]] with coefficients in degree 1.
 
 Beware that, while the notion of crossed homomorphisms makes sense for [[group objects]] [[internalization|internal]] to any ambient [[category]] $\mathcal{C}$, it may not need to strictly coincide with that of [[cocycles]] in first [[group cohomology]] beyond $\mathcal{C} = $ [[Set]] (for reasons discussed at *[[Lie group cohomology]]*, or, for the case of [[profinite groups]], in [NSW 2008, p. 24](#NSW08)).
 
@@ -63,8 +63,6 @@ $$
 ### Component definition
  {#ComponentDefinition}
 
-#### Crossed homomorphisms
-
 \begin{definition}\label{CrossedHomomorphism}
 A *crossed homomorphism* from $G$ to $\Gamma$ is a [[function]] ([[morphism]] in the [[internalization|ambient]] category)
 
@@ -83,8 +81,14 @@ $$
   \,.
 $$
 \end{definition}
-
-For [[abelian group|abelian]] $\Gamma$ this terminology seems to be due to [MacLane 1975, IV (2.1)](#MacLane75); for general ([[non-abelian group|non-abelian]]) $\Gamma$ it is used, e.g., in [Murayama & Shimakawa 1995](#MurayamaShimakawa95), [Milne 2017, 15.a](#Milne17).
+\begin{remark}
+\label{ReferencesForNonabelianCrossedHomomorphisms}
+Def. 
+\ref{CrossedHomomorphism}
+appears, already with the non-abelian generality in mind, back in [Whitehead 1949, (3.1)](#Whitehead49) (together with the notion of [[crossed modules]], both as tools for analyzing [[homotopy types]] with non-trivial [[fundamental group]]).
+For [[abelian group|abelian]] $\Gamma$ the definition is picked up in [MacLane 1975, IV (2.1)](#MacLane75) and many following references on [[group cohomology]], e.g. [Brown 1982, p. 45](#Brown82).
+For general [[non-abelian group|non-abelian]] $\Gamma$ the notion is later used in [Murayama & Shimakawa 1995](#MurayamaShimakawa95) for discussion of [[equivariant principal bundles]]. A textbook account is in [Milne 2017, 15.a](#Milne17), aimed at application to [[algebraic groups]].
+\end{remark}
 
 \begin{example}
   For $\alpha$ the [[trivial action]], 
@@ -251,9 +255,6 @@ $$
 That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomorphisms]] may have been one the key observations that lead to [Murayama & Shimakawa 1995](#MurayamaShimakawa95), though the statement of Prop. \ref{GraphOfACrossedHomomorphism} is still not explicit there.
 \end{remark}
 
-
-
-#### Crossed conjugation
 
 \begin{definition}\label{AdjointActionOnCrossedHomomorphisms}
 **(crossed conjugation)**
@@ -520,7 +521,7 @@ Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}, this i
 
 
 
-## References
+## Literature
 
 ### To abelian groups
 
@@ -539,9 +540,9 @@ in the context of [[group cohomology]]:
 
 The general [[non-abelian group|non-abelian]] notion: 
 
-In homotopy theory, crossed homomorphisms  with possibly non-abelian codomain already occur in 
+In [[homotopy theory]], crossed homomorphisms  with possibly non-abelian codomain already occur in 
 
-* [[J. H. C. Whitehead]], _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496, (section 3).
+* {#Whitehead49} [[J. H. C. Whitehead]], Section 3 of: _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496 ([euclid:1183513797](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full))
 
 
 In discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]:
