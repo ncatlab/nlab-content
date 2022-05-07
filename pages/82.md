@@ -34,6 +34,10 @@ There are always two ways to think of topos theory: as being
 
 * **topos theory**
 
+  * [[Giraud's theorem]]
+
+  * [[fundamental theorem of topos theory]]
+
 * [[2-topos theory]]
 
 * [[(∞,1)-topos theory]]
