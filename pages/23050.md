@@ -48,7 +48,9 @@ We have
 
 *  $(Rel(X), ; \Delta)$ is a monad, where $\Delta$ is the diagonal / equality relation;
 
-* the residuation relation is satisfied.
+* the residuation relation is satisfied:
+
+$$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow (R\subseteq T / S)).$$
 
 ##Related entries
 
