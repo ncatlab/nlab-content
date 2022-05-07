@@ -360,6 +360,7 @@ A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparis
 * [[Euclidean-generated topological spaces]] ([[Delta-generated topological spaces]])
 
 ## References 
+ {#References}
 
 ### CG Hausdorff spaces
 
