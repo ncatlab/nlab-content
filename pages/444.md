@@ -891,7 +891,7 @@ $$
 
 ### For covers
 
-The notion of the nerve of an [[cover]] (in modern parlance: of its [[Cech groupoid]]) appears in: 
+The notion of the nerve of a [[cover]] (in modern parlance: of its [[Cech groupoid]]) appears in: 
 
 * [[Paul Alexandroff]], Section 9 of: _Über den allgemeinen Dimensionsbegriff und seine Beziehungen zur elementaren geometrischen Anschauung_, Mathematische Annalen 98 (1928), 617–635 ([doi:10.1007/BF01451612](https://doi.org/10.1007/BF01451612)).
 
