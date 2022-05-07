@@ -279,30 +279,32 @@ For the relation to Poisson Operads see
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ 
 
-[[!redirects little k-cubes operad]]
-[[!redirects little n-cubes operad]]
 [[!redirects little cube operad]]
-[[!redirects little k-cube operad]]
-[[!redirects little n-cube operad]]
-
-[[!redirects little discs operad]]
-[[!redirects little disc operad]]
-[[!redirects little discs operads]]
-[[!redirects little disc operads]]
-
-[[!redirects little k-discs operad]]
-[[!redirects little n-discs operad]]
-[[!redirects little k-disc operad]]
-[[!redirects little n-disc operad]]
-[[!redirects little disks operad]]
 [[!redirects little disk operad]]
-[[!redirects little k-disks operad]]
-[[!redirects little n-disks operad]]
+[[!redirects little 2-disk operad]]
+
+[[!redirects little k-cube operad]]
+[[!redirects little k-cubes operad]]
+[[!redirects little n-cube operad]]
+[[!redirects little n-cubes operad]]
+
+[[!redirects little disc operad]]
+[[!redirects little discs operad]]
+[[!redirects little disc operads]]
+[[!redirects little discs operads]]
+
+[[!redirects little k-disc operad]]
+[[!redirects little k-discs operad]]
+[[!redirects little n-disc operad]]
+[[!redirects little n-discs operad]]
+
+[[!redirects little disk operad]]
+[[!redirects little disks operad]]
 
 [[!redirects little k-disk operad]]
+[[!redirects little k-disks operad]]
 [[!redirects little n-disk operad]]
-
-[[!redirects little n-disk operad]]
+[[!redirects little n-disks operad]]
 [[!redirects little n-disk operads]]
 
 [[!redirects Ek-operad]]
@@ -319,15 +321,21 @@ For the relation to Poisson Operads see
 [[!redirects E-k-operads]]
 [[!redirects E-n-operads]]
 
-
 [[!redirects En operad]]
-
+[[!redirects En operads]]
 [[!redirects En-operad]]
 [[!redirects En-operads]]
+[[!redirects Ek operad]]
+[[!redirects Ek operads]]
+[[!redirects Ek-operad]]
+[[!redirects Ek-operads]]
 
-[[!redirects E-k operad]]
-[[!redirects E-k operad]]
+[[!redirects E_n operad]]
+[[!redirects E_n operads]]
+[[!redirects E_n-operad]]
+[[!redirects E_n-operads]]
+[[!redirects E_k operad]]
+[[!redirects E_k operads]]
+[[!redirects E_k-operad]]
+[[!redirects E_k-operads]]
 
-
-[[!redirects little disk operad]]
-[[!redirects little 2-disk operad]]
