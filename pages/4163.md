@@ -120,9 +120,11 @@ Quantization of [[gauge theories]] ([[Yang-Mills theory]]) in [[causal perturbat
 
 * {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Kasia Rejzner]], _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. 317(3), 697&#8211;725 (2012) ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232))
 
-and surveyed in
+and surveyed in:
 
 * {#Rejzner16} [[Kasia Rejzner]], section 7 of _[[Perturbative Algebraic Quantum Field Theory]]_, Springer 2016
+
+* [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory]]_, 2017
 
 * {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
@@ -130,7 +132,7 @@ and surveyed in
 
 
 
-The generalization of all these constructions to quantum fields on general [[globally hyperbolic spacetimes]] (perurbative [[AQFT on curved spacetimes]]) was made possible by the results on [[Hadamard states]] and [[Feynman propagators]] in
+The generalization of all these constructions to quantum fields on general [[globally hyperbolic spacetimes]] (perturbative [[AQFT on curved spacetimes]]) was made possible by the results on [[Hadamard states]] and [[Feynman propagators]] in
 
 * {#Radzikowski96} [[Marek Radzikowski]], _Micro-local approach to the Hadamard condition in quantum field theory on curved space-time_, Commun. Math. Phys. 179 (1996), 529&#8211;553 ([Euclid](http://projecteuclid.org/euclid.cmp/1104287114))
 
@@ -199,23 +201,34 @@ Exposition also in:
 * [[Jakob Schwichtenberg]], *[divergence-perturbation-series-qft](http://jakobschwichtenberg.com/divergence-perturbation-series-qft)*
 
 
-For the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
+For the example of [[phi^4 theory|$\phi^4$-theory]] this non-convergence of the perturbation series is discussed in
 
 * {#Helling} [[Robert C. Helling]], p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf), [[HellingClassicalQFT.pdf:file]])
 
 * {#BakulevShirkov10} Alexander P. Bakulev, [[Dmitry Shirkov]], section 1.1 of _Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory_, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23, 2010, Belgrade, Serbia (ISBN 978-86-82441-30-4), pp. 27--54 ([arXiv:1102.2380](https://arxiv.org/abs/1102.2380)) 
-
-Discussion of remaining issues even when resummation does apply:
-
-* Sebastian Schenk, *The Breakdown of Resummed Perturbation Theory at High Energies* ([arXiv:2109.00549](https://arxiv.org/abs/2109.00549))
-
-
 
 See also
 
 * Carl M. Bender, Carlo Heissenberg, _Convergent and Divergent Series in Physics_ ([arXiv:1703.05164](https://arxiv.org/abs/1703.05164))
 
 And see at _[[perturbation theory]] -- [On divergence/convergence](perturbation+theory#ReferencesDivergenceConvergence)_ 
+
+{#ReferencesBreakdownAtLargeNumberOfInsertions} Discussion of further issues, even when [[resummation]] is thought to apply, arising for [[n-point functions]] at large $n$ (large number of external particles in a scattering process):
+
+failure of unitarity (for [[phi^n interaction|$\phi^n$-theory]]):
+
+* Sebastian Schenk, *The Breakdown of Resummed Perturbation Theory at High Energies* ([arXiv:2109.00549](https://arxiv.org/abs/2109.00549))
+
+failure of [[locality]] (for [[perturbative quantum gravity]] and [[perturbative string theory]]):
+
+* [[Sudip Ghosh]], [[Suvrat Raju]], *Loss of locality in gravitational correlators with a large number of insertions*, Phys. Rev. D 96, 066033 (2017) ([arXiv:1706.07424](https://arxiv.org/abs/1706.07424)) 
+
+* [[Sudip Ghosh]], [[Suvrat Raju]], *The Breakdown of String Perturbation Theory for Many External Particles*, Phys. Rev. Lett. 118, 131602 (2017) ([arXiv:1611.08003](https://arxiv.org/abs/1611.08003))
+
+
+
+
+
 
 ### L-infinity algebra structure
 
