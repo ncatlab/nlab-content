@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[category theory]], the _pasting law_ is a statement about (de-)composition of [[pullback]]/[[pushout]] [[diagrams]]. 
+In [[category theory]], the *pasting law* or *pullback lemma* is a statement about (de-)composition of [[pullback]]/[[pushout]] [[diagrams]]. 
 
 ## Statement
 
@@ -91,8 +91,31 @@ $$
   }
 $$
 
-such that the vertical arrows are all monic, the squares on the right are serially commutative, and the lower row is an equalizer.  Then the upper row is an equalizer if and only if the left square is a pullback.
+such that the vertical arrows are all [[monomorphisms]], the squares on the right are serially [[commutative diagram|commutative]], and the lower row is an [[equalizer]].  Then the upper row is an equalizer if and only if the left square is a [[pullback]].
 =--
+
+## References
+ {#References}
+
+### In 1-category theory
+
+Discussion in [[1-category|1-]][[category theory]]:
+
+Statements of the pasting law in textbooks, typically leaving the proof to the reader:
+
+* [[Saunders MacLane]], Ex. 8 on p. 72 in: *[[Categories for the Working Mathematician]]*, Graduate texts in mathematics, Springer 1971 ([doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8))
+
+* [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], Prop. 11.10 in: *[[Abstract and Concrete Categories]]*, John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
+
+The proof is spelled out in:
+
+* [[Andrej Bauer]], *The pullback lemma in gory detail*, 2012 ([pdf](http://math.andrej.com/wp-content/uploads/2012/05/pullback.pdf), [[Bauer_PullbackLemma.pdf:file]])
+
+### In $(\infty,1)$-category theory
+
+Discussion in [[(infinity,1)-category theory|$(\infty,1)$-category theory]]
+
+* [[Jacob Lurie]], Lemma 4.4.2.1 in *[[Higher Topos Theory]]*
 
 [[!redirects pasting law for pullbacks]]
 [[!redirects pasting law for pushouts]]
