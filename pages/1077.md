@@ -205,7 +205,7 @@ Categories with biproducts include:
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
 
 
-* {#Karvonen} Martti Karvonen, _Biproducts without pointedness_, [arXiv](https://arxiv.org/abs/1801.06488).
+* {#Karvonen} Martti Karvonen, _Biproducts without pointedness_,  Cahiers de topologie et géométrie différentielle catégoriques, 61(3):229–238, 2020. [arXiv](https://arxiv.org/abs/1801.06488).
 
 
 A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discussion/4966/zero-morphism-and-additive-categories/?Focus=39983#Comment_39983).
