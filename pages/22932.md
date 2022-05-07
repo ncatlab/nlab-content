@@ -37,7 +37,7 @@ A compatible piecewise-linear structure, hence a combinatorial triangulation, he
 
 * every [[smooth manifold]] 
   
-  ([Cairns 1935](#Cairns35) [Whitehead 1940](#Whitehead40))
+  ([Cairns 1935](#Cairns35), [Whitehead 1940](#Whitehead40))
 
 * every [[topological manifold]] of [[dimension]] 2, hence every [[surface]] 
 
@@ -61,32 +61,12 @@ For [[topological manifolds]] $X$ of [[dimension of a manifold|dimension]] $dim(
 
 ## References 
 
-Review:
 
-* [[Ciprian Manolescu]], *Triangulations of manifolds* ([pdf](https://web.stanford.edu/~cm5/tm.pdf), [[Manolescu_TriangulationsOfManifolds.pdf:file]])
-
-Proof that every [[surface]] admits a combinatorial triangulation:
-
-* {#Rado25} Rado 1925
-
-Proof that every [[3-manifold]] admits the structure of a [[smooth manifold]] and hence of a combinatorial triangulation:
-
-* {#Moise52} [[Edwin E. Moise ]],  *Affine Structures in 3-Manifolds: V. The Triangulation Theorem and Hauptvermutung*, Annals of Mathematics Second Series, Vol. 56, No. 1 (Jul., 1952), pp. 96-114 (19 pages)
-
-Proof that every [[smooth manifold]] admits a combinatorial triangulation:
-
-* {#Cairns35} Cairns 1935
-
-* {#Whitehead40} Whitehead 1940
-
-Proof that in every dimension $dim \geq 4$ there exist topological manifolds without combinatorial triangulation:
-
-* {#KirbySiebenmann69} Kirby Siebenmann 1969
-
-Proof that in every dimension $dim \geq 5$ there exist topological manifolds without simplicial triangulation:
-
-* {#Manolescu16} [[Ciprian Manolescu]], *$Pin(2)$-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture*, J. Amer. Math. Soc. 29 (2016), 147-176  ([arXiv:1303.2354](https://arxiv.org/abs/1303.2354), [doi:10.1090/jams829]( https://doi.org/10.1090/jams829))
+[[!include triangulation theorems -- references]]
 
 
 [[!redirects triangulation theorems]]
+
+[[!redirects triangulation conjecture]]
+[[!redirects triangulation conjectures]]
 
