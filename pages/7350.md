@@ -21,6 +21,13 @@ The notion of L-finite category is a sort of [[vertical categorification|categor
 
 * A category $C$ is $L$-finite if the terminal object $1\in Set^C$ belongs to the closure of the representables under finite colimits.
 
+## Related concepts
+
+* [[finite category]]
+
+* [[filtered colimit]]
+
+* [[sound doctrine]]
 
 ## References
 
