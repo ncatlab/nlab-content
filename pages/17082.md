@@ -99,7 +99,9 @@ It is clear that $C^{&solb;\ell r} \supset C$ and $C^{&solb; r\ell} \supset C$. 
 ## Examples of lifting properties
  {#ExamplesOfLiftingProperties}
 
-
+Decyphering notation in most of the examples below leads to standard definitions or reformulations. The intution behind most examples below 
+is that the class of morphisms consists of simple or archetypal examples
+related to the property defined. 
 
 ### Elementary examples 
 
