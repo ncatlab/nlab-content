@@ -2,11 +2,11 @@
 
 ## Selected writings
 
-On the notion of [[spectrum (geometry)|spectrum in geometry]]
+On the notion of [[spectrum (geometry)|spectrum in geometry]]:
 
 * [[Axel Osmond]], _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.00853))
 
-  (on [[multi-adjoints]])
+  > (on [[multi-adjoints]])
 
 * [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
 
