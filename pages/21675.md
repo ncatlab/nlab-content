@@ -33,7 +33,7 @@ Write
   dgcAlgebras^{\geq 0}_{\mathbb{R}}
 \]
 
-for the [[simplicial object]] in [[dgc-algebras]] given by [[polynomial differential forms on simplices]].
+for the [[simplicial object]] in [[dgc-algebras]] given by [[polynomial differential forms on simplices]] over the [[real numbers]] (see also at [[fundamental theorem of dgc-algebraic homotopy theory]] -- [change of scalars](fundamental+theorem+of+dg-algebraic+rational+homotopy+theory#ChangeOfScalars)).
 
 
 +-- {: .num_defn #PLdeRhamComplex} 
@@ -41,7 +41,7 @@ for the [[simplicial object]] in [[dgc-algebras]] given by [[polynomial differen
 **([[PL de Rham complex]])**
 
 The for $S \in $ [[sSet]] a [[simplicial set]], its PL de Rham complex is the
-[[hom-object]] of [[simplicial objects]] from $S$ to $\Omega^\bullet_{polyDR}$ (eq:PolynomialDifferentialFormsOnSimplices), hence is the following [[end]] in [[dgcAlgebras]]:
+[[hom-object]] of [[simplicial objects]] from $S$ to $\Omega^\bullet_{polyDR}$ (eq:PolynomialDifferentialFormsOnSimplices), hence is the following [[end]] in [[dgcAlgebras]], here over the [[real numbers]]:
 
 \[
   \label{PLdERhamComplexOfSimplicialSet}
@@ -95,7 +95,7 @@ Write
   dgcAlgebras^{\geq 0}_{\mathbb{R}}
 \]
 
-for the [[simplicial object]] in [[dgc-algebras]] given by smooth [[differential forms on simplices]].
+for the [[simplicial object]] in [[dgc-algebras]] (over the [[real numbers]]) given by smooth [[differential forms on simplices]].
 
 +-- {: .num_defn #PSdeRhamComplex} 
 ###### Definition
@@ -243,3 +243,6 @@ For the morphism on the left this follows since $S(X) \hookrightarrow Sing(X)$ i
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS, vol. 179 (1976) ([ams:memo-8-179](https://bookstore.ams.org/memo-8-179))
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
+
+[[!redirects the PL de Rham complex of a smooth manifold is equivalent to the de Rham complex]]
+
