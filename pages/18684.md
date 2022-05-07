@@ -36,6 +36,13 @@ The [[equations of motion]] of the [[Dirac field]].
 
 ## References
 
+* [[Bernd Thaller]], *The Dirac Equation*,  Texts and Monographs in Physics, Springer (1992) ([doi:10.1007/978-3-662-02753-0](https://link.springer.com/book/10.1007/978-3-662-02753-0))
+
+    
+
+See also:
+
+
 * Wikipedia, _[Dirac equation](https://en.wikipedia.org/wiki/Dirac_equation)_
 
 The [[path integral]] approach to the Dirac equation is discussed in
