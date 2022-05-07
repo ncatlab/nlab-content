@@ -22,11 +22,27 @@ on [[topological G-spaces]], their [[equivariant homotopy theory]] and their [[e
 
 ## 0 Background on Topological Groups and Lie Groups
 
+### 1. Elementary properties of topological groups
+
 * [[topological group]]
+
+* [[normalizer subgroup]]
+
+### 2. The classical groups
 
 * [[classical Lie group]]
 
+### 3. Integration on compact groups
+
+* [[Haar measure]]
+
+### 4. Characteristic functions on compact groups
+
+### 5. Lie groups
+
 * [[Lie group]]
+
+### 6. The structure of compact Lie groups
 
 * [[compact Lie group]]
 
