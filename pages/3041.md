@@ -1,9 +1,11 @@
 Simona Paoli is a Senior Lecturer in Mathematics Institute, University of Aberdeen, Aberdeen U.K.
 
 
-* [old website](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli)
 
-* [New profile](https://www.abdn.ac.uk/people/Simona.Paoli) still a stub.
+
+* [Aberdeen profile](https://www.abdn.ac.uk/people/Simona.Paoli).
+
+* [Personal webpage](https://sites.google.com/view/simona-paoli-webpage)
 
 ## Selected writings
 on [[higher category theory]] in terms of [[n-fold categories]] and comparison with the Tamsamani Simpson model.
