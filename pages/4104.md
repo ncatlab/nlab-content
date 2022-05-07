@@ -1,5 +1,6 @@
 [[!redirects Haar measure]]
 
+#Contents#
 * table of contents
 {: toc}
 
@@ -9,7 +10,7 @@ If $G$ is a locally compact Hausdorff [[topological group]], with $C_c(G)$ the a
 
 The archetypal example of Haar measure is the [[Lebesgue measure]] on the (additive group underlying) [[cartesian space]] $\mathbb{R}^n$.
 
-##Definition
+## Definition
 
 Let $G$ be a locally compact Hausdorff group. Let $C_c(G)$ denote the vector space of continuous real-valued functionals with compact support on $G$. This is a [[locally convex topological vector space]] where the locally convex structure is specified by the family of seminorms 
 
@@ -34,7 +35,7 @@ $$\mu(g B) = \mu(B)$$
 
 for all $g \in G$ and all Borel sets $B$. 
 
-##An Analogy with the Finite Case
+## An Analogy with the Finite Case
 
 There is an analogy between Haar measure and scaled-cardinality on a [[finite group]]. In fact, the latter is a special case of the former, as we may view a finite group as a discrete topological group. While measure on a (discrete) finite group is subsumed by the notion of Haar measure, it may be of interest to build intuition.
 
@@ -80,7 +81,9 @@ $$
 $$
 has degeneracies as well.
 
-##Existence and Uniqueness
+## Properties
+
+### Existence and Uniqueness
 
 Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by Weil. A proof can be found in these online [notes](http://simonrs.com/HaarMeasure.pdf) by Rubinstein-Salzedo. A different, constructive proof, due to E.M. Alfsen, can be found in the article "[A simplified and constructive proof of the existence and uniqueness of haar measure](https://www.mscand.dk/article/view/10675)".
  
@@ -111,7 +114,7 @@ giving a retract $\int_G : C(G) \rightarrow \mathbb{R}$ for $0 \rightarrow \math
 
 It follows that $\int_G$ has norm $1$, and from this positivity follows immediately.
 
-## Extensive and Intensive Properties
+### Extensive and Intensive Properties
 
 In Lawvere's thinking about [extensive and intensive quantities](https://ncatlab.org/nlab/show/intensive+or+extensive+quantity),
  
@@ -143,6 +146,10 @@ and so G is not unimodular.
 
 [[Abelian groups]] are obviously unimodular; so are [[compactum|compact]] groups and [[discrete topology|discrete]] groups.
 
+
+## References
+
+* {#Bredon72} [[Glen Bredon]], Section 0.3 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
 [1]: https://arxiv.org/abs/math/0606794
