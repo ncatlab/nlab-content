@@ -8,7 +8,11 @@ Collected works are available at
 
 * [Bolzano collection](http://dml.cz/handle/10338.dmlcz/400001) at the Czech Digital Mathematics Library
 
-For biographical detail, see
+For biographical and other detail, see
+
+* [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/bolzano/)
+
+* [Bolzano's Logic](https://plato.stanford.edu/entries/bolzano-logic/) in Stanford EP
 
 * [MacTutor biographical sketch](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Bolzano.html)
 
