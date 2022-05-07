@@ -118,7 +118,7 @@ Introductions:
 
 * Y. Kurihara, _QCD at LHC for beginners_ Lesson 1 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_1.pdf)), Lesson 2 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_2.pdf)) Lesson 3 ([pdf](http://www.iop.vast.ac.vn/theor/conferences/vsop/18/files/QCD_Kurihara_3.pdf))
 
-* Particle Data Group, _Quantum Chromodynamics_ ([pdf](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-qcd.pdf))
+* [[Particle Data Group]], _Quantum Chromodynamics_ ([pdf](http://pdg.lbl.gov/2015/reviews/rpp2015-rev-qcd.pdf))
 
 Textbooks:
 
