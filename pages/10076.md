@@ -69,3 +69,5 @@ category: algebra
 [[!redirects near-rigs]]
 [[!redirects nearrig]]
 [[!redirects nearrigs]]
+[[!redirects near-semiring]]
+[[!redirects near-semirings]]
