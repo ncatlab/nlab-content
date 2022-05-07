@@ -127,15 +127,35 @@ a [[convenient category of topological spaces]] in that:
 
 
 ### Model category structure
+ {#ModelCategoryStructure}
 
-+-- {: .num_prop }
-###### Proposition
 
+\begin{prop}
+**([[model structure on Delta-generated topological spaces]])**
+\linebreak
 The category of $\Delta$-generated spaces carries the [[mathematical structure|structure]] of a [[cofibrantly generated model category]] with the same generating (acyclic) cofibrations as for the [[classical model structure on topological spaces]] and such that the [[coreflective subcategory|coreflection]] into all [[Top|TopologicalSpaces]] (Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces}) is a [[Quillen equivalence]] to the [[classical model structure on topological spaces]].
-
-=--
+\end{prop}
 
 ([Haraguchi 13, Theorem 3.3](#Haraguchi13))
+
+This [[Quillen equivalence]] factors through the [[model structure on compactly generated topological spaces]] (e.g. [Gaucher 2007, p. 7](#Gaucher07)):
+
+
+$$
+  Top_{Qu}
+  \underoverset
+    { \underset{ k }{\longrightarrow} }
+    { {\hookleftarrow} }
+    { \;\;\;\;\;\;\simeq_{\mathrlap{Qu}}\;\;\;\;\;\; }
+  k Top_{Qu}
+  \underoverset
+    { \underset{ D }{\longrightarrow} }
+    { {\hookleftarrow} }
+    { \;\;\;\;\;\;\simeq_{\mathrlap{Qu}}\;\;\;\;\;\; }
+  D Top_{Qu}
+  \,.
+$$
+
 
 
 ## Related concepts
