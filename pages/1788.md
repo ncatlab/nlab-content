@@ -1,4 +1,105 @@
 
+$$
+  \big[
+    \mathbf{B}\mathbb{Z},
+    \,
+    \mathcal{X}
+  \big] 
+    \!\sslash\!
+  \mathbf{B}\mathbb{Z}
+  \;\;
+  \simeq
+  \;\;
+  \underset{
+    \ast \to \mathbf{B}^2\mathbb{Z}
+  }{\prod}
+  \mathcal{X}
+  \;\;
+  \in
+  \;\;
+  \mathbf{H}_{/\mathbf{B}^2\mathbb{Z}}
+$$
+
+\linebreak
+
+$$
+  \eta^{&#643;}_{\mathbf{B}S^1}
+  \;\colon\;
+  \mathbf{B}S^1 
+  \rightarrow
+  &#643; \mathbf{B}S^1 
+  \;\simeq\;
+  \mathbf{B}^2\mathbb{Z}
+$$
+
+\linebreak
+
+$$
+  \begin{aligned}
+  \big[
+    \mathbf{B}\mathbb{Z},
+    \,
+    \mathcal{X}
+  \big] 
+    \!\sslash\!
+  S^1
+  &
+  \;\;
+  \simeq
+  \;\;
+  \big(
+    \eta^{&#643;}_{\mathbf{B}S^1} 
+  \big)^\ast
+  \Big(
+    \big[
+      \mathbf{B}\mathbb{Z},
+      \,
+      \mathcal{X}
+    \big] 
+      \!\sslash\!
+    &#643; S^1
+  \Big)
+  \\
+  & 
+  \;\; \simeq \;\;
+  \big(
+    \eta^{&#643;}_{\mathbf{B}S^1} 
+  \big)^\ast
+  \left(
+  \underset{
+    \ast \to \mathbf{B}^2\mathbb{Z}
+  }{\prod}
+  \mathcal{X}
+  \right)
+  \;\;\;
+  \in
+  \;
+  \mathbf{H}_{/\mathbf{B}S^1}
+  \end{aligned}
+$$
+
+\linebreak
+
+
+$$
+  \big[
+    \mathbf{B}\mathbb{Z},
+    \,
+    \mathcal{X}
+  \big] 
+    \!\sslash\!
+  \mathbf{B}\mathbb{Z}
+  \;\;
+  \simeq
+  \;\;
+  \underset{
+    \ast \to \mathbf{B}\mathbb{Z}
+  }{\sum}
+  \mathcal{X}
+$$
+
+
+
 $\ldots$
 
 $$
