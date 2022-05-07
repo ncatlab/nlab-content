@@ -961,7 +961,7 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 The realization construction of simplicial topological spaces is implicit in classical discussion of [[classifying spaces]] $B G$, in particular
 
-* {#Milgram67} [[R. James Milgram]], *The bar construction and abelian H-spaces*, The bar construction and abelian H-spaces, Illinois J. Math. 11(2): 242-250 (1967) ([doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full))
+* {#Milgram67} [[R. James Milgram]], *The bar construction and abelian H-spaces*, Illinois J. Math. 11(2): 242-250 (1967) ([doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full))
 
 which may be understood as the realization of the [[nerves]] of their [[topological groupoid|topological]] [[delooping groupoids]] $G \rightrightarrows \ast$,
 
