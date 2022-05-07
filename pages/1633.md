@@ -148,9 +148,9 @@ Finite [[product topological spaces]] of locally compact spaces are locally comp
 ###### Example
 **([[topological manifolds]] are [[locally compact topological spaces]])**
 
-[[topological manifolds]], being locally [[homeomorphism|homeomorphic]] to the [[Euclidean space|Euclidean]] [[metric spaces]] $\mathbb{R}^n$, are locally compact, via examples \ref{real} and \ref{product}.
+[[topological manifolds|Topological manifolds]], being locally [[homeomorphism|homeomorphic]] to the [[Euclidean space|Euclidean]] [[metric spaces]] $\mathbb{R}^n$, are locally compact, via examples \ref{real} and \ref{product}.
 
-In fact this applies also to [[locally Euclidean spaces]] which are not necessarily [[paracompact topological space|paracompact]] [[Hausdorff topological spaces]], such as the [[long line]].
+This applies also to [[locally Euclidean spaces]] which are not necessarily [[paracompact topological space|paracompact]] [[Hausdorff topological spaces]], such as the [[long line]].
 
 
 =--
