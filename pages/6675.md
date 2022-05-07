@@ -31,6 +31,23 @@ For the time being see at _[[quantum computation]]_ for more.
 
 Topological [[quantum gates]] as [[braid group]]-elements:
 
+
+\begin{imagefromfile}
+    "file_name": "TQCWithAnyonsBasicSetup.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": -10,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Rowell & Wang 17](#RowellWang17)"
+\end{imagefromfile}
+
+\linebreak
+
+
 \begin{imagefromfile}
     "file_name": "QuantumBraidGateI.jpg",
     "width": 600,
