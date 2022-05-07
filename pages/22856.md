@@ -53,7 +53,7 @@ $$\gamma_{m}(\gamma_{n}(x))=\frac{(n m)!}{(n!)^{m}m!}\gamma_{n m}(x).$$
 
 ## Properties
 
-Genuine powers can be constructed in the expected way from the divided powers:
+Genuine powers can be constructed in the expected way from the divided powers.
 
 +-- {: .num_prop} 
 ###### Proposition
@@ -68,6 +68,7 @@ It's true for $n=0$ and $n=1$.
 For $n \geq 2$, this follows by [[induction]], since $n! \gamma_n(x) = (n-1)! \gamma_{n-1}(x) \cdot 1! \gamma_1(x) = x^{n-1} \cdot x$.
 
 =--
+
 
 ## Related concepts
 
