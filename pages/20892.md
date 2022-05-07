@@ -13,6 +13,9 @@ We discuss occurrences of [[weight systems]] on [[chord diagrams]]/[[Jacobi diag
 
    1. [In Dp-D(p+2) brane intersections](#ReferencesWeightSystemsInDpDp2BraneIntersections)
 
+Also
+
+* [As codes for holographic entanglement entropy](#ForHolographicEntanglementEntropy)
 
 #### In Chern-Simons theory
  {#ReferencesWeightSystemsInChernSimonsTheory}
@@ -118,6 +121,45 @@ Discussion of [[weight systems]] on [[chord diagrams]] as [[single trace observa
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
+
+#### As codes for holographic entanglement entropy
+ {#ForHolographicEntanglementEntropy}
+
+[[chord diagram|Chord diagrams]] encoding [[Majorana dimer codes]] and other [[quantum error correcting codes]] via [[tensor networks]] exhibiting [[holographic entanglement entropy]]:
+
+\begin{imagefromfile}
+    "file_name": "HanUniversalHolographicCode.jpg",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [Yan 20](#Yan20)"
+\end{imagefromfile}
+
+
+* {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], *Majorana dimers and holographic quantum error-correcting code*, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
+
+
+* {#Yan20} Han Yan, *Geodesic string condensation from symmetric tensor gauge theory: a unifying framework of holographic toy models*, Phys. Rev. B 102, 161119 (2020) ([arXiv:1911.01007](https://arxiv.org/abs/1911.01007))
+
+\begin{imagefromfile}
+    "file_name": "HaPPYCodesAsDimerCode.jpg",
+    "width": 570,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [JGPE 19](#JGPE19)"
+\end{imagefromfile}
+
 
 
 #### For Dyson-Schwinger equations
