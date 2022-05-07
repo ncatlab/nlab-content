@@ -56,7 +56,13 @@ $$
 (telling us that the unit map picks out an element that is a left and right identity), and
 $$
 \array{
-G & \stackrel{(id,(-)^{-1})\circ\Delta}{\to} & G\times G\\
+G 
+  & 
+  \stackrel{
+    \mathllap{
+      (id,(-)^{-1})\circ\Delta
+    }
+  }{\to} & G\times G\\
  ((-)^{-1},id)\circ\Delta\downarrow & \underset{1}{\searrow}& \downarrow m \\
  G\times G & \stackrel{m}{\to} &G
 }
