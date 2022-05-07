@@ -47,7 +47,7 @@ The consistency of the framework used for the elimination (e.g. in the [[theorem
 
 ## Higher inductive inductive types ##
 
-Experiments with higher inductive inductive types (elaborate versions of [[higher inductive types]]) are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook). As they are at the set level, these are instances of quotient inductive-inductive types; see [QIIT](#QIIT). An experimental syntax for HIITs by [Kaposi and Kovacs](#KaposiKovacs).
+Experiments with higher inductive inductive types (elaborate versions of [[higher inductive types]]) are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook). As they are at the set level, these are instances of [[quotient inductive type|quotient inductive-inductive types]]; see [QIIT](#QIIT). An experimental syntax for HIITs by [Kaposi and Kovacs](#KaposiKovacs).
 
 ## References ##
 
