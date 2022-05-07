@@ -17,7 +17,7 @@
 
 ## Definition
 
-A [[homotopy]] of [[homotopies]].
+A [[homotopy]] of [[homotopies]], existing in higher [[homotopy type|homotopy $n$-types]] of higher $n$.
 
 ## Related concepts
 
@@ -25,7 +25,37 @@ A [[homotopy]] of [[homotopies]].
 
 * [[identity type]]
 
-* [[higher gauge transformation]]
+* [[higher structures]]
+
+  * [[higher category theory]], [[higher topos theory]]
+
+  * [[higher geometry]]
+
+  * [[higher observational type theory]]
+
+  * [[higher gauge transformation]]
+
+  * [[higher differential geometry]]
+
+  * [[higher Lie theory]]
+
+  * [[higher prequantum geometry]]
+
+  * [[higher complex analytic geometry]]
+
+  * [[higher algebra]], [[homotopical algebra]]
+
+  * [[higher linear algebra]]
+
+  * [[higher category theory and physics]]
+
+
+
+
+
+
+
+
 
 [[!redirects higher homotopies]]
 
