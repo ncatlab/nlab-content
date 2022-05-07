@@ -97,6 +97,7 @@ $$
   }
 $$
 which satisfies the _action property_
+
 \[
   \label{ActionPropertyOfGroupActions}
   \underset{
@@ -110,6 +111,12 @@ which satisfies the _action property_
     \rho(g_2)(s)
   \big)
 \]
+and
+$$
+  \underset{s}{\forall}
+  \;\;\;
+  \rho(e)(s) \;=\; s
+$$
 
 
 ### Actions of a monoid
