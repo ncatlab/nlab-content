@@ -11,6 +11,15 @@ He was the initial developer of [[shape theory]], and then was leader of a very 
 
 ## Selected writings
 
+Introducing the notion of [[absolute neighbourhood retracts]]:
+
+* {#Borsuk32} [[Karol Borsuk]], _Über eine Klasse von lokal zusammenhängenden Räumen_, Fund. Math. **19** (1932) 220-242 ([dml:212574](https://eudml.org/doc/212574), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm19/fm19119.pdf))
+
+More on [[absolute neighbourhood retracts]]:
+
+* [[Karol Borsuk]], _Concerning the classification of topological spaces from the stand point of the theory of retracts_, Fundamenta Mathematicae **46** (3) (1959) 321-330 ([dml:213516](https://eudml.org/doc/213516))
+
+
 Introducing unstable [[Cohomotopy]]:
 
 * {#Borsuk36} [[Karol Borsuk]], _Sur les groupes des classes de transformations continues_, C. R. Acad. Sci. Paris 202.1400-1403 (1936): 2 ([doi:10.24033/asens.603](https://doi.org/10.24033/asens.603))
