@@ -66,7 +66,7 @@ $$
 $$
 (in any [[connected component]] of a "stable map" $G \to PU(\mathcal{H})$, that is) and hence is the Pontrjagin dual group (Def. \ref{PontrjaginDualGroup}) when $G$ is [[abelian group|abelian]].
 \end{example}
-By [BEJU 2014, around Cor. 1.11](universal+equivariant+PU-bundle#BEJU14), see [this Prop.](universal+equivariant+PU-bundle#EquivariantHomotopyGroupsOfBaseSpace).
+By [BEJU 2014, Thm. 1.10](universal+equivariant+PU-bundle#BEJU14), see [this Prop.](universal+equivariant+PU-bundle#EquivariantHomotopyGroupsOfBaseSpace).
 
 \\begin{example}
 The Pontrjagin dual $\hat{\mathbb{R}}$ of the additive group of [[real numbers]] is isomorphic again to $\mathbb{R}$ itself, with the pairing given by $(x,p) \mapsto \mathrm{e}^{\mathrm{i} x p}$. More generally, $\widehat{\mathbb{R}^n} \,=\, \mathbb{R}^n$.
