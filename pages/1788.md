@@ -339,7 +339,26 @@ But using the [[group]]-structure on $S^1 = \mathbb{R}/\mathbb{Z}$  we have that
 
 ## Idea
 
-### General
+Several classes of [[string theory vacua]] require the presence of exactly 24 [[branes]] of [[codimension]] 4 transverse to a [[K3-surface]]-[[fiber]]:
+
+This happens notably
+
+* in [[F-theory]] on an [[elliptically fibered K3-surface]], which requires/implies the presence of 24 [[D7-branes]];
+
+* in [[HET-theory]] [[KK-compactification|KK-compactified]] on a [[K3-surface]] with vanishing [[gauge field]] [[instanton number]], which requires/implies the presence of 24 [[NS5-branes]]. 
+
+In both cases the condition arises as a kind of [[tadpole cancellation]]-condition, where the charge of the 24 branes in the [[compact topological space|compact]] K3-fiber space, which naively would be 24 in natural units, cancels out to zero, due to some subtle effect.
+
+Despite the superficial similarity, this subtle effect is, at the face of it, rather different in the two cases:
+
+* for [[F-theory]] it results from the [[Kodeira classification]] of [[elliptic fibrations]], which implies that an [[elliptically fibered K3]] as exactly 24 singular points, counted with multiplicity,
+
+* for [[HET-theory]] it results, via the [[Green-Schwarz mechanism]], from the [[Euler characteristic]] of a [[K3-surface]] being 24, and hence vanishing, via the [[Poincare-Hopf theorem]], after the locus of 24 [[NS5-brane]] loci are cut out.
+
+An argument that these two different-looking mechanisms are in fact equivalent, under suitable [[duality in string theory]], is given in [Braun-Brodie-Lukas-Ruehle 18, Sec. III](#BraunBrodieLukasRuehle18), following detailed analysis due to [Aspinwall-Morrison 97](#AspinwallMorrison97).
+
+
+
 
 ### In F-theory on K3
  {#InFTheoryOnK3}
@@ -407,6 +426,25 @@ In [[heterotic string theory]] [[KK-compactification|KK-compactified]] on [[K3]]
 
 
 The [[duality in string theory|duality]] of this HET-phenomenon with that in F-theory [above](#InFTheoryOnK3) is discussed in [Braun-Brodie-Lukas-Ruehle 18, Section III](#BraunBrodieLukasRuehle18).
+
+### Under Hypothesis H
+
+The vanishing of the [[Euler characteristic]] of K3 after cutting out the [[complement]] of 24 points is precisely the mechanism which witnesses the [[order of a group|order]] 24 of the [[third stable homotopy group of spheres]], seen under [[Pontryagin's theorem]] as the existence of a [[framed manifold|framed]] [[cobordism]] $K3 \setminus 24 \cdot D^4$ between 24 [[3-spheres]]. This relates the number of 24 branes transverse on K3 to [[schreiber:Hypothesis H]]:
+
+\begin{imagefromfile}
+    "web": "schreiber",
+    "file_name": "24BranesTransversalToK3ViaHypothesisH-20210207.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [SS21](https://ncatlab.org/schreiber/show/M-Theory+as+Mf-Theory)"
+\end{imagefromfile}
+
 
 ## References
 
