@@ -140,6 +140,9 @@ and hence in particular an isomorphism in [[singular cohomology]].
 
 By following through these maps one can obtain an explicit description of the quasi isomorphism if need be.
 
+### Transgression in group cohomology
+
+See at *[[transgression in group cohomology]]*.
 
 ## References
 
