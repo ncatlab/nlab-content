@@ -107,7 +107,7 @@ It has been suggested the observed cosmological constant/dark energy may be but 
 
 A seminal argument that it _is_ consistent to neglect cosmic inhomogeneity due to ([Green-Wald 10](#GreenWald10), [Green-Wald 13](#GreenWald13)), has been called into question in [Buchert et al. 15](#BuchertEtAl15), where it is concluded that the question is more subtle and remains open. Recent review is in [Belejko-Korzyński 16](#BelejkoKorzynski16).
 
-If the apparent small positive [[cosmological constant]] were but an artifact of neglecting backreaction of inhomegeneities, some theoretical puzzlements regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
+If the apparent small positive [[cosmological constant]] were but an artifact of neglecting backreaction of inhomogeneities, some theoretical puzzlement regarding [[quantum gravity]] on [[de Sitter spacetimes]] would disappear (see [Rajaraman 16](de+Sitter+spacetime#Rajaraman16) for general discussion and [Danielsson-VanRiet 18, p. 27](#DanielssonVanRiet18) for discussion of [[perturbative string theory vacua]]).
 
 
 ### Observation
