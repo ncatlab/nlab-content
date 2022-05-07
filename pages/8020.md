@@ -77,7 +77,7 @@ A __concrete [[point]]__ in a [[set]] $X$ is an [[element]] of $X$, an __abstrac
 
 Since all of these concrete and abstract objects literally are [[objects]] in various [[categories]], it would be nice to use the terms 'concrete object' and 'abstract object' to refer to them collectively.  However, there is another meaning of '[[concrete object]]', so I have gone for the vaguer term 'structure' instead (justified since they are all objects in [[concrete categories]] and so are sets with [[extra structure]] ... with the exception of the concrete and abstract categories themselves!).
 
-There is a relationship: concrete objects generalise [[concrete sheaves]], which are concrete in the sense of having an [[underlying set]] of points, similar to how a concrete variety has a set of points from an affine or projective space.  However, it\'s not really an example of the concept on this page, as fair as I can tell.
+There is a relationship: concrete objects generalise [[concrete sheaves]], which are concrete in the sense of having an [[underlying set]] of points, similar to how a concrete variety has a set of points from an affine or projective space.  However, it\'s not really an example of the concept on this page, as far as I can tell.
 
 
 [[!redirects concrete structure]]
