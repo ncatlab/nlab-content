@@ -140,7 +140,7 @@ It is important that we use some such "convenience" assumption, because for exam
 
 $${|(-)|}: Set^{\Delta^{op}} \to Top,$$
 
-valued in general [[topological spaces]], does not preserve products. (To get a correct statement, one usual procedure is to "kelley-fy" products by applying the coreflection $k: Haus \to CGHaus$. This gives the correct isomorphism in the case $Space = CGHaus$, where we have that ${|X \times Y|} \cong {|X|} \times_k {|Y|} \coloneqq k({|X|} \times {|Y|})$; the product on the right has been "kelleyfied" to the product appropriate for $CGHaus$.) 
+valued in general [[topological spaces]], does not preserve products. (To get a correct statement, one usual procedure is to "kelley-fy" products by applying the coreflection $k \colon Haus \to CGHaus$ to [[Hausdorff space|Hausdorff]] and [[compactly generated topological spaces]]. This gives the correct isomorphism in the case $Space = CGHaus$, where we have that ${|X \times Y|} \cong {|X|} \times_k {|Y|} \coloneqq k({|X|} \times {|Y|})$; the product on the right has been "kelleyfied" to the product appropriate for $CGHaus$.) 
 
 We reiterate that $R$ denotes the geometric realization functor considered as valued in a convenient category of spaces, whereas ${|(-)|}$ is geometric realization viewed as taking values in $Top$. 
 
