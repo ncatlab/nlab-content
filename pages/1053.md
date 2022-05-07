@@ -445,7 +445,7 @@ Volume 115 Issue 1, July 5, 1993  Pages 3--41
  {#HylandPaiva93}
 
 * G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
-Laboratory, University of Cambridge, 1995 ([pdf](http://research.microsoft.com/~gmb/papers/thesis.pdf))
+Laboratory, University of Cambridge, 1995 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.588&rep=rep1&type=pdf))
  {#Bierman95}
 
 
