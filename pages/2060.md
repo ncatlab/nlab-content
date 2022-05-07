@@ -19,7 +19,7 @@
 The _universal fibration of [[(infinity,1)-category|(∞,1)-categories]] is the [[generalized universal bundle]] of $(\infty,1)$-categories in that it is [[Cartesian fibration]]
 
 $$
-  p : Z \to (\infty,1)Cat^{op}
+  p \colon Z \to (\infty,1)Cat^{op}
 $$
 
 over the [[opposite category]] of the [[(∞,1)-category of (∞,1)-categories]] such that
@@ -90,9 +90,9 @@ The universal fibration of $(\infty,1)$-categories restricts to a [[Cartesian fi
 
 $$
   \array{
-    Z|_{\infty Grpd} &\to& Z
+    Z|_{\infty Grpd} &\longrightarrow& Z
     \\
-    \downarrow && \downarrow
+    \big\downarrow && \big\downarrow
     \\
     \infty Grpd^{op} &\hookrightarrow& (\infty,1)Cat^{op}
   }
@@ -100,8 +100,6 @@ $$
 $$
 
 =--
-
-This is the _[[universal Kan fibration]]_.
 
 +-- {: .num_remark }
 ###### Remark
@@ -117,10 +115,8 @@ The universal left fibration is the forgetful functor
 $\infty Grpd_* \to \infty Grpd$. Its opposite is the universal right fibration.
 
 =--
-+-- {: .proof}
-###### Proof
-This is proposition 3.3.2.7 of [[Higher Topos Theory|HTT]].
-=--
+
+([Lurie 2009, Prop, 3.3.2.7](#Lurie09), [Cisinski 2019, Sec. 5.2](#Cisinski19))
 
 +-- {: .num_prop }
 ###### Proposition
@@ -184,11 +180,15 @@ $$
 
 ## References
 
-The universal fibration as such is discussed in section 3.3.2 of
+Textbook accounts:
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* {#Lurie09} [[Jacob Lurie]], Section 3.3.2 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
-The concrete description in terms of model theory on marked simplicial sets is in section 3.2. A simpler version of this is in section 2.2.1
+  > (the concrete description in terms of model theory on marked simplicial sets is in section 3.2. A simpler version of this is in section 2.2.1)
+
+* {#Cisinski19} [[Denis-Charles Cisinski]], Section 5.2 of: _[[Higher Categories and Homotopical Algebra]]_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+
+  > (the universal left fibration)
 
 The direct description of the universal fibration is discussed at
 
