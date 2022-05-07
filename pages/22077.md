@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cobordism theory
++--{: .hide}
+[[!include cobordism theory -- contents]]
+=--
+=--
+=--
+
+
 This entry is about the article
 
 
@@ -20,7 +31,7 @@ This entry is about the article
 
   [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/thomcob.pdf)
 
-on [[differential topology]], proving [[Thom's theorem]] which identifies [[cobordism classes]] of [[oriented submanifolds]] with [[homotopy classes]] of maps into a universal [[Thom space]] $M SO(n)$.
+on [[differential topology]], proving [[Thom's theorem]] which identifies [[cobordism classes]] of [[normally oriented submanifolds]] with [[homotopy classes]] of maps into a universal [[Thom space]] $M SO(n)$.
 
 Together with 
 
@@ -71,8 +82,9 @@ due to which Thom's construction came to be mainly known as the _[[Pontryagin-Th
 
 ### 4. Cobordant sub-manifolds
 
-* [[Pontryagin-Thom collapse]] (p. 69)
+* [[normally oriented submanifold]] (p. 67)
 
+* [[Pontryagin-Thom collapse]] (p. 69)
 
 * [[cobordism classes]] of [[submanifolds]] (p. 71)
 
