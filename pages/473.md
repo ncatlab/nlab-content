@@ -1,5 +1,3 @@
-[[!redirects generalized tangle hypothesis]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
