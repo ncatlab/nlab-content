@@ -22,7 +22,7 @@ So the notion of **opposite** of a [[quasi-category]] generalizes the notion of 
 
 ## Definition
 
-Under the [[relation between quasi-categories and simplicial categories]] the opposite quasi-category is that corresponding to the obvious opposite [[SSet]]-[[enriched category]]. Concretely in terms of the [[simplicial set]] $S$ underlying the quasi-category, this amounts to reversing the order of the [[simplicial identities|face and degenracy maps]]:
+Under the [[relation between quasi-categories and simplicial categories]] the opposite quasi-category is that corresponding to the obvious opposite [[SSet]]-[[enriched category]]. Concretely in terms of the [[simplicial set]] $S$ underlying the quasi-category, this amounts to reversing the order of the [[simplicial identities|face and degeneracy maps]]:
 
 $$
   S_n^{op} := S_n
