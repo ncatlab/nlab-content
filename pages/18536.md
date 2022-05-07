@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+Introducing [[adiabatic switching]]:
+
+* {#LippmannSchwinger50} B. A. Lippmann, [[Julian Schwinger]], *Variational Principles for Scattering Processes. I*,  Phys. Rev. 79, 469 (1950) ([doi:10.1103/PhysRev.79.469](https://doi.org/10.1103/PhysRev.79.469))
+
+
 Introducing the [[Schwinger effect]] of [[vacuum polarization]]:
 
 * {#Schwinger51} [[Julian Schwinger]], _On Gauge Invariance and Vacuum Polarization_, Phys. Rev. 82, 664 (1951) ([doi:10.1103/PhysRev.82.664](https://doi.org/10.1103/PhysRev.82.664))
