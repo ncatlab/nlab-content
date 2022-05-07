@@ -188,9 +188,5 @@ On simplicial complexes forming a [[quasitopos]] of [[concrete sheaves]]:
 
 * [[John Baez]] and [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_, Trans. Amer. Math. Soc. 363 (2011), 5789&#8211;5825. [(arXiv)](http://arxiv.org/abs/0807.1704)
 
-For a treatment of simplicial complexes in [[homotopy type theory]] see
-
-* Maximilian Doré, [[Samson Abramsky]], _Towards Simplicial Complexes in Homotopy Type Theory_ ([pdf](https://hott-uf.github.io/2020/HoTTUF_2020_paper_11.pdf))
-
 
 [[!redirects simplicial complexes]]
