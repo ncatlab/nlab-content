@@ -13,9 +13,17 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
+
+
+\linebreak 
+
+> the [[stable homotopy groups of spheres]] are not really understood until the Toda bracket structure is revealed ([Iaksen-Wang-Xu 20, p. 17](#IaksenWangXu20))
+
+\linebreak
 
 
 ## Idea
@@ -384,10 +392,18 @@ The conceptualization of Toda brackets a [[homotopy coherent diagram|homotopy co
 
 * [[Howard Marcum]], [[Nobuyuki Oda]], _Long Box Bracket Operations in Homotopy Theory_, Appl Categor Struct 19, 137–173 ([doi:10.1007/s10485-009-9186-3](https://doi.org/10.1007/s10485-009-9186-3))
 
+Application of Toda brackets in computations of [[stable homotopy groups of spheres]] via the [[Adams spectral sequence]]:
+
+* [Toda 62](#Toda62)
+
+* {#IaksenWangXu20} [[Daniel Isaksen]], [[Guozhen Wang]], [[Zhouli Xu]], _More stable stems_ ([arXiv:2001.04511](https://arxiv.org/abs/2001.04511))
+
+
 See also:
 
 * [[Hans-Joachim Baues]], _On the cohomology of categories, universal Toda brackets and homotopy pairs_, K-Theory __11__:3, April 1997, pp. 259-285 (27) ([doi:10.1023/A:1007796409912](http://dx.doi.org/10.1023/A:1007796409912))
 
+* Wikipedia, _[Toda bracket](https://en.wikipedia.org/wiki/Toda_bracket)_
 
 Discussion for [[ring spectra]]:
 
