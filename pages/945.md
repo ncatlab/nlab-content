@@ -65,6 +65,11 @@ is in $\mathrm{pro}D$ and $X$ is the rudimentary system (constant inverse system
 Given a dense subcategory $D\subset C$ one defines
 an abstract shape category $\mathrm{Sh}(C,D)$ which has the same objects as $C$, but the morphisms are the equivalence classes of morphisms in $\mathrm{pro}D$ of $D$-expansions.
 
+##Another warning##
+
+Dense functors are not closed under composition. For example, $\Delta_{\lt 2}$ is dense in the [[simplex category]] $\Delta$ and $\Delta$ is dense in $\mathbf{Cat}$, but $\Delta_{\lt 2}$ is not dense in $\mathbf{Cat}$.
+
+
 ## Related entries
 
 * [[dense subcategory]]
