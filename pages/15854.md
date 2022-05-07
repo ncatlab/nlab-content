@@ -43,6 +43,10 @@ Discussion of [[topological recursion]] for matrix models originates with
 
 * [[Leonid Chekhov]], [[Bertrand Eynard]], [[Nicolas Orantin]], _Free energy topological expansion for the 2-matrix model_, JHEP 0612:053,2006 ([arXiv:math-ph/0603003](https://arxiv.org/abs/math-ph/0603003))
 
+See also
+
+* Raghav G. Jha, *Introduction to Monte Carlo for Matrix Models* ([arXiv:2111.02410](https://arxiv.org/abs/2111.02410))
+
 
 category: physics
 
