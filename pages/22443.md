@@ -143,7 +143,7 @@ is
   \right]
 \]
 
-One checks ([here](https://www.wolframalpha.com/input/?i=eigenvalues++exp%5B+-+ln%5Blambda%5D+*++%7B++%7B0%2C1%2C1%2C1+%2C2%2C+2%7D%2C+%7B1%2C+0+%2C+2%2C+2%2C+1%2C+1%7D%2C+%7B1%2C+2%2C+0%2C+2%2C+1%2C+1%7D%2C+%7B1%2C2%2C+2%2C0%2C1%2C+1+%7D%2C+%7B2%2C+1%2C+1%2C+1%2C+0%2C+2+%7D%2C+%7B2%2C1%2C1%2C1%2C2%2C0%7D++%7D+%5D)) that the Cayley distance kernel
+One checks ([here](https://www.wolframalpha.com/input/?i=eigenvalues++exp%5B+-+ln%5Bkappa%5D+*++%7B++%7B0%2C1%2C1%2C1+%2C2%2C+2%7D%2C+%7B1%2C+0+%2C+2%2C+2%2C+1%2C+1%7D%2C+%7B1%2C+2%2C+0%2C+2%2C+1%2C+1%7D%2C+%7B1%2C2%2C+2%2C0%2C1%2C+1+%7D%2C+%7B2%2C+1%2C+1%2C+1%2C+0%2C+2+%7D%2C+%7B2%2C1%2C1%2C1%2C2%2C0%7D++%7D+%5D)) that the Cayley distance kernel
 
 \[
   \label{CayleyDistanceKernel}
@@ -160,30 +160,30 @@ has the following [[eigenvalues]]:
 $$
   \frac
     {
-      \lambda^2 -1 
+      (e^\lambda)^2 -1 
     }
-    {\lambda^2}  
+    {(e^\lambda)^2}  
   \,,\;\;\;
   \frac
     {
-      \lambda^2 \pm 3 \lambda  + 2 
+      (e^\lambda)^2 \pm 3 (e^\lambda)  + 2 
     }
-    {\lambda^2}  
+    {(e^\lambda)^2}  
   \,,
 $$
 
 where the first one appears with multiplicity 4. Exactly one of these can become non-positive for $\lambda \in \mathbb{R}_+$:
 
 $$
-  \lambda^2 - 3 \lambda + 2
+  (e^\lambda)^2 - 3 (e^\lambda) + 2
   \;is\;
   \left\{
   \array{
-    \lt 0 &\vert& 0 \lt \lambda \lt 2
+    \lt 0 &\vert&  (e^\lambda) \lt 2
     \\
-    = 0 &\vert& \lambda = 2
+    = 0 &\vert& (e^\lambda) = 2
     \\
-    \gt 0 &\vert& \lambda \gt 2
+    \gt 0 &\vert& (e^\lambda) \gt 2
   }
   \right.
 $$
@@ -192,11 +192,11 @@ In conclusion: The [[Cayley distance kernel]] (eq:CayleyDistanceKernel), regarde
 
 $$
   \array{
-    \text{indefinite} & \text{for} & \lambda \lt 2
+    \text{indefinite} & \text{for} & e^{\lambda} \lt 2
     \\
-    \text{positive semi-definite} &\text{for}& \lambda = 2
+    \text{positive semi-definite} &\text{for}& e^{\lambda} = 2
     \\
-    \text{positive definite} &\text{for}&  \lambda \gt 2
+    \text{positive definite} &\text{for}&  e^{\lambda} \gt 2
   }
 $$
 
