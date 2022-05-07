@@ -124,9 +124,14 @@ See also:
  
 
 * {#Linde83} [[Andrei Linde]], Phys. Lett. 129B, 177 (1983).
+
+On [[structure formation]] during inflation by [[inhomogeneous cosmology|inhomogeneous]] [[quantum cosmology]]:
+
+* [[Martin Bojowald]], Ding Ding, *Canonical description of cosmological backreaction*, JCAP **03** (2021) 083
+([arXiv:2011.03018](https://arxiv.org/abs/2011.03018))
  
 
-### Experimantal evidence 
+### Experimental evidence 
  {#ReferencesExperimentalEvidence}
 
 * C. L. Bennett et al. _First Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Preliminary Maps and Basic Results_, Astrophys.J.Suppl.148:1 (2003) ([arXiv:astro-ph/0302207](http://arxiv.org/abs/astro-ph/0302207))
