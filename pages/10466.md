@@ -144,6 +144,8 @@ This is ([Rezk 14, 1.5](#Rezk14)). Depending on axiomatization this is either a 
 
 ### Cohesion
 
+For more see at *[[cohesion of global- over G-equivariant homotopy theory]]*.
+
 +-- {: .num_prop #CohesionOfGlobalEquivariantHomotopyTheory}
 ###### Proposition
 
