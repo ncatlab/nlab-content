@@ -20,13 +20,18 @@ A __binary operation__ on a [[set]] $S$ is a [[function]] $(-)\cdot (-) \colon S
 
 A magma is called
 
-* _[[unital magma|unital]]_ if it has a [[identity element|neutral element]] $1$, hence an element $1 \in S$ in that $1 \cdot x = x = x \cdot 1$  Some authors mean by 'magma' what we call a unital magma (cf. [[Borceux-Bourn]] Def. 1.2.1). One can consider one-sided unital elements separately: $1_L \cdot x = x$ and/or $x = x \cdot 1_R$. Units may be far from unique.
+* _[[unital magma|unital]]_ if it has a [[identity element|neutral element]] $1$, hence an element $1 \in S$ in that $1 \cdot x = x = x \cdot 1$;  
+
+  (Some authors mean by 'magma' what we call a unital magma (cf. [[Borceux-Bourn]] Def. 1.2.1). One can consider one-sided unital elements separately: $1_L \cdot x = x$ and/or $x = x \cdot 1_R$. Units may be far from unique.)
 
 * _[[commutative magma|commutative]]_ if the binary operation takes the same value when its two arguments are interchanged: $x \cdot y = y \cdot x$;
 
-* _[[associative magma|associative]]_ if the binary operation satisfies the [[associativity]] condition $(x \cdot y) \cdot z = x \cdot (y \cdot z)$. 
+* _[[associative magma|associative]]_ if the binary operation satisfies the [[associativity]] condition $(x \cdot y) \cdot z = x \cdot (y \cdot z)$;
 
-* an _[[absorption magma]]_ if it has an element $0 \in S$ such that the binary opetation satisfies the absorption condition: $0 \cdot x = x \cdot 0 = 0$
+* an _[[absorption magma]]_ if it has an element $0 \in S$ such that the binary opetation satisfies the absorption condition: $0 \cdot x = x \cdot 0 = 0$;
+
+* a *[[quasigroup]]* if one-sided multiplication by any element is a [[bijection]].
+
 
 The term 'magma' is from [[Bourbaki]] and intends to suggest the fluidity of the concept; special cases include [[unital magmas]], [[semigroups]]/[[monoids]], [[quasigroups]], [[groups]], and so on.  The term 'groupoid' is also used, but here that word means [[groupoid|something else]] (see also related discussion at [[historical notes on quasigroups]]).
 
