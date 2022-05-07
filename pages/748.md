@@ -79,8 +79,14 @@ from the [[arrow category]] of $C$.  (Note that unless $C$ has [[pullbacks]], th
 Let
 
 $$
-  (L \dashv R) : D \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}}
-     C
+  (L \dashv R) 
+  \;\colon\; 
+   D 
+   \underoverset
+    {\underset{\;\;R\;\;}{\longrightarrow}}
+    {\overset{\;\;L\;\;}{\longleftarrow}}
+    {\bot}
+  C
 $$
 
 be a pair of [[adjoint functors]], where the category $C$ has all [[pullbacks]]. 
@@ -89,8 +95,13 @@ Then for every object $X \in C$ there is induced a pair of adjoint functors betw
 
 $$
   (L/X \dashv R/X) 
-   : D/(L X) \stackrel{\overset{L/X}{\leftarrow}}{\underset{R/X}{\to}}
-     C/X
+  \;\colon\; 
+  D/(L X) 
+  \underoverset
+    {\underset{\;\;R/X\;\;}{\longrightarrow}}
+    {\overset{\;\;L/X\;\;}{\longleftarrow}}
+    {\bot}
+  C/X
 $$
 
 where
@@ -100,13 +111,20 @@ where
 * $R/X$ is the composite
 
   $$
-    R/X : D/{L X} \stackrel{R}{\to} C/{(R L X)} \stackrel{i_{X}^*}{\to}
-     C/X
+    R/X   
+    \;\colon\; 
+    D/{L X} 
+      \overset{R}{\longrightarrow} 
+    C/{(R L X)} 
+      \overset{i_{X}^*}{\longrightarrow}
+    C/X
   $$
 
   of the evident functor induced by $R$ with the [[pullback]] along the $(L \dashv R)$-[[unit of an adjunction|unit]] at $X$.
 
 =--
+
+In the generality of [[adjoint (∞,1)-functors]] in [[(∞,1)-category theory]] this is [[Higher Topos Theory|HTT, Prop 5.2.5.1]].
 
 
 
