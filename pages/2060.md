@@ -73,6 +73,13 @@ A key point of this description is that for any small (∞,1)-category $C$, the 
 
 =--
 
+The hom-spaces of the universal cocartesian fibration can be described as
+$$
+  Z'([C_{/x} \to C], [D_{/y} \to D]) \simeq Core(eval_x \downarrow y)
+$$
+where $eval_x : D^C \to D$. This should be compared with the lax [[slice 2-category]] construction. In fact, $Z'$ can be constructed by taking the underlying (∞,1) category of the lax coslice over the point of the (∞,2)-category of (∞,1)-categories.
+
+
 ### For $\infty$-Groupoids 
   {#RestInfGrpd}
 
@@ -186,6 +193,10 @@ The concrete description in terms of model theory on marked simplicial sets is i
 The direct description of the universal fibration is discussed at
 
 * {#direct} [A construction of the universal cocartesian fibration](https://mathoverflow.net/questions/383275/)
+
+Kerodon talks about fibrations with the use of (∞,2)-category theory in chapter 5.
+
+* [Kerodon](https://kerodon.net/)
 
 [[!redirects universal fibration of (∞,1)-categories]]
 
