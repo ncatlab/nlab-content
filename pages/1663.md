@@ -22,11 +22,13 @@ To model the [[homotopy 3-type]] of a space, we can use either a [[2-crossed mod
 
  
  
- A  2-crossed complex morphism is defined in the obvious way, being compatible with all the actions, the pairings and Peiffer liftings.  We will denote by $2 Crs$, the corresponding category. 
+ A  2-crossed complex morphism is defined in the obvious way, being compatible with all the actions, the pairings and Peiffer liftings.  
+
+We will denote by $2 Crs$, the corresponding category. 
 
 ##Examples:#
 
-* Any 2-crossed module clearly gives a 2-crossed complex (with trivial 'tail').
+* Any [[2-crossed module]] clearly gives a 2-crossed complex (with trivial 'tail').
  
 
 * _From simplicial groups to 2-crossed complexes_.  If $G$ is a simplicial group, then 
@@ -68,4 +70,6 @@ This functor, from $Crs$ to $2-Crs$, has a left adjoint which is the identity on
 * [[Graham Ellis]], Crossed squares and combinatorial homotopy. Mathematische Zeitschrift
 Volume 214, Number 1, 93-110, DOI: 10.1007/BF02572393
 
-* [[João Faria Martins]], Homotopies of 2-crossed complexes and the homotopy category of pointed 3-types (web [pdf] (http://ferrari.dmat.fct.unl.pt/~jnm/Hom2XComplexes.pdf))
+* [[Joao Faria Martins]], _The fundamental 2-crossed complex of a reduced CW-complex_,  Homology Homotopy Appl. 13(2): 129-157 (2011) (web [pdf] (https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-2/The-fundamental-2-crossed-complex-of-a-reduced-CW-complex/hha/1335806746.full).)
+
+[[!redirects 2-crossed complexes]]
