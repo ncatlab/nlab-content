@@ -41,9 +41,10 @@ Often, categories having weak equivalences also have extra structure that makes 
 
 * A [[simplicial weak equivalence]] is a weak equivalence in the [[classical model structure on simplicial sets]].
 
-*  A weak equivalence between categories themselves is a functor that is [[full and faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]]; this is the proper notion to use even in the absence of the [[axiom of choice]]; see [[equivalence of categories]] for more.
+* An [[equivariant weak homotopy equivalence]] is a weak equivalence in the [[fine model structure on topological G-spaces]].
 
-*  A weak [[homotopy equivalence]] between topological spaces is a continuous function that induces (for all choices of basepoint) an isomorphism of all [[homotopy groups]].
+*  A weak equivalence in the [[folk model structure on Cat]] is a functor that is [[full and faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]].
+
 
 ## Related concepts
 
