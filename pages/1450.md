@@ -52,9 +52,13 @@ Synthetic differential geometry provides this formalized language.
 +-- {: .num_remark #Peirce}
 ###### Remark
 
-Another advocate of the use of infinitesimals in the late 19th century was the American philosopher [[Charles Sanders Peirce]] who also foresaw the role of non-classical logic in such a putative infinitesimal calculus:
+Another advocate of the use of infinitesimals in the late 19th century was the American philosopher [[Charles Sanders Peirce]]:
 
 > The illumination of the subject by a strict notation for the logic of relatives had shown me clearly and evidently that the idea of an infinitesimal involves no contradiction...As a mathematician, I prefer the method of infinitesimals to that of limits, as far easier and less infested with snares. Charles Sanders Peirce, _The Law of Mind_, The Monist **2** (1892) 
+
+According to Bell ([1998, p.5](#Bell98)):
+
+> Peirce was aware, even before Brouwer, that a faithful account of the truly continuous will involve jettisoning the law of excluded(.)
 
 =--
 
@@ -254,7 +258,7 @@ Discussion in differentially cohesive [[homotopy type theory]] is in
 
 A nice elementary introduction which emphasizes calculations and the application as _engineering mathematics_ can be found in
 
-* [[John Lane Bell]], _A Primer of Infinitesimal Analysis_, Cambridge UP 1998 ([ISBN:9780521887182](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/primer-infinitesimal-analysis-2nd-edition?format=HB&isbn=9780521887182))
+* {#Bell98}[[John Lane Bell]], _A Primer of Infinitesimal Analysis_, Cambridge UP 1998 ([ISBN:9780521887182](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/primer-infinitesimal-analysis-2nd-edition?format=HB&isbn=9780521887182))
 
 The textbooks 
 
