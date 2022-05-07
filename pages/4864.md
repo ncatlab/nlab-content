@@ -139,7 +139,7 @@ On [[M-theory]]:
 
 On the [[brane scan]] which classifies super $p$-[[brane]] [[sigma-models]] given by [[Green-Schwarz action functionals]]:
 
-* Michael Duff, _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+* {#Duff87} [[Michael Duff]], _Supermembranes: the first fifteen weeks_, Class. Quant. Grav. 5 (1988) 189 ([doi:10.1088/0264-9381/5/1/023](https://doi.org/10.1088/0264-9381/5/1/023), [spire:248034](https://inspirehep.net/record/248034))
 
 On [[string-string duality]]:
 
