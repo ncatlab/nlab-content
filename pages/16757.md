@@ -112,7 +112,7 @@ and in terms of preprojective algebras:
 
 * {#CBH98} William Crawley-Boevey, Martin P. Holland, _Noncommutative deformations of Kleinian singularities_, Duke Math. J. Volume 92, Number 3 (1998), 605-635 ([euclid:1077231679](https://projecteuclid.org/euclid.dmj/1077231679))
 
-Reviews and lecture notes include
+Reviews and lecture notes:
 
 * _[Classification of singularities](http://www.mathematik.uni-kl.de/~zca/Reports_on_ca/29/paper_html/node10.html)_
 
@@ -122,11 +122,17 @@ Reviews and lecture notes include
 
 * Anda Degeratu, _Crepant Resolutions of Calabi-Yau Orbifolds_, 2004 ([pdf](https://home.mathematik.uni-freiburg.de/degeratu/crepant.pdf))
 
-* Fabio Perroni, _Orbifold Cohomology of ADE-singularities_ ([pdf](http://mathweb.uzh.ch/fileadmin/math/preprints/10-06.pdf))
-
 * {#Siegel14} Kyler Siegel, section 6 of _The Ubiquity of the ADE classification in Nature_ , 2014 ([pdf](http://math.stanford.edu/~ksiegel/ADEClassifications.pdf))
 
 * MathOverflow, _[Resolving ADE singularities by blowing up](http://mathoverflow.net/q/186368/381)_
+
+On the [[Chen-Ruan cohomology|Chen-Ruan]] [[orbifold cohomology]] of ADE-singularities:
+
+* [[Fabio Perroni]], *Orbifold Cohomology of ADE-singularities* ([arXiv:0510528](https://arxiv.org/abs/math/0510528))
+
+* [[Fabio Perroni]], *Chen-Ruan cohomology of ADE-singularities*, International Journal of Mathematics, Vol. 18, No. 9 (2007) 1009-1059 ([arXiv:math/0605207](https://arxiv.org/abs/math/0605207), [doi:10.1142/S0129167X07004436](https://doi.org/10.1142/S0129167X07004436)) 
+
+
 
 Families of examples of [[G2 manifolds|G2 orbifolds]] with ADE singularities are constructed in 
 
