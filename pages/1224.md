@@ -31,7 +31,7 @@ Beware that this property is pretty much unrelated to that of a functor being an
 
 A [[functor]] $F : C \to D$ is **final** if for every [[object]] $d \in D$ the [[comma category]] $(d/F)$ is (non-empty and) [[connected category|connected]] (the non-emptiness condition is redundant since connected categories are non-empty by convention).
 
-A [[functor]] $F : C \to D$ is **initial** if the [[opposite category|opposite]] $F^{op} : C^{op} \to D^{op}$ is final, i.e. if for every [[object]] $d \in D$ the [[comma category]] $(F/d)$ is non-empty and [[connected category|connected]].
+A [[functor]] $F : C \to D$ is **initial** if the [[opposite category|opposite]] $F^{op} : C^{op} \to D^{op}$ is final, i.e. if for every [[object]] $d \in D$ the [[comma category]] $(F/d)$ is [[connected category|connected]].
 
 =--
 
