@@ -35,8 +35,17 @@ That is, it is a [[2-category]] $C$ equipped with a [[tensor product]] $\otimes 
 
 * [[k-tuply monoidal (n,r)-category]]
 
+## References
+
+* [[Brian Day]], [[Ross Street]], Section 5 of: *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
+
+* [[Sjoerd E. Crans]], Section 4 of: *Generalized Centers of Braided and Sylleptic Monoidal 2-Categories*, Advances in Mathematics, Volume 136, Issue 2, 25 June 1998, Pages 183-223 ([doi:10.1006/aima.1998.1720](https://doi.org/10.1006/aima.1998.1720))
+
 
 [[!redirects sylleptic monoidal 2-categories]]
+
+[[!redirects sylleptic 2-category]]
+[[!redirects sylleptic 2-categories]]
 
 [[!redirects sylleptic monoidal bicategory]]
 [[!redirects sylleptic monoidal bicategories]]
