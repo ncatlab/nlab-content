@@ -59,9 +59,14 @@ A __cohomology spectral sequence__ in $\mathcal{A}$ is
 
 * for each $p,q,r$ as above a [[morphism]] (called the __differential__) 
   
-  $$
-    d^{p,q}_r:E^{p,q}_r\to E^{p+r,q-r+1}_r
-  $$ 
+  \[
+    \label{FormOfDifferentialInCohomologySpectralSequence}
+    d^{p,q}_r  
+    \;\colon\;
+    E^{p,q}_r
+      \longrightarrow 
+    E^{p+r,q-r+1}_r
+  \] 
 
   satisfying $d_r^2 = 0$ (more precisely, $d_r^{p+r,q-r+1}\circ d_r^{p,q} = 0$)
 
