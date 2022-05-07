@@ -26,10 +26,14 @@ On the [[M5-brane elliptic genus]]:
 
 * [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070, 2007 ([hep-th/0607010](https://arxiv.org/abs/hep-th/0607010))
 
-
 On the [[Navier-Stokes equation]] in view of the [[fluid/gravity correspondence]]:
 
 * {#BKLS12} Irene Bredberg, Cynthia Keeler, Vyacheslav Lysov, [[Andrew Strominger]], _From Navier-Stokes To Einstein_, J. High Energ. Phys. (2012) 2012: 146 ([arXiv:1101.2451](https://arxiv.org/abs/1101.2451))
+
+On [[celestial amplitudes]]:
+
+* [[Nima Arkani-Hamed]], Monica Pate, Ana-Maria Raclariu, [[Andrew Strominger]], *Celestial Amplitudes from UV to IR*, JHEP 08 (2021) 062 ([arXiv:2012.04208](https://arxiv.org/abs/2012.04208))
+
 
 category: people
 
