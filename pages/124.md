@@ -248,53 +248,44 @@ For various applications one uses toposes that have [[stuff, structure, property
 
 ## Related concepts
 
-* [[(0,1)-topos]]
-
-* **topos**
  
-  [[category of sheaves]]
+*  [[category of sheaves]]
 
-  [[base topos]], [[indexed topos]] 
+* [[base topos]], [[indexed topos]] 
 
-  [[predicative topos]]
+* [[predicative topos]]
 
-  [[boolean topos]]
+* [[boolean topos]]
 
-  [[local topos]], [[locally connected topos]], [[connected topos]], [[cohesive topos]]
+* [[local topos]], [[locally connected topos]], [[connected topos]], [[cohesive topos]]
 
-  [[predicative topos]]
+* [[predicative topos]]
 
-  [[pretopos]], [[Π-pretopos]], [[ΠW-pretopos]], [[list-arithmetic pretopos]]
+* [[pretopos]], [[Π-pretopos]], [[ΠW-pretopos]], [[list-arithmetic pretopos]]
 
-  [[smooth structure on a topos]]
+* [[smooth structure on a topos]]
 
-  [[monoidal topos]]
+* [[monoidal topos]]
 
-  [[isotropy group of a topos]]
+* [[isotropy group of a topos]]
 
-  [[test topos]]
+* [[test topos]]
 
-  [[classifying topos]]
+* [[classifying topos]]
 
-* [[(∞,1)-topos]] 
 
-  * [[model topos]]
 
-  * [[(∞,1)-category of (∞,1)-sheaves]]
+[[!include flavors of higher toposes -- list]]
 
-  * [[elementary (∞,1)-topos]] 
 
-  * [[(n,1)-topos]]
 
-* [[2-topos]], [[(∞,2)-topos]], [[(∞,2)-sheaf]]
-
-* [[(∞,n)-topos]]
 
 [[!include locally presentable categories - table]]
 
 
 
-## References {#References}
+## References 
+  {#References}
 
 ### Introductions
 
