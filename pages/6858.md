@@ -39,7 +39,12 @@ As a function of a complex variable, the Gamma function $\Gamma(x)$ is a [[merom
 
 Extending the recursive definition of the ordinary factorial function, the Gamma function satisfies the following translation formula: 
 
-$$\Gamma(x+1) = x\Gamma(x)$$ 
+\[
+  \label{TranslationFormula}
+  \Gamma(x+1) 
+  \;=\; 
+  x\,\Gamma(x)
+\]
 
 away from $x = 0, -1, -2, \ldots$. 
 
