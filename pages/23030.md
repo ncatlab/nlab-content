@@ -76,6 +76,7 @@ $$
   \,.
 $$
 \end{proposition}
+(e.g. [Brown 1982, p. 88](#Brown82))
 \begin{proof}
   By immediate unwinding of the definition of the [[semidirect product group]], such a section is an assignment
   $$
@@ -123,18 +124,29 @@ $$
 
 ## References
 
-For the special case that $\Gamma$ is an [[abelian group]] (in the context of [[homological algebra]]):
+### To abelian groups
+
+Discussion for the special case that $\Gamma$ is an [[abelian group]]:
+
+in the context of [[homological algebra]]:
 
 * [[Saunders Mac Lane]], Section IV.2 of: _Homology_ (1975) reprinted as Classics in Mathematics. Springer-Verlag, Berlin, 1995. x+422 pp. ISBN 3-540-58662-8 ([doi:10.1007/978-3-642-62029-4](https://link.springer.com/book/10.1007/978-3-642-62029-4))
 
+in the context of [[group cohomology]] ("[[derivation on a group]]"):
 
-The general notion (in discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]):
+* {#Brown82} [[Kenneth Brown]],  p. 45 of: _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
+
+
+### To general groups
+
+The general [[non-abelian group|non-abelian]] notion (in discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]):
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
 
 Discussion for [[finite groups]]:
 
 * Tsunenobu Asai, Yugen Takegahara, *On the number of crossed homomorphisms*, Hokkaido Math. J. **28** 3 (1999) 535-543 ([doi:10.14492/hokmj/1351001235](https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-28/issue-3/On-the-number-of-crossed-homomorphisms/10.14492/hokmj/1351001235.full))
+
 
 [[!redirects crossed homomorphisms]]
 
