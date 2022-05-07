@@ -1,4 +1,3 @@
-[[!redirects cartesian closed model category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -20,12 +19,41 @@ A __cartesian model category__ (alias __cartesian closed model category__) is a 
 
 ## Definition
 
-A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a cartesian closed category equipped with a [[model category|model structure]] that satisfies the following additional axioms:
+\begin{definition}
+A **cartesian model category** (following [Rezk 09, 2.2](#Rezk09) and [Simpson 12](#Simpson12)) is a cartesian closed category equipped with a [[model category|model structure]] that satisfies the following additional axioms:
 
-* ([[pushout-product axiom|Pushout-product axiom]]). If $f : X \to Y$ and $f' : X' \to Y'$ are cofibrations, then the induced morphism $(Y \times X') \cup^{X \times X'} (X \times Y') \to Y \times Y'$ is a cofibration that is trivial if either $f$ or $f'$ is.
+* **[[pushout-product axiom]]**
 
-* (Unit axiom). The [[terminal object]] is cofibrant.
+  For $f \colon X \to Y$ and $f' \colon X' \to Y'$ [[cofibrations]], the induced morphism 
 
+  $$
+    (Y \times X') 
+      \overset{X \times X'}{\sqcup} 
+    (X \times Y') 
+       \longrightarrow 
+    Y \times Y'
+  $$
+
+  is a cofibration that is a [[weak equivalence]] if at least one of $f$ or $f'$ is.
+
+* **[[pullback-power axiom]]**
+
+  For $f \colon X \to Y$ a [[cofibration]] and $f' \colon A \to B$ a [[fibration]], the induced morphism
+
+  $$
+    [Y,A] 
+      \longrightarrow
+    [X,A] \underset{[X,B]}{\prod} [Y,B]
+  $$
+
+  is a fibration, and a weak equivalence if at least one of $f$ or $f'$ is.
+
+
+* **Unit axiom**  
+
+  The [[terminal object]] is [[cofibrant object|cofibrant]].
+
+\end{definition}
 
 ## Examples
 
@@ -46,14 +74,27 @@ A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a c
 
 ## References
 
-* [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_. (2010). ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
+* {#Rezk09} [[Charles Rezk]], _A cartesian presentation of weak $n$-categories_. (2010). ([arXiv:0901.3602](http://arxiv.org/abs/0901.3602))
 
-* [[Carlos Simpson]],  _Homotopy theory of higher categories_ (2012)
+* {#Simpson12} [[Carlos Simpson]],  _Homotopy theory of higher categories_ (2012)
 
-[[!redirects cartesian closed model categories]]
+
 [[!redirects cartesian model categories]]
+
+[[!redirects cartesian closed model category]]
+[[!redirects cartesian closed model categories]]
+
+[[!redirects cartesian closed monoidal model category]]
+[[!redirects cartesian closed monoidal model categories]]
+
+[[!redirects cartesian model structure]]
+[[!redirects cartesian model structures]]
 
 [[!redirects cartesian closed model structure]]
 [[!redirects cartesian closed model structures]]
-[[!redirects cartesian model structure]]
-[[!redirects cartesian model structures]]
+
+[[!redirects cartesian closed monoidal model structure]]
+[[!redirects cartesian closed monoidal model structures]]
+
+
+
