@@ -19,7 +19,7 @@ What is called _higher observational type theory_ (HOTT) is a flavor of  [[inten
 
 It may be regarded as a [[homotopy type theory]] ([[HoTT]]): the [[propositions]] of OTT correspond to the [[h-propositions]] of HoTT, the [[sets]] in OTT correspond to [[h-sets]] in HoTT, and so forth. The notion of [[equality]] on HOTT in a [[type universe]] is based on [[one-to-one]] [[correspondences]], but is usually defined as a primitive type for types outside a universe. Since equality is defined type-by-type, HOTT enjoys [[function extensionality]].
 
-There are a few technical differences but on the whole HoTT looks a lot like HOTT.
+There are a few technical differences (e.g. [[proofs]] of [[types]] in a [[universe]] are [[definitional equality|definitionally equal]] in HOTT, whereas proofs of types in a universe are only [[propositional equality|propositionally equal]] in HoTT) but on the whole HoTT looks a lot like HOTT.
 
 ## See also
 
