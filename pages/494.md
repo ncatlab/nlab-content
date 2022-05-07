@@ -1089,7 +1089,7 @@ The proof of the other statements proceeds analogously.
 
 =--
 
-Parts of this statement can be strenghened:
+Parts of this statement can be strengthened:
 
 +-- {: .num_prop #ReflectionRecognizedByIdempotency}
 ###### Proposition
