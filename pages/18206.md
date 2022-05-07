@@ -38,7 +38,7 @@ $$
   Y
 $$
 
-with the image $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ is a [[homeomorphism]].
+with the [[image]] $f(X) \hookrightarrow Y$ equipped with the [[subspace topology]], we have that $X \to f(X)$ is a [[homeomorphism]].
 
 =--
 
@@ -64,7 +64,7 @@ This is called a _closed embedding_ if the [[image]] $f(X) \subset Y$ is a [[clo
 +-- {: .proof}
 ###### Proof
 
-If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still continuous with respect to the subspace topology on $f(X)$. Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] (by [this prop.](homeomorphism#HomeoContinuousOpenBijection)). But the image projection of $f$ has this property, respectively, if $f$ does (by [this prop.](open+map#OpenClosedImageProjection)).
+If $f$ is injective, then the map onto its [[image]] $X \to f(X) \subset Y$ is a [[bijection]]. Moreover, it is still [[continuous function|continuous]] with respect to the [[subspace topology]] on $f(X)$. Now a bijective continuous function is a homeomorphism precisely if it is an [[open map]] or a [[closed map]] (by [this prop.](homeomorphism#HomeoContinuousOpenBijection)). But the image projection of $f$ has this property, respectively, if $f$ does (by [this prop.](open+map#OpenClosedImageProjection)).
 
 =--
 
