@@ -25,7 +25,7 @@ For $\mathbf{A}$ an [[E-∞ ring]] and $\pi_0 \mathbf{A} \to B$ a homomorphism t
 
 =--
 
-([Lurie, theorem 8.5.0.6](#Lurie))
+([Lurie, theorem 7.5.0.6](#Lurie))
 
 +-- {: .num_remark }
 ###### Remark
