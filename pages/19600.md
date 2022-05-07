@@ -18,7 +18,7 @@
 
   [online version](http://bertrandrussellsocietylibrary.org/br-efg/br-efg.html)
 
-In his early philosophical work Russell concerned himself with German [[idealism]], which was at that time propounded in Britain by [[J.M. Ellis McTaggart]], while he studied as well the mathematical innovations of the 19th century. The latter questioned the [[Kant|Kantian]] view of [[space]] -- especially in [[geometry]] where a developing plethora of new concepts of space, e.g. [[metric space]] or [[Riemannian manifold]], were hardly compatible with Kantian transcendental aesthetics in which there exists a perception ["Anschauung"] of a space such that every space occurs only as a subspace of this space ([[Critique of Pure Reason]] [A24](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_024.png)/B39):
+In his early philosophical work Russell concerned himself with German [[idealism]], which was at that time propounded in Britain by [[J.M. Ellis McTaggart]], while he studied as well the mathematical innovations of the 19th century. The latter questioned the [[Kant|Kantian]] view of [[space]] -- especially in [[geometry]] where a developing plethora of new concepts of space, e.g. [[metric space]] or [[Riemannian manifold]], were hardly compatible with the Kantian Transcendental Aesthetic in which there exists a perception ["Anschauung"] of a space such that every space occurs only as a subspace of this space ([[Critique of Pure Reason]] [A24](https://de.wikisource.org/wiki/Seite:Kant_Critik_der_reinen_Vernunft_024.png)/B39):
 
 > ... when we talk of divers spaces, we mean only parts of one and the same space.
 
