@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -70,6 +80,12 @@ Survey and introduction:
 See also:
 
 * Wikipedia, *[Kernel method](https://en.wikipedia.org/wiki/Kernel_method)* 
+
+On positive definiteness via [[Fourier transform]]/[[Bochner's theorem]]:
+
+* [[Kenji Fukumizu]], [[Bharath Sriperumbudur]], [[Arthur Gretton]], [[Bernhard Schölkopf]], *Characteristic Kernels on Groups and Semigroups*, Advances in Neural Information Processing Systems 21 : 22nd Annual Conference on Neural Information Processing Systems 2008 ([NIPS 2008](https://neurips.cc/Conferences/2008/)), 473-480 ([mpg:5466](http://www.is.mpg.de/publications/5466), [pdf](http://www.gatsby.ucl.ac.uk/~gretton/papers/FukSriGreSch09.pdf))
+
+* [[Kenji Fukumizu]], *Theory of Positive Definite Kernel and Reproducing Kernel Hilbert Space* 2008 ([pdf](https://www.ism.ac.jp/~fukumizu/H20_kernel/Kernel_7_theory.pdf), [[FukumizuPositiveDefiniteKernels.pdf:file]])
 
 Proof that the [[Mallows kernel]] and [[Kendall kernel]] are [[positive definite bilinear form|positive definite]]:
 
