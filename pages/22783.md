@@ -169,7 +169,7 @@ For $G$ a [[simplicial group]], its *standard simplicial classifying complex* is
   \label{OverlineWGAsQuotientOfWG}
   \overline{W} G
   \;\coloneqq\;
-  W G / G
+  (W G) / G
   \,.
 \]
 
@@ -182,7 +182,7 @@ The corresponding quotient [[coprojection]], whose [[fiber]] is, manifestly, $G$
     \\
     && \big\downarrow
     \\
-    && \overline{W} G
+    && \overline{W} G \mathrlap{\; \coloneqq (W G)/G}
   }
 \]
 
@@ -647,9 +647,24 @@ This follows as the combination of the following facts:
 
 \begin{prop}\label{UniversalSimplicialPrincipalBundleIsKanFibration}
   The coprojection $W G \overset{}{\longrightarrow} \overline{W}G$
+  (eq:TheUniversalSimplicialPrincipalBundle)
   is a [[Kan fibration]].
 \end{prop}
 (e.g [Goerss & Jardine 09, Sec. V Lemma 4.1 (p. 270)](#GoerssJardine09))
+
+More generally:
+\begin{prop}\label{CoprojectionOutOfBorelConstructionIsKanFibration}
+  For a [[simplicial group action]] of $G$ on a [[Kan complex]] $X$, the canonical coprojection from the [[Borel construction]] to the simplicial classifying space is a [[Kan fibration]]:
+$$
+  (W G \times X)/G
+  \xrightarrow{ \;\in Fib \; }
+  \overline{W}G
+  \,.
+$$
+\end{prop}
+\begin{prop}
+  By the fact ([this Prop.](Borel+model+structure#QuillenEquivalenceToSliceOverSimplicialClassifyingSpace)) that the [[Borel construction]] is a [[right Quillen functor]] from the [[model structure on simplicial group actions]] to the [[slice model structure]] of the [[classical model structure on simplicial sets]] over the simplicial classifying space; see [this Example](Borel+construction#ProjectionToSimplicialClassifyingSpaceIsKanFibration).
+\end{prop}
 
 \begin{prop}\label{UniversalPrincipalSimplicialComplexIsContractible}
   The simplicial set $W G$ is [[contractible]].
