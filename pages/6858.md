@@ -22,7 +22,7 @@
 For a complex variable $x\neq -1,-2,\ldots$, we define $\Gamma(x)$ by the formula 
 
 $$
-\Gamma(x) = \lim_{k\to \infty} \frac{k! k^{x-1}}{(x)_k}
+  \Gamma(x) = \lim_{k\to \infty} \frac{k! \cdot k^{x-1}}{(x)_k}
 $$
 
 where $(x)_0 =1$ and for positive integer $k = 1,2,\ldots$,
@@ -111,6 +111,9 @@ $$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$
 
 * George Andrews, Richard Askey, Ranjan Roy, _Special Functions_. Encyclopedia of Mathematics and Its Applications 71, Cambridge University Press, 1999. 
 
+See also: 
+
+* Wikipedia, *[Gamma function](https://en.wikipedia.org/wiki/Gamma_function)*
 
 [[!redirects gamma function]]
 [[!redirects Gamma function]]
