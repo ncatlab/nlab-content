@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -914,6 +913,8 @@ The Cartan model for equivariant de Rham cohomology is originally due to
 Review:
 
 * [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], Section 7.1 of: *Heat Kernels and Dirac Operators*, Grundlehren **298**, Springer 2004 ([ISBN:9783540200628](https://www.springer.com/gp/book/9783540200628))
+
+* {#Meinrenken03} [[Eckhard Meinrenken]], Section 5 of: *Group actions on manifolds*, Lecture Notes 2003 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/action.pdf), [[Meinrenken_GroupActionsOnManifolds.pdf:file]])
 
 * {#Meinrenken06} [[Eckhard Meinrenken]], _Equivariant cohomology and the Cartan model_, in: _Encyclopedia of Mathematical Physics_, Pages 242-250 Academic Press 2006 ([pdf](http://www.math.toronto.edu/mein/research/enc.pdf), [doi:10.1016/B0-12-512666-2/00344-8](https://doi.org/10.1016/B0-12-512666-2/00344-8))
 
