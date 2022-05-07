@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+On the [[Adams-Novikov spectral sequence]]:
+
+* {#Ravenel78} [[Douglas Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in: [[Michael Barratt]], [[Mark Mahowald]] (eds.) _Geometric Applications of Homotopy Theory II_. Lecture Notes in Mathematics, vol 658, Springer 1978 ([doi:10.1007/BFb0068728](https://doi.org/10.1007/BFb0068728), [pdf](https://people.math.rochester.edu/faculty/doug/mypapers/Novice.pdf))
+
+
 On [[chromatic homotopy theory]] and introducing [[Ravenel's spectra]] and [[Ravenel's conjectures]]:
 
 * {#Ravenel84} [[Douglas Ravenel]], _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
