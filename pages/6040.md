@@ -26,6 +26,8 @@ An example: [[elliptic curve]].
 
 * [[torsion of a curve]]
 
+* [[surface]], [[hypersurface]]
+
 [[!include infinitesimal and local - table]]
 
 
