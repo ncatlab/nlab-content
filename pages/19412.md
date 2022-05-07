@@ -23,6 +23,9 @@ On relation of [[Dp-D(p+2)-brane bound states]] ([hence](Dp-Dp+2-brane+bound+sta
 
 * [[Constantinos Papageorgakis]], p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
 
+On using [[machine learning]] to solve the [[conformal bootstrap]]:
+
+* Gergely Kántor, Vasilis Niarchos, [[Constantinos Papageorgakis]], *Solving Conformal Field Theories with Artificial Intelligence* ([arXiv:2108.08859](https://arxiv.org/abs/2108.08859))
 
 ## Related $n$Lab entries
 
