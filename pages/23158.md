@@ -4,7 +4,7 @@
  {#SeparationAxiomInTermsOfLiftingProperties}
 
 
-The [[separation conditions]] $T_0$ to $T_4$ may equivalently be understood as [[lifting properties]] against certain maps of [[finite topological spaces]]. 
+The [[separation conditions]] $T_0$ to $T_4$ may equivalently be understood as [[lifting properties]] against certain maps of [[finite topological spaces]], among others. 
 
 This is discussed at *[[separation axioms in terms of lifting properties]]*, to which we refer for further details. Here we just briefly indicate the corresponding lifting diagrams.
 
@@ -17,7 +17,7 @@ In the following diagrams, the relevant [[finite topological spaces]] are indica
 * an arrow $\bullet_u \to \bullet_c$  means that $\bullet_c$ is in the [[topological closure]] of $\bullet_u$. 
 
 
-In the lifting diagrams for $T_2-T_4$ below, the solid arrow out of the given [[topological space]] $X$ is a [[map]] that  determines (classifies) a decomposition of $X$  into a [[union]] of [[subsets]] with properties indicated by the picture of the finite space.  
+In the lifting diagrams for $T_2-T_4$ below, an arrow out of the given [[topological space]] $X$ is a [[map]] that  determines (classifies) a decomposition of $X$  into a [[union]] of [[subsets]] with properties indicated by the picture of the finite space.  
 
 Notice that the diagrams for $T_2$-$T_4$ below do not in themselves imply [[T1|$T_1$]].
 
