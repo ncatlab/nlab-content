@@ -68,6 +68,15 @@ More in detail, this yields the following identifications:
 
 [[!include homotopy type representation theory -- table]]
 
+
+## Examples
+
+* [[representation theory of the symmetric group]]
+
+* [[representation theory of the general linear group]]
+
+* [[Schur-Weyl duality]]
+
 ## Related entries
 
 * [[representation]], [[action]], [[module]]
