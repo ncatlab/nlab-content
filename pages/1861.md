@@ -886,11 +886,11 @@ Discussion of Cohomotopy [[cocycle spaces]] (i.e. [[spaces of maps]] into an [[n
 
 * {#Hansen74} [[Vagn Lundsgaard Hansen]], _The homotopy problem for the components in the space of maps on the $n$-sphere_, Quart. J. Math. Oxford Ser. (3) 25 (1974), 313-321 ([DOI:10.1093/qmath/25.1.313](https://doi.org/10.1093/qmath/25.1.313))
 
-* {#Hansen81} [[Vagn Lundsgaard Hansen]], _On Spaces of Maps of $n$-Manifolds Into the $n$-Sphere_, Transactions of the American Mathematical Society
-Vol. 265, No. 1 (May, 1981), pp. 273-281 ([jstor:1998494](https://www.jstor.org/stable/1998494))
+* {#Hansen81} [[Vagn Lundsgaard Hansen]], _On Spaces of Maps of $n$-Manifolds Into the $n$-Sphere_, Transactions of the American Mathematical Society, Vol. 265, No. 1 (May, 1981), pp. 273-281 ([jstor:1998494](https://www.jstor.org/stable/1998494))
 
 * [[Victor Vassiliev]], _Twisted homology of configuration spaces, homology of spaces of equivariant maps, and stable homology of spaces of non-resultant systems of real homogeneous polynomials_ ([arXiv:1809.05632](https://arxiv.org/abs/1809.05632))
 
+* [[Douglas Ravenel]], *What we still don't know about loop spaces of spheres*, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.), *Homotopy Theory via Algebraic Geometry and Group Representations*, Contemporary Mathematics **220**, AMS 1998  ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]], [doi:10.1090/conm/220](http://dx.doi.org/10.1090/conm/220))
 
 
 Discussion of [[cocycle spaces]] for [[rational Cohomotopy]] (see also at _[[rational model of mapping spaces]]_):
@@ -952,6 +952,7 @@ Discussion of [[smooth functions]] into the [[4-sphere]] in the context of [[Con
 * {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
 
 * {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, in _Foundations of Mathematics and Physics One Century After Hilbert_, Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470), [doi:10.1007/978-3-319-64813-2](https://www.springer.com/gp/book/9783319648125))
+
 
 
 [[!redirects Cohomotopy]]
