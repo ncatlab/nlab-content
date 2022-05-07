@@ -63,6 +63,14 @@ $$ first : \prod_{A:Type} A\times A \to A$$
 
 However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[ML]].
 
+### Theorems for Free
+
+In type systems with parametric polymorphism, such as [[System F]], there is a family of proofs for every polymorphic type signature which each give an algebraic law for any function with that signature. For example, the type signature $A \times B \to A$ has the [[free theorem]]
+
+$$ \alpha \circ f = f \circ (\alpha \times \beta) $$
+
+for all functions $f$ with that signature ([Wadler 89](#Wadler89), figure 1).
+
 ## Related concepts
 
 * [[logical relations]]
@@ -80,6 +88,10 @@ Other classic papers include:
 * [[Robin Milner]], _A Theory of Type Polymorphism in Programming_, Journal of Computer and System Sciences 17, 348-375, 1978. ([pdf](https://courses.engr.illinois.edu/cs421/sp2013/project/milner-polymorphism.pdf))
 
 * [[John C. Reynolds]], _Types, Abstraction, and Parametric Polymorphism_, Information Processing 83, 1983. ([pdf](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf))
+
+Theorems for free were explained in:
+
+* {#Wadler89} [[Philip Wadler]], _Theorems for free!_, in Proceedings of the fourth international conference on Functional programming languages and computer architecture (FPCA 1989). 1989. ([pdf](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf), [doi:10.1145/99370.99404](https://doi.org/10.1145/99370.99404))
 
 A recent paper extending Reynolds' notion of relational parametricity to dependent types:
 
