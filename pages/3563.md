@@ -110,10 +110,10 @@ $$\lambda x. y(x x) = s(\lambda x. y)(\lambda x. x x) = s(k y)(s I I)$$
 which means 
 $$\array{
 Y & = & \lambda y. (s I I)(s(k y)(s I I)) \\
- & = & s(\lambda y. s I I)(\lambda y. s(k y)(s I I)) \\ 
- & = & s(k (s I I))(s(\lambda y. s(k y))(\lambda y. s I I) \\ 
- & = & s(k (s I I))(s(s (k s)(\lambda y. k y)))(k (s I I)) \\ 
- & = & s(k (s I I))(s(s (k s)(s(k k)I)))(k (s I I))
+ & = & s(\lambda y. s I I)\big(\lambda y. s(k y)(s I I)\big) \\ 
+ & = & s(k (s I I)) \big(s(\lambda y. s(k y))(\lambda y. s I I)\big) \\ 
+ & = & s(k (s I I)) \big(s(s(k s)k)(k (s I I))\big)
+
 }$$ 
 
 
