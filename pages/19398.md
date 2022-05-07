@@ -36,11 +36,13 @@ If the action is by [[isometries]] then the [[topological quotient spaces]] of s
 
 
 #### Basic examples
+ {#BasicExamplesOfFreeActionsOnSpheres}
 
+We make explicit some elementary but important examples of free continuous finite group actions on $n$-spheres.
 
 \begin{example}
 \label{ActionOfZModTwoByAntipodalInversion}
-**(action of $\mathbb{Z}/2$ by antipodal inversion)**
+**(action of $\mathbb{Z}/2$ by antipodal involution)**
 \linebreak
   For all $n \in \mathbb{N}$, the group [[cyclic group of order 2|$\mathbb{Z}/2$]] has a [[continuous function|continuous]] [[free action]]  on the [[n-sphere]], given by [[antipode|antipodal]] reflection (hence reversing the [[orientation]]).
 
@@ -161,10 +163,19 @@ Finally, since $\mathbb{H} \,\ni\, q \,\mapsto\, \bar q \cdot q \,\in\, \mathbb{
 Notice that, while an analogous argument shows that with $G \subset Sp(1)$ also the [[direct product group]] $G^{n+1}$ canonically acts on $S^{4n+3}$ by componentwise left multiplication, for $n \geq 2$ this action is no longer free, as the $k$th factor subgroup now fixes the elements whose $k$th component vanishes. In fact, higher direct product powers of cyclic groups in general have *no* free action on spheres of any dimension, see Smith's $p^2$-condition (Prop. \ref{SmithPSquareCondition} below).
 
 
-The above examples of free actions are all on odd-dimensional spheres, except when the group is [[cyclic group of order 2|$\mathbb{Z}/2$]]. Indeed, this must be so in general:
+#### Involutions
+ {#Involutions}
+
+The [above examples](#BasicExamplesOfFreeActionsOnSpheres) of free actions on spheres are all on odd-dimensional spheres, except when the group is [[cyclic group of order 2|$\mathbb{Z}/2$]], hence when the action is by [[involutions]] (Rem. \ref{ZTwoActionsAreInvolutions} below), where the antipodal free action (Ex. \ref{ActionOfZModTwoByAntipodalInversion}) exists in all dimensions. Indeed, it holds in general that the only free actions of finite groups on even-dimensional spheres are [[involutions]] (Prop. \ref{OnlyZModTwoCanActFreelyOnEvenDimensionalSpheres} below), and, as in the canonical example, all free involutions on even-dimensional spheres are [[orientation]]-reversing, and those on odd-dimensional spheres are orientation-preserving (Prop. \ref{FreeZModTwoActionOnEvenDimSphereMustBeOrientationReversing} below).
+
+
+Besides the canonical example of the antipodal involution, there are -- at least in the [[categories]] of [[piecewise-linear structure|piecewise-linear]] and of [[smooth structure|smooth]] actions --  families of exotic involutions on $n$-spheres (Ex. ... below).
+
 
 \begin{proposition}
 \label{OnlyZModTwoCanActFreelyOnEvenDimensionalSpheres}
+**(only $\mathbb{Z}/2$ has free actions on even-dimensional spheres)**
+\linebreak
   The only [[finite group]] with any [[free action|free]] [[G-space|continuous action]] on a [[sphere]] $S^{2n}$ of [[positive number|positive]] [[even number|even]] [[dimension of a manifold|dimension]] is [[cyclic group of order 2|$\mathbb{Z}_2$]].
 \end{proposition}
 \begin{proof}
@@ -195,9 +206,27 @@ The only solutions for this algebraic equation (over the [[integers]]) have $ord
 \end{remark}
 
 \begin{remark}
-\label{FreeZModTwoActionOnEvenDimSphereMustBeOrientationReversing}
-Moreover, the [[Lefschetz fixed point theorem]] implies (see [this example](https://ncatlab.org/nlab/show/Lefschetz+trace+formula#FixedPointTheoremForHomeomorphismsOfnSpheres)) that the only free action on an even dimensional sphere, necessarily by $\mathbb{Z}/2$ according to Prop. \ref{OnlyZModTwoCanActFreelyOnEvenDimensionalSpheres}, is orientation reversing, as in Ex. \ref{ActionOfZModTwoByAntipodalInversion}.
+\label{ZTwoActionsAreInvolutions}
+**([[cyclic group of order 2|$\mathbb{Z}/2$]]-[[group action|actions]] are equivalently [[involutions]])**
+\linebreak
+  Any [[group action]] of $\rho \,\colon\, \mathbb{Z}/2 \times S^n \to S^n$ of the [[cyclic group of order 2|$\mathbb{Z}/2$]] is determined by its value $\rho(\sigma) \,\colon\, S^n \to S^n$ on the single non-trivial element $\sigma \,\in\, \mathbb{Z}/2$, which is an [[involution]], and every involution corresponds to a unique $\mathbb{Z}/2$-action this way.
 \end{remark}
+
+
+\begin{proposition}
+\label{FreeZModTwoActionOnEvenDimSphereMustBeOrientationReversing}
+Every [[free action|free]] [[involution]]
+
+* on an [[even number|even]]-dimensional sphere is [[orientation]]-reversing;
+
+* on an [[even number|odd]]-dimensional sphere is [[orientation]]-preserving.
+
+\end{proposition}
+\begin{proof}
+By the [[Lefschetz fixed point theorem]],
+see [this example](Lefschetz+trace+formula#FixedPointTheoremForHomeomorphismsOfnSpheres) for details.
+\end{proof}
+
 
 #### Obstructions and existence
 
@@ -262,6 +291,8 @@ Given an continuous [[action]] of the [[circle group]] on the [[topological spac
 
 ## References
 
+### Characterization of finite free actions by homeomorphisms
+
 The non-existence of free actions of $(\mathbb{Z}/p)^{\geq 2}$ on any [[n-sphere]]:
 
 * {#Smith44} P. A. Smith, *Permutable Periodic Transformations*, Proceedings of the National Academy of Sciences of the United States of America Vol. 30, No. 5 (May 15, 1944), pp. 105-108 ([jstor:87918](https://www.jstor.org/stable/87918))
@@ -282,6 +313,8 @@ Discussion of the fixed point-sets of finite group actions on even-dimensional s
 
 * {#Craciun13} Gheorghe Craciun, *Most homeomorphisms with a fixed point have a Cantor set of fixed points*, Archiv der Mathematik volume 100, pages 95–99 (2013) ([doi:10.1007/s00013-012-0466-z](https://doi.org/10.1007/s00013-012-0466-z))
 
+### Classification of finite free actions by isometries
+
 Classification of free finite group actions by [[isometries]], hence with [[quotient spaces]] being [[spherical space forms]]:
 
 * {#Wolf74} [[Joseph Wolf]], _Spaces of constant curvature_, Third ed.: Publish or Perish, Boston, 1974, Sixth edition: AMS Chelsea Publishing 2011 ([doi:10.1090/chel/372](https://doi.org/10.1090/chel/372))
@@ -293,11 +326,6 @@ review:
 streamlined re-proof:
 
 * {#Allock15} [[Daniel Allcock]], _Spherical space forms revisited_, Trans. Amer. Math. Soc. 370 (2018), 5561-5582  ([arXiv:1509.00906](https://arxiv.org/abs/1509.00906), [doi:10.1090/tran/7167](https://doi.org/10.1090/tran/7167))
-
-
-Discussion of [[circle group]]-actions on spheres:
-
-* {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
 
 
 The subgroups of [[special orthogonal group|SO(8)]] which act freely on $S^7$ have been classified in [Wolf 1974](#Wolf74) and lifted to actions of [[Spin group|Spin(8)]] in 
@@ -312,6 +340,12 @@ Further discussion of these actions of $Spin(8)$ on the [[7-sphere]] is in
 * [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 where they are related to the [[black brane|black]] [[M2-brane]] [[BPS state|BPS]]-solutions of [[11-dimensional supergravity]] at [[ADE-singularities]].
+
+### Discussion of circle-actions
+
+Discussion of [[circle group]]-actions on spheres:
+
+* {#FelixOpreaTanre08} [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic Models in Geometry_, Oxford University Press 2008
 
 
 [[!redirects group action on spheres]]
