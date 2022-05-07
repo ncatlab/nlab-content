@@ -136,10 +136,20 @@ This is given by letting a projective unitary act by conjugation on a Fredholm o
 
 ## References
 
-On the [[cohomology]] of its [[classifying space]]:
+On the [[cohomology]] of the [[classifying spaces]] $B PU(n)$:
 
+* Xing Gu, _On the Cohomology of the Classifying Spaces of Projective Unitary Groups_,  Journal of Topology and AnalysisVol. **13** 02 (2021)  535-573 ([arXiv:1612.00506](https://arxiv.org/abs/1612.00506), [doi:10.1142/S1793525320500211](https://doi.org/10.1142/S1793525320500211))
 
-* Xing Gu, _On the Cohomology of the Classifying Spaces of Projective Unitary Groups_ ([arXiv:1612.00506](https://arxiv.org/abs/1612.00506))
+On the spaces of [[group homomorphisms]] into $PU(\mathcal{H})$ (with an eye towards the [[universal equivariant PU(H)-bundle|universal equivariant $PU(\mathcal{H})$-bundle]]):
+
+* {#BEJU14} [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Michael Joachim]], [[Bernardo Uribe]], Section 1 of: _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2014) ([arXiv:1202.1880](https://arxiv.org/abs/1202.1880), [doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061))
 
 
 [[!redirects projective unitary groups]]
+
+[[!redirects PU(n)]]
+[[!redirects PU(H)]]
+
+
+
+
