@@ -93,6 +93,8 @@ Note, though, that not _all_ homotopy limits produce weak limits in the homotopy
 
 ## Related concepts
 
+* [[weak adjoint]]
+
 * [[weak multilimit]]
 
 ## References
