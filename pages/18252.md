@@ -98,7 +98,7 @@ Here:
 
 * $k^\times \,\coloneqq\, k \setminus \{0\}$ is the [[group of units]] of $k$;
 
-* $k^{n+1} \coloneqq \underset{k\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]], 
+* $k^{n+1} \coloneqq \underset{n+1\;summands}{\underbrace{k \oplus \cdots \oplus k}}$ is the canonical $n+1$-[[dimension|dimensional]] $k$-[[vector space]], 
 
   whose elements we will also denote as [[lists]] 
 
