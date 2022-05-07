@@ -146,9 +146,24 @@ Survey with relation to [[differential topology]]:
 
 * [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
 
-A textbook with an emphasis on [[homotopy theory]] is in 
+Books with an emphasis on [[homotopy theory]]: 
+
+* [[Robert E. Mosher]], and [[Martin C. Tangora]], *Cohomology operations and applications in homotopy theory*, Harper & Row, 1968, reprinted by [Dover 2008](https://store.doverpublications.com/0486466647.html) [GoogleBooks](https://www.google.com/books/edition/Cohomology_Operations_and_Applications_i/wu79f-7V_6AC)
+
+* {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
+* [[George W. Whitehead]], *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+
+* [[Hans-Joachim Baues]], _Homotopy types_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland, 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics Vol. 127, American Mathematical Society, 2011 ([doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)])
+
+* [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
+
+  > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
+
 
 Some interactive 3D demos can be found at
 
