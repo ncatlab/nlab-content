@@ -335,11 +335,11 @@ We discuss precise versions of the idea that derivators indeed constitute a mode
 +-- {: .num_theorem #RenaudinTheorem}
 ###### Theorem
 
-The sub-[[2-category]] of "[[locally presentable category|locally presentable]]" derivators with left adjoints as morphisms between them, among the [[2-category]] of all derivators (see [above](#2CategoryOfDerivators)),  is [[equivalence of 2-categories|equivalent]] to the [[2-localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].
+The sub-[[2-category]] of "[[locally presentable category|locally presentable]]" derivators with left adjoints as morphisms between them, among the [[2-category]] of all derivators (see [above](#2CategoryOfDerivators)),  is [[equivalence of 2-categories|equivalent]] to the [[2-localization]] of the 2-category of [[left proper model category|left proper]][^1] [[combinatorial model categories]] at the [[Quillen equivalences]].
 
 =--
 
-This is shown in ([Renaudin](#Renaudin)).  See at [[Ho(CombModCat)]] for more.
+This is shown in ([Renaudin 2006](#Renaudin06)).  See at [[Ho(CombModCat)]] for more.
 
 Notice that [[locally presentable (∞,1)-categories]] are precisely those [[(∞,1)-categories]] that arise, up to [[equivalence of (∞,1)-categories]] as [[simplicial localizations]] of [[combinatorial model categories]]. Hence this theorem suggests that there is, at least, an [[equivalence of 2-categories]] between the [[2-category]] of presentable derivators and the [[homotopy 2-category]] of the [[(∞,2)-category]] [[Pr(∞,1)Cat]]. However, an actual proof of this seems to be missing.
 
@@ -469,6 +469,12 @@ Other references include:
 * {#Richardson20} Richardson, James, _Enriched derivators_, [arXiv:2010.07740](https://arxiv.org/abs/2010.07740), 2020
 
 * {#GPS14} Moritz Groth, Kate Ponto, and [[Mike Shulman]], _Mayer-Vietoris sequences in stable derivators_. Homology, Homotopy and Applications 16 (1) 2014, [arxiv:1306.2072](http://arxiv.org/abs/1306.2072)
+
+
+[^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories passes through only left proper ones.
+
+
+
 
 [[!redirects derivators]]
 [[!redirects prederivator]]
