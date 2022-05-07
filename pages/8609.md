@@ -220,6 +220,8 @@ By proposition 6.1.1.1 and the following remarks of [Lurie](#Lurie), if $C$ has 
 
 * [[product]], [[coproduct]]
 
+* [[sink]], [[cosink]]
+
 * [[Kan extension]]
 
 * [[internal colimit]]
