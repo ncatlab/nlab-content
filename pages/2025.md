@@ -350,6 +350,8 @@ In ([Marra-Reggio 18](#MarraReggio)), the authors give a characterization of $Co
 
 In the context of [[ultracategories]], $Comp$ is equivalent to $Fun_{RUlt}(\ast, Set)$, the category of right ultrafunctors between the terminal ultracategory and $Set$ ([Lurie, p. 4](#Lurie)). 
 
+The [[infinitary pretopos]] of [[condensed sets]]
+is the completion of the [[pretopos]] of [[compact Hausdorff spaces]].
 
 ## Related concepts
 
