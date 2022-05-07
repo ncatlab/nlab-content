@@ -40,7 +40,6 @@ Joyal has contributed to the $n$Lab as 'joyal'; he once began a project at [[joy
 
 * A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
 
-* A. Joyal, M. Tierney, _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf), [backup pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf)
 
 * A. Joyal, Letter to [[Alexander Grothendieck]], 11.4.1984, [[lettrejoyal.pdf:file]].
 
@@ -52,6 +51,17 @@ Sciences Mathematiques du Qu&#233;bec 1(4):46&#8211;52, 1977; Robin Houston's ro
 scientific methods. Volume one of the proceedings of the tenth international
 congress of logic, methodology and philosophy of science, Florence, Italy, Synth.
 Libr. 259, pages 29&#8211;68. Dordrecht: Kluwer Academic Publishers, 1997.
+
+
+On [[simplicial homotopy theory]], the [[classical model structure on simplicial sets]] and the [[classical model structure on topological spaces]]:
+
+
+* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
+
+* {#JoyalTierney09} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2009  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
+
+
+
 
 category: people
 
