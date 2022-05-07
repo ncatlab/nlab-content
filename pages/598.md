@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -722,7 +726,7 @@ Additional useful references include
  
 
 category: simplicial object
+
 [[!redirects simplicial groups]]
 
-[[!redirects simplicial abelian group]]
-[[!redirects simplicial abelian groups]]
+
