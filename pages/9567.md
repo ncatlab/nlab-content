@@ -18,9 +18,9 @@
 * table of contents
 {: toc}
 
-## Motivation
+## Idea
 
-A series is a formal precursor to a various notions of a sum of an infinite sequence. 
+In [[analysis]] a *series* is a formal precursor to a various notions of a [[sum]] of an infinite sequence of [[numbers]]. 
 
 
 ## Definition
@@ -70,6 +70,8 @@ The most straightforward notion of the **sum** of a series is the [[limit of a s
 * [[infinite product]]
 
 * [[divergent series]]
+
+* [[partial sum]]
 
 [[!redirects series]]
 [[!redirects infinite series]]
