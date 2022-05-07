@@ -1,4 +1,4 @@
 
-* [website](http://www.maths.mq.edu.au/staff/davydov.html)
+* [website](https://www.ohio.edu/cas/davydov)
 
 category: people
