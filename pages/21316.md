@@ -28,6 +28,10 @@ Any element of a presheaf on an EZ-category $R$ is a degeneracy of a unique nond
 
 If an EZ-category is also a strict [[Reedy category]] (i.e. contains no nonidentity isomorphisms), then it is an [[elegant Reedy category]].
 
+## References
+
+  * {#BergerMoerdijk2011} [[Clemens Berger]], [[Ieke Moerdijk]], _On an extension of the notion of Reedy category_, Mathematische Zeitschrift, 269, 2011 ([arXiv:0809.3341](https://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x]( https://doi.org/10.1007/s00209-010-0770-x))
+
 [[!redirects Eilenberg-Zilber categories]]
 [[!redirects EZ-category]]
 [[!redirects EZ-categories]]
