@@ -807,6 +807,49 @@ _[[vector field]]_ on $X$.
 =--
 
 
++-- {: .num_remark}
+###### Remark
+**(notation for tangent vectors in a chart)**
+
+Under the bijection of lemma \ref{LinearTangentSpace} one often denotes the tangent vector  corresponding to the the $i$-th canonical [[linear basis|basis]] vector of $\mathbb{R}^n$ by
+
+$$
+  \frac{\partial}{\partial x^i}
+  \phantom{AA} \text{or just } \phantom{AA}
+  \partial_i
+$$
+
+because under the identification of tangent vectors with [[derivations]] on the algebra of [[differentiable functions]] on $X$ as [above](#AlgebraicDefinition) then it acts as the operation of taking the $i$th [[partial derivative]]. The general tangent vector corresponding to $v \in \mathbb{R}^n$ is then denoted by
+
+$$
+  \underoverset{i = 1}{n}{\sum}
+  v^i
+  \frac{\partial}{\partial x^i}
+  \phantom{AA} \text{or just } \phantom{AA}
+  \underoverset{i = 1}{n}{\sum} v^i \partial_i
+  \,.
+$$
+
+
+Notice that this identification depends on the choice of [[chart]], which is left implicit in this notation.
+
+Sometimes, notably in texts on [[thermodynamics]], one augments this notation to indicate the chart being used by listing the remaining coordinate functions as subscripts. For instance if two functions $f,g$ on a 2-dimensional manifold are used as coordinate functions for a local chart (i.e. so that $x^1 = f$ and $x^2 = g$ ), then one writes
+
+$$
+  (\partial/\partial f)_g
+  \phantom{AA}
+  (\partial/\partial g)_f
+$$
+
+for the tangent vectors $\frac{\partial}{\partial x^1}$ and $\frac{\partial}{\partial x^2}$, respectively.
+
+=--
+
+
+
+### Via derivations of smooth functions
+ {#ViaDerivationsOfSmoothFunctions}
+
 +-- {: .num_remark #AlgebraicDefinition}
 ###### Remark
 **([[derivations of smooth functions are vector fields]])**
@@ -848,49 +891,33 @@ $$
 It turns out that this function is in fact a [[bijection]]: every derivation of the algebra of smooth functions
 on a smooth manifold arises uniquely from a smooth tangent vector in this way.
 
+
+
 For more on this see at _[[derivations of smooth functions are vector fields]]_.
 
-
-
 =--
 
-+-- {: .num_remark}
-###### Remark
-**(notation for tangent vectors in a chart)**
+\begin{remark}
 
-Under the bijection of lemma \ref{LinearTangentSpace} one often denotes the tangent vector  corresponding to the the $i$-th canonical [[linear basis|basis]] vector of $\mathbb{R}^n$ by
-
-$$
-  \frac{\partial}{\partial x^i}
-  \phantom{AA} \text{or just } \phantom{AA}
-  \partial_i
-$$
-
-because under the identification of tangent vectors with [[derivations]] on the algebra of [[differentiable functions]] on $X$ as [above](#AlgebraicDefinition) then it acts as the operation of taking the $i$th [[partial derivative]]. The general tangent vector corresponding to $v \in \mathbb{R}^n$ is then denoted by
+For manifolds of the class $C^k$, $0\lt k\lt \infty$,
+the definition of a tangent vector as a [[derivation]] of the algebra
+of functions ([[derivations of smooth functions are vector fields]]) remains valid if one strengthens the definition of a [[derivation]] $D$ by adjoining, on top of the algebraic condition of the [[product]] rule 
 
 $$
-  \underoverset{i = 1}{n}{\sum}
-  v^i
-  \frac{\partial}{\partial x^i}
-  \phantom{AA} \text{or just } \phantom{AA}
-  \underoverset{i = 1}{n}{\sum} v^i \partial_i
-  \,.
+  D (f \cdot g) = (D f) g + f (D g)
 $$
 
-
-Notice that this identification depends on the choice of [[chart]], which is left implicit in this notation.
-
-Sometimes, notably in texts on [[thermodynamics]], one augments this notation to indicate the chart being used by listing the remaining coordinate functions as subscripts. For instance if two functions $f,g$ on a 2-dimensional manifold are used as coordinate functions for a local chart (i.e. so that $x^1 = f$ and $x^2 = g$ ), then one writes
+also the algebraic incarnation of the [[chain rule]]:
 
 $$
-  (\partial/\partial f)_g
-  \phantom{AA}
-  (\partial/\partial g)_f
+  D(f(g_1,\ldots,g_m))
+  \;=\;
+  \sum_i (\partial_i f)(g_1,\ldots,g_m)D(g_i).
 $$
 
-for the tangent vectors $\frac{\partial}{\partial x^1}$ and $\frac{\partial}{\partial x^2}$, respectively.
+See [Newns-Walker 56](#NewnsWalker56).
 
-=--
+\end{remark}
 
 
 
@@ -965,16 +992,6 @@ There are useful categories of [[generalized smooth space]]s which are neither c
 
 See [[Frölicher space]] and [[diffeological space]] for the definitions in their context.
 
-### For $C^k$-manifolds
-
-For manifolds of the class $C^k$, $0\lt k\lt \infty$,
-the definition of a tangent vector as a [[derivation]] of the algebra
-of functions ([[derivations of smooth functions are vector fields]]) remains valid if one strengthens the definition of a [[derivation]]:
-we must now require
-$$D(f(g_1,\ldots,g_m))=\sum_i (\partial_i f)(g_1,\ldots,g_m)D(g_i).$$
-
-See Newns and Walker \cite{NewnsWalker}.
-
 ## Related concepts
 
 * [[synthetic tangent bundle]], [[kinematic tangent bundle]], [[operational tangent bundle]]
@@ -997,10 +1014,9 @@ See Newns and Walker \cite{NewnsWalker}.
 
 ## References
 
-An early account of 
-[[derivations of smooth functions are vector fields|tangent vectors as derivations]], including the $C^k$-case for $0\lt k\lt \infty$ is in
+An early account of  [[derivations of smooth functions are vector fields|tangent vectors as derivations]], including the $C^k$-case for $0\lt k\lt \infty$ is in
 
-* [[W. F. Newns]], [[A. G. Walker]],  _Tangent Planes To a Differentiable Manifold_.  Journal of the London Mathematical Society s1-31:4 (1956), 400–407 ([doi:10.1112/jlms/s1-31.4.400](https://doi.org/10.1112/jlms/s1-31.4.400))
+* {#NewnsWalker56} [[W. F. Newns]], [[A. G. Walker]],  _Tangent Planes To a Differentiable Manifold_.  Journal of the London Mathematical Society s1-31:4 (1956), 400–407 ([doi:10.1112/jlms/s1-31.4.400](https://doi.org/10.1112/jlms/s1-31.4.400))
 
 
 A textbook account of tangent bundles in the context of [[synthetic differential geometry]]:
