@@ -88,3 +88,5 @@ Then neither of these implies the other, and we probably really want to demand *
 [[!redirects least upper bounds]]
 [[!redirects lub]]
 [[!redirects lubs]]
+[[!redirects (0,1)-colimit]]
+[[!redirects (0,1)-colimits]]
