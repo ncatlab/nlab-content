@@ -5,7 +5,14 @@ Michael Rathjen is professor for [[mathematical logic]] at Leeds.
 
 * Research grant _[Homotopical Inductive Types](http://www2.macs.hw.ac.uk/~cm389/hexmaps/2014/03/epsrc-ict-50/grants/EP-K023128-1.php)_ on [[higher inductive types]]
 
-## related $n$Lab entries
+## Selected writings
+
+On [[constructive set theory]]:
+
+* {#AczelRathjen01} [[Peter Aczel]], [[Michael Rathjen]], _Notes on Constructive Set theory_, 2001 ([pdf](https://events.math.unipd.it/3wftop/pdf/AczelRathjen.pdf), [[AczelRathjenCST.pdf:file]])
+
+
+## Related $n$Lab entries
 
 * [[constructive set theory]]
 
@@ -24,5 +31,7 @@ Michael Rathjen is professor for [[mathematical logic]] at Leeds.
 * [[presentation axiom]]
 
 * [[higher inductive type]]
+
+* [[taboo]]
 
 category: people
