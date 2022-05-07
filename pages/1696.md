@@ -1,9 +1,14 @@
 Jean-Luc Brylinski is a French mathematician now working in the USA. He has developed [[gerbes]] in a differential geometric context.
 
-* [Wikipedia article](http://en.wikipedia.org/wiki/Jean-Luc_Brylinski)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Jean-Luc_Brylinski)
 
 
 ## Selected writings
+
+On [[loop spaces]], [[characteristic classes]] and [[geometric quantization]] (and on [[bundle gerbes]] and on [[Deligne cohomology]]):
+
+* [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993) ([doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308))
+
 
 On the [[cyclic homology]] of the [[groupoid convolution algebra]] of [[étale groupoid|étale]] [[Lie groupoids]], hence of [[orbifolds]]:
 
