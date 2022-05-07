@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _braid group_ $Br_n$ is the [[group]] whose elements are [[isotopy]] classes of $n$ [[dimension|1-dimensional]] _braids_ running vertically in 3-dimensional [[Cartesian space]], the group operation being their concatenation.
+The _braid group_ $Br(n)$ is the [[group]] whose elements are [[isotopy]] classes of $n$ [[dimension|1-dimensional]] _braids_ running vertically in 3-dimensional [[Cartesian space]], the group operation being their concatenation.
 
 Here a _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ points at the top of the diagram with $n$-points at the bottom.
 
@@ -318,36 +318,87 @@ There are useful [[group presentations]] of the braid groups.   We will return l
 ## Definition
 
 ### Geometric definition 
+ {#GeometricDefinition}
 
-Let $C_n \hookrightarrow \mathbb{C}^n$ be the space of [[configuration space of points|configurations of n points]] in the [[complex plane]], whose elements are those [[n-tuples]] $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. The [[symmetric group]] $S_n$ acts on $C_n$ by permuting coordinates. Let $C_n/S_n$ be the [[orbit]] space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), and let $[z_1, \ldots, z_n]$ be the image of $(z_1, \ldots, z_n)$ under the quotient $\pi: C_n \to C_n/S_n$. We take $p = (1, 2, \ldots, n)$ as basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as basepoint for $C_n/S_n$. 
+#### Ordinary braid group
+
+Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group).
+
+We say this in more detail:
+
+Let $C_n \hookrightarrow \mathbb{C}^n$ denote the space of [[configuration space of points|configurations of n ordered  points]] in the [[complex plane]], whose elements are those [[n-tuples]] $(z_1, \ldots, z_n)$ such that $z_i \neq z_j$ whenever $i \neq j$. In other words, $C_n$ is the [[complement]] of the [[fat diagonal]]:
+
+$$
+  C_n 
+    \;\coloneqq\; 
+  \mathbb{C}^n \setminus \mathbf{\Delta}^n_{\mathbb{C}}
+  \,.
+$$
+
+
+The [[symmetric group]] $S_n$ [[group action|acts]] on $C_n$ by [[permutation|permuting]] coordinates. Let:
+
+* $C_n/S_n$  denote the [[quotient]] by this group action, hence the [[orbit]] space (the space of $n$-element subsets of $\mathbb{C}$ if one likes), 
+
+* $[z_1, \ldots, z_n]$ denote the image of $(z_1, \ldots, z_n)$ under the quotient [[coprojection]] $\pi \colon C_n \to C_n/S_n$ (i.e. its the [[equivalence class]]). 
+
+We understand $p = (1, 2, \ldots, n)$ as the basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as the basepoint for the [[configuration space of unordered points]] $C_n/S_n$, making it a [[pointed topological space]].
 
 +-- {: .num_defn} 
 ###### Definition 
-The _braid group_ $Br_n$ is the [[fundamental group]] $\pi_1(C_n/S_n, [p])$. The _pure braid group_ $P_n$ is $\pi_1(C_n, p)$. 
+
+The _braid group_ is the [[fundamental group]] of the [[configuration space of unordered points|configuration space of n unordered points]]:
+
+$$
+  Br(n) 
+    \;\coloneqq\; 
+  \pi_1
+  \big(
+    C_n/S_n, [p]
+  \big)
+$$
+
+The _pure braid group_  is the [[fundamental group]] of the [[configuration space of ordered points|configuration space of n ordered points]]: 
+
+$$
+  PBr(n)
+    \;\coloneqq\;
+  \pi_1
+  \big(
+    C_n, p 
+  \big)
+  \,.
+$$
+
 =-- 
 
-Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the covering projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus the braid $\beta$ is exhibited by $n$ non-intersecting strands, each one connecting an $i$ to $\sigma(i)$, and we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
+Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the [[covering]] projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus the braid $\beta$ is exhibited by $n$ non-intersecting strands, each one connecting an $i$ to $\sigma(i)$, and we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
 
-$$1 \to P_n \to Br_n \to S_n \to 1$$ 
+$$1 \to PBr(n) \to Br(n) \to Sym(n) \to 1$$ 
 
-which is part of a long exact homotopy sequence corresponding to the fibration $\pi: C_n \to C_n/S_n$. 
+which is part of a [[long exact sequence of homotopy groups|long exact homotopy sequence]] corresponding to the [[fibration]] $\pi \colon C_n \to C_n/S_n$. 
 
-### Geometric presentation for particles on a graph 
+#### For general topological base spaces
  {#ForMoreGeneralTopologicalSpaces}
 
-In [[quantum computing]] research, there is some interest in [[non-abelian anyons]] on spaces that have the topology of a network, or 1-D [[CW-complex]]. For [[anyons]] placed in a topological space $X$, the [[configuration space of points]] $C_n(X)$ is defined by:
-$$
-  C_n(X) \coloneqq \left(X^n-\Delta_n \right)/S_n
-$$
-where $\Delta_n \coloneqq (x_1, \ldots, x_n)$ such that $x_i \neq x_j$ whenever $j \neq i$ is the [[fat diagonal]] of $X_n$ and $S_n$ is the [[permutation group]] that permutes particles in $X_n$. 
-Elements of the braid group $\bfB_n(X)$, which is the [[fundamental group]] of $C_n(X)$, are exchanges of particles. 
+Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not neccesarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
 
-The braid groups of particles confined to a network, consisting of nodes and edges, can be presented geometrically. These graph [[braid groups]], which contain all information about a particle's exchange, depend on the connectivity of the graph. It has recently been proven by An and Maciazek, using discrete [[Morse theory]] and combinatorial analysis of small graphs, that graph braid groups are generated by particular particle moves with the following description:
+For $\Sigma$ any [[surface]], the [[fundamental group]] of the (ordered) [[configuration space of points]] in $\Sigma$ may be regarded as generalized (pure) braid group.
+This group is of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
+
+Yet more generally, one may consider the fundamental group of the configuration space of points of any topological space $X$.
+
+For example for $X$ a 1-dimensional [[CW-complex]], hence an ([[undirected graph|undirected]]) [[graph]], one speaks of *graph braid groups* (e.g. [Farley & Sabalka 2009](#FarleySabalka2009)).
+
+> The following should maybe not be here in the Definition-section, but in some Properties- or Examples-section, or maybe in a dedicated entry on *[[graph braid groups]]*:
+
+It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse theory]] and combinatorial analysis of small graphs) that graph braid groups are generated by particular particle moves with the following description:
 
 1. Star-type generators: exchanges of particle pairs on vertices of the particular graph
 
 2. loop type generators: circular moves of a single particle around a simple cycle of the graph
 
+\linebreak
 
 
 ### Group-theoretic definition
@@ -366,13 +417,13 @@ The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]
 
 #### In terms of automorphisms on free groups 
 
-The braid group $B_n$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures (call it $X_n$). Meanwhile, the [[fundamental group]] $\pi_1(X_n)$ (with basepoint on the boundary) is a [[free group]] $F_n$ on $n$ generators; the functoriality of $\pi_1$ implies we have an induced homomorphism 
+The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures (call it $X_n$). Meanwhile, the [[fundamental group]] $\pi_1(X_n)$ (with basepoint on the boundary) is a [[free group]] $F_n$ on $n$ generators; the functoriality of $\pi_1$ implies we have an induced homomorphism 
 
 $$Aut(X_n) \to Aut(\pi_1(X_n)) = Aut(F_n).$$ 
 
 If an automorphism $\phi: X_n \to X_n$ is isotopic to the identity, then of course $\pi_1(\phi)$ is trivial, and so the homomorphism factors through the quotient $MCG(X_n) = Aut(X_n)/Aut_0(X)$, so we get a homomorphism 
 
-$$B_n = MCG(X_n) \to Aut(F_n)$$ 
+$$Br(n) = MCG(X_n) \to Aut(F_n)$$ 
 
 and this turns out to be an injection. 
 
@@ -388,12 +439,12 @@ $$\sigma_i(x_i) = x_{i+1}, \sigma_i(x_{i+1}) = x_{i+1}^{-1} x_i x_{i+1}, \; \els
 ###### Proposition
 **([[moduli space of monopoles]] is [[stable weak homotopy equivalence|stably weak homotopy equivalent]] to [[classifying space]] of [[braid group]])**
 
-For $k \in \mathbb{N}$ there is a [[stable weak homotopy equivalence]] between the [[moduli space of k monopoles]] (eq:ModuliSpaceOfkInstantons) and the [[classifying space]] of the [[braid group]] $Braids_{2k}$ on $2 k$ strands:
+For $k \in \mathbb{N}$ there is a [[stable weak homotopy equivalence]] between the [[moduli space of k monopoles]] (eq:ModuliSpaceOfkInstantons) and the [[classifying space]] of the [[braid group]] $Br({2k})$ on $2 k$ strands:
 
 $$
   \Sigma^\infty \mathcal{M}_k
   \;\simeq\;
-  \Sigma^\infty Braids_{2k}
+  \Sigma^\infty Br({2k})
 $$
 
 =--
@@ -445,10 +496,10 @@ Simplifying notation as before, we have generators $u,v,w$ and relations
 
 ## Surface braid groups
 
-In terms of the geometric definition above, it is possible to consider configurations of points on surfaces other than the plane, which gives rise to the more general notion of a _surface braid group_.  For example, the **Hurwitz braid group** (or **sphere braid group**) comes from considering configurations of points on the [[2-sphere]] $S^2$.  Algebraically, the Hurwitz braid group $H_{n+1}$ has all of the generators and relations of the Artin braid group $Br_{n+1}$, plus one additional relation:
+In terms of the geometric definition above, it is possible to consider configurations of points on surfaces other than the plane, which gives rise to the more general notion of a _surface braid group_.  For example, the **Hurwitz braid group** (or **sphere braid group**) comes from considering configurations of points on the [[2-sphere]] $S^2$.  Algebraically, the Hurwitz braid group $H_{n+1}$ has all of the generators and relations of the Artin braid group $Br({n+1})$, plus one additional relation:
 
 $$ 
-y_1 y_2 \dots y_{n-1} y_n^2 y_{n-1}\dots y_2 y_1
+  y_1 y_2 \dots y_{n-1} y_n^2 y_{n-1}\dots y_2 y_1
 $$
 
 
@@ -477,7 +528,7 @@ $$
 
 ### General
 
-Classical references are
+Classical references:
 
 * [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
 
@@ -516,6 +567,15 @@ On geometric presentations of braid groups:
 [[!include braid group representations -- references]]
 
 
+
+### Graph braid groups
+  {#ReferencesGraphBraidGroups}
+
+* {#FarleySabalka2009} Daniel Farley, Lucas Sabalka, *Presentations of Graph Braid Groups* ([arXiv:0907.2730](https://arxiv.org/abs/0907.2730))
+
+* Ki Hyoung Ko, Hyo Won Park,  *Characteristics of graph braid groups* ([arXiv:1101.2648](https://arxiv.org/abs/1101.2648))
+
+* {#AnMaciazek2006} Byung Hee An, Tomasz Maciazek, *Geometric presentations of braid groups for particles on a graph* ([arXiv:2006.15256](https://arxiv.org/abs/2006.15256))
 
 
 
