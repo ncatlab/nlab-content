@@ -129,7 +129,7 @@ In [[higher category theory]] the role of _$Set$_ is played for instance by
 
 category: category
 
-[[!redirects Set]]
+[[!redirects Sets]]
 [[!redirects SET]]
 [[!redirects category of sets]]
 [[!redirects the category of sets]]
