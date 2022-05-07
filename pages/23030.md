@@ -118,6 +118,8 @@ $$
 
 ## Related concepts
 
+* [[group extension]]
+
 * [[group cohomology]]
 
 * [[semidirect product group]]
