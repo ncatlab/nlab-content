@@ -13,7 +13,7 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 ### Philosophical interpretation
 
-The Transcendental Syntax starts from the strong claim that [[formal logic]] makes a lot of arbitrary choices such as the *rules of logic* (see [[deductive systems]]) and that it should be possible to study the mechanisms of reasoning without these assumptions (to which Girard refers to as "prejudices" hiding the "blind spots" of logic).
+The Transcendental Syntax starts from the strong claim that [[formal logic]] makes a lot of rather arbitrary choices such as the *rules of logic* (see [[deductive systems]]) and that it should be possible to study the mechanisms of reasoning without these assumptions (to which Girard refers to as the "prejudices" of logic).
 
 The solution presented by the Transcendental Syntax can be understood as an update of [[Kant]]'s epistemology by taking *computation* into account through recent works in [[linear logic]] and the [[Curry-Howard correspondence]]. It suggests the division of the whole logical activity into four concepts ([Girard 16](#Girard13b)):
 
@@ -22,7 +22,7 @@ The solution presented by the Transcendental Syntax can be understood as an upda
 | **A posteriori / Explicit** | Constat            | Usine                 |
 | **A priori / Implicit**     | Performance        | Usage                 |
 
-The point of view of the Transcendental Syntax is that logic studies the relationship between questions (formulas) and their answers (proofs) by means of finite objects. In order to do so with as less assumptions about logic as possible, we should start by defining the *answers*, seen as neutral and objective. Then we study the sufficient conditions making the logical concepts (proofs, formulas, logical correctness) emerge from the meaningless. In reference to [[Kant]], Girard talks about the *conditions of possibility of language*.
+The point of view of the Transcendental Syntax is that logic studies the relationship between questions (formulas) which are subjective and their answers (proofs) which are objective, by means of finite objects (because of the intuition that reasoning should be finite). In order to do so with as less assumptions about logic as possible, we should start by defining the *answers*, seen as neutral and objective. Then we study the sufficient conditions making the logical concepts (proofs, formulas, logical correctness) emerge from the meaningless. In reference to [[Kant]], Girard talks about the *conditions of possibility of language*.
 
 The **answers** corresponds to a space of computational objects called *epistates* which can be evaluated (performance) into a [[normal form]] (constat). This is the space where proofs are formulated but not yet considered logically correct.
 
@@ -32,7 +32,7 @@ The space of **questions** considers two alternative definitions of *meaning* co
 
 - the factory (usine): we want our computational objets to pass a specific set of *tests* in order to accept them in the corresponding type.
 
-This is related to the distinction between existentialism and essentialism in philosophy. The **logical certainty** corresponds to the adequacy between usine and usage: we would like the usine to be finite and sufficient to ensure what we consider a right use of epistates.
+This is related to the distinction between existentialism and essentialism in philosophy. The **logical certainty** corresponds to the adequacy between usine and usage: we would like the usine to be finite and sufficient to ensure what we consider a right use of epistates. According to Girard [Girard 16](#Girard16), the separation between constat and performance comes from the notion of undecidability (for instance through the Halting Problem) because the potential of program, for instance, cannot always be reduced to its result (which is not necessarily defined). The separation between usine and usage comes from Gödel's [[incompleteness theorem]] which intuitively mean that the possible use of a logical object may go beyond what we expect (think of Gödel formulas which are rare and not so problematic in practice).
 
 ### Technical interpretation
 
@@ -46,11 +46,11 @@ We can obtain two alternative notions of typing:
 
 - Inspired by the logical correctness of [[proof net | proof nets]], we can define a type as a finite set of tests (encoded as constellations). If a constellation passes all tests, it is considered as part of the corresponding type. This corresponds to types "à la Church" where types exist before the computational objects being typed. In the context of [[proof net | proof nets]], it corresponds to testing proof structures against correction graphs.
 
-### The blind spots of logic made computationally explicit
+### Getting rid of semantics
 
-An important ambition of the Transcendental Syntax is to make assumptions computationally explicit, to "put everything on the table". In the Transcendental Syntax, it is no more possible to write a proof as usual. A proof comes as a hybrid objects $(\Phi, \mathcal{T})$ where $\Phi$ is a constellation (elementary computational object) and $\mathcal{T}$ is a set of constellations corresponding to tests asserting the logical correctness of $\Phi$. The constellation $\Phi$ has to satisfy a given criterion of orthogonality when interacting with $\Phi' \in \mathcal{T}$, written $\Phi \bot \Phi'$. Logical objects only exist as computationally justified constructions.
+An important ambition of the Transcendental Syntax is to make assumptions computationally explicit, to "put everything on the table". In the Transcendental Syntax, it is no more possible to write a proof as usual. A proof comes as a hybrid object $(\Phi, \mathcal{T})$ where $\Phi$ is a constellation (elementary computational object) and $\mathcal{T}$ is a set of constellations corresponding to tests asserting the logical correctness of $\Phi$. The constellation $\Phi$ has to satisfy a given criterion of orthogonality when interacting with $\Phi' \in \mathcal{T}$, written $\Phi \bot \Phi'$. Logical objects only exist as computationally justified constructions.
 
-Following this approach and by choosing a right notion of orthogonality, it is possible to construct axiom-free systems. In Transcendental Syntax's fourth paper ([Girard 20](#Girard20)), Girard sketches a reconstruction of [[Peano arithmetic]].
+Following this approach and by choosing a right notion of orthogonality, it is possible to construct axiom-free systems. In Transcendental Syntax's fourth paper ([Girard 20](#Girard20)), Girard sketches a reconstruction of [[Peano arithmetic]]. An essential point which allows us to actually get rid of semantical explanation is that both tests and tested are of the same kind, have the same role and interact in a symmetric way. The "boundaries" of logic then rely on a given notion of orthogonality and not on a semantical system deciding what is logical or not.
 
 This might be compared with other approaches in [[type theory]] such as [[computational type theory]] or [[cubical type theory]] where some logical constructions are not primitive anymore but reconstructed. A major difference seems to be the starting point and the primitives considered. It is also very similar to approaches in [[realizability | classical realizability]].
 
@@ -109,4 +109,3 @@ The beginnings of an attempt to formalize Transcendental Syntax is given in
 * [[Boris Eng]], _Stellar Resolution: Multiplicatives - for the linear logician, through examples_ ([hal-02977750](https://hal.archives-ouvertes.fr/hal-02977750))
 
 [[!redirects Transcendental Syntax]]
-[[!redirects Transcendental syntax]]
