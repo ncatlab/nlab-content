@@ -34,7 +34,9 @@ Our [[galaxy]].
 
 > the Galaxy [Milky Way] is nothing else than a congeries of innumerable stars distributed in clusters. To whatever region of it you direct your spyglass, an immense number of stars immediately offer themselves to view, of which very many appear rather large and very conspicuous but the multitude of small ones is truly unfathomable.
 
-> ([[Galileo Galilei]] in _Sidereus Nuncius_ 1610, as translated in [Van Helder 1989, p. 34](#vanHelder))
+> ([[Galileo Galilei]] in _Sidereus Nuncius_ 1610, as translated in [Van Helder 1989](#vanHelder), [p. 34](http://people.reed.edu/~wieting/mathematics537/SideriusNuncius.pdf#page=35))
+
+\linebreak
 
 
 ## Related concepts
@@ -51,7 +53,7 @@ In antiquity and the middle ages:
 
 * {#Ragep93} F. J. Ragep, II.4 $[10]$ (p. 128) in: *[[Naṣīr al-Dīn al-Ṭūsī]]’s Memoir on Astronomy (al-Tadhkira fī cilm al-hay’a): Volume I: Introduction, Edition, and Translation*, Sources in the History of Mathematics and Physical Sciences 12, Springer 1993 ([doi:10.1007/978-1-4757-2241-3](https://link.springer.com/book/10.1007/978-1-4757-2241-3))
 
-* {#vanHelder} Albert Van Helden, _Sidereal Messenger_, translation of [[Galileo Galilei]], _Sidereus Nuncius_ 1610, University of Chicago Press 1989.
+* {#vanHelder} Albert Van Helden, _Sidereal Messenger_, translation of: [[Galileo Galilei]], _Sidereus Nuncius_ 1610, University of Chicago Press 1989 ([pdf](http://people.reed.edu/~wieting/mathematics537/SideriusNuncius.pdf#page=35))
 
 Modern survey
 
