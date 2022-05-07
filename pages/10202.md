@@ -162,7 +162,7 @@ For each $n$, we define a function $A_n: \mathbb{N} \to \mathbb{N}$ by
 where $f^m$ denotes the composition of $m$ copies of $f$. The **Ackermann function** $A: \mathbb{N} \to \mathbb{N}$ is defined by $A(m) = A_m(m)$. 
 =-- 
 
-(The function is named after [[Wilhelm Ackermann]]. There are several variations of this function around, and one common version actually puts $A_0(m)=m+1$ and $A_{n+1}(m)=(A_n)^m(f(1)).)
+(The function is named after [[Wilhelm Ackermann]]. There are several variations of this function around, and one common version actually puts $A_0(m)=m+1$ and $A_{n+1}(m)=(A_n)^m(f(1))$.)
 
 We show that while each $A_n$ is primitive recursive, the function $A$ grows faster than any primitive recursive function on $\mathbb{N}$, hence is not itself primitive recursive. It does however belong to the class of partial recursive functions. 
 
