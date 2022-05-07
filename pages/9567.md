@@ -29,7 +29,13 @@ An (ordinary) __series__ $\sum_{n=0}^\infty a_n$ whose members are the elements 
 
 ### As an operator
 
-For any group or semigroup $G$, one should be able to define a series as an sequence $a:N \to G$ with an [[operator]] $\sum_{n:N} (-)(n) : (N \to G) \to (N \to G)$ over the [[function algebra|function $G$-module]] $N \to G$. 
+For any group or semigroup $G$, one should be able to define a series as an sequence $a:\mathbb{N} \to G$ with an [[operator]] 
+
+$$\sum_{n=0}^\infty (-)(n) : (\mathbb{N} \to G) \to (\mathbb{N} \to G)$$
+
+over the [[function algebra|function $G$-module]] $\mathbb{N} \to G$, such that [[currying]] the operator results in the partial sum $\mathbb{N}$-[[action]] 
+
+$$\sum_{n=0}^{(-)} (-)(n) : (\mathbb{N} \to G) \times \mathbb{N} \to G$$
 
 ## Internalisation
 
@@ -47,7 +53,7 @@ The most straightforward notion of the **sum** of a series is the [[limit of a s
 
 * [[Taylor series]]
 
-* The formal [[e]], $e = \sum_{n:\mathbb{N}} \frac{1}{n!}$, where $\frac{1}{(-)!}:\mathbb{N}\to \mathbb{Q}$
+* The formal [[e]], $e = \sum_{n=0}^\infty \frac{1}{n!}$, where $\frac{1}{(-)!}:\mathbb{N}\to \mathbb{Q}$
 
 ## Related concepts
 
