@@ -73,7 +73,7 @@ where $J^1(E) = (E\otimes\Omega_X^1)\oplus E$ as a $\mathbb{C}$-module, but with
 $$
   f(s\otimes\omega,t)
   =
-  (f s\otimes\omega+t\otimes\mathrm{d}f, t).
+  (f s\otimes\omega+t\otimes\mathrm{d}f, f t).
 $$
 
 The extension class $[J^1(E)]\in\mathrm{Ext}_{\mathcal{O}_X}^1(E,E\otimes\Omega_X^1)$ of this exact sequence is called the Atiyah class of $E$, and is somewhat equivalent to the first Chern class of $E$.
