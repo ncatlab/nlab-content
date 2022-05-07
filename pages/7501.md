@@ -9,18 +9,20 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-In the context of [[factorization systems]] such as they appear notably in [[enriched model category]] one frequently needs to handle iterated [[lifting problems]]. In the appendix of ([Joyal--Tierney, 06](#JoyalTierney)) a symbolic calculus is introduced to facilitate these computations. 
+In the context of [[factorization systems]] such as they appear notably in [[enriched model category]] one frequently needs to handle iterated [[lifting problems]]. In the appendix of ([Joyal--Tierney, 06](#JoyalTierney)) a symbolic calculus is introduced to facilitate these computations.
 
 A central point of it is to have the statement of prop. \ref{IteratedLifting} below be easily expressible in terms of "division on both sides"-operations.
 
 
 ## The calculus
+ {#TheCalculus}
 
 ### Lifting
 
@@ -32,7 +34,7 @@ Let $\mathcal{E}$ be a [[category]] ([[locally small category|locally small]]).
 For $f, g \in Mor(\mathcal{E})$, write
 
 $$
-  f \pitchfork g
+  f \,&solb;\, g
 $$
 
 if $f$ has the [[left lifting property]] against $g$, or equivalently if $g$ has the [[right lifting property]] against $f$.
@@ -40,7 +42,7 @@ if $f$ has the [[left lifting property]] against $g$, or equivalently if $g$ has
 For $S \in \mathcal{E}$ an [[object]], write
 
 $$
-  f \pitchfork S
+  f \,&solb;\, S
 $$
 
 to indicate that for the morphism $f : X \to Y$ the induced [[hom set]] morphism
@@ -52,29 +54,29 @@ $$
 is surjective, dually for
 
 $$
-  S \pitchfork f
+  S \,&solb;\, f
   \,.
 $$
 
 In the case that $\mathcal{E}$ has a [[terminal object]] $*$ we have equivalently
 
 $$
-  f \pitchfork S 
-  \;\;\Leftrightarrow\;\; 
-  f \pitchfork (S \to *)
+  f \,&solb;\, S
+  \;\;\Leftrightarrow\;\;
+  f \,&solb;\, (S \to *)
 $$
 
-and if $\mathcal{E}$ has an [[initial object]] $\emptyset$ we have equivalently 
+and if $\mathcal{E}$ has an [[initial object]] $\emptyset$ we have equivalently
 
 $$
-  S \pitchfork f 
+  S \,&solb;\, f
   \;\;\Leftrightarrow \;\;
-  (\emptyset \to S) \pitchfork f
+  (\emptyset \to S) \,&solb;\, f
   \,.
 $$
 
-Accordingly, for $Q \subset Mor(\mathcal{E})$ write 
-${}^{\pitchfork}Q$ and $Q^{\pitchfork}$ for the class of morphisms with left or right lifting property against all elements of $Q$, respectively.
+Accordingly, for $Q \subset Mor(\mathcal{E})$ write
+${}^{&solb;}Q$ and $Q^{&solb;}$ for the class of morphisms with left or right lifting property against all elements of $Q$, respectively.
 
 =--
 
@@ -84,11 +86,11 @@ ${}^{\pitchfork}Q$ and $Q^{\pitchfork}$ for the class of morphisms with left or 
 If $(L \dashv R) : \mathcal{E} \to \mathcal{F}$ is a pair of [[adjoint functors]], then
 
 $$
-  f \pitchfork R(g)
+  f \,&solb;\, R(g)
   \;\;
   \Leftrightarrow
   \;\;
-  L(f) \pitchfork g
+  L(f) \,&solb;\, g
 $$
 
 =--
@@ -96,11 +98,11 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-A pair of classes of morphisms $(L,R)$ in $\mathcal{E}$ is a _[[weak factorization system]]_ precisely if 
+A pair of classes of morphisms $(L,R)$ in $\mathcal{E}$ is a _[[weak factorization system]]_ precisely if
 
 1. every morphism in $\mathcal{E}$ factors as the [[composition]] of a morphism in $L$ followed by a morphism in $R$;
 
-1. $R = L^\pitchfork$ and $L = {}^\pitchfork R$.
+1. $R = L^{&solb;}$ and $L = {}^{&solb;} R$.
 
 =--
 
@@ -164,11 +166,11 @@ $$
 For every $f \in Mor(\mathcal{E}_1)$, $g \in Mor(\mathcal{E}_2)$ and $X \in \mathcal{E}_3$ we have
 
 $$
-  f \pitchfork (X/g)
+  f \,&solb;\, (X/g)
   \;\;
   \Leftrightarrow
   \;\;
-  g \pitchfork (f \backslash X)
+  g \,&solb;\, (f \backslash X)
   \,.
 $$
 
@@ -236,18 +238,18 @@ If in the above situation $\mathcal{E}_1$ and $\mathcal{E}_2$ have [[finite limi
 
 1. for $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_3$, the left quotient is
 
-   $$  
-     f \bar \backslash g 
-     \;\colon\; 
+   $$
+     f \bar \backslash g
+     \;\colon\;
      B \backslash X \to B \backslash Y \times_{A \backslash Y} A \backslash X
      \,;
    $$
 
 1. for $f : S \to T$ in $\mathcal{E}_2$ and $g : X \to Y$ in $\mathcal{E}_3$, the right quotient is
 
-   $$  
-      g \bar / f 
-      \;\colon\; 
+   $$
+      g \bar / f
+      \;\colon\;
       X / T \to Y / T \times_{Y / S} X / S
      \,;
    $$
@@ -262,15 +264,15 @@ A key statement now is the following, characterizing the [[right lifting propert
 In the above situation, let $\mathcal{E}_1$, $\mathcal{E}_2$, $\mathcal{E}_3$ have all [[finite limit|finite]] [[limits]] and [[colimits]]. For all $u \in Mor(\mathcal{E}_1)$, $v \in Mor(\mathcal{E}_2)$, $f \in Mor(\mathcal{E}_3)$ we have
 
 $$
-  (u \bar \otimes v) \pitchfork f
+  (u \bar \otimes v) \,&solb;\, f
   \;\;
   \Leftrightarrow
   \;\;
-  u \pitchfork f \bar /v
+  u \,&solb;\, f \bar /v
   \;\;
   \Leftrightarrow
   \;\;
-  v \pitchfork u \bar \backslash f
+  v \,&solb;\, u \bar \backslash f
   \,.
 $$
 
@@ -301,7 +303,7 @@ $$
 Write
 
 $$
-  \otimes : [\Delta, Set] \times [\Delta^{op}, \mathcal{E}] \to\mathcal{E} 
+  \otimes : [\Delta, Set] \times [\Delta^{op}, \mathcal{E}] \to\mathcal{E}
 $$
 
 for the functor given by the [[coend]]
@@ -318,7 +320,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The functor $\Box$ is divisible on both sides. 
+The functor $\Box$ is divisible on both sides.
 
 Let $X \in [\Delta^{op}, sSet]$. Then
 
@@ -352,8 +354,8 @@ Let $f : X \to Y$ be a morphism in $[\Delta^{op}, sSet]$. Then
 
 ## References
 
-* [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
- {#JoyalTierney}
+* {#JoyalTierney} [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+ 
 
 
 [[!redirects Joyal-Tierney calculus]]
