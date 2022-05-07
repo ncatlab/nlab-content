@@ -44,6 +44,9 @@ Introducing the [[Einstein-Podolsky-Rosen paradox]] concerning [[quantum entangl
 
 * {#EPR} [[Albert Einstein]], [[Boris Podolsky]], [[Nathan Rosen]], _Can the Quantum-Mechanical Description of Physical Reality be Considered Complete?_ Physical Review 47 (10): 777&#8211;780. (1935) ([doi:10.1103/PhysRev.47.777](https://doi.org/10.1103/PhysRev.47.777))
 
+## Further selected writings
+
+* [[Albert Einstein]], *Why Socialism?*, Monthly Review 1949 ([web version](https://monthlyreview.org/2009/05/01/why-socialism/), [Wikipedia entry](https://en.wikipedia.org/wiki/Why_Socialism%3F))
 
 
 category: people
