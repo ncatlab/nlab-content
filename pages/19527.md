@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,7 +40,12 @@ The [[metric]] induced from corresponding [[graph distance]] is also called the 
 ### For the symmetric group
 
 \begin{example}
- The [[symmetric group]] $Sym(n)$ may be [[finitely generated group|generated]] from the *adjacent* [[transpositions]]. The corresponding Cayley [[graph distance]] is known as the *[[Kendall tau distance]]*.
+The [[symmetric group]] $Sym(n)$ may be [[finitely generated group|generated]] from 
+
+* all [[transposition permutations]] -- the corresponding Cayley [[graph distance]] is the original *[[Cayley distance]]*;
+
+* the *adjacent* [[transpositions]] -- the corresponding Cayley [[graph distance]] is known as the *[[Kendall tau distance]]*.
+
 \end{example}
 
 
