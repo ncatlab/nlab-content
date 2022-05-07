@@ -283,7 +283,7 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
     h k TopSp
   $$
 \end{prop}
-(e.g. [Strickland 2009, Prop. 1.7](compactly+generated+topological+space#Strickland09))
+([Dugundji 1966, XI Thm. 9.3](#Dugundji66); [Strickland 2009, Prop. 1.7](compactly+generated+topological+space#Strickland09))
 
 \begin{prop}
   The [[product topological space]] of a [[locally compact Hausdorff space]] with a k-space is already a k-space (i.e. without need of k-ification).
@@ -294,7 +294,7 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 \begin{proposition}
   A [[Hausdorff space]] is a [[k-space]] iff it is a [[quotient topological space]] of a [[locally compact Hausdorff space]].
 \end{proposition}
-([Piccinini 92, Thm. B.4](#Piccinini92))
+([Dugundji 1966, XI Thm. 9.4](#Dugundji66); [Piccinini 92, Thm. B.4](#Piccinini92))
 
 
 
@@ -364,7 +364,7 @@ Early textbook accounts assuming the Hausdorff condition:
 
 * {#Kelley55} [[John Kelley]], p. 230 in: _General topology_, D. van Nostrand, New York 1955, reprinted as: Graduate Texts in Mathematics, Springer 1955 ([ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251))
 
-* [[James Dugundji]], Section XI.9 of: *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
+* {#Dugundji66} [[James Dugundji]], Section XI.9 of: *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], sections I.1.5.3 and III.2 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/GZ.pdf))
 
