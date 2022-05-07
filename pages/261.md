@@ -294,6 +294,10 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 ## References
 
+The original definition is due to Eilenberg and Zilber, see §8 in
+
+* [[Samuel Eilenberg]], [[Joseph A. Zilber]], _Semi-simplicial complexes and singular homology_, Annals of Mathematics 51:3 (1950), 499--513.
+
 A pedagogical introduction to simplicial sets is
 
 * {#Friedman08} Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221))
@@ -302,13 +306,13 @@ A very clear and explicit exposition on the basics of simplicial sets is
 
 * [[Emily Riehl]], _A leisurely introduction to simplicial sets_, 2008, 14 pages ([pdf](http://www.math.jhu.edu/~eriehl/ssets.pdf)).
 
-Another clear exposition is in the classic
+Another exposition is in Chapter II of
 
 * [[Pierre Gabriel]], [[Michel Zisman]], [[Calculus of fractions and homotopy theory]].
 
 A useful (if old) survey article is: 
 
-*  Edward B. Curtis, _Simplicial homotopy theory_, Advances in Math., __6__ (1971) 107 &#8211; 209 [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808) <a href="http://dx.doi.org/10.1016/0001-8708(71)90015-6">doi</a>
+*  Edward B. Curtis, _Simplicial homotopy theory_, Advances in Math., __6__ (1971) 107–209 [MR279808](http://www.ams.org/mathscinet-getitem?mr=279808) <a href="http://dx.doi.org/10.1016/0001-8708(71)90015-6">doi</a>
 
 More advanced treatments include 
 
@@ -322,16 +326,20 @@ Some more facts about homotopical aspects of simplicial sets are discussed in se
 
 category: topology
 
+category: simplicial object
+
 [[!redirects simplicial sets]]
 
 [[!redirects cosimplicial set]]
 [[!redirects cosimplicial sets]]
 
-[[!redirects face map]]
 [[!redirects boundary map]]
-[[!redirects degeneracy map]]
-[[!redirects face maps]]
 [[!redirects boundary maps]]
+[[!redirects face map]]
+[[!redirects face maps]]
+[[!redirects degeneracy map]]
 [[!redirects degeneracy maps]]
-
-category : simplicial object
+[[!redirects coface map]]
+[[!redirects coface maps]]
+[[!redirects codegeneracy map]]
+[[!redirects codegeneracy maps]]
