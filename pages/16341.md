@@ -179,6 +179,11 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 
 See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
 
+In [[cartesian monoidal categories]]:
+
+* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
+
 [[!redirects monoids in a monoidal category]]
 [[!redirects monoids in monoidal categories]]
 
