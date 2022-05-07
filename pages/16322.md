@@ -96,9 +96,9 @@ Dana Scott's original work on lattice models of the lambda calculus can be found
 
 * {#Scott70} Dana Scott. Outline of a Mathematical Theory of Computation. In _4th Annual Princeton Conference on Information Sciences and Systems_, pages 169-176, 1970. ([pdf](https://ropas.snu.ac.kr/~kwang/520/readings/sco70.pdf))
 
-* {#Scott72} Dana Scott. Continuous Lattices. _Toposes, Algebraic Geometry and Logic_ (ed.: E. Lawvere), pages 97-136, 1972. ([pdf](https://www.cs.ox.ac.uk/files/3229/PRG07.pdf))
+* {#Scott72} Dana Scott. Continuous Lattices. _Toposes, Algebraic Geometry and Logic_ (ed.: E. Lawvere), pages 97-136, Lecture Notes in Mathematics, vol 274. 1972. doi:[10.1007/BFb0073967](https://doi.org/10.1007/BFb0073967)  ([pdf](https://www.cs.ox.ac.uk/files/3229/PRG07.pdf))
 
-* {#Scott76} Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976. ([pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf))
+* {#Scott76} Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976. doi:[10.1137/0205037](https://doi.org/10.1137/0205037) ([pdf](https://www.cs.ox.ac.uk/files/3287/PRG05.pdf))
 
 Scott made the underlying categorical structure explicit in a later paper, where he introduced the definition of a reflexive object in a ccc, and proved a representation theorem for theories of pure lambda calculus:
 
@@ -106,7 +106,7 @@ Scott made the underlying categorical structure explicit in a later paper, where
 
 For a modern analysis of Scott's representation theorem, see:
 
-* {#Hyland13} [[Martin Hyland]]. _Classical lambda calculus in modern dress_ Mathematical Structures in Computer Science, 27(5) (2017) 762-781. doi:[10.1017/S0960129515000377](). [arxiv:1211.5762](http://arxiv.org/abs/1211.5762)
+* {#Hyland13} [[Martin Hyland]]. _Classical lambda calculus in modern dress_ Mathematical Structures in Computer Science, 27(5) (2017) 762-781. doi:[10.1017/S0960129515000377](https://doi.org/10.1017/S0960129515000377). [arxiv:1211.5762](http://arxiv.org/abs/1211.5762)
 
 * {#Hyland14} [[Martin Hyland]], _Towards a Notion of Lambda Monoid_ , Electronic Notes in Theoretical Computer Science **303** (2014) pp.59-77, doi:[10.1016/j.entcs.2014.02.004](https://doi.org/10.1016/j.entcs.2014.02.004)
 
