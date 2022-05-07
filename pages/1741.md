@@ -43,7 +43,7 @@ Conversely, give a functor $F^*: B^{op} \to Set$, define a category $C$ and a di
 
 *  Let $C$ be the [[category of elements]] of the functor $F$; that is:
    *  an object of $C$ is a pair consisting of an object $x$ of $B$ and an element of $F^*(x)$,
-   *  a morphism from $(x,a)$ to $(y,b)$ in $C$ is a morphism $g: x \to y$ in $B$ such that $F^*(g)$ assigns $b$ to $a$.
+   *  a morphism from $(x,a)$ to $(y,b)$ in $C$ is a morphism $g: x \to y$ in $B$ such that $F^*(g)$ maps $b$ to $a$.
 *  The functor from $C$ to $B$ is the obvious [[forgetful functor]].
 
 
