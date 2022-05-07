@@ -18,6 +18,11 @@ Beware the existence of a book of similar title, by the same author and largely 
 
 * [[Tammo tom Dieck]], _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
+See also 
+
+* {#Bredon72} [[Glen Bredon]], *[[Introduction to compact transformation groups]]*, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)
+, [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
 
 \linebreak
 
