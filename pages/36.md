@@ -65,7 +65,7 @@ Like [[vertical categorification|categorification]] or [[horizontal categorifica
 
 ## Internalization versus enrichment
 
-In the case of categories, there is a dichotomy between [[internal category|internal categories]] and [[enriched category|enriched categories]], both of which are ways of generalizing the notion of category.  In some cases, one is a special case of the other, but in general they are incomparable.
+In the case of categories, there is a dichotomy between [[internal category|internal categories]] and [[enriched category|enriched categories]], both of which are ways of generalizing the notion of category, according to whether it is [defined](category#definitions) by a single collection of all morphisms or by several collections of morphisms, a family of collections indexed by pairs of objects.  In some cases, one of these generalizations is a special case of the other, but in general they are incomparable.
 
 As described on this page, __internalization__ is a quite general phenomenon, of which internal categories are a particular case. However, the distinction between "internalization" and "enrichment" becomes less clear in generality.  For example, in addition to categories enriched over a monoidal category, one can define categories enriched over a [[bicategory]] or an [[virtual double category]]. It then turns out that a category enriched over the bicategory (or virtual double category) of [[span|spans]] in a lex category $C$ _which has one object_ is precisely an _internal_ category in $C$.
 
