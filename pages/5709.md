@@ -1295,9 +1295,9 @@ Based on this, one argues to obtains an effective approximation to a given more 
 [[!include effective field theories of nuclear physics -- contents]]
 
 
-### Heavy quark effective field theory
+### In lattice QCD
 
-(...)
+In [[lattice QCD]]: see _[[Symanzik effective field theory]]_
 
 ### Neutrino masses (?)
 
