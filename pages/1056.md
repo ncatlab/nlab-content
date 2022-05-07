@@ -116,7 +116,7 @@ we get an isomorphism $N(C)^{op} \cong hocolim(1)$.
 
 The original reference is
 
-*  {#Thomason} [[Robert Thomason|R. W. Thomason]], _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) <a href="http://archive.numdam.org/article/CTGDC_1980__21_3_305_0.pdf">numdam scan</a>
+*  {#Thomason} [[Robert Thomason|R. W. Thomason]], _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle **21**, no. 3 (1980), pp. 305--324. MR0591388 (82b:18005) ([numdam:CTGDC_1980__21_3_305_0](http://www.numdam.org/item/?id=CTGDC_1980__21_3_305_0))
 
 A correction to this article was made in
 
