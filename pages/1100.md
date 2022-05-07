@@ -437,28 +437,19 @@ should be.
 
 ## Related concepts
 
-* [[(0,1)-topos]]
+* [[elementary (∞,1)-topos]], [[(∞,1)-pretopos]]
 
+* [[model topos]]
 
-* [[topos]]
+* [[structured (∞,1)-topos]]
 
-* [[2-topos]]
-
-* **$(\infty,1)$-topos**, [[elementary (∞,1)-topos]], [[(∞,1)-pretopos]]
-
-  * [[model topos]]
-
-  * [[(n,1)-topos]]
-
-  * [[structured (∞,1)-topos]]
-
-  * [[compact topos]], [[coherent (∞,1)-topos]]
+* [[compact topos]], [[coherent (∞,1)-topos]]
 
 * [[category object in an (∞,1)-topos]]
 
-* [[(∞,2)-topos]]
 
-* [[(∞,n)-topos]]
+[[!include flavors of higher toposes -- list]]
+
 
 
 
