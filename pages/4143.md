@@ -30,7 +30,7 @@ $$
   1 \to \mathbb{K}^\times \longrightarrow GL(V) \longrightarrow PGL(V)\to 1
 $$
 
-which exhibits $GL(V)$ as a [[group extension]] of $PGl(V)$ by the [[group of units]] $\mathbb{K}^\times$ of the [[ground field]]. This is classified by a 2-[[cocycle]] $c$ in [[group cohomology]] $H^2_{Grp}(PGL(V),\mathbb{K}^\times)$. 
+which exhibits $GL(V)$ as a [[group extension]] of $PGL(V)$ by the [[group of units]] $\mathbb{K}^\times$ of the [[ground field]]. This is classified by a 2-[[cocycle]] $c$ in [[group cohomology]] $H^2_{Grp}(PGL(V),\mathbb{K}^\times)$. 
 
 It is useful to re-express this equivalently in terms of [[homotopy theory]] via the discussion at [[looping and delooping]], by which [[group]] [[homomorphisms]] $\phi \colon G\longrightarrow H$ are equivalently maps $\mathbf{B}\phi \colon \mathbf{B}G\longrightarrow \mathbf{B}H$ between their [[delooping]] [[groupoids]].
 
