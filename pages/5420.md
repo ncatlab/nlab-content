@@ -79,6 +79,10 @@ with an alternative proof for [[MU]]$\to$[[KU]] in:
 
 * {#ConnerSmith69} [[Pierre Conner]], [[Larry Smith]], Theorem 9.1 in: _On the complex bordism of finite complexes_, Publications Mathématiques de l'IHÉS, Tome 37 (1969) , pp. 117-221 ([numdam:PMIHES_1969__37__117_0](http://www.numdam.org/item/?id=PMIHES_1969__37__117_0))
 
+Review:
+
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Theorem 6.35 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+
 See also:
 
 * Gerhard Wolff, _Der Einfluss von $K^{\ast} (-)$ auf $U^{\ast} (-)$_, Manuscripta Math. __10__ (1973), 141&#8211;-161 ([doi:10.1007/BF01475039](https://doi.org/10.1007/BF01475039))
