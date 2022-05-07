@@ -127,7 +127,7 @@ and in this framework one could go on to consider $P$-bialgebras, etc. I think t
 
 Thus to be able to consider *arbitrary* Lawvere theories we need to be in the intersection of $C^{\operatorname{sym}}$ and $C^{\operatorname{co}}$.  However, there are many Lawvere theories that do not need such structure.  Accordingly we can interpose a finer classification on Lawvere theories according to whether or not they need the symmetric or comonoid structure.
 
-If one is given a presentation of a Lawvere theory in terms of operations and identities, it is quite simple to identify what level of structure it requires.  The key is to look at the identities and express them in terms of elements (this is, of course, [[evil]]).  An identity consists of two ways of applying operations starting with an ordered list of _distinct_ elements.
+If one is given a presentation of a Lawvere theory in terms of operations and identities, it is quite simple to identify what level of structure it requires.  The key is to look at the identities and express them in terms of elements (this, of course, violates the [[principle of equivalence]]).  An identity consists of two ways of applying operations starting with an ordered list of _distinct_ elements.
 
 1. If an identity involves changing the order of the elements, it needs the symmetric structure.
 2. If an identity involves duplicating an element, it needs the diagonal structure.
