@@ -283,7 +283,7 @@ then an [[abelian group]] $A$ is an injective object in [[Ab]] precisely if it i
 This follows for instance using [[Baer's criterion]], prop. \ref{BaerTheorem}.
 
 An explicit proof is spelled out at 
-[Planet math -- abelian group is divisible if and only if it is an injective object](http://planetmath.org/AbelianGroupIsDivisibleIfAndOnlyIfItIsAnInjectiveObject.html)
+[Planet math -- abelian group is divisible if and only if it is an injective object](https://planetmath.org/abeliangroupisdivisibleifandonlyifitisaninjectiveobject)
 
 
 +-- {: .num_example}
