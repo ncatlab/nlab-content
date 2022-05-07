@@ -104,7 +104,7 @@ Alternative detection channel:
 
 As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
-* {#BauerNeubert16} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
+* {#BauerNeubert16} Martin Bauer, [[Matthias Neubert]], _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
 
 * {#CCDM16} Estefania Coluccio Leskow, [[Andreas Crivellin]], Giancarlo D'Ambrosio, Dario Müller, _$(g-2)_\mu$, Lepton Flavour Violation and Z Decays with Leptoquarks: Correlations and Future Prospects_, Phys. Rev. D 95, 055018 (2017) ([arXiv:1612.06858](https://arxiv.org/abs/1612.06858))
 
@@ -138,7 +138,7 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#MVT19} Ivo de Medeiros Varzielas, Jim Talbert, _Simplified Models of Flavourful Leptoquarks_ ([arXiv:1901.10484](https://arxiv.org/abs/1901.10484))
 
-* Michael J. Baker, Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
+* Michael J. Baker, [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias König]], _High-pT Signatures in Vector-Leptoquark Models_ ([arXiv:1901.10480](https://arxiv.org/abs/1901.10480))
 
 * Natascia Vignaroli, _Seeking leptoquarks in the $t \bar t$ plus missing energy channel at the high-luminosity LHC_ ([arXiv:1808.10309](https://arxiv.org/abs/1808.10309))
 
@@ -160,7 +160,7 @@ As a potential solution of the apparent [[B meson]] [[flavour anomaly]]:
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
-* Javier Fuentes-Martin, [[Gino Isidori]], Matthias König, Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
+* [[Javier Fuentes-Martin]], [[Gino Isidori]], [[Matthias König]], Nudzeim Selimovic, _Vector Leptoquarks Beyond Tree Level_ ([arxiv:1910.13474](https://arxiv.org/abs/1910.13474))
 
 * J. Kriewald, C. Hati, J. Orloff, A. M. Teixeira, _A combined explanation of the B-meson decay anomalies with a single vector leptoquark_ ([arXiv:2012.06315](https://arxiv.org/abs/2012.06315))
 
