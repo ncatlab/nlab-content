@@ -145,7 +145,7 @@ $G \,\in\, Grp(FinSet) \xhookrightarrow{\;} Grp(TopSp)$.
 
 * The [[projective unitary group]] on a [[complex vector space|complex]] [[separable Hilbert space]],  $\Gamma \,=\,$ [[PU(ℋ)]], is [[homotopy n-type|n-truncated]] for $n \geq 2$.)
 
-Hence for both of these [[structure groups]], the 7-dimensional spherical space forms discussed [above](#7DSphericalSpaceFormsWithSpinStructure) satisfy the conditions of Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}.
+Hence for both of these [[structure groups]], the 7-dimensional spherical space forms discussed [above](#7DSphericalSpaceFormsWithSpinStructure) satisfy Assumption \ref{AssumptionForHigherGerbesOnSphericalSpaceForms}.
 \end{example}
 
 \begin{definition}
@@ -210,7 +210,7 @@ Notice, as indicated in the last row of (eq:TheTopologicalDeloopingGroupoidOfGam
 **(canonical [[Cech groupoid]] of $\Gamma$-[[principal bundles]] on [[spherical space form]])**
 \linebreak
   Under the truncation condition (eq:GammaIsNTruncated), 
-  the [[groupoid]] of $\Gamma$-[[principal bundles]]  over $S^{n+2}/G$ ([[internalization|internal to]] [[TopSp]]) is [[equivalence of groupoids|equivalent]] to the groupoid of [[topological functors]] out of the [[action groupoid]] (eq:TheTopologicalActionGroupoid) into the [[delooping groupoid]] (eq:TheTopologicalDeloopingGroupoidOfGamma), with [[continuous functions|continuous]] [[natural transformations]] between them:
+  the [[groupoid]] of $\Gamma$-[[principal bundles]]  over $S^{n+2}/G$ ([[internalization|internal to]] [[TopSp]]) is [[equivalence of groupoids|equivalent]] to the groupoid of [[topological functors]] out of the [[action groupoid]] into the [[delooping groupoid]] (eq:TheTopologicalDeloopingGroupoidOfGamma), with [[continuous functions|continuous]] [[natural transformations]] between them:
 $$
   \Gamma PrnBdl(TopSp)_{S^{n+2}/G}
   \;\;
@@ -614,158 +614,313 @@ from a bundle $P_0\vert_0$ to a bundle $P_1\vert_1$ over $S^{n+2}/G$ is a diagra
     S^{n+2}/G \times \{1\}
     \ar[l, hook']
 \end{tikzcd}
+\end{example}
 
-More specifically, by the use of Lem. \ref{CanonicalCechGroupoidOfGammaPrincipalBundlesOnSphericalSpaceForm} all bundles here are identified with their [[Cech cohomology|Cech cocyles]] $\big(  (S^{n+2} \times G \rightrightarrows S^{n+2}) \xrightarrow{\;c_1\;} (\Gamma \rightrightarrows \ast)\big)$ and all bundle morphisms with [[Cech cohomology|Cech]] [[coboundaries]], which are [[continuous functions]]
-
+\begin{lemma}
+\label{ThePresentationsForShapesOfMappingStacksAreKanComplexes}
+  The simplicial set presentations for shapes of mapping stacks in Def. \ref{ShapesOfMappingStacks} have at least all 2-[[horn]] fillers.
+\end{lemma}
+\begin{proof}
+It is useful to denote a 1-morphism
 $$
-  c_1 \xrightarrow{\; \gamma \;} c'_1
-  \;\;\;\;\;\;\;
-  \Leftrightarrow
-  \;\;\;\;\;\;\;
-  \gamma \colon S^{n+2} \xrightarrow{cts} \Gamma
+  \big(
+    c(-)
+    \xrightarrow{\; \gamma(-) \;} 
+    c'(-)
+  \big)
+  \;\;\;
+  \in
+  \;
+  TopFunc
+  \Big(
+    (S^{n+2} \times G \rightrightarrows S^{n+2})
+    \times [0,1]
+    ,\,
+    (\Gamma \rightrightarrows \ast)
+  \Big)
   \,,
-  \underset{x \in S^{n+2}}{\forall}
-  \,
-  c'_1( x,\, g ) 
-    \;=\; 
-  Ad_{\gamma(x)} c_1(x,g)
-  \,\coloneqq\,
-  \gamma(x)^{-1} \cdot c_1( x, \, g ) \cdot \gamma(x)
+$$
+namely a $[0,1]$-parameterized Cech coboundary
+$$
+  \gamma(-)
+    \colon 
+  [0,1] 
+    \xrightarrow{\;}  
+  Maps
+  \big(
+    S^{n+2}
+    ,\, 
+    \Gamma
+  \big)
+  \;\;\;
+  \text{s.t.}
+  \;\;\;
+  \underset{ (t,x) \in [0,1] \times S^{n+2}}{\forall}
+  \left(
+  \begin{aligned}
+    c'(t)(x,\, g ) 
+    &
+      \;=\; 
+    c(t)(x,g)^{\gamma(t)(x)}
+    \\
+    &
+    \,\coloneqq\,
+    (\gamma(t)(x))^{-1} 
+      \cdot 
+    c(t)(x, g) 
+     \cdot 
+    \gamma(t)(x)
+  \end{aligned}
+  \right)
   \,.
 $$
+as follows:
 
-In these terms we may denote these 1-morphisms like this:
-
-\begin{tikzcd}[row sep=8pt, column sep=30pt]
-    {c(0)}
-    \ar[r, "{\gamma(0)}"{description}]
+\begin{tikzcd}[row sep={between origins, 60pt}, column sep={between origins, 60pt}]
+    c(0)
+    \ar[rr, "{\gamma(0)}"{description, pos=.6}]
     \ar[d,-, dotted]
     &
-    {\mathrm{Ad}_{\gamma(0)}c(0)}
+    {}
+    \ar[d,-, dotted]
+    &
+    c(0)^{\gamma(0)}
     \ar[d,-, dotted]
     \\
-    {c(t)}
-    \ar[r, "{\gamma(t)}"{description}]
+    c(t)
+    \ar[rr, "{\gamma(t)}"{description, pos=.6}]
     \ar[d,-, dotted]
     &
-    {\mathrm{Ad}_{\gamma(t)}c(t)}
+    {}
+    \ar[d,-, dotted]
+    &
+    c(t)^{\gamma(t)}    
     \ar[d,-, dotted]
     \\
-    {c(1)}
-    \ar[r, "{\gamma(1)}"{description}]
-    &
-    {\mathrm{Ad}_{\gamma(1)}c(1)}
+    c(1)
+    \ar[rr, "{\gamma(1)}"{description, pos=.6}]
+    &{}&
+    c(1)^{\gamma(1)}
 \end{tikzcd}
 
-Then a pair of composable 1-morphisms looks like this:
+Then a pair of composable 1-morphisms, hence a $\Lambda^2_1$-[[horn]], looks like this:
 
-\begin{tikzcd}[row sep=8pt, column sep=30pt]
-    {c(0)}
-    \ar[r, "{\gamma(0)}"{description}]
+\begin{tikzcd}[row sep={between origins, 60pt}, column sep={between origins, 60pt}]
+    c(0)
+    \ar[rr, "{\gamma(0)}"{description, pos=.6}]
     \ar[d,-, dotted]
     &
-    {\mathrm{Ad}_{\gamma(0)}c(0)}
+    {}
+    \ar[d,-, dotted]
+    &
+    c(0)^{\gamma(0)}
     \ar[d,-, dotted]
     \\
-    {c(t)}
-    \ar[r, "{\gamma(t)}"{description}]
+    c(t)
+    \ar[rr, "{\gamma(t)}"{description, pos=.6}]
     \ar[d,-, dotted]
     &
-    {\mathrm{Ad}_{\gamma(t)}c(t)}
+    {}
+    \ar[d,-, dotted]
+    &
+    c(t)^{\gamma(t)}
     \ar[d,-, dotted]
     \\
-    {c(1)}
-    \ar[r, "{\gamma(1)}"{description}]
-    &
-    {\mathrm{Ad}_{\gamma(1)}c(1)}
-    \ar[r,-, shift left=1pt]
-    \ar[r,-, shift right=1pt]
-    &[-24pt]
-    {c'(0)}
-    \ar[r, "{\gamma'(0)}"{description}]
-    \ar[d,-, dotted]
-    &
-    {\mathrm{Ad}_{\gamma'(0)}c'(0)}
-    \ar[d,-, dotted]
-    \\
-    &&
-    {c'(t')}
-    \ar[r, "{\gamma'(t')}"{description}]
-    \ar[d,-, dotted]
-    &
-    {\mathrm{Ad}_{\gamma'(t')}c'(t')}
-    \ar[d,-, dotted]
-    \\
-    &&
-    {c'(1)}
-    \ar[r, "{\gamma'(1)}"{description}]
-    &
-    {\mathrm{Ad}_{\gamma'(1)}c'(1)}    
-\end{tikzcd}
-
-For any such we may form the following composable pair of morphisms of cocycles over $S^{n+2}/G \times ( [0,1] \underset{\ast}{\sqcup} [0,1]  )$
-
-\begin{tikzcd}
-    {c(0)}
-    \ar[r, "{\gamma(0)}"]
-    \ar[d,-, dotted]
-    &
-    {\mathrm{Ad}_{\gamma(0)}c(0)}
-    \ar[d,-, dotted]
-    \ar[rr, "\gamma'(0)"]
+    c(1)
+    \ar[rr, "{\gamma(1)}"{description, pos=.6}]
+    &{}&
+    c(1)^{\gamma(1)}
+    \ar[r, -, shift left=1pt]
+    \ar[r, -, shift right=1pt]
     &[-20pt]
-    &
-    {\mathrm{Ad}_{\gamma(0)\gamma'(0)}c(0)}
-    \ar[d, -, dotted]
-    \\
-    {c(t)}
-    \ar[r, "{\gamma(t)}"]
-    \ar[d,-, dotted]
-    &
-    {\mathrm{Ad}_{\gamma(t)}c(t)}
-    \ar[d,-, dotted]
-    \ar[rr, "\gamma'(0)"]
-    &&
-    {\mathrm{Ad}_{\gamma(t) \cdot \gamma'(0)}c(t)}    
-    \ar[d,-,dotted]
-    \\
-    {c(1)}
-    \ar[r, "{\gamma(1)}"]
+    c'(0)
+    \ar[rr, "{\gamma'(0)}"{description, pos=.6}]
     \ar[d, -, dotted]
     &
-    {\mathrm{Ad}_{\gamma(1)}c(1)}
-    \ar[r,-, shift left=1pt]
-    \ar[r,-, shift right=1pt]
-    &
-    {c'(0)}
-    \ar[r, "{\gamma'(0)}"]
+    {}
     \ar[d, -, dotted]
     &
-    {\mathrm{Ad}_{\gamma'(0)}c'(0)}
+    c'(0)^{\gamma'(0)}
     \ar[d, -, dotted]
     \\
-    {\mathrm{Ad}_{\gamma(1)^{-1}}c'(t') }
-    \ar[rr, "{\gamma(1)}"]
-    \ar[d,-, dotted]
-    &&
-    {c'(t)}
-    \ar[r, "{\gamma'(t')}"]
-    \ar[d,-, dotted]
+    &&&
+    c'(t')
+    \ar[rr, "{\gamma'(t')}"{description, pos=.6}]
+    \ar[d, -, dotted]
     &
-    {\mathrm{Ad}_{\gamma'(t')}c'(t')}
-    \ar[d,-, dotted]
+    {}
+    \ar[d, -, dotted]
+    &
+    c'(t')^{\gamma'(t')}
+    \ar[d, -, dotted]
     \\
-    {\mathrm{Ad}_{\gamma(1)^{-1}}c'(1) }
-    \ar[rr, "{\gamma(1)}"]
-    &&
-    {c'(1)}
-    \ar[r, "{\gamma'(1)}"]
+    &&&
+    c'(1)
+    \ar[rr, "{\gamma'(1)}"{description, pos=.6}]
     &
-    {\mathrm{Ad}_{\gamma'(1)}c'(0)}
+    {}
+    &
+    c'(1)^{\gamma'(1)}
 \end{tikzcd}
 
-which when pulled back along the canonical topological horn filler retraction $\Delta^2 \to \Lambda^2_{1}$ yields a composite 2-cell.
-\end{example}
+For any such we may form the following composable pair of 1-morphisms of cocycles over $S^{n+2}/G \times \big( \underset{\ni t}{[0,1]} \underset{\ast}{\sqcup} \underset{\ni t'}{[0,1]}  \big)$:
+
+\begin{tikzcd}[row sep={between origins, 60pt}, column sep={between origins, 60pt}]
+    c(0)
+    \ar[rr, "{\gamma(0)}"{description, pos=.6}]
+    \ar[d,-, dotted]
+    &
+    {}
+    \ar[d,-, dotted]
+    &
+    c(0)^{\gamma(0)}
+    \ar[d,-, dotted]
+    \ar[rr, "\gamma'(0)"{description, pos=.6}]
+    &
+    {}
+    \ar[d, -, shift left=1pt]
+    \ar[d, -, shift right=1pt]
+    &
+    c(0)^{ \gamma(0) \mathrlap{\gamma'(0)} }
+    \ar[d, -, dotted]
+    \\
+    c(t)
+    \ar[rr, "{\gamma(t)}"{description, pos=.6}]
+    \ar[d,-, dotted]
+    &
+    {}
+    \ar[d,-, dotted]
+    &
+    c(t)^{\gamma(t)}
+    \ar[d,-, dotted]
+    \ar[rr, "\gamma'(0)"{description, pos=.6}]
+    &
+    {}
+    \ar[d, -, shift left=1pt]
+    \ar[d, -, shift right=1pt]
+    &
+    c(t)^{ \gamma(t) \mathrlap{\gamma'(0)} }
+    \ar[d, -, dotted]
+    \\
+    c(1)
+    \ar[rr, "{\gamma(1)}"{description, pos=.6}]
+    \ar[d, -, dotted]
+    &
+    {}
+    \ar[d, -, shift left=1pt]
+    \ar[d, -, shift right=1pt]
+    &
+    c'(0)
+    \ar[rr, "{\gamma'(0)}"{description, pos=.6}]
+    \ar[d, -, dotted]
+    &
+    {}
+    \ar[d, -, dotted]
+    &
+    c'(0)^{\gamma'(0)}
+    \ar[d, -, dotted]
+    \\
+    c'(t')^{\gamma(1)^{-1}}
+    \ar[
+      rr,
+      "{\gamma(1)}"{description, pos=.4}
+    ]
+    \ar[d, -, dotted]
+    &
+    {}
+    \ar[d, -, shift left=1pt]
+    \ar[d, -, shift right=1pt]
+    &
+    c'(t')
+    \ar[rr, "{\gamma'(t')}"{description, pos=.6}]
+    \ar[d, -, dotted]
+    &
+    {}
+    \ar[d, -, dotted]
+    &
+    c'(t')^{\gamma'(t')}
+    \ar[d, -, dotted]
+    \\
+    c'(1)^{\gamma(1)^{-1}}
+    \ar[
+      rr,
+      "{\gamma(1)}"{description, pos=.4}
+    ]
+    &
+    {}
+    &
+    c'(1)
+    \ar[rr, "{\gamma'(1)}"{description, pos=.6}]
+    &
+    {}
+    &
+    c'(1)^{\gamma'(1)}
+\end{tikzcd}
+
+When pulled back along the canonical topological horn filler retraction $\Delta^2 \to \Lambda^2_{1}$ this yields a 2-cell which fills the original 2-horn.
+
+Similarly, a $\Lambda^2_0$-horn is the following type of data:
+
+\begin{tikzcd}[row sep={between origins, 60pt}, column sep={between origins, 60pt}]
+    c(0)
+    \ar[rr, "{\gamma(0)}"{description, pos=.6}]
+    \ar[d,-, dotted]
+    &
+    {}
+    \ar[d,-, dotted]
+    &
+    c(0)^{\gamma(0)}
+    \ar[d,-, dotted]
+    \\
+    c(t)
+    \ar[rr, "{\gamma(t)}"{description, pos=.6}]
+    \ar[d,-, dotted]
+    &
+    {}
+    \ar[d,-, dotted]
+    &
+    c(t)^{\gamma(t)}
+    \ar[d,-, dotted]
+    \\
+    c(1)
+    \ar[rr, "{\gamma(1)}"{description, pos=.6}]
+    &{}&
+    c(1)^{\gamma(1)}
+    \ar[r, -, shift left=1pt]
+    \ar[r, -, shift right=1pt]
+    &[-20pt]
+    c'(1)^{\gamma'(1)}
+    \ar[d, -, dotted]
+    &
+    {}
+    \ar[d, -, dotted]
+    &
+    c'(1)
+    \ar[ll, "{\gamma'(0)}"{description, pos=.6}]
+    \ar[d, -, dotted]
+    \\
+    &&&
+    c'(t')^{\gamma'(t')}
+    \ar[d, -, dotted]
+    &
+    {}
+    \ar[d, -, dotted]
+    &
+    c'(t')
+    \ar[d, -, dotted]
+    \ar[ll, "{\gamma'(t')}"{description, pos=.6}]
+    \\
+    &&&
+    c'(0)^{\gamma'(0)}
+    &
+    {}
+    &
+    c'(0)
+    \ar[ll, "{\gamma'(0)}"{description, pos=.6}]
+\end{tikzcd}
+
+and is filled by the evident directly analogous procedure.
+\end{proof}
 
 \begin{definition}
 \label{ComparisonMorphismBetweenShapesOfMappingStacks}
