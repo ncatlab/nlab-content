@@ -358,25 +358,10 @@ A space is [[extremally disconnected]] iff the closure of an open subset is open
     "{ }"
   ]
   \ar[dd]
-  &&
-  \boxed{
-    \overset{
-      \boxed{
-        \boxed{u}
-        \;\;
-        \, \,\,\,\,
-        \;\;
-        \boxed{v}}
-      }{
-        \underset{
-           c_1 \,\,\, c_2
-        }
-        {
-          \searrow \;\,\,\,\, \swarrow
-        }
-      }
-  }  
-  \ar[dd]
+  && \boxed{
+\boxed{{}^{\boxed{u}}\!\! \searrow_{\,c_1}} \,\,\, \boxed{{}_{c_2}\swarrow^{\boxed{v}}}
+}
+   \ar[dd]
   \\
   \\
   X
