@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,6 +39,16 @@ The maximal torus is of [[finite number|finite]] [[index of a subgroup|index]] i
 The [[cardinality]] of $W(G)$ for a compact [[connected topological space|connected]] $G$, equals the [[Euler characteristic]] of the [[homogeneous space]] $G/T$ ("[[flag variety]]"). 
 
 See also at _[[relation between compact Lie groups and reductive algebraic groups]]_
+
+### Invariant metric
+ {#InvariantMetric}
+
+\begin{prop}\label{CompactLieGroupsAdmitBiinvariantMetrics}
+**([[compact Lie groups]] admit [[bi-invariant Riemannian metrics]])**\linebreak
+  Every compact Lie group admits a [[bi-invariant Riemannian metric]].
+\end{prop}
+
+([Milnor 76, Cor. 1.4](invariant+metric#Milnor76))
 
 ### Smooth actions
 
