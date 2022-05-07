@@ -3,10 +3,15 @@
 
 ## Selected writings
 
+On [[differential geometry]] with emphasis on [[differential forms]] and their [[de Rham cohomology]]:
+
+* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
+
 
 On [[pyknotic sets]]:
 
 * {#BarHai19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I.  Basic notions_, ([arXiv:1904.09966](https://arxiv.org/abs/1904.09966))
+
 
 
 On [[Whitehead-generalized cohomology theory|Whitehead-generalized]] [[differential cohomology]] via [[sheaves of spectra]]:
