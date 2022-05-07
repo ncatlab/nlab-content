@@ -252,11 +252,15 @@ Textbook accounts:
 
 * {#Hatcher02} [[Allen Hatcher]], p. 14-17 in: *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
 
-
 See also:
 
 * Wikipedia, *[Homotopy extension property](https://en.wikipedia.org/wiki/Homotopy_extension_property)*
 
-[[!redirects h-cofibration]]
-[[!redirects h-cofibrations]]
+The terminology "h-cofibration" is due to:
+
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], p. 16: _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
+
+
+
 
