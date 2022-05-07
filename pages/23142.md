@@ -177,7 +177,7 @@ but that it is also the [[source]] of the slicing of the plain  Yoneda embedding
 
 ### In 1-category theory
 
-\begin{proposition}
+\begin{proposition}\label{TheAdjointEquivalenceInOrdinaryCategoryTheory}
 The following anti-parallel functors constitute an [[adjoint equivalence]]
 \begin{tikzcd}
     &
@@ -288,7 +288,17 @@ Here
         ,\,
         E
      \big)
-     \ar[d]
+     \ar[
+       d,
+       "{  
+         \mathrm{PSh}(\mathcal{C})
+         \big(
+           y_{\mathcal{C}}(U)
+           ,\,
+           p
+         \big)
+       }"
+     ]
      \\
      \big\{
         y_{\mathcal{C}}(\phi)
@@ -533,6 +543,35 @@ Here:
 
 \end{proof}
 
+
+### In enriched category theory
+
+For $\mathcal{V}$ any [[Bénabou cosmos]] for [[enriched category theory]], the statement and proof of Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} holds and applies verbatim also in $\mathcal{V}$-[[enriched category theory]] (with [[colimit]]-expression for [[enriched presheaves]] now being the corresponding [[coend]], as discussed at *[[co-Yoneda lemma]]*).
+
+\begin{example}
+With [[Bénabou cosmos]] $\mathcal{V} \,=\,$ [[sSet]] being the category of [[simplicial sets]] with its [[cartesian monoidal category]]-structure (see at *[[products of simplicial sets]]*), the [[enriched presheaves]] are [[simplicial presheaves]] over [[simplicial sites]] $\mathcal{C}$.  With [[categories of simplicial presheaves]] denoted $sPSh(-)$, Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} reads:
+
+\begin{tikzcd}
+    \mathrm{sPSh}(\mathcal{C})_{y_{\mathcal{C}}(X)}
+    \ar[
+      rr,
+      "{ 
+        \mathrm{PSh}(\mathcal{C})_{/y(X)}
+        \big(
+          (y_{\mathcal{C}})_{/X}(-)
+          ,\,
+          -  
+        \big)
+      }"{above},
+      "{ \sim }"{below}
+    ]
+    &&
+    \mathrm{sPSh}
+    \big(
+      \mathcal{C}_{/X}
+    \big)
+\end{tikzcd}
+\end{example}
 
 ### In simplicial model category theory
 
