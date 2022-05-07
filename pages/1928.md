@@ -28,7 +28,7 @@ The concept of _[[resolution]]_ in [[homotopy theory]] specialized to [[simplici
 In any ambient [[category]] or $\infty$-[[infinity-category|category]] $C$ that admits a notion of 
 [[colimit]] or [[weak limit|weak colimit]], a _simplicial resolution_
 of an object $c \in C$ is a [[simplicial object]] 
-$y_\bullet : \Delta^{op} \to C$ such that it realizes $c$ as a colimit
+$y_\bullet : \Delta^{op} \to C$ together with a realization of $c$ as a colimit
 
 $$
   c \simeq colim_{[k]} y_k
@@ -36,6 +36,8 @@ $$
 $$
 
 The term is also used for a [[Reedy model structure|Reedy fibrant]] replacement of a constant simplicial object in a [[model category]]; see also [[resolution]].
+
+[[Cocones]] under a simplicial diagram are exactly the [[augmented simplicial objects]], so a simplicial resolution of $c$ can alternately be described as an augmented simplicial object $y_\bullet : \Delta^{op}_+ \to C$ that is a colimiting cocone, and such that $y_{-1} = c$.
 
 ### Examples 
 
