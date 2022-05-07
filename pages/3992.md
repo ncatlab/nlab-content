@@ -32,3 +32,5 @@ Dually, in a [[closed category]] there is a _unit object_ which is such that map
 
 [[!redirects unit object]]
 [[!redirects unit objects]]
+[[!redirects monoidal unit]]
+[[!redirects monoidal units]]
