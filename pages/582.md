@@ -253,12 +253,13 @@ In practice this is of particular relevance for the $\infty$-version of [[regula
 
 ## References
 
-* {#AdamekHerrlichStrecker} [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
+Textbook accounts:
 
+* {#AdamekHerrlichStrecker} [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]], Def. 7.56 in: *[[Abstract and Concrete Categories -- The Joy of Cats]]* John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
+See also:
 
-* {#CassidyHebertKelly} [[C. Cassidy]], [[M. Hébert]], and [[Max Kelly]] _Reflective subcategories, localizations and factorizationa systems_. Journal of the Australian Mathematical Society (Series A) 38.03 (1985): 287-329.
-
+* {#CHK} C. Cassidy, M. H&#233;bert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) 38 (1985), 287--329 ([doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624))
 
 
 [[!redirects regular monomorphism]]
