@@ -60,7 +60,22 @@ $$ h Sd^2 : sSet \rightleftarrows Cat : Ex^2 N $$
 
 We can assert more: this is also an adjoint weak equivalence. These are relative functors between the [[relative categories]] $(sSet, Kan)$ and $(Cat, Thomason)$, and both the adjunction unit and counit are natural weak equivalences.
 
-### The nerve is a homotopy colimit
+### Relation to ∞Gpd
+
+The localization $L : Cat \to \infty Gpd$ sending a category to its homotopy type has a direct interpretation in terms of ∞-category theory:
+
++-- {: .num_prop}
+###### Proposition 
+$L$ is the ∞-groupoidification functor functor $C \mapsto C[C^{-1}]$.
+=--
+
+### Homotopy colimits
+
+Let $f : C \to Cat$ be a functor. Its homotopy colimit in the Thomason model
+structure can be computed using the [[Grothendieck construction]]:
+
+
+### The nerve is a homotopy colimit of simplicial sets
 
 By [Hirschhorn proposition 18.1.6](#Hir), the nerve of any category is the homotopy colimit of the constant point-valued diagram:
 
