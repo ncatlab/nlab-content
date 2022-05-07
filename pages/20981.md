@@ -9,7 +9,6 @@ On the appearance of [[Bernoulli numbers]] in [[perturbative quantum field theor
 
 On the [[worldline formalism]] for [[perturbative quantum field theory]]:
 
-
 * M. G. Schmidt, [[Christian Schubert]], _Worldline Green Functions for Multiloop Diagrams_, Phys.Lett. B331 (1994) 69-76 ([arXiv:hep-th/9403158](https://arxiv.org/abs/hep-th/9403158))
 
 * {#SchmidtSchubert94} M. G. Schmidt, [[Christian Schubert]], _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
@@ -17,6 +16,11 @@ On the [[worldline formalism]] for [[perturbative quantum field theory]]:
 * {#Schubert96} [[Christian Schubert]], _An Introduction to the Worldline Technique for Quantum Field Theory Calculations_, Acta Phys. Polon.B27:3965-4001, 1996 ([arXiv:hep-th/9610108](https://arxiv.org/abs/hep-th/9610108))
 
 * [[Christian Schubert]], _Perturbative Quantum Field Theory in the String-Inspired Formalism_, Phys.Rept. 355 (2001) 73-234 ([arXiv:hep-th/0101036](https://arxiv.org/abs/hep-th/0101036))
+
+* Olindo Corradini, [[Christian Schubert]], James P. Edwards, Naser Ahmadiniaz, *Spinning Particles in Quantum Mechanics and Quantum Field Theory* ([arXiv:1512.08694](https://arxiv.org/abs/1512.08694))
+
+  > (emphasis on [[spinning particles]])
+
 
 * James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration* ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
 
