@@ -374,8 +374,13 @@ follows with the [[adjoint functor theorem]].
 The straightening and the unstraightening functor constitute a [[Quillen adjunction]]
 
 $$
-  (St_\phi \dashv Un_\phi) : sSet/S
-  \stackrel{\overset{Un_{\phi}}{\leftarrow}}{\underset{St_\phi}{\to}}
+  (St_\phi \dashv Un_\phi) 
+  \,\colon\, 
+   sSet/S
+  \underoverset
+    {\underset{St_\phi}{\longrightarrow}}
+    {\overset{Un_{\phi}}{\longleftarrow}}
+    {}
   [C^{op}, sSet]
 $$
 
