@@ -668,6 +668,209 @@ For many purposes it is convenient to conceive categories and especially [[∞-c
 A variant of the nerve construction can also be applied _internally_ within a category, to any internal category, see the discussion at [[internal category]].
 
 
+## Properties
+
+
+### (Non-)Preservation of colimits
+ {#PreservationOfColimits}
+
+While the nerve operation is a [[right adjoint]] ([this Prop.](nerve+and+realization#NerveAndRealizationAreAdjoint)) and [[right adjoints preserve limits|hence]] [[preserved limit|preserves]] all [[limits]], the nerve operation does not [[preserved colimit|preserve]] all [[colimits]] (Exp. \ref{NervesDoNotPreserveQuotientOfDeloopingByNormalSubgroup}), [[left adjoints preserve colimits|hence]] is not a [[left adjoint]].
+
+However, it does preserve *some* colimits (Exp. \ref{NervePreservesLeftQuotientsOnRightActionGroupoids}); rather special ones, but of central importance in the theory of [[classifying spaces]] constructed via [[geometric realization of simplicial topological spaces]] (Exp. \ref{NerveDoesPreserveQuotientOfPairGroupoidOfGroupByGroupAction}).
+
+(In the following Exp. \ref{NervesDoNotPreserveQuotientOfDeloopingByNormalSubgroup} we use "card" instead of the more common notation "${\vert - \vert}$" for [[cardinality]] (of [[underlying]] [[sets]]) in order not to clash with the notation for [[geometric realization]], even if the latter is not directly involved in the following examples.)
+
+\begin{example}\label{NervesDoNotPreserveQuotientOfDeloopingByNormalSubgroup}
+**(Nerve does not preserve quotients of delooping groupoids by normal subgroups)** \linebreak
+  Let $H \hookrightarrow G \twoheadrightarrow G/N$ be the inclusion of a [[trivial group|non-trivial]] [[normal subgroup]] $H$ of a [[finite group]] $G$, with its [[quotient group]] denoted $G/H$. 
+
+Then the [[cardinalities]] of the $n$th component sets of the [[nerves]] 
+
+$$
+  N \;\colon\; Grpd \longrightarrow sSet
+$$
+
+of their [[delooping groupoids]]
+
+$$
+  \mathbf{B}(-)
+  \;\colon\;
+  Grp \longrightarrow Grpd
+$$ 
+
+satisfy, from degree $n \geq 2$ on, an [[inequality relation]]:
+
+$$
+  n \geq 2 
+  \;\;\;\;\;\;\;
+    \Rightarrow
+  \;\;\;\;\;\;\;
+  card
+  \Big(
+    \big( N \mathbf{B} G \big)_n / H
+  \Big)
+  \;=\;
+  \frac{
+    card(G)^n 
+  }
+  {
+    card(H)
+  }
+  \;\;
+    \gt
+  \;\;
+  \frac{
+    card(G)^n 
+  }
+  {
+    card(H)^n
+  }
+  \;=\;
+  card
+  \Big(
+    \big( N \mathbf{B} (G/H) \big)_n 
+  \Big)
+  \,.
+$$
+
+But this means that it is impossible for there to be an [[isomorphism]] (namely a degree-wise [[bijection]]) from $N(\mathbf{B}G)/H$ to $N\big(\mathbf{B}(G/H)\big)$, and hence that it is impossible for the nerve operation to preserve the [[colimit]] which is the [[quotient]] by the $H$-[[group action|action]].
+\end{example}
+
+\begin{example}\label{NerveDoesPreserveQuotientOfPairGroupoidOfGroupByGroupAction}
+**(nerve does preserve canonical quotients of chaotic groupoids of groups)**
+\linebreak
+For $G \,\in\, Grp(Set)$ a ([[discrete group|discrete]]) [[group]], write 
+
+* $\mathbf{B}G \;\coloneqq\; \big( G \rightrightarrows \ast\big)$ for its [[delooping groupoid]];
+
+* $\mathbf{E}G \;\coloneqq\; \big( G \times G \rightrightarrows G  \big)$
+  for its [[pair groupoid]] equipped with the usual left $G$-[[group action|action]] (discussed [there](codiscrete+groupoid#UniversalGPrincipalBundle)),
+
+so that the [[quotient]] [[coprojection]] of this action is
+
+\[
+  \label{QuotientCoprojectionFromPairGroupoidOfGroupToDeloopingGroupoid}
+  \mathbf{E}G \xrightarrow{\;\;} (\mathbf{E}G)/G \;=\; \mathbf{B}G
+  \,.
+\]
+
+Noticing that the [[nerve]] of $\mathbf{E}G$ (which is the [[universal principal simplicial complex]] $N(\mathbf{E}G) \,=\, W G$) has component sets
+
+$$
+  N(\mathbf{E}G)_n
+  \;=\;
+  \big\{
+    (g_n, g_{n-1}, \cdots, g_0)
+    \;\in\;
+    G^{\times_{n+1}}
+  \big\}
+$$
+
+with the $G$ action given degreewise by left-multiplication on *just the leftmost factor* (see also [this exp.](simplicial+classifying+space#SimplicialClassifyingSpaceOfAnOrdinaryGroup)), we have
+
+$$
+ \big(  N(\mathbf{E}G)_n \big)/G
+  \;\simeq\;
+  \big\{
+    (g_{n-1}, \cdots, g_0)
+    \;\in\;
+    G^{\times_{n+}}
+  \big\}
+  \;=\;
+  N(\mathbf{B}G)_n
+$$
+
+and hence here the nerve operation does preserve the [[quotient]] [[coprojection]] (eq:QuotientCoprojectionFromPairGroupoidOfGroupToDeloopingGroupoid):
+
+$$
+  W G
+  \;=\;
+  N(\mathbf{E}G) 
+    \xrightarrow{\;\;} 
+  \big(N(\mathbf{E}G)\big)/G 
+    \simeq
+  N\big(
+    (\mathbf{E}G)/G 
+  \big)
+  \;=\;
+  N\big(
+    \mathbf{B}G
+  \big)
+  \;=\;
+  \overline{W} G
+  \,.
+$$
+
+The result is the [[universal simplicial principal bundle]] of $G \,\in\, Grp(Set) \xhookrightarrow{Grp(Disc)} Grp(sSet)$ regarded as a [[simplicial group]].
+
+\end{example}
+
+\begin{remark}
+  The joint relevance of 
+  Exp. \ref{NervesDoNotPreserveQuotientOfDeloopingByNormalSubgroup} and 
+  Exp. \ref{NerveDoesPreserveQuotientOfPairGroupoidOfGroupByGroupAction}
+  has been highlighted in [Guillou, May & Merling 2017 ](equivariant+bundle#GuillouMayMerling17)
+(corresponding there to Exp. 2.9 and Lem. 2.10 -- but Exp. 2.9 seems a little broken (?) while Lem. 2.10 does not quite get around to discussing the quotienting, for which it seems to be quoted later on).
+\end{remark}
+
+The principle behind Exp. \ref{NerveDoesPreserveQuotientOfPairGroupoidOfGroupByGroupAction} is readily seen to be, more generally, the following:
+
+\begin{example}
+  \label{NervePreservesLeftQuotientsOnRightActionGroupoids}
+**(nerve preserves left quotients of right action groupoids)** 
+\linebreak
+  For $G_L, G_R \,\in\, Grp(Set)$ a [[pair]] of [[groups]], let $X \in (G_L \times G^{op}_R) Act(Set)$ be a [[set]] equipped with a [[group action|left action]] of $G_L$ and a commuting right action of $G_R$. 
+
+Then the [[action groupoid]] of the right $G_R$-action inherits the residual $G_L$-action
+
+$$
+  \big(
+    X \times G_R 
+    \underoverset
+      {(-)\cdot(-)}
+      {pr_1}
+      {\rightrightarrows}
+    X
+  \big)
+  \;\;
+    \in
+  \;\;
+  G_L Act\big( Grpd \big)
+$$
+
+and the [[quotient]] by this left action is preserved by the [[nerve]] operation:
+
+$$
+  \Big(
+    N
+    \big(
+      X \times G_R 
+      \underoverset
+        {(-)\cdot(-)}
+        {pr_1}
+        {\rightrightarrows}
+      X
+    \big)
+  \Big)
+  /G_L
+  \;\simeq\;
+  N
+  \Big(
+    \big(
+    X \times G_R 
+    \underoverset
+      {(-)\cdot(-)}
+      {pr_1}
+      {\rightrightarrows}
+    X
+    \big)/ G_L
+  \Big)
+  \,.
+$$
+
+
+\end{example}
+
 
 ## Related concepts
 
@@ -733,7 +936,7 @@ For [[strict omega-categories]]:
 
 For [[2-categories]]:
 
-* [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_ ([arxiv/1211.6603](http://arxiv.org/abs/1211.6603))
+* [[Paul Bressler]], Alexander Gorokhovsky, [[Ryszard Nest]], [[Boris Tsygan]], _Formality for algebroids I: Nerves of two-groupoids_ ([arxiv:1211.6603](http://arxiv.org/abs/1211.6603))
 
 For [[3-categories]]:
 
