@@ -395,6 +395,10 @@ In relation to the [[SYK model]]:
 
 * Shao-Kai Jian, Chunxiao Liu, Xiao Chen, [[Brian Swingle]], Pengfei Zhang, *Quantum error as an emergent magnetic field* ([arXiv:2106.09635](https://arxiv.org/abs/2106.09635))
 
+In relation to continuous symmetries:
+
+* Zi-Wen Liu, Sisi Zhou, *Approximate symmetries and quantum error correction* ([arXiv:2111.06355](https://arxiv.org/abs/2111.06355))
+
 
 ### Experimental realization
 
