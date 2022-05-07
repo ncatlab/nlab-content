@@ -91,8 +91,15 @@ In ([Cohen, 1968](#Cohen)) is given a criterion for stable maps of spheres to in
 
 ## References
 
-* {#Cohen} Joel Cohen, _The decomposition of stable homotopy_, Annals of Mathematics (2) 87 (2): 305&#8211;320 (1968)
- 
+The concept of Toda brackets is due to:
+
+* [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Volume 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t))
+
+Higher Toda brackets were introduced in:
+
+* {#Cohen} Joel Cohen, Section 2 of: _The decomposition of stable homotopy_, Annals of Mathematics (2) 87 (2): 305&#8211;320 (1968) ([doi:10.2307/1970586](https://doi.org/10.2307/1970586))
+
+Further discussion: 
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5.7 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
