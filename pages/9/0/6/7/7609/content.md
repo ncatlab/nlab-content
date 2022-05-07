@@ -177,6 +177,8 @@ over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 * [[context extension]]
 
+* [[telescope]]
+
 * [[dependent product]], [[universal quantifier]]
 
 * [[dependent sum]], [[existential quantifier]]
