@@ -269,7 +269,7 @@ Here:
 
 * the right vertical morphism is a [[fibration]] ([[Kan fibration]]), since it is the image under the [[right Quillen functor]] $(W \mathcal{G} \times (-)) /\mathcal{G}$ on the [[Borel model structure]] ([this Prop.](Borel+model+structure#QuillenAdjunctionWithSliceOverSimplicialClassifyingSpace));
 
-* the top right morphism is a [[simplicial weak equivalence]], by [[two-out-of-three]], as it is a [[right inverse]] of the triangular morphisms, which are manifestly a simplicial weak eqivalence since $W \mathcal{G}$ is [[contractible homotopy type|contractible]] (by ... the discussion at *[[decalage]]*, at least).
+* the top right morphism is a [[simplicial weak equivalence]], by [[two-out-of-three]], as it is a [[right inverse]] of the triangular morphisms, which are manifestly a simplicial weak eqivalence since $W \mathcal{G}$ is [[contractible homotopy type|contractible]] (by [this Prop.](simplicial+classifying+space#UniversalPrincipalSimplicialComplexIsContractible)).
 
 One verifies by inspection that the [[commuting square]] shown is an ordinary [[pullback]] in [[SimplicialSets]]. 
 
