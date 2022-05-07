@@ -29,6 +29,9 @@ On [[modular equivariant elliptic cohomology]] in [[type II string theory]]/[[F-
 
 * {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
 
+Discussion of [[equivariant ordinary cohomology]] ([[Bredon cohomology]]) over the point but in arbitrary [[RO(G)-degree]], for [[equivariance group]] a [[dihedral group]] of [[order of a group|order]] $2p$:
+
+* [[Igor Kriz]], [[Yunze Lu]], *On the $RO(G)$-graded coefficients of dihedral equivariant cohomology*, Mathematical Research Letters **27** 4 (2020) ([arXiv:2005.01225](https://arxiv.org/abs/2005.01225), [doi:10.4310/MRL.2020.v27.n4.a7](https://dx.doi.org/10.4310/MRL.2020.v27.n4.a7))
 
 
 
