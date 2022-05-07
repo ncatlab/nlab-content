@@ -55,7 +55,7 @@ A simplicial group in $G$ in $Top/B$ is called **well-sectioned** if for $B$ the
 ## Properties
 
 
-Recall for a [[discrete group|discrete]] [[simplicial group]] $G$ the notation $\bar W G \to W G$ for the [[Kan complex]] presentation of the [[universal principal infinity-bundle]] $\mathbf{E}G \to \mathbf{B}G$ from [[simplicial group]]. These constructions for discrete simplicial groups have immediate analogs for simplicial topological groups.
+Recall for a [[discrete group|discrete]] [[simplicial group]] $G$ the [[simplicial classifying space]] coprojection  $W G \to \overline{W} G$, being a [[Kan complex]] presentation of the [[universal principal infinity-bundle]] $\mathbf{E}G \to \mathbf{B}G$ from [[simplicial group]]. These constructions for discrete simplicial groups have immediate analogs for simplicial topological groups.
 
 +-- {: .num_defn}
 ###### Definition
@@ -66,7 +66,7 @@ $$
   \bar W G_n := G_{n-1} \times G_{n-2} \cdots \times G_{0}
 $$
 
-in [[Top]], equipped wwith the evident (...) face and degeneracy maps.
+in [[Top]], equipped with the evident face and degeneracy maps (see at *[[simplicial classifying space]]*).
 
 =--
 
