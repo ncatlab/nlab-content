@@ -272,6 +272,8 @@ $$
 By prop. \ref{EquivalentCharacterizations}
 locally presentable $(\infty,1)$-categories are equivalently those [[(∞,1)-categories]] which are _presented_ by a [[combinatorial simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ (or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
 
+(See also at *[[Ho(CondModCat)]]*).
+
 +-- {: .num_remark #QuillenEquivZigZag} 
 ###### Remark
 
@@ -364,13 +366,13 @@ For $C$ an $(\infty,1)$-category with finite [[product]]s, the $(\infty,1)$-cate
 
 The theory of locally presentable $(\infty,1)$-categories was first implicitly conceived in terms of [[model category]] presentations in
 
-* [[Carlos Simpson]],  _A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
- {#Simpson}
+* {#Simpson} [[Carlos Simpson]],  _A Giraud-type characterization of the simplicial categories associated to closed model categories as $\infty$-pretopoi ([arXiv:math/9903167](http://arxiv.org/abs/math/9903167))
+ 
 
 The full intrinsic $(\infty,1)$-categorical theory appears in section 5 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
 
 with section A.3.7 establishing the relation [[combinatorial model categories]] and [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) in [[Higher Topos Theory|HTT, prop A.3.7.6]]
 
