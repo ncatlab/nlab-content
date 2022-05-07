@@ -26,8 +26,7 @@ The apartness relations that we discuss here are sometimes called __point--point
 
 ### Abstract
 
-A [[set]] $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as the set of [[objects]]) [[enriched category|enriched]] over the [[cartesian monoidal category]] $TV^\op$, that is the [[opposite category|opposite]] of the [[partial order|poset]] of [[truth value|truth values]], made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $TV$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a groupoid [[enriched category|enriched]] over the cartesian category $TV$ *itself*). But in [[constructive mathematics]] (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour.
-
+A [[set]] $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as the set of [[objects]]) [[enriched category|enriched]] over the [[cartesian monoidal category]] $TV^\op$, that is the [[opposite category|opposite]] of the [[partial order|poset]] of [[truth value|truth values]], made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $TV$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a groupoid [[enriched category|enriched]] over the cartesian category $TV$ *itself*). But in [[constructive mathematics]] (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour, as $TV^\op$ is a [[co-Heyting algebra]]. 
 
 ### Concrete
 
