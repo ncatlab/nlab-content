@@ -113,12 +113,12 @@ This is equivalent to
 +-- {: .proof}
 ###### Proof
 
-Using $\iota_x A = x$ we have by [[Cartan calculus]]
+Using $\iota_{\rho_*(x)} A = x$ we have by [[Cartan calculus]]
 
 $$
   \begin{aligned}
      \iota_{\rho_*(x)} F_A &=
-     \iota_{\rho_*(x)} d_{dR} A + \frac{1}{2}[A\wedge A]
+     \iota_{\rho_*(x)} ( d_{dR} A + \frac{1}{2} [A\wedge A] )
      \\
      & =
      \mathcal{L}_{\rho_*(x)} A - d_{dR} \iota_{\rho_*(x)} A +
