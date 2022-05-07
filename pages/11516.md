@@ -734,7 +734,7 @@ See at _[[G-CW complex]]_.
 
 ## Related concepts
 
-* [[G-set]], [[G-manifold]]
+* [[G-set]], [[G-manifold]], [[simplicial group action]]
 
 * [[fixed point space]]
 
