@@ -31,7 +31,7 @@ One says optics are defined _up to sliding_ along the residual, a terminology su
 
 * {#Riley} [[Mitchell Riley]], _Categories of optics_, ([arXiv:1809.00738](https://arxiv.org/abs/1809.00738))
 
-* Bryce Clarke, Derek Elkins, Jeremy Gibbons, Fosco Loregian, Bartosz Milewski, Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
+* [[Bryce Clarke]], Derek Elkins, Jeremy Gibbons, [[Fosco Loregian]], [[Bartosz Milewski]], Emily Pillmore, Mario Román, _Profunctor optics, a categorical update_, ([arXiv:2001.07488](https://arxiv.org/abs/2001.07488))
 
 * Emily Pillmore, Mario Román, _Profunctor Optics: The Categorical View_, ([blog post](https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#more))
 
