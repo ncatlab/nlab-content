@@ -33,7 +33,7 @@ $$
   (\mathcal{O} \dashv Spec)
   : 
   CoPresheaves
-  \underoverset{Spec}{O}{\leftrightarrows}
+  \underoverset{Spec}{\mathcal{O}}{\leftrightarrows}
   Presheaves
 $$ 
 
@@ -63,7 +63,7 @@ $$
   (\mathcal{O} \dashv Spec)
   \colon
   [C, \mathcal{V}]^{op}
-  \underoverset{Spec}{O}{\leftrightarrows}
+  \underoverset{Spec}{\mathcal{O}}{\leftrightarrows}
   [C^{op}, \mathcal{V}]
 $$
 
