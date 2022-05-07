@@ -208,7 +208,9 @@ The above construction of the category $G Set$ -- of [[G-sets]] for a [[discrete
 
 The resulting category $G\mathcal{E}$ -- of [[objects]] of $\mathcal{E}$ equipped with [[internalization|internal]] $G$-[[action]] and with $G$-[[equivariant function|equivariant]] [[morphisms]] between them -- is itself a [[topos]], by the same proof as above Thm \ref{GSetsIsAnElementaryTopos}. 
 
-A particularly interesting case of this is an [[internal group]] $H$ in the topos $G Set$ itself, for $G$ a [[discrete group]]: Seen externally this is equivalently a discrete group $H$ equipped with a [[group homomorphism]] $G \to \Aut(H)$ to the [[automorphism group]] of $H$. Notice that this data induces the corresponding [[semidirect product group|semidirect product]] $H \rtimes G$. With that, we have:
+A particularly interesting case of this is an [[internal group]] $H$ in the topos $G Set$ itself, for $G$ a [[discrete group]] (a "$G$-[[equivariant group]]", see there for more): 
+
+Seen externally this is equivalently a discrete group $H$ equipped with a [[group homomorphism]] $G \to \Aut(H)$ to the [[automorphism group]] of $H$. Notice that this data induces the corresponding [[semidirect product group|semidirect product]] $H \rtimes G$. With that, we have:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -242,7 +244,6 @@ Let $G$ be a [[topological group]], and let $H$ be a topological group object in
 
 The **proof** is a straightforward check that the continuity conditions match up.
 
-See also at _[[equivariant bundle]]_.
 
 ## Related concepts
 
