@@ -96,6 +96,11 @@ Exposition with an eye towards [[quantum gravity]] is in
 
 * {#Witten15} [[Edward Witten]], _What every physicist should know about string theory_, talk at [Strings2015](https://strings2015.icts.res.in)  ([pdf](https://strings2015.icts.res.in/talkDocuments/26-06-2015-Edward-Witten.pdf), [[WittenWorldlineFormalism.pdf:file]], [video recording](https://www.youtube.com/watch?v=H0jLD0PphTY))
 
+See also:
+
+* [[Thanu Padmanabhan]], *World-line Path integral for the Propagator expressed as an ordinary integral: Concept and Applications*, Found Phys., 51 35 (2021) ([arXiv:2104.07041](https://arxiv.org/abs/2104.07041), [doi:10.1007/s10701-021-00447-8]( https://doi.org/10.1007/s10701-021-00447-8))
+
+
 Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
 
 * [[Gerald Dunne]], [[Christian Schubert]], _Worldline Instantons and Pair Production in Inhomogeneous Fields_, Phys. Rev. D72 (2005) 105004 ([arXiv:hep-th/0507174](https://arxiv.org/abs/hep-th/0507174))
