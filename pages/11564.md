@@ -1291,11 +1291,23 @@ where in section 4.1.2 a fully general abstract account is given. This in turn f
 * {#Schreiber09} [[Urs Schreiber]], _[[schreiber:Background fields in twisted differential nonabelian cohomology]]_, talk at Oberwolfach Workshop Strings, Fields, Topology (2009), Oberwolfach Report No. 28/2009 ([pdf](https://www.mfo.de/document/0924/OWR_2009_28.pdf))
 
 
-Surveys/expositions of this include
+Surveys/expositions of this:
 
 * {#Schreiber14a} [[Urs Schreiber]], _[[schreiber:Differential generalized cohomology in Cohesive homotopy type theory]]_, talk at IHP trimester on _Semantics of proofs and certified mathematics_, _Workshop 1: Formalization of Mathematics_, Institut Henri Poincar&#233;, Paris, 5-9 May 2014
 
 * {#Schreiber14b} [[Urs Schreiber]], _[[schreiber:Differential cohomology is Cohesive homotopy theory]]_, talk at _[Higher Geometric Structures along the Lower Rhine June 2014](http://www.ru.nl/math/research/vmconferences/2014-higher/)_, 19-20 June  2014
+
+Exposition from the point of view of [[modal homotopy type theory|modal homotopy theory]]:
+
+* [[Urs Schreiber]], _[[nLab:differential cohesion and idelic structure|Fractures, Ideles and the Differential Hexagon]]_, talk at _[Workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html)_, CUNY Graduate Center, August 12-14 2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1806/in/channel/55/))
+
+* [[Urs Schreiber]], _[[schreiber:Differential cohesion and Arithmetic geometry]]_, talk at [Karslruher Weihnachts-Workshop 2015](http://www.math.kit.edu/iag3/~herrlich/seite/weihnachts-workshops)
+
+
+Formalization in [[cohesive homotopy type theory|cohesive]] [[modal homotopy type theory|modal homotopy type theory]] [[homotopy type theory]]: 
+
+* [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+
 
 For discussion of the hexagon in an [[equivariant cohomology|equivariant]] setting, see 
 
