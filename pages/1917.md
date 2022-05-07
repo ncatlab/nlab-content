@@ -37,7 +37,7 @@ $$
 HQFTs were first defined (under a different name) by [[Graeme Segal]] as early as 1988 in ([Segal 88](#Segal88)).
 
 Starting from 1991, several papers by [[Dan Freed]],
-including \cite{FreedQuinn1991}, further develop the notion of a [[functorial field theory]], where bordisms in the domain category are equipped with a map
+including \cite{FreedQuinn1991}, further developed the notion of a [[functorial field theory]], where bordisms in the domain category are equipped with a map
 to a target space (such as the [[Eilenberg–MacLane space]] $K(G,1)$ for a finite group $G$).
 See, in particular, Theorem 1.7 and the preceding discussion on page 6 of \cite{FreedQuinn1991}.
 
