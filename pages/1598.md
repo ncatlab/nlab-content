@@ -248,6 +248,9 @@ In the generality of [[Lie semigroups]]:
 
 * [[Joachim Hilgert]], [[Karl-Hermann Neeb]], *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer 1993 ([doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640))
 
+In the generality of [[quantum groups]]:
+
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
 
 
 ### Homotopy groups
