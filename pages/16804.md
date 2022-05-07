@@ -33,11 +33,13 @@ A typical chord diagram looks like this:
 
 > graphics from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
-Chord diagrams are a basic object of study in [[combinatorics]] with remarkably many applications in [[mathematics]] and [[physics]], notably in [[knot theory]] and [[Chern-Simons theory]].
+Equivalently this is a pairing (by chords) of all elements in a [[cyclic order]] (the boundary vertices).
 
-If also (trivalent) internal vertices are considered, one speaks of _[[Jacobi diagrams]]_.
+Chord diagrams are a basic object of study in [[combinatorics]] with remarkably many applications in [[mathematics]] and [[physics]], notably in [[knot theory]] and [[Chern-Simons theory]] (where they control [[Vassiliev invariants]]) but more recently also in [[string theory|stringy]] [[quantum gravity]] (see the references [below](#ReferencesWeightSystemsOnChordDiagramsInPhysics)).
 
+If also (trivalent) internal vertices are considered, one speaks of _[[Jacobi diagrams]]_. Under standard [[equivalence relations]] these are actually equivalent to chord diagrams, see [below](#RelationToChernSimonsDiagrams)).
 
+ 
 ## Definitions
 
 Chord diagrams can be defined both in topological terms, which formalize the graphical intuition, as well as in purely combinatorial terms.
