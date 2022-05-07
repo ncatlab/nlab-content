@@ -26,7 +26,12 @@ While this does fit very well with current [[experimental observation]], one may
 
 ## References
 
-A survey of the standard story is in 
+Textbook account:
+
+* [[Robert E. Marshak]], Chapter 9 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
+
+
+See also: 
 
 * Wikipedia, _[Preon](http://en.wikipedia.org/wiki/Preon)_
 
