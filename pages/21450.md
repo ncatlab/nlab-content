@@ -69,6 +69,11 @@ confines in the non-perturbative regime.
 
 > [[QCD]] is a challenging theory. Its most interesting aspects, namely the [[confinement]] of [[color charge|color]] and the [[chiral symmetry breaking]], have defied all analytical approaches. While there are now many data accumulated from the [[lattice gauge theory]], the methodology falls well short of giving us insights on how one may understand these phenomena analytically, nor does it give us a systematic way of obtaining a low energy theory of [[QCD]] below the [[confinement]] [[scale]]. 
 
+\linebreak
+
+* {#HashimotoIizukaYi10} [[Koji Hashimoto]], [[Norihiro Iizuka]], [[Piljin Yi]], _A Matrix Model for Baryons and Nuclear Forces_, JHEP 1010:003, 2010 ([arXiv:1003.4988](https://arxiv.org/abs/1003.4988))
+
+> Nuclear physics is one of the oldest branches of high energy physics, yet remains one of more difficult. Despite the fact that we know the underlying fundamental theory, i.e. QCD, we are still unable to predict, reliably and analytically, behavior of nuclei or even a single proton. The problem is of course that one must understand the strong-coupling regime of QCD, which by and large remains inaccessible except by large-scale lattice simulations. Traditionally, this sets nuclear physics apart from the rest of high energy physics in many aspects. However, [[Witten-Sakai-Sugimoto model|recent developments]] in the so-called [[AdS-CFT|gauge/gravity duality]] began to solve certain strongly coupled field theories,possibly including QCD or its close relatives, allowing the two communities to merge with each other.
 
 
 \linebreak
@@ -134,13 +139,13 @@ _  ([pdf](http://www.infn.it/csn1/White_paper_documents/NPQCD.pdf))
 > This is a commonplace that so far we do not have a full-fledged theory of interaction of [[hadrons]], derived from the first principles of [[QCD]] and having a regular way of calculating of hadronic [[scattering amplitude|amplitudes]], especially at high energies and small momentum transfers. The problem is related to a more general problem that QCD Lagrangian would yield [[confinement|colour confinement]] with massive
 colourless physical states (hadrons).
 
-\linebreak
+\linebreak 
 
-* {#DHMMNVW19} Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+* {#HashimotoMatsuoMorita19} [[Koji Hashimoto]], [[Yoshinori Matsuo]], [[Takeshi Morita]], _Nuclear states and spectra in holographic QCD_, JHEP12 (2019) 001 ([arXiv:1902.07444](https://arxiv.org/abs/1902.07444))
 
-> the entirety of the rich field of [[nuclear physics]] emerges from [[QCD]]: from the [[forces]] binding [[protons]] and [[neutrons]] into the nuclear landscape, to the fusion and fission reactions between [[atomic nucleus|nuclei]], to the prospective interactions of nuclei with BSM physics, and to the unknown [[phase of matter|state of matter]] at the cores of [[neutron stars]]. 
+> One of the long-standing problems in QCD is to reproduce profound nuclear physics. The strong coupling nature of QCD prevents us from solving it analytically, and even numerical simulations have a limitation such as the volume of the atomic nucleus versus the lattice size. It is quite important to bridge the particle physics and the nuclear physics, by solving QCD to derive typical fundamental notions of the nuclear physics, such as the magic numbers, the nuclear binding energy and the nuclear shell model. 
 
-> How does this emergence take place exactly? How is the clustering of [[quarks]] into [[nucleons]] and [[alpha particles]] realized? What are the mechanisms behind collective phenomena in nuclei as strongly correlated many-body systems? How does the extreme fine-tuning required to reproduce nuclear binding energies proceed? – are big open questions in [[nuclear physics]].
+> [[holographic QCD|Holographic QCD]] is an analytic method to approach these problems in the strong coupling limit and at a large $N_c$. The [[nuclear matrix model]] is a many-body quantum effective mechanics for multiple baryons, derived by the [[AdS/CFT correspondence]] applied to QCD. 
 
 
 \linebreak
@@ -150,6 +155,17 @@ colourless physical states (hadrons).
 > Still after many decades of vigorous studies the outstanding challenge of modern physics
 is to establish a rigorous link of QCD to low-energy hadron physics as it is observed in
 the many experimental cross section measurements. 
+
+
+\linebreak
+
+* {#DHMMNVW19} Christian Drischler, Wick Haxton, Kenneth McElvain, Emanuele Mereghetti, Amy Nicholson, Pavlos Vranas, André Walker-Loud, _Towards grounding nuclear physics in QCD_ ([arxiv:1910.07961](https://arxiv.org/abs/1910.07961))
+
+> the entirety of the rich field of [[nuclear physics]] emerges from [[QCD]]: from the [[forces]] binding [[protons]] and [[neutrons]] into the nuclear landscape, to the fusion and fission reactions between [[atomic nucleus|nuclei]], to the prospective interactions of nuclei with BSM physics, and to the unknown [[phase of matter|state of matter]] at the cores of [[neutron stars]]. 
+
+> How does this emergence take place exactly? How is the clustering of [[quarks]] into [[nucleons]] and [[alpha particles]] realized? What are the mechanisms behind collective phenomena in nuclei as strongly correlated many-body systems? How does the extreme fine-tuning required to reproduce nuclear binding energies proceed? – are big open questions in [[nuclear physics]].
+
+
 
 
 
@@ -164,6 +180,8 @@ the many experimental cross section measurements.
 > As the 21st Century began, the Clay Mathematics Institute established seven Millennium Prize Problems. Each represents one of the toughest challenges in mathematics. The set contains the [[mass gap problem|problem of confinement]]; and  presenting a sound solution will win its discoverer 1,000,000 bucks. Even with  such motivation, today, almost fifty years after the discovery of [[quarks]], no rigorous solution has been found. Confinement and EHM are inextricably linked. Consequently, as  science plans for the next thirty  years, solving the problem of EHM has become a _grand challenge_. $[\cdots]$
 
 > In trying to match [[QCD]] with Nature, one confronts the many complexities of strong, nonlinear dynamics in relativistic quantum field theory, e.g. the loss of particle number conservation, the frame and scale dependence of the  explanations and interpretations of observable processes, and the evolving character of the relevant degrees-of-freedom. [[electroweak field|Electroweak theory]] and phenomena are essentially [[perturbative quantum field theory|perturbative]]; hence, possess little of this complexity.  Science has never before encountered an [[interaction]] such as that at work in [[QCD]]. Understanding this interaction, explaining everything of which it is capable, can potentially change the way we look at the Universe.
+
+\linebreak
 
 * Michael Creutz, _QCD beyond diagrams_ ([arXiv:2010.04774](https://arxiv.org/abs/2010.04774))
 
