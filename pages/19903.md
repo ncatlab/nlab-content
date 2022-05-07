@@ -31,7 +31,7 @@ in computer science and quantum physics (not to mention pure mathematics itself)
 
 * {#Bradley18} [[Tai-Danae Bradley]], _What is applied category theory?_, [arXiv:1809.05923](https://arxiv.org/abs/1809.05923)
 
-* [[Brendan Fong]] and [[David I Spivak]], _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316). 
+* [[Brendan Fong]] and [[David Spivak]], _Seven Sketches in Compositionality: An Invitation to Applied Category Theory_, [arXiv:1803.05316](https://arxiv.org/abs/1803.05316). 
 
 [[John Baez]] ran a series of lectures based on this book:
 
