@@ -102,6 +102,10 @@ A _strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \e
 1 \otimes TA \ar{rr}{t_{1,A}} && T(1\otimes A)
 \end{tikzcd}
 
++-- {: .query}
+  I think it only plays well with the left unitor?
+=--
+
 "Consecutive applications of strength commute" (and play well with the [[associators]]):
 \begin{tikzcd}
 (A\otimes B) \otimes TC \ar{d}{\cong} \ar{rr}{t_{A\otimes B, C}} && T((A\otimes B)\otimes C) \ar{d}{\cong} \\
@@ -168,6 +172,87 @@ $$
 $$
 for all $x\in X$ and $y\in P Y$. This strength is [[commutative monad|commutative]] and it allows to define easily the [[product of measures]]. Most probability monads behave analogously.
 (Note that the category [[Meas]] has another [[monoidal structure]], which is closed, different from the [[cartesian product]]. For that monoidal structure, the Giry monad is not strong - see [Sato '16](#sato).)
+
+
+## Interaction with the Kleisli category
+
++-- {: .query}
+Is what's written here somehow the same as the abstract definition?
+Can we be more general than the Kleisli category and pick an arbitrary adjunction?
+=--
+
+Given a monad $M : C \to C$ on a monoidal category $(C, \otimes, I)$, let $Kl(M)$ be the [[Kleisli category]] of $M$ with $J : C \to Kl(M)$. If $X \in Obj(C)$, write $[X] \in Obj(Kl(M))$ for the corresponding object in the Kleisli category. Moreover, given $f : X \to MY$, write $[f] : [X] \to [Y]$.
+
+Then there is a correspondence between
+
+* strengths of $M$,
+* functorial operations $\odot : C \times Kl(M) \to Kl(M)$ that are
+  * left unital: $I \odot A \cong A$ (naturally),
+  * right unital: $X \odot [I] \cong JX$ (naturally),
+  * mixed associative: $(X \otimes Y) \odot [Z] \cong X \otimes (Y \odot [Z])$ (naturally),
+  * subject to coherence laws.
+
++-- {: .query}
+Right unitality entails that $X \odot [Y] \cong X \otimes Y \odot [I] \cong [X \otimes Y]$ so basically $\odot$ is fixed on objects. Is it better to fix this on the nose? Is this evil?
+=--
+  
+This correspondence is used in the formulation of [[call-by-push-value]] as an adjoint logic.
+
+Indeed, assume that $M$ is strong. Then we define
+
+* $X \odot [Y] := [X \otimes Y]$
+* $f^{X \to X'} \odot [g]^{[Y] \to [Y']} := [t_{X', Y'} \circ (f \otimes g)]$
+
+This preserves
+
+* identity because the strength commutes with the unit,
+* composition because the strength commutes with monad multiplication.
+
+This is
+
+* left unital on objects (by mapping the left unitor into the Kleisli category),
+* naturally so because the strength is compatible with the left unitor,
+* right unital on objects (by mapping the right unitor into the Kleisli category),
+* naturally so because the strength commutes with the unit (!),
+* mixed associative on objects (by mapping the assiciator into the Kleisli category),
+* naturally so because the strength is compatible with the associator.
+
+The coherence laws will be satisfied.
+
+Conversely, assume $\odot$ is given. Then we define
+\[
+  [t_{X, y}] : J(X \otimes MY) \cong X \otimes MY \odot [I] \cong X \odot JMY \xrightarrow{1_X \odot [1_{MY}]} X \odot JY \cong X \otimes Y \odot [I] \cong J(X \otimes Y).
+\]
+This is natural and
+
+* commutes with the unit because $\odot$ preserves identity:
+
+\begin{centre}
+\begin{xymatrix}
+J(X \otimes Y)
+  \ar@{}[r]|{\cong}
+  \ar[d]_{J(1_X \otimes \eta_Y)}
+&
+X \odot JY
+  \ar@{=}[rd]^{1_X \odot J1_Y = 1_{X \odot JY}}
+  \ar[d]_{1_X \otimes J\eta_{Y}}
+\\
+J(X \otimes MY)
+  \ar@{}[r]|{\cong}
+&
+X \odot JMY
+  \ar[r]_{1_X \odot [1_{MY}]}
+&
+X \odot JY
+  \ar@{}[r]|{\cong}
+&
+J(X \otimes Y)
+\end{xymatrix}
+\end{centre}
+
+* commutes with multiplication because $\odot$ preserves composition (similar reasoning),
+* is compatible with the left unitor by naturality and the coherence laws,
+* is compatible with the associator by naturality and the coherence laws.
 
 
 ## On closed and monoidal closed categories
