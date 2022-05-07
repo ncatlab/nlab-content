@@ -58,6 +58,7 @@ It is called _cancellative_ if it is both _left cancellative_ and _right cancell
 * ([[left cancellative category|left]], [[right cancellative category]]) [[cancellative category]]
 * [[integral monoid]]
 * [[GCD ring]]
+* [[multiplicative submonoid of cancellative elements]]
 
 [[!include oidification - table]]
 
