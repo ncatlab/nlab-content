@@ -221,7 +221,7 @@ For any category with finite products, say $E$, a left exact functor $f: C_{fl}(
 We can further promote $C_{fl}(Grp)$ to a [[Grothendieck topos]] by taking the category of [[presheaves]].  This gives the classifying topos for groups:
 $$       S[Grp] = Set^{C_{fl}(Grp)^{op}}  \, .
 $$
-For any Grothendieck topos, say $E$, a left exact left adjoint functor $ f^*: S[Grp] \to E $ is the same as a [[group object]] in $E$.
+By invoking [[Diaconescu's theorem]], for any Grothendieck topos, say $E$, a left exact left adjoint functor $ f^*: S[Grp] \to E $ is the same as a [[group object]] in $E$.
 
 ### For rings
 
