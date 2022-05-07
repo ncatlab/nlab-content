@@ -13,6 +13,10 @@
 +-- {: .hide}
 [[!include representation theory - contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 =--
 =--
 
@@ -282,6 +286,8 @@ Lecture notes:
 [[!redirects actions]]
 [[!redirects group action]]
 [[!redirects group actions]]
+[[!redirects monoid action]]
+[[!redirects monoid actions]]
 
 [[!redirects left action]]
 [[!redirects left actions]]
