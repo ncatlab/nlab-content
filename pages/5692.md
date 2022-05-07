@@ -73,7 +73,7 @@ Under the [[forgetful functor]] $U \colon sSet_0 \hookrightarrow sSet$
 
 In particular
 
-* every fibrant object maps to a fibrant object.
+* every [[fibrant object]] maps to a fibrant object.
 
 =--
 
@@ -180,7 +180,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The [[simplicial loop space]] functor $G$ and the delooping functor $ \overline{W}(-)$ (discussed at [[simplicial group]]) constitute a [[Quillen equivalence]]
+The [[simplicial loop space]] functor $G$ and the [[simplicial classifying space]]-construction $\overline{W}(-)$ constitute a [[Quillen equivalence]]
 
 $$
   (G \dashv \overline{W}) \colon 
@@ -188,7 +188,7 @@ $$
       \underoverset
         {\underset{\overline{W}}{\longrightarrow}}
         {\overset{G}{\longleftarrow}}
-        {\bot}
+        {\;\;\;\;\;\;\bot\;\;\;\;\;\;}
     sSet_0
 $$
 
