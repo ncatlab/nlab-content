@@ -19,7 +19,7 @@
 
 A _sum_ is a result of an operation called _addition_ and denoted $+$ (binary), $0$ (nullary), or $\sum$ (arbitrary).
 
-* A [[group]] (or similar algebraic structure) $A$ is _written additively_ if its operation is a sum: $a,b \in A \;\vdash\; (a + b) \in A$.  Examples include addition of [[natural numbers]] (an abelian [[monoid]]) and the generalisation to other kinds of [[number]]s (most of which form abelian groups or at least abelian monoids, although the [[ordinal numbers]] form a nonabelian monoid).
+* A [[magma]] $A$ is _written additively_ if its operation is a sum: $a,b \in A \;\vdash\; (a + b) \in A$.  Examples include addition of positive integers (an abelian [[semigroup]]), [[natural numbers]] (an abelian [[monoid]]) and the generalisation to other kinds of [[number]]s (most of which form abelian groups or at least abelian monoids, although the [[ordinal numbers]] form a nonabelian monoid).
 
 * In the case of numbers or more generally any [[topological abelian group]] or [[topological vector space]] (and generalizations), we can consider sums of [[infinite series]], and more generally [[integrals]]. (There are however also noncommutative integrals when the order of summation/multiplication of noncommuting quantities is taken into account.)
 
