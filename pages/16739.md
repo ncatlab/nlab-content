@@ -61,7 +61,7 @@ The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in
 
 * Every [[Boolean algebra]] is a De Morgan Heyting algebra.
 * The [[lattice of open subsets]] of the [[Sierpinski space]] is a De Morgan Heyting algebra (assuming a classical metalogic).
-
+* The [[subobject classifier]] in any [[topos]] satisfying the [[ultrafilter principle]] is a De Morgan Heyting algebra. 
 
 ## Related entries
 
@@ -71,7 +71,7 @@ The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in
 * [[Heyting algebra]]
 * [[co-Heyting algebra]]
 * [[Boolean algebra]]
-
+* [[ultrafilter principle]]
 
 ## References
 
