@@ -164,6 +164,8 @@ See also:
 
 * [The Net Advance of Physics](http://web.mit.edu/redingtn/www/netadv/): *[Quantum Computation](http://web.mit.edu/redingtn/www/netadv/Xqucomputa.html)*
 
+* [Quantiki](https://www.quantiki.org/) -- Quantum Information Portal and Wiki
+
 
 Experimental demonstration of "quantum supremacy" ("quantum advantage"):
 
@@ -180,7 +182,9 @@ Review:
 [[!include quantum programming languages -- references]]
 
 
-### Classically controlled quantum computing
+### Classically controlled quantum computing 
+
+Theory of classically controlled quantum computing and parameterized quantum circuits:
 
 * {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode*, 1996 ([LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [pdf](https://www.osti.gov/servlets/purl/366453))
 
@@ -192,6 +196,20 @@ Review:
 
 * {#Devitt14} [[Simon J. Devitt]], *Classical Control of Large-Scale Quantum Computers*, In: S. Yamashita, S. Minato  (eds.) *Reversible Computation* Lecture Notes in Computer Science, vol 8507. Springer 2014 ([arXiv:1405.4943](https://arxiv.org/abs/1405.4943), [doi:10.1007/978-3-319-08494-7_3](https://doi.org/10.1007/978-3-319-08494-7_3))
 
+* Jarrod R McClean, Jonathan Romero, Ryan Babbush and Alán Aspuru-Guzik, *The theory of variational hybrid quantum-classical algorithms*, New Journal of Physics, Volume 18, February 2016 ([doi:10.1088/1367-2630/18/2/023023](https://iopscience.iop.org/article/10.1088/1367-2630/18/2/023023))
+
+* Sukin Sim, Peter D. Johnson, Alan Aspuru-Guzik, *Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms*, Adv. Quantum Technol. 2 (2019) 1900070 ([arXiv:1905.10876](https://arxiv.org/abs/1905.10876))
+
+* Thomas Hubregtsen, Josef Pichlmeier, Patrick Stecher, Koen Bertels, *Evaluation of Parameterized Quantum Circuits: on the relation between classification accuracy, expressibility and entangling capability*, Quantum Machine Intelligence volume 3, Article number: 9 (2021) ([arXiv:2003.09887](https://arxiv.org/abs/2003.09887), [doi:10.1007/s42484-021-00038-w](https://doi.org/10.1007/s42484-021-00038-w))
+
+
+### Noisy intermediate-scale quantum computing
+
+* [[John Preskill]], *Quantum Computing in the NISQ era and beyond*, Quantum  2018-08-06, volume 2, page 79 ([arXiv:1801.00862](https://arxiv.org/abs/1801.00862), [doi:10.22331/q-2018-08-06-79](https://doi.org/10.22331/q-2018-08-06-79))
+
+* Daniel Koch, Brett Martin, Saahil Patel1, Laura Wessing, and Paul M. Alsing1 , *Demonstrating NISQ era challenges in algorithm design on IBM’s 20 qubit quantum computer*, AIP Advances 10, 095101 (2020) ([doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526))
+
+* Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in theNISQ era*, Quantum Sci. Technol. 5 044007 (2020) ([doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d))
 
 
 ### Quantum programming via monads
@@ -275,4 +293,8 @@ category: computer science, physics
 [[!redirects classically controlled quantum computation]]
 
 
+[[!redirects NISQ]]
+[[!redirects noisy intermediate-scale quantum computer]]
+[[!redirects noisy intermediate-scale quantum computer]]
+[[!redirects noisy intermediate-scale quantum computing]]
 
