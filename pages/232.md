@@ -278,11 +278,15 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 ## References
 
-Textbook accounts include
+Textbook accounts:
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10 ([tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp. ([ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)); 
 
-* [[Francis Borceux]], Vol 2, chapter 6 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
+  republished as:
+
+  Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+* [[Francis Borceux]], Chapter 6 of: _[[Handbook of Categorical Algebra]] Vol 2: Categories and Structures_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
 Also 
 
