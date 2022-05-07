@@ -21,7 +21,11 @@ On the [[Yetter model|Yetter invariant]],
 * [[João Faria Martins]] and  [[Tim Porter]], _On Yetter's invariant and an extension of the Dijkgraaf-Witten invariant to categorical groups_, Theory and Applications of Categories, Vol. 18, 2007, No. 4, pp 118-150.
 ([TAC](http://www.tac.mta.ca/tac/volumes/18/4/18-04abs.html))
 
+On  [[2-crossed modules]], [[2-crossed complexes]] and the maps and homotopies between such,
 
+* [[Joao Faria Martins]], _The fundamental 2-crossed complex of a reduced CW-complex_,  Homology Homotopy Appl. 13(2): 129-157 (2011) (web [pdf] (https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-2/The-fundamental-2-crossed-complex-of-a-reduced-CW-complex/hha/1335806746.full).)
+
+* [[Björn Gohla]] and João Faria Martins, _Pointed homotopy and pointed lax homotopy of 2-crossed module maps_, Advances in Mathematics, (248), (2013), Pages 986 - 1049, [doi](https://doi.org/10.1016/j.aim.2013.08.020)
 
 
 ## Related $n$Lab entries
