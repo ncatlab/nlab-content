@@ -20,8 +20,6 @@
 
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -554,7 +552,9 @@ A proof via [[nonabelian Poincaré duality]]:
 
 * Lauren Bandklayder, _Stable splitting of mapping spaces via nonabelian Poincaré duality_ ([arxiv:1705.03090](https://arxiv.org/abs/1705.03090))
 
+See also:
 
+* [[Douglas Ravenel]], *What we still don't understand about loop spaces of spheres*, Contemporary Mathematics 1998 ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]])
 
 
 
