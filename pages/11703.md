@@ -32,8 +32,12 @@ A list of sufficient conditions for a [[presheaf]] on the [[opposite category]] 
 
 * {#Artin69} [[Michael Artin]], _Algebraization of formal moduli. I_, Global Analysis (Papers in Honor of K. Kodaira), Princeton Univ. Press, Princeton, N.J., 1969, pp. 21-71. [MR0260746](http://www.ams.org/mathscinet-getitem?mr=0260746) (41:5369)
 
-
 * {#LurieRep} [[Jacob Lurie]], _[[Representability theorems]]_
+
+Generalization to [[supergeometry]]:
+
+* Nadia Ott, *Artin's theorems in supergeometry* ([arXiv:2110.12816](https://arxiv.org/abs/2110.12816))
+
 
 [[!redirects Artin's representability theorem]]
 
