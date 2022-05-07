@@ -50,7 +50,14 @@ Much attention in [[coding theory]] is instead on the special lass of *[[linear 
 
 ## References
 
-See at *[[coding theory]]* and *[[linear code]]*.
+
+See the referennces at *[[coding theory]]* and *[[linear code]]*.
+
+An observation on classical codes preconceiving aspects of [[holographic tensor network]] [[quantum error correcting codes]]:
+
+* [[Beni Yoshida]], *Information storage capacity of discrete spin systems*, Annals of Physics 338, 134 (2013) ([arXiv:1111.3275](https://arxiv.org/abs/1111.3275))
+
+
 
 [[!redirects error correcting codes]]
 [[!redirects error-correcting code]]
