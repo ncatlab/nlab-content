@@ -332,7 +332,7 @@ There are also examples of derivators not satisfying (Der5) that do not arise fr
 We discuss precise versions of the idea that derivators indeed constitute a model of [[(∞,1)-category theory]].
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #RenaudinTheorem}
 ###### Theorem
 
 The sub-[[2-category]] of "[[locally presentable category|locally presentable]]" derivators with left adjoints as morphisms between them, among the [[2-category]] of all derivators (see [above](#2CategoryOfDerivators)),  is [[equivalence of 2-categories|equivalent]] to the [[2-localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].
@@ -341,7 +341,7 @@ The sub-[[2-category]] of "[[locally presentable category|locally presentable]]"
 
 This is shown in ([Renaudin](#Renaudin)).  See at [[Ho(CombModCat)]] for more.
 
-Notice every [[locally presentable (∞,1)-category]] are precisely the [[(∞,1)-categories]] that arise, up to [[equivalence of (∞,1)-categories]] as [[simplicial localizations]] of [[combinatorial model categories]]. Hence this theorem suggests that there is, at least, an [[equivalence of 2-categories]] between the [[2-category]] of presentable derivators and the [[homotopy 2-category]] of the [[(∞,2)-category]] [[Pr(∞,1)Cat]] However, an actual proof of this seems to be missing.
+Notice that [[locally presentable (∞,1)-categories]] are precisely those [[(∞,1)-categories]] that arise, up to [[equivalence of (∞,1)-categories]] as [[simplicial localizations]] of [[combinatorial model categories]]. Hence this theorem suggests that there is, at least, an [[equivalence of 2-categories]] between the [[2-category]] of presentable derivators and the [[homotopy 2-category]] of the [[(∞,2)-category]] [[Pr(∞,1)Cat]]. However, an actual proof of this seems to be missing.
 
  
 As a corollary, we obtain a canonical comparison [[functor]]
@@ -440,7 +440,8 @@ An brief informal discussion of derivators as a 2-categorical tool for studying 
 
 In the paper
 
-* {#Renaudin} [[Olivier Renaudin]], _Theories homotopiques de Quillen combinatoires et derivateurs de Grothendieck_, [arxiv](http://arxiv.org/abs/math/0603339)
+* {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
+([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
  
 
 it is proven that the 2-category of "[[locally presentable category|locally presentable]]" derivators is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  Thus in some sense derivators capture "all the information" about a combinatorial model category, hence also about a [[locally presentable (∞,1)-category]].
