@@ -1026,10 +1026,10 @@ The left [[derived functor]] of the [[Quillen functor|Quillen left adjoint]] $\O
 In other words in the induced pair of [[adjoint (∞,1)-functors]]
 
 $$
-  (\Omega^\bullet_{poly} \dashv {\vert -\vert_{poly}})
-   :
+  (\Omega^\bullet_{poly} \dashv {\left\vert -\right\vert_{poly}})
+  \;\colon\;
   (dgcAlg^{\geq 0}_\mathbb{Q}^{op})^\circ
-   \stackrel{\overset{}{\leftarrow}}{\underset{}{\to}}
+  \leftrightarrows
   \infty Grpd
 $$
 
@@ -1040,7 +1040,7 @@ the left adjoint preserves [[limit in a quasi-category|(∞,1)-categorical pullb
 +-- {: .proof}
 ###### Proof
 
-This is effectively a restatement of a result that appears effectively below proposition 15.8 in HalperinThomas and is reproduced in some repackaged form as [Hess 06, theorem 2.2](#Hess06). We recall the [[model category|model category-theoretic]] context that allows to rephrase this result in the above form.
+This is the restatement of a result that appears, effectively, below  [Félix, Halperin & Thomas 2000, Prop. 15.8](#FelixHalperinThomas00) and is reproduced in some repackaged form as [Hess 06, theorem 2.2](#Hess06). We recall the [[model category|model category-theoretic]] context that allows to rephrase this result in the above form.
 
 Let $C = \{a \to c \leftarrow b\}$ be the pullback [[diagram]] category.
 
