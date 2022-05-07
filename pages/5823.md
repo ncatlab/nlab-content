@@ -3,8 +3,7 @@ Vladimir Turaev is a mathematician of Russian origin, who has made fundamental c
 
 He is currently based at Indiana University ([Home page](https://math.indiana.edu/about/faculty/touraev-vladimir.html) which is not very informative!)
 
-##Recent publications
-include
+## Selected writings
 
 *  Quantum invariants of knots and 3-manifolds.
 Second revised edition, de Gruyter Studies in Mathematics, vol. 18, Walter de Gruyter and Co., Berlin, 2010.
@@ -27,5 +26,16 @@ J. Geom. Phys.  57(11)  (2007), 2419-2430.
 
   (on [[Dijkgraaf-Witten theory]])
 
+
+## Related $n$Lab entries
+
+* [[Reshetikhin-Turaev construction]]
+
+* [[Reshetikhin-Turaev invariant]]
+
+* [[Turaev-Viro model]]
+
+
 [[!redirects Turaev]]
+
 category: people
