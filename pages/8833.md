@@ -124,7 +124,7 @@ Math. 122 N1 (1995).
 
 * Alexander Schwarzhaupt, _Massey products in Deligne-Beilinson cohomology_ ([web](http://www.researchgate.net/publication/29799379_Massey_products_in_Deligne-Beilinson_cohomology), [[SchwarzhauptMasseyDeligne.pdf:file]]).
 
-* Daniel Grady, [[Hisham Sati]], _Massey products in differential cohomology via stacks_ ([arXiv:1510.06366](http://arxiv.org/abs/1510.06366)).
+* [[Daniel Grady]], [[Hisham Sati]], _Massey products in differential cohomology via stacks_ ([arXiv:1510.06366](http://arxiv.org/abs/1510.06366)).
 
 
 [[!redirects Massey products]]
