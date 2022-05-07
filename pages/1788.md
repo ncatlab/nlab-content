@@ -1,4 +1,13 @@
 
+$$
+  r_1 \,\otimes\, r_2
+  \;=\;
+  \big( r_1 \,\otimes\, 1 \big) \cdot \big( 1 \otimes r_2 \big)
+  \;=\;
+  1 \,\otimes\, r_1 \cdot 1 \otimes r_2
+  \;=\;
+  1 \,\otimes\, r_1 \cdot r_2
+$$
 
 \begin{prop}
   If $f$ is an [[isomorphism]] with [[inverse morphism]] $f^{-1}$, then any [[left inverse]] or [[right inverse]] is already an actual [[inverse morphism]] and in fact is [[equality|equal]] to $f^{-1}$.
