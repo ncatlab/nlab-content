@@ -176,7 +176,16 @@ Discussion of [[homotopy theory]] over a base $B$ is in
 [[!redirects well-pointed simplicial topological groups]]
 [[!redirects well pointed simplicial topological groups]]
 
+[[!redirects well-pointed topological group]]
+[[!redirects well pointed topological group]]
+[[!redirects well-pointed topological groups]]
+[[!redirects well pointed topological groups]]
+
+
 [[!redirects well-sectioned simplicial topological group]]
 [[!redirects well sectioned simplicial topological group]]
 [[!redirects well-sectioned simplicial topological groups]]
 [[!redirects well sectioned simplicial topological groups]]
+
+
+
