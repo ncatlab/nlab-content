@@ -9,6 +9,9 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 
 ## Idea 
@@ -22,6 +25,16 @@ In [[higher topos theory]] there are corresponding analogs of this theorem
 * [[2-category]] case: see [[2-Giraud theorem]];
 
 * [[(infinity,1)-category]] case: see _[[(infinity,1)-topos]]_
+
+## Related concepts
+
+* [[fundamental theorem of topos theory]]
+
+## References
+
+Lecture notes: 
+
+* [[Jacob Lurie]], *Giraud's theorem*, Lecture 10 in: *[Categorical Logic](https://www.math.ias.edu/~lurie/278x.html)*, 2018 ([pdf](https://www.math.ias.edu/~lurie/278xnotes/Lecture10-Giraud.pdf))
 
 
 [[!redirects Giraud theorem]]
