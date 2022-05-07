@@ -21,6 +21,8 @@ It is claimed ([IUTT IV](#IUTTIV)) that a proof of the [[abc conjecture]] can be
 
 ## Overview of the proof
 
+Please note: everything in this section is heavily under construction! Contrary to possible current appearances, it is a serious attempt to shed some light on aspects of Mochizuki's work, and is not in any way intended as a parody or to do any disservice to Mochizuki's work, quite the contrary. We ask the reader for patience until such a time as what the page is intended to become is more clear.
+
 ### Dénouement {#Dénouement}
 
 The logic of the final part of Mochizuki's approach to the [[abc conjecture]] is fairly straightforward in outline, and not, as far we know, a point of contention. We describe it here, deliberately using completely different notation from the IUTT papers to bring out the structure of the argument. Throughout, we shall assume that we have certain data $\mathbb{M}$, which we shall treat as a black box.
