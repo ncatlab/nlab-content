@@ -29,11 +29,12 @@ Chapters:
 
 category: reference
 
+
 ## References
 
 The original paper is
 
-* [[Alexandre Grothendieck]], _Sur quelques points d'algèbre homologique_.
+* [[Alexandre Grothendieck]], _Sur quelques points d'algèbre homologique_.  [Project Euclid](http://projecteuclid.org/euclid.tmj/1178244839).
 
 An English translation due to [[Michael Barr]] can be found in
 
