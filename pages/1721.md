@@ -1020,7 +1020,7 @@ For $E$ and $F$ [[ordinary cohomology]]/[[ordinary homology]] functors a proof o
 
 The axioms including the dimension axiom are due to 
 
-* {#EilenbergSteenrod52} [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of algebraic topology_, Princeton 1952 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/eilestee.pdf))
+* {#EilenbergSteenrod52} [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of algebraic topology_, Princeton 1952 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
 
 The concept of generalized homology obtained by discarding the dimension axiom and the observation that every [[spectrum]] induces an example is due to
 
