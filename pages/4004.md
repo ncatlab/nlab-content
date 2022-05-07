@@ -37,7 +37,7 @@ A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its 
 
 * If $E$ is a [[presheaf category]] and $T\colon E \to Set$ is p.r.a., then the [[comma category]] $Set/T$ (also called the [[Artin gluing]] in this context) is again a presheaf category.  Conversely, if $Set/T$ is a presheaf category, then $T$ preserves connected limits, and thus is p.r.a. if it is accessible.
 
-* A parametric right adjoint functor has in particular a left [[multi-adjoint]], which sends each object $b\in B$ to the family of all units $\eta_{b,i} : b \to T L(b,i)$, where $i$ ranges over all morphisms $b\to T 1$ and $L : B/T1 \to A$ is the left adjoint of $T_1$.  This is because any morphism $b\to T a$ induces a unique composite $i:b \to T a \to T 1$, and hence a unique factorization through $L(b,i)$.
+* A parametric right adjoint functor (with [[locally small category|locally small]] codomain) has in particular a left [[multi-adjoint]], which sends each object $b\in B$ to the family of all units $\eta_{b,i} : b \to T L(b,i)$, where $i$ ranges over all morphisms $b\to T 1$ and $L : B/T1 \to A$ is the left adjoint of $T_1$.  This is because any morphism $b\to T a$ induces a unique composite $i:b \to T a \to T 1$, and hence a unique factorization through $L(b,i)$.  Conversely, if $A$ has a terminal object and $T:A\to B$ has a left multi-adjoint, then it is a parametric right adjoint.
 
 ## Generic morphisms
 
@@ -55,7 +55,7 @@ A functor $T$ is a parametric right adjoint iff every map $B\to T A$ has a gener
 =--
 +-- {: .proof}
 ###### Proof
-This is Proposition 2.6 of [(Weber08)](#Weber08).
+This is Proposition 2.6 of [(Weber08)](#Weber08).  In fact, the generic factorizations are precisely the universal maps in the left multi-adjoint of $F$ mentioned above.
 =--
 
 P.r.a. functors between presheaf categories have an especially nice form.
