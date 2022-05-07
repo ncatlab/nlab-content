@@ -1,5 +1,49 @@
 
 
+\begin{proof}
+Suppose given functors $L \,\colon\, C \to D$, $R: D \to C$ and the structure of a pair of [[adjoint functors]] in the form of a natural isomorphism of [[hom-sets]] ([here](adjoint+functor#InTermsOfHomIsomorphism))
+
+$$
+  \Psi_{c, d}
+  \;\colon\; 
+  \hom_D(L(c), d) \cong \hom_C(c, R(d))
+$$ 
+
+Now the idea is that, in the spirit of the (proof of the) [[Yoneda lemma]], we would like $\Psi$ to be determined by what it does to [[identity morphisms]]. With that in mind, define the [[adjunction unit]] $\eta \colon 1_C \to R L$ by the formula $\eta_c = \Psi_{c, L(c)}(1_{L(c)})$. Dually, define the counit $\varepsilon \,\colon\, L R \to 1_D$ by the formula
+$$
+  \varepsilon_d 
+  \,\coloneqq\, \Psi^{-1}_{R(d), d}(1_{R(d)})
+  \,.
+$$
+
+Then given $g \,\colon\, L(c) \to d$, the claim is that 
+
+$$
+  \Psi_{c, d}(g) 
+    \,=\, 
+  (c \stackrel{\eta_c}{\to} R(L(c)) \stackrel{R(g)}{\to} R(d))
+  \,.
+$$ 
+
+This may be left as an exercise in the yoga of the Yoneda lemma, applied to $\hom_D(L(c), -) \to \hom_C(c, R(-))$. By [[formal duality]], given $f \,\colon\, c \to R(d)$, 
+
+$$
+  \Psi^{-1}_{c, d}(f) = (L(c) \stackrel{L(f)}{\to} L(R(d)) \stackrel{\varepsilon_d}{\to} d)
+  \,.
+$$ 
+
+(We spell out the Yoneda-lemma proof of this dual form [below](#YonedaLemmaArgument).)
+
+Finally, these operations should obviously be mutually inverse, but that can again be entirely encapsulated Yoneda-wise in terms of the effect on identity maps. Thus, if $\eta_c \coloneqq \Psi_{c, L(c)}(1_{L(c)})$, via the recipe just given for $\Psi^{-1}$ we recover 
+
+$$1_{L(c)} = (L(c) \stackrel{L(\eta_c)}{\to} L R L(c) \stackrel{\varepsilon_{L(c)}}{\to} L(c))$$ 
+
+and this is one of the famous [[triangle identities]]: $1_L = (L \stackrel{L \eta}{\to} L R L \stackrel{\varepsilon L}{\to} L)$.  Here, juxtaposition of functors and natural transformations denotes neither functor application, nor vertical composition, nor horizontal composition, but [[whiskering]]. By duality, we have the other [[triangle identity]] $1_R = (R \stackrel{\eta R}{\to} R L R \stackrel{R \varepsilon}{\to} R)$. These two triangular equations are enough to guarantee that the recipes for $\Psi$ and $\Psi^{-1}$ indeed yield mutual inverses. 
+
+In conclusion it is perfectly sufficient to define an adjoint pair of functors in $Cat$ as given by unit and counit transformations $\eta: 1_C \to R L$, $\varepsilon: L R \to 1_D$, satisfying the triangle identities above. 
+\end{proof}
+
+
 [link]( https://en.wikipedia.org/wiki/Draft:Funding_Sources_for_American_Mathematicians)
 
 \begin{example}\label{GActionsAndGOrbits}
