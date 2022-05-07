@@ -34,7 +34,7 @@ An __antiautomorphism__ is an antihomomorphism whose underlying $C$-morphism is 
 
 ## Examples
 
-* The [[antipode]] in a [[Hopf algebra]] is an anti-homomorphism (by [this Prop.](Hopf+algebra#AntipodeIsAnAntihomomorphism)) 
+* The [[antipode]] in a [[Hopf algebra]] is an anti-homomorphism (by [this Prop.](Hopf+algebra#AntipodeIsAnAntihomomorphism)). The same is separately required for antipodes on associative [[bialgebroid]]s.
 
 * In a [[star-algebra]] the star-operation is an anti-homomorphism, in fact an anti-automorphism, hence an anti-[[involution]].
 
