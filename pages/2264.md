@@ -154,6 +154,12 @@ See the monograph [[Borceux-Bourn]].
 The original is 'Мальцев'; Malcev spelled his name as 'Malcev' in his non-Russian papers.
 This has also been transliterated 'Mal'cev', 'Mal'tsev' and 'Maltsev'.
 
+## Related concepts
+
+* [[invertible quasigroup]]
+
+* [[pseudo-torsor]], [[heap]]
+
 [[!redirects Mal'cev variety]]
 [[!redirects Mal'cev varieties]]
 [[!redirects Mal'cev operation]]
