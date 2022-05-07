@@ -166,18 +166,30 @@ $$
 
 Notice that the example of [[empty bundles]] (Example \ref{EmptyBundlesAreHurewiczFibrations}) is a special case of a [[fiber bundle]]: With [[typical fiber]] the [[empty topological space]].
 
+## Related concept
+
+* [[Hurewicz cofibration]]
+
+* [[Strøm model structure]]
+
+* [[Serre fibration]]
 
 ## References
 
-The historical paper of Hurewicz is
+The original article:
 
-* [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
+* [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; ([doi:10.1073%2Fpnas.41.11.956](https://dx.doi.org/10.1073%2Fpnas.41.11.956), [jstor:89187](https://www.jstor.org/stable/89187), [pdf](http://www.pnas.org/content/41/11/956.full.pdf). MR0073987)
+
 
 A decent review of Hurewicz fibrations, [[Hurewicz connections]] and related issues is in 
 
 * [[James Eells]], Jr., _Fibring spaces of maps_, in Richard Anderson (ed.) _Symposium on infinite-dimensional topology_
 
-A textbook account of the [[homotopy lifting property]] is for instance in
+Textbook accounts:
+
+
+* {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], Chapter II of: *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
+
 
 * [[Alan Hatcher]], from p. 61 on in _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
 
