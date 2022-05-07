@@ -268,8 +268,11 @@ See also
 
 ### As quantum error correcting codes
 
-Further interpretation of [[tensor networks]] in terms of [[quantum error correcting codes]] is due to
+Further interpretation of [[tensor networks]] in terms of [[quantum error correcting codes]]:
 
+* Andrew J. Ferris, David Poulin, *Tensor Networks and Quantum Error Correction*, Phys. Rev. Lett. 113, 030501 (2014) ([arXiv:1312.4578](https://arxiv.org/abs/1312.4578))
+
+and specifically in the context of [[holographic entanglement entropy]]:
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
 
@@ -284,8 +287,6 @@ reviewed in
 See also
 
 * Alexander Jahn, Marek Gluza, Fernando Pastawski, [[Jens Eisert]], _Majorana dimers and holographic quantum error-correcting codes_, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
-
-
 
 
 
@@ -307,7 +308,7 @@ Relation to [[spin chains]]:
 
 * Mari Carmen Banuls, Michal P. Heller, Karl Jansen, Johannes Knaute, Viktor Svensson, _From spin chains to real-time thermal field theory using tensor networks_ ([arXiv:1912.08836](https://arxiv.org/abs/1912.08836))
 
-### Applcation to lattice gauge theory
+### Application to lattice gauge theory
 
 Application to [[lattice gauge theory]]:
 
