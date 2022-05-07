@@ -101,6 +101,11 @@ Discussion via [[holographic entanglement entropy]]:
 
 * [[Andrei Parnachev]], Napat Poovuttikul, *Topological Entanglement Entropy, Ground State Degeneracy and Holography*, Journal of High Energy Physics volume 2015, Article number: 92 (2015) ([arXiv:1504.08244](https://arxiv.org/abs/1504.08244))
 
+See also:
+
+* Tatsuma Nishioka, Tadashi Takayanagi, Yusuke Taki, *Topological pseudo entropy* ([arXiv:2107.01797](https://arxiv.org/abs/2107.01797))
+
+
 
 
 [[!redirects entanglement entropies]]
