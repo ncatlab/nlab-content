@@ -111,6 +111,7 @@ the [[sequence operad]] of McClure and Smith on [[singular cochains]])
 is also preserved.
 
 ### Synthetic version
+ {#SyntheticVersion}
 
 The de Rham theorem also holds internally in the context of suitable [[smooth topos]]es $\mathcal{T}$ modelling the axioms of [[synthetic differential geometry]].
 
