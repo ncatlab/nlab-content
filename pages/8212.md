@@ -12,6 +12,9 @@ On the [[mass-deformed ABJM model]] and the [[Myers effect]] for [[M2 branes]] (
 
 * [[Jaume Gomis]], Diego Rodriguez-Gomez, [[Mark Van Raamsdonk]], [[Herman Verlinde]], _A Massive Study of M2-brane Proposals_, JHEP 0809:113, 2008 ([arXiv:0807.1074](https://arxiv.org/abs/0807.1074))
 
+On embedding the [[SYK model]] into [[string theory]]:
+
+* Akash Goel, [[Herman Verlinde]], _Towards a String Dual of SYK_ ([arXiv:2103.03187](https://arxiv.org/abs/2103.03187))
 
 category: people
 
