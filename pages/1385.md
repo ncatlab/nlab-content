@@ -136,7 +136,7 @@ onto the full [[sub-(∞,1)-category]] of those functors, that preserves colimit
 
 This is  ([Lurie, NA, theorem 4.1.4](#LurieNoncommutative)).
 
-This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even [[closed monoidal (infinity,1)-category|closed]], since the [[hom-objects]] $Func^L$ supply [[right adjoints]] to the tensor product.
+This tensor product makes $Pr(\infty,1)Cat$ a [[symmetric monoidal (∞,1)-category]].  Indeed it is even [[closed monoidal (infinity,1)-category|closed]], since the [[hom-objects]] $Func^L$ supply [[right adjoints]] to the tensor product ([Lurie 09, Rem. 5.5.3.9](#Lurie09HTT)).
 
 The definition of the tensor product is easy: $C \otimes D = Cts(C^{op},D)$, where $Cts$ denotes the category of continuous (small-limit-preserving) functors.  Equivalently, this is $Cocts(C,D^{op})^{op}$, where $Cocts$ denotes the category of cocontinuous (small-colimit-preserving) functors; it is tempting to write this as $Func^L(C,D^{op})^{op}$, but note that $D^{op}$ is not itself locally presentable.  However, $D^{op}$ is nevertheless cocomplete, so any cocontinuous functor $C \to D^{op}$ has a right adjoint.
 
@@ -233,7 +233,7 @@ For instance with $Pr(\infty,1)Cat$ regarded as $\infty Vect$, for any [[∞-gro
 
 The $(\infty,1)$-category $Pr(\infty,1)Cat$ is introduced in section 5.5.3 of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+* {#Lurie09HTT} [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
 
 The monoidal structure on $Pr(\infty,1)Cat$ is described in section 4.1 of
