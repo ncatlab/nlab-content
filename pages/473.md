@@ -61,7 +61,7 @@ where an [[(infinity,n)-category of cobordisms]] is defined and shown to lead to
 
 * [[Jacob Lurie]], _TQFT and the cobordism hypothesis_, [videos of 4 lectures](http://lab54.ma.utexas.edu:8080/video/lurie.html) at the [Geometry Research Group](http://www.ma.utexas.edu/users/plowrey/dev/rtg/perspectives.html), Mathematics Department, University of Texas Austin.
 
-While the tangle hypothesis and its generalizations are refinements of the cobordism hypothesis and its generalizations, Lurie shows ([Sec 4.4. of TQFT](#LurieTQFT)) that the former may be deduced from the latter when expressed in a sufficiently general form. 
+While the tangle hypothesis and its generalizations are refinements of the cobordism hypothesis and its generalizations, Lurie shows ([Lurie 09, Sec. 4.4](#LurieCTFT)) that the former may be deduced from the latter when expressed in a sufficiently general form. 
 
 Lecture notes for Lurie's talks should eventually appear at the [Geometry Research Group website](http://www.ma.utexas.edu/users/plowrey/dev/rtg/perspectives.html).
 
@@ -73,6 +73,8 @@ The $k$-tuply monoidal $n$-category of $G$-structured $n$-tangles in the $(n + k
 * $G$ can be any group equipped with a homomorphism to $O(k)$. ([comment](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006471))
 
 #Further resources#
+
+* {#LurieCTFT}[[Jacob Lurie]], [[On the Classification of Topological Field Theories]]  ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
 * {#LurieTQFT}[[Jacob Lurie]], _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 
