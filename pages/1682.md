@@ -456,9 +456,10 @@ The idea of a [[generalized cohomology theory]] with [[coefficients]] the ring o
 
 and produced as a [[homotopy limit]] of [[elliptic cohomology]] theories over the [[moduli stack of elliptic curves]] was originally announced, as joint work with [[Mark Mahowald]] and [[Haynes Miller]], in 
 
-* {#Hopkins94} [[Michael Hopkins]], section 9 of _Topological modular forms, the Witten Genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematics, Z&#252;rich 1994 ([pdf](http://www.mathunion.org/ICM/ICM1994.1/Main/icm1994.1.0554.0565.ocr.pdf), [doi:10.1007/978-3-0348-9078-6_49](https://doi.org/10.1007/978-3-0348-9078-6_49))
+* {#Hopkins94} [[Michael Hopkins]], section 9 of _Topological modular forms, the Witten Genus, and the theorem of the cube_, Proceedings of the International Congress of Mathematics, Z&#252;rich 1994 ([[Hopkins_TopModFormsAtICM.pdf:file]], [doi:10.1007/978-3-0348-9078-6_49](https://doi.org/10.1007/978-3-0348-9078-6_49))
 
 (There the spectrum was still called "$eo_2$" instead of "$tmf$".) The details of the definition then appeared in
+
 
 * {#Hopkins02} [[Michael Hopkins]], section 4 of _Algebraic topology and modular forms_, Proceedings of the ICM, Beijing 2002, vol. 1, 283--309 ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397))
 
