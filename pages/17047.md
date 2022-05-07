@@ -39,7 +39,7 @@ A general schema for inductive families in Intuitionistic Type Theory was define
 
 [Dybjer and Setzer](#DybjerSetzer) also distinguish two kinds of inductive (and inductive-recursive) families, restricted (due to Coquand) and general ones. The identity type is an example of the latter, but not of the former.
 
-Inductive families are part of the axiomatic foundation in [[Coq]] and [[agda]]. Instead, [[Lean]] does not have fix-point expressions, match expressions, or a termination checker in the kernel. Instead, recursive definitions and pattern matching are compiled into eliminators outside of the kernel.
+Inductive families are part of the axiomatic foundation in [[Coq]] and [[agda]]. However, [[Lean]] does not have fix-point expressions, match expressions, or a termination checker in the kernel. Instead, recursive definitions and pattern matching are compiled into eliminators outside of the kernel.
 
 ## Semantics
 Standard inductive types, [[W-types]] can be interpreted in any topos with [[natural numbers object]] (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. [Indexed containers](#AGHMM) are the same as dependent polynomial functors.
