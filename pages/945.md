@@ -15,6 +15,7 @@
 
 
 
+
 ## Idea
 
 In [[topology]], a not necessarily [[continuous function|continuous]] [[function]] $ \colon X \to Y$ between [[Hausdorff space|Hausdorff spaces]] is _dominant_, or _dense_, in the sense that the [[image]] of $f$ is a [[dense subspace]] of $Y$, precisely if every [[continuous function]]  $g \colon Y \to Z$ to any  [[Hausdorff space]] $Z$ is uniquely determined by the [[composition]] $g \circ f$.
@@ -80,7 +81,7 @@ More generally, if $C$ is an essentially small category, then the [[Yoneda embed
 \begin{example}
 Let $V$ be a category of [[algebras]] and $n \in \mathbb{N}$ such that $V$ has a presentation with operations of at most arity $n$.  Let $v$ be the free $V$-algebra on $n$ generators.  Then the [[full subcategory]] with object $v$ is dense in $V$.
 
-More generally, if $V$ is a $\kappa$-[[accessible category]], then the full subcategory inclusion $V_\kappa \subseteq V$ of $\kappa$-[[presentable objects]] is dense. This means in particular that if $C$ is a small category, then the canonical inclusion $C \to Ind(C)$ into the [[Ind category]] is dense, and that categories of sheaves have small dense subcategories.
+More generally, if $V$ is a $\kappa$-[[accessible category]], then the [[full subcategory]] inclusion $V_\kappa \subseteq V$ of $\kappa$-[[presentable objects]] is dense. This means in particular that if $C$ is a [[small category]], then the canonical inclusion $C \to Ind(C)$ into its [[Ind category]] is dense, and that [[categories of sheaves]] have small [[dense subcategories]].
 \end{example}
 
 \begin{example}\label{DenseSubcategoriesOfSimplexCategory}
