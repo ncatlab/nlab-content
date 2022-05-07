@@ -21,7 +21,8 @@ An effect in [[non-perturbative quantum field theory]] that cannot be seen in [[
 
 More in detail, [[theory (physics)|theories]] with [[instantons]] [[field (physics)|field]] configurations (such as in [[Yang-Mills theory]], hence in [[QCD]] and [[QED]]) or [[branes]] (such as in [[string theory]]), etc., are expected to have [[observables]] which as [[functions]] of the [[coupling constant]] $g$ are [[transseries]] of the form
 
-$$
+\[
+  \label{TypicalTransseries}
   Z(g)
   = 
   \sum_n a_n g^n
@@ -32,7 +33,7 @@ $$
   e^{-B/g^2}
   \sum_n b_n^{(1)} g^n
   \,,
-$$
+\]
 
 where the first sum is the [[Feynman perturbation series]] itself and where the terms with a [[analytic function|non-analytic]] dependence of the form $\exp(-A/g)$ or $\exp(-A/g^2)$ are the contributions of the [[instantons]]. Since all the [[derivatives]] of the functions $g \mapsto e^{-1/g}$ or $g \mapsto e^{-1/g^2}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the observable does not appear in [[perturbative QFT]], even though it is present. Therefore this is called a _non-perturbative effect_.
 
