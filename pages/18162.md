@@ -1835,18 +1835,73 @@ Finally, for $A=\varnothing$ the latter implies that $\varnothing \to B \;\;\;\,
 This implies the Urysohn lemma that 
 $$\varnothing \to B \;\;\;\,&solb;\,\;\;\;   \Lambda_2 \to \Lambda_1\text{ iff }\varnothing \to B \;\;\;\,&solb;\,\;\;\;   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1$$
 
-The following theorem is a summary of considerations above. A noted above, item (3) is the usual statement of Urysohn lemma, and item (2) is similar but not equivalent to the Tietze extension theorem. 
-
+The following theorem is a summary of considerations above. 
 \begin{theorem}
 
-1. $ \{\Lambda_2\to \Lambda_1\} ^{&solb; l} \subset  \{\Lambda_\infty\to \Lambda_1\}^{&solb; l} \subset   \{{[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1\}^{&solb; l}  $$
+1. $ \{\Lambda_2\to \Lambda_1\} ^{&solb; l} \subset  \{\Lambda_\infty\to \Lambda_1\}^{&solb; l} \subset   \{{[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1\}^{&solb; l}  $
 
-2. $ \{\Lambda_2\to \Lambda_1\} ^{&solb; l}  \subset  \{\Lambda_\infty\to \{o\}\}^{&solb; l} \subset   \{{[0,1]} \to \{o\}\}^{&solb; l} $$
+2. $ \{\Lambda_2\to \Lambda_1\} ^{&solb; l}  \subset  \{\Lambda_\infty\to \{o\}\}^{&solb; l} \subset   \{{[0,1]} \to \{o\}\}^{&solb; l} $
 
 3. for arbitrary space $B$ it holds  
 $$\varnothing \to B \;\;\;\,&solb;\,\;\;\;   \Lambda_2 \to \Lambda_1\,\,\,\text{ iff }\,\,\,\varnothing \to B \;\;\;\,&solb;\,\;\;\;   {[0,1]}\vee_{\{0,1\}} \{e_F\leftrightarrow 0, 1\leftrightarrow e_G\} \to \Lambda_1$$
 
 \end{theorem}
+
+A noted above, item (3) is the usual statement of Urysohn lemma, and item (2) is similar but not equivalent to the Tietze extension theorem. 
+
+
+
+
+### Extremally disconnected spaces being projective
+The morphism {#DiscussionOfLiftingForExtremallyDisconnected}
+$f_{e.d.}:= \boxed{
+\boxed{{}^{\boxed{u}}\!\! \searrow_{\,c_1}} \,\,\, \boxed{{}_{c_2}\swarrow^{\boxed{v}}}
+}
+\to
+  \boxed{
+    \overset{
+      \boxed{
+        \boxed{u}
+        \;\;
+        \,
+        \;\;
+        \boxed{v}}
+      }{
+        \underset{
+           c
+        }
+        {
+          \searrow \;\, \swarrow
+        }
+      }
+  }
+$
+is surjective, proper, and has the right lifting property $T_1$. 
+
+Both being and being proper are the right lifting properties. 
+This means that each morphism  $S\xrightarrow { (f_{e.d.})^{lr} } X$ is surjective and proper, 
+and if $X$ has $T_1$, so does $S$. In particular, if $X$ is compact Hausdorff, so is $S$. 
+
+Each morphism $\varnothing \to X$ can be decomposed as 
+$$
+\varnothing \xrightarrow{ (f_{e.d.})^l } S \xrightarrow { (f_{e.d.})^{lr} } X
+$$
+
+This means there is a surjective proper map onto each space from an extremally disconnected space,
+and that in this both spaces can be assumed compact Hausdorff. 
+The Gleason theorem that extremally disconnected spaces are projective in the category 
+of topological spaces and proper maps, can be expressed by saying that 
+$\varnothing \to  S \in (proper)^{l}$ whenever $\varnothing \xrightarrow{ (f_{e.d.})^l } S$.
+
+In fact there is a proper morphism $f_{proper}$ of finite spaces such that 
+for compact Hausdorff spaces it holds
+$S \xrightarrow { (f_{proper})^{lr} } X$, i.e. $(f_{proper})^{lr} $ 
+is a class of proper maps containing (necessarily proper) maps of compact Hausdorff spaces. 
+
+
+
+
+
 
 
 
