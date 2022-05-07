@@ -524,6 +524,8 @@ Further discussion of holographic quantum error correcting codes:
 
 * Robert de Mello Koch, Eunice Gandote, Nirina Hasina Tahiridimbisoa, Hendrik J.R. Van Zyl, *Quantum Error Correction and Holographic Information from Bilocal Holography* ([arXiv:2106.00349](https://arxiv.org/abs/2106.00349))
 
+* [[Chris Akers]], [[Geoff Penington]], *Quantum minimal surfaces from quantum error correction* ([arXiv:2109.14618](https://arxiv.org/abs/2109.14618))
+
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
