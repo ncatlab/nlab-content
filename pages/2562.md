@@ -24,7 +24,9 @@ Other similar meanings of the term include:
 *  the [[domain of discourse]] of a [[predicate]],
 *  an [[open subset]] of a [[manifold]], especially in [[complex analysis]].
 
-A separate meaning of 'domain' occurs in [[domain theory]], which is at the interface of logic and theoretical computer science. There a domain is a particular type of [[poset]]. Still another meaning occurs in algebra in the term [[integral domain]]. 
+A separate meaning of 'domain' occurs in [[domain theory]], which is at the interface of logic and theoretical computer science.
+There a domain is a particular type of [[poset]], see the article [[dcpo]].
+Still another meaning occurs in algebra in the term [[integral domain]]. 
 
 ## Related entries
 
