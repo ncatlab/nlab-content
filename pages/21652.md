@@ -175,9 +175,11 @@ $$ \det \left({\begin{array}{cc} a & b \\ c & d \end{array}}\right) =
 
 Here $[x]$ stands for the equivalence class of $x \in K^\times$ in the abelianization $K^\times/[K^\times, K^\times]$.
 
-The [[special linear group]] $\mathrm{SL}(n,\mathbb{H})$ over the [[quaternions]] (e.g. [[SL(2,H)]]) is defined to be the group of $n \times n$ quaternionic matrices for which the Dieudonné determinant equals 1, or equivalently for which the Study determinant equals 1.    We can show that the [[quaternionic unitary group]] [[Sp(n)]] is a subgroup of $\mathrm{SL}(n,\mathbb{H})$, as follows.    So, unlike the real and complex cases, there is no additional concept of "special unitary group" in the quaternionic case.
+The [[special linear group]] $\mathrm{SL}(n,\mathbb{H})$ over the [[quaternions]] (e.g. [[SL(2,H)]]) is defined to be the group of $n \times n$ quaternionic matrices for which the Dieudonné determinant equals 1, or equivalently for which the Study determinant equals 1.    
 
-Every quaternionic unitary matrix is conjugate to a diagonal one since every element is conjugate to one in a maximal torus, $\mathrm{U}(n)$ contains a maximal torus of $\mathrm{Sp}(n)$, and every matrix in $\mathrm{U}(n)$ is conjugate to a diagonal one.   Thus, every $g \in Sp(n)$ is conjugate to one of the form $\mathrm{diag}(q_1, \dots, q_n)$ with $q_i \in \mathbb{C} \subset \mathbb{H}$ and $|q_i| = 1$ for all $i$.  By the defining properties of the Dieudonné determinant we have $det_D(\mathrm{diag}(q_1, \dots, q_n) = 1$, and since this determinant is invariant under conjugation we have $det_D(g) = 1$ for all $g \in Sp(n)$.  
+We can show that the [[quaternionic unitary group]] [[Sp(n)]] is a subgroup of $\mathrm{SL}(n,\mathbb{H})$, as follows.    So, unlike the real and complex cases, there is no additional concept of "special unitary group" in the quaternionic case.   
+
+Every quaternionic unitary matrix is conjugate to a diagonal one since every element is conjugate to one in a maximal torus, $\mathrm{U}(n)$ contains a maximal torus of $\mathrm{Sp}(n)$, and every matrix in $\mathrm{U}(n)$ is conjugate to a diagonal one.   Thus, every $g \in Sp(n)$ is conjugate to one of the form $\mathrm{diag}(q_1, \dots, q_n)$ with $q_i \in \mathbb{C} \subset \mathbb{H}$ and $|q_i| = 1$ for all $i$.  By the defining properties of the Dieudonné determinant we have $det_D(\mathrm{diag}(q_1, \dots, q_n)) = 1$, and since this determinant is invariant under conjugation we have $det_D(g) = 1$ for all $g \in Sp(n)$.  
 
 
 ## Draxl's pre-determinant
