@@ -1,6 +1,5 @@
 
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -50,3 +49,10 @@ Under the expected [[K-theory classification of topological phases of matter]], 
 (...)
 
 (For the moment see the references at *[[topological insulator]]* etc.)
+
+
+[[!redirects time reversal symmetry]]
+
+
+
+
