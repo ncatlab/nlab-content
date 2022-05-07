@@ -35,6 +35,12 @@ Introducing the [[nilpotence theorem]] in [[stable homotopy theory]]:
 
 * {#DevinatzHopkinsSmith98} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], _Nilpotence and Stable Homotopy Theory II_, Annals of Mathematics Second Series, Vol. 148, No. 1 (Jul., 1998), pp. 1-49 ([jstor:120991](https://www.jstor.org/stable/120991)) 
 
+
+On the [[Conner-Floyd isomorphism]] for the [[Atiyah-Bott-Shapiro orientation]] of [[KU]] and [[KO]] ([[cobordism theory determining homology theory]]):
+
+* {#HopkinsHovey92} [[Michael Hopkins]], [[Mark Hovey]], _Spin cobordism determines real K-theory_, Mathematische Zeitschrift volume 210, pages 181–196 (1992) ([doi:10.1007/BF02571790](https://doi.org/10.1007/BF02571790), [[HopkinsHoveyCobordismK.pdf:file]])
+
+
 On [[elliptic genera]], the [[Witten genus]] and the [[string orientation of tmf]]:
 
 * {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. Math. 146 (2001) 595&#8211;687 MR1869850 ([doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf))
