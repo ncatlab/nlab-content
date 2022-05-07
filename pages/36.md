@@ -169,7 +169,7 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
 
 If here $\mathcal{C} = $ [[Sets]] then this recovers the [[Bourbaki]]-definition of plain [[groups]], while if $\mathcal{C} = $ [[TopologicalSpaces]] this yields the notion of [[topological groups]]; for $\mathcal{C} = $ [[SmoothManifolds]] it yields [[Lie groups]], for $\mathcal{C} = $ [[Varieties]] it yields [[algebraic groups]], etc.
 
-Similarly one defines [[action objects|internal actions]] of groups, etc. 
+Similarly one defines [[action objects|internal actions]] of internal groups, [[formally principal actions]], etc.
 
 In fact, realizing that [[groups]] are equivalently [[pointed object|pointed]] [[n-connected object of an (infinity,1)-topos|connected]] [[groupoids]] one may readily generalize the example of [[internal groups]] to a notion of [[internal groupoids]] and then of [[internal categories]]. This way [[category theory]] and with it much of [[mathematics]]  may be considered internally to suitable ambient [[categories]] $\mathcal{C}$ (see also at _[[internal logic]]_ and _[[internal language]]_).
 
