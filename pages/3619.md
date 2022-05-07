@@ -95,6 +95,8 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 * [[tensor network]]
 
+* [[quantum error correction]]
+
 * [[entanglement entropy]]
 
 * [[holographic entanglement entropy]]
