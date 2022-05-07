@@ -44,8 +44,6 @@ A __[[Jacobson radical]]__ of a scale $M$ is the set $J(M)$ of all $a$ in $M$ su
 
 +-- {: .standout}
 The proof of the Linear Representation Theorem in section 8 of _Algebraic Real Analysis_ by Peter Freyd requires the use of [[excluded middle]] through its implicit definition of the [[quasiorder]] $\lt$ from the algebraically defined [[partial order]] $\leq$. In particular, that every equational axiom added to the theory of minor scales is either a consequence of the scale identity for scales, or is inconsistent with the theory of minor scales, is a classical result, as certain equations have only been derived from the scale identities through the Linear Representation Theorem. The same is true of the definition of simple scales in section 10, of the algebraic construction of the standard interval $I$ from simple scales in section 11, and various results involving absolute retracts in section 25. Since quasiorders can be constructed from partial orders in any [[inequality space]], these results hold if the scales have a [[tight apartness relation]], but it is unknown if these results still hold for general scales in [[constructive mathematics]]. 
-
-In fact, according to the appendix section 30, the coalgebra equation in a scale corresponds to a discrete coalgebra condition in an interval coalgebra, rather than the continuous/Heyting coalgebra condition needed for the interval. For the latter, one explicitly needs the interval coalgebra to be an [[inequality space]], paralleling the distinction between discrete and Heyting fields in constructive mathematics. This alone implies that it is most likely not possible to construct the continuous interval $I$ algebraically. 
 =--
 
 ### As star-autonomous categories
