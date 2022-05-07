@@ -19,7 +19,7 @@
 ## Idea 
 
 
-The concept of _[[resolution]]_ in [[homotopy theory]] specialized to [[simplicial homotopy theory]] is "simplicial resolution".  Simplicial resolutions can be constructed in various ways, for instance, by a comonad, or by a step-by-step method, developed by Michel André, that resembles the construction of a Eilenberg-Mac Lane space from a presentation, followed by adding cells to 'kill' the higher homotopy groups.
+The concept of _[[resolution]]_ in [[homotopy theory]] specialized to [[simplicial homotopy theory]] is "simplicial resolution".  Simplicial resolutions can be constructed in various ways, for instance, by a comonad, or by a step-by-step method, developed by Michel André, that resembles the construction of a Eilenberg-Mac Lane space from a [[group presentation]], followed by adding cells to 'kill' the higher homotopy groups.
 
 > the following needs attention
 
@@ -99,6 +99,8 @@ In an [[(infinity,1)-topos]] [[Čech cover]] $C(U) \stackrel{\simeq}{\to} X$
 * [[homological resolution]]
 
 * [[monadic cohomology]]
+
+* [[canonical resolution]]
 
 ## References and Literature
 
