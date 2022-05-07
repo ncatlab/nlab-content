@@ -414,20 +414,25 @@ The generalization of a [[fibered category]] to [[quasi-category]] theory is a [
 ###### Theorem 
 **($(\infty,1)$-Grothendieck construction)**
 
-Let $C$ be an [[(∞,1)-category]]. There is an equivalence 
+Let $C$ be a small [[(∞,1)-category]]. There is an equivalence 
 
 $$
   Cart(C) \simeq Func(C^{op}, (\infty,1) Cat)
 $$
 
-where 
-
-* on the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ -- incarnated as a [[sSet]]-[[subcategory]]
+* on the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ with small fibers and cartesian functors between them -- incarnated as a [[sSet]]-[[subcategory]]
 of the [[overcategory]] $sSet/C$ on [[Cartesian fibration]]s;
 
 * and on the right the [[(∞,1)-category of (∞,1)-functors]] from $C^{op}$ to the [[(∞,1)-category of (∞,1)-categories]].
 
+Furthermore, this is equivalence is natural for $C$, where $Cart(-)$ acts by taking pullbacks and $Func(-^{op}, (\infty,1) Cat)$ acts by composition.
+
 =--
+
+A reference for the naturality in small $C$ is corollary A.32 of [Gepner-Haugseng-Nikolaus 15](#GepnerHaugsengNikolaus15). The dual statement is made in remark 1.13 of [Mazel-Gee](#MazelGee).
+
+
+
 
 
 In the next section we discuss how this statement is presented in terms of [[model categories]].
@@ -1010,7 +1015,7 @@ Discussion in terms of [[lax (infinity,1)-colimits]] is in
 
 Section 1 of this paper reviews properties of the Grothendieck construction for quasicategories:
 
-* [[Aaron Mazel-Gee]], _All about the Grothendieck construction_ ([arXiv:1510.03525](https://arxiv.org/abs/1510.03525))
+* {#MazelGee} [[Aaron Mazel-Gee]], _All about the Grothendieck construction_ ([arXiv:1510.03525](https://arxiv.org/abs/1510.03525))
 
 Another review is
 
