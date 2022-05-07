@@ -332,7 +332,7 @@ There is a [[faithful functor]] from monoidal categories to [[multicategories]],
 
 ### Internal logic
 
-The [[internal language]] of monoidal categories is a flavor of [[linear logic]]/[[linear type theory]] (non-commutative multiplicative intuitionistic linear type theory). In this logical context the [[string diagrams]] of monoidal catgeories are called [[proof nets]].
+The [[internal language]] of monoidal categories is a flavor of [[linear logic]]/[[linear type theory]] (non-commutative multiplicative intuitionistic linear type theory). In this logical context the [[string diagrams]] of monoidal categories are called [[proof nets]].
 
 ## Where the definition comes from
 
