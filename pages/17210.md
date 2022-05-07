@@ -206,7 +206,7 @@ $$
     A \overset{id}{\to}
     \underset{= (r_n)_{n+1}}{\underbrace{A}} \overset{id}{\to}
     \underset{= (r_n)_n}{\underbrace{A}} 
-       \overset{id}{\to}
+       \overset{}{\to}
     \underset{= (r_n)_{n-1}}{\underbrace{0}}
     \to 
     0
