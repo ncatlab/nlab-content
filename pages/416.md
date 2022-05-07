@@ -20,7 +20,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -78,6 +78,8 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
 ## Examples
 
+### In 1-category theory
+
 * $V$ itself is always powered over itself, with $\pitchfork(v_1,v_2) := [v_1,v_2]$.
 
 * Every [[locally small category]] $C$ ($V = (Set,\times)$ ) with all [[product]]s  is powered over [[Set]]: the powering operation
@@ -96,6 +98,180 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
   is effectively the definition of the product (see [[limit]]).
 
+### In $\infty$-topos theory
+
+We discuss how the powering of [[(infinity,1)-toposes]] is given by forming [[mapping stacks]] out of [[locally constant (infinity,1)-stacks|locally constant $\infty$-stacks]]. All of the following formulas and their proos hold verbatim also for [[Grothendieck toposes]], as they just use general abstract properties.
+
+\linebreak
+
+Let $\mathbf{H}$ be an [[(infinity,1)-topos|$\infty$-topos]] with terminal [[(infinity,1)-geometric morphism|geometric morphism]] denoted
+
+
+$$
+  \mathbf{H}
+  \underoverset
+    {\underset{\Gamma}{\longrightarrow}}
+    {\overset{LConst}{\longleftarrow}}
+    {\;\;\;\;\bot\;\;\;\;}
+  Grp_\infty
+  \,,
+$$
+
+where the [[inverse image]] construcs [[locally constant infinity-stacks|locally constant $\infty$-stacks]],
+
+and with its [[internal hom]] ([[mapping stack]]) [[adjoint (infinity,1)-functor|adjunction]] denoted
+
+$$
+  \mathbf{H}
+    \underoverset
+      {\underset{Maps(X,-)}{\longrightarrow}}  
+      { \overset{ (-) \times X }{\longleftarrow} }
+      {\;\;\;\; \bot \;\;\;\;}
+  \mathbf{H}
+$$
+
+for $X \,\in\, \mathbf{H}$. Notice that this construction is also [[(infinity,1)-functor|$\infty$-functorial]] in the first argument: 
+$Maps\big( X \xrightarrow{f} Y ,\, A \big)$ is the morphism which under the [[(infinity,1)-Yoneda lemma|$\infty$-Yoneda lemma]] over $\mathbf{H}$ (which is large but locally small, so that the lemma does apply)  corresponds to
+
+$$
+  \mathbf{H}
+  \big(
+    (-)
+    ,\,
+    Maps(X,A)
+  \big)
+  \;\simeq\;
+  \mathbf{H}
+  \big(
+    (-) \times X
+    ,\,
+    A
+  \big)
+  \xrightarrow{
+    \mathbf{H}
+    \big(
+      (-) \times f
+      ,\,
+      A
+    \big)   
+  }
+  \mathbf{H}
+  \big(
+    (-) \times Y
+    ,\,
+    A
+  \big)
+  \;\simeq\;
+  \mathbf{H}
+  \big(
+    (-)
+    ,\,
+    Maps(X,A)
+  \big)
+  \,.
+$$
+
+\begin{proposition}
+The *powering* of $\mathbf{H}$ over [[Infinity-Grpd|$Grpd_\infty$]] is given by the [[mapping stack]] out of the [[locally constant infinity-stack|locally constant $\infty$-stacks]]:
+
+$$
+  \array{
+    Grpd_\infty^{op}
+    \times
+    \mathbf{H}
+    &
+    \overset{ LConst^{op} \times \mathrm{id} }{\longrightarrow}
+    &
+    \mathbf{H}^{op}
+    \times 
+    \mathbf{H}
+    &
+    \overset{Maps(-,-)}{\longrightarrow}
+    &
+    \mathbf{H}
+  }
+$$
+in that this operation has the following properties
+
+1. For all $X,\,A \,\in\, \mathbf{H}$ and $S \,\in\, Grpd_\infty$ we have a [[natural equivalence]]
+
+   $$
+     \mathbf{H}
+     \Big(
+       X
+       ,\,
+       Maps
+       \big(
+         LConst(S)
+         ,\,
+         A
+       \big)
+     \Big)
+     \;\;
+     \simeq
+     \;\;
+     Grpd_\infty
+     \Big(
+       S
+       ,\,
+       \mathbf{H}
+       \big(
+         X
+         ,\,
+         A
+       \big)
+     \Big)
+   $$
+
+1. In its first argument the operation 
+
+   1. sends the [[terminal object]] (the [[point]]) to the identity:
+
+      $$
+        Maps
+        \big(
+          LConst(\ast)
+          ,\,
+          X
+        \big)
+        \;\;
+        \simeq
+        \;\;
+         X
+      $$
+
+   1. sends [[(infinity,1)-colimits|$\infty$-colimits]] to [[(infinity,1)-limits]]:
+
+      $$
+        Maps
+        \Big(
+          \underset{
+            \longrightarrow
+          }{\lim}
+          \,
+          LConst\big(S_\bullet\big)
+          ,\,
+          X
+        \Big)
+        \;\;
+        \simeq
+        \;\;
+        \underset{
+          \longleftarrow
+        }{\lim}
+        \,
+        Maps
+        \Big(
+          LConst\big(S_\bullet\big)
+          ,\,
+          X
+        \Big)
+      $$
+
+\end{proposition}
+
+(...)
+
 ## Related concepts
 
 * [[tensored and cotensored category]]
@@ -103,6 +279,7 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 * [[copower]], [[(∞,1)-copower]]
 
 * [[pullback-power]]
+
 
 ## References
 
