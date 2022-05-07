@@ -19,8 +19,12 @@ Specifically on [[twisted K-theory]] and twisted [[tmf]]:
 
 On [[equivariant homotopy theory]]:
 
-
 * Andrew Blumberg, _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
+
+On the [[Arnold conjecture]] and [[Morava K-theory]]:
+
+* [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
 
 
 ## related $n$Lab entries
