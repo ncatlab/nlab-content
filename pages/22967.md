@@ -18,7 +18,7 @@
 ## Idea
  {#Idea}
 
-In the course of providing a [[geometry|geometric]]-[[proof]] of the [[spin-statistics theorem]], [Berry & Robbins 1997](#BerryRobbins97) asked, at each [[natural number]] $n \in \mathbb{N}$, for a [[continuous function|continuous]] and [[symmetric group|$Sym(n)$]]-[[equivariant function]]
+In the course of providing a [[geometry|geometric]] [[proof]] of the [[spin-statistics theorem]], [Berry & Robbins 1997](#BerryRobbins97) asked, at each [[natural number]] $n \in \mathbb{N}$, for a [[continuous function|continuous]] and [[symmetric group|$Sym(n)$]]-[[equivariant function]]
 
 \[
   \label{TheBerryRobbinsMap}
