@@ -25,8 +25,8 @@
 
 ## Idea
 
-In [[equivariant cohomology|equivariant]] generalization of how the [[universal principal bundle]] with [[structure group]] the [[projective unitary group]] $PU(\mathcal{H})$ on a [[separable Hilbert space]] $\mathcal{H}$ classifies the [[twisted cohomology|3-twist]] of [[twisted K-theory|twisted]] [[KU]]-[[cohomology theory]], so the the
-[[universal equivariant principal bundle]] with this [[structure group]] $PU(\mathcal{H})$ serves to classify the [[twisted cohomology|3-twists]] of [[twisted equivariant K-theory|equivariant]] [[KU]]-[[cohomology theory]].
+In [[equivariant cohomology|equivariant]] generalization of how the [[universal principal bundle]] with [[structure group]] the [[projective unitary group]] [[PU(ℋ)]] on a [[separable Hilbert space]] $\mathcal{H}$ classifies the [[twisted cohomology|3-twist]] of [[twisted K-theory|twisted]] [[KU]]-[[cohomology theory]], so the the
+[[universal equivariant principal bundle]] with this [[structure group]] [[PU(ℋ)]] serves to classify the [[twisted cohomology|3-twists]] of [[twisted equivariant K-theory|equivariant]] [[KU]]-[[cohomology theory]].
 
 ## Details
 
@@ -69,7 +69,7 @@ $$
   Grps\big(H, PU(\mathcal{H})\big) \sslash_{\!ad} PU(\mathcal{H})
 $$
 
-of the [[adjoint action]] of $PU(\mathcal{H})$ on the space of [[group homomorphisms]] from $H$.
+of the [[adjoint action]] of [[PU(ℋ)]] on the space of [[group homomorphisms]] from $H$.
 
 ## Properties
 
@@ -113,6 +113,8 @@ of the [[adjoint action]] of $PU(\mathcal{H})$ on the space of [[group homomorph
 ## References
 
 * {#BEJU14} [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Michael Joachim]], [[Bernardo Uribe]], _Universal twist in Equivariant K-theory for proper and discrete actions_, Proceedings of the London Mathematical Society, Volume 108, Issue 5 (2013) ([arXiv:1202.1880](https://arxiv.org/abs/1202.1880), [doi:10.1112/plms/pdt061](https://doi.org/10.1112/plms/pdt061))
+
+* {#UribeLueck13} [[Bernardo Uribe]], [[Wolfgang Lück]], Section 15 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
 * [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Bernardo Uribe]], [[Mario Velasquez]], Section 3.2 of: _Segal's spectral sequence in twisted equivariant K-theory for proper and discrete actions_, Proceedings of the Edinburgh Mathematical Society **61** 1 (2018) ([arXiv:1307.1003](https://arxiv.org/abs/1307.1003), [doi:10.1017/S0013091517000281](https://doi.org/10.1017/S0013091517000281))
 
