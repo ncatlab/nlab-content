@@ -101,7 +101,7 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
   * [[vector bundle]]
 
-  * [[sphere bundle]]
+  * [[sphere fiber bundle]], [[spherical fibration]]
 
   * [[equivariant bundle]]
 
