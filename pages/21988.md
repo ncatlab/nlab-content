@@ -1,9 +1,8 @@
-[[!redirects finite-rank complex orientation and Ravenel's spectra -- references]]
 
-### Finite-rank complex orientation and MΩΩSU(n)
+### Finite-dimensional complex orientation and Ravenel's spectra
  {#ReferencesFiniteStageOrientations}
 
-On [[complex oriented cohomology theory|complex orientation]] at finite rank and [[Ravenel's spectrum|Ravenel's]] [[MΩΩSU(n)]]-spectra $X(n)$ and $T(m)$:
+Discussion of [[complex oriented cohomology theory|complex orientation]] (in [[Whitehead generalized cohomology]]) on (only) those [[complex vector bundles]] which are [[pullback bundle|pulled back]] from base spaces of _bounded [[cell complex|cell]]-[[dimension]] ([Hopkins 84, 1.2](#Hopkins84))_ -- or rather, for the most part, of  [[Ravenel's spectrum|Ravenel's]] [[Thom spectra]] $X(n)$ and $T(m)$ which [[representable functor|co-represent]] these:
 
 * {#Ravenel84} [[Douglas Ravenel]], section 3 of: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
 
@@ -28,3 +27,7 @@ Vol. 10, No 03, (43–55). October 2008 ([cubo:1498](http://revistas.ufro.cl/ojs
 * Xiangjun Wang, Zihong Yuan, _The homotopy groups of $L_2 T(m)/\big(p^{[\tfrac{m}{2}]+2}, v_1 \big)$ for $m \gt 1$_, New York J. Math.24 (2018) 1123–1146 ([pdf](https://nyjm.albany.edu/j/2018/24-55v.pdf))
 
 [[!redirects finite-rank complex orientation and MΩSUn -- references]]
+
+[[!redirects finite-rank complex orientation and Ravenel&#39;s spectra -- references]]
+[[!redirects finite-rank complex orientation and Ravenel's spectra -- references]]
+
