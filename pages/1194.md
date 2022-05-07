@@ -623,9 +623,12 @@ The development of that to [[homotopy type theory]] followed insights by ([Hofma
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_, 2013
 
-A survey of the history of type theory is in 
+Survey of the history of type theoryL
 
 * Stanford Encyclopedia of Philosophy, _[Type theory](http://plato.stanford.edu/entries/type-theory/)_
+
+* [[Harley Eades]], *Type Theory and Applications*, 2012 ([pdf](https://metatheorem.org/includes/pubs/comp.pdf), [[EadesTypeTheoryAndApplications.pdf:file]])
+
 
 Of course there is also discussion of formalized [[types]] originating in [[computer science]] as _[[data types]]_, see there for references.
 
@@ -634,7 +637,6 @@ Surveys of and introductions to type theory include
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984 ([pdf](http://intuitionistic.files.wordpress.com/2010/07/martin-lof-tt.pdf))
 
 * [[Thomas Streicher]], _Investigations into intensional type theory_, habilitation 2003, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf); 
-
 
 * {#MartinLoef96} [[Per Martin-Löf]], _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11&#8211;60, 1996, ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf), [[MartinLofOnTheMeaning96.pdf:file]])
 
