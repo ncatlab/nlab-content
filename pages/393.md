@@ -69,7 +69,7 @@ with the main development of the concept starting in subsection 33 on page 96.
 
 Survey with an eye towards [[(∞,1)-categories]]:
  
-* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *Stable categories and structured ring spectra*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
+* [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886)) in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press 
 
 
 [[!redirects homotopical categories]]
