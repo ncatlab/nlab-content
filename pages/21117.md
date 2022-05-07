@@ -336,7 +336,7 @@ Introductions:
 * Joschka Roffe, *Quantum Error Correction: An Introductory Guide*, Contemporary Physics 2019 ([arXiv:1907.11157](https://arxiv.org/abs/1907.11157))
 
 
-See also
+See also:
 
 * Wikipedia, _[Quantum error correction](https://en.m.wikipedia.org/wiki/Quantum_error_correction)_
 
@@ -350,6 +350,10 @@ Implementation in [[experiment]]:
 
 
 ### Via holographic tensor networks
+
+First suggestion relating quantum error correction to [[black hole entropy]]:
+
+* {#VerlindeVerlinde12} [[Erik Verlinde]], [[Herman Verlinde]], *Black Hole Entanglement and Quantum Error Correction*, J. High Energ. Phys. 2013, 107 (2013) ([arXiv:1211.6913](https://arxiv.org/abs/1211.6913),  [doi:10.1007/JHEP10(2013)107](https://doi.org/10.1007/JHEP10(2013)107))
 
 Introducing the idea of quantum error correcting codes given by [[tensor network states]]:
 
@@ -385,11 +389,7 @@ Review:
 
 * {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_, PoS TASI2017 (2018) 002 ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040), [doi:10.22323/1.305.0002](https://doi.org/10.22323/1.305.0002))
 
-see also
-
-
-* [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
-
+* [[Pratik Rath]], *Aspects of Holography And Quantum Error Correction*, 2020 ([pdf](https://digitalassets.lib.berkeley.edu/etd/ucb/text/Rath_berkeley_0028E_19810.pdf), [[RathHolographyAndQEC.pdf:file]]) 
 
 Introduction of the more general [[Majorana dimer code]]:
 
@@ -401,17 +401,35 @@ Review:
 
 Further discussion of holographic quantum error correcting codes:
 
+* Henrique Lazari, Reginaldo Palazzo Jr., *Geometrically uniform hyperbolic codes*, Comput. Appl. Math. vol.24 no.2 Petrópolis 2005 ([doi:10.1590/S0101-82052005000200002](https://doi.org/10.1590/S0101-82052005000200002))
+
+* Enrico M. Brehm, Benedikt Richter, *Classical Holographic Codes*, Phys. Rev. D 96, 066005 (2017) ([arXiv:1609.03560](https://arxiv.org/abs/1609.03560))
+
 * Robert J. Harris, Nathan A. McMahon, Gavin K. Brennen, Thomas M. Stace, *Calderbank-Steane-Shor Holographic Quantum Error Correcting Codes*, Phys. Rev. A 98, 052301 (2018) ([arXiv:1806.06472](https://arxiv.org/abs/1806.06472))
 
 * Tamara Kohler, Toby Cubitt, *Toy Models of Holographic Duality between local Hamiltonians*, 	J. High Energy Phys. 2019:17 (2019) ([arXiv:1810.08992](https://arxiv.org/abs/1810.08992))
 
-
+* Tobias J. Osborne, Deniz E. Stiegemann, *Dynamics for holographic codes*, J. High Energ. Phys. 2020, 154 (2020) ([arXiv:1706.08823](https://arxiv.org/abs/1706.08823))
 
 * ChunJun Cao, Brad Lackey, *Approximate Bacon-Shor Code and Holography* ([arXiv:2010.05960](https://arxiv.org/abs/2010.05960))
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
 * Ning Bao, Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
+
+In relation to [[holographic Renyi entropy]]:
+
+* [[Chris Akers]], [[Pratik Rath]], *Holographic Renyi entropy from quantum error correction*,  J. High Energ. Phys. 2019, 52 (2019) ([arXiv:1811.05171](https://arxiv.org/abs/1811.05171))
+
+
+In view of [[black hole thermodynamics]]:
+
+* [Verlinde & Verlinde 2012](#VerlindeVerlinde12)
+
+* [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
+
+* Isaac H. Kim, Eugene Tang, [[John Preskill]], *The ghost in the radiation: Robust encodings of the black hole interior*, JHEP 2020, 31 (2020) ([arXiv:2003.05451](https://arxiv.org/abs/2003.05451))
+
 
 Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
 
