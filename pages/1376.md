@@ -12,6 +12,10 @@
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 =--
 =--
 
