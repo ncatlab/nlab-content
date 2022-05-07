@@ -183,10 +183,14 @@ Let $[n]$ denote the object of the [[simplex category]] $\Delta$ corresponding t
 
 By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
 
+### The minimal simplicial circle
+
+See at *[[minimal simplicial circle]]*.
+
 
 ### Cartesian products of simplices
 
-The non-degenerate [[simplices]] in the simplicial set which is the [[Cartesian product]] 
+The non-degenerate [[simplices]] in the [[Cartesian product of simplices]]
 
 $$
   \Delta[1] \times \Delta[2]
@@ -198,6 +202,7 @@ of the [[1-simplex]] $\Delta[1]$ with the [[2-simplex]] $\Delta[2]$ (i.e. the ca
 
 > graphics grabbed from [Friedman 08, p. 33](#Friedman08)
 
+For more on this and related examples see at *[[product of simplices]]*.
 
 ### Simplicial complexes
 
