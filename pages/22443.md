@@ -392,7 +392,9 @@ Prop. \ref{PositiveSemidefinitenessAtLowIntegerValuedOfEBeta} and
 
 ## Properties
 
-### Sum over one row
+### Some lemmas
+
+#### Sum over one row
 
 We give a useful expression (Lemma \ref{SumOverFirstRowOfCayleyDistanceKernel} below) for the sum over the first row of the Cayley distance kernel. This appears both in the expression for its Gershgorin radius (Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel}) as well as being the eigenvalue of the kernel on the homogeneous distribution (Example \ref{HomogeneousDistributionIsEigenvalue}).
 
@@ -731,7 +733,7 @@ where:
 
 
 
-### Gershgorin disc
+#### Gershgorin radius
 
 We discuss the [[Gershgorin radius]] of the Cayley distance kernel, in Prop. \ref{GershgorinRadiiOfCayleyDistanceKernel} below.
 
@@ -1019,6 +1021,8 @@ It thus follows from the general [character formula](Cayley+graph+spectrum#Chara
 ### Positivity
  {#Positivity}
 
+We discuss at which values of the [[inverse temperature]] $\beta$, the Cayley distance kernel on $Sym(n)$ is, as a [[bilinear form]], indefinite or positive (semi-)definite.
+
 #### Indefiniteness for $e^{\beta} \in (0,1) \cup (1,2) \cup \cdots \cup (n-2,n-1)$
 
 \begin{prop}\label{FailureOfPositivityForBetaBelowLn2}
@@ -1164,7 +1168,16 @@ This shows the first part of the statement. Finally, that the eigenvalues for $e
   while by Lemma \ref{SignOfTheEigenvalueOfTheSigantureDistribution} they do contain 0  away from this special case.
 \end{proof}
 
+#### Definiteness for $\beta \in \{n,  n+1 , n+2, \cdots \}$
 
+\begin{prop}\label{PositiveDefiniteneddForIntegerValuesLargerequaln}
+  The Cayley distance kernel on $Sym(n)$ is positive definite for all 
+  $e^\beta \in \{n, n+1, n+2, \cdots\}$.
+\end{prop}
+\begin{proof}
+  By Prop. \ref{PositiveSemidefinitenessAtLowIntegerValuedOfEBeta} the CD kernel on $Sym(n + k)$ is positive definite 
+  at $e^\beta = n + k$, which holds for all $k \in \mathbb{N}$. But the CD kernel in question is a [[principal submatrix]] of this positive one (see [this Prop.](Cayley+distance#CayleyDistancePreservedByInclusionOfSymmetricGroups)), and hence cannot be less than positive itsef, by the [[Cauchy interlace theorem]].
+\end{proof}
 
 
 #### Definiteness for $\e^\beta \gt \frac{n-1}{3^{1/n}-1}  $
