@@ -34,13 +34,13 @@ $$
 
 of [[adjoint functors]] (with $L$ [[left adjoint]] and $R$ [[right adjoint]]) is a **Quillen adjunction** if the following equivalent conditions are satisfied:
 
-1. $L$ preserves cofibrations and acyclic cofibrations;
+1. $L$ preserves [[cofibrations]] and [[acyclic cofibrations]];
 
-1. $R$ preserves fibrations and acyclic fibrations;
+1. $R$ preserves [[fibrations]] and [[acyclic fibrations]];
 
-1. $L$ preserves cofibrations and $R$ preserves fibrations;
+1. $L$ preserves [[cofibrations]] and $R$ preserves [[fibrations]];
 
-1. $L$ preserves acyclic cofibrations and $R$ preserves acyclic fibrations.
+1. $L$ preserves [[acyclic cofibrations]] and $R$ preserves [[acyclic fibrations]].
 
 =--
 
