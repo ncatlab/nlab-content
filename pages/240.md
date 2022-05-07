@@ -20,12 +20,12 @@ An [[elementary topos]] $E$ is **well-pointed** if
 
 1. the [[terminal object]] 1 is a [[separator|generator]];
 
-   equivalently: the [[global section]] functor $\Gamma : E \to Set = E(1, -)$
+   * equivalently: the [[global section]] functor $\Gamma : E \to Set = E(1, -)$
    is a [[faithful functor]];
 
-   equivalently: if $f, g: a \rightarrow b$ are morphisms such that $f x = g x$ for all [[global element]]s $x: 1 \to a$, then $f = g$;
+   * equivalently: if $f, g: a \rightarrow b$ are morphisms such that $f x = g x$ for all [[global element]]s $x: 1 \to a$, then $f = g$;
 
-   equivalently: every global element $x: 1 \to a$ is an [[epimorphism]]. 
+   * equivalently: the family of all global elements $x: 1 \to a$ is a [[jointly epimorphic family]].
 
 2. and $E$ is nondegenerate, i.e., 1 is not an [[initial object]].
 
@@ -39,10 +39,36 @@ An [[elementary topos]] $E$ is **well-pointed** if
 
 ## Properties
 
+### Strong generation
+
+In a well-pointed topos, the terminal object is even a [[strong generator]],
+
+  * equivalently: the global section functor $E(1,-)$ is a [[conservative functor]].
+  * equivalently: if $f:A\to B$ induces a bijection $E(1,A) \cong E(1,B)$, then $f$ is an isomorphism.
+  * equivalently: if $m:A\rightarrowtail B$ is a [[monomorphism]] such that every global element $1\to B$ factors through $A$, then $m$ is an isomorphism.
+
+To prove the last version, let $\chi_A : B\to \Omega$ be the classifying map of $A$, and let $\top : B\to \Omega$ be the classifying map of the maximal subobject.  If every global element $b:1\to B$ factors through $A$, then $\chi_A b = \top b$ for all such $b$.  Hence $\chi_A = \top$ by well-pointedness, so $A$ is isomorphic to the maximal subobject.
+
+Note that in any category with [[equalizers]], a strong generator is automatically a generator, since the equalizer of two parallel morphisms is the maximal subobject just when the two morphisms are equal.  So the above statements are also equivalent to well-pointedness.
+
 ### Boolean properties
 
-Assuming that one accepts [[excluded middle]] in one\'s metalogic, a well-pointed topos is also [[Boolean topos|Boolean]].  Similarly, a well-pointed topos is [[two-valued topos|two-valued]]; that is, the only [[global element|global elements]] of the [[subobject classifier]] are $\top$ and $\bot$ (and these are distinct, by nondegeneracy).
+Assuming that one accepts [[excluded middle]] in one\'s metalogic, a well-pointed topos is also [[Boolean topos|Boolean]].  To see this, let $U\rightarrowtail A$ be a subobject and $\neg U$ its [[Heyting algebra|Heyting complement]].  Then by definition, the global elements of $\neg U$ are precisely the global elements of $A$ that do not factor through $U$.  But then every global element of $A$ factors through $U \cup \neg U$, hence by strong generation $U\cup \neg U = A$.
 
+Similarly, a well-pointed topos is [[two-valued topos|two-valued]].  In other words, that is, the only [[global element|global elements]] of the [[subobject classifier]] are $\top$ and $\bot$ (and these are distinct, by nondegeneracy) -- or equivalently, the only [[subterminal objects]] are $0$ and $1$.  To see this, note by strong generation a subobject of any object is uniquely determined by the global elements that factor through it.  But $1$ has only one global element, so it only has two possible global elements.
+
+Finally, a well-pointed topos has [[split supports]].  For the support of any object $A$ must be either $0$ or $1$ by two-valuedness.  If it is $0$ then $A\cong 0$ also and its support is split.  Otherwise, $A\ncong 0$; now consider the two coproduct inclusions $inl, inr : A \rightrightarrows A+A$.  Their pullback is $0$ by disjointness.  Since $A\ncong 0$, we have $inl\neq inr$, hence by well-pointedness there is a global element $a:1\to A$ such that $inl a \neq inr a$.  Thus $a$ splits the support of $A$.
+
+Conversely, we have the following:
+
+\begin{theorem}
+If $E$ is nondegenerate (i.e. $1\ncong 0$), Boolean, two-valued, and split supports, then it is well-pointed.
+\end{theorem}
+\begin{proof}
+Let $A\rightarrowtail B$ be a monomorphism such that every global element of $B$ factors through it.  Then $\forall_B A$ is a subterminal object, hence either $1$ or $0$.  If it is $0$, then its complement $\neg\forall_B A = \exists_B \neg A$ is $1$, which is to say that $\neg A$ is well-supported.  Hence, since supports split, $\neg A$ has a global element, which is impossible since every global element of $B$ factors through $A$.  Hence it must be that $\forall_B A = 1$, which implies $A=B$.
+\end{proof}
+
+Thus, in external classical logic, a topos is well-pointed if and only if it is nondegenerate, Boolean, two-valued, and has split supports.  In particular, a nondegenerate two-valued topos satisfying the external [[axiom of choice]] is well-pointed.
 
 ### Logical properties
 
