@@ -23,7 +23,7 @@ In [[formal logic]] such as [[type theory]] a _telescope_ $\Delta$ is a [[finite
 
 ## Definition
 
-Telescopes are defined inductively with the following [[rules]]
+In [[dependent type theory]], telescopes are defined inductively with the following rules
 
 $$\frac{}{\epsilon\ \mathrm{tel}} \qquad \frac{\Delta\ \mathrm{tel} \quad \Delta \vdash A \mathrm{type}}{(\Delta,x:A)\ \mathrm{tel}}$$
 
@@ -33,13 +33,15 @@ $$\frac{}{():\epsilon} \qquad \frac{\delta:\Delta \quad \Delta \vdash A \mathrm{
 
 which are mutually defined with their action on terms and types. 
 
-$$\frac{\Delta \vdash a:A \quad \delta:\Delta}{a[\delta]:A[\delta]}$$
+$$\frac{\Delta \vdash A\ \mathrm{type} \quad \delta:\Delta}{A[\delta]\ \mathrm{type}} \qquad \frac{\Delta \vdash a:A \quad \delta:\Delta}{a[\delta]:A[\delta]}$$
 
 ## See also
 
 * [[term in context]]
 
 * [[dependent type]]
+
+* [[dependent identity type]]
 
 ## References
 
