@@ -204,7 +204,7 @@ Let $V$ be a ([[locally small category|locally small]]) [[closed monoidal catego
 
 Observe that the setup, statement and proof of Tannaka duality for permutation representations given above is the special case for $V = $ [[Set]] of a statement verbatim the same in $V$-[[enriched category theory]], with the ordinary [[functor category]] replaced everywhere by the $V$-[[enriched functor category]]:
 
-Then the statement says:
+Then the $V$-enriched Tannaka duality theorem states that we can reconstruct a monoid $A$ as the monoid of endomorphisms of the forgetful $V$-functor from $A Mod$ to $V$:
 
 
 +-- {: .num_theorem}
