@@ -22,14 +22,14 @@
 
 ## Idea
 
-The _Gelfand-Naimark-Segal construction_ ("GNS construction") represents a [[state on a star-algebra]] over the [[complex numbers]], which a priori is defined purely algebraically as a non-degenerate positive linear function
+The _Gelfand-Naimark-Segal construction_ ("GNS construction") represents a [[state on a star-algebra]] over the [[complex numbers]] -- which *a priori* is defined purely algebraically as a non-degenerate positive linear function
 
 $$
   \rho \;\colon\; \mathcal{A} \longrightarrow \mathbb{C}
   \,,
 $$
 
-by a [[vector]] $\psi \in \mathcal{H}$ in a [[complex numbers|complex]] [[Hilbert space]] $\mathcal{H}$ as the "[[expectation value]]"
+-- by a [[vector]] $\psi \in \mathcal{H}$ in a [[complex numbers|complex]] [[Hilbert space]] $\mathcal{H}$ as the "[[expectation value]]"
 
 $$
   \begin{aligned}
