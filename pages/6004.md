@@ -19,7 +19,7 @@ This entry is to record the monograph
 
   **Handbook of Categorical Algebra**
 
-  * Vol 1: 
+  * Vol. 1: 
 
     **Basic Category Theory**
 
@@ -31,7 +31,7 @@ This entry is to record the monograph
 
     [doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)
 
-  * Vol 3: 
+  * Vol. 3: 
 
     **Categories of Sheaves**
 
@@ -53,15 +53,15 @@ Book review:
 
 Vol. 1: Basic Category Theory
 
-> Introduction; 1. The language of categories; 2. [[limits|Limits]]; 3. [[adjoint functor|Adjoint functors]]; 4. Generators and projectives; 5. Categories of fractions; 6. Flat functors and Cauchy completeness; 7. Bicategories and distributors; 8. [[internal category|Internal category theory]]; Bibliography; Index.
+> Preface; Introduction; 1. The language of categories; 2. [[limits|Limits]]; 3. [[adjoint functor|Adjoint functors]]; 4. Generators and projectives; 5. Categories of fractions; 6. Flat functors and Cauchy completeness; 7. Bicategories and distributors; 8. [[internal category|Internal category theory]]; Bibliography; Index.
 
 Vol. 2: Categories and Structures 
 
-> Preface; Introduction to the handbook; 1. [[abelian category|Abelian categories]]; 2. [[regular category|Regular categories]]; 3. [[algebraic theory|Algebraic theories]]; 4. [[monad|Monads]]; 5. [[accessible category|Accessible categories]]; 6. [[enriched category theory|Enriched category theory]]; 7. [[topological category|Topological categories]]; 8. [[fibered category|Fibred categories]]; Bibliography; Index.
+> Preface; Introduction; 1. [[abelian category|Abelian categories]]; 2. [[regular category|Regular categories]]; 3. [[algebraic theory|Algebraic theories]]; 4. [[monad|Monads]]; 5. [[accessible category|Accessible categories]]; 6. [[enriched category theory|Enriched category theory]]; 7. [[topological category|Topological categories]]; 8. [[fibered category|Fibred categories]]; Bibliography; Index.
 
-  3: Categories of Sheaves, [gBooks](http://books.google.fr/books/about/Handbook_of_Categorical_Algebra_Categori.html?id=7jgots78faUC)
+Vol. 3: Categories of Sheaves
 
-> 3rd vol. [ToC pdf](http://www.langtoninfo.com/web_content/9780521441803_toc.pdf)
+> Preface; Introduction; 1. [[locale|Locales]]; 2. [[sheaf|Sheaves]]; 3. [[Grothendieck toposes]]; 4. [[classifying topos|The classifying topos]]; 5. [[elementary topos|Elementary toposes]]; 6. [[internal logic|Internal logic of a topos]]; 7. [[the law of excluded middle|The law of excluded middle]]; 8. The axiom of infinity; 9. [[internal sheaf|Sheaves in a topos]]; Bibliography; Index.
 
 
 category: reference
