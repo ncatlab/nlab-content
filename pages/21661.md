@@ -85,7 +85,7 @@ On [[heterotic line bundles]] in the [[hidden sector]] of [[heterotic M-theory]]
 
 On [[heterotic line bundles]] seen in [[F-theory]] under [[duality between M/F-theory and heterotic string theory]]:
 
-* [[Andreas Braun]], Callum Brodie, [[Andre Lukas]], [[Fabian Ruehle]], _NS5-Branes and Line Bundles in Heterotic/F-Theory Duality_, Phys. Rev. D 98, 126004 (2018) ([arXiv:1803.06190](https://arxiv.org/abs/1803.06190))
+* [[Andreas Braun]], Callum Brodie, [[Andre Lukas]], [[Fabian Ruehle]], _NS5-Branes and Line Bundles in Heterotic/F-Theory Duality_, Phys. Rev. D 98, 126004 (2018) ([arXiv:1803.06190](https://arxiv.org/abs/1803.06190), [doi:10.1103/PhysRevD.98.126004](https://doi.org/10.1103/PhysRevD.98.126004))
 
 
 See also:
