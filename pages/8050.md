@@ -1,9 +1,24 @@
 
+
+> ([[null set|Null set]] redirects here; for the notion in set theory, see [[empty set]].)
+
+***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
 # Null and full sets
 * table of contents
 {: toc}
 
-([[null set|Null set]] redirects here; for the notion in set theory, see [[empty set]].)
+
 
 ## Idea
 
@@ -71,6 +86,10 @@ $$\ess\forall \neg{\phi} \;\Leftrightarrow\; \neg\ess\exists \phi$$
 and other analogues of theorems from [[predicate logic]].  Note that the last item listed requires [[excluded middle]] even though its analogue from ordinary predicate logic does not.
 
 A similar logic is satisfied by '[[eventually]]' and its dual ('frequently') in [[filters]] and [[nets]].
+
+## Related concepts
+
+* [[almost surely]]
 
 
 [[!redirects negligible set]]
