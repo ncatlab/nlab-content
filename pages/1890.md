@@ -515,8 +515,7 @@ Strong monads are important in Moggi's theory of notions of computation (see [[m
 
 More in-text references:
 
-* {#sato} Tetsuya Sato, _The Giry monad is not strong for the canonical symmetric monoidal closed structure on Meas_,Journal of Pure and Applied Algebra
-Volume 222, Issue 10, October 2018, Pages 2888-2896. ([arXiv:1612.05939](https://arxiv.org/abs/1612.05939))
+* {#sato} Tetsuya Sato, _The Giry monad is not strong for the canonical symmetric monoidal closed structure on Meas_,   Journal of Pure and Applied Algebra, Volume 222, Issue 10, October 2018, Pages 2888-2896. ([arXiv:1612.05939](https://arxiv.org/abs/1612.05939))
 
 
 [[!redirects strong monads]]
