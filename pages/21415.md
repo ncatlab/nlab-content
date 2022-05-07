@@ -16,7 +16,7 @@
 
 ## Idea
 
-Introduced by [Hovey 1998](#Hovey98), the notion of *semimodel categories* s a relaxation of that of [[model categories]] whoch allows for a largely similar theory.
+Introduced by [Hovey 1998](#Hovey98), the notion of *semimodel categories* s a relaxation of that of [[model categories]] which allows for a largely similar theory.
 
 The notion of a [[weak model category]] and [[premodel category]]
 relaxes the definition even further.
