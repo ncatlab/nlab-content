@@ -22,7 +22,7 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 
 A commutative ring $R$ is a **inverse ring** if there exists a function $(-)^{-1}: \mathrm{Can}(R) \to R$ from the [[multiplicative submonoid of cancellative elements]] in $R$ to $R$ itself, often called the *multiplicative inverse* or *reciprocal*, such that for all $e \in \mathrm{Can}(R)$, $e \cdot e^{-1} = 1$ and $e^{-1} \cdot e = 1$. 
 
-Thus, in an inverse ring, $\mathrm{Can}(R)$ and the group of units $R^\times$ coincide. 
+Thus, in an inverse ring, $\mathrm{Can}(R)$ and the [[group of units]] $R^\times$ coincide. 
 
 ## Examples ##
 
