@@ -128,9 +128,7 @@ Moreover with discussion of [[action objects]]:
 
 * [[Francis Borceux]], [[George Janelidze]], [[Gregory Maxwell Kelly]], around p. 8 of: _Internal object actions_, Commentationes Mathematicae Universitatis Carolinae (2005) Volume: 46, Issue: 2, page 235-255 ([dml:249553](https://eudml.org/doc/249553))
 
-See also:
 
-* Tao Lu, Zhenzhen Zhu, _The Action of Group Object in A Topos_,   Proceedings of:  _2015 International Conference on Management, Education, Information and Control_ ([doi:10.2991/meici-15.2015.312](https://doi.org/10.2991/meici-15.2015.312))
 
 More general internalization via [[sketches]]:
 
