@@ -81,11 +81,11 @@ On the other hand, in type theories that have a [[type of types]], there may be 
 Natural deduction also generally involves *hypothetical judgments* or *[[deductive reasoning|reasoning]] from [[assumptions]]*.  For instance, the introduction rule for [[implication]] in a system of [[propositional logic]] says that if, *assuming* "$A$", we can derive "$B$", then we can derive "$A\Rightarrow B$".  This is sometimes written as
 \[ \frac{\array{[A]\\ \vdots \\ B}}{A\Rightarrow B} \label{impintro} \]
 (We now follow the common practice of writing the judgment "$A\;true$" as simply "$A$".)
-Here the $\vdots$ indicate an arbitrary [[derivation]] tree, while the brackets around $A$ indicate that this assumption has been "discharged" and is no longer an assumption in the conclusion $A\Rightarrow B$.  To be precise, we should annotate each bracket somehow to indicate which rule discharged that assumption.
+Here the $\vdots$ indicate an arbitrary [[deduction|derivation]] tree, while the brackets around $A$ indicate that this assumption has been "discharged" and is no longer an assumption in the conclusion $A\Rightarrow B$.  To be precise, we should annotate each bracket somehow to indicate which rule discharged that assumption.
 
 Another way to indicate hypothetical reasoning (which also allows it to fit once again within the general notion of [[deductive system]]) is to indicate in each judgment the hypotheses on which it depends.  Thus, we might write "$A\vdash B$" to mean a hypothetical judgment of $B$ assuming $A$.  With this notation, the introduction rule for $\Rightarrow$ can be written as:
 $$\frac{A\vdash B}{\vdash A\Rightarrow B}.$$
-The rule \eqref{impintro}, where $\vdots$ indicates an arbitrary [[derivation]], can then be written as
+The rule \eqref{impintro}, where $\vdots$ indicates an arbitrary [[deduction|derivation]], can then be written as
 $$ \frac{\array{\frac{}{A\vdash A} \\ \vdots \\ A\vdash B}}{\vdash A\Rightarrow B}. $$
 Here we have prefixed the entire derivation $\vdots$ in \eqref{impintro} by "$A\vdash$" to indicate that it is all performed with $A$ as an assumption, and the discharge of that assumption is indicated by removing this prefix from the final conclusion.  We also begin the deduction with the *axiom* $A\vdash A$ (the [[identity rule]]).
 
