@@ -19,7 +19,7 @@ What is called _functional calculus_ or _function calculus_ are operations by wh
 
 ## Statements
 
-Let $A$ be a [[C-star algebra]] (possibly non-commutative) and $a \in A$ a [[normal operator]]. With $sp(a)$ the [[operator spectrum]] of $a$ write $C(sp(a))$ for the commutative $C^\ast$-algebra of contrinuous complex-valued functions on $sp(a)$. Finally write $\iota : \in C(sp(A))$ for the function $\iota : x \mapsto x$.
+Let $A$ be a [[C-star algebra]] (possibly non-commutative) and $a \in A$ a [[normal operator]]. With $sp(a)$ the [[operator spectrum]] of $a$ write $C(sp(a))$ for the commutative $C^\ast$-algebra of continuous complex-valued functions on $sp(a)$. Finally write $\iota : \in C(sp(A))$ for the function $\iota : x \mapsto x$.
 
 
 +-- {: .num_theorem}
