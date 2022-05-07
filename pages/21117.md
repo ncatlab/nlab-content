@@ -381,6 +381,8 @@ Realization in [[experiment]]:
 
 * D. G. Cory, M. D. Price, W. Maas, [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojchiek H. Zurek]], T. F. Havel, and S. S. Somaroo, *Experimental Quantum Error Correction*, Phys. Rev. Lett. 81, 2152 (1998) ([doi:10.1103/PhysRevLett.81.2152](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.2152))
 
+* Adrian Cho, *[The biggest flipping challenge in quantum computing](https://www.sciencemag.org/news/2020/07/biggest-flipping-challenge-quantum-computing)*, Science News Jul. 9, 2020 
+
 and via methods from [[topological quantum computation]]:
 
 * Daniel Nigg, Markus Mueller, Esteban A. Martinez, Philipp Schindler, Markus Hennrich, Thomas Monz, Miguel A. Martin-Delgado, Rainer Blatt, 
