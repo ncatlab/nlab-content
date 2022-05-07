@@ -231,6 +231,8 @@ is a model for the [[classifying space]] of reduced complex [[topological K-theo
 
 * [[stable orthogonal group]]
 
+* [[U(ℋ)]], [[PU(ℋ)]]
+
 ## References
 
 Discussion in the context of [[topological K-theory]]:
