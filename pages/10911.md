@@ -28,7 +28,9 @@ In ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) it is claimed that com
 
 ## Related concepts
 
-* [[BFSS matrix model]], [[BMN matrix model]]
+[[!include brane matrix models -- content]]
+
+
 
 * [[lattice gauge theory]]
 
