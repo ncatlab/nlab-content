@@ -34,7 +34,7 @@ More explicitly, __De Morgan duality__ is the duality between logical operators 
 | ---------------------------------------- | - | ------------------------------------------ |
 | $\top$ ([[truth]])                       |   | $\bot$ ([[falsehood]])                     |
 | $\wedge$ ([[conjunction]])               |   | $\vee$ ([[disjunction]])                   |
-| $\Rightarrow$ ([[conditional]])          |   | $\setminus$ ([[without]])                  |
+| $\Rightarrow$ ([[conditional]])          |   | $\setminus$ ([[co-Heyting algebra|subtraction]])                  |
 | $\Leftrightarrow$ ([[biconditional]])    |   | $+$ ([[exclusive disjunction]])            |
 | $\neg$ ($p \Rightarrow \bot$)            |   | $-$ ($\top \setminus p$)                   |
 | $\forall$ ([[universal quantification]]) |   | $\exists$ ([[existential quantification]]) |
