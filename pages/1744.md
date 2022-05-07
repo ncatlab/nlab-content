@@ -147,17 +147,16 @@ So in particular if $X$ is an $n$-coskeletal [[Kan complex]], all its [[simplici
 
 ### Compatibility with Kan conditions
 
-+-- {: .num_prop}
++-- {: .num_prop #CoskeletonPreservesKanComplexes}
 ###### Proposition
 
 The coskeleton operations $\mathbf{cosk}_n$ preserve [[Kan complexes]].
 
-$\mathbf{cosk}_n$ preserves those [[Kan fibrations]] between [[Kan complexes]]
-whose [[codomains]] have trivial [[homotopy group]] $\pi_n$.
+More generally, $\mathbf{cosk}_n$ preserves those [[Kan fibrations]] between [[Kan complexes]] whose [[codomains]] have [[trivial group|trivial]] [[homotopy group]] $\pi_n$.
 
 =--
 
-([Math.SE discussion](http://math.stackexchange.com/a/597990/58526))
+([Dwyer & Kan 1984, p. 141 (4 of 9)](#DwyerKan84), proofs are spelled out by [Low 2013](#Low13), [Deflorin 2019, Lemma 10.12](#Deflorin19))
 
 
 ### Truncation and Postnikov towers {#Truncation}
@@ -212,10 +211,15 @@ For the interpretation of this in terms of  [[(n,1)-topos]]es inside the [[(∞,
 
 * [[Peter May]], Section II.8 of: _Simplicial objects in algebraic topology_, The University of Chicago Press 1967 ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html))
 
-* [[William Dwyer]], [[Dan Kan]], Section 1.2 (vi) of: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 139-146 ( <a href="https://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>, [pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
+* {#DwyerKan84} [[William Dwyer]], [[Dan Kan]], Section 1.2 (vi) of: _An obstruction theory for diagrams of simplicial sets_, Indagationes Mathematicae (Proceedings) Volume 87, Issue 2, 1984, Pages 139-146 ( <a href="https://doi.org/10.1016/1385-7258(84)90015-5">doi:10.1016/1385-7258(84)90015-5</a>, [pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
-* [[Paul Goerss]], [[Rick Jardine]], Section 6.3 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999)  Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4))
+* [[Paul Goerss]], [[J. F. Jardine]], Section VI.3 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999)  Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4))
 
+Also:
+
+* {#Low13} [[Zhen Lin]], [Math.SE:a/597990](http://math.stackexchange.com/a/597990/58526)
+
+* {#Deflorin19} Gian Deflorin, Section 10.2 of: *The Homotopy Hypothesis*, Zurich 2019 ([2019](http://user.math.uzh.ch/cattaneo/deflorin.pdf), [[Deflorin_HomotopyHypothesis.pdf:file]])
 
 The [[level of a topos]]-structure of simplicial (co-)skeleta is discussed in
 
