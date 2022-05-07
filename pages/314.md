@@ -558,7 +558,7 @@ In general limits do _not_ commute with [[colimits]]. But under a number of spec
 
 ## References
 
-Limit and colimits were defined in [[Daniel M. Kan]] in Chapter II of the paper that also defined [[adjoint functors]]:
+Limit and colimits were defined in [[Daniel M. Kan]] in Chapter II of the paper that also defined [[adjoint functors]] and [[Kan extensions]]:
 
 * [[Daniel M. Kan]], _Adjoint functors_, Transactions of the American Mathematical Society 87:2 (1958), 294–294 ([doi:10.1090/s0002-9947-1958-0131451-0](https://doi.org/10.1090/s0002-9947-1958-0131451-0))
 
