@@ -41,7 +41,7 @@ The term is also used for a [[Reedy model structure|Reedy fibrant]] replacement 
 
 ## Examples 
 
-1. A basic example is the free simplicial resolution of a group.
+### Free simplicial resolution of a group.
 
 There is the obvious adjoint pair of functors,
 
@@ -82,9 +82,9 @@ Of course this construction did not depend on the fact that we were handling gro
 This leads to the subject of [[monadic cohomology]]. 
 
 
+### Cech nerve
 
-
-1. In an [[(infinity,1)-topos]] [[Čech cover]] $C(U) \stackrel{\simeq}{\to} X$
+In an [[(infinity,1)-topos]] [[Čech cover]] $C(U) \stackrel{\simeq}{\to} X$
   induced by a [[cover]] $(U = \coprod_i U_i) \to X$ is a simplicial resolution of $X$.
 
 ## Related concepts
