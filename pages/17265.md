@@ -2281,7 +2281,7 @@ More generally:
 +-- {: .num_prop }
 ###### Proposition
 
-The [[product topological space]] of a [[compactly generated topological space]] with a [[locally compact toopological space|locally compact]] [[Hausdorff topological space]] is itself compactly generated.
+The [[product topological space]] of a [[compactly generated topological space]] with a [[locally compact topological space|locally compact]] [[Hausdorff topological space]] is itself compactly generated.
 
 =--
 
@@ -2305,7 +2305,7 @@ By example \ref{CWComplexIsCompactlyGenerated}, example \ref{ProductOfCWWithLoca
 +-- {: .num_theorem #ModelStructureOnTopcg} 
 ###### Theorem
 
-The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a [[model category]] structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
+The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a [[model category]] structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}). The [[k-ification]] coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
 
 $$
   Top_{cg, Quillen}
@@ -3533,7 +3533,6 @@ Useful discussion of the issue of [[compactly generated topological spaces]] in 
 See also
 
 * {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
-
 
 The observation that the proof directly extends to give the [[projective model structures on enriched functors]], enriched over $Top_{Quillen}$, is due to 
 
