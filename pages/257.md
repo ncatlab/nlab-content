@@ -438,6 +438,8 @@ Model structures can be induced on certain (usually [[lax limit|lax]]) limits an
 
 ## Related concepts
 
+* [[simplicial homotopy theory]]
+
 * [[synthetic homotopy theory]]
 
 * [[homotopy category of a model category]]
@@ -495,7 +497,9 @@ For yet another introduction to model categories, with an eye towards their use 
 
 * {#DwyerSpalinski95} [[William Dwyer]], J. Spalinski, _[[Homotopy theories and model categories]]_ ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf)) in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ 1995
 
-* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv](http://arxiv.org/abs/math.AT/0609537))
+* [[Paul Goerss]], [[Kirsten Schemmerhorn]], _Model categories and simplicial methods_, Notes from lectures given at the University of Chicago, August 2004, in: _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537), [doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
+
+
 
 #### Other sources
 
