@@ -134,10 +134,10 @@ Other references
  {#Escardo18}
 
 
-The background assumptions for Lawvere's account are reduced in 
+The necessary assumptions for Lawvere's account are reduced in various ways in
 
-* {#Roberts} [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) arXiv:[2110.00239](https://arxiv.org/abs/2110.00239)
+* {#Roberts} [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) [arXiv:2110.00239](https://arxiv.org/abs/2110.00239)
 
-as well as versions available in different settings.
+
 
 [[!redirects Lawvere fixed point theorem]]
