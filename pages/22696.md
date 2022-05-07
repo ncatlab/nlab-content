@@ -12,13 +12,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-A __possibly empty left group__ is a [[set]] $G$ with a binary operation $(-)\backslash(-):G \times G \to G$ such that:
+A __possibly empty left group__ is a [[set]] $G$ with a binary operation $(-)\backslash(-):G \times G \to G$ (a [[magma]]) such that:
 
   * For all $a$ and $b$ in $G$, $a\backslash a=b\backslash b$
   * For all $a$ in $G$, $(a\backslash (a\backslash a))\backslash (a\backslash a)=a$
@@ -60,4 +61,8 @@ Every possibly empty left group $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defi
 
 * [[possibly empty abelian group]] (commutative version)
 
+* [possibly empty heap](heap#empty) (forgetting the unit element)
+
 * [[pseudo-torsor]], [[group]], [[torsor]]
+
+
