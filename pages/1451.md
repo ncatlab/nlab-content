@@ -10,6 +10,10 @@ See
 
 * [[synthetic differential geometry]].
 
+## Students
+
+* [[Maren Justesen]]
+
 category: people
 
 [[!redirects A. Kock]]
