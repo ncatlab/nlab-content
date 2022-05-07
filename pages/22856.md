@@ -1,17 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea
 
-A divided power algebra is an algebra $A$ together with an ideal $I$ and a collection of operations $\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ which behave like operations of taking divided powers $x\mapsto x^{n}/n!$ in power series.
+A *divided power algebra* is an [[associative algebra]] $A$ together with an [[ideal]] $I$ and a collection of operations $\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ which behave like operations of taking [[divided powers]] $x\mapsto x^{n}/n!$ in [[power series]].
 
 ## Definition
 
-Let $R$ be a ring. A __divided power $R$-algebra__, or __PD-$R$-algebra__, is a triple $(A,I,\gamma)$ with
+Let $R$ be a [[ring]]. A __divided power $R$-algebra__, or __PD-$R$-algebra__, is a triple $(A,I,\gamma)$ with
 
-- $A$ an $R$-algebra;
-- $I$ an ideal of $A$;
+- $A$ an $R$-[[associative algebra|algebra]];
+- $I$ an [[ideal]] of $A$;
 - $\gamma=\{\gamma_{n}\colon I\to A\}_{n\in\mathbb{N}}$ a collection of maps;
 
 satisfying the following conditions:
@@ -40,7 +54,7 @@ Divided power algebras were originally introduced in
 
 * [[Pierre Berthelot]], _Cohomologie cristalline des sch&#233;mas de caract&#233;ristique $g \gt 0$, Lecture Notes in Mathematics, Vol. 407, Springer- Verlag, Berlin, 1974. MR 0384804
 
-* de Jong et al. The Stacks Project, [Chapter 09PD](https://stacks.math.columbia.edu/tag/09PD).
+* [[Aise Johan de Jong]] et al., [[The Stacks Project]], [Chapter 09PD](https://stacks.math.columbia.edu/tag/09PD).
 
 [[!redirects PD-algebra]]
 [[!redirects divided power structure]]
