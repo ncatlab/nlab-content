@@ -81,7 +81,9 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 
 * an [[action]] homomorphism is an [[equivariant function]]
 
-* ...
+* a [[set]] homomorphism is an [[extensional function]]
+
+* an [[inequality space]] homomorphism is a [[strongly extensional function]]
 
 
 ## Related concepts
