@@ -36,7 +36,7 @@ $$
   Ho(Pr(\infty,1)Cat)
 $$
 
-is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. 
+is [[equivalence of categories|equivalent]] to the [[homotopy category of an (infinity,1)-category|homotopy category]] of [[Pr(∞,1)Cat]], the [[(∞,1)-category]] of [[locally presentable (∞,1)-categories]] and [[(∞,1)-colimit]]-[[preserved limit|preserving]] [[(∞,1)-functors]] between them. 
 
 A proof for this statement, not just for [[homotopy categories]] but for the full homotopy theories, is now claimed in [Pavlov 2021](#Pavlov21).
 
