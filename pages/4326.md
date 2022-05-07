@@ -244,6 +244,8 @@ See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorp
 
 * [[Euler angles]]
 
+* [[Pauli group]]
+
 ## References
 
 The [[coadjoint orbits]] of $SU(2)$ are discussed around p. 183 of
