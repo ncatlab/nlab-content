@@ -2,7 +2,8 @@
 
 \section{Idea of a situs }
 
-A _situs_ is a simplicial object of 
+A _situs_ is a notion of generalised topological space, and 
+ defined as a simplicial object of 
 the [[category of filters|category of filters on sets]], i.e. 
 a simplicial set equipped, for each $n\geq 0$, 
 with a filter on the set of $n$-simplices such that 
