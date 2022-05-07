@@ -67,8 +67,6 @@ This generalises.  Given any [[Lie group]] $G$, let $\mathfrak{g}$ be its [[Lie 
 
 * [[logarithmic cohomology operation]]
 
-* [[reciprocal]]
-
 
 [[!redirects logarithm]]
 
