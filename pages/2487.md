@@ -293,9 +293,15 @@ Coordinate rings of general linear groups and of special general linear groups h
 
 ## Examples
 
-Over [[finite fields]]
+Over [[finite fields]]:
 
 * [[GL(2,3)]]
+
+## Properties
+
+### Representation theory
+
+See at *[[representation theory of the general linear group]]*.
 
 ## Related concepts
 
