@@ -1,3 +1,4 @@
+> This page is about the generalisation of an [[adjunction]] to [[bicategories]]. For a functor $L$ which is both a left and a right adjoint to a functor $R$, see [[ambidextrous adjunction]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -41,6 +42,8 @@ Both the "equivalence of hom-categories" definition and the "unit and counit" de
 * [[2-adjunction]]
   
   **biadjunction**, [[lax 2-adjunction]], [[pseudoadjunction]]
+
+* [[pseudoadjunction]]
 
 * [[biequivalence]], [[biadjoint biequivalence]]
 
