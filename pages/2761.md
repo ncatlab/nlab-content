@@ -88,6 +88,19 @@ is equivalent to $F$.
 The statement is a direct consequence of the [[sSet]]-[[enriched category theory|enriched]] [[Yoneda lemma]] by using the fact that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is modeled by the [[enriched functor category]] $[C^{op}, sSet]_{proj}$ with $C$ regarded as a [[simplicially enriched category]] and using the global [[model structure on simplicial presheaves]].
 
 =--
+### Naturality
+
++-- {: .num_prop }
+
+###### Proposition
+
+$PSh$ can be extended to a functor $PSh : (\infty,1)Cat \to (\infty,1)\widehat{Cat}$ so that the yoneda embedding $C \to PSh(C)$ is a natural transformation.
+
+Here, $(\infty,1)\widehat{Cat}$ is the (∞,1)-category of large (∞,1)-categories.
+
+=--
+
+This follows from ([[Higher Topos Theory|HTT, prop. 5.3.6.10]]), together with the identification of $PSh(C)$ with the category obtained by freely adjoining small colimits to $C$. This functor is locally left adjoint to the contravariant functor determined by the pointwise formula $PSh(C) \simeq (\infty,1)Cat^{C^{op}}$.
 
 ### Preservation of limits
 
