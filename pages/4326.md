@@ -31,6 +31,9 @@ More generally, for $V$ any complex [[vector space]] equipped with a nondegenera
 
 [[!include ADE -- table]]
 
+### Representation theory
+
+See at *[[representation theory of the special unitary group]]*.
 
 ## Examples
 
