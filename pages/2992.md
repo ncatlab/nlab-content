@@ -26,13 +26,13 @@ A _rational number_ is a [[fraction]] of two [[integer]] [[numbers]].
 
 The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions]] of the [[commutative ring]] of [[integers]], $\mathbb{Z}$, hence the field consisting of formal [[fractions]] ("[[ratios]]") of [[integers]].
 
-### As a ring
+### As a commutative ring
 
-Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers. The positive integers are embedded into every [[ring]] $R$: there is an injection $inj:\mathbb{N}^+\to\R$ such that $inj(1) = 1$ and $inj(s(n)) = inj(n) + 1$ for all $n:\mathbb{N}^+$. 
+Let $(\mathbb{N}^+,1:\mathbb{N}^+,s:\mathbb{N}^+\to \mathbb{N}^+)$ be the set of positive integers. The positive integers are embedded into every [[commutative ring]] $R$: there is an injection $inj:\mathbb{N}^+\to\R$ such that $inj(1) = 1$ and $inj(s(n)) = inj(n) + 1$ for all $n:\mathbb{N}^+$. 
 
-Suppose $R$ has an injection $inv:\mathbb{N}^+\to\R$ such that $inj(n) \cdot inv(n) = 1$ and $\inv(n) \cdot \inj(n) = 1$ for all $n:\mathbb{N}^+$. Then $R$ is called a __[[associative unital algebra|$\mathbb{Q}$-algebra]]__, and the ring of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] $\mathbb{Q}$-algebra. 
+Suppose $R$ has an injection $inv:\mathbb{N}^+\to\R$ such that $inj(n) \cdot inv(n) = 1$ and $\inv(n) \cdot \inj(n) = 1$ for all $n:\mathbb{N}^+$. Then $R$ is called a __[[commutative algebra|$\mathbb{Q}$-algebra]]__, and the commutative ring of rational numbers $\mathbb{Q}$ is the [[initial object|initial]] commutative $\mathbb{Q}$-algebra. 
 
-It can then be proven from the ring axioms and the properties of the integers that multiplication of rational numbers is commutative and every rational number apart from zero and has a multiplicative inverse, making $\mathbb{Q}$ a field.
+It can then be proven from the ring axioms and the properties of the integers that every rational number apart from zero and has a multiplicative inverse, making $\mathbb{Q}$ a field.
 
 ### As an abelian group
 
@@ -76,6 +76,8 @@ Interestingly, (2) cannot be interpreted as a [[locale|localic]] group, although
   * a finite [[field extension]] of $\mathbb{Q}$ is called a _[[number field]]_
 
   * [[dyadic rational number]]
+
+  * [[decimal rational number]]
 
 * [[Q/Z]]
    
