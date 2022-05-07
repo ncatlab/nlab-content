@@ -131,7 +131,7 @@ $$
 where the first term is the standard [[kinetic action]]. If $\nabla$ is a (nontrivial) connection on a trivial bundle, then, as described [below](#Of1Form) it is encoded by a [[differential form]] $A \in \Omega^1(X)$ -- called the _vector potential_  in physics -- and we have
 
 $$
-  tra_\nabla(\gamma) = \exp\big(i \int_[0,1] \gamma^* A\big)
+  tra_\nabla(\gamma) = \exp\big(i \int_{[0,1]} \gamma^* A\big)
   \,.
 $$
 
