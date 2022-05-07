@@ -9,11 +9,6 @@ The _Dedekind completion_ of a [[linear order]] $L$ is a new linear order $\wide
 
 While Dedekind completeness was traditionally described in the context of the [[real numbers]], it can be stated for any [[linear order]], although it really works best for [[dense order|dense]] and unbounded (without [[top]] or [[bottom]]) linear orders. Intuitively, a linear order is _Dedekind complete_ if [[Dedekind cuts]] don't give any 'new' elements.
 
-+-- {: .standout}
-Any paragraph containing the string 'duiq' is original research (although lower duiqs at least are known in [[domain theory]]).
-=--
-
-
 ## Definitions
 
 Let $S$ be a [[set]] equipped with the structure of a [[dense linear order]] without [[top]] or [[bottom]] elements (endpoints).
@@ -54,7 +49,35 @@ The operation of forming the set of Dedekind cuts is idempotent, so the Dedekind
 
 ## Generalisations
 
+### In predicative constructive mathematics
+
+In predicative mathematics, subsets are large and therefore are proper classes. Instead, in the manner of [[formal topology]], predicative mathematicians typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __predicative cuts__, where $\Sigma$ is a [[sigma-frame|$\sigma$-frame]]. The definitions then become
+
++-- {: .num_defn}
+###### Definition
+Given a [[sigma-frame|$\sigma$-frame]] $\Sigma$ and a linearly ordered set $S$, a __cut__ in $S$ is a pair of functions $L, U: S to \Sigma$ that satisfy the following eight properties:
+
+1.  There is an element $a \in S$ such that $L(a) = \top$.
+2.  There is an element $b \in S$ such that $U(b) = \top$.
+3.  If $a \lt b$ are elements of $S$ with $L(b) = \top$, then $L(a) = \top$.
+4.  If $a \lt b$ are elements of $S$ with $U(a) = \top$, then $U(b) = \top$.
+5.  If $L(a) = \top$, then there is an element of $S$ $a \lt b$ such that $L(b) = \top$.
+6.  If $U(b) = \top$, then there is an element of $S$ $a \lt b$ for some $U(a) = \top$.
+7.  If $a \lt b$ are elements of $S$, then $L(a) = \top$ or $U(b) = \top$.
+8.  If $L(a) = \top$ and $U(b) = \top$, then $a \lt b$.
+=--
+
++-- {: .num_defn}
+###### Definition
+
+The linearly ordered set $S$ is $\Sigma$-**Dedekind complete** if for every cut $(L,U)$ there exists a unique element $a \in S$ such that for all elements $x \in S$, $x \lt a$ implies $L(x) = \top$ and $x \gt a$ implies $U(x) = \top$.
+=--
+
 ### Quasiorders
+
++-- {: .standout}
+Any paragraph containing the string 'duiq' is original research (although lower duiqs at least are known in [[domain theory]]).
+=--
 
 One can generalise Dedekind completion from [[linear orders]] to [[quasiorders]].
 
@@ -87,29 +110,6 @@ A good example of a duiq is the set of [[rational number|rational]]-valued [[fun
 
 Sections 4.31--39 of _[[HAF]]_ do things in even more generality, but I don\'t really understand it yet.
 
-###Irreflexive comparisons 
-
-Unfortunately, quasiorders are not very useful in [[constructive mathematics]], so they are usually replaced by [[irreflexive comparisons]].
-
-A dense unbounded inhabited [[irreflexive comparison]] is an irreflexive comparison $(S,\lt)$ such that, given finite (here always meaning [[Kuratowski-finite]]) [[subsets]] $F$ and $G$ of $S$ such that $x \lt z$ whenever $x \in F$ and $z \in G$, we have some $y$ in $S$ such that $x \lt y$ and $y \lt z$ whenever $x \in F$ and $z \in G$.
-
-+-- {: .num_defn}
-###### Definition
-
-Given a dense unbounded inhabited irreflexive comparison $S$, a __cut__ is a pair $(L,U)$ of [[subsets]] such that:
-
-1.  $L$ is [[inhabited subset|inhabited]] (which is a special case of (5) for $F$ the [[empty subset]]);
-2.  Dually, $U$ is inhabited (a special case of (6));
-3.  If $x \lt y \in L$, then $x \in L$;
-4.  Dually, if $x \gt y \in U$, then $x \in U$;
-5.  If $F$ is a finite subset of $L$ (which we may assume inhabited if we include (1)), then for some $x \in L$, every $y \in F$ satisfies $y \lt x$;
-6.  Dually, if $F$ is a finite (inhabited) subset of $U$, then for some $x \in U$, every $y \in F$ satisfies $y \gt x$;
-7.  If $L \lt x \lt U$ and $L \lt y \lt U$, then $x = y$;
-8.  If $x \in L$ and $y \in U$, then $x \lt y$.
-=--
-
-We then define __Dedekind-complete__ dense unbounded inhabited irreflexive comparisons and __Dedekind completions__ of dense unbounded inhabited irreflexive comparisons the same as for dense linear orders, using this notion of cut.
-
 ## One-sided Dedekind completions
 
 At least in [[classical mathematics]], considering only $L$ (for a __lower cut__) or $U$ (for an __upper cut__) doesn\'t really give us anything new for linear orders; we have only the technicality that $\infty \coloneqq (S,\empty)$ or $-\infty \coloneqq (\empty,S)$ is a cut (depending on the side), and we can rule even these out by simply requiring that $L$ have an upper bound or that $U$ have a lower bound.
@@ -126,6 +126,10 @@ For example, let $X$ be a [[compactum]] and let $S$ be the quasiordered set of [
 *  [[Paul Taylor]]\'s [page on Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
 
 *  Page 249&250 of _Continuous Lattices and Domains_ ([Google book](http://books.google.com/books?id=xPF9Hb7DPLgC)) covers lower Dedekind completions of duiqs (although not under that name) in the context of [[domain theory]].
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+* Auke B. Booij, Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
 
 [[!redirects Dedekind completion]]
