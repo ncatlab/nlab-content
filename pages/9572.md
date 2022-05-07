@@ -35,6 +35,7 @@ of Drinfeld centers. Then we spell out what this means in components in
 
 * [Definition in components](#DefinitionInComponents).
 
+
 ### Abstractly
  {#AbstractDefinition}
 
@@ -176,12 +177,18 @@ The Drinfeld center $Z(\mathcal{C})$ is naturally a [[braided monoidal category]
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
 
-If $\mathcal{C}$ is a [[fusion category]] then the Drinfeld center $Z(\mathcal{C})$ is also naturally a fusion category.
+\begin{proposition}
+\label{DrinfeldCenterOfFusionCategory}
+If $\mathcal{C}$ is a [[fusion category]] 
+over an [[algebraically closed field]] of [[characteristic zero]],
+then the Drinfeld center $Z(\mathcal{C})$ is also naturally a fusion category.
+\end{proposition}
 
-=--
+([Etingof, Nikshych & Ostrik 2005, Thm. 2.15](#EtingofNikshychOstrik05), review in [Davydov, Mueger, Nikshych & Ostrik 2003, Sec. 2.3](#DavydovMuegerNikshychOstrik03))
+
+See also [Drinfeld, Gelaki, Nikshych & Ostrik 2010, Cor. 3.9](#DrinfeldGelakiNikshychOstrik10),  [Mueger 2003](#Mueger03).
+
 
 ### Relation to Drinfeld double under Tannaka duality
 
@@ -197,10 +204,24 @@ Under [[Tannaka duality]], forming the Drinfeld center of a [[category of module
 
 ## References
 
-A standard textbook references are
+Original articles:
+
+* {#Mueger03} [[Michael Mueger]], *From Subfactors to Categories and Topology II. The quantum double of tensor categories and subfactors*, J. Pure Appl. Alg. 180, 159-219 (2003) ([arXiv:math/0111205](https://arxiv.org/abs/math/0111205))
+
+* {#EtingofNikshychOstrik05} [[Pavel Etingof]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On fusion categories*, Annals of Mathematics Second Series, Vol. 162, No. 2 (Sep., 2005), pp. 581-642 ([arXiv:math/0203060](http://arxiv.org/abs/math/0203060), [jstor:20159926](https://www.jstor.org/stable/20159926))
+
+* {#DrinfeldGelakiNikshychOstrik10} [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
+
+Review:
+
+* {#DavydovMuegerNikshychOstrik03} [[Alexei Davydov]], [[Michael Mueger]], [[Dmitri Nikshych]], [[Victor Ostrik]], Sec. 2.3 of: *The Witt group of non-degenerate braided fusion categories*, Journal fuer reine und angewandte Mathematik, **677** (2013. 135-177), de Gruyter 2003  ([arXiv:1009.2117](https://arxiv.org/abs/1009.2117), [doi:10.1515/crelle.2012.014](https://doi.org/10.1515/crelle.2012.014))
+
+
+Textbook accounts:
 
 * [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge Univ. Press
-* C. Kassel, _Quantum groups_
+
+* [[Christian Kassel]], _Quantum groups_, Graduate Texts in Mathematics __155__, Springer 1995 ([doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf))
 
 A general discussion of centers of [[monoid objects]] in [[braided monoidal 2-categories]] (which reduces to the above for the 2-category [[Cat]] with its [[cartesian product]]) is in 
 
