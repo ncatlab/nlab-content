@@ -248,7 +248,9 @@ Here we are showing
 
 * {#AtiyahHitchin88} [[Michael Atiyah]], [[Nigel Hitchin]], _The geometry and dynamics of magnetic monopoles_, M. B. Porter Lectures. Princeton University Press, Princeton, NJ, 1988 ([jstor:j.ctt7zv206](https://www.jstor.org/stable/j.ctt7zv206))
 
-See also
+* [[Paul Sutcliffe]], *BPS Monopoles*, Int. J. Mod. Phys. A12:4663-4706 (1997) ([arXiv:hep-th/9707009](https://arxiv.org/abs/hep-th/9707009))
+
+See also:
 
 * Wikipedia, _[Monopole moduli space](https://en.wikipedia.org/wiki/Monopole_moduli_space)_
 
