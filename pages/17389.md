@@ -28,7 +28,7 @@ For one textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#Fr
 
 +-- {: .proof} 
 ###### Proof 
-Let $X_n$ denote the $n^{th}$ skeleton of $X$. We argue by [[induction]] that each skeleton is a paracompactum. Vacuously $X_{-1} = \emptyset$ is a paracompactum. Now suppose $X_{n-1}$ is a paracompactum, and suppose $X_n$ is formed as an [[attachment space]] with attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so that 
+Let $X_n$ denote the $n^{th}$ [[skeleton]] of $X$. We argue by [[induction]] that each skeleton is a paracompactum. Vacuously $X_{-1} = \emptyset$ is a paracompactum. Now suppose $X_{n-1}$ is a paracompactum, and suppose $X_n$ is formed as an [[attachment space]] with attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so that 
 
 $$\array{
 \sum_{i \in I} S_i^{n-1} & \stackrel{\;h\;}{\hookrightarrow} & \sum_{i \in I} D_i^{n} \\ 
@@ -59,14 +59,19 @@ between paracompacta. [It follows that this colimit is a paracompactum](/nlab/sh
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 ## References
+ {#References}
 
-An early original article with the statement is
+That every CW complexes is [[Hausdorff space|Hausdorff]] (in fact [[normal topological space|normal]]) may be [[folklore]], a proof is spelled out in:
+
+* {#Hatcher02} [[Allen Hatcher]], Prop. A.3 of *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
+
+An early original article with the paracompactness statement is:
 
 * {#Miyazaki52} Hiroshi Miyazaki, _The paracompactness of CW-complexes_, Tohoku Math. J. (2) Volume 4, Number 3 (1952), 309-313. 1952 [Euclid](https://projecteuclid.org/euclid.tmj/1178245380)
 
-Textbook accounts include
+Textbook account:
 
-* {#FritschPiccinini90} [[Rudolf Fritsch]], Renzo Piccinini, Theorem 1.3.5 (p. 29 and following) of _Cellular structures in topology_, Cambridge University Press (1990)
+* {#FritschPiccinini90} [[Rudolf Fritsch]], [[Renzo Piccinini]], Theorem 1.3.5 (p. 29 and following) of: _Cellular structures in topology_, Cambridge University Press (1990) ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf))
 
 [[!redirects every CW-complex is a Hausdorff space]]
 [[!redirects every CW-complex is a Hausdorff topological space]]
