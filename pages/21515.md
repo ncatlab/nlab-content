@@ -46,6 +46,12 @@ for the followup statement that the [[abelian sheaf cohomology]] of $X/G$ with c
 
 * {#Honkasalo88} [[Hannu Honkasalo]], _Equivariant Alexander-Spanier cohomology_,  Mathematica Scandinavia,  63, 179-195, 1988 ([doi:10.7146/math.scand.a-12232](https://doi.org/10.7146/math.scand.a-12232))
 
+See also Section 4.3 of
+
+* {#SzaboValentino07} [[Richard Szabo]], [[Alessandro Valentino]], _Ramond-Ramond Fields, Fractional Branes and Orbifold Differential K-Theory_, Commun. Math. Phys. 294:647-702, 2010 ([arXiv:0710.2773](https://arxiv.org/abs/0710.2773))
+
+
+
 In summary: 
 
 * Traditional orbifold cohomology theory is [[Borel cohomology]] of underlying [[Borel construction]]-spaces, and reduces [[rational cohomology|rationally]] further to the [[rational cohomology]] of underlying naive [[quotient spaces]]. 
