@@ -21,9 +21,11 @@
 
 ## Idea
 
-According to the [[brane scan]] of [[super p-branes|super $p$-branes]] there exists a [[supermembrane]] propagating on 4+1 dimensional [[super Minkowski spacetime]]:
+According to the [[brane scan]] of [[super p-branes|super $p$-branes]] there exists a [[supermembrane]] propagating on 4+1 dimensional [[super Minkowski spacetime]] (being of [[codimension]]=2, this is a [[defect brane]]):
 
 [[!include brane scan]]
+
+
 
 
 ## References
