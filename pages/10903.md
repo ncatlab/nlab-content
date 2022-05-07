@@ -918,3 +918,4 @@ Comments on the formalization of secondary [[integral transforms]] and [[path in
 [[!redirects indexed monoidal (infinity,1)-categories]]
 [[!redirects indexed monoidal (∞,1)-category]]
 [[!redirects indexed monoidal (∞,1)-categories]]
+[[!redirects indexed monoidal infinity-category]]
