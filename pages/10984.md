@@ -19,14 +19,14 @@
 
 ## Definition
 
-An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$.
+An [[adjoint triple]] $F \dashv G \dashv H$ is called an _ambidextrous adjunction_ (or sometimes _ambijunction_, for short) if the [[left adjoint]] $F$ and the [[right adjoint]] $H$ of $G$ are [[equivalence|equivalent]] $F \simeq H$. Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of a biadjunction).
 
  
 ## Properties
 
 ### Frobenius algebra structure
 
-The [[monad]] induced by an ambidextrous adjunction is a [[Frobenius monoid]] object in [[endofunctors]]. (e.g. [Lauda 05, theorem 17](#Lauda05)), hence a [[Frobenius monad]].,
+The [[monad]] induced by an ambidextrous adjunction is a [[Frobenius monoid]] object in [[endofunctors]]. (e.g. [Lauda 05, theorem 17](#Lauda05)), hence a [[Frobenius monad]].
 
 ### Fiberwise characterization of ambid. Kan extension
  {#FiberwiseCharacterization}
@@ -83,6 +83,10 @@ In ([Hopkins-Lurie 14, section 4.3](#HopkinsLuire14)) such $\mathcal{C}$ is call
 
 A [[Wirthmüller context]] in the presence of an un-twisted [[Wirthmüller isomorphism]] is an ambidextrous adjunction.
 
+###### Example
+
+Every [[self-adjoint functor]] forms an ambidextrous adjunction.
+
 =--
 
 ## Related concepts
@@ -106,3 +110,5 @@ A [[Wirthmüller context]] in the presence of an un-twisted [[Wirthmüller isomo
 
 [[!redirects ambidextrous space]]
 [[!redirects ambidextrous spaces]]
+
+[[!redirects biadjoint pair]]
