@@ -259,7 +259,9 @@ The terminology for the various incarnations of the single notion of [[connectio
 
 The original definition is due to
 
-* [[Charles Ehresmann]], _Les connexions infinit&#233;simale dans une espace fibr&#233; diff&#233;rentiable_, Colloque de Topologie, Bruxelles (1950) 29-55, [MR0042768](http://www.ams.org/mathscinet-getitem?mr=0042768)
+* [[Charles Ehresmann]], _Les connexions infinitésimales dans un espace fibré différentiable_, [[Séminaire Bourbaki]], Vol. 1, Exp. No. 24, 153–168, [numdam](http://www.numdam.org/article/SB_1948-1951__1__153_0.pdf).
+A paper with the same author and title appeared in
+Colloque de topologie (espaces fibrés), Bruxelles, 1950, pp. 29–55. Georges Thone, Liège; Masson et Cie., Paris, 1951.
 
 See also
 
