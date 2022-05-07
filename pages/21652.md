@@ -77,6 +77,32 @@ gives the **Dieudonné determinant**
   \,. 
 \]
 
+
+## Draxl's pre-determinant
+  {#DraxlPredeterminant}
+
+[Draxl 83](#Draxl83) introduces a more primitive notion, the _Dieudonné predeterminant_:
+
+Given a generic (i.e.: invertible) matrix $T$ over a [[skew-field]], there is its [[Gauss decomposition]] in the form $T = U D L$ where 
+
+* $U$ is upper triangular unidiagonal, 
+
+* $D$ diagonal 
+
+* $L$ lower triangular unidiagonal matrix. 
+
+This is called the _strict Bruhat normal form_ of $T$ ([Draxl 83, Sec. 19, Thm. 1, Def. 1 (p. 128)](#Draxl83)).
+
+
+The _Dieudonné predeterminant_ $\delta\epsilon\tau(T)$ is the product of the entries of the diagonal part $D$ upside down ([Draxl 83, Sec. 20, Def. 1 (p. 133)](#Draxl83)). 
+
+If the matrix is not generic, question of rank surface out and the appropriate Bruhat decomposition should be chosen instead. 
+
+The Dieudonné determinant is then the image of $\delta\epsilon\tau(T)$ under the projection to the [[abelianization]] ([Draxl 83, Sec. 20, Cor. 1 (p. 135)](#Draxl83))
+
+It is well known that the Gauss decomposition of matrices over a noncommutative ring has an expression in terms of [[quasideterminants]], as shown by [Gelfand-Retakh 02](#GelfandRetakh02). 
+
+
 ## The quaternionic case
 
 In the case that $K$ is the ring of [[quaternions]], $\mathbb{H}$, we have a group isomorphism 
@@ -130,10 +156,6 @@ where $\mathrm{M}_n(\mathbb{H})$ is now the full [[matrix algebra]] of $n \times
   det_{D}(1) = 1 
   \,.
 \]
-
-## Draxl's Dieudonné predeterminant
-
-Draxl introduces a more primitive notion, Dieudonné predeterminant. Given a generic matrix $T$ over a skew-field one performs its [[Gauss decomposition]] in the form $T = U D L$ where $U$ is upper triangular unidiagonal, $D$ diagonal and $L$ lower triangular unidiagonal matrix, Dieudonné predeterminant $\delta\epsilon\tau(T)$ is the product of the entries of the diagonal part $D$ upside down. If the matrix is not generic, question of rank surface out and the appropriate Bruhat decomposition should be chosen instead. Dieudonné determinant is the image of $\delta\epsilon\tau(T)$ under the projection to the Abeliazation. It is well known that the Gauss decomposition of matrices over a noncommutative ring has an expression in terms of [[quasideterminant]]s, as shown by Gelfand and Retakh in their foundational papers around 1990. 
 
 ##  Relation to the Study determinant
 
@@ -192,11 +214,11 @@ See also:
 
 * Wikipedia, _[Dieudonné determinant](https://en.wikipedia.org/wiki/Dieudonn%C3%A9_determinant)_
 
-Comparison to [[quasideterminant]]s is in
+Comparison to [[quasideterminants]] is in
 
-* [[Israel Gelfand]], Vladimir Retakh, Robert Lee Wilson, _Quaternionic quasideterminants and determinants_, [math.QA/0206211](https://arxiv.org/abs/math/0206211)
+* {#GelfandRetakh02} [[Israel Gelfand]], Vladimir Retakh, Robert Lee Wilson, _Quaternionic quasideterminants and determinants_, 2002 ([math.QA/0206211](https://arxiv.org/abs/math/0206211))
 
-* P. Draxl, _Skew fields_, London Math. Soc. Lecture notes __81__ (1983)
+* {#Draxl83} [[Peter Draxl]], Section III.20 of: _Skew fields_, London Math. Soc. Lecture notes __81__, Cambridge University Press 1983 ([doi:10.1017/CBO9780511661907](https://doi.org/10.1017/CBO9780511661907), ISBN:9780511661907)
 
 For lectures on quasideterminants see 
 
