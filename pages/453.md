@@ -119,6 +119,22 @@ However:
 
 ## Properties
 
+### Epimorphisms
+ {#Epimorphisms}
+
+\begin{prop}
+For a [[morphism]] $f$ in a [[regular category]], the following conditions are all equivalent:
+
+1. $f$ is an [[effective epimorphism]];
+
+1. $f$ is a [[regular epimorphism]];
+
+1. $f$ is a [[strong epimorphism]];
+
+1. $f$ is an [[extremal epimorphism]].
+
+\end{prop}
+
 
 ### Factorization properties 
 
