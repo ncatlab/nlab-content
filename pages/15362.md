@@ -12,6 +12,11 @@ On [[quantum groups]]:
 
 * [[Christian Kassel]], _Quantum groups_, Graduate Texts in Mathematics __155__, Springer 1995 ([doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf))
 
+On [[braid groups]]:
+
+* [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
+
+
 
 
 category:people
