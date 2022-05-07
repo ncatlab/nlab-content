@@ -28,6 +28,8 @@ Historically, the use of "edge" for connections even in abstract graphs probably
 
 * [[graph]], [[directed graph]], [[quiver]], [[digraph]]
 
+* [[dimer]]
+
 * [[vertex]], [[simplex]], [[dendrex]]
 
 
