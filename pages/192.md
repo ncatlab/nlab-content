@@ -59,6 +59,10 @@ The category $Set$ has many marvelous properties, which make it a common choice 
 
 At least assuming [[classical logic]], these properties suffice to characterize $Set$ uniquely up to equivalence among all categories; see [[cocomplete well-pointed topos]].  Note, however, that the definitions of "locally small" and "(co)complete" presuppose a notion of _small_ and therefore a knowledge of what a _set_ (as opposed to a [[proper class]]) is.
 
+As a groupoid, $Set$ is characterized by the fact that 
+
+* $Set$ is the [[discrete object classifier]] in the category [[Grpd]] of [[groupoids]] and [[functors]], playing a similar role in classifying discrete groupoids in $Grpd$ that the set of truth values $\Omega$ does in classifying subsets in $Set$. The morphism $F:I \rightarrow Set$ is an [[indexed family]] of sets and $I$ is an index groupoid. 
+
 As a [[topos]], $Set$ is also characterized by the fact that
 
 * $Set$ is the [[terminal object]] in the [[category]] of [[Grothendieck toposes]] and [[geometric morphism]]s. The terminal morphism $\Gamma\colon E \to Set$ from any other topos $E$ is the [[global section]]s functor.
