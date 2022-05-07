@@ -10,7 +10,7 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
-#### Constructivism, Retalizability, Computability
+#### Constructivism, Realizability, Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
