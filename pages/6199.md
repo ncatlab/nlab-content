@@ -25,7 +25,7 @@ Most often one looks at dynamical systems in which $M$ is a [[smooth manifold]].
 
 ## Literature
 
-## Related concepts in $n$Lab
+## Related concepts
 
 * [[zeta function of a dynamical system]]
 
@@ -34,6 +34,8 @@ Most often one looks at dynamical systems in which $M$ is a [[smooth manifold]].
 * [[cohomology of dynamical systems]]
 
 * [[chaos]]
+
+* [[Furstenberg-Zimmer structure theorem]]
 
 ## References
 
