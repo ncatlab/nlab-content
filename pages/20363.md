@@ -73,7 +73,7 @@ The category of condensed sets is then the (large) [[colimit]] of the category o
 
 ## Properties
 
-Condensed sets form a [[pretopos]].
+Condensed sets form a [[locally small]], [[well-powered category|well-powered]], [[locally cartesian closed]] [infinitary-pretopos](pretopos#infinitary), that is neither a [[Grothendieck topos]] nor an [[elementary topos]] -- since it lacks both a small [[separator]] (indeed, it is not even [[total category|total]]) and a [[subobject classifier]]. It has a large [[separator]] of finitely presentable [[projective object|projectives]], and hence is algebraically exact. ([Campbell 20](#Campbell20))
 
 See \cite[Proposition 1.7]{ScholzeLCM} for the following proposition.
 
@@ -117,7 +117,7 @@ structures, but in this case, the underlying set is not $T(*)$.
 * {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
 * {#Scholze21} [[Peter Scholze]], Math Stack Exchange [answer](https://math.stackexchange.com/a/4199337/368788).
-
+* {#Campbell20} [[Alexander Campbell]], _How nice is the category of condensed sets?_, [talk abstract](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/abstract.cgi?talkid=1645).
 
 [[!redirects condensed sets]]
 
