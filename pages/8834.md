@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -74,7 +75,7 @@ in $\mathcal{C}$, equipped with a [[pair]] of overlapping [[null homotopies]]
 
 to the [[higher homotopy]]-[[equivalence class]] of their [[pasting diagram|pasting]]-composite, which is a [[2-morphism]] [[loop]] (on the [[zero morphism|zero]] [[1-morphism]]) in the [[(∞,1)-categorical hom space]] $\mathcal{C}(X_0,X_1) \in $ [[∞Groupoids]], hence an element in its [[fundamental group]] $\pi_1 \mathcal{C}(X_0,X_1)$:
 
-\begin{xymatrix@=15pt}
+\begin{xymatrix@=18pt}
   &&
   &&
   X_0
@@ -128,14 +129,21 @@ to the [[higher homotopy]]-[[equivalence class]] of their [[pasting diagram|past
   X_3
   %
   \ar@{=>} "s1"; "t1"
-    ^-{ \phi_1 }
+    ^-{ 
+      \color{orange}
+      \phi_1 
+    }
   \ar@{=>} "s2"; "t2"
-    ^-{ \phi_2 }
+    ^-{ 
+      \color{orange}
+      \phi_2 
+    }
   \ar@{=>} 
     "ss"; "tt"
     |-{
       \mathclap{\phantom{\vert^{\vert}}}
       \scalebox{.6}{$
+          \color{orange}
           (\phi_2 \cdot f_1)
           \circ
           (f_3 \cdot \phi_1)
@@ -245,7 +253,7 @@ then the Toda bracket is the [[homotopy class]] of this 1-morphism in the [[homo
 
 Here the last [[pasting diagram]] on the bottom right shows the [[homotopy cofiber]]-construction equivalently realized via [[mapping cones]] (ordinary [[cofiber coproducts]] after [[cofibrant resolution|resolving]] points to [[cones]]), by which one may present the top [[homotopy coherent diagram]] in, for instance, any [[pointed model category|pointed]] [[cofibration category]]- or [[model category]]-[[presentable (infinity,1)-category|presentation]] of the [[pointed (∞,1)-category]] $\mathcal{C}$.
 
-It is in this last form, by "consecutively extending maps over cones", that the Toda bracket was introduced in [Toda 62](#Toda62), and in which it is still presented in most references to date. The above formulation on the top, via [[homotopy coherent diagram|homotopy]]-[[pasting diagrams]], is made explicit in [Hardie-Kamps-Kieboom 99, (0.2)-(0.3)](#HardieKampsKieboom99), [Hardie-Marcum-Oda 01](#HardieMarcumOda01),  [Hardie-Kamps-Marcum 02, (2.2)](#HardieKampsMarcum02) (formalized there inside a [[homotopy 2-category]]).
+It is in this last form, by "consecutively extending maps over cones", that the Toda bracket was introduced in [Toda 62](#Toda62), and in which it is still presented in most references to date. The more abstract formulation shown at the top, via [[homotopy coherent diagram|homotopy]]-[[pasting diagrams]], is made more explicit in [Hardie-Kamps-Kieboom 99, (0.2)-(0.3)](#HardieKampsKieboom99), [Hardie-Marcum-Oda 01](#HardieMarcumOda01),  [Hardie-Kamps-Marcum 02, (2.2)](#HardieKampsMarcum02) (formalized there inside a [[homotopy 2-category]]).
 
 
 More precisely,  traditionally authors want the Toda bracket to be independent of the choice of [[null homotopies]] $(\phi_1,\phi_2)$ and thus regard (eq:TheTodaBracketDependingOnTheNullHomotopies) in a suitable [[quotient set]] of
@@ -258,7 +266,7 @@ $
 where this dependence is quotiented out. Often authors take the plain Toda bracket to *be* the [[subset]] 
 
 \[
-  \label{TheTodaBracketDependingOnTheNullHomotopies}
+  \label{PlainTodaBracket}
   \array{
   \big\langle
     f_1, f_2, f_3
@@ -310,7 +318,113 @@ where this dependence is quotiented out. Often authors take the plain Toda brack
 
 of all the classes (eq:TheTodaBracketDependingOnTheNullHomotopies) as one varies the [[null homotopies]] $(\phi_1,\phi_2)$.
 
-In any case, the Toda bracket may be thought of as being in [[homotopy theory]] what the [[Massey product]] is in [[cohomology theory]]: It is a "[[secondary characteristic class|secondary]] invariant", which exists when/since "primary invariants" -- namely the [[homotopy classes]] of the morphisms $f_2 \circ f_1$ and $f_3\circ f_2$ -- vanish, as witnessed by the [[null homotopies]].
+{#TheTodaBundle} This means that the plain Toda bracket (eq:PlainTodaBracket) is not a function with values, but a [[bundle]] with [[fibers]] (whose elements are the refined Toda brackets (eq:TheTodaBracketDependingOnTheNullHomotopies)):
+
+\begin{xymatrix@C=17pt@R=10pt}
+    {\phantom{AAAA}}
+    \overset{
+      \mathclap{
+      \raisebox{6pt}{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          element of fiber of Toda bundle:
+          \\
+          a refined Toda bracket
+        \end{tabular}
+      }
+      }
+    }{
+      \langle
+        f_1, f_2, f_3
+      \rangle_{(\phi_1,\phi_2)}
+    }
+    \ar@{}[rr]|-{ \in }
+    &&
+    \overset{
+      \mathclap{
+      \raisebox{6pt}{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          fiber of Toda bundle:
+          \\
+          a Toda bracket
+        \end{tabular}
+      }
+      }
+    }{
+      \langle
+        f_1, f_2, f_3
+      \rangle
+    }
+    \ar@{}[ddrr]
+      |-{ \mbox{\tiny(pb)} }
+    \;
+    \ar@{^{(}->}[rr]
+    \ar[dd]
+    &&
+    \overset{
+      \raisebox{3pt}{
+        \tiny
+        \color{olive}
+        \bf
+        the Toda bundle
+      }
+    }{
+      \mathrm{Toda}(X_0, X_1, X_2, X_3)
+    }
+    \ar[dd]
+    \\
+    \\
+    &&
+    \underset{
+      \mathclap{
+      \raisebox{-3pt}{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          a triple of classes of maps
+        \end{tabular}
+      }
+      }
+    }{
+      \big\{
+        \big(
+          [f_1], [f_2], [f_3]
+        \big)
+      \big\}
+    }
+    \;
+    \ar@{^{(}->}[rr]
+    &&
+    \underset{
+      \mathclap{
+      \raisebox{-3pt}{
+        \tiny
+        \color{olive}
+        \bf
+        \begin{tabular}{c}
+          all possible triples of
+          \\
+          classes of consecutive maps
+        \end{tabular}
+      }
+      }
+    }{
+      \underset{i \in \{0,1,2\}}{\prod}
+      \pi_0
+      \mathcal{C}
+      (X_i,X_{i+1})
+    }
+\end{xymatrix}
+
+
+
+In any case, the Toda bracket may be thought of as being in [[homotopy theory]] what the [[Massey product]] is in [[cohomology theory]]: It is a "[[secondary characteristic class|secondary]] invariant", which exists (has [[inhabited set|inhabited]] [[fibers]]) when/since "primary invariants" -- namely the [[homotopy classes]] of the morphisms $f_2 \circ f_1$ and $f_3\circ f_2$ -- vanish, as witnessed by the [[null homotopies]].
 
 A generalization of the Toda bracket produces an invariant for sequences of morphisms, equipped with consecutive pair-wise null-homotopies, which may contain possibly more than three morphisms; this _higher Toda bracket_ was maybe first considered in [Cohen 68, Sec. 2](#Cohen68)
 
