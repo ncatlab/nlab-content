@@ -113,6 +113,9 @@ The original articles on the BFSS matrix model:
 
 * {#Seiberg97} [[Nathan Seiberg]], _Why is the Matrix Model Correct?_, Phys. Rev. Lett. 79:3577-3580, 1997 ([arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009))
 
+In view of [[flat space holography]]:
+
+* [[Leonard Susskind]], *Holography in the flat space limit*, AIP Conf.Proc. 493 (1999) 1, 98-112,  ([spire](https://inspirehep.net/literature/482388), [arXiv:hep-th/9901079](https://arxiv.org/abs/hep-th/9901079), [doi:10.1063/1.1301570](https://doi.org/10.1063/1.1301570))
 
 Review includes
 
