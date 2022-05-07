@@ -4,6 +4,7 @@
 * table of contents
 {:toc}
 
+
 ## Definition
 
 The *empty simplicial set* is the [[simplicial set]] $\varnothing_\bullet$ all whose component sets are [[empty sets]]:
