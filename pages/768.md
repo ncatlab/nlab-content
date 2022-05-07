@@ -968,6 +968,9 @@ Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenche
 
 * {#RudolfSchnidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], Thm. 3.5.1 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
+* [[Loring Tu]], Section I.5 in: *Introductory Lectures on Equivariant Cohomology*, Annals of Mathematics Studies **204**, AMS 2020 ([ISBN:9780691191744](https://press.princeton.edu/books/hardcover/9780691191744/introductory-lectures-on-equivariant-cohomology))
+
+
 * [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
 
   > (in the context of [[homotopy theory]])
