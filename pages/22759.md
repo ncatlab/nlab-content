@@ -114,9 +114,25 @@ According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] th
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Cauchy complete]] [[real numbers]] could be constructed from a type universe as a quotient [[inductive-inductive type]]. 
 
+### Free posets
+
+A definition of a [[free object|free]] [[poset]] as a quotient inductive-inductive type:
+
+    Inductive poset (A: Type) :=
+    | inj: A -> poset A
+    | antisym: (forall x y : poset A) (x \leq y) -> (y \leq x) -> (x == y)
+    | setcontr: forall (x y: poset A) (p q : x == y), p == q.
+
+    Inductive \leq {poset A}: poset A -> poset A -> Type :=
+    | refl: (forall x) x \leq x
+    | trans: (forall x y z) (x \leq y) -> (y \leq z) -> (x \leq z)
+    | pordercontr: forall (x y) (p q : x \leq y), p == q.
+
 ### Partial map classifiers
 
 From Altenkirch, Danielsson, and Kraus 2016
+
+partial map classifiers are [[free object|free]] [[countable set|denumerably]] complete [[partial orders]]. 
 
 Examples include the [[Sierpinski space]] $1_\bot$. 
 
