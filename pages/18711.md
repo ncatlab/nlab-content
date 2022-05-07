@@ -82,6 +82,12 @@ Discussion via [[holographic QCD]] (see also at [[quark-gluon plasma]]):
 
 * Niko Jokela, *NICER view on holographic QCD* ([arXiv:2111.07940](https://arxiv.org/abs/2111.07940))
 
+* Tobías Canavesi, Octavio Fierro, Nicolás Grandi, Pablo Pisani, *Scalar correlators and normal modes in holographic neutron stars* ([arXiv:2111.10408](https://arxiv.org/abs/2111.10408))
+
+
+
+
+
 
 
 [[!redirects neutron stars]]
