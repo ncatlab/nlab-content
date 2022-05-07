@@ -78,6 +78,23 @@ In particular, the complete Segal space model structure is a Bousfield localizat
 
 It is shown in [Meier](#Meier) that [[categories of fibrant objects]] are fibrant in this model structure.
 
+### Compatibility with simplicial localization
+
+On relative categores, one often uses the [[simplicial localization|Hammock Localization]] $L^H : RelCat \to sSetCat$. We want to say this is compatible with the model structure.
+
+Say that a functor $f : (C, W) \to (C', W')$ is:
+
+* a _Rezk equivalence_ if $N(f)$ is a weak equivalence in the [[model structure for complete Segal spaces]]
+* a _Dwyer-Kan equivalence_ if $L^H(f)$ is a weak equivalence in the [[model structure on sSet-categories]]
+
++-- {: .num_prop}
+###### Proposition
+A functor in $RelCat$ is a Rezk equivalence iff it is a DK equivalence.
+=--
+This is main theorem 1.4 of [Barwick-Kan](#RezkIsDK).
+
+So, the simplicial localization does indeed preserve and reflect weak equivalences on the model structure on RelCat that presets (∞,1)-categories.
+
 ### Nerve functors
 
 The compatibility of the various nerve and simplicial localization functors is in section 1.11 of 
@@ -92,7 +109,7 @@ The compatibility of the various nerve and simplicial localization functors is i
 
   * _A characterization of simplicial localization functors_ ([arXiv:math/1012.1540](http://arxiv.org/abs/1012.1540))
 
-  * _In the category of relative categories the Rezk equivalences are exactly the DK-equivalences_ ([arXiv:math/1012.1541](http://arxiv.org/abs/1012.1541))
+  * {#RezkIsDK} _In the category of relative categories the Rezk equivalences are exactly the DK-equivalences_ ([arXiv:math/1012.1541](http://arxiv.org/abs/1012.1541))
 
   * _A Thomason-like Quillen equivalence between quasi-categories and relative categories_ ([arXiv:math/1101.0772](http://arxiv.org/abs/1101.0772))
 
