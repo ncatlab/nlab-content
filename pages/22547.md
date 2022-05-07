@@ -43,7 +43,7 @@ The (0,1)-topos analogue of a [[presheaf topos]] would be the [[locale]] of anti
 
 ## Related concepts
 
-* **(0,1)-presheaf**
+* **(0,1)-presheaf**, [[(0,1)-sheaf]]
 
 * [[presheaf]]
 
