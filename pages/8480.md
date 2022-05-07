@@ -206,7 +206,9 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 * [[Lawvere's fixed point theorem]]
 
-* [[fixed point of an adjunction]] (which in particular restricts to a concept of fixed points of a [[Galois correspondence]])
+* [[fixed point of an adjunction]], indcluding fixed points of [[Galois correspondences]])
+
+* [[fixed point space]]
 
 ## References 
 
