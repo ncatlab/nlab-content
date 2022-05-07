@@ -529,6 +529,10 @@ For a comparison with the concept of monads see
 
 * [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_ , Electronic Notes in Theor. Comp. Sci. **172** (2007) pp.437-458. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
 
+An elementary proof of the equivalence between infinitary [[Lawvere theories]] and [[monads]] on the [[category of sets]] is given in Appendix A of
+
+* [[Martin Brandenburg]], Large limit sketches and topological space objects, [arXiv:2106.11115](https://arxiv.org/abs/2106.11115).
+
 [[distributive law|Distributive laws]] for algebraic theories are discussed in
 
 * [[Eugenia Cheng]], _Distributive laws for Lawvere theories_ , arXiv:1112.3076 (2011). ([abstract](http://arxiv.org/abs/1112.3076))
