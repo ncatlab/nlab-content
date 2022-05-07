@@ -5,7 +5,7 @@
 
 ## Selected writings
 
-On [[equivariant elliptic cohomology]] in the form of [[twisted ad-equivariant Tate K-theory]]:
+On [[equivariant elliptic cohomology]] in the form of [[orbifold K-theory]] on [[Huan's inertia orbifolds]] (a form of [[twisted ad-equivariant Tate K-theory]]):
 
 * [[Zhen Huan]], _Quasi-elliptic cohomology_, 2017 ([hdl](http://hdl.handle.net/2142/97268))
 
@@ -24,7 +24,7 @@ On [[equivariant elliptic cohomology]] in the form of [[twisted ad-equivariant T
 
 * [[equivariant elliptic cohomology]]
 
-* [[cyclic loop space]]
+* [[Huan's inertia orbifold]], [[cyclic loop space]]
 
 
 category: people
