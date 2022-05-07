@@ -39,6 +39,14 @@ is called _reductive_ if the [[adjoint representation|adjoint]] [[Lie algebra re
 
 ([Koszul 50](#Koszul50), recalled in e.g. [Solleveld 02, def. 2.27](#Solleveld02))
 
+Over a field of characteristic $0$, the following conditions on $\mathfrak{g}$ are also equivalent to $\mathfrak{g}$ being reductive:
+
+1. the radical of $\mathfrak{g}$ is equal to the centre of $\mathfrak{g}$ (in general, the radical is only contained inside the centre);
+
+1. $\mathfrak{g}$ is a direct sum of its centre with a semisimple ideal;
+
+1. $\mathfrak{g}$ is a direct sum of prime ideals.
+
 
 ## Properties
 
