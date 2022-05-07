@@ -27,3 +27,7 @@ If $c_0 \to c_1 \leftarrow c_0$ is a cocategory object in $C$, then by homming o
  - Any [[coalgebra]] object is a cocategory object. This includes [[coring|corings]], [[Hopf algebroid|Hopf algebroids]], [[cogroupoid|cogroupoids]], etc.
 
  - In $Set$, every cocategory object is a coproduct of copies of the trivial cocategory object $1 \to 1 \leftarrow 1$ and the cocategory object $1 \to 2 \leftarrow 1$ where the two points are distinct. These represent the [[discrete category]] functor and the [[codiscrete category]] functors $Set \to Cat$, respectively.
+
+## Related entries
+
+* [[Trimble n-category]]
