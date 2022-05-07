@@ -64,23 +64,33 @@ The following naming conventions for new entries are not set in stone, but we\'r
   * Exception: We tend to use common European letters (such as '&#246;', more or less the characters in Latin 1) in names, especially of people (such as [[Kurt Gödel]]), even though we're not really supposed to.
 
 * Page titles should be singular nouns.
+
   * Examples: Use `<nowiki>[[category]]</nowiki>` instead of `<nowiki>[[categories]]</nowiki>`, `<nowiki>[[faithful functor]]</nowiki>` instead of `<nowiki>[[faithful]]</nowiki>`, and `<nowiki>[[categorification]]</nowiki>` instead of `<nowiki>[[categorify]]</nowiki>` or `<nowiki>[[categorified]]</nowiki>`.
+
   * Tricks: To produce '[[category|categories]]', try `<nowiki>[[category|categories]]</nowiki>`. To produce '[[faithful functor|faithful]] [[endofunctor]]', try `<nowiki>[[faithful functor|faithful]] [[endofunctor]] </nowiki>`.  Again, you can use redirects to make `<nowiki>[[categories]]</nowiki>` produce '[[categories]]', if the page already exists.
+
   * Reason: We want only one page on a given concept, regardless of variations in grammar.
+
   * Exception: Recently we have started to have page titles that are complete sentences (without capitalization or punctuation) that state a simple theorem (typically a universal affirmation in the Aristotelian sense) such as [[compact Hausdorff rings are profinite]] or [[derivations of smooth functions are vector fields]].
 
-* Page titles should be uncapitalized, except for words that are always capitalized.
+* {#PageTitlesShouldBeUncapitalized} Page titles should be uncapitalized, except for words that are always capitalized.
+
   * Examples: Use `<nowiki>[[homotopy theory]]</nowiki>` instead of `<nowiki>[[Homotopy Theory]]</nowiki>`, but use `<nowiki>[[Lie algebra]]</nowiki>`.
+
   * Tricks: To produce '[[homotopy theory|Homotopy theory]] is important!', try `<nowiki>[[homotopy theory|Homotopy theory]] is important!</nowiki>`.  If you do this a lot, then you can again create a redirect, if the page exists.
+
   * Reason: We want only one page on a given concept, regardless of variations in grammar.
 
 * Except as contradicted above, use standard American English spelling conventions.
+
   * Examples: Use `<nowiki>[[center]]</nowiki>` instead of `<nowiki>[[centre]]</nowiki>` and hyphens as shown in the ASCII-only requirement.
   * Tricks: To produce '[[center|centre]]', try `<nowiki>[[center|centre]]</nowiki>`.  Or, again, make a redirect.
-  * Reason: Much of this is written by [[Urs Schreiber]], who uses American English spelling.
+
+  * Reason: Much of this is written by [[Urs Schreiber]], who uses American English spelling (for the most part, at least).
 
 * Regardless of the above, pages named after specific categories should use the capitalised singular abbreviated form.
   * Examples: Use `<nowiki>[[Set]]</nowiki>` instead `<nowiki>[[Sets]]</nowiki>` and `<nowiki>[[Cat]]</nowiki>` instead of `<nowiki>[[Category]]</nowiki>`.
+
   * Tricks: Although things like '$\Disc: \Set \to \Cat$' work best in math mode and even '$\Set$' alone looks most consistent that way (with proper math-mode formatting), you have to make the link '[[Set]]' outside of math mode.
 
 
