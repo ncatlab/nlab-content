@@ -49,7 +49,15 @@ on [[cobordism theory]] and [[topological K-theory]], meeting in the notion of t
 
 ### 4. Thom classes of line bundles
 
+* [[projective spaces]], in particular [[quaternionic projective space]]
+
+* [[tautological line bundle]]
+
 * [[Thom class]]
+
+* [[Whitehead-generalized cohomology theory]]
+
+* [[multiplicative cohomology theory]]
 
 ### 5. Cobordism and homomorphism into K-theory
 
