@@ -1,4 +1,3 @@
-[[!redirects diagonal arguments]]
 
 #Contents#
 * table of contents
@@ -52,12 +51,12 @@ For a leisurely account see the discussion in
 
 A nice overview is
 
-* [[Noson Yanofsky]], _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, arXiv preprint [http://arxiv.org/abs/math/0305282](http://arxiv.org/abs/math/0305282), May 2003. 
- {#Yan} 
+* {#Yan}  [[Noson Yanofsky]], _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, 2003  ([arXiv:0305282](http://arxiv.org/abs/math/0305282)) 
+ 
 
 The background assumptions for Lawvere's account are reduced in 
 
-* [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) arXiv:[2110.00239](https://arxiv.org/abs/2110.00239)
+* [[David Michael Roberts]], _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (2021) ([arXiv:2110.00239](https://arxiv.org/abs/2110.00239))
 
 as well as versions available in different settings.
 
@@ -65,3 +64,6 @@ as well as versions available in different settings.
 [[!redirects diagonal arguments]] 
 [[!redirects diagonalization argument]]
 [[!redirects diagonalization arguments]]
+
+
+[[!redirects diagonal arguments]]
