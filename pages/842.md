@@ -961,3 +961,7 @@ See also
 [[!redirects (∞,1)-powering]]
 [[!redirects (∞,1)-tensoring]]
 [[!redirects (∞,1)-copower]]
+
+[[!redirects infinity1-limit]]
+[[!redirects infinity1-colimit]]
+
