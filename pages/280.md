@@ -252,6 +252,7 @@ Textbook accounts:
 
 * {#tomDieck87} [[Tammo tom Dieck]], *[[Transformation Groups]]*, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
+
 Lecture notes:
 
 * {#Koszul65} [[Jean-Louis Koszul]], _Lectures on Groups of Transformations_, Tata Institute 1965 ([pdf](http://www.math.tifr.res.in/~publ/ln/tifr32.pdf), [[KoszulGroupsOfTransformations.pdf:file]])
