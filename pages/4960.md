@@ -2169,12 +2169,16 @@ See at _[[infinitesimal cohesion]]_ for more on this.
 
 =--
 
+### Almost-examples
 
+#### Condensed cohesion
+
+See at *[[condensed cohesion]]*.
 
 ### Counter-examples {#CounterExamples}
 
-+-- {: .num_example}
-###### Counter-Example
+\begin{example}
+**Counter-Example**
 
 Let $G$ be a non-trivial [[finite group]] of [[cardinality]] $n$. Write $\mathbf{B}G = \{\bullet \stackrel{g}{\to} \bullet | g \in G\}$ for its [[delooping]] [[groupoid]]. The [[presheaf topos]]
 
@@ -2207,7 +2211,7 @@ $$
 
 where $G$ denotes the fundamental representation of $G$ on itself. Therefore $\Pi_0$ does not preserve products in this case.
 
-=--
+\end{example}
 
 
 
