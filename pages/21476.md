@@ -9,11 +9,13 @@
 
   * [[full and faithful functor]]
 
+  * [[injective-on-objects functor]]
+
   * [[essentially surjective functor]]
 
-    * [[surjective on objects functor]]
+    * [[surjective-on-objects functor]]
 
-    * [[bijective on objects functor]]
+    * [[bijective-on-objects functor]]
 
   * [[essentially surjective and full functor]]
 
