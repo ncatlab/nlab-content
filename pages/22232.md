@@ -45,8 +45,11 @@ As any [[Chern-Dold character]], the [[equivariant Chern character]] on [[equiva
 
 * {#ConnesBaum89} [[Alain Connes]], [[Paul Baum]], _Chern character for discrete groups_, A Fête of Topology, Papers Dedicated to Itiro Tamura 1988, Pages 163-232 ([doi:10.1016/B978-0-12-480440-1.50015-0](https://doi.org/10.1016/B978-0-12-480440-1.50015-0))
 
-
 * {#LueckOliver01} [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_ Progress in Mathematics, vol 196. Birkhäuser 2001 ([doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15))
+
+* {#MislinValette03} [[Guido Mislin]], [[Alain Valette]], Theorem 6.1 in: _Proper Group Actions and the Baum-Connes Conjecture_, Advanced Courses in Mathematics CRM Barcelona, Springer 2003 ([doi:10.1007/978-3-0348-8089-3](https://link.springer.com/book/10.1007/978-3-0348-8089-3))
+
+
 
 For more see the references at _[[equivariant Chern character]]_.
 
