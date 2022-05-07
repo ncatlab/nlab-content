@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[thermodynamics]], the *Boltzmann distribution* is the [[probability distribution]] on the space of configurations of a [[physical system]] which [[maximum|maximizes]] the [[entropy]] for fixed value of total [[energy]].
+In [[thermodynamics]], the *Boltzmann distribution* is the [[probability distribution]] on the space of configurations of a [[physical system]] which [[maximum|maximizes]] the [[entropy]] subject to the constraint that the [[expectation value]] of the [[energy]] is fixed.
 
 It is characterized by a [[probability density]] proportional to the [[exponential]] of the [[energy]] weighted my minus the [[inverse temperature]]:
 
