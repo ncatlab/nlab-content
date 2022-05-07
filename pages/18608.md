@@ -58,7 +58,7 @@ and a report on the progress (essentially none) is in
 
 Further comments are in
 
-* [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, [arXiv:0911.1013](https://arxiv.org/abs/0911.1013).
+* [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, Bull Braz Math Soc, New Series 33(2), 201-212 ([arXiv:0911.1013](https://arxiv.org/abs/0911.1013), [pdf](http://emis.impa.br/EMIS/journals/em/docs/boletim/vol332/v33-2-a4-2002.pdf))
 
 Notes reviewing more technical details of the problem are in 
 
@@ -70,10 +70,15 @@ See also
 
 * Wikipedia, _[Yang-Mills existence and the mass gap](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap)_
 
-Discussion of the [[phenomenology]] motivating the problem:
+### In the nuclear physics literature
+{#ExplicitMentioningInPhysicsLiterature} 
 
-* Craig D. Roberts, _On Mass and Matter_ ([arXiv:2101.08340](https://arxiv.org/abs/2101.08340))
+In the [[nuclear physics]]/[[QCD]]-literature the mass gap problem is (and has long been) known as the _[confinement problem](confinement#OpenProblemConfinementReferences)_.
+Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear physics]]/[[phenomenology|phenomenological]] discussion of [[confinement]]:
 
+* [Roberts-Schmidt 20, p. 2](#RobertsSchmidt20)
+
+* [Roberts 21, footn. 2](#Roberts21)
 
 
 [[!include open problem of confinement -- references]]
