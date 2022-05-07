@@ -451,7 +451,7 @@ Discussion of how $k$-linear [[dg-categories]]/[[A-infinity categories]] present
 
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each can be found in these seminar notes:
 
-* {#Schwede} [[Stefan Schwede]], _Enhancements of triangulated categories_
+* {#Schwede} [[Stefan Schwede]], _Enhancements of triangulated categories_ ([pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf))
 
 For discussion of the [[stable model category]] models of stable $\infty$-categories see
 
