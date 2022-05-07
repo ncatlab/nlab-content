@@ -1,4 +1,6 @@
 
+> This entry is about finite types in [[homological algebra]] and [[rational homotopy theory]]. For finite types in [[type theory]] and [[homotopy type theory]] see *[[inductive family]]*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
