@@ -235,6 +235,7 @@ $$
 
 * [[I8|one-loop anomaly polynomial]]
 
+
 ## References
 
 ### General
@@ -281,9 +282,12 @@ Discussion of _[[Euler forms]]_ ([[differential form]]-representatives of Euler 
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], below (7.3) of _Superconnections, Thom classes, and equivariant differential forms_, Topology Volume 25, Issue 1, 1986 (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">10.1016/0040-9383(86)90007-8</a>)
 
-* {#Wu05} Siye Wu, Section 2.2 of _Mathai-Quillen Formalism_, pages 390-399 in _Encyclopedia of Mathematical Physics_ 2006 ([arXiv:hep-th/0505003](https://arxiv.org/abs/hep-th/0505003))
+* [[Mikio Nakahara]], Section 11.4.2 of: *[[Geometry, Topology and Physics]]*, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
 * [Walschap 04, section 6.3](#Walschap04)
+
+* {#Wu05} Siye Wu, Section 2.2 of _Mathai-Quillen Formalism_, pages 390-399 in _Encyclopedia of Mathematical Physics_ 2006 ([arXiv:hep-th/0505003](https://arxiv.org/abs/hep-th/0505003))
+
 
 * {#Poor07} Walter A. Poor, 3.58 of _Differential Geometric Structures_, Dover Books on Mathematics, 2007
 
