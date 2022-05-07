@@ -57,6 +57,8 @@ The equivariant Chern character has a variety of different but equivalent concre
 
 * {#Moerdijk02} [[Ieke Moerdijk]], p. 18 of: _Orbifolds as Groupoids: an Introduction_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310 , AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
 
+* {#MislinValette03} [[Guido Mislin]], [[Alain Valette]], Theorem 6.1 in: _Proper Group Actions and the Baum-Connes Conjecture_, Advanced Courses in Mathematics CRM Barcelona, Springer 2003 ([doi:10.1007/978-3-0348-8089-3](https://link.springer.com/book/10.1007/978-3-0348-8089-3))
+
 
 * [[Ulrich Bunke]], [[Markus Spitzweck]], [[Thomas Schick]], _Inertia and delocalized twisted cohomology_, Homotopy, Homology and Applications, vol 10(1), pp 129-180 (2008) ([arXiv:math/0609576](https://arxiv.org/abs/math/0609576))
 
