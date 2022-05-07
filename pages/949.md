@@ -84,7 +84,7 @@ Classical predicativists of course accept [[excluded middle]]; otherwise they wo
 
 Most foundations of mathematics are predicative in one sense: no set may belong to itself.  This (or rather, a certain strengthening of this) is the [[axiom of foundation]].  An alternative is the axiom of antifoundation, which explicitly allows for and tames such sets as $\bullet$, where $\bullet = \{\bullet\}$.  Indeed, this equation is a perfectly good way to *define* $\bullet$ using antifoundation, yet this is about as impredicative as a definition can get.
 
-Once one accepts the [[axiom of infinity]], there\'s not much objection to accepting more general [[inductive type]]s; these are sets that are defined recursively much like a [[natural numbers object]].  Categorially, we may see these as [[initial algebra]]s of certain functors on $Set$.  [[coinductive type|Coinductive types]], which are the [[terminal coalgebra|final coalgebra]]s of these functors, also exist in impredicative theories, but not predicatively.
+Once one accepts the [[axiom of infinity]], there\'s not much objection to accepting more general [[inductive type]]s such as [[inductive-inductive types]] and [[quotient inductive types]]; these are sets that are defined recursively much like a [[natural numbers object]].  Categorially, we may see these as [[initial algebra]]s of certain functors on $Set$.  [[coinductive type|Coinductive types]], which are the [[terminal coalgebra|final coalgebra]]s of these functors, also exist in impredicative theories, but not predicatively.
 
 
 ### Polymorphic definitions
@@ -113,7 +113,9 @@ However, $Set$ is still a [[Grothendieck topos]], defined as a category of sheav
 
 An important question in predicative mathematics is the status of the set $\mathbf{R}$ of [[real number]]s.  This set is often constructed as a subset $R_D$ of $\mathcal{P}\mathbf{N}$ or as a [[subquotient]] $R_C$ of $\mathbf{N}^{\mathbf{N}}$, neither of which can be formed in an arbitrary Heyting $W$-pretopos.  The latter can be formed in a $\Pi$-$W$-pretopos, but it is not necessarily correct.
 
-The constructive school of predicativism can construct $\mathbf{R}$ in various ways.  One method is to use $R_C$ directly, but this will only go so far unless something is done to prove that it is Dedekind-complete.  This will follow from [[weak countable choice]] ($WCC$), which is accepted by most constructive schools.  Using [[subset collection]], a variation on $R_C$ is possible which can be proved Dedekind-complete *without* $WCC$; this is very natural from the perpective of type theory (but then, countable choice is also very natural from that perspective).
+The constructive school of predicativism can construct $\mathbf{R}$ in various ways. One method is to use $R_C$ directly, but this will only go so far unless something is done to prove that it is Dedekind-complete. This will follow from [[weak countable choice]] ($WCC$), which is accepted by most constructive schools.  Using [[subset collection]], a variation on $R_C$ is possible which can be proved Dedekind-complete *without* $WCC$.
+
+However, not all constructive predicative mathematics accept [[subset collection]] or [[weak countable choice]]. Another method is to use a predicative version of $R_D$, where given a [[sigma-frame|$\sigma$-frame]] $\Sigma$, $\Sigma$-[[Dedekind cuts]] are defined as pairs of functions $L, U$ from the [[rational numbers]] $\mathbb{Q}$ to $\Sigma$, which represent the open subsets of $\mathbb{Q}$, rather than pairs of functions into the class of propositions. $R_D$ is defined as the set of all $\Sigma$-Dedekind cuts, or as the [[sigma-Dedekind complete|$\Sigma$-Dedekind complete]] [[archimedean field]]. This will ensure that the set of real numbers is a set rather than a [[proper class]], at the cost of Dedekind completeness, which always results in a proper class in constructive predicative mathematics. Nevertheless, a significant portion of [[real analysis]] could be developed using this approach, such as [[differential calculus]], [[integral calculus]], and [[differential geometry]].
 
 It is also possible to assert the existence of $\mathbf{R}$ by fiat, much like $\mathbf{N}$ exists by the axiom of infinity.  This is the approach taken by the classical school; they use $\mathcal{P}\mathbf{N}$ instead of $\mathbf{R}$ directly, but these are isomorphic by excluded middle.  This is natural from the perspective of predicative set theory as a weak form of higher-order logic; you assert the existence of $\mathbf{N}$, $\mathcal{P}\mathbf{N}$, and maybe $\mathcal{P}\mathcal{P}\mathbf{N}$, then stop.
 
@@ -151,6 +153,11 @@ Discussion of [[predicative toposes]] is in
 * [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
 
+Constructive predicative definitions of the real numbers are discussed in
+
+*  [[Paul Taylor]]\'s [page on Dedekind cuts](http://www.paultaylor.eu/ASD/dedras/classical)
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 ## Discussion
 
