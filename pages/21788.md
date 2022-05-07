@@ -47,7 +47,7 @@ $$
 ### Equivariant version
  {#IdeaEquivariantVersion}
 
-The [[equivariant cohomology|equivariant]] version of Tate K-theory is a form of [[equivariant elliptic cohomology]]. For $G$ a [[finite group]] and $X$ a [[topological G-space]] it comes down ([Ganter 07, Def. 3.1](#Ganter07), [Ganter 13, Def. 2.6](#Ganter13), review in[Dove 19, Def. 6.16](#Dove19)) to the sub-ring
+The [[equivariant cohomology|equivariant]] version of Tate K-theory is a form of [[equivariant elliptic cohomology]]. For $G$ a [[finite group]] and $X$ a [[topological G-space]] it comes down ([Ganter 07, Def. 3.1](#Ganter07), [Ganter 13, Def. 2.6](#Ganter13), review in [Dove 19, Def. 6.16](#Dove19)) to the sub-ring
 
 $$
   Ell_{Tate}
