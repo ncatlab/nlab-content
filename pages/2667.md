@@ -670,6 +670,10 @@ of strong monoidal equivalence from $(Schur, \boxtimes)$ to the monoidal categor
 
 The tensor product $\boxtimes$ on $Schur$ goes by another name: it is the **plethystic tensor product**. 
 
+## Related concepts
+
+* [[plethory]]
+
 
 ## References ##
 
