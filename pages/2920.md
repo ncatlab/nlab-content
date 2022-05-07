@@ -1425,7 +1425,7 @@ A detailed discussion of Bousfield localization in the general context of [[enri
 
 * [[Clark Barwick]], _On the Dreaded Right Bousfield Localization_ ([arXiv:0708.3435](http://arxiv.org/abs/0708.3435))
 
-Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
+Bousfield localization_ ([pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/complete.pdf))
 
 in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
 
