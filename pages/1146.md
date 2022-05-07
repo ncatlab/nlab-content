@@ -98,11 +98,11 @@ $$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$$
 
 and with two classes of '[[differentials]]' or 'boundary morphisms':
 
-* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^v = 0$;
+* $d_X^v: X_{p,q}\to X_{p,q-1}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^v = 0$;
 
 and
 
-* $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h = 0$;
+* $d_X^h: X_{p,q}\to X_{p-1,q}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h = 0$;
 
 such that all [[commuting diagram|squares commute]]
 
@@ -144,11 +144,11 @@ $$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$$
 
 and with two classes of 'differentials' or 'boundary morphisms':
 
-* $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^v = 0$;
+* $d_X^v: X_{p,q}\to X_{p,q-1}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^v = 0$;
 
 and
 
-* $\bar{d}_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $\bar{d}_X^h \bar{d}_X^h = 0$;
+* $\bar{d}_X^h: X_{p,q}\to X_{p-1,q}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $\bar{d}_X^h \bar{d}_X^h = 0$;
 
 in addition $\bar{d}_X^h d_X^v + d_X^v \bar{d}_X^h = 0$.
 
