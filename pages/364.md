@@ -2,6 +2,7 @@ I am an Assistant Professor in the Department of Mathematics at [Johns Hopkins U
 
 My webpage can be found [here](http://www.math.jhu.edu/~eriehl/).
 
+
 ## Selected writings
 
 An introductory [[category theory]] textbook for beginning graduate students or advanced undergraduates with an emphasis on applications of categorical concepts to a variety of areas of mathematics.
@@ -12,13 +13,16 @@ Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
-* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) 
-([pdf](https://emilyriehl.github.io/files/elements.pdf))
+* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](https://emilyriehl.github.io/files/elements.pdf))
 
 
 Survey of [[homotopy theory]] from [[homotopical categories]] to [[(∞,1)-categories]]:
 
 * [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
+
+A new proof of the [[Strøm model structure]] using [[algebraic weak factorization systems]]:
+
+* {#BarthelRiehl13} [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_, Algebr. Geom. Topol. 13 (2013) 1089-1124 ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427), [doi:10.2140/agt.2013.13.1089](http://dx.doi.org/10.2140/agt.2013.13.1089))
 
 
 On [[transferred model structures]] and [[model structures on functors]]:
