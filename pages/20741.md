@@ -47,6 +47,10 @@ Machines (RBMs) and [[renormalization group flow]] in [[physics]] was proposed i
 
 ### General
 
+Textbook account:
+
+* Daniel A. Roberts, Sho Yaida, Boris Hanin, *The Principles of Deep Learning Theory*, Cambridge University Press 2022 ([arXiv:2106.10165](https://arxiv.org/abs/2106.10165))
+ 
 On the learning algorithm as [[gradient descent]] of the loss functional:
 
 * {#ThierryMieg18} Jean Thierry-Mieg, _Connections between physics, mathematics and deep learning_, Letters in High Energy Physics, vol 2 no 3 (2019) ([arXiv:1811.00576](https://arxiv.org/abs/1811.00576), [doi:10.31526/lhep.3.2019.110](https://doi.org/10.31526/lhep.3.2019.110))
