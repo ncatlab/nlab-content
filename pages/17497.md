@@ -1375,7 +1375,7 @@ Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes
 =--
 
 +-- {: .num_prop #AlgebrasOverAAreMonoidsUnderA}
-###### Propposition
+###### Proposition
 
 Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ in a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ as in prop. \ref{MonoidalCategoryOfModules}, and an $A$-algebra $(E,\mu,e)$ (def. \ref{AAlgebra}), then there is an [[equivalence of categories]]
 
