@@ -453,6 +453,7 @@ Topology and analysis:
  [(pdf)](http://mishap.sdf.org/6a6ywke/6a6ywke.pdf)
 
 Geometric realisation:
+
 * {#2} [2] Misha Gavrilovich, Konstantin Pimenov.  Geometric realisation as the Skorokhod semi-continuous path space endofunctor. [(pdf)](http://mishap.sdf.org/SkorokhodGeometricRealisation.pdf)
 
 Stability and simplicity:
