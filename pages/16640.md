@@ -16,7 +16,7 @@
 
 ## Idea 
 
-The term "class equation" (or class formula, or orbit decomposition formula) refers to a basic type of counting argument that comes about by decomposing a [[finite set|finite]] [[G-set]] as a sum of its orbits. It has a number of fundamental applications in [[group theory]]. 
+The term *class equation* (or *class formula*, or *orbit decomposition* formula) refers to a basic type of counting argument that comes about by decomposing a [[finite set|finite]] [[G-set]] as a [[union]] of its [[orbits]]. This has a number of fundamental applications in [[group theory]]. 
 
 ## Statement 
 
@@ -177,3 +177,12 @@ Restrict the action to the subgroup $P$. Of course the element $P \in Y$ is a fi
 [[!redirects conjugation class formula]]
 [[!redirects conjugation class formulas]] 
 [[!redirects orbit decomposition formula]] 
+
+[[!redirects Sylow theorem]]
+[[!redirects Sylow theorems]]
+
+[[!redirects Sylow's theorem]]
+[[!redirects Sylow's theorems]]
+
+
+
