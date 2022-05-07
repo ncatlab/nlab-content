@@ -122,7 +122,7 @@ This is already interesting in [[extensional type theory]], where [[quotient typ
 
 ### Quotient inductive types
 
-A [[quotient inductive type]] is a higher inductive type that includes a "0-truncation" constructor such as `contr1` for a set-quotient.  Many of these are useful in set-based mathematics; in addition to colimits in [[Set]], they can be used to construct free algebras and colimits of algebras of various sorts.  Examples can be found at [[quotient inductive type]], including:
+A [[quotient inductive type]] is a higher inductive type that includes a "0-truncation" constructor such as `contr1` for a set-quotient.  Many of these are useful in set-based mathematics; in addition to colimits in [[Set]], they can be used to construct free algebras and colimits of algebras of various sorts. Quotient [[inductive-inductive types]] are used to construct sets with [[proposition|propositional]] [[relations]] and various [[countable]] [[completions]] of structures. Examples can be found at [[quotient inductive type]], including:
 
 * multiple definitions of the [[integers]]
 * [[polynomial rings]]
