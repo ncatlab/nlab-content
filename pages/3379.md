@@ -20,7 +20,6 @@
 {: toc}
 
 
-
 ## Definition
 
 +-- {: .num_defn #IdempotentAdjunction}
@@ -55,6 +54,8 @@ When these conditions hold, the adjunction is said to be **idempotent**.
 
 =--
 
+([MacDonald & Stone 1982, Prop. 2.8](#MacDonaldStone82))
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -81,10 +82,22 @@ If an idempotent adjunction is [[monadic adjunction|monadic]], then (up to equiv
 
 * The [[material-structural adjunction]] between [[material set theory|material set theories]] and [[structural set theory|structural set theories]] is idempotent.  The fixed categories consist of the models satisfying appropriate versions of the [[axiom of foundation]] or anti-foundation.
 
-* The [[comma category]] construction forms part of an adjunction
-$$ cocomma \colon Span(X,Y) \; \rightleftarrows \; Cospan(X,Y)\colon comma $$
-between spans and cospans of categories whose feet are given by categories $X$ and $Y$.
-A construction of cocomma categories can be found in the MathOverflow post in the references. This adjunction is idempotent and factors into the [[reflection]] into [[discrete]] [[two-sided fibrations]] in the category $Span(X,Y)$ and the [[coreflection]] from [[codiscrete cofibrations]] in $Cospan(X,Y)$.
+\begin{example}\label{CoCommaAdjunction}
+**((co)comma construction)**
+\linebreak
+The [[comma category]] construction forms part of an adjunction
+$$ 
+  cocomma 
+  \;\colon\; 
+  Span(X,Y) 
+  \; \rightleftarrows \; 
+  Cospan(X,Y)
+  \;\colon\; 
+  comma 
+$$
+between [[spans]] and [[cospans]] of categories whose feet are given by categories $X$ and $Y$ ([Shulman 2016](#Shulman16)).
+This adjunction is idempotent and factors into the [[reflection]] into [[discrete]] [[two-sided fibrations]] in the category $Span(X,Y)$ and the [[coreflection]] from [[codiscrete cofibrations]] in $Cospan(X,Y)$.
+\end{example}
 
 ## Related concepts
 
@@ -94,7 +107,22 @@ A construction of cocomma categories can be found in the MathOverflow post in th
 
 ## References
 
-* _An explicit description of cocomma categories?_ [MathOverflow](https://mathoverflow.net/questions/247280/an-explicit-description-of-cocomma-categories)
+The characterization of idempotent adjunctions is proven/due to:
+
+* {#MacDonaldStone82} [[John L. MacDonald]], [[Arthur Stone]], Prop. 2.8 in: *The tower and regular decomposition*, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 23 (1982) no. 2, pp. 197-213 ([numdam:CTGDC_1982__23_2_197_0](http://www.numdam.org/item/?id=CTGDC_1982__23_2_197_0))
+
+See also:
+
+* Alessandro Ardizzoni, José Gómez-Torrecillas, Claudia Menini, Prop. 1.3 in:  *Monadic Decompositions and Classical Lie Theory*,  Appl Categor Struct 23, 93–105 (2015)  ([arXiv:1203.2881](https://arxiv.org/abs/1203.2881), [doi:10.1007/s10485-013-9326-7](https://doi.org/10.1007/s10485-013-9326-7))
+
+
+The example \ref{CoCommaAdjunction} of the (co)comma adjunction is also mentioned in:
+
+* {#Shulman16} [[Mike Shulman]], reply [MO:a/247311/381](https://mathoverflow.net/a/247311/381) (2016) to: "An 'explicit' description of cocomma categories?"  
+
+
+
+
 
 
 [[!redirects idempotent adjunctions]]
