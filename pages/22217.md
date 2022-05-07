@@ -28,6 +28,14 @@ Review of [[black rings]]:
 
 * {#EmparanReall06} [[Roberto Emparan]], [[Harvey Reall]], _Black Rings_, Class. Quant. Grav. 23:R169, 2006 ([arXiv:hep-th/0608012](https://arxiv.org/abs/hep-th/0608012))
 
+On [[BTZ black holes]]
+
+* [[Roberto Emparan]], Antonia Micol Frassino, Benson Way, _Quantum BTZ black hole_, JHEP11 (2020) 137 ([arXiv:2007.15999](https://arxiv.org/abs/2007.15999))
+
+and in view of the [[cosmic censorship hypothesis]]:
+
+* [[Roberto Emparan]], Marija Tomašević, _Strong cosmic censorship in the BTZ black hole_, JHEP 06 (2020) 038 ([arXiv:2002.02083](https://arxiv.org/abs/2002.02083))
+
 
 
 category: people
