@@ -166,7 +166,7 @@ where the left triangle is that which exhibits the canonical trivialization of t
 ### In terms of torsion-twisted $G$-structure
  {#InTermsOfTorsionTwistedGStructure}
 
-Given a [[subgroup]] $G\hookrightarrow GL(V)$ of the [[general linear group]] of a linear model space $V$ (e.g. [[super-Minkowski spacetime]] $\mathbb{R}^{d|N}$), then a [[G-structure]] is [[integrability of G-structure|first-order integrable]] if on the first-order [[infinitesimal neighbourhoods]] of any point it is equal to the canonical (trivial) $G$-structure on $V$. Ordinarily the standard [[torsion]] on $V$ vanishs, and if so then so does that of any first-order integrable $G$-structire, which is the reason why for these the [[torsion of a G-structure]] vanishes.
+Given a [[subgroup]] $G\hookrightarrow GL(V)$ of the [[general linear group]] of a linear model space $V$ (e.g. [[super-Minkowski spacetime]] $\mathbb{R}^{d|N}$), then a [[G-structure]] is [[integrability of G-structure|first-order integrable]] if on the first-order [[infinitesimal neighbourhoods]] of any point it is equal to the canonical (trivial) $G$-structure on $V$. Ordinarily the standard [[torsion]] on $V$ vanishes, and if so then so does that of any first-order integrable $G$-structure, which is the reason why for these the [[torsion of a G-structure]] vanishes.
 
 But in the situation of $V$ being [[super-Minkowski spacetime]] as [above](#CanonicalTorsionOfSuperMinkowskiSpacetime), the torsion of the local model space does not vanish, and so accordingly neither does that of a first-order integrable $G$-structure in this case.
 
