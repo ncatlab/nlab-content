@@ -20,7 +20,7 @@ Given a [[group]] $G$ (generally: a [[group object]] in some ambient [[category]
 
 \[
   \label{ActionMorphism}
-  G \times A \overset{\rho}{\longrightarrow} X
+  G \times A \overset{\rho}{\longrightarrow} A
 \]
 
 the *shear map* is the [[morphism]]
