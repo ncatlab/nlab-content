@@ -1,3 +1,5 @@
+> This entry is about semigroups with a unary operator $i$ such that $s \cdot i(s) \cdot s = s$ and $i(s) \cdot s \cdot i(s) = i(s)$. For the semigroup with a two-sided inverse, see [[invertible semigroup]]
+
 # Contents # 
 * table of contents 
 {:toc} 
