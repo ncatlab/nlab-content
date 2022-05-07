@@ -429,7 +429,7 @@ The [[duality in string theory|duality]] of this HET-phenomenon with that in F-t
 
 ### Under Hypothesis H
 
-The vanishing of the [[Euler characteristic]] of K3 after cutting out the [[complement]] of 24 points is precisely the mechanism which witnesses the [[order of a group|order]] 24 of the [[third stable homotopy group of spheres]], seen under [[Pontryagin's theorem]] as the existence of a [[framed manifold|framed]] [[cobordism]] $K3 \setminus 24 \cdot D^4$ between 24 [[3-spheres]]. This relates the number of 24 branes transverse on K3 to [[schreiber:Hypothesis H]]:
+The vanishing of the [[Euler characteristic]] of K3 after cutting out the [[complement]] of 24 points is precisely the mechanism which witnesses the [[order of a group|order]] 24 of the [[third stable homotopy group of spheres]], seen under [[Pontryagin's theorem]] as the existence of a [[framed manifold|framed]] [[cobordism]] $K3 \setminus 24 \cdot D^4$ between 24 [[3-spheres]]:
 
 \begin{imagefromfile}
     "web": "schreiber",
@@ -444,6 +444,25 @@ The vanishing of the [[Euler characteristic]] of K3 after cutting out the [[comp
     },
     "caption": "from [SS21](https://ncatlab.org/schreiber/show/M-Theory+as+Mf-Theory)"
 \end{imagefromfile}
+
+This relates the number of 24 branes transverse on K3 to [[schreiber:Hypothesis H]]:
+
+\begin{imagefromfile}
+    "web": "schreiber",
+    "file_name": "KKOn24PuncturedK3ViaHypothesisH-20210207.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "from [SS21](https://ncatlab.org/schreiber/show/M-Theory+as+Mf-Theory)"
+\end{imagefromfile}
+
+
+
 
 
 ## References
