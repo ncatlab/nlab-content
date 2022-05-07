@@ -98,7 +98,11 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 * [[abelian ∞-group]]
 
+  * [[symmetric 2-group]]
 
+  * [[symmetric 3-group]]
+
+* [[symmetric midpoint group]]
 
 [[!redirects abelian groups]]
 [[!redirects Abelian group]]
