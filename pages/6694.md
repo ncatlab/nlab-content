@@ -41,7 +41,7 @@ For the first statement, we need to show that if $C \subset X$ is a [[closed sub
 
 Now 
 
-1. since [[closed subsets of compact spaces are compact]] it follows that $C \subset C$ is also compact;
+1. since [[closed subsets of compact spaces are compact]] it follows that $C \subset X$ is also compact;
 
 1. since [[continuous images of compact spaces are compact]] it then follows that $f(C) \subset Y$ is compact;
 
