@@ -15,7 +15,7 @@
 
 ## Statements
 
-In its usual form, the _Eckmann--Hilton argument_ shows that a [[monoid object|monoid]] or [[group object]] [[internalization|in]] the category of [[monoids]] or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a [[set]] is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
+In its usual form, the _Eckmann--Hilton argument_ shows that a [[monoid object]] or [[group object]] [[internalization|internal]] to the [[category of monoids]] or [[Groups]] is [[abelian group|commutative]]. In other terms, if a [[set]] is equipped with two [[monoid]] structures, such that one is a [[homomorphism]] for the other, then the two structures coincide and the resulting monoid is [[commutative monoid|commutative]].
 
 From the [[nPOV]], we may want to think of the statement in this way:
 
@@ -102,11 +102,26 @@ $$c_{0.25}(a,b)=c_{0.5}(c_{0.5}(a,b),b)=(a*b)*b=a*(b*b)=a*b=c_{0.5}(a,b).$$
 
 This is relevant in computer science because probability is modelled by the free convex spaces monad, and non-determinism is modelled by the free semilattice monad. These monads are both [[commutative monad|commutative monads]], but there can be no commutative monad that contains both these monads non-degenerately. 
 
+## Related concepts
+
+* [[internalization]]
+
+* [[group object]]
+
+* [[H-space]]
+
 ## References
 
 Due to
 
-* [[Beno Eckmann]], [[Peter Hilton]], ...
+* [[Beno Eckmann]], [[Peter Hilton]], Theorem 1.12 in: *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221
+([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
+
+reviewed (somewhat imperfectly) in:
+
+* [[Beno Eckmann]], [[Peter Hilton]], Theorem 5.4.2 in: _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
+
+
 
 Expositions of the argument are given here:
 
