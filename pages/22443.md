@@ -1114,7 +1114,7 @@ $$
 This is the statement of [Gnedin, Gorin & Kerov 11, Prop. 2.4](#GnedinGorinKerov11) (with notation from Prop. 2.1).
 
 \begin{proposition}\label{EigenvaluesAtLogIntegerInvTemViaYoungTabl}
-**(eigenvalues at $\beta = ln(N)$ in terms of Young tableaux)** \linebreak
+**(Eigenvalues of Cayley distance kenrel at $\beta = ln(N)$ count semistandard Young tableaux)** \linebreak
 
 For $N \in \mathbb{N}$
 and $\lambda \in Part(n)$, the $\lambda$th eigenvalue (eq:EigenvaluesLabeledByPartitions) of the Cayley distance kernel at $\beta = ln(N)$ on $Sym(n)$ is proportional to the number $\left\vert ssYT_{\lambda \vdash n}(N)\right\vert$ of [[semistandard Young tableaux]] (Def. \ref{SetsOfSemistandardYoungTableau})
@@ -1124,7 +1124,7 @@ and $\lambda \in Part(n)$, the $\lambda$th eigenvalue (eq:EigenvaluesLabeledByPa
   EigVals[e^{- ln(N) \cdot d_c}]_\lambda
   \;=\;
   \tfrac{n!}{N^n \cdot \chi^{(\lambda)}(e)}
-  \left\vert ssYT_{\lambda \vdash n}(N)\right\vert 
+  \left\vert ssYT_{\lambda}(N)\right\vert 
   \,.
 \]
 
@@ -1132,7 +1132,85 @@ and $\lambda \in Part(n)$, the $\lambda$th eigenvalue (eq:EigenvaluesLabeledByPa
 
 \begin{proof}
 
-We compute as follows:
+  We compute as follows:
+  $$
+    \begin{aligned}
+      \mathrm{EigVals}[e^{-\mathrm{ln}(N) \cdot d_C}]_\lambda
+      & 
+      \;=\;
+      \frac{
+        e^{- \mathrm{ln}(N)\cdot n}
+      }{
+        \chi^{(\lambda)}(e)
+      }
+      \underset{\sigma \in \mathrm{Sym}(n)}{\sum}
+      \chi^{(\lambda)}(\sigma)
+        \cdot
+      N^{\# \mathrm{cycles}(\sigma)}
+      \\
+      &
+      \;=\; 
+      \frac{
+        e^{- \mathrm{ln}(N)\cdot n}
+      }{
+        \chi^{(\lambda)}(e)
+      }
+      \underset{\sigma \in \mathrm{Sym}(n)}{\sum}
+      \chi^{(\lambda)}(\sigma)
+        \cdot
+      \big(
+        N \cdot 1^{\ell_1(\sigma)} 
+      \big)
+      \big(
+        N \cdot 1^{\ell_2(\sigma)}
+      \big)
+      \cdots
+      \big(
+        N \cdot 1^{\ell_{\#\mathrm{cycles}(\sigma)}(\sigma)}
+      \big)
+      \\
+      & 
+      \;=\;
+      n!
+      \frac{
+        e^{- \mathrm{ln}(N)\cdot n}
+      }{
+        \chi^{(\lambda)}(e)
+      }
+      \cdot
+      s_\lambda
+      \big(
+        x_1 \!=\! 1,
+        \cdots,
+        x_N \!=\! 1
+      \big)
+      \\
+      &
+      \;=\;
+      n!
+      \frac{
+        e^{- \mathrm{ln}(N)\cdot n}
+      }{
+        \chi^{(\lambda)}(e)
+      }
+      \,
+      \cdot
+      \,
+      \# \mathrm{ssYT}_\lambda\!(N)
+      \,.
+    \end{aligned}
+  $$
+
+Here 
+
+* the first line is the [character formula for kernel spectra](Cayley+graph+spectrum#CharacterFormulaForCayleyGraphSpectra) \eqref{CharacterFormulaForEigenvalueOfCayleyDistanceKernel},
+
+* the third step is the [character formula for Schur polynomials](Schur+function#FrobeniusFormula),
+
+* the last step is their [counting property](Schur+function#eq:SchurPolynomialCountsNumberOfSemiStandardYoungTableaux).
+
+
+Alternatively, using Lemma \ref{CharacterForumlaForIntegerExponentialByCycleNumber} we may compute as follows:
 
 $$
   \begin{aligned}
