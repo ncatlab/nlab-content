@@ -41,6 +41,7 @@ In ancient times, _Musica Universalis_ or _Music of the Spheres_ referred to a p
 
 
 ### Modern idea
+ {#ModernIdea}
 
 <div style="float:right;margin:0 10px 10px 0;"> <img src="https://ncatlab.org/nlab/files/HopfFibration.jpg" width="200" />  </div>
 More recently, it was suggested that the term refers to the [[stable homotopy groups of spheres]] $\pi_\bullet(\mathbb{S})$ and the absolute [[E-∞ geometry]] over [[Spec(S)]] as seen by the [[MU]]-[[Adams spectral sequence]].
