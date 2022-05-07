@@ -34,6 +34,8 @@ If there is a specified object $I$, and natural isomorphisms $\lambda_A:\colon A
 
 For example, [[monoidal categories]] such as [[braided monoidal categories]], [[symmetric monoidal categories]], [[cartesian monoidal categories]], [[cocartesian monoidal categories]], and [[rig categories]] are all magma categories. 
 
+An [[Ackermann groupoid]] is a particular sort of [[poset]] that is magmoidal (where 'groupoid' is here a synonym for '[[magma]]').
+
 ## Related concepts
 
 * [[magma]]
