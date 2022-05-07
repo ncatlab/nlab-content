@@ -39,6 +39,8 @@ When the [[theory]] of a [[category]] is phrased in dependent type theory then t
 
 * [[term in context]]
 
+* [[telescope]]
+
 * [[dependent sum]], [[dependent product]]
 
 * [[indexed set]]
