@@ -281,7 +281,9 @@ $$
 
 is the [[obstruction]] to the existence of the extension/orientation at this stage. 
 
-It follows that if these obstructions all vanish, then a complex $E$-orientation does exist.  A sufficient condition for this is, evidently, that the reduced $E$-cohomology of all odd-dimensional spheres vanishes, hence, that the [[graded-commutative ring|graded]] $E$-[[cohomology ring]] $E_\bullet$ is trivial in odd degrees.
+It follows that if these obstructions all vanish, then a complex $E$-orientation does exist.  
+
+{#ComplexOrientationOfEvenCohomologyTheories} A sufficient condition for this is, evidently, that the reduced $E$-cohomology of all odd-dimensional spheres vanishes, hence, that the [[graded-commutative ring|graded]] $E$-[[cohomology ring]] $E_\bullet$ is trivial in odd degrees (an [[even cohomology theory]]).
 
 =--
 
