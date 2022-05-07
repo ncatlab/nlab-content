@@ -21,7 +21,8 @@ On [[Vassiliev invariants]] for [[knots]], the proof that [[chord diagrams modul
 
 * {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
 
-* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
+* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_, in: *Geometry and Physics*, Lecture Notes in Pure and Applied Mathematics, volume 184, Marcel Dekker Inc. 1996 ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009), [ISBN:0-8247-9791-4](https://users-math.au.dk/swann/Aarhus-proceedings-1995/index.html))
+
 
 * [[Dror Bar-Natan]], _Finite Type Invariants_, in:  J.-P. Francoise, G.L. Naber and Tsou S.T. (eds.) Encyclopedia of Mathematical Physics, Oxford: Elsevier, 2006, volume 2 page 340
 ([arXiv:math/0408182](https://arxiv.org/abs/math/0408182))
