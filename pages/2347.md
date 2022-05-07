@@ -23,7 +23,7 @@ Classical mechanics of a system of point particles and rigid bodies is usually d
 
 For a theoretical classical mechanics one often starts with a concrete system of bodies with pulleys, strings, spins, external and internal forces, and dissipative sinks and sources (e.g. friction forces), which are then analysed to get the configuration or phase space of the system, the equations of motion and possibly to determine some special [[observable]]s of interest. Once abstracted that way, the rest of the study is a rather special case of the theory of [[dynamical system]]s, which itself studies general (either deterministic or stochastic) spatially-parametrized systems in a (discrete or continuous) time evolution. 
 
-A terminological and scope discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2807&Focus=23543#Comment_23543).
+A terminological and scope discussion is archived [here](https://nforum.ncatlab.org/comments.php?DiscussionID=2807&Focus=23543#Comment_23543).
 
 ## Traditional formulation
 
