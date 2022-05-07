@@ -1,7 +1,5 @@
 
 
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -9,9 +7,9 @@
 +-- {: .hide}
 [[!include solid state physics -- contents]]
 =--
-#### Homotopy theory
+#### Topological physics
 +--{: .hide}
-[[!include homotopy - contents]]
+[[!include topological physics -- contents]]
 =--
 =--
 =--
@@ -31,7 +29,7 @@ Examples of topological states of matter: [[quantum Hall effect]], [[topological
 
 * applications in [[graphene]], [[topological quantum computing]], study of [[entanglement]] etc. 
 
-Involves study of symmetry breaking, tensor categories, K-theory classification
+Involves study of [[symmetry breaking]], [[tensor categories]], [[K-theory classification of topological phases of matter]] 
 
 ## Relation between SPT order and topological order
 
@@ -52,9 +50,7 @@ described by n-category theory. The SPT orders for free fermions are described b
 
 * [[gapped Hamiltonian]]
 
-* [[TQFT]]
-
-* [[topological quantum computing]]
+* [[topological field theory]]
 
 * [[tensor network state]]
 
@@ -62,9 +58,17 @@ described by n-category theory. The SPT orders for free fermions are described b
 
 * [[topological order]]
 
+* [[topological insulator]]
+
+* [[topological photonics]]
+
+* [[topological quantum computing]]
+
+
 * [[quantum spin Hall effect]]
 
 * [[entanglement]]
+
 
 ## References
 
