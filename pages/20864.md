@@ -7,6 +7,9 @@ On [[homotopy of rational maps]]:
 
 * [[Jacob Mostovoy]], *Spaces of rational maps and the Stone–Weierstrass theorem*, Topology Volume 45, Issue 2, March 2006, Pages 281-293 ([doi:10.1016/j.top.2005.08.003](https://doi.org/10.1016/j.top.2005.08.003))
 
+* [[Jacob Mostovoy]], Erendira Munguia-Villanueva, *Spaces of morphisms from a projective space to a toric variety*, Revista Colombiana de Matematicas **48** 1 (2014) ([arXiv:1210.2795](https://arxiv.org/abs/1210.2795), [published pdf](http://scm.org.co/archivos/revista/Articulos/1129.pdf))
+
+
 
 On [[Vassiliev invariants]] ([[chord diagrams]], [[Jacobi diagrams]], [[weight systems]], [[knot invariants]] etc.)
 
