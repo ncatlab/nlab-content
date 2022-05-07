@@ -141,6 +141,8 @@ See [[locale of real numbers]] for more.
 
 The [[coalgebra of the real interval|unit interval]] of the real numbers $[0,1]$ could be constructed as a [[terminal coalgebra of an endofunctor]] in the [[category]] of [[intervals]]. Let $(\mathbb{R},0,+,-,1,\cdot,\lt)$ be an [[ordered field]] where $0 \lt 1$, with a [[monotone]] $f:[0,1]\to \mathbb{R}$ such that $f(0) = 0$ and $f(1) = 1$. The set $\mathbb{R}$ of real numbers is the initial such ordered field. 
 
+See also: [[dyadic interval coalgebra]], [[decimal interval coalgebra]], [[rational interval coalgebra]]. 
+
 ### $\mathbb{R}^+$ as a terminal coalgebra
 
 The positive real line $\mathbb{R}^+$ may be characterized as the [[terminal object|terminal]] [[coalgebra for an endofunctor]]
