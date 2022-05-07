@@ -202,6 +202,7 @@ $$
   \]
   and every subgroup of this form arises as the [[graph of a function|graph]] of a unique crossed homomorphism.
 \end{proposition}
+This is, essentially, considered in [tom Dieck 1969, Sec. 2.1](#tomDieck69).
 \begin{proof}
   The first statement is immediate from the definition.
 
@@ -540,22 +541,23 @@ in the context of [[group cohomology]]:
 
 The general [[non-abelian group|non-abelian]] notion: 
 
-In [[homotopy theory]], crossed homomorphisms  with possibly non-abelian codomain already occur in 
+In discussion of [[homotopy theory]] (together with [[crossed modules]]):
 
 * {#Whitehead49} [[J. H. C. Whitehead]], Section 3 of: _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496 ([euclid:1183513797](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full))
 
+In discussion of [[equivariant principal bundles]]:
 
-In discussion of [[topological G-space|equivariant]] [[classifying spaces]] for [[equivariant principal bundles]]:
+* {#tomDieck69} [[Tammo tom Dieck]], Sec. 2.1 in: _Faserbündel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
+
+  > (not using the terminology "crossed homomorphism", but already characterizing their graphs, as in Lem. \ref{GraphOfACrossedHomomorphism})
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
 
-In discussion of [[algebraic groups]]:
-
-* {#Milne17} [[James Milne]], Section 15.a (16.a in the pdf) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
-
-As [[non-abelian cohomology|non-abelian]] [[group cohomology]]:
+As 1-[[cocycles]] in [[non-abelian cohomology|non-abelian]] [[group cohomology]]:
 
 * {#NSW08} [[Jürgen Neukirch]], Alexander Schmidt, Kay Wingberg, pages 16 & 24 in: *Cohomology of Number Fields*, Springer Grundlehren der mathematischen Wissenschaften **323**, Springer 2008 ([doi:10.1007/978-3-540-37889-1](https://link.springer.com/book/10.1007/978-3-540-37889-1), [webpage](https://www.mathi.uni-heidelberg.de/~schmidt/NSW2e/))
+
+* {#Milne17} [[James Milne]], Sections 15.a-b (16.a-b in the pdf) of: *Algebraic Groups*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
 
 * Groupprops, *[First cohomology set with coefficients in a non-abelian group](https://groupprops.subwiki.org/wiki/First_cohomology_set_with_coefficients_in_a_non-abelian_group)*
 
