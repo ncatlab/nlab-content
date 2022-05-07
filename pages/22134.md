@@ -29,7 +29,7 @@ Further review:
 
 * Ady Stern, Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science 08 Mar 2013: Vol. 339, Issue 6124, pp. 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
     
-* Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
+* {#LahtinenPachos17} Ville Lahtinen, Jiannis K. Pachos, _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. 3, 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
 
 * [[Eric Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
@@ -45,6 +45,9 @@ Realization in [[experiment]]:
 
   > (for [[quantum error correction]])
 
+See also:
+
+* {#Rouabah20} Mohamed Taha Rouabah, *Compiling single-qubit braiding gate for Fibonacci anyons topological quantum computation* ([arXiv:2008.03542](https://arxiv.org/abs/2008.03542))
 
 
 
