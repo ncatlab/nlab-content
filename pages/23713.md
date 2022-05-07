@@ -1,7 +1,30 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-(...)
+For a [[crystal|crystalline]] material with a set of isolated (gapped) [[electronic band structure|electronic bands]], the [[partial derivatives]] along [[momentum]]-[[vectors]] of the corresponding [[Bloch states]], projected back onto these states, turn out to canonically define a [[connection on a vector bundle|connection]] [[differential 1-form|1-form]] on the [[vector bundles]] (over the [[Brillouin torus]]) which is spanned by these states. This is called a *Berry connection*, due to ([Berry 84](#Berry84), [Simon 83](#Simon83)). The [[curvature 2-form]] of a Berry connection is accordingly called the *Berry curvature*.
+
+The [[holonomy]] of such a Berry connection is called a *[[Berry phase]]*, in general, and a *[[Zak phase]]* ([Zak 89](#Zak89)) when evaluated along one of the non-trivial 1-[[cycles]] of the [[Brillouin torus]]. 
+
+By default, this is understood to apply to the [[valence bundle]], but the construction works more generally.
+
+For [[semimetals]] the Berry phases of the [[valence bundle]] around their nodal loci of [[codimension]] 2 are a measure for the [[obstruction]] to adiabatically deform the semimetal such as to open its gap closures, hence to become a ([[topological insulator|topological]]) [[insulator]] (eg. [Vanderbilt 18, 5.5.2](#Vanderbilt18)).
+
+
 
 ## Related concepts
 
@@ -11,15 +34,15 @@
 
 The original article:
 
-* [[Michael V. Berry]], *Quantal phase factors accompanying adiabatic changes*, Proc. R. Soc. Lond. A **392** (1984) 45–57 ([doi:10.1098/rspa.1984.0023](https://doi.org/10.1098/rspa.1984.0023), [jstor:2397741](https://www.jstor.org/stable/2397741))
+* {#Berry84} [[Michael V. Berry]], *Quantal phase factors accompanying adiabatic changes*, Proc. R. Soc. Lond. A **392** (1984) 45–57 ([doi:10.1098/rspa.1984.0023](https://doi.org/10.1098/rspa.1984.0023), [jstor:2397741](https://www.jstor.org/stable/2397741))
 
 The formulation in terms of [[connections]] on [[fiber bundles]] and their [[holonomy]]:
 
-* Barry Simon, *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*, Phys. Rev. Lett. **51** (1983) 2167 ([doi:10.1103/PhysRevLett.51.2167](https://doi.org/10.1103/PhysRevLett.51.2167))
+* {#Simon83} Barry Simon, *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*, Phys. Rev. Lett. **51** (1983) 2167 ([doi:10.1103/PhysRevLett.51.2167](https://doi.org/10.1103/PhysRevLett.51.2167))
 
 The special case of Berry phases around the 1-cycles of a [[Brillouin torus]]:
 
-* J. Zak, *Berry’s phase for energy bands in solids*, Phys. Rev. Lett. **62** (1989) 2747 ([doi:10.1103/PhysRevLett.62.2747](https://doi.org/10.1103/PhysRevLett.62.2747))
+* {#Zak89} [[Joshua Zak]], *Berry’s phase for energy bands in solids*, Phys. Rev. Lett. **62** (1989) 2747 ([doi:10.1103/PhysRevLett.62.2747](https://doi.org/10.1103/PhysRevLett.62.2747))
 
 Further dsicussion:
 
@@ -36,9 +59,14 @@ See also:
 * Wikipedia, *[Berry connection and curvature](https://en.wikipedia.org/wiki/Berry_connection_and_curvature)*
 
 
+
 [[!redirects Berry connections]]
 
 [[!redirects Berry phase]]
 [[!redirects Berry phases]]
+
+[[!redirects Zak phase]]
+[[!redirects Zak phases]]
+
 
 
