@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -775,7 +774,7 @@ See also:
 
 * {#Koszul65} [[Jean-Louis Koszul]], _Lectures on Groups of Transformations_, Tata Institute 1965 ([pdf](http://www.math.tifr.res.in/~publ/ln/tifr32.pdf), [[KoszulGroupsOfTransformations.pdf:file]])
 
-Texbook accounts:
+Textbook accounts:
 
 * {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
@@ -787,7 +786,9 @@ Texbook accounts:
 
 * {#May96} [[Peter May]] et al., Section I.1 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 
-More discussion in the contex of [[equivariant homotopy theory]]:
+* [[Alejandro Adem]], [[James Davis]], *Topics in Transformation Groups*, Chapter 1 in: *Handbook of Geometric Topology*, 2001, Pages 1-54 ([doi:10.1016/B978-044482432-5/50002-0](https://doi.org/10.1016/B978-044482432-5/50002-0), [pdf](https://personal.math.ubc.ca/~adem/topics.pdf))
+
+More discussion in the context of [[equivariant homotopy theory]]:
 
 * {#Guillou} [[Bert Guillou]], _A short note on models for equivariant homotopy theory_ ([pdf](https://faculty.math.illinois.edu/~bertg/EquivModels.pdf), [[GuillouModelsForEquivariantHomotopyTheory.pdf:file]])
 
