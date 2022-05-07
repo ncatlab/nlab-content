@@ -220,7 +220,7 @@ $\,$
 
 A rich source of adjoint quadruples arises form [[adjoint pairs]] between [[small categoires]] by left/right [[Kan extension]] to their [[categories of presheaves]]. 
 
-More interesting examples of adjoint quadruples tend to arise from these presheaf constructions when the quadruple (co)restricts to sub-[[categories of sheaves]].
+More interesting examples of adjoint quadruples tend to arise from these presheaf constructions when the quadruple ([[corestriction|co]])[[restriction|restricts]] to sub-[[categories of sheaves]].
 
 We spell out two proofs of this fact, the first using [[coend]]-calculus in the generality of [[enriched category theory]], the second using more elementary [[colimit]]-notation.
 
@@ -665,12 +665,106 @@ As before, the adjunction $\ell^\ast \dashv r^\ast$ implies the overlapping adjo
 
 
 
-### Cohesive toposes
+### Cohesion
  {#CohesiveToposes}
 
-For a [[cohesive topos]], by definition, the terminal [[geometric morphism]]  to the given [[base topos]] extends to an adjoint quadruple.
 
-For example, if the cohesive topos has a [[cohesive site]] $\mathcal{S}$, which in particular means that $\mathcal{S}$ has a [[terminal object]] and hence participates with the [[terminal category]] in an [[adjunction]] of the form
+\begin{prop}\label{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple}
+**(Kan extension of finite product preserving reflection is cohesive adjoint quadruple)**
+\linebreak
+  Let 
+
+\begin{tikzcd}
+  \mathcal{S}_1
+  \ar[
+    r,
+    shift left=7pt,
+    "{ p }"{above},
+    "{ \mathclap{\times} }"{description, pos=.0}
+  ]
+  &
+  \mathcal{S}_2
+  \ar[
+    l,
+    shift left=7pt,
+    hook',
+    "{ i }"{below}
+  ]
+  \ar[
+    l,
+    phantom,
+    "{\scalebox{.6}{$\bot$}}"{description}
+  ]
+\end{tikzcd}
+
+be a pair of [[adjoint functors]] between [[small categories]] with [[finite products]], such that 
+
+1. the [[right adjoint]] $i$ is [[fully faithful functor|fully faithful]],
+
+1. the [[left adjoint]] $p$ [[preserves limits|preserves]] [[finite products]].
+
+Then the induced adjoint quadruple of Kan extensions from Prop. \ref{AdjointPairInducesAdjointQuadrupleUnderKanExtension} is [[cohesive topos|cohesive]] in that
+
+1. the two reverse functors are [[fully faithful functor|fully faithful]].
+
+1. the leftmost adjoint $p_!$ [[preserved limit|preserves]] [[finite products]];
+
+\begin{tikzcd}
+  \mathrm{PSh}(\mathcal{S}_1)
+      \ar[
+        rr,
+        "{ p_\ast \,\simeq\, i^\ast    }"{description}
+      ]
+      \ar[
+        rr,
+        shift left=40pt,
+        "{ p_! }"{description, pos=.39},
+        "\mathclap{\times}"{description, pos=0}
+      ]
+      &&
+  \mathrm{PSh}(\mathcal{S}_1)
+      \ar[
+        ll,
+        hook',
+        shift right=20pt,
+        "{ p^\ast \,\simeq\, i_! }"{description}
+      ]
+      \ar[
+        ll,
+        hook',
+        shift right=-20pt,
+        "{ i_\ast }"{description, pos=.39}
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=10pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=30pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+      \ar[
+        ll,
+        phantom,
+        shift right=-10pt,
+        "{\scalebox{.6}{$\bot$}}"
+      ]
+\end{tikzcd}
+
+
+\end{prop}
+\begin{proof}
+  The preservation of finite products by the leftmost adjoint follows by Prop. \ref{LeftKanExtensionOfFinProdPreservingIsFinProdPreserving} below.
+
+The fully faithfulness of $i_!$ follows by Prop. \ref{LeftKanExtensionOfFullyFaithfulIsFullyFaithful} below. This implies that also $i_\ast$ is fully faithful, by [this Prop.](adjoint+triple#FullyFaithful).
+\end{proof}
+
+\begin{example}
+Consider a [[site]] $\mathcal{S}$ with [[finite products]], in particular with a [[terminal object]]. Then the inclusion of the [[full subcategory]] on this  terminal object, which is the [[terminal category]] $\ast$ is an adjunction of the form
 
 $$
   \mathcal{S}
@@ -682,9 +776,13 @@ $$
   \,.
 $$
 
-then the cohesive adjoint quadruple is the [[corestriction|(co-)]][[restriction]] to [[sheaves]] of the adjoint quadruple on presheaves as [above](#ViaKanExtensionOfAdjointPairs).
+If $\mathcal{S}$ is a *[[cohesive site]]* then the 
+induced adjoint quadruple from Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple} ([[corestriction|co]])[[restriction|restricts]] to the [[category of sheaves]] $Sh(\mathcal{S}) \xhookrightarrow{\;} PSh(\mathcal{S})$ and exhibits it as a [[cohesive topos]].
+\end{example}
 
-Here is one way to see (Prop. \ref{LeftKanExtensionOfFinProdPreservingIsFinProdPreserving} below) that/when the leftmost Kan extension [[preserved limit|preserves]] [[finite products]]:
+\linebreak
+
+We now spell out the proof of the lemmas used in the proof of Prop. \ref{KanExtensionOfFiniteProductPreservingReflectionIsCohesiveAdjointQuadruple}.
 
 \begin{lemma}\label{LeftKanExtensionIsOriginalFunctorOnRepresentables}
   Given a functor $\mathcal{S}_1 \xrightarrow{\;f\;} \mathcal{S}_2$ between [[small categories]], its [[left Kan extension]]
