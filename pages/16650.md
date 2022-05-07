@@ -53,5 +53,9 @@ and that from the definition of Euclidean domain, the only reason why the sequen
 
 Euclidean domains could be generalised to the case where the structure is only a [[rig]] instead of a ring; these objects could be called __Euclidean cancellative rigs__. 
 
+## See also 
+
+* [[Euclidean ring]]
+
 [[!redirects Euclidean domains]]
 [[!redirects Euclidean algorithm]] 
