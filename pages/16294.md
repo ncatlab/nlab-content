@@ -33,8 +33,6 @@ $$
   laxlim(f)  \simeq \int_{c \in C} Fun(C_{/c}, f(c))
 $$
 
-where $\overline{Tw}(C)$ is the [[twisted arrow (∞,1)-category]].
-
 ## Examples
 
 * [[(∞,1)-Grothendieck construction]]
