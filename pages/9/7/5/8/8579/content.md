@@ -33,4 +33,6 @@ $$
 
 * [[hypothetical judgment]], [[generic judgment]]
 
+* [[telescope]]
+
 [[!redirects terms in context]]
