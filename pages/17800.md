@@ -46,10 +46,14 @@ Contrary to a remark in [[Sketches of an Elephant]], this condition implies that
 
 ## References
 
-* [[Eduardo Dubuc]] and [[Jacques Penon]], *Objets compacts dans les topos*
+* [[Eduardo Dubuc]] and [[Jacques Penon]], *Objets compacts dans les topos*,
+  Journal of the Australian Mathematical Society. Series A.
+  Pure Mathematics and Statistics, 40(2), 1986, p. 203–217.
+  doi:[10.1017/S144678870002718X](https://dx.doi.org/10.1017/S144678870002718X)
  {#DubucPenon}
 
-* Vermeulen, *Proper maps of locales*
+* Vermeulen, *Proper maps of locales*, Journal of Pure and Applied Algebra, 92, 1994, p. 79–107.
+  [pdf (core.ac.uk)](https://core.ac.uk/download/pdf/82053693.pdf)
  {#Vermeulen}
 
 [[!redirects covert spaces]]
