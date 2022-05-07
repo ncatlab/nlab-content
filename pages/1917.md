@@ -204,7 +204,7 @@ In ([Moore-Segal 06](#MooreSegal06)) are discussed $G$-[[equivariant TFT]]s and 
 
 The original definition is due to [[Graeme Segal]] (who introduced them as [[elliptic objects]]), see §6 of
 
-* {#Segal88} [[Graeme Segal]], _Elliptic cohomology (after Landweber–Stong, Ochanine, Witten, and others)_, Séminaire Bourbaki, 40e année, 1987–88, No. 695.
+* {#Segal88} [[Graeme Segal]], _Elliptic cohomology (after Landweber–Stong, Ochanine, Witten, and others)_, Séminaire Bourbaki, 40e année, 1987–88, No. 695 ([numdam:SB_1987-1988__30__187_0](http://www.numdam.org/item/?id=SB_1987-1988__30__187_0))
 
 HQFTs were further studied in
 
