@@ -78,7 +78,7 @@ $$
     \mathcal{C}_{[\Gamma_2]}
 $$
 
-satisfying [[Frobenius reciprocity]]. These serve as the semantics for the the [[context extension]] along a map $f\colon \Gamma_1 \to \Gamma_2$ of contexts, and for the [[dependent sum]] $\sum$, and the [[dependent product]] of the dependent type theory syntax, respectively:
+satisfying [[Frobenius reciprocity]]. These serve as the semantics for the [[context extension]] along a map $f\colon \Gamma_1 \to \Gamma_2$ of contexts, and for the [[dependent sum]] $\sum$, and the [[dependent product]] of the dependent type theory syntax, respectively:
 
 $$
   \left\{
