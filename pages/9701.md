@@ -35,14 +35,13 @@ In [[physics]], in [[gauge theory]], the clutching construction plays a central 
 
 * [[QCD instanton]], [[Yang-Mills instanton]]
 
-## References
+## Literature
 
-Reviews include
+Review:
 
-* [[Allen Hatcher]], page 22 of _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* [[Allen Hatcher]], page 22 of: _Vector bundles and K-theory_ ([web](http://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], p. 17-28 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
-
+* {#Wirthmuller12} [[Klaus Wirthmüller]], p. 17-28 of: _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
 * Wikipedia, _[Clutching construction](http://en.wikipedia.org/wiki/Clutching_construction)_
 
