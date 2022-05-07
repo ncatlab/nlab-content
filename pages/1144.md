@@ -1209,13 +1209,20 @@ The original articles are
 
 * {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
 
+Generalization to [[deck transformation|deck]]-[[Borel-equivariant rational homotopy theory]] for [[covering spaces]] of non-[[nilpotent spaces]]
+
+* {#BrownSzczarba93} [[Edgar Brown]], [[Robert H. Szczarba]], *Real and rational homotopy theory for spaces with arbitrary fundamental group*, Duke Mathematical Journal 71. (1993): 229-316 ([doi:10.1215/S0012-7094-93-07111-6](https://projecteuclid.org/journals/duke-mathematical-journal/volume-71/issue-1/Rational-and-real-homotopy-theory-with-arbitrary-fundamental-groups/10.1215/S0012-7094-93-07111-6.short))
+
 * {#BrownSzczarba95} [[Edgar Brown]], [[Robert H. Szczarba]], _Real and Rational Homotopy Theory_, Chapter 17 in: *[[Handbook of Algebraic Topology]]*,  Elsevier, 1995 869-915 ([doi:10.1016/B978-044481779-2/50018-3](https://doi.org/10.1016/B978-044481779-2/50018-3), [ZB](http://mirrors.library.cornell.edu/ZMATH/zmath/en/zmath/search/?an=0865.55009))
 
-  > (generalization to [[real homotopy theory]] and to [[Borel-equivariant rational homotopy theory]] for non-[[nilpotent spaces]]);
+  > (also discussing [[real homotopy theory]]);
+
+* [[Antonio Gómez-Tato]], [[Stephen Halperin]], [[Daniel Tanré]], *Rational homotopy theory for non-simply connected spaces*, Trans. Amer. Math. Soc. 352 (2000), 1493-1525 ([doi:10.1090/S0002-9947-99-02463-0](https://doi.org/10.1090/S0002-9947-99-02463-0))
+
+Emphasis of the role of [[de Rham complexes]] of [[smooth manifolds]])
 
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkhauser (2013) ([doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4))
 
-  > (emphasis on [[de Rham complexes]] of [[smooth manifolds]])
 
 
 Survey and review includes
