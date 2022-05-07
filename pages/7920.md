@@ -25,7 +25,7 @@ between
 a [[model structure on sSet-enriched presheaves]]
 and a [[slice model structure]] of [[simplicial sets]] which has been introduced under the name *straightening and unstraightening* in [Lurie 2009, Sec. 3.2](#Lurie09):
 
-In [[model category]]-theory, in particular in the presentation of the [[(infinity,1)-Grothendieck construction|(∞,0)-Grothendieck construction]], for a [[simplicial set]] $S$, there is a [[pair]] of [[adjoint functors]]
+In [[model category]]-theory, in particular in the presentation of the [[(infinity,1)-Grothendieck construction|(∞,0)-Grothendieck construction]], for a [[simplicial set]] $S$, [[simplicially enriched category]] $C$, and simplicial functor $\mathfrak{C}[S] \to C$, there is a [[pair]] of [[adjoint functors]]
 $$
   (St_\phi\dashv Un_\phi) 
   \;\colon\; 
