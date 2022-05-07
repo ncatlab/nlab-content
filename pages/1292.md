@@ -49,6 +49,8 @@ whose kernel and cokernel are in $T$. Although
 $\Sigma$ admits the [[calculus of fractions]], 
 this method does not guarantee the existence in general. 
 
+A basic example is the quotient of the category of abelian groups modulo the torsion groups. This category is equivalent to the category of $\mathbb{Q}$-vector spaces, by the functor which maps an abelian group $M$ to the scalar extension $M \otimes_{\mathbb{Z}} \mathbb{Q}$. (See the [Stacks Project, Tag 0B0J](http://stacks.math.columbia.edu/tag/0B0J) for a proof.)
+
 ### Localizing subcategories
 
 A thick subcategory (here always in the strong sense) is said to be [[localizing subcategory|localizing]] if $T$ is thick and the canonical functor $Q$ admits a right adjoint $A/T\to A$, often called the __section functor__. In other words $A/T$ is a reflective subcategory of $A$. Every coreflective thick subcategory $T$ admits a section functor, and the converse holds if $A$ has injective envelopes. A thick subcategory $T\subset A$ is a coreflective iff $(T,F)$ is a [[torsion theory]] where
