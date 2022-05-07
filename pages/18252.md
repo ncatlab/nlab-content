@@ -302,7 +302,7 @@ The horizontal map in (eq:DualTautologicalBundleProjection) [[embedding of topol
   \,.
 \]
 
-(see also [Conner-Floyd 66, Part I, Prop. 4.3](#ConnerFloyd66) for a [[coset space]]-perspective on this relation).
+(E.g.: [Tamaki-Kono 06, Part III, Lemma 3.8](#TamakiKono06), bewaring that these authors secretly identify lines with dual lines -- as seen from the inner product used in the second but last line on p. 46. Also see [Conner-Floyd 66, Part I, Prop. 4.3](#ConnerFloyd66) for an alternative perspective in terms of [[coset spaces]].)
 
 Notice how the inclusion of the point at $[v,\, z\!=\!\infty] \leftrightarrow [(v\!=\!0,\,1)]$ in the Thom space interplays with the condition that $v = 0$ is excluded in the base space.
 
@@ -601,10 +601,13 @@ This plays a key role in [[topological K-theory]] and more generally in [[comple
 
 ## References
 
+Discussion with an eye towards [[complex-oriented cohomology theory]]:
+
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], p. 21 (28 of 120) in: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Chapter 3, Section 2 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]], [ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
-Lecture notes:
+Lecture notes with an eye towards [[topological K-theory]]:
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 2 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
