@@ -5,10 +5,8 @@
 
 * [[empty family]], [[empty function]], [[empty bundle]]
 
-* [[empty space]]
+* [[empty topological space]], [[empty simplicial set]]
 
-* [[empty graph]]
+* [[empty graph]], [[empty category]], [[empty diagram]]
 
-* [[empty category]]
-
-* [[empty diagram]]
+* [[nothing]]
