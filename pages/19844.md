@@ -630,6 +630,8 @@ talk at [XIth International Symposium on Quantum Theory and Symmetries](http://w
 
 * {#Crivellin21} [[Andreas Crivellin]], *Heavy Flavours -- Theory*, talk at [LHCP, Paris 2021](https://indico.cern.ch/event/905399/) ([[CrivellinLHCP2021.pdf:file]])
 
+* {#LancieriniMoise21} Davide Lancierini, R. Dan Moise, *[Anomalous measurements: recent results deepen flavour puzzle](https://ep-news.web.cern.ch/content/anomalous-measurements-recent-lhcb-results-deepen-flavour-puzzle)*, CERN EP Newsletter 21st June 2021  ([arXiv:2107.06337](https://arxiv.org/abs/2107.06337))
+
 
 Outlook:
 
