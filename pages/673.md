@@ -23,7 +23,7 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 ### Preprints
 
-More soon!
+* _Substructural fixed-point theorems and the diagonal argument: theme and variations_ (submitted to the arXiv 1 October 2021)
 
 ### Papers
 
