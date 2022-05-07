@@ -385,9 +385,11 @@ Textbook accounts:
 
 * [[Francis Borceux]], Chapter 8 in Vol 1 _Basic Category Theory_ of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)  ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
-and with emphasis on [[topos theory]]:
+and with emphasis on an ambient [[topos theory]]:
 
-* {#Johnstone} [[Peter Johnstone]], section B.2.3 of: _[[Sketches of an Elephant]]_
+* {#Johnstone77} [[Peter Johnstone]], Chapter 2 of: _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
+
+* {#Johnstone}[[Peter Johnstone]], Section B2.3 in: Vol. 1 of: _[[Sketches of an Elephant -- A Topos Theory Compendium]]_, Oxford University Press (2002)([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
  
 * [[Saunders MacLane]], [[Ieke Moerdijk]], section V.7 of: _[[Sheaves in Geometry and Logic]]_
 
