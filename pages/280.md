@@ -156,9 +156,29 @@ As an example, only [[locally compact topological space|locally compact topologi
 
 As another example, within the category of [[profinite group|profinite groups]] viewed as topological groups, not all objects have automorphism groups for which the natural topology is profinite. Thus profinite group actions on (the underlying topological space of) a profinite group must either be given in this form, or else be restricted to actions on profinite groups for which the automorphism group is naturally profinite. 
 
-### Actions of a profinite group (on a set)
+### Actions of a monoid object
 
-See [[action of a profinite group]].
+Suppose we have  a category, $C$, with binary [[product]]s and a [[terminal object]] $*$. There is an alternative way of viewing monoid actions in [[Set]], so that we can talk about an action of a [[monoid object]], $M$, in $C$ on an object, $X$, of $C$.
+
+By the adjointness relation between cartesian product, $A\times ?$, and function set, $?^A$, in [[Set]], a monoid homomorphism
+
+$$\alpha: M\to End(X)$$ 
+corresponds to a function
+
+$$act: M\times X\to X$$
+which will have various properties encoding that $\alpha$ was a homomorphism of monoids:  
+
+$$act(m_1m_2,x) = act(m_1,act(m_2,x))$$
+
+$$act(1,x) = x$$
+
+and these can be encoded diagrammatically.
+
+Because of this, we can **define** an action of a monoid object, $M$, in $C$ on an object, $X$, of $C$ to be a morphism
+$$act:M\times X\to X$$
+satisfying conditions that certain diagrams (left to the reader) encoding these two rules, commute.
+
+The advantage of this is that it does not require the category $C$ to have internal endomorphism monoid objects for all objects being considered.
 
 ### Actions of a set
 
