@@ -314,7 +314,7 @@ This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem 
 
 For several years [[Andre Joyal]] -- who was one of the first to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
 
-* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
+* {#Joyal08} [[André Joyal]], _The theory of quasicategories and its applications_ lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
 
 Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]) are in
 
@@ -368,7 +368,8 @@ A model by [[stratified spaces]] is in
 
 A more model-independent abstract formulation is discussed in
 
-* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
+
 
 And is being developed in a book in progress, regularly being updated:
 
