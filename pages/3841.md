@@ -71,9 +71,9 @@ At least if "regular cardinal" has its classical meaning of a particular ordinal
 In the case of $\aleph_0$, this means that a countable union of countable sets is countable.  Note that this implies that there exist arbitarily large regular cardinals: for any cardinal $\lambda$ there is a greater regular cardinal, namely $\lambda^+$. 
 
 \begin{proof} 
-Under the axiom of choice, the successor of a cardinal number is the [[Hartogs number]] (see there): if $\lambda$ is the cardinality of $X$, then $\lambda^+$ is the order type of the well-ordered set $\aleph(X)$. If $\lambda_\alpha$ is a set of ordinals with least upper bound $\lambda^+$, and supposing this set has cardinality $\leq \lambda$, then the corresponding initial segments $X_\alpha$ of $\aleph(X)$ provide a partition 
+Under the axiom of choice, the successor of a cardinal number is the [[Hartogs number]] (see there): if $\lambda$ is the cardinality of $X$, then $\lambda^+$ is the order type of the well-ordered set $\aleph(X)$. If $(\lambda_\alpha) = (0 = \lambda_0 \lt \lambda_1 \lt \ldots)$ is a set of ordinals with least upper bound $\lambda^+$, and supposing, working toward a contradiction, that this set has cardinality $\leq \lambda$, then the corresponding initial segments $X_\alpha$ of $\aleph(X)$ provide a partition 
 $$\aleph(X) = \bigcup_\alpha X_{\alpha+1} \setminus X_\alpha$$ 
-and each by construction of $\aleph(X)$, each $X_{\alpha+1} \setminus X_\alpha$ has cardinality $\leq \lambda$. Thus the union would have at most $\lambda \cdot \lambda = \lambda$ elements, which is less than the cardinality $\lambda^+$ of $\aleph(X)$, contradiction. 
+and by construction of $\aleph(X)$, each $X_{\alpha+1} \setminus X_\alpha$ has cardinality $\leq \lambda$. Thus the union would have at most $\lambda \cdot \lambda = \lambda$ elements, which is less than the cardinality $\lambda^+$ of $\aleph(X)$, contradiction. 
 \end{proof} 
 
 
