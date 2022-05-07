@@ -171,7 +171,7 @@ Talks on polynomial functors are available at
 
 A book in progress and a course on polynomial functors are available at
 
-* [[David Spivak]], Nelson Niu, _Polynomial Functors: A General Theory of Interaction_, Topos Institute, 15 July - 26 August 2021. ([website](https://topos.site/poly-course/), [pdf](https://github.com/ToposInstitute/poly/raw/main/Book-Poly.pdf))
+* [[David Spivak]], Nelson Niu, _Polynomial Functors: A General Theory of Interaction_, Topos Institute, 15 July - 26 August 2021. ([website](https://topos.site/poly-course/), [pdf](https://topos.site/poly-book.pdf))
 
 Generalization to [[homotopy theory]] and [[higher category theory]] is discussed in 
 
