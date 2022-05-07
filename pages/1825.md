@@ -407,7 +407,7 @@ The subgroups of [[special orthogonal group|SO(8)]] which act freely on $S^7$ ha
 
 and lifted to actions of [[Spin group|Spin(8)]] in 
 
-* S. Gadhia, _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007
+* {#Gadhia07} [[Sunil Gadhia]], _Supersymmetric quotients of M-theory and supergravity backgrounds_, PhD thesis, School of Mathematics, University of Edinburgh, 2007 ([spire:1393845](http://inspirehep.net/record/1393845/))
 
 Discussion of [[transitive actions]] on $n$-spheres by [[compact Lie groups]]:
 
@@ -417,7 +417,7 @@ Discussion of [[transitive actions]] on $n$-spheres by [[compact Lie groups]]:
 
 Further discussion of these actions is in
 
-* {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
+* {#MFFGME09} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
 * [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
@@ -445,7 +445,7 @@ The ([[isotopy]] [[equivalence class|class]] of an) [[embedding of differentiabl
 
 ### Iterated loop spaces
 
-* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structur eof Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
+* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structure of Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
 
 [[!redirects n-sphere]]
 [[!redirects n-spheres]]
