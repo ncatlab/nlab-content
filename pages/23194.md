@@ -42,3 +42,8 @@ Every [[smooth manifold|smooth]] [[G-manifold]] admits an equivariant good open 
 
 [[!redirects equivariant good open covers]]
 
+
+[[!redirects equivariant open cover]]
+[[!redirects equivariant open covers]]
+
+
