@@ -103,4 +103,8 @@ A side remark: note that the inverse $1/\ell$ of the prime level from the de Rha
 
 * [[abc conjecture]]
 
-* [[Mochizuki's corollary 3.1.2]]
+* [[Mochizuki's corollary 3.12]]
+
+## References
+
+* [[Peter Scholze]], [[Jakob Stix]], _Why abc is still a conjecture_, ([pdf](https://ncatlab.org/nlab/files/why_abc_is_still_a_conjecture.pdf))
