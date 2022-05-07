@@ -974,6 +974,9 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * {#Chang21} We-Fu Chang, *One colorful resolution to the neutrino mass generation, three lepton flavor universality anomalies, and the Cabibbo angle anomaly* ([arXiv:2105.06917](https://arxiv.org/abs/2105.06917))
 
+* Alexandre Carvunis, [[Andreas Crivellin]], Diego Guadagnoli, Shireen Gangal, *The Forward-Backward Asymmetry in $B \to D^\ast \ell \nu$: One more hint for Scalar Leptoquarks?* ([arXiv:2106.09610](https://arxiv.org/abs/2106.09610))
+
+
 
 \linebreak
 
