@@ -114,41 +114,32 @@ This is relevant in computer science because probability is modelled by the free
 
 Due to
 
-* [[Beno Eckmann]], [[Peter Hilton]], Theorem 1.12 in: *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221
-([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
+* [[Beno Eckmann]], [[Peter Hilton]], Theorem 1.12 in: *Structure maps in group theory*, Fundamenta Mathematicae 50 (1961), 207-221 ([doi:10.4064/fm-50-2-207-221](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/2/94854/structure-maps-in-group-theory))
 
 reviewed (somewhat imperfectly) in:
 
 * [[Beno Eckmann]], [[Peter Hilton]], Theorem 5.4.2 in: _Group-like structures in general categories I multiplications and comultiplications_, Math. Ann. 145, 227–255 (1962) ([doi:10.1007/BF01451367](https://doi.org/10.1007/BF01451367))
 
+Expositions:
 
-
-Expositions of the argument are given here:
-
-* [[The Catsters]]
+* {#Catsters} [[The Catsters]]
 
   _Eckmann-Hilton 1_ ([video](http://www.youtube.com/watch?v=Rjdo-RWQVIY))
   
   _Eckmann-Hilton 2_ ([video](http://www.youtube.com/watch?v=wnRqo7UHa-k))
-{#Catsters}
-
-The diagram proof is displayed here
 
 * [[Eugenia Cheng]], [picture](http://eugeniacheng.com/wp-content/uploads/2017/02/cheng-clock.pdf) (pdf)
 {#Cheng}
 
-and an animation of it is here
-
 * [[Andrew Stacey]], [animation](https://web.archive.org/web/20150326221729/http://www.math.ntnu.no/~stacey/documents/eckmannhilton.mpg) (mpeg)
 {#Stacey}
 
-For higher analogues see within the discussion of commutative algebraic monads at:
+Generalization to [[higher algebra]]/[[higher category theory]] via [[operads]]/[[(∞,1)-operads]]:
 
-* [[Nikolai Durov]], _New approach to Arakelov geometry_ , ([arXiv:0704.2030](http://arxiv.org/abs/0704.2030))
-{#Durov}
+* {#Batanin} [[Michael Batanin]], _The Eckmann-Hilton argument and higher operads_ ,  Adv. Math.  217  (2008),  no. 1, 334--385; ([arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281))
 
-* [[Michael Batanin]], _The Eckmann-Hilton argument and higher operads_ ,  Adv. Math.  217  (2008),  no. 1, 334--385; ([arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281))
-{#Batanin}
+* [[Tomer Schlank]], [[Lior Yanovski]], *The ∞-Categorical Eckmann-Hilton Argument*, Algebr. Geom. Topol. 19 (2019) 3119-3170 ([arXiv:1808.06006](https://arxiv.org/abs/1808.06006), [doi:10.2140/agt.2019.19.3119](https://doi.org/10.2140/agt.2019.19.3119))
+
 
 
 [[!redirects Eckmann-Hilton argument]]
