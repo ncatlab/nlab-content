@@ -74,7 +74,7 @@ Original references:
 
 * [[Jean Leray]], _L'anneau spectral et l'anneau filtr&#233; d'homologie d'un espace localement compact et d'une application continue_, J. Math. Pures Appl. (9) 29 (1950), 1&#8211;139.
 
-* {#Weil52} [[André Weil]], &#167;6. in: _Sur les theoremes de de Rham_, Comment. Math. Helv. 26 (1952), 119&#8211;145 ([dml:139040](https://eudml.org/doc/139040))
+* {#Weil52} [[André Weil]], &#167;5. in: _Sur les theoremes de de Rham_, Comment. Math. Helv. 26 (1952), 119&#8211;145 ([dml:139040](https://eudml.org/doc/139040))
 
 
 * {#McCord67} [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its  open covers_, Proc. Amer. Math. Soc. 18 (1967), 705&#8211;708 ([jstor:2035443](https://www.jstor.org/stable/2035443))
