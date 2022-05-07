@@ -177,7 +177,7 @@ and with emphasis on the invertible [[quantum anomaly]]-theory in one dimension 
 
 * [[Daniel Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
-* Lukas Müller, _Extended Functorial Field Theories and Anomalies in Quantum Field Theories_ ([arXiv:2003.08217](https://arxiv.org/abs/2003.08217))
+* [[Lukas Müller]], _Extended Functorial Field Theories and Anomalies in Quantum Field Theories_ ([arXiv:2003.08217](https://arxiv.org/abs/2003.08217))
 
 
 For TQFTs appearing in [[solid state physics]] in the context of [[topological order]]:
