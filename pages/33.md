@@ -154,11 +154,15 @@ This can also be understood naturally in the language of [[(n,r)-categories]].  
 
 ## Related entries
 
+* [[(∞,1)-categorification]]
+
+* [[higher structures]]
+
 * [[categorification in representation theory]]
 
 * [[categorified Dold-Kan correspondence]]
 
-* [[higher structures]]
+
 
 ## References
 
