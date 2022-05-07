@@ -2,7 +2,7 @@
 
 ## Idea
 
-The [[quotient]] of a [[ring]] by an ideal.
+The [[quotient]] of a [[ring]] by an [[ideal]].
 
 ## Related concepts
 
