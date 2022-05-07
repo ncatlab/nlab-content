@@ -129,12 +129,14 @@ $$
 
 for the full [[subcategory]] on the 2-category $Span K(A,B)$ of [[span]]s on the 2-sided discrete fibrations.  Since a morphism of spans between discrete fibrations is automatically a morphism of fibrations, this is also the full sub-2-category of the 2-category of two-sided fibrations $Fib(A,B)$.  And since they are discrete objects, this 2-category is actually (equivalent to) a 1-category.
 
+Note, though, that the two legs of a two-sided discrete fibration are not necessarily individually discrete as a fibration and an opfibration.
+
 
 ### Properties
 
 #### Profunctors and collages
 
-+-- {: .un_def}
++-- {: .un_defn}
 ###### Definition
 
 Given a profunctor $F : B^{op} \times A \to Set$,
