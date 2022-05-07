@@ -45,7 +45,7 @@ This, in turn, requires, by the rules of [[KK-compactification]], that
 
 1. there cannot be any supercharge in dimension $11+1$, since the [[irreducible representation|irreducible]] [[real spin representation]] of $Spin(11,1)$ has real dimension 64, which [[branching rule|branches]] as $\mathbf{64} \mapsto 16 \cdot \mathbf{4}$ under $Spin(3,1) \hookrightarrow Spin(11,1)$.
 
-However, the second conclusion here is evaded by a change of [[spacetime signature]]: The [[irreducible representation|irreducible]] [[real spin representation]] of $Spin(10,2)$ still happens to be of dimension 32 and still [[branching rule|branches]] as $\mathbf{32} \mapsto 8 \cdot \mathbf{4}$.
+However, the second conclusion here is evaded by a change of [[spacetime signature]]: The [[irreducible representation|irreducible]] [[real spin representation]] of [[Spin(10,2)]] still happens to be of dimension 32 and still [[branching rule|branches]] as $\mathbf{32} \mapsto 8 \cdot \mathbf{4}$.
 
 
 ## Properties
