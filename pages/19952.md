@@ -3,7 +3,9 @@
 
 ## Selected writings
 
-* {#Wasserman69} [[Arthur Wasserman]], _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
+On [[equivariant differential topology]]:
+
+* {#Wasserman69} [[Arthur Wasserman]], section 3 of: _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 (<a href="https://doi.org/10.1016/0040-9383(69)90005-6">doi:10.1016/0040-9383(69)90005-6</a>[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
 
 ## Related $n$Lab entries
