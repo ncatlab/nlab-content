@@ -38,6 +38,11 @@ Hence the [[free functor|free]]/[[forgetful functor|underlying]]-[[adjoint funct
 
 ## Properties
 
+### Monoidal structure
+ {#MonoidalStructure}
+
+With respect to the degreewise [[tensor product of abelian groups]] this is a [[monoidal model category]] ([Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
+
 ### Dold-Kan correspondence
 
 The [[Dold-Kan correspondence]] yields (see [there](Dold-Kan+correspondence#ModelCatVersion) for more) a [[Quillen equivalence]] to the projective [[model structure on connective chain complexes]].
