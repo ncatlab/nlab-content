@@ -147,6 +147,9 @@ Relation to [[Burnside ring]]:
 
 * {#tomDieck79} [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Springer 1979
 
+* {#tomDieck87} [[Tammo tom Dieck]], Section II.8 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+
 ### Relation to Segal-Carlsson completion theorem
 
 Relation to [[Segal-Carlsson completion theorem]]:
