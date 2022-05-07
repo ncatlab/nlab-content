@@ -241,9 +241,12 @@ The concept of differential forms (and their [[exterior algebra]]), at least on 
 
 * [[Hermann Grassmann]], _[[Ausdehnungslehre]]_, 1844
 
-A standard reference is
+Textbook accounts:
 
-* [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_.
+* [[Raoul Bott]], [[Loring Tu]], *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
+
+* {#GuilleminHaine19} [[Victor Guillemin]], [[Peter Haine]], _Differential Forms_, World Scientific (2019) ([doi:10.1142/11058](https://doi.org/10.1142/11058))
+
 
 A basic introduction with an eye towards applications in [[physics]] is in section 2.1 of
 
