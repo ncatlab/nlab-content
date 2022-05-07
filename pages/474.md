@@ -55,6 +55,8 @@ $$
 
 * **fundamental category**, [[fundamental (∞,1)-category]]
 
+  * [[equivariant fundamental groupoid]]
+
 * [[directed homotopy theory]]
 
 
