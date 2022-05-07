@@ -277,7 +277,11 @@ The terminology "tangential structure" became popular around
 
 * {#GMWT09} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]],[[Michael Weiss]], Section 5 of: _The homotopy type of the cobordism category_, Acta Math. 202 (2009), no. 2, 195--239 ([arXiv:math/0605249](http://arxiv.org/abs/math/0605249))
 
+[[!redirects tangential structures]]
 
 [[!redirects (B,f)-structure]]
 [[!redirects (B,f)-structures]]
+
+
+
 
