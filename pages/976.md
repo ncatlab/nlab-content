@@ -58,8 +58,8 @@ A remarkable and beautiful theorem of Chapman (the Chapman complement theorem) s
 ## Strong shape via $\infty$-topos theory
  {#StrongShapeViaInfinityToposTheory}
 
-To any topological space $X$ is associated the 
-its [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-sheaves]] (with respect its [[site]] of [[open subsets]]), which is an [[(infinity,1)-topos|$\infty$-topos]]. Many properties of "[[spaces]]" are shared or may be modeled by [[(infinity,1)-topos|$\infty$-toposes]], in particular there is a general and canonical notion of [[shape of an (infinity,1)-topos|shape of an $\infty$-topos]] (see there fore more).
+To any topological space $X$ there is associated
+its [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-sheaves]] (with respect to its [[site]] of [[open subsets]]), which is an [[(infinity,1)-topos|$\infty$-topos]]. Many properties of "[[spaces]]" are shared or may be modeled by [[(infinity,1)-topos|$\infty$-toposes]], in particular there is a general and canonical notion of [[shape of an (infinity,1)-topos|shape of an $\infty$-topos]] (see there for more).
 
 At least when $X$ is a [[compact Hausdorff space]], then its strong shape in the classical sense of [Mardešić & Segal 1971](#MardesicSegal71) does agree with the [[shape of an (infinity,1)-topos|$\infty$-topos theoretic shape]] of its [[(infinity,1)-category of (infinity,1)-sheaves|$\infty$-category of $\infty$-sheaves]].
 
