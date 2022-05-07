@@ -248,7 +248,7 @@ While all these articles essentially describe the Higgs mechanism, apparently on
 
 Review includes
 
-* {#PDG18} Particle Data Group [Review of particle physics](http://pdg.lbl.gov/), _Status of Higgs Boson Physics_, 2018 ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-higgs-boson.pdf), [[StatusOfHiggsBosonPhysics2018.pdf:file]])
+* {#PDG18} [[Particle Data Group]], [Review of particle physics](http://pdg.lbl.gov/), _Status of Higgs Boson Physics_, 2018 ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-higgs-boson.pdf), [[StatusOfHiggsBosonPhysics2018.pdf:file]])
 
 * [[Antonio Pich]], _Electroweak Symmetry Breaking and the Higgs Boson_, [Acta Phys. Pol. B 47, 151](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=47&N=1#151) (2016) ([arXiv:1512.08749](https://arxiv.org/abs/1512.08749))
 
