@@ -95,6 +95,10 @@ In [[gauge theory]] ([[Yang-Mills theory]]/[[Chern-Simons theory]], ...) ...
 
 ## References
 
+
+* {#Bredon72} [[Glen Bredon]], Section 0.6 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+
+
 * {#Lee12} [[John Lee]], _Introduction to Smooth Manifolds_, Springer 2012 ([doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [Draft pdf of the 1st edition](https://lost-contact.mit.edu/afs/adrake.org/usr/rkh/Books/books/Introduction%20to%20Smooth%20Manifolds%20-%20J.%20Lee.pdf)) (Corollary 7.2 on page 147 of the draft).
 
 [[!redirects compact Lie groups]]
