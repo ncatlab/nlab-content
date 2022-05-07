@@ -40,6 +40,9 @@ The following is a list of quotes highlighting the open problem of confinement:
 
 > iii) the theory is one of strong coupling so that [[perturbative quantum field theory|perturbative methods]] are not practical
 
+\linebreak
+
+* [[Igor Klebanov]], Oyvind Tafjord, "Can we quantitatively understand quark and gluon confinement in Quantum Chromodynamics and the existence of a mass gap?", 10th of *[10 Physics Problems for the Next Millennium](http://theory.caltech.edu/~preskill/millennium.html)* selected at [Strings 2000](https://inspirehep.net/conferences/972466)
 
 \linebreak
 
@@ -223,4 +226,14 @@ the many experimental cross section measurements.
 > In spite of the important progress of Euclidean lattice gauge theory, a  basic  understanding  of  the  mechanism of  color  confinement and its  relation  to  chiral  symmetry breaking in QCD has remained an unsolved problem. 
 
 > Recent [[holographic light front QCD|developments]] based on superconformal quantum mechanics in  light-front  quantization  and  its holographic  embedding on a higher  dimensional  gravity theory (gauge/gravity correspondence) have led to new analytic insights into the structure of hadrons and their  dynamics.
+
+\linebreak
+
+* {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
+
+> Perhaps the gauge/string duality has provided us with a "physicist's proof of confinement" in some exotic gauge theories like the one described by the warped deformed conifold. Yet, we still don’t have a quantitative handle on the Asymptotically Free theories in 3+1 dimensions. $[\cdots]$ Don’t take confinement for granted, even in 1+1 dimensions where it seems obvious. Proof of Color Confinement in 2+1 and 3+1 dimensions would be very important.
+
+* {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [video](https://youtu.be/B9NI2LE7d68?t=1183))
+
+
 
