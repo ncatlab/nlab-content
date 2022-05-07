@@ -124,5 +124,10 @@ On [[Cohomotopy]] and [[schreiber:Hypothesis H]]:
 
 * {#GS20} [[Daniel Grady]], [[Hisham Sati]], _Differential cohomotopy versus differential cohomology for M-theory and differential lifts of Postnikov towers_ ([arXiv:2001.07640](https://arxiv.org/abs/2001.07640))
 
+On [[U-duality]] (and possibly [[mysterious duality]]) via [[schreiber:Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
+
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious triality* ([arXiv:2111.14810](https://arxiv.org/abs/2111.14810))
+
+
 
 category: people
