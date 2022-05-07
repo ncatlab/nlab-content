@@ -85,7 +85,7 @@ Every direct category (and every inverse category) is in particular a [[Reedy ca
 
 ### Inside the simplex category
 
-The [[wide subcategory]] $\Delta_+$ of the [[simplex category]] on the injective map is direct. That is, the category with objects being the totally ordered sets $\{0\}, \{0, 1\}, \{0, 1, 2\}...$, and the morphisms being injective order-preserving maps. Its [[presheaves]] are [[semi-simplicial objects]]/[[semi-simplicial sets]] as opposed to [[simplicial objects]]/[[simplicial sets]].
+The [[wide subcategory]] $\Delta_+$ of the [[simplex category]] on the injective maps is direct. That is, the category with objects being the totally ordered sets $\{0\}, \{0, 1\}, \{0, 1, 2\}...$, and the morphisms being injective order-preserving maps. Its [[presheaves]] are [[semi-simplicial objects]]/[[semi-simplicial sets]] as opposed to [[simplicial objects]]/[[simplicial sets]].
 
 ### The direct category of corollas
 
