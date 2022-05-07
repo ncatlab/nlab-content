@@ -99,6 +99,10 @@ Discussion with emphasis of [[Higgs branches]]/[[Coulomb branches]] as [[Hilbert
 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Zheng Yin, _Mirror Symmetry in Three-Dimensional Gauge Theories, $SL(2,\mathbb{Z})$ and D-Brane Moduli Spaces_, Nucl. Phys. B493:148-176, 1997 ([arXiv:hep-th/9612131](https://arxiv.org/abs/hep-th/9612131))
 
+* Mathew Bullimore, Andrea Ferrari, Heeyeon Kim, *Supersymmetric Ground States of 3d $\mathcal{N}=4$ Gauge Theories on a Riemann Surface* ([arXiv:2105.08783](https://arxiv.org/abs/2105.08783))
+
+
+
 ### Lift to M-theory
 
 Lift to [[M-theory]]:
