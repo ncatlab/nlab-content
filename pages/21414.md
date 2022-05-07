@@ -100,6 +100,13 @@ Every [[combinatorial]] weak model category can
 be connected to a [[combinatorial model category]]
 by a zigzag of [[Quillen equivalences]].
 
+## Examples
+
+\begin{example}\label{WeakModelStructureOnSemiSimplicialSets}
+**([[weak model structure on semi-simplicial sets]])** \linebreak
+There is a weak model structure on [[semi-simplicial sets]] which is [[Quillen equivalence|Quillen equivalen]] to [[classical model structure on simplicial sets|that on simplicial sets]]. ([Henry 18, Thm. 5.5.6](#Henry18)).
+\end{example}
+
 ## Related concepts
 
 * [[model category]]
