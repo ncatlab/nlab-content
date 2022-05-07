@@ -22,6 +22,9 @@
 
 * Simon J. Devitt, Kae Nemoto, William J. Munro, _Quantum Error Correction for Beginners_, Rep. Prog. Phys. 76 (2013) 076001 ([arXiv:0905.2794](https://arxiv.org/abs/0905.2794))
 
+* [[Eric Rowell]], [[Zhenghan Wang]], Section 3.2.3 of: _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
+
+
 See also
 
 * Wikipedia, _[Quantum error correction](https://en.m.wikipedia.org/wiki/Quantum_error_correction)_
