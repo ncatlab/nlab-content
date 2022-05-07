@@ -52,7 +52,7 @@ Under the [[simplicial nerve]]-constructions, presheaves of groupoids in the sen
 ## Examples
  {#Examples}
 
-* For $\mathcal{C}$ an ordinary [[site]], each [[covering]] family $\{U_i \overset{\iota_i}{\to} X\}$ induces a _[[Cech groupoid]]_, which is really a presheaf of groupoids
+* For $\mathcal{C}$ an ordinary [[site]], each [[covering]] family $\{U_i \overset{\iota_i}{\to} X\}$ induces a _[[Cech groupoid|&#268;ech groupoid]]_, which is really a presheaf of groupoids
 
 $$
   C(\{U_i\}) \in [\mathcal{C}^{op}, Grpd]
@@ -65,7 +65,7 @@ $$
 
 ## References
 
-A [[model category]]-[[structure]] on catgegories of presheaves of groupoids, modeling [[(2,1)-categories]] of [[stacks]] the way that the [[model structure on simplicial presheaves]] model [[(∞,1)-categories]] of [[∞-stacks]] is discussed in 
+A [[model category]]-[[structure]] on categories of presheaves of groupoids, modeling [[(2,1)-categories]] of [[stacks]] the way that the [[model structure on simplicial presheaves]] model [[(∞,1)-categories]] of [[∞-stacks]] is discussed in 
 
 * {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_, Israel Journal of Mathematics, 163(1), 93-124 ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
 
