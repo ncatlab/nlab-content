@@ -108,3 +108,6 @@ As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then
 
 [[!redirects category of functors]]
 [[!redirects categories of functors]]
+
+[[!redirects functor groupoid]]
+[[!redirects functor groupoids]]
