@@ -93,7 +93,7 @@ However, the [[hypercompletion]] $\mathcal{X}^\wedge$ of $\mathcal{X}$ will have
 +-- {: .num_lemma}
 ###### Observation
 
-An $(\infty,1)$-topos that has [[point of a topos|enough points]] is hypercomplete.
+An $(\infty,1)$-topos that has [[point of a topos|enough points]] is hypercomplete. WARNING: See the remark above.
 
 =--
 
