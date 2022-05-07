@@ -702,7 +702,11 @@ Textbook accounts:
 
 With an eye towards [[mathematical physics]]:
 
-* {#RudolhSchmidt} Gerd Rudolph, Matthias Schmidt, Def. 4.2.2 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
+* [[Mikio Nakahara]], Section 11.3 of: *[[Geometry, Topology and Physics]]*, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+
+* {#RudolphSchmidt} [[Gerd Rudolph]], [[Matthias Schmidt]], Def. 4.2.2 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
 
 A brief introduction is in chapter 23, section 7 
