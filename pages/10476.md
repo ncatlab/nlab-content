@@ -24,7 +24,7 @@
 
 ## Idea
 
-_Elmendorf's theorem_ states that for $G$ a [[topological group]], the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the classical $G$-[[equivariant homotopy theory]], namely the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] ([[G-spaces]]) at the _[[weak homotopy equivalences]] on all [[fixed point spaces]]_ of [[closed subset|closed]] [[subgroups]].
+_Elmendorf's theorem_ states that for $G$ a [[topological group]], the [[(∞,1)-category of (∞,1)-presheaves]] on the [[orbit category]] $Orb_G$ of $G$, naturally regarded as an [[(∞,1)-site]], is [[equivalence of (∞,1)-categories|equivalent]] to the classical $G$-[[equivariant homotopy theory]], namely the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] ([[G-spaces]]) at the _[[weak homotopy equivalences]] on all [[fixed point spaces]]_ of [[closed subset|closed]] [[subgroups]] (the [[equivariant weak homotopy equivalences]]).
 
 This is due to [Elmendorf 83](#Elmendorf83) and [Dwyer-Kan 84, Sec. 1.2, 1.7 & Thm. 3.1](#DwyerKan84); with alternative proofs in various stages of refinement (see Remark \ref{AssumptionsAndRefinementsInTheLiterature} below) given by [Piacenza 91, Sec. 6](#Piacenza91), [May 96, Sec. V.3](#May96), [Cordier-Porter 96, Thm. 3.11](#CordierPorter96), [Guillou 06, Prop. 3.15](#Guillou06), [Stephan 13, Cor. 3.20](#Stephan13), [Guillou-May-Rubin 13, Thm. 1.8 & 5.6](#GuillouMayRubin13). Exposition is in [Blumberg 17, Sec. 1.3](#Blumberg17).
 
