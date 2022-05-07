@@ -198,11 +198,17 @@ See also:
 * Andrea Fontanella, Tomas Ortin, _On the supersymmetric solutions of the Heterotic Superstring effective action_ ([arxiv:1910.08496](https://arxiv.org/abs/1910.08496))
 
 
-
-
 Relation to [[Donaldson-Thomas theory]] and [[quiver gauge theory]]:
 
 * {#HeLee12} [[Yang-Hui He]], Seung-Joo Lee, _Quiver Structure of Heterotic Moduli_, J. High Energ. Phys. (2012) 2012: 119 ([arXiv:1208.3004](https://arxiv.org/abs/1208.3004))
+
+
+Discussion of [[higher curvature corrections]]:
+
+* Eric Lescano, Carmen Núñez, Jesús A. Rodríguez, *Supersymmetry, T-duality and Heterotic $\alpha'$-corrections* ([arXiv:2104.09545](https://arxiv.org/abs/2104.09545))
+
+
+
 
 ### Orbifold and orientifold compactifications
 
