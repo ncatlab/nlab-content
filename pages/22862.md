@@ -166,16 +166,16 @@ We write:
 
 * $Ho(sAb)$ for the [[homotopy category of a model category|homotopy category of]] the [[model structure on simplicial abelian groups]];
 
-* $Ho(Ch^+)$ for the [[homotopy category of a model category|homotopy category of]] the [[model structure on connective chain complexes]].
+* $Ho(Ch_+)$ for the [[homotopy category of a model category|homotopy category of]] the [[model structure on connective chain complexes]].
 
 For $A \in $ [[Ab]], and $n \in \mathbb{N}$ we write
 
 $$
   A[n] 
     \,\in\, 
-  Ch^+_\bullet 
+  Ch_+ 
     \xrightarrow{Loc_{\mathrm{W}}} 
-  Ho(Ch^+_\bullet)
+  Ho(Ch_+)
 $$
 
 for the [[chain complex]] concentrated on $A$ in degree $n$.
@@ -198,7 +198,7 @@ We denote (using the same symbols for [[derived functors]] as for the original [
 
   \[
     \label{DerivedDoldKanAdjunction}
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
       \underoverset
         {\underset{DK}{\longrightarrow}}
         {\overset{N_\bullet}{\longleftarrow}}
@@ -225,12 +225,12 @@ We denote (using the same symbols for [[derived functors]] as for the original [
 
   \[
     \label{DerivedDegreeShiftAdjunction}
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
       \underoverset
         {\underset{ V_\bullet \mapsto V_{\bullet + 1} }{\longrightarrow}}
         {\overset{ V_\bullet \mapsto V_{\bullet - 1} }{\longleftarrow}}
         {\;\;\;\;\;\;\bot\;\;\;\;\;\;}
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
   \]
 
 \end{definition}
@@ -348,7 +348,7 @@ the [[group cohomology]] of $G$ with [[coefficients]] in $A$ is, in degree $n \i
 $$
   H^n_{grp}(G;\,A)
   \;=\;
-  Ho(Ch^+_\bullet)
+  Ho(Ch_+)
   \big(
     N_\bullet 
      \circ
@@ -384,7 +384,7 @@ $$
   \begin{aligned}
     H^n_{grp}(G;\, A)
     & \;0\;
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
     \big(
       N_\bullet \circ \mathbb{Z}(\overline{W}G),
       \,
@@ -912,7 +912,7 @@ As a consequence:
 
 We prove that the formula (eq:SumFormulaForTransgressedCocycle) indeed expresses transgression in group cohomology. 
 
-Consider the following sequence of [[natural isomorphisms]]:
+Consider the following sequence of [[natural isomorphisms]] of [[hom-sets]] of the above [[homotopy categories]] (Def. \ref{HomotopyCategories}):
 
 $$
   \begin{aligned}
@@ -967,7 +967,7 @@ $$
     \\
     &
     \;\simeq\;
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
     \Big(
       N_\bullet \circ \mathbb{Z}\big( [S, \overline{W}G] \times S \big),
       \,
@@ -976,7 +976,7 @@ $$
     \\
     &
     \;\overset{EZ}{\simeq}\;
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
     \Big(
       N_\bullet \circ \mathbb{Z}\big([S, \overline{W}G]\big) 
         \otimes 
@@ -993,7 +993,7 @@ $$
     \\
     &
     \;\simeq\;
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
     \Big(
       N_\bullet \circ \mathbb{Z}\big([S, \overline{W}G]\big),
       \,
@@ -1002,7 +1002,7 @@ $$
     \\
     & 
     \;\overset{pr_2}{\to}\;
-    Ho(Ch^+_\bullet)
+    Ho(Ch_+)
     \Big(
       N_\bullet \circ \mathbb{Z}\big([S, \overline{W}G]\big),
       \,
@@ -1036,7 +1036,7 @@ Here
 
 * the eighth line is the [hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the derived degree-shift adjunction (eq:DerivedDegreeShiftAdjunction)
 
-  (observing that the [[tensor product of chain complexes|tensor product]] of [[normalized chain complexes]] of [[free simplicial abelian groups]] is a [[cofibrant object|cofibrant]] representative of the correct [[derived functor]]-image -- using that all simplicial sets are [[cofibrant object|cofibrant]], that $\mathbb{Z}(-)$ and $N_\bullet$ are [[left Quillen functors]], and that $(Ch^+_\bullet, \otimes)$ is a [[monoidal model category]] ([this Prop.](model+structure+on+chain+complexes#ProjectiveModelStructureOnConnectiveChainComplexesIsMonoidal)), so that the [[tensor product of chain complexes|tensor product]] with $\mathbb{Z} \oplus \mathbb{Z}[1]$ is the correct [[left derived functor]]);
+  (observing that the [[tensor product of chain complexes|tensor product]] of [[normalized chain complexes]] of [[free simplicial abelian groups]] is a [[cofibrant object|cofibrant]] representative of the correct [[derived functor]]-image -- using that all simplicial sets are [[cofibrant object|cofibrant]], that $\mathbb{Z}(-)$ and $N_\bullet$ are [[left Quillen functors]], and that $(Ch_+, \otimes)$ is a [[monoidal model category]] ([this Prop.](model+structure+on+chain+complexes#ProjectiveModelStructureOnConnectiveChainComplexesIsMonoidal)), so that the [[tensor product of chain complexes|tensor product]] with $\mathbb{Z} \oplus \mathbb{Z}[1]$ is the correct [[left derived functor]]);
 
 * the ninth line is the [[projection]] onto the second [[direct sum|direct summand]];
 
