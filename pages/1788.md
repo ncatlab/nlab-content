@@ -1,4 +1,40 @@
 
+
+$$
+  \begin{aligned}
+  \frac{1}{n!}
+  \underset{\lambda, \sigma, i}{\sum} 
+    \chi^{(\lambda)}(e)
+    S^{\lambda}(\sigma)_{i i} 
+    \, \sigma
+  & \;=\;
+  \frac{1}{n!}
+  \underset{\lambda, \sigma}{\sum} 
+    \chi^{(\lambda)}(e)
+    \chi^{\lambda}(\sigma) 
+    \, \sigma
+  \\
+  & \;=\;
+  e
+  \end{aligned}
+$$
+
+so 
+
+$$
+  \big( e, P^{(\lambda)}_i(e)\big)
+  \;=\;
+  \frac{1}{n!} 
+  S^{(\lambda)}(e)_{i i}
+$$
+
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
 #Contents#
 * table of contents
 {:toc}
