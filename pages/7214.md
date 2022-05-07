@@ -346,9 +346,9 @@ along the lines of
 
 * {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
-Discussion about the q-model structure, the m-model structure, the h-model structure and the notion of $\Delta$-Hausdorff $\Delta$-generated space (a natural separation condition for $\Delta$-generated spaces) in
+Discussion about the [[q-model structure]], the [[m-model structure]], the [[h-model structure]] and the notion of $\Delta$-Hausdorff $\Delta$-generated space (a natural separation condition for $\Delta$-generated spaces) in:
 
-* {#Gaucher21} [[Philippe Gaucher]], Section 2 and Appendix B of: *Left properness of flows*, Theory and Applications of Categories, vol. 37, number 19, 562-612, 2021 ([arXiv:1907.01454](https://arxiv.org/abs/1907.01454))
+* {#Gaucher21} [[Philippe Gaucher]], Section 2 and Appendix B of: *Left properness of flows*, Theory and Applications of Categories, **37** 19 (2021) 562-612  ([arXiv:1907.01454](https://arxiv.org/abs/1907.01454), [TAC:37-19](http://www.tac.mta.ca/tac/volumes/37/19/37-19abs.html))
 
 ### Relation to diffeological spaces
 
