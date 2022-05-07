@@ -112,9 +112,9 @@ Other ways to identify $c$ (in Theorem \ref{classical} or \ref{hypothesis}) are 
 * [[Peter Schuster]]; Unique existence, approximate solutions,
 and countable choice; [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7).
 
-* [[Matthew Frank]], _Interpolating Between Choices for the Approximate Intermediate Value Theorem_ ([arxiv:1701.02227](https://arxiv.org/abs/1701.02227))
-
 * Matt F.; answer to Approximate intermediate value theorem in pure constructive mathematics; MathOverflow; [web](http://mathoverflow.net/q/255371).
+
+* [[Matthew Frank]], _Interpolating Between Choices for the Approximate Intermediate Value Theorem_ ([arxiv:1701.02227](https://arxiv.org/abs/1701.02227)), Logical Methods in Computer Science, July 14, 2020, Volume 16, Issue 3 - [doi:10.23638/LMCS-16(3:5)2020](https://doi.org/10.23638/LMCS-16%283:5%292020)
 
 * [[Paul Taylor]]; The intermediate value theorem; A lambda calculus for real analysis, 14; [web](http://www.paultaylor.eu/ASD/lamcra/asdivt).
 
