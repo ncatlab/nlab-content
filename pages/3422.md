@@ -18,38 +18,42 @@
 
 ## Idea
 
-The **$(\infty,1)$-Grothendieck construction** is a generalization of the [[Grothendieck construction]] -- which establishes an equivalence
+The **$(\infty,1)$-Grothendieck construction** is the generalization of the [[Grothendieck construction]] from [[category theory]] to [[(∞,1)-category theory]].
+
+Recall that the [[1-category]]-theoretic [[Grothendieck construction]] establishes an [[equivalence of categories]]
 
 $$
   Fib(C) \simeq 2Func(C^{op}, Cat)
-$$
-
-and
-
-$$
+  {\phantom{AAAA}}
+  and
+  {\phantom{AAAA}}
   Fib_{Grpd}(C) \simeq 2Func(C^{op}, Grpd)
 $$
 
-between [[fibered category|fibered categories]]/[[categories fibered in groupoids]] and [[pseudofunctor]]s to [[Cat]]/to [[Grpd]] -- from [[category theory]] to [[(∞,1)-category]]-[[higher category theory|theory]].
+between (a) [[fibered category|fibered categories]] (or just [[categories fibered in groupoids]]) and (b) [[pseudofunctors]] to [[Cat]] (or just to [[Grpd]]).
 
-The Grothendieck construction for [[∞-groupoid]]s constitutes an equivalence of [[(∞,1)-categories]]
-
-$$
-  RFib(C) \simeq \infty Func(C^{op}, \infty Grpd)
-$$
-
-between [[right fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functor]]s to [[∞Grpd]], while the full Grothendieck construction for [[(∞,1)-categories]] constitutes an equivalence 
+Analogously, 
+the full Grothendieck construction for [[(∞,1)-categories]] constitutes an [[equivalence of (∞,1)-categories]]
 
 $$
-  CartFib(C) \simeq \infty Func(C^{op}, (\infty,1)Cat)
+  CartFib(C) \,\simeq\, \infty Func\big( C^{op}, (\infty,1)Cat \big)
 $$
 
-between [[Cartesian fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[indexed (∞,1)-categories]], that is, [[(∞,1)-functor]]s to [[(∞,1)Cat]].
+between (a) [[Cartesian fibrations]] [[fibrations of quasi-categories|of quasi-categories]] and (b) [[indexed (∞,1)-categories]], that is, [[(∞,1)-functors]] to [[(∞,1)Cat]];
+
+while its restriction to the Grothendieck construction for [[∞-groupoids]] constitutes an [[equivalence of (∞,1)-categories]]
+
+$$
+  RFib(C) \,\simeq\, \infty Func\big(C^{op}, \infty Grpd\big)
+$$
+
+between [[right fibrations]] [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functors]] to [[∞Grpd]].
 
 
-This correspondence may be [[model category|modeled]] 
 
-* in the case of $\infty$-groupoids by a [[Quillen equivalence]] between the [[model structure for right fibrations]] and the projective [[global model structure on simplicial presheaves]] 
+This correspondence may be [[model category|modeled]]: 
+
+* in the case of $\infty$-groupoids by a [[Quillen equivalence]] between the [[model structure for right fibrations]] and the projective [[global model structure on simplicial presheaves]],
 
 * in the case of $(\infty,1)$-categories by a Quillen equivalence between the [[model structure for Cartesian fibrations]] and the [[global model structure on functors]] with values in the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]].
 
@@ -58,8 +62,7 @@ This correspondence may be [[model category|modeled]]
 
 The generalization of a [[category fibered in groupoids]] to [[quasi-category]] theory is a [[right fibration|right]] [[fibrations of quasi-categories|fibration of quasi-categories]].
 
-+-- {: .un_theorem}
-###### Theorem 
+\begin{prop}\label{Infinity0GrothendieckConstruction}
 **($(\infty,0)$-Grothendieck construction)**
 
 Let $C$ be an [[(∞,1)-category]]. There is an equivalence of [[(∞,1)-categories]]
@@ -74,11 +77,40 @@ where
 
 * and on the right the [[(∞,1)-category of (∞,1)-functors]] from the [[opposite category]] $C^{op}$ to [[∞Grpd]], i.e. the [[(∞,1)-category of (∞,1)-presheaves]] on $C$.
 
-=--
+\end{prop}
 
 
 In the next section we discuss how this statement is presented in terms of [[model categories]].
 
+
+
+
+\begin{prop}\label{GrpdFibsOverGrpds}
+**($(\infty,0)$-fibrations over an $\infty$-groupoid)**
+\linebreak
+If $C$ itself be an [[infinity-groupoid|$\infty$-groupoid]], then $RFib(C) \simeq \infty Grpd/C$ is [[equivalence of (infinity,1)-categories|equivalently]] the [[slice (infinity,1)-category|slice $\infty$-category]] of [[∞Grpd]] over $C$, and hence the above Prop. \ref{Infinity0GrothendieckConstruction} reduces to
+
+$$
+  \infty Grpd/C \;\simeq\; Func\big(C^{op}, \infty Grpd\big)
+  \,.
+$$
+\end{prop}
+\begin{proof}
+By the fact that there is the [[classical model structure on simplicial sets]] we have that every morphism of $\infty$-groupoids $X \to C$ factors as
+
+$$
+  \array{
+     X &&\stackrel{\simeq}{\to}&& \hat X
+     \\
+     & \searrow && \swarrow_{\mathrlap{fib}}
+     \\
+     && C
+  }
+  \,,
+$$
+
+where the top morphism is an equivalence and the right morphism a [[Kan fibration]]. Moreover, as discussed at [[right fibration]], over an $\infty$-groupoid the notions of left/right fibrations and Kan fibrations coincide.  This shows that the full [[sub-(∞,1)-category]] of $\infty Grpd/X$ on the right fibrations is equivalent to all of $\infty Grpd/X$.
+\end{proof}
 
 
 ### Model category presentation {#GrpdModelCatVersion}
@@ -259,7 +291,7 @@ $$
 and show that indeed $Q \simeq C'_{\pi_! St_\phi(X)}$.
 
 
-Using the pasting law for [[pushout]]s (see [[pullback]]) we just have to compute the lower square pushout. Here the statement is a special case of the following statement: for every [[sSet-category]] of the form $C_F$, the pushout of the canonical inclusion $C\to C_F$ along any $sSet$-functor $\pi : C \to C'$ is $C'_{\pi_! F}$.
+Using the pasting law for [[pushout]]s (see [[pullback]]) we just have to compute the lower square pushout. Here the statement is a special case of the following statement: for every [[sSet-category]] of the form $C_F$, the pushout of the canonical inclusion $C\to C_F$ along any $sSet$-functor $\pi \colon C \to C'$ is $C'_{\pi_! F}$.
 
 This follows by inspection of what a cocone
 
@@ -335,10 +367,9 @@ follows with the [[adjoint functor theorem]].
 =--
 
 
-+-- {: .un_theorem}
-###### Theorem 
+\begin{prop}
 **(presentation of the $(\infty,0)$-Grothendieck construction)**
-
+\linebreak
 
 The straightening and the unstraightening functor constitute a [[Quillen adjunction]]
 
@@ -351,13 +382,12 @@ $$
 between the [[model structure for right fibrations]] and the global projective [[model structure on simplicial presheaves]] on $S$.
 
 If $\phi$ is a weak equivalence in the [[model structure on simplicial categories]] then this Quillen adjunction is a [[Quillen equivalence]].
-
-=--
+\end{prop}
 
 This is [[Higher Topos Theory|HTT, theorem 2.2.1.2]].
 
 
-This models the Grothendieck construction for [[∞-groupoid]]s in the following way:
+This models the Grothendieck construction for [[∞-groupoids]] in the following way:
 
 * the [[presentable (∞,1)-category|(∞,1)-category presented by]] $sSet/S$ is $RFib(S)$
  
@@ -371,39 +401,8 @@ This models the Grothendieck construction for [[∞-groupoid]]s in the following
 Hence the unstraightening functor is what models the [[Grothendieck construction]] proper, in the sense of a construction that generalizes the construction of a [[fibered category]] from a [[pseudofunctor]].
 
 
-### Remark: $(\infty,0)$-fibrations over an $\infty$-groupoid {#GrpdFibsOverGrpds}
 
-+-- {: .un_lemma}
-###### Observation
 
-Let $C$ itself be an $\infty$-groupoid. Then $RFib(C) \simeq \infty Grpd/C$ and hence
-
-$$
-  \infty Grpd/C \simeq [C^{op}, \infty Grpd]
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the fact that there is the standard [[model structure on simplicial sets]] we have that every morphism of $\infty$-groupoids $X \to C$ factors as
-
-$$
-  \array{
-     X &&\stackrel{\simeq}{\to}&& \hat X
-     \\
-     & \searrow && \swarrow_{\mathrlap{fib}}
-     \\
-     && C
-  }
-  \,,
-$$
-
-where the top morphism is an equivalence and the right morphism a [[Kan fibration]]. Moreover, as discussed at [[right fibration]], over an $\infty$-groupoid the notions of left/right fibrations and Kan fibrations coincide.  This shows that the full [[sub-(∞,1)-category]] of $\infty Grpd/X$ on the right fibrations is equivalent to all of $\infty Grpd/X$.
-
-=--
 
 ## For general fibered $(\infty,1)$-categories
 
@@ -430,9 +429,6 @@ Furthermore, this is equivalence is natural for $C$, where $Cart(-)$ acts by tak
 =--
 
 A reference for the naturality in small $C$ is corollary A.32 of [Gepner-Haugseng-Nikolaus 15](#GepnerHaugsengNikolaus15). The dual statement is made in remark 1.13 of [Mazel-Gee](#MazelGee).
-
-
-
 
 
 In the next section we discuss how this statement is presented in terms of [[model categories]].
@@ -679,9 +675,7 @@ This is [[Higher Topos Theory|HTT, prop. 3.2.5.18]].
 
 ### Relation beween the model structures
 
-+-- {: .un_theorem}
-###### Theorem (HTT, section 3.1.5)
-
+\begin{prop}
 Let $S$ be a [[simplicial set]].
 
 There is a sequence of [[Quillen adjunction]]s
@@ -713,7 +707,10 @@ Where from left to right we have
 
 The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ is a [[Kan complex]].
 
-=--
+\end{prop}
+
+([[Higher Topos Theory|HTT, section 3.1.5]])
+
 
 ## Properties
 
@@ -1022,3 +1019,5 @@ Another review is
 * Anders Jess Pedersen, Magnus Baunsgaard Kristensen, _Straightening and Unstraightening_ [(Dropbox)](https://www.dropbox.com/s/alys3wg59rir3gt/Grothendieck_construction.pdf?dl=0)
 
 [[!redirects (∞,1)-Grothendieck construction]]
+
+[[!redirects infinity1-Grothendieck construction]]
