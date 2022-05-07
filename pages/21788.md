@@ -120,7 +120,7 @@ As a form of [[equivariant elliptic cohomology]] ([[twisted ad-equivariant Tate 
 
 * {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. Volume 15, Number 1 (2013), 313-342. ([arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680))
 
-* [[Zhen Huan]], _Quasi-elliptic cohomology_, 2017 ([hdl](http://hdl.handle.net/2142/97268))
+* [[Zhen Huan]], _Quasi-elliptic cohomology_, 2017 ([hdl:2142/97268](http://hdl.handle.net/2142/97268))
 
 * [[Zhen Huan]], *Quasi-elliptic cohomology and its Spectrum* ([arXiv:1703.06562](https://arxiv.org/abs/1703.06562))
 
