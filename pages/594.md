@@ -33,5 +33,7 @@ A [[coherent category]] is one having well-behaved unions of subobjects.
 
 * [[disjoint union]]
 
+* [[regular cardinal]]
+
 [[!redirects union]]
 [[!redirects unions]]
