@@ -392,6 +392,7 @@ Other possible [[model (in theoretical physics)|models]] besides [[leptoquarks]]
 
 * [[(g-2) anomaly]]
 
+
 ## References
  {#References}
 
@@ -525,6 +526,8 @@ Brief review from the point of view of [[non-perturbative effect|non-perturbativ
 
 * {#London19} David London, _Anomalies in B Decays: A Sign of New Physics?_,
 talk at [XIth International Symposium on Quantum Theory and Symmetries](http://www.crm.umontreal.ca/2019/QTS2019/index_e.php), July 1-5, 2018 Centre de recherches mathématiques, Montréal, Canada ([arxiv:1911.06238](https://arxiv.org/abs/1911.06238))
+
+* Barbara Gallavotti, starring [[Gino Isidori]], _How Particle Physics Works: Episode II - The New Analysis_, June 2019 ([youtube](https://www.youtube.com/watch?v=krWPeFLLBFY))
 
 * {#JaiswalNandiPatra20} Sneha Jaiswal, Soumitra Nandi, Sunando Kumar Patra, _Updates on SM predictions of $\vert V_{c b}\vert$ and $R(D^{(\ast)})$  in $B\to D^\ast \ell \nu_\ell$ decays_ ([arXiv:2002.05726](https://arxiv.org/abs/2002.05726))
 
