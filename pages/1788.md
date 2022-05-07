@@ -1,5 +1,136 @@
 
 
+\begin{prop}
+  Let 
+  $$
+   \array{
+    A &\overset{\; i \;}{\longrightarrow}& B
+    \\
+    {}^{\mathllap{f}}
+    \big\downarrow
+    &{}^{{}_{(po)}}&
+    \big\downarrow {}^{\mathrlap{g}}
+    \\
+    C &\underset{\; j \;}{\longrightarrow}& D
+   }
+  $$
+  be a [[pushout]] [[commuting diagram|square]] of [[chain maps]] between (unbounded) [[chain complexes]], such that 
+
+* $i$ is a degreewise [[injection]];
+
+* $f$ is a [[quasi-isomorphism]].
+
+Then also $g$ is a [[quasi-isomorphism]].
+\end{prop}
+\begin{proof}
+  The [[pushout]] of chain complexes is degreewise a pushout in the underlying [[abelian category]].
+  Since pushout in abelian categories preserves monomorphisms ([this Prop.](abelian+category#PullbackPreservesEpimorphisms)) it follows that also $j_n$ is a monomorphism. Finally, the [[pasting law]] implies that the induced morphism of [[cokernels]] of $i$ and $j$ is an [[isomorphism]]. In summary, this means that we have a [[commuting diagram]] of chain complexes as follows:
+  $$
+   \array{
+    A
+    &\overset{\;\;\; i \;\;\;}{\hookrightarrow}& 
+    B 
+    &\longrightarrow&
+    cok(i)
+    \\
+    {}^{\mathllap{f}}
+    \big\downarrow
+    &{}^{{}_{(po)}}&
+    \big\downarrow {}^{\mathrlap{g}}
+    &&
+    \big\downarrow {}^{\mathrlap{\simeq}}
+    \\
+    C
+    &\underset{\;\;\; j \;\;\;}{\hookrightarrow}& 
+    D
+    &\longrightarrow&
+    cok(j)
+    \,.
+   }
+  $$
+
+This implies a morphism of the corresponding [[long exact sequences in chain homology]] of the form:
+
+$$
+  \array{
+    \cdots
+    &\to&
+    H_{n+1}
+    \big(
+      cok(i)
+    \big)
+    &
+    \xrightarrow{\; \delta \;}
+    &
+    H_n(A)
+    &
+    \xrightarrow{\; i_\ast\;}
+    &
+    H_n(B)
+    &
+    \xrightarrow{\;\;\;}
+    &
+    H_n\big(cok(i)\big)
+    &
+    \xrightarrow{\;\delta\;}
+    &
+    H_{n-1}(A)
+    &
+    \to
+    &
+    \cdots  
+    \\
+    &&
+    {}^{\mathllap{}}
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{f_\ast}}
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{g_\ast}}
+    \big\downarrow
+    &&
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    &&
+    {}^{\mathllap{f_\ast}}
+    \big\downarrow
+    {}^{\mathrlap{\simeq}}
+    \\
+    \cdots
+    &\to&
+    H_{n+1}
+    \big(
+      cok(j)
+    \big)
+    &
+    \xrightarrow{\; \delta \;}
+    &
+    H_n(C)
+    &
+    \xrightarrow{\; j_\ast\;}
+    &
+    H_n(D)
+    &
+    \xrightarrow{\;\;\;}
+    &
+    H_n\big(cok(j)\big)
+    &
+    \xrightarrow{\;\delta\;}
+    &
+    H_{n-1}(C)
+    &
+    \to
+    &
+    \cdots  
+  }
+$$
+From this the [[five lemma]] implies that $g_\ast$ is an isomorphism on [[chain homology]], hence that $g$ is a quasi-isomorphism.
+\end{proof}
+
+
 $$
   H_{\bullet+1}(B) 
   \longrightarrow
