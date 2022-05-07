@@ -41,6 +41,10 @@ See also
 
 * Akash Goel, [[Herman Verlinde]], _Towards a String Dual of SYK_ ([arXiv:2103.03187](https://arxiv.org/abs/2103.03187))
 
+* Paolo Gregori, [[Ricardo Schiappa]], *From Minimal Strings towards Jackiw-Teitelboim Gravity: On their Resurgence, Resonance, and Black Holes* ([arXiv:2108.11409](https://arxiv.org/abs/2108.11409))
+
+
+
 
 
 
