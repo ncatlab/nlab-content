@@ -21,21 +21,17 @@
 
 ## Idea
 
-In _topological quantum computation_ one aims to make use of [[quantum systems]] described by [[topological quantum field theory]] for [[quantum computation]], the idea being that the defining invariance of [[TQFTs]] under small deformations implements a robust form of [[quantum error correction]].
+In _topological quantum computation_ one aims to make use of [[quantum systems]] described by [[topological quantum field theory]] for [[quantum computation]], the idea being that the defining invariance of [[TQFTs]] under small deformations implements an intrinsic *fault tolerance* of the quantum computer against [[noise]] and [[decoherence]] (see also at *[[quantum error correction]]*).
 
-One approach to potentially realizing topological quantum computation in practice is via [[anyons]] in the [[quantum Hall effect]] and effectively described by some kind of [[Chern-Simons theory]].
+### On Anyons in 2+1 d
 
-For the time being see at _[[quantum computation]]_ for more.
-
-\linebreak
-
-In the standard paradigm of topological quantum computation on [[anyons]], 
-topological [[quantum gates]] are [[braid group]]-elements and act through [[braid representations]]:
+The standard paradigm for potentially realizing topological quantum computation in practice ([Kitaev 03](#Kitaev03), [Freedman, Kitaev, Larsen & Wang03](#FreedmanKitaevLarsenWang03))
+considers manipulations of [[anyon]] [[topological defects]] in effectively 2-dimensional [[quantum materials]], such as in the [[quantum Hall effect]] and effectively described by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]]:
 
 
 \begin{imagefromfile}
-    "file_name": "TQCWithAnyonsBasicSetup.jpg",
-    "width": 500,
+    "file_name": "TQCOnAnyonsIdea.jpg",
+    "width": 600,
     "unit": "px",
     "margin": {
         "top": -10,
@@ -43,10 +39,27 @@ topological [[quantum gates]] are [[braid group]]-elements and act through [[bra
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Rowell & Wang 17](#RowellWang17)"
+    "caption": "Adapted from [Rowell & Wang 17](#RowellWang17), [Rouabah 20](#Rouabah20)"
 \end{imagefromfile}
 
 \linebreak
+
+Here topological [[quantum gates]] are encoded by [[braid group]]-elements 
+and are executed by [[actions]] through [[braid representations]] on the [[space of quantum states]]:
+
+
+\begin{imagefromfile}
+    "file_name": "QuantumGatesAsBraidGroupRepresentations.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": -10,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From Sati-Schreiber 21"
+\end{imagefromfile}
 
 
 \begin{imagefromfile}
@@ -54,7 +67,7 @@ topological [[quantum gates]] are [[braid group]]-elements and act through [[bra
     "width": 600,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -0,
         "bottom": -10,
         "right": 0, 
         "left": 10
@@ -62,21 +75,35 @@ topological [[quantum gates]] are [[braid group]]-elements and act through [[bra
     "caption": "From [Lahtinen & Pachos 17](#LahtinenPachos17)"
 \end{imagefromfile}
 
-\linebreak
 
+### Extended TQC?
+
+It is interesting to note that:
+
+* ([[pure braid group|pure]]) [[braid group representations]] are equivalently degree-1 [[cocycles]] in the [[non-abelian cohomology]] of the [[configuration space of points]] (ordered) in the [[Euclidean plane]],;
+
+* as such, [[braid representations]] are the first stage in a sequence that continues with [[weight systems]] on [[horizontal chord diagrams]], these being the [[complex cohomology]] in higher degree of the [[configuration space of points]] (ordered) in Euclideam 3-space (see at *[[weight systems are cohomology of loop space of configuration space]]*):
 
 \begin{imagefromfile}
-    "file_name": "QuantumBraidGateII.jpg",
+    "file_name": "BraidRepresentationsAndWeightSystemsAnalogy.jpg",
     "width": 700,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -10,
         "bottom": -10,
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Rouabah 20](#Rouabah20)"
+    "caption": "from Sati-Schreiber 2021"
 \end{imagefromfile}
+
+Here 
+
+* $Conf_N(\mathbb{R}^2) \simeq K( PBr(N), 1 ) \simeq B PBr(n)$ is an [[Eilenberg-Mac lane space]]/[[classifying space]] for the [[pure braid group]]
+
+* $Conf_N(\mathbb{R}^3)$ is a [[simply connected topological space|simply connected]] higher [[homotopy type]]:
+
+This means that while every individual loop in $Conf_N(\mathbb{R}^3)$ is homotopically trivial (all "braid-gates" are equivalent) there is now non-trivial structure in higher-dimensional deformation families of braids (which is absent in $Conf_N(\mathbb{R}^2)$). Such structure would be reflected by [[extended TQFT]].
 
 
 ## Related concepts
