@@ -112,7 +112,7 @@ This is discussed in more detail at
 
 There is also the diffeological groupoid incarnation of the [[fundamental groupoid]] $\Pi_1(X)$ of $X$. Its morphisms are full [[homotopy]]-classes of paths. There is a canonical projection $P_1(X) \to \Pi_1(X)$ that sends a thin-homotopy class of paths to the corresponding full-homotopy class.  
 
-A parallel transport functor $tra : P_1(X) \to G$ factors through $\Pi_1(X)$ precisely if the corresponding conneciton is _flat_ in that its [[curvature form]] vanishes.
+A parallel transport functor $tra : P_1(X) \to G$ factors through $\Pi_1(X)$ precisely if the corresponding connection is _flat_ in that its [[curvature form]] vanishes.
 
 
 ### In physics
