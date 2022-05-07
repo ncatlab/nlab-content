@@ -342,6 +342,13 @@ An expository talk of the above material from Bleecker can be found in this talk
 * {#Bartlett13} [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
  
 
+Discussion of KK-compactification on [[SU(3)]] equipped with a [[Riemannian metric|metric]] that is [[invariant metric|left invariant]] but not right invariant, thereby inducing an extra term akin to a [[Higgs field]] (see also at *[[Connes-Lott model]]*):
+
+* Joao Baptista, *Higher-dimensional routes to the Standard Model bosons* ([arXiv:2105.02899](https://arxiv.org/abs/2105.02899))
+
+* Joao Baptista, *Higher-dimensional routes to the Standard Model fermions* ([arXiv:2105.02901](https://arxiv.org/abs/2105.02901))
+
+
 
 
 
