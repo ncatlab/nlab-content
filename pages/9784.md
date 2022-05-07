@@ -71,6 +71,9 @@ In any case, we also have this subsidiary notion:
 A [[subset]] of $X$ is **precompact** (or sequentially so, or totally bounded) if it is precompact (or ...) for the inherited structure.
 =--
 
+## See also ##
+
+* [[totally bounded space]]
 
 [[!redirects precompact space]]
 [[!redirects precompact spaces]]
@@ -81,6 +84,3 @@ A [[subset]] of $X$ is **precompact** (or sequentially so, or totally bounded) i
 [[!redirects precompact subsets]]
 [[!redirects precompact subspace]]
 [[!redirects precompact subspaces]]
-
-[[!redirects totally bounded space]]
-[[!redirects totally bounded spaces]]
