@@ -32,6 +32,8 @@ The [[localization of a monoid|localization]] of an absorption monoid at $0$ is 
 
 ## Examples
 
+* The [[extended natural numbers]] $(\bar{\mathbb{N}}, 0, +, \infty)$ are an absorption monoid. 
+
 * Every [[integral monoid]] is an absorption monoid.
 
 * The multiplicative monoid of every [[rig]] is an absorption monoid. 
