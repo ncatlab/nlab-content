@@ -286,7 +286,7 @@ $$
 $$
 
 
-{#AsymptoticFormulaForNumberOfSYTWIthBoundedHeight} Asymptotically for large $n$ this is ([Regev 81, Thm. 2.20](#Regev81)):
+{#AsymptoticFormulaForNumberOfSYTWIthBoundedHeight} Asymptotically for large $n$ this is ([Regev 81, (F.4.5.1)](#Regev81)):
 
 $$
   \begin{aligned}
@@ -299,107 +299,51 @@ $$
     n \to \infty
   }{\sim}
   \;
-  \underset{
-    \gamma_N
-  }{
-  \underbrace{
-    (2 \pi)^{ -(N-1)/2 }
-    \cdot
-    N^{ N^2 / 2 }
-  }
-  }
+  \left(
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4} N(N-1) }
   \cdot
-  n^{ - (N - 1)(N + 2)/4 }
+  \frac
+    {N^n}
+    {N!}
+  \big( 
+    \Gamma(3/2)
+  \big)^{- N}
   \cdot
-  N^{ n }
-  \cdot
-  n^{ (N - 1)/2 }
-  \cdot
-  \underset{
-    \mathclap{
-      x_1 \geq \cdots \geq x_N
-    }
-  }{\int}
-    \;\;\;\;\;
-    \underset{
-      D(x_1, \cdots, x_N)
-    }{
-    \underbrace{
-    \underset{i \lt j}{\prod}
-    \big(
-      x_i - x_j 
-    \big)
-    }
-    }
-    e^{ - N \left\vert x\right\vert^2 /2 }
-   d x_1 \cdots d x_{N}
-   \\
-   & \;=\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{2} N^2 + n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 - N ) }
-   \cdot
-   \underset{
-     \mathclap{
-       x_1 \geq \cdots \geq x_N
-     }
-   }{\int}
-    \;\;\;\;\;
-   \underset{i \lt j}{\prod}
-   \big(
-     x_i - x_j 
-   \big)
-   e^{ - N \left\vert x\right\vert^2 /2 }
-   d x_1 \cdots d x_{N}
-   \\
-   & \;=\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{2} N^2 + n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 - N ) }
-   \cdot
-   \underset{
-     \mathclap{
-       { x_1 \geq \cdots \geq x_N }
-       \atop
-       { \vert x \vert^2 = 1 }
-     }
-   }{\int}
-    \;\;\;\;\;
-   \underset{i \lt j}{\prod}
-   \big(
-     x_i - x_j 
-   \big)
-   dvol_{S^{N}}
-   \,
-   \int_0^{\infty}
-   R^{ N(N-1) / 2 }
-   e^{ - N R^2 /2 }
-   d R
-   \\
-   & \;\propto\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{2} N^2 + n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 - N ) }
-   \,
-   N^{ - \tfrac{1}{4} (N^2 - N) }
-   \\
-   & \;=\;
-   (2 \pi)^{ -\tfrac{1}{2}( N - 1 ) }
-   \cdot
-   N^{ \tfrac{1}{4} (N^2 + N) + n}
-   \cdot
-   n^{  - \tfrac{1}{4}( N^2 - N ) }
+  \underoverset
+    {j=1}
+    {N}
+    {\prod}
+    \Gamma
+    \left(
+      1 + \tfrac{1}{2}j
+    \right)
   \end{aligned}
 $$
 
-> (missing remaining $N$-dependence in the propto step: Gamma-function etc.)
 
+
+Compare to the conjecture in [Kotěšovec 13](#Kotesovec13):
+
+$$
+  \left\vert
+    sYT_n(N)
+  \right\vert  
+  \;\sim\;
+  \underoverset
+    {j = 1}
+    {N}
+    {\prod}
+  \Gamma(j/2)
+  \cdot
+  \frac{N^n}{\pi^{N/2}}
+  \cdot
+  \left( 
+    \frac{N}{n}
+  \right)^{ \tfrac{1}{4}(N(N-1)) }
+$$
+
+> Hm, close...
 
 Exact formulas for small $N$:
 
@@ -501,6 +445,8 @@ See also the references at *[[Young tableau]]*.
 * {#Gouyou-Beauchamps89} [[Dominique Gouyou-Beauchamps]], *Standard Young Tableaux of Height 4 and  5*, Europ. J. Combinatorics (1989) 10, 69-82 (<a href="https://doi.org/10.1016/S0195-6698(89)80034-4">doi:10.1016/S0195-6698(89)80034-4</a>, [pdf](https://core.ac.uk/download/pdf/82423471.pdf))
 
 * Marilena Barnabei, Flavio Bonetti, and Matteo Silimbani: *Combinatorial properties of the numbers oftableaux of bounded height* ([arXiv:0803.2112](https://arxiv.org/abs/0803.2112), [pdf](http://amsacta.unibo.it/2443/1/bounded_height.pdf))
+
+* {#Kotesovec13} Václav Kotěšovec, *Asymptotic of Young tableaux of bounded height*, 2013 ([pdf](http://www.kotesovec.cz/math_articles/kotesovec_young_tableaux_conjecture.pdf), [[KotesovecAsymptoticsOfBoundedYoungTableaux.pdf:file]])
 
 
 [[!redirects semistandard Young tableaux]]
