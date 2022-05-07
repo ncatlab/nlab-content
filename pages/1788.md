@@ -1,4 +1,168 @@
 
+
+[[ReationalAndRealCharacterMap20210708.jpg:file]]
+
+[[RationalAndRealCharacterMap20210708.jpg:file]]
+
+\begin{tikzcd}
+    \mathllap{
+      \mbox{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          nonabelian
+          \\
+          cohomology
+        \end{tabular}
+      }
+      \!\!
+    }
+    H(X; \, A)
+    \ar[
+      rr,
+      "{
+        H(X;\, \mathbb{D}\eta^{\scalebox{.7}{\color{blue}$\mathbb{Q}$}}_{\mathbb{A}})
+      }"{description},
+      "{
+        \mbox{
+          \tiny
+          \color{green}
+          \bf
+          rational character map
+        }
+      }"{above, yshift=4pt}
+    ]
+    \ar[
+      drr,
+      "{
+        \mathbb{L}\Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{Q}}\mathrm{LdR}}
+      }"{sloped, below}
+    ]
+    \ar[
+      rrrr,
+      rounded corners,
+      to path={
+           -- ([yshift=+12pt]\tikztostart.north)
+           --node[above]{
+               \scalebox{.8}{$
+                 \overset{
+                   \raisebox{4pt}{
+                     \scalebox{.8}{
+                     \color{green}
+                     \bf
+                     real character map
+                     }
+                   }
+                 }{
+                   H
+                   \big(
+                     X;\,
+                     \mathbb{D}\eta^{\scalebox{.66}{\color{blue}$\mathbb{R}$}}_A
+                   \big)
+                 }
+               $}
+             } ([yshift=+12pt]\tikztotarget.north)
+           -- (\tikztotarget.north)}
+    ]
+    \ar[
+      rrrrd,
+      rounded corners,
+      to path={
+           -- ([yshift=-54pt]\tikztostart.south)
+           --node[below]{
+               \scalebox{.8}{$
+                 \mathbb{L} \Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{R}}\mathrm{LdR}}
+               $}
+             } ([yshift=-12pt]\tikztotarget.south)
+           -- (\tikztotarget.south)}
+    ]
+    &&
+    \overset{
+      \mathrlap{
+      \mbox{
+        \tiny
+        \color{blue}
+        \bf
+        nonabelian rational cohomology
+      }
+      }
+    }{
+      H(X; L_{\color{blue}\mathbb{Q}} A)
+    }
+    \ar[
+      rr,
+      "{
+        (-) \otimes_{{}_{\mathbb{Q}}} \mathbb{R}
+      }"
+    ]
+    \ar[
+      d,
+      "\rotatebox{90}{$\sim$}"{right},
+      "\widetilde{(-)}"{left}
+    ]
+    &&
+    H(X; L_{\color{blue}\mathbb{R}} A)
+    \mathrlap{
+      \!\!\!\!\!
+      \mbox{
+        \tiny
+        \color{blue}
+        \bf
+        \begin{tabular}{c}
+          nonabelian
+          \\
+          real cohomology
+        \end{tabular}
+      }
+    }
+    \\
+    &&
+    H
+    \big(
+      \mathbb{L}\Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{Q}}\mathrm{LdR}}(X),
+      \,
+      \mathbb{L}\Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{Q}}\mathrm{LdR}}(A)
+    \big)
+    \ar[
+      rr
+    ]
+    \ar[
+      rr,
+      "{
+        \mathbb{R}
+        \big(
+          (-) \otimes_{{}_{\mathbb{Q}}} \mathbb{R}
+        \big)
+      }"{below},
+      "{
+        \mbox{
+          \tiny
+          \color{green}
+          \bf
+          \begin{tabular}{c}
+            extension
+            \\
+            of scalars
+          \end{tabular}
+        }
+      }"
+    ]
+    &&
+    H
+    \big(
+      \mathbb{L}\Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{R}}\mathrm{LdR}}(X),
+      \,
+      \mathbb{L}\Omega^\bullet_{\mathrm{P}{\color{blue}\mathbb{R}}\mathrm{LdR}}(A)
+    \big)
+    \ar[
+      u,
+      "\rotatebox{90}{$\sim$}"{right},
+      "\widetilde{(-)}"{left}
+    ]
+  \end{tikzcd}
+
+
 \begin{tikzcd}
     \mathrm{Ho}
     \Big(
