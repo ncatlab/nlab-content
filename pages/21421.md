@@ -76,6 +76,9 @@ More on [[mesons]] in [[holographic QCD]]:
 
 * {#daRocha21} R. da Rocha, _Information in AdS/QCD: mass spectroscopy of isovector mesons_ ([arXiv:2103.03924](https://arxiv.org/abs/2103.03924))
 
+* Shahin Mamedov, Narmin Nasibova, _Temperature dependence of $\rho$ meson-nucleon coupling constant from the  soft-wall model_ ([arXiv:2103.10494](https://arxiv.org/abs/2103.10494))
+
+
 
 
 
