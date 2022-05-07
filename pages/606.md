@@ -34,13 +34,70 @@ Let $S \in $ [[sSet]] with
 
 The **simplicial identities** satisfied by face and degeneracy maps as above are (whenever these maps are composable as indicated):
 
-1. $ \partial_i \circ \partial_j  = \partial_{j-1} \circ \partial_i$ if $i \lt j$,
+$$
+\array{
+  \partial_i 
+    \circ 
+  \partial_j  
+  \;=\; 
+  \partial_{j-1} 
+    \circ 
+  \partial_i
+  & 
+  \text{if}
+  & 
+  i \lt j
+  \\
+  s_i 
+    \circ 
+  s_j  
+  \;=\; 
+  s_j 
+    \circ 
+  s_{i-1} 
+  &
+  \text{if} 
+  &
+  i \gt j
+}
+$$
 
-1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
-
-1. $\partial_i \circ s_j =  \left\{ \array{ s_{j-1} \circ \partial_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ \partial_{i-1} &  if\; i \gt j+1 } \right. $
+$$
+  {\phantom{AAAAA}}
+  \partial_i 
+    \circ 
+  s_j 
+  \;=\;  
+  \left\{ 
+    \array{ 
+      s_{j-1} 
+        \circ 
+      \partial_i 
+      &  
+      \text{if} 
+      &  
+      i \lt j 
+      \\ 
+      id 
+      & 
+      \text{if}
+      &  
+      i \in \{j, j+1\} 
+      \\ 
+      s_j 
+        \circ 
+      \partial_{i-1} 
+      &  
+      \text{if} 
+      &
+      i \gt j+1 
+    } 
+  \right. 
+$$
 
 =--
+
+(e.g. [Goerss & Jardine 1999/2009, I.1. (1.3)](#GoerssJardine09))
 
 ## Properties
 
@@ -147,8 +204,13 @@ Here
 
 ## References
 
-For instance definition 1.1 in 
+For original references see at *[[simplicial set]]*.
 
-* [[Peter May]], _Simplicial objects in algebraic topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+Review includes:
+
+* {#May67} [[Peter May]], Def. 1.1 in: _Simplicial objects in algebraic topology_, University of Chicago Press 1967 ([ISBN:9780226511818](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5956688.html), [djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu), [[May_SimplicialObjectsInAlgebraicTopology.pdf:file]])
+
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Eq. (1.3) in Section I.1 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+
 
 [[!redirects simplicial identity]]
