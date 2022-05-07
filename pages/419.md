@@ -85,7 +85,7 @@ $$
 **(cofibrant tensor unit implies unit axiom)**\linebreak
 As a special case of Rem. \ref{InternalHomQuillenAdjunction}: If the [[tensor unit]] $I$ happens to be [[cofibrant objects|cofibrant]], then the unit axiom in def. \ref{MonoidalModelCategory} is already implied by the [pushout-product axiom](#PushoutProductAxiom). 
 
-(Because then $Q I \to I$ is a [[weak equivalence]] between [[cofibrant objects]] and such are preserved by functors that preserve acyclic cofibrations, by [[Ken Brown's lemma]]. ) 
+(Because then $Q I \to I$ is a [[weak equivalence]] between [[cofibrant objects]] and such are preserved by functors that preserve acyclic cofibrations, by [[Ken Brown's lemma]].) 
 \end{remark}
 
 
@@ -94,7 +94,7 @@ As a special case of Rem. \ref{InternalHomQuillenAdjunction}: If the [[tensor un
 ###### Definition
 **([[monoid axiom]])**
 
-One says that a [[monoidal model category]], def. \ref{MonoidalModelCategory}, satisfies the *[[monoid axiom]]* if every [[morphism]] that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a [[weak equivalence]].
+One says that a [[monoidal model category]] (Def. \ref{MonoidalModelCategory}) satisfies the *[[monoid axiom]]* if every [[morphism]] that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a [[weak equivalence]].
 
 =--
 
