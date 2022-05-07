@@ -102,7 +102,7 @@ of the [[adjoint action]] of $PU(\mathcal{H})$ on the space of [[group homomorph
     \right.
   $$
 \end{proposition}
-([BEJU 2014, around Cor. 1.1](#BEJU14))
+([BEJU 2014, around Cor. 1.11](#BEJU14))
 
 ## References
 
