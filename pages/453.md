@@ -343,18 +343,13 @@ When the reg/lex completion is followed by the [[ex/reg completion]] which compl
 
 ## References
 
-Regular categories were introduced in three different articles in LNM **236** by Barr, Grillet and Van Osdool, respectively:
+The notion of regular categories was introduced in:
 
-* [[Michael Barr]],  _Exact categories_,  Lec. Notes in Math. __236__, Springer-Verlag 1971, 1-119. ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.732.4603&rep=rep1&type=pdf)) 
- {#Barr}
+* {#BarrGrilletvonOsdol} [[Michael Barr]],  [[Pierre Grillet]], [[Donovan van Osdol]], *Exact Categories and Categories of Sheaves*,  Lec. Notes in Math. __236__, Springer 1971, ([doi:10.1007/BFb0058579](https://link.springer.com/book/10.1007/BFb0058579)) 
+ 
+Historical context:
 
-* P. A. Grillet, _Regular Categories_ , pp.121-222.
-
-* D. H. Van Osdool, _Sheaves in Regular Categories_ , pp.223-239.
-
-Some of the historical context is provided in the introduction of
-
-* [[Peter Johnstone]], _Topos Theory_ (1977)
+* [[Peter Johnstone]], Introduction of: _Topos Theory_ (1977)
 
 Introduction:
 
@@ -366,7 +361,7 @@ Textbook accounts:
 
 * [[Peter Freyd]], [[Andre Scedrov]], Chapter 1.5 of: _[[Categories, Allegories]]_ , North-Holland Amsterdam 1990. (chap. 1.5. pp.68ff)
 
-* {#Borceux94} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2:: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
+* {#Borceux94} [[Francis Borceux]], Chapter 2 of: *[[Handbook of Categorical Algebra]]*, Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
 * [[Peter Johnstone]], Section A1.3. pp.18ff of _[[Sketches of an Elephant]] I_ , Oxford UP 2002. 
 
@@ -384,7 +379,7 @@ An application of the regularity condition[^knop] is found in:
 
 [^knop]: Knop's condition for regularity is slightly different from that presented here; he works with categories that when augmented by an absolutely initial object are regular in the terminology here.  In the paper, Knop generalizes a construction of Deligne by showing how to construct a symmetric pseudo-abelian [[tensor category]] out of a regular category through the calculus of relations.
 
-Enriched generalization of regular categories:
+Generalization of the notion of regular categories to [[enriched category theory]]:
 
 * [[Brian Day]], [[Ross Street]], _Localisation of locally presentable categories_, J. Pure and Appl. Algebra __58__ (1989) 227-233.
 
