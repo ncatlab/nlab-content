@@ -73,4 +73,5 @@ See also:
 [[!redirects absolute neighbourhood retract]]
 [[!redirects absolute neighbourhood retracts]]
 
-
+[[!redirects ANR]]
+[[!redirects ANRs]]
