@@ -12,6 +12,10 @@ and relating it to [[Yang-Mills theory]]:
 
 * H. Aoki, [[Noboyuki Ishibashi]], S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
 
+Relation of the $SL(2,\mathbb{R})$-[[gauged WZW-model]] and [[analytically continued Wess-Zumino-Witten theory]] to [[Liouville theory]]:
+
+* [[Noboyuki Ishibashi]], _Extra Observables in Gauged WZW Models_, Nucl.Phys. B379 (1992) 199-219 ([arXiv:hep-th/9110071](http://arxiv.org/abs/hep-th/9110071))
+
 
 
 category: people
