@@ -256,3 +256,9 @@ Comprehensive discussion in [[higher differential geometry]]:
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
 * {#Alfonsi20} [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
+
+* [[Luigi Alfonsi]], _Towards an extended/higher correspondence -- Generalised geometry, bundle gerbes and global Double Field Theory_ ([arXiv:2102.10970](https://arxiv.org/abs/2102.10970))
+
+
+
+
