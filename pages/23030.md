@@ -508,7 +508,73 @@ and
 Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}, this is the statement of [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](#May90). 
 \end{proof}
 
+\begin{example}\label{ARelationToCrossedModules}
+**(a relation to [[crossed modules]])**
+\linebreak
+  Let $(\Gamma \xrightarrow{\delta} G)$ be a [[crossed module]], with the corresponding [[strict 2-group]]
 
+$$
+  \mathcal{G} 
+    \;\coloneqq\;
+  \big(
+    \Gamma \rtimes G 
+    \underoverset
+      { (\delta(-))\cdot(-) }
+      {pr_2}
+      {\rightrightarrows}     
+    G
+  \big)
+  \,.
+$$ 
+
+Then in the [[strict (2,1)-category]] of [[strict 2-groups]], the [[2-morphisms]] 
+out of the [[identity morphism|identity]] [[1-morphism]] on $\mathcal{G}$ are in [[bijection]] to the crossed homomorphisms $G \to \Gamma$:
+
+\[
+  \label{CrossedHomomorphismsBijectiveTo2Group2MorphismsOutOfIdG}
+  CrsHom(G,\Gamma)
+  \;\simeq\;
+  \big\{
+    id_{\mathcal{G}} \Rightarrow F
+    \,\vert\,
+    F \in Str2Grp(\mathcal{G}, \mathcal{G})
+  \big\}
+  \,.
+\]
+
+Namely, such a 2-morphism is a [[natural transformation]] $\eta \colon id_{\mathcal{G}} \Rightarrow F$ of [[endofunctors]] of the underlying [[action groupoid]], whose component function 
+$$
+  \eta_0 \,\colon\, Obj(\mathcal{G}) \xrightarrow{\;} Mor(\mathcal{G})
+$$
+is a [[group homomorphism]]
+$$
+  \eta_0 \,\colon\, G \xrightarrow{\;} \Gamma \rtimes G
+$$
+such that 
+$$
+  s
+  \big(
+    \eta_0(g)
+  \big)
+  \;=\;
+  (id_{\mathcal{G}})_0(g)
+  \;=\;
+  g
+  \,,
+$$
+where
+$$
+  s \,\coloneqq\, pr_2 \;\colon\; \Gamma \times G \xrightarrow{\;} G
+$$
+is the [[source]] map of the [[groupoid]] $\mathcal{G}$.
+
+This means that the admissible $\eta_0$ are precisely the [[group homomorphism|homomorphic]] [[sections]] of $\Gamma \rtimes G \xrightarrow{\;} G$.
+Conversely, by the [[invertible morphism|invertiblity]] of all morphisms involved, every such $\eta_0$ is the component homomorphism of some 2-morphism $\eta$ out of $id_{\mathcal{G}}$.
+
+Therefore the statement (eq:CrossedHomomorphismsBijectiveTo2Group2MorphismsOutOfIdG) follows by Prop. \ref{CrossedHomomorphismsAreSplittingsOfTheSemidirectProductGroup}.
+
+The analogous statement for general 2-morphisms is indicated in [Noohi 07, p. 12](#Noohi07).
+\end{example}
 
 ## Related concepts
 
@@ -568,6 +634,11 @@ Discussion for [[finite groups]]:
 Discussion for [[Lie groups]]:
 
 * [[Karl-Hermann Neeb]], Def. 2.3 in: *Lie group extensions associated to projective modules of continuous inverse algebras*, Archivum Mathematicum, **44** 5 (2008) 465-489 ([dml:127115](https://dml.cz/handle/10338.dmlcz/127115))
+
+Discussion in relation to [[crossed modules]]:
+
+* {#Noohi07} [[Behrang Noohi]], *Notes on 2-groupoids, 2-groups and crossed-modules*, Homotopy, Homology, and Applications, 9, (2007), no. 1, 75--106 ([arXiv:math/0512106](https://arxiv.org/abs/math/0512106))
+
 
 [[!redirects crossed homomorphisms]]
 
