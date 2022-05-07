@@ -1,11 +1,15 @@
 
 * [[Saunders MacLane]],
 
-  _Categories for the Working Mathematician_
+  **Categories for the Working Mathematician**
 
-  Graduate texts in mathematics, Springer, 1971
+  Graduate texts in mathematics
 
-is a classical textbook on [[category theory]]. See also
+  Springer 1971
+
+  [doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)
+
+is a classical textbook on [[category theory]]. See also:
 
 * [[Saunders MacLane]], _[[Lectures on category theory]], Bowdoin Summer School 1969, Notes taken by [[Ellis Cooper]] 
 
@@ -35,6 +39,6 @@ _Categories Work_ is the standard reference for category theory, and we may ofte
 
 category: reference
 
-[[!redirects Categories for the Working Mathematician]]
 [[!redirects Categories for Working Mathematician]]
 [[!redirects CWM]]
+[[!redirects Categories Work]]
