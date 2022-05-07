@@ -25,6 +25,10 @@ Introducing [[cobordism cohomology theory]] [[MSO]]:
 
 * [[Michael Atiyah]], _Bordism and Cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society, Volume 57, Issue 2, April 1961, pp. 200 - 208 ([doi:10.1017/S0305004100035064](https://doi.org/10.1017/S0305004100035064), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahb.pdf))
 
+Introducing the [[Atiyah-Bott-Shapiro orientation]] [[MSpin]]$\to$[[KO]] and [[MSpin^c|MSpin<sup><i>c</i></sup>]]$\to$[[KU]]:
+
+* {#AtiyahBottShapiro64} [[Michael Atiyah]], [[Raoul Bott]], [[Arnold Shapiro]], _Clifford modules_, Topology Volume 3, Supplement 1, July 1964, Pages 3-38 (<a href="https://doi.org/10.1016/0040-9383(64)90003-5">doi:10.1016/0040-9383(64)90003-5</a>, [pdf](http://dell5.ma.utexas.edu/users/dafr/Index/ABS.pdf))
+
 
 On [[Bott periodicity]]:
 
@@ -124,6 +128,8 @@ On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex s
 * [[topological K-theory]]
 
 * [[equivariant K-theory]]
+
+* [[Atiyah-Bott-Shapiro orientation]]
 
 * [[Atiyah-Hirzebruch spectral sequence]]
 
