@@ -34,10 +34,11 @@ $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \leq \epsi
 
 The same definition immediately applies to an extended quasipseudometric space (aka a Lawvere metric space), or anything in between.
 
-
 In a [[gauge space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
 $$ \forall d,\; \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \leq \epsilon .$$
 
+In a [[premetric space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric given a positive rational number $\epsilon$.  Explicitly:
+$$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_\epsilon x_j .$$
 
 In a [[uniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
 $$ \forall U,\; \exists N,\; \forall i, j \geq N,; x_i \approx_U x_j .$$
