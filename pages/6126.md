@@ -1,5 +1,5 @@
 
-**[[mapping space]]**
+**[[internal hom]]/[[mapping space]]**
 
 ### General abstract
 
@@ -9,13 +9,21 @@
 
 ### Topology
 
-* [[topology of mapping spaces]]
+* [[mapping space]] ([[compact-open topology]])
 
-  * [[compact-open topology]]
+* [[topology of mapping spaces]]
 
 * [[evaluation fibration of mapping spaces]]
 
 * [[loop space]], [[free loop space]]
+
+  * [[free loop space of a classifying space]]
+
+### Simplicial homotopy theory
+
+* [[simplicial mapping complex]]
+
+* [[inertia groupoid]]
 
 ### Differential topology
 
@@ -32,5 +40,13 @@
 ### Stable homotopy theory
 
 * [[mapping spectrum]]
+
+### Geometric homotopy theory
+
+* [[mapping stack]]
+
+* [[inertia stack]]
+
+* [[free loop stack]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/mapping+space+-+contents)</div>
