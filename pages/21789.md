@@ -21,9 +21,9 @@
 
 ## Idea
 
-The joint generalization of of [[twisted K-theory]] and [[equivariant K-theory]].
+Twisted equivariant K-theory is the special case of [[twisted equivariant cohomology]] for the case that the [[cohomology theory]] is [[K-theory]] (often understood to be [[topological K-theory]], by default), hence the  joint generalization of [[twisted K-theory]] and [[equivariant K-theory]].
 
-Often considered in the special case of [[twisted ad-equivariant K-theory]].
+This is often considered in the special case of [[twisted ad-equivariant K-theory]].
 
 ## Related concepts
 
