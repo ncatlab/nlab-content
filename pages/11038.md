@@ -1,25 +1,42 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[quantum computing]] a _quantum circuit_ is a net of _quantum gates_ used to implement a quantum operation.
+(...)
 
 ## Related concepts
 
-* [[string diagram]]
+* [[quantum circuit]]
 
-* [[proof net]]
-
-* [[DisCoPy]]
+* [[quantum logic]]
 
 ## References
 
-* Wikipedia, _[Quantum circuit](http://en.wikipedia.org/wiki/Quantum_circuit)_
+See also:
 
-[[!redirects quantum circuits]]
+* Wikipedia, *[Quantum logic gate](https://en.wikipedia.org/wiki/Quantum_logic_gate)*
 
 [[!redirects quantum logic gate]]
 [[!redirects quantum logic gates]]
+
+[[!redirects quantum gates]]
+
