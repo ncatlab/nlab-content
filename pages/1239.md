@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -142,7 +143,7 @@ More in detail, this yields the following identifications:
 
 Lecture notes include
 
-* {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+* {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]])
 
 * {#Teleman05} [[Constantin Teleman]], _Representation theory_, lecture notes 2005 ([pdf](https://math.berkeley.edu/~teleman/math/RepThry.pdf))
 
@@ -153,7 +154,7 @@ Textbooks include
 
 * Charles Curtis, Irving Reiner, _Representation theory of finite groups and associative algebras_, AMS 1962
 
-* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1381051.files/fulton-harris-representation-theory.pdf))
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
 
 
 * {#LuxPahlings10} Klaus Lux, Herbert Pahlings, _Representations of groups -- A computational approach_, Cambridge University Press 2010 ([author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078))
