@@ -83,4 +83,14 @@ For **proof** see at _[[topological vector bundle]]_ [this Prop.](topological+ve
 
 * The notions of coboundary and concordance exist in every [[cohesive (∞,1)-topos]].
 
+## References
+
+Discussion of concordance of topological [[principal bundles]] (in fact for [[simplicial principal bundles]] [[parameterized homotopy theory|parameterized]] over some base space):
+
+* [[David Roberts]], [[Danny Stevenson]], Cor. 15 in: _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460), [nyjm:22-19](http://nyjm.albany.edu/j/2016/22-19.html))
+
+Discussion of concordance in terms of the [[shape modality]] in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]] (see at *[[shape via cohesive path ∞-groupoid]]* for more):
+
+* {#BEBP} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
+
 [[!redirects concordances]]
