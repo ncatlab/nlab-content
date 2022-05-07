@@ -66,3 +66,5 @@ in $Q$, there exists morphisms $d:a\to b$ and $e:b \to a$ such that $g \circ d =
 * [[quasigroup]]
 
 * [[oidification]]
+
+* [[magmoid]], [[loopoid]], [[associative quasigroupoid]], [[groupoid]]
