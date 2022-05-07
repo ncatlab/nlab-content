@@ -47,7 +47,7 @@ $$
   }
 $$
 
-Beware the distinction to _[[tangential structure]]_ on $X$, where such as lift is considered (only) at the level of underlying [[classifying spaces]].
+Beware the distinction to _[[tangential structure]]_ on $X$, where such a lift is considered (only) at the level of underlying [[classifying spaces]].
 
 
 ## Definition
