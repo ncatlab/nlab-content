@@ -1,7 +1,5 @@
 
 
-
-
 ##Definition
 
 A _residuated lattice_ is an algebra, $L=(L,\wedge,\vee, \cdot, \backslash, /,1)$ such that
@@ -52,7 +50,7 @@ We have
 
 $$((R;S)\subseteq T)\Leftrightarrow (S\subseteq (R\backslash T))\Leftrightarrow (R\subseteq T / S)).$$
 
-
+* Any [[lattice ordered group]] gives a residuated lattice. This is described in the entry on lattice ordered groups.
 
 ##Categorical interpretations of residuation
 
