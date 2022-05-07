@@ -44,20 +44,20 @@ This is the case precisely if $Maps_{hol}(-,X) \in Psh_\infty(SteinSp)$ satisfie
 
 =--
 
- ([Larusson 01, theorem 2.1](#Larusson01))
+([Larusson 01, theorem 2.1](#Larusson01))
 
 +-- {: .num_theorem}
 ###### Theorem
 
 The category of [[complex manifolds]] and [[holomorphic maps]] can be embedded into a Quillen [[model category]] such that:
 
-* a holomorphic map is a weak equivalence in the ambient model category if and only if it is a [[homotopy equivalence]] in the usual topological sense.
+* a holomorphic map is a [[weak equivalence]] in the ambient model category if and only if it is a [[homotopy equivalence]] in the usual topological sense;
 
-* a holomorphic map is a fibration if and only if it is an Oka map. In particular, a complex manifold is fibrant if and only if it is an [[Oka manifold]].
+* a holomorphic map is a [[fibration]] if and only if it is an Oka map. In particular, a complex manifold is [[fibrant object|fibrant]] if and only if it is an [[Oka manifold]];
 
-* a [[complex manifold]] is cofibrant if and only if it is [[Stein manifold|Stein]].
+* a [[complex manifold]] is [[cofibrant]] if and only if it is [[Stein manifold|Stein]];
 
-* a Stein inclusion is a cofibration.
+* a Stein inclusion is a [[cofibration]].
 
 =--
 
@@ -71,12 +71,12 @@ The category of [[complex manifolds]] and [[holomorphic maps]] can be embedded i
 
 ## References
 
-Original articles include
+Original articles:
 
 * K. Oka, _Sur les fonctions des plusieurs variables. III: Deuxi&#232;me probl&#232;me de Cousin_, J. Sc. Hiroshima Univ. __9__, 7&#8211;19 (1939)
 
-* [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) [doi](http://dx.doi.org/10.1007/BF01351803)
- {#Grauert58}
+* {#Grauert58} [[Hans Grauert]], _Analytische Faserungen &#252;ber holomorph-vollst&#228;ndigen R&#228;umen_, Math. Ann. __135__, 263&#8211;-273 (1958) [doi](http://dx.doi.org/10.1007/BF01351803)
+ 
 
 * [[Mikhail Gromov]], _Oka's principle for holomorphic sections
 of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897.
@@ -84,9 +84,9 @@ of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897.
 * [[Franc Forstnerič]], _The Oka principle for sections of stratified fiber bundles_, Pure Appl. Math. Quarterly (Special Issue in honor of Joseph J. Kohn), 6 (2010), no. 3, 843--874, [arxiv/0705.0591](http://arxiv.org/abs/0705.0591)
 
 
-Surveys and reviews include
+Surveys and review:
 
-* [[Finnur Lárusson]], _What is an Oka manifold_, Notices AMS, [pdf](http://www.ams.org/notices/201001/rtx100100050p.pdf)
+* [[Finnur Lárusson]], _What is an Oka manifold?_, Notices AMS Volume 57, Number 1 ([pdf](http://www.ams.org/notices/201001/rtx100100050p.pdf), [[Larussen_OkaManifolds.pdf:file]])
 
 * [[Franc Forstnerič]], [[Finnur Lárusson]], _Survey of Oka theory_, [arxiv/1009.1934](http://arxiv.org/abs/1009.1934)
 
