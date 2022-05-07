@@ -333,9 +333,16 @@ See also
 * [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
 
 
-Further development of these tensor networks in 
+Further development of these tensor networks:
+
+* Tamara Kohler, Toby Cubitt, *Toy Models of Holographic Duality between local Hamiltonians*, 	J. High Energy Phys. 2019:17 (2019) ([arXiv:1810.08992](https://arxiv.org/abs/1810.08992))
+
+
 
 * Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Beyond Toy Models: Distilling Tensor Networks in Full AdS/CFT_ ([arXiv:1812.01171](https://arxiv.org/abs/1812.01171))
+
+
+
 
 * Ning Bao, [[Geoffrey Penington]], Jonathan Sorce, Aron C. Wall, _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
 
