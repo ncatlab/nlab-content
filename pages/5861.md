@@ -70,7 +70,7 @@ Conversely we will say that data as in def. \ref{InfinitesimalCohesiveInfTopos} 
 +-- {: .num_remark}
 ###### Remark
 
-This definition is an abstraction of similar situations considered in ([SimpsonTeleman](#SimpsonTeleman)) and in [Kontsevich-Rosenberg](#KontsevichRosenbergSpaces). See also the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#InfinitesimalThickening">Infinitesimal thickenings</a> at [[Q-category]].
+This definition is an abstraction of similar situations considered in ([SimpsonTeleman](#SimpsonTeleman)) and in [Kontsevich-Rosenberg](#KontsevichRosenbergSpaces). See also the section [Infinitesimal thickening](Q-category#InfinitesimalThickening) at [[Q-category]].
 
 =--
 
