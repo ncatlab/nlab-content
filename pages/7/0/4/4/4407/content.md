@@ -17,9 +17,9 @@
 
 Classically, the **fundamental theorem of algebra** states that 
 
-* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every nonconstant [[polynomial]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
+* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every nonconstant [[polynomial function]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
 
-Many proofs of this theorem are known (see the [references](#References) below); some use [[complex analysis]] (the reciprocal of a [[polynomial]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
+Many proofs of this theorem are known (see the [references](#References) below); some use [[complex analysis]] (the reciprocal of a [[polynomial function]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
 
 
 
@@ -29,7 +29,7 @@ Despite its name, the fundamental theorem of algebra makes reference to a concep
 
 The rest of the proof is algebraic and, unlike the other proof methods, applies to all [[real closed field]]s, which need not be archimedean. It is due to [[Emil Artin]], and forms a basic chapter in the Artin--Schreier theory of real closed fields.
 
-We recall that a _real closed field_ is an [[ordered field]] such that every positive element has a [[square root]], and every polynomial of odd degree has a root.  Note that the polynomial $x^2 + 1$ cannot have any root in a real closed field --- or in fact in any ordered field, since we always have $x^2\ge 0$ and hence $x^2+1 \ge 1$.
+We recall that a _real closed field_ is an [[ordered field]] such that every positive element has a [[square root]], and every polynomial function of odd degree has a root.  Note that the polynomial function $x^2 + 1$ cannot have any root in a real closed field --- or in fact in any ordered field, since we always have $x^2\ge 0$ and hence $x^2+1 \ge 1$.
 
 +-- {: .num_theorem}
 ###### Theorem 
@@ -40,13 +40,13 @@ If $F$ is real closed, then $K = F[\sqrt{-1}]$ is algebraically closed.
 ###### Proof 
 We must show that any [[irreducible polynomial]] $p$ of degree greater than $0$ with coefficients in $K$ has a root in $K$. Since $F$ has characteristic $0$, it is a [[perfect field]]. 
 
-Thus the [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [Sylow 2-group](http://ncatlab.org/nlab/show/class+equation#sylow_theorems) of $G$, then the [[fixed field]] $E$ of $G(2)$ is an odd degree extension of $F$. Any $\alpha \in E$ must then have an irreducible polynomial $q \in F[x]$ of odd degree. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, $\deg(q) = 1$ and $\alpha \in F$, forcing $E = F$ and $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
+Thus the [[splitting field]] of $p$ is a finite [[Galois extension]] $L$ of $F$, with [[Galois group]] $G$. If $G(2)$ is the [Sylow 2-group](http://ncatlab.org/nlab/show/class+equation#sylow_theorems) of $G$, then the [[fixed field]] $E$ of $G(2)$ is an odd degree extension of $F$. Any $\alpha \in E$ must then have an irreducible polynomial function $q \in F[x]$ of odd degree. But since $F$ is real closed, $q$ has a root in $F$; by irreducibility, $\deg(q) = 1$ and $\alpha \in F$, forcing $E = F$ and $G = G(2)$. We have ${|G|} \gt 1$ since the splitting field contains $K$. 
 
 So $G$ is a $2$-[[primary group]]. But for any [[prime number]] $p$, a nontrivial finite $p$-group has nontrivial [[center]] (see [here](/nlab/show/class+equation#pgroup)), and is therefore [[solvable group|solvable]] by an inductive argument. Therefore the extension $L/F$ arises from a tower of non-trivial [[quadratic extension]]s 
 
 $$F \subseteq L_1 \subseteq \ldots \subseteq L_n = L$$ 
 
-By the [[quadratic formula]], the first field $L_1$ arises by adjoining roots to $F$ of a polynomial $x^2 + a x + b$, 
+By the [[quadratic formula]], the first field $L_1$ arises by adjoining roots to $F$ of a polynomial function $x^2 + a x + b$, 
 
 $$\frac{-a \pm \sqrt{a^2 - 4b}}{2},$$ 
 
@@ -74,7 +74,7 @@ we obtain a solution (since $x^2 - y^2 = a$ and $4 x^2 y^2 = b^2$).
 
 ## Classical FTA via advanced calculus 
 
-As noted above, many proofs of the fundamental theorem are known. The following proof, ultimately rooted in the fact that polynomial mappings on $\mathbb{C}$ are [[open mappings]], has the advantage that it requires very little machinery. From what I ([[Todd Trimble]]) understand, it is close to the method used by Argand to give his proof (1814)[^1]. 
+As noted above, many proofs of the fundamental theorem are known. The following proof, ultimately rooted in the fact that [[polynomial mappings]] on $\mathbb{C}$ are [[open mappings]], has the advantage that it requires very little machinery. From what I ([[Todd Trimble]]) understand, it is close to the method used by Argand to give his proof (1814)[^1]. 
 
 [^1]: Despite the credit given to Gauss for his demonstration of 1799, Argand's proof is often credited as the first one that is *fully rigorous*. The proof given here also uses the Bolzano-Weierstrass theorem, first proven by Bolzano in 1817, making it somewhat contemporaneous. Argand is also widely credited as the one who introduced the cutting-edge idea of viewing complex numbers and their operations *geometrically*, which the proof here also uses (the complex plane $\mathbb{C}$ being also known as the Argand plane). 
 
@@ -82,9 +82,9 @@ Let $f\colon \mathbb{C} \to \mathbb{C}$ be a nonconstant polynomial mapping, and
 
 1. Let $s$ be the [[infimum]] of values ${|f(z)|}$; choose a [[sequence]] $z_1, z_2, z_3, \ldots$ such that ${|f(z_n)|} \to s$. Since $\lim_{z \to \infty} f(z) = \infty$, the sequence $z_n$ must be bounded; by the Bolzano-Weierstrass theorem it has a [[sequence|subsequence]] $z_{n_k}$ that converges to some point $z_0$. Then ${|f(z_{n_k})|}$ converges to ${|f(z_0)|}$ by continuity, and converges to $s$ as well, so ${|f(z)|}$ attains an absolute minimum $s$ at $z = z_0$. By supposition, $f(z_0) \neq 0$. 
 
-2. The polynomial $f$ may be uniquely written in the form 
+2. The polynomial function $f$ may be uniquely written in the form 
 $$f(z) = f(z_0) + g(z)(z - z_0)^n$$ 
-where $g$ is polynomial and $g(z_0) \neq 0$. Put 
+where $g$ is polynomial function and $g(z_0) \neq 0$. Put 
 $$F(z) = f(z_0) + g(z_0)(z - z_0)^n$$ 
 and choose $\delta \gt 0$ small so that 
 $${|z - z_0|} = \delta \Rightarrow {|g(z) - g(z_0)|} \lt {|g(z_0)|}.$$ 
@@ -100,13 +100,13 @@ which contradicts the fact that ${|f(z)|}$ attains an absolute minimum at $z = z
 
 ## In weak foundations
 
-Many proofs rely explicitly on the [[double negation]] rule by first supposing that a polynomial $p$ has no root and deriving a contradiction.  However, the algebraic proof is almost entirely [[constructive mathematics|constructive]].  (Some general results on splitting fields are problematic in constructive algebra, as is the intermediate value theorem in constructive analysis, but their usage in this proof is fine.)
+Many proofs rely explicitly on the [[double negation]] rule by first supposing that a polynomial function $p$ has no root and deriving a contradiction.  However, the algebraic proof is almost entirely [[constructive mathematics|constructive]].  (Some general results on splitting fields are problematic in constructive algebra, as is the intermediate value theorem in constructive analysis, but their usage in this proof is fine.)
 
-In fact, the only problem is Lemma \ref{sqrt}.  This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not know whether or not $x$ is apart from zero (because there is no [[continuous map|continuous]] square-root function).
+In fact, the only problem is Lemma \ref{sqrt}. This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not know whether or not $x$ is apart from zero (because there is no [[continuous map|continuous]] square-root function).
 
 Most varieties of [[constructive mathematics]] (including that in [[Errett Bishop]]\'s book) nevertheless accept the FTA, because the needed square roots follow from [[weak countable choice]] ($WCC$, which is a consequence of either excluded middle or [[countable choice]]). A fully choice-free constructive proof by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) also exists for the [[modulated Cauchy real number|modulated Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]).
 
-[[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
+[[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
 
 Assuming classical logic, but weak foundations, it can be shown that FTA is true in the [[reverse mathematics]] system $RCA_0$ ([Tanaka-Yamazaki 2005](#TY2005)).
 
@@ -116,9 +116,9 @@ Assuming classical logic, but weak foundations, it can be shown that FTA is true
 
 The proof was attempted many times before Gauss gave what is accepted as the first proof in his dissertation ([Gauss 1799](#Gauss1799)), although this was not without issues (Gauss 'fixed' this proof almost 50 years later, but the last gap was not filled until the 20th century).
 
-All proofs of this fact (of which there are many) require something analytic, in the sense that ordinary algebra will not suffice: one needs to know that the real numbers (or the complex numbers) 'have no algebraic gaps'. For instance, the rational numbers famously don't contain the square root of $2$. The cleanest proof I know, due to Artin, that isolates this analytic germ, uses the step-ladder result that the real numbers form what is called a [[real closed field]]. This is essentially saying that non-negative real numbers have square roots, and odd degree polynomials have roots (anyone who has plotted a cubic can appreciate this fact). Alternatively, one can characterise real closed fields as those for whom the Intermediate Value Theorem (IVT) holds for polynomials. Accepting this result (which does need proof), the FTA follows using pure algebra (although not of the high-school sort).
+All proofs of this fact (of which there are many) require something analytic, in the sense that ordinary algebra will not suffice: one needs to know that the real numbers (or the complex numbers) 'have no algebraic gaps'. For instance, the rational numbers famously don't contain the square root of $2$. The cleanest proof I know, due to Artin, that isolates this analytic germ, uses the step-ladder result that the real numbers form what is called a [[real closed field]]. This is essentially saying that non-negative real numbers have square roots, and odd degree polynomial functions have roots (anyone who has plotted a cubic can appreciate this fact). Alternatively, one can characterise real closed fields as those for whom the Intermediate Value Theorem (IVT) holds for polynomial functions. Accepting this result (which does need proof), the FTA follows using pure algebra (although not of the high-school sort).
 
-However, it is of interest, partly theoretical, partly for the sake of finding the bare minimum needed to prove the FTA, to know an elementary proof, namely one that minimises the use of analytic techniques (for instance, the IVT for polynomials follows from the IVT for continuous functions, but that is like killing a mosquito with a bazooka). Gauss' second proof ([Gauss 1866](#Gauss1866)) is elementary (and predates Artin's by a long time). Since Gauss lacked modern algebraic techniques, some of his proof is laborious, but ([Taylor 85](#Taylor85)) gives a modern gloss. (With some amusing side notes: as Taylor puts it -- 'Gauss takes the opportunity [to] be rude to his inferior contemporaries'.) Gauss' proof, in modern language, takes up less than a page and a half, but this presupposes familiarity with some of the theory of fields (but which is pure algebra). Artin's proof, by comparison, drawing on major theorems can be given in half a page.
+However, it is of interest, partly theoretical, partly for the sake of finding the bare minimum needed to prove the FTA, to know an elementary proof, namely one that minimises the use of analytic techniques (for instance, the IVT for polynomial functions follows from the IVT for continuous functions, but that is like killing a mosquito with a bazooka). Gauss' second proof ([Gauss 1866](#Gauss1866)) is elementary (and predates Artin's by a long time). Since Gauss lacked modern algebraic techniques, some of his proof is laborious, but ([Taylor 85](#Taylor85)) gives a modern gloss. (With some amusing side notes: as Taylor puts it -- 'Gauss takes the opportunity [to] be rude to his inferior contemporaries'.) Gauss' proof, in modern language, takes up less than a page and a half, but this presupposes familiarity with some of the theory of fields (but which is pure algebra). Artin's proof, by comparison, drawing on major theorems can be given in half a page.
 
 It should be noted, in the context of the last statement, that proofs of the FTA can be given, relying on analytic 'bazooka' theorems, that are one sentence. However, to spell out the proofs of the necessary theorems, one needs a course in analysis, of some variety, so one is merely sweeping a lot under a very small rug. 
 
