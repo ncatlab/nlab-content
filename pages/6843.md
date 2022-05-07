@@ -38,6 +38,10 @@ On [[torsion of a G-structure|torsion of G-structures]] for kinematical groups:
 
 * [[José Figueroa-O'Farrill]], _On the intrinsic torsion of spacetime structures_ ([arXiv:2009.01948](https://arxiv.org/abs/2009.01948))
 
+On [[supersymmetry]] and [[Spencer cohomology]] in [[D=5 supergravity|D=5]]:
+
+* Andrew Beckett, [[José Figueroa-O'Farrill]], *Killing superalgebras for lorentzian five-manifolds* ([arxiv:2105.05775](https://arxiv.org/abs/2105.05775))
+
 
 ## Related $n$Lab entries
 
