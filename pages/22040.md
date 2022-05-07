@@ -14,13 +14,14 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The [[Thom space]] of the [[universal complex line bundle]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the base space of the line bundle, hence to the [[classifying space]] for the [[circle group]], and this is equivalence is exhibited by the [[zero section]] of the universal line bundle, followed by its inclusion into its [[Thom space]] ([Adams 74, Part I, Example 2.1](#Adams74)).
+The [[Thom space]] of the [[universal complex line bundle]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to the base space of the line bundle, hence to the [[classifying space]] for the [[circle group]], and this is equivalence is exhibited by the [[zero section]] of the universal line bundle, followed by its inclusion into its [[Thom space]] ([Adams 74, Part I, Example 2.1](#Adams74), see Prop. \ref{TheStatement} below).
 
 This statement plays a key role in the discussion of [[complex oriented cohomology]], as it implies that any choice of [[universal characteristic class|universal]] first [[Conner-Floyd Chern class]] $c^E_1$ is equivalent to a choice of universal [[Thom class]] on the [[universal complex line bundle]], and hence induces a Thom class, hence a "fiberwise complex orientation" on any [[complex line bundle]]. (See at _[Conner-Floyd E-Chern classes are E-Thom classes](universal+complex+orientation+on+MU#ConnerFloydChernClassesAreThomClasses)_ for more on this.) 
 
@@ -189,7 +190,7 @@ the zero-section _into_ the Thom spaces.
 
 ## Statement
 
-\begin{prop}
+\begin{prop}\label{TheStatement}
   The zero-section (eq:ZeroSectionIntoTheThomSpace) into the [[Thom space]] of the universal $\mathbb{K}$-line bundle (eq:UniversalKLineBundle)
 
   $$
@@ -225,9 +226,12 @@ the zero-section _into_ the Thom spaces.
 \end{prop}
 
 \begin{proof}
-  The point is that for the universal _line_ bundle, the associated [[sphere bundle]] is [[homotopy equivalent]] to the [[universal principal bundle]] and hence [[contractible homotopy type|contractible]]:
+  The point is that for the universal _line_ bundle, the associated [[sphere bundle]] is [[homotopy equivalent]] to the [[universal principal bundle]] and hence [[contractible homotopy type|weakly contractible]]. 
 
-$$
+One way to see it is to unwind the definition of the unit sphere bundle in the universal line bundle as follows:
+
+\[
+  \label{SphereBundleOfUniversalLineBundleIsContractible}
   S_{B \big(S(\mathbb{K})\big)}
   \Big(
     E\big(S(\mathbb{K})\big)
@@ -245,9 +249,38 @@ I       \underset{S(\mathbb{K})}{\times}
     \;\simeq\;
   \ast
   \,.
+\]
+
+{#ViaContractibleInfiniteDimensionalSpheres} Another way to see the same is to observe that the sphere bundle associated to the universal line bundle is the [[sequential colimit]] over the [[tautological line bundle|tautological]] [[principal bundles]] over the finite-dimensional [[complex projective space]],  which themselves are [[n-spheres]] (see [there](tautological+line+bundle#eq:TautologicalPrincipalBundleOverProjectiveSpace)). With this, the statement (eq:SphereBundleOfUniversalLineBundleIsContractible) follows from the fact that [[the infinite-dimensional sphere is weakly contractible]] (see [there](infinite-dimensional+sphere#AsAnInfiniteSphericalCellComplex)):
+
+$$
+  S_{\mathbb{K}P^\infty}
+  \big(
+    \mathcal{L}^\ast_{\mathbb{K}P^\infty}
+  \big)
+  \;\simeq\;
+  \underset{ \underset{n}{\longrightarrow} }{\lim}
+  \;
+  \big(
+    S_{\mathbb{K}P^n}
+    \left(
+      \mathcal{L}^\ast_{\mathbb{K}P^n}
+    \right)
+  \big)
+  \;\simeq\;
+  \underset{ \underset{n}{\longrightarrow} }{\lim}
+  \;
+  \left(
+    S^{ (n+1) \cdot dim_{{}_{\mathbb{R}}}(\mathbb{K}) - 1 }
+  \right)
+  \;\simeq\;
+  S^\infty
+  \;\simeq\;
+  \ast
+  \,.
 $$
 
-This means that we have the following solid [[commuting diagram]], where the solid vertical morphisms are all [[weak homotopy equivalences]]:
+In any case, this means that we have the following solid [[commuting diagram]], where the solid vertical morphisms are all [[weak homotopy equivalences]]:
 
 \begin{xymatrix@R=25pt@C=50pt}
       && &&
@@ -325,9 +358,9 @@ This means that we have the following solid [[commuting diagram]], where the sol
       \Big)
 \end{xymatrix}
 
-(Here the left vertical map picks any point of the sphere bundle. There is then a unqique horizontal map on the left to make the left square [[commuting diagram|commute]].)
+(Here the left vertical map picks any point of the sphere bundle. There is then a unique horizontal map on the left to make the left square [[commuting diagram|commute]].)
 
-Now, since the [[classifying space]] $B(S(\mathbb{K}))$ does have the structure of a [[CW-complex]] (given, for instance, by its realization as infinite [[real projective space|real]]/[[complex projective space|complex]]/[[quaternionic projective space|quaternionic]] [[projective space]] $\mathbb{K}P^\infty$), the bottom [[cofiber]] here represents, as in (eq:ThomSpaceAsActualCofiber), the defining [[homotopy cofiber]]. 
+Now, since the [[classifying space]] $B(S(\mathbb{K}))$ does have the structure of a [[CW-complex]] (given, for instance, by its realization as infinite [[real projective space|real]]/[[complex projective space|complex]]/[[quaternionic projective space|quaternionic]] [[projective space]] $\mathbb{K}P^\infty$, via the [[cell structure of projective space]]), the bottom [[cofiber]] here represents, as in (eq:ThomSpaceAsActualCofiber), the defining [[homotopy cofiber]]. 
 
 Since [[homotopy cofibers]] are preserved, up to [[weak equivalence]], by weak equivalences of their diagrams (by [this Prop.](Introduction+to+Homotopy+Theory#FiberOfFibrationIsCompatibleWithWeakEquivalences)), it follows that the dashed vertical morphism is a weak equivalence in the [[classical model structure on topological spaces]], hence a [[weak homotopy equivalence]]. 
 
@@ -335,6 +368,8 @@ This is the statement that was to be shown. Or more explicitly: By [[two-out-of-
 \end{proof}
 
 ## Related statements
+
+* [[cell structure of projective space]]
 
 * [Conner-Floyd E-Chern classes are E-Thom classes](universal+complex+orientation+on+MU#ConnerFloydChernClassesAreThomClasses)
 
