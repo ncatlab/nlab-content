@@ -291,7 +291,7 @@ One can regard the projective and the injective model structure as two extrema o
 
 #References#
 
-See [[model structure on simplicial presheaves]].
+See *[[model structure on simplicial presheaves]]*.
 
 The local projective model structure on simplicial presheaves appears as theorem 1.6 in
 
@@ -308,6 +308,7 @@ That the local projective model structure (directly defined) is indeed the left 
 [[!redirects injective local model structure on simplicial presheaves]]
 [[!redirects injective local model structures on simplicial presheaves]]
 
-
 [[!redirects projective local model structure on simplicial presheaves]]
 [[!redirects projective local model structures on simplicial presheaves]]
+
+
