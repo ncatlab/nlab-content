@@ -2519,6 +2519,10 @@ The material discussed here corresponds to the most part to sections 3.5 and 3.1
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+Exposition:
+
+* {#Loregian19} [[Fosco Loregian]], *Cohesion in Rome*, talk notes, Dec. 2019  ([pdf](https://tetrapharmakon.github.io/stuff/cohesive_rome.pdf), [[LoregianCohesion.pdf:file]])
+
 
 For references on the general notion of _[[cohesive (∞,1)-topos]]_, see there.
 
