@@ -318,26 +318,28 @@ This way the above theorem provides a model for $G$-equivariant refinements of [
 ## Properties
  {#Properties}
 
+### Basic facts
 
-### Equivariant Hopf degree theorem
+* [[G-CW approximation]]
 
-* [equivariant Hopf degree theorem](Hopf+degree+theorem#InEquivariantHomotopyTheory)
+* [[eqivariant Whitehead theorem]]
 
-
-### $(\infty,1)$-topos
+### Elmendorf's theorem 
 
 By [[Elmendorf's theorem]] the $G$-[[equivariant homotopy theory]] is an [[(∞,1)-topos]].
 
 By ([Rezk 14](#Rezk14)) $G Top$ is also the [[base (∞,1)-topos]] of the [[cohesion]] of the [[global equivariant homotopy theory]] [[slice (∞,1)-topos|sliced]] over $\mathbf{B}G$.
 
+### Equivariant Hopf degree theorem
+
+See at _[equivariant Hopf degree theorem](Hopf+degree+theorem#InEquivariantHomotopyTheory)_.
+
+
+
 ### Stabilization
 
 The [[stabilization]] of the [[(∞,1)-topos]] $G Top \simeq PSh_\infty(Orb_G)$ is the [[equivariant stable homotopy theory]] of [[spectra with G-action]] ("[[naive G-spectra]]").
 
-### Relation to ∞-Actions (fine and coarse equivariance)
- {#RelationToInfinityActions}
-
-For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometrically discrete]]) the homotopy theory of [[G-spaces]] which enters [[Elmendorf's theorem]] is different (finer) than the standard homotopy theory of $G$-[[∞-actions]], which is presented by the [[Borel model structure]] (see there for more, and see ([Guillou](#Guillou))).
 
 ## Examples
 
