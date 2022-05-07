@@ -94,7 +94,7 @@ In the other direction, 'Quantum Bayesianism' or 'QBism' is used specifically to
 * {#CFS2001} Carlton Caves, [[Christopher Fuchs]], Ruediger Schack (2001). Unknown Quantum States: The Quantum de Finetti Representation. [arXiv](http://arxiv.org/abs/quant-ph/0104088).
   
 
-* {#Fuchs} [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [Web](http://www.perimeterinstitute.ca/personal/cfuchs/).
+* {#Fuchs} [[Christopher Fuchs]] (n.d.). Quantum Dreams Page. Collection of preprints, epistles, and lecture notes. [Web](http://www.physics.umb.edu/Research/QBism/chris.html).
 
 * [[Christopher Fuchs]], [[David Mermin]], Ruediger Schack, _An Introduction to QBism with an Application to the Locality of Quantum Mechanics_, Am. J. Phys., Vol. 82, No. 8, August 2014, 749-754 ([arXiv:1311.5253](https://arxiv.org/abs/1311.5253))
 
