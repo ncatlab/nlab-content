@@ -235,3 +235,5 @@ See also:
 [[!redirects Oka's principle]]
 
 [[!redirects Oka-Grauert principle]]
+
+[[!redirects homotopical Oka principle]]
