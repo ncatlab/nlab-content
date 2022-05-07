@@ -23,6 +23,10 @@ The _Kolmogorov complexity_ of a piece of data is a measure for the [[computabil
 
 ## References
 
-* Wikipedia, _[Kolmogorov complexity](en.wikipedia.org/wiki/Kolmogorov_complexity)_
+Named after [[Andrey Kolmogorov]].
+
+See also:
+
+* Wikipedia, _[Kolmogorov complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity)_
 
 [[!redirects Kolmogorov-Chaitin complexity]]
