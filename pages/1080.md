@@ -97,6 +97,8 @@ Here the distinction between upper and lower indices cannot be maintained, altho
 
 ## Related concepts
 
+* [[matrix analysis]]
+
 * [[integral transform]]
 
 ## References
