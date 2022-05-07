@@ -33,7 +33,7 @@ Another definition that is sometimes used is the following.
 ###### Definition
 If $\mathcal{C}$ has a [[terminal object]], then $c:B\to C$ is __constant__ iff it factors through this terminal object.
 
-If $\mathcal{C}$ does not have a terminal object, then we can reformulate this by saying that the image of $c$ under the [[Yoneda embedding]], $(c\circ -) : :\mathcal{C}(-,B)\to \mathcal{C}(-,C)$, factors through the [[terminal presheaf]].  In elementary terms, this means that we can choose for each object $X$ a morphism $f_X:X\to C$ such that (1) $f_B=c$ and (2) the $f_X$ are natural in $X$, i.e. for any $g:Y\to X$ we have $f_X g = f_Y$.
+If $\mathcal{C}$ does not have a terminal object, then we can reformulate this by saying that the image of $c$ under the [[Yoneda embedding]], $(c\circ -) \colon \mathcal{C}(-,B)\to \mathcal{C}(-,C)$, factors through the [[terminal object|terminal]] [[presheaf]].  In elementary terms, this means that we can choose for each object $X$ a morphism $f_X:X\to C$ such that (1) $f_B=c$ and (2) the $f_X$ are natural in $X$, i.e. for any $g:Y\to X$ we have $f_X g = f_Y$.
 =--
 
 This second definition implies the first, but they are not equivalent in general.  In the [[category of sets]], the first implies the second if the set $B$ is [[inhabited set|inhabited]], or if the set $B$ is [[empty set]] and the set $C$ is inhabited.  (By [[excluded middle]], $B$ is either inhabited or empty, so it suffices to assume that $C$ is inhabited with no assumption about $B$.)
