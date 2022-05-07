@@ -100,6 +100,10 @@ on [[geometry]] and [[topology]] in [[mathematical physics]], such as in [[fiber
 
 * [[characteristic classes]]
 
+* [[Chern class]]
+
+* [[Pontrjagin class]]
+
 ## Index Theorems
 
 * [[index theory]]
