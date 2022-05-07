@@ -100,6 +100,9 @@ See also:
 * Wikipedia, _[Degree of a continuous mapping](http://en.wikipedia.org/wiki/Degree_of_a_continuous_mapping)_
 
 
+[[!redirects degree of a map]]
 [[!redirects degree of a continuous map]]
 [[!redirects degree of a continuous mapping]]
+
+
 
