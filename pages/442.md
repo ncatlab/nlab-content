@@ -21,9 +21,9 @@ In his [[Functorial Semantics of Algebraic Theories|1963 doctoral dissertation]]
 
 
 ## Definition
-
+There are two related definitions of Lawvere theory in the literature. Both definitions are widely used and both have a substantial history. 
 +-- {: .un_defn}
-###### Definition
+###### Definition A
 
 A **Lawvere [[theory]]** or **finite-product theory** is (equivalently encoded by its [[syntactic category]] which is) a [[category]] $T$ with finite [[products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n = x \times x \times \cdots \times x$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). 
 
@@ -31,8 +31,18 @@ A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[funct
 
 =--
 
++-- {: .un_defn}
+###### Definition B
+
+Let $\mathbb{F}$ be the category of natural numbers and functions between them (a [[skeleton]] of the [[FinSet|category of finite sets]]). This category has canonical chosen [[coproducts]]. 
+
+A **Lawvere [[theory]]** is a [[category]] $T$ with equipped with an [[identity-on-objects functor|identity-on-objects]] strictly [[power]]-preserving functor $J:\mathbb{F}^{\mathrm{op}} \to T$. (Power preservation is here equivalent to product preservation.)
+=--
+
 +-- {: .un_remark}
 ###### Remark
+
+Clearly, if $T$ is part of a structure in the form of Definition B, then $T$ is of the form in Definition A, taking $x=J(1)$. See further remarks below. 
 
 For $T$ a Lawvere theory, we are to think of the [[hom-set]] $T(n,1) := T(x^n, x)$ as the set of $n$-ary operations definable in the theory. For instance for $T$ the theory of [[abelian group]]s, $T(2,1)$ includes operations like $+ \colon (x, y) \mapsto x + y$, $- \colon (x, y) \mapsto x-y$, and $(x, y) \mapsto 2 x - 3 y$. For $0$-ary or nullary operations, we have $T(0,1) = \{0\}$. 
 
@@ -63,12 +73,14 @@ $$
 
 such that these operations are all compatible with each other in the way governed by the composition rules of morphisms in $T$.
 
+When working with Definition B of Lawvere theory, it would be normal to require that $A$ _strictly_ preserves products.
 =--
 
 
 ### Remarks
 
-1. It is common to adopt the ([[principle of equivalence]] violating) convention that every object of $T$ is _equal_ to a chosen power of $x$. Thus, if $Fin$ is the category of finite cardinals and functions between them, then the unique (up to isomorphism) product-preserving functor $Fin^{op} \to T$  that takes the 1-element cardinal to $x$ is commonly supposed to be surjective on objects (rather than, in better accord with equivalence, [[essentially surjective functor|essentially surjective]]), or even an isomorphism on objects so that each morphism $x^n \to x$ has a well-defined [[signature (in logic)|arity]] $n$. 
+1. From some perspectives, Definition B violates the [[principle of equivalence]], although from another perspective it should be regarded as a basic structural definition that is equivalent in content to an [[clone|abstract clone]], or equivalently a [[relative monad]] over $\mathbb{F}$. 
+On the other hand, given a structure of the form Definition A, we may choose a power of $x$ for each natural number, and thus derive an [[essentially surjective functor|essentially surjective]] product-preserving functor $\mathbb{F}^{op} \to T$, and then we can always factor this as an identity-on-objects functor to reach Definition B. 
 
 1. Some people use 'finite-product theory' to mean any (small) category with [[finite products]], reserving 'Lawvere theory' to refer to finite product theories with the property that every object is isomorphic to a product of finitely many copies of a given object $x$. Finite-product theories $C$ can be regarded as a special case of [multisorted Lawvere theories](https://ncatlab.org/toddtrimble/published/multisorted+Lawvere+theories) (see below) where the set of sorts is $Ob(C)$ itself. Some, but not all, the above discussion generalizes to this case. 
 
