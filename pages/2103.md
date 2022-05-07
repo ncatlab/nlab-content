@@ -3,10 +3,11 @@ Michael Barr is the Peter Redpath Emeritus Professor of Pure Mathematics at McGi
 
 He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal Homology, Homotopy and Applications, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student Jon Beck, involving [[monads]], especially monadicity criteria and [[monadic cohomology]].
 
-Michael Barr has a [web page](https://www.math.mcgill.ca/barr/) containing PDFs of his papers.
 
 
 ## Selected writings
+
+* personal list of publications: [web page](https://www.math.mcgill.ca/barr/)
 
 Barr is well known to theoretical [[computer science|computer scientists]] for his book
 
