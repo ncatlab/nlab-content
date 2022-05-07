@@ -615,7 +615,7 @@ Discussion with an eye towards [[complex-oriented cohomology theory]]:
 
 Lecture notes with an eye towards [[topological K-theory]]:
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], section 2 of _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]], section 2 of _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
 
 See also:
