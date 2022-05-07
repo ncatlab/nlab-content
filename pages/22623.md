@@ -233,7 +233,7 @@ $$
 
 ### Measuring of dimension of irreps of $GL(n, \mathbb{C})$
 
-The [[dimension]] of the [[irrep]] $V^{(\lambda)}$ of the [[general linear grouo]] $GL(n, \mathbb{C})$ that is labelled by a given [[Young diagram]] $\lambda$ (see at [[representation theory of the general linear group]]), is also given by the hook-content formula (eq:TheHookLengthFormulaForSemistandardYoungTableaux):
+The [[dimension]] of the [[irrep]] $V^{(\lambda)}$ of the [[general linear group]] $GL(n, \mathbb{C})$ that is labelled by a given [[Young diagram]] $\lambda$ (see at [[representation theory of the general linear group]]), is also given by the hook-content formula (eq:TheHookLengthFormulaForSemistandardYoungTableaux):
 
 $$
   dim\big(V^{(\lambda)}\big)
