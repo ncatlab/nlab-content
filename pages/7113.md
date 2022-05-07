@@ -39,7 +39,7 @@ $$C^0(F) \coloneqq \{f \in F \to F \vert isPointwiseContinuous(f)\}$$
 
 Let $F$ be an Archimedean field. A function $f:F \to F$ is __differentiable at a point__ $c \in F$ if 
 
-$$isDifferentiableAt(f, c) \coloneqq \exists L \in F. \forall \epsilon \in (0, \infty). \forall x \in F. \exists \delta \in (0, \infty). \forall h \in (-\delta, 0) \cup (0, \delta). \left| \frac{f(c + h) - f(c)}{h} - L \right| \lt \epsilon$$
+$$isDifferentiableAt(f, c) \coloneqq isContinuousAt(f, c) \times \exists L \in F. \forall \epsilon \in (0, \infty). \forall x \in F. \exists \delta \in (0, \infty). \forall h \in (-\delta, 0) \cup (0, \delta). \left| \frac{f(c + h) - f(c)}{h} - L \right| \lt \epsilon$$
 
 $f$ is __pointwise differentiable__ in $F$ if it is differentiable at all points $c$:
 $$isPointwiseDifferentiable(f) \coloneqq \forall c \in F. isDifferentiableAt(f, c)$$
