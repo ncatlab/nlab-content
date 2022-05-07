@@ -14,7 +14,9 @@ On [[instantons in QCD]]:
 
 On [[quantum hadrodynamics]] via [[light-front QCD]]:
 
-* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front I.\ Instanton effects and quark-antiquark effective potentials* ([arXiv:2110.15927](https://arxiv.org/abs/2110.15927))
+* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front I: Instanton effects and quark-antiquark effective potentials* ([arXiv:2110.15927](https://arxiv.org/abs/2110.15927))
+
+* [[Edward Shuryak]], [[Ismail Zahed]], *Hadronic structure on the light-front II: QCD strings, Wilson lines and potentials* ([arXiv:2111.01775](https://arxiv.org/abs/2111.01775))
 
 
 
