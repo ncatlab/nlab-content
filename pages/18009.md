@@ -93,6 +93,10 @@ See at _[[Sullivan model for free loop space]]_
 
 * [[double dimensional reduction]]
 
+* [[cyclic loop stack]]
+
+* [[free loop space]], [[free loop stack]]
+
 ## References
 
 The notion of the cyclic loop space of a topological space appears as:
