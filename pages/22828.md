@@ -7,9 +7,9 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
-#### Higher Lie theory
+#### Mapping space
 +--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include mapping space - contents]]
 =--
 =--
 =--
