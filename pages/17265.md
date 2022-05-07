@@ -2215,7 +2215,10 @@ for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ o
 
 $$
   Top_{cg}
-    \stackrel{\overset{X \times (-)}{\longleftarrow}}{\underset{(-)^X}{\longrightarrow}}
+  \underoverset
+    {\underset{(-)^X}{\longrightarrow}}
+    {\overset{X \times (-)}{\longleftarrow}}
+    {\;\;\;\; \bot \;\;\;\;}
   Top_{cg}
   \,.
 $$
@@ -2304,6 +2307,7 @@ By example \ref{CWComplexIsCompactlyGenerated}, example \ref{ProductOfCWWithLoca
 
 +-- {: .num_theorem #ModelStructureOnTopcg} 
 ###### Theorem
+**([[model structure on compactly generated topological spaces]])**
 
 The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a [[model category]] structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}). The [[k-ification]] coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
 
@@ -2399,7 +2403,7 @@ One may in addition demand all compactly generated spaces to be [[Hausdorff topo
 
 A morre popular choice introduced in ([McCord 69](weakly+Hausdorff+topological+space#McCord69)) is _weak Hausdorffness_, i.e. to add the further restriction to topopological spaces which are not only compactly generated but also [[weakly Hausdorff topological space|weakly Hausdorff]]. This was motivated from ([Steenrod 67](compactly+generated+topological+space#Steenrod67)) where compactly generated Hausdorff spaces were used by the observation ([McCord 69, section 2](weakly+Hausdorff+topological+space#McCord69)) that Hausdorffness is not preserved my many colimit operations, notably not by forming [[quotient spaces]]. 
 
-On the other hand, in above we wouldn't have imposed Hausdorffness in the first place. Possibly more intrinsic advantages of $Top_{cgwH}$ over $Top_{cg}$ are the following:
+On the other hand, in the above we wouldn't have imposed Hausdorffness in the first place. Possibly more intrinsic advantages of $Top_{cgwH}$ over $Top_{cg}$ are the following:
 
 * every [[pushout]] of a morphism in $Top_{cgwH} \hookrightarrow Top$ along a [[closed subspace]] inclusion in $Top$ is again in $Top_{cgwH}$ ([MO comment by Peter May](http://mathoverflow.net/a/204221/381))
 
@@ -3530,7 +3534,7 @@ An expository, concise and comprehensive writeup of the proof of the model categ
 
 Useful discussion of the issue of [[compactly generated topological spaces]] in the context of homotopy theory is in 
 
-* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
+* {#Lewis78} [[L. Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
