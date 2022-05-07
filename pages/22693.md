@@ -22,9 +22,9 @@
 
 ## Definitions
 
-A __left associative [[quasigroup]]__ is a [[semigroup]] $(G, \cdot)$ equipped with a __left division__ $(-)\backslash(-):G \times G \to G$  such that $x \cdot (x \backslash y) = y$ and $x \backslash (x \cdot y) = y$. A __right associative [[quasigroup]]__ is a [[semigroup]] $(G, (-)\cdot(-):G \times G \to G)$ equipped with a __right division__ $(-)/(-):G \times G \to G$ such that $(x / y) \cdot y = x$ and $(x \cdot y) / y = x$. A __two-sided associative [[quasigroup]]__ or just an __associative quasigroup__ is a semigroup that is both a left associative quasigroup and a right associative quasigroup. 
+A __(left/right/two-sided) [[associative]] [[quasigroup]]__ is a (left/right/two-sided) [[quasigroup]] $(G, \cdot,\backslash,/)$ where $a \cdot (b \cdot c) = (a \cdot b) \cdot c$ for all $a$, $b$, and $c$ in $G$. 
 
-In every associative quasigroup $G$, $a/a = b\backslash b$ for every $a$ and $b$ in $G$. This is because for every $a$ and $b$ in $G$, $b \cdot a = b \cdot (a/a) \cdot a = b \cdot (b\backslash b) \cdot a$. Left dividing both sides by $b$ and right dividing both sides by $a$ results in $a/a = b\backslash b$. This means in particular that $a/a = a\backslash a$, which means that every associative quasigroup is a [[possibly empty loop]]. Thus, an associative quasigroup is a associative possibly empty loop, or a possibly empty group. In particular, there is an additional definition of an associative quasigroup in terms of the left and right divisions alone, without any semigroup operation at all: 
+In every associative quasigroup $G$, $a/a = b\backslash b$ for every $a$ and $b$ in $G$. This is because for every $a$ and $b$ in $G$, $b \cdot a = b \cdot (a/a) \cdot a = b \cdot (b\backslash b) \cdot a$. Left dividing both sides by $b$ and right dividing both sides by $a$ results in $a/a = b\backslash b$. This means in particular that $a/a = a\backslash a$, which means that every associative quasigroup is a [[possibly empty loop]]. Thus, an associative quasigroup is a associative possibly empty loop, or a __possibly empty group__. In particular, there is an additional definition of an associative quasigroup in terms of the left and right divisions alone, without any semigroup operation at all: 
 
 A __left associative quasigroup__ is a [[set]] $G$ with a binary operation $(-)\backslash(-):G \times G \to G$ (a [[magma]]) such that:
 
@@ -54,7 +54,7 @@ This definition [first appeared on the heap article](https://ncatlab.org/nlab/re
 
 ## Pseudo-torsors
 
-Every left associative quasigroup $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = x \cdot (y \backslash z)$. Every right associative quasigroup $H$ has a [[pseudo-torsor]] $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x / y) \cdot z$. This means every associative quasigroup has two pseudo-torsors. If the (left or right) associative quasigroup is inhabited, then those pseudo-torsors are actually [[torsors]]. 
+Every left associative quasigroup $G$ has a [[pseudo-torsor]] $t_G:G^3 \to G$ defined as $t_G(x,y,z) = x \cdot (y \backslash z)$. Every right associative quasigroup $H$ has a [[pseudo-torsor]] $t_H:H^3 \to H$ defined as $t_H(x,y,z) = (x / y) \cdot z$. This means every associative quasigroup has two pseudo-torsors. If the (left or right) associative quasigroup is inhabited, then those pseudo-torsors are actually [[torsors]] or [[heaps]]. 
 
 ## Category of associative quasigroups
 
@@ -106,10 +106,18 @@ Every associative quasigroup $G$ and associative subquasigroup $H \hookrightarro
 
 ## Related concepts
 
+* [[quasigroup]]
+
 * [[commutative quasigroup]]
 
-* [[inverse semigroup]]
+* [[loop (algebra)|loop]]
+
+* [[group]]
 
 [[!include oidification - table]]
+
+## References
+
+* [The Group With No Elements](https://golem.ph.utexas.edu/category/2020/08/the_group_with_no_elements.html#c059798) at the [n-category café](https://golem.ph.utexas.edu/category/)
 
 [[!redirects possibly empty group]]
