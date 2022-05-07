@@ -201,7 +201,7 @@ $$
   \,.
 $$
 
-Hence $(y,const_X)((c,f \in X(c), (d, g \in X(d))) \simeq pt$ says precisely that $X(-)(f) \colon C(c,d) \to X(c)$ is a bijection.
+Hence $(y,const_X)((c,f \in X(c)), (d, g \in X(d))) \simeq pt$ says precisely that $X(-)(f) \colon C(c,d) \to X(c)$ is a bijection.
 
 ### Interpretation
 
