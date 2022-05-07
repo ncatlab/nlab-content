@@ -15,11 +15,13 @@
 
 ## Idea
 
-Any [[mathematical structure]] whose traditional [[Bourbaki]]-style definition is formulated within [[set theory]] can be formulated *internally* to any [[category]] that admits all those types of operations (typically: [[universal constructions]]) on its [[objects]] that the traditional definition applies to [[sets]], hence to the [[objects]] of the [[base topos|base]] category of [[Sets]].
+Any [[mathematical structure]] whose traditional [[Bourbaki]]-style definition is formulated within [[set theory]] can be formulated *internally* ([Grothendieck 1960](#Grothendieck60), [61](#Grothendieck61)) to any [[category]] that admits all those types of operations (typically: [[universal constructions]]) on its [[objects]] that the traditional definition applies to [[sets]], hence to the [[objects]] of the [[base topos|base]] category of [[Sets]].
 
-There is a [[diagram|diagrammatic]] and a [[syntax|syntactic]] way of making this precise, the former is essentially the topic of [[categorical algebra]] (in terms of [[Lawvere theories]] or [[sketches]] or the like), the latter of [[categorical semantics]] (of [[type theories]]).
+This *internalization* serves to combine mathematical structures in a compatible way. For example a [[group object]] internal to the [[category]] [[Top]] of [[topological spaces]] is a [[topological group]] (while internal to [[Sets]] it is just a [[discrete group]]).
 
-An archetypical example of internalization is the notion of *[[internal groups]]*, which easily serves to illustrate the general idea:
+There is a [[diagram|diagrammatic]] and a [[syntax|syntactic]] way of systematizing the process of internalization: The former is essentially the topic of [[categorical algebra]], in terms of [[Lawvere theories]] ([Lawvere 1963](#Lawvere63)) or, more generally, of [[sketches]] ([Bastiani & Ehresmann 1972](#BastianiEhresmann72)), the latter of [[categorical semantics]] of [[type theories]].
+
+An archetypical example of internalization is the notion of *[[internal groups]]* (e.g. [Eckmann & Hilton 1961](#EckmannHilton61)), which easily serves to illustrate the general idea:
 
 Where the [[Bourbaki]]-style definition of a [[group]] is, of course: 
 
@@ -298,18 +300,24 @@ Discussion of [[internal categories]] is often attributed to originate around (t
 * [[Charles Ehresmann]], _Catégories structurées_, Annales scientifiques de l'École Normale Supérieure, Série 3, Tome 80 (1963) no. 4, pp. 349-426 ([numdam:ASENS_1963_3_80_4_349_0](http://www.numdam.org/item/ASENS_1963_3_80_4_349_0))
 
 
-Basics of modern internal category theory ([[internal categories]], [[internal functors]], [[internal limits]], [[internal sites]]) is discussed (without any attribution as to its origins) in:
+Review of internal category theory ([[internal categories]], [[internal functors]], [[internal limits]], [[internal sites]]), typically without attribution of its origins:
 
 * [MacLane-Moerdijk 92, Sec. V.7](#MacLaneMoerdijk92)
 
 * [[Francis Borceux]], Chapter 8 in Vol 1 _Basic Category Theory_ of: _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)  ([doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858))
 
+* [[John Michael Boardman]], *Algebraic objects in categories*, Chapter 7 of: _Stable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman/stabop.pdf)) in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+
 * [[Peter Johnstone]], Chapter B2 in: Vol. 1 of: _[[Sketches of an Elephant -- A Topos Theory Compendium]]_, Oxford University Press (2002)([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
 
+More general internal internal algebraic structures, known as [[algebra over a Lawvere theory|algebras]] over [[Lawvere theories]] originate with:
 
-More general internalization via [[sketches]]:
+* {#Lawvere63} [[William Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis Columbia University (1963).  Published with an author's comment and a supplement in: Reprints in Theory and Applications of Categories **5** (2004) pp 1--121. ([tac:tr5](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
-* [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
+
+Yet more general internal structures via [[sketches]]:
+
+* {#BastianiEhresmann72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
 * [[Michael Barr]], [[Charles Wells]], Section 4 of: _[[Toposes, Triples, and Theories]]_, Originally published by: Springer-Verlag, New York, 1985, republished in: Reprints in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
 
