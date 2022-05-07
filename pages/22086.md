@@ -11,7 +11,7 @@ Discussion of [[D=2 conformal field theory]] as a [[functorial field theory]], n
 
 * [[Graeme Segal]], _The definition of conformal field theory_, preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]) 
 
-See also
+See also:
 
 * {#MooreSegal06} [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv:hep-th/0609042](http://arxiv.org/abs/hep-th/0609042))
 
@@ -19,9 +19,15 @@ See also
 * [[Richard Blute]], [[Prakash Panangaden]], [[Dorette Pronk]], _Conformal field theory as a nuclear functor_, Electronic Notes in Theoretical Computer Science Volume 172, 1 April 2007, Pages 101-132 GDP Festschrift ([pdf](http://aix1.uottawa.ca/~rblute/conf.pdf), [doi:10.1016/j.entcs.2007.02.005](https://doi.org/10.1016/j.entcs.2007.02.005))
 
 
-Tentative suggestions for how to refine this to an [[extended TQFT|extended]] [[2-functor|2-functorial]] construction:
+
+
+
+
+Suggestions for how to refine this to an [[extended TQFT|extended]] [[2-functor|2-functorial]] construction:
 
 * [[Stefan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
+
+* [[André Henriques]], *The complex cobordism 2-category*, 2021 ([video](http://andreghenriques.com/ComplexCob2CatandCentralExt.mp4))
 
 A step towards generalization to [[2d super-conformal field theory]]:
 
