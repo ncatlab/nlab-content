@@ -29,8 +29,9 @@ If $X = Y//G$ is the [[homotopy quotient]] of a [[topological space]] by a [[top
 ## Properties
 
 ### As right base change along $\ast \to \mathbf{B} S^1$
+ {#AsRightBaseChange}
 
-The cyclic loop space $\mathcal{L}X  \sslash S^1$ is equivalently the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to B S^1$ ([this prop.](base+change#CyclicLoopSpace)) into the [[delooping]] of $S^1$ (the [[classifying space]] of the [[circle group]] when realized in the [[classical model structure of topological spaces|homotopy theory of]] [[topological spaces]]). See also at _[[double dimensional reduction]]_.
+The cyclic loop space $\mathcal{L}X  \sslash S^1$ is equivalently the right [[base change]]/[[dependent product]] along the canonical point inclusion $\ast \to B S^1$ ([this prop.](base+change#CyclicLoopSpace)) into the [[delooping]] of $S^1$ (the [[classifying space]] of the [[circle group]] when realized in the [[classical model structure on topological spaces|homotopy theory of]] [[topological spaces]]). See also at _[[double dimensional reduction]]_ ([BMSS 19, Sec. 2.2](#BMSS19), following [FSS 18, Sec. 3](#FSS18)).
 
 ### Ordinary cohomology of $\mathcal{L}X \sslash S^1$ on cyclic cohomology of $X$
 
@@ -119,11 +120,11 @@ and recalled/expanded on in several followup articles, such as in
 
 The above formulation of cyclic loop spaces, in the generality of [[∞-stacks]], as right [[base change]] to the [[delooping]] of the [[circle group]], and its relation to [[double dimensional reduction]] in [[brane]]-physics, is due to:
 
-* [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]]: Section 2.2 of _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics, **371 ** 197 (2019) ([doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4), [arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
+* {#BMSS19} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]]: Section 2.2 of _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics, **371** 197 (2019) ([doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4), [arXiv:1806.01115](https://arxiv.org/abs/1806.01115))
 
 following the analogous discussion in [[rational homotopy theory]] in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes|T-Duality from super Lie $n$-algebra cocycles for super $p$-branes]]*, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/), [doi:10.4310/ATMP.2018.v22.n5.a3](http://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3), [arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+* {#FSS18} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 3 of: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes|T-Duality from super Lie $n$-algebra cocycles for super $p$-branes]]*, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/), [doi:10.4310/ATMP.2018.v22.n5.a3](http://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3), [arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
 with exposition in
 
