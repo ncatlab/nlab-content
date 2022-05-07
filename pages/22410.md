@@ -61,6 +61,8 @@ Examples of references using this terminology: [StacksProject](#StacksProject), 
 
 * [empty heap](heap#empty)
 
+* [[possibly empty group]]
+
 ## References
 
 The term seems to be due to:
