@@ -8,9 +8,8 @@
 =--
 =--
 
-
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea and definition##
@@ -177,11 +176,15 @@ The basic technique is to use [[subdivision]].
 
 ## References
 
-A standard textbook reference is
+Textbook account:
 
-* Edwin Spanier, _Algebraic Topology_ , McGraw-Hill, 1966. 
+* {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, Springer 1966 ([doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1))
 
-That simplicial complexes form a [[quasitopos]] of [[concrete sheaves]] is discussed in 
+Exposition:
+
+* {#Erleben2010} Kenny Erleben, *Simplicial complexes*, 2010 ([[Erleben_SimplicialComplexes.pdf:file]])
+
+On simplicial complexes forming a [[quasitopos]] of [[concrete sheaves]]:
 
 * [[John Baez]] and [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_, Trans. Amer. Math. Soc. 363 (2011), 5789&#8211;5825. [(arXiv)](http://arxiv.org/abs/0807.1704)
 
