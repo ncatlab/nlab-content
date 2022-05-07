@@ -603,10 +603,14 @@ Volume 68, January 2013, Pages 55-112 Progress in Particle and Nuclear Physics (
 
 * Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons* ([arXiv:2106.13136](https://arxiv.org/abs/2106.13136))
 
-
 See also
 
 * Wikipedia, _[AdS/QCD correspondence](https://en.wikipedia.org/wiki/AdS/QCD_correspondence)_ 
+
+* {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
+
+* {#Dubovsky21} [[Sergei Dubovsky]], *Comments on (mostly long) QCD strings*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/Sergei.pdf), [video](https://youtu.be/B9NI2LE7d68?t=1183))
+
 
 #### Top-down models 
 
