@@ -88,7 +88,7 @@ Moreover, there can also not be an [[(∞,1)-functor]] $Ab\rightarrow L_{whe} To
 
 There is also a cohomology analogue known as a **co-Moore space** or a **Peterson space**, but this is not defined for all abelian $G$. [[sphere|Spheres]] are both Moore and co-Moore spaces for $G = \mathbb{Z}$.
 
-Co-Moore spaces are the [[Eckmann-Hilton duality|Eckmann?Hilton duals]] of [[Eilenberg?Mac Lane spaces]]. 
+Co-Moore spaces are the [[Eckmann-Hilton duality|Eckmann–Hilton duals]] of [[Eilenberg–Mac Lane spaces]]. 
 
 According to Baues, Moore spaces are $H \pi$-duals to Eilenberg--Mac Lane spaces. This leads to an extensive duality for connected [[CW complexes]].
 
