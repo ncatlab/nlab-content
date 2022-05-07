@@ -88,6 +88,12 @@ J. Differential Geom. Volume 70, Number 3 (2005), 329-452 ([arXiv:math.AT/021121
 
 * Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
 
+With an eye towards applications in [[mathematical physics]]:
+
+* [[Mikio Nakahara]], Chapter 11.1 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 4 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+
 
 See also in:
 
