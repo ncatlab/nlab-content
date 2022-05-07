@@ -1,4 +1,7 @@
-
+| [[homotopy level]] | [[n-truncated object in an (infinity,1)-category|n-truncation]]  |  [[homotopy theory]] | [[higher category theory]] |
+|----------------|----------|--------|---------------|
+| test | test | test | test |
+| test | test | test | test |
 
 $$
   \begin{aligned}
