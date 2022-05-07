@@ -163,11 +163,29 @@ Every [[homotopy equivalence]] is a weak homotopy equivalence.
 +-- {: .proof}
 ###### Proof
 
-It requires a little bit of thought to prove this, because $f$ and its homotopy inverse $g$ need not preserve any chosen basepoint.  But for any $x\in X$ and any $n\ge 1$, we have a diagram
-$$\array{\pi_n(X,x) & & \to & & \pi_n(X,g(f(x)))\\
-  & \searrow && \nearrow && \searrow\\
-  && \pi_n(Y,f(x)) && \to && \pi_n(Y,f(g(f(x))))}$$
-in which the two horizontal maps are isomorphisms because $g f$ and $f g$ are [[homotopy|homotopic]] to identities.  Hence, by the [[two-out-of-six property]] for isomorphisms, the diagonal maps are also all isomorphisms.
+It requires a little bit of thought to prove this, because $f$ and its homotopy inverse $g$ need not preserve any chosen basepoint.  But for any $x\in X$ and any $n\ge 1$, we have a [[commuting diagram]]
+$$
+\array{
+  \pi_n(X,x) & & \to & & \pi_n(X,g(f(x)))
+  \\
+  & 
+  \searrow 
+  && 
+  \nearrow 
+  && 
+  \searrow
+  \\
+  && 
+  \pi_n(Y,f(x)) 
+  && 
+  \longrightarrow 
+  && 
+  \pi_n\big(
+    Y,f(g(f(x)))
+  \big)
+  }
+$$
+in which the two horizontal morphisms are [[isomorphisms]], because $g f$ and $f g$ are [[homotopy|homotopic]] to [[identity morphism|identities]].  Hence, by the [[two-out-of-six property]] for isomorphisms, the diagonal morphhisms are also all isomorphisms.
 
 =--
 
@@ -231,6 +249,108 @@ However, if, roughly, one remembers,  how all the homotopy groups [[nLab:action|
 
 =--
 
+### Relation to free homotopy sets
+ {#RelationToFreeHomotopySets}
+
+For $K, X \,\in\, TopSp$, write $Map(K, X)$ for their [[mapping space]], i.e. not considering or respecting any [[basepoint]]. For example,  $Map(S^1, Y)$ is the [[free loop space]] of $Y$, in contrast to the [[based loop space]] 
+
+$$
+  \Omega_x X 
+    \xhookrightarrow{\; fib_x(ev_\ast) \;} 
+  Map(S^1, X) 
+    \overset{\; ev_x \;}{\twoheadrightarrow}
+  X
+$$
+
+for any base point $x \,\in\, X$.
+
+Moreover, when $K$ is a [[CW complex]], write
+
+\[
+  \label{FreeHomotopySets}
+  {[K,X]} \,\coloneqq\, \tau_0 \,Map(K,X)\,
+\]
+
+for the *free homotopy set* of maps from $K$ to $X$, hence the set of [[homotopy classes]] of map $K \to X$, hence the set of [[connected components]] of the mapping space.
+
+
+\begin{proposition}
+**(weak homotopy equivalences detected on free homotopy sets)**
+\label{WeakHomotopyEquivalencesDetectedOnTermsOfFreeHomotopySet}
+\linebreak
+  For $f \,\colon\, X \to Y$, a [[continuous function]], the following are equivalent:
+
+1. $f$ is a [[weak homotopy equivalence]]
+  
+   $$
+     \underset{n \in \mathbb{N}}{\forall}
+     \;
+     \underset{x \in X}{\forall}
+     \;
+     \;\;
+     p_n(X,x)
+     \underoverset
+       {\simeq}
+       {f_\ast}
+       {\longrightarrow}
+     \pi_n\big(Y,f(y)\big)
+     \,;
+   $$
+
+1. $f$ induces an [[isomorphism]] on all free homotopy sets (eq:FreeHomotopySets) out of [[CW-complexes]]:
+
+
+   $$
+     \underset{ K \in CWCplx}{\forall}
+     \;\;
+     [K, X]
+     \underoverset
+       {\simeq}
+       {f_\ast}
+       {\longrightarrow}
+     [K, Y]
+     \,;
+   $$
+
+
+* $f$ induces an [[isomorphism]] on all free homotopy sets (eq:FreeHomotopySets) out of $K = $
+
+   1. the [[point space]],
+
+   1. any [[n-sphere]] of [[positive number|positive]] [[dimension]],
+
+   1. the [[wedge sum]] of [[circles]] with [[index set]] of [[cardinality]] that of the [[fundamental group]] of $Y$:
+
+   $$
+     \underset{ 
+       K \,\in\,
+         \big\{
+           \ast, 
+           \,
+           S^{n \geq 1}, 
+           \,
+           \underset{ \pi_1(Y) }{\vee} S^1
+         \big\}
+     }{\forall}
+     \;\;
+     [K, X]
+     \underoverset
+       {\simeq}
+       {f_\ast}
+       {\longrightarrow}
+     [K, Y]
+     \,.
+   $$
+
+\end{proposition}
+([Matumoto, Minami and Sugawara 1984, Thm. 2](#MatumotoMinamiSugawara84))
+\begin{proof}
+  The implication $(1) \Rightarrow (2)$ is a standard/classical conclusion in homotopy theory, for example it is a small special case of the fact that  $Map(K,-)$ out of any cell complex $K$ preserves weak homotopy equivalences ([this Prop.](classical+model+structure+on+topological+spaces#HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen)).
+
+The implication $(2) \Rightarrow (3)$ is trivial, as the conditions in (3) are just a special case of the condition in (2).
+
+So the point of the statement is that (3) is already sufficient to recover (1). This is the content of [Matumoto, Minami and Sugawara 1984, Thm. 1 & Lem. 1.3](#MatumotoMinamiSugawara84).
+\end{proof}
 
 
 ## For other kinds of spaces
@@ -325,7 +445,7 @@ See also:
 
 Detection in terms of free homotopy sets:
 
-* [[Takao Matumoto]], [[Norihiko Minami]], [[Masahiro Sugawara]], *On the set of free homotopy classes and Brown's construction*, Hiroshima Math. J. 14(2): 359-369 (1984) ([doi:10.32917/hmj/1206133043](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-14/issue-2/On-the-set-of-free-homotopy-classes-and-Browns-construction/10.32917/hmj/1206133043.full))
+* {#MatumotoMinamiSugawara84} [[Takao Matumoto]], [[Norihiko Minami]], [[Masahiro Sugawara]], *On the set of free homotopy classes and Brown's construction*, Hiroshima Math. J. 14(2): 359-369 (1984) ([doi:10.32917/hmj/1206133043](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-14/issue-2/On-the-set-of-free-homotopy-classes-and-Browns-construction/10.32917/hmj/1206133043.full))
 
 
 [[!redirects weak homotopy equivalences]]
