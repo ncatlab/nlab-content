@@ -22,20 +22,36 @@ This page collects pointers related to the conference and book project:
 
 
 * [[Gabriel Catren]], [[Mathieu Anel]], (eds.)
+  
+  \linebreak
 
-  _New Spaces for Mathematics and Physics_
+  **New Spaces for Mathematics and Physics**
 
+  \linebreak
+  
   [conference](http://ercpqg-espace.sciencesconf.org/program) (IHP Paris, Oct-Sept 2015)
 
-  and  [book project](http://ercpqg-espace.sciencesconf.org/resource/page/id/1), 
+  and  
 
-   * _New spaces in mathematics: formal and conceptual reflections_, Cambridge University Press 2021, ([websiteCUP](https://www.cambridge.org/core/books/new-spaces-in-mathematics/2AB1C65DD7F83F5BA2605E8411FDD271) [gBooks](https://books.google.hr/books?id=8XUfEAAAQBAJ))
-   * _New spaces in physics: formal and conceptual reflections_, Cambridge University Press 2021, ([websiteCUP](https://www.cambridge.org/core/books/new-spaces-in-physics/7CE95474C203AE0A19D66CBE35139D38) [gBooks](https://books.google.hr/books?id=30IwzQEACAAJ))
+  [book project](http://ercpqg-espace.sciencesconf.org/resource/page/id/1): 
 
+  \linebreak
 
-  ([toc pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf))
+  _New spaces in mathematics: formal and conceptual reflections_, 
+
+  Cambridge University Press (2021)
+
+  ISBN:9781108854429
+
+  [doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429)
+
+  [gBooks](https://books.google.us/books?id=8XUfEAAAQBAJ)
+
+  [toc pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Catren-NewSpacesTOC.pdf)
 
 on current developments regarding foundations of [[geometry]] in [[mathematics]] and [[physics]].
+
+
 
 #Contents#
 * table of contents
@@ -46,39 +62,127 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ### Volume I: New Spaces in Mathematics 
 
-I.1. Differential geometry
-I.1.1 Diffeologies (Patrick Iglesias-Zemmour)
-I.1.2 New methods for old spaces: synthetic differential geometry (Anders Kock)
-I.1.3 Microlocalanalysis and beyond (Pierre Schapira)
+#### I.1. Differential geometry
 
-I.2. Topology and algebraic topology
-I.2.1 Topo-logie (Mathieu Anel &amp; Andr&eacute; Joyal) ([pdf](/http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf))
-I.2.2 Spaces as infinity-groupoids (Timothy Porter)
-I.2.3 Homotopy type theory: the logic of space (Mike Shulman)
+On [[differential geometry]].
 
-I.3. Algebraic geometry
-I.3.1 Sheaves and functors of points (Michel Vaqui&eacute;)
-I.3.2 Stacks (Nicole Mestrano &amp; Carlos Simpson)
-I.3.3 The geometry of ambiguity – An introduction to derived geometry (Mathieu Anel)
-I.3.4 Geometry in dg-categories (Maxim Kontsevich)
+##### I.1.1 Diffeologies (Patrick Iglesias-Zemmour)
+
+[[Patrick Iglesias-Zemmour]] on [[diffeological spaces]].
+
+##### I.1.2 New methods for old spaces: synthetic differential geometry (Anders  Kock)
+
+[[Anders Kock]] on [[synthetic differential geometry]].
+
+##### I.1.3 Microlocalanalysis and beyond (Pierre Schapira)
+
+[[Pierre Schapira]] on [[microlocal analysis]].
+
+#### I.2. Topology and algebraic topology
+
+On [[topology]] and [[algebraic topology]].
+
+##### I.2.1 Topo-logie (Mathieu Anel &amp; Andr&eacute; Joyal) 
+
+On [[Grothendieck toposes]] regarded as "[[logos|logoses]]":
+
+* [[Mathieu Anel]], [[Andre Joyal]], _Topo-logie_ ([pdf](http://mathieu.anel.free.fr/mat/doc/Anel-Joyal-Topo-logie.pdf))
+
+##### I.2.2 Spaces as infinity-groupoids (Timothy Porter)
+
+[[Timothy Porter]] on [[homotopy types]] as [[infinity-groupoids]].
+
+#####I.2.3 Homotopy type theory: the logic of space (Mike Shulman)
+
+On [[homotopy type theory]]:
+
+* [[Mike Shulman]], _Homotopy type theory: the logic of space_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+
+
+#### I.3. Algebraic geometry
+
+On [[algebraic geometry]].
+
+##### I.3.1 Sheaves and functors of points (Michel Vaqui&eacute;)
+
+[[Michel Vaquié]] on [[sheaves]] and [[functorial geometry]].
+
+##### I.3.2 Stacks (Nicole Mestrano &amp; Carlos Simpson)
+
+[[Carlos Simpson]] on  [[algebraic stacks]].
+
+##### I.3.3 The geometry of ambiguity – An introduction to derived geometry (Mathieu Anel)
+
+On [[derived geometry]].
+
+##### I.3.4 Geometry in dg-categories (Maxim Kontsevich)
+
+[[Maxim Kontsevich]] on [[derived noncommutative geometry]] in terms of [[formal duals]] of [[dg-categories]]  ([[stable infinity-categories]], [[enhanced triangulated categories]], see also at _[[spectrum of a triangulated category]]_).
+
 
 ### Volume II: New Spaces in Physics
 
-II.1. Non-commutative and super-commutative geometries
-II.1.1 Noncommutative Geometry, the spectral standpoint (Alain Connes)
-II.1.2 Topos quantum theory (Klaas Landsman)
-II.1.3 Super-geometry (Mikhail Kapranov)
+#### II.1. Non-commutative and super-commutative geometries
 
-II.2. Symplectic geometry
-II.2.1 Derived stacks in symplectic geometry (Damien Calaque)
-II.2.2 Higher pre-quantized geometry (Urs Schreiber)
+On [[noncommutative geometry]] and [[supergeometry]].
 
-II.3. Space-time
-II.3.1 [Struggles with the continuum](https://arxiv.org/abs/1609.01421) (John Baez)
-II.3.2 Twistor theory (Roger Penrose)
-II.3.3 Loop quantum gravity (Muxin Han)
-II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
+##### II.1.1 Noncommutative Geometry, the spectral standpoint (Alain Connes)
 
+[[Alain Connes]] on [[spectral triple|spectral geometry]].
+
+##### II.1.2 Topos quantum theory (Klaas Landsman)
+
+[[Klaas Landsman]] on [[Bohr toposes]].
+
+##### II.1.3 Super-geometry (Mikhail Kapranov)
+
+[[Mikhail Kapranov]] on [[superalgebra]] as [[sphere spectrum]]-graded algebra (see also at _[[spectral super-scheme]]_):
+
+* [[Mikhail Kapranov]], _Supergeometry in mathematics and physics_, in [[Gabriel Catren]], [[Mathieu Anel]], (eds.) _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1512.07042](http://arxiv.org/abs/1512.07042))
+
+* {#Kapranov15b} [[Mikhail Kapranov]], _Super-geometry_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=bjsNwKYT8JE))
+
+
+#### II.2. Symplectic geometry
+
+On [[symplectic geometry]]:
+
+##### II.2.1 Derived stacks in symplectic geometry (Damien Calaque)
+
+On [[derived geometry|derived]] [[symplectic geometry]]:
+
+* [[Damien Calaque]], _Derived stacks in symplectic geometry_ ([arXiv:1802.09643](https://arxiv.org/abs/1802.09643))
+
+
+##### II.2.2 Higher pre-quantized geometry (Urs Schreiber)
+
+On [[higher prequantum geometry]]:
+
+* [[Urs Schreiber]], _[[schreiber:Higher Prequantum Geometry]],([arXiv:1601.05956](http://arxiv.org/abs/1601.05956), [video recording](https://www.youtube.com/watch?v=EaYMuyr9KII))
+
+
+#### II.3. Space-time
+
+On [[spacetime]].
+
+##### II.3.1 Struggles with the continuum (John Baez)
+
+On the [[continuum]]:
+
+* [[John Baez]], _Struggles with the continuum_ ([arXiv:1609.01421](https://arxiv.org/abs/1609.01421))
+
+##### II.3.2 Twistor theory (Roger Penrose)
+
+[[Roger Penrose]] on [[twistors]].
+
+##### II.3.3 Loop quantum gravity (Muxin Han)
+
+
+##### II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
+
+[[Marcos Mariño]] on [[AdS-CFT duality]].
+
+\linebreak
 
 ## Conference
 ### Smoothness and singularities 
@@ -90,6 +194,7 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 ([video recording](https://www.youtube.com/watch?v=etdvnswIhMw))
 
 #### Synthetic differential geometry - new methods for old spaces (Anders Kock)
+ {#Kock}
 
 [[Anders Kock]] on [[synthetic differential geometry]]
 
@@ -102,6 +207,7 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 ([video recording](https://www.youtube.com/watch?v=Sg_dStsGcIw))
 
 #### Diffeologies (Patrick Iglesias-Zemmour)
+ {#IglesiasZemmour}
  
 [[Patrick Iglesias-Zemmour]] on [[diffeological spaces]].
 
@@ -123,12 +229,14 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 
 
 #### Stacks and the Artin property (Carlos Simpson)
+ {#Simpson}
 
 [[Carlos Simpson]] on [[algebraic stacks]] and the [[Artin representability theorem]].
 
 ([video recording](https://www.youtube.com/watch?v=vI-09KIkBbY))
 
 #### The Geometry of Ambiguity: An introduction to the ideas of Derived Geometry (Mathieu Anel)
+ {#Anel}
 
 [[Mathieu Anel]] on [[derived geometry]] ([pdf](http://mathieu.anel.free.fr/mat/doc/Anel-DerivedGeometry.pdf))
 
@@ -138,8 +246,9 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 
 
 #### Geometry in triangulated categories (Maxim Kontsevich)
+ {#Kontsevich}
 
-[[Maxim Kontsevich]] on [[derived noncommutative geometry]] in terms of [[formal duals]] of [[stable infinity-categories]] ([[enhanced triangulated categories]]).
+[[Maxim Kontsevich]] on [[derived noncommutative geometry]] in terms of [[formal duals]] of [[stable infinity-categories]] ([[enhanced triangulated categories]], see also at _[[spectrum of a triangulated category]]_).
 
 * [[Maxim Kontsevich]], _Geometry in triangulated categories_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=XnmO9RAbl50))
 
@@ -163,24 +272,26 @@ II.3.4 Stringy geometry and emergent space (Marcos Mari&ntilde;o)
 
 #### Homotopy type theory: the logic of space (Mike Shulman)
   {#Shulman}
- 
-[[Mike Shulman]] _Homotopy type theory: the logic of space_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
 
-  (on [[homotopy type theory]])
+On [[homotopy type theory]]
+
+* [[Mike Shulman]], _Homotopy type theory: the logic of space_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+
 
 ### Spaces in classical & quantum mechanics
 
 #### Derived stacks in symplectic geometry (Damien Calaque)
+ {#Calaque}
 
-[[Damien Calaque]] on [[derived geometry|derived]] [[symplectic geometry]] ([ arXiv:1802.09643](https://arxiv.org/abs/1802.09643))
+* [[Damien Calaque]] on [[derived geometry|derived]] [[symplectic geometry]]:
+
+* [[Damien Calaque]], _Derived stacks in symplectic geometry_ ([arXiv:1802.09643](https://arxiv.org/abs/1802.09643))
 
 
 #### Higher pre-quantized geometry (Urs Schreiber)
  {#Schreiber}
 
-[[Urs Schreiber]] on [[schreiber:Higher Prequantum Geometry]].
-
-([arXiv:1601.05956](http://arxiv.org/abs/1601.05956), [video recording](https://www.youtube.com/watch?v=EaYMuyr9KII))
+* [[Urs Schreiber]], _[[schreiber:Higher Prequantum Geometry]],([arXiv:1601.05956](http://arxiv.org/abs/1601.05956), [video recording](https://www.youtube.com/watch?v=EaYMuyr9KII))
 
 
 
@@ -195,8 +306,9 @@ Hanno Sahlmann on spin networks.
 
 
 #### Super-geometry (Mikhail Kapranov)
+ {#Kapranov}
 
-[[Mikhail Kapranov]] on [[superalgebra]] as [[sphere spectrum]]-graded algebra.
+[[Mikhail Kapranov]] on [[superalgebra]] as [[sphere spectrum]]-graded algebra (see also at _[[spectral super-scheme]]).
 
 * [[Mikhail Kapranov]], _Supergeometry in mathematics and physics_, in [[Gabriel Catren]], [[Mathieu Anel]], (eds.) _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1512.07042](http://arxiv.org/abs/1512.07042))
 
