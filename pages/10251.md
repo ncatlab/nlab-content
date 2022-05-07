@@ -32,6 +32,18 @@ On [[heterotic string theory]]:
 
 * {#Schellekens91} [[Bert Schellekens]], _Classification of Ten-Dimensional Heterotic Strings_, Phys.Lett. B277 (1992) 277-284 ([arXiv:hep-th/9112006](http://arxiv.org/abs/hep-th/9112006))
 
+
+On the [[partition function]] of the [[superstring]] ([[heterotic string theory|heterotic string]] and [[type II string theory|type II string]]) as a [[modular form]] with values in the [[Chern character]] of the [[background field|background]] [[field strengths]] ("character-valued partition function", a little later called the *[[elliptic genus]]*/*[[Witten genus]]*) and relation to [[Green-Schwarz anomaly cancellation]]:
+
+* [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies, characters and strings*, Nuclear Physics B Volume 287, 1987, Pages 317-361 (<a href="https://doi.org/10.1016/0550-3213(87)90108-8">doi:10.1016/0550-3213(87)90108-8</a>)
+
+* [[A. N. Schellekens]], [[Nicholas P. Warner]], *Anomalies and modular invariance in string theory*, Physics Letters B 177 (3-4), 317-323, 1986 (<a href="https://doi.org/10.1016/0370-2693(86)90760-4">doi:10.1016/0370-2693(86)90760-4</a>)
+
+* [[Wolfgang Lerche]], [[Bengt Nilsson]], [[A. N. Schellekens]],  [[Nicholas P. Warner]], *Anomaly cancelling terms from the elliptic genus*, Nuclear Physics B Volume 299, Issue 1, 28 March 1988, Pages 91-116 (<a href="https://doi.org/10.1016/0550-3213(88)90468-3">doi:10.1016/0550-3213(88)90468-3</a>)
+
+
+
+
 On [[orientifold]] [[Gepner model]] [[string phenomenology]]:
 
 * {#DijkstraHuiszoonSchellekens04a} T.P.T. Dijkstra, L. R. Huiszoon, [[Bert Schellekens]], _Chiral Supersymmetric Standard Model Spectra from Orientifolds of Gepner Models_, Phys.Lett. B609 (2005) 408-417 ([arXiv:hep-th/0403196](https://arxiv.org/abs/hep-th/0403196))
