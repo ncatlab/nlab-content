@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Arithmetic
-+--{: .hide}
++-- {: .hide}
 [[!include arithmetic geometry - contents]]
 =--
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Exceptional structures
@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _octonions_ or _Cayley numbers_ $\mathbb{O}$ ([Cayley 1845](#Cayley1845)) is a [[non-associative algebra|non-associative]] [[real numbers|real]] [[star-algebra]] similar to the [[complex numbers]] and the [[quaternions]] but with seven [[imaginary number|imaginary]] [[units]] adjoined, satisfying certain relations: 
+The _octonions_ or _Cayley numbers_ ([Cayley 1845](#Cayley1845)) form a [[non-associative algebra|non-associative]] [[real numbers|real]] [[star-algebra]] $\mathbb{O}$ similar to the [[complex numbers]] and the [[quaternions]] but with seven [[imaginary number|imaginary]] [[units]] adjoined.
 
 The octonions arise from the [[quaternions]] in analogy -- namely: by the [[Dickson double construction]] ([Dickson 1919, (6)](#Dickson1919)) -- of how the [[quaternions]] arise from the [[complex numbers]], and the [[complex numbers]] from the [[real numbers]]. These are precisely the [[normed division algebras]] over the [[real numbers]], the octonions being the largest of the four. While the further [[Dickson double]] of the quaternions exists, called the _[[sedenions]]_, it is no longer a [[normed division algebra]].
 
@@ -34,6 +34,7 @@ In continuation of how the [[complex numbers]] and [[quaternions]] control [[spi
 For more on this see at _[[supersymmetry and division algebras]]_.
 
 Generally, the algebra of octonions shows up, in one way or another, behind most, if not all, [[exceptional structures]] in [[group theory]], [[Lie theory]] and [[differential geometry]]. See also at _[[universal exceptionalism]]_ for more on this.
+
 
 ## Definition
 
@@ -766,3 +767,9 @@ Application of [[octonion]]-algebra to analysis of [[spin representations]] and 
 [[!redirects octonion]]
 [[!redirects octonions]]
 [[!redirects octonion algebra]]
+[[!redirects algebra of octonions]]
+
+[[!redirects Cayley number]]
+[[!redirects Cayley numbers]]
+[[!redirects Cayley algebra]]
+[[!redirects algebra of Cayley numbers]]
