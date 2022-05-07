@@ -11,7 +11,9 @@
 
 ## Definition
 
-A [[linear category]] is a category [[enriched category|enriched]] over [[Vect]], and similarly a **linear functor** is a [[functor]] enriched over $Vect$.  Unwrapping this a bit: given objects $x, y$ in a linear category $C$, the homset $hom(x,y)$ is equipped with the structure of a [[vector space]], and a functor $F: C \to D$ between linear categories is said to be **linear** if the map
+A [[linear category]] is a category [[enriched category|enriched]] over [[Vect]], and similarly a **linear functor** is a [[functor]] [[enriched functor|enriched]] over $Vect$.  
+
+Unwrapping this a bit: given objects $x, y$ in a linear category $C$, the homset $hom(x,y)$ is equipped with the structure of a [[vector space]], and a functor $F: C \to D$ between linear categories is said to be **linear** if the map
 
 $$ F: hom(x,y) \to hom(F(x), F(y)) $$
 
@@ -22,5 +24,7 @@ Note that a linear functor between linear [[additive categories]] is automatical
 ## Related concepts
 
 * [[linear function]], [[linear equation]]
+
+* [[smooth functor]]
 
 [[!redirects linear functors]]
