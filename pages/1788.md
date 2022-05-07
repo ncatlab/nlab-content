@@ -1,4 +1,24 @@
 
+* [[flat connections]] [[Maurer-Cartan forms]]
+
+  $d\, A^i \,=\,  f^i{}_{j k} A^j \wedge A^k$
+
+* flat string 2-connections
+
+  $ d, B_3 \;=\; k_{i j} F^i \wedge F^j $
+
+* cohomotopy classifies
+
+  - cobordism classes of normally framed submanifolds
+
+  - deg 2: moduli of YM monopones
+  
+* maps into twistor space...
+
+* twisted cohomology is really non-abelian cohomology equipped with a non-abelian cohomology operation called the twist
+
+
+
 $$
   r_1 \,\otimes\, r_2
   \;=\;
