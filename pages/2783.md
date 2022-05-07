@@ -120,7 +120,7 @@ Now we can define a **unary congruence** in $C$ to consist of:
 
 * An object $X\in C$
 
-* A parallel pair $s,t:R\toto X$, such that
+* A parallel pair $s,t:R\rightrightarrows X$, such that
 
 * There exists a cover $p:Y\to X$ and a map $i:Y\to R$ with $s i = t i = p$,
 
