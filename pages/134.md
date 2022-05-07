@@ -557,3 +557,6 @@ category: category
 
 [[!redirects TopologicalSpaces]]
 [[!redirects category of topological spaces]]
+
+[[!redirects TopSp]]
+
