@@ -17,6 +17,11 @@ Specifically on [[twisted K-theory]] and twisted [[tmf]]:
 * {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics 81, American Mathematical Society 2010 ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004), [ISBN:978-0-8218-4887-6](https://bookstore.ams.org/pspum-81))
 
 
+On [[noncommutative motives]] in terms of [[algebraic K-theory]]:
+
+* {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology 17 (2013) 733&#8211;838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
+
+
 On [[equivariant homotopy theory]]:
 
 * Andrew Blumberg, _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
