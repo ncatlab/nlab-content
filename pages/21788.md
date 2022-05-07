@@ -130,7 +130,7 @@ For simply-connected [[compact Lie groups]]:
 
 For [[finite groups]]:
 
-* {#Dove19} Thomas Dove, _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
+* {#Dove19} [[Thomas Dove]], _Twisted Equivariant Tate K-Theory_ ([arXiv:1912.02374](https://arxiv.org/abs/1912.02374))
 
 [[!redirects twisted ad-equivariant Tate K-theory]]
 
