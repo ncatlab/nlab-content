@@ -35,8 +35,7 @@ Notice that the [[super Poincare Lie algebra]] itself does mix the plain bosonic
 
 * {#HaagSohniuLopuszanski75} [[Rudolf Haag]], Martin Sohnius, [[Jan Łopuszański]], _All possible generators of supersymmetries of the S-matrix_, Nuclear Physics B, 88: 257&#8211;274 (1975). doi link: &lt;http://dx.doi.org/10.1016/0550-3213(75)90279-5>
 
-* Wikipedia,  _[Haag-Łopuszański-Sohnius theorem](http://en.wikipedia.org/wiki/Haag&#8211;Lopuszanski&#8211;Sohnius_theorem)_
-
+* Wikipedia,  _[Haag-Łopuszański-Sohnius theorem](https://en.wikipedia.org/wiki/Haag%E2%80%93%C5%81opusza%C5%84ski%E2%80%93Sohnius_theorem)_
 
 [[!redirects Haag–Lopuszanski–Sohnius theorem]]
 
