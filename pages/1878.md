@@ -380,21 +380,22 @@ The category of diagrams indexed by a fixed small category $D$, taking values in
 
 ## References ##
 
-A standard textbook reference is 
+Textbook accounts:
 
-* {#Hirschhorn03} [[Philip Hirschhorn]], section 11 in _Model categories and their localizations_, 2003 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
-
+* {#Hirschhorn03} [[Philip Hirschhorn]], Sec. 11 in: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 For the general case a useful reference is for instance the first section of 
 
 * [[Tibor Beke]], _Sheafifiable homotopy model categories_,  Math. Proc. Cambridge Philos. Soc.  __129__  (2000),  no. 3, 447--475.([math.CT/0102087](http://arxiv.org/abs/math/0102087)), _Sheafifiable homotopy model categories. II_, J. Pure Appl. Algebra  __164__  (2001),  no. 3, 307--324.
 
-For the case of a [[presentable category]] a useful reference is [[Higher Topos Theory|HTT section A.1.2]].
+For the case of a [[presentable category]]:
 
-Some useful facts are discussed in the appendix of 
+* [[Jacob Lurie]], section A.1.2 in: *[[Higher Topos Theory]]*
 
-* [[Dan Dugger]], _Replacing model categories with simplicial ones_ ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf))
- {#Dugger}
+See also: 
+
+* {#Dugger} [[Dan Dugger]], Appendix of: _Replacing model categories with simplicial ones_ ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf))
+ 
 
 [[!redirects cofibrantly generated model categories]]
 
