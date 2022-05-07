@@ -286,17 +286,20 @@ Exposition and review:
 
 * [[Ross Street]], _Encyclopedia article on 2-categories and bicategories_ ([pdf](http://www.maths.mq.edu.au/~street/Encyclopedia.pdf))
 
+* [[Tom Leinster]], _Basic bicategories_ ([arXiv:9810017](http://arxiv.org/abs/math/9810017))
+
 * {#Lack10} [[Steve Lack]], _A 2-categories companion_,  In: Baez J., May J. (eds.) *[[Towards Higher Categories]]*. The IMA Volumes in Mathematics and its Applications, vol 152. Springer 2010 ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535), [doi:10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4))
 
   > (including discussion of ([[strict 2-limits|strict]]) [[2-limits]])
 
 * [[John Power]], _2-Categories_, BRICS Notes Series 1998 ([pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf))
 
-* [[Tom Leinster]], _Basic bicategories_ ([arXiv:9810017](http://arxiv.org/abs/math/9810017))
+Comprehensive textbook accounts:
 
-  > (including a discussion of the [[coherence theorem]])
+* [[Ofer Gabber]], [[Lorenzo Ramero]], Chapter 2 of: *Foundations for almost ring theory* ([arXiv:math/0409584](https://arxiv.org/abs/math/0409584))
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
 
 On [[coherence theorems]]:
 
