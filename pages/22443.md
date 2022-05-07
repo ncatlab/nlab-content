@@ -2627,6 +2627,7 @@ This must hold because the $P^{(\lambda)}_{i_\lambda}(\mathbb{C}[Sym(n)])$ are [
 
 But this means that (eq:TheConvexCombination) exhibits our state as a [[mixed state|mixture]] in which the $\lambda$th pure state appears with probability $p_{\lambda, i_\lambda}$.
 
+
 #### The probability distribution
   {#TheCayleyStateProbabilityDistribution}
 
@@ -2740,11 +2741,11 @@ $$
 $$
 
 In fact, by (eq:EigenvaluesAtLogIntegerInverseTempeteratureCountingYoungTableaux) in
-Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} we have 
+Prop. \ref{EigenvaluesAtLogIntegerInvTemViaYoungTabl} this is the [[probability distribution]] on [[Young diagrams]] with $n$ boxes proportionate to their number of [[semistandard Young tableaux]] with labels bounded by $N$: 
 
 \[
   \label{ProbabilitiesCountingSemistandardYoungTableaux}
-  p_{\lambda, i}
+  p^{Cay}_{\lambda, i}
   \;=\;
   \tfrac
     {\left\vert ssYT_{\lambda}(N)\right\vert}
@@ -2795,22 +2796,79 @@ Since the Cayley measure is constant on the [[fibers]] of $q$ (eq:ForgetfulFunct
 
 
 
-#### The Cayley entropy
+### Entropy of the Cayley state
 
-Now to compute the [[von Neumann entropy]] of the Cayley state, hence the [[Shannon entropy]] of the above probability distribution:
+Now to compute the [[von Neumann entropy]] of the Cayley state, hence the [[Shannon entropy]] of the [above](#TheCayleyStateProbabilityDistribution) probability distribution:
 
 $$
   S
   \;\coloneqq\;
   \underset{\lambda, i}{\sum}
-    p_{\lambda, i}
+    p^{Cay}_{\lambda, i}
     \ln 
     \big(
-      p_{\lambda, i}
+      p^{Cay}_{\lambda, i}
     \big)
 $$
 
-as a function of $n$...
+as a function of $n$.
+
+Recall the bounds
+
+[[Hartley entropy]] $\geq$ [[Shannon entropy]] $\geq$ [[min-entropy]].
+
+$$
+  S_0 \;\geq\; S_1 \;geq\; S_\infty
+  \,.
+$$
+
+#### Hartley entropy
+ {#HartleyEntropyOfCayleyState}
+
+Observe that a [[Young diagram]] ([[partition]]) $\lambda$ admits a decoration to at least one [[semi-standard Young tableau]] with labels bounded by $N$ if and only if it has at most $N$ rows.
+
+Therefore the [[Hartley entropy]] of the probability distribution (eq:ProbabilitiesCountingSemistandardYoungTableaux) is the [[logarithm]] of the number of [[standard Young tableaux]] with $N$ boxes and at most $N$ rows: 
+
+$$
+  S_0
+  \big(
+    p^{Cay}
+  \big)
+  \;\;
+    =
+  \;\;
+  sYT_n(N)
+  \;\;
+    \coloneqq
+  \;\;
+  ln
+  \left(
+  \underset
+  {
+    {
+      \lambda \in Part(n)
+    }
+    \atop
+    {
+      rows(\lambda) \leq N
+    }
+  }{\sum}
+  \underset{
+    \chi^{(\lambda)}(e)
+  }{
+  \underbrace{
+  \left\vert
+     sYT_\lambda
+  \right\vert
+  }
+  }
+  \right)
+  \,.
+$$
+
+For discussion of these numbers $\left\vert sYT_n(N) \right\vert$ see [there](semistandard+Young+tableau#NumberOfSYTWithBoundedNumberOfRows).
+
+(...)
 
 
 \linebreak
