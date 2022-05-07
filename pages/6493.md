@@ -29,7 +29,7 @@ b &\stackrel{g}\rightarrow& b
 
 i.e. of the morphisms $u \colon a\to b$ in $G_1$ such that $u^{-1}\circ g\circ u = f$.
 
-This is [[isomorphism|isomorphic]] to the [[functor category]] $[S^1,G]$, where $S^1$ denotes the free groupoid on a single object with a single [[automorphism]] (equivalently, the [[delooping]] $B\mathbb{Z}$ of the [[integers]]).  It is [[equivalence of categories|equivalent]] to the [[free loop space object]] of $G$ in the [[(2,1)-category]] of groupoids.
+This is [[isomorphism|isomorphic]] to the [[functor category]] $\big[&#643;S^1,G\big]$, where $&#643;S^1$ (the [[shape modality|shape]] of the [[circle]]) denotes the free groupoid on a single object with a single [[automorphism]] (equivalently, the [[delooping groupoid]] $B\mathbb{Z}$ of the [[integers]]).  It is [[equivalence of categories|equivalent]] to the [[free loop space object]] of $G$ in the [[(2,1)-category]] of groupoids.
 
 The same construction can be performed for a groupoid [[internal category|internal]] to any [[finitely complete category]], or more generally whenever the relevant [[limits]] exist.  If a ([[differentiable stack|differential]], [[topological stack|topological]] or [[algebraic stack|algebraic]]) stack (or, in particular, an [[orbifold]]) is represented by a groupoid, then the inertia groupoid of that groupoid represents its [[inertia stack]].  In particular, an orbifold corresponds to a Morita equivalence class of a proper &#233;tale groupoid. The inertia groupoid $\Lambda G$ of $G$ is the Morita equivalence class of the (proper &#233;tale) action groupoid for the action of $G_1$ by conjugation on the subspace $S\subset G_1$ of closed loops.  
 
@@ -43,12 +43,18 @@ At least for a [[finite group]] $G$, the [[groupoid convolution algebra]] of the
 
 ## References
 
-* Stacks Project: [Inertia](https://stacks.math.columbia.edu/tag/036X), [more](https://stacks.math.columbia.edu/tag/034H), [more](https://stacks.math.columbia.edu/tag/034I), [The inertia stack](https://stacks.math.columbia.edu/tag/036X)
+Original articles:
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201, [arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222); _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: Orbifolds in Mathematics and
-Physics, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946), [math.AT/0110207](http://arxiv.org/abs/math/0110207)
+* Tetsuro Kawasaki, _The signature theorem for V-manifolds_, Topology __17__ (1978), no. 1, 75&#8211;83 (<a href="https://doi.org/10.1016/0040-9383(78)90013-7">doi:10.1016/0040-9383(78)90013-7</a>)
 
-* T. Kawasaki, _The signature theorem for V-manifolds_, Topology __17__ (1978), no. 1, 75&#8211;83 (<a href="https://doi.org/10.1016/0040-9383(78)90013-7">doi:10.1016/0040-9383(78)90013-7</a>)
+Review and further development:
+
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], Section 4 of: _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201, [arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222); _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: *[[Orbifolds in Mathematics and Physics]]*, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946), [math.AT/0110207](http://arxiv.org/abs/math/0110207)
+
+See also:
+
+* [[The Stacks Project]], [The inertia stack](https://stacks.math.columbia.edu/tag/036X), [more](https://stacks.math.columbia.edu/tag/034H), [more](https://stacks.math.columbia.edu/tag/034I)
+
 
 * [[V. Hinich]], _Drinfeld double for orbifolds_, Contemporary Math. __433__, AMS Providence, 2007, 251-265,
 [arXiv:math.QA/0511476](http://arxiv.org/abs/math/0511476)
