@@ -164,6 +164,9 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[separable metric space]]
 
+* [[distance (graph theory)]]
+
+
 [[!include generalized uniform structures - table]]
 
 
