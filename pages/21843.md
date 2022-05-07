@@ -56,7 +56,8 @@ $$
 
 and hence corresponding [[multiplicative cohomology theory]]-[[homomorphisms]] of [[cobordism cohomology theories]], so in particular [[ring homomorphisms]] of [[bordism rings]]
 
-$$
+\[
+  \label{HomomorphismsOfCobordismRings}
   \Omega^{fr}_{\bullet}
    \longrightarrow
   \Omega^{Sp}_{\bullet}
@@ -64,16 +65,16 @@ $$
   \Omega^{SU}_{\bullet}
    \longrightarrow
   \Omega^{U}_{\bullet}
-$$
+\]
 
 (e.g. [Conner-Floyd 66, p. 27 (34 of 120)](#ConnerFloyd66))
 
 
 
-+-- {: .num_prop }  
++-- {: .num_prop #KernelOfMapFromSUBordismToUBordismIsTorsion}  
 ###### Proposition
 
-The [[kernel]] of the [[forgetful functor|forgetful]] morphism
+The [[kernel]] of the [[forgetful functor|forgetful]] morphism (eq:HomomorphismsOfCobordismRings)
 
 $$
   \Omega^{SU}_\bullet
@@ -87,7 +88,7 @@ from the [[SU-bordism ring]] to the [[complex bordism ring]], is pure [[torsion 
 
 ([CLP 19, Thm. 5.8a](#CLP19))
 
-+-- {: .num_prop }  
++-- {: .num_prop #TorsionInSUBordismConcentratedInDegrees1And2Mod8}  
 ###### Proposition
 
 The [[torsion subgroup]] of the [[SU-bordism ring]] is concentrated in degrees $8k+1$ and $8k+2$, for $k \in \mathbb{N}$.
@@ -143,14 +144,47 @@ We discuss the classes of [[Calabi-Yau manifolds]] in the [[SU-bordism ring]]. F
 
 The degree-4 generator $y_4 \in \Omega^{SU}_4$ in the [[SU-bordism ring]] (Prop. \ref{SUBordismRingAwayFromTwo}) is represented by minus the class of any (non-[[torus]]) [[K3-surface]]:
 
-$$
-  \Omega^{SU}_4 \;\simeq\; \mathbb{Z}\big[ \tfrac{1}{2}\big]\big\langle -[K3] \big\rangle
+\[
+  \label{K3GeneratesNonTorsionSUBordimsRing}
+  \Omega^{SU}_4 
+    \;\simeq\; 
+  \mathbb{Z}\big\langle -[K3] \big\rangle
   \,.
+\]
+
+=--
+
+([LLP 17, Example 3.1](#LLP17), [CLP 19, Theorem 13.5a](#CLP19))
+
+
++-- {: .num_cor #K3SurfaceInUBordismRing}  
+###### Corollary
+**([[K3-surface]] represents non-trivial element in [[U-bordism ring]])**
+
+The image in the [[MU]]-[[cobordism ring]] of the class of the [[K3-surface]] $[K3] \in \Omega^{SU}_4$ (eq:K3GeneratesNonTorsionSUBordimsRing) under the canonical morphism $\Omega^{SU}_4 \to \Omega^{\mathrm{U}}_4$ (eq:HomomorphismsOfCobordismRings) is non-trivial.
+
+In fact, the canonical morphism is an [[injection]] in this degree
+
+$$
+  \array{
+    \Omega^{SU}_4 
+      &\hookrightarrow& 
+    \Omega^{\mathrm{U}}_4
+    \\
+    [K3] &\mapsto& [K3]
+    \,.
+  }
 $$
 
 =--
 
-([LLP 17, Lemma 1.5, Example 3.1](#LLP17), [CLP 19, Theorem 13.5a](#CLP19))
+(This is vaguely indicated in [Novikov 86, p. 216 (218 of 321)](#Novikov86).)
+
+\begin{proof}
+  By Prop. \ref{KernelOfMapFromSUBordismToUBordismIsTorsion} the 
+  kernel of the map to $\Omega^{\mathrm{U}}_4$ is torsion, but by Prop. \ref{K3SurfaceSpansSUBordismRingInDegree4} $[K3]$ represents a non-torsion element. Since it is in fact a non-torsion generator, the kernel vanishes (as also implied by Prop. \ref{TorsionInSUBordismConcentratedInDegrees1And2Mod8}).
+
+\end{proof}
 
 
 +-- {: .num_prop }  
@@ -202,7 +236,7 @@ On the SU-bordism ring structure away from 2:
 
 Survey:
 
-* [[Sergei Novikov]], p. 218 in: _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
+* {#Novikov86} [[Sergei Novikov]], p. 218 in: _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
 
 
 On its [[torsion subgroups]]:
