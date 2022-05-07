@@ -17,13 +17,13 @@
 
 >_Dr. von Neumann, ich m&#246;chte gerne wissen, was ist denn eigentlich ein Hilbertscher Raum ?_  [^Hilbert]
 
-[^Hilbert]: _Dr. von Neumann, I would like to know what is a Hilbert space?_ Question asked by [[David Hilbert]] in a 1929 talk by [[John von Neumann]] in G&#246;ttingen. The anecdote is narrated together with additional information on the introduction of [[adjoint operators]] to [[quantum mechanics]] by [[Saunders Mac Lane]] in _Concepts and Categories_ ([link](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), p.330). Note, that we have corrected 'dann' in the original quotation to the more likely 'denn' (in either case expressing a certain sense of puzzlement that's not quite captured by the English translation offered above).
+[^Hilbert]: Translation: _Dr. von Neumann, I would like to know what is a Hilbert space?_ -- Question asked by [[David Hilbert]] in a 1929 talk by [[John von Neumann]] in G&#246;ttingen. The anecdote is narrated together with additional information on the introduction of [[adjoint operators]] to [[quantum mechanics]] by [[Saunders Mac Lane]] in _Concepts and Categories_ ([link](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), p.330). Note, that we have corrected 'dann' in the original quotation to the more likely 'denn' (in either case expressing a certain sense of puzzlement that's not quite captured by the English translation offered above).
 
-A _Hilbert space_ is a (possibly) infinite-dimensional generalisation of the traditional spaces of Euclidean geometry in which the notions of distance and angle still make good sense.  This is done through an algebraic operation, the _inner product_, that generalises the dot product.
+A Hilbert space is a ([[real vector space|real]] or,  usually, [[complex vector space|complex]]) [[inner product space]], possibly of infinite [[dimension of a vector space|dimension]] which, as a [[topological space]], is [[complete metric space|complete]] with respect to the induced [[metric]].
 
-Hilbert spaces were made famous to the world at large through their applications to [[physics]], where they organise the pure states of quantum systems.
+Hilbert spaces are central to [[quantum physics]] and specifically to [[quantum mechanics]], where they serve as [[space of quantum states|spaces of]] [[pure states]].
 
-Hilbert spaces form a category, [[Hilb]].
+Hilbert spaces form a [[category]] in various ways, often denoted *[[Hilb]]* or similar.
 
 See also
 
@@ -31,7 +31,7 @@ See also
 
 ## Definitions
 
-Let $V$ be a [[vector space]] over the field of [[complex number]]s.  (One can generalise the choice of [[field]] somewhat.)  An __inner product__ (in the most general, possibly indefinite, sense) on $V$ is a function
+Let $V$ be a [[vector space]] over the field of [[complex numbers]].  (One can generalise the choice of [[field]] somewhat.)  An __inner product__ (in the most general, possibly indefinite, sense) on $V$ is a function
 $$ \langle {-},{-} \rangle: V \times V \to \mathbb{C} $$
 that is (1--3) _sesquilinear_ and (4) _conjugate-symmetric_; that is:
 
