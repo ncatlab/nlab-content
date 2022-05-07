@@ -305,6 +305,10 @@ The $E_\infty$-algebra structure over $\widehat{E(n)}$ is comment on in
 based on 
 
 * {#Strickland99} [[Neil Strickland]], _Products on $MU$-modules_, Trans. Amer. Math. Soc. 351 (1999), 2569-2606.
+
+Discussion in relation to the [[Arnold conjecture]] in [[symplectic topology]]:
+
+* [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
  
 
 
