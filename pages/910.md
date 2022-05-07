@@ -373,7 +373,8 @@ $$
   \,.
 $$
 \end{proposition}
-A proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparisonIsWeakHomotopyEquivalence) at *[[Introduction to Homotopy Theory]]*.
+E.g. [Vogt 1971, Prop. 1.2 (h)](#Vogt71).
+The proof is spelled out [here](Introduction+to+Homotopy+Theory#kificationComparisonIsWeakHomotopyEquivalence) at *[[Introduction to Homotopy Theory]]*.
 
 
 
