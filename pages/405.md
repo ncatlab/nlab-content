@@ -3,7 +3,21 @@
 * table of contents
 {: toc}
 
-## Definition
+## Idea
+
+A **category of cubes** is a category of [[geometric shapes for higher structures]] in which the basic shapes are cubes of all dimensions.  There are actually many different categories of cubes, depending on what sorts of operations are permitted between cubes; potential operations include:
+
+* faces and degeneracies
+* connections
+* symmetries
+* reversals
+* diagonals
+
+## Definitions
+
+### The ordered cube category
+
+The ordered cube category has faces and degeneracies, but no other operations.
 
 +-- {: .num_defn #NotationOneTruncatedCategoryOfCubes}
 ###### Notation
@@ -99,8 +113,6 @@ It is _not_ the case that $\square$ is the free strict monoidal category on $\sq
 
 =--
 
-## Notation
-
 +-- {: .num_defn}
 ###### Notation
 
@@ -108,9 +120,17 @@ Let $n \geq 0$ be an integer. We often denote the object $\underbrace{I^{1} \oti
 
 =--
 
-## Variants
+### The symmetric cube category
 
-There are several useful variations of $\square$, to be described on other pages in the future.
+The symmetric, or substructural, or "BCH", cube category has faces, degeneracies, and symmetries only.
+
+### The cartesian cube category
+
+The cartesian, or "ABCFHL", cube category has faces, degeneracies, symmetries, and diagonals.
+
+### The De Morgan cube category
+
+The De Morgan, or "CCHM", cube category has faces, degeneracies, symmetries, diagonals, connections, and reversals.
 
 ## Expository material
 
