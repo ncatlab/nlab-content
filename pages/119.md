@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Homotopy type theory
++--{: .hide}
+[[!include homotopy type theory - contents]]
+=--
 =--
 =--
 
@@ -26,6 +30,25 @@ A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transiti
 
 Equivalently, a proset is a (strict) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x\leq y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
+### In homotopy type theory
+
+A __preorder__ $A$ in homotopy type theory consists of the following: 
+
+* A homotopy type $A_0$, whose terms $a:A_0$ we write as $a:A$.  
+* For every $a, b:A$, a proposition $p: a \leq_A b$ 
+* For every $a:A$, a proposition $refl_a: a \leq_A a$ called reflexivity
+* For every $a, b, c:A$, a function 
+$$(a \leq_A b) \rightarrow (b \leq_A c) \rightarrow (a \leq_A c)$$
+called transitivity, and denoted infix as an implication by $p \implies q \implies p \wedge q$
+* For every $a,b:A$, and $p: a \leq b$ we have $p \iff refl_a \wedge p$ and $p \iff p \wedge refl_b$
+* For every $a,b,c,d:A$ and $p:a\leq b$, $q:b\leq c$, $r:c\leq d$, we have $p \wedge (q \wedge r) \iff (p \wedge q) \wedge r$. 
+
+A proposition $p:a \leq b$ is an __equality__ if there is a proposition $q:b \leq a$ such that $p \wedge q \iff refl_a$ and $q \wedge p \iff refl_b$. We write $a =_A b$ for the type of such equalities, which is also a proposition. 
+
+The only relationship between the equality proposition $a =_A b$ as defined and the [[identity type]] $Id_A(a, b)$ for $a,b:A$ is that there exists a function 
+$$idtoeq_{a,b}: Id_A(a,b) \rightarrow a =_A b$$
+
+A __preordered set__ or __proset__ is a preorder such that for every $a,b:A$, the function $idtoeq_{a,b}$ is a homotopy equivalence. 
 
 ## Properties
 
