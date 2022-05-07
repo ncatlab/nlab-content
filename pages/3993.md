@@ -35,6 +35,8 @@ where each $\phi_i$ and $\phi$ is atomic. A (universal) **Horn theory** is a [[t
 
 * [[modular lattice]]
 
+* [[pseudolattice ordered ring]]
+
 [[!redirects Horn theories]] 
 
 [[!redirects Horn clause]]
