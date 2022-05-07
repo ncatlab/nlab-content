@@ -185,7 +185,9 @@ Monographs:
 * [[Max Karoubi]], _Homologie cyclique et K-th&#233;orie_, Ast&#233;rique __149__, Soci&#233;t&#233; Math&#233;matique de France (1987). 
 * [[Ib Madsen]], _Algebraic K-theory and traces_, Current Developments in Mathematics, 1995.
 
-Quick lecture notes: 
+Lecture notes: 
+
+* {#Loday07} [[Jean-Louis Loday]], _Cyclic Homology Theory, Part II_, notes taken by Pawel Witkowsk (2007) ([pdf](https://www.impan.pl/swiat-matematyki/notatki-z-wyklado~/loday_cht_2.pdf))
 
 * [[D. Kaledin]], _Tokyo lectures "Homological methods in non-commutative geometry"_, ([pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)); and related but different [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul)
 
@@ -208,7 +210,7 @@ ed. S.-T. Yau, p. 167-201, International Press, Cambridge MA, 1995, [pdf](http:/
 
 * [[Teimuraz Pirashvili]], [[Birgit Richter]], _Hochschild and cyclic homology via functor homology_, K-Theory __25__ (2002), no. 1, 39&#8211;49, [MR2003c:16011](http://www.ams.org/mathscinet-getitem?mr=1899698), [doi](http://dx.doi.org/10.1023/A:1015064621329)
 
-* Jolanta S&#322;omi&#324;ska, _Decompositions of the category of noncommutative sets and Hochschild and cyclic homology_, Cent. Eur. J. Math. __1__ (2003), no. 3, 327&#8211;331, [MR2004f:16011](http://www.ams.org/mathscinet-getitem?mr=1992895), [doi](http://dx.doi.org/10.2478/BF02475213)
+* [[Jolanta Słomińska]], _Decompositions of the category of noncommutative sets and Hochschild and cyclic homology_, Cent. Eur. J. Math. __1__ (2003), no. 3, 327&#8211;331 ([doi:10.2478/BF02475213](http://dx.doi.org/10.2478/BF02475213), [MR2004f:16011](http://www.ams.org/mathscinet-getitem?mr=1992895))
 
 Some influential original references from 1980s: 
 
@@ -229,6 +231,7 @@ reviewed in:
 
 * {#Loday11} [[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
+
 On the [[ordinary cohomology]] of [[cyclic loop spaces]] ("string cohomology") computed directly (instead of via the isomorphism to cyclic homology):
 
 * {#BokstedtOttosen05} [[Marcel Bökstedt]], [[Iver Ottosen]], *A spectral sequence for string cohomology*, Topology Volume 44, Issue 6, November 2005, Pages 1181-1212 ([arXiv:math/0411571](https://arxiv.org/abs/math/0411571), [doi:10.1016/j.top.2005.04.006](https://doi.org/10.1016/j.top.2005.04.006))
@@ -236,6 +239,13 @@ On the [[ordinary cohomology]] of [[cyclic loop spaces]] ("string cohomology") c
 and specifically for [[complex projective spaces]]:
 
 * [[Marcel Bökstedt]], [[Iver Ottosen]], *String cohomology groups of complex projective spaces*, Algebr. Geom. Topol. 7(4): 2165-2238 (2007). ([arXiv:math/0605754](https://arxiv.org/abs/math/0605754), [doi:10.2140/agt.2007.7.2165](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-7/issue-4/String-cohomology-groups-of-complex-projective-spaces/10.2140/agt.2007.7.2165.full))
+
+On the cyclic homology of the [[groupoid convolution algebra]] of [[étale groupoid|étale]] [[Lie groupoids]], hence of [[orbifolds]]:
+
+* [[Jean-Luc Brylinski]], [[Victor Nistor]], *Cyclic cohomology of étale groupoids*,  K-theory 8.4 (1994): 341-365 ([pdf](https://www.researchgate.net/profile/Victor-Nistor/publication/226520448_Cyclic_cohomology_of_etale_groupoids/links/5509d9d30cf20ed529e227b0/Cyclic-cohomology-of-etale-groupoids.pdf), [[BrylinskiNistor_CyclicCohomology.pdf:file]])
+
+
+* [[Marius Crainic]], *Cyclic Cohomology of Etale Groupoids; The General Case* ([arXiv:funct-an/9712001](https://arxiv.org/abs/funct-an/9712001))
 
 
 The [[Loday-Quillen-Tsygan theorem]] is originally due, independently, to
@@ -246,9 +256,7 @@ and
 
 * {#Tsygan83} [[Boris Tsygan]], _Homology of matrix algebras over rings and the Hochschild homology_, Uspeki Math. Nauk., 38:217–218, 1983.
 
-Lecture notes include
 
-* {#Loday07} [[Jean-Louis Loday]], _Cyclic Homology Theory, Part II_, notes taken by Pawe l Witkowsk (2007) ([pdf](https://www.impan.pl/swiat-matematyki/notatki-z-wyklado~/loday_cht_2.pdf))
 
 
 [[!redirects cyclic (co)homology]]
