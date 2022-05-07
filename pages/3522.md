@@ -416,6 +416,10 @@ Discussion in terms of [[spectral Mackey functors]]
 
 * {#Glasman16} [[Saul Glasman]], _Goodwillie calculus and Mackey functors_  ([arXiv:1610.03127](https://arxiv.org/abs/1610.03127))
 
+Discussion in an [[equivariant]] setting is in
+
+* Emanuele Dotto, _Higher Equivariant Excision_, ([arXiv:1507.01909](https://arxiv.org/abs/1507.01909))
+
 
 [[!redirects Goodwillie derivative]]
 [[!redirects Goodwillie derivatives]]
