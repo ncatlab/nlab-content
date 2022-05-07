@@ -331,6 +331,8 @@ morphisms $X \to U$ in $PSh_\infty(C)$.
 
 * [[type of propositions]], [[subobject classifier]], [[partial map classifier]]
 
+* [[type of sets]], [[category of sets]], [[discrete object classifier]]
+
 * [[type of types]], [[univalence]]
 
 * [[classifying morphism]]
