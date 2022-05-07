@@ -26,11 +26,11 @@ There is also a notion of '[[lax functor]]', however this notion does not necess
 
 For the generalisation of this to higher categories, see [[semistrict higher category]].
 
-##Definition##
+## Definition
 
 Here we present explicitly the definition for the middling notion of a pseudofunctor, and comment on alterations that yield the stronger and weaker notions.
 
-####Pseudofunctor between strict $2$-categories
+#### Pseudofunctor between strict $2$-categories
 
 Let $\mathfrak{C}$ and $\mathfrak{D}$ be strict [[2-categories]]. A pseudofunctor $P:\mathfrak{C}\to\mathfrak{D}$ consists of
 
@@ -146,17 +146,47 @@ P(B) \rtwocell^{P(1_B)}_{1_{P(B)}}{\;\;\;\;\iota_B} \drtwocell<5.5>_{P(f)\;\;\;\
 
 \end{centre}
 
-####Lax Functor
+#### Lax 2-Functor
 
 To obtain the notion of a __lax functor__ we only require that the coherence morphisms $\gamma_{f,g}$ and $\iota_A$ be $2$-cells, not necessarily $2$-cell isomorphisms.  This prevents us from going back and forth between preimages and images of identity $1$-cells and horizontally composed $1$-cells/$2$-cells.  Similarly, to obtain an __oplax functor__ we reverse the direction of these 2-cells.
 
-####Strict 2-Functor
+#### Strict 2-Functor
 
 To obtain the notion of a strict $2$-functor we require that $\gamma_{f,g}$ and $\iota_A$ are identity arrows, so horizontal composition and $1$-cell identities literally factor through each functor in the same way vertical composition and $2$-cell identities do. 
 
-###Discussion###
 
+\begin{remark}
 There is a notion of a 'weak 2-category', however it usually doesn\'t make sense to speak of strict $2$-functors between weak $2$-categories[^1], but it does make sense to speak of lax (or 'weak') $2$-functors between strict $2$-categories.  Indeed, the weak $3$-[[3-category|category]] [[Bicat]] of bicategories, pseudofunctors, [[pseudonatural transformations]], and [[modifications]] is  [[equivalence of categories|equivalent]] to its full sub-3-category spanned by the strict 2-categories.  However, it is not equivalent to the $3$-category [[Str2Cat]] of strict $2$-categories, *strict* $2$-functors, transformations, and modifications. (For discussion of the terminological choice "$2$-functor" and $n$-functor in general, see [[higher functor]].)
+\end{remark}
+
+## Properties
+
+\begin{prop}\label{CharacterizationOfEquivalencesOf2Categories}
+**(recognition of [[equivalences of 2-categories]] assuming the [[axiom of choice]])**
+\linebreak
+  Assuming the [[axiom of choice]], a 2-functor $F \,\colon\, \mathcal{C} \xrightarrow{\;} \mathcal{D}$ is an [[equivalence of 2-categories]] precisely if it is
+
+1. **essentially surjective**:  
+
+   [[surjection|surjective]] on [[equivalence in a 2-category|equivalence]] [[equivalence classes|classes]] of [[objects]]: $\pi_0(F) \;\colon\; \pi_0(\mathcal{C}) \twoheadrightarrow \pi_0(\mathcal{D})\;$,
+
+1. **fully faithful**:
+
+   for each [[pair]] of [[objects]] $X,\, Y \in \mathcal{C}$ the component functor is an [[equivalence of categories|equivalence of]] [[hom-categories]] $F_{X,Y} \,\colon\, \mathcal{C}(X,Y) \xrightarrow{\simeq} \mathcal{D}\big(F(X), F(Y)\big)$, 
+
+   which by the analogous theorem for 1-functors ([this Prop.](equivalence+of+categories#ViaEssentiallySurjectiveAndFullyFaithful)) means equivalently that $F$ is
+
+   1. **essentially full on 1-cells**:
+
+      namely that each component functor $F_{X,Y}$ is an [[essentially surjective functor]];
+
+   1. **fully faithful on 2-cells**:
+
+      namely that each component functor $F_{X,Y}$ is a [[fully faithful functor]].
+
+\end{prop}
+
+This is classical. It may be found made explicit in [Johnson & Yau 2020, Thm. 7.4.1 with Def. 7.0.1](#JohnsonYau20). 
 
 ## Related concepts
 
@@ -174,6 +204,15 @@ There is a notion of a 'weak 2-category', however it usually doesn\'t make sense
 
 
 [[!include properties of functors -- contents]]
+
+
+
+## References
+
+Modernized review:
+
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
+
 
 
 
