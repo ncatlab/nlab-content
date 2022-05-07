@@ -57,6 +57,13 @@ There are two classes of exotic $\mathbb{R}^4$'s: large and small. A large exoti
 
 * The _small exotic $\mathbb{R}^4$_ (or _ribbon $\mathbb{R}^4$_) is constructed by using the failure of the smooth [[h-cobordism theorem]] in dimension 4 ([Donaldson 1987](#Donaldson1), [1990](#Donaldson2)). [Bizaca and Gompf (1996)](#BizGompf) are able to present an infinite handle body of a small exotic $\mathbb{R}^4$ which serve as a coordinate representation.
 
+
+### Exotic $S^2 \times S^2$
+
+There exists an infinite family of mutually non-diffeomorphic irreducible smooth structures on the topological 4-manifold $S^2 \times S^2$ ([Akhmedov-Park 10](#AkhmedovPark10)).
+
+
+
 ### Exotic 4-spheres?
  {#Exotic4Spheres}
 
@@ -182,6 +189,10 @@ The first construction of exotic smooth structures was on the 7-[[sphere]] in
 On the open issue of exotic [[4-spheres]]:
 
 * {#FreedmanGompfMorrisonWalker09} [[Michael Freedman]], [[Robert Gompf]], [[Scott Morrison]], [[Kevin Walker]], _Man and machine thinking about the smooth 4-dimensional Poincar&#233; conjecture_, Quantum Topology, Volume 1, Issue 2 (2010), pp. 171-208 ([arXiv:0906.5177](http://arxiv.org/abs/0906.5177))
+
+On exotic $S^2 \times S^2$
+
+* {#AkhmedovPark10} Anar Akhmedov, B. Doug Park, _Exotic smooth structures on $S^2 \times S^2$_ ([arXiv:1005.3346](https://arxiv.org/abs/1005.3346))
 
 
 Review:
