@@ -34,7 +34,7 @@ In the context of [[equivariant homotopy theory]] this is also called the "coars
 
 ### In topological spaces
 
-Throughout, write [[Top]] for the [[category]] of [[compactly generated weak Hausdordd spaces]].
+Throughout, write [[Top]] for the [[category]] of [[compactly generated weak Hausdorff spaces]].
 
 \begin{definition}
   For $G \,\in\, Grp(TopSp)$ a [[topological group]], write
