@@ -53,8 +53,7 @@ Beware the existence of a book of similar title, by the same author and largely 
 
 10. Orbit categories, fundamental groups, and coverings
 
-    * [[orbit category]]
-
+   * [[orbit category]]
 
 11. Elementary algebra of transformation groups
 
@@ -72,8 +71,7 @@ Beware the existence of a book of similar title, by the same author and largely 
 
 4. The classification theorem of Hopf
 
-* [[equivariant Hopf degree theorem]]
-
+   * [[equivariant Hopf degree theorem]]
 
 5. Maps between complex representation spheres
 
@@ -95,10 +93,7 @@ Beware the existence of a book of similar title, by the same author and largely 
 
    * [[Bredon cohomology]], [[Mackey functor]]
 
-
 10. Homotopy representations
-
-
 
 
 
