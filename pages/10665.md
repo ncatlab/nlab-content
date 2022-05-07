@@ -168,10 +168,9 @@ Consider the [[classifying space]], $B G$, of the group. Then its [[free loop sp
 
 Original articles on character rings/[[representation rings]] of [[compact Lie groups]] include
 
-* [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
-January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
+* [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques, January 1968, Volume 34, Issue 1, pp 113-128 ([numdam:PMIHES_1968__34__113_0](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
 
-* Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([Euclid](http://projecteuclid.org/euclid.jmsj/1259849785))
+* Masaru Tackeuchi, _A remark on the character ring of a compact Lie group_, J. Math. Soc. Japan Volume 23, Number 4 (1971), 555-705 ([euclid:jmsj/1259849785](http://projecteuclid.org/euclid.jmsj/1259849785))
 
 Lecture notes on characters of finite and compact Lie groups include
 
