@@ -26,9 +26,9 @@ Cofunctors arise naturally in the study [[internal category in a monoidal catego
 
 ## Definition ##
 
-A **cofunctor** from a [[category]] $A$ to a category $B$ consists of a 
+A **cofunctor** $\varphi$ from a [[category]] $A$ to a category $B$ consists of a 
 map sending each [[object]] $a \in A$ to an object $\varphi_{0}a \in B$ 
-and a map sending each pair $(a, u)$ to a [[morphism]] $\varphi_{1}(a, u) : a \to a'$ in $A$, where $a$ is an object in $A$ and $u : \varphi_{0}a \to b$ is a morphism in $B$, such that 
+and a map sending each pair $(a \in A, u : \varphi_0a \to b)$ to a [[morphism]] $\varphi_{1}(a, u) : a \to a'$ in $A$, where $a$ is an object in $A$ and $u : \varphi_{0}a \to b$ is a morphism in $B$, such that 
 
 * $\varphi_{1}$ respects codomains: $\varphi_{0}a' = cod(u)$ where $a' = cod(\varphi_{1}(a, u))$, 
 
