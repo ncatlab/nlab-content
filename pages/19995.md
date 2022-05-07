@@ -53,6 +53,12 @@ Relating the [[abc conjecture]] to [[D=4 N=4 super Yang-Mills theory]]:
 
 * [[Yang-Hui He]], Zhi Hu, Malte Probst, James Read, _Yang-Mills Theory and the ABC Conjecture_,  International Journal of Modern Physics A Vol. 33, No. 13, 1850053 (2018)  ([arXiv:1602.01780](https://arxiv.org/abs/1602.01780), [doi:10.1142/S0217751X18500537](https://doi.org/10.1142/S0217751X18500537))
 
+
+Discussion via [[machine learning]] of [[connection on a bundle|connections]] on [[heterotic line bundles]] over [[Calabi-Yau manifold|Calabi-Yau 3-folds]]:
+
+* [[Anthony Ashmore]], Rehan Deen, [[Yang-Hui He]], [[Burt Ovrut]], *Machine Learning Line Bundle Connections* ([arXiv:2110.12483](https://arxiv.org/abs/2110.12483))
+
+
 ## Related $n$Lab entries
 
 * [[quiver gauge theory]]
