@@ -142,6 +142,10 @@ If a category has equalizers, binary products and a terminal object, then it has
 
 \begin{proof} If $g,h : A \rightarrow E$ are arrows of $\mathcal{C}$ such that $e \circ g = e \circ h$, then it follows immediately from the uniqueness part of the universal property of an equaliser that $g = h$. \end{proof}
 
+## Related concepts
+
+* [[homotopy equalizer]]
+
 
 [[!redirects equalizers]]
 [[!redirects equaliser]]
