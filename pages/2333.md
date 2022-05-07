@@ -21,13 +21,13 @@
 
 ## Idea
 
-A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a [[set]] [[extra structure|equipped]] with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
+A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a [[set]] [[extra structure|equipped]] with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_, which a special kind of convex space, also defined below.
 
-The [[category]] of convex spaces is an algebraic theory, being the affine part of the theory of $K$-(semi)modules with only the idempotent operations.  This definition is used by [Meng (1989)](#Meng), and many basic properties of the category are detailed therein.  The category is complete, cocomplete, symmetric monoidal closed under the (usual) tensor product construction, and has a cogenerator [Borger and Kemper (1994)](#Borger).   The subcategory consisting of the single object, the unit interval, is dense (left-adequate) in the category.  This follows from Isbell's theorem on left adequate subcategories for algebraic theories, using the fact that the free convex space on 2 elements is the unit interval. 
+The [[category]] of convex spaces is an algebraic theory, being the affine part of the theory of $K$-(semi)modules with only the idempotent operations.  This definition is used by [Meng (1989)](#Meng), and many basic properties of the category are detailed therein.  The category is complete, cocomplete, symmetric monoidal closed under the (usual) tensor product construction, and has a cogenerator [B&ouml;rger and Kemper (1994)](#Borger).   The subcategory consisting of the single object, the unit interval, is dense (left-adequate) in the category.  This follows from Isbell's theorem on left adequate subcategories for algebraic theories, using the fact that the free convex space on 2 elements is the unit interval. 
 
 Axiomatically, a convex space can be characterized as a [[set]] $X$ equipped with a family of [[functions]] $c_p : X \times X \to X$ satisfying some natural [[axioms]] (described below). 
 
-For examples All [[nonunital ring|nonunital]] [[commutative rings]] are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
+For examples all [[nonunital ring|nonunital]] [[commutative rings]] are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
 
 
 The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, all **affine spaces** are convex spaces as defined below.
@@ -76,7 +76,7 @@ The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(x,y) = x \vee y = x 
 There is a nice abstract converse to the example of a [[convex subset]] of an affine space.  A convex space is __cancellative__ if $y = z$ whenever $c_p(x,y) = c_p(x,z)$ for some $c$ and $p \ne 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
 
 +-- {: .un_theorem}
-###### Theorem (Thm 2 in the paper by Stone)
+**Theorem** (Thm. 2 in the paper by Stone)
 
 A convex space is cancellative if and only if it is isomorphic (as a convex space) to a convex subset of some real affine space.
 =--
@@ -98,7 +98,7 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 *  _[[Handbook of Analysis and its Foundations]]_, Section 12.7 (short and to the point).
 
-* {#Borger} Borger & Kemper, Cogenerators for convex spaces, Applied Categorical Struc- tures, Vol. 2 (1994), 1-11.
+* {#Borger} B&ouml;rger & Kemper, Cogenerators for convex spaces, Applied Categorical Structures, Vol. 2 (1994), 1-11.
  
 *  Romanowska, Smith, Or&#322;owska; Abstract barycentric algebras; [pdf](http://staff.science.uva.nl/~gfontain/tacl09-abstracts/tacl2009_submission_48.pdf).  This generalises from $[0,1]$ to an arbitrary $L \Pi$-algebra ($L$ for '&#321;ukasiewicz', $\Pi$ for 'product', so think of $[0,1]$ as a space of fuzzy truth values).
 
