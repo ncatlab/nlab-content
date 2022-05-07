@@ -354,6 +354,8 @@ Exposition and introduction:
 
 * [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, July 7, 2013, [pdf](https://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Trieste-Lecture-Notes.pdf).
 
+* Christian Rüschoff, *Simplicial Sets*, Lecture Notes 2017 ([pdf](https://www.mathi.uni-heidelberg.de/~rueschoff/ss17sset/sset.pdf), [[Rueschoff_SimplicialSets.pdf:file]])
+
 
 Further discussion in the context of [[simplicial homotopy theory]]/[[algebraic topology]]:
 
