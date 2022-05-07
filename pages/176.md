@@ -415,11 +415,16 @@ The mathematical axioms of CFT, as well as its relevance for surface phenomena g
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
-The first comprehensive physics textbook on CFT was maybe
+Textbook accounts:
 
 * Philippe Di Francesco,Pierre Mathieu,David S&#233;n&#233;chal, _Conformal field theory_, Springer 1997
 
-Introduction and surveys include
+* [[Martin Schottenloher]], *A Mathematical Introduction to Conformal Field Theory*, Lecture Notes in Physics **759**, Springer 2008 ([doi:10.1007/978-3-540-68628-6](https://link.springer.com/book/10.1007/978-3-540-68628-6), [web](https://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/))
+
+
+Introduction and surveys:
+
+* [[Paul Ginsparg]], *Applied Conformal Field Theory*, lectures at: *[Fields, strings, critical phenomena, Les Houche Summer School 1988](https://inis.iaea.org/search/search.aspx?orig_q=RN:21047524)([arXiv:hep-th/9108028](https://arxiv.org/abs/hep-th/9108028))
 
 * {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
@@ -439,28 +444,16 @@ For a discussion of mathematical formalization ([[vertex operator algebras]], [[
 
 * {#Tener18} James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
 
+* {#HuangKong05} [[Yi-Zhi Huang]], [[Liang Kong]], _Full field algebras_, Commun.Math.Phys.272:345-396,2007 ([arXiv:0511328](http://arxiv.org/abs/math/0511328))
+
+* [[Liang Kong]], _Full field algebras, operads and tensor categories_, Adv. Math.213:271-340, 2007 ([arXiv:0603065](http://arxiv.org/abs/math/0603065))
+
+
 For a survey of perspectives in CFT with an eye towards [[string theory]] see various contributions in 
 
 * [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
 
-### CFT on the plane
-
-A textbook directed at mathematicians and explaining the "classical" concept of a CFT, i.e. without reference to categories, is this:
-
-* Martin Schottenloher: _A mathematical introduction to conformal field theory_ (2nd edition, [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1161.17014&format=complete))
-
-A survey of some of the basic manipulations in chiral CFT, motivated from a [[path integral]] perspective is at
-
-* [[Domenico Fiorenza]], _[[domenicofiorenza:Vertex algebras avant Borcherds]]_
-
-See also the references at [[vertex operator algebra]].
-
-Discussion of full field algebra includes
-
-* {#HuangKong05} [[Yi-Zhi Huang]], [[Liang Kong]], _Full field algebras_, Commun.Math.Phys.272:345-396,2007 ([arXiv:0511328](http://arxiv.org/abs/math/0511328))
-
-* [[Liang Kong]], _Full field algebras, operads and tensor categories_, Adv. Math.213:271-340, 2007 ([arXiv:0603065](http://arxiv.org/abs/math/0603065))
 
 ### CFT on complex curves/surfaces of arbitrary genus
 
