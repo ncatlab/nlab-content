@@ -230,7 +230,7 @@ and
  
 The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
-* {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
+* {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_, Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
 
 * [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
 
