@@ -34,10 +34,10 @@ The suggestion that there is a black hole "firewall" phenomenon originates in
 * {#AMPS} [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_ ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
    
 
-with a folowup in
+with a folowup in:
 
- * A. Almheiri, [[Don Marolf]], [[Joseph Polchinski]], D. Stanford, J. Sully, _An Apologia for Firewalls_ 2013 ([arXiv:1304.6483](http://arxiv.org/abs/1304.6483)) 
-   {#AMPSS}
+ * {#AMPSS} [[Ahmed Almheiri]], [[Don Marolf]], [[Joseph Polchinski]], [[Douglas Stanford]], [[James Sully]], _An Apologia for Firewalls_ 2013 ([arXiv:1304.6483](http://arxiv.org/abs/1304.6483)) 
+   
 
 A systematic analysis of the (non-)phenomenon using actual computations in [[AdS-CFT duality]] is in 
 
@@ -52,10 +52,10 @@ A useful comment on that article is in
 
 * [[Ted Jacobson]], _Boundary unitarity without firewalls_ ([arXiv:1212.6944](http://arxiv.org/abs/1212.6944))
 
-In the course of this debate, the following article proposed that there is a close relation between [[wormholes]] (Einstein-Rosen bridges) and [[quantum entanglement]] (Einstein-Podolsky-Rosen phenomenon), now known as "[[ER = EPR]]"
+In the course of this debate, the following article proposed that there is a close relation between [[wormholes]] ([[Einstein-Rosen bridges]]) and [[quantum entanglement]] ([[EPR paradox|Einstein-Podolsky-Rosen phenomenon]]), now known as "[[ER = EPR]]":
 
- * [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_ 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533)) 
-   {#EREPR}
+ * {#EREPR} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_ 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533)) 
+   
 
 
 Other contributions to the issue include the following
