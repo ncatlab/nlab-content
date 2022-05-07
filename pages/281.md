@@ -34,7 +34,7 @@ which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivale
 
 (...)
 
-* [[permutation|Permutations]] are automorphisms in [[Set]]. 
+* [[permutation|Permutations]] are automorphisms in [[FinSet]]. 
 
 * [[automorphism of a vertex operator algebra]]
 
