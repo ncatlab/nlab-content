@@ -79,7 +79,7 @@ Then:
        \mathcal{D}_{/{R(b)}} 
          \overset{\;\;L\;\;}{\longrightarrow} 
        \mathcal{C}_{/{(L \circ R(b))}} 
-         \overset{\;\;(\epsilon_{b})_\ast\;\;}{\longrightarrow}
+         \overset{\;\;(\epsilon_{b})_!\;\;}{\longrightarrow}
        \mathcal{C}_{/b}
      $$
 
@@ -433,6 +433,42 @@ The **second case** follows analogously, but a little more directly since no pul
 In conclusion, the transformations (1) $\leftrightarrow$ (2) consitute a [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) that witnesses an adjunction of the second claimed form (eq:SlicedAdjointFunctorsOverRb).
 \end{proof}
 
+
+\begin{remark}
+  \label{LeftAdjointOfSlicedAdjunctionFormsAdjuncts}
+**(left adjoint of sliced adjunction forms adjuncts)** \linebreak
+  The sliced adjunction (Prop. \ref{SliceAdjoints}) in the second form (eq:SlicedAdjointFunctorsOverRb) is such that the sliced [[left adjoint]]  sends slicing morphism $\tau$ to their [[adjuncts]] $\widetilde{\tau}$, in that (again by [this Prop.](adjoint+functor#GeneralAdjunctsInTermsOfAdjunctionUnitCounit)):
+
+$$
+  L_{/d}
+  \,
+  \left(
+    \array{
+      c
+      \\
+      \big\downarrow {}^{\mathrlap{\tau}}
+      \\
+      R(b)
+    }
+  \right)
+  \;\;
+  =
+  \;\;
+  \left(
+  \array{
+    L(c)
+    \\
+    \big\downarrow {}^{\mathrlap{\widetilde{\tau}}}
+    \\
+    b
+  }
+  \right)
+  \;\;\;
+  \in
+  \;
+  \mathcal{D}_{/b}
+$$
+\end{remark}
 
 
 
