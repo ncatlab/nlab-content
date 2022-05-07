@@ -1615,6 +1615,10 @@ Expressing the [[rational cohomology]] of [[ordered configuration spaces of poin
 
 * Quoc P. Ho, _Higher representation stability for ordered configuration spaces and twisted commutative factorization algebras_ ([arXiv:2004.00252](https://arxiv.org/abs/2004.00252))
 
+Discussion of the [[Morava E-theory]] of configuration spaces of points:
+
+* [[Lukas Brantner]], [[Jeremy Hahn]], [[Ben Knudsen]], *The Lubin-Tate Theory of Configuration Spaces: I* ([arXiv:1908.11321](https://arxiv.org/abs/1908.11321))
+
 
 ### Homotopy
 
