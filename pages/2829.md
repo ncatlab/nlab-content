@@ -1,5 +1,5 @@
 
-* [website](http://www.dom.edu/academics/rcas/faculty.html)
+* [faculty website](https://www.cuchicago.edu/faculty/mathematics-computer-science/kristen-schemmerhorn/)
 
 #related $n$Lab entries#
 
