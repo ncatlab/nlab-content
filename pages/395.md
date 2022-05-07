@@ -628,7 +628,7 @@ with
 * $p_f$ a fibration
 
 * $\sigma_f$ a weak equivalence that is a 
-  [[section]] ( a [[inverse|right inverse]]):
+  [[section]] ( a [[inverse|right inverse]]) of an acyclic fibration:
   $$
     Id_{\mathbf{E}_f B}
     =
@@ -1059,150 +1059,42 @@ The pullback of a weak equivalence along a fibration
 is again a weak equivalence.
 
 =--
+\begin{proof}
+Let be a fibration $p:E\to B$ and let $e:A\to B$ be a weak equivalence. Without
+loss of generality we can assume that $e$ is a section of a acyclic fibration
+$q:B\to A$ -- otherwise we first decompose with the factorization lemma and then
+pull back along the factors individually.
 
-+-- {: .proof}
-###### Proof
-
-
-
-Let 
-$u : B' \to B$ be a weak equivalence and
-$ p : E \to B$ be a fibration. We want to show that the
-left vertical morphism in the [[pullback]]
-
-$$
-  \array{
-    E \times_B B' &\to& B'
-    \\
-    \;\;\;\;\downarrow^{\mathrlap{\Rightarrow \in W} } 
-    && \;\downarrow^{\mathrlap{\in W}}
-    \\
-    E &\stackrel{\in F}{\to}& B
-  }
-$$
-
-is a fibration. 
-
-First of all, using the factorization lemma
-we may always factor $B' \to B$ as
-
-$B ' \stackrel{\in W}{\to} \mathbf{E}_u B 
- \stackrel{\in W \cap F}{\to} B$
-
-with the first morphism a weak equivalence that is
-a right inverse to an acyclic fibration
-and the right one an acyclic fibration.
-
-Then the pullback diagram in question may be decomposed
-into two consecutive pullback diagrams
-
-$$
-  \array{
-    E \times_B B' &\to& B'
-    \\
-    \downarrow && \downarrow
-    \\
-    Q &\stackrel{\in F}{\to}& \mathbf{E}_u B
-    \\
-    \;\;\downarrow^{\mathrlap{\in W \cap F}} 
-    && \;\;\downarrow^{\mathrlap{\in W \cap F}}
-    \\
-    E &\stackrel{\in F}{\to}& B
-  }
-  \,,
-$$
-
-where the morphisms are indicated as fibrations and
-acyclic fibrations using the stability of these
-under arbitrary pullback.
-
-This means that the proof reduces to proving that weak equivalences
-$u : B' \stackrel{\in W}{\to} B$ 
-that are right inverse to some acyclic fibration
-$v : B \stackrel{\in W \cap F}{\to} B'$
-map to a weak equivalence under pullback along a fibration.
-
-Given such $u$ with right inverse $v$, 
-consider the pullback diagram
-
-$$
-  \array{
-    E
-    \\
-    & {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
-    \\
-    &&
-       E_1 := B \times_{B'} E 
-    &
-       \stackrel{\in W \cap F}{\to} 
-    & 
-       E
-    \\
-    &&\downarrow^{\mathrlap{\in F}} && \downarrow^{\mathrlap{p \in F}}
-    \\
-    &&&& B 
-    \\
-    &&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
-    \\
-    &&B &\stackrel{v \in W \cap F}{\to}& B'
-  }
-  \,.
-$$
-
-Notice that the indicated universal morphism 
-$p \times Id : E \stackrel{\in W}{\to} E_1$ 
-into the pullback is a weak equivalence
-by [[category with weak equivalences|2-out-of-3]].
-
-The previous lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} says that weak equivalences between fibrations over $B$
-are themselves preserved by base extension along
-$u : B' \to B$. In total this yields the following diagram
-
-$$
-  \array{
-    u^* E = B' \times_B E
-    &\to &E
-    \\
-    &{}_{\in W}\searrow^{u^*(p \times Id)}
-    && {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
-    \\
-    &&
-    u^* E_1
-    &\to&
-       E_1     &
-       \stackrel{\in W \cap F}{\to} 
-    & 
-       E
-    \\
-    &&\downarrow^{\mathrlap{\in F}}&&\downarrow^{\mathrlap{\in F}} 
-    && \downarrow^{\mathrlap{p \in F}}
-    \\
-    &&&&&& B 
-    \\
-    &&\downarrow&&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
-    \\
-    &&
-    B'
-    &\stackrel{u}{\to}&
-    B &\stackrel{v \in W \cap F}{\to}& B'
-  }
-$$
-
-so that with $p \times Id  : E \to E_1$ a
-weak equivalence also $u^* (p \times Id)$ 
-is a weak equivalence, as indicated.
-
-Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence.
-By 2-out-of-3 for that it is now sufficient to 
-show that $u^* E_1  \to E_1$ is a weak equivalence.
-
-That finally follows now since by assumption the
-total bottom horizontal morphism is the identity.
-Hence so is the top horizontal morphism. Hence
-$u^* E_1  \to E_1$ is right inverse to a weak
-equivalence, hence is a weak equivalence.
-
-=--
+Consider the following diagram where the four tiled squares are pullbacks,
+$f=\langle{p,\mathrm{id}}\rangle$, and the bent back rectangle is also a
+pullback.
+\begin{tikzcd}[sep = 15]
+        Y       \ar[rr,"h"']
+                \ar[rd,"g"]
+                \ar[rddddd, bend right]
+&&      E       \ar[rd,"f" description]
+                \ar[rrrd,"\mathrm{id}"]
+                \ar[rddddd, bend right,"p"]
+\\&     E       \ar[dd,"p"]
+                \ar[rr, crossing over,"k"' near end]
+&&      X       \ar[rr,"l"']
+                \ar[dd]
+&&      E       \ar[dd,"p"]
+\\\\&   B       \ar[rr, crossing over]
+                \ar[dd,"q"]
+&&      \bullet \ar[rr]
+                \ar[dd]
+&&      B       \ar[dd,"q"]
+\\\\&   A       \ar[rr,"e"]
+&&      B       \ar[rr,"q"]
+&&      A
+\end{tikzcd}
+$l$ is a weak equivalence since $q$ is a acyclic fibration, and by 2-out-of-3 we can
+conclude that $f$ is a weak equivalence as well. By the preceding lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences}, so is
+$g$. The goal is to show that $h$ is a weak equivalence, and by 2-out-of-3 it's enough
+to check that for $k$. This follows again from 2-out-of-3 since $k$ is a section of
+$l$ (because the bottom row of the diagram is an identity).
+\end{proof}
 
 +-- {: .num_remark}
 ###### Remarks
