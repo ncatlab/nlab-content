@@ -14,7 +14,8 @@ On the [[homotopy theory of homotopy theories]] (the [[(infinity,1)-category of 
 
 Introducing [[model toposes]]/[[(∞,1)-toposes]]:
 
-* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
+
 
 Review of [[higher topos theory]]:
 
