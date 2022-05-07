@@ -73,10 +73,6 @@ $$
 
 ## Properties
 
-### Basic properties
- {#BasicProperties}
-
-The following is immediate from Def. \ref{CayleyDistance}:
 
 \begin{prop}\label{CayleyMetricIsRightInvariant}
 **(Cayley metric is right invariant)**
@@ -101,54 +97,12 @@ $$
  \,.
 $$
 \end{prop}
-
-\begin{prop}\label{CayleyDistancePreservedByInclusionOfSymmetricGroups}
-  Cayley distance is preserved under the canonical inclusions of [[symmetric groups]]
-
-\[
-  \label{CanonicalInclusionsOfSymmetricGroups}
-  Sym(n)
-  \overset{
-    i
-  }{
-    \hookrightarrow 
-  }
-  Sym(n+1)
-  \hookrightarrow 
-  Sym(n+2)
-  \hookrightarrow
-  \cdots
-\]
-
-in that 
-
-$$
-  d_C( \sigma_1, \sigma_2 ) 
-    \; = \;
-  d_C\big( 
-    i(\sigma_1), i(\sigma_2)
-  \big) 
-  \,.
-$$
-
-In other words, when regarding the [[metric space]] given by the set of permutations in $Sym(n)$ with their Cayley distance function between them 
-
-* as an $(\mathbb{R}_{\geq 0}, \geq)$0-[[enriched category]] (see [here](metric+space#LawvereMetricSpace)), then the [[functors]] induced by the inclusions (eq:CanonicalInclusionsOfSymmetricGroups) are [[fully faithful functor|fully faithful]] and hence are [[full subcategory]] inclusions.
-
-* as a [[matrix]], then the inclusions (eq:CanonicalInclusionsOfSymmetricGroups) correspond to  [[principal submatrices]].
-
-\end{prop}
 \begin{proof}
-  This is clear from the definition via minimum numbers of transpositions:
-  Since $i(\sigma_1)$ and $i(\sigma_2)$ necessarily agree in the $n+1$st entry, no permutation in a minimal sequence effects this entry, which means that all permutations in the minimal sequence already come from $Sym(n)$.
+  This is immediate from the definition.
 \end{proof}
 
-
-### In terms of numbers of cycles
- {#InTermsOfNumbersOfCycles}
-
 \begin{prop}\label{CayleyObservation}
-**(Cayley's observation)**
+**(Cayley's formula)**
   The Cayley distance (Def. \ref{CayleyDistance}) between $\sigma_1, \sigma_2 \,\in\, Sym(n)$ equals $n$ minus the [[natural number|number]] of [[permutation cycles]] in $\sigma_1 \circ \sigma_2^{-1}$:
 
 $$
@@ -203,6 +157,67 @@ Now observe that:
 
 Since it is $k-1$ transposition factors in (eq:CyclicPermutationAsProductOfTranspositions) for cycles of $k$ elements, each cycle reduces the number of transposition needed by one.
 \end{proof}
+
+
+\begin{prop}\label{CayleyDistancePreservedByInclusionOfSymmetricGroups}
+  Cayley distance is preserved under the canonical inclusions of [[symmetric groups]]
+
+\[
+  \label{CanonicalInclusionsOfSymmetricGroups}
+  Sym(n)
+  \overset{
+    i
+  }{
+    \hookrightarrow 
+  }
+  Sym(n+1)
+  \hookrightarrow 
+  Sym(n+2)
+  \hookrightarrow
+  \cdots
+\]
+
+in that 
+
+$$
+  d_C( \sigma_1, \sigma_2 ) 
+    \; = \;
+  d_C\big( 
+    i(\sigma_1), i(\sigma_2)
+  \big) 
+  \,.
+$$
+
+In other words, when regarding the [[metric space]] given by the set of permutations in $Sym(n)$ with their Cayley distance function between them 
+
+* as an $(\mathbb{R}_{\geq 0}, \geq)$0-[[enriched category]] (see [here](metric+space#LawvereMetricSpace)), then the [[functors]] induced by the inclusions (eq:CanonicalInclusionsOfSymmetricGroups) are [[fully faithful functor|fully faithful]] and hence are [[full subcategory]] inclusions.
+
+* as a [[matrix]], then the inclusions (eq:CanonicalInclusionsOfSymmetricGroups) correspond to  [[principal submatrices]].
+
+\end{prop}
+\begin{proof}\label{ProofOfCayleyDistancePreservedByInclusionOfSymmetricGroups}
+  Observing that
+  $$
+    \left\vert
+    Cycles
+    \big(
+      i(\sigma_1) \circ i(\sigma_2)^{-1}
+    \big)
+    \right\vert
+    \;=\;
+    \left\vert
+    Cycles
+    \big(
+      \sigma_1 \circ \sigma_2^{-1}
+    \big)
+    \right\vert
+    \;+\;
+    1
+  $$
+  the claim follows by Cayley's formula (Prop. \ref{CayleyObservation}).
+\end{proof}
+
+
 
 ## Examples
 
