@@ -92,7 +92,7 @@ The [[presheaf category]] over a test category with the above weak equivalences 
 +-- {: .num_theorem}
 ###### Theorem
 
-A small category $\mathcal{A}$ is a local test category if and only if the category of presheaves of sets on $\mathcal{A}$ is equipped with a [[model category]] structure whose cofibrations are the monomorphisms with the weak equivalences defined as above. Such a model category structure is always [[proper model category | proper]]. Furthermore, if $\mathcal{A}$ is a local test category, the assignment $X\mapsto (i_{\mathcal{A}}(X)\to\mathcal{A})$ is a [[Quillen equivalence]]
+A small category $\mathcal{A}$ is a local test category if and only if the category of presheaves of sets on $\mathcal{A}$ is equipped with a [[model category]] structure whose cofibrations are the monomorphisms with the weak equivalences defined as above. Such a model category structure is always [[proper model category | proper]]. Furthermore, if $\mathcal{A}$ is a local test category, the assignment $X\mapsto (N(i_{\mathcal{A}}(X))\to N(\mathcal{A}))$ is a [[Quillen equivalence]]
 $$\mathcal{A}Set\to SSet/N(\mathcal{A})$$
 (where $SSet/\mathcal{C}$ is equipped with the sliced [[classical model structure on simplicial sets | Kan-Quillen model structure]]),
 and thus induces equivalences of homotopy categories
