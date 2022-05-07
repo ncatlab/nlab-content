@@ -27,7 +27,7 @@ In the words of [Gray 1974, p. VII](#Gray74):
 
 > The purpose of category theory is to try to describe certain general aspects of the structure of mathematics.  Since category theory is also part of mathematics, this categorical type of description should apply to it as well as to other parts of mathematics. $[\dots]$
 
-> The basic  idea is that the category of small categories, $Cat$, is a 2-category with properties and that one  should attempt to identify those properties  that  enable one to do the "structural parts of category heory".
+> The basic  idea is that the category of small categories, $Cat$, is a 2-category with properties and that one  should attempt to identify those properties  that  enable one to do the "structural parts of category theory".
 
 This is analogous to -- in fact is a [[categorification]] of -- how ([[structural set theory|structural]]) [[set theory]] may be understood as the study of the [[1-category]] [[Set]] of all [[sets]], whose good abstract properties are largely captured by understanding it as being the archetypical [[topos]] ("1-topos"). 
 
