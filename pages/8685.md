@@ -34,3 +34,4 @@ A version of [[PBW theorem]] states that if a [[Lie algebra]] $g$ over a [[field
 
 [[!redirects associated graded rings]]
 [[!redirects associated graded algebra]]
+[[!redirects associated graded algebras]]
