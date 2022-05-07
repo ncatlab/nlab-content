@@ -10,6 +10,8 @@ In [[solid state physics]]:
 
 * [[topological state of matter]]
 
+  * [[quantum material]]
+
   * [[gapped Hamiltonian]]
 
   * [[topological order]], [[symmetry protected trivial order]]
