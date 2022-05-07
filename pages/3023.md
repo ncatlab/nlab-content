@@ -147,6 +147,8 @@ By the [[Riemann existence theorem]], every connected compact [[Riemann surface]
 
 * [[beta-gamma system]]
 
+* [[quadratic differential]]
+
 ## References
 
 Historical references include
