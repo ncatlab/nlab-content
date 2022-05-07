@@ -387,6 +387,8 @@ Special limits and structures in derivators:
 
 ## References
 
+### General
+
 The term _derivator_ is originally due to [[Grothendieck]], introduced in _[[Pursuing Stacks]]_ . 
 The first fifteen chapters of a 2000 page manuscript of Grothendieck (in French) about derivators can be found at:
 
@@ -434,30 +436,9 @@ An introduction to some of the theory of pointed and stable derivators, in Engli
 
 * [[Denis-Charles Cisinski]] and [[Amnon Neeman]], _Additivity for derivator K-theory_ , [MR](http://www.ams.org/mathscinet-getitem?mr=2382732)
 
-An brief informal discussion of derivators as a 2-categorical tool for studying $(\infty,1)$-categories is contained in
-
-* [[Mike Shulman]], _Squeezing Higher Categories out of Lower Categories_ ([blog](http://golem.ph.utexas.edu/category/2010/05/squeezing_higher_categories_ou.html))
-
-In the paper
-
-* {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
-([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
- 
-
-it is proven that the 2-category of "[[locally presentable category|locally presentable]]" derivators is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  Thus in some sense derivators capture "all the information" about a combinatorial model category, hence also about a [[locally presentable (∞,1)-category]].
-
-Along somewhat similar lines, in
-
-* Kevin Carlson, _On the ∞-categorical Whitehead theorem and the embedding of quasicategories in prederivators_, [arxiv](https://arxiv.org/abs/1612.06980)
-
-it is shown that $(\infty,1)$-categories can be literally embedded in "prederivators" as long as we allow *strict morphisms* between the latter (which is arguably somewhat against the spirit of derivators, but still interesting), and that at the 2-categorical level the embedding is conservative but generally fails to be full on large $(\infty,1)$-categories.  This is developed further in
-
-* Daniel Fuentes-Keuthan, Magdalena Kedziorek, Martina Rovelli, *A model structure on prederivators for (∞,1)-categories*, [arxiv](https://arxiv.org/abs/1810.06496), 2018
-
 An introductory discussion aimed towards [[stable derivator]]s is also in
 
 * {#Groth} [[Moritz Groth]], _Monoidal derivators and additive derivators_, [arxiv/1203.5071](http://arxiv.org/abs/1203.5071); _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
-
 
 
 Other references include:
@@ -468,7 +449,41 @@ Other references include:
 
 * {#Richardson20} Richardson, James, _Enriched derivators_, [arXiv:2010.07740](https://arxiv.org/abs/2010.07740), 2020
 
-* {#GPS14} Moritz Groth, Kate Ponto, and [[Mike Shulman]], _Mayer-Vietoris sequences in stable derivators_. Homology, Homotopy and Applications 16 (1) 2014, [arxiv:1306.2072](http://arxiv.org/abs/1306.2072)
+* {#GPS14} [[Moritz Groth]], [[Kate Ponto]], and [[Mike Shulman]], _Mayer-Vietoris sequences in stable derivators_. Homology, Homotopy and Applications 16 (1) 2014, [arxiv:1306.2072](http://arxiv.org/abs/1306.2072)
+
+
+
+
+
+
+
+
+### Relation to $\infty$-categories
+
+An brief informal discussion of derivators as a 2-categorical tool for studying [[(infinity,1)-categories|$(\infty,1)$-categories]] is contained in
+
+* [[Mike Shulman]], _Squeezing Higher Categories out of Lower Categories_ ([blog](http://golem.ph.utexas.edu/category/2010/05/squeezing_higher_categories_ou.html))
+
+In the paper
+
+* {#Renaudin06} [[Olivier Renaudin]], *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
+([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
+ 
+
+it is proven that the [[2-category]] of "[[locally presentable category|locally presentable]]" derivators is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]] (see also at *[[Ho(CombModCat)]]*).  Thus in some sense derivators capture "all the information" about a combinatorial model category, hence also about a [[locally presentable (∞,1)-category]].
+
+Along somewhat similar lines, in
+
+* Kevin Arlin, _On the ∞-categorical Whitehead theorem and the embedding of quasicategories in prederivators_ ([arxiv:1612.06980](https://arxiv.org/abs/1612.06980))
+
+it is shown that $(\infty,1)$-categories can be literally embedded in "prederivators" as long as we allow *strict morphisms* between the latter (which is arguably somewhat against the spirit of derivators, but still interesting), and that at the 2-categorical level the embedding is conservative but generally fails to be full on large $(\infty,1)$-categories.  This is developed further in
+
+* Daniel Fuentes-Keuthan, Magdalena Kedziorek, Martina Rovelli, *A model structure on prederivators for (∞,1)-categories*, [arxiv](https://arxiv.org/abs/1810.06496), 2018
+
+
+
+
+
 
 
 [^1]: The condition of left properness does not appear in the arXiv version of [Renaudin 2006](#Renaudin06), but is added in the published version. By  [[Dugger's theorem]] (see [here](combinatorial+model+category#EveryCombinatorialModelCatQEquivalentToLeftProper)) every combinatorial model category is Quillen equivalent to a left proper one, but it is not immediate that every [[zig-zag]] of Quillen equivalences between left proper combinatorial model categories may be taken to pass through only left proper ones.
