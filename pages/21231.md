@@ -36,7 +36,7 @@
 
 What came to be called the _Schwinger effect_ ([Sauter 31](#Sauter31), [Heisenberg-Euler 36](#HeisenbergEuler36), [Schwinger 51](#Schwinger51), [Affleck-Manton 82](#AffleckManton82), [Affleck-Alvarez-Manton 82](#AffleckAlvarezManton82)) is a [[non-perturbative effect]] of [[vacuum polarization]] expected in [[quantum electrodynamics]], where a strong [[electric field]] causes [[electron]]/[[positron]]-[[pairs]] to appear out of the [[vacuum]].  The analogous effect in [[quantum chromodynamics]] would lead to [[deconfinement]] of [[quarks]] in a strong [[electric field]].
 
-While the effect is clearly predicted by established [[theory (physics)|theory]], it has not been observed in [[experiment]] yet, since the required electric field strengths are so large. But recent experiments get close to the required intensities ([Dunne 09](#Dunne09)).
+While the effect is clearly predicted by established [[theory (physics)|theory]], it has not been observed in [[experiment]] yet, since the required electric [[field strengths]] are so large. But recent experiments get close to the required intensities ([Dunne 09](#Dunne09)).
 
 
 
