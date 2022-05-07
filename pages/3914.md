@@ -731,6 +731,10 @@ Discussion in terms of [[Thom classes]]:
 
 * [[Manifold Atlas]], _[Orientation of manifolds in generalized cohomology theories](http://www.map.mpim-bonn.mpg.de/Orientation_of_manifolds_in_generalized_cohomology_theories)_
 
+In the generality of [[equivariant vector bundles]] and [[equivariant complex oriented cohomology theory]]:
+
+* [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
+Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
 
 A comprehensive account of the general abstract perspective (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
