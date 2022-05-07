@@ -25,6 +25,8 @@ Symmetric matrices correspond to [[symmetric bilinear forms]]. Accordingly a sym
 
 ## Related concepts
 
+* [[skew-symmetric matrix]]
+
 * [[hermitean matrix]]
 
 * [[triangular matrix]]
