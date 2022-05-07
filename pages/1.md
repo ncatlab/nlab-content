@@ -24,33 +24,21 @@ $\,$
 $\,$
 =-- 
 
-[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: in so far as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki) for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially, but far from exclusively, from the [[n-point of view]]: with a sympathy towards the tools and perspective of [[category theory]] and [[higher category theory]].
 
-
-# The $n$Lab
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Purpose
 {#purpose}
 
-We think of this wiki as our **lab book** that we happen to keep open for all to see.
+The nLab records and explores a wide range of mathematics. Along with work of an expository nature, original material can be found in abundance, as can notes from evolving research.
 
-+-- {: .standout}
+If you take a little time to find something in the literature, or to work through a proof or example, or to find an intuitive or new way to think about something, add a note on it to the nLab! Others will benefit, and you may well find that it proves useful to you too.
 
-The **purpose of the $n$Lab** is to provide a public place where people can make notes about stuff. The purpose is not to make polished expositions of material;  that is a happy by-product. 
+A fundamental idea behind the nLab is that the linking between pages of a wiki is a profound way to record knowledge, placing it in a rich context.
 
-We all make notes as we read papers, read books and doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and, incidentally, to make them available to others. Others might read them and add or polish them. But even if they don't, it is still easier to link from them to other notes that you've made.
+For more, see Urs Schreiber's thoughts at [[schreiber:What is... the nLab|What is... the nLab?]]. Further details can be found at [[About]].
 
-=--
-
-For more see 
-
-* [[schreiber:What is... the nLab]]?
-
-* [[About]].
-
-* Wikipedia entry: _[nLab](https://en.wikipedia.org/wiki/NLab)_
 
 ## Discussion, Comments, Questions
  {#Discussion}
