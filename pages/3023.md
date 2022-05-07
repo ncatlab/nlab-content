@@ -151,9 +151,13 @@ By the [[Riemann existence theorem]], every connected compact [[Riemann surface]
 
 ## References
 
-Historical references include
+Historical references:
 
-* [[Hermann Weyl]], _Die Idee der Riemannschen Fl&#228;che_, 1913 (_The concept of a Riemann surface_) (on the book, by Peter Schreiber, 2013: [web](http://mathineurope.eu/en/home/47-information/math-calendar/971-1913-publication-of-the-concept-of-a-riemann-surface-by-hermann-weyl))
+* [[Hermann Weyl]], _Die Idee der Riemannschen Fl&#228;che_, 1913 (*The concept of a Riemann surface*) (on the book, by Peter Schreiber, 2013: [web](http://mathineurope.eu/en/home/47-information/math-calendar/971-1913-publication-of-the-concept-of-a-riemann-surface-by-hermann-weyl))
+
+* {#Rado25} [[Tibor Radó]], *Über den Begriff der Riemannschen Fläche*, Acta Litt. Sci. Szeged, 2 (101-121), 10 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/rado.pdf), [pdf](http://acta.bibl.u-szeged.hu/13312/1/math_002_101-121.pdf))
+
+  > (proving the [[triangulation theorem]])
 
 Lecture notes:
 
