@@ -15,7 +15,7 @@
 
 ## Definition
 
-A __skewfield__ (also spelled skew-field) or a __division ring__ is a unital [[ring]] where each nonzero element has an [[inverse]] (but zero does not). A commutative skewfield is called a [[field]], but sometimes in specialized works on skewfields one often says simply field for a skewfield.
+A __skewfield__ (also spelled skew-field) or a __division ring__ is a [[unitality|unital]] [[ring]] where each non-[[zero]] [[element]] has an [[inverse]] (but [[zero]] does not). A [[commutative ring|commutative]] skewfield is called a _[[field]]_, but sometimes in specialized works on skewfields one often says simply _field_ for _skewfield_.
 
 In [[constructive mathematics]] and [[internalization|internally]], the same issues appear for skewfields as for [[fields]], and may be dealt with in the same way.
 
