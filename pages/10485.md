@@ -52,7 +52,9 @@ There are the following special classes of symmetry groups $G$ to which this app
 \begin{remark}
 **(terminology)**
 \linebreak
-Beware that some authors insist on using the specific term "SPT" only for items further down in this list. For instance the claim below that SPT's are "classified by [[group cohomology]]" applies only to the last item. The first two items are expected to have a classification in [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] (see at [[K-theory classification of topological phases of matter]]). The relation between these two cases/proposals seems not to have been discussed yet in any substance (but check a later version of this entry for more...)
+Beware that some authors insist on using the specific term "SPT" only for items further down in this list. 
+
+For instance the claim below that SPT's are "classified by [[group cohomology]]" applies only to the last item. The first two items, for the case of free fermion systems at least, are expected to have a classification in [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] (see at [[K-theory classification of topological phases of matter]]). The relation between these two cases/proposals seems not to have been discussed yet in any substance (but check a later version of this entry for more...)
 
 Moreover, sometimes authors insist that the underlying plain topological phase of an "SPT" *must* be trivial. This makes good sense in view of the meaning of "protected" but can lead to clumsy verbiage when used generally.
 
@@ -86,7 +88,7 @@ X.-G. Wen:
 
 ### In free fermion systems
 
-Free fermion system can also have non-trivial SPT phases, such as [[topological insulator]]s and topological superconductors. Those free fermion SPT phases are classified by K-theory.
+Free fermion system can also have non-trivial SPT phases, such as [[topological insulator]]s and topological superconductors. Those free fermion SPT phases are classified by [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] (see at *[[K-theory classification of topological phases of matter]]*).
 
 ## Related concepts
 
@@ -185,11 +187,15 @@ and with both:
 [[!redirects symmetry-protected topological order]]
 [[!redirects symmetry-protected topological orders]]
 
-[[!redirects SPT order]]
-[[!redirects SPT orders]]
+[[!redirects SPT phase]]
+[[!redirects SPT phases]]
+
+[[!redirects SPT]]
+[[!redirects SPTs]]
 
 [[!redirects SPT state]]
 [[!redirects SPT states]]
-[[!redirects SPT phase]]
-[[!redirects SPT phases]]
+
+[[!redirects SPT order]]
+[[!redirects SPT orders]]
 
