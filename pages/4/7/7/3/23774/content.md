@@ -118,7 +118,7 @@ The smooth quadratic formula is only valid for real quadratic functions with pos
 
 ### Negative and zero discriminant ###
 
-As stated above, when a real quadratic function $f$ has a non-positive discriminant, $\Delta \leq 0$, if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. When $f$ has a negative discriminant, $\Delta \lt 0$, then $f$ is provably always apart from zero: if $a \gt 0$, then $f(x) \gt 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \lt 0$ for all real numbers $x$. As a result, $f$ has no zeroes in the real numbers if the determinant of $f$ is negative. 
+As stated above, when a real quadratic function $f$ has a non-positive discriminant, $\Delta \leq 0$, if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. When $f$ has a negative discriminant, $\Delta \lt 0$, then $f$ is provably always [[tight apartness relation|apart]] from zero: if $a \gt 0$, then $f(x) \gt 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \lt 0$ for all real numbers $x$. As a result, $f$ has no zeroes in the real numbers if the determinant of $f$ is negative. 
 
 Now, suppose that $f$ has zero discriminant. This means that $b^2 - 4ac = 0$, and after [[completing the square]], the resulting function is equal to 
 
@@ -138,7 +138,7 @@ There is only one zero, which occurs at the [[extremum]] of the real quadratic f
 
 ### In constructive mathematics ###
 
-In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the discriminant of $f$ is positive, negative, or zero. As a result, there exist real quadratic functions where one cannot decide the number of zeroes the function has. 
+In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the discriminant of $f$ is positive, negative, or zero. As a result, there exist real quadratic functions where one cannot decide the number of zeroes the function has. Furthermore, one cannot prove that a real quadratic function with positive determinant has exactly two zeroes. 
 
 ## See also ##
 
