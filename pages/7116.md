@@ -87,7 +87,8 @@ This is non-archimedean.
 ### On the real and complex numbers
  {#OnTheRealAndComplexNumbers}
 
-The standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
+
+Since the [[real numbers]] are a [[totally ordered abelian group]], the standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
 
 $$
   {\vert x \vert_\infty} = \max(x, -x)
@@ -139,7 +140,9 @@ The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete
 
 ## See also 
 
-* [[real absolute value]]
+* [[real square root]]
+
+* [[sign function]]
 
 ## References
 
@@ -161,3 +164,6 @@ Section 1.5, 1.6 of
 
 [[!redirects non-archimedean valuation]]
 [[!redirects non-archimedean valuations]]
+
+[[!redirects real absolute value]]
+[[!redirects real absolute values]]
