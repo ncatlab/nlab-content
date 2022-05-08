@@ -1,6 +1,8 @@
 
 > This entry is about a notion in [[algebra]] and [[analysis]]. For the notion in [[quantum field theory]] see at *[[Euclidean field theory]]*.
 
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -21,7 +23,7 @@
 
 ## Definition 
 
-An **Euclidean field** is an [[ordered field]] $F$ with a [[principal square root]] [[partial function]] $\mathrm{sqrt}:[0, \infty) \to F$ which satisfies the functional equation $\mathrm{sqrt}(x^2) = \vert x \vert$ for all real numbers $x \in \mathbb{R}$, where $x^2$ is the [[square function]] and $\vert x \vert$ is the [[absolute value]]. 
+A **Euclidean field** is an [[ordered field]] $F$ with a [[principal square root]] [[partial function]] $\mathrm{sqrt}:[0, \infty) \to F$ which satisfies the [[functional equation]] $\mathrm{sqrt}(x^2) = \vert x \vert$ for all [[real numbers]] $x \in \mathbb{R}$, where $x^2$ is the [[square function]] and $\vert x \vert$ is the [[absolute value]]. 
 
 ## See also
 
@@ -33,6 +35,8 @@ An **Euclidean field** is an [[ordered field]] $F$ with a [[principal square roo
 
 ## References
 
-Wikipedia:
+See also:
 
 * Wikipedia, _[Euclidean field](https://en.wikipedia.org/wiki/Euclidean_field)_
+
+[[!redirects Euclidean fields]]
