@@ -33,7 +33,7 @@ The **smooth principal square root** or **analytic principal square root** is a 
 
 $$(2 \mathrm{sqrt}_\mathrm{sm}) \frac{d \mathrm{sqrt}_\mathrm{sm}}{d x} = 1$$
 
-with initial conditions $\mathrm{sqrt}_\mathrm{sm}(1) = 1$. This is the real square root function used in constructive versions of the [[real quadratic formula]], or the smooth quadratic formula. Also, because $\mathrm{sqrt}_\mathrm{sm}$ is a [[smooth function]] and [[analytic function]] on the entirety of its domain, it is commonly used in [[differential calculus]] and [[integral calculus]] when calculating derivatives and integrals of half integer [[power functions]], as well as in other parts of [[analysis]]. However, $0$ is not in the domain of $\mathrm{sqrt}_\mathrm{sm}$, which means that not every real number with a real square root is in the domain of $\mathrm{sqrt}_\mathrm{sm}$, and it cannot be used in defining the metric for Euclidean spaces. 
+with initial conditions $\mathrm{sqrt}_\mathrm{sm}(1) = 1$. This is the real square root function used in constructive versions of the [[real quadratic formula]], or the smooth quadratic formula/analytic quadratic formula. Also, because $\mathrm{sqrt}_\mathrm{sm}$ is a [[smooth function]] and [[analytic function]] on the entirety of its domain, it is commonly used in [[differential calculus]] and [[integral calculus]] when calculating derivatives and integrals of half integer [[power functions]], as well as in other parts of [[analysis]]. However, $0$ is not in the domain of $\mathrm{sqrt}_\mathrm{sm}$, which means that not every real number with a real square root is in the domain of $\mathrm{sqrt}_\mathrm{sm}$, and it cannot be used in defining the metric for Euclidean spaces. 
 
 ### Other square roots
 
@@ -51,6 +51,12 @@ Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \mathrm{sqrt}(x)$ is 
 
 * [[real quadratic function]]
 
+* [[real absolute value]]
+
+* [[sign function]]
+
+* [[Euclidean field]]
+
 ## References 
 
 * {#Richman2010} [[Fred Richman]] (2010). _Algebraic functions, calculus style_. [Fred Richman's documents](http://math.fau.edu/richman/html/docs.htm).
@@ -58,6 +64,7 @@ Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \mathrm{sqrt}(x)$ is 
 [[!redirects square root function]]
 [[!redirects square root functions]]
 [[!redirects principal square root function]]
+[[!redirects principal square root functions]]
 
 [[!redirects metric square root]]
 [[!redirects metric square roots]]
