@@ -31,6 +31,8 @@ For the opinionated espousal of finitism (and much else), one can hardly do bett
 
 * [[constructive mathematics]]
 
+* [[Nelson arithmetic]]
+
 ## References
 
 * [[Edward Nelson]], _Warning Signs of a Possible Collapse of Contemporary Mathematics_ ([pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf))
