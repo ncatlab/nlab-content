@@ -528,6 +528,11 @@ Examples of nonproper model structures can be found in:
 [[!redirects left proper model category]]
 [[!redirects left proper model categories]]
 
+[[!redirects left proper model structure]]
+[[!redirects left proper model structures]]
+[[!redirects right proper model structure]]
+[[!redirects right proper model structures]]
+
 [[!redirects left proper]]
 [[!redirects right proper]]
 [[!redirects left properness]]
