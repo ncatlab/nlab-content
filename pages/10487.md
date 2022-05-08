@@ -1,3 +1,4 @@
+
 * [Perimeter Institute page](http://www.perimeterinstitute.ca/people/xiao-gang-wen) 
 
 * [personal page](http://dao.mit.edu/~wen) at MIT
@@ -26,7 +27,12 @@ Introducing [[topological entanglement entropy]]:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
 
-Claim that [[group cohomology]] classifies [[symmetry protected topological phases]]:
+Introducing the notion of [[symmetry protected topological phases]] and of [[topological order]]:
+
+* {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
+
+
+Claim that [[group cohomology]] classifies [[boson|bosonic]] [[symmetry protected topological phases]]:
 
 * {#CGLW11} Xie Chen, [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772)$]$
 
