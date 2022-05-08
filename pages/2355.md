@@ -694,7 +694,8 @@ The original suggestion of [Joyal 2008](#Joyal08) was then much expanded on (and
 
 That the two definitions (of [Joyal 2008](#Joyal08) and [Lurie 2009](#Lurie)) are in fact equivalent is first indicated in [Riehl-Verity 15, Rem. 4.4.5](#RiehlVerity15) and then made fully explicit in:
 
-* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], Section F.5 of: _Elements of $\infty$-category theory_, Cambridge University Press 2022 ([pdf](http://www.math.jhu.edu/~eriehl/elements.pdf))
+* {#RVElements} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
+
 
 A proof that a [[Quillen adjunction]] of [[model categories]] induces an adjunction between [[(∞,1)-categories]] (in the sense of [Lurie 2009](#Lurie)) is recorded in:
 
