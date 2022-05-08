@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
 #### Arithmetic
 +--{: .hide}
 [[!include arithmetic geometry - contents]]
