@@ -172,6 +172,7 @@ A [[quotient inductive type]] is a higher inductive type that includes a "0-trun
 
 * multiple definitions of the [[integers]]
 * [[polynomial rings]]
+* [[Sierpinski space]]
 * the [[cumulative hierarchy]]
 * the [[Cauchy real numbers]]
 * [[partial map classifiers]]
