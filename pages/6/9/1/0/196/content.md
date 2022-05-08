@@ -20,7 +20,7 @@
 
 ## Idea
 
-In a strict sense of the term, a **function** is a [[homomorphism]] $f \colon S \to T$ of [[sets]]: a prescription which takes any [[element]] $s \in S$ to an element $f(s) \in T$, this also called the *[[value]]* of the function at $s$.
+In a strict sense of the term, a **function** is a [[homomorphism]] $f \colon S \to T$ of [[sets]]: a prescription which takes any [[element]] $s \in S$ to a unique element $f(s) \in T$, this also called the *[[value]]* of the function at $s$.
 
 
 Instead of "function" one also speaks of _[[map]]_ or _mapping_, but those terms are used in other ways in other contexts. 
