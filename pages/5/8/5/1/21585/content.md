@@ -79,7 +79,7 @@ Review and further discussion in:
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], Section 1.3 in: _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
-* {#RiehlVerity21} [[Emily Riehl]], [[Dominic Verity]], Chapter 1 of: *Elements of $\infty$-Category Theory*, 2021 ([pdf](https://emilyriehl.github.io/files/elements.pdf))
+* {#RiehlVerity22} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
 
 [[!redirects homotopy 2-category of (infinity,1)-categories]]
 
