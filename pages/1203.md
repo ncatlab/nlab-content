@@ -26,6 +26,8 @@ In the form of an NNO, the axiom of infinity generalises to the existence of [[i
 
 One could also posit the existence of the set of [[extended natural numbers]] instead of the set of natural numbers, as the set of extended natural numbers have [[countable|countably infinite]] cardinality and is the categorical [[duality|dual]] of the natural numbers in Set, a [[terminal coalgebra]] for the endofunctor $F(X) = 1 + X$ in Set. This generalises to the existence of [[coinductive types]] or [[M-types]], which can be added as additional axioms. 
 
+One could also posit the existence of a [[universe]] $\mathcal{U}$ that satisfies the axiom of finiteness (see below). 
+
 ## Alternatives
 
 Broadly speaking, [[finite mathematics]] is mathematics that does not use or need the axiom of infinity; a finitist is an extreme breed of [[constructive mathematics|constructivist]] that believes that mathematics is better without the axiom of infinity, or even that this axiom is false.
