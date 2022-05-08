@@ -344,6 +344,7 @@ $$
 
 * [[derivation Lie algebra]]
 
+* [[sequence algebra]]
 
 ## References
 
