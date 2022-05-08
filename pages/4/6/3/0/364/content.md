@@ -13,8 +13,7 @@ Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
-* [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_ (2021) ([pdf](https://emilyriehl.github.io/files/elements.pdf))
-
+* {#RiehlVerity22} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
 
 Survey of [[homotopy theory]] from [[homotopical categories]] to [[(∞,1)-categories]]:
 
