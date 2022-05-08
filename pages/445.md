@@ -246,6 +246,8 @@ Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of
 
 * [[continuous images of compact spaces are compact]]
 
+* [[value]]
+
 
 [[!redirects images]]
 
