@@ -27,6 +27,8 @@ Some definitions will modify the value at $0$, usually to make it $1$, $-1$, or 
 
 * [[negative real number]]
 
+* [[real absolute value]]
+
 * [[step function]]
 
 
