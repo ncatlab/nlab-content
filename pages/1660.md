@@ -26,6 +26,14 @@ In other words, given any [[function]] $f$ from a Kuratowski-finite set to $S$, 
 
 Note that you can make this definition work without previously assuming the existence of natural numbers, by using an infinity-free definition of Kuratowski-[[finite set]].
 
+### Strongly infinite sets
+
+
++-- {: .un_defn}
+###### Definition
+
+A set $S$ with a [[tight apartness relation]] $\#$ is __strongly infinite__ if, given any [[natural number]] $n$ and a finite [[sequence]] $(x_1, \ldots, x_n)$ of elements of $S$, there exists an element $y$ of $S$ such that $y \# x_i$.
+=--
 
 ## Remarks
 
