@@ -316,7 +316,7 @@ This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem 
 
 For several years [[Andre Joyal]] -- who was one of the first to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
 
-* {#Joyal08} [[André Joyal]], _The theory of quasicategories and its applications_, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona 2008 ( [[JoyalTheoryOfQuasiCategories.pdf:file]])
+* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona 2008 ( [[JoyalTheoryOfQuasiCategories.pdf:file]])
 
 Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]) are in
 
@@ -372,7 +372,7 @@ A more model-independent abstract formulation is discussed in
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) ([arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
-* {#Riehl22} [[Emily Riehl]], [[Dominic Verity]], _Elements of $\infty$-Category Theory_, Cambridge University Press 2022 ([pdf](https://emilyriehl.github.io/files/elements.pdf))
+* {#RiehlVerity22} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) $[$[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)$]$
 
 
 For discussion in [[homotopy type theory]] see _[[internal category in homotopy type theory]]_ and see
