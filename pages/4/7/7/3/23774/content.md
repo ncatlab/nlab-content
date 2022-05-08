@@ -22,16 +22,19 @@
 A **real quadratic function** is a [[quadratic function]] in the [[real numbers]]. 
 
 ## Properties ##
+ {#Properties}
 
-Given a real quadratic function $f(x) \coloneqq a x^2 + b x + c$, if $\vert a \vert \gt 0$, after [[completing the square]], the quadratic function could be written as 
+Given a real quadratic function $f(x) \coloneqq a x^2 + b x + c$, if $\vert a \vert \gt 0$, after [[completing the square]], the quadratic function may be written as 
 
-$$f(x) = a \left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4 a c}{4a}$$
+$$
+  f(x) = a \left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4 a c}{4a}
+$$
 
 The [[extremum]] occurs at 
 
 $$x = -\frac{b}{2a}$$
 
-and the extremum is a [[minimum]] if $a \gt 0$ and a [[maximum]] if $a \lt 0$. The [[image]] of $f$ at the extremum is 
+and the extremum is a [[minimum]] if $a \gt 0$ and a [[maximum]] if $a \lt 0$. The value of $f$ at the extremum is 
 
 $$f(x) = \frac{4 a c - b^2}{4a}$$
 
@@ -149,11 +152,12 @@ In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in th
 
 ## References ##
 
-Wikipedia:
+See also:
 
 * Wikipedia, _[Quadratic function](https://en.wikipedia.org/wiki/Quadratic_function)_
 
 [[!redirects real quadratic functions]]
+
 [[!redirects real quadratic formula]]
 [[!redirects smooth quadratic formula]]
 [[!redirects analytic quadratic formula]]
