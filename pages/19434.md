@@ -16,7 +16,7 @@
 
 ## Idea
 
-The concept of a **Yoneda structure** provides in a general 2-categorical setting the axiomatic description of the formal properties of the usual presheaf construction and Yoneda embedding of (locally) [[small category|small categories]]. The size issues arising in that context are absorbed directly into the structure via a class of (locally) "small" maps. 
+The concept of a **Yoneda structure** provides in a general 2-categorical setting the axiomatic description of the formal properties of the usual [[category of presheaves|presheaf construction]] and [[Yoneda embedding]] of ([[locally small category|locally]]) [[small category|small categories]]. The size issues arising in that context are absorbed directly into the structure via a class of (locally) "small" maps. 
 
 ## Preliminaries
 
