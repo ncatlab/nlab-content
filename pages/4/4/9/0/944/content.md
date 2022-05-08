@@ -49,6 +49,52 @@ The __Sierpi&#324;ski space__ $\Sigma$ is the [[initial object|initial]] [[sigma
 
 =--
 
+### As a higher inductive type
+
+In type theory, __Sierpinski space__ $\Sigma$ is defined as the following [[higher inductive type]]:
+
+* A type $\Sigma$,
+* A top term $1:\Sigma$
+* A meet operation $(-)\wedge(-): \Sigma \times \Sigma \to \Sigma$
+* A left unit identity for meet
+$$m_\lambda:\prod_{a:\Sigma} 1 \wedge a = a$$ 
+* A right unit identity for meet
+$$m_\rho:\prod_{a:\Sigma} a \wedge 1 = a$$
+* A associative identity for meet
+$$m_\alpha:\prod_{a:\Sigma} \prod_{b:\Sigma} \prod_{c:\Sigma} (a \wedge b) \wedge c = a \wedge (b \wedge c)$$
+* A commutative identity for meet
+$$m_\kappa:\prod_{a:\Sigma} \prod_{b:\Sigma} a \wedge b = b \wedge a$$
+* An idempotent identity for meet
+$$m_\iota:\prod_{a:\Sigma} a \wedge a = a$$
+* A bottom term $0:\Sigma$
+* A join operation $(-)\vee(-): \Sigma \times \Sigma \to \Sigma$
+* A left unit identity for join
+$$j_\lambda:\prod_{a:\Sigma} 0 \vee a = a$$ 
+* A right unit identity for join
+$$j_\rho:\prod_{a:\Sigma} a \vee 0 = a$$
+* A associative identity for join
+$$j_\alpha:\prod_{a:\Sigma} \prod_{b:\Sigma} \prod_{c:\Sigma} (a \vee b) \vee c = a \vee (b \vee c)$$
+* A commutative identity for join
+$$j_\kappa:\prod_{a:\Sigma} \prod_{b:\Sigma} a \vee b = b \vee a$$
+* An idempotent identity for join
+$$j_\iota:\prod_{a:\Sigma} a \vee a = a$$
+* A meet-join absorption identity
+$$m_j:\prod_{a:\Sigma} \prod_{b:\Sigma} a \wedge (a \vee b) = a
+* A join-meet absorption identity
+$$j_m:\prod_{a:\Sigma} \prod_{b:\Sigma} a \vee (a \wedge b) = a
+* A sequential join function:
+$$\Vee_{n:\mathbb{N}} (-)(n): (\mathbb{N} \to \Sigma) \to \Sigma$$
+* An ascending sequence condition:
+$$s: \prod_{n:\mathbb{N}} \prod_{s:\mathbb{N} \to \Sigma} s(n) \wedge \left(\Vee_{i:\mathbb{N}} s(i)\right) = s(n)$$
+* A sequential least upper bound condition:
+$$l: \prod_{x:\Sigma} \prod_{s:\mathbb{N} \to \Sigma} \left(\prod_{n:\mathbb{N}} s(n) \wedge x = s(n)\right) \to \left(\left(\Vee_{n:\mathbb{N}} s(n)\right) \wedge x = \Vee_{n:\mathbb{N}} s(n)\right)$$
+* A sequentially distributive condition:
+$$d: \prod_{x:\Sigma} \prod_{s:\mathbb{N} \to \Sigma} x \wedge \left(\Vee_{n:\mathbb{N}} s(n)\right) = \Vee_{n:\mathbb{N}} (x \wedge s(n))$$
+* A 0-truncator 
+$$\tau_0: \prod_{a:\Sigma} \prod_{b:\Sigma} isProp(a=b)$$
+
+This is equivalently a homotopy-initial $\sigma$-frame. 
+
 ## Properties
 
 ### As a topological space
