@@ -13,6 +13,13 @@ Nelson argued for a position in the [[philosophy of mathematics]] known as [[ult
 
 * Edward Nelson, _Warning Signs of a Possible Collapse of Contemporary Mathematics_ ([pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf))
 
+### Nelson arithmetic
+
+In the same paper he defined a first order theory that was weaker than [[Peano arithmetic]], which replaces the induction schema of induction on natural numbers with a predicate and two axioms that state that induction on natural numbers for that predicate is true: 
+
+* Edward Nelson, _Warning Signs of a Possible Collapse of Contemporary Mathematics_ ([pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf))
+
+He did not give a name to the theory, so it has been called "[[Nelson arithmetic]]" for lack of a better name. 
 
 ### (In)Consistency of Peano Arithmetic
 
