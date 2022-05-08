@@ -8,7 +8,7 @@ Daniel Freed is a mathematician at University of Texas, Austin.
 Freed's work revolves around the mathematical ingredients and foundations of modern [[quantum field theory]] and of [[string theory]], notably in its more subtle aspects related to [[quantum anomaly cancellation]] (which he was maybe the first to write a clean mathematical account of). In the article _[[Higher Algebraic Structures and Quantization]]_ (1992) he envisioned much of the use of [[higher category theory]] and [[higher algebra]] in [[quantum field theory]] and specifically in the problem of [[quantization]], which has -- and still is -- becoming more widely recognized only much later. He recognized and emphasized the role of [[differential cohomology]] in physics for the description of [[higher gauge field|higher]] [[gauge fields]] and their anomaly cancellation. Much of his work focuses on the nature of the [[Freed-Witten anomaly]] in the quantization of the [[superstring]] and the development of the relevant tools in [[supergeometry]], and notably in [[K-theory]] and [[differential K-theory]]. More recently Freed aims to mathematically capture the [[6d (2,0)-superconformal QFT]].
 
 
-## Linked publications
+## Selected writings
 
 * _[[Quantum Fields and Strings]]_
 
@@ -86,6 +86,9 @@ On the [[cobordism hypothesis]]:
 
 * [[Daniel Freed]], _The cobordism hypothesis_, Bulletin of the American Mathematical Society 50 (2013), pp. 57-92, ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100), [doi:10.1090/S0273-0979-2012-01393-9](https://doi.org/10.1090/S0273-0979-2012-01393-9))
 
+On formalizing [[short-range entanglement]] in [[topological phases of matter]] via [[invertible topological field theories]]:
+
+* {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* $[$[arXiv:1406.7278](https://arxiv.org/abs/1406.7278) $]$
 
 
 ## Related entries
