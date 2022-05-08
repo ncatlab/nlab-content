@@ -24,7 +24,7 @@
 ## Idea
  {#Idea}
 
-In [[solid state physics]], by *topological order* one refers to a phenomenon that may (but need not) be exhibited by [[quantum materials]] that are in a [[topological phase of matter]]. Hence there is an implication
+In [[solid state physics]], by *topological order* ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93) [95](#Wen95), [Gu & Wen 09, p. 2](#GuWen09), [Chen, Gu & Wen 10](#ChenGuWen2010)) one refers to a phenomenon that may (but need not) be exhibited by [[quantum materials]] that are in a [[topological phase of matter]]. Hence there is an implication
 
 $$
   \text{topological order}
@@ -37,14 +37,17 @@ $$
 
 but not the other way around.
 
-The definition is traditionally a little vague, but the hallmark of a *topological order* is meant to be the presence, in a [[topological phase of matter|topological phase]], of some or preferably all of the following phenomena:
+The definition is traditionally a little vague, but the hallmark of a *topological order* is meant to be the presence, in a [[topological phase of matter|topological phase]], of some or preferably all of the following phenomena ([Gu & Wen 09, p. 2](#GuWen09)):
 
-1. degenerate [[ground state]] (*no* "[[short-range entanglement]]");
+1. degenerate [[ground state]] ([Wen 89, p. 4](#Wen89), [Wen 95, Sec. 1.1](#Wen95)) 
+
+   (reflecting "[[long-range entanglement]]", [Chen, Gu & Wen 10, Sec. 5](#ChenGuWen2010) and *absence* of "[[short-range entanglement]]");
 
 1. [[Berry connection]] with [[non-abelian group|non-abelian]] [[holonomy]];
 
 1. [[anyon]] excitations.
 
+In particular, the original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93) [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09).
 
 \begin{remark}\label{RelationBetweenDefiningConditions}
 **(relation between these conditions)**
@@ -81,19 +84,54 @@ Examples: [[quantum Hall effect]], [[non-abelian anyon|non-Abelian quantum Hall 
 * applications in [[topological quantum computing]], study of [[entanglement]], classification of gapped quantum phases, etc. 
 
 
+## Related concepts
+
+* [[topological state of matter]], 
+
+  * [[quantum Hall effect]]
+
+* [[TQFT]], [[Chern-Simons theory]]
+
+* [[quantum computing]]
+
+* [[modular tensor category]]
+
+* [[entanglement]]
+
+
 
 ## Literature
 
-Related entries: [[topological state of matter]], [[TQFT]], [[quantum computing]], [[quantum Hall effect]], [[modular tensor category]], [[entanglement]]
+
+### Original articles
+ {#OriginalArticles}
+
+The proposal that ground state degeneracy is a signature of "topological order":
+
+* {#Wen89} [[Xiao-Gang Wen]], *Vacuum degeneracy of chiral spin states in compactified space*, Phys. Rev. B **40** (1989) 7387(R) $[$[doi:10.1103/PhysRevB.40.7387](https://doi.org/10.1103/PhysRevB.40.7387)$]$
+
+* {#WenNiu90} [[Xiao-Gang Wen]],  Q. Niu, *Ground-state degeneracy of the fractional quantum Hall states in the presence of a random potential and on high-genus Riemann surfaces*, Phys. Rev. B **41** (1990) 9377
+
+* {#Wen91} [[Xiao-Gang Wen]], *Non-Abelian statistics in the fractional quantum Hall states*, Phys. Rev. Lett. **66** (1991) 802 ([doi:10.1103/PhysRevLett.66.802](https://doi.org/10.1103/PhysRevLett.66.802))
+
+* {#Wen93} [[Xiao-Gang Wen]], *Topological order and edge structure of $\nu = 1/2$ quantum Hall state*, Phys. Rev. Lett. **70** (1993) 355 $[$[doi:10.1103/PhysRevLett.70.355](https://doi.org/10.1103/PhysRevLett.70.355)$]$
+
+* {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 $[$[arXiv:cond-mat/9506066v2](https://arxiv.org/abs/cond-mat/9506066v2), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)$]$
+
+The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
+
+* {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], p. 2 of:  *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
+
+Suggestion that [[topological order]] goes along with [[long-range entanglement]]:
+
+* {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835)$]$ 
+
 
 ### Reviews
 
 * Wikipedia: [topological order](http://en.wikipedia.org/wiki/Topological_order)
 
-* [[Xiao-Gang Wen]], _Topological Orders and Edge Excitations in FQH States_,
-Advances in Physics 44, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond-mat/9506066). 
-
-* Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman|M. Freedman]], Sankar Das Sarma, _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083)
+* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman|M. Freedman]], [[Sankar Das Sarma]], _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083)
 
 * [[Xiao-Gang Wen]], _An introduction of topological order_ 2009 ([pdf slides](http://dao.mit.edu/~wen/talks/09QHtop.pd), [article](http://dao.mit.edu/~wen/topartS3.pdf))
 
@@ -126,7 +164,7 @@ Phys. Rev. Lett. 66, 802 (1991).
 * [[Xiao-Gang Wen]] and Yong-Shi Wu, [_Chiral operator product algebra hidden in certain FQH states_](http://dao.mit.edu/~wen/pub/nabdw.pdf)
 Nucl. Phys. B419, 455 (1994).
 
-* Alexei Yu. Kitaev, _Fault-tolerant quantum computation by anyons_, Annals of Physics __303__:1, January 2003; _Anyons in an exactly solved model and beyond_, Annals of Physics __321__:1, January 2006
+* [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_, Annals of Physics __303__:1, January 2003; _Anyons in an exactly solved model and beyond_, Annals of Physics __321__:1, January 2006
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], _String-net condensation: A physical mechanism for topological phases_, Phys. Rev. B, 71, 045110 (2005).
 
@@ -135,8 +173,6 @@ Nucl. Phys. B419, 455 (1994).
 * Alexei Kitaev, John Preskill, _Topological entanglement entropy_, Phys. Rev. Lett. __96__, 110404 (2006)
 * Levin M. and Wen X-G., _Detecting topological order in a ground state wave function_, Phys. Rev. Letts.,96(11), 110405, (2006)
 
-* Xie Chen, Zheng-Cheng Gu, [[Xiao-Gang Wen]], _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B 82, 155138 (2010), [arXiv](http://arxiv.org/abs/1004.3835)
-  {#ChenGuWen2010}
 
 * Jan Carl Budich, Bj&#246;rn Trauzettel, _From the adiabatic theorem of quantum mechanics to topological states of matter_, physica status solidi (RRL) 7, 109 (2013) [arXiv:1210.6672](http://arxiv.org/abs/1210.6672)
 
