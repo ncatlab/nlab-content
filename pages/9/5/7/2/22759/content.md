@@ -123,6 +123,35 @@ The [[quotient]] of an [[hProp]]-valued or (-1)-truncated [[equivalence relation
     | relate : forall (x y : A), R x y -> proj x == proj y
     | contr1 : forall (x y : quotient A R) (p q : x == y), p == q.
 
+### Sierpinski space
+
+A definition of [[Sierpinski space]]:
+
+    Inductive sierpinski : Type :=
+    | top : sierpinski
+    | meet : sierpinski -> sierpinski -> sierpinski
+    | meet-left-unital : forall (a : sierpinski) meet top a = a
+    | meet-right-unital : forall (a : sierpinski) meet a top = a
+    | meet-associative : forall (a b c : sierpinski) meet meet a b c = meet a meet b c
+    | meet-commutative : forall (a b : sierpinski) meet a b = meet b a
+    | meet-idempotent : forall (a : sierpinski) meet a a = a
+    | bottom : sierpinski
+    | join : sierpinski -> sierpinski -> sierpinski
+    | join-left-unital : forall (a : sierpinski) join bottom a = a
+    | join-right-unital : forall (a : sierpinski) join a bottom = a
+    | join-associative : forall (a b c : sierpinski) join join a b c = join a join b c
+    | join-commutative : forall (a b : sierpinski) join a b = join b a
+    | join-idempotent : forall (a : sierpinski) join a a = a
+    | meet-join-absorption : forall (a b : sierpinski) meet a join a b = a
+    | join-meet-absorption : forall (a b : sierpinski) join a meet a b = a
+    | sequence-join : (nat -> sierpinski) -> sierpinski
+    | sequence-bounded-above : forall (n : nat) (s : nat -> sierpinski) meet s n sequence-join s = s n
+    | sequence-least-upper-bound : forall (a : sierpinski) (s : nat -> sierpinski) (forall (n : nat) meet s n a = s n) -> (meet sequence-join s x = sequence-join s)
+    | element-sequence-meet : (sierpinski) -> (nat -> sierpinski) -> (nat -> sierpinski)
+    | p : forall (a : sierpinski) (s : nat -> sierpinski) element-sequence-meet a s n = meet a s n
+    | distributive : forall (a : sierpinski) (s : nat -> sierpinski) meet a sequence-join s = sequence-join element-sequence-meet a s 
+    | contr1 : forall (x y : int) (p q : x == y), p == q.
+
 ### Cumulative hierarchy
 
 According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[cumulative hierarchy]] of material sets could be constructed from a type universe as a quotient inductive type. 
