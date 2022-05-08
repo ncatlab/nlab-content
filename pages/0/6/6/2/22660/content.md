@@ -29,7 +29,9 @@ In [[solid state physics]], by a *quantum material* one means -- broadly and som
 
 * [[topological quantum computation]]
 
-* [[topological phase of matter]]
+* [[topological phase of matter]], [[K-theory classification of topological phases of matter|K-theory classification]]
+
+* [[topological order]]
 
 * [[topological entanglement entropy]]
 
