@@ -81,6 +81,8 @@ By the [[Lowenheim-Skolem theorem]], there are [[nonstandard model of arithmetic
 
 * [[nonstandard model of arithmetic]]
 
+* [[Nelson arithmetic]]
+
 ## References
 
 Named after [[Giuseppe Peano]]
