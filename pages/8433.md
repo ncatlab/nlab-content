@@ -22,5 +22,11 @@ On the classification of [[gapped Hamiltonians]]/[[topological insulators]] by [
 
 * [[Alexei Kitaev]], _Periodic table for topological insulators and superconductors_, talk at: L.D.Landau Memorial Conference "Advances in Theoretical Physics", June 22-26, 2008, In:AIP Conference Proceedings 1134, 22 (2009) ([arXiv:0901.2686](https://arxiv.org/abs/0901.2686), [doi:10.1063/1.3149495](https://doi.org/10.1063/1.3149495))
 
+Introducing the notion of [[short-range entanglement]] in [[quantum materials]]:
+
+* {#Kitaev11} [[Alexei Kitaev]], *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) $[$[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)$]$
+
+* {#Kitaev13} [[Alexei Kitaev]], *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) $[$[video](https://scgp.stonybrook.edu/archives/7874)$]$
+
 
 category: people
