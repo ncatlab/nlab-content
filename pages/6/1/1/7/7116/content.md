@@ -90,17 +90,7 @@ This is non-archimedean.
 The standard absolute value ${\vert {-} \vert_\infty}$ on the [[real numbers]] is
 
 $$
-  {\vert x \vert_\infty} = 
-  \sqrt{x^2}
-  = 
-  \left\{
-    \array{
-       x & if\; x \geq 0
-       \\  
-       - x & otherwise
-    }
-  \right.
-  \,.
+  {\vert x \vert_\infty} = \max(x, -x)
 $$
 
 The standard absolute value on the [[complex numbers]] is 
@@ -147,6 +137,9 @@ The $p$-adic absolute value is non-archimedean. The [[complete field|completion]
 
 The field of [[Laurent series]] $k[ [ T] ]$ over a [[field]] $k$ is a [[complete field]] with respect to the absolute value that sends a series to $\epsilon^n$ for a fixed $0 \lt \epsilon \lt 1$ and with $n$ the lowest integer such that the $n$th coefficient of the series is not $0$.
 
+## See also 
+
+* [[real absolute value]]
 
 ## References
 
