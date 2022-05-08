@@ -51,7 +51,7 @@ This is discussed for instance as ([Awodey, prop. 7.31](#Awodey)). For the gener
 +-- {: .num_remark}
 ###### Remark
 
-In constructive mathematics, for any flavor of _[[finite set|finite]]_, $\mathcal{P}$ defines an equivalence of $FinSet$ with the opposite category of that of those [[complete lattice|complete]] [[atom|atomic]] [[Heyting algebras]] whose set of atomic elements is finite (in the same sense as in the definition of $FinSet$).
+In constructive mathematics, for any flavor of _[[finite set|finite]]_, $\mathcal{P}$ defines an equivalence of $FinSet$ with the opposite category of that of those [[complete lattice|complete]] [[atom|atomic]] [[Heyting algebras]] whose set of atomic elements is finite (in the same sense as in the definition of $FinSet$). However, all finite [[complete lattice|complete]] [[atom|atomic]] [[Heyting algebras]] are Boolean. 
 
 =--
 
