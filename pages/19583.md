@@ -56,14 +56,22 @@ $$
 
 * [[BFSS matrix model]]
 
+
 ## References
 
 ### General
 
+
+The model is due to
+
+* {#SachdevYe93} [[Subir Sachdev]], Jinwu Ye, _Gapless Spin-Fluid Ground State in a Random Quantum Heisenberg Magnet_, Phys. Rev. Lett. 70:3339, 1993 ([arXiv:cond-mat/9212030](https://arxiv.org/abs/cond-mat/9212030))
+
+
+* {#Kitaev15} [[Alexei Kitaev]], _A simple model of quantum holography_, Talks at KITP, April 7, 2015 and May 27, 2015. ([part I](#http://online.kitp.ucsb.edu/online/entangled15/kitaev/), [part II](http://online.kitp.ucsb.edu/online/entangled15/kitaev2/))
+
 Textbook accounts:
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], Section 5.11 of: _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
-
 
 Further review:
 
@@ -73,15 +81,12 @@ Further review:
 
 * Matteo Laudonio, Romain Pascalie, Adrian Tanasa, _Combinatorial aspects of the Sachdev-Ye-Kitaev model_ ([arXiv:2001.11849](https://arxiv.org/abs/2001.11849))
 
-The model is due to
+See also 
 
-* {#SachdevYe93} [[Subir Sachdev]], Jinwu Ye, _Gapless Spin-Fluid Ground State in a Random Quantum Heisenberg Magnet_, Phys. Rev. Lett. 70:3339, 1993 ([arXiv:cond-mat/9212030](https://arxiv.org/abs/cond-mat/9212030))
-
-
-* {#Kitaev15} [[Alexei Kitaev]], _A simple model of quantum holography_, Talks at KITP, April 7, 2015 and May 27, 2015. ([part I](#http://online.kitp.ucsb.edu/online/entangled15/kitaev/), [part II](http://online.kitp.ucsb.edu/online/entangled15/kitaev2/))
+* Wikipedia, _[SYK model of non-Fermi liquids and black holes](https://en.wikipedia.org/wiki/Subir_Sachdev#SYK_model_of_non-Fermi_liquids_and_black_holes)_
 
 
-Further developments in
+Further developments:
 
 * Biao Lian, S. L. Sondhi, [[Zhenbin Yang]], _The chiral SYK model_ ([arXiv:1906.03308](https://arxiv.org/abs/1906.03308))
 
@@ -92,14 +97,14 @@ Relation to [[random matrix theory]]:
 * Yiyang Jia, Jacobus J. M. Verbaarschot, _Spectral Fluctuations in the Sachdev-Ye-Kitaev Model_ ([arXiv:1912.11923](https://arxiv.org/abs/1912.11923))
 
 
-See also 
-
-* Wikipedia, _[SYK model of non-Fermi liquids and black holes](https://en.wikipedia.org/wiki/Subir_Sachdev#SYK_model_of_non-Fermi_liquids_and_black_holes)_
 
 Discussion of possible realization of the [[SYK-model]] in [[condensed matter physics]]:
 
 * D. I. Pikulin, M. Franz, _Black hole on a chip: proposal for a physical realization of the SYK model in a solid-state system_, Phys. Rev. X 7, 031006 (2017) ([arXiv:1702.04426](https://arxiv.org/abs/1702.04426))
 
+Relation of the SYK-model to the [[strange metals]] via [[AdS/CMT]]:
+
+* [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
 
 
 [[!include SYK-model and AdS2-CFT1 -- references]]
