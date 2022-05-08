@@ -36,6 +36,9 @@ On [[geometric realization of simplicial topological spaces]] for constructing [
 
 * {#MacLane70} [[Saunders MacLane]], _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday*, Lecture Notes in Mathematics *168*,  Springer 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
 
+On [[Euclidean geometry]]:
+
+* {#MacLane} [[Saunders Mac Lane]], _Metric postulates for plane geometry_, American Mathematical Monthly, Vol. 66 No. 7 (1959), 543&ndash;555. ([doi:10.2307/2309851](https://doi.org/10.2307/2309851), [web](https://www.jstor.org/stable/2309851))
 
 On [[category theory]]:
 
