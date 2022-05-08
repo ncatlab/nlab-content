@@ -67,6 +67,10 @@ Starting with the given constant $y_0$, [[recursion|recursively]] define
 4. Given any putative solution $z$, apply [[Groenwall inequality|Grönwall's inequality]] to $z - y$ to prove that $z = y$.
 =--
 
+## See also
+
+* [[smooth square root]]
+
 ## References
 
 * The [English Wikipedia](https://en.wikipedia.org/wiki/Picard%E2%80%93Lindel%C3%B6f_theorem) has a more detailed proof.  (They assume that $X$ is $\mathbb{R}$, but this is not essential.)
