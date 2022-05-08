@@ -1,18 +1,48 @@
-A book by [[Emily Riehl]] and [[Dominic Verity]].
 
-Elements of ∞-category theory.
+This pages compiles material related to the book
 
-Cambridge Studies in Advanced Mathematics 194.
-Cambridge University Press, Cambridge, 2022.
-xix+759 pp.
+* [[Emily Riehl]] and [[Dominic Verity]].
 
-ISBN: 978-1-108-83798-9 
+  $\;$
+
+  **Elements of ∞-category theory**
+
+  $\;$
+
+  Cambridge Studies in Advanced Mathematics **194**
 
 
-###    Frontmatter
-###    Dedication
-###    Contents
-###    Preface
+  Cambridge University Press, Cambridge, 2022.
+
+  xix+759 pp.
+
+  [doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880)
+
+  ISBN: 978-1-108-83798-9 
+
+  [pdf](https://emilyriehl.github.io/files/elements.pdf)
+
+on [[(∞,1)-category theory]] formulated via [[∞-cosmoi]] and the [[homotopy 2-category of (∞,1)-categories]] ([[formal (infinity,1)-category theory|formal $(\infty,1)$-category theory]]).
+
+Related texts:
+
+* [[Emily Riehl]], [[Dominic Verity]], _The 2-category theory of quasi-categories_, Advances in Mathematics **280** (2015) 549-642 $[$[arXiv:1306.5144](http://arxiv.org/abs/1306.5144), [doi:10.1016/j.aim.2015.04.021](https://doi.org/10.1016/j.aim.2015.04.021)$]$
+
+* {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, Higher Structures Vol 4, No 1 (2020) $[$[arXiv:1608.05314](https://arxiv.org/abs/1608.05314), [pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf)$]$
+
+* {#Riehl21} [[Emily Riehl]], *The formal theory of ∞-categories*, talk at *[Categories and Companions Symposium June 8–12, 2021](http://web.science.mq.edu.au/groups/coact/seminar/CaCS2021/)* ([video](https://youtu.be/iX5Fxen3K-U))
+
+\linebreak
+
+#Contents#
+* table of contents
+{:toc}
+
+##    Frontmatter
+##    Dedication
+##    Contents
+##    Preface
+
 ##    Part I - Basic ∞-Category Theory
 ###    1 - ∞-Cosmoi and Their Homotopy 2-Categories
 ###    2 - Adjunctions, Limits, and Colimits I
@@ -40,3 +70,8 @@ ISBN: 978-1-108-83798-9
 ###    References
 ###    Glossary of Notation
 ###    Index
+
+
+category: reference
+
+
