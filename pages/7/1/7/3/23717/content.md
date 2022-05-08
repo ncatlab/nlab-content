@@ -77,3 +77,6 @@ $$isPointwiseContinuous(f) \coloneqq \forall c \in S. \lim_{x \to c} f(x) = f(c)
 * [[limit of a function]]
 * [[differentiable function]]
 * [[uniformly continuous function]]
+
+[[!redirects pointwise continuous]]
+[[!redirects pointwise continuous functions]]
