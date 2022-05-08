@@ -59,3 +59,5 @@ Geometers prefer to say "stable under [[base change]]".
 * [[extensive category]]
 
 [[!redirects pullback-stability]]
+[[!redirects pullback-stable]]
+
