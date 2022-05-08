@@ -20,9 +20,54 @@
 * table of contents
 {: toc}
 
-This entry has some overlap with [[topological state of matter]], however unlike that entry, this entry does not include [[symmetry protected trivial order]], since [[symmetry protected trivial order]] contains no topological order by definition.
 
 ## Idea
+ {#Idea}
+
+In [[solid state physics]], by *topological order* one refers to a phenomenon that may (but need not) be exhibited by [[quantum materials]] that are in a [[topological phase of matter]]. Hence there is an implication
+
+$$
+  \text{topological order}
+  \;\;\;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;\;\;
+  \text{topological phase}
+  \,,
+$$
+
+but not the other way around.
+
+The definition is traditionally a little vague, but the hallmark of a *topological order* is meant to be the presence, in a [[topological phase of matter|topological phase]], of some or preferably all of the following phenomena:
+
+1. degenerate [[ground state]] (*no* "[[short-range entanglement]]");
+
+1. [[Berry connection]] with [[non-abelian group|non-abelian]] [[holonomy]];
+
+1. [[anyon]] excitations.
+
+
+\begin{remark}\label{RelationBetweenDefiningConditions}
+**(relation between these conditions)**
+\linebreak
+These above conditions are not exactly equivalent to each other (as far as they are well-defined at all), but closely related. For [[crystal|crystalline]] materials one can say the following, in more detail:
+
+By "degenerate ground state" one just means that the sub-[[Hilbert space]] of [[quantum states]] (for crystalline materials these are the quantum states of  [[electrons]] in the crystal lattice of [[atomic nuclei]]) of those that have the lowest possible [[energy]], has [[dimension of a vector space|dimension]] $\geq 2$.
+
+{#RelationToSRE} (It has been proposed that the presence of "[[short-range entanglement]]" in [[quantum materials]] implies that the ground state Hilbert space is 1-dimensional. In this sense, the condition that the ground state be degenerate implies that there is *no* "[[short-range entanglement]]" if there is "topological order".)
+
+Since (by [[Bloch-Floquet theory]]) the quantum states of these electrons form the [[space of sections]] of the Bloch bundle, and since (by assumption of a [[topological phase of matter|topological phase]]) the ground state involves sections only of the gapped [[sub-bundle]] which is called the *[[valence bundle]]*, this is closely related to the valence bundle having [[rank of a vector bundle|rank]] $\geq 2$.
+
+(In making these statement there is some tacit switching between single-electron theory and its [[second quantization]] involved, sorting out of which would be necessary for being more precise about these matters.)
+
+But since the [[Berry connection]] is a [[connection on a vector bundle|connection]] on the [[valence bundle]], it can have non-abelian [[holonomy]] (namely in [[unitary group|U(n)]] for $n \geq 2$) only if the bundle's rank is $\geq 2$.
+
+Similarly, the presence of [[anyons]] broadly means that there are families of [[quantum adiabatic theorem|adiabatic defomrations]] of the material which have the effect of transforming the [[ground state]] by [[linear operators]] forming a [[braid group representation]]. This is most interesting when the representation is non-abelian, which again requires that the Hilbert space of ground states that it is represented on has dimension $\geq 2$. 
+
+However, there are also non-trivial "abelian anyons", namely braid group representations which are just complex 1-dimensional, and -- even if not as interesting as their non-abelian cousins -- these are counted as perfectly valid instances of the concept of anyons (in fact it was first a struggle and then a breakthrough to detect abelian anyons in [[experiment]]). Some authors, especially those using the language of [[fusion categories]] to speak about anyons, require of a "topological order" only that it contains anyons and possibly just abelian anyons, in which case it is maybe not so clear whether the ground state needs to be degenerate and/or the Berry connection be non-abelian.
+  
+\end{remark}
+
+In other words (by a previous author of this entry):
 
 Topological order is an order in quantum [[phase of matter]] which is beyond Landau [[symmetry breaking]] order. At long distance
 and low energy (ie at macroscopic level), topological order is 
@@ -35,10 +80,7 @@ Examples: [[quantum Hall effect]], [[non-abelian anyon|non-Abelian quantum Hall 
 
 * applications in [[topological quantum computing]], study of [[entanglement]], classification of gapped quantum phases, etc. 
 
-## Mathematical foundation
 
-The mathematical frame work of topological order
-involves  [[tensor category]], or more precisely [[n-category]], for topological orders in n+1 dimensions.
 
 ## Literature
 
@@ -103,17 +145,9 @@ Nucl. Phys. B419, 455 (1994).
 * {#WilczekZee1984} Frank Wilczek & A. Zee (1984); Appearance of gauge structure in simple dynamical systems; Physical Review Letters 52 (24), 2111&#8211;2114; [pdf](http://ngs-11.physics.buffalo.edu/rashba/p2111_1.pdf).
 
 
-* Amit Jamadagni, Hendrik Weimer, _An Operational Definition of Topological Order_ ([arXiv:2005.06501](https://arxiv.org/abs/2005.06501))
+* {#JamadagniWeimer20} Amit Jamadagni, Hendrik Weimer, _An Operational Definition of Topological Order_ ([arXiv:2005.06501](https://arxiv.org/abs/2005.06501))
 
 
-
-  
-Discussion in terms of [[extended TQFT]], the [[cobordism theorem]] and [[stable homotopy theory]] is in 
-
-* {#FreedMoore12} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]] to classify free fermion gapped phases with symmetry)
-
-
-* {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
 
 ### Research groups
 
