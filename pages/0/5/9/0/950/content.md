@@ -23,6 +23,11 @@ __Ultrafinitism__ is an even more extreme form of finitism, in which one doubts 
 
 For the opinionated espousal of finitism (and much else), one can hardly do better than the [Opinions](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html) of [[Doron Zeilberger]].
 
+## See also
+
+* [[predicative mathematics]]
+
+* [[constructive mathematics]]
 
 ## References
 
