@@ -48,11 +48,7 @@ Contexts for developing formal category theory:
 
 * [[Yoneda structures]]
 
-* [[proarrow equipments]]
-
-  [[virtual double category]]
-
-  [[virtual equipment]]
+* [[proarrow equipments]], [[framed bicategories]], [[virtual equipments]]
 
 * [[KZ doctrines]]
 
