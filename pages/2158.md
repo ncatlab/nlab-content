@@ -5,6 +5,8 @@
 
 ## Definition
 
+Given two sets $S$ and $T$, there is a function $c:T \to (S \to T)$ such that for every element $x:T$ there is a function $c(x):S \to T$ such that for every element $a:S$, $c(x)(a) = x$. For every element $x:T$, the function $c(x)$ is called the __constant function__ from $S$ to $T$ with value $x$. 
+
 Given two [[sets]] $S$ and $T$ and an element $x$ of $T$, the __constant function__ from $S$ to $T$ with value $x$ is the [[function]] $f$ defined by
 $$ f(a) = x $$
 for every element $a$ of $S$.
