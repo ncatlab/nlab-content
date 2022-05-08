@@ -1,58 +1,81 @@
 # Remark
-This is a collection of my (Tom Mainiero's) personal notes on some functorial aspects on the GNS representation that have been sitting around for a while. Please feel free to contribute! The ideas here underlie some of the constructs of [Homtools](#Mainiero2019)
+This is a small subcollection of my (Tom Mainiero's) personal notes on some functorial aspects on the GNS representation that have been sitting around for a while. Please feel free to contribute! The ideas here underlie some of the constructs of [Homtools](#Mainiero2019).
 
-## The GNS correspondence as a functor on a fixed $C^{*}$-algebra
+## Notation/Terminology
+In the following the letters $E, F$ and $G$ will denote $C^\ast$-algebras that are not necessarily $\W^\ast$-algebras and $A, B, C$ will denote $W^\ast$-algebras.
 
-There are a few interesting preorders on positive linear functionals.
+The term (normal) state} will be taken to mean *(normal) positive linear functional*
+Note that this is at odds with some definitions in the physics literature, where "state" typically means "normalized" positive linear functional (if $f(1_{E}) = 1$ for $f: E \to \mathbb{C}$ a positive linear functional).
+Using the definition of "state" here, the zero map $0: E \to \mathbb{C}$ is a perfectly valid state.
+
+# The GNS construction as a functor on a fixed C$^\ast$-algebra
+
+With an appropriate notion of a "category of states", one can explore functorial properties of the GNS construction as in Arthur Parzygnat's work (see [Parzygnat2016](#Parzygnat2016) and [Parzygnat2018](#Parzygnat2018)).
+
+The construction here is from a slightly different perspective, using a mildly richer category of states based on the natural poset structure on the collection of (normal) states on a fixed $W^\ast$ or $C^\ast$-algebra.
+The posetal relation is intimately related to the notion of a Radon-Nikodym derivative.
+
+## The category of (normal) states over a fixed (W$^\ast$) C$^\ast$-algebra.
+
+Begin by recalling a well-known posetal relation on the set of states $\text{State(E)}$ on a $C^\ast$-algebra $E$:
 \begin{definition}
-
-Let $f, g \colon A \rightarrow \mathbb{C}$ be positive linear functionals on a $C^\ast$-algebra $A$.
-
-* We say $f$ is *weakly dominated* by $g$ and write $f \ll g$ if there is an inclusion of left-kernels $\ker^{L}(g) \subseteq \ker^{L}(f)$.
-		
-* We say $f$ is *dominated by* $g$ and write $f \lesssim g$ if there exists an $M$ such that $f(a^{*}a) \leq M g(a^{*} a)$ for every $a \in A$.  
-		
-* We say $f$ is *strongly dominated* by $g$ if $f \leq g$ as positive linear functionals (i.e. such that $f(a^{*}a) \leq g(a^{*} a)$ for every $a \in A$).
-
+For any $f, g \in \text{State}(E)$, define the relation $\leq$ by $f \leq g$ if $f - g$ is a state, where $-$ denotes pointwise subtraction; equivalently: $f \leq g$ if $f(e^\ast e) \leq g(e^ast e)$ for all $e \in E$
 \end{definition}
 
+It is a straightforward exercise to show this relation is posetal.
+
+The story for normal states in the $W^\ast$-algebra world is nearly identical: let $\text{NState(A)}$ denote the set of normal states on a $W^\ast$-algebra $A$ (a subset of $\text{State}(A)$); for any $f, g \in \text{NState(A)}$ we can define a relation $\leq_{\text{norm}}$ by: $f \leq_{\text{norm}} g$ if $f - g$ is a normal state.
+Because the space of linear functionals splits as an orthogonal sum into normal and singular parts, it follows immediately that $f \leq_{\text{norm}} g$ for normal linear functionals $f$ and $g$ if and only if $f \leq g$.
+As a result we can simply write $\leq$ when discussing states on $C^\ast$-algebras or normal states on $W^\ast$-algebras without any issues if we forget down from the category of $W^\ast$-algebras to the category of $C^\ast$-algebras.
+
+
 \begin{remark}
+We can easily define weaker versions of the relation $\leq$ that may also be of interest: for $f$ and $g$ positive linear functionals on a $C^\ast$ algebra $E$, we can define relations $\ll$ and $\lesssim$ in the following manner:
+
+* $f \ll g$ if there is an inclusion of $\ker^{L}(g) \subseteq \ker^{L}(f)$, where, for any positive linear functional h on E, the "left kernel" or "vanishing ideal" is defined by:
+\[
+\ker^{L}(h) := \{e: h(e^\ast e ) = 0 \};
+\]
+it is a left ideal of E.
 		
-* Of course $f \leq g \Rightarrow f \lesssim g \Rightarrow f \ll g$.
+* $f \lesssim g$ if there exists an $M$ such that $f(a^\ast a) \leq M g(a^\ast a)$ for every $a \in A$.  
+		
+We have the following immediate properties:
+
+* $f \leq g \Rightarrow f \lesssim g \Rightarrow f \ll g$.
 		
 * $\leq$ is a partial order as it is antisymmetric: $f \leq g$ and $g \leq f$ if and only if $f = g$.
 
-  However, the weaker preorders $\ll$ and $\lesssim$ do not satisfy antisymmetry: e.g. $2 f \lesssim f$ and $f \lesssim 2f$. 
+However, the weaker preorders $\ll$ and $\lesssim$ do not satisfy antisymmetry: e.g. $2 f \lesssim f$ and $f \lesssim 2f$.
 		
-		
-* While $\lesssim$ is only a mild weakening of $\leq$, the weakest preorder $\ll$ is vastly different. In particular, we will show there is a unique Radon-Nikodym derivative associated to every pair of functionals related by the preorders $\leq$ and $\lesssim$;the result can be weakened for $\ll$ but the Radon-Nikodymderivative will be an \textit{unbounded} (densely defined) operator. 
-
-  See [Stanley Gudder's ``A Radon-Nikodym Theorem for $*$-Algebras.](\href{https://projecteuclid.org/download/pdf_1/euclid.pjm/1102785959)
-
+Moreover, while $\lesssim$ is only a mild weakening of $\leq$, the weakest preorder $\ll$ is vastly different. 
+In particular, we will show there is a unique Radon-Nikodym derivative associated to every pair of functionals related by the preorders $\leq$ and $\lesssim$; the result can be weakened for $\ll$, but the Radon-Nikodym derivative will be an unbounded (densely defined) operator. 
+See [Gudder](#Gudder).
 \end{remark}
 
 
 \begin{definition}
-Fix $\prec$ to be one of the partial orders $\ll,\,\lesssim,\,$ or $\leq$ and let $A$ be a fixed $C^{*}$-algebra.
-		
--  The category $\textbf{State}^{\prec}(A)$ is the opposite of the thin category determined by the preorder $\prec$, i.e. it is the category whose objects are all positive linear functionals on $A$ (including the zero functional), and whose morphism sets are given by
+Let $E$ be a $C^\ast$-algebra.
+The category $\mathbf{State}^{\leq}(E)$ is the opposite of the thin category determined by the preorder $\leq$, i.e. it is the category whose objects are all states (positive linear functionals) on $E$, and whose morphism sets are given by
 \[
-  \textbf{State}^{\prec}(A)(\omega, \nu) = 
+  \mathbf{State}^{\leq}(E)(\omega, \nu) = 
   \left\{
     \begin{array}{ll}
-       - & \text{if $\nu \prec \omega$}\\    
-       \emptyset & \text{otherwise}    
+       \{\star\}, & \nu \leq \omega\\    
+       \emptyset, & \text{otherwise}    
     \end{array}
 \right.
 \]
-where $*$ denotes the one point set.
+where $\{\star\}$ denotes the one point set.
+\end{definition}
 
-* The category $\textbf{ptRep}(A)$ is the category whose objects are pointed $\ast$-representations and whose morphisms are given by "$\ast$-intertwiners" preserving points. I.e. objects are triples $(\mathcal{H}, v, \pi: A \rightarrow B \mathcal{H})$ of a Hilbert space $\mathcal{H}$ a vector $v \in \mathcal{H}$ and a $\ast$-representation $\pi$, while a morphism from $\pi_1$ to $\pi_2$ is a bounded linear map $f: \mathcal{H}_{1} \rightarrow \mathcal{H}_{2}$ such that $f v_{1} = v_{2}$ and
+\begin{definition}
+The category $\mathbf{Rep}^{\bullet}(E)$ is the category whose objects are pointed $\ast$-representations and whose morphisms are given by "$\ast$-intertwiners" preserving points. 
+I.e. objects are triples $(\mathcal{H}, v, \pi: E \to \mathrm{B} \mathcal{H})$ of a Hilbert space $\mathcal{H}$ a vector $v \in \mathcal{H}$ and a $\ast$-representation $\pi$, while a morphism from $\pi_1$ to $\pi_2$ is a bounded linear map $f: \mathcal{H}_{1} \to \mathcal{H}_{2}$ such that $f v_{1} = v_{2}$ and
 \[
-  f \circ \pi_{1}(a) =  \pi_{2}(a) \circ f	
+  f \circ \pi_{1}(e) =  \pi_{2}(e) \circ f	
 \]
-for all $a \in A$.
-
+for all $e \in E$.
 \end{definition}
 
 
@@ -60,4 +83,11 @@ for all $a \in A$.
 
 * {#Mainiero2019} [[Tom Mainiero]], _Homological Tools for the Quantum Mechanic_, ([arXiv:1901.02011](https://arxiv.org/abs/1901.02011))
 
+* {#Parzygnat2016} [[Arthur Parzygnat]], _From observables and states to Hilbert space and back: a 2-categorical adjunction_, ([arXiv:1609.08975](https://arxiv.org/abs/1609.08975))
+
+* {#Parzygnat2018} [[Arthur Parzygnat]], _Stinespring's construction as an adjunction_ ([arXiv:1807.02533](https://arxiv.org/abs/1807.02533))
+
+* {#MO247626}  _MathOverflow: In which sense the GNS construction is a functor?_ ([link](https://mathoverflow.net/questions/247626/in-which-sense-the-gns-construction-is-a-functor))
+
+* {#Gudder} [[Stanley Gudder]], _A Radon-Nikodym Theorem for $\ast$-Algebras_ ([link](https://projecteuclid.org/download/pdf_1/euclid.pjm/1102785959))
 
