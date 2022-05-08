@@ -22,9 +22,11 @@ Specifically, in [[condensed matter theory]] and  for a [[crystal|crystalline]] 
 
 The [[holonomy]] of such a Berry connection is called a *[[Berry phase]]*, in general, and a *[[Zak phase]]* ([Zak 89](#Zak89)) when evaluated along one of the non-trivial 1-[[cycles]] of the [[Brillouin torus]]. 
 
-By default, this is understood to apply to the [[valence bundle]], but the construction works more generally.
+By default, this is understood to apply to the [[valence bundle]] of a [[crystal|crystalline]] material, but the construction works more generally. 
 
-For [[semimetals]] the Berry phases of the [[valence bundle]] around their nodal loci of [[codimension]] 2 are a measure for the [[obstruction]] to adiabatically deform the semimetal such as to open its gap closures, hence to become a ([[topological insulator|topological]]) [[insulator]] (eg. [Vanderbilt 18, 5.5.2](#Vanderbilt18)).
+{#TopologicalOrder} If in the case of a gapped [[valence bundle]], hence a [[topological insulator]]-phase, the [[holonomy]] of the Berry connection is [[non-abelian group|non-abelian]] (which may happen, as originally highlighted in [Wilczek & Zee 84](#WilczekZee1984)) then one also says that the topological phase exhibits *[[topological order]]*.
+
+For [[semimetals]] the Berry phases of the [[valence bundle]] around their nodal loci of [[codimension]] 2 are a measure for the [[obstruction]] to adiabatically deforming the semimetal such as to open its gap closures, hence to become a ([[topological insulator|topological]]) [[insulator]] (eg. [Vanderbilt 18, 5.5.2](#Vanderbilt18)).
 
 
 
@@ -46,9 +48,15 @@ The formulation in terms of [[connections]] on [[fiber bundles]] and their [[hol
 
 * {#Simon83} Barry Simon, *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*, Phys. Rev. Lett. **51** (1983) 2167 ([doi:10.1103/PhysRevLett.51.2167](https://doi.org/10.1103/PhysRevLett.51.2167))
 
+Generalization to (connections with) [[non-abelian group|non-abelian]] [[holonomies]]:
+
+* {#WilczekZee1984} [[Frank Wilczek]],  [[Anthony Zee]], *Appearance of gauge structure in simple dynamical systems*, Physical Review Letters **52** 24 (1984) 2111 $[$[doi:10.1103/PhysRevLett.52.2111](https://doi.org/10.1103/PhysRevLett.52.2111)$]$
+
+
 The special case of Berry phases around the 1-cycles of a [[Brillouin torus]] -- [[Zak phases]]:
 
 * {#Zak89} [[Joshua Zak]], *Berry’s phase for energy bands in solids*, Phys. Rev. Lett. **62** (1989) 2747 ([doi:10.1103/PhysRevLett.62.2747](https://doi.org/10.1103/PhysRevLett.62.2747))
+
 
 
 Review and further discussion:
