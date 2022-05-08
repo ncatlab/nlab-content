@@ -60,6 +60,15 @@ Arguably, the spaces studied by Euclid were not really modelled on inner product
 
 Since the days of [[René Descartes]], it is common to identify a Euclidean space with a [[Cartesian space]], that is $\mathbb{R}^n$ for $n$ the dimension.  But Euclid\'s spaces had no coordinates; and in any case, what we do with them is still coordinate-independent.
 
+## In constructive mathematics
+
+In [[constructive mathematics]], the [[real numbers]] used to define Euclidean spaces are the [[Dedekind real numbers]] $\mathbb{R}_{D}$, as those are the only ones that are [[Dedekind complete]], in the sense of not having any gaps in the [[dense linear order]]. The Dedekind real numbers are also the real numbers that are geometrically contractible: whose [[shape]] is [[homotopy theory|homotopically]] [[contractible]] $\esh(\mathbb{R}_D) \cong \mathbb{1}$. 
+
+### In predicative constructive mathematics
+
+In [[predicative mathematics|predicative]] constructive mathematics, the [[Dedekind real numbers]] are defined relative to a universe $\mathcal{U}$, and thus there are many different such Dedekind real numbers that could be used to define Euclidean spaces, one $\mathbb{R}_\mathcal{U}$ for each $\mathcal{U}$. However, each set of Dedekind real numbers $\mathbb{R}_\mathcal{U}$ would be large relative to the sets in the universe $\mathcal{U}$. 
+
+If the predicative constructive foundations does not have universes, then there doesn't exist any [[dense linear order]] that is actually [[Dedekind complete]] in the usual sense, and so the usual definition of Euclidean space does not work. Some mathematicians have proposed to use [[Sierpinski space]]  $\Sigma$, the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]], for defining the real numbers, in place of the large set of all [[propositions]] in a universe $\mathrm{Prop}_\mathcal{U}$, but the real numbers in that case are only [[sigma Dedekind complete|$\Sigma$-Dedekind complete]], which is a weaker condition than being [[Dedekind complete]]. 
 
 ## Lengths and angles
 
@@ -75,8 +84,9 @@ Conversely, knowing angles and lengths, we may recover the inner product on $V$;
 $$ \langle{x - z, y - z}\rangle = {\|\overline{x z}\|} {\|\overline{y z}\|} \cos \angle x z y ,$$
 and other inner products are recovered by linearity.  (We must then use the axioms of [[Euclidean geometry]] to prove that this is well defined and actually an inner product.)  It's actually possible to recover the inner product and angles from lengths alone; this is discussed at [[Hilbert space]].
 
-
 ## Related concepts
+
+* [[Euclidean field]]
 
 * [[Euclidean G-space]]
 
@@ -94,6 +104,10 @@ and other inner products are recovered by linearity.  (We must then use the axio
 
 * {#Euclid300BC} [[Euclid]], _[[Elements]]_, 300BC 
 
+On the use of the Dedekind real numbers in constructive and predicative constructive mathematics, such as for Euclidean spaces:
+
+* [[Univalent Foundations Project]], [[Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Mike Shulman]], Brouwer’s fixed-point theorem in real-cohesive homotopy type theory, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 [[!redirects Euclidean space]]
 [[!redirects Euclidean spaces]]
