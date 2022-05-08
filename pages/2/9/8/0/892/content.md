@@ -45,6 +45,8 @@ One can use power sets to construct [[function sets]]; the converse also works u
 
 ## Properties
 
+### General
+
 * The power set $\mathcal{P}S$ is a [[partial order|poset]] ordered by containment: $A$ precedes $B$ means that $A$ is a [[subset]] of $B$ ($A \subseteq B$).
 
 
@@ -56,6 +58,7 @@ in the usual arithmetic of [[cardinal numbers]].
 
 * The power set construction constitutes an [[equivalence of categories]] between the [[opposite category]] [[Set]]$^{op}$ and that of [[complete atomic Boolean algebras]]. See at _[Set -- Properties -- Opposite category and Boolean algebras](Set#OppositeCategory)_. Restricted to [[finite sets]], the power set construction constitutes an [[equivalence of categories]] between the [[opposite category]] of [[FinSet]] and that of finite [[Boolean algebras]]. See at _[FinSet -- Opposite category](FinSet#OppositeCategory)_.
 
+### Power set functor
 
 The power set construction gives rise to two functors, the contravariant power set functor $Set^op \to Set$ and the covariant power set functor $Set \to Set$. The first sends a function $f\colon S\to T$ to the _preimage_ function $f^*\colon P(T) \to P(S)$, whereas the second sends $f$ to the _image_ function $f_*\colon P(S) \to P(T)$.
 
@@ -87,3 +90,21 @@ category: foundational axiom
 [[!redirects axiom of power sets]]
 [[!redirects power set axiom]]
 [[!redirects powerset axiom]]
+
+[[!redirects power set functor]]
+[[!redirects power set functors]]
+[[!redirects covariant power set functor]]
+[[!redirects covariant power set functors]]
+[[!redirects contravariant power set functor]]
+[[!redirects contravariant power set functors]]
+
+[[!redirects powerset functor]]
+[[!redirects powerset functors]]
+[[!redirects covariant powerset functor]]
+[[!redirects covariant powerset functors]]
+[[!redirects contravariant powerset functor]]
+[[!redirects contravariant powerset functors]]
+
+
+
+
