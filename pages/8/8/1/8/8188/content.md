@@ -179,6 +179,11 @@ A common setting for both of these generalisations is a (locally compact Hausdor
 
 The spaces $c_c$, $c_0$, and $c_\infty$ work just fine in [[constructive mathematics]] (as does $K^N$, since it has no interesting structure anyway).  For $l^p$, we need $N$ to have [[decidable equality]] to define $\|a\|_p$; even so, $\|a\|_p$ (even when bounded) is only a [[lower real number]], so we usually require it be [[located real number|located]] to have an element of $l^p$.  With these caveats, $l^p$ works just fine for $0 \lt p \lt \infty$.  For $c_b = l^\infty$, we cannot get a [[Banach space]] with [[located real number|located]] [[norms]], as is usually required for constructive [[functional analysis]] ... well, unless we require $N$ to be [[finite set|finite]] (in the strictest sense), which leaves out the motivating example.  Nevertheless, we can still treat $l^\infty$ as a *semicontinuous* Banach space, that is one where the norms may be any bounded [[lower reals]]; for that matter, we can also consider semicontinuous versions of $l^p$.  (Another way to treat $l^\infty$ may be formally, as the [[dual vector space|dual]] of $l^1$; I don\'t know how well this works.)
 
+## See also 
+
+* [[sequence]]
+
+* [[sequence algebra]]
 
 ## References
 
