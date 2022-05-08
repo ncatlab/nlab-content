@@ -47,7 +47,7 @@ Fix $\prec$ to be one of the partial orders $\ll,\,\lesssim,\,$ or $\leq$ and le
 \]
 where $*$ denotes the one point set.
 
-* The category $\textbf{ptRep}(A)$ is the category whose objects are pointed $\ast$-representations and whose morphisms are given by ``$\ast$-intertwiners" preserving points. I.e. objects are triples $(\mathcal{H}, v, \pi: A \rightarrow B \mathcal{H})$ of a Hilbert space $\mathcal{H}$ a vector $v \in \mathcal{H}$ and a $\ast$-representation $\pi$, while a morphism from $\pi_1$ to $\pi_2$ is a bounded linear map $f: \mathcal{H}_{1} \rightarrow \mathcal{H}_{2}$ such that $f v_{1} = v_{2}$ and
+* The category $\textbf{ptRep}(A)$ is the category whose objects are pointed $\ast$-representations and whose morphisms are given by "$\ast$-intertwiners" preserving points. I.e. objects are triples $(\mathcal{H}, v, \pi: A \rightarrow B \mathcal{H})$ of a Hilbert space $\mathcal{H}$ a vector $v \in \mathcal{H}$ and a $\ast$-representation $\pi$, while a morphism from $\pi_1$ to $\pi_2$ is a bounded linear map $f: \mathcal{H}_{1} \rightarrow \mathcal{H}_{2}$ such that $f v_{1} = v_{2}$ and
 \[
   f \circ \pi_{1}(a) =  \pi_{2}(a) \circ f	
 \]
