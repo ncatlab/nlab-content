@@ -5,16 +5,22 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
 {:toc}
 
-## Idea ##
+## Idea
 
-The groupoidification of a [[sigma-frame|$\sigma$-frame]]. 
+
+A [[categorification]] of the notion of [[sigma-frame|$\sigma$-frame]]. 
 
 ## Definition ##
 
@@ -24,9 +30,14 @@ A __$\sigma$-pretopos__ is a [[pretopos]] $\mathcal{E}$ where all [[countable]] 
 
 A __$\sigma$-pretopos__ is 
 
-* a category with a [[generating set]],
+* a [[category]]
+
+* with a [[generating set]],
+
 * with all [[finite limits]],
+
 * with all [[countable]] [[coproducts]], which are [[disjoint]], and [[pullback-stable]],
+
 * where all [[congruences]] have effective [[quotient objects]], which are also [[pullback-stable]].
 
 ## See also ##
@@ -41,7 +52,7 @@ A __$\sigma$-pretopos__ is
 
 * [[Peter Johnstone]]
 
-  **Sketches of an Elephant -- A Topos Theory Compendium**
+  **[[Sketches of an Elephant]] -- A Topos Theory Compendium**
 
 
   Oxford University Press 2002
@@ -51,3 +62,4 @@ A __$\sigma$-pretopos__ is
   Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
 
 [[!redirects sigma-pretopoi]]
+
