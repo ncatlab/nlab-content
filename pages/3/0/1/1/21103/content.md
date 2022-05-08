@@ -69,6 +69,11 @@ Discussion of [[strange metals]]/[[high-temperature superconductors]] via [[AdS/
 
 * {#Amoretti17} [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
 
+via the [[SYK model]]:
+
+* [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
+
+
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
 * [[Jan Zaanen]], _Planckian dissipation, minimal viscosity and the transport in cuprate strange metals_, SciPost Phys. 6, 061 (2019) ([arXiv:1807.10951](https://arxiv.org/abs/1807.10951))
