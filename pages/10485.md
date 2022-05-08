@@ -27,7 +27,7 @@
 ## Idea
  {#Idea}
 
-In [[solid state physics]], by a *symmetry protected topological* (SPT) *order* or *[[phase of matter]]* one means a [[topological phase of matter]] which is in some sense $G$-*[[equivariance|equivariantly]]* non-trivial, in that it cannot be [[quantum adiabatic theorem|adiabatically]] deformed to a trivial phase *while respecting some* $G$-[[symmetry]].
+In [[solid state physics]], by a *symmetry protected topological* (SPT, [Gu & Wen 09](#GuWen09), [PBTO 09](#PBTO09)) *[[phase of matter]]* one means a [[topological phase of matter]] which is in some sense $G$-*[[equivariance|equivariantly]]* non-trivial, in that it cannot be [[quantum adiabatic theorem|adiabatically]] deformed to a trivial phase *while respecting some* $G$-[[symmetry]].
 
 Since, if one forgets (theoretically) the $G$-[[equivariance]], a $G$-equivariantly non-trivial SPT may be trivial as a plain [[topological phase of matter|topological phase]], one may regard the $G$-symmetry as "protecting" the SPT phase from decaying, whence the terminology "symmetry protected".
 
@@ -126,9 +126,10 @@ Classification for free fermion SPT phases:
 
 #### Early discovery articles
 
-* Zheng-Cheng Gu, [[Xiao-Gang Wen]], Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order , Phys. Rev. B80, 155131 (2009); 
+* {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
 
-* Frank Pollmann, Erez Berg, Ari M. Turner, Masaki Oshikawa, Symmetry protection of topological order in one-dimensional quantum spin systems , Phys. Rev. B85, 075125 (2012).
+
+* {#PBTO09} Frank Pollmann, Erez Berg, Ari M. Turner, Masaki Oshikawa, *Symmetry protection of topological order in one-dimensional quantum spin systems*, Phys. Rev. B **85** 075125 (2012) $[$[arXiv:0909.4059](https://arxiv.org/abs/0909.4059), [doi:10.1103/PhysRevB.85.075125](https://doi.org/10.1103/PhysRevB.85.075125)$]$
 
 * Xie Chen, Zheng-Xin Liu, [[Xiao-Gang Wen]], 2D symmetry protected topological orders and their protected gapless edge excitations Phys. Rev. B 84, 235141 (2011); 
 
