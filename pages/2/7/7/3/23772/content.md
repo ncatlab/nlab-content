@@ -43,3 +43,4 @@ Discussion of quadratic functions in the form of [[quadratic refinements]] of [[
 
 * [[Mike Hopkins]], [[Isadore Singer]], *[[Quadratic Functions in Geometry, Topology, and M-Theory]]*, J. Diff. Geom. **70** (2005) 329-452 $[$[arXiv:math/0211216](https://arxiv.org/abs/math/0211216), [euclid.jdg/1143642908](https://projecteuclid.org/euclid.jdg/1143642908)$]$
 
+[[!redirects quadratic functions]]
