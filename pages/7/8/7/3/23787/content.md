@@ -136,12 +136,12 @@ where $\tilde{D}^i$ is the $i$-th compositional power of the sequential derivati
 ### Power series
 
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **power sequence function** 
-$$\mathcal{P}:R \to ((\mathbb{N} \to R) \to (\mathbb{N} \to R))$$
+$$\mathcal{P}:(\mathbb{N} \to R) \to (R \to (\mathbb{N} \to R))$$
 is defined as 
-$$\mathcal{P}(r)(x)(i) \coloneqq x(i) r^i$$
+$$\mathcal{P}(x)(r)(i) \coloneqq x(i) r^i$$
 for $i \in \mathbb{N}$ and $r \in R$. 
 
-For any such sequence $x:\mathbb{N} \to R$, $\Sigma(\mathcal{P}(r)(x))$ is called a **[[power series]]**. 
+For any such sequence $x:\mathbb{N} \to R$, $\Sigma(\mathcal{P}(x)(r))$ is called a **[[power series]]**. 
 
 ## Solutions of differential equations
 
