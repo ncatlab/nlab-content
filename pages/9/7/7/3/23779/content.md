@@ -19,7 +19,7 @@
 
 ## Definition ##
 
-Since the [[real numbers]] $\mathbb{R}$ are a [[totally ordered abelian group]], there exists a function $\vert - \vert:\mathbb{R} \to \mathbb{R}$ called the **absolute value**, usually defined as 
+Since the [[real numbers]] $\mathbb{R}$ are a [[totally ordered abelian group]], there exists a function $\vert - \vert:\mathbb{R} \to \mathbb{R}$ called the **absolute value**, usually defined as the [[maximum]] of $x$ and its [[negative number|negative]]:
 
 $$\vert x \vert \coloneqq \max(x, -x)$$
 
@@ -30,3 +30,5 @@ $$\vert x \vert \coloneqq \max(x, -x)$$
 * [[absolute value]]
 
 * [[sign function]]
+
+[[!redirects real absolute values]]
