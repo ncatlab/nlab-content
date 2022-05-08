@@ -24,7 +24,7 @@
 ## Idea
  {#Idea}
 
-In [[solid state physics]], by *topological order* ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93) [95](#Wen95), [Gu & Wen 09, p. 2](#GuWen09), [Chen, Gu & Wen 10](#ChenGuWen2010)) one refers to a phenomenon that may (but need not) be exhibited by [[quantum materials]] that are in a [[topological phase of matter]]. Hence there is an implication
+In [[solid state physics]], by *topological order* ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95), [Gu & Wen 09, p. 2](#GuWen09), [Chen, Gu & Wen 10](#ChenGuWen2010)) one refers to a phenomenon that may (but need not) be exhibited by [[quantum materials]] that are in a [[topological phase of matter]]. Hence there is an implication
 
 $$
   \text{topological order}
@@ -47,7 +47,7 @@ The definition is traditionally a little vague, but the hallmark of a *topologic
 
 1. [[anyon]] excitations.
 
-In particular, the original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93) [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09).
+In particular, the original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09).
 
 \begin{remark}\label{RelationBetweenDefiningConditions}
 **(relation between these conditions)**
@@ -178,7 +178,7 @@ Nucl. Phys. B419, 455 (1994).
 
 * [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, [arxiv/1306.5570](http://arxiv.org/abs/1306.5570)
 
-* {#WilczekZee1984} Frank Wilczek & A. Zee (1984); Appearance of gauge structure in simple dynamical systems; Physical Review Letters 52 (24), 2111&#8211;2114; [pdf](http://ngs-11.physics.buffalo.edu/rashba/p2111_1.pdf).
+* {#WilczekZee1984} [[Frank Wilczek]],  [[Anthony Zee]], *Appearance of gauge structure in simple dynamical systems*, Physical Review Letters **52** 24 (1984) 2111 $[$[doi:10.1103/PhysRevLett.52.2111](https://doi.org/10.1103/PhysRevLett.52.2111)$]$
 
 
 * {#JamadagniWeimer20} Amit Jamadagni, Hendrik Weimer, _An Operational Definition of Topological Order_ ([arXiv:2005.06501](https://arxiv.org/abs/2005.06501))
