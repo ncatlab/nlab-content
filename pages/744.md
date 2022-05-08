@@ -102,10 +102,6 @@ You can use HTML/XML/SGML [character entity references](https://en.wikipedia.org
   1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
   1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
 
-* __NB.__  Depending on your font settings, the less ordinary symbols may look better if you use "iTeX + \text + numerical entity".  Compare and contrast:
-  1. direct : `&#8472;` or <code>&amp;weierp;</code> or `&#x2118;` &rarr; '&#8472;'
-  1. iTeX : `$&#x2118;$` (but not `$&#8472;$` or <code>$&amp;weierp;$</code>) &rarr; '$&#x2118;$'
-  1. iTeX + \text + numerical entity: `$\text{&#x2118;}$` &rarr; '$\text{&#x2118;}$'
 
 ## _n_-Lab Specifics
 
@@ -113,19 +109,11 @@ You can use HTML/XML/SGML [character entity references](https://en.wikipedia.org
 
 Did you read the _Naming Conventions_ section on the [[HowTo]]?
 
-### Where do I ask a question? {#AskAQuestion}
+### Where do I ask a question? 
+  {#AskAQuestion}
 
-How many times have you wanted to ask it?  If more than three times, put it here (*joke*!).
+Questions, comments and other discussions are to be had on the *[nForum](https://nforum.ncatlab.org/)*.
 
-Seriously, if about a specific page then put it on that page in a query block:
-
-    +-- {: .query}
-    How do I prove the Riemannian Hypothesis?
-    =--
-
-If about the _n_-Lab then try the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).
-
-If about something mathematical then try to convince [[John Baez|John]], [[Urs Schreiber|Urs]], or [[David Corfield|David]] to start a blog entry on the _n_-Category Caf&eacute; about it.
 
 ### How do I cite a page on the nLab? {#Citing}
 
