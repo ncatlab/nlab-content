@@ -118,6 +118,11 @@ Of course there is some arbitrariness involved in the choice of isomorphism; for
 
 The significance of this result is that EPG is a complete and decidable theory, just as the theory of real closed fields is complete and decidable. Hence there exists an algorithm which, on being fed a sentence in the language of Elementary Plane Geometry, will produce a proof of the sentence or a proof of its negation in the theory. 
 
+### Mac Lane's axioms 
+ {#MacLaneAxioms}
+
+To be written, see [Mac Lane (1959)](#MacLane) for details. 
+
 ## Related concepts
 
 | [[synthetic geometry]]  |
@@ -143,6 +148,8 @@ The significance of this result is that EPG is a complete and decidable theory, 
 * {#Tarski} [[Alfred Tarski]], _What is elementary geometry?_, in _The axiomatic method. With special reference to geometry and physics_ Proceedings of an International Symposium held at the Univ. of Calif., Berkeley, Dec. 26, 1957-Jan. 4, 1958 (ed. L. Henkin, P. Suppes, and A. Tarski), Studies in Logic and the Foundations of Mathematics, Amsterdam: North-Holland (1959), pp. 16&#8211;29. ([pdf](http://www.geographicknowledge.de/SeminarLFG/Tarski_Whatiselementarygeometry.pdf))  
 
 * {#TG}  [[Alfred Tarski]] and Steven Givant, _Tarski's system of geometry_, Bull. Symb. Logic, Vol. 5 No. 2 (1999), 175&#8211;214. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9012)) 
+
+* {#MacLane} [[Saunders Mac Lane]], _Metric postulates for plane geometry_, American Mathematical Monthly, Vol. 66 No. 7 (1959), 543&ndash;555. ([doi:10.2307/2309851](https://doi.org/10.2307/2309851), [web](https://www.jstor.org/stable/2309851))
 
 Textbook account:
 
