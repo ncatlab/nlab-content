@@ -39,7 +39,7 @@ In distinction from [[non-Euclidean geometry]] ([[hyperbolic geometry]] or [[ell
 ## Axiomatizations 
  {#Axiomatizations}
 
-Euclidean geometry in the sense of the Idea section makes# reference to the extrinsic notion of [[real number]] (to delineate the notion of Euclidean space) and whatever surrounding structure is used to found that notion, but it has also received more intrinsic [[axiom|axiomatic]] treatments in the spirit of [[synthetic geometry]]. Notable among these are [[Hilbert|Hilbert's]] axioms, as set out in his *Grundlagen der Geometrie*, and [[Alfred Tarski|Tarski]]'s axioms, which form a first-order axiomatic theory. 
+Euclidean geometry in the sense of the Idea section makes# reference to the extrinsic notion of [[real number]] (to delineate the notion of Euclidean space) and whatever surrounding structure is used to found that notion, but it has also received more intrinsic [[axiom|axiomatic]] treatments in the spirit of [[synthetic geometry]]. Notable among these are [[Hilbert|Hilbert's]] axioms, as set out in his *Grundlagen der Geometrie*, and [[Alfred Tarski|Tarski]]'s axioms, which form a classical first-order axiomatic theory. 
 
 ### Hilbert's axioms 
 
@@ -65,7 +65,7 @@ I ([[Todd Trimble]]) assume Hilbert's theory is, or is at least intended to be, 
 ### Tarski's axioms 
  {#TarskiAxioms}
 
-Tarski's [[theory]] EPG (Elementary Plane [Euclidean] Geometry) is a one-sorted theory in first-order logic with equality, with variables representing points. There are no constants or operations in the signature, and just two relations: 
+Tarski's [[theory]] EPG (Elementary Plane [Euclidean] Geometry) is a one-sorted theory in classical first-order logic with equality, with variables representing points. There are no constants or operations in the signature, and just two relations: 
 
 * A ternary relation $B$ (betweenness), with $B(x, y, z)$ meaning $y$ is between $x$ and $z$ ($y$ is on the line segment between $x$ and $z$) -- we will write instead $B x y z$ to conserve space; 
 
