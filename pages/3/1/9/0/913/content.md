@@ -46,7 +46,6 @@ A __sequential net__ is a [[multi-valued function]] from $\mathbb{N}$ (or a [[de
 
 Without WCC, many of the usual properties of [[metric spaces]] and other [[sequential spaces]] fail, but they continue to hold using sequential nets in the place of sequences.  For example, every (located Dedekind) [[real number]] may be represented as a sequential Cauchy net, even when they might not all be represented as Cauchy sequences; see [[Cauchy real number]].
 
-
 ## Sequence spaces
 
 In [[functional analysis]], one considers [[topological vector spaces]] of infinite sequences; these are the [[sequence spaces]].  (Actually, these generalise quite nicely to [[net]] spaces.)
@@ -56,6 +55,8 @@ In [[functional analysis]], one considers [[topological vector spaces]] of infin
 * [[limit of a sequence]]
 
 * [[sequentially compact space]]
+
+* [[sequence algebra]]
 
 Not all that related, but similar sounding:
 
