@@ -98,13 +98,16 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 ## Related concepts
 
+* [[entanglement entropy]]
+
+* [[holographic entanglement entropy]]
+
+* [[short-range entanglement]]
+
 * [[tensor network]]
 
 * [[quantum error correction]]
 
-* [[entanglement entropy]]
-
-* [[holographic entanglement entropy]]
 
 
 [[!include states and observables -- content]]
