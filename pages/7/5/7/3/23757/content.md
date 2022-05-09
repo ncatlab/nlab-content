@@ -27,11 +27,9 @@ where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$.
 
 ## Properties ##
 
-* The set of all [[Dedekind real numbers]] with a $\mathbb{Q}$-indexed locator is the set of all [[modulated Cauchy real numbers]]. 
+* That every [[Dedekind real number]] has a $\mathbb{Q}$-indexed locator implies the weak [[limited principle of omniscience]]. 
 
-* The set of all [[interval cuts]] on $\mathbb{Q}$ with a $\mathbb{Q}$-indexed locator is the set of all [[modulated Cauchy real numbers]]
-
-* That every Dedekind real number has a $\mathbb{Q}$-indexed locator implies the weak [[limited principle of omniscience]]. 
+* That every [[modulated Cauchy real number]] has a $\mathbb{Q}$-indexed locator implies that the modulated Cauchy real numbers are [[sequentially complete]]. 
 
 ## See also ##
 
