@@ -30,7 +30,7 @@ A [[continuous function|continuous]] [[linear operator]] $F \colon B_1\to B_2$ b
 +-- {: .num_defn }
 ###### Definition 
 
-The difference between the dimensions of the kernel and the cokernel of a Fredholm operator $F$ is called its **index** 
+The difference between the [[dimension of a vector space|dimensions]] of the kernel and the cokernel of a Fredholm operator $F$ is called its *[[index]]* (the *[[Fredholm index]]*) 
 
 $$
   ind F \coloneqq dim (ker F) - dim (coker F) = dim (ker F) - codim (im F)
@@ -59,6 +59,9 @@ A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ betwee
 ## Examples
 
 * [[elliptic operator|Elliptic operators]] on [[compact topological space|compact]] [[manifolds]] are naturally Fredholm, when understood between the appropriate [[Sobolev spaces]].
+
+* * [charged vacua of free Dirac field in Coulomb background](Dirac+field#FreeDiracFieldInCoulombBackground) are characterized by Fredholm operators
+
 
 
 ## Properties
@@ -100,8 +103,8 @@ of [[Banach space]]s and bounded operators is said to be a **Fredholm complex** 
 
 One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not zero but the image of that operator is compact. Out of every Fredholm almost complex one can make a complex by correcting the differentials by compact perturbation terms. [[elliptic complex|Elliptic complexes]] give examples of Fredholm complexes. 
 
-## Related concepts
 
+## Related concepts
 
 
 * [[Fredholm module]], 
@@ -119,8 +122,18 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 ## References
 
+Textbook accounts:
 
-* [wikipedia:Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)
+* [[William Arveson]], Section 3.3 of: *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) $[$[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)$]$
+
+Discussion of the space of Fredholm operators as the [[classifying space]] for [[topological K-theory]]:
+
+*  {#Atiyah67}  [[Michael Atiyah]], Appendix of: _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
+
+
+See also:
+
+* Wikipedia, *[Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)*
 
 * A. S. Mishchenko, &#1042;&#1077;&#1082;&#1090;&#1086;&#1088;&#1085;&#1099;&#1077; &#1088;&#1072;&#1089;&#1089;&#1083;&#1086;&#1077;&#1085;&#1080;&#1103; &#1080; &#1080;&#1093; &#1087;&#1088;&#1080;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; (Vector bundles and their applications), Nauka, Moscow, 1984. 208 pp. MR87f:55010  
 
