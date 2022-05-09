@@ -186,7 +186,7 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
 * [[fiber integration in K-theory]]
 
-* [[index of a Dirac operator]]
+* [[Fredholm index]], [[index of a Dirac operator]]
 
 * [[index theorem]]
 
