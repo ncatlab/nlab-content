@@ -128,9 +128,7 @@ For non-modulated Cauchy sequences and reals, there are additional problems even
 
 ## Locators
 
-* Every [[Dedekind real number]] with a $\mathbb{Q}$-indexed locator is a [[modulated Cauchy real numbers]]. 
-
-* That every [[modulated Cauchy real numbers]] has a $\mathbb{Q}$-indexed locator implies that the modulated Cauchy real numbers are [[sequentially complete]]. 
+* Every [[Dedekind real number]] with a $\mathbb{Q}$-indexed locator is a modulated Cauchy real number. 
 
 ## Algebraic closure
 
