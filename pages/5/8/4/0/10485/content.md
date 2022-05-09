@@ -49,16 +49,18 @@ There are the following special classes of symmetry groups $G$ to which this app
    1. **internal** or **on-site** symmetries, which transform "internal degrees of freedom" (of [[electrons]]), located over each atomic site in the crystal (for example [[spin]]-exchange symmetry turning an [[electron]]'s [[spin]] state $\vert \uparrow \rangle$ into $\vert \downarrow \rangle$).
 
 
-\begin{remark}
+\begin{remark}\label{OnTerminology}
 **(terminology)**
 \linebreak
-Beware that some authors insist on using the specific term "SPT" only for items further down in this list. 
+Terminology in solid state physics is not always used with rigour:
 
+1. Beware that some authors insist on using the specific term "SPT" only for items further down in this list. 
 For instance the claim below that SPT's are "classified by [[group cohomology]]" applies only to the last item. The first two items, for the case of free fermion systems at least, are expected to have a classification in [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] (see at [[K-theory classification of topological phases of matter]]). The relation between these two cases/proposals seems not to have been discussed yet in any substance (but check a later version of this entry for more...)
 
-Moreover, sometimes authors insist that the underlying plain topological phase of an "SPT" *must* be trivial. This makes good sense in view of the meaning of "protected" but can lead to clumsy verbiage when used generally.
+1. Beware that most authors insist that the underlying plain topological phase of an "SPT" *must* be trivial. This seems to be due to the idea that a phase that already is non-trivial by itself does not need further "protection from becoming trivial". But of course it may in principle happen that two distinct symmetry protected phases become equivalent to the same but *non-trivial* topological phase if the symmetriues are disregarded, in which case these symmetries still protected the identity of the topological phases. If one allows this more general use of "SPT phase" in condensed matter theory, then it matches nicely the notion of "[[equivariant homotopy theory|equivariant homotopy class]]" in mathematics, specifically in [[equivariant K-theory]], where the notion of "protection" becomes the basic fact that equivariant homotopy classes are generally finer invariants than plain [[homotopy classes]].
 
-Finally beware that some of the literature says "symmetry protected *topological order*", which however was later changed to "symmetry protected *trivial order*" --  which however does not seem to convey the key point much anymore.
+1. Beware that the first articles on the topic ([Gu & Wen 09](#GuWen09), [PBTO 09](#PBTO09)) actually used the term "symmetry protected *topological order*". This is somewhat of a misnomer, since in examples the (symmetry protected) "[[topological order]]" is often *trivial* (in that the [[ground state]] is non-degenerate and/or the [[Berry connection]] is [[abelian group|abelian]]) even though the underlying (symmetry protected) [[topological phase of matter|topological phase]] is non-trivial (ie. the [[valence bundle]] of a [[topological insulator]] has a non-trivial [[K-theory classification of topological phases of matter|K-class]]). Due to this problem, the original authors argued that "SPT" could also stand for "symmetric protected *trivial order*" ([X.-G. Wen,  Sep 18, 2014](https://physics.stackexchange.com/a/136096/5603)). Readers may be excused of being reminded of the [[red herring principle]] and prefer to stick to the more evocative (and now fairly widely used) combination "symmetry protected topological phase". 
+
 \end{remark}
 
  
