@@ -6,7 +6,7 @@
 ## Idea
 
 
-The point of a spectrum of an operator algebra should be thought as a common generalized eigenvalue of the corresponding family of operators. Thus the spectra of (operator) *algebras*, presenting the "points" of underlying space and spectra of (families of) *operators* have closely related origin in main examples. 
+In [[functional analysis]] and [[operator algebra]], the point of a [[spectrum of an operator]] algebra should be thought as a common generalized eigenvalue of the corresponding family of operators. Thus the spectra of (operator) *algebras*, presenting the "points" of underlying space and spectra of (families of) *operators* have closely related origin in main examples. 
 
 __Spectral theory__ concerns generalizations of the theory of the set of eigenvalues of a linear operator on a finite-dimensional vector space, and [[spectrum of a linear operator]], not necessarily bounded, on an infinite-dimensional _complex_ vector space. Most of such generalizations occur in functional analysis (spectral theory of bounded Hermitean operator on a Hilbert space, spectral theory of unbounded operators, spectral theory of families of operators, spectral theory of complex Banach algebras). Spectral theory is in the basis of Gel'fand-Neumark theorem. The points of the Gel'fand spectrum of a commutative $C^*$-algebra have spectral origin in the sense of [[functional analysis]]; the structure of an operator algebra reflects this -- the characters encode related information, and in more general cases, the ideal and even module structure. 
 
@@ -36,11 +36,18 @@ Grothendieck has defined a prime spectrum of commutative unital ring having in m
 
 ## Literature
 
+* [[William Arveson]], *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) $[$[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)$]$
+
 * [[eom]]: [Spectral theory of linear operators](http://eom.springer.de/S/s086520.htm) (by Hazewinkel)
+
 * wikipedia: [spectral theory](http://en.wikipedia.org/wiki/Spectral_theory)
+
 * [[Tom Leinster]], _Spectra of operators and rings_, [nCaf&#233;](http://golem.ph.utexas.edu/category/2011/10/spectra_of_operators_and_rings.html)
+
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
+
 * Nelson Dunford, Jacob T Schwartz, _Linear operators, spectral theory, self adjoint operators in Hilbert space_ (Part 2) (1967, paperback 1988). Wiley.
+
 * Jean Dieudonn&#233;, _Fundamentals of modern analysis_, vol. I, chapter XI: Elementary spectral theory, 1969
 
 * Jean Dieudonn&#233;, _Sur la th&#233;orie spectrale_,  J. Math. Pures Appl. (9) 35 (1956), 175&#8211;187, MR0077894
