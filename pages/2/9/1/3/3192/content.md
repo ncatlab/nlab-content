@@ -147,6 +147,14 @@ See also:
 
 * [[Alexander Grothendieck]], _La th&#233;orie de Fredholm_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __84__ (1956), p. 319-384, [numdam](http://www.numdam.org/item?id=BSMF_1956__84__319_0) 
 
+* [[Marina Prokhorova]], _Spectral Sections_, [arXiv:2008.04672](https://arxiv.org/abs/2008.04672).
+
+* [[Marina Prokhorova]], _Spaces of unbounded Fredholm operators. I. Homotopy equivalences_, [arXiv:2110.14359](https://arxiv.org/abs/2110.14359).
+
+* [[Marina Prokhorova]], _The continuity properties of discrete-spectrum families of Fredholm operators_, [arXiv:2201.09869](https://arxiv.org/abs/2201.09869).
+
+* [[Marina Prokhorova]], _From graph to Riesz continuity_, [arXiv:2202.03337](https://arxiv.org/abs/2202.03337).
+
 category: analysis
 [[!redirects Fredholm complex]]
 [[!redirects Fredholm operators]]
