@@ -15,7 +15,7 @@
 
 ## Definition ##
 
-Let $\mathbb{R}_D$ be the [[Dedekind real numbers]], and let $\mathbb{R}_C$ be the subset of all Dedekind real numbers with a [[locator]], which are the [[modulated Cauchy real numbers]], with canonical [[embedding]] $\eta:\mathbb{R}_C \to \mathbb{R}_D$. A [[function]] $f:\mathbb{R}_D \to \mathbb{R}_D$ __lift to [[locators]]__ if it comes with a function $f_\mathcal{L}:\mathbb{R}_C \to \mathbb{R}_C$ such that the following [[square]] in [[Set]] [[commutative square|commutes]]:
+Let $\mathbb{R}_D$ be the [[Dedekind real numbers]], and let $\mathbb{R}_\mathcal{L}$ be the subset of all Dedekind real numbers with a [[locator]], with canonical [[embedding]] $\eta:\mathbb{R}_\mathcal{L} \to \mathbb{R}_D$. A [[function]] $f:\mathbb{R}_D \to \mathbb{R}_D$ __lift to [[locators]]__ if it comes with a function $f_\mathcal{L}:\mathbb{R}_\mathcal{L} \to \mathbb{R}_\mathcal{L}$ such that the following [[square]] in [[Set]] [[commutative square|commutes]]:
 
 $$
   \array{& \mathbb{R}_C & \overset{f_\mathcal{L}}\rightarrow & \mathbb{R}_C & \\
@@ -28,8 +28,6 @@ $$
 * [[locator]]
 
 * [[Dedekind real numbers]]
-
-* [[modulated Cauchy real numbers]]
 
 * [[intermediate value theorem]]
 
