@@ -53,53 +53,9 @@ $$\forall a \in \{b \in \mathbb{Q} \vert b \geq 0\}. (\forall n \in \mathbb{N}.a
 
 On the other extreme, one could define a model where $\mathcal{C}(a)$ is true for all numbers $a$ in the model, and thus all number trivially are "counting numbers", though in that case the "counting numbers" interpretation of the predicate doesn't make much intuitive sense anymore. 
 
-## Models
+## Standard and nonstandard models
 
-We work in a [[dependent type theory]] with [[identity types]], [[empty type]], [[unit type]], and [[booleans]]. A model of Nelson arithmetic is a [[type]] $N$ with 
-
-* an element $0:N$, 
-* a function $s:N \to N$, 
-* a function $(-)+(-):N \times N \to N$, 
-* a function $(-)\cdot(-):N \times N \to N$, 
-* a type family $\mathcal{C}(-)$
-* a dependent function 
-$$\alpha: \prod_{x:N} \prod_{a:\mathcal{C}(x)} \prod_{b:\mathcal{C}(x)} a =_{\mathcal{C}(x)} b$$
-* a dependent function 
-$$\beta: \prod_{x:N} (s(x) = 0) \to \mathbb{0}$$ 
-* a dependent function
-$$\gamma: \prod_{x:N} \prod_{y:N} s(x) = s(y) \to x = y$$
-* a dependent function
-$$\delta: \prod_{x:N} x + 0 = x$$
-* a dependent function
-$$\epsilon: \prod_{x:N} \prod_{y:N} x + s(y) = s(x+y)$$
-* a dependent function
-$$\zeta: \prod_{x:N} x \cdot 0 = 0$$
-* a dependent function
-$$\eta: \prod_{x:N} \prod_{y:N} x \cdot s(y) = x \cdot y + x$$
-* a term
-$$\iota: \mathcal{C}(0)$$
-* a dependent function
-$$\kappa: \prod_{x:N} \mathcal{C}(x) \to \mathcal{C}(s(x))$$
-* a dependent function 
-$$\tau_0: \prod_{x:N} \prod_{y:N}  \prod_{a:x =_N y} \prod_{b:x =_N y} a =_{x = y} b$$
-
-A homomorphism of models of Nelson arithmetic $N$ and $N^{'}$ is a function $f:N \to N^{'}$ with 
-
-* a dependent function 
-$$f_\mathcal{C}:\prod_{x:N} \mathcal{C}(x) \to \mathcal{C}(f(x))$$
-* a term
-$$a:f(0) = 0$$
-* a dependent function 
-$$b:\prod_{x:N} f(s(x)) = s(f(x))$$
-* a dependent function 
-$$c:\prod_{x:N} \prod_{y:N} f(x + y) = f(x) + f(y)$$
-* a dependent function 
-$$d:\prod_{x:N} \prod_{y:N} f(x \cdot y) = f(x) \cdot f(y)$$
-* a dependent function 
-
-## Example models
-
-* The set of [[natural numbers]] $\mathbb{N}$ is the initial model of Nelson arithmetic in the [[category]] of models of Nelson arithmetic. 
+* The set of [[natural numbers]] $\mathbb{N}$ is the standard model of Nelson arithmetic, and is the initial model of Nelson arithmetic in the [[category]] of models of Nelson arithmetic. 
 
 * The set of non-negative [[rational numbers]] $\mathbb{Q}_{\geq 0}$ with $s(q) \coloneqq q + 1$ and $\mathcal{C}(q)$ for all $q \in \mathbb{Q}_{\geq 0}$ is a model of Nelson arithmetic. 
 
@@ -174,6 +130,54 @@ is a model of Nelson arithmetic.
 1. $\mathcal{C}((1,0))$
 
 is a model of Nelson arithmetic. 
+
+## Category of models of Nelson arithmetic
+
+We work in a [[dependent type theory]] with [[identity types]], [[empty type]], [[unit type]], [[booleans]], and [[universes]]. A model of Nelson arithmetic is a [[type]] $N$ with 
+
+* an element $0:N$, 
+* a function $s:N \to N$, 
+* a function $(-)+(-):N \times N \to N$, 
+* a function $(-)\cdot(-):N \times N \to N$, 
+* a type family $\mathcal{C}(-)$
+* a dependent function 
+$$\alpha: \prod_{x:N} \prod_{a:\mathcal{C}(x)} \prod_{b:\mathcal{C}(x)} a =_{\mathcal{C}(x)} b$$
+* a dependent function 
+$$\beta: \prod_{x:N} (s(x) = 0) \to \mathbb{0}$$ 
+* a dependent function
+$$\gamma: \prod_{x:N} \prod_{y:N} s(x) = s(y) \to x = y$$
+* a dependent function
+$$\delta: \prod_{x:N} x + 0 = x$$
+* a dependent function
+$$\epsilon: \prod_{x:N} \prod_{y:N} x + s(y) = s(x+y)$$
+* a dependent function
+$$\zeta: \prod_{x:N} x \cdot 0 = 0$$
+* a dependent function
+$$\eta: \prod_{x:N} \prod_{y:N} x \cdot s(y) = x \cdot y + x$$
+* a term
+$$\iota: \mathcal{C}(0)$$
+* a dependent function
+$$\kappa: \prod_{x:N} \mathcal{C}(x) \to \mathcal{C}(s(x))$$
+* a dependent function 
+$$\tau_0: \prod_{x:N} \prod_{y:N}  \prod_{a:x =_N y} \prod_{b:x =_N y} a =_{x = y} b$$
+
+A [[homomorphism]] of models of Nelson arithmetic $N$ and $N^{'}$ is a function $f:N \to N^{'}$ with 
+
+* a dependent function 
+$$f_\mathcal{C}:\prod_{x:N} \mathcal{C}(x) \to \mathcal{C}(f(x))$$
+* a term
+$$a:f(0) = 0$$
+* a dependent function 
+$$b:\prod_{x:N} f(s(x)) = s(f(x))$$
+* a dependent function 
+$$c:\prod_{x:N} \prod_{y:N} f(x + y) = f(x) + f(y)$$
+* a dependent function 
+$$d:\prod_{x:N} \prod_{y:N} f(x \cdot y) = f(x) \cdot f(y)$$
+* a dependent function 
+
+The [[category]] of models of Nelson arithmetic in a [[universe]] $\mathcal{U}$ is the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ whose objects $Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ are the models of Nelson arithmetic, and for any two objects $A:Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ and $B:Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ the [[morphisms]] $Mor_{\mathrm{NelsonArithmetics}_\mathcal{U}}(A, B)$ are the homomorphisms of models of Nelson arithmetic as defined above. 
+
+If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
 
 ## See also
 
