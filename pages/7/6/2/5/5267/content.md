@@ -31,6 +31,8 @@ The set $\sigma_d(A)$ of ordinary [[normal eigenvalues|normal]] [[eigenvalues]] 
 
 ## Related concepts
 
+* [[spectral theory]]
+
 * [[min-entropy]]
 
 ## References
@@ -45,4 +47,4 @@ See also
 [[!redirects spectrum of linear operator]]
 
 [[!redirects discrete spectrum]]
-[[!redirects discrete spectra]
+[[!redirects discrete spectra]]
