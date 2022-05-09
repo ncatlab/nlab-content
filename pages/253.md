@@ -117,13 +117,13 @@ It is quite possible that there are errors or omissions in this list, although t
 ## Coherence theorems
 {#Coherence}
 
-One way to state the [[coherence theorem]] for bicategories is that every bicategory is [[equivalence of categories|equivalent]] to a strict $2$-category. This "strictification" is not obtained naively by forcing composition to be associative, but (at least in one construction) by freely adding new composites which are strictly associative.  Another way to state the coherence theorem is that every formal diagram of the constraints (associators and unitors) commutes.
+One way to state the [[coherence theorem]] for bicategories is that every bicategory is [[equivalence of 2-categories|equivalent]] to a [[strict 2-category]]. This "[[rectification]]" is not obtained naively by forcing [[composition]] to be [[associativity|associative]], but (at least in one construction) by freely adding new composites which are strictly associative.  Another way to state the coherence theorem is that every formal diagram of the constraints ([[associators]] and [[unitors]]) [[commuting diagram|commutes]].
 
 Note that $n=2$ is the greatest value of $n$ for which every weak $n$-category is equivalent to a fully strict one; see [[semi-strict infinity-category]] and [[Gray-category]].
 
-The proof of the coherence theorem is basically the same as the proof of the [[coherence theorem for monoidal categories]].  An abstract approach can be found in [Power 1989](#Power89)
+The [[proof]] of the coherence theorem is basically the same as the proof of the [[coherence theorem for monoidal categories]].  An abstract approach can be found in [Power 1989](#Power89). For a related statement see at *[[Lack's coherence theorem]]*.
 
-The strictification [[adjunction]] between bicategories and strict 2-categories can be expressed in terms of [[3-categories]]; see [Campbell](#Campbell18).
+The [[rectification]] [[adjunction]] between [[bicategories]] and [[strict 2-categories]] can be expressed in terms of [[3-categories]]; see [Campbell](#Campbell18).
 
 
 ## Terminology
