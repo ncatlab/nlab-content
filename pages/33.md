@@ -196,7 +196,6 @@ A general notion of categorification for structures defined by [[cartesian monad
 
 [[!redirects vertical categorification]]
 [[!redirects vertical categorifications]]
-[[!redirects vertical categorificaton]]
 
 [[!redirects categorification]]
 [[!redirects categorifications]]
@@ -205,3 +204,6 @@ A general notion of categorification for structures defined by [[cartesian monad
 
 [[!redirects ∞-categorification]]
 [[!redirects ∞-categorifications]]
+
+[[!redirects groupoidal categorification]]
+[[!redirects groupoidal categorifications]]
