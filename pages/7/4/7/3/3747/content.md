@@ -128,11 +128,9 @@ For non-modulated Cauchy sequences and reals, there are additional problems even
 
 ## Locators
 
-* The set of all [[Dedekind real numbers]] with a $\mathbb{Q}$-indexed [[locator]] is the set of all [[modulated Cauchy real numbers]]. 
+* Every [[Dedekind real number]] with a $\mathbb{Q}$-indexed locator is a [[modulated Cauchy real numbers]]. 
 
-* The set of all [[interval cuts]] on $\mathbb{Q}$ with a $\mathbb{Q}$-indexed locator is the set of all [[modulated Cauchy real numbers]]
-
-* That every Dedekind real number has a $\mathbb{Q}$-indexed locator implies that they coincide with the [[modulated Cauchy real numbers]] as well as the weak [[limited principle of omniscience]]. 
+* That every [[modulated Cauchy real numbers]] has a $\mathbb{Q}$-indexed locator implies that the modulated Cauchy real numbers are [[sequentially complete]]. 
 
 ## Algebraic closure
 
