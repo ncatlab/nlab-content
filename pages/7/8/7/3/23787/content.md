@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,7 +19,7 @@
 
 ## Definition 
 
-For a [[commutative ring]] $R$, the **sequence algebra** is the [[commutative algebra|commutative $R$-algebra]] $\mathbb{N} \to R$, with canonical injection $c:R \to (\mathbb{N} \to R)$ which sends each element $r$ in $R$ to a [[constant function]] $c(r)$. The commutative algebra operations are pointwise defined as:
+For a [[commutative ring]] $R$, the **sequence algebra** is the [[commutative algebra|commutative $R$-algebra]] $\mathbb{N} \to R$, with canonical [[injection]] $c \colon R \to (\mathbb{N} \to R)$ which sends each [[element]] $r$ in $R$ to a [[constant function]] $c(r)$. The [[commutative algebra]] operations are pointwise defined as:
 
 $$c(r)(n) \coloneqq r$$
 $$0(n) \coloneqq 0$$
@@ -32,14 +33,14 @@ and thus the sequence set $\mathbb{N} \to R$ is a commutative $R$-algebra.
 
 ## Polynomials 
 
-Given a commutative ring $R$, a **sequential polynomial** is a [[sequence]] $x:\mathbb{N} \to R$ where there exists a natural number $N$ such that for all $i \gt N$, $x(i) = 0$. 
+Given a commutative ring $R$, a **sequential polynomial** is a [[sequence]] $x \colon \mathbb{N} \to R$ where there exists a [[natural number]] $N$ such that for all $i \gt N$ we have $x(i) = 0$. 
 
 ## Operators
 
 ### Left shift operator
 
-Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **left shift operator** 
-$$T:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
+Given a commutative ring $R$ and a sequence $x \colon \mathbb{N} \to R$ of terms in $R$, the **left shift operator** 
+$$T \colon (\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
 is defined as 
 $$T x(i) \coloneqq x(i + 1)$$
 for $i \in \mathbb{N}$. 
@@ -161,10 +162,10 @@ For any such sequence $x:\mathbb{N} \to R$, $\Sigma\mathcal{P}_x(r)$ is called a
 ### Analytic functions
 
 Suppose $R$ is a commutative ring with a [[partial function]]
-$$\lim_{n \to \infty} (-)(n): (\mathbb{N} \to R) \to R$$
+$$\lim_{n \to \infty} (-)(n) \colon (\mathbb{N} \to R) \to R$$
 making $R$ into a [[sequentially Hausdorff space]]. 
 
-Then, a [[partial function]] $f:R \to R$ is an **analytic function** if there exists an element $c \in R$ and sequence $x:\mathbb{N} \to R$ such that 
+Then, a [[partial function]] $f \colon R \to R$ is an **analytic function** if there exists an element $c \in R$ and sequence $x \colon \mathbb{N} \to R$ such that 
 
 $$f(r) = \lim_{n \to \infty} \Sigma \mathcal{T}_c \mathcal{P}_x (r)(n)$$
 
@@ -183,3 +184,5 @@ for all elements $r \in \dom f$.
 * [[sequentially Hausdorff space]]
 
 * [[analytic function]]
+
+[[!redirects sequence algebras]]
