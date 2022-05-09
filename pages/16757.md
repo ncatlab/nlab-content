@@ -206,6 +206,28 @@ Discussion of [[ADE-singularities]] in [[string theory]] on [[orbifolds]]:
 
 * {#Witten99} [[Edward Witten]], _Heterotic String Conformal Field Theory And A-D-E Singularities_, JHEP 0002:025, 2000 ([arXiv:hep-th/9909229](https://arxiv.org/abs/hep-th/9909229))
 
+#### Type II-string theory on ADE-orbifolds
+ {#ReferencesTypeIIStringsOnADE}
+  
+The observation that the [[worldsheet]] [[2d CFT]] correspoding to a string probing (a [[D-brane]] on) an $A_{\kappa-1}$-type singularity $\mathbb{H}/_{C_{\kappa + 2}}$ is the chiral [[WZW model]] for  the [[affine Lie algebra]] [[su(2)]] at level $\kappa - 2$ (plus some trivial summands):
+
+* [[Hirosi Ooguri]] [[Cumrun Vafa]], p. 10-12 of: *Two-Dimensional Black Hole and Singularities of CY Manifolds*, Nucl. Phys. B **463** (1996) 55-72  ([arXiv:hep-th/9511164](https://arxiv.org/abs/hep-th/9511164), [doi:10.1016/0550-3213%2896%2900008-9](https://doi.org/10.1016/0550-3213%2896%2900008-9))
+
+* [[Wolfgang Lerche]], [[Carsten Andrew Lütken]], [[Christoph Schweigert]], p. 4 of: *D-Branes on ALE Spaces and the ADE Classification of Conformal Field Theories*, Nucl.Phys. B **622** (2002) 269-278  ([doi:10.1016/S0550-3213%2801%2900613-7](https://doi.org/10.1016/S0550-3213%2801%2900613-7), [arXiv:hep-th/0006247](https://arxiv.org/abs/hep-th/0006247))
+
+On how this $\widehat{\mathfrak{su}(2)}^{\kappa-2}$-CFT encodes the [[BPS states]] of [[special unitary group|$SU(\kappa)$]]-[[SYM]] on [[D3-branes]] transverse to the singularity:
+
+* [[Wolfgang Lerche]], *On a Boundary CFT Description of Nonperturbative $\mathcal{N} = 2$ Yang-Mills Theory* ([arXiv:hep-th/0006100](https://arxiv.org/abs/hep-th/0006100))
+
+An interpretation of this phenomenon, under the expected [[K-theory classification of D-brane charge]], as due to the (somewhat neglected) sector of [[twisted equivariant K-theory]] where the twist is by an [[inner local system]] which may appear inside an A-type singularity:
+
+* [[Hisham Sati]], [[Urs Schreiber]], (around p. 23 of) *[[schreiber:Anyonic defect branes in TED-K-theory]]* ([arXiv:2203.11838](https://arxiv.org/abs/2203.11838))
+
+
+
+
+
+
 #### Type $I'$-string theory on ADE-orbifolds
 
 [[type I' string theory]] on ADE-orbifolds
@@ -221,7 +243,7 @@ Discussion of [[ADE-singularities]] in [[string theory]] on [[orbifolds]]:
 
 #### M-theory on $G_2$-orbifolds with ADE-singularities
 
-[[M-theory on G2-manifolds]] $\,$ [with ADE-singularities](M-theory+on%20G2-manifolds#EnhancedGaugeGroups):
+[[M-theory on G2-manifolds]] $\,$ [with ADE-singularities](M-theory+on+G2-manifolds#EnhancedGaugeGroups):
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
@@ -233,9 +255,9 @@ Discussion of [[ADE-singularities]] in [[string theory]] on [[orbifolds]]:
 
 * {#AtijayMaldacenaVafa00} [[Michael Atiyah]], [[Juan Maldacena]], [[Cumrun Vafa]], _An M-theory Flop as a Large N Duality_, J. Math. Phys.42:3209-3220, 2001 ([arXiv:hep-th/0011256](https://arxiv.org/abs/hep-th/0011256))
 
-* {#BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], _A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy_, JHEP 0207:046,2002 ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
+* {#BeasleyWitten02} [[Chris Beasley]], [[Edward Witten]], *A Note on Fluxes and Superpotentials in M-theory Compactifications on Manifolds of $G_2$ Holonomy*, JHEP 0207:046 (2002) ([arXiv:hep-th/0203061](http://arxiv.org/abs/hep-th/0203061))
 
-* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] *M-Theory dynamics on a manifold of $G_2$-holonomy*, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
 * {#Witten01} [[Edward Witten]], _Anomaly Cancellation On Manifolds Of $G_2$ Holonomy_ ([arXiv:hep-th/0108165](http://arxiv.org/abs/hep-th/0108165))
 
