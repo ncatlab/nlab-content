@@ -27,9 +27,9 @@ where $]a,b[$, $]a,c[$, $]c,b[$ are [[open intervals]] in $A$.
 
 ## Properties ##
 
-* That every [[Dedekind real number]] has a $\mathbb{Q}$-indexed locator implies the weak [[limited principle of omniscience]]. 
+* A locator is equivalent to having the structure of a [[Cauchy sequence]] with [[modulus of convergence]]. This is stronger than merely being a [[modulated Cauchy real number]].
 
-* Every [[Dedekind real number]] that has a $\mathbb{Q}$-indexed locator is a [[modulated Cauchy real number]]. 
+* That every [[Dedekind real number]] has a $\mathbb{Q}$-indexed locator implies the weak [[limited principle of omniscience]]. 
 
 ## See also ##
 
