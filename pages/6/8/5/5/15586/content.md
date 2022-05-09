@@ -84,6 +84,8 @@ Note that already B. Walters and R. Street conceived of their work on [[Yoneda s
 
 * [[ETCS]]
 
+* [[ETCR]]
+
 * [[Yoneda structure]]
 
 * [[Functorial Semantics of Algebraic Theories]]
