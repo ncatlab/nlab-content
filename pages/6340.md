@@ -1,7 +1,7 @@
-[[!redirects Index theory]]
-[[!redirects index theory]]
 
 > This page is about the notion of index in [[analysis]]/[[operator algebra]]. For other notions see elsewhere.
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -281,3 +281,7 @@ A standard textbook account in the context of [[KK-theory]] is in section 24.1 o
 
 [[!redirects index theory]]
 [[!redirects index theories]]
+
+[[!redirects Index theory]]
+[[!redirects Index theories]]
+
