@@ -23,9 +23,9 @@ Polynomial endo-functors are used to encode a class of [[inductive types]] calle
 
 ## Definition
 
-Let $C$ be a [[locally cartesian closed category]].  A **polynomial functor** is specified by the data
+Let $C$ be a [[locally cartesian closed category]].  A **polynomial** is a diagram
 $$ W \overset{f}{\leftarrow} X \overset{g}{\to} Y \overset{h}{\to} Z $$
-in $C$.  The resulting functor is the composite
+in $C$.  The corresponding **polynomial functor** is the composite
 
 $$ 
   C/W 
