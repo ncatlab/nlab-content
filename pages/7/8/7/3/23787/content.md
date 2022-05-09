@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 =--
 =--
 
@@ -37,7 +41,7 @@ Given a commutative ring $R$, a **sequential polynomial** is a [[sequence]] $x:\
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **left shift operator** 
 $$T:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
 is defined as 
-$$T(x)(i) \coloneqq x(i + 1)$$
+$$T x(i) \coloneqq x(i + 1)$$
 for $i \in \mathbb{N}$. 
 
 ### Series operator
@@ -45,33 +49,33 @@ for $i \in \mathbb{N}$.
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **series operator** 
 $$\Sigma:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
 is inductively defined as 
-$$\Sigma(x)(0) \coloneqq x(0)$$
-$$\Sigma(x)(i + 1) \coloneqq \Sigma(x)(i) + x(i + 1)$$
+$$\Sigma x(0) \coloneqq x(0)$$
+$$\Sigma x(i + 1) \coloneqq \Sigma x(i) + x(i + 1)$$
 for $i \in \mathbb{N}$. 
 
-For any such sequence $x:\mathbb{N} \to R$, $\Sigma(x)$ is called a **[[series]]**. 
+For any such sequence $x:\mathbb{N} \to R$, $\Sigma x$ is called a **[[series]]**. 
 
 ### Inverse series operator
 
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **inverse series operator** 
 $$\Sigma^{-1}:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
 is inductively defined as 
-$$\Sigma^{-1}(x)(0) \coloneqq x(0)$$
-$$\Sigma^{-1}(x)(i + 1) \coloneqq \Sigma^{-1}(x)(i) - x(i + 1)$$
+$$\Sigma^{-1} x(0) \coloneqq x(0)$$
+$$\Sigma^{-1} x(i + 1) \coloneqq \Sigma^{-1} x(i) - x(i + 1)$$
 for $i \in \mathbb{N}$. 
 
-For any such sequence $x:\mathbb{N} \to R$, $\Sigma^{-1}(\Sigma(x)) = x$ and  $\Sigma(\Sigma^{-1}(x)) = x$. 
+For any such sequence $x:\mathbb{N} \to R$, $\Sigma^{-1}\Sigma x = x$ and  $\Sigma\Sigma^{-1}x = x$. 
 
 ### Infinite product operator
 
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **infinite product operator** 
 $$\Pi:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
 is inductively defined as 
-$$\Pi(x)(0) \coloneqq x(0)$$
-$$\Pi(x)(i + 1) \coloneqq \Pi(x)(i) \cdot x(i + 1)$$
+$$\Pi x(0) \coloneqq x(0)$$
+$$\Pi x(i + 1) \coloneqq \Pi x(i) \cdot x(i + 1)$$
 for $i \in \mathbb{N}$. 
 
-For any such sequence $x:\mathbb{N} \to R$, $\Pi(x)$ is called an **[[infinite product]]**. 
+For any such sequence $x:\mathbb{N} \to R$, $\Pi x$ is called an **[[infinite product]]**. 
 
 ### Discrete convolution
 
@@ -81,16 +85,16 @@ is defined as
 $$(x*y)(i) \coloneqq \sum_{n:[0,i]} x(i) y(i - n)$$
 for $i \in \mathbb{N}$. 
 
-Given a commutative ring $R$ and sequence $x:\mathbb{N} \to R$ and $y:\mathbb{N} \to R$, the **Cauchy product** of the two series $\Sigma(x) \cdot \Sigma(y)$ is the discrete convolution of $x$ and $y$. 
+Given a commutative ring $R$ and sequence $x:\mathbb{N} \to R$ and $y:\mathbb{N} \to R$, the **Cauchy product** of the two series $\Sigma x \cdot \Sigma x$ is the discrete convolution of $x$ and $y$. 
 
-$$\Sigma(x) \cdot \Sigma(y) \coloneqq x * y$$
+$$\Sigma x \cdot \Sigma y \coloneqq x * y$$
 
 ### Sequential derivative
 
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **sequential derivative** 
-$$\tilde{D}:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
+$$\mathcal{D}:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$$
 is defined as 
-$$\tilde{D}(x)(i) \coloneqq (i + 1) x(i + 1)$$
+$$\mathcal{D} x(i) \coloneqq (i + 1) x(i + 1)$$
 for $i \in \mathbb{N}$. 
 
 The sequential derivative is a [[derivation]], where linearity is satisfied by addition and scalar multiplication of sequences and the [[Leibniz rule]] is satisfied for the Cauchy product of sequences. As a result, every sequence algebra is a [[differential algebra]]. 
@@ -99,69 +103,72 @@ The sequential derivative is a [[derivation]], where linearity is satisfied by a
 
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$, the set of right shifted sequences of $x$ is the [[fiber]] of the left shift operator at $x$:
 
-$$\{y:\mathbb{N} \to R \vert T(y) = x\}$$
+$$\{y:\mathbb{N} \to R \vert T y = x\}$$
 
 A right shift operator is an element of the above set. 
 
 Every sequence in $R$ has a right shift operator $T^{-1}_s:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$ for every term $r \in R$, 
 defined as
-$$T^{-1}_r(x)(0) = r$$
-$$T^{-1}_r(x)(i + i) \coloneqq x(i)$$
+$$T^{-1}_r x(0) = r$$
+$$T^{-1}_r x(i + i) \coloneqq x(i)$$
 for $i \in \mathbb{N}$. 
 
 ### Sequential antiderivatives
 
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$, the set of sequential antiderivatives of $x$ is the [[fiber]] of the sequential derivative at $x$:
 
-$$\{y:\mathbb{N} \to R \vert \tilde{D}(y) = x\}$$
+$$\{y:\mathbb{N} \to R \vert \mathcal{D} y = x\}$$
 
 A __sequential antiderivative__ is a element of the above set. 
 
-If $R$ is a commutative $\mathbb{Q}$-algebra, then every sequence in $R$ has an antiderivative operator $\tilde{D}^{-1}_r:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$ for every term $r \in R$, 
+If $R$ is a commutative $\mathbb{Q}$-algebra, then every sequence in $R$ has an antiderivative operator $\mathcal{D}^{-1}_r:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$ for every term $r \in R$, 
 defined as
-$$\tilde{D}^{-1}_r(x)(0) = r$$
-$$\tilde{D}^{-1}_r(x)(i + i) \coloneqq \frac{1}{i} x(i)$$
-for $i \in \mathbb{N}$. 
+$$\mathcal{D}^{-1}_r x(0) = r$$
+$$\mathcal{D}^{-1}_r x(i + i) \coloneqq \frac{1}{i} x(i)$$
+for $i \in \mathbb{N}$.  
 
-### Linear differential operators
+## Sequence functions
 
-Since the sequence algebra $\mathbb{N} \to R$ is a commutative $R$-algebra, it is a commutative ring, and thus, the function algebra $(\mathbb{N} \to R) \to (\mathbb{N} \to R)$ is a commutative $\mathbb{N} \to R$-algebra with respect to multiplication and an $\mathbb{N} \to R$-algebra with respect to composition. 
+Given a commutative ring $R$, a **sequence function** is a function $f:R \to (\mathbb{N} \to R)$. 
 
-A linear differential operator is a [[polynomial function]] $f:(\mathbb{N} \to R) \to (\mathbb{N} \to R)$ with a [[natural number]] $n \in \mathbb{N}$ and a coefficient function $a:[0, n] \to (\mathbb{N} \to R)$ from the set of natural numbers less than or equal to $n$ to the sequence algebra $\mathbb{N} \to R$, such that for all $x \in R$, 
+### Functional shift operator
 
-$$D = \sum_{i:[0, n]} a(i) \tilde{D}^i$$
+Given a commutative ring $R$ and a sequence function $f:R \to (\mathbb{N} \to R)$, the **functional shift operator** 
+$$\mathcal{T}:R \to (R \to (\mathbb{N} \to R)) \to (R \to (\mathbb{N} \to R))$$
+is defined as 
+$$\mathcal{T}_c f(r)(i) \coloneqq f(r - c)(i)$$
+for $c \in R$, and $r \in R$, and $i \in \mathbb{N}$. 
 
-where $\tilde{D}^i$ is the $i$-th compositional power of the sequential derivative. 
-
-### Power series
+### Power sequence functions
 
 Given a commutative ring $R$ and a sequence $x:\mathbb{N} \to R$ of terms in $R$, the **power sequence function** 
 $$\mathcal{P}:(\mathbb{N} \to R) \to (R \to (\mathbb{N} \to R))$$
 is defined as 
-$$\mathcal{P}(x)(r)(i) \coloneqq x(i) r^i$$
+$$\mathcal{P}_x (r)(i) \coloneqq x(i) r^i$$
 for $i \in \mathbb{N}$ and $r \in R$. 
 
-For any such sequence $x:\mathbb{N} \to R$, $\Sigma(\mathcal{P}(x)(r))$ is called a **[[power series]]**. 
+### Functional derivative
 
-## Solutions of differential equations
+Given a commutative ring $R$, the **functional derivative** of the power sequence function $f:R \to (\mathbb{N} \to R)$
+$$\tilde{D}:(R \to (\mathbb{N} \to R)) \to (R \to (\mathbb{N} \to R))$$
+is defined as
+$$(\tilde{D} \mathcal{P}_x)(r)(i) \coloneqq (\mathcal{D} x(i)) r^i $$
 
-Given a differential operator $D$ and a sequence $a:\mathbb{N} \to R$ a differential equation is an equation of the form $D(x) = a$. 
+### Power series
 
-### Exponential sequence
+For any such sequence $x:\mathbb{N} \to R$, $\Sigma\mathcal{P}_x(r)$ is called a **formal [[power series]]** or **formal [[Maclaurin series]]**. For any such sequence $x:\mathbb{N} \to R$ and element $c \in R$, $\Sigma \mathcal{T}_c \mathcal{P}_x (r)$ is called a **formal [[Taylor series]]**. 
 
-Given a commutative $R$ is a commutative $\mathbb{Q}$-algebra, the exponential sequence $\exp:\mathbb{N} \to R$ is defined by the differential equation 
+### Analytic functions
 
-$$\tilde{D}(\exp) = \exp$$
+Suppose $R$ is a commutative ring with a [[partial function]]
+$$\lim_{n \to \infty} (-)(n): (\mathbb{N} \to R) \to R$$
+making $R$ into a [[sequentially Hausdorff space]]. 
 
-with initial condition $\exp(0) = 1$. 
+Then, a [[partial function]] $f:R \to R$ is an **analytic function** if there exists an element $c \in R$ and sequence $x:\mathbb{N} \to R$ such that 
 
-### Sine sequence
+$$f(r) = \lim_{n \to \infty} \Sigma \mathcal{T}_c \mathcal{P}_x (r)(n)$$
 
-Given a commutative $\mathbb{Q}$-algebra $R$, the sine sequence $\exp:\mathbb{N} \to R$ is defined by the differential equation 
-
-$$\tilde{D}^2(\sin) = \sin$$
-
-with initial conditions $\sin(0) = 0$ and $\tilde{D}(\sin) = 1$. 
+for all elements $r \in \dom f$.
 
 ## See also 
 
@@ -172,3 +179,7 @@ with initial conditions $\sin(0) = 0$ and $\tilde{D}(\sin) = 1$.
 * [[function algebra]]
 
 * [[differential algebra]]
+
+* [[sequentially Hausdorff space]]
+
+* [[analytic function]]
