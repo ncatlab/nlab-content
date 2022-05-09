@@ -243,7 +243,18 @@ Implications for the significance across channels:
 
 > From the global fits to various $b \to  s l^+ l^-$−data, the discrepancy is more than $5\sigma$ from the SM predictions. The new result ([59](https://arxiv.org/abs/2103.11769)) further strengthens the lepton flavor universality violation. This anomaly alone convincingly indicates New Physics
 
+### Updates in 2022
+ {#UpdatesIn2022}
+
+[Alise et al. 22](#AliseEtAl2222):
+
+> We critically analyze the body of results that hints to the existence of New Physics from possible violations of lepton universality observed by the LHCb experiment. $[\cdots]$ the deviations from the Standard Model are at the 4.7σ level when including only the hadronic insensitive observables while it increases to 6.1σ when including also the hadronic sensitive ones.
+
+> $[...]$ Scalar [[leptoquarks]], either a singlet or a doublet of weak interactions, can explain all the anomalies. 
+
 \linebreak
+
+
 
 ### Outlook
 
@@ -1038,7 +1049,7 @@ _Addressing the $R_{D^{(\ast)}}$ anomalies with an S1 leptoquark from $SO(10)$ g
 
 * Alexandre Carvunis, [[Andreas Crivellin]], Diego Guadagnoli, Shireen Gangal, *The Forward-Backward Asymmetry in $B \to D^\ast \ell \nu$: One more hint for Scalar Leptoquarks?* ([arXiv:2106.09610](https://arxiv.org/abs/2106.09610))
 
-
+* {#AliseEtAl2222} Alessandra D'Alise  et al.,  *Standard model anomalies: Lepton flavour non-universality, g-2 and W-mass* $[$[arXiv:2204.03686](https://arxiv.org/abs/2204.03686)$]$
 
 \linebreak
 
