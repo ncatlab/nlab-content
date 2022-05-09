@@ -126,7 +126,7 @@ $$
 
 For more details see [here](cohomotopy#RelationToCobordismGroup).
 
-In goos situations this [[bijection]] of [[sets]] of [[homotopy classes]] enhances to a [[weak equivalence]] of [[configuration space (mathematics)|configuration spaces]]/[[cocycle spaces]]. See _[Characterization of point configurations by their Cohomotopy charge](#CharacterizationOfPointConfigurations)_ below.
+In good situations this [[bijection]] of [[sets]] of [[homotopy classes]] enhances to a [[weak equivalence]] of [[configuration space (mathematics)|configuration spaces]]/[[cocycle spaces]]. See _[Characterization of point configurations by their Cohomotopy charge](#CharacterizationOfPointConfigurations)_ below.
 
 \linebreak
 
