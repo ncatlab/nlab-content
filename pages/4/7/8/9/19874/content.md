@@ -236,6 +236,7 @@ and [[intersecting D-brane model|on branes]]:
 
 * Alexandre Carvunis, [[Andreas Crivellin]], Diego Guadagnoli, Shireen Gangal, *The Forward-Backward Asymmetry in $B \to D^\ast \ell \nu$: One more hint for Scalar Leptoquarks?* ([arXiv:2106.09610](https://arxiv.org/abs/2106.09610))
 
+* {#AliseEtAl2222} Alessandra D'Alise  et al.,  *Standard model anomalies: Lepton flavour non-universality, g-2 and W-mass* $[$[arXiv:2204.03686](https://arxiv.org/abs/2204.03686)$]$
 
 \linebreak
 
