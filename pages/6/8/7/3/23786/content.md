@@ -43,6 +43,8 @@ with a [[predicate]] $\mathcal{C}$ satisfying the following axioms
 
 1. $\forall_{x} \mathcal{C}(x) \Rightarrow \mathcal{C}(s(x))$; 
 
+### Counting numbers
+
 The predicate $\mathcal{C}$ is supposed to refer to "counting numbers", in the familiar intuitive sense that the [[natural numbers]] are supposed to be for counting. Nelson states in his paper that
 
 > It follows (...) that $0$, $S0$, $SS0$, and so forth, are counting numbers. But we cannot prove that all numbers are counting numbers.
@@ -56,6 +58,28 @@ An [[uncountable set|uncountable]] model of Nelson arithmetic where not every nu
 $$\forall a \in \{b \in \mathbb{R} \vert b \geq 0\}. (\forall n \in \mathbb{N}.\vert a - n \vert \gt 0) \implies \neg \mathcal{C}(a)$$
 
 On the other extreme, one could define a model where $\mathcal{C}(a)$ is true for all numbers $a$ in the model, and thus all number trivially are "counting numbers", though in that case the "counting numbers" interpretation of the predicate doesn't make much intuitive sense anymore. 
+
+### Additionable, multiplicable, and exponentiable numbers
+
+We define the predicate $\mathcal{A}$ on a model of Nelson arithmetic $N$ to be that $\mathcal{A}(x)$ if for all $x \in N$ such that $\mathcal{C}(x)$, and for all $y \in N$, $\mathcal{C}(y + x)$. Nelson referred to elements where $\mathcal{A}(x)$ is true as "additionable numbers"; however, these are better interpreted as "additionable counting numbers", as Nelson is really talking about the natural numbers. Missing from Nelson's paper is a proof that addition of "additionable numbers" is associative. 
+
+In the same vein, we could define the predicate $\mathcal{M}$ on a model of Nelson arithmetic $N$ to be that $\mathcal{M}(x)$ if for all $x \in N$ such that $\mathcal{C}(x)$, and for all $y \in N$, $\mathcal{C}(y \cdot x)$. Nelson referred to elements where $\mathcal{M}(x)$ is true as "multiplicable numbers"; however, similarly to "additionable counting numbers" these are better interpreted as "multiplicable counting numbers", as Nelson is really talking about the natural numbers. Missing from Nelson's paper is a proof that multiplication of "multiplicable numbers" is associative. 
+
+Now, suppose that there is a [[binary function]] $(-)\uparrow(-):N \times N \to N$ called "exponentiation" such that
+
+* for all $x \in N$, $x \uparrow 0 = s(0)$ 
+
+* for all $x, y \in N$, $x \uparrow s(y) = x \cdot x \uparrow y$
+
+Nelson states that 
+
+> If we attempt to define “exponentiable number” in the same spirit, we are unable to prove that if $x_1$ and $x_2$ are exponentiable numbers then so is $x_1 \uparrow x_2$. There is a radical difference between addition and multiplication on the one hand and exponentiation, superexponentiation, and so forth, on the other hand. The obstacle is that exponentiation is not associative; for example, $(2 \uparrow 2) \uparrow 3 = 4 \uparrow 3 = 64$ whereas $2 \uparrow (2 \uparrow 3) = 2 \uparrow 8 = 256$. For any specific numeral SSS. . . 0 we can indeed prove that it is an exponentiable number, but we cannot prove that the world of exponentiable numbers is closed under exponentiation.
+
+The categorification of Nelson's argument to the [[category]] of [[sets]] would say that the [[function set]] between two [[exponentiable object|exponentiable]] [[finite sets]] cannot be proved to be exponentiable, and thus [[FinSet]] cannot be proved to be [[cartesian closed]], and cannot be proved to be a [[elementary topos]] or a [[Π-pretopos]]. 
+
+### Ultrafinitism 
+
+Categorifying the current axioms to the category of sets, the finite sets (represented by the sets $S$ in which $\mathcal{C}(S)$ is [[inhabited]]) could not be proven to be [[symmetric monoidal]] with respect to either the [[disjoint union]] or the [[Cartesian product]]. Thus, Nelson's [[Set]] forms a framework of mathematics, which is sometimes called "ultrafinite mathematics", that is significantly weaker than [[predicative mathematics|strongly predicative]] [[constructive mathematics|constructive]] [[finite mathematics]]. However, the [[subcategories]] of right-additive finite sets $(S, \alpha:\mathcal{A}(S))$ and right-multiplicative finite sets $(S, \mu:\mathcal{M}(S))$ can be proven to be [[symmetric monoidal]]. 
 
 ## Category of models of Nelson arithmetic
 
