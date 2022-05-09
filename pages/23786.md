@@ -47,11 +47,51 @@ The predicate $\mathcal{C}$ is supposed to refer to "counting numbers", in the f
 
 > It follows (...) that $0$, $S0$, $SS0$, and so forth, are counting numbers. But we cannot prove that all numbers are counting numbers.
 
-And indeed, there are many [[ nonstandard model of arithmetic|non-standard models of Nelson arithmetic]] where not every number in the model is a "counting number"/"natural number". One example of such a model is the non-negative [[rational numbers]], where zero, [[addition]], and [[multiplication]] are the usual operations on the non-negative rational numbers, $s(n) = n + 1$, and $\mathcal{C}(a)$ is defined to be false for non-negative rational numbers [[denial inequality|not equal to]] a natural number:
+And indeed, there are many [[nonstandard model of arithmetic|non-standard models of Nelson arithmetic]] where not every number in the model is a "counting number"/"natural number". One example of such a model is the non-negative [[rational numbers]], where zero, [[addition]], and [[multiplication]] are the usual operations on the non-negative rational numbers, $s(n) = n + 1$, and $\mathcal{C}(a)$ is defined to be false for non-negative rational numbers [[denial inequality|not equal to]] a natural number:
 
 $$\forall a \in \{b \in \mathbb{Q} \vert b \geq 0\}. (\forall n \in \mathbb{N}.a \neq n) \implies \neg \mathcal{C}(a)$$
 
+An [[uncountable set|uncountable]] model of Nelson arithmetic where not every number in the model is a "counting number" is the non-negative [[Dedekind real numbers]], where zero, [[addition]], and [[multiplication]] are the usual operations on the non-negative rational numbers, $s(n) = n + 1$, and $\mathcal{C}(a)$ is defined to be false for non-negative rational numbers whose [[distance]] from every natural number is positive:
+
+$$\forall a \in \{b \in \mathbb{R} \vert b \geq 0\}. (\forall n \in \mathbb{N}.\vert a - n \vert \gt 0) \implies \neg \mathcal{C}(a)$$
+
 On the other extreme, one could define a model where $\mathcal{C}(a)$ is true for all numbers $a$ in the model, and thus all number trivially are "counting numbers", though in that case the "counting numbers" interpretation of the predicate doesn't make much intuitive sense anymore. 
+
+## Category of models of Nelson arithmetic
+
+A model of Nelson arithmetic is a [[set]] $N$ with an element $0 \in N$, a function $s:N \to N$, binary operations $(-)+(-):N \times N \to N$ and $(-)\cdot(-):N \times N \to N$, and a predicate $\mathcal{C}:N \to \mathrm{Prop}$, such that 
+
+* for all $x \in N$, $\neg s(x) = 0$
+
+* for all $x, y \in N$, $s(x) = s(y)$ implies $x = y$
+
+* for all $x \in N$, $x + 0 = x$
+
+* for all $x, y \in N$, $x + s(y) = s(x+y)$
+
+* for all $x \in N$, $x \cdot 0 = 0$
+
+* for all $x, y \in N$, $x \cdot s(y) = x \cdot y + x$
+
+* $\mathcal{C}(0)$
+
+* for all $x \in N$, $\mathcal{C}(x)$ implies $\mathcal{C}(s(x))$; 
+
+A [[homomorphism]] of models of Nelson arithmetic $N$ and $N^{'}$ is a function $f:N \to N^{'}$ such that
+
+* $f(0_N) = 0_{N^{'}}$
+
+* for all $x \in N$, $\mathcal{C}_N(x)$ implies $\mathcal{C}_{N^{'}}(f(x))$
+
+* for all $x \in N$, $f(s_N(x)) = s_{N^{'}}(f(x))$
+
+* for all $x, y \in N$, $f(x +_N y) = f(x) +_{N^{'}} f(y)$
+
+* for all $x, y \in N$, $f(x \cdot_N y) = f(x) \cdot_{N^{'}} f(y)$
+
+The [[category]] of models of Nelson arithmetic in a [[universe]] $\mathcal{U}$ is the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ whose objects $Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ are the models of Nelson arithmetic, and for any two objects $A \in Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ and $B \in Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ the [[morphisms]] $Mor_{\mathrm{NelsonArithmetics}_\mathcal{U}}(A, B)$ are the homomorphisms of models of Nelson arithmetic as defined above. 
+
+If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
 
 ## Standard and nonstandard models
 
@@ -130,54 +170,6 @@ is a model of Nelson arithmetic.
 1. $\mathcal{C}((1,0))$
 
 is a model of Nelson arithmetic. 
-
-## Category of models of Nelson arithmetic
-
-We work in a [[dependent type theory]] with [[identity types]], [[empty type]], [[unit type]], [[booleans]], and [[universes]]. A model of Nelson arithmetic is a [[type]] $N$ with 
-
-* an element $0:N$, 
-* a function $s:N \to N$, 
-* a function $(-)+(-):N \times N \to N$, 
-* a function $(-)\cdot(-):N \times N \to N$, 
-* a type family $\mathcal{C}(-)$
-* a dependent function 
-$$\alpha: \prod_{x:N} \prod_{a:\mathcal{C}(x)} \prod_{b:\mathcal{C}(x)} a =_{\mathcal{C}(x)} b$$
-* a dependent function 
-$$\beta: \prod_{x:N} (s(x) = 0) \to \mathbb{0}$$ 
-* a dependent function
-$$\gamma: \prod_{x:N} \prod_{y:N} s(x) = s(y) \to x = y$$
-* a dependent function
-$$\delta: \prod_{x:N} x + 0 = x$$
-* a dependent function
-$$\epsilon: \prod_{x:N} \prod_{y:N} x + s(y) = s(x+y)$$
-* a dependent function
-$$\zeta: \prod_{x:N} x \cdot 0 = 0$$
-* a dependent function
-$$\eta: \prod_{x:N} \prod_{y:N} x \cdot s(y) = x \cdot y + x$$
-* a term
-$$\iota: \mathcal{C}(0)$$
-* a dependent function
-$$\kappa: \prod_{x:N} \mathcal{C}(x) \to \mathcal{C}(s(x))$$
-* a dependent function 
-$$\tau_0: \prod_{x:N} \prod_{y:N}  \prod_{a:x =_N y} \prod_{b:x =_N y} a =_{x = y} b$$
-
-A [[homomorphism]] of models of Nelson arithmetic $N$ and $N^{'}$ is a function $f:N \to N^{'}$ with 
-
-* a dependent function 
-$$f_\mathcal{C}:\prod_{x:N} \mathcal{C}(x) \to \mathcal{C}(f(x))$$
-* a term
-$$a:f(0) = 0$$
-* a dependent function 
-$$b:\prod_{x:N} f(s(x)) = s(f(x))$$
-* a dependent function 
-$$c:\prod_{x:N} \prod_{y:N} f(x + y) = f(x) + f(y)$$
-* a dependent function 
-$$d:\prod_{x:N} \prod_{y:N} f(x \cdot y) = f(x) \cdot f(y)$$
-* a dependent function 
-
-The [[category]] of models of Nelson arithmetic in a [[universe]] $\mathcal{U}$ is the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ whose objects $Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ are the models of Nelson arithmetic, and for any two objects $A:Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ and $B:Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ the [[morphisms]] $Mor_{\mathrm{NelsonArithmetics}_\mathcal{U}}(A, B)$ are the homomorphisms of models of Nelson arithmetic as defined above. 
-
-If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
 
 ## Groupoidal categorification
 
