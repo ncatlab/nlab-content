@@ -36,6 +36,10 @@ The [[index]] of a [[Dirac operator]]. [[fiber integration in K-theory]]
 
 * [[Atiyah-Singer index theorem]]
 
+## Related concepts
+
+* [[Fredholm index]]
+
 ## References
 
 Chapter III of 
