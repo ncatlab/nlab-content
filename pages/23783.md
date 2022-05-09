@@ -24,7 +24,7 @@ A [[categorification]] of the notion of [[sigma-frame|$\sigma$-frame]].
 
 ## Definition ##
 
-A __$\sigma$-pretopos__ is a [[pretopos]] $\mathcal{E}$ where all [[countable]] [[unions]] of [[subobjects]] are [[pullback-stable]]. 
+A __$\sigma$-pretopos__ is a [[pretopos]] $\mathcal{E}$ where all [[countable]] [[unions]] of [[subobjects]] (exist and) are [[pullback-stable]]. 
 
 ### Girard-esque axioms ###
 
@@ -40,6 +40,13 @@ A __$\sigma$-pretopos__ is
 
 * where all [[congruences]] have effective [[quotient objects]], which are also [[pullback-stable]].
 
+## Examples
+
+* Any [[pretopos#infinitary|infinitary pretopos]] is a $\sigma$-topos.
+
+* The category of countable sets (for instance, subquotients of the natural numbers $\mathbb{N}$) is a $\sigma$-pretopos.
+
+
 ## See also ##
 
 * [[pretopos]]
@@ -50,16 +57,10 @@ A __$\sigma$-pretopos__ is
 
 ## References ##
 
-* [[Peter Johnstone]]
 
-  **[[Sketches of an Elephant]] -- A Topos Theory Compendium**
+The concept is defined and discussed around Lemma A.1.4.19 in 
 
-
-  Oxford University Press 2002
-
-  Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
-                  
-  Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
+* [[Peter Johnstone]], [[Sketches of an Elephant]] -- A Topos Theory Compendium**, Oxford University Press 2002. Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)), Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
 
 [[!redirects sigma-pretopoi]]
 
