@@ -128,7 +128,7 @@ For non-modulated Cauchy sequences and reals, there are additional problems even
 
 ## Locators
 
-* Every [[Dedekind real number]] with a $\mathbb{Q}$-indexed locator is a modulated Cauchy real number. 
+* A [[locator]] is equivalent to having the structure of a [[Cauchy sequence]] with [[modulus of convergence]]. This is stronger than merely being a modulated Cauchy real number.
 
 ## Algebraic closure
 
