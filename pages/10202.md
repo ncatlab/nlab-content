@@ -318,4 +318,5 @@ Of course, there is always good old Wikipedia:
 [[!redirects Ackermann function]]
 [[!redirects Ackermann functions]]
 
-
+[[!redirects primitive recursive function]]
+[[!redirects primitive recursive functions]]
