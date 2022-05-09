@@ -42,6 +42,10 @@ on the [[slice site]] site $Emb_n/M$ is an [[equivalence of (∞,1)-categories]]
 
 ## Literature
 
+The original reference is
+
+* [[M. L. Gromov]], _Stable mappings of foliations into manifolds_, Mathematics of the USSR-Izvestiya 3:4 (1969), 671-694.  [doi](http://dx.doi.org/10.1070/im1969v003n04abeh000796).
+
 The canonical reference is Section 2.2.1 of
 
 * [[Mikhael Gromov]], _Partial differential relations_, 1986, [doi](http://dx.doi.org/10.1007/978-3-662-02267-2).
