@@ -47,7 +47,7 @@ The predicate $\mathcal{C}$ is supposed to refer to "counting numbers", in the f
 
 > It follows (...) that $0$, $S0$, $SS0$, and so forth, are counting numbers. But we cannot prove that all numbers are counting numbers.
 
-And indeed, there are many [[ nonstandard model of arithmetic|non-standard models of Nelson arithmetic]] where not every number in the model is a "counting number"/"natural number". One example of such a model is the non-negative [[rational numbers]], where zero, [[addition]], and [[multiplication]] are the usual operations on the non-negative rational numbers, $s(n) = n + 1$, and $\mathcal{C}(a)$ is defined to be false for non-negative rational numbers [[denial inequality|not equal to]] every natural number:
+And indeed, there are many [[ nonstandard model of arithmetic|non-standard models of Nelson arithmetic]] where not every number in the model is a "counting number"/"natural number". One example of such a model is the non-negative [[rational numbers]], where zero, [[addition]], and [[multiplication]] are the usual operations on the non-negative rational numbers, $s(n) = n + 1$, and $\mathcal{C}(a)$ is defined to be false for non-negative rational numbers [[denial inequality|not equal to]] a natural number:
 
 $$\forall a \in \{b \in \mathbb{Q} \vert b \geq 0\}. (\forall n \in \mathbb{N}.a \neq n) \implies \neg \mathcal{C}(a)$$
 
@@ -178,6 +178,36 @@ $$d:\prod_{x:N} \prod_{y:N} f(x \cdot y) = f(x) \cdot f(y)$$
 The [[category]] of models of Nelson arithmetic in a [[universe]] $\mathcal{U}$ is the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ whose objects $Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ are the models of Nelson arithmetic, and for any two objects $A:Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ and $B:Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ the [[morphisms]] $Mor_{\mathrm{NelsonArithmetics}_\mathcal{U}}(A, B)$ are the homomorphisms of models of Nelson arithmetic as defined above. 
 
 If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
+
+## Groupoidal categorification
+
+The [[groupoidal categorification]] of Nelson arithmetic is a [[groupoid]] $\mathcal{G}$ with 
+
+* an object $0 \in \mathcal{G}$, 
+
+* a [[functor]] $S:\mathcal{G} \to \mathcal{G}$, 
+
+* a functor $(-)+(-):\mathcal{G} \times \mathcal{G} \to \mathcal{G}$ 
+
+* a functor $(-)\cdot(-):\mathcal{G} \times \mathcal{G} \to \mathcal{G}$
+
+* for all $A \in \mathcal{G}$, a function set $(S(A) \cong 0) \to \emptyset$ from the [[set]] of [[isomorphisms]] $S(A) \cong 0$ to the [[empty set]]
+
+* for all $A, B \in \mathcal{G}$, a function set $(S(A) \cong S(B)) \to (A \cong B)$ from the set of isomorphism $S(A) \cong S(B)$ to the set of isomorphisms $A \cong B$
+
+* for all $A \in \mathcal{G}$, a set of isomorphisms $A + 0 \cong A$
+
+* for all $A, B \in \mathcal{G}$, a set of isomorphisms $A + S(B) \cong S(A+B)$
+
+* for all $A \in \mathcal{G}$, a set of isomorphisms $A \cdot 0 \cong A$
+
+* for all $A, B \in \mathcal{G}$, a set of isomorphisms $A \cdot S(B) \cong A \cdot B + A$
+
+* a [[Set]]-valued functor $\mathcal{C}:\mathcal{G} \to \mathrm{Set}$ 
+
+* an element $p \in \mathcal{C}(0)$ 
+
+* for all $A \in \mathcal{G}$, a function $f_A:\mathcal{C}(A) \to \mathcal{C}(S(A))$ 
 
 ## See also
 
