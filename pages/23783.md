@@ -44,7 +44,7 @@ A __$\sigma$-pretopos__ is
 
 * Any [[pretopos#infinitary|infinitary pretopos]] is a $\sigma$-topos.
 
-* The category of [[countable sets]] (for instance, [[subquotients]] of the [natural numbers]] $\mathbb{N}$) is a $\sigma$-pretopos.
+* The category of [[countable sets]] (for instance, [[subquotients]] of the [[natural numbers]] $\mathbb{N}$) is a $\sigma$-pretopos.
 
 * The [[category of sets]] in the [[predicative mathematics|predicative]] [[set theory]] $CZF_{Exp}$ from ([Simpson-Streicher 2012](#SimpsonStreicher12)) is a $\sigma$-pretopos.
 
@@ -55,6 +55,8 @@ A __$\sigma$-pretopos__ is
 * [[Grothendieck topos]]
 
 * [[sigma-frame]]
+
+* [[geometric category]]
 
 ## References ##
 
