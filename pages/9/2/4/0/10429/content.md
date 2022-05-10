@@ -66,7 +66,7 @@ which all [[group action|act]] on:
 
 If the class of a topological phase of matter crucially depends on its  [[equivariance]] under such [[symmetries]], hence if the phase could/would decay under deformations which (albeit remaining [[quantum adiabatic theorem|adiabatic]]) [[symmetry breaking|break]] some of the symmetry, then one speaks of a *[[symmetry protected topological phase]]*. The richness of topological phases all comes from this [[symmetry protected topological phase|symmetry protection]]. 
 
-For instance, without any symmetry protection the [[valence bundles]] in a [[topological insulator phase]] of a realistic crysalline material (necessarily of effective dimension $\leq 3$) are characterized entirely by their [[first Chern class]]; one speaks of a *[[Chern insulator]]*-phase. 
+For instance, without any symmetry protection the [[valence bundles]] in a [[topological insulator]]-[[phase of matter|phase]] of a realistic crystalline material (necessarily of effective dimension $\leq 3$) are characterized entirely by their [[first Chern class]]; one speaks of a *[[Chern insulator]]*-phase. 
 
 ### Topological semi-metals
 
