@@ -372,6 +372,8 @@ See at _[[Hopf invariant one theorem]]_.
 
 ## Related concepts
 
+* [[cup-i product]]
+
 * [[cohomology operation]]
 
 * [[Bockstein homomorphism]],
