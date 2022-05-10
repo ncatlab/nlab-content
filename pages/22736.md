@@ -30,6 +30,7 @@ The model is highly successful, given its simplistic assumptions, for ordinary [
 
 * [[Pauli exclusion principle]]
 
+* [[Landau theory of phase transitions]]
 
 ## References
 
