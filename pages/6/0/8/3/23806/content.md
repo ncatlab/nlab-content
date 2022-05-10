@@ -7,6 +7,14 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -39,5 +47,7 @@ A $R$-[[module]] $V$ is a **prevector space** if $R$ is a [[prefield]].
 * [[module]]
 
 * [[vector space]]
+
+* [[super prevector space]]
 
 * [[prefield]]
