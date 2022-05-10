@@ -21,7 +21,7 @@
 
 ### Chern insulators
 
-In [[solid state physics]], a [[topological insulator]] which is not "protected by any symmetry" has a [[valence bundle]] $V$ over the [[Brillouin torus]] $\mathbb{R}^d$ which is a [[complex vector bundle]] unconstrained by any reality or other conditions, and hence whose class in [[complex K-theory]] $KU^0(\mathbb{T}^d)$ is thought to classify the [[topological phase of matter|topological phase]] of the "unprotected" [[topological insulator]], according to the expected [[K-theory classification of topological phases of matter]].
+In [[solid state physics]], a [[topological insulator]] which is *not* "[[symmetry protected topological phase|protected by any symmetry]]" has a [[valence bundle]] $V$ over the [[Brillouin torus]] $\mathbb{R}^d$ which is a [[complex vector bundle]] unconstrained by any reality or other conditions, and hence whose class in [[complex K-theory]] $KU^0(\mathbb{T}^d)$ is thought to classify the [[topological phase of matter|topological phase]] of the "unprotected" [[topological insulator]], according to the expected [[K-theory classification of topological phases of matter]].
 
 Now the [[Brillouin torus]] of a realistic material is of effective [[dimension of a manifold|dimension]] $d \leq 3$ and over spaces of these dimensions the only [[characteristic class]] of a [[complex vector bundle]] is its [[first Chern class]]  $c_1(V) \,\in\, H^2\big(\mathbb{T}^d; \, \mathbb{Z}\big)$. Specifically for effectively 2-dimensional materials, the first *Chern number* $c_1[V] = \int_{\mathbb{T}^2} c_1(V) \,\in\, \mathcal{C}$ coincides with this K-theory class:
 
@@ -67,6 +67,8 @@ Some authors speak of "Chern semi-metals" to amplify this.
 ## Related concepts
 
 * [[topological insulator]]
+
+* [[K-theory classification of topological phases of matter]]
 
 
 
