@@ -128,3 +128,4 @@ In particular, an "internal (bi)equivalence" in $Gray$ consists of *strict* $2$-
 
 [[!redirects biequivalence]]
 [[!redirects biequivalences]]
+[[!redirects biequivalent]]
