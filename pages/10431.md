@@ -23,16 +23,21 @@
 
 ## Idea
 
-A **topological insulator** is a [[topological state of matter]]
-which behaves as insulator in the [[bulk]] but has conducting edge states on the surface. More specifically, it is [[U(1)]] and time reversal symmetry protected state of matter with trivial [[topological order]], which behaves as an insulator in the bulk but has conducting edge states on the surface if the time reversal symmetry is not broken on the surface. 
+For the moment see at *[[topological phase of matter]]*.
+
 
 ## Examples
 
 * [[quantum Hall effect]]
 
-* (...)
+* [[Chern insulator]]
+
+* [[Haldane model]]
+
 
 ## Related concepts
+
+* [[topological crystalline insulator]]
 
 * [[gapped Hamiltonian]]
 
