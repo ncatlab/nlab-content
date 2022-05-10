@@ -804,6 +804,8 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 * [[model structure on chain complexes of super vector spaces]]
 
+* [[super module]]
+
 * [[superalgebra]], [[supercommutative superalgebra]], [[differential graded-commutative superalgebra]], 
 
   [[model structure on differential graded-commutative superalgebras]]
