@@ -224,6 +224,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[group]], [[group object]]
 
+* [[quadratic abelian group]]
+
 * **ring**, [[E-∞ ring]]
 
   * [[associative algebra]]
@@ -244,7 +246,13 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[core of a ring]]
 
+  * [[tensor ring]]
+
+  * [[symmetric ring]]
+
 * [[ideal]]
+
+  * [[Clifford ring]]
 
 * [[prime ring]]
 
