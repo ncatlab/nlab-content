@@ -67,7 +67,7 @@ $$
   }
 $$
 
-(This perspective on crystallographic groups is known as [[Bieberbach's first theorem]], see for instance [Tolcachier 19, Theorem 2.3](#Tolcachier19), also [Freed-Moore 13, (0.2)](#FreedMoore13).)
+(This perspective on crystallographic groups is known as [[Bieberbach's first theorem]], see for instance [Farkas 81, Thm. 14](#Farkas81), [Tolcachier 19, Theorem 2.3](#Tolcachier19), also [Freed-Moore 13, (0.2)](#FreedMoore13).)
 
 If the [[short exact sequence]] on the left [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, $S$ is called a _symmorphic space group_.
 
