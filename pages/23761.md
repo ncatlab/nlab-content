@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-dimensional [[Chern insulators]] (as [[topological phase of matter]] "without [[symmetry protected topological phase|symmetry protection]]") obtained by staring with a simple [[model (in theoretical physics)|model]] for [[graphene]] and then adding [[interactions]] (similar to [[spin-orbit coupling]]) which [[symmetry breaking|break]] the [[time-reversal symmetry]] and spatial inversion symmetry.
+In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-dimensional [[Chern insulators]] (as [[topological phase of matter]] "without [[symmetry protected topological phase|symmetry protection]]") obtained by starting with a simple [[model (in theoretical physics)|model]] for [[graphene]] and then adding [[interactions]] (similar to [[spin-orbit coupling]]) which [[symmetry breaking|break]] the [[time-reversal symmetry]] and spatial inversion symmetry.
 
 ## Properties
 
