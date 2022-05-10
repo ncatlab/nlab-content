@@ -38,7 +38,7 @@ $$\mathrm{Can}(R) \coloneqq \{e \in M \vert \mathrm{isCancellative}(e)\}$$
 
 * [[GCD ring]]
 
-* [[inverse ring]]
+* [[prefield]]
 
 * [[group of units]]
 
