@@ -68,7 +68,7 @@ In [[constructive mathematics]], the [[real numbers]] used to define Euclidean s
 
 In [[predicative mathematics|predicative]] constructive mathematics, the [[Dedekind real numbers]] are defined relative to a universe $\mathcal{U}$, and thus there are many different such Dedekind real numbers that could be used to define Euclidean spaces, one $\mathbb{R}_\mathcal{U}$ for each $\mathcal{U}$. However, each set of Dedekind real numbers $\mathbb{R}_\mathcal{U}$ would be large relative to the sets in the universe $\mathcal{U}$. 
 
-If the predicative constructive foundations does not have universes, then there doesn't exist any [[dense linear order]] that is actually [[Dedekind complete]] in the usual sense, and so the usual definition of Euclidean space does not work. Some mathematicians have proposed to use [[Sierpinski space]]  $\Sigma$, the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]], for defining the real numbers, in place of the large set of all [[propositions]] in a universe $\mathrm{Prop}_\mathcal{U}$, but the real numbers in that case are only [[sigma Dedekind complete|$\Sigma$-Dedekind complete]], which is a weaker condition than being [[Dedekind complete]]. It is unknown if $\Sigma$-Dedekind completeness is enough for Euclidean geometry, or if one needs actual Dedekind completeness for Euclidean geometry. 
+If the predicative constructive foundations does not have universes, then there doesn't exist any [[dense linear order]] that is actually [[Dedekind complete]] in the usual sense, and so the usual definition of Euclidean space does not work. Some mathematicians have proposed to use [[Sierpinski space]]  $\Sigma$, the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]], for defining the real numbers, in place of the large set of all [[propositions]] in a universe $\mathrm{Prop}_\mathcal{U}$, but the real numbers in that case are only [[sigma Dedekind complete|$\Sigma$-Dedekind complete]], which is a weaker condition than being [[Dedekind complete]]. Furthermore, Lešnik showed that for any two $\sigma$-frames $\Sigma$ and $\Sigma^{'}$ that embed into $\mathrm{Prop}_\mathcal{U}$ such that $\Sigma \subseteq \Sigma^{'}$, if $A$ is the $\Sigma$-Dedekind completion of $\mathbb{Q}$ and $B$ is the $\Sigma^{'}$-Dedekind completion of $\mathbb{Q}$, then $A \subseteq B$, so the $\Sigma$-Dedekind real numbers are not complete. 
 
 ## Lengths and angles
 
@@ -108,6 +108,7 @@ On the use of the Dedekind real numbers in constructive and predicative construc
 
 * [[Univalent Foundations Project]], [[Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 * [[Mike Shulman]], Brouwer’s fixed-point theorem in real-cohesive homotopy type theory, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+* Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
 
 [[!redirects Euclidean space]]
 [[!redirects Euclidean spaces]]
