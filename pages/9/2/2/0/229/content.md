@@ -90,6 +90,10 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 * [[commutative ring]], [[commutative algebra]]
 
+* [[super abelian group]], [[super module]]
+
+* [[quadratic abelian group]]
+
 * [[Ab]]
 
 * [[sheaf of abelian groups]]
