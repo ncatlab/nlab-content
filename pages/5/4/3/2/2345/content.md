@@ -38,11 +38,12 @@ Let $\mathfrak{C}$ and $\mathfrak{D}$ be strict [[2-categories]]. A pseudofuncto
 
 * For each pair of objects $A,B\in Ob_\mathfrak{C}$ a functor 
 
-\begin{centre}
+$$
 
-$P_{A,B}:\mathfrak{C}(A,B)\to\mathfrak{D}(P(A),P(B)).$ 
+P_{A,B}:\mathfrak{C}(A,B)\to\mathfrak{D}(P(A),P(B))$.
 
-\end{centre} 
+$$
+
 
 We will generally write the function and functors as $P$.
 
