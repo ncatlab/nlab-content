@@ -462,6 +462,8 @@ $$
 
 * [[projective module]], [[injective module]], [[free module]], [[flat module]]
 
+* [[super module]], [[N-graded module]]
+
 * [[Banach module]]
 
 * [[module over a monoidal functor]]
