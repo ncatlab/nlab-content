@@ -396,6 +396,8 @@ For the case that of [[Čech cohomology|Čech]] [[hypercohomology]] with coeffic
 
 * [[cap product]]
 
+* [[cup-i product]]
+
 * [[intersection pairing]]
 
 * [[functional cup product]]
