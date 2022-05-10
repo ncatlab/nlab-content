@@ -65,7 +65,7 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 <a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://i.stack.imgur.com/1hvpz.png" alt="nLab banner" /></div></a>
 
-I like to put math/phys information into context. For that purpose I had started (in Nov 2008) 
+I like to put math/phys information into context. <br/> For that purpose I had started (in Nov 2008) 
 
 * *[[Home Page|the $n$Lab research wiki project]]*
 
