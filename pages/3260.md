@@ -446,3 +446,9 @@ An alternative [[model category]]-structure:
 * Mehmet Akif Erdal, Aslı Güçlükan İlhan, _A model structure via orbit spaces for equivariant homotopy_ ([arXiv:1903.03152](https://arxiv.org/abs/1903.03152))
 
 [[!redirects equivariant algebraic topology]]
+
+[[!redirects equivariant homotopy]]
+[[!redirects equivariant homotopy]]
+
+[[!redirects equivariant homotopy class]]
+[[!redirects equivariant homotopy classes]]
