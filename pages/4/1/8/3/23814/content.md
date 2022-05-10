@@ -10,3 +10,7 @@ Obtained his PhD degree in 2015 at Stony Brook, advised by [[Dennis Sullivan]].
 
 * [[Anibal M. Medina-Mardones]], _An axiomatic characterization of Steenrod's cup-i products_, [arXiv](https://arxiv.org/abs/1810.06505).
 
+[[!redirects Anibal Medina-Mardones]]
+
+category: people
+
