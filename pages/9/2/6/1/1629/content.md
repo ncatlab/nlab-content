@@ -100,3 +100,9 @@ The terminology "homeomorphism" is due to:
 [[!redirects homeomorphic]]
 [[!redirects homœomorphic]]
 [[!redirects homoeomorphic]]
+
+
+[[!redirects homeomorphism class]]
+[[!redirects homeomorphism classes]]
+
+
