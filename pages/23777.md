@@ -1,3 +1,5 @@
+[[!redirects Functorial Aspects of the GNS Representation]]
+[[!redirects Functorial Aspects of the GNS Representation]]
 # Remark
 This is a small subcollection of my (Tom Mainiero's) personal notes on some functorial aspects on the GNS representation that have been sitting around for a while. Please feel free to contribute! The ideas here underlie some of the constructs of [Homtools](#Mainiero2019).
 
@@ -7,8 +9,11 @@ For the purposes of this section, $R$ is a fixed a unital ring and $A$ is a unit
 
 \begin{definition}
 Let ${}_{A}\mathbf{Mod}^{\bullet}$ denote the category with:
+
 * objects given by \textit{pointed left $A$-modules}: pairs $(M,m)$ of a left $A$-module $M$ and an element $m \in M$
+
 * morphisms given by point preserving intertwiners.
+
 ${}_{A}\mathbf{Mod}^{\odot}$ is the full subcategory of ${}_{A}\mathbf{Mod}^{\bullet}$ whose objects are *cyclic* pointed modules: $(M,m)$ such that $A m = M$.
 \end{definition}
 
@@ -18,8 +23,11 @@ For those that find the notion of a pointed module somewhat awkward, note that: 
 
 \begin{definition}
 $\mathbf{L}(A)$ is the thin category given by the (opposite) of the poset of left ideals of $A$: 
+
 * objects are left ideals of $A$, and 
+
 * there is a unique morphism $I \to J$ if and only if $J \subseteq I$.
+
 \end{definition}
 
 \begin{proposition}
