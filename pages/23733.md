@@ -32,7 +32,7 @@ A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in \ma
 
 * [[Euclidean ring]]
 
-* [[inverse ring]]
+* [[prefield]]
 
 * [[field]]
 
