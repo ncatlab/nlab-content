@@ -31,7 +31,7 @@ A mathematical structure used to define [[geometric algebras]].
 
 Given a [[commutative ring]] $R$ (usually a [[field]] $F$), an **$\mathbb{N}$-graded $R$-module** is an $R$-[[module]] $V$ (usually a [[vector space]] $V$) with a binary function $\langle - \rangle_{(-)}: A \times \mathbb{N} \to V$ called the **grade projection operator** such that
 
-* for all $v:V$ $v = \sum_{n:\mathbb{N}} \langle v \rangle_n$
+* for all $v:V$, $v = \sum_{n:\mathbb{N}} \langle v \rangle_n$
 
 * for all $a:R$, $b:R$, $v:V$, $w:V$, and $n:\mathbb{N}$, $\langle a v + b w \rangle_n = a \langle v \rangle_n + b \langle w \rangle_n$
 
@@ -53,11 +53,9 @@ $$\vert v \vert_n = \sum_{m = 0}^n \langle v \rangle_m$$
 
 For a natural number $n:\mathbb{N}$, the [[image]] of $\vert - \vert_n$ under $V$ is called the **space of $n$-multivectors** and is denoted as $\vert V \vert_n$. 
 
-$$\vert V \vert_n \coloneqq \mathrm{im}(\mathcal{F}_{n})$$ 
+$$\vert V \vert_n \coloneqq \mathrm{im}(\vert - \vert_n)$$ 
 
-The terms of $\vert V \vert_n$ are called **$n$-multivectors**.
-
-The **$n$-multivectors** are exactly those multivectors whose grade projections for all natural numbers $i \gt n$ are all zero.  
+The terms of $\vert V \vert_n$ are called **$n$-multivectors** or **$n$-truncated multivectors**. The **$n$-multivectors** are exactly those multivectors whose grade projections for all natural numbers $i \gt n$ are all zero, where $\vert V \vert_i$ is the trivial $R$-module for all natural numbers $i \gt n$. 
 
 ## Examples ##
 
@@ -76,6 +74,8 @@ The **$n$-multivectors** are exactly those multivectors whose grade projections 
 * [[graded vector space]]
 
 * [[geometric algebra]]
+
+* [[non-associative geometric algebra]]
 
 ## References ##
 
