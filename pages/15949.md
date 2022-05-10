@@ -84,7 +84,7 @@ the [[morphisms]]
 $$Mor_{\mathrm{RobinsonArithmetics}_\mathcal{U}}(A, B)$$ 
 are the homomorphisms of models of Nelson arithmetic as defined above. 
 
-If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{RobinsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
+This category is an [[accessible category]]. If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{RobinsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
 
 ## Theorems
 
