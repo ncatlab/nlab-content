@@ -68,19 +68,47 @@ If the class of a topological phase of matter crucially depends on its  [[equiva
 
 For instance, without any symmetry protection the [[valence bundles]] in a [[topological insulator]]-[[phase of matter|phase]] of a realistic crystalline material (necessarily of effective dimension $\leq 3$) are characterized entirely by their [[first Chern class]]; one speaks of a *[[Chern insulator]]*-phase. 
 
+If a more fine-grained topological phase is "[[symmetry protected topological phase|protected]]" by [[crystallographic group|crystallographic symmetry]], then one speaks of a *[[topological crystalline insulator]]*-phase, etc.
+
 ### Topological semi-metals
 
 More generally, there are topological phases where small [[quantum adiabatic theorem|adiabatic]] deformations have no effect, as before, but where the [[topological space]] *of possible deformations* has itself a non-trivial [[topological space|topology]], for instance a non-trivial [[fundamental group]], in which case the end result of a  *[[loop]] of deformations* may have the effect of having transformed the system's [[ground state]] by a [[unitary operator]] which depends on the [[homotopy class]] of this loop.
 
-For example, if there is an energy gap *except* over a [[codimension]]$\geq 2$ [[submanifold]] of "band crossings" or "nodal loci" inside the [[Brillouin torus]] where the gap closes right at the [[chemical potential]], one speaks of a *topological [[semi-metal]]*-phase. 
+For example, if there is an energy gap *except* over a [[codimension]]$\geq 2$ [[submanifold]] of "band crossings" or "nodal loci" inside the [[Brillouin torus]], where the gap closes right at the [[chemical potential]], then one speaks of a *topological [[semi-metal]]*-phase. 
 In this case the [[valence bundle]] is well-defined (only) on the [[complement]] of these "nodal" points, as before, and as such again invariant under gentle deformations, but now these external deformations (which will gently shift the [[energy bands]]) may move the position of the nodal band-crossing points through the [[Brillouin torus]]. 
 If a loop of such deformations has the effect of [[braid group|braiding]] these nodal points around each other then it may in total have the effect of having transformed the [[ground state]] by an operation in a [[braid group representation]]. 
 
 If this braiding is [[non-abelian group|non-abelian]], and/or if the [[holonomy]] of the [[Berry connection]] around the nodal points is [[non-abelian group|non-abelian]], it follows in particular that the ground state is "degenerate" ("has multiplicity") hence that there is a [[Hilbert space]] of states, all of the ground state energy at the chemical potential, whose [[dimension of a vector space|dimension]] is $\geq 2$. In this case one says that the topological phase in addition exhibits *[[topological order]]* or that its ground states exhibits "[[short-range entanglement|long-range entanglement]]" (at least "no [[short-range entanglement]]").
 
-### Topological order and Anyons
+### Topological field theory
+ {#TopologicalFieldTheory}
 
-Generally, it is expected that [[codimension]]=2 [[defects]] in a topological phase  of matter exhibit such a ([[symmetry protected topological order|symmetry protected]]) *[[topological order]]* in that the [[adiabatic theorem|adiabatic]] [[braid group|braiding]] of them around each other inside the topological host material constitutes a [[braid group representation]] on the systems [[ground state]]. In this case one refers to these defects also a *[[anyons]]*. The idea to use the [[braid representations]] that these form as [[quantum gates]] in a [[quantum computer]] underlies the subject of [[topological quantum computation]].
+Therefore, in this case of [[topological order]], the [[quantum adiabatic theorem|adiabatic]] [[dynamics]] of the [[ground state]] of the topological material, say as the nodal points are [[braid group|braided]] around each other, is characterized by:
+
+1. a [[finite-dimensional vector space|finite-dimensional]] [[Hilbert space]] [[space of quantum states]] 
+
+   (the degenerate ground state),
+
+1. a vanishing [[Hamiltonian]] 
+
+   (being the restriction of the full Hamiltonian of the material to its energy=0 eigenstates),
+
+1. global dynamics depending (only) on the "[[topology]]" (really: the [[homotopy type]]) of the trajectory
+
+   (such as on the [[braid group|braid]] formed by the [[worldlines]] of the nodal points).
+
+These are exactly the characteristics of a [[topological field theory]] of the type of [[Chern-Simons theory]], which here one may understand as the tiny but highly interesting subsector "below the gap" of the full non-topological [[quantum field theory]] that describes all the higher excitations of the given material (which is at least as rich as [[quantum electrodynamics]] in the [[background field|background]] of the [[electromagnetic field|Coulomb potential]] of the [[atomic nuclei]] on the crystal sites, see also [here](Dirac+field#FreeDiracFieldInCoulombBackground)).
+
+
+### Anyons
+
+Generally, it is expected that [[codimension]]=2 [[defects]] in a topological phase  of matter exhibit such a ([[symmetry protected topological order|symmetry protected]]) *[[topological order]]* in that the [[adiabatic theorem|adiabatic]] [[braid group|braiding]] of them around each other inside the topological host material is described by a [[topological quantum field theory]] and in particular constitutes a [[braid group representation]] on the systems [[ground state]]. 
+
+In this case one refers to these defects also a *[[anyons]]*. 
+
+The [[AdS3-CFT2 and CS-WZW correspondence|CS-WZW correspondence]] between [[Chern-Simons theory]] and the [[Wess-Zumino-Witten model]] then predicts that the [[wavefunctions]] that constitute these anyonic ground states in topological phases are given by [[conformal blocks]] of a [[2d CFT]], and it seems that this is indeed the case.
+
+The idea to use the resulting monodromy [[braid representations]] constituted by the [[conformal blocks]] as [[quantum gates]] in a [[quantum computer]] underlies the subject of *[[topological quantum computation]]*.
 
 The technical problem with implementing this and related ideas is that, in general, the energy gap of a topological phase of matter is small, so that it is first of all hard to detect and second it will be hard to *preserve* (hence hard to remain in the topological phase) as one tries to put the "topological properties" of a [[quantum material]] to use.
 
