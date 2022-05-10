@@ -53,6 +53,8 @@ Discussion focusing on 3-dimensional semi-metals:
 
 * A. A. Burkov, M. D. Hook, Leon Balents,  *Topological nodal semimetals*, Phys. Rev. B **84** (2011) 235126 ([arXiv:1110.1089](https://arxiv.org/abs/1110.1089), [doi:10.1103/PhysRevB.84.235126](https://doi.org/10.1103/PhysRevB.84.235126))
 
+* Ari M. Turner, Ashvin Vishwanath, Part I of: *Beyond Band Insulators: Topology of Semi-metals and Interacting Phases*, in: *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) 293-324 $[$[arXiv:1301.0330](https://arxiv.org/abs/1301.0330), [ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)$]$
+
 * Bohm-Jung Yang, Naoto Nagaosa, *Classification of stable three-dimensional Dirac semimetals with nontrivial topology*, Nature Communications **5** (2014) 4898  ([doi:10.1038/ncomms5898](https://doi.org/10.1038/ncomms5898))
 
 * Jiaheng Li, Zetao Zhang, Chong Wang, Huaqing Huang, Bing-Lin Gu, Wenhui Duan,  *Topological semimetals from the perspective of first-principles calculations*, 
