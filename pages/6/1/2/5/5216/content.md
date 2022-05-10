@@ -32,9 +32,9 @@ The first example is an instance of a more general result. Given a [[relative ps
 
 ## References
 
-This observation first appears in
+This observation first appears in Example 1.5(k) of
 
-- Example 1.5(k) of [[Steve Lack]]'s [_A 2-categories companion_](https://arxiv.org/abs/math/0702535).
+*  [[Steve Lack]], _A 2-categories companion_, in: John C. Baez and J. Peter May (Eds) Towards Higher Categories, The IMA Volumes in Mathematics and its Applications, vol 152, Springer, 2009, doi:[10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4), [arXiv:math/0702535](https://arxiv.org/abs/math/0702535).
 
 
 [[!redirects Lack's coherence theorem]]
