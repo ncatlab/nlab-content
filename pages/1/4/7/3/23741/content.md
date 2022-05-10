@@ -48,7 +48,7 @@ $$\mathrm{Can}(A) \cong \{x \in A \vert x \# 0\}$$
 
 $$\mathrm{Can}(A) \cong \{x \in A \vert 0 \lt \vert x \vert\}$$
 
-* The [[trivial ring]] $0$ is the unique [[inverse ring]] up to unique [[isomorphism]] such that $0 \in \mathrm{Can}(0)$. The [[trivial ring]] is also the [[terminal object|terminal]] inverse ring. 
+* The [[trivial ring]] $0$ is the unique Euclidean ring up to unique [[isomorphism]] such that $0 \in \mathrm{Can}(0)$. The [[trivial ring]] is also the [[terminal object|terminal]] Euclidean ring. 
 
 ## See also ##
 
@@ -56,6 +56,6 @@ $$\mathrm{Can}(A) \cong \{x \in A \vert 0 \lt \vert x \vert\}$$
 
 * [[GCD ring]]
 
-* [[inverse ring]]
+* [[prefield]]
 
 * [[Euclidean domain]]
