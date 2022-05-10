@@ -40,7 +40,7 @@ Let $\mathfrak{C}$ and $\mathfrak{D}$ be strict [[2-categories]]. A pseudofuncto
 
 $$
 
-P_{A,B}:\mathfrak{C}(A,B)\to\mathfrak{D}(P(A),P(B))$.
+P_{A,B}:\mathfrak{C}(A,B)\to\mathfrak{D}(P(A),P(B)).
 
 $$
 
