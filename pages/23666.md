@@ -77,3 +77,5 @@ The electronic band structure of [[graphene]] was predicted in
 [[!redirects electronic energy band]]
 [[!redirects electronic energy bands]]
 
+[[!redirects energy band]]
+[[!redirects energy bands]]
