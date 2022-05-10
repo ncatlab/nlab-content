@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Cup-$i$ products extend [[cup products]].
@@ -42,4 +61,4 @@ where $Sq^i$ denotes the $i$th [[Steenrod square]].
 
 * [[Anibal M. Medina-Mardones]], _An axiomatic characterization of Steenrod's cup-i products_, [arXiv](https://arxiv.org/abs/1810.06505).
 
-
+[[!redirects cup-i products]]
