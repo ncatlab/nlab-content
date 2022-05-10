@@ -11,6 +11,8 @@ A [[generalized homology]]/[[generalized cohomology theory]] is a suitable [[cov
 
 ## Related concept
 
+* [[super abelian group]]
+
 * [[graded module]]
 
 * [[graded vector space]]
