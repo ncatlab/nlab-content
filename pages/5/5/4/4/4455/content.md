@@ -90,6 +90,8 @@ Given a small [[sigma-frame|$\sigma$-frame]] $\Sigma$ that embeds into the large
 The linearly ordered set $S$ is $\Sigma$-**Dedekind complete** if for every cut $(L,U)$ there exists a unique element $a \in S$ such that for all elements $x \in S$, $x \lt a$ implies $L(x) = \top$ and $x \gt a$ implies $U(x) = \top$.
 =--
 
+Given any linearly ordered set $S$, for any two $\sigma$-frames $\Sigma$ and $\Sigma^{'}$ that embed into $\mathrm{Prop}_\mathcal{U}$ such that $\Sigma \subseteq \Sigma^{'}$, if $A$ is the $\Sigma$-Dedekind completion of $S$ and $B$ is the $\Sigma^{'}$-Dedekind completion of $S$, then $A \subseteq B$. 
+
 ### Quasiorders
 
 +-- {: .standout}
@@ -146,9 +148,11 @@ For example, let $X$ be a [[compactum]] and let $S$ be the quasiordered set of [
 
 * Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
-* Auke B. Booij, Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
+* Auke B. Booij, Extensional constructive real analysis via locators, ([arxiv:1805.06781](https://arxiv.org/abs/1805.06781))
 
 * Steve Vickers, “Localic Completion Of Generalized Metric Spaces I”, [TAC](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
+
+* Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
 
 [[!redirects Dedekind completion]]
 [[!redirects Dedekind completions]]
