@@ -71,7 +71,17 @@ Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which g
 
 The prototype is the pretopology on the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$, consisting of [[open covers]] of $X$. 
 
-Notice that a **[[basis for the topology]]** of $X$ is not a Grothendieck pretopology on $Op(X)$ (since it is in general not closed under pullback, which here is restriction) but is a [[coverage]] on $Op(X)$.
+Given a [[base for the topology]] on $X$,
+we can construct a pretopology on $Op(X)$
+by declaring that a family $\{U_i\to V\}_{i\in I}$ is a covering family
+if it is an open cover and for every $i\in I$ the open set $U_i$
+is the intersection of $V$ and an element of the base.
+
+If instead we impose a stronger requirement that $U_i$ belongs to the base,
+then the resulting [[coverage]] is not a pretopology,
+since the intersection of such a covering family
+with an arbitrary open subset of $X$ is an open cover
+whose elements need not belong to the base.
 
 Grothendieck pretopologies on [[Top]] include:
 
@@ -90,7 +100,10 @@ An example of a [[coverage]] that is not a pretopology is the coverage of [[good
 The definition appears for instance as definition 2 on page 111 of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
-* MO questions: [example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition](http://mathoverflow.net/questions/42437/example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition), [colimits-of-covers](http://mathoverflow.net/questions/44893/colimits-of-covers)
+* MO questions:
+  * [example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition](http://mathoverflow.net/questions/42437/example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition);
+  * [colimits-of-covers](http://mathoverflow.net/questions/44893/colimits-of-covers);
+  * [When is a basis of a topological space a Grothendieck pretopology?](https://mathoverflow.net/questions/416691/when-is-a-basis-of-a-topological-space-a-grothendieck-pretopology/416706#416706)
 
 
 [[!redirects pretopology]]
