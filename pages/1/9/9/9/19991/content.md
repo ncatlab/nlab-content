@@ -18,13 +18,14 @@
 
 ## Idea
 
-A **space group** in [[dimension]] $n$, also known as a **crystallographic group**, is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains some [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a [[subgroup]], and is contained within the [[automorphism group]] of that lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
+A **space group** in [[dimension]] $n$, also known as a **crystallographic group**, is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains a (maximal) [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a [[subgroup]], and is contained within the [[automorphism group]] of that lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
 
 Equivalently, a crystallographic group on a [[Euclidean space]] $E$ is a [[discrete group|discrete]] [[subgroup]] $S \subset Iso(E)$ of the [[isometry group]] of $E$ (its [[Euclidean group]]) that contains a [[lattice (discrete subgroup)|lattice]] $N \subset E \subset Iso(E)$ of [[translation group|translations]] as a [[normal subgroup]] $N \subset S$, such that the corresponding [[quotient group]], called the _[[point group]]_ of the crystallographic group, is a subgroup $G \coloneqq S/N \;\subset\; O(E)$ of the [[orthogonal group]]. 
 
 In short, a crystallographic groups is exhibited by an inclusion of [[short exact sequences]] of ([[nonabelian group|non-abelian]]) [[groups]], as follows:
 
-$$
+\[
+  \label{CrystallographicInclusionOfShortExactSequences}
   \array{
     & 
     1 && 1
@@ -65,11 +66,11 @@ $$
     &
     1 && 1
   }
-$$
+\]
 
-{#BieberbachTheorem} This perspective on crystallographic groups is known as [[Bieberbach's first theorem]] (following [Bieberbach 1910](#Bieberbach1910)), see for instance [Farkas 81, Thm. 14](#Farkas81), [Tolcachier 19, Theorem 2.3](#Tolcachier19), also [Freed-Moore 13, (0.2)](#FreedMoore13).
+{#BieberbachTheorem} This transparent description of crystallographic groups is essentially the content of *[[Bieberbach's first theorem]]* (following [Bieberbach 1910](#Bieberbach1910), see [Farkas 81, Thm. 14](#Farkas81), [Charlap 86, Thm. I 3.1](#Charlap86) for modern accounts and find a concise statement in [Tolcachier 19, Thm. 2.3](#Tolcachier19), also implicitly in [Freed-Moore 13, (0.2)](#FreedMoore13)). Historically, the earlier definition of "crystallographic group" (eg. [Farkas 81, Sec. 3](#Farkas81)) just required that it be any [[discrete group|discrete]] [[subgroup]] of $Iso(E)$ such that the resulting [[quotient space|quotient]] [[topological group]] be [[compact topological group|compact]]. Bieberbach's first theorem (or the statement now known under this name) says that this already implies 1. that the translation subgroup is a full lattice, and 2. that the point group is finite. 
 
-If the [[short exact sequence]] on the left [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, $S$ is called a _symmorphic space group_.
+If the crystallographic [[short exact sequence]] on the left of (eq:CrystallographicInclusionOfShortExactSequences) [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, then $S$ is called a **symmorphic space group**.
 
 ## Properties
 
@@ -168,6 +169,10 @@ Bieberbach's original articles:
 
 * {#Bieberbach1912} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen der Euklidischen Räume (ZweiteAbhandlung.) Die Gruppen mit einem endlichen Fundamentalbereich*, Mathematische Annalen  **72** (1912) 400-412 $[$[doi:10.1007/BF01456724]( https://doi.org/10.1007/BF01456724)$]$
 
+A monograph on the topic:
+
+* {#Charlap86} [[Leonard S. Charlap]], *Bieberbach Groups and Flat Manifolds*, Springer (1986) $[$[doi:10.1007/978-1-4613-8687-2](https://doi.org/10.1007/978-1-4613-8687-2)$]$
+
 See also
 
 * [[eom]], _[Crystallographic group](https://www.encyclopediaofmath.org/index.php/Crystallographic_group)_
@@ -198,3 +203,5 @@ See also
 
 [[!redirects Bieberbach's first theorem]]
 
+[[!redirects Bieberbach's theorem]]
+[[!redirects Bieberbach's theorems]]
