@@ -1,6 +1,10 @@
-[[!redirects Functorial Aspects of the GNS Representation]]
-[[!redirects Functorial Aspects of the GNS Representation]]
-# Remark
+
+#Contents#
+* table of contents
+{:toc}
+
+## Remark
+
 This is a small subcollection of my (Tom Mainiero's) personal notes on some functorial aspects on the GNS representation that have been sitting around for a while. Please feel free to contribute! The ideas here underlie some of the constructs of [Homtools](#Mainiero2019).
 
 
@@ -182,3 +186,8 @@ Our next step is to unravel the functors $\mathsf{GNS}$ and $\mathsf{Fnl}$
 * {#MO247626}  _MathOverflow: In which sense the GNS construction is a functor?_ ([link](https://mathoverflow.net/questions/247626/in-which-sense-the-gns-construction-is-a-functor))
 
 * {#Gudder} [[Stanley Gudder]], _A Radon-Nikodym Theorem for $\ast$-Algebras_ ([link](https://projecteuclid.org/download/pdf_1/euclid.pjm/1102785959))
+
+
+[[!redirects Functorial Aspects of the GNS Representation]]
+[[!redirects Functorial Aspects of the GNS Representation]]
+[[!redirects functorial aspects of the gns representation]]
