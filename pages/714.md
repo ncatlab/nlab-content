@@ -245,7 +245,7 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 * $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a &#8224;-category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
 
-
+* Every [[setoid]] is a [[thin category|thin]] dagger category. 
 
 ## Variants
 
