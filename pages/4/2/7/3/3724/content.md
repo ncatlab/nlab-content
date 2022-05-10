@@ -151,7 +151,7 @@ An article on [[interval arithmetic]] is probably the right place to talk about 
 
 ### Predicative cuts
 
-In predicative mathematics, subsets are large and therefore are proper classes. Instead, in the manner of [[formal topology]], they typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __$\Sigma$-cuts__, where $\Sigma$ is a small [[sigma-frame|$\sigma$-frame]] with an [[embedding]] $\Sigma \to \mathrm{Prop}_\mathcal{U}$ into the large set of propositions for a universe $\mathcal{U}$. The definitions then become
+In predicative mathematics, subsets are large and therefore are proper classes. Instead, in the manner of [[formal topology]], they typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __$\Sigma$-Dedekind cuts__, where $\Sigma$ is a small [[sigma-frame|$\sigma$-frame]] with an [[embedding]] $\Sigma \to \mathrm{Prop}_\mathcal{U}$ into the large set of propositions for a universe $\mathcal{U}$. The definitions then become
 
 1.  There is a rational number $a$ such that $L(a) = \top$.
 2.  There is a rational number $b$ such that $U(b) = \top$.
@@ -161,6 +161,8 @@ In predicative mathematics, subsets are large and therefore are proper classes. 
 6.  If $U(b) = \top$, then there is a rational number $a \lt b$ for some $U(a) = \top$.
 7.  If $a \lt b$ are rational numbers, then $L(a) = \top$ or $U(b) = \top$.
 8.  If $L(a) = \top$ and $U(b) = \top$, then $a \lt b$.
+
+For any two $\sigma$-frames $\Sigma$ and $\Sigma^{'}$ that embed into $\mathrm{Prop}_\mathcal{U}$ such that $\Sigma \subseteq \Sigma^{'}$, if $A$ is the set of  $\Sigma$-Dedekind cuts of $Q$ and $B$ is the $\Sigma^{'}$-Dedekind cuts of $S$, then $A \subseteq B$. 
 
 ### Cuts of other numbers
 
@@ -186,6 +188,7 @@ The basic theory also generalises immediately to any unbounded, [[dense linear o
 
 * Auke B. Booij, Extensional constructive real analysis via locators, ([abs:1805.06781](https://arxiv.org/abs/1805.06781))
 
+* Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
 
 [[!redirects Dedekind cut]]
 [[!redirects Dedekind cuts]]
