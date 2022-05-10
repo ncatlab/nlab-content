@@ -6,6 +6,10 @@
 
 ## Selected writings
 
+On [[geometric homotopy theory|geometric]] [[homotopy theory]] via [[simplicial objects]] [[internalization|internal]] to a [[Grothendieck topos]] ([[simplicial sheaves]]):
+
+* {#Low14} [[Zhen Lin Low]], _Internal and local homotopy theory_ (2014) $[$[arXiv:1404.7788](https://arxiv.org/abs/1404.7788)$]$ 
+
 On [[simplicial homotopy theory]], [[(∞,1)-category theory]] and [[(∞,1)-topos theory]]:
 
 * {#Low15} [[Zhen Lin Low]], *[[Notes on homotopical algebra]]*, 2015 ([pdf](http://zll22.user.srcf.net/writing/homotopical-algebra/2015-11-10-Main.pdf))
