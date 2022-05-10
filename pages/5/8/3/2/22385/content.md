@@ -33,7 +33,7 @@ A **setoid** is a collection of things (which could be a [[set]], a [[type]], or
 
 ### In category theory
 
-A **setoid** is a [[thin category|thin]] [[groupoid]], or a groupoid [[enriched category|enriched]] in [[truth values]].
+A **setoid** is a [[thin category|thin]] [[dagger category]], or a dagger category [[enriched category|enriched]] in [[truth values]]. Every thin dagger category is a [[groupoid]]. 
 
 ### In type theory
 
