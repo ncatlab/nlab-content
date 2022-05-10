@@ -205,6 +205,8 @@ Here:
 
 * [[symmetric algebra spectrum]]
 
+* [[symmetric ring]]
+
 ## References
 
 * [[Stacks Project]], [Tag 00DM](http://stacks.math.columbia.edu/tag/00DM).
