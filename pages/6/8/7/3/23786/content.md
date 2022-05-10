@@ -115,7 +115,7 @@ A [[homomorphism]] of models of Nelson arithmetic $N$ and $N^{'}$ is a function 
 
 The [[category]] of models of Nelson arithmetic in a [[universe]] $\mathcal{U}$ is the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ whose objects $Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ are the models of Nelson arithmetic, and for any two objects $A \in Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ and $B \in Ob(\mathrm{NelsonArithmetics}_\mathcal{U})$ the [[morphisms]] $Mor_{\mathrm{NelsonArithmetics}_\mathcal{U}}(A, B)$ are the homomorphisms of models of Nelson arithmetic as defined above. 
 
-If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
+This category is an [[accessible category]]. If $\mathcal{U}$ satisfies the [[axiom of finiteness]], then the category $\mathrm{NelsonArithmetics}_\mathcal{U}$ has no [[initial object]] and is an [[empty category]]. 
 
 ## Standard and nonstandard models
 
