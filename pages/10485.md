@@ -48,8 +48,6 @@ There are the following special classes of symmetry groups $G$ to which this app
 
    1. **internal** or **on-site** symmetries, which transform "internal degrees of freedom" (of [[electrons]]), located over each atomic site in the crystal (for example [[spin]]-exchange symmetry turning an [[electron]]'s [[spin]] state $\vert \uparrow \rangle$ into $\vert \downarrow \rangle$).
 
-For example, if a [[topological insulator]]-phase is "protected" by a [[crystallographic group|crystallographic point group symmetry]] this way, then one speaks of a *[[topological crystalline insulator]]*.
-
 
 \begin{remark}\label{OnTerminology}
 **(terminology)**
@@ -74,7 +72,17 @@ Using the notion of [[topological order]], we can say that SPT states are symmet
 
 ## Examples
 
-The first example of SPT order is the Haldane phase of spin-1 chain ([Haldane 83](#Haldane83)). It is a SPT phase protected by the $SO(3)$ spin [[rotation group]] symmetry. Another example of SPT order is the [[topological insulator]] of non-interacting fermions, a SPT phase protected by U(1) and time reversal symmetry.
+* The [[topological insulator]]/[[semi-metal]]-phase of [[graphene]] is protected  by [[time-reversal symmetry]] $T$ (and inversion symmetry $I$),  and for this historical reason this $T$- and/or $T I$-symmetry protection is taken by some authors to be the default meaning of [[topological insulator]].
+
+* *Removing* the $T$/$I$-protection of the phase of graphene leads to *un-protected* [[Chern insulators]] such as (modeled by) the [[Haldane model]].
+
+Unrelated to this is another example also named after [[Duncan Haldane]]
+
+* The first example of SPT order is the Haldane phase of spin-1 chain ([Haldane 83](#Haldane83)). It is a SPT phase protected by the [[SO(3)|$SO(3)$]] spin [[rotation group]] symmetry. (?) 
+
+> If a [[topological insulator]]-phase is "protected" by a [[crystallographic group|crystallographic point group symmetry]] this way, then one speaks of a *[[topological crystalline insulator]]*. See [there](topological+crystalline+insulator#ReferencesExperimentalRealization) for concrete examples.
+
+
 
 ## Properties
 
