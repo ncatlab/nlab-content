@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
