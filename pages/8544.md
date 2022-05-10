@@ -103,6 +103,12 @@
 
 * [[nonstandard analysis]]
 
+* [[Peano arithmetic]]
+
+* [[Robinson arithmetic]]
+
+* [[Nelson arithmetic]]
+
 ## Theorems
 
 * [[Ax-Kochen-Ershov theorem]]
