@@ -67,7 +67,7 @@ $$
   }
 $$
 
-(This perspective on crystallographic groups is known as [[Bieberbach's first theorem]], see for instance [Farkas 81, Thm. 14](#Farkas81), [Tolcachier 19, Theorem 2.3](#Tolcachier19), also [Freed-Moore 13, (0.2)](#FreedMoore13).)
+{#BieberbachTheorem} This perspective on crystallographic groups is known as [[Bieberbach's first theorem]] (following [Bieberbach 1910](#Bieberbach1910)), see for instance [Farkas 81, Thm. 14](#Farkas81), [Tolcachier 19, Theorem 2.3](#Tolcachier19), also [Freed-Moore 13, (0.2)](#FreedMoore13).
 
 If the [[short exact sequence]] on the left [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, $S$ is called a _symmorphic space group_.
 
@@ -141,6 +141,8 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 
 ## References
 
+Review:
+
 * _The Crystallographic Groups_, Pure and Applied Mathematics
 Volume 50, 1972, Pages 16-60 (<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>)
 
@@ -154,9 +156,17 @@ Volume 50, 1972, Pages 16-60 (<a href="https://doi.org/10.1016/S0079-8169(08)609
 
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
-* {#Tolcachier19} Alejandro Tolcachier, _Holonomy groups of compact flat solvmanifolds_ ([arXiv:1907.02021](https://arxiv.org/abs/1907.02021))
+* {#Tolcachier19} Alejandro Tolcachier, *Holonomy groups of compact flat solvmanifolds*, Geometriae Dedicata **209** (2020) 95–117  $[$[arXiv:1907.02021](https://arxiv.org/abs/1907.02021), [doi:10.1007/s10711-020-00524-8](https://doi.org/10.1007/s10711-020-00524-8)$]$
 
 * [[GAP]] package, _The Crystallographic Groups Catalog_ ([web](http://www.math.rwth-aachen.de/~Greg.Gamble/gap4r3/pkg/crystcat/htm/CHAP001.htm))
+
+Bieberbach's original articles:
+
+* {#Bieberbach1910} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen des $n$ dimensionalen Euklidischen Raumes mit einem endlichen Fundamentalbereich*, Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse (1910) 75-84 $[$[dml:58754](https://eudml.org/doc/58754)$]$
+
+* {#Bieberbach1911} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen der Euklidischen Räume (Erste Abhandlung)*, Mathematische Annalen **70** (1911) 297–336  $[$[doi:10.1007/BF01564500](https://doi.org/10.1007/BF01564500)$]$
+
+* {#Bieberbach1912} [[Ludwig Bieberbach]], *Über die Bewegungsgruppen der Euklidischen Räume (ZweiteAbhandlung.) Die Gruppen mit einem endlichen Fundamentalbereich*, Mathematische Annalen  **72** (1912) 400-412 $[$[doi:10.1007/BF01456724]( https://doi.org/10.1007/BF01456724)$]$
 
 See also
 
