@@ -29,3 +29,5 @@ In [[physics]], the [[electromagnetic field]] may be split, over a choice of [[c
 * [[electric dipole moment]]
 
 
+
+[[!redirects electric fields]]
