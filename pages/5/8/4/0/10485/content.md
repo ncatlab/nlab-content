@@ -48,6 +48,8 @@ There are the following special classes of symmetry groups $G$ to which this app
 
    1. **internal** or **on-site** symmetries, which transform "internal degrees of freedom" (of [[electrons]]), located over each atomic site in the crystal (for example [[spin]]-exchange symmetry turning an [[electron]]'s [[spin]] state $\vert \uparrow \rangle$ into $\vert \downarrow \rangle$).
 
+For example, if a [[topological insulator]]-phase is "protected" by a [[crystallographic group|crystallographic point group symmetry]] this way, then one speaks of a *[[topological crystalline insulator]]*.
+
 
 \begin{remark}\label{OnTerminology}
 **(terminology)**
