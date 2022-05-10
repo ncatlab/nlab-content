@@ -28,7 +28,7 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 
 ## Definition ##
 
-A $R$-[[module]] $V$ is a **prevector space** if $R$ is a [[prefield]]. 
+A $R$-[[module]] $V$ is a **prevector space** if $R$ is a [[prefield]]. The elements of $V$ are called **vectors**. 
 
 ## Examples ##
 
@@ -49,5 +49,7 @@ A $R$-[[module]] $V$ is a **prevector space** if $R$ is a [[prefield]].
 * [[vector space]]
 
 * [[super prevector space]]
+
+* [[N-graded prevector space]]
 
 * [[prefield]]
