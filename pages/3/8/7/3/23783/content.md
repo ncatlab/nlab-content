@@ -38,15 +38,15 @@ A __$\sigma$-pretopos__ is
 
 * with all [[countable]] [[coproducts]], which are [[disjoint]], and [[pullback-stable]],
 
-* where all [[congruences]] have effective [[quotient objects]], which are also [[pullback-stable]].
+* where all [[congruences]] have [[effective quotient|effective]] [[quotient objects]], which are also [[pullback-stable]].
 
 ## Examples
 
 * Any [[pretopos#infinitary|infinitary pretopos]] is a $\sigma$-topos.
 
-* The category of countable sets (for instance, subquotients of the natural numbers $\mathbb{N}$) is a $\sigma$-pretopos.
+* The category of [[countable sets]] (for instance, [[subquotients]] of the [natural numbers]] $\mathbb{N}$) is a $\sigma$-pretopos.
 
-* The category of sets in the [[predicative mathematics|predicative]] [[set theory]] $CZF_{Exp}$ from ([Simpson-Streicher 2012](#SimpsonStreicher12)) is a $\sigma$-pretopos.
+* The [[category of sets]] in the [[predicative mathematics|predicative]] [[set theory]] $CZF_{Exp}$ from ([Simpson-Streicher 2012](#SimpsonStreicher12)) is a $\sigma$-pretopos.
 
 ## See also ##
 
@@ -70,7 +70,7 @@ A predicative approach to foundations using $\sigma$-pretoposes is given in
 
 Simplicial homotopy internal to a $\sigma$-pretopos is studied in:
 
-* {#Low14} Zhen Lin Low, _Internal and local homotopy theory_, [arXiv:1404.7788](https://arxiv.org/abs/1404.7788), 2014.
+* {#Low14} [[Zhen Lin Low]], _Internal and local homotopy theory_, [arXiv:1404.7788](https://arxiv.org/abs/1404.7788) (2014).
 
 
 [[!redirects sigma-pretopoi]]
