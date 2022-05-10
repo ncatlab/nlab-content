@@ -94,6 +94,8 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 * [[quadratic abelian group]]
 
+* [[tensor ring]], [[Clifford ring]]
+
 * [[Ab]]
 
 * [[sheaf of abelian groups]]
