@@ -69,11 +69,11 @@ I like to put math/phys information into context. <br/> For that purpose I had s
 
 * *[[Home Page|the $n$Lab research wiki project]]*
 
-latest logs on 
+with edit logs and discussion on:
 
 * [the nForum discussion board](https://nforum.ncatlab.org/).
 
-For more on what the $n$Lab is see:
+For more on what the $n$Lab is, see:
 
 * me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
 
