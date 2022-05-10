@@ -41,6 +41,42 @@ Textbooks:
 
 * _[[Introduction to Stable homotopy theory]]_
 
+## research wiki
+
+<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://i.stack.imgur.com/1hvpz.png" alt="nLab banner" /></div></a>
+
+I like to put math/phys information into context. For that purpose I had started (in Nov 2008) the 
+
+* *[[Home Page|$n$Lab research wiki project]]*
+
+For more on what the $n$Lab is see also
+
+* me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
+
+* Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
+
+* On 21st May 2022 I'll be presenting the nLab at *[Big Data in Pure Mathematics 2022](http://math.bu.edu/people/matschke/BigDataPureMath2022/)* 
+
+
+## more web logs
+
+For logs of further activity see my page
+
+* _[at Twitter](https://twitter.com/SchreiberUrs)_
+
+while [[nLab|$n$Lab]]-edits are announced
+
+* *[on the $n$Forum](https://nforum.ncatlab.org/)*.
+
+For links to technical discussions about math and physics see my pages:
+
+* *[at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)* 
+
+* *[at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)*
+
+* *[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)*
+
+* *[at QuantumComputing.SE](https://quantumcomputing.stackexchange.com/users/19363/urs-schreiber).
 
 
 ## teaching 
@@ -64,20 +100,6 @@ See behind the links for detailed lecture notes that I wrote:
 A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
 
-
-## $n$Lab
-
-<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://i.stack.imgur.com/1hvpz.png" alt="nLab banner" /></div></a>
-
-I like to put information into context. For that purpose I had started (in Nov 2008) the 
-
-* *[[Home Page|$n$Lab wiki project]]*
-
-For more on what the $n$Lab is see also
-
-* me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
-
-* Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
 
 ## column
  {#column}
@@ -127,20 +149,6 @@ I used to write an irregular column at [PhysicsForums Insights](https://www.phys
 * _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
 
 
-
-## more on the web
-
-For logs of further activity see my page
-
-* _[at Twitter](https://twitter.com/SchreiberUrs)_
-
-and for links to technical discussions about math and physics see my pages:
-
-* _[at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)_ 
-
-* _[at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)_
-
-* _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber).
 
 
 ## copyright statement
