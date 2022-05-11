@@ -58,3 +58,8 @@ This "hypergeometric" construction uses results on the [[twisted de Rham cohomol
 reviewed in:
 
 * Yukihito Kawahara, *The twisted de Rham cohomology for basic constructionsof hyperplane arrangements and its applications*, Hokkaido Math. J. **34** 2 (2005) 489-505 $[$[doi:10.14492/hokmj/1285766233](https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-34/issue-2/The-twisted-de-Rham-cohomology-for-basic-constructionsof-hyperplane-arrangements/10.14492/hokmj/1285766233.full)$]$
+
+Interpretation of the [[hypergeometric construction of KZ solutions|hypergeometric construction]] as happening in [[twisted equivariant differential K-theory]], showing that the [[K-theory classification of D-brane charge]] and the [[K-theory classification of topological phases of matter]] both reflect [[braid group representations]] as expected for [[defect branes]] and for [[anyons]]/[[topological order]], respectively:
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
+
