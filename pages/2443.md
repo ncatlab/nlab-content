@@ -18,13 +18,25 @@
 
 ## Superalgebra ##
 
+* [[super commutative monoid]]
+
+* [[super abelian group]]
+
+* [[super ring]]
+
+  * [[exterior ring]]
+
+  * [[Clifford ring]]
+
+* [[super module]]
+
 * [[super vector space]], [[SVect]]
 
 * [[super algebra]]
 
   * [[supercommutative superalgebra]]
 
-  * [[Grassmann algebra]]
+  * [[exterior algebra]]
 
   * [[Clifford algebra]]
 
