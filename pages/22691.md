@@ -57,4 +57,6 @@ __monoid theory__ in [[algebra]]:
 
 * [[endomorphism monoid]]
 
+* [[super commutative monoid]]
 
+<div markdown="1">[Edit this sidebar](/nlab/edit/monoid+theory+-+contents)</div>
