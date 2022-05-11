@@ -302,11 +302,13 @@ of the underlying set of the $n$-fold [[Cartesian product]] of $k$ with itself. 
 $$
   Cl(S)
   \;=\;
-  \left\{
-    f \in k[X_1, \cdots, X_n]
-    \,\vert\,
-    \underset{(a_1, \cdots, a_n) \in S}{\forall} f(a_1, \cdots, a_n) = 0
-  \right\}
+  V \left(
+      \left\{
+        f \in k[X_1, \cdots, X_n]
+        \,\vert\,
+        \underset{(a_1, \cdots, a_n) \in S}{\forall} f(a_1, \cdots, a_n) = 0
+      \right\}
+    \right)
   \,.
 $$
 
