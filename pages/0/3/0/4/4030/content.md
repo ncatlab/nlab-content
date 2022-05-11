@@ -148,7 +148,7 @@ To see this, observe that
   A \;\simeq\; \varnothing
   \,,
 \]
-where we used that $LConst$ is a [[left adjoint]] and that [[left adjoints preserve colimits]] ([hence](initial+object#InitialObjectIsEmptyColimit) [[preserved colimit|preserve]] [[initial objects]]), we used the [[adjunction unit]], and
+where we used that $LConst$ is a [[left adjoint]] and that [[left adjoints preserve colimits]] ([hence](initial+object#InitialObjectIsEmptyColimit) [[preserved colimit|preserve]] [[initial objects]]), we consideted the [[adjunction unit]] $\eta_A$, and
 where the last implication follows since the [[initial object]] in any topos is [[strict initial object|strict]].
 
 But this gives
@@ -292,6 +292,7 @@ $$
   \Pi_0
   \left( 
      \underset{\underset{\Pi_0 A}{\longrightarrow}}{\lim} 
+     \;
      i_A^* \ast_s 
      \xrightarrow{\sim} 
      A
@@ -299,6 +300,7 @@ $$
   \simeq
   \left(
      \underset{\underset{\Pi_0 A}{\longrightarrow}}{\lim} 
+     \;
      \Pi_0\big(i_A^* \ast_s\big) 
      \xrightarrow{\sim} 
      \Pi_0(A)
@@ -309,8 +311,10 @@ all the component maps out of the coproduct factor through the point. This means
 
 =--
 
-However, this doesn't mean that essential geometric morphisms are the "relative" analog of locally connected toposes; in general one needs to impose an additional condition, which is automatic in the case of the global sections morphism, to obtain the notion of a [[locally connected geometric morphism]].
+\begin{remark}
+Beware that Prop. \ref{LocalConnectednessByEssentialGeometricMorphism} only applies to [[terminal geometric morphisms]] (of locally connected toposes). The analogous "[[relative point of view|relative]]" characterization of more general [[locally connected geometric morphisms]] involves more than just the existence of the extra left adjoint functor, see [there](locally+connected+geometric+morphism#Definition).
 
+\end{remark}
 
 ## Properties
 
