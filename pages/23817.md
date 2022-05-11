@@ -53,3 +53,5 @@ The elements of $\im(\mathcal{D}_0)$ are called **even elements** or **bosonic e
 * [[super module]]
 
 * [[super ring]]
+
+* [[supercommutative ring]]
