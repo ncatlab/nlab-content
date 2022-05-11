@@ -3,11 +3,26 @@
 
 #### General
 
-Classification [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
+The Classification [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
+
+Original proposal:
 
 * [[Alexei Kitaev]], _Periodic table for topological insulators and superconductors_, talk at: L.D.Landau Memorial Conference "Advances in Theoretical Physics", June 22-26, 2008, In:AIP Conference Proceedings 1134, 22 (2009) ([arXiv:0901.2686](https://arxiv.org/abs/0901.2686), [doi:10.1063/1.3149495](https://doi.org/10.1063/1.3149495))
 
+Further details:
+
+More on the Clifford algebra involved:
+
+* Michael Stone, Ching-Kai Chiu, Abhishek Roy, *Symmetries, dimensions and topological insulators: the mechanism behind the face of the Bott clock*,  Journal of Physics A: Mathematical and Theoretical, **44** 4 (2010) 045001 $[$[doi:10.1088/1751-8113/44/4/045001](https://iopscience.iop.org/article/10.1088/1751-8113/44/4/045001)$]$
+
+* Gilles Abramovici, Pavel Kalugin, *Clifford modules and symmetries of topological insulators*,  International Journal of Geometric Methods in Modern PhysicsVol. **09**  03 (2012) 1250023   $[$[arXiv:1101.1054](https://arxiv.org/abs/1101.1054), [doi:10.1142/S0219887812500235](https://doi.org/10.1142/S0219887812500235)$]$
+
+
+The proper equivariant formulation:
+
 * [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+
+Further discussion:
 
 * [[Guo Chuan Thiang]], _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincare 17(4) 757-794 (2016) ([arXiv:1406.7366](https://arxiv.org/abs/1406.7366))
 
