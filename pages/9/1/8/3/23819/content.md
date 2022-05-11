@@ -32,10 +32,14 @@ Given a [[quadratic abelian group]] $G$ with [[quadratic function]] $q:G \to \ma
 
 * [[ring]]
 
+* [[tensor ring]]
+
+* [[super ring]]
+
+* [[exterior ring]]
+
 * [[Clifford algebra]]
 
 * [[quadratic abelian group]]
-
-* [[tensor ring]]
 
 [[!redirects Clifford rings]]
