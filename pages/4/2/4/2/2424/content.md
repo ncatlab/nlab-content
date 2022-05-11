@@ -167,6 +167,8 @@ and
 
 * [[fuzzy dark matter]]
 
+* [[Chern-Simons gravity]]
+
 (...)
 
 >clearly, this list deserves be further expanded...
