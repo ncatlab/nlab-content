@@ -166,6 +166,13 @@ Discussion in the context of [[M-theory on G2-manifolds]] includes
 
 * {#BBS07} [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 423 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
+### In solid state physics
+ {#ReferencesInSolidStatePhysics}
+
+On ADE-classifications in/of [[topological phases of matter]]/[[topological order]]:
+
+* Mayukh Nilay Khan, Jeffrey C. Y. Teo, Taylor L. Hughes, *Anyonic Symmetries and Topological Defects in Abelian Topological Phases: an application to the ADE Classification*, Phys. Rev. B **90** 235149 (2014) $[$[arXiv:1403.6478](https://arxiv.org/abs/1403.6478)$]$
+
 
 [[!redirects ADE classifications]]
 
