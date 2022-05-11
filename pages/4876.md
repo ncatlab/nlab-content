@@ -281,6 +281,12 @@ By  the [[AdS3-CFT2 and CS-WZW correspondence]] (see there for more details) the
 
 In fact a rigorous constructions of the $G$-WZW model as a [[rational 2d CFT]] is via the [[FRS-theorem on rational 2d CFT]], which constructs the model as a [[boundary field theory]] of the $G$-[[Chern-Simons theory]] as a [[3d TQFT]] incarnated via a [[Reshetikhin-Turaev construction]].
 
+
+
+[[!include hypergeometric KZ-solutions -- references]]
+
+
+
 ### D-branes for the WZW model
  {#DBranes}
 
