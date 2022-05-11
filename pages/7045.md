@@ -111,11 +111,16 @@ $$a:P, b:P, a \leq b \vdash U(a) : U(b)$$
 
 and a $P$-indexed hierarchy of type universes a la Tarski is
 
-$$a:P \vdash U(a)\ type$$
-$$a:P, b:P, a \leq b \vdash U^{'}(a) : U(b)$$
-$$a:P, b:P, a \leq b \vdash El_{b}(U^{'}(a)) \equiv U(a)$$
-$$a:P, b:P, a \leq b \vdash El_{a,b}:U(a) \to U(b)$$
-$$a:P, b:P, a \leq b \vdash p:is1Monic(El_{a,b})$$
+$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{a:P \vdash U(a)\ type}$$
+$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{U^{'}(a) : U(b)}$$
+$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{El_{b}(U^{'}(a)) \equiv U(a)}$$
+$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{El_{a,b}:U(a) \to U(b)}$$
+$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{p:is1Monic(El_{a,b})}$$
 
 ## Properties
 
