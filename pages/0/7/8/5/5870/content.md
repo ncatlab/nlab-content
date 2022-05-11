@@ -4,6 +4,7 @@
 * [[group]], [[∞-group]]
 * [[group object]], [[group object in an (∞,1)-category]]
 * [[abelian group]], [[spectrum]]
+* [[super abelian group]]
 * [[group action]], [[∞-action]]
 * [[representation]], [[∞-representation]]
 * [[progroup]]
