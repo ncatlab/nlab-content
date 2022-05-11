@@ -16,8 +16,7 @@ following precursor observations due to:
 
 * [[Vladimir S. Dotsenko]], [[Vladimir A. Fateev]], *Conformal algebra and multipoint correlation functions in 2D statistical models*, Nuclear Physics B **240** 3 (1984) 312-348 $[$<a href="https://doi.org/10.1016/0550-3213(84)90269-4">doi:10.1016/0550-3213(84)90269-4</a>$]$
 
-* [[Philippe Christe]], [[Rainald Flume]], *The four-point correlations of all primary operators of the $d = 2$ conformally invariant $SU(2)$ $\sigma$-model with Wess-Zumino term*, Nuclear Physics B
-**282** (1987) 466-494 $[$<a href="https://doi.org/10.1016/0550-3213(87)90693-6">doi:10.1016/0550-3213(87)90693-6</a>$]$
+* [[Philippe Christe]], [[Rainald Flume]], *The four-point correlations of all primary operators of the $d = 2$ conformally invariant $SU(2)$ $\sigma$-model with Wess-Zumino term*, Nuclear Physics B **282** (1987) 466-494 $[$<a href="https://doi.org/10.1016/0550-3213(87)90693-6">doi:10.1016/0550-3213(87)90693-6</a>$]$
 
 
 The proof that for rational levels this construction indeed yields [[conformal blocks]] is due to:
