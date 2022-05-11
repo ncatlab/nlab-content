@@ -32,7 +32,7 @@ and
 An initial object, if it exists, is unique up to unique [[isomorphism]], so that we may speak of [[the]] initial object.
 \end{remark}
 
-\begin{remark}
+\begin{remark}\label{InitialObjectIsEmptyColimit}
 When it exists, the initial object is the [[colimit]] over the [[empty diagram]].
 \end{remark}
 
