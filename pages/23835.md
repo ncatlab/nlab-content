@@ -29,6 +29,7 @@ A large class of solutions of the [[Knizhnik-Zamolodchikov equation]], hence a l
 Since the canonical [[differential form]]-representatives in this construction may be regarded as generalized [[hypergeometric functions]], the original authors referred to this approach as "hypergeometric solutions" to the [[KZ equation]] ([Schechtman & Varchenko 90](#SchechtmanVarchenko90)). In hindsight, it is not the theory of hypergeometric functions that drives the theory, but the peculiarities of (holomorphic) [[local systems]] and their [[twisted de Rham cohomology]] of [[configuration spaces of points]].
 
 
+
 ## References
 
 [[!include hypergeometric KZ-solutions -- references]]
