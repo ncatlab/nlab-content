@@ -38,7 +38,7 @@ An **super abelian group** is an [[abelian group]] $G$ with decomposition functi
 * for all $a:G$, $\mathcal{D}_1(\mathcal{D}_0(a)) = 0$
 * for all $a:G$, $\mathcal{D}_1(\mathcal{D}_1(a)) = \mathcal{D}_1(a)$
 
-As a result, the [[image]] of the two decompostion functions $\im(\mathcal{D}_0)$ and $\im(\mathcal{D}_1)$ are abelian groups and there exists a [[group]] [[isomorphism]] $i:V \cong \im(\mathcal{D}_0) \otimes \im(\mathcal{D}_1)$, where $A \otimes B$ is the [[tensor product of abelian groups]]. There exists a parity function $\deg:\im(\mathcal{D}_0) \uplus \im(\mathcal{D}_1) \to \mathbb{Z}/2\mathbb{Z}$ where $A \uplus B$ is the [[disjoint union]] of $A$ and $B$, such that the [[fiber]] of $\deg$ at $0$ is $\im(\mathcal{D}_0)$ and the fiber of $\deg$ at $1$ is $\im(\mathcal{D}_1)$. 
+As a result, the [[image]] of the two decompostion functions $\im(\mathcal{D}_0)$ and $\im(\mathcal{D}_1)$ are abelian groups and there exists a [[group]] [[isomorphism]] $i:V \cong \im(\mathcal{D}_0) \otimes \im(\mathcal{D}_1)$, where $A \otimes B$ is the [[tensor product of abelian groups]].  
 
 The elements of $\im(\mathcal{D}_0)$ are called **even elements** or **bosonic elements**, and the elements of $\im(\mathcal{D}_1)$ are called **odd elements** or **fermionic elements**. 
 
@@ -51,3 +51,5 @@ The elements of $\im(\mathcal{D}_0)$ are called **even elements** or **bosonic e
 * [[super commutative monoid]]
 
 * [[super module]]
+
+* [[super ring]]
