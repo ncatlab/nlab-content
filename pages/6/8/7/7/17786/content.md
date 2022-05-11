@@ -33,6 +33,8 @@ For more see at _[[geometry of physics -- superalgebra]]_.
 
 ## Related concepts
 
+* [[supercommutative ring]]
+
 * [[super-scheme]]
 
 * [[commutative differential graded algebra]]
@@ -60,9 +62,6 @@ For more see at _[[geometry of physics -- superalgebra]]_.
 
 [[!redirects graded-commutative algebra]]
 [[!redirects graded-commutative algebras]]
-
-[[!redirects super-commutative ring]]
-[[!redirects super-commutative rings]]
 
 [[!redirects graded commutative ring]]
 [[!redirects graded commutative rings]]
