@@ -106,6 +106,11 @@ and in the [[3d toric code]]-[[4d TQFT]]:
 
 * {#KongTianZhang20} [[Liang Kong]], Yin Tian, Zhi-Hao Zhang, Section 2.2 of: *Defects in the 3-dimensional toric code model form a braided fusion 2-category*, J. High Energ. Phys. 2020, 78 (2020) ([arXiv:2009.06564](https://arxiv.org/abs/2009.06564), <a href="https://doi.org/10.1007/JHEP12(2020)078">doi:10.1007/JHEP12(2020)078</a>)
 
+Incorporation of defect branes into the [[K-theory classification of D-brane charge]] by understanding the [[hypergeometric construction of KZ solutions]] as happening in [[twisted equivariant differential K-theory]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
+
+
 [[!redirects defect branes]]
 
 [[!redirects codimension 2 brane]]
