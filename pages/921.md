@@ -146,16 +146,16 @@ However, if we are working in [[predicative mathematics]] with multiple [[univer
 
 ### The terminal archimedean field
 
-There is a well-known algebraic (more or less) characterisation of the real line as the 'terminal archimedean field'.  This can be interpreted as follows:
+There is a well-known algebraic (more or less) characterisation of the real line as the 'terminal archimedean field' in a [[universe]].  This can be interpreted as follows:
 
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
-*  An archimedean field is __terminal__ if it is a [[terminal object]] in the category of archimedean fields.
+*  An archimedean field is __terminal in a universe__ if it is a [[terminal object]] in the category of archimedean fields of that universe.
 
-In impredicative mathematics, we speak of [[the]] such field because it is unique up to unique [[isomorphism]].
+In impredicative mathematics, we speak of [[the]] such field because it is unique up to unique [[isomorphism]] in a universe.
 
-However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, there is only a terminal archimedean field if there is a maximal universe in which all the other universes [[embedding|embed]] into. 
+However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, there is only a terminal archimedean field in a universe if there is a maximal universe term inside the universe into which all the other universe terms in that universe [[embedding|embed]] into. 
 
 ### As an archimedean group
 
