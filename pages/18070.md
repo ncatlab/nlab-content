@@ -1735,6 +1735,10 @@ Discussion specifically in [[topological quantum field theory]] with an eye towa
 * [[Christopher Beem]], [[David Ben-Zvi]], [[Mathew Bullimore]], [[Tudor Dimofte]], [[Andrew Neitzke]], _Secondary products in supersymmetric field theory_, Ann. Henri Poincaré 21, 1235–1310 (2020). ([arXiv:1809.00009](https://arxiv.org/abs/1809.00009), [doi:10.1007/s00023-020-00888-3](https://doi.org/10.1007/s00023-020-00888-3))
 
 
+[[!include hypergeometric KZ-solutions -- references]]
+
+
+
 ### As moduli of Dp-D(p+4)-brane bound states:
  {#AsModuliOfD0D4BraneBoundStates}
 
