@@ -24,6 +24,8 @@
 
 * [[super ring]]
 
+  * [[supercommutative ring]]
+
   * [[exterior ring]]
 
   * [[Clifford ring]]
@@ -34,7 +36,7 @@
 
 * [[super algebra]]
 
-  * [[supercommutative superalgebra]]
+  * [[supercommutative algebra]]
 
   * [[exterior algebra]]
 
