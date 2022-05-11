@@ -39,7 +39,11 @@ This is often considered in the special case of [[twisted ad-equivariant K-theor
 
 * [[twisted differential K-theory]]
 
-* [[topological phases of matter]]
+* [[twisted equivariant differential K-theory]]
+
+* [[K-theory classification of D-brane charge]]
+
+* [[topological phases of matter]], [[K-theory classification of topological phases of matter]]
 
 ## References
 
