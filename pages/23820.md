@@ -34,6 +34,8 @@ Given an [[abelian group]] $G$, the **tensor ring** is a [[ring]] $T(G)$ with an
 
 * [[Clifford ring]]
 
+* [[Weyl ring]]
+
 * [[tensor algebra]]
 
 [[!redirects tensor rings]]
