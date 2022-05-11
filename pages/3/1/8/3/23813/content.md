@@ -42,7 +42,7 @@ Given a [[commutative ring]] $R$, an **$\mathbb{Z}/2\mathbb{Z}$-graded $R$-modul
 * for all $v:V$, $\mathcal{D}_1(\mathcal{D}_0(v)) = 0$
 * for all $v:V$, $\mathcal{D}_1(\mathcal{D}_1(v)) = \mathcal{D}_1(v)$
 
-As a result, the [[image]] of the two decompostion functions $\im(\mathcal{D}_0)$ and $\im(\mathcal{D}_1)$ are $R$-[[modules]]  and there exists a [[linear isomorphism]] $i:V \cong \im(\mathcal{D}_0) \otimes \im(\mathcal{D}_1)$, where $A \otimes B$ is the [[tensor product of modules]]. 
+As a result, the [[image]] of the two decomposition functions $\im(\mathcal{D}_0)$ and $\im(\mathcal{D}_1)$ are $R$-[[modules]]  and there exists a [[linear isomorphism]] $i:V \cong \im(\mathcal{D}_0) \otimes \im(\mathcal{D}_1)$, where $A \otimes B$ is the [[tensor product of modules]]. 
 
 The elements of $\im(\mathcal{D}_0)$ are called **even elements** or **bosonic elements**, and the elements of $\im(\mathcal{D}_1)$ are called **odd elements** or **fermionic elements**. 
 
