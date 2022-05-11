@@ -250,6 +250,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[symmetric ring]]
 
+  * [[supercommutative ring]]
+
   * [[super ring]]
 
 * [[ideal]]
