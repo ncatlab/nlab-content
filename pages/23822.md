@@ -42,6 +42,8 @@ Given an [[abelian group]] $G$, the **exterior ring** is a [[ring]] $\Lambda(G)$
 
 * [[Clifford ring]]
 
+* [[supercommutative ring]]
+
 * [[exterior algebra]]
 
 [[!redirects exterior rings]]
