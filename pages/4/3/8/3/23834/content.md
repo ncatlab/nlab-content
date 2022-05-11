@@ -10,7 +10,7 @@ The "[[hypergeometric construction of KZ solutions|hypergeometric]]" constructio
 
 * {#SchechtmanVarchenko90} [[Vadim Schechtman]], [[Alexander Varchenko]], *Hypergeometric solutions of Knizhnik-Zamolodchikov equations*, Lett. Math. Phys. **20** (1990) 279–283 $[$[doi:10.1007/BF00626523](https://doi.org/10.1007/BF00626523)$]$
 
-* {SchechtmanVarchenko91} [[Vadim Schechtman]], [[Alexander Varchenko]], *Arrangements of hyperplanes and Lie algebra homology*, Inventiones mathematicae  **106** 1 (1991) 139-194 $[$[dml:143938](https://eudml.org/doc/143938), [[SchechtmanVarchenko_HyperplaneArrangements.pdf:file]]$]$
+* {#SchechtmanVarchenko91} [[Vadim Schechtman]], [[Alexander Varchenko]], *Arrangements of hyperplanes and Lie algebra homology*, Inventiones mathematicae  **106** 1 (1991) 139-194 $[$[dml:143938](https://eudml.org/doc/143938), [[SchechtmanVarchenko_HyperplaneArrangements.pdf:file]]$]$
 
 following precursor observations due to:
 
