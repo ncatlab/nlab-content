@@ -40,38 +40,73 @@ have analogs for [[topos]]es and [[(∞,1)-topos]]es
 +-- {: .num_defn #ConnectedObject}
 ###### Definition
 
-An object $A$ in a [[topos]] $\mathcal{E}$ is called a **[[connected object]]** if the [[hom-functor]] $\mathcal{E}(A, -)$ preserves finite [[coproduct]]s. 
+An [[object]] $A$ in a [[topos]] $\mathcal{E}$ is called a **[[connected object]]** if the [[hom-functor]] $\mathcal{E}\big(A, -\big)$ [[preserved limit|preserves]] [[finite coproduct|finite]] [[coproducts]]. 
 
-Equivalently, an object $A$ is connected if it is nonempty (non[[initial object|initial]]) and cannot be expressed as a coproduct of two nonempty [[subobject]]s. 
+Equivalently, an object $A$ is connected if it is non-empty (in that it is not [[generalized the|the]] [[initial object]]) and cannot be expressed as a [[coproduct]] of two nonempty [[subobjects]]. 
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-A [[Grothendieck topos]] $\mathcal{E}$ is called a **locally connected topos** if every object $A \in \mathcal{E}$ is a [[coproduct]] of connected objects $\{A_i\}_{i \in I}$, $A = \coprod_{i \in I} A_i$.  
+A [[Grothendieck topos]] $\mathcal{E}$ is called a **locally connected topos** if every object  is a [[coproduct]] of [[connected objects]] (Def. \ref{ConnectedObject}), 
+hence if for $A \in \mathcal{E}$ there exists $\big\{A_i \in \mathcal{E}\big\}_{i \in I}$ such that 
+$$
+  A 
+  \;\simeq\; 
+  \coprod_{i \in I} A_i
+  \,.
+$$  
 
 =--
 
-It follows that the index set $I$ is unique up to isomorphism, and we write
+If this is the case, it  follows that the [[indexed set|index]] set $I$ is unique up to [[isomorphism]], and we denote it by
 
 $$
-  \pi_0(A) = I
+  \pi_0(A) \;\coloneqq\; I
   \,.
 $$
 
-This construction defines a functor $\Pi_0 : \mathcal{E} \to Set : A \mapsto \pi_0(A)$ which is [[left adjoint]] to the [[constant sheaf]] functor, the [[left adjoint]] part of the [[global section]] [[geometric morphism]].  
-
-Thus, for a locally connected topos we have
+This construction defines a [[functor]] 
 
 $$
-  (\Pi_0 \dashv L Const \dashv \Gamma) : 
-  \mathcal{E} \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\Gamma}{\to}}}
-  Set
-  \,.
-$$
+  \array{
+    \Pi_0 \colon & \mathcal{E} &\longrightarrow& Set 
+    \\
+    & A &\mapsto& \pi_0(A)
+  }
+$$ 
 
-This is the **connected component functor**. It generalises the functor, also denoted $\pi_0$ or $\Pi_0$, which to a [[topological space]] assigns the set of [[connected]] components of that space. See the [examples](#Examples) below.
+which is [[left adjoint]] to the [[locally constant sheaf]] functor, the [[left adjoint]] part of the [[global section]] [[geometric morphism]].  
+
+This is the **connected component functor**. It generalizes the functor, also denoted $\pi_0$ or $\Pi_0$, which to a [[topological space]] assigns the set of [[connected components]] of that space. See the [examples](#Examples) below.
+
+
+
+In summary, for a locally connected topos the [[terminal geometric morphism]] extends to an [[adjoint triple]] of this form:
+
+\begin{tikzcd}[column sep=24pt]
+  \mathcal{E}
+  \ar[
+    rr,
+    shift left=16pt,
+    "{ \Pi_0 }"
+  ]
+  \ar[
+    from=rr,
+    "{ \mathrm{LConst} }"{description}
+  ]
+  \ar[
+    rr,
+    shift right=16pt,
+    "{ \Gamma }"{swap}
+  ]
+  \ar[rr, phantom, shift left=9pt, "{\scalebox{.6}{$\bot$}}"]
+  \ar[rr, phantom, shift right=9pt, "{\scalebox{.6}{$\bot$}}"]  
+  &&
+  \mathrm{Set}
+\end{tikzcd}
+
 
 
 The following proposition asserts that the existence of $\Pi_0$ already characterizes locally connected toposes.
@@ -89,32 +124,60 @@ A proof appears as ([Johnstone, lemma C.3.3.6](#Johnstone)).
 +-- {: .proof}
 ###### Proof
 
-Suppose that $(\Pi_0 \dashv L Const \dashv \Gamma) : \mathcal{E} \to Set$ exists. 
+In one direction, suppose that $\Pi_0$ with $(\Pi_0 \dashv LConst \dashv \Gamma) \;\colon\; \mathcal{E} \to Set$ exists. 
 
 First notice that an object $A$ is connected in the 
 [above sense](#ConnectedObject) precisely if $\Pi_0(A) = *$. 
 
-Because for all $S \in Set$ the connectivity condition demands that
+Because, for all $S \in Set$ the connectivity condition demands that
 
 $$
-  \mathcal{E}(A, \coprod_S L Const *) \simeq \coprod_S \mathcal{E}(A,*) \simeq \coprod_S * \simeq S
+  \mathcal{E}
+  \left(
+    A
+    ,\, 
+   {\coprod}_S \,  L Const \ast
+  \right) 
+  \;\simeq\; 
+  {\coprod}_S
+  \, 
+  \mathcal{E}
+  \big(
+    A
+    ,\,
+    \ast
+  \big) 
+  \;\simeq\; 
+  \coprod_S \ast 
+  \;\simeq\; 
+  S
+  \,,
 $$ 
 
-but by the $(\Pi_0 \dashv L Const)$-hom-equivalence the first term is
+but by the $\big(\Pi_0 \dashv LConst\big)$-[hom isomorphism](adjoint+functor#InTermsOfHomIsomorphism) the first term is
 
 $$
-  \cdots \simeq \mathcal{E}(A, L Const \coprod_S *) \simeq Set(\Pi_0(A), S)
+  \cdots \simeq \mathcal{E}\big(A,\m LConst {\coprod}_S \ast*\big) 
+  \;\simeq\; 
+  Set
+  \big(
+    \Pi_0(A)
+    ,\, 
+    S
+  \big)
 $$
 
-and the last set is isomorphic to $S$ precisely for $\Pi_0(A)$ is the singleton set.
+and the last set is [[isomorphism|isomorphic]] to $S$ iff $\Pi_0(A)$ is the [[singleton set]].
 
-So we need to show that given the extra left adjoint $\Pi_0$, every object of $\mathcal{E}$ is a coproduct of objects for which $\Pi_0(-)$ is the point.
+So we need to show that given the extra left adjoint $\Pi_0$, every object of $\mathcal{E}$ is a coproduct of objects for which $\Pi_0(-)$ is the [[terminal object|point]].
 
 For that purpose consider for every object $A \in \mathcal{E}$ the [[pullback]] diagram
 
 $$
   \array{
-      i_A^* {\lim_\to}_{\Pi_0(A)} * &\to& {\lim_\to}_{\Pi_0(A)} * 
+      i_A^* {\lim_\to}_{\Pi_0(A)} \ast 
+      &\longrightarrow& 
+     {\underset{\longrightarrow}{lim}}_{\Pi_0(A)} \ast 
       \\
       {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
       \\
