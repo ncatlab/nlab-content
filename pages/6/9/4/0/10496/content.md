@@ -45,7 +45,7 @@ The definition is traditionally a little vague, but the hallmark of a *topologic
 
 1. [[Berry connection]] with [[non-abelian group|non-abelian]] [[holonomy]];
 
-1. [[anyon]] excitations.
+1. [[anyon]] excitations/defects whose [[wavefunctions]] constitute [[braid group representations]].
 
 In particular, the original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09).
 
@@ -185,7 +185,9 @@ Nucl. Phys. B419, 455 (1994).
 
 
 
-### Research groups
+### Further resources
+
+**Research groups:**
 
 * Univ. of Maryland, [joint quantum institute](http://jqi.umd.edu/research/topological-matter)
 
@@ -195,13 +197,15 @@ Nucl. Phys. B419, 455 (1994).
 
 * [Microsoft Research Station Q](http://research.microsoft.com/en-us/labs/stationq) (KITP, Santa Barbara)
 
-### Conference and seminar cycles
+**Conference and seminar cycles:**
 
 * seminar in Koeln [Topological states of matter](http://www.thp.uni-koeln.de/trebst/Lectures/2012-TopoSeminar.html)
 
 * Topological Phases of Matter: Simons Center, June 10-14, 2013, videos [available](http://scgp.stonybrook.edu/archives/3464)
 
 * CECAM 2013, Topological Phases in Condensed Matter and Cold Atom Systems: towards quantum computations [description](http://www.cecam.org/workshop-867.html)
+
+
 
 
 [[!redirects topological order]]
