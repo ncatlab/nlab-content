@@ -122,6 +122,8 @@ $$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
 $$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
 \prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{p:is1Monic(El_{a,b})}$$
 
+A type theory may have multiple type universes. 
+
 ## Properties
 
 ### Universe enlargement
