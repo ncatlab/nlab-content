@@ -21,19 +21,21 @@
 
 ## Idea
 
-In [[type theory]], a _type of (small) types_ -- usually written $Type$ -- is a [[type]] whose [[terms]] are themselves [[type|types]].  Thus, it is a [[universe]] of (small) [[type|types]], a _universe in type theory_.
+In [[type theory]], a _type universe_ -- usually written $Type$ -- is a [[type]] whose [[terms]] are either themselves [[type|types]] (type universes a la Russell), or representations of types in an internal model of the type theory (type universes a la Tarski). Either way, it is a [[universe]] of (small) [[type|types]], a _universe in type theory_, and sometimes called a _type of types_.
 
 {#TypeUniverseAsReflection} One also speaks of $Type$ as being a _reflection_ of the type system in itself (e.g. [MartinL&#246;f 74, p. 6](#MartinLoef74), [Palmgren, pp. 2-3](#Palmgren), [Rathjen, p. 1](#Rathjen), [Luo 11, section 2.5](#Luo11), [Luo 12, p. 2](#Luo12), [Stanf. Enc. Phil.](#SEP)), following the _[[reflection principle]]_ in [[set theory]].
 
 In [[homotopy type theory]] a type of (small) types is what in [[(∞,1)-category theory|higher]] [[categorical semantics]] is interpreted as a (small) _[[object classifier]]_.  Thus, the type of types is a refinement of the [[type of propositions]] which only contains the [[(-1)-truncated]]/[[h-level]]-1 types (and is semantically a [[subobject classifier]]).
 
-In the presence of a type of types a [[judgement]] of the form
+In the presence of a type universe a [[judgement]] of the form
 
 $$
   \vdash A : Type
 $$
 
-says that $A$ is a [[term]] of [[type]] $Type$, hence is a (small) [[type]] itself. More generally, a [[hypothetical judgement]] of the form
+says that $A$ is a [[term]] of [[type]] $Type$, hence is either a (small) [[type]] itself (for universes a la Russell), or a representation of types in an internal model of the type theory (for universes a la Tarski). 
+
+More generally, in universes a la Russell a [[hypothetical judgement]] of the form
 
 $$
   x : X \vdash A(x) : Type
@@ -41,9 +43,28 @@ $$
 
 says that $A$ is an $X$-[[dependent type]].
 
-In [[homotopy type theory]] the type of types $Type$ is often assumed to satisfy the [[univalence]] [[axiom]]. This is a reflection of the fact that in its [[categorical semantics]] as an [[object classifier]] is part of an [[internal (∞,1)-category]] in the ambient [[(∞,1)-topos]]: the one that as an [[indexed category]] is the small [[codomain fibration]].
+In universes a la Tarski the corresponding hypothetical judgment would be of the form
 
-[[Per Martin-Lof]]'s original type theory contained a type of *all* types, which therefore in particular contained itself, i.e. one had $Type : Type$.  But it was pointed out by [[Jean-Yves Girard]] that this was inconsistent; see [[Girard's paradox]].  Thus, modern type theories generally contain a hierarchy of types of types, with $Type_0 : Type_1$ and $Type_1 : Type_2$, etc.
+$$
+  x : X \vdash El(A)(x)\ type
+$$
+
+In [[homotopy type theory]] the type universe $Type$ is often assumed to satisfy the [[univalence]] [[axiom]]. This is a reflection of the fact that in its [[categorical semantics]] as an [[object classifier]] is part of an [[internal (∞,1)-category]] in the ambient [[(∞,1)-topos]]: the one that as an [[indexed category]] is the small [[codomain fibration]].
+
+[[Per Martin-Lof]]'s original type theory contained a type universe a la Russell which contained *all* types, which therefore in particular contained itself, i.e. one had $Type : Type$. But it was pointed out by [[Jean-Yves Girard]] that this was inconsistent; see [[Girard's paradox]]. Thus, modern type theories generally contain a hierarchy of types universes, with 
+
+$$n:\mathbb{N} \vdash Type(n) : Type(n + 1)$$
+
+for universes a la Russell, and 
+
+$$n:\mathbb{N} \vdash Type(n)\ type$$
+$$n:\mathbb{N} \vdash Type^{'}(n) : Type(n + 1)$$
+$$n:\mathbb{N} \vdash El_{n+1}(Type^{'}(n)) \equiv Type(n)$$
+$$n:\mathbb{N} \vdash El_{n,n+1}:Type(n) \to Type(n + 1)$$
+$$n:\mathbb{N} \vdash p:is1Monic(El_{n,n+1})$$
+
+for universes a la Tarski. 
+
 
 ## Formalizations 
 
@@ -82,6 +103,19 @@ If the containing universe is univalent the two definitions turn out to coincide
 
 Universes defined internally via [[induction-recursion]] are (strongly) &#224; la Tarski. Weakly &#224; la Tarski universes are easier to obtain in [[semantics]] (see [below](#CategoricalSemantics)): they are somewhat more annoying to use, but probably suffice for most purposes.
 
+## Hierarchy of type universes
+
+Let $P$ be a [[preorder]]. Then, a $P$-indexed hierarchy of type universes a la Russell is a hypothetical judgment
+
+$$a:P, b:P, a \leq b \vdash U(a) : U(b)$$
+
+and a $P$-indexed hierarchy of type universes a la Tarski is
+
+$$a:P \vdash U(a)\ type$$
+$$a:P, b:P, a \leq b \vdash U^{'}(a) : U(b)$$
+$$a:P, b:P, a \leq b \vdash El_{b}(U^{'}(a)) \equiv U(a)$$
+$$a:P, b:P, a \leq b \vdash El_{a,b}:U(a) \to U(b)$$
+$$a:P, b:P, a \leq b \vdash p:is1Monic(El_{a,b})$$
 
 ## Properties
 
@@ -179,17 +213,17 @@ See also
 * {#Luo11} [[Zhaohui Luo]], _Contextual analysis of word meanings in type-theoretical semantics_, in Pogodalla, Prost (eds.) _Logical Aspects of Computational Linguistics_, 2011 ([pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL11.pdf))
 
 
+[[!redirects type universes]]
+
+[[!redirects type of types]]
 [[!redirects types of types]]
 
 [[!redirects universe of types]]
 [[!redirects universes of types]]
 
-
-
-[[!redirects Type]]
-
-[[!redirects type universe]]
-[[!redirects type universes]]
-
 [[!redirects universe in type theory]]
 [[!redirects universes in type theory]]
+
+[[!redirects hierarchy of types]]
+
+[[!redirects Type]]
