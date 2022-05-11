@@ -98,6 +98,7 @@ All of this definiteness terminology may now be applied to an *[[linear operator
 
 * [[semisimple Lie algebras]] with the negative of the [[Killing form]] are positive-definite inner product spaces.
 
+* [[inner product abelian groups]]
 
 ## Related concepts
 
