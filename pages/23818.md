@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Group theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 =--
 =--
 
@@ -25,6 +29,8 @@ $$q(r x) = r^2 q(x)$$
 
 * Every [[ring]] is a quadratic abelian group. 
 
+* Every [[inner product abelian group]] is a quadratic abelian group with $q(x) \coloneqq \langle x, x \rangle$. 
+
 ## See also
 
 * [[quadratic function]]
@@ -34,5 +40,7 @@ $$q(r x) = r^2 q(x)$$
 * [[ring]]
 
 * [[Clifford ring]]
+
+* [[inner product abelian group]]
 
 [[!redirects quadratic abelian groups]]
