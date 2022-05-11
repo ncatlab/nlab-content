@@ -78,6 +78,8 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 
 * [[category of monoids]]
 
+* [[super commutative monoid]]
+
 * [[cocommutative comonoid]]
 
 * [[symmetric monoidal category]]
