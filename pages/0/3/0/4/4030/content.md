@@ -82,7 +82,6 @@ which is [[left adjoint]] to the [[locally constant sheaf]] functor, the [[left 
 This is the **connected component functor**. It generalizes the functor, also denoted $\pi_0$ or $\Pi_0$, which to a [[topological space]] assigns the set of [[connected components]] of that space. See the [examples](#Examples) below.
 
 
-
 In summary, for a locally connected topos the [[terminal geometric morphism]] extends to an [[adjoint triple]] of this form:
 
 \begin{tikzcd}[column sep=24pt]
@@ -118,25 +117,82 @@ A [[Grothendieck topos]] $\mathcal{E}$ is locally connected precisely if the [[g
 
 =--
 
-A proof appears as ([Johnstone, lemma C.3.3.6](#Johnstone)).
+
 
 
 +-- {: .proof}
 ###### Proof
 
-In one direction, suppose that $\Pi_0$ with $(\Pi_0 \dashv LConst \dashv \Gamma) \;\colon\; \mathcal{E} \to Set$ exists. 
+The "only if"-case was just claimed/argued above, we need to show the "if"-case. 
 
-First notice that an object $A$ is connected in the 
-[above sense](#ConnectedObject) precisely if $\Pi_0(A) = *$. 
+Hence suppose that $\Pi_0$ with $(\Pi_0 \dashv LConst)$ exists. We will show that then every object is a coproduct of connected objects. (A proof also appears as ([Johnstone, Lemma C.3.3.6](#Johnstone)).)
 
-Because, for all $S \in Set$ the connectivity condition demands that
+First we claim that an object $A$ is connected in the 
+[above sense](#ConnectedObject) precisely if $\Pi_0(A) = \ast$. 
 
+To see this, observe that 
+\[
+  \label{EmptyShapeImpliesInitialObject}
+  \Pi_0(A) \;\simeq\; \varnothing
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+  LConst \Pi_0(A) \;\simeq\; \varnothing
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+  A \xrightarrow{\eta_{A}} \varnothing
+  \;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;
+  A \;\simeq\; \varnothing
+  \,,
+\]
+where we used that $LConst$ is a [[left adjoint]] and that [[left adjoints preserve colimits]] ([hence](initial+object#InitialObjectIsEmptyColimit) [[preserved colimit|preserve]] [[initial objects]]), we used the [[adjunction unit]], and
+where the last implication follows since the [[initial object]] in any topos is [[strict initial object|strict]].
+
+But this gives
 $$
+  \Pi_0(A) \simeq \ast
+  \;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;
+  A \;\text{is connected}
+  \,,
+$$
+because if $A$ as on the left were the coproduct of non-initial $A_1$, $A_2$, then also $\Pi_0(A)$ would be the coproduct of non-initial $\Pi_0(A_1)$, $\Pi_0(A_2)$, by (eq:EmptyShapeImpliesInitialObject), which would contradict the assumption that $\Pi_0(A) \simeq \ast$.
+
+Conversely, to see 
+$$
+  A \;\text{is connected}
+  \;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;
+  \Pi_0(A) \simeq \ast
+$$
+observe that the connectivity assumption implies in particular that 
+\[
+  \label{ASequenceOfIsos}
+  Set
+  \big(
+    \Pi_0(A)
+    ,\, 
+    S
+  \big)
+  \;\simeq\;
+  \mathcal{E}
+  \left(
+     A,\, 
+     LConst 
+     \coprod_S 
+     \ast 
+  \right) 
+  \;\simeq\;
   \mathcal{E}
   \left(
     A
     ,\, 
-   {\coprod}_S \,  L Const \ast
+   \coprod_S \,  LConst \ast
   \right) 
   \;\simeq\; 
   {\coprod}_S
@@ -152,47 +208,50 @@ $$
   \;\simeq\; 
   S
   \,,
-$$ 
+\] 
+for all $S \in Set$, 
+where in the first step we used the $\big(\Pi_0 \dashv LConst\big)$-[hom isomorphism](adjoint+functor#InTermsOfHomIsomorphism). But this says that $\Pi_0(A)$ is connected as an object of [[Sets]], hence that it is [[generalized the|the]] [[singleton set]].
 
-but by the $\big(\Pi_0 \dashv LConst\big)$-[hom isomorphism](adjoint+functor#InTermsOfHomIsomorphism) the first term is
-
+With this equivalence 
 $$
-  \cdots \simeq \mathcal{E}\big(A,\m LConst {\coprod}_S \ast*\big) 
-  \;\simeq\; 
-  Set
-  \big(
-    \Pi_0(A)
-    ,\, 
-    S
-  \big)
+  A \; \text{is connected}
+  \;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;
+  \Pi_0(A) \simeq \ast
 $$
+in hand (given the extra left adjoint $\Pi_0$), 
+we are now reduced to showing that every object of $\mathcal{E}$ is a coproduct of objects for which $\Pi_0(-)$ is the [[terminal object|point]].
 
-and the last set is [[isomorphism|isomorphic]] to $S$ iff $\Pi_0(A)$ is the [[singleton set]].
-
-So we need to show that given the extra left adjoint $\Pi_0$, every object of $\mathcal{E}$ is a coproduct of objects for which $\Pi_0(-)$ is the [[terminal object|point]].
-
-For that purpose consider for every object $A \in \mathcal{E}$ the [[pullback]] diagram
+For that purpose consider for $A \in \mathcal{E}$ the following [[pullback]] diagram
 
 $$
   \array{
-      i_A^* {\lim_\to}_{\Pi_0(A)} \ast 
-      &\longrightarrow& 
-     {\underset{\longrightarrow}{lim}}_{\Pi_0(A)} \ast 
-      \\
-      {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
-      \\
-     A &\stackrel{i_A}{\to}& L Const \Pi_0 (A)
+    i_A^* {\underset{\underset{\Pi_0(A)}{\longrightarrow}}{\lim}} \ast 
+    &\xrightarrow{\phantom{----}}& 
+    {\underset{\underset{\Pi_0(A)}{\longrightarrow}}{lim}} \ast 
+    \\
+    {}^{\mathllap{\simeq}}\big\downarrow 
+    && 
+    \big\downarrow{}^{\mathrlap{\simeq}}
+    \\
+    A 
+    &\xrightarrow{\phantom{--}i_A\phantom{--}}& 
+    LConst \Pi_0 (A)
+    \,,
   }
-  \,,
 $$
 
-where the bottom morphism is the $(\Pi \dashv L Const)$-[[unit of an adjunction|unit]] and the right [[isomorphism]] is the identification of any set as the [[colimit]] (here: [[coproduct]]) of the functor over the set itself that is constant on the point. Since pullbacks of isomorphism are isomorphisms, also the left morphism is an iso.
+where the bottom morphism is the $(\Pi \dashv L Const)$-[[unit of an adjunction|unit]] and the right [[isomorphism]] is the identification of any set as the [[colimit]] (here: [[coproduct]]) of the functor over the set itself that is constant on the point. Since isomorphisms are preserved under pullback ([here](pullback#PullbackPreservesMonomorphisms)), it follows that also the left morphism is an isomorphism, as shown.
 
-By [[universal colimits]] this left morphism is equivalently 
+Now, by the fact that a [[topos]] has "[[universal colimits]]", this left morphism is equivalently 
 
 $$
-   {\lim_\to}_{s \in \Pi_0(A)} (i_A^* *_s)
-   \stackrel{\simeq}{\to}
+   \underset{
+     \underset{s \in \Pi_0(A)}{\longrightarrow}
+   }{\lim}
+   (i_A^* \ast_s)
+   \xrightarrow{\phantom{--}\sim\phantom{--}}
    A
 $$
 
@@ -200,34 +259,50 @@ and hence expresses $A$ as a coproduct of objects $i_A^* *_s$, each of which is 
 
 $$
   \array{
-    i_A^* *_s &\to& L Const *
+    i_A^* \ast_s &\xrightarrow{\phantom{----}}& LConst *
     \\
-    \downarrow && \downarrow^{\mathrlap{s}}
+    \big\downarrow && \big\downarrow{}^{\mathrlap{s}}
     \\
-    A &\stackrel{i_A}{\to}& L Const \Pi_0 A
+    A &\xrightarrow{\phantom{--}i_A\phantom{--}}& LConst \Pi_0 A
+    \,,
   }
-  \,,
 $$
 
-where the right morphism includes the element $s$ into the set $\Pi_0 A$. By applying $\Pi_0$ to this diagram and pasting on the $(\Pi_0 \dashv L Const)$-[[unit of an adjunction|counit]] we get
+where the right morphism includes the element $s$ into the set $\Pi_0 A$. By applying $\Pi_0$ to this diagram and [[pasting]] on the $(\Pi_0 \dashv L Const)$-[[counit of an adjunction|counit]] we get
 
 $$
   \array{
-    \Pi_0(i_A^* *_s) &\to& \Pi_0 L Const * &\to& *
+    \Pi_0(i_A^* *_s) 
+    &\xrightarrow{\phantom{-----}}& 
+    \Pi_0 LConst \ast &\xrightarrow{\phantom{---}}& *
     \\
-    \downarrow && \downarrow^{} && \downarrow 
+    \big\downarrow && \big\downarrow^{} && \big\downarrow 
     \\
-    \Pi_0(A) &\stackrel{\Pi_0(i_A)}{\to}& \Pi_0 L Const \Pi_0 A
-    &\to& \Pi_0 A
+    \Pi_0(A) 
+    &\xrightarrow{\phantom{--}\Pi_0(i_A)\phantom{--}}& 
+    \Pi_0 LConst \Pi_0 A
+    &\xrightarrow{\phantom{----}}& 
+    \Pi_0 A
   }
 $$
 
-and by the [[zig-zag identity]] the bottom morphism is the identity. This says that in 
+and by the [[zig-zag identity]] the bottom morphism is the [[identity morphism|identity]]. This says that in 
 
 $$
-  \Pi_0( {\lim_{\to}}_{\Pi_0 A} i_A^* *_s \stackrel{\simeq }{\to} A)
+  \Pi_0
+  \left( 
+     \underset{\underset{\Pi_0 A}{\longrightarrow}}{\lim} 
+     i_A^* \ast_s 
+     \xrightarrow{\sim} 
+     A
+  \right)
   \simeq
-  ({\lim_\to}_{\Pi_0 A} \Pi_0(i_A^* *_s) \stackrel{\simeq}{\to} \Pi_0(A))
+  \left(
+     \underset{\underset{\Pi_0 A}{\longrightarrow}}{\lim} 
+     \Pi_0\big(i_A^* \ast_s\big) 
+     \xrightarrow{\sim} 
+     \Pi_0(A)
+  \right)
 $$
 
 all the component maps out of the coproduct factor through the point. This means that this can only be an isomorphism if all these component maps are point inclusions, hence if $\Pi_0(i_A^* *_s) \simeq *$ for all $s \in \Pi_0 A$.
