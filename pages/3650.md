@@ -19,6 +19,7 @@
 A [[geometric morphism]] is *locally connected* if it behaves as though its [[fiber]]s are [[locally connected space]]s.  In particular, a [[Grothendieck topos]] $E$ is [[locally connected topos|locally connected]] iff the unique [[geometric morphism]] to [[Set]] (the terminal Grothendieck topos, i.e. the [[point]] in the [[category]] [[Topos]] of toposes) is locally connected.
 
 ## Definition
+ {#Definition}
 
 A [[geometric morphism]] $ (f^* \dashv f_*) : F \underoverset{f_*}{f^*}{\leftrightarrows} E$ is **locally connected** if it satisfies the following equivalent conditions:
 
