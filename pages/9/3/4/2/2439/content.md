@@ -645,6 +645,8 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 ## Related concepts
 
+* [[super module]], [[super vector space]]
+
 * [[supercommutative algebra]], [[differential graded-commutative superalgebra]]
 
   [[model structure on differential graded-commutative superalgebras]]
