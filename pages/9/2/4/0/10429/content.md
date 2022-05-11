@@ -52,7 +52,7 @@ Here the [[equivariance]] is with respect to any or all of:
 
    1. [[CPT theorem|CPT symmetries]] like [[time-reversal symmetry]],
 
-   1. "internal" or "on-site" symmetries 
+   1. "[[internal symmetry|internal]]" or "on-site" symmetries 
 
          (such as [[spin]]-reversal symmetries in systems negligible [[magnetic field]] and [[spin-orbit coupling]])
 
