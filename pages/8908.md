@@ -49,6 +49,8 @@ The dual concept is that of _[[n-epimorphism]]_.
 
 * [[(n-connected, n-truncated) factorization system]]
 
+* [[subtype]]
+
 [[!redirects n-monomorphisms]]
 
 [[!redirects 0-monomorphism]]
