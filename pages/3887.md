@@ -90,6 +90,11 @@ Relation to [[theta functions]]:
 
 * A.Mironov, A.Morozov, Sh.Shakirov, _Conformal blocks as Dotsenko-Fateev integral discriminants_, [arxiv/1001.0563](http://arxiv.org/abs/1001.0563)
 
+
+[[!include hypergeometric KZ-solutions -- references]]
+
+
+
 ### For higher dimensional CFT
 
 Conformal blocks for [[self-dual higher gauge theory]] are discussed in
