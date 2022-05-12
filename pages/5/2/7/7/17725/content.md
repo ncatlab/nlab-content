@@ -44,6 +44,10 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 
 * The set of all truth values of the form $x\gt 0$ for some [[Dedekind real number]] $x$ is also often a dominance, though this also may not be provable without further assumptions.
 
+## See also
+
+* [[streak]]
+
 ## References
 
 *  G. Rosolini. *Continuity  and  Effectiveness  in  Topoi*.  PhD thesis, University of Oxford, 1986. [pdf](https://www.researchgate.net/publication/35103849_Continuity_and_effectiveness_in_topoi)
