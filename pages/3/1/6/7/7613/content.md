@@ -554,7 +554,7 @@ Review:
 
 * {#Sati13} [[Hisham Sati]], [Sec 2.5](https://arxiv.org/pdf/1310.1060.pdf#page=17) of: _Framed M-branes, corners, and topological invariants_, J. Math. Phys. **59** (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
 
-The natural hyothesis that, therefore, the [[supergravity C-field|M-theory C-field]] should find its proper mathematical definition as a [[cocycle]] in (not just [[rationalization|rationalized]] but) full-blown ([[twisted Cohomotopy|twisted]], [[equivariant Cohomotopy|equivariant]] & [[differential Cohomotopy|differential]]) [[non-abelian cohomology|non-abelian]] [[Cohomotopy theory]] is supported by some evidence, see at *[[schreiber:Hypothesis H]]* for more.
+The natural hypothesis that, therefore, the [[supergravity C-field|M-theory C-field]] should find its proper mathematical definition as a [[cocycle]] in (not just [[rationalization|rationalized]] but) full-blown ([[twisted Cohomotopy|twisted]], [[equivariant Cohomotopy|equivariant]] & [[differential Cohomotopy|differential]]) [[non-abelian cohomology|non-abelian]] [[Cohomotopy theory]] is supported by some evidence, see at *[[schreiber:Hypothesis H]]* for more.
 
 
 ### Activity
