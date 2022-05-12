@@ -58,6 +58,9 @@ Given an ordered field, any non-zero square is positive since either $-\alpha$ o
 In the other direction, every real field $F$ may be embedded in a [[real closed field]] (this requires [[Zorn's lemma]]), and a real closed field admits a unique ordering. The restriction of this ordering to the embedded field $F$ gives an ordering on $F$. 
 =-- 
 
+## See also
+
+* [[interval arithmetic]]
 
 [[!redirects ordered field]]
 [[!redirects ordered fields]]
@@ -65,3 +68,5 @@ In the other direction, every real field $F$ may be embedded in a [[real closed 
 [[!redirects linearly ordered fields]]
 [[!redirects totally ordered field]]
 [[!redirects totally ordered fields]]
+[[!redirects strictly ordered field]]
+[[!redirects strictly ordered fields]]
