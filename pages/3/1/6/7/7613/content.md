@@ -272,6 +272,15 @@ The following is a collection of quotes from authors that highlight the open pro
 
 > (16:44) We don't understand the theory sufficiently well yet to do so.
 
+
+\linebreak
+
+{#WittenInterviewByZierler} [Witten 22, AIP interview](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/46968):
+
+> String theory and M-theory have always been different. From the beginning, they were discovered by people who discovered formulas or bits and pieces of the theory without understanding what’s behind it at a more fundamental level. 
+
+> And what we understand now, even today, is extremely fragmentary, and I'm sure very superficial compared to what the real theory is. That’s the problem with the claim that supposedly I invented M-theory. It would make at least as much sense to say that M-theory hasn’t been invented yet. And you could also claim it had been invented before by other people.
+
 \linebreak
 
 ### Non-abelian DBI-action
