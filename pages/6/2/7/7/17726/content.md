@@ -62,7 +62,9 @@ Many of the results that have originated from this view have been implemented in
 
 * [[Andrej Bauer]], [[Davorin Lešnik]], _Metric Spaces in Synthetic Topology_, 2010 ([pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf))
 
-* [[Davorin Lešnik]], _Synthetic Topology and Constructive Metric Spaces_, PhD, 2010 ([pdf](http://www.fmf.uni-lj.si/storage/19160/PhD_Davorin.pdf))
+* [[Davorin Lešnik]], _Synthetic Topology and Constructive Metric Spaces_, PhD, 2010 ([arXiv:2104.10399](https://arxiv.org/abs/2104.10399))
+
+
 
 * [[Davorin Lešnik]], _Unified Approach to Real Numbers in Various Mathematical Settings_, 2014 ([arXiv:1402.6645](https://arxiv.org/abs/1402.6645))
 
