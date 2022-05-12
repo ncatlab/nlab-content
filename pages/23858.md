@@ -14,7 +14,7 @@
 
 ## Idea ##
 
-A mathematical structure used to define the [[real numbers]] in Alfred Tarski's axioms for the [[real numbers]]. 
+A [[mathematical structure]] used to define the [[real numbers]] in [[Alfred Tarski]]'s axioms for the [[real numbers]]. 
 
 ## Definition ##
 
@@ -54,6 +54,7 @@ As a result, every Tarski group is an [[abelian group]] with [[identity element]
 
 ## References ##
 
-* Tarski, Alfred (24 March 1994), Introduction to Logic and to the Methodology of Deductive Sciences (4th edition). Oxford University Press. ISBN 978-0-19-504472-0
+* [[Alfred Tarski]],  *Introduction to Logic and to the Methodology of Deductive Sciences* (4th edition). Oxford University Press. (1994) $[$[doi:10.2307/2180610](https://doi.org/10.2307/2180610), ISBN 978-0-19-504472-0$]$
 
 * Ucsnay, Stefanie (Jan 2008), A Note on Tarski's Note. The American Mathematical Monthly, Vol 115 No. 1, pg 66–68. JSTOR 27642393
+
