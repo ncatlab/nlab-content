@@ -371,6 +371,8 @@ see [[Pfaffian]] for the moment
 
 * [[pseudoscalar]]
 
+* [[Slater determinant]]
+
 ## References
 
 See also
