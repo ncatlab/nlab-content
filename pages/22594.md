@@ -37,7 +37,9 @@ An archimedean group that is also a linearly ordered [[ring]] is called an __arc
 
 ## Properties
 
-Every archimedean group is an [[abelian group]] and has no bounded [[cyclic group|cyclic]] [[subgroups]]. Every archimedean group admits an [[embedding]]  into the group of [[real numbers]]. 
+* Every archimedean group is an [[abelian group]] and has no bounded [[cyclic group|cyclic]] [[subgroups]]. Every archimedean group admits an [[embedding]]  into the group of [[real numbers]]. 
+
+* Every archimedean group is a [[flat module]] and a torsion-free group. 
 
 ## Examples
 
