@@ -19,7 +19,7 @@
 
 ## Idea 
 
-Arithmetic for [[closed interval]]s of an [[ordered field]]. 
+[[arithmetic|Arithmetic]] for [[closed interval]]s of an [[ordered field]]. 
 
 ## Definition
 
