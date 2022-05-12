@@ -21,7 +21,7 @@ A [[protoring]] $M$ is an **archimedean difference protoring** it is both an [[a
 
 * Every [[archimedean integral domain]] is an archimedean difference protoring. 
 
-* In impredicative mathematics, the [[Dedekind real numbers]] are the [[terminal object|terminal]] archimedean difference protoring. 
+* In [[impredicative mathematics]], the [[Dedekind real numbers]] are the [[terminal object|terminal]] archimedean difference protoring. 
 
 ## See also ##
 
@@ -37,8 +37,9 @@ A [[protoring]] $M$ is an **archimedean difference protoring** it is both an [[a
 
 ## References
 
-* Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
+* [[Davorin Lešnik]], *Synthetic Topology and Constructive Metric Spaces*, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
 
 [[!redirects archimedean difference protorings]]
 [[!redirects Archimedean difference protoring]]
 [[!redirects Archimedean difference protorings]]
+
