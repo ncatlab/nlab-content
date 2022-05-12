@@ -51,3 +51,5 @@ For any element $a$ in a commutative invertible semigroup $G$, the element $a-a$
 * [[commutative semigroup]] (non-invertible version)
 
 * [[abelian group]] (unital version)
+
+* [[Tarski group]]
