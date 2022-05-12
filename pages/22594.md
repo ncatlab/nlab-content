@@ -63,6 +63,10 @@ Non-archimedean groups include
 
 ## See also 
 
+* [[archimedean protoring]]
+
+## External links
+
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Archimedean_group">Archimedean group</a>_
 
 [[!redirects archimedean group]]
