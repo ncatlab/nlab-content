@@ -275,7 +275,7 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
-{#WittenInterviewByZierler} [Witten 22, AIP interview](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/46968):
+{#WittenInterviewByZierler} [Witten, AIP interview 2022](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/46968):
 
 > String theory and M-theory have always been different. From the beginning, they were discovered by people who discovered formulas or bits and pieces of the theory without understanding what’s behind it at a more fundamental level. 
 
@@ -546,10 +546,15 @@ Review:
 
   in: Proceedings of _[[Higher Structures in M-Theory 2018]]_
 
-  Fortschritte der Physik, Special Issue Volume 67, Issue 8-9
+  Fortschritte der Physik, Special Issue **67** 8-9
 
   [arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)
 
+{#ThisAnalysisReveals} This analysis reveals, in particular, that *[[rational homotopy theory|rationally]]* the [[supergravity C-field|M-theory C-field]] (and hence [[M-brane]]-charge) is [[flux quantization|flux quantized]] in (unstable/[[non-abelian cohomology|non-abelian]]) *[[Cohomotopy theory]]* in a way directly analogous to how the [[RR-field|string theory RR-field]] is [[charge quantization|flux quantized]] *[[K-theory classification of D-brane charge|in K-theory]]*; an observation first highlighted in:
+
+* {#Sati13} [[Hisham Sati]], [Sec 2.5](https://arxiv.org/pdf/1310.1060.pdf#page=17) of: _Framed M-branes, corners, and topological invariants_, J. Math. Phys. **59** (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
+
+The natural hyothesis that, therefore, the [[supergravity C-field|M-theory C-field]] should find its proper mathematical definition as a [[cocycle]] in (not just [[rationalization|rationalized]] but) full-blown ([[twisted Cohomotopy|twisted]], [[equivariant Cohomotopy|equivariant]] & [[differential Cohomotopy|differential]]) [[non-abelian cohomology|non-abelian]] [[Cohomotopy theory]] is supported by some evidence, see at *[[schreiber:Hypothesis H]]* for more.
 
 
 ### Activity
