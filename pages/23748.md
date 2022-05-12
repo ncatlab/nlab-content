@@ -24,6 +24,8 @@
 
 * [[Berry connection]], [[Berry phase]]
 
+* [[adiabatic]]
+
 ## References
 
 ### General
@@ -60,4 +62,3 @@ Review:
 
 [[!redirects adiabatic theorems]]
 
-[[!redirects adiabatic]]
