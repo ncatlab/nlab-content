@@ -69,6 +69,8 @@ Non-abelian examples include free groups and torsion-free nilpotent groups.  The
 
 * [[totally ordered abelian group]]
 
+* [[protoring]]
+
 ## References
 
 *  English Wikipedia: [Partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).
