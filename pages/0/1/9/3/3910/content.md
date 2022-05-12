@@ -43,6 +43,11 @@ As a group, $\mathbb{Z}$ is [[abelian group|abelian]] and is the [[Grothendieck 
 
 The monoid of natural numbers is naturally even a [[rig]] -- in fact the [[initial object|initial]] rig -- and this multiplicative structure extends to $\mathbb{Z}$ to make it a [[ring]] -- in fact the initial ring.
 
+## In homotopy type theory
+
+Given a [[dependent type theory]] with [[dependent product types]], [[dependent sum types]], [[identity types]], [[empty type]], [[unit type]], and [[suspension types]], the type of integers is defined as the loop space of the suspension of the suspension of the empty type:
+
+$$\mathbb{Z} \coloneqq \Omega(\Sigma(\Sigma(\emptyset)))$$
 
 ## Terminology
 
