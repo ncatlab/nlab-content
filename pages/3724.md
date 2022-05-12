@@ -151,7 +151,7 @@ An article on [[interval arithmetic]] is probably the right place to talk about 
 
 ### Predicative cuts
 
-In predicative mathematics, subsets are large and therefore are proper classes. Instead, in the manner of [[formal topology]], they typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __$\Sigma$-Dedekind cuts__, where $\Sigma$ is a small [[sigma-frame|$\sigma$-frame]] with an [[embedding]] $\Sigma \to \mathrm{Prop}_\mathcal{U}$ into the large set of propositions for a universe $\mathcal{U}$. The definitions then become
+In predicative mathematics, subsets are large and therefore are proper classes. Instead, in the manner of [[formal topology]], they typically use pairs of functions $L, U: \mathbb{Q} to \Sigma$ representing the open subsets of $\mathbb{Q}$ to define __$\Sigma$-Dedekind cuts__, where $\Sigma$ is a small $\sigma$-locale, or small [[sigma-frame|$\sigma$-frame]] with an [[embedding]] $\Sigma \to \mathrm{Prop}_\mathcal{U}$ into the large set of propositions for a universe $\mathcal{U}$. The definitions then become
 
 1.  There is a rational number $a$ such that $L(a) = \top$.
 2.  There is a rational number $b$ such that $U(b) = \top$.
@@ -173,6 +173,7 @@ The basic theory also generalises immediately to any unbounded, [[dense linear o
 ## See also
 
 * [[locator]]
+* [[streak]]
 
 ## References
 
