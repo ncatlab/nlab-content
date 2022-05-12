@@ -70,17 +70,27 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 Now, as ever, $P(X)$ will support an algebra, $\mu_{X}: P(P(X)) \to P(X)$. This is the analogue of a [[free construction|free]] [[group]] being an algebra of the group monad. But just as there are many interesting groups which are not free, we should want to find algebras of Giry's monad which are not of the $\mu_{X}$ form. Doberkat shows that for such an algebra $X$ must be connected, and suggests this example
 
 $$
-h: P([0, 1]) \ni \tau \mapsto \int_{0}^{1} t \tau (dt) \in [0, 1].
+h: P([0, 1]) \ni \tau \mapsto \int_{0}^{1} t d\tau{(t)} \in [0, 1].
 $$
 
-(One author believes that this might be $\mu_{\{0, 1\}}$. After all, probability measures on $\{0, 1\}$ are just binomial, parameterised by $p \in [0, 1]$.)
-
-The other example he gives has $X$ a bounded, closed and convex subset of $\mathbb{R}^n$, and probability measures being sent to their barycentre. 
+which is the free algebrea $\mu_{\{0, 1\}}$ using the fact that   the probability measures on $\{0, 1\}$ are just binomial, parameterised by $t \in [0, 1]$, i.e., every $p \in P(\{0,1\})$ is represented by $p=(1-t) \delta_0 + t \delta_1$. 
+The other example he gives has $X$ a bounded, closed and convex subset of $\mathbb{R}^n$, and probability measures being sent to their barycentre. (This is an example of the Giry (probability) monad for compact Hausdorff spaces which was shown by Swirszcz (Monadic functors and convexity (1974).)
 
 Doberkat has a longer article on [[Eilenberg-Moore algebra]]s of the Giry monad as item 5 [here](http://ls10-www.cs.uni-dortmund.de/index.php?id=18). (Unfortunately, the monograph 'Stochastic Relations: Foundations for Markov Transition Systems' doesn't appear to be available.) There are two monads being treated here, one which sends a Polish space to the space of all probability measures, the other to the space of all subprobability measures. The extra structure relating to these monads, is that of a (positive) convex structure. In the case of a convex structure, this intuitively captures the idea that a weighted sum of points in the space has barycentre within the space. 
 
-Doberkat focused on the Giry monad on the category of Polish spaces. A further question is, what is a concrete characterization of the Giry monad on the category of measurable spaces? This is being investigated in ongoing work by Sturtz (e.g. [Sturtz 19](#Sturtz)) who is attempting to factor the monad through the category of super convex space (which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M.). See the discussion page at nforum for details. 
+The fundamental question concerning algebras is the existence of algebras which are not free.  The Eilenberg-Moore category of algebras, for any monad, is descriptive in nature but not constructive, and says nothing about the existence of algebras which are not free.  For this reason it is necessary to find a concrete 
+characterization of the Giry monad. (Recall that the full subcategory of the Eilenberg-Moore category whose objects are the free algebras is isomorphic to the Kleisi category.)
 
+Such a characterization follows from the observation that given any $\mathcal{G}$-algebra $h:\mathcal{G}(X) \rightarrow X$ on a (coseparated) measurable space $X$, the underlying set $X$ has the structure of a superconvex space, denoted $X_h$, defined by $\sum_{i=1}^{\infty} p_i x_i := h( \sum_{i=1}^{\infty} p_i \delta_{x_i})$.  Moreover, if $f: (X,h) \rightarrow (Y,k)$ is a map of $\mathcal{G}$-algebras then $f: X_h \rightarrow Y_k$ is a countably affine map. The proof of these two statements follows directly from the definition of a $\mathcal{G}$-algebra and $\mathcal{G}$-algebra map.  For this reason the category of super convex spaces, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M., suggest itself.  The morphisms of the category of super convex spaces, $\mathbf{SCvx}$, are countably affine map (barycenter maps) which is generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. 
+
+Super convex spaces are described in the ongoing work by Sturtz (e.g. [Sturtz 22](#Sturtz22)) who is attempting to use the support of a probability measure to construct the barycenter maps (=$\mathcal{G}$-algebras) for  super convex space which relies on the elementary (fundamental) result that 
+\begin{lemma}
+If $f: G(X) \rightarrow \mathbb{N}$ is a measurable map to the set of natural numbers with the powerset $\sigma$-algebra, then $f$ is a countably affine map.
+\end{lemma}
+\begin{proof}
+In the category of measurable spaces, take the composite map $f \circ \eta_X$ and use the naturality of $\mu$ to show that $f = \epsilon_{\mathbb{N}} \circ G(f) \circ G(\eta_X)$.  Since the right hand side is a composite of countably affine maps, $f$ itself is countably affine. (Here $\epsilon_{\mathbb{N}}(\sum_{i=0}^{\infty} p_i \delta_i)$ is the minimum index $i$ such that $p_i \ne 0$ and $p_j = 0$ for all $j \lt i$.  In other words, $\epsilon_{\mathbb{N}}$ is the $\mathcal{G}$-algebra of the countable measurable space $\mathbb{N}$ with the power set $\sigma$-algebra.)
+\end{proof}
+Now provided that we can find a subcategory of the category of measurable spaces for which ''$\mathbb{N}$ is codense (right-adequate)'', it is immediately clear that we can construct a cone over the canonical representation of the space $X$, and hence obtain a measurable map $h:G(X) \rightarrow X$, satisfying $g \circ h = \epsilon_{\mathbb{N}} \circ G(g)$, and then using the above lemma it then follows that $h$ is countably affine.  Since $X$ has a super convex space structure, $X_h$, we have shown the existence of the barycenter map.  The precise formulation and details are given in the previous reference. 
 ## Related constructions
 
 See also [[monads of probability, measures, and valuations]].
@@ -168,15 +178,15 @@ According to [E. Burroni (2009)](#Burroni09), the Giry monad appears also in
 
 * O. de la Tullaye, _L'int&#233;gration consid&#233;r&#233;e comme l'alg&#232;bre d'un triple_. Rapport de Stage de D.E.A. manuscrit 1971.
 
-The factorization of the Giry monad, defined on the category of measurable spaces, through the category of super convex spaces, is described in
+The factorization of the Giry monad, defined on the category of standard measurable spaces, through the category of super convex spaces, is described in
 
-* {#Sturtz19} [[Kirk Sturtz]], _The equivalence of the categories of Giry-algebras and super convex spaces_, [arXiv:1907.03209](http://arxiv.org/abs/1907.03209)
+* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras via the support of a probability measure_,  arXiv:2202:10819](https://arxiv.org/abs/2202.10819)
 
-which generalize the preliminary work 
+which has evolved from the preliminary work 
 
 * K. Sturtz, _Categorical Probability Theory_, [arXiv:1406.6030](http://arxiv.org/abs/1406.6030)
 
-which views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.   The preservation of limits (of countable affine sums) is automatic in the category of super convex spaces, and necessary for the factorization.
+which views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  (The major shortcoming of that article is that he author failed to recognize the need for \emph{countably} affine maps, rather than finite affine maps.)
 
 That article includes some corrections from an earlier version of the article, pointed out in
 
