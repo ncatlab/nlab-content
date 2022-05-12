@@ -31,6 +31,7 @@ A [[protoring]] $M$ is a **difference protoring** if for all terms $a \in M$, th
 
 ## References
 
-* Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
+* [[Davorin Lešnik]], *Synthetic Topology and Constructive Metric Spaces*, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
 
 [[!redirects difference protorings]]
+
