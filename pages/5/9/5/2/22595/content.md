@@ -903,6 +903,15 @@ There are several interesting [[topological space|topologies]] on $\mathbb{Z}[1/
 
 3.  For [[prime numbers]] $2$ and $5$, the _$2$-adic topology_ and _$5$-adic topology_ are defined by the [[ultrametric]] $d(x,y) \coloneqq 1/n$ where $n$ is the highest exponent on $2$ and $5$ respectively in the [[prime factorization]] of ${|x - y|}$; the completions of each metric are the fields of $2$-[[adic number|adic numbers]] and $5$-[[adic number|adic numbers]] respectively.
 
+### Approximate division
+
+Let $(-)\div(-):\mathbb{Z} \times \mathbb{Z}_{\neq 0} \to \mathbb{N}$ be a [[Euclidean domain|Euclidean division function]] on the [[integers]]. Then there is a function called **approximate division** 
+$$(-)/(-): \mathbb{Z} \times \mathbb{Z}_{\neq 0} \to (\mathbb{N} \to \mathbb{Z}[1/10])$$
+to a sequence of decimal fractions called the **infinite decimal representation** of the [[rational number]] $a/b$ 
+$$(a/b)_n \coloneqq (a \cdot 10^n \div b)/10^n$$
+
+This sequence in general does not [[converge]] in the decimal rational numbers; the [[initial object|initial]] [[archimedean integral domain]] in which every infinite decimal representation of a rational number converges is the [[rational numbers]]. 
+
 ## Related entries
 
 * [[dyadic rational number]]
