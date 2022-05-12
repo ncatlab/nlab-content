@@ -34,6 +34,8 @@ Non-archimedean integral domains include
 
 * [[archimedean group]]
 
+* [[archimedean difference protoring]]
+
 [[!redirects archimedean integral domain]]
 [[!redirects archimedean integral domains]]
 
