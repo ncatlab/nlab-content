@@ -51,6 +51,10 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 ### General
 
+Review:
+
+* [[Sheng San Li]], *Energy Band Theory*, in S. S. Li, (ed.): *Semiconductor Physical Electronics*, Springer (2006)  61-104 $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
+
 Account with focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]] etc.):
 
 * {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
@@ -71,6 +75,9 @@ The electronic band structure of [[graphene]] was predicted in
 
 [[!redirects electronic band structures]]
 
+[[!redirects electron band structure]]
+[[!redirects electron band structures]]
+
 [[!redirects electronic band theory]]
 [[!redirects electronic band theories]]
 
@@ -79,3 +86,5 @@ The electronic band structure of [[graphene]] was predicted in
 
 [[!redirects energy band]]
 [[!redirects energy bands]]
+
+
