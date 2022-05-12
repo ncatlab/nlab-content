@@ -114,7 +114,7 @@ See also ([Goerss-Schemmerhorn 06, Theorem 1.5](#GoerssSchemmerhorn06), [Dungan 
 
 \begin{proposition}
 \label{ProjectiveModelStructureOnConnectiveChainComplexesIsMonoidal}
-{#MonoidalModelStructureOnConnectiveChainComplexes} With respect to the degreewise [[tensor product of chain complexes]] this is a [[monoidal model category]].
+{#MonoidalModelStructureOnConnectiveChainComplexes} With respect to the [[tensor product of chain complexes]] this is a [[monoidal model category]].
 \end{proposition}
 (e.g. [Jardine 03, Prop. 1.5](#Jardine03),  [Schwede & Shipley 2003, p. 312 (26 of 48)](#SchwedeShipley03)). 
 
