@@ -147,8 +147,9 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 
 Review:
 
-* [[Willard Miller]], Chapter 2 "The Crystallographic Groups" in : *Symmetry Groups and Their Applications*, Pure and Applied Mathematics
-Volume 50, 1972, Pages 16-60 (<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>)
+* [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
+
+* [[Willard Miller]], Chapter 2 "The Crystallographic Groups" in : *Symmetry Groups and Their Applications*, Pure and Applied Mathematics **50** (1972) 16-60 $[$<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>$]$
 
 * {#BrownBulowNeubuserWondratschekZassenhaus78} H. Brown, R. Bülow, J. Neubüser, H. Wondratschek, H. Zassenhaus, _Crystallographic Groups of Four-Dimensional Space_, John Wiley, New York, 1978. 
 
