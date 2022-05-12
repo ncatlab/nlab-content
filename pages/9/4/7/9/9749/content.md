@@ -180,7 +180,7 @@ According to [E. Burroni (2009)](#Burroni09), the Giry monad appears also in
 
 The factorization of the Giry monad, defined on the category of standard measurable spaces, through the category of super convex spaces, is described in
 
-* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras via the support of a probability measure_,  arXiv:2202:10819](https://arxiv.org/abs/2202.10819)
+* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras via the support of a probability measure_,  [arXiv:2202:10819](https://arxiv.org/abs/2202.10819)
 
 which has evolved from the preliminary work 
 
