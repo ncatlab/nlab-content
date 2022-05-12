@@ -15,11 +15,13 @@
 
 ## Definition ##
 
-In [[constructive mathematics]], given a [[sigma-frame|$\sigma$-frame]] $\Sigma$, a **$\Sigma$-streak** is an [[archimedean difference protoring]] $M$ such that the strict order $\lt:M \times M \to \Omega$ [[factors]] into $\lt^{'}:M \times M \to \Sigma$ and an [[embedding]] $i:\Sigma \to \Omega$, where $\Omega$ is the [[subobject classifier|subset classifier]]. $\Sigma$ is typically called the **[[open subset]] classifier**. 
+In [[constructive mathematics]], given a $\sigma$-locale $\Sigma$ whose poset of opens $O(\Sigma)$ is a [[sigma-frame|$\sigma$-frame]], a **$\Sigma$-streak** is an [[archimedean difference protoring]] $M$ such that the strict order $\lt:M \times M \to \Omega$ [[factors]] into $\lt^{'}:M \times M \to \Sigma$ and the canonical [[monotone]] $i:\Sigma \to \Omega$, where $\Omega$ is the [[subobject classifier|subset classifier]]. $\Sigma$ is typically called the **[[open subset]] classifier**. 
 
 ## Examples ##
 
-* The [[Dedekind real numbers]] are the [[terminal object|terminal]] $\Sigma$-streak for any $\sigma$-frame $\Sigma$ such that the strict order factors into $\lt:M \times M \to \Omega$ [[factors]] into $\lt^{'}:M \times M \to \Sigma$ and $i:\Sigma \to \Omega$. 
+* For any $\sigma$-locale $\Sigma$, the [[Dedekind real numbers]] are the [[terminal object|terminal]] $\Sigma$-streak. 
+
+* For any $\sigma$-locale $\Sigma$, the [[Sigma-Dedekind real numbers|$\Sigma$-Dedekind real numbers]] are a $\Sigma$-streak. 
 
 ## See also ##
 
