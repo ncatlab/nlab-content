@@ -45,6 +45,7 @@ category: people
 
 [[!redirects Dirac]]
 [[!redirects Paul Dirac]]
+[[!redirects Paul A. M. Dirac]]
 [[!redirects PAM Dirac]]
 [[!redirects P.A.M. Dirac]]
 [[!redirects P. A. M. Dirac]]
