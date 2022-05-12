@@ -166,7 +166,9 @@ There is a characterisation of the real line as the 'complete archimedean Tarski
 *  A __densely linearly ordered abelian group__ is an linearly ordered abelian group that is also a [[dense linear order]]. 
 *  A __Tarski group__ is a densely linearly ordered abelian group with a point $1$ such that $1 \lt 1 + 1$.  
 *  An __archimedean Tarski group__ is a [[Tarski group]] satisfying the [[archimedean property]].
-*  An archimedean Tarski group is __complete__ if it is [[Dedekind completion|Dedekind-complete]] or [[Cauchy completion|Cauchy-complete]] (with respect to Cauchy nets/Cauchy filters).
+*  An archimedean Tarski group is __complete__ if it is [[Dedekind completion|Dedekind-complete]]. 
+
+See [[Tarski's axiomatization of the real numbers]] for more information. 
 
 ### The locale of real numbers
 
