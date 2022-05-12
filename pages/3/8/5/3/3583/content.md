@@ -1,11 +1,10 @@
-
-> This entry is currently about the notion of "crystal" in [[algebraic geometry]]. For the notion in [[condensed matter theory]] see elsewhere.
+> This entry is about the notion of "crystal" in [[algebraic geometry]]. For the notion in [[solid state physics]] see at *[[crystal]]*.
 
 ***
 
 
 # Contents
-* differential crystals
+* table of contents
 {:toc}
 
 ## Disambiguation
@@ -53,5 +52,4 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 * mathoverflow: [The Infinitesimal topos in positive characteristic](http://mathoverflow.net/questions/15795/the-infinitesimal-topos-in-positive-characteristic)
 
 
-[[!redirects crystal]]
-[[!redirects crystals]]
+
