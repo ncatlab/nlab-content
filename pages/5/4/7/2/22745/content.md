@@ -20,6 +20,8 @@ Due to the [[reflexivity]] of the partial order, ordered rings may have [[zero d
 
 * [[ordered group]]
 
+* [[protoring]]
+
 ## External links
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Partially_ordered_ring">Partially ordered ring</a>_
