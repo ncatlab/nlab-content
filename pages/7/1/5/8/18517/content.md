@@ -21,7 +21,7 @@
 
 ### Adiabatic switching
 
-In [[perturbative quantum field theory]], the term _adiabatic switching_ refers to considering a smooth transition between vanishing and non-vanishing [[interaction]] [[coupling constant|coupling]]: the interactions is slowly, hence (borrowing a term from [[thermodynamics]]) "adiabatically", switched on or off. This is mostly a mathematical device, not meant to directly reflect a physical situation of changing coupling, but it does serve to construct physical quantities. This is closely related to the role of [[operator-valued distributions]] which are quantities that give well defined [[linear operators]] (hence [[quantum observables]]) only when evaluated on any [[bump function]].
+In [[perturbative quantum field theory]], the term _adiabatic switching_ refers to considering a smooth transition between vanishing and non-vanishing [[interaction]] [[coupling constant|coupling]]: the interaction is slowly, hence (borrowing a term from [[thermodynamics]]) "[[adiabatic|adiabatically]]", switched on or off. This is mostly a mathematical device, not meant to directly reflect a physical situation of changing coupling, but it does serve to construct physical quantities. This is closely related to the role of [[operator-valued distributions]] which are quantities that give well defined [[linear operators]] (hence [[quantum observables]]) only when evaluated on any [[bump function]].
 
 Originally adiabatic switching was considered ([Lippmann-Schwinger 50](#LippmannSchwinger50)) only in the [[time]]-direction (for a fixed choice of time on [[Minkowski spacetime]]) by multiplying the [[interaction]] term of the [[Lagrangian density]]/[[Hamiltonian]] by the [[exponential]] $\exp(- \epsilon {\Vert t \Vert})$ (for $\epsilon \in (0,\infty)$ a [[positive number|positive]] [[real number]] and for ${\Vert t\Vert}$ the [[absolute value]] of the time [[coordinate]]). Review is for instance in ([Strocchi 13, section 6.3](#Strocchi13)).
 
@@ -87,6 +87,11 @@ Here
 
 1. the weak adiabatic limit may serve to define also the _[[state on a star-algebra|states]]_, hence the [[interacting vacuum]] ([Duch 17, p. 113-114](#Duch17)).
 
+
+## Related concepts
+
+* [[adiabatic]]
+
 ## References
 
 The concept of adiabatic switching in the time direction was introduced in
@@ -106,6 +111,11 @@ and the corresponding formula for the interacting eigenstates in terms of the fr
 see
 
 * {#Molinari06} Luca Guido Molinari, _Another proof of Gell-Mann and Low's theorem_, Journal of Mathematical Physics 48, 052113, 2007 ([arXiv:math-ph/0612030](https://arxiv.org/abs/math-ph/0612030))
+
+See also:
+
+* C. Lanczos, R. C. Clark, G. H. Derrick (eds.), Ch. 2, Sec 2 in: *Mathematical Methods in Solid State and Superfluid Theory*, Springer (1986) $[$[doi:10.1007/978-1-4899-6435-9](https://doi.org/10.1007/978-1-4899-6435-9)$]$
+
 
 * Wikipedia, _[Gell-Mann and Low theorem](https://en.wikipedia.org/wiki/Gell-Mann_and_Low_theorem)_
 
