@@ -32,3 +32,5 @@ Every [[localization of a commutative ring|localization]] of the integral domain
 * [[ordered ring]]
 
 * [[ordered field]]
+
+* [[protoring]]
