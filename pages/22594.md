@@ -67,6 +67,8 @@ Non-archimedean groups include
 
 * [[archimedean protoring]]
 
+* [[Tarski group]]
+
 ## External links
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Archimedean_group">Archimedean group</a>_
