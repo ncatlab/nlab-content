@@ -15,7 +15,7 @@
 
 ## Definition ##
 
-In constructive mathematics, given a [[sigma-frame|$\sigma$-frame]] $\Sigma$, a **$\Sigma$-streak** is an [[archimedean difference protoring]] $M$ such that the strict order $\lt:M \times M \to \Omega$ [[factors]] into $\lt^{'}:M \times M \to \Sigma$ and an [[embedding]] $i:\Sigma \to \Omega$, where $\Omega$ is the [[subobject classifier|subset classifier]]. $\Sigma$ is typically called the **[[open subset]] classifier**. 
+In [[constructive mathematics]], given a [[sigma-frame|$\sigma$-frame]] $\Sigma$, a **$\Sigma$-streak** is an [[archimedean difference protoring]] $M$ such that the strict order $\lt:M \times M \to \Omega$ [[factors]] into $\lt^{'}:M \times M \to \Sigma$ and an [[embedding]] $i:\Sigma \to \Omega$, where $\Omega$ is the [[subobject classifier|subset classifier]]. $\Sigma$ is typically called the **[[open subset]] classifier**. 
 
 ## Examples ##
 
