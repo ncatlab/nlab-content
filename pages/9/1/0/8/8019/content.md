@@ -69,6 +69,8 @@ Non-abelian examples include free groups and torsion-free nilpotent groups.  The
 
 * [[totally ordered abelian group]]
 
+* [[Tarski group]]
+
 * [[protoring]]
 
 ## References
