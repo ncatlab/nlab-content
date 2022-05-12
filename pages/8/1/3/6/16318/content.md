@@ -31,6 +31,8 @@ The Pauli exclusion principle implies that [[fermions]], as opposed to [[bosons]
 
 * [[spin-statistics theorem]]
 
+* [[slater determinant]]
+
 ## References
 
 ### General
