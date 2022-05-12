@@ -17,6 +17,8 @@ Given a [[hyperplane]] in a [[Euclidean space]], then _reflection_ at that hyper
 
 * [[rotation]], [[translation]], [[boost]]
 
+* [[space group]], [[crystallographic group]]
+
 
 [[!redirects reflections]]
 
