@@ -92,26 +92,34 @@ Review in the more general context of [[topological phases of matter]]
 
 See also:
 
-* Liang Fu, C. L. Kane, _Topological insulators with inversion symmetry_, Physical Review B 76 (4): 045302. [arXiv:cond-mat/0611341](http://arxiv.org/abs/cond-mat/0611341) [doi](http://dx.doi.org/10.1103%2FPhysRevB.76.045302); _Superconducting proximity effect and Majorana fermions at the surface of a topological insulator_, Phys. Rev. Lett. __100__: 096407, [arXiv:0707.1692](http://arxiv.org/abs/0707.1692) [doi](http://dx.doi.org/10.1103%2FPhysRevLett.100.096407)
+* [[Liang Fu]], [[Charles L. Kane]], _Topological insulators with inversion symmetry_, Physical Review B 76 (4): 045302. [arXiv:cond-mat/0611341](http://arxiv.org/abs/cond-mat/0611341) [doi](http://dx.doi.org/10.1103%2FPhysRevB.76.045302); 
 
-* Jeffrey C. Y. Teo, Liang Fu, C. L. Kane, _Surface states and topological invariants in three-dimensional topological insulators: Application to_ $Bi_{1-x}Sb_x$, Phys. Rev. __B 78__, 045426 (2008) [doi](http://link.aps.org/doi/10.1103/PhysRevB.78.045426)
+* _Superconducting proximity effect and Majorana fermions at the surface of a topological insulator_, Phys. Rev. Lett. __100__: 096407, [arXiv:0707.1692](http://arxiv.org/abs/0707.1692) [doi](http://dx.doi.org/10.1103%2FPhysRevLett.100.096407)
+
+* Jeffrey C. Y. Teo, [[Liang Fu]], [[Charles L. Kane]], _Surface states and topological invariants in three-dimensional topological insulators: Application to_ $Bi_{1-x}Sb_x$, Phys. Rev. __B 78__, 045426 (2008) [doi](http://link.aps.org/doi/10.1103/PhysRevB.78.045426)
 
 * J. Kellendonk, _On the $C^\ast$-algebraic approach to topological phases for insulators_, [arxiv/1509.06271](http://arxiv.org/abs/1509.06271)
 
 * A. Kitaev, Periodic table for topological insulators and superconductors. (Advances in
 Theoretical Physics: Landau Memorial Conference) AIP Conference Proceedings 1134, 22-30 (2009).
 
-The topological insulator in 2D exhibiting a quantum spin Hall effect has been first proposed in
+Interacting topological insulators:
+
+* Stephan Rachel, *Interacting topological insulators: a review*, Rep. Prog. Phys. **81** 116501 (2018) $[$[arXiv:1804.10656](https://arxiv.org/abs/1804.10656), [doi:10.1088/1361-6633/aad6a6](https://doi.org/10.1088/1361-6633/aad6a6)$]$
+
+
+The topological insulator in 2D exhibiting a [[quantum spin Hall effect]] has been first proposed in
 
 * B. Andrei Bernevig, Taylor L. Hughes, Shou-Cheng Zhang, _Quantum spin Hall effect and topological phase transition in HgTe quantum wells_, Science __314__, n. 5806, pp. 1757-1761, Dec 2006 [doi](http://dx.doi.org/10.1126/science.1133734)
 
 * Y. L. Chen et al. _Experimental Realization of a Three-Dimensional Topological Insulator, $Bi_2 Te_3$_, Science __325__, no. 5937 pp. 178-181, July 2009, [doi](http://dx.doi.org/10.1126/science.1173034)
 
-(In fact, none of the above materials have quantum spin Hall effect since the spin is not conserved due to the spin-orbital interaction that makes those materials non trivial.)
+> Comment by X.-G. Wen: In fact, none of the above materials have quantum spin Hall effect since the spin is not conserved due to the spin-orbital interaction that makes those materials non trivial.
 
 * Ricardo Kennedy, Charles Guggenheim, _Homotopy theory of strong and weak topological insulators_, [arxiv/1409.2529](http://arxiv.org/abs/1409.2529)
  
 * L. Wu et al. _Quantized Faraday and Kerr rotation and axion electrodynamics of a 3D topological insulator_, Science (2016). [doi](http://dx.doi.org/10.1126/science.aaf5541)
+
 
 Discussion via [[AdS/CFT in solid state physics]]:
 
