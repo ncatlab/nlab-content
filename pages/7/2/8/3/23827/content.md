@@ -27,11 +27,17 @@ In [[condensed matter theory]], internal symmetries are also referred to as "on-
 
 ## Related concepts
 
+* [[symmetry group]]
+
 * [[Coleman-Mandula theorem]]
 
 * [[symmetry protected topological phase]]
 
+* [[crystallographic group]]
+
 
 [[!redirects internal symmetries]]
 
+[[!redirects internal symmetry group]]
+[[!redirects internal symmetry groups]]
 
