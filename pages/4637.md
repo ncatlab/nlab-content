@@ -70,14 +70,14 @@ $$
 where 
 
 $$
-  \mathcal{O}(X) \colon c \mapsto [C^{op}, \mathcal{V}](X, \mathcal{V}(-,c))
+  \mathcal{O}(X) \colon c \mapsto [C^{op}, \mathcal{V}](X, C(-,c))
   \,,
 $$
 
 and
 
 $$
-  Spec(A) \colon c \mapsto [C, \mathcal{V}]^{op}(\mathcal{V}(c,-),A)
+  Spec(A) \colon c \mapsto [C, \mathcal{V}]^{op}(C(c,-),A)
   \,.
 $$
 
@@ -105,16 +105,16 @@ $$
      \int_{c \in C} \mathcal{V}(A(c), \mathcal{O}(X)(c))
      \\
      & := 
-     \int_{c \in C} \mathcal{V}(A(c), [C^{op}, \mathcal{V}](X, \mathcal{V}(-,c)))
+     \int_{c \in C} \mathcal{V}(A(c), [C^{op}, \mathcal{V}](X, C(-,c)))
      \\
      & :=
-     \int_{c \in C} \int_{d \in C} \mathcal{V}(A(c), \mathcal{V}(X(d), \mathcal{V}(d,c)))
+     \int_{c \in C} \int_{d \in C} \mathcal{V}(A(c), \mathcal{V}(X(d), C(d,c)))
      \\
      & \simeq 
-     \int_{d \in C} \int_{c \in C} \mathcal{V}(X(d), \mathcal{V}(A(c), \mathcal{V}(d,c)))
+     \int_{d \in C} \int_{c \in C} \mathcal{V}(X(d), \mathcal{V}(A(c), C(d,c)))
     \\
      & =:
-     \int_{d \in C}  \mathcal{V}(X(d), [C,\mathcal{V}]^{op}(\mathcal{V}(d,-),A))
+     \int_{d \in C}  \mathcal{V}(X(d), [C,\mathcal{V}]^{op}(C(d,-),A))
     \\
      & =:
      \int_{d \in C}  \mathcal{V}(X(d), Spec(A)(d))
@@ -142,18 +142,18 @@ The following proof does not use ends and needs instead slightly more preparatio
 
 Notice that 
 
-**Lemma 1:** $Spec(\mathcal{V}(c,-)) \simeq \mathcal{V}(-,c)$
+**Lemma 1:** $Spec(C(c,-)) \simeq C(-,c)$
 
 because we have a natural isomorphism
 
 $$
   \begin{aligned}
-    Spec(\mathcal{V}(c,-))(d) 
+    Spec(C(c,-))(d) 
     & :=
-    [C,\mathcal{V}](\mathcal{V}(c,-), \mathcal{V}(d,-))
+    [C,\mathcal{V}](C(c,-), C(d,-))
     \\
     & \simeq
-    \mathcal{V}(d,c)
+    C(d,c)
   \end{aligned}
 $$ 
 
@@ -161,20 +161,20 @@ by the [[Yoneda lemma]].
 
 From this we get
 
-**Lemma 2:** $[C^{op}, \mathcal{V}](Spec \mathcal{V}(c,-), Spec A) \simeq 
-    [C,\mathcal{V}](A, \mathcal{V}(c,-))$
+**Lemma 2:** $[C^{op}, \mathcal{V}](Spec C(c,-), Spec A) \simeq 
+    [C,\mathcal{V}](A, C(c,-))$
 
 by the sequence of natural isomorphisms
 
 $$
   \begin{aligned}
-     [C^{op}, \mathcal{V}](Spec \mathcal{V}(c,-), Spec A)
+     [C^{op}, \mathcal{V}](Spec C(c,-), Spec A)
      & \simeq
-     [C^{op}, \mathcal{V}](\mathcal{V}(-,c), Spec A)
+     [C^{op}, \mathcal{V}](C(-,c), Spec A)
      \\
      & \simeq (Spec A)(c)
      \\
-     & := [C, \mathcal{V}](A, \mathcal{V}(c,-))
+     & := [C, \mathcal{V}](A, C(c,-))
   \end{aligned}
   \,,
 $$
@@ -184,13 +184,13 @@ where the first is Lemma 1 and the second the [[Yoneda lemma]].
 Since (by what is sometimes called the [[co-Yoneda lemma]]) every object $X \in [C^{op}, \mathcal{V}]$ may be written as a [[colimit]]
 
 $$
-  X \simeq {\lim_\to}_i \mathcal{V}(-,c_i) 
+  X \simeq {\lim_\to}_i C(-,c_i) 
 $$
 
-over [[representable functor|representables]] $\mathcal{V}(-,c_i)$ we have
+over [[representable functor|representables]] $C(-,c_i)$ we have
 
 $$
-  X \simeq {\lim_\to}_i Spec(\mathcal{V}(c_i,-))
+  X \simeq {\lim_\to}_i Spec(C(c_i,-))
   \,.
 $$
 
@@ -199,7 +199,7 @@ In terms of the same diagram of representables it then follows that
 **Lemma 3:** 
 
 $$
-  \mathcal{O}(X) \simeq {\lim_{\leftarrow}}_i \mathcal{V}(c_i,-)
+  \mathcal{O}(X) \simeq {\lim_{\leftarrow}}_i C(c_i,-)
 $$
 
 because using the above colimit representation and the Yoneda lemma we have natural isomorphisms
@@ -208,16 +208,16 @@ $$
   \begin{aligned}
      \mathcal{O}(X)(d) 
      &=
-     [C^{op}, \mathcal{V}](X, \mathcal{V}(-,c))
+     [C^{op}, \mathcal{V}](X, C(-,c))
      \\
      & \simeq
-     [C^{op}, \mathcal{V}]({\lim_\to}_i \mathcal{V}(-,c_i), \mathcal{V}(-,c))
+     [C^{op}, \mathcal{V}]({\lim_\to}_i C(-,c_i), C(-,c))
      \\
      & \simeq
-     {\lim_\leftarrow}_i [C^{op}, \mathcal{V}](\mathcal{V}(-,c_i), \mathcal{V}(-,c))
+     {\lim_\leftarrow}_i [C^{op}, \mathcal{V}](C(-,c_i), C(-,c))
      \\
      & \simeq 
-     {\lim_\leftarrow}_i \mathcal{V}(c_i,c)
+     {\lim_\leftarrow}_i C(c_i,c)
   \end{aligned}
   \,.
 $$
@@ -231,16 +231,16 @@ $$
      [C,\mathcal{V}]^{op}(\mathcal{O}(X), A)
      & 
      \simeq
-     [C,\mathcal{V}](A, {\lim_\leftarrow}_i \mathcal{V}(c_i,-), )
+     [C,\mathcal{V}](A, {\lim_\leftarrow}_i C(c_i,-))
      \\
      & \simeq 
-     {\lim_{\leftarrow}}_i [C, \mathcal{V}](A, \mathcal{V}(c_i,-))
+     {\lim_{\leftarrow}}_i [C, \mathcal{V}](A, C(c_i,-))
      \\
      & \simeq 
-     {\lim_{\leftarrow}}_i [C^{op}, \mathcal{V}](Spec \mathcal{V}(c_i,-), Spec A)
+     {\lim_{\leftarrow}}_i [C^{op}, \mathcal{V}](Spec C(c_i,-), Spec A)
      \\
      & \simeq
-     [C^{op}, \mathcal{V}]({\lim_{\to}}_i  Spec \mathcal{V}(c_i,-), Spec A)
+     [C^{op}, \mathcal{V}]({\lim_{\to}}_i  Spec C(c_i,-), Spec A)
      \\
      & \simeq
      [C^{op}, \mathcal{V}](X, Spec A)     
@@ -349,11 +349,11 @@ Because the [[hom-functor]]s preserves all [[limit]]s:
 $$
   \begin{aligned}
     \mathcal{O}(X)({\lim_{\leftarrow}}_j c_j)
-    & := [C^{op}, \mathcal{V}](X,\mathcal{V}(-,{\lim_{\leftarrow}}_j c_j))
+    & := [C^{op}, \mathcal{V}](X,C(-,{\lim_{\leftarrow}}_j c_j))
     \\
-    & \simeq [C^{op}, \mathcal{V}](X,{\lim_{\leftarrow}}_j  \mathcal{V}(-,c_j))
+    & \simeq [C^{op}, \mathcal{V}](X,{\lim_{\leftarrow}}_j  C(-,c_j))
     \\
-    & \simeq {\lim_{\leftarrow}}_j  [C^{op}, \mathcal{V}](X,\mathcal{V}(-,c_j))
+    & \simeq {\lim_{\leftarrow}}_j  [C^{op}, \mathcal{V}](X,C(-,c_j))
     \\
     & =: {\lim_{\leftarrow}}_j \mathcal{O}(X)(c_j)
   \end{aligned}
@@ -379,7 +379,7 @@ All [[representable functor|representables]] are Isbell self-dual.
 By [Proof B , lemma 1](#ProofB) we have a [[natural isomorphism]]s in $c \in C$
 
 $$
-  Spec(\mathcal{V}(c,-)) \simeq \mathcal{V}(-,c)
+  Spec(C(c,-)) \simeq C(-,c)
   \,.
 $$
 
@@ -387,15 +387,15 @@ Therefore we have also the natural isomorphism
 
 $$
   \begin{aligned}
-     \mathcal{O} Spec \mathcal{V}(c,-)(d)
+     \mathcal{O} Spec C(c,-)(d)
      & \simeq
-     \mathcal{O} \mathcal{V}(-,c) (d)
+     \mathcal{O} C(-,c) (d)
      \\
      & :=
-      [C^{op}, \mathcal{V}](\mathcal{V}(-,c), \mathcal{V}(-,d))
+      [C^{op}, \mathcal{V}](C(-,c), C(-,d))
      \\
      & \simeq
-     \mathcal{V}(c,d)
+     C(c,d)
   \end{aligned}
   \,,
 $$
