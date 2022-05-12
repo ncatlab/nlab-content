@@ -1,4 +1,3 @@
-[[!redirects space group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,7 +17,7 @@
 
 ## Idea
 
-A **space group** in [[dimension]] $n$, also known as a **crystallographic group**, is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains a (maximal) [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a [[subgroup]], and is contained within the [[automorphism group]] of that lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
+A **space group** in [[dimension]] $n$, also known as a **crystallographic group** (since these are the spatial [[symmetry groups]] of [[crystals]]), is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains a (maximal) [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a [[subgroup]], and is contained within the [[automorphism group]] of that lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
 
 Equivalently, a crystallographic group on a [[Euclidean space]] $E$ is a [[discrete group|discrete]] [[subgroup]] $S \subset Iso(E)$ of the [[isometry group]] of $E$ (its [[Euclidean group]]) that contains a [[lattice (discrete subgroup)|lattice]] $N \subset E \subset Iso(E)$ of [[translation group|translations]] as a [[normal subgroup]] $N \subset S$, such that the corresponding [[quotient group]], called the _[[point group]]_ of the crystallographic group, is a subgroup $G \coloneqq S/N \;\subset\; O(E)$ of the [[orthogonal group]]. 
 
@@ -138,6 +137,8 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 
 ## Related concepts
 
+* [[symmetry group]]
+
 * [[Brillouin torus]]
 
 * [[topological crystalline insulator]]
@@ -146,7 +147,7 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 
 Review:
 
-* _The Crystallographic Groups_, Pure and Applied Mathematics
+* [[Willard Miller]], Chapter 2 "The Crystallographic Groups" in : *Symmetry Groups and Their Applications*, Pure and Applied Mathematics
 Volume 50, 1972, Pages 16-60 (<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>)
 
 * {#BrownBulowNeubuserWondratschekZassenhaus78} H. Brown, R. Bülow, J. Neubüser, H. Wondratschek, H. Zassenhaus, _Crystallographic Groups of Four-Dimensional Space_, John Wiley, New York, 1978. 
@@ -185,6 +186,11 @@ See also
 
 * Wikipedia, _[Point group](https://en.wikipedia.org/wiki/Point_group)_
 
+
+
+[[!redirects crystallographic groups]]
+
+[[!redirects space group]]
 [[!redirects space groups]]
 
 [[!redirects point group]]
@@ -197,8 +203,6 @@ See also
 [[!redirects symmorphic crystallographic groups]]
 
 
-[[!redirects crystallographic group]]
-[[!redirects crystallographic groups]]
 
 [[!redirects representation torus]]
 [[!redirects representation tori]]
