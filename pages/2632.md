@@ -352,6 +352,13 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 ## References
 
+Historical origins
+
+* [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) $[$[di:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)$]$
+
+
+(...)
+
 Classical textbooks (on the [[Hilbert space]] description) include
 
 * [[John von Neumann]], _Mathematische Grundlagen der Quantenmechanik_.
