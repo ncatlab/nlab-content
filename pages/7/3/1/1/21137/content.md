@@ -1,4 +1,9 @@
 
+* basics 
+
+  * [[slater determinant]]
+
+  * [[degeneracy pressure]]
 
 * [[electronic band structure]]
 
@@ -21,22 +26,26 @@
   * [[strange metal]]
 
 
-
 * [[topological phase of matter]], [[topological state of matter]]
 
-  * [[topological order]], 
-
-  * [[symmetry protected trivial order]]
+  * [[symmetry protected topological phase]]
 
   * [[K-theory classification of topological phases of matter]]
+
+* [[topological order]]
+
+  [[anyons]]
+
+* Examples
+
+  * [[graphene]], [[Haldane model]], 
+
+  * [[quantum Hall effect]])
 
 * [[AdS-CFT in condensed matter physics]]
 
   * [[tensor network state]]
 
-
-
-* [[degeneracy pressure]]
 
 * [[Levin-Wen model]]
 
