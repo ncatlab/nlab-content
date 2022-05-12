@@ -157,17 +157,16 @@ In impredicative mathematics, we speak of [[the]] such field because it is uniqu
 
 However, if we are working in [[predicative mathematics]] with multiple [[universes]] in the foundation, there is only a terminal archimedean field in a universe if there is a maximal universe term inside the universe into which all the other universe terms in that universe [[embedding|embed]] into. 
 
-### As an archimedean group
+### As an archimedean Tarski group
 
-There is a characterisation of the real line as the 'complete densely linearly ordered archimedean group'. This can be interpreted as follows:
+There is a characterisation of the real line as the 'complete archimedean Tarski group' due to Alfred Tarski. This can be interpreted as follows:
 
 *  An __abelian group__ is well known in algebra.
 *  An __linearly ordered abelian group__ is an [[abelian group]] with a [[linear order]].
-*  An __archimedean group__ is a linearly ordered abelian grouo satisfying the [[archimedean property]].
-*  A __dense linear ordered archimedean group__ is an archimedean group that is also a [[dense linear order]]. 
-* A densely linearly ordered archimedean group is __complete__ if it is [[Dedekind completion|Dedekind-complete]].
-
-Tarski's axioms for one-dimensional Euclidean geometry results in a complete densely linearly ordered archimedean group. 
+*  A __densely linearly ordered abelian group__ is an linearly ordered abelian group that is also a [[dense linear order]]. 
+*  A __Tarski group__ is a densely linearly ordered abelian group with a point $1$ such that $1 \lt 1 + 1$.  
+*  An __archimedean Tarski group__ is a [[Tarski group]] satisfying the [[archimedean property]].
+*  An archimedean Tarski group is __complete__ if it is [[Dedekind completion|Dedekind-complete]] or [[Cauchy completion|Cauchy-complete]] (with respect to Cauchy nets/Cauchy filters).
 
 ### The locale of real numbers
 
