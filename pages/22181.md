@@ -54,4 +54,4 @@ This says that the type is [[dependent type|dependent]] on the type A and induct
 
 * [[homotopy pushout]]
 
-[[!redirects suspensio  types]]
+[[!redirects suspension types]]
