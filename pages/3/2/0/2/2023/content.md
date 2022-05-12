@@ -125,6 +125,8 @@ See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/
 
 ## Related concepts
 
+* [[interval arithmetic]]
+
 * [[interval type]], [[interval object]]
 
 * [[abstract circle]]
