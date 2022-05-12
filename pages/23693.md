@@ -37,6 +37,8 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 * [[sigma-pretopos]]
 
+* [[streak]]
+
 ## References ##
 
 * Alex Simpson, [Measure, randomness and sublocales](https://www.sciencedirect.com/science/article/pii/S0168007211001874). 
