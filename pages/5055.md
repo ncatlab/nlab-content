@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Early discussion of the foundations of [[quantum mechanics]] (including the possibly first consideration of what came to be known as the [[Slater determinant]]):
+
+* [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) $[$[di:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)$]$
+
+
 On a [[relativistic membrane]] [[model (in theoretical physics)|model]] for the [[electron]]:
 
 * {#Dirac62} [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy. Soc. A268, (1962) 57-67 ([jstor:2414316](https://www.jstor.org/stable/2414316))
