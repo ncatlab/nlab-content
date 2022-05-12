@@ -70,5 +70,11 @@ which is a statement of the physical phenomenon of _charge conservation_ .
 
 * [[higher electric background charge coupling]]
 
-[[!redirects electric current]]
+
 [[!redirects electric charges]]
+
+
+
+[[!redirects electric current]]
+[[!redirects electric currents]]
+
