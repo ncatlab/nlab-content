@@ -905,7 +905,7 @@ There are several interesting [[topological space|topologies]] on $\mathbb{Z}[1/
 
 ### Approximate division
 
-Let $(-)\div(-):\mathbb{Z} \times \mathbb{Z}_{\neq 0} \to \mathbb{N}$ be a [[Euclidean domain|Euclidean division function]] on the [[integers]]. Then there is a function called **approximate division** 
+Let $(-)\div(-):\mathbb{Z} \times \mathbb{Z}_{\neq 0} \to \mathbb{Z}$ be a [[Euclidean domain|Euclidean division function]] on the [[integers]]. Then there is a function called **approximate division** 
 $$(-)/(-): \mathbb{Z} \times \mathbb{Z}_{\neq 0} \to (\mathbb{N} \to \mathbb{Z}[1/10])$$
 to a sequence of decimal fractions called the **infinite decimal representation** of the [[rational number]] $a/b$ 
 $$(a/b)_n \coloneqq (a \cdot 10^n \div b)/10^n$$
