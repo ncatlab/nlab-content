@@ -1,9 +1,13 @@
 
 * basics 
 
-  * [[slater determinant]]
+  * [[Slater determinant]]
 
   * [[degeneracy pressure]]
+
+* [[crystal]] 
+
+* [[Bloch theory]]
 
 * [[electronic band structure]]
 
