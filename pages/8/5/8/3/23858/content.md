@@ -18,25 +18,29 @@ A [[mathematical structure]] used to define the [[real numbers]] in [[Alfred Tar
 
 ## Definition ##
 
-A [[Tarski group]] is a [[pointed set|pointed]] [[commutative invertible semigroup]] $(G, +, -, 1)$ with a [[dense linear order]] $\lt$ such that $1 \lt 1 + 1$ and for all $a, b, c, d \in G$, $a + b \lt c + d$ implies that $a \lt c$ or $b \lt d$. 
+A [[Tarski group]] is a [[pointed set|pointed]] [[commutative invertible semigroup]] $(G, +, -, 1)$ with a [[dense linear order]] $\lt$ such that $1 \lt 1 + 1$, $a \lt b + c + a$ implies $a \lt b + a$ or $a \lt c + a$, and $a \lt b$ implies $c + a \lt c + b$. 
 
-As a result, every Tarski group is an [[abelian group]] with [[identity element]] $0 \coloneqq 1 - 1$, and a [[trivial group|nontrivial]] [[archimedean group]].
+As a result, every Tarski group is an [[abelian group]] with [[identity element]] $0 \coloneqq 1 - 1$, and a [[trivial group|nontrivial]] [[ordered group]].
 
 ### In Tarski's axioms for the real numbers ###
 
-* Axiom 4 says that $\mathbb{R}$ is a [[commutative semigroup]]. 
+* Axiom 5 says that $\mathbb{R}$ is a [[commutative semigroup]]. 
 
-* Axiom 5 with axiom 4 together say that $\mathbb{R}$ is a [[commutative invertible semigroup]]. 
+* Axiom 6 with axiom 5 together say that $\mathbb{R}$ is a [[commutative invertible semigroup]]. 
 
-* Axiom 7 says that $\mathbb{R}$ is a [[pointed set]], which with axioms 4 and 5 imply that $\mathbb{R}$ is an [[abelian group]]
+* Axiom 8 says that $\mathbb{R}$ is a [[pointed set]], which with axioms 5 and 6 imply that $\mathbb{R}$ is an [[abelian group]]. 
 
-* Axiom 1 and part of axiom 3 together says that $\mathbb{R}$ is a [[linearly ordered set]]. 
+* Axiom 1 says that $\mathbb{R}$ has a [[connected relation]] $\lt$. 
 
-* Axiom 2 says that the linear order is a [[dense linear order]].
+* Axiom 2 says that $\lt$ is an [[asymmetric relation]] and thus an [[irreflexive relation]]. 
 
-* Axiom 6 says that for all $a, b, c, d \in G$, $a + b \lt c + d$ implies that $a \lt c$ or $b \lt d$, which with axioms 1, 4, 5, 7 imply that $\mathbb{R}$ is a linearly [[ordered group]] and an [[archimedean group]]
+* The fragment of Axiom 4 that only refers to [[singleton]] [[subsets]] says that $\lt$ is a [[comparison]], making $\lt$ into a [[linear order]]. 
 
-* Axiom 8 says that $1 \lt 1 + 1$, which indicates that $\mathbb{R}$ is not [[trivial group|trivial]]. 
+* Axiom 3 says that $\lt$ is a [[dense linear order]].
+
+* Axiom 7 says that for all $a, b, c, d \in G$, $a + b \lt c + d$ implies that $a \lt c$ or $b \lt d$, which imply that $\mathbb{R}$ is a linearly [[ordered group]]. 
+
+* Axiom 9 says that $1 \lt 1 + 1$, which indicates that $\mathbb{R}$ is not [[trivial group|trivial]]. 
 
 ## See also ##
 
@@ -50,7 +54,7 @@ As a result, every Tarski group is an [[abelian group]] with [[identity element]
 
 * [[ordered group]]
 
-* [[archimedean group]]
+* [[real numbers]]
 
 ## References ##
 
