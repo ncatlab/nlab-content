@@ -15,6 +15,9 @@
 
 ## References
 
+* C. Lanczos, R. C. Clark, G. H. Derrick (eds.), Ch. 3 in: *Mathematical Methods in Solid State and Superfluid Theory*, Springer (1986) $[$[doi:10.1007/978-1-4899-6435-9](https://doi.org/10.1007/978-1-4899-6435-9)$]$
+
+
 * Wikipedia, _[Superfluidity](https://en.wikipedia.org/wiki/Superfluidity)_
 
 Application of the [[conformal bootstrap]] to [[experiment|experimental]] [[superfluid]]-transition:
