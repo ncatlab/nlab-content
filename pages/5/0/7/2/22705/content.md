@@ -7,6 +7,7 @@
 |[[loop (algebra)|loop]]|[[loopoid]]|
 |[[semigroup]]|[[semicategory]]|
 |[[monoid]]|[[category]]|
+|[[anti-involution|anti-involutive]] [[monoid]]|[[dagger category]]|
 |[[associative quasigroup]]|[[associative quasigroupoid]]|
 |[[group]]|[[groupoid]]|
 |[[flexible magma]]|[[flexible magmoid]]|
