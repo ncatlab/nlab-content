@@ -60,7 +60,7 @@ This is also called _[[H-cohomology]]_ ([Cavalcanti 03, p. 19](#Cavalcanti03)).
 
 We discuss notions of twisted de Rham cohomology on ([[global quotient orbifold|global quotient]]) [[orbifolds]], as they are used for the [[codomain]] of the [[twisted equivariant Chern character]] on [[twisted equivariant K-theory]].
 
-This combines the above twistings in degrees 1 and 3, the latter induced from the [[curvature]] [[differential 3-form|3-form]] on a twisting 3-class, the former induced from the [[flat connection]] on the [[circle principal bundle]] (over the [[inertia orbifold]]) which is classified by the [[transgression]] of the 3-twist to a 2-class. This requires that this connection be [[flat connection|flat]], hence that the transgressed 2-class is [[torsion subgroup|torsion]], which is guaranteed by a Lemma that we discuss first, in *[Transgression of the 3-twist to a 1-twist on Inertia](#EquivariantPreliminaries)*.
+This combines the above twistings in degrees 1 and 3, the latter induced from the [[curvature]] [[differential 3-form|3-form]] on a twisting 3-class, the former (an "[[inner local system]]") induced from the [[flat connection]] on the [[circle principal bundle]] (over the [[inertia orbifold]]) which is classified by the [[transgression]] of the 3-twist to a 2-class. This requires that this connection be [[flat connection|flat]], hence that the transgressed 2-class is [[torsion subgroup|torsion]], which is guaranteed by a Lemma that we discuss first, in *[Transgression of the 3-twist to a 1-twist on Inertia](#EquivariantPreliminaries)*.
 
 \linebreak
 
@@ -488,6 +488,12 @@ If the [[de Rham complex]] $(\Omega^\bullet(X),d_{dr})$ is [[formal dg-algebra|f
 =--
 
 ([Cavalcanti 03, theorem 1.6](#Cavalcanti03)).
+
+## Related concepts
+
+* [[twisted Chern character]], [[twisted equivariant Chern character]]
+
+* [[inner local system]]
 
 ## References
 
