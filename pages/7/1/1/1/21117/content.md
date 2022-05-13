@@ -533,6 +533,7 @@ Further discussion of holographic quantum error correcting codes:
 
 * [[Chris Akers]], [[Geoff Penington]], *Quantum minimal surfaces from quantum error correction* ([arXiv:2109.14618](https://arxiv.org/abs/2109.14618))
 
+* ChunJun Cao, Brad Lackey, *Quantum Lego: Building Quantum Error Correction Codes from Tensor Networks*, PRX Quantum **3** 020332 (2022) $[$[arXiv:2109.08158](https://arxiv.org/abs/2109.08158), [doi:10.1103/PRXQuantum.3.020332](https://doi.org/10.1103/PRXQuantum.3.020332)$]$
 
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
