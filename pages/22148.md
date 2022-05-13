@@ -13,6 +13,10 @@ Characterization of the resulting [[topological phase of matter]] via introducti
 
 * {#KaneMele05b} [[Charles Kane]], [[Eugene Mele]],  *$Z_2$ Topological Order and the Quantum Spin Hall Effect*, Phys. Rev. Lett. **95** (2005) 146802 ([doi:10.1103/PhysRevLett.95.146802](https://doi.org/10.1103/PhysRevLett.95.146802))
 
+On [[topological insulators]]:
+
+* [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 $[$[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)$]$
+
 
 
 category: people
