@@ -10,7 +10,15 @@ A Euclidean domain is an integral domain which admits a form of the Euclidean qu
 
 A **Euclidean domain** is an [[integral domain]] $A$ for which there exists a function $d: A \setminus \{0\} \to \mathbb{N}$ to the [[natural numbers]], often called a *degree function*, such that given $f, g \in A$ with $g \neq 0$, there exist $q, r \in A$ such that $f = q \cdot g + r$ and either $r = 0$ or $d(r) \lt d(g)$. (One may harmlessly stipulate that $d(0) = 0$; what to do with the zero element varies from author to author.) There is no uniqueness requirement for $q, r$. 
 
+One could posit, instead of the [[property]] that for all $f \in A$ and $g \in A \setminus \{0\}$, there exist $q, r \in A$ such that $f = q \cdot g + r$ and either $r = 0$ or $d(r) \lt d(g)$; that the integral domain has the [[structure]] of a function $(-)\div(-):A \times A \setminus \{0\} \to A$ called the *[[division]] function*, and a function $(-)\ \%\ (-):A \times A \setminus \{0\} \to A$ called the *remainder function*, such that for all $f \in A$ and $g \in A \setminus \{0\}$, $f = (f \div g) \cdot g + (f\ \%\ g)$ and either $f\ \%\ g = 0$ or $d(f\ \%\ g) \lt d(g)$. There might be multiple such division and remainder functions for the integral domain $A$. 
+
 Some authors also add the requirement that $d(a) \leq d(a b)$ for all nonzero $a, b$. There is no loss of generality in assuming it; every Euclidean domain admits such a degree function $d'$, defining $d'(a) = \min \{d(a b): b \in A, b \neq 0\}$. We'll use it freely below, if and when we need to. 
+
+### In constructive mathematics ###
+
+In constructive mathematics, there are different types of integral domains, yielding different types of Euclidean domains: the degree function, division, function, and remainder function are no longer valued in $A \setminus \{0\}$ in one variable, but in $\{x \in A \vert x \neq 0\}$, $\{x \in A \vert x \# 0\}$, or some other definition, depending on what the base [[integral domain]] ends up being (classical, Heyting, discrete, residue, et cetera). 
+
+The definition of the Euclidean ring further bifurcates in [[constructive mathematics]] due to the disjunctive condition above, which could be represented as $(r = 0) \vee (d(r) \lt d(g))$ or as the weaker [[double negation]] $\not((r \neq 0) \wedge (d(r) \geq d(g)))$ in constructive mathematics, or equivalently, as either $(f\ \%\ g = 0) \vee (d(f\ \%\ g) \lt d(g))$ or the weaker $(\not(f\ \%\ g \neq 0) \vee (d(f\ \%\ g) \geq d(g))$. 
 
 ## Examples 
 
