@@ -32,6 +32,8 @@ The **plane** is the [[Cartesian space]] $\mathbb{R}^2$. This is naturally a [[t
 
 * [[slope of a line]]
 
+* [[area]]
+
 ## References
 
 For discussion of the plane via [[axioms]] for the points and lines in it ([[synthetic geometry]]) see the references at _[[Euclidean geometry]]_.
