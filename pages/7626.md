@@ -32,6 +32,8 @@ An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensi
 
 * [[parastatistics]]
 
+* [[su(2)-anyon]]
+
 * [[unitary fusion category]]
 
 * [[topological order]]
@@ -109,9 +111,6 @@ The claimed observation of abelian anyons is apparently more securely establishe
 
 [[!redirects anyon]]
 [[!redirects anyons]]
-
-[[!redirects Majorana zero mode]]
-[[!redirects Majorana zero modes]]
 
 
 [[!redirects anyon statistics]]
