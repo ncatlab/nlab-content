@@ -352,12 +352,21 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 ## References
 
-Historical origins
-
-* [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) $[$[di:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)$]$
+### Historical origins
 
 
-(...)
+* [[Werner Heisenberg]], *Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen*, Zeitschrift für Physik **33** (1925) 879–893 $[$[doi:10.1007/BF01328377]( https://doi.org/10.1007/BF01328377), [Engl. pdf](http://users.mat.unimi.it/users/galgani/arch/heis25ajp.pdf)$]$
+
+* [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) $[$[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)$]$
+
+Equivalence of the [[Heisenberg picture]] and the [[Schrödinger picture]]:
+
+* [[Erwin Schrödinger]], *Über das Verhältnis der Heisenberg-Born-Jordanschen Quantenmechanik zu der meinen*, Annalen der Physil **384** 8 (1926) 734-756 $[$[doi:10.1002/andp.19263840804]( https://doi.org/10.1002/andp.19263840804)$]$
+
+* [[Carl Eckart]], *Operator Calculus and the Solution of the Equations of Quantum Dynamics*, Phys. Rev. **28** 4  (1926) 711-726 $[$[doi:10.1103/PhysRev.28.711](https://doi.org/10.1103/PhysRev.28.711)$]$
+
+
+### General
 
 Classical textbooks (on the [[Hilbert space]] description) include
 
