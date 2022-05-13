@@ -24,6 +24,22 @@ A _concrete category_ is a [[category]] that looks like a category of "[[set]]s 
 
 ## Definition
 
+### With one collection of elements
+
++-- {: .num_defn}
+###### Definition
+Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a __concrete category__ if there is a set of elements $El(C)$ with a function $o:El(C) \to Ob(C)$. 
+=-- 
+
+### With a family of collection of elements
+
++-- {: .num_defn}
+###### Definition
+Given a category $C$ with a type of objects $Ob(C)$ and for every object $a:Ob(C)$ and $b:Ob(C)$ a set of morphisms $Mor_C(a, b)$, $C$ is a __concrete category__ if for every object $a:Ob(C)$ there is a set of elements $El_C(a)$. 
+=-- 
+
+### With a functor into Set
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -33,7 +49,7 @@ A __concrete category__ is a [[category]] $C$ equipped with a [[faithful functor
     U : C \to Set
   $$
 
-to the category [[Set]]. We say a category $C$ is _concretizable_ if and only if it admits a faithful functor $U: C \to Set$. 
+to the [[large category]] [[Set]]. We say a category $C$ is _concretizable_ if and only if it admits a faithful functor $U: C \to Set$. 
 =-- 
 
 
