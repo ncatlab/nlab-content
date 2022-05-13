@@ -1,9 +1,15 @@
 
 ## Idea
 
-Length is the [[volume]] of 1-[[dimension]]al spaces.
+Length is the [[volume]] of [[curves]].
 
-## Related concept
+## Related concepts
+
+* [[area]]
+
+* [[volume]]
+
+* [[curve]]
 
 * [[length scale]]
 
