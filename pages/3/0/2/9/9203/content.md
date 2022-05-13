@@ -72,7 +72,11 @@ Analogous reasoning and termionology applies to [[higher dimensional Chern-Simon
 
 ## Related concepts
 
+* [[su(2)-anyon]]
+
 [[!include extended prequantum field theory - table]]
+
+
 
 ## References
 
