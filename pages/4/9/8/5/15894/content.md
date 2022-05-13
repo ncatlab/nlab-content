@@ -41,7 +41,15 @@ This page is to provide non-technical or maybe semi-technical discussion of the 
 
 #### For the person on the street
 
-(...)
+Homotopy type theory is a theory of objects, which we call terms, collections of objects, which we call types, and equalities between any two objects in a collection, which we call identity types. 
+
+One fundamental aspect of mathematics is that equalities between different collections of objects behave differently from each other. If we have a type where for all terms have exactly one identity between them, this is called a proposition or a truth value. The type with no terms is trivially a proposition, as every single one of the nonexistent terms have exactly one identity between them.
+
+However, not all types are propositions: take the type with two distinct terms $a$ and $b$, there is no identity between $a$ and $b$. The identity types between two terms here are propositions, and the types are called sets. 
+
+Still, not all types are sets: take the type of sets with two terms, the first one with terms $a$ and $b$, and the second one with terms $c$ and $d$. There are two ways to say that these types are equal: by adding an identity between $a$ and $c$ and between $b$ and $d$, or by adding an identity between $a$ and $d$ and between $b$ and $c$. Thus, the identity types between the two sets is set-valued, rather than proposition-valued, and the type is a groupoid, rather than a set. In this way, we could say that, for example, the set of positive integers is equal to the set of negative integers, or that the set of complex numbers is equal to the set of ordered pairs of real numbers. 
+
+One could continue the process, yielding 2-groupoids whose identity types are groupoids, 3-groupoids whose identity types are 2-groupoids, and so forth. And finally, one could have types whose identity types are general types: these types are also known as $\infty$-groupoids. 
 
 #### For set theorists
  {#WhatIsHoTTForSetTheorists}
@@ -72,6 +80,8 @@ When one proves something in [[ZF]], it is automatically also true in all [[forc
  {#WhyShouldICare}
 
 #### For the person on the street
+
+Homotopy type theory is a foundation upon which all of mathematics is based upon. Every collection of objects in mathematics, such as the collection of natural numbers, collection of real numbers, collection of strings of characters in an alphabet, collection of propositions and the collection of all sets, is represented in homotopy type theory. It is also a language in which one could do mathematics in, from algebra to geometry to calculus. 
 
 #### For set theorists
  {#WhyShouldICareForSetTheorists}
