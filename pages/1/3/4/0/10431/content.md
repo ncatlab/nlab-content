@@ -52,7 +52,17 @@ For the moment see at *[[topological phase of matter]]*.
 
 ## References
 
+
 Review:
+
+* [[Joel E. Moore]], [[Leon Balents]], *Topological invariants of time-reversal-invariant band structures*, Phys. Rev. B **75** (2007) 121306(R) $[$[doi:10.1103/PhysRevB.75.121306](https://doi.org/10.1103/PhysRevB.75.121306)$]$
+
+* [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 $[$[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)$]$
+
+* Rahul Roy, *Topological phases and the quantum spin Hall effect in three dimensions*, Phys. Rev. B **79** (2009) 195322 $[$[doi:10.1103/PhysRevB.79.195322](https://doi.org/10.1103/PhysRevB.79.195322)$]$
+
+* [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 $[$[doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)$]$
+
 
 * [[Joel E. Moore]], *The birth of topological insulators*, Nature volume 464, pages 194–198 (2010) ([doi:10.1038/nature08916](https://doi.org/10.1038/nature08916))
 
@@ -100,8 +110,7 @@ See also:
 
 * J. Kellendonk, _On the $C^\ast$-algebraic approach to topological phases for insulators_, [arxiv/1509.06271](http://arxiv.org/abs/1509.06271)
 
-* A. Kitaev, Periodic table for topological insulators and superconductors. (Advances in
-Theoretical Physics: Landau Memorial Conference) AIP Conference Proceedings 1134, 22-30 (2009).
+* A. Kitaev, Periodic table for topological insulators and superconductors. (Advances in Theoretical Physics: Landau Memorial Conference) AIP Conference Proceedings 1134, 22-30 (2009).
 
 Interacting topological insulators:
 
