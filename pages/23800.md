@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[topological insulators]]:
+
+* [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 $[$[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)$]$
+
+
+
 On [[topological crystalline insulators]]:
 
 * [[Liang Fu]], *Topological Crystalline Insulators*, Phys. Rev. Lett. **106** (2011) 106802 ([doi:10.1103/PhysRevLett.106.106802](https://doi.org/10.1103/PhysRevLett.106.106802))
