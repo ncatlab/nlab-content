@@ -53,6 +53,8 @@ $$
 
 * [[cone type]]
 
+* [[square type]]
+
 * [[cubical type theory]]
 
 ## References
