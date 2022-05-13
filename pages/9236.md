@@ -9,6 +9,10 @@ For $(X, \mu)$ a [[measure space]], the [[integral]] $\int_X \mu$ is, if it exis
 
 ## Related concepts
 
+* [[length]]
+
+* [[area]]
+
 * [[density]], [[volume form]]
 
 * [[complex volume]]
