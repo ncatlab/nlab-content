@@ -73,6 +73,8 @@ For any (small) $C^*$-category $\mathcal{C}$ there exists a faithful $*$-functor
 
 * [[star-category]], [[dagger-category]]
 
+* [[unitary fusion category]]
+
 * [[spaceoid]]
 
 * [[KK-theory]]
