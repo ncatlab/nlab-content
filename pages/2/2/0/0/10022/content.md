@@ -386,6 +386,8 @@ See also:
 
 * [[Alexander Jahn]], [[Marek Gluza]], Charlotte Verhoeven, Sukhbinder Singh, [[Jens Eisert]]. *Boundary theories of critical matchgate tensor networks* ([arXiv:2110.02972](https://arxiv.org/abs/2110.02972))
 
+* Pablo Basteiro, Giuseppe Di Giulio, Johanna Erdmenger, Jonathan Karl, René Meyer, Zhuo-Yu Xian, *Towards Explicit Discrete Holography: Aperiodic Spin Chains from Hyperbolic Tilings* $[$[arXiv:2205.05693](https://arxiv.org/abs/2205.05693)$]$
+
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
 
 * Jun Nian, Xinyu Zhang, _Entanglement Entropy of ABJM Theory and Entropy of Topological Black Hole_ ([arXiv:1705.01896](https://arxiv.org/abs/1705.01896))
