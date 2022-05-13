@@ -17,6 +17,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -33,6 +37,32 @@ Talk about the decimal number system for integers and decimal fractions, and the
 ### As a free monoid
 
 Define a set of digits $D$, and the [[free monoid]] $D^*$ on $D$ with unit $\epsilon$, quotiented by an equivalence relation. Then define a function $s$ on $D^*$ such that $D^*,\epsilon,s$ is a [[natural numbers object]]. 
+
+### Long division algorithm
+
+Let $[0, 9]^*$ be the [[free monoid]] on the [[closed interval]] $[0, 9]$, which represents the list of digits in the decimal numeral representation of the natural numbers, with length function $\mathrm{len}:[0, 9]^* \to \mathbb{N}$. There is a [[surjection]] $f:[0, 9]^* \to \mathbb{N}$ defined as 
+
+$$f(a) \coloneqq \sum_{i = 0}^{\mathrm{len}(a) - 1} a_i 10^{\mathrm{len}(a) - i - 1}$$
+
+representing the numerical value of the list of digits. 
+
+The [[algorithm]] is as follows: Let $a:[0, 9]^*$ and $b:[0, 9]^*$ be lists of digits, with $f(a)$ the dividend and $f(b)$ the divisor. If $\mathrm{len}(a) \lt \mathrm{len}(b)$, then $f(a) \div f(b) = 0$ and $f(a)\ \%\ f(b) = f(a)$. Otherwise, we iterate for $\mathrm{len}(a)$ times before stopping:
+
+For each iteration $i:[0, \mathrm{len}(a)]$, let $q_i$ be the quotient extracted from the algorithm at iteration $i$, let $d_i$ be the dividend at iteration $i$, let $r_i$ be the remainder at iteration $i$, and let $c_i$ be the next digit of the quotient, with the restriction that $0 \leq r_i$ and $r_i \lt f(b)$
+
+We set initial conditions to be 
+
+$$q_{-1} \coloneqq 0$$
+
+$$r_{-1} \coloneqq \sum_{i = 0}^{\mathrm{len}(b) - 2} a_i 10^{\mathrm{len}(b) - i - 2}$$
+
+The successive conditions are defined inductively as
+
+$$d_{i + 1} \coloneqq 10 r_i + a_{i + \len(b)}$$
+
+$$r_{i + 1} \coloneqq d_{i + 1} - m c_{i + 1} =  10 r_i + a_{i + \len(b)} - m c_{i + 1}$$
+
+$$q_{i + 1} \coloneqq 10 q_{i} - c_{i + 1}$$
 
 ## Order theoretic definitions
 
@@ -139,3 +169,6 @@ One could also establish a [[ring]] structure on $\mathbb{Z}/10\mathbb{Z}$ and c
 * Wikipedia, _[Decimal representation](https://en.wikipedia.org/wiki/Decimal_representation)_
 
 [[!redirects decimal numbers]]
+
+[[!redirects long division]]
+[[!redirects long division algorithm]]
