@@ -38,6 +38,7 @@
 
 * [[experimental mathematics]]
 
+* [[long division]]
 
 ## References
 
