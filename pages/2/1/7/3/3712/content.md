@@ -54,7 +54,7 @@ In ([Milnor](#Milnor)) it is shown that a [[vector bundle]] over a [[surface]] o
 
 #### Narasimhan&#8211;Seshadri theorem
 
-The _[[Narasimhan?Seshadri theorem]]_ identifies [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[stable vector bundles]]. 
+The _[[Narasimhan-Seshadri theorem]]_ identifies [[moduli spaces of flat connections]] over a [[Riemann surface]] with that of certain [[stable vector bundles]]. 
 
 ### Isometric embeddings
 
@@ -64,9 +64,11 @@ Maurer-Cartan equation is called also structure equation when used to treat the 
 
 ## Related concepts
 
+* [[local system]], [[inner local system]]
+
 * [[projectively flat connection]]
 
-* [[moduli space of flat connections]], [[Narasimhan?Seshadri theorem]]
+* [[moduli space of flat connections]], [[Narasimhan-Seshadri theorem]]
 
 * [[flat ∞-connection]]
 
