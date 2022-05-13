@@ -118,6 +118,8 @@ From [BBCW 19, p. 3](#BBCW19):
 
 > Moreover, while there have been many results towards understanding the properties of extrinsic defects in topological phases, there has been no general systematic understanding and, in particular, no concrete method of computing all the rich topological properties of the defects for an arbitrary topological phase. The study of topological phase transitions between different topological phases is also missing a general theory. In this paper, we develop a general systematic framework to understand these problems. 
 
+\linebreak
+
 The proposal of [BBCW 19](#BBCW19) (may not yet have a physics "proof" either, but) is conceptually transparent: The authors assume, as often done, that a [[topological order]] with [[anyon|anyonic]] [[defects]] is characterized by a [[unitary fusion category]] $\mathcal{C}$, and then propose that a $G_{int}$-SPT-phase $\Phi$ with this underlying topological order is what we may equivalently recognize as:
 
 1. the [[equivalence class]] $[\Phi]$ of an [[∞-action]] of $G_{int}$ on $\mathcal{C}$, namely
@@ -157,11 +159,31 @@ The proposal of [BBCW 19](#BBCW19) (may not yet have a physics "proof" either, b
 
    from the [[delooping groupoid]] of $G_{int}$ to that delooping [[2-groupoid]] of the [[automorphism 2-group]] of $\mathcal{C}$.
 
-This is plausible (relative to the assumption that $\mathcal{C}$ characterizes the un-proteced phase) since under an "[[internal symmetry]]" one wants to mean a global group action under which all other constructions have [[equivariant]]-[[structure]], and (eq:GIntActionOnUnitaryFusionCategory) is exactly the data that equips [[anyon]]-species (the [[simple objects]] of $\mathcal{C}$) and their [[fusion]] (the [[tensor product]]) and [[braid representation|braiding]] (the [[braiding]]) with such $G_{int}$-equivariant structure. 
+This is plausible (relative to the assumption that $\mathcal{C}$ characterizes the un-proteced topological order) since under an "[[internal symmetry]]" one wants to mean a global group action under which all other constructions have [[equivariant]]-[[structure]], and (eq:GIntActionOnUnitaryFusionCategory) is exactly the data that equips [[anyon]]-species (the [[simple objects]] of $\mathcal{C}$) and their [[fusion]] (the [[tensor product]]) and [[braid representation|braiding]] (the [[braiding]]) with such $G_{int}$-equivariant structure. 
 
-But...
+\linebreak
 
-(...)
+{#ButNeitherOfThese} But neither of these proposals connects recognizably to the [[twisted equivariant K-theory|twisted equivariant]] [[K-theory classification of topological phases]] (TE-K). While the latter may not apply to all cases of symmetry symmetry protected topological phases, it certainly applies to some of them, and it currently stands out among all other proposals on the classification of [[topological phases of matter]] as being the one with the most detailed support by theory and experiment. Therefore it would be reassuring to see how any other classification proposal plausibly connects to the TE-K proposal in appropriate special cases (notably for phases well-approximated by free fermion dynamics).
+
+Conversely, inspection of the mathematical construction of [[twisted equivariant K-theory]] (as made explicit in [[schreiber:Equivariant principal infinity-bundles|SS 21]], [(4.1.28)](https://ncatlab.org/schreiber/files/EquivariantInfinityBundles_220324.pdf#page=201)) readily reveals the evident way in which it subsumes [[internal symmetries]] and how the resulting structure has an equivalent expression in terms of [[∞-group cohomology]]. This is an immediate consequence of the [[mapping stack]]-[[adjoint (infinity,1)-functor|$\infty$-adjunction]], as shown the following diagram
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/InternalSymmetryInTE-K_220513.jpg" width="860">
+</center>
+
+> (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22b]])
+
+
+Here the mapping stack adjunction...
+
+* ...on the internal symmetry group factor (shown on the right) manifestly identifies the [[TE-K cohomology]]-group at the top with an [[∞-group cohomology|∞-group cohomology group]] of $G_{int}$ which plausibly matches, as before, the intuition one would have about internal symmetry groups acting on K-theoretically classified phases of matter;
+
+* ..on the external symmetry group factor (shonw on the left) manifestly identifies the [[TE-K cohomology]]-group at the top with an [[inner local system]]-twisted sector of [[geometric fixed point spectrum|$G$-fixed]] TE-K-theory. Just this sector has been shown (in [[schreiber:Anyonic defect branes in TED-K-theory|SS 22a]], by recourse to the [[hypergeometric construction of KZ solutions]]) to host [[su(2)-anyon|SU(2)-]][[anyon]] [[wavefunctions]] (namely [[affine Lie algebra]]-[[conformal blocks]]) constituting [[braid representations]], and hence exactly the structure expected in a symmetry protected [[topological order]].
+
+\linebreak
+
+
 
 
 ## Related concepts
