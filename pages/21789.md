@@ -43,7 +43,7 @@ This is often considered in the special case of [[twisted ad-equivariant K-theor
 
 * [[K-theory classification of D-brane charge]]
 
-* [[topological phases of matter]], [[K-theory classification of topological phases of matter]]
+* [[K-theory classification of topological phases of matter]], [[topological phases of matter]]
 
 ## References
 
@@ -99,6 +99,12 @@ Relation to [[projective representations]]:
 
 [[!redirects equivariant twisted K-theory]]
 
+[[!redirects twisted equivariant K-cohomology]]
+
+
 [[!redirects twisted equivariant topological K-theory]]
 
+[[!redirects TE-K theory]]
+
+[[!redirects TE-K cohomology]]
 
