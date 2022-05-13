@@ -33,6 +33,8 @@ These affine Lie algebras appear in [[quantum field theory]] as the [[current al
 
 * [[double affine Hecke algebra]]
 
+* [[su(2)-anyon]]
+
 ## References
 
 The standard textbook is 
