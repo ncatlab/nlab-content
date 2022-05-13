@@ -90,14 +90,23 @@ Unrelated to this is another example also named after [[Duncan Haldane]]
 ### Classification 
  {#Classification}
 
-Symmetry protected [[crystal|crystalline]] phases where the [[dynamics]] of the [[electrons]] may approximately be regarded [[free field|free]] (but subject to the the atomic lattice Coulomb [[background field]], see [here](Dirac+field#FreeDiracFieldInCoulombBackground)) are thought to be classified by [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]]. This is the statement of the [[K-theory classification of topological phases of matter]]. Beware that this case has mostly been discussed for CPT-symmetries such as [[time-reversal symmetry]] (see at *[[topological insulator]]*) and for [[crystallographic group|crystallographic symmetries]] (see at *[[topological crystalline insulator]]*), not so much for [[internal symmetry|internal]] ("on site") symmetries (but see [Wen 12](#Wen12)).
+#### External symmetries
 
+Symmetry protected [[crystal|crystalline]] phases where the [[dynamics]] of the [[electrons]] may approximately be regarded [[free field|free]] (but subject to the the atomic lattice Coulomb [[background field]], see [here](Dirac+field#FreeDiracFieldInCoulombBackground)) are thought to be classified by [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] of the [[Brillouin torus]]. This is the statement of the [[K-theory classification of topological phases of matter]]. 
 
-In contrast, a widely cited claim [CGLW 11](#CGLW11) asserts (motivation is offered in [CLW 11, Sec. V](#CLW11)) that *bosonic* SPT orders for internal symmetries are described by [[group cohomology]]: **d+1D SPT states with on-site symmetry $G$ are labeled by the elements in group cohomology class $H^{d+1}\big(G;\, U(1)\big)$.** It was also claimed that the fermionic SPT orders are described by a kind of group super-cohomology theory. 
+Beware that this case has mostly been discussed for CPT-symmetries such as [[time-reversal symmetry]] (see at *[[topological insulator]]*) and for [[crystallographic group|crystallographic symmetries]] (see at *[[topological crystalline insulator]]*), not so much for [[internal symmetry|internal]] ("on site") symmetries (but see [Wen 12](#Wen12)).
+
+#### Internal symmetries
+ {#ClassificationInternalSymmetries}
+
+In contrast, a widely cited claim [CGLW 11](#CGLW11) asserts (motivation is offered in [CLW 11, Sec. V](#CLW11)) that "*bosonic*" SPT orders for an *[[internal symmetry|internal]]* [[symmetry group]] $G_{int}$ are given by [[group cohomology]] $H^{d+1}\big(G;\, U(1)\big)$ of $G_{int}$ with [[coefficients]] in the [[circle group]] and in degree $d + 1$, for $d$ the effective [[dimension]] of the given material (in practice: $d \in \{0,1,2,3\}$).
+This claim was generalized to fermionic SPT orders via a kind of group-supercohomology ([Gu & Wen14](#GuWen14)).
 
 From X.-G. Wen ([2013, in rev 1](https://ncatlab.org/nlab/revision/symmetry+protected+topological+phase/1)):
 
 > So the group (super-)cohomology theory may allow us to classify all SPT orders even for interacting systems, which include interacting topological insulator/superconductor.
+
+But conceptual problems have remained with this proposal:
 
 From [Wang & Senthil 14, p. 1](#WangSenthil14)
 
@@ -108,6 +117,52 @@ From [BBCW 19, p. 3](#BBCW19):
 > Although a remarkable amount of progress has been made on these deeply interrelated topics, a completely general understanding is lacking, and many questions remain. For example, although there are many partial results, the current understanding of fractionalization of quantum numbers, along with the classification and characterization of SETs is incomplete. 
 
 > Moreover, while there have been many results towards understanding the properties of extrinsic defects in topological phases, there has been no general systematic understanding and, in particular, no concrete method of computing all the rich topological properties of the defects for an arbitrary topological phase. The study of topological phase transitions between different topological phases is also missing a general theory. In this paper, we develop a general systematic framework to understand these problems. 
+
+The proposal of [BBCW 19](#BBCW19) (may not yet have a physics "proof" either, but) is conceptually transparent: The authors assume, as often done, that a [[topological order]] with [[anyon|anyonic]] [[defects]] is characterized by a [[unitary fusion category]] $\mathcal{C}$, and then propose that a $G_{int}$-SPT-phase $\Phi$ with this underlying topological order is what we may equivalently recognize as:
+
+1. the [[equivalence class]] $[\Phi]$ of an [[∞-action]] of $G_{int}$ on $\mathcal{C}$, namely
+
+1. the [[cohomology]]-class of a [[2-group]]-[[homomorphism]] from $G_{int}$ to the [[automorphism 2-group]] of $\mathcal{C}$:
+
+   \[
+     \label{GIntActionOnUnitaryFusionCategory}
+     \Phi
+     \;\in\;
+     Hom
+     \big(
+       G_{int}
+       ,\, 
+       Aut(\mathcal{C}) 
+     \big)
+     \,,
+   \]
+
+   > (this is essentially [BBCW 19, (1)](#BBCW19) -- where it says "group action", but later from (81) on ([p. 14](https://arxiv.org/pdf/1410.4540.pdf#page=14)) it transpires that the correct [[2-group]]-action is indeed meant),
+
+   namely:
+
+1. the [[pseudonatural transformation]]-class of a [[weak 2-functor]]
+
+   $$
+     \Phi
+     \;\in\;
+     Maps
+     \big(
+       \mathbf{B}G_{int}
+       ,\, 
+       \mathbf{B}Aut(\mathcal{C}) 
+     \big)
+     \,,
+   $$
+
+   from the [[delooping groupoid]] of $G_{int}$ to that delooping [[2-groupoid]] of the [[automorphism 2-group]] of $\mathcal{C}$.
+
+This is plausible (relative to the assumption that $\mathcal{C}$ characterizes the un-proteced phase) since under an "[[internal symmetry]]" one wants to mean a global group action under which all other constructions have [[equivariant]]-[[structure]], and (eq:GIntActionOnUnitaryFusionCategory) is exactly the data that equips [[anyon]]-species (the [[simple objects]] of $\mathcal{C}$) and their [[fusion]] (the [[tensor product]]) and [[braid representation|braiding]] (the [[braiding]]) with such $G_{int}$-equivariant structure. 
+
+But...
+
+(...)
+
 
 ## Related concepts
 
@@ -132,8 +187,6 @@ From [BBCW 19, p. 3](#BBCW19):
 * {#PBTO09} Frank Pollmann, Erez Berg, Ari M. Turner, Masaki Oshikawa, *Symmetry protection of topological order in one-dimensional quantum spin systems*, Phys. Rev. B **85** 075125 (2012) $[$[arXiv:0909.4059](https://arxiv.org/abs/0909.4059), [doi:10.1103/PhysRevB.85.075125](https://doi.org/10.1103/PhysRevB.85.075125)$]$
 
 * Xie Chen, Zheng-Xin Liu, [[Xiao-Gang Wen]], 2D symmetry protected topological orders and their protected gapless edge excitations Phys. Rev. B 84, 235141 (2011); 
-
-* Zheng-Cheng Gu, [[Xiao-Gang Wen]], [Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory](http://arxiv.org/abs/1201.2648)
 
 See also
 
@@ -167,22 +220,26 @@ See also:
 * {#Wen12} [[Xiao-Gang Wen]], *Symmetry-protected topological phases in noninteracting fermion systems*, Phys. Rev. B **85** (2012) 085103 $[$[doi:10.1103/PhysRevB.85.085103](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.085103)$]$
 
 
-##### Of bosonic SPT phases
+##### Of bosonic and interacting SPT phases
 
-Discussion via [[higher dimensional WZW models]] and claim of classification via [[group cohomology]]:
+Claim of classification of SPT phases via [[group cohomology]]:
 
-* {#CLW11} [[Xie Chen]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *Two-dimensional symmetry-protected topological orders and their protected gapless edge excitations*, Phys. Rev. B **84** (2011) 235141 $[$[doi:10.1103/PhysRevB.84.235141](https://doi.org/10.1103/PhysRevB.84.235141), [https://arxiv.org/abs/1106.4752](arXiv:1106.4752)$]$
+* {#CLW11} [[Xie Chen]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *Two-dimensional symmetry-protected topological orders and their protected gapless edge excitations*, Phys. Rev. B **84** (2011) 235141 $[$[doi:10.1103/PhysRevB.84.235141](https://doi.org/10.1103/PhysRevB.84.235141), [arXiv:1106.4752](https://arxiv.org/abs/1106.4752)$]$
 
 * {#CGLW11} [[Xie Chen]], [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772)$]$
 
-* [[Xie Chen]], [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], *Symmetry protected topological orders and the group cohomology of their symmetry group*,  Science **338** (2012) 1604-1606 ([arXiv:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)) 
+* {#CGLW12} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *Symmetry protected topological orders and the group cohomology of their symmetry group*,  Science **338** (2012) 1604-1606 ([arXiv:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)) 
+
+* {#GuWen14} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory*, Phys. Rev. B **90** 115141 (2014) $[$[arXiv:1201.2648](http://arxiv.org/abs/1201.2648), [doi:10.1103/PhysRevB.90.115141](https://doi.org/10.1103/PhysRevB.90.115141)$]$
 
 
-Classification for free fermion SPT phases:
+Classification for free fermion SPT phases in [[twisted equivariant K-theory]]:
+
+* [[Alexei Kitaev]], _Periodic table for topological insulators and superconductors_, Proc. L.D.Landau Memorial Conf. "Advances in Theor. Physics", June 22-26, 2008, Chernogolovka, Russia, [arxiv/0901.2686](http://arxiv.org/abs/0901.2686) (uses [[K-homology]], [[Bott periodicity]] etc.)
 
 * {#FreedMoore12} [[Daniel S. Freed]], [[Gregory Moore|Gregory W. Moore]], _Twisted equivariant matter_, Annales Henri Poincar&#233; December 2013, Volume 14, Issue 8, pp 1927&#8211;2023 [arxiv/1208.5055](http://arxiv.org/abs/1208.5055) (uses [[equivariant K-theory]])
 
-* Alexei Kitaev, _Periodic table for topological insulators and superconductors_, Proc. L.D.Landau Memorial Conf. "Advances in Theor. Physics", June 22-26, 2008, Chernogolovka, Russia, [arxiv/0901.2686](http://arxiv.org/abs/0901.2686) (uses [[K-homology]], [[Bott periodicity]] etc.)
+For more on this see at *[[K-theory classification of topological phases of matter]]*
 
 
 
