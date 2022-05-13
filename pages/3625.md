@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -48,6 +62,8 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 * [[special unitary group]]
 
 * [[Hermitian operator]]
+
+* [[unitary fusion category]]
 
 [[!redirects unitary operators]]
 [[!redirects unitary]]
