@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -14,6 +25,12 @@ Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[
 ## References
 
 ### General
+
+Textbook account:
+
+* [[Attila Szabo]], [[Neil S. Ostlund]], *Modern Quantum Chemistry -- Introduction to Advanced Electronic Structure Theory*, Macmillan (1982), McGraw-Hill (1989), Dover (1996) $[$[pdf](https://chemistlibrary.files.wordpress.com/2015/02/modern-quantum-chemistry.pdf)$]$
+
+See also:
 
 * Wikipedia, _[Quantum chemistry](http://en.wikipedia.org/wiki/Quantum_chemistry)_
 
