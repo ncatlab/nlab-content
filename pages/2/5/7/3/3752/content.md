@@ -185,6 +185,8 @@ Accordingly, there is the semi-category analog of a [[Segal space]], called a _[
 
 ## Related concepts
 
+* [[dagger semicategory]]
+
 * [[semipresheaf]]
 
 * [[regular semicategory]]
