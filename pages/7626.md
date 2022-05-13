@@ -28,13 +28,17 @@ An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensi
 
 ## Related concepts
 
-* [[boson]], [[fermion]], **anyon**
+* [[boson]], [[fermion]]
 
-* [[parastatistics]],
+* [[parastatistics]]
 
-* [[quantum Hall effect]],
+* [[unitary fusion category]]
+
+* [[topological order]]
 
 * [[topological quantum computation]]
+
+* [[quantum Hall effect]]
 
 ## References
 
