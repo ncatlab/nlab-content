@@ -19,9 +19,11 @@
 
 ## Idea
 
-The generalization of the [[Chern character]] from [[K-theory]] to [[twisted equivariant K-theory]], hence the joint generalization of the [[twisted Chern character]] and the [[equivariant Chern character]], typically understood in the context of [[topological K-theory]] and then taking values in [[twisted de Rham cohomology|twisted]] [[equivariant de Rham cohomology]].
+The generalization of the [[Chern character]] from [[K-theory]] to [[twisted equivariant K-theory]], hence the joint generalization of the [[twisted Chern character]] and the [[equivariant Chern character]], typically understood in the context of [[topological K-theory]] and then taking values in [[twisted de Rham cohomology|twisted]] [[equivariant de Rham cohomology]] (including a twist from [[inner local systems]]).
 
 ## Related concepts
+
+* [[inner local system]]
 
 * [[Chern character]] ([[twisted Chern character|twisted]], [[equivariant Chern character|equivariant]])
 
