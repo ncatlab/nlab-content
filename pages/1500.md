@@ -115,8 +115,10 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 ## Related concepts
 
 * **fusion category**
+  
+  * [[unitary fusion category]]
 
-  [[fusion ring]], [[Frobenius-Perron dimension]]
+  * [[fusion ring]], [[Frobenius-Perron dimension]]
 
 * [[pivotal category]]
 
@@ -171,3 +173,5 @@ For some discussion see
 
 
 [[!redirects fusion categories]]
+
+[[!redirects fusion]]
