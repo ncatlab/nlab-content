@@ -58,7 +58,9 @@ Kleene's second algebra is an abstraction of [[function realizability]] introduc
 
 ## Related concepts
 
-* [[realizability]]
+* [[realizability]] 
+
+* [[Kleene's first algebra]] 
 
 [[!include computable mathematics -- table]]
 
@@ -71,7 +73,7 @@ Kleene's second algebra is an abstraction of [[function realizability]] introduc
 
 * {#Bauer05} [[Andrej Bauer]], section 2 of _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
-A presentation of neighborhood functions using algebras and co-algebras:
+A presentation of neighborhood functions using algebras and coalgebras:
 
 * {#GhaniHP09} [[Neil Ghani]], Peter Hancock, Dirk Pattinson, _Continuous Functions on Final Coalgebras_, 2009. ([pdf](https://personal.cis.strath.ac.uk/neil.ghani/papers/ghani-mfps09.pdf))
 
