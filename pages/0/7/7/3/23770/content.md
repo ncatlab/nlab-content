@@ -23,11 +23,14 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 
 
 
-Claim that [[group cohomology]] classifies [[symmetry protected topological phases]]:
+Claim that [[group cohomology]] classifies some [[symmetry protected topological phases]]:
 
-* {#CGLW11} [[Xie Chen]], [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772)$]$
+* {#CGLW11} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772)$]$
 
-* [[Xie Chen]], [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], *Symmetry protected topological orders and the group cohomology of their symmetry group*,  Science **338** (2012) 1604-1606 ([arXiv:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)) 
+* [[Xie Chen]], [[Zheng-Cheng Gu]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *Symmetry protected topological orders and the group cohomology of their symmetry group*,  Science **338** (2012) 1604-1606 ([arXiv:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)) 
+
+* {#GuWen14} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory*, Phys. Rev. B **90** 115141 (2014) $[$[arXiv:1201.2648](http://arxiv.org/abs/1201.2648), [doi:10.1103/PhysRevB.90.115141](https://doi.org/10.1103/PhysRevB.90.115141)$]$
+
 
 
 
