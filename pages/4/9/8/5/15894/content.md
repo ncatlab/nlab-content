@@ -116,6 +116,8 @@ It seems rather plausible that this is just a simple first example of a future w
 
 The [[axiom]] of [[univalence]] may be thought of as a [[formal logic|formalization]] of what might be called the _[[principle of equivalence]]_ of [[mathematics]], which is the basic but important idea that [[mathematical structures]] which are [[equivalence|equivalent]] should behave the same, satisfy the same theorems and so forth.
 
+In particular, in elementary [[Euclidean geometry]], two shapes are traditionally said to be equal or congruent to each other if there is an [[isometry]] (distance-preserving transformation) between the two shapes. Usually, this congruence requires the need for a quotient of the isomorphism classes in the category of geometric shapes, but with univalence, one does not need such a construction: equality of shapes is the isometries between the shapes. 
+
 Obvious as this may seem, this principle may be violated in other [[foundations of mathematics]] such as [[ZFC]]. On the other hand, while these models allow such violation, in practice one essentially never wants to use such violation. The univalence axiom hence serves to make formal mathematical foundation be closer to the actual "nature of mathematics", at least to the practice of mathematics. 
 
 #### For set theorists
@@ -208,10 +210,19 @@ If one wishes to prove statements that hold only in some class of $\infty$-topos
 
 ### In what sense does homotopy type theory already contain logic?
 
+A [[proposition]] can be defined as a type such that the identity type between any two terms of the type has a term. One could add to homotopy type theory the [[higher inductive type]] of [[propositional truncation]], which takes any type and turns it into a proposition. The propositional truncation of [[product types]] correspond to [[conjunction]], the propositional truncation of [[sum types]] correspond to [[disjunction]], the propositional truncation of [[function types]] correspond to [[implication]], the propositional truncation of [[dependent product types]] correspond to [[universal quantification]], the propositional truncation of [[dependent sum types]] correspond to [[existential quantification]], the [[empty type]] corresponds to [[false]], a [[function type]] into the empty type corresponds to [[negation]], and [[contractible types]] correspond to true. This corresponds to [[constructive logic|constructive]] [[predicate logic]], and the addition of the axiom of [[excluded middle]] to the type theory yields [[classical logic|classical]] [[predicate logic]]. 
+
 ### Can category theory be carried out in homotopy type theory?
+
+Yes. One could define a **category** as a type $C$ whose identity types $a =_C b$ for $a:C$ and $b:C$ are sets, with a set $M$ with functions $s:M \to C$, $t:M \to C$, $id:C \to M$ and function 
+$$c:\left(\sum_{f:M} \sum_{g:M} t(f) =_C s(g)\right) \to M$$ 
+such that $s(c(g,f)) =_C s(f)$ and $t(c(g,f)) =_C t(g)$, for every $f:M$, $c(f, id(s(f))) =_M f$ and $c(id(t(f)), f) =_M f$, and for every $f:M$, $g:M$, and $h:M$ such that $t(f) =_C s(g)$ and $t(g) =_C s(h)$, $c(h,c(g,f)) =_M c(c(h,g),f)$. 
+
+Then one could define a **functor** between categories $(C,M)$ and $(D,N)$ as a function $F:C \to D$ with a function $G:M \to N$ such that for all $f:M$, $F(s_C(f)) =_D s_D(G(f))$ and $F(t_C(f)) =_D t_D(G(f))$, for all $a:C$, $G(id_C(a)) =_N id_D(F(a))$, and for terms $f:M$ and $g:M$ such that $t(f) =_D s(g)$, $G(g \circ_C f) =_N F(g) \circ_D F(h)$. 
 
 ### Can $(\infty,1)$-categories be defined in homotopy type theory?
 
+It is currently unknown how to define the [[coherence theorems]] necessary to define $(\infty,1)$-categories in vanilla homotopy type theory. There are other approaches to type theory such as [[directed homotopy type theory]] which might be able to define $(\infty,1)$-categories. 
 
 ## Related articles
 
