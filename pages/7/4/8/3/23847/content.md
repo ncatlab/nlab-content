@@ -88,6 +88,8 @@ It is named after:
 
 Review:
 
+* [[Attila Szabo]], [[Neil S. Ostlund]], Sec. 2.2.3 of: *Modern Quantum Chemistry -- Introduction to Advanced Electronic Structure Theory*, Macmillan (1982), McGraw-Hill (1989), Dover (1996) $[$[pdf](https://chemistlibrary.files.wordpress.com/2015/02/modern-quantum-chemistry.pdf)$]$
+
 * C. Lanczos, R. C. Clark, G. H. Derrick (eds.), p. 196 in: *Mathematical Methods in Solid State and Superfluid Theory*, Springer (1986) $[$[doi:10.1007/978-1-4899-6435-9](https://doi.org/10.1007/978-1-4899-6435-9)$]$
 
 
