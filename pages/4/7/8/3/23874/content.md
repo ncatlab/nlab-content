@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Topos Theory
+#### Category Theory
 +-- {: .hide}
-[[!include topos theory - contents]]
+[[!include category theory - contents]]
 =--
 #### Graph theory
 +-- {: .hide}
@@ -21,27 +21,41 @@
 * table of contents
 {: toc}
 
-## Idea
+## Idea 
 
-Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set|sets]].  
-
-A **loop digraph object** [[internalization|internal to]] a topos is an [[object]] that behaves in that topos like loop [[digraphs]] do in [[Set]].
+A **loop digraph object** [[internalization|internal to]] a [[category]] is an [[object]] that behaves in that category like loop [[digraphs]] do in [[Set]].
 
 ## Definition 
 
-### In a topos
+### In a category with finite products
 
-A **loop digraph object** in a [[topos]] $\mathcal{E}$ with [[terminal object]] $1$ is 
+A **loop digraph object** in a [[category]] $\mathcal{C}$ with [[finite products]] is
 
-* a [[object]] $V$ in $\mathcal{E}$ 
+* a [[object]] $V$ in $\mathcal{C}$ 
 
-* an object $E$ in $\mathcal{E}$
+* an object $E$ in $\mathcal{C}$
+
+* a [[morphism]] $R:E \to V \times V$
+
+such that $R$ is [[monic]]: for every object $A$ in $\mathcal{C}$ and morphisms $f: A \to E$ and $g: A \to E$, $R \circ f = R \circ g$ implies that $f = g$. 
+
+### In general categories
+
+A **loop digraph object** in a category $\mathcal{C}$ is
+
+* a [[object]] $V$ in $\mathcal{C}$ 
+
+* an object $E$ in $\mathcal{C}$
 
 * a [[morphism]] $s:E \to V$
 
 * a morphism $t:E \to V$
 
-such that $s$ and $t$ are [[jointly injective]]: for every [[global element]] $f: 1 \to E$ and $g: 1 \to E$, $s \circ f = s \circ g$ and $t \circ f = t \circ g$ imply that $f = g$. 
+such that $s$ and $t$ are [[jointly monic]]: for every object $A$ in $\mathcal{C}$ and morphisms $f: A \to E$ and $g: A \to E$, $s \circ f = s \circ g$ and $t \circ f = t \circ g$ imply that $f = g$. 
+
+## Properties
+
+A loop digraph object is equivalently an object with an [[internal relation|internal binary endorelation]]. 
 
 ## Related concepts
 
@@ -50,5 +64,9 @@ such that $s$ and $t$ are [[jointly injective]]: for every [[global element]] $f
 * [[digraph]]
 
 * [[relation]]
+
+* [[loop graph object]]
+
+* [[internal relation]]
 
 [[!redirects loop digraph objects]]
