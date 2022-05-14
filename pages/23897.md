@@ -7,10 +7,6 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
-#### Algebra
-+-- {: .hide}
-[[!include higher algebra - contents]]
-=--
 #### Discrete and concrete objects
 +-- {: .hide}
 [[!include discrete and concrete objects - contents]]
@@ -74,4 +70,6 @@ An **evaluational category** $C$ is a [[concrete category]] with a function $(-)
 * [[concrete category]]
 
 * [[evaluation map]] (for the [[internalization|internal]] non-concrete version)
+
+* [[extensional category]]
 
