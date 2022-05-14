@@ -29,6 +29,6 @@ with a morphism $\dagger_{R,R^\op}:R \to R^\op$ such that $\dagger_{R,R^\op} \ci
 
 * [[opposite relation]]
 
-* [[partially ordered object]]
+* [[internal antisymmetric relation]]
 
 [[!redirects opposite internal relations]]
