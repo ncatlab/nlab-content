@@ -37,6 +37,17 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 
 ### Dagger categories
 
+#### With a function
+
++-- {: .un_defn}
+###### Definition
+
+Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a **dagger category** if it has a function $(-)^\dagger:Mor(C) \to Mor(C)$ such that for every term $f:Mor(C)$, $s(f) = t(f^\dagger)$, $t(f) = s(f^\dagger)$, and $(f^\dagger)^\dagger = f$, for every term $a:Ob(C)$, $id(a)^\dagger = id(a)$, and for every term $f:Mor(C)$ and $g:Mor(C)$ such that $t(f) =_D s(g)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$. 
+
+=--
+
+#### With a family of functions
+
 +-- {: .un_defn}
 ###### Definition
 
@@ -47,6 +58,8 @@ A **dagger category** or $\dagger$-category $C$ is a [[category]] with a functio
 * For every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$, $((f)^\dagger)^\dagger = f$. 
 
 =--
+
+#### With a contravariant endofunctor 
 
 There is another definition which violates the [[principle of equivalence]], since it imposes equations on objects: a [[category]] $C$ equipped with a [[contravariant functor|contravariant endofunctor]], hence an ordinary [[functor]] from the [[opposite category]] $C^{op}$ of $C$ to $C$ itself
 
