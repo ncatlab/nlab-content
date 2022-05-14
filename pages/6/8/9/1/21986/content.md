@@ -109,6 +109,8 @@ In a category with finite products, the initial [[ring object]], an object $\mat
 
 * [[ring object]]
 
+* [[circle object]]
+
 
 [[!redirects integers object]]
 [[!redirects integers objects]]
