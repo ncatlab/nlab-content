@@ -139,6 +139,8 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 * [[setoid]]
 
+* [[preordered object]]
+
 ## References
 
 [[Cauchy completion]] for preorders is discussed in 
