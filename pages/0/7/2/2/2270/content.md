@@ -48,4 +48,6 @@ An internal [[equivalence relation]] is often called a [[congruence]].
 
 * [[loop digraph object]]
 
+* [[preordered object]]
+
 [[!redirects internal relation]]
