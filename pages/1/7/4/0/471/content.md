@@ -64,6 +64,28 @@ In categories with finite limits it is often required that $pt=*$ is the termina
 
 Examples for the use of this notion is at [[fundamental (infinity,1)-category]] in the section "fundamental geometric ∞-categories".
 
+#### Contractible interval object
+
++-- {: .un_defn}
+###### Definition (contractible interval object)
+
+A *contractible interval object* in a category $C$ with a [[terminal object]] $*$ is an object $I$ with two [[global elements]] $0:* \to I$ and $1:* \to I$ such that 
+
+* $0 = 1$ 
+* for any object $A$ in $C$ and global elements $0_A:* \to A$ and $1_A:* \to A$ such that $0_A = 1_A$, there exists a morphism $f:I \to A$ such that $f \circ 0 = 0_A$ and $f \circ 1 = 1_A$. 
+
+=--
+
++-- {: .un_defn}
+###### Definition (contractible interval object in (n, 1)-categories)
+
+A *contractible interval object* in an $(n, 1)$-category $C$ with a [[terminal object]] $*$ is an object $I$ with two [[global elements]] $0:* \to I$ and $1:* \to I$ and an [[equivalence]] $s:0 \cong 1$ such that
+
+* for any object $A$ in $C$ and global elements $0_A:* \to A$ and $1_A:* \to A$ with an equivalence $s_A:0_A \cong 1_A$, there exists a morphism $f:I \to A$ with a morphism $f^{'}:(0 \cong 1) \to (0_A \cong 1_A)$ such that the [[equivalences]] $p:f \circ 0 \cong 0_A$, $q:f \circ 1 \cong 1_A$, and $r:f^{'}(s) \cong s_A$ satisfy the [[coherence laws]]. 
+=--
+
+The [[universal property]] of the contractible interval object means that the contractible interval object corresponds to the [[interval type]] in [[Martin-Löf type theory]]/[[homotopy type theory]], and is thus [[equivalent]] to the terminal object. If a [[cartesian closed category|cartesian closed]] $(n,1)$-category has an contractible interval type, the terminal object is a [[separator]] (see [Mike Shulman's blogpost](https://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/)). 
+
 ### In homotopical categories
 
 If the ambient category $C$ is a [[homotopical category]],
@@ -356,3 +378,4 @@ Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]
 
 [[!redirects interval objects]]
 [[!redirects simplex in a lined topos]]
+[[!redirects contractible interval object]]
