@@ -31,6 +31,8 @@ An **evaluational category** $C$ is a [[concrete category]] with a function $(-)
 
 * The category $Set$ of sets and functions is an evaluational category. 
 
+* The category $Preset$ of [[sets]] and [[prefunctions]] is an evaluational category. 
+
 * The category $Mon$ of [[monoids]] and monoid [[homomorphisms]] is an evaluational category. 
 
 * The category $Ab$ of [[abelian groups]] and abelian group homomorphisms is an evaluational category. 
@@ -72,4 +74,3 @@ An **evaluational category** $C$ is a [[concrete category]] with a function $(-)
 * [[evaluation map]] (for the [[internalization|internal]] non-concrete version)
 
 * [[extensional category]]
-
