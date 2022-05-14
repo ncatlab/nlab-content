@@ -46,8 +46,8 @@ such that for all [[global elements]] $a:* \to X$ and $b:* \to X$, $s \circ \lam
 
 * [[bicartesian preordered object]] 
 
-* [[cartesian monoidal category]]
+* [[meet-semilattice object]]
 
-* [[meet-semilattice]]
+* [[cartesian monoidal category]]
 
 [[!redirects cartesian monoidal preordered objects]]
