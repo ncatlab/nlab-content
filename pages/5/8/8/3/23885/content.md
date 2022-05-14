@@ -25,6 +25,12 @@
 * table of contents
 {: toc}
 
+
+## Idea
+
+The notion of a *meet-semilattice object* is the generalization of that of *[[meet-semilattice]]* as one passes from the ambient [[category of sets]] [[internalization|into]] more general ambient  [[categories]] with suitable properties.
+
+
 ## Definition
 
 In a [[finitely complete category]] $C$, a **meet-semilattice object** is a [[cartesian monoidal preordered object]] that is also a [[partially ordered object]]. 
