@@ -35,7 +35,6 @@ A set with a symmetric relation is the same as a [[loop digraph object|loop]] [[
 * for every $f \in E$, $s(f) =_V t(sym(f))$
 * for every $f \in E$, $t(f) =_V s(sym(f))$
 * for every $f \in E$, $sym(sym(f)) =_E f$
-* for every $a \in V$, $sym(refl(a)) =_E refl(a)$
 
 ## Related concepts
 
@@ -44,5 +43,7 @@ A set with a symmetric relation is the same as a [[loop digraph object|loop]] [[
   * [[reflexive relation]]
 
   * **symmetric relation**
+
+* [[loop graph object]]
 
 * [[setoid]]
