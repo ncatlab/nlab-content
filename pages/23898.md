@@ -20,11 +20,11 @@
 
 ## Idea ##
 
-An [[evaluational category]] where morphisms satisfy the [[function extensionality|axiom of extensionality]]. 
+An [[evaluational category]] where [[morphisms]] satisfy the [[function extensionality|axiom of extensionality]]. 
 
 ## Definition ##
 
-An extensional category $C$ is a [[evaluational category]] such that for morphisms $f:Hom(A,B)$ and $g:Hom(A,B)$, if $f(x) = g(x)$ for all elements $x:El(A)$, then $f = g$. 
+An extensional category $C$ is a [[evaluational category]] such that for morphisms $f \colon Hom(A,B)$ and $g \colon Hom(A,B)$, if $f(x) = g(x)$ for all [[elements]] $x \colon El(A)$, then $f = g$. 
 
 ## See also ##
 
