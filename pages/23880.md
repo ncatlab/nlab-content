@@ -37,9 +37,9 @@ In a [[finitely complete category]] $C$, a **bicartesian preordered object** or 
 
 * [[bicartesian closed preordered object]]
 
-* [[bicartesian category]]
+* [[lattice object]]
 
-* [[lattice]]
+* [[bicartesian category]]
 
 [[!redirects bicartesian preordered objects]]
 [[!redirects prelattice object]]
