@@ -25,6 +25,12 @@
 * table of contents
 {: toc}
 
+## Idea
+
+
+The notion of a *lattice object* is the generalization of that of *[[lattice]]* as one passes from the ambient [[category of sets]] [[internalization|into]] more general ambient  [[categories]] with suitable properties.
+
+
 ## Definition
 
 In a [[finitely complete category]] $C$, a **lattice object** is a [[bicartesian preordered object]] that is also a [[partially ordered object]]. 
