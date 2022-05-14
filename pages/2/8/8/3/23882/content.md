@@ -42,6 +42,6 @@ such that for all global elements $a:* \to X$ and $b:* \to X$,
 
 * [[bicartesian closed preordered object]]
 
-* [[Boolean algebra]]
+* [[Boolean algebra object]]
 
 [[!redirects Boolean prealgebra objects]]
