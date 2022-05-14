@@ -46,8 +46,8 @@ such that for all [[global elements]] $a:* \to X$ and $b:* \to X$, $s \circ \kap
 
 * [[bicartesian preordered object]] 
 
-* [[cocartesian monoidal category]]
+* [[join-semilattice object]]
 
-* [[join-semilattice]]
+* [[cocartesian monoidal category]]
 
 [[!redirects cocartesian monoidal preordered objects]]
