@@ -53,6 +53,10 @@ $$
 
 expressing  _[[function application]]_. On [[propositions]] ([[(-1)-truncation|(-1)-truncated]] [[types]]) this is the [[modus ponens]] [[deduction]] rule.
 
+## See also
+
+* [[evaluational category]] (for the external concrete version)
+
 [[!redirects evaluation]]
 [[!redirects evaluation maps]]
 [[!redirects evaluation morphism]]
