@@ -25,6 +25,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The notion of a *Heyting algebra object* is the generalization of that of *[[Heyting algebra]]* as one passes from the ambient [[category of sets]] [[internalization|into]] more general ambient  [[categories]] with suitable properties.
+
 ## Definition
 
 In a [[finitely complete category]] $C$, a **Heyting algebra object** is a [[bicartesian closed preordered object]] that is also a [[partially ordered object]]. 
