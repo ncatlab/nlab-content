@@ -10,6 +10,14 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
@@ -20,6 +28,8 @@
 ## Idea
 
 The principle of functional extensionality states that two [[functions]] are [[equal]] if their values are equal at every argument.
+
+## Definition
 
 ### In type theory
 
@@ -73,6 +83,12 @@ Of course we are not just interested in [[global element|global elements]] here.
 
 Under reasonable assumptions on the type theory, it turns out that these and other versions of function extensionality are equivalent; for now see ([Lumsdaine](#Lumsdaine)) below. In any case, if the type theory has an extra [[axiom]] that implies some such version, one says that **function extensionality** holds. 
 
+### In category theory
+
+Function extensionality in category theory could be applied in any [[evaluational category]], a [[concrete category]] $\mathcal{C}$ with an external evaluation function $(-)((-)):Hom(A, B) \times El(A) \to El(B)$ for all objects $A$ and $B$ such that for all morphisms $f \in Hom(A, B)$ and $g \in Hom(B, C)$ and elements $a \in A$, $(g \circ f)(x) = g(f(x))$. The axiom could be called "morphism extensionality"; however, in all evaluational categories, the morphisms are functions between sets. 
+
+The axiom of function extensionality is defined elementwise: if $f(a) = g(a)$ for all elements $a \in A$ and [[parallel morphisms]] $f, g \in Hom(A, B)$, then $f = g$. Any evaluational category which satisfies the axiom of function extensionality is called an [[extensional category]]. 
+
 ## Properties
 
 ### Homotopy categorical semantics
@@ -96,9 +112,6 @@ Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesi
 
 =--
 
-
-
-
 ### Relation to interval types
 
 An [[interval type]] in [[homotopy type theory]] (with definitional computation rule for the endpoints) implies function extensionality; see [this blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/)
@@ -111,7 +124,6 @@ The [[univalence axiom]] implies function extensionality (this is due to [[Vladi
 ## See also
 
 * [[extensional category]]
-
 
 ## References
 
@@ -136,8 +148,9 @@ See also
 
 * [[Coq]] code in the [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Funext.v) and [Peter Lumsdaine's fork](https://github.com/peterlefanulumsdaine/HoTT/blob/master/Coq/Funext.v) (dead link)
 
-
 [[!redirects function extensionality]]
 [[!redirects functional extensionality]]
 
 [[!redirects FunExt]]
+
+[[!redirects morphism extensionality]]
