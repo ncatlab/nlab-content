@@ -44,6 +44,8 @@ In a [[finitely complete category]] $C$, a **join-semilattice object** is a [[co
 
 * [[lattice object]]
 
+* [[semilattice object]]
+
 * [[join-semilattice]]
 
 [[!redirects join-semilattice objects]]
