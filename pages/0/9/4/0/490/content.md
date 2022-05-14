@@ -237,3 +237,5 @@ category: foundational axiom
 [[!redirects COSHEP]]
 [[!redirects CoSHEP]]
 [[!redirects coshep]]
+[[!redirects completely presented set]]
+[[!redirects completely presented sets]]
