@@ -92,6 +92,9 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 
 * [[band]]
 
+* [[join-semilattice object]]
+
+* [[meet-semilattice object]]
 
 [[!redirects meet-semilattice]]
 [[!redirects join-semilattice]]
