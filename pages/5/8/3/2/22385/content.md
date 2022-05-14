@@ -16,7 +16,10 @@
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
-
+=--
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
 =--
 =--
 =--
@@ -33,10 +36,12 @@ A **setoid** is a collection of things (which could be a [[set]], a [[type]], or
 
 ### In graph theory
 
-A **setoid** is a set $V$ of vertices with a set $E$ of edges with functions $s:E \to V$, $t:E \to V$, $refl:V \to E$, $sym:E \to E$, and  
+A **setoid** is a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \to V, t:E \to V)$ with functions $refl:V \to E$, $sym:E \to E$, and  
 $$tr:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
 such that 
 
+* for every $a \in V$, $s(refl(a)) =_E a$
+* for every $a \in V$, $t(refl(a)) =_E a$
 * for every $f \in E$, $s(f) =_V t(sym(f))$
 * for every $f \in E$, $t(f) =_V s(sym(f))$
 * for every $f \in E$, $sym(sym(f)) =_E f$
@@ -47,11 +52,12 @@ such that
 * for every $f \in E$, $tr(refl(t(f)), f) =_E f$ 
 * for every $f \in E$ and $g \in E$ such that $t(f) =_V s(g)$, $sym(tr(g,f)) =_E tr(sym(f),sym(g)$. 
 * for every $f \in E$, $g \in E$, and $h \in E$ such that $t(f) =_V s(g)$ and $t(g) =_V s(h)$, $tr(h,tr(g,f)) =_E tr(tr(h,g),f)$
-* for every $f \in E$ and $g \in E$, if $s(f) =_V s(g)$ and $t(f) =_V t(g)$, then $f =_E g$. 
 
 ### In category theory
 
-A **setoid** is a [[thin category|thin]] [[dagger category]], or a dagger category [[enriched category|enriched]] in [[truth values]]. Every thin dagger category is a [[groupoid]]. 
+A **setoid** is a [[thin category|thin]] [[dagger category]], or a dagger category [[enriched category|enriched]] in [[truth values]]. 
+
+The [[groupoidal categorification]] of a setoid is a [[dagger category]]. 
 
 ### In type theory
 
