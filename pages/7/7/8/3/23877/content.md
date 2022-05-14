@@ -13,7 +13,7 @@
 =--
 =--
 
-# Congruences
+# Contents
 * table of contents
 {: toc}
 
@@ -70,6 +70,7 @@ We can equivalently define an internal preorder $R$ as (a representing object of
 * [[preorder]]
 * [[congruence]]
 * [[cartesian monoidal preordered object]]
+* [[cocartesian monoidal preordered object]]
 
 [[!redirects preordered objects]]
 [[!redirects internal preorder]]
