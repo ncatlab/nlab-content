@@ -223,10 +223,11 @@ See also
 
 #### Reviews
 
+* [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]] [[Shinsei Ryu]], *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** 035005 (2016) $[$[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)$]$
+
 See also:
 
 * Wikipedia, *[Symmetry protected topological order](http://en.wikipedia.org/wiki/Symmetry_protected_topological_order)*
-
 
 Review with focus on the case of [[topological insulators]] [[symmetry protected topological phase|protected by]] [[crystallographic group]]-[[symmetry]]:
 
@@ -339,6 +340,10 @@ and with both:
 
 [[!redirects symmetry enriched topological phase]]
 [[!redirects symmetry enriched topological phases]]
+
+[[!redirects symmetry enriched topological phase of matter]]
+[[!redirects symmetry enriched topological phases of matter]]
+
 
 [[!redirects symmetry enriched topological order]]
 [[!redirects symmetry enriched topological orders]]
