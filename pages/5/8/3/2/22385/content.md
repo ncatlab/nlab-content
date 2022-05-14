@@ -71,5 +71,6 @@ A setoid is a type $T$ equipped with an [[equivalence relation]] $\equiv$. Setoi
 * [[extensional function]]
 * [[univalent setoid]]
 * [[stable setoid]]
+* [[internal setoid]]
 
 [[!redirects setoids]]
