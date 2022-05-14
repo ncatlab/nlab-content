@@ -207,7 +207,15 @@ Looks like that that might be interesting.
 But I can't determine *exactly* what it is, because, if you read the first parts of the paper, they waffle, you see, they don't give you a *property* (...)
 ([William Lawvere] in his 1990 lecture at [[Como]], Italy, Villa Olmo)
 
+## In constructive mathematics
 
+The notion of graph bifurcates in [[constructive mathematics]]: 
+
+* The set of edges of a graph could be defined with a [[denial inequality]]: 
+$$E \coloneqq \{(x, y) \in V \times V \vert x \neq y\}$$
+
+* The set of edges of a graph could be defined with a [[tight apartness relation]]: 
+$$E \coloneqq \{(x, y) \in V \times V \vert x \# y\}$$
 
 ## Related concepts
 
@@ -240,6 +248,8 @@ But I can't determine *exactly* what it is, because, if you read the first parts
 * [[graph of groups]]
 
 * [[semi-graph]]
+
+* [[directed loop graph object]]
 
 ## References
 
