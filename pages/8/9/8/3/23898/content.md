@@ -108,7 +108,7 @@ The distinction between extensionality and well-pointedness is the distinction b
 
 ## Non-examples ##
 
-* The category $Preset$ of [[sets]] and [[prefunctions]] is not an extensional category. 
+* The category $Prefunc$ of [[sets]] and [[prefunctions]] is not an extensional category. 
 
 ## See also ##
 
