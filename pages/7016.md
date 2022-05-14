@@ -125,6 +125,8 @@ The [[univalence axiom]] implies function extensionality (this is due to [[Vladi
 
 * [[extensional category]]
 
+* [[prefunction]]
+
 ## References
 
 An introduction to the relevant notions and a guided walk through the formal proof that univalence implies functional extensionality is at
