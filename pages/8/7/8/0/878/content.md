@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include relations - contents]]
 =--
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
 =--
 =--
 
@@ -24,6 +28,15 @@ In the language of the $2$-poset-with-duals [[Rel]] of sets and relations, a rel
 $$R \subseteq R^{op}$$
 In that case, this containment is in fact an equality.
 
+## Relation to graphs
+
+A set with a symmetric relation is the same as a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \to V, t:E \to V)$ with a function $sym:E \to E$ such that 
+
+* for every $f \in E$, $s(f) =_V t(sym(f))$
+* for every $f \in E$, $t(f) =_V s(sym(f))$
+* for every $f \in E$, $sym(sym(f)) =_E f$
+* for every $a \in V$, $sym(refl(a)) =_E refl(a)$
+
 ## Related concepts
 
 * [[relation]]
@@ -32,3 +45,4 @@ In that case, this containment is in fact an equality.
 
   * **symmetric relation**
 
+* [[setoid]]
