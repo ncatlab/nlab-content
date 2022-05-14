@@ -347,6 +347,14 @@ There should be a notion of &#8224;-[[quasi-category]] based on $\dagger$-simpli
 
 ## Properties
 
+### Relation to anti-involutive monoids
+
+The [[horizontal categorification]] of an [[anti-involution|anti-involutive]] [[monoid]] is a $\dagger$-category
+
+### Relation to setoids
+
+Every setoid is a [[thin category|thin]] $\dagger$-category, and the [[groupoidal categorification]] of a setoid is a $\dagger$-category, with the $\dagger$ operation being the groupoidal categorification of the symmetric property. 
+
 ### Relation to star-algebras
 
 The [[category convolution algebra]] of a dagger category is naturally a [[star-algebra]]. The star-involution is given by [[pullback of functions]] along the $\dagger$-functor.
@@ -392,6 +400,8 @@ Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modu
 
 * Bojko Bakalov and Alexander Kirillov, Jr., _Lectures on Tensor Categories and Modular Functors_, American Mathematical Society, Providence, Rhode Island, 2001.
 ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
+
+[[!include oidification - table]]
 
 [[!redirects dagger-category]]
 [[!redirects dagger-categories]]
