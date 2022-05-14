@@ -259,7 +259,7 @@ Textbook accounts:
 
 See also:
 
-* {#CHK} C. Cassidy, M. H&#233;bert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) 38 (1985), 287--329 ([doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624))
+* {#CassidyHebertKelly} C. Cassidy, M. H&#233;bert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) 38 (1985), 287--329 ([doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624))
 
 
 [[!redirects regular monomorphism]]
