@@ -15,6 +15,8 @@ Sometime we refer to a category as __cocartesian monoidal__ just to indicate tha
 
 * [[cocartesian monoidal dagger category]]
 
+* [[cocartesian monoidal preordered object]]
+
 
 [[!redirects cocartesian monoidal category]]
 [[!redirects cocartesian monoidal categories]]
