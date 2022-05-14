@@ -28,7 +28,7 @@ If $C$ is a [[regular category]], then its category of internal binary relations
 
 Let $C$ be a category.  An __internal binary relation__ from an object $X$ to an object $Y$ is an object $R$ and a pair of maps $d_0: R \to X$ and $d_1: R \to Y$ that are [[jointly monic]], that is such that, given any object $G$ and morphism $e, e': G \to R$, if $d_0 \circ e = d_0 \circ e'$ and $d_1 \circ e = d_1 \circ e'$, then it must be that $e = e'$.
 
-Now suppose that $C$ has binary [[products]].  Then we can simplify the definition; an internal binary relation from $X$ to $Y$ is simply a [[subobject]] $r: R\hookrightarrow X\times Y$. The $d_0$ and $d_1$ above may be recovered as the [[composites]]
+Now suppose that $C$ has binary [[products]]. Then we can simplify the definition; an internal binary relation from $X$ to $Y$ is simply a [[subobject]] $r: R\hookrightarrow X\times Y$. The $d_0$ and $d_1$ above may be recovered as the [[composites]]
 $$ d_0 = p_X\circ r : R\hookrightarrow X\times Y\to X,\quad d_1 = p_Y\circ r : T\hookrightarrow X\times Y\to Y ,$$
 called the _projections_ of the relation $R$.
 
@@ -50,4 +50,6 @@ An internal [[equivalence relation]] is often called a [[congruence]].
 
 * [[preordered object]]
 
-[[!redirects internal relation]]
+* [[opposite internal relation]]
+
+[[!redirects internal relations]]
