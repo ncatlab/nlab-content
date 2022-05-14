@@ -25,7 +25,7 @@ The notion of a *semilattice object* is the generalization of that of *[[semilat
 
 ## Definition
 
-In a [[symmetric monoidal category]] $(C, \otimes, I)$, a **semilattice object** is a [[commutative monoid object]] $(M, \mu, \eta)$ such that for every morphism $a:I \to M$, $\mu \circ \Delta_M \circ a = a$, where $\Delta_M$ is the [[diagonal morphism]] of $M$. 
+In a [[cartesian monoidal category]] $(C, \times, *)$, a **semilattice object** is a [[commutative monoid object]] $(M, \mu, \eta)$ such that for every global element $a:* \to M$, $\mu \circ \Delta_M \circ a = a$, where $\Delta_M$ is the [[diagonal morphism]] of $M$. 
 
 ## See also 
 
