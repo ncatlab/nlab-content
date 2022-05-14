@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{: toc}
+
+## Definition
+
+In a [[finitely complete category]] $C$, a **bicartesian preordered object** $X$ is a [[preordered object]] that is both a [[cartesian monoidal preordered object]] and a [[cocartesian monoidal preordered object]]. 
+
+## See also 
+
+* [[cartesian monoidal preordered object]]
+
+* [[cocartesian monoidal preordered object]]
+
+* [[bicartesian closed preordered object]]
+
+* [[bicartesian category]]
+
+* [[lattice]]
+
+[[!redirects bicartesian preordered objects]]
