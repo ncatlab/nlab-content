@@ -31,7 +31,7 @@ An **evaluational category** $C$ is a [[concrete category]] with a function $(-)
 
 * The category $Set$ of sets and functions is an evaluational category. 
 
-* The category $Preset$ of [[sets]] and [[prefunctions]] is an evaluational category. 
+* The category $Prefunc$ of [[sets]] and [[prefunctions]] is an evaluational category. 
 
 * The category $Mon$ of [[monoids]] and monoid [[homomorphisms]] is an evaluational category. 
 
