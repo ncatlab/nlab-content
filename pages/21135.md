@@ -3,9 +3,13 @@
 
 #### General
 
-The Classification [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
+On the classification of [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], notably [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
 
-Original proposal:
+Precursor discussion phrased in terms of [[random matrix theory]] instead of K-theory:
+
+* [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]], *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) $[$[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)$]$
+
+The original proposal making [[topological K-theory]] explicit:
 
 * [[Alexei Kitaev]], _Periodic table for topological insulators and superconductors_, talk at: L.D.Landau Memorial Conference "Advances in Theoretical Physics", June 22-26, 2008, In:AIP Conference Proceedings 1134, 22 (2009) ([arXiv:0901.2686](https://arxiv.org/abs/0901.2686), [doi:10.1063/1.3149495](https://doi.org/10.1063/1.3149495))
 
