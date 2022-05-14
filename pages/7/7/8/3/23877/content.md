@@ -22,24 +22,24 @@
 +-- {: .num_defn #Definition}
 ###### Definition
 
-In a [[finitely complete category]] $C$, a **preordered object** $X$ is an object with an [[internal relation|internal]] [[preorder]] on $X$: a [[subobject]] of the product $R\stackrel{(p_1,p_2)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]: 
+In a [[finitely complete category]] $C$, a **preordered object** $X$ is an object with an [[internal relation|internal]] [[preorder]] on $X$: a [[subobject]] of the product $R\stackrel{(s,t)}\hookrightarrow X \times X$ equipped with the following [[morphisms]]: 
 
-* internal [[reflexive relation|reflexivity]]: $r \colon X \to R$ which is a [[section]] both of $p_1$ and of $p_2$, i.e., $p_1 r = p_2 r = 1_X$;
+* internal [[reflexive relation|reflexivity]]: $\rho \colon X \to R$ which is a [[section]] both of $s$ and of $t$, i.e., $s \circ \rho = t \circ \rho = 1_X$;
 
-* internal [[transitive relation|transitivity]]: $t: R \times_X R \to R$ which factors the left/right projection map $R \times_X R \to X \times X$ through $R$, i.e., the following diagram commutes
+* internal [[transitive relation|transitivity]]: $\tau_p: R \times_X R \to R$ which factors the left/right projection map $R \times_X R \to X \times X$ through $R$, i.e., the following diagram commutes
   $$\array{
     && R \\  
     & {}^{\mathllap{t}}\nearrow & \downarrow \\
-    R \times_X R & \stackrel{(p_1 q_1,p_2 q_2)}\rightarrow & X \times X
+    R \times_X R & \stackrel{(s \circ p_1,t \circ p_2)}\rightarrow & X \times X
   }
   $$
-where $q_1$ and $q_2$ are the projections defined by the [[pullback | pullback diagram]]
+where $p_1$ and $p_2$ are the projections defined by the [[pullback | pullback diagram]]
   $$\array{
-    R \times_X R & \stackrel{q_2}\rightarrow & R
+    R \times_X R & \stackrel{p_2}\rightarrow & R
     \\
-    \downarrow^{\mathrlap{q_1}} && \downarrow^{\mathrlap{p_1}}
+    \downarrow^{\mathrlap{p_1}} && \downarrow^{\mathrlap{s}}
     \\
-    R & \stackrel{p_2}\rightarrow & X
+    R & \stackrel{t}\rightarrow & X
   }
   $$
 =--
@@ -47,7 +47,7 @@ where $q_1$ and $q_2$ are the projections defined by the [[pullback | pullback d
 +-- {: .num_remark}
 ###### Remark
 
-Since $i$ is a [[monomorphism]], the maps $r$, $s$, and $t$ are necessarily unique if they exist.
+Since $i$ is a [[monomorphism]], the maps $\rho$, and $\tau_p$ are necessarily unique if they exist.
 
 =--
 
