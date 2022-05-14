@@ -25,11 +25,11 @@
 
 ## Idea ##
 
-A [[concrete category]] whose morphisms behave as functions do in [[Set]] with respect to elements and evaluation. 
+A [[concrete category]] whose morphisms behave as [[functions]] do in [[Set]] with respect to [[elements]] and [[evaluation]]. 
 
 ## Definition ##
 
-An **evaluational category** $C$ is a [[concrete category]] with a function $(-)((-)): Hom(A,B) \times El(A) \to El(B)$ for objects $A:Ob(C)$ and $B:Ob(C)$ such that for every morphism $f:Hom(A,B)$ and $g:Hom(B,C)$ and every elements $x:El(A)$, $(g \circ f)(x) = g(f(x))$.
+An **evaluational category** $C$ is a [[concrete category]] with a function $(-)((-)) \colon Hom(A,B) \times El(A) \to El(B)$ for objects $A:Ob(C)$ and $B \colon Ob(C)$ such that for every morphism $f \colon Hom(A,B)$ and $g \colon Hom(B,C)$ and every elements $x:El(A)$, $(g \circ f)(x) = g(f(x))$.
 
 ## Examples ##
 
@@ -73,5 +73,5 @@ An **evaluational category** $C$ is a [[concrete category]] with a function $(-)
 
 * [[concrete category]]
 
-* [[evaluation map]] (for the internal non-concrete version)
+* [[evaluation map]] (for the [[internalization|internal]] non-concrete version)
 
