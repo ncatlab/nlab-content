@@ -6,6 +6,14 @@
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
 #### Homotopy type theory
 +--{: .hide}
 [[!include homotopy type theory - contents]]
@@ -23,10 +31,27 @@ A preorder (also sometimes called a _[[quasi-order]]_, especially if one works w
 
 By interpreting the relation $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]).  This category is sometimes called the _preorder category_ associated to a preorder; see below for details.
 
-
 ## Definition
 
+### As a set with a relation ###
+
 A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder.  (This should not be confused with a [[pro-set]], i.e. a [[pro-object]] in [[Set]].)
+
+### As a graph ###
+
+A **preordered set** is a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \to V, t:E \to V)$, with functions $refl:V \to E$ and  
+$$tr:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
+such that 
+
+* for every $a \in V$, $s(refl(a)) =_E a$
+* for every $a \in V$, $t(refl(a)) =_E a$
+* for every $f \in E$, $s(tr(g,f)) =_E s(f)$ 
+* for every $f \in E$, $t(tr(g,f)) =_E t(g)$
+* for every $f \in E$, $tr(f, refl(s(f))) =_E f$ 
+* for every $f \in E$, $tr(refl(t(f)), f) =_E f$ 
+* for every $f \in E$, $g \in E$, and $h \in E$ such that $t(f) =_V s(g)$ and $t(g) =_V s(h)$, $tr(h,tr(g,f)) =_E tr(tr(h,g),f)$
+
+### As a category ###
 
 Equivalently, a proset is a ([[strict category|strict]]) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x\leq y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
@@ -109,6 +134,10 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 * [[specialization topology]]
 
 * [[PreOrd]] 
+
+* [[graph]], [[digraph]]
+
+* [[setoid]]
 
 ## References
 
