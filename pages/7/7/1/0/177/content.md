@@ -139,6 +139,7 @@ From a graph-theoretical point of view, every digraph is a quiver, but not every
 * [[ribbon graph]]
 * [[oriented graph]] 
 * [[signed graph]] 
+* [[loop digraph object]]
 
 ## References
 
