@@ -279,6 +279,9 @@ A [[frame]] $L$ is a Heyting algebra.
 By the [[adjoint functor theorem]], a right adjoint $x \Rightarrow -$ to the map $x \wedge -: L \to L$ exists since this map preserves arbitrary joins. 
 =-- 
 
+## See also
+
+* [[Heyting algebra object]]
 
 ## References
 
