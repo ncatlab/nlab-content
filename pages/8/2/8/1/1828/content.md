@@ -32,6 +32,9 @@ More generally, we have the following:
 
 If $R$ is a [[partial order]] (or even a [[preorder]]), then so is $R^{op}$; so each [[poset]] (or [[proset]]) has an [[opposite poset]] (or proset), which is a special case of an [[opposite category]].
 
+## See also
+
+* [[opposite internal relation]]
 
 [[!redirects opposite relation]]
 [[!redirects opposite relations]]
