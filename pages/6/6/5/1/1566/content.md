@@ -97,9 +97,7 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 [[!redirects commutative monoids]]
 
 [[!redirects abelian monoid]]
-
-[[!redirects commutative monoid object]]
-[[!redirects commutative monoid objects]]
+[[!redirects commutative]]
 
 ## References
 
@@ -116,6 +114,3 @@ For affine monoids and other finitely generated commutative monoids see:
 For a treatment of free commutative monoids in [[homotopy type theory]]/[[univalent foundations]]:
 
 * Vikraman Choudhury, [[Marcelo Fiore]], _Free Commutative Monoids in Homotopy Type Theory_ ([arXiv:2110.05412](https://arxiv.org/abs/2110.05412))
-
-
-[[!redirects commutative]]
