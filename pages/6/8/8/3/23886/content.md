@@ -25,6 +25,11 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The notion of a *join-semilattice object* is the generalization of that of *[[join-semilattice]]* as one passes from the ambient [[category of sets]] [[internalization|into]] more general ambient  [[categories]] with suitable properties.
+
+
 ## Definition
 
 In a [[finitely complete category]] $C$, a **join-semilattice object** is a [[cocartesian monoidal preordered object]] that is also a [[partially ordered object]]. 
