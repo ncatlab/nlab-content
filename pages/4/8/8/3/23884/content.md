@@ -17,9 +17,14 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
+
+## Idea
+
+The notion of a *partially ordered object* is the generalization of that of *[[partially ordered sets]]* as one passes from the ambient [[category of sets]] [[internalization|into]] more general ambient  [[categories]] with suitable properties.
 
 ## Definitions
 
