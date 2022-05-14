@@ -527,6 +527,8 @@ The definition which is strictly relevant to the present article is Power's. He 
 
 * [[geometric shape for higher structures]]
 
+* [[loop digraph object]]
+
 ## References
 
 
