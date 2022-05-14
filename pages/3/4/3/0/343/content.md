@@ -79,6 +79,7 @@ Cartesian categories may be [[freely generated]] from sets, categories, signatur
 
 * [[cartesian monoidal (∞,1)-category]]
 
+* [[cocartesian monoidal preordered object]]
 
 ## References
 
