@@ -168,6 +168,10 @@ $$BoolAlg \simeq PostAlg_k \to M_k\text{-}Set$$
 For each $k \geq 3$, the forgetful functor from $BoolAlg \to$ $M_k$-$Set$ realizes $BoolAlg$ as a _full_ subcategory of $M_k$-Set. 
 =-- 
 
+## See also
+
+* [[Boolean algebra object]]
+
 ## References
 
 * Allan Mann, A complete proof of the Robbins conjecture.  ([pdf](http://math.colgate.edu/~amann/MA/robbins_complete.pdf))
