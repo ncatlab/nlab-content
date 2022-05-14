@@ -1,0 +1,54 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{: toc}
+
+## Definition
+
+In a [[finitely complete category]] $C$, a **bicartesian closed preordered object** or **Heyting prealgebra object** is a [[bicartesian preordered object]] 
+$$(X, s, t, \rho, \tau_p \wedge, \top, \tau, \lambda_l, \lambda_r, \vee, \bot, \beta, \kappa_l, \kappa_r)$$ 
+with a morphism $(-)\Rightarrow(-):X \times X \to X$ and functions
+$$\epsilon_l:((* \to X) \times (* \to X)) \to (* \to R)$$ 
+$$\epsilon_r:((* \to X) \times (* \to X)) \to (* \to R)$$ 
+such that for all global elements $a:* \to X$ and $b:* \to X$, 
+
+* $s \circ \epsilon_l(a, b) = (a \Rightarrow b) \wedge a$
+* $t \circ \epsilon_l(a, b) = b$ 
+* $s \circ \epsilon_r(a, b) = a$ 
+* $t \circ \epsilon_r(a, b) = b \Rightarrow (a \wedge b)$
+
+## See also 
+
+* [[bicartesian preordered object]]
+
+* [[bicartesian closed category]]
+
+* [[Boolean prealgebra object]]
+
+* [[Heyting algebra]]
+
+[[!redirects bicartesian closed preordered objects]]
+[[!redirects Heyting prealgebra object]]
+[[!redirects Heyting prealgebra objects]]
