@@ -45,6 +45,8 @@ In a [[finitely complete category]] $C$, a **meet-semilattice object** is a [[ca
 
 * [[lattice object]]
 
+* [[semilattice object]]
+
 * [[meet-semilattice]]
 
 [[!redirects meet-semilattice objects]]
