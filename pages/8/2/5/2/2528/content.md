@@ -116,6 +116,9 @@ When you do this, the new kind of set is usually called a '[[setoid]]', and then
 
 * [[Bishop set]], [[predicative topos]]
 
+* [[evaluational category]], [[extensional category]]
+
+* [[prefunction]]
 
 [[!include types and logic - table]]
 
@@ -124,11 +127,6 @@ When you do this, the new kind of set is usually called a '[[setoid]]', and then
 [[!redirects presets]]
 [[!redirects pre-set]]
 [[!redirects pre-sets]]
-
-[[!redirects prefunction]]
-[[!redirects prefunctions]]
-[[!redirects pre-function]]
-[[!redirects pre-functions]]
 
 [[!redirects prerelation]]
 [[!redirects prerelations]]
