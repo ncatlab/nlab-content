@@ -74,6 +74,11 @@ Thus, in external classical logic, a topos is well-pointed if and only if it is 
 
 The main point of a well-pointed topos in logic is the equivalence of *external* and *internal* properties. In particular, a statement in the [[internal logic]] of the topos will be satisfied if and only if it holds for all global terms. (For the 'only if' part, it is necessary that the topos be nondegenerate.)
 
+## Well-pointedness and extensionality ###
+
+The category [[Set]] of sets and functions is both well-pointed and extensional. However, not every [[extensional category]] is a well-pointed category: the category $Field$ of [[fields]] and field [[homomorphisms]] is extensional, but is not well-pointed because it doesn't have a [[terminal object]]. Moreover, not every well-pointed category is an [[extensional category]], as well-pointed categories are not required to be [[concrete categories]]. 
+
+The distinction between well-pointedness and extensionality is the distinction between [[elements]] and [[global elements]] in a [[concrete category|concrete]] [[evaluational category]], as it is not true that elements and global elements (if they exist) coincide in general.
 
 ## Generalizations
 {#general}
@@ -122,6 +127,7 @@ Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if
 ## Related entries
 
 * [[ETCS]]
+* [[well-pointed category]]
 
 ## References
 
