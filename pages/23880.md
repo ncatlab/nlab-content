@@ -27,7 +27,7 @@
 
 ## Definition
 
-In a [[finitely complete category]] $C$, a **bicartesian preordered object** $X$ is a [[preordered object]] that is both a [[cartesian monoidal preordered object]] and a [[cocartesian monoidal preordered object]]. 
+In a [[finitely complete category]] $C$, a **bicartesian preordered object** or **prelattice object** is a [[preordered object]] $X$ that is both a [[cartesian monoidal preordered object]] and a [[cocartesian monoidal preordered object]]. 
 
 ## See also 
 
@@ -42,3 +42,5 @@ In a [[finitely complete category]] $C$, a **bicartesian preordered object** $X$
 * [[lattice]]
 
 [[!redirects bicartesian preordered objects]]
+[[!redirects prelattice object]]
+[[!redirects prelattice objects]]
