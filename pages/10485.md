@@ -63,9 +63,15 @@ There are the following special classes of symmetry groups $G$ to which this app
 **(terminology)**
 
 1. Beware that some authors insist on using the specific term "SPT" only for items further down in this list. 
-For instance the claim below that SPT's are "classified by [[group cohomology]]" applies only to the last item. The first two items, for the case of free fermion systems at least, are expected to have a classification in [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] (see at [[K-theory classification of topological phases of matter]]). The relation between these two cases/proposals seems not to have been discussed yet in any substance (but check a later version of this entry for more...)
+For instance the claim below that SPT's are "classified by [[group cohomology]]" applies really to the last item (see [below](#ClassificationInternalSymmetries)). 
 
-1. Beware that the first articles on the topic ([Gu & Wen 09](#GuWen09), [PBTO 09](#PBTO09)) actually used the term "symmetry protected *topological order*". This is somewhat of a misnomer, since in examples the (symmetry protected) "[[topological order]]" is often *trivial* (in that the [[ground state]] is non-degenerate and/or the [[Berry connection]] is [[abelian group|abelian]]) even though the underlying (symmetry protected) [[topological phase of matter|topological phase]] is non-trivial (ie. the [[valence bundle]] of a [[topological insulator]] has a non-trivial [[K-theory classification of topological phases of matter|K-class]]). Due to this problem, the original authors argued that "SPT" could also stand for "symmetric protected *trivial order*" ([X.-G. Wen,  Sep 18, 2014](https://physics.stackexchange.com/a/136096/5603)). But it seems more descriptive (and now fairly widely accepted) to speak of "symmetry protected topological phase". 
+   The first two items instead, for the case of free fermion systems at least, are expected to have a classification in [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] (see at [[K-theory classification of topological phases of matter]]). 
+
+   For the conceptual relation between these cases see [further below](#ClassificationInTermsOfKTheory).
+
+1. Beware that the first articles on the topic ([Gu & Wen 09](#GuWen09), [PBTO 09](#PBTO09)) actually used the term "symmetry protected *topological order*". This could be perceived as somewhat of a misnomer, since in examples the (symmetry protected) "[[topological order]]" is often *trivial* (in that the [[ground state]] is non-degenerate and/or the [[Berry connection]] is [[abelian group|abelian]]) even though the underlying (symmetry protected) [[topological phase of matter|topological phase]] is non-trivial (ie. the [[valence bundle]] of a [[topological insulator]] has a non-trivial [[K-theory classification of topological phases of matter|K-class]]). 
+
+   Due to this problem, the original authors argued that "SPT" could also stand for "symmetric protected *trivial order*" ([X.-G. Wen,  Sep 18, 2014](https://physics.stackexchange.com/a/136096/5603)). But then it seems more descriptive (and now fairly widely accepted) to speak of "symmetry protected topological phase". (See also at *[[red herring principle]]*.)
 
 \end{remark}
 
@@ -165,7 +171,7 @@ This is plausible (relative to the assumption that $\mathcal{C}$ characterizes t
 
 {#ButNeitherOfThese} But neither of these proposals connects recognizably to the [[twisted equivariant K-theory|twisted equivariant]] [[K-theory classification of topological phases]] (TE-K). While the latter may not apply to all cases of symmetry symmetry protected topological phases, it certainly applies to some of them, and it currently stands out among all other proposals on the classification of [[topological phases of matter]] as being the one with the most detailed support by theory and experiment. Therefore it would be reassuring to see how any other classification proposal plausibly connects to the TE-K proposal in appropriate special cases (notably for phases well-approximated by free fermion dynamics).
 
-Conversely, inspection of the mathematical construction of [[twisted equivariant K-theory]] (as made explicit in [[schreiber:Equivariant principal infinity-bundles|SS 21]], [(4.1.28)](https://ncatlab.org/schreiber/files/EquivariantInfinityBundles_220324.pdf#page=201)) readily reveals the evident way in which it subsumes [[internal symmetries]] and how the resulting structure has an equivalent expression in terms of [[∞-group cohomology]]. This is an immediate consequence of the [[mapping stack]]-[[adjoint (infinity,1)-functor|$\infty$-adjunction]], as shown the following diagram
+{#ClassificationInTermsOfKTheory} Conversely, inspection of the mathematical construction of [[twisted equivariant K-theory]] (as made explicit in [[schreiber:Equivariant principal infinity-bundles|SS 21]], [(4.1.28)](https://ncatlab.org/schreiber/files/EquivariantInfinityBundles_220324.pdf#page=201)) readily reveals the evident way in which it subsumes [[internal symmetries]] and how the resulting structure has an equivalent expression in terms of [[∞-group cohomology]]. This is an immediate consequence of the [[mapping stack]]-[[adjoint (infinity,1)-functor|$\infty$-adjunction]], as shown the following diagram
 
 
 <center>
@@ -208,7 +214,7 @@ Here the mapping stack adjunction...
 
 * {#PBTO09} Frank Pollmann, Erez Berg, Ari M. Turner, Masaki Oshikawa, *Symmetry protection of topological order in one-dimensional quantum spin systems*, Phys. Rev. B **85** 075125 (2012) $[$[arXiv:0909.4059](https://arxiv.org/abs/0909.4059), [doi:10.1103/PhysRevB.85.075125](https://doi.org/10.1103/PhysRevB.85.075125)$]$
 
-* Xie Chen, Zheng-Xin Liu, [[Xiao-Gang Wen]], 2D symmetry protected topological orders and their protected gapless edge excitations Phys. Rev. B 84, 235141 (2011); 
+* [[Xie Chen]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *2D symmetry protected topological orders and their protected gapless edge excitations*, Phys. Rev. B 84, 235141 (2011); 
 
 See also
 
@@ -248,9 +254,9 @@ Claim of classification of SPT phases via [[group cohomology]]:
 
 * {#CLW11} [[Xie Chen]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *Two-dimensional symmetry-protected topological orders and their protected gapless edge excitations*, Phys. Rev. B **84** (2011) 235141 $[$[doi:10.1103/PhysRevB.84.235141](https://doi.org/10.1103/PhysRevB.84.235141), [arXiv:1106.4752](https://arxiv.org/abs/1106.4752)$]$
 
-* {#CGLW11} [[Xie Chen]], [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772)$]$
+* {#CGLW11} [[Xie Chen]], [[Zheng-Cheng Gu]], Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B **87** (2013) 155114  $[$[arXiv:1106.4772](http://arxiv.org/abs/1106.4772), [doi:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)$]$
 
-* {#CGLW12} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *Symmetry protected topological orders and the group cohomology of their symmetry group*,  Science **338** (2012) 1604-1606 ([arXiv:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)) 
+* {#CGLW12} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *Symmetry protected topological orders and the group cohomology of their symmetry group*,  Science **338** (2012) 1604-1606 ([doi:10.1103/PhysRevB.87.155114](https://doi.org/10.1103/PhysRevB.87.155114)) 
 
 * {#GuWen14} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory*, Phys. Rev. B **90** 115141 (2014) $[$[arXiv:1201.2648](http://arxiv.org/abs/1201.2648), [doi:10.1103/PhysRevB.90.115141](https://doi.org/10.1103/PhysRevB.90.115141)$]$
 
