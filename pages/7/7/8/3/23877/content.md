@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 =--
 =--
 
@@ -71,6 +75,7 @@ We can equivalently define an internal preorder $R$ as (a representing object of
 * [[congruence]]
 * [[cartesian monoidal preordered object]]
 * [[cocartesian monoidal preordered object]]
+* [[partially ordered object]]
 
 [[!redirects preordered objects]]
 [[!redirects internal preorder]]
