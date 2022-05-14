@@ -187,6 +187,8 @@ Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions
 
 * [[prefix order]]
 
+* [[partially ordered object]]
+
 ## References
 
 * Richard P. Stanley, Enumerative [[combinatorics]], vol I [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf)
