@@ -108,6 +108,10 @@ An [[interval type]] in [[homotopy type theory]] (with definitional computation 
 
 The [[univalence axiom]] implies function extensionality (this is due to [[Vladimir Voevodsky]]).  See for instance ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
+## See also
+
+* [[extensional category]]
+
 
 ## References
 
