@@ -42,7 +42,13 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 +-- {: .un_defn}
 ###### Definition
 
-Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a **dagger category** if it has a function $(-)^\dagger:Mor(C) \to Mor(C)$ such that for every term $f:Mor(C)$, $s(f) = t(f^\dagger)$, $t(f) = s(f^\dagger)$, and $(f^\dagger)^\dagger = f$, for every term $a:Ob(C)$, $id(a)^\dagger = id(a)$, and for every term $f:Mor(C)$ and $g:Mor(C)$ such that $t(f) =_D s(g)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$. 
+Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a **dagger category** if it has a function $(-)^\dagger:Mor(C) \to Mor(C)$ such that 
+
+* for every term $f:Mor(C)$, $s(f) = t(f^\dagger)$
+* for every term $f:Mor(C)$, $t(f) = s(f^\dagger)$
+* for every term $f:Mor(C)$, $(f^\dagger)^\dagger = f$
+* for every term $a:Ob(C)$, $id(a)^\dagger = id(a)$
+* for every term $f:Mor(C)$ and $g:Mor(C)$ such that $t(f) =_D s(g)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$. 
 
 =--
 
