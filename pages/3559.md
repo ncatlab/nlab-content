@@ -17,3 +17,7 @@ Note that a bicartesian closed category is [[bicartesian category|bicartesian]] 
 Also note that a bicartesian closed category is automatically a [[distributive category]]. This follows since the functors $X\mapsto A\times X$ have right adjoints (by closedness), so they preserve colimits. 
 
 A bicartesian closed category is one kind of [[2-rig]].
+
+## See also
+
+* [[bicartesian closed preordered object]]
