@@ -21,6 +21,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The notion of a *preordered object* is the generalization of that of *[[preordered sets]]* as one passes from the ambient [[category of sets]] [[internalization|into]] more general ambient [[categories]] with suitable properties.
+
 ## Definitions
 
 +-- {: .num_defn #Definition}
