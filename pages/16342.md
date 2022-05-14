@@ -229,6 +229,7 @@ Since the category $CommMon$ of commutative monoids (in $Set$) is cocartesian, t
 * [[monoid in a monoidal category]]
 * [[category of monoids]]
 * [[module over a monoid]]
+* [[semilattice object]]
 * [[commutative monoid in a symmetric monoidal (infinity,1)-category]]
 
 ## References
@@ -242,6 +243,9 @@ A summary is in section 4.1 of
 * [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_, [arXiv:1410.1716](http://arxiv.org/abs/1410.1716).
 
 See also [MO/180673](http://mathoverflow.net/questions/180673/category-of-modules-over-commutative-monoid-in-symmetric-monoidal-category).
+
+[[!redirects commutative monoid object]]
+[[!redirects commutative monoid objects]]
 
 [[!redirects commutative monoids in a symmetric monoidal category]]
 
