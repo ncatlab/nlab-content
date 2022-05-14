@@ -249,7 +249,7 @@ $$E \coloneqq \{(x, y) \in V \times V \vert x \# y\}$$
 
 * [[semi-graph]]
 
-* [[directed loop graph object]]
+* [[loop graph object]]
 
 ## References
 
