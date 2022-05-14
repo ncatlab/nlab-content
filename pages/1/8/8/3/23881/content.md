@@ -47,7 +47,7 @@ such that for all global elements $a:* \to X$ and $b:* \to X$,
 
 * [[Boolean prealgebra object]]
 
-* [[Heyting algebra]]
+* [[Heyting algebra object]]
 
 [[!redirects bicartesian closed preordered objects]]
 [[!redirects Heyting prealgebra object]]
