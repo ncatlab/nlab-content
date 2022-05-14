@@ -27,6 +27,8 @@ In every [[tabular allegory]], a relation $R$ could be factored into jointly mon
 
 * [[monomorphism]]
 
+* [[internal relation]]
+
 * [[regular category]]
 
 * [[tabular allegory]]
