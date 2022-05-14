@@ -214,6 +214,8 @@ In a [[Boolean topos]], such as [[Set]] (in [[classical mathematics]]), any mono
 
 * a category in which all morphisms are monomorphisms is called a _[[left cancellative category]]_
 
+* [[jointly monic morphisms]]
+
 [[!redirects monomorphisms]]
 [[!redirects monic]]
 [[!redirects monics]]
