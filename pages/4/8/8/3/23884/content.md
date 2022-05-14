@@ -28,7 +28,7 @@ The notion of a *partially ordered object* is the generalization of that of *[[p
 
 ## Definitions
 
-In a [[finitely complete category]] $C$, a **partially ordered object** is a [[preordered object]] $(X, R, s, t, \rho, \tau_p)$ with a [[monomorphism]] $\alpha:R \times_X R^\op \hookrightarrow X$ into the [[diagonal subobject]] $X$, where $R \times_X R^\op$ is the [[pullback]] of the [[internal relation]] $(s,t)$ and its [[opposite internal relation]] $(t,s)$. 
+In a [[finitely complete category]] $C$, a **partially ordered object** is a [[preordered object]] $(X, R, s, t, \rho, \tau_p)$ such that the internal preorder $R\stackrel{(s,t)}\hookrightarrow X \times X$ is an [[internal antisymmetric relation]]. 
 
 ## See also
 
@@ -36,7 +36,7 @@ In a [[finitely complete category]] $C$, a **partially ordered object** is a [[p
 
 * [[partially ordered set]]
 
-* [[opposite internal relation]]
+* [[internal antisymmetric relation]]
 
 * [[meet-semilattice object]]
 
