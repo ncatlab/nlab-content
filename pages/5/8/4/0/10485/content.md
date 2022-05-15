@@ -49,15 +49,33 @@ In other words:
 1. but they may possibly be transformed into each other this way if the symmetry is [[broken symmetry|broken]] during the deformation.
 
 
-There are the following special classes of symmetry groups $G$ to which this applies (as well as to any of their [[semidirect product group|semidirect]] combinations):
+{#TypesOfSymmetries} There are the following types of symmetry groups $G$ to which the concept of crystalline SPT/SET phases applies (as well as to any of their [[semidirect product group|semidirect]] combinations):
 
-1. $G$ may be a **spatial** symmetry, namely a [[subgroup]] of the [[crystallographic group]] of the underlying [[crystal|crystalline]] material;
+\begin{imagefromfile}
+    "file_name": "TypesOfSymsOfCrystTopInsulators-220515.jpg",
+    "float": "right",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 0,
+        "right": -10, 
+        "left": 10
+    },
+    "caption": "(table from [SS 22](#SS22))"
+\end{imagefromfile}
 
-1. $G$ may be a **non-spatial** symmetry which acts not on the position but on the "internal degrees of freedom" of the substance (the [[electron]]'s [[quantum states]] that are propagating in the crystal lattice of [[atomic nuclei]]) and includes
 
-   1. **CPT**-symmetries ([[charge]] reversal, parity reversal and [[time reversal symmetry]])
 
-   1. **[[internal symmetry|internal]]** or **on-site** symmetries, which transform "internal degrees of freedom" (of [[electrons]]), located over each atomic site in the crystal (for example [[spin]]-exchange symmetry turning an [[electron]]'s [[spin]] state $\vert \uparrow \rangle$ into $\vert \downarrow \rangle$).
+1. $G$ may be an "external" **spatial** symmetry, namely a [[subgroup]] of the [[crystallographic group|crystallographic point group]] of the underlying [[crystal|crystalline]] material, canonically [[group action|acting]] on the [[Brillouin torus]] (BT) $\mathbb{T}^d$;
+
+   for example *inversion* $I$ is the sign reversal [[involution]] on $\mathbb{R}^d \twoheadrightarrow \mathbb{T}^d$
+
+1. $G$ may be [[time reversal symmetry]] or [[charge]] reversal, which acts as $I$ on the Brillouin torus, but in addition acts on the [[Hamiltonian]] by [[complex conjugation]] and, respectively, sign reversal;
+
+1. $G$ may be an **[[internal symmetry]]** which acts not on the position but on the "internal degrees of freedom" of (electrons in the) substance,
+
+   also called an **on-site** symmetry, which transforms "internal degrees of freedom" (of [[electrons]]), located over each atomic site in the crystal (for example [[spin]]-exchange symmetry turning an [[electron]]'s [[spin]] state $\vert \uparrow \rangle \xleftrightarrow{S} \vert \downarrow \rangle$).
 
 
 \begin{remark}\label{OnTerminology}
@@ -77,8 +95,8 @@ For instance the claim below that SPT's are "classified by [[group cohomology]]"
 \end{remark}
 
 
-[[SymmetriesOfCrystallineTopologicalInsulators-220515.jpg:file]]
- 
+
+
 
 ## Examples
 
@@ -248,6 +266,9 @@ See also:
 
 * {#WangSenthil14} Chong Wang, T. Senthil, *Interacting fermionic topological insulators/superconductors in three dimensions*, Phys. Rev. B **89** 195124 (2014) $[$[arXiv:1401.1142](https://arxiv.org/abs/1401.1142), [doi:10.1103/PhysRevB.89.195124](https://doi.org/10.1103/PhysRevB.89.195124)$]$
 
+Some of the above material is taken from
+
+* {#SS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Topological Quantum Computation in TED-K]]* 
 
 #### Classification
 
