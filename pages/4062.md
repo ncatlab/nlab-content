@@ -177,19 +177,20 @@ The relationship between two of the adjoints in a multivariable adjunction can b
 
 ## References
 
-* [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in Kelly (ed.), Category Seminar, LNM 420.
+* [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in G.M. Kelly (ed.), Category Seminar, Lecture Notes in Mathematics **420** doi:[10.1007/BFb0063101](https://doi.org/10.1007/BFb0063101).
 
 * [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
 
-* {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520), (to appear: Journal of K-Theory).
+* {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], _Multivariable adjunctions and mates_, J. K-Theory **13** (2014), 337–396, [doi:10.1017/is013012007jkt250](https://doi.org/10.1017/is013012007jkt250), [arXiv:1208.4520](http://arxiv.org/abs/1208.4520). 
 
-* "Parametrized mates and multivariable adjunctions" [blog post](https://golem.ph.utexas.edu/category/2012/11/parametrized_mates_and_multiva.html)
+* [[Emily Riehl]], _Parametrized mates and multivariable adjunctions_ [blog post](https://golem.ph.utexas.edu/category/2012/11/parametrized_mates_and_multiva.html).
 
 {#ReferencesGeneralizationtoBicategories} Generalization to [[bicategories]] is discussed in
 
-* [[Aaron Lauda]], &#167;3 of _Frobenius algebras and ambidextrous adjunctions_, Theory and Applications of Categories, 16:84&#8211;122, 2006. 52
+* [[Aaron Lauda]], &#167;3 of _Frobenius algebras and ambidextrous adjunctions_, Theory and Applications of Categories, 16:84&#8211;122, 2006. 52, [journal abstract page](http://www.tac.mta.ca/tac/volumes/16/4/16-04abs.html).
 
-* [[Richard Garner]], [[Michael Shulman]], around 13.7 of _Enriched categories as a free cocompletion_ ([arXiv:1301.3191](https://arxiv.org/abs/1301.3191))
+* [[Richard Garner]], [[Michael Shulman]], around 13.7 of _Enriched categories as a free cocompletion_, Advances in Mathematics
+**289** (2016) Pages 1-94, [doi:10.1016/j.aim.2015.11.012](https://doi.org/10.1016/j.aim.2015.11.012), [arXiv:1301.3191](https://arxiv.org/abs/1301.3191).
 
 [[!redirects mates]]
 [[!redirects mate correspondence]]
