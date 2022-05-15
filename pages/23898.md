@@ -20,7 +20,7 @@
 
 ## Idea ##
 
-An [[evaluational category]] where [[morphisms]] satisfy the [[function extensionality|axiom of extensionality]]. 
+An [[evaluational category]] where [[morphisms]] satisfy the [[function extensionality|axiom of extensionality]]. "Extensional category" is new terminology for a concept I haven't yet seen discussed in the category-theoretic literature yet. 
 
 ## Definition ##
 
