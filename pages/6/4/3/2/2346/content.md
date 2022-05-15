@@ -126,7 +126,7 @@ $$
   }
 $$
 
-wich is computed by the strict [[pullback]]
+which is computed by the strict [[pullback]]
 
 $$
   \array{
