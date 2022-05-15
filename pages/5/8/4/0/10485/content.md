@@ -76,6 +76,8 @@ For instance the claim below that SPT's are "classified by [[group cohomology]]"
 
 \end{remark}
 
+
+[[SymmetriesOfCrystallineTopologicalInsulators-220515.jpg:file]]
  
 
 ## Examples
