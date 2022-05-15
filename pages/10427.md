@@ -159,6 +159,12 @@ Formalization of the [[shape modality|shape]]/[[flat modality|flat]]-[[fracture 
 
 * [[David Jaz Myers]], _Modal Fracture of Higher Groups_ ([arXiv:2106.15390](https://arxiv.org/abs/2106.15390))
 
+See also the proof of the [[Blakers-Massey theorem]] for modalities in this generality:
+
+* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
+
+
+
 [[!redirects modal homotopy type theories]]
 
 [[!redirects modal homotopy type]]
