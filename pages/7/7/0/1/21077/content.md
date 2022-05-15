@@ -56,5 +56,9 @@ On [[flavour anomalies]] via [[leptoquarks]] in [[Pati-Salam GUT]]$\,$[[intersec
 * [[Javier Fuentes-Martin]], [[Gino Isidori]], Julie Pagès, Ben A. Stefanek,
 *Flavor Non-universal Pati-Salam Unification and Neutrino Masses*, Physics Letters B Volume 820, 10 September 2021, 136484 ([arXiv:2012.10492](https://arxiv.org/abs/2012.10492), [talk recording](https://www.youtube.com/watch?v=ko4R8S8XYV4&t=2s))
 
+Textbook on the [[flavour anomalies]]:
+
+* Marina Artuso, [[Gino Isidori]], Sheldon Stone, *New Physics in $b$ Decays*, World Scientific (2020) $[$[doi:10.1142/9789811251306](https://www.worldscientific.com/doi/abs/10.1142/9789811251306_0001)$]$
+
 
 category: people
