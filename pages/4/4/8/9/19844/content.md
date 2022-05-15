@@ -530,6 +530,10 @@ Detailed introduction and survey as of May 2021;
 
 * {#Koppenburg21} [[Patrick Koppenburg]], *Penguin B decays*, 2021 ([cds:2767155](https://cds.cern.ch/record/2767155), [pdf](https://cds.cern.ch/record/2767155/files/Koppenburg-20210519-Usach.pdf))
 
+Textbook account:
+
+* Marina Artuso, [[Gino Isidori]], Sheldon Stone, *New Physics in $b$ Decays*, World Scientific (2020) $[$[doi:10.1142/9789811251306](https://www.worldscientific.com/doi/abs/10.1142/9789811251306_0001)$]$
+
 See also
 
 * CERN, _[LHCb flavour anomalies continue to intrigue](https://home.cern/scientists/updates/2017/06/lhcb-flavour-anomalies-continue-intrigue)_, June 2017
