@@ -25,6 +25,7 @@ Or a [[spinor]] field, in the absence of any [[magnetic field]] or [[spin-orbit 
 
 In [[condensed matter theory]], internal symmetries are also referred to as "on-site" symmetries, this referring to the sites of the atomic nuclei in the [[crystal]] lattice.
 
+
 ## Related concepts
 
 * [[symmetry group]]
@@ -34,6 +35,14 @@ In [[condensed matter theory]], internal symmetries are also referred to as "on-
 * [[symmetry protected topological phase]]
 
 * [[crystallographic group]]
+
+## References
+
+Explicit definition of internal symmetry [[condensed matter theory]]:
+
+* [[Charles Zhaoxi Xiong]], p. 13 of: *Classification and Construction of Topological Phases of Quantum Matter* $[$[arXiv:1906.02892](https://arxiv.org/abs/1906.02892)$]$
+
+Beware that old historical articles (eg. [Barlow 1883](crystal#Barlow1883)) used "internal symmetry" to refer to [[crystallographic group|crystallographic symmetry]] which now is referred to as "spatial symmetry" and regarded as non-internal.
 
 
 [[!redirects internal symmetries]]
