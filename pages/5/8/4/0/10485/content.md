@@ -20,6 +20,7 @@
 
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -117,6 +118,10 @@ But conceptual problems have remained with this proposal:
 From [Wang & Senthil 14, p. 1](#WangSenthil14)
 
 > this classification is now known not to be complete
+
+{#XiongQuoteOpenProblem} From [Xiong 18](#Xiong18):
+
+> Despite tremendous progress, a complete classification of SPT phases for arbitrary symmetries in arbitrary dimensions remains elusive. A number ofclassification proposals have been made in the general case: the Borel group cohomology proposal, the oriented cobordism proposal, the Freed-Hopkins proposal, and Kitaev’s proposal in the bosonic case; and the group supercohomology proposal, the spin cobordism proposal, the Freed-Hopkins proposal, and Kitaev’s proposal  in the fermionic case. These proposals give differing predictions in certain dimensions for certain symmetry groups that cannot be attributed to differences in definitions or conventions. While more careful analysis has uncovered previously overlooked phases and input from topological field theories has brought us closer than ever to our destination, we believe that we can do much more.
 
 From [BBCW 19, p. 3](#BBCW19):
 
@@ -270,6 +275,9 @@ Classification for free fermion SPT phases in [[twisted equivariant K-theory]]:
 
 For more on this see at *[[K-theory classification of topological phases of matter]]*
 
+Proposal that the general classification [[equivariant cohomology|equivariant]] [[Whitehead-generalized cohomology theory]]:
+
+* {#Xiong18} [[Charles Zhaoxi Xiong]], *Minimalist approach to the classification of symmetry protected topological phases*, J. Phys. A: Math. Theor. **51** 445001 (2018) $[$[doi:1701.00004](https://arxiv.org/abs/1701.00004), [doi:10.1088/1751-8121/aae0b1](https://doi.org/10.1088/1751-8121/aae0b1)$]$
 
 
 #### Examples
