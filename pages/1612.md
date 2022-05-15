@@ -66,7 +66,17 @@ A **modular tensor category** is a [[category]] with the following long list of 
 
 ## Examples
 
-Modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] (see there for more details). A database of examples is given by ([GannonH&#246;hn](#GannonHoehn)).
+### Rep categories of VOAs
+
+Many modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] (see there for more details), hence of chiral [[field (physics)|fields]] of [[2d conformal field theories]]. 
+
+A database of examples is given by ([GannonH&#246;hn](#GannonHoehn)).
+
+
+{#RelationToConformalBlocks} In this case the [[monoidal category|monoidal]] and the [[braided monoidal category|braided]] [[structure]] (hence the modular tensor structure) on the underlying representation category is entirely fixed by the space of [[conformal blocks]] of the [[2 CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks"), see eg. [Runkel, Sec. 4.3](#Runkel)
+
+
+
 
 ## References
 
@@ -76,13 +86,16 @@ Original article:
 
 * [[Vladimir Turaev]], *Modular categories and 3-manifold invariants*,  International Journal of Modern Physics B Vol. 06, No. 11n12, pp. 1807-1824 (1992) ([doi:10.1142/S0217979292000876](https://doi.org/10.1142/S0217979292000876))
 
-Review: 
+Review in the context of [[2d CFT]]/[[VOA]]
 
 * [Fuchs-Runkel-Schweigert 02, Sec. 2.1](#FuchsRunkelSchweigert02)
 
+* {#Runkel} [[Ingo Runkel]], *Algebra in Braided Tensor Categories and Conformal Field Theory* ([pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/alg.pdf))
+
+and with focus on relation to [[braid representations]]:
+
 * [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
 
-  > (with focus on relation to [[braid representations]])
 
 A list of examples (with an emphasis on [[representation categories]] of rational [[vertex operator algebras]]) is in
 
