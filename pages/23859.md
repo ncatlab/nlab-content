@@ -33,6 +33,13 @@ In addition to these *spatial symmetries*, the [[dynamics]] of the [[electrons]]
 
 ## References
 
+Historical articles:
+
+* {#Barlow1883} [[William Barlow]], *Probable Nature of the Internal Symmetry of Crystals*, Nature **29** (1883) 186–188 $[$[doi:10.1038/029186a0](https://doi.org/10.1038/029186a0)$]$
+
+
+Textbook accounts:
+
 * [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
 
 See also
