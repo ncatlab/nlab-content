@@ -30,7 +30,11 @@
 
 ## Idea
 
-A [[braided monoidal groupoid]] whose dagger adjoint of the braiding is the opposite [[braiding]], or equivalently, a 1-truncated [[En-algebra|$E_3$-space]] or [[E-infinity algebra|$E_\infty$-space]]. 
+A *braided monoidal groupoid* is a [[braided monoidal category]] whose [[underlying]] [[category]] happens to be a [[groupoid]] (hence all whose [[morphisms]] are [[isomorphisms]]).
+
+Equivalently: A [[braided monoidal groupoid]] whose dagger adjoint of the [[braiding]] is the opposite [[braiding]], 
+
+Equivalently, a [[1-type|1-truncated]] [[En-algebra|$E_3$-space]] or [[E-infinity algebra|$E_\infty$-space]]. 
 
 ## Definitions
 
