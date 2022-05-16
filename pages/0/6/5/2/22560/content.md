@@ -40,6 +40,8 @@ An [[Ackermann groupoid]] is a particular sort of [[poset]] that is magmoidal (w
 
 * [[magma]]
 
+* [[magmoidal groupoid]]
+
 * [[categorification]]
 
 * [[magmoid]]
