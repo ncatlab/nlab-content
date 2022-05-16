@@ -32,6 +32,7 @@ An **$A_n$-space** or **$A_n$-algebra in spaces** is a space (in the sense of an
 * [[A2-spatial groupoid]]
 * [[A3-spatial groupoid]]
 * [[A4-spatial groupoid]]
+* [[k-tuply associative n-groupoid]]
 
 [[!redirects A-n-space]]
 [[!redirects An-space]]
@@ -51,3 +52,26 @@ An **$A_n$-space** or **$A_n$-algebra in spaces** is a space (in the sense of an
 
 [[!redirects A-1 algebra]]
 [[!redirects A-1 algebras]]
+
+
+[[!redirects A1 space]]
+[[!redirects A1 spaces]]
+[[!redirects A2 space]]
+[[!redirects A2 spaces]]
+[[!redirects A3 space]]
+[[!redirects A3 spaces]]
+[[!redirects A4 space]]
+[[!redirects A4 spaces]]
+[[!redirects A5 space]]
+[[!redirects A5 spaces]]
+
+[[!redirects A1-space]]
+[[!redirects A1-spaces]]
+[[!redirects A2-space]]
+[[!redirects A2-spaces]]
+[[!redirects A3-space]]
+[[!redirects A3-spaces]]
+[[!redirects A4-space]]
+[[!redirects A4-spaces]]
+[[!redirects A5-space]]
+[[!redirects A5-spaces]]
