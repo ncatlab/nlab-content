@@ -153,6 +153,10 @@ In summary, it is important to make people understand that groups can be identif
 
   * [[commutative monoid]], [[cancellative monoid]]
 
+  * [[monoidal groupoid]], [[braided monoidal groupoid]], [[symmetric monoidal groupoid]]
+
+  * [[k-tuply monoidal n-groupoid]]
+
   * [[algebra in an (∞,1)-category|monoid object in a (∞,1)-category]]
 
 * [[topological monoid]]
