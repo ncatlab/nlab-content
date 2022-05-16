@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -44,7 +48,8 @@ In [[category theory]], a [[groupoid]] is a [[dagger category]] where every [[mo
 ## See also
 
 * [[magma]]
-* [[magmoidal category]]
+* [[groupoid]]
 * [[H-spatial groupoid]]
+* [[magmoidal category]]
 
 [[!redirects magmoidal groupoids]]
