@@ -37,6 +37,13 @@ satisfying three axioms:
 
 In [[string diagrams]], the trace $Tr(f) : A \to B$ of a morphism $f : A \otimes X \to B \otimes X$ is visualized by wrapping the outgoing wire representing $X$ to the incoming wire representing $X$, thus "tying a loop" in the diagram of $f$.  The three axioms above (as well as the naturality conditions) then all have natural graphical interpretations (see [Joyal-Street-Verity 96](#JoyalStreetVerity96) or [Hasegawa 1997](#Hasegawa97)).
 
+## Examples
+
+* The category of [[finite-dimensional vector spaces]] is traced monoidal. In skeletal form, the objects are natural numbers regarded as dimensions, morphisms are matrices regarded as linear maps, and tensor product is multiplication of the dimensions. The trace is a minor generalization of matrix trace:
+$$ Tr_{m,n}^p((a_{(i,j),(i',j')})_{(i,j),(i',j')\in m\times p\times n\times p})_{i,i'}=
+\sum_{j=1}^p a_{(i,j),(i',j)}.$$
+This is an instance of a trace in a compact closed category. 
+
 ## Properties
 
 ### Relation to compact closed categories
