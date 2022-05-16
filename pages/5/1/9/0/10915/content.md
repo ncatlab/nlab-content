@@ -147,6 +147,10 @@ A proof is given in [Wikipedia](http://en.wikipedia.org/wiki/Proof_that_%CF%80_i
 
 ## Related entries
 
+* [[circumference of a circle]]
+
+* [[radius]]
+
 * [[e]]
 
 * [[golden ratio]]
