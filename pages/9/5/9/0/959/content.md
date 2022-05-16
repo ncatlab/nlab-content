@@ -31,7 +31,7 @@ The given point serves as an equivalence between $(-1)$-morphisms (for now, see 
 
 ### Homotopy-theoretic
 
-Invoking the homotopy hypothesis, we define a __$k$-tuply monoidal $n$-groupoid__ to be an _$E_k$-$n$-type_: a [[topological space]] which is a [[homotopy n-type]] and which is equipped with an action by the [[little n-cubes operad|little k-cubes]] [[operad]] (or some operad equivalent to it).  The $k$-tuply groupal $n$-groupoids can then be identified with the [[grouplike topological monoid|grouplike]] $E_k$-[[E-k-space|spaces]].
+Invoking the homotopy hypothesis, we define a __[[k-tuply monoidal n-groupoid]]__ to be an _$E_k$-$n$-type_: a [[topological space]] which is a [[homotopy n-type]] and which is equipped with an action by the [[little n-cubes operad|little k-cubes]] [[operad]] (or some operad equivalent to it).  The $k$-tuply groupal $n$-groupoids can then be identified with the [[grouplike topological monoid|grouplike]] $E_k$-[[E-k-space|spaces]].
 
 It is a classical theorem of homotopy theory that grouplike $E_k$-spaces are the same as $k$-fold [[loop space]]s (see J.P. May, _The Geometry of Iterated Loop Spaces_).  This is the topological version of the delooping hypothesis (from which, of course, it takes its name).
 
@@ -55,6 +55,9 @@ There is a [[periodic table]] of $k$-tuply groupal $n$-groupoids:
 <tr><th>$4$</th><td>\"</td><td>\"</td><td>\"</td><td>[[symmetric 3-group]]</td><td>...</td><td>groupal [[E4-algebra]]</td></tr>
 <tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td><td>&#8942;</td></tr></table>
 
+## See also
+
+* [[k-tuply monoidal n-groupoid]]
 
 ## References
 
