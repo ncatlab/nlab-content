@@ -233,6 +233,10 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
 * [[symmetric bicategory]]
 
+* [[symmetric monoidal groupoid]]
+
+  * [[symmetric 2-group]], [[abelian ∞-group]]
+
 ## References
 
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
