@@ -43,6 +43,8 @@ So, a (2,1)-category is in particular modeled by
 
 * [[equivalence of (2,1)-categories]]
 
+* [[concrete (2,1)-category]]
+
 * [[monoidal (2,1)-category]], [[symmetric monoidal (2,1)-category]]
 
 ## References
