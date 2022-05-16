@@ -182,7 +182,7 @@ Discussion of vertex operator algebras as [[factorization algebras of observable
 
 The [[representation categories]] of (rational) vertex operator algebras ([[modular tensor categories]]) are discussed in
 
-* {#Huang} [[Yi-Zhi Huang]], _Vertex operator algebras, the Verlinde conjecture and modular tensor categories_ ([arXiv:math/0412261](http://arxiv.org/abs/math/0412261))
+* {#Huang} [[Yi-Zhi Huang]], *Vertex operator algebras, the Verlinde conjecture and modular tensor categories*, Proc. Nat. Acad. Sci. **102** (2005) 5352-5356 $[$[arXiv:math/0412261](http://arxiv.org/abs/math/0412261), [doi:10.1073/pnas.0409901102](https://doi.org/10.1073/pnas.0409901102)$]$
  
 
 * {#GannonHoehn} [[Terry Gannon]], [[Gerald Höhn]], Hiroshi Yamauchi, _[The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas/)_
