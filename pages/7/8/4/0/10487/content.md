@@ -56,6 +56,10 @@ On the classification of free fermion [[SPTs]]:
 
 * {#Wen12} [[Xiao-Gang Wen]], *Symmetry-protected topological phases in noninteracting fermion systems*, Phys. Rev. B **85** (2012) 085103 $[$[doi:10.1103/PhysRevB.85.085103](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.085103)$]$
 
+On [[internal symmetry|internal]]-[[symmetry protected topological phases]]:
+
+* {#YeWen13} Peng Ye, [[Xiao-Gang Wen]], *Projective construction of two-dimensional symmetry-protected topological phases with $\mathrm{U}(1)$, $SO(3)$, or $SU(2)$ symmetries*, Phys. Rev. B **87** 195128 (2013) $[$[doi:10.1103/PhysRevB.87.195128](https://doi.org/10.1103/PhysRevB.87.195128), [arXiv:1212.2121](https://arxiv.org/abs/1212.2121)$]$
+
 
 Claim that [[group cohomology]] classifies some [[symmetry protected topological phases]]:
 
