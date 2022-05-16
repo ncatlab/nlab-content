@@ -28,9 +28,10 @@
 |[[flexible algebra]]|[[flexible magmoid|flexible]] [[linear magmoid]]|
 |[[alternative algebra]]|[[alternative magmoid|alternative]] [[linear magmoid]]|
 |[[Lie algebra]]|[[Lie algebroid]]|
-|[[strict monoidal category]]|[[strict 2-category]]|
-|[[strict 2-group]]|[[strict 2-groupoid]]|
 |[[monoidal poset]]|[[2-poset]]|
+|[[strict monoidal groupoid]]|[[strict (2,1)-category]]|
+|[[strict 2-group]]|[[strict 2-groupoid]]|
+|[[strict monoidal category]]|[[strict 2-category]]|
 |[[monoidal groupoid]]|[[(2,1)-category]]|
-|[[monoidal category]]|[[2-category]]/[[bicategory]]|
 |[[2-group]]|[[2-groupoid]]/[[bigroupoid]]|
+|[[monoidal category]]|[[2-category]]/[[bicategory]]|
