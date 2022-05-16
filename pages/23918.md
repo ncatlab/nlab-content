@@ -30,7 +30,7 @@ Depending on which circle constant you use, given a [[radius]] $r$ of a circle $
 
 +-- {: .proof} 
 ###### Proof 
-In this proof, we are using the [[pi|circle constant]] $\tau = 2 \pi$. 
+In this proof, we are using the [[circle constant]] $\tau = 2 \pi$. 
 
 Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select a [[vector basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. The circle $\mathcal{C}$ could be parameterized by a function $f\overrightarrow{r}:[0, \tau] \to \mathbb{R}^2$ defined as 
 $$\overrightarrow{r}(\theta) \coloneqq r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}$$
