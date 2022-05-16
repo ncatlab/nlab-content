@@ -81,3 +81,6 @@ and is further developed in (e.g. regarding [[Hadamard states]]) in
 [[!redirects electrostatic force]]
 [[!redirects electrostatic forces]]
 
+[[!redirects electricity]]
+[[!redirects magnetism]]
+
