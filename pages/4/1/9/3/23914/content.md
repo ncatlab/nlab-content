@@ -32,7 +32,7 @@
 
 ### Homotopy-theoretic
 
-Invoking the homotopy hypothesis, we define a __$k$-tuply monoidal $n$-groupoid__ to be an _$E_k$-$n$-truncated type_: a [[topological space]] which is a [[homotopy n-type]] and which is equipped with an action by the [[little n-cubes operad|little k-cubes]] [[operad]] (or some operad equivalent to it). 
+Invoking the [[homotopy hypothesis]], we define a __$k$-tuply monoidal $n$-groupoid__ to be an _$E_k$-$n$-truncated type_: a [[topological space]] which is a [[homotopy n-type]] and which is equipped with an [[algebra over an operad|action]] by the [[little n-cubes operad|little k-cubes]] [[operad]] (or some operad equivalent to it). 
 
 ## The periodic table
  {#PeriodicTable}
@@ -52,3 +52,5 @@ There is a [[periodic table]] of $k$-tuply monoidal $n$-groupoids:
 * [[k-tuply associative n-groupoid]]
 * [[k-tuply groupal n-groupoid]]
 * [[k-tuply monoidal (n,r)-category]]
+
+[[!redirects k-tuply monoidal n-groupoids]]
