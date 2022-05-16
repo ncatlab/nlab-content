@@ -32,3 +32,5 @@
 ## References
 
 See the references at *[[2-category]]*.
+
+[[!redirects (2,1)-category theory]]
