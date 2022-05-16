@@ -95,6 +95,12 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 [[!redirects homotopy n-types]]
 
 
+[[!redirects 1-type]]
+[[!redirects 1-types]]
+[[!redirects 1-truncated type]]
+[[!redirects 1-truncated types]]
+
+
 [[!redirects 2-type]]
 [[!redirects 2-types]]
 [[!redirects homotopy 2-type]]
@@ -109,3 +115,4 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 
 [[!redirects truncated type]]
 [[!redirects truncated types]]
+
