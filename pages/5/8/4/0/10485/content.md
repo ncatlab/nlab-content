@@ -66,16 +66,18 @@ In other words:
 \end{imagefromfile}
 
 
-
 1. $G$ may be an "external" **spatial** symmetry, namely a [[subgroup]] of the [[crystallographic group|crystallographic point group]] of the underlying [[crystal|crystalline]] material, canonically [[group action|acting]] on the [[Brillouin torus]] (BT) $\mathbb{T}^d$;
 
-   for example *inversion* $I$ is the sign reversal [[involution]] on $\mathbb{R}^d \twoheadrightarrow \mathbb{T}^d$
+   for example *inversion* $I$ is the sign reversal [[involution]] on $\mathbb{R}^d \twoheadrightarrow \mathbb{T}^d$.
+
+   If a [[topological insulator]]-phase is "protected" by a [[crystallographic group|crystallographic point group symmetry]] this way (possibly including [[time-reversal symmetry]]), then one speaks of a *[[topological crystalline insulator]]*. 
 
 1. $G$ may be [[time reversal symmetry]] or [[charge]] reversal, which acts as $I$ on the Brillouin torus, but in addition acts on the [[Hamiltonian]] by [[complex conjugation]] and, respectively, sign reversal;
 
-1. $G$ may be an **[[internal symmetry]]** which acts not on the position but on the "internal degrees of freedom" of (electrons in the) substance,
+1. $G$ may be an **[[internal symmetry]]** which acts not on the position but on the "internal degrees of freedom" of (electrons in the) substance, which are, typically, located at each atomic site (whence also: "on-site symmetry").
 
-   also called an **on-site** symmetry, which transforms "internal degrees of freedom" (of [[electrons]]), located over each atomic site in the crystal (for example [[spin]]-exchange symmetry turning an [[electron]]'s [[spin]] state $\vert \uparrow \rangle \xleftrightarrow{S} \vert \downarrow \rangle$).
+   The prime example of an internal symmetry are ([[finite subgroup of SU(2)|finite]]) [[subgroups]] of the [[Spin(3)]]$\simeq$[[SU(2)]]-group which [[spin representation|acts]] on the [[electron]] [[spins]]. This will be a symmetry to the extent that spin [[interactions]] (such as the [[spin-orbit coupling]] or the intrinsic [[Lorentz force]] due to an external [[magnetic field]]) are negligible.
+
 
 
 \begin{remark}\label{OnTerminology}
@@ -100,15 +102,22 @@ For instance the claim below that SPT's are "classified by [[group cohomology]]"
 
 ## Examples
 
+### Spatial symmetry
+
+
 * The [[topological insulator]]/[[semi-metal]]-phase of [[graphene]] is protected  by [[time-reversal symmetry]] $T$ (and inversion symmetry $I$),  and for this historical reason this $T$- and/or $T I$-symmetry protection is taken by some authors to be the default meaning of [[topological insulator]].
 
 * *Removing* the $T$/$I$-protection of the phase of graphene leads to *un-protected* [[Chern insulators]] such as (modeled by) the [[Haldane model]].
 
-Unrelated to this is another example also named after [[Duncan Haldane]]
+For more on spatial-SPT *[[topological crystalline insulator]]*-phases, see [there](topological+crystalline+insulator#ReferencesExperimentalRealization) for concrete examples.
 
-* The first example of SPT order is the Haldane phase of spin-1 chain ([Haldane 83](#Haldane83)). It is a SPT phase protected by the [[SO(3)|$SO(3)$]] spin [[rotation group]] symmetry. (?) 
 
-> If a [[topological insulator]]-phase is "protected" by a [[crystallographic group|crystallographic point group symmetry]] this way, then one speaks of a *[[topological crystalline insulator]]*. See [there](topological+crystalline+insulator#ReferencesExperimentalRealization) for concrete examples.
+### Internal symmetry
+
+
+* The first example of SPT order is the [[Haldane phase]] of the [[Heisenberg model]] [[spin chain|spin-1 chain]] ([Haldane 83](#Haldane83)). It is a SPT phase protected by the [[internal symmetry]] [[Spin(3)|$Spin(3)$]]-group acting on the [[electron]] [[spin]] (often referred to in this context as a [[projective representation]] of [[SO(3)|$SO(3)$]]).
+
+More examples of internal-SPT: [Ye & Wen 13](#YeWen13), [CLV 14](#CLV14), [Yang-Liu 18](#YangLiu18) ...
 
 
 
@@ -117,7 +126,7 @@ Unrelated to this is another example also named after [[Duncan Haldane]]
 ### Classification 
  {#Classification}
 
-#### External symmetries
+#### Spatial symmetries
 
 Symmetry protected [[crystal|crystalline]] phases where the [[dynamics]] of the [[electrons]] may approximately be regarded [[free field|free]] (but subject to the the atomic lattice Coulomb [[background field]], see [here](Dirac+field#FreeDiracFieldInCoulombBackground)) are thought to be classified by [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] of the [[Brillouin torus]]. This is the statement of the [[K-theory classification of topological phases of matter]]. 
 
@@ -243,7 +252,19 @@ Here the mapping stack adjunction...
 
 See also:
 
+* {#YeWen13} Peng Ye, [[Xiao-Gang Wen]], *Projective construction of two-dimensional symmetry-protected topological phases with $\mathrm{U}(1)$, $SO(3)$, or $SU(2)$ symmetries*, Phys. Rev. B **87** 195128 (2013) $[$[doi:10.1103/PhysRevB.87.195128](https://doi.org/10.1103/PhysRevB.87.195128), [arXiv:1212.2121](https://arxiv.org/abs/1212.2121)$]$
+
+
 * {#CLM12} Gil Young Cho, Yuan-Ming Lu, and [[Joel E. Moore]], *Gapless edge states of background field theory and translation-symmetric $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **86** 125101 (2012) $[$[arXiv:10.1103/PhysRevB.86.125101](https://doi.org/10.1103/PhysRevB.86.125101)$]$
+
+
+* {#CLV14} [[Xie Chen]], Yuan-Ming Lu, Ashvin Vishwanath, *Symmetry-protected topological phases from decorated domain walls*, Nature Communications **5** 3507  (2014) $[$[doi:10.1038/ncomms4507](https://doi.org/10.1038/ncomms4507)$]$
+
+
+* {#YangLiu18} Jian Yang, [[Zheng-Xin Liu]], *Irreducible Projective Representations and Their Physical Applications*, J. Phys. A: Math. Theor. **51** 025207 (2018) $[$[doi:10.1088/1751-8121/aa971a](https://doi.org/10.1088/1751-8121/aa971a), [arXiv:1605.05805](https://arxiv.org/abs/1605.05805)$]$
+
+* Yoshiko Ogata, *An invariant of symmetry protected topological phases with on-site finite group symmetry for two-dimensional Fermion systems* $[$[arXiv:2110.04672](https://arxiv.org/abs/2110.04672)$]$
+
 
 
 #### Reviews
