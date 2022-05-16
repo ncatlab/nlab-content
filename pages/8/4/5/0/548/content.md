@@ -29,7 +29,7 @@ The notion of  _2-group_ is a [[vertical categorification]] of the notion of _[[
 It is the special case of an [[n-group]] for $n=2$, equivalently an [[∞-group]] which is [[n-truncated|1-truncated]]. Under the [[looping and delooping]]-equivalence, 2-groups are equivalent to [[pointed object|pointed]] [[n-connected|connected]] [[homotopy n-type|homotopy 2-types]].
 
 
-Somewhat more precisely, a _$2$-group_ is a [[group object]] in the [[(2,1)-category]] of [[groupoids]].  Equivalently, it is a [[monoidal category|monoidal groupoid]] in which the [[tensor product]] with any [[object]] has an [[inverse]] up to [[isomorphism]].  Also equivalently, by the [[looping and delooping]]-equivalence, it is a [[pointed object|pointed]] [[2-groupoid]] with a single [[equivalence class]] of objects.
+Somewhat more precisely, a _$2$-group_ is a [[group object]] in the [[(2,1)-category]] of [[groupoids]].  Equivalently, it is a [[monoidal groupoid]] in which the [[tensor product]] with any [[object]] has an [[inverse]] up to [[isomorphism]].  Also equivalently, by the [[looping and delooping]]-equivalence, it is a [[pointed object|pointed]] [[2-groupoid]] with a single [[equivalence class]] of objects.
 
 Like other notions of [[higher category theory]], $2$-groups come in weak and strict forms, depending on how you interpret the above.
 
@@ -344,6 +344,8 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 ## Related concepts
 
 * [[group]]
+
+* [[groupoid]], [[monoidal groupoid]]
 
 * **2-group**, [[crossed module]], [[differential crossed module]]
 
