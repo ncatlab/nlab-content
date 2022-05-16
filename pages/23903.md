@@ -23,7 +23,7 @@
 
 ## Idea
 
-A version of a [[concrete category]] in the setting of (2,1)-category theory. 
+A generalization of the notion of *[[concrete category]]* from [[category theory]] to [[(2,1)-category theory]]. 
 
 ## Definition 
 
@@ -33,15 +33,15 @@ A version of a [[concrete category]] in the setting of (2,1)-category theory.
 A __concrete (2,1)-category__ is a [[(2,1)-category]] $C$ equipped with a [[k-surjective functor|3-surjective functor]]
   
   $$
-    U : C \to Grpd
+    U \colon C \to Grpd
   $$
 
-to the [[large]] [[(2,1)-category]] [[Grpd]]. We say a (2,1)-category $C$ is _concretizable_ if and only if it admits a 3-surjective functor $U: C \to Grpd$. 
+to the [[large]] [[(2,1)-category]] [[Grpd]] of [[groupoids]]. We say a (2,1)-category $C$ is _concretizable_ if and only if it admits a 3-surjective functor $U \colon C \to Grpd$. 
 =-- 
 
 ## Examples
 
-* The (2,1)-category $Grpd$ of [[groupoids]] is a concrete (2,1)-category.
+* The (2,1)-category [[Grpd|$Grpd$]] of [[groupoids]] is a concrete (2,1)-category.
 
 * The (2,1)-category $MonGrpd$ of [[monoidal groupoids]] is a concrete (2,1)-category.
 
@@ -53,10 +53,13 @@ to the [[large]] [[(2,1)-category]] [[Grpd]]. We say a (2,1)-category $C$ is _co
 
 * The (2,1)-category $Symmetric2Grp$ of [[symmetric 2-groups]] is a concrete (2,1)-category.
 
-* The (2,1)-category $Cat$ of [[weak categories]] is a concrete (2,1)-category. 
+* The (2,1)-category [[Cat|$Cat$]] of [[weak categories]] (with [[functors]] between these and [[natural isomorphisms]] between those) is a concrete (2,1)-category. 
 
 ## Related concepts
 
 * [[(2,1)-category]]
 * [[concrete object]]
 * [[concrete category]]
+
+[[!redirects concrete (2,1)-categories]]
+
