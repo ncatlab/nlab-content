@@ -147,6 +147,7 @@ A similar way to use Isbell's result applies to show that a really vast number o
 
 * [[concrete object]]
 * [[amnestic functor]]  (for many usual concrete categories, the forgetful functor happens to be amnestic)
+* [[concrete (2,1)-category]]
 * [[evaluational category]]
 
 ## References
