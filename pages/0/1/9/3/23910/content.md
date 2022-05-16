@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
