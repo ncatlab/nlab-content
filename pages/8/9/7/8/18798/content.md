@@ -20,6 +20,8 @@ See at _[[trigonometric function]]_.
 
 ## Related concepts
 
+* [[periodic function]]
+
 * [[trigonometry]]
 
 * [[sine]]
