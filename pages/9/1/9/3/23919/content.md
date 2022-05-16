@@ -23,15 +23,15 @@
 
 ## Idea ##
 
-The area of a circle as discussed in geometry. 
+The [[area]] enclosed by a [[circle]] as discussed in [[Euclidean geometry]]. 
 
 ## Definition/proposition and proofs
 
-Strictly speaking, we are talking about the area of the interior of the circle, or the area of a [[disk]]; however, the average person usually identifies the interior of a geometric shape by its boundary. 
+Strictly speaking, we are talking about the area of the [[disk]] whose [[boundary]] is the circle; however, the average person usually identifies the interior of a geometric shape with its boundary. 
 
 +-- {: .num_prop} 
 ###### Proposition
-Depending on which circle constant you use, given a radius $r$ of a circle $\mathcal{C}$ in the [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, the area of a circle is either $A = \frac{1}{2} \tau r^2$ or $C = \pi r^2$. 
+Depending on which [[pi|circle constant]] you use, given a radius $r$ of a circle $\mathcal{C}$ in the [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, the area of a circle is expressed either as $A = \frac{1}{2} \tau r^2$ or as $C = \pi r^2$. 
 =--
 
 ### Proof by double integration
