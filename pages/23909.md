@@ -56,6 +56,7 @@ The [[oidification]] of a monoidal groupoid is a [[(2,1)-category]].
 * [[A4-spatial groupoid]]
 * [[2-group]], [[Picard groupoid]]
 * [[braided monoidal groupoid]]
+* [[k-tuply monoidal n-groupoid]]
 * [[ring groupoid]]
 * [[monoidal category]], [[monoidal dagger category]]
 * [[(2,1)-category]]
