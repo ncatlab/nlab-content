@@ -35,6 +35,10 @@ So, a (2,1)-category is in particular modeled by
 
 * an [[(∞,1)-category]] that is 2-[[truncated]].
 
+## Properties
+
+The [[oidification]] of a [[monoidal groupoid]] is a (2,1)-category.
+
 ## Related concepts
 
 * [[hom-groupoid]]
@@ -47,13 +51,15 @@ So, a (2,1)-category is in particular modeled by
 
 * [[monoidal (2,1)-category]], [[symmetric monoidal (2,1)-category]]
 
+* [[monoidal groupoid]]
+
 ## References
 
 The special case of [[strict (2,1)-categories]], motivated from the [[homotopy 2-category]] of [[topological spaces]]:
 
 * [[Peter H. H. Fantham]], [[Eric J. Moore]], *Groupoid Enriched Categories and Homotopy Theory*, Canadian Journal of Mathematics **35** 3 (1983) 385-416 ([doi:10.4153/CJM-1983-022-8](https://doi.org/10.4153/CJM-1983-022-8))
   
-
+[[!include oidification - table]]
 
 [[!redirects (2,1)-categories]]
 
