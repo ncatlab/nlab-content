@@ -26,7 +26,12 @@
 
 ## Idea
 
-A [[A4-spatial groupoid|$A_4$-spatial groupoid]] whose unitors satisfy the [[triangle identities]], or equivalently, a 1-truncated [[A-infinity space|$A_\infty$-space]]/[[En-algebra|$E_1$-space]]. 
+A [[monoidal category]] whose underlying [[category]] is a [[groupoid]] (hence all whose [[morphisms]] are [[invertible morphism|invertible]]).
+
+Equivalently: an [[A4-spatial groupoid|$A_4$-spatial groupoid]] whose [[unitors]] satisfy the [[triangle identities]]; 
+
+Equivalently: a [[1-type|1-truncated]] [[A-infinity space|$A_\infty$-space]]/[[En-algebra|$E_1$-space]]. 
+
 
 ## Definitions
 
@@ -45,7 +50,7 @@ The [[oidification]] of a monoidal groupoid is a [[(2,1)-category]].
 * [[En-algebra]]
 * [[groupoid]]
 * [[A4-spatial groupoid]]
-* [[2-group]]
+* [[2-group]], [[Picard groupoid]]
 * [[braided monoidal groupoid]]
 * [[ring groupoid]]
 * [[monoidal category]], [[monoidal dagger category]]
@@ -55,3 +60,4 @@ The [[oidification]] of a monoidal groupoid is a [[(2,1)-category]].
 
 [[!redirects monoidal groupoid]]
 [[!redirects monoidal groupoids]]
+
