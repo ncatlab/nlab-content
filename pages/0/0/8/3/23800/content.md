@@ -18,5 +18,10 @@ On [[topological crystalline insulators]]:
 * Timothy H Hsieh, Hsin Lin, Junwei Liu, Wenhui Duan, Arun Bansil, [[Liang Fu]], *Topological crystalline insulators in the SnTe material class*, 
 Nature Communications **3** (2012) 982 $[$[doi:10.1038/ncomms1969](https://doi.org/10.1038/ncomms1969)$]$
 
+Further on [[symmetry protected topological phases]] under [[crystallographic symmetry]]:
+
+* Hao Song, Sheng-Jie Huang, [[Liang Fu]], Michael Hermele, *Topological phases protected by point group symmetry*, Phys. Rev. X **7** (2017) 011020 $[$[arXiv:1604.08151](https://arxiv.org/abs/1604.08151), [doi:10.1103/PhysRevX.7.011020](https://doi.org/10.1103/PhysRevX.7.011020)$]$
+
+
 category: people
 
