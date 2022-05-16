@@ -61,6 +61,8 @@ See there for more.
 
 * [[2-group]], [[braided 2-group]], [[symmetric 2-group]]
 
+* [[k-tuply monoidal n-groupoid]]
+
 * [[k-tuply monoidal (n,r)-category]]
 
 * [[k-tuply groupal n-groupoid]]
