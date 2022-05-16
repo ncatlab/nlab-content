@@ -27,7 +27,9 @@
 
 ## Idea
 
-In type theory, a 1-truncated type with a binary operation. In category theory, the [[groupoidal categorification]] of a [[magma]]. 
+In [[category theory]], the notion of a *magmoidal groupoid* is the [[groupoidal categorification]] of the notion of *[[magma]]*, hence a magmoidal groupoid is simply a [[groupoid]] equipped with a "[[binary operation]]" on it.
+Similarly, under the [[relation between category theory and type theory]],
+in [[homotopy type theory]] a *magmoidal groupoid* is a [[1-truncated type]] equipped with a binary operation.  
 
 ## Definitions
 
@@ -44,3 +46,5 @@ In [[category theory]], a [[groupoid]] is a [[dagger category]] where every [[mo
 * [[magma]]
 * [[magmoidal category]]
 * [[H-spatial groupoid]]
+
+[[!redirects magmoidal groupoids]]
