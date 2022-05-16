@@ -40,6 +40,8 @@ A [[2-group]] $G$ is _braided_ if it is equipped with the following equivalent [
 
 ## Related concepts
 
+* [[braided monoidal groupoid]]
+
 * [[k-tuply groupal n-groupoid]]
 
 * [[symmetric 2-group]]
