@@ -55,6 +55,8 @@ There is an [[equivalence of (∞,1)-categories]] between pointed connected [[A-
 
 * [[monoid]], [[monoidal groupoid]]
 
+* [[k-tuply associative n-groupoid]]
+
 * [[A-infinity category]]
 
 
