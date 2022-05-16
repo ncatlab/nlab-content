@@ -121,7 +121,7 @@ More or less immediate consequences of the definition include
 
 * $(\sin)' = \cos$ and $(\cos)' = -\sin$ (by [[differentiation|differentiating]] $\exp(i t)$); the connection with the arc length parametrization of the unit circle is that the derivative of the position vector $p'(t) = (\exp(i t))'$ is a velocity vector $i\exp(i t)$ of unit length; 
 
-* $\cos(x + 2\pi) = \cos(x)$ and $\sin(x+2\pi) = \sin(x)$ ("periodicity"), according to the modern definition of [[pi]]; 
+* $\cos(x + 2\pi) = \cos(x)$ and $\sin(x+2\pi) = \sin(x)$ ("[[periodicity]]"), according to the modern definition of [[pi]]; 
 
 * $\cos(x) = \sum_{n \geq 0} (-1)^n \frac{x^{2 n}}{(2 n)!}$ and $\sin(x) = \sum_{n \geq 0} (-1)^n \frac{x^{2 n + 1}}{(2 n + 1)!}$, by exploiting the power series representation of the exponential function. 
 
