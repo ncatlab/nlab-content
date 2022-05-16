@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 #### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
@@ -31,7 +35,25 @@ Strictly speaking, we are talking about the area of the [[disk]] whose [[boundar
 
 +-- {: .num_prop} 
 ###### Proposition
-Depending on which [[pi|circle constant]] you use, given a radius $r$ of a circle $\mathcal{C}$ in the [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, the area of a circle is expressed either as $A = \frac{1}{2} \tau r^2$ or as $C = \pi r^2$. 
+Depending on which [[circle constant]] you use, given a radius $r$ of a circle $\mathcal{C}$ in the [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, the area of a circle is expressed either as $A = \frac{1}{2} \tau r^2$ or as $C = \pi r^2$. 
+=--
+### Proof by limits
+
++-- {: .proof} 
+###### Proof 
+In this proof, we are using the circle constant $\tau = 2 \pi$. 
+
+The area of a [[regular polygon]] $\mathcal{P}_n$ with $n$ sides and [[circumradius]] $r$ is given by the sequence of functions $P:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$
+
+$$A_\mathcal{P}(n)(r) = \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right)$$
+
+which [[embedding|embeds]] in the $\mathbb{R}_+$-[[action]] $A_\mathcal{P}^\prime:\mathbb{R}_+ \to (\mathbb{R} \to \mathbb{R})$, defined as
+
+$$A_\mathcal{P}^\prime(n)(r) = r n \sin\left(\frac{\tau}{n}\right)$$
+
+The [[limit of a function|limit]] of $A_\mathcal{P}^\prime$ as $n$ goes to infinity is the area of a circle with radius $r$:
+
+$$A(r) = \lim_{n \to \infty} A_\mathcal{P}^\prime(n)(r) = \lim_{n \to \infty} \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right) = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\sin(\tau m)}{m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\partial_m \sin(\tau m)}{\partial_m m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\tau \cos(\tau m)}{1} = \frac{1}{2} \tau r^2$$
 =--
 
 ### Proof by double integration
@@ -40,16 +62,16 @@ Depending on which [[pi|circle constant]] you use, given a radius $r$ of a circl
 ###### Proof 
 In this proof, we are using the circle constant $\tau = 2 \pi$. 
 
-Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select a [[vector basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \times [0, r] \to \mathbb{R}^2$ defined as 
+Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select an [[orthonormal basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \times [0, r] \to \mathbb{R}^2$ defined as 
 $$\overrightarrow{r}(\rho, \theta) \coloneqq \rho \cos(\theta) \hat{i} + \rho \sin(\theta) \hat{j}$$
 
 Then the area of $\mathcal{C}$ is given by the following [[double integral]]:
 
-$$A = \int_{0}^{r} \int_{0}^{\tau} \vert \overrightarrow{r}(\rho, \theta) \vert d \theta d \rho$$
+$$A(r) = \int_{0}^{r} \int_{0}^{\tau} \vert \overrightarrow{r}(\rho, \theta) \vert d \theta d \rho$$
 
 which evaluates to 
 
-$$A = \int_{0}^{r} \int_{0}^{\tau} \vert \rho \cos(\theta) \hat{i} + \rho \sin(\theta) \hat{j} \vert d \theta d \rho = \int_{0}^{r} \int_{0}^{\tau} \rho((\cos(\theta))^2 + (\sin(\theta))^2) d \theta d \rho = \int_{0}^{r} \int_{0}^{\tau} \rho d \theta d \rho = \int_{0}^{r} \tau \rho d \rho = \frac{1}{2} \tau r$$
+$$A(r) = \int_{0}^{r} \int_{0}^{\tau} \vert \rho \cos(\theta) \hat{i} + \rho \sin(\theta) \hat{j} \vert d \theta d \rho = \int_{0}^{r} \int_{0}^{\tau} \rho((\cos(\theta))^2 + (\sin(\theta))^2) d \theta d \rho = \int_{0}^{r} \int_{0}^{\tau} \rho d \theta d \rho = \int_{0}^{r} \tau \rho d \rho = \frac{1}{2} \tau r$$
 =--
 
 ### Proof by areal velocity
@@ -58,21 +80,21 @@ $$A = \int_{0}^{r} \int_{0}^{\tau} \vert \rho \cos(\theta) \hat{i} + \rho \sin(\
 ###### Proof 
 In this proof, we are using the circle constant $\tau = 2 \pi$. 
 
-Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select a [[vector basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. There is an [[geometric algebra]] $\mathbb{G}^2$ on the vector space defined by the equations $\hat{i}^2 = 1$, $\hat{j}^2 = 1$, and $\hat{i} \hat{j} = -\hat{j} \hat{i}$. 
+Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select an [[orthonormal basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. There is an [[geometric algebra]] $\mathbb{G}^2$ on the vector space defined by the equations $\hat{i}^2 = 1$, $\hat{j}^2 = 1$, and $\hat{i} \hat{j} = -\hat{j} \hat{i}$. 
 
 The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \to \mathbb{R}^2$ defined as 
 $$\overrightarrow{r}(\theta) \coloneqq r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}$$
 
 Then the area of $\mathcal{C}$ is given by the magnitude of the [[areal velocity]]:
 
-$$A = \left|\int_{0}^{\tau} \frac{\overrightarrow{r}(\theta) \wedge \partial_\theta\overrightarrow{r}(\theta)}{2} d \theta\right|$$
+$$A(r) = \left|\int_{0}^{\tau} \frac{\overrightarrow{r}(\theta) \wedge \partial_\theta\overrightarrow{r}(\theta)}{2} d \theta\right|$$
 
 where $a \wedge b$ is the wedge product of two multivectors $a$ and $b$, which evaluates to 
 
-$$A = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge \partial_\theta (r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j})}{2} d \theta\right|$$
-$$A = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge (-r \sin(\theta) \hat{i} + r \cos(\theta) \hat{j})}{2} d \theta\right|$$
-$$A = \left|\int_{0}^{\tau} \frac{(r (\cos(\theta))^2 \hat{i} \hat{j} + r (\sin(\theta))^2 \hat{i} \hat{j})}{2} d \theta\right|$$
-$$A = \left|\int_{0}^{\tau} \frac{r \hat{i} \hat{j}}{2} d \theta\right| = \left|\frac{\tau r \hat{i} \hat{j}}{2}\right| = \frac{1}{2} \tau r$$
+$$A(r) = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge \partial_\theta (r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j})}{2} d \theta\right|$$
+$$A(r) = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge (-r \sin(\theta) \hat{i} + r \cos(\theta) \hat{j})}{2} d \theta\right|$$
+$$A(r) = \left|\int_{0}^{\tau} \frac{(r (\cos(\theta))^2 \hat{i} \hat{j} + r (\sin(\theta))^2 \hat{i} \hat{j})}{2} d \theta\right|$$
+$$A(r) = \left|\int_{0}^{\tau} \frac{r \hat{i} \hat{j}}{2} d \theta\right| = \left|\frac{\tau r \hat{i} \hat{j}}{2}\right| = \frac{1}{2} \tau r$$
 =--
 
 ### Proof by action functionals
@@ -81,16 +103,16 @@ $$A = \left|\int_{0}^{\tau} \frac{r \hat{i} \hat{j}}{2} d \theta\right| = \left|
 ###### Proof 
 In this proof, we are using the circle constant $\tau = 2 \pi$. 
 
-Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select a [[vector basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \to \mathbb{R}^2$ defined as 
+Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select an [[orthonormal basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \to \mathbb{R}^2$ defined as 
 $$\overrightarrow{r}(\theta) \coloneqq r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}$$
 
 Then the area of $\mathcal{C}$ is given by the [[action functional]] of the parameterized curve:
 
-$$A = \frac{1}{2} \int_{0}^{\tau} {\vert \overrightarrow{r}(\theta) \vert}^2 d \theta$$
+$$A(r) = \frac{1}{2} \int_{0}^{\tau} {\vert \overrightarrow{r}(\theta) \vert}^2 d \theta$$
 
 which evaluates to 
 
-$$A = \frac{1}{2} \int_{0}^{\tau} {\vert r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j} \vert}^2 d \theta = \frac{1}{2} \int_{0}^{\tau} (r((\cos(\theta))^2 + (\sin(\theta))^2))^2 d \theta = \frac{1}{2} \int_{0}^{\tau} r^2 d \theta = \frac{1}{2} \tau r$$
+$$A(r) = \frac{1}{2} \int_{0}^{\tau} {\vert r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j} \vert}^2 d \theta = \frac{1}{2} \int_{0}^{\tau} (r((\cos(\theta))^2 + (\sin(\theta))^2))^2 d \theta = \frac{1}{2} \int_{0}^{\tau} r^2 d \theta = \frac{1}{2} \tau r$$
 =--
 
 ## See also
