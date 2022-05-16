@@ -9,6 +9,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 #### Categorification
 +-- {: .hide}
 [[!include categorification - contents]]
