@@ -53,6 +53,8 @@ There is an [[equivalence of (∞,1)-categories]] between pointed connected [[A-
 
 * [[H-space]], [[A-n space]]
 
+* [[monoid]], [[monoidal groupoid]]
+
 * [[A-infinity category]]
 
 
