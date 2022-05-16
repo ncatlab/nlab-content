@@ -2,6 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
 #### Category theory
 +-- {: .hide}
 [[!include category theory - contents]]
@@ -15,9 +27,9 @@
 
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_.  This is appropriate for an encyclopedia.
 
-However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, the $n$Lab *has* a particular point of view, which we may call the **$n$POV** or the _[[higher category theory|n-]] [[category theory|categorical]] point of view_.
+However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, the $n$Lab *has* a particular point of view, which we may call the **$n$POV**, the _[[higher algebra|higher algebraic]]_, [[homotopy theory|homotopical]], or _[[higher category theory|n-]] [[category theory|categorical]] point of view_.
 
-To some extent the $n$POV is just the observation that [[category theory]] and [[higher category theory]], hence in particular of [[homotopy theory]], have a plethora of useful applications.
+To some extent the $n$POV is just the observation that [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]], have a plethora of useful applications.
 
 
 # $n$POV
@@ -26,18 +38,27 @@ To some extent the $n$POV is just the observation that [[category theory]] and [
 
 ## Idea
 
-Around the [[HomePage|nLab]] it is believed that [[category theory]] and [[higher category theory]] provide a point of view on [[Mathematics]], [[Physics]] and [[Philosophy]] which is a valuable unifying point of view for the understanding of the concepts involved.
+Around the [[HomePage|nLab]] it is believed that [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]] provide a point of view on [[Mathematics]], [[Physics]] and [[Philosophy]] which is a valuable unifying point of view for the understanding of the concepts involved.
 
-So at the $n$Lab, we don't care so much about being neutral.  Although we don't want to offend people unnecessarily, we are also not ashamed about writing from this particular point of view.  There are certainly other valid points of view on mathematics, but describing them and being neutral towards them is not the purpose of the $n$Lab.  Rather, the $n$Lab starts from the premise that category theory and higher category theory are a true and useful point of view, and one of its aims is to expose this point of view generally and in a multitude of examples, and thereby accumulate evidence for it.
+So at the $n$Lab, we don't care so much about being neutral.  Although we don't want to offend people unnecessarily, we are also not ashamed about writing from this particular point of view.  There are certainly other valid points of view on mathematics, but describing them and being neutral towards them is not the purpose of the $n$Lab.  Rather, the $n$Lab starts from the premise that higher algebra, homotopy theory, type theory, category theory and higher category theory are a true and useful point of view, and one of its aims is to expose this point of view generally and in a multitude of examples, and thereby accumulate evidence for it.
 
-If you feel skeptical about the $n$-point of view, you may want to ignore the $n$Lab. Or you may want to take its content as a contribution to a discussion on what is behind the claim that category theory is the right language to describe the world, or at least the world of mathematical ideas.
+If you feel skeptical about the $n$-point of view, you may want to ignore the $n$Lab. Or you may want to take its content as a contribution to a discussion on what is behind the claim that higher algebra, homotopy theory, type theory, and/or category theory is the right language to describe the world, or at least the world of mathematical ideas.
+
+### Category theory
 
 As recalled in parts on the page on [[category theory]], category theorists have early on, beginning in the 1960s, proclaimed the advantages of category theory over other points of view. It has been observed that this claim, or at least the way it has been put forward, has contributed to a certain alienation of category theory in parts of the mathematical community. That may be true and is understandable. But since a claim is not false _just_ because it is put forward with possibly unpleasant boldness, all evidence for the claim deserves to be collected and exposed. We hope the $n$Lab to play a role in this effort.
 
 In particular, there have been dramatic developments since the 1960s. Back then promoting category theory may have been as visionary as the invention of [[complex numbers]] was in the 16th century. But just as the early rejections of the complex numbers appear strangely out of place from today's perspective, where their ubiquity proves their reality to the point that it is hard to imagine how life must have been before their conception, so developments of category theory and its applications in the last years have in many areas brought it to the point that rejecting its prevalence amounts (we believe) to rejecting the obvious and ubiquitous. But also mathematics as a whole has drastically grown since then, and while category theory has become an entirely obvious ingredient in areas such as [[homotopy theory]], [[homological algebra]], [[algebraic geometry]] and even fields like [[topological quantum field theory]], its similar role to be played in many other areas has often not found wide recognition yet. But this is gradually changing. 
 
+### Higher algebra/Homotopy theory/Type theory
+
+From the perspective of [[higher algebra]], [[homotopy theory]], and [[type theory]], the fundamental objects of mathematics are [[homotopy types]] or [[infinity-groupoid|$\infty$-groupoids]], and the $n$-truncated versions of them, the [[n-groupoid|$n$-groupoids]], due to their differing treatment of [[equality]]/[[equivalence]] of such objects. This perspective is somewhat different from the perspective of category theory, as category theory takes $n$-categories to be more fundamental than $n$-groupoids, while these branches of mathematics view $n$-categories merely as $n$-groupoids with additional higher structure on top of the [[core]] $n$-groupoid. In particular, $n$-categories are merely specific kinds of $(n,r)$-[[(n,r)-quiver|quivers]]. 
+
+On the other hand, from this perspective, if one were to take the directed structure to be more fundamental as one does in category theory, then the fundamental structures would end up being $n$-[[n-poset|posets]] rather than $n$-[[n-category|categories]]; in particular, taking [[preorder]] to be more fundamental than [[equivalence relations]]/[[equality]]. 
 
 ## The role of the $n$POV {#RoleOfnPOV}
+
+### Category theory
 
 Practitioners of category theory have often attempted to express the striking power of category theory (or general conceptual methods), sometimes through aphorism, sometimes through metaphor. Early on, [[Peter Freyd]] wrote 
 
