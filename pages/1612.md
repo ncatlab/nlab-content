@@ -73,7 +73,9 @@ Many modular tensor categories arise as [[representation]] categories of [[verte
 A database of examples is given by ([GannonH&#246;hn](#GannonHoehn)).
 
 
-{#RelationToConformalBlocks} In this case the [[monoidal category|monoidal]] and the [[braided monoidal category|braided]] [[structure]] (hence the modular tensor structure) on the underlying representation category is entirely fixed by the space of [[conformal blocks]] of the [[2 CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks"), see eg. [Runkel, Sec. 4.3](#Runkel)
+{#RelationToConformalBlocks} In this case the [[monoidal category|monoidal]] and the [[braided monoidal category|braided]] [[structure]] (hence the modular tensor structure) on the underlying representation category is entirely fixed by the space of [[conformal blocks]] of the [[2d CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks"), see eg. [Runkel, Sec. 4.3](#Runkel)
+
+For the related fact that the genus=0 conformal blocks already determine a [[modula functor]] see [Andersen & Ueno 2012](modular functor#AndersenUeno12).
 
 
 
@@ -90,11 +92,12 @@ Review in the context of [[2d CFT]]/[[VOA]]
 
 * [Fuchs-Runkel-Schweigert 02, Sec. 2.1](#FuchsRunkelSchweigert02)
 
-* {#Runkel} [[Ingo Runkel]], *Algebra in Braided Tensor Categories and Conformal Field Theory* ([pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/alg.pdf))
+* {#Runkel} [[Ingo Runkel]], *Algebra in Braided Tensor Categories and Conformal Field Theory* ([pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/alg.pdf), [[Runkel-AlgebraInBTCAndCFT.pdf:file]])
 
 and with focus on relation to [[braid representations]]:
 
 * [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
+
 
 
 A list of examples (with an emphasis on [[representation categories]] of rational [[vertex operator algebras]]) is in
