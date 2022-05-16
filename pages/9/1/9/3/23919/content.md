@@ -35,25 +35,7 @@ Strictly speaking, we are talking about the area of the [[disk]] whose [[boundar
 
 +-- {: .num_prop} 
 ###### Proposition
-Depending on which [[circle constant]] you use, given a radius $r$ of a circle $\mathcal{C}$ in the [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, the area of a circle is expressed either as $A = \frac{1}{2} \tau r^2$ or as $C = \pi r^2$. 
-=--
-### Proof by limits
-
-+-- {: .proof} 
-###### Proof 
-In this proof, we are using the circle constant $\tau = 2 \pi$. 
-
-The area of a [[regular polygon]] $\mathcal{P}_n$ with $n$ sides and [[circumradius]] $r$ is given by the sequence of functions $P:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$
-
-$$A_\mathcal{P}(n)(r) = \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right)$$
-
-which [[embedding|embeds]] in the $\mathbb{R}_+$-[[action]] $A_\mathcal{P}^\prime:\mathbb{R}_+ \to (\mathbb{R} \to \mathbb{R})$, defined as
-
-$$A_\mathcal{P}^\prime(n)(r) = r n \sin\left(\frac{\tau}{n}\right)$$
-
-The [[limit of a function|limit]] of $A_\mathcal{P}^\prime$ as $n$ goes to infinity is the area of a circle with radius $r$:
-
-$$A(r) = \lim_{n \to \infty} A_\mathcal{P}^\prime(n)(r) = \lim_{n \to \infty} \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right) = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\sin(\tau m)}{m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\partial_m \sin(\tau m)}{\partial_m m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\tau \cos(\tau m)}{1} = \frac{1}{2} \tau r^2$$
+Depending on which [[circle constant]] you use, given a radius $r$ of a circle $\mathcal{C}$ in the [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, the area of a circle is expressed either as $A(r) = \frac{1}{2} \tau r^2$ or as $A(r) = \pi r^2$. 
 =--
 
 ### Proof by double integration
@@ -113,6 +95,25 @@ $$A(r) = \frac{1}{2} \int_{0}^{\tau} {\vert \overrightarrow{r}(\theta) \vert}^2 
 which evaluates to 
 
 $$A(r) = \frac{1}{2} \int_{0}^{\tau} {\vert r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j} \vert}^2 d \theta = \frac{1}{2} \int_{0}^{\tau} (r((\cos(\theta))^2 + (\sin(\theta))^2))^2 d \theta = \frac{1}{2} \int_{0}^{\tau} r^2 d \theta = \frac{1}{2} \tau r$$
+=--
+
+### Proof by limits of regular convex polygons
+
++-- {: .proof} 
+###### Proof 
+In this proof, we are using the circle constant $\tau = 2 \pi$. 
+
+The area of a [[regular convex polygon]] $\mathcal{P}_n$ with $n$ sides and [[circumradius]] $r$ is given by the sequence of functions $P:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$
+
+$$A_\mathcal{P}(n)(r) = \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right)$$
+
+which [[embedding|embeds]] in the $\mathbb{R}_+$-[[action]] $A_\mathcal{P}^\prime:\mathbb{R}_+ \to (\mathbb{R} \to \mathbb{R})$, defined as
+
+$$A_\mathcal{P}^\prime(n)(r) = r n \sin\left(\frac{\tau}{n}\right)$$
+
+The [[limit of a function|limit]] of $A_\mathcal{P}^\prime$ as $n$ goes to infinity is the area of a circle with radius $r$:
+
+$$A(r) = \lim_{n \to \infty} A_\mathcal{P}^\prime(n)(r) = \lim_{n \to \infty} \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right) = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\sin(\tau m)}{m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\partial_m \sin(\tau m)}{\partial_m m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\tau \cos(\tau m)}{1} = \frac{1}{2} \tau r^2$$
 =--
 
 ## See also
