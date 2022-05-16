@@ -45,7 +45,7 @@ This means that in a Euclidean space one may construct for instance the [[unit s
 
 Of course these operations may be considered in _every_ (other) [[metric space]], too, see at _[[non-Euclidean geometry]]_. [[Euclidean geometry]] is distinguished notably from [[elliptic geometry]] or [[hyperbolic geometry]] by the fact that it satisfies the [[parallel postulate]].
 
-In regarding $E^n = (\mathbb{R}^n, d_{Eucl})$ (only) as a [[metric space]], some [[extra structure]] still carried by $\mathbb{R}^n$ is disregarded, such as its [[vector space]] structure, hence its [[affine structure]] and its canonical [[inner product space]] structure. Sometimes "Euclidean space" is 
+In regarding $E^n = (\mathbb{R}^n, d_{Eucl})$ (only) as a [[metric space]], some [[extra structure]] still carried by $\mathbb{R}^n$ is disregarded, such as its [[vector space]] structure, hence its [[affine space]] structure and its canonical [[inner product space]] structure. Sometimes "Euclidean space" is 
 used to refer to $E^n$ with that further extra structure remembered, which might then be called _[[Cartesian space]]_.
 
 Retaining the [[inner product]] on top of the [[metric space]] structure means that on top of [[distances]] one may also speak of [[angles]] in a Euclidean space.
