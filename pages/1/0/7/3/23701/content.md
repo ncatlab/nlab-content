@@ -41,9 +41,11 @@ $$\alpha_{D, E, F \otimes G} \circ \alpha_{D \otimes E, F, G} = (id_D \otimes \a
 
 ## Examples ##
 
-* [[braided monoidal dagger category]]
+* [[monoidal groupoid]], [[2-group]]
 
-* [[symmetric monoidal dagger category]]
+* [[braided monoidal dagger category]], [[braided monoidal groupoid]], [[braided 2-group]]
+
+* [[symmetric monoidal dagger category]], [[symmetric monoidal groupoid]], [[symmetric 2-group]]
 
 * [[cartesian monoidal dagger category]]
 
