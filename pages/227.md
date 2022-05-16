@@ -144,7 +144,7 @@ $s = \eta(-\otimes 1_A):A\to R$ and $t=\eta(1_A\otimes -):A^{op}\to R$ which hav
 
 ### Higher rings
 
-By replacing in the sentence "a ring is a [[monoid]] in [[Ab]]" the [[abelian category]] [[Ab]] with a [[higher category theory|higher category]] of _symmetric monoidal_ higher groupoids, one obtains higher notion of rings, such as a [[ring groupoid]]. 
+By replacing in the sentence "a ring is a [[monoid]] in [[Ab]]" the [[abelian category]] [[Ab]] with a [[higher category theory|higher category]] of _symmetric monoidal_ higher groupoids, one obtains higher notion of rings, such as a [[ring groupoid]], or in the commutative case, a [[symmetric ring groupoid]]. 
 
 Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]]s and, even more generally, that of [[spectrum|spectra]]. A [[monoid in an (∞,1)-category]] in the [[stable (∞,1)-category of spectra]] is an [[A-infinity-ring]] or [[associative ring spectrum]]. The commutative case is a [[commutative monoid in an (∞,1)-category]]: an [[E-infinity ring]] or [[commutative ring spectrum]].
 
@@ -228,7 +228,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * **ring**, [[E-∞ ring]]
 
-  * [[ring groupoid]]
+  * [[ring groupoid]], [[symmetric ring groupoid]]
 
   * [[associative algebra]]
 
