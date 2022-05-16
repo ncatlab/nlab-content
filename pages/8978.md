@@ -29,6 +29,9 @@ An **$A_n$-space** or **$A_n$-algebra in spaces** is a space (in the sense of an
 ## Related concepts
 
 * [[E-n algebra]]
+* [[A2-spatial groupoid]]
+* [[A3-spatial groupoid]]
+* [[A4-spatial groupoid]]
 
 [[!redirects A-n-space]]
 [[!redirects An-space]]
