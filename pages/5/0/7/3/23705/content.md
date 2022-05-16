@@ -31,7 +31,7 @@ $$\alpha_{F,D,E}^{-1} \circ \beta_{D \otimes E, F} \circ \alpha^{-1}_{D,E,F} = (
 
 ## Examples ##
 
-* [[symmetric monoidal dagger category]]
+* [[symmetric monoidal dagger category]], [[symmetric monoidal groupoid]], [[2-group]]
 
 * [[compact closed dagger category]]
 
