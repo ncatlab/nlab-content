@@ -19,9 +19,7 @@
 
 ## Idea ##
 
-There are various circle constants used in [[geometry]], these include the more common circle constant $\pi$ representing the straight angle, and the less common constant $\tau = 2 \pi$ representing a full turn. 
-
-If I remember correctly, the constant (small caps L) equal to $\frac{\tau}{4} = \frac{\pi}{2}$ representing a right angle is sometimes used in Germany and other central European countries, although I haven't found a source for this statement yet. 
+There are two circle constants used in [[geometry]], the more common circle constant $\pi$ representing the straight angle, and the less common circle constant $\tau = 2 \pi$ representing a full turn. 
 
 ## History ##
 
