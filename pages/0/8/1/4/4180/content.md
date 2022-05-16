@@ -166,7 +166,7 @@ where $\cdot$ indicates composition in $G$. It may be shown that $(G_1, \otimes)
 +-- {: .num_theorem} 
 ###### Theorem 
 **(Ehresmann-Schein-Nampooripad)** 
-There are canonical isomorphisms $S \to Inv(Ind(S))$ and $G \to Ind(Inv(G))$, providing an equivalent of categories $InvSemiGrp \simeq IndGpd$. 
+There are canonical isomorphisms $S \to Inv(Ind(S))$ and $G \to Ind(Inv(G))$, providing an equivalence of categories $InvSemiGrp \simeq IndGpd$. 
 =-- 
 
 ### Warning on the definition 
