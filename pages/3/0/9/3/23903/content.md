@@ -43,6 +43,8 @@ to the [[large]] [[(2,1)-category]] [[Grpd]]. We say a (2,1)-category $C$ is _co
 
 * The (2,1)-category $Grpd$ of [[groupoids]] is a concrete (2,1)-category.
 
+* The (2,1)-category $MonGrpd$ of [[monoidal groupoids]] is a concrete (2,1)-category.
+
 * The (2,1)-category $2Grp$ of [[2-groups]] is a concrete (2,1)-category.
 
 * The (2,1)-category $Smooth2Grp$ of [[smooth 2-groups]] is a concrete (2,1)-category.
