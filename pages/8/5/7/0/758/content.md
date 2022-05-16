@@ -53,6 +53,8 @@ A __stably monoidal $(n,r)$-category__, or __symmetric monoidal $(n,r)$-category
 
 ## Related concepts
 
+* [[k-tuply monoidal n-groupoid]]
+
 * [[k-tuply groupal n-groupoid]]
 
 * [[stabilization hypothesis]]
