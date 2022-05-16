@@ -77,3 +77,6 @@ See also
 [[!redirects orthonormal basis]]
 [[!redirects orthonormal bases]]
 [[!redirects orthonormal basises]]
+
+[[!redirects orthonormal vector]]
+[[!redirects orthonormal vectors]]
