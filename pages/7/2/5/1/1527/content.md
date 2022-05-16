@@ -59,7 +59,7 @@ by the [[chain rule]], whence $D(f/r) \sim D((1+x)^r/r)$. Hence $f/r$ is bisimil
 
 ## See also
 
-* [[(n,r)-quiver]]
+* [[directed (n,r)-graph]]
 
 ## References
  {#References}
