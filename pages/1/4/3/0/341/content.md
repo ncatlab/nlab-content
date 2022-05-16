@@ -55,10 +55,11 @@ Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) ob
 ## Examples
 
 * $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories
-* $(n,r)$-[[(n,r)-category|categories]]
 * $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids
+* $(n,r)$-[[(n,r)-category|categories]]
 * $k$-tuply monoidal $(n,r)$-categories, a [[k-tuply monoidal (n,r)-category|combination of all of the above]]
-* From the perspective of [[higher algebra]], [[homotopy theory]], and [[homotopy type theory]], $n$-groupoids are fundamental, and $(n,r)$-categories are $n$-groupoids with extra higher structure. So a $k$-[[k-tuply monoidal n-groupoid|tuply monoidal]] $n$-groupoid is a combination of all of the above. 
+* [[directed (n,r)-graph|directed $(n,r)$-graphs]], which are a generalization of the above
+* From the perspective of [[higher algebra]], [[homotopy theory]], and [[homotopy type theory]], $n$-groupoids are fundamental, and $(n,r)$-categories and directed $(n,r)$-graphs are $n$-groupoids with extra higher structure. So a $k$-[[k-tuply monoidal n-groupoid|tuply monoidal]] $n$-groupoid is a combination of all of the above. 
 * $k$-[[k-tuply associative n-groupoid|tuply associative]] $n$-groupoids
 
 ## Related entries
@@ -74,10 +75,13 @@ Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) ob
 
 [[!redirects periodic table]]
 [[!redirects periodic tables]]
+
 [[!redirects periodic table of the n-categories]]
 [[!redirects periodic table of n-categories]]
 [[!redirects periodic table of n-category theory]]
 [[!redirects periodic table of the higher categories]]
 [[!redirects periodic table of higher categories]]
-[[!redirects periodic table of higher categories]]
 [[!redirects periodic table of higher category theory]]
+
+[[!redirects periodic table of n-structures]]
+[[!redirects periodic table of higher structures]]
