@@ -191,6 +191,9 @@ See also
 
 [[!redirects crystallographic groups]]
 
+[[!redirects crystallographic symmetry]]
+[[!redirects crystallographic symmetries]]
+
 [[!redirects space group]]
 [[!redirects space groups]]
 
@@ -202,7 +205,6 @@ See also
 
 [[!redirects symmorphic crystallographic group]]
 [[!redirects symmorphic crystallographic groups]]
-
 
 
 [[!redirects representation torus]]
