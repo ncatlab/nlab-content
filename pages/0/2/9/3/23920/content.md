@@ -43,4 +43,6 @@ However, in 2010, Michael Hartl proposed that the constant 6.283... which equals
 
 * Hartl, Michael (2010). [The Tau Manifesto](https://tauday.com/tau-manifesto) 
 
+* Tran, Andy (2017). Tau: The True Circle Constant. ([slides](https://www.maths.usyd.edu.au/u/sums/talks-2017/tau-true-circle.pdf))
+
 * Harremoës, Peter (2017). "Bounds on tail probabilities for negative binomial distributions". Kybernetika. 52 (6): 943–966. arXiv:1601.05179. doi:10.14736/kyb-2016-6-0943. S2CID 119126029.
