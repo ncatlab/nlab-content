@@ -10,6 +10,10 @@ half the diameter of a [[sphere]]
 
 ## Related concepts
 
+* [[circumference of a circle]]
+
+* [[pi]]
+
 * [[slope]]
 
 * [[proton radius puzzle]]
