@@ -29,7 +29,7 @@ Or a [[spinor]] field, in the absence of any [[magnetic field]] or [[spin-orbit 
 
 In [[condensed matter theory]], internal symmetries are also referred to as "on-site" symmetries, this referring to the sites of the atomic nuclei in the [[crystal]] lattice.
 
-For example, the [[Ising model]] has an on-site "spin flip"-symmetry $\vert \uparrow \rangle \xleftrightarrow{S} \vert \downarrow \rangle$, while the [[Heisenberg model]] has on on-site [[SU(2)]]-symmetry (see also [CGW11, p. 5](#CGW11)).
+For example, the [[Ising model]] has an on-site "spin flip"-[[cyclic group of order 2|$\mathbb{Z}/2$]]symmetry $\vert \uparrow \rangle \xleftrightarrow{S} \vert \downarrow \rangle$, while the [[Heisenberg model]] has the full [[Spin(3)]]=[[SU(2)]]-group acting as an on-site symmetry on the electron spins (cf. [CGW11, p. 5](#CGW11)).
 
 <center>
 <img src="https://ncatlab.org/nlab/files/TypesOfSymsOfCrystTopInsulators-220515.jpg" width="680"> 
