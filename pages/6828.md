@@ -22,6 +22,11 @@ Relation to [[2d conformal field theory]]:
 
 * [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_  Birkh&#228;user (1997) ([doi:10.1007/978-1-4612-4276-5](https://link.springer.com/book/10.1007/978-1-4612-4276-5))
 
+On [[vertex operator algebras]], their associated [[modular tensor categories]] and a [[proof]] of the [[Verlinde formula]]:
+
+* {#Huang} [[Yi-Zhi Huang]], *Vertex operator algebras, the Verlinde conjecture and modular tensor categories*, Proc. Nat. Acad. Sci. **102** (2005) 5352-5356 $[$[arXiv:math/0412261](http://arxiv.org/abs/math/0412261), [doi:10.1073/pnas.0409901102](https://doi.org/10.1073/pnas.0409901102)$]$
+
+
 For [[orbifolds]]:
 
 * [[Yi-Zhi Huang]], _Representation theory of vertex operator algebras and orbifold conformal field theory_ ([arXiv:2004.01172](https://arxiv.org/abs/2004.01172))
