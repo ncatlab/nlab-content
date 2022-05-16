@@ -48,6 +48,8 @@ A [[2-group]] $G$ is _braided_ if it is equipped with the following equivalent [
 
 * [[braided ∞-group]]
 
+* [[sylleptic 3-group]]
+
 ## References
 
 Under the name "braided gr-categories" or "braided cat-groups" and thought of as a sub-class of [[braided monoidal categories]], the notion of braided 2-groups is considered in:
