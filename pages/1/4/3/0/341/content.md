@@ -2,6 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 #### Higher category theory
 +-- {: .hide}
 [[!include higher category theory - contents]]
@@ -19,7 +31,7 @@
 
 ## Idea
 
-In [[higher category theory]], there are several periodic tables, analogous to the [[periodic table of chemical elements]]. Just as this table allowed &#1052;&#1077;&#1085;&#1076;&#1077;&#1083;&#1077;&#1077;&#1074; to [predict the existence of undiscovered elements](https://secure.wikimedia.org/wikipedia/en/wiki/Mendeleev%27s_predicted_elements) in the table\'s gaps, so these periodic tables sometimes inspire us to invent new varieties of [[n-categories]].
+In [[higher category theory]], [[higher algebra]], [[homotopy theory]], and [[homotopy type theory]] there are several periodic tables, analogous to the [[periodic table of chemical elements]]. Just as this table allowed &#1052;&#1077;&#1085;&#1076;&#1077;&#1083;&#1077;&#1077;&#1074; to [predict the existence of undiscovered elements](https://secure.wikimedia.org/wikipedia/en/wiki/Mendeleev%27s_predicted_elements) in the table\'s gaps, so these periodic tables sometimes inspire us to invent new varieties of [[n-categories]], [[n-groupoids]], and [[n-truncated]] [[types]].
 
 
 ## History
@@ -46,7 +58,8 @@ Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) ob
 * $(n,r)$-[[(n,r)-category|categories]]
 * $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids
 * $k$-tuply monoidal $(n,r)$-categories, a [[k-tuply monoidal (n,r)-category|combination of all of the above]]
-
+* From the perspective of [[higher algebra]], [[homotopy theory]], and [[homotopy type theory]], $n$-groupoids are fundamental, and $(n,r)$-categories are $n$-groupoids with extra higher structure. So a $k$-[[k-tuply monoidal n-groupoid|tuply monoidal]] $n$-groupoid is a combination of all of the above. 
+* $k$-[[k-tuply associative n-groupoid|tuply associative]] $n$-groupoids
 
 ## Related entries
 
