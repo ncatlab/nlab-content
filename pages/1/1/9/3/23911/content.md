@@ -9,13 +9,17 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 #### Categorification
 +-- {: .hide}
 [[!include categorification - contents]]
 =--
 #### Category theory
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include monoid theory - contents]]
 =--
 =--
 =--
