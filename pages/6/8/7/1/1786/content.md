@@ -100,6 +100,7 @@ See: [[homotopytypetheory:H-space]]
 
 * [[H-space ring spectrum]], [[H-group ring spectrum]]
 
+* [[H-spatial groupoid]]
 
 ## References
 
