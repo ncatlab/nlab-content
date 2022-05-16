@@ -47,6 +47,8 @@ The [[Postnikov tower in an (∞,1)-category|Postnikov tower]] of a [[connective
 
 ## Related concepts
 
+* [[commutative ring]], [[symmetric ring groupoid]]
+
 * [[ring spectrum]], [[functor with smash products]]
 
 * [[symmetric ring spectrum]]
