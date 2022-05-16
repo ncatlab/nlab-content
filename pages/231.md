@@ -811,6 +811,8 @@ higher versions
 
 * [[DisCoPy]]
 
+* [[monoidal groupoid]]
+
 ## References
 
 Exposition of basics of monoidal categories and [[categorical algebra]]:
