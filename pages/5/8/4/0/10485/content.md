@@ -241,7 +241,7 @@ Here the mapping stack adjunction...
 
 * [[Xie Chen]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *2D symmetry protected topological orders and their protected gapless edge excitations*, Phys. Rev. B 84, 235141 (2011); 
 
-See also
+See also:
 
 * {#CLM12} Gil Young Cho, Yuan-Ming Lu, and [[Joel E. Moore]], *Gapless edge states of background field theory and translation-symmetric $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **86** 125101 (2012) $[$[arXiv:10.1103/PhysRevB.86.125101](https://doi.org/10.1103/PhysRevB.86.125101)$]$
 
@@ -265,6 +265,10 @@ Discussion with focus on symmetry protected [[topological order]]:
 See also:
 
 * {#WangSenthil14} Chong Wang, T. Senthil, *Interacting fermionic topological insulators/superconductors in three dimensions*, Phys. Rev. B **89** 195124 (2014) $[$[arXiv:1401.1142](https://arxiv.org/abs/1401.1142), [doi:10.1103/PhysRevB.89.195124](https://doi.org/10.1103/PhysRevB.89.195124)$]$
+
+* Hao Song, Sheng-Jie Huang, [[Liang Fu]], Michael Hermele, *Topological phases protected by point group symmetry*, Phys. Rev. X **7** (2017) 011020 $[$[arXiv:1604.08151](https://arxiv.org/abs/1604.08151), [doi:10.1103/PhysRevX.7.011020](https://doi.org/10.1103/PhysRevX.7.011020)$]$
+
+* Zhen Bi, *Physical Properties and Experimental Platform of Symmetry Protected Topological Phases* (2017) $[$[escholarship:37q1k2rj](https://escholarship.org/uc/item/37q1k2rj)$]$
 
 Some of the above material is taken from
 
