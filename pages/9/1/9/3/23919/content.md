@@ -1,0 +1,106 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{: toc}
+
+## Idea ##
+
+The area of a circle as discussed in geometry. 
+
+## Definition/proposition and proofs
+
+Strictly speaking, we are talking about the area of the interior of the circle, or the area of a [[disk]]; however, the average person usually identifies the interior of a geometric shape by its boundary. 
+
++-- {: .num_prop} 
+###### Proposition
+Depending on which circle constant you use, given a radius $r$ of a circle $\mathcal{C}$ in the [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, the area of a circle is either $A = \frac{1}{2} \tau r^2$ or $C = \pi r^2$. 
+=--
+
+### Proof by double integration
+
++-- {: .proof} 
+###### Proof 
+In this proof, we are using the circle constant $\tau = 2 \pi$. 
+
+Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select a [[vector basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \times [0, r] \to \mathbb{R}^2$ defined as 
+$$\overrightarrow{r}(\rho, \theta) \coloneqq \rho \cos(\theta) \hat{i} + \rho \sin(\theta) \hat{j}$$
+
+Then the area of $\mathcal{C}$ is given by the following [[double integral]]:
+
+$$A = \int_{0}^{r} \int_{0}^{\tau} \vert \overrightarrow{r}(\rho, \theta) \vert d \theta d \rho$$
+
+which evaluates to 
+
+$$A = \int_{0}^{r} \int_{0}^{\tau} \vert \rho \cos(\theta) \hat{i} + \rho \sin(\theta) \hat{j} \vert d \theta d \rho = \int_{0}^{r} \int_{0}^{\tau} \rho((\cos(\theta))^2 + (\sin(\theta))^2) d \theta d \rho = \int_{0}^{r} \int_{0}^{\tau} \rho d \theta d \rho = \int_{0}^{r} \tau \rho d \rho = \frac{1}{2} \tau r$$
+=--
+
+### Proof by areal velocity
+
++-- {: .proof} 
+###### Proof 
+In this proof, we are using the circle constant $\tau = 2 \pi$. 
+
+Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select a [[vector basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. There is an [[geometric algebra]] $\mathbb{G}^2$ on the vector space defined by the equations $\hat{i}^2 = 1$, $\hat{j}^2 = 1$, and $\hat{i} \hat{j} = -\hat{j} \hat{i}$. 
+
+The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \to \mathbb{R}^2$ defined as 
+$$\overrightarrow{r}(\theta) \coloneqq r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}$$
+
+Then the area of $\mathcal{C}$ is given by the magnitude of the [[areal velocity]]:
+
+$$A = \left|\int_{0}^{\tau} \frac{\overrightarrow{r}(\theta) \wedge \partial_\theta\overrightarrow{r}(\theta)}{2} d \theta\right|$$
+
+where $a \wedge b$ is the wedge product of two multivectors $a$ and $b$, which evaluates to 
+
+$$A = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge \partial_\theta (r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j})}{2} d \theta\right|$$
+$$A = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge (-r \sin(\theta) \hat{i} + r \cos(\theta) \hat{j})}{2} d \theta\right|$$
+$$A = \left|\int_{0}^{\tau} \frac{(r (\cos(\theta))^2 \hat{i} \hat{j} + r (\sin(\theta))^2 \hat{i} \hat{j})}{2} d \theta\right|$$
+$$A = \left|\int_{0}^{\tau} \frac{r \hat{i} \hat{j}}{2} d \theta\right| = \left|\frac{\tau r \hat{i} \hat{j}}{2}\right| = \frac{1}{2} \tau r$$
+=--
+
+### Proof by action functionals
+
++-- {: .proof} 
+###### Proof 
+In this proof, we are using the circle constant $\tau = 2 \pi$. 
+
+Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could select a [[vector basis]] on $\mathbb{R}^2$ by postulating an origin $0$ at the center of the circle $\mathcal{C}$ and two [[orthonormal vectors]] $\hat{i}$ and $\hat{j}$. The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \to \mathbb{R}^2$ defined as 
+$$\overrightarrow{r}(\theta) \coloneqq r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}$$
+
+Then the area of $\mathcal{C}$ is given by the [[action functional]] of the parameterized curve:
+
+$$A = \frac{1}{2} \int_{0}^{\tau} {\vert \overrightarrow{r}(\theta) \vert}^2 d \theta$$
+
+which evaluates to 
+
+$$A = \frac{1}{2} \int_{0}^{\tau} {\vert r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j} \vert}^2 d \theta = \frac{1}{2} \int_{0}^{\tau} (r((\cos(\theta))^2 + (\sin(\theta))^2))^2 d \theta = \frac{1}{2} \int_{0}^{\tau} r^2 d \theta = \frac{1}{2} \tau r$$
+=--
+
+## See also
+
+* [[circle]]
+
+* [[unit circle]]
+
+* [[area]]
+
+* [[circumference of a circle]]
+
+* [[Euclidean space]]
