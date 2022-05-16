@@ -39,6 +39,8 @@ By the [[spin-statistics theorem]], the spin of any [[elementary particle]] must
 
 * [[Dirac field]]
 
+* [[Ising model]], [[Heisenberg model]]
+
 * [[quantization of the 2-sphere]]
 
 * [[supersymmetry]]
@@ -46,4 +48,9 @@ By the [[spin-statistics theorem]], the spin of any [[elementary particle]] must
 * [[division algebras and supersymmetry]]
 
 * [[geometry of physics -- supersymmetry]]
+
+
+[[!redirects spins]]
+
+
 
