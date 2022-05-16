@@ -102,6 +102,8 @@ See: [[homotopytypetheory:H-space]]
 
 * [[H-spatial groupoid]]
 
+* [[k-tuply associative n-groupoid]]
+
 ## References
 
 Introduction and survey:
