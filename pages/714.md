@@ -380,6 +380,8 @@ For more on this see
 
 ## Related concepts
 
+* [[pseudograph]]
+
 * [[star-category]], [[C-star-category]]
 
 * [[dagger functor]]
