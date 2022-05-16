@@ -30,7 +30,11 @@
 
 ## Idea
 
-A [[monoidal groupoid]] with [[braiding]] that satisfy the [[hexagon identities]], or equivalently, a 1-truncated [[En-algebra|$E_2$-space]]. 
+A *braided monoidal groupoid* is a [[braided monoidal category]] whose underlying [[category]] happens to be a [[groupoid]] (hence all whose [[morphisms]] are [[isomorphisms]].)
+
+Equivalently: A [[monoidal groupoid]] with [[braiding]] that satisfies the [[hexagon identities]], 
+
+Equivalently: A [[1-type|1-truncated]] [[En-algebra|$E_2$-space]]. 
 
 ## Definitions
 
