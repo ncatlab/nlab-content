@@ -74,9 +74,10 @@ The construction and the proof of the classification result is originally descri
 
 * {#FjeldstadFuchsRunkelSchweigert08} [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Uniqueness of open/closed rational CFT with given algebra of open states_, Adv.Theor.Math.Phys.12:1283-1375 (2008) ([hep-th/0612306](http://arxiv.org/abs/hep-th/0612306))
 
-Reviews of this FRS formalism include
+Reviews of this FRS formalism:
 
-* [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], _Topological and conformal field theory as Frobenius algebras_, Contemp.Math.431:225-248 (2007)
+* [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics* Contemp. Math. **431** (2007) 225-248 $[$[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)$]$
+
 
 *  [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _Open strings and 3d topological field theory_ ([pdf](http://www.mth.kcl.ac.uk/staff/i_runkel/PDF/ost.pdf))
 
