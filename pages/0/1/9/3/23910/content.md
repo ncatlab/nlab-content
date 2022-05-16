@@ -54,6 +54,7 @@ $$\alpha^{-1}_{C,A,B} \circ \beta_{A \otimes B, C} \circ \alpha^{-1}_{A,B,C} = (
 * [[monoidal groupoid]]
 * [[braided 2-group]]
 * [[symmetric monoidal groupoid]]
+* [[k-tuply monoidal n-groupoid]]
 * [[braided monoidal category]]
 
 [[!redirects braided monoidal groupoid]]
