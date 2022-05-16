@@ -5,6 +5,10 @@
 
 ## Selected writings
 
+Introducing the [[Verlinde formula]] in [[2d CFT]]:
+
+* [[Erik Verlinde]], *Fusion rules and modular transformations in 2D conformal field theory*, Nuclear Physics B **300** (1988) 360-376 $[$<a href="https://doi.org/10.1016/0550-3213(88)90603-7">doi:10.1016/0550-3213(88)90603-7</a>$]$
+
 
 On [[AdS3-CFT2]] for [[D1/D5 brane bound states]] and [[black hole entropy]] [[black holes in string theory|in string theory]]:
 
