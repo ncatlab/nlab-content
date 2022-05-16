@@ -139,6 +139,9 @@ Discussion via [[AdS/CFT in solid state physics]]:
 
 ### Experimental realization
 
+* Bo Song, Long Zhang, Chengdong He, Ting Fung Jeffrey Poon, Elnur Hajiyev, Shanchao Zhang, Xiong-Jun Liu, Gyu-Boong Jo, *Observation of symmetry-protected topological band with ultracold fermions*, Science Advances **4** eaao4748 (2018) $[$[doi:10.1126/sciadv.aao4748](https://doi.org/10.1126/sciadv.aao4748)$]$
+
+
 External manipulation of topological phases:
 
 * Marwa Mannaï, Sonia Haddad, *Strain tuned topology in the Haldane and the modified Haldane models*., J of Physics: Condens. Matter **32** 225501 (2020) $[$[arXiv:1907.11213](https://arxiv.org/abs/1907.11213), [doi:10.1088/1361-648X/ab73a1](https://doi.org/10.1088/1361-648X/ab73a1)$]$
