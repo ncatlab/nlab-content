@@ -86,6 +86,8 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 
 * [[symmetric monoidal groupoid]]
 
+* [[k-tuply monoidal n-groupoid]]
+
 * [[symmetric monoidal category]]
 
 * [[model structure on commutative monoids in a symmetric monoidal model category]]
