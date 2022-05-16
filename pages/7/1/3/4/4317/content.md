@@ -115,6 +115,8 @@ This conjecture has been established in ([Elgueta 2021](#Elg21)). See also ([Com
 
   * [[2-rig]]
 
+* [[ring groupoid]]
+
 * The notion of a [[bipermutative category]] is a strictification of the notion of [[symmetric monoidal category|symmetric]] rig category.  Every symmetric rig category is equivalent to a bipermutative category ([May, prop. VI 3.5]).  Similarly, every rig category is equivalent to a strict rig category ([Guillou, theorem 1.2](#Guillou)).
 
 * [[K-theory of a bipermutative category]]
