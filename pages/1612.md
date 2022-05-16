@@ -67,15 +67,14 @@ A **modular tensor category** is a [[category]] with the following long list of 
 ## Examples
 
 ### Rep categories of VOAs
+ {#RepCategoriesOfVOAs}
 
-Many modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] (see there for more details), hence of chiral [[field (physics)|fields]] of [[2d conformal field theories]]. 
+Many modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] ([Huang 05, Sec. 1](#Huang05), see [EGNO 15, Sec. 8.27.6](#EGNO15)), hence of chiral [[field (physics)|fields]] of [[2d conformal field theories]]. 
 
-A database of examples is given by ([GannonH&#246;hn](#GannonHoehn)).
+A database of examples is given by ([Gannon & Höhn](#GannonHoehn)).
 
-
-{#RelationToConformalBlocks} In this case the [[monoidal category|monoidal]] and the [[braided monoidal category|braided]] [[structure]] (hence the modular tensor structure) on the underlying representation category is entirely fixed by the space of [[conformal blocks]] of the [[2d CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks"), see eg. [Runkel, Sec. 4.3](#Runkel)
-
-For the related fact that the genus=0 conformal blocks already determine a [[modula functor]] see [Andersen & Ueno 2012](modular functor#AndersenUeno12).
+{#RelationToConformalBlocks} In this case the [[monoidal category|monoidal]] and the [[braided monoidal category|braided]] [[structure]] (hence the modular tensor structure) on the underlying representation category is entirely fixed by the space of [[conformal blocks]] of the [[2d CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks"), see [Runkel, Sec. 4.3](#Runkel), [EGNO 15, p. 266](#EGNO15).
+(For the related fact that the genus=0 conformal blocks already determine a [[modular functor]] see [Andersen & Ueno 2012](modular+functor#AndersenUeno12).)
 
 
 
@@ -98,7 +97,11 @@ and with focus on relation to [[braid representations]]:
 
 * [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations*, 2019 ([pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]])
 
+Construction of modular tensor categories from [[vertex operator algebras]]:
 
+* {#Huang05} [[Yi-Zhi Huang]], *Vertex operator algebras, the Verlinde conjecture and modular tensor categories*, Proc. Nat. Acad. Sci. **102** (2005) 5352-5356 $[$[arXiv:math/0412261](http://arxiv.org/abs/math/0412261), [doi:10.1073/pnas.0409901102](https://doi.org/10.1073/pnas.0409901102)$]$
+
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Section 8.27.6 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) $[$[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205)$]$
 
 A list of examples (with an emphasis on [[representation categories]] of rational [[vertex operator algebras]]) is in
 
