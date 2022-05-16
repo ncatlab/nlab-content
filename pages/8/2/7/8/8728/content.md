@@ -45,6 +45,8 @@ A _symmetric 2-group_ is a [[2-group]] equipped with the following equivalent st
 
 ## Related concepts
 
+* [[symmetric monoidal groupoid]]
+
 * [[∞-group]], [[k-tuply groupal n-groupoid]]
 
 * [[braided ∞-group]],
