@@ -85,6 +85,8 @@ The [[roots]] of the sine function, hence the argument where its value is [[zero
 
 ## Related concepts
 
+* [[periodic function]]
+
 * [[cosine]]
 
 * [[arcsine]]
@@ -95,7 +97,7 @@ The [[roots]] of the sine function, hence the argument where its value is [[zero
 
 * [[trigonometric identity]] 
 
-* [[pi]]
+* [[pi]], [[circle constant]]
 
 ## References
 
