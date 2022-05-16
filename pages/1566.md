@@ -82,6 +82,10 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 
 * [[cocommutative comonoid]]
 
+* [[braided monoidal groupoid]]
+
+* [[symmetric monoidal groupoid]]
+
 * [[symmetric monoidal category]]
 
 * [[model structure on commutative monoids in a symmetric monoidal model category]]
