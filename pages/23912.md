@@ -26,7 +26,9 @@
 
 ## Idea
 
-A ring groupoid is a 1-truncated [[A-infinity-ring|$A_\infty$-ring]], or a groupoid $G$ that is both a [[symmetric 2-group]] $(G, 0, \oplus)$ and a [[monoidal groupoid]] $(G, 1, \otimes)$ such that $\otimes$ distributes over $\oplus$ satisfying certain higher [[coherence laws]] (given in [Kelly74](#Kelly74)). 
+A *ring groupoid* is a [[1-type|1-truncated]] [[A-infinity-ring|$A_\infty$-ring]].
+
+Equivalently: A [[groupoid]] $G$ that is both a [[symmetric 2-group]] $(G, 0, \oplus)$ and a [[monoidal groupoid]] $(G, 1, \otimes)$ such that $\otimes$ [[distributivity|distributes]] over $\oplus$ satisfying certain higher [[coherence laws]] (given in [Kelly74](#Kelly74)). 
 
 ## See also 
 
@@ -38,5 +40,6 @@ A ring groupoid is a 1-truncated [[A-infinity-ring|$A_\infty$-ring]], or a group
 
 ## References
 
-* G. Kelly, _Coherence theorems for lax algebras and distributive laws_, Lecture Notes in Mathematics 420, Springer Verlag, Berlin, 1974, pp. 281-375.
- {#Kelly74}
+* {#Kelly74} [[G. M. Kelly]], _Coherence theorems for lax algebras and distributive laws_, Lecture Notes in Mathematics **420**, Springer Verlag, Berlin(1974) 281-375 $[$[doi:10.1007/BFb0063106](https://doi.org/10.1007/BFb0063106)$]$
+ 
+
