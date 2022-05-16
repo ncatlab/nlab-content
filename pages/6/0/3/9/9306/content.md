@@ -140,7 +140,7 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 The correspondence between formal moduli problems and [[dg-Lie algebras]] is extended to [[positive characteristic]] in
 
-* {#BrantnerMathew19} Lukas Brantner, [[Akhil Mathew]], _Deformation Theory and Partition Lie Algebras_, arXiv:[1904.07352](https://arxiv.org/abs/1904.07352)
+* {#BrantnerMathew19} [[Lukas Brantner]], [[Akhil Mathew]], _Deformation Theory and Partition Lie Algebras_, arXiv:[1904.07352](https://arxiv.org/abs/1904.07352)
 
 
 
