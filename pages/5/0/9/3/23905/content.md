@@ -26,7 +26,7 @@
 
 ## Idea
 
-In type theory, a 1-truncated [[H-space]]/[[An-space|$A_2$-space]]. In category theory, the [[groupoidal categorification]] of a [[unital magma]]. 
+In [[type theory]], a [[1-type|1-truncated]] [[H-space]]/[[An-space|$A_2$-space]]. In [[category theory]], the [[groupoidal categorification]] of a [[unital magma]]. 
 
 ## Definitions
 
@@ -55,3 +55,4 @@ In [[category theory]], a **unital magmoidal groupoid** or **magmoidal groupoid 
 [[!redirects unital magmoidal groupoids]]
 [[!redirects magmoidal groupoid with unit]]
 [[!redirects magmoidals groupoid with unit]]
+
