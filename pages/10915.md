@@ -149,6 +149,8 @@ A proof is given in [Wikipedia](http://en.wikipedia.org/wiki/Proof_that_%CF%80_i
 
 * [[circumference of a circle]]
 
+* [[circle constant]]
+
 * [[radius]]
 
 * [[e]]
