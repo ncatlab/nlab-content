@@ -4,13 +4,21 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
-+-- {: .hide}
-[[!include category theory - contents]]
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
 =--
 #### Homotopy theory
 +--{: .hide}
 [[!include homotopy - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
 =--
 =--
 =--
@@ -152,6 +160,14 @@ The correct concept of homomorphisms between [[Lie groupoids]] for instance goes
 ## Definition
 
 ### Groupoids
+
++-- {: .num_defn #GroupoidHomotopyTypes}
+###### Definition
+**(groupoid -- [[homotopy type theory|homotopily typed]] definition)
+
+A _[[small groupoid]]_ $\mathcal{G}$ is a [[space]] or [[homotopy type]] such that for all points $a$ and $b$ in $\mathcal{G}$, all paths $c$ and $d$ in the [[path space]] ([[path space type|type]]) $a = b$, all [[homotopies]] (2-paths) $e$ and $f$ in the path space type $c = d$, the path space type $e = f$ is [[contractible]]. 
+
+=--
 
 +-- {: .num_defn #GroupoidDependentlyTypes}
 ###### Definition
@@ -302,21 +318,33 @@ whose objects are the groupoid homomorphisms / functors, and whose morphisms are
 
 =--
 
+
++-- {: .num_remark}
+###### Remark
+**([[groupoids]] are special cases of [[dagger categories]])**
+
+A [[small groupoid]] (def. \ref{GroupoidDependentlyTypes}) is equivalently a [[small dagger category]] in which all [[morphisms]] are [[unitary morphism|unitary]].
+
+=--
+
 +-- {: .num_remark}
 ###### Remark
 **([[groupoids]] are special cases of [[categories]])**
 
 A [[small groupoid]] (def. \ref{GroupoidDependentlyTypes}) is equivalently a [[small category]] in which all [[morphisms]] are [[isomorphism|isomorphisms]].
 
-While therefore groupoid theory may be regarded as a special case of [[category theory]], it
-is noteworthy that the two theories are quite different in character. For example [[higher groupoid]]
-theory is _[[homotopy theory]]_ which is rich but quite tractable, for instance via tools
-such as [[simplicial homotopy theory]] or [[homotopy type theory]], while [[higher category theory]]
-is intricate and becomes tractable mostly by making recourse to higher groupoid theory in the guise of
-[[(infinity,1)-category theory]] and [[(infinity,n)-categories]].
-
 =--
 
++-- {: .num_remark}
+###### Remark
+**(Higher groupoid theory vs higher category theory)**
+Due to the two preceding remarks, groupoid theory may be regarded as a special case of [[dagger category theory]] or [[category theory]], it
+is noteworthy that the two theories are quite different in character. For example [[higher groupoid]]
+theory is _[[homotopy theory]]_ which is rich but quite tractable, for instance via tools
+such as [[simplicial homotopy theory]] or [[homotopy type theory]], while [[higher category theory]] and higher dagger category theory
+is intricate and becomes tractable mostly by making recourse to higher groupoid theory in the guise of
+[[(infinity,1)-category theory]] and [[(infinity,n)-categories]].
+=--
 
 +-- {: .num_defn #GroupoidGlobalDefinition}
 ###### Definition
