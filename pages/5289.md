@@ -57,6 +57,10 @@ See there for more.
 
 * [[May recognition theorem]]
 
+* [[monoidal groupoid]], [[braided monoidal groupoid]], [[symmetric monoidal groupoid]]
+
+* [[2-group]], [[braided 2-group]], [[symmetric 2-group]]
+
 * [[k-tuply monoidal (n,r)-category]]
 
 * [[k-tuply groupal n-groupoid]]
