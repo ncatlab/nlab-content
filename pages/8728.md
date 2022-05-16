@@ -47,7 +47,7 @@ A _symmetric 2-group_ is a [[2-group]] equipped with the following equivalent st
 
 * [[symmetric monoidal groupoid]]
 
-* [[ring groupoid]]
+* [[ring groupoid]], [[symmetric ring groupoid]]
 
 * [[∞-group]], [[k-tuply groupal n-groupoid]]
 
