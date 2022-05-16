@@ -67,16 +67,16 @@ Given any [[Euclidean space|Euclidean]] [[plane]] $\mathbb{R}^2$, one could sele
 The circle $\mathcal{C}$ could be parameterized by a function $\overrightarrow{r}:[0, \tau] \to \mathbb{R}^2$ defined as 
 $$\overrightarrow{r}(\theta) \coloneqq r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}$$
 
-Then the area of $\mathcal{C}$ is given by the magnitude of the [[areal velocity]]:
+Then the area of $\mathcal{C}$ is given by integrating the magnitude of the [[areal velocity]]:
 
-$$A(r) = \left|\int_{0}^{\tau} \frac{\overrightarrow{r}(\theta) \wedge \partial_\theta\overrightarrow{r}(\theta)}{2} d \theta\right|$$
+$$A(r) = \int_{0}^{\tau} \left|\frac{\overrightarrow{r}(\theta) \wedge \partial_\theta\overrightarrow{r}(\theta)}{2}\right| d \theta$$
 
 where $a \wedge b$ is the wedge product of two multivectors $a$ and $b$, which evaluates to 
 
-$$A(r) = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge \partial_\theta (r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j})}{2} d \theta\right|$$
-$$A(r) = \left|\int_{0}^{\tau} \frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge (-r \sin(\theta) \hat{i} + r \cos(\theta) \hat{j})}{2} d \theta\right|$$
-$$A(r) = \left|\int_{0}^{\tau} \frac{(r (\cos(\theta))^2 \hat{i} \hat{j} + r (\sin(\theta))^2 \hat{i} \hat{j})}{2} d \theta\right|$$
-$$A(r) = \left|\int_{0}^{\tau} \frac{r \hat{i} \hat{j}}{2} d \theta\right| = \left|\frac{\tau r \hat{i} \hat{j}}{2}\right| = \frac{1}{2} \tau r$$
+$$A(r) = \int_{0}^{\tau} \left|\frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge \partial_\theta (r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j})}{2}\right| d \theta$$
+$$A(r) = \int_{0}^{\tau} \left|\frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge (-r \sin(\theta) \hat{i} + r \cos(\theta) \hat{j})}{2}\right| d \theta$$
+$$A(r) = \int_{0}^{\tau} \left|\frac{(r (\cos(\theta))^2 \hat{i} \hat{j} + r (\sin(\theta))^2 \hat{i} \hat{j})}{2}\right| d \theta$$
+$$A(r) = \int_{0}^{\tau} \left|\frac{r \hat{i} \hat{j}}{2}\right| d \theta = \int_{0}^{\tau} \frac{r}{2} d \theta = \frac{1}{2} \tau r$$
 =--
 
 ### Proof by action functionals
