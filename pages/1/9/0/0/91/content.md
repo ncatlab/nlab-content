@@ -212,6 +212,8 @@ then the resulting category of polyglobes is a [[test category]].
 
   * **directed $n$-graph**
 
+  * [[directed (n,r)-graph|directed $(n,r)$-graph]]
+
 * [[ribbon graph]]
 
 * [[Theta category]], 
