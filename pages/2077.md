@@ -127,6 +127,6 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 [[!redirects strictly monotone function]]
 [[!redirects strictly monotone functions]]
 
-[[!redirects strictly monotone]]
+[[!redirects strictly monotonic]]
 
 
