@@ -100,7 +100,7 @@ Special properties these may have:
 
 * [[continuous function]], [[analytic function]], [[smooth function]]
 
-...
+* [[periodic function]]
 
 ## Related concepts
 
@@ -116,6 +116,8 @@ Special properties these may have:
 * [[function algebra]], [[pullback of functions]]
 
 * [[continuous function]], [[differentiable function]], [[smooth function]]
+
+* [[periodic function]]
 
 * [[linear function]], [[quadratic function]], [[polynomial function]]
 
