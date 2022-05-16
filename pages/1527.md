@@ -57,6 +57,9 @@ $$D\left(\exp(r \cdot \log(1 + x))\right) = r \cdot \exp((r-1) \cdot \log(1 + x)
 by the [[chain rule]], whence $D(f/r) \sim D((1+x)^r/r)$. Hence $f/r$ is bisimilar to $(1+x)^r/r$, and we conclude in the terminal coalgebra that $f(x) = (1+x)^r$. 
 =-- 
 
+## See also
+
+* [[(n,r)-quiver]]
 
 ## References
  {#References}
