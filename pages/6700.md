@@ -128,7 +128,7 @@ The connection of prop. \ref{TheProjFlatConnection} is a genuine [[flat connecti
 
 ([Segal 04, below prop. 5.4](#Segal04))
 
-### The Verlinde fusion alegbra
+### The Verlinde fusion algebra
 
 +-- {: .num_defn}
 ###### Definition
@@ -209,6 +209,7 @@ There is a natural functor from smooth surfaces $\Sigma$ equipped with [[3-frami
 > thanks to [[Chris Schommer-Pries]] for highlighting this point.
 
 
+
 ## Examples
 
 ### Powers of the determinant line
@@ -257,7 +258,7 @@ The modular functor for $G$-[[Chern-Simons theory]] restricted to [[genus of a s
 
 ## References
 
-Original formulations include
+Original formulations:
 
 * {#Segal89} [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors_, in: IXth International Congress on Mathematical Physics (Swansee 1988), Hilger, Bristol 1989, pp. 22-37
 
@@ -268,15 +269,17 @@ Original formulations include
 * {#KrizLai13} [[Igor Kriz]], Luhang Lai, _On the definition and K-theory realization of a modular functor_, ([arxiv/1310.5174](http://arxiv.org/abs/1310.5174)).
 
 
-Lectures and reviews include
+Lectures and reviews:
 
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]])
 
 * {#Gawedzki99} [[Krzysztof Gawedzki]], section 5.6 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
-A nice review with a new concise construction is in
-
 * {#Looijenga10} [[Eduard Looijenga]], _From WZW models to Modular Functors_ ([arXiv:1009.2245](http://arxiv.org/abs/1009.2245))
+
+Proof that the values of a modular functor at [[genus of a surface|genus]]=0 (ie. the [[conformal blocks]] on the punctured [[Riemann sphere]]) determine the full modular functor:
+
+* {#AndersenUeno12} [[Jørgen Ellegaard Andersen]], [[Kenji Ueno]], *Modular functors are determined by their genus zero data*, Quantum Topology **3** 3/4 (2012) 255-291 $[$[doi:10.4171/QT/29](https://doi.org/10.4171/qt/29)$]$
 
 
 Discussion in the context of [[(2,1)-dimensional Euclidean field theories and tmf]] is in
@@ -285,8 +288,9 @@ Discussion in the context of [[(2,1)-dimensional Euclidean field theories and tm
 
 
 
-Discussion in the context of the [[cobordism hypothesis]] is in 
+Discussion in the context of the [[cobordism hypothesis]]:
 
-* {#FiorenzaValentino14} [[Domenico Fiorenza]], [[Alessandro Valentino]], _Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors_ ([arXiv:1409.5723](http://arxiv.org/abs/1409.5723))
+* {#FiorenzaValentino14} [[Domenico Fiorenza]], [[Alessandro Valentino]], *Boundary Conditions for Topological Quantum Field Theories, Anomalies and Projective Modular Functors*, Commun. Math. Phys. **338** (2015) 1043–1074  $[$[arXiv:1409.5723](http://arxiv.org/abs/1409.5723), [doi:10.1007/s00220-015-2371-3](https://doi.org/10.1007/s00220-015-2371-3)$]$
+
 
 [[!redirects modular functors]]
