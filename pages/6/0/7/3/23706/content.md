@@ -22,13 +22,15 @@ A **symmetric monoidal dagger category** is a [[braided monoidal dagger category
 
 * [[compact closed dagger category]]
 
+* [[symmetric monoidal groupoid]], [[2-group]]
+
 ## See also ##
 
 * [[dagger category]]
 
 * [[monoidal dagger category]]
 
-* [[braided monoidal category]]
+* [[braided monoidal dagger category]]
 
 * [[symmetric monoidal category]]
 
