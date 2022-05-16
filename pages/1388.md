@@ -39,6 +39,8 @@ The higher analog of a commutative ring is an [[E-∞ ring]].
 
 ## Related concepts
 
+* [[ring]], [[ring groupoid]]
+
 * [[ring spectrum]], [[functor with smash products]]
 
 * [[symmetric ring spectrum]]
