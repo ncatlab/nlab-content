@@ -64,6 +64,8 @@ For a magma $(A, \cdot)$ and for all elements $a, b, c:A$, a magma is __left ext
 
 ## Related concepts
 
+* [[magmoidal groupoid]]
+
 * [[magmoidal category]]
 
 * [[n-ary operation]]
