@@ -1,4 +1,10 @@
 
+
+> For *[[Haldane phase]]* see instead at *[[Heisenberg model]]*.
+
+***
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
