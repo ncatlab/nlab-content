@@ -9,7 +9,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A _Picard groupoid_ is a [[symmetric monoidal|strict symmetric monoidal]] category $(\mathcal{A}, \otimes, 1)$ in which every [[object]] and every [[morphism]] is strictly [[inverse|invertible]] with respect to $\otimes$, that is to say, there is, for every object $a$ of $\mathcal{A}$, an object $a^{-1}$ of $\mathcal{A}$ such that $a \otimes a^{-1} = 1$, and similarly for morphisms.
+A _Picard groupoid_ is a [[symmetric monoidal|strict symmetric monoidal]] [[category]] $(\mathcal{A}, \otimes, 1)$ in which every [[object]] and every [[morphism]] is strictly [[inverse|invertible]] with respect to $\otimes$; that is to say: there is, for every object $a$ of $\mathcal{A}$, an object $a^{-1}$ of $\mathcal{A}$ such that $a \otimes a^{-1} = 1$, and similarly for morphisms.
 
 =--
 
@@ -44,6 +44,8 @@ The closed monoidal structure of the 2-category of Picard groupoids, together wi
 Picard groupoids are well-known to model stable homotopy 1-types, at least if one adopts the weak version of the invertibility condition. This is a stable version of the 1-truncated [[homotopy hypothesis]]. 
 
 ## Related concepts
+
+* [[monoidal groupoid]]
 
 * [[2-group]]
 
