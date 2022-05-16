@@ -26,28 +26,31 @@
 
 ## Idea
 
-In type theory, a 1-truncated [[H-space]]. In category theory, the [[groupoidal categorification]] of a [[unital magma]]. 
+In type theory, a 1-truncated [[H-space]]/[[An-space|$A_2$-space]]. In category theory, the [[groupoidal categorification]] of a [[unital magma]]. 
 
 ## Definitions
 
 ### In type theory
 
-In [[intensional type theory]] with [[function extensionality]], a [[groupoid]] is a [[n-truncated|1-truncated]] [[type]] and a **H-spatial groupoid**, **unital magmoidal groupoid**, or **magmoidal groupoid with unit** is a [[groupoid]] that is also an [[H-space]]. 
+In [[intensional type theory]] with [[function extensionality]], a [[groupoid]] is a [[n-truncated|1-truncated]] [[type]] and a **H-spatial groupoid**, **$A_2$-spatial groupoid**, **unital magmoidal groupoid**, or **magmoidal groupoid with unit** is a [[groupoid]] that is also an [[H-space]]/[[An-space|$A_2$-space]]. 
 
 ### In category theory
 
-In [[category theory]], a **H-spatial groupoid**, **unital magmoidal groupoid**, or **magmoidal groupoid with unit** is a [[magmoidal groupoid]] $(G, \otimes)$ with a unit $I$ and natural unitary isomorphisms $\lambda_A \colon A\otimes I \simeq^\dagger A$ and $\rho_A \colon I\otimes A \simeq^\dagger A$. 
+In [[category theory]], a **unital magmoidal groupoid** or **magmoidal groupoid with unit** is a [[magmoidal groupoid]] $(G, \otimes)$ with a unit $I$ and natural unitary isomorphisms $\lambda_A \colon A\otimes I \simeq^\dagger A$ and $\rho_A \colon I\otimes A \simeq^\dagger A$. 
 
 ## See also
 
 * [[unital magma]]
 * [[H-space]]
+* [[An-space]]
 * [[groupoid]]
 * [[magmoidal groupoid]]
 * [[H-monoidal groupoid]]
 
 [[!redirects H-spatial groupoid]]
 [[!redirects H-spatial groupoids]]
+[[!redirects A2-spatial groupoid]]
+[[!redirects A2-spatial groupoids]]
 [[!redirects unital magmoidal groupoid]]
 [[!redirects unital magmoidal groupoids]]
 [[!redirects magmoidal groupoid with unit]]
