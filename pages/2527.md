@@ -15,7 +15,7 @@
 
 ## Idea
 
-A __strict category__ is a [[category]] together with the structure of a [[set]] (or [[class]]) on its collection of [[objects]]; in particular, the objects can be compared for [[equality]] (not merely [[isomorphism]]).  In contrast, a __weak category__ is a category *without* such structure.  Similarly, a __strict functor__ is one which preserves equality of objects: $F(x) = F(y)$ if $x = y$.  (NB: this is not inherently size-related---both [[large category|large]] and [[small categories]] can be either strict or weak.)
+A __strict category__ is a [[category]] together with the [[structure]] of a [[set]] (or [[class]]) on its collection of [[objects]]; in particular, the objects can be compared for [[equality]] (not merely [[isomorphism]]).  In contrast, a __weak category__ is a category *without* such structure.  Similarly, a __strict functor__ is one which preserves equality of objects: $F(x) = F(y)$ if $x = y$.  (NB: this is not inherently size-related---both [[large category|large]] and [[small categories]] can be either strict or weak.)
 
 If we use [[set theory|set-theoretic]] [[foundations]] for category theory, then by definition, a category comes with a set (or class) of objects, and therefore admits the structure of a strict category in a canonical way.  Thus, in this case, it is possible to ignore the adjective "strict" in "strict category", while a "strict functor" simply means a "non-[[anafunctor|ana]] functor" (the usual default meaning of 'functor', but not necessarily the best concept).
 
