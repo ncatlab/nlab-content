@@ -108,6 +108,8 @@ Generally, the $n$-torus $T^n$ is $(S^1)^n$.
 
   * [[ellipse]], [[parabola]], [[hyperbola]]
 
+* [[circumference of a circle]]
+
 ## References
 
 A formalization of the [[shape modality|shape]] [[homotopy type]] $&#643; S^1 \simeq \mathbf{B}\mathbb{Z}$ of the circle as a [[higher inductive type]] in [[homotopy type theory]], along with a proof that $\Omega &#643;S^1\simeq {\mathbb{Z}}$ (and hence $\pi_1(&#643;S^1) \simeq \mathbb{Z}$):
