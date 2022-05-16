@@ -20,6 +20,8 @@
 
 ## Related concepts
 
+* [[Heisenberg model]]
+
 * [[Bethe ansatz]]
 
 * [[integrable system]]
