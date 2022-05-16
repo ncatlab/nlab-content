@@ -184,7 +184,7 @@ There are various [[model category]] models for collections of $(n,r)$-categorie
 
 ## Related concepts
 
-* [[(n,r)-quiver]]
+* [[directed (n,r)-graph]]
 
 * [[(n,r)-site]]
 
