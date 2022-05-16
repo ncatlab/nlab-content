@@ -171,8 +171,6 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 * **braided monoidal category**, [[braided monoidal (∞,1)-category]]
 
   * [[braided monoidal dagger category]]
-
-  * [[braided 2-group]], [[braided ∞-group]]
  
   * [[braided monoidal 2-category]]
 
@@ -181,6 +179,10 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
 * [[2-fold monoidal category]], [[duoidal category]]
+
+* [[braided monoidal groupoid]]
+
+  * [[braided 2-group]], [[braided ∞-group]]
 
 ## References
 
