@@ -29,6 +29,8 @@ Or a [[spinor]] field, in the absence of any [[magnetic field]] or [[spin-orbit 
 
 In [[condensed matter theory]], internal symmetries are also referred to as "on-site" symmetries, this referring to the sites of the atomic nuclei in the [[crystal]] lattice.
 
+For example, the [[Ising model]] has an on-site "spin flip"-symmetry $\vert \uparrow \rangle \xleftrightarrow{S} \vert \downarrow \rangle$, while the [[Heisenberg model]] has on on-site [[SU(2)]]-symmetry (see also [CGW11, p. 5](#CGW11)).
+
 <center>
 <img src="https://ncatlab.org/nlab/files/TypesOfSymsOfCrystTopInsulators-220515.jpg" width="680"> 
 
@@ -54,6 +56,10 @@ Explicit definition of internal symmetry [[condensed matter theory]]:
 * [[Charles Zhaoxi Xiong]], p. 13 of: *Classification and Construction of Topological Phases of Quantum Matter* $[$[arXiv:1906.02892](https://arxiv.org/abs/1906.02892)$]$
 
 Beware that old historical articles (eg. [Barlow 1883](crystal#Barlow1883)) used "internal symmetry" to refer to [[crystallographic group|crystallographic symmetry]] which now is referred to as "spatial symmetry" and regarded as non-internal.
+
+See also:
+
+* {#CGW11} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Classification of gapped symmetric phases in one-dimensional spin systems*, Phys. Rev. B **83** 035107 (2011) $[$[doi:10.1103/PhysRevB.83.035107](https://doi.org/10.1103/PhysRevB.83.035107)$]$
 
 
 [[!redirects internal symmetries]]
