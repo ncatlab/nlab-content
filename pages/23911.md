@@ -50,6 +50,7 @@ $$\beta_{A,B}^\dagger = \beta_{B,A}$$
 * [[monoidal groupoid]]
 * [[braided monoidal groupoid]]
 * [[symmetric 2-group]]
+* [[symmetric ring groupoid]]
 * [[symmetric monoidal category]]
 
 [[!redirects symmetric monoidal groupoid]]
