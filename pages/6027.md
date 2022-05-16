@@ -3,6 +3,10 @@
 
 Length is the [[volume]] of [[curves]].
 
+## Examples
+
+* [[circumference of a circle]]
+
 ## Related concepts
 
 * [[area]]
