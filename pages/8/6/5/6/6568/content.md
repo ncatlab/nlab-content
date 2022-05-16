@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[classical mechanics]], the analog of [[momentum]] for rotational dynamics is called _angular momentum_.
+In [[classical mechanics]], the analog of [[momentum]] for rotational dynamics is called _angular momentum_, and is defined as twice the product of the [[mass]] and the [[areal velocity]]. 
 
 In [[quantum mechanics]], the angular momentum [[quantum observables]] constitute a [[representation]] of the ([[special orthogonal group|special]]) [[orthogonal group]] $SO(n)$ of $n$-dimensional [[Euclidean space]], in applications typically considered for $n = 3$ or $n = 2$.
 
@@ -28,6 +28,8 @@ Therefore the theory of quantum angular momentum is that of the [[irreducible re
 ## Related concepts
 
 * [[angular velocity]], [[moment of inertia]]
+
+* [[areal velocity]]
 
 * [[Clebsch-Gordan coefficient]]
 
