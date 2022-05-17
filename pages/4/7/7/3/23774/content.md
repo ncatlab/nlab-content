@@ -78,7 +78,7 @@ $$g\left((a + b + c) + \left(c - \frac{b^2}{4a}\right)\right) = 1 - \frac{b}{2a}
 
 and the initial conditions for the reflected branch $h$ are
 
-$$g\left((a - b + c) + \left(c - \frac{b^2}{4a}\right)\right) = -1 - \frac{b}{2a}$$
+$$h\left((a - b + c) + \left(c - \frac{b^2}{4a}\right)\right) = -1 - \frac{b}{2a}$$
 
 As a result, $g$ and $h$ are automatically pointwise [[smooth functions]], and in fact [[analytic functions]], and for every $x$ in the domain of $g$ and $h$,
 
