@@ -37,6 +37,8 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 ## Related concepts
 
+* [[differential geometry of curves and surfaces]]
+
 * analog for dimension 1: [[curve]], [[algebraic curve]]
 
 * [[genus of a surface]]
