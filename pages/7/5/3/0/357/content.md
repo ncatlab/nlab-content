@@ -30,7 +30,20 @@ A **virtual double category** or **$fc$-multicategory** is a common generalizati
 
 [[virtual-double-category-cell.png:pic]]
 
-Note that this includes the case when $n=0$, i.e. a cell of "nullary" source.  In this case, we must have $X_0 = X_n$.  Finally, the 2-cells can be composed in a more or less evident way, akin to composition in a multicategory:
+Note that this includes the case when $n=0$, i.e. a cell of "nullary" source.  In this case, we must have $X_0 = X_n$. 
+
+Note that the "empty" case of a string of horizontal arrows this has a single object $X$ in which case the 2-cell looks like:
+
+\[\begin{tikzcd}% https://q.uiver.app/?q=WzAsNCxbMSwwLCJYIl0sWzAsMiwiWV8wIl0sWzIsMiwiWV8xIl0sWzEsMSwiXFxEb3duYXJyb3cgXFxhbHBoYSJdLFswLDEsImYiLDJdLFswLDIsImciXSxbMSwyLCJxIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV1d
+	& X \\
+	& {\Downarrow \alpha} \\
+	{Y_0} && {Y_1}
+	\arrow["f"', from=1-2, to=3-1]
+	\arrow["g", from=1-2, to=3-3]
+	\arrow["q"', "\shortmid"{marking}, from=3-1, to=3-3]
+\end{tikzcd}\]
+
+Finally, the 2-cells can be composed in a more or less evident way, akin to composition in a multicategory:
 
 [[virtual-double-category-composite.png:pic]]
 
@@ -92,6 +105,7 @@ The **profunctors** between virtual double categories are a similar "virtualizat
 * For each string of horizontal arrows $X_0 \overset{p_1}{\to} X_1 \to\dots \to X_n$ in $D$, each horizontal arrow $Y_0 \overset{q}{\to} Y_1$ in $C$, and each pair of elements $f \in H_0 (X_0,Y_0)$ and $g\in H_0(X_n,Y_1)$, a set of "hetero-cells" of shape
 
   [[virtual-double-category-cell.png:pic]]
+
 
 * The hetero-cells are acted on by the 2-cells of $D$ on the top, and by the 2-cells of $C$ on the bottom, in an evident way, respecting the given action of vertical arrows of $D$ and $C$ on the elements of $H_0$.
 
