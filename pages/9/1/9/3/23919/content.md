@@ -69,9 +69,9 @@ $$\overrightarrow{r}(\theta) \coloneqq r \cos(\theta) \hat{i} + r \sin(\theta) \
 
 Then the area of $\mathcal{C}$ is given by integrating the magnitude of the [[areal velocity]]:
 
-$$A(r) = \int_{0}^{\tau} \left|\frac{\overrightarrow{r}(\theta) \wedge \partial_\theta\overrightarrow{r}(\theta)}{2}\right| d \theta$$
+$$A(r) = \int_{0}^{\tau} \left|\frac{\overrightarrow{r}(\theta) \wedge \overrightarrow{v}(\theta)}{2}\right| d \theta$$
 
-where $a \wedge b$ is the wedge product of two multivectors $a$ and $b$, which evaluates to 
+where $a \wedge b$ is the wedge product of two multivectors $a$ and $b$ and $\overrightarrow{v}$ is the [[velocity]] of a point in $\mathcal{C}$. This expression evaluates to 
 
 $$A(r) = \int_{0}^{\tau} \left|\frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge \partial_\theta (r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j})}{2}\right| d \theta$$
 $$A(r) = \int_{0}^{\tau} \left|\frac{(r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j}) \wedge (-r \sin(\theta) \hat{i} + r \cos(\theta) \hat{j})}{2}\right| d \theta$$
