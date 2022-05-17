@@ -46,6 +46,7 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 * [[Berry connection]]
 
+* [[dispersion relation]]
 
 ## References
 
