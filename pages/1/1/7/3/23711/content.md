@@ -38,7 +38,7 @@ Therefore semi-metals with such non-trivial Berry phases are examples of [[topol
 
 ## Properties
 
-### Phase decay via mass terms
+### Phase decay via mass terms?
  {#MassTerms}
 
 Near nodal points in the Brillouin torus of a semi-metal, the [[dispersion 
@@ -68,9 +68,17 @@ By [[Karoubi K-theory|Karoubi/Atiyah-Singer-type theorems]], such gap-opening ma
 
 Beware: 
 
-1. This means that the topological *semi-metal*-phase must be classified in a group *modulo* the K-group of mass terms (cf. [#Freed & Hopkins 21, Thm. 9.63](#FreedHopkins21)). The K-group of mass terms itself at best classifies aspects of the [[topological insulator]]-phase that the semi-metal phase may decay to.
+1. This means that the topological *semi-metal*-phase must be classified in a group *modulo* the K-group of mass terms (cf. [Freed & Hopkins 21, Thm. 9.63](#FreedHopkins21)). The K-group of mass terms itself at best classifies aspects of the [[topological insulator]]-phase that the semi-metal phase may decay to.
 
 1. The argument about single mass terms in a K-theory group of a point ignores the global topology of the valence bundle.
+
+   For example, 
+
+   1. In examples the total topological charge of all nodal points combined is typically constrained to vanish (in the absence of Zak phases).
+
+   1. In the concrete example of the [[Haldane model]], there is an explicit $k$-dependence of the mass term, see [DTC](#DelftTopologyCourse): [First try](https://topocondmat.org/w4_haldane/haldane_model.html#first-try), [Second try](https://topocondmat.org/w4_haldane/haldane_model.html#second-try).
+
+
 
 ## Examples
 
@@ -87,7 +95,6 @@ General textbook account:
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
 Review with emphasis on [mass terms](#MassTerms)
-
 
 * {#Schnyder18} [[Andreas P. Schnyder]], *Accidental and symmetry-enforced band crossings in topological semimetals*, lecture notes (2018) $[$[pdf](https://www.fkf.mpg.de/6431357/topo_lecture_notes_schnyder_TMS18.pdf), [[Schnyder-Semimetals-2018.pdf:file]]$]$
 
@@ -136,6 +143,11 @@ following:
 * {#MorimotoFurusaki13} Takahiro Morimoto and Akira Furusaki, Sec. V of: *Topological classification with additional symmetries from Clifford algebras*, Phys. Rev. B **88** (2013) 125129 ([arXiv:1306.2505](https://arxiv.org/abs/1306.2505),  [doi:10.1103/PhysRevB.88.125129](https://doi.org/10.1103/PhysRevB.88.125129))
 
 * {#CTSR15} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]], Section III.C of *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 ([arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005))
+
+Example:
+
+* {#DelftTopologyCourse} Delft Topology Course team, *[Haldane model, Berry curvature, and Chern number](https://topocondmat.org/w4_haldane/haldane_model.html#first-try)* - [First try](https://topocondmat.org/w4_haldane/haldane_model.html#first-try), [Second try](https://topocondmat.org/w4_haldane/haldane_model.html#second-try)
+
 
 Related discussion of Dirac mass terms is in:
 
