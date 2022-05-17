@@ -28,6 +28,8 @@ Given a [[Cartesian space]] $V$ and a [[smooth curve]] $r:\mathbb{R} \to V$, the
 
 ## References
 
+See the references at *[[differential geometry of curves and surfaces]]*.
+
 * Wikipedia, _[Acceleration](https://en.wikipedia.org/wiki/Acceleration)_
 
 [[!redirects accelerations]]
