@@ -26,6 +26,8 @@ where $x^2$ and $x^3$ is the canonical [[square function]] and [[cube function]]
 
 * [[linear function]], [[quadratic function]], [[polynomial function]]
 
+* [[depressed cubic function]]
+
 * [[real cubic function]]
 
 ## References
