@@ -62,6 +62,7 @@ The [[oidification]] of a monoidal groupoid is a [[(2,1)-category]].
 * [[braided monoidal groupoid]]
 * [[k-tuply monoidal n-groupoid]]
 * [[ring groupoid]]
+* [[2-action]]
 * [[monoidal category]], [[monoidal dagger category]]
 * [[(2,1)-category]]
 
