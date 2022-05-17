@@ -150,6 +150,8 @@ In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in th
 
 * [[real square root]]
 
+* [[real cubic function]]
+
 ## References ##
 
 See also:
