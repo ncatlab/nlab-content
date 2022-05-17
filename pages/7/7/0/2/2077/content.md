@@ -129,4 +129,5 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 
 [[!redirects strictly monotonic]]
 
+[[!redirects antitonic]]
 
