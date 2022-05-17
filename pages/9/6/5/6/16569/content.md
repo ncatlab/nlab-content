@@ -28,7 +28,7 @@ assumptions each of the maps is locally trivial).
 If $X$ is a scheme of finite type over $k$ then there is a bijection 
 
 $$
-(Sch/k) (Y,X_m) \cong (ind-Sch/k) (Y\hat\times_{Spec k} Spec k[[t]],X)
+(Sch/k) (Y,X_\infty) \cong (ind-Sch/k) (Y\hat\times_{Spec k} Spec k[[t]],X)
 $$
 
 natural in $Y$ in $Sch/k$, where $Y\hat\times_k k[[t]]$ is the formal completion of
