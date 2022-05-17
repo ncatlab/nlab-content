@@ -129,9 +129,8 @@ To be written, see [Mac Lane (1959)](#MacLane) for details.
 * [[trigonometry]]
 
 
-
 {#BasicNotionsAndFact} **Basic notions and facts in ([[differential geometry|
-differential]]) Euclidean geometry**
+differential]]) Euclidean geometry** (see also at: [[differential geometry of curves and surfaces]])
 
 * [[parallel postulate]]
 
