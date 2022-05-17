@@ -103,7 +103,7 @@ $$A(r) = \frac{1}{2} \int_{0}^{\tau} {\vert r \cos(\theta) \hat{i} + r \sin(\the
 ###### Proof 
 In this proof, we are using the circle constant $\tau = 2 \pi$. 
 
-The area of a [[regular convex polygon]] $\mathcal{P}_n$ with $n$ sides and [[circumradius]] $r$ is given by the sequence of functions $P:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$
+The area of a [[regular polygon]] $\mathcal{P}_n$ with $n$ sides and [[circumradius]] $r$ is given by the sequence of functions $P:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$
 
 $$A_\mathcal{P}(n)(r) = \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right)$$
 
