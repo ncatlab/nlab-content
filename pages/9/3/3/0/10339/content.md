@@ -23,7 +23,6 @@ __Lorentzian geometry__ is the [[geometry]] of _[[Minkowski spacetime]]_, hence 
 
 Note that while Lorentzian geometry is analogous to [[Euclidean geometry]] (as [[Minkowski space]] is analogous to a [[Euclidean space]]), a [[Lorentzian manifold]] is analogous to a [[Riemannian manifold]].  Thus, one might use 'Lorentzian geometry' analogously to [[Riemannian geometry]] (and insist on __Minkowski geometry__ for our topic here), but usually one skips all the way to [[pseudo-Riemannian geometry]] (which studies [[pseudo-Riemannian manifolds]], including both Riemannian and Lorentzian manifolds).
 
-
 ## Lorentzian Cartan geometry and first order gravity
 
 Since the [[isometry group]] of [[Minkowski spacetime]] is the [[Poincaré group]], and since Minkowski spacetime is the [[quotient]] of the [[Poincaré group]] by the [[Lorentz group]]-[[subgroup]], Lorentzian geometry and the study of [[Lorentzian manifolds]] is to a large extent the [[Cartan geometry]] of the [[Poincaré group]]. 
@@ -41,8 +40,16 @@ Promoting this perspective from global to [[local symmetry]] yields the [[first 
 
 * [[Lorentzian manifold]]
 
+* [[hyperbolic geometry]]
+
 ## References
  {#References}
+
+A [[synthetic geometry|synthetic]] set of axioms for Lorentzian geometry was developed in these articles
+
+* Edwin B. Wilson & Gilbert N. Lewis (1912) _The Space-time Manifold of Relativity. The Non-Euclidean Geometry of Mechanics and Electromagnetics_ Proceedings of the American Academy of Arts and Sciences 48:387–507 
+
+* James Cockle, _Synthetic Spacetime_, ([web](https://web.archive.org/web/20090926011519/http://ca.geocities.com/cocklebio/synsptm.html))
 
 Introductions and surveys include
 
