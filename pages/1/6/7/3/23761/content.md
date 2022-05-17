@@ -49,6 +49,11 @@ The original article:
 
 * [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015 $[$[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)$]$
 
+see also 
+
+* Doru Sticlet, Frederic Piéchon, [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, Section 2.B.1 (pp. 3) of: *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) $[$[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)$]$
+
+
 Review:
 
 * Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) $[$[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)$]$
