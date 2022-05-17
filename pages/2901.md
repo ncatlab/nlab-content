@@ -143,6 +143,10 @@ differential]]) Euclidean geometry**
 
   * [[areal velocity]]
 
+  * [[acceleration]]
+
+  * [[jerk]]
+
 * [[circle]]
 
   * [[circumference of a circle]]
