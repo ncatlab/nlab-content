@@ -18,7 +18,7 @@ This is a topic of a well-known discussion series in 1990s.
 
 * [[William P. Thurston]],  _On proof and progress in mathematics_, Bull. Amer. Math. Soc. (N.S.) __30__ (1994), no. 2, 161&#8211;177, [MR94m:00006](http://www.ams.org/mathscinet-getitem?mr=1249357), [doi](http://dx.doi.org/10.1090/S0273-0979-1994-00502-6), [arxiv/math.HO](http://arxiv.org/abs/math/9307227)
 
-* David Corfield at el. _Wittgenstein and Thurston on understanding_,  [nCafe](http://golem.ph.utexas.edu/category/2006/10/wittgenstein_and_thurston_on_u.html)
+* [[David Corfield]] at el. _Wittgenstein and Thurston on understanding_,  [nCafe](http://golem.ph.utexas.edu/category/2006/10/wittgenstein_and_thurston_on_u.html)
 
 Somewhat later and with different scope, but related to this series, is also a long article
 
