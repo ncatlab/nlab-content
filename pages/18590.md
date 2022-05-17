@@ -73,3 +73,7 @@ The [[Kock-Lawvere axiom]] for the [[axiom|axiomatization]] of [[differentiation
 
 
 [[!redirects derivatives]]
+[[!redirects second derivative]]
+[[!redirects second derivatives]]
+[[!redirects third derivative]]
+[[!redirects third derivatives]]
