@@ -1,5 +1,35 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{: toc}
+
+## Definition
+
+Given a [[Cartesian space]] $V$ and a [[smooth curve]] $r:\mathbb{R} \to V$, the **velocity** of $r$ is given by the [[derivative]] of $r$: $v \coloneqq \partial_t r$. 
+
 ## Related concepts
+
+* [[curve]]
+
+* [[acceleration]]
+
+* [[jerk]]
+
+In Euclidean spaces:
 
 * [[speed]]
 
