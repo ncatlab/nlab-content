@@ -32,19 +32,21 @@ If it is convex there is seemingly no need for the considerations of (the polygo
 
 ## Examples
 
-Convex polgyons:
+* [[convex polygons]]
 
-* ([[bigon]])
+  * ([[bigon]])
 
-* [[triangle]]
+  * [[triangle]]
 
-* [[square]]
+  * [[square]]
 
-* [[pentagon]]
+  * [[pentagon]]
 
-* [[hexagon]]
+  * [[hexagon]]
 
-* ...
+* [[regular polygons]]
+
+...
 
 ## Related pages
 
@@ -60,14 +62,9 @@ Convex polgyons:
 
 * Wikipedia, _[Polygon](https://en.wikipedia.org/wiki/Polygon)_
 
-* Wikipedia, _[Regular polygon](https://en.wikipedia.org/wiki/Regular_polygon)
-
 * Jeff Erickson, _Jordan polygon theorem_, from notes for a combinatorial topology course in 2009 ([pdf](https://jeffe.cs.illinois.edu/teaching/comptop/2009/notes/jordan-polygon-theorem.pdf))
 
 * M. Shimrat, _Algorithm 112: Position of point relative to polygon_, Commun. ACM 5(8):434, 1962 [doi](https://doi.org/10.1145/368637.368653); R. Hacker, _Certification of Algorithm 112: Position of point relative to polygon_, Commun. ACM 5(12):606, 1962
 
 
 [[!redirects polygons]]
-
-[[!redirects regular polygon]]
-[[!redirects regular polygons]]
