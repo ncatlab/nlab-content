@@ -38,8 +38,7 @@ A partition of unity is __point finite__ if for every $x\in X$ there is only a [
 
 A partition of unity is __locally finite__ if for every $x\in X$ there is an open neighborhood $U$ of $x$ such that for only a [[finite number]] of $j\in J$ there is $x\in U$ such that $u_j(x) \neq 0$.
 
-Often, the property of local finiteness is included in the definition of a partition of unity.
-This is harmless, since a result due to [[Michael R. Mather]] says that for any partition of unity we can find a locally finite partition of unity with the same indexing set and whose induced cover refines the original induced cover.
+{#Harmless} Often, the property of local finiteness is included in the definition of a partition of unity. This is harmless, since a result due to [[Michael R. Mather]] (Prop. \ref{MatherTheorem} below) says that for any partition of unity we can find a locally finite partition of unity with the same indexing set and whose induced cover refines the original induced cover.
 
 ## Examples
 
@@ -339,20 +338,21 @@ is a subordinate partition of unity by smooth functions as required.
 
 ### From a non-point finite partition of unity to a partition of unity
 
-+-- {: .num_defn}
++-- {: .num_defn #LocallyFinite}
 ###### Definition
 
 A collection of functions $\mathcal{U} = \{u_i : X \to [0,1]\}$ such that every $x\in X$ is in the support of some $u_i$. Then $\mathcal{U}$ is called _locally finite_ if the cover $u_i^{-1}(0,1]$ (i.e. the induced cover) is [[locally finite cover|locally finite]].
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #MatherTheorem}
 ###### Proposition
-(Mather, 1965)
+([Mather, 1965](#Mather65))
 
 Let $\{u_i\}_J$ be a non-point finite partition of unity. Then there is a locally finite partition of unity $\{v_i\}_{i\in J}$ such that the induced cover of the latter is a refinement of the induced cover of the former.
+
 =--
 
-(For a proof, see p.354 of Dold's Lectures on algebraic topology. [Google books link to page 354](https://books.google.com.au/books?id=4AmzD9XhGDkC&lpg=PA354&vq=locally%20finite%20oartition%20unity&pg=PA354#v=onepage&q&f=false), which may or may not be visible.  Alternatively, see Lemma 5.1.8 on page 301 of Engelking.)
+The **proof** is given on p. 354 of [Dold 95](#Dold95) and Lemma 5.1.8 on page 301 of [Engelking 89](#Engelking89).
 
 This implies that (loc. finite) [[numerable covers]] are cofinal in induced covers arising from collections of functions as in the definition. In particular, given the [[Milnor classifying space]] $\mathcal{B}^M G$ of a [[topological group]] $G$, which comes with a countable family of 'coordinate functions' $\mathcal{B}^M G \to [0,1]$, has a numerable cover. This is shown by Dold to be a trivialising cover for the universal bundle constructed by Milnor, and so the universal bundle is [[numerable bundle|numerable]].
 
@@ -436,11 +436,12 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 
 * [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
 
-* [[Albrecht Dold]], _Lectures on algebraic topology_, Springer Classics in Mathematics (1980), p.354.
+* {#Mather65} [[Michael R. Mather]], _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
 
-* Engleking, _General topology_, (1989), p. 301
+* {#Dold95} [[Albrecht Dold]], p. 354 in: *Lectures on Algebraic Topology*, Springer 1995 ([doi:10.1007/978-3-642-67821-9](https://www.springer.com/gp/book/9783540586609), [pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-67821-9%2F1.pdf), [GoogleBooks](https://books.google.com.au/books?id=4AmzD9XhGDkC&lpg=PA354&vq=locally%20finite%20oartition%20unity&pg=PA354#v=onepage&q&f=false))
 
-* M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
+* {#Engelking89} [[Ryszard Engelking]], p. 301 in: *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
+
 
 Discussion of partitions of unity in [[constructive mathematics]] is in
 
