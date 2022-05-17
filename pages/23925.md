@@ -41,6 +41,10 @@ Thus, torque is a [[bivector]].
 
 ## References
 
+See the references at *[[differential geometry of curves and surfaces]]*.
+
+See also:
+
 * Wikipedia, _[Torque](https://en.wikipedia.org/wiki/Torque)_
 
 [[!redirects torques]]
