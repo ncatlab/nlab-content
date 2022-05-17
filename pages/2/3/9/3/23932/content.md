@@ -59,7 +59,7 @@ A proof in [[synthetic differential topology]] is provided in section 7.3 of
 
 following
 
-* Ana Maria San Luis Fernández, _Estabilidad transversal de gérmenes representables infinitesimalmente,_ Ph.D. Thesis, Universidad de Santiago de Compostela, 1999. ([abstract page](https://documat.unirioja.es/servlet/tesis?codigo=12609))
+* Ana Maria San Luis Fernández, _Estabilidad transversal de gérmenes representables infinitesimalmente,_ Ph.D. Thesis, Universidad de Santiago de Compostela (1999) ([abstract page](https://documat.unirioja.es/servlet/tesis?codigo=12609), [on GoogleBooks](https://books.google.ae/books/about/Estabilidad_transversal_de_g%C3%A9rmenes_rep.html?id=itNUAAAAYAAJ))
 
 
 [[!redirects Mather stability theorem]]
