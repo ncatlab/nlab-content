@@ -36,6 +36,10 @@ An example: [[elliptic curve]].
 
 ## Related concepts
 
+* [[surface]]
+
+* [[differential geometry of curves and surfaces]]
+
 * [[singular point of a curve]]
 
 * [[torsion of a curve]]
