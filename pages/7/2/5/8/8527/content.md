@@ -54,13 +54,13 @@ Hence the Riemann moduli space is the [[orbifold quotient]] of Teichm&#252;ller 
 
 * [[quantum Teichmüller theory]]
 
+* [[p-adic Teichmüller theory]]
+
 * [[inter-universal Teichmüller theory]]
 
 * [[Outer space]]
 
 * for version in [[supergeometry]] see at _[[super Riemann surface]]_
-
-
 
 ## References
 
