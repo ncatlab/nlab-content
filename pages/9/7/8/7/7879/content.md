@@ -35,18 +35,31 @@ Haskell is famous for its use of [[monads (in computer science)]], a subclass of
 
 Expanding on the caveat above about `undefined`, the built-in products in Haskell are "lifted", they are not exactly categorical products. For example, if we define 
 ``` 
-undefined = undefined 
+loop = loop 
 ```
-then the element `undefined :: ((),())` is observably different from `(undefined,undefined) :: ((),())`. 
-For example, 
+then the element `loop :: ((),())` is observably different from `(loop,loop) :: ((),())`. 
+To see this, note that 
 ```
-(uncurry . curry) (\(_,_)->()) undefined
+(\(_,_)->()) (loop,loop)
 ```
 terminates but 
 ```
-(\(_,_)->()) undefined
+(\(_,_)->()) loop
 ```
-does not terminate, so the built-in [[currying]] is not strictly speaking a bijection in Haskell. 
+does not terminate.
+
+
+As a result, the built-in [[currying]] is not strictly speaking a bijection in Haskell. For example, 
+```
+(uncurry . curry) (\(_,_)->()) loop
+```
+terminates but 
+```
+(\(_,_)->()) loop
+```
+does not terminate. 
+
+It _is_ consistent to have a cartesian closed category with a recursion operator, and indeed most semantic models of recursion in a call-by-name setting do actually form cartesian closed categories. In fact Haskell does provide "unboxed tuple" types, which are more like categorical products, but these are not so widely used. 
 
 
 ### Similar and related software
