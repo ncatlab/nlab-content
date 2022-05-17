@@ -17,7 +17,7 @@
 
 ## Idea
 
-While modern [[differential geometry]] has become a very general subject, studying [[smooth manifolds]] in full generality, the origins of the subject (before [[general relativity]] came along) lie in the study of just [[curves]] and [[surfaces]] [[embedding of smooth manifolds|embedded]] in a [[Euclidean space|Euclidean]]/[[Cartesian space]].
+While modern [[differential geometry]] has become a very general subject, studying [[smooth manifolds]] in full generality, the origins of the subject (before [[general relativity]] came along) lie in the study of just [[curves]] and [[surfaces]] [[embedding of smooth manifolds|embedded]] in a [[Cartesian space]]/[[Euclidean space]].
 
 Expositions of this *differential geometry of curves and surfaces* tend to retain some of the historical ideosyncracies (such as the notion of *[[jerk]]*) which are rarely seen in more general texts on differential geometry.
 
