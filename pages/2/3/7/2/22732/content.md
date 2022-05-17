@@ -83,6 +83,11 @@ Some authors speak of "Chern semi-metals" to amplify this.
 
 * N. Regnault, B. Andrei Bernevig, *Fractional Chern Insulator*, Phys. Rev. X 1, 021014 (2011) ([arXiv:1105.4867](https://arxiv.org/abs/1105.4867))
 
+Models akin to the [[Haldane model]]:
+
+* Doru Sticlet, Frederic Piéchon, [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) $[$[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)$]$
+
+
 ### Experimental realization
 
 * Aizhu Wang, Xiaoming Zhang, Yuanping Feng, Mingwen Zhao*, *Chern Insulator and Chern Half-Metal States in the Two-Dimensional Spin-Gapless Semiconductor $Mn_2 \mathrm{C}_6\mathrm{S}_12$*, J. Phys. Chem. Lett. **8** 16 (2017) 3770–3775 $[$[doi:10.1021/acs.jpclett.7b01187](https://doi.org/10.1021/acs.jpclett.7b01187)$]$
