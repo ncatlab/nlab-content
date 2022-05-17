@@ -127,3 +127,5 @@ $$A(r) = \lim_{n \to \infty} A_\mathcal{P}^\prime(n)(r) = \lim_{n \to \infty} \f
 * [[circumference of a circle]]
 
 * [[Euclidean space]]
+
+[[!redirects area of a circle]]
