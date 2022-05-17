@@ -26,6 +26,8 @@
 
 * [[Riemannian geometry]]
 
+* [[Lorentzian geometry]]
+
 | [[synthetic geometry]]  |  kind of [[space]]  |
 |-------------------------|---------------------|
 | [[Euclidean geometry]]  |  [[Euclidean space]]   |
