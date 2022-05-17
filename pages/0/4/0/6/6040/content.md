@@ -34,3 +34,6 @@ An example: [[elliptic curve]].
 
 [[!redirects curve]]
 [[!redirects curves]]
+
+[[!redirects smooth curve]]
+[[!redirects smooth curves]]
