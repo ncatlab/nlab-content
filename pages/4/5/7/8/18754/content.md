@@ -29,6 +29,8 @@ In [[special relativity]] the [[frequency]] of a [[plane wave]] is proportional 
 
 ## Related conceptss
 
+* [[energy band]]
+
 * [[energy-momentum tensor]]
 
 ## References
