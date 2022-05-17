@@ -34,7 +34,7 @@ In [[solid state physics]], the *Haldane model* is a [[model (in theoretical phy
 
 A curious property of the Haldane model, not shared by all [[Chern insulators]] in general, is that its [[Berry curvature]] is strongly localized around the nodal [[Dirac points]], hence that the [[Berry connection]] is essentially [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the nodal points.
 
-(eg. [Atteia 16, Sec. 3.4](#Atteia16))
+(eg. [Atteia 16, Sec. 2-3.4, p. 4](#Atteia16))
 
 
 ## Related concepts
