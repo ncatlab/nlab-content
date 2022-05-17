@@ -15,16 +15,16 @@
 
 ## Scope
 
-In the philosophical part of $n$Lab we discuss [[higher category theory]] and its repercussions in philosophy. More widely, the entries on philosophy in nLab should also contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
+In the philosophical part of $n$Lab we discuss [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]] and its repercussions in philosophy. More widely, the entries on philosophy in nLab should also contain [[philosophy of mathematics]] in general, and of [[logic and foundations]] in particular. As it is usual for philosophy and the study of thought, it is usefully carried on via study of historical thinkers and their ideas, hence some idea-related aspects of the [[history of mathematics]] are welcome. 
 
 ## Nonscope
 
 There are many articles which are not directly philosophical, but rather essays on general mathematics, often opinion pieces on what is important and so on. Although mathematicians will often speak of their 'philosophy', this is not philosophy _per se_, but it may be relevant to an understanding of the nature of mathematics through its practice, see, for instance, [[development and current state of mathematics]].  
 
 
-## Idea of relevance of higher categories
+## Idea of relevance of higher mathematical structures
 
-Philosophical interest in [[n-category|n-categories]] may be characterised as belonging to one of two kinds.
+Philosophical interest in higher mathematical structures may be characterised as belonging to one of two kinds.
 
 * **[[metaphysics|Metaphysical]]**: The formation of a new language which may prove to be as important for philosophy as predicate logic was for [[Bertrand Russell]] and the [[analytic philosophy|analytic philosophers]] he inspired (see, e.g., [Corfield 20](#Corfield20)).  
 
@@ -56,6 +56,19 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 
 To [[vertical categorification|categorify]] mathematical constructions properly, one must have understood their essential features. This leads us to consider what it is to get concepts 'right'. Which kind of 'realism' is suitable for mathematics? Which virtues should a mathematical community possess to further its ends: a knowledge of its history, close attention to instruction and the sharing of knowledge, a willingness to admit to what is currently lacking in its programmes?
 
+### Research programs in mathematics
+
+* [[Thomas Kuhn]]
+
+* [[Imre Lakatos]]
+
+* [[paradigm]]
+
+* [[paradigm shift]]
+
+* [[research program]]
+
+This entire subject about past research programs, paradigms in mathematics and paradigm shifts could be expanded on in the nLab. Examples include the shift from Euclidean geometry to non-Euclidean geometries in the 19th century, and the dominance of the material set theory paradigm in the 20th century and its failure with higher structures, the evolution of analytic concepts such as the differential, the integral, the real numbers, over the course of the 20th century, but there are surely others out there. 
 
 ## Philosophical positions
 
