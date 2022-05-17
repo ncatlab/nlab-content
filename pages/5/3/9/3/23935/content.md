@@ -28,6 +28,10 @@ Given a [[Cartesian space]] $V$ and a [[smooth curve]] $r:\mathbb{R} \to V$, the
 
 ## References
 
-* Wikipedia, _[Jerk (physics)](https://en.wikipedia.org/wiki/Jerk_(physics))_
+See the references at *[[differential geometry of curves and surfaces]]*
+
+See also
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Jerk_(physics)">Jerk (physics)</a>*
 
 [[!redirects jerks]]
