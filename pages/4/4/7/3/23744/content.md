@@ -37,6 +37,7 @@ In [[type theory]], a [[setoid]] $(T, \equiv)$ is **[[univalence|univalent]]** o
 
 * [[setoid]]
 * [[stable setoid]]
+* [[quotient set]]
 * [[structure identity principle]]
 
 [[!redirects univalent setoids]]
