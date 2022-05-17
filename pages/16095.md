@@ -16,6 +16,8 @@
 
 * [[regular value]]
 
+* [[Mather's stability theorem]]
+
 
 ## References
 
