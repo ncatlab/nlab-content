@@ -234,7 +234,7 @@ There should be some more clearly algebraic examples (other than obvious things 
 
 ### Derivations with values in a bimodule
 
-The standard example of a derivation not on an algebra, but with values in a [[bimodule]] is a restriction of the above case of the exterior differential acting on the [[deRham complex|deRham algebra]] of differential forms. Restricting this to 0-fomrs yields a morphism
+The standard example of a derivation not on an algebra, but with values in a [[bimodule]] is a restriction of the above case of the exterior differential acting on the [[deRham complex|deRham algebra]] of differential forms. Restricting this to 0-forms yields a morphism
 
 $$
   d : C^\infty(X) \to \Omega^1(X)
