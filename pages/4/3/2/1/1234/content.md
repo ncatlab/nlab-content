@@ -45,20 +45,20 @@ from the category of smooth projective varieties over $k$ given by mapping $X \m
 
 The category of correspondences is [[symmetric monoidal category|symmetric monoidal]] with $h(X) \otimes h(Y) \coloneqq h(X \times Y)$.
 
-We also define a category $Corr_\sim(k, A)$ of correspondences with [[coefficients]] in some [[commutative ring]] $A$, by [[tensor product|tensoring]] the morphisms with $A$; this is an $A$-[[linear category]] [[additive category|additive]] [[symmetric monoidal category|symmetric monoidal]] category.
+We also define a category $Corr_\sim(k, R)$ of correspondences with [[coefficients]] in some [[commutative ring]] $R$, by [[tensor product|tensoring]] the morphisms with $R$; this is a $R$-[[linear category]] [[additive category|additive]] [[symmetric monoidal category|symmetric monoidal]] category.
 
 ### Category of effective pure motives  
 
-The [[Karoubi envelope]] (pseudo-abelianisation) of $Corr_\sim(k, A)$ is called the category of **effective pure motives** (with coefficients in $A$ and with respect to the equivalence relation $\sim$), denoted $Mot^eff_\sim(k, A)$.  
+The [[Karoubi envelope]] (pseudo-abelianisation) of $Corr_\sim(k, R)$ is called the category of **effective pure motives** (with coefficients in $R$ and with respect to the equivalence relation $\sim$), denoted $Mot^eff_\sim(k, R)$.  
 
 Explicitly its objects are pairs $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(X))$ an [[idempotent]], and morphisms from $(h(X), p)$ to $(h(Y), q)$ are morphisms $h(X) \to h(Y)$ in $Corr_\sim$ of the form $q \circ \alpha \circ p$ with $\alpha \in Corr_{\sim}(h(X), h(Y))$.
 
-This is still a [[symmetric monoidal category|symmetric monoidal]] category with $(h(X), p) \otimes (h(Y), q) = (h(X \times Y), p \times q)$.  Further it is [[Karoubian category|Karoubian]], $A$-[[linear category|linear]] and [[additive category|additive]].
+This is still a [[symmetric monoidal category|symmetric monoidal]] category with $(h(X), p) \otimes (h(Y), q) = (h(X \times Y), p \times q)$.  Further it is a [[Karoubian category|Karoubian]], $A$-[[linear category|linear]] and [[additive category|additive]].
 
 The image of $X \in SmProj(k)$ under the above functor 
 
 $$
-  h \colon SmProj(k) \to Corr_\sim(k,A) \to Mot^{eff}_\sim(k,A) 
+  h \colon SmProj(k) \to Corr_\sim(k,A) \to Mot^{eff}_\sim(k,R) 
 $$
 
 is the **the motive of $X$**.
@@ -72,25 +72,25 @@ $$h(\mathbf{P}^1_k) = h(\Spec(k)) \oplus \mathbf{L}$$
 To get a [[rigid category]] we formally invert the Lefschetz motive and get a category 
 
 $$
-  Mot_\sim(k, A)
+  Mot_\sim(k, R)
   \coloneqq
-  Mot^{eff}_\sim(k,A)[\mathbf{L}^{-1}]
+  Mot^{eff}_\sim(k,R)[\mathbf{L}^{-1}]
   \,,
 $$ 
 
-the **category of pure motives** (with coefficients in $A$ and with respect to $\sim$).  
+the **category of pure motives** (with coefficients in $R$ and with respect to $\sim$).  
 
 This is a [[rigid category|rigid]], [[Karoubian category|Karoubian]], [[symmetric monoidal category]].  Its objects are triples $(h(X), p, n)$ with $n \in \mathbf{Z}$.
 
 ### Category of pure Chow motives
 
-When the relation $\sim$ is [[rational equivalence]] then $A^*_\sim$ are the [[Chow groups]], and $Mot_\sim(k) = Mot_{rat}(k)$ is called the category of **pure [[Chow motives]]**.
+When the relation $\sim$ is [[rational equivalence]] then $A^*_\sim$ are the [[Chow groups]], and $Mot_\sim(k) = Mot_{rat}(k)$ is called the category of **pure [[Chow motives]]**.  This category has the advantage that it is universal for [[Weil cohomology theory|Weil cohomology theories]]: that is, every Weil cohomology factors uniquely through it.
 
 
 ### Category of pure numerical motives
 
-When the relation $\sim$ is numerical equivalence, then one obtains
-_[[numerical motives]]_.
+When the relation $\sim$ is [[numerical equivalence]], then one obtains
+_[[numerical motives]]_.  This category has the advantage of being a [[semisimple category|semisimple]] [[abelian category]].  In fact, [[Uwe Jannsen]] proved that numerical equivalence is the only [[adequate equivalence relation]] that gives a semisimple abelian category of pure motives.
 
 
 
@@ -110,15 +110,19 @@ _[[numerical motives]]_.
 
 ## References 
 
-* [[Yuri Manin]], _Correspondences, motifs and monoidal transformations_ , Math. USSR Sb. 6 439, 1968([pdf](http://resources.agssp2012.torsor.org/documents/manin.pdf), [web](http://iopscience.iop.org/0025-5734/6/4/A01))
+* [[Daniel Dugger]], *Navigating the Motivic World*.   ([pdf](http://www.stat.ucla.edu/~ywu/wbook.pdf))   A draft of a user-friendly introduction to motives, especially good if you're coming to this topic through algebraic topology.
 
-* [[Tony Scholl]], _Classical motives_, in Motives, Seattle 1991. Proc Symp. Pure Math 55 (1994), part 1, 163-187 ([pdf](https://www.dpmms.cam.ac.uk/~ajs1005/preprints/classical_motives.pdf))
-
-*  [[James Milne]], _Motives -- Grothendieck's Dream_ ([pdf](http://www.jmilne.org/math/xnotes/MOT.pdf))
+* [[Uwe Jannsen]], Motives, numerical equivalence, and semi-simplicity, Invent. Math. 107.3 (1992): 447-452.  ([pdf](https://epub.uni-regensburg.de/26642/1/jannsen10.pdf))
 
 *  [[Minhyong Kim]], _Classical Motives: Motivic $L$-functions_ ([pdf](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf))
 
 * [[Bruno Kahn]], [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
+
+* [[Yuri Manin]], _Correspondences, motifs and monoidal transformations_ , Math. USSR Sb. 6 439, 1968([pdf](http://resources.agssp2012.torsor.org/documents/manin.pdf), [web](http://iopscience.iop.org/0025-5734/6/4/A01))
+
+*  [[James Milne]], _Motives -- Grothendieck's Dream_ ([pdf](http://www.jmilne.org/math/xnotes/MOT.pdf))
+
+* [[Tony Scholl]], _Classical motives_, in Motives, Seattle 1991. Proc Symp. Pure Math 55 (1994), part 1, 163-187 ([pdf](https://www.dpmms.cam.ac.uk/~ajs1005/preprints/classical_motives.pdf))
 
 * R. Sujatha, _Motives from a categorical point of view_,  Lecture notes (2008) ([pdf](http://www.math.tifr.res.in/~sujatha/ihes.pdf))
  {#Sujatha}
