@@ -21,6 +21,8 @@ On the [[fundamental theorem of algebra]]:
 
 ## Related $n$Lab entries
 
+* [[differential geometry of curves and surfaces]]
+
 * [[Gauss decomposition]], [[quantum Gauss decomposition]]
 
 * [[fundamental theorem of algebra]]
