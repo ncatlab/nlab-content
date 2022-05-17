@@ -53,4 +53,13 @@ Review:
 
 * {#Ruas22} Maria Aparecida Soares Ruas, *Old and new results on density of stable mappings* $[$[arXiv:2201.03888](https://arxiv.org/abs/2201.03888)$]$
 
+A proof in [[synthetic differential topology]] is provided in section 7.3 of 
+
+* [[Marta Bunge]], Felipe Gago, Ana Maria San Luis Fernández, _Synthetic Differential Topology_, 2018, ([CUP](http://www.cambridge.org/gb/academic/subjects/mathematics/logic-categories-and-sets/synthetic-differential-topology)) ([excerpt](http://assets.cambridge.org/97811084/47232/excerpt/9781108447232_excerpt.pdf))
+
+following
+
+* Ana Maria San Luis Fernández, _Estabilidad transversal de gérmenes representables infinitesimalmente,_ Ph.D. Thesis, Universidad de Santiago de Compostela, 1999. ([abstract page](https://documat.unirioja.es/servlet/tesis?codigo=12609))
+
+
 [[!redirects Mather stability theorem]]
