@@ -41,17 +41,18 @@ which specifies a choice of ultraproduct (and hence comparison maps, since ultra
 
 +-- {: .proof}
 ###### Proof
-A functor is a pretopos morphism precisely when it preserves initial and terminal objects, pullbacks, disjoint sums, and quotients by internal equivalence relations.
 
-Initial objects: a product of empty sets is empty, and a colimit of empty sets is empty.
+Recall that the ultraproduct sends the family of sets $A_i$ to the colimit of $s \mapsto \prod_{i \in s} A_i$, indexed by $s \in U^op$. $U^op$ (the opposite category of the sub-poset $U \subseteq \mathcal{P}(I)$) is filtered because $U$ is a filter.
 
-Terminal objects: a product of terminal objects is terminal, and the quotient of a singleton is a singleton.
+A functor is a pretopos morphism precisely when it preserves finite limits, initial objects, disjoint sums, and quotients by internal equivalence relations.
 
-Pullbacks: a product of pullbacks is a pullback, and finite limits commute with filtered colimits.
+Finite limits: a $s$-indexed product of $J$-indexed limits is a $J$-indexed limit of $s$-indexed products, and finite limits commute with filtered colimits.
 
-Disjoint sums: a product of disjoint sums is a disjoint sum of products, and colimits commute with colimits.
+Initial objects: a $s$-indexed product of empty sets is empty (as each $s$ is nonempty by properness of $U$), and a colimit of empty sets is empty.
 
-Quotients: a product of quotients $X_i / E_i$ is a quotient of products $\prod_I X_i / \prod_I E_i$, and colimits commute with colimits.
+Disjoint sums: a $s$-indexed product of disjoint sums $\prod_{i:s} (A_{0i} + A_{1i})$ is a disjoint sum of products $\sum_{f : s \to 2} \prod_{i:s} A_{f(i)i}$. For any $(f,a)$ in this set, there is a $U$-large subset $t \subset s$ such that the restriction of $f$ to $t$ is constantly $b$ ($b \in \{0,1\}$). Therefore the restriction map identifies $(f,a)$ with $(const_b,a|_t)$, and the $U^op$-indexed colimit of the $\sum_{f : s \to 2} \prod_{i:s} A_{f(i)i}$ is equivalent to the $U^op$-indexed colimit of the $\sum_{b : 2} \prod_{i:s} A_{bi} = \prod_{i:s} A_{0i} + \prod_{i:s} A_{1i}$, and colimits commute with colimits.
+
+Quotients: Given $X_i$ and equivalence relations $E_i \to X_i \times X_i$, a $s$-indexed product of quotients $\prod_{i:s} (X_i / E_i)$ is a quotient of products $(\prod_{i:s} X_i) / (\prod_{i:s} E_i)$ (because the natural map from the latter to the former is an iso, using the axiom of choice), and colimits commute with colimits.
  =--
 
 Now we can show the theorem:
