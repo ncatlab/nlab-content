@@ -1,12 +1,14 @@
 > This entry is about semigroups with a unary operator $i$ such that $s \cdot i(s) \cdot s = s$ and $i(s) \cdot s \cdot i(s) = i(s)$. For the semigroup with a two-sided inverse, see [[invertible semigroup]]
 
+***
+
 # Contents # 
 * table of contents 
 {:toc} 
 
 ## Definition
 
-An **inverse semigroup** is a [[semigroup]] $S$ (a set with an associative binary operation) such that for every element $s\in S$, there exists a *unique* "inverse" $s^*\in S$ such that $s s^* s = s$ and $s^* s s^* = s^*$. It is evident from this that $s^{\ast\ast} = s$. 
+An **inverse semigroup** is a [[semigroup]] $S$ (ie. a [[set]] equipped with an [[associativity|associative]] [[binary operation]]) such that for every [[element]] $s\in S$, there exists a *unique* "[[inverse]]" $s^*\in S$ such that $s s^* s = s$ and $s^* s s^* = s^*$. It is evident from this that $s^{\ast\ast} = s$. 
 
 ## Examples
 
