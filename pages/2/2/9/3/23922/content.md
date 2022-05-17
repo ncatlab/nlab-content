@@ -31,11 +31,11 @@
 
 ## Idea ##
 
-The [[bivector]] whose magnitude equals the rate of change at which area is swept out by a particle as it moves along a curve. 
+The [[bivector]] whose magnitude equals the rate of change at which [[area]] is swept out by a [[point]]/[[particle]] as it moves along a [[curve]]. 
 
 ## Definition
 
-Given an $n$-dimensional [[Euclidean space]] $\mathbb{R}^n$, one could select an [[orthonormal basis]] on $\mathbb{R}^n$ by postulating an origin $0$ and a function $\hat{i}:[1, n] \to \mathbb{R}^n$ such that for all $m, p \in [1, n]$ the pair of vectors $\hat{i}_m$ and $\hat{i}_p$ is mutually [[orthonormal]]. There is an [[geometric algebra]] $\mathbb{G}^n$ on $\mathbb{R}^n$ defined by the equations $\hat{i}_m^2 = 1$ for all $m \in [1, n]$, and $\hat{i}_m \hat{i}_p = -\hat{i}_p \hat{i}_m$ for all $m, p \in [1, n]$.  
+Given an $n$-[[dimension|dimensional]] [[Euclidean space]] $\mathbb{R}^n$, one could select an [[orthonormal basis]] on $\mathbb{R}^n$ by postulating an origin $0$ and a function $\hat{i}:[1, n] \to \mathbb{R}^n$ such that for all $m, p \in [1, n]$ the pair of vectors $\hat{i}_m$ and $\hat{i}_p$ is mutually [[orthonormal]]. There is an [[geometric algebra]] $\mathbb{G}^n$ on $\mathbb{R}^n$ defined by the equations $\hat{i}_m^2 = 1$ for all $m \in [1, n]$, and $\hat{i}_m \hat{i}_p = -\hat{i}_p \hat{i}_m$ for all $m, p \in [1, n]$.  
 
 A curve $\mathcal{C}$ in $\mathbb{R}^n$ could be parameterized by a function $\overrightarrow{r}:\mathbb{R} \to \mathbb{R}^n$. 
 
@@ -54,11 +54,11 @@ $$\overrightarrow{a}(t) = I A(t) = I\left(\frac{\overrightarrow{r}(t) \wedge \pa
 
 ## Conservation of areal velocity
 
-Conservation of areal velocity is the same as the conservation of angular momentum. 
+Conservation of areal velocity is the same as the conservation of [[angular momentum]]. 
 
 ## See also
 
-* [[area]]
+* [[area]], [[velocity]]
 
 * [[area of a circle]]
 
