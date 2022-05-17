@@ -35,6 +35,10 @@ A *quotient set algebra homomorphism of $S$ and $\equiv$* is a function $f: A \t
 
 The *category of quotient set algebras of $S$ and $\equiv$* is the category $QSA(S, \equiv)$ whose objects $Ob(QSA(S, \equiv))$ are quotient set algebras of $S$ and $\equiv$ and whose morphisms $Mor(A, B)$ for $A \in Ob(QSA(S, \equiv))$ and $B \in Ob(QSA(S, \equiv))$ are quotient set algebra homomorphisms of $S$ and $\equiv$. The **quotient set** of $S$ and $\equiv$, denoted $S/\equiv$, is defined as the initial object in the category of quotient set algebras of $S$ and $\equiv$. 
 
+### In type theory
+
+The axiom of quotient sets in [[type theory]] says that every [[setoid]] is a [[univalent setoid]]. 
+
 ## Generalisations
 
 Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories.  In particular, an [[exact category]] is a [[regular category]] in which every [[congruence]] on every object has an effective quotient object.
