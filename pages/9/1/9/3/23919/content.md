@@ -97,7 +97,7 @@ which evaluates to
 $$A(r) = \frac{1}{2} \int_{0}^{\tau} {\vert r \cos(\theta) \hat{i} + r \sin(\theta) \hat{j} \vert}^2 d \theta = \frac{1}{2} \int_{0}^{\tau} (r((\cos(\theta))^2 + (\sin(\theta))^2))^2 d \theta = \frac{1}{2} \int_{0}^{\tau} r^2 d \theta = \frac{1}{2} \tau r$$
 =--
 
-### Proof by limits of regular convex polygons
+### Proof by limits of regular polygons
 
 +-- {: .proof} 
 ###### Proof 
@@ -105,15 +105,15 @@ In this proof, we are using the circle constant $\tau = 2 \pi$.
 
 The area of a [[regular polygon]] $\mathcal{P}_n$ with $n$ sides and [[circumradius]] $r$ is given by the sequence of functions $P:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$
 
-$$A_\mathcal{P}(n)(r) = \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right)$$
+$$A_\mathcal{P}(n)(r) = \frac{1}{2} r^2 (2 n) \sin\left(\frac{\tau}{2 n}\right)$$
 
 which [[embedding|embeds]] in the $\mathbb{R}_+$-[[action]] $A_\mathcal{P}^\prime:\mathbb{R}_+ \to (\mathbb{R} \to \mathbb{R})$, defined as
 
-$$A_\mathcal{P}^\prime(n)(r) = r n \sin\left(\frac{\tau}{n}\right)$$
+$$A_\mathcal{P}^\prime(n)(r) = \frac{1}{2} r^2 (2 n) \sin\left(\frac{\tau}{2n}\right)$$
 
 The [[limit of a function|limit]] of $A_\mathcal{P}^\prime$ as $n$ goes to infinity is the area of a circle with radius $r$:
 
-$$A(r) = \lim_{n \to \infty} A_\mathcal{P}^\prime(n)(r) = \lim_{n \to \infty} \frac{1}{2} r^2 n \sin\left(\frac{\tau}{n}\right) = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\sin(\tau m)}{m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\partial_m \sin(\tau m)}{\partial_m m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\tau \cos(\tau m)}{1} = \frac{1}{2} \tau r^2$$
+$$A(r) = \lim_{n \to \infty} A_\mathcal{P}^\prime(n)(r) = \lim_{n \to \infty} \frac{1}{2} r^2 (2 n) \sin\left(\frac{\tau}{n}\right) = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\sin(\tau m)}{m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\partial_m \sin(\tau m)}{\partial_m m} = \frac{1}{2} r^2 \lim_{m \to 0} \frac{\tau \cos(\tau m)}{1} = \frac{1}{2} \tau r^2$$
 =--
 
 ## See also
