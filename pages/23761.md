@@ -55,6 +55,9 @@ Review:
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
+* Delft Topology course team, *[Haldane model, Berry curvature, and Chern number](https://topocondmat.org/w4_haldane/haldane_model.html#first-try)*
+
+
 See also:
 
 * {#Atteia16} Jonathan Atteia, *Topology and electronic transport in Dirac systems under irradiation* (2016) $[$[tel:02426217](https://tel.archives-ouvertes.fr/tel-02426217), [pdf](https://tel.archives-ouvertes.fr/tel-02426217/document)$]$
