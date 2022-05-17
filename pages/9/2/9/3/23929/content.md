@@ -35,7 +35,7 @@ $$x_2 = \frac{-2b - \mathrm{sqrt}_\mathrm{sm}(4b^2 - 12a c)}{6a} = \frac{-2b - 2
 
 For negative discriminant, there is no extrema. For zero discriminant, there is a [[saddle point]] at 
 
-$$x = \frac{-b}{3a}$$  
+$$x = -\frac{b}{3a}$$  
 
 ### Inflection point ###
 
