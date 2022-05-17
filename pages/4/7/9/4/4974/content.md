@@ -54,7 +54,7 @@ We write $E$ for $(E, \leq, \Con)$ whenever possible. The possible states of an 
 \begin{definition} 
 
 Let $E$ be an event structure. A **configuration** of $E$
- is a subset $x \subseteq E$ which is consistent ($x \in \Con$) and down-closed (if $e\in x$ and $e' \leq e$ then $e' \in x$). The set of \emph{finite} configurations of $E$ is denoted $\mathscr{C}(E)$. 
+ is a subset $x \subseteq E$ which is consistent ($x \in \Con$) and down-closed (if $e\in x$ and $e' \leq e$ then $e' \in x$). The set of _finite_ configurations of $E$ is denoted $\mathscr{C}(E)$. 
 
 \end{definition}
 
