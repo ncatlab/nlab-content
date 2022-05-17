@@ -41,6 +41,8 @@ In Euclidean spaces:
 
 ## References
 
+See the references at *[[differential geometry of curves and surfaces]]*.
+
 See also 
 
 + Wikipedia, _[Velocity](https://en.wikipedia.org/wiki/Velocity)_
