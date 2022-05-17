@@ -15,7 +15,7 @@
 
 ## Definition ##
 
-A **regular polygon** is a (simple, non self-intersecting) [[polygon]] in an [[Euclidean space]] $\mathbb{R}^n$ such that every [[segment]] of the boundary of the polygon has the same [[length]] and every [[angle]] between two segments of the boundary of the polygon has the same angle [[measure]]. (The boundary of a regular polygon is sometimes called called a **regular polygonal line**)
+In [[Euclidean geometry]], a **regular polygon** is a (simple, non self-intersecting) [[polygon]] in a [[Euclidean space]] $\mathbb{R}^n$ such that every [[segment]] of the [[boundary]] of the polygon has the same [[length]] and every [[angle]] between two segments of the boundary of the polygon has the same angle [[measure]]. (The boundary of a regular polygon is sometimes called called a **regular polygonal line**)
 
 ## Perimeter and area ##
 
