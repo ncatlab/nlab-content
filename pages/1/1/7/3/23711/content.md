@@ -29,11 +29,50 @@ This terminology, which was established in the early 2000s, is meant to follow t
 (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22]])
 </center>
 
-If the gap closure happens over an isolated point, one speaks of a *nodal point* proper, or more specifically of a *Dirac point* or *Weyl point*, indicating the "degeneracy" (multiplicity) of the [[energy]] [[eigenstates]] at the point (2 for Weyl, 4 for Dirac). If the gap closes over a 1-dimensional manifold (a [[curve]] or a [[circle]]) one speaks of a *nodal line*. 
+If the gap closure happens over an isolated point, one speaks of a *nodal point* proper, or more specifically of a *Dirac point* or *Weyl point*, indicating the "degeneracy" (multiplicity) of the [[energy]] [[eigenstates]] at the point (2 for Weyl, 4 for Dirac, see [below](#MassTerms)). If the gap closes over a 1-dimensional manifold (a [[curve]] or a [[circle]]) one speaks of a *nodal line*. 
 
 Due to the gap on (a [[neighbourhood retract]] of) the [[complement]] of the nodal points/lines inside the [[Brillouin torus]], the [[Berry connection]] is well-defined away from the nodal loci, and it tends to be [[flat connection|flat]] in suitable hyperplanes there. It's [[holonomy]] around [[codimension]]=2 nodal loci (ie. around nodal lines in 3d materials and nodal points in effectively 2d materials such as [[graphene]], see also at *[[defect brane]]*) -- known as a *[[Berry phase]]* -- is then a property of the nodal locus alone, and to be interpreted as a measure for the "topological protection" of the gap over the nodal loci (e.g. [FWDF 16, II.B](#FWDF16), [Vanderbilt 18, 5.5.2](#Vanderbilt18)): Under [[quantum adiabatic theorem|adiabatic]] deformations of the material that do not excite modes above the gap, these nodal points may move and merge or split, but their total topological charge cannot change.
 
 Therefore semi-metals with such non-trivial Berry phases are examples of [[topological phases of matter]], and are sometimes called *topological semi-metals*, for emphasis. In fact, if the topological charges of the nodal loci in a semi-metal do happen to be trivial, then it is (in the deformation class of) a fully gapped [[insulator]] and may then be a *[[topological insulator]]* (if the [[twisted equivariant K-theory|twisted equivariant]] [[topological K-theory]] class of its [[valence bundle]] is non-trivial).
+
+
+## Properties
+
+### Phase decay via mass terms
+ {#MassTerms}
+
+Near nodal points in the Brillouin torus of a semi-metal, the [[dispersion 
+relation]] $k \mapsto E(
+k)$ exhibited by the [[energy bands]] is thought to be approximated by that of a massless [[Dirac equation|Dirac equation]]/[[Weyl spinor|Weyl equation]], whence the terminology *Dirac point* or *Weyl point*.
+
+When the material's parameters can be and are [[quantum adiabatic theorem|adiabatically]] tuned such that this [[dispersion relation]] turns into a *massive* [[Dirac equation]], then the band gap at the former nodal crossing will "open up" in proportion to the [[coefficient]] $m$ of the effective *mass term* $m \gamma_0$ in the Dirac equation. If this happens to all nodal points (while keeping the band gap open everywhere else), one expects that the topological semi-metal phase decays into a [[topological insulator]]-phase.
+
+
+A necessary condition for such a *mass term* to exist at all is that a further [[Clifford algebra|Clifford generator]] $\gamma_0$ is represented on the Bloch-Hilbert space of electrons such that it skew-commutes with all [[Feynman slash notation|Clifford momenta]] $k\!\!\!/$ (e.g. [Schnyder 18, Sec. II.A](#Schnyder18), [Schnyder 20, Sec. 2.1](#Schnyder20), see also [Freed & Hopkins 21, around Lem. 9.55](#FreedHopkins21)). 
+
+\begin{imagefromfile}
+    "file_name": "MassTermsForSemiMetalNodalPoints-220517.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(graphics from [SS22](#SS22))"
+\end{imagefromfile}
+
+By [[Karoubi K-theory|Karoubi/Atiyah-Singer-type theorems]], such gap-opening mass terms are expected to again be classified by topological K-theory groups ([Chiu & Schnyder 14, Sec. A.2](#ChiuSchnyder14), reviewed in [Schnyder 18, Sec. II.A](#Schnyder18), [Schnyder 20, Sec. 2.1](#Schnyder20), following [Morimoto & Furusaki 13, Sec. V](#MorimotoFurusaki13), [CTSR 15, Sec. III.C](#CTSR15)).
+
+
+Beware: 
+
+1. This means that the topological *semi-metal*-phase must be classified in a group *modulo* the K-group of mass terms (cf. [#Freed & Hopkins 21, Thm. 9.63](#FreedHopkins21)). The K-group of mass terms itself at best classifies aspects of the [[topological insulator]]-phase that the semi-metal phase may decay to.
+
+1. The argument about single mass terms in a K-theory group of a point ignores the global topology of the valence bundle.
+
+## Examples
 
 The archetypical and original example of a semi-metal is *[[graphene]]*, where the gap closes over two [[Dirac points]]. (Or almost: a tiny [[spin-orbit coupling]] in graphene actually produces a tiny gap even at the would-be Dirac points, which however tends to be too small to be visible in practice. But if one will or would analyze graphene with an accuracy that does resolve this tiny gap-opening, then graphene will or would appear as a [[topological insulator]] instead of a semi-metal.)
 
@@ -46,6 +85,14 @@ After the synthesis of graphene, which is an effectively 2-dimensional material 
 General textbook account:
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
+
+Review with emphasis on [mass terms](#MassTerms)
+
+
+* {#Schnyder18} [[Andreas P. Schnyder]], *Accidental and symmetry-enforced band crossings in topological semimetals*, lecture notes (2018) $[$[pdf](https://www.fkf.mpg.de/6431357/topo_lecture_notes_schnyder_TMS18.pdf), [[Schnyder-Semimetals-2018.pdf:file]]$]$
+
+* {#Schnyder20} [[Andreas P. Schnyder]], *Topological semimetals*, lecture notes (2020) $[$[pdf](https://www.fkf.mpg.de/7143520/topological_semimetals.pdf), [[Schnyder-Semimetals-2020.pdf:file]]$]$
+
 
 For references on *[[graphene]]* see also there.
 
@@ -80,7 +127,28 @@ More mathematical discussion of the case of [[Chern semi-metals]]:
 * {#MathaiThiang17b} [[Varghese Mathai]], [[Guo Chuan Thiang]], *Differential Topology of Semimetals*, Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.org/abs/1611.08961), [doi:10.1007/s00220-017-2965-z](https://doi.org/10.1007/s00220-017-2965-z))
 
 
+Discussion of (classification of) Dirac/Weyl mass terms:
+
+* {#ChiuSchnyder14} [[Ching-Kai Chiu]], [[Andreas P. Schnyder]], Section A.2 of: *Classification of reflection-symmetry-protected topological semimetals and nodal superconductors*, Phys. Rev. B **90** 205136 (2014) $[$[doi:10.1103/PhysRevB.90.205136](https://doi.org/10.1103/PhysRevB.90.205136)$]$
+
+following:
+
+* {#MorimotoFurusaki13} Takahiro Morimoto and Akira Furusaki, Sec. V of: *Topological classification with additional symmetries from Clifford algebras*, Phys. Rev. B **88** (2013) 125129 ([arXiv:1306.2505](https://arxiv.org/abs/1306.2505),  [doi:10.1103/PhysRevB.88.125129](https://doi.org/10.1103/PhysRevB.88.125129))
+
+* {#CTSR15} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]], Section III.C of *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 ([arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005))
+
+Related discussion of Dirac mass terms is in:
+
+* {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 $[$[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)$]$
+
+
+
+Some of the above material is taken from 
+
+* {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Computation in TED-K]]*
+
 [[!redirects semi-metals]]
+
 
 [[!redirects semimetal]]
 [[!redirects semimetals]]
