@@ -27,8 +27,15 @@ One usually denote the trivial ring as $0$ or $\{0\}$, even though $1$ or $\{1\}
 
 * The trivial ring is an example of a [[trivial algebra]].
 
+* Every ring is a [[0-truncated]] [[ring groupoid]], and the trivial ring is the terminal ring groupoid. 
 
 [[!redirects trivial ring]]
 [[!redirects trivial rings]]
 [[!redirects zero ring]]
 [[!redirects zero rings]]
+
+
+[[!redirects trivial ring groupoid]]
+[[!redirects trivial ring groupoids]]
+[[!redirects zero ring groupoid]]
+[[!redirects zero ring groupoids]]
