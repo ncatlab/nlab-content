@@ -44,12 +44,11 @@ Every &#233;tale cover is a [[cover]] in the [[fpqc topology]].
 
 =--
 
-This appears for instance as ([de Jong, lemma 3.3](#deJong)).
+This appears for instance as ([tag 03PH](https://stacks.math.columbia.edu/tag/03PH) of the stacks project).
 
 ## References
 
-* [[Aise Johan de Jong]], _&#201;tale cohomology_ ([pdf](http://math.columbia.edu/~pugin/Teaching/Etale_files/EtaleCohomology.pdf))
-{#deJong}
+* [The Stacks project](https://stacks.math.columbia.edu)
 
 
 [[!redirects etale covers]]
