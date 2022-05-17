@@ -130,6 +130,10 @@ In fact, in any 2-category with comma and cocomma objects, we have an [[adjuncti
 $$ cocomma: Span(C,D) \;\rightleftarrows\; Cospan(C,D) : comma. $$
 One can show that comma objects are always discrete fibrations, and dually cocomma objects are always codiscrete cofibrations.  In $Cat$ and other similar 2-categories, this adjunction is [[idempotent adjunction|idempotent]] and restricts to an equivalence between the categories of discrete fibrations and codiscrete cofibrations (both of which are of course equivalent to the category of profunctors from $C$ to $D$).  This is a two-sided version of the [[Grothendieck construction]].
 
+### In terms of spans
+
+A profunctor $F$ between $C$ and $D$ can also be viewed as a span $C_0 \leftarrow F_1 \rightarrow D_0$ that is compatible with composition in $C$ and $D$ in an appropriate way. This formulation falls out from the definition of a category as a [[monad]] in the [[bicategory]] (more generally [[double category]]) [[Span]] and defining a profunctor to be a [[module over a monad|bimodule]]. The formulation in terms of double categories can be used to produce the appropriate notion of both enriched and internal profunctors.
+
 ## Examples ##
 
 * Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebras]], [[bimodules]] and bimodule homomorphisms.  In this case, the "representable" profunctors correspond to the way in which every morphism $A \to B$ of [[algebras]] induces the $A$-$B$ bimodule which as a vector space is $B$ with obvious right $B$ action and left $A$-action induced by first mapping $A$ to $B$ via $f$ and then using multiplication in $B$.
