@@ -20,17 +20,14 @@ A _partition of unity_ is a [[partition]] of the unit function on a [[topologica
 
 ## Definition
 
-Let $X$ be a [[topological space]]. A (point finite) **partition of unity** on $X$ is a collection $\{u_j\}_{j \in J}$ of [[continuous functions]] $u_j \colon X \to [0,1]$, $j\in J$ to the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] such that
+Let $X$ be a [[topological space]]. A **partition of unity** on $X$ is a collection $\{u_j\}_{j \in J}$ of [[continuous functions]] $u_j \colon X \to [0,1]$, $j\in J$ to the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] such that
 
- 1. $\sum_{j \in J} u_j(x) = 1$ for all $x\in X$.
-
+     $\sum_{j \in J} u_j(x) = 1$ for all $x\in X$.
 
 A partition of unity defines an [[open cover]] of $X$, consisting of the open sets $u_j^{-1}(0,1]$. Call this the **induced cover**.
 
 Given a [[cover]] $\mathcal{U} = \{U_j\}_{j\in J}$ of a [[topological space]] ([[open cover]] or closed or neither), the partition of unity $\{u_j\}_J$ is **subordinate** to $\mathcal{U}$ if for all $j\in J$,
-$$
-\overline{u_j^{-1}(0,1]} \subset U_j.
-$$
+$$\overline{u_j^{-1}(0,1]} \subset U_j.$$
 
 What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refining_ the cover $\mathcal{U}$.
 
@@ -114,7 +111,7 @@ goes through for such locales since it does not make any use of points.
 ### Existence on smooth manifolds
  {#ExistenceOnSmoothManifolds}
 
-Paracompact [[smooth manifolds]] even have _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic:
+Paracompact [[smooth manifolds]] admit locally finite _smooth_ partitions of unity subordinate to any open cover (this follows from the existence of a smooth [[bump function]] on $[-1,1]$). It is not true, however, that [[analytic manifolds]] have analytic partitions of unity - the aforementioned [[bump function]] is smooth but not analytic:
 
 +-- {: .num_lemma #SmoothManifoldClosedBallRefinementOfCover}
 ###### Lemma
@@ -247,7 +244,7 @@ is a refinement by closed balls as required. Its local finiteness follows by the
 
 +-- {: .num_prop #SmoothManifoldAdmitsSmoothPartitionsOfUnity}
 ###### Proposition
-**([[smooth manifolds]] admit smooth partitions of unity)**
+**([[smooth manifolds]] admit locally finite smooth partitions of unity)**
 
 Let $X$ be a paracompact [[smooth manifold]]. Then every [[open cover]] $\{U_i \subset X\}_{i \in I}$ has a subordinate partition of unity by functions $\{f_i \colon U_i \to \mathbb{R}\}_{i \in I}$ which are _[[smooth functions]]_.
 
@@ -336,7 +333,7 @@ is a subordinate partition of unity by smooth functions as required.
 =--
 
 
-### From a non-point finite partition of unity to a partition of unity
+### From a partition of unity to a locally finite partition of unity
 
 +-- {: .num_defn #LocallyFinite}
 ###### Definition
@@ -348,13 +345,13 @@ A collection of functions $\mathcal{U} = \{u_i : X \to [0,1]\}$ such that every 
 ###### Proposition
 ([Mather, 1965](#Mather65))
 
-Let $\{u_i\}_J$ be a non-point finite partition of unity. Then there is a locally finite partition of unity $\{v_i\}_{i\in J}$ such that the induced cover of the latter is a refinement of the induced cover of the former.
+Let $\{u_i\}_J$ be a partition of unity. Then there is a locally finite partition of unity $\{v_i\}_{i\in J}$ such that the induced cover of the latter is a refinement of the induced cover of the former.
 
 =--
 
-The **proof** is given on p. 354 of [Dold 95](#Dold95) and Lemma 5.1.8 on page 301 of [Engelking 89](#Engelking89).
+The **proof** is Proposition A.2.8 in [Dold 95](#Dold95) and Lemma 5.1.8 on page 301 of [Engelking 89](#Engelking89).
 
-This implies that (loc. finite) [[numerable covers]] are cofinal in induced covers arising from collections of functions as in the definition. In particular, given the [[Milnor classifying space]] $\mathcal{B}^M G$ of a [[topological group]] $G$, which comes with a countable family of 'coordinate functions' $\mathcal{B}^M G \to [0,1]$, has a numerable cover. This is shown by Dold to be a trivialising cover for the universal bundle constructed by Milnor, and so the universal bundle is [[numerable bundle|numerable]].
+This implies that (locally finite) [[numerable covers]] are cofinal in induced covers arising from collections of functions as in the definition. In particular, given the [[Milnor classifying space]] $\mathcal{B}^M G$ of a [[topological group]] $G$, which comes with a countable family of 'coordinate functions' $\mathcal{B}^M G \to [0,1]$, has a numerable cover. This is shown by Dold to be a trivialising cover for the universal bundle constructed by Milnor, and so the universal bundle is [[numerable bundle|numerable]].
 
 
 ## Applications 
