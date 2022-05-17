@@ -5,6 +5,10 @@
 
 * [[rapidity]]
 
+* [[areal velocity]]
+
+* [[torque]]
+
 ## References
 
 See also 
