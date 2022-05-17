@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -125,19 +126,49 @@ To be written, see [Mac Lane (1959)](#MacLane) for details.
 
 ## Related concepts
 
+* [[trigonometry]]
+
+
+
+{#BasicNotionsAndFact} **Basic notions and facts in ([[differential geometry|
+differential]]) Euclidean geometry**
+
+* [[parallel postulate]]
+
+* [[length]], [[area]], [[volume]]
+
+* [[curve]]
+
+  * [[velocity]]
+
+  * [[areal velocity]]
+
+* [[circle]]
+
+  * [[circumference of a circle]]
+
+  * [[area enclosed by a circle]]
+
+* [[regular polygon]]
+
+  * [[center of a regular polygon]]
+
+* [[space form]]
+
+
+\linebreak
+
+**Other flavors of geometry**
+
 | [[synthetic geometry]]  |
 |-------------------------|
 | [[Euclidean geometry]]  |
 | [[hyperbolic geometry]] |
 | [[elliptic geometry]]   |
 
-* [[parallel postulate]]
 
-* [[trigonometry]]
+[[Riemannian geometry]], [[Cartan geometry]]:
 
-* [[space form]]
-
-* [[Riemannian geometry]]
 
 [[!include local and global geometry - table]]
 
