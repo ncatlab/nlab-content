@@ -50,6 +50,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 ## Related concepts
 
+* [[differential geometry of curves and surfaces]]
+
 * [[synthetic differential geometry]]
 
 * [[higher differential geometry]], [[derived differential geometry]]
@@ -99,13 +101,23 @@ $\,$
  {#References}
 
 
-### Traditional
+### Diff geometry of curves and surfaces
+ {#ReferencesDiffGeometryOfCurvesAndSurfaces}
 
-The study of differential geometry goes back to the study of [[surfaces]] [[embedding of smooth manifolds|embedded]] into [[Euclidean space]] $\mathbb{R}^3$ in
+The study of differential geometry goes back to the special case of [[differential geometry of curves and surfaces]]: 
 
-* {#Gauss1827} [[Carl Friedrich Gauss]], _General Investigations of Curved Surfaces_, 1827 ([Gutenberg](http://www.gutenberg.org/ebooks/36856))
+the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedded]] into [[Euclidean space]] $\mathbb{R}^3$:
 
-Textbooks include
+* {#Gauss1827} [[Carl Friedrich Gauss]], _General Investigations of Curved Surfaces_ (1827) ([Gutenberg](http://www.gutenberg.org/ebooks/36856))
+
+* Manfredo P. Do Carmo, *Differential Geometry of Curves and Surfaces*, Prentice-Hall (1976) $[$[pdf](http://www2.ing.unipi.it/griff/files/dC.pdf)$]$
+
+* Kristopher Tapp, *Differential Geometry of Curves and Surfaces*, Springer (2016) $[$[doi:10.1007/978-3-319-39799-3](https://doi.org/10.1007/978-3-319-39799-3),  [pdf](https://link.springer.com/content/pdf/10.1007/978-3-319-39799-3.pdf)$]$
+
+* Anton Petrunin, Sergio Zamora Barrera, *What is differential geometry: curves and surfaces* $[$[arXiv:2012.11814](https://arxiv.org/abs/2012.11814)$]$
+
+
+### General but traditional diff geometry
 
 * [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_ , Volume 1 (1963), Volume 2 (1969), Interscience Publishers, reprinted 1996 by Wiley Classics Library
 
@@ -158,14 +170,15 @@ See also
 
 * Wikipedia, _[differential geometry](http://en.wikipedia.org/wiki/Differential_geometry)_
 
-### Higher
+### Higher diff geometry
 
 See at _[[higher differential geometry]]_.
 
-### Derived
+### Derived diff geometry
 
 For [[derived differential geometry]] see
 
 * [[Dominic Joyce]], _D-manifolds and d-orbifolds: a theory of derived differential geometry_ ([web](http://people.maths.ox.ac.uk/joyce/dmanifolds.html))
 
 * [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_
+
