@@ -22,14 +22,10 @@ A _partition of unity_ is a [[partition]] of the unit function on a [[topologica
 
 Let $X$ be a [[topological space]]. A (point finite) **partition of unity** on $X$ is a collection $\{u_j\}_{j \in J}$ of [[continuous functions]] $u_j \colon X \to [0,1]$, $j\in J$ to the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] such that
 
- 1. For each $x\in X$, there is only a [[finite number]] of $j\in J$ such that $u_j(x) \neq 0$ (point finiteness condition);
-
  1. $\sum_{j \in J} u_j(x) = 1$ for all $x\in X$.
 
 
 A partition of unity defines an [[open cover]] of $X$, consisting of the open sets $u_j^{-1}(0,1]$. Call this the **induced cover**.
-
-Sometimes (rarely) the condition that $\{u_j\}_J$ is point finite is dropped. In this case we refer to a _non-point finite_ partition of unity (see [[red herring principle]]). In this case for each point of $X$ at most countably-many of the functions $u_j$ are non-zero, and we have to interpret the sum in 1. above as being a [[convergence|convergent]] infinite [[series]].
 
 Given a [[cover]] $\mathcal{U} = \{U_j\}_{j\in J}$ of a [[topological space]] ([[open cover]] or closed or neither), the partition of unity $\{u_j\}_J$ is **subordinate** to $\mathcal{U}$ if for all $j\in J$,
 $$
@@ -37,6 +33,13 @@ $$
 $$
 
 What this means is that the open sets $u_j^{-1}(0,1]$ form an open cover _refining_ the cover $\mathcal{U}$.
+
+A partition of unity is __point finite__ if for every $x\in X$ there is only a [[finite number]] of $j\in J$ such that $u_j(x) \neq 0$.
+
+A partition of unity is __locally finite__ if for every $x\in X$ there is an open neighborhood $U$ of $x$ such that for only a [[finite number]] of $j\in J$ there is $x\in U$ such that $u_j(x) \neq 0$.
+
+Often, the property of local finiteness is included in the definition of a partition of unity.
+This is harmless, since a result due to [[Michael R. Mather]] says that for any partition of unity we can find a locally finite partition of unity with the same indexing set and whose induced cover refines the original induced cover.
 
 ## Examples
 
