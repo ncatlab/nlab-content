@@ -23,7 +23,7 @@
 
 The _Minkowski metric_ is a [[pseudo-Riemannian metric]] which is completely _flat_ in that its [[Riemann curvature]] vanishes.
 
-For $p \in \mathbb{N}$, a [[Cartesian space]] $\mathbb{R}^p+1$ equipped with the Minkowski metric $\eta$ is called _[[Minkowski spacetime]]_ of [[dimension]] $p + 1$, denoted $\mathbb{R}^{p,1} \coloneqq (\mathbb{R}^{p+1}, \eta)$.
+For $p \in \mathbb{N}$, a [[Cartesian space]] $\mathbb{R}^{p+1}$ equipped with the Minkowski metric $\eta$ is called _[[Minkowski spacetime]]_ of [[dimension]] $p + 1$, denoted $\mathbb{R}^{p,1} \coloneqq (\mathbb{R}^{p+1}, \eta)$.
 
 ## Definition
 
