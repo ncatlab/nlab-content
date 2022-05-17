@@ -34,14 +34,14 @@ Note that this includes the case when $n=0$, i.e. a cell of "nullary" source.  I
 
 Note that the "empty" case of a string of horizontal arrows this has a single object $X$ in which case the 2-cell looks like:
 
-\[\begin{tikzcd}% https://q.uiver.app/?q=WzAsNCxbMSwwLCJYIl0sWzAsMiwiWV8wIl0sWzIsMiwiWV8xIl0sWzEsMSwiXFxEb3duYXJyb3cgXFxhbHBoYSJdLFswLDEsImYiLDJdLFswLDIsImciXSxbMSwyLCJxIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV1d
+\begin{tikzcd}% https://q.uiver.app/?q=WzAsNCxbMSwwLCJYIl0sWzAsMiwiWV8wIl0sWzIsMiwiWV8xIl0sWzEsMSwiXFxEb3duYXJyb3cgXFxhbHBoYSJdLFswLDEsImYiLDJdLFswLDIsImciXSxbMSwyLCJxIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV1d
 	& X \\
 	& {\Downarrow \alpha} \\
 	{Y_0} && {Y_1}
 	\arrow["f"', from=1-2, to=3-1]
 	\arrow["g", from=1-2, to=3-3]
 	\arrow["q"', "\shortmid"{marking}, from=3-1, to=3-3]
-\end{tikzcd}\]
+\end{tikzcd}
 
 Finally, the 2-cells can be composed in a more or less evident way, akin to composition in a multicategory:
 
