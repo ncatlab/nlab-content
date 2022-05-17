@@ -54,6 +54,8 @@ $$q(r x) = \sum_{i=0}^{r^2} q(x)$$
 
 * [[quadratic abelian group]]
 
+* [[cubic function]]
+
 ## References
 
 See also:
