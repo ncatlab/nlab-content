@@ -31,6 +31,24 @@ Today, there are also software modules that implement category theoretical notio
 
 Haskell is famous for its use of [[monads (in computer science)]], a subclass of functors. Here, the unit (called 'return') and co-unit must be implemented. However, stemming from the way that monads are actually used by programmers, it is standard to implement the function 'return' and another function called 'bind', with infix '>>=', which is a composite of the functor and the two natural transformations and which can be derived from the others.
 
+### Lifted products
+
+Expanding on the caveat above about `undefined`, the built-in products in Haskell are "lifted", they are not exactly categorical products. For example, if we define 
+``` 
+undefined = undefined 
+```
+then the element `undefined :: ((),())` is observably different from `(undefined,undefined) :: ((),())`. 
+For example, 
+```
+(uncurry . curry) (\(_,_)->()) undefined
+```
+terminates but 
+```
+(\(_,_)->()) undefined
+```
+does not terminate, so the built-in [[currying]] is not strictly speaking a bijection in Haskell. 
+
+
 ### Similar and related software
 
 Languages similar to Haskell but refining it from plain [[type theory]] to [[dependent type theory]] include
