@@ -34,7 +34,7 @@ Equivalently: A [[groupoid]] $G$ that is both a [[symmetric 2-group]] $(G, 0, \o
 
 * The [[discrete groupoid]] of [[integers]] $\mathbb{Z}$ is the [[initial object|initial]] ring groupoid. 
 
-* The [[contractible]] groupoid or the [[trivial ring|trivial ring groupoid]] $0$ is the [[terminal object|terminal]] ring groupoid. 
+* The [[contractible]] groupoid or the [[trivial ring groupoid]] $0$ is the [[terminal object|terminal]] ring groupoid. 
 
 ## See also 
 
@@ -47,6 +47,8 @@ Equivalently: A [[groupoid]] $G$ that is both a [[symmetric 2-group]] $(G, 0, \o
 * [[monoidal groupoid]]
 
 * [[symmetric ring groupoid]]
+
+* [[ring functor]], [[algebra groupoid]]
 
 ## References
 
