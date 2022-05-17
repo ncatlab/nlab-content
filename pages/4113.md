@@ -433,7 +433,9 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 
 * [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
 
-* {#Mather65} [[Michael R. Mather]], _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
+* {#Mather65} [[Michael R. Mather]], _Paracompactness and partitions of unity_, Mimeographed notes, Cambridge (1964).
+
+* {#Mather66} [[Michael R. Mather]], _Products in spectral sequences and other topics_, PhD dissertation, Cambridge (1966).
 
 * {#Dold95} [[Albrecht Dold]], p. 354 in: *Lectures on Algebraic Topology*, Springer 1995 ([doi:10.1007/978-3-642-67821-9](https://www.springer.com/gp/book/9783540586609), [pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-67821-9%2F1.pdf), [GoogleBooks](https://books.google.com.au/books?id=4AmzD9XhGDkC&lpg=PA354&vq=locally%20finite%20oartition%20unity&pg=PA354#v=onepage&q&f=false))
 
