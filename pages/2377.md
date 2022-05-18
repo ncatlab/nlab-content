@@ -418,3 +418,4 @@ The following pages develop various aspects of set theory in SEAR or related the
 * [[universes in SEAR]]: how to formulate an axiom of [[Grothendieck universes]].
 * [[SEAR+?]]: a variant theory containing a [[choice operator]].
 * [[ETCR]]: A categorical version of Bounded SEARC. 
+* [[a concrete model of ETCS]]: A version of [[ETCS]] that, like SEAR, includes elements as a primitive. 
