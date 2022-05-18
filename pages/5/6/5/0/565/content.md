@@ -28,7 +28,7 @@ A _concrete category_ is a [[category]] that looks like a category of "[[set]]s 
 
 +-- {: .num_defn}
 ###### Definition
-Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a __concrete category__ if there is a set of elements $U(C)$ with a function $o:U(C) \to Ob(C)$ with a [[partial function|partial]] [[injection]] $i:Mor(C) \to (U(C) \to U(C))$ such that for every term $f:Mor(C)$, $i(s(f)) = s_{Set}(i(f))$ and $i(t(f)) = t_{Set}(i(f))$. 
+Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a __concrete category__ if there is a set of elements $U(C)$ with a function $o:U(C) \to Ob(C)$ with an [[injection]] $i:Mor(C) \to Func(Set)$ (and functions $s_{Set}:Func(Set) \to U(C)$ and $t_{Set}:Func(Set) \to U(C)$) such that for every term $f:Mor(C)$, $s(f) = o(s_{Set}(i(f)))$ and $t(f) = o(t_{Set}(i(f)))$. 
 =-- 
 
 ### With a family of collection of elements
@@ -218,6 +218,7 @@ A similar way to use Isbell's result applies to show that a really vast number o
 * [[well-pointed category]]
 * [[family of objects in a concrete category]]
 * [[concrete (2,1)-category]]
+* [[concrete (n,1)-category]]
 
 ## References
 
