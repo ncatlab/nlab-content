@@ -25,7 +25,7 @@ $$\mathbb{Q}_{+} \coloneqq \{x \in \mathbb{Q} \vert 0 \lt x\}$$
 
 be the set of positive rational numbers. 
 
-A __Cauchy structure__ is a [[premetric space]] $(S, \sim)$ with a function $rat:\mathbb{Q}_{+} \to S$ and a function $lim:C(S) \to S$, where $C(S)$ is the set of [[Cauchy approximation]]s in $S$, such that
+A __Cauchy structure__ is a [[rational premetric space]] $(S, \sim)$ with a function $rat:\mathbb{Q}_{+} \to S$ and a function $lim:C(S) \to S$, where $C(S)$ is the set of [[Cauchy approximation]]s in $S$, such that
 
 * for all elements $a \in S$ and $b \in S$ and all positive rational numbers $\epsilon$, $a \sim_\epsilon b$ implies $a = b$. 
 
@@ -57,7 +57,7 @@ $$\mathbb{Q}_{+} \coloneqq \sum_{x:\mathbb{Q}} 0 \lt x$$
 
 be the positive rational numbers. 
 
-A __Cauchy structure__ is a [[premetric space]] $S$ with 
+A __Cauchy structure__ is a [[rational premetric space]] $S$ with 
 
 * a function $inj: \mathbb{Q} \to S$
 
@@ -89,7 +89,7 @@ $$a:S, b:S, c:\Vert \prod_{\epsilon:\mathbb{Q}_{+}} (a \sim_{\epsilon} b) \Vert 
 
 ## See also ##
 
-* [[premetric space]]
+* [[rational premetric space]]
 * [[Cauchy approximation]]
 * [[HoTT book real numbers]]
 
