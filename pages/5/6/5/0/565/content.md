@@ -28,17 +28,15 @@ A _concrete category_ is a [[category]] that looks like a category of "[[set]]s 
 
 +-- {: .num_defn}
 ###### Definition
-Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a __concrete category__ if there is a set of elements $El(C)$ with a function $o:El(C) \to Ob(C)$ ...
+Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a __concrete category__ if there is a set of elements $U(C)$ with a function $o:U(C) \to Ob(C)$ with a [[partial function|partial]] [[injection]] $i:Mor(C) \to (U(C) \to U(C))$ such that for every term $f:Mor(C)$, $i(s(f)) = s_{Set}(i(f))$ and $i(t(f)) = t_{Set}(i(f))$. 
 =-- 
 
 ### With a family of collection of elements
 
 +-- {: .num_defn}
 ###### Definition
-Given a category $C$ with a type of objects $Ob(C)$ and for every object $a:Ob(C)$ and $b:Ob(C)$ a set of morphisms $Mor_C(a, b)$, $C$ is a __concrete category__ if for every object $a:Ob(C)$ there is a set of elements $U(a)$ and for every object $a:Ob(C)$ and $b:Ob(C)$, there is an [[injection]] $i_{a,b} \colon Hom(a,b) \to (U(a) \to U(b))$. 
+Given a category $C$ with a type of objects $Ob(C)$ and for every object $a:Ob(C)$ and $b:Ob(C)$ a set of morphisms $Mor_C(a, b)$, $C$ is a __concrete category__ if for every object $a:Ob(C)$ there is a set of elements $U(a)$ and for every object $a:Ob(C)$ and $b:Ob(C)$, there is an [[injection]] $i_{a,b} \colon Mor_C(a,b) \to (U(a) \to U(b))$. 
 =-- 
-
-Because [[Set]] is a [[cartesian closed category]], currying $f_{a,b}$ in [[Set]] means that there is an [[evaluation map]] $(-)((-))\colon Hom(a,b) \times El(a) \to El(b)$ such that for every morphism $f \colon Hom(A,B)$ and $g \colon Hom(B,C)$ and every element $x:U(A)$, $(g \circ f)(x) = g(f(x))$ and $id_A(x) = x$. Similarly, since [[Set]] is well-pointed, 
 
 ### With a functor into Set
 
@@ -126,9 +124,11 @@ Other examples:
 
 ## Non-examples ##
 
+* The category $Prefunc$ of sets and [[prefunctions]] is not a concrete category. 
+
 * The category $Rel$ of sets and [[relations]] is not a concrete category, because the functor $U:Rel \to Set$ is not [[faithful functor|faithful]]. 
 
-* For the same reason, given a concrete [[regular category]] $C$, the category $Rel(C)$ of objects of $C$ and [[congruences]] between objects of $C$ is not concrete. 
+* For the same reason, given a concrete [[regular category]] $C$, the category $Rel(C)$ of objects of $C$ and [[internal relations]] between objects of $C$ is not concrete. 
 
 ## Properties 
 
@@ -151,6 +151,36 @@ By assumption, there is a faithful functor $U^{op}: C^{op} \to Set^{op}$, and $\
 ###### Remark 
 Of course, since a category $C$ may possess a separator but no [[coseparator]], it does not follow that $C^{op}$ is representably concrete if $C$ is. 
 =-- 
+
+### Morphism evaluation and extensionality
+
++-- {: .num_prop}
+###### Proposition 
+In any concrete category $(C, U:C \to Set)$, there is an [[evaluation map]] 
+$$(-)((-))\colon Hom(a,b) \times U(a) \to U(b)$$ 
+such that for every morphism $f \colon Hom(a,b)$ and $g \colon Mor_C(b,c)$ and every element $x:U(a)$, $(g \circ f)(x) = g(f(x))$ and $id_A(x) = x$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Because [[Set]] is a [[cartesian closed category]], [[currying]] the injective function $f_{a,b}$ of the functor $F$ in [[Set]] means that there is an [[evaluation map]] $(-)((-))\colon Hom(a,b) \times U(a) \to U(b)$ which satisfies the above axioms. 
+=-- 
+
++-- {: .num_prop}
+###### Proposition 
+In any concrete category $(C, U:C \to Set)$, the morphisms satisfy [[function extensionality]] with respect to the [[evaluation map]]: for all morphisms $f \colon Hom(A,B)$ and $g \colon Hom(A,B)$, if $f(x) = g(x)$ for all [[elements]] $x \colon El(A)$, then $f = g$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Since [[Set]] is a [[well-pointed category]], and there is a bijection between $\mathbb{1} \to U(a)$ and $U(a)$, function extensionality follows. 
+=-- 
+
+### Relationship with well-pointedness
+
+The category [[Set]] of sets and functions is both concrete and well-pointed. However, not every [[well-pointed category]] is an concrete category, as well-pointed categories are not required to be [[concrete categories]]: most models of [[ETCS]] aren't defined to be concrete. Moreover, not every concrete category is a [[well-pointed category]]: the category $Field$ of [[fields]] and field [[homomorphisms]] is concrete, but is not well-pointed because it doesn't have a [[terminal object]]. 
+
+The distinction between concreteness and well-pointedness is the distinction between [[elements]] and [[global elements]] in a concrete category with a [[terminal object]], as it is not true that elements and global elements (if they exist) coincide in general. 
 
 ### Characterization
 
@@ -184,6 +214,9 @@ A similar way to use Isbell's result applies to show that a really vast number o
 
 * [[concrete object]]
 * [[amnestic functor]]  (for many usual concrete categories, the forgetful functor happens to be amnestic)
+* [[function extensionality]]
+* [[well-pointed category]]
+* [[family of objects in a concrete category]]
 * [[concrete (2,1)-category]]
 
 ## References
