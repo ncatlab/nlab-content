@@ -20,6 +20,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -155,7 +156,7 @@ Notice that (only) for $t_2 = 0$ this reduces to the deformation by a *constant*
   \;+\;
   \underset{
     \mathclap{
-      \mathrm{mass}\;\mathrm{term}
+      \mathrm{constant}\;\mathrm{mass}\;\mathrm{term}
     }
   }{
   \underbrace{
