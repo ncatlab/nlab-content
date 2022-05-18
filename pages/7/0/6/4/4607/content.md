@@ -22,6 +22,9 @@ The term 'family' is often used as a synonym for '[[collection]]' (especially in
 
 A __family__, or __indexed family__ (or sometimes __indexed set__, etc), consists of an __index set__ $I$ (whose [[elements]] are the __indices__ of the family) and, for each index $k$, some __element__ $x_k$.  One can also speak of an __$I$-indexed family__.  An __[[ordered pair]]__ is a family indexed by $2 = \{0,1\}$; an __[[infinite sequence]]__ is an $\mathbb{N}$-indexed family.
 
+### In concrete categories
+
+In a [[concrete category]] $C$, given an object $A:Ob(C)$ an **$A$-indexed family of objects in $C$** is a function $B:El(A) \to Ob(C)$. 
 
 ## Notation
 
@@ -75,3 +78,6 @@ In [[foundations]] without [[proper classes]] or higher categories, it may be tr
 
 [[!redirects family of subsets]]
 [[!redirects families of subsets]]
+
+[[!redirects family of objects in a concrete category]]
+[[!redirects families of objects in a concrete category]]
