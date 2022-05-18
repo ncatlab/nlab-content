@@ -52,7 +52,7 @@ Retaining the [[inner product]] on top of the [[metric space]] structure means t
 
 Then of course $\mathbb{R}^n$ carries also non-canonical [[inner product space]] structures, not corresponding to the [[Euclidean norm]]. Regarding $E^n$ as equipped with these one says that it is a  __pseudo-Euclidean space__. These are now, again in the sense of [[Cartan geometry]], the local model spaces for [[pseudo-Riemannian geometry]]. 
 
-Finally one could generalize and allow the [[dimension]] to be countably infinite, and regard separable [[Hilbert spaces]] as generalized Eclidean spaces.
+Finally one could generalize and allow the [[dimension]] to be countably infinite, and regard separable [[Hilbert spaces]] as generalized Euclidean spaces.
 
 ## Remarks on terminology
 
