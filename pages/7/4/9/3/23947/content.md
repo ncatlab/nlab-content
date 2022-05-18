@@ -26,3 +26,5 @@ Some criticisms raised against this series:
 * [[Nicolas Bourbaki]]
 
 * [[Bourbaki Seminar]]
+
+category: reference
