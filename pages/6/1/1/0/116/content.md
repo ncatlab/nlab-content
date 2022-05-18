@@ -301,6 +301,7 @@ See also:
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Group_(mathematics)">Group_(mathematics)</a>*
 
+* [[bananaspace]], *[群](https://www.bananaspace.org/wiki/%E7%BE%A4)* (Chinese)
 
 [[!redirects groups]]
 
