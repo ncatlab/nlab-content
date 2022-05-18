@@ -46,16 +46,6 @@ If $a = 0$, the real quadratic function is [[degenerate]]; it becomes a real [[a
 
 In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether $f$ is concave up, concave down, or degenerate. Similarly, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the extremum is a minimum, is a maximum, or does not exist due to the degeneracy of $f$. 
 
-## Newton's method ##
-
-Given a real quadratic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^2 + b x + c$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$, where $\vert a \vert \gt 0$, suppose we want to approximate a zero of $f$. There is an algorithm called **[[Newton's method]]** which would allow us to do so. The real quadratic function has [[discriminant]] $\Delta = b^2 - 4 a c$ and has 2 zeroes if $\Delta \gt 0$, 1 zero at the extremum if $\Delta = 0$, or no zeroes of $\Delta \lt 0$. (In [[constructive mathematics]], there are real quadratic functions where it isn't possible to determine the number of zeroes the real quadratic function has.)
-
-Assume that $\Delta \gt 0$. Select a real number $x_0 \in \mathbb{R}$ as the initial guess, where $2 a x_0 + b \gt 0$ or $2 a x_0 + b \lt 0$, and the next guess would be defined as 
-
-$$x_{i+1} = x_i - \frac{a x_i^2 + b x_i + c}{2 a x_i + b}$$
-
-Newton's method isn't valid when $2 a x_0 + b = 0$ because of division by zero. When $2 a x_0 + b \gt 0$, Newton's method converges towards the zero at $x \gt -\frac{b}{2a}$, and when $2 a x_0 + b \lt 0$, Newton's method converges towards the zero $x \lt -\frac{b}{2a}$. 
-
 ## Exact zeroes ##
 
 ### Partial inverse functions ###
@@ -139,6 +129,16 @@ There is only one zero, which occurs at the [[extremum]] of the real quadratic f
 ### In constructive mathematics ###
 
 In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real quadratic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the discriminant of $f$ is positive, negative, or zero. As a result, there exist real quadratic functions where one cannot decide the number of zeroes the function has. Furthermore, one cannot prove that a real quadratic function with positive determinant has exactly two zeroes. 
+
+## Newton's method ##
+
+Given a real quadratic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^2 + b x + c$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$, where $\vert a \vert \gt 0$, suppose we want to approximate a zero of $f$. There is an algorithm called **[[Newton's method]]** which would allow us to do so. The real quadratic function has [[discriminant]] $\Delta = b^2 - 4 a c$ and has 2 zeroes if $\Delta \gt 0$, 1 zero at the extremum if $\Delta = 0$, or no zeroes of $\Delta \lt 0$. (In [[constructive mathematics]], there are real quadratic functions where it isn't possible to determine the number of zeroes the real quadratic function has.)
+
+Assume that $\Delta \gt 0$. Select a real number $x_0 \in \mathbb{R}$ as the initial guess, where $2 a x_0 + b \gt 0$ or $2 a x_0 + b \lt 0$, and the next guess would be defined as 
+
+$$x_{i+1} = x_i - \frac{a x_i^2 + b x_i + c}{2 a x_i + b}$$
+
+Newton's method isn't valid when $2 a x_0 + b = 0$ because of division by zero. When $2 a x_0 + b \gt 0$, Newton's method converges towards the zero at $x \gt -\frac{b}{2a}$, and when $2 a x_0 + b \lt 0$, Newton's method converges towards the zero $x \lt -\frac{b}{2a}$. 
 
 ## See also ##
 
