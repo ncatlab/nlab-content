@@ -11,3 +11,6 @@ Website: <https://www.bourbaki.fr/seminaires/>
 
 [[!redirects Séminaire Nicolas Bourbaki]]
 [[!redirects Bourbaki Seminar]]
+
+
+category: reference
