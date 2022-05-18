@@ -45,6 +45,14 @@ to the [[large]] [[(2,1)-category]] [[Grpd]] of [[groupoids]]. We say a (2,1)-ca
 
 * The (2,1)-category $MonGrpd$ of [[monoidal groupoids]] is a concrete (2,1)-category.
 
+* The (2,1)-category $BraidedMonGrpd$ of [[braided monoidal groupoids]] is a concrete (2,1)-category.
+
+* The (2,1)-category $SymmetricMonGrpd$ of [[symmetric monoidal groupoids]] is a concrete (2,1)-category.
+
+* The (2,1)-category $RingGrpd$ of [[ring groupoids]] is a concrete (2,1)-category.
+
+* The (2,1)-category $SymmetricRingGrpd$ of [[symmetric ring groupoids]] is a concrete (2,1)-category.
+
 * The (2,1)-category $2Grp$ of [[2-groups]] is a concrete (2,1)-category.
 
 * The (2,1)-category $Smooth2Grp$ of [[smooth 2-groups]] is a concrete (2,1)-category.
@@ -60,6 +68,7 @@ to the [[large]] [[(2,1)-category]] [[Grpd]] of [[groupoids]]. We say a (2,1)-ca
 * [[(2,1)-category]]
 * [[concrete object]]
 * [[concrete category]]
+* [[concrete (n,1)-category]]
 
 [[!redirects concrete (2,1)-categories]]
 
