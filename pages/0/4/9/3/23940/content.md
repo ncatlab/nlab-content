@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[physics]], a *mass term* is, quite generally, the [[sum|summand]] in a [[Lagrangian density]], [[Hamiltonian]] or [[equation of motion]] which expresses the [[mass]] of a given [[particle]] of [[field (physics)|field]].
+In [[physics]], a *mass term* is, quite generally, the [[sum|summand]] in a [[Lagrangian density]], [[Hamiltonian]] or [[equation of motion]] which expresses the [[mass]] of a given (quasi-)[[particle]] or [[field (physics)|field]].
 
 Often the terminology is used specifically for masses of [[spinors]]/[[Dirac fields]], since here a mass term is subject to subtle constraints which may or may not exclude the mere existence of admissible mass terms.
 
@@ -64,6 +64,14 @@ In this guise, mass terms for [[electron]]-excitations in [[semi-metals]] play a
 
 ## Examples
 
+### In particle physics
+
+In [[particle physics]] the (non-)existence of mass terms for [[fermions|fermionic]] [[fundamental particles]] goes along with their characterization as [[Dirac spinors]], [[Weyl spinors]] and [[Majorana spinors]]. 
+
+This plays a central role notably in discussion of the (still hypothetical) detailed nature of [[neutrinos]].
+
+
+
 ### In topological phases of matter
  {#ExamplesInTopologicalPhasesOfMatter}
 
@@ -82,7 +90,9 @@ In [[solid state physics]] of [[crystals]], [[electrons]] are typically well-app
     "caption": "(graphics from [SS22](#SS22))"
 \end{imagefromfile}
 
-This phenomenon appears in particular in [[topological semi-metals]], in which case the existence of a mass term, whose addition to the [[dispersion relation]] will remove the band crossing by "opening an energy gap", is thought to signal the decay of the [[semi-metal]]-phase into a [[topological insulator]]-phase.
+This phenomenon appears in particular in [[topological semi-metals]], in which case the existence of a mass term, whose addition to the [[dispersion relation]] will remove the band crossing by "opening an energy gap", is thought to signal the decay of the [[semi-metal]]-phase into a [[topological insulator]]-phase. 
+
+See for instance the example of the *[[Haldane model]]*.
 
 
 ## Related concepts
