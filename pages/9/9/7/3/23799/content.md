@@ -20,9 +20,10 @@
 
 ## Idea
 
-In [[solid state physics]], a *topological crystalline insulator* is (a [[quantum material]] in) a [[topological phase of matter]] like a [[topological insulator]], but as such "[[symmetry protected topological phase|protected]]" by ([[time-reversal symmetry]] and) a [[crystallographic group|crystallographic point group]]-symmetry.
+In [[solid state physics]], a *topological crystalline insulator* is a [[crystal|crystalline]] [[quantum material]] in a [[topological phase of matter]] like a [[topological insulator]], which as such is "[[symmetry protected topological phase|protected]]" by (possibly [[time-reversal symmetry]] and) a [[crystallographic group|crystallographic point group]]-symmetry of the underlying [[crystal]].
 
 This means that a topological crystalline insulator phase observed in the [[bulk]] of some [[crystal]] whose [[dynamics]] (or rather that of its [[electrons]]) respects a given [[crystallographic group|point group]] may disappear for instance at [[boundary]] regions where the dynamics [[symmetry breaking|breaks]] this symmetry.
+
 
 ## References
 
@@ -61,4 +62,6 @@ Nature Communications **3** (2012) 982 $[$[doi:10.1038/ncomms1969](https://doi.o
 
 [[!redirects topological crystalline insulators]]
 
+[[!redirects crystalline topological insulator]]
+[[!redirects crystalline topological insulators]]
 
