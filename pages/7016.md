@@ -85,9 +85,7 @@ Under reasonable assumptions on the type theory, it turns out that these and oth
 
 ### In category theory
 
-Function extensionality in category theory could be applied in any [[evaluational category]], a [[concrete category]] $\mathcal{C}$ with an external evaluation function $(-)((-)):Hom(A, B) \times El(A) \to El(B)$ for all objects $A$ and $B$ such that for all morphisms $f \in Hom(A, B)$ and $g \in Hom(B, C)$ and elements $a \in A$, $(g \circ f)(x) = g(f(x))$. The axiom could be called "morphism extensionality"; however, in all evaluational categories, the morphisms are functions between sets. 
-
-The axiom of function extensionality is defined elementwise: if $f(a) = g(a)$ for all elements $a \in A$ and [[parallel morphisms]] $f, g \in Hom(A, B)$, then $f = g$. Any evaluational category which satisfies the axiom of function extensionality is called an [[extensional category]]. 
+Function extensionality in category theory is true in any [[concrete category]] $\mathcal{C}$. The axiom could be called "morphism extensionality"; however, in all concrete categories, the morphisms are functions between sets. 
 
 ## Properties
 
@@ -123,7 +121,7 @@ The [[univalence axiom]] implies function extensionality (this is due to [[Vladi
 
 ## See also
 
-* [[extensional category]]
+* [[concrete category]]
 
 * [[prefunction]]
 
