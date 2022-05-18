@@ -63,6 +63,10 @@ Many of the formulas above rely on ${|\mathbf{v}|} \leq c$, or equivalently ${|\
 
 ## Related entries
 
+* [[mass term]]
+
+* [[mass gap]]
+
 * [[Higgs mechanism]]
 
 * [[ADM mass]]
