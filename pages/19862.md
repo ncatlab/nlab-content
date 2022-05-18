@@ -3,4 +3,10 @@
 
 The format is modeled on the [[The Stacks Project|Stacks project]].
 
+## See also
+
+* [[Stacks Project]]
+
+* [[bananaspace]]
+
 category: reference
