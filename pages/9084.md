@@ -62,3 +62,4 @@ Given root systems $\Delta$ in $E$ and $\Delta'$ in $E'$, we define a **morphism
 
 
 [[!redirects root system]]
+[[!redirects root systems]]
