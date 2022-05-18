@@ -150,11 +150,11 @@ External manipulation of topological phases:
 
 * Marwa Mannaï, Sonia Haddad, *Twistronics versus straintronics in twisted bilayers of graphene and transition metal dichalcogenides*, Phys. Rev. B **103** 201112 (2021) $[$[arXiv:2011.08818](https://arxiv.org/abs/2011.08818), [doi:10.1103/PhysRevB.103.L121112](https://doi.org/10.1103/PhysRevB.103.L121112)$]$
 
-
 * Jiesen Li, Wanxing Lin, D. X. Yao, *Strain-induced topological phase transition in two-dimensional platinum ditelluride* $[$[arXiv:2106.16212](https://arxiv.org/abs/2106.16212)$]$
 
 * T. Kondo et al., *Visualization of the strain-induced topological phase transition in a quasi-one-dimensional superconductor $TaSe_3$*, Nature Materials **20** 1093–1099 (2021) $[$[doi:10.1038/s41563-021-01004-4](https://doi.org/10.1038/s41563-021-01004-4)$]$
 
+* Phil D. C. King, *Controlling topology with strain*, Nat. Mater. **20** (2021) 1046–1047   $[$[doi:10.1038/s41563-021-01043-x](https://doi.org/10.1038/s41563-021-01043-x)$]$
 
 
 category: physics
