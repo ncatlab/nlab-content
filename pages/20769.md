@@ -57,7 +57,8 @@ Note that the latter notion of coherence is slightly different than the one give
 ## References
 
 * {#jung2} Achim Jung, _Stably compact spaces and the probabilistic powerspace construction_, ENTCS 87, 2004 ([doi:10.1016/j.entcs.2004.10.001](https://doi.org/10.1016/j.entcs.2004.10.001)).
-* {#jungmoshier06} Achim Jung and M. Andrew Moshier. _On the bitopological nature of Stone duality._  Technical Report CSR-06-13. School of Computer Science, University of Birmingham, December 2006, 110 pages.
+
+* {#jungmoshier06} Achim Jung and M. Andrew Moshier. _On the bitopological nature of Stone duality._  Technical Report CSR-06-13. School of Computer Science, University of Birmingham, December 2006, 110 pages. $[$[pdf](https://www.cs.bham.ac.uk/~axj/pub/papers/Jung-Moshier-2006-On-the-bitopological-nature-of-Stone-duality.pdf)$]$
 
 
 [[!redirects stably compact spaces]]
