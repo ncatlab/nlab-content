@@ -55,7 +55,7 @@ An equivalent way to characterize a uniform space is by its collection of *[[uni
 
 * $C_1 \wedge C_2 \coloneqq \{ A \cap B \;|\; A \in C_1, B \in C_2 \}$; this is also a cover.
 
-* For $A \subseteq X$, $C[A] \coloneqq \bigcup \{ B \in C \mid A \cap B\text{ is [[inhabited set|inhabited]] }\}$.
+* For $A \subseteq X$, $C[A] \coloneqq \bigcup \{ B \in C \mid \mathrm{isInhabited}(A \cap B)\}$.
 
 * $C^* \coloneqq \{ C[A] \;|\; A \in C\}$.
 
