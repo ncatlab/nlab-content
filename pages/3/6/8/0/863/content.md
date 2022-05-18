@@ -98,3 +98,7 @@ For more see at _[[classifying topos]]_ the section _[For (inhabited) linear ord
 [[!redirects linearly ordered sets]]
 [[!redirects loset]]
 [[!redirects losets]]
+
+[[!redirects trichotomy]]
+[[!redirects law of trichotomy]]
+[[!redirects axiom of trichotomy]]
