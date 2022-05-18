@@ -26,15 +26,195 @@
 
 ## Idea
 
-In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-dimensional [[Chern insulators]] (as [[topological phase of matter]] "without [[symmetry protected topological phase|symmetry protection]]") obtained by starting with a simple [[model (in theoretical physics)|model]] for [[graphene]] and then adding [[interactions]] (similar to [[spin-orbit coupling]]) which [[symmetry breaking|break]] the [[time-reversal symmetry]] and spatial inversion symmetry.
+In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-dimensional [[Chern insulators]] (as [[topological phase of matter]] "without [[symmetry protected topological phase|symmetry protection]]") obtained by starting with a simple [[model (in theoretical physics)|model]] for a [[graphene]]-like 2d [[semi-metal]] and then adding an [[interactions]] (similar to [[spin-orbit coupling]]) or [[mass term]] which [[symmetry breaking|break]] the [[time-reversal symmetry]] and spatial inversion symmetry.
+
+## Definition
+
+
+Consider the honeycomb crystal lattice with its three site $a_i \in \mathbb{R}^2$ within a unit cell:
+
+
+\begin{imagefromfile}
+    "file_name": "HoneycombCrystalLattice.jpg",
+    "width": 420,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [DTC](#DTC))"
+\end{imagefromfile}
+
+### The graphene-like semi-metal model
+
+The [[Hilbert space]] [[space of quantum states|of quantum states]] of the Haldane model is the [[direct sum]] of copies of $\mathbb{C}^2$ (regarded as the defining/[[fundamental representation]] of [[SU(2)]]) indexed by the sites in a Brillouin zone of this hexagonal lattice.
+
+The un-deformed [[Bloch theory|Bloch]]-[[Hamiltonian]] at [[momentum]]/[[wave vector]] $k$ in the [[Brillouin torus]] $\widehat{\mathbb{T}}^2$ is
+
+\[
+  \label{GrapheneLikeHamiltonian}
+  H_0(k)
+  \;\coloneqq\;
+  t_1
+  \cdot
+  \underoverset{i = 1}{3}{\sum}
+  \;
+  \big(
+    cos(k \cdot a_i)
+    \sigma_x 
+    -
+    \sigma_y
+    sin(k \cdot a_i)
+  \big)
+  \,,
+\]
+
+where
+
+1. $t_1 \in \mathbb{R}$ is some real parameter,
+
+1. the [[sum]] ranges over the three unit cell sites shown above,
+
+1. $k \cdot a_i$ denotes the canonical [[inner product]] (evaluation pairing) of the [[wave vector]] with a position space lattice vector,
+
+1. $\sigma_x, \sigma_y, \sigma_z$ are the [[Pauli matrices]] acting as [[linear operators]] of the on-site copies of the [[SU(2)]]-[[linear representation|representation]] $\mathbb{C}^2$.
+
+This undeformed Hamiltonian (eq:GrapheneLikeHamiltonian) is a simple but good model for the [[electronic band structure]] of a [[graphene]]-like 2-dimensional [[semi-metal]].
+
+### Deformation by the Haldane mass term
+
+Consider now also the following next-to-mearest neighbour site vectors $b_i \in \mathbb{R}^2$ in the above honeycomb lattice:
+
+
+\begin{imagefromfile}
+    "file_name": "NextNearNeighbSitesInHoneycLattice-220518.jpg",
+    "width": 330,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [DTC](#DTC))"
+\end{imagefromfile}
+
+
+The full [[Bloch theory|Bloch]]-[[Hamiltonian]] of the Haldane model is the deformation of $H_0(k)$ (eq:GrapheneLikeHamiltonian) by a [[mass term]] of the following form:
+
+\[
+  \label{HaldaneHamiltonian}
+  H(k)
+  \;\coloneqq\;
+  H_0(k)
+  \;+\;
+  \underset{
+    \mathrm{mass}\;\mathrm{term}
+  }{
+  \underbrace{
+    \left(
+       M
+       \;+\; 
+       2 t_2
+       \underoverset{j = 1}{3}{\sum} 
+       sin(k \cdot b_i)
+    \right)
+    \cdot
+    \sigma_z
+  }
+  }
+  \,,
+\]
+
+where
+
+1. $t_2 \in \mathbb{R}$ is a second [[real number|real]] parameter
+
+1. the sum is now over the above three next-to-nearest neighbour site vectors $b_i$.
+
+Notice that (only) for $t_2 = 0$ this reduces to the deformation by a *constant* mass term (which is often understood as the default meaning of "mass term"):
+
+
+\[
+  \label{HaldaneHamiltonianForConstantMassTerm}
+  H(k)_{t_2 = 0}
+  \;=\;
+  t_1
+  \cdot
+  \underoverset{i = 1}{3}{\sum}
+  \;
+  \big(
+    cos(k \cdot a_i)
+    \sigma_x 
+    -
+    \sigma_y
+    sin(k \cdot a_i)
+  \big)
+  \;+\;
+  \underset{
+    \mathclap{
+      \mathrm{mass}\;\mathrm{term}
+    }
+  }{
+  \underbrace{
+    M 
+    \sigma_z
+  }
+  }
+  \,,
+\]
+
 
 ## Properties
 
+### Phase diagram
+
+As the parameter $t_2$  in (eq:HaldaneHamiltonian) increases from 0, the Haldane model passes, consecutively,  through
+
+1. at $t_2/M = 0$, where the *mass term is constant* (eq:HaldaneHamiltonianForConstantMassTerm), a *topologically trivial* [[insulator]]-phase with [[Berry curvature]] concentrated (see [below](#BerryCurvature)) around the would-be nodal points of the [[graphene]]-like [[semi-metal]] phase which has been gapped out by the constant mass term;
+
+1. at ...
+
 ### Berry curvature
+ {#BerryCurvature}
 
 A curious property of the Haldane model, not shared by all [[Chern insulators]] in general, is that its [[Berry curvature]] is strongly localized around the nodal [[Dirac points]], hence that the [[Berry connection]] is essentially [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the nodal points.
 
-(eg. [Atteia 16, Sec. 2-3.4, p. 4](#Atteia16))
+(eg. [Atteia 16, Sec. 2-3.4, p. 4](#Atteia16), [DTC](#DTC) [here](https://topocondmat.org/w4_haldane/haldane_model.html#gap-closings-are-sources-of-berry-curvature))
+
+\begin{imagefromfile}
+    "file_name": "BerryCurvatureInHaldaneModelFromAtteia-220518.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Atteia 16, Fig. 2.7](#Atteia16))"
+\end{imagefromfile}
+
+Concretely, the above graphics shows the Berry curvature in the Haldane model for constant mass term, hence in the case that the mass term patameter "$t$" vanishes:
+
+
+\begin{imagefromfile}
+    "file_name": "BerryCurvatureInHaldaneModelFromDTC-220518.jpg",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [DTC](#DTC))"
+\end{imagefromfile}
+
+
+
 
 
 ## Related concepts
@@ -60,7 +240,7 @@ Review:
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
-* Delft Topology course team, *[Haldane model, Berry curvature, and Chern number](https://topocondmat.org/w4_haldane/haldane_model.html#first-try)*
+* {#DTC} Delft Topology Course team, *[Haldane model, Berry curvature, and Chern number](https://topocondmat.org/w4_haldane/haldane_model.html#first-try)*
 
 
 See also:
