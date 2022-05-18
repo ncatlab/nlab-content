@@ -27,6 +27,13 @@ In the foundations of [[differential topology]], it is possible to define a [[ta
 
 See also the [[fundamental theorem of differential geometry of curves]].
 
+### Open and closed curves
+
+In a [[Cartesian space]] $\mathbb{R}^n$, an __open smooth curve__ is a smooth curve $\gamma:\mathbb{R} \to \mathbb{R}^n$ which does not intersect itself: For every real number $a \in \mathbb{R}$ and $b \in \mathbb{R}$, the [[distance]] between the two points on the curve parameterized by $a$ and $b$ is greater than zero: $\rho(\gamma(a),\gamma(b)) \gt 0$. Equivalently, an open smooth curve is a smooth curve such that the [[shape]] of the [[image]] of $\gamma$ is [[contractible]]: $\esh \mathrm{im}(\gamma) \simeq *$. 
+
+A __closed smooth curve__ is a smooth curve $\gamma:\mathbb{R} \to \mathbb{R}^n$ which does intersect itself: for every real number $a \in \mathbb{R}$, there is a real number $b \in \mathbb{R}$, such that $\gamma(a) = \gamma(a + b)$. Equivalently, a closed smooth curve is a smooth curve such that the [[shape]] of the [[image]] of $\gamma$ is [[equivalent]] to the [[circle type]]: $\esh \mathrm{im}(\gamma) \simeq S^1$. 
+
+In classical mathematics, every smooth curve $\gamma:\mathbb{R} \to \mathbb{R}^n$ is either open or closed. In [[constructive mathematics]], there are smooth curves where it cannot be proved to be either open or closed, due to the failure of [[trichotomy]]. 
 
 ## In algebraic geometry
 
@@ -48,12 +55,22 @@ An example: [[elliptic curve]].
 
 * [[velocity]], [[acceleration]], [[jerk]]
 
+## References 
+
+See also 
+
++ Wikipedia, _[Curve](https://en.wikipedia.org/wiki/Curve)_
+
 [[!include infinitesimal and local - table]]
-
-
 
 [[!redirects curve]]
 [[!redirects curves]]
 
 [[!redirects smooth curve]]
 [[!redirects smooth curves]]
+
+[[!redirects open curve]]
+[[!redirects open curves]]
+
+[[!redirects closed curve]]
+[[!redirects closed curves]]
