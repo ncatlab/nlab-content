@@ -32,7 +32,7 @@ In [[solid state physics]], the *Haldane model* is a [[model (in theoretical phy
 ## Definition
 
 
-Consider the honeycomb crystal lattice with its three site $a_i \in \mathbb{R}^2$ within a unit cell:
+Consider the honeycomb crystal lattice with the following three sites $a_i \in \mathbb{R}^2$ within a unit cell:
 
 
 \begin{imagefromfile}
