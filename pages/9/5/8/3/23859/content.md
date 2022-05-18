@@ -9,7 +9,6 @@
 =--
 =--
 
-
 > This entry is about the notion of "crystal" in [[solid state physics]]. For the notion in [[algebraic geometry]] see at *[[crystal (algebraic geometry)]]*.
 
 ***
@@ -35,11 +34,16 @@ In addition to these *spatial symmetries*, the [[dynamics]] of the [[electrons]]
 
 * [[Brillouin torus]]
 
+* [[crystalline topological insulator]]
+
 ## References
 
-Historical articles:
+Historical articles identifying the point-lattice nature of crystals:
+
+* {#Bravais1850}  [[Auguste Bravais]], *Mémoire sur les Systèmes Formés par les Points Distribués Régulièrement sur un Plan ou dans L'espace*, J. Ecole Polytech. 19 (1850) 1 $[$[ark:12148/bpt6k96124j](https://gallica.bnf.fr/ark:/12148/bpt6k96124j)$]$
 
 * {#Barlow1883} [[William Barlow]], *Probable Nature of the Internal Symmetry of Crystals*, Nature **29** (1883) 186–188 $[$[doi:10.1038/029186a0](https://doi.org/10.1038/029186a0)$]$
+
 
 
 Textbook accounts:
