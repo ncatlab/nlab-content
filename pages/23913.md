@@ -51,3 +51,5 @@ Equivalently: A [[groupoid]] $G$ that is both a [[symmetric 2-group]] $(G, 0, \o
 ## References
 
 * {#Kelly74} [[G. M. Kelly]], _Coherence theorems for lax algebras and distributive laws_, Lecture Notes in Mathematics **420**, Springer Verlag, Berlin(1974) 281-375 $[$[doi:10.1007/BFb0063106](https://doi.org/10.1007/BFb0063106)$]$
+
+[[!redirects symmetric ring groupoids]]
