@@ -15,6 +15,10 @@
 
 ## Idea
 
+There are multiple different concepts of continuous maps, even in classical mathematics, depending upon which foundation one is using. 
+
+### In traditional topology
+
 A [[function]] $f \colon X \to Y$ is called _continuous_ if its values $f(x)$ do not "jump" with variation of its argument $x$, unless $x$ itself "jumps".  Roughly speaking, if $x_1 \approx x_2$, then $f(x_1) \approx f(x_2)$.  (This can be made into a precise definition in [[nonstandard analysis]] if care is taken about the domains of these variables.)
 
 In order to make this precise (in standard analysis) one needs some concept of [[neighbourhoods]] of elements of $X$ and $Y$. 
@@ -31,8 +35,19 @@ In other words, the collection of [[topological spaces]] forms a [[category]], o
 Further generalization of the concept of continuity exists, for instance to 
 _[[locales]]_ (and then to [[toposes]]) or to _[[convergence spaces]]_.  (See also at _[[continuous space]]_.)
 
+### In cohesive homotopy type theory
+
+There is also a concept of continuous function in [[cohesive homotopy type theory]], a two-tiered type theory with two types (usual types) and (cohesive types), where the continuous functions are precisely the functions between cohesive types, and the not-necessarily continuous functions are the functions between usual types. 
 
 ## Definitions
+
+### For the set of real numbers
+
+Given a bounded or unbounded [[open interval|open]] or [[closed interval]] in the [[Dedekind real numbers]] $I$ with [[injection]] $i:I \to \mathbb{R}$ A function $f:I \to \mathbb{R}$ is continuous if the [[graph of a function|graph]] of $f$ defined by the [[function]] $r_f:I \to \mathbb{R}^2$, $r_f(x) \coloneqq (i(x), f(x))$, has an [[image]] whose [[shape]] is [[contractible]]
+
+$$\esh \mathrm{im}(r_f) \simeq \mathbb{1}$$
+
+This definition is the formal definition that most closely adheres to the intuitive idea of a continuous function as introduced in an introductory college algebra class or textbook: as a function which could be drawn on a sheet of paper without picking the writing utensil up. 
 
 ### The epsilontic definition for metric spaces
  {#EpsilonticDefinition}
@@ -232,7 +247,7 @@ Although these don't make sense for arbitrary topological spaces (convergence sp
 
 Various notions of continuous function are used in [[constructive mathematics]].  A function $f$ (say [[real number|real]]-valued and defined on a real [[interval]]) is:
 
-* _pointwise-continuous_ if it continuous in the usual [[epsilon-delta]] (or equivalently [[open-subset]]) sense;
+* _pointwise-continuous_ if it [[pointwise continuous function|pointwise continuous]] in the usual [[epsilon-delta]] (or equivalently [[open-subset]]) sense;
 * _uniformly continuous_ if it [[uniformly continuous map|uniformly continuous]] in the usual epsilon-delta (or equivalently [[entourage]]-theoretic) sense;
 * _Bishop-continuous_ if it is pointwise continuous and furthermore, the restriction to any closed and bounded interval is uniformly continuous;
 * _Bridges-continuous_ if ... (this one\'s kind of complicated).
@@ -251,6 +266,8 @@ Waaldijk's negative result can be circumvented by dropping the insistence on poi
 
 
 ## Related concepts
+
+* [[pointwise continuous function]]
 
 * [[degree of a continuous function]]
 
