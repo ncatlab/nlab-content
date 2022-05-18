@@ -29,6 +29,10 @@ In addition to these *spatial symmetries*, the [[dynamics]] of the [[electrons]]
 
 ## Related concepts
 
+* [[crystallographic group]]
+
+* [[Bravais lattice]]
+
 * [[Brillouin torus]]
 
 ## References
