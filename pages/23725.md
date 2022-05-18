@@ -28,6 +28,8 @@ $$
 
 ## Related concepts
 
+* [[Bravais lattice]]
+
 * [[Bloch-Floquet theory]]
 
 * [[valence bundle]], [[conduction bundle]]
