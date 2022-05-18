@@ -19,6 +19,8 @@ A [[finite number|finite]] [[dimension|dimensional]] [[irreducible representatio
 
 ## References
 
+See also:
+
 * Wikipedia, _[Fundamental representation](http://en.wikipedia.org/wiki/Fundamental_representation)_
 
 [[!redirects fundamental representations]]
