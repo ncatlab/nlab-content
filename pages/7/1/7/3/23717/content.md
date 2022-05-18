@@ -14,7 +14,7 @@
 
 ## Idea ##
 
-[[continuous functions]] defined pointwise. 
+The concept of [[continuous functions]] familiar from [[epsilontic analysis]].
 
 ## Definition ##
 
@@ -42,17 +42,55 @@ $$isContinuousAt(f, c) \coloneqq \forall \epsilon \in F_{+}. \forall x \in F. \e
 $f$ is __pointwise continuous__ in $F$ if it is continuous at all points $c$:
 $$isPointwiseContinuous(f) \coloneqq \forall c \in F. isContinuousAt(f, c)$$
 
-### In metric spaces ###
-Let $(S, \rho)$ be a [[metric space]] and let 
+### In premetric spaces
+ {#EpsilonticDefinition}
 
-$$\mathbb{R}_{+} \coloneqq \{a \in \mathbb{R} \vert 0 \lt a\}$$
+We state the definition of pointwise continuity in terms of [[epsilontic analysis]], definition \ref{EpsilonDeltaDefinitionOfPointwiseContinuity} below. 
 
-be the positive elements in $\mathbb{R}$. A function $f:S \to S$ is __continuous at a point__ $c \in S$ if 
++-- {: .num_defn #PremetricSpace}
+###### Definition
 
-$$isContinuousAt(f, c) \coloneqq \forall \epsilon \in \mathbb{R}_{+}. \forall x \in S. \exists \delta \in \mathbb{R}_{+}. (\rho(x, c) \lt \delta) \to (\rho(f(x), f(c)) \lt \epsilon)$$
+A _[[premetric space]]_ is 
 
-$f$ is __pointwise continuous__ in $S$ if it is continuous at all points $c$:
-$$isPointwiseContinuous(f) \coloneqq \forall c \in S. isContinuousAt(f, c)$$
+1. a [[set]] $X$ (the "underlying set");
+
+1. a ternary [[relation]] $(-)\sim_{(-)} (-)\colon X \times \mathbb{R}_+ \times X \to \Omega$ (the "premetric") from the [[Cartesian product]] of the set with the positive [[real numbers]] and with itself again to the set of [[truth values]]. 
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Every [[normed vector space]] $(V, {\Vert -\Vert})$
+becomes a [[premetric space]] according to def. \ref{PremetricSpace} by setting
+
+$$
+  x \sim_\epsilon y \coloneqq {\Vert x-y\Vert \lt \epsilon}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #EpsilonDeltaDefinitionOfPointwiseContinuity}
+###### Definition
+**(epsilontic definition of pointwise continuity)**
+
+For $(X,\sim^X)$ and $(Y,\sim^Y)$ two [[premetric spaces]] (def. \ref{PremetricSpace}), then a [[function]]
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+is said to be _continuous at a point $x \in X$_ if for every $\epsilon$ there exists $\delta$ such that 
+
+$$
+  x \sim_\delta^X y \;\Rightarrow\; f(x) \sim_\epsilon^Y f(y) 
+$$
+
+The function $f$ is called _pointwise continuous_ if it is continuous at every point $x \in X$.
+
+=--
 
 ### In preconvergence spaces ###
 Let $S$ and $T$ be [[preconvergence space]]s. A function $f:S \to T$ is __continuous at a point__ $c \in S$ if 
