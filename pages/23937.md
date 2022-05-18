@@ -83,7 +83,7 @@ Thus, these axioms imply that the collection of sets, functions, and elements fo
 
 **Axiom of Cartesian products.** For every set $A$ and $B$, there is a set $A \times B$, called a **Cartesian product** of $A$ and $B$, with a function $p_A:A \times B \to A$ called the **projection onto $A$** and a function $p_B:A \times B \to B$ called the **projection onto $B$**, such that given two elements $a \in A$ and $b \in B$ there is a unique element $a, b \in A \times B$ such that $p_A(a, b) = a$ and $p_B(a, b) = b$. 
 
-**Axiom of fibers.** For every set $A$ and $B$, element $b \in B$, and function $f:A \to B$, there is a set $f^{-1}(b)$ called the **fiber** of $f$ over $b$ with a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to B$ there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$. A fiber of $f$ over $b$ is also called the **solution set** of the equation $f(x) = b$. 
+**Axiom of fibers.** For every set $A$ and $B$, element $b \in B$, and function $f:A \to B$, there is a set $f^{-1}(b)$ called the **fiber** of $f$ over $b$ with a function $i:f^{-1}(b) \to A$, such that for every element $a \in f^{-1}(b)$, $f(i(a)) = b$, and for every other set $C$ and function $g:C \to B$ such that for every element $c \in C$, $f(g(c)) = b$, there is a unique function $j:C \to f^{-1}(b)$ such that for every element $c \in C$, $g(c) = i(j(c))$. A fiber of $f$ over $b$ is also called the **solution set** of the equation $f(x) = b$. 
 
 An **injection** is a function $f:A \to B$ such that for every element $a \in A$ and $b \in A$, if $f(a) = f(b)$, then $a = b$. 
 
