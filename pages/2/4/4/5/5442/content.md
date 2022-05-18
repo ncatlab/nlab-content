@@ -5,6 +5,11 @@ The document
 
 is a textbook that leads from basics of [[category theory]] and [[algebra]] to a discussion of [[scheme]]s, [[algebraic space]]s and [[algebraic stack]]s.
 
+## See also
+
+* [[Kerodon]]
+
+* [[bananaspace]]
 
 category: reference
 
