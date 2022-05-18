@@ -37,17 +37,73 @@ For negative discriminant, there is no extrema. For zero discriminant, there is 
 
 $$x = -\frac{b}{3a}$$  
 
+If $a = 0$, the real cubic function is [[degenerate]]; it becomes a [[real quadratic function]]. 
+
 ### Inflection point ###
+
+THe inflection point of the real cubic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^3 + b x^2 + c x + d$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$, $d \in \mathbb{R}$ occurs at the zero of the second derivative of $f$: 
+
+$$\partial_x f(x) = 6 a x + 2b = 0$$
+
+which occurs at 
+
+$$x = -\frac{b}{3a}$$
 
 The inflection point is to real cubic functions what the extremum was to real quadratic functions. 
 
-### Discriminant ###
-
-A real cubic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^3 + b x^2 + c x + d$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$, $d \in \mathbb{R}$, has [[discriminant]] $\Delta = 18 a b c d - 4 b^3 d + b^2 c^2 - 4 a c^3 - 27a^2 d^2$. 
-
 ### In constructive mathematics ###
 
-In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether $f$ has two local extrema, a saddle point, or zero local extrema. Similarly, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the local minimum occurs before or after the local maximum with respect to the order $\lt$ in the domain, or does not exist due to the degeneracy of $f$. 
+In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in the real numbers, so the three cases above cover every real number. However, in [[constructive mathematics]], trichotomy does not hold in the real numbers, and as a result, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether $f$ has two local extrema, a saddle point, or zero local extrema. Similarly, there exists real cubic functions $f:\mathbb{R} \to \mathbb{R}$ such that one cannot decide whether the inflection point occurs to the left, the right, or on the $y$-intercept line. 
+
+## Depressed cubic functions ##
+
+An unnormalized depressed cubic function is a real cubic function whose inflection point occurs at $x = 0$, and has the canonical form of $g(x) \coloneqq a x^3 + p x + q$, with $\vert a \vert \gt 0$. $g$ is called a depressed cubic function when $a$ is normalized to $1$. 
+
+Every real cubic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^3 + b x^2 + c x + d$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$, $d \in \mathbb{R}$, is a translation of an unnormalized depressed cubic function $g:\mathbb{R} \to \mathbb{R}$ by the equation
+
+$$g(x) = f\left(x - \frac{b}{3a}\right)$$
+
+$$a x^3 + p x + q = a \left(x - \frac{b}{3a}\right)^3 + b \left(x - \frac{b}{3a}\right)^2 + c \left(x - \frac{b}{3a}\right) + d$$
+
+$$a x^3 + p x + q = a x^3 - 3 a \frac{b}{3a} x^2 + 3 a \left(\frac{b}{3a}\right)^2 x - a \left(\frac{b}{3a}\right)^3 + b x^2 - 2 b \frac{b}{3a} x + b \left(\frac{b}{3a}\right)^2 + c x - c \left(\frac{b}{3a}\right) + d$$
+
+$$a x^3 + p x + q = a x^3 + \frac{b^2}{3a} x - \frac{b^3}{27a^2} - \frac{2 b^2}{3a} x + \frac{b^3}{9 a^2} + c x - \frac{b c}{3a} + d$$
+
+$$a x^3 + p x + q = a x^3 + \frac{3a c - b^2}{3a} x + \frac{2 b^3 - 9 a b c + 27 a^2 d}{27a^2}$$
+
+thus, 
+
+$$p = \frac{3a c - b^2}{3a}$$
+
+$$q = \frac{2 b^3 - 9 a b c + 27 a^2 d}{27a^2}$$
+
+### Discriminant ###
+
+The discriminant of an unnormalized depressed cubic function $g(x) \coloneqq a x^3 + p x + q$ is given by 
+
+$$\Delta = -4 p^3 - 27 a q^2$$
+
+Substituting in the values above for $p$ and $q$, the discriminant of a general real cubic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^3 + b x^2 + c x + d$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$, $d \in \mathbb{R}$ is 
+
+$$\Delta = -4 \left(\frac{3a c - b^2}{3a}\right)^3 - 27 a \left(\frac{2 b^3 - 9 a b c + 27 a^2 d}{27a^2}\right)^2 = \frac{4(b^2 - 3a c)^3 - (2 b^3 - 9 a b c + 27 a^2 d)^2}{27 a^3}$$
+
+## Exact zeroes ##
+
+### Partial inverse functions ###
+
+Given a real cubic function $f(x) \coloneqq a x^3 + b x^2 + c x + d$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$, $d \in \mathbb{R}$ such that $\vert a \vert \gt 0$, the following cases are possible: 
+
+* If the discriminant of the derivative of $f$ is positive, $\Delta_\partial \gt 0$, then there are three branches of the partial inverse function of $f$.
+
+* If the discriminant of the derivative of $f$ is zero, $\Delta_\partial = 0$, then there are two branches of the partial inverse function of $f$.
+
+* If the discriminant of the derivative of $f$ is negative, $\Delta_\partial \lt 0$, then there is only one branch of the partial inverse function of $f$.
+
+In all cases, the partial inverse functions are solutions of the first-order nonlinear [[ordinary differential equation]]
+
+$$(3 a F^2 + 2 b F + c) \frac{d F}{d x} = 1$$
+
+with specific initial conditions. 
 
 ## See also ##
 
