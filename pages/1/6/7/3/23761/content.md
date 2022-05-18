@@ -209,7 +209,7 @@ For $M \neq 0$ and as the parameter $t_2$  (eq:HaldaneHamiltonian) increases, th
 ### Berry curvature
  {#BerryCurvature}
 
-A curious property of the Haldane model, possibly not shared by all 2d [[Chern insulators]], is that its [[Berry curvature]] is strongly localized around the (would-be) nodal [[Dirac points]], hence that the [[Berry connection]] is essentially [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the (would-be) nodal points.
+A curious property of the Haldane model, possibly not shared by all 2d [[Chern insulators]], is that its [[Berry curvature]] is strongly localized around the (would-be) nodal [[Dirac points]], hence that the [[Berry connection]] is essentially a [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the (would-be) nodal points.
 
 (eg. [Atteia 16, Sec. 2-3.4, p. 4](#Atteia16), [DTC](#DTC) [here](https://topocondmat.org/w4_haldane/haldane_model.html#gap-closings-are-sources-of-berry-curvature))
 
