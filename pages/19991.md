@@ -195,6 +195,9 @@ See also
 
 [[!redirects crystallographic groups]]
 
+[[!redirects crystallographic point group]]
+[[!redirects crystallographic point groups]]
+
 [[!redirects crystallographic symmetry]]
 [[!redirects crystallographic symmetries]]
 
