@@ -50,9 +50,7 @@ In many [[foundations of mathematics|foundations]] based on [[type theory]], suc
 
 ## Categorical semantics
 
-The difference between functions and prefunctions in sets is modeled in [[category theory]] ([[categorical semantics]]) as the difference between an [[evaluational category]] (a [[concrete category]] where [[morphisms]] behave as functions do in [[Set]]) and an [[extensional category]] (which is an evaluational category where all functions preserve the equality in sets) relating equality of elements to equality of functions. 
-
-The same difference in type theory (such as in [[intensional type theory|intensional]] [[Martin-Löf type theory]] and in [[homotopy type theory]]) is represented as concrete [[(infinity,1)-category|$(\infty,1)$-categorical]] versions of evaluational and extensional categories. These are usually internally represented by Tarski-style [[type universe|universes]] in the type theory: where the universes with the [[axiom]] of [[function extensionality]] are extensional [[locally cartesian closed (infinity,1)-categories|locally cartesian closed $(\infty,1)$-categories]], and the ones without the axiom are merely evaluational [[locally cartesian closed (infinity,1)-categories|locally cartesian closed $(\infty,1)$-categories]]. 
+The difference between functions and prefunctions in sets is modeled in [[category theory]] ([[categorical semantics]]) as the difference between a [[concrete category]] and a [[category]] with a functor $U:C \to Set$ which is not faithful.
 
 ## See also ##
 
@@ -63,8 +61,6 @@ The same difference in type theory (such as in [[intensional type theory|intensi
 * [[function extensionality]]
 
 * [[type theory]], [[homotopy type theory]]
-
-* [[evaluational category]], [[extensional category]]
 
 [[!redirects prefunction]]
 [[!redirects prefunctions]]
