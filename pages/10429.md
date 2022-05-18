@@ -193,9 +193,14 @@ Review and survey:
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
-* *Online course on topology in condensed matter* (2015-) $[$[topocondmat.org](https://topocondmat.org)$]$
+* [[Tanmoy Das]], *A pedagogic review on designing model topological insulators*, Journal of the Indian Institute of Science **96** 77-106 (2016) $[$[arXiv:1604.07546](https://arxiv.org/abs/1604.07546), [ISSN:0970-4140](http://journal.library.iisc.ernet.in/index.php/iisc/article/view/4606)$]$
+
+
+* Delft Topology Course, *Online course on topology in condensed matter* (2015-) $[$[topocondmat.org](https://topocondmat.org)$]$
 
 * [[Charles Zhaoxi Xiong]], p. 13 of: *Classification and Construction of Topological Phases of Quantum Matter* $[$[arXiv:1906.02892](https://arxiv.org/abs/1906.02892)$]$
+
+
 
 See also:
 
