@@ -170,10 +170,26 @@ Notice that (only) for $t_2 = 0$ this reduces to the deformation by a *constant*
 ## Properties
 
 ### Phase diagram
+ {#PhaseDiagram}
 
 First of all, the Haldane model 
 
 * at *M = 0* constitutes a non-trivial [[graphene]]-like [[topological semi-metal]]-phase with *two* Dirac points.
+
+\begin{imagefromfile}
+    "file_name": "HaldanePhaseDiagram-220518.jpg",
+    "float": "right",
+    "width": 320,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": -10,
+        "right": 0, 
+        "left": 30
+    },
+    "caption": "(graphics from [SS 22](#SS22))"
+\end{imagefromfile}
+
   
 For $M \neq 0$ and as the parameter $t_2$  (eq:HaldaneHamiltonian) increases, the Haldane model passes, consecutively,  through
 
@@ -184,6 +200,10 @@ For $M \neq 0$ and as the parameter $t_2$  (eq:HaldaneHamiltonian) increases, th
 1. at $\frac{1}{3\sqrt{3}} \lt t_2/M$ a *non-trivial* [[topological insulator]]-phase. 
  
    This is the non-trivial *[[Chern insulator]]*-phase of the Haldane model.
+
+
+
+
 
 
 ### Berry curvature
@@ -206,7 +226,7 @@ A curious property of the Haldane model, possibly not shared by all 2d [[Chern i
     "caption": "(from [Atteia 16, Fig. 2.7](#Atteia16))"
 \end{imagefromfile}
 
-Concretely, the above graphics shows the Berry curvature in the Haldane model for constant mass term, hence in the case that the mass term patameter "$t_2$" vanishes:
+Concretely, the above graphics shows the Berry curvature in the Haldane model for constant mass term, hence in the case that the interaction paramater $t_2$ (eq:HaldaneHamiltonian) vanishes:
 
 \begin{imagefromfile}
     "file_name": "BerryCurvatureInHaldaneModelFromDTC-220518.jpg",
@@ -249,6 +269,8 @@ This makes it clear that the [[integration|integral]] of the [[Berry curvature]]
 
 ## References
 
+### Theory
+
 The original article:
 
 * [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015-2018 $[$[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)$]$
@@ -266,10 +288,15 @@ Review:
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
+Much of the above material follows:
+
 * {#DTC} Delft Topology Course team, *[Haldane model, Berry curvature, and Chern number](https://topocondmat.org/w4_haldane/haldane_model.html#first-try)*
 
+Some of the above material is taken from:
 
+* {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Computation in TED-K]]*
 
+### Experiment
 
 Realization in [[experiment]]:
 
