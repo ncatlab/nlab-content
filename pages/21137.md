@@ -7,6 +7,10 @@
 
 * [[crystal]] 
 
+  * [[crystallographic group]]
+
+  * [[Bravais lattice]]
+
 * [[Bloch theory]]
 
 * [[electronic band structure]]
