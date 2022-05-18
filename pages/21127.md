@@ -27,6 +27,8 @@ In [[solid state physics]] a material is said to have a _gapped Hamiltonian_ if 
 
 * [[tensor network]]
 
+* [[mass term]]
+
 * [[mass gap problem]] in [[Yang-Mills theory]]/[[QCD]]
 
 
