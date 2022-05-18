@@ -97,20 +97,11 @@ $$
 ###### Definition
 
 For $A \in PSh_S$ the **separafication** $L_{sep}A$ of $A$ is the presheaf that assigns equivalence classes
-
-$$
-  L_{sep}A : U \mapsto A(U)/\sim_U
-  \,,
-$$
-
+$$L_{sep}A : U \mapsto A(U)/\sim_U,$$
 where $\sim_U$ is the [[equivalence relation]] that relates two elements $a \sim b$ iff there exists a [[covering]] $\{p_i : U_i \to U\}$ such that $A(p_i)(a) = A(p_i)(b)$ for all $i$.
 
 This construction extends in the evident way to a functor
-
-$$
-  L_{sep} : PSh(S) \to Sep(S)
-  \,.
-$$
+$$L_{sep} : PSh(S) \to Sep(S).$$
 
 =--
 
@@ -127,7 +118,6 @@ This functor $L_{sep}$ is indeed a [[left adjoint]] to the inclusion $i : Sep(S)
 Let $A \in PSh(S)$ and $B \in Sep(S) \hookrightarrow PSh(S)$. We need to show that morphisms $f : A \to B$ in $PSh_C$ are in natural bijection with morphisms $L_{sep} A \to B$ in $Sep(S)$.
 
 For $f$ such a morphism and $f_U : A(U) \to B(U)$ its component over any object $U \in S$, consider any covering $\{U_i \to U\}$, let $S(U_i) \to U$  be the corresponding [[sieve]] and consider the [[commuting diagram]]
-
 $$
   \array{
     \{(a_i \in A(U_i)) | \cdots \}
@@ -139,7 +129,6 @@ $$
     A(U) &\stackrel{f_U}{\to}& B(U)
   }
 $$
-
 obtained from the naturality of $PSh_S(S(U_i) \to U, A \stackrel{f}{\to} B)$.
 
 If for $a,a' \in A(U)$ two elements that are not equal their restrictions to the cover become equal in that  $\forall i :  a|_{U_i} = a'|_{U_i}$, then also $f(a|_{U_i}) = f(a'|_{U_i})$ and since the right vertical morphism is monic there is a _unique_ $b \in B(U)$ mapping to the latter. The commutativity of the diagram then demands that $f(a) = f(a') = b$.
@@ -156,21 +145,14 @@ Since this argument applies to all covers of $U$, we have that $f_U$ factors uni
 Often one is interested in separated presheaves with respect to one [[coverage]] that are sheaves with respect to another coverage. These are called _biseparated presheaves_ . 
 
 This typically arises if a [[reflective subcategory]]
-
-$$
-  C \stackrel{\stackrel{}{\leftarrow}}{\hookrightarrow}
-  Sh(S)
-$$
-
+$$C \stackrel{\stackrel{}{\leftarrow}}{\hookrightarrow} Sh(S)$$
 of a [[sheaf topos]] is given. This is the [[localization]] at a set $W$ of morphisms in $Sh(S)$, with $C$ the full subcategory of all [[local object]]s $c$: objects such that $Sh_(S)(w,c)$ is an isomorphism for all $w \in W$. A $W$-separated object is then called a _biseparated presheaf_ on $S$ and their collection $BiSep(S)$ factors the reflective inclusion as
-
 $$
   C 
     \stackrel{\leftarrow}{\hookrightarrow}
   BiSep(S) 
     \stackrel{\leftarrow}{\hookrightarrow}
-  Sh(S)
-  \,.
+  Sh(S).
 $$
 
 ### Definition
@@ -187,14 +169,26 @@ A presheaf $A \in PSh_S$ is called $(J,K)$-**biseparated** if it is
 * a separated presheaf with respect to $K$.
 
 Write 
-
 $$
   BiSep_{(J,K)}(S) \hookrightarrow Sh_J(S) \hookrightarrow PSh(S)
 $$ 
-
 for the full [[subcategory]] on biseparated presheaves.
 
 =--
+
+
+### Examples
+
+[[Diffeological spaces]] are biseparated presheaves
+for the bisite structure on [[cartesian spaces]],
+where $J$ is the usual topology of open covers
+and $K$ is the topology given by the families
+$$\coprod_{u\in U}\mathbf{R}^0 \to U$$
+for every [[cartesian space]] $U$.
+
+The [[sheaf]] condition with respect to $J$ yields a [[smooth set]],
+whereas the [[separated presheaf]] condition with respect to $K$
+makes it into a [[diffeological space]].
 
 
 ### Properties
@@ -203,7 +197,6 @@ for the full [[subcategory]] on biseparated presheaves.
 ###### Proposition
 
 Biseparated presheaves form a [[reflective subcategory]] of all sheaves
-
 $$
   BiSep_{(J,K)}(S)
   \stackrel{\stackrel{L^K_{sep}}{\leftarrow}}{\hookrightarrow}
