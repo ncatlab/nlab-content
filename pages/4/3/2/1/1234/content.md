@@ -16,11 +16,11 @@
 
 ## Idea
 
-[[Grothendieck]] conjectured that every [[Weil cohomology theory]] factors uniquely through some [[category]], which he called the category of _[[motives]]_.  For [[smooth variety|smooth]] [[projective varieties]] (over some [[field]] $k$) such a category was given by Grothendieck himself, called the category of _pure [[Chow motives]]_.  For general smooth varieties the category is still conjectural, see at _[[mixed motives]]_.
+[[Grothendieck]] [[conjecture|conjectured]] that every [[Weil cohomology theory]] factors uniquely through some [[category]], which he called the category of _[[motives]]_.  For [[smooth variety|smooth]] [[projective varieties]] (over some [[field]] $k$) such a category was given by Grothendieck himself, called the category of _pure [[Chow motives]]_.  For general smooth varieties the category is still conjectural, see at _[[mixed motives]]_.
 
 ## Construction
 
-Fix some [[adequate equivalence relation]] $\sim$ (e.g. [[rational equivalence]]).  Let $Z^i(X)$ denote the group of $i$-codimensional [[algebraic cycles]] and let $A^i_\sim(X)$ denote the quotient $Z^i(X)/\sim$.
+Fix some [[adequate equivalence relation]] $\sim$ (e.g. [[rational equivalence]]).  Let $Z^i(X)$ denote the group of $i$-[[codimension|codimensional]] [[algebraic cycles]] and let $A^i_\sim(X)$ denote the [[quotient]] $Z^i(X)/\sim$.
 
 ### Category of correspondences  
 
@@ -33,7 +33,7 @@ $$
 
 where $(X_i)$ are the [[irreducible components]] of $X$ and $n_i$ are their respective [[dimensions]].  The [[composition]] of two [[morphisms]] $\alpha \in Corr(X,Y)$ and $\beta \in Corr(Y,Z)$ is given by
 $$ p_{XZ,*} (p_{XY}^*(\alpha) . p_{YZ}^*(\beta)) $$
-where $p_{XY}$ denotes the projection $X \times Y \times Z \to X \times Y$ and so on, and $.$ denotes the [[intersection product]] in $X \times Y \times Z$.
+where $p_{XY}$ denotes the [[projection]] $X \times Y \times Z \to X \times Y$ and so on, and $.$ denotes the [[intersection product]] in $X \times Y \times Z$.
 
 There is a canonical [[contravariant functor]] 
 
@@ -41,9 +41,9 @@ $$
   h \colon SmProj(k) \to Corr_\sim(k)
 $$ 
 
-from the category of smooth projective varieties over $k$ given by mapping $X \mapsto X$ and a morphism $f : X \to Y$ to its [[graph of a function|graph]], the [[image]] of its [[graph morphism]] $\Gamma_f : X \to X \times Y$. 
+from the category of smooth projective varieties over $k$ given by [[mapping]] $X \mapsto X$ and a morphism $f : X \to Y$ to its [[graph of a function|graph]], the [[image]] of its [[graph morphism]] $\Gamma_f : X \to X \times Y$. 
 
-The category of correspondences is [[symmetric monoidal category|symmetric monoidal]] with $h(X) \otimes h(Y) \coloneqq h(X \times Y)$.
+The [[category of correspondences]] is [[symmetric monoidal category|symmetric monoidal]] with $h(X) \otimes h(Y) \coloneqq h(X \times Y)$.
 
 We also define a category $Corr_\sim(k, R)$ of correspondences with [[coefficients]] in some [[commutative ring]] $R$, by [[tensor product|tensoring]] the morphisms with $R$; this is a $R$-[[linear category]] [[additive category|additive]] [[symmetric monoidal category|symmetric monoidal]] category.
 
@@ -51,7 +51,7 @@ We also define a category $Corr_\sim(k, R)$ of correspondences with [[coefficien
 
 The [[Karoubi envelope]] (pseudo-abelianisation) of $Corr_\sim(k, R)$ is called the category of **effective pure motives** (with coefficients in $R$ and with respect to the equivalence relation $\sim$), denoted $Mot^eff_\sim(k, R)$.  
 
-Explicitly its objects are pairs $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(X))$ an [[idempotent]], and morphisms from $(h(X), p)$ to $(h(Y), q)$ are morphisms $h(X) \to h(Y)$ in $Corr_\sim$ of the form $q \circ \alpha \circ p$ with $\alpha \in Corr_{\sim}(h(X), h(Y))$.
+Explicitly its objects are [[pairs]] $(h(X), p)$ with $X$ a smooth projective variety and $p \in Corr(h(X), h(X))$ an [[idempotent]], and [[morphisms]] from $(h(X), p)$ to $(h(Y), q)$ are morphisms $h(X) \to h(Y)$ in $Corr_\sim$ of the form $q \circ \alpha \circ p$ with $\alpha \in Corr_{\sim}(h(X), h(Y))$.
 
 This is still a [[symmetric monoidal category|symmetric monoidal]] category with $(h(X), p) \otimes (h(Y), q) = (h(X \times Y), p \times q)$.  Further it is a [[Karoubian category|Karoubian]], $A$-[[linear category|linear]] and [[additive category|additive]].
 
