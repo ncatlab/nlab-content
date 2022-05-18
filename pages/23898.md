@@ -20,11 +20,11 @@
 
 ## Idea ##
 
-An [[evaluational category]] where [[morphisms]] satisfy the [[function extensionality|axiom of extensionality]]. "Extensional category" is new terminology for a concept I haven't yet seen discussed in the category-theoretic literature yet. 
+An [[concrete category]] where [[morphisms]] satisfy the [[function extensionality|axiom of extensionality]]. "Extensional category" is new terminology for a concept I haven't yet seen discussed in the category-theoretic literature yet. 
 
 ## Definition ##
 
-An extensional category $C$ is a [[evaluational category]] such that for morphisms $f \colon Hom(A,B)$ and $g \colon Hom(A,B)$, if $f(x) = g(x)$ for all [[elements]] $x \colon El(A)$, then $f = g$. 
+An extensional category $C$ is a [[concrete category]] such that for morphisms $f \colon Hom(A,B)$ and $g \colon Hom(A,B)$, if $f(x) = g(x)$ for all [[elements]] $x \colon El(A)$, then $f = g$. 
 
 ### From scratch ###
 
@@ -73,7 +73,7 @@ Thus, these axioms form a [[category]].
 
 The category [[Set]] of sets and functions is both extensional and well-pointed. However, not every [[well-pointed category]] is an extensional category, as well-pointed categories are not required to be [[concrete categories]]. Moreover, not every extensional category is a [[well-pointed category]]: the category $Field$ of [[fields]] and field [[homomorphisms]] is extensional, but is not well-pointed because it doesn't have a [[terminal object]]. 
 
-The distinction between extensionality and well-pointedness is the distinction between [[elements]] and [[global elements]] in a concrete evaluational category with a [[terminal object]], as it is not true that elements and global elements (if they exist) coincide in general. 
+The distinction between extensionality and well-pointedness is the distinction between [[elements]] and [[global elements]] in a concrete category with a [[terminal object]], as it is not true that elements and global elements (if they exist) coincide in general. 
 
 
 ## Examples ##
@@ -114,7 +114,6 @@ The distinction between extensionality and well-pointedness is the distinction b
 
 * [[function extensionality]]
 * [[concrete category]]
-* [[evaluational category]]
 * [[well-pointed category]]
 * [[Set]]
 
