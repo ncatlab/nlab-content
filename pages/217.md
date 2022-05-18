@@ -86,15 +86,10 @@ The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETC
 * Todd Trimble, _ETCS: Building joins and coproducts_
 ([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
 
-## ETCS as a concrete category
-
-This exposition of ETCS presents the category of sets as a [[concrete category]], where the elements of sets are included as basic structure in the model of ETCS, rather than merely being represented by the [[global elements]] out of the [[terminal object|terminal]] set. 
-
-* [[a concrete model of ETCS]]
-
 ## Related entries
 
 * [[fully formal ETCS]]
+* [[ETCS with elements]]
 * [[structural set theory]]
 * [[ZFC|Zermelo Fraenkel set theory]]
 * [[Cohesive Toposes and Cantor's "lauter Einsen"]]
