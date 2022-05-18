@@ -71,6 +71,8 @@ In short, a crystallographic groups is exhibited by an inclusion of [[short exac
 
 If the crystallographic [[short exact sequence]] on the left of (eq:CrystallographicInclusionOfShortExactSequences) [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, then $S$ is called a **symmorphic space group**.
 
+The [[conjugacy class of a subgroup|conjugacy class]] of a crystallographic group (under [[conjugation]] by [[O(n)]]) represents the *[[Braivais lattice]]* of the corresponding crystal lattice.
+
 ## Properties
 
 ### Classification
@@ -140,6 +142,8 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 * [[symmetry group]]
 
 * [[Brillouin torus]]
+
+* [[Bravais lattice]]
 
 * [[topological crystalline insulator]]
 
