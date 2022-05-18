@@ -38,6 +38,8 @@ This issue is well and widely known in the [[particle physics]]-community, see f
 
 * [[confinement]]
 
+* [[mass term]]
+
 * [[gapped Hamiltonian]]
 
 
