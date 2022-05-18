@@ -81,6 +81,8 @@ With focus on the case [[symmetry protected topological phase|protected by]] [[c
 
 * [[Yoichi Ando]], [[Liang Fu]], *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 $[$[arXiv:1501.00531](https://arxiv.org/abs/1501.00531), [doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501)$]$
 
+* [[Tanmoy Das]], *A pedagogic review on designing model topological insulators*, Journal of the Indian Institute of Science **96** 77-106 (2016) $[$[arXiv:1604.07546](https://arxiv.org/abs/1604.07546), [ISSN:0970-4140](http://journal.library.iisc.ernet.in/index.php/iisc/article/view/4606)$]$
+
 
 
 Textbook account:
