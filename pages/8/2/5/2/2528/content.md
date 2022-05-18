@@ -71,7 +71,7 @@ The sets defined by Bishop as a preset with an equivalence relation do not have 
 
 ### In category theory
 
-One may hope to formalise the category of presets and prefunctions between presets, but unfortunately, presets and prefunctions do not form a category. Instead, they only form a [[concrete category|concrete]] [[evaluational category|evaluational]] [[magmoid]]. 
+One may hope to formalise the category of presets and prefunctions between presets, but unfortunately, presets and prefunctions do not form a category. Instead, they only form a [[magmoid]]. 
 
 ### In type theory
 
@@ -95,8 +95,6 @@ To make the [[principle of equivalence]] hold automatically, a [[category]] shou
 
 * [[Bishop set]], [[predicative topos]]
 
-* [[evaluational category]], [[extensional category]]
-
 * [[prefunction]]
 
 [[!redirects preset]]
@@ -109,4 +107,4 @@ To make the [[principle of equivalence]] hold automatically, a [[category]] shou
 [[!redirects pre-relation]]
 [[!redirects pre-relations]]
 
-[!include types and logic - table]
+[[!include types and logic - table]]
