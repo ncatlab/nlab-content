@@ -38,17 +38,17 @@ Therefore semi-metals with such non-trivial Berry phases are examples of [[topol
 
 ## Properties
 
-### Phase decay via mass terms?
+### Phase decay via mass terms
  {#MassTerms}
 
 Near nodal points in the Brillouin torus of a semi-metal, the [[dispersion 
 relation]] $k \mapsto E(
 k)$ exhibited by the [[energy bands]] is thought to be approximated by that of a massless [[Dirac equation|Dirac equation]]/[[Weyl spinor|Weyl equation]], whence the terminology *Dirac point* or *Weyl point*.
 
-When the material's parameters can be and are [[quantum adiabatic theorem|adiabatically]] tuned such that this [[dispersion relation]] turns into a *massive* [[Dirac equation]], then the band gap at the former nodal crossing will "open up" in proportion to the [[coefficient]] $m$ of the effective *mass term* $m \gamma_0$ in the Dirac equation. If this happens to all nodal points (while keeping the band gap open everywhere else), one expects that the topological semi-metal phase decays into a [[topological insulator]]-phase.
+When the material's parameters can be and are [[quantum adiabatic theorem|adiabatically]] tuned such that this [[dispersion relation]] turns into a *massive* [[Dirac equation]], then the band gap at the former nodal crossing will "open up" in proportion to the [[coefficient]] $m$ of the effective *[[mass term]]* $m \gamma_0$ in the Dirac equation. If this happens to all nodal points (while keeping the band gap open everywhere else), one expects that the topological semi-metal phase decays into a [[topological insulator]]-phase.
 
 
-A necessary condition for such a *mass term* to exist at all is that a further [[Clifford algebra|Clifford generator]] $\gamma_0$ is represented on the Bloch-Hilbert space of electrons such that it skew-commutes with all [[Feynman slash notation|Clifford momenta]] $k\!\!\!/$ (e.g. [Schnyder 18, Sec. II.A](#Schnyder18), [Schnyder 20, Sec. 2.1](#Schnyder20), see also [Freed & Hopkins 21, around Lem. 9.55](#FreedHopkins21)). 
+A necessary condition for such a *[[mass term]]* to exist at all is that a further [[Clifford algebra|Clifford generator]] $\gamma_0$ is represented on the Bloch-Hilbert space of electrons such that it skew-commutes with all [[Feynman slash notation|Clifford momenta]] $k\!\!\!/$ (e.g. [Schnyder 18, Sec. II.A](#Schnyder18), [Schnyder 20, Sec. 2.1](#Schnyder20), see also [Freed & Hopkins 21, around Lem. 9.55](#FreedHopkins21)). 
 
 \begin{imagefromfile}
     "file_name": "MassTermsForSemiMetalNodalPoints-220517.jpg",
@@ -68,16 +68,11 @@ By [[Karoubi K-theory|Karoubi/Atiyah-Singer-type theorems]], such gap-opening ma
 
 Beware: 
 
-1. This means that the topological *semi-metal*-phase must be classified in a group *modulo* the K-group of mass terms (cf. [Freed & Hopkins 21, Thm. 9.63](#FreedHopkins21)). The K-group of mass terms itself at best classifies aspects of the [[topological insulator]]-phase that the semi-metal phase may decay to.
+1. This means that the topological *semi-metal*-phase must be classified in a group *modulo* the group of [[mass terms]] (cf. [Freed & Hopkins 21, Thm. 9.63](#FreedHopkins21)). The K-group of mass terms itself at best classifies aspects of the [[topological insulator]]-phase that the semi-metal phase may decay to.
 
-1. The argument about single mass terms in a K-theory group of a point ignores the global topology of the valence bundle.
+1. The argument about single [[mass terms]] in a K-theory group of a point ignores the global topology of the valence bundle.
 
-   For example, 
-
-   1. In examples the total topological charge of all nodal points combined is typically constrained to vanish (in the absence of Zak phases).
-
-   1. In the concrete example of the [[Haldane model]], there is an explicit $k$-dependence of the mass term, see [DTC](#DelftTopologyCourse): [First try](https://topocondmat.org/w4_haldane/haldane_model.html#first-try), [Second try](https://topocondmat.org/w4_haldane/haldane_model.html#second-try).
-
+   This is manifest already in the canonical example of the [[Haldane model]], where for *constant* mass terms (as usually understood) the total topological charge of all nodal points combined is constrained to vanish.
 
 
 ## Examples
