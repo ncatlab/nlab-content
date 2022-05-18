@@ -28,15 +28,17 @@ A _concrete category_ is a [[category]] that looks like a category of "[[set]]s 
 
 +-- {: .num_defn}
 ###### Definition
-Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a __concrete category__ if there is a set of elements $El(C)$ with a function $o:El(C) \to Ob(C)$. 
+Given a category $C$ with a type of objects $Ob(C)$ and a set of morphisms $Mor(C)$ with source and target functions $s:Mor(C) \to Ob(C)$ and $t:Mor(C) \to Ob(C)$, $C$ is a __concrete category__ if there is a set of elements $El(C)$ with a function $o:El(C) \to Ob(C)$ ...
 =-- 
 
 ### With a family of collection of elements
 
 +-- {: .num_defn}
 ###### Definition
-Given a category $C$ with a type of objects $Ob(C)$ and for every object $a:Ob(C)$ and $b:Ob(C)$ a set of morphisms $Mor_C(a, b)$, $C$ is a __concrete category__ if for every object $a:Ob(C)$ there is a set of elements $El_C(a)$. 
+Given a category $C$ with a type of objects $Ob(C)$ and for every object $a:Ob(C)$ and $b:Ob(C)$ a set of morphisms $Mor_C(a, b)$, $C$ is a __concrete category__ if for every object $a:Ob(C)$ there is a set of elements $U(a)$ and for every object $a:Ob(C)$ and $b:Ob(C)$, there is an [[injection]] $i_{a,b} \colon Hom(a,b) \to (U(a) \to U(b))$. 
 =-- 
+
+Because [[Set]] is a [[cartesian closed category]], currying $f_{a,b}$ in [[Set]] means that there is an [[evaluation map]] $(-)((-))\colon Hom(a,b) \times El(a) \to El(b)$ such that for every morphism $f \colon Hom(A,B)$ and $g \colon Hom(B,C)$ and every element $x:U(A)$, $(g \circ f)(x) = g(f(x))$ and $id_A(x) = x$. Similarly, since [[Set]] is well-pointed, 
 
 ### With a functor into Set
 
@@ -92,6 +94,39 @@ But if for example $E$ is the category of sheaves over $\mathbb{R}$, then no obj
 
 * A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]]. The category of [[concrete sheaves]] on a concrete site is concrete. 
 
+Other examples: 
+
+* The category $Mon$ of [[monoids]] and monoid [[homomorphisms]] is a concrete category. 
+
+* The category $Ab$ of [[abelian groups]] and abelian group homomorphisms is a concrete category. 
+
+* Given a commutative ring $R$, the category $R Mod$ of $R$-[[modules]] and $R$-[[linear maps]] is a concrete category. 
+
+* Given a commutative ring $R$, the category $R Alg$ of $R$-[[algebras]] and $R$-algebra homomorphisms is a concrete category. 
+
+* The category $CRing$ of [[commutative rings]] and commutative ring homomorphisms is a concrete category. 
+
+* The category $Field$ of [[fields]] and field homomorphisms is a concrete category. 
+
+* The category $HeytAlg$ of [[Heyting algebras]] and Heyting algebra homomorphisms is a concrete category. 
+
+* The category $Frm$ of [[frames]] and frame homomorphisms is a concrete category. 
+
+* The category $Conv$ of [[convergence spaces]] and [[continuous functions]] is a concrete category. 
+
+* The category $Top$ of [[topological spaces]] and continuous functions is a concrete category. 
+
+* The category $Met$ of [[metric spaces]] and [[isometries]] is a concrete category. 
+
+* The category $StrictCat$ of [[strict categories]] and [[strict functors]] is a concrete category. 
+
+## Non-examples ##
+
+* The category $Rel$ of sets and [[relations]] is not a concrete category, because the functor $U:Rel \to Set$ is not [[faithful functor|faithful]]. 
+
+* For the same reason, given a concrete [[regular category]] $C$, the category $Rel(C)$ of objects of $C$ and [[congruences]] between objects of $C$ is not concrete. 
+
+* The category $Set_\bot$ of sets and [[partial functions]] is not a concrete category. 
 
 ## Properties 
 
@@ -148,7 +183,6 @@ A similar way to use Isbell's result applies to show that a really vast number o
 * [[concrete object]]
 * [[amnestic functor]]  (for many usual concrete categories, the forgetful functor happens to be amnestic)
 * [[concrete (2,1)-category]]
-* [[evaluational category]]
 
 ## References
 
