@@ -17,6 +17,10 @@ In categorical set theories such as [[ETCS]], the set theory is usually a theory
 
 There are other [[structural set theories]], such as [[SEAR]], which explicitly put in the elements of a set as a primitive of the theory: this is equivalent to saying that the category is an [[concrete category]] rather than an abstract category. In such a presentation involving sets and functions, function evaluation would be a primitive of the theory, rather than derived from function composition of [[global elements]], and the axiom of function extensionality is likewise defined directly on the elements. The presentation of such a concrete categorical set theory reads more like a traditional presentation of set theory in terms of sets and elements, rather than category theory. 
 
++--{: .query}
+I may not agree that "concrete" is the right word for this.  Anonymous page creator, please come discuss at the [nForum page](https://nforum.ncatlab.org/discussion/14245/?Focus=98758). --[[Mike Shulman]].
+=--
+
 In this presentation, we will be adapting [[Tom Leinster]]'s presentation of ETCS to the concrete setting. 
 
 ## Basic primitives ##
