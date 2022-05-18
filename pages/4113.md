@@ -93,17 +93,17 @@ Similarly [[normal spaces]] are equivalently those such that every [[locally fin
 
 Slightly more generally,
 a [[topological space]] (not necessarily Hausdorff)
-is [[fully normal]] if and only every [[open cover]] admits a subordinate partition of unity.
+is [[fully normal topological space|fully normal]] if and only every [[open cover]] admits a subordinate partition of unity.
 
-A [[T1-space]] is [[fully normal]] if and only if it is [[paracompact]],
+A [[T1-space]] is [[fully normal topological space|fully normal]] if and only if it is [[paracompact]],
 in which case it is also Hausdorff.
 
 For [[topological spaces]] that are not [[T1-spaces]],
-the condition of being [[fully normal]] is strictly stronger than [[paracompactness]].
+the condition of being [[fully normal topological space|fully normal]] is strictly stronger than [[paracompactness]].
 
 ### The case of locales
 
-A [[regular locale]] is [[fully normal]] if and only if it is [[paracompact]].
+A [[regular locale]] is [[fully normal topological space|fully normal]] if and only if it is [[paracompact]].
 
 The usual proof of the existence of partitions of unity
 goes through for such locales since it does not make any use of points.
