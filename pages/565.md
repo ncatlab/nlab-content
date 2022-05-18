@@ -74,6 +74,8 @@ One can also consider concrete categories over any base category $X$ instead of 
 
 ## Examples
 
+* Any small category $C$ can be made into a concrete category by setting $U(X)$ to be the set of all arrows with codomain $X$, and $U(X \to Y)$ given by composition with $X \to Y$. This can be generalized to any locally small category with a small [[separator]].
+
 The following furnish examples of concrete categories, with the first three representably concrete: 
 
 * $C = Set$ itself with [[separator]] $c_0 = \{\bullet\}$ the singleton set. 
@@ -120,13 +122,13 @@ Other examples:
 
 * The category $StrictCat$ of [[strict categories]] and [[strict functors]] is a concrete category. 
 
+* The category $Set_\bot$ of sets and [[partial functions]] is a concrete category when equipped with the functor $U(X) = X \amalg \{ * \}$ that adds a disjoint point, and sends a partial function to the total function whose undefined values are set to the point.
+
 ## Non-examples ##
 
 * The category $Rel$ of sets and [[relations]] is not a concrete category, because the functor $U:Rel \to Set$ is not [[faithful functor|faithful]]. 
 
 * For the same reason, given a concrete [[regular category]] $C$, the category $Rel(C)$ of objects of $C$ and [[congruences]] between objects of $C$ is not concrete. 
-
-* The category $Set_\bot$ of sets and [[partial functions]] is not a concrete category. 
 
 ## Properties 
 
