@@ -7,6 +7,8 @@
 
 ## Related concepts
 
+* [[curve]]
+
 * [[singularity]]
 
 * [[Deligne-Mumford compactification]]
