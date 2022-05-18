@@ -1,6 +1,6 @@
 
 
-> For *[[Haldane phase]]* see instead at *[[Heisenberg model]]*.
+> For the *[[Haldane phase]]* see instead at *[[Heisenberg model]]*.
 
 ***
 
@@ -20,14 +20,13 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-dimensional [[Chern insulators]] (as [[topological phase of matter]] "without [[symmetry protected topological phase|symmetry protection]]") obtained by starting with a simple [[model (in theoretical physics)|model]] for a [[graphene]]-like 2d [[semi-metal]] and then adding an [[interactions]] (similar to [[spin-orbit coupling]]) or [[mass term]] which [[symmetry breaking|break]] the [[time-reversal symmetry]] and spatial inversion symmetry.
+In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-[[dimension of a manifold|dimensional]] [[crystalline topological insulator|crystalline]] [[Chern insulators]] (ie. [[topological phases of matter]] "without [[symmetry protected topological phase|symmetry protection]]") obtained by starting with a simple [[model (in theoretical physics)|model]] for a [[graphene]]-like 2d [[semi-metal]] and then adding a [[mass term]] and [[interactions]] (similar to [[spin-orbit coupling]]) which [[symmetry breaking|break]] the [[time-reversal symmetry]] and the [[crystallographic point group|spatial inversion symmetry]].
 
 ## Definition
 
@@ -37,7 +36,7 @@ Consider the [[honeycomb lattice|honeycomb crystal lattice]] and consider the fo
 
 \begin{imagefromfile}
     "file_name": "HoneycombCrystalLattice.jpg",
-    "width": 420,
+    "width": 310,
     "unit": "px",
     "margin": {
         "top": -10,
@@ -91,7 +90,7 @@ Consider now also the following next-to-mearest neighbour site vectors $b_i \in 
 
 \begin{imagefromfile}
     "file_name": "NextNearNeighbSitesInHoneycLattice-220518.jpg",
-    "width": 330,
+    "width": 170,
     "unit": "px",
     "margin": {
         "top": -10,
@@ -135,7 +134,7 @@ where
 
 1. the sum is now over the above three next-to-nearest neighbour site vectors $b_i$.
 
-Notice that (only) for $t_2 = 0$ this reduces to the deformation by a *constant* mass term (which is often understood as the default meaning of "mass term"):
+Notice that (only) for $t_2 = 0$ this reduces to the deformation by a *constant* mass term (which is often understood as the default meaning of "[[mass term]]"):
 
 
 \[
@@ -172,22 +171,31 @@ Notice that (only) for $t_2 = 0$ this reduces to the deformation by a *constant*
 
 ### Phase diagram
 
-As the parameter $t_2$  in (eq:HaldaneHamiltonian) increases from 0, the Haldane model passes, consecutively,  through
+First of all, the Haldane model 
 
-1. at $t_2/M = 0$, where the *mass term is constant* (eq:HaldaneHamiltonianForConstantMassTerm), a *topologically trivial* [[insulator]]-phase with [[Berry curvature]] concentrated (see [below](#BerryCurvature)) around the would-be nodal points of the [[graphene]]-like [[semi-metal]] phase which has been gapped out by the constant mass term;
+* at *M = 0* constitutes a non-trivial [[graphene]]-like [[topological semi-metal]]-phase with *two* Dirac points.
+  
+For $M \neq 0$ and as the parameter $t_2$  (eq:HaldaneHamiltonian) increases, the Haldane model passes, consecutively,  through
 
-1. at ...
+1. at $0 \leq t_2/M \lt \frac{1}{3 \sqrt{3}}$ -- in particular where the *mass term is constant* (eq:HaldaneHamiltonianForConstantMassTerm) at $t_2 = 0$ --, a *topologically trivial* [[insulator]]-phase with [[Berry curvature]] concentrated (see [below](#BerryCurvature)) around the would-be Dirac points of the [[graphene]]-like [[semi-metal]] phase which has been gapped out by the constant [[mass term]];
+
+1. at $t_2/M = \frac{1}{3 \sqrt{3}} \sim 0.19$ a non-trivial [[topological semi-metal]]-phase with a *single* band node;
+
+1. at $\frac{1}{3\sqrt{3}} \lt t_2/M$ a *non-trivial* [[topological insulator]]-phase. 
+ 
+   This is the non-trivial *[[Chern insulator]]*-phase of the Haldane model.
+
 
 ### Berry curvature
  {#BerryCurvature}
 
-A curious property of the Haldane model, not shared by all [[Chern insulators]] in general, is that its [[Berry curvature]] is strongly localized around the nodal [[Dirac points]], hence that the [[Berry connection]] is essentially [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the nodal points.
+A curious property of the Haldane model, possibly not shared by all 2d [[Chern insulators]], is that its [[Berry curvature]] is strongly localized around the (would-be) nodal [[Dirac points]], hence that the [[Berry connection]] is essentially [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the (would-be) nodal points.
 
 (eg. [Atteia 16, Sec. 2-3.4, p. 4](#Atteia16), [DTC](#DTC) [here](https://topocondmat.org/w4_haldane/haldane_model.html#gap-closings-are-sources-of-berry-curvature))
 
 \begin{imagefromfile}
     "file_name": "BerryCurvatureInHaldaneModelFromAtteia-220518.jpg",
-    "width": 700,
+    "width": 620,
     "unit": "px",
     "margin": {
         "top": -20,
@@ -198,12 +206,11 @@ A curious property of the Haldane model, not shared by all [[Chern insulators]] 
     "caption": "(from [Atteia 16, Fig. 2.7](#Atteia16))"
 \end{imagefromfile}
 
-Concretely, the above graphics shows the Berry curvature in the Haldane model for constant mass term, hence in the case that the mass term patameter "$t$" vanishes:
-
+Concretely, the above graphics shows the Berry curvature in the Haldane model for constant mass term, hence in the case that the mass term patameter "$t_2$" vanishes:
 
 \begin{imagefromfile}
     "file_name": "BerryCurvatureInHaldaneModelFromDTC-220518.jpg",
-    "width": 400,
+    "width": 340,
     "unit": "px",
     "margin": {
         "top": -10,
@@ -214,8 +221,24 @@ Concretely, the above graphics shows the Berry curvature in the Haldane model fo
     "caption": "(from [DTC](#DTC))"
 \end{imagefromfile}
 
+Since blue and red coloring denotes [[Berry curvature]] of opposite [[sign]], the figure makes it plausibly manifest that the integrated [[Berry curvature]] -- and thus the [[first Chern class|first Chern number]] of the [[valence bundle]] -- *vanishes* for $M \neq 0$, $t_2 = 0$. This is the statement that the [[Chern insulator]]-phase of the Haldane model at $t_2 = 0$ is topologically trivial.
 
+In constract, as $t_2/M \gt \frac{1}{3 \sqrt{3}}$, the [[Berry curvature]] is still concentrated around the would-be Dirac points, but now it has the same sign everywhere:
 
+\begin{imagefromfile}
+    "file_name": "PosBerryCurvInHaldaneModelFromDTC-220518.jpg",
+    "width": 340,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [DTC](#DTC))"
+\end{imagefromfile}
+
+This makes it clear that the [[integration|integral]] of the [[Berry curvature]] over the [[Brillouin torus]] -- hence the [[first Chern class|first Chern number]] of the [[valence bundle]] -- is [[positive number|positive]] in this phase. This is the statement that the [[Chern insulator]]-phase of the Haldane model at $t_2/M \gt \frac{1}{3\sqrt{3}}$ is non-trivial.  
 
 
 ## Related concepts
@@ -228,7 +251,7 @@ Concretely, the above graphics shows the Berry curvature in the Haldane model fo
 
 The original article:
 
-* [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015 $[$[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)$]$
+* [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015-2018 $[$[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)$]$
 
 see also 
 
@@ -239,14 +262,14 @@ Review:
 
 * Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) $[$[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)$]$
 
+* {#Atteia16} [[Jonathan Atteia]], *Topology and electronic transport in Dirac systems under irradiation* (2016) $[$[tel:02426217](https://tel.archives-ouvertes.fr/tel-02426217), [pdf](https://tel.archives-ouvertes.fr/tel-02426217/document)$]$
+
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
 * {#DTC} Delft Topology Course team, *[Haldane model, Berry curvature, and Chern number](https://topocondmat.org/w4_haldane/haldane_model.html#first-try)*
 
 
-See also:
 
-* {#Atteia16} Jonathan Atteia, *Topology and electronic transport in Dirac systems under irradiation* (2016) $[$[tel:02426217](https://tel.archives-ouvertes.fr/tel-02426217), [pdf](https://tel.archives-ouvertes.fr/tel-02426217/document)$]$
 
 Realization in [[experiment]]:
 
