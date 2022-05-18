@@ -55,7 +55,7 @@ expressing  _[[function application]]_. On [[propositions]] ([[(-1)-truncation|(
 
 ## See also
 
-* [[evaluational category]] (for the external concrete version)
+* [[concrete category]] (for the external version)
 
 [[!redirects evaluation]]
 [[!redirects evaluation maps]]
