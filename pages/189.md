@@ -162,6 +162,8 @@ In [[dependent type theory]] with [[type of types|universes]], a [[type]] equipp
 
 ## Related concepts
 
+* [[quiver representation]]
+
 * [[McKay quiver]], [[McKay correspondence]]
 
 * [[quiver gauge theory]]
