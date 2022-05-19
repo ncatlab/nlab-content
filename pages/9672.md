@@ -48,6 +48,8 @@ which by condition (1) implies that every simply-typed term is strongly normaliz
 ## Related concepts
 
 * [[programming language]], [[computer science]]
+* [[synthetic Tait computability]]
+* [[parametricity]]
 
 ## References
 
