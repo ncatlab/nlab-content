@@ -193,6 +193,13 @@ For example the __symmetric closure__ $sym: EndoRel \to EndoSym$ will (possibly)
 
 In addition to being reflective, the categories from the _symmetric_, _reflexive_, and _symmetric and reflexive_  closures are also quasitoposes that can be [[quasitopos#exampsep|directly defined]] through  double negation separation. The _symmetric and reflexive_ closure ([[category of simple graphs|SimpGph]]) is also a [[quasitopos|Grothendieck quasitopos]]. On the other hand $PreOrd$ is not a quasitopos because it is not a [[regular category]].
 
+## Ternary relations 
+
+Apart from binary relations, there are important ternary relations used in mathematics, which for the most part are [[families]] of binary relations indexed by a third set:
+
+* [[uniformity]], where the index set is the set of [[entourages]]. 
+* [[premetric]], where the index set is the set of [[real numbers]], or in some cases, the set of [[rational numbers]]. 
+
 ## Generalisation
  {#Generalization}
 
