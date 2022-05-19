@@ -1,6 +1,4 @@
 [[!redirects category of filters on sets]]
-[[!redirects filter]]
-[[!redirects filter]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -76,3 +74,6 @@ A map of topological spaces is continuous iff it induces continuous maps of neig
 
 In a [[metric space]] $M$, a filter $\mathfrak{F}$ on $M$ is __Cauchy__ if it has elements of arbitrarily small diameter, i.e. the map $\mathfrak{F}\times \mathfrak{F}\to S\times S$ is continuous with respect to the uniformity (filter) on $S\times S$.  Then a [[sequence]] is a [[Cauchy sequence]] iff its eventuality filter is Cauchy, i.e. it induces a continuous map of certain filters.  This gives a diagram chasing meaning to the concept of completion of a metric space.
 
+## See also 
+
+* [[filter]]
