@@ -168,6 +168,8 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[premetric space]]
 
+* [[enriched poset]]
+
 [[!include generalized uniform structures - table]]
 
 
