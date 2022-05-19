@@ -268,6 +268,8 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 * [[Bénabou cosmos]]
 
+* [[enriched poset]]
+
 * [[enriched presheaf]]
 
 * [[enriched monad]]
