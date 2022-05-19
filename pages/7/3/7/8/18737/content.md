@@ -36,6 +36,10 @@ Both models validate [[univalence]] (like the BCH model) and can be used to mode
 
 Cubical type theory can be modeled in a number of varieties of [[cubical sets]], for example in a [[type-theoretic model structure]].
 
+## Related concepts
+
+* [[synthetic Tait computability]]
+
 ## References
 
 Introductory lecture notes:
