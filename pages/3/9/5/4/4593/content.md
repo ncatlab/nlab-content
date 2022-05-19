@@ -117,7 +117,7 @@ The identification of universal/existential quantification with [[adjoints]] of 
 
 * [[William Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](https://pdfs.semanticscholar.org/6630/846a00261a071b71e264e0f532e29cd9152f.pdf))
 
-A definition of guarded quantification (though called "bounded quantification" in the article) for the membership relation could be found in 
+A definition of guarded and bounded quantification for the membership relation could be found in 
 
 * [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 
