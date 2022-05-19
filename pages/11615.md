@@ -56,7 +56,7 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 ## Relation to constructivism 
 
-Synthetic approaches are naturally compatible with [[constructive mathematics]]/[[intuitionistic mathematics]], but synthetic mathematics is about a different issue than constructivism. For instance even most constructive [[proof assistants]] in existence have in their libraries defined basic mathematics concepts, such as topological spaces, in the traditional analytic way.
+Synthetic approaches are naturally compatible with [[constructive mathematics]]/[[intuitionistic mathematics]], but [[synthetic mathematics]] is about a different issue than [[constructivism]]. For instance even most constructive [[proof assistants]] in existence have in their libraries defined basic mathematics concepts, such as [[topological spaces]], in the traditional analytic way.
 
 
 ## Relation to computer science
@@ -71,11 +71,13 @@ There is at least some similarity between synthetic mathematics and [[domain spe
 
 ### General
 
+
 See also 
+
+* [[Andrej Bauer]], _Synthetic Mathematics with an Excursion Into Computability Theory_, 2021 ([slides and video](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/))
 
 * Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
 
-* [[Andrej Bauer]], _Synthetic Mathematics with an Excursion Into Computability Theory_, 2021 ([slides and video](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/))
 
 
 ### Synthetic homotopy theory
