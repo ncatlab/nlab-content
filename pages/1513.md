@@ -157,8 +157,7 @@ $$
 
 ### Definition
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}\label{Biseparated}
 
 A **bisite** is a [[small category]] $S$ equipped with two [[coverage]]s: $J$ and $K$ such that $J \subset K$.
 
@@ -174,22 +173,26 @@ $$
 $$ 
 for the full [[subcategory]] on biseparated presheaves.
 
-=--
+\end{definition}
 
 
 ### Examples
+ {#Examples}
 
-[[Diffeological spaces]] are biseparated presheaves
-for the bisite structure on [[cartesian spaces]],
-where $J$ is the usual topology of open covers
-and $K$ is the topology given by the families
-$$\coprod_{u\in U}\mathbf{R}^0 \to U$$
+\begin{example}\label{DiffeologicalSpaces}
+[[diffeological space|Diffeological spaces]] are biseparated presheaves (Def. \ref{Biseparated}) for the bisite structure on [[cartesian spaces]], where $J$ is the usual topology of open covers and $K$ is the topology given by the families
+
+$$
+  \coprod_{u\in U}
+  \mathbf{R}^0 
+    \longrightarrow 
+  U
+$$
+
 for every [[cartesian space]] $U$.
 
-The [[sheaf]] condition with respect to $J$ yields a [[smooth set]],
-whereas the [[separated presheaf]] condition with respect to $K$
-makes it into a [[diffeological space]].
-
+The [[sheaf]] condition with respect to $J$ yields a [[smooth set]], whereas the [[separated presheaf]] condition with respect to $K$ makes it into a [[diffeological space]].
+\end{example}
 
 ### Properties
 
@@ -224,8 +227,7 @@ The general theory of biseparated presheaves and Grothendieck quasitoposes is in
 
 A concrete description of separafication appears on page 43 of
 
-* [[Angelo Vistoli]], _Notes on Grothendieck topologies,
-fibered categories and descent theory_ ([pdf](http://homepage.sns.it/vistoli/descent.pdf#Page=43))
+* [[Angelo Vistoli]], _Notes on Grothendieck topologies, fibered categories and descent theory_ ([pdf](http://homepage.sns.it/vistoli/descent.pdf#Page=43))
 
 category: sheaf theory
 
