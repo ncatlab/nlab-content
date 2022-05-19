@@ -18,7 +18,9 @@
 
 ### For modules over rings
 
-Given a [[ring]] $R$, an element $m$ in an $R$-[[module]] $M$ is **torsion element** if there is a nonzero element $r$ in $R$ such that $r m=0$. A **[[torsion module]]** is a module whose elements are all torsion. A [[torsion-free module]] is a module whose elements are not torsion, other than $0$. 
+Given a [[ring]] $R$, an element $m$ in an $R$-[[module]] $M$ is **torsion element** if there is a nonzero element $r$ in $R$ such that $r m=0$. In [[constructive mathematics]], given a [[ring]] $R$ with a [[tight apartness relation]] $\#$, an element $m$ in an $R$-[[module]] $M$ is a **torsion element** if there is a element $r$ in $R$ such that $r \# 0$ and $r m=0$. 
+
+A **torsion module** is a module whose elements are all torsion. A [[torsion-free module]] is a module whose elements are not torsion, other than $0$. 
 
 More generally, given an ideal $\mathfrak{a} \subset R$ then an $\mathfrak{a}$-torsion module is one all whose elements are annihilated by some power of elements in $\mathfrak{a}$.
 
