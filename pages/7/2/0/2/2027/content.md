@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -47,7 +57,9 @@ Of course, if the underlying set of the ring has [[decidable equality]] ---as is
 
 ## Properties
 
-An integral domain $R$ is an __[[Ore domain]]__ if the set of all nonzero elements is an [[Ore set]] in $R$. In that case the Ore localized ring is called the _[[Ore quotient ring]]_ of $R$.
+An integral domain $R$ is an __[[Ore domain]]__ if the set of all nonzero elements is an [[Ore set]] in $R$. In that case the Ore localized ring is called the _[[Ore quotient ring]]_ of $R$. 
+
+Every integral domain $R$ is a [[torsion-free module|torsion-free $R$-module]]. 
 
 ## Examples
 
@@ -64,6 +76,8 @@ In principle, one could just as easily consider a [[rig]] or [[semiring]] $R$.  
 * [[Dedekind domain]]
 
 * [[field]], [[field of fractions]]
+
+* [[torsion-free module]]
 
 * [[integral monoid]]
 
