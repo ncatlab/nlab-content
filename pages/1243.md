@@ -68,6 +68,57 @@ $$
   \,.
 $$ 
 
+### In monoids
+
+The situation with monoids is very similar to the situation with groups. 
+
+The **torsion subgroup** of a [[monoid]] $M \in $ [[Mon]] is the [[submonoid]] of all those [[elements]] $m \,\in\, M$ for which some power is the [[neutral element]]
+$$
+  m \in M \;\text{is torsion}
+  \;\;\;\;\;\;\Leftrightarrow\;\;\;\;\;\;
+  \underset{n \in \mathbb{N}}{\exists}
+  \;\;\;
+  m^n 
+  \;\coloneqq\;
+  \underset{
+    n\; factors
+  }{
+    \underbrace{
+      m \cdot m \cdots m
+    }
+  }
+  \,=\, \mathrm{e}
+  \,.
+$$ 
+
+Every such submonoid is a group, which is why the set of all such elements is called a torsion subgroup. 
+
+A monoid is 
+
+* *pure torsion* if it coincides with its torsion subgroup (and is thus the same as a pure torsion group), 
+
+* *torsion-free* if its torsion subgroup is [[trivial subgroup|trivial]].
+
+Notice that for [[commutative monoids]] $C \in $ [[CMon]], where the monoid operation is traditionally written as addition $+$ and the [[neutral element]] is written as zero, this reads:
+
+$$
+  c \in C \;\text{is torsion}
+  \;\;\;\;\;\Leftrightarrow\;\;\;\;\;
+  \underset{n \in \mathbb{N}}{\exists}
+  \;\;\;
+  n \cdot c 
+  \;\coloneqq\;
+  \underset{
+    n\; summands
+  }{
+    \underbrace{
+      c + c \cdots + c
+    }
+  }
+  \,=\, 0
+  \,.
+$$ 
+
 ### In modules 
 
 Given a [[ring]] $R$, an element $m$ in an $R$-[[module]] $M$ is a **torsion element** if there is a nonzero element $r$ in $R$ such that $r m=0$. In [[constructive mathematics]], given a [[ring]] $R$ with a [[tight apartness relation]] $\#$, an element $m$ in an $R$-[[module]] $M$ is a **torsion element** if there is a element $r$ in $R$ such that $r \# 0$ and $r m=0$. 
