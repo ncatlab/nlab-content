@@ -20,7 +20,7 @@ In generalization, one may speak of enriching posets over other [[monoidal poset
 
 ## Defintion ##
 
-Let $(M, \leq, \wedge, \top)$ be a [[monoidal poset]], such as a [[meet-semilattice]]. A **$M$-enriched [[poset]]** or **poset enriched over/in $M$** is a type $P$ with a [[binary function]] $o:P \times P \to M$ such that 
+Let $(M, \leq, \wedge, \top)$ be a [[monoidal poset]], such as a [[meet-semilattice]]. A **$M$-enriched [[poset]]** or **poset enriched over/in $M$** is a [[set]] $P$ with a [[binary function]] $o:P \times P \to M$ such that 
 
 * for every $a \in P$, $b \in P$, and $c \in P$, $o(a, b) \wedge o(b, c) \leq o(a, c)$
 
