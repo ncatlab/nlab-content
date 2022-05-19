@@ -50,7 +50,7 @@ The term 'representation' is most often used when one or more of the following c
 
 *  $D$ is the category $k$-[[Vect]] of vector spaces over some [[field]] $k$; one then has a __$k$-linear representation__.
 *  $C$ is the [[delooping]] of a [[group]]; one then has a __group representation__ in $D$.  Such a representation gives us a specific object $V$ of $D$; we say that we have a representation of $G$ on $V$.
-*  $C$ is the [[free category]] on a [[quiver]]; one then has a __quiver representation__.
+*  $C$ is the [[free category]] on a [[quiver]]; one then has a __[[quiver representation]]__.
 
 The classical [[representation theory]] of groups is about representations of (finite, topological, smooth etc.) groups on (topological) vector spaces, that is when the first two conditions apply. 
 
@@ -74,6 +74,7 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 * [[Galois representation]]
 
 * [[groupoid representation]]
+
 
 ## Related concepts
 
@@ -109,9 +110,11 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 [[!include homotopy type representation theory -- table]]
 
 
+
 ## References
 
-See the references at _[[representation theory]]_.
+See also the references at _[[representation theory]]_.
+
 
 [[!redirects representation]]
 [[!redirects representations]]
@@ -123,8 +126,3 @@ See the references at _[[representation theory]]_.
 [[!redirects representations of a group]]
 [[!redirects representations of groups]]
 
-[[!redirects quiver representation]]
-[[!redirects quiver representations]]
-[[!redirects representation of a quiver]]
-[[!redirects representations of a quiver]]
-[[!redirects representations of quivers]]
