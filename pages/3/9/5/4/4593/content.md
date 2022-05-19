@@ -72,16 +72,15 @@ We have already had an example of these on this page, in the discussion of the L
 When the notation for $Q$ makes the type $T$ obvious, and especially when the variable appears only at beginning in this notation, it is quite common to suppress mention of $T$ and write $\forall Q(x), P(x)$ and $\exists Q(x), P(x)$.  This is particularly common in untyped theories where $T$ would be suppressed anyway; for example, this is almost always how one writes guarded quantifiers in [[material set theory]].
 
 
-### Bounded quantification: size issues and predicativity
+### Bounded quantification: Size issues and predicativity
 
-When [[type theory]] is used as a [[foundation of mathematics]], we have a freely generated [[universe]] of types (see also at _[[type of types]]_) and can also consider quantification over these.  Similarly, when [[set theory]] is used as a foundation, we have a type of all sets and can consider quantification over this type.  Such quantification is called __unbounded__ and often forbidden in the [[axiom of separation]] (if it can be stated in the language at all), especially in [[predicative mathematics]] but also in some impredicative foundations, such as [[ETCS]].  Even if we allow unbounded quantification, if we wish to refer to large objects using the language of [[proper classes]], this introduces the possibility of quantification over all classes, and this is forbidden even in [[ZFC]] and [[SEAR]] (although it is allowed in Morse--Kelley class theory).
+When [[type theory]] is used as a [[foundation of mathematics]], we have a freely generated [[universe]] of types (see also at _[[type of types]]_) and can also consider quantification over these. Similarly, when [[set theory]] is used as a foundation, we have a type of all sets and can consider quantification over this type. Such quantification is called __unbounded__ and often forbidden in the [[axiom of separation]] (if it can be stated in the language at all), especially in [[predicative mathematics]] but also in some impredicative foundations, such as [[ETCS]]. Even if we allow unbounded quantification, if we wish to refer to large objects using the language of [[proper classes]], this introduces the possibility of quantification over all classes, and this is forbidden even in [[ZFC]] and [[SEAR]] (although it is allowed in Morse--Kelley class theory).
 
-In contrast, quantification over variables from *small* types (for a suitable notion of smallness) is called __bounded quantification__.
+In contrast, quantification over variables from *small* types (for a suitable notion of smallness) is called __bounded quantification__. 
 
 In the usual formulations of [[material set theory]], there is only one type (the type of sets), which is not small.  However, we can consider quantification over small subtypes using the trick of guarded quantification (above).  So the axiom of separation in so-called 'bounded' variations of ZFC allows only statements in which all quantifiers are guarded by a set.
 
 In classical mathematics, at least, formulas with unbounded quantifiers can be classified into the [[Lévy hierarchy]], whose bottom level $\Delta_0$ consists of the formulas with only bounded quantifiers.
-
 
 ### Internalised quantifiers
 
@@ -118,6 +117,9 @@ The identification of universal/existential quantification with [[adjoints]] of 
 
 * [[William Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](https://pdfs.semanticscholar.org/6630/846a00261a071b71e264e0f532e29cd9152f.pdf))
 
+A definition of guarded quantification (though called "bounded quantification" in the article) for the membership relation could be found in 
+
+* [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 
 [[!redirects quantifier]]
 [[!redirects quantifiers]]
