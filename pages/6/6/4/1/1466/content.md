@@ -55,7 +55,7 @@ A **uniform structure** or **uniformity** could be represented as a family of bi
 
 3. For every entourage $U \in S$, there exists an entourage $V \in S$ such that for every $x \in X$ and $y \in X$, if $x \approx_V y$, then $y \approx_U x$. 
 
-4. $S$ is inhabited. 
+4. There is an entourage $U \in S$ and elements $x \in X$ and $y \in X$ such that $x \approx_U y$. 
 
 5. If there are entourages $U \in S$ and $V \in S$, then there is an entourage $T \in S$ such that for every element $x \in X$ and $y \in X$, if $x \approx_T y$, then $x \approx_U y$ and $x \approx_V y$. 
 
