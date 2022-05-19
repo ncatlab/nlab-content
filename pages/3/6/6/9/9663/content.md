@@ -68,7 +68,7 @@ For $n \in \mathbb{N}_+$ consider the $\mathbb{A}_{n}$-quiver, hence with this u
 
 \begin{example}
 \label{IndecomposableRepsOfAn}
-The [[indecomposable object|indecomposable]] [[quiver representations]] of $\mathbb{A}_n$ are labeled by [[pairs]] $a,b \in \mathbb{N}^2$ with $1 \leq a \lt b \leq n$ and are given as follows (eg. [Oudot 15, p. 17](#Oudot15)):
+The [[indecomposable object|indecomposable]] [[quiver representations]] of $\mathbb{A}_n$ are labeled by [[pairs]] $a,b \in \mathbb{N}^2$ with $1 \leq a \lt b \leq n$ and are given as follows (see also [Carlsson & de Silva 2010](#CarlssonDeSilva10), reviewed in [Oudot 15, p. 17](#Oudot15)):
 
 \begin{tikzcd}[column sep = small, row sep=small]
   1
@@ -203,7 +203,8 @@ then its indecomposable representations are of this form:
 
 \begin{remark}
 \label{RelationToPersistencyModules}
-Example \ref{IndecomposableRepsOfAn} is of key relevance in the discussion of [[persistent homology]] (notably in [[topological data analysis]]): Here an $\mathbb{A}_n$-[[quiver representation]] is called a *[[persistence module]]* and the statement of Ex. \ref{IndecomposableRepsOfAn} is interpreted as saying that every persistence module is spanned by elements which
+Example \ref{IndecomposableRepsOfAn} is of key relevance in the discussion of [[persistent homology]] (notably in [[topological data analysis]]): 
+Here an $\mathbb{A}_n$-[[quiver representation]] is called a *[[persistence module]]* and the statement of Ex. \ref{IndecomposableRepsOfAn} is interpreted as saying that every persistence module is spanned by elements which
 
 * *appear* at some *resolution* $a$,
 
@@ -211,6 +212,7 @@ Example \ref{IndecomposableRepsOfAn} is of key relevance in the discussion of [[
 
 * *disappear* at some resolution $b$.
 
+This relation between quiver representation theory and persistent homolology was originally highlighted by [Carlsson & de Silva 2010](#CarlssonDeSilva10).
 \end{remark}
 
 
@@ -234,7 +236,11 @@ See also:
 
 * Wikipedia, _[Gabriel's theorem](http://en.wikipedia.org/wiki/Gabriel%27s_theorem)_
 
-Discussion in the context of [[persistent homology]]:
+Re-proof of Gabriel's theorem in the case of A-type quivers and relation to [[persistent homology]]:
+
+* {#CarlssonDeSilva10} [[Gunnar Carlsson]], [[Vin de Silva]], *Zigzag Persistence*, Found Comput Math **10** (2010) 367–405 $[$[arXiv:0812.0197](https://arxiv.org/abs/0812.0197), [doi:10.1007/s10208-010-9066-0](https://doi.org/10.1007/s10208-010-9066-0)$]$
+
+reviewed in:
 
 * {#Oudot15} [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015)
 $[$[ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/), [pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf)$]$
