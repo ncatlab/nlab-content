@@ -46,6 +46,20 @@ A set equipped with a uniform structure is called a **uniform space**.
 
 A collection of entourages satisfying (1--5) is a **[[base]]** for a uniformity; a base is precisely what generates a uniformity by taking the upward closure.  A collection satisfying (1--3) is a **preuniformity**; slightly more generally, we can replace each $V$ in the statement of these axioms with a finite [[intersection]] $V_1 \cap \cdots \cap V_n$ of entourages to get the concept of a **[[subbase]]** for a uniformity.  A subbase is precisely what generates a base by closing up under finite intersections and precisely what generates a uniformity by closing up under finite intersections and taking the upward closure.
 
+#### As a ternary relation
+A **uniform structure** or **uniformity** could be represented as a family of binary relations on a set $X$ indexed by a set $S$ of **entourages** or **vicinities**, or equivalently by [[currying]], as a ternary relation $(-)\approx_{(-)}(-):X \times S \times X \to \Omega$, where $\Omega$ is the set of [[truth values]], such that 
+
+1. for every entourage $U \in S$ and $x \in X$, $x \approx_U x$
+
+2. for every entourage $U \in S$, there exists an entourage $V \in S$ such that for every $x \in X$, $y \in X$, and $z \in X$, if $x \approx_V y$ and $y \approx_V z$, then $x \approx_U z$. 
+
+3. For every entourage $U \in S$, there exists an entourage $V \in S$ such that for every $x \in X$ and $y \in X$, if $x \approx_V y$, then $y \approx_U x$. 
+
+4. $S$ is inhabited. 
+
+5. If there are entourages $U \in S$ and $V \in S$, then there is an entourage $T \in S$ such that for every element $x \in X$ and $y \in X$, if $x \approx_T y$, then $x \approx_U y$ and $x \approx_V y$. 
+
+6. If there is an entourage $U \in S$, then there is an entourage $V \in S$ such that for all $x \in X$ and $y \in X$, if $x \approx_U y$, then $x \approx_V y$. 
 
 ### Covering uniformities {#ucov}
 
@@ -170,8 +184,6 @@ This makes the discussion of completions slightly simpler.
 If the symmetry axiom (3) in the entourage definition is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.  (It is rather triciker to define quasiuniform spaces in terms of covers, but technically possible using covers by pairs of sets; see [Gantner and Steinlage](#GS72).)
 
 A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space (necessarily uniformly regular) by taking one basic entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$; conversely, every uniform space arises in this way, with the pseudometrics in the gauge being those that are uniformly continuous as maps on the product space.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric spaces]] and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
-
-A __[[premetric space]]__ consists of a set $X$ and a ternary relation $\sim$ on $\mathbb{Q}_{+} \times S \times S$, which could be thought of as a collection of relations on $S$ indexed by the positive rational numbers. A premetric space defines a uniform space (necessarily uniformly regular) by taking one basic entourage for each positive rational number $\epsilon$; conversely, every uniform space arises in this way... 
 
 In weak [[foundations]] of mathematics, the theorems above may not be provable.  In particular, the theorem that every uniform space arises from a gauge space is equivalent (internal to an arbitrary [[topos]] with a [[natural numbers object]]) to [[dependent choice]] (plus [[excluded middle]] if you don\'t require the uniform space to be uniformly regular).  If the concept is to be applied to analysis, then it may be best to define a uniform space as a gauge space satisfying a saturation condition.
 
