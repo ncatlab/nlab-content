@@ -94,7 +94,7 @@ But if for example $E$ is the category of sheaves over $\mathbb{R}$, then no obj
 
 * A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]]. The category of [[concrete sheaves]] on a concrete site is concrete. 
 
-Other examples: 
+Many familiar examples of "sets with additional structure" provide examples of concrete categories where $U$ is the usual 'underlying set':
 
 * The category $Mon$ of [[monoids]] and monoid [[homomorphisms]] is a concrete category. 
 
@@ -120,15 +120,20 @@ Other examples:
 
 * The category $StrictCat$ of [[strict categories]] and [[strict functors]] is a concrete category. 
 
+There are other examples of concretizable categories where the objects are described as sets, but one cannot choose $U$ satisfying $U(X) = X$
+
 * The category $Set_\bot$ of sets and [[partial functions]] is a concrete category when equipped with the functor $U(X) = X \amalg \{ * \}$ that adds a disjoint point, and sends a partial function to the total function whose undefined values are set to the point.
+
+* The category $Rel$ of sets and [[relations]] has a separator given by the singleton set. Thus, it is a concrete category when equipped with the functor $U(X) = PowerSet(X)$, and $U(X \to Y)$ given by composition of relations (viewing a subset of $X$ as a relation on $X$). This is faithful since for any relation $\Phi \in Rel(X, Y)$ we have $(x,y) \in \Phi$ iff $y \in \Phi \circ \{x\}$.
 
 ## Non-examples ##
 
+* The [[classical homotopy category]] [[Ho(Top)]] of [[topological spaces]] is _not_ concretizable
+
+* The opposite category of [[commutative rings]] $CRing^{op}$ equipped with the [[prime spectrum]] functor $CRing^{op} \to Set$ is not concrete, since the prime spectrum is not faithful. This is one of the reasons for the use of [[scheme]]s in algebraic geometry.
+
 * The category $Prefunc$ of sets and [[prefunctions]] is not a concrete category. 
 
-* The category $Rel$ of sets and [[relations]] is not a concrete category, because the functor $U:Rel \to Set$ is not [[faithful functor|faithful]]. 
-
-* For the same reason, given a concrete [[regular category]] $C$, the category $Rel(C)$ of objects of $C$ and [[internal relations]] between objects of $C$ is not concrete. 
 
 ## Properties 
 
