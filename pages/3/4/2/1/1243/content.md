@@ -16,6 +16,12 @@
 ## Definition
  {#Definition}
 
+Torsion and torsion-free classes of objects in an [[abelian category]] were introduced axiomatically as a [[torsion theory]] (or torsion pair) in ([Dickson 1963](#Dickson63)).
+
+Beware that there are other, completely independent, concepts referred to as _[[torsion]]_. See there for more.
+
+### In groups
+
 The **torsion subgroup** of a [[group]] $G \in $ [[Grp]] is the [[subgroup]] of all those [[elements]] $g \,\in\, G$, which have [[finite number|finite]] [[order]], i.e. those for which  some power is the [[neutral element]]
 $$
   g \in G \;\text{is torsion}
@@ -62,12 +68,11 @@ $$
   \,.
 $$ 
 
+### In modules 
 
-Given a [[ring]] $R$, an element $m$ in an $R$-[[module]] $M$ is **torsion element** if there is a nonzero element $r$ in $R$ such that $r m=0$. A **[[torsion module]]** is a module whose elements are all torsion. A [[torsion-free module]] is a module whose elements are not torsion, other than $0$. 
+Given a [[ring]] $R$, an element $m$ in an $R$-[[module]] $M$ is a **torsion element** if there is a nonzero element $r$ in $R$ such that $r m=0$. In [[constructive mathematics]], given a [[ring]] $R$ with a [[tight apartness relation]] $\#$, an element $m$ in an $R$-[[module]] $M$ is a **torsion element** if there is a element $r$ in $R$ such that $r \# 0$ and $r m=0$. 
 
-Torsion and torsion-free classes of objects in an [[abelian category]] were introduced axiomatically as a [[torsion theory]] (or torsion pair) in ([Dickson 1963](#Dickson63)).
-
-Beware that there are other, completely independent, concepts referred to as _[[torsion]]_. See there for more.
+A **[[torsion module]]** is a module whose elements are all torsion. A [[torsion-free module]] is a module whose elements are not torsion, other than $0$. 
 
 ## Properties
 
