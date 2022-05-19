@@ -50,7 +50,7 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 * [[synthetic computability theory]]
 
-* [[synthetic Tait computability]]
+* {#SyntheticTaitComputatibility} [[synthetic Tait computability]]
 
 
 
