@@ -37,13 +37,24 @@ Recall the following fact about [[pre-abelian categories]] from [this propositio
 +-- {: .num_prop #DecompositionOfMorphisms}
 ###### Proposition
 
-Every [[morphism]] $f \colon A\to B$ in a [[pre-abelian category]] has a canonical decomposition
+Every [[morphism]] $f \colon A\to B$ in a [[pre-abelian category]] has a canonical de-[[composition]]
 
-$$
-  A\stackrel{p}\to \coker(\ker f)\stackrel{\bar{f}}\to\ker(\coker f)\stackrel{i}\to B
-$$
+\[
+  \label{PreImageFactorization}
+  A
+  \overset{\; p \;}{\twoheadrightarrow}
+  \coker\big(\ker f\big)
+  \xrightarrow{\; \overline{f} \;}
+  \ker\big(\coker(f)\big)
+  \xhookrightarrow{\; i \;}  
+  B
+\]
 
-where $p$ is a [[cokernel]], hence  an [[epimorphism|epi]], and $i$ is a [[kernel]], and hence [[monomorphism|monic]].
+where: 
+
+* $p$ is a [[cokernel]], hence  an [[epimorphism]], 
+
+* $i$ is a [[kernel]], hence a [[monomorphism]].
 
 =--
 
@@ -53,7 +64,7 @@ where $p$ is a [[cokernel]], hence  an [[epimorphism|epi]], and $i$ is a [[kerne
 
 An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
 
-1. For every [[morphism]] $f$, the canonical morphism $\bar{f} \colon coker(ker(f)) \to ker(coker(f))$ of prop. \ref{DecompositionOfMorphisms} is an [[isomorphism]] (hence providing an [[image]] factorization $A \to im(f) \to B$).
+1. For every [[morphism]] $f$, the canonical morphism $\bar{f} \colon coker(ker(f)) \to ker(coker(f))$ (eq:PreImageFactorization) from prop. \ref{DecompositionOfMorphisms} is an [[isomorphism]] (hence providing an [[image]] factorization $A \twoheadrightarrow im(f) \hookrightarrow B$).
 
 1. Every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]].
 
@@ -274,15 +285,13 @@ Textbook accounts:
 
 * N. Popescu, _[[Abelian categories with applications to rings and modules]]_, London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
 
-* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 1 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
-))
+* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 1 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
 
 Reviews:
 
-* Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf]
-(http://www-bcf.usc.edu/~lauda/teaching/rankeya.pdf))
+* Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf](http://www-bcf.usc.edu/~lauda/teaching/rankeya.pdf))
 
-* {#Selick} Paul Selick, *Homological Algebra Notes* ([pdf](www.math.toronto.edu/selick/mat1352/1350notes.pdf), [[Selick_HomologicalAlgebra.pdf:file]])
+* {#Selick} Paul Selick, *Homological Algebra Notes* ([pdf](www.math.toronto.edu/selick/mat1352/1350notes.pdf),[[Selick_HomologicalAlgebra.pdf:file]])
 
 
 Embedding of abelian categories into [[Ab]] is discussed in
