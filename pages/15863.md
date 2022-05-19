@@ -51,7 +51,7 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * A Boolean algebra provides a (degenerate) example of a bi-Heyting algebra by setting $x\Rightarrow y:=\neg x\vee y$ and $x\backslash y:=x\wedge\neg y$.
 
-* An [[irreflexive]] [[comparison]], such as an [[apartness relation]] or a [[linear order]], is a [[(0,1)-category]] [[enriched category|enriched]] on the co-Heyting algebra $\Omega^\op$, where $\Omega$ is the Heyting algebra of [[truth values]].
+* An [[irreflexive]] [[comparison]], such as an [[apartness relation]] or a [[linear order]], is an [[enriched poset]] on the co-Heyting algebra $\Omega^\op$, where $\Omega$ is the Heyting algebra of [[truth values]].
 
 ##Properties
 
