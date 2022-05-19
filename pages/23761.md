@@ -261,6 +261,53 @@ In constract, as $t_2/M \gt \frac{1}{3 \sqrt{3}}$, the [[Berry curvature]] is st
 This makes it clear that the [[integration|integral]] of the [[Berry curvature]] over the [[Brillouin torus]] -- hence the [[first Chern class|first Chern number]] of the [[valence bundle]] -- is [[positive number|positive]] in this phase. This is the statement that the [[Chern insulator]]-phase of the Haldane model at $t_2/M \gt \frac{1}{3\sqrt{3}}$ is non-trivial.  
 
 
+### K-Theory classification?
+ {#KTheoryClassification}
+
+
+The established [[K-theory classification of topological phases of matter]] asserts that ([[twisted equivariant K-theory|twisted equivariant]]) [[topological K-theory]] of gapped [[valence bundles]] over a full [[Brillouin torus]] classifies [[crystalline topological insulator|crystalline]] [[topological insulator]]-phases. For the non-[[symmetry protected topological phases|symmetry protected]] phases relavant for the Haldane model, this is the [[KU-theory]]-classification of [[Chern insulators]].
+
+There has been little systematic discussion of how to generalize this statement to a classification of [[topological semi-metal]]-phases in some flavor of [[topological K-theory]]. But the above behaviour of of the Haldane model under deformation by *constant* [[mass terms]] (i.e. at $t_2 = 0$) supports the conjecture that topological semi-metal phases are classified by the (twisted, equivariant) *flat* [[differential K-theory]] of the [[complement]] $\widehat{T}^2 \setminus \{k_1, \cdots, k_N\}$ of the $N$ nodal points $\vec k := k_1, k_2, \cdots, k_N$.
+
+Namely, under this assumption the relevant K-theory charges form the following [[double complex]] of [[exact sequences]]:
+
+
+\begin{imagefromfile}
+    "file_name": "SemimetalDoubleSESinKTheory-220519.jpg",
+    "width": 750,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": -10,
+        "right": 0, 
+        "left": 30
+    },
+    "caption": "(graphics from [SS 22](#SS22))"
+\end{imagefromfile}
+
+
+(To evaluate the boundary of this diagram as shown, use the [[stable homotopy type]] of the punctured [[torus]] as shown [there](torus#AsAHomotopyType).)
+
+Here the squiggly dashed arrow indicates the mathematical lifting problem which accurately encodes the above statement that topological charges associated to accidental/spurious band nodes which actually make for a trivial semi-metal phase, in that there exists a constant [[mass term]] that gaps out the node crossings, give rise to local Berry curvatures whose global topological charge cancels out and thus implies that also the globally gapped phase is topologically trivial:
+
+\begin{imagefromfile}
+    "file_name": "LiftingSemimetalDoubleSESinKTheory-220519.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -10,
+        "bottom": -10,
+        "right": 0, 
+        "left": 30
+    },
+    "caption": "(graphics from [SS 22](#SS22))"
+\end{imagefromfile}
+
+
+\linebreak
+
+
+
 ## Related concepts
 
 * [[topological phase of matter]]
