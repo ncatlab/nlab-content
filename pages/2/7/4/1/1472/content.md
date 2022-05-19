@@ -425,7 +425,7 @@ A very detailed such construction was given by [[Alain Connes]] (see the [refere
 
 It turns out that the realistic model has $K$-theory dimension $D = 4+6$. 
 
-By the result at [[(1,1)-dimensional Euclidean field theories and K-theory]] this $K$-theory dimension is precisely the intrinsic dimension of target space as seen by the [[superparticle]]. Moreover, $D = 4+6$ is precisely the dimension for whic the 2-dimensional super-[[CFT]] [[sigma-model]] is critical and hence allows to lift the 1-dimensional superparticle described here to [[string theory]].
+By the result at [[(1,1)-dimensional Euclidean field theories and K-theory]] this $K$-theory dimension is precisely the intrinsic dimension of target space as seen by the [[superparticle]]. Moreover, $D = 4+6$ is precisely the dimension for which the 2-dimensional super-[[CFT]] [[sigma-model]] is critical and hence allows to lift the 1-dimensional superparticle described here to [[string theory]].
 
 This means that Connes' [[spectral triple]] whose particle spectrum reproduces the [[standard model of particle physics]] has a chance of being the point particle limit or [[decategorification]] of the kind of [[2-spectral triple]] -- a 2-dimensional [[CFT|superconformal field theory]] -- of the kind that is considered in [[string theory]]. If so the lift of Connes' model to the corresponding element in the [[moduli space]] of 2-spectral triples called the [[landscape of string theory vacua]] might provide, via the second quantization of the latter, a (perturbative) quantization of the [[spectral action]] of the former.
 
