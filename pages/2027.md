@@ -59,8 +59,6 @@ Of course, if the underlying set of the ring has [[decidable equality]] ---as is
 
 An integral domain $R$ is an __[[Ore domain]]__ if the set of all nonzero elements is an [[Ore set]] in $R$. In that case the Ore localized ring is called the _[[Ore quotient ring]]_ of $R$. 
 
-Every integral domain $R$ is a [[torsion-free module|torsion-free $R$-module]]. 
-
 ## Examples
 
 For example, the ring of [[integers]], any [[skewfield]], the ring of global sections of the structure sheaf of any [[integral scheme]], an [[Ore extension]] of any other integral domain.
