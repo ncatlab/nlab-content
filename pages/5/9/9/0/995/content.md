@@ -29,6 +29,12 @@ A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__ if it is up
 2. for some $A$ in $L$, $A \in F$;
 3. if $A \in F$ and $B \in F$, then for some $C \in F$, $C \leq A$ and $C \leq B$.
 
+Equivalently, a [[predicate]] $F:L \to \Omega$ is a __filter__ 
+
+1. If for all $A \in L$ and $B \in L$, if $A \leq B$ and $F(A)$, then $F(B)$;
+2. There exists an $A \in L$, such that $F(A)$;
+3. if there exist $A \in L$ and $B \in L$ such that $F(A)$ and $F(B)$, then there is a $C \in L$ such that $F(C)$, $C \leq A$ and $C \leq B$.
+
 Sometimes the term 'filter' is used for an [[upper set]], that is any set satisfying axiom (1).  (Ultimately this connects with the use of '[[ideal in a monoid|ideal]]' in [[monoid]] theory.)
 
 
@@ -105,6 +111,8 @@ In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements 
 * [[lower set]]/[[(0,1)-presheaf]], [[ideal]]/[[(0,1)-sheaf]]
 
 * [[upper set]]/[[(0,1)-copresheaf]], **filter**/[[(0,1)-cosheaf]]
+
+* [[category of filters]]
 
 ## References
 
