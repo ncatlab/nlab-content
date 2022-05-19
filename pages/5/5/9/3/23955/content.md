@@ -90,7 +90,9 @@ Textbook accounts:
 
 * [[Ralf Schiffler]], *Quiver Representations*, CMS Books in Mathematics, Springer  (2014) $[$[doi:10.1007/978-3-319-09204-1](https://doi.org/10.1007/978-3-319-09204-1)$]$
 
-Introduction in the context of [[persistent homology]] and [[topological data analysis]]:
+Discussion for A-type quivers in the context of [[persistent homology]] and [[topological data analysis]]:
+
+* {#CarlssonDeSilva10} [[Gunnar Carlsson]], [[Vin de Silva]], *Zigzag Persistence*, Found Comput Math **10** (2010) 367–405 $[$[arXiv:0812.0197](https://arxiv.org/abs/0812.0197), [doi:10.1007/s10208-010-9066-0](https://doi.org/10.1007/s10208-010-9066-0)$]$
 
 * {#Oudot15} [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/), [pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf)$]$
 
