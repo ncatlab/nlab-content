@@ -36,6 +36,8 @@ If the [[codomain]] is an [[n-sphere]] $Y \simeq S^n$, then the homotopy classes
 
 * [[cohomology]]
 
+* [[isomorphism class]]
+
 
 
 [[!redirects homotopy classes]]
