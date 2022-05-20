@@ -45,6 +45,7 @@ For example, $X$ might model the interior of a plasma container (say a fusion re
 
 The example of point clouds is subsumed as being the case where $n = 1$ and $Obs$ is 1 minus a unit [[bump function]] [[support of a function|supported]] on a small [[neighbourhood]] of the given points.
 
+$\Delta\dashv\Gamma\dashv\nabla$
 
 
 
