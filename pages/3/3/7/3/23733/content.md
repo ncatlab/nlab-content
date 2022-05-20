@@ -30,6 +30,8 @@ A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in \ma
 
 * [[GCD domain]]
 
+* [[Bézout ring]]
+
 * [[Euclidean ring]]
 
 * [[prefield]]
