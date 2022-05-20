@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -78,37 +93,46 @@ This means that the key property of [[persistence modules]] -- namely that they 
 A typical type of a zigzag persistence module appearing in the practice of [[topological data analysis]] consists of [[homology groups]] $H(X_i)$ of stages $\cdots \hookrightarrow X_{i - 1} \hookrightarrow X_i \hookrightarrow X_{i + 1} \hookrightarrow \cdots$ of a [[filtered topological space]], as usual, but evaluating now on the [[zigzag]] of inclusions into the [[unions]] 
 
 \begin{tikzcd}
-  X_i
-  \ar[r, hook, "{\iota_i^l}"]
   &
   X_i \cup X_j
-  \ar[from=r, hook', "{\iota_j^r}"{swap}]
+  \ar[from=dr, hook', "{\iota_j^r}"{swap}]
+  \\
+  X_i
+  \ar[ur, hook, "{\iota_i^l}"]
+  &
   &
   X_j
 \end{tikzcd}
 
 of consecutive filter stages: 
 
-\begin{tikzcd}
+\begin{tikzcd}[column sep=small]
   \cdots
-  \ar[from=r, hook']
+  \ar[from=dr, hook']
   &
-  H(X_i)
-  \ar[r, hook, "{H(\iota_i^l)}"]
   &
   H(X_i \cup X_{i+1})
-  \ar[from=r, hook', "{H(\iota_{i+1}^r)}"{swap}]
+  \ar[from=dr, hook', "{H(\iota_{i+1}^r)}"{swap}]
   &
-  H(X_{i+1})
-  \ar[r, hook, "{H(\iota_{i+1}^l)}"]
   &
   H(X_{i+1} \cup X_{i+2})
-  \ar[from=r, hook', "{H(\iota_{i+2}^r)}"{swap}]
+  \ar[from=dr, hook', "{H(\iota_{i+2}^r)}"{swap}]
   &
-  H(X_{i+2})
-  \ar[r, hook]
   & 
   \cdots
+  \\
+  &
+  H(X_i)
+  \ar[ur, hook, "{H(\iota_i^l)}"]
+  &
+  &
+  H(X_{i+1})
+  \ar[ur, hook, "{H(\iota_{i+1}^l)}"]
+  &
+  &
+  H(X_{i+2})
+  \ar[ur, hook]
+  & 
 \end{tikzcd}
 
 It is claimed (...) that such zigzag persistence modules still retain the same persistent information of interest, but are more robust.
@@ -127,3 +151,9 @@ Review:
 $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
 
 
+[[!redirects zigzag persistence modules]]
+
+[[!redirects zig-zag persistence module]]
+[[!redirects zig-zag persistence modules]]
+
+[[!redirects zigzag persistence]]
