@@ -45,6 +45,12 @@ More generally, if in these zig-zags the left-pointing morphisms are restricted 
 
 * [[resolution]], [[derived functor]]
 
+* [[span]], [[correspondence]]
+
+* [[Burnside category]]
+
+* [[zigzag persistence module]]
+
 [[!redirects zigzag]]
 [[!redirects zigzags]]
 [[!redirects zig-zag]]
