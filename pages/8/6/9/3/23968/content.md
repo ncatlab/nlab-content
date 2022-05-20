@@ -103,6 +103,10 @@ Regarding these pairs as [[intervals]], the collection they form is naturally en
 
 Regarding these pairs instead as points in the [[plane]], $(a,b) \in \mathbb{R}^2$, the [[multiset|multi]]-[[subset]] which they form is called the *persistence diagram* of the persistence module.
 
+\begin{remark}
+  While for a given [[quiver]]-shape, persistence diagrams/barcodes carry the same information as the [[isomorphism classes]] of the [[persistence modules]] of this shape, it makes sense to compare persistence diagrams arising from quivers of different shape. For example, the *[[diamond principle]]* gives conditions under which [[persistence modules]] whose arrow directions differs in two consecutive positions still have bijective persistence diagrams.
+\end{remark}
+
 ## Properties
 
 * [[stability of persistence diagrams]]
