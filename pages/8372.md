@@ -23,11 +23,13 @@ A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[to
 
 ### Torsion-free $\mathbb{Z}$-modules
 
-In classical mathematics, a **torsion-free $\mathbb{Z}$-module** $M$ could be defined using a variant of the zero-divisor property characteristic of [[integral domains]]: for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ or $m = 0$. Equivalently, the [[contrapositive]], if $r \neq 0$ and $m \neq 0$, then $m r \neq 0$. 
+In classical mathematics, a **torsion-free $\mathbb{Z}$-module** $M$ could be defined using a variant of the zero-divisor property characteristic of [[integral domains]]: for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ or $m = 0$, or the [[contrapositive]], if $r \neq 0$ and $m \neq 0$, then $r m \neq 0$. 
+
+There is also an equivalent definition: a **torsion-free $\mathbb{Z}$-module** $M$ is such that right multiplication by $m$ is injective if $m \neq 0$ and left multiplication by $r$ is injective if $r \neq 0$, where "multiplication" refers to the $\mathbb{Z}$-action. 
 
 In [[constructive mathematics]], there are multiple inequivalent ways of defining a torsion-free $\mathbb{Z}$-module. One could define a torsion-free module as a module such that for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ and $m = 0$. The first definition is valid in all modules with [[decidable equality]], and could be defined using [[coherent logic]], but is not valid for $\mathbb{R}$-modules. 
 
-If the module has a [[tight apartness relation]], then one could define a torsion-free $\mathbb{Z}$-module as a module such that for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r \neq 0$ and $m \# 0$, then $r m \# 0$. This is valid in $\mathbb{R}$, but is no longer capable of being defined in coherent logic. 
+If the module has a [[tight apartness relation]], then one could define a torsion-free $\mathbb{Z}$-module as a module such that for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r \neq 0$ and $m \# 0$, then $r m \# 0$. This is valid in $\mathbb{R}$, but is no longer capable of being defined in coherent logic. Similarly, one could define a torsion-free $\mathbb{Z}$-module $M$ is such that right multiplication by $m$ is injective if $m \# 0$ and left multiplication by $r$ is injective if $r \neq 0$. 
 
 A torsion-free ring is a [[monoid object]] in torsion-free $\mathbb{Z}$-modules. 
 
