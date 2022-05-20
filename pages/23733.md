@@ -16,12 +16,16 @@
 
 ## Definition ##
 
-Given a [[commutative monoid]] $(M, \cdot, 1)$, we say that [[element]] $a \in M$ *divides* $b \in M$ ($a \vert b$) if there exists an element $c \in M$ such that $a \cdot c = b$ and $c \cdot a = b$. 
-
-Given a [[commutative ring]] $R$, let $\mathrm{Can}(R)$ be the [[multiplicative submonoid of cancellative elements]] in $R$. 
+Given a [[commutative monoid]] $(M, \cdot, 1)$, we say that [[element]] $a \in M$ *divides* $b \in M$ ($a \vert b$) if there exists an element $c \in M$ such that $a \cdot c = b$ and $c \cdot a = b$. If the commutative monoid has an [[absorbing element]] $0$, then for all $a \in M$, $a \vert 0$. 
 
 \begin{definition}
-A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, there is an element $c \in \mathrm{Can}(R)$ such that $c \vert a$ and $c \vert b$, and for every other element $d \in \mathrm{Can}(R)$ such that $d \vert a$ and $d \vert b$, $d \vert c$. 
+A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in R$ and $b \in R$, there is an element $c \in R$ such that $c \vert a$ and $c \vert b$, and for every other element $d \in R$ such that $d \vert a$ and $d \vert b$, $d \vert c$. 
+\end{definition}
+
+Equivalently, 
+
+\begin{definition}
+A [[commutative ring]] $R$ is a **GCD ring** if there is a function $\gcd:R \times R \to R$ such that for every [[element]] $a \in R$ and $b \in R$, $\gcd(a, b) \vert a$ and $\gcd(a, b) \vert b$, and for every other element function $f:R \times R \to R$ such that $f(a, b) \vert a$ and $f(a, b) \vert b$, $f(a, b) \vert \gcd(a, b)$. 
 \end{definition}
 
 ## See also ##
