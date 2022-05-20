@@ -220,6 +220,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[Noetherian ring]]
 
+* [[Artinian ring]]
+
 * [[tensor ring]]
 
 * [[symmetric ring]]
@@ -231,6 +233,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 * [[exterior ring]]
 
 * [[Clifford ring]]
+
+* [[ordered ring]]
 
 * [[pseudolattice ordered ring]]
 
@@ -259,6 +263,10 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 * [[unique factorization domain]]
 
 * [[principal ideal domain]]
+
+* [[ordered integral domain]]
+
+* [[archimedean integral domain]]
 
 ## Related concepts
 
