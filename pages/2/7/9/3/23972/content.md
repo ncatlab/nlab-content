@@ -26,6 +26,7 @@ The set of isomorphism classes of a category is also sometimes thought of as the
 
 * The isomorphism class of a [[vector space]] is (labeled by) its [[dimension of a vector space|dimension]].
 
+* The isomorphism classes of an [[action groupoid]] are the [[orbits]] of the [[group action]].
 
 
 ## Related concepts
