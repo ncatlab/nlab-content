@@ -32,13 +32,17 @@ so we get a 'filtration structure' on the complex.
 The idea of *persistent homology* is to look for features that persist for some range of parameter values.  Typically a feature, such as a hole, will initially not be observed, then will appear, and after a range of values of the parameter it will disappear again. A typical feature will be a [[Betti number]] of the complex, $S_\rho(X)$, which then will vary with the parameter $\rho$.
 
 
-## Properties
+## Properties 
+ {#Properties}
 
-### Stability of persistence diagrams
 
 * [[stability of persistence diagrams]]
 
-([Cohen-Steiner, Edelsbrunner & Harer 2007](#CohenSteinerEdelsbrunnerHarer07))
+  ([Cohen-Steiner, Edelsbrunner & Harer 2007](#CohenSteinerEdelsbrunnerHarer07))
+
+* [[diamond principle]]
+
+  (Carlsson et al.)
 
 ## Software
 
