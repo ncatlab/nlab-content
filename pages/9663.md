@@ -115,13 +115,13 @@ The [[indecomposable object|indecomposable]] [[quiver representations]] of $\mat
   \mathbb{K}^1
   \ar[r,-,"{0}"]
   &
-  0
+  \mathbb{K}^0
   \ar[r,-,"{0}"]
   &
   \cdots
   \ar[r,-,"{0}"]
   &
-  0
+  \mathbb{K}^0
 \end{tikzcd}
 
 for any given [[orientation]] of the [[edges]].
@@ -211,6 +211,8 @@ Here an $\mathbb{A}_n$-[[quiver representation]] is called a *[[zigzag persisten
 * *persist* across a range $b - a$,
 
 * *disappear* at some resolution $b$.
+
+The [[multiset]] of these [[pairs]] $(a,b)$ is then called the *[[barcode]]* or *[[persistence diagram]]* of the [[persistence module]].
 
 This relation between quiver representation theory and persistent homolology was originally highlighted by [Carlsson & de Silva 2010](#CarlssonDeSilva10).
 \end{remark}
