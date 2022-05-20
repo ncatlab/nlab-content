@@ -51,6 +51,11 @@ A _[[quiver]]_ is just a [[directed graph]] ([[pseudograph]], to be explicit).
 But one says _quiver_ instead of _directed graph_ when one is interested in studying _[[quiver representations]]_: [[functors]] from the [[free category]] on that graph to the [[category]] of [[finite-dimensional vector spaces]].
 
 
+### Persistence modules
+ {#PersistenceModule}
+
+A *[[persistence module]]* is just a [[sequence]] of [[linear maps]] (or a [[zigzag]] of these, for [[zigzag persistence modules]]), but one says *persistence module* to indicate that one is interested in the [[persistence diagrams]] encoding this sequence.
+
 ### Fields (physics)
  {#FieldsInPhysics}
 
