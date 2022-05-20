@@ -23,6 +23,10 @@
 A [[GCD ring]] $R$ is a **GCD domain** if $R$ is also an [[integral domain]]. 
 \end{definition}
 
+## Properties
+
+Every [[GCD domain]] of dimension at most 1 is a Bézout domain. 
+
 ## See also ##
 
 * [[GCD ring]]
