@@ -75,6 +75,8 @@ The symbol '$\mathbb{Z}$' derives from the German word 'Zahlen', which is a gene
 
 * [[integers object]] in a [[topos]]
 
+* [[rational zero theorem]]
+
 ## References
 
 A formalization in terms of [[homotopy type theory]], using a unary notation, is in 
