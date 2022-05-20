@@ -36,7 +36,7 @@ The definition of the Euclidean ring bifurcates in [[constructive mathematics]] 
 
 ## Properties ##
 
-Every Euclidean ring is a [[GCD ring]]. 
+Every Euclidean ring is a [[Bézout ring]], and every [[prefield]] is an Euclidean ring.  
 
 ## Examples ##
 
@@ -59,6 +59,8 @@ $$\mathrm{Can}(A) \cong \{x \in A \vert 0 \lt \vert x \vert\}$$
 ## See also ##
 
 * [[commutative ring]]
+
+* [[Bézout ring]]
 
 * [[GCD ring]]
 
