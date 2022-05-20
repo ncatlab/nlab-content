@@ -42,7 +42,7 @@ But one says _presheaf_ instead of (set-valued) _contravariant functor_ when one
 
 ### Subsets and predicates
 
-In some foundations of mathematics, a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$. 
+In some [[foundations of mathematics]], a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$. 
 
 ### Young diagrams
 
