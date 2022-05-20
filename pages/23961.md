@@ -20,7 +20,7 @@
 
 ## Idea
 
-A version of [[cancellative monoid|cancellative]] [[magmas]] where the binary function is not required to be either valued in the same domain set as the codomain set, this allows the concept to be generalised from [[magmas]] and [[monoids]] to other binary functions such as [[actions]] and [[modules]]. 
+A version of [[cancellative monoid|cancellative]] [[magmas]] where the binary function's [[codomain]] need not  coincide with its [[domain]] set. This allows the concept to be generalised from [[magmas]] and [[monoids]] to other binary functions such as [[actions]] and [[modules]]. 
 
 ## Definition
 
