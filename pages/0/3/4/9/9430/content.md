@@ -1,14 +1,14 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Cohomology
+###Context###
+#### Homological algebra
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include homological algebra - contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Representation theory
 +-- {: .hide}
-[[!include constructivism - contents]]
+[[!include representation theory - contents]]
 =--
 =--
 =--
@@ -20,12 +20,10 @@
 
 ##Idea 
 
-Persistent homology is a [[homology theory]] adapted to a [[computation|computational]] context, for instance, in analysis of large data sets. It keeps track of homology classes which stay 'persistent' when the approximate image of a space gets refined to higher resolutions.  
+Persistent homology is a [[homology theory]] adapted to a [[computation|computational]] context, for instance, in analysis of large data sets in [[topological data analysis]]. It keeps track of homology classes which stay 'persistent' when the approximate image of a space gets refined to higher resolutions.  
 
 
-## More detail
-
-We suppose given a 'data cloud of samples', $P\subset \mathbb{R}^m$, from some space $X$, yielding a [[simplicial complex]] $S_\rho(X)$ for each $\rho \gt 0$ via one of the family of simplicial complex approximation methods that are listed below (TO BE ADDED).  For these, the important idea to retain is that if $\rho \lt \rho^\prime$, then 
+More in detail, suppose given a 'data cloud of samples', $P\subset \mathbb{R}^m$, from some space $X$, yielding a [[simplicial complex]] $S_\rho(X)$ for each $\rho \gt 0$ via one of the family of simplicial complex approximation methods that are listed below (TO BE ADDED).  For these, the important idea to retain is that if $\rho \lt \rho^\prime$, then 
 
 $$S_\rho(X) \hookrightarrow S_{\rho'}(X),$$
 
@@ -34,6 +32,13 @@ so we get a 'filtration structure' on the complex.
 The idea of *persistent homology* is to look for features that persist for some range of parameter values.  Typically a feature, such as a hole, will initially not be observed, then will appear, and after a range of values of the parameter it will disappear again. A typical feature will be a [[Betti number]] of the complex, $S_\rho(X)$, which then will vary with the parameter $\rho$.
 
 
+## Properties
+
+### Stability of persistence diagrams
+
+* [[stability of persistence diagrams]]
+
+([Cohen-Steiner, Edelsbrunner & Harer 2007](#CohenSteinerEdelsbrunnerHarer07))
 
 ## Software
 
@@ -42,6 +47,8 @@ One can compute intervals for homological features algorithmically over field co
 ## Related concepts
 
 * [[persistence module]]
+
+* [[persistence diagram]]
 
 * [[well group]]
 
@@ -59,12 +66,15 @@ Introduction and survey:
 
 * [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, Bull. Amer. Math. Soc. 45 (2008), 61-75 ([doi:10.1090/S0273-0979-07-01191-3](https://doi.org/10.1090/S0273-0979-07-01191-3), [pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
 
-* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
+* [[Herbert Edelsbrunner]], [[John Harer]], *Persistent homology -- a survey*, in: *Surveys on Discrete and Computational Geometry: Twenty Years Later*, Contemporary Mathematics *453* (2008) $[$[doi:10.1090/conm/453](http://dx.doi.org/10.1090/conm/453)$]$
+
+* [[Gunnar Carlsson]], *Topology and data*, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 $[$[doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X)$]$
+
+* [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], *Persistent homology: theory and practice*, in: *European Congress of Mathematics Kraków, 2–7 July, 2012* EMS $[$[doi:10.4171/120-1/3](https://www.ems-ph.org/books/show_abstract.php?proj_nr=170&vol=1&rank=3), [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)$]$
 
 Review with emphasis of [[zigzag persistence]] with relation to [[quiver representation theory]]:
 
-* [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015)
-$[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
+* [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
 
 * [[Gunnar Carlsson]], *Persistent Homology and Applied Homotopy Theory*, in: [[Handbook of Homotopy Theory]], CRC Press (2019) $[$[arXiv:2004.00738](https://arxiv.org/abs/2004.00738), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)$]$
 
@@ -77,13 +87,23 @@ See also
 
 * Wikipedia, _[Persistent homology](https://en.wikipedia.org/wiki/Persistent_homology)_
 
+The concept of persistent homology originates around:
 
-Introducing "[[zigzag persistence]]" with relation to [[ADE-classification|A-type]] [[quiver representation]]-theory:
+* [[Herbert Edelsbrunner]], D. Letscher, and A. Zomorodian, *Topological persistence and simplification*, Discrete & Computational Geometry, **28** (2002) 511–533 $[$[doi:10.1007/s00454-002-2885-2](https://doi.org/10.1007/s00454-002-2885-2)$]$
+
+The generalization to "[[zigzag persistence]]" with relation to [[ADE-classification|A-type]] [[quiver representation]]-theory is due to:
 
 * {#CarlssonDeSilva10} [[Gunnar Carlsson]], [[Vin de Silva]], *Zigzag Persistence*, Found Comput Math **10** (2010) 367–405 $[$[arXiv:0812.0197](https://arxiv.org/abs/0812.0197), [doi:10.1007/s10208-010-9066-0](https://doi.org/10.1007/s10208-010-9066-0)$]$
 
+and specifically for [[level sets]]:
+
+* [[Gunnar Carlsson]], [[Vin de Silva]], [[Dmitriy Morozov]], *Zigzag persistent homology and real-valued functions*, in: *SCG '09: Proceedings of the twenty-fifth annual symposium on Computational geometry (2009) 247–256 $[$[doi:10.1145/1542362.1542408](https://doi.org/10.1145/1542362.1542408)$]$
+
 * [[Gunnar Carlsson]], [[Vin de Silva]], [[Sara Kališnik]], [[Dmitriy Morozov]], *Parametrized Homology via Zigzag Persistence*, Algebr. Geom. Topol. **19** (2019) 657-700 $[$[arXiv:1604.03596](https://arxiv.org/abs/1604.03596), [doi:10.2140/agt.2019.19.657](https://doi.org/10.2140/agt.2019.19.657)$]$
 
+The [[stability of persistence diagrams|stability result]] is due to:
+
+* {#CohenSteinerEdelsbrunnerHarer07} [[David Cohen-Steiner]], [[Herbert Edelsbrunner]], [[John Harer]], *Stability of Persistence Diagrams*, Discrete & Computational Geometry **37** (2007) 103–120 $[$[doi:10.1007/s00454-006-1276-5](https://doi.org/10.1007/s00454-006-1276-5)$]$
 
 Bar-codes were introduced under the name of *canonical forms invariants of filtered complexes* in 
 
@@ -108,7 +128,7 @@ See also
 
 * Ulrich Bauer, Michael Kerber, Jan Reininghaus, _Clear and compress: computing persistent homology in chunks_, [arxiv/1303.0477](http://arxiv.org/abs/1303.0477)
 
-* Sara Kališnik, _Persistent homology and duality_, 2013 ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
+* [[Sara Kališnik]], _Persistent homology and duality_, 2013 ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
 
 * Francisco Belch&#237; Guillam&#243;n, Aniceto Murillo Mas, _A-infinity persistence_, [arxiv/1403.2395](http://arxiv.org/abs/1403.2395)
 
@@ -118,7 +138,6 @@ See also
 
 * Heather A. Harrington, Nina Otter, Hal Schenck, [[Ulrike Tillmann]], _Stratifying multiparameter persistent homology_, [arxiv/1708.07390](https://arxiv.org/abs/1708.07390)
 
-* H. Edelsbrunner, [[Dmitriy Morozov]], _Persistent homology: theory and practice_ [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)
 
 The following paper uses persistent homology to single out features relevant for training [[neural networks]]:
 
@@ -154,5 +173,3 @@ category: topology, applications
 [[!redirects persistence module]]
 [[!redirects persistence modules]]
 
-[[!redirects zigzag persistence]]
-[[!redirects zig-zag persistence]]
