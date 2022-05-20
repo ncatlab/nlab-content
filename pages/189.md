@@ -168,6 +168,8 @@ In [[dependent type theory]] with [[type of types|universes]], a [[type]] equipp
 
 * [[quiver gauge theory]]
 
+* [[zigzag persistence]]
+
 [[!include oidification - table]]
 
 ## References
