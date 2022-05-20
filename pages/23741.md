@@ -60,9 +60,9 @@ $$\mathrm{Can}(A) \cong \{x \in A \vert 0 \lt \vert x \vert\}$$
 
 * [[commutative ring]]
 
-* [[Bézout ring]]
-
 * [[GCD ring]]
+
+* [[Bézout ring]]
 
 * [[prefield]]
 
