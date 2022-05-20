@@ -40,6 +40,10 @@ A _[[presheaf]]_ is just a [[contravariant functor|contravariant]] [[functor]], 
 
 But one says _presheaf_ instead of (set-valued) _contravariant functor_ when one is interested in studying its [[sheafification]], or even if one is just interested in regarding the [[category of functors]] with its structure of a [[topos]]: the [[presheaf topos]].
 
+### Subsets and predicates
+
+In some foundations of mathematics, a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$. 
+
 ### Young diagrams
 
 A *[[Young diagram]]* is a [[partition]] that wants to become a [[Young tableau]].
@@ -78,6 +82,17 @@ A _[[tensor network]]_ is just a [[string diagram]] (i.e. [[Penrose notation]]).
 
 But in discussion of the [[AdS/CFT correspondence in solid state physics]] one says _[[tensor network]]_ when regarding [[string diagrams]] as encoding [[quantum states]] in the [[Hilbert space]] which is the [[tensor product]] of all the external [[vertices]].
 
+### Dynamical systems
+
+A _[[dynamical system]]_ is just a set $S$ with a [[group]] [[action]] $f:G \times S \to S$. 
+
+However, in dynamical systems theory, one takes the group $G$ to represent _time_, the set $S$ to represent the _space_ of the dynamical system, and the group action $f$ to represent the _laws of motion_ of this dynamical system. 
+
+### Curves 
+
+A _[[curve]]_ in $n$-dimensional [[Cartesian space]] is just a [[smooth function]] $r:\mathbb{R} \to \mathbb{R}^n$. 
+
+However, in [[differential geometry]], one takes the function $r$ as defining a parameterization of a smooth curve. 
 
 \linebreak
 \linebreak
