@@ -1,4 +1,3 @@
-[[!redirects well groups]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,6 +17,8 @@
 ## Idea
 
 In the context of [[persistent homology]], the _well group_ ([EMP 11](#EMP11)) of a [[continuous function]] $f$ into a [[metric space]] is a [[homology|homological]] measure of how robust the [[level sets]] of $f$ are against [[deformations]] of $f$. Concretely, the Well group at [[radius]] $r$ of a given point in the [[codomain]] consists of all those [[ordinary homology|homology]]-classes of the domain which are reflected in the [[level sets]] of _every_ [[continuous function]] whose values differ from those of $f$ at most by $r$.
+
+As the level varies, the collection of well groups form a [[zigzag persistence module]], also called a *well module* ([EMP 11, Sec. 3](#EMP11)).
 
 ## Definition
 
@@ -63,19 +65,24 @@ $$
 
 * [[persistence module]]
 
+* [[zigzag persistence]]
+
+* [[stability of persistence diagrams]]
+
+
 ## References
 
 The concept of [[well groups]] was introduced in
 
-* {#EMP11} Herbert Edelsbrunner, Dmitriy Morozov, Amit Patel, _Quantifying Transversality by Measuring the Robustness of Intersections_, Foundations of Computational Mathematics, 11(3):345–361, 2011 ([arXiv:0911.2142](https://arxiv.org/abs/0911.2142))
+* {#EMP11} [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], [[Amit Patel]], *Quantifying Transversality by Measuring the Robustness of Intersections*, Foundations of Computational Mathematics, **11** 3  (2011) 345–361 $[$[arXiv:0911.2142](https://arxiv.org/abs/0911.2142)$]$
 
-* Paul Bendich, Herbert Edelsbrunner, Dmitriy Morozov, Amit Patel, _The Robustness of Level Sets_, In: M. de Berg, U. Meyer (eds.) _Algorithms – ESA 2010_. ESA 2010. Lecture Notes in Computer Science, vol 6346. Springer  ([doi:10.1007/978-3-642-15775-2_1](https://doi.org/10.1007/978-3-642-15775-2_1)) 
+* [[Paul Bendich]], [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], [[Amit Patel]], *The Robustness of Level Sets*, In: M. de Berg, U. Meyer (eds.) _Algorithms – ESA 2010_. ESA 2010. Lecture Notes in Computer Science **6346** Springer (2010)  $[$[doi:10.1007/978-3-642-15775-2_1](https://doi.org/10.1007/978-3-642-15775-2_1)$]$ 
 
-* Paul Bendich, Herbert Edelsbrunner, Dmitriy Morozov, Amit Patel, _Homology and Robustness of Level and Interlevel Sets_, Homology, Homotopy and Applications, vol. 15, pages 51-72, 2013 ([euclid:1383943667](https://projecteuclid.org/euclid.hha/1383943667))
+* [[Paul Bendich]], [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], [[Amit Patel]], *Homology and Robustness of Level and Interlevel Sets*, Homology, Homotopy and Applications, **15** (2013) 51-72 $[$[euclid:1383943667](https://projecteuclid.org/euclid.hha/1383943667)$]$
 
 Review in:
 
-* Sara Kališnik, Section 4.2.2 of: _Persistent homology and duality_, 2013 ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
+* [[Sara Kališnik]], Section 4.2.2 of: _Persistent homology and duality_ (2013) ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
 
 Review, computational analysis and discussion of [[Cohomotopy]] as an improvement over homology well groups is in 
 
@@ -89,4 +96,7 @@ Review, computational analysis and discussion of [[Cohomotopy]] as an improvemen
 * [[Peter Franek]], [[Marek Krčál]], [[Hubert Wagner]], _Solving equations and optimization problems with uncertainty_, J Appl. and Comput. Topology (2018) 1: 297 ([arxiv:1607.06344](https://arxiv.org/abs/1607.06344), [doi:10.1007/s41468-017-0009-6](https://doi.org/10.1007/s41468-017-0009-6))
 
 
+[[!redirects well groups]]
 
+[[!redirects well module]]
+[[!redirects well modules]]
