@@ -16,37 +16,15 @@
 * table of contents
 {:toc}
 
-## Idea ##
-
-In the same vein that [[commutative rings]] are to [[integral domains]] and [[GCD rings]] are to [[GCD domains]], [[Bézout rings]] are to [[Bézout domains]].
-
 ## Definition ##
 
-A **Bézout ring** is a [[GCD ring]] $R$ which satisfies Bézout's identity for cancellative elements: For every element $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, there exists elements $x \in R$ and $y \in R$ called Bézout coefficients such that $a \cdot x + b \cdot y = \gcd(a, b)$, where $\gcd(a, b)$ is the [[greatest common divisor]] of $a$ and $b$ and $\mathrm{Can}(R)$ is the [[multiplicative submonoid of cancellative elements]] in $R$.
+A **Bézout ring** is a [[commutative ring]] $R$ where every finitely generated ideal is a [[principal ideal]], or where every ideal with 2 generators is a [[principal ideal]]: for every element $a \in R$ and $b \in R$, there exists elements $x \in R$, $y \in R$ called **Bézout coefficients** and $g \in R$ called a **common divisor**, such that $a \cdot x + b \cdot y = g$ and there exist $a^{'} \in R$ and $b^{'} \in R$ such that $a = g \cdot a^{'}$ and $b = g \cdot b^{'}$.
 
-One could posit, instead of the property that for all elements $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, there exists elements $x \in R$ and $y \in R$ such that $a \cdot x + b \cdot y = \gcd(a, b)$; that the integral domain has the [[structure]] of Bézout coefficient functions $\beta_0:\mathrm{Can}(R) \times \mathrm{Can}(R) \to R$ and $\beta_1:\mathrm{Can}(R) \times \mathrm{Can}(R) \to R$ such that for every cancellative element $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, $a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gcd(a, b)$. There might be multiple such pairs of Bézout coefficient functions for the GCD ring $R$. 
+One could posit, instead of the property that for every element $a \in R$ and $b \in R$, there exists elements $x \in R$, $y \in R$ and $g \in R$, such that $a \cdot x + b \cdot y = g$ and there exist $a^{'} \in R$ and $b^{'} \in R$ such that $a = g \cdot a^{'}$ and $b = g \cdot b^{'}$; that the integral domain has the [[structure]] of Bézout coefficient functions $\beta_0:R \times R \to R$ and $\beta_1:R \times R \to R$ and common divisor function $\gamma:R \times R \to R$ such that for every element $a \in R$ and $b \in R$, 
+$$a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gamma(a, b)$$ 
+and there exist $a^{'} \in R$ and $b^{'} \in R$ such that $a = \gamma(a, b) \cdot a^{'}$ and $b = \gamma(a, b) \cdot b^{'}$ There might be multiple such triples of Bézout coefficient functions and common divisor function. 
 
-## Properties ##
-
-Every Bézout ring is a [[GCD ring]], and every [[Euclidean ring]] is a Bézout ring. 
-
-## Examples ##
-
-* The [[integers]] $\mathbb{Z}$ are a Bézout ring. 
-
-* A classical Bézout domain $A$ is a Bézout ring where $\mathrm{Can}(A)$ is the multiplicative monoid of elements not equal to zero (where inequality is [[denial inequality]])
-
-$$\mathrm{Can}(A) \cong \{x \in A \vert x \neq 0\}$$
-
-* A Heyting Bézout domain $A$ is a Bézout ring where $\mathrm{Can}(A)$ is the multiplicative monoid of elements apart from zero
-
-$$\mathrm{Can}(A) \cong \{x \in A \vert x \# 0\}$$
-
-* An ordered Bézout domain $A$ is a Bézout ring where $\mathrm{Can}(A)$ is the multiplicative monoid of elements with a positive absolute value
-
-$$\mathrm{Can}(A) \cong \{x \in A \vert 0 \lt \vert x \vert\}$$
-
-* The [[trivial ring]] $0$ is the unique Bézout ring up to unique [[isomorphism]] such that $0 \in \mathrm{Can}(0)$. The [[trivial ring]] is also the [[terminal object|terminal]] Bézout ring. 
+If the commutative ring is a [[GCD ring]] and the common divisor is the [[greatest common divisor]], then the Bézout ring condition is called the **Bézout identity**. 
 
 ## See also ##
 
@@ -54,13 +32,25 @@ $$\mathrm{Can}(A) \cong \{x \in A \vert 0 \lt \vert x \vert\}$$
 
 * [[Euclidean ring]]
 
-* [[GCD ring]]
-
 * [[prefield]]
 
 * [[Bézout domain]]
+
+## References
+
+* [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+
+* Wikipedia, _[Bézout's identity](http://en.wikipedia.org/wiki/Bézout's_identity)
 
 [[!redirects Bézout rings]]
 
 [[!redirects Bezout ring]]
 [[!redirects Bezout rings]]
+
+[[!redirects Bézout's identity]]
+[[!redirects Bezout's identity]]
+
+[[!redirects Bézout coefficient]]
+[[!redirects Bézout coefficients]]
+[[!redirects Bezout coefficient]]
+[[!redirects Bezout coefficients]]
