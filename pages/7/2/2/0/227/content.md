@@ -208,13 +208,57 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 ## Types of rings
 
-* [[integral domain]]
+* [[commutative ring]]
 
-* [[principal ideal domain]]
+* [[GCD ring]]
+
+* [[Bézout ring]]
+
+* [[Euclidean ring]]
+
+* [[prefield]]
 
 * [[Noetherian ring]]
 
+* [[tensor ring]]
+
+* [[symmetric ring]]
+
+* [[supercommutative ring]]
+
+* [[super ring]]
+
+* [[exterior ring]]
+
+* [[Clifford ring]]
+
+* [[pseudolattice ordered ring]]
+
+* [[totally ordered ring]]
+ 
+* [[topological ring]]
+
+* [[normed ring]]
+
+* [[associative unital algebra]], [[commutative algebra]]
+
 * many more...
+
+### Integral domains
+
+* [[integral domain]]
+
+* [[GCD domain]]
+
+* [[Bézout domain]]
+
+* [[Euclidean domain]]
+
+* [[field]]
+
+* [[unique factorization domain]]
+
+* [[principal ideal domain]]
 
 ## Related concepts
 
@@ -230,15 +274,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[ring groupoid]], [[symmetric ring groupoid]]
 
-  * [[associative algebra]]
-
-  * [[commutative ring]], [[commutative algebra]]
-
   * [[ring object]]
- 
-    * [[topological ring]]
-
-    * [[normed ring]]
 
   * [[localization of a ring]]
 
@@ -248,19 +284,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[core of a ring]]
 
-  * [[tensor ring]]
-
-  * [[symmetric ring]]
-
-  * [[supercommutative ring]]
-
-  * [[super ring]]
-
 * [[ideal]]
-
-  * [[exterior ring]]
-
-  * [[Clifford ring]]
 
 * [[prime ring]]
 
