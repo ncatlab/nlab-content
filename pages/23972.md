@@ -22,6 +22,8 @@ The set of isomorphism classes of a category is also sometimes thought of as the
 
 ## Examples
 
+* The isomorphism class of a [[finite set]] is a [[natural number]]. 
+
 * The isomorphism class of a [[set]] is its [[cardinality]].
 
 * The isomorphism class of a [[vector space]] is (labeled by) its [[dimension of a vector space|dimension]].
