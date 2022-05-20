@@ -631,6 +631,9 @@ being a [[fiber sequence]]. The corresponding long exact sequence in cohomology 
 
 By duality (see [[universal coefficient theorem]]) an analogous statement holds for the [[homology]] of $X$, $U$ and $V$.
 
+## Related concepts
+
+* [[diamond principle]]
 
 ## References
 
