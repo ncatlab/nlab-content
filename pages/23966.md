@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -69,6 +70,14 @@ $$
   \,.
 $$
 
+Various generalizations of this stability result exist, notably the *algebraic stability theorem* ([CCGGO09](#CCGGO09)).
+
+From [Botnan & Lesnick 18, p. 2](#BotnanLesnick18):
+
+> The algebraic stability theorem is perhaps the central theorem in the theory of persistent homology; it provides the core mathematical justification for the use of persistent homology in the study of noisy data. The theorem is used, in one form or another, in nearly all available results on the approximation, inference, and estimation of persistent homology.
+
+
+
 ## Related concepts
 
 * [[well group]]
@@ -81,11 +90,20 @@ The stability theorem originates in:
 * {#CohenSteinerEdelsbrunnerHarer07} [[David Cohen-Steiner]], [[Herbert Edelsbrunner]], [[John Harer]], *Stability of Persistence Diagrams*, Discrete & Computational Geometry **37** (2007) 103–120 $[$[doi:10.1007/s00454-006-1276-5](https://doi.org/10.1007/s00454-006-1276-5)$]$
 
 
-Further developments: 
+The algebraic stability theorem:
 
+* {#CCGGO09} [[Frédéric Chazal]], [[David Cohen-Steiner]], [[Marc Glisse]], [[Leonidas J. Guibas]], [[Steve Y. Oudot]], *Proximity of persistence modules and their diagrams*, SCG '09: Proceedings of the twenty-fifth annual symposium on Computational geometry (2009) 237–246 $[$[doi:10.1145/1542362.1542407](https://doi.org/10.1145/1542362.1542407)$]$
+
+* [[Ulrich Bauer]], [[Michael Lesnick]], *Induced Matchings and the Algebraic Stability of Persistence Barcodes*, Journal of Computational Geometry **6** 2 (2015) 162-191 $[$[arXiv:1311.3681](https://arxiv.org/abs/1311.3681), [doi:10.20382/jocg.v6i2a9](https://doi.org/10.20382/jocg.v6i2a9)$]$
+
+
+Further developments:
 
 * [[Frédéric Chazal]], [[Vin de Silva]], [[Marc Glisse]], [[Steve Oudot]],  *The structure and stability of persistence modules*, SpringerBriefs in Mathematics, Springer (2016) $[$[arXiv:1207.3674](https://arxiv.org/abs/1207.3674), [doi:10.1007/978-3-319-42545-0](https://doi.org/10.1007/978-3-319-42545-0)$]$
 
+Generalization to [[zigzag persistence modules]]:
+
+* {#BotnanLesnick18} [[Magnus Bakke Botnan]], [[Michael Lesnick]], *Algebraic Stability of Zigzag Persistence Modules*, Algebr. Geom. Topol. **18** (2018) 3133-3204 $[$[arXiv:1604.00655](https://arxiv.org/abs/1604.00655), [doi:10.2140/agt.2018.18.3133](https://doi.org/10.2140/agt.2018.18.3133)$]$
 
 
 [[!redirects stability in persistent homology]]
