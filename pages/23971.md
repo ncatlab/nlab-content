@@ -21,11 +21,13 @@
 
 ## Idea
 
-In [[zigzag persistence|zig-zag]] [[persistent homology]]-theory, the *diamond principle* ([Carlsson & de Silva 2010, Sec. 5.2](#CarlssonDeSilva10)) states that [[persistence diagrams]] of [[pairs]] of [[zigzag persistence modules]] are [[bijection|bijective]] if the modules coincide away from two consecutive [[edges]] where their difference form an "exact diamond".
+In [[zigzag persistence|zig-zag]] [[persistent homology]]-theory, the *diamond principle* ([Carlsson & de Silva 2010, Sec. 5.2](#CarlssonDeSilva10)) states that [[persistence diagrams]] of [[pairs]] of [[zigzag persistence modules]] are [[bijection|bijective]] if the modules coincide away from two consecutive [[edges]] where their difference forms an "exact diamond".
 
 Applied specifically to [[persistence modules]] given by the [[homology groups]] of [[zig-zags]] of [[topological spaces]], the diamond principle is an incarnation of the [[Mayer-Vietoris sequence]] in [[algebraic topology]]. 
 
 In this case it says that the two canonical [[zigzag persistence modules]] associated with a [[filtered topological space]] (one built from [[union]]-[[zigzags]], the other from [[intersection]]-[[zigzags]]) in fact yield the same [[persistence diagrams]].
+
+Notice how the diagmond principle is a result genuinely about persistent invariants, in that the two persistence modules forming an exact diamond do not have the same shape as [[diagrams]] and hence are *un-comparable* when regarded, say, as [[quiver representations]] (as which they are [[objects]] of *distinct* [[categories]]).
 
 
 
