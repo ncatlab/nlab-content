@@ -24,7 +24,7 @@ In the same vein that [[commutative rings]] are to [[integral domains]] and [[GC
 
 A **Bézout ring** is a [[GCD ring]] $R$ which satisfies Bézout's identity for cancellative elements: For every element $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, there exists elements $x \in R$ and $y \in R$ called Bézout coefficients such that $a \cdot x + b \cdot y = \gcd(a, b)$, where $\gcd(a, b)$ is the [[greatest common divisor]] of $a$ and $b$ and $\mathrm{Can}(R)$ is the [[multiplicative submonoid of cancellative elements]] in $R$.
 
-One could posit, instead of the property that for all elements $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, there exists elements $x \in R$ and $y \in R$ such that $a \cdot x + b \cdot y = \gcd(a, b)$; that the integral domain has the [[structure]] of Bézout coefficient functions $\beta_0:\mathrm{Can}(R) \times \mathrm{Can}(R) \to R$ and $\beta_1:\mathrm{Can}(R) \times \mathrm{Can}(R) \to R$ such that for every cancellative element $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, $a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gcd(a, b)$. 
+One could posit, instead of the property that for all elements $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, there exists elements $x \in R$ and $y \in R$ such that $a \cdot x + b \cdot y = \gcd(a, b)$; that the integral domain has the [[structure]] of Bézout coefficient functions $\beta_0:\mathrm{Can}(R) \times \mathrm{Can}(R) \to R$ and $\beta_1:\mathrm{Can}(R) \times \mathrm{Can}(R) \to R$ such that for every cancellative element $a \in \mathrm{Can}(R)$ and $b \in \mathrm{Can}(R)$, $a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gcd(a, b)$. There might be multiple such pairs of Bézout coefficient functions for the GCD ring $R$. 
 
 ## Properties ##
 
