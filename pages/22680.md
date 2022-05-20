@@ -55,3 +55,8 @@ The [[localization of a monoid|localization]] of an absorption monoid at $0$ is 
 [[!redirects absorption monoids]]
 [[!redirects annihilation monoid]]
 [[!redirects annihilation monoids]]
+
+[[!redirects absorbing element]]
+[[!redirects absorbing elements]]
+[[!redirects annihilating element]]
+[[!redirects annihilating elements]]
