@@ -37,3 +37,7 @@ splits and there is an isomorphism $K^\times \cong R^\times \oplus (K^\times/R^\
 * As noted above, a UFD is necessarily integrally closed. 
 
 * The lattice of principal ideals under the inclusion order is a distributive lattice. 
+
+## See also
+
+* [[GCD domain]]
