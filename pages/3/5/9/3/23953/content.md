@@ -36,7 +36,7 @@ _Synthetic Tait computability_ is an approach to constructing [[logical relation
 
 * [[Jonathan Sterling]], _Naïve logical relations in synthetic Tait computability_, ([pdf](https://www.jonmsterling.com/papers/sterling:2022:wg6.pdf))
 
-Further references are documented on ([Jon Sterling's personal website](https://www.jonmsterling.com/stc-bibliography.html)).
+Further references are documented on [Jon Sterling's personal website](https://www.jonmsterling.com/stc-bibliography.html).
 
 [[!redirects synthetic Tait computability theory]]
 
