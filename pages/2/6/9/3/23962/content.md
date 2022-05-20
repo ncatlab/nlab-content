@@ -137,11 +137,22 @@ of consecutive filter stages:
 
 It is claimed (...) that such zigzag persistence modules still retain the same persistent information of interest, but are more robust.
 
+## Examples
+
+### Well modules
+
+As the [[level set|level]] varies, the [[well groups]] of a [[continuous function]] naturally form a zigzag persistence module, called a *[[well module]]* ([Edelsbrunner, Morozov & Patel 2011](well +group#EMP11)).
+
+
 ## Properties
 
 * [[stability of persistence diagrams]]
 
 * [[diamond principle]]
+
+## Related concepts
+
+* [[well group]]
 
 ## References
 
@@ -156,10 +167,14 @@ Application to [[level sets]]:
 * [[Gunnar Carlsson]], [[Vin de Silva]], [[Sara Kališnik]], [[Dmitriy Morozov]], *Parametrized Homology via Zigzag Persistence*, Algebr. Geom. Topol. **19** (2019) 657-700 $[$[arXiv:1604.03596](https://arxiv.org/abs/1604.03596), [doi:10.2140/agt.2019.19.657](https://doi.org/10.2140/agt.2019.19.657)$]$
 
 
-
 Review:
 
 * [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
+
+The [[stability of persistence diagrams|algebraic stability theorem]] for zigzag persistence modules:
+
+* {#BotnanLesnick18} [[Magnus Bakke Botnan]], [[Michael Lesnick]], *Algebraic Stability of Zigzag Persistence Modules*, Algebr. Geom. Topol. **18** (2018) 3133-3204 $[$[arXiv:1604.00655](https://arxiv.org/abs/1604.00655), [doi:10.2140/agt.2018.18.3133](https://doi.org/10.2140/agt.2018.18.3133)$]$
+
 
 
 [[!redirects zigzag persistence modules]]
