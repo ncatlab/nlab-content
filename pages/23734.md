@@ -56,6 +56,8 @@ $$\mathrm{Can}(F) \cong \{x \in F \vert 0 \lt \vert x \vert\}$$
 
 * [[GCD ring]]
 
+* [[Bézout ring]]
+
 * [[Euclidean ring]]
 
 * [[prefield of fractions]]
