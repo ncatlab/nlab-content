@@ -25,6 +25,8 @@ A [[GCD ring]] $R$ is a **GCD domain** if $R$ is also an [[integral domain]].
 
 * [[integral domain]]
 
+* [[Bézout domain]]
+
 * [[unique factorization domain]]
 
 * [[Euclidean domain]]
