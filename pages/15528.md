@@ -35,6 +35,8 @@ In constructive mathematics, there are different types of integral domains, yiel
 
 ## Properties
 
+Every [[GCD domain]] of dimension at most 1 is a Bézout domain. 
+
 ### In classical mathematics
 
 In [[classical mathematics]], every [[Bézout domain]] $R$ that satisfies one of the following conditions is a [[principal ideal domain]]
@@ -80,6 +82,10 @@ As a result, in constructive mathematics not every [[Bézout domain]] that is a 
 * [[function field analogy]]
 
 ## References
+
+* [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+
+See also:
 
 * Wikipedia, _[Bézout domain](http://en.wikipedia.org/wiki/Bézout_domain)
 
