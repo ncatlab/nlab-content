@@ -143,7 +143,13 @@ The concept of zigzag persistence modules as a tool in [[topological data analys
 
 * {#CarlssonDeSilva10} [[Gunnar Carlsson]], [[Vin de Silva]], *Zigzag Persistence*, Found Comput Math **10** (2010) 367–405 $[$[arXiv:0812.0197](https://arxiv.org/abs/0812.0197), [doi:10.1007/s10208-010-9066-0](https://doi.org/10.1007/s10208-010-9066-0)$]$
 
+Application to [[level sets]]:
+
+* [[Gunnar Carlsson]], [[Vin de Silva]], [[Dmitriy Morozov]], *Zigzag persistent homology and real-valued functions*, in: *SCG '09: Proceedings of the twenty-fifth annual symposium on Computational geometry (2009) 247–256 $[$[doi:10.1145/1542362.1542408](https://doi.org/10.1145/1542362.1542408)$]$
+
 * [[Gunnar Carlsson]], [[Vin de Silva]], [[Sara Kališnik]], [[Dmitriy Morozov]], *Parametrized Homology via Zigzag Persistence*, Algebr. Geom. Topol. **19** (2019) 657-700 $[$[arXiv:1604.03596](https://arxiv.org/abs/1604.03596), [doi:10.2140/agt.2019.19.657](https://doi.org/10.2140/agt.2019.19.657)$]$
+
+
 
 Review:
 
