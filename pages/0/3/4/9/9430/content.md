@@ -14,22 +14,68 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {: toc}
 
-##Idea 
+## Idea 
+ {#Idea}
 
-Persistent homology is a [[homology theory]] adapted to a [[computation|computational]] context, for instance, in analysis of large data sets in [[topological data analysis]]. It keeps track of homology classes which stay 'persistent' when the approximate image of a space gets refined to higher resolutions.  
+*Persistent homology* is the study of [[sequences]] of [[linear maps]] between [[vector spaces]]
+
+$$
+  \cdots 
+   \xrightarrow{\;}
+  V_i 
+    \xrightarrow{\phi_i} 
+  V_{i + 1}
+    \xrightarrow{\phi_{i + 1}}
+  V_{i + 2}
+    \xrightarrow{\phi_{i + 2}}
+  \cdots
+  \,,
+$$
+
+under the aspect of which elements ([[vectors]]) $v_i \in V_i$ "persist" (ie. remain non-[[zero]]) under which number of iterations of these linear maps. One then refers to these sequences as *[[persistence modules]]* (hence a [[concept with an attitude]]).
+
+In the archetypical applications of interest, these vector spaces are [[ordinary homology|ordinary]] [[homology groups]] $V_i \,=\, H_n(X_i)$ (over a given [[ground field]]) of [[topological spaces]] $X_i$ which themselves are stages 
+
+$$ 
+  \cdots \hookrightarrow X_i \xhookrightarrow{\iota_i} X_{i+ 1} \xhookrightarrow{\iota_{i + 2}} X_{i + 2} \xhookrightarrow{} \cdots \xhookrightarrow{x} X
+$$ 
+
+of a [[filtered topological space]], and one is interested in deducing "relevant" properties of this filtration by finding those [[homology]] [[cycles]] which stand out as persisting over a large range of steps.
+
+This question, in turn, has been motivated from problems in [[topological data analysis]], where sequences of spaces $X_i$ arise as coarse-grained versions, at varying stages of resolution $i$ (say as measured in some ambient [[metric space]]) of a given [[discrete space|discrete set]] of data points. In this example, the more the homology cycles *persist* as the resolution $i$ is varied, the more one is willing to assume that they signal relevant structure that is hidden in the data, while cycles that do not persist for long would be interpreted as irrelevant noise effects. 
+
+Of course, these simple basic ideas may be (and still are being) refined and generalized in a number of ways. 
+
+A particularly important generalization turns out to be that from [[linear order|directed 1-dimensional]] sequences of linear maps to arbitrary [[zigzags]] of these, then called *[[zigzag persistence modules]]*. Again, this is naturally motivated in the case of homology groups of a [[filtered topological space]], where one may form the sequence of [[cospans]] 
+
+$$
+  \cdots \leftarrow X_i \to X_i \cup X_{i + 1} \leftarrow X_{i + 1} \to X_{i + 1} \cup X_{i + 2} \leftarrow \cdots
+$$ 
+
+of inclusions into [[unions]] of consecutive filter stages. 
+
+Seen in this generality,  the notion of finite-length [[zigzag persistence modules]] happens to coincide with that of [[ADE classification|A-type]] [[quiver representations]], a fruitful coincidence that serves to bring well-developed tools of [[quiver]]-[[representation theory]] to bear on persistent homology theory.
+
+In particular, the founding result of [[quiver representation theory]] -- namely  [[Gabriel's theorem]] -- serves, in hindsight, to establish the formal notion of persistence itself: The theorem implies (see [there](Gabriel's+theorem#ATypeQuivers)) that every ([[zigzag persistence|zigzag]]) [[persistence module]] is the [[direct sum]] of *interval modules* $I_{a,b}$, namely those which are [[zero]] except over the [[interval]] $i \in [a,b]$, where they are given by the [[identity]] on the [[ground field]] (the latter regarded as the [[dimension of a vector space|1-dimensional]] [[vector space]] over itself). 
+
+Hence the canonical [[linear basis]]-elements of these interval modules $I_{a,b}$ are exactly the persistent cycles which *persist from $a$ to $b$*, so that [[Gabriel's theorem]] guarantees that any (zigzag) persistence module may be completely decomposed into (the [[linear span]] of) these elements. Numerous generalizations of this theorem exist (taking it out of the context of [[quiver]]-theory) and show that this state of affairs remains true notably when one allows the indices $i$ to be taken from sets with [[infinite set|infinite]] [[cardinality]].
+
+In other words, the [[isomorphism class]] of any (zigzag) persistence module is equivalently encoded in a [[multiset]] of intervals. These multisets are known as *[[barcodes]]* (due to the evident graphical representation of a multiset of intervals) or as *[[persistence diagrams]]* (the latter usually when $[a,b]$ is regarded as a point $(a,b) \in \mathbb{R}^2$ in the [[plane]]). These [[persistence diagrams]] are meant to be the [[invariants]] of interest in persistent homology theory. 
+
+Besides the foundational theorem that guarantees the existence of persistence diagrams, the fundamental theorem of persistent homology has come to be the *[[stability of persistence diagrams|stability theorem]]*: This says that [[persistence diagrams]] are indeed *useful invariants*, namely in that they remain "stable" under small variations (think: noise, measurement errors) of input data such as the above topological filter stages $X_i$. 
+
+For example, as one changes a little the [[metric]] with which to produce the topological space $X_i$ of coarse grained data at resolution stage $i$, the homology groups $H(X_i)$ may change dramatically, but the [[stability of persistence diagrams|stability theorem]] ensures that effect on the [[persistence diagram]] remains small. 
+
+It is in this way that persistent homology may be used, in particular, to produce robust invariants of noisy data, which has made it the archetypical tool in [[topological data analysis]].
+
+\linebreak
 
 
-More in detail, suppose given a 'data cloud of samples', $P\subset \mathbb{R}^m$, from some space $X$, yielding a [[simplicial complex]] $S_\rho(X)$ for each $\rho \gt 0$ via one of the family of simplicial complex approximation methods that are listed below (TO BE ADDED).  For these, the important idea to retain is that if $\rho \lt \rho^\prime$, then 
-
-$$S_\rho(X) \hookrightarrow S_{\rho'}(X),$$
-
-so we get a 'filtration structure' on the complex.
-
-The idea of *persistent homology* is to look for features that persist for some range of parameter values.  Typically a feature, such as a hole, will initially not be observed, then will appear, and after a range of values of the parameter it will disappear again. A typical feature will be a [[Betti number]] of the complex, $S_\rho(X)$, which then will vary with the parameter $\rho$.
 
 
 ## Properties 
