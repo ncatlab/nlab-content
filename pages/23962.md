@@ -137,6 +137,12 @@ of consecutive filter stages:
 
 It is claimed (...) that such zigzag persistence modules still retain the same persistent information of interest, but are more robust.
 
+## Properties
+
+* [[stability of persistence diagrams]]
+
+* [[diamond principle]]
+
 ## References
 
 The concept of zigzag persistence modules as a tool in [[topological data analysis]] and their relation to [[quiver representation theory]] (including a re-proof of [[Gabriel's theorem]] for the case of A-type quivers) is due to:
@@ -153,8 +159,7 @@ Application to [[level sets]]:
 
 Review:
 
-* [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015)
-$[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
+* [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
 
 
 [[!redirects zigzag persistence modules]]
