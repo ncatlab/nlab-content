@@ -126,3 +126,8 @@ Introduction and survey:
 [[!redirects barcode]]
 [[!redirects barcodes]]
 
+[[!redirects persistence barcode]]
+[[!redirects persistence barcodes]]
+
+
+
