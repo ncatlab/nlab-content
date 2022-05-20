@@ -59,6 +59,7 @@ It is called _cancellative_ if it is both _left cancellative_ and _right cancell
 * [[integral monoid]]
 * [[GCD ring]]
 * [[multiplicative submonoid of cancellative elements]]
+* [[cancellative binary function]]
 
 [[!include oidification - table]]
 
