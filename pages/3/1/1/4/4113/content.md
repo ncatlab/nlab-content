@@ -20,9 +20,7 @@ A _partition of unity_ is a [[partition]] of the unit function on a [[topologica
 
 ## Definition
 
-Let $X$ be a [[topological space]]. A **partition of unity** on $X$ is a collection $\{u_j\}_{j \in J}$ of [[continuous functions]] $u_j \colon X \to [0,1]$, $j\in J$ to the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] such that
-
-     $\sum_{j \in J} u_j(x) = 1$ for all $x\in X$.
+Let $X$ be a [[topological space]]. A **partition of unity** on $X$ is a collection $\{u_j\}_{j \in J}$ of [[continuous functions]] $u_j \colon X \to [0,1]$, $j\in J$ to the [[closed interval]] with its [[Euclidean space|Euclidean]] [[metric topology]] such that $\sum_{j \in J} u_j(x) = 1$ for all $x\in X$.
 
 A partition of unity defines an [[open cover]] of $X$, consisting of the open sets $u_j^{-1}(0,1]$. Call this the **induced cover**.
 
