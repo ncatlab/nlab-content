@@ -335,6 +335,8 @@ One could analytically define the concepts of [[limit of a function]] and [[cont
 
 * [[rational interval coalgebra]]
 
+* [[rational root theorem]]
+
 [[!redirects rational number]]
 [[!redirects rational numbers]]
 [[!redirects field of rational numbers]]
