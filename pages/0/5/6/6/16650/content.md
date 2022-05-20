@@ -4,7 +4,7 @@
 
 ## Idea 
 
-A Euclidean domain is an integral domain which admits a form of the Euclidean quotient-and-remainder algorithm familiar from school mathematics. 
+A Euclidean domain is an integral domain which admits a form of the Euclidean quotient-and-remainder algorithm familiar from school mathematics, as well as a form of the extended Euclidean algorithm for calculating the [[greatest common divisor]] and [[Bézout coefficients]] in a [[Bézout domain]]. 
 
 ## Definition 
 
@@ -63,7 +63,17 @@ Euclidean domains could be generalised to the case where the structure is only a
 
 ## See also 
 
+* [[Bézout domain]]
 * [[Euclidean ring]]
+
+## References 
+
+See also:
+
+* Wikipedia, _[Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+
+* Wikipedia, _[extended Euclidean algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm)
 
 [[!redirects Euclidean domains]]
 [[!redirects Euclidean algorithm]] 
+[[!redirects extended Euclidean algorithm]]
