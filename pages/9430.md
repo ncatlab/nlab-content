@@ -61,12 +61,13 @@ Introduction and survey:
 
 * [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
 
-* [[Gunnar Carlsson]], _Persistent Homology and Applied Homotopy Theory_, in: [[Handbook of Homotopy Theory]], CRC Press, 2019 ([arXiv:2004.00738](https://arxiv.org/abs/2004.00738))
-
-With emphasis on tools from [[quiver representation]]-theory:
+Review with emphasis of [[zigzag persistence]] with relation to [[quiver representation theory]]:
 
 * [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015)
 $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
+
+* [[Gunnar Carlsson]], *Persistent Homology and Applied Homotopy Theory*, in: [[Handbook of Homotopy Theory]], CRC Press (2019) $[$[arXiv:2004.00738](https://arxiv.org/abs/2004.00738), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)$]$
+
 
 See also
 
@@ -77,14 +78,20 @@ See also
 * Wikipedia, _[Persistent homology](https://en.wikipedia.org/wiki/Persistent_homology)_
 
 
+Introducing "[[zigzag persistence]]" with relation to [[ADE-classification|A-type]] [[quiver representation]]-theory:
 
-Bar-codes were discovered under the name of _canonical forms invariants of filtered complexes_ in 
+* {#CarlssonDeSilva10} [[Gunnar Carlsson]], [[Vin de Silva]], *Zigzag Persistence*, Found Comput Math **10** (2010) 367–405 $[$[arXiv:0812.0197](https://arxiv.org/abs/0812.0197), [doi:10.1007/s10208-010-9066-0](https://doi.org/10.1007/s10208-010-9066-0)$]$
+
+* [[Gunnar Carlsson]], [[Vin de Silva]], [[Sara Kališnik]], [[Dmitriy Morozov]], *Parametrized Homology via Zigzag Persistence*, Algebr. Geom. Topol. **19** (2019) 657-700 $[$[arXiv:1604.03596](https://arxiv.org/abs/1604.03596), [doi:10.2140/agt.2019.19.657](https://doi.org/10.2140/agt.2019.19.657)$]$
+
+
+Bar-codes were introduced under the name of *canonical forms invariants of filtered complexes* in 
 
 *  Serguei Barannikov, _Framed Morse complex and its invariants_, [pdf](https://www.researchgate.net/profile/Serguei_Barannikov/publication/267672645_The_Framed_Morse_complex_and_its_invariants/links/5970e947458515fa8de6e724/The-Framed-Morse-complex-and-its-invariants.pdf) Advances in Soviet Mathematics __21__ 93–115 (1994)
 
 See also
 
-* A. Zomorodian, [[Gunnar Carlsson]], _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005) ([doi:10.1007/s00454-004-1146-y](https://doi.org/10.1007/s00454-004-1146-y))
+* A. Zomorodian, [[Gunnar Carlsson]], *Computing persistent homology*, Discrete Comput. Geom. __33__, 249&#8211;274 (2005) ([doi:10.1007/s00454-004-1146-y](https://doi.org/10.1007/s00454-004-1146-y))
 
 * [[Gunnar Carlsson]], V. de Silva, _Zigzag persistence_ ([arXiv:0812.0197](http://arxiv.org/abs/0812.0197))
 
@@ -111,7 +118,7 @@ See also
 
 * Heather A. Harrington, Nina Otter, Hal Schenck, [[Ulrike Tillmann]], _Stratifying multiparameter persistent homology_, [arxiv/1708.07390](https://arxiv.org/abs/1708.07390)
 
-* H. Edelsbrunner, D. Morozov, _Persistent homology: theory and practice_ [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)
+* H. Edelsbrunner, [[Dmitriy Morozov]], _Persistent homology: theory and practice_ [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)
 
 The following paper uses persistent homology to single out features relevant for training [[neural networks]]:
 
@@ -146,3 +153,6 @@ category: topology, applications
 
 [[!redirects persistence module]]
 [[!redirects persistence modules]]
+
+[[!redirects zigzag persistence]]
+[[!redirects zig-zag persistence]]
