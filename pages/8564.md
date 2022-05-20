@@ -23,6 +23,7 @@ A [[ring]] $R$ is a **principal ideal domain** if
 
 Often _pid_ is used as an abbreviation of "principal ideal domain". 
 
+Equivalently, a [[commutative ring]] $R$ is a **principal ideal domain** if it is a [[Noetherian ring|Noetherian]] [[Bézout ring|Bézout]] [[integral domain|domain]]. 
 
 ## Examples
 
