@@ -16,7 +16,7 @@
 
 ## Idea
 
-Given a [[category]], the *isomorphism class* of one of its [[objects]] is its [[equivalence class]] under the [[equivalence relation]] which regards two objects as related when they are connected by an [[isomorphism]].
+Given a [[category]], the *isomorphism class* of one of its [[objects]] is its [[equivalence class]] under the [[equivalence relation]] which regards two objects as [[relation|related]] when they are connected by an [[isomorphism]].
 
 The set of isomorphism classes of a category is also sometimes thought of as the category's *[[decategorification]]*.
 
