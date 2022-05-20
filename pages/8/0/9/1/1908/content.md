@@ -20,10 +20,9 @@ Decategorification is the reverse of [[vertical categorification]] and turns an 
 It corresponds in [[homotopy theory]] to [[truncated|truncation]].
 
 
-
 ## Definitions
 
-Given a ([[small category|small]] or [[essentially small category|essentially small]]) [[category]] $C$, the [[set]] of __[[isomorphism]] classes__ $K(C)$ of objects of $C$ is called the **decategorification** of $C$.
+Given a ([[small category|small]] or [[essentially small category|essentially small]]) [[category]] $C$, the [[set]] of __[[isomorphism classes]]__ $K(C)$ of objects of $C$ is called the **decategorification** of $C$.
 
 This is a [[functor]]
 
@@ -95,7 +94,4 @@ There may also be extra structure induced more directly on $K(C)$. For instance 
 [[!redirects decategorifies]]
 [[!redirects decategorify]]
 [[!redirects decategorifying]]
-
-[[!redirects isomorphism class]]
-[[!redirects isomorphism classes]]
 
