@@ -204,7 +204,7 @@ then its indecomposable representations are of this form:
 \begin{remark}
 \label{RelationToPersistencyModules}
 Example \ref{IndecomposableRepsOfAn} is of key relevance in the discussion of [[persistent homology]] (notably in [[topological data analysis]]): 
-Here an $\mathbb{A}_n$-[[quiver representation]] is called a *[[persistence module]]* and the statement of Ex. \ref{IndecomposableRepsOfAn} is interpreted as saying that every persistence module is spanned by elements which
+Here an $\mathbb{A}_n$-[[quiver representation]] is called a *[[zigzag persistence|zig-zag]] [[persistence module]]* and the statement of Ex. \ref{IndecomposableRepsOfAn} is interpreted as saying that every persistence module is spanned by elements which
 
 * *appear* at some *resolution* $a$,
 
