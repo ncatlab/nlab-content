@@ -45,6 +45,6 @@ $$\frac{\Delta \vdash A\ \mathrm{type} \quad \delta:\Delta}{A[\delta]\ \mathrm{t
 
 ## References
 
-* Mike Shulman, Towards a Third-Generation HOTT Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
+* [[Mike Shulman]], Towards a Third-Generation HOTT Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
 
 [[!redirects telescopes]]
