@@ -24,7 +24,7 @@ $\,$
 I work in <br>
 the [Mathematics Department](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) <br/>
 of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/) <br/>
-in the group of Prof. [[Hisham Sati]], leading the <br/>
+in the group of Prof. [[Hisham Sati]] leading the <br/>
 [Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) (CQTS).
 
 
