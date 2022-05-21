@@ -44,6 +44,8 @@ Given an [[abelian group]] $G$, the **exterior ring** is a [[ring]] $\Lambda(G)$
 
 * [[supercommutative ring]]
 
+* [[differential ring]]
+
 * [[exterior algebra]]
 
 [[!redirects exterior rings]]
