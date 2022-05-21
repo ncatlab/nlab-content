@@ -15,6 +15,11 @@ On [[persistent homology]] and [[topological data analysis]], with focus on the 
 
 * {#Oudot15} [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/), [pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf)$]$
 
+On [[level set]] [[persistent homology]] and [[sheaf theory]]:
+
+* {#BerkoukGinotOudot19} [[Nicolas Berkouk]], [[Grégory Ginot]], [[Steve Oudot]], *Level-sets persistence and sheaf theory* $[$[arXiv:1907.09759](https://arxiv.org/abs/1907.09759), [talk](Center+for+Quantum+and+Topological+Systems#GinotAtHomotopicalPerspectivesOnTDAJune2022)$]$
+
+
 
 
 category: people
