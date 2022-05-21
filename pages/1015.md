@@ -78,6 +78,12 @@ There is also [[algebraic set theory]], in which a material set theory is interp
 
 * [[set-theoretic multiverse]]
 
+* [[foundations of mathematics]]
+
+  * [[New Foundations]]
+
+  * [[univalent foundations of mathematics]]
+
 ## Literature
 
 ### General
