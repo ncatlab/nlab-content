@@ -94,6 +94,8 @@ This is relevant to [[constructive algebra]], as this shows that formulating cha
 
 * [[natural numbers type]], [[natural numbers object]]
 
+* [[decimal representation of the natural numbers]]
+
 * [[carrying]]
 
 * [[currying]]
