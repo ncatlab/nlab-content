@@ -61,11 +61,13 @@ $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$
 
 *  $\mathcal{M}$ itself is an $\mathcal{M}$-category whose objects are sets equipped with a specified subset, whose tight morphisms are functions which map the subset into each other, and whose loose morphisms are arbitrary functions.
 
+* The [[Kleisli category]] for any [[monad]], whose tight morphisms are those induced from the underlying category by postcomposition with the unit.
+
 *  Given any [[faithful functor]] $F\colon C \to D$, we may make $C$ into an $\mathcal{M}$-category whose tight morphisms are the original morphisms of $C$ and whose loose morphisms from $x$ to $y$ are the $D$-morphisms from $F(x)$ to $F(y)$.  This includes all of the examples above; up to [[equivalence of categories|equivalence]], this includes all examples.
 
 * Let $T$ be a strict 2-monad on a strict 2-category. Then the strict $T$-algebras form an $\mathcal{M}$-category $T \mathrm{Alg}$ where tight morphisms are the strict algebra morphisms and the loose morphisms are the pseudo algebra morphsims. This is just a decategorified version of the $\mathcal{F}$-category of $T$-algebras, which also includes the 2-cells between algebras. 
 
-* More generally, any strict $\mathcal{F}$-category can be made into an $\mathcal{M}$-category by forgetting the non-identity 2-cells. 
+* More generally, any strict $\mathcal{F}$-category can be made into an $\mathcal{M}$-category by forgetting the non-identity 2-cells.
 
 ## Applications
 
