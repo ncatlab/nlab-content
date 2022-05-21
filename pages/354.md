@@ -861,7 +861,7 @@ see there for more information.
 
 ## References
 
-Originally, Kan complexes were defined in a cubical setting,
+Originally, Kan complexes were defined in a [[cubical set|cubical setting]],
 where Kan introduced the extension property for cubical horns
 and established the elementary properties of cubical homotopy groups:
 
