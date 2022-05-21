@@ -15,7 +15,7 @@
 
 **[[homotopy type]]**, [[homotopy type theory]]
 
-* [[identity type]]
+* [[identity type]], [[dependent identity type]]
 
 * [[homotopy n-type]], [[connected type]]
 
