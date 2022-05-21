@@ -18,6 +18,11 @@ On [[nonabelian cohomology]] using [[model structures on simplicial presheaves]]
 
 * [[J. F. Jardine]], _Cocycle categories_, In: Baas N., Friedlander E., Jahren B., Østvær P. (eds) _Algebraic Topology_, Abel Symposia, vol 4. Springer 2009 ([arXiv:math/0605198](https://arxiv.org/abs/math/0605198), [doi:10.1007/978-3-642-01200-6_8]( https://doi.org/10.1007/978-3-642-01200-6_8))
 
+On [[persistent homotopy theory]]:
+
+* [[J. F. Jardine]], *Persistent homotopy theory* (2020) $[$[pdf](https://www.uwo.ca/math/faculty/jardine/lectures/persist-OSU-beamer.pdf), [[Jardine-PersistentHomotopy.pdf:file]]$]$
+
+
 
 
 category: people
