@@ -123,7 +123,13 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 ## References
 
-Named after [[Witold Hurewicz]].
+The original reference is
+
+* [[Witold Hurewicz]], _Beiträge zur Topologie der Deformationen_, Neder. Akad. Wetensch. 38 (1935), 521–528.
+
+The simplicial version is due to
+
+* [[Daniel M. Kan]],  _The Hurewicz theorem_, 1958 Symposium internacional de topología algebraica (International symposium on algebraic topology), pp. 225–231 Universidad Nacional Autónoma de México and UNESCO, Mexico City.
 
 The basic statement is for instance in
 
