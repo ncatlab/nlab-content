@@ -46,6 +46,8 @@ The elements of $\im(\mathcal{D}_0)$ are called **even elements** or **bosonic e
 
 * [[ring]]
 
+* [[differential ring]]
+
 * [[exterior ring]]
 
 * [[Clifford ring]]
