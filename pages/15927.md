@@ -11,6 +11,8 @@ For a long time the (relative) consistency of NF was an open problem, although N
 
 * Wikipedia, _[New Foundations](http://en.wikipedia.org/wiki/New_Foundations)_
 
+* Stanford Encyclopedia of Philosophy, _[Quine's New Foundations](https://plato.stanford.edu/entries/quine-nf/)_
+
 * [[Colin McLarty]], _Failure of cartesian closedness in NF_, Journal of Symbolic Logic, **57** no 2 (1992) pp 555-556 ([pdf](http://www.cwru.edu/artsci/phil/FCCinNF.pdf))
 
 * Thomas Forster, _Why the Sets of NF do not form a Cartesian-closed Category_, (1997) ([pdf](https://www.dpmms.cam.ac.uk/~tf/cartesian-closed.pdf))
