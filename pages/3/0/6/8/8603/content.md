@@ -12,3 +12,4 @@ Master's thesis:
 * [[algebraic stacks]]
 
 [[!redirects Adeel Khan Yusufzai]]
+[[!redirects Adeel Ahmad Khan]]
