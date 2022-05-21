@@ -23,6 +23,7 @@ On [[persistent homotopy theory]]:
 * [[J. F. Jardine]], *Persistent homotopy theory* (2020) $[$[pdf](https://www.uwo.ca/math/faculty/jardine/lectures/persist-OSU-beamer.pdf), [[Jardine-PersistentHomotopy.pdf:file]]$]$
 
 
+* [[Rick Jardine]], *Thoughts on big data sets*, talk at *[Homotopical Perspectives on TDA](Center+for+Quantum+and+Topological+Systems#JardineAtHomotopicalPerspectivesOnTDAJune2022)* (2020)
 
 
 category: people
