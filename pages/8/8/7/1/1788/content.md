@@ -29,7 +29,14 @@ to the [[one-point compactification]] of $n$-[[dimension of a vector space|dimen
 A feature in the data as seen by such an observable is then an [[isosurface]] of $Obs$, hence the [[pre-image]] 
 
 $$
-  Obs^{-1}(\vec v) \,\subset\, X
+  Obs^{-1}(\vec v) 
+  \;\coloneqq\;
+  \Big\{
+    x \in X
+    \,\big\vert\,
+    Obs(x) = \vec v
+  \Big\}
+  \;\subset\; X
 $$ 
 
 of a [[tuple]] $\vec v \in \mathbb{R}^n$ of observed values.
