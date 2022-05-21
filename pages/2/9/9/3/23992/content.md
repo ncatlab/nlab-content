@@ -8,3 +8,11 @@ Willard Van Orman Quine (1908–2000) was an analytic philosopher and logician /
 
 * ⋮
 
+## Selected writings
+
+(...)
+
+category: reference
+
+
+
