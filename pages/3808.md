@@ -65,7 +65,7 @@ In a context of [[automorphic forms]] and the [[Langlands correspondence]]:
 
 Lecture notes:
 
-* [[Andrew Sutherland]], _[Number theory I](https://ocw.mit.edu/courses/mathematics/18-785-number-theory-i-fall-2016/index.htm)_, 2016
+* [[Andrew Sutherland]], _[Number theory I](https://ocw.mit.edu/courses/18-785-number-theory-i-fall-2019/)_, 2019
 
 Further collection of lecture notes is [here](http://www.math.caltech.edu/~jimlb/coursenotes.html).
 
