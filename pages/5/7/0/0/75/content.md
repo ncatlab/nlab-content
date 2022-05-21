@@ -113,6 +113,8 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 ## Related concepts
 
+* [[New Foundations]]
+
 * [[univalent foundations for mathematics]]
 
 
