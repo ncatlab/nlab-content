@@ -170,11 +170,13 @@ See also [Shulman 18](#Shulman18).
 
 In this deeper form yet another equivalence -- to [[algebraic topology]] ([[schreiber:Proper Orbifold Cohomology|Sati & Schreiber 20]], [p. 5](https://ncatlab.org/schreiber/files/orbi210313.pdf#page=5)) -- opens up, as [[generalized elements]] in an [[(∞,1)-topos]] may equivalently be regarded as [[cocycles]] in ([[non-abelian cohomology|non-abelian]]) [[cohomology]], and in [[twisted cohomology]] if in a [[slice (∞,1)-category]] ([[schreiber:Proper Orbifold Cohomology|Sati & Schreiber 20]] [p. 6](https://arxiv.org/pdf/2008.01101.pdf#page=6), [[schreiber:The Character Map in Twisted Non-Abelian Cohomology|FSS 20]]), whence we have a *computational tetralogy*:
 
-> (from Sati & Schreiber 2021, "Topological and Quantum Systems")
 
 | In [[dependent type theory|dependent]] <br/> [[homotopy type theory]]: | In  [[programming languages]] <br/> and [[computation]]: | In [[locally cartesian closed (∞,1)-categories|locally cartesian closed]] <br/> [[(∞,1)-categories|∞-categories]]/[[(∞,1)-toposes|∞-toposes]]: | In [[non-abelian cohomology|non-abelian]] [[cohomology]] <br/> [[parametrized homotopy theory|param. homotopy theory]]:
 |--|--|--|--|
 | A [[term]] of some [[type]] <br/> in [[context]]. | A [[program]] of some [[data type]] <br/> in [[context]]. | An [[generalized element|element]] of an [[object]] <br/> in a [[slice (∞,1)-category|slice]]. | A [[cocycle]] <br/> in [[twisted cohomology]]. |
+
+> (from *[[CQTS]]*)
+
 
 \begin{tikzpicture}
 
@@ -275,7 +277,7 @@ Combining the [classical parametrized trilogy](#ClassicalParametrized) with the 
 
 there appears the "classically controlled quantum computational tetralogy":
 
-> (from Sati & Schreiber 2021, "Topological and Quantum Systems")
+> (from [[CQTS]])
 
 | In [[dependent linear type theory|dependent linear]] <br/> [[homotopy type theory]]: | In  [classically controlled](quantum+computation#ClassicalControlQuantumData) <br/> [[quantum programming languages]]: | In [[indexed monoidal (∞,1)-categories|indexed monoidal]] <br/> [[parameterized stable homotopy theory|∞-cats of par. spectra]]: | In [[Whitehead generalized cohomology theory|Whitehead-generalized]] <br/> [[twisted cohomology theory]]:
 |--|--|--|--|
@@ -354,10 +356,10 @@ there appears the "classically controlled quantum computational tetralogy":
         "bottom": 20,
         "right": 0, 
         "left": 10
-    },
-    "caption": "From Sati and Schreiber 2021: 'Topological and Quantum Systems'"
+    }
 \end{imagefromfile}
 
+> (from [[CQTS]])
 
 \linebreak
 
