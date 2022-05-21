@@ -160,6 +160,7 @@ By the univalence axiom, we often have nice characterizations of "the type of a 
 
 * {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
 
+[[!redirects univalent foundations of mathematics]]
 
 [[!redirects univalent foundations]]
 [[!redirects Univalent Foundations]]
