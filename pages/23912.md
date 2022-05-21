@@ -48,6 +48,8 @@ Equivalently: A [[groupoid]] $G$ that is both a [[symmetric 2-group]] $(G, 0, \o
 
 * [[symmetric ring groupoid]]
 
+* [[differential ring groupoid]]
+
 * [[ring functor]], [[algebra groupoid]]
 
 ## References
