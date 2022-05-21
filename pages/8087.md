@@ -34,3 +34,6 @@ category: software
 
 [[!redirects sage]]
 [[!redirects Sage]]
+
+[[!redirects SageMath]]
+
