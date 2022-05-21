@@ -327,6 +327,8 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[transport]]
 
+* [[action on identifications]]
+
 * [[dependent identity type]]
 
 * [[axiom K]]
