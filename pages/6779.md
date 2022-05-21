@@ -123,11 +123,11 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 ## References
 
-The original reference is
+The original reference is:
 
-* [[Witold Hurewicz]], _Beiträge zur Topologie der Deformationen_, Neder. Akad. Wetensch. 38 (1935), 521–528.
+* [[Witold Hurewicz]], *Beiträge zur Topologie der Deformationen*, Neder. Akad. Wetensch. **38** (1935) 521–528 $[$[gbooks](https://books.google.ru/books/about/Beitr%C3%A4ge_zur_Topologie_der_Deformatione.html?id=lge_ygAACAAJ&redir_esc=y)$]$
 
-The simplicial version is due to
+The [[simplicial homotopy theory|simplicial]] version is due to
 
 * [[Daniel M. Kan]],  _The Hurewicz theorem_, 1958 Symposium internacional de topología algebraica (International symposium on algebraic topology), pp. 225–231 Universidad Nacional Autónoma de México and UNESCO, Mexico City.
 
