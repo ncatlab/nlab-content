@@ -325,6 +325,10 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[intensional type theory]], [[extensional type theory]]
 
+* [[transport]]
+
+* [[dependent identity type]]
+
 * [[axiom K]]
 
 * [[axiom UIP]]
