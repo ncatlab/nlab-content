@@ -1,3 +1,7 @@
+> This page is about the notion in [[homotopy type theory|homotopy]] [[type theory]]. For *[[parallel transport]]* via [[connections]] in [[differential geometry]] see there.
+
+***
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -15,7 +19,7 @@
 
 ## Definition ##
 
-In [[Martin-Löf type theory]], given a type $A$, a judgment $z:A \vdash B(z)\ \mathrm{type}$, terms $x:A$ and $y:A$, and an identity $p:(x =_A y)$, there are **transport functions** $\overrightarrow{\mathrm{tr}}_{B}^{p}:B(x) \to B(y)$ and $\overleftarrow{\mathrm{tr}}_{B}^{p}:B(y) \to B(x)$, such that for all $v:B(y)$, the [[fiber]] of $\overrightarrow{\mathrm{tr}}_{B}^{p}$ at $v$ is [[contractible]], and for all $u:B(x)$, the [[fiber]] of $\overleftarrow{\mathrm{tr}}_{B}^{p}$ at $u$ is [[contractible]]. 
+In [[Martin-Löf type theory]], given a [[type]] $A$, a [[judgment]] $z:A \vdash B(z)\ \mathrm{type}$, [[terms]] $x:A$ and $y:A$, and an [[identity]] $p:(x =_A y)$, there are **transport functions** $\overrightarrow{\mathrm{tr}}_{B}^{p}:B(x) \to B(y)$ and $\overleftarrow{\mathrm{tr}}_{B}^{p}:B(y) \to B(x)$, such that for all $v:B(y)$, the [[fiber]] of $\overrightarrow{\mathrm{tr}}_{B}^{p}$ at $v$ is [[contractible]], and for all $u:B(x)$, the [[fiber]] of $\overleftarrow{\mathrm{tr}}_{B}^{p}$ at $u$ is [[contractible]]. 
 
 ## See also ##
 
