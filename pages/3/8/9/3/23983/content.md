@@ -13,21 +13,29 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In [[dependent type theory]], given a [[type]] $A$, a [[type family]] $x:A \vdash B(x)$, [[terms]] $a_0:A$, $a_1:A$, and an [[identification]] $p:a_0 =_A a_1$, a **dependent identity type** or a **heterogeneous identity type** between two elements $b_0: B(a_0)$ and $b_1:B(a_1)$ is a type whose elements witness that $b_0$ and $b_1$ are "equal" over or modulo the identification $p$.  There are different ways to define this precisely, depending partly on the particular type theory used.
+
 ## Definition 
 
 ### In Martin-Löf type theory
 
-In [[Martin-Löf type theory]], given a [[type]] $A$, a [[type family]] $x:A \vdash B(x)$, [[terms]] $a:A$, $b:A$, and [[identity]] $p:a =_A b$, a **dependent identity type** or a **heterogeneous identity type** is the [[transport]] of the [[identity type]] along the identity $p$:
+One way to define the dependent identity type in Martin-Lof type theory is using [[transport]] along the identification $p$:
 
-$$a =_B^p b \coloneqq \mathrm{tr}_B^p(a =_{B(b)} b)$$ 
+$$(a =_B^p b) \coloneqq (\mathrm{tr}_B^p(a) =_{B(b)} b)$$ 
+
+There are also other possibilities...
+
+### In cubical type theory
+
+... to be written
 
 ### In higher observational type theory 
 
-In [[higher observational type theory]], the [[type formation|formation rule]] for the dependent identity types is given by
+In [[higher observational type theory]], the dependent identity type is a primitive type former (although depending on the presentation, it can also be obtained using $ap$ into the universe).  In its general form, the type family can depend not just on a single type but on a [[type telescope]] $\Delta$.  The resulting dependent identity type then depends on an "identification in that telescope", which is defined by mutual recursion as a telescope of dependent identity types.  The [[type formation|formation rule]] is then
 
 $$\frac{\varsigma:\delta =_\Delta \delta^{'} \quad \delta \vdash A\ \mathrm{type} \quad a:A[\delta] \quad a^{'}:A[\delta^{'}]}{a =_{\Delta.A}^\varsigma a^{'}\ \mathrm{type}}$$
-
-where $\Delta$ is a [[type telescope]].
 
 ... needs to be finished
 
