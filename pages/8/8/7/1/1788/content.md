@@ -47,6 +47,37 @@ The example of point clouds is subsumed as being the case where $n = 1$ and $Obs
 
 $\Delta\dashv\Gamma\dashv\nabla$
 
+***
+
+
+<div style="float:right;margin:0 20px 10px 20px;">
+<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html">
+<img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
+</a>
+</div>
+
+The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)* (CQTS)  is a Research Center, launching in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
+
+[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]], as well as tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation]]. A unifying theme is the use of new methods from *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[schreiber:Hypothesis H|in high energy physics]]. 
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Members
+
+* lead PI: [[Hisham Sati]]
+
+* (...)
+
+
+
+## Conferences & Workshops
+
+(...)
+
 
 
  
