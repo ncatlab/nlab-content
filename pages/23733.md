@@ -32,15 +32,11 @@ A [[commutative ring]] $R$ is a **GCD ring** if there is a function $\gcd:R \tim
 
 * [[commutative ring]]
 
-* [[GCD domain]]
-
 * [[Bézout ring]]
 
+* [[GCD domain]]
+
 * [[Euclidean ring]]
-
-* [[prefield]]
-
-* [[field]]
 
 ## References ##
 
