@@ -38,6 +38,8 @@ A **supercommutative ring** is a [[super ring]] $R$, such that
 
 * [[ring]]
 
+* [[differential ring]]
+
 * [[exterior ring]]
 
 * [[graded ring]]
