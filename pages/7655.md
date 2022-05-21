@@ -3,7 +3,13 @@
 
 ## Selected writings
 
-* Lecture introducing [[compactly generated topological spaces]], Princeton 1948-49 ([communicated](compactly+generated+topological+space#fnref:2) by [[David Gale]])
+Introducing the [[Hurewicz theorem]]:
+
+* [[Witold Hurewicz]], *Beiträge zur Topologie der Deformationen*, Neder. Akad. Wetensch. **38** (1935) 521–528 $[$[gbooks](https://books.google.ru/books/about/Beitr%C3%A4ge_zur_Topologie_der_Deformatione.html?id=lge_ygAACAAJ&redir_esc=y)$]$
+
+Introducing [[compactly generated topological spaces]]:
+
+* unrecorded lecture introducing [[compactly generated topological spaces]], Princeton 1948-49 ([communicated](compactly+generated+topological+space#fnref:2) by [[David Gale]])
 
 Origin of the notion of [[Hurewicz fibrations]]:
 
