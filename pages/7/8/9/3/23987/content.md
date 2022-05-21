@@ -14,47 +14,6 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 {:toc}
 
 
-## Members
-
-lead PI: 
-
-* [[Hisham Sati]]
-
-PI-s:
-
-* [[Tim Byrnes]]
-
-* (...)
-
-* (...)
-
-* (...)
-
-* (...)
-
-* (...)
-
-* (...)
-
-* (...)
-
-
-Researchers:
-
-* [[Urs Schreiber]]
-
-* (...)
-
-* (...)
-
-* (...)
-
-* (...)
-
-* (...)
-
-* (...)
-
 
 ## Conferences & Workshops
 
@@ -130,11 +89,12 @@ Researchers:
 
 \linebreak
 
+\linebreak
 
-## Preprints and Publications
+
+## Selected preprints
 
 
-In reverse chronological order:
 
 * Y. Shi, J. Shi, [[Tim Byrnes|T. Byrnes]]:
 
