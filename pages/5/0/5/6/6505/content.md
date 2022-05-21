@@ -236,8 +236,6 @@ In the context of [[constrained mechanics]] the components of the momentum map (
 The momentum map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotients]] and in other variants of symplectic reduction.
 
 
-
-
 ## References
 
 The concept is originally due to [[Jean-Marie Souriau]].
@@ -288,8 +286,6 @@ Momentum maps in [[higher geometry]], [[schreiber:Higher geometric prequantum th
 
 Reviews include for instance
 
-
-
 * {#FOF} [[José Figueroa-O'Farrill]], p. 26 of  chapter 2+3 of PhD thesis  ([pdf](http://empg.maths.ed.ac.uk/Activities/BRST/Ch2+3PhD.pdf))
  
 
@@ -309,6 +305,10 @@ The relation between momentum maps and [[conserved currents]]/[[Noether's theore
  
 * {#Fan} Huijun Fan, _Lecture 8, Moment map and symplectic reduction_ ([pdf](http://www.math.pku.edu.cn/teachers/fanhj/courses/symp-8.pdf))
  
+### In diffeology
+ {#ReferencesInDiffeology}
+
+* {#PIZ} [[Patrick Iglesias-Zemmour]], _The moment map in diffeology_, Memoirs of the American Mathematical Society (2010) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972))
 
 ### In thermodynamics
  {#ReferencesInThermodynamics}
