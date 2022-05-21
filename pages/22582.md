@@ -1,6 +1,8 @@
 
 * [Institute page](https://shanghai.nyu.edu/academics/faculty/directory/tim-byrnes)
 
+* [[CQTS]]
+
 ## Selected writings
 
 On [[quantum optics]] in [[quantum information theory]]:
