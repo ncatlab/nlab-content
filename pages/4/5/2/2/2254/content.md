@@ -328,7 +328,7 @@ The grading is chosen with regards to the formal group laws arising from [[compl
 $$
  deg(a_{i j} x^i y^j)
   = 
-  deg(a_i,j) + i deg(x) + j deg(y)
+  deg(a_{i j}) + i deg(x) + j deg(y)
   =
   -2
   \,.
