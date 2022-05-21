@@ -60,7 +60,7 @@ The morphism $f$ being an [[effective monomorphism]] means that $\tilde f$ is an
 
 ##In homotopy type theory
 
-Let $f: A \to B$. Then $f$ is an embedding if for every $x, y : A$ the function $ap_f: (x =_A y) \to (f(x) =_B
+Let $f: A \to B$. Then $f$ is an embedding if for every $x, y : A$ the [[action on identifications]] $ap_f: (x =_A y) \to (f(x) =_B
 f(y))$ is an [[equivalence]].
 
 ## Examples
