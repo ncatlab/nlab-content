@@ -75,3 +75,6 @@ to analysis of [[phase transitions]]:
 
 
 [[!redirects topological data analysis]]
+
+[[!redirects TDA]]
+
