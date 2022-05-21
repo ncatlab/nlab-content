@@ -137,6 +137,27 @@ As dream mathematics includes [[excluded middle]] and [[dependent choice]], the 
 
 This theorem applies more generally to [[F-norms]] but not to [[G-norms]] (even on a real vector space).
 
+## Norms valued in another Archimedean integral domain
+
+In [[constructive mathematics]], the notion of "real numbers" bifurcates: the [[Dedekind real numbers]] are different from the [[modulated Cauchy real numbers]], which are different from the [[HoTT book real numbers]], which are different from the [[localic real numbers]], and so on. As a result, there are multiple sets of real numbers in which a metric could be valued in. 
+
+In [[predicative mathematics]], the issue becomes even worse: there is no longer one set of Dedekind real numbers, but a whole hierarchy of Dedekind real numbers, one set for every [[universe]] in the [[foundations of mathematics|foundations]]. As a result, one cannot resort to merely using the [[Dedekind real numbers]] for defining the norm as in impredicative mathematics, one has to define norms and normed spaces more generally. 
+
+Thus, given an [[Archimedean integral domain]] $R$, for $k$ a [[field]] equipped with a [[valuation]], an **$R$-norm** on a $k$-[[vector space]] $V$ is a [[function]] 
+
+$$
+  {\vert-\vert} \colon V \to R
+$$ 
+
+such that for all $\lambda \in k$, $v,w \in V$ we have
+
+1.  ${\vert \lambda v \vert} = {\vert \lambda\vert} {\vert v \vert}$ (where $\vert \lambda \vert$ denotes the [[valuation]])
+
+1.  ${\vert v + w\vert } \leq {\vert v \vert } + {\vert w \vert}$ ("[[triangle inequality]]")
+
+1.  if ${\vert v\vert} = 0$ then $v = 0$.
+
+One could define $R$-seminorms, non-archimedean $R$-norms, and $R$-normed vector spaces in the same way as above. 
 
 ## Related concepts
 
