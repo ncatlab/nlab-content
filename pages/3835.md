@@ -21,9 +21,11 @@ On [[diffeological spaces]]:
 
 On [[orbifolds]] regarded as naive local quotient [[diffeological spaces]]:
 
-
 * {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093))
 
+On the [[moment map]] in [[diffeology]]:
+
+* {#IZ10} [[Patrick Iglesias-Zemmour]], *The moment map in diffeology*, Memoirs of the American Mathematical Society (2010) $[$[web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972)$]$
 
 On [[manifolds with boundaries and corners]] as [[diffeological spaces]], and on [[differential forms]] on these:
 
