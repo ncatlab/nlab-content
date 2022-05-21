@@ -15,7 +15,7 @@ On [[effective homology]]:
 
 On [[Cohomotopy]]-sets in [[computational topology]]:
 
-* [[Martin Čadek]], [[Marek Krčál]], Jiří Matoušek, [[Francis Sergeraert]], [[Lukáš Vokřínek]], [[Uli Wagner]], _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
+* [[Martin Čadek]], [[Marek Krčál]], [[Jiří Matoušek]], [[Francis Sergeraert]], [[Lukáš Vokřínek]], [[Uli Wagner]], _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
 
 
 
