@@ -22,6 +22,10 @@
 
 _Synthetic Tait computability_ is an approach to constructing [[logical relations]] (also known as Tait's method of computability) using the [[internal language]] of [[toposes]] constructed using [[Artin gluing]]. 
 
+## Terminology
+
+Note that despite the name, synthetic Tait computability is not a subfield of [[synthetic computability theory]], but rather a [[synthetic mathematics|synthetic]] approach to [[logical relations|Tait's method of computability]]. This suggests that synthetic Tait computability is one technique in a larger field of synthetic mathematics internal to a glued topos.
+
 ## Related concepts
 
 * [[synthetic computability theory]]
