@@ -861,6 +861,37 @@ see there for more information.
 
 ## References
 
+Originally, Kan complexes were defined in a cubical setting,
+where Kan introduced the extension property for cubical horns
+and established the elementary properties of cubical homotopy groups:
+
+* [[Daniel M. Kan]], _Abstract homotopy.  I_, Proceedings of the National Academy of Sciences 41:12 (1955), 1092-1096.  [doi](http://dx.doi.org/10.1073/pnas.41.12.1092).
+
+The second paper in the series proves that the cubical singular complex functor yields cubical Kan complexes:
+
+* [[Daniel M. Kan]], _Abstract homotopy.  II_, Proceedings of the National Academy of Sciences 42:5 (1956), 255-258.  [doi](http://dx.doi.org/10.1073/pnas.42.5.255).
+
+The third paper introduces simplicial Kan complexes (as “c.s.s. complexes which satisfy the extension condition”), and defines and studies the [[Kan fibrant replacement]] functor:
+
+* [[Daniel M. Kan]], _Abstract homotopy.  III_, Proceedings of the National Academy of Sciences 42:7 (1956), 419-421.  [doi](http://dx.doi.org/10.1073/pnas.42.7.419).
+
+The fourth paper proves that [[simplicial groups]] are Kan complexes and studies their properties, including the [[Kan loop group]] functor:
+
+* [[Daniel M. Kan]], _Abstract homotopy.  IV_, Proceedings of the National Academy of Sciences 42:8 (1956), 542-544.  [doi](http://dx.doi.org/10.1073/pnas.42.8.542).
+
+The details for Part III above appeared in the paper
+
+* [[Daniel M. Kan]], _On c.s.s. complexes_, American Journal of Mathematics 79:3 (1957), 449–476.  [doi](http://dx.doi.org/10.2307/2372558)
+
+[[John C. Moore]] in his review of this paper for [[Mathematical Reviews]] indicates that the term “Kan complex” was already in use at the time:
+
+> For such complexes, usually called Kan complexes, homotopy groups may be defined, and, further, the notion of homotopy between maps of an arbitrary semi-simplicial complex into a Kan complex is an equivalence relation. 
+
+The details for Part IV above are given in the following paper:
+
+* [[Daniel M. Kan]], _A Combinatorial Definition of Homotopy Groups_, The Annals of Mathematics 67:2 (1958), 282–312.  [doi](http://dx.doi.org/10.2307/1970006).
+
+
 Exposition:
 
 * {#Friedman08} [[Greg Friedman]], Section 7 of: _An elementary illustrated introduction to simplicial sets_, Rocky Mountain J. Math. 42(2): 353-423 (2012) ([arXiv:0809.4221](http://arxiv.org/abs/0809.4221), [doi:10.1216/RMJ-2012-42-2-353](https://projecteuclid.org/journals/rocky-mountain-journal-of-mathematics/volume-42/issue-2/Survey-Article-An-elementary-illustrated-introduction-to-simplicial-sets/10.1216/RMJ-2012-42-2-353.full))
