@@ -76,8 +76,8 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ## Conferences & Workshops
 
-(...)
+* bull
 
-
-
- 
+* let
+    - sub
+    - marine
