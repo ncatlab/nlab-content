@@ -104,6 +104,8 @@ One can compute intervals for homological features algorithmically over field co
 
 * [[topological data analysis]]
 
+* [[persistent homotopy theory]]
+
 * [[computational topology]]
 
 * [[quiver representation]], [[Gabriel's theorem]]
@@ -187,6 +189,9 @@ See also
 * Genki Kusano, Kenji Fukumizu, Yasuaki Hiraoka, _Persistence weighted Gaussian kernel for topological data analysis_, [arxiv/1601.01741](http://arxiv.org/abs/1601.01741)
 
 * Heather A. Harrington, Nina Otter, Hal Schenck, [[Ulrike Tillmann]], _Stratifying multiparameter persistent homology_, [arxiv/1708.07390](https://arxiv.org/abs/1708.07390)
+
+* {#BerkoukGinotOudot19} [[Nicolas Berkouk]], [[Grégory Ginot]], [[Steve Oudot]], *Level-sets persistence and sheaf theory* $[$[arXiv:1907.09759](https://arxiv.org/abs/1907.09759)$]$
+
 
 
 The following paper uses persistent homology to single out features relevant for training [[neural networks]]:
