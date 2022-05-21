@@ -436,7 +436,7 @@ and for the general case:
 
 * R. Sujatha, _Elliptic Curves & Number Theory_ ([[SujahtaElliptic.pdf:file]])
 
-* {#Sutherland13} [[Andrew Sutherland]], _Elliptic curves and abelian varieties_, lecture 23 in _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/), [lecture 23 pdf](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/MIT18_782F13_lec23.pdf))
+* {#Sutherland21} [[Andrew Sutherland]], _Elliptic curves_, 2021 ([web](https://ocw.mit.edu/courses/18-783-elliptic-curves-spring-2021/))
 
 See also
 
