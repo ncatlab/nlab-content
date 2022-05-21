@@ -201,6 +201,8 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[polynomial function]]
 
+* [[polynomial functor]]
+
 [[!redirects polynomial]]
 [[!redirects polynomials]]
 
