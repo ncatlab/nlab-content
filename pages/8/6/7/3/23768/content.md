@@ -1,4 +1,5 @@
 
+
 > This entry is about a notion in [[formal logic]] ([[type theory]]). For the notion in [[homotopy theory]] see at *[[mapping telescope]]*.
 
 ***
@@ -47,4 +48,7 @@ $$\frac{\Delta \vdash A\ \mathrm{type} \quad \delta:\Delta}{A[\delta]\ \mathrm{t
 
 * [[Mike Shulman]], Towards a Third-Generation HOTT Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
 
+[[!redirects type telescopes]]
+
+[[!redirects telescope]]
 [[!redirects telescopes]]
