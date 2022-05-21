@@ -89,3 +89,6 @@ More details and relation to [[décalage]]:
 [[!redirects simplicial loop functors]]
 [[!redirects simplicial loop space functor]]
 [[!redirects simplicial loop space functors]]
+
+[[!redirects Kan loop group]]
+[[!redirects Kan loop groups]]
