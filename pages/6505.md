@@ -308,7 +308,9 @@ The relation between momentum maps and [[conserved currents]]/[[Noether's theore
 ### In diffeology
  {#ReferencesInDiffeology}
 
-* {#PIZ} [[Patrick Iglesias-Zemmour]], _The moment map in diffeology_, Memoirs of the American Mathematical Society (2010) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972))
+Discussion in [[diffeology]]:
+
+* {#PIZ} [[Patrick Iglesias-Zemmour]], *The moment map in diffeology*, Memoirs of the American Mathematical Society (2010) $[$[web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972)$]$
 
 ### In thermodynamics
  {#ReferencesInThermodynamics}
