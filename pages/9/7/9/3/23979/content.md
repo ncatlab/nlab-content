@@ -36,7 +36,7 @@ A [[commutative ring]] $R$ is a **Bézout ring** if every ideal with 2 generator
 A [[commutative ring]] $R$ is a **Bézout ring** if every finitely generated ideal is a [[principal ideal]]. 
 \end{definition}
 
-If the commutative ring is a [[GCD ring]] and the common divisor is the [[greatest common divisor]], then the Bézout ring condition $a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gcd(a, b)$ is called the **Bézout identity**. There might be multiple Bézout coefficient functions for each commutative ring. 
+If the commutative ring is a [[GCD ring]] and the common divisor is the [[greatest common divisor]], then the Bézout ring condition $a \cdot \beta_0(a, b) + b \cdot \beta_1(a, b) = \gcd(a, b)$ is called the **Bézout identity**. There might be multiple Bézout coefficient functions for each Bézout ring. 
 
 ## See also ##
 
@@ -44,11 +44,9 @@ If the commutative ring is a [[GCD ring]] and the common divisor is the [[greate
 
 * [[GCD ring]]
 
-* [[Euclidean ring]]
-
-* [[prefield]]
-
 * [[Bézout domain]]
+
+* [[Euclidean ring]]
 
 ## References
 
