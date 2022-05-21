@@ -71,6 +71,26 @@ If we allow $d$ to take values in $[0,\infty]$ (the nonnegative [[lower reals]])
 $$ max(d(x,y), d(y,z)) \geq d(x,z) ,$$
 then we get __ultrametric spaces__, a more restricted concept.  (This include for example $p$-[[adic completion]]s of [[number fields]].)  Extended quasipseudoultrametric spaces can also be called __Lawvere ultrametric spaces__.
 
+### Metrics valued in another Archimedean integral domain
+
+In some cases, we might want our [[codomain]] of our metric to take values in values other than the real numbers $\mathbb{R}$. This is already important in the definition of the real numbers as [[modulated Cauchy real numbers]], where the metric used is valued in the [[non-negative number|non-negative]] [[rational numbers]] $\mathbb{Q}_{\geq 0}$. 
+
+This becomes even more essential in [[constructive mathematics]]: while in [[classical mathematics]], the [[modulated Cauchy real numbers]] are equivalent to the [[Dedekind real numbers]], in [[constructive mathematics]], those definitions are inequivalent to the [[Dedekind real numbers]], and so there are multiple sets of real numbers in which a metric could be valued in. 
+
+In [[predicative mathematics]], the issue becomes even worse: there is no longer one set of Dedekind real numbers, but a whole hierarchy of Dedekind real numbers, one set for every [[universe]] in the [[foundations of mathematics|foundations]]. As a result, one cannot resort to merely using the [[Dedekind real numbers]] for defining the metric as in impredicative mathematics, one has to define metrics and metric spaces more generally. 
+
+Thus, given an [[Archimedean integral domain]] $R$, an **$R$-metric** on a set $X$ is a function $d:X \times X \to [0, \infty)$, where $[0, \infty)$ is the set of non-negative elements in $R$, such that 
+
+* [[triangle inequality|Triangle inequality]]: $d(x, y) + d(y, z) \geq d(x, z)$;
+
+* Point inequality: $0 \geq d(x, x)$ (so $0 = d(x,x)$);
+
+* Separation: $x = y$ if $d(x, y) = 0$ (so $x = y$ iff $d(x,y) = 0$);
+
+* Symmetry: $d(x, y) = d(y, x)$.
+
+One could then define $R$-pseudometrics, $R$-quasimetrics, $R$-ultrametrics, extended $R$-metrics, and Lawvere $R$-metrics in the same way as one does for the real numbers in classical mathematics. 
+
 ### Category of metric spaces
 
 When working with metric spaces one encounters a broad variety of different maps including non-[[continuous map|continuous]] ones like almost isometries. For a convenient categorical set-up one often restricts to __[[short map|short maps]]__, i.e. maps that do not increase any distance or, equivalently, have are of [[Lipschitz map|Lipschitz norm]] not greater than 1. The category of Lawvere metric spaces and short maps forms the [[category of metric spaces]] $Met$. The restriction to ordinary metric spaces is denoted by $Met_{ord}$.
