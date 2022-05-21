@@ -25,7 +25,7 @@ I work in <br>
 the [Mathematics Department](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) <br/>
 of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/) <br/>
 in the group of Prof. [[Hisham Sati]] leading the <br/>
-[Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) (CQTS).
+[Research Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) (see *[[CQTS]]*).
 
 
 ## contact
@@ -77,11 +77,10 @@ For more on what the $n$Lab is, see:
 
 * me on: _[[schreiber:What is... the nLab|What is... the nLab?]]_
 
+  (presentation at *[Big Data in Pure Mathematics 2022](http://math.bu.edu/people/matschke/BigDataPureMath2022/)*)
+
 * Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
 
-* presentation at *[Big Data in Pure Mathematics 2022](http://math.bu.edu/people/matschke/BigDataPureMath2022/)*  
-
-  (upcoming on 21st May 2022)
 
 
 ## more web logs
