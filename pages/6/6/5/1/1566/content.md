@@ -36,6 +36,9 @@ Every commutative monoid has the canonical structure of a [[module]] over the co
 
 More generally, the concept makes sense [[internalization|internal]] to any [[symmetric monoidal category]]. See at _[[commutative monoid in a symmetric monoidal category]]_ for details.
 
+### As a 0-truncated object
+
+A **commutative monoid** is a [[n-truncated|0-truncated]] commutative [[H-monoid]]. It is also a [[n-truncated|0-truncated]] [[E2-algebra|$E_2$-space]]. 
 
 ## Examples
 
