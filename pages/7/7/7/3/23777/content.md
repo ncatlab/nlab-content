@@ -1,4 +1,3 @@
-
 #Contents#
 * table of contents
 {:toc}
@@ -14,7 +13,7 @@ For the purposes of this section, $R$ is a fixed a unital ring and $A$ is a unit
 \begin{definition}
 Let ${}_{A}\mathbf{Mod}^{\bullet}$ denote the category with:
 
-* objects given by \textit{pointed left $A$-modules}: pairs $(M,m)$ of a left $A$-module $M$ and an element $m \in M$
+* objects given by *pointed left $A$-modules*: pairs $(M,m)$ of a left $A$-module $M$ and an element $m \in M$
 
 * morphisms given by point preserving intertwiners.
 
@@ -26,36 +25,57 @@ For those that find the notion of a pointed module somewhat awkward, note that: 
 \end{remark}
 
 \begin{definition}
-$\mathbf{L}(A)$ is the thin category given by the (opposite) of the poset of left ideals of $A$: 
+$\mathbf{L}(A)$ is the thin category given by the poset of left ideals of $A$: 
 
 * objects are left ideals of $A$, and 
 
-* there is a unique morphism $I \to J$ if and only if $J \subseteq I$.
+* there is a unique morphism $I \to J$ if and only if $I \subseteq J$.
 
 \end{definition}
+
+Note that the process of taking annihilators of distinguished points of left $A$-modules defines a functor:
+\[
+  \mathsf{Ann}_{A} \colon \mathbf{Mod}_{A}^{\bullet} \longrightarrow \mathbf{L}(A).
+\]
+Explicitly: it acts on objects by:
+\[
+   \mathsf{Ann}_{A} \colon (M,m) \mapsto \mathrm{Ann}_{A}(m) \coloneqq \{ a \in A : a \cdot m = 0 \}
+\]
+and its action on morphisms is deduced from the following straightforward remark.
+
+\begin{remark}
+ If $f \colon (M,m) \to (N,n)$ is a morphism of pointed modules, then we must have $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$
+\end{remark}
+
+Thus, for $f \colon (M,m) \to (N,n)$ a $\mathbf{Mod}^{\bullet}_{A}$-morphism, we can define $\mathsf{Ann}_{A}(f) \colon \mathsf{Ann}_{A}(m) \to \mathsf{Ann}_{A}(n)$ as the unique $\mathbf{L}(A)$-morphism given by the inclusion of ideals $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$.
 
 \begin{proposition}
 There is an adjunction:
 \begin{center}
   \begin{tikzcd}
     \mathbf{L}(A)
-     \arrow[r, shift right=6pt, "\mathsf{Quot}"']
+     \arrow[r, shift right=6pt, "\mathsf{Quot}_{A}"']
     & 
     {}_{A}\mathbf{Mod}^{\bullet}
-     \arrow[l, shift right=6pt, "\mathsf{Ann}"']
+     \arrow[l, shift right=6pt, "\mathsf{Ann}_{A}"']
   \end{tikzcd}
 \end{center}
 restricting to an equivalence
 \begin{center}
   \begin{tikzcd}
     \mathbf{L}(A)
-     \arrow[r, shift right=6pt, "\mathsf{Quot}"']
+     \arrow[r, shift right=6pt, "\mathsf{Quot}_{A}"']
     & 
     {}_{A}\mathbf{Mod}^{\odot}
-     \arrow[l, shift right=6pt, "\mathsf{Ann}"']
+     \arrow[l, shift right=6pt, "\mathsf{Ann}_{A}"']
   \end{tikzcd}
 \end{center}
 \end{proposition}
+
+### Connection to the GNS construction
+The above observations are simple shadows of the functorality of the GNS construction for $C^{\ast}$ and $W^{\ast}$-algebras.
+The *opposite* of the category of ideals $\mathbf{L}(A)$ can be thought of as a stand-in for the category of states (to every $C^\ast$-algebraic state $\rho \colon E \to \mathbb{C}$ on a $C^{\ast}$-algebra $E$ we can associate its "left kernel" $\{e: \rho(e^{*} e) = 0 \}$).
+The quotient functor $\mathsf{Quot}$ is a toy-model of the GNS construction.
 
 ## Notation/Terminology
 In the following the letters $E, F$ and $G$ will denote $C^\ast$-algebras that are not necessarily $\W^\ast$-algebras and $A, B, C$ will denote $W^\ast$-algebras.
