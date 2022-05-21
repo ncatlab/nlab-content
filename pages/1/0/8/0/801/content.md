@@ -85,6 +85,8 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 * [[equivariant homotopy type]]
 
+* [[persistent homotopy type]]
+
 [[!include notions of type]]
 
 [[!include homotopy n-types - table]]
