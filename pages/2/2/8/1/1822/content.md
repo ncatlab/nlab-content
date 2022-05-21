@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ##Idea##
 
 In the 1920s homology and cohomology were known for simplicial complexes and there were attempts to extend the definitions to first of all compact metric spaces and then more general spaces.  [[Leopold Vietoris]] (1927) came up with a construction and then shortly after Alexandrov and &#268;ech gave a different one involving [[Čech nerve|the nerve that now bears Čech's name]]. The input of the  two methods is the same, we have a space $X$ and an open cover $\mathcal{U}$ of $X$.
@@ -61,14 +66,26 @@ Gavin Wraith posted a puzzle on the $n$Caf&#233; whose solution uses the fact th
 
 Perhaps this fact is [[Dowker's Theorem]]?
 
-##References
+## Related concepts
 
-* [[I. Volodin]], _Algebraic K-theory as extraordinary homology theory on the category of associative 
-rings with unity_, Izv. Akad. Nauk. SSSR, 35, (Translation: Math. USSR Izvestija Vol. 5 (1971) 
+* [[persistent homotopy]]
+
+## References
+
+Discussion in [[persistent homotopy theory]]:
+
+* [[J. F. Jardine]], *Data and homotopy types* $[$[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)$]$
+
+See also:
+
+* Wikipedia, *[Vietoris-Rips complex](https://en.wikipedia.org/wiki/Vietoris–Rips_complex)*
+
+* [[I. Volodin]], _Algebraic K-theory as extraordinary homology theory on the category of associative  rings with unity_, Izv. Akad. Nauk. SSSR, 35, (Translation: Math. USSR Izvestija Vol. 5 (1971) 
 No. 4, 859-887).
 
 * H. Abels and S. Holz, _Higher generation by subgroups_, J. Alg, 160, (1993), 311&#8211; 341
 
-*  M. Kapranov and M. Saito, 1999, Hidden Stasheff polytopes in algebraic K-theory and in the 
-space of Morse functions , in Higher homotopy structure in topology and mathematical physics 
+*  M. Kapranov and M. Saito, 1999, Hidden Stasheff polytopes in algebraic K-theory and in the  space of Morse functions , in Higher homotopy structure in topology and mathematical physics 
 (Poughkeepsie, N.Y. 1996) , volume 227 of Contemporary Mathematics , 191&#8211;225, AMS.
+
+[[!redirects Vietoris-Rips complex]]
