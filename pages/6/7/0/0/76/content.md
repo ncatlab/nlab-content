@@ -303,6 +303,8 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 * [[chromatic homotopy theory]]
 
+* [[persistent homotopy theory]]
+
 
 
 ### Basic concepts in homotopy theory
