@@ -177,7 +177,11 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 The original reference is:
 
-* [[Witold Hurewicz]], *Beiträge zur Topologie der Deformationen*, Neder. Akad. Wetensch. **38** (1935) 521–528 $[$[gbooks](https://books.google.ru/books/about/Beitr%C3%A4ge_zur_Topologie_der_Deformatione.html?id=lge_ygAACAAJ&redir_esc=y)$]$
+* [[Witold Hurewicz]], Koninklijke Akademie van Wetenschappen: Proceedings of the Section of Sciences 38 (1935), 112–119.  Mathematics. — Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen).  $[$[gbooks](https://books.google.ru/books/about/Beitr%C3%A4ge_zur_Topologie_der_Deformatione.html?id=lge_ygAACAAJ&redir_esc=y)$]$
+
+This article is reproduced on pages 341–348 of
+
+* [Collected Works of Witold Hurewicz](https://bookstore.ams.org/cworks-4).  (Edited by Krystyna Kuperberg.)  American Mathematical Society, 1995.  ISBN 0-8218-0011-6
 
 The [[simplicial homotopy theory|simplicial]] version is due to
 
