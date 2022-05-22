@@ -55,14 +55,17 @@ However, besides [[homology]] there is, [[duality|dually]], also *[[cohomology]]
 
 ### General
 
-* [[Andrew J. Blumberg]], [[Michael Lesnick]], *Universality of the Homotopy Interleaving Distance* $[$[arXiv:1705.01690](https://arxiv.org/abs/1705.01690)$]$
+Original articles with focus on establishing the homotopy-version of the [[stability of persistence diagrams|stability theorem]]:
 
+* {#BlumbergLesnick17} [[Andrew J. Blumberg]], [[Michael Lesnick]], *Universality of the Homotopy Interleaving Distance* $[$[arXiv:1705.01690](https://arxiv.org/abs/1705.01690)$]$
 
-* [[J. F. Jardine]], *Data and homotopy types* $[$[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)$]$
+* {#Jardine19} [[J. F. Jardine]], *Data and homotopy types* $[$[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)$]$
 
+Review:
 
 * [[J. F. Jardine]], *Persistent homotopy theory* (2020) $[$[pdf](https://www.uwo.ca/math/faculty/jardine/lectures/persist-OSU-beamer.pdf), [[Jardine-PersistentHomotopy.pdf:file]]$]$
 
+Further discussion:
 
 * [[Facundo Mémoli]], [[Ling Zhou]], *Persistent Homotopy Groups of Metric Spaces* $[$[arXiv:1912.12399](https://arxiv.org/abs/1912.12399), [talk](Center+for+Quantum+and+Topological+Systems#ZhouAtHomotopicalPerspectivesOnTDAJune2022)$]$
 
