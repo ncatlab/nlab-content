@@ -23,7 +23,7 @@
 
 ## Idea
 
-The **nerve theorem** asserts that the [[homotopy type]] of a sufficiently nice [[topological space]] is encoded in the [[Cech nerve]] of a [[good cover]].
+The **nerve theorem** asserts that the [[homotopy type]] of a sufficiently nice [[topological space]] is encoded in the [Čech nerve](Čech+nerve#FromACover) of a [[good open cover]] (as used in [[Čech homology]]).
 
 This can be seen as a special case of some aspects of [[étale homotopy]] as the &#233;tale homotopy type of nice spaces coincides with the homotopy type of its Cech nerve.
 
@@ -65,6 +65,11 @@ This is usually attributed to ([Borsuk 1948](#Borsuk48)). It appears more explic
 This statement implies that in the [[cohesive (∞,1)-topos]] [[ETop∞Grpd]] the intrinsic [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] coincides with the ordinary [[fundamental ∞-groupoid]] functor of [[paracompact topological spaces]]. See <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy">Euclidean-topological ∞-groupoid : Geometric homotopy</a> for details.
 
 =--
+
+## Related concepts
+
+* [[Čech homology]]
+
 
 ## References
 
