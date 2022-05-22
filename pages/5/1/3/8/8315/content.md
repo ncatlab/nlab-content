@@ -300,6 +300,14 @@ There are convenient software implementations for large-scale computations of ce
 =--
 
 
+## Related concepts
+
+* [[ordinary homology]]
+
+* [[singular homology]], [[Čech homology]]
+
+
+
 ## References
 
 
