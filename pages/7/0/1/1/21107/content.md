@@ -84,7 +84,7 @@ Review in:
 
 * [[Sara Kališnik]], Section 4.2.2 of: _Persistent homology and duality_ (2013) ([pdf](http://www.matknjiz.si/doktorati/2013/Kalisnik-14521-4.pdf), [[KalisnikPersistent.pdf:file]])
 
-Review, computational analysis and discussion of [[Cohomotopy]] as an improvement over homology well groups is in 
+Review, computational analysis and discussion of ([[persistent Cohomotopy|persistent]]) [[Cohomotopy]] as an improvement over homology well groups: 
 
 * {#FranekKrcal16} [[Peter Franek]], [[Marek Krčál]], _On Computability and Triviality of Well Groups_, Discrete Comput Geom (2016) 56: 126 ([arXiv:1501.03641](https://arxiv.org/abs/1501.03641), [doi:10.1007/s00454-016-9794-2](https://doi.org/10.1007/s00454-016-9794-2))
 
