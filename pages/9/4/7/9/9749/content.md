@@ -78,19 +78,33 @@ The other example he gives has $X$ a bounded, closed and convex subset of $\math
 
 Doberkat has a longer article on [[Eilenberg-Moore algebra]]s of the Giry monad as item 5 [here](http://ls10-www.cs.uni-dortmund.de/index.php?id=18). (Unfortunately, the monograph 'Stochastic Relations: Foundations for Markov Transition Systems' doesn't appear to be available.) There are two monads being treated here, one which sends a Polish space to the space of all probability measures, the other to the space of all subprobability measures. The extra structure relating to these monads, is that of a (positive) convex structure. In the case of a convex structure, this intuitively captures the idea that a weighted sum of points in the space has barycentre within the space. 
 
-The fundamental question concerning algebras is the existence of algebras which are not free.  The Eilenberg-Moore category of algebras, for any monad, is descriptive in nature but not constructive, and says nothing about the existence of algebras which are not free.  For this reason it is necessary to find a concrete 
-characterization of the Giry monad. (Recall that the full subcategory of the Eilenberg-Moore category whose objects are the free algebras is isomorphic to the Kleisi category.)
+The fundamental question concerning algebras is the existence of algebras which are not free.  The Eilenberg-Moore category of algebras, for any monad, is descriptive in nature but not constructive, and says nothing about the existence of algebras which are not free.  For this reason it is necessary to find a
+different representation of the category of $G$-algebras. (Recall that the full subcategory of the Eilenberg-Moore category whose objects are the free algebras is isomorphic to the Kleisi category.)
 
-Such a characterization follows from the observation that given any $G$-algebra $h:G(X) \rightarrow X$ on a (coseparated) measurable space $X$, the underlying set $X$ has the structure of a superconvex space, denoted $X_h$, defined by $\sum_{i=1}^{\infty} p_i x_i := h( \sum_{i=1}^{\infty} p_i \delta_{x_i})$, where $\sum_{i=1}^{\infty} p_i = 1$ and each $p_i \ge 0$.  Moreover, if $f: (X,h) \rightarrow (Y,k)$ is a map of $G$-algebras then $f: X_h \rightarrow Y_k$ is a countably affine map. The proof of these two statements follows directly from the definition of a $G$-algebra and $G$-algebra map.  For this reason the category of super convex spaces, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M., suggest itself.  The morphisms of the category of super convex spaces, $\mathbf{SCvx}$, are countably affine map (barycenter maps) which generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. 
+One possible representation follows from the observation that given any $G$-algebra $h:G(X) \rightarrow X$ on a (coseparated) measurable space $X$, the underlying set $X$ has the structure of a superconvex space, denoted $X_h$, defined by $\sum_{i=1}^{\infty} p_i x_i := h( \sum_{i=1}^{\infty} p_i \delta_{x_i})$, where $\sum_{i=1}^{\infty} p_i = 1$ and each $p_i \ge 0$. The proof is
 
-Super convex spaces are described in the ongoing work by ([Sturtz 22](#Sturtz22)) who is attempting to use the support of a probability measure to construct the barycenter maps (=$G$-algebras) for  super convex space which relies on the elementary (fundamental) result that 
-\begin{lemma}
-If $f: G(X) \rightarrow \mathbb{N}$ is a measurable map to the set of natural numbers with the powerset $\sigma$-algebra, then $f$ is a countably affine map.
-\end{lemma}
-\begin{proof}
-In the category of measurable spaces, take the composite map $\eta_{\mathbb{N}} \circ f$ and use the naturality of $\mu$ to obtain the equation $(\eta_{\mathbb{N}} \circ f)\mu_X = \mu_{\mathbb{N}} \circ G(\eta_{\mathbb{N}} \circ f)$. Composition with $\epsilon_{\mathbb{N}}$ and precomposition with $G(\eta_{X})$ then yields $f = \epsilon_{\mathbb{N}} \circ G(f) \circ G(\eta_X)$.  Since the right hand side is a composite of countably affine maps, $f$ itself is countably affine. (Here $\epsilon_{\mathbb{N}}(\sum_{i=0}^{\infty} p_i \delta_i)$ is the minimum index $i$ such that $p_i \ne 0$ and $p_j = 0$ for all $j \lt i$.  In other words, $\epsilon_{\mathbb{N}}$ is the $G$-algebra of the countable measurable space $\mathbb{N}$ with the power set $\sigma$-algebra.)
-\end{proof}
-If we can find a subcategory of the category of measurable spaces for which ''$\mathbb{N}$ is codense (right-adequate)'', it is immediately clear that we can construct a cone over the canonical representation of the space $X$, and hence obtain a measurable map $h:G(X) \rightarrow X$, satisfying, for every measurable function $g: X \rightarrow \mathbb{N}$,  $g \circ h = \epsilon_{\mathbb{N}} \circ G(g)$, and then using the above lemma it then follows that $h$ is countably affine.  Since $X$ has a super convex space structure, $X_h$, we have shown the existence of the barycenter map.  The precise formulation and details are given in the previous reference. 
+\begin{equation} \nonumber
+\begin{array}{rcll}
+ (h \mu_X)(\sum_{i \in \mathbb{N}} p_i \delta_{P_i}) &=& (h \circ \G(h))(\sum_{i \in \mathbb{N}} p_i \delta_{P_i})   & \textrm{because }h\textrm{ is a }G-\textrm{algebra} \\
+ h(\sum_{i \in \mathbb{N}} p_i P_i) &=& h(\sum_{i \in \mathbb{N}} p_i \delta_{h(P_i)})  & \textrm{property of }\mu_X \textrm{ and the pushforward map} \\
+ h(\sum_{i \in \mathbb{N}} p_i P_i) &=& \sum_{i \in \mathbb{N}} p_i h(P_i) & \textrm{by def. of }h\textrm{ on count. aff. sums in }X_h
+\end{array}.
+\end{equation}
+
+  Moreover, given any map of $G$-algebras, $f: (X,h) \rightarrow (Y,k)$ it follows that $f$ is a countably affine map because 
+\begin{equation} \nonumber
+\begin{array}{lcll}
+f( \sum_{i \in \mathbb{N}} p_i x_i) &=& f(h( \sum_{i \in \mathbb{N}} p_i \delta_{x_i} )) & \textrm{by definition of }X_h \\
+&=& k\big( G{(f)}( \sum_{i \in \mathbb{N}} p_i \delta_{x_i}  ) \big) & \textrm{using }f \circ h =k \circ G{(f)}\\
+&=& k\big(  \sum_{i \in \mathbb{N}} p_i \delta_{f(x_i)} \big) & \textrm{by definition of pushforward}\\
+&=&  \sum_{i \in \mathbb{N}} p_i k(\delta_{f(x_i))}  & \textrm{because }k \textrm{ is countably affine}\\
+&=&  \sum_{i \in \mathbb{N}} p_i f(x_i)  & \textrm{because }k \textrm{ is a }G-\textrm{algebra}
+\end{array}
+\end{equation}
+
+  For this reason we are naturally led to the category of super convex spaces, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M..  The morphisms of the category of super convex spaces, $\mathbf{SCvx}$, are countably affine map (barycenter maps) which generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. 
+
+Super convex spaces are described in the ongoing work by ([Sturtz 22](#Sturtz22)) who is attempting to use the support of a probability measure to construct the barycenter maps (=$G$-algebras) for  super convex space.
 ## Related constructions
 
 See also [[monads of probability, measures, and valuations]].
