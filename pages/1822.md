@@ -88,4 +88,10 @@ No. 4, 859-887).
 *  M. Kapranov and M. Saito, 1999, Hidden Stasheff polytopes in algebraic K-theory and in the  space of Morse functions , in Higher homotopy structure in topology and mathematical physics 
 (Poughkeepsie, N.Y. 1996) , volume 227 of Contemporary Mathematics , 191&#8211;225, AMS.
 
+[[!redirects Vietoris complexes]]
+
+
 [[!redirects Vietoris-Rips complex]]
+[[!redirects Vietoris-Rips complexes]]
+
+
