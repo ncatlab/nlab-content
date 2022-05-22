@@ -83,12 +83,64 @@ $$
 
 If here the [[Eilenberg-MacLane spectrum]] $H R$ is replaced by any other [[E-infinity ring spectrum]] the analogous construction is called the _[[Boardman homomorphism]]_.
 
+
 ## Hurewicz theorem
+ {#HurewiczTheorem}
 
-+-- {: .num_theorem}
-###### Theorem
+In general, [[homology theory|homology]] is a coarser invariant than [[homotopy type|homotopy]], and [[ordinary homology]] is the coarsest of all [[generalized homology]]-invariants. Therefore the Hurewicz homomorphism (Def. \ref{HurewiczHomomorphism}) is bound to lose information, in general. 
 
-If a [[topological space]] (or [[infinity-groupoid]]) $X$ is [[n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then the [[Hurewicz homomorphism]], def. \ref{HurewiczHomomorphism} 
+Indeed, the Hurewicz homomorphism exhibits a kind of abelianization of the [[homotopy type]] (in the sense of [[stable homotopy theory]], see at *[[Boardman homomorphism]]* for more on this), a statement that in low degrees is true in the plain sense of *[[abelianization]]*: this is the content of Prop. \ref{HurewiczTheoremInDegreeZero} and Prop. \ref{HurewiczTheoremInDegreeOne} below.
+
+While in higher degrees the Hurewicz homomorphism is in general far from being an isomorphism, the thrust of the Hurewicz theorem is to show that high connectivity is a sufficient condition to ensure that it is. This is Theorem \ref{HurewiczTheoremInDegreeTwoAndHigher} below.
+
+
+
+\begin{proposition}\label{HurewiczTheoremInDegreeZero}
+**(in degree 0)**
+\linebreak
+For $X$ a topological space, the Hurewicz homomorphism (Def. \ref{HurewiczHomomorphism}) in degree 0 exhibits an [[isomorphism]] between the [[free abelian group]] $\mathbb{Z}[\pi_0(X)]$ on the set of [[connected components]] of $X$ and the degree-0 singular homlogy:
+
+$$
+  \mathbb{Z}[\pi_0(X)]
+   \simeq
+  H_0(X)
+  \,.
+$$
+
+\end{proposition}
+
+
+Since a [[homotopy group]] in [[positive number|positive]] degree depends on the [[homotopy type]] of the [[connected component]] of the base point, while the [[ordinary homology]] does not depend on a basepoint, it is interesting to compare these groups only for the case that $X$ is connected:
+
+\begin{proposition}\label{HurewiczTheoremInDegreeOne}
+**(in degree 1)**
+\linebreak
+For $X$ a [[connected topological space]] the [[Hurewicz homomorphism]] (Def. \ref{HurewiczHomomorphism})
+in degree 1
+
+$$
+  \Phi \colon \pi_1(X,x) \longrightarrow H_1(X)
+$$
+
+is [[surjection|surjective]]. Its [[kernel]] is the [[commutator subgroup]]
+of $\pi_1(X,x)$. Therefore it induces an [[isomorphism]] from the [[abelianization]] $\pi_1(X,x)^{ab} \coloneqq \pi_1(X,x)/[\pi_1,\pi_1]$:
+
+
+$$
+  \pi_1(X,x)^{ab}
+  \overset{\simeq}{\longrightarrow}
+  H_1(X)
+  \,.
+$$
+
+\end{proposition}
+
+
+
+\begin{theorem}\label{HurewiczTheoremInDegreeTwoAndHigher}
+**(in degree $\geq 2$)**
+\linebreak
+If a [[topological space]] (or [[infinity-groupoid]]) $X$ is [[n-connected object in an (infinity,1)-topos|(n-1)-connected]] for $n \geq 2$ then the [[Hurewicz homomorphism]], Def. \ref{HurewiczHomomorphism} 
 
 $$
   \Phi  
@@ -100,7 +152,7 @@ $$
 
 is an [[isomorphism]].
 
-=--
+\end{theorem}
 
 A proof is spelled out for instance with theorem 2.1 in ([Hutchings](#Hutchings)).
 
