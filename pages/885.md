@@ -19,10 +19,9 @@
 
 A __natural number__ is traditionally one of the [[numbers]] $1$, $2$, $3$, and so on.  It is now common in many fields of mathematics to include $0$ as a natural number as well.  One advantage of doing so is that a natural number can then be identified with the [[cardinal number|cardinality]] of a [[finite set]], as well as a finite [[ordinal number]].  One can distinguish these as the __nonnegative integers__ (with $0$) and the __positive integers__ (without $0$), at least until somebody uses 'positive' in the semidefinite sense.  To a [[set theory|set theorist]], a natural number is essentially the same as an __[[integer]]__, so they often use the shorter word; one can also clarify with __unsigned integer__ (but this doesn\'t help with $0$).
 
-The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph_0$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).  At a foundational level, it\'s completely irrelevant whether $0$ counts as a natural number or not; as [[sets]] (and even as [[natural numbers objects]]), the two options are equivalent, so we are really talking about the choice of [[rig]] structure (or [[inclusion map]] into the set of [[integers]], etc).
+The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph_0$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).  At a foundational level, it\'s completely irrelevant whether $0$ counts as a natural number or not; as [[sets]] (and even as [[natural numbers objects]]), the two options are equivalent, so we are really talking about the choice of additive [[semigroup]] structure (or [[inclusion map]] into the set of [[integers]], etc). 
 
-By default, our natural numbers always include $0$.
-
+By default, our natural numbers always include $0$. 
 
 ## Natural numbers objects
 
@@ -94,7 +93,7 @@ This is relevant to [[constructive algebra]], as this shows that formulating cha
 
 * [[natural numbers type]], [[natural numbers object]]
 
-* [[decimal representation of the natural numbers]]
+* [[decimal numeral representation of the natural numbers]]
 
 * [[carrying]]
 
