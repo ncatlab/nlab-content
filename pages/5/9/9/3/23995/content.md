@@ -90,6 +90,34 @@ $$s(a 7) \coloneqq a 8$$
 $$s(a 8) \coloneqq a 9$$
 $$s(a 9) \coloneqq s(a) 0$$
 
+### Length
+
+Each decimal representation has an associated length, inductively defined as
+
+$$\mathrm{len}(0) = 0$$
+$$\mathrm{len}(1) = 1$$
+$$\mathrm{len}(2) = 1$$
+$$\mathrm{len}(3) = 1$$
+$$\mathrm{len}(4) = 1$$
+$$\mathrm{len}(5) = 1$$
+$$\mathrm{len}(6) = 1$$
+$$\mathrm{len}(7) = 1$$
+$$\mathrm{len}(8) = 1$$
+$$\mathrm{len}(9) = 1$$
+
+and for every decimal representation $a \neq 0$, 
+
+$$\mathrm{len}(a 0) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 1) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 2) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 3) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 4) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 5) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 6) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 7) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 8) = s(\mathrm{len}(a))$$
+$$\mathrm{len}(a 9) = s(\mathrm{len}(a))$$
+
 ### Addition 
 
 The decimal representation of the natural numbers is a [[commutative monoid object]] in [[Set]]: we inductively define addition as follows:
