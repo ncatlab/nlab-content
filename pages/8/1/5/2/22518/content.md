@@ -15,6 +15,8 @@
 
 * [[error correction code]]
 
+* [[topological data analysis]]
+
 In [[quantum computation]]:
 
 * [[quantum noise]]
