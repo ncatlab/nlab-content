@@ -27,6 +27,12 @@ On [[equivariant homotopy theory]]:
 * Andrew Blumberg, _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
 
 
+On [[persistent homotopy theory]] and its [[stability of persistence diagrams|stability theorem]]:
+
+* {#BlumbergLesnick17} [[Andrew J. Blumberg]], [[Michael Lesnick]], *Universality of the Homotopy Interleaving Distance* $[$[arXiv:1705.01690](https://arxiv.org/abs/1705.01690)$]$
+
+
+
 On the [[Arnold conjecture]] and [[Morava K-theory]]:
 
 * [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
