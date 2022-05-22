@@ -9,14 +9,13 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In the context of [[persistent homology]], the _well group_ ([EMP 11](#EMP11)) of a [[continuous function]] $f$ into a [[metric space]] is a [[homology|homological]] measure of how robust the [[level sets]] of $f$ are against [[deformations]] of $f$. Concretely, the Well group at [[radius]] $r$ of a given point in the [[codomain]] consists of all those [[ordinary homology|homology]]-classes of the domain which are reflected in the [[level sets]] of _every_ [[continuous function]] whose values differ from those of $f$ at most by $r$.
+In the context of [[persistent homology]], the _well group_ ([EMP 11](#EMP11)) of a [[continuous function]] $f$ into a [[metric space]] is a [[homology|homological]] measure of how robust the [[level sets]] of $f$ are against [[deformations]] of $f$. Concretely, the Well group at [[radius]] $r$ of a given point in the [[codomain]] consists of all those [[Čech homology]]-classes of the domain which are reflected in the [[level sets]] of _every_ [[continuous function]] whose values differ from those of $f$ at most by $r$.
 
 As the level varies, the collection of well groups form a [[zigzag persistence module]], also called a *well module* ([EMP 11, Sec. 3](#EMP11)).
 
@@ -34,7 +33,7 @@ $$
   } 
 $$
 
-the _well groups_ at [[radius]] $r \in (0,\infty)$ are the [[intersections]] of the [[ordinary homology|ordinary]] [[homology groups]] of the [[pre-images]] $g^{-1}(A) \subset X$ for all [[continuous functions]] $X \overset{g}{\to} \mathbb{R}^n$ whose [[maximum|maximal]] [[distance]] from $f$ is $\left \vert g-f\right \vert \leq r$.
+the _well groups_ at [[radius]] $r \in (0,\infty)$ are the [[intersections]] of the [[Čech homology]] [[homology groups|groups]] of the [[pre-images]] $g^{-1}(A) \subset X$ for all [[continuous functions]] $X \overset{g}{\to} \mathbb{R}^n$ whose [[maximum|maximal]] [[distance]] from $f$ is $\left \vert g-f\right \vert \leq r$.
 
 $$
   W_\bullet(f,r)
@@ -60,6 +59,10 @@ $$
 $$
 
 (e.g. [Franek-Krčál 16, p. 2](#FranekKrcal16))
+
+\begin{remark}\label{NeedForCechHomology}
+  Since the [[preimages]] $g^{-1}(A)$ need not be [[CW-complexes]], it is important to use [[Čech homology]] in the above definition. With [[singular homology]] the definition would trivialize ([FK16, p. 3 and Sec. 2](#FranekKrcal16)).
+\end{remark}
 
 ## Related concepts
 
