@@ -180,16 +180,32 @@ and thus a canonical comparison [[homomorphisms]] of pointed groups:
 
 Therefore, regarding the [[positive number|positive]] [[real numbers]] [[ordering|ordered]] by $\leq$ as a [[poset]] and thus as a [[category]], the resulting [[direction|directed]] [[diagram]] of [[pointed objects|pointed]] [[groups]]
 
-$$
+\[
+  \label{TheCohomotopyPersistenceModule}
   \pi^n_{(f,\bullet)}
   (X)
   \;\colon\;
   (\mathbb{R}, \leq)
   \xrightarrow{\;\;\;}
   Grp^{\mathbb{Z}/}
-$$
+\]
 
 is the **cohomotopy persistence module** ([FK17, p. 5](#FranekKrcal17), rhyming on *[[persistence module]]* as used in [[persistent homology theory]]) of $X$ relative to $f$.
+
+\linebreak
+
+## Properties
+
+The following are equivalent:
+
+* there exists an $r$-deformation of $f$ with *no* zeros on $X \setminus A_r$;
+
+* the special class $[f] \in \pi_n^{(f,r)}$ is trivial.
+
+Therefore the persistency of this special class is persistency of the existence of any zeros.
+
+(...)
+
 
 \linebreak
 
