@@ -6,7 +6,7 @@
 
 The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html)* (CQTS)  is a Research Center, launching in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
-[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation]]. A unifying theme is the use of new methods from *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[schreiber:Hypothesis H|in high energy physics]]. 
+[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation]]. A unifying theme is the use of new methods from ("[[persistent cohomotopy|persistent]]") *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[schreiber:Hypothesis H|in high energy physics]]. 
 
 
 #Contents#
@@ -17,7 +17,6 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ## Conferences & Workshops
 
-* (...)
 
 ### 02 June 2022 - Homotopical Perspectives on TDA
  {#HomotopicalPerspectivesOnTDAMay2022}
