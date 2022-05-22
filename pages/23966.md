@@ -105,6 +105,13 @@ Generalization to [[zigzag persistence modules]]:
 
 * {#BotnanLesnick18} [[Magnus Bakke Botnan]], [[Michael Lesnick]], *Algebraic Stability of Zigzag Persistence Modules*, Algebr. Geom. Topol. **18** (2018) 3133-3204 $[$[arXiv:1604.00655](https://arxiv.org/abs/1604.00655), [doi:10.2140/agt.2018.18.3133](https://doi.org/10.2140/agt.2018.18.3133)$]$
 
+Refinement to [[persistent homotopy]]:
+
+* {#BlumbergLesnick17} [[Andrew J. Blumberg]], [[Michael Lesnick]], *Universality of the Homotopy Interleaving Distance* $[$[arXiv:1705.01690](https://arxiv.org/abs/1705.01690)$]$
+
+* {#Jardine19} [[J. F. Jardine]], *Data and homotopy types* $[$[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)$]$
+
+
 
 [[!redirects stability in persistent homology]]
 
