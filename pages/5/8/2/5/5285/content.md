@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topology
+#### Algebraic topology
 +--{: .hide}
-[[!include topology - contents]]
-=--
-#### Homological algebra
-+--{: .hide}
-[[!include homological algebra - contents]]
+[[!include algebraic topology - contents]]
 =--
 =--
 =--
@@ -640,6 +636,8 @@ Singular homology computes the [[generalized homology]] with coefficients in the
 
 ## Related concepts
 
+* [[Čech homology]]
+
 * The [[duality|dual]] notion is that of _[[singular cohomology]]_.
 
 * The analogous notion in [[algebraic geometry]] is given by [[Chow groups]].
@@ -670,6 +668,8 @@ Original references on [[chain homology]]/[[cochain cohomology]] and [[singular 
 Lecture notes:
 
 * Rob Thompson, Len Evens , _[Topology notes](http://math.hunter.cuny.edu/~rthompso/topology_notes/)_ _Chapter 6, Singular homology_ ([pdf](http://math.hunter.cuny.edu/~rthompso/topology_notes/chapter%20six.pdf))
+
+* [[David H. Fremlin]], *Singular homology for amateurs* (2016) $[$[pdf](https://www1.essex.ac.uk/maths/people/fremlin/n16703.pdf), [[FremlinSIngularHomology.pdf:file]]$]$
 
 Textbook discussion in the context of [[homological algebra]] is around Application 1.1.4 of 
 
