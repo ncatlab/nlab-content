@@ -13,7 +13,7 @@ Discussion of [[homotopy groups]] in [[computational topology]]:
 
 
 
-On [[persistence module|persistent]] [[Cohomotopy]] and its improvement over [[well groups]]:
+On [[persistent Cohomotopy]] and its improvement over [[well groups]]:
 
 
 * [[Peter Franek]], [[Marek Krčál]], _On Computability and Triviality of Well Groups_, Discrete Comput Geom (2016) 56: 126 ([arXiv:1501.03641](https://arxiv.org/abs/1501.03641), [doi:10.1007/s00454-016-9794-2](https://doi.org/10.1007/s00454-016-9794-2))
