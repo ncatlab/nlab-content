@@ -23,7 +23,7 @@
 
 ## Idea
 
-The decimal representation of the natural numbers as familiar from school mathematics
+The decimal representation of the natural numbers as strings of digits as familiar from school mathematics, with mathematical operations directly defined on the strings of digits. 
 
 ## Definition 
 
@@ -77,7 +77,7 @@ be the [[disjoint union]] of 10 [[singletons]], with an element $0 \in \mathbb{1
 
 ### Zero and successor
 
-The decimal representation of the natural numbers is a [[natural numbers object]] in [[Set]]: We define $0$ to be $0$, and we inductively define the successor function as 
+The decimal representation of the natural numbers is a [[natural numbers object]] in [[Set]]: We define $0:\mathrm{Dec}$ to be $0$, and we inductively define the successor function $s:\mathrm{Dec} \to \mathrm{Dec}$ as 
 
 $$s(a 0) \coloneqq a 1$$
 $$s(a 1) \coloneqq a 2$$
@@ -90,39 +90,78 @@ $$s(a 7) \coloneqq a 8$$
 $$s(a 8) \coloneqq a 9$$
 $$s(a 9) \coloneqq s(a) 0$$
 
-### Length
+### Inequalities
 
-Each decimal representation has an associated length, inductively defined as
+The [[denial inequality]] [[tight apartness relation]] $\neq$ called **not equal to** is inductively defined for decimal representations of the natural numbers in the same way that it is inductively defined for natural numbers:
 
-$$\mathrm{len}(0) = 0$$
-$$\mathrm{len}(1) = 1$$
-$$\mathrm{len}(2) = 1$$
-$$\mathrm{len}(3) = 1$$
-$$\mathrm{len}(4) = 1$$
-$$\mathrm{len}(5) = 1$$
-$$\mathrm{len}(6) = 1$$
-$$\mathrm{len}(7) = 1$$
-$$\mathrm{len}(8) = 1$$
-$$\mathrm{len}(9) = 1$$
+$$0 \neq 0 \coloneqq \mathbb{0}$$
+$$0 \neq s(n) \coloneqq \mathbb{1}$$
+$$s(m) \neq 0 \coloneqq \mathbb{1}$$
+$$s(m) \neq s(n) \coloneqq m \neq n$$
+
+The [[total order]] [[relation]] $\leq$ called **less than or equal to** is inductively defined for decimal representations of the natural numbers in the same way that it is inductively defined for natural numbers:
+
+$$0 \leq 0 \coloneqq \mathbb{1}$$
+$$0 \leq s(n) \coloneqq \mathbb{1}$$
+$$s(m) \leq 0 \coloneqq \mathbb{0}$$
+$$s(m) \leq s(n) \coloneqq m \leq n$$
+
+The [[opposite relation|opposite]] total order $\geq$ called **greater than or equal to** is inductively defined as 
+
+$$0 \geq 0 \coloneqq \mathbb{1}$$
+$$0 \geq s(n) \coloneqq \mathbb{0}$$
+$$s(m) \geq 0 \coloneqq \mathbb{1}$$
+$$s(m) \geq s(n) \coloneqq m \geq n$$
+
+The strict [[linear order]] relation $\lt$ called **less than** is inductively defined for decimal representations of the natural numbers in the same way that it is inductively defined for natural numbers:
+
+$$0 \lt 0 \coloneqq \mathbb{0}$$
+$$0 \lt s(n) \coloneqq \mathbb{1}$$
+$$s(m) \lt 0 \coloneqq \mathbb{0}$$
+$$s(m) \lt s(n) \coloneqq m \lt n$$
+
+The opposite strict linear order $\gt$ called **greater than** is inductively defined as 
+
+$$0 \gt 0 \coloneqq \mathbb{0}$$
+$$0 \gt s(n) \coloneqq \mathbb{0}$$
+$$s(m) \gt 0 \coloneqq \mathbb{1}$$
+$$s(m) \gt s(n) \coloneqq m \gt n$$
+
+### Number of digits
+
+Each decimal representation has an associated number of digits, a function $\mathrm{numDigits}:\mathrm{Dec} \to \mathrm{Dec}$ inductively defined as
+
+$$\mathrm{numDigits}(0) \coloneqq 0$$
+$$\mathrm{numDigits}(1) \coloneqq 1$$
+$$\mathrm{numDigits}(2) \coloneqq 1$$
+$$\mathrm{numDigits}(3) \coloneqq 1$$
+$$\mathrm{numDigits}(4) \coloneqq 1$$
+$$\mathrm{numDigits}(5) \coloneqq 1$$
+$$\mathrm{numDigits}(6) \coloneqq 1$$
+$$\mathrm{numDigits}(7) \coloneqq 1$$
+$$\mathrm{numDigits}(8) \coloneqq 1$$
+$$\mathrm{numDigits}(9) \coloneqq 1$$
 
 and for every decimal representation $a \neq 0$, 
 
-$$\mathrm{len}(a 0) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 1) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 2) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 3) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 4) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 5) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 6) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 7) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 8) = s(\mathrm{len}(a))$$
-$$\mathrm{len}(a 9) = s(\mathrm{len}(a))$$
+$$\mathrm{numDigits}(a 0) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 1) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 2) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 3) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 4) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 5) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 6) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 7) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 8) \coloneqq s(\mathrm{numDigits}(a))$$
+$$\mathrm{numDigits}(a 9) \coloneqq s(\mathrm{numDigits}(a))$$
 
-### Addition 
+We define the type of decimal representations with $n$-digits as the [[fiber]] of $\mathrm{numDigits}$ at $n$:
 
-The decimal representation of the natural numbers is a [[commutative monoid object]] in [[Set]]: we inductively define addition as follows:
+$$representationsWithNumDigits(n) \coloneqq \sum_{a:\mathrm{Dec}} \mathrm{numDigits}(a) = n$$
 
-The sum of two digits is defined as
+### Addition of single digits
+
+Addition $(-)+(-):D \times D \to \mathrm{Dec}$ of two digits is inductively defined as
 
 |+|0|1|2|3|4|5|6|7|8|9|
 |-|-|-|-|-|-|-|-|-|-|-|
@@ -137,10 +176,29 @@ The sum of two digits is defined as
 |8|$8 + 0 \coloneqq 8$|$8 + 1 \coloneqq 9$|$8 + 2 \coloneqq 10$|$8 + 3 \coloneqq 11$|$8 + 4 \coloneqq 12$|$8 + 5 \coloneqq 13$|$8 + 6 \coloneqq 14$|$8 + 7 \coloneqq 15$|$8 + 8 \coloneqq 16$|$8 + 9 \coloneqq 17$|
 |9|$9 + 0 \coloneqq 9$|$9 + 1 \coloneqq 10$|$9 + 2 \coloneqq 11$|$9 + 3 \coloneqq 12$|$9 + 4 \coloneqq 13$|$9 + 5 \coloneqq 14$|$9 + 6 \coloneqq 15$|$9 + 7 \coloneqq 16$|$9 + 8 \coloneqq 17$|$9 + 9 \coloneqq 18$|
 
+### Arithmetic left shifts
+
+There is a [[binary operation]] $(-) \ll (-):\mathrm{Dec} \times \mathrm{Dec} \to \mathrm{Dec}$ called the **arithmetic left shift** inductively defined as 
+
+$$a \ll 0 \coloneqq a$$
+$$a \ll s(b) \coloneqq (a \ll b) 0$$
+
+This binary operation is also called **multiplication by a power of ten**. 
+
+Arithmetic left shifts of digits is left distributive over addition: given $a:D$, $b:D$, and $c:\mathrm{Dec}$, $a \ll c + b \ll c = (a + b) \ll c$. 
+
+### Digit decompositions 
+
+...
+
+### Addition of general decimal representations
+
 Given two decimal representations of the natural numbers $a_0 d_0$ and $a_1 d_1$ with $d_0$ and $d_1$ being digits and $a_0$ and $a_1$ being decimal representations, addition is inductively defined as
 
 $$a_0 0 + d_1 \coloneqq a_0 d_1$$
 $$a_0 d_0 + a_1 d_1 \coloneqq (a_0 + a_1) 0 + (d_0 + d_1)$$
+
+The decimal representation of the natural numbers is a [[commutative monoid object]] in [[Set]]: 
 
 Addition is left unital: 
 
