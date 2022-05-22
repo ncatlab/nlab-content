@@ -325,7 +325,7 @@ commutes. This means precisely that $f$ is the function defined recursively by
 ## Related concepts
 
 * [[natural numbers]], [[natural numbers object]]
-* [[decimal representation of the natural numbers]]
+* [[decimal numeral representation of the natural numbers]]
 
 ## References
 
