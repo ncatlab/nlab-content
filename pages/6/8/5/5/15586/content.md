@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -21,17 +22,17 @@
 
 ## Idea
 
-> The explicit formulation of the principles of category theory ... is still in need of improved axiomatization. I will be overjoyed when some young person responds to that need. Lawvere ([2016](#Law16), p.1)
+> The explicit formulation of the principles of category theory ... is still in need of improved axiomatization. I will be overjoyed when some young person responds to that need.  ([[William Lawvere|Lawvere]], [2016](#Law16), p.1)
 
-**Elementary theory of the category of categories**, or _ETCC_ for short, is in a broad sense an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]] with a view to the categorical [[foundations of mathematics]].
+{#IsInABroadSense} **Elementary theory of the category of categories**, or _ETCC_ for short, is in a broad sense an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of [[categories]] that forms the intuitive background for naive [[category theory]] with a view to the categorical [[foundations of mathematics]]. This is in [[categorification]] of the analogous first-order axiomatization of the metacategory [[Set|SET]] of [[sets]], for which see at *[[ETCS]]*.
 
-Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation in 1963 and a subsequent publication (Lawvere 1966), and it is this system that is sometimes referred to as _the_ ETCC. We will discuss it together with subsequent attempts to repair its technical flaws under this heading in the next section.
+Historically, the first attempt to formulate such a system of axioms has been undertaken by [[William Lawvere|F. W. Lawvere]] in his dissertation ([Lawvere 63](#Lawvere63)) and a subsequent publication ([Lawvere 1966](#Lawvere66)), and it is this system that is sometimes referred to as _the_ ETCC. We will discuss it together with subsequent attempts to repair its technical flaws under this heading in the next section.
 
-Taking into account that the intuitively given category of categories is a 2-category, from an _n-categorical perspective_ one would prefer to axiomatize CAT directly as a 2-category, and the resulting _elementary theory of the 2-category of categories_, or **ET2CC**, is the subject of a subsequent [section](#ET2CC).
+Taking into account that the intuitively given category of categories is a [[2-category]], from an _[[nPOV|n-categorical perspective]]_ one would prefer to axiomatize CAT directly as a 2-category, and the resulting _elementary theory of the 2-category of categories_, or **ET2CC**, is the subject of a subsequent [section](#ET2CC).
 
 ## ETCC: Lawvere (1963) and beyond {#ETCC}
 
->In 1964, F. W. Lawvere proposed to found mathematics on the category of categories. When he lectured on this at an international conference in Jerusalem, [[Alfred Tarski]] objected: "But what is a category if not a set of objects together with a set of morphisms?" Lawvere replied by pointing out that set theory axiomatized the binary relation of membership, while category theory axiomatized the ternary relation of composition. [^LS] 
+>In 1964, F. W. Lawvere proposed to [[foundations of mathematics|found]] mathematics on the [[category of categories]]. When he lectured on this at an international conference in Jerusalem, [[Alfred Tarski]] objected: "But what is a category if not a [[set]] of [[objects]] together with a [[set]] of [[morphisms]]?" Lawvere replied by pointing out that set theory axiomatized the binary relation of membership, while category theory axiomatized the ternary relation of [[composition]]. [^LS] 
 
 [^LS]: [Lambek&Scott 2009](#LS11), pp.171-172.
 
@@ -98,11 +99,11 @@ Note that already B. Walters and R. Street conceived of their work on [[Yoneda s
 
 ## References
 
-* [[William Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
+* {#Lawvere63} [[William Lawvere]], *[[Functorial Semantics of Algebraic Theories]]*, Ph.D. thesis, Columbia University New York 1963. (With an author's comment and a supplement in: Reprints in Theory and Applications of Categories, no.5 (2004) pp.1-121 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/5/tr5.pdf)))
 
 A revised version of the axioms appears as
 
-* {#Law66} [[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
+* {#Lawvere66} [[William Lawvere]], *The Category of Categories as a Foundation for Mathematics*, pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966 ([doi:10.1007/978-3-642-99902-4_1](https://doi.org/10.1007/978-3-642-99902-4_1))
 
 Important reviews of the paper pointing out technical problems appeared here
 
