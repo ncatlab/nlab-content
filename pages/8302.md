@@ -221,7 +221,9 @@ see at _[[ordinary homology spectra split]]_
 
 ## Related concepts
 
-* [[singular homology]]
+* [[singular homology]], [[Čech homology]]
+
+* [[cellular homology]]
 
 * [[Dold-Thom theorem]]
 
