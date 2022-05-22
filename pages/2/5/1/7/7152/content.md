@@ -74,6 +74,8 @@ Let $k$ be an [[algebraically closed field]] of [[positive number|positive]] [[c
 
 ## Related concepts
 
+* [[Čech homology]]
+
 * [[algebraic fundamental group]]
 
 * [[anabelian geometry]]
