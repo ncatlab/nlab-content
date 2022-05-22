@@ -78,18 +78,39 @@ The central tool for breaking down all this [[higher algebra|higher algebraic]] 
 
 ## Related entries
 
-*  [[topology]], [[differential topology]]
-*  [[homotopy theory]], [[shape theory]], [[nonabelian algebraic topology]], [[rational homotopy theory]]
+* [[topology]], [[differential topology]]
+
+* [[homology]]/[[cohomology]]
+
+* [[homotopy theory]], [[shape theory]]
+
+* [[rational homotopy theory]]
+
+* [[nonabelian algebraic topology]]
+
+* [[topological data analysis]]
+
+
 *  [[homotopy lifting property]], [[Hurewicz fibration]], [[Hurewicz connection]], [[Serre fibration]]
+
 *  [[homotopy extension property]], [[Hurewicz cofibration]], [[deformation retract]]
+
 *  [[suspension]], [[loop space]], [[mapping cylinder]], [[mapping cone]], [[mapping cocylinder]]
+
 *  [[cohomology]], [[spectrum]], [[Brown representability theorem]]
+
 *  [[fundamental group]], [[fundamental groupoid]] 
+
 *  [[homotopy group]], [[Eckmann-Hilton duality]], [[H-space]], [[Whitehead product]]
+
 *  [[topological K-theory]], [[complex cobordism]], [[elliptic cohomology]], [[tmf]]
+
 *  [[CW complex]], [[CW approximation]], [[simplicial complex]], [[simplicial set]]  
+
 *  [[model category]], [[model structure on topological spaces]], [[homotopy category]]
+
 *  [[fibration sequence]], [[cofibration sequence]] 
+
 *  [[Freudenthal suspension theorem]], [[Whitehead theorem]] 
 
 
