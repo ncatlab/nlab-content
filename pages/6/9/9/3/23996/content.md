@@ -26,7 +26,14 @@ In this context it has been shown ([Franek & Krčál 2016](#FranekKrcal16), [201
 
 1. persistent cohomotopy can distinguish functions that are indistinguishable by their [[well groups]] ([FK16, Sec. 1.2](#FranekKrcal16)),
 
-1. even though coarser than cohomotopy groups, well groups in general are not (or not known to be) algorithmically [[computability|computable]], while the cohomotopy groups are proven computable in a fair range of dimensions ([CKMSVW14](computational+topology#CKMSVW14)).
+1. even though coarser than cohomotopy groups, well groups in general are not (or not known to be) algorithmically [[computability|computable]], while the cohomotopy groups are known to be computable in a fair range of dimensions ([CKMSVW14](computational+topology#CKMSVW14)).
+
+
+<center>
+<img src="https://ncatlab.org/nlab/files/EnhancePersFromHolomogyToCohomotopy-220522.jpg" width="600">
+</center>
+> (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS 22]])
+
 
 Generally, one may understand persistent cohomotopy both as the [[duality|dual]] of *[[persistent homotopy]]* as well as a [[non-abelian cohomology]]-version of the more widely considered notion of [[persistent homology]]:
 
@@ -573,7 +580,7 @@ In this simple case one can decide this immediately by appeal to the [[intermedi
         unit winding
       }
     }{
-    [f] = {\color{purple}+1} \in \pi^1(X/\mathrm{black})
+    [f] = {\color{purple}+1} \in \pi^1(X/\mathrm{gray})
     }
   $};
 
@@ -961,7 +968,7 @@ In this simple case one can decide this immediately by appeal to the [[intermedi
         trivial winding
       }
     }{
-    [f] = {\color{purple}0} \in \pi^1(X/\mathrm{black})
+    [f] = {\color{purple}0} \in \pi^1(X/\mathrm{gray})
     }
   $};
 
@@ -989,11 +996,11 @@ In this simple case one can decide this immediately by appeal to the [[intermedi
 
 > (graphics adapted from [[schreiber:New Foundations for TDA -- Cohomotopy|SS 22]])
 
-Here the [[curve]] indicates the [[graph of a function|graph]] of $f$ and "black" stands for the region $A_r \,\subset\, X$, while "red" stands for $\mathbb{R}^1 \setminus B_r$.
+Here the [[curve]] indicates the [[graph of a function|graph]] of $f$ and "gray" stands for the region $A_r \,\subset\, X$, while "red" stands for $\mathbb{R}^1 \setminus B_r$.
 
 One sees on the left that if the cohomotopy class of $f$ at resolution $1/r$ is non-trivial, then there is at least one zero. 
 
-In the situation on the right it is intuitively clear that a deformation of $f$ with magnitude smaller than $r$ may move the curve/[[graph of a function|graph]] away from the horizontal 0-line. In terms of [[homotopy theory]] this is the statement that in this case the [[quotient]]-map  $X/black \to \mathbb{R}^1/red$ of $f$ admits a [[homotopy]] to the [[constant function]], which shows that its [[homotopy class]] (here: a [[cohomotopy]]-class) is trivial.
+In the situation on the right it is intuitively clear that a deformation of $f$ with magnitude smaller than $r$ may move the curve/[[graph of a function|graph]] away from the horizontal 0-line. In terms of [[homotopy theory]] this is the statement that in this case the [[quotient]]-map  $X/gray \to \mathbb{R}^1/red$ of $f$ admits a [[homotopy]] to the [[constant function]], which shows that its [[homotopy class]] (here: a [[cohomotopy]]-class) is trivial.
 
 \linebreak
 
