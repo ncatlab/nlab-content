@@ -270,7 +270,7 @@ from the [[category]] of [[smooth manifold|smooth]] [[manifolds with boundaries 
 
 =--
 
-([Igresias-Zemmour 13, 4.16](#PIZ), [Gürer & Iglesias-Zemmour 19](#GurerIZ19))
+([Iglesias-Zemmour 13, 4.16](#PIZ), [Gürer & Iglesias-Zemmour 19](#GurerIZ19))
 
 
 ### Embedding of Banach manifolds into diffeological spaces
