@@ -1,50 +1,117 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
+
+#&#268;ech homology#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[topological space]] $X$, its *Čech homology* is the [[limit]] of [[simplicial homology]]-[[homology group|groups]] of the [[Čech nerves]] of its [[open covers]], under [[refinement of open covers]].
+
+Compare to the [[singular homology]] of $X$, which is the [[simplicial homology]] of its [[singular simplicial complex]]. For well behaved topological spaces the two notions agree and are jointly known as computing the *[[ordinary homology]]* of $X$. 
+
+## Definition
+
+Given a [[topological space]] $X$ with an [[open cover]], 
+
+$$  
+  \mathcal{U}
+  \;=\;
+  \Big\{
+    U_i \xhookrightarrow{open} X
+  \Big\}_{i \in I}
+$$
+
+we write
+
+\[
+  \label{CechNerve}
+  C(X,\mathcal{U})
+  \;\coloneqq\;
+  \pi_0
+  \big(
+    U^{\times^\bullet_X}
+  \big)
+  \;\in\;
+  sSet
+\] 
+
+for the [[simplicial set]] which is its [Čech+nerve](Čech+nerve#FromACover):
+whose $n$-[[simplex|simplices]] are the [[inhabited set|inhabited]] $(n + 1)$-fold [[intersections]] of the [[open subsets]] $U_i$ in $\mathcal{U}$. 
+
+\begin{remark}
+For sufficiently well-behaved topological spaces $X$ ([[paracompact spaces]]) and *[[good open cover|good]]* open covers, the Čech nerve (eq:CechNerve) is [[simplicial homotopy equivalence|simplicially homotopy equivalent]] to the [[singular simplicial complex]] of $X$ -- this is the statement of the *[[nerve theorem]]*.
+
+However, in general $C(X,\mathcal{U})$ may differ from the [[weak homotopy type]] of $X$ (even in the [[limit]] below) in which case Čech homology may *differ* from the [[singular homology]] of $X$. (See for instance the discussion at *[[well group]]*.)
+\end{remark}
+
+
+If $\mathcal{U}$ is a [[refinement of an open cover|refinement]] open cover, i.e. such that for each $U' \in \mathcal{U}$, there is a $U \in \mathcal{U}$ with $U \subseteq U$, then these inclusions induce a [[morphism]] of [[simplicial sets]]
+
+
+$$
+  C(X,\mathcal{U}) \longrightarrow C(X,\mathcal{U}')
+$$
+
+This yields an [[inverse system]] of [[simplicial sets]].
+
+
+\begin{definition}
+The $n$th **Čech homology group** of the space $X$ is the [[limit]] 
+$$
+  \check{H}_n(X) 
+  \;\coloneqq\; 
+  \underset{
+    \underset{\mathcal{U}}{\longleftarrow}
+  }{lim} 
+  H_n(X,\,\mathcal{U})
+$$
+over the [[inverse system]] of [[open covers]] $\alpha$, of the [[simplicial homology]] [[homology group|groups]] of the [Čech nerve](Čech+nerve#FromACover) $C(X,\alpha)$:
+$$
+  H_n(X,\,\mathcal{U})
+  \;\coloneqq\;
+  H_n\big(C(X,\,\mathcal{U})\big)
+  \,.
+$$
+\end{definition}
+
+\begin{remark}
+It is to be noted that these groups do not constitute a [[homology theory]] in the sense of the [[Eilenberg-Steenrod axioms]] as the _exactness axiom_ fails in general. There is a "corrected" theory known under the name [[strong homology]]. 
+\end{remark}
+
+## Related concepts
+
+* [[Čech methods]], [[nerve theorem]]
+
+* [[singular homology]], [[cellular homology]]
+
+* [[ordinary homology]]
+
+* [[étale homotopy type]]
+
+* [[well group]]
+
+
+## References
+
+Exposition:
+
+* [[David H. Fremlin]], Section 2 of: _Singular homology for amateurs_ (2016) $[$[pdf](https://www1.essex.ac.uk/maths/people/fremlin/n16703.pdf), [[FremlinSIngularHomology.pdf:file]]$]$
+
+
 [[!redirects Cech homology]]
 [[!redirects Čech homology]]
 
-#&#268;ech homology#
-* automatic table of contents goes here
-{:toc}
-Recall the definition of the nerve of an open cover from [[Čech methods]].
-
-##Preliminary Definitions##
-
-Given a (compact) space $X$ and a finite open cover, $\alpha$, of $X$, we can
-form a [[simplicial set]], $C(X,\alpha)$, called the *nerve of the cover* whose $n$-[[simplex|simplices]] are $(n + 1)$-strings
-of open sets  from $\alpha$, i.e. $\langle U_0, \ldots, U_n\rangle$, each $U_i \in \alpha$,
-satisfying $\cap U_i \neq \emptyset$.
-
-If $\beta$ is another cover such that for each $V\in \beta$, there is a $U\in
-\alpha$ with $V\subseteq U$, then the assignment $V\to U$ in this case defines 
-a map 
-
-$$C(X,\alpha)\to C(X,\beta)$$
-
-dependent on the choice of $U$ for each
-$V$, but independent 'up to homotopy'.  This gives an inverse system of simplicial sets and homotopy classes of maps.
-
-####Remarks:####
-
-(i) The classical definition would require that the sets $U_i$, involved in the simplex were distinct, and that the ordering did not matter. That then gives a [[simplicial complex]] rather than a simplicial set. The simplicial complex definition yields something that is smaller but for some calculations is a lot less easy to work with.
-
-(ii) The proof that the homotopy class of the 'binding' map from $C(X,\alpha)$to $C(X,\beta)$ is independent of the choices made is well known.  It shows that any two choices yield 'contiguous maps' in as much as the images of a simplex under the two maps, given by the two choices, form two faces of a higher dimensional simplex.  This allows an _explicit_ [[simplicial homotopy|homotopy]] of simplicial maps to be given.
-
-
-Taking the simplicial homology groups of the $C(X,\alpha)$, gives, for each $n$, an inverse system of Abelian groups, which we will denote $H_n(X,\alpha)$.
-
-##Definition##
-The $n$th __Čech homology group__ of the space $X$ is defined to be
-$$\check{H}_n(X) = lim H_n(X,\alpha),$$
-where the limit is taken over all open covers of $X$.
-
-It is to be noted that these groups do not constitute a [[homology theory]] in the sense of the [[Eilenberg-Steenrod axioms]] as the _exactness axiom_ fails in general. There is a "corrected" theory known under the name [[strong homology]]. 
-
-## Literature and links
-
-An expository account is available in Section 2 of
-
-* [[David H. Fremlin]], _Singular homology for amateurs_, [PDF](https://www1.essex.ac.uk/maths/people/fremlin/n16703.pdf).
-
-See also [[Čech methods]].
 
 [[!redirects Čech homology theory]]
 [[!redirects Cech homology]]
