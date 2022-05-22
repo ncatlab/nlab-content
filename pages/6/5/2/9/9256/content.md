@@ -75,7 +75,7 @@ and on the [[extension]]-problem:
 
 Discussion of [[Cohomotopy]]-sets in [[computational topology]]:
 
-* [[Martin Čadek]], [[Marek Krčál]], [[Jiří Matoušek]], [[Francis Sergeraert]], [[Lukáš Vokřínek]], [[Uli Wagner]], _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
+* {#CKMSVW14} [[Martin Čadek]], [[Marek Krčál]], [[Jiří Matoušek]], [[Francis Sergeraert]], [[Lukáš Vokřínek]], [[Uli Wagner]], _Computing all maps into a sphere_, Journal of the ACM, Volume 61 Issue 3, May 2014 Article No. 1 ([arxiv:1105.6257](https://arxiv.org/abs/1105.6257))
 
 * [[Lukáš Vokřínek]], _Decidability of the extension problem for maps into odd-dimensional spheres_,  Discrete Comput Geom (2017) 57: 1 ([arXiv:1401.3758](https://arxiv.org/abs/1401.3758))
 
