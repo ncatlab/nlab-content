@@ -77,13 +77,17 @@ Then a _refinement_ of this open cover is a set of open subsets $\{V_j \subset X
 
 =--
 
-On the other hand, you might want to generalise the case of open covers to [[covers]] or covering [[sieves] on a [[site]].  In that case, the general definition still applies; you have covering families $(U_i \to X)_i$ and $(V_j \to X)_j$ of some object $X$; $V$ is a refinement of $U$ if there are a map $f: J \to I$ and a commutative diagram (eq:slice) for each $j$.
+On the other hand, you might want to generalise the case of open covers to [[covers]] or covering [[sieves]] on a [[site]].  In that case, the general definition still applies; you have covering families $(U_i \to X)_i$ and $(V_j \to X)_j$ of some object $X$; $V$ is a refinement of $U$ if there are a map $f: J \to I$ and a commutative diagram (eq:slice) for each $j$.
 
 ## Examples
 
 Refinement of open covers is a concept appearing in the definition of
 
 * [[compact topological space]], [[paracompact topological space]], etc.
+
+## Related concepts
+
+* [[Čech homology]]
 
 [[!redirects refinements]]
 
@@ -92,4 +96,16 @@ Refinement of open covers is a concept appearing in the definition of
 
 [[!redirects refinement of covers]]
 [[!redirects refinements of covers]]
+
+[[!redirects refinement of an open cover]]
+[[!redirects refinements of an open cover]]
+
+[[!redirects refinement of open covers]]
+[[!redirects refinements of open covers]]
+
+
+
+
+
+
 
