@@ -1,12 +1,18 @@
-[[!redirects ?ech method]]
-[[!redirects ?ech method]]
-[[!redirects Cech method]]
-[[!redirects ?ech methods]]
-[[!redirects ?ech methods]]
-[[!redirects Cech methods]]
 
-#&#268;ech methods#
-* automatic table of contents goes here
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -190,4 +196,23 @@ Ho(\mathbf{A})$ instead of in $Ho(pro \mathbf{A})$.  This problem has been in pa
 
 * see also [[abelian sheaf cohomology]]
 
+## Related entries
+
+* [[Čech nerve]]
+
+* [[Čech homology]], [[Čech cohomology]]
+
+* [[nerve theorem]]
+
+*(...)
+
+
+
+
 [[!redirects &#268;ech methods]]
+
+[[!redirects Čech method]]
+
+[[!redirects Cech method]]
+[[!redirects Cech methods]]
+
