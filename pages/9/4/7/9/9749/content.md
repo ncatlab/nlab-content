@@ -83,28 +83,28 @@ different representation of the category of $G$-algebras. (Recall that the full 
 
 One possible representation follows from the observation that given any $G$-algebra $h:G(X) \rightarrow X$ on a (coseparated) measurable space $X$, the underlying set $X$ has the structure of a superconvex space, denoted $X_h$, defined by $\sum_{i=1}^{\infty} p_i x_i := h( \sum_{i=1}^{\infty} p_i \delta_{x_i})$, where $\sum_{i=1}^{\infty} p_i = 1$ and each $p_i \ge 0$. The proof is
 
-\begin{equation} \nonumber
-\begin{array}{rcll}
- (h \mu_X)(\sum_{i \in \mathbb{N}} p_i \delta_{P_i}) &=& (h \circ \G(h))(\sum_{i \in \mathbb{N}} p_i \delta_{P_i})   & \textrm{because }h\textrm{ is a }G-\textrm{algebra} \\
- h(\sum_{i \in \mathbb{N}} p_i P_i) &=& h(\sum_{i \in \mathbb{N}} p_i \delta_{h(P_i)})  & \textrm{property of }\mu_X \textrm{ and the pushforward map} \\
- h(\sum_{i \in \mathbb{N}} p_i P_i) &=& \sum_{i \in \mathbb{N}} p_i h(P_i) & \textrm{by def. of }h\textrm{ on count. aff. sums in }X_h
+\begin{equation} 
+\begin{array}{rcl}
+ (h \mu_X)(\sum_{i \in \mathbb{N}} p_i \delta_{P_i}) &=& (h \circ \G(h))(\sum_{i \in \mathbb{N}} p_i \delta_{P_i})   \\
+ h(\sum_{i \in \mathbb{N}} p_i P_i) &=& h(\sum_{i \in \mathbb{N}} p_i \delta_{h(P_i)})  \\
+ h(\sum_{i \in \mathbb{N}} p_i P_i) &=& \sum_{i \in \mathbb{N}} p_i h(P_i) 
 \end{array}.
 \end{equation}
 
   Moreover, given any map of $G$-algebras, $f: (X,h) \rightarrow (Y,k)$ it follows that $f$ is a countably affine map because 
-\begin{equation} \nonumber
-\begin{array}{lcll}
-f( \sum_{i \in \mathbb{N}} p_i x_i) &=& f(h( \sum_{i \in \mathbb{N}} p_i \delta_{x_i} )) & \textrm{by definition of }X_h \\
-&=& k\big( G{(f)}( \sum_{i \in \mathbb{N}} p_i \delta_{x_i}  ) \big) & \textrm{using }f \circ h =k \circ G{(f)}\\
-&=& k\big(  \sum_{i \in \mathbb{N}} p_i \delta_{f(x_i)} \big) & \textrm{by definition of pushforward}\\
-&=&  \sum_{i \in \mathbb{N}} p_i k(\delta_{f(x_i))}  & \textrm{because }k \textrm{ is countably affine}\\
-&=&  \sum_{i \in \mathbb{N}} p_i f(x_i)  & \textrm{because }k \textrm{ is a }G-\textrm{algebra}
+\begin{equation} 
+\begin{array}{lcl}
+f( \sum_{i \in \mathbb{N}} p_i x_i) &=& f(h( \sum_{i \in \mathbb{N}} p_i \delta_{x_i} ))  \\
+&=& k\big( G{(f)}( \sum_{i \in \mathbb{N}} p_i \delta_{x_i}  ) \big) \\
+&=& k\big(  \sum_{i \in \mathbb{N}} p_i \delta_{f(x_i)} \big) \\
+&=&  \sum_{i \in \mathbb{N}} p_i k(\delta_{f(x_i))}  \\
+&=&  \sum_{i \in \mathbb{N}} p_i f(x_i) 
 \end{array}
 \end{equation}
 
-  For this reason we are naturally led to the category of super convex spaces, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M..  The morphisms of the category of super convex spaces, $\mathbf{SCvx}$, are countably affine map (barycenter maps) which generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. 
+  For this reason we are naturally led to the category of super convex spaces, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M..  The morphisms of the category of super convex spaces, $\mathbf{SCvx}$, are countably affine map (barycenter maps) which generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. These $G$-algebras, with measurable maps, provide the connection between the continuous (geometric) spaces and discrete (combinatorial) spaces which are necessary for modeling non-determinism.
 
-Super convex spaces are described in the ongoing work by ([Sturtz 22](#Sturtz22)) who is attempting to use the support of a probability measure to construct the barycenter maps (=$G$-algebras) for  super convex space.
+Super convex spaces are described in the ongoing work by ([Sturtz 22](#Sturtz22)) who is attempting to use the support of a probability measure to construct the barycenter maps (=$G$-algebras) for  super convex space.  
 ## Related constructions
 
 See also [[monads of probability, measures, and valuations]].
