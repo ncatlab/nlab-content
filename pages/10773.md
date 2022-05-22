@@ -70,6 +70,8 @@ The [[spectral sequence of a filtered stable homotopy type]] associated with the
 
 * [[tower of homotopy fibers]]
 
+* [[persistent homotopy theory]]
+
 [[!include Lurie spectral sequences -- table]]
 
 \linebreak
@@ -81,8 +83,16 @@ The [[spectral sequence of a filtered stable homotopy type]] associated with the
 [[!include filtered objects -- contents]]
 
 
-
+[[!redirects filtered objects in an (∞,1)-category]]
 
 
 [[!redirects filtered object in an (infinity,1)-category]]
 [[!redirects filtered objects in an (infinity,1)-category]]
+
+[[!redirects filtered object of an (∞,1)-category]]
+[[!redirects filtered objects of an (∞,1)-category]]
+
+[[!redirects filtered object of an (infinity,1)-category]]
+[[!redirects filtered objects of an (infinity,1)-category]]
+
+
