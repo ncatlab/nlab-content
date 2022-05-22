@@ -35,4 +35,4 @@ The general abstract perspective on [[cohomology]] (subsuming [[sheaf cohomology
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_ (1973)
 
-but probably known in one form or other before that.
+
