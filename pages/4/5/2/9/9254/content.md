@@ -14,23 +14,51 @@
 =--
 
 
+
 # Topological data analysis
 * table of contents
 {: toc}
 
 ## Idea
 
-The area of _Topological Data Analysis_ (TDA) has emerged recently as being that part of [[computational topology|Computational Topology]] concerned with applying the methods of that subject to the [[data analysis|analysis of data sets]] that are often of very large size; the methods used are adapted from [[algebraic topology]] and [[differential topology]] and are closely related to those used for spatial reconstruction from scanned data in Visualisation, but the context is, theoretically, not limited to low dimensions nor to data of spatial origin nor, initially, to the visualisation of the data. Its aim, rather, is to give qualitative information on the data, allowing for statistical variation, noise etc.
+\begin{imagefromfile}
+    "file_name": "CoCyclesInDataSets-220522.jpg",
+    "float": "right",
+    "width": 420,
+    "unit": "px",
+    "margin": {
+        "top": -60,
+        "bottom": 0,
+        "right": 0, 
+        "left": 20
+    }
+\end{imagefromfile}
 
-## Subthemes
+*Topological data analysis* (TDA) is *qualitative* [[data analysis]] with tools from [[topology]], in particular with tools from *[[algebraic topology]]*. 
 
-* [[persistent homology]]
+This notably includes tools from [[ordinary homology|ordinary]] ([[cohomology theory|co-]])[[homology]]-theory, which in the guise of *[[persistent homology]]* has become the signature method in TDA; but it also includes more general tools of [[homotopy theory]] and [[differential topology]], which have more recently found their way into TDA in the guise of *[[persistent homotopy theory]]* and *[[persistent cohomotopy theory]]*.
+
+Typically, TDA deals with *large* data sets modeled as ([[subsets]] of) [[topological spaces]]. Collections of *data points* appear as *[[cycles]]* in the topological space of data, and *values* of data appear as *[[cocycles]]*.
+$\;\;$(graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+
+
+The strategy of "persistency"-analysis is to see which chunks ([[subspaces]]) of this data appear to be ([[n-connected topological space|higher]]) [[connected topological space|connected]] when viewed at some resolution (technically: at some [[filtered topological space|filter stage]]) and how much these apparent chunks *persist* as the resolution changes. 
+This may be recorded in *[[persistence diagrams]]* (also known as "[[barcodes]]"). The fundamental theorem of the field -- the *[[stability of persistence diagrams|stability theorem]]* -- says that [[persistence diagram|persistent]] ([[cocycle|co-]])[[cycle]]-[[equivalence class|classes]] are indeed a good invariant of data, in that they remain stable under small perturbations of the initial data (e.g. under [[noise]], uncertainty, measurement errors, etc.).
+
+
+
+The idea then is that those  ([[cocycle|co-]])[[cycles]] which persist for longer (appear as longer bars in the [[barcode]]) reflect relevant structure hidden in the (large) data set. However, figuring out what exactly a persistent (co)cycle actually means in a given application in general requires further case-by-case ingenuity.
+
+
+
 
 ## Related concepts
 
 * [[computational topology]]
 
 * [[machine learning]]
+
+
 
 ## References
 
