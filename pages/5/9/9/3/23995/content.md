@@ -188,13 +188,22 @@ Arithmetic left shifts of digits is left distributive over addition: given $a:D$
 
 ### Digit decompositions 
 
-...
+Given a decimal numeral representation $b$, there exists functions $\mathrm{digitsNotLast}:\mathrm{Dec} \to \mathrm{Dec}$ and $\mathrm{lastDigit}:\mathrm{Dec} \to D$ such that 
+
+$$b = \mathrm{digitsNotLast}(b) \mathrm{lastDigit}(b)$$
+
+and 
+
+$$\mathrm{numDigits}(b) = s(\mathrm{digitsNotLast}(b))$$
 
 ### Addition of general decimal representations
 
+Given a decimal numeral representation $b$ such that $\mathrm{lastDigit}(b) = 0$, the sum of $b$ and a digit $d$ is defined as
+
+$$b + d \coloneqq \mathrm{digitsNotLast}(b) d$$
+
 Given two decimal numeral representations of the natural numbers $a_0 d_0$ and $a_1 d_1$ with $d_0$ and $d_1$ being digits and $a_0$ and $a_1$ being decimal numeral representations, addition is inductively defined as
 
-$$a_0 0 + d_1 \coloneqq a_0 d_1$$
 $$a_0 d_0 + a_1 d_1 \coloneqq (a_0 + a_1) 0 + (d_0 + d_1)$$
 
 The decimal numeral representation of the natural numbers is a [[commutative monoid object]] in [[Set]]: 
