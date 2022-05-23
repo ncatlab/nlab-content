@@ -430,6 +430,15 @@ See at _[[universal Kan fibration]]_.
 
 ## References
 
+The original definition is due to [[Daniel M. Kan]], see Definition 3.1 in
+
+* [[Daniel M. Kan]], _A combinatorial definition of homotopy groups_, The Annals of Mathematics 67:2 (1958), 282–312.  [doi](http://dx.doi.org/10.2307/1970006).
+
+This was extended to arbitrary [[simplicial objects]] via the [[Yoneda embedding]] in Definition 3.2 of
+
+* [[Daniel M. Kan]], _On c.s.s. categories_, Boletín de la Sociedad Matemática Mexicana 2 (1957), 82–94.  [PDF](https://dmitripavlov.org/scans/kan-on-css-categories.pdf).
+
+
 A standard textbook account is
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_, 1996
