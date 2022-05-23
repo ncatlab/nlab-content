@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include topological physics -- contents]]
 =--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 =--
 =--
 
@@ -26,7 +30,7 @@
 ### General
  {#GeneralIdea}
 
-In [[solid state physics]], a [[phase of matter]] is called *topological*, within a given energy bound $\Delta$ (the "gap") if external deformations of the system that are gentle enough -- namely "[[adiabatic theorem|adiabatic]]" -- not to excite modes $\gt \Delta$ above the [[ground state]] leave the main properties of the system [[invariant]]. This is vaguely reminiscent of how [[topology]] is concerned with properties of [[spaces]] that are invariant under "gentle" -- namely "[[continuous map|continuous]]" -- deformations. Indeed, it turns out or is expected that topological phases of matter may be characterized (classified) by certain [[homeomorphism classes]] or rather by [[homotopy classes]] of the kind studied in [[topology]], or rather in [[homotopy theory]] and [[generalized cohomology theory]].
+In [[solid state physics]], a [[phase of matter]] (of a [[quantum material]]) is called *topological*, within a given [[energy]] bound $\Delta$ (the "gap") if external deformations of the system that are gentle enough -- namely "[[adiabatic theorem|adiabatic]]" -- not to excite modes $\gt \Delta$ above the [[ground state]] leave the main properties of the system [[invariant]]. This is vaguely reminiscent of how [[topology]] is concerned with properties of [[spaces]] that are invariant under "gentle" -- namely "[[continuous map|continuous]]" -- deformations. Indeed, it turns out or is expected that topological phases of matter may be characterized (classified) by certain [[homeomorphism classes]] or rather by [[homotopy classes]] of the kind studied in [[topology]], or rather in [[homotopy theory]] and [[generalized cohomology theory]].
 
 Such topological phases are fundamentally different from classical [[phases of matter]] in that they are *not* controlled by the [[Landau theory of phase transitions]].
 
