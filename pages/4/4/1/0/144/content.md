@@ -229,6 +229,8 @@ With the advent of [[Higher Topos Theory]] abstract concepts of _space and quant
 
 ## Related entries
 
+* [[Isbell duality]]
+
 * [[space]]
 
 * [[generalized smooth space]]
