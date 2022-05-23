@@ -27,7 +27,7 @@ Applied specifically to [[persistence modules]] given by the [[homology groups]]
 
 In this case it says that the two canonical [[zigzag persistence modules]] associated with a [[filtered topological space]] (one built from [[union]]-[[zigzags]], the other from [[intersection]]-[[zigzags]]) in fact yield the same [[persistence diagrams]].
 
-Notice how the diagmond principle is a result genuinely about persistent invariants, in that the two persistence modules forming an exact diamond do not have the same shape as [[diagrams]] and hence are *un-comparable* when regarded, say, as [[quiver representations]] (as which they are [[objects]] of *distinct* [[categories]]).
+Notice how the diamond principle is a result genuinely about persistent invariants, in that the two persistence modules forming an exact diamond do not have the same shape as [[diagrams]] and hence are *non-comparable* when regarded, say, as [[quiver representations]] (since they are [[objects]] of *distinct* [[categories]]).
 
 
 
