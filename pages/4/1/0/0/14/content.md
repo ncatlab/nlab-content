@@ -15,7 +15,7 @@
 
 ##History
 
-The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_.  It grew out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) to have a place for development (the "Lab" in "$n$Lab") and indexed archives of the ideas and concepts surrounding the discussions at the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/).  These discussions primarily are about [[mathematics]], [[physics]] and [[philosophy]] from the perspective of [[category theory]] and [[higher category theory]] (the "$n$" in "$n$Lab" and [[nPOV]]).
+The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_.  It grew out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) to have a place for development (the "Lab" in "$n$Lab") and indexed archives of the ideas and concepts surrounding the discussions at the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/).  These discussions primarily are about [[mathematics]], [[physics]] and [[philosophy]] from the perspective of [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]] (the "$n$" in "$n$Lab" and [[nPOV]]).
 
 The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 using software provided and set up by [[Jacques Distler]].  The name "$n$Lab" (short for "$n$-Category Lab", but perhaps less restrictive) was dreamt up by Lisa Raphals ([[John Baez]]'s wife).
 
@@ -57,7 +57,7 @@ The $n$Lab is not a community project set up for the education and improvement o
 
 The way that this is being worked out in practice is as follows.  Currently it seems that common motivations for contributing to the $n$Lab are 
 
- * to **assemble information** on [[mathematics]], [[physics]] and [[philosophy]] in a modern unified way, from the perspective of [[higher category theory]];
+ * to **assemble information** on [[mathematics]], [[physics]] and [[philosophy]] in a modern unified way, from the perspective of [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]], and [[higher category theory]];
 
 * to **provide exposition** of this information which is useful to a wide range of readers of differing expertise;
 
@@ -69,7 +69,7 @@ To some extent this involves
 
 But on top of this encyclopaedic function, and hopefully in parallel to that, the $n$Lab is 
 
-* intended as providing a _laboratory_ for collaborative development of ideas -- for research. Within the community out of which the $n$Lab grew exists the feeling that there is considerable potential for the fruitful application and development of categorical and higher categorical concepts and tools to various areas in [[mathematics]], [[physics]] and [[philosophy]]. Several contributors to the $n$Lab are actively involved in research along these lines.
+* intended as providing a _laboratory_ for collaborative development of ideas -- for research. Within the community out of which the $n$Lab grew exists the feeling that there is considerable potential for the fruitful application and development of higher algebraic, homotopical, type theoretic,  categorical, and higher categorical concepts and tools to various areas in [[mathematics]], [[physics]] and [[philosophy]]. Several contributors to the $n$Lab are actively involved in research along these lines.
 The $n$Lab is meant as a place to collect, develop and present such research.
 
 
