@@ -20,10 +20,15 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-__Differential topology__ is the subject devoted to the study of [[topology|topological]] properties of [[differentiable manifolds]], [[smooth manifolds]] and related [[differential geometry|differential geometric]] [[spaces]] such as [[stratifolds]], [[orbifolds]] and more generally [[differentiable stacks]]. 
+__Differential topology__ is the subject devoted to the study of [[algebraic topology|algebro]]-[[topology|topological]] and [[homotopy theory|homotopy-theoretic]] properties of [[differentiable manifolds]], [[smooth manifolds]] and related [[differential geometry|differential geometric]] [[spaces]] such as [[stratifolds]], [[orbifolds]] and more generally [[differentiable stacks]]. 
 
+A key part of differential topology is [[cobordism theory]], where the [[Pontryagin theorem|Pontryagin-]][[Pontryagin-Thom theorem|Thom theorem]] relates the [[stable homotopy theory|stable]] [[homotopy theory]] of [[Thom spectra]] to [[cobordism classes]] of [[smooth manifold|smooth]] ([[submanifold|sub]]-)[[smooth manifold|manifolds]] (for instance [[cohomotopy]] to [[normal framing|normally framed]] [[cobordism]]).
+ 
 Differential topology is also concerned with the problem of finding out which topological (or PL) manifolds allow a  [[smooth structure|differentiable structure]] and the degree of nonuniqueness of that structure if they do (e.g. [[exotic smooth structures]]). It is also concerned with concrete constructions of [[cohomology|(co)]][[homology]] classes (e.g. [[characteristic class]]es) for differentiable manifolds and of [[differential cohomology|differential refinements of cohomology theories]]. 
+
+More recently, the *[[smooth Oka principle]]* reveals a deep structure in differential topology which is visible in the full generality of [[higher differential geometry]] ([[smooth infinity-groupoid|smooth $\infty$-stacks]]).
 
 ## Examples
 
