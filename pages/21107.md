@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -14,10 +18,16 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 In the context of [[persistent homology]], the _well group_ ([EMP 11](#EMP11)) of a [[continuous function]] $f$ into a [[metric space]] is a [[homology|homological]] measure of how robust the [[level sets]] of $f$ are against [[deformations]] of $f$. Concretely, the Well group at [[radius]] $r$ of a given point in the [[codomain]] consists of all those [[Čech homology]]-classes of the domain which are reflected in the [[level sets]] of _every_ [[continuous function]] whose values differ from those of $f$ at most by $r$.
 
 As the level varies, the collection of well groups form a [[zigzag persistence module]], also called a *well module* ([EMP 11, Sec. 3](#EMP11)).
+
+Since a well group becomes [[trivial group|trivial]] as soon as one of the [[level sets]] is [[empty set|empty]], the non-triviality of a well group proves that the existence of a [[inhabited set|non-empty]] [[level set]] of $f$ is *robust* within deformations of size $\lt r$. In [[topological data analysis]] this may be used to detect if there are guaranteed to be any data points at all meeting a certain target of indicator values, known with limited precision, see [there for more](topological+data+analysis#StrategyOfPersistentCohomotopy). 
+
+But well groups are known not to resolve all relevant cases and are not known to be [[computability|computable]] in all relevant cases ([Franek & Krčál 2016](#FranekKRcal16)). An enhancement of well groups (from [[ordinary homology|homology]] to [[cohomotopy]]) which fixes these problems is [[persistent cohomotopy]] ([Franek & Krčál 2017](#FranekKRcal17), [2018](#FranekKRcal18)).
+
 
 ## Definition
 
@@ -94,10 +104,11 @@ Review, computational analysis and discussion of ([[persistent Cohomotopy|persis
 * [[Peter Franek]], [[Marek Krčál]], _Persistence of Zero Sets_, Homology, Homotopy and Applications, Volume 19 (2017) Number 2 ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310), [doi:10.4310/HHA.2017.v19.n2.a16](http://dx.doi.org/10.4310/HHA.2017.v19.n2.a16))
 
 
-* [[Peter Franek]], [[Marek Krčál]], _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, talk at [ACAT meeting 2015](https://www2.ist.ac.at/acat) ([pfd slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
-
 * [[Peter Franek]], [[Marek Krčál]], [[Hubert Wagner]], _Solving equations and optimization problems with uncertainty_, J Appl. and Comput. Topology (2018) 1: 297 ([arxiv:1607.06344](https://arxiv.org/abs/1607.06344), [doi:10.1007/s41468-017-0009-6](https://doi.org/10.1007/s41468-017-0009-6))
 
+Survey:
+
+* [[Peter Franek]], [[Marek Krčál]], _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, talk at [ACAT meeting 2015](https://www2.ist.ac.at/acat) ([pfd slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
 
 [[!redirects well groups]]
 
