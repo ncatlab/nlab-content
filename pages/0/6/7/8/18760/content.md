@@ -35,13 +35,19 @@ Where a general (possibly non-linear) differential equation is equivalently an o
 
 * [[wave equation]]
 
+* [[Dirac equation]]
+
 * [[Klein-Gordon equation]]
 
 * [[Schrödinger equation]]
 
+* [[Tomonaga-Schwinger equation]]
+
 * ...
 
 ## Related concepts
+
+* [[superposition]]
 
 * [[D-module]]
 
