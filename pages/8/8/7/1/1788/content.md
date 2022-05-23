@@ -1,4 +1,16 @@
+some articles I hope to create:
 
+* [[acoustics]]
+* [[periodic function]]
+* [[waveform]]
+* [[frequency]]
+* [[fundamental frequency]]
+* [[harmonic]]
+* [[overtone]]
+* [[partial]]
+* [[harmonic partial]]
+* [[inharmonic partial]]
+* [[overtone series]]/[[harmonic series]]
 
 \linebreak
 
@@ -10,7 +22,7 @@
 ***
 
 
-## Idea
+\section{Idea}
 
 Expositions of [[topological data analysis]] traditionally invoke *point clouds* -- [[discrete space|discrete]] [[subsets]] of some [[metric space]] --  as the generic mathematical incarnation of datasets to be analyzed. 
 
