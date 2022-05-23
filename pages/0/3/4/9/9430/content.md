@@ -42,7 +42,7 @@ under the aspect of which elements ([[vectors]]) $v_i \in V_i$ "persist" (ie. re
 In the archetypical applications of interest, these vector spaces are [[ordinary homology|ordinary]] [[homology groups]] $V_i \,=\, H_n(X_i)$ (over a given [[ground field]]) of [[topological spaces]] $X_i$ which themselves are stages 
 
 $$ 
-  \cdots \hookrightarrow X_i \xhookrightarrow{\iota_i} X_{i+ 1} \xhookrightarrow{\iota_{i + 2}} X_{i + 2} \xhookrightarrow{} \cdots \xhookrightarrow{x} X
+  \cdots \hookrightarrow X_i \xhookrightarrow{\iota_i} X_{i+ 1} \xhookrightarrow{\iota_{i + 1}} X_{i + 2} \xhookrightarrow{} \cdots \xhookrightarrow{x} X
 $$ 
 
 of a [[filtered topological space]], and one is interested in deducing "relevant" properties of this filtration by finding those [[homology]] [[cycles]] which stand out as persisting over a large range of steps.
