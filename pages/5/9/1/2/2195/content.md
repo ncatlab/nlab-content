@@ -723,6 +723,8 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 * [[harmonic]], [[fundamental frequency]]
 
+* [[superposition]]
+
 * [[Fourier integral operator]]
 
 * [[Fourier transform of distributions]]
@@ -744,7 +746,9 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 ## References
 
-Lecture notes include
+Lecture notes:
+
+* [[Howard Georgi]], *The Physics of Waves*, Prentice Hall (1993) $[$[web](https://www.people.fas.harvard.edu/~hgeorgi/new.htm), [pdf](https://www.people.fas.harvard.edu/~hgeorgi/onenew.pdf)$]$
 
 * {#Peacock13} [[John Peacock]], _Fourier analysis_ 2013 ([part 1 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part1.pdf), [part 2 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part2.pdf), [part 3 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part3.pdf), [part 4 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part4.pdf), [part 5 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part5.pdf))
 
