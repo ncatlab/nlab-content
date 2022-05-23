@@ -34,24 +34,43 @@
     }
 \end{imagefromfile}
 
-*Topological data analysis* (TDA) is *qualitative* [[data analysis]] with tools from [[topology]], in particular with tools from *[[algebraic topology]]*. 
+*Topological data analysis* (TDA) is *qualitative* [[data analysis]] with tools from [[topology]], in particular with tools from *[[algebraic topology]]*, aiming to extract (hidden) structure in large datasets which is *robust* against uncertainties and noise.
 
-This notably includes tools from [[ordinary homology|ordinary]] ([[cohomology theory|co-]])[[homology]]-theory, which in the guise of *[[persistent homology]]* has become the signature method in TDA; but it also includes more general tools of [[homotopy theory]] and [[differential topology]], which have more recently found their way into TDA in the guise of *[[persistent homotopy theory]]* and *[[persistent cohomotopy theory]]*.
+This notably includes tools from [[ordinary homology|ordinary]] ([[cohomology theory|co-]])[[homology]]-theory, which in the guise of *[[persistent homology]]* has become the signature method in TDA; but it also includes more general tools of [[homotopy theory]] and [[differential topology]], which have more recently found their way into TDA in the guise of *[[persistent homotopy theory]]* and *[[persistent cohomotopy theory]]*. $\;\;\;\;\;\;\;$(graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
 
 Typically, TDA deals with *large* data sets modeled as ([[subsets]] of) [[topological spaces]]. Collections of *data points* appear as *[[cycles]]* in the topological space of data, and *values* of data appear as *[[cocycles]]*.
-$\;\;$(graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+
 
 
 ### Strategy of persistent topology/homotopy
  {#StrategyOfPersistentHomology}
 
+\begin{imagefromfile}
+    "file_name": "SomewhatPersistentCycle-220523.gif",
+    "float": "right",
+    "width": 420,
+    "unit": "px",
+    "margin": {
+        "top": -60,
+        "bottom": 0,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 The strategy of [[persistent homology|persistent homology]]/[[persistent homotopy|homotopy]] in TDA  is to see which chunks ([[subspaces]]) of the data appear to be ([[n-connected topological space|higher]]) [[connected topological space|connected]] when viewed at some resolution (technically: at some [[filtered topological space|filter stage]]) and how much these apparent chunks *persist* as the resolution changes. 
-This may be recorded in *[[persistence diagrams]]* (also known as "[[barcodes]]"). The fundamental theorem of the field -- the *[[stability of persistence diagrams|stability theorem]]* -- says that [[persistence diagram|persistent]] ([[cocycle|co-]])[[cycle]]-[[equivalence class|classes]] are indeed a good invariant of data, in that they remain stable under small perturbations of the initial data (e.g. under [[noise]], uncertainty, measurement errors, etc.).
+This may be recorded in *[[persistence diagrams]]* (also known as "[[barcodes]]"). 
 
-> (usual schematic depiction of a [[Vietoris-Rips complex]] goes here)
+The fundamental theorem of the field -- the *[[stability of persistence diagrams|stability theorem]]* -- says that [[persistence diagram|persistent]] ([[cocycle|co-]])[[cycle]]-[[equivalence class|classes]] are indeed a good invariant of data, in that they remain stable under small perturbations of the initial data (e.g. under [[noise]], uncertainty, measurement errors, etc.).
 
-The idea then is that those  ([[cocycle|co-]])[[cycles]] which persist for longer (appear as longer bars in the [[barcode]]) reflect relevant structure hidden in the (large) data set. However, it is often unclear (and certainly not part of the mathematical theory) what the significance or *meaning* of persistent cycles is for the practical problem of interpreting data.
+
+
+The idea then is that those  ([[cocycle|co-]])[[cycles]] which persist for longer (appear as longer bars in the [[barcode]]) reflect relevant structure hidden in the (large) data set. 
+
+However, it is often unclear (and certainly not part of the mathematical theory) what significance or *meaning* any persistent cycle has for the practical problem of interpreting data. $\;\;\;\;\;\;$(graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+
+\linebreak
 
 ### Strategy of persistent cohomology/cohomotopy
  {#StrategyOfPersistentCohomotopy}
@@ -97,20 +116,32 @@ If the [[topological space]] $X$ of data may be assumed to be a [[smooth manifol
 
 ### General
 
-* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
+General introduction and survey:
 
-* Afra Zomorodian, _Topological data analysis_, In: _Advances in Applied and Computational Topology_, Proc. Symp. Applied Math vol 70, 2011 ([ams:psapm-70](https://bookstore.ams.org/psapm-70))
+* [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, Bull. Amer. Math. Soc. 45 (2008), 61-75 ([doi:10.1090/S0273-0979-07-01191-3](https://doi.org/10.1090/S0273-0979-07-01191-3), [pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
 
-* [[Gunnar Carlsson]], _Persistent Homology and Applied Homotopy Theory_, in: [[Handbook of Homotopy Theory]], CRC Press, 2019 ([arXiv:2004.00738](https://arxiv.org/abs/2004.00738))
+* [[Herbert Edelsbrunner]], [[John Harer]], *Persistent homology -- a survey*, in: *Surveys on Discrete and Computational Geometry: Twenty Years Later*, Contemporary Mathematics *453* (2008) $[$[doi:10.1090/conm/453](http://dx.doi.org/10.1090/conm/453)$]$
 
+* [[Gunnar Carlsson]], *Topology and data*, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 $[$[doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X)$]$
 
-See also 
+* [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], *Persistent homology: theory and practice*, in: *European Congress of Mathematics Kraków, 2–7 July, 2012* EMS $[$[doi:10.4171/120-1/3](https://www.ems-ph.org/books/show_abstract.php?proj_nr=170&vol=1&rank=3), [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)$]$
+
+* [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
+
+* [[Gunnar Carlsson]], *Persistent Homology and Applied Homotopy Theory*, in: [[Handbook of Homotopy Theory]], CRC Press (2019) $[$[arXiv:2004.00738](https://arxiv.org/abs/2004.00738), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)$]$
+
+See also:
 
 * Wikipedia, _[Topological data analysis](http://en.wikipedia.org/wiki/Topological_data_analysis)_
 
-Relation to [[quantum computing]]:
+and see the references at
 
-* He-Liang Huang, Xi-Lin Wang, Peter P. Rohde, Yi-Han Luo, You-Wei Zhao, Chang Liu, Li Li, Nai-Le Liu, Chao-Yang Lu, Jian-Wei Pan, _Demonstration of Topological Data Analysis on a Quantum Processor_, Optica 5(2), 193 (2018) ([arXiv:1801.06316](https://arxiv.org/abs/1801.06316)) 
+* [[persistent homology]]
+
+* [[persistent homotopy]]
+
+* [[persistent cohomotopy]]
+
 
 ### Applications
 
@@ -129,6 +160,12 @@ to analysis of [[phase transitions]]:
 
 * [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], _Quantitative and Interpretable Order Parameters for Phase Transitions from Persistent Homology_ ([arXiv:2009.14231](https://arxiv.org/abs/2009.14231))
 
+
+### See also
+
+Implementation on a [[quantum computer]]:
+
+* He-Liang Huang, Xi-Lin Wang, Peter P. Rohde, Yi-Han Luo, You-Wei Zhao, Chang Liu, Li Li, Nai-Le Liu, Chao-Yang Lu, Jian-Wei Pan, _Demonstration of Topological Data Analysis on a Quantum Processor_, Optica 5(2), 193 (2018) ([arXiv:1801.06316](https://arxiv.org/abs/1801.06316)) 
 
 
 [[!include cohomotopy in topological data analysis -- references]]
