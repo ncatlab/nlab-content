@@ -111,6 +111,10 @@ Refinement to [[persistent homotopy]]:
 
 * {#Jardine19} [[J. F. Jardine]], *Data and homotopy types* $[$[arXiv:1908.06323](https://arxiv.org/abs/1908.06323)$]$
 
+Version for [[persistent cohomotopy]]:
+
+* {#FranekKrcal17} [[Peter Franek]], [[Marek Krčál]], Section 5 of: _Persistence of Zero Sets_, Homology, Homotopy and Applications, Volume 19 (2017) Number 2 ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310), [doi:10.4310/HHA.2017.v19.n2.a16](http://dx.doi.org/10.4310/HHA.2017.v19.n2.a16))
+
 
 
 [[!redirects stability in persistent homology]]
