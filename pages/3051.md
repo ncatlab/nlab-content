@@ -1,7 +1,12 @@
 [[!redirects Jean Benabou]]
 Jean B&#233;nabou is a French mathematician working in [[category theory]]. He studied under the supervision of [[Charles Ehresmann]] and received his Thèse d'État  from the Université de Paris in 1966 on the topic of what we now call [[monoidal categories]].
 
-## References
+## Selected writings
+ {#SelectedWritings}
+
+Introducing the notion of [[enriched categories]]:
+
+* [[Jean Bénabou]], *Catégories relatives*, C. R. Acad. Sci. Paris, 260 (1965), pp. 3824-3827 ([gallica](https://gallica.bnf.fr/ark:/12148/bpt6k4019v/f37.item))
 
 On [[bicategories]]
 
