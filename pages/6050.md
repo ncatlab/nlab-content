@@ -59,6 +59,10 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 
   [[wave vector]], [[wavelength]], [[frequency]]
 
+* [[superposition]]
+
+* [[linear differential equation]]
+
 * [[scalar field]]
 
 * [[Green's function]]
@@ -79,6 +83,8 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 ## References
 
 * F. Friedlander, _The Wave Equation on a Curved Space-Time_, Cambridge: Cambridge University Press, 1975
+
+* [[Howard Georgi]], *The Physics of Waves*, Prentice Hall (1993) $[$[web](https://www.people.fas.harvard.edu/~hgeorgi/new.htm), [pdf](https://www.people.fas.harvard.edu/~hgeorgi/onenew.pdf)$]$
 
 * {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
 
