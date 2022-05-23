@@ -30,7 +30,7 @@
 
 
 
-## Idea
+\section{Idea}
  {#Idea}
 
 Where a _[[group]]_ may be thought of as a _group of symmetry transformations_ that [[isomorphism|isomorphically]] relates one [[object]] to itself (the _[[symmetries]]_ of one object, such as the [[isometries]] of a [[polyhedron]]) a _groupoid_ is a collection of symmetry transformations acting between possibly more than one object.
@@ -157,9 +157,9 @@ The correct concept of homomorphisms between [[Lie groupoids]] for instance goes
 
 
 
-## Definition
+\section{Definition}
 
-### Groupoids
+\subsection{Groupoids}
 
 +-- {: .num_defn #GroupoidHomotopyTypes}
 ###### Definition
@@ -405,7 +405,7 @@ A groupoid is called **tame** if its [[groupoid cardinality]] is finite.
 
 
 
-### Categories of groupoids
+\subsection{Categories of groupoids}
  {#CategoriesOfGroupoids}
 
 
@@ -758,7 +758,7 @@ which is enriched over the naive 1-category of groupoids from remark \ref{1Categ
 hece a [[strict 2-category]] with [[hom-groupoids]].
 
 
-### Equivalences of groupoids
+\subsection{Equivalences of groupoids}
 
 +-- {: .num_defn #EquivalenceOfGroupoids}
 ###### Definition
@@ -851,7 +851,7 @@ is called a _[[weak homotopy equivalence]]_ if
 =--
 
 
-### Groupoid representations
+\subsection{Groupoid representations}
 
 
 +-- {: .num_defn #GroupoidRepresentation}
@@ -940,7 +940,7 @@ called the [[representation category]] $Rep_{Grpd}(\mathcal{G})$.
 
 
 
-## Examples
+\section{Examples}
 
 
 +-- {: .num_example #FundamentalGroupoid}
@@ -1300,10 +1300,10 @@ $\,$
 9. The book "Topology and Groupoids" listed below takes the view that 1-dimensional homotopy theory, including the Seifert-van Kampen Theorem, the theory of covering spaces, and the less well known theory of the fundamental group(oid) of an orbit space by a discontinuous group action, is best presented using the notion of groupoid rather than group as basic. This had led in the 1960s to the question of the prospective use of (strict) groupoids in higher homotopy theory. One answer is given in the book _[[Nonabelian algebraic topology]]_.
 
 
-## Properties
+\section{Properties}
  {#Properties}
 
-### Equivalences of groupoids
+\subsection{Equivalences of groupoids}
  {#PropertiesEquivalencesOfGroupoids}
 
 +-- {: .num_lemma #AutomorphismGroupDependsOnlyOnConnectedComponent}
@@ -1641,7 +1641,7 @@ category on the right is the product of group representation categories as claim
 
 
 
-### As 2-coskeletal Kan complexes
+\subsection{As 2-coskeletal Kan complexes}
 
 Groupoids $K$ are equivalent to 1-[[hypergroupoids]], which are in particular 2-[[coskeletal]] [[Kan complexes]] $N(K)$ -- their [[nerves]].
 
@@ -1718,7 +1718,7 @@ For handling just groupoids exclusively their description in terms of Kan comple
 The disadvantage of the simplicial approach is the difficulty of describing multiple compositions in higher dimensions, an important idea which is quite conveniently  handled cubically.
 
 
-## Related concepts
+\section{Related concepts}
 
 [[!include homotopy n-types - table]]
 
@@ -1734,7 +1734,7 @@ The disadvantage of the simplicial approach is the difficulty of describing mult
 
 [[!include oidification - table]]
 
-## References
+\section{References}
 
 An early occurence of the concept is (see also _[[Brandt groupoid]]_):
 
