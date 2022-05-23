@@ -17,7 +17,7 @@
 
 ## Idea
 
-The concept of [[type]] in [[computer science]]
+The concept of [[type]] of [[data]] in [[computer science]].
 
 
 ## Related concepts
@@ -25,6 +25,8 @@ The concept of [[type]] in [[computer science]]
 * [[function type]]
 
 * [[object-oriented programming]]
+
+* [[data]], [[topological data analysis]]
 
 ## References
 
