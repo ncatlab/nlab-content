@@ -176,6 +176,10 @@ Perhaps surprisingly, this adjunction is even a *simplicially enriched* adjuncti
 
 ## References
 
+The original definition of simplicial objects, maps between them, and homotopies of such maps is due to [[Daniel M. Kan]]:
+
+* [[Daniel M. Kan]], _On the homotopy relation for c.s.s. maps_, Boletín de la Sociedad Matemática Mexicana 2 (1957), 75–81.  [PDF](https://dmitripavlov.org/scans/kan-on-the-homotopy-relation-for-css-maps.pdf).
+
 An early discussion of simplicial objects is in:
 
 * [[Alexander Grothendieck]], p. 108 (11 of 21) in: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III : préschémas quotients_, Séminaire Bourbaki : années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [pdf](https://labs.thosgood.com/builds/fga-3-III.pdf), [web version](https://thosgood.com/fga/book/FGA-3-III)).
