@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,15 +18,16 @@ In [[quantum theory]] the [[state]] of a [[physical system]] is given by a [[vec
 
 ## Related concepts
 
+* [[superposition]]
+
 [[!include states and observables -- content]]
 
+## References
 
+See also
 
-[[!redirects superpositions]]
+* Wikipedia, _[Quantum superposition](https://en.wikipedia.org/wiki/Quantum_superposition)_
 
-[[!redirects superposition principle]]
-
-[[!redirects quantum superposition]]
 [[!redirects quantum superpositions]]
 
 [[!redirects superposition state]]
