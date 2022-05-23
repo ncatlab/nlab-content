@@ -21,7 +21,7 @@
 
       * [[bra-ket]]
 
-    * [[superposition]], [[quantum interference]]
+    * [[quantum superposition]], [[quantum interference]]
 
     * [[quantum measurement]]
 
