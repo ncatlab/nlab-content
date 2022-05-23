@@ -14,6 +14,8 @@ In [[acoustics]] and [[signal processing]], the **fundamental frequency** or the
 
 * [[harmonic]]
 
+* [[Fourier analysis]]
+
 \section{References}
 
 See also:
