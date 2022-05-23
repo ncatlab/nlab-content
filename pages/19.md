@@ -17,7 +17,7 @@
 * table of contents
 {: toc}
 
-## Idea
+\section{Idea}
 
 _Category theory_ is a toolset for describing the general abstract structures in [[mathematics]]. 
 
@@ -143,9 +143,9 @@ The vast applicability and expressiveness of category theory leads to the observ
 
 =--
 
-## The central constructions
+\section{The central constructions}
 
-### Presheaves
+\subsection{Presheaves}
 
 Much of the power of category theory rests in the fact that it reflects on itself. For instance that [[functors]] between two categories form themselves a category: the [[functor category]]. 
 
@@ -153,7 +153,7 @@ This leads to the notion of [[presheaf categories]] and [[sheaf toposes]]. Much 
 
 Under [[Isbell duality]] this sets the stage for everything in mathematics related to [[space]] and [[algebra]] and their duality.
 
-### Universal constructions
+\subsection{Universal constructions}
 
 Elementary as it is, the definition of a [[category]] supports a powerful set of constructions: [[universal constructions]]. These include
 
@@ -167,7 +167,7 @@ Elementary as it is, the definition of a [[category]] supports a powerful set of
 
 All these are special cases of each other and thus reflect different aspect of one single phenomenon. Applying category theory means applying these constructions in specific situations and using general abstract theorems for deducing statements about concrete contexts.
 
-## The central theorems
+\subsection{The central theorems}
 
 Category theory has a handful of central lemmas and theorems. Their proof is typically easy, sometimes almost tautological. Their power rests in the fact that they apply over and over again all over mathematics. Many concrete constructions get simplified by observing that they are but special realizations of these general abstract results in category theory. Among these central theorems are
 
@@ -184,13 +184,13 @@ Category theory has a handful of central lemmas and theorems. Their proof is typ
 * [[Tannaka duality]].
 
 
-## Applications
+\section{Applications}
 
 For a detailed list of applications see
 
 * [[applications of (higher) category theory]].
 
-### In pure mathematics
+\subsection{In pure mathematics}
 
 Apart from its general role in mathematics, category theory provides the high-level language for
 
@@ -200,7 +200,7 @@ Apart from its general role in mathematics, category theory provides the high-le
 
 * [[higher geometry]] .
 
-### Outside of mathematics
+\subsection{Outside of mathematics}
 
 Outside of pure mathematics, category theory finds major applications in
 
@@ -211,9 +211,9 @@ Outside of pure mathematics, category theory finds major applications in
 and is increasingly finding applications in such diverse areas as chemistry, network theory and natural language processing. Further information can be found on the [[applied category theory]] page.
 
 
-## Contrast to theories of other objects
+\section{Contrast to theories of other objects}
 
-### Category theory vs. set theory
+\subsection{Category theory vs. set theory}
 
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
@@ -239,13 +239,13 @@ For a philosophical consideration of foundations covering and comparing sets, st
 
 * Sets, categories and structuralism - Costas Drossos
 
-### Category theory vs. order theory
+\subsection{Category theory vs. order theory}
 
 A category may be thought of as a [[categorification]] of a [[poset]] rather than of a [[set]]; much (but by no means all) of category theory also appears in [[order theory]].
 
 See [[category theory vs order theory]] for more discussion.
 
-## Theorems
+\section{Theorems}
  {#Theorems}
 
 * [[Yoneda lemma]]
@@ -270,7 +270,7 @@ See [[category theory vs order theory]] for more discussion.
 
 
 
-## Related concepts
+\section{Related concepts}
 
 * [[formal category theory]]
 
@@ -289,10 +289,10 @@ See [[category theory vs order theory]] for more discussion.
   * [[computational trinitarianism]]
 
 
-## References
+\section{References}
  {#References}
 
-### History
+\subsection{History}
  {#History}
 
 The concepts of _[[category]]_, _[[functor]]_ and _[[natural transformation]]_ were introduced in
@@ -326,11 +326,11 @@ This and much more history is recalled in
 
 
 
-### Textbooks
+\subsection{Textbooks}
  {#TextBooks}
 
 
-#### Basic category theory
+\subsubsection{Basic category theory}
  {#BasicTextBooks}
 
 * {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
@@ -400,7 +400,7 @@ This and much more history is recalled in
 * [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, World Scientific, 2021 ([doi:10.1142/12253](https://doi.org/10.1142/12253))
 
 
-#### Topos theory
+\subsubsection{Topos theory}
  {#ReferencesToposTheory}
 
 Monographs with focus on [[topos theory]]:
@@ -425,7 +425,7 @@ Monographs with focus on [[topos theory]]:
 
 
 
-#### Higher category theory
+\subsubsection{Higher category theory}
 
 * [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([pdf](http://hal.archives-ouvertes.fr/docs/00/44/98/26/PDF/main.pdf))
 
@@ -441,14 +441,14 @@ Towards [[homotopy theory]]:
 
 * [[Birgit Richter]], _From categories to homotopy theory_, Cambridge Studies in Advanced Mathematics 188, Cambridge University Press 2020 ([doi:10.1017/9781108855891](https://doi.org/10.1017/9781108855891), [book webpage](https://www.math.uni-hamburg.de/home/richter/catbook.html), [pdf](https://www.math.uni-hamburg.de/home/richter/bookdraft.pdf))
 
-### Foundations
+\subsection{Foundations}
 
 The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[internal category in homotopy type theory]]_) is discussed in 
 
 * [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_ ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
 
 
-### Course notes
+\subsection{Course notes}
  {#CourseNotes}
 
 * [[Peter Johnstone]], _Category Theory_ , Lecture notes taken by David Mehrle, University of Cambridge 2015. ([pdf](http://pi.math.cornell.edu/~dmehrle/notes/partiii/cattheory_partiii_notes.pdf))
@@ -465,7 +465,7 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 * [[André Joyal]], *[[joyalscatlab:Categories]]*
 
-### Videos 
+\subsection{Videos} 
 
 * The Catsters, Videos on various topics in category theory. ([YouTube link](https://www.youtube.com/user/TheCatsters))
 
@@ -475,14 +475,14 @@ Videos at an introductory level that cover basic concepts and constructions of c
 
 Enthusiastic, mostly nontechnical talk given by a probability theorist, made for an audience innocent of any exposure to category theory. 
 
-### Relation to philosophy
+\subsection{Relation to philosophy}
  {#ReferencesRelationToPhilosophy}
 
 Discussion of the relation to and motivation from the [[philosophy of mathematics]] includes 
 
 *  [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
 
-### Further resources and links
+\subsection{Further resources and links}
 
 There are several networks of category theorists organised, initially, at a national level and aiming to join forces to organise conferences, online seminars, etc.:
 
