@@ -8,7 +8,9 @@
 =--
 =--
 
-This research [wiki](http://en.wikipedia.org/wiki/Wiki) -- the [[HomePage|nLab]] -- accompanies the research [blog](http://en.wikipedia.org/wiki/Blog) [The <i>n</i>-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), hosted by [[John Baez]], [[David Corfield]], and [[Urs Schreiber]]. [[Jacques Distler]] administers the system. See [category: people](http://ncatlab.org/nlab/list/people) for other people here.
+This research [wiki](http://en.wikipedia.org/wiki/Wiki) -- the [[HomePage|nLab]] -- historically accompanied the research [blog](http://en.wikipedia.org/wiki/Blog) [The <i>n</i>-Category Caf&eacute;](http://golem.ph.utexas.edu/category/), currently hosted by [[John Baez]] and [[David Corfield]]. [[Urs Schreiber]], the owner of the domain ncatlab.org, origianlly was also a host of the <i>n</i>-Category Caf&eacute;, but is now no longer affiliated with the <i>n</i>-Category Caf&eacute;. 
+
+[[Jacques Distler]] administers the system. Something about the [[Topos Institute]] should be inserted here. See [category: people](http://ncatlab.org/nlab/list/people) for other people here.
 
 * Useful general information about the [[HomePage|nLab]] is at [[About]];
 
