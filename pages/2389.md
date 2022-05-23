@@ -50,6 +50,10 @@ The [[quantum mechanics]], when described mathematically via the solutions of a 
 
 * [[wave function]]
 
+## References
+
+* [[Howard Georgi]], *The Physics of Waves*, Prentice Hall (1993) $[$[web](https://www.people.fas.harvard.edu/~hgeorgi/new.htm), [pdf](https://www.people.fas.harvard.edu/~hgeorgi/onenew.pdf)$]$
+
 [[!redirects waves]]
 
 [[!redirects wave mechanics]]
