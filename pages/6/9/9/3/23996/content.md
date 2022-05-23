@@ -140,10 +140,12 @@ hence that subgroup of the $n$-cohomotopy group of the [[quotient topological sp
 
 Notice that the function $f$ itself canonically represents an element
 
-$$
-  [f] \;\in\;
+\[
+  \label{FunctionAsClassInThePersistenceCohomotopyRelativeToIt}
+  [f]_r 
+    \;\in\;
   \pi^n_{(f,r)}(X)
-$$
+\]
 
 which provides a base point, making this a [[pointed object|pointed]] group.
 
@@ -196,15 +198,39 @@ is the **cohomotopy persistence module** ([FK17, p. 5](#FranekKrcal17), rhyming 
 
 ## Properties
 
-The following are equivalent:
+For $r \in \mathbb{R}_{\gt 0}$, say that a continuous function 
 
-* there exists an $r$-deformation of $f$ with *no* zeros on $X \setminus A_r$;
+$$
+  g\;\colon\; X \xrightarrow{\;\;} \mathbb{R}^n
+$$
 
-* the special class $[f] \in \pi_n^{(f,r)}$ is trivial.
+is an *$r$-deformation* of the given $f$ if its values are pointwise within a radius $r$ of those of $f$, i.e. if
 
-Therefore the persistency of this special class is persistency of the existence of any zeros.
+\[
+  \label{rDeformation}
+  \vert g-f\vert_\infty
+  \;\coloneqq\;
+  \underset{x \in X}{max}
+  \vert g(x) - r(x)\vert
+  \;\lt\;
+  r
+  \,.
+\]
 
-(...)
+
+\begin{theorem}\label{GuaranteeThatSolutionsExist}
+**([Franek & Krčál 2017](#FranekKrcal17), following [2016, p. 5](#FranekKrcal16))**
+\linebreak
+Under the above assumptions, the following are equivalent:
+
+* there exists an $r$-deformation (eq:rDeformation) of $f$ with *no* zeros on $X \setminus A_r$;
+
+* the Cohomotopy class $[f]_r \in \pi_n^{(f,r)}(X)$ (eq:FunctionAsClassInThePersistenceCohomotopyRelativeToIt) is trivial.
+
+Moreover, both questions are effectively [[computability|computable]]/[[decidability|decidable]] in the given dimension range.
+\end{theorem}
+
+
 
 
 \linebreak
@@ -1026,10 +1052,12 @@ In the situation on the right it is intuitively clear that a deformation of $f$ 
 
 * {#FranekKrcal17} [[Peter Franek]], [[Marek Krčál]], _Persistence of Zero Sets_, Homology, Homotopy and Applications, Volume 19 (2017) Number 2 ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310), [doi:10.4310/HHA.2017.v19.n2.a16](http://dx.doi.org/10.4310/HHA.2017.v19.n2.a16))
 
+
+* {#FranekKrcal18} [[Peter Franek]], [[Marek Krčál]], [[Hubert Wagner]], _Solving equations and optimization problems with uncertainty_, J Appl. and Comput. Topology (2018) 1: 297 ([arxiv:1607.06344](https://arxiv.org/abs/1607.06344), [doi:10.1007/s41468-017-0009-6](https://doi.org/10.1007/s41468-017-0009-6))
+
+Review:
+
 * [[Peter Franek]], [[Marek Krčál]], _Cohomotopy groups capture robust Properties of Zero Sets via Homotopy Theory_, talk at [ACAT meeting 2015](https://www2.ist.ac.at/acat) ([pdf slides](https://www2.ist.ac.at/fileadmin/user_upload/events_pages/acat/ACAT2015_Marek_Krcal.pdf))
-
-* [[Peter Franek]], [[Marek Krčál]], [[Hubert Wagner]], _Solving equations and optimization problems with uncertainty_, J Appl. and Comput. Topology (2018) 1: 297 ([arxiv:1607.06344](https://arxiv.org/abs/1607.06344), [doi:10.1007/s41468-017-0009-6](https://doi.org/10.1007/s41468-017-0009-6))
-
 
 [[!redirects persistent cohomotopy theory]]
 
