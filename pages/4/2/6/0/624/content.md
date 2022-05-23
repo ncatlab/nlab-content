@@ -168,6 +168,13 @@ Let $V$ be a [[finite-dimensional vector space]] over a [[field]] $k$, and let $
 
 =--
 
+\begin{example}
+More generally, in the [[symmetric monoidal category]] of [[modules]]
+over a [[commutative ring]], dualizable objects are precisely
+finitely generated [[projective modules]].
+See the article [[dualizable module]] for more details.
+\end{example}
+
 +-- {: .num_example}
 ###### Example
 
@@ -266,6 +273,8 @@ This notion of duality generalizes to that of [[linear adjoints]] in a [[linear 
 
 
 ## Related concepts
+
+* [[dualizable module]]
 
 * [[dualizing object]]
 
