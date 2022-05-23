@@ -20,20 +20,10 @@
 ## Idea
  {#Idea}
 
+### General
+ {#IdeaGeneral}
+
 *Persistent cohomotopy* (not yet an established term) would be the study of [[cohomotopy]] in situations where the [[domain]] [[topological space|space]] and/or its [[continuous function|map]] to an [[n-sphere]] may depend on a parameter, to yield not just a single [[cohomotopy set]], but a [[filtered object|filtered]] set (a filtered [[group]] when the [[dimension of a cell complex|dimension]] of the domain space is large enough). One concrete implementation of this general notion is considered in [Franek & Krčál 2017](#FranekKrcal17), see [below](#Definition). 
-
-In this context it has been shown ([Franek & Krčál 2016](#FranekKrcal16), [2017](#FranekKrcal17)) that persistent cohomotopy groups improve on the [[well groups]] used in [[persistent homology]] in ways that are practically relevant notably in [[topological data analysis]]:
-
-1. persistent cohomotopy can distinguish functions that are indistinguishable by their [[well groups]] ([FK16, Sec. 1.2](#FranekKrcal16)),
-
-1. even though coarser than cohomotopy groups, well groups in general are not (or not known to be) algorithmically [[computability|computable]], while the cohomotopy groups are known to be computable in a fair range of dimensions ([CKMSVW14](computational+topology#CKMSVW14)).
-
-
-<center>
-<img src="https://ncatlab.org/nlab/files/EnhancePersFromHolomogyToCohomotopy-220522.jpg" width="600">
-</center>
-> (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS 22]])
-
 
 Generally, one may understand persistent cohomotopy both as the [[duality|dual]] of *[[persistent homotopy]]* as well as a [[non-abelian cohomology]]-version of the more widely considered notion of [[persistent homology]]:
 
@@ -46,6 +36,49 @@ Generally, one may understand persistent cohomotopy both as the [[duality|dual]]
 | **persistent homology** | [[persistent homology|persistent ordinary homology]] | persistent generalized homology | [[persistent homotopy]] |
 | **persistent cohomology** | persistent ordinary cohomology | persistent generalized cohomology | [[persistent cohomotopy]] |
 
+
+### Detecting data meeting targets
+ {#DetectingDataMeetingTargets}
+
+While [[persistent homology]], as a tool in [[topological data analysis]], is traditionally meant to discover [[persistence diagram|persistent]] [[cycles]] in a given data set, it is typically unclear what a persistent cycle actually *means* for the practical interpretation of the data -- certainly this is information is not provided by the mathematics.
+
+
+\begin{imagefromfile}
+    "file_name": "IndicatorFunctionOnData-220523.jpg",
+    "float": "right",
+    "width": 420,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 0,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+In contrast, [[persistent cohomotopy]] in [[TDA]] is the effective answer to a concrete and common question in [[data analysis]]: 
+
+Given a large-[[dimension of a CW-complex|dimensional]] [[topological space|space]] of data, and a small [[natural number|number]] $n$ of ([[real number|real]]) indicator values assigned to each data point with given precision $1/r$, *does _any_ data meet a prescribed target indication precisely?*
+
+
+A fundamental theorem of persistent Cohomotopy ([Franek & Krčál 2018](persistent+cohomotopy#FranekKrcal18), [2017, p. 5](persistent+cohomotopy#FranekKrcal17), see Thm. \ref{GuaranteeThatSolutionsExist} below) shows that (1.) the answer to this question is detected by a certain [[Cohomotopy]]-class and (2.) in a fair range of dimensions, this Cohomotopy class is provably [[computability|computable]], hence the above question is effectively [[decidability|decidable]]. $\phantom{-------}$ (figure from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+
+
+Alternatively, with tools from [[persistent homology theory]] an answer to this question is given by the method of *[[well groups]]*, but (1.) it is known that well groups are in general too coarse to provide a complete answer and (2.) despite effort it remains unknown if well groups are actually [[computability|computable]] in relevant cases, see [Franek & Krčál 2016](persistent+cohomotopy#FranekKrcal16).
+
+In this concrete sense (and generally by the [above](#IdeaGeneral) discussion), persistent cohomotopy may be understood as an enhancement or refinement of ([[well groups]] in) [[persistent homology]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/EnhancePersFromHolomogyToCohomotopy-220522.jpg" width="600">
+</center>
+> (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS 22]])
+
+
+### Use of cobordism theory
+ {#UseOfCobordismTheory}
+
+If the [[topological space]] $X$ of data may be assumed to be a [[smooth manifold]] (indeed, in typical examples $X$ is itself a large-dimensional [[Cartesian space]]) then persistent cohomotopy may be understood dually via [[Pontryagin's theorem]] as characterizing [[iso-hypersurfaces]] of data (close to a given target indicator) by [[framed cobordism|framed]] [[cobordism theory]] ([Franek & Krčál 2017, p. 8-9](persistent+cohomotopy#FranekKrcal17)). The full implications of this relation for topological data analysis remain to be explored.
+  
 
 ## Definition
  {#Definition}
@@ -230,6 +263,7 @@ Under the above assumptions, the following are equivalent:
 Moreover, both questions are effectively [[computability|computable]]/[[decidability|decidable]] in the given dimension range.
 \end{theorem}
 
+The proof of the computability statement in Thm. \ref{GuaranteeThatSolutionsExist} uses a general result about computability of [[cohomotopy]]-sets from [CKMSVW14](computational+topology#CKMSVW14).
 
 
 
