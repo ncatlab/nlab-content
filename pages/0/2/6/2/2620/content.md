@@ -63,6 +63,10 @@ This way of representing the state of a QHO is known as the _Fock basis_.
 
 ## References
 
+### General
+
+* [[Howard Georgi]], Section 1 of: *The Physics of Waves*, Prentice Hall (1993) $[$[web](https://www.people.fas.harvard.edu/~hgeorgi/new.htm), [pdf](https://www.people.fas.harvard.edu/~hgeorgi/onenew.pdf)$]$
+
 ### Geometric quantization
 
 Discussion of [[geometric quantization]] of the harmonic oscillator is in 
