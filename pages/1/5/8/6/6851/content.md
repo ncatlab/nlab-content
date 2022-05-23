@@ -4,8 +4,8 @@
 
 ## Related entries 
 
-* [[math resources]] -- top level redirect to our lits of math, physics, philosophy resources of $n$Lab
+* [[mathematics resources]] -- list for mathematics resources of $n$Lab
 
-* [[physics resources]] -- specialized list for theoretical physics
+* [[physics resources]] -- list for physics resources of $n$Lab
 
 * [[philosophy]], [[logic]]
