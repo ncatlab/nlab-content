@@ -177,7 +177,7 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 The original reference is:
 
-* [[Witold Hurewicz]], Koninklijke Akademie van Wetenschappen: Proceedings of the Section of Sciences 38 (1935), 112–119.  Mathematics. — Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen).  $[$[gbooks](https://books.google.ru/books/about/Beitr%C3%A4ge_zur_Topologie_der_Deformatione.html?id=lge_ygAACAAJ&redir_esc=y)$]$
+* [[Witold Hurewicz]], Koninklijke Akademie van Wetenschappen: Proceedings of the Section of Sciences 38 (1935), 112–119.  Mathematics. — Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen).  [PDF](https://dwc.knaw.nl/DL/publications/PU00016667.pdf)
 
 This article is reproduced on pages 341–348 of
 
