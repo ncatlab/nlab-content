@@ -13,6 +13,10 @@ On [[hidden local symmetry]] in [[chiral perturbation theory]]/[[quantum hadrody
 
 * [[Howard Georgi]], _Vector realization of chiral symmetry_, Nuclear Physics B Volume 331, Issue 2, 12 February 1990, Pages 311-330 (<a href="https://doi.org/10.1016/0550-3213(90)90210-5">doi:10.1016/0550-3213(90)90210-5</a>)
 
+On [[waves]] ([[wave equations]], [[Fourier analysis]], etc.):
+
+* [[Howard Georgi]], *The Physics of Waves*, Prentice Hall (1993) $[$[web](https://www.people.fas.harvard.edu/~hgeorgi/new.htm), [pdf](https://www.people.fas.harvard.edu/~hgeorgi/onenew.pdf)$]$
+
 
 ## Related $n$Lab entries
 
