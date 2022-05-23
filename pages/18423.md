@@ -233,7 +233,7 @@ This is due to [Pavlov et al. 2019, Thm. 1.1](#BEBP19) (see discussion [here](ht
 ### Smooth Oka principle
  {#ConsequenceSmoothOkaPrinciple}
 
-The following may be compared to the [[Oka principle]] in [[complex analytic geometry]].
+{#TheFollowingMayBeCompared} The following may be compared ([SS21](#SS21), [p. 7](https://arxiv.org/pdf/2112.13654.pdf#page=7)) to the [[Oka principle]] in [[complex analytic geometry]], now seen in [[higher differential geometry|higher]] [[differential topology]]:
 
 \begin{proposition}\label{SmoothOkaPrinciple}
 **(smooth Oka principle)**
@@ -682,6 +682,10 @@ The special case of the smooth path $\infty$-groupoid (Def. \ref{PathInfinityGro
 applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smooth $\infty$-groupoids]]), was considered also in:
 
 * {#ChristensenWu13} [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], Def. 4.3 of: _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+
+Application of the theorem to the classification of [[equivariant bundles]] is discussed in 
+
+* {#SS21} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* $[$[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)$]$
 
 
 [[!redirects shape via cohesive path ∞-groupoids]]
