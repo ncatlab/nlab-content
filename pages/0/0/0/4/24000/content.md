@@ -14,6 +14,8 @@ In [[acoustics]] and [[signal processing]], given a [[periodic function|periodic
 
 * [[harmonic oscillator]]
 
+* [[Fourier analysis]]
+
 \section{References}
 
 See also:
