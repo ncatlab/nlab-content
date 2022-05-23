@@ -1,7 +1,6 @@
 
 **[[HomePage|nLab]]**
 
-* [[About]]
 
 * Content
 
