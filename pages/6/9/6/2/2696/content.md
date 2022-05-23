@@ -145,6 +145,13 @@ Originally proved by [[J. H. C. Whitehead]]:
 
 * [[J. H. C. Whitehead]], _Combinatorial homotopy.  I_, Bulletin of the American Mathematical Society 55:3 (1949), 213–246.  [doi](http://dx.doi.org/10.1090/s0002-9904-1949-09175-9).
 
+The simplicial version is due to [[Daniel M. Kan]], see Theorem 7.2 in
+
+* [[Daniel M. Kan]], _On c.s.s. categories_, Boletín de la Sociedad Matemática Mexicana 2 (1957), 82–94.  [PDF](https://dmitripavlov.org/scans/kan-on-css-categories.pdf).
+
+
+Other sources:
+
 * {#ElmendorfKrizMay95} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 1 of _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.),  _[[Handbook of Algebraic Topology]]_,  1995 Amsterdam: North-Holland, pp. 213&#8211;253,   ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 Discussion for [[equivariant homotopy theory]] includes
