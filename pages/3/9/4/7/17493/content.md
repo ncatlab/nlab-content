@@ -112,7 +112,7 @@ See below for explanations.
 | $\varphi(1,\varepsilon_0,0)$                 | $\widehat{\mathrm{ID}}_{\lt\varepsilon_0}$ | ATR+($\Sigma^1_1$-DC)                  | KPi$^0$+F-I$_\omega$           |
 | $\varphi(1,\Gamma_0,0)$                      | $\widehat{\mathrm{ID}}_{\lt\Gamma_0}$      |                                        | MLS                            |
 | $\varphi(2,0,0)$                             | Aut($\widehat{\mathrm{ID}}$)               |                                        | KPh$^0$                        |
-| $\varphi(\omega,0,0)$                        |                                            |                                        | KPm$^0$                        |
+| $\varphi(\omega,0,0)$                        |                                            |                                        | KPM$^0$                        |
 | **Inductive types**                          |                                            |                                        |                                |
 | $\psi_\Omega(\varepsilon_{\Omega+1})$        | ID$_1$                                     |                                        | KP$\omega$, CZF, ML$_1$V       |
 | $\psi_\Omega(\Gamma_{\Omega+1})$             | U(ID$_1$)                                  |                                        |                                |
@@ -125,7 +125,7 @@ See below for explanations.
 | $\psi_\Omega(\Omega_{I+\omega})$             |                                            |                                        | ML$_1$W                        |
 | $\psi_\Omega(\Omega_L)$                      |                                            |                                        | KPh, ML$_{\lt\omega}$W         |
 | **Inductive-recursive types**                |                                            |                                        |                                |
-| $\psi_\Omega(\varepsilon_{M+1})$             |                                            | $\Delta^1_2$-CA+BI+(M)                 | CZFM, KPm                      |
+| $\psi_\Omega(\varepsilon_{M+1})$             |                                            | $\Delta^1_2$-CA+BI+(M)                 | CZFM, KPM                      |
 | $\psi_\Omega(\Omega_{M+\omega})$             |                                            |                                        | KPM$^+$, MLM, "Agda"           |
 
 The sections of the table corresponds roughly to the kinds of reasoning captured by the systems:
@@ -136,19 +136,19 @@ The sections of the table corresponds roughly to the kinds of reasoning captured
 * Reasoning about general inductive types
 * Reasoning about general inductive-recursive types
 
-Note that these are all very much weaker than full second-order arithmetic, and of course much weaker than Zermelo or Zermolo-Fraenkel set theory.
+Note that these are all very much weaker than full second-order arithmetic, and of course much weaker than Zermelo or Zermelo-Fraenkel set theory.
 
 After the meta-predicative systems, all ordinals use a notation which refers to a much larger ordinal, often patterned on a large cardinal.
 
-Rathjen (2005) analyzed systems up to $\Delta^1_2$-CA+BI+$\Pi^1_2$-CA$^-$ (the last part is parameter-free $\Pi^1_2$-comprehension), corresponding to a stable ordinal, Arai has work on a bit stronger systems, up to about $\Sigma^1_4$-DC, in terms of ordinal diagrams defined in terms of iterated stability.
+Rathjen (2005) analyzed systems up to $\Delta^1_2$-CA+BI+$\Pi^1_2$-CA$^-$ (the last part is parameter-free $\Pi^1_2$-comprehension), corresponding to a stable ordinal. Arai has work on systems that are a bit stronger, up to about $\Sigma^1_4$-DC, in terms of ordinal diagrams defined in terms of iterated stability, and has more recently analyzed KP+$\Pi_1$-collection, which is beyond KP+"the stable ordinal are unbounded" in strength.
 
 With current technology, we are very far from having ordinal analyses of stronger systems such as full second order arithmetic, ZFC set theory, or impredicative type theories such as the calculus of (inductive) constructions.
 
 ### Ordinal notations
 
 * $\varphi$ is either the binary or the ternary Veblen function
-* $\Omega=\Omega_1$ is the first recursively admissible ordinal 
-* $\Omega_\xi$ is the $\xi$th recursively admissible ordinal
+* $\Omega=\Omega_1$ is the first recursively regular ordinal 
+* $\Omega_\xi$ is the $\xi$th ordinal that is recursively regular or a limit of smaller recursively regulars
 * $I$ is the first recursively inaccessible ordinal
 * $L$ is the limit of the first $\omega$ recursively inaccessible ordinals
 * $M$ is the first recursively Mahlo ordinal
@@ -199,7 +199,7 @@ $\Sigma^0_1$-induction scheme.
 * KPl asserts that the universe is a limit of admissible sets
 * KPi asserts that the universe is inaccessible sets
 * KPh asserts that the universe is hyperinaccessible: an inaccessible set and a limit of inaccessible sets
-* KPm asserts that the universe is a Mahlo set
+* KPM asserts that the universe is a Mahlo set
 
 A superscript zero indidcates that $\in$-induction is removed.
 
@@ -233,9 +233,11 @@ About the Mahlo level: this also corresponds to inductive-recursive definitions 
 
 * Aczel, The Type Theoretic Interpretation of Constructive Set Theory, Logic Colloquium 1977.
 
-* Arai, A sneak preview of proof theory of ordinals, [arXiv 1102.0596](http://arxiv.org/abs/1102.0596).
+* Arai, A sneak preview of proof theory of ordinals, [arXiv 1102.0596](https://arxiv.org/abs/1102.0596).
 
-* Arai, Proof theory for theories of ordinals III: $\Pi_N$-reflection, [arXiv 1007.0844](http://arxiv.org/abs/1007.0844).
+* Arai, Proof theory for theories of ordinals III: $\Pi_N$-reflection, [arXiv 1007.0844](https://arxiv.org/abs/1007.0844).
+
+* Arai, An ordinal analysis of $\Pi_1$-Collection, [arXiv 2112.09871](https://arxiv.org/abs/2112.09871)
 
 * Buchholz, A simplified version of local predicativity, Proc. Proof Theory Meeting Leed '90.
 
@@ -253,7 +255,7 @@ About the Mahlo level: this also corresponds to inductive-recursive definitions 
 
 * Rathjen, Ordinal notations based on a weakly Mahlo cardinal, Archive for Mathematical Logic 29 (1990), 249-263.
 
-* Rathjen, Proof-theoretic analysis of KPm, Archive for Mathematical Logic (1991).
+* Rathjen, Proof-theoretic analysis of KPM, Archive for Mathematical Logic (1991).
 
 * Rathjen, The Recursively Mahlo Property in Second Order Arithmetic, Mathematical Logic Quarterly 42 (1996), 59-66.
 
