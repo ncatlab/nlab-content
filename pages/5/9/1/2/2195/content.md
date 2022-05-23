@@ -721,6 +721,8 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 ## Related concepts
 
+* [[harmonic]], [[fundamental frequency]]
+
 * [[Fourier integral operator]]
 
 * [[Fourier transform of distributions]]
