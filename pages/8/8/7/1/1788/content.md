@@ -1,16 +1,4 @@
-some articles I hope to create:
-
-* [[acoustics]]
-* [[periodic function]]
-* [[waveform]]
-* [[frequency]]
-* [[fundamental frequency]]
-* [[harmonic]]
-* [[overtone]]
-* [[partial]]
-* [[harmonic partial]]
-* [[inharmonic partial]]
-* [[overtone series]]/[[harmonic series]]
+e finito
 
 \linebreak
 
