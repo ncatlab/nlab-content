@@ -9,9 +9,9 @@
 =--
 =--
 
+This page lists some (online) resources for the topic of [[mathematics]].
 
-
-# Resources in mathematics, physics and philosophy
+# Contents
 * table of contents
 {:toc}
 
