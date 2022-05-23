@@ -20,6 +20,7 @@ A branch of [[physics]] that studies [[mechanical waves]].
 * [[sound]]
 * [[vibration]]
 * [[noise]]
+* [[music]]
 * [[wave]]
 * [[wave equation]]
 
