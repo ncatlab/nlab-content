@@ -140,7 +140,7 @@ Note that these are all very much weaker than full second-order arithmetic, and 
 
 After the meta-predicative systems, all ordinals use a notation which refers to a much larger ordinal, often patterned on a large cardinal.
 
-Rathjen (2005) analyzed systems up to $\Delta^1_2$-CA+BI+$\Pi^1_2$-CA$^-$ (the last part is parameter-free $\Pi^1_2$-comprehension), corresponding to a stable ordinal. Arai has work on systems that are a bit stronger, up to about $\Sigma^1_4$-DC, in terms of ordinal diagrams defined in terms of iterated stability, and has more recently analyzed KP+$\Pi_1$-collection, which is beyond KP+"the stable ordinal are unbounded" in strength.
+Rathjen (2005) analyzed systems up to $\Delta^1_2$-CA+BI+$\Pi^1_2$-CA$^-$ (the last part is parameter-free $\Pi^1_2$-comprehension), corresponding to a stable ordinal. Arai has work on systems that are a bit stronger, up to about $\Sigma^1_3$-DC+BI, in terms of ordinal diagrams defined in terms of iterated stability, and has more recently analyzed KP+$\Pi_1$-collection, which is beyond KP+"the stable ordinal are unbounded" in strength.
 
 With current technology, we are very far from having ordinal analyses of stronger systems such as full second order arithmetic, ZFC set theory, or impredicative type theories such as the calculus of (inductive) constructions.
 
