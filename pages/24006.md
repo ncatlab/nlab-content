@@ -23,3 +23,4 @@ Digital archives:
 
 category: reference
 
+[[!redirects Koninklijke Akademie van Wetenschappen]]
