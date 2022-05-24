@@ -98,10 +98,12 @@ Given a large-[[dimension of a CW-complex|dimensional]] [[topological space|spac
 
 
 <center>
-<img src="https://ncatlab.org/nlab/files/PersistentCohomotopyIllustration-220524.gif" width="600">
+<img src="https://ncatlab.org/nlab/files/PersistentCohomotopy-TheIdea-220524b.gif" width="600">
 </center>
 
 > (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+
+
 
 (Alternatively, with tools from [[persistent homology theory]] an answer to this question is given by the method of *[[well groups]]* -- but (1.) it is known that well groups are in general too coarse to provide a complete answer and (2.) despite effort it remains unknown if well groups are actually [[computability|computable]] in relevant cases, see [Franek & Krčál 2016](persistent+cohomotopy#FranekKrcal16).)
 
