@@ -95,9 +95,11 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 ### CW-structures
  {#CWstructures}
 
-* The $n$-sphere ($n \ge 0$) admits, for every point $x_0 \in S^n $, a [[CW complex|CW-structure]] with one $0$-cell $x_0$ and one $n$-cell $S^n \setminus \{ x_0 \}$, by [[stereographic projection]]. ([tom Dieck 2008, example 8.3.7](#tomDieck2008)) In particular, every [[cellular map]] to a [[CW complex]] $X$ with $X_n = X_0$ is constant.
+The $n$-sphere is an [[dimension of a cell complex|$n$-dimensional]] [[CW complex]] in several ways:
 
-* The $n$-sphere ($n \ge 0$) can also be constructed from the $(n-1)$-sphere by attatching $n$-cells (the north and south hemispheres) to the equator $(n-1)$-sphere; the resulting [[CW complex]] has two $k$-cells in each dimension $k \le n$. By definition we have subcomplex inclusions $S^n \subseteq S^{n+1}$ for all $n \in \mathbf{N}$, and the colimit of this sequence is (by definition) $S^\infty$. ([tom Dieck 2008, example 8.3.7](#tomDieck2008))
+* The $n$-sphere ($n \ge 0$) admits, for every point $x_0 \in S^n $, a [[CW complex|CW-structure]] with one $0$-cell $x_0$ and one $n$-cell $S^n \setminus \{ x_0 \}$, by [[stereographic projection]]. ([tom Dieck 2008, example 8.3.7](#tomDieck2008))
+
+* The $n$-sphere ($n \ge 0$) can also be constructed from the $(n-1)$-sphere by attaching $n$-cells (the north and south hemispheres) to the equator $(n-1)$-sphere. Iteratively applying this construction starting with $S^{-1}=\varnothing$ yields a [[CW complex]] $S^n$ with two $k$-cells in each dimension $k \le n$, and subcomplex inclusions $S^n \subseteq S^{n+1}$ for all $n \in \mathbf{N}$; the colimit of this sequence is (by definition) $S^\infty$. ([tom Dieck 2008, example 8.3.7](#tomDieck2008))
 
 ### Coset space structure
  {#LabelCosetSpaceStructure}
