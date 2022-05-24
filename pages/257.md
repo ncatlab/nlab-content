@@ -473,7 +473,7 @@ The concept of a model category originates with
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014.
 
-* Scott Balchin, _A Handbook of Model Categories_, Algebra and Applications Vol 27, Springer, 2021.
+* Scott Balchin, _A Handbook of Model Categories_, Algebra and Applications Vol 27, Springer, 2021. ([doi:10.1007/978-3-030-75035-0](https://doi.org/10.1007/978-3-030-75035-0))
 
 #### Coverage table for major sources
 
