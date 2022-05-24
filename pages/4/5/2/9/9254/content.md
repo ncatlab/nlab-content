@@ -15,6 +15,7 @@
 
 
 
+
 # Topological data analysis
 * table of contents
 {: toc}
@@ -93,8 +94,14 @@ In contrast, [[persistent cohomotopy]] in TDA is the effective answer to a concr
 Given a large-[[dimension of a CW-complex|dimensional]] [[topological space|space]] of data, and a small [[natural number|number]] $n$ of ([[real number|real]]) indicator values assigned to each data point with given precision $1/r$, *does _any_ data meet a prescribed target indication precisely?*
 
 
-A [fundamental theorem](persistent+cohomotopy#GuaranteeThatSolutionsExist) of [[persistent Cohomotopy]] ([Franek,  Krčál & Wagner 2018](persistent+cohomotopy#FranekKrcal18), [Franek & Krčál 2017, p. 5](persistent+cohomotopy#FranekKrcal17), see [here](persistent+cohomotopy#GuaranteeThatSolutionsExist)) shows that (1.) the answer to this question is detected by a certain [[Cohomotopy]]-class and (2.) in a fair range of dimensions, this Cohomotopy class is provably [[computability|computable]], hence the above question is effectively [[decidability|decidable]]. $\phantom{--}$ (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+{#FundamentalTheoremOfPersistentCohomotopy} A [fundamental theorem](persistent+cohomotopy#GuaranteeThatSolutionsExist) of [[persistent Cohomotopy]] ([Franek,  Krčál & Wagner 2018](persistent+cohomotopy#FranekKrcal18), [Franek & Krčál 2017, p. 5](persistent+cohomotopy#FranekKrcal17), see [here](persistent+cohomotopy#GuaranteeThatSolutionsExist)) shows that (1.) the answer to this question is detected by a certain [[Cohomotopy]]-class and (2.) in a fair range of dimensions, this Cohomotopy class is provably [[computability|computable]], hence the above question is effectively [[decidability|decidable]]. $\phantom{--}$ (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/PersistentCohomotopyIllustration-220524.gif" width="600">
+</center>
+
+> (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
 
 (Alternatively, with tools from [[persistent homology theory]] an answer to this question is given by the method of *[[well groups]]* -- but (1.) it is known that well groups are in general too coarse to provide a complete answer and (2.) despite effort it remains unknown if well groups are actually [[computability|computable]] in relevant cases, see [Franek & Krčál 2016](persistent+cohomotopy#FranekKrcal16).)
 
