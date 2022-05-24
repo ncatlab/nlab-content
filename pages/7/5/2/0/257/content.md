@@ -473,17 +473,19 @@ The concept of a model category originates with
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014.
 
+* Scott Balchin, _A Handbook of Model Categories_, Algebra and Applications Vol 27, Springer, 2021.
+
 #### Coverage table for major sources
 
-|Topic                                      |Quillen|Hovey|Hirschhorn|DHKS|May-Ponto|Riehl|Lurie|
-|-------------------------------------------|-------|-----|----------|----|---------|-----|-----|
-|[[combinatorial model categories]]         |no     |no   |no        |no  |no*      |yes  |yes  |
-|[[monoidal model categories]]              |no     |yes  |no        |no  |yes      |yes  |yes  |
-|[[enriched model categories]]              |no     |no   |no        |no  |yes      |yes  |yes  |
-|[[homotopy colimits]]                      |no     |no   |yes       |yes |no*      |yes  |yes  |
-|[[Bousfield localizations]]                |no     |no   |yes       |no  |yes      |no   |yes  |
-|[[transferred model structures]]           |yes    |no   |yes       |no  |no       |yes  |yes  |
-|[[Reedy model structures]]                 |no     |yes  |yes       |yes |no       |yes  |yes  |
+|Topic                                      |Quillen|Hovey|Hirschhorn|DHKS|May-Ponto|Riehl|Lurie|Balchin|
+|-------------------------------------------|-------|-----|----------|----|---------|-----|-----|------|
+|[[combinatorial model categories]]         |no     |no   |no        |no  |no*      |yes  |yes  |yes |
+|[[monoidal model categories]]              |no     |yes  |no        |no  |yes      |yes  |yes  |yes |
+|[[enriched model categories]]              |no     |no   |no        |no  |yes      |yes  |yes  |yes |
+|[[homotopy colimits]]                      |no     |no   |yes       |yes |no*      |yes  |yes  |yes |
+|[[Bousfield localizations]]                |no     |no   |yes       |no  |yes      |no   |yes  |yes |
+|[[transferred model structures]]           |yes    |no   |yes       |no  |no       |yes  |yes  |yes |
+|[[Reedy model structures]]                 |no     |yes  |yes       |yes |no       |yes  |yes  |yes |
 
 #### Book chapters
 
