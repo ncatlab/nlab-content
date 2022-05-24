@@ -21,10 +21,10 @@
   * [[HowTo|HowTo]]
   * [[FAQ|FAQ]]
   * [[Contributors]]
-  * [[inbound citations|Inbound Citations]]
+
   * [Uploaded Files](http://ncatlab.org/nlab/file_list)
   * [[Sandbox|Sandbox]]
-  * [All Webs](http://ncatlab.org/web_list)
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
 
