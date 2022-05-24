@@ -1076,7 +1076,14 @@ Here the [[curve]] indicates the [[graph of a function|graph]] of $f$ and "gray"
 
 One sees on the left that if the cohomotopy class of $f$ at resolution $1/r$ is non-trivial, then there is at least one zero. 
 
-In the situation on the right it is intuitively clear that a deformation of $f$ with magnitude smaller than $r$ may move the curve/[[graph of a function|graph]] away from the horizontal 0-line. In terms of [[homotopy theory]] this is the statement that in this case the [[quotient]]-map  $X/gray \to \mathbb{R}^1/red$ of $f$ admits a [[homotopy]] to the [[constant function]], which shows that its [[homotopy class]] (here: a [[cohomotopy]]-class) is trivial.
+{#IntuitivelyClear} In the situation on the right it is intuitively clear that a deformation of $f$ with magnitude smaller than $r$ may move the curve/[[graph of a function|graph]] away from the horizontal 0-line. In terms of [[homotopy theory]] this is the statement that in this case the [[quotient]]-map  $X/gray \to \mathbb{R}^1/red$ of $f$ admits a [[homotopy]] to the [[constant function]], which shows that its [[homotopy class]] (here: a [[cohomotopy]]-class) is trivial:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/PersistentCohomotopy-TheIdea-220524b.gif" width="600">
+</center>
+
+> (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+
 
 \linebreak
 
