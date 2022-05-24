@@ -358,6 +358,9 @@ and with both:
 
 * Yizhi You, Trithep Devakul, F. J. Burnell, Titus Neupert, *Higher order symmetry-protected topological states for interacting bosons and fermions*, Phys. Rev. B **98** (2018) 235102  ([arXiv:1807.09788v2](https://arxiv.org/abs/1807.09788), [doi:10.1103/PhysRevB.98.235102](https://doi.org/10.1103/PhysRevB.98.235102))
 
+* Rongge Xu, Zhi-Hao Zhang, *Categorical descriptions of 1-dimensional gapped phases with abelian onsite symmetries* $[$[arXiv:2205.09656](https://arxiv.org/abs/2205.09656)$]$
+
+
 
 #### Conference and seminar cycles
 
