@@ -5,7 +5,7 @@
 
 Introducing the [[Hurewicz theorem]]:
 
-* {#Hurewicz35} [[Witold Hurewicz]], *Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen)*, Neder. Akad. Wetensch. **38** (1935) 112–119.  $[$[pdf](https://dwc.knaw.nl/DL/publications/PU00016667.pdf)$]$
+* {#Hurewicz35} [[Witold Hurewicz]], *Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen)*, [[Koninklijke Akademie van Wetenschappen]] **38** (1935) 112–119.  $[$[pdf](https://dwc.knaw.nl/DL/publications/PU00016667.pdf)$]$
 
 Introducing [[compactly generated topological spaces]]:
 
