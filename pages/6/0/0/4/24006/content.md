@@ -20,3 +20,6 @@ Digital archives:
 * 1951–1989: [Indagationes Mathematicae (Proceedings)](https://www.sciencedirect.com/journal/indagationes-mathematicae-proceedings).
 
 * 1990–present: [Indagationes Mathematicae](https://www.sciencedirect.com/journal/indagationes-mathematicae).
+
+category: reference
+
