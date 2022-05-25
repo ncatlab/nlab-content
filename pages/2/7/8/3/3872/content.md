@@ -37,6 +37,11 @@ On [[Bott periodicity]]:
 
 * [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, Volume 19, Issue 1, 1968, Pages 113–140 ([doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113))
 
+On [[commutative algebra]]:
+
+* [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_, (1969, 1994) $[$[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)$]$
+
+
 
 On the [[KO-theory]] of [[complex projective 3-space]]:
 
