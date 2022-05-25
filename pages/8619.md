@@ -34,13 +34,36 @@ The (popular) claim that some statement is "well-known" -- without, however, the
 
 ## Related concepts
 
+
+* [[axiom]]
+
+* [[definition]]
+
+  * [[inductive definition]]
+
+  * [[coinductive definition]]
+
+* [[theory]]
+
+* [[lemma]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]]
+
+* [[folklore]]
+
 * [[conjecture]]
 
-* [[theorem]], [[proposition]]
-
-* [[proof]]
-
 * [[analogy]]
+
+* [[paradox]]
+
+* [[exercise]]
+
+
 
 ## References
 
