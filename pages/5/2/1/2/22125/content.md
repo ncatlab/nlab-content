@@ -7,6 +7,11 @@
 
 ## Selected writings
 
+On [[topological crystalline insulators]]:
+
+* Robert-Jan Slager, Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
+
+
 On [[AdS-CFT in condensed matter physics]]:
 
 * [[Jan Zaanen]], Yan Liu, Ya-Wen Sun, [[Koenraad Schalm]], _Holographic Duality in Condensed Matter Physics_, Cambridge University Press 2015 ([doi:10.1017/CBO9781139942492]( https://doi.org/10.1017/CBO9781139942492))
