@@ -85,6 +85,8 @@ After the synthesis of graphene, which is an effectively 2-dimensional material 
 
 ## References
 
+### General
+
 General textbook account:
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
@@ -149,10 +151,21 @@ Related discussion of Dirac mass terms is in:
 * {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 $[$[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)$]$
 
 
-
 Some of the above material is taken from 
 
 * {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Computation in TED-K]]*
+
+
+
+
+[[!include anyonic braiding in momentum space -- references]]
+
+
+
+
+
+
+
 
 [[!redirects semi-metals]]
 
