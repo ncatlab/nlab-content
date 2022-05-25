@@ -62,15 +62,39 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 * [[propositional extensionality]]
 
+\linebreak
+
+* [[axiom]]
+
+* [[definition]]
+
+  * [[inductive definition]]
+
+  * [[coinductive definition]]
+
 * [[theory]]
 
-* **proposition**/[[type]] ([[propositions as types]]) 
+* [[lemma]]
 
-* [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
+* [[proposition]]/[[type]] ([[propositions as types]]) 
 
-* [[theorem]], [[axiom]]
+* [[proof]]/[[program]] ([[proofs as programs]])
 
-* [[conjecture]], [[folklore]]
+* [[theorem]]
+
+* [[folklore]]
+
+* [[conjecture]]
+
+* [[analogy]]
+
+* [[paradox]]
+
+* [[exercise]]
+
+
+
+
 
 [[!redirects proposition]]
 [[!redirects propositions]]
