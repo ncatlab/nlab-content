@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[commutative algebra]]:
+
+* [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_, (1969, 1994) $[$[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)$]$
+
+
 On [[hypergeometric functions]]:
 
 * [[Ian G. Macdonald]], _Hypergeometric functions I_, 1987 ([arxiv/1309.4568](http://arxiv.org/abs/1309.4568))
