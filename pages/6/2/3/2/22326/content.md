@@ -53,6 +53,11 @@ From lifting [[string length scale|alpha']]-corrections in [[type IIA string the
 
 * [[James Liu]], [[Ruben Minasian]], _Higher-derivative couplings in string theory: dualities and the B-field_, Nucl. Phys. B 2013 ([arXiv:1304.3137](https://arxiv.org/abs/1304.3137))
 
+Via [[type IIB supergravity]]:
+
+* [[James Liu]], [[Ruben Minasian]], Raffaele Savelli, Andreas Schachner, *Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles* $[$[arXiv:2205.11530](https://arxiv.org/abs/2205.11530)$]$
+
+
 
 #### Via the ABJM M2-brane model
 
