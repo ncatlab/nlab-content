@@ -47,7 +47,10 @@ Issues that the program of asymptotic safety of gravity is facing include the fo
 
 1. If one assumes (as is widely, but no generally believed) that [[Bekenstein-Hawking entropy]] seen in classical gravity is to correspond to a microscopic [[entropy]] of its quantum degrees of freedom, then the scaling of this entropy with area as opposed to volume contradicts the assumption that [[quantum gravity]] is a [[local field theory]] at small scales and higher energies ([Shomer 07, section IV](#Shomer07)) and hence then it contradicts the asymptotic safety of gravity. 
 
-   Similarly, if one trusts the [[AdS/CFT correspondence]] then gravity is fundamentally not a local field theory, only its boundary [[CFT]] is, in contradiction with asymptotic safety of gravity ([Shomer 07, section IV](#Shomer07)).
+   Similarly, if one trusts the [[AdS/CFT correspondence]] then gravity is fundamentally not a local field theory, only its boundary [[CFT]] is, in contradiction with asymptotic safety of gravity ([Shomer 07, section IV](#Shomer07)). But see [FR22](#FR22).
+
+
+
 
 ### Experimental issues
 
@@ -129,6 +132,11 @@ Application to [[scattering amplitudes]]:
 Unitarity in Asymptotic Safety:
 
 * Alessia Platania, Christof Wetterich, _Non-perturbative unitarity and fictitious ghosts in quantum gravity_ ([arXiv:2009.06637](https://arxiv.org/abs/2009.06637))
+
+Relation to [[AdS/CFT]]:
+
+* {#FR22} Renata Ferrero, [[Martin Reuter]], *AdS/CFT and dS/CFT correspondences emerging from Asymptotic Safety?* $[$[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)$]$
+
 
 
 
