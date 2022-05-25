@@ -6,6 +6,8 @@ A dual condition is noetherian: a __[[noetherian ring]]__ is a ring satisfying t
 
 ###Related concept
 
+* [[Artinian bimodule]]
+
 * [[artinian object]]
 
 [[!redirects artinian rings]]
