@@ -17,6 +17,9 @@ On [[topological insulators]]:
 
 * [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 $[$[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)$]$
 
+On [[topological semi-metals]]:
+
+* N. P. Armitage, [[Eugene Mele]], [[Ashvin Vishwanath]], *Weyl and Dirac semimetals in three-dimensional solids*, Rev. Mod. Phys. **90** 015001 (2018) $[$[doi:10.1103/RevModPhys.90.015001](https://doi.org/10.1103/RevModPhys.90.015001)$]$
 
 
 category: people
