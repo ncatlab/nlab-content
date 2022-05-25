@@ -83,6 +83,7 @@ for abelian anyons:
 ### Experimental detection of anyons
  {#ExperimentalRealization}
 
+
 While the occurrence of [[anyon]]-excitations in the [[quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the quantum Hall effect itself has long been established in [[experiment]], the actual observation of anyons in these systems is subtle:
 
 An early claim of the observation of non-abelian anyons seems to remain unconfirmed:
@@ -100,10 +101,10 @@ The claimed observation of abelian anyons is apparently more securely establishe
 * Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News July 10, 2020  ([phys.org/news/2020-07](https://phys.org/news/2020-07-evidence-anyons.html))
 
 
+[[!include anyonic braiding in momentum space -- references]]
+
 
 [[!include topological quantum computation with anyons -- references]]
-
-
 
 
 [[!redirects braid statistics]]
