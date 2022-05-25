@@ -315,6 +315,8 @@ This accurately reflects what is seen [above](#PhaseDiagram) in the phase diagra
 
 * [[K-theory classification of topological phases of matter]]
 
+* [[Kane-Mele model]]
+
 ## References
 
 ### Theory
