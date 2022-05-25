@@ -18,7 +18,7 @@
 
 ## Idea
 
-A _bimodule_ is a [[module]] in two compatible ways over two [[rings]] or [[algebras]].
+A _bimodule_ is a [[module]] in two compatible ways over two [[rings]].
 
 ## Definition
 
@@ -42,7 +42,11 @@ Equivalently, given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelia
 
 representing simultaneous left multiplication by scalars $r \in R$ and right multiplication by scalars $s \in S$. 
 
-### Relation between biactions, left actions, and right actions of a bimodule 
+## Properties
+
+### Biactions, left actions, and right actions
+
+Let $R$ and $S$ be [[ring]]s, and let $B$ be a $R$-$S$-bimodule. 
 
 Given a left $R$-action $\alpha_R$ and a right $S$-action $\alpha_S$ of a $R$-$S$-bimodule, the biaction $(-)(-)(-):R \times B \times S \to B$ is defined as 
 
@@ -84,32 +88,51 @@ $$r b s = r b s$$
 
 The left $R$-action and right $S$-action are bilinear because the original biaction is trilinear. 
 
-### Bimodule homomorphisms
+### Linear maps
 
-Let $R$ and $S$ be [[ring]]s. A **$R$-$S$-bimodule homomorphism** between two $R$-$S$-bimodules $A$ and $B$ is a function $f:A \to B$ such that for all $a_1 \in A$, $a_2 \in A$, $r_1 \in R$, $r_2 \in R$, $s_1 \in S$, and $s_2 \in T$, 
+Let $R$ and $S$ be [[rings]]. A **$R$-$S$-linear map** or **$R$-$S$-bimodule homomorphism** between two $R$-$S$-bimodules $A$ and $B$ is an abelian group [[homomorphism]] $f:A \to B$ such that for all $a \in A$, $r \in R$, and $s \in S$,
 
-$$f(r_1 a_1 s_1 + r_2 a_2 s_2) = r_1 f(a_1) s_1 + r_2 f(a_2) s_2$$
+$$f(r a s) = r f(a) s$$
 
-## Properties
+A linear map $f:A to B$ is [[monic]] or an **$R$-$S$-bimodule monomorphism** if for every other $R$-$S$-bimodule $C$ and $R$-$S$-linear maps $h:C \to A$ and $k:C \to A$, $f \circ h = f \circ k$ implies that $h = k$. 
+
+A **sub-$R$-$S$-bimodule** of a $R$-$S$-bimodule $B$ is a $R$-$S$-bimodule $A$ with a [[monic]] linear map $i:A \hookrightarrow B$. 
+
+### Tensor product of bimodules
+
+Given [[rings]] $R$ and $S$, the tensor product of $R$-$S$-bimodules $A$ and $B$ is the [[quotient]] of the [[tensor product of abelian groups]] $A\otimes B$ underlying them by the $R$-$S$-[[biaction]]; that is,
+$$ A\otimes_{R,S} B = A\otimes B / (a,r b s) \sim (r a s,b)$$
+
+### Two-sided ideals of a ring
+
+Every ring $R$ is a $R$-$R$-bimodule, with the [[biaction]] $(-)(-)(-):R \times R \times R \to R$ defined by the ternary product $a b c \coloneqq a \cdot b \cdot c$ for elements $a \in R$, $b \in R$, $c \in R$. 
+
+Given a ring $R$, a **[[two-sided ideal]]** of $R$ is a sub-$R$-$R$-bimodule of $R$. 
+
+### Rings over a ring
+
+Let $R$ be a [[ring]]. An **$R$-ring** $S$ is a $R$-$R$-bimodule with a [[bilinear function]] $(-)\cdot(-):S \times S \to S$ and an element $1 \in S$ such that $(S, \cdot, 1)$ forms a [[monoid]]. 
+
+## Categories of bimodules
 
 ### The 1-category of bimodules and intertwiners
 
 +-- {: .num_defn #1CategoryOfBimodulesAndIntertwiners}
 ###### Definition 
 
-For $R$ a [[commutative ring]], write $BMod_R$ for the [[category]] whose
+Write $BMod$ for the [[category]] whose
 
-* [[objects]] are triples $(A,B,N)$ where $A$ and $B$ are $R$-[[associative algebra|algebras]] and where $N$ is an $A$-$B$-[[bimodule]];
+* [[objects]] are triples $(R,S,B)$ where $R$ and $S$ are [[rings]] and where $B$ is an $R$-$S$-bimodule;
 
-* [[morphisms]] are triples $(f,g, \phi)$ consisting of two algebra [[homomorphisms]] $f \colon A \to A'$ and $B \colon B \to B'$ and an [[intertwiner]] of $A$-$B'$-bimodules $\phi \colon N \cdot g \to f \cdot N'$. This we may depict as a 
+* [[morphisms]] are triples $(f,g, \phi)$ consisting of two ring [[homomorphisms]] $f \colon R \to R'$ and $g \colon S \to S'$ and an [[intertwiner]] of $R$-$S'$-bimodules $\phi \colon B \cdot g \to f \cdot B'$. This we may depict as a 
 
   $$
     \array{
-      A &\stackrel{N}{\to}& B
+      R &\stackrel{B}{\to}& S
       \\
       {}^{\mathllap{f}}\downarrow &\Downarrow_{\phi}& \downarrow^{\mathrlap{g}}
       \\
-      A' &\stackrel{N'}{\to}& B'
+      R' &\stackrel{B'}{\to}& S'
     }  
     \,.
   $$
@@ -119,22 +142,21 @@ For $R$ a [[commutative ring]], write $BMod_R$ for the [[category]] whose
 +-- {: .num_remark }
 ###### Remark
 
-As this notation suggests, $BMod_R$ is naturally the vertical category of a [[pseudo double category]] whose horizontal composition is given by tensor product of bimodules. 
+As this notation suggests, $BMod$ is naturally the vertical category of a [[pseudo double category]] whose horizontal composition is given by tensor product of bimodules. 
 
 =--
 
-
-### The 2-category of algebras and bimodules
+### The 2-category of rings, bimodules, and intertwiners
  {#AsMorphismsInA2Category}
 
-Let $R$ be a [[commutative ring]] and consider bimodules over $R$-algebras.
+Consider bimodules over [[rings]].
 
 +-- {: .num_prop #AlgebrasAndBimodules}
 ###### Proposition
 
 There is a [[2-category]] whose 
 
-* [[objects]] are $R$-[[algebras]];
+* [[objects]] are [[rings]];
 
 * [[1-morphisms]] are bimodules;
 
@@ -147,16 +169,16 @@ The [[composition]] of 1-morphisms is given by the [[tensor product of modules]]
 +-- {: .num_prop}
 ###### Proposition
 
-There is a [[2-functor]] from the above 2-category of algebras and bimodules to [[Cat]] which
+There is a [[2-functor]] from the above 2-category of rings and bimodules to [[Cat]] which
 
-* sends an $R$-algebra $A$ to its [[category of modules]] $Mod_A$;
+* sends an ring $R$ to its [[category of modules]] $Mod_R$;
 
-* sends a $A_1$-$A_2$-bimodule $N$ to the [[tensor product]] [[functor]]
+* sends a $R$-$S$-bimodule $B$ to the [[tensor product]] [[functor]]
 
   $$
-    (-)\otimes_{A_1} N
+    (-)\otimes_{R} B
     \;\colon\;
-    Mod_{A_1} \to Mod_{A_2}
+    Mod_{R} \to Mod_{S}
   $$
 
 * sends an [[intertwiner]] to the evident [[natural transformation]] of the above functors.
@@ -175,14 +197,14 @@ This is the [[Eilenberg-Watts theorem]].
 +-- {: .num_remark}
 ###### Remark
 
-In the context of [[higher category theory]]/[[higher algebra]] one may interpret this as says that the [[2-category]] of those [[2-modules]] over the given ring which are equivalent to a [[category of modules]] is that of $R$-algebras, bimodules and intertwiners. See also at _[[2-ring]]_.
+In the context of [[higher category theory]]/[[higher algebra]] one may interpret this as says that the [[2-category]] of those [[2-modules]] over the given ring which are equivalent to a [[category of modules]] is that of rings, bimodules and intertwiners. See also at _[[2-ring]]_.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The 2-category of algebras and bimodules is an archtypical example for a [[2-category with proarrow equipment]], hence for a [[pseudo double category]] with niche-fillers. Or in the language of [[internal (infinity,1)-category]]-theory: it naturally induces the structure of a [[simplicial object]] in the [[(2,1)-category]] $Cat$ 
+The 2-category of rings and bimodules is an archtypical example for a [[2-category with proarrow equipment]], hence for a [[pseudo double category]] with niche-fillers. Or in the language of [[internal (infinity,1)-category]]-theory: it naturally induces the structure of a [[simplicial object]] in the [[(2,1)-category]] $Cat$ 
 
 $$
   \left(
@@ -199,16 +221,16 @@ $$
 which satisfies the [[Segal conditions]]. Here 
 
 $$
-  X_0 =  Alg_R
+  X_0 =  Ring
 $$ 
 
-is the category of [[associative algebras]] and [[homomorphisms]] between them, while 
+is the category of [[rings]] and [[homomorphisms]] between them, while 
 
 $$
-  X_1 = BMod_R
+  X_1 = BMod
 $$ 
 
-is the category of def. \ref{1CategoryOfBimodulesAndIntertwiners}, whose objects are pairs consisting of two algebras $A$ and $B$ and an $A$-$B$ bimodule $N$ between them, and whose morphisms are pairs consisting of two algebra homomorphisms $f \colon A \to A'$ and $g \colon B \to B'$ and an [[intertwiner]] $N \cdot (g) \to (f) \cdot N'$.
+is the category of def. \ref{1CategoryOfBimodulesAndIntertwiners}, whose objects are pairs consisting of two rings $A$ and $B$ and an $A$-$B$ bimodule $N$ between them, and whose morphisms are pairs consisting of two ring homomorphisms $f \colon A \to A'$ and $g \colon B \to B'$ and an [[intertwiner]] $N \cdot (g) \to (f) \cdot N'$.
 
 =--
 
@@ -223,6 +245,8 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 * [[bimodule object]]
 
 * [[Hilbert bimodule]]
+
+* [[two-sided ideal]]
 
 * [[biaction]]
 
@@ -252,3 +276,11 @@ For more on that see at _[[(∞,1)-bimodule]]_.
 [[!redirects bimodules]]
 [[!redirects bimodule homomorphism]]
 [[!redirects bimodule homomorphisms]]
+[[!redirects bimodule monomorphism]]
+[[!redirects bimodule monomorphisms]]
+
+[[!redirects tensor product of bimodules]]
+[[!redirects tensor products of bimodules]]
+
+[[!redirects subbimodule]]
+[[!redirects subbimodules]]
