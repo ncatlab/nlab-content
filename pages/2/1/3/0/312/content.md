@@ -221,6 +221,8 @@ On the other hand, there is no particular harm either in having such structure a
 
 * [[property sup]]
 
+* [[subtype]]
+
 ## References
 
 Standard textbook references include section I.3 of 
