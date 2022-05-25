@@ -90,7 +90,7 @@ The left $R$-action and right $S$-action are bilinear because the original biact
 
 Let $R$ and $S$ be [[ring]]s. A **$R$-$S$-bimodule homomorphism** between two $R$-$S$-bimodules $A$ and $B$ is a function $f:A \to B$ such that for all $a_1 \in A$, $a_2 \in A$, $r_1 \in R$, $r_2 \in R$, $s_1 \in S$, and $s_2 \in T$, 
 
-$$f(r_1 a_1 s_2 + r_2 a_2 s_2) = r_1 f(a_1) s_1 + r_2 f(a_2) s_2$$
+$$f(r_1 a_1 s_1 + r_2 a_2 s_2) = r_1 f(a_1) s_1 + r_2 f(a_2) s_2$$
 
 ### In general categories
 
