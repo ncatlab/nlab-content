@@ -1,11 +1,25 @@
+# Locally internal categories
+
+* table of contents
+{: toc}
+
+## Idea
+
 A _locally internal category_ is an analogue of a [[large category|large]] but [[locally small category]] relative to an [[elementary topos]], when that topos is thought of as generalizing the category of sets.
 
-Given a topos $E$ and an object $X$ in $E$, one notices that the slice category $E/X$ is a symmetric monoidal category; hence we can consider categories enriched over $E/X$, i.e. $E/X$-categories. 
+More generally, locally internal catgegories can be defined over any category with finite limits.  The notion is best-behaved when $E$ is [[locally cartesian closed category|locally cartesian closed]] (for instance, in that case the [[codomain fibration]] of $E$ is an example).
+
+## Definition
+
+Given a category $E$ with finite limits and an object $X$ in $E$, one notices that the slice category $E/X$ is a symmetric monoidal category under pullback.  Hence we can consider categories enriched over $E/X$, i.e. $E/X$-categories. 
 
 A __locally internal category__ $C$ over $E$ is given by 
 
-* an $E/X$-category $C_X$ for each object $X$ in $E$ (which is thought of as being $X$-indexed families of objects of $E$)
-* for each morphism $f: X\to Y$ in $E$ an $E/X$-full embedding $\theta_f: f^* C_Y\to C_X$ such that $f\mapsto \theta_f$ is functorial up to coherent isomorphisms
+* An $(E/X)$-enriched category $C_X$ for each object $X$ in $E$.  This is thought of as the category of $X$-indexed families of objects of $E$.
+* For each morphism $f: X\to Y$ in $E$, an $(E/X)$-full embedding $\theta_f: f^* C_Y\to C_X$.  Here $f^* C_Y$ means the $(E/X)$-enriched category obtained by applying the symmetric monoidal functor $f^*:E/Y \to E/X$ to the hom-objects of the $(E/Y)$-enriched category $C_Y$, and an enriched functor is a "full embedding" if it induces isomorphisms on hom-objects.
+* $f\mapsto \theta_f$ is functorial up to coherent isomorphism.  This means certain diagrams commute analogous to those of a [[pseudofunctor]], but with the functors $f^*$ applied at appropriate places to make them typecheck.
+
+## Properties
 
 In the [[stack semantics]] of $E$, a locally internal category "looks like" an ordinary locally small category.
 
@@ -26,10 +40,12 @@ If we also take care of the appropriate morphisms have the following:
  (2b) ([[Robert Pare]]) If this indexed functor preserves pullbacks (as an indexed functor) and if it induces the given enrichment, this extension is unique (up to a canonical isomorphism). [Elephant](#Elephant)  B2.2.8.
 =--
 
+## Related pages
 
-
-
-Of course, $E$ does not have to be a topos.  For the definition, it suffices for $E$ to have finite limits, although the notion is best-behaved when $E$ is [[locally cartesian closed category|locally cartesian closed]] (for instance, in that case the [[codomain fibration]] of $E$ is an example).
+* [[internal category]]
+* [[indexed category]]
+* [[enriched category]]
+* [[enriched indexed category]]
 
 ## References
 
