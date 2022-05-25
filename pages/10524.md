@@ -25,7 +25,7 @@ Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appea
 
 1. at coarse resolution (currently accessible to [[experiment]]) it appears as a  ([[time-reversal symmetry|time-reversal]] and space inversion-symmetric) [[topological semi-metal]], due to a gap between its [[valence band]] and [[conduction band]] which closes only over two [[Dirac points]] in its [[Brillouin torus]];
 
-1. at finer resolution -- namely when the [[spin-orbit coupling]] of the [[electrons]] is resolved, which turns out to open a small energy gap also at the two Dirac points -- graphene appears as a ([[time-reversal symmetry|time-reversal symmetric]]) [[topological insulator]]  ([Kane & Mele 05a](#KaneMele05a)), whose non-trivial [[topological phase of matter|topological phase ]] is witnessed by the non-trivial [[Kane-Mele invariant]] in [[cyclic group of order two|$\mathbb{Z}/2$]] ([Kane & Mele 05b](#KaneMele05b)).
+1. at finer resolution -- namely when the [[spin-orbit coupling]] of the [[electrons]] is resolved (thought to be $\sim10^{-3}$[[meV]] [MHSSKM06](#MHSSKM06) and hence too small for [[experiment|experimental]] observation, currently), which reveals a small energy gap opening at the two would-be Dirac points -- graphene appears as a ([[time-reversal symmetry|time-reversal symmetric]]) [[topological insulator]]  ([Kane & Mele 05a](#KaneMele05a)), whose non-trivial [[topological phase of matter|topological phase ]] is witnessed by the non-trivial [[Kane-Mele invariant]] in [[cyclic group of order two|$\mathbb{Z}/2$]] ([Kane & Mele 05b](#KaneMele05b)).
 
 
 ## Related concepts
@@ -33,7 +33,7 @@ Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appea
 
 ## References
 
-The [[electronic band structure]] of graphene (reviewed in [WZLLJHD 12](#WZLLJHD12)) was predicted (before the term was coined) already in 
+The [[electronic band structure]] of graphene (reviewed in [WZLLJHD 12](#WZLLJHD12)) was predicted (long before the term was coined) already in 
 
 * [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 ([doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622))
 
@@ -42,6 +42,11 @@ The synthesis/detection of graphene is due to
 * [[Konstantin Novoselov]], [[Andre Geim]], S. V. Morozov, D. Jiang, Y. Zhang, S.V. Dubonos, I.V. Grigorieva, A.A. Firsov, _Electric field effect in atomically thin carbon films_, Science __306__, no. 5696, pp. 666-669 (2004) ([doi:10.1126/science.1102896](http://dx.doi.org/10.1126/science.1102896), [arXiv:cond-mat/0410550](https://arxiv.org/abs/cond-mat/0410550))
 
 (The procedure, won a Nobel Prize and the authors made it freely available without patenting.)
+
+Computation of the (tiny) [[spin-orbit coupling]] in graphene:
+
+* {#MHSSKM06} Hongki Min, J. E. Hill, N. A. Sinitsyn, B. R. Sahu, Leonard Kleinman, A. H. MacDonald, *Intrinsic and Rashba spin-orbit interactions in graphene sheets*,
+Phys. Rev. B **74** (2006) 165310 $[$[doi:10.1103/PhysRevB.74.165310](https://doi.org/10.1103/PhysRevB.74.165310)$]$
 
 Observation that the [[spin-orbit coupling]] in graphene should open the gap at the [[Dirac points]] revealing a [[quantum spin Hall effect]] in graphene:
 
