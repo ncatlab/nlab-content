@@ -13,13 +13,39 @@
 
 * [[section conjecture]]
 
+* [[Sen's conjecture]]
+
 ## Related concepts
+
+* [[axiom]]
+
+* [[definition]]
+
+  * [[inductive definition]]
+
+  * [[coinductive definition]]
+
+* [[theory]]
+
+* [[lemma]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]]
 
 * [[folklore]]
 
-* [[theorem]], [[proposition]], [[proof]]
+* [[conjecture]]
 
 * [[analogy]]
+
+* [[paradox]]
+
+* [[exercise]]
+
+
 
 
 
