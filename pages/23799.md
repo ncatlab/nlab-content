@@ -25,6 +25,7 @@ In [[solid state physics]], a *topological crystalline insulator* is a [[crystal
 This means that a topological crystalline insulator phase observed in the [[bulk]] of some [[crystal]] whose [[dynamics]] (or rather that of its [[electrons]]) respects a given [[crystallographic group|point group]] may disappear for instance at [[boundary]] regions where the dynamics [[symmetry breaking|breaks]] this symmetry.
 
 
+
 ## References
 
 ### Original articles
@@ -34,6 +35,11 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 * [[Robert-Jan Slager]], Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
 
 * Jie Shen, Judy J. Cha,  *Topological Crystalline Insulator Nanostructures*, Nanoscale **6** 23 (2014) 14133-14140 $[$[doi:10.1039/c4nr05124f](https://doi.org/10.1039/c4nr05124f)$]$
+
+* Jorrit Kruthoff, [[Jan de Boer]], Jasper van Wezel, [[Charles L. Kane]], [[Robert-Jan Slager]], *Topological Classification of Crystalline Insulators through Band Structure Combinatorics*, Phys. Rev. X **7** (2017) 041069 $[$[doi:10.1103/PhysRevX.7.041069](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.041069)$]$
+
+  > (explicit relation to [[equivariant K-theory]] in appendix B)
+
 
 ### Review
 
