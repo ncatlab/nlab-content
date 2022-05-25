@@ -248,6 +248,8 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 
 * [[two-sided ideal]]
 
+* [[category of two-sided ideals of a ring]]
+
 * [[biaction]]
 
 * [[amplimorphism]]
