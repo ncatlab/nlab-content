@@ -19,7 +19,7 @@ A quasitopos is a particular kind of [[category]] that has properties similar to
 
 Instead of the usual [[subobject classifier]], it has a classifier only for *[[strong monomorphism|strong]]* [[subobject]]s. It satisfies the uniqueness, but not the existence, part of the sheaf axioms ([[Elephant]] A2.6).
 
-Note that some of the literature definitions use the notion of a [[regular monomorphism]].  Since every regular monomorphism is as strong one, this article only uses  [[strong monomorphism]].
+Note that some of the literature definitions use the notion of a [[regular monomorphism]].  Since every regular monomorphism is a strong one, this article only uses  [[strong monomorphism]].
 
 ## Definition
 
