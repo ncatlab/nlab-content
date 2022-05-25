@@ -248,6 +248,10 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 
 * [[Hilbert bimodule]]
 
+* [[Noetherian bimodule]]
+
+* [[Artinian bimodule]]
+
 * [[two-sided ideal]]
 
 * [[category of two-sided ideals in a ring]]
