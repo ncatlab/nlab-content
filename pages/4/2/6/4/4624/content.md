@@ -65,6 +65,22 @@ If $C$ has pullbacks of monomorphisms, $Sub$ is often used to denote the contrav
 
 
 [[!redirects groupoid of subobjects]]
+
+[[!redirects category of subobjects]]
+[[!redirects categories of subobjects]]
+[[!redirects subobject category]]
+[[!redirects subobject categoriess]]
+
+[[!redirects preorder of subobjects]]
+[[!redirects preorders of subobjects]]
+[[!redirects subobject preorder]]
+[[!redirects subobject preorders]]
+
+[[!redirects proset of subobjects]]
+[[!redirects prosets of subobjects]]
+[[!redirects subobject proset]]
+[[!redirects subobject prosets]]
+
 [[!redirects poset of subobjects]]
 [[!redirects posets of subobjects]]
 [[!redirects subobject poset]]
