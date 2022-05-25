@@ -103,10 +103,7 @@ The analogous definition for more than two arguments yields __multilinear maps__
 
 =--
 
-
 ### For modules
-
-More generally :
 
 +-- {: .num_defn}
 ###### Definition
@@ -141,6 +138,41 @@ $$
 
 __Multilinear maps__ are again a generalisation.
 
+### For bimodules
+
++-- {: .num_defn}
+###### Definition
+
+For [[rings]] $R$ and $S$ and $R$-$S$-[[bimodules]] $A$, $B$, and $C$, a **$R$-$S$-bilinear map** from $A$ and $B$ to $C$ is a function of the underlying sets
+
+$$
+  f : A \times B \to C
+$$
+
+which is a bilinear map of the underlying [[abelian groups]] as in def. \ref{BilinearOnAbelianGroups} and in addition such that for all $r \in R$ and $s \in S$ we have
+
+$$
+  f(r a s, b) = r f(a,b) s
+$$
+
+and
+
+$$
+  f(a, r b s) = r f(a,b) s
+  \,.
+$$
+
+=--
+
+
+If $R$ and $S$ are [[commutative rings]], then this is equivalent to $f$ factoring through the [[tensor product of bimodules]]
+
+$$
+ f : A \times B \to A \otimes_{R, S} B \to C
+  \,.
+$$
+
+__Multilinear maps__ are again a generalisation.
 
 ### For $\infty$-modules
  {#ForInfinityModules}
