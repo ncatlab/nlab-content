@@ -20,13 +20,13 @@ In the simplest case, the notion of _tensorial strength_ is a way to talk about 
 
 ## Definition 
 
-Given a monoidal category $V$, a **tensorial strength** for a functor 
+Given a monoidal category $V$, a **tensorial left-strength** for a functor 
 
 $$F : V \to V$$
 
 is usually defined as a natural transformation 
 
-$$ \beta_{v, w}: v \otimes F(w) \to F(v \otimes w)$$
+$$\beta_{v, w}: v \otimes F(w) \to F(v \otimes w)$$
 
 making two diagrams commute: 
 
@@ -46,6 +46,11 @@ I\otimes F(v) & \overset{\beta_{I,v}}{\to} & F(I\otimes v) \\
 }
 $$
 where $\alpha$ is the [[associator]] and $\lambda$ is the [[unitor]].
+
+A **tensorial right-strength** is defined symmetrically, as a natural transformation
+$$\gamma_{v, w}: F(w) \otimes v \to F(w \otimes v)$$
+
+When $V$ is [[symmetric monoidal category|symmetric]], tensorial left strengths are equivalently tensorial right strengths, and in this setting, one usually drops "left-" or "right-" and simply talks about **tensorial strengths**.
 
 A functor equipped with a tensorial strength is called a **strong functor** (not to be confused with a *strong 2-functor*, which is another name for a [[pseudofunctor]], i.e. a [[lax 2-functor]] whose coherence cells are invertible).
 
