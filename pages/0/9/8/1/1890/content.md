@@ -27,18 +27,16 @@
 
 ## Idea
 
-A _strength_ and a _costrength_ for a [[monad]] on a [[monoidal category]] are [[structures]] relating the monad with the [[tensor product]] of the category "in one direction". A monad equipped with a strength is called a _strong monad_. 
+A _left-strength_ and a _right-strength_ for a [[monad]] on a [[monoidal category]] are [[structures]] relating the monad with the [[tensor product]] of the category "in one direction". A monad equipped with a (left/right) strength is called a _(left/right) strong monad_. For a [[symmetric monoidal category]], the concepts of left-strength and rihgt-strength coincide, and we simply talk about _strengths_.
 The notion of strength can be motivated at least in the following ways.
 
-* A strong monad over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actegory|actegories]], on the category $V$ (acting on itself on the left for a strength, on the right for a costrength). 
-* A strength for a monad is a compatibility condition between the monad and the tensor product "from the left", less symmetric than being a [[monoidal monad]], as it lacks the [[commutative monad|commutativity]] property. A _costrength_ is a similar notion, where the action is on the right.
-* A strength for a monad is a way of creating "slices", expressions over tensor products which are trivial in the first component. (The costrength gives expressions which are trivial in the second component.)
+* A strong monad over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actegory|actegories]], on the category $V$ (acting on itself on the left for a left-strength, on the right for a right-strength). 
+* A left-strength for a monad is a compatibility condition between the monad and the tensor product "from the left", less symmetric than being a [[monoidal monad]], as it lacks the [[commutative monad|commutativity]] property. A right-strength is a similar notion, where the action is on the right.
+* A left-strength for a monad is a way of creating "slices", expressions over tensor products which are trivial in the first component. (The right-strength gives expressions which are trivial in the second component.)
 * A strong monad is a [[tensorial strength|strong endofunctor]] with a monad structure which is compatible with the strength.
-* If $V$ is a [[monoidal closed category]], then a strong monad is the same thing as a $V$-[[enriched monad]], and a costrength is the same thing as a pointwise structure for the monad on the [[internal homs]]. In particular, every monad on [[Set]] is canonically strong.
+* If $V$ is a [[monoidal closed category]], then a left-strong monad is the same thing as a $V$-[[enriched monad]], and a right-strength is the same thing as a pointwise structure for the monad on the [[internal homs]]. In particular, every monad on [[Set]] is canonically left-strong.
 
-On a [[symmetric monoidal category]], strength and costrength, if they exist, can be obtained from one another.
-
-Under some conditions, the strength is a [[property-like structure]].
+Under some conditions, having a strength is a [[property-like structure]].
 
 A more general notion of strength allows for general $V$-[[actegories]] instead of just the canonical action of $V$ on itself (see below).
 
@@ -48,14 +46,14 @@ A more general notion of strength allows for general $V$-[[actegories]] instead 
 +-- {: .num_defn}
 ###### Definition
 
-For $V$ a [[monoidal category]], a **strong monad** over $V$ is a [[monad]] in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actegory|actegories]] on [[category|categories]].
+For $V$ a [[monoidal category]], a **left-strong monad** over $V$ is a [[monad]] in the $2$-[[2-category|category]] $V\text{-}Act$ of left $V$-[[actegory|actegories]] on [[category|categories]].
 =--
 
-The classical definition of strength is on the category $V$ itself, regarded as equipped with the canonical $V$-action on itself. The definition is useful in the general case too. 
+The classical definition of left-strength is on the category $V$ itself, regarded as equipped with the canonical $V$-action on itself. The definition is useful in the general case too. 
 
-The extra [[structure]] that a strong monad has as opposed to the underlying monad on [[Cat]] is called **strength**.
+The extra [[structure]] that a left-strong monad has as opposed to the underlying monad on [[Cat]] is called **strength**.
 
-Dually, a **costrength** is the analogous concept where $V$ is instead acting on the right.
+Dually, a **right-strength** is the analogous concept where $V$ is instead acting on the right.
 
 
 ### Details 
@@ -70,7 +68,7 @@ where on the right we have the $2$-category of [[lax functor|lax 2-functors]] fr
 
 The category $V$ defines a canonical functor $\hat V : \mathbf{B}V \to Cat$.
 
-The strong monad, being a [[monad]] in this [[lax functor]] [[bicategory]] is given by
+The left-strong monad, being a [[monad]] in this [[lax functor]] [[bicategory]] is given by
 
 * a lax [[natural transformation]] $T : \hat V \to \hat V$;
 
@@ -94,7 +92,7 @@ Then the [usual diagrams](#concrete_definition) that specify a strong monad
 
 ## Concrete definition
 
-A _strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}:A \otimes T B \to T(A\otimes B)$, called the _strength_, such that the following diagrams commute.
+A _left-strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}:A \otimes T B \to T(A\otimes B)$, called the _left-strength_, such that the following diagrams commute.
 
 "Strengthening with 1 is irrelevant" (and plays well with the [[unitors]]):
 \begin{tikzcd}[column sep=small, nodes={scale=1.25}]
@@ -135,43 +133,43 @@ $t_{A,B}:A\bullet T(B)\to T(A\bullet B)$ satisfying similar commutative diagrams
 In particular, the underlying [[endofunctor]] of a strong monad is a [[strong functor]].
 
 
-### Costrength
+### Right-strength
 
-A __costrength__ for the monad $T$ is a natural transformation $s_{A,B}:T A \otimes B \to T(A\otimes B)$ satisfying analogous diagrams to those for the strength.
+A __right-strength__ for the monad $T$ is a natural transformation $s_{A,B}:T A \otimes B \to T(A\otimes B)$ satisfying analogous diagrams to those for the left-strength.
 
-Note that the "co-" in "costrength" does _not_ refer to the [[opposite category]]; instead it refers to the reversal of the tensor product, $A\otimes^{rev} B = B\otimes A$.  The terminology also makes sense in the context of [[closed monoidal categories]], where strength and costrength appear on the two sides of the [[internal hom]]. See [the dedicated section](#costrength_and_pointwise_structure) for the details.
+**Remark.** In some papers, the term "strength" is used for what is here called a "left-strength" and the term "costrength" is used for what is here called a "right-strength". However, this terminology is confusing, as it is not in line with the usual convention in category theory of prefixing a term by "co-" when it is the same concept in the [[opposite category]]: instead, a left-strength is a right-strength with respect to the reversal of the tensor product $A\otimes^{rev} B = B\otimes A$. In our terminology, a **left-costrength** is a coherent natural transformation $T(A \otimes B) \to A \otimes TB$ and a **right-costrength** is a coherent natural transformation $T(A \otimes B) \to TA \otimes B$.
 
-When the category $C$ is [[symmetric monoidal category|symmetric monoidal]], the [[braiding]] $b$ allows to obtain a strength from a costrength and vice versa,
+When the category $C$ is [[symmetric monoidal category|symmetric monoidal]], the [[braiding]] $b$ allows to obtain a left-strength from a right-strength and vice versa,
 \begin{tikzcd}
 T A \otimes B \ar{r}{b_{T A,B}}[swap]{\cong} & B\otimes T A \ar{r}{t_{B,A}} & T(B \otimes A) \ar{r}{Tb_{B,A}}[swap]{\cong} & T(A\otimes B) .
 \end{tikzcd}
 
-A __bistrength__ is a strength and a costrength such that the two induced maps $(X\otimes T Y) \otimes Z \to T((X\otimes Y)\otimes Z$ agree.  If the category is symmetric monoidal, then $T$ is a [[commutative monad]] if it is equipped with a strength (hence also a costrength) such that the two induced maps $T X \otimes T Y \to T(X\otimes Y)$ agree.
+A __strength__ (on a monoidal category which is not necessarily symmetric) is a left-strength and a right-strength such that the two induced maps $(X\otimes T Y) \otimes Z \to T((X\otimes Y)\otimes Z$ agree.  If the category is symmetric monoidal, then $T$ is a [[commutative monad]] if it is equipped with a left-strength (hence also a right-strength) such that the two induced maps $T X \otimes T Y \to T(X\otimes Y)$ agree.
 
 
 ## Examples
 
-Every monad on [[Set]] with its [[cartesian product]] is canonically strong (see [below](#example-in-set) for why). 
+Every monad on [[Set]] with its [[cartesian product]] is canonically left-strong (see [below](#example-in-set) for why). 
 
-* The strength for the [[list monad]] works in the following way. Given sets $X$ and $Y$, the strength is the map
+* The left-strength for the [[list monad]] works in the following way. Given sets $X$ and $Y$, the left-strength is the map
 $$
 (x,[y_1,\dots,y_n]) \; \mapsto \; [(x,y_1),\dots,(x,y_n)] .
 $$
 In other words, it turns an element of $X$ and a list of elements of $Y$ into a list of elements of $X\times Y$, canonically.
 
-* For the left [[action monad]] (on [[Set]] or on any other [[monoidal category]]) relative to a [[monoid]] or [[monoid object]] $M$, the costrength is inherited by the [[associator]] as follows (see [Brandenburg '14, Example 6.3.4](#Brandenburg2014)),
+* For the left [[action monad]] (on [[Set]] or on any other [[monoidal category]]) relative to a [[monoid]] or [[monoid object]] $M$, the right-strength is inherited by the [[associator]] as follows (see [Brandenburg '14, Example 6.3.4](#Brandenburg2014)),
 \begin{tikzcd}
 (M \otimes X) \otimes Y \ar{r}{a_{M,X,Y}}[swap]{\cong} & M \otimes (X \otimes Y) .
 \end{tikzcd}
-* On a [[symmetric monoidal category]], a strength for a left action monad can be obtained analogously, using the [[braiding]]. (For right actions, the braiding is not needed.)
-In that case, this strength is [[commutative monad|commutative]] precisely if $M$ is [[commutative monoid|commutative as a monoid]] (see [Brandenburg '14, Example 6.3.12](#Brandenburg2014)).
+* On a [[symmetric monoidal category]], a left-strength for a left action monad can be obtained analogously, using the [[braiding]]. (For right actions, the braiding is not needed.)
+In that case, this left-strength is [[commutative monad|commutative]] precisely if $M$ is [[commutative monoid|commutative as a monoid]] (see [Brandenburg '14, Example 6.3.12](#Brandenburg2014)).
 
-* For [[probability monads]] on [[cartesian monoidal categories]], the strength creates "slices", or probability distributions which are deterministic in one variable. For the [[Giry monad]], for example, the strength for measurable spaces $X$ and $Y$ is the map
+* For [[probability monads]] on [[cartesian monoidal categories]], the left-strength creates "slices", or probability distributions which are deterministic in one variable. For the [[Giry monad]], for example, the left-strength for measurable spaces $X$ and $Y$ is the map
 $$
 (x,p) \;\mapsto\; \delta_x\otimes p
 $$
-for all $x\in X$ and $y\in P Y$. This strength is [[commutative monad|commutative]] and it allows to define easily the [[product of measures]]. Most probability monads behave analogously.
-(Note that the category [[Meas]] has another [[monoidal structure]], which is closed, different from the [[cartesian product]]. For that monoidal structure, the Giry monad is not strong - see [Sato '16](#sato).)
+for all $x\in X$ and $y\in P Y$. This left-strength is [[commutative monad|commutative]] and it allows to define easily the [[product of measures]]. Most probability monads behave analogously.
+(Note that the category [[Meas]] has another [[monoidal structure]], which is closed, different from the [[cartesian product]]. For that monoidal structure, the Giry monad is not left-strong - see [Sato '16](#sato).)
 
 
 ## Interaction with the Kleisli category
@@ -185,7 +183,7 @@ Given a monad $M : C \to C$ on a monoidal category $(C, \otimes, I)$, let $Kl(M)
 
 Then there is a correspondence between
 
-* strengths of $M$,
+* left-strengths of $M$,
 * functorial operations $\odot : C \times Kl(M) \to Kl(M)$ that are
   * left unital: $I \odot A \cong A$ (naturally),
   * right unital: $X \odot [I] \cong JX$ (naturally),
@@ -198,24 +196,24 @@ Right unitality entails that $X \odot [Y] \cong X \otimes Y \odot [I] \cong [X \
   
 This correspondence is used in the formulation of [[call-by-push-value]] as an adjoint logic.
 
-Indeed, assume that $M$ is strong. Then we define
+Indeed, assume that $M$ is left-strong. Then we define
 
 * $X \odot [Y] := [X \otimes Y]$
 * $f^{X \to X'} \odot [g]^{[Y] \to [Y']} := [t_{X', Y'} \circ (f \otimes g)]$
 
 This preserves
 
-* identity because the strength commutes with the unit,
-* composition because the strength commutes with monad multiplication.
+* identity because the left-strength commutes with the unit,
+* composition because the left-strength commutes with monad multiplication.
 
 This is
 
 * left unital on objects (by mapping the left unitor into the Kleisli category),
-* naturally so because the strength is compatible with the left unitor,
+* naturally so because the left-strength is compatible with the left unitor,
 * right unital on objects (by mapping the right unitor into the Kleisli category),
-* naturally so because the strength commutes with the unit (!),
+* naturally so because the left-strength commutes with the unit (!),
 * mixed associative on objects (by mapping the assiciator into the Kleisli category),
-* naturally so because the strength is compatible with the associator.
+* naturally so because the left-strength is compatible with the associator.
 
 The coherence laws will be satisfied.
 
@@ -257,7 +255,7 @@ J(X \otimes Y)
 
 ## On closed and monoidal closed categories
 
-If the category $C$ is [[closed monoidal category|monoidal closed]], strength and costrength induce particular structures on the [[internal homs]]. 
+If the category $C$ is [[closed monoidal category|monoidal closed]], left-strength and right-strength induce particular structures on the [[internal homs]]. 
 
 In this section, let $(C,\otimes 1)$ be monoidal closed, with internal hom denoted by $[-,-]$. Denote the [[unit of an adjunction|unit of the hom-tensor adjunction]] by $\eta_X:X \to [Y,X\otimes Y]$ and the counit (or _evaluation map_, see [[internal hom#EvaluationMap|internal hom - evaluation map]]) by $\epsilon_Y:X\otimes [X,Y]\to Y$.
 
@@ -265,11 +263,11 @@ In this section, let $(C,\otimes 1)$ be monoidal closed, with internal hom denot
 The unit is the unit of $- \otimes Y \dashv [Y, -]$ applied to $X$. The co-unit is the co-unit of $X \otimes - \dashv [X, -]$ applied to $Y$. The swapping of the variable names is already confusing, but more importantly, we're tensoring on the other side. Either we're assuming that the category is symmetric monoidal (then we should mention so), or we're not but then we should be consistent.
 =--
 
-### Strong monads are enriched monads
+### Left-strong monads are enriched monads
 
 The original reference for this part is [Kock '72](#kock72). Note that in there the terminology is a little different:
 
-* The strength as defined here is called _tensorial strength_;
+* The left-strength as defined here is called _tensorial strength_;
 * The enrichment of the monad is called _strength_.
 
 Since the two notions are equivalent, the different terminology does not lead to confusion (once the equivalence is established).
@@ -289,7 +287,7 @@ The latter is provided by the strength $t$ as follows,
 {[X,Y]} \otimes T X \ar{r}{t} & T\big({[X,Y]}\otimes X \big) \ar{r}{T\epsilon} & TY.
 \end{tikzcd}
 
-Conversely, given a map $t':[X,Y] \otimes T X \to T Y$ natural in $Y$ and [[extranatural]] in $X$, one can define a strength as
+Conversely, given a map $t':[X,Y] \otimes T X \to T Y$ natural in $Y$ and [[extranatural]] in $X$, one can define a left-strength as
 \begin{tikzcd}
 X \otimes T Y \ar{r}{\eta\otimes TY} & {[Y,X\otimes Y]} \otimes T Y \ar{r}{t'} & T(X\otimes Y).
 \end{tikzcd}
@@ -299,7 +297,7 @@ One can verify that these assignments are inverse to each other. Moreover, the [
 
 #### Example in Set {#example-in-set}
 
-_Every monad on [[Set]] is [[Set]]-enriched. In particular, it is strong._
+_Every monad on [[Set]] is [[Set]]-enriched. In particular, it is left-strong._
 
 Given a monad $T$ on [[Set]], the assignment 
 $$
@@ -320,7 +318,7 @@ For example, for the [[list monad]], the map is given by
 (f,{[x_1,\dots,x_n]}) \ar[mapsto]{r} & {[f(x_1),\dots,f(x_n)]} .
 \end{tikzcd}
 
-The strength obtained this way is the usual strength of the list monad,
+The strength obtained this way is the usual left-strength of the list monad,
 \begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
 X \times T Y \ar{r}{\eta\times \mathrm{id}} & \mathrm{Hom}(Y,X\times Y) \times T Y \ar{r}{t'} & T(X\times Y) \\
 (x,{[y_1,\dots,y_n]}) \ar[mapsto]{r} & \big( y\mapsto (x,y) , {[y_1,\dots,y_n]}\big) \ar[mapsto]{r} & {[(x,y_1),\dots,(x,y_n)]}.
@@ -328,7 +326,7 @@ X \times T Y \ar{r}{\eta\times \mathrm{id}} & \mathrm{Hom}(Y,X\times Y) \times T
 (Compare with the [example above](#examples).)
 
 
-### Costrength and pointwise structure
+### Right-strength and pointwise structure
 
 The reference for this part can be found in [Kock '71, Section 1](#kock71). 
 
@@ -364,15 +362,15 @@ T{[{[X,Y]}, {[X,Z]}]} \ar{r}{s'} & {[{[X,Y]}, T{[X,Z]}]} \ar{r}{{[\mathrm{id}, s
 \end{tikzcd}
 
 
-#### Equivalence with the notion of costrength
+#### Equivalence with the notion of right-strength
 
 Suppose now that $C$ is a [[monoidal closed category]]. In this case, a pointwise structure and a costrength coincide. Let's see how.
-Given a costrength $s:T X\otimes Y \to T(X\otimes Y)$ we can obtain a pointwise structure as follows,
+Given a right-strength $s:T X\otimes Y \to T(X\otimes Y)$ we can obtain a pointwise structure as follows,
 \begin{tikzcd}[nodes={scale=1.25}, column sep=large]
 T{[X,Y]} \ar{r}{\eta} & {[X,T{[X,Y]}\otimes X]} \ar{r}{{[X,s]}} & {[X,T({[X,Y]}\otimes X)]} \ar{r}{{[X,T\epsilon]}} & {[X,TY]} .
 \end{tikzcd}
 
-Conversely, given a pointwise structure $s':T[X,Y]\to [X,TY]$ we can obtain a costrength as
+Conversely, given a pointwise structure $s':T[X,Y]\to [X,TY]$ we can obtain a right-strength as
 \begin{tikzcd}[nodes={scale=1.25}, column sep=large]
 TX \otimes Y \ar{r}{\eta\otimes Y} & T{[Y,X\otimes Y]} \otimes Y \ar{r}{s'\otimes Y} & {[Y,T(X\otimes Y)]} \otimes Y \ar{r}{\epsilon} & T(X\otimes Y ) .
 \end{tikzcd}
@@ -399,7 +397,7 @@ The diagrams above assure us that
 
 #### Example in Set
 
-Consider the [[list monad]] on [[Set]]. The usual costrength gives the following pointwise structure:
+Consider the [[list monad]] on [[Set]]. The usual right-strength gives the following pointwise structure:
 \begin{tikzcd}[row sep=0, column sep=small, nodes={scale=1.25}]
 L{[X,Y]} \ar{r}{\eta} & {[X,L{[X,Y]}\times X]} \ar{r}{{[X,s]}} & {[X,L({[X,Y]}\times X)]} \ar{r}{{[X,L\epsilon]}} & {[X,LY]} \\
 {[f,g,h]} \ar[mapsto]{r} & \big( x\mapsto ({[f,g,h]},x) \big) \ar[mapsto]{r} & \big( x\mapsto {[(f,x), (g,x), (h,x)]}\big) \ar[mapsto]{r} & \big( x\mapsto {[f(x),g(x),h(x)]} \big) 
@@ -448,26 +446,26 @@ Such a structure is the same thing as a strong monad. One way to see this is to 
 
 \[\eta_{X\otimes Y}*_{X,T(Y)} id_{T(Y)}:X\otimes T(Y)\to T(X\otimes Y)\] 
 
-is a strength map. 
+is a left-strength map. 
 
 
 
-## Uniqueness of strength with enough points
+## Uniqueness of left-strength with enough points
 
 +-- {: .num_theorem}
 ###### Theorem
 **(Moggi)** 
 
-Let $C$ be a category with finite products and let $T$ be a strong monad on $C$. 
+Let $C$ be a category with finite products and let $T$ be a left-strong monad on $C$. 
 For any points $x:1\to X$, $y:1\to T(Y)$, we have
 \[
 t\circ(x,y)\ = \ 
 T((x\circ !_Y),id_Y)\circ y\ : 1 \to T(X\times Y)
 \]
-Hence if $1$ is a [[generator]], i.e. $C(1,-):C\to Set$ is faithful, then there is at most one strength for any ordinary monad on $C$. 
+Hence if $1$ is a [[generator]], i.e. $C(1,-):C\to Set$ is faithful, then there is at most one left-strength for any ordinary monad on $C$. 
 =--
 
-In other words, a monad being strong is a [[property-like structure]] in a category with enough points. 
+In other words, a monad being left-strong is a [[property-like structure]] in a category with enough points. 
 
 
 ## Related concepts
@@ -518,6 +516,10 @@ More in-text references:
 
 [[!redirects strong monads]]
 [[!redirects strength of a monad]]
+[[!redirects left-strong monad]]
+[[!redirects right-strong monad]]
+[[!redirects left-strong monads]]
+[[!redirects right-strong monads]]
 [[!redirects costrong monad]]
 [[!redirects co-strong monad]]
 [[!redirects costrong monads]]
