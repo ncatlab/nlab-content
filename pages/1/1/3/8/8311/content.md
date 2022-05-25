@@ -219,6 +219,8 @@ For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact i
 
 * [[tensor product of abelian groups]]
 
+* [[tensor product of bimodules]]
+
 * [[tensor product of vector bundles]]
 
 * [[tensor product of algebras]]
