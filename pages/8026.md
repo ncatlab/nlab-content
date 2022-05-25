@@ -3,8 +3,26 @@ An __exercise__ is for the reader to fill in, in private.  The reader may seek h
 
 When a proposition is *called* an exercise, this means at least that the omission of a proof is deliberate (or that its inclusion is accidental), but the author is confident of being able to produce one, given enough patience.
 
+## Related concepts
 
-category: meta
+* [[theory]]
 
-[[!redirects exercise]]
+* [[axiom]]
+
+* [[definition]]
+
+* [[lemma]]
+
+* [[proposition]]
+
+* [[theorem]]
+
+* [[proof]]
+
+* [[conjecture]]
+
+* [[paradox]]
+
+
+
 [[!redirects exercises]]
