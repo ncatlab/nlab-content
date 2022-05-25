@@ -39,4 +39,14 @@ Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally o
 
 
 * [[Jan de Boer]], Juan I. Jottar, _Entanglement Entropy and Higher Spin Holography in $AdS_3$_, JHEP 1404:089, 2014 ([arXiv:1306.4347](https://arxiv.org/abs/1306.4347))
+
+On [[topological crystalline insulators]] and their classification by [[equivariant K-theory]]:
+
+On [[topological crystalline insulators]] and their classification by [[equivariant K-theory]]:
+
+* Jorrit Kruthoff, [[Jan de Boer]], Jasper van Wezel, [[Charles L. Kane]], [[Robert-Jan Slager]], *Topological Classification of Crystalline Insulators through Band Structure Combinatorics*, Phys. Rev. X **7** (2017) 041069 $[$[doi:10.1103/PhysRevX.7.041069](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.041069)$]$
+
+
+
+
 category: people
