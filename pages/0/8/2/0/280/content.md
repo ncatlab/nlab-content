@@ -259,6 +259,7 @@ An action of a set $X$ in itself is also called a __[[binary operation]]__, and 
 
   * [[Borel model structure]]
 
+* [[biaction]]
 
 ## References
 
