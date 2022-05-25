@@ -64,5 +64,6 @@ Second: bimodule objects are not that much good unless you can compose them; for
 
 * [[bimodule]]
 * [[biaction]]
+* [[Bimod]]
 
 [[!redirects bimodule objects]]
