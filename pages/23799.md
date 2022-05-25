@@ -27,11 +27,15 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 
 ## References
 
-### Review
+### Original articles
 
 * [[Liang Fu]], *Topological Crystalline Insulators*, Phys. Rev. Lett. **106** (2011) 106802 ([doi:10.1103/PhysRevLett.106.106802](https://doi.org/10.1103/PhysRevLett.106.106802))
 
+* [[Robert-Jan Slager]], Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
+
 * Jie Shen, Judy J. Cha,  *Topological Crystalline Insulator Nanostructures*, Nanoscale **6** 23 (2014) 14133-14140 $[$[doi:10.1039/c4nr05124f](https://doi.org/10.1039/c4nr05124f)$]$
+
+### Review
 
 * [[Yoichi Ando]] and [[Liang Fu]], *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 $[$[doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501)$]$
 
