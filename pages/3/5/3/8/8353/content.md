@@ -24,18 +24,32 @@ As such definitions are no different from [[proofs]] of [[theorems]] (due [[prop
 
 ## Related concepts
 
-* [[theory]]
+* [[axiom]]
 
-* [[proposition]]/[[type]] ([[propositions as types]]) 
-
-* **definition**/[[proof]]/[[program]] ([[proofs as programs]])
+* [[definition]]
 
   * [[inductive definition]]
 
   * [[coinductive definition]]
 
+* [[theory]]
 
-* [[theorem]], [[axiom]]
+* [[lemma]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]]
+
+* [[conjecture]]
+
+* [[paradox]]
+
+* [[exercise]]
+
+
+
 
 
 [[!redirects definitions]]
