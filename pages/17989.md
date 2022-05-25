@@ -13,6 +13,10 @@ On [[asymptotic safety]]:
 
 * [[Max Niedermaier]], [[Martin Reuter]], _The Asymptotic Safety Scenario in Quantum Gravity_, Living Reviews in Relativity December 2006, 9:5 [doi:10.12942/lrr-2006-5](http://link.springer.com/article/10.12942/lrr-2006-5)
 
+On [[asymptotic safety]] relating to [[AdS/CFT]]:
+
+* {#FR22} Renata Ferrero, [[Martin Reuter]], *AdS/CFT and dS/CFT correspondences emerging from Asymptotic Safety?* $[$[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)$]$
+
 
 ## Related $n$Lab entries
 
