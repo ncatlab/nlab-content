@@ -1,7 +1,21 @@
 
-A [[physical unit]] of [[energy]]
+A [[physical unit]] of [[energy]].
 
- [[MeV]], [[GeV]], [[TeV]]
+
+also:
+
+* $10^{-3} \; eV$ = 1 [[meV]]
+
+* $10^0 \; eV$ = 1 eV
+
+* $10^3 \; eV$ = 1 [[KeV]]
+
+* $10^{6} \; eV = $  1 [[MeV]]
+
+* $10^9 \; eV = $ 1 [[GeV]]
+
+* $10^{12} \; eV = $ 1 [[TeV]]
+
 
 ## References
 
@@ -11,4 +25,6 @@ A [[physical unit]] of [[energy]]
 
 [[!redirects eV]]
 
+[[!redirects meV]]
+[[!redirects KeV]]
 
