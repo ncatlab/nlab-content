@@ -513,6 +513,12 @@ The fully abstract higher categorical concept in terms of [[stabilization|stabil
 [[!redirects module]]
 [[!redirects modules]]
 
+[[!redirects left module]]
+[[!redirects left modules]]
+
+[[!redirects right module]]
+[[!redirects right modules]]
+
 [[!redirects module over a ring]]
 [[!redirects modules over a ring]]
 [[!redirects module over rings]]
