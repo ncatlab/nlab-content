@@ -55,9 +55,11 @@ For the moment see at *[[topological phase of matter]]*.
 ### General
 
 
-Review:
+The term "topological insulator" originates with:
 
 * [[Joel E. Moore]], [[Leon Balents]], *Topological invariants of time-reversal-invariant band structures*, Phys. Rev. B **75** (2007) 121306(R) $[$[doi:10.1103/PhysRevB.75.121306](https://doi.org/10.1103/PhysRevB.75.121306)$]$
+
+Reviews:
 
 * [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 $[$[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)$]$
 
