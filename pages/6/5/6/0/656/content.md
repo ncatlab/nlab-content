@@ -22,6 +22,72 @@ A _bimodule_ is a [[module]] in two compatible ways over two [[algebras]].
 
 ## Definition
 
+### In ring theory/algebra
+
+#### With a left action and a right action
+
+Given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelian group]] $B$ with a [[bilinear function|bilinear]] [[left action|left $R$-action]] $\alpha_R:R \times B \to B$ and a bilinear [[right action|right $S$-action]] $\alpha_S:B \times S \to B$ such that for all $r \in R$, $b \in B$, and $s \in S$, $\alpha_R(r, \alpha_S(b, s)) = \alpha_S(\alpha_R(r, b), s)$. 
+
+#### With a biaction
+
+Equivalently, given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelian group]] $B$ with a [[multilinear function|trilinear]] [[biaction|$R$-$S$-biaction]], a function $\alpha:R \times B \times S \to B$ such that 
+
+* for all $b \in B$, $\alpha(1_R, b, 1_S) = b$
+
+* for all $b \in B$, $r_1 \in R$, $r_2 \in R$, $s_1 \in S$, $s_2 \in S$, $\alpha(r_1, \alpha(r_2, b, s_1), s_2) = \alpha(r_1 \cdot_R r_2, b, s_1 \cdot_S s_2)$
+
+* for all $r_1 \in R$, $r_2 \in R$, $b \in B$, $s \in S$, $\alpha(r_1 + r_2, b, s) = \alpha(r_1, b, s) + \alpha(r_2, b, s)$
+
+* for all $r \in R$, $b_1 \in B$, $b_2 \in B$, $s \in S$, $\alpha(r, b_1 + b_2, s) = \alpha(r, b_1, s) + \alpha(r, b_2, s)$
+
+* for all $r \in R$, $b \in B$, $s_1 \in S$, $s_2 \in S$, $\alpha(r, b, s_1 + s_2) = \alpha(r, b, s_1) + \alpha(r, b, s_2)$
+
+representing simultaneous left multiplication by scalars $r \in R$ and right multiplication by scalars $s \in S$. 
+
+#### Relation between biactions, left actions, and right actions of a bimodule 
+
+Given a left $R$-action $\alpha_R$ and a right $S$-action $\alpha_S$ of a $R$-$S$-bimodule, the biaction $\alpha$ is defined as 
+
+$$\alpha(r, b, s) \coloneqq \alpha_R(r, \alpha_S(b, s)) = \alpha_S(\alpha_R(r, b), s)$$
+
+The biaction is trilinear because the left $R$-action and right $S$-action are bilinear. 
+
+On the other hand, given an $R$-$S$-biaction $\alpha$ of a $R$-$S$-bimodule, the [[left action|left $R$-action]] is defined from the $R$-$S$-biaction as 
+
+$$\alpha_R(r, b) \coloneqq \alpha(r, b, 1_S)$$
+
+for all $r \in R$ and $b \in B$. It is a left action because 
+
+$$\alpha_R(1_R, b) = \alpha(1_R, b, 1_S) = m$$
+
+$$\alpha_R(r_1, \alpha_L(r_2, b)) = \alpha(r_1, \alpha(r_2, b, 1_S), 1_S) = \alpha(r_1 \cdot_R r_2, b, 1_S \cdot_S 1_S) = \alpha(r_1 \cdot_R r_2, b, 1_S) = \alpha_R(r_1 \cdot_R r_2, b)$$
+
+The [[right action|right $S$-action]] is defined from the $R$-$S$-biaction as 
+
+$$\alpha_S(b, s) \coloneqq \alpha(1_R, b, s)$$
+
+for all $s \in S$ and $b \in B$. It is a right action because 
+
+$$\alpha_S(b, 1_S) = \alpha(1_R, b, 1_S) = m$$
+
+$$\alpha_S(\alpha_S(b, s_1), s_2) = \alpha(1_R, \alpha(1_R, b, s_1), s_2) = \alpha(1_R \cdot_R 1_R, b, s_1 \cdot_S s_2) = \alpha(1_S, b, s_1 \cdot_S s_2) = \alpha_S(b, s_1 \cdot_S s_2)$$
+
+The left $R$-action and right $S$-action satisfy the following identity: 
+
+* for all $b \in B$, $r \in R$ and $s \in S$, $\alpha_R(r, \alpha_S(b, s)) = \alpha_S(\alpha_R(r, b), s)$. 
+
+This is because when expanded out, the identity becomes:
+
+$$\alpha(r, \alpha(1_R, b, s), 1_S) = \alpha(1_R, \alpha(r, b, 1_S), s)$$
+
+$$\alpha(r \cdot_R 1_R, b, s \cdot_S 1_S) = \alpha(1_R \cdot_R r, b, 1_S \cdot_S s)$$
+
+$$\alpha(r, b, s) = \alpha(r, b, s)$$
+
+The left $R$-action and right $S$-action are bilinear because the original biaction is trilinear. 
+
+### In category theory
+
 Let $V$ be a [[closed monoidal category]]. Recall that for $C$ a category [[enriched category|enriched over]] $V$, a $C$-[[module]] is a $V$-functor $\rho : C \to V$. We think of the objects $\rho(a)$ for $a \in Obj(C)$ as the objects on which $C$ acts, and of $\rho(C(a,b))$ as the action of $C$ on these objects.
 
 In this language a $C$-$D$ _bimodule_ for $V$-categories $C$ and $D$ is a $V$-functor
@@ -184,6 +250,8 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 ## Related concepts
 
 * [[Hilbert bimodule]]
+
+* [[biaction]]
 
 * [[amplimorphism]]
 
