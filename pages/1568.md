@@ -40,6 +40,7 @@ Notice that all three kinds of ideal are equivalent for a commutative ring.
 * A left ideal in a ring $R$ may be equivalently defined as an $R$-submodule of $R$, viewing the latter as a left $R$-[[module]]. 
 * A right ideal in a ring $R$ may be equivalently defined as an $R$-submodule of $R$, viewing the latter as a right $R$-[[module]]. 
 * A two-sided ideal in a ring $R$ may be equivalently defined as a sub-bimodule of $R$, viewing the latter as an $R$-[[bimodule]]. 
+* The collection of all two-sided ideals in a ring $R$ form a [[concrete category]], see [[category of two-sided ideals in a ring]]
 * The preceding remarks apply to rigs as well. 
 * Considering the category of rings as a Barr-exact category, there is a natural bijection between [[congruence|congruence relations]] on a ring $R$ (internal to the category of rings) and two-sided ideals of $R$; this associates to each ideal $I$ the relation $\sim_I$ where $x \sim_I y$ means $x - y \in I$. This observation does not apply to the category of rigs. 
 =-- 
