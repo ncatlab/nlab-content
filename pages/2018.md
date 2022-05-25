@@ -110,6 +110,8 @@ $3 \Rightarrow 2$: Follows from the fact that $I$ is injective iff $\operatornam
 
 * [[Noetherian module]]
 
+* [[Noetherian bimodule]]
+
 * [[Noetherian poset]]
 
 * [[Noetherian E-∞ ring]]
