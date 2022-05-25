@@ -70,6 +70,8 @@ There is also a notion of **zero object** in [[algebra]] which does not always c
 
   In particular for $R = k$ a [[field]], the $k$-[[vector space]] of [[dimension]] 0 is the zero object in [[Vect]].
 
+* For $R$ and $S$ [[rings]], the trivial $R$-$S$-[[bimodule]] (that whose underlying abelian group is the [[trivial group]]) is the zero-object in $R$-$S$-[[Bimod]].
+
 * However, the zero [[ring]] is not a zero object in the category of [[ring|rings]], at least as long as rings are required to have units (and ring homomorphisms to preserve them).
 
 * For every category $C$ with a [[terminal object]] $*$ the [[under category]] $pt \downarrow C$ of [[pointed objects]] in $C$ has a zero object: the morphism $Id_{pt}$.
