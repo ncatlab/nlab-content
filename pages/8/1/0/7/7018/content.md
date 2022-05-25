@@ -48,15 +48,31 @@ A theorem should be contrasted with a [[tautology]]: a proposition that is [[tru
 
 ## Related concepts
 
+* [[axiom]]
+
+* [[definition]]
+
+  * [[inductive definition]]
+
+  * [[coinductive definition]]
+
 * [[theory]]
+
+* [[lemma]]
 
 * [[proposition]]/[[type]] ([[propositions as types]]) 
 
-* [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
+* [[proof]]/[[program]] ([[proofs as programs]])
 
-* **theorem**, [[axiom]]
+* [[theorem]]
 
-* [[folklore]], [[conjecture]]
+* [[folklore]]
+
+* [[conjecture]]
+
+* [[paradox]]
+
+* [[exercise]]
 
 
 ## References
