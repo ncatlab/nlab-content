@@ -21,6 +21,8 @@ In [[topological quantum computation]] on [[anyons]], braid representations serv
 
 ## Related concepts
 
+* [[braid group statistics]]
+
 * [[Knizhnik-Zamolodchikov equation]]
 
 
