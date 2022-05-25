@@ -20,6 +20,8 @@
 
 There are multiple definitions of a Bézout ring:
 
+### In commutative rings ###
+
 \begin{definition}
 A [[commutative ring]] $R$ is a **Bézout ring** if for every element $a \in R$ and $b \in R$, there exists elements $x \in R$, $y \in R$ called **Bézout coefficients** and $g \in R$ called a **common divisor**, such that $a \cdot x + b \cdot y = g$, $g \vert a$ and $g \vert b$.
 \end{definition}
