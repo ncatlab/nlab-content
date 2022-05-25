@@ -94,9 +94,11 @@ Let $R$ and $S$ be [[rings]]. A **$R$-$S$-linear map** or **$R$-$S$-bimodule hom
 
 $$f(r a s) = r f(a) s$$
 
-A linear map $f:A to B$ is [[monic]] or an **$R$-$S$-bimodule monomorphism** if for every other $R$-$S$-bimodule $C$ and $R$-$S$-linear maps $h:C \to A$ and $k:C \to A$, $f \circ h = f \circ k$ implies that $h = k$. 
+A $R$-$S$-linear map $f:A \to B$ is [[monic]] or an **$R$-$S$-bimodule monomorphism** if for every other $R$-$S$-bimodule $C$ and $R$-$S$-linear maps $h:C \to A$ and $k:C \to A$, $f \circ h = f \circ k$ implies that $h = k$. 
 
 A **sub-$R$-$S$-bimodule** of a $R$-$S$-bimodule $B$ is a $R$-$S$-bimodule $A$ with a [[monic]] linear map $i:A \hookrightarrow B$. 
+
+A $R$-$S$-linear map $f:A \to B$ is [[invertible]] or an **$R$-$S$-bimodule isomorphism** if there exists a $R$-$S$-linear map $g:B \to A$ such that $g \circ f = id_A$ and $f \circ g = id_B$, where $id_A$ and $id_B$ are the identity linear maps on $A$ and $B$ respectively. 
 
 ### Tensor product of bimodules
 
@@ -248,7 +250,7 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 
 * [[two-sided ideal]]
 
-* [[category of two-sided ideals of a ring]]
+* [[category of two-sided ideals in a ring]]
 
 * [[biaction]]
 
@@ -276,10 +278,13 @@ Bimodules in [[homotopy theory]]/[[higher algebra]] are discussed in section 4.3
 For more on that see at _[[(∞,1)-bimodule]]_.
 
 [[!redirects bimodules]]
+
 [[!redirects bimodule homomorphism]]
 [[!redirects bimodule homomorphisms]]
 [[!redirects bimodule monomorphism]]
 [[!redirects bimodule monomorphisms]]
+[[!redirects bimodule isomorphism]]
+[[!redirects bimodule isomorphisms]]
 
 [[!redirects tensor product of bimodules]]
 [[!redirects tensor products of bimodules]]
