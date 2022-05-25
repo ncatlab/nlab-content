@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _$Pin$-group_ is a [[simply connected]] [[covering|cover]] of an [[orthogonal group]]. Its restriction along the inclusion of the [[special orthogonal group]] is a [[Spin group]]. Hence a $Pin$-group is "like the corresponding Spin group, but including [[reflections]]".
+A _$Pin$-group_ is a double [[covering|cover]] of an [[orthogonal group]]. Its restriction along the inclusion of the [[special orthogonal group]] is a [[Spin group]]. Hence a $Pin$-group is "like the corresponding Spin group, but including [[reflections]]".
 
 ## Definition
 
