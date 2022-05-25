@@ -108,6 +108,12 @@ A thesis reviewing some aspects is
 
 * Nicholas Houston, _Supergravity and Generalized Geometry_ Thesis (2010) ([pdf](https://workspace.imperial.ac.uk/theoreticalphysics/Public/MSc/Dissertations/2010/Nicholas%20Houston%20Dissertation.pdf))
 
+### Higher curvature corrections
+
+On [[higher curvature corrections]]:
+
+* [[James Liu]], [[Ruben Minasian]], Raffaele Savelli, Andreas Schachner, *Type IIB at eight derivatives: insights from Superstrings, Superfields and Superparticles* $[$[arXiv:2205.11530](https://arxiv.org/abs/2205.11530)$]$
+
 
 ### Via double field theory
 
