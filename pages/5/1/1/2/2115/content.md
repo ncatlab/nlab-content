@@ -42,7 +42,7 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 
 ## References
 
-* [[Michael Atiyah]], I. G. Macdonald, _Introduction to commutative algebra_, 1969, 1994
+* [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_, (1969, 1994) $[$[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)$]$
 
 * H. Matsumura, _Commutative algebra_, 2 vols.; see also the online summary notes by D. Murfet, [Matsumura.pdf](http://therisingsea.org/notes/Matsumura.pdf), [Matsumura-Part2.pdf](http://therisingsea.org/notes/Matsumura-Part2.pdf)
 
