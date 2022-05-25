@@ -262,17 +262,28 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 
 * Andreas Bauer, [[Jens Eisert]], Carolin Wille, _Towards a mathematical formalism for classifying phases of matter_ ([arXiv:1903.05413](https://arxiv.org/abs/1903.05413))
 
+### Interacting topological phases
+
+* *Strongly Interacting Topological Phases* (2015) $[$[pdf](https://www.birs.ca/workshops/2015/15w5051/report15w5051.pdf)$]$
 
 ### Other articles
 
 * N. Read, Subir Sachdev, _Large-N expansion for frustrated quantum antiferromagnets_, Phys. Rev. Lett. 66 1773 (1991)
+
 * [[Xiao-Gang Wen]], _Mean Field Theory of Spin Liquid States with Finite Energy Gap and Topological orders_, Phys. Rev. B 44 2664 (1991).
+
 * Alexei Yu. Kitaev, _Fault-tolerant quantum computation by anyons_, Annals of Physics __303__:1, January 2003; _Anyons in an exactly solved model and beyond_, Annals of Physics __321__:1, January 2006
+
 * A. Kitaev, C. Laumann, _Topological phases and quantum computation_, [arXiv/0904.2771](http://arxiv.org/abs/0904.2771)
+
 * Alexei Kitaev, John Preskill, _Topological entanglement entropy_, Phys. Rev. Lett. __96__, 110404 (2006)
+
 * M. Levin, X-G. Wen, _Detecting topological order in a ground state wave function_, Phys. Rev. Letts.,96(11), 110405, (2006)
+
 * Jan Carl Budich, Bj&#246;rn Trauzettel, _From the adiabatic theorem of quantum mechanics to topological states of matter_, physica status solidi (RRL) 7, 109 (2013) [arXiv:1210.6672](http://arxiv.org/abs/1210.6672)
+
 * [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, Modern Physics Letters __A29__:13 (2014) [arxiv/1306.5570](http://arxiv.org/abs/1306.5570) [doi](http://dx.doi.org/10.1142/S0217732314500643)
+
 * Yosuke Kubota, _Controlled topological phases and bulk-edge correspondence_, [arxiv/1511.05314](http://arxiv.org/abs/1511.05314)
  
 
