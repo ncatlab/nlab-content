@@ -1,7 +1,7 @@
 
-Odysseus is nobody.  (Or so he said.)
+## References
 
-Really, Odysseus is a spammer pretending to be a regular user, so maybe not nobody in the literal sense.  But not one of us!
+See also
 
+* Wikipedia, *[Odysseus](https://en.wikipedia.org/wiki/Odysseus)*
 
-category: meta
