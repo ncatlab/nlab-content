@@ -19,15 +19,34 @@ A Noetherian (or often, as below, noetherian) [[ring]] (or [[rng]]) is one where
 
 ## Definition
 
-(In this section, "ring" means [[rng]], where the presence of a multiplicative identity is not assumed unless we say "unital ring".) 
+### Noetherian rings
 
-A (left) __noetherian ring__ $R$ is a [[ring]] for which every ascending chain of its (left) [[ideals]] stabilizes. In other words, it is noetherian if its underlying $R$-module ${}_R R$ is a noetherian object in the category $R Mod$ of left $R$-modules (recall that a left ideal is simply a submodule of ${}_R R$). Similarly for right noetherian rings. Left noetherianness is independent of right noetherianness. A ring is noetherian if it is both left noetherian and right noetherian. 
+Every [[ring]] $R$ has a canonical $R$-$R$-[[bimodule]] structure, with [[left action]] $\alpha_L:R \times R \to R$ and [[right action]] $\alpha_R:R \times R \to R$ defined as the multiplicative binary operation on $R$ and [[biaction]] $\alpha:R \times R \times R \to R$ defined as the ternary product on $R$:
+$$\alpha_L(a, b) \coloneqq a \cdot b$$
+$$\alpha_R(a, b) \coloneqq a \cdot b$$
+$$\alpha(a, b, c) \coloneqq a \cdot b \cdot c$$
 
-An equivalent condition is that all (left) ideals are finitely generated. 
+Let $\mathrm{TwoSidedIdeals}(R)$ be the [[category of two-sided ideals]] in $R$, whose objects are [[two-sided ideals]] $I$ in $R$, [[subbimodules|sub-$R$-$R$-bimodules]] of $R$ with respect to the canonical bimodule structure on $R$, and whose [[morphisms]] are $R$-$R$-[[bimodule monomorphisms]]. 
 
-A dual condition is artinian: an __[[artinian ring]]__ is a ring satisfying the descending chain condition on ideals. The symmetry is severely broken if one considers unital rings: for example every unital artinian ring is noetherian; artinian rings are intuitively much smaller than generic noetherian rings.
+An ascending chain of two-sided ideals in $R$ is a [[direct sequence]] of two-sided ideals in $R$, a [[sequence]] of two-sided ideals $A:\mathbb{N} \to \mathrm{TwoSidedIdeals}(R)$ with the following [[dependent type|dependent sequence]] of $R$-$R$-bimodule monomorphisms: for natural number $n \in \mathbb{N}$, a dependent $R$-$R$-bimodule monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
 
-Spectra of noetherian rings are glued together to define [[noetherian scheme|locally noetherian schemes]]. 
+A [[ring]] $R$ is **Noetherian** if it satisfies the [[ascending chain condition]] on its two-sided ideals: for every ascending chain of two-sided ideals $(A, i_n)$ in $R$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the $R$-$R$-bimodule monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$ is an $R$-$R$-[[bimodule isomorphism]]. 
+
+### Left Noetherian rings
+
+Let $\mathrm{LeftIdeals}(R)$ be the category of [[left ideals]] in $R$, whose objects are [[left ideals]] $I$ in $R$, sub-left-$R$-modules of $R$ with respect to the canonical [[left module]] structure $(-)\cdot(-):R \times R \to R$ on $R$, and whose [[morphisms]] are left $R$-module monomorphisms. 
+
+An ascending chain of left ideals in $R$ is a [[direct sequence]] of left ideals in $R$, a [[sequence]] of left ideals $A:\mathbb{N} \to \mathrm{LeftIdeals}(R)$ with the following [[dependent type|dependent sequence]] of left $R$-module monomorphisms: for natural number $n \in \mathbb{N}$, a dependent left $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
+
+A [[ring]] $R$ is **left Noetherian** if it satisfies the [[ascending chain condition]] on its left ideals: for every ascending chain of left ideals $(A, i_n)$ in $R$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the left $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$ is an left $R$-module isomorphism. 
+
+### Right Noetherian rings
+
+Let $\mathrm{RightIdeals}(R)$ be the category of [[right ideals]] in $R$, whose objects are [[right ideals]] $I$ in $R$, sub-right-$R$-modules of $R$ with respect to the canonical [[right module]] structure $(-)\cdot(-):R \times R \to R$ on $R$, and whose [[morphisms]] are right $R$-module monomorphisms. 
+
+An ascending chain of right ideals in $R$ is a [[direct sequence]] of right ideals in $R$, a [[sequence]] of right ideals $A:\mathbb{N} \to \mathrm{RightIdeals}(R)$ with the following [[dependent type|dependent sequence]] of right $R$-module monomorphisms: for natural number $n \in \mathbb{N}$, a dependent right $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$. 
+
+A [[ring]] $R$ is **right Noetherian** if it satisfies the [[ascending chain condition]] on its right ideals: for every ascending chain of right ideals $(A, i_n)$ in $R$, there exists a natural number $m \in \mathbb{N}$ such that for all natural numbers $n \geq m$, the right $R$-module monomorphism $i_n:A_{n} \hookrightarrow A_{n+1}$ is an right $R$-module isomorphism. 
 
 ## Examples
 
@@ -62,6 +81,8 @@ over R in a [[finite number]] $n$ of [[coordinates]] are Noetherian.
 =--
 
 ## Properties 
+
+Spectra of noetherian rings are glued together to define [[noetherian scheme|locally noetherian schemes]]. 
 
 ### General
 
@@ -106,6 +127,11 @@ $2 \Rightarrow 3$: $\operatorname{Ext}^k_R(A, \bigoplus_\alpha X_\alpha)$ can be
 
 $3 \Rightarrow 2$: Follows from the fact that $I$ is injective iff $\operatorname{Ext}^1_R(R / \mathfrak{i}, I) = 0$ for any ideal $\mathfrak{i}$.
 =--
+
+## Noetherian and Artinian rings
+
+A dual condition is artinian: an __[[artinian ring]]__ is a ring satisfying the descending chain condition on ideals. The symmetry is severely broken if one considers unital rings: for example every unital artinian ring is noetherian; artinian rings are intuitively much smaller than generic noetherian rings.
+
 ## Related concepts
 
 * [[Noetherian module]]
