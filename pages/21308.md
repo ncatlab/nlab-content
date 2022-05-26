@@ -27,6 +27,8 @@
 
 * [[solid module]]
 * [[liquid module]]
+* [[nuclear module]]
+* [[trace-class map]]
 * [[analytic geometry]]
 * [[analytic ring]]
 
