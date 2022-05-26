@@ -44,6 +44,10 @@ As such definitions are no different from [[proofs]] of [[theorems]] (due [[prop
 
 * [[conjecture]]
 
+* [[folklore]]
+
+* [[analogy]]
+
 * [[paradox]]
 
 * [[exercise]]
