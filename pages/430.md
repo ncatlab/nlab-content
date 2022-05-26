@@ -74,6 +74,11 @@ Counterexamples were remarked above, but to be explicit: The (located Dedekind) 
 
 The three definitions above do not exhaust the possible constructive notions of field.  For instance, in [MRR87](#MRR87) the unadorned word **field** is defined like a Heyting field above, but with $\#$ being an arbitrary [[inequality relation]] rather than a tight apartness.  If the inequality is the [[denial inequality]], this reproduces the original classical definition, which in [Johnstone77](#Johnstone77) is called a **field of fractions** since they are precisely the fields of fractions of "weak [[integral domains]]" (defined as rings in which the product of two nonzero elements is nonzero).  In [MRR87](#MRR87) a **denial field** is defined to be a Heyting field with respect to the [[denial inequality]] in which additionally $(0)$ is a [[prime ideal]].
 
+### The trivial ring as a field
+
+In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of discrete field and Heyting field do not include the non-equational axiom $1 \neq 0$ or $1 \# 0$ respectively, which means that the [[trivial ring]] is a discrete field and a Heyting field. 
+
+In particular, this means that the [[category|categories]] of discrete and Heyting fields have a [[terminal object|terminal field]], which is the [[trivial ring]]. 
 
 ## Properties
 
@@ -178,6 +183,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
  
 * [[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the theory of fields_ ([arXiv:0808.1972](http://arxiv.org/abs/0808.1972))
 
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 [[!redirects field]]
 [[!redirects fields]]
