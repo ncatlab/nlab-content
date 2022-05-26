@@ -57,6 +57,18 @@ Notice that the Reeb sphere theorem does _not_ speak of [[diffeomorphism]] to an
 
 ## References
 
+Due to:
+
+* [[Georges Reeb]], *Sur les points singuliers d'une forme de Pfaff completement integrable ou d'une fonction numerique*, Comptes Rendus Acad. Sciences Paris **222** (1946) 847-849 $[$[crid:1571417125676878592](https://cir.nii.ac.jp/crid/1571417125676878592)$]$
+
+
+Review:
+
 * [[John Milnor]], theorem 4.1 in _Morse theory_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/milnmors.pdf))
 
 * {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([web](https://archive.org/details/LecturesOnModernMathematicsIi), [pdf](https://ia801700.us.archive.org/6/items/LecturesOnModernMathematicsIi/Saaty-LecturesOnModernMathematicsIi.pdf)) 
+
+See also 
+
+* Wikipedia, *[Reeb sphere theorem](https://en.wikipedia.org/wiki/Reeb_sphere_theorem)*
+
