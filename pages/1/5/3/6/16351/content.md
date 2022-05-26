@@ -18,7 +18,7 @@
 
 +-- {: .num_theorem #Embedding}
 ###### Theorem
-**(Milnor's exercise)**
+**("[[John Milnor|Milnor]]'s [[exercise]]")**
 
 
 The [[functor]]
