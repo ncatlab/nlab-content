@@ -33,6 +33,10 @@ Here are a few equivalent ways to phrase the combined condition:
 
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field, the __[[residue field]]__ of the local ring.  (This quotient can also be taken constructively, where one anti-mods out by the [[minimal anti-ideal]] of invertible elements.)
 
+### The trivial ring as a local ring
+
+In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of local ring do not include the non-equational axiom $1 \neq 0$, which means that the [[trivial ring]] is a local ring. 
+
 ## Examples
 
 * For $R$ a local ring, then the [[power series ring]] $R[ [x] ]$ is also a local ring.
@@ -139,6 +143,7 @@ A *local homomorphism* between local rings is an internal ring homomorphism betw
 Possible to-dos: say something about $m$-adic topology, completion, Zariski topos as classifying topos... 
 
 
+
 ## Related concepts
 
 * [[localization of a commutative ring]]
@@ -156,6 +161,8 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 
 * {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) pp 238-260. doi:[10.1016/0021-8693(77)90284-8](https://doi.org/10.1016/0021-8693%2877%2990284-8)
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 
 [[!redirects local ring]]
