@@ -1,9 +1,15 @@
 
+
+
+Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems and [[topological phases of matter]].
+
 * [Perimeter Institute page](http://www.perimeterinstitute.ca/people/xiao-gang-wen) 
 
 * [personal page](http://dao.mit.edu/~wen) at MIT
 
-Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems.
+Interview on [[topological order]]:
+
+* [[Philip Ball]], *Making the world from topological order*, National Science Review **6** 2 (2019) 227–230 $[$[doi:10.1093/nsr/nwy116](https://doi.org/10.1093/nsr/nwy116)$]$
 
 ## Selected writings
 
@@ -92,7 +98,7 @@ Phys. Rev. Lett. 66, 802 (1991).
 
 * [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B 82, 155138 (2010)
 
-* Juven Wang, Zheng-Cheng Gu, [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, [arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [Phys. Rev. Lett. 114, 031601 (2015)](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)
+* Juven Wang, [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, [arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [Phys. Rev. Lett. 114, 031601 (2015)](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)
 
 * [[Liang Kong]], Tian Lan, [[Xiao-Gang Wen]], Zhi-Hao Zhang, Hao Zheng, _Algebraic higher symmetry and categorical symmetry -- a holographic and entanglement view of symmetry_ ([arXiv:2005.14178](https://arxiv.org/abs/2005.14178))
 
