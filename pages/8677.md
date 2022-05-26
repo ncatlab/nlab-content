@@ -39,6 +39,14 @@ Evidently, this conflicts with more-categorial uses of "localized"; "inverting w
 
 ## Definition
 
+### Left localizations
+
+Let $R$ be a [[ring]] and $(S, 1, \cdot)$ be a multiplicative [[submonoid]] of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:S \hookrightarrow R$. The **left localization** of $R$ at $S$ is defined as the [[initial object|initial]] left $R$-[[associative unital algebra|algebra]] $S^{-1} R$ with canonical ring homomorphism $h:R \to S^{-1} R$ and monoid monomorphism $j:S \hookrightarrow S^{-1} R$ such that for all $s \in S$, $j(s) \circ h(i(s)) = 1$: for every other left $R$-[[associative unital algebra|algebra]] $A$ with canonical ring homomorphism $k:R \to A$ and monoid monomorphism $l:S \hookrightarrow A$ such that for all $s \in S$, $l(s) \cdot k(i(s)) = 1$, there is a unique ring homomorphism $g:S^{-1} R \to A$. 
+
+### Right localizations
+
+Let $R$ be a [[ring]] and $(S, 1, \cdot)$ be a multiplicative [[submonoid]] of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:S \hookrightarrow R$. The **right localization** of $R$ at $S$ is defined as the [[initial object|initial]] right $R$-[[associative unital algebra|algebra]] $R S^{-1}$ with canonical ring homomorphism $h:R \to R S^{-1}$ and monoid monomorphism $j:S \hookrightarrow S^{-1} R$ such that for all $s \in S$, $h(i(s)) \circ j(s) = 1$: for every other right $R$-[[associative unital algebra|algebra]] $A$ with canonical ring homomorphism $k:R \to A$ and monoid monomorphism $l:S \hookrightarrow A$ such that for all $s \in S$, $k(i(s)) \cdot l(s) = 1$, there is a unique ring homomorphism $g:S^{-1} R \to A$. 
+
 ### For commutative rings
 
 +-- {: .num_defn }
@@ -72,10 +80,6 @@ $$
 =--
 
 (e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
-
-### In general
-
-In the general case, the inverses have to be two-sided inverses. 
 
 ### For $E_k$-rings
 
@@ -112,7 +116,6 @@ Localization away from a suitably tame ideal may be understood as the [[dR-shape
 
 * [[completion of a ring]]
 
-
 ## References
 
 A classical account of [[localization of commutative rings]] is in section 1 of
@@ -120,6 +123,9 @@ A classical account of [[localization of commutative rings]] is in section 1 of
 * {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
 by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
 
+A constructive account of localization of rings is in chapter 2 section 2 of 
+
+* [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 Further reviews include
 
@@ -135,3 +141,28 @@ Discussion of the general concept in [[noncommutative geometry]] is in
 
 [[!redirects localization of rings]]
 [[!redirects localizations of rings]]
+
+[[!redirects localisation of a ring]]
+[[!redirects localisations of a ring]]
+[[!redirects localisation of rings]]
+[[!redirects localisations of rings]]
+
+[[!redirects left localization of a ring]]
+[[!redirects left localizations of a ring]]
+[[!redirects left localization of rings]]
+[[!redirects left localizations of rings]]
+
+[[!redirects left localisation of a ring]]
+[[!redirects left localisations of a ring]]
+[[!redirects left localisation of rings]]
+[[!redirects left localisations of rings]]
+
+[[!redirects right localization of a ring]]
+[[!redirects right localizations of a ring]]
+[[!redirects right localization of rings]]
+[[!redirects right localizations of rings]]
+
+[[!redirects right localisation of a ring]]
+[[!redirects right localisations of a ring]]
+[[!redirects right localisation of rings]]
+[[!redirects right localisations of rings]]
