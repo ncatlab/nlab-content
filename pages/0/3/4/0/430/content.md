@@ -137,7 +137,7 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 ## Related concepts
 
-* [[inverse ring]]
+* [[prefield]]
 
 * [[reciprocal ring]]
 
