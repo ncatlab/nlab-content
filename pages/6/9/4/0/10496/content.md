@@ -130,7 +130,13 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 
 ### Reviews
 
-* Wikipedia: [topological order](http://en.wikipedia.org/wiki/Topological_order)
+Textbook account:
+
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Part III of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+
+Further review:
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman|M. Freedman]], [[Sankar Das Sarma]], _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083)
 
@@ -140,7 +146,11 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 
 * [[Philip Ball]], *Making the world from topological order*, National Science Review **6** 2 (2019) 227–230 $[$[doi:10.1093/nsr/nwy116](https://doi.org/10.1093/nsr/nwy116)$]$
 
-  > (interview with [[Xiao-Gang Wen]])
+  > (an interview with [[Xiao-Gang Wen]])
+
+See also:
+
+* Wikipedia: [topological order](http://en.wikipedia.org/wiki/Topological_order)
 
 ### Early discovery articles
 
