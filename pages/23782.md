@@ -63,5 +63,5 @@ Further discussion:
 * Tsung-Cheng Lu, Sagar Vijay, *Characterizing Long-Range Entanglement in a Mixed State Through an Emergent Order on the Entangling Surface* $[$[arXiv:2201.07792](https://arxiv.org/abs/2201.07792)$]$
 
 
-
+[[!redirects short range entanglement]]
 
