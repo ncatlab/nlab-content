@@ -50,6 +50,10 @@ Review and exposition:
 
 * [[Jacob Biamonte]], Ville Bergholm, Section 5 of: _Tensor Networks in a Nutshell_, Contemporary Physics ([arxiv:1708.00006](https://arxiv.org/abs/1708.00006))
 
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Sec. 8 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+
 * {#Biamonte19} [[Jacob Biamonte]], Chapter II of: _Lectures on Quantum Tensor Networks_ ([arXiv:1912.10049](https://arxiv.org/abs/1912.10049))
 
 * Shi-Ju Ran, Emanuele Tirrito, Cheng Peng, Xi Chen, Luca Tagliacozzo, Gang Su, Maciej Lewenstein, Section 2.3.2 of: _Tensor Network Contractions_, Lecture Notes in Physics, Springer (2020) ([arXiv:1708.09213](https://arxiv.org/abs/1708.09213), [doi:10.1007/978-3-030-34489-4](https://link.springer.com/book/10.1007/978-3-030-34489-4))
