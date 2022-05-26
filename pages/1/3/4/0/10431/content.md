@@ -77,7 +77,11 @@ Reviews:
 
 *  [[Marcel Franz]], [[Laurens Molenkamp]] (eds.), *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) $[$[ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)$]$
 
-* Michel Fruchart, David Carpentier, *An introduction to topological insulators*, Comptes Rendus Physique Volume 14, Issues 9–10, November–December 2013, Pages 779-815 ([doi:10.1016/j.crhy.2013.09.013](https://doi.org/10.1016/j.crhy.2013.09.013))
+* Michel Fruchart, David Carpentier, *An introduction to topological insulators*, Comptes Rendus Physique **14** 9–10, (2013) 779-815 ([doi:10.1016/j.crhy.2013.09.013](https://doi.org/10.1016/j.crhy.2013.09.013))
+
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
 With focus on the case [[symmetry protected topological phase|protected by]] [[crystallographic group]]-[[symmetry]]:
 
