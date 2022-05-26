@@ -39,13 +39,11 @@ Evidently, this conflicts with more-categorial uses of "localized"; "inverting w
 
 ## Definition
 
-### Left localizations
+### For general rings
 
-Let $R$ be a [[ring]] and $(S, 1, \cdot)$ be a multiplicative [[submonoid]] of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:S \hookrightarrow R$. The **left localization** of $R$ at $S$ is defined as the [[initial object|initial]] left $R$-[[associative unital algebra|algebra]] $S^{-1} R$ with canonical ring homomorphism $h:R \to S^{-1} R$ and monoid monomorphism $j:S \hookrightarrow S^{-1} R$ such that for all $s \in S$, $j(s) \circ h(i(s)) = 1$: for every other left $R$-[[associative unital algebra|algebra]] $A$ with canonical ring homomorphism $k:R \to A$ and monoid monomorphism $l:S \hookrightarrow A$ such that for all $s \in S$, $l(s) \cdot k(i(s)) = 1$, there is a unique ring homomorphism $g:S^{-1} R \to A$. 
+Let $R$ be a [[ring]] and $(S, 1, \cdot)$ be a multiplicative [[submonoid]] of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:S \hookrightarrow R$. The **localization** of $R$ at $S$ is defined as the [[initial object|initial]] ring $S^{-1} R$ with a ring homomorphism $h:R \to S^{-1} R$ and monoid monomorphism $j:S \hookrightarrow S^{-1} R$ such that for all $s \in S$, $j(s) \cdot h(i(s)) = 1$ and $h(i(s)) \cdot j(s) = 1$: for every other ring $A$ with a ring homomorphism $k:R \to A$ and monoid monomorphism $l:S \hookrightarrow A$ such that for all $s \in S$, $l(s) \cdot k(i(s)) = 1$ and $k(i(s)) \cdot l(s) = 1$, there is a unique ring homomorphism $g:S^{-1} R \to A$. 
 
-### Right localizations
-
-Let $R$ be a [[ring]] and $(S, 1, \cdot)$ be a multiplicative [[submonoid]] of $(R, 1, \cdot)$ with [[monoid]] [[monomorphism]] $i:S \hookrightarrow R$. The **right localization** of $R$ at $S$ is defined as the [[initial object|initial]] right $R$-[[associative unital algebra|algebra]] $R S^{-1}$ with canonical ring homomorphism $h:R \to R S^{-1}$ and monoid monomorphism $j:S \hookrightarrow S^{-1} R$ such that for all $s \in S$, $h(i(s)) \circ j(s) = 1$: for every other right $R$-[[associative unital algebra|algebra]] $A$ with canonical ring homomorphism $k:R \to A$ and monoid monomorphism $l:S \hookrightarrow A$ such that for all $s \in S$, $k(i(s)) \cdot l(s) = 1$, there is a unique ring homomorphism $g:S^{-1} R \to A$. 
+The localization of a ring at a multiplicative submonoid $S$ which contains $0$ is the [[trivial ring]]. 
 
 ### For commutative rings
 
