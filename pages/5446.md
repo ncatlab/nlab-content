@@ -34,6 +34,8 @@ An __antiautomorphism__ is an antihomomorphism whose underlying $C$-morphism is 
 
 ## Examples
 
+* The [[inverse function]] of a [[group]] is a [[monoid]] anti-homomorphism, and in fact an anti-automorphism, hence an [[anti-involution]], since $(x y) (x y)^{-1} = 1 = x x^{-1} = x y y^{-1} x^{-1}$, which means that $(x y)^{-1} = y^{-1} x^{-1}$. 
+
 * The [[antipode]] in a [[Hopf algebra]] is an anti-homomorphism (by [this Prop.](Hopf+algebra#AntipodeIsAnAntihomomorphism)). The same is separately required for antipodes on associative [[bialgebroid]]s.
 
 * In a [[star-algebra]] the star-operation is an anti-homomorphism, in fact an anti-automorphism, hence an anti-[[involution]].
