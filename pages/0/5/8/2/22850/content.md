@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 
 * table of contents
@@ -24,12 +36,17 @@ Dually, a bicategory admitting all *left* extensions and lifts is called a **coc
 
 ## Related entries
 
-- [[symmetric bicategory]]
-- An [[closed category|extension system]] is to a closed bicategory what a [[closed category]] is to a [[monoidal category]].
+* [[symmetric bicategory]]
+
+* An [[closed category|extension system]] is to a closed bicategory what a [[closed category]] is to a [[monoidal category]].
+
+* [[locally internal category]]
 
 ## References
 
 * {#Day74} [[Brian Day]], _Limit spaces and closed span categories_,  Lecture Notes in Mathematics, 420, 1974 ([doi:10.1007/BFb0063100](https://doi.org/10.1007/BFb0063100))
+
+* {#BettiWalters1985} [[Renato Betti]], [[Robert F. C. Walters]], *Closed bicategories and variable category theory*, Universita degli Studi di Milano (1985), reprinted in: Reprints in Theory and Applications of Categories, **26** (2020) 1-27 $[$[tac:tr26](http://www.tac.mta.ca/tac/reprints/articles/26/tr26abs.html)$]$
 
 [[!redirects closed bicategories]]
 [[!redirects coclosed bicategory]]
