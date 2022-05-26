@@ -41,11 +41,12 @@ The definition is traditionally a little vague, but the hallmark of a *topologic
 
 1. degenerate [[ground state]] ([Wen 89, p. 4](#Wen89), [Wen 95, Sec. 1.1](#Wen95)) 
 
-   (reflecting "[[long-range entanglement]]", [Chen, Gu & Wen 10, Sec. 5](#ChenGuWen2010) and *absence* of "[[short-range entanglement]]");
-
 1. [[Berry connection]] with [[non-abelian group|non-abelian]] [[holonomy]];
 
 1. [[anyon]] excitations/defects whose [[wavefunctions]] constitute [[braid group representations]].
+
+The first point is related to *absence* of "[[short-range entanglement]]");
+and the last point to "[[long-range entanglement]]" ([Chen, Gu & Wen 10, Sec. 5](#ChenGuWen2010)) witnessed by a non-vanishing *[[topological entanglement entropy]]* of the ground state.
 
 In particular, the original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09).
 
@@ -136,6 +137,10 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 * [[Xiao-Gang Wen]], _An introduction of topological order_ 2009 ([pdf slides](http://dao.mit.edu/~wen/talks/09QHtop.pd), [article](http://dao.mit.edu/~wen/topartS3.pdf))
 
 * Michel Fruchart, David Carpentier, _An Introduction to Topological Insulators_, Comptes Rendus Physique 14 (2013) 779-815 ([arXiv:1310.0255](http://arxiv.org/abs/1310.0255))
+
+* [[Philip Ball]], *Making the world from topological order*, National Science Review **6** 2 (2019) 227–230 $[$[doi:10.1093/nsr/nwy116](https://doi.org/10.1093/nsr/nwy116)$]$
+
+  > (interview with [[Xiao-Gang Wen]])
 
 ### Early discovery articles
 
