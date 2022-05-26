@@ -17,6 +17,11 @@ On [[topological data analysis]]:
 
 * [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
 
+and a flashy exposition for commercial use:
+
+* [[Gunnar Carlsson]], *Professor Gunnar Carlsson Introduces Topological Data Analysis* $[$[video](https://www.ayasdi.com/resources/professor-gunnar-carlsson-introduces-topological-data-analysis/)$]$
+
+
 
 On [[persistent homology]]:
 
