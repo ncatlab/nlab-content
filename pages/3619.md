@@ -119,6 +119,12 @@ Introduction:
 
 * Dagmar Bruss, _Characterizing entanglement_, J. Math. Phys. 43, 4237 (2002) [arXiv:quant-ph/0110078](http://arxiv.org/abs/quant-ph/0110078) [doi](http://dx.doi.org/10.1063/1.1494474)
 
+In a context of [[entanglement entropy]] of [[topological phases of matter]]:
+
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Sec. 1 of of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+
 Exposition of entanglement as a phenomenon of non-[[Cartesian monoidal category|Cartesian]] [[monoidal categories]]:
 
 * {#Baez04} [[John Baez]], _Quantum Quandaries: a Category-Theoretic Perspective_, D. Rickles et al. (ed.) _[The structural foundations of quantum gravity](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)_ 240-265 ([arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040))
