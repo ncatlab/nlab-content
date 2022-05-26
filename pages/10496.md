@@ -190,6 +190,16 @@ Nucl. Phys. B419, 455 (1994).
 
 
 
+
+
+
+[[!include topological entanglement entropy -- references]]
+
+
+
+
+
+
 ### Further resources
 
 **Research groups:**
