@@ -31,6 +31,8 @@ In contrast, *long-range entanglement* in the ground state is supposedly the hal
 
 ## References
 
+### Short-range entanglement
+
 The notion was introduced (only) in a series of talks:
 
 * {#Kitaev11} [[Alexei Kitaev]], *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) $[$[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)$]$
@@ -45,8 +47,17 @@ See also around [footnote 2](https://arxiv.org/pdf/1712.07950.pdf#page=4) of
 
 * {#GJF19} [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Symmetry Protected Topological phases and Generalized Cohomology*, J. High Energ. Phys. **2019** 7 (2019) $[$[arXiv:1712.07950](https://arxiv.org/abs/1712.07950), [doi:10.1007/JHEP05%282019%29007](https://doi.org/10.1007/JHEP05%282019%29007)  $]$
 
-The opposite notion of *long-range entanglement*
+### Long-range entanglement
+
+The opposite notion of *long-range entanglement*:
 
 * {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835)$]$ 
+
+Further discussion:
+
+* Tsung-Cheng Lu, Sagar Vijay, *Characterizing Long-Range Entanglement in a Mixed State Through an Emergent Order on the Entangling Surface* $[$[arXiv:2201.07792](https://arxiv.org/abs/2201.07792)$]$
+
+
+
 
 [[!redirects long-range entanglement]]
