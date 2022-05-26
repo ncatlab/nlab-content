@@ -363,7 +363,7 @@ on [[quantum observables]]:
 * Cédric Bény, Achim Kempf, [[David W. Kribs]], _Quantum Error Correction of Observables_, Phys. Rev. A 76, 042303 (2007) ([arXiv:0705.1574](https://arxiv.org/abs/0705.1574))
 
 
-Introduction and survey
+Introduction and survey:
 
 * {#DevittNemotoMunro09} [[Simon J. Devitt]], Kae Nemoto, William J. Munro, _Quantum Error Correction for Beginners_, Rep. Prog. Phys. 76 (2013) 076001 ([arXiv:0905.2794](https://arxiv.org/abs/0905.2794))
 
@@ -374,6 +374,10 @@ Introduction and survey
 * {#RowellWang17} [[Eric Rowell]], [[Zhenghan Wang]], Section 3.2.3 of: _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
 * Joschka Roffe, *Quantum Error Correction: An Introductory Guide*, Contemporary Physics 2019 ([arXiv:1907.11157](https://arxiv.org/abs/1907.11157))
+
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Sec. 3 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
 * {#ZhuCross20} Guanyu Zhu, Andrew Cross, *[Hardware-aware approach for fault-tolerant quantum computation](https://www.ibm.com/blogs/research/2020/09/hardware-aware-quantum/)*, IBM Research Blog, September 2, 2020
 
