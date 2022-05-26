@@ -12,6 +12,10 @@ Bob Walters, often called R F C Walters, taught at the University of Sydney and 
 
 ## Selected writings
 
+On [[closed bicategories]] and [[locally internal categories]]:
+
+* {#BettiWalters1985} [[Renato Betti]], [[Robert F. C. Walters]], *Closed bicategories and variable category theory*, Universita degli Studi di Milano (1985), reprinted in: Reprints in Theory and Applications of Categories, **26** (2020) 1-27 $[$[tac:tr26](http://www.tac.mta.ca/tac/reprints/articles/26/tr26abs.html)$]$
+
 On [[extensive categories]] and [[distributive categories]]:
 
 * {#CarboniLackWalters93} [[Aurelio Carboni]], [[Stephen Lack]], [[Bob Walters|R. F. C. Walters]], _Introduction to extensive and distributive categories_, JPAA **84** (1993) pp. 145-158 (<a href="https://doi.org/10.1016/0022-4049(93)90035-R">doi:10.1016/0022-4049(93)90035-R</a>)
