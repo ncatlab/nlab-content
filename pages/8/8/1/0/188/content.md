@@ -24,7 +24,7 @@
 
 ## Definitions
 
-### Classical
+### With a binary operation and an element
 
 Classically, a **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ (the _[[neutral element]]_) such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **[[associative law]]**:
 
@@ -34,6 +34,19 @@ and the **left and right [[unit laws]]**:
 
 $$ 1 \cdot x = x = x \cdot 1 .$$
 
+### With $n$-ary operations
+
+Equivalently, a **monoid** is a set $M$ with an element $1 \in M$ and a [[dependent type|dependent sequence]] of functions: for every [[natural number]] $n \in \mathbb{N}$, an [[n-ary operation|$n$-ary operation]] $\mu_n:M^n \to M$ with [[domain]] the $n$-th [[cartesian power]] of $M$ and [[codomain]] $M$, such that 
+
+$$\mu_0(*) = 1$$
+
+$$\mu_1(x) = x$$
+
+$$\mu_2(\mu_m(x_1, \ldots, x_m), \mu_n(x_{m+1}, \ldots, x_{m+n})) = \mu_{m+n}(x_1, \ldots, x_m, x_{m+1}, \ldots, x_{m+n})$$
+
+For $n \gt 1$, $\mu_n$ is usually written as 
+
+$$x_1 \cdot x_2 \cdot \ldots \cdot x_n = \mu_n(x_1, x_2, \ldots, x_n)$$
 
 ### In a monoidal category
 {#inamonoidalcategory}
