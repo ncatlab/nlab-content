@@ -363,10 +363,11 @@ is then a Quillen pair.
 Since the codomain fibration $cod : [I,C] \to C$ is a [[bifibration]] when $C$ has all [[pullback]]s, there is a notion of [[monadic descent]] in this case. Details on this are at [monadic descent for codomain fibrations](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
 
 ## The Subobject Fibration
+ {#TheSubobjectFibration}
 
-By restricting our attention to a subset of arrows in the codomain fibration and using the notion of the [[skeleton of a fibration]], we can define a fibration on a category $\mathcal{C}$ with pullbacks called the *subobject fibration* whose fibers are categories of [[subobjects]] for objects of $\mathcal{C}$. 
+By restricting our attention to a [[subset]] of [[morphisms]] in the codomain fibration and using the notion of the [[skeleton of a fibration]], we may define a fibration on a category $\mathcal{C}$ with pullbacks called the *subobject fibration* whose fibers are categories of [[subobjects]] for objects of $\mathcal{C}$. 
 
-Beginning with the codomain fibration $cod:\mathcal{C}^\to\to\mathcal{C}$ on a category $\mathcal{C}$ with pullbacks, we restrict our attention to the subcategory
+Beginning with the codomain fibration $cod \colon \mathcal{C}^\to \longrightarrow \mathcal{C}$ on a category $\mathcal{C}$ with [[pullbacks]] (now writing $C^\to$ for the [[arrow category]]), we restrict our attention to the subcategory
 $$
 Mono(\mathcal{C})\subseteq\mathcal{C}^\to,
 $$
