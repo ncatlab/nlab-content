@@ -12,6 +12,8 @@ Review:
 
 * {#Furukawa08} Shunsuke Furukawa, *Entanglement Entropy in Conventional and Topological Orders*, talk at [Topological Aspects of Solid State Physics](http://www.issp.u-tokyo.ac.jp/public/tassp/) 2008 ([pdf](http://www.issp.u-tokyo.ac.jp/public/tassp/pdf_presentation/SY_S_Furukawa.pdf), [[FurukawaEntanglementEntropy.pdf:file]])
 
+* [[Tarun Grover]], *Entanglement entropy and strongly correlated topological matter*,  Modern Physics Letters A **28** 05 (2013)  1330001  $[$[doi:10.1142/S0217732313300012](https://doi.org/10.1142/S0217732313300012)$]$
+
 Experimental observation:
 
 * A. Hamma, W. Zhang, S. Haas, and D. A. Lidar, *Entanglement, fidelity, and topological entropy in a quantum phase transition to topological order*, Phys. Rev. B 77, 155111 (2008) ([doi:10.1103/PhysRevB.77.155111](https://doi.org/10.1103/PhysRevB.77.155111), [arXiv:0705.0026](https://arxiv.org/abs/0705.0026))
