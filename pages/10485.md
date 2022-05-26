@@ -271,6 +271,10 @@ See also:
 
 * [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]] [[Shinsei Ryu]], *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** 035005 (2016) $[$[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)$]$
 
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Sec. 10 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+
 See also:
 
 * Wikipedia, *[Symmetry protected topological order](http://en.wikipedia.org/wiki/Symmetry_protected_topological_order)*
@@ -291,7 +295,7 @@ See also:
 
 * Zhen Bi, *Physical Properties and Experimental Platform of Symmetry Protected Topological Phases* (2017) $[$[escholarship:37q1k2rj](https://escholarship.org/uc/item/37q1k2rj)$]$
 
-Some of the above material is taken from
+Some of the above material is taken from:
 
 * {#SS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Topological Quantum Computation in TED-K]]* 
 
