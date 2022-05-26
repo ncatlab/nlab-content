@@ -26,8 +26,13 @@ If such an SRE material is in a [[topological phase of matter]], with the ground
 
 In particular, short-range entanglement thus implies the *absence* of "[[topological order]]" (at least by two of three common definitions of the latter, see [there](topological+order#RelationBetweenDefiningConditions)).
 
-In contrast, *long-range entanglement* in the ground state is supposedly the hallmark of [[topological order]] ([Chen, Gu & Wen 10, Sec. V](#ChenGuWen2010))
+In contrast, *[[long-range entanglement]]* in the ground state is supposedly the hallmark of [[topological order]] ([Chen, Gu & Wen 10, Sec. V](#ChenGuWen2010))
 
+## Related concepts
+
+* [[entanglement entropy]]
+
+* [[long-range entanglement]]
 
 ## References
 
@@ -49,7 +54,7 @@ See also around [footnote 2](https://arxiv.org/pdf/1712.07950.pdf#page=4) of
 
 ### Long-range entanglement
 
-The opposite notion of *long-range entanglement*:
+The opposite notion of *[[long-range entanglement]]*:
 
 * {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835)$]$ 
 
@@ -60,4 +65,3 @@ Further discussion:
 
 
 
-[[!redirects long-range entanglement]]
