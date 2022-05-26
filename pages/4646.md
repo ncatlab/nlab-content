@@ -253,6 +253,10 @@ See [[higher parallel transport]] for details.
 
   * [[special holonomy]]
 
+* [[identity transport]] in [[homotopy type theory]] 
+
+  (for the relation to parallel transport see [there](transport#RelationToParallelTransport))
+
 ## References
 
 There are many equivalent statements of the ordinary definition of a [[connection on a bundle]]. The following lists references related to the statement that the connection is equivalently encoded in terms of its [[parallel transport]].
