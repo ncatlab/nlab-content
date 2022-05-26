@@ -23,9 +23,9 @@ A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[to
 
 ### Torsion-free $\mathbb{Z}$-modules
 
-In classical mathematics, a **torsion-free $\mathbb{Z}$-module** $M$ could be defined using a variant of the zero-divisor property characteristic of [[integral domains]]: for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ or $m = 0$, or the [[contrapositive]], if $r \neq 0$ and $m \neq 0$, then $r m \neq 0$. 
+In classical mathematics, a **torsion-free $\mathbb{Z}$-module** or **torsion free [[abelian group]]** $M$ could be defined using a variant of the zero-divisor property characteristic of [[integral domains]]: for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ or $m = 0$, or the [[contrapositive]], if $r \neq 0$ and $m \neq 0$, then $r m \neq 0$. 
 
-There is also an equivalent definition: a **torsion-free $\mathbb{Z}$-module** $M$ is such that right multiplication by $m$ is injective if $m \neq 0$ and left multiplication by $r$ is injective if $r \neq 0$, where "multiplication" refers to the $\mathbb{Z}$-action. 
+There is also an equivalent definition: a **torsion-free $\mathbb{Z}$-module** $M$ or **torsion free abelian group** is such that right multiplication by $m$ is injective if $m \neq 0$ and left multiplication by $r$ is injective if $r \neq 0$, where "multiplication" refers to the $\mathbb{Z}$-action. 
 
 In [[constructive mathematics]], there are multiple inequivalent ways of defining a torsion-free $\mathbb{Z}$-module. One could define a torsion-free module as a module such that for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ and $m = 0$. The first definition is valid in all modules with [[decidable equality]], and could be defined using [[coherent logic]], but is not valid for $\mathbb{R}$-modules. 
 
@@ -45,7 +45,13 @@ A torsion-free $R$-[[associative unital algebra|algebra]] is a [[monoid object]]
 
 ## Properties
 
+\begin{proposition}
+Every [[divisible group|divisible]] torsion-free $\mathbb{Z}$-module is a $\mathbb{Q}$-[[vector space]].
+\end{proposition}
+
+\begin{proposition}
 Every [[integral domain]] $R$ is a torsion-free $R$-module. 
+\end{proposition}
 
 ## Related concepts
 
@@ -64,10 +70,24 @@ See also
 + Wikipedia, _[Torsion-free module](https://en.wikipedia.org/wiki/Torsion-free_module)_
 
 [[!redirects torsion-free modules]]
+[[!redirects torsion free module]]
+[[!redirects torsion free modules]]
 
 [[!redirects torsionfree module]]
 [[!redirects torsionfree modules]]
 
+[[!redirects torsion free]]
+[[!redirects torsion-free]]
+
+[[!redirects torsion-free abelian group]]
+[[!redirects torsion-free abelian groups]]
+[[!redirects torsion free abelian group]]
+[[!redirects torsion free abelian groups]]
+
+[[!redirects torsion-free Z-module]]
+[[!redirects torsion-free Z-modules]]
+[[!redirects torsion free Z-module]]
+[[!redirects torsion free Z-modules]]
 
 [[!redirects torsion-free ring]]
 [[!redirects torsion-free rings]]
