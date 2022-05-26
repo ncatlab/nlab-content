@@ -33,6 +33,8 @@ For $G$ a [[group]] and $H \hookrightarrow G$ a [[normal subgroup]], the [[quoti
 
 * [[quotient module]]
 
+* [[quotient bimodule]]
+
 * [[quotient ring]]
 
 
