@@ -88,5 +88,9 @@ category: category
 [[!redirects category of commutative rings]]
 [[!redirects categories of commutative rings]]
 
+[[!redirects CRings]]
+[[!redirects Cring]]
+[[!redirects Crings]]
+[[!redirects CommutativeRing]]
 [[!redirects CommutativeRings]]
 
