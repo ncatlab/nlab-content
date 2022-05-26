@@ -246,6 +246,8 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 
 * [[bimodule object]]
 
+* [[quotient bimodule]]
+
 * [[Hilbert bimodule]]
 
 * [[Noetherian bimodule]]
