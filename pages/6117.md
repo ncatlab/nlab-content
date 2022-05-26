@@ -49,4 +49,11 @@ The alternating sum of all the Betti numbers is -- if it exists -- the [[Euler c
 
 * [[etale topos]]
 
+## References
+
+Named after [[Enrico Betti]].
+
+(...)
+
+
 [[!redirects Betti numbers]]
