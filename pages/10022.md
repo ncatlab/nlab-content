@@ -278,6 +278,10 @@ Review:
 
 * Matthew Headrick, _Lectures on entanglement entropy in field theory and holography_ ([arXiv:1907.08126](https://arxiv.org/abs/1907.08126))
 
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+
 * Bowen Chen, Bartlomiej Czech, Zi-zhi Wang, *Quantum Information in Holographic Duality* ([arXiv:2108.09188](https://arxiv.org/abs/2108.09188))
 
 
