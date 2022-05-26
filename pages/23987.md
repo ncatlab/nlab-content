@@ -17,6 +17,11 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ## Conferences & Workshops
 
+\linebreak
+
+***
+
+\linebreak
 
 ### 02 June 2022 - Homotopical Perspectives on TDA
  {#HomotopicalPerspectivesOnTDAMay2022}
@@ -24,6 +29,21 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
   Organizers: [[Sadok Kallel]] and [[Hisham Sati]] 
 
   zoom link: [nyu.zoom.us/j/91860528688](https://nyu.zoom.us/j/91860528688)
+
+  \linebreak
+
+\begin{imagefromfile}
+    "file_name": "HomotopicalPerspectivesOnTDAatNYUAD-May2022.jpg",
+    "width": 510,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
   \linebreak
 
@@ -48,9 +68,21 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
     [[Wojciech Chacholski]]  (KTH, Sweden)
 
-    **TBA**
+    **Realisations of Posets**
 
     \linebreak
+
+    > My presentation  is based on an article with the same title coauthored with A. Jin and F. Tombari  ([arXiv:2112.12209](https://arxiv.org/abs/2112.12209)).
+
+    > Encoding information in form of  [[functors]] indexed by the [[poset]] of $r$-tuples of real numbers ([[persistence modules]]) is attractive for three reasons: 
+       
+    > a) metric properties  of the poset are essential  to study  distances on persistence modules
+
+    > b) the poset of $r$-tuples of real numbers has well behaved discrete  approximations which are  used  to provide finite  approximations of  persistence modules 
+       
+    > c) the mentioned discretizations and approximations  have well studied algebraic and homological properties as they can be identified with  multi graded modules over polynomial rings.
+
+    > In my talk I will describe a construction called realisation, that transforms arbitrary posets into posets  which satisfy all three requirements above and hence  are particularly suitable for persistence methods.Intuitively the realisation associates a continuous structure to a locally discrete poset by filling in empty spaces. For example the realisation of the poset of natural numbers is the poset of non negative reals. I will focus on illustrating how homological techniques, such as Koszul complexes, can be used to study persistent modules indexed by realisations. 
 
     \linebreak
 
@@ -88,10 +120,14 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
+
+
 \linebreak
 
+***
 
-## Selected preprints
+
+## Selected CQTS preprints
 
 
 
