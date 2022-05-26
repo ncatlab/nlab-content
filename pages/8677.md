@@ -112,6 +112,8 @@ Localization away from a suitably tame ideal may be understood as the [[dR-shape
 
   * [[p-localization]], [[p-completion]]
 
+* [[quotient ring]]
+
 * [[completion of a ring]]
 
 ## References
