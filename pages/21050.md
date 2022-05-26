@@ -27,14 +27,14 @@ The idea of a commutative monad could be motivated as either
 
 * The [[monad]] equivalent of a [[commutative algebraic theory]], generalized to either non-finitary theories or to categories other than [[Set]]. Intuitively, the operations involved have a commutativity property analogous to [[commutative monoid|the one that monoids can have]];
 * A [[monad]] on a [[monoidal category]] whose underlying functor is [[monoidal functor|lax monoidal]], and whose unit and multiplication are [[monoidal natural transformation|monoidal]]. The interpretation is that the monad plays well with the monoidal product of the category, encoding for example products of formal expressions;
-* A [[monad]] on a [[monoidal category]] whose [[strong monad|strength]] and [[strong monad|costrength]] commute with each other. 
+* A [[monad]] on a [[monoidal category]] whose [[strong monad|left-strength]] and [[strong monad|right-strength]] commute with each other. 
 
 It turns out that all these concepts coincide (see below, as well as the articles on [[commutative algebraic theories]] and [[monoidal monads]]).
 
 
 ## Definition 
 
-Let $(T,\mu,\eta)$ be a [[monad]] on a [[symmetric monoidal category]] $C$, equipped with a [[strong monad|strength]] $\sigma$ (and with the costrength $\tau$ induced from $\sigma$ and the [[braiding]]). 
+Let $(T,\mu,\eta)$ be a [[monad]] on a [[symmetric monoidal category]] $C$, equipped with a [[strong monad|left-strength]] $\sigma$ (and with the right-strength $\tau$ induced from $\sigma$ and the [[braiding]]). 
 
 We say that $T$ (or $\sigma$) is **commutative** if the following diagram commutes for all objects $X$ and $Y$ of $C$. 
 \begin{tikzcd}
@@ -54,11 +54,11 @@ For the details see [[monoidal monad]].
 
 ## On closed and monoidal closed categories
 
-One can define [[strength and costrength]] on a [[closed category]], in a way that's analogous to the definition in a [[monoidal category]], and on [[monoidal closed categories]] the two definitions coincide (see [[strong monad#on_closed_and_monoidal_closed_categories|strong monad - on closed and monoidal closed categories]]). 
+One can define [[strong monad|left-strength and right-strength]] on a [[closed category]], in a way that's analogous to the definition in a [[monoidal category]], and on [[monoidal closed categories]] the two definitions coincide (see [[strong monad#on_closed_and_monoidal_closed_categories|strong monad - on closed and monoidal closed categories]]). 
 The same is true for the notion of commutativity: one can define commutative monads on closed categories, and on closed monoidal categories the definition coincides with the definition given in this article. 
 
 More in detail, let $C$ be a [[closed category]], and denote its [[internal homs]] by $[X,Y]$. 
-Let $t':[X,Y]\to [T X, T Y]$ be a strength for $T$ (as defined [[strong monad#strong_monads_are_enriched_monads|here]]), and let $s':T[X,Y]\to [X, T Y]$ be a costrength (as defined [[strong monad#costrength_and_pointwise_structure|here]]).
+Let $t':[X,Y]\to [T X, T Y]$ be a left-strength for $T$ (as defined [[strong monad#strong_monads_are_enriched_monads|here]]), and let $s':T[X,Y]\to [X, T Y]$ be a right-strength (as defined [[strong monad#right-strength_and_pointwise_structure|here]]).
 We say that $t'$ and $s'$ _commute_, or that $T$ is _commutative_, if the following diagram commutes.
 \begin{tikzcd}
 & T{[X,Y]} \ar{dl}[swap]{s'} \ar{dr}{Tt'} \\
