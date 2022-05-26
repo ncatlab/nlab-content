@@ -25,9 +25,10 @@ and with focus on [[abelian anyons]] in terms of [[modular tensor categories]]:
 * Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) ([doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0))
 
 
-On [[topological entanglement entropy]] in [[topological phases of matter]]:
+On identifying [[topological order]] via [[topological entanglement entropy]] of the ground state:
 
-* Hong-Chen Jiang, [[Zhenghan Wang]], Leon Balents, *Identifying Topological Order by Entanglement Entropy*, Nature Physics 8, 902-905 (2012) ([arXiv:1205.4289](https://arxiv.org/abs/1205.4289))
+
+* Hong-Chen Jiang, [[Zhenghan Wang]], [[Leon Balents]], *Identifying Topological Order by Entanglement Entropy*, Nature Physics 8, 902-905 (2012) ([arXiv:1205.4289](https://arxiv.org/abs/1205.4289))
 
 
 Introducing the [[4d TQFT]] [[Walker-Wang model]]:
