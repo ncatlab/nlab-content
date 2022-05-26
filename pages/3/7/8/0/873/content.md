@@ -11,6 +11,8 @@ A subset of a given [[set]] $A$ is a set $B$ that may be viewed as contained wit
 
 ## Definitions
 
+### In set theory
+
 In [[material set theory]], a __subset__ of a [[set]] $A$ is a set $B$ with the *property* that
 $$ x \in B \;\Rightarrow\; x \in A $$
 for any object $x$ whatsoever.  One writes $B \subseteq A$ or $B \subset A$ (depending on the author) if $B$ has this property.  Set theory\'s [[axiom of extensionality]] says that $A = B$ if (and only if) $A \subseteq B$ and $B \subseteq A$ (although this is only strong enough for [[well-founded set]]s).
@@ -24,10 +26,24 @@ Similarly, we can define a local containment predicate $\subseteq_A$ as follows:
 $$ B \subseteq_A C \;\Leftrightarrow\; \forall(x\colon A),\; x \in B \;\Rightarrow\; x \in C .$$
 We can also define a local equality predicate $=_A$ on subsets of $A$:
 $$ B =_A C \;\Leftrightarrow\; B \subseteq C \;\wedge\; C \subseteq B .$$
-In foundations that already have a global equality predicate on sets (and functions between equal sets), this local equality predicate must be interpreted as an [[equivalence relation]]; then a __subset__ of $A$ is technically an [[equivalence class]] of injections to $A$ rather than simply an injection to $A$.
+
+In foundations that already have a global equality predicate on sets (and functions between equal sets), this local equality predicate must be interpreted as an [[equivalence relation]]; then a __subset__ of $A$ is technically an [[equivalence class]] of injections to $A$ rather than simply an injection to $A$. 
 
 In any case, if $A$ is a subset of $B$, then $B$ is a __superset__ of $A$.
 
+### In type theory
+
+In [[homotopy type theory]], the inclusion [[relation]] between two types $A$ and $B$ is defined as 
+
+$$A \subseteq B \coloneqq \left[\sum_{f:A \to B} \prod_{b:B} \mathrm{isProp}\left(\sum_{a:A} f(a) = b\right)\right]$$
+
+A **subset** of a [[set]] $B$ is a set $A$ with a term $p:A \subseteq B$. 
+
+Every subset $A$ of $B$ in a universe $\mathcal{U}$ comes with a choice of [[injection]] $i:A \hookrightarrow B$ if and only if the [[axiom of choice]] holds for sets in the universe:
+
+$$\prod_{A:\mathrm{Set}_\mathcal{U}} \left[\sum_{f:A \to B} \prod_{b:B} \mathrm{isProp}\left(\sum_{a:A} f(a) = b\right)\right] \to \left[\sum_{g:\prod_{A:\mathrm{Set}_\mathcal{U}} A \to B} \prod_{A:\mathrm{Set}_\mathcal{U}} \prod_{b:B} \mathrm{isProp}\left(\sum_{a:A} g(A)(a) = b\right)\right]$$
+
+As a result, subsets equipped with an injection are typically used when doing mathematics in homotopy type theory. 
 
 ## Remarks
 
