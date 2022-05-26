@@ -26,7 +26,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
-### 02 June 2022 - Homotopical Perspectives on TDA
+### June 2022
  {#HomotopicalPerspectivesOnTDAMay2022}
 
   **[[homotopy theory|Homotopical]] perspectives on [[topological data analysis|Topological data analysis]] 
@@ -51,7 +51,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   zoom link: [nyu.zoom.us/j/91860528688](https://nyu.zoom.us/j/91860528688)
 
-  Schedule for 02 June 2022:
+  Schedule for **02 June 2022**:
 
   \linebreak
 
@@ -139,22 +139,20 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 \linebreak
 
 
-## Selected CQTS preprints
+## CQTS Colloquium
+ {#CQTSColloquium}
 
+### May 2022
 
+* [[Urs Schreiber]]:
 
-* Y. Shi, J. Shi, [[Tim Byrnes|T. Byrnes]]:
+  **[[schreiber:New Foundations for TDA -- Cohomotopy|New Foundations for Topological Data Analysis -- The Power of Cohomotopy]]**
+  {#CQTSColloquiumCohomotopyFoundationsForTDA}
 
-  *Quantum supremacy with spin squeezed atomic ensembles*
- 
-  [arXiv:2204.11772](https://arxiv.org/abs/2204.11772)
+  \linebreak
 
+  > **Abstract.** The aim of *[[topological data analysis]]* (TDA) is to provide qualitative analysis of large data/parameter sets in a way which is *robust* against uncertainties and noise. This is accomplished using tools and theorems from the mathematical field of *[[algebraic topology]]*. While a tool called *[[persistent homology]]* has become the signature method of TDA, it tends to produce answers that are either hard to interpret (persistent [[cycles]]) or impossible to compute ([[well groups]]). Both problems are solved by a variant method $[$[FK17](persistent+cohomotopy#FranekKrcal17)$]$ which we may call *[[persistent cohomotopy]]*: A first result shows $[$[FKW18](persistent+cohomotopy#FranekKrcalWagner18)$]$ that this new method provides computable answers to the concrete question of detecting whether there exist data+parameters that meet a prescribed target indicator precisely, even in the presence of uncertainty and noise. More generally, efficient data analysis will require further refining [[persistent cohomotopy]] to [[equivariant cohomotopy]] and/or [[twisted cohomotopy]] $[$[[schreiber:Proper Orbifold Cohomology|SS20]]$]$. Curiously, all these flavors of cohomotopy theory have [[schreiber:Hypothesis H|profound relations]] to [[string theory|formal high energy physics]] and [[nLab:topological phase of matter|quantum materials]], connecting to which might help to further enhance the power of [[topological data analysis]].
 
-* [[Hisham Sati|H. Sati]],  [[Urs Schreiber|U. Schreiber]]: 
-
-  *[[schreiber:Anyonic defect branes in TED-K-theory]]*
-
-  [arXiv:2203.11838](https://arxiv.org/abs/2203.11838)
 
 
 \linebreak
