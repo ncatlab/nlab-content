@@ -34,6 +34,8 @@ A __locally internal category__ $C$ over $E$ is given by
 
 * $f \mapsto \theta_f$ is functorial up to [[coherence|coherent]] isomorphism.  This means certain [[commuting diagram|diagrams commute]] analogous to those of a [[pseudofunctor]], but with the functors $f^*$ applied at appropriate places to make them [[type checking|typecheck]].
 
+Alternatively, a category locally internal to $E$ is a category [[enriched category|enriched in the bicategory]] [[Span|$Span(E)$]] admitting certain [[absolute colimits]] (see [Betti–Walters](#BettiWalters1985)).
+
 ## Properties
 
 In the [[stack semantics]] of $E$, a locally internal category "looks like" an ordinary locally small category.
@@ -69,5 +71,7 @@ If we also take care of the appropriate morphisms have the following:
 * Locally internal categories, Appendix in: P. Johnstone, Topos theory, 1977
 
 * Chapter B2.2 of [[Sketches of an Elephant]]{#Elephant}
+
+* {#BettiWalters1985} [[Renato Betti]] and [[Robert FC Walters]]. _Closed bicategories and variable category theory_. Universita degli Studi di Milano, 1985. [TAC Reprint](http://www.tac.mta.ca/tac/reprints/articles/26/tr26abs.html)
 
 [[!redirects locally internal categories]]
