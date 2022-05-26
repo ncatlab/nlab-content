@@ -91,7 +91,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
        
     > c) the mentioned discretizations and approximations  have well studied algebraic and homological properties as they can be identified with  multi graded modules over polynomial rings.
 
-    > In my talk I will describe a construction called realisation, that transforms arbitrary posets into posets  which satisfy all three requirements above and hence  are particularly suitable for persistence methods.Intuitively the realisation associates a continuous structure to a locally discrete poset by filling in empty spaces. For example the realisation of the poset of natural numbers is the poset of non negative reals. I will focus on illustrating how homological techniques, such as Koszul complexes, can be used to study persistent modules indexed by realisations. 
+    > In my talk I will describe a construction called realisation, that transforms arbitrary posets into posets  which satisfy all three requirements above and hence  are particularly suitable for persistence methods.Intuitively the realisation associates a continuous structure to a locally discrete poset by filling in empty spaces. For example the realisation of the poset of natural numbers is the poset of non-negative reals. I will focus on illustrating how [[homological algebra|homological techniques]], such as [[Koszul complexes]], can be used to study [[persistence modules]] indexed by realisations. 
 
     \linebreak
 
