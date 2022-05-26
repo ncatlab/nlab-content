@@ -1,7 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Enriched category theory
++--{: .hide}
+[[!include enriched category theory contents]]
+=--
+=--
+=--
+
 # Locally internal categories
 
 * table of contents
 {: toc}
+
 
 ## Idea
 
@@ -10,14 +22,17 @@ A _locally internal category_ is an analogue of a [[large category|large]] but [
 More generally, locally internal catgegories can be defined over any category with finite limits.  The notion is best-behaved when $E$ is [[locally cartesian closed category|locally cartesian closed]] (for instance, in that case the [[codomain fibration]] of $E$ is an example).
 
 ## Definition
+ {#Definition}
 
-Given a category $E$ with finite limits and an object $X$ in $E$, one notices that the slice category $E/X$ is a symmetric monoidal category under pullback.  Hence we can consider categories enriched over $E/X$, i.e. $E/X$-categories. 
+Given a [[category]] $E$ with [[finite limits]] and an [[object]] $X$ in $E$, one notices that the [[slice category]] $E/X$ is a [[symmetric monoidal category]] under [[fiber product]] in $E$.  Hence we can consider [[enriched category|categories enriched]] over $E/X$, i.e. $E/X$-categories. 
 
 A __locally internal category__ $C$ over $E$ is given by 
 
-* An $(E/X)$-enriched category $C_X$ for each object $X$ in $E$.  This is thought of as the category of $X$-indexed families of objects of $E$.
-* For each morphism $f: X\to Y$ in $E$, an $(E/X)$-full embedding $\theta_f: f^* C_Y\to C_X$.  Here $f^* C_Y$ means the $(E/X)$-enriched category obtained by applying the symmetric monoidal functor $f^*:E/Y \to E/X$ to the hom-objects of the $(E/Y)$-enriched category $C_Y$, and an enriched functor is a "full embedding" if it induces isomorphisms on hom-objects.
-* $f\mapsto \theta_f$ is functorial up to coherent isomorphism.  This means certain diagrams commute analogous to those of a [[pseudofunctor]], but with the functors $f^*$ applied at appropriate places to make them typecheck.
+* An $(E/X)$-[[enriched category]] $C_X$ for each object $X$ in $E$.  This is thought of as the category of $X$-[[indexed families]] of objects of $E$.
+
+* For each morphism $f \colon X\to Y$ in $E$, an $(E/X)$-[[full subcategory|full embedding]] $\theta_f \colon f^* C_Y\to C_X$.  Here $f^* C_Y$ means the $(E/X)$-enriched category obtained by applying the symmetric monoidal functor $f^* \colon E/Y \to E/X$ to the [[hom-objects]] of the $(E/Y)$-enriched category $C_Y$, and an [[enriched functor]] is a "full embedding" if it induces [[isomorphisms]] on [[hom-objects]].
+
+* $f \mapsto \theta_f$ is functorial up to [[coherence|coherent]] isomorphism.  This means certain [[commuting diagram|diagrams commute]] analogous to those of a [[pseudofunctor]], but with the functors $f^*$ applied at appropriate places to make them [[type checking|typecheck]].
 
 ## Properties
 
