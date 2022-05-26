@@ -8,12 +8,14 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 [CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[topological data analysis]], ultimately aimed at addressing open questions in [[topological quantum computation]]. A unifying theme is the use of new methods from ("[[persistent cohomotopy|persistent]]") *[[Cohomotopy]]* and [[generalized cohomology]]-theory, developed [[schreiber:Hypothesis H|in high energy physics]]. 
 
+\linebreak
 
 #Contents#
 * table of contents
 {:toc}
 
 
+\linebreak
 
 ## Conferences & Workshops
 
@@ -124,7 +126,10 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 \linebreak
 
+
 ***
+
+\linebreak
 
 
 ## Selected CQTS preprints
@@ -144,6 +149,12 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
   [arXiv:2203.11838](https://arxiv.org/abs/2203.11838)
 
+
+\linebreak
+
+***
+
+\linebreak
 
 
 
