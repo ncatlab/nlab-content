@@ -222,6 +222,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[Artinian ring]]
 
+* [[quotient ring]]
+
 * [[tensor ring]]
 
 * [[symmetric ring]]
