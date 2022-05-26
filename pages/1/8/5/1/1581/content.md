@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -45,3 +56,7 @@ Any two bases of a vector space are of the same cardinality.
 ## Generalisations
 
 Given any linearly independent set $A$ and spanning set $C$, if $A \subseteq C$, then there is a basis $B$ with $A \subseteq B \subseteq C$; the theorem above is the special case where $A = \empty$ and $C = V$.  The proof of this more general theorem is a straightforward generalisation of the proof above.
+
+## See also
+
+* [[vector space]]
