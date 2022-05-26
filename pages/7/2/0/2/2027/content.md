@@ -35,8 +35,6 @@ In this definition, the [[trivial ring]] is [[too simple to be simple|too simple
 
 in constructive mathematics, there are different inequivalent ways to define an integral domain
 
-#### Discrete integral domains
-
 +-- {: .num_defn #discrete}
 ###### Definition
 
@@ -44,8 +42,6 @@ If we replace "left and right multiplication by $c$ is injective iff $c$ is nonz
 =--
 
 Such an integral domain $D$ is 'discrete' in that it decomposes as a coproduct $D = \{0\} \sqcup D^\times$ (where $D^\times$ is the submomoid of $D$ that is cancellative). An advantage is that this is a [[coherent logic|coherent theory]] and hence also a [[geometric theory]].  A disadvantage is that this axiom is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[integers]] and the ring of [[rational number|rationals]].
-
-#### Heyting integral domains
 
 +-- {: .num_defn #heyting}
 ###### Definition
@@ -58,6 +54,10 @@ This is how 'practising' constructive analysts of the Bishop school usually defi
 An advantage is that the (located Dedekind) [[real numbers]] form a Heyting integral domain. A disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
 
 Of course, if the underlying set of the ring has [[decidable equality]] ---as is true of $\mathbf{Z}$, $\mathbf{Q}$, $\mathbf{Z}/n$, [[finite fields]], etc--- then a Heyting integral domain is a discrete integral domain.
+
+\begin{remark}\label{TrivialRingAsIntegralDomain}
+In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of integral domain do not include the non-equational axiom $1 \neq 0$, which means that the [[trivial ring]] is a integral domain and constitutes the [[terminal object]] in the [[category|categories]] of integral domain.
+\end{remark}
 
 ## Properties
 
@@ -84,6 +84,10 @@ In principle, one could just as easily consider a [[rig]] or [[semiring]] $R$.  
 * [[integral monoid]]
 
 * [[difference protoring]]
+
+## Reference
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 [[!redirects integral domain]]
 [[!redirects integral domains]]
