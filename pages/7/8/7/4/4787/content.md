@@ -14,7 +14,9 @@ There are many notions of _dimension_ of [[space]]s.  What they all have in comm
 
 *  The __dimension__ of a [[vector space]] $V$ is the [[cardinality]] of any [[set]] $X$ such that $V$ is [[free object|free]] (as a vector space) on $X$.  (It is a theorem, equivalent to the [[axiom of choice]], that every vector space has a unique dimension.)  For [[modules]] over [[rings]] that are not [[fields]] (for which the theorem above does not hold, neither existence nor uniqueness) the term used is [[rank]].
 
-   The trace of a vector space coincides with its categorical trace in the [[symmetric monoidal category]] [[Vect]] of [[vector space]]s.
+   The [[trace]] of a the [[identity]] on a  vector space coincides with its categorical trace in the [[symmetric monoidal category]] [[Vect]] of [[vector spaces]].
+
+* Generalizing from this example, the [[trace]] of an object in a [[spherical category|sphereical]] [[fusion category]] is called its *[[quantum dimension]]*.
 
 *  A [[manifold]] has [[dimension of a manifold]]equal to $n$ if it is locally isomorphic to the [[Cartesian space]] $\mathbb{R}^n$.  A [[complex manifold]] is of __complex dimension__ $n$ if it is locally isomorphic to $\mathbb{C}^n$, hence has (real) dimension $2 n$.
 
