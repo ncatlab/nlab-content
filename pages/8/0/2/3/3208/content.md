@@ -219,6 +219,36 @@ For instance, every [[geometric morphism]] preserves every [[Lawvere theory]] si
 
 * [[2-theory]], [[3-theory]]
 
+\linebreak
+
+* [[axiom]]
+
+* [[definition]]
+
+  * [[inductive definition]]
+
+  * [[coinductive definition]]
+
+* [[lemma]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]]
+
+* [[folklore]]
+
+* [[conjecture]]
+
+* [[analogy]]
+
+* [[paradox]]
+
+* [[exercise]]
+
+\linebreak
+
 ## References
 
 * H. Jerome Keisler, _Fundamentals of model theory_, A2 in JOhn Barwise, Handbook of mathematical logic (pp.47-103), North Holland 1977
