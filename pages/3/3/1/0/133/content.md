@@ -85,7 +85,8 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * That every [[fully faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]] functor between [[strict categories]] is a strong [[equivalence of categories]].
 * That the [[nonabelian cohomology]] $H^1(X;G)$ is trivial for every set $X$ and every [[group]] $G$ (see [this post](http://golem.ph.utexas.edu/category/2013/07/cohomology_detects_failures_of.html)).
 * If $X$ and $Y$ are infinite sets and the two [[free groups]] $F(X)$ and $F(Y)$ have equal [[cardinality]], then $X$ and $Y$ also have equal cardinality (see [Kleppmann14](#Kleppmann14)).
-
+* That every [[vector space]] is [[free object|free]]. 
+* That every [[subset]] $A \subseteq B$ in a universe $\mathcal{U}$ comes with a choice of [[injection]] $i:A \hookrightarrow B$. Constructive mathematicians usually use subsets equipped with the structure of an injection, as those are usually more useful than general subsets with the mere property of being a subset.
 
 ## Variants
  {#Variants}
