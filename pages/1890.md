@@ -500,7 +500,8 @@ More resources and surveys:
 * {#Seal12} Gavin J. Seal, _Tensors, monads and actions_ ([arXiv:1205.0101](http://arxiv.org/abs/1205.0101))
 
 * {#Brandenburg2014} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](https://arxiv.org/abs/1410.1716))
-Usually strong monads are described explicitly in terms of the components of the above structure. The above repackaging of that definition appears in the blog post
+
+Usually strong monads are described explicitly in terms of data and coherence conditions. The above repackaging of the definition in terms of a 2-category of actions appears in the comments of the blog post:
 
 * [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
 
