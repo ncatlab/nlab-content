@@ -40,6 +40,8 @@ Given a [[ring]] $R$ and a [[right ideal]] $I$ with canonical right $R$-[[module
 
 * [[quotient bimodule]]
 
+* [[localization of a ring]]
+
 * [[completion of a ring]]
 
 * [[Koszul complex]]
