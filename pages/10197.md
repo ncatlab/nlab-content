@@ -1,4 +1,5 @@
 
+
 Given a [[set]] $S$ and a [[cardinal number]] $\kappa$, the 
 $\kappa$th __cartesian power__ $S^\kappa$ of $S$ is the $\kappa$-fold [[cartesian product]] of $S$ with itself.
 
@@ -8,6 +9,10 @@ The concept generalises from [[Set]] to any [[category]] $C$ with all [[products
 
 If we think of $\kappa$ as a full-fledged [[set]] in its own right (rather than just its cardinal number), then we are talking about a _[[function set]]_, and the generalisation is to [[cartesian closed categories]].
 
+## See also
+
+* [[multicategory]]
+* [[multimorphism]]
 
 [[!redirects cartesian power]]
 [[!redirects cartesian powers]]
