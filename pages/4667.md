@@ -29,6 +29,16 @@ One usually denote the trivial ring as $0$ or $\{0\}$, even though $1$ or $\{1\}
 
 * Every ring is a [[0-truncated]] [[ring groupoid]], and the trivial ring is the terminal ring groupoid. 
 
+* If one takes the definition of a [[field]] from [LombardiQuitté2010](#LombardiQuitté2010), then the [[trivial ring]] is a [[terminal object]] in the [[category]] of [[fields]]. 
+
+## See also
+
+* [[zero object]]
+
+## References
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+
 [[!redirects trivial ring]]
 [[!redirects trivial rings]]
 [[!redirects zero ring]]
