@@ -75,6 +75,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
     \linebreak
 
     [[Wojciech Chacholski]]  (KTH, Sweden)
+      {#ChacholskiTalkAtHomotopicalPerspectivesOnTDA2022}
 
     **Realisations of Posets**
 
