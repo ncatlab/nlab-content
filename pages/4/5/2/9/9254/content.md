@@ -61,7 +61,7 @@ Typically, TDA deals with *large* data sets modeled as ([[subsets]] of) [[topolo
 
 
 The strategy of [[persistent homology|persistent homology]]/[[persistent homotopy|homotopy]] in TDA  is to see which chunks ([[subspaces]]) of the data appear to be ([[n-connected topological space|higher]]) [[connected topological space|connected]] when viewed at some resolution (technically: at some [[filtered topological space|filter stage]]) and how much these apparent chunks *persist* as the resolution changes. 
-This may be recorded in *[[persistence diagrams]]* (also known as "[[barcodes]]"). 
+This may be recorded in *[[persistence diagrams]]* also known as "[[barcodes]]". 
 
 The fundamental theorem of the field -- the *[[stability of persistence diagrams|stability theorem]]* -- says that [[persistence diagram|persistent]] ([[cocycle|co-]])[[cycle]]-[[equivalence class|classes]] are indeed a good invariant of data, in that they remain stable under small perturbations of the initial data (e.g. under [[noise]], uncertainty, measurement errors, etc.).
 
@@ -94,7 +94,7 @@ In contrast, [[persistent cohomotopy]] in TDA is the effective answer to a concr
 Given a large-[[dimension of a CW-complex|dimensional]] [[topological space|space]] of data, and a small [[natural number|number]] $n$ of ([[real number|real]]) indicator values assigned to each data point with given precision $1/r$, *does _any_ data meet a prescribed target indication precisely?*
 
 
-{#FundamentalTheoremOfPersistentCohomotopy} A [fundamental theorem](persistent+cohomotopy#GuaranteeThatSolutionsExist) of [[persistent Cohomotopy]] ([Franek,  Krčál & Wagner 2018](persistent+cohomotopy#FranekKrcal18), [Franek & Krčál 2017, p. 5](persistent+cohomotopy#FranekKrcal17), see [here](persistent+cohomotopy#GuaranteeThatSolutionsExist)) shows that (1.) the answer to this question is detected by a certain [[Cohomotopy]]-class and (2.) in a fair range of dimensions, this Cohomotopy class is provably [[computability|computable]], hence the above question is effectively [[decidability|decidable]]. $\phantom{--}$ (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+{#FundamentalTheoremOfPersistentCohomotopy} A [fundamental theorem](persistent+cohomotopy#GuaranteeThatSolutionsExist) of [[persistent Cohomotopy]] ([Franek,  Krčál & Wagner 2018](persistent+cohomotopy#FranekKrcalWagner18), [Franek & Krčál 2017, p. 5](persistent+cohomotopy#FranekKrcal17), see [here](persistent+cohomotopy#GuaranteeThatSolutionsExist)) shows that (1.) the answer to this question is detected by a certain [[Cohomotopy]]-class and (2.) in a fair range of dimensions, this Cohomotopy class is provably [[computability|computable]], hence the above question is effectively [[decidability|decidable]]. $\phantom{--}$ (graphics from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
 
 
 <center>
