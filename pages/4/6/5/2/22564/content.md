@@ -59,6 +59,8 @@ where $ S \overset{diag_n}{\longrightarrow} S^n$ is the [[diagonal morphism]].
 
 * [[magma]]
 
+* [[monoid]]
+
 * [[operation]]
 
 * [[multicategory]]
