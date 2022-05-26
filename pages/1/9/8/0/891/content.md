@@ -106,7 +106,7 @@ For instance an [[action groupoid]] is a quotient of a group action in 2-categor
 
 * [[quotient group]]
 
-* [[quotient module]]
+* [[quotient module]], [[quotient bimodule]]
 
 * [[quotient ring]]
 
