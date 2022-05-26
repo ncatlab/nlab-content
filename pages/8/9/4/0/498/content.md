@@ -33,9 +33,9 @@ Here are a few equivalent ways to phrase the combined condition:
 
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field, the __[[residue field]]__ of the local ring.  (This quotient can also be taken constructively, where one anti-mods out by the [[minimal anti-ideal]] of invertible elements.)
 
-### The trivial ring as a local ring
-
-In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of local ring do not include the non-equational axiom $1 \neq 0$, which means that the [[trivial ring]] is a local ring. 
+\begin{remark}\label{TrivialRingAsALocalRing}
+In [LombardiQuitté2010](#LombardiQuitté2010), the authors' definitions of local ring do not include the non-equational axiom $1 \neq 0$, which means that the [[trivial ring]] is a local ring and constitutes the [[terminal object]] in the [[category|categories]] of local rings.
+\end{remark}
 
 ## Examples
 
