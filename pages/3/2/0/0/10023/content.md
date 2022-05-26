@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum Field Theory
+#### Quantum systems
 +--{: .hide}
-[[!include AQFT and operator algebra contents]]
+[[!include quantum systems -- contents]]
 =--
 #### Measure and probability theory
 +-- {: .hide}
@@ -20,23 +20,28 @@
 
 ## Idea
 
-[[entropy]] induced by [[entanglement]] in [[quantum physics]], really a synonym for [[subsystem]] entropy
+[[entropy]] induced by [[entanglement]] in [[quantum physics]], essentially a synonym for *[[subsystem]] entropy*.
 
-If $\rho$ is a [[quantum state]] ([[density matrix]]) of some [[quantum systems]] and $A$ is a subsystem with complementary subsystem $\bar A$, the its entanglement entropy is 
+If $\rho$ is a [[quantum state]] ([[density matrix]]) of some [[quantum systems]] and $A$ is a [[subsystem]] with complementary subsystem $\overline{A}$, then its *entanglement entropy* is 
 
 $$
   S_A
-  \;=\;
+  \;\coloneqq\;
   - 
   Tr_{A}\big( \rho_A \ln \rho_A \big)
-$$
-
-for 
-
-$$
+  \,,
+  \;\;\;
+  \text{where}
+  \;\;\;
   \rho_A \;\coloneqq\; Tr_{\bar A}(\rho)
   \,.
 $$
+
+Special aspects:
+
+A constant contribution to $S_A$ (i.e. independent of the choice of $A$, in a suitable sense) is called a **[[topological entanglement entropy]]** indicating **[[long-range entanglement]]** and "[[topological order]]", being proportional to the total [[quantum dimension]] of [[anyon]]-excitations. (See the references [below](#ReferencesTopologicalEntanglementEntropy).)
+
+On the other extreme, for **[[short range entanglement]]** the entanglement entropy is thought to scale with the surface [[area]] of the subsystem $A$ (to the extent that this makes sense, say in say in [[lattice models]]), a behaviour reminiscent of [[Bekenstein-Hawking entropy]] of [[black holes]]. For more on this see at **[[holographic entanglement entropy]]**.
 
 
 ## Related concepts
@@ -65,45 +70,9 @@ See also
 * Wikipedia, _[Entropy of entanglement](http://en.wikipedia.org/wiki/Entropy_of_entanglement)_
 
 
-### Topological entanglement entropy
- {#ReferencesTopologicalEntanglementEntropy}
 
 
-Identification of a non-vanishing contribution to the (entanglement-)entropy at [[absolute zero]], due to [[topological order]]/[[topological phases of matter|topological phase]] ("topological entropy"):
-
-* [[Alexei Kitaev]], [[John Preskill]], *Topological entanglement entropy*, Phys. Rev. Lett. 96 (2006) 110404 ([arXiv:hep-th/0510092](https://arxiv.org/abs/hep-th/0510092))
-
-* [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
-
-Review:
-
-* {#Furukawa08} Shunsuke Furukawa, *Entanglement Entropy in Conventional and Topological Orders*, talk at [Topological Aspects of Solid State Physics](http://www.issp.u-tokyo.ac.jp/public/tassp/) 2008 ([pdf](http://www.issp.u-tokyo.ac.jp/public/tassp/pdf_presentation/SY_S_Furukawa.pdf), [[FurukawaEntanglementEntropy.pdf:file]])
-
-Experimental observation:
-
-* A. Hamma, W. Zhang, S. Haas, and D. A. Lidar, *Entanglement, fidelity, and topological entropy in a quantum phase transition to topological order*, Phys. Rev. B 77, 155111 (2008) ([doi:10.1103/PhysRevB.77.155111](https://doi.org/10.1103/PhysRevB.77.155111), [arXiv:0705.0026](https://arxiv.org/abs/0705.0026))
-
-* Hong-Chen Jiang, [[Zhenghan Wang]], Leon Balents, *Identifying Topological Order by Entanglement Entropy*, Nature Physics 8, 902-905 (2012) ([arXiv:1205.4289](https://arxiv.org/abs/1205.4289))
-
-
-In terms of [[Renyi entropy]] (it's independent of the Renyi entropy parameter):
-
-* Ulrich Schollwöck, *(Almost) 25 Years of DMRG - What Is It About?* ([pdf](https://confs.physics.ox.ac.uk/pauli2016/files/slides/Schollwoeck.pdf))
-
-Discussion in the [[dimer model]]:
-
-* Shunsuke Furukawa, Gregoire Misguich, *Topological Entanglement Entropy in the Quantum Dimer Model on the Triangular Lattice*, Phys. Rev. B 75, 214407 (2007) ([arXiv:cond-mat/0612227](https://arxiv.org/abs/cond-mat/0612227))
-
-
-Discussion via [[holographic entanglement entropy]]:
-
-* Ari Pakman, [[Andrei Parnachev]], *Topological Entanglement Entropy and Holography*, JHEP 0807: 097 (2008) ([arXiv:0805.1891](https://arxiv.org/abs/0805.1891))
-
-* [[Andrei Parnachev]], Napat Poovuttikul, *Topological Entanglement Entropy, Ground State Degeneracy and Holography*, Journal of High Energy Physics volume 2015, Article number: 92 (2015) ([arXiv:1504.08244](https://arxiv.org/abs/1504.08244))
-
-See also:
-
-* Tatsuma Nishioka, Tadashi Takayanagi, Yusuke Taki, *Topological pseudo entropy* ([arXiv:2107.01797](https://arxiv.org/abs/2107.01797))
+[[!include topological entanglement entropy -- references]]
 
 
 
