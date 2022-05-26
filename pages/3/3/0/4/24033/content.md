@@ -17,7 +17,7 @@
 
 ## Definition
 
-Given a [[topological space]] $X$ equipped with a [[continuous function]] $f \,\colon\, X \longrightarrow \mathbb{R}^1$ to the [[Euclidean space]] of [[real numbers]], it's *Reeb graph* is the [[quotient topological space]] of $X$ by the [[equivalence relation]] which regards two points $x, y \,\in\, X$ as equivalent iff they are in the same [[connected component]] of the same [[level set]].
+Given a [[topological space]] $X$ equipped with a [[continuous function]] $f \,\colon\, X \longrightarrow \mathbb{R}^1$ to the [[Euclidean space]] of [[real numbers]], it's *Reeb graph* is the [[quotient topological space]] of $X$ by the [[equivalence relation]] which regards two points $x, y \,\in\, X$ as equivalent iff they are in the same [[connected component]] of the same [[level set]]. Under good conditions this is a [[CW complex]], necessarily 1-[[dimension of a cell complex|dimensional]], and as such an [[undirected graph]].
 
 ## Related concepts
 
