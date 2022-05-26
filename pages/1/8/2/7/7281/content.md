@@ -16,8 +16,7 @@
 
 ## Definition
 
-For $k$ a [[field]] and $V$ a $k$-[[vector space]], a __basis__ for $V$ is a [[basis of a free module]] for $V$ regarded as a [[free module]] over $k$.  In [[functional analysis]], a basis in this sense is called a __Hamel basis__.
-
+For $k$ a [[field]] and $V$ a [[free object|free]] $k$-[[vector space]], a __basis__ for $V$ is a [[basis of a free module]] for $V$ regarded as a [[free module]] over $k$. In [[functional analysis]], a basis in this sense is called a __Hamel basis__. 
 
 ## Properties
 
