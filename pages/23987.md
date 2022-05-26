@@ -28,9 +28,9 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 ### 02 June 2022 - Homotopical Perspectives on TDA
  {#HomotopicalPerspectivesOnTDAMay2022}
 
-  Organizers: [[Sadok Kallel]] and [[Hisham Sati]] 
+  **[[homotopy theory|Homotopical]] perspectives on [[topological data analysis|Topological data analysis]] 
 
-  zoom link: [nyu.zoom.us/j/91860528688](https://nyu.zoom.us/j/91860528688)
+  Organizers: [[Sadok Kallel]] and [[Hisham Sati]] 
 
   \linebreak
 
@@ -39,13 +39,18 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
     "width": 510,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -60,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
+  \linebreak
+
+  zoom link: [nyu.zoom.us/j/91860528688](https://nyu.zoom.us/j/91860528688)
+
+  Schedule for 02 June 2022:
 
   \linebreak
 
