@@ -44,4 +44,5 @@ $R$ is [[generalized the|the]] **unit two-sided ideal** or the **improper two-si
 
 * [[category of subobjects]]
 
+[[!redirects category of two-sided ideals]]
 [[!redirects category of two-sided ideals of a ring]]
