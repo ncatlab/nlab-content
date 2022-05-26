@@ -58,6 +58,8 @@ The quotient module is equivalently the [[quotient object]] of the [[congruence]
 
 * [[quotient group]]
 
+* [[quotient bimodule]]
+
 * [[quotient ring]]
 
 [[!redirects  quotient modules]]
