@@ -45,6 +45,9 @@
 
 * {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 
+* [[Dustin Clausen]], [[Peter Scholze]], _Condensed Mathematics and Complex Geometry_, [pdf](https://people.mpim-bonn.mpg.de/scholze/Complex.pdf)
+
+
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
 
 
