@@ -24,6 +24,7 @@ A **two-sided filter** is a multiplicative [[submonoid]] $(F, 1, \cdot)$ of $(R,
 
 ## See also
 
+* [[localization of a ring]]
 * [[ideal of a ring]]
 
 ## References
