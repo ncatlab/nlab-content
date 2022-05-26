@@ -139,6 +139,10 @@ General introduction and survey:
 
 * [[Gunnar Carlsson]], *Persistent Homology and Applied Homotopy Theory*, in: [[Handbook of Homotopy Theory]], CRC Press (2019) $[$[arXiv:2004.00738](https://arxiv.org/abs/2004.00738), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)$]$
 
+Flashy exposition for commercial use:
+
+* [[Gunnar Carlsson]], *Professor Gunnar Carlsson Introduces Topological Data Analysis* $[$[video](https://www.ayasdi.com/resources/professor-gunnar-carlsson-introduces-topological-data-analysis/)$]$
+
 See also:
 
 * Wikipedia, _[Topological data analysis](http://en.wikipedia.org/wiki/Topological_data_analysis)_
@@ -151,6 +155,11 @@ and see the references at
 
 * [[persistent cohomotopy]]
 
+### Implementation
+
+Implementation via concrete [[algorithms]], etc.
+
+* {#SinghMemoluCarlsson07} [[Gurjeet Singh]], [[Facundo Mémoli]], [[Gunnar Carlsson]], *Topological Methods for the Analysis of High Dimensional Data Sets and 3D Object Recognition*, in: M. Botsch, R. Pajarola (eds.), *Eurographics Symposium on Point-Based Graphics* (2007) $[$[doi:10.2312/SPBG/SPBG07/091-100](http://dx.doi.org/10.2312/SPBG/SPBG07/091-100), [pdf](http://diglib.eg.org/bitstream/handle/10.2312/SPBG.SPBG07.091-100/091-100.pdf?sequence=1&isAllowed=y)$]$
 
 ### Applications
 
