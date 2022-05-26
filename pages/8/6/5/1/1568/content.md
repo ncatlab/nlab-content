@@ -145,6 +145,8 @@ That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; tha
 
 * [[ideal in a monoid]]
 
+* [[filter of a ring]]
+
 [[!redirects ideal]]
 [[!redirects ideals]]
 
