@@ -52,6 +52,8 @@ $$
 
 * [[closed monoidal category]],  **closed monoidal $(\infty,1)$-category**
 
+* [[trace-class map]]
+
 [[!redirects closed monoidal (∞,1)-category]]
 
 [[!redirects closed monoidal (infinity,1)-categories]]
