@@ -564,11 +564,7 @@ But the relation is also strongly coherent: it respects the standard delooping f
 ###### Proposition
 
 There is a [[natural isomorphism]]
-
-$$
-  N \bar W G \simeq (N G)[-1]
-$$
-
+$$N \bar W G \simeq (N G)[-1]$$
 natural in $G \in sAbGrpd$.
 
 =--
@@ -579,12 +575,7 @@ This appears for instance as
 ### Abelian sheaf cohomology in nonabelian cohomology
 
 Composed with the [[forgetful functor]] $sAb \to sSet$ the Dold-Kan correspondence presents certain [[simplicial set]]s by chain complexes. Since this is entirely functorial, it prolongs to a functor from chain complexes of (pre)[[sheaves]] on any [[site]] $S$, to [[simplicial presheaves]]
-
-$$
-  \Gamma : [S^{op}, Ch_\bullet^+(ab)] \to [S^{op}, sSet]
-
-  \,.
-$$
+$$\Gamma : [S^{op}, Ch_\bullet^+(ab)] \to [S^{op}, sSet]$$
 
 If $[S^{op}, sSet]$ is equipped with the projective [[model structure on simplicial presheaves]] it models the [[(∞,1)-sheaf (∞,1)-topos]] on $S$. The [[derived hom-space]]s compute general [[nonabelian cohomology]].
 
@@ -618,7 +609,7 @@ Historical references for the Dold--Kan correspondence are
 
 which considers the correspondence for categories of [[modules]], and
 
-* {#DoldPuppe61} [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Annales de l'institut Fourier, 11 (1961), p. 201-312  ([numdam:aif_1961__11__201_0](http://www.numdam.org/item?id=aif_1961__11__201_0))
+* {#DoldPuppe61} [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Annales de l'institut Fourier, 11 (1961), p. 201-312  ([eudml](https://eudml.org/doc/73776))
 
 that generalizes the result to arbitrary [[abelian category|abelian categories]].
 
@@ -734,7 +725,4 @@ A [[categorification]] to a [[categorified Dold-Kan correspondence]] is discusse
 [[!redirects dual Dold-Kan theorem]]
 [[!redirects dual Dold--Kan theorem]]
 [[!redirects dual Dold–Kan theorem]]
-
 [[!redirects Dold-Kan equivalence]]
-
-
