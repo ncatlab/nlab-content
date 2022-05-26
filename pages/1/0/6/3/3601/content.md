@@ -229,6 +229,12 @@ Quantum information in relation to the [[representation theory of the symmetric 
 
 * [[Alonso Botero]], *Quantum Information and the Representation Theory of the Symmetric Group*, Rev. colomb. mat. vol.50 no. 2 Bogotá July/Dec. 2016 ([doi:10.15446/recolma.v50n2.62210](https://doi.org/10.15446/recolma.v50n2.62210), [pdf](http://www.scielo.org.co/pdf/rcm/v50n2/v50n2a05.pdf))
 
+In relation to [[topological phases of matter]]:
+
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+
 In relation to the [[AdS-CFT correspondence]] via [[holographic entanglement entropy]]:
 
 * Bowen Chen, Bartlomiej Czech, Zi-zhi Wang, *Quantum Information in Holographic Duality* ([arXiv:2108.09188](https://arxiv.org/abs/2108.09188))
