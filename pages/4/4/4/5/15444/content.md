@@ -9,9 +9,34 @@
 
 ## Related entries
 
+* [[axiom]]
+
+* [[definition]]
+
+  * [[inductive definition]]
+
+  * [[coinductive definition]]
+
+* [[theory]]
+
+* [[lemma]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]]
+
 * [[folklore]]
 
-* [[conjecture]], [[theorem]]
+* [[conjecture]]
+
+* [[analogy]]
+
+* [[paradox]]
+
+* [[exercise]]
+
 
 ## References
 
