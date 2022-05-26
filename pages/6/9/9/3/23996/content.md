@@ -61,7 +61,7 @@ In contrast, [[persistent cohomotopy]] in [[TDA]] is the effective answer to a c
 Given a large-[[dimension of a CW-complex|dimensional]] [[topological space|space]] of data, and a small [[natural number|number]] $n$ of ([[real number|real]]) indicator values assigned to each data point with given precision $1/r$, *does _any_ data meet a prescribed target indication precisely?*
 
 
-A fundamental theorem of persistent Cohomotopy ([Franek, Krčál & Wagner 2018](persistent+cohomotopy#FranekKrcal18), [Franek & Krčál 2017, p. 5](persistent+cohomotopy#FranekKrcal17), see Thm. \ref{GuaranteeThatSolutionsExist} below) shows that (1.) the answer to this question is detected by a certain [[Cohomotopy]]-class and (2.) in a fair range of dimensions, this Cohomotopy class is provably [[computability|computable]], hence the above question is effectively [[decidability|decidable]]. $\phantom{----}$ (figure from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
+A fundamental theorem of persistent Cohomotopy ([Franek, Krčál & Wagner 2018](persistent+cohomotopy#FranekKrcalWagner18), [Franek & Krčál 2017, p. 5](persistent+cohomotopy#FranekKrcal17), see Thm. \ref{GuaranteeThatSolutionsExist} below) shows that (1.) the answer to this question is detected by a certain [[Cohomotopy]]-class and (2.) in a fair range of dimensions, this Cohomotopy class is provably [[computability|computable]], hence the above question is effectively [[decidability|decidable]]. $\phantom{----}$ (figure from [[schreiber:New Foundations for TDA -- Cohomotopy|SS22]])
 
 
 Alternatively, with tools from [[persistent homology theory]] an answer to this question is given by the method of *[[well groups]]* -- but (1.) it is known that well groups are in general too coarse to provide a complete answer and (2.) despite effort it remains unknown if well groups are actually [[computability|computable]] in relevant cases, see [Franek & Krčál 2016](persistent+cohomotopy#FranekKrcal16).
@@ -1094,7 +1094,7 @@ One sees on the left that if the cohomotopy class of $f$ at resolution $1/r$ is 
 * {#FranekKrcal17} [[Peter Franek]], [[Marek Krčál]], _Persistence of Zero Sets_, Homology, Homotopy and Applications, **19** 2 (2017)  ([arXiv:1507.04310](https://arxiv.org/abs/1507.04310), [doi:10.4310/HHA.2017.v19.n2.a16](http://dx.doi.org/10.4310/HHA.2017.v19.n2.a16))
 
 
-* {#FranekKrcal18} [[Peter Franek]], [[Marek Krčál]], [[Hubert Wagner]], _Solving equations and optimization problems with uncertainty_, J Appl. and Comput. Topology **1** (2018) 297 ([arxiv:1607.06344](https://arxiv.org/abs/1607.06344), [doi:10.1007/s41468-017-0009-6](https://doi.org/10.1007/s41468-017-0009-6))
+* {#FranekKrcalWagner18} [[Peter Franek]], [[Marek Krčál]], [[Hubert Wagner]], _Solving equations and optimization problems with uncertainty_, J Appl. and Comput. Topology **1** (2018) 297 ([arxiv:1607.06344](https://arxiv.org/abs/1607.06344), [doi:10.1007/s41468-017-0009-6](https://doi.org/10.1007/s41468-017-0009-6))
 
 Review:
 
