@@ -39,10 +39,10 @@ Evidently, this conflicts with more-categorial uses of "localized"; "inverting w
 
 ## Definition
 
+### For commutative rings
+
 +-- {: .num_defn }
 ###### Definition
-
-### For commutative rings
 
 See _[[localization of a commutative ring]]_.
 
@@ -72,6 +72,10 @@ $$
 =--
 
 (e.g. [[The Stacks Project|Stacks Project, def. 10.9.1]])
+
+### In general
+
+In the general case, the inverses have to be two-sided inverses. 
 
 ### For $E_k$-rings
 
