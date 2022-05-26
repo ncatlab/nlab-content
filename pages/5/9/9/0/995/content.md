@@ -114,6 +114,8 @@ In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements 
 
 * [[category of filters]]
 
+* [[filter of a ring]]
+
 ## References
 
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Filter_%28mathematics%29).
