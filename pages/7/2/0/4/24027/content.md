@@ -14,6 +14,10 @@ Review:
 
 * [[Tarun Grover]], *Entanglement entropy and strongly correlated topological matter*,  Modern Physics Letters A **28** 05 (2013)  1330001  $[$[doi:10.1142/S0217732313300012](https://doi.org/10.1142/S0217732313300012)$]$
 
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+
+  Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+
 Experimental observation:
 
 * A. Hamma, W. Zhang, S. Haas, and D. A. Lidar, *Entanglement, fidelity, and topological entropy in a quantum phase transition to topological order*, Phys. Rev. B 77, 155111 (2008) ([doi:10.1103/PhysRevB.77.155111](https://doi.org/10.1103/PhysRevB.77.155111), [arXiv:0705.0026](https://arxiv.org/abs/0705.0026))
