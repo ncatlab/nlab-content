@@ -11,6 +11,7 @@ If we think of $\kappa$ as a full-fledged [[set]] in its own right (rather than 
 
 ## See also
 
+* [[n-ary operation]]
 * [[multicategory]]
 * [[multimorphism]]
 
