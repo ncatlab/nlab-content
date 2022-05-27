@@ -10,6 +10,8 @@ Identification of a contribution to [[entanglement entropy]] at [[absolute zero]
 
 * {#LevinWen06} [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) $[$[arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613), [doi:10.1103/PhysRevLett.96.110405](https://doi.org/10.1103/PhysRevLett.96.110405)$]$
 
+  > (in view of [[string-net model|string-net models]])
+
 Review:
 
 * {#Furukawa08} Shunsuke Furukawa, *Entanglement Entropy in Conventional and Topological Orders*, talk at [Topological Aspects of Solid State Physics](http://www.issp.u-tokyo.ac.jp/public/tassp/) 2008 ([pdf](http://www.issp.u-tokyo.ac.jp/public/tassp/pdf_presentation/SY_S_Furukawa.pdf), [[FurukawaEntanglementEntropy.pdf:file]])
