@@ -1,30 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A [[von Neumann algebra]] that is [[commutative]].
 
 ## Properties
 
-The category of commutative von Neumann algebras
-is a [[full subcategory]] of the category of [[von Neumann algebras]]
+The [[category]] of commutative von Neumann algebras
+is a [[full subcategory]] of that of [[von Neumann algebras]]
 and has many special properties.
 
 ## Duality
 
-The following five categories are equivalent:
+The following five categories are [[equivalence of categories|equivalent]]:
 
-* the opposite category of commutative von Neumann algebras;
-* compact strictly localizable enhanced measurable spaces;
+* the [[opposite category]] of commutative von Neumann algebras;
+* [[compact topological space|compact]] strictly localizable enhanced [[measurable spaces]];
 * [[measurable locales]];
 * [[hyperstonean locales]];
 * [[hyperstonean spaces]].
 
-This result can be seen as a measure-theoretic counterpart of the [[Gelfand duality]] between commutative unital [[C*-algebras]] and [[compact Hausdorff topological spaces]].
+This result can be seen as a [[measure theory|measure-theoretic]] counterpart of the [[Gelfand duality]] between commutative unital [[C*-algebras]] and [[compact Hausdorff topological spaces]].
 
 ## Properties
 
 From <https://mathoverflow.net/questions/384346/is-the-opposite-category-of-commutative-von-neumann-algebras-a-topos/384357#384357>:
 
-The opposite category of commutative von Neumann algebras is not a topos because categorical products with a fixed object do not always preserve small colimits.
+The [[opposite category]] of commutative von Neumann algebras is not a [[topos]] because [[Cartesian product|categorical products]] with a fixed object do not always [[preserved colimit|preserve]] [[small colimit|small]] [[colimits]].
 See Theorem 6.4 in Andre Kornell's Quantum Collections.
 
 ## Closed monoidal structure
