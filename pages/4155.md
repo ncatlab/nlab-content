@@ -109,6 +109,11 @@ On [[Tomita-Takesaki modular flow]] as emergent [[time]] evolution in [[quantum 
 [[!redirects modular conjugation]]
 [[!redirects modular conjugations]]
 [[!redirects modular flow]]
+[[!redirects modular flows]]
+[[!redirects modular automorphism]]
+[[!redirects modular automorphisms]]
+[[!redirects modular automorphism group]]
+[[!redirects modular automorphism groups]]
 
 [[!redirects Tomita theory]]
 [[!redirects Tomita modular theory]]
