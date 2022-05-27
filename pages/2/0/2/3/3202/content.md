@@ -25,6 +25,18 @@ Lebesgue spaces $L^p$ in this sense are [[normed vector spaces]] of [[functions]
 
 Beware that sometimes the notation '$L_p$' is used as a synonym for $L^p$; sometimes it is used to mean $L^{1/p}$.
 
+## Notation
+
+For historical reasons (starting with the original paper by Riesz), the exponent $p$ is traditionally taken to be the [[reciprocal]] of the “correct” exponent.
+
+If we take $M^p=L^{1/p}$, the spaces
+$M^p$ form a $\mathbf{C}$-[[graded algebra]], where $\mathbf{C}$ denotes [[complex numbers]].
+
+This is a conceptual explanation for the appearance of formulas like $1/p+1/q=1/r$ in [[Hölder's inequality]].
+
+In [[differential geometry]], the notion of [[density]] does use the “correct” grading.
+
+In the [[Tomita–Takesaki theory]], the parameter $t$ for [[modular automorphism group]] is almost the “correct” grading, except that it is multiplied by the [[imaginary unit]] $i$.
 
 ## Definitions
  {#Definition}
@@ -167,6 +179,8 @@ category: analysis
 [[!redirects L-p-spaces]]
 [[!redirects L^p space]]
 [[!redirects L^p spaces]]
+[[!redirects L^p-space]]
+[[!redirects L^p-spaces]]
 [[!redirects L_p space]]
 [[!redirects L_p spaces]]
 
@@ -176,6 +190,8 @@ category: analysis
 [[!redirects L-1-spaces]]
 [[!redirects L^1 space]]
 [[!redirects L^1 spaces]]
+[[!redirects L^1-space]]
+[[!redirects L^1-spaces]]
 [[!redirects L_1 space]]
 [[!redirects L_1 spaces]]
 
@@ -185,6 +201,8 @@ category: analysis
 [[!redirects L-2-spaces]]
 [[!redirects L^2 space]]
 [[!redirects L^2 spaces]]
+[[!redirects L^2-space]]
+[[!redirects L^2-spaces]]
 [[!redirects L_2 space]]
 [[!redirects L_2 spaces]]
 
