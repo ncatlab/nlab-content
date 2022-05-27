@@ -30,6 +30,12 @@ $$M(F)_{\ell^p\le C}$$
 for a [[finite set]] $F$ denotes the subset of $\mathbf{R}^F$
 consisting of sequence with [[l^p-norm]] at most $C$.
 
+## Related concepts
+
+* [[solid module]]
+
 ## References
 
 See [[condensed mathematics]].
+
+[[!redirects liquid vector spaces]]
