@@ -35,6 +35,8 @@ In [[functorial quantum field theory]] a correlator is simply the value of the [
 
 * [[Ward identity]]
 
+* [[entanglement]]
+
 ## References
 
 See most any text on [[quantum field theory]]/[[statistical mechanics]].
@@ -49,3 +51,6 @@ Discussion specifically of [[non-perturbative effect|non-perturbative]] [[monopo
 
 [[!redirects correlation function]]
 [[!redirects correlation functions]]
+
+[[!redirects correlation]]
+[[!redirects correlations]]
