@@ -4,9 +4,16 @@
 
 ## Selected writings
 
+
+
+
 On the [[equivariant Chern character]]:
 
-* [[Jolanta Słomińska]], *On the Equivariant Chern homomorphism*, Bull. Acad. Polon. Sci., Sér. Sci. Math. Astronom. Phys, Vol. 24 (1976), 909-913.
+* [[Jolanta Słomińska]], *On the Equivariant Chern homomorphism*, Bull. Acad. Polon. Sci., Sér. Sci. Math. Astronom. Phys. **24** (1976) 909-913
+
+On the [[Dold-Kan correspondence]]:
+
+* [[Jolanta Słomińska]], _Dold-Kan type theorems and Morita equivalences of functor categories_, Journal of Algebra **274** 1 (2004) 118-137 $[$[doi:10.1016/j.jalgebra.2003.10.025](https://doi.org/10.1016/j.jalgebra.2003.10.025)$]$
 
 On [[Hochschild homology]] and [[cyclic homology]]:
 
