@@ -80,6 +80,8 @@ on [[topological phases of matter]]/[[topological order]] characterized via conc
 
 * [[topological order]]
 
+* [[string-net]]
+
 * [[string-net model]]
 
 ### Sec. 7 -- Local Transformations and Long-Range Entanglement
@@ -106,8 +108,6 @@ on [[topological phases of matter]]/[[topological order]] characterized via conc
  {#Sec11}
 
 * [[string-net theory]]
-
-* [[string-net]]
 
 * [[string-net liquid]]
 
