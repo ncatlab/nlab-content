@@ -85,7 +85,7 @@ It is now thought that some/all of the [above](#ViaDegenerateAnyonicGroundStates
 The non-degeneraty of the ground state is related to *absence* of "[[short-range entanglement]]";
 and the existence of anyon excitations is related to the *presence* of "[[long-range entanglement]]" ([Chen, Gu & Wen 10, Sec. 5](#ChenGuWen2010)) witnessed by a non-vanishing *[[topological entanglement entropy]]* ([Kitaev & Preskill 2006](entanglement+entropy#KitaevPreskill06), [Levin & Wen 2006](entanglement+entropy#LevinWen06)).  
 
-Often one sees topological order being related also to (1) *strong interaction* and/or (2) *strong correlation* between the electrons in a crystal (while the classical [[electron band theory]] that gives rise to the widely-accepted [[K-theory classification of topological phases of matter]] assumes that it is sensible to *neglect* the interaction of electrons between each other and only retain their interaction to an effective Coulomb [[background field]]). Together With the entanglement-theoretic characterization just mentioned, the logic here seems to be the following sequence of schematic implications:
+Often one sees topological order being related also to (1) *strong interaction* and/or (2) *strong correlation* ([Wen 91 review](#Wen91Review)) between the electrons (while the classical [[electron band theory]] that gives rise to the widely-accepted [[K-theory classification of topological phases of matter]] assumes that it is sensible to *neglect* the interaction of electrons between each other and only retain their interaction to an effective Coulomb [[background field]]). Together With the entanglement-theoretic characterization just mentioned, the logic here seems to be the following sequence of schematic implications:
 
 \begin{tikzcd}[
   column sep=12pt,
@@ -109,7 +109,7 @@ Often one sees topological order being related also to (1) *strong interaction* 
     &
     \fbox{
       \begin{tabular}{c}
-      strong/long-range
+      strong
       \\
       correlation
       \end{tabular}
@@ -212,7 +212,10 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 * {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835), [doi:10.1103/PhysRevB.82.155138](https://doi.org/10.1103/PhysRevB.82.155138)$]$ 
 
 
-### Reviews
+### Review
+
+
+* {#Wen91Review} [[Xiao-Gang Wen]], *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 $[$[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)$]$
 
 Textbook account:
 
