@@ -251,6 +251,8 @@ For applications of string diagram calculus in [[perturbative quantum field theo
 
 * [[Petri net]]
 
+* [[string-net model]]
+
 ## References
 
 ### Introduction and survey
