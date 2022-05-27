@@ -24,3 +24,5 @@ The latter property is rather rare.
 ## References
 
 See [[condensed mathematics]].
+
+[[!redirects condensed abelian groups]]
