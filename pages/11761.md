@@ -12,6 +12,7 @@ The [[n-group|10-group]] which is the [[looping]] of the [[homotopy fiber]] of (
 
 * [[M9-brane]]
 
+[[!include image of J -- table]]
 [[!include higher spin structure - table]]
 
 ## References
