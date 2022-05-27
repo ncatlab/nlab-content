@@ -46,11 +46,11 @@ This is occasionally convenient; for example, one may define the notion of [[top
 
 ## Properties
 
-By the _[[basis theorem]]_ (and using the [[axiom of choice]]) every vector space admits a [[basis of a vector space|basis]].
+Every [[free object|free]] vector space admits a [[basis of a vector space|basis]]. 
+
+The _[[basis theorem]]_, which is equivalent to the [[axiom of choice]], states that every vector space is a free vector space.
 
 ## Related concepts
-
-
 
 * **vector space**, [[dual vector space]], 
 
