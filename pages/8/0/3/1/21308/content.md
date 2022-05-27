@@ -25,10 +25,13 @@
 
 ## Concepts
 
+* [[condensed set]]
 * [[condensed abelian group]]
+* [[solid abelian group]]
 * [[liquid vector space]]
 * [[trace-class map]]
 * [[analytic geometry]]
+* [[condensed infinity-groupoid]]
 
 * [[solid module]]
 * [[liquid module]]
