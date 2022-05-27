@@ -1,6 +1,3 @@
-[[!redirects lattice in a vector space]]
-[[!redirects lattice in a vector space]]
-
 > This entry is about the notion of _lattice_ in [[group theory]]/[[quadratic form]]-theory. For other notions see at _[[lattice (disambiguation)]]_.
 
 ***
@@ -25,7 +22,7 @@ Notable examples of classical lattices (in $\mathbb{R}^n$) include
 
 * [[Leech lattice]], [[E8 lattice]] 
 
-The standard diagonal inclusion of a [[global field]] (such as a [[number field]]) $k$ into its [[ring of adeles]] $A_k$ is a lattice in the more general sense. Recalling that $A_k$ is Pontryagin dual to itself in a standard way, the lattice $k$ is identified with its dual lattice. 
+The standard diagonal inclusion of a [[global field]] (such as a [[number field]]) $k$ into its [[ring of adeles]] $A_k$ is a lattice in the more general sense. Recalling that $A_k$ is Pontryagin dual to itself, the lattice $k$ is identified with its dual lattice. 
 
 
 ## Related concepts
@@ -42,6 +39,10 @@ The standard diagonal inclusion of a [[global field]] (such as a [[number field]
 
 * [[crystallographic group]]
 
+* [[lattice model]]
+
+  * [[lattice gauge theory]]
+
 ## References
 
 * A. E. Brouwer, _Lattices_, Course notes (2002) ([pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf))
@@ -55,3 +56,5 @@ The standard diagonal inclusion of a [[global field]] (such as a [[number field]
 [[!redirects lattice in a vector space]]
 
 [[!redirects lattices in a vector space]]
+
+[[!redirects lattice (in a vector space, etc.)]]
