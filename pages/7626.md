@@ -80,6 +80,8 @@ for abelian anyons:
 
 
 
+
+
 ### Experimental detection of anyons
  {#ExperimentalRealization}
 
@@ -101,10 +103,39 @@ The claimed observation of abelian anyons is apparently more securely establishe
 * Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News July 10, 2020  ([phys.org/news/2020-07](https://phys.org/news/2020-07-evidence-anyons.html))
 
 
+
+
+
+
+
 [[!include anyonic braiding in momentum space -- references]]
 
 
+
+
+### Vortex anyons in BECs
+
+[[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
+
+* B. Paredes, P. Fedichev, J. I. Cirac, P. Zoller *1/2-Anyons in small atomic Bose-Einstein condensates*, Phys. Rev. Lett. **87** (2001) 010402 $[$[arXiv:cond-mat/0103251](https://arxiv.org/abs/cond-mat/0103251), [doi:10.1103/PhysRevLett.87.010402](https://doi.org/10.1103/PhysRevLett.87.010402)$]$
+
+
+* Thomas Mawson, Timothy Petersen, Joost Slingerland, Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
+
+
+
+
+
+
 [[!include topological quantum computation with anyons -- references]]
+
+
+
+
+
+
+
+
 
 
 [[!redirects braid statistics]]
