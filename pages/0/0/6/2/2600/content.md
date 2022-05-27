@@ -130,7 +130,7 @@ where the subobjects are those consisting of 3-simplices in $G$ with 2-faces lab
 
 ## Related concepts
 
-**fivebrane 6-group** $\to$ [[string 2-group]] $\to$ [[spin group]] $\to$  [[special orthogonal group]] $\to$ [[orthogonal group]]
+[[!include image of J -- table]]
 
 ## References
 
