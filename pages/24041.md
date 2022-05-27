@@ -1,4 +1,6 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -67,4 +69,13 @@ Review and exposition:
 
 [[!redirects string net model]]
 [[!redirects string net models]]
+
+[[!redirects string-net]]
+[[!redirects string-nets]]
+
+
+[[!redirects string net]]
+[[!redirects string nets]]
+
+
 
