@@ -185,6 +185,8 @@ If the [[electromagnetic field|Coulomb]] interaction between the electrons -- wh
 
 * [[TQFT]], [[Chern-Simons theory]]
 
+* [[string-net model]]
+
 * [[quantum computing]]
 
 * [[modular tensor category]]
