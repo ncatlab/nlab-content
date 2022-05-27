@@ -37,7 +37,7 @@ $$
 
 =--
 
-In [[graph theory]], a set equipped with a partial order is a directed acyclic graph, with the partial order representing the reachability relation of the graph, and the linear extension of the reachability relation is called a **topological order**. 
+{#TopologicalOrder} In [[graph theory]], a set equipped with a partial order is an acyclic [[directed  graph]], with the partial order representing the reachability relation of the graph, and any linear extension of the reachability relation is called a **topological order**. 
 
 ## Properties
 
@@ -60,7 +60,7 @@ The rest is a routine application of compactness for [[propositional theories]].
 
 ## References
 
-* {#Marczewski30} Edward Marczewski, _Sur l'extension de l'ordre partiel_, Fundamenta Mathematicae, 16: 386–389 (1930) ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm16/fm16125.pdf))
+* {#Marczewski30} [[Edward Marczewski]], _Sur l'extension de l'ordre partiel_, Fundamenta Mathematicae **16** (1930) 386–389 $[$[dml:212499](https://eudml.org/doc/212499), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm16/fm16125.pdf)$]$
 
 See also
 
@@ -68,6 +68,10 @@ See also
 
 * Wikipedia, _[Topological ordering](https://en.wikipedia.org/wiki/Topological_ordering)
 
+[[!redirects linear extension of partial orders]]
 [[!redirects linear extensions of partial orders]]
+
 [[!redirects topological ordering]]
 [[!redirects topological orderings]]
+
+
