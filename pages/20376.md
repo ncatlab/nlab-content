@@ -24,6 +24,8 @@ A [[model (in theoretical physics)]] whose underlying [[spacetime]] is a [[latti
 
 * [[lattice gauge theory]]
 
+* [[string-net model]]
+
 ## Related concepts
 
 * [[semi-holomorphic 4d Chern-Simons theory]]
