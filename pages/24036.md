@@ -95,6 +95,18 @@ on [[topological phases of matter]]/[[topological order]] characterized via conc
 
 ## Part V -- Outlook
 
+### Sec. 11 -- A Unification of Information and Matter
+
+* [[string-net theory]]
+
+* [[string-net]]
+
+* [[string-net liquid]]
+
+* [[string-net condensation]]
+
+... an article should be made about the string-net description of [[gauge theory]], as detailed in this chapter. 
+
 \linebreak
 
 ***
