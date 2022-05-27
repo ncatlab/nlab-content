@@ -102,6 +102,7 @@ on [[topological phases of matter]]/[[topological order]] characterized via conc
 ## Part V -- Outlook
 
 ### Sec. 11 -- A Unification of Information and Matter
+ {#Sec11}
 
 * [[string-net theory]]
 
