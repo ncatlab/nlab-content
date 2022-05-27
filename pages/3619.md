@@ -119,7 +119,11 @@ Introduction:
 
 * Dagmar Bruss, _Characterizing entanglement_, J. Math. Phys. 43, 4237 (2002) [arXiv:quant-ph/0110078](http://arxiv.org/abs/quant-ph/0110078) [doi](http://dx.doi.org/10.1063/1.1494474)
 
-In a context of [[entanglement entropy]] of [[topological phases of matter]]:
+In relation to *[[correlation]]*:
+
+* {#LuoLuo03} Shun-long Luo, You-feng Luo, *Correlation and Entanglement*, Acta Mathematicae Applicatae Sinica **19** (2003) 581–598 $[$[doi:10.1007/s10255-003-0133-z](https://doi.org/10.1007/s10255-003-0133-z)$]$
+
+and in the context of [[entanglement entropy]] of [[topological phases of matter]]:
 
 * [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
