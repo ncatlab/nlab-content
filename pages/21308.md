@@ -25,12 +25,14 @@
 
 ## Concepts
 
+* [[condensed abelian group]]
 * [[liquid vector space]]
+* [[trace-class map]]
+* [[analytic geometry]]
+
 * [[solid module]]
 * [[liquid module]]
 * [[nuclear module]]
-* [[trace-class map]]
-* [[analytic geometry]]
 * [[analytic ring]]
 
 ## Related entries
