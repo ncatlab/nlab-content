@@ -602,24 +602,23 @@ One may view the (monoidal) Dold-Kan correspondence as a relation between a well
 
 ## References
 
+The original articles:
 
-Historical references for the Dold--Kan correspondence are
+* {#Dold58} [[Albrecht Dold]], *Homology of symmetric products and other functors of complexes*, Annals of Mathematics Second Series **68** 1 (Jul., 1958) 54-80  ([jstor:1970043](http://www.jstor.org/stable/1970043))
 
-* {#Dold58} [[Albrecht Dold]], _Homology of symmetric products and other functors of complexes_, Annals of Mathematics Second Series, Vol. 68, No. 1 (Jul., 1958), pp. 54-80  ([jstor:1970043](http://www.jstor.org/stable/1970043))
+considers the correspondence for categories of [[modules]], and
 
-which considers the correspondence for categories of [[modules]], and
+* {#DoldPuppe61} [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Annales de l'institut Fourier **11** (1961) 201-312  $[$[eudml:73776](https://eudml.org/doc/73776)$]$
 
-* {#DoldPuppe61} [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendungen_, Annales de l'institut Fourier, 11 (1961), p. 201-312  ([eudml](https://eudml.org/doc/73776))
+generalizes the result to arbitrary [[abelian category|abelian categories]].
 
-that generalizes the result to arbitrary [[abelian category|abelian categories]].
+The general expression of the correspondence in terms of [[nerve and realization]] is due to
 
-The expression of the correspondence in terms of [[nerve and realization]] is due to
-
-* {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor:1993103](http://www.jstor.org/stable/1993103)).
+* {#Kan58} [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, **87** 2 (March 1958) 330-346 ([jstor:1993103](http://www.jstor.org/stable/1993103)).
   
-  > This remarkable article, which appeared shortly after the work by Dold and Puppe but was apparently not influenced by that, introduces not just the abstract [[nerve and realization]] form of the Dold-Kan correspondence, but introduces the general notion of nerve and realization and in fact the general notion of what is now called [[Kan extension]].
+  > This remarkable article introduces not just the abstract [[nerve and realization]] form of the Dold-Kan correspondence, but introduces the general notion of nerve and realization and in fact the general notion of what is now called *[[Kan extension]]*.
 
-The Dold-Kan corresondence as a [[Quillen equivalence]] between the [[model structure on simplicial abelian groups]] and the projective [[model structure on chain complexes]] is due to
+The Dold-Kan correspondence as a [[Quillen equivalence]] between the [[model structure on simplicial abelian groups]] and the projective [[model structure on chain complexes]] is due to
 
 * {#Quillen67} [[Daniel Quillen]], Section II.4 item 5 in: _[[Homotopical Algebra]]_, Lecture Notes in Mathematics 43, Springer 1967([doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438))
 
@@ -682,7 +681,7 @@ Categories in algebra, geometry and mathematical physics , volume 431 of Contemp
 
 The classical Dold-Kan theorem occurs as a special case among others from [[combinatorics]] and [[representation theory]], and in particular from homological stability, in:
 
-* {#Slomiiska} Jolanta Słomińska, _Dold-Kan type theorems and Morita equivalences of functor categories_, Journal of Algebra 274.1 (2004): 118-137. ([link](https://doi.org/10.1016/j.jalgebra.2003.10.025))
+* {#Slomiiska} [[Jolanta Słomińska]], _Dold-Kan type theorems and Morita equivalences of functor categories_, Journal of Algebra **274** 1 (2004) 118-137 $[$[doi:10.1016/j.jalgebra.2003.10.025](https://doi.org/10.1016/j.jalgebra.2003.10.025)$]$
 
 A similar framework was independently rediscovered in:
 
@@ -690,7 +689,7 @@ A similar framework was independently rediscovered in:
 
 A stable homotopical version of these general correspondences was developed in:
 
-* {#Helmstutler} Randall Helmstutler, _Model category extensions of the Pirashvili-S?omi?ska theorems_, arxiv:0806.1540 ([link](https://arxiv.org/abs/0806.1540)).
+* {#Helmstutler} Randall Helmstutler, _Model category extensions of the Pirashvili-Słomińska theorems_ $[$[arXiv:0806.1540](https://arxiv.org/abs/0806.1540))$]$
 
 Among the correspondences "of Dold-Kan type" included in this theory are an equivalence between FI-modules and linear combinatorial species:
 
