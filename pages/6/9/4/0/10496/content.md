@@ -195,7 +195,7 @@ The proposal that ground state degeneracy is a signature of "topological order":
 
 * {#Wen89} [[Xiao-Gang Wen]], *Vacuum degeneracy of chiral spin states in compactified space*, Phys. Rev. B **40** (1989) 7387(R) $[$[doi:10.1103/PhysRevB.40.7387](https://doi.org/10.1103/PhysRevB.40.7387)$]$
 
-* {#WenNiu90} [[Xiao-Gang Wen]],  Q. Niu, *Ground-state degeneracy of the fractional quantum Hall states in the presence of a random potential and on high-genus Riemann surfaces*, Phys. Rev. B **41** (1990) 9377
+* {#WenNiu90} [[Xiao-Gang Wen]],  Q. Niu, *Ground-state degeneracy of the fractional quantum Hall states in the presence of a random potential and on high-genus Riemann surfaces*, Phys. Rev. B **41** (1990) 9377 $[$[doi:10.1103/PhysRevB.41.9377](https://doi.org/10.1103/PhysRevB.41.9377)$]$
 
 * {#Wen91} [[Xiao-Gang Wen]], *Non-Abelian statistics in the fractional quantum Hall states*, Phys. Rev. Lett. **66** (1991) 802 ([doi:10.1103/PhysRevLett.66.802](https://doi.org/10.1103/PhysRevLett.66.802))
 
@@ -209,7 +209,7 @@ The additional requirement that the Berry connection be non-abelian (and/or the 
 
 Suggestion that [[topological order]] goes along with [[long-range entanglement]]:
 
-* {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835)$]$ 
+* {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835), [doi:10.1103/PhysRevB.82.155138](https://doi.org/10.1103/PhysRevB.82.155138)$]$ 
 
 
 ### Reviews
