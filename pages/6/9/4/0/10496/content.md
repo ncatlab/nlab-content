@@ -55,7 +55,7 @@ The definition is traditionally a little vague, but the hallmark of a *topologic
 
 1. [[anyon]] excitations/defects whose [[wavefunctions]] constitute [[braid group representations]] ("[[anyon statistics|fractional statistics]]").
 
-The original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09). Or maybe the claim is rather that two distinct topological orders may have the same ground state degeneracy but be distinguished by their Berry connections.
+The original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Wen 91 review](#Wen91Review) (then also [Gu & Wen 09, p. 2](#GuWen09)). Or maybe the claim is rather that two distinct topological orders may have the same ground state degeneracy but be distinguished by their Berry connections.
 
 
 \begin{remark}\label{RelationBetweenDefiningConditions}
@@ -82,10 +82,14 @@ However, there are also non-trivial "abelian anyons", namely braid group represe
 
 It is now thought that some/all of the [above](#ViaDegenerateAnyonicGroundStates) characteristics may be captured [[quantum information theory|quantum information theoretically]] in terms of the [[entanglement entropy]] of the [[ground state]]:
 
-The non-degeneraty of the ground state is related to *absence* of "[[short-range entanglement]]";
+The non-degeneracy of the ground state is related to *absence* of "[[short-range entanglement]]";
 and the existence of anyon excitations is related to the *presence* of "[[long-range entanglement]]" ([Chen, Gu & Wen 10, Sec. 5](#ChenGuWen2010)) witnessed by a non-vanishing *[[topological entanglement entropy]]* ([Kitaev & Preskill 2006](entanglement+entropy#KitaevPreskill06), [Levin & Wen 2006](entanglement+entropy#LevinWen06)).  
 
-Often one sees topological order being related also to (1) *strong interaction* and/or (2) *strong correlation* ([Wen 91 review](#Wen91Review)) between the electrons (while the classical [[electron band theory]] that gives rise to the widely-accepted [[K-theory classification of topological phases of matter]] assumes that it is sensible to *neglect* the interaction of electrons between each other and only retain their interaction to an effective Coulomb [[background field]]). Together With the entanglement-theoretic characterization just mentioned, the logic here seems to be the following sequence of schematic implications:
+Often one sees topological order being related also to (1) *strong interaction* and/or (2) *strong quantum correlation* ([Wen 91 review](#Wen91Review)) between the electrons (while the classical [[electron band theory]] that gives rise to the widely-accepted [[K-theory classification of topological phases of matter]] assumes that it is sensible to *neglect* the interaction of electrons between each other and only retain their interaction to an effective Coulomb [[background field]]).
+
+{#BewareOfCorrelation} Beware that the use of the term "correlation" in the context of topological order (cf. [Wen 91 review ](#Wen91Review)) is always meant as "quantum correlation" and specifically as "non-classical quantum correlation"  and as such used as a synonym for *[[quantum entanglement]]* (cf. [ZCZW 19, §1.5](#ZCZW19) and generally [Luo & Luo 03, p. 3](entanglement#LuoLuo03)). In contrast, long-range *classical correlation* is indicative of *non-topological* [[Landau theory]]-phases and hence the opposite of what is relevant here. 
+ 
+Together with the entanglement-theoretic characterization just mentioned, the logic here seems to be the following sequence of schematic implications:
 
 \begin{tikzcd}[
   column sep=12pt,
@@ -109,12 +113,12 @@ Often one sees topological order being related also to (1) *strong interaction* 
     &
     \fbox{
       \begin{tabular}{c}
-      strong
+      strong/long-range
       \\
-      correlation
+      quantum correlation
       \end{tabular}
     }
-    \ar[r, Rightarrow]
+    \ar[r, Leftrightarrow]
     &
     \fbox{
       \begin{tabular}{c}
@@ -123,7 +127,7 @@ Often one sees topological order being related also to (1) *strong interaction* 
         entanglement
       \end{tabular}
     }
-    \ar[r, Leftrightarrow]
+    \ar[r, Rightarrow]
     &
     \fbox{
       \begin{tabular}{c}
@@ -152,7 +156,9 @@ Often one sees topological order being related also to (1) *strong interaction* 
     }
 \end{tikzcd}
 
-The first steps in this sequence should be intuitively plausible (but it is hard to come by a reference which would state this explicitly and argue it more theoretically): If the [[electromagnetic field|Coulomb]] interaction between the electrons -- which by itself is certainly strong and long-range -- cannot be neglected (hence if the averaging- or screening-effects that make [[electron band theory]] work do not apply) then this strong interaction makes the electrons in the ground state be correlated with each other, one way or other, across non-negligible distances; and quantum mechanically this leads to the ground state's entanglement entropy having long-range contributions, which,  essentially by definition, means that it has a constant contribution by the *topological* entanglement entropy.
+The first steps in this sequence is intuitively plausible and widely expected to hold (eg. [Lu & Viyah 2022, p. 1](entanglement+entropy#LuVijay22)) but not currently derivable from first principles ([Zaanen, Liu, Sun & Schalm 2015, p. 527](entanglement+entropy#ZaanenLiuSunSchalm15)):
+ 
+If the [[electromagnetic field|Coulomb]] interaction between the electrons -- which by itself is certainly strong and long-range -- cannot be neglected (hence if the averaging- or screening-effects that make [[electron band theory]] work do not apply) then this strong interaction makes the electrons in the ground state be correlated with each other, one way or other, across non-negligible distances; and quantum mechanically this leads to the ground state's entanglement entropy having long-range contributions, which,  essentially by definition, means that it has a constant contribution by the *topological* entanglement entropy.
 
 ## Examples
  {#Examples}
@@ -219,7 +225,7 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 
 Textbook account:
 
-* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+* {#ZCZW19} [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
   Part III of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
