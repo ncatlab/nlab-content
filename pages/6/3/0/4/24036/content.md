@@ -79,6 +79,8 @@ on [[topological phases of matter]]/[[topological order]] characterized via conc
 
 * [[topological order]]
 
+* [[string-net model]]
+
 ### Sec. 7 -- Local Transformations and Long-Range Entanglement
 
 * [[long-range entanglement]]
