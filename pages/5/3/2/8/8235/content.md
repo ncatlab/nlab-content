@@ -2,6 +2,6 @@
 
 * In [[order theory]]/[[logic]]: _[[lattice]]_ .
 
-* In [[module]]-theory / [[quadratic form]]-theory: _[[lattice in a vector space]]_ .
+* In [[group theory]] / [[module]]-theory / [[quadratic form]]-theory: _[[ lattice (discrete subgroup)]]_ .
 
 category: disambiguation
