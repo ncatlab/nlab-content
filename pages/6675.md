@@ -107,9 +107,14 @@ This means that while every individual loop in $Conf_N(\mathbb{R}^3)$ is homotop
 
 ## Related concepts
 
-* [[quantum Hall effect]], [[anyons]]
+* [[quantum Hall effect]]
+
+* [[anyons]]
+
+* [[topological order]]
 
 * [[topological phase of matter]]
+
 
 ## References
 
