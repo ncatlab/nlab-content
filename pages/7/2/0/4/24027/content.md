@@ -39,6 +39,24 @@ See also:
 
 * Tatsuma Nishioka, Tadashi Takayanagi, Yusuke Taki, *Topological pseudo entropy* ([arXiv:2107.01797](https://arxiv.org/abs/2107.01797))
 
+#### Relation to strong interaction
+ {#ReferencesLongRangeEntanglementRelationToStrongInteraction}
+
+Relation of [[long-range entanglement]] to strong [[interaction]]:
+
+
+* {#ZaanenLiuSunSchalm15} [[Jan Zaanen]], Yan Liu, Ya-Wen Sun, [[Koenraad Schalm]], _Holographic Duality in Condensed Matter Physics_, Cambridge University Press 2015 $[$[doi:10.1017/CBO9781139942492](https://doi.org/10.1017/CBO9781139942492)$]$
+
+  > In a way it appears obvious that the strongly interacting bosonic quantum critical state is subject to long-range entanglement. Nonetheless, the status of this claim is conjectural.
+
+  > It is at present impossible to arrive at more solid conclusions that are based on rigorous mathematical procedures. It does illustrate emphatically the central challenge in the pursuit of field-theoretical quantum information: there are as yet not general measures available to precisely enumerate the meaning of long- range entanglement in such seriously quantum field-theoretical systems. $[$p. 527$]$
+
+
+* {#LuVijay22} Tsung-Cheng Lu, Sagar Vijay, *Characterizing Long-Range Entanglement in a Mixed State Through an Emergent Order on the Entangling Surface* $[$[arXiv:2201.07792](https://arxiv.org/abs/2201.07792)$]$
+
+  > strongly interacting quantum phases of matter at zero temperature can exhibit universal patterns of long-range entanglement
+
+
 
 #### Simulation and experiment
 
