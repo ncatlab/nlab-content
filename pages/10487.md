@@ -25,6 +25,11 @@ Introducing and developing the notion of [[topological order]]:
 
 * {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 $[$[arXiv:cond-mat/9506066v2](https://arxiv.org/abs/cond-mat/9506066v2), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)$]$
 
+Early review:
+
+* {#Wen91Review} [[Xiao-Gang Wen]] *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 $[$[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)$]$
+
+
 The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
 
 * {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], p. 2 of:  *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
