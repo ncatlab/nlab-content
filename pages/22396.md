@@ -48,7 +48,7 @@ See Theorem 6.4 in Andre Kornell's Quantum Collections.
 
 ## Closed monoidal structure
 
-The opposite category of commutative von Neumann algebras admits a noncartesian closed monoidal structure, where the monoidal product corresponds to the spatial product of measurable spaces.
+The [[opposite category]] of commutative von Neumann algebras admits a non-[[cartesian monoidal category|cartesian]] [[closed monoidal category|closed monoidal structure]], where the [[tensor product|monoidal product]] corresponds to the spatial product of measurable spaces.
 
 ## Related concepts
 
