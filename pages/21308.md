@@ -25,6 +25,7 @@
 
 ## Concepts
 
+* [[liquid vector space]]
 * [[solid module]]
 * [[liquid module]]
 * [[nuclear module]]
