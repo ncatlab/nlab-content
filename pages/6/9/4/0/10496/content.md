@@ -37,24 +37,30 @@ $$
 
 but not the other way around.
 
+Specifically, the [[ground state]] of a topologically ordered material is rich in structure (besides being topologically stable), which need not be the case for a general topological phase. In particular a topologically ordered ground state is "degenerate" (a standard but somewhat unfortunate jargon in this context: it really refers to the *[[energy]]* [[eigenvalues]] being degenerate) in that there is a $\geq 2$-dimensional Hilbert space of [[quantum states]] that all have the same lowest energy (within experimentally relevant approximation). 
+
+Moreover, for this to qualify as topologically ordered, one typically demands that in its degenerate ground state the system may exhibit "[[anyon|anyonic]] [[defects]]". A popular more succinct way of making this somewhat more precise is to say that the [[dynamics]] of (the [[electrons]] in) a topologically ordered material, when restricted to the energy=0 ground states, is a [[topological field theory]] equal or akin to a [[Chern-Simons theory]] with [[Wilson line]]-insertions: these Wilson lines being the [[worldlines]] of the [[anyon]]-[[defects]]. 
+
+In short then, topological order is meant to be that aspect of [[topological phases of matter]] related to the existence of [[anyons]] in the material, in one way or other. Via this relation, topological order is closely related to considerations in [[topological quantum computation]].
+
+
+### Via degenerate anyonic ground states
+ {#ViaDegenerateAnyonicGroundStates}
+
 The definition is traditionally a little vague, but the hallmark of a *topological order* is meant to be the presence, in a [[topological phase of matter|topological phase]], of some or preferably all of the following phenomena ([Gu & Wen 09, p. 2](#GuWen09)):
 
-1. degenerate [[ground state]] ([Wen 89, p. 4](#Wen89), [Wen 95, Sec. 1.1](#Wen95)) 
+1. degenerate [[ground state]] ([Wen 89, p. 4](#Wen89), [Wen 95, Sec. 1.1](#Wen95));  
 
 1. [[Berry connection]] with [[non-abelian group|non-abelian]] [[holonomy]];
 
-1. [[anyon]] excitations/defects whose [[wavefunctions]] constitute [[braid group representations]].
+1. [[anyon]] excitations/defects whose [[wavefunctions]] constitute [[braid group representations]] ("[[anyon statistics|fractional statistics]]").
 
-The first point is related to *absence* of "[[short-range entanglement]]");
-and the last point to "[[long-range entanglement]]" ([Chen, Gu & Wen 10, Sec. 5](#ChenGuWen2010)) witnessed by a non-vanishing *[[topological entanglement entropy]]* of the ground state.
+The original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09). Or maybe the claim is rather that two distinct topological orders may have the same ground state degeneracy but be distinguished by their Berry connections.
 
-In particular, the original articles ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95)) proposed to declare that [[topological phase of matter|topological phases]] with distinct ground state degeneracy exhibit distinct topological order. The demand that also the [[Berry connection]] should be non-abelian for there to be a topological order seems to appear first in [Gu & Wen 09, p. 2](#GuWen09).
 
 \begin{remark}\label{RelationBetweenDefiningConditions}
 **(relation between these conditions)**
 \linebreak
-These above conditions are not exactly equivalent to each other (as far as they are well-defined at all), but closely related. For [[crystal|crystalline]] materials one can say the following, in more detail:
-
 By "degenerate ground state" one just means that the sub-[[Hilbert space]] of [[quantum states]] (for crystalline materials these are the quantum states of  [[electrons]] in the crystal lattice of [[atomic nuclei]]) of those that have the lowest possible [[energy]], has [[dimension of a vector space|dimension]] $\geq 2$.
 
 {#RelationToSRE} (It has been proposed that the presence of "[[short-range entanglement]]" in [[quantum materials]] implies that the ground state Hilbert space is 1-dimensional. In this sense, the condition that the ground state be degenerate implies that there is *no* "[[short-range entanglement]]" if there is "topological order".)
@@ -71,18 +77,96 @@ However, there are also non-trivial "abelian anyons", namely braid group represe
   
 \end{remark}
 
-In other words (by a previous author of this entry):
+### Via topological entanglement entropy
+ {#ViaTopologicalEntanglementEntropy}
 
-Topological order is an order in quantum [[phase of matter]] which is beyond Landau [[symmetry breaking]] order. At long distance
-and low energy (ie at macroscopic level), topological order is 
-defined by [[topological degeneracy]] (see [Wikipedia](http://en.wikipedia.org/wiki/Topological_degeneracy)) of the ground states and the non-Abelian geometric phases (see [Wilczek & Zee, 1984](#WilczekZee1984)) obtained by deforming the degenerate ground states. The low energy effective theory of a
-topologically ordered state is
- a [[topological quantum field theory]]. It has many universal properties that are (by definition) invariant under any small smooth deformations of space-time (or any small deformation of Hamiltonian). The excitations in a topologically ordered state typically have fractional or non-Abelian statistics (for most topological orders in 2+1D).
-At microscopic level, topological order corresponds to patterns of long-range [[entanglement]] in the ground state defined by the [[local unitary transformation]]s (see [Chen et al, 2010](#ChenGuWen2010)).
+It is now thought that some/all of the [above](#ViaDegenerateAnyonicGroundStates) characteristics may be captured [[quantum information theory|quantum information theoretically]] in terms of the [[entanglement entropy]] of the [[ground state]]:
 
-Examples: [[quantum Hall effect]], [[non-abelian anyon|non-Abelian quantum Hall state]] (see [Wikipedia](http://en.wikipedia.org/wiki/Anyon#Non-abelian_anyons)), [[chiral spin state|chiral spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Topological_order#Chiral_spin_states)), [[Z2 topological order|Z2 spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Quantum_spin_liquid#Realizations_of_.28stable.29_RVB_states))
+The non-degeneraty of the ground state is related to *absence* of "[[short-range entanglement]]";
+and the existence of anyon excitations is related to the *presence* of "[[long-range entanglement]]" ([Chen, Gu & Wen 10, Sec. 5](#ChenGuWen2010)) witnessed by a non-vanishing *[[topological entanglement entropy]]* ([Kitaev & Preskill 2006](entanglement+entropy#KitaevPreskill06), [Levin & Wen 2006](entanglement+entropy#LevinWen06)).  
 
-* applications in [[topological quantum computing]], study of [[entanglement]], classification of gapped quantum phases, etc. 
+Often one sees topological order being related also to (1) *strong interaction* and/or (2) *strong correlation* between the electrons in a crystal (while the classical [[electron band theory]] that gives rise to the widely-accepted [[K-theory classification of topological phases of matter]] assumes that it is sensible to *neglect* the interaction of electrons between each other and only retain their interaction to an effective Coulomb [[background field]]). Together With the entanglement-theoretic characterization just mentioned, the logic here seems to be the following sequence of schematic implications:
+
+\begin{tikzcd}[
+  column sep=12pt,
+  row sep=-2pt,
+]
+  \mathrlap{
+    \mbox{
+      \hspace{-2cm}
+      topological phase with...
+    }
+  }
+  \\
+    \fbox{
+      \begin{tabular}{c}
+      strong/long-range
+      \\
+      interaction
+      \end{tabular}
+    }
+    \ar[r, Rightarrow]
+    &
+    \fbox{
+      \begin{tabular}{c}
+      strong/long-range
+      \\
+      correlation
+      \end{tabular}
+    }
+    \ar[r, Rightarrow]
+    &
+    \fbox{
+      \begin{tabular}{c}
+        long-range 
+        \\
+        entanglement
+      \end{tabular}
+    }
+    \ar[r, Leftrightarrow]
+    &
+    \fbox{
+      \begin{tabular}{c}
+        topological 
+        \\
+        entanglement 
+        \\
+        entropy
+      \end{tabular}
+    }
+    \ar[r, Leftrightarrow]
+    &
+    \fbox{
+      \begin{tabular}{c}
+      topological
+      \\
+      order
+      \end{tabular}
+    }
+    \ar[r, Leftrightarrow]
+    &
+    \fbox{
+      \begin{tabular}{c}
+      anyons
+      \end{tabular}
+    }
+\end{tikzcd}
+
+The first steps in this sequence should be intuitively plausible (but it is hard to come by a reference which would state this explicitly and argue it more theoretically): If the [[electromagnetic field|Coulomb]] interaction between the electrons -- which by itself is certainly strong and long-range -- cannot be neglected (hence if the averaging- or screening-effects that make [[electron band theory]] work do not apply) then this strong interaction makes the electrons in the ground state be correlated with each other, one way or other, across non-negligible distances; and quantum mechanically this leads to the ground state's entanglement entropy having long-range contributions, which,  essentially by definition, means that it has a constant contribution by the *topological* entanglement entropy.
+
+## Examples
+ {#Examples}
+
+> under construction
+
+* [[quantum Hall effect]]
+
+* [[non-abelian anyon|non-Abelian quantum Hall state]] (see [Wikipedia](http://en.wikipedia.org/wiki/Anyon#Non-abelian_anyons))
+
+* [[chiral spin state|chiral spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Topological_order#Chiral_spin_states))
+
+* [[Z2 topological order|Z2 spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Quantum_spin_liquid#Realizations_of_.28stable.29_RVB_states))
+
 
 
 ## Related concepts
