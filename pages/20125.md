@@ -216,13 +216,19 @@ Concrete materials:
 * A. Kshetrimayum, C. Balz, B. Lake, [[Jens Eisert]], _Tensor network investigation of the double layer Kagome compound $Ca_{10} Cr_{7} O_{28}$_ ([arXiv:1904.00028](https://arxiv.org/abs/1904.00028))
 
 
-### Relation to (topological) phases of matter
+
 
 Classification of ([[topological phases of matter|topological]]) [[phases of matter]] via [[tensor network states]]:
 
 * C. Wille, O. Buerschaper, [[Jens Eisert]], _Fermionic topological quantum states as tensor networks_, Phys. Rev. B 95, 245127 (2017) ([arXiv:1609.02574](https://arxiv.org/abs/1609.02574))
 
 * Andreas Bauer, [[Jens Eisert]], Carolin Wille, _Towards a mathematical formalism for classifying phases of matter_ ([arXiv:1903.05413](https://arxiv.org/abs/1903.05413))
+
+Tensor networks for [[string-net models]] for [[topological order]]:
+
+On [[string-net models]] via [[tensor networks]]:
+
+* [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 $[$[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)$]$  
 
 
 
