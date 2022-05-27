@@ -11,6 +11,8 @@ The low degrees  in the [[Whitehead tower]] of the [[orthogonal group]] are clos
 
 To which extent and in which sense this matching with [[brane]] [[physics]] continues is not entirely clear. [[Hisham Sati]] gives arguments that co-killing the next [[integer]] [[homotopy group]] $\pi_{11}(O)$ corresponds to the [[M9-brane]]. Therefore one might call the corresponding stage in the [[Whitehead tower]] the _ninebrane group_. This suggestion appeared in ([Sati-Schreiber-Stasheff 08](#SatiSchreiberStasheff08))
 
+## Related concepts 
+
 [[!include image of J -- table]]
 
 ## References
