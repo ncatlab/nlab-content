@@ -44,7 +44,7 @@ On the [[quantum adiabatic theorem]] in the context of [[topological phases of m
 * [[Mathew B. Hastings]], [[Xiao-Gang Wen]], *Quasiadiabatic continuation of quantum states: The stability of topological ground-state degeneracy and emergent gauge invariance* ([arXiv:cond-mat/0503554](https://arxiv.org/abs/cond-mat/0503554), [doi:10.1103/PhysRevB.72.045141](https://doi.org/10.1103/PhysRevB.72.045141))
 
 
-Introducing the [[Levin-Wen model]]:
+Introducing [[string-net models]] and the [[Levin-Wen model]]:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 ([arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617))
 
@@ -55,13 +55,18 @@ Introducing the [[3d toric code]]:
 
 
 
-Introducing [[topological entanglement entropy]]:
+Introducing [[topological entanglement entropy]] in view of [[string-net models]]:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
 
 Introducing the notion of [[symmetry protected topological phases]]:
 
 * {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
+
+On [[string-net models]] via [[tensor networks]]:
+
+* [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 $[$[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)$]$  
+
 
 On the classification of free fermion [[SPTs]]:
 
