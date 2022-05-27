@@ -17,6 +17,8 @@ The latter property is rather rare.
 
 ## Related concepts
 
+* [[solid abelian group]]
+
 * [[liquid vector space]]
 
 * [[solid module]]
