@@ -4,9 +4,9 @@
 
 Identification of a contribution to [[entanglement entropy]] at [[absolute zero]] which is independent of the [[subsystem]]'s size ("[[topological entanglement entropy]]", "[[long-range entanglement]]"), reflecting [[topological order]] and proportional to the total [[quantum dimension]] of [[anyon|anyon excitations]]: 
 
-* [[Alexei Kitaev]], [[John Preskill]], *Topological entanglement entropy*, Phys. Rev. Lett. 96 (2006) 110404 ([arXiv:hep-th/0510092](https://arxiv.org/abs/hep-th/0510092))
+* {#KitaevPreskill06} [[Alexei Kitaev]], [[John Preskill]], *Topological entanglement entropy*, Phys. Rev. Lett. 96 (2006) 110404 ([arXiv:hep-th/0510092](https://arxiv.org/abs/hep-th/0510092))
 
-* [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
+* {#LevinWen06} [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
 
 Review:
 
