@@ -228,6 +228,8 @@ Tensor networks for [[string-net models]] for [[topological order]]:
 
 On [[string-net models]] via [[tensor networks]]:
 
+* O. Buerschaper, M. Aguado, G. Vidal, *Explicit tensor network representation for the ground states of string-net models*, Phys. Rev. B **79** (2009) 085119 $[$[arXiv:0809.2393](https://arxiv.org/abs/0809.2393), [doi:10.1103/PhysRevB.95.195110](https://doi.org/10.1103/PhysRevB.95.195110)$]$
+
 * [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 $[$[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)$]$  
 
 
