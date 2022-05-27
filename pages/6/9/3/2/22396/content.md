@@ -20,6 +20,17 @@ The following five categories are equivalent:
 
 This result can be seen as a measure-theoretic counterpart of the [[Gelfand duality]] between commutative unital [[C*-algebras]] and [[compact Hausdorff topological spaces]].
 
+## Properties
+
+From <https://mathoverflow.net/questions/384346/is-the-opposite-category-of-commutative-von-neumann-algebras-a-topos/384357#384357>:
+
+The opposite category of commutative von Neumann algebras is not a topos because categorical products with a fixed object do not always preserve small colimits.
+See Theorem 6.4 in Andre Kornell's Quantum Collections.
+
+## Closed monoidal structure
+
+The opposite category of commutative von Neumann algebras admits a noncartesian closed monoidal structure, where the monoidal product corresponds to the spatial product of measurable spaces.
+
 ## Related concepts
 
 * [[von Neumann algebra]]
