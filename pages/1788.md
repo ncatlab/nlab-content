@@ -1,5 +1,3 @@
-e finitoasd
-
 \linebreak
 
 \linebreak
