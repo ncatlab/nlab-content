@@ -16,6 +16,8 @@ An ancient [[philosophy|philosopher]].
 Voiced thoughts similar to the [[unity of opposites]] later promoted by [[Hegel]] and argued by [[William Lawvere]] to be embodied in [[adjoint modalities]].
 This and further discussion of the relevance in modern [[philosophy of mathematics]] is in ([Lambek](#Lambek))
 
+Although historians have also noted that up until Schleiermacher, a doctrine of the unity of opposites was never given to Heraclitus or recognized by any ancient source. No ancient Greek thinker of that time period had an idea of this unity of opposites. It was a Frenchman named Lassalle who was a Hegelian that imposed his modern over translations of Heraclitus by recovering the up until then ignored 'discovery' of Schleiermacher and which still survives to a point today. Although, historians are starting to come to grips that Heraclitus did not have this doctrine once again, slowly. For they realize the contradictions that abound not only in the actual fragments if they do, but also to the sources they claim reported Heraclitus as having such. There is no corresponding notion like that of Tao in the East in Greece, but there is dialectical thinking in Heraclitus nonetheless. Hegel's quotation below of having accepted all of Heraclitus' ideas happened around the same time, and his notion of what doctrines Heraclitus taught were incorrect. He was no historian. 
+
 ## Hegel on Heraclitus
 
 Hegel wrote (according to [this](http://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel#Heraclitus)):
