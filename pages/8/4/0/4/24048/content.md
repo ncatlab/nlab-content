@@ -24,7 +24,7 @@
 An object $P$ of a [[category]] $C$ is a __compact projective object__
 if its [[corepresentable functor]] $Hom(P,-)\colon C\to Set$ [[preserved colimit|preserves]] all [[small colimit|small]] [[sifted colimits]].
 
-Equivalently, it is an [[object]] that is 
+In the case of cocomplete [[Barr-exact categories]], it is equivalently an [[object]] that is 
 
 1. a [[compact object]] 
 
@@ -32,7 +32,7 @@ Equivalently, it is an [[object]] that is
 
 1. a [[projective object]] 
 
-   ($Hom(P,-)$ preserves [[epimorphisms]], which follows from its preservation of [[coequalizers]]).
+   ($Hom(P,-)$ preserves [[regular epimorphisms]], which follows from its preservation of [[coequalizers]]).
 
 
 ## Examples
