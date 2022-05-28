@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -51,6 +52,11 @@ The concept of [[anyons]] satisfying [[braid group statistics]] goes back to:
 * J. M. Leinaas, J. Myrheim, _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
 * [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. 48, 1144, 1982 ([doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144))
+
+Comprehensive account:
+
+* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
+
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
 
@@ -113,14 +119,16 @@ The claimed observation of abelian anyons is apparently more securely establishe
 
 
 
-### Vortex anyons in BECs
-
-[[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
-
-* B. Paredes, P. Fedichev, J. I. Cirac, P. Zoller *1/2-Anyons in small atomic Bose-Einstein condensates*, Phys. Rev. Lett. **87** (2001) 010402 $[$[arXiv:cond-mat/0103251](https://arxiv.org/abs/cond-mat/0103251), [doi:10.1103/PhysRevLett.87.010402](https://doi.org/10.1103/PhysRevLett.87.010402)$]$
 
 
-* Thomas Mawson, Timothy Petersen, Joost Slingerland, Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
+
+
+
+[[!include defect anyons -- references]]
+
+
+
+
 
 
 
