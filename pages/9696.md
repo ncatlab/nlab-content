@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[vortex]]$\;$[[anyons]]:
+
+* [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
+
+
 On [[quantum error correction]]:
 
 * [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A454 (1998) 385-410 ([arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031))
