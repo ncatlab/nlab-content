@@ -36,7 +36,7 @@ In [[string theory]], defect branes with [[U-duality]]-[[group]] [[monodromy]] h
 ### Relation to anyons
  {#RelationToAnyons}
 
-An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensional spacetime, hence as a codimension-2 "0-brane". This suggests that general codimension-2 defect branes may serve as string-theoretic models for anyons. This general observation is briefly mentioned in [deBoer & Shigemori 2012, p. 65](#deBoerShigemori12). 
+An [[anyon]] is traditionally realized as a point-particle/defect in 2+1-dimensional spacetime, hence as a codimension-2 "0-brane" (see the references [here](braid+group+statistics#ReferencesVortexAnyons)). This suggests that general codimension-2 defect branes may serve as string-theoretic models for anyons. This general observation is briefly mentioned in [deBoer & Shigemori 2012, p. 65](#deBoerShigemori12) and further developed in [SS22](#SS22). 
 
 Concrete implementation of anyonic defect [[strings]] in [[4d TQFT]] is discussed in [Baez, Wise & Crans 2006](#BaezWiseCrans06), [Bullivant, Martins & Martin 2018](#BullivantMartinsMartin18) [Kong, Tian & Zhang 2020, Sec. 2.2](#KongTianZhang20).
 More generally, circle-shaped defect strings are going to satisfy *[[loop braid group]]-statistics*, which subsumes [[braid group]]-statistics but is richer still.
@@ -108,7 +108,7 @@ and in the [[3d toric code]]-[[4d TQFT]]:
 
 Incorporation of defect branes into the [[K-theory classification of D-brane charge]] by understanding the [[hypergeometric construction of KZ solutions]] as happening in [[twisted equivariant differential K-theory]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
+* {#SS22} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
 
 
 [[!redirects defect branes]]
