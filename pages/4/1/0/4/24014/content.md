@@ -24,6 +24,7 @@ On [[braid group statistics|anyonic braiding]] of nodal points in the [[Brilloui
 
 *  *Bo Peng, [[Adrien Bouhon]], Bartomeu Monserrat, [[Robert-Jan Slager]], *Phonons as a platform for non-Abelian braiding and its manifestation in layered silicates*, Nature Communications volume 13, Article number: 423 (2022) ([doi:10.1038/s41467-022-28046-9](https://doi.org/10.1038/s41467-022-28046-9))
 
+* [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
 
 
 
