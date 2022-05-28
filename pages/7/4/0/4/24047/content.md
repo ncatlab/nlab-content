@@ -25,7 +25,7 @@ An [[abelian group object]] [[internalization|in]] the [[category]] $CondSet$ of
 
 ## Properties
 
-The category of condensed abelian groups enjoys excellent categorical properties for [[homological algebra]]:
+The category of condensed abelian groups $CondAb$ enjoys excellent categorical properties for [[homological algebra]]:
 
 * It is an [[abelian category]] that admits all [[small limit|small]] [[limits]] and [[colimits]];
 
@@ -53,3 +53,5 @@ The latter property is rather rare.
 See [[condensed mathematics]].
 
 [[!redirects condensed abelian groups]]
+[[!redirects CondAb]]
+[[!redirects Cond(Ab)]]
