@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
 ## Idea
 
 An alternative to [[complete topological vector spaces]] in the framework of [[condensed mathematics]].
@@ -28,14 +47,16 @@ $$S = \lim_i S_i$$
 and
 $$M(F)_{\ell^p\le C}$$
 for a [[finite set]] $F$ denotes the subset of $\mathbf{R}^F$
-consisting of sequence with [[l^p-norm]] at most $C$.
+consisting of [[sequence]] with [[p-norm|$\ell^p$-norm]] at most $C$.
+
 
 ## Related concepts
 
 * [[solid module]]
 
+
 ## References
 
-See [[condensed mathematics]].
+See at *[[condensed mathematics]]*.
 
 [[!redirects liquid vector spaces]]
