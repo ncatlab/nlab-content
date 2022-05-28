@@ -104,6 +104,8 @@ One can view $X$ as a 'constant scheme' over any other base scheme $Y$ by [[base
 
 \section{Related concepts}
 
+* [[infinite set]]
+
 * [[hereditarily finite set]]
 
 * [[FinSet]]
