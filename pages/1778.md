@@ -24,13 +24,13 @@
  {#GeneralIdea}
 
 
-&#268;ech cohomology is a tool, or an algorithm, which, when it applies, computes [[abelian sheaf cohomology]] (of some $X$ with [[coefficients]] in some $A$) by use of [[coverings]] and systems of [[coefficients]] on the covering and all its non-empty finite intersections. More generally, it applies also to [[nonabelian cohomology]] and may hence for instance (in degree 1) be used to compute classes of [[principal bundles]] and generally (in higher degree) those of [[principal ∞-bundles]]. Quite generally &#268;ech cohomology is the way to express the intrinsic [[cohomology]] of [[(∞,1)-sheaf]] [[(∞,1)-toposes]] by mapping out of [[Cech nerves]] of [[covers]].
+&#268;ech cohomology is a tool, or an algorithm, which, when it applies, computes [[abelian sheaf cohomology]] (of some $X$ with [[coefficients]] in some $A$) by use of [[coverings]] and systems of [[coefficients]] on the covering and all its non-empty finite intersections. More generally, it applies also to [[nonabelian cohomology]] and may hence for instance (in degree 1) be used to compute classes of [[principal bundles]] and generally (in higher degree) those of [[principal ∞-bundles]]. Quite generally &#268;ech cohomology is the way to express the intrinsic [[cohomology]] of [[(∞,1)-sheaf]] [[(∞,1)-toposes]] by mapping out of [[Čech nerves]] of [[covers]].
 
 Hence &#268;ech cohomology is more an algorithm for computing [[cohomology]] (see also at _[[Čech methods]]_) than a cohomology theory in itself. In particular it applies (when it applies) to all sorts of [[coefficient]] [[sheaves]]/[[stacks]]/[[∞-stacks]] $A$.
 
-When no further qualification of the coefficients $A$ is given then one usually has in mind by default either that $A = \mathbb{Z}$ is the group of [[integers]] (or a [[delooping]] thereof, in which case one computes [[ordinary cohomology]] by Cech methods) or, if working on a [[ringed space]]/[[ringed topos]]/[[structured (∞,1)-topos]] that $A = \mathcal{O}^\times$ is the [[group of units]] in the [[structure sheaf]].
+When no further qualification of the coefficients $A$ is given then one usually has in mind by default either that $A = \mathbb{Z}$ is the group of [[integers]] (or a [[delooping]] thereof, in which case one computes [[ordinary cohomology]] by Čech methods) or, if working on a [[ringed space]]/[[ringed topos]]/[[structured (∞,1)-topos]] that $A = \mathcal{O}^\times$ is the [[group of units]] in the [[structure sheaf]].
 
-Notice that there are technical conditions on a [[site]] and a [[cover]] to ensure that the result of the Cech cohomology algorithm really coincides with the more abstractly defined [[abelian sheaf cohomology]] -- and generally with the [[hom-spaces]] in the given [[(∞,1)-topos]]. (Technically the condition is that the [[Cech nerve]] is a [[cofibrant resolution]] in a [[model structure on simplicial presheaves]] for which the coefficient sheaf is a [[fibrant object]]). If these conditions do not apply, then the definition of Cech cohomology groups still works as such, but typically no longer qualifies as a "cohomology theory", axiomatically. They are just some groups. Strictly speaking one should maybe not use the term "Cech cohomology" in such cases, but beware that some authors do.
+Notice that there are technical conditions on a [[site]] and a [[cover]] to ensure that the result of the Čech cohomology algorithm really coincides with the more abstractly defined [[abelian sheaf cohomology]] -- and generally with the [[hom-spaces]] in the given [[(∞,1)-topos]]. (Technically the condition is that the [[Čech nerve]] is a [[cofibrant resolution]] in a [[model structure on simplicial presheaves]] for which the coefficient sheaf is a [[fibrant object]]). If these conditions do not apply, then the definition of Čech cohomology groups still works as such, but typically no longer qualifies as a "cohomology theory", axiomatically. They are just some groups. Strictly speaking one should maybe not use the term "Čech cohomology" in such cases, but beware that some authors do.
 
 ### More technical idea
 
@@ -82,7 +82,7 @@ If $Y$ is not simply a [[Čech cover]] but also not the most general [[hypercove
 
 
 ## General ("nonabelian") &#268;ech cohomology 
- {#NonabelianCechCohomology}
+ {#NonabelianČechCohomology}
 
 We start with describing the general " _nonabelian_ " &#268;ech cohomology (compare the terminology and remarks at [[cohomology]] and [[nonabelian cohomology]]), i.e. the plain unwrapping of the above definition, before assuming that our coefficient object is [[abelian sheaf cohomology|abelian]] and before applying the [[Moore complex]] functor that sends the following simplicial computation to the maybe more familiar one in [[chain complexes]].
 
@@ -532,7 +532,7 @@ this is the nonabelian cohomology classifying
 
 
 ## Abelian &#268;ech cohomology 
- {#AbelianCechCohomology}
+ {#AbelianČechCohomology}
 
 In much of the literature _&#268;ech cohomology_ denotes exclusively the abelian case, which we now describe.
 
@@ -546,11 +546,11 @@ on [[chain complexes]] with values in [[simplicial sets]] that happen to be abel
 
 
 ### Definition
- {#AbelianCechCohomologyDefinition}
+ {#AbelianČechCohomologyDefinition}
  
  
 
-We discuss the [[double complex]] which gives the traditional definition of Cech cohomology with coefficients in [[sheaves of abelian groups]].
+We discuss the [[double complex]] which gives the traditional definition of Čech cohomology with coefficients in [[sheaves of abelian groups]].
 
 Let 
 
@@ -578,7 +578,7 @@ for the $k$-fold intersections of these open subsets. Given an inclusion of open
 
 More generally, we may allow $S$ to be any [[site]]. For simplicity of the following formulas assume that $S$ has [[finite products]] (which in the case that $S$ is a [[category of open subsets]] are the [[fiber products]] above.) Then $A_\bullet$ is a chain complex of [[abelian sheaves]] on that site. 
 
-+-- {: .num_defn #CechComplex}
++-- {: .num_defn #ČechComplex}
 ###### Definition
 **(&#268;ech complex)**
 
@@ -624,7 +624,7 @@ $$
 
 where on the right the sum is over all components of $a$ obtained via the canonical restrictions obtained by discarding one of the original $(k+1)$ subscripts.
 
-The **Cech cohomology** groups of $X$ with coefficients in $A_\bullet$ __relative to the given cover__ are the [[chain homology]] groups of the Cech complex
+The **Čech cohomology** groups of $X$ with coefficients in $A_\bullet$ __relative to the given cover__ are the [[chain homology]] groups of the Čech complex
 
 $$
   H_{Cech}^k((X,\{U_i\}), A_\bullet)
@@ -633,7 +633,7 @@ $$
   \,.
 $$
 
-The **Cech cohomology** groups as such are the [[colimit]] ("[[directed limit]]") of these groups over refinements of covers
+The **Čech cohomology** groups as such are the [[colimit]] ("[[directed limit]]") of these groups over refinements of covers
 
 $$
   H^k_{Cech}(X, A_\bullet)
@@ -648,7 +648,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Often Cech cohomology is considered for the case that $A_\bullet$ is concentrated in a single degree, in which case the first term in the sum defining the differential in def. \ref{CechComplex} disappears. 
+Often Čech cohomology is considered for the case that $A_\bullet$ is concentrated in a single degree, in which case the first term in the sum defining the differential in def. \ref{CechComplex} disappears. 
 When $A_\bullet$ is not concentrated in a single degree, then for emphasis and following terminology of _[[hypercohomology]]_ 
 one may speak of the **&#268;ech hypercomplex** computing **&#268;ech hypercohomology**.
 
@@ -658,7 +658,7 @@ one may speak of the **&#268;ech hypercomplex** computing **&#268;ech hypercohom
 +-- {: .num_remark}
 ###### Remark
 
-The Cech chain complex in def. \ref{CechComplex} is the [[total complex]] of the [[double complex]] whose vertical differential is that of $A_\bullet$ and whose horizontal differential is the _Cech differential_ $\delta$ given by alternating sums over restrictions along patch inclusions
+The Čech chain complex in def. \ref{CechComplex} is the [[total complex]] of the [[double complex]] whose vertical differential is that of $A_\bullet$ and whose horizontal differential is the _Čech differential_ $\delta$ given by alternating sums over restrictions along patch inclusions
 
 $$
   \array{
@@ -693,7 +693,7 @@ $$
  {#RelationAbelianNonabelian}
 
 
-We discuss how the abelian Cech complex of def. \ref{CechComplex} arises as a special case of the simplicial nonabelian cocycle complex of general nonabelian Cech cohomology [above](#NonabelianCechCohomology), under the [[Dold-Kan correspondence]].
+We discuss how the abelian Čech complex of def. \ref{CechComplex} arises as a special case of the simplicial nonabelian cocycle complex of general nonabelian Čech cohomology [above](#NonabelianČechCohomology), under the [[Dold-Kan correspondence]].
 
 
 +-- {: .num_remark}
@@ -1188,7 +1188,7 @@ in the Deligne complex, we obtain the formulas for
 
 ## Related entries
 
-* For discussion of the isomorphism between isomorphism classes of [[topological vector bundles]] and Cech cohomology on [[topological spaces]] with coefficients in continuous functions with values in the [[general linear group]] see [there](topological+vector+bundle#TransitionFunctionsAndCechCohomology).
+* For discussion of the isomorphism between isomorphism classes of [[topological vector bundles]] and Čech cohomology on [[topological spaces]] with coefficients in continuous functions with values in the [[general linear group]] see [there](topological+vector+bundle#TransitionFunctionsAndCechCohomology).
 
 
 ## References 
@@ -1225,7 +1225,7 @@ is after all better behaved than its [[hypercompletion]] where a cycle is with r
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-The relation between smooth and continuous Cech cohomology is discussed in
+The relation between smooth and continuous Čech cohomology is discussed in
 
 * Christoph M&#252;ller, [[Christoph Wockel]], _Equivalences of smooth and continuous principal bundles with infinite-dimensional structure groups_, Advances in Geometry. Volume 9, Issue 4, Pages 605&#8211;626 (2009)
 
