@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $S = \underset{\leftarrow}{\lim}_i S_i$ be a [[profinite set]], and define the [[condensed abelian group]] $\mathbb{Z}[S]^\square \coloneqq \underset{\leftarrow}{\lim}_i \mathbb{Z}[S_i]$, where $\mathbb{Z}[T]$ is the [[free abelian group]] on the set $T$. There is a natural map $m:S \to \mathbb{Z}[S]^\square$ which induces a map $\mathbb{Z}[S] \to \mathbb{Z}[S]^\square$. 
+
+A **solid abelian group** is a condensed abelian group $A$ such that for all profinite sets $S$ and all maps $f:S \to A$, there is a unique map $g:\mathbb{Z}[S]^\square \to A$ such that $f = g \circ m$. 
+
+## See also
+
+* [[condensed abelian group]]
+
+## References
+
+* {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
