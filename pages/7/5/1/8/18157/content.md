@@ -183,7 +183,6 @@ By the assumption that $\underset{i \in I}{\cap} C_i = \emptyset$, there would e
 
 Now since the function $f$ defining the subset is cofinal, there would exist $b_1 \in B$ such that $\{i_x\} \subset f(b_1)$. Moreover, by the assumption that the subnet converges, there would also be $b_2 \in B$ such that $\nu_{b_2 \leq \bullet} \in U_x$. Since $B$ is directed, there would then be an upper bound $b \geq b_1, b_2$ of these two elements. This hence satisfies both $\nu_{f(e)} \in U_x$ as well as $\{i_x\} \subset f(b_1) \subset f(b)$. But the latter of these two means that $\nu_{f(b)}$ is not in $U_x$, which is a contradiction to the former. Thus we have a [[proof by contradiction]].
 
-
 =--
 
 ## Related concepts
