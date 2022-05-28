@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 #### Group Theory
 +-- {: .hide}
 [[!include group theory - contents]]
@@ -17,7 +21,7 @@
 
 ## Definition
 
-An [[abelian group object]] [[internalization|in]] the [[category]] of [[condensed sets]].
+An [[abelian group object]] [[internalization|in]] the [[category]] $CondSet$ of [[condensed sets]].
 
 ## Properties
 
@@ -33,6 +37,10 @@ The latter property is rather rare.
 * The previous property implies that condensed abelian groups have the same exactness properties as the category of [[abelian groups]].
 
 ## Related concepts
+
+* [[condensed set]]
+
+* [[condensed spectrum]]
 
 * [[solid abelian group]]
 
