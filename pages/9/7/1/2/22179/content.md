@@ -39,9 +39,22 @@ This satisfies $\overline{Tw}(C) \simeq Tw(C)^{op}$.
 
 ## Properties
 
-If $C$ is a 1-category, then $Tw(C)$ agrees with the 1-categorical version.
+If $C$ is a 1-category, then $Tw(C)$ agrees with the 1-categorical version. In the quasi-category model we have an even stronger statement
 
-For a quasi-category $C$, both $Tw(C)$ and $\overline{Tw}(C)$ are quasi-categories.
++-- {: .num_prop }
+###### Proposition
+
+If $C$ is a 1-category, there is an isomorphism $T : N(Tw(C)) \cong Tw(N(C))$ of simplicial sets, uniquely determined by the properties that $T(f) = f$ and that the projections are consistent with the obvious map $N(C^{op} \times C) \cong N(C)^{op} \times N(C)$.
+
+=--
++-- {: .proof}
+###### Proof
+
+This is [Kerodon, prop 8.1.19](#Kerodon).
+
+=--
+
+For a quasi-category $C$, both $Tw(C)$ and $\overline{Tw}(C)$ are quasi-categories. This follows from the following characterization:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -55,7 +68,7 @@ For a quasi-category $C$, both $Tw(C)$ and $\overline{Tw}(C)$ are quasi-categori
 ###### Proof
 
 This description of $\overline{Tw}(C)$ is [Lurie 4.2.5](#Lurie). The left fibration classified by a map is the opposite of the right fibration classified
-by the same map.
+by the same map. Alternatively, this is [Kerodon, Prop 8.1.1.10](#Kerodon).
 
 =--
 
@@ -70,3 +83,5 @@ This means that we have the formulas $Tw(C) \simeq el(\hom_C) \simeq ({*} \downa
 ## References
 
 * {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_ 
+
+* {#Kerodon} [[Kerodon]], *The Twisted Arrow Construction* [kerodon:03JF](https://kerodon.net/tag/03JF)
