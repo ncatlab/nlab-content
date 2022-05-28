@@ -29,13 +29,22 @@
 
 * [[condensed set]]
 * [[condensed abelian group]]
+* [[condensed ring]]
+* [[condensed module]]
+
+#### Solid objects
 
 * [[solid abelian group]]
-* [[liquid vector space]]
-* [[trace-class map]]
-
 * [[solid module]]
+
+#### Liquid objects
+
+* [[liquid vector space]]
 * [[liquid module]]
+
+#### Other
+
+* [[trace-class map]]
 * [[nuclear module]]
 * [[analytic ring]]
 
