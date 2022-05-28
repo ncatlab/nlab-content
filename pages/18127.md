@@ -4769,6 +4769,12 @@ Further reading:
 
 * *[[geometry of physics -- categories and toposes]] -- Sec. 7: [∞-Groupoids I: Topological homotopy theory](geometry+of+physics+--+categories+and+toposes#TopologicalHomotopyTheory)*
 
+$\,$
+
+Fun application of basic homotopy theory in [[condensed matter theory]] ([[anyon]] [[braiding]]):
+
+* [[N. David Mermin]], *The topological theory of defects in ordered media*, Rev. Mod. Phys. **51** (1979) 591 $[$[doi:10.1103/RevModPhys.51.591](https://doi.org/10.1103/RevModPhys.51.591)$]$
+
 
 $\,$
 
