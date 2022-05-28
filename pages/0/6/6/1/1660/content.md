@@ -39,6 +39,9 @@ A set $S$ with a [[tight apartness relation]] $\#$ is __strongly infinite__ if, 
 
 Probably a lot to say about the relation between the various definitions of infinite set (the one above, the negations of the definitions of finite set, and others that might be studied).  In the meantime, try [the English Wikipedia](https://en.wikipedia.org/wiki/Dedekind-infinite_set).
 
+## See also
+
+* [[finite set]]
 
 [[!redirects infinite set]]
 [[!redirects infinite sets]]
