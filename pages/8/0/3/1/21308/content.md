@@ -25,27 +25,34 @@
 
 ## Concepts
 
+### Condensed objects
+
 * [[condensed set]]
 * [[condensed abelian group]]
+
 * [[solid abelian group]]
 * [[liquid vector space]]
 * [[trace-class map]]
-* [[analytic geometry]]
-* [[condensed infinity-groupoid]]
 
 * [[solid module]]
 * [[liquid module]]
 * [[nuclear module]]
 * [[analytic ring]]
 
-## Related entries
+### Higher condensed objects
 
-* [[condensed set]]
+* [[condensed infinity-groupoid]]
+* [[condensed spectrum]]
+* [[condensed E-infinity ring]]
+* [[condensed module spectrum]]
+
+## Related entries
 
 * [[bornological topos]]
 
 * [[pyknotic set]]
 
+* [[analytic geometry]]
 
 ## References
 
