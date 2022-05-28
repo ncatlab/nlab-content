@@ -83,11 +83,12 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 
 * The twisted arrow category is a special case of a **category of judgments** in the sense of ([Melli&#232;s-Zeilberger 15](#MZ15)).
 
-* The construction generalizes to $(\infty,1)$-categories (cf. [Lurie 11](#DAGX), sec.4.2).
+* The construction generalizes to [[(infinity,1)-category-theory|$(\infty,1)$-category theory]], see at *[[twisted arrow (∞,1)-category]]*.
 
 ## Related entries
 
 * [[category of factorizations]]
+
 * [[twisted arrow (∞,1)-category]]
 
 ## References
@@ -100,7 +101,7 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 
 * [[Fred Linton]], _Autonomous categories and duality of functors_ , J. Algebra **2** no.3 (1965) pp.315-349.
 
-* [[Jacob Lurie]], _Derived Algebraic Geometry X: Formal Moduli Problems_ , ms. (2011). {#DAGX}
+* {#DAGX} [[Jacob Lurie]], _Derived Algebraic Geometry X: Formal Moduli Problems_ , ms. (2011). 
 
 * [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (cf. exercise IX.6.3, p.227)
 
