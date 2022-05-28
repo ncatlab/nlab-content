@@ -26,6 +26,8 @@ $$
 The insertions into the components of the join determine natural transformations
 $src : Tw(C) \to C^{op}$ and $tgt : Tw(C) \to C$.
 
+By [Kerodon, tag 03K9](#Kerodon), this definition respects equivalences between quasi-categories, and thus descends to a functor $Tw : (\infty,1)Cat \to (\infty,1)Cat$.
+
 Since $(\Delta^n)^{op} \star (\Delta^n)$ is preserved by taking opposites, this construction satisfies $Tw(C) = Tw(C^{op})$, and swaps the source and target maps.
 
 The opposite convention often appears in the literature,
@@ -44,13 +46,13 @@ If $C$ is a 1-category, then $Tw(C)$ agrees with the 1-categorical version. In t
 +-- {: .num_prop }
 ###### Proposition
 
-If $C$ is a 1-category, there is an isomorphism $T : N(Tw(C)) \cong Tw(N(C))$ of simplicial sets, uniquely determined by the properties that $T(f) = f$ and that the projections are consistent with the obvious map $N(C^{op} \times C) \cong N(C)^{op} \times N(C)$.
+If $C$ is a 1-category, there is an isomorphism $T : N(Tw(C)) \cong Tw(N(C))$ of simplicial sets, uniquely determined by the properties that $T(f) = f$ and that the source and target maps are consistent with the obvious map $N(C^{op} \times C) \cong N(C)^{op} \times N(C)$.
 
 =--
 +-- {: .proof}
 ###### Proof
 
-This is [Kerodon, prop 8.1.19](#Kerodon).
+This is [Kerodon, tag 03JN](#Kerodon).
 
 =--
 
@@ -68,7 +70,7 @@ For a quasi-category $C$, both $Tw(C)$ and $\overline{Tw}(C)$ are quasi-categori
 ###### Proof
 
 This description of $\overline{Tw}(C)$ is [Lurie 4.2.5](#Lurie). The left fibration classified by a map is the opposite of the right fibration classified
-by the same map. Alternatively, this is [Kerodon, Prop 8.1.1.10](#Kerodon).
+by the same map. Alternatively, this is [Kerodon, tag 03JQ](#Kerodon).
 
 =--
 
@@ -81,7 +83,7 @@ This means that we have the formulas $Tw(C) \simeq el(\hom_C) \simeq ({*} \downa
 
 * [[lax (∞,1)-colimit]]
 
-* [[twisted arrow categor]]
+* [[twisted arrow category]]
 
 ## References
 
