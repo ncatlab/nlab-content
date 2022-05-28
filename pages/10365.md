@@ -33,7 +33,10 @@ A [[condensate]] of [[bosons]].
 
 * [[quantum optics]]
 
+
 ## References
+
+### General
 
 Textbook accounts:
 
@@ -45,4 +48,21 @@ See also:
 
 * Wikipedia, _[Bose-Einstein condensate](http://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_condensate)_
 
+
+Proposal to use BEC for [[quantum computation]]:
+
+* [[Tim Byrnes]], Kai Wen, Yoshihisa Yamamoto, *Macroscopic quantum computation using Bose-Einstein condensates*, Phys. Rev. A **85** (2012)  040306(R) $[$[doi:10.1103/PhysRevA.85.040306](https://doi.org/10.1103/PhysRevA.85.040306)$]$
+
+
+
+
+[[!include defect anyons -- references]]
+
+
+
+
+
 [[!redirects Bose-Einstein condensates]]
+
+[[!redirects BEC]]
+[[!redirects BECs]]
