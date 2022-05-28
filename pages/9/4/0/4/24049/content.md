@@ -1,6 +1,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 #### $(\infty,1)$-Category theory
 +--{: .hide}
 [[!include quasi-category theory contents]]
@@ -40,7 +44,8 @@ is an [[(infinity,1)-equalizer]] for any [[covering]] of pro-objects in infinity
 
 ## Properties
 
-Condensed infinity-groupoids form a locally small [[locally cartesian closed (infinity,1)-category|locally cartesian closed]] [[(infinity,1)-pretopos]]. 
+The [[(infinity,1)-category]] 
+$\mathrm{Cond}\infty\mathrm{Grpd}$ of condensed infinity-groupoids is a locally small [[locally cartesian closed (infinity,1)-category|locally cartesian closed]] [[(infinity,1)-pretopos]]. 
 
 ## Terminology
 
@@ -48,8 +53,11 @@ In the model of [[infinity-groupoids]] as [[simplicial sets]]/[[Kan complexes]],
 
 ## Related concepts
 
+* [[condensed mathematics]]
 * [[condensed set]]
 * [[condensed spectrum]]
+* [[condensed E-infinity ring]]
+* [[condensed module spectrum]]
 
 ## References
 
