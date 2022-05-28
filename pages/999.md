@@ -173,7 +173,7 @@ Here is an application of this concept to characterize which abelian categories 
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $C$ be an abelian category.  If $C$ has all [[small category|small]] [[coproducts]] and has a compact [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, in this situation we can take $R = C(x,x)^{op}$ where $x$ is any compact projective generator.   Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
+Let $C$ be an abelian category.  If $C$ has all [[small category|small]] [[coproducts]] and has a compact [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, in this situation we can take $R = C(x,x)^{op}$ where $x$ is any [[compact projective object|compact projective]] generator.   Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
 =--
 
 
@@ -253,7 +253,7 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 * [[compact element]] (in a [[(0,1)-category]])
 
-* **compact object**
+* [[compact projective object]]
 
 * [[compact topos]]
 
