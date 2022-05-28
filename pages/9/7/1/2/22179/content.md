@@ -78,10 +78,18 @@ This means that we have the formulas $Tw(C) \simeq el(\hom_C) \simeq ({*} \downa
 ## Related concepts
 
 * [[(∞,1)-end]]
+
 * [[lax (∞,1)-colimit]]
+
+* [[twisted arrow categor]]
 
 ## References
 
 * {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_ 
 
-* {#Kerodon} [[Kerodon]], *The Twisted Arrow Construction* [kerodon:03JF](https://kerodon.net/tag/03JF)
+* {#Kerodon} [[Kerodon]], *The Twisted Arrow Construction* $[$[kerodon:03JF](https://kerodon.net/tag/03JF)$]$
+
+[[!redirects twisted arrow (∞,1)-categories]]
+
+[[!redirects twisted arrow (infinity,1)-category]]
+[[!redirects twisted arrow (infinity,1)-categories]]
