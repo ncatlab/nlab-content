@@ -160,12 +160,13 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 ## References
 
-* {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_, 2009
+* {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_ (2009)
 
 * {#RiehlVerity18} [[Emily Riehl]], [[Dominic Verity]], Def. 6.2.3 and Thm. 7.2.22 in: *The comprehension construction*, Higher Sttructures **2** 1 (2018)  ([arXiv:1706.10023](https://arxiv.org/abs/1706.10023), [hs:39](http://137.111.162.45/index.php/higher_structures/article/view/39))
 
-
 * MathOverflow, _The Yoneda Lemma for $(\infty,1)$-categories?_ ([MO:9737/381](https://mathoverflow.net/q/9737/381))
+
+* [[Kerodon]], *The Yoneda Embedding* $[$[kerodon:03JA](https://kerodon.net/tag/03JA), esp. [Thm. 8.2.5.4](https://kerodon.net/tag/03NJ)$]$
 
 Discussion in the context of an [[∞-cosmos]]:
 
