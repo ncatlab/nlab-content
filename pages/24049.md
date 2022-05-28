@@ -1,6 +1,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -8,10 +12,6 @@
 #### $(\infty,1)$-Category theory
 +--{: .hide}
 [[!include quasi-category theory contents]]
-=--
-#### Homotopy theory
-+--{: .hide}
-[[!include homotopy - contents]]
 =--
 #### Higher category theory
 +--{: .hide}
