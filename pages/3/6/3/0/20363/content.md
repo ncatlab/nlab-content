@@ -67,13 +67,13 @@ is an [[equalizer]] for any [[surjection]] of [[profinite sets]] $S'\to S$.
 
 [Scholze, p.7](#ScholzeLCM) modifies this definition to deal with size issues: 
 
-For any uncountable [[strong limit cardinal]] $\kappa$, the category of _$\kappa$-condensed sets_ is the [[category of sheaves]] on the [[site]] of profinite sets of [[cardinality]] less than $\kappa$, with finite jointly surjective families of maps as covers. 
+For any uncountable [[strong limit cardinal]] $\kappa$, the category of _$\kappa$-condensed sets_ $CondSet_\kappa$ is the [[category of sheaves]] on the [[site]] of profinite sets of [[cardinality]] less than $\kappa$, with finite jointly surjective families of maps as covers. 
 
-The category of condensed sets is then the (large) [[colimit]] of the category of $\kappa$-condensed sets along the [[filtered category|filtered]] [[poset]] of all uncountable [[strong limit cardinals]] $\kappa$, hence is the category of [[small sheaves]].
+The category of condensed sets $CondSet$ is then the (large) [[colimit]] of the category of $\kappa$-condensed sets along the [[filtered category|filtered]] [[poset]] of all uncountable [[strong limit cardinals]] $\kappa$, hence is the category of [[small sheaves]].
 
 ## Properties
 
-Condensed sets form a [[locally small]], [[well-powered category|well-powered]], [[locally cartesian closed]] [infinitary-pretopos](pretopos#infinitary), that is neither a [[Grothendieck topos]] nor an [[elementary topos]] -- since it lacks both a small [[separator]] (indeed, it is not even [[total category|total]]) and a [[subobject classifier]]. It has a large [[separator]] of finitely presentable [[projective object|projectives]], and hence is algebraically exact. ([Campbell 20](#Campbell20))
+Condensed sets form a [[locally small]], [[well-powered category|well-powered]], [[locally cartesian closed]] [infinitary-pretopos](pretopos#infinitary) $CondSet$, that is neither a [[Grothendieck topos]] nor an [[elementary topos]] -- since it lacks both a small [[separator]] (indeed, it is not even [[total category|total]]) and a [[subobject classifier]]. It has a large [[separator]] of finitely presentable [[projective object|projectives]], and hence is algebraically exact. ([Campbell 20](#Campbell20))
 
 See \cite[Proposition 1.7]{ScholzeLCM} for the following proposition.
 
@@ -124,4 +124,4 @@ structures, but in this case, the underlying set is not $T(*)$.
 * {#Campbell20} [[Alexander Campbell]], _How nice is the category of condensed sets?_, [talk abstract](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/abstract.cgi?talkid=1645).
 
 [[!redirects condensed sets]]
-
+[[!redirects CondSet]]
