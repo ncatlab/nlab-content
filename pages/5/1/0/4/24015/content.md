@@ -21,7 +21,13 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
 
 > Here we report that Weyl points in three-dimensional (3D) systems with $\mathcal{C}_2\mathcal{T}$ symmetry carry non-Abelian topological charges. These charges are transformed via non-trivial phase factors that arise upon braiding the nodes inside the reciprocal momentum space. 
 
-* [[Bo Peng]], [[Adrien Bouhon]], [[Robert-Jan Slager]], [[Bartomeu Monserrat]], *Multi-gap topology and non-Abelian braiding of phonons from first principles*, Phys. Rev. B **105** (2022) 085115 ([arXiv:2111.05872](https://arxiv.org/abs/2111.05872), [doi;10.1103/PhysRevB.105.085115](https://doi.org/10.1103/PhysRevB.105.085115))
+* Siyu Chen, [[Adrien Bouhon]], [[Robert-Jan Slager]], [[Bartomeu Monserrat]], *Non-Abelian braiding of Weyl nodes via symmetry-constrained phase transitions* (formerly: *Manipulation and braiding of Weyl nodes using symmetry-constrained phase transitions*),
+Phys. Rev. B **105** (2022) L081117 $[$[arXiv:2108.10330](https://arxiv.org/abs/2108.10330), [doi:10.1103/PhysRevB.105.L081117](https://doi.org/10.1103/PhysRevB.105.L081117)$]$
+
+  > Our work opens up routes to readily manipulate Weyl nodes using only slight external parameter changes, paving the way for the practical realization of reciprocal space braiding.
+
+
+* [[Bo Peng]], [[Adrien Bouhon]], [[Robert-Jan Slager]], [[Bartomeu Monserrat]], *Multi-gap topology and non-Abelian braiding of phonons from first principles*, Phys. Rev. B **105** (2022) 085115 ([arXiv:2111.05872](https://arxiv.org/abs/2111.05872), [doi:10.1103/PhysRevB.105.085115](https://doi.org/10.1103/PhysRevB.105.085115))
 
 > new opportunities for exploring non-Abelian braiding of band crossing points (nodes) in reciprocal space, providing an alternative to the real space braiding exploited by other strategies. 
 
