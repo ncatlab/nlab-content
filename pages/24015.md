@@ -6,7 +6,7 @@
 
 On non-trivial [[braid group statistics|braiding]] of modal points in the [[Brillouin torus]] of [[semi-metals]] ("braiding in momentum space"):
 
-* Junyeong Ahn, Sungjoon Park, Bohm-Jung Yang, *Failure of Nielsen-Ninomiya theorem and fragile topology in two-dimensional systems with space-time inversion symmetry: application to twisted bilayer graphene at magic angle*, Phys. Rev. X **9** (2019) 021013 $[$[doi:10.1103/PhysRevX.9.021013](https://doi.org/10.1103/PhysRevX.9.021013), [arXiv:1808.05375](https://arxiv.org/abs/1808.05375)$]$
+* {#AhnParkYang19} Junyeong Ahn, Sungjoon Park, Bohm-Jung Yang, *Failure of Nielsen-Ninomiya theorem and fragile topology in two-dimensional systems with space-time inversion symmetry: application to twisted bilayer graphene at magic angle*, Phys. Rev. X **9** (2019) 021013 $[$[doi:10.1103/PhysRevX.9.021013](https://doi.org/10.1103/PhysRevX.9.021013), [arXiv:1808.05375](https://arxiv.org/abs/1808.05375)$]$
 
   > here are band crossing points, henceforth called [[vortices]]
 
