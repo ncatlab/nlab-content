@@ -1,3 +1,21 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
 ## Definition
 
 A **condensed infinity-groupoid** is a [[(infinity,1)-sheaf]] of [[infinity-groupoids]] on the [[pro-étale (infinity,1)-site]] of the point. 
@@ -18,7 +36,11 @@ are [[homotopy equivalences]] for any pro-object in infinity-groupoids $S$ and $
 
 $$T(S) \to T(S^{'}) \rightrightarrows T(S^{'} \times_S S^{'})$$
 
-is an $(\infty,1)$-equalizer for any [[covering]] of pro-objects in infinity-groupoids $S^{'} \to S$. 
+is an [[(infinity,1)-equalizer]] for any [[covering]] of pro-objects in infinity-groupoids $S^{'} \to S$. 
+
+## Properties
+
+Condensed infinity-groupoids form a locally small [[locally cartesian closed (infinity,1)-category|locally cartesian closed]] [[(infinity,1)-pretopos]]. 
 
 ## Terminology
 
@@ -27,6 +49,7 @@ In the model of [[infinity-groupoids]] as [[simplicial sets]]/[[Kan complexes]],
 ## Related concepts
 
 * [[condensed set]]
+* [[condensed spectrum]]
 
 ## References
 
