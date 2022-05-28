@@ -108,6 +108,8 @@ structures, but in this case, the underlying set is not $T(*)$.
 
 * [[profinite set]]
 
+* [[condensed infinity-groupoid]]
+
 * [[condensed abelian group]]
 
 * [[condensed mathematics]]
