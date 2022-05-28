@@ -349,19 +349,23 @@ The following references discuss the traditional notion of _[[topological defect
 
 Discussion of "topological defects in [[gauge theory]]" in higher codimension is in
 
-* [[John Preskill]], [[Alexander Vilenkin]], _Decay of Metastable Topological Defects_, Phys. Rev. D47 : 2324-2342 (1993) ([arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210))
- {#PreskillVilenkin92}
+* {#PreskillVilenkin92} [[John Preskill]], [[Alexander Vilenkin]], _Decay of Metastable Topological Defects_, Phys. Rev. D47 : 2324-2342 (1993) ([arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210))
+ 
 
-* [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
- {#VilenkinShellard94}
+* {#VilenkinShellard94} [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
+ 
 
 
 #### In solid state physics
 
 Defects field theory motivated from [[solid state physics]] is discussed in
 
-* [[Alexei Kitaev]], [[Liang Kong]], _Models for gapped boundaries and domain walls_ Commun. Math. Phys. 313 (2012) 351-373  ([arXiv:1104.5047](http://arxiv.org/abs/1104.5047))
- {#KitaevKong11}
+* {#KitaevKong11} [[Alexei Kitaev]], [[Liang Kong]], _Models for gapped boundaries and domain walls_ Commun. Math. Phys. 313 (2012) 351-373  ([arXiv:1104.5047](http://arxiv.org/abs/1104.5047))
+ 
+
+
+[[!include defect anyons -- references]]
+
 
 
 [[!redirects defect]]
