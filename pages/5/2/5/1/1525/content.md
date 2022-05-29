@@ -20,7 +20,7 @@ One can view the concept of a [[morphism]] or arrow in a [[category]] as an extr
 
 ## Free category on a directed graph
 
-There is a [[forgetful functor]] from [[small category|small]] [[strict category|strict]] [[categories]] to [[quivers]]. This forgetful functor has a [[left adjoint]], giving the **[[free category]]** or **path category** of a quiver, whose [[objects]] are the vertices of the quiver.  The [[morphisms]] from $a$ to $b$ in this free category are *not* merely the arrows from $a$ to $b$ in the quiver but instead are [[lists]] of the form $(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)$ where $n \geq 0$ is a [[natural number]], $a_0,a_1,\ldots,a_n$ are vertices of the graph, $a = a_0$, $b = a_n$,  and for all $0 \lt i \leq n$, $f_i\colon a_{i-1} \to a_i$ is an edge from $a_{i-1}$ to $a_i$.  The [[composition]] is given by the concatenation 
+There is a [[forgetful functor]] from [[small category|small]] [[strict category|strict]] [[categories]] to [[quivers]]. This forgetful functor has a [[left adjoint]], giving the **[[free category]]** or **path category** of a quiver, whose [[objects]] are the vertices of the quiver.  The [[morphisms]] from $a$ to $b$ in this free category are *not* merely the arrows from $a$ to $b$ in the quiver but instead are [[lists]] of the form $(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)$ where $n \geq 0$ is a [[natural number]], $a_0,a_1,\ldots,a_n$ are vertices of the graph, $a = a_0$, $b = a_n$,  and for all $0 \lt i \leq n$, $f_i\colon a_{i-1} \to a_i$ is an edge from $a_{i-1}$ to $a_i$.  The [[composition]] is given by the [[concatenation]] 
 $$(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)\circ (b_m,g_m,a_{m-1},\ldots,b_{1},g_1,b_0) := (a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0= b_m,g_m,a_{m-1},\ldots,b_{1},g_1,b_0)$$ 
 whenever $a_0 = b_m$, and the [[target]] and [[source]] maps are given by $s(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0)=a_0$ and $t(a_n,f_n,a_{n-1},\ldots,a_{1},f_1,a_0) = a_n$. One informally writes $f$ for the morphism $(b,f,a)\colon a \to b$ in the free category and the [[identity morphism|identities]] of the free category are $id_a = (a,a)$; thus 
 $$ f_n \circ f_{n-1} \circ \ldots \circ f_1 = (t(f_n),f_n,t(f_{n-1}),\ldots,t(f_1),f_1,s(f_1))\quad .$$
@@ -49,6 +49,8 @@ Given a [[topological space]] $X$ (or some other kind of [[space]] with a notion
 Given a [[category]] $X$, the [[functor category]] $[I,X]$ for $I$ the [[interval category]] might be called a "directed path category of $X$" (similar to [[path space]]). However, this functor category is referred to instead as the [[arrow category]] of $X$ and sometimes even denoted $Arr(X)$.
 
 ## Related concepts
+
+* [[concatenation]]
 
 * [[free groupoid]]
 
