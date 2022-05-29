@@ -250,6 +250,7 @@ Discussion of an extended version of Riemannian geometry suitable for the descri
 * [[Andreas Deser]], [[Christian Saemann]], _Extended Riemannian Geometry I: Local Double Field Theory_, ([arXiv:1611.02772](https://arxiv.org/abs/1611.02772))
 
 Comprehensive discussion in [[higher differential geometry]]:
+{#ReferencesInHigherDifferentialGeometry}
 
 * {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
 
