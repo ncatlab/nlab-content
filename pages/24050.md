@@ -34,7 +34,7 @@
 
 ## Idea
 
-While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks about H-$\mathbb{Z}$-module spectra in [[derived geometry]], theoretically one should be able to extend it to general spectra in [[spectral geometry]]. 
+While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks about [[HZ|$H\mathbb{Z}$]]-[[module spectra]] in [[derived geometry]] (via the [[stable Dold-Kan correspondence]]), theoretically one should be able to extend it to general spectra in [[spectral geometry]]. 
 
 ## Definition
 
