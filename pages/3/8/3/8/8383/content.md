@@ -69,7 +69,7 @@ Categories, dirige par J. Benabou, November 1976
 
 * G. Amato and J. Lipton, Indexed categories and bottom-up semantics of logic programs. Lecture Notesin Computer Science, Vol. 2250. Springer Verlag, New York-Berlin, 2001
 
-* [[Pieter Hofstra]] and [[Federico De Marchi]], _Descent for Monads_, in  Theory and Applications of Categories, Vol. 16, No. 24, 2006, pp. 668–699.  ([TAC](http://www.tac.mta.ca/tac/volumes/16/24/16-24abs.html))
+* [[Pieter Hofstra]], Federico De Marchi, _Descent for Monads_, in  Theory and Applications of Categories, **16** 24 (2006) 668–699.  ([tac:16-24](http://www.tac.mta.ca/tac/volumes/16/24/16-24abs.html))
 
 * {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
 
@@ -83,13 +83,13 @@ This also presents a [[string diagram]] calculus for indexed monoidal categories
 
 * {#BradyTrimble98} Geraldine Brady, [[Todd Trimble]], _[[A string diagram calculus for predicate logic]]_ (1998)
 
-which is made rigorous in
+which is made rigorous in:
 
-* Cary Malkiewich and [[Kate Ponto]], _Coherence for indexed symmetric monoidal categories_, [arxiv:1811.12873](https://arxiv.org/abs/1811.12873)
+* [[Cary Malkiewich]], [[Kate Ponto]], _Coherence for indexed symmetric monoidal categories_ $[$[arxiv:1811.12873](https://arxiv.org/abs/1811.12873)$]$
 
-Also possibly relevant is:
+On the [[monoidal Grothendieck construction]]:
 
-* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_ ([arXiv:1809.00727](http://arxiv.org/abs/1809.00727))
+* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, **35** 31 (2020) 1159-1207 $[$[arXiv:1809.00727](http://arxiv.org/abs/1809.00727), [tac:35-31](www.tac.mta.ca/tac/volumes/35/31/35-31abs.html)$]$
 
 
 [[!redirects indexed monoidal category]]
