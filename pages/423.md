@@ -1537,10 +1537,15 @@ See also [[examples in topology]].
 ### Computational Topology
 
 * [[computational topology]]
+
 * [[topological data analysis]]
+
 * [[sources in computational topology]]
 
+
+
 ## References
+ {#References}
 
 Historical origins:
 
