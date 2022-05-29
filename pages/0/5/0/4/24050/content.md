@@ -34,15 +34,13 @@
 
 ## Idea
 
-By a condensed spectrum one should generally mean a *[[spectrum]]* in the context of [[condensed mathematics]], hence a [[spectrum object]] [[internalization|internal to]] [[condensed infinity-groupoids|condensed $\infty$-groupoid]].
+By a condensed spectrum one should generally mean a *[[spectrum]]* in the context of [[condensed mathematics]], hence a [[condensed object in an (infinity,1)-category|condensed object]] [[internalization|internal to]] [[spectra]].
 
-A special case of this general notion has essentially been considered in [Scholze (2019)](#ScholzeLCM): The condensed simplicial abelian groups discussed there may be understood, under the [[stable Dold-Kan correspondence]], to represent (the condensed version of) the particular case of connective [[HZ|$H\mathbb{Z}$]]-[[module spectra]]. These are used to define derived condensed rings, which is a particular monoid object in connective $H\mathbb{Z}$-module spectra, and specific types of derived condensed rings, such as derived pre-analytic rings. 
+A special case of this general notion has essentially been considered in [Scholze (2019)](#ScholzeLCM): The condensed simplicial abelian groups discussed there may be understood, under the [[stable Dold-Kan correspondence]], to represent (the condensed version of) the particular case of connective [[HZ|$H\mathbb{Z}$]]-[[module spectra]]. 
 
 ## Definition
 
-Let $\mathrm{Cond}\infty\mathrm{Grpd}$ be the [[(infinity,1)-category]] of [[condensed infinity-groupoids]]. A **condensed spectrum** is a [[spectrum object]] in [[condensed infinity-groupoids]]. 
-
-Equivalently, since $\mathrm{Cond}\infty\mathrm{Grpd}$ has all [[finite (infinity,1)-limits]], the [[stabilization]] of $\mathrm{Cond}\infty\mathrm{Grpd}$ into a [[stable (infinity,1)-category]], $\mathrm{Stab}(\mathrm{Cond}\infty\mathrm{Grpd})$ exists. A **condensed spectrum** is an object of $\mathrm{Stab}(\mathrm{Cond}\infty\mathrm{Grpd})$. 
+A **condensed spectrum** is a [[(infinity,1)-sheaf]] of [[spectra]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
 
 ## See also
 
