@@ -49,6 +49,11 @@ $Cl_{n+1}$-action. When $n = 0$ this is what we had above, since a $Cl_0$-module
 
 ## References 
 
+* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)$]$
+
+* [[Max Karoubi]], *Espaces Classifiants en K-Théorie*, Transactions of the American Mathematical Society **147** 1 (Jan., 1970) 75-115 $[$[doi:10.2307/1995218](https://doi.org/10.2307/1995218)$]$
+
+
 * [[Max Karoubi]], _Twisted K-theory old and new_, ([pdf](http://www.math.uiuc.edu/K-theory/0840/TwistedK-theory_mwd.pdf))
 
 * [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1970__38_/PMIHES_1970__38__5_0/PMIHES_1970__38__5_0.pdf))
