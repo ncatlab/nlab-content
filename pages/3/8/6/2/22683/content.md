@@ -19,9 +19,13 @@ A *braid representation* is a [[linear representation]] of a [[braid group]].
 
 In [[topological quantum computation]] on [[anyons]], braid representations serve as [[quantum gates]].
 
+## Examples
+
+* [[Burau representation]]
+
 ## Related concepts
 
-* [[braid group statistics]]
+* [[braid group statistics]] ([[anyons]])
 
 * [[Knizhnik-Zamolodchikov equation]]
 
