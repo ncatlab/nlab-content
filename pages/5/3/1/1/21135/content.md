@@ -1,14 +1,14 @@
 
 ### Topological phases of matter via K-theory
 
-#### General
+#### For free-fermion topological insulators
 
-On the classification of [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], notably [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
+On the classification of *[[free field|free]] [[fermion]]* [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], specifically [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
+
 
 Precursor discussion phrased in terms of [[random matrix theory]] instead of K-theory:
 
 * Denis Bernard, André LeClair, *A classification of 2D random Dirac fermions*, J. Phys. A: Math. Gen. **35** (2002) 2555 $[$[doi:10.1088/0305-4470/35/11/303](https://iopscience.iop.org/article/10.1088/0305-4470/35/11/303)$]$
-
 
 * [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]], *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) $[$[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)$]$
 
@@ -18,16 +18,22 @@ The original proposal making [[topological K-theory]] explicit:
 
 Further details:
 
-More on the Clifford algebra involved:
+The technical part of the argument always essentially boils down (implicitly, never attributed this way before [Freed & Moore 2013](#FreedMoore13)) to the argument for [[Karoubi K-theory]] from: 
+
+* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)$]$
+
+* [[Max Karoubi]], *Espaces Classifiants en K-Théorie*, Transactions of the American Mathematical Society **147** 1 (Jan., 1970) 75-115 $[$[doi:10.2307/1995218](https://doi.org/10.2307/1995218)$]$
+
+More on this [[Clifford algebra]]-argument explicit in view of topological insulators:
 
 * Michael Stone, Ching-Kai Chiu, Abhishek Roy, *Symmetries, dimensions and topological insulators: the mechanism behind the face of the Bott clock*,  Journal of Physics A: Mathematical and Theoretical, **44** 4 (2010) 045001 $[$[doi:10.1088/1751-8113/44/4/045001](https://iopscience.iop.org/article/10.1088/1751-8113/44/4/045001)$]$
 
 * Gilles Abramovici, Pavel Kalugin, *Clifford modules and symmetries of topological insulators*,  International Journal of Geometric Methods in Modern PhysicsVol. **09**  03 (2012) 1250023   $[$[arXiv:1101.1054](https://arxiv.org/abs/1101.1054), [doi:10.1142/S0219887812500235](https://doi.org/10.1142/S0219887812500235)$]$
 
 
-The proper equivariant formulation:
+The proper [[equivariant K-theory]] formulation expected to apply also to [[topological crystalline insulators]]:
 
-* [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
 Further discussion:
 
