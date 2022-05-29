@@ -15,7 +15,9 @@
 
 ## Idea
 
-In 1928, [[J. W. Alexander]] published a paper "Topological Invariants of Knots and Links" in which he defined a polynomial [[knot invariant|invariant]] of [[knots]] and developed new insights including the braid relations.  There are several ways to look at these invariants, some of these use the [[knot group]] previously defined by [[Max Dehn]], but there are also various combinatorial methods derived from Alexander's original one. One of the best known methods is via [[Fox derivatives]] and is described in the classical text by [[Richard Crowell]] and [[Ralph Fox]].
+The *Alexander polynomial* ([Alexander 1928](#Alexander28)) is a [[polynomial]] [[knot invariant|invariant]] related to [[braid representation]]-theory (cf. the *[[Burau representation]]*).
+
+There are several ways to look at thid invariant, some of these use the [[knot group]] previously defined by [[Max Dehn]], but there are also various combinatorial methods derived from Alexander's original one. One of the best known methods is via [[Fox derivatives]] and is described in the classical text by [[Richard Crowell]] and [[Ralph Fox]].
 
 (...)
 
@@ -24,26 +26,42 @@ For a [[fiber]] surface $T$, the translation of the fibre around the base-space 
 
 ([Stallings 87](#Stallings87))
 
-##Analogy with number theory
+## Properties
+
+### Analogue in  number theory
 
 See [Sikora 01, analogy 2.2 (10)](#Sikora01)) for the comparison in [[arithmetic topology]], where Alexander-Fox theory is the analog of [[Iwasawa theory]] ([Morishita, section 7](#Morishita)).
 
 In [Remark 3.3 of Sugiyama 04](#Sugiyama04), the Alexander polynomial is described as the L-function of the knot complement, taken there with the trivial represenation. As such it resembles the local zeta function of a curve.
 
+## Related concepts
+
+* [[Burau representation]]
+
 ## References
 
-* [Alexander's original paper](http://homepages.math.uic.edu/~kauffman/Alex.pdf)
+The original article:
 
-*   [[R. H. Crowell]] and [[R. H. Fox]], Introduction to Knot Theory, Springer, Graduate Texts 57, 1963.
+* {#Alexander28} [[James W. Alexander]], *Topological invariants of knots and links*, Trans. Amer. Math. Soc. **30** (1928) 275-306 $[$[doi:10.1090/S0002-9947-1928-1501429-1](https://doi.org/10.1090/S0002-9947-1928-1501429-1)$]$
+
+Textbook accounts:
+
+* [[R. H. Crowell]] and [[R. H. Fox]], *Introduction to Knot Theory* Springer, Graduate Texts **57** (1963)
+
+* [[N. D. Gilbert]] and [[T. Porter]], *Knots and Surfaces*, Oxford U.P. (1994)
 
 
-Various approaches to the Alexander polynomial are described in introductory texts such as 
 
-* [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+See also:
 
-* {#Stallings87} John Stallings, _Constructions of fibered knots and links_, Proceedings of Symposia in Pure Mathematics, Volume 32,1987 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/stallfib2.pdf))
+* {#Stallings87} [[John Stallings]], _Constructions of fibered knots and links_, Proceedings of Symposia in Pure Mathematics **32** (1987) $[$[pdf](http://www.maths.ed.ac.uk/~aar/papers/stallfib2.pdf)$]$
 
-An analogue in number theory is Iwasawa polynomial. Cf. for number theoretic analogies
+* Wikipedia, *[Alexander polynomial](https://en.m.wikipedia.org/wiki/Alexander_polynomial)*
+
+
+
+
+An analogue in number theory is the *Iwasawa polynomial*. Cf. for number theoretic analogies
 
 * [[Barry Mazur]], _Remarks on the Alexander polynomial_, [pdf](http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf)
 * {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
