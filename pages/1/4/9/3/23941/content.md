@@ -87,4 +87,5 @@ See also:
 [[!redirects honeycomb lattice]]
 [[!redirects honeycomb lattices]]
 
-
+[[!redirects crystal lattice]]
+[[!redirects crystal lattices]]
