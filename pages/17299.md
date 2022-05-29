@@ -16,7 +16,7 @@
 
 ## Idea
 
-To the extent that a [[monoidal functor]] is analogous to a [[monoid]], a _module over a monoidal functor_ is analogous to a [[module]] over (i.e.: and [[action]] of) that monoid.
+To the extent that a [[monoidal functor]] is analogous to a [[monoid]], a _module over a monoidal functor_ is analogous to a [[module]] over (hence an [[action]] of) that monoid.
 
 ## Definition
 
