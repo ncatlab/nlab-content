@@ -19,7 +19,7 @@
 
 ## Idea
 
-The definition of the concept of sub-nets of a [[net]] requires some care. The point of the definition is to ensure that [[compact spaces equivalently have converging subnet of every net|compact spaces are equivalently those for which every net has a converging subnet]].
+The definition of the concept of sub-nets of a [[net]] requires some care. The point of the definition is to ensure that in [[classical mathematics]], [[compact spaces equivalently have converging subnets|compact spaces are equivalently those for which every net has a converging subnet]].
 
 ## Definition
 
