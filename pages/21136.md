@@ -38,7 +38,16 @@ Under [[AdS/CFT duality in solid state physics]] the [[K-theory classification o
 
 ## References
 
+
+
+
+
 [[!include topological phases of matter via K-theory -- references]]
+
+
+
+
+
 
 [[!redirects K-theory classification of topological phases]]
 
