@@ -231,13 +231,13 @@ Given the set of two elements $\{0, 1\}$ with its [[discrete topology]], if ever
 
 +-- {: .proof}
 ###### Proof
-Let $Q$ be a [[directed set]] (i.e. a directed [[preordered set]]). Assume that every [[net]] in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet. Because the subset inclusion $i \colon P \to \{0, 1\}$ for any subset $P \subseteq \{0, 1\}$ is a net, there is a [[cofinal]] map $f:Q \to P$ from $Q$ to $P$ such that $i \circ f$ is a net which converges to an element $x \in \{0, 1\}$, which by the universal property of $\{0, 1\}$ satisfies either $x = 0$ or $x = 1$. 
+Let $Q$ be a [[directed set]] (i.e. a directed [[preordered set]]). Assume that every [[net]] in $\{0, 1\}$ has a converging subnet, where $\{0, 1\}$ has the discrete topology. Because the subset inclusion $i \colon P \to \{0, 1\}$ for any subset $P \subseteq \{0, 1\}$ is a net, there is a [[cofinal]] function $f:Q \to P$ from $Q$ to $P$ such that $i \circ f$ is a net which converges to an element $x \in \{0, 1\}$, which by the universal property of $\{0, 1\}$ satisfies either $x = 0$ or $x = 1$. 
 
-$\{1\}$ is an open of $\{0, 1\}$. If $x = 1$, then there is an element $q \in Q$ such that $f(q) \in \{1\}$, but $f(q) \in P$, so $1 \in P$. 
+Because $\{0, 1\}$ has the discrete topology, $\{1\}$ is an open of $\{0, 1\}$. If $x = 1$, then there is an element $q \in Q$ such that $f(q) \in \{1\}$, but $f(q) \in P$, so $1 \in P$. 
 
 If $x = 0$, then suppose that $1 \in P$. Because $f$ is [[cofinal]], there is an element $q \in Q$ such that $f(q) \geq 1$, and by the definition of the partial order in $\{0, 1\}$, $f(q) = 1$, which means that for any other element $r \in Q$ such that $r \geq q$, $f(r) \geq f(q)$, $f(r) \geq 1$, and $f(r) = 1$, which contradicts the fact that $f$ converges to $0$. Thus, $1 \notin P$. 
 
-Thus, if every net in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet, either $1 \in P$ or $1 \notin P$. 
+Thus, assuming that $\{0, 1\}$ comes with its [[discrete topology]], if every net in $\{0, 1\}$ has a converging subnet, then for every inhabited subset $P$ of $\{0, 1\}$, either $1 \in P$ or $1 \notin P$. For the empty subset, $1 \notin \emptyset$, so for every subset $P$ of $\{0, 1\}$, either $1 \in P$ or $1 \notin P$. 
 
 Given any [[proposition]] $p$, let us define the subset of $\{0, 1\}$ as 
 
@@ -250,7 +250,7 @@ $$
   \Big\}
 $$
 
-It follows that if $1 \in P$, then $p$, and if $1 \notin p$, then $\not p$. Thus, the [[law of excluded middle]] is true for all [[propositions]] $p$. 
+It follows that if $1 \in P_p$, then $p$, and if $1 \notin P_p$, then $\not p$. Thus, the [[law of excluded middle]] is true for all [[propositions]] $p$. 
 =--
 
 ## Related concepts
