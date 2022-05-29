@@ -12,9 +12,12 @@ On [[twisted ad-equivariant K-theory]] of [[Lie groups]] generalized to [[KR-the
 
 * [[Chi-Kwong Fok]], *Equivariant twisted Real K-theory of compact Lie groups*,   Journal of Geometry and Physics 124 (2018) 325-349 ([arXiv:1503.00957](https://arxiv.org/abs/1503.00957), [doi:10.1016/j.geomphys.2017.11.013](https://doi.org/10.1016/j.geomphys.2017.11.013))
 
+* [[Alex Fok]], *Equvariant twisted KK-theory of noncompact Lie groups* (2022) $[$[talk](Center+for+Quantum+and+Topological+Systems#AlexFokMay22)$]$
+
 
 category: people
 
 [[!redirects Chi Kwong Fok]]
+[[!redirects Alex Fok]]
 [[!redirects Alex Fong]]
 
