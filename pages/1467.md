@@ -170,7 +170,7 @@ $X$ is compact iff every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a
 
 =-- 
 
-While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. 
+While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. However, in [[constructive mathematics]], there exist [[topological spaces]] satisfying (\ref{hb}&\ref{fip}) which fail (\ref{refinement}) as convergence spaces, see [[compact spaces equivalently have converging subnet of every net#Failure in constructive mathematics]] for more details. This suggests that the definition of compact space in terms of topological structure in [[topology]] (compact topological space) and in terms of convergence of nets in [[analysis]] (compact convergence space) bifurcates in constructive mathematics. 
 
 ### Compactness via completeness
 
