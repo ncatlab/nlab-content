@@ -1,6 +1,6 @@
 
 
-* [webpage](http://asterix.crnet.cr/gdt/)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Guy_F._de_Téramond)
 
 
 ## Selected writings
