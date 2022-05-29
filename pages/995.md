@@ -5,6 +5,14 @@
 +-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
 =--
 =--
 
