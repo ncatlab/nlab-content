@@ -38,9 +38,7 @@ While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks 
 
 ## Definition
 
-Let $\mathrm{Cond}\infty\mathrm{Grpd}$ be the [[(infinity,1)-category]] of [[condensed infinity-groupoids]], and let $E_\infty(\mathrm{Cond}\infty\mathrm{Grpd})$ be the [[(infinity,1)-category]] of [[condensed E-infinity ring]]. Given a condensed E-infinity ring $R$, the category of condensed $R$-module spectra is the [[stabilization]] of the [[slice (infinity,1)-category]] of condensed E-infinity rings over $R$,  
-$$\mathrm{Cond}R\mathrm{Mod} \coloneqq \mathrm{Stab}(E_\infty(\mathrm{Cond}\infty\mathrm{Grpd})/R)$$ 
-A **condensed $R$-module spectrum** is an object of $\mathrm{Cond}R\mathrm{Mod}$. 
+Given an E-infinity ring $R$, a **condensed $R$-module spectrum** is a [[(infinity,1)-sheaf]] of $R$-[[module spectra]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
 
 ## See also
 
