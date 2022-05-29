@@ -152,12 +152,12 @@ $X$ is compact iff every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X
 
 =--
 
-In any case, compactness can be characterized in terms of [[proper filter]] or equivalently (see at _[[eventuality filter]]_) of [[net]] [[convergence]] . 
+In any case, if [[excluded middle]] is assumed, compactness can be characterized in terms of [[proper filter]] or equivalently (see at _[[eventuality filter]]_) of [[net]] [[convergence]] . 
 
 +-- {: .num_prop #refinement}
 ###### Proposition
 
-$X$ is compact iff every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/[[subnet]].
+Assuming [[excluded middle]], $X$ is compact iff every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/[[subnet]].
 
 =--
 
@@ -166,11 +166,11 @@ This is equivalent to the characterization given in the [Idea-section](#Idea) ab
 +-- {: .num_prop #clustering}
 ###### Proposition
 
-$X$ is compact iff every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
+Assuming [[excluded middle]], $X$ is compact iff every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
 
 =-- 
 
-While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. However, in [[constructive mathematics]], there exist [[topological spaces]] satisfying (\ref{hb}&\ref{fip}) which fail (\ref{refinement}) as convergence spaces, see [[compact spaces equivalently have converging subnet of every net#Failure in constructive mathematics]] for more details. This suggests that the definition of compact space in terms of topological structure in [[topology]] (compact topological space) and in terms of convergence of nets in [[analysis]] (compact convergence space) bifurcates in constructive mathematics. 
+While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. However, in [[constructive mathematics]], that every [[topological space]] satisfying (\ref{hb}&\ref{fip}) also satisfies (\ref{refinement}&\ref{clustering}) as a [[convergence space]] is the same as [[excluded middle]], see [[compact spaces equivalently have converging subnet of every net#Failure in constructive mathematics]] for more details. 
 
 ### Compactness via completeness
 
