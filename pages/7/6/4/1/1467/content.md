@@ -617,6 +617,8 @@ For topological spaces, this is either a definition of "proper map" (closed with
 
 ## References
 
+For general references see the [list](topology#References) at *[[topology]]*.
+
 Examples of compact spaces that are not sequentially compact are in
 
 * {#SteenSeebach70} [[Lynn Arthur Steen]], [[J. Arthur Seebach]], _[[Counterexamples in Topology]]_, Springer 1970/1978 ([doi:10.1007/978-1-4612-6290-9](https://link.springer.com/book/10.1007/978-1-4612-6290-9))
