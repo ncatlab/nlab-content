@@ -38,7 +38,7 @@ While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks 
 
 ## Definition
 
-Let $\mathrm{Cond}\infty\mathrm{Grpd}$ be the [[(infinity,1)-category]] of [[condensed infinity-groupoids]], and let $\mathrm{Stab}(\mathrm{Cond}\infty\mathrm{Grpd})$ be the [[stable (infinity,1)-category]] of [[condensed spectra]]. A **condensed E-infinity ring** is a [[commutative monoid in a symmetric monoidal (infinity,1)-category|commutative monoid object]] in $\mathrm{Stab}(\mathrm{Cond}\infty\mathrm{Grpd})$. 
+A **condensed E-infiity-ring** is a [[(infinity,1)-sheaf]] of [[E-infinity-rings]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
 
 ## See also
 
