@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 The [[Grothendieck construction]] gives a way of gluing together the constituent categories $F(x)$ of an [[indexed category]] $F \colon X^{op} \to \mathsf{Cat}$ to get a category $\int F$ which admits an obvious [[Grothendieck fibration|fibration]] over the base $\int F \to X$. This gives an [[equivalence of 2-categories|equivalence]] between the 2-category of indexed categories and the 2-category of fibrations.
@@ -7,15 +27,19 @@ Two ways [[monoidal category|monoidal structures]] can join this story is on the
 ## Related Concepts
 
 * [[Grothendieck construction]] 
+
 * [[monoidal category]]
+
 * [[monoidal fibration]]
+
 * [[indexed monoidal category]]
 
 ## References
 
 * [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, Theory and Applications of Categories, Vol. 20, No. 18, 2008, pp. 650–738. [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
 
-* [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, [arxiv](https://arxiv.org/abs/1809.00727) 2019
+* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, **35** 31 (2020) 1159-1207 $[$[arXiv:1809.00727](http://arxiv.org/abs/1809.00727), [tac:35-31](www.tac.mta.ca/tac/volumes/35/31/35-31abs.html)$]$
+
 
 [[!redirects monoidal Grothendieck construction]]
 [[!redirects monoidal Grothendieck constructions]]
