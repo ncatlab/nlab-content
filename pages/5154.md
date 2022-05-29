@@ -357,6 +357,8 @@ This is discussed in ([BergerMoerdijkAlgebras, section 6](#BergerMoerdijkAlgebra
 
   * [[model structure for ring spectra]]
 
+* [[model structure on modules in a monoidal model category]]
+
 * [[algebra over a monad]]
 
   [[∞-algebra over an (∞,1)-monad]] 
