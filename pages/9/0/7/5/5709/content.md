@@ -1320,6 +1320,8 @@ See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#Wha
 
 * [[effective action]]
 
+* [[quasiparticle]]
+
 * [[higher order curvature corrections]]
 
 * [[Stückelberg-Petermann renormalization group]]
