@@ -341,3 +341,6 @@ and the examples of higher Chern-Simons theories in
 [[!redirects higher geometric prequantization]]
 
 [[!redirects extended geometric quantization]]
+
+[[!redirects higher geometric quantisation]]
+[[!redirects higher geometric quantisations]]
