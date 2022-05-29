@@ -185,6 +185,52 @@ Now since the function $f$ defining the subset is cofinal, there would exist $b_
 
 =--
 
+## Failure in constructive mathematics
+
+In [[constructive mathematics]], this statement is equivalent to [[excluded middle]]. 
+
++--{: .num_prop #TwoElementSetWithDiscreteTopologyIsCompact}
+###### Proposition
+The set of two elements $\{0, 1\}$ with its [[discrete topology]] is a [[compact space]]. 
+=--
+
++-- {: .proof}
+###### Proof
+Let $U$ be an [[open cover]] of $\{0, 1\}$. Then there exists $i_0$ such that $0 \in U_{i_0}$ and $i_1$ such that $1 \in U_{i_1}$. Then $U_{i_0}, U_{i_1}$ form a [[finite]] [[subobject|sub]][[cover]] of $\{0, 1\}$: the [[universal property]] of the set of two elements implies that if $x \in \{0, 1\}$, then $x = 0$ or $x = 1$, which means that if $x = 0$, then $x \in U_{i_0}$, and if $x = 1$, then $x \in U_{i_1}$. 
+=--
+
++--{: .num_prop #InhabitedSubsetsOfTwoElementSetAreDirectedPosets}
+###### Proposition
+Every [[inhabited set|inhabited]] [[subset]] of $\{0, 1\}$ is a directed poset. 
+=--
+
++-- {: .proof}
+###### Proof
+Let $P$ be an inhabited subset of $\{0, 1\}$. Then $P$ is a [[directed poset]]: it is inhabited, it has a [[partial order]] inherited from the partial order defined on $\{0, 1\}$ by $0 \leq 1$, $0 \leq 0$, $1 \leq 1$, and there is an upper bound function $\beta:P \times P \to P$ defined for elements $a \in P$ and $b \in P$ as $\beta(a, b) = b$ if $a = 0$, $\beta(a, b) = a$ if $a = 1$, $\beta(a, b) = a$ if $b = 0$, and $\beta(a, b) = b$ if $b = 1$: this means that $a \leq \beta(a, b)$ and $b \leq \beta(a, b)$. 
+=--
+
++--{: .num_prop #SubsetInclusionsToTwoElementSetAreNets}
+###### Proposition
+Every subset inclusion $i:P \hookrightarrow \{0, 1\}$ of an inhabited subset $P$ of $\{0, 1\}$ is a net in $\{0, 1\}$. 
+=--
+
++-- {: .proof}
+###### Proof
+Since $P$ is a directed poset, it follows that any [[function]] $i:P \to \{0, 1\}$ is a net in $\{0, 1\}$. Thus the subset inclusions $i:P \hookrightarrow \{0, 1\}$ are nets. 
+=--
+
++-- {: .num_prop #TwoElementSetHasConvergetSubnetsImpliesExcludedMiddle}
+###### Proposition
+If every net in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet, then for any inhabited subset $P$ of $\{0, 1\}$ with [[injection]] $i:P \to \{0, 1\}$, the [[fiber]] of $i$ at $1$ is either inhabited or empty. 
+=--
+
++-- {: .proof}
+###### Proof
+...
+=--
+
+This implies that the definition of compact space in terms of topological structure in [[topology]] (compact topological space) and in terms of convergence of nets in [[analysis]] (compact convergence space) bifurcates. 
+
 ## Related concepts
 
 * [[sequentially compact metric spaces are equivalently compact metric spaces]]
