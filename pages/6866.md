@@ -26,6 +26,10 @@ In the context of ([[perturbative QFT|perturbative]]) [[quantum field theory]] a
 
 * More generally, for the _[[relative effective action]]_ see at _[[effective field theory]]_ the section _[Relative effective actions](effective+quantum+field+theory#RelativeEffectiveAction)_.
 
+## Related concepts
+
+* [[quasiparticle]]
+
 ## References
 
 A discussion (with an eye towards [[supersymmetric quantum field theory]] and [[Seiberg duality]]) is in  section 2.1 of 
