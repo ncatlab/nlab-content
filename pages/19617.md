@@ -62,6 +62,8 @@ PhD thesis:
 
 * _Global Double Field Theory as gerbe geometry_, talk at [Generalized Geometry and Applications](https://www.math.uni-hamburg.de/projekte/gg2020/), University of Hamburg, 3rd March 2020.
 
+* *Higher quantum geometry and global string duality*, talk at NYU Abu Dhabi (April 2022) $[$[web](Center+for+Quantum+and+Topological+Systems#AlfonsiFeb2022)$]$
+
 ## Notes
 
 * _Review of non-abelian localization for $2$d Yang-Mills Theory_, 2017 ([pdf](https://drive.google.com/file/d/1gFPv0tg7mKXQKmhB0dK-Hj3PWdTcM05K/view))
