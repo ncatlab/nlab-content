@@ -28,7 +28,15 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
+
+While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks about H-$\mathbb{Z}$-module spectra in [[derived geometry]], theoretically one should be able to extend it to general spectra in [[spectral geometry]]. 
+
+## Definition
 
 Let $\mathrm{Cond}\infty\mathrm{Grpd}$ be the [[(infinity,1)-category]] of [[condensed infinity-groupoids]], and let $\mathrm{Stab}(\mathrm{Cond}\infty\mathrm{Grpd})$ be the [[stable (infinity,1)-category]] of [[condensed spectra]]. A **condensed E-infinity ring** is a [[commutative monoid in a symmetric monoidal (infinity,1)-category|commutative monoid object]] in $\mathrm{Stab}(\mathrm{Cond}\infty\mathrm{Grpd})$. 
 
