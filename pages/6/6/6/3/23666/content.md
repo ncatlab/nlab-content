@@ -91,4 +91,7 @@ The electronic band structure of [[graphene]] was predicted in
 [[!redirects energy band]]
 [[!redirects energy bands]]
 
+[[!redirects electron band]]
+[[!redirects electron bands]]
+
 
