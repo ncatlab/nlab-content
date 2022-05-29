@@ -32,6 +32,12 @@ Introducing the [[Atiyah-Bott-Shapiro orientation]] [[MSpin]]$\to$[[KO]] and [[M
 
 * {#AtiyahBottShapiro64} [[Michael Atiyah]], [[Raoul Bott]], [[Arnold Shapiro]], _Clifford modules_, Topology Volume 3, Supplement 1, July 1964, Pages 3-38 (<a href="https://doi.org/10.1016/0040-9383(64)90003-5">doi:10.1016/0040-9383(64)90003-5</a>, [pdf](http://dell5.ma.utexas.edu/users/dafr/Index/ABS.pdf))
 
+Introducing what came to be known as [[Karoubi K-theory]]:
+
+* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)$]$
+
+
+
 
 On [[Bott periodicity]]:
 
