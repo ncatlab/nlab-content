@@ -465,6 +465,8 @@ See [[model structure on monoids in a monoidal model category]].
 
 * [[model structure on monoids in a monoidal model category]]
 
+* [[model structure on modules in a monoidal model category]]
+
 ## References 
 
 * {#Hovey98} [[Mark Hovey]], _Monoidal model categories_ ([arXiv:math/9803002](https://arxiv.org/abs/math/9803002))
