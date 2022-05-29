@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
 #### Topology
 +-- {: .hide}
 [[!include topology - contents]]
@@ -15,7 +19,7 @@
 
 ## Idea
 
-Eventuality filters are the key translation between [[filters]] and [[nets]] (particularly in [[topology]]).  Specifically:
+Eventuality filters are the key translation between [[filters]] and [[nets]] in [[analysis]] and [[topology]].  Specifically:
 
 *  Given a net $n$ (or in particular a [[sequence]]) in a [[set]] $X$, the eventuality filter of $n$ is a [[proper filter]] on $X$;
 
@@ -23,7 +27,7 @@ Eventuality filters are the key translation between [[filters]] and [[nets]] (pa
 
 *  Two nets are equivalent for purposes of [[convergence]] (meaning precisely that they are [[subnets]] of each other in the sense of &#197;rnes & Anden&#230;s) if and only if their eventuality filters are equal.
 
-This last point is not so much a result as the *definition* of the subnet relation (or at least of its [[symmetric relation|symmetrisation]], the relation of equivalence of nets).  One still needs to check that every use of nets in topology (or other fields) actually respects this notion of equivalence of nets, if one wishes to convert nets to filters.
+This last point is not so much a result as the *definition* of the subnet relation (or at least of its [[symmetric relation|symmetrisation]], the relation of equivalence of nets).  One still needs to check that every use of nets in analysis and topology (or other fields) actually respects this notion of equivalence of nets, if one wishes to convert nets to filters.
 
 
 ## Definition
@@ -33,7 +37,6 @@ Let $X$ be a [[set]], let $D$ be a [[directed set]], and let $n$ be a [[function
 In symbols,
 $$ F_n \coloneqq \{ A \subseteq X \;|\; \ess \forall\, j,\; n_j \in A \} ,$$
 where $\ess \forall\, j$ is read 'for essentially each $j$' or 'eventually for each $j$' and means $\exists\, i,\; \forall j \geq i$.  In the case where $D$ is the set of [[natural numbers]] directed by $\leq$, so that $n$ is an [[infinite sequence]] ($\omega$-sequence) in $X$, then $\ess \forall\, j$ may be read as 'for all but finitely many $j$'.
-
 
 ## Converse
 
