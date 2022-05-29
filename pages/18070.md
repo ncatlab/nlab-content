@@ -1577,13 +1577,9 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * {#Cohen76} [[Fred Cohen]], _The homology of $C_{n+1}$-Spaces, $n \geq 0$_, In: _The Homology of Iterated Loop Spaces_, Lecture Notes in Mathematics, vol 533. Springer 1976 ([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
 
-
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
 
-
 * E. Ossa, _On the cohomology of configuration spaces_, In: Broto C., [[Carles Casacuberta]], Mislin G. (eds.), _Algebraic Topology: New Trends in Localization and Periodicity_,  Progress in Mathematics, vol 136. Birkhäuser Basel (1996) ([doi:10.1007/978-3-0348-9018-2_26](https://doi.org/10.1007/978-3-0348-9018-2_26))
-
-
 
 * [[Yves Félix]], [[Jean-Claude Thomas]], _Rational Betti numbers of configuration spaces_, Topology and its Applications, Volume 102, Issue 2, 8 April 2000, Pages 139-149 (<a href="https://doi.org/10.1016/S0166-8641(98)00148-5">doi:10.1016/S0166-8641(98)00148-5</a>)
 
@@ -1591,11 +1587,13 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 
 * {#FelixTanre03} [[Yves Félix]], [[Daniel Tanré]], _The cohomology algebra of unordered configuration spaces_, Journal of the LMS, Vol 72, Issue 2 ([arxiv:math/0311323](https://arxiv.org/abs/math/0311323), [doi:10.1112/S0024610705006794](https://doi.org/10.1112/S0024610705006794))
 
-
-* Thomas Church, _Homological stability for configuration spaces of manifolds_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
+* {#Palmer12} [[Martin Palmer]], *Configuration spaces and homological stability*, Oxford University Research Archive (2012) $[$[pdf](https://mdp.ac/thesis/thesis.pdf), [web](https://mdp.ac/thesis/index.html)$]$
 
 
 * [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization homology_, Algebr. Geom. Topol. 17 (2017) 3137-3187 ([arXiv:1405.6696](https://arxiv.org/abs/1405.6696))
+
+* Thomas Church, _Homological stability for configuration spaces of manifolds_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
+
 
 * Christoph Schiessl, _Betti numbers of unordered configuration spaces of the torus_ ([arxiv:1602.04748](https://arxiv.org/abs/1602.04748))
 
