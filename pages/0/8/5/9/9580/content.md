@@ -62,7 +62,7 @@ For instance
 
 * [[G. Janelidze]], [[G.M. Kelly]], _A note on actions of a monoidal category_, Theory and Applications of Categories, Vol. 9, No. 4, 2001, pp. 61&#8211;91, [pdf](http://www.tac.mta.ca/tac/volumes/9/n4/n4.pdf).
 
-* [[R. Gordon]], [[A.J. Power]], _Enrichment through variation_, J. Pure Appl. Algebra 120 (1997), 167-185.
+* [[Robert Gordon]], [[A.J. Power]], _Enrichment through variation_, J. Pure Appl. Algebra 120 (1997), 167-185.
 
 * {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
