@@ -122,7 +122,7 @@ $$
   \,.
 $$
 
-This is clearly order preserving, and it is cofinal since it is even a surjection. Hence we have defined a subnet $\nu \circ f$.
+This is clearly order preserving, and it is [[cofinal]] since it is even a surjection. Hence we have defined a subnet $\nu \circ f$.
 
 It now remains to see that $\nu \circ f$ converges to $x$, hence that for every open neighbourhood $U_x$ of $x$ we may find $(a,U)$ such that for all $(b,V)$ with $a \leq b$ and $U \supset V$ then $\nu(f(b,V)) = \nu(b) \in U_x$.  Now by the nature of $x$ there exists some $a$ with $\nu_a \in U_x$, and hence if we take $U \coloneqq U_x$ then nature of $B$ implies that with $(b, V) \geq (a,U_x)$ then $b \in V \subset U_x$.
 
@@ -206,7 +206,7 @@ Let $U$ be an [[open cover]] of $\{0, 1\}$. Then there exists $i_0$ such that $0
 
 +--{: .num_prop #InhabitedSubsetsOfTwoElementSetAreDirectedPosets}
 ###### Proposition
-Every [[inhabited set|inhabited]] [[subset]] of $\{0, 1\}$ is a directed poset. 
+Every [[inhabited set|inhabited]] [[subset]] of $\{0, 1\}$ is a [[directed set|directed]] [[poset]]. 
 =--
 
 +-- {: .proof}
@@ -231,17 +231,24 @@ Given the set of two elements $\{0, 1\}$ with its [[discrete topology]], if ever
 
 +-- {: .proof}
 ###### Proof
-Let $Q$ be a [[directed set]] (i.e. a directed preordered set). Assume that every net in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet. Because the subset inclusion $i:P \to \{0, 1\}$ for any subset $P \subseteq \{0, 1\}$ is a net, there is a cofinal map $f:Q \to P$ from $Q$ to $P$ such that $i \circ f$ is a net which converges to an element $x \in \{0, 1\}$, which by the universal property of $\{0, 1\}$ satisfies either $x = 0$ or $x = 1$. 
+Let $Q$ be a [[directed set]] (i.e. a directed [[preordered set]]). Assume that every [[net]] in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet. Because the subset inclusion $i \colon P \to \{0, 1\}$ for any subset $P \subseteq \{0, 1\}$ is a net, there is a [[cofinal]] map $f:Q \to P$ from $Q$ to $P$ such that $i \circ f$ is a net which converges to an element $x \in \{0, 1\}$, which by the universal property of $\{0, 1\}$ satisfies either $x = 0$ or $x = 1$. 
 
 $\{1\}$ is an open of $\{0, 1\}$. If $x = 1$, then there is an element $q \in Q$ such that $f(q) \in \{1\}$, but $f(q) \in P$, so $1 \in P$. 
 
-If $x = 0$, then suppose that $1 \in P$. Because $f$ is cofinal, there is an element $q \in Q$ such that $f(q) \geq 1$, and by the definition of the partial order in $\{0, 1\}$, $f(q) = 1$, which means that for any other element $r \in Q$ such that $r \geq q$, $f(r) \geq f(q)$, $f(r) \geq 1$, and $f(r) = 1$, which contradicts the fact that $f$ converges to $0$. Thus, $1 \notin P$. 
+If $x = 0$, then suppose that $1 \in P$. Because $f$ is [[cofinal]], there is an element $q \in Q$ such that $f(q) \geq 1$, and by the definition of the partial order in $\{0, 1\}$, $f(q) = 1$, which means that for any other element $r \in Q$ such that $r \geq q$, $f(r) \geq f(q)$, $f(r) \geq 1$, and $f(r) = 1$, which contradicts the fact that $f$ converges to $0$. Thus, $1 \notin P$. 
 
 Thus, if every net in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet, either $1 \in P$ or $1 \notin P$. 
 
-Given any proposition $p$, let us define the subset of $\{0, 1\}$ as 
+Given any [[proposition]] $p$, let us define the subset of $\{0, 1\}$ as 
 
-$$P_p \coloneqq \{x \in \{0, 1\} \vert (x = 0) \vee ((x = 1) \wedge p)\}$$
+$$
+  P_p \;\coloneqq\; 
+  \Big\{
+    x \in \{0, 1\} 
+  \Big\vert 
+    (x = 0) \vee \big((x = 1) \wedge p\big)
+  \Big\}
+$$
 
 It follows that if $1 \in P$, then $p$, and if $1 \notin p$, then $\not p$. Thus, the [[law of excluded middle]] is true for all [[propositions]] $p$. 
 =--
@@ -255,4 +262,6 @@ It follows that if $1 \in P$, then $p$, and if $1 \notin p$, then $\not p$. Thus
 * [[sequentially compact metric spaces are totally bounded]]
 
 * [[Lebesgue number lemma]]
+
+[[!redirects compact spaces equivalently have converging subnet of every net]]
 
