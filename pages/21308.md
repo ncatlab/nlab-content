@@ -51,6 +51,7 @@
 ### Higher condensed objects
 
 * [[condensed infinity-groupoid]]
+* [[condensed object in an (infinity,1)-category]]
 * [[condensed spectrum]]
 * [[condensed E-infinity ring]]
 * [[condensed module spectrum]]
@@ -80,6 +81,3 @@
 * [[Peter Scholze]], *[Liquid tensor experiment](https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/)*, December 2020
 
 * [[Peter Scholze]], *[Half a year of Liquid Tensor Experiment: Amazing developments](https://xenaproject.wordpress.com/2021/06/05/half-a-year-of-the-liquid-tensor-experiment-amazing-developments/)*, June 2021
-
-[[!redirects condensed object]]
-[[!redirects condensed objects]]
