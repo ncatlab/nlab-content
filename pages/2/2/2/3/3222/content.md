@@ -7,6 +7,9 @@
 
 ## Selected writings
 
+Introducing what came to be known as [[Karoubi K-theory]]:
+
+* [[Max Karoubi]], *Espaces Classifiants en K-Théorie*, Transactions of the American Mathematical Society **147** 1 (Jan., 1970) 75-115 $[$[doi:10.2307/1995218](https://doi.org/10.2307/1995218)$]$
 
 
 On [[topological K-theory]]:
