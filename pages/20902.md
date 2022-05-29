@@ -3,7 +3,7 @@ Joe Moeller is an NRC postdoc at NIST. He did his PhD at UCR under [[John Baez]]
 
 * [website](https://joemathjoe.wordpress.com/)
 
-## Writings
+## Selected writings
 
 * [[John Baez]], [[Owen Lynch]], [[Joe Moeller]], _Compositional thermostatics_, [arXiv:2111.10315](https://arxiv.org/abs/2111.10315)
 
@@ -16,6 +16,10 @@ Joe Moeller is an NRC postdoc at NIST. He did his PhD at UCR under [[John Baez]]
 * [[John Baez]], [[John Foley]], and [[Joe Moeller]] _Network Models from Petri Nets with Catalysts_, Compositionality, Volume 1, Issue 4, 2019. arXiv:[1904.03550](https://arxiv.org/abs/1904.03550), [DOI](https://doi.org/10.32408/compositionality-1-4)
 
 * [[Joe Moeller]], _Noncommutative Network Models_, Mathematical Structures in Computer Science, 2019. arXiv:[1804.07402](https://arxiv.org/abs/1804.07402), [DOI](https://doi.org/10.1017/S0960129519000161)
+
+On the [[monoidal Grothendieck construction]]:
+
+* {#Moeller_Vasilakopoulou19} [[Joe Moeller]], [[Christina Vasilakopoulou]], _Monoidal Grothendieck Construction_, Theory and Applications of Categories, **35** 31 (2020) 1159-1207 $[$[arXiv:1809.00727](http://arxiv.org/abs/1809.00727), [tac:35-31](www.tac.mta.ca/tac/volumes/35/31/35-31abs.html)$]$
 
 category: people
 
