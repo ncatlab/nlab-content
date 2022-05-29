@@ -7,13 +7,13 @@ Often the concept of anyons is introduced as if a generalization of [[perturbati
 
 The general concept of [[braiding]] of [[defects]] in [[solid state physics]]:
 
-* [[N. David Mermin]], *The topological theory of defects in ordered media*, Rev. Mod. Phys. **51** (1979) 591 $[$[doi:10.1103/RevModPhys.51.591](https://doi.org/10.1103/RevModPhys.51.591)$]$
+* {#Mermin79} [[N. David Mermin]], *The topological theory of defects in ordered media*, Rev. Mod. Phys. **51** (1979) 591 $[$[doi:10.1103/RevModPhys.51.591](https://doi.org/10.1103/RevModPhys.51.591)$]$
 
   > (including a review of [basic homotopy theory](Introduction+to+Topology+--+2))
 
 and more specifically for [[vortices]]:
 
-* [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
+* {#LoPreskill93} [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
 
 Explicit discussion in terms of [[anyons]]:
 
@@ -24,14 +24,14 @@ Explicit discussion in terms of [[anyons]]:
 
 Concrete [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
 
-* B. Paredes, P. Fedichev, J. I. Cirac, P. Zoller *1/2-Anyons in small atomic Bose-Einstein condensates*, Phys. Rev. Lett. **87** (2001) 010402 $[$[arXiv:cond-mat/0103251](https://arxiv.org/abs/cond-mat/0103251), [doi:10.1103/PhysRevLett.87.010402](https://doi.org/10.1103/PhysRevLett.87.010402)$]$
+* {#PFCZ01} B. Paredes, P. Fedichev, J. I. Cirac, P. Zoller *1/2-Anyons in small atomic Bose-Einstein condensates*, Phys. Rev. Lett. **87** (2001) 010402 $[$[arXiv:cond-mat/0103251](https://arxiv.org/abs/cond-mat/0103251), [doi:10.1103/PhysRevLett.87.010402](https://doi.org/10.1103/PhysRevLett.87.010402)$]$
 
 
-* Thomas Mawson, Timothy Petersen, Joost Slingerland, Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
+* {#MPSS19} Thomas Mawson, Timothy Petersen, Joost Slingerland, Tapio Simula, *Braiding and fusion of non-Abelian vortex anyons*, Phys. Rev. Lett. **123** (2019) 140404 $[$[doi:10.1103/PhysRevLett.123.140404](https://doi.org/10.1103/PhysRevLett.123.140404)$]$
 
 and in (other) [[superfluids]]:
 
-* Yusuke Masaki, Takeshi Mizushima, Muneto Nitta, *Non-Abelian Half-Quantum Vortices in 3P2 Topological Superfluids* $[$[arXiv:2107.02448](https://arxiv.org/abs/2107.02448)$]$
+* {#MMN21} Yusuke Masaki, Takeshi Mizushima, Muneto Nitta, *Non-Abelian Half-Quantum Vortices in 3P2 Topological Superfluids* $[$[arXiv:2107.02448](https://arxiv.org/abs/2107.02448)$]$
 
 See also [Ahn, Park & Yang 19](anyon#AhnParkYang19) who refer to the band nodes in the [[Brillouin torus]] of a  [[semi-metal]] as "vortices in momentum space".
 
