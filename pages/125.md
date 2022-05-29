@@ -103,6 +103,8 @@ In some older category theory papers, arrows were written pointing from right to
 
 * [[operator product]]
 
+* [[concatenation]]
+
 
 [[!redirects composite]]
 [[!redirects composites]]
