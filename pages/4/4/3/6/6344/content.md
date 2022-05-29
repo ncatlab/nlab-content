@@ -22,6 +22,8 @@
 
 * [[particle]], [[string]], [[brane]]
 
+* [[quasiparticle]], [[anyon]]
+
 * [[preon]]
 
 * [[unitary representation of the Poincaré group]]
