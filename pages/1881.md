@@ -23,7 +23,7 @@
 
 ## Idea
 
-Given a [[set]] $S$, the __free [[monoid]]__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __concatenation__.  The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$.
+Given a [[set]] $S$, the __free [[monoid]]__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __[[concatenation]]__.  The [[free functor]] from [[Set]] to [[Mon]] takes $S$ to $S^*$.
 
 
 ## Definitions
@@ -39,11 +39,11 @@ The __[[empty list]]__ is the unique list of length $0$.  It may be written $()$
 
 If $n \gt 0$, then the list which assigns $0, \ldots, n - 1$ to $a_0, a_1, \ldots, a_{n-1}$ may be written $(a_0, a_1, \ldots, a_{n-1})$.  For example, if $a,b,c$ are elements of $S$, then $(a,b,c)$ is an element of $S^*$.
 
-Given two lists $x$ and $y$, the former of length $m$ and the latter of length $n$, their __concatenation__ $x * y$ is a list of length $m + n$, given as follows:
+Given two lists $x$ and $y$, the former of length $m$ and the latter of length $n$, their __[[concatenation]]__ $x * y$ is a list of length $m + n$, given as follows:
 $$ i \mapsto \left\{ \array { x_i     & if\; i \lt m \\
                               y_{i-m} & if\; i \geq m } \right. $$
 
-One can now show that concatenation is associative with the empty list as identity; hence $S^*$ is a monoid.
+One can now show that [[concatenation]] is [[associativity|associative]] with the empty list as identity; hence $S^*$ is a monoid.
 
 
 ### Recursively
@@ -159,6 +159,7 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 * [[cofree coalgebra]]
 
+
 ## References
 
 * {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_ , pp.20-29 in LNM **1488** Springer Heidelberg 1991.
@@ -174,7 +175,7 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 [[!redirects finite sequence]]
 [[!redirects finite sequences]]
 
-[[!redirects concatenation]]
+
 [[!redirects cons]]
 
 [[!redirects free monoid]]
