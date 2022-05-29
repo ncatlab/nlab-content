@@ -11,6 +11,10 @@
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -21,10 +25,11 @@
 
 ## Idea
 
-For [[metric spaces]] with their [[metric topology]] it is true that [[sequentially compact metric spaces are equivalently compact metric spaces]]. The analogous statement fails for more general [[topological spaces]]: for them, being [[sequentially compact topological space|sequentially compact]] in general neither implies nor is implied by being [[compact topological space|compact]] (see the counter-examples [here](sequentially+compact+topological+space#Examples)).
+In [[classical mathematics]], for [[metric spaces]] with their [[metric topology]] it is true that [[sequentially compact metric spaces are equivalently compact metric spaces]]. The analogous statement fails for more general [[topological spaces]]: for them, being [[sequentially compact topological space|sequentially compact]] in general neither implies nor is implied by being [[compact topological space|compact]] (see the counter-examples [here](sequentially+compact+topological+space#Examples)).
 
-But the failure of this equivalence is not due to a deficit in the concept of [[convergence]] but in the concept of [[sequences]] and sub-sequences. If the latter are generalized to [[nets]] and [[sub-nets]] (beware that the definition of sub-nets is slightly non-obvious), then the analogue of the statement remains true in generality: A topological space is [[compact topological space|compact]] precisely if every [[net]] in it has a [[sub-net]] that [[convergence]].
+But the failure of this equivalence is not due to a deficit in the concept of [[convergence]] but in the concept of [[sequences]] and sub-sequences. If the latter are generalized to [[nets]] and [[sub-nets]] (beware that the definition of sub-nets is slightly non-obvious), then the analogue of the statement remains true in [[classical mathematics]]: A topological space is [[compact topological space|compact]] precisely if every [[net]] in it has a [[sub-net]] that [[converges]].
 
+In [[constructive mathematics]], on the other hand, this property implies the [[law of excluded middle]], so is thus equivalent to the [[law of excluded middle]]. 
 
 ## Statement
 
@@ -209,27 +214,37 @@ Every [[inhabited set|inhabited]] [[subset]] of $\{0, 1\}$ is a directed poset.
 Let $P$ be an inhabited subset of $\{0, 1\}$. Then $P$ is a [[directed poset]]: it is inhabited, it has a [[partial order]] inherited from the partial order defined on $\{0, 1\}$ by $0 \leq 1$, $0 \leq 0$, $1 \leq 1$, and there is an upper bound function $\beta:P \times P \to P$ defined for elements $a \in P$ and $b \in P$ as $\beta(a, b) = b$ if $a = 0$, $\beta(a, b) = a$ if $a = 1$, $\beta(a, b) = a$ if $b = 0$, and $\beta(a, b) = b$ if $b = 1$: this means that $a \leq \beta(a, b)$ and $b \leq \beta(a, b)$. 
 =--
 
-+--{: .num_prop #SubsetInclusionsToTwoElementSetAreNets}
-###### Proposition
-Every subset inclusion $i:P \hookrightarrow \{0, 1\}$ of an inhabited subset $P$ of $\{0, 1\}$ is a net in $\{0, 1\}$. 
++--{: .num_lem #SubsetInclusionsToTwoElementSetAreNets}
+###### Lemma
+Every subset inclusion $i:P \hookrightarrow \{0, 1\}$ of an inhabited subset $P \subseteq \{0, 1\}$ is a net in $\{0, 1\}$. 
 =--
 
 +-- {: .proof}
 ###### Proof
-Since $P$ is a directed poset, it follows that any [[function]] $i:P \to \{0, 1\}$ is a net in $\{0, 1\}$. Thus the subset inclusions $i:P \hookrightarrow \{0, 1\}$ are nets. 
+Since $P$ is a directed poset, it follows that any [[function]] $i:P \to \{0, 1\}$ is a net in $\{0, 1\}$. Thus the subset inclusion $i:P \hookrightarrow \{0, 1\}$ is a net. 
 =--
 
 +-- {: .num_prop #TwoElementSetHasConvergetSubnetsImpliesExcludedMiddle}
 ###### Proposition
-If every net in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet, then for any inhabited subset $P$ of $\{0, 1\}$ with [[injection]] $i:P \to \{0, 1\}$, the [[fiber]] of $i$ at $1$ is either inhabited or empty. 
+Given the set of two elements $\{0, 1\}$ with its [[discrete topology]], if every net in $\{0, 1\}$ has a converging subnet, then the [[law of excluded middle]] is true. 
 =--
 
 +-- {: .proof}
 ###### Proof
-...
-=--
+Let $Q$ be a [[directed set]] (i.e. a directed preordered set). Assume that every net in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet. Because the subset inclusion $i:P \to \{0, 1\}$ for any subset $P \subseteq \{0, 1\}$ is a net, there is a cofinal map $f:Q \to P$ from $Q$ to $P$ such that $i \circ f$ is a net which converges to an element $x \in \{0, 1\}$, which by the universal property of $\{0, 1\}$ satisfies either $x = 0$ or $x = 1$. 
 
-This implies that the definition of compact space in terms of topological structure in [[topology]] (compact topological space) and in terms of convergence of nets in [[analysis]] (compact convergence space) bifurcates. 
+$\{1\}$ is an open of $\{0, 1\}$. If $x = 1$, then there is an element $q \in Q$ such that $f(q) \in \{1\}$, but $f(q) \in P$, so $1 \in P$. 
+
+If $x = 0$, then suppose that $1 \in P$. Because $f$ is cofinal, there is an element $q \in Q$ such that $f(q) \geq 1$, and by the definition of the partial order in $\{0, 1\}$, $f(q) = 1$, which means that for any other element $r \in Q$ such that $r \geq q$, $f(r) \geq f(q)$, $f(r) \geq 1$, and $f(r) = 1$, which contradicts the fact that $f$ converges to $0$. Thus, $1 \notin P$. 
+
+Thus, if every net in $\{0, 1\}$ with its [[discrete topology]] has a converging subnet, either $1 \in P$ or $1 \notin P$. 
+
+Given any proposition $p$, let us define the subset of $\{0, 1\}$ as 
+
+$$P_p \coloneqq \{x \in \{0, 1\} \vert (x = 0) \vee ((x = 1) \wedge p)\}$$
+
+It follows that if $1 \in P$, then $p$, and if $1 \notin p$, then $\not p$. Thus, the [[law of excluded middle]] is true for all [[propositions]] $p$. 
+=--
 
 ## Related concepts
 
