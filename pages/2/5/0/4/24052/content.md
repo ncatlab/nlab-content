@@ -28,7 +28,15 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
+
+While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks about H-$\mathbb{Z}$-module spectra in [[derived geometry]], theoretically one should be able to extend it to general spectra in [[spectral geometry]]. 
+
+## Definition
 
 Let $\mathrm{Cond}\infty\mathrm{Grpd}$ be the [[(infinity,1)-category]] of [[condensed infinity-groupoids]], and let $E_\infty(\mathrm{Cond}\infty\mathrm{Grpd})$ be the [[(infinity,1)-category]] of [[condensed E-infinity ring]]. Given a condensed E-infinity ring $R$, the category of condensed $R$-module spectra is the [[stabilization]] of the [[slice (infinity,1)-category]] of condensed E-infinity rings over $R$,  
 $$\mathrm{Cond}R\mathrm{Mod} \coloneqq \mathrm{Stab}(E_\infty(\mathrm{Cond}\infty\mathrm{Grpd})/R)$$ 
