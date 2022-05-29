@@ -28,7 +28,15 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
+
+While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks about H-$\mathbb{Z}$-module spectra in [[derived geometry]], theoretically one should be able to extend it to general spectra in [[spectral geometry]]. 
+
+## Definition
 
 Let $\mathrm{Cond}\infty\mathrm{Grpd}$ be the [[(infinity,1)-category]] of [[condensed infinity-groupoids]]. A **condensed spectrum** is a [[spectrum object]] in [[condensed infinity-groupoids]]. 
 
