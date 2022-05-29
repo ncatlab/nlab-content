@@ -21,7 +21,7 @@
 
 ## Definition
 
-An [[abelian group object]] [[internalization|in]] the [[category]] $CondSet$ of [[condensed sets]].
+A [[condensed object in an (infinity,1)-category|condensed object]] [[internalization|in]] the [[category]] [[Ab]] of [[abelian groups]].
 
 ## Properties
 
