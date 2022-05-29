@@ -6,6 +6,10 @@ Introducing the [[Kadison-Singer problem]]:
 
 * [[Richard V. Kadison]], [[Isadore Singer]], _Extensions of pure states_, American Journal of Mathematics, 81(2):383&#8211;400, 1959 ([jstor:2372748](https://www.jstor.org/stable/2372748))
 
+Introducing what came to be known as [[Karoubi K-theory]]:
+
+* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)$]$
+
 
 On [[quantum anomalies]] via [[index theory]]:
 
