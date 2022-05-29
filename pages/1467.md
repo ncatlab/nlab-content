@@ -170,7 +170,7 @@ Assuming [[excluded middle]], $X$ is compact iff every proper filter $\mathcal{U
 
 =-- 
 
-While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. However, in [[constructive mathematics]], that every [[topological space]] satisfying (\ref{hb}&\ref{fip}) also satisfies (\ref{refinement}&\ref{clustering}) as a [[convergence space]] is the same as [[excluded middle]], see [[compact spaces equivalently have converging subnet of every net#Failure in constructive mathematics]] for more details. 
+While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]]. However, in [[constructive mathematics]], that every [[topological space]] satisfying (\ref{hb}&\ref{fip}) also satisfies (\ref{refinement}&\ref{clustering}) as a [[convergence space]] is the same as [[excluded middle]], see [[compact spaces equivalently have converging subnets#Failure in constructive mathematics]] for more details. 
 
 ### Compactness via completeness
 
