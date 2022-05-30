@@ -49,6 +49,8 @@ Given root systems $\Delta$ in $E$ and $\Delta'$ in $E'$, we define a **morphism
 
 * [[ADE classification]]
 
+* [[Coxeter number]]
+
 ## References
 
 * Peter Woit, _Topics in representation theory: Roots and weights_ ([pdf](http://www.math.columbia.edu/~woit/notes6.pdf))
