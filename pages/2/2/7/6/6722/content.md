@@ -24,6 +24,11 @@ On longitudinal [[M5-branes]] in the [[BFSS matrix model]]:
 
 * [[Tom Banks]], [[Nathan Seiberg]], [[Stephen Shenker]], _Branes from Matrices_, Nucl. Phys. B490:91-106, 1997 ([arXiv:hep-th/9612157](https://arxiv.org/abs/hep-th/9612157))
 
+On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via [[parafermions]]:
+
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) $[$[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)$]$
+
+
 On the [[theta angle]] in [[QCD]]:
 
 * [[Davide Gaiotto]], [[Anton Kapustin]], [[Zohar Komargodski]], [[Nathan Seiberg]], _Theta, Time Reversal, and Temperature_, JHEP05(2017)091 ([arXiv:1703.00501](https://arxiv.org/abs/1703.00501))
