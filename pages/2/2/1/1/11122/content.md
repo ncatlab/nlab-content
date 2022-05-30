@@ -1,18 +1,17 @@
-
 # Contents
 * automatic table of contents goes here
 {: toc}
 
 ## Idea
 
-NBG or von Neumann--Bernays--G&#246;del set theory is a [[material set theory]]. It is a conservative extension of [[ZFC]] and its ontology includes [[proper classes]], like [[MK]]. But unlike [[ZFC]] and [[MK]], NBG can be finitely axiomatized.
+NBG or von Neumann–Bernays–Gödel set theory is a [[material set theory]]. It is a conservative extension of [[ZFC]] and its ontology includes [[proper classes]], like [[MK]]. But unlike [[ZFC]] and [[MK]], NBG can be finitely axiomatized.
 
 
 ## History
 
 [[Georg Cantor]] was well acquainted with the phenomenon that some collections are 'too big' to be sets and in his late years made a distinction between _consistent_ and _inconsistent multitudes_, the former comprising sets, but his ideas were confined to private letters to (Jourdain and) Dedekind that were not published until 1932.
 
-[[John von Neumann]] began $NBG$ in the 1920s ([von Neumann 1925](#vN1925), [von Neumann 1928](#vN1928)), but his version was unwieldy.  [[Paul Bernays]] and [[Kurt Gödel]] simplified it later.  It also illustrates G&#246;del\'s theorem that any [[first-order theory]] has a [[conservative extension]] with a finite axiomatization.
+[[John von Neumann]] began $NBG$ in the 1920s ([von Neumann 1925](#vN1925), [von Neumann 1928](#vN1928)), but his version was unwieldy.  [[Paul Bernays]] and [[Kurt Gödel]] simplified it later.  It also illustrates Gödel's theorem that any [[first-order theory]] has a [[conservative extension]] with a finite axiomatization.
 
 
 ## Axioms
@@ -47,6 +46,7 @@ Every instance of class comprehension can be built out of a few, based on the lo
 * [[Gerhard Osius]], _Kategorielle Mengenlehre: Eine Charakterisierung der Kategorie der Klassen und Abbildungen_ , Math. Ann. **210** (1974) pp.171-196. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002309939))
 
 [[!redirects NBG]]
+[[!redirects NBG set theory]]
 [[!redirects Neumann-Bernays-Gödel set theory]]
 [[!redirects Neumann–Bernays–Gödel set theory]]
 [[!redirects Neumann--Bernays--Gödel set theory]]
