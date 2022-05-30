@@ -36,6 +36,10 @@ A kind of [[soliton]].
 
 [[!include flux quantization in superconductors -- section]]
 
+### Vortex anyons
+
+See *[Votex anyons](braid+group+statistics#VortexAnyons)* at *[[braid group statistics]]*.
+
 
 ## Related concepts
 
