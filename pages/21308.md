@@ -38,6 +38,8 @@ According to Peter Scholze in [this comment on the nCafé](https://golem.ph.utex
 
 * [[solid abelian group]]
 * [[solid module]]
+* [[solidification functor]]
+* [[solid spectrum]]
 
 #### Liquid objects
 
