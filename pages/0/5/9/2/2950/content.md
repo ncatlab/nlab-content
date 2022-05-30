@@ -9,7 +9,12 @@
 
 On [[anyons]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] in the [[fractional quantum Hall effect]]:
 
-* [[Gregory Moore]], [[Nicholas Read]], _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B(1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
+* [[Gregory Moore]], [[Nicholas Read]], _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B (1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
+
+On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via [[parafermions]]:
+
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) $[$[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)$]$
+
 
 On the [[K-theory classification of D-brane charge]]:
 
