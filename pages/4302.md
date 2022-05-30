@@ -44,6 +44,8 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 * [[boson]], **fermion**, [[anyon]]
 
+* [[parafermion]]
+
 * [[fermionic modality]]
 
 * [[Pauli exclusion principle]]
