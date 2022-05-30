@@ -1,3 +1,18 @@
+\begin{proposition}
+Suppose $i$ and $j$ are cofibrations in the commutative diagram
+
+\begin{tikzcd}
+ & A \dlar[swap]{i} \drar{j} & \\
+ X \arrow{rr}{f} & & Y
+\end{tikzcd}
+
+1. If $f$ is a _q_-equivalence, then it is an _h_-equivalence. In particular, a _q_-equivalence between _m_-cofibrant objects is an _h_-equivalence.
+
+2. If $f$ is an _h_-cofibration, then it is an _m_-cofibration. In particular, an _h_-cofibration between _m_-cofibrant objects is an _m_-cofibration.
+
+\end{proposition}
+([May–Ponto 2012, proposition 17.3.4](#MayPonto2012))
+
 
 * [[Alexander B. Zamolodchikov]], [[Vladimir A. Fateev]] *Nonlocal (parafermion) currents in two-dimensional conformal quantum field theory and self-dual critical points in $Z_N$-symmetric statistical systems*, Sov. Phys. JETP **62** 2 (1985) 215-225 $[$[pdf](http://www.jetp.ras.ru/cgi-bin/dn/e_062_02_0215.pdf), [osti:5929972](https://www.osti.gov/biblio/5929972)$]$
 
