@@ -143,7 +143,9 @@ Note that the stronger universe axiom implies, as above, that finite colimits ar
 ## Examples
  {#Examples}
 
-There is presently no known example of an elementary $(\infty,1)$-topos which is not a [[Grothendieck (∞,1)-topos]], though there are some ideas. Peter Scholze speculates in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057721) that the [[(∞,1)-category]] $\mathrm{Cond}\infty\mathrm{Grpd}$ of [[condensed infinity-groupoids]] seems to form a [[predicative elementary (∞,1)-topos]] which is not a [[Grothendieck (∞,1)-topos]]. 
+* There is presently no known example of an elementary $(\infty,1)$-topos which is not a [[Grothendieck (∞,1)-topos]], though there are some ideas (cf. [Anel 21](#Anel21)). 
+
+* [[Peter Scholze]] speculates in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057721) that the [[(∞,1)-category]] $\mathrm{Cond}\infty\mathrm{Grpd}$ of [[condensed infinity-groupoids|condensed $\infty$-groipoids]] might form a [[predicative elementary (∞,1)-topos]] which is not a [[Grothendieck (∞,1)-topos]]. 
 
 ## Related pages
 
@@ -208,7 +210,7 @@ Comprehension schemes are used to characterize categorical properties of element
 
 On [[homotopy type with finite homotopy groups|π-finite homotopy types]] as a partial analogue of the elementary 1-topos [[FinSet]]:
 
-* [[Mathieu Anel]], *The elementary infinity-topos of truncated coherent spaces*, 2021 ([arxiv:2107.02082](https://arxiv.org/abs/2107.02082))
+* {#Anel21} [[Mathieu Anel]], *The elementary infinity-topos of truncated coherent spaces*, 2021 ([arxiv:2107.02082](https://arxiv.org/abs/2107.02082))
  
 
 [[!redirects elementary (∞,1)-topos]]
