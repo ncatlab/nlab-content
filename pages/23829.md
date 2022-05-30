@@ -1,7 +1,13 @@
 
 * [personal page](https://meng-cheng.github.io/)
 
+
 ## Selected writings
+
+Introducing [[Majorana dimers]] for [[Ising anyons]]:
+
+* Brayden Ware, Jun Ho Son, [[Meng Cheng]], Ryan V. Mishmash, [[Jason Alicea]], and Bela Bauer, *Ising anyons in frustration-free Majorana-dimer models*, Phys. Rev. B 94, 115127 2016 ([arXiv:10.1103/PhysRevB.94.115127](https://doi.org/10.1103/PhysRevB.94.115127))
+
 
 On [[symmetry protected topological phases]] and their [[topological orders]]:
 
