@@ -13,7 +13,17 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Solid abelian groups are objects which form the basis of non-archimedean analysis in certain approaches to mathematics, such as [[condensed mathematics]]. 
+
 ## Definition
+
+### As a functor
+
+A ***solid abelian group*** is an [[additive functor]] from the category of [[free abelian groups]] to the category of [[abelian groups]]. 
+
+This definition is due to [[Dustin Clausen]] [here](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057781). 
 
 ### In terms of condensed abelian groups
 
@@ -28,6 +38,8 @@ According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.
 ## See also
 
 * [[condensed abelian group]]
+* [[solidification functor]]
+* [[solid spectrum]]
 
 ## References
 
