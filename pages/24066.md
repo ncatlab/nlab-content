@@ -27,7 +27,7 @@
 
 ## Idea
 
-For $\mathcal{C}$ a [[monoidal model category]] and $A \in Mon(\mathcal{C})$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$, there is under mild conditions a natural [[model category]] structure on its [[category of modules|category of]] [[module over a monoid|modules over]] $A$. ([Schwede & Shipley 2000, Thm. 4.1](#SchwedeShipley00)).
+For $\mathcal{C}$ a [[monoidal model category]] and $A \in Mon(\mathcal{C})$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$, there is under mild conditions a natural [[model category]] structure on its [[category of modules|category of]] [[module over a monoid|modules over]] $A$. ([Schwede & Shipley 2000, Thm. 4.1 (3.1 in the preprint)](#SchwedeShipley00)).
 
 ## Related concepts
 
