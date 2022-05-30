@@ -13,7 +13,7 @@ Original proposal:
 
 Review:
 
-* [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], _Majorana Zero Modes and Topological Quantum Computation_, npj Quantum Information 1, 15001 (2015) ([nature:npjqi20151](https://www.nature.com/articles/npjqi20151))
+* {#DasSarmaFreedmanNayak15} [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], _Majorana Zero Modes and Topological Quantum Computation_, npj Quantum Information 1, 15001 (2015) ([nature:npjqi20151](https://www.nature.com/articles/npjqi20151))
 
 * Nur R. Ayukaryana, Mohammad H. Fauzi, Eddwi H. Hasdeo, _The quest and hope of Majorana zero modes in topological superconductor for fault-tolerant quantum computing: an introductory overview_ ([arXiv:2009.07764](https://arxiv.org/abs/2009.07764))
 
