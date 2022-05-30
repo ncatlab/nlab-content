@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### $(0,1)$-Category theory
++-- {: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
 * a [[monoid]] with a [[preorder]] such that the binary operation preserves the preorder. 
