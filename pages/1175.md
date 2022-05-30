@@ -157,7 +157,9 @@ A faithful representation (in fact, the standard from) of $L^\infty(X) \hookrigh
 
 ## The category of von Neumann algebras
 
-The category of von Neumann algebras is a [[locally presentable category]].
+The category of von Neumann algebras is not a [[locally presentable category]]
+since its [[small objects]] are precisely von Neumann algebras of dimension 0 and 1.
+See Theorem 4.2 in Chirvasitu–Ko \cite{CK}.
 
 The [[forgetful functor]] from von Neumann algebras
 to [[sets]] that sends a von Neumann algebra
@@ -328,10 +330,19 @@ To be done...
 ## References
  {#References}
 
+The original definition is due to [[John von Neumann]]:
+
+* [[J. v. Neumann]], _Zur Algebra der Funktionaloperationen und Theorie der normalen Operatoren_, Mathematische Annalen 102:1 (1930), 370-427, [doi](http://dx.doi.org/10.1007/bf01782352).
+
+A comprehensive three-volume treatise:
+
+* [[Masamichi Takesaki]]_, _Theory of Operator Algebras_, Encyclopaedia of Mathematical Sciences 124, 125, 127.  2002, 2003.  First Edition of Volume I: 1979.
+
 * [[Jacob Lurie]], _von Neumann algebras_, lecture series (2011) ([web](http://www.math.harvard.edu/~lurie/261y.html))
+
 * Abraham Westerbaan, _The Category of von Neumann Algebras_, [1804.02203](https://arxiv.org/abs/1804.02203) 2018
 
-
+* {#CK} [[Alexandru Chirvasitu]], Joanna Ko, _Monadic forgetful functors and (non-)presentability for C∗- and W*-algebras_, [arXiv:2203.12087](https://arxiv.org/abs/2203.12087).
 
 [[!redirects W*-algebra]]
 [[!redirects W*-algebras]]
