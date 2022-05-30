@@ -28,7 +28,7 @@ $$|\langle u,v\rangle|\le \|u\|\cdot\|v\|.$$
 
 Known as “Cauchy inequality”, “Cauchy–Schwarz inequality”, “Cauchy–Bouniakowsky–Schwarz” inequality.
 
-Proofs were published by [[Cauchy]] in 1821, Bouniakowsky in 1859, [[Hermann Schwarz]] in 1888.
+Proofs were published by [[Cauchy]] in 1821, [[Bouniakowsky]] in 1859, [[Hermann Schwarz]] in 1888.
 
 ## References
 
