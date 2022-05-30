@@ -96,6 +96,19 @@ In general, for any class of limits $\Phi$, one may consider the class of all co
 
 * [[distributivity of limits over colimits]]
 * [[pullback-stable colimit]]
+* [[absolute colimits]]
+
+## References
+
+* Hilton, Peter. "Commuting limits." Cahiers de Topologie et Géométrie Différentielle Catégoriques 10.1 (1968): 127-138.
+
+* Eckmann, Beno, and Peter John Hilton. "Commuting limits with colimits." Journal of Algebra 11.1 (1969): 116-144.
+
+* Frei, Armin, and John L. MacDonald. "Limits in categories of relations and limit-colimit commutation." Journal of Pure and Applied Algebra 1.2 (1971): 179-197.
+
+* Foltz, François. "Sur la commutation des limites." Diagrammes 5 (1981): F1-F33.
+
+* Bjerrum, Marie, et al. "Notes on commutation of limits and colimits." arXiv preprint arXiv:1409.7860 (2014).
 
 [[!redirects commutativity of limits and colimits]]
 [[!redirects commutativity of limits with colimits]]
