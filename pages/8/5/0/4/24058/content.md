@@ -15,9 +15,15 @@
 
 ## Definition
 
+### In terms of condensed abelian groups
+
 Let $S = \underset{\leftarrow}{\lim}_i S_i$ be a [[profinite set]], and define the [[condensed abelian group]] $\mathbb{Z}[S]^\square \coloneqq \underset{\leftarrow}{\lim}_i \mathbb{Z}[S_i]$, where $\mathbb{Z}[T]$ is the [[free abelian group]] on the set $T$. There is a natural map $m:S \to \mathbb{Z}[S]^\square$ which induces a map $\mathbb{Z}[S] \to \mathbb{Z}[S]^\square$. 
 
 A **solid abelian group** is a condensed abelian group $A$ such that for all profinite sets $S$ and all maps $f:S \to A$, there is a unique map $g:\mathbb{Z}[S]^\square \to A$ such that $f = g \circ m$. 
+
+## Properties
+
+According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057780) in the absense of the [[presentation axiom]], the category of solid abelian groups is not a condensed category. 
 
 ## See also
 
