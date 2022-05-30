@@ -1,3 +1,9 @@
+
+* [[Alexander B. Zamolodchikov]], [[Vladimir A. Fateev]] *Nonlocal (parafermion) currents in two-dimensional conformal quantum field theory and self-dual critical points in $Z_N$-symmetric statistical systems*, Sov. Phys. JETP **62** 2 (1985) 215-225 $[$[pdf](http://www.jetp.ras.ru/cgi-bin/dn/e_062_02_0215.pdf), [osti:5929972](https://www.osti.gov/biblio/5929972)$]$
+
+
+***
+
 test
 
 \linebreak
