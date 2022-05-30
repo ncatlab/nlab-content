@@ -89,6 +89,13 @@ For $\mathcal{A} = R$[[Mod]] and $N \in \mathcal{A}$, the  functor that forms [[
 
 In fact these examples are generic, see prop. \ref{RightExactAdditiveIsTensor} below.
 
++-- {: .num_example}
+###### Example
+
+Every [[solid abelian group]] is by definition an [[additive functor]]. 
+=--
+
+
 ## Properties
 
 ### Relation to $Ab$-enriched functors
