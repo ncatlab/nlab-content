@@ -4572,6 +4572,9 @@ The renormalization freedom in [[perturbative QFT|perturbative]] [[quantization]
 
 For details see [there](cosmological+constant#InPerturbativeQuantumGravity).
 
+### Chern-Simons level
+
+See at *[Chern-Simons level renormalization](Chern-Simons+level#LevelRenormalization)*.
 
 
 ## Related concepts
