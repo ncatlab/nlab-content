@@ -28,7 +28,7 @@
 
 The original motivation behind condensed infinity-groupoids is to create well-behaved categories of mathematical structures such as condensed [[HZ]]-[[module spectra]] in which one could do derived analytic geometry using category-theoretic methods without resorting to not-so-well behaved categories of topological spaces. 
 
-However, [[David Corfield]] offers another motivation for condensed infinity-groupoids in the blog post [Pyknoticity vs Cohesiveness](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057721) on the nCafé, as a way to extend [[cohesion]] to the $p$-adic case: 
+However, [[David Corfield]] offers another motivation for condensed infinity-groupoids in the blog post [Pyknoticity vs Cohesiveness](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057721) on the nCafé, as a way to extend [[cohesion]] to the $p$-adic case (see at [[condensed cohesion]]): 
 
 > Mathematics rather than physics is the subject of chapter 5 of my book, where I’m presenting [[cohesive homotopy type theory|cohesive HoTT]] as a means to gain some kind of conceptual traction over the vast terrain that is modern geometry. However I’m aware that there are some apparent limitations, problems with ‘$p$-adic’ forms of cohesion, cohesion in algebraic geometry, and so on. In the briefest note (p. 158) I mention the closely related pyknotic and condensed approaches of, respectively, (Barwick and Haine) and (Clausen and Scholze).
 
