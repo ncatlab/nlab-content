@@ -69,7 +69,7 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 
 
 
-* [[Francis Borceux]], [[Dominique Bourn]], [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]
+* [[Francis Borceux]], [[Dominique Bourn]], *[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]*
 
 [[!redirects exact categories]]
 
