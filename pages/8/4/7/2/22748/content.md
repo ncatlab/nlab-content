@@ -36,6 +36,8 @@ Non-archimedean integral domains include
 
 * [[archimedean difference protoring]]
 
+* [[enriched setoid]]
+
 [[!redirects archimedean integral domain]]
 [[!redirects archimedean integral domains]]
 
