@@ -24,6 +24,12 @@ With "Majorana anyonons" ($k = 2$) and "Fibonacci anyons" ($k = 3$) this class s
 
 Notably the '[[Majorana anyons]] (in the guise of "[[Majorana zero modes]]") are currently at the focus of attention of an intense effort to finally provide a practical proof of principle for the old idea of [[topological quantum computation]] (see the plan of [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15) and the latest informal announcement [Nayak 22](#Nayak22), after a dramatic setback [in 2021](https://www.nature.com/articles/d41586-021-00612-z) and again [in 2022](http://retractionwatch.com/2022/04/24/authors-retract-second-majorana-paper-from-nature/)).
 
+## Related concepts
+
+* [[parafermion]]
+
+* [[Majorana dimer]]
+
 ## References
 
 * S. Trebst, M. Troyer, Z. Wang and A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008)
@@ -54,4 +60,5 @@ $[$[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120),
 [[!redirects Fibonacci anyons]]
 
 
-
+[[!redirects Ising anyon]]
+[[!redirects Ising anyons]]
