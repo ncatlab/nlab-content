@@ -1,8 +1,15 @@
 
+* [institute page](https://cse.umn.edu/physics/mikhail-shifman)
 
-* [webpage](http://www.ftpi.umn.edu/shifman/)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Mikhail_Shifman)
+
 
 ## Selected writings
+
+On the [Chern-Simons level renormalization](Chern-Simons+level#LevelRenormalization) (shift by the [[dual Coxeter number]]):
+
+
+* [[Mikhail A. Shifman]], *Four-dimension aspect of the perturbative renormalization in three-dimensional Chern-Simons theory*, Nuclear Physics B **352** 1 (1991) 87-112 (<a href="https://doi.org/10.1016/0550-3213(91)90130-P">doi:10.1016/0550-3213(91)90130-P</a>)
 
 On [[superalgebra]], [[supergeometry]], [[supersymmetry]], [[supergravity]] and  [[superstrings]]:
 
@@ -49,4 +56,8 @@ On [[Evgeny Likhtman]]:
 
 category: people
 
+[[!redirects Mikhail A. Shifman]]
+
 [[!redirects Misha Shifman]]
+
+
