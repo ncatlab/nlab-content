@@ -9,7 +9,32 @@ There is a (necessarily unique closed) **mixed model structure** $(C_m,W_q,F_h)$
 
 ## Properties
 
-An object is cofibrant in the mixed model structure if and only if it has the $h$-homotopy type of a $q$-cofibrant object.
+\begin{proposition}
+Suppose $i$ and $j$ are _m_-cofibrations in the commutative diagram
+
+\begin{tikzcd}
+ & A \dlar[swap]{i} \drar{j} & \\
+ X \arrow{rr}{f} & & Y
+\end{tikzcd}
+
+1. If $f$ is a _q_-equivalence, then it is an _h_-equivalence. In particular, a _q_-equivalence between _m_-cofibrant objects is an _h_-equivalence.
+
+2. If $f$ is an _h_-cofibration, then it is an _m_-cofibration. In particular, an _h_-cofibration between _m_-cofibrant objects is an _m_-cofibration.
+
+\end{proposition}
+([May–Ponto 2012, proposition 17.3.4](#MayPonto2012))
+
+\begin{theorem}
+A map $i \colon A \to X$ is an _m_-cofibration iff it is an _h_-cofibration which is a composition
+
+$$
+  A \stackrel{j}{\to} K \stackrel{w}{\to} X
+$$
+
+of a _q_-cofibration $j$ and an _h_-equivalence $w$. In particular, an object $X$ is _m_-cofibrant iff it is _h_-equivalent to a _q_-cofibrant object.
+
+\end{theorem}
+([May–Ponto 2012, theorem 17.3.5](#MayPonto2012))
 
 ## Examples
 
@@ -29,8 +54,8 @@ An object is cofibrant in the mixed model structure if and only if it has the $h
 
 The original paper is
 
-* [[Michael Cole]], *Mixing model structures*, Top. Appl. 153 (2006) 1016&#8211;1032
+* [[Michael Cole]], _Mixing model structures_, Top. Appl. 153 (2006) 1016&#8211;1032
 
 There is also an exposition in
 
-* [[Peter May]] and [[Kate Ponto]], *More Concise Algebraic Topology*, section 17.3.
+* {#MayPonto2012} [[Peter May]] and [[Kate Ponto]], _More Concise Algebraic Topology_ (2012), section 17.3.
