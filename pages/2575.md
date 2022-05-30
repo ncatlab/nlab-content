@@ -579,6 +579,11 @@ For more see at _[[quantization of Chern-Simons theory]]_.
 
 See also the MathOverflow-discussion _[Why hasn't anyone proved that the two standard approaches to quantizing Chern-Simons theory are equivalent?](http://mathoverflow.net/questions/86792/why-hasnt-anyone-proved-that-the-two-standard-approaches-to-quantizing-chern-si)_.
 
+### Shifted/renormalized level
+ {#ShiftedLevel}
+
+Upon [[quantization]] the [[level (Chern-Simons theory)|Chern-Simons level]] receives a [[renormalization]] by the [[dual Coxeter number]] of the [[gauge group]]. See [there](Chern-Simons+level#LevelRenormalization) for more.
+
 
 
 ### Observables: knot polynomials
