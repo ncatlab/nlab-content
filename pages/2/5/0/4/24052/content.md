@@ -34,7 +34,9 @@
 
 ## Idea
 
-While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks about H-$\mathbb{Z}$-module spectra in [[derived geometry]], theoretically one should be able to extend it to general spectra in [[spectral geometry]]. 
+By a *condensed module spectrum* one should generally mean a *[[module spectrum]]* in the context of [[condensed mathematics]], hence a [[condensed object in an (infinity,1)-category|condensed object]] [[internalization|internal to]] [[module spectra]].
+
+
 
 ## Definition
 
