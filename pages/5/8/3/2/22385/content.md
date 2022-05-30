@@ -107,6 +107,8 @@ When you do this, the new kind of set is called a setoid, and then there may be 
 * [[stable setoid]]
 * [[internal setoid]]
 * [[completely presented set]]
+* [[monoidal setoid]]
+* [[enriched setoid]]
 
 [[!include types and logic - table]]
 
