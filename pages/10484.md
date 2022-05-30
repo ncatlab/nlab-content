@@ -497,10 +497,10 @@ $$
 $$
 
 for the [[full subcategory]] of that of the [[opposite category]] of [[supercommutative superalgebras]]
-on whose of the form
+on those of the form
 
 $$
-  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
+  C^\infty(\mathbb{R}^{p|q}) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
 $$
 
 where $V$ is a [[nilpotent ideal]] of [[finite number|finite]] [[dimension]] over $\mathbb{R}$.
