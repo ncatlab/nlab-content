@@ -34,6 +34,8 @@ Notably the '[[Majorana anyons]] (in the guise of "[[Majorana zero modes]]") are
 
 ### General
 
+* {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
+
 * S. Trebst, M. Troyer, Z. Wang and A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008)
 $[$[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)$]$
 
