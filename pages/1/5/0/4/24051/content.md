@@ -34,11 +34,11 @@
 
 ## Idea
 
-While [[Peter Scholze]]'s presentations of [[condensed mathematics]] only talks about H-$\mathbb{Z}$-module spectra in [[derived geometry]], theoretically one should be able to extend it to general spectra in [[spectral geometry]]. 
+By a *condensed $E_\infty$ ring* one will generally mean an [[E-infinity ring|$E_\infty$]] in [[condensed mathematics]], hence [[internalization|internal to]] [[condensed infinity-groupoid|condensed $\infty$-groupoids]].
 
 ## Definition
 
-A **condensed E-infiity-ring** is a [[(infinity,1)-sheaf]] of [[E-infinity-rings]] on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
+A **condensed $E_\infty$-ring** is a [[(infinity,1)-sheaf]] of [[E-infinity-rings|$E_\infty$-rings]] on the [[pro-étale (infinity,1)-site|pro-étale (\infty,1)-site]] of the point, small relative to a [[universe]] $\mathcal{U}$. 
 
 ## See also
 
