@@ -31,7 +31,9 @@ where
 
 The notion is due to:
 
-* Brayden Ware, Jun Ho Son, Meng Cheng, Ryan V. Mishmash, Jason Alicea, and Bela Bauer, *Ising anyons in frustration-free Majorana-dimer models*, Phys. Rev. B 94, 115127 2016 ([arXiv:10.1103/PhysRevB.94.115127](https://doi.org/10.1103/PhysRevB.94.115127))
+* Brayden Ware, Jun Ho Son, [[Meng Cheng]], Ryan V. Mishmash, [[Jason Alicea]], and Bela Bauer, *Ising anyons in frustration-free Majorana-dimer models*, Phys. Rev. B 94, 115127 2016 ([arXiv:10.1103/PhysRevB.94.115127](https://doi.org/10.1103/PhysRevB.94.115127))
+
+  (in relation to [[Ising anyons]])
 
 * Nicolas Tarantino and Lukasz Fidkowski, *Discrete spin structures and commuting projector models for two-dimensional fermionic symmetry-protected topological phases*, Phys. Rev. B 94, 115115 2016 ([doi:10.1103/PhysRevB.94.115115](https://doi.org/10.1103/PhysRevB.94.115115))
 
@@ -44,5 +46,5 @@ Application of Majorana dimers to [[quantum error correcting codes]] and [[holog
 
 * {#JGPE19} [[Alexander Jahn]], [[Marek Gluza]], [[Fernando Pastawski]], [[Jens Eisert]], *Majorana dimers and holographic quantum error-correcting code*, Phys. Rev. Research 1, 033079 (2019) ([arXiv:1905.03268](https://arxiv.org/abs/1905.03268))
 
-[[!redirects Majoran dimers]]
+[[!redirects Majorana dimers]]
 
