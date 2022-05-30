@@ -77,8 +77,6 @@ Relating parafermions  to the [[affine Lie algebra|affine]] [[su(2)]]-[[current 
 
 * {#CFRS00} [[Daniel C. Cabra]], [[Eduardo Fradkin]], G. L. Rossini, F. A. Schaposnik, Section 4 of: *Non-Abelian fractional quantum Hall states and chiral coset conformal field theories*, International Journal of Modern Physics A **15** 30 (2000) 4857-4870 $[$[doi:10.1142/S0217751X00002354](https://doi.org/10.1142/S0217751X00002354), [arXiv:cond-mat/9905192](https://arxiv.org/abs/cond-mat/9905192)$]$
 
-  > (beware that this seems to neglect the [Chern-Simons level renormalization](Chern-Simons+level#LevelRenormalization), including which would seem to give $SU(2)_k \leftrightarrow Z_{k+2}$)
-
 
 On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via parafermions:
 
