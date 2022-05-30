@@ -55,5 +55,7 @@ Let $(M, \leq, \otimes, 1)$ be a [[monoidal poset]]. A **$M$-enriched [[setoid]]
 * [[enriched proset]]
 
 [[!redirects enriched setoids]]
+[[!redirects enriched univalent setoid]]
+[[!redirects enriched univalent setoids]]
 [[!redirects enriched set]]
 [[!redirects enriched sets]]
