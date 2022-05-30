@@ -79,7 +79,7 @@ This becomes even more essential in [[constructive mathematics]]: while in [[cla
 
 In [[predicative mathematics]], the issue becomes even worse: there is no longer one set of Dedekind real numbers, but a whole hierarchy of Dedekind real numbers, one set for every [[universe]] in the [[foundations of mathematics|foundations]]. As a result, one cannot resort to merely using the [[Dedekind real numbers]] for defining the metric as in impredicative mathematics, one has to define metrics and metric spaces more generally. 
 
-Thus, given an [[Archimedean integral domain]] $R$, an **$R$-metric** on a set $X$ is a function $d:X \times X \to [0, \infty)$, where $[0, \infty)$ is the set of non-negative elements in $R$, such that 
+Thus, given an [[Archimedean integral domain]] $R$, an **$R$-metric** on a set $X$ is a function $d:X \times X \to R_{\geq 0}$, where $R_{\geq 0}$ is the set of non-negative elements in $R$, such that 
 
 * [[triangle inequality|Triangle inequality]]: $d(x, y) + d(y, z) \geq d(x, z)$;
 
@@ -89,7 +89,9 @@ Thus, given an [[Archimedean integral domain]] $R$, an **$R$-metric** on a set $
 
 * Symmetry: $d(x, y) = d(y, x)$.
 
-One could then define $R$-pseudometrics, $R$-quasimetrics, $R$-ultrametrics, extended $R$-metrics, and Lawvere $R$-metrics in the same way as one does for the real numbers in classical mathematics. 
+This is equivalently an $(R_{\geq 0}, \geq, +, 0)$-[[enriched univalent setoid]]. 
+
+Given any [[Archimedean integral domain]] $R$ and an Archimedean integral subdomain $S \subseteq R$, then $S$ is an $(R_{\geq 0}, \geq, +, 0)$-enriched univalent setoid. 
 
 ### Category of metric spaces
 
