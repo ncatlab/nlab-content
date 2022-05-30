@@ -190,6 +190,8 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming [[axiom o
 
 * [[free simplicial abelian group]]
 
+* [[solid abelian group]]
+
 ## References
 
 Textbook accounts:
