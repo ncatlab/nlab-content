@@ -36,7 +36,7 @@
 
 By a condensed spectrum one should generally mean a *[[spectrum]]* in the context of [[condensed mathematics]], hence a [[condensed object in an (infinity,1)-category|condensed object]] [[internalization|internal to]] [[spectra]].
 
-A special case of this general notion has essentially been considered in [Scholze (2019)](#ScholzeLCM): The condensed simplicial abelian groups discussed there may be understood, under the [[stable Dold-Kan correspondence]], to represent (the condensed version of) the particular case of connective [[HZ|$H\mathbb{Z}$]]-[[module spectra]]. 
+A very special case of this general notion has almost been considered in [Scholze (2019), Footnote 12](#ScholzeLCM): The condensed simplicial abelian groups alluded to there there may be understood, under the [[stable Dold-Kan correspondence]], to represent (the condensed version of) the particular case of [[connective spectrum|connective]] [[HZ|$H\mathbb{Z}$]]-[[module spectra]]. 
 
 ## Definition
 
@@ -58,6 +58,8 @@ A **condensed spectrum** is a [[(infinity,1)-sheaf]] of [[spectra]] on the [[pro
 
 ## References
 
-* {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
+A discussion of condensed spectra in the literature seems not to be available yet. For general background on [[condensed mathematics]] see:
+
+* {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_ (2019) $[$[pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)$]$
 
 [[!redirects condensed spectra]]
