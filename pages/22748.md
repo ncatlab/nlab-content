@@ -4,7 +4,7 @@
 
 ## Idea
 
-An _archimedean integral domai _ is an [[ordered integral domain]] that satisfies the [[archimedean property]].
+An _archimedean integral domain_ is an [[ordered integral domain]] that satisfies the [[archimedean property]].
 
 ## Properties
 
