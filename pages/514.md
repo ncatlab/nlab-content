@@ -30,7 +30,7 @@ Beware also that the concept of _[[well-pointed topos]]_ is unrelated.
 
 ### Canonical enrichment in pointed sets
 
-Every [[locally small category|locally small]] pointed category is naturally  [[enriched category|enriched]] over the category of [[pointed sets]] using the [[smash product]] as [[tensor product]], (but the converse may fail).
+Every [[locally small category|locally small]] pointed category is naturally  [[enriched category|enriched]] over the category of [[pointed sets]] using the [[smash product]] as [[tensor product]]; the converse is true if and only if the enriched category has an initial object.
 
 
 ## Related concepts
@@ -42,6 +42,13 @@ Every [[locally small category|locally small]] pointed category is naturally  [[
   * [[stable model category]]
 
 * [[pointed (infinity,1)-category]]
+
+* [[zero object]]
+
+* [[semiadditive category]]
+
+* [[biproducts]]
+
 
 ## References
 
