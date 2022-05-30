@@ -75,6 +75,8 @@ The category of condensed sets $CondSet$ is then the (large) [[colimit]] of the 
 
 Condensed sets form a [[locally small]], [[well-powered category|well-powered]], [[locally cartesian closed]] [infinitary-pretopos](pretopos#infinitary) $CondSet$, that is neither a [[Grothendieck topos]] nor an [[elementary topos]] -- since it lacks both a small [[separator]] (indeed, it is not even [[total category|total]]) and a [[subobject classifier]]. It has a large [[separator]] of finitely presentable [[projective object|projectives]], and hence is algebraically exact. ([Campbell 20](#Campbell20))
 
+According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057798) and [[Mike Shulman]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057792), condensed sets satisfy external [[CoSHEP]] and [[WISC]], but internal CoSHEP fails. 
+
 See \cite[Proposition 1.7]{ScholzeLCM} for the following proposition.
 
 \begin{proposition}
@@ -99,6 +101,8 @@ and [[topological spaces]].
 
 The left adjoint exists also for topological groups and other algebraic
 structures, but in this case, the underlying set is not $T(*)$.
+
+
 
 ## Related concepts
 
