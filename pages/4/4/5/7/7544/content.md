@@ -145,7 +145,7 @@ Note that the stronger universe axiom implies, as above, that finite colimits ar
 
 * There is presently no known example of an elementary $(\infty,1)$-topos which is not a [[Grothendieck (∞,1)-topos]], though there are some ideas (cf. [Anel 21](#Anel21)). 
 
-* [[Peter Scholze]] speculates in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057721) that the [[(∞,1)-category]] $\mathrm{Cond}\infty\mathrm{Grpd}$ of [[condensed infinity-groupoids|condensed $\infty$-groipoids]] might form a [[predicative elementary (∞,1)-topos]] which is not a [[Grothendieck (∞,1)-topos]]. 
+* [[Peter Scholze]] speculates in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057721) that the [[(∞,1)-category]] $\mathrm{Cond}\infty\mathrm{Grpd}$ of [[condensed infinity-groupoids|condensed $\infty$-groupoids]] might form a [[predicative elementary (∞,1)-topos]] which is not a [[Grothendieck (∞,1)-topos]]. 
 
 ## Related pages
 
