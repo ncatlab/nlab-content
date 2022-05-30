@@ -23,6 +23,8 @@
 
 **Condensed mathematics** aims to provide a more convenient framework in which to treat algebraic objects equipped with a topology, such as [[topological abelian groups]] and [[topological vector spaces]]. Related aims are to turn [[functional analysis]] into a branch of [[commutative algebra]], and various types of [[analytic geometry]] into [[algebraic geometry]]. 
 
+According to Peter Scholze in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057780), current expositions of condensed mathematics rely heavily on the [[axiom of choice]] and choice-like axioms such as the [[presentation axiom]], so it is unknown how much they still hold in the context of mathematics without choice. 
+
 ## Concepts
 
 ### Condensed objects
