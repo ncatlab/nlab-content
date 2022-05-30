@@ -158,7 +158,11 @@ A quick review of this class of 3-cocycles in equivariant de Rham cohomology is 
 
 which further generalizes the discussion to non-compact Lie groups.
 
-See also
+On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via [[parafermions]]:
+
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) $[$[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)$]$
+
+See also:
 
 * [[Edward Witten]], _The $N$ matrix model and gauged WZW models_, Nuclear Physics B Volume 371, Issues 1&#8211;2, 2 March 1992, Pages 191&#8211;245
 
