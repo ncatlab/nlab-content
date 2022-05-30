@@ -8,6 +8,10 @@
 * [[Alexander B. Zamolodchikov]], [[Vladimir A. Fateev]] *Nonlocal (parafermion) currents in two-dimensional conformal quantum field theory and self-dual critical points in $Z_N$-symmetric statistical systems*, Sov. Phys. JETP **62** 2 (1985) 215-225 $[$[pdf](http://www.jetp.ras.ru/cgi-bin/dn/e_062_02_0215.pdf), [osti:5929972](https://www.osti.gov/biblio/5929972)$]$
 
 
+* Yi-Ting Tu, Po-Yao Chang, *Non-Abelian fracton order from gauging a mixture of subsystem and global symmetries*, Phys. Rev. Research **3** (2021) 043084 $[$[arXiv:2103.08603](https://arxiv.org/abs/2103.08603), [doi:10.1103/PhysRevResearch.3.043084](https://doi.org/10.1103/PhysRevResearch.3.043084)$]$
+
+
+
 ***
 
 test
