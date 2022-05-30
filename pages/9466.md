@@ -1,3 +1,4 @@
+[[!redirects Augustin Cauchy]]
 
 __Augustin-Louis Cauchy__ was a pioneer in [[analysis]] and [[group theory]].  He wrote an influential 1821 textbook, _[[Cours d'Analyse]]_.
 
