@@ -32,6 +32,8 @@ Notably the '[[Majorana anyons]] (in the guise of "[[Majorana zero modes]]") are
 
 ## References
 
+### General
+
 * S. Trebst, M. Troyer, Z. Wang and A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008)
 $[$[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)$]$
 
@@ -44,11 +46,17 @@ $[$[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120),
 *  E. G. Johansen, T. Simula, *Fibonacci anyons versus Majorana fermions
 -- A Monte Carlo Approach to the Compilation of Braid Circuits in $SU(2)_k$ Anyon Models*, PRX Quantum **2** 010334 (2021) $[$[arXiv:2008.10790](https://arxiv.org/abs/2008.10790)$]$
 
+### Experimental realization
+
+* {#MMBDRSC19} Gerbold C. Ménard, Andrej Mesaros, Christophe Brun, François Debontridder, Dimitri Roditchev, Pascal Simon, Tristan Cren, *Isolated pairs of Majorana zero modes in a disordered superconducting lead monolayer*,  Nat Commun **10** 2587 (2019) $[$[doi:10.1038/s41467-019-10397-5](https://doi.org/10.1038/s41467-019-10397-5)$]$
 
 * {#Nayak22} [[Chetan Nayak]], *Microsoft has demonstrated the underlying physics required to create a new kind of qubit*, Microsoft Research Blog (March 2022)
 
 
 [[!redirects su(2)-anyons]]
+
+[[!redirects su2-anyon]]
+[[!redirects su2-anyons]]
 
 [[!redirects Majorana anyon]]
 [[!redirects Majorana anyons]]
