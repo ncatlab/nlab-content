@@ -21,14 +21,13 @@
 
 In [[quantum physics]], *braid group statistics* or *anyon statistics* refers to an exotic phenomenon where the [[braiding]] of the [[worldlines]] of certain effective [[particles]] ("anyons") in an effectively 2+1-dimensional [[spacetime]] has the effect of transforming the [[quantum state]] of the total [[quantum system]] by [[unitary operators]] which constitute a [[linear representation]] of the [[braid group]] -- a *[[braid representation]]*.
 
-Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"statistics" which enters the *[[spin-statistics theorem]]*, see [below](#AsGeneralizedBosonFermionStatistics). But in reality this effect is often encountered not for fundamental [[particles]]/quanta, but for *[[soliton|solitonic]]$\;$[[defects]]*, see [further below](#AsBraidingOfDefects).
+Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"statistics" which enters the *[[spin-statistics theorem]]*, see [below](#AsGeneralizedBosonFermionStatistics). But in reality this effect is often encountered not for fundamental [[particles]]/quanta, but for *[[soliton|solitonic]]$\;$[[defects]]* such as [[vortices]], see [further below](#AsBraidingOfDefects).
 
 The concept of anyons is particularly well motivated in [[solid state physics]], where effectively 2-dimensional [[quantum materials]] are common place (eg. [[graphene]]) or where particles may otherwise be constrained to move in a [[plane]], such as in the [[quantum Hall effect]]. There is a multitude of *[[model (in theoretical physics)|models]]* in [[condensed matter theory]] (mostly [[lattice models]], such as [[string-net models]]) which *theoretically* realize anyon braid group statistics, and there are some first [[experiment|experimental]] indications of anyonic phenomena in actual materials (see the references under *[Experimental Realization](#ExperimentalRealization)*) below.
 
 Specifically, in the context of [[topological phases of matter]], the (potential) presence of anyons has come to be known as the case of *[[topological order]]*, see there for more. 
 
 Besides general curiosity, much of the interest in anyonic braid group statistics lies in the fact that these [[braid representations]] are imagined to potentially serve as [[quantum gates]] in [[topological quantum computers]]. See there for more.
-
 
 
 ### As generalized boson/fermion statistics
@@ -67,14 +66,16 @@ The term *anyon* is a pun on this state of affairs that *any* statistics "in bet
 
 In contrast to the traditional motivation [above](#AsGeneralizedBosonFermionStatistics), many (most?) incarnations of the concept of anyons are [[non-perturbative effect|non-perturbative]] [[soliton|solitonic]] [[defects]] (of [[codimension]]=2), akin to *[[vortices]]* in fluids. 
 
-The effect of braiding of [[defects]] in [[quantum materials]] has been understood and discussed before the term "anyon" became established: [Mermin 1979](#Mermin79), [Lo & Preskill 1993](#LoPreskill93).
-In [Kitaev 2006](#Kitaev06) it says explicitly:
+> *Anyonic particles are best viewed as a kind of topological defects that reveal non-trivial properties of the ground state.* $[$[Kitaev 2006, p. 4](#Kitaev06)$]$
 
-> Anyonic particles are best viewed as a kind of topological defects that reveal non-trivial properties of the ground state. $[$p. 4$]$.
+>  *Anyons can arise in two ways: as localised excitations of an interacting
+quantum Hamiltonian or as defects in an ordered system.*  $[$[Das Sarma, Freedman & Nayak 2015, p. 1](topological+quantum+computation#DasSarmaFreedmanNayak15)$]$
+
+The effect of braiding of [[defects]] in [[quantum materials]] has been understood and discussed before the term "anyon" became established: [Mermin 1979](#Mermin79), [Lo & Preskill 1993](#LoPreskill93).
 
 A concrete example of defect anyons are [[vortex]] anyons see [below](#VortexAnyons).
 
-Of course, the notion of codimension=2 defects subsumes situations that are quite different from the [[quasiparticle]]-excitations imagined in traditional texts on anyons, such as:
+But the notion of codimension=2 defects subsumes situations that are quite different from the [[quasiparticle]]-excitations imagined in traditional texts on anyons, such as:
 
 * [anyonic band nodes](#AnyonicBandNodes)
 
@@ -83,7 +84,24 @@ Of course, the notion of codimension=2 defects subsumes situations that are quit
 #### Vortex anyons
  {#VortexAnyons}
 
+
 Specifically, *[[vortex]] anyons* are realized in [[Bose-Einstein condensates]] ([MPSS19](#MPSS19), following [PFCZ01](#PFCZ01)) and in (other) [[superfluids]] ([MMN21](#MMN21)).
+
+Much attention is being paid to anyons realized as [[Majorana zero modes]] [[bound state|bound]] to [[vortices]] ([Das Sarma, Freedman & Nayak 2015](topological+quantum+computation#DasSarmaFreedmanNayak15), cf. [MMBDRSC19](su2-anyon#MMBDRSC19))
+
+\begin{imagefromfile}
+    "file_name": "MZMVortex-220530.jpg",
+    "width": 440,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+> (graphics from [MMBDRSC19](su2-anyon#MMBDRSC19), [Fig. 1](https://www.nature.com/articles/s41467-019-10397-5.pdf#page=2))
 
 #### Anyonic band nodes?
  {#AnyonicBandNodes}
