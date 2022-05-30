@@ -356,6 +356,8 @@ $$
 
 * [[WZW model]]
 
+* [[parafermion]]
+
 * [[logarithmic CFT]]
 
 * [[6d (2,0)-supersymmetric QFT]]
