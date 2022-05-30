@@ -20,11 +20,17 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 Given an [[(infinity,1)-category]] $\mathcal{C}$, a **condensed object** in $\mathcal{C}$ is a [[(infinity,1)-sheaf]] of objects in $\mathcal{C}$ on the [[pro-étale (infinity,1)-site]] of the point, small relative to a universe $\mathcal{U}$. 
 
 ## See also 
+
+* [[internalization]]
 
 * [[condensed mathematics]]
 * [[condensed set]]
