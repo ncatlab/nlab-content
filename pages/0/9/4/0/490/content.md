@@ -172,6 +172,15 @@ Any topos that violates countable choice, of which there are plenty, must also v
 An interesting example of a topos that has enough projectives and satisfies internal CoSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]], and more generally any [[realizability topos]]. The reason for this is quite similar to the intuitive justification for CoSHEP given above. Technically, it results from the fact that realizability toposes are [[exact completions]]; an explanation is given in [this remark](/nlab/show/realizability+topos#pax). 
 =--
 
+## In categories which are not topoi
+
++-- {: .num_example}
+###### Example
+
+According to Peter Scholze in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057798), an example of a category that satisfies external CoSHEP is the category of [[condensed sets]], assuming that [[Set]] satisfies the axiom of choice. The category of condensed sets do not form a topos, only an [[infinitary pretopos]]. 
+
+However, internal CoSHEP fails in condensed sets. 
+=--
 
 ## Further properties
 
