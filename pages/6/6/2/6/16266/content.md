@@ -164,13 +164,13 @@ As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking
 
 The original definition is due to [[Jan-Erik Roos]], see Definition 1 in
 
-* {#Roos64} [[Jan-Erik Roos]], [*Introduction à l'étude de la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos)*](https://gallica.bnf.fr/ark:/12148/bpt6k40130/f1011.item), Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 969–972 ([[roos-distributivity.pdf:file]])
+* {#Roos64} [[Jan-Erik Roos]], [*Introduction à l'étude de la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos)*](https://gallica.bnf.fr/ark:/12148/bpt6k40130/f1011.item), Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 969–972 ([[roos-distributivity.pdf:file]]),
 
 which is the first in a series of 3 papers, the others being
 
-* [[Jan-Erik Roos]], [*Sur la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos)*](https://gallica.bnf.fr/ark:/12148/bpt6k40130/f1673.item), Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 1605–1608
+* [[Jan-Erik Roos]], _[Sur la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos)](https://gallica.bnf.fr/ark:/12148/bpt6k40130/f1673.item)_, Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 1605–1608
 
-* [[Jan-Erik Roos]], *Complément à l'étude de la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos)*, Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 1801–1804
+* [[Jan-Erik Roos]], *[Complément à l'étude de la distributivité des foncteurs lim par rapport aux lim dans les catégories des faisceaux (topos)](https://gallica.bnf.fr/ark:/12148/bpt6k40149/f128.item)*, Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences 259 (1964), 1801–1804.
 
 Additional references:
 
