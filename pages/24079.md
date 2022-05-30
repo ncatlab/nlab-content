@@ -32,9 +32,13 @@ Let $(M, \leq, \otimes, 1)$ be a [[monoidal poset]]. A **$M$-enriched [[setoid]]
 
 * for every $a \in P$, $b \in P$, and $c \in P$, $o(a, b) \otimes o(b, c) \leq o(a, c)$
 
-* for every $a \in P$ adn $b \in P$, $o(a, b) \leq o(b, a)$
+* for every $a \in P$ and $b \in P$, $o(a, b) \leq o(b, a)$ 
 
-* for every $a \in P$, $1 \leq o(a, a)$. 
+* for every $a \in P$, $1 \leq o(a, a)$
+
+An $M$-enriched [[univalent setoid]] is an **$M$-enriched setoid** which additinally satisfies $o(a, b) = 1 \wedge o(b, a) = 1 \Rightarrow a = b$ 
+
+For $M$-enriched univalent setoids, $o(a, b) = o(b, a)$, $o(a, a) = 1$, and $o(a, b) = 1 \Rightarrow a = b$. 
 
 ## Examples ##
 
