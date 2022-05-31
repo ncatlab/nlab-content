@@ -13,6 +13,10 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The [[enriched category theory|enriched]] generalization of the notion of *[[monotone function]]*.
+
 ## Definition
 
 Given two preorders $A, B$ [[enriched preorder|enriched in]] a [[monoidal poset]] $M$, an **$M$-enriched monotone** is a function $f: A \to B$ such that  
