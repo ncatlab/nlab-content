@@ -1,5 +1,5 @@
 
-This page lists counterexamples in [[algebra]].
+This page lists [[counterexamples]] in [[algebra]].
 
 
 #Contents#
