@@ -113,6 +113,8 @@ Strong density for sublocales gives rise to a corresponding notion of [[weakly c
 
 ## Related concepts
 
+* [[dense]]
+
 * [[dense subalgebra]]
 
 * [[dense subtopos]]
