@@ -2,9 +2,9 @@
 
 __Augustin-Louis Cauchy__ was a pioneer in [[analysis]] and [[group theory]].  He wrote an influential 1821 textbook, _[[Cours d'Analyse]]_.
 
-Cauchy described the basic concepts of [[differential calculus|differential]] and [[integral calculus|integral]] [[infinitesimal calculus|calculus]] in terms of [[convergence|limits]].  His conception of limits was based on [[infinitesimal]] [[variables]], which do not appear as such in modern [[mathematics]], although they have been variously identified with [[sequences]] (that converge to zero), [[ultrafilters]] (that converge to zero), hyperpoint|hyperpoints (in the [[infinitesimal neighborhood|infinitesimal neighbourhood]] of zero) in the sense of [[nonstandard analysis]], etc.  (His infinitesimals were *not* [[nilpotent infinitesimal|nilpotent]].)
+Cauchy described the basic concepts of [[differential calculus|differential]] and [[integral calculus|integral]] [[infinitesimal calculus|calculus]] in terms of [[convergence|limits]].  His conception of limits was based on [[infinitesimal]] [[variables]], which do not appear as such in modern [[mathematics]], although they have been variously identified with [[sequences]] (that converge to zero), [[ultrafilters]] (that converge to zero), hyperpoints (in the [[infinitesimal neighborhood|infinitesimal neighbourhood]] of zero) in the sense of [[nonstandard analysis]], etc.  (His infinitesimals were *not* [[nilpotent infinitesimal|nilpotent]].)
 
-Cauchy\'s student [[Karl Weierstrass]] defined limits in terms of [[Richard Dedekind]]\'s static conceptions of [[real number]] and [[function]], creating modern [[analysis]].
+Cauchy\'s student [[Karl Weierstrass]] defined [[limit of a sequence|limits]] in terms of [[Richard Dedekind]]\'s static conceptions of *[[real numbers]]* and *[[functions]]*, thereby creating modern [[analysis]].
 
 Cauchy is associated with:
 
