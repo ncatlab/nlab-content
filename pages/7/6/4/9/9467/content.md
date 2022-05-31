@@ -4,9 +4,9 @@
 
 ## Overview
 
-In his influential 1821 textbook _[[Cours d'Analyse]]_, [[Augustin Cauchy]] states a theorem that is now widely regarded as false, attributed to a confusion between [[pointwise convergence]] and [[uniform convergence]].  This mistake ---if indeed it is a mistake--- is of both pedagogical and philosophical-historical interest.
+In his influential 1821 textbook _[[Cours d'Analyse]]_, [[Augustin Cauchy]] states a [[theorem]] that is now widely regarded as [[false]], attributed to a confusion between [[pointwise convergence]] and [[uniform convergence]].  This mistake --- if indeed it was a mistake --- is of both pedagogical and philosophical-historical interest.
 
-Counterexamples (specific [[Fourier series]]) were known already to [[Joseph Fourier]], and [[Niels Abel]] specifically pointed them out as counterexamples to Cauchy\'s claim.  However, Cauchy denied that these were counterexamples, on the grounds that the series did not converge everywhere (which is a hypothesis in the theorem).  [[Imre Lakatos]] has argued that the confusion rests on different conceptions of the [[continuum]], so that Cauchy\'s notion of convergence everywhere is really more like Weierstrass\'s notion of uniform convergence than pointwise convergence, and the theorem as he intended it is true.
+[[counterexample|Counterexamples]] (specific [[Fourier series]]) were known already to [[Joseph Fourier]], and [[Niels Abel]] specifically pointed them out as counterexamples to Cauchy\'s claim.  However, Cauchy denied that these were [[counterexamples]], on the grounds that the series did not converge everywhere (which is a hypothesis in the theorem).  [[Imre Lakatos]] has argued that the confusion rests on different conceptions of the [[continuum]], so that Cauchy\'s notion of convergence everywhere is really more like Weierstrass\'s notion of uniform convergence than pointwise convergence, and the theorem as he intended it is true.
 
 Although Cauchy\'s original formulation was about the sum of an [[infinite series]], we will consider it in the slightly more elementary context of the limit of an [[infinite sequence]]; the modern isomorphism between these was already well established and used explicitly by Cauchy.
 
