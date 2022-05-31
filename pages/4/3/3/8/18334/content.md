@@ -99,6 +99,11 @@ See also:
 
 * [[Simen Bruinsma]], [[Christopher J. Fewster]], [[Alexander Schenkel]], *Relative Cauchy evolution for linear homotopy AQFTs* ([arXiv:2108.10592](https://arxiv.org/abs/2108.10592))
 
+Discussion of the [[model structure on modules in a monoidal model category|model structure on modules]] for representations of higher [[local nets of observables]]:
+
+* Angelos Anastopoulos, [[Marco Benini]], Sec. 2.4 of *Homotopy theory of net representations* $[$[arXiv:2201.06464](https://arxiv.org/abs/2201.06464)$]$
+
+
 
 
 
