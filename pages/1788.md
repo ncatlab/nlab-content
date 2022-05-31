@@ -12,6 +12,8 @@
 
 * Yi-Ting Tu, Po-Yao Chang, *Non-Abelian fracton order from gauging a mixture of subsystem and global symmetries*, Phys. Rev. Research **3** (2021) 043084 $[$[arXiv:2103.08603](https://arxiv.org/abs/2103.08603), [doi:10.1103/PhysRevResearch.3.043084](https://doi.org/10.1103/PhysRevResearch.3.043084)$]$
 
+* *Classification and surface anomaly of glide symmetry protected topological phases in three dimensions* [pdf](https://iopscience.iop.org/article/10.1088/1367-2630/aa769b/pdf)
+
 
 
 ***
