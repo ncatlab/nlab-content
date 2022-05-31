@@ -470,4 +470,7 @@ A [[homotopy type theory|HoTT]]-[[Coq]]-coding of homotopy pullbacks and pushout
 [[!redirects homotopy co-fiber product]]
 [[!redirects homotopy co-fiber products]]
 
-
+[[!redirects homotopy base change]]
+[[!redirects homotopy base changes]]
+[[!redirects homotopy cobase change]]
+[[!redirects homotopy cobase changes]]
