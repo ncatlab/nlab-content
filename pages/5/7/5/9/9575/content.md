@@ -149,3 +149,5 @@ This is discussed in further detail at [[model structure on categories with weak
 
 
 [[!redirects relative categories]]
+[[!redirects relative functor]]
+[[!redirects relative functors]]
