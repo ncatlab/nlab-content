@@ -1,3 +1,5 @@
+[[!redirects sandbox]]
+
 \begin{tikzcd}
    X \arrow[rr, "f"] \arrow[dr, swap, "I f"]
 && Y \\
