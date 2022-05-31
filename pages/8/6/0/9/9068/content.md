@@ -38,6 +38,14 @@ A [[subcategory]] is **codense** if the inclusion functor is codense.
 
 *  Let $I$ denote the unit interval. Then the full subcategory of the category  of compact topological spaces $T$ whose only object is $I^2$ is a dense subcategory of $T$ ([Ulmer 68, p.80](#Ulmer68)).
 
+## Related concepts
+
+* [[dense]]
+
+* [[dense functor]]
+
+* [[codensity monad]]
+
 ## References
 
 * {#Ulmer68} [[Friedrich Ulmer]], _Properties of Dense and Relative Adjoint Functors_, Journal of Algebra 8, 77-95 (1968)  
