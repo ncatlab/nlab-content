@@ -38,6 +38,9 @@ $$
 $$ 
 and it may be shown that the open balls form a [[basis for a topology|basis]] for a [[topological structure|topology]] on $X$, the _[[metric topology]]_. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of [[complete space|completion]] of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
 
+### As a Richman premetric space
+
+In [[constructive mathematics]], a **metric space** is a [[Richman premetric space]] $(X, \sim)$ such that for all non-negative rational numbers $q \in \mathbb{Q}_{\geq 0}$, and $r \in \mathbb{Q}_{\geq 0}$, if $q \lt r$, than for every $x \in X$ and $y \in X$, either $x \sim_r y$ or $\neg(x \sim_q y)$. Classically, every Richman premetric space is a metric space, but constructively, Richman premetric spaces are only "metric spaces" that are valued in the lower Dedekind real numbers. 
 
 ### Metrizable spaces
 
@@ -188,7 +191,9 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * [[distance (graph theory)]]
 
-* [[premetric space]]
+* [[Booij premetric space]]
+
+* [[Richman premetric space]]
 
 * [[enriched poset]]
 
@@ -208,6 +213,7 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 * {#Porton} [[Victor Porton]], _[Algebraic General Topology: Book 3: Algebra](https://mathematics21.org/the-algebra-of-general-topology/)_
 
+* [[Fred Richman]], Real numbers and other completions ([pdf](http://math.fau.edu/richman/docs/RealNums.pdf))
 
 [[!redirects metric space]]
 [[!redirects metric spaces]]
