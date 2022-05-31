@@ -120,6 +120,10 @@ Libraries of [[formal proofs]] formalized in some [[proof assistant]]:
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[folklore]]
 
 * [[conjecture]]
