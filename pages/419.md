@@ -392,9 +392,7 @@ See at _[[model structure on simplicial presheaves]]_ the section _[Closed monoi
 ### Monoidal presheaves
  {#MonoidalPresheaves}
 
-More generally, if a [[small category]] $\mathcal{S}$ has [[finite products]] and $\mathcal{M}$ is a [[cofibrantly generated model category|cofibrantly generated]] [[symmetric monoidal model category]], then the [[functor category]] $Func\big(\mathcal{S}^{op}, \mathcal{M}\big)$ with its object-wise [[monoidal category]]-structure and the [[injective model structure on functors]] is itself a monoidal model category.
-
-([Pavlov & Scholbach 2018, inside proof of Prop. 7.9](#PavlovScholbach18))
+More generally, if a [[small category]] $\mathcal{S}$ has [[finite products]] and $\mathcal{M}$ is a [[cofibrantly generated model category|cofibrantly generated]] [[symmetric monoidal model category]], then the [[functor category]] $Func\big(\mathcal{S}^{op}, \mathcal{M}\big)$ with its object-wise [[monoidal category]]-structure and with the [[projective model structure on functors]] is itself a monoidal model category ([Pavlov & Scholbach 2018, inside proof of Prop. 7.9](#PavlovScholbach18)).
  
 
 ### Homological algebra and stable homotopy theory
