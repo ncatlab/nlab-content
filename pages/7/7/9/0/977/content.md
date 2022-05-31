@@ -72,6 +72,8 @@ Given a shape-dense subcategory $D\subset C$ (Def. \ref{ShapeDenseSubcategory}) 
 
 ## Related concepts
 
+* [[dense]]
+
 There is also the notion of "[[dense subsite]]", but this is _not_ a special case of a dense subcategory. 
 
 ## Related entries
