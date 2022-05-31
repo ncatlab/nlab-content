@@ -123,7 +123,7 @@ is the set of [[section]]s of the [[bundle]] $2 \mathbb{N} \hookrightarrow \math
 
 ## Related concepts
 
-* [[necessity]]
+* [[necessity]], [[example]]
 
 * [[existential quantifier]]
 
