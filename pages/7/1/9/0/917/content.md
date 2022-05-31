@@ -56,6 +56,10 @@ If the category has a [[strict initial object]] $\emptyset$, then every morphism
 
 * [[monomorphism in an (infinity,1)-category]]
 
+* [[monotone function]]
+
+* [[equivariant function]]
+
 [[!redirects injective function]]
 [[!redirects strongly injective function]]
 [[!redirects injective functions]]
