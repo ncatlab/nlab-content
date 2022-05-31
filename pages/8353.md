@@ -42,6 +42,10 @@ As such definitions are no different from [[proofs]] of [[theorems]] (due [[prop
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[conjecture]]
 
 * [[folklore]]
