@@ -71,6 +71,10 @@ In [[physics]]:
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[folklore]]
 
 * [[conjecture]]
