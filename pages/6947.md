@@ -152,7 +152,7 @@ Notice that before the $(-1)$-truncation the operation remembers not just _that_
 
 ## Related concepts
 
-* [[possibility]]
+* [[possibility]], [[example]]
 
 * [[universal quantifier]]
 
