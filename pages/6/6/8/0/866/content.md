@@ -227,3 +227,6 @@ Probably the trickiest bit is the definition of [[composition]] of binary relati
 
 [[!redirects binary relation]]
 [[!redirects binary relations]]
+
+[[!redirects binary endorelation]]
+[[!redirects binary endorelations]]
