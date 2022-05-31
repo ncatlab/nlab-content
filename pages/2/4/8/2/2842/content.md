@@ -705,7 +705,3 @@ The terminology "h-cofibration" is due to:
 
 [[!redirects closed Hurewicz cofibration]]
 [[!redirects closed Hurewicz cofibrations]]
-
-[[!redirects h-cofibration]]
-[[!redirects h-cofibrations]]
-
