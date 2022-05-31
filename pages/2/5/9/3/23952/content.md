@@ -48,6 +48,8 @@ Let $(M, \leq, \wedge, \top)$ be a [[monoidal poset]]. A **$M$-enriched [[proset
 * [[enriched category]] (for the (1, 1)-category version)
 * [[enriched setoid]]
 * [[enriched directed loop graph]]
+* [[enriched monotone]]
+* [[enriched monotone preorder]]
 
 [[!redirects enriched preorders]]
 
