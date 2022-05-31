@@ -40,6 +40,8 @@ Here ${\vert k\vert} \in \mathbb{N}$ denotes the [[absolute value]].
 
 A group with a norm is a _[[normed group]]_, see there for more.
 
+In [[constructive mathematics]], it is common to replace the [[denial inequality]] with a [[tight apartness relation]] in the positivity condition. 
+
 ### On a vector space
 
 For $k$ a [[field]] equipped with a [[valuation]] (most usually, a [[local field]] such as $\mathbb{R}$, $\mathbb{C}$, or a [[p-adic field|p-adic]] [[complete field|completion]] of a [[number field]]), a **norm** on a $k$-[[vector space]] $V$ is a [[function]] 
