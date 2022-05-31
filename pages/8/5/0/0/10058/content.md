@@ -138,6 +138,10 @@ See also
 [[!redirects phi^4 theory]]
 [[!redirects phi^4 theories]]
 
+[[!redirects phi^4-theory]]
+[[!redirects phi^4-theories]]
+
+
 [[!redirects Phi^4 theory]]
 [[!redirects Phi^4 theories]]
 
