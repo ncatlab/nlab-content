@@ -19,7 +19,7 @@
 
 ## Idea
 
-Countable dense linear orders without endpoints are unique up to isomorphism, and are canonically modeled by the [[rational numbers]] $(\mathbb{Q}, \lt )$.
+Countable [[dense]] linear orders without endpoints are unique up to isomorphism, and are canonically modeled by the [[rational numbers]] $(\mathbb{Q}, \lt )$.
 
 
 ## Definition
