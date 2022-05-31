@@ -61,6 +61,10 @@ Assuming the deductive system is [[soundness theorem|sound]], every sequent whic
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[folklore]]
 
 * [[conjecture]]
