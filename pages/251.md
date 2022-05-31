@@ -272,7 +272,6 @@ Textbook account:
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 12.3 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
 
-
 See also:
 
 * [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page)).
@@ -307,6 +306,10 @@ Model structures on the category of double categories are discussed in:
 * {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories*, [talk slides](https://acmbl.github.io/greg_slides.pdf), 2020
 
 * {#MSVHInvar} Lyne Moser, Maru Sarazola, Paula Verdugo,  *A model structure for weakly horizontally invariant double categories*, [arxiv](https://arxiv.org/abs/2007.00588), 2020
+
+[[Fibrations]] of double categories, or _double fibrations_, are treated in 
+
+* [[Geoffrey Cruttwell]], Michael Lambert, [[Dorette Pronk]], Martin Szyld, _Double Fibrations_ ([arXiv:2205.15240](https://arxiv.org/abs/2205.15240)).
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
