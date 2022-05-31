@@ -35,6 +35,10 @@
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[folklore]]
 
 * [[conjecture]]
