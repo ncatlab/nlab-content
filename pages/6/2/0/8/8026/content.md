@@ -41,6 +41,10 @@ When a proposition is *called* an exercise, this means at least that the omissio
 
 * [[proof]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[conjecture]]
 
 * [[folklore]]
