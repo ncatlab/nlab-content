@@ -22,7 +22,7 @@
 
 In [[category theory]], there's often the sense that 'things just work', and that details can be skipped as everything is well behaved. Unfortunately, this is not quite true.
 
-The counterexamples here should serve as specimens of possible pittfalls in category theory, and give an idea of what could go wrong.
+The [[counterexamples]] here should serve as specimens of possible pittfalls in category theory, and give an idea of what could go wrong.
 
 ## List
 
