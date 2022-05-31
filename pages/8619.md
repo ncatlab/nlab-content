@@ -53,6 +53,10 @@ The (popular) claim that some statement is "well-known" -- without, however, the
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[folklore]]
 
 * [[conjecture]]
