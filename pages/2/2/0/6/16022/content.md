@@ -79,8 +79,12 @@ Let $f:\mathcal{F}\to\mathcal{E}$ be a geometric morphism. Then $f$ factors as a
 
 ## Related entries
 
+* [[dense]]
+
 * [[dense subtopos]]
+
 * [[dominant geometric morphism]]
+
 * [[(geometric surjection, embedding) factorization system]]
 
 ## References
