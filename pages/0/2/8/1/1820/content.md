@@ -308,6 +308,29 @@ By general properties of [[accessible categories]] (see there) the full inverse 
 =--
 
 
+### The compactly generated left proper case of Smith's theorem
+
+In the special case when weak equivalences are closed under [[filtered colimits]]
+and the model structure is [[left proper]],
+the statement of Smith's theorem can be simplified.
+
+The following formulation can be found as Proposition A.2.6.15 in Lurie \cite{Lurie}.
+
+\begin{theorem}
+Suppose $C$ is a [[locally presentable category]]
+equipped with a [[class]] $W$ of weak equivalences
+that turn it into a [[relative category]]
+and a set $I$ of generating cofibrations.
+If the following conditions are satisfied, then $C$ admits a [[left proper]] model structure with $I$ as the set of generating cofibrations:
+
+* $inj(I) \subset W$;
+
+* every element of $I$ is an [[h-cofibration]];
+
+* the [[class]] $W$ is _perfect_: it satisfies the [[2-out-of-3 property]], is closed under [[filtered colimits]] (in the category of morphisms in $C$), and is generated under [[filtered colimits]] by a set of morphisms.
+
+\end{theorem}
+
 
 ### Dugger's theorem 
  {#DuggerTheorem} 
