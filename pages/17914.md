@@ -11,6 +11,8 @@ $$ Int(Cl(A)) = \emptyset .$$
 
 ## Related pages
 
+* [[dense]]
+
 * [[dense subspace]]
 
 [[!redirects rare]]
