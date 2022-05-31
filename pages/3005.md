@@ -158,7 +158,7 @@ Textbook accounts:
 
 * {#MacLane} [[Saunders MacLane]],  Section VI.7 of _[[Categories for the Working Mathematician]]_.
 
-* {#BarrWells} Chapter 3 of [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_  Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983  ([ftp](ftp://ftp.math.mcgill.ca/pub/barr/ttt)), ([web](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)), ([pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf))
+* {#BarrWells} Chapter 3 of [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_  Grundlehren der math. Wissenschaften 278, Springer-Verlag 1983.  Available as [TAC Reprint 12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html).
 
 Other references include:
 
