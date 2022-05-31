@@ -36,9 +36,9 @@ Let $(M, \leq, \otimes, 1)$ be a [[monoidal poset]]. A **$M$-enriched [[setoid]]
 
 * for every $a \in P$, $1 \leq o(a, a)$
 
-An $M$-enriched [[univalent setoid]] is an **$M$-enriched setoid** which additinally satisfies $o(a, b) = 1 \Rightarrow a = b$ 
+An **$M$-enriched [[univalent setoid]]** is an $M$-enriched setoid which additinally satisfies $1 \leq o(a, b) \Rightarrow a = b$. 
 
-For $M$-enriched univalent setoids, $o(a, b) = o(b, a)$ and $o(a, a) = 1$. 
+For $M$-enriched univalent setoids, $o(a, b) = o(b, a)$, $o(a, a) = 1$, and $1 = o(a, b) \Rightarrow a = b$. 
 
 ## Examples ##
 
