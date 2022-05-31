@@ -82,6 +82,10 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[folklore]]
 
 * [[conjecture]]
