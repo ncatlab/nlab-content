@@ -1,6 +1,6 @@
 [[!redirects sandbox]]
 
-A test
+A test, test
 
 \begin{tikzcd}
    X \arrow[rr, "f"] \arrow[dr, swap, "I f"]
