@@ -385,10 +385,17 @@ $$
 ### Simplicial presheaves
  {#SimplicialPresheaves}
 
-If the underlying [[site]] has [[finite product]], then both the injective and the projective, the global and the local [[model structure on simplicial presheaves]] becomes a [[cartesian closed mononoidal model category|cartesian]] [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
+If the underlying [[site]] has [[finite products]], then both the injective and the projective, the global and the local [[model structure on simplicial presheaves]] becomes a [[cartesian closed mononoidal model category|cartesian]] [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
 
 See at _[[model structure on simplicial presheaves]]_ the section _[Closed monoidal structure](https://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#MonoidalStructure)_.
 
+### Monoidal presheaves
+ {#MonoidalPresheaves}
+
+More generally, if a [[small category]] $\mathcal{S}$ has [[finite products]] and $\mathcal{M}$ is a [[cofibrantly generated model category|cofibrantly generated]] [[symmetric monoidal model category]], then the [[functor category]] $Func\big(\mathcal{S}^{op}, \mathcal{M}\big)$ with its object-wise [[monoidal category]]-structure and the [[injective model structure on functors]] is itself a monoidal model category.
+
+([Pavlov & Scholbach 2018, inside proof of Prop. 7.9](#PavlovScholbach18))
+ 
 
 ### Homological algebra and stable homotopy theory
 
@@ -505,6 +512,10 @@ Relation to [[symmetric monoidal (infinity,1)-categories]] (in particular, that 
 Monoidal Reedy model structures are discussed in
 
 * Moncef Ghazel, Fethi Kadhi, _Reedy diagrams in V-model categories_, [arXiv:1610.06535](https://arxiv.org/abs/1610.06535), [doi:10.1007/s10485-019-09566-w](https://doi.org/10.1007/s10485-019-09566-w).
+
+Monoidal presheaf categories make an appearance in
+
+* {#PavlovScholbach18} [[Dmitri Pavlov]], [[Jakob Scholbach]], p. 20 of: *Admissibility and rectification of colored symmetric operads*, Journal of Topology **11** 3 (2018) 559-601 $[$[doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008), [arXiv:1410.5675](https://arxiv.org/abs/1410.5675)$]$
 
 
 [[!redirects monoidal model categories]]
