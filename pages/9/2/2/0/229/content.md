@@ -59,7 +59,23 @@ $$(a + b) + c = (b - (0 - c)) - (0 - a)$$
 $$(a + b) + c = a - (0 - (b - (0 - c)))$$
 $$(a + b) + c = a + (b + c)$$
 
+and has left identities
 
+$$0 + a = 0 - (0 - a) = a$$
+
+and right identities
+
+$$a + 0 = 0 + a = a$$
+
+and has left inverses
+
+$$-a + a = (0 - a) - (0 - a) = 0$$
+
+and right identities
+
+$$a + (-a) = -a + a = 0$$
+
+Thus, these axioms form an abelian group. 
 
 ## Properties
 
