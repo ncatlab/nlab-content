@@ -417,6 +417,12 @@ Discussion with application to [[homotopical algebraic quantum field theory]] is
 * {#BeniniSchenkelWoike18} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Homotopy theory of algebraic quantum field theories_ ([arXiv:1805.08795](https://arxiv.org/abs/1805.08795))
 
 
+On [[rectification]] of [[symmetric operad|symmetric]] [[colored operads]]:
+
+* {#PavlovScholbach18} [[Dmitri Pavlov]], [[Jakob Scholbach]], *Admissibility and rectification of colored symmetric operads*, Journal of Topology **11** 3 (2018) 559-601 $[$[doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008), [arXiv:1410.5675](https://arxiv.org/abs/1410.5675)$]$
+
+
+
 [[!redirects model structures on algebras over an operad]]
 
 [[!redirects model category of algebras over an operad]]
