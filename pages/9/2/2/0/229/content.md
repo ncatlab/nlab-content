@@ -43,6 +43,24 @@ An **abelian group** is a [[pointed set]] $(A, 0)$ with a binary operation $(-)-
 
 For every element $a \in A$, the inverse element is defined as $-a \coloneqq 0 - a$ and addition is defined as $a + b \coloneqq a - (-b)$. 
 
+Addition is commutative: 
+
+$$a + b = a - (0 - b) = b - (0 - a) = b + a$$
+
+and associative
+
+$$(a + b) + c = (a - (0 - b)) - (0 - c)$$
+$$(a + b) + c = (b - (0 - a)) - (0 - c)$$
+$$(a + b) + c = b - ((0 - c) - a)$$
+$$(a + b) + c = b - ((0 - c) - (0 - (0 - a)))$$
+$$(a + b) + c = b - ((0 - a) - (0 - (0 - c)))$$
+$$(a + b) + c = b - ((0 - a) - c)$$
+$$(a + b) + c = (b - (0 - c)) - (0 - a)$$
+$$(a + b) + c = a - (0 - (b - (0 - c)))$$
+$$(a + b) + c = a + (b + c)$$
+
+
+
 ## Properties
 
 ### In homotopy theory
