@@ -8,6 +8,9 @@
 
 On [[topological quantum computation]]:
 
+* [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)$]$
+
+
 * {#LahtinenPachos17} Ville Lahtinen, [[Jiannis K. Pachos]], _A Short Introduction to Topological Quantum Computation_,  SciPost Phys. **3** 021 (2017) ([arXiv:1705.04103](https://arxiv.org/abs/1705.04103))
 
 and with focus on [[abelian anyons]]:
