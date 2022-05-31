@@ -49,8 +49,10 @@ General discussion:
 
 * {#SchwedeShipley00} [[Stefan Schwede]], [[Brooke Shipley]], *Algebras and modules in monoidal model categories*, Proc. London Math. Soc. **80** 2  (2000)  491-511  $[$[arXiv:math/9801082](https://arxiv.org/abs/math/9801082), [doi:10.1112/S002461150001220X](https://doi.org/10.1112/S002461150001220X)$]$
 
-Discussion for [[nets of observables]] in [[homotopical algebraic quantum field theory]]:
+{#TheSpecialCaseInFunctorCategory} The special case of the model structure on modules in a [[functor category]] with values in a closed symmetric monoidal model category is (re-)derived (see the discussion [here](https://nforum.ncatlab.org/discussion/14400/model-structure-on-modules-in-a-monoidal-model-category/?Focus=99231#Comment_99231)) in:
 
 * Angelos Anastopoulos, [[Marco Benini]], Sec. 2.4 of *Homotopy theory of net representations* $[$[arXiv:2201.06464](https://arxiv.org/abs/2201.06464)$]$
+
+(there for the purpose of desribing representations of [[nets of observables]] in [[homotopical algebraic quantum field theory]]). 
 
 [[!redirects model structures on modules in a monoidal model category]]
