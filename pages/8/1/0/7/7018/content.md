@@ -66,6 +66,10 @@ A theorem should be contrasted with a [[tautology]]: a proposition that is [[tru
 
 * [[theorem]]
 
+* [[example]]
+
+* [[counterexample]]
+
 * [[folklore]]
 
 * [[conjecture]]
