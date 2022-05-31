@@ -9,6 +9,8 @@
 
   * [[bottom]], [[false]]
 
+  * [[monotone function]]
+
   * [[implication]]
 
   * [[filter]], [[interval]]
