@@ -84,6 +84,8 @@ Its algebras are precisely the [[sober spaces]].
 
 ## Related entries
 
+* [[dense]]
+
 * [[dense functor]]
 
 * [[shape theory]]
