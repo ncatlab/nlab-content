@@ -107,3 +107,4 @@ An [[object]] such that the unique morphism to the [[terminal object]] is a fibr
 A replacement of a morphism by a weakly equivalent fibration is also called a _[[resolution]]_.
 
 [[!redirects fibrations]]
+[[!redirects Fibrations]]
