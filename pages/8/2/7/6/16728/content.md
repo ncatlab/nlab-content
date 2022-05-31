@@ -80,6 +80,8 @@ In particular, the [[Lawvere-Tierney topology]] corresponding to the dense topol
 
 ## Related entries
 
+* [[dense]]
+
 * [[atomic site]]
 
 * [[double negation]]
