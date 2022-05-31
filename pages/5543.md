@@ -115,6 +115,8 @@ There is also the notion of _[[dense subcategory]]_, which is however only remot
 
 ## Related entries
 
+* [[dense]]
+
 * [[comparison lemma]]
 
 * [[(∞,1)-comparison lemma]]
