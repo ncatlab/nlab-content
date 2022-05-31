@@ -27,9 +27,11 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 \linebreak
 
 ### June 2022
- {#HomotopicalPerspectivesOnTDAMay2022}
+ {#MeetingsJune2022}
+ 
 
   **[[homotopy theory|Homotopical]] perspectives on [[topological data analysis|Topological data analysis]] 
+  {#HomotopicalPerspectivesOnTDAJune2022}
 
   Organizers: [[Sadok Kallel]] and [[Hisham Sati]] 
 
@@ -144,7 +146,7 @@ The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/resea
 
 ### May 2022
 
-* [[Urs Schreiber]]:
+* [[Urs Schreiber]] on joint work with [[Hisham Sati]]:
 
   **[[schreiber:New Foundations for TDA -- Cohomotopy|New Foundations for Topological Data Analysis -- The Power of Cohomotopy]]**
   {#CQTSColloquiumCohomotopyFoundationsForTDA}
