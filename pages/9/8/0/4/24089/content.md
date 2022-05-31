@@ -28,6 +28,12 @@ A [[binary endorelation]] is **dense** if it is the edge relation of a dense dir
 
 * [[DLO]]
 
+## References
+
+See also:
+
+* Wikipedia, *[Dense order -- Generalizations](https://en.wikipedia.org/wiki/Dense_order#Generalizations)*
+
 [[!redirects dense directed loop graph]]
 [[!redirects dense directed loop graphs]]
 
