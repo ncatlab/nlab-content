@@ -113,6 +113,10 @@ Suppose there are parallel morphisms $g, h:B\rightarrow C$ such that for every g
 
 * [[subquotient]]
 
+* [[monotone function]]
+
+* [[equivariant function]]
+
 
 [[!redirects surjective function]]
 [[!redirects surjective functions]]
