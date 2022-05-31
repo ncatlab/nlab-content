@@ -20,7 +20,7 @@ Let $\mathbb{Q}$ be the [[rational numbers]] and let
 
 $$\mathbb{Q}_{+} \coloneqq \{x \in \mathbb{Q} \vert 0 \lt x\}$$ 
 
-be the set of positive rational numbers. Let $(S, \sim)$ be a [[rational premetric space]]. A __Cauchy approximation__ is a function $x: \mathbb{Q}_{+} \to S$ such that for all positive rational numbers $\delta$ and $\eta$, $x(\delta) \sim_{\delta + \eta} x(\eta)$. 
+be the set of positive rational numbers. Let $(S, \sim)$ be a [[Booij premetric space]]. A __Cauchy approximation__ is a function $x: \mathbb{Q}_{+} \to S$ such that for all positive rational numbers $\delta$ and $\eta$, $x(\delta) \sim_{\delta + \eta} x(\eta)$. 
 
 The set of all Cauchy approximations is defined as
 
@@ -34,7 +34,7 @@ A Cauchy approximation is the composition $x \circ M$ of a [[net]] $x$ and an [[
 
 ## See also ##
 
-* [[rational premetric space]]
+* [[Booij premetric space]]
 * [[Cauchy structure]]
 * [[modulus of convergence]]
 * [[Cauchy real numbers]]
