@@ -27,6 +27,22 @@ The [[category]] with abelian groups as [[object|objects]] and group homomorphis
 
 Every abelian group has the canonical structure of a [[module]] over the [[commutative ring]] $\mathbf{Z}$.  That is, [[Ab]] = $\mathbf{Z}$-[[Mod]].
 
+### With subtraction and unit only
+
+This definition of abelian group is based upon [[Toby Bartels]]'s definition of an [[associative quasigroup]]:
+
+An **abelian group** is a [[pointed set]] $(A, 0)$ with a binary operation $(-)-(-):A \times A \to A$ called **subtraction** such that 
+
+* for all $a \in A$, $a - a = 0$
+
+* for all $a \in A$, $0 - (0 - a) = a$
+
+* for all $a \in A$ and $b \in A$, $a - (0 - b) = b - (0 - a)$
+
+* for all $a \in A$, $b \in A$, and $c \in A$, $a - (b - c) = (a - (0 - c)) - b$
+
+For every element $a \in A$, the inverse element is defined as $-a \coloneqq 0 - a$ and addition is defined as $a + b \coloneqq a - (-b)$. 
+
 ## Properties
 
 ### In homotopy theory
