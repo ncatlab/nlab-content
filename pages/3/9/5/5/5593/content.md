@@ -175,7 +175,7 @@ These ideas are developed further in
 
 A constructive and predicative theory in the programme of [[formal topology]] can be found here:
 
-* [[Giovanni Curi]]; On the collection of points of a formal space; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146.
+* [[Giovanni Curi]]; On the collection of points of a formal space; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146. doi:10.1016/j.apal.2005.05.019
 
 * [[Giovanni Curi]]; Constructive metrisability in point-free topology; Theoretical Computer Science 305 (2003) 1--3, 85--109.
 
