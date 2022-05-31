@@ -29,6 +29,10 @@ A model category is [[right proper model category|right proper]] if and only if 
 
 In a [[right proper model category]], the sharp maps in the full subcategory on sharp-fibrant objects form the fibrations of a [[category of fibrant objects]]. See there the section _[Examples -- Right proper model categories](category+of+fibrant+objects#RightProperModelCategories)_.
 
+## Related concepts
+
+* The dual notion is (most commonly) known as “[[h-cofibration]]”.
+
 ## References
 
 The concept was introduced in 
