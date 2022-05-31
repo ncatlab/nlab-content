@@ -31,6 +31,8 @@ Hence equipping a [[C-star-algebra]] with a choice of dense subalgebra serves ma
 
 ## Related concepts
 
+* [[dense]]
+
 * [[F-star-algebra]]
 
 ## References
