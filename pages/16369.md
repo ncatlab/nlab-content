@@ -224,6 +224,8 @@ In other words, for an [[level| essential subtopos]] _being dense is equivalent 
 
 ## Related entries
 
+* [[dense]]
+
 * [[dense subspace]]
 
 * [[(dense,closed)-factorization]]
