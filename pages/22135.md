@@ -11,7 +11,7 @@ The prediction of [[abelian group|abelian]] [[anyon]]-excitations in the [[quant
 
   Erratum Phys. Rev. Lett. 52, 2390 (1984) ([doi:10.1103/PhysRevLett.52.2390.4](https://doi.org/10.1103/PhysRevLett.52.2390.4))
 
-* Daniel Arovas, J. R. Schrieffer, [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) ([doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722))
+* Daniel Arovas, J. R. Schrieffer, [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
 
 The original discussion of [[non-abelian group|non-abelian]] [[anyon]]-excitations in the [[quantum Hall effect]] (i.e. satisfying [[braid group statistics]] in higher dimensional [[linear representations]] of the [[braid group]], related to [[modular tensor categories]]):
 
