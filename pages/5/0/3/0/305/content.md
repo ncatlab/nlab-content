@@ -14,3 +14,4 @@ Geoff Cruttwell is an assistant professor in the Department of Mathematics and C
 category: people
 [[!redirects G. Cruttwell]]
 [[!redirects G.S.H. Cruttwell]]
+[[!redirects Geoffrey Cruttwell]]
