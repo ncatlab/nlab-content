@@ -3,6 +3,10 @@
 
 ## Selected wrints
 
+On [[rectification]] of [[symmetric operad|symmetric]] [[colored operads]]:
+
+* {#PavlovScholbach18} [[Dmitri Pavlov]], [[Jakob Scholbach]], *Admissibility and rectification of colored symmetric operads*, Journal of Topology **11** 3 (2018) 559-601 $[$[doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008), [arXiv:1410.5675](https://arxiv.org/abs/1410.5675)$]$
+
 On identifying the [[shape modality]] on the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]] with the [[path ∞-groupoid]]-construction ([[shape via cohesive path ∞-groupoid]]):
 
 * {#BEBP} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
