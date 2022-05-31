@@ -54,6 +54,9 @@ A [[presheaf]] $F \in PSh(S)$ is a [[sheaf]] with respect to the given topology 
 
 Since Lawvere-Tierney topologies make sense for every [[topos]] (not necessarily a [[presheaf]]  [[Grothendieck topos]]) this provides a general notion of [[Lawvere-Tierney topology|sheafification in a Lawvere-Tierney topology]].
 
+## Related concepts
+
+* [[dense]]
 
 ## References
 
