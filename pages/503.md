@@ -412,7 +412,7 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 * When $\mathcal{V} = \mathbf{Set}$, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\mathcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]].
 
-* When $\mathcal{V} = [0,\infty]$ is the extended nonnegative reals ordered by $\geq$ and with $+$ as monoidal product, $\mathcal{V}$-categories are generalized metric spaces. The Cauchy completion is the usual completion under _Cauchy sequences_.
+* When $\mathcal{V} = [0,\infty]$ is the extended nonnegative reals ordered by $\geq$ and with $+$ as monoidal product, $\mathcal{V}$-categories are generalized metric spaces. The Cauchy completion is the usual completion under _Cauchy nets_ or _Cauchy filters_.
 
 * When $\mathcal{V} = \mathbf{Ab}$ is abelian groups, a $\mathcal{V}$-category is a [[pre-additive category]]. The Cauchy completion is the completion under _finite direct sums and idempotent splitting_. Notice that there is also a "sub-Cauchy completion" given by completing just under finite direct sums, which turns a pre-additive category into an [[additive category]].
 
