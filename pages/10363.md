@@ -20,6 +20,16 @@ On [[anyons]]:
 
 * [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. 48, 1144, 1982 ([doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144))
 
+and specifically in the [[quantum Hall effect]]:
+
+* Daniel Arovas, J. R. Schrieffer, [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
+
+Review:
+
+* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) $[$[doi:10.1142/0961](https://doi.org/10.1142/0961)$]$
+
+
+
 
 On [[axions]]:
 
