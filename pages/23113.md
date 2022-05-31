@@ -11,6 +11,6 @@ This page is about the book:
 
   [Wikipedia entry](https://en.wikipedia.org/wiki/Counterexamples_in_Topology)
 
-on [[topology]].
+on [[counterexamples]] in [[topology]].
 
 category: reference
