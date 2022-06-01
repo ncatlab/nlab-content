@@ -70,3 +70,9 @@ The notation used here for the adjoint, $U^{*}$, is commonly used in linear alge
 
 [[!redirects unitary linear operator]]
 [[!redirects unitary linear operators]]
+
+[[!redirects unitary operator]]
+[[!redirects unitary operators]]
+
+[[!redirects unitary transformation]]
+[[!redirects unitary transformations]]
