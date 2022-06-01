@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Overt spaces
 * table of contents
 {: toc}
 
 ## Idea
 
-An _overt_ space is a space that satisfies a condition [[de Morgan duality|logically dual]] to that satisfied by a [[compact space]].  An overt space is also called _open_ (in French, there is only one word, 'ouvert').
+An _overt_ space is a [[topological space]] that satisfies a condition [[de Morgan duality|logically dual]] to that satisfied by a *[[compact space]]*.  An overt space is also called _open_ (in French, there is only one word, 'ouvert').
 
 
 ## Motivation
