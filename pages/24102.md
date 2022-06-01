@@ -14,7 +14,7 @@
 
 ## Idea ##
 
-A [[content]] used to define the [[Riemann integral]], in the same way that [[Lebesgue measures]] are used to define the [[Lebesgue integral]]. 
+A [[content]] used to define the [[Riemann integral]] of [[indicator functions]] over a [[bounded set]], in the same way that [[Lebesgue measures]] are used to define the [[Lebesgue integral]] of [[indicator functions]]. 
 
 ## See also 
 
