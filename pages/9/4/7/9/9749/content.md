@@ -195,15 +195,15 @@ According to [E. Burroni (2009)](#Burroni09), the Giry monad appears also in
 
 The article
 
-* {#VanBelle21} [[Ruben VanBelle]], _Probability monads as codenity monads_, arXiv:[2111.01250](https://arxiv.org/abs/2111.01250) (2021).
+* {#VanBelle21} [[Ruben Van Belle]], *Probability monads as codensity monads*  (2021) $[$[arXiv:2111.01250](https://arxiv.org/abs/2111.01250)$]$ 
 
 shows, in effect, that the Giry monad restricted to countable measurable spaces (with the discrete $\sigma$-algebra) yields the restricted Giry functor $G|: \mathbf{Meas}_c \rightarrow \mathbf{Meas}$ which has the codensity monad $G$.  This suggest that the natural numbers $\mathbb{N}$ are ''sufficient'' in the sense characterized above which suggest a factorization of the Giry monad, defined on the category of standard measurable spaces, through the category of super convex spaces, spelled out in 
 
-* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras via the support of a probability measure_,  [arXiv:2202:10819](https://arxiv.org/abs/2202.10819)
+* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras via the support of a probability measure_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
 
 which has evolved from the preliminary work 
 
-* K. Sturtz, _Categorical Probability Theory_, [arXiv:1406.6030](http://arxiv.org/abs/1406.6030)
+* [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
 which views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  (A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, rather than just finite affine maps, as discussed in that article.)
 
@@ -237,9 +237,9 @@ Computer Science 412(28) (2011) pp.3323&#8211;3336. <https://doi.org/10.1016/j.t
 
 J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to [[Bayesian reasoning]] and inference (both articles contain further references to the categorical approach to probability theory):
 
-* Jared Culbertson and Kirk Sturtz, _A categorical foundation for Bayesian probability_, Applied Cat. Struc. 2013 (preprint as [arXiv:1205.1488](http://arxiv.org/abs/1205.1488))
+* Jared Culbertson and [[Kirk Sturtz]], _A categorical foundation for Bayesian probability_, Applied Cat. Struc. 2013 (preprint as [arXiv:1205.1488](http://arxiv.org/abs/1205.1488))
 
-* Jared Culbertson and Kirk Sturtz, _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
+* Jared Culbertson and [[Kirk Sturtz]], _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
 
 * {#Burroni09} Elisabeth Burroni, _Lois distributives. Applications aux automates stochastiques_, TAC 22, 2009 pp.199-221 ([journal page](http://www.tac.mta.ca/tac/volumes/22/7/22-07abs.html))
 
