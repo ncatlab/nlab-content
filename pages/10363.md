@@ -24,7 +24,12 @@ and specifically in the [[quantum Hall effect]]:
 
 * Daniel Arovas, J. R. Schrieffer, [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
 
-Review:
+On [[superfluidity]]/[[superconductivity]] *of* [[anyons]]:
+
+* Yi-Hong Chen, [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
+
+
+Review of [[anyons]]:
 
 * {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) $[$[doi:10.1142/0961](https://doi.org/10.1142/0961)$]$
 
