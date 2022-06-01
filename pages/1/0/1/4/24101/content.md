@@ -32,6 +32,6 @@ $$\forall a\in L. \forall b \in L. (a \wedge b = \bot) \implies (\mu(a \vee b) =
 
 ## References ##
 
-* Wikipedia, [Content (measure theory)](https://en.wikipedia.org/wiki/Content_(measure_theory))
+* Wikipedia, <a href="https://en.wikipedia.org/wiki/Content_(measure_theory)">*Content (measure theory)*</a>
 
 [[!redirects contents]]
