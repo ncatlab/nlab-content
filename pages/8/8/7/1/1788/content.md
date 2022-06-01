@@ -1,13 +1,4 @@
 
-{:highlight: .un_remark style="border:solid #009900;background: #ccffcc;border-width:2px 1px;padding:20px 1em;margin:20 1em;"}
-
-
-+-- {: highlight}
-###### HL
-
-AA
-
-=--
 
 
 [[!redirects sandbox]]
@@ -27,6 +18,8 @@ A test, test
 * Yi-Ting Tu, Po-Yao Chang, *Non-Abelian fracton order from gauging a mixture of subsystem and global symmetries*, Phys. Rev. Research **3** (2021) 043084 $[$[arXiv:2103.08603](https://arxiv.org/abs/2103.08603), [doi:10.1103/PhysRevResearch.3.043084](https://doi.org/10.1103/PhysRevResearch.3.043084)$]$
 
 * *Classification and surface anomaly of glide symmetry protected topological phases in three dimensions* [pdf](https://iopscience.iop.org/article/10.1088/1367-2630/aa769b/pdf)
+
+* Mircea Trif, Pramey Upadhyaya, Yaroslav Tserkovnyak, *Theory of electromechanical coupling in dynamical graphene*, Phys. Rev. B **88** 245423 (2013) $[$[doi:10.1103/PhysRevB.88.245423](https://doi.org/10.1103/PhysRevB.88.245423), [arXiv:1210.7384](https://arxiv.org/abs/1210.7384)$]$
 
 ***
 
