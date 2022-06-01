@@ -11,12 +11,11 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
-## Idea
+## Anyon braiding
  {#Idea}
 
 In [[quantum physics]], *braid group statistics* or *anyon statistics* refers to an exotic phenomenon where the [[braiding]] of the [[worldlines]] of certain effective [[particles]] ("anyons") in an effectively 2+1-dimensional [[spacetime]] has the effect of transforming the [[quantum state]] of the total [[quantum system]] by [[unitary operators]] which constitute a [[linear representation]] of the [[braid group]] -- a *[[braid representation]]*.
@@ -30,7 +29,11 @@ Specifically, in the context of [[topological phases of matter]], the (potential
 Besides general curiosity, much of the interest in anyonic braid group statistics lies in the fact that these [[braid representations]] are imagined to potentially serve as [[quantum gates]] in [[topological quantum computers]]. See there for more.
 
 
-### As generalized boson/fermion statistics
+
+
+
+
+### As generalized boson/fermion statistics?
  {#AsGeneralizedBosonFermionStatistics}
 
 In [[quantum field theory]], one speaks of the "statistics" of a [[particle]] species when referring to the [[linear representation]] that $n$-particle [[wavefunctions]] form under the the [[symmetric group]] $Sym(n)$ which [[permutation|permutes]] the $n$ particles.
@@ -58,23 +61,48 @@ In this sense, one may imagine that *any* [[braid group representations]] may ge
 
 The term *anyon* is a pun on this state of affairs that *any* statistics "in between" boson- and fermion-statistics may be allowed.
 
+On the other hand, anyonic braiding is conceptually different from boson/fermion statistics -- if it were on the same footing then the [[spin-statistics theorem]] would *rule out* anyonic braiding. (This is acknowledged by [Wilczek 1990, §I.2, pp. 1](#Wilczek90)).
 
 
 
 ### As braiding of defects
  {#AsBraidingOfDefects}
 
-In contrast to the traditional motivation [above](#AsGeneralizedBosonFermionStatistics), many (most?) incarnations of the concept of anyons are [[non-perturbative effect|non-perturbative]] [[soliton|solitonic]] [[defects]] (of [[codimension]]=2), akin to *[[vortices]]* in fluids. 
+In contrast to the popular motivation [above](#AsGeneralizedBosonFermionStatistics), many (most?) incarnations of the concept of anyons are [[non-perturbative effect|non-perturbative]] [[soliton|solitonic]] [[defects]] (of [[codimension]]=2), akin to *[[vortices]]* in fluids. 
 
 > *Anyonic particles are best viewed as a kind of topological defects that reveal non-trivial properties of the ground state.* $[$[Kitaev 2006, p. 4](#Kitaev06)$]$
 
 >  *Anyons can arise in two ways: as localised excitations of an interacting
 quantum Hamiltonian or as defects in an ordered system.*  $[$[Das Sarma, Freedman & Nayak 2015, p. 1](topological+quantum+computation#DasSarmaFreedmanNayak15)$]$
 
-The effect of braiding of [[defects]] in [[quantum materials]] has been understood and discussed before the term "anyon" became established: [Mermin 1979](#Mermin79), [Lo & Preskill 1993](#LoPreskill93).
+(Compare also the original discussions in [Goldin, Menikoff & Sharp 1981, §III](#GoldinMenikoffSharp81), [Wilczek 1982](#Wilczek82) & [Wilczek 1990, p. 5](#Wilczek90), which offer a quantum particle "[[bound state|bound]]" to a classical & infinite [[solenoid]] -- hence a 2d [[magnetic monopole]] [[defect]] -- as a decent model for an anyon.)
 
-A concrete example of defect anyons are [[vortex]] anyons see [below](#VortexAnyons).
+But [[defects]] are a kind of [[boundary conditions]], hence *external parameters* or *[[background fields]]* for the actual [[quantum field]]. 
 
+Concretely, a widely appreciated proposal ([Moore & Read 1991](#MooreRead91), [Read & Rezayi 9199](#ReadRezayi99)) identifies anyonic ground state [[wavefunctions]] with [[conformal blocks]] of a [[2d CFT]] -- [[AdS3-CFT2 and CS-WZW correspondence|hence]] with [[Chern-Simons theory]] [[quantum states|states]] -- with prescribed poles at the location of the anyons.
+
+Now the [[adiabatic theorem]] says that the sufficiently slow motion of such external parameter transforms the quantum [[ground state]] by [[unitary operators]] ("[[Berry phases]]"). This suggests that:
+
+\begin{definition}\label{DefectBraiding}
+**(adiabatic defect braiding)**
+\linebreak
+*Anyon braiding statistics is the [[braid group representation]] on a quantum [[ground state]] induced by [[adiabatic theorem|adiabatic]] [[braiding]] of [[TQFT|topological]] [[codimension]]=2 [[defects]] in their [[configuration space of points|configuration space]].*
+
+Here 
+
+1. for point-defects the "configuration space" is the [[configuration space of points]] in a [[surface]] (as touched upon already in [Leinaas & Myrheim 1977, pp. 22](#LeinaasMyrheim77), albeit briefly/vaguely), such as in the [[plane]], in which case its fundamental group is the [[braid group]];
+
+1. "topological" is meant as in [[topological quantum field theory]]: The induced [[adiabatic theorem|adiabatic]] [[unitary transformation]] is demanded/assumed to depend only on the [[isotopy]]-class of the defect-[[worldlines]], hence only on the underlying [[braid group|braid]]-pattern.
+
+\end{definition}
+
+
+
+This notion of anyon "statistics" is at least tacitly implicit in much of the literature on anyons in [[topological quantum computation]], such as in the popular graphics depicting anyon [[worldlines]] as the [[Wilson lines]] in [[Chern-Simons theory]]. (see the graphics [below](#BraidingOfNodalPointsInMomentumSpace)).
+
+Indeed, the effects of [[adiabatic theorem|adiabatic]] braiding of [[defects]] in [[quantum materials]] has been understood and discussed before and in parallel to the term "anyon" becoming established: [Mermin 1979](#Mermin79), [Lo & Preskill 1993](#LoPreskill93).
+
+A concrete realistic example of defect anyons are [[vortex]] anyons see [below](#VortexAnyons).
 But the notion of codimension=2 defects subsumes situations that are quite different from the [[quasiparticle]]-excitations imagined in traditional texts on anyons, such as:
 
 * [anyonic band nodes](#AnyonicBandNodes)
@@ -89,6 +117,8 @@ Specifically, *[[vortex]] anyons* are realized in [[Bose-Einstein condensates]] 
 
 Much attention is being paid to anyons realized as [[Majorana zero modes]] [[bound state|bound]] to [[vortices]] ([Das Sarma, Freedman & Nayak 2015](topological+quantum+computation#DasSarmaFreedmanNayak15), cf. [MMBDRSC19](su2-anyon#MMBDRSC19))
 
+{#BraidingOfNodalPointsInMomentumSpace} **Braiding of nodal points in momentum space** (graphics from [MMBDRSC19](su2-anyon#MMBDRSC19), [Fig. 1](https://www.nature.com/articles/s41467-019-10397-5.pdf#page=2)):
+
 \begin{imagefromfile}
     "file_name": "MZMVortex-220530.jpg",
     "width": 440,
@@ -101,7 +131,6 @@ Much attention is being paid to anyons realized as [[Majorana zero modes]] [[bou
     }
 \end{imagefromfile}
 
-> (graphics from [MMBDRSC19](su2-anyon#MMBDRSC19), [Fig. 1](https://www.nature.com/articles/s41467-019-10397-5.pdf#page=2))
 
 #### Anyonic band nodes?
  {#AnyonicBandNodes}
@@ -174,9 +203,11 @@ It has been suggest in [deBoer & Shigemori 2012, p. 65](defect+brane#deBoerShige
 
 ### General
 
-The concept of [[anyons]] satisfying [[braid group statistics]] goes back to:
+The concept of [[anyons]] satisfying [[braid group statistics]] originated independently in
 
-* J. M. Leinaas, J. Myrheim, _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
+* {#LeinaasMyrheim77} J. M. Leinaas, J. Myrheim, _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
+
+* {#GoldinMenikoffSharp81} G. A. Goldin, R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) $[$[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)$]$ 
 
 * {#Wilczek82} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. 48, 1144, 1982 ([doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144))
 
@@ -185,6 +216,12 @@ Comprehensive accounts:
 * {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) $[$[doi:10.1142/0961](https://doi.org/10.1142/0961)$]$
 
 * {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
+
+The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essentially [[conformal blocks]] of [[2d CFT]] (notably for [[su(2)-anyons]]):
+
+* {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]], *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 $[$<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)$]$
+
+* {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
 
 On [[superfluidity]]/[[superconductivity]] *of* [[anyons]]:
 
