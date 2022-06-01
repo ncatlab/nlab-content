@@ -22,9 +22,12 @@
 
 ## Related concepts
 
-* [[Berry connection]], [[Berry phase]]
+* [[Berry connection]], [[Berry phase]], [[Zak phase]]
 
 * [[adiabatic]]
+
+* [[anyon]], [[braid group statistics]]
+
 
 ## References
 
