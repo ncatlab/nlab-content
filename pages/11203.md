@@ -100,6 +100,9 @@ On the vortex flux tubes as dynamical [[vortex string|vortex strings]]:
 
 * [[David Tong]], _Quantum Vortex Strings: A Review_, Annals Phys. 324:30-52, 2009 ([arXiv:0809.5060](https://arxiv.org/abs/0809.5060))
 
+On [[superfluidity]]/superconductivity *of* [[anyons]]:
+
+* Yi-Hong Chen, [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
 
 
 
