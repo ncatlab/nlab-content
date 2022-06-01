@@ -26,7 +26,7 @@ A pseudolattice ordered abelian group or l-group is an [[ordered abelian group]]
 
 ## Definition
 
-### With the meet operation
+### With the join operation
 
 A __pseudolattice ordered abelian group__ or __l-group__ is an [[abelian group]] $G$ with a binary [[join]] operation $(-)\vee(-):G \times G \to G$ such that $(G, \vee)$ is a [[commutative magma|commutative]] [[idempotent]] [[semigroup]], and 
 
