@@ -4,7 +4,7 @@ _Francis Borceux_ is a [[category theory|category theorist]] at Louvain (Belgium
 
 ## Writings
 
-On [[category theory]], and [[categorical algebra]]"
+On [[category theory]], and [[categorical algebra]]:
 
 * __[[Handbook of Categorical Algebra]]__
 
