@@ -239,12 +239,20 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
 ## References
 
+Textbook accounts:
+
+* {#Borceux94} [[Francis Borceux]], Section 6.1 of: *Handbook of Categorical Algebra* Vol. 2: *Categories and Structures* $[$[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)$]$, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
+
+
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) $[$[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)$]$
+
+  > (focused on [[tensor categories]])
+
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
 
 
-* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
 
 
 A survey of definitions of symmetric monoidal categories, [[symmetric monoidal functor]]s and [[symmetric monoidal natural transformation]]s, is also in
