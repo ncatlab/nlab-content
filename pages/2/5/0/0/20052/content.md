@@ -232,6 +232,7 @@ The more general question of whether one can extend a finite continuous valuatio
 * [[extended probabilistic powerdomain]], [[probabilistic powerdomain]], [[valuation monad on locales]]
 * [[probability valuation]]
 * [[sigma-continuous valuation]], [[sigma-continuous probability valuation]]
+* [[content]], [[probability content]]
 * [[measure]], [[τ-additive measure]], [[probability measure]]
 
 
