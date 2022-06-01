@@ -33,6 +33,8 @@ Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appea
 
 ## References
 
+### General
+
 The [[electronic band structure]] of graphene (reviewed in [WZLLJHD 12](#WZLLJHD12)) was predicted (long before the term was coined) already in 
 
 * [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 ([doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622))
@@ -65,12 +67,17 @@ Review in the context of [[topological phases of matter]] and specifically topol
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section 6 of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
 
-
 The 2+1 dim [[Dirac equation]] is used in modeling graphene:
 
 * [[Konstantin Novoselov]], [[Andre Geim]], S. V. Morozov, D. Jiang, M. I. Katsnelson, I. V. Grigorieva, S. V. Dubonos, A. A. Firsov, _Two-dimensional gas of massless Dirac fermions in graphene_,  Nature __438__, 197-200 (2005) [doi](http://dx.doi.org/10.1038/nature04233)
 
 * Mar&#237;a A. H. Vozmediano, _Renormalization group aspects of graphene_, [pdf](http://www.isis.stfc.ac.uk/groups/theory/downloads/the-strong-correlations-puzzle8120.pdf)
+
+### Berry connection
+
+On "fictitious" contributions to the [[Berry connection]] on the [[Brillouin torus]] of graphene:
+
+* Mircea Trif, Pramey Upadhyaya, Yaroslav Tserkovnyak, *Theory of electromechanical coupling in dynamical graphene*, Phys. Rev. B **88** 245423 (2013) $[$[doi:10.1103/PhysRevB.88.245423](https://doi.org/10.1103/PhysRevB.88.245423), [arXiv:1210.7384](https://arxiv.org/abs/1210.7384)$]$
 
 
 category: physics
