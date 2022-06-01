@@ -17,8 +17,14 @@
 
 * C. Lanczos, R. C. Clark, G. H. Derrick (eds.), Ch. 3 in: *Mathematical Methods in Solid State and Superfluid Theory*, Springer (1986) $[$[doi:10.1007/978-1-4899-6435-9](https://doi.org/10.1007/978-1-4899-6435-9)$]$
 
+See also:
 
 * Wikipedia, _[Superfluidity](https://en.wikipedia.org/wiki/Superfluidity)_
+
+On superfluidity/[[superconductivity]] *of* [[anyons]]:
+
+* Yi-Hong Chen, [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](braid+group+statistics#Wilczek90)) $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
+
 
 Application of the [[conformal bootstrap]] to [[experiment|experimental]] [[superfluid]]-transition:
 
