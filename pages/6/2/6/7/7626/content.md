@@ -61,7 +61,9 @@ In this sense, one may imagine that *any* [[braid group representations]] may ge
 
 The term *anyon* is a pun on this state of affairs that *any* statistics "in between" boson- and fermion-statistics may be allowed.
 
-On the other hand, anyonic braiding is conceptually different from boson/fermion statistics -- if it were on the same footing then the [[spin-statistics theorem]] would *rule out* anyonic braiding. (This is acknowledged by [Wilczek 1990, §I.2, pp. 1](#Wilczek90)).
+On the other hand, anyonic braiding is conceptually different from boson/fermion statistics -- if it were on the same footing then the [[spin-statistics theorem]] would *rule out* anyonic braiding. This is acknowledged by [Chen, Wilczek, Witten & Halperin 1989, p. 352](#ChenWilczekWittenHalperin89) (cf. also [Wilczek 1990, §I.2, pp. 1](#Wilczek90)):
+
+> Once the [[permutation group]] is replaced by the [[braid group]], the simple construction of passing from the solution to the one-particle problems to the solution of many-particle problems, familiar from the free bosons and free fermions, does not work anymore. 
 
 
 
@@ -225,7 +227,7 @@ The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essential
 
 On [[superfluidity]]/[[superconductivity]] *of* [[anyons]]:
 
-* Yi-Hong Chen, [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
+* {#ChenWilczekWittenHalperin89} Yi-Hong Chen, [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
 
