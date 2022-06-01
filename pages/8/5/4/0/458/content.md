@@ -483,6 +483,10 @@ sublocale with a measure 0 complement.
 
 * A [[group object]] [[internalization|internal]] to locales or an [[internal groupoid]] in locales is a [[localic group]] or [[localic groupoid]], respectively. 
 
+* [[positive locale]], [[locally positive locale]]
+
+* [[premetric locale]], [[metric locale]]
+
 There is also a notion of [[internal locale]], see also [[internal site]].
 
 
