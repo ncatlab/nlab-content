@@ -22,6 +22,8 @@ A method of [[integration]].
 
 * [[Lebesgue integration]]
 
+* [[Jordan content]]
+
 ## References
 
 * Wikipedia, _[Riemann integral](http://en.wikipedia.org/wiki/Riemann_integral)_
