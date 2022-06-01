@@ -54,6 +54,9 @@ holds for every set $A$.  Restricting to these sets, Lebesgue outer measure beco
 
 Note that once the Lebesgue measure is known for open sets, the outer regularity property allows us to find it for all [[Borel set]]s (but also rather more sets).
 
+## See also
+
+* [[Jordan content]]
 
 ## References
 
