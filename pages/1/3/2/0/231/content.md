@@ -815,6 +815,10 @@ higher versions
 
 ## References
 
+Textbook account:
+
+* {#Borceux94} [[Francis Borceux]], Section 6.1 of: *Handbook of Categorical Algebra* Vol. 2: *Categories and Structures* $[$[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)$]$, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
+
 Exposition of basics of monoidal categories and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
@@ -833,7 +837,7 @@ Shortly after Mac Lane's definition appeared, Max Kelly showed how the coherence
  
 The first monograph-length discussion appeared in
 
-* {#EilKel66} [[Samuel Eilenberg|S. Eilenberg]], [[Max Kelly|M. G. Kelly]], _Closed Categories_ , pp.421-562 in Eilenberg et al. (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
+* {#EilKel66} [[Samuel Eilenberg|S. Eilenberg]], [[Max Kelly|M. G. Kelly]], *Closed Categories*, pp.421-562 in Eilenberg et al. (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
 
 Other textbook accounts include
 
