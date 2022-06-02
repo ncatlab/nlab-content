@@ -69,6 +69,8 @@ Starting with the given constant $y_0$, [[recursion|recursively]] define
 
 ## See also
 
+* [[real polynomial function]]
+
 * [[smooth square root]]
 
 ## References
