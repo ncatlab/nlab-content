@@ -19,10 +19,17 @@
 
 ## Definition ##
 
-A **real quadratic function** is a [[quadratic function]] in the [[real numbers]]. 
+A **real quadratic function** is a [[quadratic function]] in the [[real numbers]]. Equivalently, it is a [[solution]] to the third-order linear homogeneous [[ordinary differential equation]] 
+$$\frac{d^3 f}{d x^3} = 0$$ 
+with initial conditions 
+$$f(0) = c$$ 
+$$\frac{d f}{d x}(0) = b$$
+$$\frac{d^2 f}{d x^2}(0) = 2 a$$
 
 ## Properties ##
  {#Properties}
+
+### Extrema ###
 
 Given a real quadratic function $f(x) \coloneqq a x^2 + b x + c$, if $\vert a \vert \gt 0$, after [[completing the square]], the quadratic function may be written as 
 
@@ -151,6 +158,8 @@ Newton's method isn't valid when $2 a x_0 + b = 0$ because of division by zero. 
 * [[real square root]]
 
 * [[real cubic function]]
+
+* [[real polynomial function]]
 
 ## References ##
 
