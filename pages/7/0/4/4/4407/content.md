@@ -21,8 +21,6 @@ Classically, the **fundamental theorem of algebra** states that
 
 Many proofs of this theorem are known (see the [references](#References) below); some use [[complex analysis]] (the reciprocal of a [[polynomial function]] cannot be bounded), some use [[algebraic topology]] (the degree of a map is invariant with respect to homotopy), and some use advanced calculus (polynomial functions on the complex numbers are [[open map|open mappings]]). All of these proofs involve, at some level, the fact that the real numbers are [[Dedekind real number|Dedekind complete]], which has as a consequence the fact that the real numbers are [[archimedean field|archimedean]]. 
 
-
-
 ## Algebraic proof via real closed fields 
 
 Despite its name, the fundamental theorem of algebra makes reference to a concept from [[analysis]] (the field of complex numbers).  However, the analytic part may be reduced to a minimum: that the field of [[real numbers]] is [[real closed field|real closed]].  This has been known essentially forever, and is easily proved using (for example) the [[intermediate value theorem]].
@@ -104,19 +102,23 @@ Many proofs rely explicitly on the [[double negation]] rule by first supposing t
 
 ### In constructive mathematics
 
-#### For Cauchy real numbers
+In [[constructive mathematics]], when we say "nonconstant function", we mean "apart from every constant function":
+
+* A function $f:\mathbb{C} \to \mathbb{C}$ is **nonconstant** if for every constant function $c:\mathbb{C} \to \mathbb{1} \to \mathbb{C}$, where $\mathbb{1}$ is a [[singleton]], $f \# c$. 
+
+This follows in the tradition of constructive mathematics where non-X refers to [[tight apartness relation|apart from]] X: an [[irrational number]] in a [[Heyting field]] is a number that is apart from every [[rational number]], a [[transcendental number]] is a number that is apart from every [[algebraic number]], an [[invertible element]] in a Heyting field is an [[element]] that is apart from [[zero]]. 
+
+Thus, the fundamental theorem of algebra reads:
+
+* The [[field]] of [[complex number]]s $\mathbb{C}$ is [[algebraically closed field|algebraically closed]]. In other words, every nonconstant [[polynomial function]] with [[coefficients]] in $\mathbb{C}$ has a [[root]] in $\mathbb{C}$. 
 
 A fully choice-free constructive proof by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) exists for the [[modulated Cauchy real number|modulated Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]).
 
-#### For larger real numbers
+The algebraic proof of other fields of real numbers is problematic in many ways. First of all, the traditional definition of a [[real closed field]] bifurcates into multiple inequivalent definitions in [[constructive mathematics]], since one could define odd-degree polynomials using either a [[denial inequality]] or a [[tight apartness relation]]. The definition using the denial inequality is not true for any field of real numbers, unless [[excluded middle]] is true. If one uses a tight apartness relation, then while the odd-degree polynomials have roots and every non-negative number has a square root, it does not follow that every polynomial function has a root in the real numbers, because there exist polynomial functions where we cannot determine whether the degree is odd or even. 
 
-The complex analytic proof is problematic, in that there exist polynomial functions in which we cannot decide whether the polynomial function is constant or non-constant without [[excluded middle]]. 
+What one really wants is that every nonconstant [[real polynomial function]] satisfies the exact intermediate value theorem. However, without [[weak countable choice]], the exact intermediate value theorem is not true for all nonconstant [[polynomial functions]] in the real numbers. While nonconstant polynomial functions are [[Lipschitz continuous]] and thus [[uniformly continuous]] on any [[closed interval]] of the real numbers, they do not satisfy the exact intermediate value theorem without [[weak countable choice]]. There are alternative formulations of the exact intermediate value theorem where uniform continuity is replaced with being [[locally nonconstant function|locally nonconstant]], which is true of all nonconstant polynomial functions. However, this alternate formulation also relies on [[weak countable choice]]. 
 
-The algebraic proof of the real numbers is problematic in many ways. First of all, the traditional definition of a [[real closed field]] bifurcates into multiple inequivalent definitions in [[constructive mathematics]], since one could define odd-degree polynomials using either a [[denial inequality]] or a [[tight apartness relation]]. The definition using the denial inequality is not true for any field of real numbers, unless [[excluded middle]] is true. If one uses a tight apartness relation, then while the odd-degree polynomials have roots and every non-negative number has a square root, it does not follow that every polynomial function has a root in the real numbers, because there exist polynomial functions where we cannot determine whether the degree is odd or even. 
-
-What one really wants is that every [[polynomial function]] satisfies the exact intermediate value theorem. However, without [[weak countable choice]], the exact intermediate value theorem is not true for all [[polynomial functions]] in the real numbers. While polynomial functions are [[Lipschitz continuous]] and thus [[uniformly continuous]] on any [[closed interval]] of the real numbers, they do not satisfy the exact intermediate value theorem without [[weak countable choice]]. 
-
-There are alternative formulations of the exact intermediate value theorem where uniform continuity is replaced with being [[locally nonzero function|locally nonzero]], which is true of polynomial functions [[tight apartness relation|apart from]] the zero polynomial function. Additionally, the zero polynomial function has zeroes everywhere on the real line. But without [[excluded middle]], it cannot be proved that every polynomial function is either the zero polynomial function or apart from the zero polynomial function. 
+One might wish to use the [[inverse function theorem]] to prove that the square root of every non-negative number exists; however, the inverse function theorem only proves that the square root of every positive number exists, since the inverse function theorem leads to continuous inverses, which for the square function is the [[continuous square root]], which is only defined on the positive real numbers. The [[metric square root]], which is defined on the non-negative real numbers, is not continuous at $0$. 
 
 The second problem is Lemma \ref{sqrt}. This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not know whether or not $x$ is apart from zero, because there is no [[continuous map|continuous]] square-root function unless one assumes [[weak countable choice]]. 
 
