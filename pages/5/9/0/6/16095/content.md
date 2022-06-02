@@ -19,6 +19,8 @@
 
 ## Definition
 
+### For scalar-valued functions
+
 The **inverse function theorem** says that given any [[sequentially Cauchy complete]] [[Archimedean field]] $\mathbb{R}$ and a [[continuously differentiable function]] $f:I \to \mathbb{R}$ from an [[open interval]] $I \subseteq \mathbb{R}$ such that for all points $a \in I$,
 $$\left| \frac{d f}{d x}(a) \right| \gt 0$$
 the [[inverse function]] $f^{-1}:\mathrm{im}(f) \to \mathbb{R}$ exists and is unique and is defined by the first-order nonlinear [[ordinary differential equation]]
@@ -26,6 +28,10 @@ the [[inverse function]] $f^{-1}:\mathrm{im}(f) \to \mathbb{R}$ exists and is un
 $$\left(\frac{d f}{d x} \circ f^{-1}\right) \frac{d f^{-1}}{d x} = 1$$
 
 with initial condition $f^{-1}(f(a)) = a$. Classically, $\mathbb{R}$ is essentially unique, but constructively, there are multiple inequivalent [[sequentially Cauchy complete]] [[Archimedean fields]]. 
+
+### For vector-valued functions
+
+To be done...
 
 ## Proof 
 
@@ -58,8 +64,14 @@ Since $g'(0) = \mathrm{id}_\mathbb{R} - \mathrm{id}_\mathbb{R} = 0$ and $g'$ is 
 $$\vert g(y) - g(x)\vert \leq 2^{-1} \vert y - x \vert$$
 for all $x, y$ in $(-r, r)$. Then the earlier lemma says that $f = g + \mathrm{id}_\mathbb{R}$ is injective on $(-r, r)$ and $(-r/2, r/2) \subset (-r, r)$. Then
 $$f : (-r, r) \cap f^{-1}((-r/2, r/2)) \to (-r/2, r/2)$$
-is bijective and thus has the inverse, where given an open interval $I \subseteq \mathbb{R}$, $f^{-1}(I)$ is the [[inverse image]] of $f$ over $I$. 
+is bijective and thus has the inverse, where given an open interval $I \subseteq \mathbb{R}$, $f^{-1}(I)$ is the [[inverse image]] of $f$ over $I$.
+
+to be continued... 
 \end{proof}
+
+## In constructive mathematics
+
+The given proof of the inverse function theorem above relies on the [[mean value theorem]], which in [[constructive mathematics]] is only true for functions that are [[uniformly differentiable]] on every closed subinterval in the domain of the function. There might be other proofs which might not rely on the [[mean value theorem]] and could prove the inverse function theorem for continuously differentiable functions. 
 
 ## Related concepts
 
