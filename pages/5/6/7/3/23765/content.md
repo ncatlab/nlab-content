@@ -19,13 +19,19 @@ A function $f:\mathbb{R}_D \to \mathbb{R}_D$ is __locally nonconstant__ if for a
 
 ## Examples
 
-Every [[monotonic function]] on the Dedekind real numbers is locally nonconstant. 
+* Every [[monotonic function]] on the Dedekind real numbers is locally nonconstant. 
+
+* Every [[real polynomial function]] apart from the [[constant functions]] is locally nonconstant. 
 
 ## See also 
 
 * [[intermediate value theorem]]
 
 * [[monotonic function]]
+
+* [[real polynomial function]]
+
+* [[locally nonzero function]]
 
 ## References 
 
