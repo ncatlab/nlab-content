@@ -230,9 +230,13 @@ The proof via homotopy colimits is roughly taken from
 
 * {#Farjoun} [[Emmanuel Dror Farjoun]], _Fundamental group of homotopy colimits_, Adv. in Math. 182 (2004), 1-27.  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/farjoun.pdf))
 
-
 Other references cited above:
 
 * {#DuggerIsaksen01} [[Dan Dugger]], [[Daniel Isaksen]], _Hypercovers in topology_ ([arxiv:math/0111287](https://arxiv.org/abs/math/0111287))
+
+Discussion of [[persistent homotopy]] with focus on the [[van Kampen theorem]], [[excision]] and the [[Hurewicz theorem]]:
+
+* Mehmet Ali Batan, Mehmetcik Pamuk, Hanife Varli, *Persistent Homotopy* $[$[arXiv:1909.08865](https://arxiv.org/abs/1909.08865)$]$
+
 
 [[!redirects Seifert-van Kampen theorem]]
