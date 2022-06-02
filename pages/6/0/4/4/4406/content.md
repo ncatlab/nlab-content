@@ -7,7 +7,7 @@
 
 An [[ordered field]] $F$ is **real closed** if it satisfies the following two properties: 
 
-* Any positive element $x \geq 0$ in $F$ has a [[square root]] in $F$; 
+* Any non-negative element $x \geq 0$ in $F$ has a [[square root]] in $F$; 
 
 * Any odd-degree [[polynomial]] with coefficients in $F$ has a root in $F$. 
 
@@ -22,7 +22,7 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 2. As a field, $F$ is [[elementary equivalence|elementarily equivalent]] to the field of real numbers. 
 
-3. The [[intermediate value theorem]] holds for all polynomials with coefficients in $F$. 
+3. The [[intermediate value theorem]] holds for all [[polynomial functions]] with coefficients in $F$. 
 
 4. $F$ is an ordered field that has no ordered algebraic extension. 
 
@@ -65,7 +65,6 @@ Finally, let $F \to R$ be any order-preserving field homomorphism to a real clos
 
 8. Given an o-minimal ordered ring $R$, the field of [[germ]]s at infinity of definable functions $R \to R$ in any o-minimal expansion of $(R, 0, 1, +, -, \cdot, \lt)$ is real closed. (By "germ at infinity", we mean an equivalence class of functions for which $f \equiv g$ if and only if $f(x) = g(x)$ for all sufficiently large $x$.)
 
-
 ## Infinites and infinitesimals 
 
 Each real closed field $R$ contains a [[valuation ring|valuation]] subring $B \hookrightarrow R$ consisting of the "bounded" or archimedean elements, i.e., elements $x \in R$ such that $-n \leq x \leq n$ for some integer multiple $n$ of the identity. An element in the complement of $B$ is an **infinite** element of $R$, and the reciprocal of an infinite element is an **infinitesimal** element. The field of fractions of $B$ is clearly $R$. 
@@ -76,6 +75,9 @@ Let $B^\ast$ be the group of units of $B$. The quotient $R^\ast/B^\ast$ is the *
 
 In the other direction, to each ordered divisible abelian group $G$, there exists a real closed field having $G$ as its value group. For example, one may form the [[Hahn series]] over $\widebar{\mathbb{Q}}$ with value group $G$. 
 
+## In constructive mathematics
+
+In constructive mathematics, the various definitions of real closed field bifurcate, because of different definitions of an odd-degree polynomial. One could define an odd-degree polynomial as a polynomial whose coefficient for an odd number $n$ is [[denial inequality|not equal to]] zero and whose coefficient for all $i \gt n$ for is equal to zero. On the other hand, one could also define an odd-degree polynomial as a polynomial whose coefficient for an odd number $n$ is [[tight apartness relation|apart from]] zero and whose coefficient for all $i \gt n$ for is equal to zero. These two definitions are different from each other, the real numbers satisfy the second, while they do not satisfy the first. 
 
 ## Related concepts
 
