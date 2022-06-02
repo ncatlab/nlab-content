@@ -88,7 +88,7 @@ Since this differential equation is separable, one could use separation of varia
 If the discriminant $\Delta = b^2 - 4 a c$ is greater than zero $\Delta \gt 0$, then the quadratic function $f$ has two zeroes apart from each other. The larger of the two zero of $f(x)$ is at $g(0)$ and the smaller zero of $f(x)$ is at $h(0)$. If the discriminant is less than or equal to zero $\Delta \leq 0$, then zero isn't in the domain of either $g$ and $h$. 
 
 +-- {: .query}
-This is overkill, one could use the [[inverse function theorem]] which only requires the quadratic function to be continuously differentiable at real numbers apart from the extrema. 
+This is overkill, one could use the [[inverse function theorem]] which only requires the quadratic function to be continuously differentiable at real numbers apart from the extrema, and the real numbers to be sequentially Cauchy complete, provable from the [[Banach fixed point theorem]] in the real numbers. 
 =--
 
 ### Square roots ###
