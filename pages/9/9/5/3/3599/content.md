@@ -23,7 +23,7 @@ Type theory with the notion of dependent types is called _[[dependent type theor
 In the [categorical semantics of type theory](http://ncatlab.org/nlab/show/type+theory#CategoricalSemantics), a dependent type 
 
 $$
-  x:A \; \vdash \;B(x):Type
+  x:A \; \vdash \;B(x) \;\mathrm{type}
 $$ 
 
 is represented by a particular [[morphism]] $p\colon B\to A$, the intended meaning being that each type $B(x)$ is the [[fiber]] of $p$ over $x\in A$.  The morphism in a category that may represent dependent types in this way are sometimes called [[display morphisms]] (especially when not every morphism is a display morphism).
