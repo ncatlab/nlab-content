@@ -127,11 +127,10 @@ By way of contradiction (applying the [[double negation]] law of [[classical log
 
 +-- {: .num_theorem #hypothesis}
 ###### Theorem
-(constructive IVT with strengthened hypothesis)
+(constructive IVT with strengthened hypothesis, assuming the interval endpoints and the zero have [[locators]] and that the function is [[locally nonzero]])
 
-For real numbers $a$ and $b$ with [[locators]], let $f\colon [a,b] \to \mathbb{R}$ be a [[pointwise continuous function]] from the [[closed interval]] $[a, b]$ to the [[real line]] that is a [[locally nonconstant function]] and that [[lifts to locators]], and supposed that $f(a) \leq 0$ and $f(b) \geq 0$. Then, there exists a point $c$ in $[a, b]$ with a locator such that $f(c) = 0$. 
+For real numbers $a$ and $b$ with [[locators]], let $f\colon [a,b] \to \mathbb{R}$ be a [[pointwise continuous function]] from the [[closed interval]] $[a, b]$ to the [[real line]] that is a [[locally nonzero function]] and that [[lifts to locators]], and suppose that $f(a) \leq 0$ and $f(b) \geq 0$. Then, there exists a point $c$ in $[a, b]$ with a locator such that $f(c) = 0$. 
 =--
-
 
 +-- {: .proof}
 ###### Proof of Theorem \ref{hypothesis}&#8288;
@@ -140,6 +139,22 @@ This proof originally appeared in [Booij 2018](#Booij18)
 
 ... 
 
+=--
+
++-- {: .num_theorem #hypothesis}
+###### Theorem
+(constructive IVT with strengthened hypothesis, assuming [[weak countable choice]] and that the function is [[locally nonzero]])
+
+Assuming [[weak countable choice]], for real numbers $a$ and $b$, let $f\colon [a,b] \to \mathbb{R}$ be a [[pointwise continuous function]] from the [[closed interval]] $[a, b]$ to the [[real line]] that is a [[locally nonzero function]], and suppose that $f(a) \leq 0$ and $f(b) \geq 0$. Then, there exists a point $c$ in $[a, b]$ with a locator such that $f(c) = 0$. 
+=--
+
+
+
++-- {: .num_theorem #hypothesis}
+###### Theorem
+(constructive IVT with strengthened hypothesis, assuming [[weak countable choice]] and that the function is [[uniformly continuous]])
+
+Let $f\colon [0,1] \to \mathbb{R}$ be a [[uniformly continuous map|uniformly continuous function]] from the [[unit interval]] to the [[real line]], and suppose that $f(0) \lt 0$ while $f(1) \gt 0$.  Suppose further that, for any points $a,b$ in the unit interval with $a \lt b$, there exists a point $c_{a,b}$ such that $a \lt c_{a,b} \lt b$ and ${|f(c_{a,b})|} \gt 0$.  (In other words, the non-[[zero set]] $\{ c : {|f(c)|} \gt 0 \}$ is [[dense subspace|dense]].)  Then there exists a point $c$ in the unit interval such that $f(c) = 0$.
 =--
 
 ## See also
