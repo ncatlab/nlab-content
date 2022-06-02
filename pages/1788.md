@@ -11,6 +11,18 @@ A test, test
 &  \Gamma f \arrow[ur, "P f"]
 \end{tikzcd}
 
+Anyons via fictitious gauge fields:
+
+From Chen et al. p. 359:
+
+> Here the particles are to be regarded (in the absence of 
+interactions) as fermions; the interaction then makes them anyons with statistical 
+parameter ($\theta = \pi(1 - 1/ n$).
+
+***
+
+
+
 
 * [[Alexander B. Zamolodchikov]], [[Vladimir A. Fateev]] *Nonlocal (parafermion) currents in two-dimensional conformal quantum field theory and self-dual critical points in $Z_N$-symmetric statistical systems*, Sov. Phys. JETP **62** 2 (1985) 215-225 $[$[pdf](http://www.jetp.ras.ru/cgi-bin/dn/e_062_02_0215.pdf), [osti:5929972](https://www.osti.gov/biblio/5929972)$]$
 
