@@ -409,3 +409,5 @@ See also:
 [[!redirects generating acyclic cofibrations]]
 
 [[!redirects cofibrantly generated]]
+
+[[!redirects Kan recognition theorem]]
