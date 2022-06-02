@@ -481,6 +481,12 @@ Early account, in the context of [[Cohomotopy]], [[cobordism theory]] and the [[
 [[!redirects differentiable functions]]
 [[!redirects differentiability]]
 
+[[!redirects pointwise differentiable map]]
+[[!redirects pointwise differentiable maps]]
+[[!redirects pointwise differentiable function]]
+[[!redirects pointwise differentiable functions]]
+[[!redirects pointwise differentiability]]
+
 [[!redirects uniformly differentiable map]]
 [[!redirects uniformly differentiable maps]]
 [[!redirects uniformly differentiable function]]
