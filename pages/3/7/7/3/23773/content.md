@@ -38,6 +38,8 @@ where $x^i$ is the $i$-th [[power function]] for the (non-commutative) multiplic
 
 ## See also 
 
+* [[real polynomial function]]
+
 * [[quadratic function]]
 
 * [[rational zero theorem]]
