@@ -69,6 +69,8 @@ Characterization: a morphism is formally unramified iff the module $\Omega_{Y/X}
 
 ## Related concepts
 
+* [[decidable object]]
+
 * [[ramification of ideals]]
 
 * [[formally unramified morphism]]
