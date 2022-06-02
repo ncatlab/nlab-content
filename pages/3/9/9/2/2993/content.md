@@ -33,7 +33,7 @@ Of course there are traditional standard expressions that people usually have in
 
 +-- {: .num_remark} 
 ###### Remark 
-Finally, sometimes "polynomial" is construed to mean a *polynomial function*. This is actually just a particular instantiation of a definable operation. The default meaning is that, if we are working for instance with a polynomial ring in one variable $R[x]$, then we have a composite 
+Finally, sometimes "polynomial" is construed to mean a *[[polynomial function]]*. This is actually just a particular instantiation of a definable operation. The default meaning is that, if we are working for instance with a polynomial ring in one variable $R[x]$, then we have a composite 
 $$U R[x] \cong \hom(U, U) \stackrel{ev_R}{\to} \hom(U R, U R)$$ 
 where the second map sends a natural transformation to its component at $R$ as an $R$-algebra. Put differently, the set $\hom(U R, U R)$ carries a commutative $R$-algebra structure under the pointwise operations, and there is a unique $R$-algebra map $R[x] \to \hom(U R, U R)$ that sends '$x$' to the [[identity map]]. The [[value]] of a polynomial $p \in R[x]$ under this map is then the corresponding polynomial function $U R \to U R$. 
 
@@ -132,10 +132,6 @@ $$C_k \times C_{n_1} \times \ldots \times C_{n_k} \to C_n$$
 In case $R$ is an [[integral domain]], the [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational functions]].
 
 =--
-
-### As continuous functions
-
-If $R = \mathbb{R}$ is the [[real numbers]] regarded as a [[Euclidean space]] equipped with its [[metric topology]], regard a polynomial $P \in \mathbb{R}[X]$ as a [[function]] $\mathbb{R} \to \mathbb{R}$. Then this is a [[continuous function]]. See at _[[polynomials are continuous]]_.
 
 ### As domains
 
