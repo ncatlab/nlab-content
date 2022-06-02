@@ -1,12 +1,9 @@
-
-
-
 [[!redirects sandbox]]
 
-A test, test
+A test, test, test
 
 \begin{tikzcd}
-   X \arrow[rr, "f"]] \arrow[dr, swap, "I f"]
+   X \arrox}ww[rr, "f"] \arrow[dr, swap, "I f"]
 && Y \\
 &  \Gamma f \arrow[ur, "P f"]
 \end{tikzcd}
