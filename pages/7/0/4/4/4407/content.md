@@ -100,19 +100,29 @@ which contradicts the fact that ${|f(z)|}$ attains an absolute minimum at $z = z
 
 ## In weak foundations
 
-Many proofs rely explicitly on the [[double negation]] rule by first supposing that a polynomial function $p$ has no root and deriving a contradiction.  However, the algebraic proof is almost entirely [[constructive mathematics|constructive]]. 
+Many proofs rely explicitly on the [[double negation]] rule by first supposing that a polynomial function $p$ has no root and deriving a contradiction.  
 
-There are two main problems in constructive mathematics. The first one is the exact [[intermediate value theorem]], which is not true for all [[polynomial functions]] in the real numbers. While polynomial functions are [[Lipschitz continuous]] and thus [[uniformly continuous]] on any [[closed interval]] of the real numbers, they do not satisfy the exact intermediate value theorem without [[weak countable choice]]. 
+### In constructive mathematics
+
+#### For Cauchy real numbers
+
+A fully choice-free constructive proof by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) exists for the [[modulated Cauchy real number|modulated Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]).
+
+#### For larger real numbers
+
+The complex analytic proof is problematic, in that there exist polynomial functions in which we cannot decide whether the polynomial function is constant or non-constant without [[excluded middle]]. 
+
+The algebraic proof of the real numbers is problematic in many ways. First of all, the traditional definition of a [[real closed field]] bifurcates into multiple inequivalent definitions in [[constructive mathematics]], since one could define odd-degree polynomials using either a [[denial inequality]] or a [[tight apartness relation]]. The definition using the denial inequality is not true for any field of real numbers, unless [[excluded middle]] is true. If one uses a tight apartness relation, then while the odd-degree polynomials have roots and every non-negative number has a square root, it does not follow that every polynomial function has a root in the real numbers, because there exist polynomial functions where we cannot determine whether the degree is odd or even. 
+
+What one really wants is that every [[polynomial function]] satisfies the exact intermediate value theorem. However, without [[weak countable choice]], the exact intermediate value theorem is not true for all [[polynomial functions]] in the real numbers. While polynomial functions are [[Lipschitz continuous]] and thus [[uniformly continuous]] on any [[closed interval]] of the real numbers, they do not satisfy the exact intermediate value theorem without [[weak countable choice]]. 
 
 There are alternative formulations of the exact intermediate value theorem where uniform continuity is replaced with being [[locally nonzero function|locally nonzero]], which is true of polynomial functions [[tight apartness relation|apart from]] the zero polynomial function. Additionally, the zero polynomial function has zeroes everywhere on the real line. But without [[excluded middle]], it cannot be proved that every polynomial function is either the zero polynomial function or apart from the zero polynomial function. 
 
-The second problem is Lemma \ref{sqrt}. This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not know whether or not $x$ is apart from zero (because there is no [[continuous map|continuous]] square-root function).
-
-Mathematicians working in [[constructive mathematics]] which accept [[weak countable choice]] (including that in Errett Bishop's book) accept the FTA, because polynomial functions satisfy the exact intermediate value theorem with weak countable choice, and the needed square roots also follow from weak countable choice. Weak countable choice is a consequence of either excluded middle or countable choice. 
-
-A fully choice-free constructive proof by Wim Ruitenberg ([Ruitenberg 1991](#Ruitenberg91)) also exists for the [[modulated Cauchy real number|modulated Cauchy complex numbers]] (which agree with the [[Dedekind real number|Dedekind complex numbers]] by [[weak countable choice]] or the [[limited principle of omniscience]]).
+The second problem is Lemma \ref{sqrt}. This may fail in a [[topos]] (such as [[sheaves]] over $\mathbb{C}$), since we may not be able to find a square root of a complex number $x$ (or element of $K[\sqrt{-1}]$ more generally) if we do not know whether or not $x$ is apart from zero, because there is no [[continuous map|continuous]] square-root function unless one assumes [[weak countable choice]]. 
 
 [[Fred Richman]] ([1998](#Richman)) has proposed that, in the absence of $WCC$, the FTA should be interpreted as a statement about sets of roots rather than about individual roots.  He constructs a [[complete metric space]] $\hat{M}_n(\mathbb{C})$ which, classically, is the space of $n$-element [[multisets]] of complex numbers (and constructively is the completion of that space) and proves that every complex polynomial function $p$ of degree $n$ may be associated with a point in this space in such a way that the $n$ elements of that point (when viewed as a multiset, if possible, and morally in any case) are the $n$ roots of $p$.
+
+### In RCA_0
 
 Assuming classical logic, but weak foundations, it can be shown that FTA is true in the [[reverse mathematics]] system $RCA_0$ ([Tanaka-Yamazaki 2005](#TY2005)).
 
