@@ -27,13 +27,13 @@ The different types of [[square root]] [[partial functions]] on the [[real numbe
 
 The **metric principal square root** is a function $\mathrm{sqrt}:[0, \infty) \to \mathbb{R}$ defined by the functional equation $\mathrm{sqrt}(x^2) = \vert x \vert$ for all real numbers $x \in \mathbb{R}$. This is the real square root function used to define the [[metric]] in [[Euclidean spaces]]. However, this square root is not [[constructive mathematics|constructively]] [[pointwise continuous]] at $0$. 
 
-### Smooth principal square root ###
+### Continuous principal square root ###
 
-The **smooth principal square root** or **analytic principal square root** is a function $\mathrm{sqrt}_\mathrm{sm}:(0, \infty) \to \mathbb{R}$ defined as the [[solution]] to the first order non-linear [[ordinary differential equation]] 
+The **continuous principal square root** is a function $\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$ defined as the [[solution]] to the first order non-linear [[ordinary differential equation]] 
 
-$$(2 \mathrm{sqrt}_\mathrm{sm}) \frac{d \mathrm{sqrt}_\mathrm{sm}}{d x} = 1$$
+$$(2 \mathrm{sqrt}_\mathrm{cont}) \frac{d \mathrm{sqrt}_\mathrm{cont}}{d x} = 1$$
 
-with initial conditions $\mathrm{sqrt}_\mathrm{sm}(1) = 1$. This is the real square root function used in constructive versions of the [[real quadratic formula]], or the smooth quadratic formula/analytic quadratic formula. Also, because $\mathrm{sqrt}_\mathrm{sm}$ is a [[smooth function]] and [[analytic function]] on the entirety of its domain, it is commonly used in [[differential calculus]] and [[integral calculus]] when calculating derivatives and integrals of half integer [[power functions]], as well as in other parts of [[analysis]]. However, $0$ is not in the domain of $\mathrm{sqrt}_\mathrm{sm}$, which means that not every real number with a real square root is in the domain of $\mathrm{sqrt}_\mathrm{sm}$, and it cannot be used in defining the metric for Euclidean spaces. 
+with initial conditions $\mathrm{sqrt}_\mathrm{cont}(1) = 1$, derived from the [[inverse function theorem]]. This is the real square root function used in constructive versions of the [[real quadratic formula]], or the [[continuous quadratic formula]]. However, $0$ is not in the domain of $\mathrm{sqrt}_\mathrm{cont}$, which means that not every real number with a real square root is in the domain of $\mathrm{sqrt}_\mathrm{cont}$, and it cannot be used in defining the metric for Euclidean spaces. 
 
 ### Other square roots
 
@@ -74,18 +74,10 @@ Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \mathrm{sqrt}(x)$ is 
 [[!redirects metric square root functions]]
 [[!redirects metric principal square root function]]
 
-[[!redirects smooth square root]]
-[[!redirects smooth square roots]]
-[[!redirects smooth principal square root]]
+[[!redirects continuous square root]]
+[[!redirects continuous square roots]]
+[[!redirects continuous principal square root]]
 
-[[!redirects smooth square root function]]
-[[!redirects smooth square root functions]]
-[[!redirects smooth principal square root function]]
-
-[[!redirects analytic square root]]
-[[!redirects analytic square roots]]
-[[!redirects analytic principal square root]]
-
-[[!redirects analytic square root function]]
-[[!redirects analytic square root functions]]
-[[!redirects analytic principal square root function]]
+[[!redirects continuous square root function]]
+[[!redirects continuous square root functions]]
+[[!redirects continuous principal square root function]]
