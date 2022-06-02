@@ -36,3 +36,7 @@ A function $f:\mathbb{R}_D \to \mathbb{R}_D$ is __locally nonzero__ if for all [
 ## References 
 
 * Auke Booij, *Extensional constructive real analysis via locators*, ([arXiv:1805.06781](https://arxiv.org/abs/1805.06781))
+
+[[!redirects locally nonzero]]
+
+[[!redirects locally nonzero functions]]
