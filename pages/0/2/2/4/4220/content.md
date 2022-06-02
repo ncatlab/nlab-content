@@ -62,6 +62,8 @@ This is valid even in characteristic $2$, but unfortunately then it is fairly us
 
 * [[completing the square]]
 
+* [[continuous quadratic formula]]
+
 ## References
 
 * {#Ruitenberg91} Wim Ruitenberg, Constructing Roots of Polynomials over the Complex Numbers, Computational Aspects of Lie Group Representations and Related Topics, CWI Tract, Vol. 84, Centre for Mathematics and Computer Science, Amsterdam, 1991, pp. 107–128. ([pdf](https://www.mscsnet.mu.edu/~wim/publica/roots_new.pdf))
