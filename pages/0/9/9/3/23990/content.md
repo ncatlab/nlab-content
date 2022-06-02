@@ -69,6 +69,12 @@ Further discussion:
 
 * [[Facundo Mémoli]], [[Ling Zhou]], *Persistent Homotopy Groups of Metric Spaces* $[$[arXiv:1912.12399](https://arxiv.org/abs/1912.12399), [talk](Center+for+Quantum+and+Topological+Systems#ZhouAtHomotopicalPerspectivesOnTDAJune2022)$]$
 
+Discussion with focus on the [[van Kampen theorem]], [[excision]] and the [[Hurewicz theorem]] in persistent homotopy:
+
+* Mehmet Ali Batan, Mehmetcik Pamuk, Hanife Varli, *Persistent Homotopy* $[$[arXiv:1909.08865](https://arxiv.org/abs/1909.08865)$]$
+
+
+
 
 [[!include cohomotopy in topological data analysis -- references]]
 
