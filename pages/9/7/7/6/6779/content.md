@@ -217,6 +217,10 @@ Proof of the [[Hurewicz theorem]] in [[homotopy type theory]], hence in general 
 
 * [[Daniel Christensen]], [[Luis Scoccola]], _The Hurewicz theorem in Homotopy Type Theory_ ([arXiv:2007.05833](https://arxiv.org/abs/2007.05833))
 
+Discussion of [[persistent homotopy]] with focus on the [[van Kampen theorem]], [[excision]] and the [[Hurewicz theorem]]:
+
+* Mehmet Ali Batan, Mehmetcik Pamuk, Hanife Varli, *Persistent Homotopy* $[$[arXiv:1909.08865](https://arxiv.org/abs/1909.08865)$]$
+
 
 
 [[!redirects Hurewicz theorem]]
