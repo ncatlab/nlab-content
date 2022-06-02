@@ -69,9 +69,11 @@ Starting with the given constant $y_0$, [[recursion|recursively]] define
 
 ## See also
 
-* [[real polynomial function]]
+* [[inverse function theorem]]
 
-* [[smooth square root]]
+* [[real quadratic function]]
+
+* [[continuous square root]]
 
 ## References
 
