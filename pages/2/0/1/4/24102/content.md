@@ -12,9 +12,15 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+
+
 ## Idea ##
 
-A [[content]] used to define the [[Riemann integral]] of [[indicator functions]] over a [[bounded set]], in the same way that [[Lebesgue measures]] are used to define the [[Lebesgue integral]] of [[indicator functions]]. 
+A *Jordan content* is a kind of *[[content]]* which may be used to define the [[Riemann integral]] of [[indicator functions]] over a [[bounded set]], in the same way that [[Lebesgue measures]] are used to define the [[Lebesgue integral]] of [[indicator functions]]. 
 
 ## See also 
 
@@ -26,7 +32,7 @@ A [[content]] used to define the [[Riemann integral]] of [[indicator functions]]
 
 ## References
 
-* Munkres, J. R. (1991). Analysis on Manifolds. Boulder, CO: Westview Press, ISBN: 0-201-31596-3
+* [[James Munkres]], *Analysis on Manifolds*, Westview Press (1991) ISBN:0-201-31596-3
 
 * Wikipedia, *[Jordan content](https://en.wikipedia.org/wiki/Jordan_content)*
 
