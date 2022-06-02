@@ -57,7 +57,7 @@ In [[classical mathematics]], the [[linear order|law of trichotomy]] holds in th
 
 ### Partial inverse functions ###
 
-Given a real quadratic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^2 + b x + c$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$ such that $\vert a \vert \gt 0$, there are two branches of the partial inverse function of $f$, $g$ and $h$, such that if $a \gt 0$, then $g$ and $h$ have domain 
+Given a real quadratic function $f:\mathbb{R} \to \mathbb{R}$, $f(x) \coloneqq a x^2 + b x + c$ for real numbers $a \in \mathbb{R}$, $b \in \mathbb{R}$, $c \in \mathbb{R}$ such that $\vert a \vert \gt 0$, since $f$ is [[continuously differentiable]] if $\vert a \vert \gt 0$, due to the [[inverse function theorem]], there are two branches of the partial inverse function of $f$, $g$ and $h$, such that if $a \gt 0$, then $g$ and $h$ have domain 
 
 $$\left(c - \frac{b^2}{4a}, \infty\right)$$
 
@@ -77,7 +77,7 @@ and the initial conditions for the reflected branch $h$ are
 
 $$h\left((a - b + c) + \left(c - \frac{b^2}{4a}\right)\right) = -1 - \frac{b}{2a}$$
 
-As a result, $g$ and $h$ are automatically pointwise [[smooth functions]], and in fact [[analytic functions]], and for every $x$ in the domain of $g$ and $h$,
+As a result, $g$ and $h$ are automatically pointwise [[continuously differentiable]], and for every $x$ in the domain of $g$ and $h$,
 
 $$g(x) \gt -\frac{b}{2a}$$ 
 
@@ -87,35 +87,31 @@ Since this differential equation is separable, one could use separation of varia
 
 If the discriminant $\Delta = b^2 - 4 a c$ is greater than zero $\Delta \gt 0$, then the quadratic function $f$ has two zeroes apart from each other. The larger of the two zero of $f(x)$ is at $g(0)$ and the smaller zero of $f(x)$ is at $h(0)$. If the discriminant is less than or equal to zero $\Delta \leq 0$, then zero isn't in the domain of either $g$ and $h$. 
 
-+-- {: .query}
-This is overkill, one could use the [[inverse function theorem]] which only requires the quadratic function to be continuously differentiable at real numbers apart from the extrema, and the real numbers to be sequentially Cauchy complete, provable from the [[Banach fixed point theorem]] in the real numbers. 
-=--
-
 ### Square roots ###
 
-If $a = 1$, $b = 0$, and $c = 0$, then the real quadratic function above is the square function $f(x) \coloneqq x^2$. The principal branch of the smooth partial inverse function of the square function is called the [[smooth principal square root]] or [[analytic principal square root]] $\mathrm{sqrt}_\mathrm{sm}:(0, \infty) \to \mathbb{R}$, and is the solution to the differential equation 
+If $a = 1$, $b = 0$, and $c = 0$, then the real quadratic function above is the square function $f(x) \coloneqq x^2$. The principal branch of the continuous partial inverse function of the square function is called the [[continuous principal square root]] $\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$, and is the solution to the differential equation 
 
-$$(2 \mathrm{sqrt}_\mathrm{sm}) \frac{d \mathrm{sqrt}_\mathrm{sm}}{d x} = 1$$
+$$(2 \mathrm{sqrt}_\mathrm{cont}) \frac{d \mathrm{sqrt}_\mathrm{cont}}{d x} = 1$$
 
-with initial condition $\mathrm{sqrt}_\mathrm{sm}(1) = 1$. The reflected branch of the smooth partial inverse function of the square function is simply the negation of the principal square root $-\mathrm{sqrt}_\mathrm{sm}:(0, \infty) \to \mathbb{R}$. 
+with initial condition $\mathrm{sqrt}_\mathrm{cont}(1) = 1$. The reflected branch of the continuous partial inverse function of the square function is simply the negation of the principal square root $-\mathrm{sqrt}_\mathrm{cont}:(0, \infty) \to \mathbb{R}$. 
 
 ### Quadratic formula ###
 
-For any quadratic function $f$, the principal branch of its inverse has a canonical definition in terms of the smooth principal square root:
+For any quadratic function $f$, the principal branch of its inverse has a canonical definition in terms of the continuous principal square root:
 
-$$g(x) = \frac{-b + \mathrm{sqrt}_\mathrm{sm}(4ax + b^2 - 4ac)}{2a}$$
+$$g(x) = \frac{-b + \mathrm{sqrt}_\mathrm{cont}(4ax + b^2 - 4ac)}{2a}$$
 
-and the reflected branch has a canonical definition in terms of the smooth principal square root as well:
+and the reflected branch has a canonical definition in terms of the continuous principal square root as well:
 
-$$h(x) = \frac{-b - \mathrm{sqrt}_\mathrm{sm}(4ax + b^2 - 4ac)}{2a}$$
+$$h(x) = \frac{-b - \mathrm{sqrt}_\mathrm{cont}(4ax + b^2 - 4ac)}{2a}$$
 
-The **smooth quadratic formula** or **analytic quadratic formula** is the evaluation of the two branches at zero, if zero is in the domain of $g$ and $h$:
+The **continuous quadratic formula** is the evaluation of the two branches at zero, if zero is in the domain of $g$ and $h$:
 
-$$g(0) = \frac{-b + \mathrm{sqrt}_\mathrm{sm}(b^2 - 4ac)}{2a}$$
+$$g(0) = \frac{-b + \mathrm{sqrt}_\mathrm{cont}(b^2 - 4ac)}{2a}$$
 
-$$h(0) = \frac{-b - \mathrm{sqrt}_\mathrm{sm}(b^2 - 4ac)}{2a}$$
+$$h(0) = \frac{-b - \mathrm{sqrt}_\mathrm{cont}(b^2 - 4ac)}{2a}$$
 
-The smooth quadratic formula is only valid for real quadratic functions with positive discriminant, unlike the [[quadratic formula]] in the [[discrete field]] of [[quadratic irrational numbers]], which is valid for [[quadratic functions]] with [[rational number|rational]] [[coefficients]] and a non-negative discriminant. But there's an analytic reason for why the quadratic formula should be restricted to real quadratic functions with positive discriminant: for any real quadratic function $f$ with a non-positive discriminant $\Delta \leq 0$, there is no interval on the real numbers such that the conditions required for the [[intermediate value theorem]] are fulfilled: if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. 
+The continuous quadratic formula is only valid for real quadratic functions with positive discriminant, unlike the [[quadratic formula]] in the [[discrete field]] of [[quadratic irrational numbers]], which is valid for [[quadratic functions]] with [[rational number|rational]] [[coefficients]] and a non-negative discriminant. But there's an analytic reason for why the quadratic formula should be restricted to real quadratic functions with positive discriminant: for any real quadratic function $f$ with a non-positive discriminant $\Delta \leq 0$, there is no interval on the real numbers such that the conditions required for the [[intermediate value theorem]] are fulfilled: if $a \gt 0$, then $f(x) \geq 0$ for all real numbers $x$, and if $a \lt 0$, then $f(x) \leq 0$ for all real numbers $x$. 
 
 ### Negative and zero discriminant ###
 
@@ -174,5 +170,8 @@ See also:
 [[!redirects real quadratic functions]]
 
 [[!redirects real quadratic formula]]
-[[!redirects smooth quadratic formula]]
-[[!redirects analytic quadratic formula]]
+[[!redirects real quadratic formulae]]
+[[!redirects real quadratic formulas]]
+[[!redirects continuous quadratic formula]]
+[[!redirects continuous quadratic formulae]]
+[[!redirects continuous quadratic formulas]]
