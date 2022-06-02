@@ -19,7 +19,13 @@
 
 ## Definition ##
 
-A **real cubic function** is a [[cubic function]] in the [[real numbers]]. 
+A **real cubic function** is a [[cubic function]] in the [[real numbers]]. Equivalently, it is a [[solution]] to the fourth-order linear homogeneous [[ordinary differential equation]] 
+$$\frac{d^4 f}{d x^4} = 0$$ 
+with initial conditions 
+$$f(0) = d$$ 
+$$\frac{d f}{d x}(0) = c$$
+$$\frac{d^2 f}{d x^2}(0) = 2 b$$
+$$\frac{d^3 f}{d x^3}(0) = 6 a$$
 
 ## Properties ##
 
@@ -112,6 +118,8 @@ with specific initial conditions.
 * [[cubic function]]
 
 * [[real quadratic function]]
+
+* [[real polynomial function]]
 
 ## References ##
 
