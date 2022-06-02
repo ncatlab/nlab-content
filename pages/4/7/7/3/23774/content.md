@@ -87,6 +87,10 @@ Since this differential equation is separable, one could use separation of varia
 
 If the discriminant $\Delta = b^2 - 4 a c$ is greater than zero $\Delta \gt 0$, then the quadratic function $f$ has two zeroes apart from each other. The larger of the two zero of $f(x)$ is at $g(0)$ and the smaller zero of $f(x)$ is at $h(0)$. If the discriminant is less than or equal to zero $\Delta \leq 0$, then zero isn't in the domain of either $g$ and $h$. 
 
++-- {: .query}
+This is overkill, one could use the [[inverse function theorem]] which only requires the quadratic function to be continuously differentiable at real numbers apart from the extrema. 
+=--
+
 ### Square roots ###
 
 If $a = 1$, $b = 0$, and $c = 0$, then the real quadratic function above is the square function $f(x) \coloneqq x^2$. The principal branch of the smooth partial inverse function of the square function is called the [[smooth principal square root]] or [[analytic principal square root]] $\mathrm{sqrt}_\mathrm{sm}:(0, \infty) \to \mathbb{R}$, and is the solution to the differential equation 
