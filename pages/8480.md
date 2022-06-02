@@ -74,6 +74,8 @@ whence $0 \leq d(x, y) \leq 0$ and therefore $x = y$.
 
 By a suitable choice of space $X$ and endomorphism $f$, this theorem can be used to establish existence and uniqueness of solutions of differential equations (this should be expanded upon). 
 
+* [[Banach fixed point theorem]]
+
 * [[Brouwer's fixed point theorem]]
 
 * Schauder 
