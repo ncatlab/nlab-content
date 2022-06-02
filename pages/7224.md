@@ -50,10 +50,12 @@ Dually, $L \colon C \to D$ has a _$J$-right adjoint_ $R \colon B \to C$ if there
 
 ### Via absolute lifting ###
 
-Just as with regular adjoints, relative adjoints can be defined in a more conceptual way in terms of _absolute [[Kan lift|liftings]]_. We have
+Just as with regular adjoints, in the unenriched setting, relative adjoints can be defined in a more conceptual way in terms of _absolute [[Kan lift|liftings]]_. We have
 
 1. $L {\,\,}_J\!\dashv R$ if $L = \mathop{Lift}_R J$, and this left lifting is _absolute_
 2. $L \dashv_J R$ if $R = \mathop{Rift}_L J$, and this right lifting is _absolute_
+
+However, this is not true for [[enriched functors]].
 
 ## Properties ##
 
@@ -94,7 +96,7 @@ and
 
 is given by evaluating at $1_{Lb}$ the aforementioned bijection. A completely analogous procedure yields a description of the counit for $L \dashv_J R$.
 
-### relative monads and comonads ###
+### Relative monads and comonads ###
 
 Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]], for relative adjoints
 
@@ -105,7 +107,7 @@ with relative units and counits as above, respectively.
 
 There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]] and [[Kleisli category|Kleisli]] categories for these.
 
-### relative adjointness generalizes adjointness ###
+### Relative adjointness generalizes adjointness ###
 
 The concept of relative adjoint functors is a generalization of the concept of adjoint functors: if a functor $R\colon C\to D$ has a left adjoint in the usual sense, then it also has a $J$-left adjoint for $J=id_D$.
 
@@ -163,12 +165,12 @@ The concept of relative adjoint functors is a generalization of the concept of a
 
 ## References ##
 
-*  [[Thorsten Altenkirch]], James Chapman and Tarmo Uustalu,  _Monads need not be endofunctors_ In: Ong L. (eds) Foundations of Software Science and Computational Structures. FoSSaCS 2010. Lecture Notes in Computer Science, vol 6014. Springer, Berlin, Heidelberg, arXiv:1412.7148 [cs.PL] ,[pdf](https://arxiv.org/pdf/1412.7148.pdf)
-
+*  F. Ulmer, _Properties of dense and relative adjoint functors_, Journal of Algebra, Volume 8, Issue 1, 1968, Pages 77-95, [pdf](http://www.sciencedirect.com/science/article/pii/0021869368900367)
 
 *  {#StreetWalters1978} [[Ross Street]], Bob Walters - _Yoneda structures on 2-categories_, Journal of Algebra, Volume 50, Issue 2, February 1978, Pages 350-379, [article at mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)
 
-*  F. Ulmer, _Properties of dense and relative adjoint functors_, Journal of Algebra, Volume 8, Issue 1, 1968, Pages 77-95, [pdf](http://www.sciencedirect.com/science/article/pii/0021869368900367)
+*  [[Thorsten Altenkirch]], James Chapman and Tarmo Uustalu,  _Monads need not be endofunctors_ In: Ong L. (eds) Foundations of Software Science and Computational Structures. FoSSaCS 2010. Lecture Notes in Computer Science, vol 6014. Springer, Berlin, Heidelberg, arXiv:1412.7148 [cs.PL] ,[pdf](https://arxiv.org/pdf/1412.7148.pdf)
+
 
 *  {#Weber2007} [[Mark Weber]] - _Yoneda structures from 2-toposes_, Appl Categor Struct (2007) 15: 259. doi:10.1007/s10485-007-9079-2, [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)
 
