@@ -872,7 +872,7 @@ or, in terms of left Kan liftings:
 
 - $L \simeq \mathop{Lift}_R 1_C$, and this Kan lifting is [[Kan lift|absolute]]
 
-The formulations in terms of liftings generalize to [[relative adjoint|relative adjoints]] by allowing an arbitrary functor $J$ in place of the identity; see there for more.
+The formulations in terms of liftings generalize to (unenriched) [[relative adjoint|relative adjoints]] by allowing an arbitrary functor $J$ in place of the identity; see there for more.
 
 
 
