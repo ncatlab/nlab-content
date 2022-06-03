@@ -188,6 +188,11 @@ $$x \wedge \bigvee_i y_i = x \leq \bigvee_i x \wedge y_i$$
 But this inequality must hold, else $\bigvee_i x \wedge y_i \lt x$ which would imply $y_i \lt x$ for all $i$, whence $\bigvee_i y_i \leq x$, contradiction. 
 =-- 
 
+## See also
+
+* [[Heyting algebra]]
+* [[Grothendieck topos]]
+* [[coframe]]
 
 [[!redirects frames]]
 [[!redirects morphism of frames]]
