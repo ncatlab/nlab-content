@@ -37,7 +37,7 @@ $$F_{+} \coloneqq \{a \in F \vert 0 \lt a\}$$
 
 be the positive elements in $F$. A function $f:F \to F$ is __continuous at a point__ $c \in F$ if 
 
-$$isContinuousAt(f, c) \coloneqq \forall \epsilon \in F_{+}. \forall x \in F. \exists \delta \in F_{+}. (\vert x - c \vert \lt \delta) \to (\vert f(x) - f(c) \vert \lt \epsilon)$$
+$$isContinuousAt(f, c) \coloneqq \forall \epsilon \in F_{+}. \forall x \in F. \exists \delta \in F_{+}. (\max(x - c, c - x) \lt \delta) \to (\max(f(x) - f(c), f(c) - f(x)) \lt \epsilon)$$
 
 $f$ is __pointwise continuous__ in $F$ if it is continuous at all points $c$:
 $$isPointwiseContinuous(f) \coloneqq \forall c \in F. isContinuousAt(f, c)$$
