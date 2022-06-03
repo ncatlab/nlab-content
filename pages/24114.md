@@ -59,3 +59,7 @@ A _coframe homomorphism_ is a homomorphism of posets that preserves finite joins
 * [[frame]]
 
 * [[cotopos]]
+
+## References
+
+* Mamuka Jibladze, "Cosheaves, coframes, cotoposes: some new facts, some old questions" ([web archive](https://web.archive.org/web/20130602214748/http://www.wra1th.plus.com/gcw/rants/math/PSSL/1997.html))
