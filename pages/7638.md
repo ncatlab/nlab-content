@@ -18,6 +18,10 @@ The notion of _M-type_ is the [[duality|formal dual]] of that of [[W-type]]: a c
 
 The [[categorical semantics]] of an $M$-type is a [[terminal coalgebra of an endofunctor]].
 
+## See also
+
+* [[M-cotopos]]
+
 ## References
 
 * [[Benno van den Berg]], de Marchi _Non-well-founded trees in categories_, APAL 146 (2007) 40&#8211;59. [link](https://arxiv.org/abs/math/0409158)
