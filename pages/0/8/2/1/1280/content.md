@@ -99,6 +99,8 @@ It should be noted, however, that not all paraconsistent logics remain nontrivia
 
 ## See also
 
+* [[dialetheism]]
+
 * [[paraconsistent mathematics]]
 
 * [[square of opposition]]
