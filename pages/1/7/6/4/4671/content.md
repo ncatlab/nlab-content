@@ -11,6 +11,8 @@ Sometime we refer to a category as __cocartesian monoidal__ just to indicate tha
 
 ## Related concepts
 
+* [[cocartesian coclosed category]]
+
 * [[cartesian monoidal category]]
 
 * [[cocartesian monoidal dagger category]]
