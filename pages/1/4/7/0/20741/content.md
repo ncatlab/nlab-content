@@ -5,7 +5,8 @@
 
 ## Idea
 
-A **neural network** is a class of functions used in both [[supervised learning | supervised]] and [[unsupervised learning | unsupervised]] [[machine learning]] to approximate a correspondence between samples in a dataset and their associated labels. 
+A **neural network** is a class of [[functions]] used in both [[supervised learning | supervised]] and [[unsupervised learning | unsupervised]] [[machine learning]] to approximate a correspondence between samples in a dataset and their associated labels. 
+
 
 ## Definition
  {#Definition}
