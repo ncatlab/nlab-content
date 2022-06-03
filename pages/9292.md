@@ -39,6 +39,7 @@ Sending [[spaces]] to their suitable algebras of functions constitutes a basic [
 ## Related concepts
 
 * [[pullback of functions]]
+* [[composition ring]]
 
 [[!redirects algebras of functions]]
 [[!redirects function algebra]]
