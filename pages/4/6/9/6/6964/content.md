@@ -26,6 +26,8 @@ The concept of _uniformly continuous map_ $f$ is based on the same intuition but
 
 Traditionally this is formalized 
 
+* for [[Archimedean fields]] (def. \ref{BetweenArchimedeanFields} below) 
+
 * for [[metric spaces]] (def. \ref{BetweenMetricSpaces} below) 
 
 but the definition makes sense more generally 
@@ -97,6 +99,15 @@ Again, this is exactly like the definition of [[continuous map]] between metric 
 
 =--
 
++-- {: .num_defn #BetweenArchimedeanFields}
+###### Definition
+**(uniformly continuous map between [[Archimedean fields]])**
+
+Given [[Archimedean fields]] $X$ and $Y$, a __uniformly continuous map__ from $X$ to $Y$ is a function between their underlying sets such that, given any positive element $\epsilon \gt 0$, there is a positive element $\delta \gt 0$ such that the maximum of $f(a) - f(b)$ and $f(b) - f(a)$ is less than $\epsilon$ whenever the maximum of $a - b$ and $b - a$ is less than $\delta$:
+$$ \forall\, \epsilon \gt 0,\; \exists\, \delta \gt 0,\; \forall\, a, b\colon X,\; \max(a - b, b - a) \lt \delta \;\Rightarrow\; \max(f(a) - f(b), f(b) - f(a)) \lt \epsilon .$$
+Again, this is exactly like the definition of [[continuous map]] between Archimedean fields, except for the order of the quantifiers $\exists\, \delta$ and $\forall\, a$.
+
+=--
 
 +-- {: .num_defn }
 ###### Definition
