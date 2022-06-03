@@ -4,7 +4,7 @@
 
 ## Remark
 
-This is a small subcollection of my (Tom Mainiero's) personal notes on some functorial aspects on the GNS representation that have been sitting around for a while. Please feel free to contribute! The ideas here underlie some of the constructs of [Homtools](#Mainiero2019).
+This is a small subcollection of my (Tom Mainiero's) personal notes on some functorial aspects of the [[Gelfand-Naimark-Segal construction]] (GNS construction) that have been sitting around for a while. Please feel free to contribute! The ideas here underlie some of the constructs of [Homtools](#Mainiero2019).
 
 
 ## Baby's first GNS functor
@@ -23,6 +23,14 @@ ${}_{A}\mathbf{Mod}^{\odot}$ is the full subcategory of ${}_{A}\mathbf{Mod}^{\bu
 \begin{remark}
 For those that find the notion of a pointed module somewhat awkward, note that: ${}_{A}\mathbf{Mod}^{\bullet}$ is equivalent to the overcategory ${}_{A}{A}/{}_{A}\mathbf{Mod}$, where ${}_{A}\mathbf{Mod}$ is the category of left $A$-modules.
 \end{remark}
+
+The category ${}_{A}\mathbf{Mod}^{\odot}$ is a [[reflective subcategory]] of ${}_{A}\mathbf{Mod}^{\bullet}$.
+Indeed, the inclusion functor $\iota \colon {}_{A}\mathbf{Mod}^{\odot} \hookrightarrow {}_{A}\mathbf{Mod}^{\bullet}$ has a left adjoint given by the "cyclicification functor":
+\[
+  \mathsf{Cyc} \colon {}_{A}\mathbf{Mod}^{\bullet} \rightarrow {}_{A}\mathbf{Mod}^{\odot} 
+\]
+which acts on objects by $\mathsf{Cyc} \colon (M,m) \mapsto (A \cdot m, m)$, where $A \cdot m \colon = \{a \cdot m : a \in A\}$; its action on morphisms is simply by restriction to the orbit of $m$.
+
 
 \begin{definition}
 $\mathbf{L}(A)$ is the thin category given by the poset of left ideals of $A$: 
@@ -44,7 +52,7 @@ Explicitly: it acts on objects by:
 and its action on morphisms is deduced from the following straightforward remark.
 
 \begin{remark}
- If $f \colon (M,m) \to (N,n)$ is a morphism of pointed modules, then we must have $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$
+ If $f \colon (M,m) \to (N,n)$ is a morphism of pointed modules, then $a \cdot n = a \cdot f(m) = f(a \cdot m)$; so we must have $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$
 \end{remark}
 
 Thus, for $f \colon (M,m) \to (N,n)$ a $\mathbf{Mod}^{\bullet}_{A}$-morphism, we can define $\mathsf{Ann}_{A}(f) \colon \mathsf{Ann}_{A}(m) \to \mathsf{Ann}_{A}(n)$ as the unique $\mathbf{L}(A)$-morphism given by the inclusion of ideals $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$.
@@ -54,7 +62,7 @@ There is an adjunction:
 \begin{center}
   \begin{tikzcd}
     \mathbf{L}(A)
-     \arrow[r, shift right=6pt, "\mathsf{Quot}_{A}"']
+     \arrow[r, shift right=6pt, "\mathsf{Quot}_{A}"', "\bot"]
     & 
     {}_{A}\mathbf{Mod}^{\bullet}
      \arrow[l, shift right=6pt, "\mathsf{Ann}_{A}"']
@@ -73,7 +81,7 @@ restricting to an equivalence
 \end{proposition}
 
 ### Connection to the GNS construction
-The above observations are simple shadows of the functorality of the GNS construction for $C^{\ast}$ and $W^{\ast}$-algebras.
+The above observations are simple shadows of the functorality of the GNS construction for [[C-star-algebra|C*-algebras]] and [[von Neumann algebra|W*-algebras]].
 The *opposite* of the category of ideals $\mathbf{L}(A)$ can be thought of as a stand-in for the category of states (to every $C^\ast$-algebraic state $\rho \colon E \to \mathbb{C}$ on a $C^{\ast}$-algebra $E$ we can associate its "left kernel" $\{e: \rho(e^{*} e) = 0 \}$).
 The quotient functor $\mathsf{Quot}$ is a toy-model of the GNS construction.
 
@@ -111,7 +119,7 @@ We can easily define weaker versions of the relation $\leq$ that may also be of 
 
 * $f \ll g$ if there is an inclusion of $\ker^{L}(g) \subseteq \ker^{L}(f)$, where, for any positive linear functional h on E, the "left kernel" or "vanishing ideal" is defined by:
 \[
-\ker^{L}(h) := \{e: h(e^\ast e ) = 0 \}.
+\ker^{L}(h) \coloneqq \{e: h(e^\ast e ) = 0 \}.
 \]
 		
 * $f \lesssim g$ if there exists an $M$ such that $f(a^\ast a) \leq M g(a^\ast a)$ for every $a \in A$.  
@@ -192,6 +200,8 @@ which restricts to an equivalence of categories:
 \end{center}
 The analogous statements hold for normal states/pointed representations.
 Our next step is to unravel the functors $\mathsf{GNS}$ and $\mathsf{Fnl}$
+
+# The GNS construction *without* fixing an algebra
 
 *...To be continued*.
 
