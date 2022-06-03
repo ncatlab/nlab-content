@@ -17,16 +17,16 @@
 
 ## Definition ##
 
-Given an [[algebraic limit field]] $F$, a subset $S \subseteq F$, a [[pointwise continuous function]] $f:C^0(S, F)$ is __differentiable__ if the [[difference quotient]] has a [[limit of a binary function approaching a diagonal|limit approaching the diagonal]]
+Given an [[Archimedean field]] $F$, an [[open interval]] $I \subseteq F$, a [[pointwise continuous function]] $f:C^0(I, F)$ is __differentiable__ if the [[difference quotient]] has a [[limit of a binary function approaching a diagonal|limit approaching the diagonal]]
 
 $$isDifferentiable(f) := hasLimitApproachingDiagonal\left(\frac{f(x) - f(y)}{x - y}\right)$$
 
-Let us define the type of differentiable functions $D^1(S, F)$ on $S$ as the type of pointwise continuous functions that are differentiable.  
-$$D^1(S, F) := \{f \in C^0(S, F) \vert isDifferentiable(f)\}$$
+Let us define the type of differentiable functions $D^1(I, F)$ on $I$ as the type of pointwise continuous functions that are differentiable.  
+$$D^1(I, F) := \{f \in C^0(I, F) \vert isDifferentiable(f)\}$$
 
-The __Newton–Leibniz operator__ or __D operator__ $\tilde{D}: D^1(S, F) \to (S \to F)$ is a function from the type of [[differentiable function]]s $D^1(S, F)$ to the type of functions $S \to F$, and is pointwise defined as 
+The __Newton–Leibniz operator__ or __D operator__ $\tilde{D}: D^1(I, F) \to (I \to F)$ is a function from the type of [[differentiable function]]s $D^1(I, F)$ to the type of functions $I \to F$, and is pointwise defined as 
 $$\tilde{D}(f) \coloneqq \lim_{(x, y) \to (x, x)} \frac{f(x) - f(y)}{x - y}$$ 
-for a [[differentiable function]] $f:D^1(S, F)$. For any differentiable function $f:D^1(S, F)$, the function $\tilde{D}(f)$ is called the __derivative__ of $f$. 
+for a [[differentiable function]] $f:D^1(I, F)$. For any differentiable function $f:D^1(I, F)$, the function $\tilde{D}(f)$ is called the __derivative__ of $f$. 
 
 ## Properties ##
 
@@ -34,7 +34,7 @@ These all follow from the [[algebraic limit theorem]]s of the [[limit of a binar
 
 ### Constant function rule ###
 
-Let $c:S \to F$ be a constant function. With constant functions the function $c:S \to F$ and the value of the function $c:F$ are usually written with the same symbol. For all constant functions $c:S \to F$, 
+Let $c:I \to F$ be a constant function. With constant functions the function $c:I \to F$ and the value of the function $c:F$ are usually written with the same symbol. For all constant functions $c:I \to F$, 
 
 $$\tilde{D}(c) = \lim_{(x, y) \to (x, x)} \frac{c - c}{x - y}$$ 
 
@@ -54,7 +54,7 @@ $$\tilde{D}(id_F) = 1$$
 
 ### Linearity ###
 
-For all elements $a \in F$ and $b \in F$ and functions $f:S \to F$ and $g:S \to F$, 
+For all elements $a \in F$ and $b \in F$ and functions $f:I \to F$ and $g:I \to F$, 
 
 $$\tilde{D}(a \cdot f + b \cdot g) = \lim_{(x, y) \to (x, x)} \frac{(a \cdot f(x) + b \cdot g(x)) - (a \cdot f(y) + b \cdot g(y)}{x - y}$$ 
 
@@ -70,7 +70,7 @@ $$\tilde{D}(a \cdot f + b \cdot g) = a \cdot \tilde{D}(f) + b \cdot \tilde{D}(g)
 
 ### Leibniz rule ###
 
-For all functions $f:S \to F$ and $g:S \to F$, 
+For all functions $f:I \to F$ and $g:I \to F$, 
 
 $$\tilde{D}(f \cdot g) = \lim_{(x, y) \to (x, x)} \frac{(f(x) \cdot g(x)) - (f(y) \cdot g(y)}{x - y}$$ 
 
@@ -86,11 +86,11 @@ $$\tilde{D}(f \cdot g) = f \cdot \tilde{D}(g) + \tilde{D}(f) \cdot g$$
 
 ### Power rule ###
 
-For all functions $f:S \to F$ and natural numbers $n \in \mathbf{N}$,
+For all functions $f:I \to F$ and natural numbers $n \in \mathbf{N}$,
 
 $$\tilde{D}(f^n) = \lim_{(x, y) \to (x, x)} \frac{f(x)^n - f(y)^n}{x - y}$$ 
 
-We proceed by induction on the natural numbers. The base case $n = 0$: For all functions $f:S \to F$,
+We proceed by induction on the natural numbers. The base case $n = 0$: For all functions $f:I \to F$,
 
 $$\tilde{D}(f^0) = \lim_{(x, y) \to (x, x)} \frac{f(x)^0 - f(y)^0}{x - y}$$ 
 
@@ -98,7 +98,7 @@ $$\tilde{D}(f^0) = \lim_{(x, y) \to (x, x)} \frac{1 - 1}{x - y}$$
 
 $$\tilde{D}(f^0) = \tilde{D}(1)$$ 
 
-Then the inductive case: For all functions $f:S \to F$ and natural numbers $n \in \mathbf{N}$,
+Then the inductive case: For all functions $f:I \to F$ and natural numbers $n \in \mathbf{N}$,
 
 $$\tilde{D}(f^{n+1}) = \lim_{(x, y) \to (x, x)} \frac{f(x)^{n+1} - f(y)^{n+1}}{x - y}$$ 
 
