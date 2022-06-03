@@ -396,6 +396,8 @@ The observation that identity types witness [[groupoid]] and [[infinity-groupoid
 For more see the references at _[[homotopy type theory]]_.
 
 See also
+
+* [Using Yoneda rather than J to present the identity type](https://www.cs.bham.ac.uk/~mhe/yoneda/yoneda.html)
  
 * {#vdBergGarner}[[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ , ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
  
