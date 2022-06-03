@@ -21,3 +21,5 @@ If $P$ is a dense full subcategory of $M$, then $f$-is $P$-open iff $M(-,f)$ is 
 * Bard Bloom, Sorin Istrail, Albert Meyer, Bisimulation can't be traced, [pdf](http://www.cse.psu.edu/~catuscia/DEA/General/BloomIstrailMeyer.pdf)
 * Yde Venema, Algebras and Coalgebras, &#167;6 (p.332-426).11(p.398-403) in Blackburn, van Benthem, Wolter, Handbook of modal logic, Elsevier, 2007.
 * [[Pedro Resende]], _Quantales, finite observations and strong bisimulation_, Theor. Comp. Sci. __254__:1&#8211;2 (2001) 95&#8211;149, <a href="http://dx.doi.org/10.1016/S0304-3975(99)00123-1">doi</a>
+
+[[!redirects bisimulations]]
