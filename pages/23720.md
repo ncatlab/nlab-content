@@ -14,42 +14,41 @@
 
 ## Definition ##
 
-Let $T$ be a [[function limit space]] with a [[tight apartness relation]] $\#$ and let $S \subseteq T$ be a [[subset]] of $T$. Let us define the subset $\Delta_{\#}(S) \subseteq S \times S$ of pairs of elements apart from the [[diagonal]] as 
+Let $F$ be an [[Archimedean field]] and let $I \subseteq F$ be an [[open interval]] in $F$. Let us define the subset $\Delta_{\#}(I) \subseteq I \times I$ of pairs of elements apart from the [[diagonal]] as 
 
-$$\Delta_{\#}(S) \coloneqq \sum_{(x,y):S \times S} x \# y$$
+$$\Delta_{\#}(I) \coloneqq \{(x,y):I \times I \vert 0 \lt \vert x - y \vert \}$$
 
-Let $U$ be a set such that $\Delta_{\#}(S) \subseteq U$ and $U \subseteq S \times S$. As a result, for every element $x \in S$, there is an indexed set 
+Let $U$ be a set such that $\Delta_{\#}(I) \subseteq U$ and $U \subseteq I \times I$. As a result, for every element $x \in I$, there is an indexed set 
 
-$U(x) \coloneqq \{y \in S \vert (x, y)\}$ 
+$U(x) \coloneqq \{y \in I \vert (x, y)\}$ 
 
-Given a [[partial function|partial]] binary function $q:U \to T$, the currying of $q$ results in the indexed function
+Given a [[partial function|partial]] binary function $q:U \to F$, the currying of $q$ results in the indexed function
 
-$$q(x): \{y \in U(x) \vert (x,y)\} \to T$$
+$$q(x): \{y \in U(x) \vert (x,y)\} \to F$$
 
-for every element $x \in S$
+for every element $x \in I$
 
-A function $g:S \to T$ is a __limit of $q$ approaching the diagonal__ if for all $x \in S$ the limit of the dependent function $q(x)$ approaching $x$ is $g(x)$. We can define a predicate that the $q$ has a limit approaching the diagonal as
+A function $g:I \to F$ is a __limit of $q$ approaching the diagonal__ if for all $x \in S$ the limit of the dependent function $q(x)$ approaching $x$ is $g(x)$. We can define a predicate that the $q$ has a limit approaching the diagonal as
 
-$$hasLimitApproachingDiagonal(q) \coloneqq \forall g \in S \to T. \forall x \in S \lim_{y \to x} q(x)(y) = g(x)$$
+$$hasLimitApproachingDiagonal(q) \coloneqq \forall g \colon I \to F. \forall x \in I \lim_{y \to x} q(x)(y) = g(x)$$
 
-The type of all functions in $U \to T$ that have a limit approaching the diagonal is defined as 
+The type of all functions in $U \to F$ that have a limit approaching the diagonal is defined as 
 
-$$DiagLimFunc(S, T) \coloneqq \{q \in U \to T \vert hasLimitApproachingDiagonal(q)\}$$
+$$DiagLimFunc(I, F) \coloneqq \{q \in U \to F \vert hasLimitApproachingDiagonal(q)\}$$
 
 As a result, there exists a function 
 
-$$\lim_{(x, y) \to (x, x)} (-)(x, y): DiagLimFunc(S, T) \to (S \to F)$$ 
+$$\lim_{(x, y) \to (x, x)} (-)(x, y): DiagLimFunc(I, F) \to (I \to F)$$ 
 
-which returns the limit of a partial binary function $q:DiagLimFunc(S, T)$ approaching the diagonal and thus satisfies the equation
+which returns the limit of a partial binary function $q:DiagLimFunc(I, F)$ approaching the diagonal and thus satisfies the equation
 
 $$\lim_{y \to x} q(x)(y) = \lim_{(x, y) \to (x, x)} q(x, y)$$
 
-for all $x \in S$
+for all $x \in I$
 
 ## Properties ##
 
-In an [[algebraic limit field]] $F$, the [[algebraic limit theorem]]s are satisfied:
-
+In an [[Archimedean field]] $F$, the [[algebraic limit theorem]]s are satisfied:
 
 +-- {: .num_prop} 
 ###### Proposition
@@ -62,7 +61,7 @@ The limit of a binary function approaching a diagonal preserves the zero functio
 +-- {: .proof} 
 ###### Proof 
 
-For all $x \in S$, the following is true:
+For all $x \in I$, the following is true:
 
 $$\lim_{(x, y) \to (x, x)} 0(x, y) = \lim_{y \to x} 0(x)(y)$$
 
@@ -86,7 +85,7 @@ The limit of a binary function approaching a diagonal preserves addition of func
 +-- {: .proof} 
 ###### Proof 
 
-For all elements $c \in S$ and functions $f:S \to C$ and $g:S \to C$ such that 
+For all elements $c \in I$ and functions $f:I \to F$ and $g:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c \qquad \lim_{x \to c} g(x) = c$$
 the following is true:
 
@@ -115,7 +114,7 @@ The limit of a binary function approaching a diagonal preserves negation of func
 +-- {: .proof} 
 ###### Proof 
 
-For all elements $c \in S$ and functions $f:S \to C$ such that 
+For all elements $c \in I$ and functions $f:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c$$
 the following is true:
 
@@ -142,7 +141,7 @@ The limit of a binary function approaching a diagonal preserves subtraction of f
 +-- {: .proof} 
 ###### Proof 
 
-For all elements $c \in S$ and functions $f:S \to C$ and $g:S \to C$ such that 
+For all elements $c \in I$ and functions $f:I \to F$ and $g:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c \qquad \lim_{x \to c} g(x) = c$$
 the following is true:
 
@@ -172,7 +171,7 @@ The limit of a binary function approaching a diagonal preserves the left multipl
 +-- {: .proof} 
 ###### Proof 
 
-For all elements $c \in S$ and functions $f:S \to C$ such that 
+For all elements $c \in I$ and functions $f:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c$$
 and integers $n \in \mathbb{Z}$, the following is true:
 
@@ -201,7 +200,7 @@ The limit of a binary function approaching a diagonal preserves left multiplicat
 +-- {: .proof} 
 ###### Proof 
 
-For all elements $c \in S$ and functions $f:S \to C$ such that 
+For all elements $c \in I$ and functions $f:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c$$
 and elements $a \in F$, the following is true:
 
@@ -230,7 +229,7 @@ The limit of a binary function approaching a diagonal preserves the constant one
 +-- {: .proof} 
 ###### Proof 
 
-For all $x \in S$, the following is true:
+For all $x \in I$, the following is true:
 
 $$\lim_{(x, y) \to (x, x)} 1(x, y) = \lim_{y \to x} 1(x)(y)$$
 
@@ -254,7 +253,7 @@ The limit of a binary function approaching a diagonal preserves multiplication o
 +-- {: .proof} 
 ###### Proof 
 
-For all elements $c \in S$ and functions $f:S \to C$ and $g:S \to C$ such that 
+For all elements $c \in I$ and functions $f:I \to F$ and $g:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c \qquad \lim_{x \to c} g(x) = c$$
 the following is true:
 
@@ -283,7 +282,7 @@ The limit of a binary function approaching a diagonal preserves powers of functi
 +-- {: .proof} 
 ###### Proof 
 
-For all elements $c \in S$ and functions $f:S \to C$ such that 
+For all elements $c \in I$ and functions $f:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c$$
 and natural number $n \in \mathbb{N}$, the following is true:
 
@@ -314,7 +313,7 @@ The limit of a binary function approaching a diagonal preserves reciprocals of f
 +-- {: .proof} 
 ###### Proof 
 
-Let $x^{-1}$ be another notation for $\frac{1}{x}$. For all elements $c \in S$ and functions $f:S \to C$ such that 
+Let $x^{-1}$ be another notation for $\frac{1}{x}$. For all elements $c \in I$ and functions $f:I \to F$ such that 
 $$\lim_{x \to c} f(x) = c \qquad \lim_{(x, y) \to (x, x)} f(x, y) \# 0$$
 the following is true:
 
@@ -343,8 +342,8 @@ The limit of a binary function approaching a diagonal preserves that the recipro
 +-- {: .proof} 
 ###### Proof 
 
-Let $x^{-1}$ be another notation for $\frac{1}{x}$. For all elements $c \in S$ and functions $f:S \to C$ such that 
-$$\lim_{x \to c} f(x) = c \qquad \lim_{(x, y) \to (x, x)} f(x, y) \# 0$$
+Let $x^{-1}$ be another notation for $\frac{1}{x}$. For all elements $c \in I$ and functions $f:I \to F$ such that 
+$$\lim_{x \to c} f(x) = c \qquad \left| \lim_{(x, y) \to (x, x)} f(x, y) \right| \gt 0$$
 the following is true:
 
 
