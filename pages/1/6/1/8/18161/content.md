@@ -44,7 +44,7 @@ $$
   \array{
     U \times F 
     &\underoverset{t}{\simeq}{\longrightarrow}&
-    &\longrightarrow& E
+    E|_{U}&\longrightarrow& E
     \\
     &
     \searrow
