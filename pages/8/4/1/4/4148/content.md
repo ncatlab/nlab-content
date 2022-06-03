@@ -52,7 +52,7 @@ Constructions which inherit the property of being protomodular, such as the slic
 \end{example}
 
 \begin{example}
-The dual of a [[topos]].
+Every [[cotopos]].
 \end{example}
 
 ##Consequences of protomodularity
@@ -71,7 +71,7 @@ A _pointed_ protomodular category is strongly [[unital]], and
 
 A category $\mathcal{C}$ is **strongly protomodular** when it is protomodular and is such that any change of base functor $f^{\ast}$ is a _normal_ functor, that is, a left exact conservative functor which reflects the [[normal monomorphisms]].
 
-[[Grp]], [[Ring]] and the dual of any topos are strongly protomodular.
+[[Grp]], [[Ring]] and any [[cotopos]] are strongly protomodular.
 
 ##Related concepts
 
