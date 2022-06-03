@@ -1,6 +1,5 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-
 ### Context
 #### Category theory
 +-- {: .hide}
@@ -14,16 +13,8 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
-
-[[!redirects coHeyting algebra]]
-[[!redirects Co-Heyting algebra]]
-[[!redirects CoHeyting algebra]]
-[[!redirects bi-Heyting algebra]]
-[[!redirects biHeyting agebra]]
-[[!redirects Brouwerian algebra]]
-
 
 ##Idea
 
@@ -79,6 +70,8 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 * [[mereology]]
 * [[bi-Heyting topos]]
 * [[bitopological space]]
+* [[coframe]]
+* [[cotopos]]
 
 ##References
 
@@ -109,3 +102,10 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 * [[Marshall Stone|M. H. Stone]], _Topological representation of distributive lattices and Brouwerian logics_ , Cas. Mat. Fys. **67** (1937) pp.1-25. ([pdf](http://dml.cz/bitstream/handle/10338.dmlcz/124080/CasPestMatFys_067-1938-1_1.pdf))
 
 * F. Wolter, _On logics with coimplication_ , J. Phil. Logic **27** (1998) pp.353-387. ([draft](http://lips.informatik.uni-leipzig.de/files/1998-24.pdf))
+
+[[!redirects coHeyting algebra]]
+[[!redirects Co-Heyting algebra]]
+[[!redirects CoHeyting algebra]]
+[[!redirects bi-Heyting algebra]]
+[[!redirects biHeyting agebra]]
+[[!redirects Brouwerian algebra]]
