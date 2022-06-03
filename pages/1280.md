@@ -105,3 +105,5 @@ It should be noted, however, that not all paraconsistent logics remain nontrivia
 Paraconsistent logics (among other topic related to inconsistency) are covered in the book
 
 * Chris Mortensen, _Inconsistent Mathematics_, Kluwer Mathematics and Its Applications Series, Vol 312 (1995)
+
+[[!redirects dual intuitionistic logic]]
