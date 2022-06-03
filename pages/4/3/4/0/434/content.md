@@ -18,7 +18,7 @@
 * [[foundations|Foundations]]
 * [[logic|Logic]]
 * [[philosophy|Philosophy]]
-
+* [[epistemology|Epistemology]] 
 
 ## Axiomatic set theory
 
