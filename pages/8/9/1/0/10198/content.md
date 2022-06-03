@@ -36,6 +36,8 @@ The [[philosophy]] of [[mathematics]].
   * [[philosophy of physics]]
 * [[history of mathematics]]
 
+* [[epistomology of mathematics]]
+
 ## References
 
 * Stanford Encyclopedia of Philosophy, _[Philosophy of Mathematics](http://plato.stanford.edu/entries/philosophy-mathematics/)_
