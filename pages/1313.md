@@ -55,7 +55,7 @@ As before, let $C$ be a category and $X,Y\in C$.
 
 * Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  (This requires that $C$ have all binary products.)  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.  (The reader should beware that some authors say "exponentiable" for what is here called "exponentiating.")
 
-Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).  Some coexponential objects occur naturally in algebraic categories (such as [[rings]] or [[frames]]) whose opposites are viewed as categories of spaces (such as [[schemes]] or [[locales]]).  Cf. also [[cocartesian closed category]].
+Dually, a __[[coexponential object]]__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).  Some coexponential objects occur naturally in algebraic categories (such as [[rings]] or [[frames]]) whose opposites are viewed as categories of spaces (such as [[schemes]] or [[locales]]).  Cf. also [[cocartesian closed category]].
 
 {#WhenCIsNotCartesian} When $C$ is not cartesian but merely monoidal, then the analogous notion is that of a [[internal hom|left/right internal hom]].
 
