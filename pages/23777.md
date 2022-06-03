@@ -24,16 +24,27 @@ ${}_{A}\mathbf{Mod}^{\odot}$ is the full subcategory of ${}_{A}\mathbf{Mod}^{\bu
 For those that find the notion of a pointed module somewhat awkward, note that: ${}_{A}\mathbf{Mod}^{\bullet}$ is equivalent to the overcategory ${}_{A}{A}/{}_{A}\mathbf{Mod}$, where ${}_{A}\mathbf{Mod}$ is the category of left $A$-modules.
 \end{remark}
 
-The category ${}_{A}\mathbf{Mod}^{\odot}$ is a [[reflective subcategory]] of ${}_{A}\mathbf{Mod}^{\bullet}$.
-Indeed, the inclusion functor $\iota \colon {}_{A}\mathbf{Mod}^{\odot} \hookrightarrow {}_{A}\mathbf{Mod}^{\bullet}$ has a left adjoint given by the "cyclicification functor":
+For any left $A$-module $M$, we denote the annihilator of a point $m \in M$ as:
 \[
-  \mathsf{Cyc} \colon {}_{A}\mathbf{Mod}^{\bullet} \rightarrow {}_{A}\mathbf{Mod}^{\odot} 
+	\mathrm{Ann}_{A}(m) \coloneqq \{ a \in A : a \cdot m = 0 \}.
 \]
-which acts on objects by $\mathsf{Cyc} \colon (M,m) \mapsto (A \cdot m, m)$, where $A \cdot m \colon = \{a \cdot m : a \in A\}$; its action on morphisms is simply by restriction to the orbit of $m$.
 
+The following lemma establishes the fact that the hom-set ${}_{A}\mathbf{Mod}^{\bullet}((M,m), (N,n))$ is either the empty set or a point when $(M,m)$ is a cyclic pointed module. 
+
+\begin{lemma}
+	Let $(M,m)$ and $(N,n)$ be pointed $A$-modules and suppose $(M,m)$ is cyclic. Then there exists a morphism from $(M,m)$ to $(N,n)$ if and only if $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$.
+	Moreover, this morphism is unique when it exists.
+\end{lemma}
+\begin{proof}
+	This follows quickly from the fact that a morphism $f: (M,m) \rightarrow (N,n)$ must satisfy $f(a m) =a n$ for all $a \in A$.
+\end{proof}
+
+There is an immediate corollary of this Lemma: ${}_{A}\mathbf{Mod}^{\odot}$ is equivalent to the poset of left-ideals of $A$ (thought of as a category).
+This equivalence of categories is actually part of the restriction of a larger adjunction.
+We now spell out the details of this claim.
 
 \begin{definition}
-$\mathbf{L}(A)$ is the thin category given by the poset of left ideals of $A$: 
+$\mathbf{L}(A)$ is the [[thin category]] given by the poset of left ideals of $A$: 
 
 * objects are left ideals of $A$, and 
 
@@ -221,3 +232,4 @@ Our next step is to unravel the functors $\mathsf{GNS}$ and $\mathsf{Fnl}$
 [[!redirects Functorial Aspects of the GNS Representation]]
 [[!redirects Functorial Aspects of the GNS Representation]]
 [[!redirects functorial aspects of the gns representation]]
+
