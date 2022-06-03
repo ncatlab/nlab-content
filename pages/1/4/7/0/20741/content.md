@@ -26,13 +26,17 @@ Typically, $T_1$ is called the input layer, $T_L$ the output layer, and layers $
 $$f(x) = b' + \sum_{i=1}^n a_i g(\langle W_i, x\rangle + b)$$
 where $a = (a_1, \dots, a_n)$ is the output weight, $b'$ the output bias, $W_i$ the $i^{th}$ row of the hidden weight matrix, and $b$ the hidden bias. Here, the hidden layer is $n$-dimensional.   
 
+## Relation to differential equations and dynamical systems
+
+A relation between deep neural networks, [[differential equations]], and [[dynamical systems]] was proposed in ([CMHRBH17](#CMHRBH17), [LZLD17](#LZLD17), [Weinan17](#Weinan17))
+
+Victor Lopez-Pastor and Florian Marquardt proposed that certain [[time-reversible]] [[Hamiltonian systems]] exhibit self-learning behaviour and a physical version of the [[backpropagation]] [[algorithm]]. 
 
 ## Relation to renormalization group flow
  {#RelationToRenormalizationGroupFlow}
 
 A relation between deep neural networks (DNNs) based on Restricted Boltzmann
 Machines (RBMs) and [[renormalization group flow]] in [[physics]] was proposed in ([MS14](#MS14)).
-
 
 ## Related concepts
 
@@ -42,6 +46,7 @@ Machines (RBMs) and [[renormalization group flow]] in [[physics]] was proposed i
 
 * [[string diagram]]
 
+* [[physical neural network]]
 
 ## References
 
@@ -50,7 +55,17 @@ Machines (RBMs) and [[renormalization group flow]] in [[physics]] was proposed i
 Textbook account:
 
 * Daniel A. Roberts, Sho Yaida, Boris Hanin, *The Principles of Deep Learning Theory*, Cambridge University Press 2022 ([arXiv:2106.10165](https://arxiv.org/abs/2106.10165))
- 
+
+On the learning algorithm as analogous to differential equations and dynamical systems:
+
+* {#CMHRBH17} Bo Chang, Lili Meng, Eldad Haber, Lars Ruthotto, David Begert, Elliot Holtham, *Reversible Architectures for Arbitrarily Deep Residual Neural Networks*, ([arXiv:1709.03698](https://arxiv.org/abs/1709.03698))
+
+* {#LZLD17} Yiping Lu, Aoxiao Zhong, Quanzheng Li, Bin Dong, *Beyond Finite Layer Neural Networks: Bridging Deep Architectures and Numerical Differential Equations*, ([arXiv:1710.10121](https://arxiv.org/abs/1710.10121)). 
+
+* {#Weinan17} Weinan E, *A Proposal on Machine Learning via Dynamical Systems*, Communications in Mathematics and Statistics, 5, 1–11 (2017). ([doi:10.1007/s40304-017-0103-z](https://doi.org/10.1007/s40304-017-0103-z))
+
+* Victor Lopez-Pastor, Florian Marquardt, *Self-learning Machines based on Hamiltonian Echo Backpropagation*, ([arXiv:2103.04992](https://arxiv.org/abs/2103.04992))
+
 On the learning algorithm as [[gradient descent]] of the loss functional:
 
 * {#ThierryMieg18} Jean Thierry-Mieg, _Connections between physics, mathematics and deep learning_, Letters in High Energy Physics, vol 2 no 3 (2019) ([arXiv:1811.00576](https://arxiv.org/abs/1811.00576), [doi:10.31526/lhep.3.2019.110](https://doi.org/10.31526/lhep.3.2019.110))
