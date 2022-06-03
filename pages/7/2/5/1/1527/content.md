@@ -61,6 +61,8 @@ by the [[chain rule]], whence $D(f/r) \sim D((1+x)^r/r)$. Hence $f/r$ is bisimil
 
 * [[directed (n,r)-graph]]
 
+* [[bisimulation]]
+
 ## References
  {#References}
 
