@@ -97,10 +97,18 @@ One potential application of paraconsistent logic would be to give a [[set theor
 
 It should be noted, however, that not all paraconsistent logics remain nontrivial in the presence of full comprehension.  If the [[contraction rule]] is permitted (as it is in many [[relevance logics]], then it seems hard to avoid [[Curry's paradox]] in the following form.  For any statement $P$, consider the Curry-Russell set $C = \{ x \mid (x\in x) \to P \}$.  Suppose $C\in C$; then by definition of $C$ we have $(C\in C)\to P$, and so (using $C\in C$ again, by contraction) we have $P$.  Therefore, $(C\in C) \to P$.  But then by definition of $C$ we have $C\in C$, and hence by [[modus ponens]] we have $P$.  Note that this argument does not require ECQ.
 
+## See also
+
+* [[square of opposition]]
+
 ## Links
 
 * [English Wikipedia](http://en.wikipedia.org/wiki/Paraconsistent_logic)
 * [Stanford Encyclopedia of Philosophy](http://plato.stanford.edu/entries/logic-paraconsistent/)
+
+* Slater, B. H. (1995). "Paraconsistent Logics?". Journal of Philosophical Logic. 24 (4): 451–454. doi:10.1007/BF01048355. S2CID 12125719.
+
+* Béziau, Jean-Yves (2000). "What is Paraconsistent Logic?". In D. Batens; et al. (eds.). Frontiers of Paraconsistent Logic. Baldock: Research Studies Press. pp. 95–111. ISBN 0-86380-253-2.
 
 Paraconsistent logics (among other topic related to inconsistency) are covered in the book
 
