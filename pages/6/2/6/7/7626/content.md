@@ -112,21 +112,25 @@ But the notion of codimension=2 defects subsumes situations that are quite diffe
 * [defect branes](#DefectBranes).
 
 
-### As a fictitious Aharonov-Bohm effect
+### As a "fictitious" Aharonov-Bohm effect
  {#AsAFictitiousAharonovBohmEffect}
 
 A concrete model for (defect) anyons was proposed in 
 [Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89):
 
-The model there regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field": Each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]], which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the particle's positions.
+The model there regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)): 
 
-From [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
+Each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] ([[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the particle's positions.
+
+For emphases, from [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
 
 > Here the particles are to be regarded (in the absence of 
 interactions) as fermions; the interaction then makes them anyons with statistical 
 parameter ($\theta = \pi(1 - 1/ n$).
 
-(...)
+This construction has been advertized in several early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90) but seems not to have been developed since.
+
+
 
 #### Vortex anyons
  {#VortexAnyons}
