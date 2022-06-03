@@ -56,5 +56,9 @@ Either way, we now know that the classical theorem cannot be proved in the forma
 
 * [[paradox]]
 
+## See also
+
+* [[taboo]]
+
 
 [[!redirects weak counterexamples]]
