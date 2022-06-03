@@ -210,6 +210,10 @@ reviewed in:
 
 [[!redirects KZ equation]]
 [[!redirects KZ equations]]
+[[!redirects KZ-equation]]
+[[!redirects KZ-equations]]
+
+
 
 [[!redirects KZ connection]]
 [[!redirects KZ connections]]
