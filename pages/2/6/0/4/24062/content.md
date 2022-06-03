@@ -31,6 +31,6 @@ See also
 
 [[!redirects quasiparticles]]
 
-[[!redirects quasi-partcicle]]
-[[!redirects quasi-partcicles]]
+[[!redirects quasi-particle]]
+[[!redirects quasi-particles]]
 
