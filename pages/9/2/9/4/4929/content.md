@@ -77,6 +77,9 @@ There are tentative definitions of
 
 which take a more nPOV of this theory.
 
+## See also ##
+
+* [[bisimulation]]
 
 ##References##
 
