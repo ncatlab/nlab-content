@@ -5,7 +5,7 @@
 
 ## Definitions
 
-If $K$ is a [[monoid]] (which we write multiplicatively) and $x$ is an element of $K$, then the element $x^2$ is the __square__ of $x$.  Conversely, if $x^2 = y$, then $x$ is a __square root__ of $y$.
+If $K$ is a [[magma]], such as a [[monoid]], (which we write multiplicatively) and $x$ is an element of $K$, then the element $x^2$ is the __square__ of $x$.  Conversely, if $x^2 = y$, then $x$ is a __square root__ of $y$.
 
 If $K$ is an [[integral domain]], then (in [[classical mathematics]]) $x$ and $-x$ are the only square roots of $x^2$.  If $y$ has a square root, then we often denote its square roots together as $\pm\sqrt{y}$, although there is no meaning of $\sqrt{y}$ itself.
 
