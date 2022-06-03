@@ -1,3 +1,9 @@
+# Contents
+* table of contents
+{:toc}
+
+## Definition
+
 In Joyal-Nielsen-Winskel (p.13) is given the following definition. For what a "path category in a category of models" is, see there.
 
 +-- {: .un_defn}
@@ -13,6 +19,15 @@ The relation of $P$-open maps and [[open map]]s is given by Proposition 11, p.32
 If $P$ is a dense full subcategory of $M$, then $f$-is $P$-open iff $M(-,f)$ is an [[open map]].
 =--
 
+## See also
+
+* [[transition system]]
+
+* [[cotopos]]
+
+* [[coinduction]]
+
+## References
 
 * Wikipedia (English), _[Bisimulation](http://en.wikipedia.org/wiki/Bisimulation)_
 * Sam Staton, _[Relating coalgebraic notions of bisimulation](http://arxiv.org/abs/1101.4223)_
