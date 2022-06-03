@@ -199,6 +199,8 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 * [[polynomial functor]]
 
+* [[composition ring]]
+
 [[!redirects polynomial]]
 [[!redirects polynomials]]
 
