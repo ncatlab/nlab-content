@@ -21,9 +21,11 @@ Although often considered an extreme form of constructivism, finitism in the str
 
 In [[homotopy type theory]], finite mathematics could be said to be the study of only the $n$-[[truncated]] [[homotopy type with finite homotopy groups|tame homotopy types]] for $n:\mathbb{N}$, which have finite homotopy groups, and type operations that preserve finiteness. Finite sets are just finite 0-truncated tame homotopy types in homotopy type theory. Certain type operations do not preserve tameness, such as [[suspensions]] and [[homotypy pushouts]], and so wouldn't be part of finite mathematics. This extends traditional finite mathematics based in set theoretic foundations to more modern fields such as [[higher category theory]] and [[homotopy theory]]. Just as the cardinalities of finite sets are [[natural numbers]] (finite set cardinalities), the [[groupoid cardinality|cardinalities]] of these $n$-truncated homotopy types are positive [[rational numbers]]. 
 
-__Ultrafinitism__ is an even more extreme form of finitism, in which one doubts the [[induction principle]] for the [[natural numbers]] and the closure of certain [[primitive recursive functions]] under a predicate symbol representing "is a natural number", and thus the existence of certain very large natural numbers. The theory of ultrafinite mathematics is most well developed by [[Edward Nelson]] in [[Nelson arithmetic]], where it isn't even true that the sum of every two natural numbers is a natural number; one has to add a predicate symbol to the theory representing "additionable natural numbers" (it is still true in the theory that every sum of two numbers is a number). 
+__Ultrafinitism__ is an even more extreme form of finitism, in which one doubts the existence of certain very large natural numbers. The theory of ultrafinite mathematics is most well developed by [[Edward Nelson]] in [[Nelson arithmetic]]. Foundational systems such as [[soft linear logic]] can also be argued to have an ultrafinitist flavor. 
 
-Foundational systems such as [[soft linear logic]] can also be argued to have an ultrafinitist flavor.
+This is also true of foundational systems using [[paraconsistent logic]], where [[paraconsistent arithmetics]] can have only a finite number of natural numbers. In particular, there is a paraconsistent version of the [[Löwenheim-Skolem theorem]], which states: 
+
+> Any mathematical theory presented in first order logic has a finite paraconsistent model.
 
 For the opinionated espousal of finitism (and much else), one can hardly do better than the [Opinions](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html) of [[Doron Zeilberger]].
 
@@ -33,11 +35,15 @@ For the opinionated espousal of finitism (and much else), one can hardly do bett
 
 * [[constructive mathematics]]
 
+* [[paraconsistent mathematics]]
+
 * [[Nelson arithmetic]]
 
 ## References
 
 * [[Edward Nelson]], _Warning Signs of a Possible Collapse of Contemporary Mathematics_ ([pdf](https://web.math.princeton.edu/~nelson/papers/warn.pdf))
+
+* Manuel Bremer, *Inconsistent Mathematics*, ([slides](https://www.mbph.de/Logic/Para/InconsistentMathematics.pdf))
 
 [[!redirects finite mathematics]]
 
