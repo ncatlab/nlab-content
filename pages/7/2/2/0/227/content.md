@@ -224,6 +224,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[quotient ring]]
 
+* [[composition ring]]
+
 * [[tensor ring]]
 
 * [[symmetric ring]]
