@@ -31,6 +31,12 @@ One frequently sees the L&#246;wenheim-Skolem theorem separated into an "upward"
 
 Let $\Sigma$ be a first-order [[signature]] and let $T$ be a set of sentences of cardinality $\beta$. The upward version states the following: suppose $T$ has a model of cardinality $\kappa \geq \aleph_{0}$, then for every cardinal $\lambda \geq \max(\aleph_{0}, \beta)$, $T$ has a model of cardinality $\lambda$. The downward version, on the other hand, states the following: suppose $T$ has a model of infinite cardinality, then $T$ has a model of cardinality $\aleph_{0}$.
 
+## With paraconsistent logic
+
+According to [Bremer](#Bremer), given a [[paraconsistent logic|paraconsistent]] [[first order logic]], the Löwenheim-Skolem theorem could be strengthened to this result:
+
+> Any mathematical theory presented in first order logic has a finite paraconsistent model.
+
 ## Related entries
 
 * [[Skolem's paradox]]
@@ -67,6 +73,9 @@ Society, Rhode Island, 1989.
 
 * M. Manzano, _Model Theory_, Clarendon Press (1999)
 
+In [[paraconsistent mathematics]]:
+
+* {#Bremer} Manuel Bremer, *Inconsistent Mathematics*, ([slides](https://www.mbph.de/Logic/Para/InconsistentMathematics.pdf))
 
 [[!redirects Lowenheim-Skolem theorem]]
 [[!redirects Löwenheim-Skolem property]]
