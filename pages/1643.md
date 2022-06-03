@@ -34,6 +34,8 @@ A magma is called
 
 * a *[[quasigroup]]* if one-sided multiplication by any element is a [[bijection]].
 
+A magma has a [[square root]] [[function]] $\sqrt{-}:S \times S \to S$ if for all $x \in S$, $\sqrt{x \cdot x} = x$ and $\sqrt{x} \cdot \sqrt{x} = x$. 
+
 The term 'magma' is from [[Bourbaki]] and intends to suggest the fluidity of the concept; special cases include [[unital magmas]], [[semigroups]]/[[monoids]], [[quasigroups]], [[groups]], and so on.  The term 'groupoid' is also used, but here that word means [[groupoid|something else]] (see also related discussion at [[historical notes on quasigroups]]).
 
 More generally, in any [[multicategory]] $M$, a **magma object** or **magma in $M$** is an [[object]] $X$ of $M$ equipped with a [[multimorphism]] $m: X, X \to X$ in $M$.  Here the multimorphism from $X$ and $X$ to $X$ is a __binary operation in $M$__.  In particular, for $M$ a [[monoidal category]], a magma structure on $X$ is a [[morphism]] $m\colon X \otimes X \to X$; and in a [[closed category]], a magma structure on $X$ is a morphisms $m\colon X \to [X, X]$.
