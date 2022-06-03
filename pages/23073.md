@@ -36,7 +36,7 @@ It is also possible to retain full comprehension but avoid paradox by modifying 
 
 ## Normal logics
 
-Another possibility is to keep the contraction rule but restrict the use of the [[cut rule]].  It is not necessary to forbid all uses of cut, since many cuts can be normalized or eliminated.  Indeed, in ordinary consistent logic, *all* cuts can be eliminated; but in the presence of full comprehension they cannot all be.  Thus, another way to avoid paradox with full comprehension is to permit only proofs that can be normalized.
+Another possibility is to keep the contraction rule but restrict the use of the [[cut rule]].  It is not necessary to forbid all uses of cut, since many cuts can be normalized or eliminated.  Indeed, in ordinary consistent logic, *all* cuts can be eliminated; but in the presence of full comprehension they cannot all be.  Thus, another way to avoid paradox with full comprehension is to permit only proofs that can be [[normal form|normalized]].
 
 Note that unlike a restriction on contraction, this is a "global" restriction: the proofs of two lemmas can independently be valid, but their combination may no longer be so.  Similar "global" restrictions on logic were investigated by [Fitch 1953](#Fitch52), [69](#Fitch69).
 
