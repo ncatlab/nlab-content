@@ -21,7 +21,19 @@
 
 In [[quantum physics]], *braid group statistics* or *anyon statistics* refers to an exotic phenomenon where the [[braiding]] of the [[worldlines]] of certain effective [[particles]] ("anyons") in an effectively 2+1-dimensional [[spacetime]] has the effect of transforming the [[quantum state]] of the total [[quantum system]] by [[unitary operators]] which constitute a [[linear representation]] of the [[braid group]] -- a *[[braid representation]]*.
 
-Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"statistics" which enters the *[[spin-statistics theorem]]*, see [below](#AsGeneralizedBosonFermionStatistics). But in reality this effect is often encountered not for fundamental [[particles]]/quanta, but for *[[soliton|solitonic]]$\;$[[defects]]* such as [[vortices]], see [further below](#AsBraidingOfDefects).
+Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"statistics" which enters the *[[spin-statistics theorem]]*, see [below](#AsGeneralizedBosonFermionStatistics). 
+
+But the actual mathematical nature of anyons must be different from that of elements of [[boson]]/[[fermion]]-[[Fock spaces]] and often remains somewhat uncertain in existing discussions. One may recognize two different more concrete conceptualizations of *anyons* in the literature:
+
+1. **anyonic quanta** much like [[boson]]/[[fermion]] [[quanta]] but subject to an additional global [[interaction]] by [[Aharonov-Bohm effect|Aharoniv-Bohm phases]] due to a [[flat connection|flat]] *[[fictitious gauge field]]* which is sourced by and coupled to each of the quanta;
+
+   (this goes back to [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85), further developed in [Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89), see [below](#AsAFictitiousAharonovBohmEffect));
+
+1. **anyonic defects** like [[vortices]] or other [[solitons]], whose position is a [[parameterized quantum system|classical parameter]] to the [[quantum system]], the *[[quantum adiabatic theorem|adiabatic movement]]* of which acts by [[Berry phases]] on the quantum [[ground state]].
+
+    (e.g. [Avros, Schrieffer & Wilczek 1984](#AvrosSchriefferWilczek84), see [further below](#AsBraidingOfDefects))
+
+
 
 The concept of anyons is particularly well motivated in [[solid state physics]], where effectively 2-dimensional [[quantum materials]] are common place (eg. [[graphene]]) or where particles may otherwise be constrained to move in a [[plane]], such as in the [[quantum Hall effect]]. There is a multitude of *[[model (in theoretical physics)|models]]* in [[condensed matter theory]] (mostly [[lattice models]], such as [[string-net models]]) which *theoretically* realize anyon braid group statistics, and there are some first [[experiment|experimental]] indications of anyonic phenomena in actual materials (see the references under *[Experimental Realization](#ExperimentalRealization)*) below.
 
@@ -66,9 +78,27 @@ On the other hand, anyonic braiding is conceptually different from boson/fermion
 
 > Once the [[permutation group]] is replaced by the [[braid group]], the simple construction of passing from the solution to the one-particle problems to the solution of many-particle problems, familiar from the free bosons and free fermions, does not work anymore. 
 
+### Braiding of anyonic quanta -- via "fictitious" AB-phases
+ {#AsAFictitiousAharonovBohmEffect}
+
+A concrete model for anyons via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "[[fictitious gauge field]]" was proposed in [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85) and developed in
+[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (the model has been advertized in early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90), [Wilczek 1991](#Wilczek91), but seems not to have been developed much since):
+
+The model regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)), in that
+each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] (a [[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the other particle's positions.
+
+For emphasis, from [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
+
+> Here the particles are to be regarded (in the absence of 
+interactions) as fermions; the interaction then makes them anyons with statistical 
+parameter ($\theta = \pi(1 - 1/ n$).
+
+Moreover, the [[quasi-particle]]-excitations *of* a gas of such anyons are argued to be [[vortices]] ([CWWH89, p. 457](#ChenWilczekWittenHalperin89)):
+
+> we are led to conclude that *in anyon superconductivity, charged quasi-particles and vortices do not constitute two separate sorts of elementary excitations - they are one and the same.*
 
 
-### As braiding of defects
+### Braiding of anyonic defects -- via adiabatic Berry phases
  {#AsBraidingOfDefects}
 
 In contrast to the popular motivation [above](#AsGeneralizedBosonFermionStatistics), many (most?) incarnations of the concept of anyons are [[non-perturbative effect|non-perturbative]] [[soliton|solitonic]] [[defects]] (of [[codimension]]=2), akin to *[[vortices]]* in fluids:
@@ -114,24 +144,6 @@ But the notion of codimension=2 defects subsumes situations that are quite diffe
 
 
 
-#### As a "fictitious" Aharonov-Bohm effect
- {#AsAFictitiousAharonovBohmEffect}
-
-A concrete model for anyons via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "[[fictitious gauge field]]" was proposed in [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85) and developed in
-[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (the model has been advertized in early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90), [Wilczek 1991](#Wilczek91), but seems not to have been developed much since):
-
-The model regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)), in that
-each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] (a [[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the other particle's positions.
-
-For emphasis, from [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
-
-> Here the particles are to be regarded (in the absence of 
-interactions) as fermions; the interaction then makes them anyons with statistical 
-parameter ($\theta = \pi(1 - 1/ n$).
-
-Moreover, the [[quasi-particle]]-excitations *of* a gas of such anyons are argued to be [[vortices]] ([CWWH89, p. 457](#ChenWilczekWittenHalperin89)):
-
-> we are led to conclude that *in anyon superconductivity, charged quasi-particles and vortices do not constitute two separate sorts of elementary excitations - they are one and the same.*
 
 
 
@@ -363,6 +375,9 @@ The claimed observation of abelian anyons is apparently more securely establishe
 
 
 [[!redirects anyon statistics]]
+
+[[!redirects anyon braiding]]
+[[!redirects anyonic braiding]]
 
 [[!redirects abelian anyon]]
 [[!redirects abelian anyons]]
