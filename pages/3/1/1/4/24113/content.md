@@ -18,7 +18,9 @@
 
 ## Idea
 
-The [[dual]] of a [[topos]]. A co-elementary cotopos should be the 1-categorical version of a [[co-Heyting algebra]] (which model [[dual intuitionistic logic]]), and a co-Grothendieck cotopos should be the 1-categorical version of a [[coframe]] (which model [[closed sublocales]] in [[topology]]). 
+The notion of *cotopos* is [[abstract duality|dual]] to that of a [[topos]]. 
+
+A co-elementary cotopos should be the 1-categorical version of a [[co-Heyting algebra]] (which model [[dual intuitionistic logic]]), and a co-Grothendieck cotopos should be the 1-categorical version of a [[coframe]] (which model [[closed sublocales]] in [[topology]]). 
 
 ## Definition 
 
