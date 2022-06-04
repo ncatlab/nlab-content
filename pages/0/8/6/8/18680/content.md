@@ -243,6 +243,8 @@ What should be the [[categorical semantics]] of one kind of dependent linear typ
 
 * [[dependent type theory]]
 
+* [[parameterized quantum system]]
+
 ## References
  {#References}
 
