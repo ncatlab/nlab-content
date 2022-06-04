@@ -24,7 +24,7 @@ In [[quantum physics]], *braid group statistics* or *anyon statistics* refers to
 
 Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"statistics" which enters the *[[spin-statistics theorem]]*, see [below](#AsGeneralizedBosonFermionStatistics). 
 
-But the actual mathematical nature of anyons must be different from that of elements of [[boson]]/[[fermion]]-[[Fock spaces]] and often remains somewhat uncertain in existing discussions. One may recognize two different more concrete conceptualizations of *anyons* in the literature:
+But the actual mathematical nature of anyons must be different from that of elements of [[boson]]/[[fermion]]-[[Fock spaces]] and often remains somewhat vague in existing discussions. One may recognize two different more concrete conceptualizations of *anyons* in the literature:
 
 1. {#AnyonicQuanta} **anyonic quanta** much like [[boson]]/[[fermion]] [[quanta]] but subject to an additional global [[interaction]] by [[Aharonov-Bohm effect|Aharonov-Bohm phases]] due to a [[flat connection|flat]] *[[fictitious gauge field]]* which is sourced by and coupled to each of the quanta;
 
@@ -78,6 +78,8 @@ The term *anyon* (due to [Wilczek 1982b](#Wilczek82b)) is a pun on this state of
 On the other hand, anyonic braiding is conceptually different from boson/fermion statistics -- if it were on the same footing then the [[spin-statistics theorem]] would *rule out* anyonic braiding. This is acknowledged by [Chen, Wilczek, Witten & Halperin 1989, p. 352](#ChenWilczekWittenHalperin89) (cf. also [Wilczek 1990, §I.2, pp. 11](#Wilczek90)):
 
 > Once the [[permutation group]] is replaced by the [[braid group]], the simple construction of passing from the solution to the one-particle problems to the solution of many-particle problems, familiar from the free bosons and free fermions, does not work anymore. 
+
+\linebreak
 
 ### Braiding of anyonic quanta -- via "fictitious" AB-phases
  {#AsAFictitiousAharonovBohmEffect}
