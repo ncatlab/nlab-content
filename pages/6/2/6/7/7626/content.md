@@ -20,7 +20,7 @@
 ## Anyon braiding
  {#Idea}
 
-In [[quantum physics]], *braid group statistics* or *anyon statistics* refers to an exotic phenomenon where the [[braiding]] of the [[worldlines]] of certain effective [[particles]] ("anyons") in an effectively 2+1-dimensional [[spacetime]] has the effect of transforming the [[quantum state]] of the total [[quantum system]] by [[unitary operators]] which constitute a [[linear representation]] of the [[braid group]] -- a *[[braid representation]]*.
+In [[quantum physics]], *braid group statistics* or *anyon statistics* (sometimes: *plektons*) refers to an exotic phenomenon where the [[braiding]] of the [[worldlines]] of certain effective [[particles]] ("anyons") in an effectively 2+1-dimensional [[spacetime]] has the effect of transforming the [[quantum state]] of the total [[quantum system]] by [[unitary operators]] which constitute a [[linear representation]] of the [[braid group]] -- a *[[braid representation]]*.
 
 Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"statistics" which enters the *[[spin-statistics theorem]]*, see [below](#AsGeneralizedBosonFermionStatistics). 
 
@@ -100,7 +100,9 @@ It follows ([Wu 1984](#Wu84), [Imbo, Imbo & Sudarshan 1990](#ImboImboSudarshan90
 
 > If $\theta \in\!\!\!\!\!/ \frac{1}{2}\mathbb{Z}$ the [[space of quantum states|Hilbert space]] of [[anyon]] [[wave functions]] must be chosen to be a space of [[multi-valued functions]] with half-[[monodromies]] given by the [[complex phase|phase]] factors $exp(2 \pi \mathrm{i} \theta)$. Such wave functions can be viewed as single-valued functions on the [[universal cover]] $\widetilde M_n$ of $M_n$ $[$the [[configuration space of points]]$]$.
 
-Further discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[configuration space of points]]: [BCMS93, §1](#BCMS93), [Myrheim 1999](#Myrheim99), [DMV03](#DMV03), [Murthy & Shankar 2009](#MurthyShankar09)
+Further discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[configuration space of points]], hence [[equivariant functions]] on its [[universal cover]]: [BCMS93, §1](#BCMS93), [Mund & Schrader 1995](#MundSchrader93), [DFT97, §1](#DFT97) [Myrheim 1999](#Myrheim99), [DMV03](#DMV03), [Murthy & Shankar 2009](#MurthyShankar09)
+
+
 
 Incidentally, the [[quasi-particle]]-excitations *of* (or *in*) a gas of such Aharonov-Bohm phased anyons are argued to be [[vortices]] ([CWWH89, p. 457](#ChenWilczekWittenHalperin89)):
 
@@ -318,7 +320,20 @@ Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[confi
 
 * {#ImboImboSudarshan90} Tom Imbo, Chandni Shah Imbo, E. C. G. Sudarshan, *Identical particles, exotic statistics and braid groups*, Physics Letters B **234** 1–2, (1990) 103-107 $[$<a href="https://doi.org/10.1016/0370-2693(90)92010-G">doi:10.1016/0370-2693(90)92010-G</a>, [pdf](https://lib-extopc.kek.jp/preprints/PDF/2000/0033/0033552.pdf)$]$
 
+
+
+
 * {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 $[$[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)$]$
+
+* {#MundSchrader93} J. Mund, [[Robert Schrader]], *Hilbert Spaces for Nonrelativistic and Relativistic "Free" Plektons (Particles with Braid Group Statistics)*, in *Advances in dynamical systems and quantum physics* (Capri, 1993), World Sci. (1995) 235–259 $[$[arXiv:hep-th/9310054v2](https://arxiv.org/abs/hep-th/9310054)$]$
+
+  followed up by:
+
+  [[Klaus Fredenhagen]], [[Matthias Gaberdiel]] and Stefan M. Rüger, *Scattering states of plektons (particles with braid group statistics) in 2+1 dimensional quantum field theory*, Communications in Mathematical Physics **175** (1996) 319–335 $[$[doi:10.1007/BF02102411](https://doi.org/10.1007/BF02102411)$]$
+
+* {#DFT97} Gianfausto Dell'Antonio, Rodolfo Figari & Alessandro Teta, *Statistics in Space Dimension Two*, Letters in Mathematical Physics **40** (1997) 235–256 $[$[doi:10.1023/A:1007361832622](https://doi.org/10.1023/A:1007361832622)$]$
+
+    
 
 * {#Myrheim99} [[Jan Myrheim]], *Anyons*, p. 265-414 in: *Topological aspects of low dimensional systems*, Les Houches LXIX, Springer (1999) $[$[doi:10.1007/3-540-46637-1](https://doi.org/10.1007/3-540-46637-1), [[Myrheim-Anyons.pdf:file]]$]$
 
