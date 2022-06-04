@@ -369,6 +369,11 @@ Textbook accounts:
 * {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Section 1 of: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press 1974 ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
 
+* [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
+
+  > (with an eye towards [[mathematical physics]])
+
+
 * {#KolarSlovakMichor93} [[Ivan Kolar]], [[Jan Slovak]] and [[Peter Michor]], _Natural operations in differential geometry_, 1993, 1999 ([web](http://www.emis.de/monographs/KSM/))
 
 * {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
