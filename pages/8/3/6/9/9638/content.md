@@ -29,7 +29,7 @@ Specifically, _[[topological quantum computation]]_ is (or is meant to be) quant
 ### Classical control, quantum data
  {#ClassicalControlQuantumData}
 
-Any practical quantum computer will be *classically controlled* ([Knill 96](#Knill96), [Ömer 03](#Omer03), [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07), [Devitt 14](#Devitt14)):
+Any practical quantum computer will be *[[classically controlled quantum computation|classically controlled]]* ([Knill 96](#Knill96), [Ömer 03](#Omer03), [Nagarajan, Papanikolaou & Williams 07](#NagarajanPapanikolaouWilliams07), [Devitt 14](#Devitt14), in line with the general idea of *[[parameterized quantum systems]]*):
 
 \begin{imagefromfile}
     "file_name": "ClassicallyControlledQuantumComputation.jpg",
@@ -61,7 +61,7 @@ Any practical quantum computer will be *classically controlled* ([Knill 96](#Kni
 
 See the list of references [below](#ReferencesClassicallyControlledQuantumComputing).
 
-The paradigm of classically controlled quantum computation applies in particular ([Kim & Swingle 17](#KimSwingle17)) to the currently and near-term available noisy intermediate-scale quantum (NISQ) computers ([Preskill 18](#Preskill18), see the references [below](#ReferencesNISQ)), which are useful for highly specialized tasks (only) and need to be emdedded in and called from a more comprehensive classical computing environment. 
+The paradigm of [[classically controlled quantum computation]] applies in particular ([Kim & Swingle 17](#KimSwingle17)) to the currently and near-term available noisy intermediate-scale quantum (NISQ) computers ([Preskill 18](#Preskill18), see the references [below](#ReferencesNISQ)), which are useful for highly specialized tasks (only) and need to be emdedded in and called from a more comprehensive classical computing environment. 
 
 This, in turn, applies particularly to applications like [[quantum machine learning]] ([Benedetti, Lloyd, Sack & Fiorentini 19](#BenedettiLloydSackFiorentini19), [TensorFlow Quantum](#TensorFlow), for more see the references [there](machine+learning#ReferencesQuantumMachineLearning)).
 
@@ -82,7 +82,7 @@ In fact, languages for [classically controlled quantum computation](#ClassicalCo
 |-------------------|--------------|
 | [[intuitionistic type theory|intuitionistic types]] | [[dependent linear type theory|dependent linear types]]
 
-This idea of classically controlled quantum programming via dependent linear type theory has been implemented for the *[[Quipper]]* language in [FKS 20](#FKS20), [FKRS 20](#FKRS20).
+This idea of classically controlled quantum programming via [[dependent linear type theory]] has been implemented for the *[[Quipper]]* language in [FKS 20](#FKS20), [FKRS 20](#FKRS20).
 
 
 
@@ -205,7 +205,7 @@ Review:
 ### Classically controlled quantum computing 
  {#ReferencesClassicallyControlledQuantumComputing}
 
-Theory of classically controlled quantum computing and parameterized quantum circuits:
+Theory of [[classically controlled quantum computing]] and [[parameterized quantum circuits]]:
 
 * {#Knill96} [[Emanuel Knill]], *Conventions for quantum pseudocode*, 1996 ([LA-UR-96-2724](https://www.osti.gov/biblio/366453-conventions-quantum-pseudocode), [pdf](https://www.osti.gov/servlets/purl/366453))
 
@@ -347,6 +347,8 @@ category: computer science, physics
 [[!redirects QML]]
 
 [[!redirects classically controlled quantum computation]]
+[[!redirects parameterized quantum computation]]
+
 
 
 [[!redirects NISQ]]
