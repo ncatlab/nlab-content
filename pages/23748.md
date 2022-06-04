@@ -24,6 +24,22 @@ For adiabatic transport along a [[loop]], $\gamma(0) = \gamma(1)$, this implies 
 
 The adiabatic parameter-action on [[ground states]] of ([[topological order|topologically ordered]]) [[quantum materials]] is one model for [[quantum computation]]. If these [[quantum gates]] depend only on the [[isotopy]] [[equivalence class|class]] of the parameter path, then one speaks of *[[topological quantum computation]]* (see also at *[braiding of anyonic defects](braid+group+statistics#AsBraidingOfDefects)*).
 
+The following graphics is meant to illustrate this general idea for the case of adiabatic transformation along the [[braid group|braiding]] of nodal points in the [[Brillouin torus]] of [[semi-metal]] [[quantum materials]] (see the discussion at *[[braid group statistics]] -- [anyonic band nodes](braid+group+statistics#AnyonicBandNodes)*):
+
+\begin{imagefromfile}
+    "file_name": "AdiabaticBraidingOfBandNodes-220604.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+> (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS22]])
 
 ## Related concepts
 
