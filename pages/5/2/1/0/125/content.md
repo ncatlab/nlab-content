@@ -105,6 +105,8 @@ In some older category theory papers, arrows were written pointing from right to
 
 * [[concatenation]]
 
+* [[composition ring]]
+
 
 [[!redirects composite]]
 [[!redirects composites]]
