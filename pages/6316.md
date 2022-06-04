@@ -20,6 +20,8 @@ For _subsystem_ of a [[physical system]] in [[quantum mechanics]], see:
 
 * [[entanglement entropy]]
 
+* [[parameterized quantum system]]
+
 [[!redirects subsystems]]
 
 [[!redirects independent subsystem]]
