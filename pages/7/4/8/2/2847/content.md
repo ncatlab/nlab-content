@@ -42,6 +42,9 @@ Here is a diagram showing the relation between these:
 
 <img src="http://websupport1.citytech.cuny.edu/faculty/vgitman/images/diagram.jpg"/>
 
+In the context of [[ZFC]], certain axioms are inconsistent with large cardinal axioms:
+
+[[ZFC-large-cardinals-consistency-strength.png:pic]]
 
 ## References
 
