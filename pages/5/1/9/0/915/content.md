@@ -1,5 +1,6 @@
+
 # Multi-valued functions
-* tic
+* table of contents
 {: toc}
 
 
@@ -34,6 +35,8 @@ In 19th-century analysis, one considered the square-root function, the [[logarit
 ## Related entries
 
 * [[selection theorem]]
+
+* [[universal cover]]
 
 
 [[!redirects multivalued function]]
