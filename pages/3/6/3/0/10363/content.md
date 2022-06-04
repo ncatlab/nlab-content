@@ -16,14 +16,22 @@ Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(
 * Goran Senjanović, [[Frank Wilczek]], [[Anthony Zee]], _Reflections on mirror fermions_,  Physics Letters B Volume 141, Issues 5–6, 5 July 1984, Pages 389-394 Physics Letters B (<a href="https://doi.org/10.1016/0370-2693(84)90269-7">doi:10.1016/0370-2693(84)90269-7</a>)
 
 
-On [[anyons]] (and introducing that terminology):
+On [[anyons]]:
 
 * {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** 1982 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)$]$
 
-* {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
-and specifically in the [[quantum Hall effect]]:
+and introducing the terminology "anyon":
 
-* Daniel Arovas, J. R. Schrieffer, [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
+* {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
+
+
+On [[anyon statistics|anyon phases]] (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of a [[quantum adiabatic theorem|adiabatic]] transport of anyon positions:
+
+* {#AvrosSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
+
+The model of [[anyon statistics]] as an [[Aharonov-Bohm effect]] of a "[[fictitious gauge field]]" sourced by and coupled to each anyon:
+
+* {#ArovasScriefferWilczekZee85} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
 
 On [[superfluidity]]/[[superconductivity]] *of* [[anyons]]:
 
@@ -64,7 +72,7 @@ On the [[landscape of string theory vacua]] and the [[multiverse]]:
 
 
 
-## Related $n$Lab entries
+## Related nLab entries
 
 * [[Hopf-Wess-Zumino terms]]
 
