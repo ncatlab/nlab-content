@@ -26,7 +26,7 @@ In [[formal logic]] such as [[type theory]] a _telescope_ $\Delta$ is a [[finite
 
 In [[dependent type theory]], telescopes are defined inductively with the following rules
 
-$$\frac{}{\epsilon\ \mathrm{tel}} \qquad \frac{\Delta\ \mathrm{tel} \quad \Delta \vdash A \mathrm{type}}{(\Delta,x:A)\ \mathrm{tel}}$$
+$$\frac{}{\epsilon\; \mathrm{tel}} \qquad \frac{\Delta\; \mathrm{tel} \quad \Delta \vdash A \mathrm{type}}{(\Delta,x:A)\; \mathrm{tel}}$$
 
 The substitutions of telescopes are defined inductively with the following rules
 
@@ -34,7 +34,7 @@ $$\frac{}{():\epsilon} \qquad \frac{\delta:\Delta \quad \Delta \vdash A \mathrm{
 
 which are mutually defined with their action on terms and types. 
 
-$$\frac{\Delta \vdash A\ \mathrm{type} \quad \delta:\Delta}{A[\delta]\ \mathrm{type}} \qquad \frac{\Delta \vdash a:A \quad \delta:\Delta}{a[\delta]:A[\delta]}$$
+$$\frac{\Delta \vdash A\; \mathrm{type} \quad \delta:\Delta}{A[\delta]\; \mathrm{type}} \qquad \frac{\Delta \vdash a:A \quad \delta:\Delta}{a[\delta]:A[\delta]}$$
 
 ## See also
 
@@ -45,6 +45,8 @@ $$\frac{\Delta \vdash A\ \mathrm{type} \quad \delta:\Delta}{A[\delta]\ \mathrm{t
 * [[dependent identity type]]
 
 ## References
+
+* [[Théo Winterhalter]], Formalisation and Meta-Theory of Type Theory ([web](https://github.com/TheoWinterhalter/phd-thesis))
 
 * [[Mike Shulman]], Towards a Third-Generation HOTT Part 2 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
 
