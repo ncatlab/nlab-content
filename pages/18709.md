@@ -109,7 +109,7 @@ Then its [[homotopy fiber]] inclusion is the classifying map $\vdash Fr(S^n)$ of
   \ar[
     drr,
     phantom,
-    "\mbox{\tiny\rm(pb)}"{
+    "\mbox{\tiny\textrm(pb)}"{
       description
     }
   ]
@@ -140,7 +140,7 @@ Then its [[homotopy fiber]] inclusion is the classifying map $\vdash Fr(S^n)$ of
   \ar[
     dr,
     phantom,
-    "\mbox{\tiny\rm(pb)}"{
+    "\mbox{\tiny\textrm(pb)}"{
       description
     }
   ]
@@ -155,7 +155,7 @@ Then its [[homotopy fiber]] inclusion is the classifying map $\vdash Fr(S^n)$ of
   \ar[
     dr,
     phantom,
-    "\mbox{\tiny\rm(pb)}"{
+    "\mbox{\tiny\textrm(pb)}"{
       description
     }
   ]
@@ -181,7 +181,7 @@ Then its [[homotopy fiber]] inclusion is the classifying map $\vdash Fr(S^n)$ of
   \ar[
     dr,
     phantom,
-    "\mbox{\tiny\rm(pb)}"{
+    "\mbox{\tiny\textrm(pb)}"{
       description
     }
   ]
@@ -283,7 +283,7 @@ hence fitting into a [[homotopy pullback]]-diagram as shown here:
     \ar[
       drr,
       phantom,
-      "\mbox{\tiny\rm(pb)}"
+      "\mbox{\tiny\textrm(pb)}"
     ]
     &
     {\phantom{AA}}
