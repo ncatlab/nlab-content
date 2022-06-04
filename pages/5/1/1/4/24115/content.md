@@ -14,7 +14,7 @@
 
 ## Idea
 
-In a [[finitely cocomplete category]], the [[dual]] of a [[subobject classifier]]. 
+The notion of a *quotient object coclassifier* in a [[finitely cocomplete category]] is [[abstract duality|dual]] to that of a *[[subobject classifier]]* in a [[finitely complete category]]. 
 
 ## Definition
 
@@ -23,11 +23,15 @@ In a category $C$ with [[finite colimits]], a quotient object coclassifier is an
 
 $$
   \array{
-    Q &\stackrel{\epsilon}{\to}& \mathbb{0}   
+    Q 
+      &\overset{\epsilon}{\longrightarrow}& 
+    \mathbb{0}   
     \\
-    \downarrow^{\digamma_U} && \downarrow^{\exists !}
+    \big\downarrow {}^{\mathrlap{\digamma_U}} 
+    && 
+    \big\downarrow {}^{\mathrlap{\exists !}}
     \\
-    X &\stackrel{f}{\to}& U
+    X &\underset{f}{\longrightarrow}& U
   }
   \,.
 $$
