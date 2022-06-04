@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 **Paraconsistent mathematics** is mathematics done with [[paraconsistent logic]]. Also called **inconsistent mathematics**. 
