@@ -1423,9 +1423,13 @@ For more on this see at _[[correlators as differential forms on configuration sp
 
 ### General 
 
-General accounts:
+Original articles:
 
 * [[Edward Fadell]], [[Lee Neuwirth]], _Configuration spaces_, Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126), [pdf](http://www.mscand.dk/article.php?id=1623)
+
+See also early occurences in [[phyics]], listed [below](#ReferencesInQuantumFieldTheory).
+
+General accounts:
 
 * [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001)  ([MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), [doi:10.1007/978-3-642-56446-8]([doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8)) xvi+313 
 
@@ -1683,15 +1687,20 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 * [[Fred Cohen]], [[Samuel Gitler]], _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, ([jstor:2693715](https://www.jstor.org/stable/2693715), [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013))
 
 ### In quantum field theory
- {ReferencesInQuantumFieldTheory}
+ {#ReferencesInQuantumFieldTheory}
+
+In [[physics]] ([[solid state physics]]/[[particle physics]]) the configuration space of points appears early on in the discussion of [[anyon statistics]], originally in:
+
+* {#LeinaasMyrheim77} J. M. Leinaas, J. Myrheim, pp. 22 of: _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
+
+* [[Frank Wilczek]], p. 959 of: *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](Frank+Wilczek#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
 
 In [[quantum field theory]] one may formalize [[correlators as differential forms on configuration spaces of points]].
-
-This perspective was originally considered specifically for [[Chern-Simons theory]] in 
+This perspective was originally considered specifically for [[Chern-Simons theory]] in:
 
 * {#AxelrodSinger93} [[Scott Axelrod]], [[Isadore Singer]],  _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
 
-which was re-amplified  in 
+which was re-amplified in: 
 
 * {#BottCattaneo97} [[Raoul Bott]], [[Alberto Cattaneo]], Remark 3.6 in _Integral invariants of 3-manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
 
