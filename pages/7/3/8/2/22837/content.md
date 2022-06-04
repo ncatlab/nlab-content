@@ -173,7 +173,7 @@ Consider the following [[commuting diagram]] of [[SimplicialSets]]:
     \ar[
       ddrr,
       phantom,
-      "\mbox{\tiny\rm (pb)}"{pos=.14}
+      "\mbox{\tiny\textrm (pb)}"{pos=.14}
     ]
     &&
     \frac{
