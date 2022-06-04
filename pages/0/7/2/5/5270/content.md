@@ -8,6 +8,17 @@ On the [[Jones polynomial]] via [[Chern-Simons theory]]:
 
 * [[Jürg Fröhlich]], C. King, _The Chern-Simons theory and knot polynomials_, Comm. Math. Phys. Volume 126, Number 1 (1989), 167-199 ([euclid.cmp/1104179728](https://projecteuclid.org/euclid.cmp/1104179728))
 
+On [[anyons]] and [[braid group statistics]] via [[algebraic quantum field theory]]:
+
+* {#FroehlichMarchetti88} [[Jürg Fröhlich]], [[Pieralberto Marchetti]], *Quantum field theory of anyons*, Lett. Math. Phys. **16** (1988) 347–358 (reprinted in [Wilczek 1990, p. 202-213](#Wilczek90)) $[$[doi:10.1007/BF00402043](https://doi.org/10.1007/BF00402043)$]$
+
+* [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], *Braid statistics in local quantum theory*, Reviews in Mathematical Physics, **2** 03 (1990) 251-353 $[$[doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107)$]$
+
+and making explicit the role of the [[configuration space of points]]:
+
+* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
+
+
 On [[non-perturbative quantum field theory]]:
 
 * {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific 1992 ([doi:10.1142/1245](https://doi.org/10.1142/1245))
