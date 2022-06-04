@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[anyons]]:
+
+*  [[Klaus Fredenhagen]], [[Matthias Gaberdiel]] and Stefan M. Rüger, *Scattering states of plektons (particles with braid group statistics) in 2+1 dimensional quantum field theory*, Communications in Mathematical Physics **175** (1996) 319–335 $[$[doi:10.1007/BF02102411](https://doi.org/10.1007/BF02102411)$]$
+
 On [[duality between type I and heterotic string theory]]:
 
 * [[Oren Bergman]], [[Matthias Gaberdiel]], G. Lifschytz, _String Creation and Heterotic-Type I' Duality_, Nucl. Phys. B524 (1998) 524-544 ([arXiv:hep-th/9711098](https://arxiv.org/abs/hep-th/9711098))
