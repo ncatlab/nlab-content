@@ -1,4 +1,8 @@
 
+> This entry is about algebras exhibiting "composition of sums of squares". For the un-related notion of [[rings]] exhibiting a structure akin to [[composition]] of [[endofunctions]] see at *[[composition ring]]*.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -459,20 +463,34 @@ For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v
 See also [[Moufang loop]]. 
 
 
-## Related $n$Lab entries
+## Related concepts
+
+* [[division algebra]]
 
 * [[alternative algebra]]
 
 * [[Cayley-Dickson construction]]
 
+* *un-related*: [[composition ring]]
+
 
 ## References
+ {#References}
 
-* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 1 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+The term "composition algebra" refers to "composition of sums of squares", as in 
+
+* {#Taussky70} Olga Taussky, Section 6 of: *Sums of squares*, The American Mathematical Monthly **77** 8  (1970) 805-830 $[$[doi:10.2307/2317016](https://doi.org/10.2307/2317016)$]$
+
+Textbook account on composition algebras:
+
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 1 of: _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+
+
+A general abstract formulation of [Rost 96](#Rost96) 
 
 * {#Rost96} Markus Rost, _On the dimension of a composition algebra_, Documenta  Mathematica __1__ (1996), 209-214, [files](http://www.math.uni-bielefeld.de/documenta/vol-01/10.html) Abstract: "The possible dimensions of a composition algebra are 1, 2, 4, or 8. We give a tensor categorical argument."
 
-A general abstract formulation of [Rost 96](#Rost96) in terms of [[string diagrams]] in [[additive category|additive]] [[braided monoidal categories]] is in
+in terms of [[string diagrams]] in [[additive category|additive]] [[braided monoidal categories]] is in
 
 * {#Street18} [[Ross Street]], _Vector product and composition algebras in braided monoidal additive categories_ ([arXiv:1812.04143](https://arxiv.org/abs/1812.04143))
 
