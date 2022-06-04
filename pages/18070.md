@@ -1703,7 +1703,13 @@ Concretely, [[anyon]]-[[wavefunctions]] are identified with [[multi-valued funct
 
 * [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], around (1.1) in: *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2),  [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
 
+* {#MundSchrader93} J. Mund, [[Robert Schrader]], *Hilbert Spaces for Nonrelativistic and Relativistic "Free" Plektons (Particles with Braid Group Statistics)*, in *Advances in dynamical systems and quantum physics* (Capri, 1993), World Sci. (1995) 235–259 $[$[arXiv:hep-th/9310054v2](https://arxiv.org/abs/hep-th/9310054)$]$
+
+
 * {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 $[$[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)$]$
+
+* {#DFT97} Gianfausto Dell'Antonio, Rodolfo Figari & Alessandro Teta, *Statistics in Space Dimension Two*, Letters in Mathematical Physics **40** (1997) 235–256 $[$[doi:10.1023/A:1007361832622](https://doi.org/10.1023/A:1007361832622)$]$
+
 
 * {#MurthyShankar09} [[M.V.N. Murthy]], [[Ramamurti Shankar]], p. 7, 50*Exclusion Statistics: From Pauli to Haldane* (1999, 2009) $[$[dspace:123456789/334](https://dspace.imsc.res.in/xmlui/handle/123456789/334), [pdf](https://www.imsc.res.in/xmlui/bitstream/handle/123456789/334/MR120.pdf?sequence=1), [[MurthyShankar-ExclusionStatistics.pdf:file]]$]$
 
