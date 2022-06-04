@@ -9,6 +9,7 @@ This is a small subcollection of my (Tom Mainiero's) personal notes on some func
 
 ## Baby's first GNS functor
 For the purposes of this section, $R$ is a fixed a unital ring and $A$ is a unital $R$-algebra.
+Although $R$ will not appear explicitly in any of the discussion in this section (so that $A$ could effectively just be thought of as a unital ring), we keep it around as the case where $A$ is a finite-dimensional (semisimple) $\mathbb{C}$-algebra is most relevant to later discussions involving the GNS construction.
 
 \begin{definition}
 Let ${}_{A}\mathbf{Mod}^{\bullet}$ denote the category with:
@@ -24,15 +25,18 @@ ${}_{A}\mathbf{Mod}^{\odot}$ is the full subcategory of ${}_{A}\mathbf{Mod}^{\bu
 For those that find the notion of a pointed module somewhat awkward, note that: ${}_{A}\mathbf{Mod}^{\bullet}$ is equivalent to the overcategory ${}_{A}{A}/{}_{A}\mathbf{Mod}$, where ${}_{A}\mathbf{Mod}$ is the category of left $A$-modules.
 \end{remark}
 
+\begin{notation}
 For any left $A$-module $M$, we denote the annihilator of a point $m \in M$ as:
 \[
 	\mathrm{Ann}_{A}(m) \coloneqq \{ a \in A : a \cdot m = 0 \}.
 \]
+\end{notation}
 
-The following lemma establishes the fact that the hom-set ${}_{A}\mathbf{Mod}^{\bullet}((M,m), (N,n))$ is either the empty set or a point when $(M,m)$ is a cyclic pointed module. 
+The following lemma, which will become useful later, describes the structure of the hom-sets ${}_{A}\mathbf{Mod}^{\bullet}((M,m), (N,n))$ when $(M,m)$ is a cyclic pointed module.
 
-\begin{lemma}
-	Let $(M,m)$ and $(N,n)$ be pointed $A$-modules and suppose $(M,m)$ is cyclic. Then there exists a morphism from $(M,m)$ to $(N,n)$ if and only if $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$.
+\begin{lemma}\label{lem:cyclic_thinness}
+	Let $(M,m)$ and $(N,n)$ be pointed $A$-modules and suppose $(M,m)$ is cyclic. 
+	Then there exists a morphism from $(M,m)$ to $(N,n)$ if and only if $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$.
 	Moreover, this morphism is unique when it exists.
 \end{lemma}
 \begin{proof}
@@ -41,20 +45,20 @@ The following lemma establishes the fact that the hom-set ${}_{A}\mathbf{Mod}^{\
 
 There is an immediate corollary of this Lemma: ${}_{A}\mathbf{Mod}^{\odot}$ is equivalent to the poset of left-ideals of $A$ (thought of as a category).
 This equivalence of categories is actually part of the restriction of a larger adjunction.
-We now spell out the details of this claim.
+We now spell out the definitions behind this claim.
 
 \begin{definition}
 $\mathbf{L}(A)$ is the [[thin category]] given by the poset of left ideals of $A$: 
 
 * objects are left ideals of $A$, and 
 
-* there is a unique morphism $I \to J$ if and only if $I \subseteq J$.
+* there is a unique morphism $I \overset{!}{\to} J$ if and only if $I \subseteq J$.
 
 \end{definition}
 
-Note that the process of taking annihilators of distinguished points of left $A$-modules defines a functor:
+The process of taking annihilators of distinguished points of left $A$-modules defines a functor:
 \[
-  \mathsf{Ann}_{A} \colon \mathbf{Mod}_{A}^{\bullet} \longrightarrow \mathbf{L}(A).
+  \mathsf{Ann}_{A} \colon {}_{A}\mathbf{Mod}^{\bullet} \longrightarrow \mathbf{L}(A).
 \]
 Explicitly: it acts on objects by:
 \[
@@ -66,7 +70,28 @@ and its action on morphisms is deduced from the following straightforward remark
  If $f \colon (M,m) \to (N,n)$ is a morphism of pointed modules, then $a \cdot n = a \cdot f(m) = f(a \cdot m)$; so we must have $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$
 \end{remark}
 
-Thus, for $f \colon (M,m) \to (N,n)$ a $\mathbf{Mod}^{\bullet}_{A}$-morphism, we can define $\mathsf{Ann}_{A}(f) \colon \mathsf{Ann}_{A}(m) \to \mathsf{Ann}_{A}(n)$ as the unique $\mathbf{L}(A)$-morphism given by the inclusion of ideals $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$.
+Thus, for $f \colon (M,m) \to (N,n)$ a $\mathbf{Mod}^{\bullet}_{A}$-morphism, we can define $\mathsf{Ann}_{A}(f) \colon \mathsf{Ann}_{A}(m) \to \mathsf{Ann}_{A}(n)$ as the unique $\mathbf{L}(A)$-morphism $\mathsf{Ann}_{A}(m) \overset{!}{\to} \mathsf{Ann}_{A}(n)$ given by the inclusion of ideals $\mathrm{Ann}_{A}(m) \subseteq \mathrm{Ann}_{A}(n)$.
+
+Alternatively, given any left-ideal $I$ of some $R$-algebra $A$, one can produce an $A$-module $A/I$.
+This module has a distinguished point $[1_{A}] \coloneqq 1_{A} + I$, where $1_{A}$ is the identity of $A$.
+Moreover, $A \cdot [1_{A}] = A/I$; so, so the pointed module $(A/I, [1])$ is \textit{cyclic}.
+This process defines a functor:
+\[
+	\mathsf{Quot} \colon \mathbf{L}(A) \longrightarrow {}_{A}\mathbf{Mod}^{\odot}
+\]
+whose action on objects is as described above:
+\[
+	\mathsf{Quot} \colon I \mapsto (A/I, [1_{A}])
+\]
+and action on morphisms is given by:
+\[
+	\mathsf{Quot} \colon (I \overset{!}{\to} J) \mapsto q^{I}_{J}
+\]
+where $q^{I}_{J}$ is the tautological map of pointed modules acting by:
+\[
+	q^{I}_{J}: a + I \mapsto a + J
+\]
+for any $a \in A$; this is well-defined as $J \subseteq I$.
 
 \begin{proposition}
 There is an adjunction:
@@ -83,13 +108,26 @@ restricting to an equivalence
 \begin{center}
   \begin{tikzcd}
     \mathbf{L}(A)
-     \arrow[r, shift right=6pt, "\mathsf{Quot}_{A}"']
+	\arrow[r, shift right=6pt, "\widehat{\mathsf{Quot}}_{A}"']
     & 
     {}_{A}\mathbf{Mod}^{\odot}
      \arrow[l, shift right=6pt, "\mathsf{Ann}_{A}"']
   \end{tikzcd}
 \end{center}
+where $\widehat{\mathsf{Quot}}_{A} = \iota \circ \mathsf{Quot}_{A}$ for $\iota$ the inclusion functor of cyclic pointed modules into pointed modules.
 \end{proposition}
+\begin{proof}
+We will define a unit 
+\[
+	\eta \colon \mathrm{id}_{\mathbf{L}(A)} \longrightarrow \mathsf{Ann}_{A} \circ \mathsf{Quot}
+\]
+and counit 
+\[
+	\epsilon \colon \mathsf{Quot} \circ \mathsf{Ann}_{A} \longrightarrow \mathrm{id}_{{}_{A}\mathbf{Mod}^{\bullet}}.
+\]
+satisfying the [[triangle identities]].
+Note that $\eta$ is given by assigning the identity morphism to each object of $\mathbf{L}(A)$: indeed, for any left-ideal we have $\mathsf{Ann}_{A} \circ \mathsf{Quot}(I) = \mathsf{Ann}_{A} \left[(A/I,[1]) \right] = I$. The counit $\epsilon$ is a bit more interesting: let $\mathsf{M} = (M,m)$ be a pointed-module and define $(K,k) \coloneqq \mathsf{Quot} \circ \mathsf{Ann}_{A}(\mathsf{M}) = (A/\mathrm{Ann}_{A}(m),[1])$. We have $\mathrm{Ann}_{A}(k) = \mathrm{Ann}_{A}(m)$; so by Lemma \ref{lem:cyclic_thinness} there is a unique morphism $(K,k) \rightarrow (M,m)$; this defines the morphism $\epsilon_{(M,m)}$. The triangle identities are trivial.
+\end{proof}
 
 ### Connection to the GNS construction
 The above observations are simple shadows of the functorality of the GNS construction for [[C-star-algebra|C*-algebras]] and [[von Neumann algebra|W*-algebras]].
@@ -232,4 +270,3 @@ Our next step is to unravel the functors $\mathsf{GNS}$ and $\mathsf{Fnl}$
 [[!redirects Functorial Aspects of the GNS Representation]]
 [[!redirects Functorial Aspects of the GNS Representation]]
 [[!redirects functorial aspects of the gns representation]]
-
