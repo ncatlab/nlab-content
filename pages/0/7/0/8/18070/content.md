@@ -1693,16 +1693,25 @@ In [[physics]] ([[solid state physics]]/[[particle physics]]) the configuration 
 
 * [[Michael G. G. Laidlaw]], [[Cécile Morette DeWitt]], *Feynman Functional Integrals for Systems of Indistinguishable Particles*, Phys. Rev. D **3** (1971) 1375 $[$[doi:10.1103/PhysRevD.3.1375](https://doi.org/10.1103/PhysRevD.3.1375)$]$
 
-
-* {#LeinaasMyrheim77} J. M. Leinaas, J. Myrheim, pp. 22 of: _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
+* {#LeinaasMyrheim77} [[Jon Magne Leinaas]], [[Jan Myrheim]], pp. 22 of: _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
 * [[Frank Wilczek]], p. 959 of: *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](Frank+Wilczek#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
 
+Concretely, [[anyon]]-[[wavefunctions]] are identified with [[multi-valued functions]] on a configuration space of points, see [there](braid+group+statistics#AsAFictitiousAharonovBohmEffect):
+
+* {#ImboImboSudarshan90} Tom Imbo, Chandni Shah Imbo, E. C. G. Sudarshan, *Identical particles, exotic statistics and braid groups*, Physics Letters B **234** 1–2, (1990) 103-107 $[$<a href="https://doi.org/10.1016/0370-2693(90)92010-G">doi:10.1016/0370-2693(90)92010-G</a>, [pdf](https://lib-extopc.kek.jp/preprints/PDF/2000/0033/0033552.pdf)$]$
+
 * [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], around (1.1) in: *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2),  [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
 
+* {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 $[$[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)$]$
+
+* {#MurthyShankar09} [[M.V.N. Murthy]], [[Ramamurti Shankar]], p. 7, 50*Exclusion Statistics: From Pauli to Haldane* (1999, 2009) $[$[dspace:123456789/334](https://dspace.imsc.res.in/xmlui/handle/123456789/334), [pdf](https://www.imsc.res.in/xmlui/bitstream/handle/123456789/334/MR120.pdf?sequence=1), [[MurthyShankar-ExclusionStatistics.pdf:file]]$]$
 
 
-In [[quantum field theory]] one may formalize [[correlators as differential forms on configuration spaces of points]].
+
+
+
+Moreover, in [[quantum field theory]] one may formalize [[correlators as differential forms on configuration spaces of points]].
 This perspective was originally considered specifically for [[Chern-Simons theory]] in:
 
 * {#AxelrodSinger93} [[Scott Axelrod]], [[Isadore Singer]],  _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
