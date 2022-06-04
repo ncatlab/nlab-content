@@ -36,6 +36,7 @@ The fact that the two of these together imply _ex contradictione quodlibet_ is k
 Here we survey some paraconsistent logics.  In-depth development of particular paraconsistent logics should be done on separate individual pages.
 
 ### Aristotelian syllogistic
+ {#AristotelianSyllogistic}
 
 Paraconsistent logic may seem bizarre to a modern mathematician, but the universal adoption of _ex contradictione quodlibet_ is actually quite recent, dating roughly to the invention in the 19th century of what is now called (clearly inappropriately) [[classical logic]].
 
