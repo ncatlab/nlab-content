@@ -17,7 +17,7 @@
 
 \section{Idea}
 
-A sketch is one formalisation of the notion of a [[theory]], going back to [[Charles Ehresmann]]. It is highly diagrammatic, and has the advantage of being very close to [[category theory]], allowing it to very naturally express the category theoretic structure which is required to construct a [[model]] of the theory ([[finite products]], say). On the other hand, it is not a very concise notion: as Example \ref{ExampleSketchUnitalMagmas} illustrates, writing down the full details of a sketch even in the simplest examples takes time!
+The notion of a *sketch* ([Bastiani & Ehresmann 1972](#BastianiEhresmann72)) is one formalisation of the notion of a *[[theory]]*. It is [[diagram|diagrammatic]], and has the advantage of being very close to [[category theory]], allowing it to very naturally express the category theoretic structure which is required to construct a [[model]] of the theory ([[finite products]], say). On the other hand, it is not a very concise notion: as Example \ref{ExampleSketchUnitalMagmas} illustrates, writing down the full details of a sketch even in the simplest examples takes time!
 
 There is a precise correspondence between categories of models of sketches and [[accessible category|accessible categories]] and [[locally presentable category|locally presentable categories]], discussed below.
 
@@ -400,7 +400,7 @@ On the other hand $M$-models in $S$-Mod are pairs of monoids one of which has on
 Original articles:
 
 
-* [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
+* {#BastianiEhresmann72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome **13** no 2 (1972)  104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
 Overview in:
 
