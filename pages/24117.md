@@ -14,7 +14,7 @@
 
 ## Idea
 
-The [[dual]] of a [[well-pointed topos]]. 
+The notion of *co-well-pointed cotopos* is [[abstract duality|dual]] to that of *[[well-pointed topos]]*. 
 
 ## Definition
 
