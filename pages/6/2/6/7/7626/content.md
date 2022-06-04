@@ -112,13 +112,14 @@ But the notion of codimension=2 defects subsumes situations that are quite diffe
 * [defect branes](#DefectBranes).
 
 
-### As a "fictitious" Aharonov-Bohm effect
+
+#### As a "fictitious" Aharonov-Bohm effect
  {#AsAFictitiousAharonovBohmEffect}
 
-A concrete model for (defect) anyons was proposed in 
-[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89):
+A concrete model for (defect) anyons via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "fictitious gauge field" was proposed in 
+[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (this model has been advertized in several early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90) but seems not to have been developed since):
 
-The model there regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)): 
+The model regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)): 
 
 Each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] ([[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the particle's positions.
 
@@ -128,7 +129,9 @@ For emphases, from [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
 interactions) as fermions; the interaction then makes them anyons with statistical 
 parameter ($\theta = \pi(1 - 1/ n$).
 
-This construction has been advertized in several early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90) but seems not to have been developed since.
+Moreover, the [[quasi-particle]]-excitations *of* a gas of such anyons are argued to be [[vortices]] ([CWWH89, p. 457](#ChenWilczekWittenHalperin89)):
+
+> we are led to conclude that *in anyon superconductivity, charged quasi-particles and vortices do not constitute two separate sorts of elementary excitations - they are one and the same.*
 
 
 
