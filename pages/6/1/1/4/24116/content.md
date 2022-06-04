@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
 =--
 =--
 
