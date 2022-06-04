@@ -29,12 +29,12 @@ This can be thought of as:
 *  the subalgebra of those $2$-by-$2$ real [[matrix|matrices]] of the form
    $$ \left(\array { a & b \\ - b & a } \right);$$
 *  the [[polynomial]] ring $\mathbb{R}[\mathrm{x}]$ modulo $\mathrm{x}^2 + 1$;
-*  the [[algebraic closure]] of $\mathbb{R}$ as a field;
 *  the result of applying the [[Cayley–Dickson construction]] to $\mathbb{R}$;
 *  the $2$-dimensional [[normed division algebra]] over $\mathbb{R}$;
 *  the [[Clifford algebra]] $Cl_{0,1}(\mathbb{R})$;
 *  the elliptic $2$-dimensional algebra of [[hypercomplex numbers]];
 *  the [[complexification]] of $\mathbb{R}$;
+*  In mathematics with [[weak countable choice]], the [[algebraic closure]] of $\mathbb{R}$ as a field;
 
 We think of $\mathbb{R}$ as a [[subset]] (in fact ${\mathbb{R}}$-vector subspace) of $\mathbb{C}$ by identifying $a$ with $a + \mathrm{i} 0$.  $\mathbb{C}$ is equipped with a $\mathbb{R}$-linear [[involution]] , called __[[complex conjugation]]__, that maps $\mathrm{i}$ to $\bar{\mathrm{i}} = -\mathrm{i}$. Concretely, $ \overline{a + \mathrm{i} b} = a - \mathrm{i} b $. 
 
