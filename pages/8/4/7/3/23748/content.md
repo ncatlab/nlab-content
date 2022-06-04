@@ -22,6 +22,9 @@ In [[quantum physics]], the *quantum adiabatic theorem* for a [[parameterized qu
 
 For adiabatic transport along a [[loop]], $\gamma(0) = \gamma(1)$, this implies that the [[eigenspaces]] of the system are acted on by [[unitary operators]], which (at least for multiplicity/eigen-dimension 1) are  known as *[[Berry phases]]*.
 
+The adiabatic parameter-action on [[ground states]] of ([[topological order|topologically ordered]]) [[quantum materials]] is one model for [[quantum computation]]. If these [[quantum gates]] depend only on the [[isotopy]] [[equivalence class|class]] of the parameter path, then one speaks of *[[topological quantum computation]]* (see also at *[braiding of anyonic defects](braid+group+statistics#AsBraidingOfDefects)*).
+
+
 ## Related concepts
 
 * [[Berry connection]], [[Berry phase]], [[Zak phase]]
