@@ -21,10 +21,17 @@ A [[function]] which is [[differentiable function]] to arbitrary order is called
 
 Let $\mathbb{R}$ be the [[real numbers]]. A function $f:\mathbb{R} \to \mathbb{R}$ is **smooth** if it comes with a [[sequence]] of functions $D^{(-)}f:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$ and a sequence of functions $M^{(-)}f:\mathbb{N} \to (\mathbb{Q}_+ \to \mathbb{Q}_+)$ in the positive rational numbers, such that 
 
-* $D^{0}(f) = f$
+* for every real number $x \in \mathbb{R}$, $(D^{0}f)(x) = f(x)$
 
 * for every natural number $n \in \mathbb{N}$, for every positive rational number $\epsilon \in \mathbb{Q}_+$, for every real number $h \in \mathbb{R}$ such that $0 \lt | h | \lt M^{n}f(\epsilon)$, and for every real number $x \in \mathbb{R}$, 
-$$|D^{n}f(x + h) - D^{n}f(x) - h D^{n + 1}f(x)| \lt \epsilon |h|$$
+$$|(D^{n}f)(x + h) - (D^{n}f)(x) - h (D^{n + 1}f)(x)| \lt \epsilon |h|$$
+
+Unwrapping the recursive definition above, a function $f:\mathbb{R} \to \mathbb{R}$ is **smooth** if it comes with a [[sequence]] of functions $D^{(-)}f:\mathbb{N} \to (\mathbb{R} \to \mathbb{R})$ and a sequence of functions $M^{(-)}f:\mathbb{N} \to (\mathbb{Q}_+ \to \mathbb{Q}_+)$ in the positive rational numbers, such that 
+
+* for every real number $x \in \mathbb{R}$, $(D^{0}f)(x) = f(x)$
+
+* for every natural number $n \in \mathbb{N}$, for every positive rational number $\epsilon \in \mathbb{Q}_+$, for every real number $h \in \mathbb{R}$ such that $0 \lt | h | \lt M^{n}f(\epsilon)$, and for every real number $x \in \mathbb{R}$, 
+$$\left|f(x + h) - \sum_{i=0}^n \frac{h^i (D^{i}f)(x)}{i!}\right| \lt \epsilon |h^n|$$
 
 ### Between Cartesian spaces
 
