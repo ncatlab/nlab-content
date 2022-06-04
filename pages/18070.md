@@ -1691,6 +1691,9 @@ In: Yoshiaki Maeda, Hideki Omori, [[Alan Weinstein]] (eds.), _Symplectic Geometr
 
 In [[physics]] ([[solid state physics]]/[[particle physics]]) the configuration space of points appears early on in the discussion of [[anyon statistics]], originally in:
 
+* [[Michael G. G. Laidlaw]], [[Cécile Morette DeWitt]], *Feynman Functional Integrals for Systems of Indistinguishable Particles*, Phys. Rev. D **3** (1971) 1375 $[$[doi:10.1103/PhysRevD.3.1375](https://doi.org/10.1103/PhysRevD.3.1375)$]$
+
+
 * {#LeinaasMyrheim77} J. M. Leinaas, J. Myrheim, pp. 22 of: _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
 * [[Frank Wilczek]], p. 959 of: *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](Frank+Wilczek#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
