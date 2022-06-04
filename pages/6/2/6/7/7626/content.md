@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -59,9 +60,9 @@ which allows one to regard any [[linear representation]] of the symmetric group 
 
 In this sense, one may imagine that *any* [[braid group representations]] may generalize the boson/fermion statistics in 2+1 dimensions. Texts typically suggest that this applies to *[[quasiparticle|quasiparticles]]*. 
 
-The term *anyon* is a pun on this state of affairs that *any* statistics "in between" boson- and fermion-statistics may be allowed.
+The term *anyon* (due to [Wilczek 1982b](#Wilczek82b)) is a pun on this state of affairs that *any* statistics "in between" boson- and fermion-statistics may be allowed.
 
-On the other hand, anyonic braiding is conceptually different from boson/fermion statistics -- if it were on the same footing then the [[spin-statistics theorem]] would *rule out* anyonic braiding. This is acknowledged by [Chen, Wilczek, Witten & Halperin 1989, p. 352](#ChenWilczekWittenHalperin89) (cf. also [Wilczek 1990, §I.2, pp. 1](#Wilczek90)):
+On the other hand, anyonic braiding is conceptually different from boson/fermion statistics -- if it were on the same footing then the [[spin-statistics theorem]] would *rule out* anyonic braiding. This is acknowledged by [Chen, Wilczek, Witten & Halperin 1989, p. 352](#ChenWilczekWittenHalperin89) (cf. also [Wilczek 1990, §I.2, pp. 11](#Wilczek90)):
 
 > Once the [[permutation group]] is replaced by the [[braid group]], the simple construction of passing from the solution to the one-particle problems to the solution of many-particle problems, familiar from the free bosons and free fermions, does not work anymore. 
 
@@ -77,13 +78,13 @@ In contrast to the popular motivation [above](#AsGeneralizedBosonFermionStatisti
 >  *Anyons can arise in two ways: as localised excitations of an interacting
 quantum Hamiltonian or as defects in an ordered system.*  $[$[Das Sarma, Freedman & Nayak 2015, p. 1](topological+quantum+computation#DasSarmaFreedmanNayak15)$]$
 
-(Compare also the original discussions in [Goldin, Menikoff & Sharp 1981, §III](#GoldinMenikoffSharp81), [Wilczek 1982](#Wilczek82) & [Wilczek 1990, p. 5](#Wilczek90), which offer a quantum particle "[[bound state|bound]]" to a classical & infinite [[solenoid]] -- hence a 2d [[magnetic monopole]] [[defect]] -- as a decent model for an anyon.)
+(Compare also the original discussions in [Goldin, Menikoff & Sharp 1981, §III](#GoldinMenikoffSharp81), [Wilczek 1982a](#Wilczek82a) & [Wilczek 1990, p. 5](#Wilczek90), which offer a quantum particle "[[bound state|bound]]" to a classical & infinite [[solenoid]] -- hence a 2d [[magnetic monopole]] [[defect]] -- as a decent model for an anyon.)
 
 But [[defects]] are a kind of [[boundary conditions]], hence *external parameters* or *[[background fields]]* for the actual [[quantum field]]. 
 
-Concretely, a widely appreciated proposal ([Moore & Read 1991](#MooreRead91), [Read & Rezayi 9199](#ReadRezayi99)) identifies anyonic ground state [[wavefunctions]] with [[conformal blocks]] of a [[2d CFT]] -- [[AdS3-CFT2 and CS-WZW correspondence|hence]] with [[Chern-Simons theory]] [[quantum states|states]] -- with prescribed poles at the location of the anyons.
+Concretely, a widely appreciated proposal ([Moore & Read 1991](#MooreRead91), [Read & Rezayi 1999](#ReadRezayi99)) identifies anyonic ground state [[wavefunctions]] with [[conformal blocks]] of a [[2d CFT]] -- [[AdS3-CFT2 and CS-WZW correspondence|hence]] with [[Chern-Simons theory]] [[quantum states|states]] -- with prescribed poles at the location of the anyons.
 
-Now the [[adiabatic theorem]] says that the sufficiently slow motion of such external parameters transforms the quantum [[ground state]] by [[unitary operators]] ("[[Berry phases]]"). This suggests that:
+Now the [[adiabatic theorem]] says that the sufficiently slow motion of such external parameters transforms the quantum [[ground state]] by [[unitary operators]] ("[[Berry phases]]"). This suggests ([Avros, Schrieffer & Wilczek 1984](#AvrosSchriefferWilczek84)) that:
 
 \begin{definition}\label{DefectBraiding}
 **(adiabatic defect braiding)**
@@ -92,7 +93,7 @@ Now the [[adiabatic theorem]] says that the sufficiently slow motion of such ext
 
 Here 
 
-1. for point-defects the "configuration space" is the [[configuration space of points]] in a [[surface]] (as touched upon already in [Leinaas & Myrheim 1977, pp. 22](#LeinaasMyrheim77), albeit briefly/vaguely), such as in the [[plane]], in which case its fundamental group is the [[braid group]];
+1. for point-defects the "configuration space" is the [[configuration space of points]] in a [[surface]] (as briefly touched upon already in [Leinaas & Myrheim 1977, pp. 22](#LeinaasMyrheim77), [Wilczek 1982b, p. 959](#Wilczek82b)), such as in the [[plane]], in which case its fundamental group is the [[braid group]];
 
 1. "topological" is meant as in [[topological quantum field theory]]: The induced [[adiabatic theorem|adiabatic]] [[unitary transformation]] is demanded/assumed to depend only on the [[isotopy]]-class of the defect-[[worldlines]], hence only on the underlying [[braid group|braid]]-pattern.
 
@@ -116,8 +117,8 @@ But the notion of codimension=2 defects subsumes situations that are quite diffe
 #### As a "fictitious" Aharonov-Bohm effect
  {#AsAFictitiousAharonovBohmEffect}
 
-A concrete model for (defect) anyons via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "fictitious gauge field" was proposed in 
-[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (this model has been advertized in several early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90) but seems not to have been developed since):
+A concrete model for anyons via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "[[fictitious gauge field]]" was proposed in [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85) and developed in
+[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (the model has been advertized in early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90), [Wilczek 1991](#Wilczek91), but seems not to have been developed much since):
 
 The model regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)), in that
 each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] (a [[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the other particle's positions.
@@ -224,23 +225,38 @@ It has been suggest in [deBoer & Shigemori 2012, p. 65](defect+brane#deBoerShige
 
 * [[quantum Hall effect]]
 
+
 ## References
 
 ### General
 
-The concept of [[anyons]] satisfying [[braid group statistics]] originated independently in
+The concept of [[anyons]] satisfying [[braid group statistics]] originated independently in:
 
 * {#LeinaasMyrheim77} J. M. Leinaas, J. Myrheim, _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
 * {#GoldinMenikoffSharp81} G. A. Goldin, R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) $[$[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)$]$ 
 
-* {#Wilczek82} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. 48, 1144, 1982 ([doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144))
+* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** 1982 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)$]$
 
-Comprehensive accounts:
+The term *anyon* was introduced in:
 
-* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) $[$[doi:10.1142/0961](https://doi.org/10.1142/0961)$]$
+* {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
 
-* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
+Identification of anyon phases (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of a [[quantum adiabatic theorem|adiabatic]] transport of anyon positions:
+
+* {#AvrosSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
+
+
+
+
+The "[[fictitious gauge field]]"-method for modelling anyons:
+
+* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
+
+* {#ChenWilczekWittenHalperin89} [[Yi-Hong Chen]], [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990, p. 342-408](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
+
+* {#Wilczek91} [[Frank Wilczek]], *States of Anyon Matter*,  International Journal of Modern Physics B **05** 09 (1991) 1273-1312 $[$[doi:10.1142/S0217979291000626](https://doi.org/10.1142/S0217979291000626)$]$
+
 
 The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essentially [[conformal blocks]] of [[2d CFT]] (notably for [[su(2)-anyons]]):
 
@@ -248,9 +264,12 @@ The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essential
 
 * {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
 
-On [[superfluidity]]/[[superconductivity]] *of* [[anyons]]:
+More comprehensive accounts of anyons:
 
-* {#ChenWilczekWittenHalperin89} Yi-Hong Chen, [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
+* {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) $[$[doi:10.1142/0961](https://doi.org/10.1142/0961)$]$
+
+* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
+
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
 
@@ -350,3 +369,4 @@ The claimed observation of abelian anyons is apparently more securely establishe
 
 [[!redirects non-abelian anyon]]
 [[!redirects non-abelian anyons]]
+
