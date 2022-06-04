@@ -11,7 +11,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -94,12 +93,19 @@ For emphasis, from [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
 
 > Here the particles are to be regarded (in the absence of 
 interactions) as fermions; the interaction then makes them anyons with statistical 
-parameter ($\theta = \pi(1 - 1/ n$).
+parameter $\theta = \pi(1 - 1/n)$.
 
-Moreover, the [[quasi-particle]]-excitations *of* a gas of such anyons are argued to be [[vortices]] ([CWWH89, p. 457](#ChenWilczekWittenHalperin89)):
+It follows that (quoting from [Fröhlich, Gabbiani & Marchetti 1990, p. 20](#FroehlichGabbianiMarchetti90)):
+
+> If $\theta \in\!\!\!\!\!/ \frac{1}{2}\mathbb{Z}$ the [[space of quantum states|Hilbert space]] of [[anyon]] [[wave functions]] must be chosen to be a space of [[multi-valued functions]] with half-[[monodromies]] given by the [[complex phase|phase]] factors $exp(2 \pi \mathrm{i} \theta)$. Such wave functions can be viewed as single-valued functions on the [[universal cover]] $\widetilde M_n$ of $M_n$ $[$the [[configuration space of points]]$]$.
+
+Incidentally, the [[quasi-particle]]-excitations *of* (or *in*) a gas of such Aharonov-Bohm phased anyons are argued to be [[vortices]] ([CWWH89, p. 457](#ChenWilczekWittenHalperin89)):
 
 > we are led to conclude that *in anyon superconductivity, charged quasi-particles and vortices do not constitute two separate sorts of elementary excitations - they are one and the same.*
 
+This seamlessly leads over to:
+
+\linebreak
 
 ### Braiding of anyonic defects -- via adiabatic Berry phases
  {#AsBraidingOfDefects}
@@ -154,7 +160,10 @@ But the notion of codimension=2 defects subsumes situations that are quite diffe
  {#VortexAnyons}
 
 
-Specifically, *[[vortex]] anyons* are realized in [[Bose-Einstein condensates]] ([MPSS19](#MPSS19), following [PFCZ01](#PFCZ01)) and in (other) [[superfluids]] ([MMN21](#MMN21)). A more theoretical but instructive [[lattice model]] of vortex anyons is analyzed in detail in [Kitaev 2006](#Kitaev06).
+Specifically, *[[vortex]] anyons* are realized in [[Bose-Einstein condensates]] ([MPSS19](#MPSS19), following [PFCZ01](#PFCZ01)) and in (other) [[superfluids]] ([MMN21](#MMN21)). 
+
+A theoretical model of vortex anyons in a [[Higgs field]] [[interaction|coupled to]] [[Chern-Simons theory]] is discussed in [Fröhlich & Marchetti 1988](#FroehlichMarchetti88).
+An instructive [[lattice model]] of vortex anyons is analyzed in detail in [Kitaev 2006](#Kitaev06).
 
 Much attention in current efforts towards realizing [[topological quantum computation]] is being paid to anyons realized as [[Majorana zero modes]] [[bound state|bound]] to [[vortices]] ([Das Sarma, Freedman & Nayak 2015](topological+quantum+computation#DasSarmaFreedmanNayak15), cf. [MMBDRSC19](su2-anyon#MMBDRSC19))
 
@@ -257,7 +266,7 @@ The term *anyon* was introduced in:
 
 * {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
 
-Identification of anyon phases (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of a [[quantum adiabatic theorem|adiabatic]] transport of anyon positions:
+Identification of anyon phases (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of an [[quantum adiabatic theorem|adiabatic transport]] of anyon positions:
 
 * {#AvrosSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
 
@@ -288,11 +297,16 @@ More comprehensive accounts of anyons:
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
 
+* {#FroehlichMarchetti88} [[Jürg Fröhlich]], [[Pieralberto Marchetti]], *Quantum field theory of anyons*, Lett. Math. Phys. **16** (1988) 347–358 (reprinted in [Wilczek 1990, p. 202-213](#Wilczek90)) $[$[doi:10.1007/BF00402043](https://doi.org/10.1007/BF00402043)$]$
+
+* [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], *Braid statistics in local quantum theory*, Reviews in Mathematical Physics, **2** 03 (1990) 251-353 $[$[doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107)$]$
+
+* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
+
 * [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- I: General theory_,   Comm. Math. Phys. Volume 125, Number 2 (1989), 201-226.  ([euclid:cmp/1104179464](http://projecteuclid.org/euclid.cmp/1104179464))
 
 * [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- II: Geometric aspects and conformal covariance_,  Reviews in Mathematical PhysicsVol. 04, No. spec01, pp. 113-157 (1992)  ([doi:10.1142/S0129055X92000170](https://doi.org/10.1142/S0129055X92000170) [pdf](ftp://ftp.theorie.physik.uni-goettingen.de/pub/papers/rehren/92/superselection_sectors_II_RMP.pdf))
 
-* [[Jürg Fröhlich]], F. Gabbiani, _Braid statistics in local quantum theory_, Reviews in Mathematical Physics, Volume 2, Issue 03, pp. 251-353 (1990) ([doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107))_
 
 Discussion in terms of [[modular tensor categories]] 
 
