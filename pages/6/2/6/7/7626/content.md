@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -95,9 +96,11 @@ For emphasis, from [CWWH89, p. 359](#ChenWilczekWittenHalperin89):
 interactions) as fermions; the interaction then makes them anyons with statistical 
 parameter $\theta = \pi(1 - 1/n)$.
 
-It follows that (quoting from [Fröhlich, Gabbiani & Marchetti 1990, p. 20](#FroehlichGabbianiMarchetti90)):
+It follows ([Wu 1984](#Wu84), [Imbo, Imbo & Sudarshan 1990](#ImboImboSudarshan90)) that (quoting from [Fröhlich, Gabbiani & Marchetti 1990, p. 20](#FroehlichGabbianiMarchetti90)):
 
 > If $\theta \in\!\!\!\!\!/ \frac{1}{2}\mathbb{Z}$ the [[space of quantum states|Hilbert space]] of [[anyon]] [[wave functions]] must be chosen to be a space of [[multi-valued functions]] with half-[[monodromies]] given by the [[complex phase|phase]] factors $exp(2 \pi \mathrm{i} \theta)$. Such wave functions can be viewed as single-valued functions on the [[universal cover]] $\widetilde M_n$ of $M_n$ $[$the [[configuration space of points]]$]$.
+
+Further discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[configuration space of points]]: [BCMS93, §1](#BCMS93), [Myrheim 1999](#Myrheim99), [DMV03](#DMV03), [Murthy & Shankar 2009](#MurthyShankar09)
 
 Incidentally, the [[quasi-particle]]-excitations *of* (or *in*) a gas of such Aharonov-Bohm phased anyons are argued to be [[vortices]] ([CWWH89, p. 457](#ChenWilczekWittenHalperin89)):
 
@@ -256,7 +259,7 @@ It has been suggest in [deBoer & Shigemori 2012, p. 65](defect+brane#deBoerShige
 
 The concept of [[anyons]] satisfying [[braid group statistics]] originated independently in:
 
-* {#LeinaasMyrheim77} J. M. Leinaas, J. Myrheim, _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
+* {#LeinaasMyrheim77} [[Jon Magne Leinaas]], [[Jan Myrheim]], _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
 * {#GoldinMenikoffSharp81} G. A. Goldin, R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) $[$[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)$]$ 
 
@@ -306,6 +309,22 @@ Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantu
 * [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- I: General theory_,   Comm. Math. Phys. Volume 125, Number 2 (1989), 201-226.  ([euclid:cmp/1104179464](http://projecteuclid.org/euclid.cmp/1104179464))
 
 * [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- II: Geometric aspects and conformal covariance_,  Reviews in Mathematical PhysicsVol. 04, No. spec01, pp. 113-157 (1992)  ([doi:10.1142/S0129055X92000170](https://doi.org/10.1142/S0129055X92000170) [pdf](ftp://ftp.theorie.physik.uni-goettingen.de/pub/papers/rehren/92/superselection_sectors_II_RMP.pdf))
+
+Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[configuration space of points]]:
+
+* {#Wu84} [[Yong-Shi Wu]], *Multiparticle Quantum Mechanics Obeying Fractional Statistics*, Phys. Rev. Lett. **53** (1984) 111 $[$[doi:10.1103/PhysRevLett.53.111](https://doi.org/10.1103/PhysRevLett.53.111), [pdf](https://core.ac.uk/download/pdf/276286925.pdf)$]$
+
+* [Fröhlich, Gabbiani & Marchetti 1990, p. 20](#FroehlichGabbianiMarchetti90)
+
+* {#ImboImboSudarshan90} Tom Imbo, Chandni Shah Imbo, E. C. G. Sudarshan, *Identical particles, exotic statistics and braid groups*, Physics Letters B **234** 1–2, (1990) 103-107 $[$<a href="https://doi.org/10.1016/0370-2693(90)92010-G">doi:10.1016/0370-2693(90)92010-G</a>, [pdf](https://lib-extopc.kek.jp/preprints/PDF/2000/0033/0033552.pdf)$]$
+
+* {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 $[$[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)$]$
+
+* {#Myrheim99} [[Jan Myrheim]], *Anyons*, p. 265-414 in: *Topological aspects of low dimensional systems*, Les Houches LXIX, Springer (1999) $[$[doi:10.1007/3-540-46637-1](https://doi.org/10.1007/3-540-46637-1), [[Myrheim-Anyons.pdf:file]]$]$
+
+* {#MurthyShankar09} [[M.V.N. Murthy]], [[Ramamurti Shankar]], *Exclusion Statistics: From Pauli to Haldane* (1999, 2009) $[$[dspace:123456789/334](https://dspace.imsc.res.in/xmlui/handle/123456789/334), [pdf](https://www.imsc.res.in/xmlui/bitstream/handle/123456789/334/MR120.pdf?sequence=1), [[MurthyShankar-ExclusionStatistics.pdf:file]]$]$
+
+* {#DMV03} G. Date, [[M.V.N. Murthy]], [[Radhika Vathsan]], *Classical and Quantum Mechanics of Anyons* $[$[arXiv:cond-mat/0302019](https://arxiv.org/abs/cond-mat/0302019)$]$
 
 
 Discussion in terms of [[modular tensor categories]] 
