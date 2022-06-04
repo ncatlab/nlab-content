@@ -18,7 +18,9 @@
 
 ## Idea
 
-(...)
+In [[quantum physics]], the *quantum adiabatic theorem* for a [[parameterized quantum system]] says that under a sufficiently slow motion of the external parameters along a [[path]] $\gamma \,\colon\, [0,1] \to P$ in parameter space $P$, [[eigenstates]] for [[commutator|mutually commuting]] [[quantum observables]] of the [[quantum system]] at $\gamma(0)$ will approximately evolve to eigenstates at $\gamma(1)$, even if the corresponding [[eigenvalues]] change significantly.
+
+For adiabatic transport along a [[loop]], $\gamma(0) = \gamma(1)$, this implies that the [[eigenspaces]] of the system are acted on by [[unitary operators]], which (at least for multiplicity/eigen-dimension 1) are  known as *[[Berry phases]]*.
 
 ## Related concepts
 
