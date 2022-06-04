@@ -16,6 +16,7 @@
 * table of contents
 {:toc}
 
+
 ## Anyon braiding
  {#Idea}
 
@@ -25,13 +26,13 @@ Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"st
 
 But the actual mathematical nature of anyons must be different from that of elements of [[boson]]/[[fermion]]-[[Fock spaces]] and often remains somewhat uncertain in existing discussions. One may recognize two different more concrete conceptualizations of *anyons* in the literature:
 
-1. **anyonic quanta** much like [[boson]]/[[fermion]] [[quanta]] but subject to an additional global [[interaction]] by [[Aharonov-Bohm effect|Aharoniv-Bohm phases]] due to a [[flat connection|flat]] *[[fictitious gauge field]]* which is sourced by and coupled to each of the quanta;
+1. {#AnyonicQuanta} **anyonic quanta** much like [[boson]]/[[fermion]] [[quanta]] but subject to an additional global [[interaction]] by [[Aharonov-Bohm effect|Aharonov-Bohm phases]] due to a [[flat connection|flat]] *[[fictitious gauge field]]* which is sourced by and coupled to each of the quanta;
 
-   (this goes back to [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85), further developed in [Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89), see [below](#AsAFictitiousAharonovBohmEffect));
+   > (this goes back to [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85), further developed in [Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89), see [below](#AsAFictitiousAharonovBohmEffect))
 
-1. **anyonic defects** like [[vortices]] or other [[solitons]], whose position is a [[parameterized quantum system|classical parameter]] to the [[quantum system]], the *[[quantum adiabatic theorem|adiabatic movement]]* of which acts by [[Berry phases]] on the quantum [[ground state]].
+1. {#AnyonicDefects} **anyonic defects** like [[vortices]] or other [[solitons]], whose position is a [[parameterized quantum system|classical parameter]] to the [[quantum system]], the *[[quantum adiabatic theorem|adiabatic movement]]* of which acts by [[Berry phases]] on the quantum [[ground state]].
 
-    (e.g. [Avros, Schrieffer & Wilczek 1984](#AvrosSchriefferWilczek84), see [further below](#AsBraidingOfDefects))
+    > (e.g. [Avros, Schrieffer & Wilczek 1984](#AvrosSchriefferWilczek84), see [further below](#AsBraidingOfDefects))
 
 
 
@@ -81,8 +82,8 @@ On the other hand, anyonic braiding is conceptually different from boson/fermion
 ### Braiding of anyonic quanta -- via "fictitious" AB-phases
  {#AsAFictitiousAharonovBohmEffect}
 
-A concrete model for anyons via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "[[fictitious gauge field]]" was proposed in [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85) and developed in
-[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (the model has been advertized in early reviews (e.g. [Wilczek 1990, §I.3](#Wilczek90), [Wilczek 1991](#Wilczek91), but seems not to have been developed much since):
+A concrete model for *[anyonic quanta](#AnyonicQuanta)* via otherwise [[free field|free]] [[fermions]] in 2d [[interaction|interacting]] through a flat "[[fictitious gauge field]]" was proposed in [Arovas, Schrieffer, Wilczek & Zee 1985](#ArovasSchriefferWilczekZee85) and developed in
+[Chen, Wilczek, Witten & Halperin 1989](#ChenWilczekWittenHalperin89) (the model has been advertized in early reviews, e.g. [Wilczek 1990, §I.3](#Wilczek90) and [Wilczek 1991](#Wilczek91), but seems not to have been developed much since):
 
 The model regards anyons as *a priori* [[free field|free]] [[fermions]], but equipped now with a non-local mutual [[interaction]] via a "fictitious gauge field" ([CWWH89, §2](#ChenWilczekWittenHalperin89)), in that
 each of the particles is modeled as the singular source of a [[flat connection|flat]] [[circle bundle with connection|circle connection]] (a [[vector potential]] with vanishing [[field strength]]), which hence exerts no [[Lorentz force]] but has the effect that globally each particle is subject to the same [[Aharonov-Bohm effect]] as would be caused by a tuple of infinite [[solenoids]] piercing through each of the other particle's positions.
@@ -101,7 +102,7 @@ Moreover, the [[quasi-particle]]-excitations *of* a gas of such anyons are argue
 ### Braiding of anyonic defects -- via adiabatic Berry phases
  {#AsBraidingOfDefects}
 
-In contrast to the popular motivation [above](#AsGeneralizedBosonFermionStatistics), many (most?) incarnations of the concept of anyons are [[non-perturbative effect|non-perturbative]] [[soliton|solitonic]] [[defects]] (of [[codimension]]=2), akin to *[[vortices]]* in fluids:
+In practice, many (most?) incarnations of the concept of anyons are *[anyonic defects](#AnyonicDefects)* -- [[non-perturbative effect|non-perturbative]] [[soliton|solitonic]] [[defects]] (of [[codimension]]=2), akin to *[[vortices]]* in fluids:
 
 > *Anyonic particles are best viewed as a kind of topological defects that reveal non-trivial properties of the ground state.* $[$[Kitaev 2006, p. 4](#Kitaev06)$]$
 
