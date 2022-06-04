@@ -15,21 +15,23 @@
 
 ## Definition
 
-Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional [[vector space]] $V$ together with a 
+Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **composition algebra** over $k$ consists of a [[finite-dimensional vector space|finite-dimensional]] [[vector space]] $V$ together with a 
 
 * A nondegenerate symmetric [[bilinear form]] $\langle - , - \rangle: V \otimes V \to k$, 
 
-* A multiplication map, i.e., a linear map $- \cdot -: V \otimes V \to V$, 
+* A multiplication map, i.e., a [[bilinear map]] $- \cdot -: V \otimes V \to V$, 
 
-* A unit $e \in V$ for the multiplication, i.e., so that $e \cdot v = v = v \cdot e$, 
+* A [[unit]] $e \in V$ for the multiplication, i.e., so that $e \cdot v = v = v \cdot e$, 
 
 such that, putting $N(v) = \langle v, v \rangle$, 
 
 * $N(u) N(v) = N(u v)$ (writing $u v$ for $u \cdot v$). 
 
-There are no assumptions on the multiplication such as associativity, commutativity, etc. Examples of composition algebras include the real numbers, the complex numbers, the quaternions, the octonions, and the algebra of $2 \times 2$ matrices over a field. 
+Beware that there are *no* assumptions on the multiplication such as [[associativity]], [[commutativity]], etc. 
 
-Since $char(k) \neq 2$, we can recover the bilinear form from the norm by the formula 
+Examples of composition algebras include the [[real numbers]], the [[complex numbers]], the [[quaternions]], the [[octonions]], and the [[matrix algebra|algebra of $2 \times 2$ matrices]] over a [[field]]. 
+
+Since $char(k) \neq 2$, we can recover the [[bilinear form]] from the [[norm]] by the formula 
 
 $$\langle u, v \rangle = \frac{N(u + v) - N(u) - N(v)}{2}$$ 
 
