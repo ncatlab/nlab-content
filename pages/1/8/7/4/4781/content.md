@@ -55,7 +55,7 @@ For $\pi \colon P \to B$ a [[smooth function]] between [[smooth manifolds]], its
     ddr,
     phantom,
     "
-      \mbox{\tiny\rm(pb)}
+      \mbox{\tiny\textrm(pb)}
     "{
       description
     }
