@@ -14,7 +14,7 @@
 
 ## Idea 
 
-The [[dual]] of a [[cartesian closed category]]. 
+The notion of a *cocartesian coclosed category* is [[abstract duality|dual]] to that of a *[[cartesian closed category]]*. 
 
 ## Definition 
 
