@@ -13,9 +13,13 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A **paraconsistent arithmetic** is a model of arithmetic in [[paraconsistent mathematics]], mostly using [[first order logic|first-order]] [[paraconsistent logic]]. Also called **inconsistent arithmetic**. 
+A **paraconsistent arithmetic** is a [[model]] of [[arithmetic]] in [[paraconsistent mathematics]], mostly using [[first order logic|first-order]] [[paraconsistent logic]]. Also called **inconsistent arithmetic**. 
 
 ## See also
 
