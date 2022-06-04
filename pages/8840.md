@@ -99,6 +99,8 @@ This is possible because $\mathbb{R}^2 - \{0\}$ is not [[simply connected topolo
 
 * [[Dirac charge quantization]], [[magnetic monopole]]
 
+* anyonic [[braid group statistics]] -- *[As a "fictitious" Aharonov-Bohm effect](braid+group+statistics#AsAFictitiousAharonovBohmEffect)*
+
 ## References
 
 * L. Mangiarotti, [[Gennadi Sardanashvily]], section 6.6 of _Connections in Classical and Quantum Field Theory_, World Scientific, 2000
