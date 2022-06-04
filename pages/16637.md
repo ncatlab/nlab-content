@@ -203,7 +203,7 @@ On [[coset]]-realizations:
 
 * {#Kramer98} Linus Kramer, _Octonion Hermitian quadrangles_, Bull. Belg. Math. Soc. Simon Stevin Volume 5, Number 2/3 (1998), 353-362 ([euclid:1103409015](https://projecteuclid.org/euclid.bbms/1103409015))
 
-* {#Choquet-Bruhat+DeWitt-Morette00} Y. Choquet-Bruhat, C. DeWitt-Morette, _Analysis, Manifolds and Physics Part II_, North Holland 2000
+* {#Choquet-Bruhat+DeWitt-Morette00} [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, Part II, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
 
 * {#AwadaDuffPope83} M. A. Awada, [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. 50, 294 – Published 31 January 1983 ([doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294))
 
