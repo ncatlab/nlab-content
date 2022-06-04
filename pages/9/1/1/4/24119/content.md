@@ -14,7 +14,7 @@
 
 ## Idea 
 
-The [[dual]] of an [[exponential object]]. 
+The notion of *coexponential objects* is [[abstract duality|dual]] to that of *[[exponential objects]]*. 
 
 ## Definition 
 
