@@ -1695,6 +1695,10 @@ In [[physics]] ([[solid state physics]]/[[particle physics]]) the configuration 
 
 * [[Frank Wilczek]], p. 959 of: *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](Frank+Wilczek#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
 
+* [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], around (1.1) in: *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2),  [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
+
+
+
 In [[quantum field theory]] one may formalize [[correlators as differential forms on configuration spaces of points]].
 This perspective was originally considered specifically for [[Chern-Simons theory]] in:
 
