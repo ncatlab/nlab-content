@@ -86,7 +86,7 @@ where
 
 ### In a field ###
 
-If $S$ is a [[Heyting field]], then for every subset $A \in Ob(Part(S))$, $Hom(A, \Im(Part(S)))$ is a $S$-[[commutative algebra]], with global operators corresponding to composition, addition, negation, and multiplication of partial functions. Let 
+If $S$ is a [[Heyting field]], then for every subset $A \in Ob(Part(S))$, $Hom(A, \Im(S))$ is a $S$-[[commutative algebra]], with global operators corresponding to composition, addition, negation, and multiplication of partial functions. Let 
 
 $$Hom_{\#0}(A, \im(S)) \coloneqq \{f \in Hom(A, \Im(S)). \vert \forall x \in El(A).f(x) # 0\}$$
 
@@ -97,14 +97,22 @@ $$\frac{1}{(-)}: \{A \in Ob(Part(S)) \vert Hom(A, \Im(S))\} \to Hom_{\#0}(A, \Im
 where
 
 * for partial function $f \in Hom(A, \Im(S))$, 
-$$\frac{1}{\frac{1}{f}} \cdot \frac{1}{f} = \frac{1}{f}$$
+$$f \cdot \frac{1}{f} = id_{\im(f)_{\#0}}$$
 and 
-$$\frac{1}{f} \cdot \frac{1}{\frac{1}{f}} = \frac{1}{f}$$
+$$\frac{1}{f} \cdot f = id_{\im(f)_{\#0}}$$
+
+and the set $\im(f)_{\#0}$ is defined as 
+
+$$\im(f)_{\#0} \coloneqq \{x \in El(A)\vert f(x) # 0\}$$
 
 ## See also ##
 
 * [[partial function]]
 
+* [[rational function]]
+
 ## References ##
 
 * Fred Richman, [Algebraic functions, calculus style](https://web.archive.org/web/20130605213603/http://math.fau.edu/richman/Docs/Oily.pdf)
+
+[[!redirects reciprocal of partial functions]]
