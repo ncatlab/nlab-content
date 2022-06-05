@@ -20,11 +20,11 @@
 
 ## Idea ##
 
-A *Jordan content* is a kind of *[[content]]* which may be used to define the [[Riemann integral]] of [[indicator functions]] over a [[bounded set]], in the same way that [[Lebesgue measures]] are used to define the [[Lebesgue integral]] of [[indicator functions]]. 
+A *Jordan content* is a kind of *[[content (measure theory)|content]]* which may be used to define the [[Riemann integral]] of [[indicator functions]] over a [[bounded set]], in the same way that [[Lebesgue measures]] are used to define the [[Lebesgue integral]] of [[indicator functions]]. 
 
 ## See also 
 
-* [[content]]
+* [[content (measure theory)]]
 
 * [[Riemann integration]]
 
