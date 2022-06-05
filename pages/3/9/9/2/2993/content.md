@@ -129,7 +129,7 @@ $$C_k \times C_{n_1} \times \ldots \times C_{n_k} \to C_n$$
 +-- {: .num_remark}
 ###### Remark
 
-In case $R$ is an [[integral domain]], the [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational functions]].
+In case $R$ is an [[integral domain]], the [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational fractions]].
 
 =--
 
