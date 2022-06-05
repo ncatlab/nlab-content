@@ -4,6 +4,8 @@
 
 ## related $n$Lab entries
 
+* [[modularity theorem]]
+
 * [[Galois representation]]
 
 category: people
