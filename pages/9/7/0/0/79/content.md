@@ -73,6 +73,7 @@
 
 [[!include proof assistants and formalization projects -- list]]
 
+
 [[!redirects mathematics]]
 [[!redirects Mathematics]]
 [[!redirects math]]
