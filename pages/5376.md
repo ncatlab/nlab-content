@@ -236,7 +236,7 @@ $$\array{
 & & & & & & x \circ y & & & & \\ 
 & & & & & \swarrow & & \searrow & & & \\
 & & & & M y & & & & x & & \\ 
-& & & ^\mathllap{M h} \swarrow & & \searrow ^\mathrlap{M k} & & ^\mathllap{M f} \swarrow & & \searrow ^\mathrlap{g} & \\
+& & & ^\mathllap{M h} \swarrow & & \searrow ^\mathrlap{M k} & & ^\mathllap{f} \swarrow & & \searrow ^\mathrlap{g} & \\
 M b & \stackrel{m_b}{\leftarrow} & M M b & & & & M c & & & & d
 }$$ 
 
