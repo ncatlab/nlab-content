@@ -17,7 +17,7 @@
 
 ## Idea
 
-[[Andrew Wiles]] with [[Richard Taylor]] proved the [[Taniyama-Shimura modularity conjecture]]. By [[Ribet's theorem]] this implied a proof of [[Fermat's last theorem]].
+[[Andrew Wiles]] with [[Richard Taylor]] proved the [[modularity theorem]]. By [[Ribet's theorem]] this implied a proof of [[Fermat's last theorem]].
 
 ## References
 
