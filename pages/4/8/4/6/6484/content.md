@@ -9,7 +9,6 @@ Let $X$ be an [[affine variety]] over a field $k$ with the ring of [[regular fun
 
 * Wikipedia, _[Function field analogy](https://en.wikipedia.org/wiki/Function_field_analogy)_
 
-
 ## Related concepts
 
 * [[number field]]
