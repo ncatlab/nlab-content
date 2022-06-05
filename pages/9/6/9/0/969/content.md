@@ -211,6 +211,8 @@ See also [[localization of a simplicial model category]].
 
 * [[colocalization]]
 
+* [[ring of fractions]]
+
 ## References
 
 The classical reference to localization for categories is the book by Gabriel and Zisman:
