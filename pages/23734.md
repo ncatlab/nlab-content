@@ -60,7 +60,7 @@ $$\mathrm{Can}(F) \cong \{x \in F \vert 0 \lt \vert x \vert\}$$
 
 * [[Euclidean ring]]
 
-* [[prefield of fractions]]
+* [[ring of fractions]]
 
 * [[prevector space]]
 
