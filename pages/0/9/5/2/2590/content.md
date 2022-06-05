@@ -1,4 +1,4 @@
-[[!redirects effects of foundations on &quot;real&quot; mathematics]]
+[[!redirects effects of foundations on "real" mathematics]]
 
 #Contents#
 * table of contents
