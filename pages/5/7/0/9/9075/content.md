@@ -26,5 +26,4 @@ category: people
 
 
 [[!redirects Cecile DeWitt-Morette]]
-[[!redirects Cecile DeWitt-Morette]]
 [[!redirects Cécile Morette DeWitt]]
