@@ -22,14 +22,17 @@
 {:toc}
 
 ## Idea 
+ {#Idea}
 
 In [[dependent type theory]], sometimes one could [[inductive definition|inductively define]] an equality type directly on an [[inductive type]], rather than using Martin-Loef's [[identity types]] using the j-rule. This equality type is called **observational equality**. 
 
 ## Examples
+ {#Examples}
 
 ### Empty type
+ {#EmptyType}
 
-Observational equality for the unit type $\mathrm{Eq}_\mathbb{0}(x, y)$ is an indexed inductive type inductively defined by no constructors
+Observational equality for the [[unit type]] $\mathrm{Eq}_\mathbb{0}(x, y)$ is an indexed [[inductive type]] inductively defined by no constructors
 
 ### Unit type
 
@@ -39,14 +42,14 @@ $$\mathrm{eq}_*: \mathrm{Eq}_\mathbb{1}(*, *)$$
 
 ### Booleans
 
-Observational equality for the booleans $\mathrm{Eq}_\mathbb{2}(x, y)$ is an indexed inductive type inductively defined by the following constructors
+Observational equality for the [[booleans]] $\mathrm{Eq}_\mathbb{2}(x, y)$ is an indexed inductive type inductively defined by the following constructors
 
 $$\mathrm{eq}_0: \mathrm{Eq}_\mathbb{2}(0, 0)$$
 $$\mathrm{eq}_1: \mathrm{Eq}_\mathbb{2}(1, 1)$$
 
 ### Natural numbers
 
-Observational equality for the natural numbers $\mathrm{Eq}_\mathbb{N}(x, y)$ is an indexed inductive type inductively defined by the following constructors
+Observational equality for the [[natural numbers]] $\mathrm{Eq}_\mathbb{N}(x, y)$ is an indexed inductive type inductively defined by the following constructors
 
 $$\mathrm{eq}_0: \mathrm{Eq}_\mathbb{N}(0, 0)$$
 $$\mathrm{eq}_s: \prod_{x:\mathbb{N}} \prod_{y:\mathbb{N}} \mathrm{Eq}_\mathbb{N}(x, y) \to \mathrm{Eq}_\mathbb{N}(s(x), s(y))$$
