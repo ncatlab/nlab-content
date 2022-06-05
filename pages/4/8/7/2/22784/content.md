@@ -14,13 +14,11 @@
 
 ## Definition
 
-### Reciprocals in real analysis
-
-#### Implicit definition
+### Implicit definition
 
 In real analysis, the reciprocal $\frac{1}{x}$ is a [[partial function]] implicitly defined over the non-zero [[real numbers]] by the equation $x \left(\frac{1}{x}\right) = 1$. This is the definition commonly used when defining the real numbers as a [[field]]. 
 
-#### By power series
+### By power series
 
 Let us define the functions $f:(-1,1)\to\mathbb{R}$ and $g:(-1,1)\to\mathbb{R}$ from the open subinterval of the real numbers $(-1,1) \subset \mathbb{R}$ to the real numbers $\mathbb{R}$ as the locally convergent [[power series]]
 
@@ -44,10 +42,6 @@ $$
 
 This definition implies that the reciprocal is [[analytic function|analytic]] in each of the two connected components of the domain.
 
-### Reciprocals in complex analysis
-
-The reciprocal in complex analysis should be the [[analytic continuation]] of the reciprocal in real analysis.  
-
 ## Related concepts
 
 * [[logarithm]]
@@ -57,7 +51,5 @@ The reciprocal in complex analysis should be the [[analytic continuation]] of th
 * [[limit of a function]]
 
 * [[power series]]
-
-* [[reciprocal algebra]]
 
 * [[reciprocal function]]
