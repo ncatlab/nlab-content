@@ -27,7 +27,7 @@ where $n$ is a positive [[integer]] greater or equal $2$.
 
 _Fermat's last theorem_ is the statement, that for $n\gt 2$ this equation has no solutions in rationals (or, equivalently, has no solutions in integers), other than when at least one of $x,y$ or $z$ vanishes. In other words, the Fermat curves with $n\gt 2$ have no nontrivial $\mathbb{Q}$-[[rational points]]. For $n=2$, the Fermat curve is just the [[projective line]] $\mathbb{P}^1$, hence is much less interesting.
 
-Famously a [[proof]] of this theorem had been announced by [[Pierre de Fermat]], but no proof was recorded before [[Andrew Wiles]] with aid of [[Richard Taylor]] proved the [[Taniyama-Shimura modularity conjecture]] for semistable [[elliptic curves]], which by [[Ribet's theorem]] implies Fermat's last theorem (see [[Wiles' proof of Fermat's last theorem]]).
+Famously a [[proof]] of this theorem had been announced by [[Pierre de Fermat]], but no proof was recorded before [[Andrew Wiles]] with aid of [[Richard Taylor]] proved the [[modularity theorem]] for semistable [[elliptic curves]], which by [[Ribet's theorem]] implies Fermat's last theorem (see [[Wiles' proof of Fermat's last theorem]]).
 
 Therefore, while Fermat's theorem is generally accepted as proven now, the methods used in the proof go far beyond the mathematics known at [[Pierre de Fermat]]'s time. Moreover [[Ribet's theorem]] and the [[modularity theorem]] are major conceptual statements in [[arithmetic geometry]], quite different in character from the content of Fermat's last theorem in itself:
 
