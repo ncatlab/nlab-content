@@ -265,7 +265,7 @@ The concept of [[anyons]] satisfying [[braid group statistics]] originated indep
 
 * {#GoldinMenikoffSharp81} G. A. Goldin, R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) $[$[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)$]$ 
 
-* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** 1982 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)$]$
+* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** (1982) 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)$]$
 
 The term *anyon* was introduced in:
 
