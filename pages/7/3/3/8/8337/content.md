@@ -22,6 +22,12 @@
 * [[structural set theory|structural axioms]]:
   * [[axiom of materialization]]
 
+* [[type theory|type theoretic axioms]]:
+  * [[axiom K]]
+  * [[axiom UIP]]
+  * [[univalence axiom]]
+  * [[Whitehead's principle]]
+
 * [[axioms of choice]]:
   * [[axiom of choice]]
   * [[axiom of countable choice]]
@@ -34,8 +40,6 @@
   * [[small cardinality selection axiom]]
   * [[axiom of small violations of choice]]
   * [[axiom of weakly initial sets of covers]]
-
-* [[Whitehead's principle]]
 
 * [[large cardinal axioms]]:
   * [[axiom of infinity]]
