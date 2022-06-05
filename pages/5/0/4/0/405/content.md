@@ -132,6 +132,16 @@ The cartesian, or "ABCFHL", cube category has faces, degeneracies, symmetries, a
 
 The De Morgan, or "CCHM", cube category has faces, degeneracies, symmetries, diagonals, connections, and reversals.
 
+### The semicartesian cube category
+
+The semicartesian cube category is has faces, degeneracies, symmetries, and ... but no diagonals or connections. 
+
 ## Expository material
 
 For expository and other material, see [[category of cubes - exposition]].
+
+## References
+
+For the semicartesian cube category:
+
+* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 3* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
