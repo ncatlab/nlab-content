@@ -6,11 +6,9 @@
 
 ## Idea
 
-The [[foundations]] of [[mathematics]] may seem to be a topic curiously disconnected from the core mathematics. This is not quite so. This page lists examples where questions of foundations do affect questions and problems in core mathematics.
+The [[foundations]] of [[mathematics]] may seem to be a topic curiously disconnected from the core mathematics. In fact, the foundations of mathematics has a significant impact upon core mathematics; different [[foundational axiom|foundational rules and axioms]] included in the foundations of mathematics would result in certain [[theorems]] being [[true]] in one foundation of mathematics, [[false]] in another foundation of mathematics, and [[independent]] in a third foundation of mathematics. This page lists numerous examples where questions of foundations do affect questions and problems in core mathematics.
 
 The term “core mathematics” is discussed in an [article](http://www.ams.org/notices/201201/rtx120100031p.pdf) by [[Frank Quinn]]
-
-See also Wikipedia\'s [list of statements undecidable in ZFC](http://en.wikipedia.org/wiki/List_of_statements_undecidable_in_ZFC).
 
 ## Large cardinal axioms
 
@@ -39,6 +37,8 @@ See also Wikipedia's [list of statements equivalent to the axiom of choice](http
 There are a number of theorems that are strictly weaker than the axiom of choice but traditionally proved using the axiom of choice; these could be assumed as [[foundational axioms]] of intermediate strength between nothing and the [[axiom of choice]]. Wikipedia has a list of them [here](https://en.wikipedia.org/wiki/Axiom_of_choice#Weaker_forms). 
 
 The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/conseq.htm) provides an interactive data base that can be used to search for implications between various (weakened) forms of the Axiom of Choice. [Choiceless grapher](http://cgraph.inters.co/) builds on this data and provides a graphical presentation. 
+
+See also Wikipedia\'s [list of statements undecidable in ZFC](http://en.wikipedia.org/wiki/List_of_statements_undecidable_in_ZFC).
 
 ## Whitehead's theorem
 
