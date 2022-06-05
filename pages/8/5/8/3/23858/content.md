@@ -123,12 +123,12 @@ $$k(x, a) := a \sum_{n=0}^\infty (-a)^n (x + g(a - 1))^n$$
 
 for $a \gt 0$. These are functions which converge on the open interval $(1/a, 0)$for $h(x, a)$ and $(0,1/a)$ for $k(x, a)$, and satisfy the identity $h(x, a) x = 1$ for all $a \lt 0$ and $x \in (1/a, 0)$, and $k(x, a) x = 1$ for all $a \gt 0$ and $x \in (0,1/a)$, by definition of the geometric series. 
 
-The [[reciprocal]] is piecewise defined as 
+The [[real reciprocal function]] is piecewise defined as 
 $$
 \frac{1}{x} =
 \begin{cases}
-\lim_{a \to 0^-} h(x, a)  & \mathrm{if}\ x \lt 0 \\
-\lim_{a \to 0^+} k(x, a)  & \mathrm{if}\ x \gt 0 \\
+\lim_{a \to 0^-} h(x, a)  & \mathrm{if}\; x \lt 0 \\
+\lim_{a \to 0^+} k(x, a)  & \mathrm{if}\; x \gt 0 \\
 \end{cases}
 $$
 
