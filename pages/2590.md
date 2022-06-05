@@ -38,6 +38,8 @@ See also Wikipedia's [list of statements equivalent to the axiom of choice](http
 
 There are a number of theorems that are strictly weaker than the axiom of choice but traditionally proved using the axiom of choice; these could be assumed as [[foundational axioms]] of intermediate strength between nothing and the [[axiom of choice]]. Wikipedia has a list of them [here](https://en.wikipedia.org/wiki/Axiom_of_choice#Weaker_forms). 
 
+The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/conseq.htm) provides an interactive data base that can be used to search for implications between various (weakened) forms of the Axiom of Choice. [Choiceless grapher](http://cgraph.inters.co/) builds on this data and provides a graphical presentation. 
+
 ## Whitehead's theorem
 
 In [[set theory]], [[Whitehead's theorem]] is a theorem valid for all [[infinity-groupoids]], modeled as [[Kan complexes]] or [[CW-complexes]]. However, in [[homotopy type theory]], Whitehead's theorem is not provable when regarded as a statement about types in homotopy type theory, since it admits models in non-[[hypercomplete (∞,1)-toposes]]. As a result, the truth of Whitehead's theorem is a [[foundational axiom]] that may be regarded as a "classicality" property, akin to [[excluded middle]] or the [[axiom of choice]], and is usually called *Whitehead's principle* by homotopy type theorists. 
