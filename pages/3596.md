@@ -35,7 +35,7 @@ To contrast with "computational" or [[definitional equality]], inhabitation of a
 In *[[extensional type theory|extensional]]* type theory, such as that modeled in the [[internal logic]] of a 1-category, equality is an [[h-proposition]], and hence each $Id_A(x,y)$ is a [[subsingleton]].  However, in the internal type theory of [[higher category theory|higher categories]], such as the [[internal logic of an (∞,1)-topos]], identity types represent [[path objects]] and are highly nontrivial.  One speaks of _[[homotopy type theory]]_.  In these cases, identity types are also known as __path types__ or __path space types__ and are sometimes written as $Path_A(x,y)$ instead of $Id_A(x,y)$.
 
 
-## Definition
+## Definition in Martin-Löf type theory
  {#Definition}
 
 The definition of identity types was originally given in explicit form by [[Per Martin-Löf|Martin-Löf]], in terms of introduction and elimination rules.  Later, it was realized that this was a special case of the general notion of [[inductive type]].  We will discuss both formulations.
@@ -145,6 +145,18 @@ $$ Id_{C(x,y,p)}(J(t[x/y, r(x)/p];x,y,p), t). $$
 
 This has none of the bad consequences of definitional $\eta$-conversion, and in particular does not imply that the type theory is extensional.  The argument that $p\colon Id_A(x,y)$ implies $x=y$ becomes the tautologous statement that if $p\colon Id_A(x,y)$ then $p\colon Id_A(x,y)$, while the subsequent argument that $p= r(x)$ fails because $x$ and $y$ are no longer *definitionally* equal, so $r(x)$ does not have type $Id_A(x,y)$.  We can *transport* it along $p$ to obtain a term of this type, but then we obtain only that $p$ is equal to the transport of $r(x)$ along $p$, which is a perfectly intensional/homotopical statement.
 
+## Definition in observational type theory
+
+Identity types in [[observational type theory]] and [[higher observational type theory]] are defined in a different manner than they are in [[Martin-Löf type theory]]. 
+
+In higher observational type theory, identity types have the same formation rule as Martin-Löf identity types do:
+
+$$\frac{\Gamma \vdash A:Type}
+{\Gamma, x:A, y:A \vdash Id_A(x,y):Type}$$
+
+However, it does not have global elimination or computation rules. Instead, it has a local computation rule for each particular type. For example, the identity type of the product type $A \times B$ has the following computation rule:
+
+$$Id_{A \times B} (s, t) \equiv Id_A(\pi_1 s, \pi_1 t) \times Id_B (\pi_2 s, \pi_2 t)$$
 
 ## Categorical semantics
 
@@ -374,7 +386,18 @@ Issues of [[extensional type theory|extensional]]/[[intensional type theory]]
 * {#Shulman12} [[Mike Shulman]], _Inductive types and identity types_, 2012 ([pdf](https://home.sandiego.edu/~shulman/hottseminar2012/03induction-handout1up.pdf))
 
 * {#Overture.v} [https://github.com/HoTT/HoTT/blob/master/theories/Basics/Overture.v](https://github.com/HoTT/HoTT/blob/master/theories/Basics/Overture.v#L169-L170)
- 
+
+### In (higher) observational type theory
+
+* [[Thorsten Altenkirch]] and [[Conor McBride]], _Towards observational type theory_ ([pdf](http://strictlypositive.org/ott.pdf))
+
+* [[Conor McBride]], [Hier Soir, an OTT Hierarchy](http://mazzo.li/epilogue/index.html%3Fp=1098.html)
+
+* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
+
+* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 2* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
+
+* [[Mike Shulman]], *Towards a Third-Generation HOTT Part 3* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
 
 ### Weak factorization systems
 
