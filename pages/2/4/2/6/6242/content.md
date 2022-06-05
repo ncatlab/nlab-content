@@ -96,7 +96,7 @@ as a result, the BvN disjunction does not [[distributivity|distribute]] over con
 
 ### Logic of Quantales
 
-On top of the above [[lattice]] of lineat subspaces, take into account that it carries naturally a [[tensor product]]. That makes it a _[[quantale]]_.
+On top of the above [[lattice]] of linear subspaces, take into account that it carries naturally a [[tensor product]]. That makes it a _[[quantale]]_.
 
 ### Linear logic
 
