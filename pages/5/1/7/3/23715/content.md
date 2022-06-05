@@ -11,3 +11,4 @@ The **reciprocal function** is a [[partial function]] $f:F_{#0} \to F$ such that
 * [[Heyting field]]
 * [[rational function]]
 * [[reciprocal]]
+* [[division]]
