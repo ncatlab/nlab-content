@@ -1,4 +1,8 @@
 
+## Definition
+
+Let $X$ be an [[affine variety]] over a field $k$ with the ring of [[regular function]]s $\mathcal{O}(X)$. A __function field__ is the [[field of fractions]] of $\mathcal{O}(X)$. 
+
 ## Function field analogy
 
 [[!include function field analogy -- table]]
