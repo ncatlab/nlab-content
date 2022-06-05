@@ -22,11 +22,13 @@ If $k$ is a [[field]], given the [[polynomial ring]] $k[x]$, there is a canonica
 
 There is a function 
 $$i:k(x) \to \{A \in Ob(Part(k)) \vert Hom(A, k)\}$$
-from the field of [[rational expression]] to the set of all [[partial functions]] in the [[category of partial functions]] $Part(k)$, where the [[function algebra]] $k \to k$ is the [[endomorphism]] $k$-algebra on the [[improper subset]] $k$. The function $i$ is defined as follows: given two polynomials $p, q \in k[x]$, for all $x \in \{a \in k | q(a) \neq 0\}$
+from the field of [[rational expression]] to the set of all [[partial functions]] in the [[category of partial functions]] $Part(k)$, where the [[function algebra]] $k \to k$ is the [[endomorphism]] $k$-algebra on the [[improper subset]] $k$. The function $i$ is defined as follows: given two polynomials $p, q \in k[x]$ where $q \neq 0$, for all $x \in \{a \in k | q(a) \neq 0\}$
 $$i\left(\frac{p}{q}\right)(x) \coloneqq \frac{j(p)(x)}{j(q)(x)}$$
-where 
+where for $x \in k$ and $y \in k$
 $$\frac{x}{y}$$
-is the [[division]] of $x$ by $y$ in $k$. A **rational function** $f$ is an [[element]] of the [[image]] of $i$, $f \in \im(i)$. 
+is the [[division]] of $x$ by $y$ in $k$, and for $r \in k(x)$ and $s \in k(x)$, 
+$$\frac{r}{s}$$
+is the [[division]] of $r$ by $s$ in $k(x)$. A **rational function** $f$ is an [[element]] of the [[image]] of $i$, $f \in \im(i)$. 
 
 ### As functions on the projective line
 
@@ -63,6 +65,8 @@ This comes from the fact that the reciprocal function is not a multiplicative in
 * [[category of partial functions]]
 
 * [[rational fraction]]
+
+* [[real rational function]]
 
 * [[rational function on an affine variety]] 
 
