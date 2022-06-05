@@ -177,9 +177,7 @@ A [[formal geometry]] version:
 [[!redirects Dolbeault cohomology]]
 
 [[!redirects holomorphic smooth function]]
-[[!redirects holomorphic function]]
 [[!redirects holomorphic smooth functions]]
-[[!redirects holomorphic functions]]
 
 [[!redirects holomorphic differential 1-form]]
 [[!redirects holomorphic 1-form]]
