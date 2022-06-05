@@ -18,7 +18,7 @@
 
 ### As partial functions on a field
 
-If $k$ is a field, given the polynomial ring $k[x]$, there is a canonical [[ring homomorphism]] $j:k[x] \to (k \to k)$ which sends [[constant]] polynomials in $k[x]$ to [[constant functions]] in $k \to k$, and the [[generator]] $x \in k[x]$ to the [[identity function]] $id_k$, where $k \to k$ is the [[function algebra]] on $k$. 
+If $k$ is a [[field]], given the [[polynomial ring]] $k[x]$, there is a canonical [[ring homomorphism]] $j:k[x] \to (k \to k)$ which sends [[constant function|constant]] [[polynomials]] in $k[x]$ to [[constant functions]] in $k \to k$, and the [[generator]] $x \in k[x]$ to the [[identity function]] $id_k$, where $k \to k$ is the [[function algebra]] on $k$. 
 
 There is a function 
 $$i:k(x) \to \{A \in Ob(Part(k)) \vert Hom(A, k)\}$$
