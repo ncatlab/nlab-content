@@ -325,7 +325,7 @@ Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[confi
 
 * {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 $[$[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)$]$
 
-* {#MundSchrader93} J. Mund, [[Robert Schrader]], *Hilbert Spaces for Nonrelativistic and Relativistic "Free" Plektons (Particles with Braid Group Statistics)*, in *Advances in dynamical systems and quantum physics* (Capri, 1993), World Sci. (1995) 235–259 $[$[arXiv:hep-th/9310054v2](https://arxiv.org/abs/hep-th/9310054)$]$
+* {#MundSchrader93} J. Mund, [[Robert Schrader]], *Hilbert Spaces for Nonrelativistic and Relativistic "Free" Plektons (Particles with Braid Group Statistics)*, in *Advances in dynamical systems and quantum physics* (Capri, 1993), World Sci. (1995) 235–259 $[$[arXiv:hep-th/9310054](https://arxiv.org/abs/hep-th/9310054)$]$
 
   followed up by:
 
