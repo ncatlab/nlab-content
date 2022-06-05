@@ -35,12 +35,13 @@ then the [[fiber]] of $f$ at $0$ is [[inhabited set|inhabited]] if one of the fo
 
 ## See also ##
 
+* [[Gauss's lemma for polynomials]]
 * [[polynomial function]]
 * [[rational numbers]]
 * [[integers]]
 
 ## References ##
 
-* Wikipedia, _[Rational root theorem](https://en.wikipedia.org/wiki/Rational_root_theorem)_
+* Wikipedia, _[Rational zero theorem](https://en.wikipedia.org/wiki/Rational_zero_theorem)_
 
 [[!redirects rational root theorem]]
