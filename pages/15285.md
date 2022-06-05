@@ -3,8 +3,8 @@
 |   | [[number fields]] ("[[function fields]] of [[curves]] over [[F1]]")  |  [[function fields]] of [[curves]] over [[finite fields]] $\mathbb{F}_q$ ([[arithmetic curves]])  | [[Riemann surfaces]]/[[complex curves]] |  
 |----|-------------------|----------------------|----|
 | **[[affine line|affine]] and [[projective line]]**  |  |  |  |
-|   | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_q[z]$ ([[polynomials]], [[function algebra]] on [[affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$) |  $\mathcal{O}_{\mathbb{C}}$ ([[holomorphic functions]] on [[complex plane]]) |
-|   | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(z)$ ([[rational functions]])  | [[meromorphic functions]] on [[complex plane]] |
+|   | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_q[z]$ ([[polynomials]], [[polynomial algebra]] on [[affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$) |  $\mathcal{O}_{\mathbb{C}}$ ([[holomorphic functions]] on [[complex plane]]) |
+|   | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(z)$ ([[rational fractions]]/[[rational function on an affine variety|rational function on affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$)  | [[meromorphic functions]] on [[complex plane]] |
 |   | $p$ ([[prime number]]/non-archimedean [[place]])  |  $x \in \mathbb{F}_p$  | $x \in \mathbb{C}$  |
 |   | $\infty$ ([[place at infinity]])  |   |  $\infty$  |
 |   | $Spec(\mathbb{Z})$ ([[Spec(Z)]])  |  $\mathbb{A}^1_{\mathbb{F}_q}$ ([[affine line]]) |  [[complex plane]]  |
