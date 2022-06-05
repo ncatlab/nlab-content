@@ -266,3 +266,5 @@ The notion of hypercomplete $(\infty,1)$-toposes is the topic of  section 6.5 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects hypercomplete (∞,1)-topos]]
+[[!redirects hypercomplete (∞,1)-topoi]]
+[[!redirects hypercomplete (∞,1)-toposes]]
