@@ -42,6 +42,8 @@ $$\mathrm{Can}(R) \coloneqq \{e \in M \vert \mathrm{isCancellative}(e)\}$$
 
 * [[prefield]]
 
+* [[ring of fractions]]
+
 * [[group of units]]
 
 [[!redirects multiplicative submonoids of cancellative elements]]
