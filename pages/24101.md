@@ -1,3 +1,5 @@
+> This entry is about contents in [[measure theory]]. For contents in ring theory, see [[content (ring theory)]]. For the contents sidebar of this wiki, see [[contents]]. 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -33,5 +35,3 @@ $$\forall a\in L. \forall b \in L. (a \wedge b = \bot) \implies (\mu(a \vee b) =
 ## References ##
 
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Content_(measure_theory)">*Content (measure theory)*</a>
-
-[[!redirects contents]]
