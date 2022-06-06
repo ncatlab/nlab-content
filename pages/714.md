@@ -390,6 +390,8 @@ For more on this see
 
 * [[dagger functor]]
 
+* [[univalent dagger category]]
+
 ## References
 
 The concept of $\dagger$-category is discussed here:
