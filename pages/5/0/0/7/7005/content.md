@@ -263,6 +263,10 @@ One might also try to construct the Hoffman-Streicher groupoid model in a constr
 
 ## Related concepts
 
+* [[univalent foundations]]
+
+* [[univalent type theory]]
+
 * Univalence is closely related to the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
 
 * [[propositional extensionality]]
@@ -270,6 +274,7 @@ One might also try to construct the Hoffman-Streicher groupoid model in a constr
 * contrary to univalence is the [[axiom UIP]]
 
 * [[directed univalence axiom]]
+
 
 ## References
  {#References}
