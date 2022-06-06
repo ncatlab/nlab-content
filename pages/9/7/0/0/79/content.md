@@ -11,13 +11,15 @@
 
 * [[philosophy of mathematics]]
 
-* [[foundations|Structural Foundations]] with annotated toc of 3 great books with numerous links to related nlab content:
+* [[foundations of mathematics]]
 
-  * [[Categories and Sheaves]]
+  * [[set theory]], [[type theory]], [[(infinity,1)-category theory]]
 
-  * [[Sheaves in Geometry and Logic]]
+  * [[mathematical logic]]
 
-  * [[Higher Topos Theory]]
+* mathematical tools
+  
+  * [[proof assistants]]
 
 * [[topology and geometry|Topology and Geometry]]
 
@@ -64,15 +66,6 @@
 * mathematical [[analysis]] 
 
   * [[nonstandard analysis]], [[functional analysis]], [[operator algebras]]
-
-* [[discrete mathematics]]: 
-
-  * [[set theory]], [[category theory]], [[higher category theory]]
-
-  * [[graph]], [[directed graph]], [[quiver]], [[order]], [[poset]], [[filter]], ... 
-
-[[!include proof assistants and formalization projects -- list]]
-
 
 [[!redirects mathematics]]
 [[!redirects Mathematics]]
