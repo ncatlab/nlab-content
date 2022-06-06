@@ -13,13 +13,13 @@
 
 [[k-ary factorization system]], [[ternary factorization system]]
 
-**[[factorization system in a 2-category]]**
+* [[factorization system in a 2-category]]
 
-**[[factorization system in an (∞,1)-category]]**
+* [[factorization system in an (∞,1)-category]]
 
 * [[orthogonal factorization system in an (∞,1)-category|orthogonal]]
 
-## Examples
+**Examples**
 
 * [[(epi, mono) factorization system|(epi, mono)]], 
 
@@ -33,4 +33,3 @@
 * [[(hyperconnected, localic) factorization system|(hyperconnected, localic)]]
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/factorization+systems+-+contents)</div>
