@@ -1,4 +1,19 @@
-[[!redirects effects of foundations on "real" mathematics]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -65,13 +80,11 @@ When formalizing [[group theory]] within [[ETCS]] as a [[set theory]], then this
 
 ### Fermat's last theorem
 
-It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic#Friedman.27s_grand_conjecture) by Harvey Friedman that all theorems involving finitary objects published in _Annals of Mathematics_ (for argument's sake) can be proved in [[Elementary Function Arithmetic]] (EFA), a weak fragment of [[Peano arithmetic]]. One implication is that [[Fermat's last theorem]] is provable in PA. There is a current program of research by Angus MacIntyre to show this last fact directly. From a category theoretic point of view, [[Colin McLarty]] has shown that all of the material in [[SGA]] relies only on quite weak foundations, namely MacLane set theory with one [[universe]] (weaker than the theory $V_{\omega\cdot 3}$ considered in [[ZFC]])
+It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic#Friedman.27s_grand_conjecture) by Harvey Friedman that all theorems involving finitary objects published in _Annals of Mathematics_ (for argument's sake) can be proved in [[Elementary Function Arithmetic]] (EFA), a weak fragment of [[Peano arithmetic]]. One implication is that [[Fermat's last theorem]] is provable in PA. There is a current program of research by Angus MacIntyre to show this last fact directly. From a category theoretic point of view, [[Colin McLarty]] has shown that all of the material in [[SGA]] relies only on quite weak foundations, namely MacLane set theory ([McLarty 2011v1](#McLarty11v1)) with one [[universe]] (weaker than the theory $V_{\omega\cdot 3}$ considered in [[ZFC]]).
 
-* [[Colin McLarty]], _Weak Set Theory for Grothendieck's Number Theory_, ([arXiv:1102.1773v1](https://arxiv.org/abs/1102.1773v1))
 
-McLarty comments extensively on the possibility of proving Fermat's last theorem, and more generally the Modularity theorem, in PA in the article
+[McLarty 2010](#McLarty10) comments extensively on the possibility of proving Fermat's last theorem, and more generally the Modularity theorem, in PA.
 
-* Colin McLarty, _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bulletin of Symbolic Logic, Volume 16, Issue 3, September 2010, pp. 359 - 377, DOI:10.2178/bsl/1286284558 ([pdf](http://www.cwru.edu/artsci/phil/Proving_FLT.pdf)) 
 
 ## See also
 
@@ -80,4 +93,15 @@ McLarty comments extensively on the possibility of proving Fermat's last theorem
 
 ## References
 
+* {#McLarty10} [[Colin McLarty]], _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bulletin of Symbolic Logic, **16** 3 (2010) 359 - 377 $[$[doi:10.2178/bsl/1286284558](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.short)$]$, [pdf](http://www.cwru.edu/artsci/phil/Proving_FLT.pdf)$]$
+
+
+* {#McLarty11v1} [[Colin McLarty]], _Weak Set Theory for Grothendieck's Number Theory_ $[$[arXiv:1102.1773v1](https://arxiv.org/abs/1102.1773v1)$]$
+
+
 * {#Quinn12} [[Frank Quinn]], *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) $[$[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)$]$
+
+
+[[!redirects effects of foundations on "real" mathematics]]
+
+
