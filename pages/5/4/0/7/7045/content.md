@@ -164,6 +164,8 @@ For more on this see the respective sections at _[[relation between type theory 
 
 * [[Awodey's conjecture]]
 
+* [[univalent type theory]]
+
 ## References
 
 Some of the text above is adapted from the entry _[[homotopytypetheory:universe]]_ at the [[homotopytypetheory:HomePage|homotopy type theory web]].
