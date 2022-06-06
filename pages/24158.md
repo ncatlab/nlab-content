@@ -13,7 +13,7 @@ A list of (believed to be) open problems in [[homotopy type theory]].  To add mo
 
 * Define a notion of [[elementary (infinity,1)-topos]] and show that any such admits a model of homotopy type theory.
 
-* [[Semantics]] for strict [[resizing rules]]. Probably refers to the rules introduced in Voevodsky's [Bergen lecture](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2011_Bergen.pdf), as opposed to the ones in the book.
+* The [[semantics]] for strict [[resizing rules]]. Probably refers to the rules introduced in Voevodsky's [Bergen lecture](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2011_Bergen.pdf), as opposed to the ones in the book.
 
 * Construct (higher) [[inductive-recursive type|inductive-recursive types]] in univalent models, or show that they don't exist.
 
@@ -42,7 +42,7 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Consider the type theory with a sequence of universes plus for each $n\gt 0$, an axiom asserting that there are [[n-type|n-types]] that are not $(n-1)$-types; see [here](http://arxiv.org/abs/1311.4002). Does adding axioms asserting that each universe is [[univalence|univalent]] increase the logical strength? Of course, univalence gives funext.
 
-* Prove or disprove the conjecture that every fibrant type in [[HTS]] is equivalent to one definable in [[Martin-Löf Type Theory|MLTT]].  A potential method of disproof would be to solve the [[model invariance problem]] positively for MLTT but negatively for fibrant types in HTS.
+* Prove or disprove the conjecture that every fibrant type in [[HTS]] is equivalent to one definable in [[Martin-Löf type theory|MLTT]].  A potential method of disproof would be to solve the [[model invariance problem]] positively for MLTT but negatively for fibrant types in HTS.
 
 ## Homotopy theory and algebraic topology
 
