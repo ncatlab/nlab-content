@@ -85,3 +85,8 @@ Generally the [[forgetful functor]] from a category of algebras over an [[algebr
 
 [[!redirects structure]]
 [[!redirects structures]]
+
+[[!redirects mathematical structure]]
+[[!redirects mathematical structures]]
+
+
