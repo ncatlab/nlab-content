@@ -29,6 +29,26 @@ Martin-L&#246;f's dependent type theory is notable for several reasons:
 * In its [[intensional type theory|intensional]] form, it has sufficient computational content to function as a programming language. At the same time, it then has [[identity types]] whose presence shows that one is really dealing with a form of [[homotopy type theory]].
 
 ## Syntax
+
+The syntax of Martin-Löf dependent type theory can be constructed in two stages. The first is the *raw* or *untyped* syntax of the theory consisting of expressions that are readable but not meaningful. The second stage consists of defining the *derivable judgements* of the type theory inductively which then pick out the meaningful contexts, types and terms.
+
+A context is a list of types. Variables can be defined as De Bruijn indices in which case the type of a variable $n$ is given by $n$th type in a context.
+
+One may also define contexts as coming with a variable name, in which case one needs a notion of $\alpha$-equivalence (syntactic identity modulo renaming of bound variables) and of capture-free substitution. De Bruijn indices avoid this step but can be more obfuscating.
+
+Types and terms are built inductively from various constructors. Types, terms and contexts are defined mutually.
+
+We have four basic judgement forms:
+
+* $\Gamma \vdash A\; \mathrm{type}$ - $A$ is a well-typed type in context $\Gamma$.
+* $\Gamma \vdash A \cong A' \; \mathrm{type}$ - $A$ and $A'$ are judgementally equal well-typed types in context $\Gamma$.
+* $\Gamma \vdash a : A$ - $a$ is a well-typed term of type $A$ in context $\Gamma$.
+* $\Gamma \vdash a \cong a' : A$ - $a$ and $a'$ are judgementally equal well-typed terms of type $A$ in context $\Gamma$.
+
+There is also a fifth judgement that a given context is well-formed. This can be defined from the other judgments as every type in a context is well-typed in the presence of the types that precede it.
+
+## Syntax
+
 If $t$ is a term, and $A$ a type, then $t : A$ is a **typing declaration** asserting that $t$ is a term of type $A$. We will define the forms of valid terms and types below; to begin with, we assume we have a stock of variables, atomic types, and parametrised types.
 
 A **context** is a [[finite set|finite]] ordered list of typing declarations, defined [[inductive definition|inductively]] as follows:
