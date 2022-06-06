@@ -143,7 +143,7 @@ There are several versions of Lie groupoid morphisms, some of them are equivalen
 
 * strict morphism: a strict morphism from Lie groupoid $X$ to $Y$ is a functor from $X$ to $Y$ as categories and preserving the smooth structures. 
 
-* generalised morphism: a generalised morphism from $X$ to $Y$ is a [[span]] of morphisms $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$, where $\hat X \stackrel{\simeq}{\rightarrow} X$ is an [[weak equivalence]] of Lie groupoids, defined as below (see also at _[[bibundle]]_).
+* generalised morphism: a generalised morphism from $X$ to $Y$ is a [[span]] of morphisms $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$, where $\hat X \stackrel{\simeq}{\rightarrow} X$ is a [[weak equivalence]] of Lie groupoids, defined as below (see also at _[[bibundle]]_).
 
 A Lie groupoid functor $f : G\to H$ is a  **weak equivalence** if it is
 
