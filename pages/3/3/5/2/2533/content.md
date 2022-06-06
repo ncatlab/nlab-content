@@ -16,7 +16,7 @@
 ## Idea
  {#Idea}
 
-Taken at its verbatim face value, the term *discrete mathematics* refers to [[mathematics]] concerned with [[mathematical structures]] which are *discrete* in the sense of *[[discrete topological spaces]]*, hence which do not involve [[topology]] and in particular do *not* involve [[analysis]] ("calculus"). 
+Taken at its verbatim face value, the term *discrete mathematics* refers to [[mathematics]] concerned with [[mathematical structures]] which are *discrete* in the sense of *[[discrete topological spaces]]*, hence which do not involve [[topology]] and in particular do *not* involve [[analysis]] ("[[calculus]]"). 
 
 With the hindsight of the [[nPOV]] one could usefully say that discrete mathematics, in this sense, is the topic of ([[categorical semantics|models]] of) bare [[homotopy type theory]], in contrast to its [[cohesion|cohesive]] refinement to [[cohesive homotopy type theory]].
 
