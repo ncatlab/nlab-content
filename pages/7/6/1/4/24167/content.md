@@ -1,9 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+#Contents#
 * table of contents
 {: toc}
 
 ## Overview
 
-This is a stub collecting information on the question in the title.
+This is a stub collecting information on the [[proof theory|proof theoretic]] strength of [[univalent type theory]] with [[higher inductive types]].
+
 Setzer computes the strength of MLTT+W. Voevodsky reduces Coq's inductive types to W-types. Coquand et al reduces univalence and some HITs to an unspecified constructive framework.
 
 There is an [MO-question](http://mathoverflow.net/questions/69229/proof-strength-of-calculus-of-inductive-constructions) on the proof theoretic strength of pCIC. Avigad provide a general overview of the proof theory of predicative constructive systems.
