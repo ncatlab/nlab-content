@@ -1,36 +1,22 @@
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Mathematics
-+--{: .hide}
-[[!include mathematics]]
-=--
-=--
-=--
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Definition 
+## Definition
 
-**Discrete mathematics** is about mathematical structures that are "discrete" in some sense. However, there is no one single definition of a "discrete structure", and thus no one single definition of "discrete mathematics". 
+**Discrete mathematics** is a term used to refer to an introductory course in the undergraduate [[mathematics]] and [[computer science]] curricula, devoted to teaching an overview of elementary [[combinatorics]] and its prerequisites such as naïve [[set theory]], basic [[predicate logic]], an introduction to [[proofs]], and elementary [[number theory]]. 
 
-Different definitions of discrete mathematics may include:
+It is also sometimes used in research mathematics as a synonym to [[combinatorics]] and closely related fields (or subfields): finite geometry and [[incidence geometry]], [[coding theory]] and [[Boolean functions]], combinatorics of [[posets]], [[matroid]] theory, convex geometry and [[polytopes]], packings, tilings, etc.
 
-* The study of [[countable sets]] and mathematical structures on countable sets (as in [[combinatorics]])
+## Related concepts
 
-* The study of [[discrete categories]] and mathematical structures on discrete categories
+* [[combinatorics]]
 
-* The study of [[discrete infinity-groupoids]] and mathematical structures on discrete infinity-groupoids
+* [[graph theory]]
 
-* A class taught at the introductory university level, in the same way that [[algebra]] could also refer to a class taught in secondary education. 
+## References
 
-and so forth. Furthermore, there isn't a clear delineation between discrete mathematics and other fields. The study of [[graph theory]] is usually considered a part of discrete mathematics, and [[quivers]], [[globular sets]], and [[simplicial sets]] are part of graph theory (being higher directed graphs), but are frequently used in [[higher category theory]] and [[(infinity,1)-category theory]] to combinatorially model objects such as [[categories]] and [[infinity-groupoids]]. 
+* Gary Chartrand and Ping Zhang. Discrete Mathematics. 1st ed., Waveland Pr Inc, 2011. ISBN:978-1577667308
 
-## See also
-
-* [[finite mathematics]]
-
-* [[continuous mathematics]]
+* [Discrete Mathematics](https://www.sciencedirect.com/journal/discrete-mathematics)
