@@ -4,4 +4,5 @@ In $n$lab many items are dedicated to the [[foundations|foundational]] issues. *
 
 Some other basic **discrete structures** which have their own entry in $n$lab are [[preorder]], [[order]], [[partial order]], [[total order]], [[well-order]], [[equivalence relation]], [[quotient set]], [[poset]], [[proset]], [[cyclic order]], [[semilattice]], [[lattice]], [[distributive lattice]], [[meet]], [[join]], [[supremum]], [[infimum]], [[suplattice]], [[multiset]], [[graph]], [[quiver]], [[tree]], [[filter]], [[span]], [[multispan]], [[natural number]], [[sequence]], ...
 
+
 Of course, a plain old [[category]] is a discrete structure per se. 
