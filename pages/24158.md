@@ -102,6 +102,9 @@ Using extensionality, we obtain [[M-types]] from W-types.
 * Is there a predicative and constructive abstract definition of the category of real Hilbert spaces, in a similar fashion as what Chris Heunen and Andre Kornell did in classical mathematics in their article ([Axioms for the category of Hilbert spaces](https://arxiv.org/abs/2109.07418))? Solér's theorem, which is used in their proof, is only valid in classical mathematics.
 
 ## In cohesive homotopy type theory
+ {#InCohesiveHomotopyTypeTheory}
+
+Problems in [[cohesive homotopy type theory]]:
 
 * Assuming [[axiom R-flat]], is the [[shape]] of every [[subset]] of the [[Dedekind real numbers]] a [[set]]? 
 
@@ -111,13 +114,18 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Prove the approximate [[intermediate value theorem]] in [[Mike Shulman]]'s  [model of cohesive homotopy type theory](https://arxiv.org/abs/1509.07584) without resorting to crispness. 
 
-* Formalize $\infty$-[[Chern-Weil theory]] internally in cohesive homotopy type theory. (See [arxiv:1310.7930](https://arxiv.org/abs/1310.7930) for an external presentation in $(\infinity,1)$-category theory)
+See also the commented list of problems at:
 
-* Construct a model of the 3+1 dimensional [[quantum gauge theory]] of [[quantum electrodynamics]] in cohesive homotopy type theory. 
+* *[[schreiber:Some thoughts on the future of modal homotopy type theory]]* (2015):
+
+  * [solved problems](https://ncatlab.org/schreiber/show/Some+thoughts+on+the+future+of+modal+homotopy+type+theory#SolvedProblems)
+
+  * [open problems](https://ncatlab.org/schreiber/show/Some+thoughts+on+the+future+of+modal+homotopy+type+theory#OpenProblems)
+
 
 ## Formalization
 
-* Formalize the construction of models of type theory using contextual categories.
+* Formalize the construction of models of type theory using [[contextual categories]].
 
 * Formalize [[semi-simplicial types]].
 
