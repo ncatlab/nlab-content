@@ -1,4 +1,4 @@
-A list of (believed to be) open problems in homotopy type theory.  To add more detail about a problem (such as why it is hard or interesting, or what ideas have been tried), make a link to a new page.
+A list of (believed to be) open problems in [[homotopy type theory]].  To add more detail about a problem (such as why it is hard or interesting, or what ideas have been tried), make a link to a new page.
 
 # Contents
 * table of contents
@@ -6,7 +6,7 @@ A list of (believed to be) open problems in homotopy type theory.  To add more d
 
 ## Semantics
 
-* Construct a [[model of type theory in an (infinity,1)-topos]]. What remains open is the issue of weak Tarski universes.
+* Construct a [[model of type theory in an (infinity,1)-topos]]. What remains open is the issue of [[weak Tarski universes]].
 
 * Construct an [[(infinity,1)-topos]], or precisely an [[elementary (infinity,1)-topos]], out of (the syntactic category of) a system of type theory. Kapulkin [1507.02648](http://arxiv.org/abs/1507.02648) has shown that we obtain a locally cartesean closed quasicategory. [[Urs Schreiber]] proposed the following question:
 "Given an (infinity-)functor from (any flavor of) homotopy type theories to infinity-categories as above, characterize its essential image."
