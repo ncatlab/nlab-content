@@ -1,0 +1,1 @@
+Show that the interpretation of type theory is independent of the [[model category]] chosen to present an [[(infinity,1)-category]].  Of course, the details depend on the chosen [[type theories|type theory]].
