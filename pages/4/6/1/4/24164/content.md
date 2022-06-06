@@ -1,3 +1,4 @@
+[[!redirects Eric Finster, Towards Higher Universal Algebra in Type Theory]]
 ## Contents
 
 * table of contents
@@ -161,3 +162,6 @@ A *polynomial relation* for $P$ is a [[type family]]:
 $$R : (i:I) (f:\Op i)(w : \Tr i)(\alpha : \Frame(w,f) \to \mathcal{U}$$
 
 =--
+
+
+category: reference
