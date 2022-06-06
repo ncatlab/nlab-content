@@ -38,6 +38,7 @@ In [[type theory]], a [[setoid]] $(T, \equiv)$ is **[[univalence|univalent]]** o
 * [[setoid]]
 * [[stable setoid]]
 * [[quotient set]]
+* [[univalent dagger category]]
 * [[structure identity principle]]
 
 [[!redirects univalent setoids]]
