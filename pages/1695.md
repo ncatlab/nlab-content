@@ -143,6 +143,9 @@ See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for
 
   * [[smooth loop space]]
 
+  * [[loop space of a wedge of circles]]
+
+
 * [[caloron correspondence]]
 
 * [[suspension object]]
