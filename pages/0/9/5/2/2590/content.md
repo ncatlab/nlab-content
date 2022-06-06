@@ -6,15 +6,17 @@
 
 ## Idea
 
-The [[foundations]] of [[mathematics]] may seem to be a topic curiously disconnected from the core mathematics. In fact, the foundations of mathematics has a significant impact upon core mathematics; different [[foundational axiom|foundational rules and axioms]] included in the foundations of mathematics would result in certain [[theorems]] being [[true]] in one foundation of mathematics, [[false]] in another foundation of mathematics, and [[independent]] in a third foundation of mathematics. This page lists numerous examples where questions of foundations do affect questions and problems in core mathematics.
+The [[foundations]] of [[mathematics]] may seem to be a topic curiously disconnected from the core of mathematical practice. But in fact, the foundations of mathematics has a significant impact upon core mathematics; different [[foundational axiom|foundational rules and axioms]] included in the foundations of mathematics would result in certain [[theorems]] being [[true]] in one foundation of mathematics, [[false]] in another foundation of mathematics, and [[independent]] in a third foundation of mathematics. This page lists numerous examples where questions of foundations do affect questions and problems in core mathematics.
 
-The term “core mathematics” is discussed in an [article](http://www.ams.org/notices/201201/rtx120100031p.pdf) by [[Frank Quinn]]
+The term “core mathematics” is discussed in [Quinn 2012](#Quinn12).
 
-## Universes
+## Examples
+
+### Universes
 
 * In [[structural set theory]] and [[type theory]], the existence of [[large categories]] such as [[Grothendieck topoi]] requires the existence of [[universes]]/[[Grothendieck universes]], so one could speak of the [[large set]] of all [[sets]]/[[small sets]], otherwise every category defined in the theory would be a [[small category]] in the theory. 
 
-## Large cardinal axioms
+### Large cardinal axioms
  {#LargeCardinalAxiom}
 
 [[large cardinal axiom|Large cardinal axioms]], traditionally not assumed in various foundations, have effects in real mathematics:
@@ -23,17 +25,17 @@ The term “core mathematics” is discussed in an [article](http://www.ams.org/
 
 * [[Vopěnka's principle]]: Every [[discrete category|dicrete]] [[full subcategory]] of a [[locally presentable category]] is [[small]].
 
-## Propositional resizing
+### Propositional resizing
 
 * The [[Dedekind real numbers]] become [[small]] with [[propositional resizing]]. 
 
 * All [[posets]] are small with propositional resizing. In particular, the [[frame]] of [[truth values]] is small, and thus the [[powerset]] of a [[set]] is small. 
 
-## Excluded middle
+### Excluded middle
 
 * That every [[net]] in a [[compact space]] has a [[subnet]] that [[converges]] is equivalent to [[excluded middle]]. 
 
-## Axiom of choice
+### Axiom of choice
 
 See the nLab's [[axiom of choice#equivalents|list of statements equivalent to the axiom of choice]]. 
 
@@ -45,15 +47,15 @@ The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/
 
 See also Wikipedia\'s [list of statements undecidable in ZFC](http://en.wikipedia.org/wiki/List_of_statements_undecidable_in_ZFC).
 
-## Whitehead's theorem
+### Whitehead's theorem
 
 In [[set theory]], [[Whitehead's theorem]] is a theorem valid for all [[infinity-groupoids]], modeled as [[Kan complexes]] or [[CW-complexes]]. However, in [[homotopy type theory]], Whitehead's theorem is not provable when regarded as a statement about types in homotopy type theory, since it admits models in non-[[hypercomplete (∞,1)-toposes]]. As a result, the truth of Whitehead's theorem is a [[foundational axiom]] that may be regarded as a "classicality" property, akin to [[excluded middle]] or the [[axiom of choice]], and is usually called *Whitehead's principle* by homotopy type theorists. 
 
-## Univalence
+### Univalence
 
 * Given the [[univalence axiom]] in [[homotopy type theory]], one could prove that every [[proset]] is a [[poset]]. 
 
-## Whitehead problem
+### Whitehead problem
 
 The following question is called the **Whitehead problem**
 
@@ -61,7 +63,7 @@ Every [[free abelian group]] $A$ satisfies $Ext^1(A,\mathbb{Z}) = 0$. Is, conver
 
 When formalizing [[group theory]] within [[ETCS]] as a [[set theory]], then this question is undecidable.  (It is still undecidable in [[ZFC]], equivalently in ETCS + Collection.)  In some models it is true, while other models have counterexamples. As a result, it is also undecidable in [[homotopy type theory]]. 
 
-## Fermat's last theorem
+### Fermat's last theorem
 
 It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic#Friedman.27s_grand_conjecture) by Harvey Friedman that all theorems involving finitary objects published in _Annals of Mathematics_ (for argument's sake) can be proved in [[Elementary Function Arithmetic]] (EFA), a weak fragment of [[Peano arithmetic]]. One implication is that [[Fermat's last theorem]] is provable in PA. There is a current program of research by Angus MacIntyre to show this last fact directly. From a category theoretic point of view, [[Colin McLarty]] has shown that all of the material in [[SGA]] relies only on quite weak foundations, namely MacLane set theory with one [[universe]] (weaker than the theory $V_{\omega\cdot 3}$ considered in [[ZFC]])
 
@@ -74,3 +76,8 @@ McLarty comments extensively on the possibility of proving Fermat's last theorem
 ## See also
 
 * [[foundations of mathematics]]
+
+
+## References
+
+* {#Quinn12} [[Frank Quinn]], *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) $[$[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)$]$
