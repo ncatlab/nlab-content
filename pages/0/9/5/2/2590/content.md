@@ -10,9 +10,9 @@ The [[foundations]] of [[mathematics]] may seem to be a topic curiously disconne
 
 The term “core mathematics” is discussed in an [article](http://www.ams.org/notices/201201/rtx120100031p.pdf) by [[Frank Quinn]]
 
-## Classes and/or Universes
+## Universes
 
-* In [[set theory]] and [[type theory]], the existence of [[large categories]] such as [[Grothendieck topoi]] requires the existence of [[classes]]/[[universes]]/[[Grothendieck universes]], so one could speak of the [[class]] or [[large set]] of all [[sets]]/[[small sets]], otherwise every category defined in the theory would be a [[small category]] in the theory. 
+* In [[structural set theory]] and [[type theory]], the existence of [[large categories]] such as [[Grothendieck topoi]] requires the existence of [[universes]]/[[Grothendieck universes]], so one could speak of the [[large set]] of all [[sets]]/[[small sets]], otherwise every category defined in the theory would be a [[small category]] in the theory. 
 
 ## Large cardinal axioms
  {#LargeCardinalAxiom}
@@ -48,6 +48,10 @@ See also Wikipedia\'s [list of statements undecidable in ZFC](http://en.wikipedi
 ## Whitehead's theorem
 
 In [[set theory]], [[Whitehead's theorem]] is a theorem valid for all [[infinity-groupoids]], modeled as [[Kan complexes]] or [[CW-complexes]]. However, in [[homotopy type theory]], Whitehead's theorem is not provable when regarded as a statement about types in homotopy type theory, since it admits models in non-[[hypercomplete (∞,1)-toposes]]. As a result, the truth of Whitehead's theorem is a [[foundational axiom]] that may be regarded as a "classicality" property, akin to [[excluded middle]] or the [[axiom of choice]], and is usually called *Whitehead's principle* by homotopy type theorists. 
+
+## Univalence
+
+* Given the [[univalence axiom]] in [[homotopy type theory]], one could prove that every [[proset]] is a [[poset]]. 
 
 ## Whitehead problem
 
