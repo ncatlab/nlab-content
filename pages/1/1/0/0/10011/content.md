@@ -25,6 +25,8 @@ Given an [[endofunctor]] $F$ such that the [[category]] of [[algebra for an endo
 
 * HaskellWiki, [Catamorphisms](https://wiki.haskell.org/Catamorphisms)
 
+* Wikipedia, [Catamorphism](https://en.wikipedia.org/wiki/Catamorphism)
+
 * {#BirdMoor1997} [[Richard Bird]], [[Oege de Moor]] (1997), [_Algebra of Programming_](http://www.cs.ox.ac.uk/publications/books/algebra/), Prentice Hall
 
 * {#Fokkinga1992} [[Maarten M. Fokkinga]] (1992), [_Law and Order in Algorithmics_](https://research.utwente.nl/en/publications/law-and-order-in-algorithmics), PhD thesis, University of Twente
