@@ -25,9 +25,11 @@
 
 A __univalent type theory__ is a [[dependent type theory]] with [[type universes]] and [[identity types]] such that all universes satisfy the [[univalence axiom]]. 
 
-Univalent type theories usually have additional types such as the [[empty type]], the [[unit type]], the [[booleans]], and the [[interval type]]. 
+Univalent type theories usually have additional types such as the [[empty type]], the [[unit type]], the [[booleans]], and the [[natural numbers type]], making it into a [[Martin-Löf dependent type theory]]. 
 
 ## See also ##
+
+* [[Martin-Löf dependent type theory]]
 
 * [[proof theoretic strength of univalent type theory plus HITs]]
 
