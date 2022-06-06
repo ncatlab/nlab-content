@@ -46,6 +46,10 @@ An introductory textbook on [[homotopy type theory]] and its use as a [[univalen
 
   [[Andrej Bauer]], _The HoTT book_ ([web](http://audrey.fmf.uni-lj.si/hott.html), [alternative](http://math.andrej.com/2013/06/20/the-hott-book/))
 
+* It can be cited as:
+
+Homotopy Type Theory: Univalent Foundations of Mathematics,
+The Univalent Foundations Program, Institute for Advanced Study, 2013.
 
 category: reference
 
