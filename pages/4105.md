@@ -1,7 +1,7 @@
 **[[2-category theory]]**
 
 
-## Definitions
+**Definitions**
 
 * [[2-category]]
 
@@ -11,7 +11,7 @@
 
 * [[enriched bicategory]]
 
-## Transfors between 2-categories
+**Transfors between 2-categories**
 
 * [[2-functor]]
 
@@ -31,7 +31,7 @@
 
 * [[Yoneda lemma for bicategories]]
 
-## Morphisms in 2-categories
+**Morphisms in 2-categories**
 
 * [[fully faithful morphism]]
 
@@ -45,7 +45,7 @@
 
 * [[eso morphism]]
 
-## Structures in 2-categories
+**Structures in 2-categories**
 
 * [[adjunction]]
 
@@ -59,7 +59,7 @@
 
 * [[codiscrete cofibration]]
 
-## Limits in 2-categories
+**Limits in 2-categories**
 
 * [[2-limit]]
 
@@ -73,7 +73,7 @@
 
 * [[equifier]]
 
-## Structures on 2-categories
+**Structures on 2-categories**
 
 * [[2-monad]]
 
@@ -90,5 +90,3 @@
 * [[Gray tensor product]]
 
 * [[proarrow equipment]]
-
-<div markdown="1">[Edit this sidebar](/nlab/edit/2-category+theory+-+contents)</div>
