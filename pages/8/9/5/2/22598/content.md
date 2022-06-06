@@ -1,4 +1,5 @@
 
+> For disambiguation of *[[content]]* see there.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,7 +19,7 @@
 
 ## Idea
 
-The "hook-content formula" expresses the [[number]] of [[semistandard Young tableaux]] with fixed underlying [[Young diagram]] and upper bound on its labels in terms of the "hook lengths" and the "content of boxes" of the underlying diagram. 
+In [[combinatorics]] and [[representation theory]], the *hook-content formula* expresses the [[number]] of [[semistandard Young tableaux]] with fixed underlying [[Young diagram]] and upper bound on its labels in terms of the "hook lengths" and the "content of boxes" of the underlying diagram. 
 
 If the dependency in the "contents" is removed, the formula reduces to the *[[hook length formula]]* that counts [[standard Young tableaux]] of the given shape.
 
