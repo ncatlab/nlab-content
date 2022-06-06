@@ -158,6 +158,62 @@ However, it does not have global elimination or computation rules. Instead, it h
 
 $$Id_{A \times B} (s, t) \equiv Id_A(\pi_1 s, \pi_1 t) \times Id_B (\pi_2 s, \pi_2 t)$$
 
+### For types in universes 
+
+We are working in a [[dependent type theory]] with Tarski-style [[universes]].
+
+The [[identity types]] in a universe in higher observational type theory have the following formation rule:
+
+$$\frac{A:\mathcal{U} \quad a:\mathcal{T}_\mathcal{U}(A) \quad b:\mathcal{T}_\mathcal{U}(A)}{\mathrm{id}_A(a, b):\mathcal{U}}$$
+
+We define a general congruence term called ap
+
+$$\frac{x:A \vdash f:B \quad p:\mathrm{id}_A(a, a^{'})}{\mathrm{ap}_{x.f}(p):\mathrm{id}_B(f[a/x], f[a^{'}/x])}$$
+
+and the reflexivity terms:
+
+$$\frac{a:A}{\mathrm{refl}_{a}:\mathrm{id}_A(a, a)}$$
+
+and computation rules for identity functions
+
+$$\mathrm{ap}_{x.x}(p) \equiv p$$
+
+and for constant functions $y$
+
+$$\mathrm{ap}_{x.y}(p) \equiv \mathrm{refl}_{y}$$
+
+Thus, ap is a higher dimensional explicit substitution. There are definitional equalities
+
+$$\mathrm{ap}_{x.f}(\mathrm{refl}_{a}) \equiv \mathrm{refl}_{f[a/x]}$$
+
+$$\mathrm{ap}_{y.g}(\mathrm{ap}_{x.f}(p)) \equiv \mathrm{ap}_{x.g[f/y]}(p)$$
+
+$$\mathrm{ap}_{x.t}(p) \equiv \mathrm{refl}_{t}$$
+
+for constant term $t$. 
+
+### For universes
+
+Let $A \cong_\mathcal{U} B$ be the type of [[bijective correspondences]] between two terms of a universe $A:\mathcal{U}$ and $B:\mathcal{U}$, and let $\mathrm{id}_\mathcal{U}(A, B)$ be the identity type between two terms of a universe $A:\mathcal{U}$ and $B:\mathcal{U}$. Then there are rules
+
+$$\frac{R:A \cong_\mathcal{U} B}{\Delta(R):\mathrm{id}_\mathcal{U}(A, B)} \qquad \frac{P:\mathrm{id}_\mathcal{U}(A, B)}{\nabla(P):A \cong_\mathcal{U} B} \qquad \frac{R:A \cong_\mathcal{U} B}{\nabla(\Delta(R)) \equiv R}$$
+
+### Identity types in universes and singleton contractibility ###
+
+Given a term of a universe $A:\mathcal{U}$
+
+$$\mathrm{id}_{\mathcal{T}_\mathcal{U}(A)} \equiv \pi_1(\nabla(\mathrm{refl}_A))$$
+
+with terms representing [[singleton contractibility]]. 
+
+$$\pi_1(\pi_2(\nabla(\mathrm{refl}_A)):\prod_{a:\mathcal{T}_\mathcal{U}(A)} \mathrm{isContr}\left(\sum_{b:\mathcal{T}_\mathcal{U}(A)} \mathrm{id}_{\mathcal{T}_\mathcal{U}(A)}(a, b)\right)$$
+
+$$\pi_2(\pi_2(\nabla(\mathrm{refl}_A))):\prod_{b:\mathcal{T}_\mathcal{U}(A)} \mathrm{isContr}\left(\sum_{a:\mathcal{T}_\mathcal{U}(A)} \mathrm{id}_{\mathcal{T}_\mathcal{U}(A)}(a, b)\right)$$
+
+## Definition in cubical type theory
+
+Identity types in [[cubical type theory]] are called **path types** and are defined using a primitive interval. I'm not exactly sure how they work so somebody with more expertise with cubical type theory should expand on it. 
+
 ## Categorical semantics
 
 We discuss the [[categorical semantics]] for identity types in the extensional case, and identity types in the [[categorical semantics of homotopy type theory]] in the intensional case.
