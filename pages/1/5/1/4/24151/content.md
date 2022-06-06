@@ -1,5 +1,6 @@
 
-> This entry is about contents in [[ring theory]]. For contents in measure theory, see [[content (measure theory)]]. For the contents sidebar of this wiki, see [[contents]]. 
+> This entry is about the notion of "content" in [[ring theory]]. For the notion in [[measure theory]], see *[[content (measure theory)]]*. For the notion in [[combinatorics]]/[[representation theory]] see *[[hook-content formula]]*. For the contents sidebar of this wiki, see *[[contents]]*. For more disambiguation see *[[content]]*.
+ 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
