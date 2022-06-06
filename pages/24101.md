@@ -1,4 +1,4 @@
-> This entry is about contents in [[measure theory]]. For contents in ring theory, see [[content (ring theory)]]. For the contents sidebar of this wiki, see [[contents]]. 
+> This entry is about the notion of "content" in [[measure theory]]. For the notion in ring theory, see [[content (ring theory)]] and for the notion in [[combinatorics]]/[[representation theory]] set at *[[hook-content formula]]*. For the contents sidebar of this wiki, see *[[contents]]*.  For more disambiguation see *[[content]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
