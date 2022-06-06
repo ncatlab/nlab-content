@@ -46,4 +46,4 @@ __Book homotopy type theory__ or **Book HoTT** is a [[Martin-Löf dependent type
 
 ## References ##
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
