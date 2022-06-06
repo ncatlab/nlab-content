@@ -412,7 +412,7 @@ A blog serving as a base for the HoTT community is at
 
 * {#HoTTSite} _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
 
-A wiki is here
+A wiki is here (now being moved to the main nLab)
 
 * _[HoTT wiki](https://ncatlab.org/homotopytypetheory/show/HomePage)_
 
