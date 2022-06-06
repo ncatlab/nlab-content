@@ -64,6 +64,9 @@ Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAn
 
 * For $X$ a [[CW complex]] with [[filtered topological space]] structure $X_0 \hookrightarrow \cdots \hookrightarrow \X_k \hookrightarrow X_{k+1} \hookrightarrow \cdots \hookrightarrow X$ the quotient topological spaces $X_{k+1}/X_k$ are wedge sums of $(k+1)$-spheres.
 
+## Related concepts
+
+* [[loop space of a wedge of circles]]
 
 ## References
 
