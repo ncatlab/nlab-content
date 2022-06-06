@@ -22,7 +22,7 @@ With the hindsight of the [[nPOV]] one could usefully say that discrete mathemat
 
 However, in common parlance the term *discrete mathematics* is used much more restrictively:
 
-On the one hand, it often appears as the title of those introductory courses in the undergraduate [[mathematics]] and [[computer science]] curricula which are devoted to teaching an overview of elementary [[combinatorics]] and its prerequisites such as naïve [[set theory]], basic [[predicate logic]], an introduction to [[proofs]], and elementary [[number theory]] (e.g. [Molluzzo & Buckley 1986](#MolluzzoBuckley86)). 
+On the one hand, it often appears as the title of those introductory courses in the undergraduate [[mathematics]] and [[computer science]] curricula which are devoted to teaching an overview of a wide variety of topics such as [[combinatorics]] and [[graph theory]] and its prerequisites such as naïve [[set theory]], basic [[predicate logic]], an introduction to [[proofs]], and elementary [[number theory]] (e.g. [Molluzzo & Buckley 1986](#MolluzzoBuckley86)). 
 
 On the other hand, in research mathematics the term *discrete mathematics* is *de facto* mainly used as a synonym for *[[combinatorics]]* and closely related fields (or subfields): finite geometry and [[incidence geometry]], [[coding theory]] and [[Boolean functions]], combinatorics of [[posets]], [[matroid]] theory, convex geometry and [[polytopes]], packings, [[tilings]], etc.
 
