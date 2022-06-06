@@ -34,7 +34,7 @@ In any star-polycategory there is an isomorphism $A^{**}\cong A$ for all $A$. We
 * A collection of objects, together with an involution operation $(-)^*$ (so $A^{**}=A$).
 * For lists $\Gamma$, $\Delta$ of objects, a set $Hom(\Gamma;\Delta)$.
 * _Exchange and negation structure:_ Two lists $\Gamma$ and $\Delta$ induce a single list $\Gamma^*,\Delta$ by concatenating $\Gamma^*$ with $\Delta$. Each object-preserving-bijection $\Gamma^*,\Delta\to\Pi^*,\Sigma$ should induce a function $Hom(\Gamma;\Delta)\to \Hom(\Pi;\Sigma)$, compatible with composition of bijections.
-* For each object $\Gamma$, an identity morphism $Hom(A;A)$.
+* For each object $A$, an identity morphism $Hom(A;A)$.
 * For lists $\Gamma,\Delta,\Pi,\Sigma$ and objects $A$, a composition function
 $$Hom(\Gamma;A,\Delta)\times Hom(\Pi,A;\Sigma)\to Hom(\Gamma,\Pi;\Delta,\Sigma)$$
 respecting the exchange and negation structure, and satisfying the same identity and associativity laws as for an ordinary polycategory.
