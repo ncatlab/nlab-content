@@ -1,4 +1,4 @@
-Here are the open problems stated at the [HoTT 2019 Summer School](https://hott.github.io/HoTT-2019//summer-school/), 
+Here are the open problems stated at the [HoTT 2019 Summer School](https://hott.github.io/HoTT-2019//summer-school/) (on [[homotopy type theory]]), 
 listed by the instructor who posed the problem:
 
 #### Mathieu Anel: Logos Theory####
