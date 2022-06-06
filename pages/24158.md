@@ -97,7 +97,7 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Can multiplication be defined for the higher inductive-inductive [[surreal numbers]] from the book?
 
-* Can Rezk complete categories remove the non-constructivity from the applications of the Freyd Adjoint Functor theorem? ([[faft.txt:file]])
+* Can Rezk complete categories remove the non-constructivity from the applications of [[Freyd's adjoint functor theorem]]? 
 
 * Is there a predicative and constructive abstract definition of the category of real Hilbert spaces, in a similar fashion as what Chris Heunen and Andre Kornell did in classical mathematics in their article ([Axioms for the category of Hilbert spaces](https://arxiv.org/abs/2109.07418))? Solér's theorem, which is used in their proof, is only valid in classical mathematics.
 
@@ -113,7 +113,7 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 * Formalize $\infty$-[[Chern-Weil theory]] internally in cohesive homotopy type theory. (See [arxiv:1310.7930](https://arxiv.org/abs/1310.7930) for an external presentation in $(\infinity,1)$-category theory)
 
-* Construct a model of the 3+1 dimensional [[quantum gauge field theory]] of [[quantum electrodynamics]] in cohesive homotopy type theory. 
+* Construct a model of the 3+1 dimensional [[quantum gauge theory]] of [[quantum electrodynamics]] in cohesive homotopy type theory. 
 
 ## Formalization
 
