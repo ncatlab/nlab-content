@@ -64,7 +64,8 @@ _[[relation between type theory and category theory]]_.
 
 ## Examples
 
-* [[Martin-Löf dependent type theory]].
+* [[Martin-Löf dependent type theory]]
+* [[univalent type theory]]
 
 ## Related concepts
 
