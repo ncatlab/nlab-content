@@ -300,5 +300,6 @@ Discussion of the logical [[axiom of choice]] in dependent type theory is in
 [[!redirects Martin-Löf's dependent type theory]]
 [[!redirects Martin-Löf's dependent type theories]]
 
+[[!redirects MLTT]]
 
 
