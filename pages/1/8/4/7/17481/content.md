@@ -1,3 +1,4 @@
+Named after [[Anthony P. Morse]] and [[Arthur Sard]].
 
 ## Related concepts
 
@@ -9,3 +10,7 @@
 
 [[!redirects Sard-Morse theorem]]
 [[!redirects Brown-Sard-Morse theorem]]
+[[!redirects Morse–Sard theorem]]
+[[!redirects Morse-Sard theorem]]
+[[!redirects Morse–Sard lemma]]
+[[!redirects Morse-Sard lemma]]
