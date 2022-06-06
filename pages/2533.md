@@ -1,8 +1,36 @@
-A good part of [[mathematics]] refers to continuous or even smooth spaces of various kinds. **Discrete mathematics** is about discrete structures: [[logic]] and [[combinatorics]] are typical fields in this domain. Much of [[algebra]], [[set theory]], [[type theory]], [[category theory]] and [[higher category theory]] are discrete. [[infinity-category|Infinity category theory]] is discrete as well, thus including [[homotopy type theory]] and much of [[synthetic mathematics|synthetic]] [[homotopy theory]] in discrete mathematics. Continuous structures in mathematics are typically structures with some notion of continuous [[topology]], [[smooth topos|smoothness]], or [[Euclidean-topological ∞-groupoids|continuous cohesion]] or structures expressed in a [[geometric theory]]. In essence, discrete mathematics is about [[homotopy type theory]], while continuous mathematics is about continuous homotopy type theory or [[real number|real-]][[cohesive homotopy type theory]]. There is a good deal of overlap between discrete mathematics and [[finite mathematics]], and not every author distinguishes them. While modern number theory mixes ideas of discrete and continuous, in its original problematics most of the [[number theory]] may be considered discrete. However socially, and often in methods, modern number theory is for many closer to [[algebraic geometry]] and analysis than to combinatorics.
 
-In $n$lab many items are dedicated to the [[foundations|foundational]] issues. **Set theory** has many standard basic notions like [[set]], [[proper class]], [[empty set]], [[singleton]], [[subset]], [[relation]], [[reflexive relation]], [[transitive relation]], [[symmetric relation]], [[function]], [[partial function]], [[injection]], [[surjection]], [[bijection]], [[union]], [[disjoint union]], [[complement]], [[intersection]], [[symmetric difference]], [[power set]], [[pointed set]] along with more foundational items like [[axiom of choice]], [[axiom of extensionality]], [[axiom of foundation]], [[axiom of infinity]], [[Zorn's lemma]], [[well-ordering theorem]], [[decidable subset]], [[material set theory]], [[inhabited set]], [[COSHEP]], [[Markov's principle]], [[Grothendieck universe]], [[choice operator]], [[pure set]], [[hereditarily finite set]]). **Logic** also has some entries; among them are [[truth value]] or [[0-poset]], [[predicate]], [[excluded middle]], [[implication]]. We pay attention to the alternative approaches to logic and set theory, like the internal language of a [[topos]]; cf. [[Mitchell-Benabou language]], Lawvere's [[ETCS]], Nelson's [[internal set]] theory, etc. Concepts in **type theory** also has entries, such as [[type]], [[term]], [[dependent type]], [[context]], [[cut rule]], [[beta-reduction]], [[eta-conversion]], [[empty type]], [[unit type]], [[product type]], [[sum type]], [[function type]], [[dependent sum type]], [[dependent product type]], [[identity type]], [[inductive type]], [[coinductive type]], [[higher inductive type]], [[judgmental equality]], [[propositional equality]], [[type of types]], [[Martin-Löf dependent type theory]], [[FOLDS]], [[Axiom K]], [[univalence axiom]], [[propositions are types]], [[homotopy type theory]], etc, and its semantic interpretations in **higher category theory**: i.e. [[groupoid]], [[n-groupoid]], [[(-1)-groupoid]], [[0-groupoid]], [[infinity-groupoid]], [[object]], [[morphism]], [[n-morphism]], [[composition]], [[weak category]], [[locally cartesian closed category]], [[(n,1)-category]], [[(infinity,1)-category]], [[elementary topos]] [[(n,1)-topos]], [[elementary (infinity,1)-topos]], [[functor]], [[limit]], [[product]], [[pullback]], [[terminal object]], [[equaliser]], [[colimit]], [[coproduct]], [[coequalizer]], [[pushout]], [[initial object]], [[(infinity,1)-limit]], [[homotopy pullback]], [[path space object]], [[over category]], [[under category]], [[base change]], [[dependent sum]], [[dependent product]], [[exponential object]],  [[monomorphism]], [[epimorphism]], [[essentially surjective functor|essentially surjective morphism]], [[full functor|full morphism]], [[faithful morphism]], [[truncated object]], [[connected object]], [[orthogonal factorization system]], [[(n-connected, n-truncated) factorization system]], [[subobject classifier]], [[discrete object classifier]], [[object classifier in an (infinity,1)-topos]], [[internalization]], [[internal logic]], [[internal set theory]], [[groupoid object in an (infinity,1)-category]], etc...
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Mathematics
++--{: .hide}
+[[!include mathematics]]
+=--
+=--
+=--
 
-Some other basic **discrete structures** which have their own entry in $n$lab are [[preorder]], [[order]], [[partial order]], [[total order]], [[well-order]], [[equivalence relation]], [[quotient set]], [[poset]], [[proset]], [[cyclic order]], [[semilattice]], [[lattice]], [[distributive lattice]], [[meet]], [[join]], [[supremum]], [[infimum]], [[suplattice]], [[multiset]], [[graph]], [[quiver]], [[tree]], [[filter]], [[span]], [[multispan]], [[natural number]], [[sequence]], ...
+#Contents#
+* table of contents
+{:toc}
 
+## Definition 
 
-Of course, a plain old [[category]] is a discrete structure per se. 
+**Discrete mathematics** is about mathematical structures that are "discrete" in some sense. However, there is no one single definition of a "discrete structure", and thus no one single definition of "discrete mathematics". 
+
+Different definitions of discrete mathematics may include:
+
+* The study of [[countable sets]] and mathematical structures on countable sets (as in [[combinatorics]])
+
+* The study of [[discrete categories]] and mathematical structures on discrete categories
+
+* The study of [[discrete infinity-groupoids]] and mathematical structures on discrete infinity-groupoids
+
+* A class taught at the introductory university level, in the same way that [[algebra]] could also refer to a class taught in secondary education. 
+
+and so forth. Furthermore, there isn't a clear delineation between discrete mathematics and other fields. The study of [[graph theory]] is usually considered a part of discrete mathematics, and [[quivers]], [[globular sets]], and [[simplicial sets]] are part of graph theory (being higher directed graphs), but are frequently used in [[higher category theory]] and [[(infinity,1)-category theory]] to combinatorially model objects such as [[categories]] and [[infinity-groupoids]]. 
+
+## See also
+
+* [[finite mathematics]]
+
+* [[continuous mathematics]]
