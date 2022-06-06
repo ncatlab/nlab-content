@@ -15,8 +15,9 @@ The term “core mathematics” is discussed in an [article](http://www.ams.org/
 * In [[set theory]] and [[type theory]], the existence of [[large categories]] such as [[Grothendieck topoi]] requires the existence of [[classes]]/[[universes]]/[[Grothendieck universes]], so one could speak of the [[class]] or [[large set]] of all [[sets]]/[[small sets]], otherwise every category defined in the theory would be a [[small category]] in the theory. 
 
 ## Large cardinal axioms
+ {#LargeCardinalAxiom}
 
-[[Large cardinal axioms]], traditionally not assumed in various foundations, have effects in real mathematics:
+[[large cardinal axiom|Large cardinal axioms]], traditionally not assumed in various foundations, have effects in real mathematics:
 
 * That every [[extremally disconnected]] [[profinite set]] has a [[hypercover]] whose terms are extremally disconnected requires that beth cardinals exist. See Peter Scholze's comment [here](https://golem.ph.utexas.edu/category/2021/06/large_sets_2.html#c060032). In particular, it is provable in Zermelo-Frankel set theory, but not provable in Zermelo set theory or [[ETCS]], because replacement implies that beth cardinals exist, and while Zermelo-Frankel set theory has replacement, neither Zermelo set theory nor ETCS have replacement or beth cardinals. 
 
