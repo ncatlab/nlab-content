@@ -23,7 +23,7 @@ The term “core mathematics” is discussed in [Quinn 2012](#Quinn12).
 
 * That every [[extremally disconnected]] [[profinite set]] has a [[hypercover]] whose terms are extremally disconnected requires that beth cardinals exist. See Peter Scholze's comment [here](https://golem.ph.utexas.edu/category/2021/06/large_sets_2.html#c060032). In particular, it is provable in Zermelo-Frankel set theory, but not provable in Zermelo set theory or [[ETCS]], because replacement implies that beth cardinals exist, and while Zermelo-Frankel set theory has replacement, neither Zermelo set theory nor ETCS have replacement or beth cardinals. 
 
-* [[Vopěnka's principle]]: Every [[discrete category|dicrete]] [[full subcategory]] of a [[locally presentable category]] is [[small]].
+* [[Vopěnka's principle]]: Every [[discrete category|discrete]] [[full subcategory]] of a [[locally presentable category]] is [[small]].
 
 ### Propositional resizing
 
@@ -67,7 +67,7 @@ When formalizing [[group theory]] within [[ETCS]] as a [[set theory]], then this
 
 It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic#Friedman.27s_grand_conjecture) by Harvey Friedman that all theorems involving finitary objects published in _Annals of Mathematics_ (for argument's sake) can be proved in [[Elementary Function Arithmetic]] (EFA), a weak fragment of [[Peano arithmetic]]. One implication is that [[Fermat's last theorem]] is provable in PA. There is a current program of research by Angus MacIntyre to show this last fact directly. From a category theoretic point of view, [[Colin McLarty]] has shown that all of the material in [[SGA]] relies only on quite weak foundations, namely MacLane set theory with one [[universe]] (weaker than the theory $V_{\omega\cdot 3}$ considered in [[ZFC]])
 
-* [[Colin McLarty]], _Set Theory for Grothendieck's Number Theory_, ([pdf](http://www.cwru.edu/artsci/phil/Groth%20found26.pdf)), draft dated Jan 26 2011
+* [[Colin McLarty]], _Weak Set Theory for Grothendieck's Number Theory_, ([arXiv:1102.1773v1](https://arxiv.org/abs/1102.1773v1))
 
 McLarty comments extensively on the possibility of proving Fermat's last theorem, and more generally the Modularity theorem, in PA in the article
 
