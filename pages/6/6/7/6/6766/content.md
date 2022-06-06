@@ -159,11 +159,11 @@ following precursor observations due to:
 
 The proof that for rational levels this construction indeed yields [[conformal blocks]] is due to:
 
-* [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by correlators in Wess-Zumino-Witten models*,  Lett Math Phys **20** (1990)  291–297  $[$[doi:10.1007/BF00626525](https://doi.org/10.1007/BF00626525)$]$
+* {#FeiginSchechtmanVarchenko90} [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by correlators in Wess-Zumino-Witten models*,  Lett Math Phys **20** (1990)  291–297  $[$[doi:10.1007/BF00626525](https://doi.org/10.1007/BF00626525)$]$
 
-* [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. I*, Commun. Math. Phys. **163** (1994) 173–184 $[$[doi:10.1007/BF02101739](https://doi.org/10.1007/BF02101739)$]$
+* {#FeiginSchechtmanVarchenko94} [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. I*, Commun. Math. Phys. **163** (1994) 173–184 $[$[doi:10.1007/BF02101739](https://doi.org/10.1007/BF02101739)$]$
 
-  > (for $\mathfrak{sl}(2)$)
+  > (for [[sl(2)|$\mathfrak{sl}(2)$]])
 
 * [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. II*, Comm. Math. Phys. **170** 1 (1995) 219-247  $[$[euclid:cmp/1104272957](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-170/issue-1/On-algebraic-equations-satisfied-by-hypergeometric-correlators-in-WZW-models/cmp/1104272957.full)$]$
 
@@ -180,8 +180,7 @@ Review:
 
 See also:
 
-* [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs
-**88**, AMS 2004 ([ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/))
+* [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs **88**, AMS 2004 ([ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/))
 
 This "hypergeometric" construction uses results on the [[twisted de Rham cohomology]] of [[configuration spaces of points]] due to:
 
