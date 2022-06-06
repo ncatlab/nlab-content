@@ -1,4 +1,4 @@
-The term '**ring theory**' usually refers to the study of classical (not necessarily commutative) [[rings]], unital or not, and often also of [[modules]] over them. 
+In [[algebra]], the term '**ring theory**' usually refers to the study of classical (not necessarily commutative) [[rings]], unital or not, and often also of [[modules]] over them. 
 
 Some of the related entries in nlab include [[noetherian ring]], [[maximal spectrum]], [[prime spectrum]], [[commutative algebra]], [[prime ideal]], [[ideal]], [[filter]], [[Ore set]], [[Gabriel filter]], [[primitive ideal]], [[Schur's lemma]]. 
 
