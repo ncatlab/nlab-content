@@ -4,6 +4,8 @@ Anthony Perry Morse was a mathematician at the University of California, Berkele
 
 He got his PhD degree in 1937 from Brown University, advised by Clarence Raymond Adams.
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Anthony_Morse)
+
 ## Selected writings
 
 On the [[Morse–Kelley set theory]]:
@@ -17,3 +19,5 @@ On the [[Morse–Sard lemma]]:
 [[!redirects Anthony Morse]]
 [[!redirects A. P. Morse]]
 [[!redirects A. Morse]]
+
+category: people
