@@ -13,7 +13,7 @@
 {:toc}
 
 ## Definition ##
-In [[homotopy type theory]], given a [[dagger category]] $A$ and objects $a,b:A$, then by induction on identity, there is a function
+In [[homotopy type theory]], given a [[dagger category]] $A$ and objects $a,b:A$, then by [induction on identity](identity+type#InTermsOfInductiveTypes), there is a function
 
 $$idtouiso : (a=b) \to (a \cong^\dagger b)$$
 
@@ -33,6 +33,8 @@ The inverse of $idtouiso$ is denoted $uisotoid$.
 
 ## See also ##
 
+* [[univalence]]
+
 * [[dagger category]]
 
 * [[univalent setoid]]
@@ -45,7 +47,7 @@ The inverse of $idtouiso$ is denoted $uisotoid$.
 
 ## References ##
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects univalent dagger categories]]
 [[!redirects saturated dagger category]]
