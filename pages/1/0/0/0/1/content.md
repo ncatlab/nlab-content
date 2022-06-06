@@ -93,7 +93,7 @@ The $n$Lab server is currently hosted at Carnegie Mellon University, funded in t
 
 However, we will imminently be moving to the cloud, to an account registered to the [Topos Institute](https://topos.institute/). For this, we rely on donations which have kindly been made to the nLab. See [[funding of the nLab]] for an overview of the financial side of things. The $n$Lab is currently in the process of migrating to the cloud. 
 
-The development of the nLab software and technical administrative matters was formerly in the hands of [[Richard Williamson]] and assistant [[Alexis Hazell]]. But Richard Williamson has resigned from the nLab effective 4 May 2022. If you wish to lend a hand, please [contact us](https://nforum.ncatlab.org).
+The development of the nLab software and technical administrative matters is in the hands of the nLab's [[nLab meta:technical board]]. If you wish to lend a hand, please [contact us](https://nforum.ncatlab.org).
 
 Much of the software behind the nLab has been written especially for the nLab: the latest source can be found at [GitHub](https://github.com/ncatlab/nlab). It was originally an instance of [Instiki](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage), and the shell of it remains (for the moment). Bug reports or other software issues/requests for the nLab are currently best raised in the category _[nLab Technical Matters](https://nforum.ncatlab.org/21/)_ at the [nForum](https://nforum.ncatlab.org/), but can also be posted [on GitHub](https://github.com/ncatlab/nlab/issues). 
 
