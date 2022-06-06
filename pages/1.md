@@ -24,7 +24,7 @@ $\,$
 $\,$
 =-- 
 
-[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki) for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially, but far from exclusively, from the [[n-point of view]]: with a sympathy towards the tools and perspective of [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]].
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki) for collaborative work on _[[Mathematics]]_, _[[Physics]]_, and _[[Philosophy]]_ --- especially, but far from exclusively, from the [[n-point of view]]: with a sympathy towards the tools and perspective of [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]].
 
 \tableofcontents
 
