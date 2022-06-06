@@ -46,7 +46,7 @@ says that $A$ is an $X$-[[dependent type]].
 In universes a la Tarski the corresponding hypothetical judgment would be of the form
 
 $$
-  x : X \vdash El(A)(x)\ type
+  x : X \vdash El(A)(x)\; type
 $$
 
 In [[homotopy type theory]] the type universe $Type$ is often assumed to satisfy the [[univalence]] [[axiom]]. This is a reflection of the fact that in its [[categorical semantics]] as an [[object classifier]] is part of an [[internal (∞,1)-category]] in the ambient [[(∞,1)-topos]]: the one that as an [[indexed category]] is the small [[codomain fibration]].
@@ -57,7 +57,7 @@ $$n:\mathbb{N} \vdash Type(n) : Type(n + 1)$$
 
 for universes a la Russell, and 
 
-$$n:\mathbb{N} \vdash Type(n)\ type$$
+$$n:\mathbb{N} \vdash Type(n)\; type$$
 $$n:\mathbb{N} \vdash Type^{'}(n) : Type(n + 1)$$
 $$n:\mathbb{N} \vdash El_{n+1}(Type^{'}(n)) \equiv Type(n)$$
 $$n:\mathbb{N} \vdash El_{n,n+1}:Type(n) \to Type(n + 1)$$
@@ -111,15 +111,15 @@ $$a:P, b:P, a \leq b \vdash U(a) : U(b)$$
 
 and a $P$-indexed hierarchy of type universes a la Tarski is
 
-$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
-\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{a:P \vdash U(a)\ type}$$
-$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
+\prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{a:P \vdash U(a)\; type}$$
+$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
 \prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{U^{'}(a) : U(b)}$$
-$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
 \prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{El_{b}(U^{'}(a)) \equiv U(a)}$$
-$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
 \prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{El_{a,b}:U(a) \to U(b)}$$
-$$\frac{P\ type \quad a:P, b:P \vdash a \leq b\ type \quad a:P, b:P \vdash p:
+$$\frac{P\; type \quad a:P, b:P \vdash a \leq b\; type \quad a:P, b:P \vdash p:
 \prod_{x:a \leq b} \prod_{y:a \leq b} x = y}{p:is1Monic(El_{a,b})}$$
 
 A type theory may have multiple type universes. 
@@ -234,3 +234,11 @@ See also
 [[!redirects hierarchy of types]]
 
 [[!redirects Type]]
+
+[[!redirects weak Tarski universe]]
+[[!redirects weak Tarski universes]]
+
+[[!redirects weakly Tarski]]
+[[!redirects weakly a la Tarski]]
+[[!redirects weakly Tarski universe]]
+[[!redirects weakly Tarski universes]]
