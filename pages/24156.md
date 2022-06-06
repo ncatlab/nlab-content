@@ -18,6 +18,8 @@ A **univalent groupoid** or **saturated groupoid** is a [[univalent dagger categ
 
 ## See also ##
 
+* [[univalence]]
+
 * [[groupoid]]
 
 * [[univalent dagger category]]
