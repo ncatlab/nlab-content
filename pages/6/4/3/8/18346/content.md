@@ -1,6 +1,8 @@
 
 
-* [webpage](https://www.maths.leeds.ac.uk/index.php?id=263&uid=1351)
+* [institute page](https://www.chalmers.se/en/staff/Pages/sattler.aspx)
+
+* [GoogleScholar page](https://scholar.google.dk/citations?user=ZJmvkfUAAAAJ&hl=da)
 
 ## Selected writings
 
@@ -11,6 +13,10 @@ On the [[fibration category of semi-simplicial sets]]:
 On the [[constructive model structure on simplicial sets]]:
 
 * {#GambinoSattlerSzumilo19} [[Nicola Gambino]], [[Christian Sattler]], [[Karol Szumiło]], _The constructive Kan-Quillen model structure: two new proofs_ ([arXiv:1907.05394](https://arxiv.org/abs/1907.05394))
+
+## Related entries
+
+* [[nlabmeta:technical board]]
 
 
 category: people
