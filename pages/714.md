@@ -268,6 +268,10 @@ In Wikipedia [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is 
 
 ## Variants
 
+### Univalent &#8224;-categories
+
+* [[univalent dagger category]]
+
 ### Monoidal &#8224;-categories
 
 * [[monoidal dagger category]]
