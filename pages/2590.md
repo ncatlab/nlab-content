@@ -14,7 +14,7 @@ The term “core mathematics” is discussed in [Quinn 2012](#Quinn12).
 
 ### Universes
 
-* In [[structural set theory]] and [[type theory]], the existence of [[large categories]] such as [[Grothendieck topoi]] requires the existence of [[universes]]/[[Grothendieck universes]], so one could speak of the [[large set]] of all [[sets]]/[[small sets]], otherwise every category defined in the theory would be a [[small category]] in the theory. 
+* In [[structural set theory]] and [[type theory]], the existence of [[large categories]] such as [[Grothendieck topoi]] requires the existence of [[universes]]/[[Grothendieck universes]], so one could speak of the [[large set]] of all [[sets]]/[[small sets]], otherwise every category defined in the theory would be a [[small category]] in the theory. In [[predicative mathematics]], the same is true of large posets such as [[frames]] and [[complete lattices]]. 
 
 ### Large cardinal axioms
  {#LargeCardinalAxiom}
