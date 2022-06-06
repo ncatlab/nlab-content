@@ -29,6 +29,8 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 
 * [[data type]]
 
+* [[discrete mathematics]]
+
 * [[list of mathematics software]]
 
 * [[denotational semantics]]
