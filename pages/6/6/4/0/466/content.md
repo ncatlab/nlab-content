@@ -162,7 +162,49 @@ $$
 
 =-- 
 
+### In homotopy type theory
 
+Note: the HoTT book calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+
+By Lemma 9.5.3 in the HoTT book (see [[product category]]), we have an induced functor $\mathbf{y} : A \to \mathit{Set}^{A^{op}}$ which we call the **yoneda embedding**.
+
+**Theorem 9.5.4 (The Yoneda Lemma)**
+For any [[category]] $A$, any $a:A$, and any functor $F: \mathit{Set}^{A^{op}}$, we have an [[isomorphism]]
+
+$$hom_{\mathit{Set}^{A^{op}}}(\mathbf{y}a,F) \cong F a \qquad \qquad(9.5.5)$$
+
+Moreover this is natural in both $a$ and $F$.
+
+**Proof.** Given a [[natural transformation]] $\alpha : \mathbf{y}a \to F$, we can consider the component $\alpha_a : \mathbf{y}a(a) \to F a$. Since $\mathbf{y} a(a)\equiv hom_A(a,a)$, we have $1_a:\mathbf{y}a(a)$, so that $\alpha_a(1_a):F a$. This gives a function $\alpha \mapsto \alpha_a(1_a)$ from left to right in (9.5.5).
+
+In the other direction, given $x: F a$, we define $\alpha : \mathbf{y} a \to F$ by
+
+$$\alpha_{a'}(f) \equiv F_{a,a'}(f)(x)$$
+
+Naturality is easy to check, so this gives a function from right to left in (9.5.5).
+
+To show that these are inverses, first suppose given $x: F a$. Then with $\alpha$ defined as above, we have $\alpha : \mathbf{y}a \to F$ and define $x$ as above, then for any $f:hom_A(a',a)$ we have
+
+$$
+\begin{aligned}
+  \alpha_{a'}(f) &= \alpha_{a'}(\mathbf{y} a_{a,a'}(f)(1_a))\\
+  &= (\alpha_{a'} \circ \mathbf{y}a_{a,a'}(f))(1_a)\\
+  &= (F_{a,a'}(f) \circ \alpha_a)(1_a)\\
+  &= F_{a,a'}(f_(\alpha_a(1_a))\\
+  &= F_{a,a'}(f)(x).
+\end{aligned}
+$$
+
+Thus, both composites are equal to identities. The proof of naturality follows from this. $\square$
+
+**Corollary 9.5.6** 
+The Yoneda embedding $\mathbf{y} : A \to \mathit{Set}^{A^{op}}$ is [[fully faithful]].
+
+**Proof.** By the Yoneda lemma, we have
+
+$$hom_{\mathit{Set}^{A^{op}}}(\mathbf{y}a,\mathbf{y}b) \cong \mathbf{y} b(a) \equiv hom_A(a,b)$$
+
+It is easy to check that this isomorphism is in fact the action of $\mathbf{y}$ on hom-sets. $\square$ 
 
 ## Corollaries
 
