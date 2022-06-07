@@ -96,11 +96,56 @@ Restricted to [[preorder|preorders]] or [[poset|posets]], Definition \ref{Defini
 
 \begin{defn} Given [[partial order|posets]] or [[preorder|preorders]] $\mathcal{C}$ and $\mathcal{D}$ and a [[monotone function]] $R: \mathcal{D} \to \mathcal{C}$, a _left adjoint_ of $R$ is a monotone function $L: \mathcal{C} \to \mathcal{D}$ such that, for all $x$ in $\mathcal{D}$ and $y$ in $\mathcal{C}$, we have that $L(x) \leq y$ holds if and only if $x \leq R(y) $ holds. \end{defn}
 
+### In homotopy type theory
+
+A [[functor]] $F: A \to B$ is a **left adjoint** if there exists
+
+* A [[functor]] $G : B \to A$
+* A [[natural transformation]] $\eta:1_A \to G F$ (the **unit**).
+* A [[natural transformation]] $\epsilon G \to 1_B$ (the **counit**).
+* Which satisfy the **triangle identities** (a.k.a zig-zag identities) 
+  * $(\epsilon F)(F \eta) = 1_F$
+  * $(G \epsilon)(\eta G) = 1_G$
+
 ## Properties
 
 * [[left adjoints preserve colimits]]
 
 * left adjoints preserve [[epimorphisms]].
+
+### In homotopy type thoery
+
+Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+
+\begin{lemma}
+**Lemma 9.3.2 in HoTT book**
+If $A$ is an [[univalent category]] and $B$ is a [[category]] then the type "$F$ is a left adjoint" is a [[mere proposition]].
+\end{lemma}
+
+\begin{proof}
+Suppose we are given $(G, \eta, \epsilon)$ with the triangle identities and also $(G', \eta', \epsilon')$. Define $\gamma: G \to G'$ to be $(G' \epsilon )(\eta G')$. Then
+
+$$ \begin{aligned}
+  \delta \gamma &= (G \epsilon')(\eta G')(G' \epsilon) (\eta' G)\\
+  &= (G \epsilon')(G F G' \epsilon_))\eta G' F G)(\eta' G)\\
+  &= (G \epsilon ')(G \epsilon' F G)(G F \eta' G)(\eta G)\\
+  &= (G \epsilon)(\eta G)\\
+  &= 1_G
+\end{aligned} $$
+using Lemma 9.2.8 (see [[natural transformation]]) and the triangle identities. Similarly, we show $\gamma \delta=1_{G'}$, so $\gamma$ is a [[natural isomorphism]] $G \cong G'$. By Theorem 9.2.5 (see [[functor category]]), we have an [[identity]] $G=G'$.
+
+Now we need to know that when $\eta$ and $\epsilon$ are [transported]] along this [[identity]], they become equal to $\eta'$ and $\epsilon '$. By Lemma 9.1.9,
+
++--{.query}
+Lemma 9.1.9 needs to be included. For now as transports are not yet written up I didn't bother including a reference to the page [[category]]. -Ali
+=--
+
+this [[transport]] is given by composing with $\gamma$ or $\delta$ as appropriate. For $\eta$, this yields
+
+$$(G' \epsilon F)(\eta' G F)\eta = (G' \epsilon F)(G' F \eta)\eta'=\eta'$$
+
+using Lemma 9.2.8 (see [[natural transformation]]) and the traingle identity. The case of $\epsilon$ is similar. FInally, the triangle identities transport correctly automatically, since hom-sets are sets.
+\end{proof}
 
 \section{Examples}
 
