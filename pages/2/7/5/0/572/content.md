@@ -462,6 +462,8 @@ See at _[[model structure for dendroidal complete Segal spaces]]_ the section _[
 
 * [[higher complete Segal space]], [[dendroidal complete Segal space]]
 
+* [[Rezk completion]]
+
 * [[table - models for (infinity,1)-operads]]
 
 
@@ -509,3 +511,8 @@ The groupoidal version of complete Segal spaces (that modelling just [[groupoid 
 [[!redirects complete Segal spaces]]
 [[!redirects Rezk category]]
 [[!redirects Rezk categories]]
+
+[[!redirects Segal completeness]]
+
+[[!redirects Segal completion]]
+[[!redirects Segal completions]]
