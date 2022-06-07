@@ -85,7 +85,7 @@ Original experimental detection:
 
 While an intuitive understanding for the quantization of the Hall conductance has been given in
 
-* R. B. Laughlin, _Quantized Hall conductivity in two dimensions_, Phys. Rev. B 23, 5632(R) 1981 ([doi:10.1103/PhysRevB.23.5632](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.23.5632))
+* [[Robert B. Laughlin]], *Quantized Hall conductivity in two dimensions*, Phys. Rev. B **23** 5632(R) (1981) $[$[doi:10.1103/PhysRevB.23.5632](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.23.5632)$]$
 
 a theoretical derivation of the effect was obtained only much later in
 
