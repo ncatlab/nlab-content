@@ -1,11 +1,29 @@
 
-# Structured cospan
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
+
+# Structured cospan
 * table of contents
 {: toc}
 
 ## Idea
-A *structured cospan* is a modification of the concept of [[decorated cospans]], introduced to provide an improved definition of isomorphism class. To better understand this motivation, notice that the decoration of the target of an isomorphism of decorated cospans is completely determined by the decoration of the source and the chosen isomorphism of vertices.
+ {#Idea}
+
+The notion of a *structured cospan* is a modification of the concept of *[[decorated cospans]]*, introduced to provide an improved definition of [[isomorphism classes]] of decorated cospans. 
+
+To better understand this motivation, notice that the decoration of the [[target]] of an [[isomorphism]] of [[decorated cospans]] is completely determined by the decoration of the source and the chosen isomorphism of vertices.
 
 More clearly, let
 $$
@@ -67,8 +85,9 @@ A **structured cospan** is then a ($1$-)morphism in such a category, that is, a 
 ## References ##
 Structured cospan categories were invented by [[John C. Baez]], [[Kenny Courser]], and [[Christina Vasilakopoulou]]. An introductory talk was given by Courser at the 4th Symposium on Compositional Structures:
 
-* [[Kenny Courser]], _Structured cospans_ ([web](http://math.ucr.edu/home/baez/SYCO4/courser_syco4.pdf))
+* [[John C. Baez]], [[Kenny Courser]], _Structured cospans_, Theory and Applications of Categories **35** 48 (2020) 1771-1822 $[$[arXiv:1911.04630](https://arxiv.org/abs/1911.04630), [tac:35-48](http://www.tac.mta.ca/tac/volumes/35/48/35-48abs.html)$]$
 
-* [[John C. Baez]], [[Kenny Courser]], _Structured cospans_,  ([arXiv:1911.04630](https://arxiv.org/abs/1911.04630))
+* [[John C. Baez]], [[Kenny Courser]], *Structured cospans* talk notes (2019) ([pdf](http://math.ucr.edu/home/baez/SYCO4/courser_syco4.pdf))
+
 
 [[!redirects structured cospans]]
