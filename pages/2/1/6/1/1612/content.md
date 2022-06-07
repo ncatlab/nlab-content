@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -16,7 +20,7 @@
 
 ## Idea ##
 
-A _modular tensor category_ is roughly a [[category]] that encodes the _topological_ structure underlying a rational 2-dimensional [[conformal field theory]]. In other words, it is a basis-independent formulation of _Moore-Seiberg data_.
+A _modular tensor category_ is, roughly, a [[braided monoidal category]] that encodes the _topological_ structure underlying a [[rational CFT|rational]] 2-dimensional [[conformal field theory]]. In other words, it is a basis-independent formulation of _Moore-Seiberg data_.
 
 It is in particular a [[fusion category]] that is also a [[ribbon category]] such that the "modularity operation" is non-degenerate (this is what the name "modular tensor category" comes from):
 
@@ -37,9 +41,9 @@ Since 2-dimensional conformal field theory is related by a [[holographic princip
 
 A **modular tensor category** is a [[category]] with the following long list of extra structure.
 
->needs to be put in more coherent form, just a stub
+> needs to be put in more coherent form, just a stub
 
-* it is an [[abelian category]], $\mathbb{C}$-linear (i.e. $Vect_{\mathbb{C}}$ [[enriched category]]), [[semisimple category]] [[monoidal category|tensor category]]
+* it is an [[abelian category]], $\mathbb{C}$-linear (i.e. $Vect_{\mathbb{C}}$ [[enriched category]]), [[semisimple category]] [[monoidal category]] ([[tensor category]])
 
 * the tensor unit is a simple object, $I$ 
   a finite set of representatives of isomorphism classes of simple objects
@@ -48,9 +52,9 @@ A **modular tensor category** is a [[category]] with the following long list of 
 
 * [[braided monoidal category]]
 
-* [[ribbon category]], in particular objects have duals
+* [[ribbon category]], in particular objects have [[dual objects|duals]]
 
-* **modularity** a non-degeneracy condition on the braiding given by an isomorphism of algebras
+* **modularity** a non-degeneracy condition on the [[braiding]] given by an [[isomorphism]] of algebras
   $$
     K(C) \otimes_{\mathbb{Z}} \stackrel{\simeq}{\to} End(Id_C)
   $$
@@ -69,12 +73,23 @@ A **modular tensor category** is a [[category]] with the following long list of 
 ### Rep categories of VOAs
  {#RepCategoriesOfVOAs}
 
+#### General
+
 Many modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] ([Huang 05, Sec. 1](#Huang05), see [EGNO 15, Sec. 8.27.6](#EGNO15)), hence of chiral [[field (physics)|fields]] of [[2d conformal field theories]]. 
 
-A database of examples is given by ([Gannon & Höhn](#GannonHoehn)).
 
-{#RelationToConformalBlocks} In this case the [[monoidal category|monoidal]] and the [[braided monoidal category|braided]] [[structure]] (hence the modular tensor structure) on the underlying representation category is entirely fixed by the space of [[conformal blocks]] of the [[2d CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks"), see [Runkel, Sec. 4.3](#Runkel), [EGNO 15, p. 266](#EGNO15).
-(For the related fact that the genus=0 conformal blocks already determine a [[modular functor]] see [Andersen & Ueno 2012](modular+functor#AndersenUeno12).)
+
+#### Relation to conformal blocks
+{#RelationToConformalBlocks}
+
+ In this case the [[monoidal category|monoidal]]- and the [[braided monoidal category|braided]] [[structure]] (hence the modular tensor structure) on the underlying [[representation category]] is entirely fixed by the space of [[conformal blocks]] of the [[2d CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks"). 
+
+This may be found highlighted in [EGNO 15, p. 266](#EGNO15), [Runkel, Sec. 4.3](#Runkel). The essentially equivalent fact that the genus=0 conformal blocks already determine the [[modular functor]] of the CFT is proven in [Andersen & Ueno 2012](modular+functor#AndersenUeno12).
+
+
+#### Examples
+
+A database of examples is given by ([Gannon & Höhn](#GannonHoehn)).
 
 
 
