@@ -275,7 +275,7 @@ Write $Hom_{Top}(X,Y)$ for the [[set]] of [[continuous functions]]
 from $X$ to $Y$.
 
 Then the relating of being [[homotopy|homotopic]] (def. \ref{LeftHomotopy}) is an [[equivalence relation]]
-on this set. The correspnding [[quotient set]]
+on this set. The corresponding [[quotient set]]
 
 $$
   [X,Y] \; \coloneqq \; Hom_{Top}(X,Y)/\sim_h
