@@ -31,6 +31,9 @@ For more details, see the entry [[†-category]].
 
 * **unitary morphism**
 
+* [[dagger monomorphism]]
+
+* [[dagger epimorphism]]
 
 [[!redirects unitary morphism]]
 [[!redirects unitary morphisms]]
