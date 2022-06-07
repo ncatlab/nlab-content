@@ -16,11 +16,11 @@
 
 ## Definition ##
 
-A [[2-poset]] $C$ is **locally Heyting-algebraic** if for every object $A:Ob(C)$ and $B:Ob(C)$, the hom-object $Hom(A,B)$ is a [[Heyting algebra]]. 
+A [[2-poset]] $C$ is **locally Heyting-algebraic** if for every [[object]] $A:Ob(C)$ and $B:Ob(C)$, the [[hom-object]] $Hom(A,B)$ is a [[Heyting algebra]]. 
 
 ## Examples ##
 
-The 2-poset of sets and relations is locally Heyting-algebraic. 
+The 2-poset [[Rel]] of [[sets]] and [[relations]] is locally Heyting-algebraic. 
 
 ## See also ##
 
