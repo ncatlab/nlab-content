@@ -282,6 +282,7 @@ By the [[adjoint functor theorem]], a right adjoint $x \Rightarrow -$ to the map
 ## See also
 
 * [[Heyting algebra object]]
+* [[locally Heyting-algebraic 2-poset]]
 
 ## References
 
