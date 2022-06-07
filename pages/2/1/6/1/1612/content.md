@@ -153,10 +153,15 @@ Discussion from the point of view of the [[cobordism hypothesis]] (see also the 
 
 * [[Bruce Bartlett]], [[Christopher Douglas]], [[Chris Schommer-Pries]], [[Jamie Vicary]], _Modular categories as representations of the 3-dimensional bordism 2-category_ ([arXiv:1509.06811](http://arxiv.org/abs/1509.06811))
 
-### Examples
 
-* [[Terry Gannon]], [[Gerald Höhn]], Hiroshi Yamauchi, _[The online database of Vertex Operator Algebras and Modular Categories](http://www.math.ksu.edu/~gerald/voas/)_
-  {#GannonHoehn} 
+
+[[!include anyonic topological order via braided fusion categories -- references]]
+
+
+
+
+
+  
 
 
 
