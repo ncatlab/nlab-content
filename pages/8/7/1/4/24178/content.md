@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[quantum physics]] a  *Laughlin wavefunction* is a certain Ansatz for an $n$-[[particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as for the levels in the [[quantum Hall effect]].
+In [[quantum physics]] a  *Laughlin wavefunction* is a certain Ansatz for an [[quantum many-body physics|n-particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as for the levels in the [[quantum Hall effect]].
 
 (...)
 
