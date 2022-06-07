@@ -24,6 +24,11 @@ A [[functor]] $F\colon C \to D$ is **essentially surjective**, or **essentially 
 
 $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.
 
+### In homotopy type theory
+
+In [[homotopy type theory]], a [[functor]] $F : C \to D$ is **split essentially surjective** if for all $y:D$ there exists an $x:C$ such that $F(x) \cong y$. 
+
+A [[functor]] $F : C \to D$ is **essentially surjective** if for all $y:D$ there *merely* exists an $x:C$ such that $F(x) \cong y$.
 
 ## Examples
 
