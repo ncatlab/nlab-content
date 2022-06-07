@@ -156,6 +156,10 @@ For generalizations of $Rel$ see
 
 * [[Prof]]
 
+* [[2-poset of partial maps]]
+
+* [[category of monic maps]]
+
 
 ## References ##
 
