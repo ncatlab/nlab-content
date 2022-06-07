@@ -408,15 +408,19 @@ The same idea applies to all the other axioms.
 
 If to this equality-free version of SEAR we add a primitive notion of (non-extensional) "operation" and a [[choice operator]], we obtain [[SEAR+?]].
 
-## Models of SEAR
+## Models 
 
-In [[model theory]], one could construct models of a particular theory $C$. Here, we construct a [[category theory|categorical]] model of SEAR in the context of [[homotopy type theory]]. This particular model of SEAR, $C$, consists of 
+In [[model theory]], one could construct models of a particular theory $C$.
 
-* A [[type]] $Ob(C)$, whose [[terms]] are called "sets". We shall call these "internal sets", to distinguish them from the sets of the [[meta theory]]. 
+### Models of SEAR
 
-* For each internal set $A:Ob(C)$, a [[set]] $El(A)$, whose terms are called "elements". We shall call these "internal elements", to distinguish them from the elements of the meta theory. 
+Here, we construct a [[category theory|categorical]] model of SEAR in the context of [[homotopy type theory]]. This particular model of SEAR, $C$, consists of 
 
-* For each internal set $A:Ob(C)$ and $B:Ob(C)$, a [[set]] $Hom(A,B)$, whose terms are called "relations". We shall call these "internal relations", to distinguish them from the relations of the meta theory. 
+* A [[type]] $Ob(C)$, whose [[terms]] are called "sets". We shall call these "internal sets", to distinguish them from the sets of the [[metatheory]]. 
+
+* For each internal set $A:Ob(C)$, a [[set]] $El(A)$, whose terms are called "elements". We shall call these "internal elements", to distinguish them from the elements of the metatheory. 
+
+* For each internal set $A:Ob(C)$ and $B:Ob(C)$, a [[set]] $Hom(A,B)$, whose terms are called "relations". We shall call these "internal relations", to distinguish them from the relations of the metatheory. 
 
 * For each internal set $A:Ob(C)$ and $B:Ob(C)$, internal relation $R:Hom(A,B)$, and internal element $a:El(A)$ and $b:El(B)$, a type $R(a,b)$ with a term $p:isProp(R(a,b))$ representing that $R(a,b)$ is a [[mere proposition]]. 
 
@@ -461,6 +465,54 @@ $$\lambda:\prod_{b:El(B)} isContr(Q(p(b),M(b)))$$
 $$\mu:\prod_{a:El(A)} \left[\sum_{X:Ob(C)} isContr(Q(a,X))\right] \to \left[\sum_{b:B} p(b) = a\right]$$
 representing that the [[axiom of collection]] is validated. 
 
+### Models of SEPS
+
+Here, we construct a model of SEPS in the context of [[homotopy type theory]]. This particular model of SEPS, $C$, consists of 
+
+* A type $Ob(C)$, whose terms are called "sets". We shall call these "internal sets", to distinguish them from the sets of the [[metatheory]]. 
+
+* For each "set" $A:Ob(C)$, a [[set]] $El(A)$, whose terms are called "elements". We shall call these "internal elements", to distinguish them from the elements of the metatheory. 
+
+* For each "set" $A:Ob(C)$ and $B:Ob(C)$, a [[set]] $A \times B$, whose terms are called "pairs". We shall call these "internal pairs", to distinguish them from the pairs of the metatheory.
+
+* For each "set" $A:Ob(C)$ and $B:Ob(C)$, a function $((-),(-)):El(A) \times El(B) \to El(A \times B)$ with functions $p_A:El(A \times B) \to El(A)$ and $p_B:El(A \times B) \to El(B)$
+
+* For each "set" $A:Ob(C)$, a type $Sub(A)$, whose terms are called "subsets", and a term $p:isHeytAlg(Sub(A))$, representing that the subsets of $A$ are [[Heyting algebras]]. We shall call these "internal subsets", to distinguish them from the subsets of the metatheory.
+
+An internal relation is a term $R:Sub(A \times B)$. 
+
+* For each internal set $A:Ob(C)$, $B:Ob(C)$, $D:Ob(C)$, a function 
+$$(-)\circ(-):Sub(B \times D) \times Sub(A \times B) \to Sub(A \times D)$$
+and a term
+$$\gamma:\prod_{A:Ob(C)} \prod_{B:Ob(C)} \prod_{D:Ob(C)} \prod_{R:Sub(A \times B)} \prod_{S:Sub(B \times C)} \prod_{a:El(A)} \prod_{d:El(D)} (S \circ R)(a, d) = \left[\sum_{b:B} S(b,d) \times R(a,b)\right]$$
+where $\left[T\right]$ is the propositional truncation of the type $T$. 
+
+* For each internal set $A:Ob(C)$, $B:Ob(C)$, a relation 
+$$id_{A,B}:Sub(A \times B)$$
+and terms
+$$p:\prod_{A:Ob(C)} \prod_{B:Ob(C)} \prod_{R:Sub(A \times B)} \prod_{a:El(A)} \prod_{a^{'}:El(A)} \prod_{b:El(B)} \prod_{b^{'}:El(B)} (R(a,b) \times id_A(a,a^{'}) \times id_B(b,b^{'})) \to R(a^{'},b^{'})$$
+
+Let the type of all internal maps between internal maps $A:Ob(C)$ and $B:Ob(C)$ in $C$ be defined as 
+
+$$Map(A, B) \coloneqq \sum_{f:Sub(A \times B)} \prod_{a:El(A)} isContr\left(\sum_{b:El(B)} P(f)(a,b)\right)$$
+
+* For each internal set $A:Ob(C)$ and $B:Ob(C)$, a function $(-)((-)): Map(A,B) \times El(A) \to El(B)$ and a term $\delta:isContr(P(f)(a, f(a)))$. 
+
+* An internal set $A:Ob(C)$ with a term $\epsilon:\left[El(A)\right]$. 
+
+* For each internal set $A:Ob(C)$, there is a function $\vert(-)\vert:Sub(A) \to Ob(C)$, and for every subset $S:Sub(A)$ there is an [[monic map|injection]] $i:\vert S \vert \to A$. 
+
+* For each internal set $A:Ob(C)$, an internal set $\mathcal{P}(A)$ and a internal relation $\in_A:Sub(A \times \mathcal{P}(A))$ and a term 
+$$\iota:\prod_{B:Ob(C)} \prod_{R:Sub(A \times B)} \left[\sum_{\chi_R:Hom(A,P(B))} isMap(\chi_R) \times (R = (\in_B^\dagger) \circ \chi_R)\right]$$ 
+
+* An internal sets $\mathbb{N}:Ob(C)$ with internal maps $0:El(\mathbb{N})$ and $s:Sub(\mathbb{N} \times \mathbb{N})$ and a term 
+
+$$\kappa:\prod_{A:Ob(C)} \prod_{0_A:El(A)} \prod_{s_A:Sub(A \times A)} \left[\sum_{f:Hom(\mathbb{N},A)} (f(0) = 0_A) \times \prod_{n:El(\mathbb{N})} (f(s(n)) = s_A(f(n)))\right]$$ 
+
+* For each internal set $A:Ob(C)$ and function $Q:El(A) \times Ob(C) \to Prop_\mathcal{U}$, an internal set $B:Ob(C)$ with an internal map $p:Sub(B \times A)$, a function $M:El(B) \to Ob(C)$ and terms 
+$$\lambda:\prod_{b:El(B)} isContr(Q(p(b),M(b)))$$ 
+$$\mu:\prod_{a:El(A)} \left[\sum_{X:Ob(C)} isContr(Q(a,X))\right] \to \left[\sum_{b:B} p(b) = a\right]$$
+
 ## Related pages and spinoffs
 
 The following pages develop various aspects of set theory in SEAR or related theories.
@@ -471,3 +523,5 @@ The following pages develop various aspects of set theory in SEAR or related the
 * [[SEAR+?]]: a variant theory containing a [[choice operator]].
 * [[ETCR]]: A categorical version of Bounded SEARC. 
 * [[ETCS with elements]]: A version of [[ETCS]] that, like SEAR, includes elements as a primitive. 
+
+[[!redirects SEPS]]
