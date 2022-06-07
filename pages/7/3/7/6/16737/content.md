@@ -26,7 +26,7 @@
 
 ## Idea
 
-In the [[philosophy of science]] and particularly the _[[philosophy of physics]]_, the [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _universal exceptionalism_ or similar:
+In the [[philosophy of science]] and particularly the _[[philosophy of physics]]_, the [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _exceptional naturalism_ or similar:
 
 > _Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
 
@@ -102,6 +102,8 @@ to have evidence to the contrary.
 
 * [[multiverse]]
 
+* [[absolute idealism]]
+
 
 ## References
 
@@ -132,3 +134,4 @@ to have evidence to the contrary.
 
   > (in relation to the [[Monster vertex operator algebra]] and [[quantum error correction]])
 
+[[!redirects universal exceptionalism]]
