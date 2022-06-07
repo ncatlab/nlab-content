@@ -79,6 +79,16 @@ $$
 
 Such an operation is called an [[internal hom]] functor, and categories carrying this are called [[closed categories]].
 
+### In homotopy type theory
+
+Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+
+For any [[category]] $A$, we have a hom-functor
+$$hom_A : A^{op} \times A \to \mathit{Set}$$
+It takes a pair $(a,b):(A^{op})_0 \times A_0 \equiv A_0\times A_0$ to the set $hom_A(a,b)$. For a morphism $(f,f') : hom_{A^{op} \times A}((a,b),(a',b'))$, by definition we have $f:hom_A(a',a)$ and $f': hom_A(b,b')$, so we can define
+
+$$(hom_A)_{(a,b),(a',b')}(f,f') \equiv (g\mapsto f' g f) : hom_A(a,b) \to hom_A(a',b')$$
+
 ## Properties
 
 ### Representable functors
