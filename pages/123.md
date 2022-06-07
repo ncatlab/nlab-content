@@ -202,10 +202,78 @@ In [[higher category theory]] there are corresponding higher notions of functor,
 
 * See also an informal discussion about an [[experimental alternative definition of functor]].
 
+### In homotopy type theory
 
-## Special properties of functors
+Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
-Functors with special properties are important in applications. See for instance
+The definition of functor in homotopy type theory is a straightforward translation of the ordinary one.  However, the notion of [[univalent category]] allows us to construct some such functors that in classical mathematics would require either the [[axiom of choice]] or the use of [[anafunctors]].
+
+ {#Definition}
+
+Let $A$ and $B$ be [[categories]]. Informally, a **functor** $F : A \to B$ consists of
+
+* A function $F_0 : A_0 \to B_0$
+* For each $a,b:A$, a function $F_{a,b}:hom_A(a,b) \to hom_B(F a,F b)$, generally also denoted $F$.
+* For each $a:A$, we have $F(1_a)=1_{F a}$.
+* For each $a,b,c: A$ and $f:hom_A(a,b)$ amd $g:hom_A(b,c)$, we have
+
+$$F(g \circ f) = F g \circ F f$$
+
+Formally, the type of functors from $A$ to $B$ is
+
+$$ Func(A,B) \coloneqq
+\sum_{F_0:A_0\to B_0} \sum_{F:\prod_{a,b:A} hom_A(a,b) \to \hom_B(F a,F b)} \Big(\prod_{a:A} F(1_a) = 1_{F a}\Big) \times \Big( \prod_{a,b,c:A} \prod_{f:\hom_A(a,b)} \prod_{g:\hom_A(b,c)} F(g \circ f) = F g \circ F f\Big) $$
+
+A formal definition in [[Coq]] can be found in [Ahrens-Kapulkin-Shulman 13](#AhrensKapulkinShulman13).
+
+## Properties
+
+These properties come from the [[HoTT book]]. 
+
+By induction on [[identity]], a functor also preserves $idtoiso$ (See [[category]]).
+
+### Composition of functors ###
+
+For functors $F:A\to B$ and $G:B \to C$, their composite $G \circ F : A \to C$ is given by
+
+* The composite $(G_0 \circ F_0): A_0 \to C_0$
+* For each $a,b:A$, the composite
+$$(G_{F a, F b} \circ F_{a,b}):hom_A(a,b)\to hom_C(G F a, G F b)$$
+
+### Lemma 9.2.9 in HoTT book###
+Composition of functors is associative $H(G F)=(H G)F$.
+
+**Proof:** Since composition of functions is associative, this follows immediately for the actions on objects and on homs. And since hom-sets are sets, the rest of the data is automatic. $\square$
+
+### Lemma 9.2.10 in HoTT book###
+Lemma 9.2.9 is coherent, i.e. the following pentagon of equalities commutes:
+
+
+$$ 
+   \array{
+     && (K H)(G F)
+     \\
+     & \nearrow
+     &&
+     \searrow
+     \\
+     ((K H) G) F
+     && &&
+     K (H (G F))
+     \\
+     \downarrow 
+     && && 
+     \uparrow
+     \\
+     (K(H G)) F
+     && \longrightarrow &&
+     K( (H G) F)
+   }
+$$
+
+## Types of functors
+
+Specific types of functors are important in applications. See for instance
 
 * [[essentially surjective functor]]
 
@@ -216,7 +284,6 @@ Functors with special properties are important in applications. See for instance
 * [[full and faithful functor]]
 
 And for more background on this see [[stuff, structure, property]].
-
 
 ##Examples 
 
@@ -405,6 +472,16 @@ See the references at:
 * [[category theory#references|category theory - references]].
 
 * [[André Joyal]]'s CatLab: _[[joyalscatlab:Functors]]_
+
+For functors in homotopy type theory
+
+* {#AhrensKapulkinShulman13} [[nLab:Benedikt Ahrens]], [[nLab:Chris Kapulkin]], [[nLab:Michael Shulman]], section 4 of _Univalent categories and the Rezk completion_, Mathematical Structures in Computer Science 25.5 (2015): 1010-1039 ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
+
+* {#HoTTBook} [[nLab:UF-IAS-2012|Univalent Foundations Project]], section 9.2 of _[[HoTT Book|Homotopy Type Theory – Univalent Foundations of Mathematics]]_, IAS 2013
+
+[[Coq]] code formalizing the concept of functors includes the following:
+
+* _[functors_transformations.v](https://github.com/benediktahrens/rezk_completion/blob/master/functors_transformations.v)_
 
 [[!redirects functors]]
 [[!redirects covariant functor]]
