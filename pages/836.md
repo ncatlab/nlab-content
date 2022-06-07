@@ -16,9 +16,9 @@
 {: toc}
 
 
-A **2-poset** is any of several concepts that generalize [[partial order|posets]] one step in [[higher category theory]]. One does not usually hear about $2$-posets by themselves but instead as special cases of $2$-[[2-category|categories]], such as the [[locally posetal 2-category|locally posetal]] ones.
+A **2-poset** is any of several concepts that generalize ([[categorify]]) the notion of [[partial order|posets]] one step in [[higher category theory]]. One does not usually hear about $2$-posets by themselves but instead as special cases of [[2-category|$2$-categories]], such as the [[locally posetal 2-category|locally posetal]] ones.
 
-$2$-posets can also be called **(1,2)-categories**, being a special case of [[(n,r)-categories]].  The concept generalizes to $n$-[[n-poset|posets]].
+$2$-posets can also be called **(1,2)-categories**, being a special case of [[(n,r)-categories]].  The concept generalizes to [[n-poset|$n$-posets]].
 
 
 ## Definition
