@@ -342,19 +342,10 @@ Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[confi
 * {#DMV03} G. Date, [[M.V.N. Murthy]], [[Radhika Vathsan]], *Classical and Quantum Mechanics of Anyons* $[$[arXiv:cond-mat/0302019](https://arxiv.org/abs/cond-mat/0302019)$]$
 
 
-### Anyonic topological order in terms of braided fusion categories
- {#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences}
-
-Discussion of [[anyon|anyonic]] [[topological order]] in terms of [[braided monoidal categories|braided]] [[fusion categories]]/[[modular tensor categories]]:
-
-* [[Tian Lan]], *A Classification of (2+1)D Topological Phases with Symmetries* $[$[arXiv:1801.01210](https://arxiv.org/abs/1801.01210)$]$
 
 
-* Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) $[$[doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0)$]$
+[[!include anyonic topological order via braided fusion categories -- references]]
 
-* [[Colleen Delaney]], *A categorical perspective on symmetry, topological order, and quantum information* (2019) $[$[pdf](https://crdelane.pages.iu.edu/dissertationch1-5.pdf), [uc:5z384290](https://escholarship.org/uc/item/5z384290)$]$
-
-* [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations* (2019) $[$[pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]]$]$
 
 
 
