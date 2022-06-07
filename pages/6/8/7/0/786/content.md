@@ -35,6 +35,12 @@ The bare minimum of axioms to be satisfied by a weak equivalence are encoded in 
 
 Often, categories having weak equivalences also have extra structure that makes them easier to work with.  A very powerful, and commonly occurring, level of such structure is called a [[model category|model structure]].  There are also various weaker levels of structure, such as a [[category of fibrant objects]].
 
+## In homotopy type theory
+
+A [[functor]] $F: A \to B$ between categories $A$ and $B$ is a **[[weak equivalence]]** if it is [[fully faithful]] and [[essentially surjective]].
+
+For [[univalent categories]] there is no difference between weak equivalences and [[equivalences]]. 
+
 ## Examples
 
 * A [[weak homotopy equivalence]] is a weak equivalence in the [[classical model structure on topological spaces]].
