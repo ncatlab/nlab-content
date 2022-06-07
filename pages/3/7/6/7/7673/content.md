@@ -222,8 +222,9 @@ Conversely, given a category with attributes, let $Ty:C^{op}\to Set$ be the func
 
 
 ### Natural Models
+ {#NaturalModels}
 
-[[Steve Awodey]] ([Awodey 2018](#Awodey2018)) presented the following "natural model" of type theory as an alternative to categories with families.
+[Awodey 2016](#Awodey2016) presented the following "[[natural model of homotopy type theory|natural model]]" of type theory as an alternative to categories with families.
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -528,9 +529,11 @@ and shown to be equivalent to categories with attributes in
 
 * [[Martin Hofmann]], *Syntax and semantics of dependent types*, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985).
 
-The formulation in terms of representable natural transformations is in
+The formulation in terms of representable natural transformations ([[natural models of homotopy type theory]]) is due to:
 
-* [[Steve Awodey]]. (2018). *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, 28(2), 241-286. [PDF](https://arxiv.org/pdf/1406.3219.pdf)
+* {#Awodey2016} [[Steve Awodey]], *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, **28** 2 (2016) 241-286 $[$[arXiv:1406.3219](https://arxiv.org/abs/1406.3219), [doi:10.1017/S0960129516000268](https://doi.org/10.1017/S0960129516000268)$]$
+
+
 
 See also
 
@@ -589,7 +592,7 @@ Strictification is discussed in
 
 * [[Vladimir Voevodsky]], [Notes on type systems](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/expressions_current.pdf)
 
-* {#Awodey2018} [[Steve Awodey]]. (2018). *Natural models of homotopy type theory*, Mathematical Structures in Computer Science, 28(2), 241-286. [PDF](https://arxiv.org/pdf/1406.3219.pdf)
+
 
 Comparisons of various models can be found in
 
