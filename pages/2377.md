@@ -408,6 +408,58 @@ The same idea applies to all the other axioms.
 
 If to this equality-free version of SEAR we add a primitive notion of (non-extensional) "operation" and a [[choice operator]], we obtain [[SEAR+?]].
 
+## Models of SEAR
+
+In [[model theory]], one could construct models of a particular theory $C$. Here, we construct a [[category theory|categorical]] model of SEAR in the context of [[homotopy type theory]]. This particular model of SEAR, $C$, consists of 
+
+* A [[type]] $Ob(C)$, whose [[terms]] are called "sets". We shall call these "internal sets", to distinguish them from the sets of the [[meta theory]]. 
+
+* For each internal set $A:Ob(C)$, a [[set]] $El(A)$, whose terms are called "elements". We shall call these "internal elements", to distinguish them from the elements of the meta theory. 
+
+* For each internal set $A:Ob(C)$ and $B:Ob(C)$, a [[set]] $Hom(A,B)$, whose terms are called "relations". We shall call these "internal relations", to distinguish them from the relations of the meta theory. 
+
+* For each internal set $A:Ob(C)$ and $B:Ob(C)$, internal relation $R:Hom(A,B)$, and internal element $a:El(A)$ and $b:El(B)$, a type $R(a,b)$ with a term $p:isProp(R(a,b))$ representing that $R(a,b)$ is a [[mere proposition]]. 
+
+* For each internal set $A:Ob(C)$, $B:Ob(C)$, $D:Ob(C)$, a function 
+$$(-)\circ(-):Hom(B,D) \times Hom(A,B) \to Hom(A,D)$$
+representing [[composition]] of internal relations, and a term
+$$\gamma:\prod_{A:Ob(C)} \prod_{B:Ob(C)} \prod_{D:Ob(C)} \prod_{R:Hom(A,B)} \prod_{S:Hom(B,C)} \prod_{a:El(A)} \prod_{d:El(D)} (S \circ R)(a, d) \cong \left[\sum_{b:El(B)} S(b,d) \times R(a,b)\right]$$
+ where $\left[T\right]$ is the [[propositional truncation]] of the type $T$. This states that for all internal sets $A$, $B$, and $D$, all internal relations $R:Hom(A,B)$ and $S:Hom(B,C)$, and all internal elements $a:El(A)$ and $d:El(D)$, $(S \circ R)(a, d)$ if and only if there exists an element $b:El(B)$ such that $S(b,d)$ and $R(a,b)$. 
+
+* For each internal set $A:Ob(C)$, a relation 
+$$id_{A}:Hom(A,A)$$
+representing the internal identity relation, and terms
+$$p:\prod_{A:Ob(C)} \prod_{B:Ob(C)} \prod_{R:Hom(A,B)} \prod_{a:El(A)} \prod_{a^{'}:El(A)} \prod_{b:El(B)} \prod_{b^{'}:El(B)} (R(a,b) \times id_A(a,a^{'}) \times id_B(b,b^{'})) \to R(a^{'},b^{'})$$
+This states the axiom of extensionality: that for all internal sets $A$ and $B$, internal relation $R$, and internal elements $a:El(A)$, $a^{'}:El(A)$, $b:El(B)$, and $b^{'}:El(B)$, $R(a,b)$ and $id_A(a,a^{'})$ and $id_B(b,b^{'})$ together imply $R(a^{'},b^{'})$. 
+
+Thus, $C$ is a [[dagger 2-poset]] whose underlying [[category]] is a [[concrete category]]. 
+
+Let the type of all internal maps between internal sets $A:Ob(C)$ and $B:Ob(C)$ in $C$ be defined as 
+
+$$Map(A, B) \coloneqq \sum_{f:Hom(A,B)} \prod_{a:El(A)} isContr\left(\sum_{b:El(B)} P(f)(a,b)\right)$$
+
+* For each internal set $A:Ob(C)$ and $B:Ob(C)$, a function $(-)((-)): Map(A,B) \times El(A) \to El(B)$ representating *evaluation of internal maps* and a term $\delta:isContr(P(f)(a, f(a)))$, representing that the relation $P(f)(a, f(a))$ is [[true]]. 
+
+* A internal set $A:Ob(C)$ with a term $\epsilon:\left[El(A)\right]$, representing that there is an [[inhabited set]]. 
+
+* For each internal set $A:Ob(C)$ and $B:Ob(C)$ and internal relation $R:Hom(A,B)$, an internal set $\vert R \vert:Ob(C)$ and map $f:Hom(\vert R \vert, A)$, $g:Hom(\vert R \vert, B)$, and a term $q:R = f^\dagger \circ g$ and a term
+$$\eta:\prod_{x:El(\vert R \vert)} \prod_{y:El(\vert R \vert)} (f(x) = f(y)) \times (g(x) = g(y)) \to (x = y)$$
+representing that every internal relation comes with a subset of the product set $El(A) \times El(B)$. 
+
+* For each internal set $A:Ob(C)$, a internal set $\mathcal{P}(A)$ and a internal relation $\in_A:Hom(A, \mathcal{P}(A))$ and a term 
+$$\iota:\prod_{B:Ob(C)} \prod_{R:Hom(A,B)} \left[\sum_{\chi_R:Hom(A,P(B))} isMap(\chi_R) \times (R = (\in_B^\dagger) \circ \chi_R)\right]$$ 
+representing that internal [[power sets]] exist. 
+
+As a result, $C$ is an [[elementarily topical dagger 2-poset]]. 
+
+* An internal set $\mathbb{N}:Ob(C)$ with internal maps $0:El(\mathbb{N})$ and $s:Hom(\mathbb{N},\mathbb{N})$ and a term 
+$$\kappa:\prod_{A:Ob(C)} \prod_{0_A:El(A)} \prod_{s_A:Hom(A,A)} \left[\sum_{f:Hom(\mathbb{N},A)} (f(0) = 0_A) \times \prod_{n:El(\mathbb{N})} (f(s(n)) = s_A(f(n)))\right]$$ 
+representing that a [[natural numbers object]] exist. 
+
+* For each internal set $A:Ob(C)$ and function $Q:El(A) \times Ob(C) \to Prop_\mathcal{U}$, an internal set $B:Ob(C)$ with an internal map $p:Hom(B,A)$, a function $M:El(B) \to Ob(C)$ and terms 
+$$\lambda:\prod_{b:El(B)} isContr(Q(p(b),M(b)))$$ 
+$$\mu:\prod_{a:El(A)} \left[\sum_{X:Ob(C)} isContr(Q(a,X))\right] \to \left[\sum_{b:B} p(b) = a\right]$$
+representing that the [[axiom of collection]] is validated. 
 
 ## Related pages and spinoffs
 
