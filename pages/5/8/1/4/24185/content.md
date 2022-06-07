@@ -1,4 +1,17 @@
-[[!redirects H-magmoids]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 ## Contents ##
 * table of contents
@@ -6,7 +19,7 @@
 
 ## Idea ##
 
-The oidification of an "H-magma", which is to [[magmas]] what [[H-spaces]] are to [[unital magmas]]. 
+The [[oidification]] of an "H-magma", which is to [[magmas]] what [[H-spaces]] are to [[unital magmas]]. 
 
 ## Definition ##
 
@@ -31,3 +44,5 @@ called composition, and denoted infix by $g \mapsto f \mapsto g \circ f$, or som
 * [[magmoid]]
 * [[H-spaceoid]]
 * [[homotopy category]]
+
+[[!redirects H-magmoids]]
