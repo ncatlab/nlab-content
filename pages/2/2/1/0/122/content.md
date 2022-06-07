@@ -161,6 +161,47 @@ An advantage of this approach is that it applies to the case of topological cate
 
 An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of [[cube]]s, so leading to a [[closed monoidal category|monoidal closed structure]] for these objects. This yields by an [[equivalence of categories]] a monoidal closed structure on [[strict omega-category|strict globular omega-categories]], where the [[tensor product]] is the [[Crans-Gray tensor product]].
 
+### In homotopy type theory
+
+The following definition comes from the [[HoTT book]]. 
+
+In homotopy type theory, for [[functors]] $F,G: A \to B$, a **natural transformation** $\gamma : F \to G$ consists of 
+
+* For each $a : A$, a morphism $\gamma_a: hom_B(F a,G a)$ called the **components** of $\gamma$ at $a$.
+* For each $a,b:A$ and $f:hom_A(a,b)$, we have $G f \circ \gamma_a= \gamma_b \circ F f$ (the **naturality** axiom).
+
+## Properties ##
+
+The following properties come from the [[HoTT book]]. 
+
+It follows that the type of [[natural transformations]] from $F$ to $G$ is a set.
+
+### Composites with functors ###
+For [[functors]] $F : A \to B$ and $G,H : B  \to C$ and a natural transformation $\gamma : G \to H$, the composite $(\gamma F) : G F \to H F$ is given by
+
+* For each $a:A$, the component $\gamma_{F a}$.
+
+Naturality is easy to check. Similarly, for $\gamma$ as above and $K : C \to D$, the composite $(K \gamma): K G \to K H$ is given by
+
+* For each $b: B$, the component $K(\gamma_b)$.
+
+
+### Lemma 9.2.8 in the HoTT book ###
+For [[functors]] $F,G: A\to B$ and $H,K: B \to C$ and natural transformations $\gamma : F \to G$ and $\delta : H \to K$, we have
+
+$$(\delta G)(H \gamma) = (K \gamma) (\delta F).$$
+
+**Proof.** It suffices to check componentwise: at $a:A$ we have
+
+$$
+\begin{aligned}
+  ((\delta G)(H \gamma))_a &\equiv (\delta G)_a (H \gamma)_a \\
+  &\equiv \delta_{G a} \circ H(\gamma_a)\\
+  &= K(\gamma_a) \circ \delta_{F a} \qquad (by\ naturality\ of\ \delta) \\ 
+  &\equiv (K \gamma)_a \circ (\delta F)_a\\
+  &\equiv ((K \gamma)(\delta F))_a.\ \square
+\end{aligned}
+$$
 
 ## Variations
 
