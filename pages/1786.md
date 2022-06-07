@@ -29,7 +29,7 @@ An __$H$-group__ is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H
 
 An **$H$-ring** is a [[ring object]] in (pointed) [[Ho(Top)]].
 
-To continue in this pattern, one could say that an **H-category** is an [[Ho(Top)]]-[[enriched category]].
+To continue in this pattern, one could say that an **[[H-category]]** is a category internal to [[Ho(Top)]].
 
 Notice that here the homotopies for units, associativity etc. are only required to _exist_ for an H-space, not required to be equipped with higher [[coherence|coherent]] homotopies. An $H$-monoid equipped with such higher and coherent homotopies  is instead called a _strongly homotopy associative_ space or  _$A_\infty$-[[A-infinity space|space]]_ for short.  If it has only higher homotopies up to level $n$, it is called an $A_n$-[[A-n space|space]].
 
@@ -174,9 +174,6 @@ See also
 
 [[!redirects H-ring]]
 [[!redirects H-rings]]
-
-[[!redirects H-category]]
-[[!redirects H-categories]]
 
 
 [[!redirects H-unitoid]]
