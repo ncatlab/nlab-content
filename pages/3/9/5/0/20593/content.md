@@ -5,7 +5,7 @@
 {: toc}
 
 ## Idea
-A *structured cospan* is a modification of the concept of [[decorated cospans]] made to address the defect of what constitutes an isomorphism classes of them. In fact, the decoration of the target of an isomorphism of decorated cospan is completely determined by the decoration of the source and the chosen isomorphism of vertices.
+A *structured cospan* is a modification of the concept of [[decorated cospans]], introduced to provide an improved definition of isomorphism class. To better understand this motivation, notice that the decoration of the target of an isomorphism of decorated cospans is completely determined by the decoration of the source and the chosen isomorphism of vertices.
 
 More clearly, let
 $$
@@ -17,10 +17,9 @@ $$
      && c' &&&&&&&& F(c')
   }
 $$
-be an isomorphism of decorated cospans, where $d$ and $d'$ are the decorations of the source and the target, respectively (i.e., the 'top' and the 'bottom' cospan in the left diagram, respectively). Then since the right diagram sits in $\mathbf{Set}$, it commutes on the nose. Thus the decoration $d'$ is already determined by the data of bijection $c \to c'$, plus the decoration on the source.
+be an isomorphism of decorated cospans, where $d$ and $d'$ are the decorations of the source and the target, respectively (i.e., the 'top' and the 'bottom' cospan in the left diagram, respectively). Then, since the right diagram sits in $\mathbf{Set}$, it commutes on the nose. Thus the decoration $d'$ is already determined by the data of bijection $c \to c'$, together with the decoration on the source.
 
-Therefore this definition of isomorphism deprives the situation of a degree of freedom, namely the freedom of specifying an isomorphism for the decorations, too. For example, when open graphs are treated with decorated cospans, the decoration $d$ of a cospan $a \to c \leftarrow b$ is a [[directed graph]] with $c$ as vertex set. An isomorphism of such decorated cospans simply renames the source and target of each edge in $d$. However, isomorphism of quivers can be more than just relabeling of the vertices, hence we end up distinguishing open graphs by frivolous 
-details like the specific names we gave to edges.
+Therefore, this definition of isomorphism means we are lacking a degree of freedom, namely the freedom to specify an isomorphism for the decorations as well. For example, when open graphs are treated with decorated cospans, the decoration $d$ of a cospan $a \to c \leftarrow b$ is a [[directed graph]] with $c$ as vertex set. An isomorphism of such decorated cospans simply renames the source and target of each edge in $d$. However, isomorphism of directed graphs can be more than just relabeling of the vertices; hence we end up distinguishing open graphs merely by frivolous details like the specific names we give to edges.
 
 Decorated cospans solve this problem by moving the cospans to the 'decorating category', meaning that the data of an isomorphism of cospans now is an arrow between the decorations. In the example of open graphs, we now have to specify an isomorphism of quivers $d \to d'$ instead of getting this from the (poorer) isomorphism of their vertices.
 
