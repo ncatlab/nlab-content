@@ -60,6 +60,8 @@ For the $G$-[[WZW model]] the assignment of spaces of conformal blocks, hence by
 
 * [[FFRS-formalism]]
 
+* [[Laughlin wavefunction]]
+
 [[!include holographic principle -- table]]
 
 ## References
