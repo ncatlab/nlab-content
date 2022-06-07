@@ -76,6 +76,13 @@ such that
 
 ## Properties
 
+### Relation to genus-zero conformal blocks
+ {#RelationToGenusZeroConformalBlocks}
+
+For a [[rational CFT|rational]] [[2d CFT]] the modular functor is fully determined by the [[conformal blocks]] on the [[Riemann sphere]] (the *genus=0 conformal blocks*) -- this is proven in [Andersen & Ueno 2012](#AndersenUeno12).
+
+Closely related is the statement that the [[braided monoidal category|braided monoidal structure]] on the [[modular tensor category|modular]] [[representation category]] of the corresponding [[vertex operator algebra]] is fully determined by the genus=0 conformal blocks, a statement that seems to be [[folklore]] (highlighted in [EGNO 15, p. 266](modular+tensor+category#EGNO15), [Runkel, Sec. 4.3](modular+tensor+category#Runkel)).
+
 ### Central charge and Central extensions
 
 Any modular functor defines a [[central extension]] of the [[semigroup]] of conformal [[annuli]].  
@@ -110,7 +117,7 @@ Given a modular functor $E$ as in def. \ref{ModularFunctor} and given a non-[[cl
 
 =--
 
-([Segal 04, prop. 5.4](#Segal04))
+([Segal 04, prop. 5.4](#Segal04), see also at [[Knizhnik-Zamolodchikov equation]])
 
 +-- {: .num_remark}
 ###### Remark
