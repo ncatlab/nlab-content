@@ -66,6 +66,7 @@ A [[transitive relation]] is a magmoid [[enriched category|enriched]] on [[truth
 ## Related concepts
 
 * [[magmoidal category]]
+* [[H-magmoid]]
 
 [[!redirects magmoids]]
 
