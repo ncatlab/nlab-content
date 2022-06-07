@@ -9,7 +9,7 @@ Transition systems are a well established semantic model for both sequential and
 +--{: .un_defn}
 ######Definition######
 
-A _transition system_ is a structure $T = (S,i,L,Trans)$, where
+A _transition system_ is a structure $T = (S,i,L,Tran)$, where
 
 * $S$ is a set of _states_ with initial state, $i$;
 
