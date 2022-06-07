@@ -21,7 +21,7 @@
 
 ## Idea
 
-In the [[philosophy of science]], and particularly the [[philosophy of physics]]. _empiricism_ is the [[philosophy|philosophical]] sentiment that knowledge about the [[observable universe]] does and, ultimately, can only derive from empirical observation ([[measurement]], [[experiment]]), as opposed to from intellectual reflection, such as in [[universal exceptionalism]] and/or ([[absolute idealism|absolute]]) [[idealism]].
+In the [[philosophy of science]], and particularly the [[philosophy of physics]]. _empiricism_ is the [[philosophy|philosophical]] sentiment that knowledge about the [[observable universe]] does and, ultimately, can only derive from empirical observation ([[measurement]], [[experiment]]), as opposed to from intellectual reflection, such as in [[exceptional naturalism]] and/or ([[absolute idealism|absolute]]) [[idealism]].
 
 A variant of empiricism due to [van Fraasen 80](#vanFraasen80) came to be known as _constructive empiricism_ which (according to [SEP-CE](#SEP-CE), [here](plato.stanford.edu/entries/constructive-empiricism/#UndeConsEmpi))
 
