@@ -22,3 +22,4 @@ $$MonoMap(a, b) \coloneqq \sum_{f:Hom_A(a,b)} isInjective(f) \times isMap(f)$$
 
 * [[injective morphism in a dagger 2-poset]]
 * [[map in a dagger 2-poset]]
+* [[category of monic maps]]
