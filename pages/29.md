@@ -55,9 +55,12 @@ A [[groupoid]] is precisely a [[category]] in which every morphism is an isomorp
 
 In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s, which we expect to have only [[weak inverse]]s.
 
+In the context of [[homotopy type theory]], for every [[morphism]] $f : hom_A(a,b)$ the [[type]] "f is an isomorphism" is a [[proposition]]. Therefore, for any $a,b:A$ the type $a \cong b$ is a set.
+\begin{proof}
+Suppose given $g:hom_A(b,a)$ and $\eta:1_a = g \circ f$ and $\epsilon : f \circ g = 1_b$, and similarly $g',\eta'$, and $\epsilon'$. We must show $(g,\eta,\epsilon)=(g',\eta', \epsilon')$. But since all hom-sets are sets, their identity types are mere propositions, so it suffices to show $g=g'$. For this we have $ g' = 1_{a} \circ g'= (g \circ f) \circ g' = g \circ (f \circ g') = g \circ 1_{b}= g$
+\end{proof}
 
 ## Examples
-
 
 *  A __[[bijection]]__ is an isomorphism in [[Set]].
 
