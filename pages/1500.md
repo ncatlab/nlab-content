@@ -130,6 +130,8 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 ## References ##
 
+### General
+
 Original articles:
 
 * {#EtingofNikshychOstrik05} [[Pavel Etingof]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On fusion categories*, Annals of Mathematics Second Series, Vol. 162, No. 2 (Sep., 2005), pp. 581-642 ([arXiv:math/0203060](http://arxiv.org/abs/math/0203060), [jstor:20159926](https://www.jstor.org/stable/20159926))
@@ -170,6 +172,15 @@ and for the case of [[modular tensor categories]] in
 For some discussion see
 
 * Math Overflow, _[Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting)_ .
+
+
+
+
+[[!include anyonic topological order via braided fusion categories -- references]]
+
+
+
+
 
 
 [[!redirects fusion categories]]
