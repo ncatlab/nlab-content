@@ -1,14 +1,38 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea ##
-There is a canonical way to turn any [[category]] into a [[weak equivalence|weakly equivalent]] [[univalent category]]. This can be thought of as an analogue of [[univalence]] but for [[isomorphisms]] instead of [[equivalence]].
+
+There is a canonical way to turn any [[internal category in homotopy type theory]] into a [[weak equivalence|weakly equivalent]] [[univalent category]]. This can be thought of as an analogue of [[univalence]] but for [[isomorphisms]] instead of [[equivalence]].
 
 ## Construction ##
-These results are from the HoTT book. Note: the HoTT book calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
-### Theorem 9.9.5 ###
+These results are from [UFP13](#UFP13). Note: [UFP13](#UFP13)  calls an [[internal category in HoTT]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+
+\begin{theorem}\label{Theorem995}
+**(Theorem 9.9.5 in [UFP13](#UFP13))**
 For any [[category]] $A$, there is a [[univalent category]] $\hat{A}$ and a [[weak equivalence]] $A\to \hat{A}$.
-
-**Proof.**
-Let $\hat{A}_0$ be the type of [[representable]] objects of $\mathit{Set}^{A^{\mathrm{op}}}$, with hom-sets inherited from $\mathit{Set}^{A^{\mathrm{op}}}$. Then the inclusion $\hat{A} \to \mathit{Set}^{A^{\mathrm{op}}}$ is [[fully faithful]] and an [[embedding]] on [[objects]]. Since $\mathit{Set}^{A^{\mathrm{op}}}$ is a category by Theorem 9.2.5 (see [[functor category]]), $\hat{A}$ is also a category. Let $A \to \hat{A}$ be the [[Yoneda embedding]]. This is [[fully faithful]] by corollary 9.5.6 (See [[Yoneda embedding]]), and [[essentially surjective]] by definition of $\hat{A}_0$. Thus it is a [[weak equivalence]]. $\square$ 
+\end{theorem}
+\begin{proof}
+Let $\hat{A}_0$ be the type of [[representable]] objects of $\mathit{Set}^{A^{\mathrm{op}}}$, with hom-sets inherited from $\mathit{Set}^{A^{\mathrm{op}}}$. Then the inclusion $\hat{A} \to \mathit{Set}^{A^{\mathrm{op}}}$ is [[fully faithful]] and an [[embedding]] on [[objects]]. Since $\mathit{Set}^{A^{\mathrm{op}}}$ is a category by Theorem 9.2.5 (see [[functor category]]), $\hat{A}$ is also a category. Let $A \to \hat{A}$ be the [[Yoneda embedding]]. This is [[fully faithful]] by corollary 9.5.6 (See [[Yoneda embedding]]), and [[essentially surjective]] by definition of $\hat{A}_0$. Thus it is a [[weak equivalence]].
+\end{proof}
 
 * $\hat{A}_0\equiv \sum_{(F : \mathit{Set}^{A^{\mathrm{op}}})} \sum_{(a:A)} \mathbf{y} a \cong F$
 
@@ -26,15 +50,32 @@ If we ignore the last constructor we could also write the above as $\| \hat{A}_0
 
 We now go on to build a univalent category $\hat{A}$ with a [[weak equivalence]] $A \to \hat{A}$ by taking the type of objects as $\hat{A}_0$ and defining hom-sets by double [[induction]]. The advantage of this approach is that it preserves [[universe]] levels, there are a lot of things to check but it is an easy proof. The kind of proof that is well suited to a proof assistant. For the complete proof see Theorem 9.9.5 of the [[HoTT book]].
 
-## See also ##
-[[category theory]]
-[[Yoneda lemma]]
-[[weak equivalence]]
-[[higher inductive type]]
+## Related concepts
+ 
+* [[Segal completion]]
+
+* [[category theory]]
+
+* [[Yoneda lemma]]
+
+* [[weak equivalence]]
+
+* [[higher inductive type]]
 
 ## References ##
-[[HoTT book]]
 
-_Univalent categories and the Rezk completion_. [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1010?1039. 
+The relation between [[complete Segal space|Segal completeness]] (now often "Rezk completion") for [[internal categories in HoTT]] and the [[univalence axiom]] had been pointed out in:
+
+* [[Urs Schreiber]], _[Segal completenes and Univalence](https://golem.ph.utexas.edu/category/2012/05/segalcompleteness_and_univalen.html)_ (2012)
+
+This was developed in
+
+* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_, Mathematical Structures in Computer Science **25** 5 (*From type theory and homotopy theory to Univalent Foundations of Mathematics*),  (2015) 1010-1039   $[$[arXiv:1303.0584](https://arxiv.org/abs/1303.0584), [doi:10.1007/978-3-319-21284-5_14](https://doi.org/10.1007/978-3-319-21284-5_14)$]$
+
+See also:
+
+* {#UFP13} [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+
 
 category: category theory
