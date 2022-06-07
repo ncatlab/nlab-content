@@ -345,9 +345,9 @@ Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[confi
 ### Anyonic topological order in terms of braided fusion categories
  {#AnyonicTopologicalOrderInTermsOfBraidedFusionCategoriesReferences}
 
-Discussion of [[anyon|anyonic]] [[topological order]] in terms of [[braided monoidal categories|braided]][[fusion categories]]/[[modular tensor categories]]:
+Discussion of [[anyon|anyonic]] [[topological order]] in terms of [[braided monoidal categories|braided]] [[fusion categories]]/[[modular tensor categories]]:
 
-* Tian Lan, *A Classification of (2+1)D Topological Phases with Symmetries* $[$[arXiv:1801.01210](https://arxiv.org/abs/1801.01210)$]$
+* [[Tian Lan]], *A Classification of (2+1)D Topological Phases with Symmetries* $[$[arXiv:1801.01210](https://arxiv.org/abs/1801.01210)$]$
 
 
 * Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) $[$[doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0)$]$
