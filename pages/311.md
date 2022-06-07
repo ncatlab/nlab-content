@@ -100,6 +100,22 @@ The notion of representable functors has its straightforward analogs also in [[h
 
 * For [[(∞,1)-category theory]] theory see [[(∞,1)-presheaf]]
 
+### In homotopy type theory
+
+Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+
+\begin{definition}
+A [[functor]] $F: \mathit{Set}^{A^{op}}$ is said to be **representable** if there exists $a:A$ and an [[isomorphism]] $\mathbf{y}a \cong F$.
+\end{definition}
+
+\begin{theorem}
+**Theorem 9.5.9**
+If $A$ is a [[univalent category]], then the type "F is representable" is a mere proposition.
+\end{theorem}
+
+\begin{proof}
+**Proof.** By definition "F is representable" is just the fiber of $\mathbf{y}_0$ over $F$. Since $\mathbf{y}_0$ is an embedding by Corollary 9.5.7 in the HoTT book (see [[Yoneda lemma]]), this fiber is a mere proposition. $\square$
+\end{proof}
 
 ## Examples 
 
