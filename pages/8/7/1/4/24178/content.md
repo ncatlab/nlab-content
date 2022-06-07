@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -36,17 +37,25 @@ Relating to non-abelian [[anyons]] and [[conformal blocks]]:
 
 * {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]], Section 2.2 of: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 $[$<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)$]$
 
+* {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
+
+Review:
+
+* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], Section III.D.2.c (pp. 1125) of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889)$]$
+
 
 See also:
 
 * Wikipedia, *[Laughlin wavefunciton](https://en.wikipedia.org/wiki/Laughlin_wavefunction)*
 
-Further discussion
+A "hierarchy" of Laughlin-like states:
+
+* [[Bertrand I. Halperin]], *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 $[$[doi:10.1103/PhysRevLett.52.1583](https://doi.org/10.1103/PhysRevLett.52.1583)$]$
 
 * [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) $[$[arXiv:1908.02599](https://arxiv.org/abs/1908.02599), [doi:10.1103/PhysRevB.100.241102](https://doi.org/10.1103/PhysRevB.100.241102)$]$
 
 
-[[!redirects Laughline wavefunctins]]
+[[!redirects Laughlin wavefunctions]]
 
 [[!redirects Laughlin state]]
 [[!redirects Laughlin states]]
