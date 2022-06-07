@@ -14,11 +14,11 @@
 
 ## Definition ##
 
-Given a [[dagger 2-poset]] $A$, the **2-poset of partial maps** $Map_\bot(A)$ is the sub-[[2-poset]] whose objects are the objects of $A$ and whose morphisms are the [[functional morphism in a dagger 2-poset|functional morphisms]] of $A$. 
+Given a [[dagger 2-poset]] $A$, the **2-poset of partial maps** $Map_\bot(A)$ is the [[subobject|sub]]-[[2-poset]] whose [[objects]] are the objects of $A$ and whose [[morphisms]] are the [[functional morphism in a dagger 2-poset|functional morphisms]] of $A$. 
 
 ## Examples ##
 
-* For the dagger 2-poset of sets and relations $Rel$, the [[2-poset]] of partial maps $Map_\bot(Rel)$ is equivalent to the category of sets and partial functions $Set_\bot$. 
+* For the dagger 2-poset [[Rel]] of [[sets]] and [[relations]], the [[2-poset]] of partial maps $Map_\bot(Rel)$ is equivalent to the [[category]] of sets and [[partial functions]] $Set_\bot$. 
 
 ## See also ##
 
