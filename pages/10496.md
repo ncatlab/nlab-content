@@ -306,6 +306,11 @@ Nucl. Phys. B419, 455 (1994).
 
 
 
+[[!include anyonic topological order via braided fusion categories -- references]]
+
+
+
+
 
 ### Further resources
 
