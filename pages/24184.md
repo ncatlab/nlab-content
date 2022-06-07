@@ -1,4 +1,20 @@
-[[!redirects H-spaceoids]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 
 ## Contents ##
 * table of contents
@@ -34,3 +50,5 @@ called composition, and denoted infix by $g \mapsto f \mapsto g \circ f$, or som
 * [[unital magmoid]]
 * [[H-magmoid]]
 * [[homotopy category]]
+
+[[!redirects H-spaceoids]]
