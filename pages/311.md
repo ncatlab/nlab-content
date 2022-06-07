@@ -101,8 +101,9 @@ The notion of representable functors has its straightforward analogs also in [[h
 * For [[(∞,1)-category theory]] theory see [[(∞,1)-presheaf]]
 
 ### In homotopy type theory
+ {#InHomotopyTypeTheory}
 
-Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+Note: the [[HoTT book]] calls a [[internal category in HoTT]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
 \begin{definition}
 A [[functor]] $F: \mathit{Set}^{A^{op}}$ is said to be **representable** if there exists $a:A$ and an [[isomorphism]] $\mathbf{y}a \cong F$.
