@@ -95,6 +95,42 @@ Let $F \colon \mathcal{C} \to \mathcal{D}$ be a [[functor]]. Then the following 
 
 =--
 
+\begin{proof}
+This proof is from the [[HoTT book]], and is set in the context of [[homotopy type theory]]. The categories here are what the HoTT book calls "precategories", i.e. not [[univalent categories]]:
+
+Suppose $F$ is an equivalence of categories with $G,\eta,\epsilon$ specified. Then we have the function
+
+$$
+\begin{aligned}
+  hom_B(F a, F b) &\to hom_A(a,b), \\
+  g &\mapsto \eta_b^{-1}\circ G(g) \circ \eta_a.
+\end{aligned}
+$$
+
+For $f:hom_A(a,b)$, we have
+
+$$\eta_b^{-1} \circ G(F(f)) \circ \eta_a = \eta_b^{-1} \circ \eta_b \circ f = f$$
+while for $g: hom_B(F a, F b)$ we have
+
+$$
+  \begin{aligned}
+    F(\eta_b^{-1} \circ G(g) \circ \eta_a) &= F(\eta_b^{-1}) \circ F(G(g)) \circ F(\eta_a) \\
+    &= \epsilon_{F b} \circ F(G(g)) \circ F(\eta_a) \\
+    &= g \circ \epsilon_{F a} \circ F(\eta_a) \\
+    &= g
+  \end{aligned}
+$$
+
+using [[natural transformation|naturality]] of $\epsilon$, and the triangle identities twice. Thus, $F_{a,b}$ is an equivalence, so $F$ is [[fully faithful]]. Finally, for any $b:B$, we have $G b : A$ and $\epsilon_b : F G b \cong b$.
+
+On the other hand, suppose $F$ is [[fully faithful]] and (split) [[essentially surjective]]. Define $G_0:B_0\to A_0$ by sending $b:B$ to the $a:A$ given by the specified essential splitting, and write $\epsilon_b$ for the likewise specified [[isomorphism]] $F G b \cong b$.
+
+Now for any $g: hom_B(b,b')$, define $G(g): hom_A(G b, G b')$ to be the unique morphism such that $F(G(g))=(\epsilon_{b'})^{-1} \circ g \circ \epsilon_b$ which exists since $F$ is [[fully faithful]]. Finally for $a:A$ define $\eta_a : hom_A(a,G F a)$ to be the unique morphism such that $F \eta_a = \epsilon^{-1}_{F a}$. It is easy to verify that $G$ is a functor and that $(G,\eta \epsilon)$ exhibit $F$ as an equivalence of categories.
+
+We clearly recover the same function $G_0 : B_0 \to A_0$. For the action of $F$ on hom-sets, we must show that for $g:hom_B (b,b')$, $G(g)$ is the necessarily unique morphism such taht $F(G(g))=(\epsilon_{b'})^{-1} \circ g \circ \epsilon_b$.
+
+But this holds by [[natural transformation|naturality]] of $\epsilon$. Then we show $(2) \to (1) \to (2)$ gives the same data hence $(1)\simeq (2)$. 
+\end{proof}
 
 ## Variants {#Variants}
 
