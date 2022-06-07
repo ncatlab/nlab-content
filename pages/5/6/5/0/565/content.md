@@ -69,6 +69,14 @@ One can also consider concrete categories over any base category $X$ instead of 
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+A concrete category is **univalent** if its underlying category (by forgetting the functor into $Set$) is a [[univalent category]]. 
+
+=--
+
+
 
 ## Examples
 
