@@ -46,6 +46,11 @@ The [[FRS-theorem on rational 2d CFT]] provides a complete classification of rat
 
 See the references at _[[FRS-theorem on rational 2d CFT]]_.
 
+Lecture notes on [[modular tensor categories]] and rational CFT:
+
+* {#Runkel} [[Ingo Runkel]], *Algebra in Braided Tensor Categories and Conformal Field Theory* ([pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/alg.pdf), [[Runkel-AlgebraInBTCAndCFT.pdf:file]])
+
+
 The contrast with non-rational CFTs:
 
 * {#Schomerus05} [[Volker Schomerus]], _Non-compact String Backgrounds and Non-rational CFT_, Phys.Rept.431:39-86, 2006 ([arXiv:hep-th/0509155](https://arxiv.org/abs/hep-th/0509155))
