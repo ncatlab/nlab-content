@@ -160,9 +160,12 @@ A basic and handy reference is
 
 * [[Pierre Deligne]], _Courbes elliptiques: formulaire d'apres J. Tate_, In _Modular functions of one variable_, IV (Proc. Internat. Summer School, Univ. Antwerp, Antwerp, 1972), pages 53{73. Lecture Notes in Math., Vol. 476. Springer, Berlin, 1975 ([web](http://modular.math.washington.edu/Tables/antwerp/deligne/))
 
-Textbook accounts include
+Textbook accounts:
 
-* N. Koblitz, _Introduction to Elliptic Curves and Modular Forms_, Graduate Texts in Math, vol. 97, Springer-Verlag, 1984, 1993 (2nd ed.).
+* N. Koblitz, _Introduction to Elliptic Curves and Modular Forms_, Graduate Texts in Math. **97** Springer (1984, 1993) 
+
+* [[Fred Diamond]], [[Jerry Shurman]], *A First Course in Modular Forms*, GTM **228**, Springer (2005) $[$[doi:10.1007/978-0-387-27226-9](https://doi.org/10.1007/978-0-387-27226-9), ISBN-13: ‎978-0387232294$]$ 
+
 
 Lecture notes and reviews include
 
