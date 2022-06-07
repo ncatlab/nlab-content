@@ -24,3 +24,5 @@ Given a [[dagger 2-poset]] $A$, the **category of maps** $Map(A)$ is the sub-2-p
 
 * [[map in a dagger 2-poset]]
 * [[bicategory of maps]]
+* [[2-poset of partial maps]]
+* [[category of monic maps]]
