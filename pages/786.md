@@ -35,11 +35,6 @@ The bare minimum of axioms to be satisfied by a weak equivalence are encoded in 
 
 Often, categories having weak equivalences also have extra structure that makes them easier to work with.  A very powerful, and commonly occurring, level of such structure is called a [[model category|model structure]].  There are also various weaker levels of structure, such as a [[category of fibrant objects]].
 
-## In homotopy type theory
-
-A [[functor]] $F: A \to B$ between categories $A$ and $B$ is a **[[weak equivalence]]** if it is [[fully faithful]] and [[essentially surjective]].
-
-For [[univalent categories]] there is no difference between weak equivalences and [[equivalences]]. 
 
 ## Examples
 
@@ -50,6 +45,10 @@ For [[univalent categories]] there is no difference between weak equivalences an
 * An [[equivariant weak homotopy equivalence]] is a weak equivalence in the [[fine model structure on topological G-spaces]].
 
 *  A weak equivalence in the [[folk model structure on Cat]] is a functor that is [[full and faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]].
+
+* {#EquivalencesOfCategoriesInHomotopyTypeTheory} In [[homotopy type theory]], a [[functor]] $F: A \to B$ between [[internal categories in HoTT]] $A$ and $B$ is called a "weak equivalence" if it is [[fully faithful]] and [[essentially surjective]].
+
+  For [[univalent categories]] there is no difference between weak equivalences and [[equivalences]]. 
 
 
 ## Related concepts
