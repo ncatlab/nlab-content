@@ -18,7 +18,7 @@
   
   [[objective idealism]], [[subjective idealism]]
 
-* [[universal exceptionalism]]
+* [[exceptional naturalism]]
 
 * [[empiricism]]
 
