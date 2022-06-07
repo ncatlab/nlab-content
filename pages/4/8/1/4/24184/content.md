@@ -49,6 +49,7 @@ called composition, and denoted infix by $g \mapsto f \mapsto g \circ f$, or som
 * [[H-space]]
 * [[unital magmoid]]
 * [[H-magmoid]]
+* [[H-category]] (category object internal to a homotopy category)
 * [[homotopy category]]
 
 [[!redirects H-spaceoids]]
