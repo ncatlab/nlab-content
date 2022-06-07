@@ -29,6 +29,8 @@ In some literature, the "Rezk-completeness" condition on such categories is omit
 
 * [[type-theoretic definition of category]]
 
+* [[Rezk completion]]
+
 * Particularly useful in the context of such categories are [[displayed categories]].
 
 ## References
@@ -39,15 +41,15 @@ In some literature, the "Rezk-completeness" condition on such categories is omit
 
 
 
-The relation between [[complete Segal space|Segal completeness]] (now often "Rezk completeness") for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
+The relation between [[complete Segal space|Segal completeness]] (now often "[[Rezk completion|Rezk completeness]]") for internal categories in HoTT and the [[univalence axiom]] had been pointed out in
 
-* [[Urs Schreiber]], _[Segal completenes and Univalence](https://golem.ph.utexas.edu/category/2012/05/segalcompleteness_and_univalen.html)_, 2012
+* [[Urs Schreiber]], _[Segal completenes and Univalence](https://golem.ph.utexas.edu/category/2012/05/segalcompleteness_and_univalen.html)_ (2012)
 
-A comprehensive discussion for [[1-categories]] is in 
+A comprehensive discussion for [[1-categories]] then appeared in:
 
-* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_, Mathematical Structures in Computer Science, Volume 25, Issue 5 (*From type theory and homotopy theory to Univalent Foundations of Mathematics*),  June 2015, pp. 1010-1039   ([arXiv:1303.0584](https://arxiv.org/abs/1303.0584))
+* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_, Mathematical Structures in Computer Science **25** 5 (*From type theory and homotopy theory to Univalent Foundations of Mathematics*),  (2015) 1010-1039   $[$[arXiv:1303.0584](https://arxiv.org/abs/1303.0584), [doi:10.1007/978-3-319-21284-5_14](https://doi.org/10.1007/978-3-319-21284-5_14)$]$
 
-Exposition of this includes
+Exposition:
 
 * [[Mike Shulman]],  _[Category Theory in Homotopy Type Theory](https://golem.ph.utexas.edu/category/2013/03/category_theory_in_homotopy_ty.html)_, 2013
 
@@ -67,7 +69,7 @@ Generalization to [[(n,1)-categories]] is discussed in
 
 and, by different means, in
 
-* {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], _A type theory for synthetic $\infty$-categories_ ([arXiv:1705.07442](https://arxiv.org/abs/1705.07442))
+* {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* ([arXiv:1705.07442](https://arxiv.org/abs/1705.07442))
 
 * {#Riehl18} [[Emily Riehl]], _The synthetic theory of ∞-categories vs the synthetic theory of ∞-categories_, talk at [Vladimir Voevodsky Memorial Conference 2018](http://www.math.ias.edu/vvmc2018) ([pdf](http://www.math.jhu.edu/~eriehl/Voevodsky.pdf))
 
