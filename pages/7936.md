@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Geometric quantization
 +--{: .hide}
 [[!include geometric quantization - contents]]
@@ -25,7 +29,10 @@ For details see at _[geometric quantization -- Space of quantum states](geometri
 
 ## Related concepts
 
+* [[Laughlin wavefunction]]
+
 [[!include states and observables -- content]]
+
 
 \linebreak
 
