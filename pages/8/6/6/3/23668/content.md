@@ -1,4 +1,10 @@
 [[!redirects dagger 2-posets]]
+[[!redirects dagger 2-preorder]]
+[[!redirects dagger 2-preorders]]
+[[!redirects dagger 2-proset]]
+[[!redirects dagger 2-prosets]]
+[[!redirects univalent dagger 2-poset]]
+[[!redirects univalent dagger 2-posets]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,11 +24,15 @@
 
 A dagger 2-poset is a [[dagger category]] $C$ such that 
 
-* for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphisms $R \in Hom(A, B)$ and $S \in Hom(A, B)$ there is a [[binary relation]] $R \leq_{A, B} S$ 
-* for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphism $R \in Hom(A, B)$, $R \leq_{A, B} R$. 
-* for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphisms $R \in Hom(A, B)$ and $S \in Hom(A, B)$, $R \leq_{A, B} S$ and $S \leq_{A, B} R$ implies that $R = S$. 
-* for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphism $R \in Hom(A, B)$, $S \in Hom(A, B)$, and $T \in Hom(A, B)$, $R \leq_{A, B} S$ and $S \leq_{A, B} T$ implies that $R \leq_{A, B} T$. 
-* for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphisms $R \in Hom(A, B)$ and $S \in Hom(A, B)$, $R \leq_{A, B} S$ implies $R^\dagger \leq_{B, A} S^\dagger$. 
+1. for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphisms $R \in Hom(A, B)$ and $S \in Hom(A, B)$ there is a [[binary relation]] $R \leq_{A, B} S$ 
+2. for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphism $R \in Hom(A, B)$, $R \leq_{A, B} R$. 
+3. for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphisms $R \in Hom(A, B)$ and $S \in Hom(A, B)$, $R \leq_{A, B} S$ and $S \leq_{A, B} R$ implies that $R = S$. 
+4. for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphism $R \in Hom(A, B)$, $S \in Hom(A, B)$, and $T \in Hom(A, B)$, $R \leq_{A, B} S$ and $S \leq_{A, B} T$ implies that $R \leq_{A, B} T$. 
+5. for each object $A \in Ob(C)$ and $B \in Ob(C)$ and morphisms $R \in Hom(A, B)$ and $S \in Hom(A, B)$, $R \leq_{A, B} S$ implies $R^\dagger \leq_{B, A} S^\dagger$. 
+
+A dagger 2-poset which only satisfies 1., 2., 4., and 5. is called a **dagger 2-preorder** or a **dagger 2-proset**. 
+
+A dagger 2-poset is a **univalent dagger 2-poset** if the underlying dagger-category is a [[univalent dagger category]]. 
 
 ## Morphisms ##
 
