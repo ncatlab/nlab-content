@@ -69,3 +69,6 @@ An interpretation of the ingredients entering these proofs in terms of bounds on
 
 [[!redirects sphere packing problem]]
 [[!redirects sphere packing problems]]
+
+[[!redirects packing]]
+[[!redirects packings]]
