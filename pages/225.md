@@ -25,6 +25,18 @@ Given [[category|categories]] $C$ and $D$, the **functor category** -- written $
 
 * [[morphism]]s are [[natural transformation|natural transformations]] between these functors.
 
+### In homotopy type theory
+Note: the HoTT book calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+
+For [[categories]] $A,B$, there is a [[category]] $B^A$, called the **functor category**, defined by
+
+* $(B^A)_0$ is the type of [[functors]] from $A$ to $B$.
+* $hom_{B^A}(F,G)$ is the type of [[natural transformations]] from $F$ to $G$.
+
+**Proof.** We define $(1_F)_a \equiv 1_{F a}$. Naturality follows by the unit axioms of a [[category]]. For $\gamma : F \to G$ and $\delta : G \to H$, we define $(\delta \circ \gamma)_a \equiv \delta_a \circ \gamma_a$. Naturality follows by associativity. Similarly, the unit and associativity laws for $B^A$ follow from those for $B$. $\square$
+
+We define a **natural isomorphism** to be an [[isomorphism]] in $B^A$.
+
 
 ## Usage
  
@@ -87,6 +99,53 @@ Since $\mathcal{G}$ generates, there is a small diagram of $\kappa$-accessible f
 But then $\mathcal{C} (X, -)$ is a retract of a $\kappa$-accessible functor and hence $\kappa$-accessible: a contradiction.
 That said, $\mathcal{A}$ is a [[class-locally presentable category]].
 
+### In homotopy type theory
+
+#### Lemma 9.2.4 ####
+A natural transformation $\gamma : F \to G$ is an isomorphism in $B^A$ if and only if each $\gamma_a$ is an isomorphism in $B$.
+
+**Proof.** If $\gamma$ is an [[isomorphism]], then we have $\delta : G \to F$ that is its inverse. By definition of composition in $B^A$, $(\delta \gamma)_a \equiv \delta_a \gamma_a$. Thus, $\delta \gamma = 1_F$ and $\gamma \delta=1_G$ imply that $\delta_a \gamma_a = 1_{F a}$ and $\gamma_a \delta_a = 1_{G a}$, so $\gamma_a$ is an isomorphism.
+
+Conversely, suppose each $\gamma_a$ is an [[isomorphism]], with inverse called $\delta_a$. We define a [[natural transformation]] $\delta : G \to F$ with components $\delta_a$; for the naturality axiom we have 
+$$F f \circ \delta_a=\delta_b \circ \gamma_b \circ F f \circ \delta_a = \delta_b \circ G f \circ \gamma_a \circ \delta_a = \delta_b \circ G f$$
+
+Now since composition and identity of [[natural transformations]] is determined on their components, we have $\gamma \delta=1_G$ and $\delta \gamma 1_F.\ \square$
+
+#### Theorem 9.2.5 ####
+If $A$ is a [[category]] and $B$ is a [[univalent category]], then $B^A$ is a [[univalent category]].
+
+**Proof.** Let $F,G:A\to B$; we must show that $idtoiso:({F}={G}) \to (F\cong G)$ is an [[equivalence]].
+
+  To give an inverse to it, suppose $\gamma:F\cong G$ is a [[natural isomorphism]].
+  Then for any $a:A$, we have an [[isomorphism]] $\gamma_a:F a \cong G a$, hence an [[identity]] $isotoid(\gamma_a):{F a}={G a}$.
+  By [[function extensionality]], we have an [[identity]] $\bar{\gamma}:{F_0}=_{(A_0\to B_0)}{G_0}$.
+
+  Now since the last two axioms of a [[functor]] are [[mere propositions]], to show that ${F}={G}$ it will suffice to show that for any $a,b:A$, the functions
+  
+  $$ F_{a,b}:hom_A(a,b) \to hom_B(F a,F b) $$
+  $$ G_{a,b}:hom_A(a,b) \to hom_B(G a,G b) $$
+
+  become equal when [[transported]] along $\bar\gamma$.
+  By computation for [[function extensionality]], when applied to $a$, $\bar\gamma$ becomes equal to $isotoid(\gamma_a)$.
+  
++--{.query}
+This reference needs to be included. For now as transports are not yet written up I didn't bother including a reference to the page [[univalent category]]. -Ali
+=--
+
+But by [**INCLUDE ME**], [[transporting]] $F f:hom_B(F a,F b)$ along $isotoid(\gamma_a)$ and $isotoid(\gamma_b)$ is equal to the composite $\gamma_b\circ F f\circ \inv{(\gamma_a)}$, which by naturality of $\gamma$ is equal to $G f$.
+
+  This completes the definition of a function $(F\cong G) \to (F =G)$.
+  Now consider the composite
+  $$ (F= G) \to (F\cong G) \to (F =G). $$
+  Since hom-sets are [[sets]], their [[identity types]] are [[mere propositions]], so to show that two [[identities]] $p,q:F =G$ are equal, it suffices to show that $p =_{{F_0}={G_0}}{q}$.
+  But in the definition of $\bar\gamma$, if $\gamma$ were of the form $idtoiso(p)$, then $\gamma_a$ would be equal to $idtoiso(p_a)$ (this can easily be proved by induction on $p$).
+  Thus, $isotoid(\gamma_a)$ would be equal to $p_a$, and so by [[function extensionality]] we would have ${\bar\gamma}={p}$, which is what we need.
+
+  Finally, consider the composite
+  $$(F\cong G)\to  ( F = G) \to (F\cong G). $$
+  Since identity of [[natural transformations]] can be tested componentwise, it suffices to show that for each $a$ we have ${idtoiso(\bar\gamma)_a}={\gamma_a}$.
+  But as observed above, we have ${idtoiso(\bar\gamma)_a}={idtoiso((\bar\gamma)_a)}$, while ${(\bar\gamma)_a}={isotoid(\gamma_a)}$ by computation for [[function extensionality]].
+  Since $isotoid$ and $idtoiso$ are inverses, we have ${idtoiso(\bar\gamma)_a}={\gamma_a}$ as desired. $\square$
 
 ## Size issues
 
@@ -108,6 +167,10 @@ As a partial converse to the above, if $C$ and $[C,Set]$ are locally small, then
 * [[simplicial mapping complex]]
 
 * [[inertia groupoid]]
+
+## References ##
+
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects functor category]]
 [[!redirects functor categories]]
