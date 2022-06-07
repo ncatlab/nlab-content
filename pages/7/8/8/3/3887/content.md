@@ -35,6 +35,17 @@ From a point of view closer to [[number theory]] and [[geometric Langlands corre
 
 
 ## Properties
+ {#Properties}
+
+### Relation to braiding of field insertions
+ {#RelationToBraidingOfFieldInsertions}
+
+In the case of [[2d CFT|2d]] [[rational CFT]] the [[representation category]] of the corresponding [[vertex operator algebra]] is a [[modular tensor category]] (see [there](modular+tensor+category#RepCategoriesOfVOAs)), hence a [[braided monoidal category]] with extra properties.
+
+ In this case the [[monoidal category|monoidal]]- and the [[braided monoidal category|braided]] [[structure]] (hence the [[modular tensor category|modular tensor structure]]) on the underlying [[representation category]] is entirely fixed by the space of [[conformal blocks]] of the [[2d CFT]] on the [[Riemann sphere]] (the "genus zero conformal blocks").
+
+This may be found highlighted in [EGNO 15, p. 266](#EGNO15), [Runkel, Sec. 4.3](#Runkel). The essentially equivalent fact that the genus=0 conformal blocks already determine the [[modular functor]] of the CFT is proven in [Andersen & Ueno 2012](modular+functor#AndersenUeno12).
+
 
 ### Holographic correspondence
 
