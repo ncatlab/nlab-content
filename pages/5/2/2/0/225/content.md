@@ -26,7 +26,10 @@ Given [[category|categories]] $C$ and $D$, the **functor category** -- written $
 * [[morphism]]s are [[natural transformation|natural transformations]] between these functors.
 
 ### In homotopy type theory
-Note: the HoTT book calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+
+Discussion in [[homotopy type theory]].
+
+Note: the [[HoTT book]] calls a [[internal category in HoTT]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
 For [[categories]] $A,B$, there is a [[category]] $B^A$, called the **functor category**, defined by
 
