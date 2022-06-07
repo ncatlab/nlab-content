@@ -25,6 +25,50 @@ For internal [[1-categories]] in HoTT (as opposed to more general internal [[(in
 
 In some literature, the "Rezk-completeness" condition on such categories is omitted from the definition, and categories that satisfy it are called *saturated* or *univalent*.
 
+Similarly to the [[univalence axiom]] we make two notions of sameness the same. This leads to some nice concequences.
+
+## Definition ##
+In [[homotopy type theory]], there are two notions of "sameness" for objects of a precategory. On one hand we have an [[isomorphism]] between objects $a$ and $b$, on the other hand we have equality of objects $a$ and $b$. 
+
+There is a special kind of category called a **univalent category** where these two notions of equality coincide and some very nice properties arise.
+
+\begin{lemma}
+If $A$ is a category and $a,b:A$, then there is a map
+
+$$idtoiso : (a=b) \to (a \cong b)$$
+\end{lemma}
+
+\begin{proof}
+By induction on identity, we may assume $a$ and $b$ are the same. But then we have $1_a:hom_A(a,a)$, which is clearly an isomorphism. $\square$
+\end{proof}
+
+The inverse of $idtoiso$ is denoted $isotoid$.
+
+## Examples ##
+Note: All categories given can become univalent via the [[Rezk completion]].
+
+* There is a category $\mathit{Set}$, whose type of objects is $Set$, and with $hom_{\mathit{Set}}(A,B)\equiv (A \to B)$. Under [[univalence]] this becomes a [[category]]. One can also show that any [[category]] of set-level structures such as groups, rings topologicial spaces, etc. is also univalent.
+
+* For any 1-type $X$, there is a univalent category with $X$ as its type of objects and with $hom(x,y)\equiv(x=y)$. If $X$ is a set we call this the **discrete category** on $X$. In general, we call this a **groupoid**.
+
+* For any type $X$, there is a category with $X$ as its type of objects and with $hom(x,y)\equiv \| x= y \|_0$. The composition operation
+$$\|y=z\|_0 \to \|x=y\|_0 \to \|y=z\|_0$$
+is defined by induction on [[truncation]] from concatenation of the [[identity type]]. We call this the **fundamental groupoid** of $X$.
+
+* There is a category whose type of objects is $\mathcal{U}$ and with $hom(X,Y)\equiv \| X \to Y\|_0$, and composition defined by induction on truncation from ordinary composition of functions. We call this the **homotopy category of types**. 
+
+## Properties ##
+
+\begin{lemma}
+In a univalent category, the type of objects is a 1-type.
+\end{lemma}
+
+\begin{proof}
+It suffices to show that for any $a,b:A$, the type $a=b$ is a set. But $a=b$ is equivalent to $a \cong b$ which is a set. 
+\end{proof}
+
+There is a canonical way to turn a [[category]] into a univalent category via the [[Rezk completion]].
+
 ## Related pages
 
 * [[type-theoretic definition of category]]
@@ -57,11 +101,9 @@ Discussion of implementation of this in [[Coq]] includes
 
 * [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
 
-See also
+[[Coq]] code formalizing this includes the following:
 
-* [[homotopytypetheory:HomePage|HoTT wiki]], _[[homotopytypetheory:category]]_
-
-
+* _[github.com/benediktahrens/rezk_completion](https://github.com/benediktahrens/rezk_completion)_
 
 Generalization to [[(n,1)-categories]] is discussed in
 
@@ -76,6 +118,10 @@ and, by different means, in
 Formalization of [[bicategories]]:
 
 * [[Benedikt Ahrens]], Dan Frumin, Marco Maggesi, Niels van der Weide, _Bicategories in Univalent Foundations_ ([arXiv:1903.01152](https://arxiv.org/abs/1903.01152))
+
+Lemmas and proofs are taken from 
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 
 ### By coinduction
