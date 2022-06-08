@@ -41,7 +41,11 @@ Relating to non-abelian [[anyons]] and [[conformal blocks]]:
 
 Review:
 
+* [[Steven M. Girvin]], Section 2.1 of: *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  $[$[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)$]$
+
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], Section III.D.2.c (pp. 1125) of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889)$]$
+
+* Roman Remme, *The Laughlin Wavefunction*, talk notes (2017) $[$[pdf](https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose17/atqft/writeups/Roman.pdf), [[Remme-LaughlinWavefunction.pdf:file]]$]$
 
 
 See also:
