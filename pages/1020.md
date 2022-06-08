@@ -96,16 +96,7 @@ Restricted to [[preorder|preorders]] or [[poset|posets]], Definition \ref{Defini
 
 \begin{defn} Given [[partial order|posets]] or [[preorder|preorders]] $\mathcal{C}$ and $\mathcal{D}$ and a [[monotone function]] $R: \mathcal{D} \to \mathcal{C}$, a _left adjoint_ of $R$ is a monotone function $L: \mathcal{C} \to \mathcal{D}$ such that, for all $x$ in $\mathcal{D}$ and $y$ in $\mathcal{C}$, we have that $L(x) \leq y$ holds if and only if $x \leq R(y) $ holds. \end{defn}
 
-### In homotopy type theory
 
-A [[functor]] $F: A \to B$ is a **left adjoint** if there exists
-
-* A [[functor]] $G : B \to A$
-* A [[natural transformation]] $\eta:1_A \to G F$ (the **unit**).
-* A [[natural transformation]] $\epsilon G \to 1_B$ (the **counit**).
-* Which satisfy the **triangle identities** (a.k.a zig-zag identities) 
-  * $(\epsilon F)(F \eta) = 1_F$
-  * $(G \epsilon)(\eta G) = 1_G$
 
 ## Properties
 
@@ -113,12 +104,14 @@ A [[functor]] $F: A \to B$ is a **left adjoint** if there exists
 
 * left adjoints preserve [[epimorphisms]].
 
-### In homotopy type thoery
+### In homotopy type theory
+ {#InHomotopyTypeTheory}
 
-Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+Note: the [[HoTT book]] calls a [[internal category in HoTT]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
-\begin{lemma}
-**Lemma 9.3.2 in HoTT book**
+\begin{lemma}\label{Lemma932}
+**(Lemma 9.3.2 in the [[HoTT book]])**
+\linebreak
 If $A$ is an [[univalent category]] and $B$ is a [[category]] then the type "$F$ is a left adjoint" is a [[mere proposition]].
 \end{lemma}
 
