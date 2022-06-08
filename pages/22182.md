@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,18 +25,22 @@ As a [[higher inductive type]], the circle is given by
       | base : Circle
       | loop : Id Circle base base
 
-This says that the type is inductive constructed from a [[terms]] in the circle, whose [[semantics|interpretation]] is as the base point of the circle, together with a term in the [[identity type]] of paths between these two terms, which interprets as the 1-cell of the circle
+This says that the type is inductively constructed from 
 
-$$
-  base \stackrel{loop}{\to} base
-  \,
-$$
+1. a [[term]] of circle type whose [[semantics|interpretation]] is as the [[base point]] of the circle, 
 
-a non-constant path from the base point to itself.
+1. a term of the [[identity type]] of paths between these two terms, which interprets as the 1-cell of the circle
+
+   $$
+     base \stackrel{loop}{\to} base
+     \,
+   $$
+
+   Hence a non-constant path from the base point to itself.
 
 ### As a suspension
 
-The circle type could also be defined as the [[suspension type]] $\Sigma \mathbf{2}$ of the type of booleans $\mathbf{2}$. 
+The circle type could also be defined as the [[suspension type]] $\Sigma \mathbf{2}$ of the type of [[booleans]] $\mathbf{2}$. 
 
 ### Using torsors ###
 
