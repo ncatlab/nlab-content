@@ -152,3 +152,4 @@ A further non-example:
 
 
 [[!redirects distributive categories]] 
+[[!redirects distributive coproduct]]
