@@ -5,11 +5,11 @@
 
 ## Definitions
 
-A __sequence__ is a [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of [[integers]]; cf. subsequences introduced below).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.) 
+A __sequence__ is a [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of [[integers]]; cf. *[[bi-infinite sequence]]* and the further generalizations [below](#Generalizations)).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.) 
 
 Sequences may also be indicated by functions $\omega \to X$ where $\omega$ is the first countably infinite [[ordinal]]: the key piece of structure on $\mathbb{N}$ relevant for the study of sequences, particularly in analysis, is the order structure. 
 
-Up to [[bijection]], the only possible sources are those of the form
+Up to [[bijection]], the only possible [}domains]] are those of the form
 $$ \{i\colon \mathbb{Z} \;|\; 0 \leq i \lt n\} $$
 for $n = 0, 1, 2, \ldots, \infty$; other domains are used for notational convenience.
 
@@ -30,10 +30,11 @@ One normally writes the value of the sequence $a$ at the argument $i$ as $a_i$ r
 
 
 ## Generalisations
+ {#Generalization}
 
 ### Nets
 
-Infinite sequences are often used in topology, but for topology in general, one needs to generalise to [[nets]], also called _Moore--Smith sequences_.  Here one replaces the domain $\mathbb{N}$ by any arbitrary [[direction|directed set]].
+Infinite sequences are often used in [[topology]], but for topology in general, one needs to generalise to [[nets]], also called _Moore--Smith sequences_.  Here one replaces the domain $\mathbb{N}$ by any arbitrary [[direction|directed set]].
 
 
 ### Sequential nets
