@@ -36,6 +36,9 @@ Introducing [[differential algebraic K-theory]] with application to [[higher reg
 * {#BunkeTamme13} [[Ulrich Bunke]], [[Georg Tamme]], _Multiplicative differential algebraic K-theory and applications_,  Ann. K-Theory 1(3): 227-258 (2016)   ([arXiv:1311.1421](http://arxiv.org/abs/1311.1421), [doi:10.2140/akt.2016.1.227](https://doi.org/10.2140/akt.2016.1.227))
 
 
+On ([[equivariant K-theory|equivariant]]) [[KK-theory]] as the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category|stable $(\infty,1)$-category]]:
+
+* {#BunkeEngelLand21} [[Ulrich Bunke]], [[Alexander Engel]], [[Markus Land]], *A stable $\infty$-category for equivariant KK-theory* $[$[arXiv:2102.13372](https://arxiv.org/abs/2102.13372)$]$
 
 ## Related $n$Lab entries
 
