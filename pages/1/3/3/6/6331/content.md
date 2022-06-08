@@ -48,9 +48,18 @@ Original articles:
 
 * [[Egbert Brieskorn]], *Die Monodromie der isolierten Singularit&auml;ten von Hyperfl&auml;chen*, Masucripta Math. **2** (1970) 103-161  $[$[doi:10.1007/BF01155695](https://doi.org/10.1007/BF01155695), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/brieskorn7.pdf)$]$
 
-Textbook account:
+* [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
-* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 (Def. 9.13) of: _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
+
+Textbook accounts:
+
+* [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
+
+* {#Kulikov98} [[Valentine S. Kulikov]], Part I of: *Mixed Hodge Structures and Singularities*, Cambridge University Press (1998) $[$[doi:10.1017/CBO9780511758928](https://doi.org/10.1017/CBO9780511758928)$]$
+
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 (Def. 9.13) of: _[[Hodge theory and Complex algebraic geometry]] I_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
+
+* [[Alexandru Dimca]], Theorem 2.5.14 in: *Sheaves in Topology*, Universitext, Springer (2004) $[$[doi:10.1007/978-3-642-18868-8](https://doi.org/10.1007/978-3-642-18868-8)$]$
 
 
 Lecture notes:
