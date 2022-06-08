@@ -29,7 +29,7 @@ On [[vortices]]:
 
 * [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), _part 3: _Vortices_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/vortex.pdf)) 
 
-On [[solitons]]
+On [[solitons]]:
 
 * {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216)), _Lecture 1: Instantons_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/instanton.pdf))
 
@@ -47,9 +47,14 @@ On [[mirror symmetry]]:
 * [[Mina Aganagic]], [[Kentaro Hori]], [[Andreas Karch]], [[David Tong]], _Mirror Symmetry in 2+1 and 1+1 Dimensions_, JHEP 0107:022,2001 ([arXiv:hep-th/0105075](http://arxiv.org/abs/hep-th/0105075))
 
 
-On [[triality]] and its application on [[string theory]]
+On [[triality]] and its application on [[string theory]]:
 
 * {#TongTurner19} [[David Tong]], Carl Turner, _Notes on 8 Majorana Fermions_ ([arXiv:1906.07199](https://arxiv.org/abs/1906.07199))
+
+On the [[quantum Hall effect]] and [[Laughlin wavefunctions]]:
+
+* {#Tong16} [[David Tong]], *The Quantum Hall Effect* (2016) $[$[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]$]$
+
 
 Discussion of [[anomaly cancellation]] on the [[standard model of particle physics]]:
 
