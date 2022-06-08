@@ -159,6 +159,7 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 * [[cofree coalgebra]]
 
+* [[James construction type]]
 
 ## References
 
