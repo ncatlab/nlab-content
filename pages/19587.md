@@ -75,7 +75,9 @@ The [[James construction]] of $X$ is [[homotopy equivalence|homotopy equivalent]
 
 (e.g. [Bödigheimer 87, Example 9](#Boedigheimer87))
 
+## See also
 
+* [[James construction type]]
 
 ## References
 
