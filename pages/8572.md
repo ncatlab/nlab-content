@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 =--
 =--
 
@@ -379,6 +383,9 @@ The inclusion $X_{k-1} \hookrightarrow X_k$ is clearly a _good pair_ in the sens
 * [[relative cohomology]]
 
 * [[cellular homology]]
+
+* [[Gauss-Manin connection]]
+
 
 ## References
 
