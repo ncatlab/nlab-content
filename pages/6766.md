@@ -107,9 +107,10 @@ See also
 
 * [[Valerio Toledano-Laredo]], _Flat connections and quantum groups_, Acta Appl. Math. 73 (2002), 155-173, [math.QA/0205185](http://arxiv.org/abs/math.QA/0205185)
 
-* [[Toshitake Kohno]], _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002. x+172 pp.
+* [[Toshitake Kohno]], _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
 
 * [[P. Etingof]], N. Geer, _Monodromy of trigonometric KZ equations_, [math.QA/0611003](http://arxiv.org/abs/math.QA/0611003)
+
 * [[Valerio Toledano-Laredo]], _A Kohno-Drinfeld theorem for quantum Weyl groups_, [math.QA/0009181](http://arxiv.org/abs/math.QA/0009181)
 
 * A. Tsuchiya, Y. Kanie, _Vertex operators in conformal field theory on $\mathbf{P}^1$ and monodromy representations of braid group_, Adv. Stud. Pure Math. __16__, pp. 297&#8211;372 (1988); Erratum in vol. 19, 675&#8211;682
@@ -174,13 +175,14 @@ Review:
 
 * {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
 
-* [[Toshitake Kohno]], *Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks*, Acta Math Vietnam 39, 575–598 (2014).  ([doi:10.1007%2Fs40306-014-0088-6](https://link.springer.com/article/10.1007%2Fs40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf))
+* [[Toshitake Kohno]], *Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks*, Acta Math Vietnam **39** (2014) 575–598 $[$[doi:10.1007%2Fs40306-014-0088-6](https://link.springer.com/article/10.1007%2Fs40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf)$]$
 
-* [[Toshitake Kohno]], *Homological representations of braid groups and KZ connections*, Journal of Singularities **5** (2012) 94-108  ([doi:10.5427/jsing.2012.5g](http://dx.doi.org/10.5427/jsing.2012.5g),  [pdf](https://www.journalofsing.org/volume5/kohno.pdf))
+* [[Toshitake Kohno]], *Homological representations of braid groups and KZ connections*, Journal of Singularities **5** (2012) 94-108  $[$[doi:10.5427/jsing.2012.5g](http://dx.doi.org/10.5427/jsing.2012.5g),  [pdf](https://www.journalofsing.org/volume5/kohno.pdf)$]$
+
 
 See also:
 
-* [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs **88**, AMS 2004 ([ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/))
+* [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs **88**, AMS 2004 $[$[ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/)$]$
 
 This "hypergeometric" construction uses results on the [[twisted de Rham cohomology]] of [[configuration spaces of points]] due to:
 
