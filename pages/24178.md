@@ -45,6 +45,8 @@ Review:
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], Section III.D.2.c (pp. 1125) of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889)$]$
 
+* {#Tong16} [[David Tong]], Section 3.1 of: *The Quantum Hall Effect* (2016) $[$[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]$]$
+
 * Roman Remme, *The Laughlin Wavefunction*, talk notes (2017) $[$[pdf](https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose17/atqft/writeups/Roman.pdf), [[Remme-LaughlinWavefunction.pdf:file]]$]$
 
 
@@ -56,7 +58,7 @@ A "hierarchy" of Laughlin-like states:
 
 * [[Bertrand I. Halperin]], *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 $[$[doi:10.1103/PhysRevLett.52.1583](https://doi.org/10.1103/PhysRevLett.52.1583)$]$
 
-* [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) $[$[arXiv:1908.02599](https://arxiv.org/abs/1908.02599), [doi:10.1103/PhysRevB.100.241102](https://doi.org/10.1103/PhysRevB.100.241102)$]$
+* {#Lan19} [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) $[$[arXiv:1908.02599](https://arxiv.org/abs/1908.02599), [doi:10.1103/PhysRevB.100.241102](https://doi.org/10.1103/PhysRevB.100.241102)$]$
 
 
 [[!redirects Laughlin wavefunctions]]
