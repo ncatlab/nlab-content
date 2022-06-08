@@ -10,6 +10,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -53,6 +54,8 @@ Review:
 * {#vonKlitzing86} [[Klaus von Klitzing]], _The quantized Hall effect_, Rev. Mod. Phys. **58** 519 (1986) $[$[doi:10.1103/RevModPhys.58.519](https://doi.org/10.1103/RevModPhys.58.519)$]$
 
 * [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  $[$[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)$]$
+
+* {#Tong16} [[David Tong]], *The Quantum Hall Effect* (2016) $[$[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]$]$
 
 * _The quantum Hall effect_ ([pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf))
 
