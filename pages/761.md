@@ -197,6 +197,17 @@ where $\mathcal{I}$ is the invertible [[interval category]], which is (literally
 
 Note that the version of the theorem for fundamental groups does not apply, since $U\cap V$ is not path-connected.
 
+### van Kampen theorem in homotopy type theory 
+
+The van Kampen theorem can be expressed in [[homotopy type theory]], a type theory under which one could do [[synthetic homotopy theory]], as follows:
+
+Let $A, B, C$ be [[types]] and $f : A \to B$ and $g : A \to C$ [[functions]]. Let $P\equiv B \sqcup_A C$ be their [[pushout]].
+
+By defining a special *code* function using the [[encode-decode method]] the van Kampen theorem says that:
+
+$$\Pi_1 P(u, v) \simeq code(u,v)$$
+
+There are (at least) two code functions that can be given, which are listed in section 8.7 of the [[HoTT Book]]. (it would be good if somebody could transcribe the code functions over here).  The first is a "naive" van Kampen theorem. The second version is the van Kampen at a set of basepoints.
 
 ## Generalizations
 
@@ -238,5 +249,13 @@ Discussion of [[persistent homotopy]] with focus on the [[van Kampen theorem]], 
 
 * Mehmet Ali Batan, Mehmetcik Pamuk, Hanife Varli, *Persistent Homotopy* $[$[arXiv:1909.08865](https://arxiv.org/abs/1909.08865)$]$
 
+For the van Kampen theorem in [[homotopy type theory]]:
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+Formalization of the van Kampen theorem in [[proof assistants]]: 
+
+* [In Agda](https://github.com/HoTT/HoTT-Agda/tree/e48a16bcd719e2fcb409d79e3f7df6c6b81223bb/theorems/homotopy/vankampen)
+* [In Lean](https://github.com/leanprover/lean2/blob/master/hott/homotopy/vankampen.hlean)
 
 [[!redirects Seifert-van Kampen theorem]]
