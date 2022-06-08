@@ -399,7 +399,10 @@ $$
 
 ## References
 
-Textbook accounts include
+Textbook accounts:
+
+* {#Kulikov98} [[Valentine S. Kulikov]], *Mixed Hodge Structures and Singularities*, Cambridge University Press (1998) $[$[doi:10.1017/CBO9780511758928](https://doi.org/10.1017/CBO9780511758928)$]$
+
 
 * {#Voisin02} [[Claire Voisin]], section 7 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
 
