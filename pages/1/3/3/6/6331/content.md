@@ -17,7 +17,7 @@
 
 ## Definition
 
-A *Gauss-Manin connection* is a canonical [[flat connection]] on [[fiber bundles]] of [[ordinary cohomology|ordinary]] (but possibly [[twisted cohomology|twisted]]) [[cohomology groups]].
+A *Gauss-Manin connection* is a canonical [[flat connection]] on [[fiber bundles]] of [[relative cohomology|relative]] [[ordinary cohomology|ordinary]] (but possibly [[twisted cohomology|twisted]]) ([[cohomology groups|co]]-)[[homology groups]], hence a way of transforming (co-)homology classes as a *parameter* varies.
 
 
 ## Examples
@@ -43,6 +43,15 @@ Original articles:
 * [[Nicholas M. Katz]], *On the differential equations satisfied by period matrices*, Publications Mathématiques de l'IHÉS, Tome **35** (1968) 71-106 $[$[numdamPMIHES_1968__35__71_0](http://www.numdam.org/item/PMIHES_1968__35__71_0)$]$
 
 * {#Grothendieck66} [[Alexander Grothendieck]], *On the de Rham cohomology of algebraic varieties*, Publications Mathématiques de l'IHÉS, Tome **29** (1966) 95-103 $[$[numdam:PMIHES_1966__29__95_0](http://www.numdam.org/item/?id=PMIHES_1966__29__95_0)$]$ 
+
+* [[Nicholas M. Katz]], [[Tadao Oda]], *On the differentiation of De Rham cohomology classes with respect to parameters*, J. Math. Kyoto Univ. **8** 2 (1968) 199-213 $[$[doi:10.1215/kjm/1250524135](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-8/issue-2/On-the-differentiation-of-De-Rham-cohomology-classes-with-respect/10.1215/kjm/1250524135.full)$]$
+
+* [[Egbert Brieskorn]], *Die Monodromie der isolierten Singularit&auml;ten von Hyperfl&auml;chen*, Masucripta Math. **2** (1970) 103-161  $[$[doi:10.1007/BF01155695](https://doi.org/10.1007/BF01155695), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/brieskorn7.pdf)$]$
+
+Textbook account:
+
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 (Def. 9.13) of: _[[Hodge theory and Complex algebraic geometry]] I,II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
+
 
 Lecture notes:
 
@@ -72,4 +81,4 @@ In [[noncommutative geometry]]:
 
 * [[Vasily Dolgushev]], [[Dmitry Tamarkin]], [[Boris Tsygan]], _Noncommutative calculus and the Gauss-Manin connection_ ([arxiv/0902.2202](http://arxiv.org/abs/0902.2202))
 
-
+[[!redirects Gauss-Manin connections]]
