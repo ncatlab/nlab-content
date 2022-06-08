@@ -206,9 +206,16 @@ on page 58 :
 
 >_A local system on a space $X$ is a covariant functor from the fundamental groupoid of $X$ to some category._
 
-Textbook account and relation to [[twisted de Rham cohomology]]:
+Then the first major account and relation to [[twisted de Rham cohomology]]:
+
+* [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
+
+Textbook accounts:
 
 * {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section I 9.2.1 of: _[[Hodge theory and Complex algebraic geometry]] I_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
+
+* [[Alexandru Dimca]], Section 2.5 of: *Sheaves in Topology*, Universitext, Springer (2004) $[$[doi:10.1007/978-3-642-18868-8](https://doi.org/10.1007/978-3-642-18868-8)$]$
+
 
 A blog exposition of some aspects of linear local system is developed here:
 
@@ -227,7 +234,7 @@ A clear-sighted description of locally constant $(n-1)$-stacks / $n$-local syste
 
 * [[Pietro Polesello]], [[Ingo Waschkies]], Higher monodromy, Homology, Homotopy and Applications, Vol. 7(2005), No. 1, pp. 109-150;[arXiv:0407507](http://arxiv.org/abs/math/0407507)
 
-for [[locally constant stack]]s on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
+for [[locally constant stacks]] on [[topological space]]s. The above formulation is pretty much the evident generalization of this to general [[(∞,1)-topos]]es.
 
 Discussion of [[Galois representations]] as encoding local systems in [[arithmetic geometry]] includes
 
