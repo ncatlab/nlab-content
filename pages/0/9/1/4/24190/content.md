@@ -1,4 +1,5 @@
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,7 +13,7 @@ A **bi-infinite sequence** or **doubly infinite sequence** in a [[type]] $A$ is 
 * [[integers]]
 * [[sequence]]
 * [[doubly infinite series]]
-* [[prespectrum type]]
+* [[sequential spectrum type]]
 
 ## References
 
