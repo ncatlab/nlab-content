@@ -18,7 +18,7 @@ _Sphere types_ are the [[axiom|axiomatization]] of the [[homotopy type]] of the 
 
 ## Definition
 
-The $n$-sphere type is be defined as the [[suspension type]] of the $(n-1)$-sphere type or the iterated suspension of $S^0 := \mathbf{2}$. (a.k.a $\text{Bool}$).
+The $n$-sphere type is be defined as the [[suspension type]] of the $(n-1)$-sphere type or the iterated suspension of $S^0 := \mathbf{2}$. (a.k.a [[boolean|$\text{Bool}$]]).
 
 $$S^n := \Sigma^n S^0$$
 
@@ -30,6 +30,6 @@ $$S^n := \Sigma^n S^0$$
 
 ## References
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects sphere types]]
