@@ -42,6 +42,8 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $T \mathbf{H}$ its [[tangent (∞,1)-t
 
 ## Related concepts
 
+* [[sequential spectrum type]]
+
 * [[dependent linear type theory]]
 
 * [[equivariant homotopy type]]
