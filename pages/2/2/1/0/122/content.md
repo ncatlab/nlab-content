@@ -161,14 +161,6 @@ An advantage of this approach is that it applies to the case of topological cate
 
 An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of [[cube]]s, so leading to a [[closed monoidal category|monoidal closed structure]] for these objects. This yields by an [[equivalence of categories]] a monoidal closed structure on [[strict omega-category|strict globular omega-categories]], where the [[tensor product]] is the [[Crans-Gray tensor product]].
 
-### In homotopy type theory
-
-The following definition comes from the [[HoTT book]]. 
-
-In homotopy type theory, for [[functors]] $F,G: A \to B$, a **natural transformation** $\gamma : F \to G$ consists of 
-
-* For each $a : A$, a morphism $\gamma_a: hom_B(F a,G a)$ called the **components** of $\gamma$ at $a$.
-* For each $a,b:A$ and $f:hom_A(a,b)$, we have $G f \circ \gamma_a= \gamma_b \circ F f$ (the **naturality** axiom).
 
 ## Properties ##
 
