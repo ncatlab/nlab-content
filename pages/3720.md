@@ -25,6 +25,10 @@ On [[Deligne-Mumford stacks]] and the example of the [[moduli space of curves]]:
 
 * [[Pierre Deligne]], [[David Mumford]], _The irreducibility of the space of curves of a given genus_ Publ. Math. de l'IH&#201;S __36__ (1969) pp. 75&#8211;109, [numdam](http://www.numdam.org/item?id=PMIHES_1969__36__75_0).
 
+On [[differential equations]] with regular singular points (and developing [[local systems]], [[twisted cohomology]], [[twisted de Rham cohomology]], [[Gauss-Manin connections]]):
+
+* [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
+
 
 Introducing [[Deligne cohomology]] in [[complex analytic geometry]] (by a [[chain complex]] of [[holomorphic differential forms]]) with applications to [[Hodge theory]] and [[intermediate Jacobians]]:
 
