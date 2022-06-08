@@ -7,7 +7,7 @@ It seems that the vision of this program fits well with [[nPOV]]. See also [[D-g
 * [[Masaki Kashiwara]], Takahiro Kawai, Tatsuo Kimura, _Foundations of algebraic analysis_, Transl. from Japanese by Goro Kato. Princeton Mathematical Series __37__, 1986. xii+255 pp.
 [MR87m:58156](http://www.ams.org/mathscinet-getitem?mr=855641); [[J.-L. Brylinski]], Book Review: Foundations of algebraic analysis. Bull. Amer. Math. Soc. (N.S.) __18__ (1988), no. 1, 104&#8211;108, [doi](http://dx.doi.org/10.1090/S0273-0979-1988-15622-4)
 
-* Tadao Oda, _Introduction to algebraic analysis on complex manifolds_, Algebraic varieties and analytic varieties (Tokyo, 1981), 29&#8211;48, Adv. Stud. Pure Math., 1, North-Holland, Amsterdam, 1983, [MR85a:14010](http://www.ams.org/mathscinet-getitem?mr=715644)
+* [[Tadao Oda]], *Introduction to algebraic analysis on complex manifolds*, Algebraic varieties and analytic varieties (Tokyo, 1981), 29&#8211;48, Adv. Stud. Pure Math., 1, North-Holland, Amsterdam (1983) $[$[doi:10.2969/aspm/00110029](https://doi.org/10.2969/aspm/00110029), [MR85a:14010](http://www.ams.org/mathscinet-getitem?mr=715644)$]$
 
 A short but quite complete overview of algebraic analysis can be found in:
 
