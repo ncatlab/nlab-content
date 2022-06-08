@@ -18,8 +18,13 @@ The _suspension type_ is an [[axiom|axiomatization]] of the [[suspension object]
 
 ## Definition
 
-As a [[higher inductive type]], the suspension is given by
+As a [[higher inductive type]], the suspension $\Sigma A$ of a type $A$ is given by
 
+* A point $\mathrm{N} : \Sigma A$
+* A point $\mathrm{S} : \Sigma A$
+* A function $merid : A \to (\mathrm{N} =_{\Sigma A} \mathrm{S})$
+
+In [[Coq]] pseudocode it becomes
 
     Inductive Suspension (A : Type) : Type
       | north : Suspension A
@@ -53,5 +58,9 @@ This says that the type is [[dependent type|dependent]] on the type A and induct
   * [[suspension]], [[reduced suspension]]
 
 * [[homotopy pushout]]
+
+## References
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 [[!redirects suspension types]]
