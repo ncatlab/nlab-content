@@ -90,6 +90,10 @@ Other introductions include
 
 * [[Peter Johnstone]], *[[Elephant|Sketches of an elephant: a topos theory compendium]]*, 2002
 
+* [[Alexandru Dimca]], *Sheaves in Topology*, Universitext, Springer (2004) $[$[doi:10.1007/978-3-642-18868-8](https://doi.org/10.1007/978-3-642-18868-8)$]$
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332** Springer (2006)  $[$[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4),  [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)$]$
+
 
 
 Introducing even category theory from the scratch while still managing to cover some ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
