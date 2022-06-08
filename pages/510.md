@@ -70,11 +70,11 @@ There are many "models" for spectra, all of which present the same ([[stable hom
 ### Sequential pre-spectra
  {#SequentialPreSpectra}
 
-A simple first definition is to define a spectrum $\mathbf{E}$ to be a sequence of pointed spaces $(E_n)_{n\in\mathbb{N}}$ together with structure maps $\Sigma{}E_n\to{}E_{n+1}$ (where $\Sigma$ denotes the [[reduced suspension]]). See at _[[model structure on sequential spectra]]_.
+A simple first definition is to define a [[pre-spectrum]] $\mathbf{E}$ to be a sequence of pointed spaces $(E_n)_{n\in\mathbb{N}}$ together with structure maps $\Sigma{}E_n\to{}E_{n+1}$ (where $\Sigma$ denotes the [[reduced suspension]]). See at _[[model structure on sequential spectra]]_.
 
 There are various conditions that can be put on the spaces $E_n$ and the structure maps, for example if the spaces are CW-complexes and the structure maps are inclusions of subcomplexes, the spectrum is called a **[[CW-spectrum]]**.
 
-Without any condition, this is just called a **spectrum**, or sometimes a **pre-spectrum**. In order to distinguish from various other richer definitions (such as [[coordinate-free spectra]], one also speaks of _[[sequential spectra]]_).
+Without any condition, this is just called a **spectrum**, or sometimes a **[[pre-spectrum]]**. In order to distinguish from various other richer definitions (such as [[coordinate-free spectra]], one also speaks of _[[sequential spectra]]_).
 
 For details see _[[Introduction to Stable homotopy theory -- 1-1|Introduction to stable homotopy theory -- 1.1 Sequential Spectra]]_.
 
@@ -239,7 +239,4 @@ See also
 
 
 [[!redirects spectra]]
-[[!redirects prespectrum]]
-[[!redirects prespectra]]
-[[!redirects pre-spectrum]]
-[[!redirects pre-spectra]]
+
