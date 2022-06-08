@@ -30,3 +30,8 @@ Further discussion (all without attribution):
 
 * Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) $[$[doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0)$]$
 
+* [[Parsa Bonderson]], *Measuring Topological Order*, Phys. Rev. Research **3**, 033110 (2021) $[$[arXiv:2102.05677](https://arxiv.org/abs/2102.05677), [doi:10.1103/PhysRevResearch.3.033110](https://doi.org/10.1103/PhysRevResearch.3.033110)$]$
+
+
+* Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* $[$[arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
+
