@@ -30,7 +30,7 @@ In the [[philosophy of science]] and particularly the _[[philosophy of physics]]
 
 > _Since nature (reality) is exceptional in that it has existence, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]]._
 
-This may be contrasted with [[empiricism]].
+In that this perspective provides _a priori_ grounds for the way the universe is, it may be contrasted with [[empiricism]].
 
 ## Sources
 
