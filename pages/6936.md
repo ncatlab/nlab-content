@@ -182,12 +182,6 @@ A [[quotient inductive type]] is a higher inductive type that includes a "0-trun
 
 Since [[FinSet]] is the initial [[2-rig]], one should be able to construct it as a higher inductive type with a [[1-truncation]] constructor. 
 
-### Rezk completion
-
-According to [[Homotopy Type Theory -- Univalent Foundations of Mathematics]] the [[Rezk completion]] or [[stack completion]] of a [[pregroupoid]] to a [[groupoid]] is a higher inductive type and the [[1-truncated]] analogue of the quotient set construction above. 
-
-... (translate into Coq)
-
 ### Integers
 
 A definition of the set of [[integers]] as a higher inductive type. 
@@ -277,6 +271,22 @@ Thus, the second constructor `spectrify_glue` gives the structure maps $(L X)_n 
 Since the basepoints of the types $(L X)_n$ are induced from those of each $X_n$, this automatically implies that the maps $(L X)_n \to \Omega (L X)_{n+1}$ are pointed maps (up to a specified homotopy) and that the $\ell_n$ commute with these pointings (up to a specified homotopy).  This makes $\ell$ into a map of prespectra.
 
 Finally, the fourth through seventh constructors say that $L X$ is a spectrum, by giving [[h-isomorphism]] data: a retraction and a section for each glue map $(L X)_n \to \Omega (L X)_{n+1}$.  We could use adjoint equivalence data as we did for localization, but this approach avoids the presence of level-3 path constructors.  (We could have used h-iso data in localization too, thereby avoiding even level-2 constructors there.)  It is important, in general, to use a sort of equivalence data which forms an [[h-prop]]; otherwise we would be adding [[stuff, structure, property|structure]] rather than merely the property of such-and-such map being an equivalence.
+
+### Other
+
+* [[circle type]]
+
+* [[sphere type]]
+
+* [[cone type]]
+
+* [[square type]]
+
+* [[suspension type]]
+
+* [[James construction type]]
+
+* [[Rezk completion]]
 
 ## Semantics
 See ([Lumsdaine-Shulman17](#LumsdaineShulman17)).
