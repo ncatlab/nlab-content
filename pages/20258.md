@@ -35,7 +35,7 @@ By the classification of bundles on spheres via the [[clutching construction]], 
 The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \mathbb{Z}$ of the bundle is given by $n-m$. Milnor constructs, using [[cobordism theory]] and [[Hirzebruch's signature theorem]] for [[8-manifolds]], a [[modulo]]-7 [[diffeomorphism]] [[invariant]] of the manifold, so that it is the standard 7-sphere precisely when $\frac{p_1}{2}^2 -1 = 0 (mod\,7)$.
 
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
-For the [[7-sphere]], it is the [[cyclic group]] $\mathbb{Z}/{28}$ and Brieskorn (1966) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
+For the [[7-sphere]], it is the [[cyclic group]] $\mathbb{Z}/{28}$ and [Brieskorn (1966)](#Brieskorn66) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
 
 Review includes ([Kreck 10, chapter 19](#Kreck10), [McEnroe 
 15](#McEnroe15), [Joachim-Wraith](#JoachimWraith)). 
@@ -61,9 +61,12 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 ### General
 
+
+
 * {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399&#8211;405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
 
 
+* {#Brieskorn66} [[Egbert Brieskorn]], *Beispiele zur Differentialtopologie von Singularitäten*, Inventiones mathematicae **2** (1966) 1–14 $[$[doi:10.1007/BF01403388](https://doi.org/10.1007/BF01403388)$]$
 
 * {#Kreck10} [[Matthias Kreck]], chapter 19 of _Exotic 7-spheres_ of  _Differential Algebraic Topology -- From Stratifolds to Exotic Spheres_, AMS 2010
 
