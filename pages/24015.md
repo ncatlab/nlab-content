@@ -3,7 +3,6 @@
 ### Anyons in momentum-space
  {#ReferencesAnyonicBraidingInMomentumSpace}
 
-
 On non-trivial [[braid group statistics|braiding]] of modal points in the [[Brillouin torus]] of [[semi-metals]] ("braiding in momentum space"):
 
 * {#AhnParkYang19} Junyeong Ahn, Sungjoon Park, Bohm-Jung Yang, *Failure of Nielsen-Ninomiya theorem and fragile topology in two-dimensional systems with space-time inversion symmetry: application to twisted bilayer graphene at magic angle*, Phys. Rev. X **9** (2019) 021013 $[$[doi:10.1103/PhysRevX.9.021013](https://doi.org/10.1103/PhysRevX.9.021013), [arXiv:1808.05375](https://arxiv.org/abs/1808.05375)$]$
@@ -40,4 +39,7 @@ On non-trivial [[braid group statistics|braiding]] of modal points in the [[Bril
 * Haedong Park, Wenlong Gao, Xiao Zhang, Sang Soon Oh, *Nodal lines in momentum space: topological invariants and recent realizations in photonic and other systems*, Nanophotonics (2022) ([doi:10.1515/nanoph-2021-0692](https://doi.org/10.1515/nanoph-2021-0692))
 
 * [[Adrien Bouhon]], [[Robert-Jan Slager]], *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* $[$[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)$]$
+
+Incidentally, references indicating that the required toroidal (or yet higher genus) geometry for anyonic topological order in position space is dubious (as opposed to the evident toroidal geometry of the momentum-space [[Brillouin torus]]): [Lan 19, p. 1](Laughlin+state#Lan19), ....
+
 
