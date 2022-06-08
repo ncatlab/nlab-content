@@ -29,6 +29,8 @@ The Yoneda lemma is an elementary but deep and central result in [[category theo
 ## Statement and proof
   {#StatementOfYonedaLemma}
 
+### Classical
+
 +-- {: .num_defn #FunctorUnderlyingTheYonedaEmbedding}
 ###### Definition
 **([[functor]] underlying the [[Yoneda embedding]])
@@ -166,7 +168,7 @@ $$
 
 Discussion in [[homotopy type theory]].
 
-Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
+Note: the [[HoTT book]] calls a [[internal category in HoTT]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
 By Lemma 9.5.3 in the HoTT book (see [[product category]]), we have an induced functor $\mathbf{y} : A \to \mathit{Set}^{A^{op}}$ which we call the **yoneda embedding**.
 
