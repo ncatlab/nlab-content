@@ -1,3 +1,4 @@
+[[!redirects prespectrum type]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,7 +15,7 @@
 
 ## Definition ##
 
-In [[homotopy type theory]], a **prespectrum type** is a [[dependent type|dependent]] [[bi-infinite sequence]] of [[types]] $n:\mathbb{Z} \vdash E_n\;\mathrm{type}$ with a dependent [[bi-infinite sequence]] of [[types]] $n:\mathbb{Z} \vdash *_n:E_n$ and a dependent bi-infinite sequence of [[functions]] $n:\mathbb{Z} \vdash e_n:E_n \to \Omega E_{n+1}$ which preserves the point, where $\Omega A$ is the loop space type of $A$. 
+In [[homotopy type theory]], a **prespectrum** is a [[dependent type|dependent]] [[bi-infinite sequence]] of [[types]] $n:\mathbb{Z} \vdash E_n\;\mathrm{type}$ with a dependent [[bi-infinite sequence]] of [[types]] $n:\mathbb{Z} \vdash *_n:E_n$ and a dependent bi-infinite sequence of [[functions]] $n:\mathbb{Z} \vdash e_n:E_n \to \Omega E_{n+1}$ which preserves the point, where $\Omega A$ is the loop space type of $A$. 
 
 In [[Coq]] pseudocode, this becomes
 
@@ -27,7 +28,7 @@ In [[Coq]] pseudocode, this becomes
 ## See also ##
 
 * [[pointed type]]
-* [[spectrum type]]
+* [[spectrum]]
 * [[spectrification]]
 
 ## References ##
