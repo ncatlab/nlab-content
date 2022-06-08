@@ -1,13 +1,18 @@
 
-I am a bit getting tired of typing **Springer Online Encyclopaedia of Mathematics**, and do not want to dig out the link every time; and it is good to have an entry anyway. It is one of the [[Online Resources]] in mathematics. The *eom* acronym is the key part of the original URL, &lt;http://eom.springer.de>, now redirecting to &lt;http://www.encyclopediaofmath.org/index.php/Main_Page>.
+* [Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Main_Page) (eom)
 
-Thus the printed (Springer) Encyclopaedia of Mathematics is an enhanced English translation (10 vols) of the Soviet version in Russian (5 vols, finished in 1980s), which was a huge collective effort.  Most of the entries had originally a single author, who signed it as an article; most articles had a very useful bibliography. The English edition keeps being updated; the enhancements include additions of "editorial" additions to the original passages (paragraphs cleanly separated from the original entries), as well as many new articles. 
+is an online encyclopedia on *[[mathematics]]*.
+
+The printed (Springer) Encyclopaedia of Mathematics is an enhanced English translation (10 vols) of the Soviet version in Russian (5 vols, finished in 1980s), which was a huge collective effort.  Most of the entries had originally a single author, who signed it as an article; most articles had a very useful bibliography. The English edition keeps being updated; the enhancements include additions of "editorial" additions to the original passages (paragraphs cleanly separated from the original entries), as well as many new articles. 
 
 The editor of the new encyclopaedia is Prof. Michiel Hazewinkel. 
 
 The free **Online** version comprises just a fraction (large, with 8000 entries, but still a minority of the whole encyclopaedia) of the articles in Springer Encyclopaedia of Mathematics. 
 
-Question: it looks to me that all online entries which I looked at are from the original translation, not the added or extended articles. Is this true ?
+
+## Related entries 
+
+* [[Online Resources]]
 
 
 category: reference
