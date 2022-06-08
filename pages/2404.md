@@ -9,7 +9,7 @@ His students include
 * Vera Serganova
 * Ivan Penkov
 * [[M. Kapranov]]
-* Yu. Tschinkel
+* [[Yuri Tschinkel]]
 * ... 
 
 ## References
@@ -17,11 +17,16 @@ His students include
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Yuri_I._Manin)
 
 
-## Selected writing
+## Selected writings
 
 * _[[New Dimensions in Geometry]]_
 
 * _[[Gauge Field Theory and Complex Geometry]]_
+
+Introducing what came to be called the *[[Gauss-Manin connection]]*:
+
+* {#Manin58} [[Yuri Manin]], _Algebraic curves over fields with differentiation_, Izv. Akad. Nauk SSSR Ser. Mat. **22** 6 (1958) 737-756 $[$[mathnet:izv3998](http://mi.mathnet.ru/izv3998), [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=3998&volume=22&year=1958&issue=6&fpage=737&what=fullt&option_lang=eng)$]$ (in Russian)
+
 
 On [[homological algebra]] and [[homotopical algebra]] (via a [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
 
