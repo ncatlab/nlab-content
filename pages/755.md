@@ -52,6 +52,12 @@ Scanned copies of the original typescript are available [here](http://modular.fa
 
 There is now a set of [LaTeX files on GitHub](https://github.com/thescrivener/PursuingStacks) with corresponding [PDFs on GitHub Pages](https://thescrivener.github.io/PursuingStacks/). The original source tarball is still here, but an administrator should delete it: [[PursuingStacks.tar.gz:file]].
 
+
+##Publication of an edited version
+
+A first volume made up of the main part of the document has been published by the Société Mathématique de France. (The publication data is [here](https://smf.emath.fr/publications/la-poursuite-des-champs-volume-i) for the first volume.) This has been edited by [[Georges Maltsiniotis]].
+
+
 ## Content and influence on current research
 
 Grothendieck considered among other things, the notion of $n$-[[n-groupoid|groupoids]] and $\infty$-[[omega-groupoid|groupoids]], [[homotopy types]] and how to model them, [[homology]] and [[cohomology]] theories defined on categories of models and schematisation of homotopy types. This last is an attempt to define homotopy theory relative to a base ring, say, such that over $\mathbb{Z}$ ordinary homotopy theory is recovered.
