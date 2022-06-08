@@ -361,6 +361,8 @@ $$
 
 * [[sphere fiber bundle]]
 
+* [[sphere type]]
+
 * [[polar coordinates]]
 
 * [[Reeb sphere theorem]]
