@@ -195,7 +195,7 @@ $$
 
 such that (...). This is called the **Kasparov product**.
 
-=---
+=--
 
 A streamlined version of the definition of the Kasparov product is in ([Skandalis 84](#Skandalis84)). 
 
@@ -264,7 +264,7 @@ This is due to ([Higson 87, theorem 4.5](#Higson)). The generalization to the eq
 +-- {: .num_remark }
 ###### Remark
 
-The localization conditions here are analogous to those that define the localization of [[stable (∞,1)-categories]] to [[noncommutative motives]] (see there for more). 
+The localization conditions here are analogous to those that define the localization of [[stable (∞,1)-categories]] to [[noncommutative motives]] See there for more and see the references [below](#AsHomotopyOfStableInfinityCategoryReferences).
 
 =--
 
@@ -757,42 +757,42 @@ For more and a discussion of [[twisted Umkehr maps]] see at _[[Poincaré duality
 
 KK-theory was introduced by [[Gennady Kasparov]] in 
 
-* {#Kasparov80} [[Gennady Kasparov]], _The operator $K$-functor and extensions of $C^{\ast}$-algebras_, Izv. Akad. Nauk SSSR Ser. Mat. __44__  (1980), no. 3, 571&#8211;636, 719, [MR81m:58075](http://www.ams.org/mathscinet-getitem?mr=582160), [Zbl](http://www.zentralblatt-math.org/zmath/search/?an=Zbl%200464.46054%7CZbl%200448.46051), [abstract](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=1739&option_lang=eng), [english doi](http://dx.doi.org/10.1070%2FIM1981v016n03ABEH001320), free Russian original: [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=1739&volume=44&year=1980&issue=3&fpage=571&what=fullt&option_lang=eng)
+* {#Kasparov80} [[Gennady Kasparov]], *The operator $K$-functor and extensions of $C^{\ast}$-algebras*, Izv. Akad. Nauk SSSR Ser. Mat. __44__  (1980), no. 3, 571-636, 719, [MR81m:58075](http://www.ams.org/mathscinet-getitem?mr=582160), [Zbl](http://www.zentralblatt-math.org/zmath/search/?an=Zbl%200464.46054%7CZbl%200448.46051), [abstract](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=1739&option_lang=eng), [english doi](http://dx.doi.org/10.1070%2FIM1981v016n03ABEH001320), free Russian original: [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=1739&volume=44&year=1980&issue=3&fpage=571&what=fullt&option_lang=eng)
  
 
 prompted by the advances in [[Brown-Douglas-Fillmore theory]], especially in the last 1977 article.
 
 Some streamlining of the definitions appeared in
 
-* {#Skandalis84} [[Georges Skandalis]], _Some remarks on Kasparov theory_, J. Funct. Anal. 59 (1984) 337-347.
+* {#Skandalis84} [[Georges Skandalis]], *Some remarks on Kasparov theory*, J. Funct. Anal. 59 (1984) 337-347.
  
 
 A textbook account is in 
 
-* {#Blackadar99} [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, 2nd ed. Cambridge University Press, Cambridge (1999)
+* {#Blackadar99} [[Bruce Blackadar]], *[[K-Theory for Operator Algebras]]*, 2nd ed. Cambridge University Press, Cambridge (1999)
  
 
 Introductions and surveys include
 
-* [[Gennady Kasparov]], _Operator K-theory and its applications: elliptic operators, group representations, higher signatures $C^\ast$-extensions_, Proceedings ICM 1983 Warszawa, PWN-Elsevier (1984) 987-1000.
+* [[Gennady Kasparov]], *Operator K-theory and its applications: elliptic operators, group representations, higher signatures $C^\ast$-extensions*, Proceedings ICM 1983 Warszawa, PWN-Elsevier (1984) 987-1000.
 
 * [[Nigel Higson]], _A primer on KK-theory_. Proc. Sympos. Pure Math. 51, Part 1, 239&#8211;283. (1990) ([pdf](http://www.math.psu.edu/higson/math/Papers_files/Higson%20-%201990%20-%20A%20primer%20on%20KK-theory.pdf))
 
 * [[Georges Skandalis]], _Kasparov's bivariant K-theory and applications_ Exposition. Math. 9, 193&#8211;250 (1991) ([pdf slides](http://www.math.vanderbilt.edu/~bisch/ncgoa08/talks/skandalis2.pdf))
 
-* {#Introduction} _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
+* {#Introduction} *Introduction to KK-theory and E-theory*, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
  
 
-* [[Heath Emerson]], [[R. Meyer]] (notes taken by S. Hong), _KK-theory and Baum-Connes conjecture_, Lectures at _Summer school on operator algebras and noncommutative geometry_ (June 2010) ([pdf](http://www.pims.math.ca/files/EM_%20KK-theory_BC_Conjecture.pdf))
+* [[Heath Emerson]], [[R. Meyer]] (notes taken by S. Hong), *KK-theory and Baum-Connes conjecture*, Lectures at _Summer school on operator algebras and noncommutative geometry_ (June 2010) ([pdf](http://www.pims.math.ca/files/EM_%20KK-theory_BC_Conjecture.pdf))
 
-* {#Meyer06} [[R. Meyer]], _How analysis and topology interact in bivariant K-theory_, 2006 ([pdf](http://mate.dm.uba.ar/~gcorti/article.pdf))
+* {#Meyer06} [[R. Meyer]], *How analysis and topology interact in bivariant K-theory*, 2006 ([pdf](http://mate.dm.uba.ar/~gcorti/article.pdf))
  
 
 ### Excision
 
 Excision for KK-theory is further studied in 
 
-* {#CuntzSkandalis86} [[Joachim Cuntz]], [[Georges Skandalis]], _Mapping cones and exact sequences in KK-theory_, J. Operator Theory 15 (1986) 163-180.
+* {#CuntzSkandalis86} [[Joachim Cuntz]], [[Georges Skandalis]], *Mapping cones and exact sequences in KK-theory*, J. Operator Theory 15 (1986) 163-180.
  
 
 * {#Skandalis88} [[Georges Skandalis]], _Une notion de nuclearit&#233; en K-theorie_, K-Theory 1 (1988) 549-574.
@@ -805,7 +805,7 @@ KK-theory is naturally understood in terms of [[universal properties]] in [[cate
 
 That $KK(A,B)$ is naturally thought of as a collection of "generalized [[homomorphisms]]" of $C^\ast$-algebras was amplified in 
 
-* [[Joachim Cuntz]], _Generalized Homomorphisms Between $C^\ast$-algebras and KK-theory,_ Springer Lecture Notes in Mathematics, 1031 (1983), 31-45. doi:[10.1007/BFb0072109](https://doi.org/10.1007/BFb0072109)
+* [[Joachim Cuntz]], *Generalized Homomorphisms Between $C^\ast$-algebras and KK-theory*, Springer Lecture Notes in Mathematics, 1031 (1983), 31-45. doi:[10.1007/BFb0072109](https://doi.org/10.1007/BFb0072109)
 
 * [[Joachim Cuntz]], _K-theory and C*-algebras,_ Springer Lecture Notes in Mathematics, 1046 (1984), 55-79.
 
@@ -862,6 +862,9 @@ Refinement of [[operator K-theory]] to cohomology [[spectra]] is discussed in
  
 This construction is functorial (only) for _essential_ $\ast$-homomorphisms of [[C*-algebras]].
 
+### As the homotopy category of a stable $\infty$-category
+ {#AsHomotopyOfStableInfinityCategoryReferences}
+
 A refinement of the KK-category to a [[spectrum]]-[[enriched category]] ($\sim$ [[stable (∞,1)-category]]) is claimed in 
 
 * {#JoachimStolz09} [[Michael Joachim]], [[Stephan Stolz]], _An enrichment of $KK$-theory over the category of symmetric spectra_ M&#252;nster J. of Math. 2 (2009), 143&#8211;182 ([pdf](http://www3.nd.edu/~stolz/KKenrich.pdf))
@@ -879,10 +882,13 @@ but this construction is stated to be mistaken on p. 3 of
 
 This article in turn considers a variant of the construction in ([Bunke-Joachim-Stolz 03](#BunkeJoachimStolz03)) which gives operator K-theory spectra that are functorial for general $\ast$-homomorphisms.
 
-
 Observations relating to a genuine [[stable (∞,1)-category]] structure maybe at least of [[E-theory]] are in 
 
 * {#Mahanta12} [[Snigdhayan Mahanta]], _Noncommutative stable homotopy and semigroup $C^*$-algebras_,  ESI preprint 2394 ([arXiv:1211.6576](http://arxiv.org/abs/1211.6576))
+
+A complete realization of ([[equivariant K-theory|equivariant]], even) KK-theory as the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category|stable $(\infty,1)$-category]]:
+
+* {#BunkeEngelLand21} [[Ulrich Bunke]], [[Alexander Engel]], [[Markus Land]], *A stable $\infty$-category for equivariant KK-theory* $[$[arXiv:2102.13372](https://arxiv.org/abs/2102.13372)$]$
  
 
 
@@ -940,21 +946,22 @@ Discussion of groupoid 1-[[cocycles]] and their effect on the [[groupoid algebra
 
 KK-classes between [[algebras of functions]] on [[smooth manifolds]] are described in terms of [[equivalence classes]] of [[correspondence]] manifolds carrying a [[vector bundle]] in section 3 of
 
-* {#ConnesSkandalis84} [[Alain Connes]], [[Georges Skandalis]], _The longitudinal index theorem for foliations_. Publ. Res. Inst. Math. Sci. 20,
-no. 6, 1139&#8211;1183 (1984) ([pdf](http://www.alainconnes.org/docs/longitudinal.pdf))
+* {#ConnesSkandalis84} [[Alain Connes]], [[Georges Skandalis]], *The longitudinal index theorem for foliations*, Publ. Res. Inst. Math. Sci. **20** 6, 1139-1183 (1984) ([pdf](http://www.alainconnes.org/docs/longitudinal.pdf))
  
 
 This generalizes the [[Baum-Douglas geometric cycles]] from [[K-homology]] to KK-theory.
 
-A further generalization of this, where one algebra $C(Y)$ is generalized to $C(Y) \otimes A$ for $A$ a unital separable $C^\ast$-algebra, is in section 3 of
+A further generalization of this, where one algebra $C(Y)$ is generalized to 
+$C(Y) \otimes A$ for $A$ a unital separable $C^\ast$-algebra, is in section 3 of:
 
-* {#BlockWeinberger99} [[Jonathan Block]], [[Shmuel Weinberger]], _Arithmetic manifolds of positive scalar curvature._, J. Diff. Geom. 52, no. 2, 375&#8211;406 (1999). ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.297))
+
+* {#BlockWeinberger99} [[Jonathan Block]], [[Shmuel Weinberger]], *Arithmetic manifolds of positive scalar curvature*, J. Diff. Geom. 52, no. 2, 375-406 (1999). ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.297))
  
 
 In section 5 of
 
-* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
- {#BrodzkiMathaiRosenbergSzabo07}
+* {#BrodzkiMathaiRosenbergSzabo07} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys.13:497-552,2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
+ 
 
 this is reviewed and then a characterization in terms of [[co-spans]] of [[C*-algebras]] is given. This version is effectively a restatement of [the characterization by Cuntz](#RelationToHomotopyClassesOfStarHomomorphisms) as reproduced in ([Blackadar 99, corollary 17.8.4](#Blackadar99)).
 
@@ -983,12 +990,12 @@ based on technical aspects of the construction of pushforward along and comoposi
 
 * [[Paul Baum]], [[Jonathan Block]], _Equivariant bicycles on singular spaces_. C.R. Acad. Sci. Paris, t. 311 Serie I, 1990 ([pdf](http://www.math.upenn.edu/~blockj/papers/BlockEquivariantbi.pdf))
 
-* [[Heath Emerson]], [[Ralf Meyer]], _Equivariant embedding theorems and topological index maps_, Adv. Math. 225 (2010), 2840-2882 ([arXiv:0908.1465](http://arxiv.org/abs/0908.1465))
+* [[Heath Emerson]], [[Ralf Meyer]], *Equivariant embedding theorems and topological index maps*, Adv. Math. 225 (2010), 2840-2882 ([arXiv:0908.1465](http://arxiv.org/abs/0908.1465))
 
 
 Further developments of this are in 
 
-* [[Heath Emerson]], _Duality, correspondences and the Lefschetz map in equivariant KK-theory: a survey_ ([arXiv:0904.4744](http://arxiv.org/abs/0904.4744))
+* [[Heath Emerson]], *Duality, correspondences and the Lefschetz map in equivariant KK-theory: a survey* ([arXiv:0904.4744](http://arxiv.org/abs/0904.4744))
 
 * [[Heath Emerson]], Robert Yuncken, _Equivariant correspondences and the Borel-Bott-Weil theorem_ ([arXiv:0905.1153](http://arxiv.org/abs/0905.1153))
 
@@ -998,21 +1005,21 @@ Further developments of this are in
 
 The general analogy between KK-cocycles and [[motives]] is noted explicitly in 
 
-* {#ConnesConsaniMarcolli05} [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
+* {#ConnesConsaniMarcolli05} [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], *Noncommutative geometry and motives: the thermodynamics of endomotives* ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
  
 
-* [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+* [[Alain Connes]], [[Matilde Marcolli]], *[[Noncommutative Geometry, Quantum Fields and Motives]]*
 
 and also very briefly in ([Meyer 06](#Meyer06)).  
 
 A relation between [[motivic cohomology]] and bivariant [[algebraic K-theory]] is discussed in 
 
-* [[Guillermo Cortiñas]], [[Andreas Thom]], _Bivariant algebraic K-theory_. J. Reine Angew. Math. 510 (2007), 71&#8211;124. ([arXiv:math/0603531](http://arxiv.org/abs/math/0603531))
+* [[Guillermo Cortiñas]], [[Andreas Thom]], *Bivariant algebraic K-theory*, J. Reine Angew. Math. 510 (2007), 71&#8211;124. ([arXiv:math/0603531](http://arxiv.org/abs/math/0603531))
 
-* {#Mahanta09} [[Snigdahayan Mahanta]], _Noncommutative correspondence categories, simplicial sets and pro $C^\ast$-algebras_ ([arXiv:0906.5400](http://arxiv.org/abs/0906.5400))
+* {#Mahanta09} [[Snigdahayan Mahanta]], *Noncommutative correspondence categories, simplicial sets and pro $C^\ast$-algebras* ([arXiv:0906.5400](http://arxiv.org/abs/0906.5400))
  
 
-* {#Mahanta11} [[Snigdahayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_, Journal of Geometry and Physics, Volume 61, Issue 5 2011, p. 875-889.   ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
+* {#Mahanta11} [[Snigdahayan Mahanta]], *Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality*, Journal of Geometry and Physics, Volume 61, Issue 5 2011, p. 875-889.   ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
  
 
 * {#GarkushaPanin11} [[Grigory Garkusha]], Ivan Panin, _K-motives of algebraic varieties_ ([arXiv:1108.0375](http://arxiv.org/abs/1108.0375))
