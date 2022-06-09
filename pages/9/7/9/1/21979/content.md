@@ -76,6 +76,8 @@ Moreover, the relation $2 \cdot [S^1_{Lie}] \,\simeq\, 0$ is represented by the 
 
 * [[third stable homotopy group of spheres]]
 
+* [[homotopy groups of spheres in HoTT]]
+
 ## References
 
 The original computation via [[Pontryagin's theorem]] in [[cobordism theory]]:
