@@ -196,7 +196,9 @@ $$
 
 ## Related concepts
 
-* **loop space object**, [[free loop space object]],
+* **loop space object**, [[free loop space object]]
+
+  [[loop space type]]
 
   * [[delooping]], [[looping and delooping]]
 
