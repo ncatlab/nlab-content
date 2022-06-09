@@ -227,55 +227,8 @@ Textbook accounts:
 
 * {#Rijke19} [[Egbert Rijke]], _[[Introduction to Homotopy Type Theory]]_ (2019)  ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
 
-### Formalized homotopy theory in homotopy type theory
-#### Homotopy groups of spheres
+For more see also at *[homotopy theory formalized in homotopy type theory](homotopy+type+theory#HomotopyTheoryInHomotopyTyepTheoryReferences)*.
 
-* [[formalization of the homotopy groups of spheres in homotopy type theory]]
-
-#### Whitehead's theorem
-
-* Dan's proof for [n-types](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Whitehead.agda).
-
-#### K(G,n)
-[[Eilenberg-MacLane space]]
-* Dan's [construction](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda).
-* $K(G,n)$ is a spectrum, [formalized](https://github.com/HoTT/HoTT-Agda/blob/master/homotopy/EilenbergMacLane.agda)
-
-#### Cohomology
-[[cohomology]]
-* [Deriving cohomology theories from spectra](https://github.com/HoTT/HoTT-Agda/blob/master/cohomology/SpectrumModel.agda)
-* [Mayer-Vietoris sequence](https://github.com/HoTT/HoTT-Agda/blob/master/cohomology/MayerVietoris.agda), with [exposition](http://www.contrib.andrew.cmu.edu/~ecavallo/works/mayer-vietoris.pdf)
-* [Cohomology of the n-torus](https://github.com/HoTT/HoTT-Agda/blob/master/cohomology/Torus.agda), which could be easily extended to any finite product of spheres.
-
-To do:
-* cohomology with finite coefficients, all we need is the boring work of defining $\mathbb{Z}/p\mathbb{Z}$ as an explicit group.
-* Calculate some more cohomology groups.
-* Compute the loop space of [this construction](https://github.com/HoTT/HoTT-Agda/blob/master/homotopy/SpaceFromGroups.agda) and use it to define spectra.
-
-
-#### Freudenthal Suspension Theorem
-[[Freudenthal suspension theorem]]
-Implies $\pi_k(S^n) = \pi_{k+1}(S^{n+1})$ whenever $k \leq 2n - 2$
-
-* Peter's encode/decode-style proof, [formalized](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Freudenthal.agda) by Dan, using a clever lemma about maps out of 2 n-connected types. This is the "95%" version, which shows that the relevant map is an equivalence on truncations.
-* The full "100%" version, [formalized](https://github.com/dlicata335/hott-agda/blob/master/homotopy/FreudenthalConnected.agda) by Dan, which shows that the relevant map is $2n$-connected.
-
-#### Homotopy limits
-
-* Jeremy Avigad, Chris Kapulkin and Peter Lumsdaine [arXiv](http://arxiv.org/abs/1304.0680) [Coq code](https://github.com/peterlefanulumsdaine/hott-limits/)
-
-#### Van Kampen
-[[van Kampen theorem]]
-* Mike's proofs are in the book and [Favonia formalized it](http://hott.github.com/HoTT-Agda/Homotopy.VanKampen.html). {{deadlink}}
-
-#### Covering spaces
-[[Covering space]]
-* Favonia's proofs (link in flux due to library rewrite).
-
-#### Blakers-Massey
-[[Blakers-Massey theorem]]
-
-* Favonia/Peter/Guillaume/Dan's formalization of Peter/Eric/Dan's proof (link in flux due to library rewrite).
 
 ### Outlook
  {#ReferencesOutlook}
@@ -291,5 +244,6 @@ Indications of open questions and possible future directions in [[algebraic topo
 More regarding the sociology of the field (such as its [[folklore]] results):
 
 * {#Barwick17} [[Clark Barwick]], _The future of homotopy theory_, 2017 ([pdf](http://www.maths.ed.ac.uk/~cbarwick/papers/future.pdf), [[BarwickFutureOfHomotopyTheory.pdf:file]])
+
 
 
