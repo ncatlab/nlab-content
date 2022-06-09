@@ -220,11 +220,8 @@ Consider the traditional mathematical setup for (homotopy) spaces
 we start with [[first-order logic]], introduce [[Zermelo-Fraenkel axioms]],
 then define [[simplicial sets]] and [[simplicial weak equivalences]].
 
-[[Homotopy type theory]] replaces this entire stack with a flavor of [[type theory]] that aims to axiomatize
-homotopy types (known in the field simply as types)
-directly, without these intermediate steps.
-In particular, [[first-order logic]] is subsumed
-into [[type theory]].
+[[Homotopy type theory]] replaces this entire stack with a flavor of [[type theory]] that aims to axiomatize homotopy types (known in the field simply as types) directly, without these intermediate steps.
+In particular, [[first-order logic]] is subsumed into [[type theory]].
 The latter (very) roughly resembles [[ETCS]]
 in how it chooses to formulate things like existence
 of (co)products of sets etc., i.e., these concepts
@@ -451,7 +448,7 @@ of [[triangulated categories]] that does not suffer from their defects.
 The most developed [models](#models) for [[stable (∞,1)-categories]]
 are [[stable model categories]]
 and stable [[quasicategories]].
-The former are treated by [[Hovey]] in Chapter 7 of his book [[Model categories]]
+The former are treated by [[Hovey]] in Chapter 7 of his book [[Model Categories]]
 and the latter are treated in Chapter 1 of [[Lurie]]'s [[Higher Algebra]].
 
 ## What is a derived category?  What are its limitations?
