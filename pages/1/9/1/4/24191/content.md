@@ -42,8 +42,3 @@ See the references at *[[spectrum]]*.
 [[!redirects prespectrum]]
 [[!redirects prespectra]]
 
-[[!redirects prespectrum type]]
-[[!redirects prespectrum types]]
-[[!redirects pre-spectrum type]]
-[[!redirects pre-spectrum types]]
-
