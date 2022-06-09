@@ -66,6 +66,8 @@ Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAn
 
 ## Related concepts
 
+* [[wedge sum type]]
+
 * [[loop space of a wedge of circles]]
 
 ## References
