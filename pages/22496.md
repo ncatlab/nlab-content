@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $G$ a [[group]], there is a [[groupoid]] $(G \rightrightarrows \ast)$ with
+For $G$ a [[group]], there is a [[pointed connected groupoid|pointed connected]] [[groupoid]] $(G \rightrightarrows \ast)$ with
 
 * a single [[object]],
 
@@ -34,6 +34,8 @@ This may be understood as the "[[delooping]]" of $G$ in the ambient [[(infinity,
 * [[pair groupoid]]
 
 * [[looping and delooping]]
+
+* [[pointed connected groupoid]]
 
 ## References
 
