@@ -28,7 +28,7 @@ In classical [[algebraic topology]], there is a **[[spectrification]]** functor 
 
 ## Definition
 
-The following HIT should construct spectrification in [[homotopy type theory]] (though this has not yet been verified formally). (There are some abuses of notation below, which can be made precise using Coq typeclasses and implicit arguments.)
+The following [[higher inductive type]] should construct spectrification in [[homotopy type theory]] (though this has not yet been verified formally). (There are some abuses of notation below, which can be made precise using Coq typeclasses and implicit arguments.)
 
     Inductive spectrify (X : prespectrum) : nat -> Type :=
     | to_spectrify : forall n, X n -> spectrify X n
