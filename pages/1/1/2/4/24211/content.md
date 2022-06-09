@@ -5,7 +5,7 @@
 
 
 ## Idea
-The [[homotopy groups of spheres]] are a fundamental concept in [[algebraic topology]]. They tell you about [[homotopy classes]] of maps from [[spheres]] to other spheres which can be rephrased as the collection of different ways to attach a sphere to another sphere. The [[homotopy type]] of a [[CW complex]] is completely determined by the homotopy types of the attaching maps.
+The [[homotopy groups of spheres]] are a fundamental concept in [[algebraic topology]] and [[homotopy theory]]. They tell you about [[homotopy classes]] of maps from [[spheres]] to other spheres which can be rephrased as the collection of different ways to attach a sphere to another sphere. The [[homotopy type]] of a [[CW complex]] is completely determined by the homotopy types of the attaching maps.
 
 Here's a quick reference for the state of the art on [[homotopy groups]] of spheres in HoTT. 
 
