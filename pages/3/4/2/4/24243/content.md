@@ -4,6 +4,8 @@ He got his PhD degree around 1915 at Saint Petersburg University, supervised by 
 
 He was the editor-in-chief of the [[Encyclopaedia of Mathematics]].
 
+category: people
+
 [[!redirects И. М. Виноградов]]
 [[!redirects Иван Матвеевич Виноградов]]
 [[!redirects Иван Виноградов]]
