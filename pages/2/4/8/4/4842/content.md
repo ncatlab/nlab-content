@@ -327,14 +327,16 @@ Relation to the [[Euler characteristic]] of the [[ordinary homology]] of [[loop 
 
 based on 
 
-* {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, 
-In: Yoshiaki Maeda, Hideki Omori and [[Alan Weinstein]] (eds.), _Symplectic Geometry and Quantization_, Contemporary Mathematics 179 (1994): 123-123 ([doi:10.1090/conm/179](http://dx.doi.org/10.1090/conm/179))
+* {#Kohno94} [[Toshitake Kohno]], _Vassiliev invariants and de Rham complex on the space of knots_, In: Yoshiaki Maeda, Hideki Omori and [[Alan Weinstein]] (eds.), _Symplectic Geometry and Quantization_, Contemporary Mathematics 179 (1994): 123-123 ([doi:10.1090/conm/179](http://dx.doi.org/10.1090/conm/179))
 
 * {#Cohen76} [[Fred Cohen]], _The homology of $\mathcal{C}_{n+1}$-Spaces, $n \geq 0$. In: The Homology of Iterated Loop Spaces. Lecture Notes in Mathematics, vol 533. Springer, Berlin, Heidelberg  1976 ([doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467))
 
 See also
 
 * {#Kohno02} [[Toshitake Kohno]], _Loop spaces of configuration spaces and finite type invariants_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arXiv:math/0211056](https://arxiv.org/abs/math/0211056))
+
+* [[Toshitake Kohno]], Section 3.1 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
+
 
 
 ### As Chern-Simons amplitudes
