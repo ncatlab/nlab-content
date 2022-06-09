@@ -96,14 +96,15 @@ The following is a list of results for which at least one [[proof]] has been for
 
 ### Calculuation of $\pi_4(S^3)$ {#pi4s3}
 
-* [[Guillaume Brunerie]] has proved that there exists an $n$ such that $\pi_4(S^3)$ is $\mathbb{Z}_n$.  Given a computational interpretation, we could run this proof and check that $n$ is 2. Added June 2016: Brunerie now has a proof that $n=2$, using cohomology calculations and a Gysin sequence argument.
+* [Brunerie 2016](#Brunerie16) has proved that there exists an $n$ such that $\pi_4(S^3)$ is $\mathbb{Z}_n$.  Given a computational interpretation, we could run this proof and check that $n$ is 2. Added June 2016: Brunerie now has a proof that $n=2$, using cohomology calculations and a Gysin sequence argument.
 
 See also at *[[first stable homotopy group of spheres]]*.
 
 ### Calculuation of $\pi_3(S^2)$ {#pi3s2}
 
 * [[Peter LeFanu Lumsdaine]] has constructed the Hopf fibration as a dependent type. Lots of people around know the construction, but I don't know anywhere it's written up. Here's some [Agda code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Hopf.agda) with it in it.
-* [[Guillaume Brunerie]]'s proof that the total space of the Hopf fibration is $S^3$, together with $\pi_n(S^n)$, imply this by a long-exact-sequence argument.
+
+* [Brunerie 2016](#Brunerie16), proof that the total space of the Hopf fibration is $S^3$, together with $\pi_n(S^n)$, imply this by a long-exact-sequence argument.
 * This was [formalized in Lean](https://github.com/leanprover/lean2/blob/master/hott/homotopy/sphere2.hlean) in 2016.
 
 ### $\pi_n(S^2)=\pi_n(S^3)$ for $n\geq 3$  {#hopff}
@@ -129,14 +130,14 @@ See also at **[[Hopf degree theorem]]**.
 
 ### Calculuation of $\pi_k(S^n)$ for $k \lt n$ {#piksn}
 
-* [[Guillaume Brunerie]]'s proof (see the book).
+* [Brunerie 2016](#Brunerie16) (see the [[HoTT book]]).
 * [[Dan Licata]]'s encode/decode-style proof [for pi_1(S^2) only](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Pi1S2.agda).
 * [[Dan Licata]]'s encode/decode-style proof [for all k < n](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiKSNLess.agda) (for single-loop presentation).
 * [[Dan Licata]]'s [proof from Freudenthal suspension theorem](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiSnSusp.agda) (for suspension definition).
 
 ### Calculuation of $\pi_2(S^2)$ {#pi2s2}
 
-* [[Guillaume Brunerie]]'s proof using the total space the Hopf fibration.
+* [Brunerie 2016](#Brunerie16), using the total space the Hopf fibration.
 * [[Dan Licata]]'s encode/decode-style [proof](https://github.com/dlicata335/hott-agda/tree/master/homotopy/pi2s2).
 
 ### Calculuation of $\pi_1(S^1)$ {#pi1s1}
@@ -147,6 +148,12 @@ See also at **[[Hopf degree theorem]]**.
 * [[Guillaume Brunerie]]'s proof using the flattening lemma.
 
 See also at *[[circle type]]* for more.
+
+
+## References
+
+* {#Brunerie16} [[Guillaume Brunerie]], *[[On the homotopy groups of spheres in homotopy type theory]]* $[$[arxiv:1606.05916](https://arxiv.org/abs/1606.05916)$]$
+
 
 
 [[!redirects formalization of the homotopy groups of spheres in homotopy type theory]]
