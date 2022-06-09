@@ -411,6 +411,8 @@ Moreover,
 
 ## Related concepts
 
+* [[formalization of the homotopy groups of spheres in homotopy type theory]]
+
 * [[EHP spectral sequence]]
 
 * [[Adams–Novikov spectral sequence]]
