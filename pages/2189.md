@@ -112,4 +112,10 @@ together with the basic notion of [[Bishop set]]/[[setoid]]. Implementations of 
 
 * Robbert Krebbers, [[Bas Spitters]], _Type classes for efficient exact real arithmetic in Coq_ ([arXiv:1106.3448](http://arxiv.org/abs/1106.3448/))
 
+On analysis in [[univalent foundations]] ([[homotopy type theory]]):
+
+* [[Auke B. Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
+
+
+
 [[!redirects mathematical analysis]]
