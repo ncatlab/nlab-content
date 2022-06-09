@@ -1,16 +1,22 @@
-## Idea ##
-Cohomology [[groups]] are algebraic invariants of [[types]]. Often, they are much easier to compute than [[homotopy groups]]. There are many theorems in classical algebraic topology relating them other invariants such as the universal coefficient /theorem and the Hurewicz theorem.
 
-_Ordinary_ cohomology denotes cohomology groups with coefficients in $\mathbb{Z}$ this is usually difficult to compute for most spaces, so they are usually broken up into groups for each prime $p$ with coefficients in $\mathbb{Z}_p$. These can be glued back together via the universal coefficient theorem.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea ##
+
+[[cohomology|Cohomology]]$\;$ [[groups]] are algebraic invariants of [[types]]. Often, they are much easier to compute than [[homotopy groups]]. There are many theorems in classical algebraic topology relating them other invariants such as the universal coefficient /theorem and the Hurewicz theorem.
+
+_[[ordinary cohomology|Ordinary]]_ cohomology denotes cohomology groups with coefficients in $\mathbb{Z}$ this is usually difficult to compute for most spaces, so they are usually broken up into groups for each prime $p$ with coefficients in $\mathbb{Z}_p$. These can be glued back together via the [[universal coefficient theorem]].
 
 ## Definition ##
-There are many different flavours of cohomology, but it's usually best to start simple and add features according to its use.
+There are many different flavours of [[cohomology]], but it's usually best to start simple and add features according to its use.
 
-Let $K(G,n)$ be the [[Eilenberg-MacLane space]] of an [[abelian group]] $G$ for some $n : \mathbb{N}$. The (reduced) **_ordinary_ cohomology group** (of degree $n$ with coefficients in $G$) of a [[pointed]] space $X$ is the following [[set]]:
+Let $K(G,n)$ be the [[Eilenberg-MacLane space]] of an [[abelian group]] $G$ for some $n : \mathbb{N}$. The (reduced) **_[[ordinary cohomology|ordinary]]_ cohomology group** (of degree $n$ with coefficients in $G$) of a [[pointed]] space $X$ is the following [[set]]:
 
 $$ \bar{H}^n(X ; G) \equiv \| X \to^* K(G,n) \|_0 $$
 
-Note that there is a [[H-space]] structure on $K(G,n)$ naturally, so for any $|f|,|g| : H^n(X;G)$ we can construct an element $|\lambda x . \mu(f(x),g(x))| : H^n(X; G)$, hence we have a [[group]].
+Note that there is an [[H-space]] structure on $K(G,n)$ naturally, so for any $|f|,|g| : H^n(X;G)$ we can construct an element $|\lambda x . \mu(f(x),g(x))| : H^n(X; G)$, hence we have a [[group]].
 
 Note for any type $X$ we can make this the **_unreduced_ cohomology** (and call it $H$ instead of $\bar{H}$) by simply adding a disjoint basepoint to $X$ giving us $X_+ \equiv X + 1$ making it pointed.
 
