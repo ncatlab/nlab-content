@@ -18,6 +18,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+On [[localization]] in [[homotopy type theory]].
+
 ## Definition
 
 Consider a [[family]] $F:\prod_{(i:I)} S(i) \to T(i)$ of functions. We say that a [[type]] $X$ is **$F$-local** if the function
