@@ -1,5 +1,7 @@
 
-* [webpage](http://www.itp.phys.ethz.ch/people/gaberdim/index)
+* [Institute page](https://itp.phys.ethz.ch/people/person-detail.MTEyNjI4.TGlzdC84NDYsLTE5MDQ4MDM5ODI=.html)
+
+* [GoogleScholar](https://scholar.google.com/citations?user=j7lpopIAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -10,6 +12,11 @@ On [[anyons]]:
 On [[duality between type I and heterotic string theory]]:
 
 * [[Oren Bergman]], [[Matthias Gaberdiel]], G. Lifschytz, _String Creation and Heterotic-Type I' Duality_, Nucl. Phys. B524 (1998) 524-544 ([arXiv:hep-th/9711098](https://arxiv.org/abs/hep-th/9711098))
+
+On [[fractional-level WZW models]] and [[logarithmic CFTs]]:
+
+* [[Matthias R. Gaberdiel]], *Fusion rules and logarithmic representations of a WZW model at fractional level*, Nucl. Phys. B **618** (2001) 407-436 $[$[arXiv:hep-th/0105046](https://arxiv.org/abs/hep-th/0105046), <a href="https://doi.org/10.1016/S0550-3213(01)00490-4">doi:10.1016/S0550-3213(01)00490-4</a>)$]$
+
 
 On [[super-orbifolds]] as [[target spaces]] in [[superstring theory]] (orbi-[[superspace]]):
 
@@ -39,3 +46,4 @@ On [[AdS/CFT]] for $AdS_3/CFT_2$:
 
 category: people
 
+[[!redirects Matthias R. Gaberdiel]]
