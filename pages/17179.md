@@ -226,7 +226,7 @@ $$
 
 For [[symmetric spectra]], see ([Schwede 12, prop. 4.39](#Schwede12)).
 
-### See also
+## See also
 
 * [[spectrification of a sequential spectrum type]]
 
