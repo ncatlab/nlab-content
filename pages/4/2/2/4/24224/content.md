@@ -25,17 +25,18 @@ See also [Philosophy](#Philosophy), below.
 
 ##Synthetic homotopy theory##
 
-* _[[Calculating the fundamental group of the circle in homotopy type theory]]_. [[Dan Licata]] and [[Michael Shulman]], LICS 2013, available [here](http://www.cs.cmu.edu/~drl/pubs.html) and on [arXiv](http://arxiv.org/abs/1301.3443)
-* _[[$\pi_n(S^n)$ in Homotopy Type Theory]]_, [[Dan Licata]] and [[Guillaume Brunerie]], Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf)
-* _[[Homotopy limits in type theory]]_. [[Jeremy Avigad]], [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1040?1070. [arXiv](http://arxiv.org/abs/1304.0680)
+* _Calculating the fundamental group of the circle in homotopy type theory_. [[Dan Licata]] and [[Michael Shulman]], LICS 2013, available [here](http://www.cs.cmu.edu/~drl/pubs.html) and on [arXiv](http://arxiv.org/abs/1301.3443)
+* _$\pi_n(S^n)$ in Homotopy Type Theory_, [[Dan Licata]] and [[Guillaume Brunerie]], Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf)
+* _Homotopy limits in type theory_. [[Jeremy Avigad]], [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1040?1070. [arXiv](http://arxiv.org/abs/1304.0680)
 * _[[Eilenberg-MacLane Spaces in Homotopy Type Theory]]_. [[Dan Licata]] and [[Eric Finster]], LICS 2014, [PDF](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf) and [code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda)
 * _[[A Cubical Approach to Synthetic Homotopy Theory]]_.  [[Dan Licata]] and [[Guillaume Brunerie]], LICS 2015, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb15cubicalsynth/lb15cubicalsynth.pdf)
-* _[[Synthetic Cohomology in Homotopy Type Theory]]_, [[Evan Cavallo]], [PDF](http://www.cs.cmu.edu/~rwh/theses/cavallo.pdf)
+* _Synthetic Cohomology in Homotopy Type Theory_, [[Evan Cavallo]], [PDF](http://www.cs.cmu.edu/~rwh/theses/cavallo.pdf)
 * _[[A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory]]_, LICS 2016  [[Kuen-Bang Hou (Favonia)]], [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], [arXiv](http://arxiv.org/abs/1605.03227)
 * _The Seifert-van Kampen Theorem in Homotopy Type Theory_,  [[Kuen-Bang Hou]] and [[Michael Shulman]], [PDF]( http://www.cs.cmu.edu/~kuenbanh/files/vankampen.pdf)
 * _[[On the homotopy groups of spheres in homotopy type theory]]_, [[Guillaume Brunerie]], Ph.D. Thesis, 2016, [arxiv](https://arxiv.org/abs/1606.05916)
 * _[[The real projective spaces in homotopy type theory]]_, [[Ulrik Buchholtz]] and [[Egbert Rijke]], LICS 2017, [arxiv](https://arxiv.org/abs/1704.05770)
-* _[[Covering Spaces in Homotopy Type Theory]]_, [[Kuen-Bang Hou (Favonia)]], [doi](https://doi.org/10.1007/978-3-319-21284-5_15)
+* _Covering Spaces in Homotopy Type Theory_, [[Kuen-Bang Hou (Favonia)]], [doi](https://doi.org/10.1007/978-3-319-21284-5_15)
+* _[[Higher-Dimensional Types in the Mechanization of Homotopy Theory]], [[Kuen-Bang Hou (Favonia)]], Ph. D. Thesis 2017, [pdf](https://favonia.org/files/thesis.pdf)
 * _[[Higher Groups in Homotopy Type Theory]]_, [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], [arXiv:1802.04315](https://arxiv.org/abs/1802.04315)
 * _On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory_, [[Floris van Doorn]], Ph.D. Thesis 2018 [arXiv:1808.10690](https://arxiv.org/abs/1808.10690)
 * _[[Localization in Homotopy Type Theory]]_, [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], [arXiv:1807.04155](https://arxiv.org/abs/1807.04155)
@@ -127,7 +128,6 @@ See also [Philosophy](#Philosophy), below.
 * _A preliminary univalent formalization of the p-adic numbers._ Álvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], 2012. [arXiv](http://arxiv.org/abs/1302.1207)
 * _[[Univalent categories and the Rezk completion]]_. [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1010?1039. [arXiv:1303.0584](http://arxiv.org/abs/1303.0584) (on _[[nLab:internal categories in HoTT]]_)
 * _The HoTT Library: A formalization of homotopy type theory in Coq_, [[Andrej Bauer]], [[Jason Gross]], [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], [[Matthieu Sozeau]], [[Bas Spitters]], 2016 [arxiv](https://arxiv.org/abs/1610.04591)
-
 
 ##Applications to computing##
 
