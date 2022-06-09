@@ -127,7 +127,9 @@ See also [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for
 
 * [[path space]]
 
-* [[loop space object]], [[free loop space object]],
+* [[loop space object]], [[free loop space object]]
+
+  [[loop space type]]
   
   * [[Sullivan model of loop space]]
 
