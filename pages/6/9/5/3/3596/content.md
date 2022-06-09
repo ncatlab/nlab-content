@@ -409,6 +409,8 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[observational equality]]
 
+* [[loop space type]]
+
 ## References
 
 ### Explicit definition
