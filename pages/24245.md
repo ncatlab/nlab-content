@@ -1,13 +1,29 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea ##
-Sets in [[homotopy type theory]] behave a lot like the [[internal language]] of a [[topos]].
+
+The [[syntax]] for [[h-set|sets in]] [[homotopy type theory]] behaves a lot like the [[internal language]] of a [[topos]].
 
 ## Internal ##
-Chapter 10 in the [[HoTT book]] and [RijkeSpitters](#RijkeSpitters) make this precise. Set is a $\Pi$W-pretopos. Assuming the resizing axiom, Set is actually a topos. These arguments don't quite work in the absence of universes, because they use so-called large elimations --- recursively defined functions into a universe. But one can augment (H)ITs in a universeless theory by special rules for large elims --- in the HIT case, replacing paths in the universe by the equivalences that would correspond to them by univalence -- and then the arguments go through.
+
+Chapter 10 in the [[HoTT book]] and [RijkeSpitters](#RijkeSpitters) make this precise. [[Set]] is a [[ΠW-pretopos|$\Pi$W-pretopos]]. Assuming the resizing axiom, [Set]] is actually a [[topos]]. These arguments don't quite work in the absence of [[type universes]], because they use so-called large elimations --- recursively defined functions into a universe. But one can augment [[higher inductive type|(H)]][[inductive type|ITs]] in a universeless theory by special rules for large elims --- in the HIT case, replacing paths in the universe by the equivalences that would correspond to them by univalence -- and then the arguments go through.
 
 ## Semantics ##
 
@@ -21,5 +37,12 @@ Moreover, with HITs the problem is even worse: even replacement and separation d
 
 * [[model of type theory in an (infinity,1)-topos]].
 
+* [[Set]]
+
 ### References ###
-* {#RijkeSpitters} [[Egbert Rijke]] and [[Bas Spitters]], _Sets in homotopy type theory_, [1305.3835](http://arxiv.org/abs/1305.3835), special issue "From type theory and homotopy theory to univalent foundations" of MSCS.
+
+* {#RijkeSpitters} [[Egbert Rijke]] and [[Bas Spitters]], _Sets in homotopy type theory_ $[$[arXiv:1305.3835](http://arxiv.org/abs/1305.3835)$]$ special issue "From type theory and homotopy theory to univalent foundations" of MSCS.
+
+
+[[!redirects semantics of Set in homotopy type theory]]
+
