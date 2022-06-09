@@ -127,7 +127,7 @@ See also the commented list of problems at:
 
 * Formalize the construction of models of type theory using [[contextual categories]].
 
-* Formalize [[semi-simplicial types]].
+* Formalize [[semi-simplicial types in homotopy type theory]].
 
 * Formalize $\infty$-groupoids, $\infty$-categories within HoTT.
 
