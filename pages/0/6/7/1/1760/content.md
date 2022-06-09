@@ -217,3 +217,6 @@ Along similar lines, the delooping of a [[braided monoidal category]] produces a
 
 [[!redirects deloopings]]
 [[!redirects delooped group]]
+
+[[!redirects delooped]]
+
