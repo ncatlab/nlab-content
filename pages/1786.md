@@ -23,7 +23,7 @@ An __$H$-space__ ("H" for [[Heinz Hopf|Hopf]], as in _[[Hopf construction]]_) is
 
 Similarly:
 
-An **$H$-monoid** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
+An **[[H-monoid|$H$-monoid]]** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
 
 An __$H$-group__ is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H$-group if it also has [[inverses]] up to homotopy.
 
@@ -71,6 +71,8 @@ See at _[[Dwyer-Wilkerson H-space]]_
 
 ## Properties
 
+Let $A$ be a [[connected]] H-space. Then for every $a:A$, the [[maps]] $\mu(a,-),\mu(-,a):A \to A$ are [[homotopy equivalences]].
+
 ### Nilpotency
 
 Every [[connected topological space|connected]] H-space is [[nilpotent topological space|nilpotent]] (see [there](nilpotent+topological+space#Properties)).
@@ -86,9 +88,59 @@ Further discussion of this is also at _[loop space -- Homotopy associative struc
 
 The operations on an [[H-space]] $X$ equip its [[homology]] with the [[mathematical structure|structure]] of  [[ring]]. At least for [[ordinary homology]] this is known as the _[[Pontrjagin ring]]_ $H_*(X)$ of $X$.
 
-## H-Spaces in Homotopy Type theory
+## H-Spaces in homotopy type theory
 
-See: [[homotopytypetheory:H-space]]
+In [[homotopy type theory]], an *H-Space* consists of
+
+* A type $A$,
+* A basepoint $e:A$
+* A binary operation $\mu : A \to A \to A$
+* A left unitor 
+$$\lambda:\prod_{(a:A)} \mu(e,a)=a$$ 
+* A right unitor 
+$$\rho:\prod_{(a:A)} \mu(a,e)=a$$
+
+A __homomorphism of H-spaces__ between two H-spaces $A$ and $B$ consists of 
+
+* A function $\phi:A \to B$ such that 
+  * The basepoint is preserved
+$$\phi(e_A) = e_B$$
+  * The binary operation is preserved
+$$\prod_{(a:A)} \prod_{(b:A)} \phi(\mu_A(a, b)) = \mu_B(\phi(a),\phi(b))$$
+
+* A function 
+
+$$\phi_\lambda:\left(\prod_{(a:A)} \mu(e_A,a)=a\right) \to \left(\prod_{(b:B)} \mu(e_B,b)=b\right)$$
+
+such that the left unitor is preserved:
+
+$$\phi_\lambda(\lambda_A) = \lambda_B$$
+
+* A function 
+
+$$\phi_\rho:\left(\prod_{(a:A)} \mu(a, e_A)=a\right) \to \left(\prod_{(b:B)} \mu(b, e_B)=b\right)$$
+
+such that the right unitor is preserved:
+
+$$\phi_\rho(\rho_A) = \rho_B$$
+
+### Examples
+
+* There is a H-space structure on the [[circle]]. See Lemma 8.5.8 of the [[HoTT book]]. 
+
+\begin{proof}
+We define $\mu : S^1 \to S^1 \to S^1$ by circle induction:
+$$\mu(base)\equiv id_{S^1}\qquad ap_{\mu}\equiv funext(h)$$
+where $h : \prod_{x : S^1} x = x$ is defined in Lemma 6.4.2 of the [[HoTT book]]. We now need to show that $\mu(x,e)=\mu(e,x)=x$ for every $x : S^1$. Showing $\mu(e,x)=x$ is quite simple, the other way requires some more manipulation. Both of which are done in the book.
+\end{proof}
+
+* Every [[loop space]] is naturally a [[H-space]] with [[path]] concatenation as the operation. In fact every [[loop space]] is a [[group]].
+
+* The type of [[maps]] $A \to A$ has the structure of a H-space, with basepoint $id_A$, operation function composition.
+
+* An [[A3-space]] $A$ is an H-space with an equality $\mu(\mu(a, b),c)=\mu(a,\mu(b,c))$ for every $a:A$, $b:A$, $c:A$ representing associativity up to homotopy. 
+
+* A unital magma is a 0-truncated H-space. 
 
 ## Related concepts
 
@@ -101,6 +153,8 @@ See: [[homotopytypetheory:H-space]]
 * [[H-space ring spectrum]], [[H-group ring spectrum]]
 
 * [[H-spaceoid]]
+
+* [[A3-space]]
 
 * [[H-spatial groupoid]]
 
@@ -158,6 +212,10 @@ Wikipedia\'s definition (at time of this writing, and phrased in the language of
 
 * MathOverflow: [homotopy-associative-h-space-and-coh-space](http://mathoverflow.net/questions/16711/homotopy-associative-h-space-and-coh-space)
 
+For H-spaces in [[homotopy type theory]]:
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
 See also
 
 * [[John Adams]], _Finite $H$-Spaces and Lie groups_, Journal of Pure and Applied Algebra 19 (1980) 1-8 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamse8.pdf))
@@ -166,8 +224,10 @@ See also
 
 [[!redirects H-spaces]]
 
-[[!redirects H-monoid]]
-[[!redirects H-monoids]]
+[[!redirects homomorphism of H-spaces]]
+[[!redirects homomorphisms of H-spaces]]
+[[!redirects H-space homomorphism]]
+[[!redirects H-space homomorphisms]]
 
 [[!redirects H-group]]
 [[!redirects H-groups]]
