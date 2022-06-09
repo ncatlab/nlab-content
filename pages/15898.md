@@ -1,3 +1,6 @@
+[[!redirects Kuen-Bang Hou]]
+[[!redirects Kuen-Bang Hou (Favonia)]]
+
 Known also as Kuen-Bang Hou (Favonia).
 
 * [page on HoTT website](http://homotopytypetheory.org/author/favonia/)
