@@ -6,25 +6,11 @@
 
 ## Idea
 
-While [[nLab:homotopy type theory]] formalizes [[nLab:homotopy theory]], it is not a priori clear -- and in fact is or was an open problem -- how to formalize general homotopy-[[nLab:coherence|coherent]] [[nLab:structures]] of [[nLab:higher algebra]]/[[nLab:higher category theory]]: Since these typically involve an _infinite_ hierarchy of [[nLab:coherence]]-conditions, these cannot be [[nLab:axiom|axiomatized]] directly, but one needs some scheme that generates them. This turned out to be subtle.
+While [[homotopy type theory]] formalizes [[homotopy theory]], it is not a priori clear -- and in fact is or was an open problem -- how to formalize general homotopy-[[coherence|coherent]] [[structures]] of [[higher algebra]]/[[higher category theory]]: Since these typically involve an _infinite_ hierarchy of [[coherence]]-conditions, these cannot be [[axiom|axiomatized]] directly, but one needs some scheme that generates them. This turned out to be subtle.
 
-[[nLab:Eric Finster]] had previously considered another variant of [[nLab:type theory]], called _[[nLab:opetopic type theory]]_ which natively talks about [[nLab:infinity-categories]] and their higher [[nLab:coherences]] by type-theoretically formalizing the [[nLab:structure]] of [[nLab:opetopic sets]]. In new work [Finster 18](#Finster2018) he gives something like an implementation of aspects of [[nLab:opetopic type theory]] _within_ [[nLab:homotopy type theory]] and provides evidence that this  yields a tool to solve the general problem of [[nLab:coherences]] of [[nlab:higher algebra]]/[[nLab:higher category theory]] within [[nLab:homotopy type theory]].
+[[Eric Finster]] had previously considered another variant of [[type theory]], called _[[opetopic type theory]]_ which natively talks about [[infinity-categories]] and their higher [[coherences]] by type-theoretically formalizing the [[structure]] of [[opetopic sets]]. In new work [Finster 18](#Finster2018) he gives something like an implementation of aspects of [[opetopic type theory]] _within_ [[homotopy type theory]] and provides evidence that this  yields a tool to solve the general problem of [[coherences]] of [[higher algebra]]/[[higher category theory]] within [[homotopy type theory]].
 
 Polynomials serve as a notion of "*higher signature*". Following ideas from the categorical approach to universal algebra, we are going to encode the relations or axioms of our structure using a monadic multiplication on P.
-
-
-## References
- {#Link}
-
-* {#Finster2018} [[Eric Finster]], _Towards Higher Universal Algebra in Type Theory_, [Homotopy Type Theory Electronic Seminar](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html) 2018 ([compact pdf slides](/nlab/files/Finster-2018-HoTTEST-compact.pdf), [original pdf slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Finster-2018-12-6-HoTTEST.pdf), [recording](https://www.youtube.com/watch?v=hlCVHVtAlqQ))
-
-* [[nLab:Agda]] code at: [github.com/ericfinster/higher-alg](https://github.com/ericfinster/higher-alg)
-
-* [Notes on a definition of higher structure](http://ericfinster.github.io/files/huadtt.pdf).
-
-The idea of [[nLab:opetopic sets]] that [Finster 18](#Finster2018) is inspired by goes back to
-
-* [[nlab:John Baez]], [[nlab:James Dolan]], _Higher-Dimensional Algebra III: n-Categories and the Algebra of Opetopes_, [arXiv:q-alg/9702014](https://arxiv.org/abs/q-alg/9702014)
 
 ## Eric's talk
 
@@ -162,6 +148,19 @@ A *polynomial relation* for $P$ is a [[type family]]:
 $$R : (i:I) (f:\Op i)(w : \Tr i)(\alpha : \Frame(w,f) \to \mathcal{U}$$
 
 =--
+
+## References
+ {#Link}
+
+* {#Finster2018} [[Eric Finster]], _Towards Higher Universal Algebra in Type Theory_, [Homotopy Type Theory Electronic Seminar](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html) 2018 ([compact pdf slides](/nlab/files/Finster-2018-HoTTEST-compact.pdf), [original pdf slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Finster-2018-12-6-HoTTEST.pdf), [recording](https://www.youtube.com/watch?v=hlCVHVtAlqQ))
+
+* [[Agda]] code at: [github.com/ericfinster/higher-alg](https://github.com/ericfinster/higher-alg)
+
+* [Notes on a definition of higher structure](http://ericfinster.github.io/files/huadtt.pdf).
+
+The idea of [[opetopic sets]] that [Finster 18](#Finster2018) is inspired by goes back to
+
+* [[John Baez]], [[James Dolan]], _Higher-Dimensional Algebra III: n-Categories and the Algebra of Opetopes_, [arXiv:q-alg/9702014](https://arxiv.org/abs/q-alg/9702014)
 
 
 category: reference
