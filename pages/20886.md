@@ -34,3 +34,5 @@ For $k$ a [[field]] and $n$ a [[natural number]], the _special linear Lie algebr
 
 [[!redirects special linear Lie algebras]]
 
+[[!redirects sl(n)]]
+
