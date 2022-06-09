@@ -27,24 +27,12 @@ The term “core mathematics” is discussed in [Quinn 2012](#Quinn12).
 
 ## Examples
 
-### Universes
-
-* In [[structural set theory]] and [[type theory]], the existence of [[large categories]] such as [[Grothendieck topoi]] requires the existence of [[universes]]/[[Grothendieck universes]], so one could speak of the [[large set]] of all [[sets]]/[[small sets]], otherwise every category defined in the theory would be a [[small category]] in the theory. In [[predicative mathematics]], the same is true of large posets such as [[frames]] and [[complete lattices]]. 
-
 ### Large cardinal axioms
  {#LargeCardinalAxiom}
 
 [[large cardinal axiom|Large cardinal axioms]], traditionally not assumed in various foundations, have effects in real mathematics:
 
 * That every [[extremally disconnected]] [[profinite set]] has a [[hypercover]] whose terms are extremally disconnected requires that beth cardinals exist. See Peter Scholze's comment [here](https://golem.ph.utexas.edu/category/2021/06/large_sets_2.html#c060032). In particular, it is provable in Zermelo-Frankel set theory, but not provable in Zermelo set theory or [[ETCS]], because replacement implies that beth cardinals exist, and while Zermelo-Frankel set theory has replacement, neither Zermelo set theory nor ETCS have replacement or beth cardinals. 
-
-* [[Vopěnka's principle]]: Every [[discrete category|discrete]] [[full subcategory]] of a [[locally presentable category]] is [[small]].
-
-### Propositional resizing
-
-* The [[Dedekind real numbers]] become [[small]] with [[propositional resizing]]. 
-
-* All [[posets]] are small with propositional resizing. In particular, the [[frame]] of [[truth values]] is small, and thus the [[powerset]] of a [[set]] is small. 
 
 ### Excluded middle
 
