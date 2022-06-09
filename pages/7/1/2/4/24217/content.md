@@ -20,7 +20,7 @@
 
 ## Idea
 
-A *Pochhammer loop* or *Pochhammer contour* ([Pochhammer 1890](#Pochhammer1890)) is a [[loop (topology)|loop]] in the [[complement]] of a pair of points in side the [[plane]], hence a [[map]]
+A *Pochhammer loop* or *Pochhammer contour* ([Pochhammer 1890](#Pochhammer1890)) is a [[loop (topology)|loop]] in the [[complement]] of a [[pair]] of points in side the [[plane]], hence a [[map]]
 
 $$
   \gamma_P
