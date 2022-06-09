@@ -1,3 +1,21 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++-- {: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{: toc}
+
+## Definition 
+
 In a [[poset]] or even [[proset]], an __upper set__ $U$ is a [[subset]] that is 'upwards closed'; that is,
 
 *  whenever $x \leq y$ and $x \in U$, then $y \in U$.
@@ -13,8 +31,22 @@ An [[inhabited subset|inhabited]], [[open subset|open]] upper set of [[rational 
 
 The upper sets form a [[topological structure]] on (the [[underlying set]] of) the proset, called the [[Alexandroff topology]].
 
+## See also
+
+* [[posite]]
+* [[lower set]]
+* [[ideal]]
+* [[filter]]
+* [[copresheaf]]
+* [[presheaf]]
 
 [[!redirects upper set]]
 [[!redirects upper sets]]
 [[!redirects upper subset]]
 [[!redirects upper subsets]]
+
+[[!redirects upward closed subset]]
+[[!redirects upward closed subsets]]
+
+[[!redirects (0,1)-copresheaf]]
+[[!redirects (0,1)-copresheaves]]
