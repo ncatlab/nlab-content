@@ -38,7 +38,7 @@ $$\Spectrum \equiv \sum_{E : \PreSpectrum} \prod_{n : \mathbb{Z}} \IsEquiv (e_n)
 
 * [[Omega-spectrum]] (in contrast to an [[sequential spectrum]])
 
-* [[spectrification]]
+* [[spectrification of a sequential spectrum type]]
 
 ## References ##
 
