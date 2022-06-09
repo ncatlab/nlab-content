@@ -3,7 +3,12 @@
 
 ## Selected writings
 
-On [[fractional-level WZW models]]:
+On [[logarithmic CFT]]:
+
+*  [[Thomas Creutzig]], [[David Ridout]], *Logarithmic conformal field theory: beyond an introduction*,  J. Phys. A: Math. Theor. **46** (2013) 494006 ([doi:10.1088/1751-8113/46/49/494006](https://iopscience.iop.org/article/10.1088/1751-8113/46/49/494006), [arXiv:1303.0847](https://arxiv.org/abs/1303.0847))
+
+
+On [[fractional-level WZW models]] as [[logarithmic CFT]]:
 
 * [[Thomas Creutzig]], [[David Ridout]], *Modular Data and Verlinde Formulae for Fractional Level WZW Models I*, Nuclear Physics B **865** 1 (2012) 83-114 $[$[arXiv:1205.6513](https://arxiv.org/abs/1205.6513), [doi:10.1016/j.nuclphysb.2012.07.018](https://doi.org/10.1016/j.nuclphysb.2012.07.018)$]$
 
