@@ -32,6 +32,8 @@ $$\mathcal{U}_+\equiv \sum_{X:\mathcal{U}}X$$
 
 * [[maybe monad]]
 
+* [[loop space type]]
+
 * [[prespectrum type]]
 
 * [[suspension type]]
