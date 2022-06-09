@@ -37,6 +37,11 @@ Relating to non-abelian [[anyons]] and [[conformal blocks]]:
 
 * {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]], Section 2.2 of: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 $[$<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)$]$
 
+* {#GurarieFlohrNayak97} V. Gurarie, [[Michael Flohr]], [[Chetan Nayak]], *The Haldane-Rezayi Quantum Hall State and Conformal Field Theory*, Nucl. Phys. B **498** (1997) 513-538 $[$[arXiv:cond-mat/9701212](https://arxiv.org/abs/cond-mat/9701212), [doi:10.1016/S0550-3213%2897%2900351-9](https://doi.org/10.1016/S0550-3213%2897%2900351-9)$]$
+
+  > (review in [Flohr 2003, §5.4](logarithmic+CFT#Flohr03))
+
+
 * {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
 
 Review:
