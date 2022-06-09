@@ -208,6 +208,8 @@ A definition of the set of [[integers]] as a higher inductive type.
 
 * [[localization of a type at a family of functions]]
 
+* [[Eilenberg-MacLane space type]]
+
 * [[spectrification of a sequential spectrum type]]
 
 * [[James construction type]]
