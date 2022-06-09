@@ -281,7 +281,9 @@ $$
   \,.
 $$
 
+## See also
 
+* [[Hopf construction in homotopy type theory]]
 
 ## References
 
