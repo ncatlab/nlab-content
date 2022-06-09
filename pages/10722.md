@@ -3,9 +3,12 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michiel_Hazewinkel)
 
-## Publications
+
+## Selected publications
 
 * [[Hazewinkel, Witt vectors]]
+
+* [[Encyclopedia of Mathematics]]
 
 ## Related entries
 
@@ -14,5 +17,6 @@
 * [[ring of Witt vectors]]
 
 * [[symmetric function]]
+
 
 category: people
