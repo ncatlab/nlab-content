@@ -444,6 +444,8 @@ For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal
 
 * [[Quillen equivalence between simplicial groups and reduced simplicial sets]]
 
+* [[pointed connected groupoid]]
+
 * [[loop space object]], [[free loop space object]],
 
   * [[delooping]], **looping and delooping**
