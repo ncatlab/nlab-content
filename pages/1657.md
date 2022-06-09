@@ -138,6 +138,11 @@ We will mention other occasional fine points in the constructive theory when the
 I need to check Bishop & Bridges to see if there are any other changes, but I don\'t think so; that is, I went through the following, and it all seems correct as it is.  ---Toby
 =--
 
+### Measures on a $\sigma$-frame
+
+In measure theory, a __measure__ on a [[sigma-frame|$\sigma$-frame]] or more generally a [[sigma-complete lattice|$\sigma$-complete]] [[distributive lattice]] $(L, \leq, \bot, \vee, \top, \wedge, \Vee)$ is a [[valuation (measure theory)|valuation]] $\mu:L \to [0, \infty]$ such that the elements are mutually disjoint and the probability valuation is denumerably/countably additive
+$$\forall s\in L^\mathbb{N}. \forall m \in \mathbb{N}. \forall n \in \mathbb{N}. (m \neq n) \wedge (s(m) \wedge s(n) = \bot)$$
+$$\forall s\in L^\mathbb{N}. \mu(\Vee_{n:\mathbb{N}} s(n)) = \sum_{n:\mathbb{N}} \mu(s(n))$$
 
 ### Subsidiary definitions
 
@@ -248,6 +253,10 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 ## References
 
 See the references at _[[measure theory]]_.
+
+For measures on [[sigma-frame|$\sigma$-frames]], see
+
+* Alex Simpson, [Measure, randomness and sublocales](https://www.sciencedirect.com/science/article/pii/S0168007211001874). 
 
 Discussion via [[Boolean toposes]] is in
 
