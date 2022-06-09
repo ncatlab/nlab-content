@@ -38,6 +38,8 @@ In [[Coq]] pseudocode, this becomes
 
 * [[pointed type]]
 
+* [[Omega-spectrum type]]
+
 * [[spectrum]]
 
 * [[sequential spectrum]] (in contrast to an [[Omega-spectrum]])
@@ -55,3 +57,5 @@ In [[Coq]] pseudocode, this becomes
 
 [[!redirects prespectrum type]]
 [[!redirects prespectrum types]]
+[[!redirects pre-spectrum type]]
+[[!redirects pre-spectrum types]]
