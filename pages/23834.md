@@ -4,7 +4,7 @@
  {#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces}
 
 
-The "[[hypergeometric construction of KZ solutions|hypergeometric]]" construction of [[conformal blocks]] for [[affine Lie algebra]]/[[WZW model]]-[[2d CFTs]] and of more general solutions to the [[Knizhnik-Zamolodchikov equation]], via [[twisted de Rham cohomology]] of [[configuration spaces of points]], originates with:
+The "[[hypergeometric construction of KZ solutions|hypergeometric integral]]" construction of [[conformal blocks]] for [[affine Lie algebra]]/[[WZW model]]-[[2d CFTs]] and of more general solutions to the [[Knizhnik-Zamolodchikov equation]], via [[twisted de Rham cohomology]] of [[configuration spaces of points]], originates with:
 
 * [[Vadim Schechtman]], [[Alexander Varchenko]], *Integral representations of N-point conformal correlators in the WZW model*,  Max-Planck-Institut für Mathematik, (1989) Preprint MPI/89- $[$[cds:1044951](http://cds.cern.ch/record/1044951)$]$
 
@@ -39,7 +39,7 @@ Review:
 
 * [[Alexander Varchenko]], *Multidimensional Hypergeometric Functions and Representation Theory of Lie Algebras and Quantum Groups*, Advanced Series in Mathematical Physics **21**, World Scientific 1995 ([doi:10.1142/2467](https://doi.org/10.1142/2467))
 
-* [[Ivan Cherednik]], Section 8 of: *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
+* [[Ivan Cherednik]], Section 8.2 of: *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
 
 
 * {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
