@@ -117,15 +117,6 @@ We can similarly define $n$-truncation for any $n$, and we should be able to def
 
 See at _[[n-truncation modality]]_.
 
-### Pushouts
-
-The (homotopy) [[homotopy pushout|pushout]] of $f \colon A\to B$ and $g\colon A\to C$:
-
-    Inductive hpushout {A B C : Type} (f : A -> B) (g : A -> C) : Type :=
-    | inl : B -> hpushout f g
-    | inr : C -> hpushout f g
-    | glue : forall (a : A), inl (f a) == inr (g a).
-
 ### Quotients of types
  {#QuotientsOfTypes}
 
@@ -204,7 +195,15 @@ A definition of the set of [[integers]] as a higher inductive type.
 
 * [[square type]]
 
+* [[pushout type]]
+
 * [[suspension type]]
+
+* [[join type]]
+
+* [[wedge sum type]]
+
+* [[smash product type]]
 
 * [[localization of a type at a family of functions]]
 
