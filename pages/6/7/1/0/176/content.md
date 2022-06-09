@@ -423,6 +423,11 @@ Textbook accounts:
 
 * [[Martin Schottenloher]], *A Mathematical Introduction to Conformal Field Theory*, Lecture Notes in Physics **759**, Springer 2008 ([doi:10.1007/978-3-540-68628-6](https://link.springer.com/book/10.1007/978-3-540-68628-6), [web](https://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/))
 
+With emphases on [[braid group representations]] constituted by [[conformal blocks]] via the [[Knizhnik-Zamolodchikov equation]]:
+
+* [[Toshitake Kohno]], _Conformal field theory and topology_, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
+
+
 
 Introduction and surveys:
 
