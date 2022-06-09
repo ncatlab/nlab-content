@@ -1,8 +1,8 @@
-One interesting open problem (considered by [[Vladimir Voevodsky]] and others): define _semi-simplicial_ types in Homotopy Type Theory.
+One interesting open problem (considered by [[Vladimir Voevodsky]] and others): define _[[semi-simplicial object|semi-simplicial]]_ types in Homotopy Type Theory.
 
 (Here is [[Vladimir Voevodsky]]'s [code](https://github.com/vladimirias/Foundations/blob/master/Current_work/semisimplicial.v) for a proposed definition.)
 
-Classically, a _semi-simplicial object_ in a category is like a simplicial object, but without degeneracy maps; i.e. a contravariant functor from the category $\Delta{}i$, of finite nonempty ordinals and just injections between them.
+Classically, a _[[semi-simplicial object]]_ in a category is like a simplicial object, but without degeneracy maps; i.e. a contravariant functor from the category $\Delta{}i$, of finite nonempty ordinals and just injections between them.
 
 Can we define these internally to the type theory?
 
