@@ -489,7 +489,7 @@ Discussion of the [[image]] of the [[J-homomorphism]] is due to
 
 For formalization in [[homotopy type theory]] see 
 
-* [[homotopytypetheory:HomePage|HoTT wiki]], _[[homotopytypetheory:homotopy groups of spheres]]_ 
+* [[formalization of the homotopy groups of spheres in homotopy type theory]]
 
 * [[UF-IAS-2012]], _[HomotopyGroupsOfSpheres](http://uf-ias-2012.wikispaces.com/HomotopyGroupsOfSpheres)_
 
