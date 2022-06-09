@@ -42,6 +42,10 @@ Often we are more interested in a [[quotient]] monoid of the Moore loop monoid. 
 See [[looping]] and [[delooping]] for more.
 
 
+## Examples
+
+* [[Pochhammer loop]]
+
 ## Related entries
 
 * [[loop]]
