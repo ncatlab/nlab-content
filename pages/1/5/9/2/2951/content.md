@@ -81,8 +81,14 @@ On [[2d conformal field theory]] and [[modular functors]]:
 
 On the [[FQFT|functorial]]-definition of [[2d conformal field theory]]:
 
+* [[Graeme Segal]], *The definition of conformal field theory*, in: K. Bleuler, M. Werner (eds.), *Differential geometrical methods in theoretical physics* (Proceedings of Research Workshop, Como 1987), NATO Adv. Sci. Inst., Ser. C: Math. Phys. Sci. **250** Kluwer Acad. Publ., Dordrecht (1988) 165-171 $[$[doi:10.1007/978-94-015-7809-7](https://doi.org/10.1007/978-94-015-7809-7)$]$
 
-* {#Segal04} [[Graeme Segal]], _The definition of conformal field theory_, Topology, geometry and quantum field theory London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, (2004), 421-577 ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
+* [[Graeme Segal]], _Two-dimensional conformal field theories and modular functors_ , in _Proceedings of the IXth International Congress on Mathematical Physics_ , Swansea, 1988, Hilger, Bristol (1989) 22-37.
+
+* [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 $[$[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]$]$
+
+
+
 
 On [[twisted K-theory]] and [[twisted equivariant K-theory]]:
 
