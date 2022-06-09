@@ -226,6 +226,10 @@ $$
 
 For [[symmetric spectra]], see ([Schwede 12, prop. 4.39](#Schwede12)).
 
+### See also
+
+* [[spectrification of a sequential spectrum type]]
+
 ## References
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
