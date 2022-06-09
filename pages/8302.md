@@ -237,6 +237,8 @@ see at _[[ordinary homology spectra split]]_
 
 * [[bordism homology theory]]
 
+* [[Pochhammer loop]]
+
 ## References
 
 A classical account:
