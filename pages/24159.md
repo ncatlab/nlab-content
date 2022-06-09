@@ -39,6 +39,7 @@ Thus, if we use the local universe coherence theorem, $U$ represents a "universe
 ## Related entries
 
 * [[Awodey's proposal]]
+* [[semantics of Set in homotopy type theory]]
 
 ## References
 
