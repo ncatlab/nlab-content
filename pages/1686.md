@@ -793,6 +793,8 @@ Cohomological spectral sequences are compatible with [[cup product]] structure o
 
 * [[multiplicative spectral sequence]]
 
+* [[spectral sequences in homotopy type theory]]
+
 ## References
 
 * [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
