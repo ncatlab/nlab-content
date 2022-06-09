@@ -11,6 +11,10 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
 =--
 =--
 
@@ -198,7 +202,13 @@ Clearly the concept of left homotopy in def. \ref{PathAndCylinderObjectsInAModel
 
 Likewise if there is a [[cylinder functor]], one gets functorially defined [[cylinder objects]], etc.
 
+### In Martin-Löf dependent type theory
 
+In [[Martin-Löf dependent type theory]], let $f,g : \prod_{(x:A)}P(x)$ be two [[terms]] of a [[dependent product type]] of a [[type family]] $P: A \to \mathcal{U}$. A **homotopy** from $f$ to $g$ is a [[dependent function]] of type 
+
+$$(f \sim g) \equiv \prod_{x : A} (f(x) = g(x))$$
+
+Note that a homotopy is not the same as an [[identification]] $f = g$. However this can be made so if one assumes [[function extensionality]]. 
 
 ## Related concepts
 
@@ -230,7 +240,6 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 * [[homotopy analysis method]]
 
-
 ## References 
 
 See the references at _[[homotopy theory]]_ and at _[[model category]]_.
@@ -238,6 +247,10 @@ See the references at _[[homotopy theory]]_ and at _[[model category]]_.
 Discussion in [[computational topology]]:
 
 * [[Marek Filakovský]], [[Lukáš Vokřínek]], _Are two given maps homotopic? An algorithmic viewpoint_, Found Comput Math (2019) ([arXiv:1312.2337](https://arxiv.org/abs/1312.2337), [doi:10.1007/s10208-019-09419-x](https://doi.org/10.1007/s10208-019-09419-x))
+
+For homotopies in [[Martin-Löf dependent type theory]]:
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 [[!redirects left homotopy]]
 [[!redirects right homotopy]]
