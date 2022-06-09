@@ -122,7 +122,7 @@ The h-sets in [[HoTT]] form a [[ΠW-pretopos]] ([Rijke-Spitters 13](#RijkeSpitte
 * {#KECA} [[Nicolai Kraus]], [[Martin Escardo]], [[Thierry Coquand]] , [[Thorsten Altenkirch]], _Generalizations of Hedberg's theorem_, in M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf))
  
 
-Formalization of [[set theory]] via h-sets in [[homotopy type theory]] is discussed in 
+Formalization of [[set theory]] via h-sets in [[homotopy type theory]] (see at [[Set in homotopy type theory]])
 
 * {#RijkeSpitters13} [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_, Mathematical Structures in Computer Science, Volume 25, Issue 5 (From type theory and homotopy theory to Univalent Foundations of Mathematics)  ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
