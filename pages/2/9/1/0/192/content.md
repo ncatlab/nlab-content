@@ -114,7 +114,9 @@ In constructive mathematics, $\mathcal{P}$ defines an equivalence of $\Set$ with
 
 ## Related categories
 
-A variant of $Set$ where [[functions]] are generalized to [[relations]] is _[[Rel]]_.
+* [[Set in homotopy type theory]]
+
+* A variant of $Set$ where [[functions]] are generalized to [[relations]] is _[[Rel]]_.
 
 In [[higher category theory]] the role of _$Set$_ is played for instance by
 
@@ -128,8 +130,12 @@ In [[higher category theory]] the role of _$Set$_ is played for instance by
 
 ## References
 
-* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
- {#vanOosten}
+* {#vanOosten} [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
+ 
+On [[Set in homotopy type theory]]:
+
+* {#RijkeSpitters13} [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_, Mathematical Structures in Computer Science, Volume 25, Issue 5 (From type theory and homotopy theory to Univalent Foundations of Mathematics)  ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
 
 category: category
 
