@@ -9,8 +9,7 @@ This entry provides pointers related to the text
 
 on [[Lambda-rings]] of [[Witt vectors]].
 
-* Hazewinkel talks about both the 'orthodox' and 'heterodox' approaches to $\lambda$-rings.  Indeed he starts out with a lot of material on 
-[[Witt vectors]] and their relation to $p$-adics.   The [[Lambda-rings]] only make their debut on page 87, where the operation of 'taking the Witt vectors' of a [[commutative ring]] is revealed to be the [[right adjoint]] to the [[forgetful functor]] from $\lambda$-rings to commutative rings.
+* Hazewinkel talks about both the 'orthodox' and 'heterodox' approaches to $\lambda$-rings.  Indeed he starts out with a lot of material on [[Witt vectors]] and their relation to $p$-adics.   The [[Lambda-rings]] only make their debut on page 87, where the operation of 'taking the Witt vectors' of a [[commutative ring]] is revealed to be the [[right adjoint]] to the [[forgetful functor]] from $\lambda$-rings to commutative rings.
 
 * He then goes ahead and defines $\lambda$-rings on page 88. At first his definition looks a bit frustrating, because Hazewinkel defines '$\lambda$-ring' using the concept of 'morphism of $\lambda$-rings'!  But it's not actually circular; it's really just a trick to spare us certain ugly equations that appear in the usual definition.
 
