@@ -1,0 +1,6 @@
+_[[Higher Groups in Homotopy Type Theory]]_, [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], [arXiv:1802.04315](https://arxiv.org/abs/1802.04315)
+
+## Abstract ##
+We present a development of the theory of [[higher groups]], including infinity groups and connective [[spectra]], in [[homotopy type theory]]. An infinity group is simply the loops in a [[pointed]], [[connected]] [[type]], where the [[group]] structure comes from the structure inherent in the [[identity types]] of [[Martin-Löf type theory]]. We investigate ordinary groups from this viewpoint, as well as higher dimensional groups and groups that can be [[delooped]] more than once. A major result is the stabilization theorem, which states that if an n-type can be delooped n+2 times, then it is an infinite loop type. Most of the results have been formalized in the [[Lean]] [[proof assistant]].
+
+category: reference
