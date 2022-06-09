@@ -29,6 +29,8 @@ whose [[situs|simplicial category]] provides a somewhat more
 formalisation of the intuion of "nearness" than the usual topological one; in particular, it contains the categories of topological and of uniform spaces, of simplicial sets, and of filters themselves, allowing to reformulate in terms of this category notions 
 such as limit, equicontinuity, locally trivial, and geometric realization.  
 
+In [[predicative mathematics]], filters of subsets are [[large category|large]], but [[locally small category|locally small]]. 
+
 ## Definitions
 
 A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__ if it is upward-closed and downward-[[direction|directed]]; that is:
@@ -56,9 +58,29 @@ Here, (1) is equivalent to the previous version; the others, which here say that
 
 You can also interpret these axioms to say that, if you think of $F$ as a function from $L$ to the set $TV$ of [[truth values]], then $F$ is a homomorphism of meet-semilattices.
 
+### Filter of subsets
 
 A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $S$.  One also sees filters of open subsets, filters of compact subsets, etc, especially in topology.
 
+### In homotopy type theory
+
+Let $S$ be a [[set]], $Prop_{\mathcal{U}(i)}$ be the type of [[propositions]] in a [[universe]], and $Prop_{\mathcal{U}(s(i))}$ be the type of propositions in a successor universe. Then a filter on $S$ is a [[predicate]] $F:(S \to Prop_{\mathcal{U}(i)}) \to Prop_{\mathcal{U}(s(i))}$ with dependent functions
+
+$$p:\prod_{a:S \to Prop_{\mathcal{U}(i)}} \prod_{b:S \to Prop_{\mathcal{U}(i)}} (a = a \wedge b) \times \mathcal{T}_{\mathcal{U}(i)}(F(a)) \to \mathcal{T}_{\mathcal{U}(i)}(F(b))$$
+
+$$p:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))\right]$$
+
+$$p:\left[\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \left[\sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)\right]\right]$$
+
+The filter properties could also be turned into structure:
+
+A filter structure on $S$ is a [[predicate]] $F:(S \to Prop_{\mathcal{U}(i)}) \to Prop_{\mathcal{U}(s(i))}$ with dependent functions
+
+$$p:\prod_{a:S \to Prop_{\mathcal{U}(i)}} \prod_{b:S \to Prop_{\mathcal{U}(i)}} (a = a \wedge b) \times \mathcal{T}_{\mathcal{U}(i)}(F(a)) \to \mathcal{T}_{\mathcal{U}(i)}(F(b))$$
+
+$$p:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a))$$
+
+$$p:\sum_{a:S \to Prop_{\mathcal{U}(i)}} \sum_{b:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(a)) \times \mathcal{T}_{\mathcal{U}(i)}(F(b)) \to \sum_{c:S \to Prop_{\mathcal{U}(i)}} \mathcal{T}_{\mathcal{U}(i)}(F(c)) \times (c = c \wedge a) \times (c = c \wedge b)$$
 
 ## Kinds of filters
 
