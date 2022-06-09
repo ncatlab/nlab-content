@@ -44,4 +44,5 @@ The join of two [[mere propositions]], $P \ast Q$, is equal to the [[proposition
 
 ##References
 
-* {#Rijke17} [[Egbert Rijke]], _The join construction_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
+* {#Rijke17} [[Egbert Rijke]], _[[The join construction]]_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
+
