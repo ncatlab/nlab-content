@@ -21,6 +21,18 @@
 
 The idea of _realizability_ is a way of making the [[Brouwer-Heyting-Kolmogorov interpretation]] of [[constructivism]] and [[intuitionistic mathematics]] precise. It is related to the [[propositions as types]] paradigm. For instance, constructively a [[proof]] of an [[existential quantification]] $\underset{x\in X}{\exists} \phi(x)$ consists of constructing a specific $x \in X$ and a proof of $\phi(x)$, which "realizes" the [[truth]] of the statement, whence the name (see e.g. [Streicher 07, section 1](#Streicher07), [Vermeeren 09, section 1](#Vermeeren09) for introductions to the rough idea, or [Bauer 05, page 12 and def. 4.7](#Bauer05) for an actual definition).
 
+## Realizability of univalence in homotopy type theory
+
+One possible way to find a computational interpretation for [[univalence]] in [[homotopy type theory]] is to interpret it in using realizability. Stekelburg provides a univalent universe of modest Kan complexes.
+
+Simplicial homotopy theory can be developed in an [[extensive]] [[locally cartesian closed]] category $A$. Such categories are also called [[Heyting bialgebras]]. The category $A$ has 
+a class of [[nlab:small maps]] which has a bundle of small
+[[assemblies]]. This provides an internal 
+[[Heyting bialgebra]] $S$ which we can use as a target for simplicial `sets'. There is a (Kan-) model structure on these simplicial sets. 
+
+Within $S$ we can define a universe $M$ and show that it is fibrant. This universe is even univalent.
+
+Now, the category of assemblies in number realizability provides such a Heyting bialgebra. The modest sets, a small internally complete full subcategory, provide the univalent universe. Note that modest sets are an [[impredicative]] universe. It models the [[calculus of constructions]].
 
 ## Related entries
 
@@ -75,6 +87,10 @@ based on
 Computable Analysis and Topology_, PhD thesis CMU (2000) ([pdf](http://andrej.com/thesis/thesis.pdf))
 
 * Peter Lietz, _From Constructive Mathematics to Computable Analysis via the Realizability Interpretation_ ([pdf.gz](http://www.mathematik.tu-darmstadt.de/~streicher/THESES/lietz.pdf.gz))
+
+For realizability of univalent universes:
+
+* Wouter Stekelenburg, _Realizability of Univalence: Modest Kan complexes_, [arXiv](http://arxiv.org/abs/1406.6579)
 
 
 See also
