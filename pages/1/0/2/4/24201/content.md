@@ -20,11 +20,11 @@
 
 ## Definition
 
-Consider a [[family]] $F:\prod_{(a:A)} B(a) \to C(a)$ of functions. We say that a [[type]] $X$ is **$F$-local** if the function
+Consider a [[family]] $F:\prod_{(i:I)} S(i) \to T(i)$ of functions. We say that a [[type]] $X$ is **$F$-local** if the function
 
-$$\lambda g . g (F(a)) : (C(a) \to X) \to (B(a) \to X)$$
+$$\lambda g . g (F(i)) : (S(i) \to X) \to (T(i) \to X)$$
 
-is an [[equivalence]] for all (a : A).
+is an [[equivalence]] for all (i : I).
 
 The following [[higher inductive type]] can be shown to be a [[reflection]] of all types into the local types, constructing the [[localization]] of the category of types at the given family of functions.
 
