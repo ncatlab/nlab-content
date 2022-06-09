@@ -58,41 +58,46 @@ This flat connection is the Knizhnik-Zamolodchikov connection. This was maybe fi
 
 ### General
 
-The original articles are
+The original articles:
 
 * [[Vadim Knizhnik]], [[Alexander Zamolodchikov]], _Current algebra and Wess&#8211;Zumino model in two-dimensions_, Nucl. Phys. __B247__, 83&#8211;103 (1984) <a href="http://dx.doi.org/10.1016%2F0550-3213%2884%2990374-2">doi</a>, [MR87h:81129](http://www.ams.org/mathscinet-getitem?mr=87h:81129)
  {#KnizhnikZamolodchikov84}
 
-* A. Belavin , [[Alexander Polyakov]] , [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two-dimensional quantum field theory_ (1984) Nucl. Phys. B 241 (2): 333&#8211;80. 
+* [[Alexander Belavin]], [[Alexander Polyakov]] , [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two-dimensional quantum field theory_ (1984) Nucl. Phys. B 241 (2): 333&#8211;80. 
 
-* [[Daniel Friedan]], S. Shenker, _The analytic geometry of two-dimensional conformal field theory_, Nuclear Physics B281 (1987) ([pdf](http://www.physics.rutgers.edu/~friedan/papers/Nucl_Phys_B281_509_1987.pdf))
+* [[Daniel Friedan]], [[Stephen Shenker]], *The analytic geometry of two-dimensional conformal field theory*, Nuclear Physics B281 (1987) ([pdf](http://www.physics.rutgers.edu/~friedan/papers/Nucl_Phys_B281_509_1987.pdf))
 
-The interpretation of this structure in terms of a [[flat connection]] on the [[moduli space of conformal structures]] was given in 
-
-* [[Graeme Segal]], _Conformal field theory_, Oxford preprint and lecture at the IAMP Congress, Swansea July 1988.
-
-The generalization to higher [[genus]] surfaces is due to
+The generalization to higher [[genus of a surface|genus]] surfaces: 
 
 * D. Bernard, _On the Wess-Zumino-Witten models on the torus_, Nucl. Phys. B 303 77-93 (1988)
 
 * D. Bernard, _On the Wess-Zumino-Witten models on Riemann surfaces, Nucl. Phys. B 309 145-174 (1988)
 
-Finally the interpretation of this connection in terms of the [[geometric quantization]] of [[Chern-Simons theory]] is due to the discussion on p. 20 of
+The interpretation of this connection in terms of the [[geometric quantization]] of [[Chern-Simons theory]]/[[Wess-Zumino-Witten model]]:
 
-* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([euclid.cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138))
+* {#Witten89} [[Edward Witten]], p. 20 of: *Quantum Field Theory and the Jones Polynomial*, Commun. Math. Phys. **121** 3 (1989) 351&#8211;399. $[$[euclid.cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772$]$
+
+Review:
+
+* [[Ivan Cherednik]], *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
+
+  > (in relation to [[Hecke algebras]])
+
+* [[Toshitake Kohno]], Section1 1.5 and 2.1 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
+
+  > (relating to [[conformal blocks]] and [[braid representations]])
  
 
-A quick review of the Knizhnik-Zamolodchikov equation in the context of an introduction to [[WZW model]] [[CFT]] is in section 5.6 of 
+A quick review of the Knizhnik-Zamolodchikov equation in the context of an introduction to [[WZW model]] [[CFT]] is in  
 
-* [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+* [[Krzysztof Gawędzki]], section 5.6 of: _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
 
-A review of the definition of the Knizhnik-Zamolodchikov connection on the moduli space of [[genus]]-0 surfaces with $n$ marked points is in section 2 of
+A review of the definition of the Knizhnik-Zamolodchikov connection on the moduli space of [[genus of a surface|genus]]=0 surfaces with $n$ marked points:
 
-* Shu Oi, Kimio Ueno, _Connection Problem of Knizhnik-Zamolodchikov Equation on Moduli Space $\mathcal{M}_{0,5}$_ ([arXiv:1109.0715](http://arxiv.org/abs/1109.0715))
+* Shu Oi, Kimio Ueno, section 2 of: _Connection Problem of Knizhnik-Zamolodchikov Equation on Moduli Space $\mathcal{M}_{0,5}$_ ([arXiv:1109.0715](http://arxiv.org/abs/1109.0715))
 
 
-
-In relation to [[hypergeometric functions]] and [[quantum groups]]:
+In relation to [[hypergeometric functions]] and [[quantum groups]] (for more see the references [below](#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)):
 
 * [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
 
