@@ -8,9 +8,9 @@ It is expected that every [[elementary (infinity,1)-topos]] admits a model of ho
 
 ## Right proper Cisinski model categories
 
-A [[nlab:Cisinski model category]] is a [[nlab:model category]] on a Grothendieck 1-topos whose cofibrations are the monomorphisms.  It is [[nlab:proper model category|right proper]] if weak equivalences are preserved by pullback along fibrations.  This ensures that the adjunctions $f^* \dashv f_*$ for a fibration $f$ are [[nlab:Quillen adjunctions]], so that the $(\infty,1)$-category presented by the model category is locally cartesian closed.
+A [[Cisinski model category]] is a [[model category]] on a Grothendieck 1-topos whose cofibrations are the monomorphisms.  It is [[proper model category|right proper]] if weak equivalences are preserved by pullback along fibrations.  This ensures that the adjunctions $f^* \dashv f_*$ for a fibration $f$ are [[Quillen adjunctions]], so that the $(\infty,1)$-category presented by the model category is locally cartesian closed.
 
-The fibrant objects in a right proper Cisinski model category can be shown to form a comprehension category, one of the structures used for [[semantics]] of type theory, which admits all the structure necessary to model the type-forming operations of the [[dependent type|dependent sum type]], [[dependent type|dependent product type]], and [[nlab:identity type|identity type]] (the latter by using path objects).  By applying the [[local universe model]] or [[natural model]] coherence theorem, we see that any right proper Cisinski model category models type theory.
+The fibrant objects in a right proper Cisinski model category can be shown to form a comprehension category, one of the structures used for [[semantics]] of type theory, which admits all the structure necessary to model the type-forming operations of the [[dependent type|dependent sum type]], [[dependent type|dependent product type]], and [[identity type|identity type]] (the latter by using path objects).  By applying the [[local universe model]] or [[natural model]] coherence theorem, we see that any right proper Cisinski model category models type theory.
 
 Cisinski and Gepner-Kock have also shown that any locally presentable, locally cartesian closed $(\infty,1)$-category can be presented by a right proper Cisinski model category.  Therefore, any such $(\infty,1)$-category admits a model of type theory.
 
@@ -24,13 +24,13 @@ In some cases we can construct a univalent universe which satisfies the rules to
 
 In practice, the way we ensure these requirements is to show that a fibration is a pullback of $\tilde{U}\to U$ if and only if its "fibers" are bounded by some cardinal number $\kappa$ (used in defining $U$).  Then as long as $\kappa$ is inaccessible, such fibrations will be closed under the type-forming operations.
 
-Strong univalent universes are known to exist in the Reedy model category $sSet^{R^op}$ of simplicial presheaves on an [[nlab:elegant Reedy category]] $R$; see [this paper](http://arxiv.org/abs/1203.3253) and [this paper](http://arxiv.org/abs/1307.6248).
+Strong univalent universes are known to exist in the Reedy model category $sSet^{R^op}$ of simplicial presheaves on an [[elegant Reedy category]] $R$; see [this paper](http://arxiv.org/abs/1203.3253) and [this paper](http://arxiv.org/abs/1307.6248).
 
 ## Weak univalent universes
 
 Suppose we have any right proper Cisinski model category that presents a Grothendieck $(\infty,1)$-topos; we will show that it models a [[univalent]] [[universe]] which is "[[weakly Tarski universe|weakly a la Tarski]]".  (Since any Grothendieck $(\infty,1)$-topos is locally cartesian closed, such a model category always exists as remarked above.)
 
-It is known that for any regular $\kappa$, an $(\infty,1)$-topos has an [[nlab:object classifier]] for $\kappa$-small morphisms, i.e. a $\kappa$-small morphism $\tilde{V}\to V$ such that for any object $A$, the space of maps $A\to V$ is naturally equivalent to the core of the category of $\kappa$-small morphisms into $A$.
+It is known that for any regular $\kappa$, an $(\infty,1)$-topos has an [[object classifier]] for $\kappa$-small morphisms, i.e. a $\kappa$-small morphism $\tilde{V}\to V$ such that for any object $A$, the space of maps $A\to V$ is naturally equivalent to the core of the category of $\kappa$-small morphisms into $A$.
 
 Let $\kappa$ be inaccessible, and let $\tilde{U} \to U$ be a fibration between fibrant objects of the model category that represents $\tilde{V}\to V$.  Then since $\kappa$-small morphisms in the $(\infty,1)$-topos are closed under composition, diagonals, and dependent products, the fibrations in the model category that are homotopy pullbacks of $\tilde{U}\to U$ are also so closed.  In particular, we can again build the universal composable pair over $U^{(1)}$ and obtain a map $U^{(1)}\to U$ which classifies its composite *up to homotopy* (i.e. so that the composite is a homotopy pullback of $\tilde{U}\to U$ along it).  Dependent products and identity types are similar.
 
@@ -38,7 +38,7 @@ Thus, if we use the local universe coherence theorem, $U$ represents a "universe
 
 ## Related entries
 
-* [[nLab:Awodey's proposal]]
+* [[Awodey's proposal]]
 
 ## References
 
