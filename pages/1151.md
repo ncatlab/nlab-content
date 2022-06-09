@@ -801,6 +801,8 @@ See also
 
 * [[cohomological integration]]
 
+* [[cohomology in homotopy type theory]]
+
 ## References
  {#References}
 
