@@ -73,3 +73,7 @@ The [[homotopy theory]] of [[k-tuply groupal n-groupoids]] is discussed in
 
 [[!redirects 4-group]]
 [[!redirects 4-groups]]
+
+[[!redirects higher group]]
+[[!redirects higher groups]]
+
