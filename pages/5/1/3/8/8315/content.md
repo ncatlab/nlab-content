@@ -328,7 +328,7 @@ Lecture notes include
 
 Formulation in [[homotopy type theory]]:
 
-* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _Cellular Cohomology in Homotopy Type Theory_, Logical Methods in Computer Science, Volume 16, Issue 2 (June 1, 2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)) 
+* [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _[[Cellular Cohomology in Homotopy Type Theory]]_, Logical Methods in Computer Science, **16** 2 (2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)) 
 
 
 
@@ -338,4 +338,6 @@ Formulation in [[homotopy type theory]]:
 
 [[!redirects cellular cochain complex]]
 
+
+[[!redirects cellular]]
 
