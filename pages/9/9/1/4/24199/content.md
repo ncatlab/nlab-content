@@ -1,4 +1,4 @@
-This page is about spectral sequences in [[homotopy type theory]].  For now, it contains mainly a fixed version of two blog posts, one at the [n-category cafe](http://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html) and the other on the [HoTT blog](http://homotopytypetheory.org/2013/08/08/spectral-sequences/).
+This page is about [[spectral sequences]] in [[homotopy type theory]].  For now, it contains mainly a fixed version of two blog posts, one at the [n-category cafe](http://golem.ph.utexas.edu/category/2013/08/what_is_a_spectral_sequence.html) and the other on the [HoTT blog](http://homotopytypetheory.org/2013/08/08/spectral-sequences/).
 
 # Spectral sequences in homotopy type theory
 * table of contents
