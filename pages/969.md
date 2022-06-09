@@ -209,6 +209,8 @@ See also [[localization of a simplicial model category]].
 
     * [[p-localization]]
 
+* [[localization of a type at a family of functions]]
+
 * [[colocalization]]
 
 * [[ring of fractions]]
