@@ -20,11 +20,11 @@
 
 ## Idea
 
-This entry is about the formulation of [[Omega-spectra]] [[spectrum object|in]] [[homotopy type theory]], i.e. sequential spectra that are [[stable homotopy types]].
+This entry is about the formulation of [[Omega-spectra]] [[spectrum object|in]] [[homotopy type theory]], i.e. [[sequential spectrum types]] that are [[stable homotopy types]].
 
 ## Definition ##
 
-In [[homotopy type theory]], a **spectrum** or $\Omega$-**spectrum** is a [[sequential spectrum type]] $E$ in which each pointed map $e_n$ is an equivalence.
+In [[homotopy type theory]], a **spectrum** or $\Omega$-**spectrum** is a [[sequential spectrum type]] $E$ in which each pointed map $e_n$ is an [[equivalence in homotopy type theory|equivalence]].
 
 $$\Spectrum \equiv \sum_{E : \PreSpectrum} \prod_{n : \mathbb{Z}} \IsEquiv (e_n)$$
 
