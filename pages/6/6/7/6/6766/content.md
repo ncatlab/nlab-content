@@ -52,6 +52,8 @@ This flat connection is the Knizhnik-Zamolodchikov connection. This was maybe fi
 
 * [[Hitchin connection]]
 
+* [[Pochhammer loop]]
+
 
 ## References
  {#References}
