@@ -1,9 +1,4 @@
-_Localization in Homotopy Type Theory_, [[Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], 
-
-## Links ##
-
-[arXiv:1807.04155](https://arxiv.org/abs/1807.04155)
-
+_[[Localization in Homotopy Type Theory]]_, [[J. Daniel Christensen]], [[Morgan Opie]], [[Egbert Rijke]], [[Luis Scoccola]], [arXiv:1807.04155](https://arxiv.org/abs/1807.04155)
 
 ### Abstract ###
 
