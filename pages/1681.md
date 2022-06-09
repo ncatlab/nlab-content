@@ -205,6 +205,8 @@ The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[
 
 * [[Peterson space]]
 
+* [[Eilenberg-MacLane space type]]
+
 ## References
 
 ### General
