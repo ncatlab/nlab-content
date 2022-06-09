@@ -74,8 +74,6 @@ Since the definition of semisimplicial types requires an inductive definition of
 [[!redirects 2-level type theory]]
 [[!redirects 2-level type theories]]
 [[!redirects 2LTT]]
-[[!redirects HTS]]
-[[!redirects Homotopy Type System]]
 [[!redirects fibrant type]]
 [[!redirects fibrant types]]
 [[!redirects non-fibrant type]]
