@@ -60,7 +60,7 @@ A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ betwee
 
 * [[elliptic operator|Elliptic operators]] on [[compact topological space|compact]] [[manifolds]] are naturally Fredholm, when understood between the appropriate [[Sobolev spaces]].
 
-*[charged vacua of free Dirac field in Coulomb background](Dirac+field#FreeDiracFieldInCoulombBackground) are characterized by Fredholm operators
+* [charged vacua of free Dirac field in Coulomb background](Dirac+field#FreeDiracFieldInCoulombBackground) are characterized by Fredholm operators
 
 
 
