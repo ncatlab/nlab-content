@@ -28,8 +28,9 @@ $$
 from $\Delta_+$, the [[wide subcategory]] of the [[simplex category]] on the injective functions (the co-face maps).
 
 ### In homotopy type theory
+ {#InHomotopyTypeTheory}
 
-One may try to formulate semi-simplicial [[types]] in [[homotopy type theory]]. See the discussion at ([IAS](#IAS)).
+One may try to formulate semi-simplicial [[types]] in [[homotopy type theory]]. See *[[semi-simplicial types in homotopy type theory]]* and see the discussion at ([IAS](#IAS)).
 
 ## Properties
 
