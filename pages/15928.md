@@ -52,4 +52,7 @@ For the relation to [[modal type theory]] see [Rijke, Shulman, Spitters](#RSS).
 
 * {#HoTTBook} [Univalent Foundations Project](http://ncatlab.org/nlab/show/UF-IAS-2012), section 7.7 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ [arXiv](https://arxiv.org/abs/1706.07526)
+* {#RSS} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _[[Modalities in homotopy type theory]]_ [arXiv](https://arxiv.org/abs/1706.07526)
+
+
+[[!redirects reflective subuniverses]]
