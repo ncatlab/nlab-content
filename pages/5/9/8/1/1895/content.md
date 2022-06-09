@@ -77,7 +77,13 @@ To be continued...
 
 * [[Iwahori–Hecke algebra]]
 
-## References and links
+## References
+
+In relation to the [[Knizhnik-Zamolodchikov equation]]:
+
+* [[Ivan Cherednik]], *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
+
+See also:
 
 * Secret Blogging Seminar: [Interpreting the Hecke algebra](https://sbseminar.wordpress.com/2008/02/25/interpreting-the-hecke-algebra/) 
 
@@ -87,3 +93,5 @@ To be continued...
 For the representation theory of the degenerate affine Hecke algebra see
 
 * Takeshi Suzuki, _Rogawski's conjecture on the Jantzen filtration for the degenerate affine Hecke algebra of type A_, [math.QA/9805035](http://arxiv.org/abs/math/9805035)
+
+[[!redirects Hecke algebras]]
