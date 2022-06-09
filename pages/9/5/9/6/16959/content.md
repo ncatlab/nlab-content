@@ -146,6 +146,8 @@ If $p \colon X \to Y$ is a fibration, then $p$ factors as a [[Hurewicz cofibrati
 * [[suspension]]
  
 * [[Hopf construction]]
+
+* [[join type]]
  
 * [[join of simplicial sets]], 
  
