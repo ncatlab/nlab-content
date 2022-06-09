@@ -1,0 +1,6 @@
+_[[Cellular Cohomology in Homotopy Type Theory]]_, [[Ulrik Buchholtz]], [[Kuen-Bang Hou (Favonia)]], [arXiv:1802.02191](https://arxiv.org/abs/1802.02191)
+
+## Abstract ##
+We present a development of [[cellular]] [[cohomology]] in homotopy type theory. Cohomology associates to each space a sequence of abelian groups capturing part of its structure, and has the advantage over homotopy groups in that these abelian groups of many common spaces are easier to compute in many cases. Cellular cohomology is a special kind of cohomology designed for cell complexes: these are built in stages by attaching spheres of progressively higher dimension, and cellular cohomology defines the groups out of the combinatorial description of how spheres are attached. Our main result is that for finite cell complexes, a wide class of cohomology theories (including the ones defined through Eilenberg-MacLane spaces) can be calculated via cellular cohomology. This result was formalized in the Agda proof assistant.
+
+category: reference
