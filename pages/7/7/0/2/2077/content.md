@@ -65,6 +65,8 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 
 * [[equivariant function]]
 
+* [[opposite poset]]
+
 
 [[!redirects monotone]]
 [[!redirects monotone function]]
@@ -140,4 +142,5 @@ The alternative sort of monotone function on a single proset $S$ is rather diffe
 [[!redirects strictly monotonic]]
 
 [[!redirects antitonic]]
+[[!redirects antitonic function]]
 
