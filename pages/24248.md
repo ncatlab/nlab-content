@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[fractional-level WZW models]]:
+On [[fractional-level WZW models]] and [[logarithmic CFT]]:
 
 * [[Kazuya Kawasetsu]], [[David Ridout]], *Relaxed highest-weight modules I: rank 1 cases*, Commun. Math. Phys. **368** (2019) 627–663  $[$[arXiv:1803.01989](https://arxiv.org/abs/1803.01989), [doi:10.1007/s00220-019-03305-x](https://doi.org/10.1007/s00220-019-03305-x)$]$
 
