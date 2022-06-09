@@ -1,13 +1,38 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Spheres
++--{: .hide}
+[[!include spheres -- contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 
 ## Idea
-The [[homotopy groups of spheres]] are a fundamental concept in [[algebraic topology]] and [[homotopy theory]]. They tell you about [[homotopy classes]] of maps from [[spheres]] to other spheres which can be rephrased as the collection of different ways to attach a sphere to another sphere. The [[homotopy type]] of a [[CW complex]] is completely determined by the homotopy types of the attaching maps.
+ {#Idea}
 
-Here's a quick reference for the state of the art on [[homotopy groups]] of spheres in HoTT. 
+This entry is about [[homotopy groups of spheres]] formalized in [[homotopy type theory]] (HoTT).
+
+The [[homotopy groups of spheres]] are a fundamental concept in [[algebraic topology]] and [[homotopy theory]]. They are the [[homotopy classes]] of [[maps]] between spheres. These may equivalently be understood as collection of different ways to [[space attachment|attach]] spheres to each other. For instance, the [[homotopy type]] of a [[CW complex]] is completely determined by the homotopy types of the attaching maps.
+
+The following is a quick reference for the state of the art on formalizing and computing [[homotopy groups of spheres]] in [[homotopy type theory]].
 
 ## Table
 
@@ -65,11 +90,15 @@ Here's a quick reference for the state of the art on [[homotopy groups]] of sphe
 </table>
 
 
-## At least one proof has been formalized
+## Formalized proofs
+
+The following is a list of results for which at least one [[proof]] has been formalized in HoTT.
 
 ### Calculuation of $\pi_4(S^3)$ {#pi4s3}
 
 * [[Guillaume Brunerie]] has proved that there exists an $n$ such that $\pi_4(S^3)$ is $\mathbb{Z}_n$.  Given a computational interpretation, we could run this proof and check that $n$ is 2. Added June 2016: Brunerie now has a proof that $n=2$, using cohomology calculations and a Gysin sequence argument.
+
+See also at *[[first stable homotopy group of spheres]]*.
 
 ### Calculuation of $\pi_3(S^2)$ {#pi3s2}
 
@@ -82,6 +111,8 @@ Here's a quick reference for the state of the art on [[homotopy groups]] of sphe
 * This follows from the Hopf fibration and long exact sequence of homotopy groups.
 * It was [formalized in Lean](https://github.com/leanprover/lean2/blob/master/hott/homotopy/sphere2.hlean) in 2016.
 
+See also at *[[second stable homotopy group of spheres]]*.
+
 ### Freudenthal Suspension Theorem  {#fsusp}
 
 Implies $\pi_k(S^n) = \pi_{k+1}(S^{n+1})$ whenever $k \le 2n - 2$
@@ -93,6 +124,8 @@ Implies $\pi_k(S^n) = \pi_{k+1}(S^{n+1})$ whenever $k \le 2n - 2$
 * [[Dan Licata]] and [[Guillaume Brunerie]]'s [encode/decode-style proof using iterated loop spaces](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiNSN.agda) (for single-loop presentation).
 * [[Guillaume Brunerie]]'s proof (for suspension definition).
 * [[Dan Licata]]'s [proof from Freudenthal suspension theorem](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiSnSusp.agda) (for suspension definition).
+
+See also at **[[Hopf degree theorem]]**.
 
 ### Calculuation of $\pi_k(S^n)$ for $k \lt n$ {#piksn}
 
@@ -110,6 +143,13 @@ Implies $\pi_k(S^n) = \pi_{k+1}(S^{n+1})$ whenever $k \le 2n - 2$
 
 * [[Mike Shulman]]'s proof by contractibility of total space of universal cover ([HoTT blog](http://uf-ias-2012.wikispaces.com/ofpost)).
 * [[Dan Licata]]'s encode/decode-style proof ([HoTT blog](http://homotopytypetheory.org/2012/06/07/a-simpler-proof-that-%CF%80%E2%82%81s%C2%B9-is-z/)). A [paper](http://arxiv.org/abs/1301.3443) mostly about the encode/decode-style proof, but also describing the relationship between the two.
+
 * [[Guillaume Brunerie]]'s proof using the flattening lemma.
+
+See also at *[[circle type]]* for more.
+
+
+[[!redirects formalization of the homotopy groups of spheres in homotopy type theory]]
+
 
 category: homotopy theory
