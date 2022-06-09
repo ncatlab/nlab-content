@@ -121,7 +121,7 @@ Formalization of [[bicategories]]:
 
 Lemmas and proofs are taken from 
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 
 ### By coinduction
