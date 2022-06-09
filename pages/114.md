@@ -31,4 +31,11 @@ Generalising this, given an [[internal category]] $C$ with object of objects $C_
 
 [[!redirects codomain]]
 [[!redirects codomains]]
+
+[[!redirects co-domain]]
+[[!redirects co-domains]]
+
+
 [[!redirects target object]]
+
+
