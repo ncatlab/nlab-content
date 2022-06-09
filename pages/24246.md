@@ -12,6 +12,7 @@ On [[WZW models]] at fractional [[level (Chern-Simons theory)|level]] interprete
 
 * [[Boris Feigin]], [[Feodor Malikov]], *Modular functor and representation theory of $\widehat{\mathfrak{sl}_2}$ at a rational level*, p. 357-405 in: Loday, Stasheff, Voronov (eds.) *Operads: Proceedings of Renaissance Conferences*,  Contemporary Mathematics **202** , AMS 1997 ([arXiv:q-alg/9511011](https://arxiv.org/abs/q-alg/9511011), [ams:conm-202](https://bookstore.ams.org/conm-202))
 
+* [[David Ridout]], *$\widehat{\mathfrak{sl}}(2)_{-1/2}$: A Case Study*, Nucl. Phys. B **814** (2009) 485-521 $[$[arXiv:0810.3532](https://arxiv.org/abs/0810.3532), [doi:10.1016/j.nuclphysb.2009.01.008](https://doi.org/10.1016/j.nuclphysb.2009.01.008)$]$
 
 * [[Thomas Creutzig]], [[David Ridout]], *Modular Data and Verlinde Formulae for Fractional Level WZW Models I*, Nuclear Physics B **865** 1 (2012) 83-114 $[$[arXiv:1205.6513](https://arxiv.org/abs/1205.6513), [doi:10.1016/j.nuclphysb.2012.07.018](https://doi.org/10.1016/j.nuclphysb.2012.07.018)$]$
 
