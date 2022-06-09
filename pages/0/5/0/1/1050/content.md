@@ -218,9 +218,12 @@ Discussion of left exactness (or [[flat functor]]) in the context of [[(∞,1)-c
 
 [[!redirects lex functor]]
 [[!redirects lex functors]]
+[[!redirects lex]]
 
 [[!redirects right exact functor]]
 [[!redirects right exact functors]]
+
 [[!redirects rex functor]]
 [[!redirects rex functors]]
+[[!redirects rex]]
 
