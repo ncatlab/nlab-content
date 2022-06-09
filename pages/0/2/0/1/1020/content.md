@@ -127,7 +127,7 @@ $$ \begin{aligned}
 \end{aligned} $$
 using Lemma 9.2.8 (see [[natural transformation]]) and the triangle identities. Similarly, we show $\gamma \delta=1_{G'}$, so $\gamma$ is a [[natural isomorphism]] $G \cong G'$. By Theorem 9.2.5 (see [[functor category]]), we have an [[identity]] $G=G'$.
 
-Now we need to know that when $\eta$ and $\epsilon$ are [transported]] along this [[identity]], they become equal to $\eta'$ and $\epsilon '$. By Lemma 9.1.9,
+Now we need to know that when $\eta$ and $\epsilon$ are [[transported]] along this [[identity]], they become equal to $\eta'$ and $\epsilon '$. By Lemma 9.1.9,
 
 +--{.query}
 Lemma 9.1.9 needs to be included. For now as transports are not yet written up I didn't bother including a reference to the page [[category]]. -Ali
