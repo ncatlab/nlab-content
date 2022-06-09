@@ -14,11 +14,12 @@
 
 ## Idea ##
 
-The loop space of a [[pointed type]] is simply the type of [[identifications]] from a term to itself i.e. loops.
+In [[homotopy type theory]],
+the [[loop space]] of a [[pointed type]] is simply the [[type]] of [[identifications]] from a [[term]] to itself i.e. [[loops]].
 
 ## Definition ##
 
-Given a pointed type $(A,\star_A)$ the loop space type is the type $\Omega(A,\star_A)\equiv \star_{A} =_{A} \star_{A}$ and has basepoint $refl_{\star A}$.
+Given a [[pointed type]] $(A,\star_A)$ the *loop space type* is the type $\Omega(A,\star_A)\equiv \star_{A} =_{A} \star_{A}$ and has basepoint $refl_{\star A}$.
 
 The $n$-fold **iterated loop space** $\Omega^n(A,\star_A)$ can be defined by induction on $n$:
  * $\Omega^0(A,\star_A)=(A,\star_A)$
@@ -47,6 +48,6 @@ The $n$-fold **iterated loop space** $\Omega^n(A,\star_A)$ can be defined by ind
 
 ## References
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects loop space types]]
