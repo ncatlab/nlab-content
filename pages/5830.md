@@ -529,6 +529,15 @@ A slightly more human readable version is collected as a single pdf in
 
 * Voevodsky, Vladimir and Ahrens, Benedikt and Grayson, Daniel and others, [[unimath|UniMath]], [GitHub](https://github.com/UniMath) link.
 
+
+
+
+[[!include homotopy theory in homotopy type theory -- references]]
+
+
+
+
+
 [[!redirects homotopy type theory]]
 [[!redirects (∞,1)-type theory]]
 [[!redirects (infinity,1)-type theory]]
