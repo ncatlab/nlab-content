@@ -182,6 +182,8 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[categorical algebra]]
 
+* [[A3-space]]
+
 [[!include oidification - table]]
 
 ## References
