@@ -487,7 +487,6 @@ Formulation in full [[AQFT on curved spacetimes]]:
 
 
 
-
 ### Formulation by algebra in modular tensor categories
  {#FRSFormalism}
 
