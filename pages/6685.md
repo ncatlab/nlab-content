@@ -54,6 +54,8 @@ See [[looping]] and [[delooping]] for more.
 
 * [[loop space]], [[free loop space]]
 
+  [[loop space object]], [[loop space type]]
+
 * [[fundamental group]]
 
 * [[loop group]]
