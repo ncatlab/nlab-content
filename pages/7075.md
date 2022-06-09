@@ -274,6 +274,8 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 
 * [[complex projective space]]
 
+* [[Hopf construction in homotopy type theory]]
+
 ## References
   {#References}
 
