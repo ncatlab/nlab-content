@@ -21,7 +21,7 @@ An **$A_n$-space** or **$A_n$-algebra in spaces** is a space (in the sense of an
 * An $A_0$-space is a pointed space.
 * Same with an $A_1$-space.
 * An $A_2$-space is an [[H-space]].
-* An $A_3$-space is a homotopy associative H-space (but no coherence is required of the associator).
+* An [[A_3-space|$A_3$-space]] is a homotopy associative H-space (but no coherence is required of the associator).
 * An $A_4$-space has an associativity homotopy that satisfies the pentagon identity up to homotopy, but no further coherence.
 * ...
 * An [[A-infinity space]] has all coherent higher associativity homotopies.
@@ -58,8 +58,7 @@ An **$A_n$-space** or **$A_n$-algebra in spaces** is a space (in the sense of an
 [[!redirects A1 spaces]]
 [[!redirects A2 space]]
 [[!redirects A2 spaces]]
-[[!redirects A3 space]]
-[[!redirects A3 spaces]]
+
 [[!redirects A4 space]]
 [[!redirects A4 spaces]]
 [[!redirects A5 space]]
@@ -69,8 +68,7 @@ An **$A_n$-space** or **$A_n$-algebra in spaces** is a space (in the sense of an
 [[!redirects A1-spaces]]
 [[!redirects A2-space]]
 [[!redirects A2-spaces]]
-[[!redirects A3-space]]
-[[!redirects A3-spaces]]
+
 [[!redirects A4-space]]
 [[!redirects A4-spaces]]
 [[!redirects A5-space]]
