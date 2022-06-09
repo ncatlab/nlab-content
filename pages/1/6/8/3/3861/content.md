@@ -10,7 +10,7 @@ Russian original:
 
 English translation (enhanced with comments):
 
-* Encyclopaedia of Mathematics.  Edited by Michiel Hazewinkel.  
+* Encyclopaedia of Mathematics.  Edited by [[Michiel Hazewinkel]].  
 D. Reidel Publishing Co. (starting from Volume 2: Kluwer Academic Publishers), Dordrecht,
 * Volume 1 (1988. x+488 pp. ISBN: 1-55608-000-X);
 * Volume 2 (1988. x+508 pp. ISBN: 1-55608-001-8);
@@ -55,4 +55,5 @@ Encyclopaedia of Mathematics is an enhanced English translation of the Soviet ve
 category: reference
 
 [[!redirects Springer Online Encyclopaedia of Mathematics]]
-[[!redirects Encyclopaedia of Mathematics]]
+
+[[!redirects Encyclopedia of Mathematics]]
