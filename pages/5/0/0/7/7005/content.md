@@ -40,18 +40,27 @@ The univalence axiom does not *literally* say that anything is univalent in this
 
 ## Definition
 
-We state univalence first in ([[intensional type theory|intensional]]) [[type theory]] and then in its [[categorical semantics]].
+We state univalence first in [[higher observational type theory]] and [[intensional type theory]] and then in its [[categorical semantics]].
 
-### In the type theory
+### In higher observational type theory
 
-Let $X$ and $Y$ be [[types]].  There is a canonically defined map from the [[identity type]] $(X = Y)$ of paths (in [[Type]]) between them to the [[function type]] $(X \stackrel{\simeq}{\to} Y)$ of [[equivalences in homotopy type theory]] between them.  It can be defined by *[path induction](inductive%20type#PathInduction)*, i.e. the [[term elimination rule|eliminator]] for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$.
+A universe $U$ is **univalent** if for all $A,B:U$ there are rules
 
-**Univalence:** _For any two [[types]] $X,Y$, this map $(X=Y)\to (X\simeq Y)$ is an [[equivalence in homotopy type theory|equivalence]]._
+$$\frac{R:A \simeq_U B}{\Delta R:\mathrm{id}_U(A, B)} \qquad \frac{P:\mathrm{id}_U(A, B)}{\nabla P:A \simeq_U B} \qquad \frac{R:A \simeq_U B}{\nabla \Delta R \equiv R}$$
+
+### In intensional type theory
+
+A universe $U$ is **univalent** if for all $A,B:U$, the map
+
+$$ (A=_U B) \to (A\simeq_U B) $$
+
+from the identity type $(A=_U B)$ to the function type $(A\simeq_U B)$ of [[equivalences in homotopy type theory]], defined by [path induction](/nlab/show/inductive+type#PathInduction) (i.e. the [[term elimination rule|eliminator]] for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$), is an equivalence. So we have
+
+$$ (A=_U B) \simeq (A \simeq_U B). $$
 
 When $X$ and $Y$ are [propositions](propositions+as+types#PropositionsAsSomeTypes), univalence corresponds to [[propositional extensionality]].
 
 Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (see at _[[univalent foundations for mathematics]]_).
-
 
 ### In categorical semantics
  {#InCategoricalSemantics}
@@ -261,6 +270,25 @@ Canonicity has been proved for [[cubical type theory]].
 
 One might also try to construct the Hoffman-Streicher groupoid model in a constructive framework; Awodey and Bauer have done some work in this direction with an [[predicative mathematics|impredicative]] [[universe]] of [[h-sets]].
 
+### A univalent universe inside a non-univalent universe
+
+In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/forum/#!forum/homotopytypetheory), Peter LeFanu Lumsdaine [wrote](https://groups.google.com/d/msg/homotopytypetheory/3wp32xV7OX0/2HfAnBt44XoJ):
+
+> Let $(x_0:X)$ be any [[pointed type]], and $(\mathcal{U}, El)$ be a universe (with rules as I set out a couple of emails ago). Then $X \times \mathcal{U}$ is again a universe, admitting all the same constructors as $\mathcal{U}$: take
+
+> $El(x,A) = El(A)$,  
+> $(x,A) +_\mathcal{U} (y,B) = (x_0, A +_\mathcal{U} B)$,
+
+> and so on; that is, constructor operations on $(X \times \mathcal{U})$ are constantly $x_0$ on the first component, and mirror those of $\mathcal{U}$ on the second component.
+
+> Now if $\mathcal{U}$ is univalent, and $X$ has non-trivial $\pi_0$ (e.g. $X=S^1$), then $\mathcal{U} \rightarrow (X \times \mathcal{U}$) gives a univalent universe sitting inside a non-univalent one (again, with the rules as I set out earlier).
+
+> Slightly more generally, given any cumulative pair of universes $\mathcal{U}_0 \rightarrow \mathcal{U}_1$, we can consider $\mathcal{U}_0 \rightarrow A \times \mathcal{U}_1$; this shows we can additionally have the smaller universe represented by an element of the larger one.
+
+[[Mike Shulman]] [added](https://groups.google.com/d/msg/homotopytypetheory/3wp32xV7OX0/kIapR0lo1UEJ):
+
+> [N]ot only is $X \times \mathcal{U}$ not univalent, it's not even "univalent on the image of $\mathcal{U}$", as was the case for the example in the groupoid model that I mentioned.
+
 ## Related concepts
 
 * [[univalent foundations]]
@@ -401,7 +429,8 @@ Finally, full proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable 
 
 For more references see _[[homotopy type theory]]_.
 
-
 [[!redirects univalence]]
 [[!redirects univalent]]
+[[!redirects univalent universe]]
+[[!redirects univalent universes]]
 
