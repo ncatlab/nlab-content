@@ -61,7 +61,9 @@ define $T$ inductively as well. This is the principle of [[induction-induction]]
 
 * [[algebraically compact category]]
 
-##References 
+## References 
+
+* [[Peter Dybjer]] (2000), _A General Formulation of Simultaneous Inductive-Recursive Definitions in Type Theory_ ([pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Recursive.pdf))
 
 * {#ForsSetz} [[Fredrik Nordvall Forsberg]] and [[Anton Setzer]], _A finite axiomatisation of inductive-inductive definitions_, ([pdf](https://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/papers/indind_finite.pdf))
 
