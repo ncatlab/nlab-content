@@ -369,3 +369,5 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects n-connected morphisms]]
 
 
+[[!redirects connectivity]]
+
