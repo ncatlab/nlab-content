@@ -6,17 +6,22 @@
 
 The "[[hypergeometric construction of KZ solutions|hypergeometric]]" construction of [[conformal blocks]] for [[affine Lie algebra]]/[[WZW model]]-[[2d CFTs]] and of more general solutions to the [[Knizhnik-Zamolodchikov equation]], via [[twisted de Rham cohomology]] of [[configuration spaces of points]], originates with:
 
-* {#SchechtmanVarchenko89} [[Vadim Schechtman]], [[Alexander Varchenko]], *Integral representations of N-point conformal correlators in the WZW model*,  Max-Planck-Institut für Mathematik, (1989) Preprint MPI/89- $[$[cds:1044951](http://cds.cern.ch/record/1044951)$]$
+* [[Vadim Schechtman]], [[Alexander Varchenko]], *Integral representations of N-point conformal correlators in the WZW model*,  Max-Planck-Institut für Mathematik, (1989) Preprint MPI/89- $[$[cds:1044951](http://cds.cern.ch/record/1044951)$]$
 
-* {#SchechtmanVarchenko90} [[Vadim Schechtman]], [[Alexander Varchenko]], *Hypergeometric solutions of Knizhnik-Zamolodchikov equations*, Lett. Math. Phys. **20** (1990) 279–283 $[$[doi:10.1007/BF00626523](https://doi.org/10.1007/BF00626523)$]$
+* Etsuro Date, [[Michio Jimbo]], Atsushi Matsuo, [[Tetsuji Miwa]], *Hypergeometric-type integrals and the $\mathfrak{sl}(2,\mathbb{C})$-Knizhnik-Zamolodchikov equation*,  International Journal of Modern Physics B **04** 05 (1990) 1049-1057   $[$[doi:10.1142/S0217979290000528](https://doi.org/10.1142/S0217979290000528)$]$
 
-* {#SchechtmanVarchenko91} [[Vadim Schechtman]], [[Alexander Varchenko]], *Arrangements of hyperplanes and Lie algebra homology*, Inventiones mathematicae  **106** 1 (1991) 139-194 $[$[dml:143938](https://eudml.org/doc/143938), [[SchechtmanVarchenko_HyperplaneArrangements.pdf:file]]$]$
+  > (for [[sl(2)|$\mathfrak{sl}(2,\mathbb{C})$]])
+
+* [[Vadim Schechtman]], [[Alexander Varchenko]], *Hypergeometric solutions of Knizhnik-Zamolodchikov equations*, Lett. Math. Phys. **20** (1990) 279–283 $[$[doi:10.1007/BF00626523](https://doi.org/10.1007/BF00626523)$]$
+
+* [[Vadim Schechtman]], [[Alexander Varchenko]], *Arrangements of hyperplanes and Lie algebra homology*, Inventiones mathematicae  **106** 1 (1991) 139-194 $[$[dml:143938](https://eudml.org/doc/143938), [[SchechtmanVarchenko_HyperplaneArrangements.pdf:file]]$]$
 
 following precursor observations due to:
 
 * [[Vladimir S. Dotsenko]], [[Vladimir A. Fateev]], *Conformal algebra and multipoint correlation functions in 2D statistical models*, Nuclear Physics B **240** 3 (1984) 312-348 $[$<a href="https://doi.org/10.1016/0550-3213(84)90269-4">doi:10.1016/0550-3213(84)90269-4</a>$]$
 
-* [[Philippe Christe]], [[Rainald Flume]], *The four-point correlations of all primary operators of the $d = 2$ conformally invariant $SU(2)$ $\sigma$-model with Wess-Zumino term*, Nuclear Physics B **282** (1987) 466-494 $[$<a href="https://doi.org/10.1016/0550-3213(87)90693-6">doi:10.1016/0550-3213(87)90693-6</a>$]$
+* [[Philippe Christe]], [[Rainald Flume]], *The four-point correlations of all primary operators of the $d = 2$ conformally invariant $SU(2)$ $\sigma$-model with Wess-Zumino term*, Nuclear Physics B
+**282** (1987) 466-494 $[$<a href="https://doi.org/10.1016/0550-3213(87)90693-6">doi:10.1016/0550-3213(87)90693-6</a>$]$
 
 
 The proof that for rational levels this construction indeed yields [[conformal blocks]] is due to:
@@ -25,9 +30,9 @@ The proof that for rational levels this construction indeed yields [[conformal b
 
 * {#FeiginSchechtmanVarchenko94} [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. I*, Commun. Math. Phys. **163** (1994) 173–184 $[$[doi:10.1007/BF02101739](https://doi.org/10.1007/BF02101739)$]$
 
-  > (for $\mathfrak{sl}(2)$)
+  > (for [[sl(2)|$\mathfrak{sl}(2, \mathbb{C})$]])
 
-* {#FeiginSchechtmanVarchenko95} [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. II*, Comm. Math. Phys. **170** 1 (1995) 219-247  $[$[euclid:cmp/1104272957](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-170/issue-1/On-algebraic-equations-satisfied-by-hypergeometric-correlators-in-WZW-models/cmp/1104272957.full)$]$
+* [[Boris Feigin]], [[Vadim Schechtman]], [[Alexander Varchenko]], *On algebraic equations satisfied by hypergeometric correlators in WZW models. II*, Comm. Math. Phys. **170** 1 (1995) 219-247  $[$[euclid:cmp/1104272957](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-170/issue-1/On-algebraic-equations-satisfied-by-hypergeometric-correlators-in-WZW-models/cmp/1104272957.full)$]$
 
 
 Review:     
@@ -36,14 +41,14 @@ Review:
 
 * {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Lecture 7 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
 
-* [[Toshitake Kohno]], *Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks*, Acta Math Vietnam 39, 575–598 (2014).  ([doi:10.1007%2Fs40306-014-0088-6](https://link.springer.com/article/10.1007%2Fs40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf))
+* [[Toshitake Kohno]], *Local Systems on Configuration Spaces, KZ Connections and Conformal Blocks*, Acta Math Vietnam **39** (2014) 575–598 $[$[doi:10.1007%2Fs40306-014-0088-6](https://link.springer.com/article/10.1007%2Fs40306-014-0088-6), [pdf](https://www.ms.u-tokyo.ac.jp/~kohno/papers/kohno_config.pdf)$]$
 
-* [[Toshitake Kohno]], *Homological representations of braid groups and KZ connections*, Journal of Singularities **5** (2012) 94-108  ([doi:10.5427/jsing.2012.5g](http://dx.doi.org/10.5427/jsing.2012.5g),  [pdf](https://www.journalofsing.org/volume5/kohno.pdf))
+* [[Toshitake Kohno]], *Homological representations of braid groups and KZ connections*, Journal of Singularities **5** (2012) 94-108  $[$[doi:10.5427/jsing.2012.5g](http://dx.doi.org/10.5427/jsing.2012.5g),  [pdf](https://www.journalofsing.org/volume5/kohno.pdf)$]$
+
 
 See also:
 
-* [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs
-**88**, AMS 2004 ([ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/))
+* [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs **88**, AMS 2004 $[$[ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/)$]$
 
 This "hypergeometric" construction uses results on the [[twisted de Rham cohomology]] of [[configuration spaces of points]] due to:
 
