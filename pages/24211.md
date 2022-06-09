@@ -1,3 +1,9 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 The [[homotopy groups of spheres]] are a fundamental concept in [[algebraic topology]]. They tell you about [[homotopy classes]] of maps from [[spheres]] to other spheres which can be rephrased as the collection of different ways to attach a sphere to another sphere. The [[homotopy type]] of a [[CW complex]] is completely determined by the homotopy types of the attaching maps.
 
@@ -84,7 +90,7 @@ Implies $\pi_k(S^n) = \pi_{k+1}(S^{n+1})$ whenever $k \le 2n - 2$
 
 ### Calculuation of $\pi_n(S^n)$ {#pinsn}
 
-* [[Dan Licata]]and [[Guillaume Brunerie]]'s [encode/decode-style proof using iterated loop spaces](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiNSN.agda) (for single-loop presentation).
+* [[Dan Licata]] and [[Guillaume Brunerie]]'s [encode/decode-style proof using iterated loop spaces](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiNSN.agda) (for single-loop presentation).
 * [[Guillaume Brunerie]]'s proof (for suspension definition).
 * [[Dan Licata]]'s [proof from Freudenthal suspension theorem](https://github.com/dlicata335/hott-agda/blob/master/homotopy/PiSnSusp.agda) (for suspension definition).
 
