@@ -1,7 +1,7 @@
 
 
 
-Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems and [[topological phases of matter]].
+Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems and [[topological phases of matter]]. He introduced and studied the concept of *[[topological order]]* and its *[[symmetry protected topological phase|symmetry proteced]]* versions.
 
 * [Perimeter Institute page](http://www.perimeterinstitute.ca/people/xiao-gang-wen) 
 
@@ -33,6 +33,10 @@ Early review:
 The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
 
 * {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], p. 2 of:  *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
+
+On understanding generalized [[Laughlin wavefunctions]] as [[conformal blocks]]:
+
+* [[Xiao-Gang Wen]], Yong-Shi Wu, *Chiral operator product algebra hidden in certain fractional quantum Hall wave functions*, Nucl. Phys. B **419** (1994) 455-479 $[$<a href="https://doi.org/10.1016/0550-3213(94)90340-9">doi:10.1016/0550-3213(94)90340-9</a>$]$
 
 Suggestion that [[topological order]] goes along with [[long-range entanglement]]:
 
