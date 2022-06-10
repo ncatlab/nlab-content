@@ -173,6 +173,7 @@ The basic theory also generalises immediately to any unbounded, [[dense linear o
 ## See also
 
 * [[locator]]
+* [[Dedekind cut structure]]
 * [[streak]]
 
 ## References
