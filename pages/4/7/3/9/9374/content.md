@@ -58,9 +58,11 @@ On generalizing the [[FRS-theorem on rational 2d CFT]] to logarithmic 2dCFTs:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
 
-Examples:
+Logarithmic CFT describing generalized [[Laughlin wavefunctions]] with [[topological order]]:
 
-* [[David Ridout]], [[Simon Wood]], _Bosonic ghosts at $c=2$ as a logarithmic CFT_, [arxiv/1408.4185](http://arxiv.org/abs/1408.4185)
+* {#GurarieFlohrNayak97} [[Victor Gurarie]], [[Michael Flohr]], [[Chetan Nayak]], *The Haldane-Rezayi Quantum Hall State and Conformal Field Theory*, Nucl. Phys. B **498** (1997) 513-538 $[$[arXiv:cond-mat/9701212](https://arxiv.org/abs/cond-mat/9701212), [doi:10.1016/S0550-3213%2897%2900351-9](https://doi.org/10.1016/S0550-3213%2897%2900351-9)$]$
+
+  > (review in [Flohr 2003, §5.4](logarithmic+CFT#Flohr03))
 
 
 See also:
@@ -90,20 +92,26 @@ and in the quantum group center_, Commun. Math. Phys. 265 (2006) 47&#8211;93;
 
 
 
-### For topologically ordered Laughlin wavefunctions
+### Example: The the $c = -2$ model
+ {#ExampleTripletAlgebra}
 
-Logarithmic CFT describing generalized [[Laughlin wavefunctions]] with [[topological order]]:
+* [[Victor Gurarie]], *Logarithmic Operators in Conformal Field Theory*,  	Nucl.Phys. B **410** (1993) 535-549 $[$[arXiv:hep-th/9303160](https://arxiv.org/abs/hep-th/9303160), <a href="https://doi.org/10.1016/0550-3213(93)90528-W">doi:10.1016/0550-3213(93)90528-W</a>$]$
 
-* {#GurarieFlohrNayak97} V. Gurarie, [[Michael Flohr]], [[Chetan Nayak]], *The Haldane-Rezayi Quantum Hall State and Conformal Field Theory*, Nucl. Phys. B **498** (1997) 513-538 $[$[arXiv:cond-mat/9701212](https://arxiv.org/abs/cond-mat/9701212), [doi:10.1016/S0550-3213%2897%2900351-9](https://doi.org/10.1016/S0550-3213%2897%2900351-9)$]$
+* [[Matthias R. Gaberdiel]], Horst G. Kausch, *A Rational Logarithmic Conformal Field Theory*, Phys.Lett. B **386** (1996) 131-137 $[$[arXiv:hep-th/9606050](https://arxiv.org/abs/hep-th/9606050), <a href="https://doi.org/10.1016/0370-2693(96)00949-5">doi:10.1016/0370-2693(96)00949-5</a>$]$
 
-  > (review in [Flohr 2003, §5.4](logarithmic+CFT#Flohr03))
+Review in:
 
+* [Gaberdiel 2001, §3](#Gaberdiel01)
 
+Relation to the $SU(2)_0$ [[WZW-model]]:
+
+* [Nichols 2002](#Nichols02)
 
 
 
 
 [[!include fractional-level WZW model -- references]]
+
 
 
 
