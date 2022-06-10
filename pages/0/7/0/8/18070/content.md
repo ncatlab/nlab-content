@@ -626,17 +626,18 @@ Let
 
 If $X$ is $G$-connected, in that for all [[subgroups]] $H \subset G$ the $H$-[[fixed point subspace]] $X^H$ is a [[connected topological space]], then the [[Cohomotopy charge map]] 
 
-$$
+\[
+  \label{RourkeSandersonEquivalence1}
   Conf
   \big(
     \mathbb{R}^V,
     X
-  \big)
+  \big)^G
   \underoverset{\simeq}{\;cc\;}{\longrightarrow}
   \Omega^V \Sigma^V X
   \phantom{AAA}
   \text{if X is G-connected}
-$$
+\]
 
 from the equivariant un-ordered $X$-labeled configuration space of points (Def. \ref{EquivariantUnorderedLabeledConfigurationsVanishingWithVanishingLabel}) in the corresponding [[Euclidean G-space]] to the based $V$-loop space of the $V$-suspension of $X$, is a [[weak homotopy equivalence]].
 
@@ -1478,6 +1479,9 @@ Generalization to [[equivariant homotopy theory]]:
 
 * {#RourkeSanderson00} [[Colin Rourke]], [[Brian Sanderson]], _Equivariant Configuration Spaces_, J. London Math. Soc. 62 (2000) 544-552 ([arXiv:math/9712216](https://arxiv.org/abs/math/9712216))
 
+and strengthening in the special case $G = \mathbb{Z}/2$:
+
+* {#Xicotencatl06} Miguel Xicoténcatl, *On $\mathbb{Z}_2$-equivariant loop spaces*, Recent developments in algebraic topology, 183—191, Contemp. Math. 407, 2006 ([pdf](https://ncatlab.org/schreiber/files/Xicotencatl_EquivariantLoopSpaces.pdf))
 
 The relevant construction for the [[group completion]] of the configuration space
 
@@ -1615,6 +1619,10 @@ General discussion of [[ordinary homology]]/[[ordinary cohomology]] of configura
 * Roberto Pagaria, _The cohomology rings of the unordered configuration spaces of the torus_, Algebr. Geom. Topol. 20 (2020) 2995–3012 ([doi:10.2140/agt.2020.20.2995](https://www.doi.org/10.2140/agt.2020.20.2995))
 
 * Christian Blanchet, [[Martin Palmer]], Awais Shaukat, *Heisenberg homology on surface configurations* $[$[arXiv:2109.00515](https://arxiv.org/abs/2109.00515)$]$
+
+Review:
+
+* {#RollandWilson22} Rita Jimenez Rolland, Jennifer C.H. Wilson, *Stability properties of moduli spaces*,  Notices of the American Mathematical Society (2022) $[$[arXiv:2201.04096](https://arxiv.org/abs/2201.04096), [web](https://www.ams.org/journals/notices/202204/noti2452/noti2452.html?adat=April%202022&trk=2452&galt=feature&cat=feature&pdfissue=202204)$]$
 
 
 Expressing the [[rational cohomology]] of [[ordered configuration spaces of points]] via [[factorization homology]] and [[Ran spaces]]:
