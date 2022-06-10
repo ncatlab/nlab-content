@@ -14,9 +14,14 @@ As algebras over the holomorphic punctured sphere operad
 
 * {#HuangCFT} [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_, Progr. in Math. Birkhauser 1997, [gbooks](http://books.google.hr/books?isbn=0817638296)
 
-On the [[representation categories]] of (rational) vertex operator algebras as [[modular tensor categories]]:
+On the [[representation categories]] of (rational) [[vertex operator algebras]] as ([[modular tensor categories|modular]]) [[fusion categories]]:
 
-* {#Huang} [[Yi-Zhi Huang]], _Vertex operator algebras, the Verlinde conjecture and modular tensor categories_ ([arXiv:math/0412261](http://arxiv.org/abs/math/0412261))
+* {#Huang05} [[Yi-Zhi Huang]], *Vertex operator algebras, the Verlinde conjecture and modular tensor categories*, Proc. Nat. Acad. Sci. **102** (2005) 5352-5356 $[$[arXiv:math/0412261](http://arxiv.org/abs/math/0412261), [doi:10.1073/pnas.0409901102](https://doi.org/10.1073/pnas.0409901102)$]$
+
+* {#Huang08} [[Yi-Zhi Huang]], *Rigidity and modularity of vertex tensor categories*,  Communications in Contemporary Mathematics **10** supp01 (2008) 871-911   $[$[arXiv:math/0502533](https://arxiv.org/abs/math/0502533), [doi:10.1142/S0219199708003083](https://doi.org/10.1142/S0219199708003083)$]$
+
+* {#HuangLepowskiZhang14} [[Yi-Zhi Huang]], [[James Lepowsky]], Lin Zhang, *Logarithmic tensor category theory for generalized modules for a conformal vertex algebra, I: Introduction and strongly graded algebras and their generalized modules*,  In: Bai, Fuchs, Huang, Kong, Runkel, Schweigert (eds.), *Conformal Field Theories and Tensor Categories* Mathematical Lectures from Peking University. Springer (2014) $[$[arXiv:1012.4193](https://arxiv.org/abs/1012.4193), [doi:10.1007/978-3-642-39383-9_5](https://doi.org/10.1007/978-3-642-39383-9_5)$]$
+
 
 Relation to [[2d conformal field theory]]:
 
