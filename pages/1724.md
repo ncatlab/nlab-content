@@ -1,4 +1,21 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++-- {: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* table of contents
+{: toc}
+
+## Definition 
+
 In a [[poset]] or even [[proset]], a __lower set__ $L$ is a [[subset]] that is 'downwards closed'; that is,
 
 *  whenever $y \leq x$ and $x \in L$, then $y \in L$.
@@ -12,6 +29,14 @@ A lower set is also sometimes called a 'down set', but that term can also mean s
 
 An [[inhabited subset|inhabited]], [[open subset|open]] lower set of [[rational numbers]] (or equivalently of [[real numbers]]) determines precisely a [[lower real number]].
 
+## See also ##
+
+* [[posite]]
+* [[upper set]]
+* [[ideal]]
+* [[filter]]
+* [[copresheaf]]
+* [[presheaf]]
 
 [[!redirects lower set]]
 [[!redirects lower sets]]
@@ -20,3 +45,6 @@ An [[inhabited subset|inhabited]], [[open subset|open]] lower set of [[rational 
 
 [[!redirects downward closed subset]]
 [[!redirects downward closed subsets]]
+
+[[!redirects (0,1)-presheaf]]
+[[!redirects (0,1)-presheaves]]
