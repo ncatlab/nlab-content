@@ -28,7 +28,7 @@ Hence a quiver is a kind of [[graph]], often called a [[directed graph]] (or [[d
 
 The term "quiver" (German: _K&ouml;cher_) for a _[[directed graph]]_ is due to [Gabriel 72](#Gabriel72), where it says on the first page:
 
-> For such a 4-tuple $\big[$ $V \underoverset{\underset{t}{\longrightarrow}}{\overset{s}{\longrightarrow}}{} E$ $\big]$ we propose the term _quiver_, and not _graph_, since there are already too many notions attached to the latter word.
+> For such a 4-tuple $\big[$ $E \underoverset{\underset{t}{\longrightarrow}}{\overset{s}{\longrightarrow}}{} V$ $\big]$ we propose the term _quiver_, and not _graph_, since there are already too many notions attached to the latter word.
 
 While therefore, as concepts in themselves, _quiver_ and _directed graph_ are just the same, using the term _quiver_ serves to indicate certain constructions that one is interested in (a _[[concept with an attitude]]_), notably the corresponding _[[quiver representations]]_ which much of the theory revolves around. The key result here is _[[Gabriel's theorem]]_ from the same article [Gabriel 72](#Gabriel72) that introduced the terminology _quiver_.
 
