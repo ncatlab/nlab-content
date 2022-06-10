@@ -35,6 +35,7 @@ This is a special case of [[Day convolution]].
 
 A $Set^S$-[[enriched category]] is a [[category]] whose [[morphisms]] all have degrees in $S$, and such that [[identity morphisms]] have degree $0$ and $deg(g f) = deg(g) + deg(f)$.  Note that its underlying ordinary category, in the usual sense of [[enriched category theory]], is the category of degree-$0$ morphisms.
 
+More generally, we may grade by a monoidal category. In this case, graded categories have sometimes been called **locally-graded categories** or **large S-categories**.
 
 ## Graded objects
 
