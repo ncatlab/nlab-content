@@ -1,4 +1,6 @@
 [[!redirects prealgebra real numbers]]
+[[!redirects pre-algebra real number]]
+[[!redirects pre-algebra real numbers]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -34,3 +36,4 @@ If the [[limited principle of omniscience]] is true, then every [[Cauchy real nu
 
 * [[real numbers]]
 * [[limited principle of omniscience]]
+* [[infinite decimal representation of a unit interval]]
