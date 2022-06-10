@@ -18,7 +18,7 @@ with a good review in:
 
 and interpreted as [[logarithmic CFT|logarithmic]] [[2d CFT|CFTs]]:
 
-* [[Matthias R. Gaberdiel]], *Fusion rules and logarithmic representations of a WZW model at fractional level*, Nucl. Phys. B **618** (2001) 407-436 $[$[arXiv:hep-th/0105046](https://arxiv.org/abs/hep-th/0105046), <a href="https://doi.org/10.1016/S0550-3213(01)00490-4">doi:10.1016/S0550-3213(01)00490-4</a>)$]$
+* {#Gaberdiel01} [[Matthias R. Gaberdiel]], *Fusion rules and logarithmic representations of a WZW model at fractional level*, Nucl. Phys. B **618** (2001) 407-436 $[$[arXiv:hep-th/0105046](https://arxiv.org/abs/hep-th/0105046), <a href="https://doi.org/10.1016/S0550-3213(01)00490-4">doi:10.1016/S0550-3213(01)00490-4</a>)$]$
 
 * {#Gaberdiel01} [[Matthias R. Gaberdiel]], Section 5 of: *An algebraic approach to logarithmic conformal field theory*, Int. J. Mod. Phys. A **18** (2003) 4593-4638 $[$[arXiv:hep-th/0111260](https://arxiv.org/abs/hep-th/0111260), [doi:10.1142/S0217751X03016860](https://doi.org/10.1142/S0217751X03016860)$]$
 
@@ -41,13 +41,13 @@ Reviewed in:
 
 * [[David Ridout]], *Fractional-level WZW models* (2020) $[$[pdf](https://researchers.ms.unimelb.edu.au/~dridout@unimelb/seminars/200205.pdf), [[Ridout-FractionalLevelWZW2020.pdf:file]]$]$
 
-In particular, the logarithmic $c = -2$ model is essentially an admissible-level WZW model:
+In particular, the logarithmic $c = -2$ model is essentially an admissible-level WZW model (namely at level $k = 0$):
 
-* Alexander Nichols, *Extended chiral algebras in the $SU(2)_0$ WZNW model*,  JHEP 04 (2002) $[$[doi:10.1088/1126-6708/2002/04/056](https://iopscience.iop.org/article/10.1088/1126-6708/2002/04/056), [arXiv:hep-th/0112094](https://arxiv.org/abs/hep-th/0112094)$]$
+* {#Nichols02} Alexander Nichols, *Extended chiral algebras in the $SU(2)_0$ WZNW model*,  JHEP 04 (2002) $[$[doi:10.1088/1126-6708/2002/04/056](https://iopscience.iop.org/article/10.1088/1126-6708/2002/04/056), [arXiv:hep-th/0112094](https://arxiv.org/abs/hep-th/0112094)$]$
 
 with a comprehensive account in:
 
-* Alexander Nichols, *$SU(2)_k$ Logarithmic Conformal Field Theories*, PhD thesis, Oxford (2012) $[$[arXiv:hep-th/0210070](https://arxiv.org/abs/hep-th/0210070)$]$
+* {#NicholsThesis02} Alexander Nichols, *$SU(2)_k$ Logarithmic Conformal Field Theories*, PhD thesis, Oxford (2002) $[$[arXiv:hep-th/0210070](https://arxiv.org/abs/hep-th/0210070), [spire:599081](https://inspirehep.net/literature/599081)$]$
 
 
 
