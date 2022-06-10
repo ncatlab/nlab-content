@@ -420,13 +420,13 @@ With these bijections being by definition of pro-object morphisms, fully faithfu
 
 ## Applications
 
-### &#201;tale homotopy theory. 
+### Etale homotopy theory. 
 
-Procategories were used by Artin and Mazur in their work on [[étale homotopy]] theory. They associated to a scheme a 'pro-homotopy type'.  (This is discussed briefly at [[étale homotopy]].) The important thing to note is that this was a pro-object in the _homotopy category_ of simplicial sets, i.e., in the pro-homotopy category. Friedlander rigidified their construction to get an object in the pro-category of simplicial sets, and this opened the door to use of 'homotopy pro-categories'.
+Procategories were used by Artin and Mazur in their work on [[étale homotopy]] theory. They associated to a scheme a “pro-homotopy type”.  (This is discussed briefly at [[étale homotopy]].) The important thing to note is that this was a pro-object in the _homotopy category_ of simplicial sets, i.e., in the pro-homotopy category. Friedlander rigidified their construction to get an object in the pro-category of simplicial sets, and this opened the door to use of 'homotopy pro-categories'.
 
 ### Shape theory. 
 
-The form of [[shape theory]] developed by  [[Sibe Mardesic|Marde&#353;i&#263;]] and [[Jack Segal|Segal]], at about the same time as the work in algebraic geometry, again used an approach equivalent to that of the [[pro-homotopy theory|pro-homotopy category]]. Under the name `Čech homotopy theory', the use more formally of the pro-homotopy category, was introduced by Porter.  Strong shape, developed by Edwards and Hastings, also by [[Tim Porter|Porter]] and then in further work by [[Sibe Mardesic|Marde&#353;i&#263;]] and [[Jack Segal|Segal]], used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
+The form of [[shape theory]] developed by [[Sibe Mardešić]] and [[Jack Segal]], at about the same time as the work in algebraic geometry, again used an approach equivalent to that of the [[pro-homotopy theory|pro-homotopy category]]. Under the name “Čech homotopy theory”, the use more formally of the pro-homotopy category, was introduced by Porter.  Strong shape, developed by Edwards and Hastings, also by [[Tim Porter]] and then in further work by [[Sibe Mardešić]] and [[Jack Segal]], used various forms of rigidification to get to the pro-category of spaces, or of simplicial sets.  There methods of model category theory could be used.
   
   
 
