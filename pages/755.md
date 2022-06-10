@@ -17,16 +17,25 @@
 =--
 =--
 
+This page collects material related to the text:
 
-This page collects material related to the text
+* {#Reference} [[Alexander Grothendieck]],
 
-* [[Alexander Grothendieck]],
+  _À la poursuite des champs_
 
-  _À la poursuite des Champs_
-
-  1983
+  (1983)
 
   [English pdf](https://thescrivener.github.io/PursuingStacks/ps-online.pdf)
+
+  \linebreak
+
+  [[Georges Maltsiniotis]] (ed.)
+
+  Documents mathématiques **20**
+
+  Société mathématique de France (2022)
+
+  [ISBN:978-2-85629-958-6](https://smf.emath.fr/publications/la-poursuite-des-champs-volume-i)
 
 on [[homotopy theory]] via [[category theory]] ([[test categories]]) and (rather informally) on [[stacks]] and [[higher toposes]].
 
@@ -53,9 +62,7 @@ Scanned copies of the original typescript are available [here](http://modular.fa
 There is now a set of [LaTeX files on GitHub](https://github.com/thescrivener/PursuingStacks) with corresponding [PDFs on GitHub Pages](https://thescrivener.github.io/PursuingStacks/). The original source tarball is still here, but an administrator should delete it: [[PursuingStacks.tar.gz:file]].
 
 
-##Publication of an edited version
 
-A first volume made up of the main part of the document has been published by the Société Mathématique de France. (The publication data is [here](https://smf.emath.fr/publications/la-poursuite-des-champs-volume-i) for the first volume.) This has been edited by [[Georges Maltsiniotis]].
 
 
 ## Content and influence on current research
@@ -341,3 +348,4 @@ is difficult enough without the extra punishment that he was in effect advocatin
 category: reference
 
 [[!redirects Pursuing stacks]]
+[[!redirects À la poursuite des champs]]
