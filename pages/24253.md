@@ -1,6 +1,13 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition ##
 
-Let $R$ be an [[Archimedean integral domain]] and let $[0, 1]_R$ be the [[unit interval]] in $R$. The __infinite decimal representation__ of $[0, 1]_R$ is a function $\mathcal{I}:[0, 1]_R \to (\mathbb{N} \to [0, 9]_\mathbb{N})$ from the unit interval in $R$ to the type of sequences in the [[natural numbers]] that are bounded below by $0$ and bounded above by $9$, such that $r$ is equal to the [[limit of a sequence|limit of the following sequence]]
+Let $R$ be an [[Archimedean integral domain]] and let $[0, 1]_R$ be the [[unit interval]] in $R$. 
+
+The __infinite decimal representation__ of $[0, 1]_R$ is a [[function]] $\mathcal{I}:[0, 1]_R \to (\mathbb{N} \to [0, 9]_\mathbb{N})$ from the unit interval in $R$ to the [[type]] of [[sequences]] in the [[natural numbers]] that are [[bounded set|bounded]] below by $0$ and bounded above by $9$, such that $r$ is equal to the [[limit of a sequence|limit of the following sequence]]
 
 $$\prod_{r:[0, 1]_R} r = \lim_{n \to \infty} \sum_{i=0}^{n} \frac{\mathcal{I}(r)_i}{10^i}$$
 
