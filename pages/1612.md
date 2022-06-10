@@ -75,7 +75,9 @@ A **modular tensor category** is a [[category]] with the following long list of 
 
 #### General
 
-Many modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] ([Huang 05, Sec. 1](#Huang05), see [EGNO 15, Sec. 8.27.6](#EGNO15)), hence of chiral [[field (physics)|fields]] of [[2d conformal field theories]]. 
+Many modular tensor categories arise as [[representation]] categories of [[vertex operator algebras]] ([Huang 2005, Sec. 1](#Huang05); [Huang 2008](#Huang08); [Huang, Lepowski & Zhang 2014](#HuangLepowskiZhang14) see [EGNO 15, Sec. 8.27.6](#EGNO15)), hence of chiral [[field (physics)|fields]] of [[2d conformal field theories]]. 
+
+(For [[logarithmic CFTs]] one still gets [[braided monoidal category|braided]] [[tensor categories]], see [Creutzig, Lentner & Rupert 2021](#CreutzigLentnerRupert21)).
 
 
 
@@ -116,7 +118,16 @@ Construction of modular tensor categories from [[vertex operator algebras]]:
 
 * {#Huang05} [[Yi-Zhi Huang]], *Vertex operator algebras, the Verlinde conjecture and modular tensor categories*, Proc. Nat. Acad. Sci. **102** (2005) 5352-5356 $[$[arXiv:math/0412261](http://arxiv.org/abs/math/0412261), [doi:10.1073/pnas.0409901102](https://doi.org/10.1073/pnas.0409901102)$]$
 
+* {#Huang08} [[Yi-Zhi Huang]], *Rigidity and modularity of vertex tensor categories*,  Communications in Contemporary Mathematics **10** supp01 (2008) 871-911   $[$[arXiv:math/0502533](https://arxiv.org/abs/math/0502533), [doi:10.1142/S0219199708003083](https://doi.org/10.1142/S0219199708003083)$]$
+
+* {#HuangLepowskiZhang14} [[Yi-Zhi Huang]], [[James Lepowsky]], Lin Zhang, *Logarithmic tensor category theory for generalized modules for a conformal vertex algebra, I: Introduction and strongly graded algebras and their generalized modules*,  In: Bai, Fuchs, Huang, Kong, Runkel, Schweigert (eds.), *Conformal Field Theories and Tensor Categories* Mathematical Lectures from Peking University. Springer (2014) $[$[arXiv:1012.4193](https://arxiv.org/abs/1012.4193), [doi:10.1007/978-3-642-39383-9_5](https://doi.org/10.1007/978-3-642-39383-9_5)$]$
+
 * {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Section 8.27.6 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) $[$[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205)$]$
+
+and generalization to [[logarithmic CFT|logarithmic]] VOAs:
+
+* {#CreutzigLentnerRupert21} [[Thomas Creutzig]], [[Simon Lentner]], [[Matthew Rupert]], *Characterizing braided tensor categories associated to logarithmic vertex operator algebras* $[$[arXiv:2104.13262](https://arxiv.org/abs/2104.13262)$]$
+
 
 A list of examples (with an emphasis on [[representation categories]] of rational [[vertex operator algebras]]) is in
 
