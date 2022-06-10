@@ -59,6 +59,10 @@ On generalizing the [[FRS-theorem on rational 2d CFT]] to logarithmic 2dCFTs:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
 
+Examples:
+
+* [[David Ridout]], [[Simon Wood]], _Bosonic ghosts at $c=2$ as a logarithmic CFT_, [arxiv/1408.4185](http://arxiv.org/abs/1408.4185)
+
 
 See also:
 
@@ -72,12 +76,17 @@ See also:
 
 * A. M. Semikhatov, _Factorizable ribbon quantum groups in logarithmic conformal field theories_, Theor.Math.Phys.154:433-453, 2008 [arxiv/0705.4267](http://arxiv.org/abs/0705.4267);  _A Heisenberg double addition to the logarithmic Kazhdan--Lusztig duality_, Lett.Math.Phys.92:81-98, 2010 [arxiv/0905.2215](http://arxiv.org/abs/0905.2215) 
 
-* [[Boris Feigin]], A M Gainutdinov, A M Semikhatov, I Yu Tipunin, _Logarithmic extensions of minimal models: characters and modular transformations_, Nucl.Phys. __B757__:303-343,2006 [hep-th/0606196](http://arxiv.org/abs/hep-th/0606196); _Modular group representations and fusion in logarithmic conformal field theories
-and in the quantum group center_, Commun. Math. Phys. 265 (2006) 47&#8211;93; _Kazhdan&#8211;Lusztig correspondence for the representation category of the triplet $W$-algebra in logarithmic CFT_, Theor. Math. Phys. 148 (2006) 1210&#8211;1235; _Kazhdan&#8211;Lusztig-dual quantum group for logarithmic extensions of Virasoro minimal models_, J. Math. Phys. __48__ (2007) 032303
+* [[Boris Feigin]], A M Gainutdinov, A M Semikhatov, I Yu Tipunin, _Logarithmic extensions of minimal models: characters and modular transformations_, Nucl.Phys. __B757__:303-343,2006 [hep-th/0606196](http://arxiv.org/abs/hep-th/0606196); 
+
+  * _Modular group representations and fusion in logarithmic conformal field theories
+and in the quantum group center_, Commun. Math. Phys. 265 (2006) 47&#8211;93; 
+
+  * _Kazhdan&#8211;Lusztig correspondence for the representation category of the triplet $W$-algebra in logarithmic CFT_, Theor. Math. Phys. 148 (2006) 1210&#8211;1235; 
+
+  * _Kazhdan&#8211;Lusztig-dual quantum group for logarithmic extensions of Virasoro minimal models_, J. Math. Phys. __48__ (2007) 032303
 
 * Philippe Ruelle, _Logarithmic conformal invariance in the Abelian sandpile model_, [arxiv/1303.4310](http://arxiv.org/abs/1303.4310)
 
-* [[David Ridout]], [[Simon Wood]], _Bosonic ghosts at $c=2$ as a logarithmic CFT_, [arxiv/1408.4185](http://arxiv.org/abs/1408.4185)
 
 
 
