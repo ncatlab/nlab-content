@@ -64,6 +64,10 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 * Phillip A. Griffiths, _Introduction to algebraic curves_
 * [[Daniel Huybrechts]], _Complex geometry - an introduction_, Springer (2004). Universitext. 309 pages.
 * [[Donu Arapura]], _Algebraic geometry over the complex numbers_, Springer Universitext 223, 329 pp.
+* H. Grauert, R. Remmert, _Coherent Analytic Sheaves
+* C. Bănică, O. Stănăşilă, _Algebraic methods in the global theory of complex spaces
+* H. Grauert, Th. Peternell, R. Remmert, _Several complex variables VII: sheaf-theoretical methods in complex analysis
+* G. Fischer, _Complex Analytic Geometry
 
 ## Mori program and birational geometry
 
