@@ -404,7 +404,7 @@ on [[homotopical algebraic quantum field theory]]
 
   [arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)
 
-on [[logarithmic conformal field theory]]
+on [[logarithmic conformal field theory]] in view of the [[FRS-theorem on rational 2d CFT]]
 
   
 
