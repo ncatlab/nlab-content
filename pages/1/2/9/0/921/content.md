@@ -93,7 +93,14 @@ There is a well-known algebraic (more or less) characterisation of the real line
 *  A __field__ is well known in algebra; if it matters, we mean a [[Heyting field]].
 *  An __ordered field__ means a *[[linear order|linearly]]* ordered field.
 *  An __archimedean field__ is an ordered field satisfying the [[archimedean property]].
-*  An ordered field is __Dedekind complete__ if it is [[Dedekind completion|Dedekind-complete]].
+*  An ordered field is __Dedekind complete__ if it is [[Dedekind completion|Dedekind-complete]]:
+
+1. For all elements $a \in F$, the upwards unbounded [[open interval]] $(a,\infty)$ is inhabited. 
+2. For all elements $a \in F$, the downwards unbounded [[open interval]] $(-\infty,a)$ is inhabited.
+3. For all elements $a \in F$ and $b \in F$, $a \lt b$ if and only if $(b,\infty)$ is a subinterval of $(a,\infty)$
+4. For all elements $a \in F$ and $b \in F$, $b \lt a$ if and only if $(-\infty,b)$ is a subinterval of $(-\infty,a)$
+5. For all elements $a \in F$ and $b \in F$, if $a \lt b$, then $F$ is a subinterval of the union of $(a, \infty)$ and $(-\infty, b)$
+6. For all elements $a \in F$ and $b \in F$, the intersection of $(a,\infty)$ and $(-\infty,b)$ is a subinterval of $(a,b)$
 
 In impredicative mathematics, we speak of [[the]] such field because it is unique up to unique [[isomorphism]].
 
