@@ -1,6 +1,27 @@
 
+## Definition 
+
 Given a [[poset]] (or [[proset]]) $P$, its __opposite__ (or __dual__, __inverse__, __converse__, __reverse__, etc), denoted $P^{op}$ (among other ways), is the poset (or proset) with the same [[underlying set]], with $x \leq y$ in $P^op$ iff $y \leq x$ (equivalently, $x \geq y$) in the original $P$.  We say that $\geq$ (the order relation in $P^op$ is the __opposite order__.  This is a special case of both an [[opposite relation]] ($\geq$ compared to $\leq$) and an [[opposite category]] ($P^op$ compared to $P$).
 
+### In homotopy type theory
+
+Given a [[preorder]] or (0,1)-category $P \coloneqq (F(P), \leq)$, an __opposite preorder__ or __opposite (0,1)-category__ is a preorder $P^\op \coloneqq (F(P), \geq)$ with $\geq$ defined as 
+
+$$a:F(P), b:F(P) \vdash a \geq b \coloneqq b \leq a $$
+
+where $F$ is the forgetful functor that gets the underlying type for a preorder. 
+
+## See also
+
+* [[poset]]
+
+* [[opposite relation]]
+
+* [[opposite magma]]
+
+* [[opposite category]]
+
+* [[antitone]]
 
 [[!redirects opposite poset]]
 [[!redirects opposite posets]]
@@ -46,3 +67,6 @@ Given a [[poset]] (or [[proset]]) $P$, its __opposite__ (or __dual__, __inverse_
 [[!redirects reverse orders]]
 [[!redirects reverse preorder]]
 [[!redirects reverse preorders]]
+
+[[!redirects opposite (0,1)-category]]
+[[!redirects opposite (0,1)-categories]]
