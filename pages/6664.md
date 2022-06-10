@@ -17,6 +17,8 @@ On [[fractional-level WZW models]] and [[logarithmic CFTs]]:
 
 * [[Matthias R. Gaberdiel]], *Fusion rules and logarithmic representations of a WZW model at fractional level*, Nucl. Phys. B **618** (2001) 407-436 $[$[arXiv:hep-th/0105046](https://arxiv.org/abs/hep-th/0105046), <a href="https://doi.org/10.1016/S0550-3213(01)00490-4">doi:10.1016/S0550-3213(01)00490-4</a>)$]$
 
+* {#Gaberdiel01} [[Matthias R. Gaberdiel]], *An algebraic approach to logarithmic conformal field theory*, Int. J. Mod. Phys. A **18** (2003) 4593-4638 $[$[arXiv:hep-th/0111260](https://arxiv.org/abs/hep-th/0111260), [doi:10.1142/S0217751X03016860](https://doi.org/10.1142/S0217751X03016860)$]$
+
 
 On [[super-orbifolds]] as [[target spaces]] in [[superstring theory]] (orbi-[[superspace]]):
 
