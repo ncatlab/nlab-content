@@ -1,11 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
 # DCPOs
 * table of contents
 {: toc}
 
 ## Idea
 
-A DCPO, or directed-complete partial order, is a [[poset]] with all [[directed joins]].  Often a DCPO is required to have a [[bottom element]] $\bot$; then it is called a pointed DCPO or a CPO (but this term is ambiguous).
+A *directed-complete partial order* (DCPO), is a [[poset]] with all [[directed joins]].  Often a DCPO is required to have a [[bottom element]] $\bot$; then it is called a *[[pointed object|pointed]] DCPO* or a *CPO* (but this term is ambiguous).
 
 The [[morphisms]] between DCPOs preserve the directed joins; equivalently, they are [[Scott continuity|Scott-continuous]].  Morphisms between pointed DCPOs may or may not be required to preserve $\bot$, depending on the application.
 
@@ -33,9 +47,19 @@ The [[specialisation order]] of the Scott topology of a DCPO is its original ord
 
 ## Related entries
 
+* [[omega-complete poset]]
+
 * [[domain theory]]
 
 * [[continuous lattice]]
+
+
+## References ##
+
+Discussion in [[homotopy type theory]]/[[univalent foundations]]:
+
+* [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* ([abs:2102.06275](https://arxiv.org/abs/2102.06275))
+
 
 [[!redirects dcpo]]
 [[!redirects dcpo's]]
@@ -43,10 +67,17 @@ The [[specialisation order]] of the Scott topology of a DCPO is its original ord
 [[!redirects DCPO]]
 [[!redirects DCPO's]]
 [[!redirects DCPOs]]
+
 [[!redirects directed-complete partial order]]
 [[!redirects directed-complete partial orders]]
 [[!redirects directed complete partial order]]
 [[!redirects directed complete partial orders]]
+
+[[!redirects directed-complete poset]]
+[[!redirects directed-complete posets]]
+[[!redirects directed complete poset]]
+[[!redirects directed complete posetss]]
+
 
 [[!redirects cpo]]
 [[!redirects cpo's]]
@@ -56,3 +87,4 @@ The [[specialisation order]] of the Scott topology of a DCPO is its original ord
 [[!redirects CPOs]]
 [[!redirects complete partial order]]
 [[!redirects complete partial orders]]
+
