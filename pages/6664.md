@@ -13,6 +13,11 @@ On [[duality between type I and heterotic string theory]]:
 
 * [[Oren Bergman]], [[Matthias Gaberdiel]], G. Lifschytz, _String Creation and Heterotic-Type I' Duality_, Nucl. Phys. B524 (1998) 524-544 ([arXiv:hep-th/9711098](https://arxiv.org/abs/hep-th/9711098))
 
+The triplet algebra of the $c = -2$ Virasoro model as a [[logarithmic CFT]]:
+
+* [[Matthias R. Gaberdiel]], Horst G. Kausch, *A Rational Logarithmic Conformal Field Theory*, Phys.Lett. B **386** (1996) 131-137 $[$[arXiv:hep-th/9606050](https://arxiv.org/abs/hep-th/9606050), <a href="https://doi.org/10.1016/0370-2693(96)00949-5">doi:10.1016/0370-2693(96)00949-5</a>$]$
+
+
 On [[fractional-level WZW models]] and [[logarithmic CFTs]]:
 
 * [[Matthias R. Gaberdiel]], *Fusion rules and logarithmic representations of a WZW model at fractional level*, Nucl. Phys. B **618** (2001) 407-436 $[$[arXiv:hep-th/0105046](https://arxiv.org/abs/hep-th/0105046), <a href="https://doi.org/10.1016/S0550-3213(01)00490-4">doi:10.1016/S0550-3213(01)00490-4</a>)$]$
