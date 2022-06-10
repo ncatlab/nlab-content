@@ -104,6 +104,9 @@ and a discussion of the converse, that every rarional 2-d CT is obtained this wa
 
 * Urs Schreiber, [FFRS on uniqueness of conformal field theory](http://golem.ph.utexas.edu/category/2007/01/ffrs_on_uniqueness_of_conforma.html)
 
+On potential generalization from [[rational 2d CFT]] to [[logarithmic CFT]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
 
 
 [[!redirects FFRS formalism]]
