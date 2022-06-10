@@ -41,6 +41,16 @@ Reviewed in:
 
 * [[David Ridout]], *Fractional-level WZW models* (2020) $[$[pdf](https://researchers.ms.unimelb.edu.au/~dridout@unimelb/seminars/200205.pdf), [[Ridout-FractionalLevelWZW2020.pdf:file]]$]$
 
+In particular, the logarithmic $c = -2$ model is essentially an admissible-level WZW model:
+
+* Alexander Nichols, *Extended chiral algebras in the $SU(2)_0$ WZNW model*,  JHEP 04 (2002) $[$[doi:10.1088/1126-6708/2002/04/056](https://iopscience.iop.org/article/10.1088/1126-6708/2002/04/056), [arXiv:hep-th/0112094](https://arxiv.org/abs/hep-th/0112094)$]$
+
+with a comprehensive account in:
+
+* Alexander Nichols, *$SU(2)_k$ Logarithmic Conformal Field Theories*, PhD thesis, Oxford (2012) $[$[arXiv:hep-th/0210070](https://arxiv.org/abs/hep-th/0210070)$]$
+
+
+
 Identification of would-be fractional level [[su(2)|$\mathfrak{su}(2)$]] [[conformal blocks]] in [[twisted equivariant K-theory]] of [[configuration spaces of points]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]], Rem. 2.3 in: *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
