@@ -225,3 +225,5 @@ $$a d + 0 = a 0 + d + 0 = a 0 + d = a d$$
 * [[inductive type]]
 
 * [[higher inductive type]]
+
+* [[infinite decimal representation of a unit interval]]
