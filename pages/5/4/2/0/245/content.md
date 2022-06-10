@@ -170,6 +170,8 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 
 * **braided monoidal category**, [[braided monoidal (∞,1)-category]]
 
+  * [[modular tensor category]]
+
   * [[braided monoidal dagger category]]
  
   * [[braided monoidal 2-category]]
