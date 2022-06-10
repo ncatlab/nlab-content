@@ -42,6 +42,8 @@ The [[FRS-theorem on rational 2d CFT]] provides a complete classification of rat
 
 * [[minimal model CFT]]
 
+* [[logarithmic CFT]]
+
 ## References
 
 See the references at _[[FRS-theorem on rational 2d CFT]]_.
