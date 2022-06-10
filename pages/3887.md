@@ -89,6 +89,11 @@ See also
 
 * [[Kenji Ueno]], _Conformal field theory with gauge symmetry_, Fields Institute Monographs 2008 [book page](http://www.ams.org/bookstore-getitem/item=FIM-24)
 
+Conformal blocks for [[self-dual higher gauge theory]] are discussed in
+
+* [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
+
+
 ### Relation to theta functions
 
 Relation to [[theta functions]]:
@@ -104,14 +109,22 @@ Relation to [[theta functions]]:
 * A.Mironov, A.Morozov, Sh.Shakirov, _Conformal blocks as Dotsenko-Fateev integral discriminants_, [arxiv/1001.0563](http://arxiv.org/abs/1001.0563)
 
 
+
+
+
 [[!include hypergeometric KZ-solutions -- references]]
 
 
 
-### For higher dimensional CFT
 
-Conformal blocks for [[self-dual higher gauge theory]] are discussed in
 
-* [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
+[[!include Laughlin wavefunctions as conformal blocks -- references]]
+
+
+
+
+
+
+
 
 [[!redirects conformal blocks]]
