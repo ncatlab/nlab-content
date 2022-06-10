@@ -55,6 +55,14 @@ $[$[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120),
 * {#Nayak22} [[Chetan Nayak]], *Microsoft has demonstrated the underlying physics required to create a new kind of qubit*, Microsoft Research Blog (March 2022)
 
 
+
+
+[[!include Laughlin wavefunctions as conformal blocks -- references]]
+
+
+
+
+
 [[!redirects su(2)-anyons]]
 
 [[!redirects su2-anyon]]
