@@ -18,6 +18,12 @@
 
 A class of 2d [[conformal field theories]] which are not rational conformal field theories but are the closest to them in the class of irrational. The appearance of the logarithmic term corresponds to the nontrivial $2\times 2$ Jordan blocks for the $L_0$ operator. Many models of LCFT seem to be related to the quantum groups at even root of unity.
 
+## Related concepts
+
+* [[rational CFT]]
+
+* [[boundary CFT]]
+
 ## References
  {#References}
 
@@ -28,6 +34,9 @@ Original articles:
 * [[John Cardy]], *Logarithmic conformal field theories as limits of ordinary CFTs and some physical applications*, J. Phys. A: Math. Theor. **46** (2013) 494001  $[$[arXiv:1302.4279](http://arxiv.org/abs/1302.4279), [doi:10.1088/1751-8113/46/49/494001](https://doi.org/10.1088/1751-8113/46/49/494001)$]$
 
 Review:
+
+* {#Gaberdiel01} [[Matthias R. Gaberdiel]], *An algebraic approach to logarithmic conformal field theory*, Int. J. Mod. Phys. A **18** (2003) 4593-4638 $[$[arXiv:hep-th/0111260](https://arxiv.org/abs/hep-th/0111260), [doi:10.1142/S0217751X03016860](https://doi.org/10.1142/S0217751X03016860)$]$
+
 
 * {#Flohr03} [[Michael Flohr]], *Bits and pieces in logarithmic conformal field theory*, International Journal of Modern Physics A, **18** 25 (2003) 4497-4591 $[$[doi:10.1142/S0217751X03016859](https://doi.org/10.1142/S0217751X03016859), [arXiv:hep-th/0111228](https://arxiv.org/abs/hep-th/0111228)$]$
 
@@ -79,7 +88,7 @@ Logarithmic CFT describing generalized [[Laughlin wavefunctions]] with [[topolog
 
 * {#GurarieFlohrNayak97} V. Gurarie, [[Michael Flohr]], [[Chetan Nayak]], *The Haldane-Rezayi Quantum Hall State and Conformal Field Theory*, Nucl. Phys. B **498** (1997) 513-538 $[$[arXiv:cond-mat/9701212](https://arxiv.org/abs/cond-mat/9701212), [doi:10.1016/S0550-3213%2897%2900351-9](https://doi.org/10.1016/S0550-3213%2897%2900351-9)$]$
 
-  > (review in [Flohr 2003, §5.4)](logarithmic+CFT#Flohr03))
+  > (review in [Flohr 2003, §5.4](logarithmic+CFT#Flohr03))
 
 
 
