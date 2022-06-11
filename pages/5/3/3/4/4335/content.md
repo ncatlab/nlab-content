@@ -23,7 +23,6 @@ A __pseudonatural transformation__ is a [[lax natural transformation]] whose $2$
 ######Definition 
 
 Given two [[2-functors]] $U, V: S \stackrel{\to}{\to} C$ between [[2-categories]], a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each [[object]] $s$ of $S$ a [[morphism]] $\phi(s): U(s) \to V(s)$ of $C$, and to each [[morphism]] $f: r \to s$ of $S$ an [[equivalence|invertible]] [[2-morphism]] $\phi(f)$ of $C$:  
-
 $$
 \array{
 U(r) & \stackrel{U(f)}{\to} & U(s) \\
@@ -31,7 +30,6 @@ U(r) & \stackrel{U(f)}{\to} & U(s) \\
 V(r) & \underset{V(f)}{\to} & V(s)
 }
 $$ 
-
 such that the following [[coherence law]]s are satisfied in  $C$ (throughout we leave the [[associator]]s and [[unitor]]s in $C$ implicit):
 
 1. respect for composition: for all composable morphisms $r \stackrel{f}{\to} s \stackrel{g}{\to} t$ in $S$ we have an equality
@@ -76,7 +74,6 @@ such that the following [[coherence law]]s are satisfied in  $C$ (throughout we 
 1. naturality
 
    for every [[2-morphism]] 
-
    $$
      \array{
         && \stackrel{f}{\to}
@@ -90,9 +87,7 @@ such that the following [[coherence law]]s are satisfied in  $C$ (throughout we 
         && \underset{g}{\to}
      }
    $$
-
    in $S$ an equality
-
    $$
      \array{
         && \stackrel{U(f)}{\to}
@@ -120,7 +115,6 @@ such that the following [[coherence law]]s are satisfied in  $C$ (throughout we 
        && \underset{V(g)}{\to}
      }
    $$
-
    in $C$.
 
 =-- 
