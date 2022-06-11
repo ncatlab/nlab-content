@@ -128,7 +128,7 @@ But [[defects]] are a kind of [[boundary conditions]], hence *external parameter
 
 Concretely, a widely appreciated proposal ([Moore & Read 1991](#MooreRead91), [Read & Rezayi 1999](#ReadRezayi99)) identifies anyonic ground state [[wavefunctions]] with [[conformal blocks]] of a [[2d CFT]] -- [[AdS3-CFT2 and CS-WZW correspondence|hence]] with [[Chern-Simons theory]] [[quantum states|states]] -- with prescribed poles at the location of the anyons.
 
-Now the [[adiabatic theorem]] says that the sufficiently slow motion of such external parameters transforms the quantum [[ground state]] by [[unitary operators]] ("[[Berry phases]]"). This suggests ([Avros, Schrieffer & Wilczek 1984](#AvrosSchriefferWilczek84)) that:
+Now the [[quantum adiabatic theorem]] says that the sufficiently slow motion of such external parameters transforms the quantum [[ground state]] by [[unitary operators]] ("[[Berry phases]]", see also at *[[adiabatic quantum computation]]*). This suggests ([Avros, Schrieffer & Wilczek 1984, p. 1](#AvrosSchriefferWilczek84),  [Freedman, Kitaev, Larsen & Wang 2003, pp. 6](#FreedmanKitaevLarsenWang03), [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08)) that:
 
 \begin{definition}\label{DefectBraiding}
 **(adiabatic defect braiding)**
