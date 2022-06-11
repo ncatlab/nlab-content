@@ -40,7 +40,7 @@ The [[nLab:geometry of physics|geometry of fundamental physics]] is _[[nLab:high
 |---------|--------------|
 | $\phantom{AA}$ [[nLab:gauge principle]] $\phantom{AA}$ | $\phantom{AA}$ [[nLab:higher geometry]] $\phantom{AA}$<br/> $\phantom{AA}$ ([[nLab:(infinity,1)-topos theory|geometric homotopy theory]]) $\phantom{AA}$ |
 | $\phantom{AA}$ [[nLab:Pauli exclusion principle]] $\phantom{AA}$ | $\phantom{AA}$ [[nLab:supergeometry]] $\phantom{AA}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 
 Here:
