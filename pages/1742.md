@@ -178,15 +178,15 @@ If we leave the [[identity morphism|identity]] [[1-morphisms]] on the left notat
 
 As [[string diagrams]], the triangle identities appear as the action of "pulling zigzags straight" (hence the name):
 
-+--
++-- {: style='text-align:center'}
 <span style='margin-right: 50px'>[[adjunction-up-string.png:pic]]</span>[[adjunction-down-string.png:pic]]
-=-- {: style='text-align:center'}
+=--
 
 With labels left implicit, this notation becomes very economical:
 
-+--
++-- {: style='text-align:center'}
 <span style='margin-right: 50px'>[[adjunction-up-string-minimal.png:pic]],</span> [[adjunction-down-string-minimal.png:pic]].
-=-- {: style='text-align:center'}
+=--
 
 ## Related concepts
 
