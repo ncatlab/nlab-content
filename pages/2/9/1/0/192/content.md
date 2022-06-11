@@ -143,39 +143,3 @@ category: category
 [[!redirects SET]]
 [[!redirects category of sets]]
 [[!redirects the category of sets]]
-
-{:data
-name="\(\mathbf{Set\}\)"
-wp="Category of sets"
-key=Set
-desc="Sets with functions"
-small="no"
-concrete="yes"
-skeleton="Cardinals"
-abelian=no
-imp_enrich=""
-imp_monoidal="cartesian product"
-imp_adj=""
-imp_equ=""
-Mono=Injections
-Epi=Surjections
-Co-Retr=Injections
-Retr=Surjections
-Iso=Bijections
-Const="Constant maps"
-Co-Const="\(\emptyset \to X\)"
-Null="\(\emptyset \to X\)"
-Gen="Non-empty sets"
-Co-Gen="Sets with at least two elements"
-Init="\(\emptyset\)"
-Term="\(\{x\\\}\)"
-Zero=none
-Empty="\(\emptyset\)"
-Co-Empty=none
-Strong-Init=none
-Strong-Term="\(\{x\\\}\)"
-Prod="Cartesian product"
-Co-Prod="Disjoint union"
-Equal="any (common subsets)"
-Co-Equal="any (by a minimal equivalence relation compatible with equality of the function values)"
-}
