@@ -86,7 +86,7 @@ _ibid_: maybe it's more right to say that $P_M$ should be the boolean algebra $\
 =--
 
 #### Definition and remarks
-{: #definition+theory+and+model+fol}
+{: #definition_theory_and_model_fol}
 
 An $L$-structure $M$, as an $L$-algebra with extra properties, defines a **complete first-order theory** $Th(M)$, that subset of $L$ which $M$ interprets as $\top\in 2$, or _true_.  Conversely, given a collection $T$ of elements of $L$ of type $?\to P$, we say that $M\models T$, or in words $M$ **is a model of the theory** $T$ whenever $T\subset Th(M)$.  There is an obvious Galois connection between theories $T$ and the collections of $L$-structures that are models.  Much of deeper model theory studies the fine structure of this connection.
 
