@@ -77,6 +77,9 @@ Discussion in [[solid state physics]] and in view of gapped [[topological phases
 
 * [[Sven Bachmann]], Spyridon Michalakis, [[Bruno Nachtergaele]], Robert Sims, *Automorphic Equivalence within Gapped Phases of Quantum Lattice Systems*, Commun. Math. Phys. **309** (2012) 835-871 ([arXiv:1102.0842](https://arxiv.org/abs/1102.0842), [doi:10.1007/s00220-011-1380-0](https://doi.org/10.1007/s00220-011-1380-0))
 
+* Jan Carl Budich, Björn Trauzettel, *From the adiabatic theorem of quantum mechanics to topological states of matter*, physica status solidi (RRL) **7** 1-2 (2013) 109-129  $[$[arXiv:1210.6672](https://arxiv.org/abs/1210.6672), [doi:10.1002/pssr.201206416](https://doi.org/10.1002/pssr.201206416)$]$
+
+
 * [[Sven Bachmann]], [[Wojciech De Roeck]], [[Martin Fraas]], *Adiabatic Theorem for Quantum Spin Systems*, Phys. Rev. Lett. **119** (2017) 060201 ([doi:10.1103/PhysRevLett.119.060201](https://doi.org/10.1103/PhysRevLett.119.060201))
 
 Review:
