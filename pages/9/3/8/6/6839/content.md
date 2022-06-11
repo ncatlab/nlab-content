@@ -2,7 +2,7 @@
 * tic
 {:toc}
 
-+--{:. query}
++--{: .query}
 This entry is about ( a fragment of) a paper by [[Anders Kock]]
 =--
 
