@@ -34,14 +34,22 @@ Notably the '[[Majorana anyons]] (in the guise of "[[Majorana zero modes]]") are
 
 ### General
 
+Early consideration of su(2)-anyons is *implicit* 
+in the context of [[Laughlin wavefunctions]] due to
+
 * {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
+
+and in the context of [[topological quantum computation]] in
+
+* [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics. 2002, Vol 227, Num 3, pp 605-622  ([arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108))
+
+More concrete discussion of these phenomena in terms of [[anyons]]:
 
 * S. Trebst, M. Troyer, Z. Wang and A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008)
 $[$[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)$]$
 
 * C. Gils, E. Ardonne, S. Trebst, D. A. Huse, A. W. W. Ludwig, M. Troyer, and Z. Wang,  *Anyonic quantum spin chains: Spin-1 generalizations and topological stability*, Phys. Rev. B **87** (2013), 235120
 $[$[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120), [arXiv:1303.4290](https://arxiv.org/abs/1303.4290)$]$
-
 
 * {#DasSarmaFreedmanNayak15} [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], *Majorana zero modes and topological quantum computation*, npj Quantum Inf **1** 15001 (2015) $[$[doi:10.1038/npjqi.2015.1](https://doi.org/10.1038/npjqi.2015.1)$]$
 
