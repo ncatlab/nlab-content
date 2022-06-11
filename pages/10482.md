@@ -187,7 +187,7 @@ Some examples:
 | $\phantom{A}$$ (\mathbf{d}x^{a}) (\mathbf{d} x^{b}) =$$\phantom{A}$ |  $\phantom{A}$$- (\mathbf{d} x^{b}) (\mathbf{d} x^{a})$$\phantom{A}$ | $\phantom{A}$$ - (\mathbf{d} x^{b}) (\mathbf{d} x^{a})$$\phantom{A}$ |
 | $\phantom{A}$$ (\mathbf{d}x^a) (\mathbf{d} \theta^{\alpha}) =$$\phantom{A}$ | $\phantom{A}$$ - (\mathbf{d}\theta^{\alpha}) (\mathbf{d} x^a) $$\phantom{A}$ | $\phantom{A}$$ {\color{blue}{+}} (\mathbf{d}\theta^{\alpha}) (\mathbf{d} x^a) $$\phantom{A}$ |
 | $\phantom{A}$$(\mathbf{d}\theta^{\alpha}) (\mathbf{d} \theta^{\beta}) =$ | $\phantom{A}$$ + (\mathbf{d}\theta^{\beta}) (\mathbf{d} \theta^{\alpha})$$\phantom{A}$ | $\phantom{A}$$ + (\mathbf{d}\theta^{\beta}) (\mathbf{d} \theta^{\alpha})$$\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 ### Cohomology of super Minkowski spacetime
 
