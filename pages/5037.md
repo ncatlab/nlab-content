@@ -22,7 +22,7 @@ The reason for the notation $F$ and $P$ should be clear.
 
 * The dual of $P$ is written $H$, whence $H\phi = \neg P\neg \phi$ and $H\phi$ interprets as '$\phi$ **has** always been true'. ($H$ is for 'has' - which is a bit weak, but that is life!)
 
-+-- {: . un_example}
++-- {: .un_example}
 ###### Examples
 
 *  If for all $\phi$ we have $P\phi \to G P\phi$, then _whatever has happened will always have happened_, which seems reasonable so this might be a suitable 'general truth' we might want a temporal logic to contain.
