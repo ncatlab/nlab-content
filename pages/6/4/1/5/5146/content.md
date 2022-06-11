@@ -46,7 +46,7 @@ This category $\Pi^{op}$ is a finite product theory, in the sense of [[algebraic
 Let $Set_*$ denote the category of [[pointed sets]].
 
 +--
-{: . un_defn}
+{: .un_defn}
 ######Definition
 
 A _$\Pi$-algebra_ is a [[functor]] $A: \Pi^{op}\to Set_*$, which sends [[coproduct]]s to [[products]].
