@@ -803,7 +803,7 @@ Generally, for $K$ any simplicial set, $K \cdot A$ is the simplicial algebra who
 We spell out in detail how in degree 0 and 1 the [[homology]] of the Hochschild complex of $A$ is that of its [[Kähler differential form]]s. Under mild conditions on $A$ this is also true in higher degrees, which is the statement of the [Hochschild-Kostant-Rosenberg theorem](#HochschildKostantRosenberg).
 
 
-+-- {: .num_prop #K&#228;hler1Forms}
++-- {: .num_prop #Kaehler1Forms}
 ###### Proposition
 
 The [[homology]] of the Hochschild complex $S^1 \cdot A$ in degree 1 is the  [[Kähler differential form]]s of $A$
@@ -910,7 +910,7 @@ $$
 
 Under the identification of $HH_\bullet(A,A) = H_\bullet(S^1 \cdot A)$ with K&#228;hler differential forms, the [[cup product]] on homology identifies with the [[exterior algebra|wedge product]] of differential 0- and 1-forms.
 
-=---
+=--
 
 +-- {: .proof}
 ###### Proof
@@ -1673,7 +1673,7 @@ One way to understand or interpret this conceptually is to regard the [[derived 
 
 The **[[Hochschild-Kostant-Rosenberg theorem]]** states that under suitable conditions, the Hochschild homology of an algebra (with coefficients in itself) computes the wedge powers of its [[Kähler differential]]s.
 
-Let $A$ be an [[associative algebra]] over $k$. Recall the natural [identification](#K&#228;hler1Forms)
+Let $A$ be an [[associative algebra]] over $k$. Recall the natural [identification](#Kaehler1Forms)
 
 $$
   HH_1(A,A) \simeq \Omega^1(A)
