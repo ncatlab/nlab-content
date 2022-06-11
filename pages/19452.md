@@ -51,7 +51,7 @@ This makes use of the following curious dictionary between [[category theory]]/[
 | $\phantom{A}$[[cohesion]] | Defn. \ref{CohesiveTopos}  | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential topology]] |
 | $\phantom{A}$[[differential cohesion]] | Defn. \ref{DifferentialCohesion} | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[differential geometry]] |
 | $\phantom{A}$super cohesion$\phantom{A}$ | Defn. \ref{SuperDifferentialCohesion} | $\phantom{A}$[[generalized spaces]] obey <br/> $\phantom{A}$principles of [[supergeometry]] |
-{: style='margin:auto}
+{: style='margin:auto'}
  
 The perspective is that of _[[functorial geometry]]_ ([Grothendieck 65](#functorial+geometry#Grothendieck65)).  (For more exposition of this point see also at _[[motivation for sheaves, cohomology and higher stacks]]_.) This dictionary implies a wealth of useful tools for handling and reasoning about [[geometry]]:
 
@@ -64,7 +64,7 @@ We discuss [below](#BasicNotionsOfToposTheory) that [[sheaf toposes]], regarded 
 | $\phantom{A}$has all [[colimits]]: $\phantom{A}$ | $\phantom{A}$contains all [[disjoint unions]] and [[quotients]] |
 | $\phantom{A}$[[cartesian closed category|cartesian closure]]: $\phantom{A}$ | $\phantom{A}$contains all [[mapping spaces]]$\phantom{A}$ |
 | $\phantom{A}$[[locally cartesian closed category|local cartesian closure]]: $\phantom{A}$ | $\phantom{A}$contains all [[fiber]]-wise [[mapping spaces]] $\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 Notably [[mapping spaces]] play a pivotal role in [[physics]], in the guise of [[spaces of field histories]], but fall outside the applicability of traditional formulations of [[geometry]] based on just [[manifolds]]. [[topos theory|Topos theory]] provides their existence (Prop. \ref{PropertiesOfSheafToposes} below) and the relevant infrastructure, for example for the construction of [[transgression of differential forms]] to mapping spaces of [[smooth sets]], that is the basis for [[sigma-model]]-[[field theories]]. This is discussed in the following chapters _[[geometry of physics -- smooth sets|on smooth sets]]_ and _[[geometry of physics -- supergeometry|on supergeometry]]_.
  
@@ -138,7 +138,7 @@ Therefore it makes sense to regard category theory as the **theory of adjunction
 | $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{NaturalTransformations} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{EnrichedNaturalTransformation} $\phantom{A}$ |  |
 | $\phantom{A}$ [[functor]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{Functors} $\phantom{A}$ |  $\phantom{A}$ Def. \ref{TopologicallyEnrichedFunctor} $\phantom{A}$ |  | 
 | $\phantom{A}$ [[category]] $\phantom{A}$ | $\phantom{A}$ Def. \ref{Categories} $\phantom{A}$ | $\phantom{A}$ Def. \ref{TopEnrichedCategory} $\phantom{A}$ | $\phantom{A}$ Def. \ref{ModelCategory} |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 
 
