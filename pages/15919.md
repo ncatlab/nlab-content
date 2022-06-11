@@ -1,5 +1,4 @@
-
-+-- {: .rightHandSide?0
++-- {: .rightHandSide :}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Analytic geometry
