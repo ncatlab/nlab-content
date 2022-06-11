@@ -73,6 +73,8 @@ With focus on [[topological phases of matter]] ([[topological insulators]], [[se
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section IV.C of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
+* [[Tudor D. Stanescu]], Chapter 2 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
+
 
 See also:
 
