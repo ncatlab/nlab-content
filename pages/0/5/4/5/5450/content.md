@@ -611,7 +611,7 @@ For $X_{et}$ an [[étale site]], write $\mathcal{D}(X_{et})$ for the [[derived c
 
 =--
 
-+-- {: .num_prop #}
++-- {: .num_prop}
 ###### Proposition
 
 The $q$th [[derived functor]] $R^q f_\ast$ of the [[direct image]] functor of def. \ref{DirectAndInverseImageAlongMapOfBases} sends $\mathcal{F} \in Ab(Sh(X_{et}))$ to the [[sheafification]] of the [[presheaf]]
