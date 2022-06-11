@@ -156,7 +156,7 @@ For $\mathcal{S}$ a kind of [[mathematical structure]], there is the [[category]
 | $\phantom{A}$[[Vect]]  | $\phantom{A}$[[vector spaces]]$\phantom{A}$ | $\phantom{A}$[[linear functions]]$\phantom{A}$ |
 | $\phantom{A}$[[Grp]]   | $\phantom{A}$[[groups]]$\phantom{A}$ | $\phantom{A}$[[group homomorphisms]]$\phantom{A}$ |
 | $\phantom{A}$[[Alg]]   | $\phantom{A}$[[algebras]]$\phantom{A}$ | $\phantom{A}$[[algebra homomorphism]]$\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 
 =--
@@ -283,7 +283,7 @@ Here the [[axioms]] for [[preordered sets]] and for [[categories]] match as foll
 |----|-----|------|
 | $\phantom{A}$[[partially ordered sets]]$\phantom{A}$ | $\phantom{A}$ $x \leq x$ $\phantom{A}$ | $\phantom{A}$ $(x \leq y \leq z) \Rightarrow (x \leq z)$ $\phantom{A}$ |
 | $\phantom{A}$[[thin categories]]$\phantom{A}$ | $\phantom{A}$[[identity morphisms]]$\phantom{A}$ | $\phantom{A}$[[composition]]$\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 =--
 
@@ -1513,7 +1513,7 @@ Part of the data involved in an [[adjunction]] is its _[[adjunction unit]]_ and 
 | $\phantom{A}$**[[adjunction]]**$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, Def. \ref{AdjunctionInA2Category}$\phantom{A}$  |  |  $\phantom{A}$[[adjunction unit|unit]] is [[isomorphism|iso]]:$\phantom{A}$  | 
 |  |  | $\phantom{A}$[[coreflective subcategory|coreflection]]$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{ReflectiveSubcategory}$\phantom{A}$ | 
 | $\phantom{A}$[[adjunction counit|counit]] is [[isomorphism|iso]]:$\phantom{A}$ | $\phantom{A}$[[reflective subcategory|reflection]]$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{ReflectiveSubcategory} | $\phantom{A}$[[adjoint equivalence of categories|adjoint equivalence]]$\phantom{A}$ <br/> $\phantom{A}$Def. \ref{AdjointEquivalenceOfCategories}$\phantom{A}$  |  
-{: style='margin:auto}
+{: style='margin:auto'}
 
 We now discuss four equivalent definitions of [[adjoint functors]]:
 
@@ -3337,7 +3337,7 @@ In conclusion, we have the following three equivalent perspectives on [[modaliti
 | $\phantom{A}$[[reflective subcategory]]$\phantom{A}$ | $\phantom{A}$[[modal operator]]$\phantom{A}$ | $\phantom{A}$[[reflective localization]]$\phantom{A}$ | 
 |-------------|------------|-------------|
 | $\phantom{A}$[[object]] in [[reflective subcategory|reflective]]$\phantom{A}$ <br/> $\phantom{A}$[[full subcategory]]$\phantom{A}$ | $\phantom{A}$[[modal object]]$\phantom{A}$ | $\phantom{A}$[[local object]]$\phantom{A}$ | 
-{: style='margin:auto}
+{: style='margin:auto'}
 
 
 
@@ -3941,7 +3941,7 @@ Denoting the [[adjunction units]]/[[adjunction counit|counits]] (Def. \ref{Adjun
 |----------|-----------|----------|
 | $\phantom{A}$ $(L \dashv C)$ $\phantom{A}$ | $\phantom{A}$  $\eta^{\bigcirc}$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^{\bigcirc}$ $\phantom{A}$ |
 | $\phantom{A}$ $(C \dashv R)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\Box$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\Box$ $\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 we have that the following [[composition|composites]] of unit/counit components are equal:
 
@@ -4077,7 +4077,7 @@ Denoting the [[adjunction units]]/[[adjunction counit|counits]] (Def. \ref{Adjun
 |----------|-----------|----------|
 | $\phantom{A}$ $(L \dashv C)$ $\phantom{A}$ | $\phantom{A}$  $\eta^{\bigcirc}$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^{\bigcirc}$ $\phantom{A}$ |
 | $\phantom{A}$ $(C \dashv E)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\Box$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\Box$ $\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 
 Then for all $X \in \mathcal{C}$ the following two [[natural transformations]], constructed from the [[adjunction units]]/[[adjunction counit|counits]] (Def. \ref{AdjunctionUnitFromHomIsomorphism}) and their [[inverse morphisms]] (using [[idempotent monad|idempotency]], Prop. \ref{ModalOpIdempotent}), are equal:
