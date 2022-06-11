@@ -99,7 +99,7 @@ _Jacques says:_ I hope you don't mind, but I darkened the colour of your respons
 _Bruce Bartlett says:_ Ok... that's a bit of a weird system for discussion, but I'm okay to go along with it... However, I'm quite fond of the green "query" block that I put on [[integration over supermanifolds]], as below:
 =--
 
-{:query: style="background: #f6fff3; border: solid #ce9; border-width: 2px 1px;	padding: 0 1em; margin: 0 1em;" }
+{:query: style="background: #f6fff3; border: solid #ce9; border-width: 2px 1px; padding: 0 1em; margin: 0 1em;"}
 
 +-- {: .query}
 _Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something? (Bruce Bartlett)
