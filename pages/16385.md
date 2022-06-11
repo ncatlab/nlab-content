@@ -234,7 +234,7 @@ $$
 
 ### Relation to Kähler spaces
 
-+-- {: .num_prop #RelationBetweenKählerVectorSpacesAndHermitianSpaces}
++-- {: .num_prop #RelationBetweenKaehlerVectorSpacesAndHermitianSpaces}
 ###### Proposition
 **(relation between [[Kähler vector spaces]] and [[Hermitian spaces]])**
 
