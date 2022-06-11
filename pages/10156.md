@@ -130,7 +130,7 @@ have the expressions
 =--
 
 
-#### Symplectic and K&#228;hler structure
+#### Symplectic and Kähler structure
 
 
 +-- {: .num_prop}
@@ -182,7 +182,7 @@ Equipped with this [[Riemannian metric]] for $k \in (0,\infty)$ and with the [[c
 
 =--
 
-+-- {: .num_remark #K&#228;hlerFormIsInvariant}
++-- {: .num_remark #KaehlerFormIsInvariant}
 ###### Remark
 
 The above [[Kähler form]] indeed has the same coordinate expression on both patches $U_\pm$: on $U_+ \cap U_- \simeq (S^2 - \{x_0, x_\infty\})$ we have
@@ -420,7 +420,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Compare this invariance of the form of the connection to the invariance of the form of its [[curvature]] in remark \ref{K&#228;hlerFormIsInvariant} above.
+Compare this invariance of the form of the connection to the invariance of the form of its [[curvature]] in remark \ref{KaehlerFormIsInvariant} above.
 
 =--
 
@@ -471,7 +471,7 @@ This is essentially the relation that historically was first recognized by [[Pau
  {#TheSpaceOfQuantumStates}
 
 
-#### K&#228;hler polarization
+#### Kähler polarization
 
 The [[Kähler manifold]] structure on $S^2$ of prop. \ref{KaehlerStructure} which lifts its [[symplectic structure]] given by the [[volume form]] canonically induces a [[polarization]] of the symplectic structure: the corresponding [[Kähler polarization]].
 
@@ -500,7 +500,7 @@ This means that:
 +-- {: .num_prop #KaehlerPolarizedIsHolomorphic}
 ###### Proposition
 
-The K&#228;hler-polarized sections are precisely the holomorphic sections. 
+The Kähler-polarized sections are precisely the holomorphic sections. 
 
 =--
 
