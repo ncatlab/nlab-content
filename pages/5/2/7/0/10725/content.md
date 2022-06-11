@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -12,8 +11,9 @@
 =--
 #### $\infty$-Lie theory
 +--{: .hide}
-[[!include Lie theory - contents]]
-=--=--
+[[!include infinity-Lie theory - contents]]
+=--
+=--
 =--
 
 
