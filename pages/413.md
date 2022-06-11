@@ -93,7 +93,7 @@ For $n,q \in \mathbb{N}$, the generators of the [[differential graded-commutativ
 | $\phantom{A}$$\theta^\alpha$$\phantom{A}$ | $\phantom{A}$(0,odd)$\phantom{A}$ |
 | $\phantom{A}$$\mathbf{d}x^a$$\phantom{A}$ | $\phantom{A}$(1,even)$\phantom{A}$ |
 | $\phantom{A}$$\mathbf{d}\theta^\alpha$$\phantom{A}$ | $\phantom{A}$(1,odd)$\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 and satisfy the following graded-commutation relations, depending on one of the two equivalent (see [here](chain+complex+in+super+vector+spaces#EquivalenceTwoSymmetricMonoidalStructuresOnChSuperVect)) [[signs in supergeometry|sign rules]]:
 
@@ -108,7 +108,7 @@ and satisfy the following graded-commutation relations, depending on one of the 
 | $\phantom{A}$$ (\mathbf{d}x^{a}) (\mathbf{d} x^{b}) =$$\phantom{A}$ |  $\phantom{A}$$- (\mathbf{d} x^{b}) (\mathbf{d} x^{a})$$\phantom{A}$ | $\phantom{A}$$ - (\mathbf{d} x^{b}) (\mathbf{d} x^{a})$$\phantom{A}$ |
 | $\phantom{A}$$ (\mathbf{d}x^a) (\mathbf{d} \theta^{\alpha}) =$$\phantom{A}$ | $\phantom{A}$$ - (\mathbf{d}\theta^{\alpha}) (\mathbf{d} x^a) $$\phantom{A}$ | $\phantom{A}$$ {\color{blue}{+}} (\mathbf{d}\theta^{\alpha}) (\mathbf{d} x^a) $$\phantom{A}$ |
 | $\phantom{A}$$(\mathbf{d}\theta^{\alpha}) (\mathbf{d} \theta^{\beta}) =$ | $\phantom{A}$$ + (\mathbf{d}\theta^{\beta}) (\mathbf{d} \theta^{\alpha})$$\phantom{A}$ | $\phantom{A}$$ + (\mathbf{d}\theta^{\beta}) (\mathbf{d} \theta^{\alpha})$$\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 =--
 
