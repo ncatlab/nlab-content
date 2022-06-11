@@ -109,7 +109,7 @@ This is the statement of [Renaudin 06, theorem 2.3.2](#Renaudin06).[^1]
 
 ## Relation to derivators
 
-+-- {: .num_prop #}
++-- {: .num_prop}
 ###### Proposition
 
 There is an [[equivalence of 2-categories]]
@@ -121,7 +121,6 @@ $$
 $$
 
 between the [[homotopy 2-category]] of [[combinatorial model categories]] (Prop. \ref{Homotopy2CategoryOf2CatOfCombinatorialModelCategories}) and the 2-category of presentable [[derivators]] with left adjoint morphisms between them.
-
 =--
 
 This is the statement of [Renaudin 06, theorem 3.4.4](#Renaudin06).[^1]
@@ -161,8 +160,6 @@ $$
 $$
 
 Moreover, this localization inverts precisely (only) the [[Quillen equivalences]].
-
-
 =--
 
 This is the statement of [Renaudin 06, cor. 2.3.8 with prop. 2.3.4](#Renaudin06).
@@ -180,7 +177,6 @@ $$
 $$
 
 between the [[homotopy category]] of [[combinatorial model categories]] and that of presentable [[derivators]] with left adjoint morphisms between them.
-
 =--
 
 
