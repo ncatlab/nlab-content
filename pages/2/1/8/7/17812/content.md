@@ -1475,7 +1475,7 @@ The result is a system of 9 endofunctors, or 12 if we inclue the [[bottom]] [[ad
 |   |    |   |
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
 |   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 +-- {: .num_prop #ProgressionOfIdempotentEndofunctors}
 ###### Proposition
