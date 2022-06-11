@@ -2442,7 +2442,7 @@ We pronounce these as follows:
 | $\phantom{A}$ [[shape modality]] $\phantom{A}$ | $\phantom{A}$ [[flat modality]] $\phantom{A}$ | $\phantom{A}$ [[sharp modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $&#643; \;\coloneqq\; Disc \circ \Pi_0$  $\phantom{A}$ | $\phantom{A}$ $\flat \;\coloneqq\; Disc \circ \Gamma$ $\phantom{A}$  | $\phantom{A}$ $\sharp \;\coloneqq\; coDisc \circ \Gamma $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 
 and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
@@ -2736,7 +2736,7 @@ We pronounce these as follows:
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
@@ -2779,7 +2779,7 @@ Let $[\mathcal{C}^{op}, sSet]_{{proj/inj} \atop loc}$ be an [[elastic model topo
 |   |    |   |
 | $\phantom{A}$ [[reduction modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal shape modality]] $\phantom{A}$ | $\phantom{A}$ [[infinitesimal flat modality]] $\phantom{A}$ |
 |   $\phantom{A}$  $\Re \;\coloneqq\; \iota_{inf} \circ \Pi_{inf}$  $\phantom{A}$ | $\phantom{A}$ $\Im \;\coloneqq\; Disc_{inf} \circ \Pi_{inf}$ $\phantom{A}$  | $\phantom{A}$ $ \& \;\coloneqq\; Disc_{inf} \circ \Gamma_{inf} $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}
 
@@ -3122,7 +3122,7 @@ We pronounce these as follows:
 | $\phantom{A}$ [[fermionic modality]] $\phantom{A}$ | $\phantom{A}$ [[bosonic modality]] $\phantom{A}$ | $\phantom{A}$ [[rheonomy modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 and we refer to the corresponding [[modal objects]] (Def. \ref{ModalObjects}) as follows:
 
@@ -3173,7 +3173,7 @@ Let $[\mathcal{C}^{op}, sSet_{Qu}]_{{proj/inj} \atop lco}$ be a [[solid model to
 |   |    |    |
 | $\phantom{A}$ **[[fermionic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[bosonic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[rheonomy modality]]** $\phantom{A}$ |
 |   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 Then these arrange into the following progression, via the [[preorder]] on modalities from Def. \ref{PreorderOnModalities}:
 
