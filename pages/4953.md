@@ -10,13 +10,13 @@ If the system being studied has some concurrency in it, so that certain of the o
 
 
 
-+--{: . un-definition}
++--{: .un-definition}
 ##Definition##
 A _(Mazurkiewicz) trace alphabet_ is a pair $(\Sigma, I)$ where $\Sigma$ is a (usually finite) set of _actions_ and $I \subseteq \Sigma \times \Sigma$ is an _irreflexive_ and _symmetric_ relation.
 =--
 The relation $I$ is usually referred to as *independence*.  Its complement $D = (\Sigma \times \Sigma) - I$ is called the _dependency_ relation.  It will be reflexive and symmetric. (Such a sense of 'dependency relation' is interpreted in a related but slightly different way from that in the use of [dependency graphs](http://en.wikipedia.org/wiki/Dependency_graph) in project planning.)
 
-+--{: . un-example}
++--{: .un-example}
 ##Example##
 
 Consider the following 'dependency diagram, with some vertices (states) and labelled edges (actions):
