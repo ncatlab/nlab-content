@@ -120,21 +120,21 @@ Let $i : L \to U(L)$ be the linear mapping $L\to T(L) \to U(L)$, then define $e:
 $$e(x_1\wedge \ldots x_n) = \frac{1}{n!}\sum_\sigma \varepsilon(\sigma)i(x_{\sigma(1)})\ldots i(x_{\sigma(n)}),$$
 
 where the sum is over all permutations and $\varepsilon(\sigma)$ is the Koszul sign.
-+-- {: .num_theorem #}
-###### Theorem 
++-- {: .num_theorem}
+###### Theorem
 
 (Poincar&#233;-Birkhoff-Witt)(cf. **Quillen**)
 
 The mapping $e$ is an isomorphism of pre-dgcas.
 =--
 
-+-- {: .num_corollary #}
-######Corollary
++-- {: .num_corollary}
+###### Corollary
 $i : L \to U(L)$ defines an isomorphism between $L$ and the space of primitives of $U(L)$.
 =--
 
-+-- {: .num_corollary #}
-######Corollary
++-- {: .num_corollary}
+###### Corollary
 The natural map $UH(L,\partial)\to H(U(L,\partial)$ is an isomorphism of cocommutative pre-ghas.
 =--
 
@@ -143,7 +143,7 @@ The natural map $UH(L,\partial)\to H(U(L,\partial)$ is an isomorphism of cocommu
 Let $(A,\partial)$ be a cocommutative pre-dgha.  The vector space $P(A)$ of primitive elements (for the coalgebra structure, cf. [[differential graded coalgebra]]), is not stable under the multiplication, however the commutator $[\alpha,\beta]$ of two elements of $P(A)$ is again in $P(A)$.  This defines a pre-gla structure on $P(A)$ and we can put the induced differential on it to obtain $P(A,\partial)$.
 
 The inclusion $P(A)\to A$ extends to a morphism of cocommutative pre-dghas $\sigma: UP(A)\to A.$
-+-- {: .num_theorem #}
++-- {: .num_theorem}
 ###### Theorem (Quillen, **Quillen**)
 If $A$ is conilpotent, $\sigma$ is an isomorphism.
 =--
