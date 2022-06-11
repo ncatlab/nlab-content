@@ -22,7 +22,7 @@ In [[quantum physics]], the *quantum adiabatic theorem* for a [[parameterized qu
 
 For adiabatic transport along a [[loop]], $\gamma(0) = \gamma(1)$, this implies that the [[eigenspaces]] of the system are acted on by [[unitary operators]], which (at least for multiplicity/eigen-dimension 1) are  known as *[[Berry phases]]*.
 
-The adiabatic parameter-action on [[ground states]] of ([[topological order|topologically ordered]]) [[quantum materials]] is one model for [[quantum computation]]. If these [[quantum gates]] depend only on the [[isotopy]] [[equivalence class|class]] of the parameter path, then one speaks of *[[topological quantum computation]]* (see also at *[braiding of anyonic defects](braid+group+statistics#AsBraidingOfDefects)*).
+{#AsAModelForQuantumComputation} The adiabatic parameter-action on [[ground states]] of ([[topological order|topologically ordered]]) [[quantum materials]] is one model for [[quantum computation]], see at *[[adiabatic quantum computation]]*. If these adiabatic [[quantum gates]] depend only on the [[isotopy]] [[equivalence class|class]] of the parameter path, then one speaks of *[[topological quantum computation]]* (made explicit in [Arovas, Schrieffer, Wilczek & Zee 1985, p. 1](#ArovasSchriefferWilczekZee85), [Freedman, Kitaev, Larsen & Wang 2003, pp. 6](#FreedmanKitaevLarsenWang03) and [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08), see also at *[braiding of anyonic defects](braid+group+statistics#AsBraidingOfDefects)*).
 
 The following graphics is meant to illustrate this general idea for the case of adiabatic transformation along the [[braid group|braiding]] of nodal points in the [[Brillouin torus]] of [[semi-metal]] [[quantum materials]] (see the discussion at *[[braid group statistics]] -- [anyonic band nodes](braid+group+statistics#AnyonicBandNodes)*):
 
@@ -85,6 +85,15 @@ Discussion in [[solid state physics]] and in view of gapped [[topological phases
 Review:
 
 * [[Sven Bachmann]], [[Wojciech De Roeck]], [[Martin Fraas]], *The adiabatic theorem in a quantum many-body setting*, in: *Analytic Trends in Mathematical Physics*, Contemporary Mathematics **741** (2020) 43-58 ([arXiv:1808.09985](https://arxiv.org/abs/1808.09985), [ISBN:978-1-4704-5388-6](https://bookstore.ams.org/conm-741))
+
+References which make explicit that the standard model of [[topological quantum computation]] by [[braid group statistics|braiding]] of [[anyons]] is a form of [[adiabatic quantum computation]]:
+
+* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
+
+* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], pp. 6 of *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
+
+* {#NayakSimonSternFreedman08} [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], §II.A.2 (p. 6) of: _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)$]$
+
 
 
 [[!redirects adiabatic theorems]]
