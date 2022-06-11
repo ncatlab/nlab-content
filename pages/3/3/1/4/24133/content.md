@@ -36,9 +36,9 @@ More abstractly, where a single [[quantum system]] is described by [[linear type
 
 ## Properties
 
-### Quantum adiabatic theorem and Berry phases
+### Adiabatic Berry phases and adiabatic quantum computation
 
-The *[[quantum adiabatic theorem]]* says that/how the evolution of a parameterized quantum system under sufficiently slow movement of the external parameters remains in an [[eigenstate]] for a given system of [[commutator|commuting]] [[quantum observables]]. The remaining transformations on these [[eigenspaces]] are known as (non-abelian) *[[Berry phases]]*.
+The *[[quantum adiabatic theorem]]* says that/how the evolution of a parameterized quantum system under sufficiently slow movement of the external parameters remains in an [[eigenstate]] for a given system of [[commutator|commuting]] [[quantum observables]]. The remaining transformations on these [[eigenspaces]] are known as (non-abelian) *[[Berry phases]]*. These are used as [[quantum gates]] in [[adiabatic quantum computation]].
 
 ## Examples
 
