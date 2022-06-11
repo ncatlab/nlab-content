@@ -262,7 +262,7 @@ into the space of microcausal functionals (e.g. [Fredenhagen-Rejzner 12, p. 21](
 
 ## Properties
 
-+-- {: .num_prop #}
++-- {: .num_prop}
 ###### Proposition
 
 Write $\mathcal{F}_{reg} \subset \mathcal{F}_{mc}$ for that subalgebra of the algebra of microcausal functionals whose [[coefficients]] are [[non-singular distributions]].
