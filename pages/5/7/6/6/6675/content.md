@@ -25,7 +25,7 @@ In _topological quantum computation_ one aims to make use of [[quantum systems]]
 ### On Anyons in 2+1 d
 
 The standard paradigm for potentially realizing topological quantum computation in practice ([Kitaev 03](#Kitaev03), [Freedman, Kitaev, Larsen & Wang03](#FreedmanKitaevLarsenWang03))
-considers manipulations of [[anyon]] [[topological defects]] in effectively 2-dimensional [[quantum materials]], such as in the [[quantum Hall effect]] and effectively described by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]]:
+considers [[adiabatic quantum computation|adiabatic]] [[braiding]] of [defect anyons](braid+group+statistics#AsBraidingOfDefects) in effectively 2-dimensional [[quantum materials]], such as in the [[quantum Hall effect]] and [[effective field theory|effectively described]] by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]]:
 
 
 \begin{imagefromfile}
