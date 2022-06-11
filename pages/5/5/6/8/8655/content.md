@@ -64,7 +64,7 @@ $$
 $$
 
 
-+-- {: .num_example #}
++-- {: .num_example}
 ###### Example
 
 Continuing example \ref{LagrangianDataInCaseOfMirrorSymmetry} 
