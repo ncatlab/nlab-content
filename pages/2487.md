@@ -97,7 +97,7 @@ $GL(n,k) \subset Mat_{n \times n}(k)$.
 
 =--
 
-+-- {: .num_defn #}
++-- {: .num_defn}
 ###### Definition
 **(stable general linear group)**
 
