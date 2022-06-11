@@ -243,7 +243,7 @@ be an [[adjoint triple]], with $Disc$ a [[fully faithful functor]].  Denoting th
 |----------|-----------|----------|
 | $\phantom{A}$ $(\Pi \dashv Disc)$ $\phantom{A}$ | $\phantom{A}$  $\eta^{&#643;}$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^{&#643;}$ $\phantom{A}$ |
 | $\phantom{A}$ $(Disc \dashv \Gamma)$ $\phantom{A}$ | $\phantom{A}$ $\eta^\flat$ $\phantom{A}$ | $\phantom{A}$ $\epsilon^\flat$ $\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 we have that the following [[composition|composites]] of unit/counit components are equal:
 
