@@ -103,7 +103,9 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 * [[quantum logic]], [[linear logic]]
 
-* [[topological quantum computing]]
+* [[adiabatic quantum computation]]
+
+* [[topological quantum computation]]
 
 * [[quantum Hall effect]], [[Chern-Simons theory]].
 
