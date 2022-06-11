@@ -257,7 +257,7 @@ Note this encoding does not involve the relationship given by adjacency, and hen
 
 The language ([[trace language]]) corresponding to the model will be a subset of the [[trace monoid]] of the trace alphabet $(\Sigma, I)$ given here.  It will encode allowable execution sequences  but also will consider the allowable sequences ( _traces_ ): $a b c d e$, $a c b d e$, $a b d c e$, $a c e b d$ etc. to be identified.
 
-=----
+=--
 ##Reference
 
 *  A Mazurkiewicz, _Trace theory_ in 'Advances in Petri Nets', volume 255 of LNCS, Springer (1987).
