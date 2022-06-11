@@ -72,7 +72,16 @@ Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAn
 
 ## References
 
-* [Wikipedia/en](https://en.wikipedia.org/wiki/Wedge_sum) has discussion about the commonly studied case in $Top$.
+Texbook accounts: 
+
+* {#Munkres75} [[James Munkres]], §71 of: _Topology_, Prentice Hall (1975, 2000) $[$[pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)$]$
+
+* {#tomDieck2008} [[Tammo tom Dieck]],  p. 31 of: _Algebraic topology_, European Mathematical Society, Zürich (2008) $[$[doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf)$]$
+
+
+See also:
+
+* Wikipedia *[Wedge sum](https://en.wikipedia.org/wiki/Wedge_sum)* 
 
 
 [[!redirects wedge sum]]
