@@ -10,6 +10,8 @@ On [[topological quantum computation]] with [[anyons]]:
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
 
+* {#Simon21} [[Steven H. Simon]], *Topological Quantum*, 2021 $[$[pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep1-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)$]$
+
 
 Approximating all [[topological quantum computation|topological quantum gates]] by just the "weaves" among all [[braids]]:
 
