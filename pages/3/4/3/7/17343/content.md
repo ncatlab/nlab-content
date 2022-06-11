@@ -1636,7 +1636,7 @@ $$
 $$
 
 
-=---
+=--
 
 The following is a general fact about closure of morphisms defined by lifting properties which we prove in generality below as prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}.
 
@@ -5899,7 +5899,7 @@ $$
 
 we call the **[[classical pointed homotopy category]]**.
 
-=---
+=--
 
 
 +-- {: .num_remark #NonDegenerateBasepointAsCofibrantObjects}
@@ -7091,7 +7091,7 @@ $$
 
 It is in this sense that $\mathcal{C}$ is a category with [[extra structure]], and hence "[[enriched category|enriched]]".
 
-=---
+=--
 
 The archetypical example is $Top_{cg}$ itself:
 
@@ -9735,7 +9735,7 @@ Hence it follows by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences
 
 In conclusion, if the homotopy pullback condition is satisfied for one factorization of $g$, then it is satisfied for all factorizations of $f$. Since the argument is symmetric in $f$ and $g$, this proves the claim.
 
-=---
+=--
 
 +-- {: .num_remark #PullbackOfFibrationWithFibrantObjectsIsHomotopyPullback}
 ###### Remark
@@ -10340,7 +10340,7 @@ This is called the **[[long exact sequence of homotopy groups]]** induced by $f$
 
 =--
 
-+-- {: .num_remark #}
++-- {: .num_remark}
 ###### Remark
 
 As we pass to [[stable homotopy theory]] (in [[Introduction to Stable homotopy theory -- 1|Part 1)]]), the long exact sequences in example \ref{LongExactSequeceOfHomotopyGroups} become long not just to the left, but also to the right. Given then a [[tower of fibrations]], there is an induced sequence of such long exact sequences of homotopy groups, which organizes into an _[[exact couple]]_. For more on this see at _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_ ([this remark](Introduction+to+Stable+homotopy+theory+--+I#UnrolledExactCoupleOfAFiltrationOnASpectrum)).
