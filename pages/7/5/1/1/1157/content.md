@@ -147,7 +147,7 @@ $$B: \varepsilon DGA\to DGC_0$$
 $$F : DGC_0\to  \varepsilon DGA.$$
 
 
-+-- {: .num_theorem #}
++-- {: .num_theorem}
 ###### Proposition
 
 (Husemoller-Moore-[[Jim Stasheff|Stasheff]])
