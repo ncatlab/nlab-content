@@ -578,7 +578,7 @@ for the $k$-fold intersections of these open subsets. Given an inclusion of open
 
 More generally, we may allow $S$ to be any [[site]]. For simplicity of the following formulas assume that $S$ has [[finite products]] (which in the case that $S$ is a [[category of open subsets]] are the [[fiber products]] above.) Then $A_\bullet$ is a chain complex of [[abelian sheaves]] on that site. 
 
-+-- {: .num_defn #ČechComplex}
++-- {: .num_defn #CechComplex}
 ###### Definition
 **(&#268;ech complex)**
 
