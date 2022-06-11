@@ -598,7 +598,7 @@ $$
 
 (for homotopy groups based at the canonical basepoint).
 
-=---
+=--
 
 +-- {: .proof}
 ###### Proof
@@ -870,18 +870,16 @@ $$
   B O(n) \simeq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
   \,.
 $$
-
 =--
 
 A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](#Hatcher)).
 
 
 
-+-- {: .num_prop #}
++-- {: .num_prop}
 ###### Proposition
 
 The classifying spaces $B O(n)$ are [[paracompact spaces]].
-
 =--
 
 An early source of this statement is ([Cartan-Schwartz 63, expos&#233; 5](#CartanSchwartz63)). It follows for instance by prop. \ref{CWComplexStructure} the fact that every [[CW-complex]] is paracompact.
