@@ -341,7 +341,7 @@ This is true for instance for
 
 
 
-+--{+ .query}
++-- {.query}
 One should say more: there are so many applications
 and fairly difficult theorems there; for example van    
 Osdol's  work.
