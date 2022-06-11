@@ -27,9 +27,7 @@ The concept of _[[solid topos]]_ is meant to be a characterization of _[[gros to
 | $\phantom{A}$[[cohesion]] | $\phantom{A}$principles of [[differential topology]]$\phantom{A}$ |
 | $\phantom{A}$[[elastic topos|elasticity]] | $\phantom{A}$principles of [[differential geometry]]$\phantom{A}$ |
 | $\phantom{A}$[[solid topos|solidity]]$\phantom{A}$ | $\phantom{A}$principles of [[supergeometry]]$\phantom{A}$ |
-{: style='margin:auto}
-
-
+{: style='margin:auto'}
 
 
 
@@ -203,7 +201,7 @@ We pronounce these as follows:
 | $\phantom{A}$ [[fermionic modality]] $\phantom{A}$ | $\phantom{A}$ [[bosonic modality]] $\phantom{A}$ | $\phantom{A}$ [[rheonomy modality]] $\phantom{A}$ |
 |--------------------|-------------------|--------------------|
 |   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 and we refer to the corresponding [[modal objects]] ([this Def.](geometry+of+physics+--+categories+and+toposes#ModalObjects)) as follows:
 
@@ -253,7 +251,7 @@ Let $\mathbf{H}$ be a [[solid topos]] (Def. \ref{SuperDifferentialCohesion}) and
 |   |    |    |
 | $\phantom{A}$ **[[fermionic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[bosonic modality]]** $\phantom{A}$ | $\phantom{A}$ **[[rheonomy modality]]** $\phantom{A}$ |
 |   $\phantom{A}$  $\rightrightarrows \;\coloneqq\; \iota_{sup} \circ even$  $\phantom{A}$ | $\phantom{A}$ $\rightsquigarrow \;\coloneqq\; \iota_{sup} \circ \Pi_{sup}$ $\phantom{A}$  | $\phantom{A}$ $ Rh \;\coloneqq\; Disc_{sup} \circ \Pi_{sup} $ $\phantom{A}$  |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 Then these arrange into the following progression, via the [[preorder]] on modalities from [this Def.](geometry+of+physics+--+categories+and+toposes#PreorderOnModalities):
 
@@ -339,7 +337,7 @@ $$
 
 ### Super formal smooth sets
 
-The [[sheaf topos]] of [[geometry of physics -- supergeometry|super formal smooth sets]] is solid over that of [[formal smooth sets]], which is [[elastic topos|elastic]] over that of [[smooth sets]], which is [[cohesive topos|cohesive]] over [[Set]].
+The [[sheaf topos]] of [[super formal smooth sets]] is solid over that of [[formal smooth sets]], which is [[elastic topos|elastic]] over that of [[smooth sets]], which is [[cohesive topos|cohesive]] over [[Set]].
 
 See [this Prop](geometry+of+physics+--+supergeometry#SuperSmoothSetsSystemOfAdjunctions) at _[[geometry of physics -- supergeometry]]_.
 
