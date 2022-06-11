@@ -28,7 +28,7 @@ A [[first-order theory]] $T$ in a language $\mathcal{L}$ is **substructure compl
 
 ## Equivalence with quantifier elimination
 
-+-- {: .num_theorem#QEiffsubstructurecomplete}
++-- {: .num_theorem #QEiffsubstructurecomplete}
 ###### Theorem
 
 $T$ [[quantifier elimination|eliminates quantifiers]] if and only if $T$ is substructure-complete.
