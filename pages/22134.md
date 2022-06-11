@@ -11,6 +11,8 @@ The idea of [[topological quantum computation]] via the [[Chern-Simons theory]] 
 
 * [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics. 2002, Vol 227, Num 3, pp 605-622  ([arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108))
 
+  > (specifically via [[su(2)-anyons]])
+
 * D. Melnikov, A. Mironov, S. Mironov, A. Morozov, An. Morozov, _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 ([arXiv:1703.00431](https://arxiv.org/abs/1703.00431), [doi:10.1016/j.nuclphysb.2017.11.016](https://doi.org/10.1016/j.nuclphysb.2017.11.016))
 
 Textbook accounts:
@@ -21,7 +23,7 @@ Textbook accounts:
 
 * [[Tudor D. Stanescu]], Part IV of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
-* {#Simon21} [[Steven H. Simon]], *Topological Quantum*, 2021 ([pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep1-2021.pdf))
+* {#Simon21} [[Steven H. Simon]], *Topological Quantum*, 2021 $[$[pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep1-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)$]$
 
 Review:
 
@@ -35,7 +37,7 @@ Review:
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
-* Bernard Field, Tapio Simula, _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology 2018 ([arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2))
+* Bernard Field, Tapio Simula, _Introduction to topological quantum computation with non-Abelian anyons_, Quantum Science and Technology **3** (2018) 045004 ([arXiv:1802.06176](https://arxiv.org/abs/1802.06176), [doi:10.1088/2058-9565/aacad2](https://iopscience.iop.org/article/10.1088/2058-9565/aacad2))
 
 Focus on **[[abelian anyons]]**:
 
