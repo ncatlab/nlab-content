@@ -64,7 +64,7 @@ Here the [[axioms]] for [[preordered sets]] and for [[categories]] match as foll
 |----|-----|------|
 | $\phantom{A}$[[partially ordered sets]]$\phantom{A}$ | $\phantom{A}$ $x \leq x$ $\phantom{A}$ | $\phantom{A}$ $(x \leq y \leq z) \Rightarrow (x \leq z)$ $\phantom{A}$ |
 | $\phantom{A}$[[thin categories]]$\phantom{A}$ | $\phantom{A}$[[identity morphisms]]$\phantom{A}$ | $\phantom{A}$[[composition]]$\phantom{A}$ |
-{: style='margin:auto}
+{: style='margin:auto'}
 
 =--
 
