@@ -21,7 +21,7 @@ Rational parametrized homotopy theory is _[[parametrized homotopy theory]]_ in t
 ## Properties
 
 
-+-- {: .num_prop #} 
++-- {: .num_prop}
 ###### Proposition
 **([[rational fibration lemma]])**
 
@@ -48,7 +48,6 @@ If in addition
 1. at least one of $A$, $F$ has rational [[finite type]] 
 
 then the [[cofiber]] of any [[relative Sullivan model]] for $p$ is a [[Sullivan model]] for $F$.
-
 =-- 
 
 ([Félix-Halperin-Thomas 00, Theorem 15.3](#FelixHalperinThomas00), following [Halperin 83, Section 16](#Halperin83))
