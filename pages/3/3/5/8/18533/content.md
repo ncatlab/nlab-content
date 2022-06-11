@@ -75,7 +75,7 @@ Every [[compactly supported distribution]] has finite order.
 
 As a special case of example \ref{CompactLySupportedDistributionsHaveFiniteOrder}:
 
-+-- {: .num_example #}
++-- {: .num_example}
 ###### Example
 
 A [[point-supported distribution]] is a sum of [[derivatives]] of the [[delta distribution]] at that point. This has order $k$ if the order of the derivatives is bounded by $k$.
