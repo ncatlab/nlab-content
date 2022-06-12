@@ -18,7 +18,15 @@
 
 A [[2d CFT]] is called *logarithmic* (LCFT) if it looks like a [[rational conformal field theory]] except that some of the [[n-point function|2-point functions]] may have a [[logarithm|logarithmic]] dependence on the field insertion, in addition to the usual power law (see, e.g. [Fuchs & Schweigert 2019, (8)](#FuchsSchweigert19) for a clear account). 
 
-The appearance of the logarithmic term corresponds to the nontrivial $2\times 2$ [[Jordan blocks]] for the $L_0$ operator. Many models of LCFT seem to be related to the [[quantum groups]] at even [[roots of unity]].
+## Examples
+ {#Examples}
+
+A classical example of a logarithmic CFT it the "triple algebra of the $c=-2$ Virasoso model", see the references [below](#ExampleTripletAlgebra).
+
+More rcently it was understood ([Gaberdiel 2001](#Gaberdiel01), review in [Ridout 2010](#Ridout10), [2020](#Ridout20)) that the chiral [[WZW models]] at "admissible" *[[rational number|fractional]]* [[level (Chern-Simons theory)|levels]] are examples of logarithmic CFTs, see the references [further below](#FractionalLevelWZWModelReferences}). (The [[WZW model]] at non-[[integer]]-level does not have a geometric [[sigma-model]]-description but but it still does make sense as a [[current algebra]]/[[vertex operator algebra]]/[[modular functor]] of [[conformal blocks]]). 
+
+In fact, the triple algebra $c=-2$-model turns out to be essentially equivalent to the [[su(2)|$\mathfrak{su}(2)$]]-WZW model at admissible level $0$ ([Nichols 2002](#Nichols02)).
+
 
 ## Related concepts
 
