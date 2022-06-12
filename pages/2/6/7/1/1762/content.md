@@ -12,6 +12,9 @@ Introducing [[orientals]]:
 
 * {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  $[$[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019$]$
 
+A multifaced outlook on descent theory including toward higher descent
+
+* Ross Street, _Categorical and combinatorial aspects of descent theory_, Applied Categorical Structures 12, 537--576 (2004) [doi](https://doi.org/10.1023/B:APCS.0000049317.24861.36)
 
 On [[lax functors]]:
 
@@ -28,15 +31,20 @@ Further:
 
 * A. Joyal, R. Street, [[D. Verity]], _Traced monoidal categories_.  Math. Proc. Cambridge Philos. Soc.  __119__  (1996),  no. 3, 447--468.
 
+* R.H. Street, _Fibrations in bicategories_, Cahiers de topologie et géométrie différentielle XXI (1980) 111–160
+
+* R.H. Street, _Two dimensional sheaf theory_, J. Pure and Appl. Algebra __24__ (1982) [MR617138](https://mathscinet.ams.org/mathscinet-getitem?mr=617138)
+
+* R. Street, _Characterization of bicategories of stacks_, In: Kamps, K.H., Pumplün, D., Tholen, W. (eds) Category Theory. Lect. Notes Math. __962__, Springer 1982 [doi](https://doi.org/10.1007/BFb0066909)
 
 On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]]:
 
-* [[Brian Day]], [[Ross Street]], *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
+* [[Brian Day]], [[Ross Street]], _Monoidal bicategories and Hopf algebroids_, Adv. Math. __129__:1 (1997) 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
 
 
 On [[coherence theorems]] for [[tricategories]]:
 
-* [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
+* [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. __117__ (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
 
 
 category: people
