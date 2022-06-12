@@ -37,9 +37,9 @@ and interpreted as [[logarithmic CFT|logarithmic]] [[2d CFT|CFTs]]:
 
 Reviewed in:
 
-* [[David Ridout]], *Fractional Level WZW Models as Logarithmic CFTs* (2010) $[$[pdf](https://researchers.ms.unimelb.edu.au/~dridout@unimelb/seminars/100225.pdf), [[Ridout-FractionalLevelWZW2010.pdf:file]]$]$
+* {#Ridout10} [[David Ridout]], *Fractional Level WZW Models as Logarithmic CFTs* (2010) $[$[pdf](https://researchers.ms.unimelb.edu.au/~dridout@unimelb/seminars/100225.pdf), [[Ridout-FractionalLevelWZW2010.pdf:file]]$]$
 
-* [[David Ridout]], *Fractional-level WZW models* (2020) $[$[pdf](https://researchers.ms.unimelb.edu.au/~dridout@unimelb/seminars/200205.pdf), [[Ridout-FractionalLevelWZW2020.pdf:file]]$]$
+* {#Ridout20} [[David Ridout]], *Fractional-level WZW models* (2020) $[$[pdf](https://researchers.ms.unimelb.edu.au/~dridout@unimelb/seminars/200205.pdf), [[Ridout-FractionalLevelWZW2020.pdf:file]]$]$
 
 In particular, the logarithmic $c = -2$ model is essentially an admissible-level WZW model (namely at level $k = 0$):
 
