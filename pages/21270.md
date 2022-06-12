@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -223,9 +224,9 @@ Discussion for [[D=11 supergravity]]:
 
 * [[David Berman]], Kwangeon Kim, Kanghoon Lee, _The Classical Double Copy for M-theory from a Kerr-Schild Ansatz for Exceptional Field Theory_ ([arXiv:2010.08255](https://arxiv.org/abs/2010.08255))
 
-Description via [[L-infinity algebras]]:
+Description via [[L-infinity algebras|$L_\infty$-algebras]]:
 
-* [[Leron Borsten]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double copy from homotopy algebras_, Fortschritte der Physik, 69(8-9), 2100075 ([arXiv:2102.11390](https://arxiv.org/abs/2102.11390)) [doi](https://doi.org/10.1002/prop.202100075)
+* [[Leron Borsten]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double copy from homotopy algebras_, Fortschritte der Physik, **69** 8-9 (2021) 2100075 $[$[arXiv:2102.11390](https://arxiv.org/abs/2102.11390), [doi:10.1002/prop.202100075](https://doi.org/10.1002/prop.202100075)$]$
 
 
 For curved spacetimes:
