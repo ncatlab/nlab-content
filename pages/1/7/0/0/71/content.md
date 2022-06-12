@@ -639,11 +639,11 @@ The orientals $O(\Delta^{(n)})$, as well as the $\Pi_\omega(\Delta^{(n)})$ play 
 
 ## References {#lit}
 
-The orientals were introduced in
+The original article:
 
-* {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra 49 (1987) 283-335; MR89a:18019 ([pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X"></a>).
+* {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  $[$[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019$]$
 
-The link to cyclic polytopes is discussed in
+The relation to cyclic polytopes is discussed in
 
 * [[Mikhail Kapranov]] and [[Vladimir Voevodsky]], _Combinatorial-geometric aspects of polycategory theory: pasting schemes and higher Bruhat orders (list of results)_.
 International Category Theory Meeting (Bangor, 1989 and Cambridge, 1990).
