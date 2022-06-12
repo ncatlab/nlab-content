@@ -1,2 +1,73 @@
 
-...
+
+\begin{tikzcd}[
+  column sep=20pt,
+  row sep=20pt
+]
+  1
+  \ar[rr]
+  \ar[
+    Rightarrow,
+    dr,
+    shorten=6pt
+  ]
+    && 
+  2
+  \ar[dd]
+  &&
+  1
+  \ar[rr]
+  \ar[ddrr]
+  &&
+  2
+  \ar[dd]
+  \ar[
+    dl,
+    Rightarrow,
+    shorten=6pt
+  ]
+  \\
+  & 
+  {} 
+  \ar[
+    Rightarrow,
+    dr,
+    shorten=6pt
+  ]
+  &
+  {}
+  \ar[
+    Rightarrow,
+    rr,
+    shorten=10pt
+  ]
+  \ar[
+    -,
+    rr,
+    shorten=10pt
+  ]
+  &
+  {}
+  &
+  {}
+  &
+  {}
+  \ar[
+    dl,
+    Rightarrow,
+    shorten=6pt
+  ]
+  \\
+  0 
+  \ar[uu]
+  \ar[rr]
+  \ar[uurr]
+    &&
+  3
+  &&
+  0
+  \ar[uu]
+  \ar[rr]
+  &&
+  3
+\end{tikzcd}
