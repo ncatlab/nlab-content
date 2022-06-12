@@ -19,7 +19,7 @@ There exists the [[model category]] structure on the [[category]] of [[semi-simp
 
 There is also a [[weak model category]] structure ([Henry 18](#Henry18)), for which the Quillen equivalence to simplicial sets is proven as [Henry 18, Thm 5.5.6 (iv)](#Henry18).
 
-Also there is the structure of a [[semimodel category]] ([Rooduijn 2018](#Rooduijn2018)) and of a [[fibration category]] and [[cofibration category]] on semisimplicial sets ([Sattler 18, Th, 3.18 & 3.43](#Sattler18)).
+Also there is the structure of a [[semimodel category]] ([Rooduijn 2018](#Rooduijn2018)) and of a [[fibration category]] on semisimplicial sets ([Sattler 18, Th, 3.18](#Sattler18)) (and [[cofibration category]] on fibrant-cofibrant objects).
 
 
 ## References
@@ -37,9 +37,11 @@ As a right [[semimodel category]]:
 
 * {#Rooduijn2018} Jan Rooduijn, *A right semimodel structure on semisimplicial sets*, Amsterdam 2018 ([pdf](https://eprints.illc.uva.nl/id/eprint/1663/1/MoL-2018-34.text.pdf), [mol:4787](https://msclogic.illc.uva.nl/theses/archive/publication/4787/A-right-semimodel-structure-on-semisimplicial-sets))
 
-As a [[fibration category]] and [[cofibration category]]:
+As a [[fibration category]]:
 
 * {#Sattler18} [[Christian Sattler]], *Constructive homotopy theory of marked semisimplicial sets* ([arXiv:1809.11168](https://arxiv.org/abs/1809.11168))
+
+The above note contains a mistake in Theorem 3.43: semisimplicial sets do not form a [[cofibration category]] as considered there: (cofibration, weak equivalence)-factorizations do not generally exist (cf. the paragraph at the end of Subsection 3.2). Instead, the notion of cofibration category has to be weakened using a notion of pseudofactorizations (similar to the notion of weak model category).
 
 [[!redirects model structure on semisimplicial sets]]
 
@@ -51,5 +53,3 @@ As a [[fibration category]] and [[cofibration category]]:
 
 [[!redirects fibration category of semi-simplicial sets]]
 [[!redirects fibration category of semisimplicial sets]]
-
-
