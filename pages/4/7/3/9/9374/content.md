@@ -13,9 +13,12 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
-A class of 2d [[conformal field theories]] which are not rational conformal field theories but are the closest to them in the class of irrational. The appearance of the logarithmic term corresponds to the nontrivial $2\times 2$ Jordan blocks for the $L_0$ operator. Many models of LCFT seem to be related to the quantum groups at even root of unity.
+A [[2d CFT]] is called *logarithmic* (LCFT) if it looks like a [[rational conformal field theory]] except that some of the [[n-point function|2-point functions]] may have a [[logarithm|logarithmic]] dependence on the field insertion, in addition to the usual power law (see, e.g. [Fuchs & Schweigert 2019, (8)](#FuchsSchweigert19) for a clear account). 
+
+The appearance of the logarithmic term corresponds to the nontrivial $2\times 2$ [[Jordan blocks]] for the $L_0$ operator. Many models of LCFT seem to be related to the [[quantum groups]] at even [[roots of unity]].
 
 ## Related concepts
 
@@ -56,7 +59,7 @@ On the [[braided tensor categories]] corresponding to logarithmic CFTs:
 
 On generalizing the [[FRS-theorem on rational 2d CFT]] to logarithmic 2dCFTs:
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
+* {#FuchsSchweigert19} [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
 
 Logarithmic CFT describing generalized [[Laughlin wavefunctions]] with [[topological order]]:
 
