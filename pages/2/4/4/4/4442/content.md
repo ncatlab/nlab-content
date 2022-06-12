@@ -360,7 +360,7 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 ### Original articles
 
-The original articles are
+The rough conjecture originates in:
 
 * {#Maldacena97a} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998 ([hep-th/9711200](http://arxiv.org/abs/hep-th/9711200))
 
@@ -372,7 +372,7 @@ The actual rule for matching [[bulk field theory|bulk]] [[states]] to [[generati
 
 * {#Witten98} [[Edward Witten]], around (2.11) of _Anti-de Sitter space and holography_, Advances in Theoretical and Mathematical Physics 2: 253&#8211;291, 1998 ([hep-th/9802150](http://arxiv.org/abs/hep-th/9802150))
 
-See also
+See also:
 
 * [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
 
