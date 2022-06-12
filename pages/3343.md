@@ -46,9 +46,9 @@ On [[schreiber:Higher Structures|higher structures]] in [[M-theory]]:
 
 * [[Branislav Jurčo]], [[Christian Saemann]], [[Urs Schreiber]], [[Martin Wolf]], _Higher Structures in M-Theory_,  Introduction to _[Higher Structures in M-Theory, LMS-EPSRC Durham Symposium, August 2018](http://www.maths.dur.ac.uk/lms/109/index.html)_, Fortsch. d. Phys. 2019 ([arXiv:1903.02807](https://arxiv.org/abs/1903.02807))
 
-On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras]]:
+On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras|$L_\infty$-algebras]]:
 
-* [[Leron Borsten]], [[Branislav Jurco]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double Copy from Homotopy Algebras_ ([arXiv:2102.11390](https://arxiv.org/abs/2102.11390))
+* [[Leron Borsten]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], _Double copy from homotopy algebras_, Fortschritte der Physik, **69** 8-9 (2021) 2100075 $[$[arXiv:2102.11390](https://arxiv.org/abs/2102.11390), [doi:10.1002/prop.202100075](https://doi.org/10.1002/prop.202100075)$]$
 
 
 
