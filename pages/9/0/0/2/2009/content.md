@@ -35,6 +35,8 @@ The [[Frobenius theorem]] states that apart from the fields of [[real number|rea
 
 * [[division algebra]]
 
+* [[reciprocal algebra]]
+
 * [[Dieudonné determinant]]
 
 * [[division rig]]
