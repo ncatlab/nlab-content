@@ -68,6 +68,18 @@ reviewed in:
 
 * Yukihito Kawahara, *The twisted de Rham cohomology for basic constructionsof hyperplane arrangements and its applications*, Hokkaido Math. J. **34** 2 (2005) 489-505 $[$[doi:10.14492/hokmj/1285766233](https://projecteuclid.org/journals/hokkaido-mathematical-journal/volume-34/issue-2/The-twisted-de-Rham-cohomology-for-basic-constructionsof-hyperplane-arrangements/10.14492/hokmj/1285766233.full)$]$
 
+{#HypergeometricReferencesForVanishingLevel} Discussion for the special case of [[level (Chern-Simons theory)|level]]$=0$ (cf. at *[logarithmic CFT -- Examples](logarithmic+CFT#Examples)*):
+
+* Fedor A. Smirnov, *Remarks on deformed and undeformed Knizhnik-Zamolodchikov equations*, $[$[arXiv:hep-th/9210051](https://arxiv.org/abs/hep-th/9210051)$]$
+
+* Fedor A. Smirnov, *Form factors, deformed Knizhnik-Zamolodchikov equations and finite-gap integration*, Communications in Mathematical Physics **155** (1993) 459–487 $[$[doi:10.1007/BF02096723](https://doi.org/10.1007/BF02096723)$]$ 
+
+* S. Pakuliak, A. Perelomov, *Relation Between Hyperelliptic Integrals*, Mod. Phys. Lett. **9** 19 (1994) 1791-1798 $[$[doi:10.1142/S0217732394001647](https://doi.org/10.1142/S0217732394001647)$]$
+
+
+    
+
+
 Interpretation of the [[hypergeometric construction of KZ solutions|hypergeometric construction]] as happening in [[twisted equivariant differential K-theory]], showing that the [[K-theory classification of D-brane charge]] and the [[K-theory classification of topological phases of matter]] both reflect [[braid group representations]] as expected for [[defect branes]] and for [[anyons]]/[[topological order]], respectively:
 
 * [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic defect branes in TED-K-theory]]* $[$[arXiv:2203.11838](https://arxiv.org/abs/2203.11838)$]$
