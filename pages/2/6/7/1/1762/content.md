@@ -1,11 +1,23 @@
-Ross Street is a major category theorist of the [[Australian school of category theory]], a student and collaborator of the late [[Max Kelly|Gregory Maxwell Kelly]]. See his [list of publications](http://science.mq.edu.au/~street/Publications.html) and [homepage](http://www.maths.mq.edu.au/~street). His most important works include works in [[sheaf]], [[fibred category]], [[stack]] and [[descent]] theory, including the introduction of [[oriental]]s, a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
+Ross Street is a major member of the Australian school of [[higher category theory]], a student and collaborator of the late [[Max Kelly|Gregory Maxwell Kelly]]. 
+
+* [homepage](http://www.maths.mq.edu.au/~street)
+
+His most important works include works in [[sheaf]]-, [[fibred category]]-, and [[descent]]-theory, including the introduction of [[orientals]], a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
 
 ## Selected writings
 
+* [list of publications](http://science.mq.edu.au/~street/Publications.html)
+
+Introducing [[orientals]]:
+
+* {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  $[$[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019$]$
+
+
+On [[lax functors]]:
+
 * R. Street, _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
 
-
-*  R. Street, _The algebra of oriented simplexes_, J. Pure Appl. Algebra, 49, (1987), 283 &#8211; 335.
+Further:
 
 * [[André Joyal|A. Joyal]], R. Street, _Pullbacks equivalent to pseudopullbacks_, Cahiers topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 34 (1993) 153-156; [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_2_153_0) MR94a:18004.
 
