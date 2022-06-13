@@ -1280,7 +1280,7 @@ constitutes the right one of the two squares in the homotopy-theoretic version o
 
 That every [[stable homotopy type]] in a [[cohesive (∞,1)-topos]] naturally sits in a differential cohomology diagram was observed (focusing on [[Smooth∞Grpd]]) in 
 
-* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], *Differential cohomology theories as sheaves of spectra*, Journal of Homotopy and Related Structures **11**  (2016) 1–66 $[$[arXiv:1311.3188](http://arxiv.org/abs/1311.3188), [doi:10.1007/s40062-014-0092-5](https://doi.org/10.1007/s40062-014-0092-5)$]$
 
 following
 
