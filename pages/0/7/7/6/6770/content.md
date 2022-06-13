@@ -16,7 +16,7 @@
 
 ## Idea
 
-The __Selberg integral__ is a higher-dimensional generalization of the integral representation of Euler's beta function due Alte Selberg. Many further "Selberg-type" generalizations appear in the study of multidimensional generalizations of hypergeometric functions, arrangements of hyperplanes, [[Knizhnik-Zamolodchikov equation]], representation theory of quantum and affine Lie algebras and of vertex operator algebras, random matrix theory etc. There is also an ellitic generalization, see [[elliptic Selberg integral]].
+The __Selberg integral__ is a higher-dimensional generalization of the integral representation of Euler's beta function due Alte Selberg. Many further "Selberg-type" generalizations appear in the study of multidimensional generalizations of hypergeometric functions, arrangements of hyperplanes, [[Knizhnik-Zamolodchikov equation]], representation theory of quantum and affine Lie algebras and of vertex operator algebras, random matrix theory etc. There is also an elliptic generalization, see [[elliptic Selberg integral]].
 
 $$
 \int_0^1 \cdots \int_0^1 (u_1\cdots u_p)^{x-1} [(1-u_1)\cdots (1-u_p)]^{y-1} \left( \prod_{i\lt j} (u_j-u_i)\right)^{2 z} d u_1 \ldots d u_p =
