@@ -36,6 +36,9 @@ Grothendieck has defined a prime spectrum of commutative unital ring having in m
 
 ## Literature
 
+* [[Michael Reed]], [[Barry Simon]]: *Methods of Modern Mathematical Physics*, Academic Press (1978) Volume IV: *Analysis of Operators* $[$[ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7)$]$
+
+
 * [[William Arveson]], *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) $[$[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)$]$
 
 * [[eom]]: [Spectral theory of linear operators](http://eom.springer.de/S/s086520.htm) (by Hazewinkel)
