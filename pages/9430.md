@@ -124,6 +124,9 @@ Introduction and survey:
 
 * [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], *Persistent homology: theory and practice*, in: *European Congress of Mathematics Kraków, 2–7 July, 2012* EMS $[$[doi:10.4171/120-1/3](https://www.ems-ph.org/books/show_abstract.php?proj_nr=170&vol=1&rank=3), [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)$]$
 
+* [[Stefan Huber]], *Persistent Homology in Data Science* In: *Data Science – Analytics and Applications* Springer (2021) $[$[doi:10.1007/978-3-658-32182-6_13](https://doi.org/10.1007/978-3-658-32182-6_13), [pdf](https://www.sthu.org/research/publications/files/Hub20.pdf)$]$
+
+
 Review with emphasis of [[zigzag persistence]] with relation to [[quiver representation theory]]:
 
 * [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
@@ -170,7 +173,7 @@ See also
 
 * Robert J. Adler, Omer Bobrowski, Matthew S. Borman, Eliran Subag, Shmuel Weinberger, _Persistent homology for random fields and complexes_ Institute of Mathematical Statistics Collections __6__:124&#8211;143, 2010 ([arxiv/1003.1001](http://arxiv.org/abs/1003.1001))
 
-* Pawe&#322; D&#322;otko, Hubert Wagner, _Computing homology and persistent homology using iterated Morse decomposition_ ([arxiv/1210.1429](http://arxiv.org/abs/1210.1429))
+* [[Paweł Dłotko]], [[Hubert Wagner]], _Computing homology and persistent homology using iterated Morse decomposition_ $[$[arxiv/1210.1429](http://arxiv.org/abs/1210.1429)$]$
 
 * [[Robert MacPherson]], Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012) ([doi:10.1063/1.4737391](http://dx.doi.org/10.1063/1.4737391))
 
