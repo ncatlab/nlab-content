@@ -157,13 +157,17 @@ and see the references at
 
 * [[persistent cohomotopy]]
 
-### Implementation
+### Implementation and Applications
 
 Implementation via concrete [[algorithms]], etc.
 
 * {#SinghMemoluCarlsson07} [[Gurjeet Singh]], [[Facundo Mémoli]], [[Gunnar Carlsson]], *Topological Methods for the Analysis of High Dimensional Data Sets and 3D Object Recognition*, in: M. Botsch, R. Pajarola (eds.), *Eurographics Symposium on Point-Based Graphics* (2007) $[$[doi:10.2312/SPBG/SPBG07/091-100](http://dx.doi.org/10.2312/SPBG/SPBG07/091-100), [pdf](http://diglib.eg.org/bitstream/handle/10.2312/SPBG.SPBG07.091-100/091-100.pdf?sequence=1&isAllowed=y)$]$
 
-### Applications
+Review:
+
+* [[Stefan Huber]], *Persistent Homology in Data Science* In: *Data Science – Analytics and Applications* Springer (2021) $[$[doi:10.1007/978-3-658-32182-6_13](https://doi.org/10.1007/978-3-658-32182-6_13), [pdf](https://www.sthu.org/research/publications/files/Hub20.pdf)$]$
+
+
 
 Application of [[topological data analysis]] ([[persistent homology]]) to 
 
