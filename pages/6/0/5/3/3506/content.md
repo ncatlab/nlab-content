@@ -22,13 +22,13 @@ From [JMSM 2005](#JMSM05):
 > Through recent study of the problems in mathematical physics, a deep, unexpected
 link has emerged: a link between the monodromy preserving deformation theory for
 linear (ordinary and partial) differential equations, and a class of quantum field
-operators ([i] [2] [3]). The aim of this article is to give an overview to the
+operators ([1] [2] [3]). The aim of this article is to give an overview to the
 present stage of development in the theory (see also [4]).
 
 > The fruit of the above link is multifold. On the one hand it enables one to
-compute exactly the n point correlation functions of the field in question in a
+compute exactly the $n$ point correlation functions of the field in question in a
 closed form, using solutions to certain non-linear differential equations of specific
-type (such as the Painlev~ equations). On the other hand it provides an effective
+type (such as the Painlev&eacute; equations). On the other hand it provides an effective
 new tool of describing the deformation theory by means of quantum field operators.
 Thus it stands as a good example of the fact that not only the pure mathematics is
 applied to physical problems but also the converse is true.
