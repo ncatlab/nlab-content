@@ -71,6 +71,8 @@ For example, the ring of [[integers]], any [[skewfield]], the ring of global sec
 
 In principle, one could just as easily consider a [[rig]] or [[semiring]] $R$.  In that case, however, only the definition involving the cancellative property extends to rigs and semirings. Furthermore, we should add the additional requirement that addition in $R$ is cancellable (that is, addition by any element is injective), to make the analogue of the previous paragraph correct.  Since 'integral domain' is too specific and 'integral ring' is not standard (and means something else in the phrase 'integral ring extension'), it\'s not clear exactly what these should be called; perhaps _integral cancellable rig/semiring_ is sufficiently unambiguous. 
 
+One could also relax the requirement that the integral domain be associative or unital, this could be called an *integral $\mathbb{Z}$-algebra*, in the context where $R$-algebras are usually not assumed to be [[associative unital algebras]]. 
+
 ## Related concepts
 
 * [[commutative ring]]
@@ -96,6 +98,11 @@ In principle, one could just as easily consider a [[rig]] or [[semiring]] $R$.  
 [[!redirects integral cancellable rigs]]
 [[!redirects integral cancellable semiring]]
 [[!redirects integral cancellable semirings]]
+
+[[!redirects integral Z-algebra]]
+[[!redirects integral Z-algebras]]
+[[!redirects integral unital Z-algebra]]
+[[!redirects integral unital Z-algebras]]
 
 [[!redirects discrete integral domain]]
 [[!redirects discrete integral domains]]
