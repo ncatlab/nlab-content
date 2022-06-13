@@ -16,7 +16,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 ### General
