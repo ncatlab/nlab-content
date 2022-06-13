@@ -58,7 +58,7 @@ The original article
 
 Review:
 
-* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys.Rept.323:183-386,2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. **323**  183-386 (2000) $[$<a href="https://doi.org/10.1016/S0370-1573(99)00083-6">doi:10.1016/S0370-1573(99)00083-6</a>, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)$]$
 
 
 * {#Nastase07} [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
