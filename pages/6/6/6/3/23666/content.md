@@ -44,9 +44,12 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 ## Related concepts
 
+* [[Bloch-Floquet theory]]
+
 * [[Berry connection]]
 
 * [[dispersion relation]]
+
 
 ## References
 
@@ -73,6 +76,14 @@ See also:
 The electronic band structure of [[graphene]] was predicted in
 
 * [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 ([doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622))
+
+
+### For interacting electrons
+
+* Yuejin Guo, Jean-Marc Langlois and William A. Goddard , *Electronic Structure and Valence-Bond Band Structure of Cuprate Superconducting Materials*, New Series, **239** 4842 (1988) 896-899 $[$[jstor:1700316](https://www.jstor.org/stable/1700316)$]$
+
+* Jingsan Hu, Jianfei Gu, Weiyi Zhang, *Bloch’s band structures of a pair of interacting electrons in simple one- and two-dimensional lattices*, Physics Letters A **414** (2021) 127634 $[$[doi:10.1016/j.physleta.2021.127634](https://doi.org/10.1016/j.physleta.2021.127634)$]$
+
 
 [[!redirects electronic band structures]]
 
