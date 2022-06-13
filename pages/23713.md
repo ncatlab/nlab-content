@@ -46,7 +46,7 @@ The original article:
 
 The formulation in terms of [[connections]] on [[fiber bundles]] and their [[holonomy]]:
 
-* {#Simon83} Barry Simon, *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*, Phys. Rev. Lett. **51** (1983) 2167 ([doi:10.1103/PhysRevLett.51.2167](https://doi.org/10.1103/PhysRevLett.51.2167))
+* {#Simon83} [[Barry Simon]], *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase*, Phys. Rev. Lett. **51** (1983) 2167 ([doi:10.1103/PhysRevLett.51.2167](https://doi.org/10.1103/PhysRevLett.51.2167))
 
 Generalization to (connections with) [[non-abelian group|non-abelian]] [[holonomies]]:
 
