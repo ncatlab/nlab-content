@@ -63,10 +63,15 @@ Thus regarded as a [[duality in string theory]], the AdS/CFT correspondence is a
 This gives a vivid intuitive picture of the mechanism underlying the correspondence: An excitation of the gauge field on the brane goes along with an excitation of the field of gravity around the brane, and either is faithfully reflected in the other; at least in the suitable limits.
 
 ### Small-$N$ corrections
+ {#SmallNCorrections}
 
-The AdS/CFT correspondence has traditionally been discussed just in the [[large N limit]] and for large [['t Hooft coupling]], where the given gauge theory is dual to plain [[classical field theory|classical]] [[supergravity]], which stands out as being particularly tractable and well-understood.
+The AdS/CFT correspondence has been widely discussed and is mostly understood by default only in the *[[large N limit|large $N$ limit]]* and for large [['t Hooft coupling]], where the given gauge theory is dual to plain [[classical field theory|classical]] [[supergravity]], which stands out as being particularly tractable and well-understood.
 
-But in principle it is to be expected that in the opposite [[large 1/N limit]] the [[duality in string theory|duality]] still applies, now involving on the [[gravity]]-side corrections from [[perturbative string theory]] (for small [['t Hooft coupling]], there are some checks of such stringy corrections) and eventually from putative [[M-theory]] (for the full [[non-perturbative effect|non-perturbative]] [[large 1/N limit]], which remains largely unexplored):
+But it is expected ([AGMOO99](#AharonyGubserMaldacenaOoguriOz99), [p. 60](https://arxiv.org/pdf/hep-th/9905111.pdf#page=61)) that the [[duality in string theory|duality]] still applies in the opposite [[large 1/N limit]], now involving on the [[gravity]]-side corrections 
+
+1. from [[perturbative string theory]] (for small [['t Hooft coupling]], there are some checks of such stringy corrections) and 
+
+1. from putative [[M-theory]] (for the full [[non-perturbative effect|non-perturbative]] [[large 1/N limit]], which remains largely unexplored):
 
 {#AdSCFTForSmallN} $\,$
 
@@ -364,7 +369,7 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 The rough conjecture originates in:
 
-* {#Maldacena97a} [[Juan Maldacena]], _The Large N limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998 ([hep-th/9711200](http://arxiv.org/abs/hep-th/9711200))
+* {#Maldacena97a} [[Juan Maldacena]], _The Large $N$ limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998 ([hep-th/9711200](http://arxiv.org/abs/hep-th/9711200))
 
 * {#Maldacena97b} [[Juan Maldacena]], _Wilson loops in Large $N$ field theories_, Phys. Rev. Lett. __80__ (1998) 4859 ([hep-th/9803002](http://arxiv.org/abs/hep-th/9803002))
 
@@ -442,7 +447,7 @@ Surveys and introductions include
 
 * Jens L. Petersen, _Introduction to the Maldacena Conjecture on AdS/CFT_, Int.J.Mod.Phys. A14 (1999) 3597-3672, [hep-th/9902131](http://arxiv.org/abs/hep-th/9902131) , [doi](http://dx.doi.org/10.1142/S0217751X99001676)
 
-* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. 323:183-386, 2000 ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. **323**  183-386 (2000) $[$<a href="https://doi.org/10.1016/S0370-1573(99)00083-6">doi:10.1016/S0370-1573(99)00083-6</a>, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)$]$
 
 * {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ ([arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)) 
 
