@@ -119,6 +119,8 @@ If the [[topological space]] $X$ of data may be assumed to be a [[smooth manifol
 
 * [[machine learning]]
 
+* [[topological machine learning]]
+
 
 
 ## References
