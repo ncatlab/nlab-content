@@ -746,6 +746,10 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 ## References
 
+Textbook account in [[mathematical physics]]:
+
+* [[Michael Reed]], [[Barry Simon]]: *[[Methods of Modern Mathematical Physics]]*, Academic Press (1978), Volume II: *Fourier Analysis, Self-Adjointness* $[$[ISBN:9780125850025](https://www.elsevier.com/books/ii-fourier-analysis-self-adjointness/reed/978-0-08-092537-0)$]$
+
 Lecture notes:
 
 * [[Howard Georgi]], *The Physics of Waves*, Prentice Hall (1993) $[$[web](https://www.people.fas.harvard.edu/~hgeorgi/new.htm), [pdf](https://www.people.fas.harvard.edu/~hgeorgi/onenew.pdf)$]$
