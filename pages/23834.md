@@ -37,7 +37,7 @@ The proof that for rational levels this construction indeed yields [[conformal b
 
 Review:     
 
-* [[Alexander Varchenko]], *Multidimensional Hypergeometric Functions and Representation Theory of Lie Algebras and Quantum Groups*, Advanced Series in Mathematical Physics **21**, World Scientific 1995 ([doi:10.1142/2467](https://doi.org/10.1142/2467))
+* {#Varchenko95} [[Alexander Varchenko]], *Multidimensional Hypergeometric Functions and Representation Theory of Lie Algebras and Quantum Groups*, Advanced Series in Mathematical Physics **21**, World Scientific 1995 ([doi:10.1142/2467](https://doi.org/10.1142/2467))
 
 * [[Ivan Cherednik]], Section 8.2 of: *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
 
