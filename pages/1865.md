@@ -160,7 +160,7 @@ See at _[Differential cohomology diagram -- Differential K-theory](differential+
 
 * [[twisted differential K-theory]]
 
-* [[equivairant differential K-theory]], [[orbifold differential K-theory]]
+* [[equivariant differential K-theory]], [[orbifold differential K-theory]]
 
 * [[differential algebraic K-theory]]
 
@@ -283,8 +283,6 @@ Discussion of [[twisted K-theory|twisted]] [[differential K-theory|differential]
 * {#GradySati19b} [[Daniel Grady]], [[Hisham Sati]], _Twisted differential KO-theory_ ([arXiv:1905.09085](https://arxiv.org/abs/1905.09085))
 
 
-### Further
-
-See also
+See also:
 
 * [[Thomas Tradler]], [[Scott Wilson]], [[Mahmoud Zeinalian]], _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
