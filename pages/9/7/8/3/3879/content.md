@@ -85,6 +85,8 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 > Too many physicists are inclined to start from some preconceived physical ideas  and then to try to develop them and a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and no  reasonable way out of them. One ought then to realize that one's whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis."
 
+* [[Michael Reed]], [[Barry Simon]]: *[[Methods of Modern Mathematical Physics]]*, Academic Press (1978) 
+
 
 * {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
 
