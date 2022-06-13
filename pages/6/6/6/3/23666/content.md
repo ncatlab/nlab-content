@@ -23,7 +23,7 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 <center>
 <img src="https://ncatlab.org/nlab/files/ElectronicBandStructure-20220504.png" width="500">
-(graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22]])
+(graphics from [[schreiber:Anyonic topological order in TED K-theory|SS 22]])
 </center>
 
 |  |  |
@@ -36,7 +36,7 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SemiMetalBandStructure-20220405.jpg" width="400">
-(graphics from [[schreiber:Topological Quantum Computation in TED-K|SS 22]])
+(graphics from [[schreiber:Anyonic topological order in TED K-theory|SS 22]])
 </center>
 
 
