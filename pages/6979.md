@@ -96,6 +96,13 @@ A formal definition of dependent type theories is given in
 
 * [[Andrej Bauer]], [[Philipp Haselwarter]], [[Peter LeFanu Lumsdaine]], _A general definition of dependent type theories_, ([arXiv:2009.05539](https://arxiv.org/abs/2009.05539))
 
+On ([[essentially algebraic theory|essentially]]) algebraic formulations of dependent type theory:
+
+* Egbert Rijke, _An algebraic formulation of dependent type theory_, ([mailing list discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/OraMqbnCYy8/discussion))
+* Vladimir Voevodsky, _B-systems_, ([arXiv:1410.5389](http://arxiv.org/abs/1410.5389))
+* Vladimir Voevodsky, _A C-system defined by a universe in a category_, ([arXiv:1406.7413](http://arxiv.org/abs/1409.7925))
+* Vladimir Voevodsky, _C-system of a module over a monad on sets_, ([arXiv:1406.7413](http://arxiv.org/abs/1407.3394))
+* Vladimir Voevodsky, _Subsystems and regular quotients of C-systems_, ([arXiv:1406.7413](http://arxiv.org/abs/1406.7413))
 
 For more see the references at _[[Martin-Löf dependent type theory]]_.
 
