@@ -50,7 +50,10 @@ Textbook accounts:
 
 * [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
 
-See also
+* [[Sheng San Li]], Chapter 1 of: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
+
+
+See also:
 
 * Wikipedia, *[Crystallography](https://en.wikipedia.org/wiki/Crystallography)*
 
