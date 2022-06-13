@@ -160,7 +160,7 @@ $$
   \,.
 $$
 
-One can understand higher parallel transport therefore as a generalization of integration of diifferential $n$-forms to the case where
+One can understand higher parallel transport therefore as a generalization of integration of differential $n$-forms to the case where
 
 * the $n$-form is not globally defined;
 
