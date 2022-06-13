@@ -43,6 +43,8 @@ In a common approximation used in [[condensed matter theory]] for computing [[gr
 <img src="https://ncatlab.org/nlab/files/ElectronFieldInCoulombBackground-220509.jpg" width="400">
 </center>
 
+> (graphics from [[schreiber:Anyonic topological order in TED K-theory|SS22]])
+
 
 
 The [[vacua]]/[[ground state]] of the [[free field|free]] [[Dirac field]] in such a "classical Coulomb background" (review in [Thaller 92, Sec. 10](#Thaller92)) have been computed in [Klaus & Scharf 77](#KlausScharf77) and found to be characterized by [[Fredholm operators]] (amplified in [Carey, Hurst & O'Brien 82](#CareyHurstOBrien82)) whose [[kernel]]/[[cokernel]] are the [[Hilbert spaces]] of single [[electron]]/[[positron]] [[quantum states]] which are occupied in the charged vacuum, hence whose [[Fredholm index]] is the total [[charge]] in this vacuum.
