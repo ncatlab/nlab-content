@@ -74,6 +74,8 @@ But in principle it is to be expected that in the opposite [[large 1/N limit]] t
 <img src="https://ncatlab.org/nlab/files/AdSCFTForSmallN.jpg" width="620">
 </center>
 
+> (graphics from *[[schreiber:Anyonic topological order in TED K-theory|SS22]]*)
+
 Notice that for real-world applications such as to the [[confinement]]/[[mass gap]]-problem of [[quantum chromodynamics]], the value of $N$ typically is indeed small (the number of [[color charge|colors]] in [[quantum chromodynamics]] is $N_c = 3$) so that the [[string theory]]/[[M-theory]]-corrections to the [[AdS/QCD correspondence]] are going to be crucial for the full discussion of these applications:
 
 <center>
