@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,6 +25,8 @@ _Machine learning_ is a branch of [[computer science]] which devises algorithms 
 * [[kernel method]]
 
 * [[topological data analysis]]
+
+* [[topological machine learning]]
 
 * [[statistical learning theory]]
 
