@@ -1534,11 +1534,31 @@ See also [[examples in topology]].
 
   * [[C-star-algebra]], [[KK-theory]]
 
+### Topological physics
+
+In [[solid state physics]]:
+
+* [[topological phases of matter]]
+
+  * [[topological insulators]], [[topological semi-metals]]
+
+  * [[symmetry protected topological phases]]
+
+  * [[topological order]]
+
+* [[K-theory classification of topological phases of matter]]
+
+In [[string theory]]:
+
+* [[K-theory classification of D-brane charge|D-brane charge quantization in topological K-theory]]
+
 ### Computational Topology
 
 * [[computational topology]]
 
 * [[topological data analysis]]
+
+* [[topological machine learning]]
 
 * [[sources in computational topology]]
 
