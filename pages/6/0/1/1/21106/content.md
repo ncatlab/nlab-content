@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[persistent homology]] and [[Morse theory]]:
+
+* [[Paweł Dłotko]], [[Hubert Wagner]], _Computing homology and persistent homology using iterated Morse decomposition_ $[$[arxiv/1210.1429](http://arxiv.org/abs/1210.1429)$]$
+
+
 On [[persistent homology|persistent]] [[Cohomotopy]] and its improvement over [[well groups]]:
 
 
