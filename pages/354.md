@@ -323,28 +323,19 @@ In order for this to qualify as an $\infty$-groupoid, this composition operation
 
 In order to conceive of the $k$-[[simplices]] for higher $k$ as "[[globular set|globular]] [[k-morphism]]" going from a source to a target one needs a bit of combinatorics. This provided by the _[[orientals]]_ (due to [[Ross Street]]).
 
-The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of  a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. The first few look like this:
+{#Oriental} The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of  a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. 
 
-$$
-\array{\arrayopts{\rowalign{center}}
-O(\Delta^0) = & \{ 0\} \\
-O(\Delta^1) = & \left\{ 0 \to 1\right\} \\
-O(\Delta^2) = & \left\{
-\array{\begin{svg}
-[[!include oriental > Delta2]]
-\end{svg}}
-\right\}\\
-O(\Delta^3) = & \left\{
-\array{\begin{svg}
-[[!include oriental > Delta3]]
-\end{svg}}\right\}\\
-O(\Delta^4) = & \left\{
-\array{\begin{svg}
-[[!include oriental > Delta4]]
-\end{svg}}
-\right\}
-}
-$$
+
+
+
+
+
+[[!include the first few orientals]]
+
+
+
+
+
 
 In fact, the [[omega-nerve]] $N(K)$ of an [[omega-category]] $K$ is the [[simplicial set]] whose collection of $k$-cells $N(K)_k := Hom(O(k),K)$ is precisely the collection of images of the $k$th oriental $O(k)$ in $K$.
 
