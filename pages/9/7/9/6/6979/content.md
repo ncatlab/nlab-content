@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -96,7 +97,7 @@ A formal definition of dependent type theories is given in
 
 * [[Andrej Bauer]], [[Philipp Haselwarter]], [[Peter LeFanu Lumsdaine]], _A general definition of dependent type theories_, ([arXiv:2009.05539](https://arxiv.org/abs/2009.05539))
 
-On ([[essentially algebraic theory|essentially]]) algebraic formulations of dependent type theory:
+{#CSystemsReferences} On ([[essentially algebraic theory|essentially algebraic]])  formulations of dependent type theory (see [here](categorical+model+of+dependent+types#ContextualCategoriesOrCSystems) at *[[categorical models of dependent type theory]]*):
 
 * Egbert Rijke, _An algebraic formulation of dependent type theory_, ([mailing list discussion](https://groups.google.com/forum/#!topic/homotopytypetheory/OraMqbnCYy8/discussion))
 * Vladimir Voevodsky, _B-systems_, ([arXiv:1410.5389](http://arxiv.org/abs/1410.5389))
