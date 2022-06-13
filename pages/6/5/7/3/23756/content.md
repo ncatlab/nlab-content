@@ -23,6 +23,11 @@
 
 (...)
 
+
+## Related concepts
+
+* [[electron band theory]]
+
 ## References
 
 ### For free electrons
@@ -31,10 +36,15 @@ The original article:
 
 * [[Felix Bloch]], *Über die Quantenmechanik der Elektronen in Kristallgittern*, Zeitschrift für Physik **52** 7-8 (1929) 555-600 $[$[doi:10.1007/BF01339455](https://www.scopus.com/record/display.uri?eid=2-s2.0-34250940025&origin=inward&featureToggles=FEATURE_NEW_DOC_DETAILS_EXPORT:1)$]$
 
-Review:
+Textbook account:
 
-* M. Reed and B. Simon, Sec. XIII of:  *Methods of Modern Mathematical Physics -- IV: Analysis of Operators*, Academic Press (1978) 
+* [[Michael Reed]] and [[Barry Simon]], Sec. XIII.16 *Schr&ouml;dinger operators with periodic potentials*, of:  *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) 
 ([ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7))
+
+Textbook account in [[semiconductor]]-theory:
+
+* [[Sheng San Li]], Section 4.3 of: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
+
 
 In the context of [[topological phases of matter]]:
 
@@ -44,7 +54,10 @@ See also
 
 * Wikipedia, *[Bloch's theorem](https://en.wikipedia.org/wiki/Bloch%27s_theorem)*
 
+
 ### For interacting electrons
+
+* Yuejin Guo, Jean-Marc Langlois and William A. Goddard , *Electronic Structure and Valence-Bond Band Structure of Cuprate Superconducting Materials*, New Series, **239** 4842 (1988) 896-899 $[$[jstor:1700316](https://www.jstor.org/stable/1700316)$]$
 
 * Jingsan Hu, Jianfei Gu, Weiyi Zhang, *Bloch’s band structures of a pair of interacting electrons in simple one- and two-dimensional lattices*, Physics Letters A **414** (2021) 127634 $[$[doi:10.1016/j.physleta.2021.127634](https://doi.org/10.1016/j.physleta.2021.127634)$]$
 
