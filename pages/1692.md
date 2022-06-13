@@ -60,7 +60,7 @@ where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ i
 
 ### As a $\ast$-autonomous category
 
-Armed with just this much knowledge, and knowledge of how star-autonomous categories behave (as categorified versions of [[Boolean algebra]]s, or perhaps better [[Boolean rig]]s), the star-autonomous structure on $Chu(C, d)$ can pretty much be deduced (or strongly guessed) by the diligent reader, and this is actually a very good exercise. One could sketch this as follows: 
+Armed with just this much knowledge, and knowledge of how star-autonomous categories behave (as categorified versions of [[linear logic]]), the star-autonomous structure on $Chu(C, d)$ can pretty much be deduced (or strongly guessed) by the diligent reader, and this is actually a very good exercise. One could sketch this as follows: 
 
 * The monoidal unit of $Chu(C, d)$ should be the dual of the dualizer, and so is $(I, d; \lambda: I \otimes d \cong d)$ where $\lambda$, the transpose of $\rho$, is a canonical isomorphism for the unit $I$. 
 
