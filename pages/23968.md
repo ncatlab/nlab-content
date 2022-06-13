@@ -113,6 +113,8 @@ Regarding these pairs instead as points in the [[plane]], $(a,b) \in \mathbb{R}^
 
 ## References
 
+### General
+
 See also the references at *[[persistent homology]]*.
 
 Introduction and survey:
@@ -120,6 +122,20 @@ Introduction and survey:
 * [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, Bull. Amer. Math. Soc. 45 (2008), 61-75 ([doi:10.1090/S0273-0979-07-01191-3](https://doi.org/10.1090/S0273-0979-07-01191-3), [pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
 
 * [[Steve Y. Oudot]], *Persistence Theory: From Quiver Representations to Data Analysis*, Mathematical Surveys and Monographs **209** AMS (2015) $[$[pdf](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf), [ISBN:978-1-4704-3443-4](https://bookstore.ams.org/surv-209/)$]$
+
+### Kernel methods and topological machine learning
+
+On [[kernel methods]] applicable to [[persistence diagrams]]/[[barcodes]] for making [[topological data analysis]] amenable to "[[topological machine learning|topological]]" [[machine learning]]:
+
+* {#RHBK15} Jan Reininghaus, [[Stefan Huber]], Ulrich Bauer, Roland Kwitt, *A Stable Multi-Scale Kernel for Topological Machine Learning*, NIPS'15: Proceedings of the 28th International Conference on Neural Information Processing System, **2** (2015 3070–3078  $[$[arXiv:1412.6821](https://arxiv.org/abs/1412.6821)$]$
+
+* {#KHNL15} Roland Kwitt, [[Stefan Huber]], Marc Niethammer, Weili Lin, [[Ulrich Bauer]], *Statistical Topological Data Analysis -- A Kernel Perspective*, in: *Advances in Neural Information Processing Systems*  (NIPS 2015) $[$[ISBN:9781510825024](https://proceedings.neurips.cc/paper/2015), [doi:10.5555/2969442.2969582](https://dl.acm.org/doi/10.5555/2969442.2969582)$]$
+
+
+* {#RSL} [[Bastian Rieck]], Filip Sadlo, Heike Leitte, *Topological Machine Learning with Persistence Indicator Functions*,  In: *Topological Methods in Data Analysis and Visualization V* TopoInVis (2017) 87-101 Mathematics and Visualization. Springer, $[$[arXiv:1907.13496](https://arxiv.org/abs/1907.13496), [doi:10.1007/978-3-030-43036-8_6](https://doi.org/10.1007/978-3-030-43036-8_6)$]$
+
+* Raphael Reinauer, Matteo Caorsi, Nicolas Berkouk, *Persformer: A Transformer Architecture for Topological Machine Learning* $[$[arXiv:2112.15210](https://arxiv.org/abs/2112.15210)$]$
+
 
 [[!redirects persistence diagrams]]
 
