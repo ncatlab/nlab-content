@@ -60,11 +60,15 @@ A good review is in:
 
 Further discussion:
 
-* M. Pitteri, G. Zanzotto, *On the Definition and Classification of Bravais Lattices*, Acta Cryst. A **52** (1996) 830-838 $[$[doi:10.1107/S0108767396005971](https://doi.org/10.1107/S0108767396005971)$]$
-
 * {#Schwarzenberger72} [[Rolph Ludwig Edward Schwarzenberger]], *Classification of crystal lattices*, Mathematical Proceedings of the Cambridge Philosophical Society, **72** 3 (1972) 325-349 $[$[doi:10.1017/S0305004100047162](https://doi.org/10.1017/S0305004100047162)$]$
 
-Lecture notes and textbook accounts;
+
+* M. Pitteri, G. Zanzotto, *On the Definition and Classification of Bravais Lattices*, Acta Cryst. A **52** (1996) 830-838 $[$[doi:10.1107/S0108767396005971](https://doi.org/10.1107/S0108767396005971)$]$
+
+
+Lecture notes and textbook accounts:
+
+* [[Sheng San Li]], Section 1.2 in: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
 
 * {#Souvignier08} Bernd Souvignier, around Def. 54 in: *Group theory applied to crystallography*, Summer School on Mathematical and Theoretical Crystallography (2008) $[$[pdf](https://www.math.ru.nl/~souvi/krist_09/cryst.pdf)$]$
 
