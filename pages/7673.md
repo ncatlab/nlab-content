@@ -252,6 +252,7 @@ then the universal property of the context extension is that there is a natural 
 
 
 ### Contextual categories, or C-systems
+ {#ContextualCategoriesOrCSystems}
 
 Recall that 
 
@@ -266,7 +267,7 @@ If $C$ is a [[comprehension category]] (def. \ref{ComprehensionCategory}), $\Gam
 +-- {: .num_defn #ContextualCategory}
 ###### Definition
 
-A **contextual category** ([Cartmell 86](#Cartmell86), [Streicher 91](#Streicher91)) or **C-system** ([Voevodsky 15](#Voevodsky15a)) is a category with attributes $C$ (def. \ref{CategoryWithAttributes}) together with a *length function* $\ell : ob(C) \to \mathbb{N}$ such that
+A **[[contextual category]]** ([Cartmell 86](#Cartmell86), [Streicher 91](#Streicher91)) or **C-system** ([Voevodsky 15](#Voevodsky15a)) is a category with attributes $C$ (def. \ref{CategoryWithAttributes}) together with a *length function* $\ell : ob(C) \to \mathbb{N}$ such that
 
 1. There is a unique object of length $0$, which is a [[terminal object]].
 1. For any $\Gamma\in C$ and $A\in E^\Gamma$, we have $\ell(\Gamma.A) = \ell(\Gamma)+1$.
@@ -667,6 +668,9 @@ Steve Awodey's functorial reformulation of category-with-families semantics, inc
 #### Introductions and surveys
 
 Bart Jacobs book; Martin Hofmann 1997 paper; PLL (Peter LeFanu Lumsdaine) thesis. Sec 1.2; [nLab page](/nlab/show/categorical+model+of+dependent+types)
+
+[[!redirects categorical model of dependent type theory]]
+[[!redirects categorical models of dependent type theory]]
 
 [[!redirects categorical model of dependent types]]
 [[!redirects categorical models of dependent types]]
