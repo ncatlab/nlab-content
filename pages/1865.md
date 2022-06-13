@@ -146,9 +146,9 @@ See at _[Differential cohomology diagram -- Differential K-theory](differential+
 
 ## Related concepts
 
-* [[K-theory]]
+* [[flat K-theory]]
 
-* [[topological K-theory]]
+* [[K-theory]], [[topological K-theory]]
 
 * [[twisted K-theory]]
 
