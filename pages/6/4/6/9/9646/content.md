@@ -52,13 +52,22 @@ we have the [[classical inverse scattering method|classical]] and the [[quantum 
 
 ### General
 
-See the references at _[[S-matrix]]_.
+Textbook account:
 
-See also
+* [[Michael Reed]] and [[Barry Simon]]: *[[Methods of Modern Mathematical Physics]]*, Academic Press (1978), Volume III: *Scattering Theory* $[$[ISBN:9780080925387](https://www.elsevier.com/books/iii-scattering-theory/reed/978-0-08-092538-7)$]$
+
+For more see the references at 
+
+* *[[S-matrix]]*
+
+See also:
 
 * Wikipedia: [scattering](http://en.wikipedia.org/wiki/Scattering), [scattering theory](http://en.wikipedia.org/wiki/Scattering_theory), [inverse scattering](http://en.wikipedia.org/wiki/Inverse_scattering), [Raman scattering](http://en.wikipedia.org/wiki/Raman_scattering), [Rayleigh scattering](http://en.wikipedia.org/wiki/Rayleigh_scattering),
 
+
+
 [[!include classification of long-range forces -- references]]
+
 
 
 
