@@ -126,9 +126,9 @@ The following papers explore the topos of sheaves on the unit interval as abstra
 
 * {#MW86} [[Ieke Moerdijk]], [[Gavin Wraith]], _Connected locally connected toposes are path-connected_ , Trans. AMS **295** no.2 (1986) pp.849-859.
 
-* [[Ieke Moerdijk]], _Path-lifting for Grothendieck toposes_ , Proc. AMS **102** no.2 (1988) pp.2424-248.
+* [[Ieke Moerdijk]], *Path-lifting for Grothendieck toposes*, Proc. AMS **102** no.2 (1988) 2424-248 $[$[doi:10.2307/2045869](https://doi.org/10.2307/2045869)$]$
 
-* [[Ieke Moerdijk]], _An addendum to "Path-lifting for Grothendieck toposes"_ , Proc. AMS **125** no.9 (1997) pp.2815-2818.
+* [[Ieke Moerdijk]], *An addendum to "Path-lifting for Grothendieck toposes"*, Proc. AMS **125** no.9 (1997) 2815-2818 $[$[doi:2162060](https://www.jstor.org/stable/2162060)$]$
 
 A proof of the homotopy equivalence of certain _petit_ and _gros_ toposes can be found on p.415f in
 
