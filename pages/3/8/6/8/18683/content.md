@@ -43,7 +43,7 @@ In a common approximation used in [[condensed matter theory]] for computing [[gr
 <img src="https://ncatlab.org/nlab/files/ElectronFieldInCoulombBackground-220509.jpg" width="400">
 </center>
 
-> (graphics from [[schreiber:Anyonic topological order in TED K-theory|SS22]])
+> (graphics from [[schreiber:Anyonic topological order in TED K-theory|SS22]], cf. [Rößler 2004, Fig. 2.1](solid+state+physics#Roessler04))
 
 
 
@@ -51,8 +51,9 @@ The [[vacua]]/[[ground state]] of the [[free field|free]] [[Dirac field]] in suc
 
 <center>
 <img src="https://ncatlab.org/nlab/files/ChargedDiracVacuumAsFredholmOperator-220509b.jpg" width="640"/>
+</center>
 
-(graphics from <a href="https://ncatlab.org/schreiber/show/Topological+Quantum+Computation+in+TED-K">SS 22</a>, <a href="https://ncatlab.org/schreiber/show/Anyonic+defect+branes+in+TED-K-theory#ExpositoryTalk">Sc 22</a>)
+> (graphics from <a href="https://ncatlab.org/schreiber/show/Anyonic topological order in TED K-theory">SS 22</a>, <a href="https://ncatlab.org/schreiber/show/Anyonic+defect+branes+in+TED-K-theory#ExpositoryTalk">Sc 22</a>)
 </center>
 
 
