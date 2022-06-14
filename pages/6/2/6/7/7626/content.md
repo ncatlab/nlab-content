@@ -170,7 +170,15 @@ Specifically, *[[vortex]] anyons* are realized in [[Bose-Einstein condensates]] 
 A theoretical model of vortex anyons in a [[Higgs field]] [[interaction|coupled to]] [[Chern-Simons theory]] is discussed in [Fröhlich & Marchetti 1988](#FroehlichMarchetti88).
 An instructive [[lattice model]] of vortex anyons is analyzed in detail in [Kitaev 2006](#Kitaev06).
 
-Much attention in current efforts towards realizing [[topological quantum computation]] is being paid to anyons realized as [[Majorana zero modes]] [[bound state|bound]] to [[vortices]] ([Das Sarma, Freedman & Nayak 2015](topological+quantum+computation#DasSarmaFreedmanNayak15), cf. [MMBDRSC19](su2-anyon#MMBDRSC19))
+Much attention in current efforts towards realizing [[topological quantum computation]] is being paid to anyons realized as [[Majorana zero modes]] [[bound state|bound]] to [[vortices]] ([Das Sarma, Freedman & Nayak 2015](topological+quantum+computation#DasSarmaFreedmanNayak15), cf. [MMBDRSC19](su2-anyon#MMBDRSC19)). 
+
+{#MayGeneralize} This situation may generalize to [[parafermion]]-[[su(2)-anyons]], where 
+
+> each (anti)[[soliton]] carries [[parafermion]] zero mode which supplies
+it with the non-Abelian statistics $[$[Tsvelik 2014a](parafermion#Tsvelik2014a), [p. 2](https://arxiv.org/pdf/1404.2840.pdf#page=2), cf. [Borcherding 2018, pp. 3](parafermion#Borcherding18).
+$]$
+
+
 
 {#BraidingOfNodalPointsInMomentumSpace} **Braiding of nodal points in momentum space** (graphics from [MMBDRSC19](su2-anyon#MMBDRSC19), [Fig. 1](https://www.nature.com/articles/s41467-019-10397-5.pdf#page=2)):
 
