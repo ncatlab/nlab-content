@@ -20,7 +20,7 @@ on [[mathematical physics]].
 
   * Volume II: *Fourier Analysis, Self-Adjointness*
 
-    [ISBN:9780125850025](https://www.elsevier.com/books/ii-fourier-analysis-self-adjointness/reed/978-0-08-092537-0)
+    [ISBN:9780125850025](https://www.elsevier.com/books/ii-fourier-analysis-self-adjointness/reed/978-0-08-092537-0), [pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/reed_simon2.pdf)
 
     on [[Fourier analysis]]
 
