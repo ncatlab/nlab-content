@@ -5,7 +5,7 @@
 
 On the [[solid state physics]] of [[semiconductors]]:
 
-* [[Sheng San Li]] (ed.), *Semiconductor Physical Electronics*, Springer (2006)  $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2)$]$
+* [[Sheng San Li]], *Semiconductor Physical Electronics*, Springer (2006)  61-104 $[$[doi:10.1007/0-387-37766-2](https://link.springer.com/book/10.1007/0-387-37766-2)$]$
 
 
 On [[electron band structure]] in [[solid state physics]]:
