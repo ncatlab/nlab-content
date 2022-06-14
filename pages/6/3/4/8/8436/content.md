@@ -64,14 +64,36 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 ### General
 
+Textbook accounts:
 
-* {#LandauLifshitz59} [[Lev Landau]], [[Evgeny Lifshitz]], _Theory of Elasticity_, part VII of  _[[Course of Theoretical Physics]]_, 1959, 1970
+* {#Kittel53} [[Charles Kittel]], *Introduction to Solid State Physics*, Wiley (1953-) $[$[ISBN:978-0-471-41526-8](https://www.wiley.com/en-us/Introduction+to+Solid+State+Physics%2C+8th+Edition-p-9780471415268), [pdf](http://metal.elte.hu/~groma/Anyagtudomany/kittel.pdf),  [Wikipedia entry](https://en.wikipedia.org/wiki/Introduction_to_Solid_State_Physics)$]$
 
-* Ulrich R&#246;ssler, _Solid State Theory: An Introduction_, 2009 ([doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4))
+* {#Roessler04} [[Ulrich Rößler]], _Solid State Theory: An Introduction_, Springer (2004, 2009) $[$[doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4)$]$
+
+Lecture notes:
+
+* {#Tong2017} [[David Tong]], *Lectures on solid state physics* (2017) $[$[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)$]$
+
+Specifically on [[Bloch-Floquet theory]]:
+
+* [[Michael Reed]], [[Barry Simon]], Sec. XIII.16 *Schrödinger operators with periodic potentials*, of:  *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) 
+([ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7))
+
+
+With focus on [[semiconductor]]-theory:
+
+* [[Karlheinz Seeger]], *Semiconductor Physics*, Advanced texts in physics, Springer (2004) $[$[doi:10.1007/978-3-662-09855-4](https://doi.org/10.1007/978-3-662-09855-4)$]$ 
+
+* [[Sheng San Li]], *Semiconductor Physical Electronics*, Springer (2006)  61-104 $[$[doi:10.1007/0-387-37766-2](https://link.springer.com/book/10.1007/0-387-37766-2)$]$
 
 See also:
 
 * Wikipedia, _[Solid state physics](http://en.wikipedia.org/wiki/Solid_state_physics)_
+
+and maybe also
+
+* {#LandauLifshitz59} [[Lev Landau]], [[Evgeny Lifshitz]], _Theory of Elasticity_, part VII of  _[[Course of Theoretical Physics]]_, 1959, 1970
+
 
 
 ### Examples and applications
