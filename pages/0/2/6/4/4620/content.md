@@ -49,6 +49,17 @@ The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold i
 
 That the real numbers have [[decidable equality]] is weaker than the analytic LPO (and decidable equality for the Cauchy reals in weaker than $LPO_{\mathbf{N}}$), unless we also assume [[Markov's principle]] (over $\mathbf{N}$ for the Cauchy reals, an analytic version for the Dedekind reals).
 
+## Truncated and untrumcated versions in homotopy type theory
+
+In the context of [[homotopy type theory]], the various principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). The relationships between the truncated and untruncated principles of omniscience are as follows are:
+
+* Truncated LPO and untruncated LPO are equivalent (due to [[Martin Escardo]], see [UFP](#UFP))
+
+* Similarly, truncated WLPO and untruncated WLPO are equivalent.
+
+* Untruncated LLPO is equivalent to WLPO (also due to Martin Escardo).
+
+* In <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO.
 
 ## Equivalent statements
 
@@ -65,7 +76,6 @@ There are various other results that are equivalent to or related to the princip
 
 * The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the Cauchy and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
-
 ## References
 
 * {#Bauer}  [[Andrej Bauer]] (2011) via constructivenews, [An Injection from $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf) (pdf)
@@ -76,6 +86,7 @@ There are various other results that are equivalent to or related to the princip
 
 * {#Mehkeri} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
 
+* {#UFP} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 
 [[!redirects principle of omniscience]]
