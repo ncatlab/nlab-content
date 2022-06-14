@@ -46,6 +46,11 @@ On [[mirror symmetry]]:
 
 * [[Mina Aganagic]], [[Kentaro Hori]], [[Andreas Karch]], [[David Tong]], _Mirror Symmetry in 2+1 and 1+1 Dimensions_, JHEP 0107:022,2001 ([arXiv:hep-th/0105075](http://arxiv.org/abs/hep-th/0105075))
 
+On [[solid state physics]]:
+
+* [[David Tong]], *Lectures on solid state physics* (2017) $[$[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)$]$
+
+
 
 On [[triality]] and its application on [[string theory]]:
 
