@@ -14,6 +14,8 @@
 =--
 
 
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -65,11 +67,24 @@ The text goes on to argue that spaces of this form $G/Stab_G(S)$ are of fundamen
 
 ## Examples
 
-* For $G = E(n)$, the [[Euclidean group]] in $n$-dimensions; $H = O(n)$, the [[orthogonal group]]; then, $X$ is $n$-dimensional [[Cartesian space]].
+\begin{example}
+For $G = E(n)$, the [[Euclidean group]] in $n$-dimensions; $H = O(n)$, the [[orthogonal group]]; then, $X$ is $n$-dimensional [[Cartesian space]].
+\end{example}
 
-* Analogously, for $G = Iso(d,1)$ the [[Poincare group]] of $(d+1)$-dimensional [[Minkowski space]], and $H = O(d,1)$ the [[Lorentz group]], then $X = \mathbb{R}^{d+1}$ is [[Minkowski space]] itself.
+\begin{example}
+Analogously, for $G = Iso(d,1)$ the [[Poincare group]] of $(d+1)$-dimensional [[Minkowski space]], and $H = O(d,1)$ the [[Lorentz group]], then $X = \mathbb{R}^{d+1}$ is [[Minkowski space]] itself.
 
   Passing to the corresponding [[Cartan geometry]] -- by what physicists call _gauging_ -- yields the [[first order formulation of gravity]].
+\end{example}
+
+
+\begin{example}\label{ExampleCrystallography}
+**([[crystallography]])**
+\linebreak
+The study of [[crystallographic groups]] in [[crystallography]] is much in the spirit of Klein geometry (see for instance [Engel 1986](crystal#Engel86)).
+
+Concretely, the [[quotient space]]/[[quotient orbifold]] of the space of [[momenta]] in a crystal lattice by the (dual) [[crystallographic group]] is the [[Brillouin torus]](-[[orbifold]]) where most of the theory is formulated (see the [[electron energy bands]], the [[valence bundle]], and the [[K-theory classification of topological phases]]).
+\end{example}
 
 ## Related concepts
 
