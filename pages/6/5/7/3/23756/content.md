@@ -26,6 +26,8 @@
 
 ## Related concepts
 
+* [[solid state physics]]
+
 * [[electron band theory]]
 
 ## References
