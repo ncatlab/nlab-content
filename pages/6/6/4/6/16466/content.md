@@ -4653,13 +4653,13 @@ to "[[higher algebra]]" ("[[brave new algebra]]") in [[stable homotopy theory]].
 This happens to also be a version of [[supercommutative superalgebra]], see at
 _[[Introduction to Stable homotopy theory]]_ the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra).)
 
-For an attempt to generalize Deligne's theorem to positive characteristic, see
+For an attempt to generalize Deligne's theorem to [[positive characteristic]], see
 
 * [[Victor Ostrik]], _On symmetric fusion categories in positive characteristic_, ([arXiv:1503.01492](https://arxiv.org/abs/1503.01492))
 
-This was realised for Frobenius exact tensor categories in positive characteristic in:
+This was realised for [[Frobenius exact category|Frobenius exact]] tensor categories in [[positive characteristic]] in:
 
-* [[Kevin Coulembier]], [[Pavel Etingof]], [[Victor Ostrik]], _On Frobenius exact symmetric tensor categories_, [arXiv:2107.02372](https://arxiv.org/abs/2107.02372)
+* {#CoulembierEtingofOstrik21} [[Kevin Coulembier]], [[Pavel Etingof]], [[Victor Ostrik]], _On Frobenius exact symmetric tensor categories_ $[$[arXiv:2107.02372](https://arxiv.org/abs/2107.02372)$]$
 
 where $Vect$ and $sVect$ are replaced by more exotic targets.
 
