@@ -61,6 +61,11 @@ Textbook accounts:
 
 * [[Sheng San Li]], *Energy Band Theory*, in S. S. Li, (ed.): *Semiconductor Physical Electronics*, Springer (2006)  61-104 $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
 
+Lecture notes:
+
+* [[David Tong]], Chapter 2 of: *Lectures on solid state physics* (2017) $[$[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)$]$
+
+
 Account with focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]] etc.):
 
 * {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
