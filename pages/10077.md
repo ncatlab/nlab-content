@@ -63,7 +63,7 @@ Nearly all the definitions given below for duoidal categories (except for coduoi
 
 * If $A$ and $B$ are monoidal categories, with $A$ small and $B$ cocomplete and closed, then the functor category $[A,B]$ is duoidal with $\star$ the pointwise tensor product, $(X\star Y)(a) = X(a) \otimes Y(a)$, and $\diamond$ the [[Day convolution]] tensor product.
 
-* In particular, if $A$ is a monoid (in Set) and $B$ a cocomplete closed monoidal category, then the category $B^A$ of "$A$-graded objects of $B$" is duoidal with $\star$ the pointwise (or "Hadamard") product and $\diamond$ the "Cauchy" product, $(X\diamond Y)_a = \sum_{b+c=a} X_a \otimes Y_b$.  If $B$ is [[pointed category|pointed]], then the interchange law in this case is naturally a [[split mono]], and its canonical retraction gives $B^A$ a different duoidal structure with the roles of $\star$ and $\diamond$ switched.
+* In particular, if $A$ is a monoid (in Set) and $B$ a cocomplete closed monoidal category, then the category $B^A$ of "$A$-graded objects of $B$" is duoidal with $\star$ the pointwise (or "Hadamard") product and $\diamond$ the "Cauchy" product, $(X\diamond Y)_c = \sum_{a+b=c} X_a \otimes Y_b$.  If $B$ is [[pointed category|pointed]], then the interchange law in this case is naturally a [[split mono]], and its canonical retraction gives $B^A$ a different duoidal structure with the roles of $\star$ and $\diamond$ switched.
 
 * Similarly, the category $[core(FinSet),Vect]$ of vector [[species]] has both a "Hadamard product" $(p\diamond q)(I) = p(I) \otimes q(I)$. and a "Cauchy product" $(p\star q)(I) = \bigoplus_{I = S\sqcup T} p(S) \otimes q(T)$, and is duoidal in two ways.
 
