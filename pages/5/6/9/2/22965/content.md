@@ -18,7 +18,7 @@
 
 ## Idea
 
-Quantum cryptography is [[cryptography]] making use of effects of [[quantum physics]] and [[quantum information theory]], such as the [[no-cloning theorem]].
+Quantum cryptography is [[cryptography]] making use of effects of [[quantum physics]] and [[quantum information theory]]/[[quantum computation]], such as the [[no-cloning theorem]].
 
 ## References
 
@@ -29,4 +29,9 @@ Original articles:
 See also 
 
 * Wikipedia, *[Quantum cryptography](https://en.wikipedia.org/wiki/Quantum_cryptography)*
+
+* Renato Renner, Ramona Wolf, *Quantum Advantage in Cryptography* $[$[arXiv:2206.04078](https://arxiv.org/abs/2206.04078)$]$
+
+
+
 
