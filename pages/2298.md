@@ -1,13 +1,13 @@
 
 **[[higher geometry]]** / **[[derived geometry]]**
 
-## Ingredients ##
+**Ingredients**
 
 * [[higher topos theory]]
 
 * [[higher algebra]]
 
-## Concepts ##
+**Concepts**
 
 * **geometric [[big and little toposes|little]] [[(∞,1)-topos]]es**
 
@@ -25,13 +25,13 @@
 
   * [[geometric ∞-stacks]]
 
-## Constructions
+**Constructions**
 
 * [[loop space object]], [[free loop space object]]
 
 * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
-## Examples
+**Examples**
 
 * [[derived algebraic geometry]]
 
@@ -61,7 +61,7 @@
 
 * [[higher Cartan geometry]]
 
-## Theorems
+**Theorems**
 
 * [[Isbell duality]]
 
@@ -69,4 +69,3 @@
 
 * [[Tannaka duality for geometric stacks]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/higher+geometry+-+contents)</div>
