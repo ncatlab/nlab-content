@@ -87,7 +87,7 @@ On the other hand [[pretriangulated dg-categories]] are known to provide a model
 ## References
  {#References}
 
-Discussion of integral kernels in the sense of [[functional analysis]] (as n the [[Schwartz kernel theorem]]) is in
+Discussion of integral kernels in the sense of [[functional analysis]] (as in the [[Schwartz kernel theorem]]) is in
 
 * {#Treves67} [[François Trèves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
 
