@@ -22,7 +22,7 @@
 
 ## Idea
 
-A *Bravais lattice* (terminology originating in the study of [[crystals]] in [[solid state physics]]) is the *equivalence class* of a [[crystal]] lattice with *maximal* [[point symmetry]].
+A *Bravais lattice* (terminology originating in the study of [[crystals]] in [[solid state physics]]) is the *equivalence class* of a [[crystal]] [[lattice (discrete subgroup)|lattice]] with *maximal* [[point symmetry]].
 
 Mathematically, this the [[equivalence class]] of the corresponding [[crystallographic group]] $\Lambda \rtimes G_{pt} \;\subset\; \mathbb{R}^d \rtimes \mathrm{O}(d)$ (for $G_{pt} \coloneqq Stab_{O(d)}(\Lambda)$ the full [[stabilizer group]]) under [[conjugation]] by ambient [[linear transformations]] $\phi \,\in\,$ [[GL(n)|$GL(d)$]]:
 
@@ -42,7 +42,7 @@ All crystal lattices with non-maximal point symmetry may be understood as unions
 
 ## Related concepts
 
-* [[crystal]]
+* [[crystal]], [[lattice (discrete subgroup)]]
 
 * [[crystallographic group]]
 
@@ -67,6 +67,12 @@ Further discussion:
 
 
 Lecture notes and textbook accounts:
+
+* {#Engel86} [[Peter Engel]], Section 7 of: *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
+
+
+* [[Peter Engel]], [[Louis Michel]], [[Marjorie Senechal]], Chapter 1 of: *Lattice Geometry*, IHES/P/04/45 (2004) $[$[pdf](https://cds.cern.ch/record/859509/files/cer-002542451.pdf), [cds:859509](https://cds.cern.ch/record/859509)$]$ 
+
 
 * [[Sheng San Li]], Section 1.2 in: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
 
