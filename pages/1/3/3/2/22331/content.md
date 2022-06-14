@@ -1,4 +1,4 @@
-Martina ROvelli is an Assistant Professor at University of Massachusetts Amherst. Her reseacg interests are in Algebraic topology, Homotopy theory and Higher category theory.
+Martina Rovelli is an Assistant Professor at University of Massachusetts Amherst. Her research interests are in Algebraic topology, Homotopy theory and Higher category theory.
 
 
 
