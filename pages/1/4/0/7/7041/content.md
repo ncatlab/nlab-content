@@ -50,7 +50,7 @@ such that
 For every [[closed ball]] $B_{x_0}(\epsilon) = \{x \in \mathbb{R}^n \,\vert\, {\Vert x - x_0 \Vert} \leq \epsilon\} \subset \mathbb{R}^n$ there exists a bump function $b \colon \mathbb{R}^n \to \mathbb{R}$ (def. \ref{BumpFunction}) with 
 
 $$
-  Supp(b) = B_x(\epsilon)
+  Supp(b) = B_{x_0}(\epsilon)
   \,.
 $$
 
