@@ -38,20 +38,24 @@ In addition to these *spatial symmetries*, the [[dynamics]] of the [[electrons]]
 
 ## References
 
-Historical articles identifying the point-lattice nature of crystals:
+Historical articles identifying the point-[[lattice (discrete subgroup)|lattice]] nature of crystals:
 
 * {#Bravais1850}  [[Auguste Bravais]], *Mémoire sur les Systèmes Formés par les Points Distribués Régulièrement sur un Plan ou dans L'espace*, J. Ecole Polytech. 19 (1850) 1 $[$[ark:12148/bpt6k96124j](https://gallica.bnf.fr/ark:/12148/bpt6k96124j)$]$
 
 * {#Barlow1883} [[William Barlow]], *Probable Nature of the Internal Symmetry of Crystals*, Nature **29** (1883) 186–188 $[$[doi:10.1038/029186a0](https://doi.org/10.1038/029186a0)$]$
 
 
-
 Textbook accounts:
+
+* [[Sheng San Li]], Chapter 1 of: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2](https://link.springer.com/book/10.1007/0-387-37766-2)$]$
+
+  > (in [[semiconductor]]-theory)
+
+With focus on the [[mathematics]] of [[crystallographic groups]]:
 
 * [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
 
-* [[Sheng San Li]], Chapter 1 of: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
-
+* [[Peter Engel]], *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
 
 See also:
 
