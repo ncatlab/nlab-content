@@ -49,7 +49,7 @@ In short then, topological order is meant to be that aspect of [[topological pha
 ### Via degenerate anyonic ground states
  {#ViaDegenerateAnyonicGroundStates}
 
-The definition is traditionally a little vague, but the hallmark of a *topological order* is meant to be the presence, in a [[topological phase of matter|topological phase]], of some or preferably all of the following phenomena ([Gu & Wen 09, p. 2](#GuWen09)):
+The definition is traditionally a little vague, but the hallmark of a *topological order* is meant to be the presence, in a [[topological phase of matter|topological phase]], of some or preferably all of the following phenomena ([Gu & Wen 09, p. 2](#GuWen09), called the "modern day philosopher's stone" in [Tsvelik 2014b](parafermion#Tsvelik14b)):
 
 1. degenerate [[ground state]] ([Wen 89, p. 4](#Wen89), [Wen 95, Sec. 1.1](#Wen95));  
 
