@@ -25,6 +25,8 @@ The categorical semantics of [[Dedekind real number|real]]-[[cohesive homotopy t
 
 A [[cohesive (infinity,1)-topos]] $H$ is a **real cohesive (infinity,1)-topos** if $H$ has a [[Dedekind real numbers object]] $\mathbb{R}$ and it satisfies **axiom R-flat**: for each [[infinity-groupoid]] $A \in H$, $A$ is discrete if and only if the morphism $c \colon Hom(A,A^\mathbb{R})$ is an [[equivalence]]. 
 
+A consequence of axiom R-flat is that the [[fundamental infinity-groupoid]] of the Dedekind real numbers is [[contractible]].
+
 ## See also
 
 * [[Dedekind real number]]
