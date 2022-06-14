@@ -78,10 +78,51 @@ $$ \array {
 } $$
 Traditionally, the term is reserved for this line.
 
+### In constructive mathematics
+
 In the [[foundations]] of [[constructive mathematics]], __De Morgan\'s Law__ usually means the statement
 $$ \neg(p \wedge q) \vdash \neg{p} \vee \neg{q} ,$$
 since every other aspect of the first two lines is already constructively valid, the claim that negation mediates the De Morgan self-duality already has a name (the [[double negation]] law, equivalent to the principle of [[excluded middle]]), and no other line involves only operators that appear in intuitionstic [[propositional calculus]].  This de Morgan's law is equivalent to the law of [[weak excluded middle]].
 
+### In homotopy type theory
+
+In the context of [[homotopy type theory]], there are two versions of the constructive De Morgan's law, depending on whether the "or" in the law is interpreted as a [[propositional truncation|propositionally truncated]] [[sum type]] 
+$$ \prod_{A,B} \neg(A \wedge B) \to \Vert \neg A + \neg B \Vert $$
+or as an untruncated sum type: 
+$$ \prod_{A,B} \neg(A \wedge B) \to (\neg A + \neg B). $$
+
+However, [[Martin Escardo]] proved that the truncated and untruncated versions of De Morgan's law are the same: 
+
++-- {: .un_lemma}
+###### Lemma
+Truncated De Morgan's law implies [[weak excluded middle|weak]] [[excluded middle]]:
+$$ \prod_{A} \neg A + \neg\neg A.$$
+=--
+Note that truncation or its absence is irrelevant in weak excluded middle, since $\neg A$ and $\neg\neg A$ are mutually exclusive so that $\neg A + \neg\neg A$ is always a proposition.
++-- {: .proof}
+###### Proof
+Let $B=\neg A$ in the truncated De Morgan's law, and notice that $\neg(A\wedge \neg A)$ always holds.
+=--
+
++-- {: .un_lemma}
+###### Lemma
+Weak excluded middle implies that binary sums of negations have split support:
+$$\prod_{A,B} \Vert \neg A + \neg B \Vert \to (\neg A + \neg B). $$
+=--
++-- {: .proof}
+###### Proof
+By weak excluded middle, either $\neg A$ or $\neg\neg A$.  In the first case, $\neg A + \neg B$ is just true.  In the second case, either $\neg B$ or $\neg\neg B$.  In the first subcase, $\neg A + \neg B$ is again just true.  In the second subcase, we have $\neg\neg A$ and $\neg\neg B$, whence $(\neg A + \neg B) = 0$ and in particular is a proposition.
+=--
+
++-- {: .un_theorem}
+###### Theorem
+Truncated De Morgan's law implies untruncated De Morgan's law,
+$$ \prod_{A,B} \neg(A \wedge B) \to (\neg A + \neg B) $$
+=--
++-- {: .proof}
+###### Proof
+Combine the two lemmas.
+=--
 
 ## Related concepts
 
