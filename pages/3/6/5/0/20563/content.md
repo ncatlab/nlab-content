@@ -48,7 +48,14 @@ For other values of $n$ exact solutions remain unknown, but numerlical simulatio
 
 ### General
 
-See also 
+Textbook accounts:
+
+* {#Engel86} [[Peter Engel]], Chapter 10 of: *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
+
+  > (which is otherwise concerned with [[crystallography]] via [[crystallographic groups]])
+
+
+See also:
 
 * Wikipedia, _[Sphere packing](https://en.wikipedia.org/wiki/Sphere_packing)_
 
