@@ -67,7 +67,7 @@ In short, a crystallographic groups is exhibited by an inclusion of [[short exac
   }
 \]
 
-{#BieberbachTheorem} This transparent description of crystallographic groups is essentially the content of *[[Bieberbach's first theorem]]* (following [Bieberbach 1910](#Bieberbach1910), see [Farkas 81, Thm. 14](#Farkas81), [Charlap 86, Thm. I 3.1](#Charlap86) for modern accounts and find a concise statement in [Tolcachier 19, Thm. 2.3](#Tolcachier19), also implicitly in [Freed-Moore 13, (0.2)](#FreedMoore13)). Historically, the earlier definition of "crystallographic group" (eg. [Farkas 81, Sec. 3](#Farkas81)) just required that it be any [[discrete group|discrete]] [[subgroup]] of $Iso(E)$ such that the resulting [[quotient space|quotient]] [[topological group]] be [[compact topological group|compact]]. Bieberbach's first theorem (or the statement now known under this name) says that this already implies 1. that the translation subgroup is a full lattice, and 2. that the point group is finite. 
+{#BieberbachTheorem} This transparent description of crystallographic groups is essentially the content of *[[Bieberbach's first theorem]]* (following [Bieberbach 1910](#Bieberbach1910), see [Farkas 1981, Thm. 14](#Farkas81), [Charlap 1986, Thm. I 3.1](#Charlap86), [Engel 1986, Thm. 3.1](#Engel86) for modern accounts and find a concise statement in [Tolcachier 19, Thm. 2.3](#Tolcachier19), also implicitly in [Freed-Moore 13, (0.2)](#FreedMoore13)). Historically, the earlier definition of "crystallographic group" (eg. [Farkas 81, Sec. 3](#Farkas81)) just required that it be any [[discrete group|discrete]] [[subgroup]] of $Iso(E)$ such that the resulting [[quotient space|quotient]] [[topological group]] be [[compact topological group|compact]]. Bieberbach's first theorem (or the statement now known under this name) says that this already implies 1. that the translation subgroup is a full lattice, and 2. that the point group is finite. 
 
 If the crystallographic [[short exact sequence]] on the left of (eq:CrystallographicInclusionOfShortExactSequences) [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, then $S$ is called a **symmorphic space group**.
 
@@ -152,6 +152,9 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 Review:
 
 * [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
+
+* {#Engel86} [[Peter Engel]], *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
+
 
 * [[Willard Miller]], Chapter 2 "The Crystallographic Groups" in : *Symmetry Groups and Their Applications*, Pure and Applied Mathematics **50** (1972) 16-60 $[$<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>$]$
 
