@@ -4657,6 +4657,12 @@ For an attempt to generalize Deligne's theorem to positive characteristic, see
 
 * [[Victor Ostrik]], _On symmetric fusion categories in positive characteristic_, ([arXiv:1503.01492](https://arxiv.org/abs/1503.01492))
 
+This was realised for Frobenius exact tensor categories in positive characteristic in:
+
+* [[Kevin Coulembier]], [[Pavel Etingof]], [[Victor Ostrik]], _On Frobenius exact symmetric tensor categories_, [arXiv:2107.02372](https://arxiv.org/abs/2107.02372)
+
+where $Vect$ and $sVect$ are replaced by more exotic targets.
+
 Discussion relating to [[2-rings]] and the [[spin-statistics theorem]] is in
 
 * {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology ([arXiv:1507.06297](https://arxiv.org/abs/1507.06297))
