@@ -39,13 +39,20 @@ The standard diagonal inclusion of a [[global field]] (such as a [[number field]
 
 * [[crystallographic group]]
 
+* [[Bravais lattice]]
+
+* [[sphere packing]]
+
 * [[lattice model]]
 
   * [[lattice gauge theory]]
 
 ## References
 
-* A. E. Brouwer, _Lattices_, Course notes (2002) ([pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf))
+* [[Peter Engel]], [[Louis Michel]], [[Marjorie Senechal]], *Lattice Geometry*, IHES/P/04/45 (2004) $[$[pdf](https://cds.cern.ch/record/859509/files/cer-002542451.pdf), [cds:859509](https://cds.cern.ch/record/859509)$]$ 
+
+
+* [[Andries E. Brouwer]], _Lattices_, Course notes (2002) $[$[pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf)$]$
 
 * [[John Conway]], N. Sloane, _Low dimensional lattices I: Quadratic forms of small determinant_
 
