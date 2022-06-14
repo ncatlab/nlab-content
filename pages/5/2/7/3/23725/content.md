@@ -35,12 +35,19 @@ $$
 * [[valence bundle]], [[conduction bundle]]
 
 ## References
+ {#References}
 
-Any number of textbooks in [[solid state physics]] (...).
+Textbooks on [[solid state physics]] traditionally speak of the "reciprocal lattice" (e.g. [Kittel 1953](solid+state+physics#Kittel53), [p. 27](http://metal.elte.hu/~groma/Anyagtudomany/kittel.pdf#page=47)) which is the dual lattice $Hom_{Grp}\big(\Lambda, \, \mathbb{Z} \big)$, e.g.:
 
-The mathematical nature of the Brillouin torus is made explicit for instance in:
+* [[Michael Reed]], [[Barry Simon]], p. 311 of: Sec. XIII.16 *Schrödinger operators with periodic potentials*, of:  *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) 
+([ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7))
 
-* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], p. 52 of: _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+
+* {#Tong2017} [[David Tong]], [§2.2.2](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf#page=57) in: *Lectures on solid state physics* (2017) $[$[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)$]$
+
+The resulting Brillouin torus $Hom_{Grp}\big(\Lambda, \, \mathbb{R} \big)/Hom_{Grp}\big(\Lambda, \, \mathbb{Z} \big)$ is often left implicit. It is made explicit in:
+
+* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], [p. 52](https://arxiv.org/pdf/1208.5055.pdf#page=52) of: _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 $[$[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)$]$
 
 [[!redirects Brillouin tori]]
 
