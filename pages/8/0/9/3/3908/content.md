@@ -21,6 +21,15 @@ On [[fusion categories]]:
 
 * {#DrinfeldGelakiNikshychOstrik10} [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
 
+On [[Frobenius exact categories]]:
+
+* {#EtingofOstrik21} [[Pavel Etingof]], [[Victor Ostrik]], *On the Frobenius functor for symmetric tensor categories in positive characteristic*, J. f&uuml;r die reine und angewandte Mathematik **773** (2021) 165–198 $[$[arXiv:1912.12947](https://arxiv.org/abs/1912.12947)$]$
+
+and in view of [[Deligne's theorem on tensor categories]]:
+
+* {#CoulembierEtingofOstrik21} [[Kevin Coulembier]], [[Pavel Etingof]], [[Victor Ostrik]], _On Frobenius exact symmetric tensor categories_ $[$[arXiv:2107.02372](https://arxiv.org/abs/2107.02372)$]$
+
+
 
 category: people
 
