@@ -103,6 +103,15 @@ As models for [[su(2)-anyon]] [[wavefunctions]]:
 
 * David J. Clarke, [[Jason Alicea]], Kirill Shtengel . *Exotic non-Abelian anyons from conventional fractional quantum Hall states*, Nature Communications **4** 1348 (2013) $[$[doi: 10.1038/ncomms2340 (2013)](https://www.nature.com/articles/ncomms2340)$]$
 
+An [[integrable model]] for $\mathbb{Z}_N$-parafermions:
+
+* {#Tsvelik14a} [[Alexei M. Tsvelik]], *An integrable model with parafermion zero energy modes*, Phys Rev. Lett. **113** 066401 (2014) $[$[arXiv:1404.2840](https://arxiv.org/abs/1404.2840), [doi:10.1103/PhysRevLett.113.066401](https://doi.org/10.1103/PhysRevLett.113.066401)$]$
+
+* {#Tsvelik14b} [[Alexei M. Tsvelik]], *$\mathbf{Z}_N$ parafermion zero modes without Fractional Quantum Hall effect* $[$[arXiv:1407.4002](https://arxiv.org/abs/1407.4002)$]$
+
+* {#Borcherding18} Daniel Borcherding, *Non-Abelian quasi-particles in electronic systems*, Hannover 2018 $[$[doi:10.15488/4280](https://doi.org/10.15488/4280)$]$
+
+
 Relation to [[topological phases of matter]] with [[topological order]]:
 
 * [[Jason Alicea]], [[Paul Fendley]], *Topological phases with parafermions: theory and blueprints*, Annual Review of Condensed Matter Physics **7** (2016) 119-139 $[$[doi:10.1146/annurev-conmatphys-031115-011336](https://doi.org/10.1146/annurev-conmatphys-031115-011336)$]$
