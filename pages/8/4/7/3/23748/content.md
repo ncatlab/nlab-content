@@ -47,7 +47,13 @@ The following graphics is meant to illustrate this general idea for the case of 
 
 * [[adiabatic]]
 
-* [[anyon]], [[braid group statistics]]
+* [[adiabatic quantum computation]]
+
+  * [[anyon]]
+
+  * [[braid group statistics]]
+
+* [[adiabatic switching]]
 
 
 ## References
