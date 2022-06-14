@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Solid state physics
++-- {: .hide}
+[[!include solid state physics -- contents]]
+=--
 =--
 =--
 
@@ -16,8 +20,19 @@
 
 
 ## Idea
+ {#Idea}
 
-A **space group** in [[dimension]] $n$, also known as a **crystallographic group** (since these are the spatial [[symmetry groups]] of [[crystals]]), is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains a (maximal) [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a [[subgroup]], and is contained within the [[automorphism group]] of that lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
+Crystallographic groups (also: "space groups") are [[symmetry groups]] of [[crystals]].
+
+The use of crystallographic groups for the study of [[crystals]] (e.g. [Hilton 1903](#Hilton03), [Engel 1986](crystal#Engel86)) is much in the spirit of [[Klein geometry]]/the [[Erlanger program]] (see for instance [Weyl 1938](Erlanger+program#Weyl38); [Grünbaum & Shephard 2010](Erlanger+program#GruenbaumShephard10)).
+
+Concretely, the [[quotient space]]/[[quotient orbifold]] of the space of [[wave vectors]]/[[momenta]] in a [[crystal]] lattice by the (dual) [[crystallographic group]] is the [[Brillouin torus]](-[[orbifold]]), in terms of which most of [[condensed matter theory]] is formulated (see for instance the [[electron energy bands]], the [[valence bundle]], and the [[K-theory classification of topological phases]]).
+
+
+
+## Definition
+
+A **crystallographic group** or **space group** in [[dimension]] $n$  is a [[subgroup]] of the corresponding [[Euclidean group]], hence of the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^n$, that contains a (maximal) [[lattice in a vector space|lattice]] in $\mathbb{R}^n$ as a [[subgroup]], and is contained within the [[automorphism group]] of that lattice. In other words, it is a subgroup of the automorphism group of the lattice that contains all the [[translations]] by elements of the lattice itself.
 
 Equivalently, a crystallographic group on a [[Euclidean space]] $E$ is a [[discrete group|discrete]] [[subgroup]] $S \subset Iso(E)$ of the [[isometry group]] of $E$ (its [[Euclidean group]]) that contains a [[lattice (discrete subgroup)|lattice]] $N \subset E \subset Iso(E)$ of [[translation group|translations]] as a [[normal subgroup]] $N \subset S$, such that the corresponding [[quotient group]], called the _[[point group]]_ of the crystallographic group, is a subgroup $G \coloneqq S/N \;\subset\; O(E)$ of the [[orthogonal group]]. 
 
@@ -71,7 +86,9 @@ In short, a crystallographic groups is exhibited by an inclusion of [[short exac
 
 If the crystallographic [[short exact sequence]] on the left of (eq:CrystallographicInclusionOfShortExactSequences) [[split exact sequence|splits]], hence if the space group $S \simeq G \ltimes N$ is the [[semidirect product]] of the [[point group]] with the translational lattice, then $S$ is called a **symmorphic space group**.
 
-The [[conjugacy class of a subgroup|conjugacy class]] of a crystallographic group (under [[conjugation]] by [[O(n)]]) represents the *[[Braivais lattice]]* of the corresponding crystal lattice.
+The [[conjugacy class]] of a crystallographic group (under [[conjugation]] by [[O(n)]]) represents the *[[Bravais lattice]]* of the corresponding crystal lattice.
+
+
 
 ## Properties
 
@@ -151,7 +168,7 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 
 Review:
 
-* [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
+* {#Hilton03} [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
 
 * {#Engel86} [[Peter Engel]], *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
 
