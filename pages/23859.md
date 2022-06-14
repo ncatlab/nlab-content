@@ -55,7 +55,7 @@ With focus on the [[mathematics]] of [[crystallographic groups]]:
 
 * [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
 
-* [[Peter Engel]], *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
+* {#Engel86} [[Peter Engel]], *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
 
 See also:
 
