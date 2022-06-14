@@ -97,6 +97,14 @@ Aspects of Klein geometry may be generalized from groups to [[groupoids]] and ev
 
 Logicians have attempted to demonstrate that specifically _logical_ constructions are those invariant under the largest group of transformations, in the sense of the Erlangen program. See [[logicality and invariance]]. 
 
+## Related concepts
+
+* [[symmetry]]
+
+* [[homogeneous space]], [[coset space]]
+
+
+
 
 ## References 
 
@@ -106,7 +114,8 @@ Logicians have attempted to demonstrate that specifically _logical_ construction
 
   _A comparative review of recent researches in geometry_, Bull. New York Math. Soc. 2, (1892-1893), 215-249. ([euclid:1183407629](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-2/issue-10/A-comparative-review-of-recent-researches-in-geometry/bams/1183407629.full), LaTeX version retyped by Nitin C. Rughoonauth: [arXiv:0807.3161](https://arxiv.org/abs/0807.3161))
 
-* [[John Baez]], [webpage on the Erlangen program](http://math.ucr.edu/home/baez/erlangen)
+
+* [[Hermann Weyl]], *Symmetry*, Journal of the Washington Academy of Sciences, **28** 6 (1938)  253-271 $[$[jstor:24530200](https://www.jstor.org/stable/24530200)$]$
 
 
 * {#BirkhoffBennett} Garrett Birkhoff, M. K. Bennett, _Felix Klein and His "Erlanger Program"_ ([pdf](http://www.mcps.umn.edu/11_6Birkhoff.pdf))
@@ -116,6 +125,8 @@ Logicians have attempted to demonstrate that specifically _logical_ construction
 * Jeremy Gray, _Felix Klein's Erlangen programme_, in _Landmark Writings in Western Mathematics_, ed. I. Grattan-Guinness, Elsevier, p. 544-552, 2005
 
 * Ernst Cassirer, _The concept of Group and The Theory of Perception_, Philosophy and Phenomenological Research 5(1), pp. 1-36, 1944. A philosophical treatment of the Erlangan Program.
+
+* [[John Baez]], [webpage on the Erlangen program](http://math.ucr.edu/home/baez/erlangen)
 
 
 
