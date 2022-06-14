@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[quantum chromodynamics]], _colour superconductivity_ is a [[phase of matter|phase of]] [[quark|qark matter]] of high [[baryon]] density and relatively small [[temperature]].
+In [[quantum chromodynamics]], _colour superconductivity_ is a [[phase of matter|phase of]] [[quark|quark matter]] of high [[baryon]] density and relatively small [[temperature]].
 
 ## Related concepts
 
