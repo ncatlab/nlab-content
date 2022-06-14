@@ -55,7 +55,9 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 ### General
 
-Review:
+Textbook accounts:
+
+* [[Karlheinz Seeger]], Section 2 of: *Semiconductor Physics*, Advanced texts in physics, Springer (2004) $[$[doi:10.1007/978-3-662-09855-4](https://doi.org/10.1007/978-3-662-09855-4)$]$ 
 
 * [[Sheng San Li]], *Energy Band Theory*, in S. S. Li, (ed.): *Semiconductor Physical Electronics*, Springer (2006)  61-104 $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
 
