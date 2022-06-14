@@ -334,6 +334,13 @@ Claim that [[threshold corrections]] can considerably alter (decrease) proton de
 
 Discussion of [[phenomenology|phenomenologically]] viable GUT-[[model (in theoretical physics)|models]] (compatible with [[experiment]] and the [[standard model of particle physics]]):
 
+#### $SU(5)$-GUT
+
+More on the original $SU(5)$-approach:
+
+* Ilja Doršner, *Towards a minimal $SU(5)$ model* $[$[arXiv:2206.06036](https://arxiv.org/abs/2206.06036)$]$
+
+
 #### $SO(10)$-GUT
 
 The idea of "SO(10)" ([[Spin(10)]]) GUT originates with 
