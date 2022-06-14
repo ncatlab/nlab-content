@@ -26,9 +26,13 @@ This "external switching" of electron conductivity in semi-conductors is the bas
 
 * [[semi-metal]]
 
+* [[solid state physics]]
+
 ## References
 
-Review:
+Textbook accounts:
+
+* [[Karlheinz Seeger]], *Semiconductor Physics*, Advanced texts in physics, Springer (2004) $[$[doi:10.1007/978-3-662-09855-4](https://doi.org/10.1007/978-3-662-09855-4)$]$ 
 
 * [[Sheng San Li]] (ed.), *Semiconductor Physical Electronics*, Springer (2006)  $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2)$]$
 
