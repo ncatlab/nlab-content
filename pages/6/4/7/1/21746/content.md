@@ -122,9 +122,13 @@ An overview of homotopy theory done in this "toposophical" context is
 
 * {#B00}[[Tibor Beke]], _Homotopoi_ , ms. University of Massachusetts Lowell (2000). ([dvi](http://faculty.uml.edu/tbeke/topos.dvi))
 
-The following paper explores the topos of sheaves on the unit interval as abstract interval object
+The following papers explore the topos of sheaves on the unit interval as abstract interval object
 
 * {#MW86} [[Ieke Moerdijk]], [[Gavin Wraith]], _Connected locally connected toposes are path-connected_ , Trans. AMS **295** no.2 (1986) pp.849-859.
+
+* [[Ieke Moerdijk]], _Path-lifting for Grothendieck toposes_ , Proc. AMS **102** no.2 (1988) pp.2424-248.
+
+* [[Ieke Moerdijk]], _An addendum to "Path-lifting for Grothendieck toposes"_ , Proc. AMS **125** no.9 (1997) pp.2815-2818.
 
 A proof of the homotopy equivalence of certain _petit_ and _gros_ toposes can be found on p.415f in
 
