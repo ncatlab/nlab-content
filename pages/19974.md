@@ -36,6 +36,10 @@ On the [[nuclear matrix model]]:
 
 * Yasuhiro Hayashi, Takahiro Ogino, [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Stringy excited baryons in holographic QCD_, Prog Theor Exp Phys (2020) ([arXiv:2001.01461](https://arxiv.org/abs/2001.01461))
 
+Computing the [[D-term]] of [[hadrons]] via [[holographic QCD]]:
+
+* {#FHSU22} Mitsutoshi Fujita, Yoshitaka Hatta, [[Shigeki Sugimoto]], Takahiro Ueda, *Nucleon D-term in holographic QCD* $[$[arXiv:2206.06578](https://arxiv.org/abs/2206.06578)$]$
+
 
 ## Related $n$Lab entries
 
