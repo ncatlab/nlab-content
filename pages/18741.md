@@ -14,6 +14,13 @@ Exposition in view of [[synthetic homotopy theory]]:
 
 * [[Anders Mörtberg]], Loïc Pujet, _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, [doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
 
+On [[ordinary cohomology in homotopy type theory]]:
+
+* [[Guillaume Brunerie]], [[Axel Ljungström]], [[Anders Mörtberg]], *Synthetic Integral Cohomology in Cubical Agda*, 30th EACSL Annual Conference on Computer Science Logic (CSL 2022) **216** (2022) $[$[doi:10.4230/LIPIcs.CSL.2022.11](https://doi.org/10.4230/LIPIcs.CSL.2022.11)$]$
+
+  > (in [[cubical type theory|cubical]] [[Agda]])
+
+
 
 ## Related $n$Lab entries
 
