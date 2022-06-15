@@ -8,6 +8,11 @@ On [[(∞,1)-categorical hom-spaces]] in terms of [[quasi-categories]]:
 
 * [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_, Algebraic & Geometric Topology 11 (2011) 263–325 ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](http://dx.doi.org/10.2140/agt.2011.11.263))
 
+On [[internal categories in homotopy type theory]]:
+
+* [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], *Experience Implementing a Performant Category-Theory Library in Coq*,  In:  *Interactive Theorem Proving. ITP 2014* Lecture Notes in Computer Science, **8558** Springer (2014)  $[$[arXiv:1401.7694](http://arxiv.org/abs/1401.7694), [doi:10.1007/978-3-319-08970-6_18](https://doi.org/10.1007/978-3-319-08970-6_18)$]$
+
+
 On [[hypergraph categories]]:
 
 * {#FongSpivak} [[Brendan Fong]] and [[David Spivak]], *Hypergraph Categories* ([arxiv:1806.08304](https://arxiv.org/abs/1806.08304)) 
