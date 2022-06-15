@@ -286,6 +286,7 @@ See also at [internal category](internal+category#InternalAndEnrichedCategories)
 
 * [[enriched (∞,1)-category]]
 
+* [[enriched type]]
 
 ## References
 
