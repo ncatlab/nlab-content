@@ -66,7 +66,7 @@ Ordinary cohomology is modeled by [[singular cohomology]].
 
 ### General
 
-See the references at 
+See the references at:
 
 * [[singular cohomology]], [[cellular cohomology]]
 
@@ -74,11 +74,22 @@ See the references at
 
 * [[Cech cohomology]]
 
+* [[integral cohomology]]
+
+Discussion [[cohomology in homotopy type theory|in homotopy type theory]]:
+
+* [[Guillaume Brunerie]], [[Axel Ljungström]], [[Anders Mörtberg]], *Synthetic Integral Cohomology in Cubical Agda*, 30th EACSL Annual Conference on Computer Science Logic (CSL 2022) **216** (2022) $[$[doi:10.4230/LIPIcs.CSL.2022.11](https://doi.org/10.4230/LIPIcs.CSL.2022.11)$]$
+
+  > (in [[cubical type theory|cubical]] [[Agda]])
 
 
 
 
 
-[[!include chromatic tower examples - table]]
+
+
+
+
+
 
 [[!redirects ordinary cohomology theory]]
