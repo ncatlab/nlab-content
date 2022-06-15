@@ -635,6 +635,8 @@ Survey of the history of type theoryL
 
 Of course there is also discussion of formalized [[types]] originating in [[computer science]] as _[[data types]]_, see there for references.
 
+* Leon Chwistek, The Theory of Constructive Types: Principles of Logic and Mathematics, Krakow: University Press, 1925, 98 pp. Extracted from the Annales de la Société Polonaise de Mathématique. (In DjVu format) [Linked from this page, under Bibliography, On logic and mathematics.](http://www.monoskop.org/Leon_Chwistek)
+
 Surveys of and introductions to type theory include
 
 * [[Per Martin-Löf]], _Intuitionistic type theory_, Studies in Proof Theory 1, Bibliopolis, Naples, 1984 ([pdf](http://intuitionistic.files.wordpress.com/2010/07/martin-lof-tt.pdf))
