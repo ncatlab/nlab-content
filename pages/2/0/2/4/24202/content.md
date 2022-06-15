@@ -1,4 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 In classical [[algebraic topology]] we have four [[Hopf fibrations]] (of spheres):
 
 1. $S^0 \hookrightarrow S^1 \to S^1$ The [[real Hopf fibration]]
@@ -20,11 +41,21 @@ Thus the problem of constructing a [[Hopf fibration]] reduces to finding a [[H-s
 
 * For [[7-sphere|$S^7$]] this is still an open problem.
 
-It is still an open problem to show that these are the only spheres to have a H-space structure. This would be done by showing these are the only spheres with [[Hopf invariant]] $1$ which has been defined in [On the homotopy groups of spheres in homotopy type theory](https://arxiv.org/abs/1606.05916).
+It is still an open problem to show that these are the only spheres to have a H-space structure. This would be done by showing these are the only spheres with [[Hopf invariant]] $1$ which has been defined in [Brunerie 2016](#Brunerie16)
+
+## Related concepts
+
+* [[homotopy groups of spheres in homotopy type theory]]
+
+* [[cohomology in homotopy type theory]]
+
+* [[internal category in homotopy type theory]]
 
 ## References
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+* {#Brunerie16} [[Guillaume Brunerie]], *[[On the homotopy groups of spheres in homotopy type theory]]* $[$[arxiv:1606.05916](https://arxiv.org/abs/1606.05916)$]$
 
 * {#BuchholtzRijke16} [[nLab:Ulrik Buchholtz]], [[nLab:Egbert Rijke]], _The Cayley-Dickson Construction in Homotopy Type Theory_ ([arXiv:1610.01134](https://arxiv.org/abs/1610.01134)) 
 
