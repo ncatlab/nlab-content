@@ -97,6 +97,11 @@ Review:
 
 * {#Putnam} [[Andrew Putman]], Section 5 of: _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf), [[PutmanHomotopyGroupsOfSpheres.pdf:file]])
 
+Discussion [[homotopy groups of spheres in homotopy type theory|in homotopy type theory]]:
+
+* [[Guillaume Brunerie]]: *[[On the homotopy groups of spheres in homotopy type theory]]* $[$[arxiv:1606.05916](https://arxiv.org/abs/1606.05916)$]$
+
+* {#Ljungstroem22} [[Axel Ljungström]], *The Brunerie Number Is -2* (June 2022) $[$[blog entry](https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/)$]$
 
 
 
