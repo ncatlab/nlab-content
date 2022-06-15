@@ -401,11 +401,11 @@ An [[computer science]] oriented introduction to HoTT:
 
 * [[Bob Harper]], _Homotopy Type Theory_ ([web](https://www.cs.cmu.edu/~rwh/courses/hott/))
 
-An introduction to HoTT through Agda could be found here:
+An introduction to HoTT through [[Agda]]:
 
 * [[Martin Escardo]], _Introduction to Univalent Foundations of Mathematics with Agda_ ([web](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html))
 
-An introduction to homotopy theory through type theory is in 
+An introduction to homotopy theory through [[type theory]]:
 
 * [[Andrej Bauer]], _Homotopy (type) theory_ ([web](https://github.com/andrejbauer/homotopy-type-theory-course))
 
