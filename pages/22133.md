@@ -18,6 +18,12 @@ On [[topological quantum computation]] with [[anyons]] in [[topological supercon
 
 * [[Meng Cheng]], Victor Galitski, [[Sankar Das Sarma]], _Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors_, Phys. Rev. B 84, 104529 (2011) ([arXiv:1106.2549](https://arxiv.org/abs/1106.2549))
 
+On the need for [[topological quantum computation]]:
+
+* {#DasSarma22} [[Sankar Das Sarma]], *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
+
+  > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
+
 
 
 category: people
