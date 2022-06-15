@@ -138,7 +138,7 @@ More basic introductions are in
 
 A comprehensive collection of basics and of recent developments is in 
 
-* [[Bob Coecke]], [[Ross Duncan]], _Interacting Quantum Observables: Categorical Algebra and Diagrammatics_ ([arXiv:0906.4725](http://arxiv.org/abs/0906.4725))
+* [[Bob Coecke]], [[Ross Duncan]], *Interacting Quantum Observables: Categorical Algebra and Diagrammatics*, New J. Phys. **13** (2011) 043016 $[$[arXiv:0906.4725](http://arxiv.org/abs/0906.4725), [doi:10.1088/1367-2630/13/4/043016](https://doi.org/10.1088/1367-2630/13/4/043016)$]$
 
 The formalization of orthogonal bases in $\dagger$-compact categories is in 
 
