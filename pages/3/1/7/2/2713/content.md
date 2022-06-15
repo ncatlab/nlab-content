@@ -192,10 +192,12 @@ Traditionally spectral triples are discussed without specifying their [[homomorp
 
 (See also the pointers concerning the relation to [[KK-theory]] [below](#ReferencesRelationToKKTheory)).
 
-Spectral triples over [[Jordan algebras]]:
+{#OverJordanAlgebras} Spectral triples over [[Jordan algebras]]:
 
-* Latham Boyle, Shane Farnsworth,
-_The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+* [[Latham Boyle]], [[Shane Farnsworth]], _The standard model, the Pati-Salam model, and "Jordan geometry"_ ([arxiv:1910.11888](https://arxiv.org/abs/1910.11888))
+
+* Fabien Besnard, [[Shane Farnsworth]], *Particle models from special Jordan backgrounds and spectral triples* $[$[arXiv:2206.07039](https://arxiv.org/abs/2206.07039)$]$
+
 
 See also
 
