@@ -21,8 +21,9 @@ Besides [[Coq]], Agda is one of the languages in which [[homotopy type theory]] 
 Agda can be compiled to Haskell, Epic or Javascript.
 
 ## Cubical Agda
+ {#CubicalAgda}
 
-Cubical Agda is a version of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]].
+[Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a version of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]].
 
 Its main difference from CCHM is that instead of an exotype of "cofibrant propositions" it uses the interval itself, replacing cofibrant propositions by statements of the form $r \equiv 1$ for some dimension expression $r$.  This change does not prevent the construction of a model for the theory in De Morgan [[cubical sets]], although it doesn't technically fall under the Orton-Pitts axioms since $I$ is not a subobject of $\Omega$, and no one has checked whether this model can be strengthened to a [[Quillen model category]].
 
