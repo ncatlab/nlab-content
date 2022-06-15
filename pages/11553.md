@@ -204,9 +204,12 @@ On a subtlety in the application of the [[Narasimhan-Seshadri theorem]] in the d
 
 * Herbert Clemens, Stuart Raby, _Heterotic/F-theory Duality and Narasimhan-Seshadri Equivalence_ ([arxiv:1906.07238](https://arxiv.org/abs/1906.07238))
 
-See also
+See also:
 
 * {#DouglasParkSchnell14} [[Michael Douglas]], Daniel S. Park, Christian Schnell, _The Cremmer-Scherk Mechanism in F-theory Compactifications on K3 Manifolds_, JHEP05 (2014) 135 ([arXiv:1403.1595](https://arxiv.org/abs/1403.1595))
+
+* Herbert Clemens, Stuart Raby, *Heterotic/F-theory Duality and Narasimhan-Seshadri Equivalence* $[$[arXiv:1906.07238](https://arxiv.org/abs/1906.07238)$]$
+
 
 ### For both
 
