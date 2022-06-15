@@ -30,7 +30,7 @@
 
 This entry is about [[homotopy groups of spheres]] formalized in [[homotopy type theory]] (HoTT).
 
-The [[homotopy groups of spheres]] are a fundamental concept in [[algebraic topology]] and [[homotopy theory]]. They are the [[homotopy classes]] of [[maps]] between spheres. These may equivalently be understood as collection of different ways to [[space attachment|attach]] spheres to each other. For instance, the [[homotopy type]] of a [[CW complex]] is completely determined by the homotopy types of the attaching maps.
+The [[homotopy groups of spheres]] are a fundamental concept in [[algebraic topology]] and [[homotopy theory]]. They are the [[homotopy classes]] of [[maps]] between [[n-spheres|$n$-spheres]], as $n$ varies. These may equivalently be understood as collection of different ways to [[space attachment|attach]] spheres to each other. For instance, the [[homotopy type]] of a [[CW complex]] is completely determined by the homotopy types of the attaching maps.
 
 The following is a quick reference for the state of the art on formalizing and computing [[homotopy groups of spheres]] in [[homotopy type theory]].
 
@@ -149,14 +149,34 @@ See also at **[[Hopf degree theorem]]**.
 
 See also at *[[circle type]]* for more.
 
+## Related entries
+
+* [[first stable homotopy group of spheres]]
+
+* [[second stable homotopy group of spheres]]
+
+* [[third stable homotopy group of spheres]]
+
+* [[synthetic homotopy theory]]
+
+* [[Hopf construction in homotopy type theory]]
+
+* [[cohomology in homotopy type theory]]
+
 
 ## References
 
 * {#Brunerie16} [[Guillaume Brunerie]], *[[On the homotopy groups of spheres in homotopy type theory]]* $[$[arxiv:1606.05916](https://arxiv.org/abs/1606.05916)$]$
 
+* {#Ljungstroem22} [[Axel Ljungström]], *The Brunerie Number Is -2* (June 2022) $[$[blog entry](https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/)$]$
 
+
+[[!redirects homotopy groups of spheres in homotopy type theory]]
 
 [[!redirects formalization of the homotopy groups of spheres in homotopy type theory]]
 
 
 category: homotopy theory
+
+
+
