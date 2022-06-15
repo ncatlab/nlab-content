@@ -450,9 +450,13 @@ Forums dedicated to homotopy type theory
 
 * The [HoTT Zulip Chat](https://hott.zulipchat.com) 
 
-A blog maintained by Carnegie Mellon University:
+The HoTT research group at Carnegie Mellon University:
 
-* [CMU blog](https://cmuhott.wordpress.com/)
+* [CMU website](https://cmuhott.wordpress.com/)
+
+The HoTT electronic seminar talks:
+
+* [HoTTEST](http://uwo.ca/math/faculty/kapulkin/seminars/hottest.html)
 
 ### Models and categorical semantics
 
