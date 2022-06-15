@@ -1,15 +1,30 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea ##
 
-[[cohomology|Cohomology]]$\;$ [[groups]] are algebraic invariants of [[types]]. Often, they are much easier to compute than [[homotopy groups]]. There are many theorems in classical algebraic topology relating them other invariants such as the universal coefficient /theorem and the Hurewicz theorem.
+The [[ordinary cohomology|ordinary]] [[cohomology]] [[cohomology group|groups]] are [[algebra|algebraic]] [[invariants]] of [[homotopy types]], and hence of [[types]] in [[homotopy type theory]]. Typically they are much easier to compute than [[homotopy groups]]. There are many theorems in classical algebraic topology relating them other invariants such as the universal coefficient /theorem and the Hurewicz theorem.
 
-_[[ordinary cohomology|Ordinary]]_ cohomology denotes cohomology groups with coefficients in $\mathbb{Z}$ this is usually difficult to compute for most spaces, so they are usually broken up into groups for each prime $p$ with coefficients in $\mathbb{Z}_p$. These can be glued back together via the [[universal coefficient theorem]].
 
-## Definition ##
+## Definition 
+
 There are many different flavours of [[cohomology]], but it's usually best to start simple and add features according to its use.
 
 Let $K(G,n)$ be the [[Eilenberg-MacLane space]] of an [[abelian group]] $G$ for some $n : \mathbb{N}$. The (reduced) **_[[ordinary cohomology|ordinary]]_ cohomology group** (of degree $n$ with coefficients in $G$) of a [[pointed]] space $X$ is the following [[set]]:
@@ -46,15 +61,31 @@ Ordinary cohomology also satisfies the _dimension axiom_:
 * $\bar{H}^{n} (X, G) = 0$ if $n \neq 0.$
 
 ## See also ##
+
 * [[synthetic homotopy theory]]
+
+* [[homotopy groups of spheres in homotopy type theory]]
+
+* [[Hopf construction in homotopy type theory]]
+
 * [[spectral sequence]]
+
 * [[cohomology]]
+
 * [[homology]]
 
 ## References
 
-* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+* [[Guillaume Brunerie]], [[Axel Ljungström]], [[Anders Mörtberg]], *Synthetic Integral Cohomology in Cubical Agda*, 30th EACSL Annual Conference on Computer Science Logic (CSL 2022) **216** (2022) $[$[doi:10.4230/LIPIcs.CSL.2022.11](https://doi.org/10.4230/LIPIcs.CSL.2022.11)$]$
+
+  > (in [[cubical type theory|cubical]] [[Agda]])
 
 * [[Floris van Doorn]] (2018), _On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory_, ([arXiv:1808.10690](https://arxiv.org/abs/1808.10690), [web](http://florisvandoorn.com/papers/dissertation.pdf))
 
 * [[Evan Cavallo]], *Synthetic Cohomology in Homotopy Type Theory*, ([pdf](http://www.cs.cmu.edu/~rwh/theses/cavallo-msc.pdf))
+
+See also:
+
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+[[!redirects cohomology in homotopy type theory]]
