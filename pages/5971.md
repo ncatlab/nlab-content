@@ -33,7 +33,12 @@ $$
 
 ## Examples
 
+
 * [[electric charge]], [[magnetic charge]]
+
+* [[mass]], [[spin]]
+
+* [[D-term]]
 
 * [[supercharge]]
 
