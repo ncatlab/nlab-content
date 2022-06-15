@@ -22,3 +22,5 @@ An introduction to programming in Standard ML
 category: people
 
 [[!redirects Robert Harper]]
+
+[[!redirects Bob Harper]]
