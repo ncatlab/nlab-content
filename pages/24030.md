@@ -5,4 +5,4 @@
 
 * [[Betti number]]
 
-category: peopl
+category: people
