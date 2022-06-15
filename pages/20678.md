@@ -11,13 +11,18 @@ based on [[dependent type theory]]/[[homotopy type theory]]:
 
 * [[Coq]], [[Agda]], [[Lean]], [[Arend]]
 
-based on [[cubical type theory]]:
+{#BasedOnCubicalTypeTheory} based on [[cubical type theory]]:
 
 * [cubicaltt](https://github.com/mortberg/cubicaltt)
+
 * [redtt](http://github.com/redprl/redtt)
+
 * [yacctt](http://github.com/mortberg/yacctt)
+
 * [RedPRL](http://www.redprl.org/en/latest/)
-* [Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)
+
+* [Cubical Agda](Agda#CubicalAgda)
+
   * [library and demos](https://github.com/agda/cubical)
 
 based on [[modal type theory]]:
