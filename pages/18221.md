@@ -73,9 +73,14 @@ There is a canonical way to turn a [[category]] into a univalent category via th
 
 * [[type-theoretic definition of category]]
 
-* [[Rezk completion]]
+* [[Rezk completion]] (for [[displayed categories]])
 
-* Particularly useful in the context of such categories are [[displayed categories]].
+* [[homotopy groups of spheres in homotopy type theory]]
+
+* [[cohomology in homotopy type theory]]
+
+* [[Hopf construction in homotopy type theory]]
+
 
 ## References
  {#References}
