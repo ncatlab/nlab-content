@@ -343,19 +343,21 @@ Original articles on quantum error correcting codes:
 
 Realization that quantum error correcting codes could make quantum computation practically feasible:
 
-* [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A454 (1998) 385-410 ([arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031))
+* [[John Preskill]], *Fault-tolerant quantum computation*, in: *Introduction to Quantum Computation and Information*, World Scientific (1998) $[$[arXiv:quant-ph/9712048](https://arxiv.org/abs/quant-ph/9712048), [doi:10.1142/3724](https://doi.org/10.1142/3724)$]$
+
+* [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A **454** (1998) 385-410 $[$[arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031), [doi:10.1098/rspa.1998.0167](https://doi.org/10.1098/rspa.1998.0167)$]$
 
 * [[Daniel Gottesman]], *Theory of fault-tolerant quantum computation*, Phys. Rev. A **57** (1998) 127-137 $[$[doi:10.1103/PhysRevA.57.127](https://doi.org/10.1103/PhysRevA.57.127)$]$
+
+* [[Daniel Gottesman]], *Fault-Tolerant Quantum Computation*,  Physics in Canada **63** 4  (2007) 183-189 $[$[arXiv:quant-ph/0701112](https://arxiv.org/abs/quant-ph/0701112)$]$
+
 
 * Dorit Aharonov, Michael Ben-Or, *Fault-Tolerant Quantum Computation With Constant Error Rate*, SIAM J. Comput. **38** 4 (2008) 1207–1282 ([arXiv:quant-ph/9906129](https://arxiv.org/abs/quant-ph/9906129), [doi:10.1137/S0097539799359385](https://doi.org/10.1137/S0097539799359385))
 
 * Panos Aliferis, [[Daniel Gottesman]], [[John Preskill]], *Quantum accuracy threshold for concatenated distance-3 codes*, Quant. Inf. Comput. 6 (2006) 97-165 ([arXiv:quant-ph/0504218](https://arxiv.org/abs/quant-ph/0504218))
 
-See also:
-
 * Earl T. Campbell, Barbara M. Terhal, Christophe Vuillot: *Roads towards fault-tolerant universal quantum computation*, Nature **549** (2017) 172–179 $[$[doi:10.1038/nature23460](https://doi.org/10.1038/nature23460)$]$
 
-* [[Daniel Gottesman]], *Fault-Tolerant Quantum Computation*,  Physics in Canada **63** 4  (2007) 183-189 $[$[arXiv:quant-ph/0701112](https://arxiv.org/abs/quant-ph/0701112)$]$
 
     
 
