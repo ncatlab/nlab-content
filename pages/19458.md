@@ -27,7 +27,7 @@ The concept of _enriched hom-functor_ is the generalization of that of [[hom-fun
 ###### Definition
 **(enriched hom-functor)**
 
-For $\mathcal{V}$ a [[closed monoidal category|closed]] [[symmetric monoidal category]] with all [[limits]] and [[colimits]], let $\mathcal{C}$, be a $\mathcal{V}$-[[enriched categories]]. Then its _$\mathcal{V}$-enriched hom-functor_ is the $\mathcal{V}$-[[enriched functor]]
+For $\mathcal{V}$ a [[closed monoidal category|closed]] [[symmetric monoidal category]] with all [[limits]] and [[colimits]], let $\mathcal{C}$, be a $\mathcal{V}$-[[enriched category]]. Then its _$\mathcal{V}$-enriched hom-functor_ is the $\mathcal{V}$-[[enriched functor]]
 
 $$
   \mathcal{C}(-,-)
