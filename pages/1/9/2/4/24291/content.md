@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[quantum hadrodynamics]], the *D-term* is a subtle [[conserved charge]] of [[hadrons]] (alongside the well-kown charges of [[mass]], [[spin]] and [[electric charge]]), which may be understood as a [[limit of a sequence|limit]] of a [[gravity|gravitational]] [[form factor]]. Accordingly, the most natural way to [[measurement|measure]] the D-term charge for any particle is (or would be) via [[scattering]] with [[gravitons]] and, as a result, there is currently no [[experiment|experimental]] determination of the D-term of any particle.  
+In [[quantum hadrodynamics]], the *D-term* is a subtle [[conserved charge]] of [[hadrons]] (alongside the well-known charges of [[mass]], [[spin]] and [[electric charge]]), which may be understood as a [[limit of a sequence|limit]] of a [[gravity|gravitational]] [[form factor]]. Accordingly, the most natural way to [[measurement|measure]] the D-term charge for any particle is (or would be) via [[scattering]] with [[gravitons]] and, as a result, there is currently no [[experiment|experimental]] determination of the D-term of any particle.  
 
 But more indirect measurements of the D-term may be possible (cf. [BEG18](#BEG18)), such as at a future electron-ion collider, the vague prospect of which recently led to renewed attention of the problem (see [FHSU22, p. 1](#FHSU22)). 
 
