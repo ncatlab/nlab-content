@@ -539,6 +539,9 @@ Further discussion of holographic quantum error correcting codes:
 
 * ChunJun Cao, Brad Lackey, *Quantum Lego: Building Quantum Error Correction Codes from Tensor Networks*, PRX Quantum **3** 020332 (2022) $[$[arXiv:2109.08158](https://arxiv.org/abs/2109.08158), [doi:10.1103/PRXQuantum.3.020332](https://doi.org/10.1103/PRXQuantum.3.020332)$]$
 
+* Jason Pollack, Patrick Rall, Andrea Rocchetto, *Understanding holographic error correction via unique algebras and atomic examples*, Journal of High Energy Physics, 56 (2022) $[$[arXiv:2110.14691](https://arxiv.org/abs/2110.14691)$]$
+
+
 Understanding in terms of the [[eigenstate thermalization hypothesis]]:
 
 * [[Ning Bao]], Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
