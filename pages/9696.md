@@ -10,9 +10,11 @@ On [[vortex]]$\;$[[anyons]]:
 * [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
 
 
-On [[quantum error correction]]:
+On [[quantum error correction]] for fault-tolerant/reliable [[quantum computation]]:
 
-* [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A454 (1998) 385-410 ([arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031))
+* [[John Preskill]], *Fault-tolerant quantum computation*, in: *Introduction to Quantum Computation and Information*, World Scientific (1998) $[$[arXiv:quant-ph/9712048](https://arxiv.org/abs/quant-ph/9712048), [doi:10.1142/3724](https://doi.org/10.1142/3724)$]$
+
+* [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A454 (1998) 385-410 $[$[arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031), [doi:10.1098/rspa.1998.0167](https://doi.org/10.1098/rspa.1998.0167)$]$
 
 * Panos Aliferis, [[Daniel Gottesman]], [[John Preskill]], *Quantum accuracy threshold for concatenated distance-3 codes*, Quant. Inf. Comput. 6 (2006) 97-165 ([arXiv:quant-ph/0504218](https://arxiv.org/abs/quant-ph/0504218))
 
