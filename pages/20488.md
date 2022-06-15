@@ -60,7 +60,7 @@ On [[verified software]] for cryptography:
 * Andrew W. Appel, *Verification of a Cryptographic Primitive: SHA-256*, ACM Transactions on Programming Languages and SystemsApril 2015 Article No.: 7 ([doi:10.1145/2701415](https://doi.org/10.1145/2701415), [pdf](https://www.cs.princeton.edu/~appel/papers/verif-sha.pdf))
 
 
-* Andres Erbsen, Jade Philipoom, Jason Gross, Robert Sloan, [[Adam Chlipala]], *Simple High-Level Code for Cryptographic Arithmetic - With Proofs, Without Compromises*, [2019 IEEE Symposium on Security and Privacy (SP)](https://ieeexplore.ieee.org/xpl/conhome/8826229/proceeding) ([doi:10.1109/SP.2019.00005](https://doi.org/10.1109/SP.2019.00005))
+* Andres Erbsen, Jade Philipoom, [[Jason Gross]], Robert Sloan, [[Adam Chlipala]], *Simple High-Level Code for Cryptographic Arithmetic - With Proofs, Without Compromises*, [2019 IEEE Symposium on Security and Privacy (SP)](https://ieeexplore.ieee.org/xpl/conhome/8826229/proceeding) $[$[doi:10.1109/SP.2019.00005](https://doi.org/10.1109/SP.2019.00005)$]$
 
 * [[Mihhail Aizatulin]], *Verifying Cryptographic Security Implementations in C Using Automated Model Extraction* ([arXiv:2001.00806](https://arxiv.org/abs/2001.00806))
 
