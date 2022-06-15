@@ -397,6 +397,20 @@ A guided walk through the basics of HoTT and then the formal proof in [[Coq]] th
 
 * [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
 
+An [[computer science]] oriented introduction to HoTT:
+
+* [[Bob Harper]], _Homotopy Type Theory_ ([web](https://www.cs.cmu.edu/~rwh/courses/hott/))
+
+An introduction to HoTT through Agda could be found here:
+
+* [[Martin Escardo]], _Introduction to Univalent Foundations of Mathematics with Agda_ ([web](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html))
+
+An introduction to homotopy theory through type theory is in 
+
+* [[Andrej Bauer]], _Homotopy (type) theory_ ([web](https://github.com/andrejbauer/homotopy-type-theory-course))
+
+* [[Egbert Rijke]], _Introduction to Homotopy Type Theory_ ([web](http://www.andrew.cmu.edu/user/erijke/hott/))
+
 Gentle invitation to some basics:
 
 * {#Bauer19} [[Andrej Bauer]], _What is an explicit bijection?_, talk at [FPSAC 2019](http://fpsac2019.fmf.uni-lj.si/) ([slides pdf](http://videolectures.net/site/normal_dl/tag=1244258/FPSAC2019_bauer_explicit_bijection_01.pdf), [video recording](http://videolectures.net/FPSAC2019_bauer_explicit_bijection/))
@@ -411,10 +425,6 @@ From the point of view of [[cubical type theory]]:
 A blog serving as a base for the HoTT community is at
 
 * {#HoTTSite} _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
-
-A wiki is here (now being moved to the main nLab)
-
-* _[HoTT wiki](https://ncatlab.org/homotopytypetheory/show/HomePage)_
 
 Reports from the original Oberwolfach workshop on homotopy type theory are in 
 
@@ -432,6 +442,17 @@ A FAQ of sorts, with tips for those getting started in the field, is being maint
 
 * _[What I wish I knew when learning HoTT](https://abooij.github.io/wiwikwlhott/)_.
 
+Forums dedicated to homotopy type theory
+
+* The [Homotopy Type Theory Google Group](https://groups.google.com/forum/#!forum/homotopytypetheory) 
+
+* The [HoTT Cafe Google Group](https://groups.google.com/forum/#!forum/hott-cafe) 
+
+* The [HoTT Zulip Chat](https://hott.zulipchat.com) 
+
+A blog maintained by Carnegie Mellon University:
+
+* [CMU blog](https://cmuhott.wordpress.com/)
 
 ### Models and categorical semantics
 
@@ -461,7 +482,7 @@ with lecture notes in
 
 * [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf))
 
-* [[André Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://ncatlab.org/homotopytypetheory/files/Joyal.pdf))
+* [[André Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](https://ncatlab.org/nlab/files/Categorical+Homotopy+Type+Theory.pdf))
 
 The full model in the [[classical model structure on simplicial sets]] is due to
 
