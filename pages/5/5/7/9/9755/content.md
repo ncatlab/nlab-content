@@ -1,6 +1,8 @@
 
 * [page on HoTT site](http://homotopytypetheory.org/author/egbertrijke/)
 
+* [github page](https://github.com/EgbertRijke)
+
 ## Selected writings
 
 On [[homotopy type theory]] ([[synthetic homotopy theory]]):
