@@ -65,7 +65,9 @@ Proving the [[Blakers-Massey theorem]] in any [[(infinity,1)-topos|$(\infty,1)$-
 
 * {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
 
+PDF of slides from a talk given by André Joyal at the MIT Topology Seminar on March 17, 2014:
 
+* {#JoyalCategorialHoTT} [[André Joyal]], [[Categorical Homotopy Type Theory.pdf:file]]
 
 category: people
 
