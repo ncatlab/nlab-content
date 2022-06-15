@@ -64,6 +64,9 @@ In relation to [[Yang-Mills monopoles]]:
 
 * [[Stefano Bolognesi]], *Solitons, Large $N$ and Holography*, 2015 ([[Bolognesi_SolitonsHolography.pdf:file]])
 
+Discussion, in this context, of [[D-term]] effects affecting [[hadron]] stability:
+
+* Mitsutoshi Fujita, Yoshitaka Hatta, [[Shigeki Sugimoto]], Takahiro Ueda, *Nucleon D-term in holographic QCD* $[$[arXiv:2206.06578](https://arxiv.org/abs/2206.06578)$]$
 
 
 
