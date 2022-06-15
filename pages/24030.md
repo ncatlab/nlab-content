@@ -1,7 +1,7 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Enrico_Betti)
 
-## related $n$Lab entries
+## Related $n$Lab entries
 
 * [[Betti number]]
 
