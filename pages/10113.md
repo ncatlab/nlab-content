@@ -92,9 +92,9 @@ For more see at _[[hadron Kaluza-Klein theory]]_.
 
 * [[flavour anomaly]]
 
-
 * [[hadron supersymmetry]]
 
+* [[D-term]]
 
 ## References
 
