@@ -1,4 +1,4 @@
 
-* [home page](http://www.eleves.ens.fr/home/brunerie/index.en.html)
+* [home page](https://guillaumebrunerie.github.io/)
 
 category: people
