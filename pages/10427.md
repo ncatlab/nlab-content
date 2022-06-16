@@ -85,7 +85,7 @@ See also the references at _[[modal type theory]]_.
 
 ### Review
 
-* {#LicataWellen18} [[Dan Licata]], [[Felix Wellen]], _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/current-trimester-program/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018
+* {#LicataWellen18} [[Dan Licata]], [[Felix Wellen]], _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018
 
   Tutorial 1, Dan Licata:  _A Fibrational Framework for Modal Simple Type Theories_
 ([recording](https://www.youtube.com/watch?v=uLLbSAYd3yI))
@@ -100,7 +100,7 @@ See also the references at _[[modal type theory]]_.
 
   Tutorial 6, Felix Wellen: _Differential Cohesive HoTT_, ([recording](https://www.youtube.com/watch?v=uEZXHPdwvJU&t=226s))
 
-* {#Licata18} [[Dan Licata]], _Synthetic Mathematics in Modal Dependent Type Theories_, notes for tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/current-trimester-program/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018 ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/him-tutorial.pdf))
+* {#Licata18} [[Dan Licata]], _Synthetic Mathematics in Modal Dependent Type Theories_, notes for tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018 ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/him-tutorial.pdf))
 
 ### General
 
