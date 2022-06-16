@@ -48,6 +48,8 @@ Textbook accounts for undergraduates:
 
 * Gary Chartrand, Ping Zhang: *Discrete Mathematics* Waveland Press (2011) $[$[ISBN:978-1577667308](https://www.waveland.com/browse.php?t=479&r=d|274)$]$
 
+* Kenneth Rosen, *Discrete Mathematics and its Applications*, McGraw Hill (2019) $[$ISBN:978-1-259-67651-2, [pdf](https://lms.su.edu.pk/download?filename=1588493195-discretemathematics-text-book.pdf&lesson=536)$]$
+
 ### Research level
  {#ResearchLevelReferences}
 
