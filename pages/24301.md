@@ -19,12 +19,16 @@ In [[homotopy type theory]], the __axiom of replacement__ states that given a [[
 ## See also ##
 
 * [[type universe]]
+
 * [[essentially small type]]
+
 * [[locally small type]]
+
 * [[axiom of replacement]]
 
 ## References ##
 
 * [[Egbert Rijke]], *The join construction*, 26 Jan 2017, ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
-* Marc Bezem, Ulrik Buchholtz, Pierre Cagne, Bjørn Ian Dundas, and Daniel R. Grayson, [Symmetry book](https://unimath.github.io/SymmetryBook/book.pdf) (2021) 
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], Section 2.19 in: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
+
