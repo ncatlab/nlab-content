@@ -84,7 +84,7 @@ Review:
 
   > (in relation to [[Hecke algebras]])
 
-* [[Toshitake Kohno]], Section1 1.5 and 2.1 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
+* [[Toshitake Kohno]], §1.5 and §2.1 in: *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. 2002 $[$[AMS:mmono-210](https://bookstore.ams.org/mmono-210)$]$
 
   > (relating to [[conformal blocks]] and [[braid representations]])
  
