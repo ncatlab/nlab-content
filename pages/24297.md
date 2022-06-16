@@ -22,7 +22,7 @@
 
 ## Idea
 
-In [[homotopy type theory]], [[types]] represent [[infinity-groupoids|$\infty$-groupoids]], so there should be something similar to [[enriched (infinity,1)-category|enriched]] $\infty$-groupoids in homotopy type theory. 
+In [[homotopy type theory]], [[types]] represent [[infinity-groupoids|$\infty$-groupoids]], so there should be something similar to [[enriched (infinity,1)-category|enriched]] $\infty$-groupoids in homotopy type theory. The following definition is an experimental definition of such an object:
 
 ## Definition
 
@@ -35,6 +35,8 @@ Then a type $T$ is *$C$-enriched* if for all terms $a:T$ and $b:T$, there is a [
 * One could define [[Ab|$Ab$]]-enriched types, which are types whose identity types are all [[abelian groups]] (usually defined with a predicate $isAbelianGroup$). 
 
 * Similarly, [[sets]] are [[Prop|$Prop$]]-enriched types, and [[homotopy n-type|$n$-types]] are $(n - 1)$Type-enriched types. 
+
+* A (extended) lower Dedekind cut could be defined as a set $U:\mathcal{U}$ with an injection $i:U \hookrightarrow \mathbb{Q}$ which satisfy certain axioms, which are detailed in the article on [[Dedekind cuts]]. Then, one could define a (extended) [[Richman premetric space]] as a type whose identity types are (extended) lower Dedekind cuts, which in classical mathematics is the same as a (extended) [[metric space]]. 
 
 ## Categorical semantics
 
