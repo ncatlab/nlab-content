@@ -77,7 +77,7 @@ $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$
 
 * For instance, let $G = Gal(E/F)$ be the [[Galois group]] of a finite [[Galois extension]] $E/F$.  Then there is an $\mathcal{M}$-category whose objects are intermediate [[fields]] $F\subset K\subset E$, whose loose maps are arbitrary field homomorphisms that fix $F$ pointwise, and whose tight maps are those which commute with the inclusions into $E$.  There is also an $\mathcal{M}$-category whose objects are [[orbits]] $G/H$, whose loose maps are arbitrary maps of $G$-sets, and whose tight maps are those which commute with the quotient maps from $G$.  The fundamental theorem of classical [[Galois theory]] says that these two $\mathcal{M}$-categories are equivalent *as $\mathcal{M}$-categories*.
 
-  This is a stronger statement than saying that their underlying strict categories, as above, are isomorphic, which is yet stronger than saying that their underlying categories of loose maps are equivalent.  See [this post](http://article.gmane.org/gmane.science.mathematics.categories/5877) by [[Peter May]].
+  This is a stronger statement than saying that their underlying strict categories, as above, are isomorphic, which is yet stronger than saying that their underlying categories of loose maps are equivalent.  See [this post](http://article.gmane.org/gmane.science.mathematics.categories/5877) ([archive](http://web.archive.org/web/20150326125356/http://article.gmane.org/gmane.science.mathematics.categories/5877)) by [[Peter May]].
 
 
 ## Related Concepts 
