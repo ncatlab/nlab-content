@@ -14,7 +14,8 @@
 =--
 
 
-> For the concept in [[computer science]] see [[polymorphism]]. For the concept introduced by [[Shinichi Mochizuki]] in [[inter-universal Teichmüller theory]], see [[poly-morphism]].
+> This page is about the concept in [[type theory]]. For the analogous concept in [[computer science]] see at *[[polymorphism]]*. For the concept introduced by [[Shinichi Mochizuki]] in [[inter-universal Teichmüller theory]], see at *[[poly-morphism]]*.
+
 
 #Contents#
 * table of contents
@@ -22,7 +23,8 @@
 
 ## Idea
 
-Universe polymorphism is the ability for [[definitions]] to be implicitly duplicated at different [[universe]] levels, with the [[types]] they contain. Both Russell and Tarski style universes can be polymorphic or not. 
+In ([[homotopy type theory|homotopy]]) [[type theory]], by
+*universe polymorphism* one refers to the ability for [[definitions]] to be implicitly duplicated at different [[type universe]]-levels, with the [[types]] they contain. Both Russell and Tarski style universes can be polymorphic or not. 
 
 ## Examples and applications
 
