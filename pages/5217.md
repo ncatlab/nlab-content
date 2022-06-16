@@ -11,6 +11,7 @@ Note that while the adjective 'ordered' usually refers to a [[partial order]], i
 
 ## Definition
 
+### With linear order
 An __ordered field__ is a [[field]] $K$ equipped with a [[linear order]] $\lt$ such that:
 
 *  $1 \gt 0$,
@@ -18,6 +19,44 @@ An __ordered field__ is a [[field]] $K$ equipped with a [[linear order]] $\lt$ s
 
 One often sees the definition using a [[total order]] $\leq$ instead of the linear order $\lt$.  This makes no difference in [[classical mathematics]], but we need to use linear orders in [[constructive mathematics]] if we wish to have the usual examples. 
 
+### With a positivity predicate
+
+An ordered field is a [[commutative ring]] with a [[predicate]] $\mathrm{isPositive}$ such that 
+
+* zero is not positive: 
+
+$$\not \mathrm{isPositive}(0)$$
+
+* one is positive: 
+
+$$\mathrm{isPositive}(1)$$
+
+* for every element $a:A$, if $a$ is not positive and $-a$ is not positive, then $a = 0$
+
+$$\forall a:A.\neg\mathrm{isPositive}(a) \wedge \neg\mathrm{isPositive}(-a) \Rightarrow (a = 0)$$
+
+* for every term $a:A$, if $a$ is positive, then $-a$ is not positive. 
+
+$$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \Rightarrow \neg\mathrm{isPositive}(-a)$$
+
+* for every term $a:A$, $b:A$, if $a$ is positive, then either $b$ is positive or $a - b$ is positive. 
+
+$$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \Rightarrow \left(\mathrm{isPositive}(b) \vee \mathrm{isPositive}(a - b)\right)$$
+
+* for every term $a:A$, $b:A$, if $a$ is positive and $b$ is positive, then $a + b$ is positive
+
+$$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \wedge \mathrm{isPositive}(b) \Rightarrow \mathrm{isPositive}(a + b)$$
+
+* for every term $a:A$, $b:A$, if $a$ is positive and $b$ is positive, then $a \cdot b$ is positive
+
+$$\forall a:A. \forall b:A. \mathrm{isPositive}(a) \wedge \mathrm{isPositive}(b) \implies \mathrm{isPositive}(a \cdot b)$$
+
+* for every term $a:A$, if $a$ is positive, then there exists a $b$ such that $a \cdot b = 1$ and $b \cdot a = 1$
+
+$$\forall a:A. \mathrm{isPositive}(a) \Rightarrow \left(\exists b:A. (a \cdot b = 1) \wedge (b \cdot a = 1)\right)$$
+
+We define the linear order as
+$$a \lt b \coloneqq \mathrm{isPositive}(b - a)$$
 
 ## Examples
 
