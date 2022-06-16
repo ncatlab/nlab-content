@@ -31,6 +31,10 @@ The axiom of **proposition resizing** states that this map is an [[equivalence]]
 
 The axiom is a form of [[impredicativity]] for mere propositions, and by avoiding its use, the type theory is said to remain predicative.
 
-##References
+## See also
+
+* [[essentially small type]]
+
+## References
 
 * Section 3.5 of [[The HoTT Book]]
