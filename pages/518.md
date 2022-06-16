@@ -23,7 +23,7 @@ This entry is about the article
 
   Transactions of the American Mathematical Society, 
 
-  Vol. 186 (1973), 419-458 
+  **186** (1973) 419-458 
  
   ([jstor:1996573](http://www.jstor.org/stable/1996573)).
 
