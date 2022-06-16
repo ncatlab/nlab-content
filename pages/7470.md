@@ -68,13 +68,15 @@ A [[closed monoidal (∞,1)-category]] is naturally enriched over itself.
 
 * [[table - models for (∞,1)-operads]]
 
+* [[enriched type]]
+
 ## References
 
-* [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([arXiv:1001.4071](http://arxiv.org/abs/1001.4071))
- {#Simpson}
+* {#Simpson} [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([arXiv:1001.4071](http://arxiv.org/abs/1001.4071))
+ 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_
+ 
 
 * {#GepnerHaugseng13} [[David Gepner]], [[Rune Haugseng]], _Enriched ∞-categories via non-symmetric ∞-operads_ ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
 
