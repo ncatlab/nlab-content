@@ -22,11 +22,15 @@
 
 ## Idea
 
-Universe polymorphism is the ability for [[definitions]] to be implicitly duplicated at different [[universe]] levels, with the [[types]] they contain.
+Universe polymorphism is the ability for [[definitions]] to be implicitly duplicated at different [[universe]] levels, with the [[types]] they contain. Both Russell and Tarski style universes can be polymorphic or not. 
 
 ## Examples and applications
 
-* [[inter-universal Teichmüller theory]] (?)
+* [[Coq]] uses Russell style universes and used to have a sort of "fake" universe polymorphism, but recent versions of Coq have real universe polymorphism (thanks to Mathieu Sozeau). 
+
+* [[Agda]] uses non-cumulative Russell style universes with universe polymorphism.
+
+* The [[HoTT Book]] (first edition) uses Russell style universes with universe polymorphism.
 
 ## Related concepts
 
