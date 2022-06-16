@@ -9,7 +9,7 @@ This entry collects links related to the forthcoming book
 
   Cambridge University Press 
 
-which introduces [[homotopy type theory]] in general and [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. The book is based on a course taught by Egbert Rijke at Carnegie Mellon University in the spring semester of 2018, and is expected to be published in 2021.
+which introduces [[homotopy type theory]] in general and [[Martin-Löf's dependent type theory]], the [[Univalent Foundations for Mathematics]] and [[synthetic homotopy theory]] in particular. The book is based on a course taught by Egbert Rijke at Carnegie Mellon University in the spring semester of 2018.
 
 Resources:
 
