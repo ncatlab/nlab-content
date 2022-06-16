@@ -34,7 +34,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer Science & Business Media, 2008 ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
 
-* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics Vol. 127, American Mathematical Society, 2011 ([doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)])
+* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics Vol. 127, American Mathematical Society (2011) $[$[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)$]$
 
 
 * [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific 2021 ([doi:10.1142/12308](https://doi.org/10.1142/12308))
