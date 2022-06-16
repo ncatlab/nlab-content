@@ -57,6 +57,11 @@ The contrast with non-rational CFTs:
 
 * {#Schomerus05} [[Volker Schomerus]], _Non-compact String Backgrounds and Non-rational CFT_, Phys.Rept.431:39-86, 2006 ([arXiv:hep-th/0509155](https://arxiv.org/abs/hep-th/0509155))
 
+See also:
+
+* Zhihao Duan, Kimyeong Lee, Kaiwen Sun, *Hecke Relations, Cosets and the Classification of 2d RCFTs* $[$[arXiv:2206.07478](https://arxiv.org/abs/2206.07478)$]$
+
+
 
 [[!redirects rational 2d conformal field theories]]
 
