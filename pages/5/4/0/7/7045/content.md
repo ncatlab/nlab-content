@@ -131,6 +131,18 @@ A type theory may have multiple type universes.
 
 Both [[Coq]] and [[Agda]] support [[universe polymorphism]] to deal with the issue of universe enlargement. Moreover, Coq supports [[typical ambiguity]].
 
+### Cumulativity
+
+A tower of universes is **cumulative** if $A:U_i$ implies $A:U_{i+1}$ (rather than, say, $Lift(A):U_{i+1}$).
+
+Cumulative Russell universes have some issues; see for instance [Luo 12](#Luo12).
+
+* [[Coq]] uses Russell style universes. For practical purposes, it also has cumulativity, although there is some question (perhaps mainly semantic) of whether this is true internally or whether it uses casts that are simply hidden from the user.
+
+* [[Agda]] uses non-cumulative Russell style universes.
+
+* The [[HoTT Book]] (first edition) uses cumulative Russell style universes.
+
 ### Categorical semantics
  {#CategoricalSemantics}
 
