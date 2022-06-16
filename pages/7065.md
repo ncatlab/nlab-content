@@ -213,6 +213,14 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 =--
 
+## Examples
+
+* The [[unit type]] is a contractible type. 
+
+* The [[interval type]] is a contractible type. 
+
+* Every [[cone type]] is a contractible type, of which the unit type (cone type of the empty type) and the interval type (cone type of the unit type) are examples of cone types. 
+
 ## Related concepts
 
 [[!include homotopy n-types - table]]
@@ -224,6 +232,8 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 * [[isProp]]
 
 * [[contractible space]], [[contractible chain complex]]
+
+* [[empty type]], [[falsehood]]
 
 ## References
 
