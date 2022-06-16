@@ -13,9 +13,13 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Ideas
 
-Typical ambiguity means you don't have to explicitly say what universe level you're working at; you just say something like "Type" and the system (or the reader) guesses it. 
+In ([[homotopy type theory|homotopy]]) [[type theory]] with [[type universes]], by the *typical universe ambiguity* or just *typical ambiguity*, for short, one refers to the universe level remaining implicit, as long as a [[proof assistant]] is or would be able to deduce it from context.
 
 Both Russell and Tarski style universes can be typically ambiguous or not.
 
