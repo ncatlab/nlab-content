@@ -28,4 +28,5 @@ In [[homotopy type theory]], given a [[type universe]] $\mathcal{U}$, a [[type]]
 
 ## References ##
 
-* Marc Bezem, Ulrik Buchholtz, Pierre Cagne, Bjørn Ian Dundas, and Daniel R. Grayson, Section 2.19 of [Symmetry book](https://unimath.github.io/SymmetryBook/book.pdf) (2021) 
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Section 2.19 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
