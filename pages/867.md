@@ -167,6 +167,10 @@ For more see [[Alexandroff topology]].
 
 Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions of [[prosets]]. ([Rosolini](#Rosolini))
 
+### In univalent universes
+
+In [[homotopy type theory]], every [[type]] with a partial order in a [[univalent universe]] is a poset. ([Tosun](#Tosun), [Ahrens, North, Shulman, Tsementzis](#ANST))
+
 ## Examples
 
 * The [[function algebra]] of [[rational number|rational]]-valued [[functions]] on any [[set]] $X$ is a partial order. 
@@ -208,6 +212,11 @@ Here are some references on [[directed homotopy theory]]:
 
 * [[Tim Porter]], _Enriched categories and models for spaces of dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
 
+Posets in [[univalent universes]] in [[homotopy type theory]] are discussed in
+
+* {#Tosun} Ayberk Tosun, Formal Topology in Univalent Foundations [pdf](https://odr.chalmers.se/handle/20.500.12380/301098)
+
+* {#ANST} Benedikt Ahrens, Paige Randall North, Michael Shulman, Dimitris Tsementzis, The Univalence Principle ([abs:2102.06275](https://arxiv.org/abs/2102.06275))
 
 [[!redirects poset]]
 [[!redirects posets]]
