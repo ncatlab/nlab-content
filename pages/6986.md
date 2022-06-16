@@ -17,7 +17,7 @@
 
 In [[type theory]] the _empty type_ is the [[type]] with no [[term]].
 
-In a [[model]] by [[categorical semantics]], this is an [[initial object]]. In [[set theory]], it is an [[empty set]].
+In a [[model]] by [[categorical semantics]], this is an [[initial object]]. In [[set theory]], it is an [[empty set]]. In [[logic]], especially the [[propositions as types]] interpretation of type theory, it represents [[falsehood]], and constructing a term of an empty type represents a [[contradiction]]; thus functions into the empty type are regarded as the negation of a proposition. 
 
 ## Definition
 
@@ -64,9 +64,9 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 
 * [[nothing]], 
-
+* [[falsehood]]
 * [[sum type]]
-* [[unit type]]
+* [[unit type]], [[contractible type]]
 
 
 
