@@ -403,7 +403,7 @@ An [[computer science]] oriented introduction to HoTT:
 
 An introduction to HoTT through [[Agda]]:
 
-* [[Martin Escardo]], _Introduction to Univalent Foundations of Mathematics with Agda_ ([web](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html))
+* [[Martin Escardo]], _Introduction to Univalent Foundations of Mathematics with Agda_ $[$[arXiv:1911.00580](https://arxiv.org/abs/1911.00580),  [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html)$]$
 
 An introduction to homotopy theory through [[type theory]]:
 
