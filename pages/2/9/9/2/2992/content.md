@@ -337,6 +337,12 @@ One could analytically define the concepts of [[limit of a function]] and [[cont
 
 * [[rational root theorem]]
 
+## References
+
+See also:
+
+* Wikipedia, *[Rational number](https://en.wikipedia.org/wiki/Rational_number)*
+
 [[!redirects rational number]]
 [[!redirects rational numbers]]
 [[!redirects field of rational numbers]]
