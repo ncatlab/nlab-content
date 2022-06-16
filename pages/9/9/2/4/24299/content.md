@@ -12,6 +12,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -33,4 +34,5 @@ The axiom of [[propositional resizing]] states that all [[propositions]] are ess
 
 ## References ##
 
-* Marc Bezem, Ulrik Buchholtz, Pierre Cagne, Bjørn Ian Dundas, and Daniel R. Grayson, Section 2.19 of [Symmetry book](https://unimath.github.io/SymmetryBook/book.pdf) (2021) 
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Section 2.19 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
