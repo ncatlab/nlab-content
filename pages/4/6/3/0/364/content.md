@@ -47,6 +47,10 @@ On the [[Yoneda lemma for (∞,1)-categories]]:
 
 * [[Emily Riehl]], [[Dominic Verity]], _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
 
+On the [[relation between type theory and category theory|categorical semantics]] of [[univalence|univalent]] [[homotopy type theory]] in [[(infinity,1)-topos|$\infty$-topoi]]:
+
+* {#Riehl22} [[Emily Riehl]], *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) $[$[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]$]$
+
 
 category: people
 
