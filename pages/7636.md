@@ -17,6 +17,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -522,6 +523,9 @@ Proof that all [[∞-stack]] [[(∞,1)-topos]] have [[presentable (∞,1)-catego
 
 * {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004)).
 
+Introduction and review in: 
+
+* {#Riehl22} [[Emily Riehl]], *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) $[$[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]$]$
 
 Discussion of weak Tarskian homotopy type universes is in 
 
