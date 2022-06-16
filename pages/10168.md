@@ -13,6 +13,13 @@ Discussion of [[∞-groups]] from the point of view of [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], *Notes on higher groups and projective spaces*, 2016 ([pdf](https://www2.mathematik.tu-darmstadt.de/~buchholtz/higher-groups.pdf))
 
+On [[symmetry]] and introducing the language of [[homotopy type theory]] for [[univalent foundations of mathematics]]:
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+
+  
+
+
 
 
 category: people
