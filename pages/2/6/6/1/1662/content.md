@@ -46,6 +46,31 @@ Naturally all of this generalizes to the context of [[toposes]], where the set $
 
 As emphasized by [Lawvere](#Lawvere73), the quantifiers $\exists_f, \forall_f$ are vastly generalized by the concept of [[enriched category theory|enriched]] [[Kan extensions]] which provide left and right adjoints to pulling-back operators $V^f: V^D \to V^C$ for $V$-enriched functors $f: C \to D$. 
 
+## Iterated preimages
+
+For [[partial function|partial]] [[endofunctions]], one could also consider iterating the construction of the preimage of the partial endofunction. 
+
+For every [[set]] $T$ and [[subset]] $S \subseteq T$, let $f:S \to T$ be a function from the subset $S$ to $T$. Given any subset $R \subseteq T$, the preimage $f^{-1}(R)$ by definition is a subset of $S$ and thus a subset of $T$. One could restrict the domain of $f$ to $f^{-1}(R)$ and the codomain of $f$ to $R$, and find the preimage of $f^{-1}(R)$ under $f$, or the 2-fold iterated preimage of $R$ under $f$:
+
+$$f^{-2}(R) \coloneqq \{x \in S \vert \exists b \in f^{-1}(R).f(x) = b\}$$
+
+One could repeat this definition indefinitely, which could be formalised by the indexed sets $f^{-n}(R)$ representing the __$n$-fold iterated preimage of $R$ under $f$__. 
+
+$$f^{-0}(R) \coloneqq R$$
+
+and for $n \in \mathbb{N}$,
+
+$$f^{-(n+1)}(S) \coloneqq \{x \in S \vert \exists b \in f^{-(n)}(R).f(x) = b\}$$
+
+One example of an iterated preimage is the set of [[iterated differentiable functions]] and the iterated [[continuously differentiable functions]] $C^n(\mathbb{R})$, which are the $n$-th iterated preimage of all functions and [[pointwise continuous functions]] on the [[real numbers]] under the [[derivative]]/[[Newton-Leibniz operator]] respectively. 
+
+## Infinitely iterated preimages
+
+The above definition of an iterated preimage is [[inductive]]; one could also consider the [[coinductive]] version of above. This leads to infinitely iterated preimages: 
+
+For every set $T$ and subset $S \subseteq T$, let $f:S \to T$ be a function from the subset $S$ to $T$. Given any subset $R \subseteq T$, the infinitely iterated preimage is defined as the largest subset $f^{-\infty}(R) \subseteq T$ such that the preimage of $f^{-\infty}(R)$ under $f$ is $f^{-\infty}(R)$ itself.
+
+One example of an infinitely iterated preimage is the set of [[smooth functions]]  $C^\infty(\mathbb{R})$, which is the infinitely iterated preimage of [[pointwise continuous functions]] under the [[derivative]]/[[Newton-Leibniz operator]]. 
 
 ## Related concepts
 
@@ -64,3 +89,9 @@ For a generalisation to [[sheaf|sheaves]], see [[inverse image]].
 [[!redirects preimages]]
 [[!redirects pre-image]]
 [[!redirects pre-images]]
+
+[[!redirects iterated preimage]]
+[[!redirects iterated preimages]]
+
+[[!redirects infinitely iterated preimage]]
+[[!redirects infinitely iterated preimages]]
