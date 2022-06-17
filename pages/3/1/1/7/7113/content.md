@@ -16,6 +16,10 @@
 
 An _archimedean field_ is an [[ordered field]] that satisfies the [[archimedean property]].
 
+## Definition
+
+The [[rational numbers]] are the [[initial]] [[ordered field]], so for every ordered field $F$ there is a field homomorphism $h:\mathbb{Q}\to F$. $F$ is _archimedean_ if for all elements $a\in F$ and $b\in F$, if $a \lt b$, then there exists a rational number $q\in \mathbb{Q}$ such that $a \lt h(q)$ and $h(q) \lt b$. 
+
 ## Properties
 
 Every archimedean field is a [[dense linear order]]. This means that the [[Dedekind completion]] of every archimedean field is the field of [[real numbers]]. 
@@ -75,6 +79,12 @@ Non-archimedean fields include
 * [[archimedean group]]
 
 * [[differentiable space]]
+
+## References
+
+The definition of the Archimedean property for an ordered field is given in section 4.3 of
+
+* Auke B. Booij, *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
 
 [[!redirects archimedean field]]
 [[!redirects archimedean fields]]
