@@ -158,6 +158,8 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
   * [[symmetric 3-group]]
 
+* [[halving group]]
+
 * [[symmetric midpoint group]]
 
 ## References
