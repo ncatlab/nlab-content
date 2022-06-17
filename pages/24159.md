@@ -1,10 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++-- {: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Overview
 
-It is expected that every [[elementary (infinity,1)-topos]] admits a model of homotopy type theory with the [[univalence axiom]] and [[higher inductive types]].  However, so far there is not a standard definition of elementary $(\infty,1)$-topos.  We do *almost* know that every [[Grothendieck (infinity,1)-topos]] admits such a model; the caveat is that we only get univalent [[universes]] that are *weakly a la Tarski* (see [[universe]]).
+It is expected that every [[elementary (infinity,1)-topos]] may serve as a [[categorical semantics|model]] of [[homotopy type theory]] with the [[univalence axiom]] and [[higher inductive types]].  However, so far there is not a standard definition of elementary $(\infty,1)$-topos.  We do *almost* know that every [[Grothendieck (infinity,1)-topos]] admits such a model; the caveat is that we only get univalent [[universes]] that are *weakly a la Tarski* (see [[universe]]).
 
 ## Right proper Cisinski model categories
 
@@ -38,10 +55,23 @@ Thus, if we use the local universe coherence theorem, $U$ represents a "universe
 
 ## Related entries
 
+* [[internal logic of an (infinity,1)-topos|internal logic of an $(\infty,1)$-topos]]
+
 * [[Awodey's proposal]]
+
+* [[relation between type theory and category theory]]
+
 * [[semantics of Set in homotopy type theory]]
 
 ## References
 
 * [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_, 2014 [PDF](http://arxiv.org/pdf/1406.0058)
+
+Full proof of [[Awodey's conjecture]] that $\infty$-stack $\infty$-toposes model univalent homotopy type theory:
+
+* {#Shulman19} [[Michael Shulman]], _All $(\infty,1)$-toposes have strict univalent universes_ ([arXiv:1904.07004](https://arxiv.org/abs/1904.07004))
+
+Review:
+
+* {#Riehl22} [[Emily Riehl]], *On the $\infty$-topos semantics of homotopy type theory*, lecture at *[Logic and higher structures](https://conferences.cirm-math.fr/2689.html)* CIRM (Feb. 2022) $[$[pdf](https://emilyriehl.github.io/files/semantics.pdf), [[Riehl-InfinityToposSemantics.pdf:file]]$]$
 
