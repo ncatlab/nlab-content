@@ -134,6 +134,7 @@ and here again specifically for [[cryptography]]:
 
 
 ### For quantum programming languages
+ {#ReferencesForQuantumProgrammingLanguages}
 
 Verification for [[quantum programming languages]] 
 
@@ -144,6 +145,16 @@ with [[Quipper]]:
 with [[QWIRE]] (in [[Coq]]):
 
 * [[Robert Rand]], [[Jennifer Paykin]], [[Steve Zdancewic]], *QWIRE Practice: Formal Verification of Quantum Circuits in Coq*, EPTCS 266, 2018, pp. 119-132 ([arXiv:1803.00699](https://arxiv.org/abs/1803.00699))
+
+See also:
+
+* Wenjun Shi, Qinxiang Cao, Yuxin Deng, Hanru Jiang, Yuan Feng, *Symbolic Reasoning about Quantum Circuits in Coq*, Journal of Computer Science and Technology (JCST), **36** 6 (2021) 1291-1306 $[$[arXiv:2005.11023](https://arxiv.org/abs/2005.11023), [doi:10.1007/s11390-021-1637-9](https://doi.org/10.1007/s11390-021-1637-9)$]$
+
+* Mingsheng Ying, *Model Checking for Verification of Quantum Circuits*, in: *Formal Methods. FM 2021*, Lecture Notes in Computer Science **13047**, Springer (2021) $[$[arXiv:2104.11359](https://arxiv.org/abs/2104.11359), [doi:10.1007/978-3-030-90870-6_2](https://doi.org/10.1007/978-3-030-90870-6_2)$]$
+
+* Mingsheng Ying, Zhengfeng Ji, *Symbolic Verification of Quantum Circuits*,  $[$[arXiv:2010.03032](https://arxiv.org/abs/2010.03032)$]$
+
+
 
 [[!redirects verified software]]
 [[!redirects software verification]]
