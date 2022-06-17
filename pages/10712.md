@@ -58,7 +58,7 @@ The nilpotence theorem implies that every [[∞-field]] is an [[∞-module]] ove
 
 * {#DevinatzHopkinsSmith88} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], _Nilpotence and Stable Homotopy Theory I_, Annals of Mathematics Second Series, Vol. 128, No. 2 (Sep., 1988), pp. 207-241 ([jstor:1971440](https://www.jstor.org/stable/1971440)) 
 
-* {#DevinatzHopkinsSmith98} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], _Nilpotence and Stable Homotopy Theory II_, Annals of Mathematics Second Series, Vol. 148, No. 1 (Jul., 1998), pp. 1-49 ([jstor:120991](https://www.jstor.org/stable/120991)) 
+* {#HopkinsSmith98} [[Michael Hopkins]], [[Jeffrey Smith]], _Nilpotence and Stable Homotopy Theory II_, Annals of Mathematics Second Series, Vol. 148, No. 1 (Jul., 1998), pp. 1-49 ([jstor:120991](https://www.jstor.org/stable/120991)) 
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 25 _The Nilpotence lemma_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture25.pdf)) 
  
