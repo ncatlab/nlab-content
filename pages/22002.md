@@ -56,7 +56,13 @@ In ([Mörtberg-Pujet](#Mortberg-Pujet)) the authors make the case for the use of
 
 The above text of the Idea section follows [Schreiber 14](https://cs.nyu.edu/pipermail/fom/2014-October/018251.html).
 
+Exposition in terms of [[homotopy type theory]]:
+
+* [[Dan Licata]]: *Homotopy theory in type theory* (2013) $[$[pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf), [[Licata-HomotopyInTypeTheory.pdf:file]], [blog entry 1](https://homotopytypetheory.org/2013/03/08/homotopy-theory-in-homotopy-type-theory-introduction), [blog entry 2](https://homotopytypetheory.org/2013/05/20/homotopy-theory-in-type-theory-progress-report/)$]$
+
 * [[Mike Shulman]], slides 37 onwards in _Homotopical trinitarianism:A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
+
+Further discussion in [[homotopy type theory]]:
 
 * {#Rijke19} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
 
