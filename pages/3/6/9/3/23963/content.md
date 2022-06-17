@@ -18,6 +18,7 @@
 
 ## Definition ##
 
+### For polynomial functions ###
 The **rational zero theorem** or **rational root theorem** states:
 
 Given a [[natural number]] $n$ and a degree $n$ [[polynomial function]] $f \colon \mathbb{Q} \to \mathbb{Q}$ on the [[rational numbers]] with [[integers]] valued [[coefficients]] $a \colon [0,n] \to \mathbb{Z} \hookrightarrow \mathbb{Q}$ and $a_n \neq 0$, defined as
@@ -32,6 +33,11 @@ then the [[fiber]] of $f$ at $0$ is [[inhabited set|inhabited]] if one of the fo
 * $a_0 = 0$,
 
 * $a_0 \neq 0$ and there exists integers $m$ and $p$ such that $gcd(\vert m \vert, \vert p \vert) = 1$, $m \vert a_0$, and $p \vert a_n$. 
+
+### For polynomials ###
+The **rational root theorem for polynomials** states:
+
+Given a natural number $n$ and a degree $n$ univariate [[polynomial]] on the [[rational numbers]] $a:\mathbb{Q}[x]$ where $a_{n} = 1$, there exists a degree $1$ univariate polynomial $b:\mathbb{Q}[x]$ where $b_{1} = 1$ such that $b | a$ if and only if there exists an integer $m$ such that $gcd(\vert m \vert, \vert b_0 \vert) = 1$ and $m \cdot a_0 = b_0$. 
 
 ## See also ##
 
