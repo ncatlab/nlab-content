@@ -91,7 +91,7 @@ This is for instance in ([Tsit-YuenMoRi,Proposition 3.19] (#Tsit-YuenMoRi)). It 
 +-- {: .num_prop }
 ###### Proposition
 
-The [[torsion-free]] and divisible abelian groups are precisely the $\mathbb{Q}$-vector spaces, i.e. if $A$ is torsion-free and divisible, then it carries a unique vector space structure.
+The [[torsion-free]] and divisible abelian groups are precisely the [[rational vector spaces]], i.e. if $A$ is torsion-free and divisible, then it carries a unique vector space structure.
 
 =--
 
@@ -162,4 +162,4 @@ The following groups are **not** divisible:
 
 * {#Tsit-YuenMoRi}  [[Tsit-Yuen Lam]], _Lectures on modules and rings_, Graduate Texts in Mathematics No. 189, Berlin, New York (1999) ([doi:10.1007/978-1-4612-0525-8](https://link.springer.com/book/10.1007/978-1-4612-0525-8))
   
-
+* Phillip A. Griffith (1970), Infinite Abelian group theory. Chicago Lectures in Mathematics. University of Chicago Press. ISBN 0-226-30870-7
