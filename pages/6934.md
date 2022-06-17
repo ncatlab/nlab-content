@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -20,7 +24,9 @@ A [[dependent type|dependently typed]] [[functional programming language]] with 
 Besides [[Coq]], Agda is one of the languages in which [[homotopy type theory]] has been implemented ([Brunerie](#Brunerie)).
 Agda can be compiled to Haskell, Epic or Javascript.
 
-## Cubical Agda
+## Variants
+
+### Cubical Agda
  {#CubicalAgda}
 
 [Cubical Agda](https://agda.readthedocs.io/en/latest/language/cubical.html)  is a version of Agda (turned on by the flag `--cubical`) that implements a type theory similar to CCHM (De Morgan) [[cubical type theory]].
@@ -29,7 +35,19 @@ Its main difference from CCHM is that instead of an exotype of "cofibrant propos
 
 More problematically, to support [[identity types]] a la Swan (which are distinct from both cubical "path types" and Martin-Lof "identity types" -- the latter sometimes called "jdentity types" to emphasize their definition relative to the J-eliminator) the type of cofibrant propositions must support a [[dominance]].  Cubical Agda thus assumes that $I$ supports a dominance, but this is not true in De Morgan cubical sets.  So the semantics of the entirety of Cubical Agda, with Swan identity types, is unclear.  (For this reason, the Cubical Agda library generally avoids using Swan identity types, although Cubical Agda supports them.)
 
-Ordinary Martin-Lof jdentity types should, in principle, also be definable in Cubical Agda as an indexed inductive family, with computational behavior as usual for any inductive types in cubical type theory.  As of March 2021, however, there is a bug in Cubical Agda that prevents jdentity types from computing correctly.
+Ordinary Martin-Lof [[jdentity types]] should, in principle, also be definable in Cubical Agda as an indexed inductive family, with computational behavior as usual for any inductive types in cubical type theory.  As of March 2021, however, there is a bug in Cubical Agda that prevents jdentity types from computing correctly.
+
+### Agda-flat
+  {#AgdaFlat}
+ 
+
+The variant `Agda-flat` implements a [[comonad|co-]][[idempotent monad|monadic]] [[modal operator]] $\flat$ ("flat", following the notation used in [[cohesive homotopy type theory]] as introduced in [[schreiber:dcct|dcct]] and type-theorertically developed in [Shulman 15](cohesive+homotopy+type+theory#Shulman15)). This makes Agda model a [[modal type theory]] and hence a [[modal homotopy type theory]], such as used, for instance, in [[schreiber:thesis Wellen|Wellen 2017]].
+
+See:
+
+* [`Agda-flat` documentation](https://agda.readthedocs.io/en/v2.6.2.2/language/flat.html)
+
+* [installation instructions](http://www.cl.cam.ac.uk/~amp12/agda/internal-universes/code/agda-flat/install.txt)
 
 ## Related concepts
 
