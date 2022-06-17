@@ -187,7 +187,9 @@ Textbook accounts:
 
 * Masahito Hayashi, _Quantum information theory - mathematical foundation_ Graduate Texts in Physics (2017)
 
-* Nielsen, Chuang, _Quantum computation and quantum information_, Cambridge Univeristy Press, [ch1 pdf](https://ncatlab.org/nlab/files/NielsenChuangQuantumComputation.pdf)
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
+
+
 
 * Sumeet Khatri, Mark M. Wilde, _Principles of Quantum Communication Theory: A Modern Approach_ ([arXiv:2011.04672](https://arxiv.org/abs/2011.04672))
 
