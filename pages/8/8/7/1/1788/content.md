@@ -1,4 +1,4 @@
-
+* [[First Last]], *Title*, Journal, **vol** num (year) page-page &#x5b;[arXiv:xxxxxx](url), [doi:10.1007/xxxxxx](url)]
 
 
 enough whitespace here: [[topos]] [[Set]]
