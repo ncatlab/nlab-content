@@ -46,7 +46,7 @@ A torsion-free $R$-[[associative unital algebra|algebra]] is a [[monoid object]]
 ## Properties
 
 \begin{proposition}
-Every [[divisible group|divisible]] torsion-free $\mathbb{Z}$-module is a $\mathbb{Q}$-[[vector space]].
+Every [[divisible group|divisible]] torsion-free $\mathbb{Z}$-module is a [[rational vector space]].
 \end{proposition}
 
 \begin{proposition}
