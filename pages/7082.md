@@ -87,6 +87,15 @@ By formalizing these, we obtain types $homotopyEquiv(f)$, $isAdjointEquiv(f)$, a
 
 This is not true for $homotopyEquiv(f)$, which is not in general an h-prop even with function extensionality.  However, often the most convenient way to show that $f$ is an equivalence is by exhibiting a term in $homotopyEquiv(f)$ (although such a term could just as well be interpreted to lie in $isHIso(f)$ with $h\coloneqq g$).
 
+### As one-to-one correspondences ###
+Let $\mathcal{U}$ be a [[universe]] and $A:\mathcal{U}$ and $B:\mathcal{U}$ be terms of the universe, and $R : (\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(B)) \to \mathcal{U}$ be a [[correspondence]] between $A$ and $B$. We define the property of $R$ being **one-to-one** as follows:
+
+$$isOneToOne(R) \coloneqq \left(\prod_{a:\mathcal{T}_\mathcal{U}(A)} \mathrm{isContr}\left(\sum_{b:\mathcal{T}_\mathcal{U}(B)} R(a,b)\right)\right) \times \left(\prod_{b:\mathcal{T}_\mathcal{U}(B)} \mathrm{isContr}\left(\sum_{a:\mathcal{T}_\mathcal{U}(A)} R(a,b)\right)\right)$$
+
+We define the type of equivalences from $A$ to $B$ in $\mathcal{U}$ as 
+
+$$(A \simeq_\mathcal{U} B)  \equiv \sum_{R : (\mathcal{T}_\mathcal{U}(A) \times \mathcal{T}_\mathcal{U}(B)) \to \mathcal{U}} isOneToOne(R)$$
+
 
 ## Semantics
  {#Semantics}
@@ -245,6 +254,10 @@ and basic ideas are also indicated from [slide 60 of part 2](https://home.sandie
 [[Coq]] code for homotopy equivalences is at
 
 * [HoTT repository](https://github.com/HoTT/HoTT/blob/master/theories/Basics/Equivalences.v)
+
+For equivalences as one-to-one correspondences in homotopy type theory, see
+
+* Mike Shulman, Towards a Third-Generation HOTT Part 1 ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 
 [[!redirects isEquiv]]
