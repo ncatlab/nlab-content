@@ -7,10 +7,9 @@ On [[verified programming|programming]] in [[homotopy type theory]]:
 
 * *Programming in Homotopy Type Theory*, Talk at IFIP Wroking Group 2.8 meeting, November, 2012 ([pdf](https://dlicata.wescreates.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf), [[LicataProgrammingInHoTT.pdf:file]])
 
+Introduction to basics of [[synthetic homotopy theory|synthetic]] [[homotopy theory]] in terms of [[homotopy type theory]]:
 
-On basic [[homotopy theory]] in terms of [[homotopy type theory]]:
-
-* _Homotopy theory in type theory_, 2013 ([pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf))
+* [[Dan Licata]]: _Homotopy theory in type theory_, 2013 ([pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf), [[Licata-HomotopyInTypeTheory.pdf:file]], [blog entry 1](https://homotopytypetheory.org/2013/03/08/homotopy-theory-in-homotopy-type-theory-introduction), [blog entry 2](https://homotopytypetheory.org/2013/05/20/homotopy-theory-in-type-theory-progress-report/))
 
 On [[adjoint logic]]:
 
