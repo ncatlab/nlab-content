@@ -1017,6 +1017,17 @@ Finally, to get a cocommutative dg [[coalgebra]] model for $X$, one uses a sligh
 
 One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. the algebra of [[distribution]]s supported at the identity, completed. The topological analog of distributions are chains (dual to functions = cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements.
 
+## Synthetic approach
+
+With the development of [[homotopy type theory]] in the 2010s, it is now possible to do rational homotopy theory [[synthetic homotopy theory|synthetically]] in homotopy type theory. 
+
+In particular, homotopy type theory allows one to define rational homotopy types directly in terms of [[pointed types]]: 
+
+A pointed type $(T,t)$ is a **rational homotopy type** if it is 1-connected and all of its [[homotopy groups]] are [[torsion-free divisible groups]]. 
+
+$$isRational(T,t) \coloneqq \prod_{n:\mathbb{N}} \mathrm{isTorsionFree}\left(\left[\Omega^n(T,t)\right]_0\right) \times \mathrm{isDivisible}\left(\left[\Omega^n(T,t)\right]_0\right) \times \prod_{f:T \to \mathbb{1}} \prod_{a:\mathbb{1}} \mathrm{isContr}\left(\left[\mathrm{fiber}(f, a)\right]_{1}\right)$$
+
+The **rationalization** of a pointed 1-connected type $(T,t)$ is a rational homotopy type $(V,v)$ with a point-preserving function $\phi:T \to V$ such that $\phi$ induces an [[isomorphism]] on [[rationalization of an abelian group|rationalized]] [[homotopy groups]]. 
 
 ## Properties
 
