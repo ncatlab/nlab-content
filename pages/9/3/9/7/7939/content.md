@@ -23,6 +23,16 @@ In [[geometric quantization]] qbits are naturally understood as the states given
 
 ## References
 
+The term *q-bit* goes back to
+
+* [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 $[$[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)$]$
+
+and was popularized by early adoption such as in
+
+* {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
+
+See also:
+
 * Wikipedia, _[Qbit](http://en.wikipedia.org/wiki/Qubit)_
 
 Laboratoy-realizations of qbits for use in [[quantum computers]]:
