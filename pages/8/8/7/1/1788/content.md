@@ -1,4 +1,3 @@
-* [[First Last]], *Title*, Journal, **vol** num (year) page-page &#x5b;[arXiv:xxxxxx](url), [doi:10.1007/xxxxxx](url)]
 
 
 enough whitespace here: [[topos]] [[Set]]
@@ -20,7 +19,7 @@ but not if we move the links to a new line:
 
 > 2. and last
 
-> 3. always
+> 3. and always
 
 > don't left-align properly
 
@@ -33,8 +32,7 @@ but not if we move the links to a new line:
 
 > * and last
 
-> * always
+> * and always
 
 \linebreak
 
-[[the first few orientals]]
