@@ -55,6 +55,8 @@ There are several interesting [[topological space|topologies]] on $\mathbb{Z}[1/
 
 * [[Urysohn's lemma]]
 
+* [[halving group]]
+
 * [[symmetric midpoint algebra]]
 
 * [[dyadic rational module]]
