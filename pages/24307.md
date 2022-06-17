@@ -1,4 +1,6 @@
 [[!redirects Q-algebras]]
+[[!redirects rational algebra]]
+[[!redirects rational algebras]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -32,7 +34,7 @@ The [[rational numbers]] $\mathbb{Q}$ are the initial $\mathbb{Q}$-algebra. As a
 
 ## See also ##
 
-* [[torsion-free]] [[divisible group]]
+* [[rational vector space]]
 * [[rational numbers]]
 * [[ordered field]]
 * [[associative unital algebra]]
