@@ -20,7 +20,7 @@ Similar to how $\mathbb{Q}$-[[vector spaces]] could be defined without using the
 
 ## Definition ##
 
-By the [[universal property]] of the [[ring]] of [[integers]], every ring $R$ has a [[ring homomorphism]] $h:\mathbb{Z} \to R$ from the integers to $R$, and there is an injection $i:\mathbb{Z}_+ \to \mathbb{Z}$ from the positive integers to the integers. 
+By the [[universal property]] of the [[ring]] of [[integers]], every ring $R$ has a [[ring homomorphism]] $h:\mathbb{Z} \to R$ from the integers to $R$ which lands in the [[center]] of $R$, and there is an injection $i:\mathbb{Z}_+ \to \mathbb{Z}$ from the positive integers to the integers. 
 
 A ring $R$ is a **$\mathbb{Q}$-algebra** if there is a function $j:\mathbb{Z}_+ \to R$ such that for all positive integers $a\in\mathbb{Z}_+$ and elements $b \in R$, $h(i(a)) \cdot j(a) = 1$ and  $j(a) \cdot b = b \cdot j(a)$. 
 
