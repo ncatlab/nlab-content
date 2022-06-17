@@ -489,6 +489,8 @@ One possible way to construct such a well-behaved model category is as follows (
 
 * [[Awodey's conjecture]]
 
+* [[model of type theory in an (infinity,1)-topos]]
+
 ## References
 
 A general overview may be found in
