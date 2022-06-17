@@ -69,7 +69,9 @@ The field of [[surreal number]]s is a [[field extension]] of $\mathbb{R}$ that i
 
 ## Properties
 
-Every ordered field must have [[characteristic]] $0$, since we can prove by [[induction]] that $n \gt 0$ for every positive [[natural number]] $n$.
+Every ordered field must have [[characteristic]] $0$, since we can prove by [[induction]] that $n \gt 0$ for every positive [[natural number]] $n$. 
+
+As a result, the [[rational numbers]] are the [[initial]] ordered field, and every ordered field is a [[Q-algebra|$\mathbb{Q}$-algebra]]. 
 
 The [[archimedean field|archimedean]] ordered fields are precisely the [[subfield]]s of [[real number|the field of real numbers]]. 
 
