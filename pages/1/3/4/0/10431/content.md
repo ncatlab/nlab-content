@@ -162,6 +162,15 @@ External manipulation of topological phases:
 
 * Phil D. C. King, *Controlling topology with strain*, Nat. Mater. **20** (2021) 1046–1047   $[$[doi:10.1038/s41563-021-01043-x](https://doi.org/10.1038/s41563-021-01043-x)$]$
 
+### Interacting TIs
+
+Discussion of topological insulators with non-negligible [[interactions]]:
+
+* AtMa P. O. Chan, Thomas Kvorning, Shinsei Ryu, and Eduardo Fradkin, *Effective hydrodynamic field theory and condensation picture of topological insulators*, Phys. Rev. B **93** 155122 (2016) $[$[doi:10.1103/PhysRevB.93.155122](https://doi.org/10.1103/PhysRevB.93.155122)$]$
+
+* Benjamin Moy, Hart Goldman, Ramanjit Sohal, Eduardo Fradkin, *Theory of oblique topological insulators* $[$[arXiv:2206.07725](https://arxiv.org/abs/2206.07725)$]$
+
+
 
 category: physics
 
