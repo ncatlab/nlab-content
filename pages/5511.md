@@ -170,6 +170,8 @@ If $S^1 = \ast \underset{\ast \coprod \ast}{\coprod} \ast$ denotes the [[homotop
 
 * [[effective epimorphism]]
 
+* [[effective epimorphism in homotopy type theory]]
+
 * [[groupoid objects in an (∞,1)-topos are effective]]
 
 * [[regular epimorphism in an (∞,1)-category]]
