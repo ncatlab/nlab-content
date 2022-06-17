@@ -119,9 +119,13 @@ Now...
 
 ## Related concepts
 
-* [[internal logic]], [[type theory]]
+* [[internal logic]], [[type theory]], [[homotopy type theory]]
 
-* **internal logic in an $(\infty,1)$-topos**, [[homotopy type theory]]
+* [[relation between type theory and category theory]]
+
+* [[Awodey's conjecture]]
+
+* [[model of type theory in an (infinity,1)-topos|model of type theory in an $(\infty,1)$-topos]]
 
 ## References
 
