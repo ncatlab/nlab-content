@@ -47,7 +47,9 @@ Given the independence, one may add $L=V$ as an axiom. However, note that formal
 
 ## Links
 
-The wikipedia entry [constructible universe](http://en.wikipedia.org/wiki/Constructible_universe) is pretty elaborate. 
+* The wikipedia entry [constructible universe](http://en.wikipedia.org/wiki/Constructible_universe) is pretty elaborate.
+
+* Richard Matthews, Michael Rathjen, _Constructing the Constructible Universe Constructively_, [arxiv](https://arxiv.org/abs/2206.08283)
 
 
 [[!redirects constructible universe]]
