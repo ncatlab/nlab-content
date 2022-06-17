@@ -79,6 +79,8 @@ Discussion of [[differential calculus]] in terms of coinduction is in
 
 [[!redirects coinductions]]
 
+[[!redirects coinductive]]
+
 [[!redirects coinductive definition]]
 
 [[!redirects coinductively]]
