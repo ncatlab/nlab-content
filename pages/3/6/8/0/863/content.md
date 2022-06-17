@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _linear order_ (also called _pseudo-order_, according to Wikipedia) is the irreflexive version of a [[total order]].  A __linearly ordered set__, or __loset__, is a [[set]] equipped with a linear order.
+A _linear order_ (also called _strict order_, _strict total order_, or _pseudo-order_) is the irreflexive version of a [[total order]].  A __linearly ordered set__, or __loset__, is a [[set]] equipped with a linear order.
 
 In [[classical mathematics]], the distinction between linear orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by the notation $\lt$ (for the linear order) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
 
@@ -98,6 +98,19 @@ For more see at _[[classifying topos]]_ the section _[For (inhabited) linear ord
 [[!redirects linearly ordered sets]]
 [[!redirects loset]]
 [[!redirects losets]]
+
+[[!redirects strict order]]
+[[!redirects strict orders]]
+[[!redirects strict ordering]]
+[[!redirects strict orderings]]
+[[!redirects strictly ordered]]
+[[!redirects strictly ordered set]]
+[[!redirects strictly ordered sets]]
+
+[[!redirects strict total order]]
+[[!redirects strict total orders]]
+[[!redirects strict total ordering]]
+[[!redirects strict total orderings]]
 
 [[!redirects trichotomy]]
 [[!redirects law of trichotomy]]
