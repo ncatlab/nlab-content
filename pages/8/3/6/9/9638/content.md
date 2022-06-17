@@ -125,6 +125,10 @@ The idea of quantum computation was first expressed in:
 
 * [[Richard Feynman]], *Simulating physics with computers*,  Int J Theor Phys 21, 467–488 (1982) ([doi:10.1007/BF02650179](https://doi.org/10.1007/BF02650179))
 
+The terminology *[[q-bit]]* goes back to:
+
+* [[Benjamin Schumacher]], *Quantum coding*, Phys. Rev. A **51** (1995) 2738 $[$[doi:10.1103/PhysRevA.51.2738](https://doi.org/10.1103/PhysRevA.51.2738)$]$
+
 Quantum computation became a plausible practical possibility with the understanding of [[quantum error correction]] in 
 
 * {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
@@ -143,7 +147,7 @@ Textbook accounts:
    
 Further introduction and survey:
 
-* Michael A. Nielsen, Isaac L. Chuang, _Quantum computation and quantum information_, Cambridge University Press 2000 ([[NielsenChuangQuantumComputation.pdf:file]])
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], *Quantum computation and quantum information*, Cambridge University Press (2000) $[$[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]$]$
 
 * [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], *Principles of Quantum Computation and Information*, World Scientific (2004, 2018)  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
 
@@ -165,7 +169,7 @@ Further introduction and survey:
 
 * Farzan Jazaeri, Arnout Beckers, Armin Tajalli, Jean-Michel Sallese, *A Review on Quantum Computing: Qubits, Cryogenic Electronics and Cryogenic MOSFET Physics*, 2019 MIXDES - 26th International Conference "Mixed Design of Integrated Circuits and Systems", 2019, pp. 15-25, ([arXiv:1908.02656](https://arxiv.org/abs/1908.02656), [doi:10.23919/MIXDES.2019.8787164](https://doi.org/10.23919/MIXDES.2019.8787164))
 
-* *[Quantum Computing Review Q4 2020](https://www.idquantique.com/quantum-computing-review-q4-2020/)*, IDQ January 2021
+ 
 
 * [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
@@ -182,6 +186,24 @@ See also:
 * [The Net Advance of Physics](http://web.mit.edu/redingtn/www/netadv/): *[Quantum Computation](http://web.mit.edu/redingtn/www/netadv/Xqucomputa.html)*
 
 * [Quantiki](https://www.quantiki.org/) -- Quantum Information Portal and Wiki
+
+* idquantique, *Quantum Computing Review*:
+
+  * [q2 2020](https://www.idquantique.com/quantum-computing-review-q2-2020/)
+
+  * [q3 2020](https://www.idquantique.com/quantum-computing-review-q3-2020/)
+
+  * [q4 2020](https://www.idquantique.com/quantum-computing-review-q4-2020/)
+
+  * [q2 2021](https://www.idquantique.com/quantum-computing-review-q2-2021/)
+
+  * [q3 2021](https://www.idquantique.com/quantum-computing-review-q3-2021/)
+
+  * [q4 2021](https://www.idquantique.com/quantum-computing-review-q4-2021/)
+
+  * [q1 2022](https://www.idquantique.com/quantum-computing-review-q1-2022/)
+
+
 
 Discussion in terms of [[monoidal category]]-theory and [[finite quantum mechanics in terms of dagger-compact categories]]:
 
