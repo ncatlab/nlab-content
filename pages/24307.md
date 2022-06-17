@@ -16,7 +16,7 @@
 
 ## Idea ##
 
-Similar to how $\mathbb{Q}$-[[vector spaces]] could be defined without using the [[rational numbers]], as a [[torsion-free]] [[divisible group]], there is a definition of an associative unital $\mathbb{Q}$-algebra without using the rational numbers. 
+Similar to how $\mathbb{Q}$-[[vector spaces]] could be defined without using the [[rational numbers]], as a [[torsion-free]] [[divisible group]], there is a definition of an [[associative]] [[unital]] $\mathbb{Q}$-[[associative algebras|algebra]] without using the rational numbers. 
 
 ## Definition ##
 
