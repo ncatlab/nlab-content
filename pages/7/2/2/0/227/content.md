@@ -240,6 +240,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[differential ring]]
 
+* [[Q-algebra]]
+
 * [[ordered ring]]
 
 * [[pseudolattice ordered ring]]
