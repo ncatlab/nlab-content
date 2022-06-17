@@ -104,6 +104,8 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 [[!redirects monoid homomorphisms]]
 [[!redirects group homomorphism]]
 [[!redirects group homomorphisms]]
+[[!redirects abelian group homomorphism]]
+[[!redirects abelian group homomorphisms]]
 [[!redirects rng homomorphism]]
 [[!redirects rng homomorphisms]]
 [[!redirects ring homomorphism]]
