@@ -29,7 +29,20 @@ a [[morphism]] $f \colon X \to Y$ in an [[(infinity,1)-category]] is an **$n$-mo
 
 * it is an [[n-connected|(n-2)-truncated morphism]];
 
-Similarly a [[function]] $f \colon X \to Y$ in [[homotopy type theory]] is an $n$-monomorphism if its $n$-image factorization is via an [[equivalence in homotopy type theory]].
+### In homotopy type theory
+
+In [[homotopy type theory]], a [[function]] $f \colon X \to Y$ is an $n$-monomorphism if its $n$-image factorization is via an [[equivalence in homotopy type theory]].
+
+More explicitly, given a natural number $n:\mathbb{N}$ and types $A$ and $B$, a function $f:A \to B$ is a __$n$-monomorphism__ if for all terms $b:B$ the [[fiber]] of $f$ over $b$ has an [[homotopy level]] of $n$. 
+
+$$isMonic(n, f) \coloneqq \prod_{b:B} hasHLevel(n, fiber(f, b))$$
+
+A [[equivalence]] is a $0$-monomorphism. $1$-monomorphisms are typically just called __monomorphisms__ or __[[embeddings]]__. 
+
+The type of all $n$-monomorphisms with domain $A$ and codomain $B$ is defined as
+$$Monos(n, A, B): \sum_{f:A \to B} isMonic(n, f)$$
+
+## Dual concept
 
 The dual concept is that of _[[n-epimorphism]]_.
 
