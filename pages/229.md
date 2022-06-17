@@ -160,6 +160,13 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 * [[symmetric midpoint group]]
 
+## References
+
+For abelian groups in the context of [[homotopy type theory]]: 
+
+* Univalent Foundations Project, Section 6.11 of [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* Marc Bezem, Ulrik Buchholtz, Pierre Cagne, Bjørn Ian Dundas, and Daniel R. Grayson, Section 4.12 of [Symmetry book](https://unimath.github.io/SymmetryBook/book.pdf) (2021) 
+
 [[!redirects abelian groups]]
 [[!redirects Abelian group]]
 [[!redirects Abelian groups]]
