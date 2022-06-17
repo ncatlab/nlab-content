@@ -214,15 +214,17 @@ On [[(∞,1)-category theory]] and [[(∞,1)-topos theory]]:
 ### Basic homotopy type theory
   {#ReferencesBasicHomotopyTypeTheory}
 
-On [[homotopy type theory]]:
+On [[synthetic homotopy theory]] in [[homotopy type theory]]:
 
 Exposition:
 
-* {#Shulman17} [[Mike Shulman]], _The logic of space_, chapter in [[Gabriel Catren]], [[Mathieu Anel]] (eds.), _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+* [[Dan Licata]]: *Homotopy theory in type theory* (2013) $[$[pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf), [[Licata-HomotopyInTypeTheory.pdf:file]], [blog entry 1](https://homotopytypetheory.org/2013/03/08/homotopy-theory-in-homotopy-type-theory-introduction), [blog entry 2](https://homotopytypetheory.org/2013/05/20/homotopy-theory-in-type-theory-progress-report/)$]$
+
+* {#Shulman17} [[Mike Shulman]], *The logic of space*, in: [[Gabriel Catren]], [[Mathieu Anel]] (eds.), *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) 322-404  $[$[arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429.009](https://doi.org/10.1017/9781108854429.009)$]$
 
 Textbook accounts:
 
-* [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_, 2013  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**)
+* [[Univalent Foundations Project]]: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013)  ([webpage](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
 
 * {#Rijke19} [[Egbert Rijke]], _[[Introduction to Homotopy Type Theory]]_ (2019)  ([web](http://www.andrew.cmu.edu/user/erijke/hott/), [pdf](http://www.andrew.cmu.edu/user/erijke/hott/hott_intro.pdf), [GitHub](https://github.com/EgbertRijke/HoTT-Intro)) 
