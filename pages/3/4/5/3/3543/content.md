@@ -100,6 +100,9 @@ Below we review classical results that says that the left [[adjoint (infinity,1)
 
 More generally, a setup by [[Bertrand Toen]] serves to provide a more comprehensive description of this situtation: see [[rational homotopy theory in an (infinity,1)-topos]].
 
+### In homotopy type theory
+
+In [[homotopy type theory]] and [[synthetic homotopy theory]], one considers the **rationalization** of a [[pointed type|pointed]] [[n-connected type|1-connected]] [[type]]. 
 
 ## Properties 
   {#Properties}
