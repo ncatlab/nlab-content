@@ -67,7 +67,9 @@ Work conducted in homotopy type theory:
 
 * {#Scoccola19} [[Luis Scoccola]], _Nilpotent Types and Fracture Squares in Homotopy Type Theory_ ([arXiv:1903.03245](https://arxiv.org/abs/1903.03245))
 
-* Auke Booij, _Analysis in Univalent Type Theory_, ([slides](https://www.cs.bham.ac.uk/~abb538/slides/2018-02-darmstadt.pdf)) ([thesis](https://www.cs.bham.ac.uk/~abb538/thesis-first_submission.pdf))
+* [[Auke B. Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
+
+  > (on [[analysis]])
 
 * Kristina Sojakova, _The equivalence of the torus and the product of two circles in homotopy type theory_, ([arXiv:1510.03918](https://arxiv.org/abs/1510.03918))
 
