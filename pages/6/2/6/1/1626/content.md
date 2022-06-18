@@ -121,7 +121,7 @@ If a subset $CO \subset X$ is both closed and open, this means equivalently that
 
 In [[constructive mathematics]] the conditions in Def. \ref{ConnectedSpace} no longer need to be equivalent. See [Taylor 2010, Def. 13.2](#Taylor10), who essentially speaks of "compact connectedness" for the first item in Def. \ref{ConnectedSpace} and of "overt connectedness" for the second. 
 
-Related discussion in terms of [[cohesive homotopy type theory]] in in [Shulman 2018, Thm. 11.1, 11.3](#Shulman18).
+Related discussion in terms of [[cohesive homotopy type theory]] (and for the special case of the [[Dedekind real numbers]]) is in [Shulman 2018, Thm. 11.1, 11.3](#Shulman18).
 
 In this language of [[homotopy type theory]] one might then say:
 
