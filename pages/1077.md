@@ -103,7 +103,7 @@ $$p_1 i_1=id,$$
 $$p_2 i_2=id,$$
 $$i_1 p_1 i_2 p_2 = i_2 p_2 i_1 p_1.$$
 
-See Definition 3.1 in [Karvonen](#Karvonen).
+See Definition 3.1 in [Karvonen 2020](#Karvonen20).
 
 
 ## Semiadditive categories 
@@ -207,7 +207,7 @@ Categories with biproducts include:
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_ (2014)
 
 
-* {#Karvonen} [[Martti Karvonen]], _Biproducts without pointedness_,  Cahiers de topologie et géométrie différentielle catégoriques, 61(3):229–238, 2020. [arXiv](https://arxiv.org/abs/1801.06488).
+* {#Karvonen20} [[Martti Karvonen]], _Biproducts without pointedness_,  Cahiers de topologie et géométrie différentielle catégoriques **61** 3 (2020) 229–238 $[$[arXiv:1801.06488](https://arxiv.org/abs/1801.06488), [journal pdf](http://cahierstgdc.com/wp-content/uploads/2020/07/KARVONEN-LXI-3.pdf)$]$
 
 
 A related discussion is archived at $n$[Forum](http://nforum.mathforge.org/discussion/4966/zero-morphism-and-additive-categories/?Focus=39983#Comment_39983).
