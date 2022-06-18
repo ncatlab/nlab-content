@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -45,7 +46,7 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 ### For cohesive $\infty$-groupoids
 
-Cohesive $\infty$-groupoids could be contractible in two different ways: topologically contractible in the first sense, or homotopically contractible in the second sense. A cohesive $\infty$-groupoid is **homotopically contractible** if its underlying $\infty$-groupoid is contractible. A cohesive $\infty$-groupoid is **topologically contractible** if its [[fundamental infinity-groupoid]] is contractible. These two notions of contractibility are not equivalent to each other: in [[Euclidean-topological infinity-groupoids]] the [[unit interval]] is topologically contractible, but homotopically the unit interval is only [[0-truncated]]. 
+[[cohesive infinity-groupoid|Cohesive $\infty$-groupoids]] could be contractible in two different ways: topologically contractible in the first sense, or homotopically contractible in the second sense. A cohesive $\infty$-groupoid is **homotopically contractible** if its underlying $\infty$-groupoid is contractible. A cohesive $\infty$-groupoid is **topologically contractible** if its [[fundamental infinity-groupoid]] is contractible. These two notions of contractibility are not equivalent to each other: in [[Euclidean-topological infinity-groupoids]] the [[unit interval]] is topologically contractible, but homotopically the unit interval is only [[0-truncated]]. 
 
 ## Related concepts
 
