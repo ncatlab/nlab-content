@@ -1,3 +1,4 @@
+[[!redirects differential homotopy type theory]]
 
 > under construction
 
@@ -17,7 +18,7 @@
 
 ## Idea
 
-_Differential homotopy type theory_ is the [[modal type theory]] obtained by adding to [[cohesive homotopy type theory]] an [[adjoint triple]] of [[idempotent monad|idempotent (co)monadic]] [[modalities]]:
+_Differential cohesive homotopy type theory_ is the [[modal type theory]] obtained by adding to [[cohesive homotopy type theory]] an [[adjoint triple]] of [[idempotent monad|idempotent (co)monadic]] [[modalities]]:
 
 $$
   \Re \dashv \Im \dashv \&
@@ -35,4 +36,6 @@ By the discussion at _[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]_
 ## Related concepts
 
 * [[differential cohesive (infinity,1)-topos]]
+
+* [[differential geometry]]
 
