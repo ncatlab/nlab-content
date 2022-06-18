@@ -49,9 +49,11 @@ Oslo, Norway, 12 - 14 June 2019
 
 * [Geometry in Modal Homotopy Type Theory](http://www.andrew.cmu.edu/user/fwellen/modal-workshop.html), CMU, March 11-15, 2019
 
-* [[Bonn2018]]:  Types, Homotopy Type Theory, and Verification,  
+* [[HoTT in Bonn2018]]:  Types, Homotopy Type Theory, and Verification,  
 Hausdorff Institute for Mathematics
 [Videos of the talks are available here.](https://www.youtube.com/channel/UC2F-j2KMho0zVWIPFKWoXoA/videos/)
 [The Hausdorff Institute page is here.](https://www.him.uni-bonn.de/programs/current-trimester-program/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)
 
-* [[DMV2015]]: Homotopy Type Theory and Univalent Foundations at DMV 2015
+* [[HoTT at DMV2015]]: Homotopy Type Theory and Univalent Foundations at DMV 2015
+
+category: reference
