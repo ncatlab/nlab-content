@@ -4,7 +4,7 @@
 ### Context###
 #### Topology
 +-- {: .hide}
-[[!include topology - contents]]t
+[[!include topology - contents]]
 =--
 =--
 =--
@@ -756,6 +756,8 @@ For a non-finite set of connected components this remains true if the space is [
 * [[simple topological space]]
 
 * [[nilpotent topological space]]
+
+* [[compact connected space]]
 
 ## References
 
