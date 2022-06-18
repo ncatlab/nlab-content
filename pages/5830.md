@@ -285,6 +285,8 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[homotopy type theory FAQ]]
 
+* [[homotopy type theory events]]
+
 * [[open problems in homotopy type theory]]
 
 * [[higher structures]]
