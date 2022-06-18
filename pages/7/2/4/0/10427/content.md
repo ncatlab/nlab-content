@@ -85,7 +85,7 @@ See also the references at _[[modal type theory]]_.
 
 ### Review
 
-* {#LicataWellen18} [[Dan Licata]], [[Felix Wellen]], _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018
+* {#LicataWellen18} [[Dan Licata]], [[Felix Wellen]], _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at *[[HoTT in Bonn2018|Types, Homotopy Theory and Verification]]* (2018)
 
   Tutorial 1, Dan Licata:  _A Fibrational Framework for Modal Simple Type Theories_
 ([recording](https://www.youtube.com/watch?v=uLLbSAYd3yI))
