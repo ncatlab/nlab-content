@@ -26,7 +26,8 @@ One often studies topological ideas first for connected spaces and then generali
 
 ## Definitions
 
-### Elementary definition
+### Classical definition
+ {#ClassicalDefinition}
 
 +-- {: .num_defn #ConnectedSpace}
 ###### Definition
@@ -114,6 +115,20 @@ Now regarding the equivalence to the third statement:
 If a subset $CO \subset X$ is both closed and open, this means equivalently that it is open and that its [[complement]] $X \setminus CO$ is also open, hence equivalently that there are two open subsets $CO, X \setminus CO \subset X$ whose [[union]] is $X$ and whose [[intersection]] is [[empty space|empty]]. This way the third condition is equivalent to the second.
 
 =--
+
+### Constructive definition
+ {#ConstructiveDefinition}
+
+In [[constructive mathematics]] the conditions in Def. \ref{ConnectedSpace} no longer need to be equivalent. See [Taylor 2010, Def. 13.2](#Taylor10), who essentially speaks of "compact connectedness" for the first item in Def. \ref{ConnectedSpace} and of "overt connectedness" for the second. 
+
+Related discussion in terms of [[cohesive homotopy type theory]] in in [Shulman 2018, Thm. 11.1, 11.3](#Shulman18).
+
+In this language of [[homotopy type theory]] one might then say:
+
+A [[0-truncated]] [[cohesive infinity-groupoid]] is "compact connected" (in the sense of [Taylor 2010, Def. 13.2](#Taylor10)), if for [[subspaces]] $A \subseteq S$ and $B \subseteq S$ of $S$ with [[embeddings]] $i_{A,S}:A \hookrightarrow S$ and $i_{B,S}:B \hookrightarrow S$ such that the embedding $i_{A \cup B,S}:A \cup B \hookrightarrow S$ is an [[equivalence in homotopy type theory|equivalence]] $(i_{A \cup B,S}:A \cup B \simeq S)$ and the embedding $i_{\emptyset,A \cap B}:\emptyset \hookrightarrow A \cap B$ is an equivalence $(i_{\emptyset,A \cap B}:\emptyset \simeq A \cap B)$, either $i_{A,S}$ is an equivalence ($i_{A,S}:A \simeq S$) or $i_{B,S}$ is an equivalence ($i_{B,S}:B \simeq S$). 
+
+
+
 
 
 ### Category-theoretic definition
@@ -767,6 +782,18 @@ Examples of countable connected Hausdorff spaces were give in
 
 
 * {#Golomb} Solomon W. Golomb, _A Connected Topology for the Integers_, Amer. Math. Monthly, Vol. 66 No. 8 (Oct. 1959), 663-665.
+
+
+
+Discussion of connectedness in [[constructive mathematics]] is in 
+
+* {#Taylor10} [[Paul Taylor]], Def. 13.2 of: *A lambda calculus for real analysis*, In: Journal of Logic & Analysis **2** 5 (2010) 1–115 $[$[L&A:63/25](http://logicandanalysis.org/index.php/jla/article/view/63/25), [pdf](http://logicandanalysis.org/index.php/jla/article/download/63/25), [webpage](https://www.paultaylor.eu/ASD/lamcra/)$]$
+
+Related discussion in [[cohesive homotopy type theory]]:
+
+* {#Shulman18} [[Mike Shulman]], Thm. 11.1, 11.3 *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science **28** 6 (2018) 856-941 $[$[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)$]$
+
+
 
 
 Material on arc-connected spaces and the Hahn-Mazurkiewicz theorem can be found in Chapter 31 of
