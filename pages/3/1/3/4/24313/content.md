@@ -1,3 +1,4 @@
+[[!redirects HoTT Mini-Course]]
 #Contents#
 * table of contents
 {:toc}
@@ -50,3 +51,5 @@ and by running `make exercise_solutions.pdf` after forking the [HoTT book](https
 ## See also
 
 * [[CMU HoTT Research Group's local activities]]
+
+category: people
