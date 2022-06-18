@@ -129,6 +129,8 @@ for a space $S$.
 
 ## Related concepts
 
+* [[cohesive homotopy type theory]]
+
 * [[differential cohesive (infinity,1)-topos]]
 
 * [[differential geometry]]
