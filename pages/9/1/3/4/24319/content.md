@@ -27,7 +27,7 @@ A proof technique used in [[homotopy type theory]] and [[synthetic homotopy theo
 ## See also ##
 
 * [[identity type]]
-* [[inductive type]], [[higher inductive type]]
+* [[inductive type]], [[higher inductive type]], [[quotient inductive type]]
 * [[homotopy type theory]]
 * [[synthetic homotopy theory]]
 
