@@ -43,7 +43,6 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 * an $\infty$-groupoid is **(-2)-[[truncated]]** (is a [[(-2)-groupoid]]) if it is equivalent to the point.
 
-
 ## Related concepts
 
 * [[locally contractible space]]
@@ -51,6 +50,8 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 * [[contractible chain complex]]
 
 * [[contractible type]]
+
+* [[contractible shape]]
 
 [[!include homotopy n-types - table]]
 
