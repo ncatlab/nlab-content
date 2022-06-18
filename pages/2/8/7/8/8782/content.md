@@ -57,7 +57,7 @@ Introductions and surveys include
 
 * [[Akhil Mathew]], _Intersection theory on surfaces_, 2013 ([web](http://amathew.wordpress.com/2013/01/27/intersection-theory-on-surfaces/))
 
-* [[Günther Trautmann]], _Introduction to intersection theory_, 2007 ([[IntersTh.pdf:file]])
+* [[Günther Trautmann]], *Introduction to intersection theory* (2007) $[$[[IntersTh.pdf:file]]$]$
 
 The perspective in [[derived algebraic geometry]] was clearly articulated in the introduction of 
 
