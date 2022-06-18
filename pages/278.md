@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -57,6 +56,8 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 * [[higher differential geometry]], [[derived differential geometry]]
 
   * [[higher differential geometry applied to plain differential geometry]]
+
+* [[differential cohesive homotopy type theory]]
   
 * [[prequantum geometry]], [[higher prequantum geometry]]
 
