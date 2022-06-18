@@ -43,6 +43,10 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 * an $\infty$-groupoid is **(-2)-[[truncated]]** (is a [[(-2)-groupoid]]) if it is equivalent to the point.
 
+### For cohesive $\infty$-groupoids
+
+Cohesive $\infty$-groupoids could be contractible in two different ways: topologically contractible in the first sense, or homotopically contractible in the second sense. A cohesive $\infty$-groupoid is **homotopically contractible** if its underlying $\infty$-groupoid is contractible. A cohesive $\infty$-groupoid is **topologically contractible** if its [[fundamental infinity-groupoid]] is contractible. These two notions of contractibility are not equivalent to each other: in [[Euclidean-topological infinity-groupoids]] the [[unit interval]] is topologically contractible, but homotopically the unit interval is only [[0-truncated]]. 
+
 ## Related concepts
 
 * [[locally contractible space]]
@@ -50,8 +54,6 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 * [[contractible chain complex]]
 
 * [[contractible type]]
-
-* [[contractible shape]]
 
 [[!include homotopy n-types - table]]
 
