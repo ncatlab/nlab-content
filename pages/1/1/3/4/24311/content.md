@@ -1,22 +1,36 @@
-[[!redirects Bonn18]]
+[[!redirects Bonn2018]]
+
+
+
+This entry records tites and abstracts of the meeting
+
+* **[Types, Homotopy Type Theory, and Verification](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)**
+
+
+  June 4-8, 2018
+
+  at the [Hausdorff Institute for Mathematics](https://www.him.uni-bonn.de/), Bonn
+
+  Organizers: [[Steve Awodey]], [[Thierry Coquand]], [[Maria Emilia Maietti]]
+
+on [[homotopy type theory]].
+
+This was part of the:
+
+* **Trimester Program "[Types, Sets and Constructions](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/description/)"**
+
+  May 2 - August 24, 2018
+
+  at the [Hausdorff Institute for Mathematics](https://www.him.uni-bonn.de/), 
+
+  Organizers: Douglas S. Bridges, Michael Rathjen, Peter Schuster, Helmut Schwichtenberg
+
+
+
 
 #Contents#
 * table of contents
 {:toc}
-
-"Types, Homotopy Type Theory, and Verification" 
-
-Workshop: Types, Homotopy Type theory, and Verification
-Dates: June 4-8, 2018
-Hausdorff Institute for Mathematics, Poppelsdorfer Allee 45, Bonn
-Organizers: Steve Awodey, Thierry Coquand, Maria Emilia Maietti
-
-Part of the Trimester Program "Types, Sets and Constructions" 
-at the Hausdorff Institute for Mathematics, May 2 - August 24, 2018
-
-Organizers: Douglas S. Bridges, Michael Rathjen, Peter Schuster, Helmut Schwichtenberg
-
-[Website](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/description/)
 
 ## Schedule of the Workshop ##
 
@@ -165,7 +179,7 @@ I will also present the related work on the application of modal dependent type 
 
 ### Tutorial Daniel R. Licata and Felix Wellen: Synthetic Mathematics in Modal Dependent Type Theories
 
-Several modal extensions of homotopy type theory have been or are being developed, with applications to synthetic formalizations of aspects of topology, differential geometry, and spectra, as well as internal language presentations of cubical models of HoTT. In this tutorial, we will describe some recent work on these type theories, the frameworks we use to design them, and their applications in real-cohesive and differential-cohesive HoTT.
+Several [[modal homotopy type theory|modal extensions]] of [[homotopy type theory]] have been or are being developed, with applications to [[synthetic mathematics|synthetic]] formalizations of aspects of topology, differential geometry, and spectra, as well as internal language presentations of cubical models of HoTT. In this tutorial, we will describe some recent work on these type theories, the frameworks we use to design them, and their applications in real-cohesive and differential-cohesive HoTT.
 
 The preliminary lecture schedule is: 
 
@@ -177,6 +191,28 @@ A Fibrational Framework for Modal Dependent Type Theories
 Differential Cohesive HoTT
 These talks will describe joint work with and work by Jacob Gross, Max S. New, Ian Orton, Jennifer Paykin, Andrew M. Pitts, Egbert Rijke, Mitchell Riley, Urs Schreiber, Michael Shulman, and Bas Spitters.
 
+* {#LicataWellen18} [[Dan Licata]], [[Felix Wellen]], _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at *[[HoTT in Bonn2018|Types, Homotopy Theory and Verification]]*, 2018
+
+  Tutorial 1, Dan Licata:  _A Fibrational Framework for Modal Simple Type Theories_
+([recording](https://www.youtube.com/watch?v=uLLbSAYd3yI))
+
+  Tutorial 2, Felix Wellen: _The Shape Modality in Real cohesive HoTT and Covering Spaces_ ([recording](https://www.youtube.com/watch?v=ACGjJDarEc4))
+
+  Tutorial 3, Dan Licata: _Discrete and Codiscrete Modalities in Cohesive HoTT_ ([recording](https://www.youtube.com/watch?v=OHN9vEVPBN8))
+
+  Tutorial 4, Felix Wellen, _Discrete and Codiscrete Modalities in Cohesive HoTT, II_ ([recording](https://www.youtube.com/watch?v=KXx9UDQdWPw))
+
+  Tutorial 5, Dan Licata: _A Fibrational Framework for Modal Dependent Type Theories_ ([recording](https://www.youtube.com/watch?v=R4SsxUnIcng))
+
+  Tutorial 6, Felix Wellen: _Differential Cohesive HoTT_, ([recording](https://www.youtube.com/watch?v=uEZXHPdwvJU&t=226s))
+
+* {#Licata18} [[Dan Licata]], _Synthetic Mathematics in Modal Dependent Type Theories_, notes for tutorial at _[Types, Homotopy Theory and Verification](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/workshop-types-homotopy-type-theory-and-verification/)_, 2018 ([pdf](http://dlicata.web.wesleyan.edu/pubs/lsr17multi/him-tutorial.pdf))
+
+
 ## See also
 
 * [[homotopy type theory events]]
+
+category: reference
+
+[[!redirects Bonn18]]
