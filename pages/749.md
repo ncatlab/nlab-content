@@ -133,11 +133,11 @@ This implies the claim with the [above proposition](#PresentationOfhypercomplete
 
 The local model structure on simplicial sheaves was proposed in
 
-* [[Andre Joyal]], Letter to [[Alexander Grothendieck]], 11.4.1984, ([pdf scan](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf)).
+* {#Joyal1984} [[Andre Joyal]], Letter to [[Alexander Grothendieck]], 11.4.1984, ([pdf scan](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf)).
 
-This is with [[BrownAHT]] among the first proposals for models for [[∞-stack]].
+This is,  with [[BrownAHT]], among the first proposals for models for [[∞-stacks]] which eventually came to be used in the theory of [[(∞,1)-toposes]].
 
-A discussion can be found in
+Discussion of the model structure:
 
 * [[Sjoerd Crans]], _Quillen closed model structure for sheaves_,  J. Pure Appl. Algebra  101 (1995), 35-57 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/Crans.pdf))
 
@@ -146,7 +146,7 @@ Jardine's lectures
 * {#Jardine} [[John Frederick Jardine]], _Field Lectures: Simplicial presheaves_ ([pdf](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf))
 
 
-discuss the Quillen equivalence between the model structure on simplicial sheaves and the [[model structure on simplicial presheaves]].
+discuss the [[Quillen equivalence]] between the model structure on simplicial sheaves and the [[model structure on simplicial presheaves]].
 
 
 Wendt discusses "the construction of classifying spaces of fibre sequences in model categories of simplicial sheaves" in 
