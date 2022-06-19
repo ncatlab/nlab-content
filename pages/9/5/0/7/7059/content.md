@@ -282,3 +282,5 @@ For a philosophical treatment
 
 [[!redirects cohesive homotopy type]]
 [[!redirects cohesive homotopy types]]
+
+[[!redirects cohesive HoTT]]
