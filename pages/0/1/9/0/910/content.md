@@ -239,8 +239,14 @@ The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian cl
 (This is slightly different from the usual [[compact-open topology]] if $X$ happens to have non-Hausdorff compact subspaces; in that case the usual definition includes such subspaces as tests, while the above definition excludes them.  Of course, if $X$ itself is Hausdorff, then the two become identical.)
 
 With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$.  It follows, by [[Yoneda lemma]] arguments ([prop.](closed+monoidal+category#TensorHomIsoInternalizes)), that the bijection
-$$k\Top(X \times Y, Z) \to k Top(X,k\Top(Y,Z))$$
-is actually an isomorphism in $\Top_k$, which we may call a *$k$-homeomorphism* (e.g. [Strickland 09, prop. 2.12](#Strickland09)).  In fact, it is actually a homeomorphism, i.e. an isomorphism already in $Top$.
+
+$$
+  k\Top(X \times Y, Z) 
+  \longrightarrow 
+  k Top\big(X,k\Top(Y,Z)\big)
+$$
+
+is actually an [[isomorphism]] in $\Top_k$, which we may call a *$k$-homeomorphism* (e.g. [Strickland 09, prop. 2.12](#Strickland09)).  In fact, it is actually a homeomorphism, i.e. an isomorphism already in $Top$.
 
 It follows that the category $k\Top$ of $k$-spaces and continuous maps is also cartesian closed, since it is equivalent to $\Top_k$.  Its exponential object is the $k$-ification of the one constructed above for $\Top_k$.  Since for $k$-spaces, $k$-continuous implies continuous, the underlying set of this exponential space $k\Top(X,Y)$ is the set of all continuous maps from $X$ to $Y$.  Thus, when $X$ is Hausdorff, we can identify this space with the $k$-ification of the usual [[compact-open topology]] on $Top(X,Y)$.
 
@@ -252,9 +258,9 @@ Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorf
 \linebreak
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
-cartesian closed]] ([Cagliari-Matovani-Vitale 95](#CagliariMatovaniVitale95))
+cartesian closed]] ([Cagliari-Matovani-Vitale 1995, p. 5](#CagliariMatovaniVitale95))
 
-However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the pullback functor $K/B\to K/A$ has a right adjoint. This is what May and Sigurdsson used in their book _Parametrized homotopy theory_.
+{#PartialLocalCartesianClosure} However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the pullback functor $K/B\to K/A$ has a right adjoint. (see [Booth & Brown 1978a, Thm. 3.5](#BoothBrown78a); [May & Sigurdsson 2006, §1.3.7-§1.3.9](#MaySigurdsson06)).
 
 There is still a lot of work on fibred exponential
 laws and their applications. One reason for the success and
@@ -273,9 +279,7 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
  {#RelationToLocallyCompactHausdorffSpaces}
 
 \begin{prop}\label{LocallyCompactHausdorffSpacesAreCompactlyGeneratedWeaklyHausdorff}
-  Every [[locally compact Hausdorff space]] is
-  a k-space and is
-  and [[weakly Hausdorff topological space|weakly Hausdorff]]:
+  Every [[locally compact Hausdorff space]] is a k-space and is [[weakly Hausdorff topological space|weakly Hausdorff]]:
 
   $$
     LCHausSp
@@ -426,7 +430,6 @@ also:
 * [[Francis Borceux]], Section 7.2 of: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
 
-
 Influential emphasis of the usefulness of the notion as providing a [[convenient category of topological spaces]]:
 
 * {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
@@ -435,7 +438,7 @@ Early discussion in the context of [[geometric realization of simplicial topolog
 
 * {#MacLane70} [[Saunders MacLane]], Section 4 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday*, Lecture Notes in Mathematics *168*,  Springer 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
 
-and briefly in 
+and briefly in:
 
 * {#May72} [[Peter May]], Section 1 of: *The geometry of iterated loop spaces*, Springer 1972 ([pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf), [doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491))
 
@@ -449,7 +452,7 @@ The terminology "kaonic spaces", or rather the Russian version "каонные �
 
 * {#Postnikov82} [[M M Postnikov]], p. 34 of: *Лекции по алгебраической топологии. Основы теории гомотопий*, Наука 1982 ([web](http://libgen.is/book/index.php?md5=34A8C3C956EB80877F4E3CF5A297F514))
 
-Discussion of k-spaces in the generality of subcatgeory-generated spaces, including [[Delta-generated topological spaces]]:
+Discussion of k-spaces in the generality of subcategory-generated spaces, including [[Delta-generated topological spaces]]:
 
 * {#Vogt71} [[Rainer M. Vogt]], *Convenient categories of topological spaces for homotopy theory*,  Arch. Math 22, 545–555 (1971) ([doi:10.1007/BF01222616](https://doi.org/10.1007/BF01222616))
 
@@ -521,7 +524,15 @@ Review  with focus on compactly generated [[topological G-spaces]] in [[equivari
 * [[Bernardo Uribe]], [[Wolfgang Lück]], Section 16 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
 
+### Exponential objects in slices
 
+Discussion of conditions for existence of [[exponential law for spaces|exponential objects]] in [[slice categories]] (aspects of [[locally cartesian closed category|local cartesian closure]]):
+
+* {#BoothBrown78a} [[Peter I. Booth]], [[Ronnie Brown]], *Spaces of partial maps, fibred mapping spaces and the compact-open topology*, General Topology and its Applications **8**  2 (1978) 181-195 $[$<a href="https://doi.org/10.1016/0016-660X(78)90049-1">doi:10.1016/0016-660X(78)90049-1</a>$]$
+
+* {#BoothBrown78b} [[Peter I. Booth]], [[Ronnie Brown]], *On the application of fibred mapping spaces to exponential laws for bundles, ex-spaces and other categories of maps*, General Topology and its Applications **8** 2 (1978) 165-179 $[$<a href="https://doi.org/10.1016/0016-660X(78)90048-X">doi:10.1016/0016-660X(78)90048-X</a>$]$
+
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], §1.3.7-§1.3.9 in: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
 
 
