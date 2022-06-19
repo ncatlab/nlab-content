@@ -1,7 +1,7 @@
 
 * [institute page](https://www.mun.ca/math/our-people/faculty/professores-emeriti/peter-booth/)
 
-* [Wikipedia entry](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=67740)
+* [Maths genealogy entry](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=67740)
 
 ## Selected writings
 
