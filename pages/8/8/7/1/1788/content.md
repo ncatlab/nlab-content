@@ -36,3 +36,4 @@ but not if we move the links to a new line:
 
 \linebreak
 
+> What about math $1, 2, 3$ in block quotes?
