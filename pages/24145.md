@@ -40,9 +40,9 @@ Observational equality for the [[unit type]] $\mathrm{Eq}_\mathbb{1}(x, y)$ is a
 
 $$\mathrm{eq}_*: \mathrm{Eq}_\mathbb{1}(*, *)$$
 
-### Booleans
+### Booleans type
 
-Observational equality for the [[booleans]] $\mathrm{Eq}_\mathbb{2}(x, y)$ is an indexed inductive type on the booleans $\mathbb{2}$ inductively defined by the following constructors
+Observational equality for the [[booleans type]] $\mathrm{Eq}_\mathbb{2}(x, y)$ is an indexed inductive type on the booleans type $\mathbb{2}$ inductively defined by the following constructors
 
 $$\mathrm{eq}_0: \mathrm{Eq}_\mathbb{2}(0, 0)$$
 $$\mathrm{eq}_1: \mathrm{Eq}_\mathbb{2}(1, 1)$$
