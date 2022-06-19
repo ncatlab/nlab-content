@@ -88,6 +88,9 @@ There is a [[classifying topos]] for [[inhabited set|inhabited]] linear orders. 
 
 For more see at _[[classifying topos]]_ the section _[For (inhabited) linear orders](http://ncatlab.org/nlab/show/classifying+topos#ForLinearOrders)_.
 
+## See also
+
+* [[total order]]
 
 [[!redirects linear order]]
 [[!redirects linear orders]]
