@@ -474,7 +474,18 @@ See [[model structure on monoids in a monoidal model category]].
 
 ## References 
 
-* {#Hovey98} [[Mark Hovey]], _Monoidal model categories_ ([arXiv:math/9803002](https://arxiv.org/abs/math/9803002))
+The first mention of monoidal model categories (without the unit axiom) under this name is in
+
+* [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, [arXiv:math/9801077v1](https://arxiv.org/abs/math/9801077v1) (January 16, 1998).
+
+* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_, [arXiv:math/9801082v1](https://arxiv.org/abs/math/9801082v1) (January 19, 1998).
+
+* {#Hovey98} [[Mark Hovey]], _Monoidal model categories_ ([arXiv:math/9803002v1](https://arxiv.org/abs/math/9803002v1), February 28, 1998).
+
+Although the earliest mentions of terminology appear to be the sources indicated above, the notion itself is older.
+In particular, in his book Hovey credits the definition of a [[Quillen bifunctor]] to Dwyer–Hirschhorn–Kan–Smith, and this definition is itself based on the axiom SM7 in Quillen's [[Homotopical Algebra]].
+
+The [[unit axiom]] together with the fact that the [[homotopy category]] is monoidal in this case is due to Hovey.
 
 Textbook accounts:
 
