@@ -379,6 +379,9 @@ and with both:
 
 [[!redirects symmetry protected topological phases]]
 
+[[!redirects symmetry protected topological phase of matter]]
+[[!redirects symmetry protected topological phases of matter]]
+
 [[!redirects symmetry protected trivial order]]
 [[!redirects symmetry protected trivial orders]]
 
