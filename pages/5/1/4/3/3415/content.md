@@ -182,9 +182,11 @@ The original construction of the Joyal model structure is in
 
 * [[Andre Joyal]], _Theory of quasi-categories I_ 
 
-Unfortunately, this is still not publicly available, but see the lecture notes
+Unfortunately, this is still not publicly available, but see the lecture notes:
 
-* [[Andre Joyal]], _The theory of quasi-categories and its applications_, ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
+* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
+
+
 
 or the construction of the model structure in Cisinski's book
 
