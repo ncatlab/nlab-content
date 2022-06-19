@@ -18,9 +18,18 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
-An ordinary [[group]] is either an [[abelian group]] or not. For an [[∞-group]] there is an infinite tower of notions ranging from completely non-abelian to completely abelian. An _abelian ∞-group_ is one which is maximally abelian. This is equivalently a [[connective spectrum object]].
+An ordinary [[group]] is either an [[abelian group]] or not. For an [[∞-group]] there is an infinite tower of notions ranging from completely general non-abelian [[∞-groups]], over [[braided infinity-group|braided $\infty$-groups]], [[sylleptic infinity-groups|sylleptic $\infty$-groups]] ..., to ever more abelian groups  By an _abelian ∞-group_ (not an established term) one may want to mean an [[∞-group]] which is maximally abelian, in this sense. 
+
+Technically, the level of abelianness may be encoded (see at *[[May recognition theorem]]*) by the [[En-operads|$E_n$-operads]] as $n$ ranges from 1 to $\infty$: On the non-abelian end, a general [[∞-group]] is equivalently a groupal [[algebra over an operad|algebra]] over $E_1$, also known as the [[associative operad]], hence is a  groupal [[A-∞ algebra]]; while at the abelian end a groupal [[E-infinity space|$E_\infty$-space]] is a *[[connective spectrum]]*. 
+
+Notice that referring to [[connective spectra]] as "abelian $\infty$-groups" (which is not standard) matches the established terminology for *[[non-abelian cohomology]]* (which is standard): The qualifier "non-abelian" in [[non-abelian cohomology]] is in contrast to [[Whitehead-generalized cohomology theories]] which are [[Brown representability theorem|represented]] by [[spectra]].
+
+In a more restrictive sense one may say that plain abelian [[cohomology]] is just *[[ordinary cohomology|ordinary]]* cohomology theory, subsuming only those [[Whitehead-generalized cohomology theories]] which are [[Brown representability theorem|represented]] specifically by [[Eilenberg-MacLane spectra]]. Under the [[Dold-Kan correspondence]] these are [[equivalence of (infinity,1)-categories|equivalently]] [[chain complexes]] of [[abelian groups]]. One may think of these as being yet more commutative than general spectra and might want to reserve the term "abelian $\infty$-group" for them.
+
+
 
 ## Proposition
 
