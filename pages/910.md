@@ -258,7 +258,7 @@ Finally, this all remains true if we also impose the weak Hausdorff, or Hausdorf
 \linebreak
 Unfortunately neither of the above categories is [[locally
 cartesian closed category|locally
-cartesian closed]] ([Cagliari-Matovani-Vitale 1995, p. 5](#CagliariMatovaniVitale95))
+cartesian closed]] ([Cagliari-Matovani-Vitale 1995, p. 4](#CagliariMatovaniVitale95))
 
 {#PartialLocalCartesianClosure} However, if $K$ is the category of not-necessarily-weak-Hausdorff k-spaces, and $A$ and $B$ are k-spaces that are weak Hausdorff, then the pullback functor $K/B\to K/A$ has a right adjoint. (see [Booth & Brown 1978a, Thm. 3.5](#BoothBrown78a); [May & Sigurdsson 2006, §1.3.7-§1.3.9](#MaySigurdsson06)).
 
