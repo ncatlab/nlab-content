@@ -56,6 +56,10 @@ See also:
 
 * [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs **88**, AMS 2004 $[$[ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/)$]$
 
+
+
+
+
 This "hypergeometric" construction uses results on the [[twisted de Rham cohomology]] of [[configuration spaces of points]] due to:
 
 * [[Peter Orlik]], [[Louis Solomon]], *Combinatorics and topology of complements of hyperplanes*, Invent Math **56** (1980) 167–189  $[$[doi:10.1007/BF01392549](https://doi.org/10.1007/BF01392549)$]$
@@ -65,6 +69,11 @@ This "hypergeometric" construction uses results on the [[twisted de Rham cohomol
 * [[Hélène Esnault]], [[Vadim Schechtman]], [[Eckart Viehweg]], *Cohomology of local systems on the complement of hyperplanes*,  Inventiones mathematicae 109.1 (1992)  557-561 $[$[pdf](http://page.mi.fu-berlin.de/esnault/preprints/helene/26-es_sch_vi.pdf)$]$
 
 * [[Vadim Schechtman]], H. Terao, [[Alexander Varchenko]], *Local systems over complements of hyperplanes and the Kac-Kazhdan conditions for singular vectors*, Journal of Pure and Applied Algebra **100** 1–3 (1995) 93-102 $[$[arXiv:hep-th/9411083](https://arxiv.org/abs/hep-th/9411083), <a href="https://doi.org/10.1016/0022-4049(95)00014-N">doi:10.1016/0022-4049(95)00014-N</a>$]$
+
+also:
+
+* [[Daniel C. Cohen]], [[Peter Orlik]], *Arrangements and local systems*, Math. Res. Lett. **7** (2000) 299-316 $[$[arXiv:math/9907117](https://arxiv.org/abs/math/9907117), [doi:10.4310/MRL.2000.v7.n3.a5](https://dx.doi.org/10.4310/MRL.2000.v7.n3.a5)$]$
+
 
 reviewed in:
 
