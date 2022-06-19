@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -33,8 +32,11 @@ A [[theory]] is a set of formulas closed under logical consequence (in some logi
 Examples of decidable theories include:
 
 * [[Presburger arithmetic]]
+
 * the first-order theory of [[Boolean algebra]]s
+
 * the first-order theory of [[real closed field]]s
+
 * the monadic second-order theory of the binary tree
 
 Examples of undecidable theories include:
@@ -43,14 +45,18 @@ Examples of undecidable theories include:
 * the first-order theory of [[groups]]
 
 ## In the context of type theory
+ {#InTheContextOfTypeTheory}
 
 [[type theory|Type theory]] gives rise a number of decision problems, and it is generally desirable that these are solvable.
 
 ### Type checking
 
-[[Type checking]] refers to the problem whether the judgment $\Gamma\vdash a : A$ is derivable in a given type theory. For instance, [[intensional type theory]] has decidable type checking, but [[extensional type theory]], which adds the rule of [[equality reflection]], does not. For an exposition of this result, see the [thesis](#Hofmann) of Hofmann. 
+In [[type theory]], [[type checking|Type checking]] refers to the problem whether the [[judgment]] $\Gamma\vdash a \colon A$ is derivable in a given type theory. 
+
+For instance, [[intensional type theory]] has [[decidability|decidable]] type checking, but [[extensional type theory]], which adds the rule of [[equality reflection]], does not. For an exposition of this result, see [Hofmann 1995](#Hofmann95). 
 
 In more expressive type theories, we can also ask whether [[judgmental equality]] (also called _computational_ or _definitional_ equality) is decidable. Since deciding the judgmental equality is often a prerequisite for deciding type checking, systems with decidable type checking often have decidable judgmental equality.
+
 
 ### Typability
 
@@ -84,7 +90,7 @@ For [[simple type theory]], type inhabitation is  decidable, whereas it is undec
 
 * Wikipedia, _[Decidablility (logic)](http://en.wikipedia.org/wiki/Decidability_%28logic%29)_ 
 
-* Martin Hofmann, _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/)) 
- {#Hofmann} 
+* {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. dissertation, University of Edinburgh (1995). ([link](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/)) 
+ 
 
-[[!redirects type checking]]
+
