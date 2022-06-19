@@ -45,9 +45,10 @@ _Pursuing Stacks_ is an influential manuscript written by [[Alexander Grothendie
 
 
 
-Further ideas in a later manuscript, [[Les Derivateurs]], were made available by [[Georges Maltsiniotis]]. A main theme is the [[homotopy coherent diagram|homotopy theory of diagrams]]. 
+Further ideas in a later manuscript, *[[Les Derivateurs]]*, were made available by [[Georges Maltsiniotis]]. A main theme is the [[homotopy coherent diagram|homotopy theory of diagrams]]. 
 
-Preliminary to the circulated Pursuing Stacks is a 12 page letter to [[Daniel Quillen]], dated 19-02-1983, who did not respond. The work then proceeds as a sort of research diary of about 600 pages, including many back-trackings and corrections.  The ideas presented have proved hugely influential even to this day in [[homotopy theory]], [[higher category theory]] and [[higher geometry]], and indeed many of them have now been thoroughly worked over, 'pursued' and published (see below).  We  note however that this does not mean "Pursuing stacks" did not contain many rigorously worked notions and results itself. On the other hand one of the values of the document is to show how Grothendieck went about developing his ideas, and he was insistent that the document should be published, if at all,  "as is", so that young people could see that even well known people could make errors.  
+Preliminary to the circulated Pursuing Stacks is a 12 page letter to [[Daniel Quillen]], dated 19-02-1983, who did not respond. The work then proceeds as a sort of research diary of about 600 pages, including many back-trackings and corrections.  The ideas presented have proved hugely influential, even to this day, in [[homotopy theory]], [[higher category theory]] and [[higher geometry]]. Indeed, many of them have now been thoroughly worked over, 'pursued' and published (see below).  We  note however that this does not mean "Pursuing stacks" did not contain many rigorously worked notions and results itself. On the other hand one of the values of the document is to show how Grothendieck went about developing his ideas, and he was insistent that the document should be published, if at all,  "as is", so that young people could see that even well known people could make errors.  
+
 
 #Contents#
 * table of contents
@@ -75,7 +76,10 @@ Pursuing Stacks is composed of (if memory serves correctly) three themes. The fi
 
 The other parts (not entirely inseparable) are the first thoughts on [[derivators]], which were later taken up in great detail in Grothendieck's 1990-91 [notes](http://www.math.jussieu.fr/~maltsin/groth/Derivateursengl.html) (see there for extensive literature relating to derivators, the first 15 of 19 chapters of [[Les Dérivateurs]] are themselves available), and the 'schematisation of homotopy types', which is covered by work of [[Bertrand Toën]], [[Gabriele Vezzosi]] and others on [[homotopical algebraic geometry]] (e.g. [HAG I](http://www.dma.unifi.it/~vezzosi/papers/hagI.pdf), [HAG II](http://www.dma.unifi.it/~vezzosi/papers/hagIIfin.pdf)) using [[simplicial sheaves]] on schemes. This has taken off with work of [[Jacob Lurie]], [[Charles Rezk]] and others dealing with [[(infinity,1)-topos theory]]  and [[derived algebraic geometry]], which is going far ahead of what Grothendieck probably envisaged.
 
-During correspondence with Grothendieck in the 80s, [[André Joyal]] constructed what we now call the [[Joyal model structure]] on the category of [[simplicial sets]] to give a basis to some of the ideas being tossed around at the time.
+
+During correspondence with Grothendieck in the 80s, André Joyal constructed what we now call the Joyal model structure on the category of simplicial sets to give a basis to some of the ideas being tossed around at the time.
+
+> {#Check} Check: This may rather be referring to the *[[model structure on simplicial sheaves]]* due to the letter [Joyal 1984](model+structure+on+simplicial+sheaves#Joyal1984)
 
 The theory of [[localizers]] and [[modelizers]], Grothendieck's conception of homotopy theory, is covered in the work of [[Denis-Charles Cisinski]].
 
