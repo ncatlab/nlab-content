@@ -32,7 +32,7 @@ This says that the type is inductively constructed from two [[terms]] in the typ
 
 ## Boolean logic
 
-The two-valued type is also called the type of [[boolean|booleans]]. One could recursively define the logical functions on $\mathbf{2}$ as follows
+The two-valued type is also called the __booleans type__ or the __type of [[boolean|booleans]]__. One could recursively define the logical functions on $\mathbf{2}$ as follows
 
 * For negation $\neg$
   * $\neg 0 := 1$
