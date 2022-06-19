@@ -63,7 +63,7 @@ The idea of regarding [[homotopy type theory]] as synthetic homotopy theory is e
 
 Exposition:
 
-* [[Dan Licata]]: *Homotopy theory in type theory* (2013) $[$[pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf), [[Licata-HomotopyInTypeTheory.pdf:file]], [blog entry 1](https://homotopytypetheory.org/2013/03/08/homotopy-theory-in-homotopy-type-theory-introduction), [blog entry 2](https://homotopytypetheory.org/2013/05/20/homotopy-theory-in-type-theory-progress-report/)$]$
+* {#BrunerieLicataLumsdaine13} [[Guillaume Brunerie]],  [[Dan Licata]], [[Peter LeFanu Lumsdaine]]: _Homotopy theory in type theory_ (2013) $[$[pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf), [[Licata-HomotopyInTypeTheory.pdf:file]], [blog entry 1](https://homotopytypetheory.org/2013/03/08/homotopy-theory-in-homotopy-type-theory-introduction), [blog entry 2](https://homotopytypetheory.org/2013/05/20/homotopy-theory-in-type-theory-progress-report/)$]$
 
 * [[Mike Shulman]], slides 37 onwards in _Homotopical trinitarianism: A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
 
