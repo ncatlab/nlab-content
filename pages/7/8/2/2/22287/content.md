@@ -1,3 +1,6 @@
+[[!redirects booleans type]]
+[[!redirects type of booleans]]
+[[!redirects decidable subset classifier]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -43,8 +46,16 @@ The two-valued type is also called the type of [[boolean|booleans]]. One could r
 * For implication $\implies$
   * $0 \implies a := 1$
   * $1 \implies a := a$
+* For the biconditional $\iff$
+  * $0 \iff a := \neg a$
+  * $1 \iff a := a$
 
 One could prove that $(\mathbf{2}, 0, 1, \neg, \wedge, \vee, \implies)$ form a [[Boolean algebra]]. The [[poset]] structure is given by implication.
+
+One could also inductively define [[observational equality]] on the booleans $\mathrm{Eq}_\mathbb{2}(x, y)$ as an indexed inductive type on the boolean type $\mathbb{2}$ with the following constructors
+
+$$\mathrm{eq}_0: \mathrm{Eq}_\mathbb{2}(0, 0)$$
+$$\mathrm{eq}_1: \mathrm{Eq}_\mathbb{2}(1, 1)$$
 
 A _boolean predicate_ valued in a type $T$ is a function $P: T \rightarrow \mathbf{2}$, and the type $T \to \mathbf{2}$ is a boolean [[function algebra]] for finite types $T$, and if [[path types]] exist, for all types $T$. Thus the [[functor]] $F: U \to BoolAlg$, $F(T) = T \to \mathbf{2}$ for a [[type universe]] $U$ is a [[Boolean hyperdoctrine]], and one could do [[classical logic|classical]] [[first-order logic]] inside $U$ if $\mathbf{2}$ and path types exist in $U$. 
 
@@ -64,11 +75,23 @@ A __bi-pointed type__ is a type $A$ with a function $\mathbf{2}\to A$. Examples 
 
 ## Properties
 
-* A two-valued type is a [[suspension type]] of the [[empty type]], and the suspension of an two-valued type is a [[circle type]]. Geometrically, a two-valued type is a zero-dimensional sphere. 
+* The two-valued type is the [[suspension type]] of the [[empty type]], and the suspension of the two-valued type is the [[circle type]]. Geometrically, the two-valued type is a zero-dimensional sphere. 
+
+* The two-valued type is [[homotopy equivalent]] to the type of [[decidable propositions]] in a universe $\mathcal{U}$. 
+
+$$\mathbb{2} \cong \sum_{P:\mathcal{U}} isProp(P) \times isDecidable(P)$$
+
+As a result, sometimes the two-valued type is called a __decidable subset classifier__. 
 
 ## See also
 
 * [[two-valued object]]
 * [[two-valued logic]]
+
+## References ##
+
+For discussion of booleans types in the context of [[homotopy type theory]]:
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 [[!redirects bi-pointed type]]
