@@ -52,6 +52,8 @@ Review:
 
 See also:
 
+* [[Alexander Varchenko]], *Asymptotic solutions to the Knizhnik-Zamolodchikov equation and crystal base*,  Comm. Math. Phys. **171** 1  (1995) 99-137 $[$[arXiv:hep-th/9403102](https://arxiv.org/abs/hep-th/9403102), [doi:10.1007/BF02103772](https://doi.org/10.1007/BF02103772)$]$ 
+
 * [[Edward Frenkel]], [[David Ben-Zvi]], Section 14.3 in: *Vertex Algebras and Algebraic Curves*, Mathematical Surveys and Monographs **88**, AMS 2004 $[$[ISBN:978-1-4704-1315-6](https://bookstore.ams.org/surv-88-r), [web](https://math.berkeley.edu/~frenkel/BOOK/)$]$
 
 This "hypergeometric" construction uses results on the [[twisted de Rham cohomology]] of [[configuration spaces of points]] due to:
