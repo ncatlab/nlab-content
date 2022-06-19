@@ -365,7 +365,9 @@ Early sketches and introductions to the idea of homotopy type theory include
 
 * [[Dan Licata]], *Programming in Homotopy Type Theory*, Talk at IFIP Wroking Group 2.8 meeting, November, 2012 ([pdf](https://dlicata.wescreates.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf), [[LicataProgrammingInHoTT.pdf:file]])
 
-* [[Dan Licata]]: *Homotopy theory in type theory* (2013) $[$[pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf), [[Licata-HomotopyInTypeTheory.pdf:file]], [blog entry 1](https://homotopytypetheory.org/2013/03/08/homotopy-theory-in-homotopy-type-theory-introduction), [blog entry 2](https://homotopytypetheory.org/2013/05/20/homotopy-theory-in-type-theory-progress-report/)$]$
+On [[synthetic homotopy theory]] in [[homotopy type theory]]:
+
+* [[Guillaume Brunerie]],  [[Dan Licata]], [[Peter LeFanu Lumsdaine]]: _Homotopy theory in type theory_, 2013 ([pdf slides](http://dlicata.web.wesleyan.edu/pubs/bll13homotopy/bll13homotopy.pdf), [[Licata-HomotopyInTypeTheory.pdf:file]], [blog entry 1](https://homotopytypetheory.org/2013/03/08/homotopy-theory-in-homotopy-type-theory-introduction), [blog entry 2](https://homotopytypetheory.org/2013/05/20/homotopy-theory-in-type-theory-progress-report/))
 
   > (focus on [[synthetic homotopy theory]])
 
