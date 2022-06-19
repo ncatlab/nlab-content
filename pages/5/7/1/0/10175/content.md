@@ -63,3 +63,5 @@ If $A$ is a test category, then there exists a [[model structure on presheaves o
 
 * [[Alexander Grothendieck|Grothendieck, A.]] (1983) [[Pursuing stacks]], &#167;28.
 * [[Denis-Charles Cisinski|Cisinski, D.-C.]] (2002, 2006) _Les pr&#233;faisceaux comme mod&#232;les des types d'homotopie_.
+
+[[!redirects modelizers]]
