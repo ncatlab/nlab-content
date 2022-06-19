@@ -35,3 +35,5 @@
 
 [[!redirects orbi-singularity]]
 [[!redirects orbi-singularities]]
+
+[[!redirects singularity theory]]
