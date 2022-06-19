@@ -102,15 +102,29 @@ It appears that $\theta_*$ is again one-to-one and continuous, and it is bijecti
 
 ## Related concepts
 
+* [[exponential object]], [[mapping space]]
+
+* [[compactly generated topological space]]
+
 ## References
 
 * M. Escardo and R. Heckmann, [Topologies of spaces of continuous functions](http://www.cs.bham.ac.uk/~mhe/papers/newyork.pdf), 2001. 
 
 * Eva Lowen-Colebunders and G&#252;nther Richter, _An elementary approach to exponential spaces_, [MR](http://www.ams.org/mathscinet-getitem?mr=1836256).
 
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 1.3 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Section 1.3 of: *Algebraic topology from a homotopical viewpoint*, Springer Science & Business Media, 2008 $[$[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)$]$
 
-* [[Peter Johnstone]], _[[Stone Spaces]]_
+* [[Peter Johnstone]], Sectin 7.4 of: _[[Stone Spaces]]_
+
+Discussion of exponential objects in [[slice categories]] of [[compactly generated topological spaces]] (towards [[locally cartesian closed category|local cartesian closure]]):
+
+* {#BoothBrown78a} [[Peter I. Booth]], [[Ronnie Brown]], *Spaces of partial maps, fibred mapping spaces and the compact-open topology*, General Topology and its Applications **8**  2 (1978) 181-195 $[$<a href="https://doi.org/10.1016/0016-660X(78)90049-1">doi:10.1016/0016-660X(78)90049-1</a>$]$
+
+* {#BoothBrown78b} [[Peter I. Booth]], [[Ronnie Brown]], *On the application of fibred mapping spaces to exponential laws for bundles, ex-spaces and other categories of maps*, General Topology and its Applications **8** 2 (1978) 165-179 $[$<a href="https://doi.org/10.1016/0016-660X(78)90048-X">doi:10.1016/0016-660X(78)90048-X</a>$]$
+
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], §1.3.7-§1.3.9 in: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+
+
 
 [[!redirects exponential law for topological spaces]]
 [[!redirects exponential law for based spaces]]
