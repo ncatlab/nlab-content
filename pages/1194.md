@@ -545,6 +545,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[intensional type theory]], [[extensional type theory]], [[observational type theory]]
 
+  * [[type checking]]
+
   * [[calculus of inductive constructions]]
 
   * [[initiality conjecture]]
