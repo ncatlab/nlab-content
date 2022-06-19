@@ -11,6 +11,12 @@ On the ([[Dolbeault cohomology|holomorphic]]) [[de Rham cohomology]] of [[config
 
 * [[Peter Orlik]], [[Louis Solomon]], *Combinatorics and topology of complements of hyperplanes*, Invent Math **56** (1980) 167–189  $[$[doi:10.1007/BF01392549](https://doi.org/10.1007/BF01392549)$]$
 
+On [[local system]]-[[twisted de Rham cohomology]] over [[configuration spaces of points]] (such as for the [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) of solutions to the [[Knizhnik-Zamolodchikov equation]]):
+
+* [[Daniel C. Cohen]], [[Peter Orlik]], *Arrangements and local systems*, Math. Res. Lett. **7** (2000) 299-316 $[$[arXiv:math/9907117](https://arxiv.org/abs/math/9907117), [doi:10.4310/MRL.2000.v7.n3.a5](https://dx.doi.org/10.4310/MRL.2000.v7.n3.a5)$]$
+
+
+
 On [[Gauss-Manin connections]] over [[configuration spaces of points]]:
 
 * [[Daniel C. Cohen]], [[Peter Orlik]], *Gauss-Manin Connections for Arrangements, I Eigenvalues*, Compositio Math. **136** (2003) 299-316 $[$[arXiiv:math/0105063](https://arxiv.org/abs/math/0105063), [doi:10.1023/A:1023262022279](https://doi.org/10.1023/A:1023262022279)$]$
