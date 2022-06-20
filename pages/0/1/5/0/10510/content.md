@@ -43,9 +43,22 @@ For formalizations see at
 
 ## References
 
+
+[[!include exponential law for parameterized topological spaces -- references]]
+
+
+
+### Parameterized ("fiberwise") homotopy theory
+
+On the [[homotopy theory]] of such parameterized topological spaces:
+
+* [[Ioan Mackenzie James]]: *Fibrewise topology*, Cambridge Tracts in Mathematics, Cambridge University Press (1989) $[$ISBN:9780521360906$]$
+
 * [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
 
-A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]] is in
+* [[Michael C. Crabb]], [[Ioan Mackenzie James]]: *Fiberwise homotopy theory*, Springer Monographs in Mathematics, Springer (1998) $[$[doi:10.1007/978-1-4471-1265-5](https://doi.org/10.1007/978-1-4471-1265-5), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabbjames.pdf) ,[pdf](https://www.gbv.de/dms/ilmenau/toc/243540361.PDF)$]$
+
+On respective [[model category]]-structures:
 
 * {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
@@ -65,3 +78,5 @@ Discussion of convenient [[model category]] [[presentable (infinity,1)-category|
 [[!redirects parametrized homotopy theory]]
 [[!redirects parametrised stable homotopy theory]]
 [[!redirects parametrized stable homotopy theory]]
+
+[[!redirects parameterized topology]]
