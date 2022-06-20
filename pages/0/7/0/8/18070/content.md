@@ -448,6 +448,45 @@ This map is evidently a [[deformation retraction]] hence in particular a [[homot
 
 ## Properties
 
+### Basic properties
+
+\begin{proposition}\label{ForgettingPointsIsAFibration}
+**(forgetting points is a fibration)**
+\linebreak
+  Let $X$ be a [[topological manifold]].
+  For $n, N \,\in\, \mathbb{N}$, the continuous map
+  $$
+    \underset{\{1,\cdots, n+N\}}{Conf}(X)
+    \xrightarrow{\;\;}
+    \underset{\{1,\cdots, N\}}{Conf}(X)
+  $$
+  which forgets the first $n$ points is a locally trivial [[fiber bundle]] with [[typical fiber]] $X \setminus \{x_1, \cdots, x_N\}$. In particular it is a [[Hurewicz fibration]].
+\end{proposition}
+(e.g. [Cohen 09, Thm. 3.3 with proof in §7](#Cohen09))
+
+Using this one may deduce that:
+
+\begin{proposition}\label{CnfSpaceOfPointsInPlaneIsEMSpace}
+**(configuration space of points in plane is EM-space of braid group)**
+\linebreak
+  The [[homotopy type]] of a configuration space of points in the [[plane]] is that of an [[Eilenberg-MacLane space]] of the [[braid group]] $Br(n)$ in degree 1:
+
+$$
+  \underset{\{1,\cdots,n\}}{Conf}\big(\mathbb{R}^2\big)
+  \;\;
+  \underset{whe}{\simeq}
+  \;\;
+  K\big(
+    Br(n)
+    ,
+  1
+  \big)
+$$
+\end{proposition}
+([Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), reviewed in [Williams 2020, pp. 9](#Williams20))
+
+
+
 ### Ordered unlabeled configurations from unordered labeled configurations
  {#OrderedUnlabeledConfigurationsFromUnorderedLabeledConfigurations}
 
@@ -971,6 +1010,11 @@ For more see [there](Goodwillie+derivatives+of+the+identity+functor#Properties)
 \linebreak
 
 
+
+
+
+
+
 ### Homology and stabilization in homology
  {#HomologyAndStabilization}
 
@@ -1450,6 +1494,8 @@ General accounts:
 
 * [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001)  ([MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), [doi:10.1007/978-3-642-56446-8]([doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8)) xvi+313 
 
+* {#Cohen09} [[Frederick R. Cohen]], *Introduction to configuration spaces and their applications*, in *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  $[$[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [doi:https://doi.org/10.1142/7550 ](https://doi.org/10.1142/7550 )$]$
+
 * [[Craig Westerland]], _Configuration spaces in geometry and topology_, 2011 ([pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf))
 
   (in [[geometry]] and [[topology]])
@@ -1458,7 +1504,7 @@ General accounts:
 
   (in [[algebraic topology]])
 
-* Lucas Williams, *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal: Vol. 21 : Iss. 1 , Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8]( https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
+* {#Williams20} Lucas Williams, *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8]( https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
 
 In relation to the [[space of finite subsets]]:
