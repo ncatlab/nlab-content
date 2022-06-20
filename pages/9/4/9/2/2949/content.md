@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -109,14 +110,18 @@ It appears that $\theta_*$ is again one-to-one and continuous, and it is bijecti
 ## References
 
 ### General
+ {#GeneralReferences}
 
-* M. Escardo and R. Heckmann, [Topologies of spaces of continuous functions](http://www.cs.bham.ac.uk/~mhe/papers/newyork.pdf), 2001. 
+* [[C. R. F. Maunder]], §6.2 in: *Algebraic Topology*, Cambridge University Press, Cambridge (1970, 1980) $[$[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maunder.pdf)$]$
 
-* Eva Lowen-Colebunders and G&#252;nther Richter, _An elementary approach to exponential spaces_, [MR](http://www.ams.org/mathscinet-getitem?mr=1836256).
+* [[Peter Johnstone]], §7.4 of: _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics **3**, Cambridge University Press (1982, 1986) $[$[ISBN:9780521337793](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/stone-spaces?format=PB&isbn=9780521337793)$]$
 
-* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Section 1.3 of: *Algebraic topology from a homotopical viewpoint*, Springer Science & Business Media, 2008 $[$[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)$]$
+* Eva Lowen-Colebunders and G&#252;nther Richter, _An elementary approach to exponential spaces_, Applied Categorical Structures **9** (2001) 303–310 $[$[doi:10.1023/A:1011268007097](https://doi.org/10.1023/A:1011268007097), [MR](http://www.ams.org/mathscinet-getitem?mr=1836256)$]$
 
-* [[Peter Johnstone]], Section 7.4 of: _[[Stone Spaces]]_
+* [[Martín Escardó]], [[Reinhold Heckmann]], *Topologies of spaces of continuous functions* (2001) $[$[pdf](http://www.cs.bham.ac.uk/~mhe/papers/newyork.pdf), [[EscardoHeckmann-TopologiesOnFunctionSpaces.pdf:file]]$]$
+
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], §1.3 of: *Algebraic topology from a homotopical viewpoint*, Springer Science & Business Media, 2008 $[$[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)$]$
+
 
 
 
