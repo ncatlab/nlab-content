@@ -6,6 +6,12 @@
 
 ## Selected writings
 
+On [[configuration spaces of points]]:
+
+* {#Cohen09} [[Frederick R. Cohen]], *Introduction to configuration spaces and their applications*, in *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  $[$[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [doi:https://doi.org/10.1142/7550 ](https://doi.org/10.1142/7550 )$]$
+
+
+
 On the [[real cohomology]] of (the [[Fulton-MacPherson compactification]] of) [[configuration spaces of points|configuration spaces of ordered points]] in [[Euclidean space]]:
 
 * {#Cohen73} [[Fred Cohen]], _Cohomology of braid spaces_, Bull. Amer. Math. Soc. Volume 79, Number 4 (1973), 763-766 ([euclid:1183534761](https://projecteuclid.org/euclid.bams/1183534761))
@@ -15,6 +21,7 @@ On the [[real cohomology]] of (the [[Fulton-MacPherson compactification]] of) [[
 On the [[ordinary cohomology]] of [[configuration spaces of points]] (such as in [[surfaces]] and [[knot complements]]):
 
 * [[Carl-Friedrich Bödigheimer]], [[Fred Cohen]], L. Taylor, _On the homology of configuration spaces_, Topology Vol. 28 No. 1, p. 111-123 1989 ([pdf](https://core.ac.uk/download/pdf/82124359.pdf))
+
 
 
 On the [[ordinary homology]] of [[loop spaces]] of [[configuration spaces of points]] and their relation to [[Vassiliev invariants]]:
