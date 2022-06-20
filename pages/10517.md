@@ -15,7 +15,7 @@
 
 ## Idea
 
-A partial function $f:A\rightharpoonup B$ between two sets can be turned into a total function $\overline{f}:A\to B_\bot$ by adding a new element $\bot$ to $B$ and sending all $a\in A$ that are not in the domain of definition of $f$ to this new value $\bot$ = "undefined" and the rest just to their value under $f$. Conversely, every function with codomain $B_\bot$ corresponds to a unique partial function to $B$ whence $B_\bot$ is a 'classifying object' for these.
+A [[partial function]] $f \colon A\rightharpoonup B$ between two [[sets]] can be turned into a [[total function]] $\overline{f} \colon A\to B_\bot$ by adjoining a further [[element]] $\bot$ to $B$ and sending all $a\in A$ that are not in the [[domain]] of definition of $f$ to this new value $\bot$ = "undefined" and the rest just to their value under $f$. Conversely, every function with codomain $B_\bot$ corresponds to a unique partial function to $B$ whence $B_\bot$ is a 'classifying object' for these.
 
 More generally, a **partial function classifier** or **partial map classifier** of an [[object]] $B$ in a [[category]] $\mathcal{C}$ is a [[representing object]] for [[partial maps]] with [[codomain]] $B$.
 
@@ -110,7 +110,8 @@ It is clear that this idea can be generalized to other classes of propositions.
 
 * In a topos, the assignment of $B_\bot$ to $B$ is functorial.
 
-## References {#References}
+## References 
+ {#References}
 
 * [[Francis Borceux|F. Borceux]], _Handbook of Categorical Algebra - vol. 3_ , Cambridge UP 1994.  (sec.5.5)
 
@@ -124,7 +125,12 @@ For partial function classifiers in [[homotopy type theory]]:
 
 * Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type ([abs:1610.09254](https://arxiv.org/abs/1610.09254))
 
-* Martin Escardó, Cory Knapp, Partial Elements and Recursion via Dominances in Univalent Type Theory ([pdf](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
+* [[Martín Escardó]], Cory Knapp, Partial Elements and Recursion via Dominances in Univalent Type Theory ([pdf](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
+
+Discussion for [[topological spaces]]:
+
+* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], Def. 1.3.6 in: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+
 
 [[!redirects partial function classifier]]
 [[!redirects partial function classifiers]]
