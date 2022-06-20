@@ -52,7 +52,7 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 * {#SyntheticTaitComputatibility} [[synthetic Tait computability]]
 
-
+* [[synthetic (infinity,1)-category theory]]
 
 ## Relation to constructivism 
 
