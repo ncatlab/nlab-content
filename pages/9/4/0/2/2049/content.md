@@ -1,9 +1,24 @@
 
-* [[Peter Johnstone]], _Stone Spaces_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press 1982. xxi+370 pp. [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), reprinted 1986.
+This page compiles material related to:
 
-(The same author wrote Topos theory 1977 and the [[Elephant]]).  
+* [[Peter Johnstone]]:
+
+  **Stone Spaces** 
+
+  Cambridge Studies in Advanced Mathematics __3__, 
+
+  Cambridge University Press (1982, 1986) 
+
+  xxi+370 pages
+
+  [ISBN:9780521337793](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/stone-spaces?format=PB&isbn=9780521337793)
+
+  [MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074), .
+
 
 The monograph is ultimately about the [[Stone representation theorem]], but also a standard reference on using [[locales]] in place of [[topological spaces]].
+
+(The same author wrote *[[Topos Theory]]* 1977 and the **[[Sketches of an Elephant]]*, both on [[topos theory]]).  
 
 Although it is a work of [[mathematics]] rather than [[foundations|metamathematics]], it shows clearly by example how (usually) results about locales do not require the [[axiom of choice]] even when analogous results about topological spaces do.  [[Paul Taylor]] has somewhat imprecisely written of this book
 
