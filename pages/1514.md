@@ -3,13 +3,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
 =--
 #### Measure and probability theory
 +-- {: .hide}
@@ -21,6 +21,8 @@
 =--
 =--
 =--
+
+
 
 > under construction
 
@@ -241,6 +243,8 @@ More recently, one sees attempts to formalize this observation of Freed's, notab
 based on material (on categories of "families") in _[[On the Classification of Topological Field Theories]]_ . 
 
 ## Related concepts
+
+* [[Feynman-Kac formula]]
 
 * [[S-matrix]]
 
