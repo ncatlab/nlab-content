@@ -1,22 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A __one-parameter group__ (of [[unitary operators]] in a [[Hilbert space]]) is a [[homomorphism of groups]]
 $$\mathbf{R} \to U(H),$$
-where $H$ is a [[Hilbert spaces]] and $U(H)$ denotes its group of [[unitary operators]].
+where $H$ is a [[Hilbert spaces]], [[U(H)|$U(H)$]] denotes its group of [[unitary operators]] and $\mathbf{R}$ the [[addition|additive]] group of [[real numbers]].
 
-More generally, one can define __one-parameter semigroups__ of operators in a [[Banach space]] $X$ as homomomorphisms of monoids
+More generally, one can define __one-parameter [[semigroups]]__ of operators in a [[Banach space]] $X$ as homomomorphisms of [[monoids]]
 $$\mathbf{R}_{\ge0} \to B(X),$$
-where $B(X)$ denotes the semigroup of bounded operators $X\to X$.
+where $B(X)$ denotes the semigroup of [[bounded operators]] $X\to X$.
 
-Typically, we also require a continuity condition such as continuity in the [[strong topology]].
+Typically, we also require a [[continuous map|continuity]] condition such as continuity in the [[strong topology]].
 
 ## Stone theorem
 
 Strongly continuous one-parameter unitary groups $(U_t)_{t\ge0}$ of operators in a Hilbert space $H$
-are in bijection with self-adjoint [[unbounded operators]] $A$ on $H$
+are in [[bijection]] with [[self-adjoint operator|self-adjoint]] [[unbounded operators]] $A$ on $H$:
 
 The bijection sends
 $$A\mapsto (t\mapsto \exp(itA)).$$
 
-The operator $A$ is bounded if and only if $U$ is norm-continuous.
+The operator $A$ is [[bounded operator|bounded]] if and only if $U$ is norm-continuous.
 
 ## Hille–Yosida theorem
 
