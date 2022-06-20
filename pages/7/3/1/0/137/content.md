@@ -261,7 +261,7 @@ Epimorphisms get along with [[colimits]] in a number of ways, some of which we h
 
 For the first suppose $0 \in C$ is initial and $f : x \to 0$.  Given morphisms $g,h: 0 \to y$ with $g \circ f = h \circ f$ we have $g = h$ simply because $0$ is initial.  
 
-For the second suppose $f_1 : x_1 \to y_1$ and $f_2 : x_2 \to y_2$ are epimorphisms; we wish to show that $f_1 + f_2 : x_1+x_2 \to y_1 + y_2$ is an epimorphism.   Suppose we have morphisms $g, h: y_1+y_2 \to z$ with $g \circ (f_1+f_2) = h \circ (f_1 + f_2)$.   Then $g \circ i_1 \circ f_1 = h \circ i_1 \circ f_1$ where $i_1 : x_1 \to x_1 + x_2$ is the canonical map into the coproduct.  Since $f_1$ is epic we conclude $g \circ i_1 = h \circ i_1$.  Similarly we have $g \circ i_2 = h \circ i_2$.  If follows that $g = h$.  
+For the second suppose $f_1 : x_1 \to y_1$ and $f_2 : x_2 \to y_2$ are epimorphisms; we wish to show that $f_1 + f_2 : x_1+x_2 \to y_1 + y_2$ is an epimorphism.   Suppose we have morphisms $g, h: y_1+y_2 \to z$ with $g \circ (f_1+f_2) = h \circ (f_1 + f_2)$.   Then $g \circ i_1 \circ f_1 = h \circ i_1 \circ f_1$ where $i_1 : y_1 \to y_1 + y_2$ is the canonical map into the coproduct.  Since $f_1$ is epic we conclude $g \circ i_1 = h \circ i_1$.  Similarly we have $g \circ i_2 = h \circ i_2$.  It follows that $g = h$.  
 =--
 
 {#EpimorphismsDoNotGetAlongWithLimits} Epimorphisms do not get along quite as well with [[limits]].  For example, the [[projections]] from a [[Cartesian product]] onto its factors, e.g. $p_1 \colon x_1 \times x_2 \to x_1$, are not always epimorphisms (even in $Set$: take $x_2$ to be empty).
