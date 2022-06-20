@@ -285,7 +285,7 @@ The equivalence between $H R$-module spectra (unparametrized) and $R$-chain comp
 
 Discussion of rational fiberwise [[suspension spectra]] is in
 
-* Michael Charles Crabb, [[Ioan James]], around Prop. 15.8 of _Fibrewise Homotopy Theory_, Springer Monographs in Mathematics, 1998
+* [[Michael C. Crabb]], [[Ioan Mackenzie James]], around Prop. 15.8 of: *Fiberwise homotopy theory*, Springer Monographs in Mathematics, Springer (1998) $[$[doi:10.1007/978-1-4471-1265-5](https://doi.org/10.1007/978-1-4471-1265-5), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabbjames.pdf) ,[pdf](https://www.gbv.de/dms/ilmenau/toc/243540361.PDF)$]$
 
 * [[Yves Félix]], Aniceto Murillo [[Daniel Tanré]], _Fibrewise stable rational homotopy_, Journal of Topology, Volume 3, Issue 4, 2010, Pages 743–758 ([doi:10.1112/jtopol/jtq023]( https://doi.org/10.1112/jtopol/jtq023))
 
