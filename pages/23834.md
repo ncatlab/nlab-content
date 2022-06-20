@@ -8,10 +8,12 @@ The "[[hypergeometric construction of KZ solutions|hypergeometric integral]]" co
 
 * [[Vadim Schechtman]], [[Alexander Varchenko]], *Integral representations of N-point conformal correlators in the WZW model*,  Max-Planck-Institut für Mathematik, (1989) Preprint MPI/89- $[$[cds:1044951](http://cds.cern.ch/record/1044951)$]$
 
-* Etsuro Date, [[Michio Jimbo]], Atsushi Matsuo, [[Tetsuji Miwa]], *Hypergeometric-type integrals and the $\mathfrak{sl}(2,\mathbb{C})$-Knizhnik-Zamolodchikov equation*,  International Journal of Modern Physics B **04** 05 (1990) 1049-1057   $[$[doi:10.1142/S0217979290000528](https://doi.org/10.1142/S0217979290000528)$]$
+* Etsuro Date, [[Michio Jimbo]], [[Atsushi Matsuo]], [[Tetsuji Miwa]], *Hypergeometric-type integrals and the $\mathfrak{sl}(2,\mathbb{C})$-Knizhnik-Zamolodchikov equation*,  International Journal of Modern Physics B **04** 05 (1990) 1049-1057   $[$[doi:10.1142/S0217979290000528](https://doi.org/10.1142/S0217979290000528)$]$
 
   > (for [[sl(2)|$\mathfrak{sl}(2,\mathbb{C})$]])
 
+* [[Atsushi Matsuo]], *An application of Aomoto-Gelfand hypergeometric functions to the $SU(n)$ Knizhnik-Zamolodchikov equation*, Communications in Mathematical Physics **134** (1990) 65–77 $[$[doi:10.1007/BF02102089](https://doi.org/10.1007/BF02102089)$]$
+     
 * [[Vadim Schechtman]], [[Alexander Varchenko]], *Hypergeometric solutions of Knizhnik-Zamolodchikov equations*, Lett. Math. Phys. **20** (1990) 279–283 $[$[doi:10.1007/BF00626523](https://doi.org/10.1007/BF00626523)$]$
 
 * [[Vadim Schechtman]], [[Alexander Varchenko]], *Arrangements of hyperplanes and Lie algebra homology*, Inventiones mathematicae  **106** 1 (1991) 139-194 $[$[dml:143938](https://eudml.org/doc/143938), [[SchechtmanVarchenko_HyperplaneArrangements.pdf:file]]$]$
