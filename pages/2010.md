@@ -15,7 +15,7 @@
 
 ## Idea
 
-What is called _general topology_ or _point-set topology_ is the study of the basic concepts of [[topology]] based on the concept of _[[topological spaces]]_ considered as [[sets]] (of points) equipped with a topology. The term is to contrast with other areas of topology, such as _[[algebraic topology]]_ or [[differential topology]], and specifically to contrast with [[homotopy theory]], where only the (weak) [[homotopy type]] of a topological space matters, not the [[homeomorphism]] type of its underlying topologized point-set.
+What is called _general topology_ or _point-set topology_ is the study of the basic concepts of [[topology]] based on the concept of _[[topological spaces]]_ considered as [[sets]] (of points) equipped with a topology. The term is to contrast with other areas of topology, such as _[[algebraic topology]]_ or [[differential topology]], and specifically to contrast with [[homotopy theory]], where only the (weak) [[homotopy type]] of a topological space matters, not the [[homeomorphism]] type of its underlying topologized point-set, and where other models/presentations for these [[homotopy types]] may be used (other than "topological point-sets"), notably [[simplicial sets]].
 
 The study of generalizations of topological spaces in the guise of [[sets]] with [[extra structure]], such as to  [[nearness spaces]], [[uniform space|uniformities]], [[bitopological spaces]] and so on, may still be regarded as the subject of "point-set topology".
 
