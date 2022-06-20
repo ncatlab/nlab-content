@@ -89,6 +89,8 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 * [[weakly reductive semigroup]]
 
+* [[one-parameter semigroup]]
+
 * [[semiring]]
 
 * [[semi-category]], [[semi-simplicial set]], [[semi-Segal space]]
