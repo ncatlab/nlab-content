@@ -34,7 +34,7 @@ Sometimes one also considers $\mathcal{V} Cat$ as a mere [[category]] by droppin
 
 * $\mathcal{V}$ can be a [[multicategory]] with underlying category $\mathcal{V}_0$
 
-* $\mathcal{V}$ can a [[cosmos]] with underlying category $\mathcal{V}_0$
+* $\mathcal{V}$ can be a [[cosmos]] with underlying category $\mathcal{V}_0$
 
 
 ## Examples
