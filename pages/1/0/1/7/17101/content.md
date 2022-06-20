@@ -8,9 +8,17 @@ On [[algebraic topology]]:
 
 * [[Handbook of Algebraic Topology]]
 
-On [[parametrized homotopy theory]]:
+On [[parameterized topology]] and [[parameterized homotopy theory]]:
 
-* _[[Introduction to fibrewise homotopy theory]]_
+* [[Ioan Mackenzie James]]: *Fibrewise topology*, Cambridge Tracts in Mathematics, Cambridge University Press (1989) $[$ISBN:9780521360906$]$
+
+
+On [[parametrized homotopy theory]] and [[parameterized stable homotopy theory]]:
+
+* [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
+
+* [[Michael C. Crabb]], [[Ioan Mackenzie James]]: *Fiberwise homotopy theory*, Springer Monographs in Mathematics, Springer (1998) $[$[doi:10.1007/978-1-4471-1265-5](https://doi.org/10.1007/978-1-4471-1265-5), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabbjames.pdf) ,[pdf](https://www.gbv.de/dms/ilmenau/toc/243540361.PDF)$]$
+
 
 On the [[Samelson product]] and [[Whitehead product]] for [[homotopy groups of spheres]]:
 
