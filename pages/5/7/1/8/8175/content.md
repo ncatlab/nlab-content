@@ -383,9 +383,9 @@ but the proof given consists essentially in pointing to section XV.7 ("a more ge
 
 This is by filtering over the stages of the base space CW-complex. That one gets an isomorphic spectral sequence by instead filtering over the [[Postnikov tower]] of any [[Omega-spectrum]] [[Brown representability theorem|representing]] the given [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] theory is due to
 
-* {#Maunder63} C. R. F. Maunder, _The spectral sequence of an extraordinary cohomology theory_, Mathematical Proceedings of the Cambridge Philosophical Society, vol 59, no 3 (1963), pp 567- 574 ([publisher](http://journals.cambridge.org/abstract_S0305004100037245))
+* {#Maunder63} [[C. R. F. Maunder]], *The spectral sequence of an extraordinary cohomology theory*, Mathematical Proceedings of the Cambridge Philosophical Society **59** 3 (1963) 567- 574 $[$[doi:10.1017/S0305004100037245](https://doi.org/10.1017/S0305004100037245)$]$
  
-Early lecture notes include
+Early lecture notes:
 
 * {#Adams74} [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
 
