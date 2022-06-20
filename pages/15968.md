@@ -1,14 +1,25 @@
 [[!redirects Topos Theory 1977]]
+
 > Incidentally, the reaction of one Cambridge colleague on learning
 that I'd appeared as a Dover reprint was 'I didn't know you were dead'.  Peter Johnstone[^mail]
 
+This page compiles material related to
 
-A short **review** of
+* [[Peter Johnstone]]:
 
-* [[Peter Johnstone|P. T. Johnstone]], _Topos Theory_ , Academic Press 1977 (Paperback edition: Dover reprint 2014). xxiii + 367 pages.
+  **Topos Theory**, 
 
+  Academic Press (1977)
 
-Peter Johnstone's classic text on [[topos theory]] from 1977 served as the standard reference in the field until the publication of MacLane-Moerdijk's [[Sheaves in Geometry and Logic]] in 1992 and the monumental first two volumes of [[Sketches of an elephant]] in 2002, also by Johnstone. _Topos Theory_ reportedly contains almost all results in topos theory known in the mid 1970s.
+  Dover reprint (2014)
+
+  xxiii + 367 pages
+
+on [[topos theory]].
+
+Peter Johnstone's classic text on [[topos theory]] from 1977 served as the standard reference in the field until the publication of MacLane-Moerdijk's *[[Sheaves in Geometry and Logic]]* in 1992 and the monumental first two volumes of *[[Sketches of an elephant]]* in 2002, also by Johnstone. _Topos Theory_ reportedly contains almost all results in topos theory known in the mid 1970s.
+
+(Johnstone also wrote *[[Stone Spaces]]*.)
 
 Although the author takes no prisoners the text is not really as unreadable as the introduction to the [[Elephant]] boasts but contains in a concise form what still constitutes the core of the subject.
 
