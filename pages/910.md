@@ -524,15 +524,12 @@ Review  with focus on compactly generated [[topological G-spaces]] in [[equivari
 * [[Bernardo Uribe]], [[Wolfgang Lück]], Section 16 of: _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
 
-### Exponential objects in slices
 
-Discussion of conditions for existence of [[exponential law for spaces|exponential objects]] in [[slice categories]] (aspects of [[locally cartesian closed category|local cartesian closure]]):
 
-* {#BoothBrown78a} [[Peter I. Booth]], [[Ronnie Brown]], *Spaces of partial maps, fibred mapping spaces and the compact-open topology*, General Topology and its Applications **8**  2 (1978) 181-195 $[$<a href="https://doi.org/10.1016/0016-660X(78)90049-1">doi:10.1016/0016-660X(78)90049-1</a>$]$
 
-* {#BoothBrown78b} [[Peter I. Booth]], [[Ronnie Brown]], *On the application of fibred mapping spaces to exponential laws for bundles, ex-spaces and other categories of maps*, General Topology and its Applications **8** 2 (1978) 165-179 $[$<a href="https://doi.org/10.1016/0016-660X(78)90048-X">doi:10.1016/0016-660X(78)90048-X</a>$]$
+[[!include exponential law for parameterized topological spaces -- references]]
 
-* {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], §1.3.7-§1.3.9 in: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
+
 
 
 
