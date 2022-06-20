@@ -159,25 +159,46 @@ Moreover, the [[adjunction unit]] and [[adjunction counit]] of this derived adju
 ### Behaviour under Bousfield localization
  {#BehaviourUnderLocalization}
 
-+-- {: .num_prop}
++-- {: .num_prop #DescendToLeftBousfieldLocalization}
 ###### Proposition
 
-If 
+Given a [[Quillen adjunction]]
 
 $$
-  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}} D
+  (L \dashv R) 
+  \;\;\;\colon\;\;\; 
+  \mathcal{C}
+  \underoverset
+     {\underset{\;\;\;\;\;\; R \;\;\;\;\;\;}{\longrightarrow}}
+     {\overset{\;\;\;\;\;\; L \;\;\;\;\;\;}{\longleftarrow}}
+     {\bot_{\mathrlap{{}_{Qu}}}}
+  \mathcal{D}
 $$ 
 
-is a Quillen adjunction, $S \subset Mor(D)$ is a set of morphisms such that the [[Bousfield localization of model categories|left Bousfield localization]] of $D$ at $S$ exists, and such that the [[derived functor|derived]] image $\mathbb{L}L(S)$ of $S$ lands in the weak equivalences of $C$, then the Quillen adjunction descends to the localization $D_S$
+and $S \subset Mor(\mathcal{D})$ is a [[set]] of [[morphisms]] such that 
+
+1. the [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{D}$ at $S$ exists, 
+
+1. the [[derived functor|derived]] image $\mathbb{L}L(S)$ of $S$ lands in the [[weak equivalences]] of $\mathcal{C}$, 
+
+then the Quillen adjunction descends to the [[Bousfield localization of model categories|Bousfield localization]] $\mathcal{D}_S$
 
 $$
-  (L \dashv R) : C \stackrel{\overset{R}{\leftarrow}}{\underset{L}{\to}} D_S
+  (L \dashv R) 
+  \;\;\;\colon\;\;\; 
+  \mathcal{C}
+  \underoverset
+     {\underset{\;\;\;\;\;\; R \;\;\;\;\;\;}{\longrightarrow}}
+     {\overset{\;\;\;\;\;\; L \;\;\;\;\;\;}{\longleftarrow}}
+     {\bot_{\mathrlap{{}_{Qu}}}}
+  \mathcal{D}_S
   \,.
 $$ 
 
 =--
 
 This appears as ([Hirschhorn, prop. 3.3.18](#Hirschhorn))
+
 
 ### Of $sSet$-enriched adjunctions {#sSet}
 
