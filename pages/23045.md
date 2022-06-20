@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[unitary group]] on an infinite-dimensional [[separable Hilbert space|separable]] [[complex vector space|complex]] [[Hilbert space]] $\mathcal{H}$ is traditionally denoted $U(\mathcal{H})$. It does not quite have an established prose name, but is often referred to by some combination of the words "unitary group" and "strong topology".
+The [[unitary group]] of [[unitary operators]] on an [[infinity|infinite]]-[[dimension of a vector space|dimensional]] [[separable Hilbert space|separable]] [[complex vector space|complex]] [[Hilbert space]] $\mathcal{H}$ is traditionally denoted $U(\mathcal{H})$. It does not quite have an established prose name, but is often referred to by some combination of the words "unitary group" and "strong topology".
 
 Its [[quotient]] by the [[circle group|circle]] [[subgroup]] [[U(1)]] is the corresponding [[projective unitary group]] [[PU(ℋ)]].
 
@@ -173,6 +173,8 @@ $$
 * [[stable unitary group]]
 
 * [[PU(ℋ)]]
+
+* [[one-parameter semigroup]]
 
 * [[universal equivariant PU(ℋ)-bundle]]
 
