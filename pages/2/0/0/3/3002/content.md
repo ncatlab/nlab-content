@@ -102,8 +102,13 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 [[!redirects semigroup homomorphisms]]
 [[!redirects monoid homomorphism]]
 [[!redirects monoid homomorphisms]]
+
 [[!redirects group homomorphism]]
 [[!redirects group homomorphisms]]
+
+[[!redirects homomorphism of groups]]
+[[!redirects homomorphisms of groups]]
+
 [[!redirects abelian group homomorphism]]
 [[!redirects abelian group homomorphisms]]
 [[!redirects rng homomorphism]]
