@@ -1373,9 +1373,12 @@ constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Qu
 
 $$
   ({\vert -\vert}\dashv Sing)
-  : 
+  \;\;\colon\;\;
   Top_{Quillen}
-  \stackrel{\overset{{\vert -\vert}}{\leftarrow}}{\underset{Sing}{\to}}
+  \underoversey
+    {\underset{Sing}{\longrightarrow}}
+    {\overset{{\vert -\vert}}{\longleftarrow}}
+    { \bot_{\mathrlap{{}_{Qu}}} }
   sSet_{Quillen}
 $$
 
