@@ -240,7 +240,7 @@ The more general question of whether one can extend a finite continuous valuatio
 
 ## References
 
-* {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
+* {#Heckmann96} [[Reinhold Heckmann]], *Spaces of valuations*, Annals of the New York Academy of Sciences, **806** 1 *Papers on General Topology and Applications*, (1996) $[$[doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x), [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf)$]$
 
 * Mauricio Alvarez-Manilla, Achin Jung, [[Klaus Keimel]], _The probabilistic powerdomain for stably compact spaces_, Theoretical Computer Science 328, 2004 ([doi:10.1016/j.tcs.2004.06.021](https://doi.org/10.1016/j.tcs.2004.06.021))
 
