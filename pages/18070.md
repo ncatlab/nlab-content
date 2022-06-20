@@ -1442,9 +1442,9 @@ For more on this see at _[[correlators as differential forms on configuration sp
 
 Original articles:
 
-* [[Edward Fadell]], [[Lee Neuwirth]], _Configuration spaces_, Math. Scand. __10__ (1962) 111-118, [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126), [pdf](http://www.mscand.dk/article.php?id=1623)
+* {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
 
-See also early occurences in [[phyics]], listed [below](#ReferencesInQuantumFieldTheory).
+See also early occurences in [[physics]], listed [below](#ReferencesInQuantumFieldTheory).
 
 General accounts:
 
