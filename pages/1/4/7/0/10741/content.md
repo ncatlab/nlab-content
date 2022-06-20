@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -368,9 +367,10 @@ See at _[[Whitehead integral formula]]_ and see the references [below](#Referenc
 
 * {#MosherTangora86} [[Robert Mosher]], [[Martin Tangora]], p. 33 of _Cohomology operations and applications in homotopy theory_, Harper & Row 1986 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/moshtang.pdf))
 
-* [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
+* [[Michael Crabb]], [[Andrew Ranicki]], *The Geometric Hopf Invariant and Surgery Theory*,  Springer Monographs in Mathematics, Springer (2017) $[$[doi:10.1007/978-3-319-71306-9](https://doi.org/10.1007/978-3-319-71306-9), [slides pdf](https://www.maths.ed.ac.uk/~v1ranick/slides/hopfbeam.pdf), [[CrabbRanicki-GeometricHopf.pdf:file]]$]$
 
-* Michael Crabb, [[Andrew Ranicki]], _The geometric Hopf invariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
+  > (in relation to [[surgery theory]])
+
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], section 12 of: _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
