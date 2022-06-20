@@ -73,6 +73,8 @@ The [[universal construction]]s of [[category theory]] generalize, with unique e
 
 * [[homotopy 2-category of (∞,1)-categories]]
 
+* [[synthetic (infinity,1)-category theory]]
+
 [[!include table of category theories]]
 
 ## References
