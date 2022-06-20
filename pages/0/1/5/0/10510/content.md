@@ -168,6 +168,31 @@ Contrary to most references, Def. \ref{FiberwiseMappingSpace} is intentionally n
 On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mapping space will again be weak Hausdorff (see [MaSi06, p. 19](#MaySigurdsson06)).
 \end{remark}
 
+The following important property is essentially immediate from Def. \ref{FiberwiseMappingSpace}:
+\begin{proposition}\label{FiberOfFiberwiseMappingSpace}
+**(fiber of fiberwise mapping space is mapping space of fibers)**
+\linebreak
+  For $b \in B$, the [[fiber]] of the fiberwise mapping space fibration (Def. \ref{FiberwiseMappingSpace}) is [[homeomorphism|homemorphic]] to the ordinary [[compact-open topology|mapping space]] betwee the [[fibers]]:
+$$
+  Map
+  \big(
+    (X,p_x)
+    ,\,
+    (A,p_A)
+  \big)_b
+  \;\;
+  \simeq
+  \;\;
+  Map
+  \big(
+    X_b
+    ,\,
+    A_b
+  \big)
+  \,.
+$$
+\end{proposition}
+(e.g. [MaSi06, p. 21](#MaySigurdsson06))
 
 \begin{proposition}
 **(fiberwise mapping space satisfies the exponential law)**
