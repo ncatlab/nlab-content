@@ -17,6 +17,7 @@
 =--
 =--
 
+
 This page collects material related to the text:
 
 * {#Reference} [[Alexander Grothendieck]],
@@ -76,10 +77,7 @@ Pursuing Stacks is composed of (if memory serves correctly) three themes. The fi
 
 The other parts (not entirely inseparable) are the first thoughts on [[derivators]], which were later taken up in great detail in Grothendieck's 1990-91 [notes](http://www.math.jussieu.fr/~maltsin/groth/Derivateursengl.html) (see there for extensive literature relating to derivators, the first 15 of 19 chapters of [[Les Dérivateurs]] are themselves available), and the 'schematisation of homotopy types', which is covered by work of [[Bertrand Toën]], [[Gabriele Vezzosi]] and others on [[homotopical algebraic geometry]] (e.g. [HAG I](http://www.dma.unifi.it/~vezzosi/papers/hagI.pdf), [HAG II](http://www.dma.unifi.it/~vezzosi/papers/hagIIfin.pdf)) using [[simplicial sheaves]] on schemes. This has taken off with work of [[Jacob Lurie]], [[Charles Rezk]] and others dealing with [[(infinity,1)-topos theory]]  and [[derived algebraic geometry]], which is going far ahead of what Grothendieck probably envisaged.
 
-
-During correspondence with Grothendieck in the 80s, André Joyal constructed what we now call the Joyal model structure on the category of simplicial sets to give a basis to some of the ideas being tossed around at the time.
-
-> {#Check} Check: This may rather be referring to the *[[model structure on simplicial sheaves]]* due to the letter [Joyal 1984](model+structure+on+simplicial+sheaves#Joyal1984)
+{#JoyalLetter}  In conversation with Grothendieck on these matters, [André Joyal, 1984](model+structure+on+simplicial+sheaves#Joyal1984) described the *[[model structure on simplicial sheaves]]* which, in hindsight, is an early model (along with that by [[BrownAHT|Brown 1973]]) for [[infinity-stack|$\infty$-stacks]] as now in use in modern [[(infinity,1)-topos theory|higher topos theory]].
 
 The theory of [[localizers]] and [[modelizers]], Grothendieck's conception of homotopy theory, is covered in the work of [[Denis-Charles Cisinski]].
 
@@ -89,13 +87,9 @@ The theory of [[localizers]] and [[modelizers]], Grothendieck's conception of ho
 In his _Obituary to Aurelio Carboni_ ([pdf](http://comocategoryarchive.com/Archive/conferences/aurelio-carboni/tributes/Farewell-to-Aurelio-FW-Lawvere.pdf)) [[William Lawvere]] writes the following:
 
 In 1989 Aurelio proposed to accompany me with his Alfa Romeo to visit Alexander Grothendieck in his stone hut in the middle of a lavender field near Mormoiron in the South of France. I had already visited Grothendieck in 1981 at that stone
-hut, but
-this
-time
-there
-was
-a
-specific
+hut, but this
+time there
+was a specific
 item
 that
 needed
