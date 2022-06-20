@@ -18,9 +18,12 @@ On [[cartesian closed category|cartesian closed]] [[convenient categories of top
 
 * {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
 
+On the [[exponential law for spaces]]:
+
+* [[Martín Escardó]], [[Reinhold Heckmann]], *Topologies of spaces of continuous functions* (2001) $[$[pdf](http://www.cs.bham.ac.uk/~mhe/papers/newyork.pdf), [[EscardoHeckmann-TopologiesOnFunctionSpaces.pdf:file]]$]$
+
 
 On [[Hedberg's theorem]]:
-
 
 * {#KECA} [[Nicolai Kraus]], [[Martin Escardo]], [[Thierry Coquand]] , [[Thorsten Altenkirch]], _Generalizations of Hedberg's theorem_, in M. Hasegawa (ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf))
 
