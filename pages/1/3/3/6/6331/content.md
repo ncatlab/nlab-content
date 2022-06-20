@@ -76,12 +76,12 @@ For $b \in B$ we write $X_b$ for the [[fiber]] of $p_X$ over $b$:
     \\
     \{b\}
     &\underset{\phantom{----}}{\hookrightarrow}&
-    X
+    B
   }
 \]
 
 \begin{example}\label{ForgetfulMapBetweenConfigurationSpaces}
-**(forgetful map between configuration space of points)**
+**(forgetful map between configuration spaces of points)**
 \linebreak
   For $n,N \,\in\, \mathbb{N}$, the map of [[configuration spaces of ordered points]] in the [[plane]] 
 $$
