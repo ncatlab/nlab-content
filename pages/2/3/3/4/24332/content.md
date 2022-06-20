@@ -5,3 +5,5 @@ He get his PhD in 1911 from the University of Göttingen, advised by [[David Hil
 His PhD students include [[Mark Kac]].
 
 [[!redirects Hugo Dyonizy Steinhaus]]
+
+category: people
