@@ -59,7 +59,7 @@ Given such a companion pair, we say that $f$ and $f'$ are **companions** of each
 
 ## References
 
-* [[Marco Grandis]] and [[Robert Pare]], *Adjoints for double categories*
+* [[Marco Grandis]] and [[Robert Pare]], *Adjoints for double categories*, [NUMDAM](http://www.numdam.org/item/CTGDC_2004__45_3_193_0.pdf)
 
 * [[Robert Dawson]] and [[Robert Pare]] and [[Dorette Pronk]], *The Span construction*, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html).
 
