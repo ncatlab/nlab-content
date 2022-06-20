@@ -13,3 +13,6 @@ On the [[Feynman–Kac formula]] on [[smooth manifolds]]:
 [[!redirects James Norris]]
 [[!redirects J. R. Norris]]
 [[!redirects J. Norris]]
+
+
+category: people
