@@ -287,3 +287,6 @@ Discussion for presheaf categories in the context of [[quasicategories]] ([[(inf
 
 [[!redirects Beck-Chevalley transformation]]
 [[!redirects Beck-Chevalley transformations]]
+
+[[!redirects Beck-Chevalley relation]]
+[[!redirects Beck-Chevalley relations]]
