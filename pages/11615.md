@@ -30,15 +30,15 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 ## Examples
 
-* _[[synthetic geometry]]_ axiomatizes the nature of objects in a [[plane]] or [[hyperplane]] without speaking of the [[plane]] or [[hyperplane]] itself as a collection of points and without speaking of these figures as being [[subsets]] of points.
+* **[[synthetic geometry]]** axiomatizes the nature of objects in a [[plane]] or [[hyperplane]] without speaking of the [[plane]] or [[hyperplane]] itself as a collection of points and without speaking of these figures as being [[subsets]] of points.
 
-* _[[synthetic differential geometry]]_ is  refinement of this to contemporary research-level mathematics.
+* **[[synthetic differential geometry]]** is  refinement of this to contemporary research-level mathematics.
 
   Here instead of defining the concept of _[[smooth manifold]]_ analytically by "point-set methodology" as is traditional (a [[set]] of points equipped with a [[topology]] and a [[smooth structure]], etc.) one imposes one single [[axiom]] scheme in the ambient [[topos]] (the "[[Kock-Lawvere axiom]]" in this case) which essentially ensures that for all [[objects]]/[[types]] $X$ there exists also an object/type $T X$ which behaves as the [[tangent bundle]] of $X$ should. These axioms then turn out to have [[models]] in [[smooth spaces]] (which include [[smooth manifolds]]) but also in other, such as [[algebraic geometry]] and [[supergeometry]].
 
   Alternatively one may set up synthetic differential geometry via axioms for [[differential cohesion]].
 
-* _[[synthetic homotopy theory]]_ -- With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
+* **[[synthetic homotopy theory]]** -- With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see [[mathematics presented in homotopy type theory]].
 
 * [[synthetic differential topology]]
 
@@ -52,7 +52,8 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
 * {#SyntheticTaitComputatibility} [[synthetic Tait computability]]
 
-* [[synthetic (infinity,1)-category theory]]
+* [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theory]]
+
 
 ## Relation to constructivism 
 
