@@ -670,4 +670,8 @@ Discussion of convenient [[model category]] [[presentable (infinity,1)-category|
 [[!redirects fiberwise topology]]
 [[!redirects fibrewise topology]]
 
+[[!redirects fiberwise mapping space]]
+[[!redirects fiberwise mapping spaces]]
+
+
 
