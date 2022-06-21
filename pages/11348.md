@@ -55,7 +55,7 @@ The spectral [[Kaluza-Klein compactification]] considered in the [[Connes-Lott-C
 
 The original source is def. 3 in 
 
-* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](https://alainconnes.org/wp-content/uploads/reality.pdf))
 
 ### In Connes-Lott models and superstring vacua
 
