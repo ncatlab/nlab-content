@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -27,7 +28,7 @@ A *Gauss-Manin connection* is a canonical [[flat connection]] on [[fiber bundles
 
 The existence of a flat connection on bundles of fiberwise-chomology groups is easy to understand in the case that the [[fibers]] form a [[locally trivial bundle|locally trivial]] [[fiber bundle]]: In this case the fiberwise cohomology of the local trivialization of this fiber bundle is a local trivialization of the bundle of its fiberwise cohomology groups.
 
-Simple as this may appear, at least in the case of fiberwise [[twisted cohomology]] this case subsumes, for forgetful fibrations of [[configuration spaces of points]] in the plane, the profound example of solutions to the [[Knizhnik-Zamolodchikov equation]], identified as such via the  [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) -- this is highlighted as such in [Etingof, Frenkel & Kirillov 1998, §7.5](Knizhnik-Zamolodchikov+equation#EtingofFrenkelKirillov98).
+Simple as this may appear, at least in the case of fiberwise [[twisted cohomology]] this case subsumes (for forgetful fibrations of [[configuration spaces of points]] in the plane) the profound example of solutions to the [[Knizhnik-Zamolodchikov equation]], identified as such via the  [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) -- this is highlighted as such in [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98), reproduced as Example \ref{ExampleOfHypergeometricKZEquations} below.
 
 In the following we give a more abstract/formal ([[model category|model]] [[category theory|category theoretic]]/[[homotopy theory|homotopy theoretic]]) argument for the existence and construction of the Gauss-Manin connection for [[twisted cohomology]] on a class of [[fiber bundles]] which subsume the case that gives the [[KZ-equation]], namely projections of [[configuration spaces of points]] (Ex. \ref{ForgetfulMapBetweenConfigurationSpaces} below).
 
@@ -168,8 +169,9 @@ Moreover, if $\big\{U_j \xhookrightarrow{\iota_j} B\big\}_{j \in J}$ is an [[ope
   B \times A \xrightarrow{\; pr_B \;} B
   \,.
 \]
-This is clearly a [[Hurewicz fibration]]. Since also $p_X$ is such by assumption (eq:AssumingpXIsFibration), it follows (by [this Prop.](parameterized+homotopy+theory#FiberwiseMappingSpacePreservesHFibrations)) that the [fiberwise mapping space](parameterized+homotopy+theory#FiberwiseMappingSpaces) between the two ([this Def.](parameterized+homotopy+theory#FiberwiseMappingSpace)) is also a [[Hurewicz fibration]], hence its [[fibers]] are [[homotopy fibers]] and as such coincide with the ordinary [[compact-open topology|mapping space]] between the fibers (by [this Prop.](parameterized+homotopy+theory#FiberOfFiberwiseMappingSpace)):
-$$
+This is clearly a [[Hurewicz fibration]]. Since also $p_X$ is such by assumption (eq:AssumingpXIsFibration), it follows (by [this Prop.](parameterized+homotopy+theory#FiberwiseMappingSpacePreservesHFibrations)) that the [fiberwise mapping space](parameterized+homotopy+theory#FiberwiseMappingSpaces) between the two ([this Def.](parameterized+homotopy+theory#FiberwiseMappingSpace)) is also a [[Hurewicz fibration]], hence its [[fibers]] are [[homotopy fibers]] and as such coincide with the ordinary [[compact-open topology|mapping space]] between the fibers (by [this Example](parameterized+homotopy+theory#FiberOfFiberwiseMappingSpace)):
+\[
+  \label{HomotopyFiberOfFiberwiseMappingSpace}
   \array{
     Map
     \big(
@@ -201,7 +203,7 @@ $$
     B
     \mathrlap{\,.}
   }
-$$
+\]
 Hence we may think of this diagram equivalently as representing the [[homotopy fiber product]] of $\{b\} \to B$ with the mapping fibration in the [[classical model structure on topological spaces]]. 
 
 Noticing that 
@@ -300,31 +302,33 @@ $$
     \text{by (eq:PullbackOfFiberwiseMappingSpaces)}
   \end{array}
 $$ 
-
+\end{proof}
 Here we have used that [[pullback]] is a [[closed functor]] with respect to [[fiberwise mapping spaces]] (by [this Prop.](parameterized+homotopy+theory#PullbackOfFiberwiseMappingSpace)):
 \[
   \label{PullbackOfFiberwiseMappingSpaces}
   f^\ast
   Map
   \big(
-    -,\,-
+    (X,p_X)
+    ,\,
+    (Y,p_Y)
   \big)
   \;\simeq\;
-  Map\big( f^\ast(-),\, f^\ast(-) \big)
+  Map\big( f^\ast(X,p_X),\, f^\ast(Y,p_Y) \big)
   \,.
 \]
-\end{proof}
+
 
 ### For twisted non-abelian cohomology
  {#ForTwistedNonabelianCohomology}
 
-We generalize the [above](#ForNonAbelianCohomology) discussion to [[twisted cohomology|twisted]] cohomology.
+We generalize the [above](#ForNonAbelianCohomology) discussion to [[twisted cohomology|twisted]] [[non-abelian cohomology]] (Def. \ref{TwistedNonAbelianCohomology} below).
 
 The argument is essentially the same as in the previous Prop. \ref{FiberwiseNonAbelianCohomologySetsFormLocalSystem}, only that now:
 
-1. the base spaces starts out be the product space $B \times B G$ of the previous base space $B$ with the [[classifying space]] $B G$ for the twists, 
+1. the base spaces starts out being the [[product space]] $B \times B G$ of the previous base space $B$ with the [[classifying space]] $B G$ for the twists, 
 
-1. before passing to homotopy classes of fiberwise maps we form their right [[base change]] $(B \times p_{B G})_\ast$ ([[dependent product]]) of this classifying space. 
+1. before passing to homotopy classes of fiberwise maps we form the right [[base change]] $(B \times p_{B G})_\ast$ ([[dependent product]]) along this classifying space. 
 
 To see that the previous argument generalizes to this case one needs to 
 
@@ -377,7 +381,7 @@ For $A \,\in\, G Act(kTop)$ a [[topological G-space|topological $G$-space]] (a s
 \end{proof}
 
 \begin{definition}\label{TwistedNonAbelianCohomology}
-**(twisted non-abelian cohomology)**
+**(twisted non-abelian cohomology, as in [[schreiber:The Character Map in Twisted Non-Abelian Cohomology|FSS20, §2.2]])**
 \linebreak
 For 
 
@@ -387,7 +391,7 @@ For
 
 * $\tau_b \,\colon \,X_b \xrightarrow{\;\;} B G$ a map to the [[classifying space]] (eq:BGBeingCWCOmplex), 
 
-the *$\tau$-[[twisted cohomology|twisted]] [[non-abelian cohomology]]* of $X_b$ with [[coefficients]] in $A$ is
+the *$\tau_b$-[[twisted cohomology|twisted]] [[non-abelian cohomology]]* of $X_b$ with [[coefficients]] in $A$ is
 $$
   A^\tau(X_b)
   \;\coloneqq\;
@@ -425,11 +429,10 @@ where the [[codomain]] on the right is the [[Borel construction]]  (eq:BorelCons
   the $\tau_b$-twisted $A$-cohomology sets 
   (Def. \ref{TwistedNonAbelianCohomology})
 of $X_b$,
-as $b \in B$, arrange into a covering space over $B$, generalizing the un-twisted statement from Prop. \ref{FiberwiseNonAbelianCohomologySetsFormLocalSystem}.
+for any $b \in B$, arrange into a [[covering space]] over $B$, generalizing the un-twisted statement from Prop. \ref{FiberwiseNonAbelianCohomologySetsFormLocalSystem}.
 \end{proposition}
 \begin{proof}
-start with
-
+In the evident generalization of (eq:HomotopyFiberOfFiberwiseMappingSpace), we have the following [[homotopy pullback]] diagram:
 $$
   \array{
     \phantom{---}
@@ -477,8 +480,7 @@ $$
     \mathrlap{\,.}
   }
 $$
-
-By the [[Beck-Chevalley relation]] 
+Now by the [[Beck-Chevalley relation]] 
 \[
   \label{BeckChevalleyRelationForProjection}
   \big(
@@ -545,8 +547,7 @@ By the [[Beck-Chevalley relation]]
     &
     B
   \end{tikzcd}
-this gives
-
+this gives the following pullback diagram:
 $$
   \array{
     \phantom{---}
@@ -657,7 +658,9 @@ $$
 so that the fibration on the right is the covering space which exhibits the claimed local system.
 \end{proof}
 
-\begin{example}
+\begin{example}\label{ExampleOfHypergeometricKZEquations}
+**(Hypergeometric Knizhnik-Zamologchikov equations)**
+\linebreak
   Let 
 
 1. $p_X \colon X \to B$ be the forgetful map of [[configuration spaces of points]] from Ex. \ref{ForgetfulMapBetweenConfigurationSpaces}
@@ -666,6 +669,7 @@ so that the fibration on the right is the covering space which exhibits the clai
      Conf_{n + N}(\mathbb{R}^2)
      \xrightarrow{\;\;}
      Conf_{N}(\mathbb{R}^2)
+     \,,
    $$
 
 1. $A \,=\, K(\mathbb{C},n)$ the [[Eilenberg-MacLane space]] classifying [[ordinary cohomology|ordinary]] [[complex cohomology]];
@@ -673,7 +677,7 @@ so that the fibration on the right is the covering space which exhibits the clai
 1. $G \,\coloneqq\, \mathbb{Z}/k \,\subset\, U(1)$ be a [[cyclic group]], acting by multiplication by [[roots of unity]] on the [[complex numbers]] $\mathbb{C}$ and hence on $K(\mathbb{C},n)$.
 
 Then Prop. \ref{FiberwiseTwistedNonAbelianCohomologySetsFormLocalSystem} constructs the Gauss-Manin connection
-claimed in [Etingof, Frenkel & Kirillov 1998, §7.5](Knizhnik-Zamolodchikov+equation#EtingofFrenkelKirillov98).
+claimed in [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98).
 \end{example}
 
 
@@ -736,7 +740,6 @@ Gauss-Manin connections over [[configuration spaces of points]]:
 and review in the context of [hypergeometric solutions](BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) to the [[Knizhnik-Zamolodchikov equation]]:
 
 * {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Section 7.5 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
-
 
 
 
