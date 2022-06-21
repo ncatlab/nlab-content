@@ -35,12 +35,12 @@ For formalizations see also at
 
 ## Parameterized point-set topology
 
-> The [[point-set topology]] of parametrized spaces is surprisingly subtle. $[$[MaSi06, p. 15](#MaySigurdsson06)$]$
+> The [[point-set topology]] of parametrized spaces is surprisingly subtle. $[$[May & Sigurdsson 2006, p. 15](#MaySigurdsson06)$]$
 
 ### Fiberwise mapping spaces
  {#FiberwiseMappingSpaces}
 
-> Parametrized mapping spaces are especially delicate $[$[MaSi06, p. 15](#MaySigurdsson06), see Rem. \ref{FibMapSpaceDoesNotPreserveWeakHausdorffness} below$]$
+> Parametrized mapping spaces are especially delicate $[$[May & Sigurdsson 2006, p. 15](#MaySigurdsson06), see Rem. \ref{FibMapSpaceDoesNotPreserveWeakHausdorffness} below$]$
 
 Write:
 
@@ -64,9 +64,9 @@ $$
   (X, p_X, \sigma_X) \;\in\; \big( kTop_{/B}\big)^{B/} \;=\; kTop_{/B}^{B/} 
 $$
 
-in the [[slice category]] of such a base space -- hence topological "[[bundles]]" $X \xrightarrow{p_X} B$ (in the most general sense, without any condition on the bundle projection, except [[continuous function|continuity]]) equipped with a fixed [[section]] $\sigma_X$ (sometimes called "ex-spaces", see $[$[MaSi06, p. 19, footnote 1](#MaySigurdsson06)$]$).
+in the [[slice category]] of such a base space -- hence topological "[[bundles]]" $X \xrightarrow{p_X} B$ (in the most general sense, without any condition on the bundle projection, except [[continuous function|continuity]]) equipped with a fixed [[section]] $\sigma_X$ (sometimes called "ex-spaces", see $[$[May & Sigurdsson 2006, p. 19, footnote 1](#MaySigurdsson06)$]$).
 
-\begin{definition}{#PartialMapClassifierSpace}
+\begin{definition}\label{PartialMapClassifierSpace}
 **(partial map classifier space)**
 \linebreak
   For $X \,\in\, kTop$, write $\widetilde X \,\in\, kTop$ for its continuous [[partial map classifier]]: The result of forming the [[disjoint union]] of the [[underlying]] [[set]] of $X$ with a [[singleton set]] $\{\bot\}$  and declaring the [[closed subsets]] on the result to be those of $X$ under the defining [[injection]]
@@ -116,7 +116,10 @@ their *fiberwise mapping space* is the [[pullback]] (in $kTop$):
     \big\downarrow
     &{}_{{}^{(pb)}}&
     \big\downarrow{}^{\mathrlap{
-      Map(X, \iota_A)
+      Map
+      \big(
+        X, \widetilde{p_A}
+      \big)
     }}
     \\
     B
@@ -149,7 +152,7 @@ regarded as an object of $kTop_{/B}$.
 Here $Map(X,\widetilde{A})$ denotes the ordinary [[compact-open topology|mapping space]] into the continuous partial map classifier from Def. \ref{PartialMapClassifierSpace}.
 \end{definition}
 
-(This is  [MaSi06, Def. 1.3.7](#MaySigurdsson06), following [Booth & Brown 1978a](#BoothBrown78a)).
+(This is  [May & Sigurdsson 2006, Def. 1.3.7](#MaySigurdsson06), following [Booth & Brown 1978a](#BoothBrown78a)).
 
 
 
@@ -169,6 +172,7 @@ On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mappin
 \end{remark}
 
 The following important property is essentially immediate from Def. \ref{FiberwiseMappingSpace}:
+
 \begin{proposition}\label{FiberOfFiberwiseMappingSpace}
 **(fiber of fiberwise mapping space is mapping space of fibers)**
 \linebreak
@@ -223,7 +227,7 @@ $$
 $$
 (where on the right we have the [[Cartesian product]] in the [[slice category|slice]], given by the [[fiber product]] $X \times_B Y$ in $kTop$).
 \end{proposition}
-([Booth & Brown 1978a, Thm. 3.5](#BoothBrown78a), see [MaSi06, (1.3.9)](#MaySigurdsson06))
+([Booth & Brown 1978a, Thm. 3.5](#BoothBrown78a), see [May & Sigurdsson 2006, (1.3.9)](#MaySigurdsson06))
 
 
 \begin{proposition}\label{FiberwiseMappingSpacePreservesHFibrations}
