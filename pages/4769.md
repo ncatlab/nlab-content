@@ -142,9 +142,13 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 
 * [[exponential ring]]
 
+* [[one-parameter semigroup]]
+
 ## References
 
-* wikipedia [exponential map (Lie theory)](https://en.wikipedia.org/wiki/Exponential_map_%28Lie_theory%29), [derivative of the exponential map](https://en.wikipedia.org/wiki/Derivative_of_the_exponential_map), [exponential map (Riemannian geometry)](https://en.wikipedia.org/wiki/Exponential_map_(Riemannian_geometry))
+See also:
+
+* Wikipedia, [exponential map (Lie theory)](https://en.wikipedia.org/wiki/Exponential_map_%28Lie_theory%29), [derivative of the exponential map](https://en.wikipedia.org/wiki/Derivative_of_the_exponential_map), [exponential map (Riemannian geometry)](https://en.wikipedia.org/wiki/Exponential_map_(Riemannian_geometry))
 * Springer [[eom]]: [exponential mapping](https://www.encyclopediaofmath.org/index.php/Exponential_mapping)
 
 An extensive treatment for the general exponential map for an affine connection, for exponential map for Riemannian manifolds and the one for Lie groups is
