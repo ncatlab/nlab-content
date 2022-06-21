@@ -6,8 +6,23 @@ For $G$ a [[discrete group]], we write $B G \,\coloneqq\, \vert N (G \rightright
   \,.
 \] 
 
+For $A \,\in\, G Act(kTop)$ a [[topological G-space|topological $G$-space]] (a space equipped with a [[continuous map]] $G$-[[group action|action]]), its *[[Borel construction]]* is -- regarded as the $A$-[[fiber bundle]] [[associated bundle|associated]] to the [[universal principal bundle|universal $G$-principal bundle]] -- an object in the [[slice category]] over the [[classifying space]] $B G$ (eq:BGBeingCWCOmplex)
+
+\[
+  \label{BorelConstructionAsObjectInSliceOverBG}
+  \big(
+    A \times_G E G
+    ,\,
+    p_{A \times_G E G }
+  \big)
+  \;\;
+  \in
+  \;
+  kTop_{/B G}
+\]
+
 \begin{lemma}
-  For $B \in kTop$, the right [[base change]]
+  For $B \in kTop$, the right [[base change]] along the [[projection]] $pr_B \,\colon\, B \times B G \to B $
   $$
     kTop_{B \times B G}
      \underoverset
@@ -26,14 +41,17 @@ For $G$ a [[discrete group]], we write $B G \,\coloneqq\, \vert N (G \rightright
   Since $pr_B \,\colon\, B \times B G \to B$ is just [[projection]] out of a [[Cartesian product]], the [[pullback]] $(pr_B)^\ast$ acts by forming the [[product topological space]] with the space $B G$. But since $B G$ is [[cofibrant object|cofibrant]] (eq:BGBeingCWCOmplex) this operation preserves [[cofibrations]] and [[acyclic cofibrations]] of $kTop_{Qu}$ (by [this Prop.](classical+model+structure+on +topological spaces#HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen)) and hence also those of its [[slice model structure]].
 \end{proof}
 
-\begin{definition}
-  For $G$ a [[discrete group]] and $A$ a [[G-space|$G$-space]], and $\tau_b \,\colon \,X_b \xrightarrow{\;\;} B G$ a map, the $\tau$-[[twisted cohomology|twisted]] [[non-abelian cohomology]] of $X_b$ with [[coefficients]] in $A$ is
+\begin{definition}\label{TwistedNonAbelianCohomology}
+**(twisted non-abelian cohomology)**
+\linebreak
+  For $G$ a [[discrete group]], $A$ a [[G-space|$G$-space]], and $\tau_b \,\colon \,X_b \xrightarrow{\;\;} B G$ a map to the [[classifying space]] (eq:BGBeingCWCOmplex), the *$\tau$-[[twisted cohomology|twisted]] [[non-abelian cohomology]]* of $X_b$ with [[coefficients]] in $A$ is
 $$
   A^\tau(X_b)
   \;\coloneqq\;
   H^\tau(X_b;\, A)
   \;\coloneqq\;
   \pi_0
+  \bigg(
   (p_{B G})_\ast
   Map
   \Big(
@@ -46,22 +64,74 @@ $$
       p_{A \times_G E G}
     \big)
   \Big)
+  \bigg)
   \,,
 $$
-where the [[codomain]] on the right is the [[Borel construction]] of the $G$-[[group action|action]] on $A$.
+where the [[codomain]] on the right is the [[Borel construction]]  (eq:BorelConstructionAsObjectInSliceOverBG) on $A$.
 \end{definition}
 
-\begin{proposition}
-  Given a global twist
+\begin{proposition}\label{FiberwiseTwistedNonAbelianCohomologySetsFormLocalSystem}
+**(fiberwise twisted non-abelian cohomology sets form local system)**
+\linebreak
+  With $(X, p_X)$ a [[fiber bundle]] as above, and 
+  given a *global twist* on its total space
   $$
     \tau \,\colon\, X \xrightarrow{\;\;} B G
     \,,
   $$
-  the $\tau_b$-twisted $A$-cohomology sets of $X_b$,
-as $b \in B$, arrange into a covering space of $B$.
+  the $\tau_b$-twisted $A$-cohomology sets 
+  (Def. \ref{TwistedNonAbelianCohomology})
+of $X_b$,
+as $b \in B$, arrange into a covering space over $B$, generalizing the un-twisted statement from Prop. \ref{FiberwiseNonAbelianCohomologySetsFormLocalSystem}.
 \end{proposition}
 \begin{proof}
-  now we need that $(p_{B G})_\ast$ is right Quillen... 
+start with
+
+$$
+  \array{
+    Map
+    \Big(
+      \big(
+        (X_b, \tau_b)
+      \big)
+      ,\,
+      \big(
+        A \times_G E G, p_{A \times_G E G}
+      \big)
+    \Big)
+    &
+    \xrightarrow{\phantom{----}}
+    \;\;\;\;\;
+    &
+    \phantom{-----}
+    \mathclap{
+    Map
+    \Big(
+      \big(
+        X, (p_X, \tau)
+      \big)
+      ,\,
+      p_B^\ast
+      \big(
+        A \times_G E G, p_{A \times_G E G}
+      \big)
+    \Big)
+    }
+    \phantom{-----}
+    \\
+    \big\downarrow
+    &{}_{{}^{(pb)}}&
+    \big\downarrow{}^{ \mathrlap{\in Fib}}
+    \\
+    \{b\} \times B G
+    &\xrightarrow{\phantom{-----}}&
+    B \times B G
+    \mathrlap{\,.}
+  }
+$$
+
+from this we get
+
 \end{proof}
 
 
