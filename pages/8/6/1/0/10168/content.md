@@ -17,6 +17,13 @@ On [[symmetry]] and introducing the language of [[homotopy type theory]] for [[u
 
 * [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
 
+On [[synthetic (infinity,1)-category theory|$(\infty,1)$-category theory]]:
+
+* {#BuchholtzWeinberger21} [[Ulrik Buchholtz]], [[Jonathan Weinberger]], *Synthetic fibered $(\infty,1)$-category theory* $[$[arXiv:2105.01724](https://arxiv.org/abs/2105.01724), [talk slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Weinberger-2022-01-20-HoTTEST.pdf)$]$
+
+
+
+
   
 
 
