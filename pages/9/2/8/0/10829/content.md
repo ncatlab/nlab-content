@@ -19,7 +19,7 @@
 Given a [[spectral sequence]] $\{E_r^{s,t},d_r\}$ with a "vanishing edge" in the sense that all its terms vanish for $s$ or $t$ smaller or larger some fixed value, then the fact that all [[differentials]] starting or ending on that edge necessarily vanish implies that all terms on the edge project onto or inject into the corresponding terms on the infinity-page, respectively. These are called the _edge homomorphisms_.
 
 
-Specificaly, Given a first-quadrant (cohomological) [[spectral sequence]] $(E_r^{p,q})$ there are natural morphisms
+Specifically, given a first-quadrant (cohomological) [[spectral sequence]] $(E_r^{p,q})$ there are natural morphisms
 
 $$
   E_2^{n,0} \longrightarrow E^n
