@@ -36,8 +36,15 @@ Typically, we also require a [[continuous map|continuity]] condition such as con
 Strongly continuous one-parameter unitary groups $(U_t)_{t\ge0}$ of operators in a Hilbert space $H$
 are in [[bijection]] with [[self-adjoint operator|self-adjoint]] [[unbounded operators]] $A$ on $H$:
 
-The bijection sends
-$$A\mapsto (t\mapsto \exp(itA)).$$
+This bijection sends
+$$
+  A
+    \mapsto 
+  \big(
+     t\mapsto \exp(itA)
+  \big)
+  \,.
+$$
 
 The operator $A$ is [[bounded operator|bounded]] if and only if $U$ is norm-continuous.
 
