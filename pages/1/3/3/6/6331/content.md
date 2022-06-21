@@ -22,7 +22,7 @@ A *Gauss-Manin connection* is a canonical [[flat connection]] on [[fiber bundles
 
 (...)
 
-## For non-abelian cohomology?
+## For non-abelian cohomology
  {#ForNonAbelianCohomology}
  
 
@@ -43,12 +43,14 @@ Let
 
    1. a [[compactly generated topological space|compactly generated]] [[Hausdorff space]],
 
+   1. [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space|semi-locally simply connected]],
+
    1. a [[homotopy 1-type]]
 
       \[
         \label{AssumptionThatBaseIsOneTruncated}
         \underset{b \in B}{\forall}\;\;\; \pi_{n \geq 2}(B,b) \;\simeq\; 0
-        \,,
+        \,;
       \]
 
 1. $(X \xrightarrow{p_X} B) \in kTop_{/B}$ be 
@@ -62,6 +64,15 @@ Let
         p_X \,\in\, hFib
         \,.
       \]
+
+   1. which is [[fiber bundle|locally trivial]] over a [[numerable cover]] $\big\{ U_j \xhookrightarrow{\;\iota_j\;} B\big\}_{j \in J}$ for some [[typical fiber]] $X_0$:
+
+      \[
+        \label{LocalTrivialityOfFibration}
+        \underset{j \in J}{\forall}\;\;\;\;
+        \iota_j^\ast (X, p_X) \,\simeq\, p_B^\ast X_0
+      \]
+
 
 For $b \in B$ we write $X_b$ for the [[fiber]] of $p_X$ over $b$:
 
@@ -108,7 +119,9 @@ $$
 satisfies the above assumption, by [this Prop.](configuration+space+of+points#ForgettingPointsIsAFibration) and [this Prop.](configuration+space+of+points#CnfSpaceOfPointsInPlaneIsEMSpace). 
 \end{example}
 
-\begin{proposition}
+\begin{proposition}\label{FiberwiseNonAbelianCohomologySetsFormLocalSystem}
+**(fiberwise non-abelian cohomology sets form local system)**
+\linebreak
   For any [[k-space]] $A \,\in\, kTop$, the [[non-abelian cohomology]]-sets of the [[fibers]] $X_b$ (eq:FiberOfTheFibration) with [[coefficients]] in $A$:
 \[
   \label{NonAbelianCohomologySets}
@@ -124,7 +137,9 @@ satisfies the above assumption, by [this Prop.](configuration+space+of+points#Fo
     A
   \big)
 \]
-constitute a [[local system]] over $B$, in that they are the values of a [[functor]] from the [[fundamental groupoid]] of $B$ to [[Sets]].
+constitute a [[local system]] over $B$, in that they arrange into a [[covering space]] over $B$ ([[fundamental theorem of covering spaces|equivalently]], they are the values of a [[functor]] from the [[fundamental groupoid]] of $B$ to [[Sets]]).
+
+Moreover, if $\big\{U_j \xhookrightarrow{\iota_j} B\big\}_{j \in J}$ is an [[open cover]] over which $X \to B$ [[local trivialization|locally trivializes]] with [[typical fiber]] $X_0$, then the covering space of cohomology sets [[local trivialization|locally trivializes]] over the same cover, with [[typical fiber]] $H^0(X_0; A)$.
 \end{proposition}
 \begin{proof}
   Write $p_B^\ast A \,\in\, kTop_{/B}$ for the [[base change]] of $A$ to the [[slice category|slice]] over $B$, i.e. for the trivial fibration 
@@ -219,7 +234,67 @@ $$
     \mathrlap{\,.}
   }
 $$
-Here by [[fibrant replacement]] we may assume that the right vertical map is again a [[Serre fibration]], as indicated, in which case it is a [[covering space]]-projection whose fibers are the desired cohomology groups. This implies the claim by the *[fundamental theorem of covering space theory](covering+space#FundamentalTheoremOfCoveringSpaces)*.
+Here by [[fibrant replacement]] we may assume that the right vertical map is again a [[Serre fibration]], as indicated, in which case it is a [[covering space]]-projection whose fibers are the desired cohomology groups. 
+This proves the first statement. 
+
+The second statement follows by the same argument, after using over any patch $U_j \xhookrightarrow{\iota_j} B$ of the given open cover the following [[natural isomorhisms|natural]] identification:
+$$
+  \begin{array}{ll}
+    \iota_j^\ast
+    Map
+    \big(
+      (X, p_X)   
+      ,\,
+      p_B^\ast A
+    \big)
+    \\
+    \;\simeq\;
+    Map
+    \big(
+      \iota_j^\ast
+      (X, p_X)   
+      ,\,
+      \iota_j^\ast
+      p_B^\ast A
+    \big)
+    &
+    \text{by (eq:PullbackOfFiberwiseMappingSpaces)}
+    \\
+    \;\simeq\;
+    Map
+    \big(
+      p_{U_j}^\ast X_0
+      ,\,
+      p_{U_j}^\ast A
+    \big)
+    &
+    \text{by (eq:LocalTrivialityOfFibration)}
+    \\
+    \;\simeq\;
+    p_{U_j}^\ast
+    Map
+    \big(
+      X_0
+      ,\,
+      A
+    \big)
+    &
+    \text{by (eq:PullbackOfFiberwiseMappingSpaces)}
+  \end{array}
+$$ 
+
+Here we have used that [[pullback]] is a [[closed functor]] with respect to [[fiberwise mapping spaces]] (by [this Prop.](parameterized+homotopy+theory#PullbackOfFiberwiseMappingSpace)):
+\[
+  \label{PullbackOfFiberwiseMappingSpaces}
+  f^\ast
+  Map
+  \big(
+    -,\,-
+  \big)
+  \;\simeq\;
+  Map\big( f^\ast(-),\, f^\ast(-) \big)
+  \,.
+\]
 \end{proof}
 
 
