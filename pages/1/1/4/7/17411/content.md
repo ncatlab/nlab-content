@@ -24,9 +24,9 @@ The following is a classics (vol. I in German 1908).
 
 * [[Felix Klein]], _Elementary mathematics from an advanced standpoint_
 
-The following overview of elementary mathematics is written by a Lebesgue's student Lucienne F&#233;lix (1901-1994) in French, a well known name in mathematics education (cf. &lt;http://guy-brousseau.com/lucienne-felix>); there are English and Russian translations. The introduction says that many of the pedagogical ideas of Lebesgue are incorporated into the text.
+The following overview of elementary mathematics is written by a Lebesgue's student Lucienne F&#233;lix (1901-1994) in French, a well known name in mathematics education (cf. &lt;http://guy-brousseau.com/lucienne-felix>); there are German and Russian translations but no English translation. The introduction says that many of the pedagogical ideas of Lebesgue are incorporated into the text.
 
-* Lucienne F&#233;lix, _The modern aspect of mathematics_, (Rus. transl.: &#1069;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1085;&#1072;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1072; &#1074; &#1089;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1084; &#1080;&#1079;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1080;, 1967)
+* Lucienne F&#233;lix, Exposé moderne des mathématiques élémentaires, Dunot Editeur, Paris, 1962, 1966; Translated into Russian by Prosveshenie in 1967, into German by Vieweg Teubner in 1969. Title of Rus. transl.: &#1069;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1085;&#1072;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1072; &#1074; &#1089;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1084; &#1080;&#1079;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1080;, 1967
 
 Soviet mathematicains (A. D. Aleksandrov, complex analyst Markushevich and Hinchin) wrote in 1950s an ambitious 5-volume work "Encyclopaedia of elementary mathematics" (basic calculus included; geometry is volumes 4 and 5, redacted by Yaglom and Boltianskii):
 
