@@ -81,12 +81,13 @@ There is a canonical way to turn a [[category]] into a univalent category via th
 
 * [[Hopf construction in homotopy type theory]]
 
+* [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theory]]
 
 ## References
  {#References}
 
 ### General
-  {#RefetencesGeneral}
+  {#ReferencesGeneral}
 
 
 
