@@ -53,9 +53,28 @@ In the following all bases spaces are assumed (as in [MaSi06, p. 19](#MaySigurds
   \,.
 \]
 
+Notice that for $(X,p_X), (Y,p_Y) \,\in\, kTop_{/B}$, their [[Cartesian product]] in the [[slice category]] is given by the [[fiber product]] in [[compactly generated topological space|$kTop$]]:
+
+$$
+  (X,p_X) \times (Y, p_Y)
+  \;\simeq\;
+  \big(
+    X \times_B Y
+    ,\,
+    p_X \circ pr_X 
+    =
+    p_Y \circ pr_Y
+  \big)
+  \;\;\;
+  \in
+  \;
+  kTop_{/B}
+$$
+
 For $f \,\colon\, B_1 \xrightarrow{\;\;} B_2$ a [[continuous map]] between such base spaces,
 notice the usal [[base change]] [[adjoint triple]]:
 
+\[\label{BaseChangeAdjointTriple}\]
 \begin{tikzcd}
   \mathrm{kTop}_{/B_1}
     \ar[
@@ -79,7 +98,30 @@ notice the usal [[base change]] [[adjoint triple]]:
   \,,
 \end{tikzcd}
 
-where $f^\ast$ is [[pullback]] in $kTop$ along $f$.
+where 
+
+1. $f^\ast$ is [[pullback]] in $kTop$ along $f$;
+
+1. $f_!$ is post-[[composition]] with $f$;
+
+Notice the "[[Frobenius reciprocity]] law" (in its [[cartesian monoidal category|cartesian]] version [here](Frobenius+reciprocity#InCategoryTheory)) which follows immediately by the [[pasting law]] in $kTop$, namely the following [[natural isomorphism]]:
+
+\[
+  \label{CartesianFrobeniusReciprocity}
+  f_!
+  \big(
+    (U,p_U)
+    \times
+    f^\ast (X,p_X)
+  \big)
+  \;\simeq\;
+  \big(
+    f_!(U,p_U)
+  \big) 
+  \times
+  (X,p_X)
+  \,.
+\]
 
 In the special case where $f$ is the [[terminal object|terminal]] map to the [[point space]], which we denote
 
@@ -246,42 +288,6 @@ Here $Map(X,\widetilde{A})$ denotes the ordinary [[compact-open topology|mapping
 Contrary to most references, Def. \ref{FiberwiseMappingSpace} is intentionally not using a subsript "${}_B$" in the notation for the fiberwise mapping space: This is because "$Map(X,A)_B$" is also standard notation for $Map(X,A) \underset{Map(X,B)}{\times} \{p_B\}$ (see e.g. at *[[space of sections]]*), which is crucially different. Instead, with the above notation, $Map(-,-)$ is always of the same [[type]] as its arguments, as befits an [[internal hom]].
 \end{remark}
 
-\begin{remark}\label{FibMapSpaceDoesNotPreserveWeakHausdorffness}
-**(fiberwise mapping space does not preserve weak Hausdorffness)**
-\linebreak
-  Even if $X$ and $A$ are [[weak Hausdorff spaces]] over the weak Hausdorff space $B$ (eq:kwHausBaseSpace), their
-  fiberwise mapping space (Def. \ref{FiberwiseMappingSpace}) need  not be weak Hausdorff ([Booth & Brown 1974a](#BoothBrown74a)). Sufficient conditions for this to be the case are given in [Lewis 1985, Prop. 1.5](#Lewis85) 
-
-On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mapping space will again be weak Hausdorff (see [MaSi06, p. 19](#MaySigurdsson06)).
-\end{remark}
-
-The following important property is essentially immediate from Def. \ref{FiberwiseMappingSpace}:
-
-\begin{proposition}\label{FiberOfFiberwiseMappingSpace}
-**(fiber of fiberwise mapping space is mapping space of fibers)**
-\linebreak
-  For $b \in B$, the [[fiber]] of the fiberwise mapping space fibration (Def. \ref{FiberwiseMappingSpace}) is [[homeomorphism|homemorphic]] to the ordinary [[compact-open topology|mapping space]] betwee the [[fibers]]:
-$$
-  Map
-  \big(
-    (X,p_x)
-    ,\,
-    (A,p_A)
-  \big)_b
-  \;\;
-  \simeq
-  \;\;
-  Map
-  \big(
-    X_b
-    ,\,
-    A_b
-  \big)
-  \,.
-$$
-\end{proposition}
-(e.g. [MaSi06, p. 21](#MaySigurdsson06))
-
 \begin{proposition}\label{FiberwiseMappingSpaceSatisfiesExponentialLaw}
 **(fiberwise mapping space satisfies the exponential law)**
 \linebreak
@@ -427,6 +433,159 @@ Here most steps are [Hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) 
 Since this holds naturally for all $(U, p_U)$, the claim follows by the [[Yoneda lemma]] (over the [[large category]] $\big(kTop_{/B}\big)^{op}$).
 \end{proof}
 
+Similarly:
+
+\begin{proposition}\label{PullbackOfFiberwiseMappingSpace}
+**(pullback of fiberwise mapping space)**
+\linebreak
+For $f \,\colon\, B' \longrightarrow B$ a [[map]] of base spaces (eq:kwHausBaseSpace), the [[pullback]] (eq:BaseChangeAdjointTriple) along $f$ of the fiberwise mapping space (Def. \ref{FiberwiseMappingSpace}) is the fiberwise mapping space of the pullback of the arguments:
+$$
+  f^\ast
+  Map
+  \big(
+    (X,p_X)
+    ,\,
+    (A, p_A)
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  Map
+  \big(
+    f^\ast
+    (X,p_X)
+    ,\,
+    f^\ast
+    (A, p_A)
+  \big)
+  \,.
+$$
+In other words: Pullback $f^\ast$ is a [[closed functor]] with respect to fiberwise mapping spaces.
+\end{proposition}
+\begin{proof}
+For any $(U, p_U) \,\in\, kTop_{/B'}$ we have the following sequence of [[natural isomorphisms]]: 
+$$
+  \begin{aligned}
+    &
+    kTop_{/B'}
+    \Big(
+      (U,p_U)
+      ,\,
+      f^\ast 
+      Map
+      \big(
+        (X,p_X)
+        ,\,
+        (A,p_A)
+      \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop_{/B}
+    \Big(
+      f_! (U,p_U)
+      ,\,
+      Map
+      \big(
+        (X,p_X)
+        ,\,
+        (A,p_A)
+      \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop_{/B}
+    \Big(
+      \big(
+        f_!(U, p_U)
+      \big)
+      \times
+      (X, p_X)
+      ,\,
+      (A,p_A)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop_{/B}
+    \Big(
+      f_!
+      \big(
+        (U, p_U)
+        \times
+        f^\ast (X, p_X)
+      \big)
+      ,\,
+      (A,p_A)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop_{/B'}
+    \Big(
+        (U, p_U)
+        \times
+        f^\ast (X, p_X)
+      ,\,
+      f^\ast
+      (A,p_A)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop_{/B'}
+    \Big(
+      (U, p_U)
+      ,\,
+      Map
+      \big(
+        f^\ast (X, p_X)
+        ,\,
+        f^\ast (A,p_A)
+      \big)
+    \Big)
+  \end{aligned}
+$$
+Here the crucial step, besides various [Hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism), is the use of Cartesian "[[Frobenius reciprocity]]" (eq:CartesianFrobeniusReciprocity). 
+
+Since these isomorphism are [[natural isomorphism|natural]] in $(U,p_U)$, the claim follows by the [[Yoneda embedding]] (for the [[large category]] $\big( kTop_{/B'}\big)^{op}$).
+\end{proof}
+,
+
+
+\begin{example}\label{FiberOfFiberwiseMappingSpace}
+**(fiber of fiberwise mapping space is mapping space of fibers)**
+\linebreak
+  For $b \in B$, the [[fiber]] of the fiberwise mapping space fibration (Def. \ref{FiberwiseMappingSpace}) is [[homeomorphism|homemorphic]] to the ordinary [[compact-open topology|mapping space]] betwee the [[fibers]]:
+$$
+  Map
+  \big(
+    (X,p_x)
+    ,\,
+    (A,p_A)
+  \big)_b
+  \;\;
+  \simeq
+  \;\;
+  Map
+  \big(
+    X_b
+    ,\,
+    A_b
+  \big)
+  \,.
+$$
+\end{example}
+(e.g. [May & Sigurdsson 2006, p. 21](#MaySigurdsson06))
+\begin{proof}
+  This is immediate from concrete analysis of the defining [[pullback]]-diagram (eq:FiberwiseMappingSpaceAsPullback) in Def. \ref{FiberwiseMappingSpace}, but it is also the special case of Prop. \ref{PullbackOfFiberwiseMappingSpace} for $B = \{b\}$.
+\end{proof}
+
+
+
+### Homotopy theory of the fiberwise mapping space
 
 \begin{proposition}\label{FiberwiseMappingSpacePreservesHFibrations}
 **(fiberwise mapping space preserves h-fibrations)**
@@ -447,6 +606,14 @@ $$
 \end{proposition}
 (This is due to [Booth 1970, §6.1](#Booth70), see [MaSi06, Prop. 1.3.11](#MaySigurdsson06).)
 
+\begin{remark}\label{FibMapSpaceDoesNotPreserveWeakHausdorffness}
+**(fiberwise mapping space does not preserve weak Hausdorffness)**
+\linebreak
+  Even if $X$ and $A$ are [[weak Hausdorff spaces]] over the weak Hausdorff space $B$ (eq:kwHausBaseSpace), their
+  fiberwise mapping space (Def. \ref{FiberwiseMappingSpace}) need  not be weak Hausdorff ([Booth & Brown 1974a](#BoothBrown74a)). Sufficient conditions for this to be the case are given in [Lewis 1985, Prop. 1.5](#Lewis85) 
+
+On the other hand, the suitable [[cofibrant resolution]] of the fiberwise mapping space will again be weak Hausdorff (see [MaSi06, p. 19](#MaySigurdsson06)).
+\end{remark}
 
 
 
