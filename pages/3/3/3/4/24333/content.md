@@ -54,6 +54,18 @@ Strongly continuous one-parameter semigroups $T$ of bounded operators on a [[Ban
 and for any $\lambda\gt\omega$ we have
 $$\|(\lambda I-A)^{-n}\|\le M (\lambda-\omega)^{-n}.$$
 
+## Related concepts
+
+* [[exponential]]
+
+
 ## References
 
 […]
+
+See also
+
+* Wikipedia, *[$C_0$ semigroup](https://en.wikipedia.org/wiki/C0-semigroup)*
+
+[[!redirects one-parameter semigroups]]
+
