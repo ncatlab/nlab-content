@@ -194,7 +194,7 @@ $$
     \\
     \big\downarrow && \big\downarrow^{\mathrlap{b_*}}
     \\
-    {*} &\stackrel{a}{\to}& \mathcal{C}(A,X)
+    {*} &\overset{a}{\longrightarrow}& \mathcal{C}(A,X)
   }
 $$
 
@@ -220,7 +220,7 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
 
 \begin{proposition}\label{LeftBaseChangeQuillenAdjunction}
 **(left base change Quillen adjunction)** \linebreak
-  For $\mathcal{C}$ a [[model category]] and $c_1 \xrightarrow{f} c_2$ any [[morphism]] in $\mathcal{C}$, the left [[base change]] adjunction $(f_1 \dashv f^\ast)$ along $f$ (where $f_!$ is [[postcomposition]] with and $f^\ast$ is [[pullback]] along $f$) is a [[Quillen adjunction]] between the slice model structures (from Prop. \ref{SliceModelStructure}):
+  For $\mathcal{C}$ a [[model category]] and $c_1 \xrightarrow{f} c_2$ any [[morphism]] in $\mathcal{C}$, the left [[base change]] adjunction $(f_! \dashv f^\ast)$ along $f$ (where $f_!$ is [[postcomposition]] with and $f^\ast$ is [[pullback]] along $f$) is a [[Quillen adjunction]] between the slice model structures (from Prop. \ref{SliceModelStructure}):
   $$
     \mathcal{C}_{/c_1}
       \underoverset
@@ -232,7 +232,7 @@ This means that this correct hom-space $\mathcal{C}/X(a,b) \simeq (\mathcal{C}/X
   $$
 \end{proposition}
 \begin{proof}
-  Since the [[left adjoint]] $f_1$ is the [[postcomposition]] operation, it manifestly preserves the classes of [[underlying]] morphisms, hence in particular preserves the classes of (acyclic) cofibrations in the slice model structure (by Prop. \ref{SliceModelStructure}), hence is a [[left Quillen functor]].
+  Since the [[left adjoint]] $f_!$ is the [[postcomposition]] operation, it manifestly preserves the classes of [[underlying]] morphisms, hence in particular preserves the classes of (acyclic) cofibrations in the slice model structure (by Prop. \ref{SliceModelStructure}), hence is a [[left Quillen functor]].
 \end{proof}
 
 \begin{prop}\label{LeftBaseChangeQuillenEquivalence}
