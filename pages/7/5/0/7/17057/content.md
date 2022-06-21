@@ -56,7 +56,7 @@ The general abstract discussion is due to
 
 Review with an eye towards [[topological cyclic homology]] is in
 
-* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], section I f _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
+* {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], section I of _On topological cyclic homology_ ([arXiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
 
 [[!redirects Tate spectra]]
