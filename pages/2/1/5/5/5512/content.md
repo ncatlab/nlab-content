@@ -57,17 +57,58 @@ is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here o
 ### In cartesian categories
  {#InCategoryTheory}
 
-In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon \mathcal{Y} \to \mathcal{X}$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(b^a) \to f^*(b)^{f^*(a)}$ is an [[isomorphism]] for all objects $a,b$ of $\mathcal{Y}$.
+In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the [[right adjoint]] $f^* \colon \mathcal{Y} \to \mathcal{X}$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(b^a) \to f^*(b)^{f^*(a)}$ is an [[isomorphism]] for all objects $a,b$ of $\mathcal{Y}$.
 
 Each of the functors $-^a$, $-^{f^*(a)}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "[[projection formula|projection]]" morphism 
 
-$$
-\pi \colon f_! (f^*a \times c) \to a \times f_! c 
-$$ 
+\[
+  \label{ProjectionMorphism}
+  \pi \colon f_! (f^*a \times c) \to a \times f_! c 
+\] 
 
 is an isomorphism for each $a$ in $\mathcal{Y}$ and $c$ in $\mathcal{X}$.  
 
-The last condition clearly makes sense also if the categories are [[cartesian monoidal category|cartesian]] but not necessarily [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
+This holds for instance for the [[base change]] between [[slice categories]] $\mathcal{C}_{/b}$, $\mathcal{C}_{/b'}$ of a [[finitely complete category]] $\mathcal{C}$ along a morphism $f \colon b' \to b $ -- by the [[pasting law]] in $\mathcal{C}$:
+
+\[
+  \label{PastingLawForLexCategories}
+  \array{
+    f^\ast a \times_b c
+    &\longrightarrow&
+    f^\ast a 
+    &\longrightarrow&
+    a
+    \\
+    \big\downarrow
+    &&
+    \big\downarrow
+    &&
+    \big\downarrow
+    \\
+    c 
+    &\underset{p_C}{\longrightarrow}&
+    b'
+    &\underset{f}{\longrightarrow}&
+    b
+  }
+  \;\;\;\;\;\;\;\;
+  \simeq
+  \;\;\;\;\;\;\;\;
+  \array{
+    a
+      \times_b 
+    f_! c 
+    &\longrightarrow&
+    a
+    \\
+    \big\downarrow && \big\downarrow
+    \\
+    c &\underset{ f \circ p_c }{\longrightarrow}& b
+    \mathrlap{\,.}
+  }
+\]
+
+The condition (eq:ProjectionMorphism) clearly makes sense also if the categories are [[cartesian monoidal category|cartesian]] but not necessarily [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
 
 This terminology is most commonly used in the following situations:
 
