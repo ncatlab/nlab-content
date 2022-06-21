@@ -23,15 +23,16 @@ Simplicial type theory is a [[homotopy type theory]] which introduces additional
 
 * [[Reedy model structure]]
 * [[bisimplicial set]]
-* [[(infinity,1)-category theory]]
-* [[synthetic mathematics]]
+* [[synthetic (infinity,1)-category theory]]
 
 ## References
 
 * [[Emily Riehl]], [[Michael Shulman]], A type theory for synthetic $\infty$-categories. arXiv:1705:07442
 
-* [[Ulrik Buchholtz]], [[Jonathan Weinberger]], Synthetic fibeted $(\infty,1)$-category theory, arXiv:2105.01724
-
 * [[Jonathan Weinberger]], A Synthetic Perspective on $(\infty,1)$-Category Theory: Fibrational and Semantic Aspects, arXiv:2202:13132
 
 * [[Jonathan Weinberger]], Strict stability of extension types, arXiv:2203.07194
+
+A [[proof assistant]] implementing simplicial type theory: 
+
+* [rzk](https://github.com/fizruk/rzk)
