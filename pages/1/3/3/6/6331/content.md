@@ -22,13 +22,23 @@ A *Gauss-Manin connection* is a canonical [[flat connection]] on [[fiber bundles
 
 (...)
 
-## For non-abelian cohomology
+## For fiber bundles
+ {#ForFiberBundles}
+
+The existence of a flat connection on bundles of fiberwise-chomology groups is easy to understand in the case that the [[fibers]] form a [[locally trivial bundle|locally trivial]] [[fiber bundle]]: In this case the fiberwise cohomology of the local trivialization of this fiber bundle is a local trivialization of the bundle of its fiberwise cohomology groups.
+
+Simple as this may appear, at least in the case of fiberwise [[twisted cohomology]] this case subsumes, for forgetful fibrations of [[configuration spaces of points]] in the plane, the profound example of solutions to the [[Knizhnik-Zamolodchikov equation]], identified as such via the  [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) -- this is highlighted as such in [Etingof, Frenkel & Kirillov 1998, §7.5](Knizhnik-Zamolodchikov+equation#EtingofFrenkelKirillov98).
+
+In the following we give a more abstract/formal ([[model category|model]] [[category theory|category theoretic]]/[[homotopy theory|homotopy theoretic]]) argument for the existence and construction of the Gauss-Manin connection for [[twisted cohomology]] on a class of [[fiber bundles]] which subsume the case that gives the [[KZ-equation]], namely projections of [[configuration spaces of points]] (Ex. \ref{ForgetfulMapBetweenConfigurationSpaces} below).
+
+This following more abstract argument has the advantage that it applies at once to all [[generalized cohomology]]-theories for which [[classifying spaces]] exist ([[Whitehead-generalized cohomology theories]] and more general [[non-abelian cohomology]]-theories, such as unstable [[Cohomotopy]]), and that its structure is readily formulated in general [[(infinity,1)-topos|$(\infty,1)$-toposes]] and in [[homotopy type theory]]. In fact, in that formal language the following construction of the Gauss-Manin connection for twisted cohomology on fibers of a fiber bundle is so simple that it becomes essentially a tautology.
+
+
+### For non-abelian cohomology
  {#ForNonAbelianCohomology}
  
 
-> under construction
-
-The following is a (non-standard, to be scrutinized) general-abstract argument for the existence and construction of the structure of local systems on fiberwise cohomology groups, which applies in the generality of [[Whitehead-generalized cohomology theories]], and in fact of [[non-abelian cohomology|non-abelian cohomology theories]].
+The following is a (non-standard) general-abstract argument for the existence and construction of the structure of local systems on fiberwise cohomology groups, which applies in the generality of [[Whitehead-generalized cohomology theories]], and in fact of [[non-abelian cohomology|non-abelian cohomology theories]].
 
 The simple idea -- using that all these notions of cohomology have [[classifying spaces]] -- is that the fiberwise 0-truncation of the *[fiberwise mapping space](parameterized+homotopy+theory#FiberwiseMappingSpaces)* to that classifying space provides at once the [[covering space]] which exhibits the local system.
 
@@ -71,6 +81,14 @@ Let
         \label{LocalTrivialityOfFibration}
         \underset{j \in J}{\forall}\;\;\;\;
         \iota_j^\ast (X, p_X) \,\simeq\, p_B^\ast X_0
+      \]
+
+   1. what has the [[mathematical structure|structure]] of a [[CW-complex]]:
+
+      \[
+        \label{FiberIsCWComplex}
+        X_0 \,\in\, CWCpl \to kTop
+        \,.
       \]
 
 
@@ -237,7 +255,7 @@ $$
 Here by [[fibrant replacement]] we may assume that the right vertical map is again a [[Serre fibration]], as indicated, in which case it is a [[covering space]]-projection whose fibers are the desired cohomology groups. 
 This proves the first statement. 
 
-The second statement follows by the same argument, after using over any patch $U_j \xhookrightarrow{\iota_j} B$ of the given open cover the following [[natural isomorhisms|natural]] identification:
+The second statement follows by the same argument, after using over any patch $U_j \xhookrightarrow{\iota_j} B$ of the given open cover the following [[natural isomorphism|natural]] identification:
 $$
   \begin{array}{ll}
     \iota_j^\ast
@@ -296,6 +314,11 @@ Here we have used that [[pullback]] is a [[closed functor]] with respect to [[fi
   \,.
 \]
 \end{proof}
+
+### For twisted non-abelian cohomology
+ {#ForTwistedNonabelianCohomology}
+
+(...)
 
 
 ## Examples
