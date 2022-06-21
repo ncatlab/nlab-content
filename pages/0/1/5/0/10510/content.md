@@ -37,11 +37,6 @@ For formalizations see also at
 
 > The [[point-set topology]] of parametrized spaces is surprisingly subtle. $[$[May & Sigurdsson 2006, p. 15](#MaySigurdsson06)$]$
 
-### Fiberwise mapping spaces
- {#FiberwiseMappingSpaces}
-
-> Parametrized mapping spaces are especially delicate $[$[May & Sigurdsson 2006, p. 15](#MaySigurdsson06), see Rem. \ref{FibMapSpaceDoesNotPreserveWeakHausdorffness} below$]$
-
 Write:
 
 * $kTop$ for the [[convenient category of topological spaces|convenient category]] of [[compactly generated topological spaces]] (k-spaces)
@@ -58,13 +53,102 @@ In the following all bases spaces are assumed (as in [MaSi06, p. 19](#MaySigurds
   \,.
 \]
 
-We consider [[pointed objects]] 
+For $f \,\colon\, B_1 \xrightarrow{\;\;} B_2$ a [[continuous map]] between such base spaces,
+notice the usal [[base change]] [[adjoint triple]]:
+
+\begin{tikzcd}
+  \mathrm{kTop}_{/B_1}
+    \ar[
+      rr,
+      shift left=20pt,
+      "{f_!}"{description}
+    ]
+    \ar[
+      from=rr,
+      "{f^\ast}"{description}
+    ]
+    \ar[
+      rr,
+      shift right=20pt,
+      "{f_\ast}"{description}
+    ]
+    \ar[rr, phantom, shift left=10pt, "{\scalebox{.6}{$\bot$}}"]
+    \ar[rr, phantom, shift right=10pt, "{\scalebox{.6}{$\bot$}}"]
+  &&
+  \mathrm{kTop}_{/B_2}
+  \,,
+\end{tikzcd}
+
+where $f^\ast$ is [[pullback]] in $kTop$ along $f$.
+
+In the special case where $f$ is the [[terminal object|terminal]] map to the [[point space]], which we denote
+
+$$
+  p_B \,\colon\, B \xrightarrow{\;} \ast
+  \,.
+$$
+
+we have $kTop_{/\ast} \,\simeq\, kTop$ and the above [[base change]] [[adjoint triple]] becomes
+
+\[\label{TerminalBaseChange}\;\]
+\begin{tikzcd}
+  \mathrm{kTop}_{/B}
+    \ar[
+      rr,
+      shift left=20pt,
+      "{(p_B)_!}"{description}
+    ]
+    \ar[
+      from=rr,
+      "{(p_B)^\ast}"{description}
+    ]
+    \ar[
+      rr,
+      shift right=20pt,
+      "{(p_B)_\ast}"{description}
+    ]
+    \ar[rr, phantom, shift left=10pt, "{\scalebox{.6}{$\bot$}}"]
+    \ar[rr, phantom, shift right=10pt, "{\scalebox{.6}{$\bot$}}"]
+  &&
+  \mathrm{kTop}
+  \,,
+\end{tikzcd}
+
+In this case 
+
+1. the functor $(p_B)^\ast$ is the [[Cartesian product]] with $B$, regarded as the trivial fibration:
+
+   \[
+     \label{TrivialFibration}
+     (p_B^\ast) X_0 
+     \;=\;
+     B \times X_0 \xrightarrow{\; pr_B \;} B
+     \,,
+   \]
+
+1. $(p_B)_!$ gives the total space of a fibration:
+
+   $$
+     (p_B)_! \big( X \to B\big) \;=\; X
+   $$
+
+1. $(p_B)_*$ gives the [[space of sections]] of a fibration.
+
+
+Eventually we consider [[pointed objects]] 
 
 $$
   (X, p_X, \sigma_X) \;\in\; \big( kTop_{/B}\big)^{B/} \;=\; kTop_{/B}^{B/} 
 $$
 
 in the [[slice category]] of such a base space -- hence topological "[[bundles]]" $X \xrightarrow{p_X} B$ (in the most general sense, without any condition on the bundle projection, except [[continuous function|continuity]]) equipped with a fixed [[section]] $\sigma_X$ (sometimes called "ex-spaces", see $[$[May & Sigurdsson 2006, p. 19, footnote 1](#MaySigurdsson06)$]$).
+
+
+### Fiberwise mapping spaces
+ {#FiberwiseMappingSpaces}
+
+> Parametrized mapping spaces are especially delicate $[$[May & Sigurdsson 2006, p. 15](#MaySigurdsson06), see Rem. \ref{FibMapSpaceDoesNotPreserveWeakHausdorffness} below$]$
+
 
 \begin{definition}\label{PartialMapClassifierSpace}
 **(partial map classifier space)**
@@ -198,12 +282,13 @@ $$
 \end{proposition}
 (e.g. [MaSi06, p. 21](#MaySigurdsson06))
 
-\begin{proposition}
+\begin{proposition}\label{FiberwiseMappingSpaceSatisfiesExponentialLaw}
 **(fiberwise mapping space satisfies the exponential law)**
 \linebreak
   With $B$ as above (eq:kwHausBaseSpace),
   the fiberwise mapping space (Def. \ref{FiberwiseMappingSpace}) is an [[exponential object]] (satisfies the [[exponential law for spaces|exponential law]]) in that there is a [[natural isomorphism]] of [[hom-sets]]
-$$
+\[
+  \label{ExponentialLawForFiberwiseMappingSpace}
   kTop_{/B}
   \Big(
     (X,p_X)
@@ -224,10 +309,123 @@ $$
     ,\,
     (A,p_A)
   \big)
-$$
+\]
 (where on the right we have the [[Cartesian product]] in the [[slice category|slice]], given by the [[fiber product]] $X \times_B Y$ in $kTop$).
 \end{proposition}
 ([Booth & Brown 1978a, Thm. 3.5](#BoothBrown78a), see [May & Sigurdsson 2006, (1.3.9)](#MaySigurdsson06))
+
+\begin{example}\label{FiberwiseMappingSpaceBetweenTrivialFibrations}
+**(fiberwise mapping space between trivial fibrations)**
+\linebreak
+  The fiberwise mapping space (Def. \ref{FiberwiseMappingSpace})
+between trivial fibrations (eq:TrivialFibration) is the trivial fibration with fiber the ordinary [[compact-open topology|mapping space]] between the fibers:
+$$
+  Map
+  \big(
+     p_B^\ast X_0
+     ,\,
+     p_B^\ast A_0
+  \big)
+  \;\simeq\;
+  p_B^\ast
+  Map\big(X_0,\, A_0\big)
+  \,.
+$$
+\end{example}
+\begin{proof}
+  This may be gleaned concretely from [[point-set topology|point-set]]-analysis of the defining pullback diagram (eq:FiberwiseMappingSpaceAsPullback), but it also follows abstractly by [[adjunction|adjointness]] from the [[exponential law]] (Prop. \ref{FiberwiseMappingSpaceSatisfiesExponentialLaw}):
+
+For any $(U, p_U) \,\in\, kTop_{/B}$ we have the following sequence of [[natural isomorphisms]]:
+$$
+  \begin{aligned}
+    &
+    kTop_{/B}
+    \Big(
+      (U, p_U)
+      ,\,
+      \Map
+      \big(
+        p_B^\ast X_0
+        ,\,
+        p_B^\ast A_0
+      \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop_{/B}
+    \big(
+      (U, p_U) \times (B \times X_0, pr_{B})
+      ,\,
+      p_B^\ast A_0
+    \big)
+    \\
+    & 
+    \;\simeq\;
+    kTop_{/B}
+    \big(
+      (U \times X_0, p_U \circ pr_U)
+      ,\,
+      p_B^\ast A_0
+    \big)
+    \\
+    &
+    \;\simeq\;
+    kTop
+    \Big(
+      U \times X_0
+      ,\,
+      A_0
+    \big)
+    \\
+    &
+    \;\simeq\;
+    kTop
+    \Big(
+      U 
+      ,\,
+      Map
+      \big(
+        X_0
+        ,\,
+        A_0
+      \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop
+    \Big(
+      (p_B)_!
+      (U,p_U)
+      ,\,
+      Map
+      \big(
+        X_0
+        ,\,
+        A_0
+      \big)
+    \Big)
+    \\
+    &
+    \;\simeq\;
+    kTop_{/B}
+    \Big(
+      (U,p_U)
+      ,\,
+      p_B^\ast
+      Map
+      \big(
+        X_0
+        ,\,
+        A_0
+      \big)
+    \Big)
+  \end{aligned}
+$$
+Here most steps are [Hom-isomorphisms](adjoint+functor#InTermsOfHomIsomorphism) of the various [[adjoint functors]]: (eq:TerminalBaseChange) and (eq:ExponentialLawForFiberwiseMappingSpace). 
+Since this holds naturally for all $(U, p_U)$, the claim follows by the [[Yoneda lemma]] (over the [[large category]] $\big(kTop_{/B}\big)^{op}$).
+\end{proof}
 
 
 \begin{proposition}\label{FiberwiseMappingSpacePreservesHFibrations}
