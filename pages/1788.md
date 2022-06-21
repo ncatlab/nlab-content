@@ -1,4 +1,41 @@
 
+\begin{definition}
+  For $G$ a [[discrete group]] and $A$ a [[G-space|$G$-space]], and $\tau_b \,\colon \,X_b \xrightarrow{\;\;} B G$ a map, the $\tau$-[[twisted cohomology|twisted]] [[non-abelian cohomology]] of $X_b$ with [[coefficients]] in $A$ is
+$$
+  A^\tau(X_b)
+  \;\coloneqq\;
+  H^\tau(X_b;\, A)
+  \;\coloneqq\;
+  \pi_0
+  (p_{B G})_\ast
+  Map
+  \Big(
+    (X_b, \tau_b)
+    ,\,
+    p_{B}^\ast
+    \big(   
+      A \times_G E G
+      ,\,
+      p_{A \times_G E G}
+    \big)
+  \Big)
+$$
+\end{definition}
+
+\begin{proposition}
+  Given a global twist
+  $$
+    \tau \,\colon\, X \xrightarrow{\;\;} B G
+    \,,
+  $$
+  the $\tau_b$-twisted $A$-cohomology sets of $X_b$,
+as $b \in B$, arrange into a covering space of $B$.
+\end{proposition}
+\begin{proof}
+  now we need that $(p_{B G})_\ast$ is right Quillen... 
+\end{proof}
+
+
 $$
   \begin{aligned}
     kTop_{/B'}
