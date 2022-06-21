@@ -28,9 +28,9 @@ Put differently, in a proper model category, [[homotopy pullbacks]] and/or pusho
 
 A [[model category]] is called 
 
-* **right proper** if weak equivalences are preserved by [[pullback]] along fibrations
+* **right proper** if [[weak equivalences]] are preserved by [[pullback]] along [[fibrations]],
 
-* **left proper** if weak equivalence are preserved by [[pushout]] along cofibrations
+* **left proper** if weak equivalence are preserved by [[pushout]] along cofibrations,
 
 * **proper** if it is both left and right proper.
 
@@ -45,11 +45,13 @@ A model category is right proper if for every weak equivalence $f : A \to B$ in 
 
 $$
   \array{
-    A \times_C B &\to& A
+    A \times_C B &\longrightarrow& A
     \\
-    \;\;\downarrow^{\mathrlap{\Rightarrow h^* f \in W}} && \downarrow^{\mathrlap{f \in W}}
+    \;\;\big\downarrow{}^{\mathrlap{\Rightarrow h^* f \in W}} 
+    && 
+    \big\downarrow{}^{\mathrlap{f \in W}}
     \\
-    C &\stackrel{h \in F}{\to}& B
+    C &\underset{h \in F}{\longrightarrow}& B
   }
 $$
 
