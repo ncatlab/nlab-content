@@ -340,7 +340,7 @@ then:
 
    \[
      \label{SlicedQuillenAdjointFunctorsOverLb}
-     \mathcal{D}_{/L(c)}
+     \mathcal{D}_{/L(b)}
      \underoverset
        {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
        {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
@@ -353,7 +353,7 @@ then:
 
    \[
      \label{SlicedQuillenAdjointFunctorsOverRb}
-     \mathcal{D}_{/c}
+     \mathcal{D}_{/b}
      \underoverset
        {\underset{\;\;\;\;R_{/b}\;\;\;\;}{\longrightarrow}}
        {\overset{\;\;\;\;L_{/b}\;\;\;\;}{\longleftarrow}}
