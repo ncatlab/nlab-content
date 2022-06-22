@@ -47,7 +47,7 @@ The discussion below assumes that the base of the fibration is a [[homotopy 1-ty
 
 \linebreak
 
-We consider the following situation, see also (eq:NotationOverview).
+We consider the following situation, see also (eq:OverviewUntwisted) and (eq:NotationOverview).
 
 Let 
 
@@ -139,15 +139,15 @@ $$
 satisfies the above assumption, by [this Prop.](configuration+space+of+points#ForgettingPointsIsAFibration) and [this Prop.](configuration+space+of+points#CnfSpaceOfPointsInPlaneIsEMSpace). 
 \end{example}
 
-\begin{proposition}\label{FiberwiseNonAbelianCohomologySetsFormLocalSystem}
-**(fiberwise non-abelian cohomology sets form local system)**
+\begin{definition}\label{NonAbelianCohomology}
+**(non-abelian cohomology sets)**
 \linebreak
-  For any [[k-space]] $A \,\in\, kTop$, the [[non-abelian cohomology]]-sets of the [[fibers]] $X_b$ (eq:FiberOfTheFibration) with [[coefficients]] in $A$:
+For any $A \,\in\, kTop$, and for $X_b$ a [[CW-complex]], we write
 \[
   \label{NonAbelianCohomologySets}
-  A^0(X)
+  A^0(X_b)
     \;\coloneqq\;
-  H^0(X;\, A)
+  H^0(X_b;\, A)
     \;\coloneqq\;
   \pi_0
   Map
@@ -157,7 +157,129 @@ satisfies the above assumption, by [this Prop.](configuration+space+of+points#Fo
     A
   \big)
 \]
+for the *[[non-abelian cohomology]]* of $X_b$ with [[coefficients]] in $A$.
+\end{definition}
+\begin{example}
+**(ordinary complex cohomology)**
+\linebreak
+  For $A \,=\, K(n,\mathbb{C})$ an [[Eilenberg-MacLane space]] (here of the additive [[abelian group]] of [[complex numbers]]), Def. \ref{NonAbelianCohomology} yields [[ordinary cohomology|ordinary]] [[complex cohomology]]
+$$
+  H^n(X_b; \mathhb{C})
+  \,\simeq\,
+  \pi_0 Map\big(X_b, \, K(\mathbb{C},n)\big)
+  \,.
+$$
+\end{example}
+\begin{example}
+**(Cohomotopy)**
+\linebreak
+  For $A \,=\, S^n$ the [[n-sphere|$n$-sphere]], Def. \ref{NonAbelianCohomology} yields [[Cohomotopy]]
+$$
+  \pi^n(X_b)
+  \,\simeq\,
+  \pi_0 Map\big(X_b, \, S^n\big)
+  \,.
+$$
+\end{example}
+
+
+
+\begin{proposition}\label{FiberwiseNonAbelianCohomologySetsFormLocalSystem}
+**(fiberwise non-abelian cohomology sets form local system)**
+\linebreak
+  For any [[k-space]] $A \,\in\, kTop$, the [[non-abelian cohomology]]-sets (eq:NonAbelianCohomologySets) of the [[fibers]] $X_b$ (eq:FiberOfTheFibration) with [[coefficients]] in $A$
 constitute a [[local system]] over $B$, in that they arrange into a [[covering space]] over $B$ ([[fundamental theorem of covering spaces|equivalently]], they are the values of a [[functor]] from the [[fundamental groupoid]] of $B$ to [[Sets]]).
+\[\label{OverviewUntwisted}\]
+\begin{tikzcd}[
+  sep=small
+]
+    &
+    H^n(\mathrm{X}_{b_2})
+    \ar[
+      ddr,
+      "{\sim}"{sloped},
+      shorten=-2pt
+    ]
+    \\[-27pt]
+    &&&
+    \mathrm{X}
+    \ar[
+      dddd,
+      "{p_{\mathrm{X}}}"
+    ]
+    \ar[
+      white,
+      dr,
+      "{\color{white}\tau}"{swap, xshift=1pt}
+    ]
+    \ar[
+      rr,
+      dashed
+    ]
+    &&
+    K(n,\mathbb{C})
+    \\[-12pt]
+    H^n(\mathrm{X}_{b_1})
+    \ar[
+      uur,
+      shorten=-2pt,
+      "{
+        \sim
+      }"{sloped}
+    ]
+    \ar[
+      rr,
+      "{\sim}"{swap}
+    ]
+    &&
+    H^n(\mathrm{X}_{b_3})
+    &&
+    \phantom{B G}
+    \ar[
+      white,
+      dddd,
+      "{\color{white}
+        p_{B G}
+      }"
+    ]
+    \\
+    \\
+    &
+    \{b_2\}
+    \ar[
+      ddr,
+      "{
+        [\gamma_{23}]
+      }"
+    ]
+    \\[-27pt]
+    &&&
+    \mathrm{B}
+    \ar[
+      white,
+      dr,
+      "{\color{white}p_{\mathrm{B}}}"{swap}
+    ]
+    \\[-12pt]
+    \{b_1\}
+    \ar[
+      uur,
+      "{
+        [\gamma_{12}]
+      }"
+    ]
+    \ar[
+      rr,
+      "{
+        [\gamma_{23} \circ \gamma_{12}]
+      }"{swap}
+    ]
+    &&
+    \{b_3\}
+    &
+    &
+    \ast
+\end{tikzcd}
 
 Moreover, if $\big\{U_j \xhookrightarrow{\iota_j} B\big\}_{j \in J}$ is an [[open cover]] over which $X \to B$ [[local trivialization|locally trivializes]] with [[typical fiber]] $X_0$, then the covering space of cohomology sets [[local trivialization|locally trivializes]] over the same cover, with [[typical fiber]] $H^0(X_0; A)$.
 \end{proposition}
