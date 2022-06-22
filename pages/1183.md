@@ -278,5 +278,5 @@ Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on sta
 [[!redirects sigma-models]]
 [[!redirects sigma model]]
 [[!redirects sigma models]]
-[[!redirects ∞-model]]
-[[!redirects ∞-models]]
+[[!redirects σ-model]]
+[[!redirects σ-models]]
