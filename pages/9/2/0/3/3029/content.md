@@ -573,7 +573,7 @@ $$
   \colon
   (g_1, g_2) 
     \mapsto
-  -\sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)
+  \sigma(g_1) \sigma(g_2) \sigma(g_1 g_2)^{-1} 
   \in A
   \,,
 $$
@@ -581,7 +581,7 @@ $$
 where on the right we are using that by the section-property of $\sigma$ and the group homomorphism property of $p$
 
 $$
-  p(\sigma(g_1)^{-1} \sigma(g_2)^{-1} \sigma(g_1 g_2)) = 1
+  p(\sigma(g_1) \sigma(g_2) \sigma(g_1 g_2)^{-1}) = 1
 $$
 
 and hence by the exactness of the extension the argument is in $A \hookrightarrow \hat G$.
