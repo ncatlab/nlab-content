@@ -72,7 +72,7 @@ For $\mathcal{X}$ an [[(∞,1)-topos]], a **point** of $\mathcal{X}$ is a [[geom
 $$
   (p^\ast \dashv p_*) \;\colon\;
   \infty Grpd
-  \stackrel{\overset{\ast}{\leftarrow}}{\underset{p_\ast}{\to}}
+  \stackrel{\overset{p^\ast}{\leftarrow}}{\underset{p_\ast}{\to}}
   \mathcal{X}
 $$
 
