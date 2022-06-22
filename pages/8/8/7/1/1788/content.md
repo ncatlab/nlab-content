@@ -1,5 +1,101 @@
 
 
+\begin{tikzcd}[
+  sep=small
+]
+    &
+    A^\tau(\mathrm{X}_{b_2})
+    \ar[
+      ddr,
+      "{\sim}"{sloped},
+      shorten=-2pt
+    ]
+    \\[-27pt]
+    &&&
+    \mathrm{X}
+    \ar[
+      dddd,
+      "{p_{\mathrm{X}}}"
+    ]
+    \ar[
+      dr,
+      "{\tau}"{swap, xshift=1pt}
+    ]
+    \ar[
+      rr,
+      dashed
+    ]
+    &&
+    \mathrm{A} \times_G E G
+    \ar[
+      dl,
+      shorten=-2pt,
+      "{
+        p_{\mathrm{A} \times_G E G}
+      }"
+    ]
+    \\[-12pt]
+    A^\tau(\mathrm{X}_{b_1})
+    \ar[
+      uur,
+      shorten=-2pt,
+      "{
+        \sim
+      }"{sloped}
+    ]
+    \ar[
+      rr,
+      "{\sim}"{swap}
+    ]
+    &&
+    A^\tau(\mathrm{X}_{b_3})
+    &&
+    B G
+    \ar[
+      dddd,
+      "{
+        p_{B G}
+      }"
+    ]
+    \\
+    \\
+    &
+    \{b_2\}
+    \ar[
+      ddr,
+      "{
+        [\gamma_{23}]
+      }"
+    ]
+    \\[-27pt]
+    &&&
+    \mathrm{B}
+    \ar[
+      dr,
+      "{p_{\mathrm{B}}}"{swap}
+    ]
+    \\[-12pt]
+    \{b_1\}
+    \ar[
+      uur,
+      "{
+        [\gamma_{12}]
+      }"
+    ]
+    \ar[
+      rr,
+      "{
+        [\gamma_{23} \circ \gamma_{12}]
+      }"{swap}
+    ]
+    &&
+    \{b_3\}
+    &
+    &
+    \ast
+\end{tikzcd}
+
+
 $$
   \begin{array}{ll}
     kTop
