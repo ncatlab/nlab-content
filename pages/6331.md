@@ -47,6 +47,7 @@ The discussion below assumes that the base of the fibration is a [[homotopy 1-ty
 
 \linebreak
 
+We consider the following situation, see also (eq:NotationOverview).
 
 Let 
 
@@ -570,6 +571,8 @@ Here each step is the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)
 and remembering that left [[base change]] $(\tau_b)_!$ is given simply by post-[[composition]] with $\tau_b$.
 \end{remark}
 
+
+
 Now we may state and prove the twisted-cohomology generalization of Prop. \ref{FiberwiseNonAbelianCohomologySetsFormLocalSystem}:
 
 \begin{proposition}\label{FiberwiseTwistedNonAbelianCohomologySetsFormLocalSystem}
@@ -586,6 +589,101 @@ Now we may state and prove the twisted-cohomology generalization of Prop. \ref{F
 of $X_b$,
 for any $b \in B$, arrange into a [[covering space]] over $B$, generalizing the un-twisted statement from Prop. \ref{FiberwiseNonAbelianCohomologySetsFormLocalSystem}.
 \end{proposition}
+\[\label{NotationOverview}\]
+\begin{tikzcd}[
+  sep=small
+]
+    &
+    A^\tau(\mathrm{X}_{b_2})
+    \ar[
+      ddr,
+      "{\sim}"{sloped, pos=.35},
+      shorten=-2pt
+    ]
+    \\[-27pt]
+    &&&
+    \mathrm{X}
+    \ar[
+      dddd,
+      "{p_{\mathrm{X}}}"
+    ]
+    \ar[
+      dr,
+      "{\tau}"{swap, xshift=1pt}
+    ]
+    \ar[
+      rr,
+      dashed
+    ]
+    &&
+    \mathrm{A} \times_G E G
+    \ar[
+      dl,
+      shorten=-2pt,
+      "{
+        p_{\mathrm{A} \times_G E G}
+      }"
+    ]
+    \\[-12pt]
+    A^\tau(\mathrm{X}_{b_1})
+    \ar[
+      uur,
+      shorten=-2pt,
+      "{
+        \sim
+      }"{sloped, pos=.6}
+    ]
+    \ar[
+      rr,
+      "{\sim}"{swap}
+    ]
+    &&
+    A^\tau(\mathrm{X}_{b_3})
+    &&
+    B G
+    \ar[
+      dddd,
+      "{
+        p_{B G}
+      }"
+    ]
+    \\
+    \\
+    &
+    \{b_2\}
+    \ar[
+      ddr,
+      "{
+        [\gamma_{23}]
+      }"
+    ]
+    \\[-27pt]
+    &&&
+    \mathrm{B}
+    \ar[
+      dr,
+      "{p_{\mathrm{B}}}"{swap}
+    ]
+    \\[-12pt]
+    \{b_1\}
+    \ar[
+      uur,
+      "{
+        [\gamma_{12}]
+      }"
+    ]
+    \ar[
+      rr,
+      "{
+        [\gamma_{23} \circ \gamma_{12}]
+      }"{swap}
+    ]
+    &&
+    \{b_3\}
+    &
+    &
+    \ast
+\end{tikzcd}
 \begin{proof}
 In the evident generalization of (eq:HomotopyFiberOfFiberwiseMappingSpace), we have the following [[homotopy pullback]] diagram:
 $$
