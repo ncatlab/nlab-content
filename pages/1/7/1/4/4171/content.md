@@ -56,7 +56,7 @@ We say $(X,\omega)$ is a **$n$-plectic manifold** if
   the map
 
   $$
-    \hat \omega : T_x X \to \Lambda^n T_x^n X
+    \hat \omega : T_x X \to \Lambda^n T_x^* X
   $$
   
   given by contraction of vectors with forms
