@@ -41,7 +41,7 @@ A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[funct
 
 Let $\mathbb{F}$ be the category of natural numbers and functions between them (a [[skeleton]] of the [[FinSet|category of finite sets]]). This category has canonical chosen [[coproducts]]. 
 
-A **Lawvere [[theory]]** is a [[category]] $T$ with equipped with an [[identity-on-objects functor|identity-on-objects]] strictly [[power]]-preserving functor $J:\mathbb{F}^{\mathrm{op}} \to T$. (Power preservation is here equivalent to product preservation.)
+A **Lawvere [[theory]]** is a [[category]] $T$ equipped with an [[identity-on-objects functor|identity-on-objects]] strictly [[power]]-preserving functor $J:\mathbb{F}^{\mathrm{op}} \to T$. (Power preservation is here equivalent to product preservation.)
 =--
 
 +-- {: .un_remark}
