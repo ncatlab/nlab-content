@@ -391,12 +391,25 @@ For
 
 * $\tau_b \,\colon \,X_b \xrightarrow{\;\;} B G$ a map to the [[classifying space]] (eq:BGBeingCWCOmplex), 
 
-the *$\tau_b$-[[twisted cohomology|twisted]] [[non-abelian cohomology]]* of $X_b$ with [[coefficients]] in $A$ is
-$$
+the *$\tau_b$-[[twisted cohomology|twisted]] [[non-abelian cohomology]]* of $X_b$ with [[coefficients]] in $A$ is the [[connected components]] of the [[space of sections]] of the [[pullback bundle]] of $A \times_G E G$ along $\tau_b$:
+\[
+  \label{TwistedGeneralizedCohomologySets}
+  \begin{aligned}
   A^\tau(X_b)
   \;\coloneqq\;
   H^\tau(X_b;\, A)
+  &
   \;\coloneqq\;
+  \pi_0
+  \,
+  \Gamma_{X_b}
+  \big(
+    \tau_b^\ast
+    (A \times_G E G)
+  \big)
+  \\
+  &
+  \;\simeq\;
   \pi_0
   \bigg(
   (p_{B G})_\ast
@@ -404,7 +417,6 @@ $$
   \Big(
     (X_b, \tau_b)
     ,\,
-    p_{B}^\ast
     \big(   
       A \times_G E G
       ,\,
@@ -413,9 +425,152 @@ $$
   \Big)
   \bigg)
   \,,
-$$
+  \end{aligned}
+\]
 where the [[codomain]] on the right is the [[Borel construction]]  (eq:BorelConstructionAsObjectInSliceOverBG) on $A$.
 \end{definition}
+
+\begin{remark}\label{SpaceOfSectionsByRightBaseChangeOfFiberwiseMapping}
+To see that $(p_{B G})_\ast Map\big( (-,-),\, (-,-) \big)$ in the last line of (eq:TwistedGeneralizedCohomologySets) is really the same as the [[space of sections]], use the [[Yoneda lemma]] (for $kTop^{op}$) on the following sequence of [[natural isomorphisms]]:
+$$
+  \begin{array}{ll}
+    kTop
+    \Big(
+      U
+      ,\,
+      (p_{B G})_\ast
+      Map
+      \big(
+        (X_b, \tau_b)
+        ,\,
+        (A \times_G E G, p_{A \times_G E G})
+      \big)
+    \Big)
+    \\
+    \;\simeq\;
+    kTop_{/ B G}
+    \Big(
+      (p_{B G})^\ast
+      U
+      ,\,
+      Map
+      \big(
+        (X_b, \tau_b)
+        ,\,
+        (A \times_G E G, p_{A \times_G E G})
+      \big)
+    \Big)
+    \\
+    \;\simeq\; 
+    kTop_{/ B G}
+    \Big(
+      \big(
+        (p_{B G})^\ast U
+      \big)
+      \times
+      (X_b, \tau_b)
+      ,\,
+      (A \times_G E G, p_{A \times_G E G})
+    \Big)
+    \\
+    \;\simeq\; 
+    kTop_{/ B G}
+    \Big(
+      (\tau_b)_!
+      (U \times X_b, pr_{X_b})
+      ,\,
+      (A \times_G E G, p_{A \times_G E G})
+    \Big)
+    &
+    \text{by (eq:APullback)}
+    \\
+    \;\simeq\; 
+    kTop_{/ X_b}
+    \Big(
+      (U \times X_b, pr_{X_b})
+      ,\,
+      (\tau_b)^\ast
+      (A \times_G E G, p_{A \times_G E G})
+    \Big)
+    \\
+    \;\simeq\; 
+    kTop
+    \big(
+      U \times X_b
+      ,\,
+      (\tau_b)^\ast (A \times_G E G)
+    \big)
+    \underset{
+      kTop
+      \big(
+        U \times X_b
+        ,\,
+        X_b
+      \big)
+    }{\times}
+    \big\{
+      pr_{X_b}
+    \big\}
+    \\
+    \;\simeq\; 
+    kTop
+    \Big(
+    U 
+    ,\,
+    Map
+    \big(
+      X_b
+      ,\,
+      (\tau_b)^\ast (A \times_G E G)
+    \big)
+    \underset{
+      Map
+      \big(
+        X_b
+        ,\,
+        X_b
+      \big)
+    }{\times}
+    \big\{
+      \mathrm{id}_{X_b}
+    \big\}
+    \Big)
+    \\
+    \;\simeq\;
+    kTop
+    \Big(
+      U
+      ,\,
+      \Gamma_X
+      \big(
+        (\tau_b)^\ast
+        ( A \times_G E G )
+      \big)
+    \Big)
+  \end{array}
+$$
+Here each step is the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) of various [[adjoint functors]], except the marked one which is immediate from this [[pullback]] square:
+\[
+  \label{APullback}
+  \array{
+    U \times X_b
+    &\overset{pr_{X_b}}{\longrightarrow}&
+    X_b
+    \\
+    \big\downarrow
+    &{}^{{}_{(pb)}}&
+    \big\downarrow\mathrlap{{}^{\tau_b}}
+    \\
+    U \times B G
+    &\underset{pr_{B G}}{\longrightarrow}&
+    B G
+    \mathrlap{\,.}
+  }
+\]
+and remembering that left [[base change]] $(\tau_b)_!$ is given simply by post-[[composition]] with $\tau_b$.
+\end{remark}
+
+Now we may state and prove the twisted-cohomology generalization of Prop. \ref{FiberwiseNonAbelianCohomologySetsFormLocalSystem}:
 
 \begin{proposition}\label{FiberwiseTwistedNonAbelianCohomologySetsFormLocalSystem}
 **(fiberwise twisted non-abelian cohomology sets form local system)**
