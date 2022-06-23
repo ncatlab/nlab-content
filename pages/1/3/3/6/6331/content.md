@@ -26,7 +26,7 @@ A *Gauss-Manin connection* is a canonical [[flat connection]] on [[fiber bundles
 ## For fiber bundles
  {#ForFiberBundles}
 
-The existence of a flat connection on bundles of fiberwise-chomology groups is easy to understand in the case that the [[fibers]] form a [[locally trivial bundle|locally trivial]] [[fiber bundle]]: In this case the fiberwise cohomology of the local trivialization of this fiber bundle is a local trivialization of the bundle of its fiberwise cohomology groups.
+The existence of a flat connection on bundles of fiberwise-cohomology groups is easy to understand in the case that the [[fibers]] form a [[locally trivial bundle|locally trivial]] [[fiber bundle]]: In this case the fiberwise cohomology of the local trivialization of this fiber bundle is a local trivialization of the bundle of its fiberwise cohomology groups.
 
 Simple as this may appear, at least in the case of fiberwise [[twisted cohomology]] this case subsumes (for forgetful fibrations of [[configuration spaces of points]] in the plane) the profound example of solutions to the [[Knizhnik-Zamolodchikov equation]], identified as such via the  [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) -- this is highlighted as such in [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98), reproduced as Example \ref{ExampleOfHypergeometricKZEquations} below.
 
@@ -164,7 +164,7 @@ for the *[[non-abelian cohomology]]* of $X_b$ with [[coefficients]] in $A$.
 \linebreak
   For $A \,=\, K(n,\mathbb{C})$ an [[Eilenberg-MacLane space]] (here of the additive [[abelian group]] of [[complex numbers]]), Def. \ref{NonAbelianCohomology} yields [[ordinary cohomology|ordinary]] [[complex cohomology]]
 $$
-  H^n(X_b; \mathhb{C})
+  H^n(X_b; \mathbb{C})
   \,\simeq\,
   \pi_0 Map\big(X_b, \, K(\mathbb{C},n)\big)
   \,.
