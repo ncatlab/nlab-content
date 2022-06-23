@@ -28,7 +28,7 @@ The Kleisli presentation of a $V$-enriched monad on a $V$-category $C$ comprises
 
 * for every object $X$, a morphism $\eta_X:I \to C(X,T(X))$ in $V$;
 
-* for objects $X,Y,Z$, a morphism $\ast:C(X,T(Y))\to C(T(X),T(Y))$ in $V$;
+* for objects $X,Y$, a morphism $\ast:C(X,T(Y))\to C(T(X),T(Y))$ in $V$;
 
 such that 
 
