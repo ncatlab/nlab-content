@@ -315,11 +315,12 @@ under the name "universe extensionality".  These authors formulate almost the mo
 
 The univalence axiom has famously come to be attributed to [[Vladimir Voevodsky]], though early documentation is hard to come by. 
 
+
 The first technical understanding of univalence in simplicial sets seems to be due to:
 
-* {#Bousfield06} [[Aldridge Bousfield]], [email to VV from 01 May 2006 10:10:30 CDT](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/YSQz-jJ_AAAJ)
+* {#Bousfield06} [[Aldridge Bousfield]], [email to VV from 01 May 2006 10:10:30 CDT](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/YSQz-jJ_AAAJ) $[$[[BousfieldOnUnivalence.jpg:file]]$]$
 
-(which 6 years later came to be written up as [Kapulkin, Lumsdaine & Voevodsky12](#KapulkinLumsdaineVoevodsky12)).
+(which 6 years later came to be written up as [Kapulkin, Lumsdaine & Voevodsky12](#KapulkinLumsdaineVoevodsky12) and another 10 years later was published as [Kapulkin & Lumsdaine 2021](#KapulkinLumsdaine21)).
 
 The first mentioning by Voevodsky of the term "univalence" by email is 3.5 years later, from [Dec. 30 2009](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/3N2xxxfSAAAJ) (according to [Grayson, Oct. 2017](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/-Lp5dxTTAAAJ)).
 
@@ -338,9 +339,15 @@ appears the claim that:
 
 > have been working on the ideas that led to the discovery of univalent models since 2005 and gave the first public presentation on this subject at Ludwig-Maximilians-Universität München in November 2009.
 
+
+
 A clean and comprehensive discussion finally appears in the textbook:
 
 * [[UF-IAS-2012|Univalent Foundations Project]], p. 4 & Sec. 2.10 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, 2013  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**)
+
+Voevodsky's ([Bousfield's](#Bousfield06)) original idea for the [[universal Kan fibration]] as a model for a univalent universe in [[simplicial sets]]/[[infinity-groupoids|$\infty$-groupoids]] was eventually published as:
+
+* {#KapulkinLumsdaine21} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
 
 Exposition and survey:
 
