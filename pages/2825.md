@@ -1,3 +1,8 @@
+Charles Waldo Rezk is a mathematician at the University of Illinois Urbana–Champaign.
+
+He got his PhD degree in 1996 at MIT, advised by [[Michael J. Hopkins]].
+
+His PhD students include [[Nathaniel Stapleton]] and [[Nima Rasekh]].
 
 * [website](http://www.math.uiuc.edu/~rezk/)
 
