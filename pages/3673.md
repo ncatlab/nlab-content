@@ -406,3 +406,4 @@ The right-transferred model structure on algebras for a 2-monad is from
 [[!redirects left-lifted model structure]]
 [[!redirects left-lifted model structures]]
 
+[[!redirects Kan transfer theorem]]
