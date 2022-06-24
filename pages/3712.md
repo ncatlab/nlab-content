@@ -76,6 +76,17 @@ Maurer-Cartan equation is called also structure equation when used to treat the 
 
 ## References
 
+On the equivalence between flat connections and [[group homomorphisms]] out of the [[fundamental group]] (over each [[connected component]]):
+
+* [[Pierre Deligne]], §I.1 of: *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
+
+* [[Alexandru Dimca]], Prop. 2.5.1 of: *Sheaves in Topology*, Universitext, Springer (2004) $[$[doi:10.1007/978-3-642-18868-8](https://doi.org/10.1007/978-3-642-18868-8)$]$
+
+
+For the generalization of this statement to non-flat connections see the references at *[[parallel transport]]* [here](parallel+transport#ReferencesInTermsOfParallelTransport).
+
+See also
+
 * {#Milnor} [[John Milnor]], _On the existence of a connection with curvature zero, Comm. Math. Helv. **32** (1957/58) 215-223 $[$[dml:139154](http://eudml.org/doc/139154)$]$
   
 
