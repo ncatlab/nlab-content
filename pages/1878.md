@@ -380,6 +380,14 @@ The category of diagrams indexed by a fixed small category $D$, taking values in
 
 ## References ##
 
+The original reference is Chapter II of
+
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Model Categories and More General Abstract Homotopy Theory]], [PDF](https://web.math.rochester.edu/people/faculty/doug/otherpapers/dhk.pdf)
+
+In particular, the Kan recognition theorem is in §II.8 and the Kan transfer theorem is in §II.9.
+This manuscript draft later transformed in 
+[[Homotopy Limit Functors on Model Categories and Homotopical Categories]], losing the content on cofibrantly generated model categories in the process.
+
 Textbook accounts:
 
 * {#Hirschhorn03} [[Philip Hirschhorn]], Sec. 11 in: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
