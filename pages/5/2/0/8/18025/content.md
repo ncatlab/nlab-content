@@ -1,3 +1,6 @@
+Stewart Beauregard Priddy is a mathematician at Northwester University.
+
+He got his PhD in 1968 at MIT, advised by [[Daniel M. Kan]].
 
 * [webpage](http://www.math.northwestern.edu/~priddy/)
 
@@ -14,3 +17,5 @@ On the [[group completion theorem]]:
 * [[model structure on simplicial Lie algebras]]
 
 category: people
+
+[[!redirects Stewart B. Priddy]]
