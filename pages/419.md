@@ -476,6 +476,8 @@ See [[model structure on monoids in a monoidal model category]].
 
 The first mention of monoidal model categories (without the unit axiom) under this name is in
 
+* [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], [[Model Categories and More General Abstract Homotopy Theory]], [PDF](https://web.math.rochester.edu/people/faculty/doug/otherpapers/dhk.pdf).  Mentioned in passing in Remark 55.10, with no definition given, but the preceding section discusses the pushout product axiom.
+
 * [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, [arXiv:math/9801077v1](https://arxiv.org/abs/math/9801077v1) (January 16, 1998).
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_, [arXiv:math/9801082v1](https://arxiv.org/abs/math/9801082v1) (January 19, 1998).
