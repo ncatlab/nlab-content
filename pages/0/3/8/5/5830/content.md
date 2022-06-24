@@ -498,13 +498,13 @@ with lecture notes in
 
 The full model in the [[classical model structure on simplicial sets]] is due to
 
-* {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The Simplicial Model of Univalent Foundations (after Voevodsky)_ ([arXiv:1211.2851](https://arxiv.org/abs/1211.2851))
+* {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
 
-The trickiest question in finding models of homotopy type theory is to validate the [[univalence axiom]].  The first model satisfying this axiom was constructed by Voevodsky using the standard [[model structure on simplicial sets]], hence for the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[discrete ∞-groupoids]].  Some expositions are:
+The trickiest question in finding models of homotopy type theory is to validate the [[univalence axiom]].  The first model satisfying this axiom was constructed by Voevodsky using the standard [[model structure on simplicial sets]], hence for the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[discrete ∞-groupoids]] (see also at *[[universal Kan fibration]]*).  Some expositions are:
 
-* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Univalence in simplicial sets*, [arXiv](http://arxiv.org/abs/1203.2553)
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Univalence in simplicial sets*, [arXiv:v](http://arxiv.org/abs/1203.2553)
 
-* [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky' s homotopy type theory]]
+* [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky's homotopy type theory]]
 
 * [[Ieke Moerdijk]] (notes by [[Chris Kapulkin]]): *Fiber bundles and univalence*, [link](http://www.pitt.edu/~krk56/fiber_bundles_univalence.pdf)
 
