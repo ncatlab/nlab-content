@@ -70,23 +70,23 @@ As indicated in [Lawvere 86, from p. 17 on](#Lawvere86)
 
 which underlies much of mathematics is at its heart controlled by the following elementary [[category theory|category theoretic]] reasoning:
 
-Let $S$ be some category whose objects we want to think of as certain simple spaces on which we want to model more general kinds of spaces. For instance $S = \Delta$, the [[simplicial category]], or $S = $ [[CartSp]], the category of $\mathbb{R}^n$ and smooth maps between them. 
+Let $C$ be some category whose objects we want to think of as certain simple spaces on which we want to model more general kinds of spaces. For instance $C = \Delta$, the [[simplicial category]], or $C = $ [[CartSp]], the category of $\mathbb{R}^n$ and smooth maps between them. 
 
-An ordinary [[manifold]], for instance, is a space required to be _locally isomorphic_ to an object in $S = CartSp$. But more generally, a space $X$ modeled on $S$ need only be _probeable_ by objects of $S$, giving a rule with which, to each test object $U \in S$, we assign the set of probing maps from $U$ to $X$,  such that this assignment is well-behaved with respect to morphisms in $S$. Such an assignment is nothing but a [[presheaf]] on $S$, i.e. a contravariant functor
+An ordinary [[manifold]], for instance, is a space required to be _locally isomorphic_ to an object in $C = CartSp$. But more generally, a space $X$ modeled on $C$ need only be _probeable_ by objects of $C$, giving a rule with which, to each test object $U \in C$, we assign the set of probing maps from $U$ to $X$,  such that this assignment is well-behaved with respect to morphisms in $C$. Such an assignment is nothing but a [[presheaf]] on $C$, i.e. a contravariant functor
 $$
-  X : S^{op} \to Set
+  X : C^{op} \to Set
   \,.
 $$
-Therefore general spaces modeled on $S$ are nothing but presheaves on $S$:
+Therefore general spaces modeled on $C$ are nothing but presheaves on $C$:
 $$
-  Spaces_S := PSh(S)
+  Spaces_C := PSh(C)
   \,.
 $$
-Of course this is an extremely general notion of spaces modeled on $S$. 
+Of course this is an extremely general notion of spaces modeled on $C$. 
 
 For example, any smooth manifold $M$ is a presheaf on CartSp by $F_M:= Hom_{Man}(-, M): CartSp^{op} \to Set$, where we consider CartSp as a full subcategory of Man, the category of [[smooth manifold|smooth manifolds]] and smooth maps between them. $F_M$ maps each $\mathbb{R}^n$ to the set of all the smooth ways that $\mathbb{R}^n$ can probe $M$.
 
-In particular, every object in $S$ is a space modeled on $S$, by the [[Yoneda lemma|Yoneda embedding]] $S \hookrightarrow Spaces_S$, whereby every object $X$ in $S$ is embedded as $Hom_S(-, X)$. That is, any object in $S$ is nothing but a consistent way to be probed by all the objects in $S$. 
+In particular, every object in $C$ is a space modeled on $C$, by the [[Yoneda lemma|Yoneda embedding]] $C \hookrightarrow Spaces_C$, whereby every object $c$ in $C$ is embedded as $Hom_C(-, c)$. That is, any object in $C$ is nothing but a consistent way to be probed by all the objects in $S$. 
 
 Now take a space $X$ modeled on $S$, and consider the set of _quantities_ on $X$ with values in $U \in S$. It should be
 $$
