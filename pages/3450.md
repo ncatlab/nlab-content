@@ -1,5 +1,3 @@
-[[!redirects lmeier]]
-[[!redirects infinity-group]]
 
 
 +-- {: .rightHandSide}
@@ -35,14 +33,6 @@ Under the [[homotopy hypothesis|identification]] of [[∞Grpd]] with [[Top]] thi
 
 An **$\infty$-Lie group** is accordingly a group object in [[∞-Lie groupoid]]s. And so on.
 
-### In homotopy type theory
-
-In [[homotopy type theory]], an __$\infty$-group__ or __pointed connected type__ consists of
-
-* A type $G$
-* A basepoint $e:G$
-* A 0-connector 
-$$\kappa_1:\prod_{f:G \to \mathbb{1}} \prod_{a:\mathbb{1}} \mathrm{isContr}(\left[\mathrm{fiber}(f, a)\right]_{0})$$
 
 
 ## Properties
@@ -157,15 +147,20 @@ Discussion of $\infty$-groups in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], *Notes on higher groups and projective spaces*, 2016 ([pdf](https://www2.mathematik.tu-darmstadt.de/~buchholtz/higher-groups.pdf))
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Section 4.6 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
 
-* Marc Bezem, Ulrik Buchholtz, Pierre Cagne, Bjørn Ian Dundas, and Daniel R. Grayson, [Symmetry book](https://unimath.github.io/SymmetryBook/book.pdf) (2021) 
+
+[[!redirects infinity-groups]]
+
+[[!redirects infinity-group]]
+[[!redirects infinity-groups]]
+
 
 [[!redirects ∞-group]]
 [[!redirects ∞-groups]]
-[[!redirects infinity-groups]]
 
 [[!redirects pointed connected type]]
 [[!redirects pointed connected types]]
 
 category:∞-groupoid
+
