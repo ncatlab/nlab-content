@@ -15,7 +15,7 @@ This theorem further amplifies the analogy to the [[Segal-Carlsson completion th
 
 The result is due to
 
-* {#Rector74} D. L. Rector, _Modular characters and K-theory with coefficients in a finite field_, Journal of Pure and Applied Algebra Volume 4, Issue 2, April 1974, Pages 137-158 (<a href="https://doi.org/10.1016/0022-4049(74)90019-X">doi:10.1016/0022-4049(74)90019-X</a>)
+* {#Rector74} [[David L. Rector]], _Modular characters and K-theory with coefficients in a finite field_, Journal of Pure and Applied Algebra Volume 4, Issue 2, April 1974, Pages 137-158 (<a href="https://doi.org/10.1016/0022-4049(74)90019-X">doi:10.1016/0022-4049(74)90019-X</a>)
 
 Its interpretation as amplifying the identification of [[stable cohomotopy]] with the algebraic K-theory of the "[[field with one element]]" is highlighted in 
 
