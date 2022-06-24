@@ -614,10 +614,9 @@ See [[combinatorial simplicial model category]].
 
 Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]. Apparently Smith will eventually present a book on this subject. To date, however, his ideas and results appear reproduced in articles of other authors.
 
-After [[Jeff Smith]] presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently lemma 1.8 in 
+After [[Jeff Smith]] presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently Theorem 1.7 in 
 
 * {#Beke} [[Tibor Beke]], _Sheafifiable homotopy model categories_, Math. Proc. Cambr. Phil. Soc. 129 (2000), 447&#8211;475 ([arXiv:math/0102087](http://arxiv.org/abs/math/0102087))
- 
 
 The definition of combinatorial model categories appears also for instance as 
 
