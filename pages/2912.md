@@ -1,6 +1,13 @@
 
 > not to be confused with [[Daniel Kahn]]
 
+Daniel Marinus Kan was a homotopy theorist working at MIT.
+He originated much of modern [[homotopy theory]] and [[category theory]].
+
+He got his PhD degree in 1955 from the Hebrew University of Jerusalem, advised by [[Samuel Eilenberg]].
+
+His PhD students include [[David L. Rector]], [[Aldridge K. Bousfield]], [[Stewart B. Priddy]], [[Emmanuel Dror Farjoun]], [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Jeffrey H. Smith]], [[David A. Blanc]].
+
 ***
 
 * [English wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Kan)
