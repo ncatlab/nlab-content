@@ -30,7 +30,7 @@ The existence of a flat connection on bundles of fiberwise-cohomology groups is 
 
 Simple as this may appear, at least in the case of fiberwise [[twisted cohomology]] this case subsumes (for forgetful fibrations of [[configuration spaces of points]] in the plane) the profound example of solutions to the [[Knizhnik-Zamolodchikov equation]], identified as such via the  [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) -- this is highlighted as such in [Etingof, Frenkel & Kirillov 1998, §7.5](#EtingofFrenkelKirillov98), reproduced as Example \ref{ExampleOfHypergeometricKZEquations} below.
 
-In the following we give a more abstract/formal ([[model category|model]] [[category theory|category theoretic]]/[[homotopy theory|homotopy theoretic]]) argument for the existence and construction of the Gauss-Manin connection for [[twisted cohomology]] on a class of [[fiber bundles]] which subsume the case that gives the [[KZ-equation]], namely projections of [[configuration spaces of points]] (Ex. \ref{ForgetfulMapBetweenConfigurationSpaces} below).
+In the following we give (following [SS22](#SS22)) a more abstract/formal ([[model category|model]] [[category theory|category theoretic]]/[[homotopy theory|homotopy theoretic]]) argument for the existence and construction of the Gauss-Manin connection for [[twisted cohomology]] on a class of [[fiber bundles]] which subsume the case that gives the [[KZ-equation]], namely projections of [[configuration spaces of points]] (Ex. \ref{ForgetfulMapBetweenConfigurationSpaces} below).
 
 This following more abstract argument has the advantage that it applies at once to all [[generalized cohomology]]-theories for which [[classifying spaces]] exist ([[Whitehead-generalized cohomology theories]] and more general [[non-abelian cohomology]]-theories, such as unstable [[Cohomotopy]]), and that its structure is readily formulated in general [[(infinity,1)-topos|$(\infty,1)$-toposes]] and in [[homotopy type theory]]. In fact, in that formal language the following construction of the Gauss-Manin connection for twisted cohomology on fibers of a fiber bundle is so simple that it becomes essentially a tautology.
 
@@ -1096,9 +1096,11 @@ Textbook accounts:
 
 * {#Kulikov98} [[Valentine S. Kulikov]], Part I of: *Mixed Hodge Structures and Singularities*, Cambridge University Press (1998) $[$[doi:10.1017/CBO9780511758928](https://doi.org/10.1017/CBO9780511758928)$]$
 
-* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 (Def. 9.13) of: _[[Hodge theory and Complex algebraic geometry]] I_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
-
 * [[Alexandru Dimca]], Theorem 2.5.14 in: *Sheaves in Topology*, Universitext, Springer (2004) $[$[doi:10.1007/978-3-642-18868-8](https://doi.org/10.1007/978-3-642-18868-8)$]$
+
+and with focus on the special case of [[surjective submersions]] of [[smooth manifolds]]:
+
+* {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section 9.2.1 (Def. 9.13) of: _[[Hodge theory and Complex algebraic geometry]] I_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
 
 
 Lecture notes:
@@ -1118,6 +1120,10 @@ and review in the context of [hypergeometric solutions](BraidRepresentationsViaT
 
 * {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], Section 7.5 in: *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) $[$[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)$]$
 
+
+The discussion [above](#ForFiberBundles) follows:
+
+* {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[Gauss-Manin- and Knizhnik-Zamolodchikov connections via abstract homotopy theory](https://ncatlab.org/schreiber/show/Topological+Quantum+Computation+in+TED-K#GMConAbs)*
 
 
 See also:
