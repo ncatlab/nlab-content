@@ -1087,6 +1087,8 @@ Original articles:
 
 * [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
+* [[Phillip A. Griffiths]], *Periods of integrals on algebraic manifolds: Summary of main results and discussion of open problems*, Bull. Amer. Math. Soc. **76** (1970) 228-296 $[$[doi:10.1090/S0002-9904-1970-12444-2](https://doi.org/10.1090/S0002-9904-1970-12444-2)$]$
+
 
 Textbook accounts:
 
