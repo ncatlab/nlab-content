@@ -82,7 +82,7 @@ A full [[proof]] of the [[initiality conjecture]] for full [[Martin-Löf type th
 
 * {#deBoer20} Menno de Boer, _A Proof and Formalization of the Initiality Conjecture of Dependent Type Theory_, Stockholm 2020 ([diva2:1431287](https://su.diva-portal.org/smash/record.jsf?pid=diva2%3A1431287), [pdf](https://su.diva-portal.org/smash/get/diva2:1431287/FULLTEXT01.pdf))
 
-* {#BrunerieLumsdaine20} [[Guillaume Brunerie]], [[Peter LeFanu Lumsdaine]] (joint with Menno de Boer, [[Anders Mörtberg]]), _Initiality for Martin-Löf type theory_, [Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html), Sept 10, 2020 (upcoming)
+* {#BrunerieLumsdaine20} [[Guillaume Brunerie]], [[Peter LeFanu Lumsdaine]] (joint with Menno de Boer, [[Anders Mörtberg]]), _Initiality for Martin-Löf type theory_, [Homotopy Type Theory Electronic Seminar Talks](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html), Sept 10, 2020
 
 [[!redirects initiality conjectures]]
 
