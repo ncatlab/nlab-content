@@ -259,6 +259,13 @@ See [[higher parallel transport]] for details.
 
 ## References
 
+### General
+
+(...)
+
+### In terms of parallel transport
+ {#ReferencesInTermsOfParallelTransport}
+
 There are many equivalent statements of the ordinary definition of a [[connection on a bundle]]. The following lists references related to the statement that the connection is equivalently encoded in terms of its [[parallel transport]].
 
 Apparently one of the oldest occurrences of the idea that a  [[principal bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$ may be reconstructed from its [[holonomy|holonomies]] around all smooth loops for any fixed base point in the connected base space $X$ appears in
@@ -274,6 +281,10 @@ A detailed discussion of the differentiable case appears is
 * Costake Teleman  _Généralisation du groupe fondamental_, Annales Scientifiques de l?école Normale Supérieure 3, 77, 195-234. (1960) ([numdam:ASENS_1960_3_77_3_195_0](http://www.numdam.org/item?id=ASENS_1960_3_77_3_195_0))
 
 * Costake Teleman, Annali di Matematica, Pura ed Applicata, LXII, 379-412. (1963). 
+
+In the special case of [[flat connections]] the statement is classical, a canonical early account being:
+
+* [[Pierre Deligne]], §I.1 of: *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
 This history is recollected in the introduction of
 
