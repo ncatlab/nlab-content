@@ -137,6 +137,11 @@ The numbers $\lambda_i$ are called the __Schmidt co-efficients__ of $|\psi\rangl
 The __Schmidt number__ of $|\psi\rangle$ is the number of non-zero Schmidt coefficients of $|\psi\rangle$.
 =--
 
+\begin{remark}
+Although most often stated for finite dimensional Hilbert spaces, the Schmidt decomposition theorem stated as above works for $A$ and $B$ Hilbert spaces of arbitrary dimension (even uncountable).
+A proof follows through a straightforward application of the polar decomposition and spectral theorems to the positive trace-class operator given by the partial trace of the projection operator onto $\psi$ (see [MO: Schmidt Decomposition on infinite-dimensional Hilbert spaces](#MO20960).)
+\end{remark}
+
 
 ## Foundational issues
 
@@ -155,6 +160,8 @@ We need the [[Hahn–Banach theorem]] for $\epsilon$ to be a cross norm; but $\s
 * {#Ryan02} [[Raymond A. Ryan]],  _Introduction to Tensor Products of Banach Spaces_.  Springer Monographs in Mathematics. Springer-Verlag London. 2002.   ([doi:10.1007/978-1-4471-3903-4](https://www.springer.com/gp/book/9781852334376), [toc pdf](https://d-nb.info/962673145/04))
 
 * J. M. Egger, *Notes on Banach spaces and Hilbert spaces* ([pdf](https://ms.mcmaster.ca/~hanj18/jme-files/jme-banachnotes.pdf))
+
+* {#M20960} MathOverflow: [Schmidt decomposition on infinite-dimensional Hilbert spaces](https://mathoverflow.net/q/281012)
 
 See also:
 
