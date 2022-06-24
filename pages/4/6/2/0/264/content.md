@@ -119,6 +119,11 @@ where $W$ is the category whose objects are morphisms in $C$ and whose morphisms
 
 ## References
 
-See the references at *[[model category]]* or *[[classical homotopy category]]*.
+Early discussion:
+
+* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) $[$[doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6)$]$
+
+
+For more see the references at *[[model category]]* or *[[classical homotopy category]]*.
 
 [[!redirects homotopy categories]]
