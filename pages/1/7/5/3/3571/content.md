@@ -4,11 +4,17 @@
 
 ## Selected writings
 
-Introducing [[categories of fibrant objects]]:
+On abstract [[homotopy theory]] ([[localization]] to [[homotopy categories]]):
 
-* K. Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_.
+* {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) $[$[doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6)$]$
 
-On [[algebraic K-theory]]
+
+Introducing [[categories of fibrant objects]] for discussion of [[homotopy categories]] of [[simplicial presheaves]] (in hindsight: [[(infinity,1)-toposes|$(\infty,1)$-toposes]]):
+
+* K. Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_, Transactions of the American Mathematical Society **186** (1973) 419-458 $[$[jstor:1996573](http://www.jstor.org/stable/1996573)$]$
+
+
+On [[algebraic K-theory]]:
 
 * K. Brown, [[Stephen Gersten]], _Algebraic K-theory as generalized sheaf cohomology_, Algebraic K-theory, I: Higher K-theories (Proc. Conf., Battelle Memorial Inst., Seattle, Wash., 1972), pp. 266&#8211;292. Lecture Notes in Math., Vol. 341, Springer, Berlin, 1973, [pdf](http://www.math.cornell.edu/~kbrown/scan/1973.0341.0266.pdf), [djvu](http://www.math.cornell.edu/~kbrown/scan/1973.0341.0266.ocr.djv)
 
