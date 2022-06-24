@@ -13,3 +13,5 @@ Furthermore, this draft originates the modern definition of a [[model category]]
 The first mention of [[monoidal model categories]] (without the [[unit axiom]]) under this name is in Remark 55.10, with no definition given, but the preceding section discusses the [[pushout product]] axiom.
 
 All this material did not make it to the book.
+
+category: reference
