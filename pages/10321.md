@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _zero locus_ or _vanishing locus_ of a [[function]] is the set of points where it is vanishes, in that it takes the value [[zero]].
+The _zero locus_ or _vanishing locus_ of a [[function]] is the set of points where it vanishes, in that it takes the value [[zero]].
 
 ## Definition
 
