@@ -22,6 +22,10 @@ Establishing the [[Bousfield-Friedlander model structure]], in particular the [[
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf), [[BousfieldFriedlanderSpectra.pdf:file]])
 
+On the [[universal Kan fibration]] (origin of the [[univalence axiom]]):
+
+* {#Bousfield06} [[Aldridge Bousfield]], [email to VV from 01 May 2006 10:10:30 CDT](https://groups.google.com/g/homotopytypetheory/c/K_4bAZEDRvE/m/YSQz-jJ_AAAJ) $[$[[BousfieldOnUnivalence.jpg:file]]$]$
+
 
 
 ## Related $n$Lab entries
