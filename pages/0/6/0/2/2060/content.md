@@ -108,7 +108,7 @@ The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fi
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #UniversalLeftFibration}
 ###### Proposition
 
 The universal left fibration is the forgetful functor
@@ -116,7 +116,7 @@ $\infty Grpd_* \to \infty Grpd$. Its opposite is the universal right fibration.
 
 =--
 
-([Lurie 2009, Prop, 3.3.2.7](#Lurie09), [Cisinski 2019, Sec. 5.2](#Cisinski19))
+([Lurie 2009, Prop, 3.3.2.7](#Lurie09), [Cisinski 2019, Sec. 5.2](#Cisinski19), for the further restriction to the [[universal Kan fibration]] see also [Kapulkin & Lumsdaine 2021](#KapulkinLumsdaine12))
 
 +-- {: .num_prop }
 ###### Proposition
@@ -194,12 +194,23 @@ The direct description of the universal fibration is discussed at
 
 * {#direct} MathOverflow: _[A construction of the universal cocartesian fibration](https://mathoverflow.net/questions/383275/)_
 
+Discussion of the [[universal Kan fibration]] as a [[relation between type theory and category theory|categorical semantics]] for a [[univalence axiom|univalent]] [[type universe]] in [[homotopy type theory]]:
+
+
 Discussion of fibrations via [[(∞,2)-category]] theory 
 
 * [[Jacob Lurie]], chapter 5 _[Fibrations of ∞-Categories](https://kerodon.net/tag/01J2)_ (2021) in: _[[Kerodon]]_
 
+On the [[relation between type theory and category theory|categorical semantics]] of [[homotopy type theory]] in [[simplicial sets]]/[[infinity-groupoids|$\infty$-groupoids]]:
+
+* {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
+
+
+
+
 [[!redirects universal fibration of (∞,1)-categories]]
 
+[[!redirects universal left fibration]]
 [[!redirects universal right fibration]]
 
 [[!redirects universal Cartesian fibration]]
