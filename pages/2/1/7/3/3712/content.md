@@ -76,14 +76,13 @@ Maurer-Cartan equation is called also structure equation when used to treat the 
 
 ## References
 
-* [[John Milnor]], _On the existence of a connection with curvature zero, Comm. Math. Helv. v 32
-  {#Milnor}
+* {#Milnor} [[John Milnor]], _On the existence of a connection with curvature zero, Comm. Math. Helv. **32** (1957/58) 215-223 $[$[dml:139154](http://eudml.org/doc/139154)$]$
+  
 
 * {#Sullivan} [[Dennis Sullivan]], _A generalization of Milnor's inequality_ Comm. Math. Helv. v. 51
   
 
-* [[Hélène Esnault]], _Algebraic Differential Characters of Flat
-Connections with Nilpotent Residues_, in [[Nils Baas]] et al., The Abel Symposium 2007 ([pdf](bib.tiera.ru/b/91797))
+* [[Hélène Esnault]], _Algebraic Differential Characters of Flat Connections with Nilpotent Residues_, in [[Nils Baas]] et al., The Abel Symposium 2007 ([pdf](bib.tiera.ru/b/91797))
 
 [[!redirects integrable connection]]
 
