@@ -1,4 +1,4 @@
-
+* [[Guiseppe Peano]], *Sur une courbe, qui remplit toute une aire plane*, Mathematische Annalen, **36** (1890) 157–160 &#x5B;[doi:10.1007/BF01199438](https://doi.org/doi:10.1007/BF01199438)]
 | $k \,\backslash\, n$ | $-1$ | $0$ | $1$ | $2$ | $\cdots$ | $\infty$ |
 |--|--|--|--|--|--|--|
 | $0$ | trivial | [[pointed set]] | [[pointed object|pointed]] [[groupoid]] | [[pointed object|pointed]] [[2-groupoid]] | $\cdots$ | [[pointed infinity-groupoid|pointed $\infty$-groupoid]] | 
