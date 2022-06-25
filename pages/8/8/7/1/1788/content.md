@@ -1,5 +1,6 @@
+[[!redirects Onsager-Machlup]]
 #Onsager-Machlup
-The Onsager-Machlup function is a generalization of a density (Radon-Nikodym derivative) to non locally compact spaces. Rather than comparing a probability measure to a translation invariant measure, the idea is to compare a probability measure to translations of itself. 
+The [[Onsager-Machlup function]] is a generalization of a density (Radon-Nikodym derivative) to non locally compact spaces. Rather than comparing a probability measure to a translation invariant measure, the idea is to compare a probability measure to translations of itself. 
 
 More precisely, consider a locally compact metric group $(G, d)$ with Borel probability measure $\mu$.  Then there exists Haar measure $\lambda$, and we may thus consider the limit 
 \[f(z):=\lim_{\varepsilon\to 0} \frac{\mu(B_\varepsilon(z))}{\lambda(B_\varepsilon(z))}.\]
