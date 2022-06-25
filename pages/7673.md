@@ -515,7 +515,7 @@ Display maps are discussed in
 
 Categories with attributes are discussed in
 
-* John Cartmell, *Generalised algebraic theories and contextual categories*, Ph.D. thesis, Oxford, 1978 ([GitHub LaTeXing project](https://github.com/peterlefanulumsdaine/cartmell-thesis), organised by [[Peter LeFanu Lumsdaine]]. Currently only sections 1.0-1.4 are done)
+* [[John Cartmell]], *Generalised algebraic theories and contextual categories*, Ph.D. thesis, Oxford, 1978 ([GitHub LaTeXing project](https://github.com/peterlefanulumsdaine/cartmell-thesis), organised by [[Peter LeFanu Lumsdaine]]. Currently only sections 1.0-1.4 are done)
 
 
 * [[Eugenio Moggi]], *A category-theoretic account of program modules*, Math. Structures Comput. Sci. 1 (1991), no. 1, 103--139
@@ -551,7 +551,7 @@ This was formalized inside type theory with set quotients of [[higher inductive 
 
 Contextual categories were defined in
 
-* {#Cartmell86} John Cartmell, _Generalised algebraic theories and contextual categories_, Annals of Pure and Applied Logic Volume 32, 1986, Pages 209-243 ([doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9))
+* {#Cartmell86} [[John Cartmell]], _Generalised algebraic theories and contextual categories_, Annals of Pure and Applied Logic Volume 32, 1986, Pages 209-243 ([doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9))
 
 * {#Streicher91} [[Thomas Streicher]], *Semantics of type theory*, Progress in Theoretical Computer Science, Birkh&#228;user Boston Inc., Boston, MA, 1991, Correctness, completeness and independence results.
 
@@ -620,18 +620,19 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 * [[Benedikt Ahrens]], Jacopo Emmenegger, [[Paige Randall North]], [[Egbert Rijke]], _B-systems and C-systems are equivalent_ ([arXiv:2111.09948](https://arxiv.org/abs/2111.09948))
 
 ### Another overview
+ {}
 
 There are various different categorical models for dependent type theory available in the literature. Most are equivalent, or almost so. Here we collect the various definitions, together with (hopefully definitive) references. If you have trouble tracking down any of these refs, email me [PLL]. All equivalences asserted are literal equivalences of 1-categories.  
 
 #### Contextual Categories
 
-John Cartmell, [Generalised algebraic theories and contextual categories](http://www.ams.org/mathscinet-getitem?mr=865990), 1986; Thomas Streicher, [Semantics of Type Theory](http://www.ams.org/mathscinet-getitem?mr=1134134), 1991.
+* [[John Cartmell]], [Generalised algebraic theories and contextual categories](http://www.ams.org/mathscinet-getitem?mr=865990), 1986; Thomas Streicher, [Semantics of Type Theory](http://www.ams.org/mathscinet-getitem?mr=1134134), 1991.
 
 Very elementarily defined, and stratified by definition.
 
 #### Categories with Attributes, aka Type-categories
 
-John Cartmell, PhD thesis, [Generalised Algebraic Theories and Contextual Categories](https://dl.dropbox.com/u/2363336/CartmellThesis.pdf), 1978; Eugenio Moggi, [A category-theoretic account of program modules](http://www.ams.org/mathscinet-getitem?mr=1108806), 1989/1991; Andy Pitts, [Categorial Logic](http://www.ams.org/mathscinet-getitem?mr=1859470), 2000 (as type-categories).
+* [[John Cartmell]], PhD thesis, [Generalised Algebraic Theories and Contextual Categories](https://dl.dropbox.com/u/2363336/CartmellThesis.pdf), 1978; Eugenio Moggi, [A category-theoretic account of program modules](http://www.ams.org/mathscinet-getitem?mr=1108806), 1989/1991; Andy Pitts, [Categorial Logic](http://www.ams.org/mathscinet-getitem?mr=1859470), 2000 (as type-categories).
 
 Fairly elementarily defined. Stratified CwA’s are equivalent to contextual categories.
 
@@ -640,24 +641,28 @@ Fairly elementarily defined. Stratified CwA’s are equivalent to contextual cat
 Classically equivalent to CwA’s, but formulated slightly differently to be better-suited to formalisation.
 It can also be seen as a variable-free presentation of Martin-Lof's substitution calculus.
 
-* Peter Dybjer, [Internal Type Theory](http://www.ams.org/mathscinet-getitem?mr=1474535), 1996; [http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)
-* Martin Hofmann, [Syntax and Semantics of Dependent Types](http://www.ams.org/mathscinet-getitem?mr=1629519), 1997: [http://www.pps.univ-paris-diderot.fr/~mellies/mpri/mpri-ens/articles/hofmann-syntax-and-semantics-of-dependent-types.pdf](http://www.pps.univ-paris-diderot.fr/~mellies/mpri/mpri-ens/articles/hofmann-syntax-and-semantics-of-dependent-types.pdf)
-* Notes by Thierry Coquand on CwF are here: [what is a model of type theory](http://uf-ias-2012.wikispaces.com/file/view/cwf1.pdf/373011668/cwf1.pdf)?
-* Notes by Steve Awodey on CwF as a representable maps of presheaves: [notes on models of type theory](http://uf-ias-2012.wikispaces.com/file/view/notesTT.pdf/370624132/notesTT.pdf).
-* Pierre Clairambault and Peter Dybjer, [The biequivalence of locally cartesian closed categories and Martin-Löf type theory](http://uf-ias-2012.wikispaces.com/Semantics+of+type+theory#http://www.cse.chalmers.se/~peterd/papers/TLCA2011.pdf), 2011.
+* [[Peter Dybjer]], [Internal Type Theory](http://www.ams.org/mathscinet-getitem?mr=1474535), 1996; [http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)
+
+* [[Martin Hofmann]], [Syntax and Semantics of Dependent Types](http://www.ams.org/mathscinet-getitem?mr=1629519), 1997: [http://www.pps.univ-paris-diderot.fr/~mellies/mpri/mpri-ens/articles/hofmann-syntax-and-semantics-of-dependent-types.pdf](http://www.pps.univ-paris-diderot.fr/~mellies/mpri/mpri-ens/articles/hofmann-syntax-and-semantics-of-dependent-types.pdf)
+
+* Notes by [[Thierry Coquand]] on CwF are here: [what is a model of type theory](http://uf-ias-2012.wikispaces.com/file/view/cwf1.pdf/373011668/cwf1.pdf)?
+
+* Notes by [[Steve Awodey]] on CwF as a representable maps of presheaves: [notes on models of type theory](http://uf-ias-2012.wikispaces.com/file/view/notesTT.pdf/370624132/notesTT.pdf).
+
+* [[Pierre Clairambault]] and [[Peter Dybjer]], [The biequivalence of locally cartesian closed categories and Martin-Löf type theory](http://uf-ias-2012.wikispaces.com/Semantics+of+type+theory#http://www.cse.chalmers.se/~peterd/papers/TLCA2011.pdf), 2011.
 
 #### Comprehension Categories
 
-* Bart Jacobs, [Comprehension categories and the semantics of type dependency](http://www.ams.org/mathscinet-getitem?mr=1201808), 1993.
+* [[Bart Jacobs]], [Comprehension categories and the semantics of type dependency](http://www.ams.org/mathscinet-getitem?mr=1201808), 1993.
 
 More abstractly formulated than the others above, and more general by default. Full split comprehension categories are equivalent to CwA’s. The extra generality of comprehension cats is very useful for understanding the relationship with natural categorical models, where e.g. substitution may not be functorial on the nose.
 
 
 ##### Coherence for interpretation in comprehension categories
 
-* Pierre-Louis Curien, [Substitution up to isomorphism](http://uf-ias-2012.wikispaces.com/file/view/substitution.pdf/418826938/substitution.pdf), 1993.
+* [[Pierre-Louis Curien]], [Substitution up to isomorphism](http://uf-ias-2012.wikispaces.com/file/view/substitution.pdf/418826938/substitution.pdf), 1993.
 
-* Pierre-Louis Curien, Richard Garner and Martin Hofmann, [Revisiting the categorical interpretation of dependent type theory](http://uf-ias-2012.wikispaces.com/file/view/CGH-Glynn-anniv-2013.pdf/418828064/CGH-Glynn-anniv-2013.pdf), 2013.
+* [[Pierre-Louis Curien]], [[Richard Garner]] and [[Martin Hofmann]], [Revisiting the categorical interpretation of dependent type theory](http://uf-ias-2012.wikispaces.com/file/view/CGH-Glynn-anniv-2013.pdf/418828064/CGH-Glynn-anniv-2013.pdf), 2013.
 
 #### Joyal's Categorical Homotopy Type Theory
 
@@ -665,11 +670,11 @@ Andr'e Joyal's approach based on the notion of a "tribe".  Slides from a talk av
 
 #### Natural Models {#natural model}
 
-Steve Awodey's functorial reformulation of category-with-families semantics, including a theorem providing natural models in many homotopical categories.  [Draft paper from 28 May 2014 here.](http://www.andrew.cmu.edu/user/awodey/preprints/natural.pdf)
+[[Steve Awodey]]'s functorial reformulation of category-with-families semantics, including a theorem providing natural models in many homotopical categories.  [Draft paper from 28 May 2014 here.](http://www.andrew.cmu.edu/user/awodey/preprints/natural.pdf)
 
 #### Introductions and surveys
 
-Bart Jacobs book; Martin Hofmann 1997 paper; PLL (Peter LeFanu Lumsdaine) thesis. Sec 1.2; [nLab page](/nlab/show/categorical+model+of+dependent+types)
+* [[Bart Jacobs]] book; [[Martin Hofmann]] 1997 paper; PLL (Peter LeFanu Lumsdaine) thesis. Sec 1.2; [nLab page](/nlab/show/categorical+model+of+dependent+types)
 
 [[!redirects categorical model of dependent type theory]]
 [[!redirects categorical models of dependent type theory]]
