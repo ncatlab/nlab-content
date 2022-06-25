@@ -238,7 +238,7 @@ A derivation of these formulas from first principles is given in ([Fiorenza-Roge
 ### Geometric quantization
  {#GeometricQuantizationProper}
 
-Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists first of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical coordinates]] but not on [[canonical momenta]]. Second, [[subgroups]] of the group of (exponentiated) [[prequantum operators]] are made to descend to this space of quantum states, these are the [[quantum operators]] or [[quantum observables]].
+Given a [[prequantum bundle]] as above, the actual step of genuine _geometric quantization_ consists first of forming _half_ its space of sections in a certain sense. Physically this means passing to the space of [[wavefunctions]] that depend only on [[canonical positions]] but not on [[canonical momenta]]. Second, [[subgroups]] of the group of (exponentiated) [[prequantum operators]] are made to descend to this space of quantum states, these are the [[quantum operators]] or [[quantum observables]].
 
 #### Quantum states
  {#QuantumStates}
