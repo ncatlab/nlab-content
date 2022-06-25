@@ -35,6 +35,7 @@ A version of the [[k-tuply monoidal n-groupoid]] but for [[An-spaces|$A_n$ space
 Invoking the homotopy hypothesis, we define a __$k$-tuply associative $n$-groupoid__ to be an _$A_k$-$n$-truncated type_: a [[topological space]] which is a [[homotopy n-type]] with a multiplication that is associative up to higher homotopies involving up to nn variables.
 
 ## Periodic table
+ {#PeriodicTable}
 
 
 There is a [[periodic table]] of $k$-tuply monoidal $n$-groupoids:
