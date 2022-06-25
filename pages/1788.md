@@ -1,13 +1,15 @@
-* [[Guiseppe Peano]], *Sur une courbe, qui remplit toute une aire plane*, Mathematische Annalen, **36** (1890) 157–160 &#x5B;[doi:10.1007/BF01199438](https://doi.org/doi:10.1007/BF01199438)]
+
 | $k \,\backslash\, n$ | $-1$ | $0$ | $1$ | $2$ | $\cdots$ | $\infty$ |
 |--|--|--|--|--|--|--|
 | $0$ | trivial | [[pointed set]] | [[pointed object|pointed]] [[groupoid]] | [[pointed object|pointed]] [[2-groupoid]] | $\cdots$ | [[pointed infinity-groupoid|pointed $\infty$-groupoid]] | 
-| $1$ | trivial | [[group]] | [[2-group]] | [[3-group]] | $\cdots$ | [[infinity-group|$\infty$-group]] |
-| $2$ | " | [[abelian group]] | [[braided 2-group]] | [[braided 3-group]] | $\cdots$ | [[braided infinity-group|braided $\infty$-group]] | 
-| $3$ | " | " | [[symmetric 2-group]] | [[sylleptic 3-group]] | $\cdots$ | groupal [[E3-algebra|$E_3$-space]] |
-| $4$ | " | " | " | [[symmetric 3-group]] | $\cdots$ | groupal  [[E4-algebra|$E_4$-space]] |  
-| $\vdots$ | " | " | " | " | $\ddots$ | $\vdots$ |
-| $\infty$ | " | " | " | " | $\cdots$ | groupal [[E-infinity space|$E_\infty$-space]] <br/> / [[abelian infinity-group|abelian $\infty$-group]]  | 
+| $1$ | trivial | [[pointed set]] | [[pointed object|pointed]] [[groupoid]] | [[pointed object|pointed]] [[2-groupoid]] | $\cdots$ | [[pointed infinity-groupoid|pointed $\infty$-groupoid]] <br/> [[A1-space|$A_1$-space]] | 
+| $2$ | trivial | [[unital magma]] | [[H-spatial groupoid|magmoidal groupoid with unit]] | [[magmoidal 2-groupoid with unit]] | $\cdots$ | [[H-space]]/[[A2-space]] |
+| $3$ | " | [[monoid]] | [[H-monoidal groupoid]] | [[H-monoidal 2-groupoid]] | $\cdots$ | [[H-monoid]]/[[A3-space]] |
+| $4$ | " | " | [[A4-spatial groupoid]] | [[A4-spatial 2-groupoid]] | $\cdots$ | [[A4-space]] | 
+| $5$ | " | " | " | [[A5-spatial 2-groupoid]] | $\cdots$ | [[A5-space]] | 
+| $\vdots$ | " | " | " | " | $\ddots$ | $\vdots$ |  
+| $\infty$ | trivial | [[monoid]] | [[monoidal groupoid]] | [[monoidal 2-groupoid]] | $\cdots$ | [[A-infinity space|$A_\infty$-space]] | 
+
 
 </th><th>-1</th><th>0</th><th>1</th><th>2</th><th>...</th><th>\infty</th></tr>
 <tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object|pointed]] [[groupoid]]</td><td>[[pointed object|pointed]] [[2-groupoid]] </td><td>...</td><td>[[pointed object|pointed]] [[∞-groupoid]]</td></tr>
