@@ -80,13 +80,11 @@ The _[[basis theorem]]_, which is equivalent to the [[axiom of choice]], states 
 
 ## References
 
-The vector spaces seem to have been first introduced in
+The concept of vector spaces seem to have been first introduced in:
 
-* Giuseppe Peano, _Calcolo Geometrico secondo l'Ausdehnungslehre di H. Grassmann preceduto dalle Operazioni della Logica Deduttiva_, Torino 1888
+* [[Giuseppe Peano]], *Calcolo Geometrico secondo l'Ausdehnungslehre di H. Grassmann preceduto dalle Operazioni della Logica Deduttiva*, Fratelli Bocca Editori, Torino, 1888, pp. XI, 171 $[$[Mathematica Italiana opere 138](http://mathematica.sns.it/opere/138), [pdf](http://mathematica.sns.it/media/volumi/138/Calcolo%20geometrico%20secondo%20l'Ausdehnungslhere%20di%20H.%20Grassmann_bw.pdf)$]$
 
-Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]]):
-
-* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 8 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+  > (referring to [[Hermann Grassmann]]'s *[[Ausdehnungslehre]]*)
 
 
 The literature on vector spaces is now extremely large, including lots of elementary linear algebra textbooks. 
@@ -101,6 +99,12 @@ Classics include:
 Affine spaces are sets which are torsors over the abelian group of vectors of a vector space. Thus vector spaces may serve as a basis for the affine and for the Euclidean geometry. This approach has been invented by [[Hermann Weyl]] in 1918. Dieudonné wrote an influential book on such an approach to 2d and 3d Euclidian geometry, in which the basics of vector spaces in low dimension is introduced along the way (the book is intended for high school teachers):
 
 * Jean Alexandre Dieudonn&#233;, Linear algebra and geometry
+
+
+Discussion of vector space in [[univalent foundations of mathematics]] ([[homotopy type theory]]) is announced to appear in:
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 8 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/
+
 
 [[!redirects vector space]]
 [[!redirects vector spaces]]
