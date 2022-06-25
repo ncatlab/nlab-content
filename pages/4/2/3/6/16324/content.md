@@ -30,6 +30,13 @@ which introduced for the first time basic concepts of what today is known as [[l
 
 Grassmann advertizes his work (p. xxv) as being the theory of _[[extensive quantity]]_. The modern way of speaking about this is that the elements of the [[exterior algebra]] he considered are [[differential forms]] on [[Euclidean space]].
 
+A prominent followup is:
+
+* [[Giuseppe Peano]], *Calcolo Geometrico secondo l'Ausdehnungslehre di H. Grassmann preceduto dalle Operazioni della Logica Deduttiva*, Fratelli Bocca Editori, Torino, 1888, pp. XI, 171 $[$[Mathematica Italiana opere 138](http://mathematica.sns.it/opere/138), [pdf](http://mathematica.sns.it/media/volumi/138/Calcolo%20geometrico%20secondo%20l'Ausdehnungslhere%20di%20H.%20Grassmann_bw.pdf)$]$
+
+which introduces the modern concept of *[[vector spaces]]*.
+
+
 #Contents#
 * table of contents
 {:toc}
