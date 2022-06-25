@@ -1,6 +1,6 @@
 
 
-> This entry is about polarization of [[phase spaces]] (or of any [[symplectic manifold]]) into [[canonical coordinates]] and [[canonical momenta]]. Different concepts of a similar name include the _[[polarization identity]]_ (such as in an [[inner product space]] or a [[Jordan algebra]]) or _[[wave polarization]]_ (such as polarized [[light]]). On the other hand, the concept of _[[polarized algebraic variety]]_ is closely related.
+> This entry is about polarization of [[phase spaces]] (or of any [[symplectic manifold]]) into canonical "position" coordinates and [[canonical momenta]]. Different concepts of a similar name include the _[[polarization identity]]_ (such as in an [[inner product space]] or a [[Jordan algebra]]) or _[[wave polarization]]_ (such as polarized [[light]]). On the other hand, the concept of _[[polarized algebraic variety]]_ is closely related.
 
 
 +-- {: .rightHandSide}
@@ -244,3 +244,5 @@ A candidate for polarizations for higher geometric quantization in $n$-plectic g
 [[!redirects complex polarization]]
 [[!redirects complex polarizations]]
 
+[[!redirects canonical position]]
+[[!redirects canonical positions]]
