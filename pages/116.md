@@ -291,11 +291,14 @@ The original article that gives a definition equivalent to the modern definition
 
 * [[Heinrich Weber]], *Beweis des Satzes, dass jede eigentlich primitive quadratische Form unendlich viele Primzahlen darzustellen fähig ist*, Mathematische Annalen 20:3 (1882), 301–329 ([doi:10.1007/bf01443599](http://dx.doi.org/10.1007/bf01443599))
 
-Textbook account
-
-in relation to applications in [[physics]]:
+Textbook account in relation to applications in [[physics]]:
 
 * {#Sternberg94} [[Shlomo Sternberg]], *Group Theory and Physics*, Cambridge University Press 1994 ([ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853))
+
+Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]], but mostly for 1-groups):
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 4 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+
 
 See also:
 
