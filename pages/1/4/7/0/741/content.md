@@ -121,6 +121,10 @@ Early textbook accounts:
 
 * {#MillerBlichfeldtDickson16} G. A. Miller, H. F. Blichfeldt, [[Leonard E. Dickson]], _Theory and applications of finite groups_, Dover, New York, 1916 ([ark:/13960/t0ht2kb4x](https://archive.org/details/theoryapplicatio00milluoft/))
 
+Discussion in [[homotopy type theory]]/[[univalent foundations of mathematics]]:
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 7 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+
 
 On the [[representation theory]] ([[linear representations]]) of finite groups over [[algebraic number fields]]:
 
