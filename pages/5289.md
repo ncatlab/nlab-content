@@ -106,6 +106,18 @@ Discussion of [[derived noncommutative geometry]] over [[formal duals]] of $E_n$
 [[!redirects E5-algebra]]
 [[!redirects E5-algebras]]
 
+[[!redirects E2-space]]
+[[!redirects E2-spaces]]
+
+[[!redirects E3-space]]
+[[!redirects E3-spaces]]
+
+[[!redirects E4-space]]
+[[!redirects E4-spaces]]
+
+[[!redirects E5-space]]
+[[!redirects E5-spaces]]
+
 
 [[!redirects Ek-algebra]]
 
