@@ -30,7 +30,7 @@
 
 ## Idea
 
-In type theory, a 1-truncated [[An-space|$A_4$-space]]. In category theory, a [[magmoidal groupoid with unit]] with an [[associator]] that satisfy the [[pentagon identities]] but no higher coherence laws for the unitors. 
+In [[type theory]], a [[1-truncated]] [[An-space|$A_4$-space]]. In [[category theory]], a [[magmoidal groupoid with unit]] with an [[associator]] that satisfy the [[pentagon identities]] but no higher [[coherence laws]] for the [[unitors]]. 
 
 ## Definitions
 
