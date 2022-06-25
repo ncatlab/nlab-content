@@ -84,10 +84,17 @@ The vector spaces seem to have been first introduced in
 
 * Giuseppe Peano, _Calcolo Geometrico secondo l'Ausdehnungslehre di H. Grassmann preceduto dalle Operazioni della Logica Deduttiva_, Torino 1888
 
-The literature on vector spaces is now extremely large, including lots of elementary linear algebra textbooks. Classics include
+Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]]):
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 8 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+
+
+The literature on vector spaces is now extremely large, including lots of elementary linear algebra textbooks. 
+
+Classics include:
 
 * [[Michael Artin]], Algebra
-* Israel M. Gelfand, Lectures on linear algebra
+* [[Israel M. Gelfand]], Lectures on linear algebra
 * P. R. Halmos, Finite dimensional vector spaces
 * [[M M Postnikov]], Lectures on geometry, semester 2: Linear algebra
 
