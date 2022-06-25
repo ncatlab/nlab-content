@@ -6,3 +6,5 @@ A textbook by [[Bartel Leendert van der Waerden]].
 
 Based on lectures by [[Emil Artin]] and [[Emmy Noether]],
 it was the first textbook using the modern approach to [[algebra]].
+
+category: reference
