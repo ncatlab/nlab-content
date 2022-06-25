@@ -10,3 +10,5 @@ He got his PhD degree in 1926 at the University of Amsterdam, advised by Hendric
 
 Based on lectures by [[Emil Artin]] and [[Emmy Noether]],
 it was the first textbook using the modern approach to [[algebra]].
+
+category: reference
