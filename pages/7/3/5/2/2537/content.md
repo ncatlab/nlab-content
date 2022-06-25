@@ -36,3 +36,5 @@ category: people
 [[!redirects Israel Gel'fand]]
 [[!redirects I. M. Gelfand]]
 [[!redirects I. M. Gel'fand]]
+
+[[!redirects Israel M. Gelfand]]
