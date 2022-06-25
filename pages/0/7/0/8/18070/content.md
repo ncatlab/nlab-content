@@ -483,7 +483,7 @@ $$
   \big)
 $$
 \end{proposition}
-([Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), reviewed in [Williams 2020, pp. 9](#Williams20))
+([Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), reviewed in [Williams 2020, pp. 9](#Williams20))
 
 
 
@@ -1488,6 +1488,11 @@ Original articles:
 
 * {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
 
+* {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126
+$[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
+
+  > (focus on the resulting [[braid groups]])
+
 See also early occurences in [[physics]], listed [below](#ReferencesInQuantumFieldTheory).
 
 General accounts:
@@ -1504,7 +1509,7 @@ General accounts:
 
   (in [[algebraic topology]])
 
-* {#Williams20} Lucas Williams, *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8]( https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
+* {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
 
 In relation to the [[space of finite subsets]]:
