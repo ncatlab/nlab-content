@@ -71,3 +71,6 @@ In this case, the identity transport (eq:TheTransportFunctions) along paths in [
 
 [[!redirects identity transport]]
 [[!redirects identity transports]]
+
+[[!redirects type transport]]
+[[!redirects type transports]]
