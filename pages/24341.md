@@ -9,6 +9,10 @@ Introducing the modern notion of [[vector spaces]]:
 
   > (referring to [[Hermann Grassmann]]'s *[[Ausdehnungslehre]]*)
 
+Introducing the [[Peano curve]]:
+
+* {#Peano1890} [[Giuseppe Peano]], *Sur une courbe, qui remplit toute une aire plane*, Mathematische Annalen, **36** 1 (1890) 157–160 &#x5B;[doi:10.1007/BF01199438](https://doi.org/10.1007/BF01199438)]
+
 
 ## Related entries
 
@@ -16,6 +20,11 @@ Introducing the modern notion of [[vector spaces]]:
 
 * [[Peano curve]]
 
+* [[Borel's theorem on power series]]
+
+
 [[!redirects Peano]]
+
+[[!redirects Guiseppe Peano]]
 
 category: people
