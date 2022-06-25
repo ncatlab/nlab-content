@@ -24,7 +24,7 @@ These are equivalently:
 
 * [[infinite loop spaces]];
 
-* [[group object in an (infinity,1)-category|grouplike]] [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoids]];
+* [[group object in an (infinity,1)-category|grouplike]]$\;$ [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoids]];
 
 * [[abelian ∞-groups]].
 
