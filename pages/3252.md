@@ -102,6 +102,10 @@ $$
 
 ## References
 
+Discussion in [[univalent foundations of mathematics]] ([[homotopy type theory]], but mostly for 1-groups):
+
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]]: Chapter 5 of: *[[Symmetry]]* (2021) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$
+
 See also
 
 * Wikipedia, _[Subgroup](https://en.wikipedia.org/wiki/Subgroup)_
