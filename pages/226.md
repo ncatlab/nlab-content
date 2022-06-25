@@ -86,6 +86,9 @@ The concept of vector spaces seem to have been first introduced in:
 
   > (referring to [[Hermann Grassmann]]'s *[[Ausdehnungslehre]]*)
 
+An early expository account is in §14 of
+
+* [[Bartel Leendert van der Waerden]], _[[Moderne Algebra]]_, Volume I, Springer, 1930.
 
 The literature on vector spaces is now extremely large, including lots of elementary linear algebra textbooks. 
 
