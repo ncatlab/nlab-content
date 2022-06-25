@@ -404,9 +404,10 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 ### Group-theoretic definition
 
-#### Artin presentation
-
-The **Artin braid group**, $Br({n+1})$, defined using $n+1$ strands is a [[group]] given by 
+\begin{definition}\label{ArtinPresentation}
+**(Artin presentation)**
+\linebreak
+The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely generated group]] given via [[generators and relations]] by:
 
 * generators: $y_i$, $i = 1, \ldots, n$;
 
@@ -415,6 +416,9 @@ The **Artin braid group**, $Br({n+1})$, defined using $n+1$ strands is a [[group
   * $r_{i,j} \equiv y_i y_j y_i^{-1} y_j^{-1}$ for $i+1 \lt j$
 
   * $r_{i,i+1}\equiv y_i y_{i+1} y_i y_{i+1}^{-1} y_i^{-1} y_{i+1}^{-1}$ for $1 \leq i \lt n$. 
+
+\end{definition}
+
 
 #### In terms of automorphisms on free groups 
 
