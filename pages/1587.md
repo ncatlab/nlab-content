@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -1171,9 +1172,15 @@ Some of the problems of generalising covering spaces to deal with  wild spaces a
 
 * {#Brazas12} Jeremy Brazas, _Semicoverings_, Homology, Homotopy and Applications, 14 (2012), No. 1, 33-63. 
 
+Discussion of ([[homotopy types]] of) covering spaces via [[homotopy type theory]]:
 
+* [[Kuen-Bang Hou]], *Covering Spaces in Homotopy Type Theory*, extended abstract *Type Theory, Homotopy Theory and Univalent Foundations* (2013) $[$[doi:10.1007/978-3-319-21284-5_15](https://doi.org/10.1007/978-3-319-21284-5_15)$]$
 
+* [[Kuen-Bang Hou]], [[Robert Harper]], *Covering Spaces in Homotopy Type Theory*, Leibniz International Proceedings in Informatics (LIPIcs) **97** (2018) $[$[doi:10.4230/LIPIcs.TYPES.2016.11](https://doi.org/10.4230/LIPIcs.TYPES.2016.11), [pdf](https://drops.dagstuhl.de/opus/volltexte/2018/9851/pdf/LIPIcs-TYPES-2016-11.pdf)$]$
 
+and with emphasis on the [[(n-connected, n-truncated) factorization system|$n$-truncation]]-[[modal homotopy type theory]] involved:
+
+* [[Felix Cherubini]], [[Egbert Rijke]], Def. 8.5 of: *Modal Descent*, Mathematical Structures in Computer Science **31** 4 (2020) $[$[arXiv:2003.09713](https://arxiv.org/abs/2003.09713), [doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201)$]$
 
 [[!redirects covering spaces]]
 [[!redirects wrapping space]]
