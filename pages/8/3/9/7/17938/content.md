@@ -110,6 +110,8 @@ An example of such a space is the [[Warsaw circle]].
 
 ## References
 
+Named after [[Giuseppe Peano]].
+
 * Wikipedia, _[Peano curve](https://en.wikipedia.org/wiki/Peano_curve)_ 
 
 The proof of the Hahn-Mazurkiewicz theorem is given in section 31 (page 219ff) within chapter 8 of Willard's classic text: 
