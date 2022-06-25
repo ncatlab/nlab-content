@@ -320,9 +320,12 @@ There are useful [[group presentations]] of the braid groups.   We will return l
 ### Geometric definition 
  {#GeometricDefinition}
 
+(due to [Fadell & Neuwirth 1962, p. 118](#FadellNeuwirth62), [Fox & Neuwirth 1962, §7](#FoxNeuwirth62), reviewed in [Williams 2020, pp. 9](#Williams20))
+
 #### Ordinary braid group
 
 Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group).
+
 
 We say this in more detail:
 
@@ -418,6 +421,7 @@ The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely gener
   * $r_{i,i+1}\equiv y_i y_{i+1} y_i y_{i+1}^{-1} y_i^{-1} y_{i+1}^{-1}$ for $1 \leq i \lt n$. 
 
 \end{definition}
+(e.g. [Fox & Neuwirth 1962, §7](#FoxNeuwirth62))
 
 
 #### In terms of automorphisms on free groups 
@@ -544,7 +548,11 @@ Classical references:
 
 * [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
 
-* [[R. H. Fox]], L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) pp.119-126. [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
+* {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126
+$[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
+
+* {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
+
 
 Textbook accounts:
 
@@ -561,6 +569,9 @@ See also:
 * Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
 
 * Dale Rolfsen, *New developments in the theory of Artin’s braid groups* ([pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf))
+
+* {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
+
 
 On the [[group homology]] and [[group cohomology]] of braid groups:
 
