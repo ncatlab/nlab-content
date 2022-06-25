@@ -34,3 +34,10 @@ $$
 
 [[!redirects pointed homotopy types]]
 [[!redirects pointed homotopy class]]
+
+[[!redirects pointed infinity-groupoid]]
+[[!redirects pointed infinity-groupoids]]
+
+[[!redirects pointed ∞-groupoid]]
+[[!redirects pointed ∞-groupoids]]
+
