@@ -47,13 +47,18 @@ A __stably groupal $n$-groupoid__, or __symmetric groupal $n$-groupoid__, is an 
  {#PeriodicTable}
 
 There is a [[periodic table]] of $k$-tuply groupal $n$-groupoids:
-<table markdown="1"><tr><th>k&#8595;\n&#8594;</th><th>-1</th><th>0</th><th>1</th><th>2</th><th>...</th><th>$\infty$</th></tr>
-<tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object|pointed]] [[groupoid]]</td><td>[[pointed object|pointed]] [[2-groupoid]] </td><td>...</td><td>[[pointed object|pointed]] [[∞-groupoid]]</td></tr>
-<tr><th>1</th><td>trivial</td><td>[[group]]</td><td>[[2-group]]</td><td>[[3-group]]</td><td>...</td><td>[[∞-group]]</td></tr>
-<tr><th>2</th><td>"</td><td>[[abelian group]]</td><td>[[braided 2-group]]</td><td>[[braided 3-group]]</td><td>...</td><td>[[braided ∞-group]]</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>[[symmetric 2-group]]</td><td>[[sylleptic 3-group]]</td><td>...</td><td>groupal [[E3-algebra]]</td></tr>
-<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric 3-group]]</td><td>...</td><td>groupal [[E4-algebra]]</td></tr>
-<tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td><td>&#8942;</td></tr></table>
+
+| $k \,\backslash\, n$ | $-1$ | $0$ | $1$ | $2$ | $\cdots$ | $\infty$ |
+|--|--|--|--|--|--|--|
+| $0$ | trivial | [[pointed set]] | [[pointed object|pointed]] [[groupoid]] | [[pointed object|pointed]] [[2-groupoid]] | $\cdots$ | [[pointed infinity-groupoid|pointed $\infty$-groupoid]] | 
+| $1$ | trivial | [[group]] | [[2-group]] | [[3-group]] | $\cdots$ | [[infinity-group|$\infty$-group]] |
+| $2$ | " | [[abelian group]] | [[braided 2-group]] | [[braided 3-group]] | $\cdots$ | [[braided infinity-group|braided $\infty$-group]] | 
+| $3$ | " | " | [[symmetric 2-group]] | [[sylleptic 3-group]] | $\cdots$ | groupal [[E3-algebra|$E_3$-space]] |
+| $4$ | " | " | " | [[symmetric 3-group]] | $\cdots$ | groupal  [[E4-algebra|$E_4$-space]] |  
+| $\vdots$ | " | " | " | " | $\ddots$ | $\vdots$ |
+| $\infty$ | " | " | " | " | $\cdots$ | groupal [[E-infinity space|$E_\infty$-space]] <br/> / [[abelian infinity-group|abelian $\infty$-group]]  | 
+
+
 
 ## See also
 
