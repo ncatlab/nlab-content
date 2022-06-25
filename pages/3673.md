@@ -292,19 +292,18 @@ of the symmetric algebra functor and the forgetful functor between graded commut
 
 ## References
 
-The arguments for (right-)transfer of model structures go back to
+The arguments for right transfers of model structures go back to
 
 * {#Quillen} [[Dan Quillen]], _Homotopical Algebra_ , Lecture Notes in Math. 43, Springer-Verlag, Berlin-eidelberg-New York, 1967.
 
+The explicit study of right transfers of model structures on model categories is originally due to 
 
-Proofs can be found in 
+* {#Crans} [[Sjoerd Crans]], _Quillen closed model structure for sheaves_ ([doi](http://dx.doi.org/10.1016/0022-4049(94)00033-f), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.7459))
+
+
+Further proofs can be found in 
 
 * {#GoerssJardine} [[Paul Goerss]], [[J. F. Jardine]], _[[Simplicial homotopy theory]]_ , Progress Mathematics 174, Birkhäuser Verlag, Basel, 1999.
-
-
-The explicit study of (right-)transfer of model structures (on categories of sheaves) is apperently originally due to 
-
-* {#Crans} [[Sjoerd Crans]], _Quillen closed model structure for sheaves_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.7459))
 
 
 See also prop. 1.4.23 of
