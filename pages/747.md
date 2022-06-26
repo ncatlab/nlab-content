@@ -1307,6 +1307,8 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 
 * [[local fibration]]
 
+* [[Brown-Gersten property]]
+
 [[model topos]]
 
 * **model structure on simplicial presheaves**
@@ -1320,6 +1322,7 @@ between the projective [[model structure on functors]] $[C^{op}, Ch_\bullet^+_{p
 * [[model structure on presheaves of spectra]]
 
 * [[model structure for (2,1)-sheaves]]
+
 
 
 [[!include locally presentable categories - table]]
