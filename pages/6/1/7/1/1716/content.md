@@ -107,6 +107,11 @@ The appendix of
 
 talks about "stacked covers": these are useful for 'decomposing' numerable covers of products to a sort of parameterised version depending on a numerable cover of the first factor. This is important in looking at concordance of numerable bundles.
 
+Detailed review of numerable covers and discussion of [[descent]] over them for [[simplicial presheaves]] via a [[Brown-Gersten property]]:
+
+* [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks* &#x5B;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120)]
+
+
 
 [[!redirects numerable open covers]]
 
