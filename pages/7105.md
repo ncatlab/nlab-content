@@ -635,6 +635,8 @@ By duality (see [[universal coefficient theorem]]) an analogous statement holds 
 
 * [[diamond principle]]
 
+* [[Brown-Gersten property]]
+
 ## References
 
 An original reference is
