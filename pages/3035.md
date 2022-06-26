@@ -1,8 +1,8 @@
 **[[∞-Lie theory]]** ([[higher geometry]])
 
-## Background
+**Background**
 
-### Smooth structure
+*Smooth structure*
 
 * [[generalized smooth space]]
 
@@ -20,7 +20,7 @@
 
 * [[synthetic differential ∞-groupoid]]
 
-### Higher groupoids
+*Higher groupoids*
 
 * [[∞-groupoid]]
 
@@ -36,7 +36,7 @@
 
   * [[simplicial group]]
 
-### Lie theory
+*Lie theory*
 
 * [[Lie theory]]
 
@@ -47,7 +47,7 @@
   * [[Lie theory for stacky Lie groupoids]]
 
 
-## ∞-Lie groupoids
+**∞-Lie groupoids**
 
 * [[∞-Lie groupoid]]
 
@@ -67,7 +67,7 @@
 
   * [[Lie 2-group]]
 
-## ∞-Lie algebroids
+**∞-Lie algebroids**
 
 * [[∞-Lie algebroid]]
   
@@ -102,11 +102,11 @@
   * [[super Lie algebra]]
 
 
-## Formal Lie groupoids
+**Formal Lie groupoids**
 
 * [[formal group]], [[formal groupoid]]
 
-## Cohomology
+**Cohomology**
 
 * [[Lie algebra cohomology]]
 
@@ -120,17 +120,17 @@
 
 * [[nonabelian Lie algebra cohomology]]
 
-## Homotopy
+**Homotopy**
 
 * [[homotopy groups of a Lie groupoid]]
 
-## Related topics
+**Related topics**
 
 * [[∞-Chern-Weil theory]]
 
-## Examples
+**Examples**
 
-### $\infty$-Lie groupoids
+*$\infty$-Lie groupoids*
 
 * [[Atiyah Lie groupoid]]
 
@@ -142,7 +142,7 @@
 
 * [[principal ∞-bundle|smooth principal ∞-bundle]]
 
-### $\infty$-Lie groups
+*$\infty$-Lie groups*
 
 * [[orthogonal group]]
 
@@ -163,7 +163,7 @@
   * [[circle group]]
 
 
-### $\infty$-Lie algebroids
+*$\infty$-Lie algebroids*
 
 * [[tangent Lie algebroid]]
 
@@ -181,7 +181,7 @@
 
     * [[generalized complex geometry]]
 
-### $\infty$-Lie algebras
+*$\infty$-Lie algebras*
 
 * [[general linear Lie algebra]]
 
@@ -201,7 +201,6 @@
 
 * [[line Lie n-algebra]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Lie+theory+-+contents)</div>
 
 
 
