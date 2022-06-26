@@ -1,4 +1,24 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++-- {: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 [[simplicial presheaf|Simplicial presheaves]] equipped with the [[model structure on simplicial presheaves]] are one model/presentation for the [[(∞,1)-category of (∞,1)-sheaves]] on a given [[site]].
 
@@ -22,7 +42,7 @@ The main point is that the fibrant objects are essentially those simplicial pres
 
 Localizations of [[(∞,1)-presheaves]] at [[hypercovers]] are called [[hypercompletions]] in [section 6.5.3](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=534) of [[Higher Topos Theory]]. Notice that in [section 6.5.4](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=539) of [[Higher Topos Theory]] it is argued that it may be more natural _not_ to localize at [[hypercovers]], but just at [[covers]] after all.
 
-#Details#
+## Details
 
 A well-studied class of models/presentations for an [[(∞,1)-category of (∞,1)-sheaves]] is obtained using the [[model structure on simplicial presheaves]] on an  ordinary (1-categorical) [[site]] $S$, as follows.
 
@@ -158,7 +178,7 @@ $$
 
 
 
-## formulation in terms of homotopy limit ##
+## In terms of homotopy limit 
 
 (expanded version of remark 2.1 in [DHI](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf))
 
@@ -201,5 +221,11 @@ $$
   A(X) \stackrel{\simeq}{\to} holim A(U_\bullet)
   \,.
 $$
+
+## Related concepts
+
+* [[model structure on simplicial presheaves]]
+
+* [[(infinity,1)-sheaf|$(\infty,1)$-sheaf]]
 
 [[!redirects homotopy descent]]
