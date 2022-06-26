@@ -118,6 +118,7 @@ See also:
 
 * Wikipedia, _[Peano curve](https://en.wikipedia.org/wiki/Peano_curve)_
 
+* [[Hans Sagan]], *Space-filling curves* (1994) &lbrack;[doi:10.1007/978-1-4612-0871-6](https://doi.org/10.1007/978-1-4612-0871-6)]
 
 The proof of the Hahn-Mazurkiewicz theorem is given in section 31 (page 219ff) within chapter 8 of Willard's classic text: 
 
