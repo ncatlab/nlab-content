@@ -133,7 +133,7 @@ $$
 
 * [[CartSp]]${}_{top}$ ,  [[TopMfd]]
 
-* [[CartSp]]${}_{smth}$, **SmoothMfd**
+* [[CartSp]]${}_{smth}$ 
 
 * [[Diff]]
 
