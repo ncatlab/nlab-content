@@ -19,8 +19,17 @@
 
 * [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
 
-The term “covering” can refer to [[cover]], [[covering space]],
-or a [[covering family]] in a [[Grothendieck topology]].
+\linebreak
+
+The term “covering” may refer to:
+
+1. in [[topology]]:
+
+   [[covers]], such as [[open covers]] or [[covering spaces]]; 
+
+1. more generally in [[sheaf and topos theory]]:
+
+   [[covering families]] of a [[coverage]] or [[Grothendieck topology]]
 
 
 [[!redirects coverings]]
