@@ -668,7 +668,7 @@ $$
 
 =--
 
-e.g. ([Switzer 75, theorem 7.19](#Switzer75), [Aguilar-Gitler-Prieto 02, theorem 12.1.22](#AguilarGitlerPrieto02))
+e.g. ([Switzer 75, theorem 7.19](#Switzer75), [Aguilar-Gitler-Prieto 02, theorem 12.1.22](#AguilarGitlerPrieto02), see also at *[[Brown-Gersten property]]*)
 
 
 ## Relation between reduced and unreduced cohomology
