@@ -190,7 +190,7 @@ $$
 
 =--
 
-See also at _[[Mayer-Vietoris sequence]]_ [this proposition](Mayer-Vietoris+sequence#SequenceFromDiagonal).
+See also at _[[Mayer-Vietoris sequence]]_ ([this proposition](Mayer-Vietoris+sequence#SequenceFromDiagonal)) and at *[[homotopy equalizer]]* ([this section](homotopy+equalizer#RelationToHomotopyPullbacks)).
 
 +-- {: .proof}
 ###### Proof
