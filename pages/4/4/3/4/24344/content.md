@@ -28,11 +28,16 @@ The original discussion for the [[Zariski topology]]:
 
 Lecture notes on this case:
 
-* [[J. F. Jardine]],  *The Brown-Gersten descent theorem*  &#x5B;[pdf](https://www.uwo.ca/math/faculty/jardine/courses/localhom/localhom-lecture13.pdf)]
+* [[J. F. Jardine]],  *Brown-Gersten and Nisnevich descent, motivic descent*, Lecture 13 of: [Lectures on Local Homotopy Theory](https://math.sci.uwo.ca/~jardine/LocalHom/)  &#x5B;[pdf](https://www.uwo.ca/math/faculty/jardine/courses/localhom/localhom-lecture13.pdf)]
 
 The version for the [[Nisnevich topology]]:
 
 * [[Fabien Morel]], [[Vladimir Voevodsky]], *$\mathbb{A}^1$-homotopy theory of schemes*, Publications Mathématiques de l'Institut des Hautes Études Scientifiques **90**  (1999) 45–143 &#x5B;[doi:10.1007/BF02698831](https://doi.org/10.1007/BF02698831)]
+
+Detailed review of these two cases:
+
+* [[John F. Jardine]], Section 5.4 of: *Local homotopy theory*, Springer Monographs in Mathematics (2015) &#x5B;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)]
+
 
 Generalization of these two cases to [[completely decomposable topology|completely decomposable topologies]]:
 
