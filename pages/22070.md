@@ -35,33 +35,52 @@ in presence of additional structures such as [[model structures]].
 
 In the absence of nontrivial [[homotopies]] (in a bare [[1-category]]), homotopy equalizers reduce to ordinary [[equalizers]].
 
-## Computation
+
+
+## Properties
+
+### Relation to homotopy pullbacks
+ {#RelationToHomotopyPullbacks}
 
 In any [[model category]], the homotopy equalizer
 of a pair of arrows $f,g\colon A\to B$ can be computed as follows.
+
 First, if $B$ is not [[fibrant]] and the [[model category]] is not [[right proper]], construct a [[fibrant replacement]] $r\colon B\to R B$
 and replace $(f,g)$ with $(r f,r g)$.
 
 Assume now that $B$ is [[fibrant]] or the [[model category]] is [[right proper]].
 
 In the special case when the map
-$$(f,g)\colon A\to B\times B$$
-happens to be a [[fibration]],
-we can compute the ordinary [[equalizer]] of $f$ and $g$,
-which is a homotopy equalizer.
+$$
+  (f,g)
+  \;\colon\; 
+  A \longrightarrow B\times B
+$$
+happens to be a [[fibration]], we can compute the ordinary [[equalizer]] of $f$ and $g$, which is a homotopy equalizer.
 
 In the general case,
-factor the [[diagonal map]] $\Delta\colon B\to B\times B$
-as a [[weak equivalence]] $B \to P B$ followed by a [[fibration]] $P B\to B\times B$, then compute the (ordinary) [[pullback]] of
-$$A\to B\times B\leftarrow P B.$$
+factor the [[diagonal map]] $\Delta \;\colon\; B\to B\times B$
+as a [[weak equivalence]] $B \to P B$ followed by a [[fibration]] $P B \longrightarrow B\times B$, then compute the (ordinary) [[pullback]] of
+$$
+  A \longrightarrow B\times B \longleftarrow P B
+  \,.
+$$
 This is the homotopy equalizer of $f$ and $g$.
 
-## Homotopy fibers
+See also 
+
+* [this Prop.](homotopy+pullback#HomotopyPullbackByFactorizationLemma) at *[[homotopy pullback]]*  
+
+and 
+
+* [this Prop](https://ncatlab.org/nlab/show/Mayer-Vietoris+sequence#SequenceFromDiagonal) at *[[Mayer-Vietoris sequence]]*.
+
+### Relation to homotopy fibers
 
 For [[pointed model categories]], the homotopy equalizer
-of $f\colon A\to B$ and the [[zero morphism]] $0\colon A\to B$
-is known as the __[[homotopy fiber]]__ of $f$.
+of $f\colon A\to B$ and the [[zero morphism]] $0\colon A\to B$ is known as the __[[homotopy fiber]]__ of $f$.
 See there for more information.
+
 
 ## Examples
 
