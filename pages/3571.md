@@ -14,9 +14,9 @@ Introducing [[categories of fibrant objects]] for discussion of [[homotopy categ
 * K. Brown, _[[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]]_, Transactions of the American Mathematical Society **186** (1973) 419-458 $[$[jstor:1996573](http://www.jstor.org/stable/1996573)$]$
 
 
-On [[algebraic K-theory]]:
+On [[algebraic K-theory]] and the [[Brown-Gersten property]]:
 
-* K. Brown, [[Stephen Gersten]], _Algebraic K-theory as generalized sheaf cohomology_, Algebraic K-theory, I: Higher K-theories (Proc. Conf., Battelle Memorial Inst., Seattle, Wash., 1972), pp. 266&#8211;292. Lecture Notes in Math., Vol. 341, Springer, Berlin, 1973, [pdf](http://www.math.cornell.edu/~kbrown/scan/1973.0341.0266.pdf), [djvu](http://www.math.cornell.edu/~kbrown/scan/1973.0341.0266.ocr.djv)
+* [[Kenneth S. Brown]], [[Stephen Gersten]], *Algebraic K-theory as generalized sheaf cohomology*, Algebraic K-theory, I: Higher K-theories (Proc. Conf., Battelle Memorial Inst., Seattle, Wash., 1972), pp. 266-292. Lecture Notes in Math. **341** Springer (1973) &#x5B;[doi:10.1007/BFb0067062]( https://doi.org/10.1007/BFb0067062)]
 
 On [[group cohomology]]:
 
