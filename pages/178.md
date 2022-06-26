@@ -52,7 +52,7 @@ Every [[paracompact manifold|paracompact]] [[smooth manifold]] admits a differen
 +-- {: .proof}
 ###### Proof
 
-This is a folk theorem. A detailed proof is at [[good open cover]].
+This is mathematical [[folklore]]. A detailed proof is given at *[[good open cover]]*.
 
 =--
 
@@ -62,17 +62,16 @@ This is a folk theorem. A detailed proof is at [[good open cover]].
 
 Let [[SmoothMfd]] be the [[large site]] of 
 [[paracompact manifold|paracompact]] [[smooth manifold]]s 
-with [[smooth function]]s between them and equipped with the [[coverage]] 
+with [[smooth functions]] between them and equipped with the [[coverage]] 
 of [differentiably good open covers](#DifferentiablyGoodOpenCover).
 
 =--
 
-+-- {: .num_defn}
-###### Observation
 
-This does indeed define a coverage. The [[Grothendieck topology]] that is generated from it is the standard [[open cover]] topology.
+\begin{proposition}
+This does indeed define a [[coverage]]. The [[Grothendieck topology]] that is generated from it is the standard [[open cover]] topology.
+\end{proposition}
 
-=--
 
 +-- {: .proof}
 ###### Proof
@@ -87,8 +86,7 @@ $\{K_j \to \coprod_i U_i\}$. This is then a refinement of the original open cove
 +-- {: .num_defn}
 ###### Definition
 
-Let [[CartSp]]${}_{smooth}$ be the [[site]] of [[Cartesian space]]s with [[smooth function]]s between them and equipped with the [[coverage]]
-of [differentiably good open covers](#DifferentiablyGoodOpenCover).
+Let [[CartSp]]${}_{smooth}$ be the [[site]] of [[Cartesian spaces]] with [[smooth function]]s between them and equipped with the [[coverage]] of [differentiably good open covers](#DifferentiablyGoodOpenCover).
 
 =--
  
@@ -99,13 +97,20 @@ The [[(∞,1)-topos]] of **smooth $\infty$-groupoids** is the [[(∞,1)-category
 
 $$
   Smooth \infty Grpd 
-   :=
+   \coloneqq
   Sh_{(\infty,1)}(CartSp_{smooth})
   \,.
 $$
 
 
 =--
+
+\begin{remark}
+**([[Brown-Gersten property]])**
+\linebreak
+The [[homotopy descent]] of [[simplicial presheaves]] on the above site may conveniently be checked by a [[Brown-Gersten property]], see [there](Brown-Gersten+property#OverSmoothmanifolds).
+end{remark}
+
 
 
 ## Properties
