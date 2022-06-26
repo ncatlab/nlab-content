@@ -19,6 +19,9 @@ On the [[cobordism hypothesis]] for [[extended functorial field theory|extended]
 
 * [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
 
+On the [[Brown-Gersten property]] for [[simplicial presheaves]] over [[topological spaces]] and [[smooth manifolds]] ([[smooth infinity-groupoids|smooth $\infty$-groupoids]]):
+
+* {#Pavlov22} [[Dmitri Pavlov]], *Numerable open covers and representability of topological stacks* &#x5B;[arXiv:2203.03120](https://arxiv.org/abs/2203.03120)]
 
 
 
