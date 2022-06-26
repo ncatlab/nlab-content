@@ -24,7 +24,7 @@ The *Brown-Gersten property* is the statement that for certain [[Grothendieck to
 
 The original discussion for the [[Zariski topology]]:
 
-* {#BrownGersten73} [[Kenneth S. Brown]], [[Stephen Gersten]], *Algebraic K-theory as generalized sheaf cohomology*, Algebraic K-theory, I: Higher K-theories (Proc. Conf., Battelle Memorial Inst., Seattle, Wash., 1972), pp. 266-292. Lecture Notes in Math. **341** Springer (1973) &#x5B;[doi:10.1007/BFb0067062](https://doi.org/10.1007/BFb0067062)]
+* {#BrownGersten73} [[Kenneth S. Brown]], [[Stephen Gersten]], *Algebraic K-theory as generalized sheaf cohomology*, in: *Algebraic K-theory, I: Higher K-theories* (Proc. Conf., Battelle Memorial Inst., Seattle, Wash., 1972), pp. 266-292. Lecture Notes in Math. **341** Springer (1973) &#x5B;[doi:10.1007/BFb0067062](https://doi.org/10.1007/BFb0067062)]
 
 Lecture notes on this case:
 
