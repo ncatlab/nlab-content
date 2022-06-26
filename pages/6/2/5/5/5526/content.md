@@ -5,7 +5,7 @@
 
 **[[cohesive homotopy type theory]]**
 
-## Backround
+**Backround**
 
 * [[(∞,1)-topos theory]]
 
@@ -13,7 +13,7 @@
 
 * [[motivation for cohesive toposes]]
 
-## Definition
+**Definition**
 
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
@@ -28,7 +28,7 @@
 * [[cohesive topos]] / [[cohesive (∞,1)-topos]]
 
 
-## Presentation over a site
+**Presentation over a site**
 
 * [[locally connected site]] / [[locally ∞-connected site]]
 
@@ -44,7 +44,7 @@
 
 
 
-## Models
+**Models**
 
 
 * **[[discrete ∞-groupoid]]**
