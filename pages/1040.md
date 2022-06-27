@@ -49,11 +49,13 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ suc
 
 5. The [[forgetful functor]] $C^T \to C$ (where $C^T$ is the [[Eilenberg-Moore category]] of $T$-algebras) is a [[full and faithful functor]].
 
-6. There exists a pair of [[adjoint functors]] $F\dashv U$ such that the induced monad $(UF, U\epsilon F)$ is isomorphic to $(T,\mu)$ and $U$ is a [[full and faithful functor]]. 
+6. There exists a pair of [[adjoint functors]] $F\dashv U$ such that the induced monad $(UF, U\epsilon F)$ is isomorphic to $(T,\mu)$ and $U$ is a [[full and faithful functor]].
+
+7. The identity natural transformation $TT \Rightarrow TT$ is a [[distributive law]].
 
 =--
 
-e.g. ([Borceux, prop. 4.2.3](#Borceux)).
+e.g. ([Borceux, prop. 4.2.3](#Borceux)). For (7) see Lemma 3.4 of [RW95](#RosebrughWood95).
 
 +-- {: .num_prop #EquivalentConditions}
 ###### Proposition
@@ -383,6 +385,10 @@ Extension of idempotent monads along subcategory inclusions is discussed in
 * [[Carles Casacuberta]], Armin Frei, Tan Geok Choo, _Extending localization functors_ ,  Journal of Pure and Applied Algebra 103 (1995), 149-165 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cft.pdf))
 
 * A. Deleanu, A. Frei, [[Peter Hilton|P. Hilton]], _Idempotent triples and completion_, Math. Z. **143** (1975) pp.91-104. ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN266833020_0143&divID=LOG_0014&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN266833020_0143%7C&targetFileName=PPN266833020_0143_LOG_0014.pdf&))
+
+Discussion of idempotent comonads and their relation to adjoint strings is contained in
+
+* {#RosebrughWood95} [[Robert Rosebrugh]], and [[Richard Wood]] *Distributive adjoint strings.* Theory and applications of categories (1995), pages 119-145.
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
