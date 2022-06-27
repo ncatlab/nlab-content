@@ -102,7 +102,7 @@ where $C(U_i)$ is the [[Cech nerve]] 2-groupoid of some [[covering]]. The top mo
 
 ## References
 
-An first exposition is in the lecture notes
+A first exposition is in the lecture notes
 
 * Alissa Crans, _A survey of higher Lie theory_ ([pdf](http://myweb.lmu.edu/acrans/SurveyHigherLieTheory.pdf))
 
