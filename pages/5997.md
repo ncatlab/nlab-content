@@ -49,21 +49,60 @@ For $n = -1$ this says that [[effective epimorphisms in an (∞,1)-category]] ha
 
 ### Stability
 
-+-- {: .num_prop}
-###### Proposition
-
+\begin{prop}\label{nConnectedTruncatedIsStable}
 For all $n$, the $n$-connected/$n$-truncated factorization system is [[stable factorization system|stable]]: the class of [[n-connected]] morphisms is preserved under [[(∞,1)-pullback]].
 
-=--
+\end{prop}
 
 This appears as ([Lurie, prop. 6.5.1.16(6)](#Lurie)).
 
-+-- {: .num_cor}
-###### Corollary
+It follows that:
+\begin{prop}\label{HomotopyPullbackPreservesNImageFactorization}
+For all $n$, [[n-images]] are preserved by [[(∞,1)-pullback]]
+\end{prop}
+\begin{proof}
+Let $X \xrightarrow{f} Y$ with $n$-image $im_n(f)$.
+By the [[pasting law]] its [[(infinity,1)-pullback|$\infty$-pullback]] along any $g \,\colon\, X' \xrightarrow{\;} X$ may be decomposed as two consecutive $\infty$-pullbacks:
 
-For all $n$, [[n-images]] are preserved by [[(∞,1)-pullback]].
+\begin{tikzcd}
+  g^\ast X
+  \ar[r]
+  \ar[d]
+  \ar[dr, phantom, "{\mbox{\tiny(pb)}}"]
+  \ar[
+    dd,
+    bend right=50,
+    "{g^\ast f}"{swap}
+  ]
+  &
+  X
+  \ar[d, "{\mbox{\tiny $n$-cnct}}"{description}]
+  \ar[
+    dd,
+    bend left=50,
+    "{f}"
+  ]
+  \\
+  \mathrm{im}_n(g^\ast f)
+  \ar[r]
+  \ar[d]
+  \ar[dr, phantom, "{\mbox{\tiny(pb)}}"]
+  &
+  \mathrm{im}_n(f)
+  \ar[d, "{\mbox{\tiny $n$-trnct}}"{description}]
+  \\
+  Y'
+  \ar[
+    r,
+    "g"{swap} 
+  ]
+  &
+  Y
+\end{tikzcd}
 
-=--
+Here the pullback of the $n$-truncated map in again $n$-truncated since the right class of any orthogonal factorization system is stable under pullback. The analogous statement holds also for the $n$-connected map by Prop. \ref{nConnectedTruncatedIsStable}. Therefore the pullback of $im_n(f)$ along $g$ is indeed $im_n(g^\ast f)$, as shown.
+
+\end{proof}
 
 
 ## Examples
