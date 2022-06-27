@@ -85,7 +85,7 @@ For presheaves of *sets*, this is [Voevodsky 2010, Lem. 2.9 and Prop. 2.15](#Voe
 
 There are various interesting cd-structures on the category of [[schemes]] over a base $S$, which give rise to [[Grothendieck topologies]] like 
 
-* the [[Zariski topology]]. Here a square is distinguished iff the cospan part formed by open embeddings, which together form an open cover, and the square is a pullback square.
+* the [[Zariski topology]]. Here a square is distinguished iff the cospan part formed by [[open embeddings]], which together form an [[open cover]], and the square is a [[pullback square]].
 
 * the [[Nisnevich topology]]; 
 
@@ -100,7 +100,7 @@ There are various interesting cd-structures on the category of [[schemes]] over 
 ## References
 
 
-* Brad Drew, _Descente : Nisnevich et cdh_, Groupe de travail at Universit&#233; Paris 13 (Spring 2010) &#x5B;[pdf](http://www.math.univ-paris13.fr/~kelly/GdT/exposeVII.pdf)]
+* Brad Drew, *Descente: Nisnevich et cdh*, Groupe de travail at Universit&#233; Paris 13 (Spring 2010) &lbrack;[pdf](http://www.math.univ-paris13.fr/~kelly/GdT/exposeVII.pdf)&rbrack;
 
 * {#Voevodsky10} [[Vladimir Voevodsky]], Section 2 of: *Homotopy theory of simplicial presheaves in completely decomposable topologies*, Journal of Pure and Applied Algebra **214** 8 (2010) 1384-1398  &#x5B;[arXiv:0805.4578](https://arxiv.org/abs/0805.4578), [doi:10.1016/j.jpaa.2009.11.004](https://doi.org/10.1016/j.jpaa.2009.11.004)]
 
