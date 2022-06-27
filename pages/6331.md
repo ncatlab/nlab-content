@@ -43,8 +43,6 @@ The following is a (non-standard) general-abstract argument for the existence an
 
 The simple idea -- using that all these notions of cohomology have [[classifying spaces]] -- is that the fiberwise 0-truncation of the *[fiberwise mapping space](parameterized+homotopy+theory#FiberwiseMappingSpaces)* to that classifying space provides at once the [[covering space]] which exhibits the local system.
 
-The discussion below assumes that the base of the fibration is a [[homotopy 1-type]], which is the case in examples of interest (e.g. Ex. \ref{ForgetfulMapBetweenConfigurationSpaces} below). The construction in itself still works without this assumption, but then there is some kind of twist in the local system.
-
 \linebreak
 
 We consider the following situation, see also (eq:OverviewUntwisted) and (eq:NotationOverview).
@@ -56,14 +54,6 @@ Let
    1. a [[compactly generated topological space|compactly generated]] [[Hausdorff space]],
 
    1. [[locally path-connected topological space|locally path-connected]] and [[semi-locally simply-connected topological space|semi-locally simply connected]],
-
-   1. a [[homotopy 1-type]]
-
-      \[
-        \label{AssumptionThatBaseIsOneTruncated}
-        \underset{b \in B}{\forall}\;\;\; \pi_{n \geq 2}(B,b) \;\simeq\; 0
-        \,;
-      \]
 
 1. $(X \xrightarrow{p_X} B) \in kTop_{/B}$ be 
 
@@ -327,15 +317,9 @@ This is clearly a [[Hurewicz fibration]]. Since also $p_X$ is such by assumption
     \mathrlap{\,.}
   }
 \]
-Hence we may think of this diagram equivalently as representing the [[homotopy fiber product]] of $\{b\} \to B$ with the mapping fibration in the [[classical model structure on topological spaces]]. 
+Hence we may think of this diagram equivalently as exhibiting the [[homotopy pullback]] (in the [[classical model structure on topological spaces]]) of the mapping fibration along $\{b\} \to B$.
 
-Noticing that 
-
-1. this homotopy fiber product property is [[preserved limit|preserved]] by fiberwise [[0-truncation]] (for instance via [this Prop.](https://ncatlab.org/nlab/show/n-truncated+object+of+an+infinity1-category#nTruncationInToposPreservesFiniteProducts), using that [[classical model structure on topological spaces|$kTop_{Qu}$]] [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-topos|$\infty$-topos]] of [[infinity-groupoids|$\infty$-groupoids]]);
-
-1. the map $\{b\} \to B$ is already fiberwise 0-truncated, by assumption (eq:AssumptionThatBaseIsOneTruncated)
-
-it follows that the fiberwise 0-truncation of the fiberwise mapping space fibration has as [[homotopy fibers]] the [[non-abelian cohomology]]-sets (eq:NonAbelianCohomologySets):
+But since homotopy pullback preserves fiberwise 0-truncation (by [this Prop.](n-connected/n-truncated+factorization+system#HomotopyPullbackPreservesNImageFactorization)) it follows that the fiberwise 0-truncation of the fiberwise mapping space fibration has as [[homotopy fibers]] the [[non-abelian cohomology]]-sets (eq:NonAbelianCohomologySets):
 
 $$
   \array{
