@@ -83,7 +83,13 @@ For presheaves of *sets*, this is [Voevodsky 2010, Lem. 2.9 and Prop. 2.15](#Voe
 
 ## Examples
 
-There are various interesting cd-structures on the category of [[schemes]] over a base $S$, which give rise to [[Grothendieck topologies]] like the [[Zariski topology|Zariski]], [[Nisnevich topology|Nisnevich]] and [[cdh topology|cdh]] topologies.
+There are various interesting cd-structures on the category of [[schemes]] over a base $S$, which give rise to [[Grothendieck topologies]] like 
+
+* the [[Zariski topology]]. Here a square is distinguished iff the cospan part formed by open embeddings, which together form an open cover, and the square is a pullback square.
+
+* the [[Nisnevich topology]]; 
+
+* the [[cdh topology]].
 
 ## See also
 
