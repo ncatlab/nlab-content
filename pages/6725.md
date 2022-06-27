@@ -249,6 +249,9 @@ Discussion of [[phenomenology]]/[[string phenomenology]] for the [[heterotic M-t
 
 * {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
 
+and with emphasis on [[heterotic line bundle]]-models:
+
+* [[Sebastian Dumitru]], *The strongly coupled $E_8 \times E_8$ heterotic string: Geometry & Phenomenology* &lbrack;[arXiv:2206.12310](https://arxiv.org/abs/2206.12310)&rbrack;
 
 
 
