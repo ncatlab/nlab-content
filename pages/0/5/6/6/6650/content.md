@@ -20,7 +20,7 @@
 
 ## Definition
 
-An [[orthogonal factorization system]] $(E,M)$ on a [[category]] $C$ with [[pullbacks]] is called **stable** if $E$ is [[stability under pullback|stable under pullback]].
+An [[orthogonal factorization system]] $(E,M)$ on a [[category]] $C$ with [[pullbacks]] is called **stable** if also the left class $E$ is [[stability under pullback|stable under pullback]].
 
 ## Properties
 
