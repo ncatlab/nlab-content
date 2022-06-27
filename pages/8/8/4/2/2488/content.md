@@ -251,6 +251,8 @@ Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the 
 This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)). See also [[n-connected/n-truncated factorization system]].
 
 
+
+
 ### Model category presentations
  {#ModelCategoryPresentations}
 
@@ -337,29 +339,20 @@ PSh(C, \infty Grpd)$
 =--
 
 
-
-+-- {: .num_corollary}
-###### Observation/Corollary
-
-A left [[exact functor]] 
-$F : C \to D$
-between $(\infty,1)$-categories with finite limits sends
+\begin{corollary}
+**(left exact $\infty$-functors preserve truncation)**
+\linebreak
+A [[left exact functor|left exact]] [[(infinity,1)-functor|$\infty$-functor]] 
+$F \colon C \to D$
+between $(\infty,1)$-categories with [[finite (infinity,1)-limit|finite $\infty$-limits]] sends
 $k$-truncated objects/morphisms to $k$-truncated objects/morphisms.
-
-=--
-
-This is [[Higher Topos Theory|HTT, prop. 5.5.6.16]].
-
-
-+-- {: .proof}
-###### Proof
-
-Follows from the above recursive characterization of 
+\end{corollary}
+([[Higher Topos Theory|HTT, prop. 5.5.6.16]])
+\begin{proof}
+This follows from the above recursive characterization of 
 $k$-truncated morphisms by the $(k-1)$-truncation of their
 diagonal, which is preserved by the finite limit preserving $F$.
-
-=--
-
+\end{proof}
 
 +-- {: .num_prop}
 ###### Proposition
