@@ -447,7 +447,7 @@ The classical notion of the _[[slope of a coherent sheaf|slope]] of a vector bun
 $$
   \mu(E)
   \;\coloneqq\;
-  \frac{rk(E)}{deg(E)}
+  \frac{deg(E)}{rk(E)}
 $$ 
 
 When constructing a [[moduli space]] of vector bundles using [[geometric invariant theory|GIT]] one needs to consider only [[slope of a coherent sheaf|slope]] (semi-)[[stable vector bundles]] (see e.g. [Reineke 08, sections 3 and 4](#Reineke08)).
