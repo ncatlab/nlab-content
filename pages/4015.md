@@ -33,14 +33,20 @@ We are interested in these three properties of $B$:
 A __bar__ is a barred subset $B$.
 
 +-- {.un_theorem}
-###### Fan Theorem
+###### Decidable Fan Theorem
 
 Every decidable bar is uniform.
 (In other words, if a collection of bitlists is decidable and barred, then it is also uniform.)
 =--
 
-Although the fan theorem is about bars, it is different from the [[bar theorem]], which is related but stronger.
++-- {.un_theorem}
+###### (Full) Fan Theorem
+Every bar is uniform. (In other words, if a collection of bitlists is decidable and barred, then it is also uniform.)
+=--
 
+Although the fan theorem is about bars, it is different from the [[bar theorem]], also known as "bar induction", which is related but stronger. The fan theorem discusses bars on lists of elements of $\mathbb{B}$; the bar theorem discusses bars on lists of elements of $\mathbb{N}$.
+
+Bar induction has three forms; decidable bar induction, monotone bar induction, and full bar induction (each stronger than the previous). The decidable fan theorem follows from decidable bar induction; the full fan theorem follows from monotone bar induction. Full bar induction, the strongest of the three, is a classical theorem; however, full bar induction implies Bishop's limited [[principle of omniscience]]. [[function realizability|Kleene's second realizability model]] provides a model of monotone bar induction plus Brouwer's continuity principle.
 
 ### Obfuscation
 
@@ -51,35 +57,46 @@ However, the sets $\mathbb{N}$, $\mathbb{B}^*$, and $\mathbb{N}^*$ are all isomo
 The fan theorem is hard enough to understand when $\alpha$ is an infinite sequence of bits and $\bar \alpha n$ is a finite sequence of bits; it is even harder to understand when $\bar \alpha n$ is a natural number that bears no immediate relationship to the digits in the sequence $\alpha$.
 
 
-### Variations
-
-The fan theorem may be stated about *all* bars, not just the decidable ones: all bars are uniform (which is true in classical mathematics).  Brouwer himself at one point claimed this, but later Kleene showed that this contradicted [[L.E.J. Brouwer|Brouwer]]\'s [[continuity theorem]].
-
-Since decidability is classically trivial, we may call this the __classical fan theorem__.
-
-
 ## Use in analysis
 
 In [[classical mathematics]], the fan theorem is simply true.
 
-In [[constructive mathematics]], the fan theorem is equivalent to any and all of the following statements:
+In [[constructive mathematics]], the full fan theorem is equivalent to any and all of the following statements:
 
 *  As a [[locale]], [[Cantor space]] has enough points (is [[topological locale|topological]]).
 *  As a [[topological space]], Cantor space is [[compact space|compact]].
+
+Assuming some amount of countable/dependent choice (probably pretty weak: haven't checked myself though), the full fan theorem is equivalent to each of the following statements:
+
 *  As a topological space, the (located Dedekind) [[unit interval]] is [[compact space|compact]] (the [[Heine-Borel theorem|Heine–Borel theorem]]).
 *  As a topological space, the (located Dedekind) [[real line]] is [[locally compact space|locally compact]].
-*  Every [[uniformly continuous map|uniformly continuous]] function from Cantor space to the [[metric space]] $\dot{\mathbb{R}}^+$ of positive real numbers has a positive lower bound.
-*  Every [[uniformly continuous map|uniformly continuous]] function from the unit interval to $\dot{\mathbb{R}}^+$ has a positive lower bound.
-*  (This item might need dependent choice in order to be equivalent to the others.) There exists a class of "kontinuous" [[partial functions]] from the set $\mathbb{R}$ of (located Dedekind) [[real numbers]] to itself (see Waaldijk) such that
+*  There exists a class of "kontinuous" [[partial functions]] from the set $\mathbb{R}$ of (located Dedekind) [[real numbers]] to itself (see Waaldijk) such that
    *  the [[restriction]] of a kontinuous function to any smaller domain is kontinuous;
    *  the [[identity function]] on $\mathbb{R}$ is kontinuous;
    *  the [[composite]] of two kontinuous functions is kontinuous;
    *  a function whose domain is the unit interval is kontinuous *if and only if* it is uniformly continuous (in the usual metric-space sense); and
    *  the function $(x \mapsto 1/x)$ defined on $\dot{\mathbb{R}}^+$ is kontinuous.
 
-It follows from any of these statements:
+However, some of these equivalences fail in the absence of countable choice. See
 
-*  The [[bar theorem]] holds.
+*  Moerdijk, Ieke. “Heine-Borel Does Not Imply the Fan Theorem.” Journal of Symbolic Logic, vol. 49, no. 2, 1984, pp. 514–519., doi:10.2307/2274182
+
+which shows that the compactness of $[0, 1]$ does not necessarily imply the fan theorem constructively if one does not have some amount of countable choice available.
+
+The decidable fan theorem (assuming some amount of countable/dependent choice) is equivalent to any of the following statements:
+
+*  Every [[uniformly continuous map|uniformly continuous]] function from Cantor space to the [[metric space]] $\dot{\mathbb{R}}^+$ of positive real numbers has a positive lower bound.
+*  Every [[uniformly continuous map|uniformly continuous]] function from the unit interval to $\dot{\mathbb{R}}^+$ has a positive lower bound.
+
+For the above equivalences with the decidable fan theorem, see
+
+*  Julian, W., &amp; Richman, F. (1984). A uniformly continuous function on [0,1] that is everywhere different from its infimum. Pacific Journal of Mathematics, 111(2), 333–340. https://doi.org/10.2140/pjm.1984.111.333 
+
+The above paper unfortunately uses different terminology than this article; for example, using "branch-bounded" and "bounded" in place of "barred" and "uniform". The above paper also proves that, assuming all functions $\mathbb{N} \to \mathbb{N}$ are computable, there exists a decidable bar which is not uniform (and, as the title suggests, a uniformly continuous function $[0, 1] \to (0, \infty)$ whose range has an infimum of zero).
+
+Some form of the fan theorem follows from any of these statements (some work needs to be done to verify these and get citations):
+
+*  The [[bar theorem]] holds (see above)
 *  As a locale, [[Baire space of irrational numbers|Baire space]] has enough points.
 *  Every pointwise-continuous function on Cantor space is uniformly continuous.
 *  Every pointwise-continuous function on the unit interval is uniformly continuous.
@@ -107,8 +124,9 @@ However, the fan theorem (and bar theorem) can be avoided by instead using [[loc
 
 ## Proofs
 
-I should write down the classical proof (which uses [[excluded middle]] and some form of [[dependent choice]]), as well as Brouwer\'s argument.
+I should write down the classical proof (which uses [[excluded middle]]), as well as Brouwer\'s argument.
 
+Ideally, a page on [[bar induction]] would be added. This page would contain the classical proof of full bar induction, as well as Brouwer's reasoning for why bar induction should hold. We would then provide constructive proofs here that monotone bar induction implies the full fan theorem, and that decidable bar induction implies the decidable fan theorem.
 
 ## References
 
