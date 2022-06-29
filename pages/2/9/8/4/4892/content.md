@@ -108,6 +108,9 @@ Exposition:
 
 * [[David H. Fremlin]], Section 2 of: _Singular homology for amateurs_ (2016) $[$[pdf](https://www1.essex.ac.uk/maths/people/fremlin/n16703.pdf), [[FremlinSIngularHomology.pdf:file]]$]$
 
+On [[closed covers]] in Čech homology:
+
+* [[Edwin E. Floyd]], *Closed coverings in Čech homology theory*, Trans. Amer. Math. Soc. **84** (1957) 319-337  &lbrack;[doi:10.1090/S0002-9947-1957-0087100-2](https://doi.org/10.1090/S0002-9947-1957-0087100-2), [pdf](http://www.ams.org/journals/tran/1957-084-02/S0002-9947-1957-0087100-2/S0002-9947-1957-0087100-2.pdf)&rbrack;
 
 [[!redirects Cech homology]]
 [[!redirects Čech homology]]
