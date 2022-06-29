@@ -1,4 +1,20 @@
 
+$$
+  \array{
+    Sh(CartSp, GoodOpen)
+    &\array{\phantom{----}}{\hookrightarrow}&
+    Sh(CartSp, FiniteGoodOpen)
+    \\
+    X
+    &\mapsto&
+    \big(
+     n
+     \mapsto
+     im\big(X(D^n \hookrightarrow\mathbb{R}^n)\big) 
+    \big)
+  }
+$$
+
 
 \begin{tikzcd}
   g^\ast X
