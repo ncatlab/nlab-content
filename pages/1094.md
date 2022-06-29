@@ -245,8 +245,7 @@ $$
 
 =--
 
-+-- {: .num_observation}
-###### Observation
+\begin{remark}
 
 By the definition of $\bar W$, the morphisms $\hat U \to j(U)$ in $\bar W$ are colimits of diagrams of [[covering]] [[sieve]]s
 
@@ -265,14 +264,13 @@ $$
 
 One such application is called the [[plus construction]].
 
-=--
+\end{remark}
 
-+-- {: .num_observation}
-###### Observation
+\begin{proposition}
 
 A morphism $S(\{U_i\}) \to X$ out of a [[sieve]] into any presheaf is in components precisely a [[matching family]] of the presheaf $X$ on the [[covering]] $\{U_i \to U\}$.
 
-=--
+\end{proposition}
 
 +-- {: .proof}
 ###### Proof
