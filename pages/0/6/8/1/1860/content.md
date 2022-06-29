@@ -15,7 +15,13 @@
 
 ## Idea
 
-The path [[∞-groupoid]] $\Pi(X)$ of a [[generalized smooth space]] $X$ is a geometric version of the [[fundamental ∞-groupoid]] of $X$: its [[1-morphisms]] form the geometric space of [[paths]] in $X$, and so forth. Its [[truncations]] to lower categorical degree yield
+The path [[∞-groupoid]] $\Pi(X)$ of a [[generalized smooth space]] $X$ is a geometric version of the [[fundamental ∞-groupoid]] of $X$: its [[1-morphisms]] form the geometric space of [[paths]] in $X$, and so forth.
+
+For more see at:
+
+* *[[shape via cohesive path ∞-groupoid]]*
+
+Its [[truncations]] to lower categorical degree yield
 
 * [[path groupoids]]
 
