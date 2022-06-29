@@ -42,7 +42,7 @@ Just as the notion of [[adjunction]] makes sense not just in $Cat$ but in any 2-
 
   (where if the 3-category is weak then coherences might need to be inserted to make these make sense.
 
-When interpreted the a [[strict 3-category]] $2Cat$, the [[Gray-category]] $Gray$, or the [[tricategory]] $Bicat$, this yields three levels of weakness of "lax 2-adjunction" according to whether the categories, functors, and/or transformations are strict or pseudo.
+When interpreted in a [[strict 3-category]] $2Cat$, the [[Gray-category]] $Gray$, or the [[tricategory]] $Bicat$, this yields three levels of weakness of "lax 2-adjunction" according to whether the categories, functors, and/or transformations are strict or pseudo.
 
 ## Further generalizations
 
