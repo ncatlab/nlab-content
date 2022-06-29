@@ -91,7 +91,7 @@ $$
 $$
 
 
-This is because, by the symmetry of $f$ and the skew-symmetry of $x \mapsto 1/x$, the the two contributions to the integral are equal up to a sign:
+This is because, by the symmetry of $f$ and the skew-symmetry of $x \mapsto 1/x$, the two contributions to the integral are equal up to a sign:
 
 $$
   \int_{-\infty}^{-\epsilon} \frac{f(x)}{x} d x
