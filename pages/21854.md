@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On [[closed covers]] in [[Čech homology]]:
+
+* [[Edwin E. Floyd]], *Closed coverings in Čech homology theory*, Trans. Amer. Math. Soc. **84** (1957) 319-337  &lbrack;[doi:10.1090/S0002-9947-1957-0087100-2](https://doi.org/10.1090/S0002-9947-1957-0087100-2), [pdf](http://www.ams.org/journals/tran/1957-084-02/S0002-9947-1957-0087100-2/S0002-9947-1957-0087100-2.pdf)&rbrack;
+
+
 Introducing [[equivariant bordism homology theory]]:
 
 * [[Pierre Conner]], [[Edwin Floyd]], _Differentiable periodic maps_, Bull. Amer. Math. Soc. Volume 68, Number 2 (1962), 76-86 ([euclid:bams/1183524501](https://projecteuclid.org/euclid.bams/1183524501))
@@ -34,6 +39,10 @@ On [[MU]]-[[bordism theory]]:
 * [[Conner-Floyd isomorphism]]
 
 
-
+[[!redirects Edwin E. Floyd]]
+[[!redirects Edwin Earl Floyd]]
 
 category: people
+
+
+
