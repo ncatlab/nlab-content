@@ -74,6 +74,43 @@ Later [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) re-prove 
 These results are all based on the [[classical model structure on topological spaces]].  The analogous Quillen equivalence based on the [[classical model structure on simplicial sets]] is proven in [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13), assuming $G$ to be a [[discrete group]].
 \end{remark}
 
+\begin{remark}
+  One way to understand Elmendorf's theorem (in its full $\infty$-category theoretic version) is as translating [[concordance]] of [[equivariant maps]] into actual [[homotopies]] in another [[(infinity,1)-category|$\infty$-category]]. Namely, if we think of sending a [[topological space]] $\mathrm{X}$ to its underlying [[homotopy type]] presented by [[path infinity-groupoid|path $\infty$-groupoid]] (we follow the notation at *[[shape via cohesive path ∞-groupoid]]*)
+$$
+  \array{
+    Top 
+      &\longrightarrow&
+    Grpd_\infty
+    \\
+    \mathrm{X}
+    &\overset{\phantom{--}}{\mapsto}&
+    \esh \mathrm{X}
+  }
+$$
+then it says that
+$$
+  \esh
+  \Big(
+    Maps
+    \big(
+      \mathrm{X}
+      ,\,
+      \mathrm{Y}
+    \big)^G
+  \Big)
+  \;\;
+  \simeq
+  \;\;
+  G Grpd_\infty
+  \Big(
+    \esh \big(\mathrm{X}^{(-)}\big)
+    ,\,
+    \esh \big(\mathrm{Y}^{(-)}\big)
+  \Big)
+  \,,
+$$
+where $Map(-,-)$ denotes the [[compact-open topology|mapping space]].
+\end{remark}
 
 
 ## Model category presentation / Quillen equivalence
