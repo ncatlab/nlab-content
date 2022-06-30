@@ -60,4 +60,8 @@ See also
 * Wikipedia, _[Whitney extension theorem](https://en.wikipedia.org/wiki/Whitney_extension_theorem)_
 
 * [[eom]], _[Whitney extension theorem](https://www.encyclopediaofmath.org/index.php/Whitney_extension_theorem)_
+
+* Armin Rainer, *Ultradifferentiable extension theorems: a survey*, Expositiones Mathematicae (2021) &lbrack;[arXiv:2107.01061](https://arxiv.org/abs/2107.01061), [doi:10.1016/j.exmath.2021.12.001](https://doi.org/10.1016/j.exmath.2021.12.001)&rbrack;
+
+
  
