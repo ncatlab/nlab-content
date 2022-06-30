@@ -23,5 +23,9 @@ Generalization to partial algebraic theories:
 
 * [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]] _Functorial semantics for partial theories_, ([arXiv:2011.06644](https://arxiv.org/abs/2011.06644))
 
+## Related concepts
+
+* [[list of theses in category theory]]
+
 
 category:reference
