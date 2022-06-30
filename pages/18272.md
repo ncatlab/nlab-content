@@ -56,7 +56,7 @@ Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{T_
 
 +-- {: .num_prop} 
 ###### Proposition 
-**(projection formula)** 
+**([[projection formula]])** 
 Let $f: X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $S \subset X$ be a [[subset]] of $X$, and $T \subseteq Y$ be a subset of $Y$. Then 
 
 $$f(S) \cap T = f(S \cap f^{-1}(T)).$$ 
@@ -68,15 +68,24 @@ The properties 1., 2. of Proposition \ref{PreservationOfUnionsAndIntersectionsOf
 
 ### Direct images preserve unions, inverse images preserve intersections 
 
-The first such relationship is that, for all subsets $S \subseteq X$ and $T \subseteq Y$, we have 
+The first such relationship is: 
 
-$$f(S) \subseteq T \qquad iff \qquad S \subseteq f^{-1}(T)$$ 
+\begin{proposition}\label{PreimageRightAdjointToImage}
+**([[preimage]] is [[right adjoint]] to [[image]])**
+\linebreak
+For all [[subsets]] $S \subseteq X$ and $T \subseteq Y$, we have 
 
-One says in this situation that the direct image mapping $f(-)$ is *[[left adjoint]]* to the inverse image mapping $f^{-1}(-)$, or that inverse image is *[[right adjoint]]* to direct image. This terminology is guided by the formally similar usage in linear algebra where linear mappings $A$ and $B$ are adjoint if one has an equation 
+$$
+  f(S) \subseteq T \qquad iff \qquad S \subseteq f^{-1}(T)
+  \,.
+$$ 
+\end{proposition}
+
+One says in this situation that the direct [[image]] mapping $f(-)$ is *[[left adjoint]]* to the [[preimage|inverse image]] mapping $f^{-1}(-)$ (with respect to the [[posets]] of subsets, regarded as [[(0,1)-categories]]), or that inverse image is *[[right adjoint]]* to direct image. This terminology is guided by the formally similar usage in [[linear algebra]] where [[linear mappings]] $A$ and $B$ are adjoint if one has an equation 
 
 $$\langle A x, y \rangle = \langle x, B y \rangle$$ 
 
-for all $x, y$ in suitable [[inner product spaces]] (and in fact the analogy is not idle; see for instance [Baez](#JB97)). 
+for all $x, y$ in suitable [[inner product spaces]] (and in fact the analogy is not idle; see for instance [Baez 1997](#JB97)). 
 
 In that case, we have the following elementary inferences: 
 
@@ -184,7 +193,7 @@ Now the fact that [[left adjoint]] $\exists_f$ preserves [[unions]] is the fact 
 
 ## Projection formula 
 
-Another useful formula for interactions between images and pre-images and intersections is the projection formula: 
+Another useful formula for interactions between images and pre-images and intersections is the [[projection formula]]: 
 
 \begin{proposition} 
 \label{ProjectionFormulaForFunctionsAndInverseImages}
