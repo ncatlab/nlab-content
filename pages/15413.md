@@ -53,12 +53,12 @@ $$
   Sh(\mathcal{C})
     \underoverset
       {\underset{F_{\ast}}{\longrightarrow}}
-      {\overset{L F^\ast}{\longleftarrow}}
+      {\overset{L \circ F^\ast}{\longleftarrow}}
       {\bot}
   Sh(\mathcal{D})
 $$
 
-with [[inverse image]] given by pre-composition with $f$ followed by [[sheafification]]. 
+with [[inverse image]] given by [[composition|pre-composition]] $F^\ast$ with $F$ followed by [[sheafification]] $L \,\colon\, PSh(\mathcal{C}) \longrightarrow Sh(\mathcal{C})$. 
 
 =--
 
