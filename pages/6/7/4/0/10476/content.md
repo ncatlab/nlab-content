@@ -74,8 +74,10 @@ Later [Piacenza 91, Sec 6](#Piacenza91) and [May 96, Sec. V.3](#May96) re-prove 
 These results are all based on the [[classical model structure on topological spaces]].  The analogous Quillen equivalence based on the [[classical model structure on simplicial sets]] is proven in [Guillou-May-Rubin 13, Thm. 5.6](#GuillouMayRubin13), assuming $G$ to be a [[discrete group]].
 \end{remark}
 
-\begin{remark}
-  One way to understand Elmendorf's theorem (in its full $\infty$-category theoretic version) is as translating [[concordance]] of [[equivariant maps]] into actual [[homotopies]] in another [[(infinity,1)-category|$\infty$-category]]. Namely, if we think of sending a [[topological space]] $\mathrm{X}$ to its underlying [[homotopy type]] presented by [[path infinity-groupoid|path $\infty$-groupoid]] (we follow the notation at *[[shape via cohesive path ∞-groupoid]]*)
+\begin{remark}\label{AsAStatementAboutEquivariantConcordance}
+**(as a statement about [[concordance]] of [[equivariant maps]])**
+\linebreak
+  One way to understand Elmendorf's theorem (in its full $\infty$-category theoretic version) is as translating [[concordance]] of [[equivariant maps]] into actual [[homotopies]] in another [[(infinity,1)-category|$\infty$-category]]. Namely, if we think of sending a [[topological space]] $\mathrm{X}$ to its underlying [[homotopy type]] presented by its [[path infinity-groupoid|path $\infty$-groupoid]] (we follow the notation at *[[shape via cohesive path ∞-groupoid]]*)
 $$
   \array{
     Top 
@@ -87,7 +89,7 @@ $$
     \esh \mathrm{X}
   }
 $$
-then it says that
+then it says that got each [[G-CW complex|$G$-CW complex]] $X$ we have:
 $$
   \esh
   \Big(
@@ -110,6 +112,45 @@ $$
   \,,
 $$
 where $Map(-,-)$ denotes the [[compact-open topology|mapping space]].
+
+In this form the statement holds for *every* choice of [[topological group]] $G$ and *every* choice of family $\big\{H_i 
+\subset G\big\}_{i \in I}$ of [[subgroups]]: This choice affects what counts as a $G$-CW complex on the left and what the [[orbit category]]-site $Orb(G,\{H_i\}_{i \in I})$ is on the right
+(in both cases the [[coset spaces]] involved must be $G/H_i$ for $H_i$ in the given family) -- but with that understood, the above equivalence holds, by [Dwyer-Kan 84, Sec. 1.2, 1.7 & Thm. 3.1](#DwyerKan84).
+
+To bring this out, write
+
+* $Orb(G,\mathcal{F}) \hookrightarrow G Top$ for the [[full subcategory]] on the [[coset spaces]] $G/H$ for $H \in \mathcal{F}$ in the family of subgroups,
+
+* $(G, \mathcal{F})CWCplx \hookrightarrow G Top$ for the [[full subcategory]] of [[G-CW complexes]] build via these coset spaces, then
+
+$$
+  X \,\in\,
+  (G,\mathcal{F})CWCplx
+  \;\;\;\;
+  \vdash
+  \;\;\;\;
+  \esh
+  \Big(
+    Maps
+    \big(
+      \mathrm{X}
+      ,\,
+      \mathrm{Y}
+    \big)^G
+  \Big)
+  \;\;
+  \simeq
+  \;\;
+  Psh_\infty\big(Orb(G,\mathcal{F})\big)
+  \Big(
+    \esh \big(\mathrm{X}^{(-)}\big)
+    ,\,
+    \esh \big(\mathrm{Y}^{(-)}\big)
+  \Big)
+  \,.
+$$
+
+
 \end{remark}
 
 
