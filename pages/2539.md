@@ -317,10 +317,21 @@ a morphism $\ell A \to R$ is precisely an element of $C^\infty(\mathbb{R}^n)/J$.
 
 
 ## References
+ {#References}
 
-Leture notes include
+Named after:
+
+* [[Heinrich Tietze]], *Über Funktionen, die auf einer abgeschlossenen Menge stetig sind*, Journal für die reine und angewandte Mathematik, **145** (1915) &lbrack;[doi:10.1515/crll.1915.145.9](https://doi.org/10.1515/crll.1915.145.9)&rbrack;
+
+
+Leture notes:
 
 * Adam Boocher, _A proof of the Tietze Extension Theorem Using Urysohn's Lemma_, 2005 ([pdf](http://www.maths.ed.ac.uk/~aboocher/math/tietze.pdf))
+
+Generalization
+to maps into any [[locally convex topological vector space]]:
+
+* {#Dugundji51} [[James Dugundji]], *An extension of Tietze's theorem*, Pacific Journal of Mathematics **1** 3 (1951) &lbrack;[doi:10.2140/pjm.1951.1.353](http://dx.doi.org/10.2140/pjm.1951.1.353), [pdf](https://msp.org/pjm/1951/1-3/pjm-v1-n3-p04-p.pdf)&rbrack;
 
 Discussion via [[algebraic topology]]:
 
