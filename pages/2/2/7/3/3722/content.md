@@ -240,6 +240,7 @@ Hence we [[proof by contradiction|proved by contradiction]] $X \backslash V$ is 
 
 
 ### Relation to interior subspaces
+ {#RelationToInteriorSubspaces}
 
 +-- {: .num_lemma #RelationClAndInt}
 ###### Lemma
