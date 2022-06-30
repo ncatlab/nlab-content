@@ -99,7 +99,7 @@ The following conditions -- that each make $\mathcal{C}$ into a _simplicial mode
 
 =--
 
-This follows directly, by [[Joyal-Tierney calculus]],  from the defining properties of [[tensoring]] and [[cotensoring]] (as in [this Prop.](enriched+model +category#MonoidalModelCategoryIsEnrichedModelOverItself)).
+This follows directly, by [[Joyal-Tierney calculus]],  from the defining properties of [[tensoring]] and [[cotensoring]] (as in [this Prop.](enriched+model+category#MonoidalModelCategoryIsEnrichedModelOverItself)).
 
 We list in the following some implications of these equivalent conditions.
 
