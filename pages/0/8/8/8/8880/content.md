@@ -1,5 +1,3 @@
-[[!redirects Jon  Beck]]
-
 Jon Mock Beck was a [[category theory|category theorist]] whose thesis (under the supervision of [[Sammy Eilenberg]]) and subsequent work with [[Mike Barr]] has been highly influention in the devlopment of the subject.  He died in March 2006.
 
 
@@ -18,3 +16,6 @@ category:people
 
 [[!redirects J. M. Beck]]
 [[!redirects J. Beck]]
+[[!redirects Jonathan Mock Beck]]
+[[!redirects Jonathan Beck]]
+[[!redirects Jon Mock Beck]]
