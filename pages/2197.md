@@ -181,6 +181,11 @@ In one respect, a locally convex TVS is a [[nice topological space]] in that the
 
 * {#Infusino17} Maria Infusino, _[Topological vector spaces](http://www.math.uni-konstanz.de/~infusino/TVS-SS17/teachingSS2017.html)_ 2017
 
+Generalizing the [[Tietze extension theorem]] to [[codomains]] which are [[locally convex topological vector spaces]]:
+
+* {#Dugundji51} [[James Dugundji]], *An extension of Tietze's theorem*, Pacific Journal of Mathematics **1** 3 (1951) &lbrack;[doi:10.2140/pjm.1951.1.353](http://dx.doi.org/10.2140/pjm.1951.1.353), [pdf](https://msp.org/pjm/1951/1-3/pjm-v1-n3-p04-p.pdf)&rbrack;
+
+
 category: analysis
 
 [[!redirects locally convex space]]
