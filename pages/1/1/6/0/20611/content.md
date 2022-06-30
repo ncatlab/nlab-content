@@ -33,3 +33,7 @@ order of the number of articles they publish in the area of category theory, as 
 |[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|[[Martin Hyland|Hyland]]|subscription|logic|
 |[Logica Universalis](https://www.springer.com/journal/11787)|Springer|[[Olivia Caramello|Caramello]], [[Valeria de Paiva|de Paiva]]|subscription|logic|
 |[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|[[Colin McLarty|McLarty]]|subscription|logic|
+
+## Related pages
+
+* [[list of theses in category theory]]
