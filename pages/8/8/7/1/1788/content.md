@@ -1,4 +1,24 @@
 
+\begin{definition}
+**([[site]] of [[closed balls]])**
+\linebreak
+ Write $ClsdBalls \,\subset\, SmthMnfd_{bdry}$ for the [[full subcategory]] of the [[category]] of [[SmoothManifolds]] [[manifold with boundary|with boundary]] on the [[closed balls]] $\mathbb{B}_{cl}^n \,\coloneqq\, \big\{ \vec x \in \mathbb{R}^n \,\big\vert\, \sum_i x^i = 1 \big\}$, for $n \in \mathbb{N}$.
+
+Regard this as a [[site]] by equipping it with the [[coverage]] whose [[covering families]] $\big\{ \overline{U_i} \to \mathbb{B}_{cl}^n \big\}_{i \in I}$ are the [[topological closures]] of [[good open covers]] 
+$\big\{ U_i \to \mathbb{B}^n \big\}_{i \in I}$
+of the [[topological interior]] $\mathbb{B}^n = (\mathbb{B}_{cl}^n)^\circ$ of a closed ball.
+\end{definition}
+
+There is a functor
+$$
+  ClsdBalls
+  \xrightarrow{\phantom{---}}
+  OpenBalls
+  \simeq
+  CartSp
+$$
+given by restriction to interiors
+
 $$
   \array{
     Sh(CartSp, GoodOpen)
