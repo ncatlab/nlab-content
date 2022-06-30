@@ -9,7 +9,6 @@ This page is intended to record doctoral theses whose focus is primarily categor
 |Coherence for a closed functor|Geoffrey Lewis|1974|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/3c1ee9e9-9d61-4fc9-9766-5fb9bf6415c2)| |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
 |Limits in 2-categories of locally presentable categories|Greg Bird|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
-|The Scott adjunction|Ivan Di Liberti|2020|[arXiv](https://arxiv.org/abs/2009.07320)| |
 
 
 ## Related pages
