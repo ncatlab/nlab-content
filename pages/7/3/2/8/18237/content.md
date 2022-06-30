@@ -113,6 +113,89 @@ $$
 
 =--
 
+
+\begin{proposition}\label{LocalHomeosAreOpenMaps}
+  A [[local homeomorphism]] is an [[open map]].
+\end{proposition}
+\begin{proof}
+  Let $f \colon X \to Y$ be a [[local homeomorphism]] and $U \subset X$ an [[open subset]]. We need to see that the [[image]] $f(U) \subset Y$ is an open subset of $Y$. 
+For this we may equivalently show that each $y \in f(U)$ has an [[open neighbourhood]] inside $f(U)$.
+
+But since any function is [[surjection|surjective]] onto its [[image]], there exists $x \in U$ with $f(x) = y$.
+By local homeomorphy of $f$, this $x \in X$ has an  [[open neighbourhood]] $U_x \subset X$ with $f_{|U_x} \colon U_x \to f(U_x)$ a [[homeomorphism]]. Since $U \cap U_x \subset U_x$ is an [[open neighbourhood]] of $x$ in $U_x$, the homeomorphy of $f_{|U_x}$ implies that $f(U \cap U_x) \subset f(U)$ is an open neighbourhood of $f(x) = y$.
+\end{proof}
+
+
+## Properties
+ {#Properties}
+
+\begin{proposition}\label{PreimagesOfOpenMapsPreserveInteriors}
+**([[preimages]] of [[open maps]] preserve [[topological interiors]])**
+\linebreak
+For $f \,\colon\, X \longrightarrow Y$  an [[open map]] and $U \subset X$ a [[subset]], the [[preimage]] under $f$ of the [[interior]] of $U$ is the [[interior]] of the preimage of all of $U$:
+$$
+  \big( f^{-1}(U) \big)^\circ
+  \;=\;
+  f^{-1}\big( U^\circ\big)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+In one direction, the inclusion
+$$
+  f^{-1}\big( U^\circ\big)
+  \;\subset\;
+  \big( f^{-1}(U) \big)^\circ
+$$
+follows since the left hand side is an [[open subset]] of $f^{-1}(U) \subset X$ by [[continuous map|continuity]] of $f$, while the right hand side is the largest such subset, by definition.
+
+In the other direction, the inclusion
+$$
+  \big( f^{-1}(U) \big)^\circ
+  \;\subset\;
+  f^{-1}\big( U^\circ\big)
+$$
+is equivalent (see [there](interactions+of+images+and+pre-images+with+unions+and+intersections#PreimageRightAdjointToImage)) to the inclusion
+$$
+  f\Big( \big( f^{-1}(U) \big)^\circ \Big)
+  \;\subset\;
+  U^\circ 
+  \,.
+$$
+This follows since now the left hand side is an open subset of $f(U)$ by [[open map|open-ness]] of $f$, while the right hand side is again the largest open subset of $U$, by definition.
+\end{proof}
+
+And dually:
+\begin{proposition}\label{PreimagesOfOpenMapsPreserveClosures}
+**([[preimages]] of [[open maps]] preserve [[topological closure]])**
+\linebreak
+If $f \,\colon\, X \longrightarrow Y$ is an [[open map]], and $U \subset X$ a [[subset]] with [[topological closure]] $\overline{U}$, then the [[preimage]] $f^{-1}\big( \overline{U}\big)$ of the [[topological closure]] is the [[topological closure]] of the [[preimage]] of $U$:
+$$
+  \overline{f^{-1}(U)}
+  \;=\;
+  f^{-1}\big(  \overline{U} \big)
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+Noticing that 
+
+1. the topological closure is equivalently the [[complement]] of the [[topological interior]] of the [[complement]] (see [there](closed+subspace#RelationToInteriorSubspaces)):
+
+   $$
+      \overline{U}
+      \,=\,
+      X \setminus (X \setminus U)^\circ
+   $$
+
+1. [[preimages]] evidently preserve [[complements]]
+
+it is sufficient to observe that forming preimages of open maps preserves interiors. This is the statement of Prop. \ref{PreimagesOfOpenMapsPreserveInteriors}.
+\end{proof}
+
+
+
+
 ## Related concepts
 
 * [[open morphism]]
