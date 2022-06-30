@@ -77,16 +77,14 @@ Condensed sets form a [[locally small]], [[well-powered category|well-powered]],
 
 According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057798) and [[Mike Shulman]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057792), condensed sets satisfy external [[CoSHEP]] and [[WISC]], but internal CoSHEP fails. 
 
-See \cite[Proposition 1.7]{ScholzeLCM} for the following proposition.
+See [Proposition 1.7](#ScholzeLCM) for the following proposition.
 
 \begin{proposition}
 The [[forgetful functor]]
 from the category of [[topological spaces]]
-to condensed sets is a [[faithful functor]].
+to κ-condensed sets is a [[faithful functor]].
 It becomes [[fully faithful]] when restricted
-to [[compactly generated spaces]].
-(In the case of κ-condensed sets, one must take κ-compactly generated
-spaces instead.)
+to κ-[[compactly generated spaces]].
 
 This functor admits a left adjoint,
 which sends a condensed set $T$
