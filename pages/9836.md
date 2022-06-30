@@ -10,6 +10,13 @@ Bruce Evan Blackadar is an American operator algebra theorist at the University 
 There is a typo found in some bibliographies listing Blackadar\'s middle initial as 'A'.  This is not a different person.
 
 
+## Selected writings
+
+On variants of the [[Tietze extension theorem]]:
+
+* [[Bruce Blackadar]], *Extending continuous functions* &lbrack;[arXiv:1207.6147](https://arxiv.org/abs/1207.6147)&rbrack;
+
+
 ## Related entries
 
 * _[[K-Theory for Operator Algebras]]_
