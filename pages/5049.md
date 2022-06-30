@@ -91,7 +91,7 @@ Then there exists also smooth homotopy between $f$ and $g$ which is itself conti
 
 To apply the [generalized Steenrod theorem](#GeneralizedSteenrodTheorem) with the notation as stated there, make the following identifications
 
-* set $X := Z \times [0,1]$;
+* set $X \coloneqq Z \times [0,1]$;
 
 * set $N = Y$;
 
@@ -101,16 +101,16 @@ To apply the [generalized Steenrod theorem](#GeneralizedSteenrodTheorem) with th
 
 * let $(\sigma : X \to E) := (\eta : Z \times [0,1] \to Y)$ be the given continuous homotopy;
 
-* set $L := Z \times [0,1]$;
+* set $L \coloneqq Z \times [0,1]$;
 
-* let $U := Z \times (0,1)$.
+* let $U \coloneqq Z \times (0,1)$.
 
 Then because by assumption $\eta$ is a continuous [[delayed homotopy]] between [[smooth function]]s, it follows that $\sigma$ is smooth in a neighbourhood $Z \times ([0,\epsilon) \coprod (1-\epsilon,1])$ of $L$.
 
 So the theorem applies and provides a smooth  homotopy
 
 $$
-  \tau : [0,1] \times Z \to Y
+  \tau \colon [0,1] \times Z \to Y
 $$
 
 which moroever is itself (continuously) homotopic to $\eta$ via some continuous $F : [0,1] \times [0,1] \times Z \to Y$.
@@ -144,3 +144,4 @@ which moroever is itself (continuously) homotopic to $\eta$ via some continuous 
 {#Wockel}
 
 [[!redirects Steenrod approximation theorem]]
+
