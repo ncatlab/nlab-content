@@ -337,4 +337,6 @@ See also
 
 * [[Planet Math]], _[Proof of the Tietze extension theorem](http://planetmath.org/proofoftietzeextensiontheorem)_
 
+* [[Bruce Blackadar]], *Extending continuous functions* &lbrack;[arXiv:1207.6147](https://arxiv.org/abs/1207.6147)&rbrack;
+
 
