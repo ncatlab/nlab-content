@@ -27,6 +27,25 @@ A type of [[cohomology]] attached to prisms, which are $\delta$-rings equipped w
 
 Roughly, it is a unified construction of various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]].
 
+## Definition
+
+Let $(A,I)$ be a prism as defined above. Let $R$ be a formally smooth $A/I$-algebra. The _prismatic site_ $(R/A)_{\Delta}$ has objects which are prisms $(B,IB)$ over $(A,I)$ together with a map $R\to B/IB$ over $A/I$. Such an object is written $(R\to B/IB\leftarrow B)$.
+
+We have functors $\mathcal{O}_{\Delta}$ and $\overline{\mathcal{O}}_{\Delta}$ which sends $(R\to B/IB\leftarrow B)$ to $B$ and $B/IB$ respectively.
+
+The _prismatic cohomology_ of $R$ is defined to be $\Delta_{R/A}:=R\Gamma((R/A)_{\Delta},\mathcal{O}_{\Delta})$.
+
+## Comparison theorems
+
+We have the following comparison theorems:
+\begin{theorem}[crystalline comparison]
+$\phi_{A}^{*}\Delta_{R/A}^{\wedge}=R\Gamma_{crys}(R/A)$
+\end{theorem}
+
+\begin{theorem}[etale comparison]
+$R\Gamma_{\et}(\mathrm{Spec}(R[1/p]),\mathbb{Z}/p^{n})=(\Delta_{R/A}[1/d]/p^{n})^{\phi=1}$
+\end{theorem}
+
 ## Related entries
 
 * [[arithmetic differential geometry]]
