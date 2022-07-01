@@ -37,19 +37,25 @@ The _prismatic cohomology_ of $R$ is defined to be $\Delta_{R/A}:=R\Gamma((R/A)_
 
 ## Comparison theorems
 
-We have the following comparison theorems:
-\begin{theorem}[crystalline comparison]
-$\phi_{A}^{*}\Delta_{R/A}^{\wedge}=R\Gamma_{crys}(R/A)$
+We have the following comparison theorems relating prismatic cohomology to the crystalline cohomology and the étale cohomology:
+
+\begin{theorem}
+Let $A,(p)$ be a bounded prism and let $R$ be a smooth $A/p$-algebra. There exists a canonical isomorphism
+$$\phi_{A}^{*}\Delta_{R/A}^{\wedge}\cong R\Gamma_{crys}(R/A)$$
+in $D(A)$, compatible with the action of Frobenius on both sides.
 \end{theorem}
 
-\begin{theorem}[etale comparison]
-$R\Gamma_{\et}(\mathrm{Spec}(R[1/p]),\mathbb{Z}/p^{n})=(\Delta_{R/A}[1/d]/p^{n})^{\phi=1}$
+\begin{theorem}
+Let $(A,I)$ be a perfect prism and let $R$ be a $p$-complete $A/I$-algebra. For all $n\geq 1$, there exists a canonical isomorphism
+$$R\Gamma_{\et}(\mathrm{Spec}(R[1/p]),\mathbb{Z}/p^{n})\cong (\Delta_{R/A}[1/d]/p^{n})^{\phi=1}$$
+where $d$ is a generator of $I$.
 \end{theorem}
 
 ## Related entries
 
 * [[arithmetic differential geometry]]
 * [[Borger's absolute geometry]]
+* [[p-adic Hodge theory]]
 
 ## References
 
@@ -62,3 +68,11 @@ For some introductory comments see
 * [[Terence Tao]], _Prismatic cohomology_, ([blog post](https://terrytao.wordpress.com/2019/03/19/prismatic-cohomology/))
 
 * Riccardo Pengo ([MO answer](https://mathoverflow.net/a/333062/447))
+
+Recent developments include
+
+* [[Vladimir Drinfeld]], _Prismatization_ (2020) arXiv:[2005.04746] (https://arxiv.org/abs/2005.04746)
+
+* [[Bhargav Bhatt]], [[Jacob Lurie]], _Absolute Prismatic Cohomology_, preprint (2022) arXiv:[2022.06120](https://arxiv.org/abs/2201.06120)
+
+* [[Bhargav Bhatt]], [[Jacob Lurie]], _The Prismatization of $p$-adic Formal Schemes_, preprint (2022) arXiv:[2022.06124](https://arxiv.org/abs/2201.06124)
