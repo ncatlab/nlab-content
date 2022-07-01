@@ -261,7 +261,7 @@ We write $[C^{op}, A]$ for the [[2-functor]] 2-category from the
 
 * objects are pseudofunctors $F : C^{op} \to A$;
 
-* morphism are [[lax natural transformation|pseudonatural transformations]];
+* morphisms are [[lax natural transformation|pseudonatural transformations]];
 
 * 2-morphism are [[modification]]s.
 
