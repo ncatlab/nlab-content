@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
-=--
-#### non-archimedean geometry
-+--{: .hide}
-
 =--
 =--
 =--
