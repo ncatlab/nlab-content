@@ -89,7 +89,7 @@ over $\Z$ to get a (non-archimedean) period ring isomorphism for an [[arithmetic
 
 ## Hodge-Tate decomposition
 
-An early result in $p$-adic Hodge theory is the Hodge-Tate decomposition, which is a $p$-adic analogue of the Hodge decomposition in classical [[Hodge theory]]. Let $X$ be a smooth projective variety over $\mathbb{Q}_{p}$ (or more generally some finite extension of it). Let $\mathbb{C}_{p}$ be the p-adic complex numbers. Then we have
+An early result in $p$-adic Hodge theory is the Hodge-Tate decomposition, which is a $p$-adic analogue of the Hodge decomposition in classical [[Hodge theory]]. Let $X$ be a smooth projective variety over $\mathbb{Q}_{p}$ (or more generally some finite extension of it). Let $\mathbb{C}_{p}$ be the [[p-adic complex numbers]]. Then we have
 
 $$H^{k}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})\otimes_{\mathbb{Q}_{p}}\mathbb{C}_{p}=\bigoplus_{i+j=k} H^{i}(X,\Omega_{X/\mathbb{Q}}^{j})\otimes_{\mathbb{Q}}\mathbb{C}_{p}(-j)$$
 
