@@ -58,6 +58,9 @@ Reviews and lecture notes include the following:
 
 * Ivan Vuković, _Higher spin theory_ ([arXiv:1809.02179](https://arxiv.org/abs/1809.02179))
 
+* Dmitry Ponomarev, *Basic introduction to higher-spin theories* &lbrack;[arXiv:2206.15385](https://arxiv.org/abs/2206.15385)&rbrack;
+
+
 Further developments include for instance
 
 * Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
