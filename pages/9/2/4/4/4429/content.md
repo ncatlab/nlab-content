@@ -152,10 +152,7 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 ## References
 
-
-
 [[!include Chern-Weil homomorphism -- references]]
-
 
 ### Chern-Weil theory
 
@@ -164,6 +161,5 @@ See also the references at
 * [[Chern-Weil theory]]
 
 * [[Chern-Simons forms]]
-
 
 [[!redirects Weil homomorphism]]
