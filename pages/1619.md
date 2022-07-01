@@ -410,7 +410,7 @@ Discussion of the [[moduli stack]] of [[twisted differential string structures]]
 
 An explicit cocycle construction of the essentially unique [[string 2-group]]-[[principal 2-bundle]] lift of the [[tangent bundle]] of the [[sphere|5-sphere]] is given in 
 
-* {#Roberts14} [[David Roberts]], _Explicit string bundles_, talk at _[Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html)_ 2014 ([[RobertsStringS5.pdf:file]])
+* {#Roberts14} [[David Roberts]], _Explicit string bundles_, talk at _[Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html)_ 2014, [arXiv:2203.04544](https://arxiv.org/abs/2203.04544),  ([[RobertsStringS5.pdf:file]]).
 
 Discussion for indefinite (Lorentzian) signature is in
 
