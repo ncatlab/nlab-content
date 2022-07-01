@@ -11,3 +11,6 @@ Where ordinary modular forms are locally functions on the [[moduli stack of elli
 
 * [[Siegel upper half space]]
 
+## References
+
+Gerard van der Greer, _Siegel Modular Forms_, [arxiv:0605346](https://arxiv.org/abs/math/0605346)
