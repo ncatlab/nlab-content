@@ -20,9 +20,11 @@
 
 ## Idea
 
-The _Kapustin-Witten TQFT_ is the [[4d TQFT]] obtained by  [[topologically twisted super Yang-Mills theory|topological twisting]] from  [[N=4 D=4 super Yang-Mills theory]]. Its [[S-duality]] is supposed to encode, as a special case, [[geometric Langlands duality]].
+The _Kapustin-Witten TQFT_ is the [[4d TQFT]] obtained by  [[topologically twisted super Yang-Mills theory|topological twisting]] from  [[N=4 D=4 super Yang-Mills theory]] on a 4-dimensional manifold of the form $M=\Sigma\times C$, where $\Sigma$ is a Riemann surface possibly with boundary and $C$ is a Riemann surface of genus $g\geq 2$. Its [[S-duality]] is supposed to encode, as a special case, [[geometric Langlands duality]] for the Riemann surface $C$.
 
-Upon [[Kaluza-Klein mechanism|compactification]] down to 2d it reproduces, at certain parameters, the [[A-model]] and the [[B-model]].
+Upon [[Kaluza-Klein mechanism|compactification]] on $C$ (i.e. $C$ is taken to be much smaller than $\Sigma$) down to 2d the resulting effective field theory on $\Sigma$ reproduces, at certain parameters, the [[A-model]] and the [[B-model]] whose target as a [[sigma model]] is the Hitchin moduli space $\mathcal{M}_{H}(G)$, where $G$ is the gauge group of the theory. 
+
+S-duality manifests as mirror symmetry between $\mathcal{M}_{H}(G)$ and $\mathcal{M}_{H}({}^{L}G)$ where ${}^{L}G$ is the Langlands dual group of $G$.
 
 [[!include gauge theory from AdS-CFT -- table]]
 
@@ -44,6 +46,9 @@ The TQFT was introduced in
 Reviews include 
 
 * [[Anton Kapustin]], _Langlands Duality and Topological Field Theory_ (2007) ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/kapustin.pdf))
+
+* [[Edward Frenkel]], _Gauge Theory and Langlands Duality_ (2009) ([arXiv:0906.2747](https://arxiv.org/abs/0906.2747))
+
 
 The 0-1-2 [[extended QFT]] version of $GL$-twisted [[N=4 D=4 super Yang-Mills theory]] is considered in 
 
