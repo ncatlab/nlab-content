@@ -51,13 +51,13 @@ A [[function]], $m : B\to B$ is called an __operator__ on the Boolean algebra, $
 
 $$m(x+y) = m x + m y.$$
 
-The operator, $m$, is called __normal__ if $m0=0$.
+The operator, $m$, is called __normal__ if $m(0)=0$.
 
 =--
 
 Any operator, $m$, in this sense has a dual $l : B\to B$ given by
 
-$$l(x) = (m(x^-)^-.$$
+$$l(x) = (m(x^-))^-.$$
 
 As $m$ is additive, $l$ is __multiplicative__
 
