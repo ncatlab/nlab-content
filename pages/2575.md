@@ -591,7 +591,7 @@ Upon [[quantization]] the [[level (Chern-Simons theory)|Chern-Simons level]] rec
 The [[Wilson line]]-[[observable]]s in quantum Chern-Simons theory are
 given by [[knot invariant]]s.
 
-In [Witten (1989)](#Witten) it was shown  that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by [[Vaughan Jones]] in the context of [[von Neumann algebra]]s --  the [[Jones polynomial]] -- can be given a heuristic geometric interpretation: the [[Jones polynomial]] V(q) of a [[knot]] $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons form|Chern?Simons]] [[action functional]] $S[A]$:
+In [Witten (1989)](#Witten) it was shown  that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by [[Vaughan Jones]] in the context of [[von Neumann algebra]]s --  the [[Jones polynomial]] -- can be given a heuristic geometric interpretation: the [[Jones polynomial]] V(q) of a [[knot]] $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons form|Chern–Simons]] [[action functional]] $S[A]$:
 \[
  V_K(q) = \int_{all\,connections\,A\,on\,M} hol_A(K) \,\, exp(iS[A])
 \]
@@ -599,7 +599,7 @@ where
 \[
 S[A] = \frac{k}{4\pi} \int_M Tr (A \wedge dA + \frac{2}{3} A \wedge A \wedge A)
 \]
-is the integral of the [[Chern-Simons form|Chern?Simons Lagrangian]], 
+is the integral of the [[Chern-Simons form|Chern–Simons Lagrangian]], 
 \[
  Tr Hol_A (K) 
 \]
@@ -1131,7 +1131,7 @@ and of [[2d QCD]] ([[AdS/QCD]]):
 
 
 [[!redirects Chern-Simons theory]]
-[[!redirects Chern?Simons theory]]
+[[!redirects Chern–Simons theory]]
 [[!redirects Chern--Simons theory]]
 
 [[!redirects Chern-Simons action functional]]
