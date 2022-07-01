@@ -316,13 +316,15 @@ $\,$
 
 ## References
 
+### General
+
 Traditional review:
 
 * [[Radovan Dermisek]], _Path integral for interacting field_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-5-4p.pdf))
 
-* [[Stefan Weinzierl]], *Introduction to Feynman Integrals* $[$[arXiv:1005.1855](https://arxiv.org/abs/1005.1855)$]$
+* [[Stefan Weinzierl]], *Introduction to Feynman Integrals* &lbrack;[arXiv:1005.1855](https://arxiv.org/abs/1005.1855)&rbrack;
 
-* [[Stefan Weinzierl]], *Feynman Integrals*, UNITEXT for Physics, Springer (2022) $[$[arXiv:2201.03593](https://arxiv.org/abs/2201.03593), [doi:10.1007/978-3-030-99558-4](https://doi.org/10.1007/978-3-030-99558-4)$]$  (816 pages)
+* [[Stefan Weinzierl]], *Feynman Integrals*, UNITEXT for Physics, Springer (2022) &lbrack;[arXiv:2201.03593](https://arxiv.org/abs/2201.03593), [doi:10.1007/978-3-030-99558-4](https://doi.org/10.1007/978-3-030-99558-4)&rbrack;  (816 pages)
 
 
 See also
@@ -330,6 +332,8 @@ See also
 * [[Alain Connes]], [[Matilde Marcolli]], section 3 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
 * Wikipedia, _[Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram)_
+
+* F. T. Brandt, J. Frenkel, D. G. C. McKeon, *Feynman diagrams in terms of on-shell propagators* &lbrack;[arXiv:2206.14860](https://arxiv.org/abs/2206.14860)&rbrack;
 
 ### In causal perturbation theory
  {#ReferencesInCausalPerturbationTheory}
