@@ -8,7 +8,7 @@
 =--
 #### non-archimedean geometry
 +--{: .hide}
-[[!include non-archimedean geometry - contents]]
+
 =--
 =--
 =--
@@ -87,11 +87,43 @@ well adapted to the study of torsion phenomena in finite characteristic.
 Indeed, as explained by Bhatt at the end of his paper, one may use derived de Rham cohomology
 over $\Z$ to get a (non-archimedean) period ring isomorphism for an [[arithmetic variety]].
 
+## Hodge-Tate decomposition
+
+An early result in $p$-adic Hodge theory is the Hodge-Tate decomposition, which is a $p$-adic analogue of the Hodge decomposition in classical [[Hodge theory]]. Let $X$ be a smooth projective variety over $\mathbb{Q}_{p}$ (or more generally some finite extension of it). Let $\mathbb{C}_{p}$ be the p-adic complex numbers. Then we have
+
+$$H^{k}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})\otimes_{\mathbb{Q}_{p}}\mathbb{C}_{p}=\bigoplus_{i+j=k} H^{i}(X,\Omega_{X/\mathbb{Q}}^{j})\otimes_{\mathbb{Q}}\mathbb{C}_{p}(-j)$$
+
+## Comparison theorems
+
+Central to modern $p$-adic Hodge theory are the comparison theorems that relate the [[de Rham cohomology]] and the [[étale cohomology]] of a smooth projective variety $X$ over $\mathbb{Q}_{p}$ (or more generally some finite extension of it), using the machinery of period rings, whose construction we will discuss in the next section.
+
+For instance, tensoring with the de Rham period ring $B_{dR}$ gives us the following isomorphism between the de Rham and $p$-adic etale cohomology of $X$:
+
+$$H_{\mathrm{dR}}^{i}(X)\otimes_{\mathbb{Q}_{p}} B_{\mathrm{dR}}=H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})\otimes_{\mathbb{Q}_{p}} B_{\mathrm{dR}}$$
+
+We also have a way of recovering the de Rham cohomology from the $p$-adic etale cohomology by taking Galois invariants:
+
+$$H_{\mathrm{dR}}^{i}(X)=(H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})\otimes_{\mathbb{Q}_{p}} B_{\mathrm{dR}})^{\mathrm{Gal}_{\mathbb{Q}_{p}}}$$
+
+Recovering the $p$-adic etale cohomolgy from the de Rham cohomology involves a different period ring, the crystalline period ring $B_{cris}$, and is only possible if $X$ has an integral model:
+
+$$H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})= \mathrm{Fil}^{0}(H_{\mathrm{dR}}^{i}(X)\otimes_{\mathbb{Q}_{p}} B_{\mathrm{cris}})^{\varphi=1}$$
+
+## Construction of period rings
+
+## Classification of $p$-adic Galois representations
+
 ## Related concepts
 
 * [[Fargues-Fontaine curve]]
 
+* [[prismatic cohomology]]
+
 ## References
+
+An overview:
+
+[[Jacob Lurie]], _Lecture 1: Overview_, lecture notes from a learning seminar on the [[Fargues-Fontaine curve]], [pdf](https://www.math.ias.edu/~lurie/ffcurve/Lecture1-Overview.pdf)
 
 Niziol's [[algebraic K-theory|K-theoretic]] proof:
 
