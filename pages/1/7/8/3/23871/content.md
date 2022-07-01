@@ -69,6 +69,7 @@ Discussion of Fibonacci anyons:
 
 * {#Nayak22} [[Chetan Nayak]], *Microsoft has demonstrated the underlying physics required to create a new kind of qubit*, Microsoft Research Blog (March 2022)
 
+* Pasquale Marra: *Majorana nanowires for topological quantum computation: A tutorial* &lbrack;[arXiv:2206.14828](https://arxiv.org/abs/2206.14828)&rbrack;
 
 
 
