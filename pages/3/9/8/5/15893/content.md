@@ -101,17 +101,27 @@ For instance, tensoring with the de Rham period ring $B_{dR}$ gives us the follo
 
 $$H_{\mathrm{dR}}^{i}(X)\otimes_{\mathbb{Q}_{p}} B_{\mathrm{dR}}=H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})\otimes_{\mathbb{Q}_{p}} B_{\mathrm{dR}}$$
 
-We also have a way of recovering the de Rham cohomology from the $p$-adic etale cohomology by taking Galois invariants:
+The ring $B_{dR}$ is equipped with a filtration and a Galois action. We have a way of recovering the de Rham cohomology from the $p$-adic etale cohomology by taking Galois invariants:
 
 $$H_{\mathrm{dR}}^{i}(X)=(H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})\otimes_{\mathbb{Q}_{p}} B_{\mathrm{dR}})^{\mathrm{Gal}_{\mathbb{Q}_{p}}}$$
 
-Recovering the $p$-adic etale cohomolgy from the de Rham cohomology involves a different period ring, the crystalline period ring $B_{cris}$, and is only possible if $X$ has an integral model:
+Recovering the $p$-adic etale cohomology from the de Rham cohomology involves a different period ring, the crystalline period ring $B_{cris}$ (which is equipped with a Frobenius $\varphi$ in addition to a filtration and Galois action), and is only possible if $X$ has an integral model:
 
 $$H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})= \mathrm{Fil}^{0}(H_{\mathrm{dR}}^{i}(X)\otimes_{\mathbb{Q}_{p}} B_{\mathrm{cris}})^{\varphi=1}$$
 
 ## Construction of period rings
 
+We now show how to construct $B_{dR}. $Let $\mathcal{O}_{\mathbb{C}_{p}}$ be the ring of integers of $\mathbb{C}_{p}$. We take the tilt $\mathbb{O}_{\mathbb{C}_{p}}^{\flat}$ of $\mathbb{O}_{\mathbb{C}_{p}}$, and take Witt vectors. The resulting ring $W(\mathbb{O}_{\mathbb{C}_{p}}^{\flat})$ is also called $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})$. It comes with a canonical map $\theta:A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})\to \mathcal{O}_{\mathbb{C}_{p}}$. Inverting $p$ and taking the completion with respect to $\theta$ gives us the ring $B_{dR}^{+}$. There is a special element $t\in B_{dR}^{+}$ which we think of as the logarithm of the element $(1,\zeta,\zeta^{1/p},\ldots)$. Then we define $B_{dR}=B_{dR}^{+}[1/t]$.
+
+Next we show how to construct $B_{cris}$. Once again we take $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})$ and invert $p$. Instead of completing with respect to $\theta$, as in the construction of $B_{dR}$, we take a generator $\omega$ of its kernel, and consider the ring $B_{cris}^{+}$ whose elements are power series of the form $\sum a_{n}\omega^{n}$ where the $a_{n}$'s are elements of $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})[1/p]$ which converge to $0$ as $n$ approaches infinity, with respect to the topology of $A_{inf}(\mathcal{O}_{\mathbb{C}_{p}})[1/p]$. Once again there will be an element $t$ as in the construction of $B_{dR}$; we define $B_{cris}=B_{cris}^{+}[1/t]$.
+
 ## Classification of $p$-adic Galois representations
+
+We can abstract the concepts discussed above and take a p-adic Galois representation $V$ (without knowing, say, if it comes from some cohomology theory). We can then define
+
+$$V_{dR}=(V\otimes B_{dR})^{\mathrm{Gal}_{\mathbb{Q}_{p}}}$$
+
+If the dimension of $V$ is equal to the dimension of $V_{dR}$, we say that $V$ is _de Rham_. We can also apply this construction with $B_{cris}$ instead of $B_{dR}$; if the dimension stays the same we say that $V$ is _crystalline_.
 
 ## Related concepts
 
@@ -121,9 +131,16 @@ $$H_{\mathrm{et}}^{i}(X_{\overline{\mathbb{Q}}_{p}},\mathbb{Q}_{p})= \mathrm{Fil
 
 ## References
 
-An overview:
+### Overview
 
 [[Jacob Lurie]], _Lecture 1: Overview_, lecture notes from a learning seminar on the [[Fargues-Fontaine curve]], [pdf](https://www.math.ias.edu/~lurie/ffcurve/Lecture1-Overview.pdf)
+
+### Introductory references
+
+[[Laurent Berger]], _An Introduction to the Theory of $p$-adic Representations, [pdf](http://perso.ens-lyon.fr/laurent.berger/articles/article05.pdf)
+
+[[Oliver Brinon]] and [[Brian Conrad]], _CMI Summer School Notes on $p$-adic Hodge Theory, [pdf](https://math.stanford.edu/~conrad/papers/notes.pdf)
+
 
 Niziol's [[algebraic K-theory|K-theoretic]] proof:
 
