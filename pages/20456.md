@@ -107,6 +107,6 @@ Recent developments include
 
 Historical precursors of prismatic cohomology are
 
-* {#BhattMorrowScholze16}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[PeterScholze]] _Integral $p$-adic Hodge Theory_, arXiv:[1602.03148](https://arxiv.org/abs/1602.03148)
+* {#BhattMorrowScholze16}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[Peter Scholze]] _Integral $p$-adic Hodge Theory_, arXiv:[1602.03148](https://arxiv.org/abs/1602.03148)
 
-* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[PeterScholze]] _Topological Hochschild Homology and Integral $p$-adic Hodge Theory_, arXiv:[1802.03261](https://arxiv.org/abs/1802.03261)
+* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[Peter Scholze]] _Topological Hochschild Homology and Integral $p$-adic Hodge Theory_, arXiv:[1802.03261](https://arxiv.org/abs/1802.03261)
