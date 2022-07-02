@@ -371,6 +371,24 @@ for each closed subset $A$ of $X$ $
 A\to X \,\,&solb;\,\, \mathbb{S}^n\to \{o\}$
 where $\mathbb{S}^n$ denotes the $n$-sphere.
 
+#### Homotopy theory
+
+A finite CW complex $X$ is contractible iff  $X  \longrightarrow  {\{\bullet\}} \in \{   \{a{ \swarrow}U{ \searrow}x{ \swarrow}V{ \searrow}b\}\longrightarrow \{a{ \swarrow}U=x=V{ \searrow}b\}\}^{&solb;rl}$
+
+The map defining Separation Axiom $T_4$ above 
+is a trivial Serre fibration, hence their ${}^{&solb;rl}$-orthogonals are classes of trivial fibrations.
+
+
+\begin{conjecture} If $f$ is a ``nice'' map, then 
+$f$ is a trivial fibration iff 
+$$f\in\{  \{a{ \swarrow}U{ \searrow}x{ \swarrow}V{ \searrow}b\}\longrightarrow \{a{ \swarrow}U=x=V{ \searrow}b\}
+\}^{&solb;rl}$$
+\end{conjecture}
+
+One can make the same conjecture for the map
+defining Separation Axiom $T_6$ (hereditary normal) since it is also a trivial Serre fibration.
+
+
 
 ### Model theory 
 
