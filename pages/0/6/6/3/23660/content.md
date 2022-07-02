@@ -50,23 +50,9 @@ $0$ is defined as $1 - 1$, $-a$ is defined as $0 - a$, and $a + b$ is defined as
 
 A **pointed halving group** is a pointed abelian group *G* with a function $(-)/2:G \to G$ called **halving** or **dividing by two** such that for all elements $g:G$, $g/2 = g - g/2$. 
 
-#### Totally ordered pointed halving groups ####
-
-A pointed halving group $R$ is a totally ordered pointed halving group if it comes with a function $\max:R \times R \to R$ such that 
-
-* for all elements $a:R$, $\max(a, a) = a$
-
-* for all elements $a:R$ and $b:R$, $\max(a, b) = \max(b, a)$
-
-* for all elements $a:R$, $b:R$, and $c:R$, $\max(a, \max(b, c)) = \max(\max(a, b), c)$
-
-* for all elements $a:R$ and $b:R$, $\max(a, b) = a$ or $\max(a, b) = b$
-
-* for all elements $a:R$ and $b:R$, $\max(a, b) = b$ implies that for all elements $c:R$, $\max(a - c, b - c) = b - c$
-
 #### Strictly ordered pointed halving groups ####
 
-A totally ordered pointed halving group $R$ is a strictly ordered pointed abelian group if it comes with a type family $\lt$ such that
+A pointed halving group $R$ is a strictly ordered pointed abelian group if it comes with a type family $\lt$ such that
 
 * for all elements $a:R$ and $b:R$, $a \lt b$ is a proposition
 * for all elements $a:R$, $a \lt a$ is false
@@ -92,9 +78,9 @@ be the positive dyadic rational numbers.
 
 A **sequence** in $A$ is a function $x:\mathbb{N} \to A$. 
 
-A sequence $x:\mathbb{N} \to A$ is a **Cauchy sequence** if for all positive dyadic rational numbers $\epsilon:\mathbb{D}_{+}$, there merely exists a natural number $N:\mathbb{N}$ such that for all natural numbers $i:\mathbb{N}$ and $j:\mathbb{N}$ such that $N \leq i$ and $N \leq j$, $\max(x_i - x_j, x_j - x_i) \lt \epsilon$. 
+A sequence $x:\mathbb{N} \to A$ is a **Cauchy sequence** if for all positive dyadic rational numbers $\epsilon:\mathbb{D}_{+}$, there merely exists a natural number $N:\mathbb{N}$ such that for all natural numbers $i:\mathbb{N}$ and $j:\mathbb{N}$ such that $N \leq i$ and $N \leq j$, $x_i - x_j \lt \epsilon$ or $x_j - x_i \lt \epsilon$. 
 
-An element $l:A$ is said to be a **limit** of the sequence $x:\mathbb{N} \to A$ if for all positive dyadic rational numbers $\epsilon:\mathbb{D}_{+}$, there merely exists a natural number $N:\mathbb{N}$ such that for all natural numbers $i:\mathbb{N}$ such that $N \leq i$, $\max(x_i - l, l - x_i) \lt \epsilon$
+An element $l:A$ is said to be a **limit** of the sequence $x:\mathbb{N} \to A$ if for all positive dyadic rational numbers $\epsilon:\mathbb{D}_{+}$, there merely exists a natural number $N:\mathbb{N}$ such that for all natural numbers $i:\mathbb{N}$ such that $N \leq i$, $x_i - l \lt \epsilon$ or $l - x_i \lt \epsilon$
 
 $A$ is **sequentially Cauchy complete** if every Cauchy sequence in $A$ merely has a limit. 
 
