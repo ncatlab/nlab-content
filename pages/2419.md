@@ -127,6 +127,10 @@ $$T_{n}f(\Lambda)=\sum_{\Lambda'}f(\Lambda')$$
 
 where the sum runs over all lattices $\Lambda'$ which are index $n$ subgroups of $\Lambda$. A modular form which is a simultaneous eigenvector is also called a _Hecke eigenform_ or simply _eigenform_.
 
+A modular form which vanishes at the cusps (equivalently, whose zeroth Fourier coefficient is equal to $1$) is called _cuspidal_, or a _cusp form_. A cusp form is _normalized_ if its first Fourier coefficient is equal to $1$. For normalized cuspidal eigenforms of integer weight, the eigenvalue of the Hecke operator $T_{n}$ is exactly the $n$-th Fourier coefficient.
+
+Hecke operators were first developed by [[Louis Mordell]] to study the conjectures of [[Srinivasa Ramanujan]] on the tau function (the Fourier coefficients of the modular discriminant). They were later developed by (and named after) [[Erich Hecke]] who used them to study [[L-functions]]. 
+
 ### Relation to Galois representations
 
 Modular forms can be used to construct [[Galois representations]]. For instance in the case of weight $2$ 
