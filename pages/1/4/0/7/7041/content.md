@@ -213,7 +213,14 @@ $$
 
 ## References
 
-* wikipedia, _[bump function](http://en.wikipedia.org/wiki/Bump_function)_
+Textbook account:
+
+* {#Lee12} [[John Lee]], Prop. 2.25 in: *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
+
+
+See also:
+
+* Wikipedia, _[Bump function](http://en.wikipedia.org/wiki/Bump_function)_
 
 A different example is examined in detail in
 
