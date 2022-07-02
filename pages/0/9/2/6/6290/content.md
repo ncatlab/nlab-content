@@ -22,6 +22,16 @@ _$L$-functions_ are certain [[meromorphic functions]] generalizing the
 
 The most canonically defined class of examples of L-functions are the _[[Artin L-functions]]_ defined for any [[Galois representation]] $\sigma \colon Gal \longrightarrow GL_n(\mathbb{C})$ as the [[Euler products]] of, essentially, the [[characteristic polynomials]] of all the [[Frobenius homomorphisms]] acting via $\sigma$.
 
+Another common example of an L-function comes from [[modular forms]]. If we have a cusp form $f$ of weight $k$, with Fourier expansion
+
+$$f(z)=\sum_{n=1}^{\infty}a_{n}e^{2\pi i n z}$$
+
+the associated L-function $L_{f}(s)$ is given by
+
+$$L_{f}(s)=\sum_{n}^{\infty}a_{n}n^{-s}.$$
+
+The L-function $L_{f}(s)$ may also be obtained as the [[Mellin transform]] of $f$. This is an example of an [[automorphic L-function]], which more generally is not as easy to construct.
+
 Most other kinds of L-functions are such as to reproduces these [[Artin L-functions]] from more "arithmetic" data: 
 
 1. for 1-dimensional [[Galois representations]] $\sigma$ (hence for $n = 1$) [[Artin reciprocity]] produces for each $\sigma$ a [[Dirichlet character]], or more generally a [[Hecke character]] $\chi$, and therefrom is built a _[[Dirichlet L-function]]_ or _[[Hecke L-function]]_ $L_\chi$, respectively, which equals the corresponding [[Artin L-function]] $L_\sigma$;
