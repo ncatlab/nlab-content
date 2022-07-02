@@ -1,14 +1,32 @@
->Compared with Kummer's criterion and class number formula, Iwasawa theory is finer in the point that it describes not only the class number, i.e. the order of the ideal class group, but also the action of the Galois group on the ideal class group. In fact, one could even say that the aim of Iwasawa theory is to describe Galois actions on arithmetic objects in terms of zeta values. ([Kato 06](#Kato06))
 
-[wikipedia](http://en.wikipedia.org/wiki/Iwasawa_theory)
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+>Compared with Kummer's criterion and class number formula, Iwasawa theory is finer in the point that it describes not only the class number, i.e. the order of the ideal class group, but also the action of the Galois group on the ideal class group. In fact, one could even say that the aim of Iwasawa theory is to describe Galois actions on arithmetic objects in terms of zeta values. &lbrack;[Kato 06](#Kato06)&rbrack;
+
 
 ## Idea
 
-Iwasawa theory is the study of certain modules of arithmetic interest over the Iwasawa algebra $\mathbb{Z}_{p}[[\Gamma]]$, where $\Gamma$ is the subgroup of $\mathrm{Gal}(\mathbb{Q}(\mu_{p^{\infty}})/\mathbb{Q})\cong (1+p\mathbb{Z}_{p})\times\mu_{p-1}$ isomorphic to $1+p\mathbb{Z}_{p}$. An example of such a module is the inverse limit of the $p$-part of class groups of cyclotomic fields.
+Iwasawa theory is the study of certain [[modules]] of [[arithmetic]] interest over the [[Iwasawa algebra]] $\mathbb{Z}_{p}[[\Gamma]]$, where $\Gamma$ is the [[subgroup]] of the [[Galois group]] $\mathrm{Gal}(\mathbb{Q}(\mu_{p^{\infty}})/\mathbb{Q})\cong (1+p\mathbb{Z}_{p})\times\mu_{p-1}$ [[isomorphism|isomorphic]] to $1+p\mathbb{Z}_{p}$. An example of such a module is the [[inverse limit]] of the $p$-part of class groups of [[cyclotomic fields]].
 
 ## The Main Conjecture of Iwasawa Theory
 
-Let $A_{n}$ be the p-Sylow subgroup of the [[ideal class group]] of $\mathbb{Q}(\mu_{p^{n}})$. Let $X_{\infty}$ be the inverse limit of the $A_{n}$ under the norm maps. Then $X_{\infty}$ is a module over the Iwasawa algebra $\mathbb{Z}_{p}[[\Gamma]]$.
+Let $A_{n}$ be the [[Sylow p-subgroup]] of the [[ideal class group]] of $\mathbb{Q}(\mu_{p^{n}})$. Let $X_{\infty}$ be the [[inverse limit]] of the $A_{n}$ under the norm maps. Then $X_{\infty}$ is a module over the Iwasawa algebra $\mathbb{Z}_{p}[[\Gamma]]$.
 
 There is also an action of $\mathbb{Z}_{p}[[\Delta]]$ on $X_{\infty}$, where $\Delta=\mathrm{Gal}(\mathbb{Q}(\mu_{p})/\mathbb{Q})$. Let $\delta$ be a generator of $\Delta$ and let $a$ be such that $\delta(\zeta_{p})=\zeta_{p}^{a}$. Then $X_{\infty}$ breaks up into eigenspaces
 
@@ -37,6 +55,11 @@ Via the 3-manifold/number field analogy of [[arithmetic topology]], Iwasawa theo
 * {#Kato06} Kazuya Kato, _Iwasawa theory and generalizations_, ([ICM 2006 talk](http://www.icm2006.org/proceedings/Vol_I/18.pdf)).
 
 * {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
+
+See also:
+
+* Wikipedia, *[Iwasawa theory](http://en.wikipedia.org/wiki/Iwasawa_theory)*
+
 
 The main conjecture of Iwasawa theory was proved in
 
