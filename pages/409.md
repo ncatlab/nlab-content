@@ -60,13 +60,7 @@ The equivalence of strict $\omega$-groupoids and [[crossed complex]]es is discus
 Notice that this article says "$\infty$-groupoid" for _strict globular $\infty$-groupoid_ and "$\omega$-groupoid" for _strict cubical $\infty$-groupoid_, and also contains  definitions  of $n$-fold categories, and of what are now called  [[globular sets]].
 
 [[!redirects strict omega-groupoids]]
-
 [[!redirects strict ∞-groupoid]]
 [[!redirects strict ∞-groupoids]]
-
 [[!redirects strict infinity-groupoid]]
 [[!redirects strict infinity-groupoids]]
-
-
-[[!redirects strict ∞-groupoid]]
-[[!redirects strict ∞-groupoids]]
