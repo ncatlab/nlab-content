@@ -223,7 +223,7 @@ This is [Bry, prop. 1.6](http://arxiv.org/PS_cache/math/pdf/0011/0011069v1.pdf#p
 
 ### Long sequence in differential cohomology {#SequenceDiffCohomology}
 
-For the purpose of this section we specifically conceive Lie group cohomology inside the [[(∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s, as described there.
+For the purpose of this section we specifically conceive Lie group cohomology inside the [[(∞,1)-topos]] [[∞LieGrpd]] of [[∞-Lie groupoid]]s, as described there.
 
 This is a [[local (∞,1)-topos]], hence in particular an [[∞-connected (∞,1)-topos]] and therefore it admits [[schreiber:differential cohomology in an (∞,1)-topos]]. By the theorem about the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#DiffCohWithGroupalCoeffs">differential fiber sequence</a>
 we have for $G$ a [[Lie group]], $\mathbf{B}G$ its [[delooping]], $\mathbf{B}^{n} U(1)$ the [[∞-Lie groupoid|circle n+1-group]] a long sequence in cohomology
