@@ -103,6 +103,8 @@ Recent developments include
 
 * {#Bhatt20}[[Bhargav Bhatt]], _Cohen-Macaulayness of Absolute Integral Closures_, preprint (2020) arXiv:[2008.08070](https://arxiv.org/abs/2008.08070)
 
+* [[Jeremy Hahn]], [[Arpon Raksit]], [[Dylan Wilson]], _A motivic filtration on the topological cyclic homology of commutative ring spectra_, preprint (2022) arXiv:[2206.11208] (https://arxiv.org/abs/2206.11208)
+
 Historical precursors of prismatic cohomology are
 
 * {#BhattMorrowScholze16}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[PeterScholze]] _Integral $p$-adic Hodge Theory_, arXiv:[1602.03148](https://arxiv.org/abs/1602.03148)
