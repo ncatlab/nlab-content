@@ -45,12 +45,36 @@ A [[monad]] is called **p.r.a.** if its functor part is p.r.a. and moreover its 
 
 ## Generic morphisms
 
-Central to the theory of parametric right adjoints is the notion of *$T$-generic* morphisms.  For any functor $T$, a morphism $f\colon B\to T A$ is (strictly) **$T$-generic** if any commutative square of the following form:
-$$\array{B & \overset{\alpha}{\to} &T X \\
-  ^f\downarrow && \downarrow^{T\gamma}\\
-  T A& \underset{T \beta}{\to} & T Z}$$
-has a unique filler of the form $T\delta : T A \to T X$.  A **generic factorization** of a map $f\colon B\to T A$ is a factorization
-$$ B \overset{g}{\to} T D \overset{T h}{\to} T A $$
+Central to the theory of parametric right adjoints is the notion of *$T$-generic* morphisms.  For any [[functor]] $T$, a morphism $f \colon B\to T A$ is (strictly) **$T$-generic** if any [[commutative square]] of the following form:
+$$
+  \array{
+    B 
+    & 
+    \overset{\alpha}{\longrightarrow} & 
+    T X 
+    \\
+    \mathllap{{}^f}
+    \big\downarrow 
+    && 
+    \big\downarrow
+    \mathrlap{{}^{T\gamma}}
+    \\
+    T A
+    & 
+    \underset{T \beta}{\longrightarrow} 
+    & 
+    T Z
+  }
+$$
+has a unique [[lift|filler]] of the form $T\delta \colon T A \longrightarrow T X$.  
+A **generic factorization** of a map $f\colon B\to T A$ is a factorization
+$$ 
+  B 
+    \overset{g}{\longrightarrow} 
+  T D 
+    \overset{T h}{\longrightarrow} 
+  T A 
+$$
 such that $g$ is $T$-generic.  Note that by the definition of genericity, generic factorizations are unique whenever they exist.  If $T$ is a monad and any map $B \to T A$ has a generic factorization, then there is an induced [[orthogonal factorization system]] on the [[Kleisli category]] of $T$ in which $T$-generic maps are the left class and the right class are the "free" maps, i.e. those which factor through the unit of $T$.
 
 +-- {: .un_prop}
