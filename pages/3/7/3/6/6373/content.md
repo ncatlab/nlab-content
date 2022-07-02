@@ -26,6 +26,12 @@ Given an algebraic [[number field]] $k$ one defines a (congruence divisor) class
 
 Some of the basic results of the class field theory are the Artin reciprocity theorem, existence theorem, uniqueness theorem, ordering theorem, Weber isomorphy theorem and the decomposition law of class field theory. 
 
+## The Hilbert Class Field
+
+For a number field $K$, the _Hilbert class field_ $H$ is defined to be its maximal unramified abelian extension. In this special case, class field theory tells us that the Galois group $Gal(H/K)$ is isomorphic to the [[ideal class group]] of $K$.
+
+In [[arithmetic topology]], this is seen as an analogue of the [[Hurewicz theorem]] (see [Morishita12](#Morishita12)).
+
 ## Related concepts
 
 * [[Langlands correspondence]]
@@ -63,4 +69,8 @@ Some history is in
 
 * {#Cogdell12} James W. Cogdell, _L-functions and non-abelian class eld theory, from
 Artin to Langlands_, 2012 ([pdf](https://people.math.osu.edu/cogdell.1/Artin-www.pdf))
+
+The analogy between class field theory for the Hilbert class field and the Hurewicz theorem can be found in
+
+* {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012, Springer, ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
 
