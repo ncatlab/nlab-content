@@ -98,7 +98,7 @@ $$
   \omega \coloneqq e^\ast \Omega^1_{A/S}
 $$ 
 
-is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$
+is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$. Using the Kodaira-Spencer isomorphism one can show that the space of cusp forms of weight $2$ are the differentials on the corresponding modular curve.
 
 
 ### For congruence subgroups
