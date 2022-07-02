@@ -78,9 +78,36 @@ $f(\Omega_0)-f(\Omega_1)=d \Phi$ for some $2k-1$ form $\Phi$ on $P$ that project
  Given a principal bundle $\pi:P\rightarrow M$ the morphism  defined above $I(G)\rightarrow H^*(M,\mathbb{R})$ is called the Weil homomorphism.
 
 
-## Refined Chern-Weil homomorphism
+## Refined Chern–Weil homomorphism
 
-We describe the _refined_ Chern-Weil homomorphism (which associates a class in [[ordinary differential cohomology]] to a [[principal bundle]] with [[connection on a bundle|connection]]) in terms of the [[universal connection]] on the [[universal principal bundle]]. We follow ([HopkinsSinger, section 3.3](#HopkinsSinger)).
+We describe the _refined_ Chern–Weil homomorphism (which associates a class in [[ordinary differential cohomology]] to a [[principal bundle]] with [[connection on a bundle|connection]]).
+
+The modern construction is rather short and elegant,
+and appears in the work of Bunke–Nikolaus–Völkl and Schreiber.
+For an exposition, see, for example, Section 13.1 in Amabel–Debray–Haine \cite{ADH}.
+
+The input data is an arbitrary [[Lie group]] $G$,
+an [[invariant polynomial]] $P$ on the [[Lie algebra]] of $G$, and a [[level]] $c\in H^k(B G,\mathbf{Z})$
+whose image under the homomomorphism
+$$H^k(B G,\mathbf{Z}) \to H^k(B G,\mathbf{R})$$
+equals the image of $P$.
+
+The output data is a morphism of [[(∞,1)-sheaves]]
+$$B_\nabla G\to B^{2k-1} \mathrm{U}(1)$$
+whose image under the characteristic class map equals $c$
+and under the curvature map equals the classical Chern–Weil homomorphism associated to $P$.
+
+Perhaps the quickest way to construct this refinement is to observe that $B^{2k-1} \mathrm{U}(1)$ is the [[homotopy pullback]] of $\Omega^{2k}_{closed}$ and $B^{2k}\mathbf{Z}$ over $B^{2k}\mathbf{R}$.
+Using the universal property of [[homotopy pullbacks]],
+it suffices to construct a compatible pair of maps
+$$B_\nabla G\to B^{2k} \mathbf{Z}, \qquad B_\nabla G\to \Omega^{2k}_{closed}.$$
+The former map is given by $c$, the latter is given by $P$ via the classical Chern–Weil homomorphism.
+They are compatible by assumption on the input data.
+
+## Refined Chern–Weil homomorphism: old construction
+
+Here is a description of an older construction in terms of the [[universal connection]] on the [[universal principal bundle]], following ([HopkinsSinger, section 3.3](#HopkinsSinger)).
+It makes an additional assumption that $G$ is compact, which is not necessary in the other approaches.
 
 
 * Let $G$ be a [[compact space|compact]] [[Lie group]]
