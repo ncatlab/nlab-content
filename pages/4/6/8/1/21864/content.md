@@ -51,7 +51,7 @@ A third, equivalent, formulation was proved to be [[decidability|undecidable]] i
 ## References
 
 * Saroja Bhate and Subhash Kak. Pānini’s Grammar and Computer Science. Annals of the Bhandarkar Oriental Research Institute (1993)
-* {#Thue14} Axel Thue. Probleme Uber Veränderungen von Zeichenreihen Nach Gegebenen Regeln. (1914)
+* {#Thue14} Axel Thue. Probleme über Veränderungen von Zeichenreihen nach gegebenen Regeln. (1914)
 * Emil L. Post. Recursive Unsolvability of a problem of Thue. Journal of Symbolic Logic (1947)
 * A Markov. On certain insoluble problems concerning matrices. In Doklady Akad (1947)
 * {#Lambek58} J. Lambek. The mathematics of sentence structure. American Mathematics Monthly (1958)
