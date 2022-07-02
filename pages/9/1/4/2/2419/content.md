@@ -97,6 +97,15 @@ For the history of the terminology "modular form"/"automorphic form" see also [t
 
 ## Properties
 
+### Relation to Galois representations
+
+Modular forms can be used to construct [[Galois representations]]. For instance in the case of weight $2$ 
+normalized eigenforms this is the Eichler-Shimura construction discussed in [DiamondShurman05, chapter 9](#DiamondShurman05). This was generalized to higher weight in [Deligne71](#Deligne71), and the case of weight $1$ comes from the work of [DeligneSerre74](#DeligneSerre74).
+
+The problem of whether a Galois representation comes from some modular form is part of the problem of _modularity_. Known cases include the [[modularity theorem]] of [TaylorWiles95](#TaylorWiles95) and [BreuilConradDiamondTaylor2001](#BreuilConradDiamondTaylor2001). The former is notably an important part of [[Wiles' proof of Fermat's last theorem]]. 
+
+On a more general level, as modular forms are a special case of automorphic forms, their relation to Galois representations is part of the [[Langlands program]].
+
 ### Relation of $MF_0(2)$ to the elliptic genus
 
 Write $\Gamma_0(2) \hookrightarrow SL_2(\mathbb{Z})$ for the [[subgroup]] of the [[modular group]] on those elements $\left(\array{a & b \\ c & d}\right)$ for which $c = 0\, mod\, 2$.
@@ -164,7 +173,7 @@ Textbook accounts:
 
 * N. Koblitz, _Introduction to Elliptic Curves and Modular Forms_, Graduate Texts in Math. **97** Springer (1984, 1993) 
 
-* [[Fred Diamond]], [[Jerry Shurman]], *A First Course in Modular Forms*, GTM **228**, Springer (2005) $[$[doi:10.1007/978-0-387-27226-9](https://doi.org/10.1007/978-0-387-27226-9), ISBN-13: ‎978-0387232294$]$ 
+* {#DiamondShurman05} [[Fred Diamond]], [[Jerry Shurman]], *A First Course in Modular Forms*, GTM **228**, Springer (2005) $[$[doi:10.1007/978-0-387-27226-9](https://doi.org/10.1007/978-0-387-27226-9), ISBN-13: ‎978-0387232294$]$ 
 
 
 Lecture notes and reviews include
@@ -185,6 +194,20 @@ Lecture notes and reviews include
 
 
 * Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
+
+The construction of Galois representations associated to normalized eigenforms of weight $\geq 2$ comes from
+
+* {#Deligne71}[[Pierre Deligne]], _Formes modulaires et représentations l-adiques_, Sém. Bourbaki 1968/69, exp. 355, Springer Lecture Notes 179 (1971), 139–172
+
+The construction of Galois representations from weight $1$ modular forms comes from
+
+* {#DeligneSerre74}[[Pierre Deligne]] and [[Jean-Pierre Serre]] _Formes modulaires de poids 1_ Ann. Sci. Ecole Norm. Sup. (4), 7:507–530 (1975), 1974.
+
+References related to the modularity theorem are
+
+* {#TaylorWiles95} [[Richard Taylor]], [[Andrew Wiles]], *Ring-Theoretic Properties of Certain Hecke Algebras*, Annals of Mathematics Second Series **141** 3 (1995) 553-572 $[$[doi:10.2307/2118560 ](https://doi.org/10.2307/2118560 )$]$
+
+* {#BreuilConradDiamondTaylor2001} [[Christophe Breuil]], [[Brian Conrad]], [[Fred Diamond]], [[Richard Taylor]], *On the modularity of elliptic curves over $\mathbf{Q}$: Wild 3-adic exercises*, Journal of the American Mathematical Society **14** 4 (2001) 843–939 $[$[doi:10.1090/S0894-0347-01-00370-8](https://doi.org/10.1090/S0894-0347-01-00370-8)$]$
 
 Original discussion in the context of [[elliptic genera]] and [[elliptic cohomology]] includes
 
