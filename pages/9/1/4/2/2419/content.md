@@ -65,7 +65,29 @@ such that
 
 More generally there is such a definition for $SL(2,\mathbb{Z})$ replaced by any other arithmetic subgroup $\Gamma \subset SL(2,\mathbb{R})$ (e.g. [Litt, def.1](#Litt)), giving modular forms on [[modular curves]].
 
+### As functions on lattices
 
+The reference for this definition  is [Calegari13](#Calegari13).
+
+A modular form $f$ of weight $k$ over $\mathbb{C}$ is a function on lattices $\Lambda=\mathbb{Z}+\tau\mathbb{Z}\subset \mathbb{C}$ such that
+
+1. $f(\mathbb{Z}+\tau\mathbb{Z})$ is holomorphic as a function of $\tau$
+
+2. $f(\mu \Lambda)=\mu^{-k}$ for all $\mu\in\mathbb{C}^{\times}$
+
+3. $f(\mathbb{Z}+\tau\mathbb{Z})$ is bounded as $\tau\to i\infty$.
+
+### As functions on elliptic curves together with a choice of differential
+
+Again the reference for this definition  is [Calegari13](#Calegari13).
+
+Since [[elliptic curves]] over $\mathbb{C}$ can be defined in terms of lattices, the previous definition can also be expressed as follows.
+
+A modular form $f$ of weight $k$ over $\mathbb{C}$ is a function on pairs $(E,\omega)$ where $E$ is an elliptic curve and $\omega\in H^{0}(E,\Omega_{E}^{1})$, such that
+
+$$f(E,\mu\omega)=\mu^{-k}f(E,\omega)$$
+
+and such that $f(\mathbb{C}/\mathbb{Z}+\tau\mathbb{Z})$ is bounded as $\tau\to i\infty$.
 
 ### As sections of a line bundle over the moduli stack
  {#AsSections}
@@ -96,6 +118,14 @@ This generalizes to the case of other [[congruence subgroups]] (as [above](ForCo
 For the history of the terminology "modular form"/"automorphic form" see also [this MO comment](http://mathoverflow.net/a/124785/381).
 
 ## Properties
+
+### Action by Hecke operators
+
+Modular forms can be acted on by Hecke operators. Viewing a modular form as a function on lattices, the most common kind of Hecke operator $T_{n}$ acts on a modular form $f$ as follows:
+
+$$T_{n}f(\Lambda)=\sum_{\Lambda'}f(\Lambda')$$
+
+where the sum runs over all lattices $\Lambda'$ which are index $n$ subgroups of $\Lambda$. A modular form which is a simultaneous eigenvector is also called a _Hecke eigenform_ or simply _eigenform_.
 
 ### Relation to Galois representations
 
@@ -192,6 +222,7 @@ Lecture notes and reviews include
 
 * {#Martin13} Kimball Martin, _A brief overview of modular and automorphic forms_, 2013 [pdf](http://www2.math.ou.edu/~kmartin/papers/mfs.pdf)
 
+* {#Calegari13} Frank Calegari, _Congruences between modular forms_, 2013 [pdf](https://swc-math.github.io/aws/2013/2013CalegariLectureNotes.pdf)
 
 * Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
 
