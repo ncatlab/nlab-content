@@ -123,6 +123,10 @@ $$V_{dR}=(V\otimes B_{dR})^{\mathrm{Gal}_{\mathbb{Q}_{p}}}$$
 
 If the dimension of $V$ is equal to the dimension of $V_{dR}$, we say that $V$ is _de Rham_. We can also apply this construction with $B_{cris}$ instead of $B_{dR}$; if the dimension stays the same we say that $V$ is _crystalline_.
 
+## $p$-adic Hodge theory for rigid analytic spaces
+
+[[Peter Scholze]] has developed a version of $p$-adic Hodge theory for [[rigid analytic spaces]] in [Scholze13](#Scholze13). It relies on the construction of period sheaves and develops a $p$-adic version of the [[Riemann-Hilbert correspondence]] as an intermediate step. 
+
 ## Related concepts
 
 * [[Fargues-Fontaine curve]]
@@ -157,6 +161,10 @@ Niziol's [[algebraic K-theory|K-theoretic]] proof:
 * [[Luc Illusie]], _Around the Poincar&#233; lemma, after Beilinson_ (Preliminary notes), 2013, [pdf](http://www.math.u-psud.fr/~illusie/derived-deRham3.pdf).
 
 * {#BeilinsonLectures2014} [[Alexander Beilinson]], _p-adic Hodge theory_, lectures from Yaroslavl' summer school 2014, [videos](http://bogomolov-lab.ru/SHKOLA2014/talks/beilinson.html).
+
+### $p$-adic Hodge theory for rigid analytic spaces
+
+* {#Scholze13} [[Peter Scholze]], _p-adic Hodge theory for rigid-analytic varieties_, Forum of Mathematics, Pi, 1, e1 2013. [arXiv:1205.3463](https://arxiv.org/abs/1205.3463)
 
 ### $p$-adic absolute Hodge cohomology
 
