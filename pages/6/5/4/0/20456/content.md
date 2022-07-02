@@ -51,11 +51,15 @@ where $d$ is a generator of $I$.
 
 ## Applications
 
-Prismatic cohomology can be used to obtain the following inequality for $X$ a proper smooth formal scheme over $\mathbb{C}_{p}$ (here $k$ is the residue field of $\mathcal{O}_{\mathbb{C}_{p}}$):
+Prismatic cohomology can be used to obtain the following inequality for $X$ a proper smooth [[formal scheme]] over $\mathbb{C}_{p}$ (here $k$ is the residue field of $\mathcal{O}_{\mathbb{C}_{p}}$):
 
 $$dim_{\mathbb{F}_{p}}H_{et}^{i}(X_{\mathbb{C}_{p}},\mathbb{F}_{p})\leq dim_{k}H_{dR}^{i}(X_{k})$$
 
 Prismatic cohomology has also been used in [Bhatt20](#Bhatt20) to prove that modulo a prime power the absolute integral closure of an excellent Noetherian domain is Cohen-Macaulay. The proof also uses a p-adic version of the [[Riemann-Hilbert correspondence]] being developed in yet-unpublished work of [[Bhargav Bhatt]] and [[Jacob Lurie]].
+
+## Historical Precursors
+
+Prismatic cohomology was developed by [[Bhargav Bhatt]] and [[Peter Scholze]] following earlier work on developing an integral version of [[p-adic Hodge theory]]. Some of this earlier work includes $A_inf$-cohomology in [BhattMorrowScholze16](#BhattMorrowScholze16) and integral p-adic Hodge theory via topological [[Hochschild homology]] in [BhattMorrowScholze16](#BhattMorrowScholze16), both of which were developed together with [[Matthew Morrow]].
 
 ## Related entries
 
@@ -65,9 +69,23 @@ Prismatic cohomology has also been used in [Bhatt20](#Bhatt20) to prove that mod
 
 ## References
 
-* [[Bhargav Bhatt]], _Prismatic cohomology_, course at Columbia University, 2018 [lecture notes](http://www-personal.umich.edu/~bhattb/teaching/prismatic-columbia/)
+Prismatic cohomology was introduced in
 
 * [[Bhargav Bhatt]], [[Peter Scholze]], _Prisms and Prismatic Cohomology_, preprint (2019) arXiv:[1905.08229](https://arxiv.org/abs/1905.08229)
+
+Lecture notes include
+
+* [[Bhargav Bhatt]], _Prismatic cohomology_, course at Columbia University, 2018 [lecture notes](http://www-personal.umich.edu/~bhattb/teaching/prismatic-columbia/)
+
+Lecture notes taken by Chao Li, from the same lectures (contains some material not included in the above)
+
+* [[Bhargav Bhatt]], _Prismatic cohomology_, course at Columbia University, 2018 (lecture notes taken by Chao Li) [lecture notes](http://www.math.columbia.edu/~chaoli/doc/BhattEilenberg.html)
+
+Some other lectures on prismatic cohomology:
+
+* [[Kiran Kedlaya]], _Notes on prismatic cohomology_, 2020 [lecture notes](https://kskedlaya.org/prismatic/prismatic.html)
+
+* [[Matthew Emerton]], _Prismatic cohomology_, 2020 [lecture notes](http://www.math.uchicago.edu/~emerton/prismatic/prismatic.html)
 
 For some introductory comments see
 
@@ -84,3 +102,9 @@ Recent developments include
 * [[Bhargav Bhatt]], [[Jacob Lurie]], _The Prismatization of $p$-adic Formal Schemes_, preprint (2022) arXiv:[2022.06124](https://arxiv.org/abs/2201.06124)
 
 * {#Bhatt20}[[Bhargav Bhatt]], _Cohen-Macaulayness of Absolute Integral Closures_, preprint (2020) arXiv:[2008.08070](https://arxiv.org/abs/2008.08070)
+
+Historical precursors of prismatic cohomology are
+
+* {#BhattMorrowScholze16}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[PeterScholze]] _Integral $p$-adic Hodge Theory_, arXiv:[1602.03148](https://arxiv.org/abs/1602.03148)
+
+* {#BhattMorrowScholze18}[[Bhargav Bhatt]], [[Matthew Morrow]], and [[PeterScholze]] _Topological Hochschild Homology and Integral $p$-adic Hodge Theory_, arXiv:[1802.03261](https://arxiv.org/abs/1802.03261)
