@@ -21,9 +21,15 @@ $$X_{E}=\mathrm{Proj}(\oplus_{n\in\mathbb{N}} B_{E}^{\phi=p^{n}}).$$
 
 The Fargues-Fontaine curve may also be constructed as an [[adic space]].
 
+## Vector Bundles on the Fargues-Fontaine Curve
+
+[[Vector bundles]] on the Fargues-Fontaine curve admit a classification in terms of _isocrystals_ (vector spaces over the field $E$ together with a semilinear action of Frobenius). More generally for a reductive group $G$, there is a concept of $G$-isocrystals which correspond to $G$-bundles on the Fargues-Fontaine curve. These also in turn correspond to extended pure inner forms of $G$ (which are all the inner forms if $G$ is connected). It is believed that it should not just be $G$, but all the extended pure inner forms of $G$ together, which  should appear in the geometric side of the [[local Langlands correspondence]] (for instance inner forms have the same [[Langlands dual]]). This is one motivation for the appearance of the Fargues-Fontaine curve in the Fargues-Scholze geometrization of the local Langlands correspondence.
+
 ## Related concepts
 
 * [[p-adic Hodge theory]]
+
+* [[local Langlands correspondence]]
 
 ## References
 
