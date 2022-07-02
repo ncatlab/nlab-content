@@ -379,7 +379,7 @@ The map defining Separation Axiom $T_4$ above
 is a trivial Serre fibration, hence their ${}^{&solb;rl}$-orthogonals are classes of trivial fibrations.
 
 
-\begin{conjecture} If $f$ is a ``nice'' map, then 
+\begin{conjecture} If $f$ is a "nice" map, then 
 $f$ is a trivial fibration iff 
 $$f\in\{  \{a{ \swarrow}U{ \searrow}x{ \swarrow}V{ \searrow}b\}\longrightarrow \{a{ \swarrow}U=x=V{ \searrow}b\}
 \}^{&solb;rl}$$
