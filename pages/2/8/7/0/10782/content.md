@@ -22,7 +22,7 @@
 
 $\ell$-Adic cohomology is a [[cohomology theory]] on suitable [[varieties]] which is constructed as an [[inverse limit]] of [[étale cohomology]] over different [[coefficients]].
 
-$\ell$-Adic cohomology is a [[Weil cohomology theory]]
+$\ell$-Adic cohomology is a [[Weil cohomology theory]]. It is endowed with a Galois action and therefore gives us a way of obtaining [[Galois modules]] from [[algebraic varieties]].
 
 ## Definition
 
