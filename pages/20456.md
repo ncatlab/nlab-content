@@ -25,19 +25,17 @@
 
 A type of [[cohomology]] attached to prisms, which are $\delta$-rings equipped with an ideal satisfying some conditions. (The pair $(A, I)$ is a prism when $I$ is an [[ideal]] of a $\delta$-ring $A$ defining a [[Cartier divisor]] on its [[spectrum of a commutative ring|spectrum]] $Spec(A)$ such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.)
 
-Roughly, it is a unified construction of various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]].
+Roughly, it is a unified construction of various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]]. It is therefore related to [[p-adic Hodge theory]].
 
 ## Definition
 
-Let $(A,I)$ be a prism as defined above. Let $R$ be a formally smooth $A/I$-algebra. The _prismatic site_ $(R/A)_{\Delta}$ has objects which are prisms $(B,IB)$ over $(A,I)$ together with a map $R\to B/IB$ over $A/I$. Such an object is written $(R\to B/IB\leftarrow B)$.
+Let $(A,I)$ be a prism as defined above. Let $R$ be a formally smooth $A/I$-algebra. The _prismatic site_ $(R/A)_{\Delta}$ has objects which are prisms $(B,I B)$ over $(A,I)$ together with a map $R\to B/I B$ over $A/I$. Such an object is written $(R\to B/I B\leftarrow B)$.
 
-We have functors $\mathcal{O}_{\Delta}$ and $\overline{\mathcal{O}}_{\Delta}$ which sends $(R\to B/IB\leftarrow B)$ to $B$ and $B/IB$ respectively.
-
-The _prismatic cohomology_ of $R$ is defined to be $\Delta_{R/A}:=R\Gamma((R/A)_{\Delta},\mathcal{O}_{\Delta})$.
+We have functors $\mathcal{O}_{\Delta}$ and $\overline{\mathcal{O}}_{\Delta}$ which sends $(R\to B/I B\leftarrow B)$ to $B$ and $B/I B$ respectively. The _prismatic cohomology_ of $R$ is defined to be $\Delta_{R/A}:=R\Gamma((R/A)_{\Delta},\mathcal{O}_{\Delta})$.
 
 ## Comparison theorems
 
-We have the following comparison theorems relating prismatic cohomology to the crystalline cohomology and the étale cohomology:
+We have the following comparison theorems relating prismatic cohomology to the crystalline and étale cohomology:
 
 \begin{theorem}
 Let $A,(p)$ be a bounded prism and let $R$ be a smooth $A/p$-algebra. There exists a canonical isomorphism
@@ -50,6 +48,14 @@ Let $(A,I)$ be a perfect prism and let $R$ be a $p$-complete $A/I$-algebra. For 
 $$R\Gamma_{\et}(\mathrm{Spec}(R[1/p]),\mathbb{Z}/p^{n})\cong (\Delta_{R/A}[1/d]/p^{n})^{\phi=1}$$
 where $d$ is a generator of $I$.
 \end{theorem}
+
+## Applications
+
+Prismatic cohomology can be used to obtain the following inequality for $X$ a proper smooth formal scheme over $\mathbb{C}_{p}$ (here $k$ is the residue field of $\mathcal{O}_{\mathbb{C}_{p}}$):
+
+$$dim_{\mathbb{F}_{p}}H_{et}^{i}(X_{\mathbb{C}_{p}},\mathbb{F}_{p})\leq dim_{k}H_{dR}^{i}(X_{k})$$
+
+Prismatic cohomology has also been used in [Bhatt20](#Bhatt20) to prove that modulo a prime power the absolute integral closure of an excellent Noetherian domain is Cohen-Macaulay. The proof also uses a p-adic version of the [[Riemann-Hilbert correspondence]] being developed in yet-unpublished work of [[Bhargav Bhatt]] and [[Jacob Lurie]].
 
 ## Related entries
 
@@ -76,3 +82,5 @@ Recent developments include
 * [[Bhargav Bhatt]], [[Jacob Lurie]], _Absolute Prismatic Cohomology_, preprint (2022) arXiv:[2022.06120](https://arxiv.org/abs/2201.06120)
 
 * [[Bhargav Bhatt]], [[Jacob Lurie]], _The Prismatization of $p$-adic Formal Schemes_, preprint (2022) arXiv:[2022.06124](https://arxiv.org/abs/2201.06124)
+
+* {#Bhatt20}[[Bhargav Bhatt]], _Cohen-Macaulayness of Absolute Integral Closures_, preprint (2020) arXiv:[2008.08070](https://arxiv.org/abs/2008.08070)
