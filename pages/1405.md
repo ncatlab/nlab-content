@@ -34,40 +34,6 @@ This program was originally begun by Ross Street and has been carried forward by
 
 * [[Dominic Verity]], _Weak complicial sets, a simplicial weak omega-category theory. Part II: nerves of complicial Gray-categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0604/0604416v1.pdf))
 
-***
-
-Discussion on a previous version of this entry:
-
-+--{: .query}
-[[Mike Shulman|Mike]]: This term is kind of unfortunate; *simplicial weak $\omega$-category* could also mean a simplicial object in weak $\omega$-categories.  I don't suppose we can do anything about that?
-
-[[Urs Schreiber|Urs]]: my impression is that what Dominic Verity mainly wants to express with the term is "simplicial model for weak $\omega$-category". Maybe we could/should use a longer phrase like that?
-
-[[Mike Shulman|Mike]]: That would make me happier.
-
-[[Urs Schreiber|Urs]]: okay, I changed it. Let me know if this is good now.
-
-_Toby_:  But what about 'globular $\omega$-category' and things like that?  Doesn\'t 'simplicial $\omega$-category' fit right into that framework?  This page title sounds like an entire framework for defining $\omega$-category rather than a single $\omega$-category simplicially defined.
-
-[[Urs Schreiber|Urs]]: i am open to suggestions -- but notice that it does indeed seem to me that Dominic Verity wants to express  "an entire framework for defining $\omega$-category", namely the framework where one skips over the attempt to define $\omega$-categories and instead tries to find a characterization of what should be their nerves.
-
-_Toby_:  OK, that fits in with most of what\'s written here, but not the beginning
->**Simplicial models for weak $\omega$-categories** -- sometimes called [[simplicial weak omega-category|simplicial weak ∞-categories]] -- are [...]
-Maybe that was just poorly written, but it threw me off.
-Should it be
->A **simplicial model for weak $\omega$-categories** -- which are then sometimes called [[simplicial weak ∞-categories]] -- is [...]
-or even
->A **simplicial model for weak $\omega$-categories** is [...]
-and only later mention [[simplicial weak ∞-categories]]?
-
-[[Mike Shulman|Mike]]: You're right that 'simplicial $\omega$-category' it fits into 'globular $\omega$-category' and 'opetopic $\omega$-category' and so on.  It seems more problematic in this case, though, since simplicial objects of random categories are a good deal more prevalent than globular ones and opetopic ones.  But perhaps I should just live with it.  
-
-[[Urs Schreiber|Urs]]: I have now expanded the entry text on this point, trying to make very clear to the reader what's going on here.
-
-_Toby_:  Thanks, that\'s much clearer.  And if Verity\'s definition is at [[weak complicial set]], then we may not really need anything at [[simplicial weak ∞-category]], so no need to offend Mike\'s sensibilities (^_^) either.
-
-=--
-
 [[!redirects simplicial model for weak ∞-categories]]
 [[!redirects simplicial models for weak ∞-categories]]
 [[!redirects simplicial models for weak omega-categories]]
