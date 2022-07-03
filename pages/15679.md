@@ -50,6 +50,9 @@ However ([Scholl 91](#Scholl91)) observed that also these [[Beilinson regulators
 
 **Deligne-Beilinson-Scholl conjecture**: _For $r$ the order of vanishing of a motivic $L$-function at some integer $n$, then the $r$th [[derivative]] of the function at that point is a [[period]]._
 
+### Relative Langlands and boundary conditions in topological quantum field theory
+
+Ongoing by work by [[David Ben-Zvi]], [[Yiannis Sakellaridis]], and [[Akshay Venkatesh]] relate special values of L-functions and periods to boundary conditions in a  [[topological quantum field theory]] approach to the [[Langlands program]] (see [BenZvi](#BenZvi)).
 
 ## Related concepts
 
@@ -80,5 +83,7 @@ Review and further developments:
 * {#Flach} [[Matthias Flach]], _The equivariant Tamagawa Number Conjecture: A survey_ ([pdf](http://www.math.caltech.edu/papers/baltimore-final.pdf))
 
 * [[Bruno Kahn]], _Fonctions z&#234;ta et $L$ de vari&#233;t&#233;s et de motifs_, [arXiv:1512.09250](http://arxiv.org/abs/1512.09250v1).
+
+* {#BenZvi} [[David Ben-Zvi]], _Relative Langlands_, MSRI lectures (notes taken by Jackson van Dyke) [pdf](https://www.msri.org/workshops/918/schedules/28233/documents/50487/assets/88599)
 
 [[!redirects special value of an L-function]]
