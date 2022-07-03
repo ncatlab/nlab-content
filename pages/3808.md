@@ -39,7 +39,7 @@ It is one of the oldest branches of mathematics and very popular as many difficu
 
 * [[arithmetic geometry]]
 
-* [[Weil conjecture]], [[Fermat's last theorem]], [[abc conjecture]]
+* [[Weil conjecture]], [[Fermat's last theorem]], [[abc conjecture]], [[Mordell conjecture]]
 
 * [[exact real computer arithmetic]]
 
