@@ -1746,7 +1746,10 @@ Prop. \ref{TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTriv
 ### Concordance
  {#ConcordanceOfTopolgicslVectorBundles}
 
-We discuss that every [[concordance]] of topological vector bundles over a [[paracompact topological space]] makes the restriction of the vector bundle over the endpoints of the interval isomorphic (prop. \ref{ConcondanceOfTopologicalVectorBundles} below). In particular this implies tht the [[pullbacks of vector bundles]] along two [[homotopy|homotopic]] [[continuous functions]] are [[isomorphism|isomorphic]] (corollary \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} below). The proof below follows [Hatcher, theorem 1.6](#Hatcher).
+We discuss that every [[concordance]] of topological vector bundles over a [[paracompact topological space]] makes the restriction of the vector bundle over the endpoints of the interval isomorphic (prop. \ref{ConcondanceOfTopologicalVectorBundles} below). In particular this implies tht the [[pullbacks of vector bundles]] along two [[homotopy|homotopic]] [[continuous functions]] are [[isomorphism|isomorphic]] (corollary \ref{PullbackOfvectorBundlesAlongHomotopicMapsAreIsomorphic} below).
+
+This result is apparently due to Steenrod, see Theorem 11.4 in \cite{Steenrod}.
+The proof below follows [Hatcher, theorem 1.6](#Hatcher).
 
 For $X$ a [[topological space]] write $X \times I$ for the [[product topological space]] with the [[closed interval]] $[0,1]$ equipped with its [[Euclidean space|Euclidean]] [[metric topology]].
 
@@ -2473,6 +2476,9 @@ do not see the difference between the reduced and the unreduced spaces, by prop.
 
 ## References
 
+The original reference for many results about bundles, including the theorem that concordance implies isomorphism, is
+
+* [[Norman Steenrod]], _The Topology of Fibre Bundles_, Princeton University Press, 1951, 1957, 1960.
 
 Textbook accounts include
 
