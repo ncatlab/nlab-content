@@ -35,6 +35,8 @@ Arakelov complemented the algebraic geometry at finite primes with a holomorphic
 
 ## Related concepts
 
+* [[Mordell conjecture]]
+
 * [[arithmetic Chow group]]
 
 * [[Vojta's conjecture]]
