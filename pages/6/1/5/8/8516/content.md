@@ -29,13 +29,13 @@ for abelian varieties $A$ and $B$ over $K$, to prove the Shafarevich conjecture.
 
 3. Showing that the semisimplicity of the Tate module and the isogeny theorem will follow if there are only finitely many abelian varieties (up to isomorphism) isogenous to a fixed abelian variety $A$ (follows a strategy originally used by Tate to prove the analogous result over finite fields).
 
-4. Showing that there are only finitely many abelian varieties (up to isomorphism) isogenous to a fixed abelian variety $A$ by relating the Faltings height to the moduli-theoretic height (for which there are only finitely many points of bounded height) then studying how the Faltings height changes under isogeny. This makes use of the Hodge-Tate decomposition from [[p-adic Hodge theory]].
+4. Showing that there are only finitely many abelian varieties (up to isomorphism) isogenous to a fixed abelian variety $A$ by relating the Faltings height to the moduli-theoretic height (for which there are only finitely many points of bounded height) using [[Arakelov theory]] then studying how the Faltings height changes under isogeny. This makes use of the Hodge-Tate decomposition from [[p-adic Hodge theory]].
 
 ## Other proofs
 
 Other proofs of the Mordell conjecture using different methods have been given by [[Paul Vojta]] ([Vojta91](#Vojta91)) and [[Enrico Bombieri]] ([Bombieri90](#Bombieri90)). Recently another proof involving period mappings together with o-minimality methods was given by [[Brian Lawrence]] and [[Akshay Venkatesh]] ([LawrenceVenkatesh18](#LawrenceVenkatesh18)).
 
-## Effective Mordell conjcture
+## Effective Mordell conjecture
 
 Faltings' proof of the Mordell conjecture determines the finiteness of the rational points but it does not find the set of rational points. The latter problem is also known as the _effective Mordell conjecture_. An approach towards this has been proposed by [[Minhyong Kim]] and is related to his proposed [[arithmetic gauge theory]] (see also [Balakrishnan19]({#Balakrishnan19}) for a survey). 
 
