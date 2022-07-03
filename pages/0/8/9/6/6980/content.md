@@ -143,6 +143,11 @@ Libraries of [[formal proofs]] formalized in some [[proof assistant]]:
 
 ## References
 
+General introduction to the notion of proof in modern rigorous mathematics:
+
+* {#Quinn2009} [[Frank Quinn]]: *Proof Projects for Teachers* (2009) &lbrack;[pdf](https://personal.math.vt.edu/fquinn/education/pfs4teachers0.pdf), [[Quinn-ProofProjects.pdf:file]]&rbrack;
+
+
 A brief exposition of the notion of proof and formal proof in [[constructive mathematics]]/[[type theory]] is in 
 
 * {#Harper} [[Robert Harper]], _Extensionality, Intensionality, and Brouwer's Dictum_, August 2012 ([web](http://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/))
@@ -150,9 +155,9 @@ A brief exposition of the notion of proof and formal proof in [[constructive mat
 
 * [[Robert Harper]], _Constructive Mathematics is not Meta-Mathematics_, July 2013 ([web](http://existentialtype.wordpress.com/2013/07/10/constructive-mathematics-is-not-meta-mathematics/))
 
-Further discussion of formal proofs includes the following
+Discussion of formal proof in view of [[proof assistants]]:
 
-* [[Thomas Hales]], _Formal proof_ ([pdf](http://www.ams.org/notices/200811/tx081101370p.pdf))
+* [[Thomas Hales]], _Formal proof_, Notices of the AMS **55** 11 (2008) 1370-1379 &lbrack;[pdf](http://www.ams.org/notices/200811/tx081101370p.pdf)&rbrack;
 
 * John Harrison, _Formal proof -- theory and practice_ ([pdf](http://www.ams.org/notices/200811/tx081101395p.pdf))
 
@@ -160,8 +165,7 @@ Further discussion of formal proofs includes the following
 
 * [[Jeremy Avigad]], John Harrison, _Formally Verified Mathematics_, Communications of the ACM, Vol. 57 No. 4, Pages 66-75 ([web](http://cacm.acm.org/magazines/2014/4/173219-formally-verified-mathematics/fulltext))
 
-* [[Jeremy Avigad]], _Formal verication, interactive theorem proving,
-and automated reasoning_ (2014) ([pdf](http://www.andrew.cmu.edu/user/avigad/Talks/baltimore.pdf))
+* [[Jeremy Avigad]], _Formal verication, interactive theorem proving, and automated reasoning_ (2014) ([pdf](http://www.andrew.cmu.edu/user/avigad/Talks/baltimore.pdf))
 
 A discussion of the relation of mathematical proof to [[phenomenology]] of [[theories]] of [[physics]] is in 
  
