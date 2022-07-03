@@ -36,7 +36,7 @@ This theory pursues the surprising analogies between 3-dimensional topology and 
 
 ## References
 
-* {#Kim1} [[Minhyong Kim]], _Arithmetic Chern-Simons Theory I_, ([arXiv:1510.05818](http://arxiv.org/abs/1510.05818)).
+* {#Kim1} [[Minhyong Kim]], *Arithmetic Chern-Simons Theory I*, in: *Galois Covers, Grothendieck-Teichmüller Theory and Dessins d'Enfants*, Proceedings in Mathematics & Statistics **330**,  Spinger (2020) &lbrack;[arXiv:1510.05818](http://arxiv.org/abs/1510.05818), [doi:10.1007/978-3-030-51795-3_8](https://doi.org/10.1007/978-3-030-51795-3_8)&rbrack;
 
 * {#Kim2} Hee-Joong Chung, Dohyeong Kim, [[Minhyong Kim]], Jeehoon Park, Hwajong Yoo, _Arithmetic Chern-Simons Theory II_, ([arXiv:1609.03012](http://arxiv.org/abs/1609.03012))
 
@@ -48,6 +48,12 @@ This theory pursues the surprising analogies between 3-dimensional topology and 
 
 * Jungin Lee, Jeehoon Park, _Arithmetic Chern-Simons theory with real places_, ([arXiv:1905.13610](https://arxiv.org/abs/1905.13610))
 
-For an introductory talk see 
+
+An introductory talk"
 
 * [[Minhyong Kim]], _Arithmetic topological quantum field theory?_, ([slides](https://simonsfoundation.s3.amazonaws.com/share/mps/conferences/2017_Conference_on_Number_Theory_Geometry_Moonshine_and_Strings/Kim.pdf))
+
+Introduction in  the broader context of [[arithmetic gauge theory]]:
+
+* {#Kim18} [[Minhyong Kim]], *Arithmetic Gauge Theory: A Brief Introduction*,  Modern Physics Letters A **33** 29 (2018) 1830012 &lbrack;[arxiv:1712.07602](https://arxiv.org/abs/1712.07602), [doi:10.1142/S0217732318300124](https://doi.org/10.1142/S0217732318300124)&rbrack;
+
