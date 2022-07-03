@@ -2,3 +2,6 @@
 
 ## Selected writings
 
+category: people
+
+
