@@ -5,6 +5,8 @@
 
 ## Idea
 
+>Il s’agit là d’une question qu’un arithméticien ne peut guère manquer de se poser; on n’aperçoit d’ailleurs aucun motif sérieux de parier pour ou contre. Peut-être dira-t-on que l’existence d’une infinité de solutions rationnelles pour une équation $f(x,y)=0$, en l’absence d’une raison algébrique qui la justifie, est infiniment peu probable. Mais ce n’est pas un argument.... (André Weil, [Commentaire 1979](#Weil79))
+
 The _Mordell conjecture_ or _Falting's theorem_ is a statement about the [[finite set|finiteness]] of [[rational points]] on an [[algebraic curve]] over a [[number field]] of [[genus]] $g \gt 1$.
 
 Its statement motivated the introduction of [[anabelian geometry]] ([Grothendieck](#Grothendieck)).
@@ -54,6 +56,8 @@ Seminar notes on Faltings' proof:
 
 Reviews include
 
+* Spencer Bloch, _The Proof of the Mordell Conjecture_, Math. Int. **6** no.2 (1984) p.41-47.
+
 * [[Barry Mazur]], _Abelian varieties and the Mordell-Lang conjecture_ ([pdf](http://library.msri.org/books/Book39/files/mazur.pdf))
 
 * Enrico Bombieri, _The Mordell conjecture revisited_, _Annali della Scuola Normale Superiore di Pisa - Classe di Scienze_,  S&#233;r. 4, 17 no. 4 (1990), p. 615-640 ([Numdam](http://www.numdam.org/item?id=ASNSP_1990_4_17_4_615_0))
@@ -68,6 +72,10 @@ The relation to [[anabelian geometry]] originates in
 
 * [[Alexandre Grothendieck]], letter to [[Faltings]] (1983) ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/GtoF.pdf))
  {#Grothendieck}
+
+The Weil quote stems from
+
+* {#Weil79}[[André Weil]], _Œuvres Scientifiques - Collected Papers Volume III_, Springer Heidelberg 1979. (p.454)
 
 [[!redirects Mordell's conjecture]]
 
