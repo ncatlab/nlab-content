@@ -77,7 +77,7 @@ A modular form $f$ of weight $k$ over $\mathbb{C}$ is a function on lattices $\L
 
 3. $f(\mathbb{Z}+\tau\mathbb{Z})$ is bounded as $\tau\to i\infty$.
 
-If $f(\mathbb{Z}+\tau\mathbb{Z})\to 0$ as $\tau\to i\infty$, we say that $f$ is a _cusp form_.
+If $f(\mathbb{Z}+\tau\mathbb{Z})\to 0$ as $\tau\to i\infty$, we say that $f$ is a [[cusp form]].
 
 ### As functions on elliptic curves together with a choice of differential
 
@@ -100,7 +100,7 @@ $$
   \omega \coloneqq e^\ast \Omega^1_{A/S}
 $$ 
 
-is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$. Using the Kodaira-Spencer isomorphism one can show that the space of cusp forms of weight $2$ are the differentials on the corresponding modular curve.
+is a [[line bundle]] over the [[moduli stack of elliptic curves]]. A modular form of weight $k$  is a [[section]] of $\omega^{\otimes k}$. Using the Kodaira-Spencer isomorphism one can show that the space of [[cusp forms]] of weight $2$ are the differentials on the corresponding modular curve.
 
 
 ### For congruence subgroups
@@ -129,7 +129,7 @@ $$T_{n}f(\Lambda)=\sum_{\Lambda'}f(\Lambda')$$
 
 where the sum runs over all lattices $\Lambda'$ which are index $n$ subgroups of $\Lambda$. A modular form which is a simultaneous eigenvector is also called a _Hecke eigenform_ or simply _eigenform_.
 
-A modular form which vanishes at the cusps (equivalently, whose zeroth Fourier coefficient is equal to $1$) is called _cuspidal_, or a _cusp form_. A cusp form is _normalized_ if its first Fourier coefficient is equal to $1$. For normalized cuspidal eigenforms of integer weight, the eigenvalue of the Hecke operator $T_{n}$ is exactly the $n$-th Fourier coefficient.
+A modular form which vanishes at the cusps (equivalently, whose zeroth Fourier coefficient is equal to $0$) is called _cuspidal_, or a [[cusp form]]. A cusp form is _normalized_ if its first Fourier coefficient is equal to $1$. For normalized cuspidal eigenforms of integer weight, the eigenvalue of the Hecke operator $T_{n}$ is exactly the $n$-th Fourier coefficient.
 
 Hecke operators were first developed by [[Louis Mordell]] to study the conjectures of [[Srinivasa Ramanujan]] on the tau function (the Fourier coefficients of the modular discriminant). They were later developed by (and named after) [[Erich Hecke]] who used them to study [[L-functions]].
 
