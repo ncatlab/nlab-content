@@ -25,6 +25,10 @@ _Arithmetic gauge theory_ is a theory proposed by [Kim 2018 ](#Kim18) to look at
 
 ## Definitions
 
+Let $K$ be a field of characteristic zero and let $G_{K}$ be its absolute Galois group. A _gauge group over $K$_ is a topological group $U$ with an action of $G_{K}$.
+
+A _$U$-gauge field_, or _$U$-principal bundle_, is a topological space $P$ with compatible continuous left $G_{K}$-action and simply transitive continuous right $U$ action.
+
 ## Related ideas
 
 * [[gauge theory]]
