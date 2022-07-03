@@ -246,6 +246,12 @@ Lecture notes and reviews include
 
 * Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
 
+The work of Erich Hecke:
+
+* [[Erich Hecke]], 1937, _Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung. I._, Mathematische Annalen 114: 1–28
+
+* [[Erich Hecke]], 1937, _Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung. II._, Mathematische Annalen (in German), 114: 316–351
+
 The construction of Galois representations associated to normalized eigenforms of weight $\geq 2$ comes from
 
 * {#Deligne71}[[Pierre Deligne]], _Formes modulaires et représentations l-adiques_, Sém. Bourbaki 1968/69, exp. 355, Springer Lecture Notes 179 (1971), 139–172
