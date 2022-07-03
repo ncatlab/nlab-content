@@ -184,6 +184,8 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[quiver gauge theory]]
 
+* [[arithmetic gauge theory]]
+
 [[!include gauge field - table]]
 
 
