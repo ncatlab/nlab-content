@@ -49,6 +49,8 @@ If $I$ is any [[ideal of a monoid|ideal]] of $M$, then we can generalise from a 
 
 * [[integral domain]]
 
+* [[cancellative element]]
+
 [[!redirects zero-divisor]]
 [[!redirects zero-divisors]]
 [[!redirects zero divisor]]
