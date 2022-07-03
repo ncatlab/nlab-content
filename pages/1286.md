@@ -82,7 +82,7 @@ Consider specifically an ordinary [[site]] $C$ and let $csC = [\Delta,C]$ be the
 
 $$
   \mathbf{Y} : C \hookrightarrow [\Delta,C] \stackrel{\mathbb{R}Y}{\to}
-  [[Delta,C],SSet]
+  [[\Delta,C],SSet]
 $$ 
 
 for the composite that first regards objects of $C$ as constant cosimplicial objects and then applies the [[derived functor]] of the [[enriched category theory|enriched]] [[Yoneda embedding]], i.e. the functor 
