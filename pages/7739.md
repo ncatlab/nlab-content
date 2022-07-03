@@ -17,7 +17,10 @@ On the relation between the practice of [[mathematics]] and [[physics]] (for his
 
   > we claim that the role of rigorous [[proof]] in mathematics is functionally [[analogy|analogous]] to the role of [[experiment]] in the natural sciences ([Jaffe-Quinn 93, p. 2](JaffeQuinn93))
 
-On rigorous [[mathematics]]:
+On rigorous [[mathematics]] and [[formal proof]]:
+
+* {#Quinn2009} [[Frank Quinn]]: *Proof Projects for Teachers* (2009) &lbrack;[pdf](https://personal.math.vt.edu/fquinn/education/pfs4teachers0.pdf), [[Quinn-ProofProjects.pdf:file]]&rbrack;
+
 
 * {#Quinn12} [[Frank Quinn]], *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) $[$[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)$]$
 
