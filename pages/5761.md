@@ -1,3 +1,3 @@
-If $U = U(\mathfrak{g})$ is the enveloping algebra of a Lie algebra $\mathrak{g]$ over $\mathfrak{g}$, a central character of $U(\mathfrak{g})$, or, by abuse of language, of $\mathfrak{g}$, is any algebra homomorphism $Z(\mathfrak{g})\to\mathbb{C}$.
+If $U = U(\mathfrak{g})$ is the enveloping algebra of a Lie algebra $\mathfrak{g}$ over $\mathfrak{g}$, a central character of $U(\mathfrak{g})$, or, by abuse of language, of $\mathfrak{g}$, is any algebra homomorphism $Z(\mathfrak{g})\to\mathbb{C}$.
 
 If $\mathfrak{g}$ is a semisimple Lie algebra over $\mathfrak{g}$, then any weight $\lambda$ determines a central character $\chi_\lambda$ in a standard way (...)
