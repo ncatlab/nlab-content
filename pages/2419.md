@@ -246,11 +246,12 @@ Lecture notes and reviews include
 
 * Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
 
+
 The work of Erich Hecke:
 
-* [[Erich Hecke]], 1937, _Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung. I._, Mathematische Annalen 114: 1–28
+* [[Erich Hecke]], *Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung. I.*, Mathematische Annalen **114** (1937)  1–28 &lbrack;[doi:10.1007/BF01594160](https://doi.org/10.1007/BF01594160)&rbrack;
 
-* [[Erich Hecke]], 1937, _Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung. II._, Mathematische Annalen (in German), 114: 316–351
+* [[Erich Hecke]], *Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung. II.*, Mathematische Annalen (in German), **114** (1937) 316–351 &lbrack;[doi:10.1007/BF01594180](https://doi.org/10.1007/BF01594180)&rbrack;
 
 The construction of Galois representations associated to normalized eigenforms of weight $\geq 2$ comes from
 
@@ -270,9 +271,9 @@ Original discussion in the context of [[elliptic genera]] and [[elliptic cohomol
 
 * {#LandweberRavenelStong93} [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_, in [[Haynes Miller]] et. al. (eds.), _The Cech centennial: A conference on homotopy theory_, June 1993, AMS (1995) ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
 
-* {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([[LandweberEllipticModular.pdf:file]])
+* {#Landweber88} [[Peter Landweber]], *Elliptic Cohomology and Modular Forms*, in: _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics **1326** (1988) 55-68 &lbrack;[doi:10.1007/BFb0078038](https://doi.org/10.1007/BFb0078038)&rbrack;
 
-Reviews of this include
+Reviewed in:
 
 * [[Kefeng Liu]], _Modular forms and topology_, 1996 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.130.9779))
 
