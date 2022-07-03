@@ -5,3 +5,5 @@ A _cusp form_ is a [[modular form]] for which the zeroth Fourier coefficient is 
 ## References
 
 * Wikipedia, _[Cusp form](https://en.wikipedia.org/wiki/Cusp_form)_
+
+[[!redirects modular forms]]
