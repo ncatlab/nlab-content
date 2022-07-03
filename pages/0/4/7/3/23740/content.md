@@ -34,7 +34,7 @@ The **multiplicative subset of cancellative elements** in $R$ is the [[multiplic
 
 $$\mathrm{Can}(R) \coloneqq \{e \in M \vert \mathrm{isCancellative}(e)\}$$
 
-If the synonym 'regular element' is used in place of 'cancellative element', such as in [LombardiQuitté2010](LombardiQuitté2010), then this multiplicative subset is typically written as $\mathrm{Reg}(R)$. 
+If the synonym 'regular element' is used in place of 'cancellative element', such as in [Lombardi & Quitté 2010](#LombardiQuitté2010), then this multiplicative subset is typically written as $\mathrm{Reg}(R)$. 
 
 Since the multiplicative identity element $1$ is always cancellative, the multiplicative subset of all cancellative elements forms a [[cancellative monoid]]. 
 
