@@ -55,35 +55,34 @@ The Mordell conjecture originates in
 
 It was proven in
 
-* [[Gerd Faltings]], _Endlichkeitss&#228;tze f&#252;r abelsche Variet&#228;ten &#252;ber Zahlk&#246;rpern_, Inventiones Mathematicae 73 (3): 349&#8211;366 (1983) doi:10.1007/BF01388432. 
- {#Faltings}
+* {#Faltings83} [[Gerd Faltings]], *Endlichkeitssätze für abelsche Varietäten über Zahlkörpern*, Inventiones Mathematicae **73** 3 (1983) 349-366  &lbrack;[doi:10.1007/BF01388432](https://doi.org/10.1007/BF01388432)&rbrack;
+ 
 
 Seminar notes on Faltings' proof:
 
-* {#BhattSnowden} [[Bhargav Bhatt]] and [[Andrew Snowden]] (organizers) _Faltings' proof of the Mordell conjecture_ (seminar notes) [pdf](https://web.math.princeton.edu/~takumim/Mordell.pdf)
+* {#BhattSnowden} [[Bhargav Bhatt]], [[Andrew Snowden]] (org.): _Faltings' proof of the Mordell conjecture_ (seminar notes, 2016) &lbrack;[pdf](https://web.math.princeton.edu/~takumim/Mordell.pdf), [[BhattSnowden-FaltingsProofofMordell.pdf:file]]&rbrack;
 
 Other proofs after Faltings:
 
 * {#Vojta91} [[Paul Vojta]], 1991, _Siegel's theorem in the compact case_, Ann. of Math. 133 (3): 509–548.
 
-* {#Bombieri90} [[Enrico Bombieri]], _The Mordell conjecture revisited_, _Annali della Scuola Normale Superiore di Pisa - Classe di Scienze_,  S&#233;r. 4, 17 no. 4 (1990), p. 615-640 ([Numdam](http://www.numdam.org/item?id=ASNSP_1990_4_17_4_615_0))
+* {#Bombieri90} [[Enrico Bombieri]], _The Mordell conjecture revisited_, _Annali della Scuola Normale Superiore di Pisa - Classe di Scienze_,  S&#233;r. 4, 17 no. 4 (1990), p. 615-640 &lbrack;[numdam:ASNSP_1990_4_17_4_615_0](http://www.numdam.org/item?id=ASNSP_1990_4_17_4_615_0)&rbrack;
 
+* {#LawrenceVenkatesh18} [[Brian Lawrence]], [[Akshay Venkatesh]]: _Diophantine problems and $p$-adic period mappings_,  Invent. math. **221** (2020) 893–999  &lbrack;[arxiv:1807.02721](https://arxiv.org/abs/1807.02721), [doi:10.1007/s00222-020-00966-7](https://doi.org/10.1007/s00222-020-00966-7)&rbrack;
 
-* {#LawrenceVenkatesh18} [[Brian Lawrence]] and [[Akshay Venkatesh]] _Diophantine probkems and $p$-adic period mappings_, [arxiv:1807.02721(https://arxiv.org/abs/1807.02721)
+Reviews:
 
-Reviews include
-
-* [[Spencer Bloch]], _The Proof of the Mordell Conjecture_, Math. Int. **6** no.2 (1984) p.41-47.
+* [[Spencer Bloch]], _The Proof of the Mordell Conjecture_, Math. Int. **6** 2 (1984) 41-47 &lbrack;[pdf](https://link.springer.com/content/pdf/10.1007/BF03024155.pdf), [doi:10.1007/BF03024155](https://doi.org/10.1007/BF03024155)&rbrack;
 
 * [[Barry Mazur]], _Abelian varieties and the Mordell-Lang conjecture_ ([pdf](http://library.msri.org/books/Book39/files/mazur.pdf))
 
-A survey of two approaches to the effective Mordell conjecture is
+A survey of two approaches to the effective Mordell conjecture:
 
-* {#Balakrishnan19} [[Jennifer Balakrishnan]] et al, _Two recent $p$-adic approaches to the (effective) Mordell conjecture_ [arxiv:1910.12755](https://arxiv.org/abs/1910.12755) 
+* {#Balakrishnan19} [[Jennifer Balakrishnan]],  A. J. Best, F. Bianchi, [[Brian Lawrence]], J. S. Müller, N. Triantafillou, J. Vonk: *Two recent $p$-adic approaches to the (effective) Mordell conjecture*, in: *Arithmetic L-Functions and Differential Geometric Methods* Progress in Mathematics **338** Birkhäuser (2021) &lbrack;[arxiv:1910.12755](https://arxiv.org/abs/1910.12755), [doi:10.1007/978-3-030-65203-6_2]( https://doi.org/10.1007/978-3-030-65203-6_2)&rbrack;
 
-Encyclopedia entries are in
+Encyclopedia entries:
 
-* Encyclopedia of Mathematics, _[Mordell conjecture](http://www.encyclopediaofmath.org/index.php/Mordell_conjecture)_
+* [[Encyclopedia of Mathematics]], _[Mordell conjecture](http://www.encyclopediaofmath.org/index.php/Mordell_conjecture)_
 
 * Wikipedia, _[Faltings' theorem](http://en.wikipedia.org/wiki/Mordell_conjecture#CITEREFMordell1922)_
 
