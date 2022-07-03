@@ -27,6 +27,8 @@ This theory pursues the surprising analogies between 3-dimensional topology and 
 
 * [[number theory and physics]]
 
+* [[arithmetic gauge theory]]
+
 * [[p-adic physics]]
 
   * [[p-adic string theory]]
