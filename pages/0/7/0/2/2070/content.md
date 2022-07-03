@@ -1,5 +1,5 @@
 
-> This entry is about the concept in [[formal logic]] and [[topology]]. For the concept in [[physics]]/[[quantum field theory]] see at _[[regularization (physics)]]_.
+> This entry is about regular elements in [[formal logic]] and [[topology]]. For regular elements in [[physics]]/[[quantum field theory]] see at _[[regularization (physics)]]_. For regular elements in [[ring theory]] and [[commutative algebra]], see [[multiplicative submonoid of cancellative elements]]. 
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
