@@ -29,6 +29,47 @@ Let $K$ be a field of characteristic zero and let $G_{K}$ be its absolute Galois
 
 A _$U$-gauge field_, or _$U$-principal bundle_, is a topological space $P$ with compatible continuous left $G_{K}$-action and simply transitive continuous right $U$ action.
 
+## Examples
+
+This section follows section 8 of [Kim 2018](#Kim18).
+
+Let $V$ be a variety over $\mathbb{Q}$ equipped with a base point $b\in V(\mathbb{Q})$. For our gauge group $U$ we let
+
+$$U=\pi_{1}(\overline{V},b)_{\mathbb{Q}},$$
+
+the $\mathbb{Q}_{p}$-pro-unipotent fundamental group of $V$. For our gauge field $P$ we let
+
+$$P(x)=\pi_{1}(\overline{V},b,x),$$ 
+
+the $U$-torsor of pro-unipotent paths from $b$ to $x$.
+
+Let $S$ be a finite set of primes. Let $H_{f}^{1}(\mathbb{Z}_{S},U)$ be the set of $U$-torsors over $\mathbb{Q}$ which are unramified outside $S$ and crystalline at $p$. Similarly let $H^{1}(\mathbb{Q}_{p},U)$ be the set of $U$-torsors over $\mathbb{Q}_{p}$. We have a localization map
+
+$$H_{f}^{1}(\mathbb{Z}_{S},U)\to\prod^{'}H^{1}(\mathbb{Q}_{v},U)$$
+
+where the restricted product on the right means that all but finitely many of the components are unramified, and at $p$ the corresponding component is crystalline.
+
+Recall that we are interested in $V(\mathbb{Q})$, the set of rational points of $V$. Now we have a map $A:V(\mathbb{Q})\to H_{f}^{1}(\mathbb{Z}_{S},U)$ given by
+
+$$x\mapsto P(x).$$
+
+where $P(x)=\pi_{1}(\overline{V},b,x)$ as above. This map fits into the diagram
+
+$$
+  \array{& V(\mathbb{Q}) & \rightarrow & V(\mathbb{Q}_{p}) & \\
+          A & \downarrow &&\downarrow & A_{p} \\
+          & H_{f}^{1}(\mathbb{Z}_{S},U) & \underset{loc_{p}}\rightarrow& H_{f}^{1}(\mathbb{Q}_{p},U) & 
+}$$
+
+Kim conjectures the following:
+
+\begin{conjecture}
+Suppose $V$ is a smooth projective curve of genus $g\geq 2$. Then
+$$V(\mathbb{Q})=A_{p}^{-1}(Im(loc_{p})).$$
+\end{conjecture}
+
+## Relation to L-functions
+
 ## Related ideas
 
 * [[gauge theory]]
