@@ -25,6 +25,7 @@ The [[localization of a commutative ring]] at a multiplicative subset exists, de
 ## See also
 
 * [[filter of a ring]]
+* [[multiplicative subset of cancellative elements]]
 
 ## References
 
