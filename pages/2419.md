@@ -129,8 +129,22 @@ where the sum runs over all lattices $\Lambda'$ which are index $n$ subgroups of
 
 A modular form which vanishes at the cusps (equivalently, whose zeroth Fourier coefficient is equal to $1$) is called _cuspidal_, or a _cusp form_. A cusp form is _normalized_ if its first Fourier coefficient is equal to $1$. For normalized cuspidal eigenforms of integer weight, the eigenvalue of the Hecke operator $T_{n}$ is exactly the $n$-th Fourier coefficient.
 
-Hecke operators were first developed by [[Louis Mordell]] to study the conjectures of [[Srinivasa Ramanujan]] on the tau function (the Fourier coefficients of the modular discriminant). They were later developed by (and named after) [[Erich Hecke]] who used them to study [[L-functions]]. 
+Hecke operators were first developed by [[Louis Mordell]] to study the conjectures of [[Srinivasa Ramanujan]] on the tau function (the Fourier coefficients of the modular discriminant). They were later developed by (and named after) [[Erich Hecke]] who used them to study [[L-functions]].
 
+### Analytic continuation of L-functions
+
+Given a cusp form $f$ of weight $k$ with Fourier expansion
+
+$$f(z)=\sum_{n=1}^{\infty}a_{n}e^{2\pi i n z}$$
+
+we can associate to it its L-function $L_{f}(s)$, which is given by
+
+$$L_{f}(s)=\sum_{n=1}^{\infty}a_{n}n^{-s}$$
+
+The L-function $L_{f}(s)$ has an analytic continuation to all of $\mathbb{C}$, via the work of [[Erich Hecke]].
+
+This is important for instance to formulate conjectures such as the [[Birch and Swinnerton-Dyer conjecture]], which involves the special value of the [[Hasse-Weil L-function]] $L(E,s)$ of an elliptic curve at a value of $s$ where it is originally not defined (the series only converges for $s \gt 3/2$). But the [[modularity theorem]] tells us that this Hasse-Weil L-function $L(E,s)$ is equal to the L-function of some cusp form $f$, which we know has an analytic continuation to the entire complex plane.
+ 
 ### Relation to Galois representations
 
 Modular forms can be used to construct [[Galois representations]]. For instance in the case of weight $2$ 
