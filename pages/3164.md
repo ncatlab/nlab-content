@@ -62,6 +62,7 @@ $$
 
 * [[Borger's absolute geometry]]
 
+* [[Mordell conjecture]]
 
 * [[Iwasawa-Tate theory]]
 
