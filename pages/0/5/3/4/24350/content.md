@@ -25,7 +25,7 @@ _Arithmetic gauge theory_ is a theory proposed by [Kim 2018 ](#Kim18) to look at
 
 ## Definitions
 
-Let $K$ be a field of characteristic zero and let $G_{K}$ be its absolute Galois group. A _gauge group over $K$_ is a topological group $U$ with an action of $G_{K}$.
+Let $K$ be a field of characteristic zero and let $G_{K}$ be its [[absolute Galois group]]. A _gauge group over $K$_ is a [[topological group]] $U$ with a continuous action of $G_{K}$.
 
 A _$U$-gauge field_, or _$U$-principal bundle_, is a topological space $P$ with compatible continuous left $G_{K}$-action and simply transitive continuous right $U$ action.
 
@@ -33,7 +33,7 @@ A _$U$-gauge field_, or _$U$-principal bundle_, is a topological space $P$ with 
 
 This section follows section 8 of [Kim 2018](#Kim18).
 
-Let $V$ be a variety over $\mathbb{Q}$ equipped with a base point $b\in V(\mathbb{Q})$. For our gauge group $U$ we let
+Let $V$ be a variety over $\mathbb{Q}$ equipped with a base point $b\in V(\mathbb{Q})$. Our motivation is determining the set $V(\mathbb{Q})$ of rational points of $V$. For our gauge group $U$ we let
 
 $$U=\pi_{1}(\overline{V},b)_{\mathbb{Q}},$$
 
@@ -43,7 +43,7 @@ $$P(x)=\pi_{1}(\overline{V},b,x),$$
 
 the $U$-torsor of pro-unipotent paths from $b$ to $x$.
 
-Let $S$ be a finite set of primes. Let $H_{f}^{1}(\mathbb{Z}_{S},U)$ be the set of $U$-torsors over $\mathbb{Q}$ which are unramified outside $S$ and crystalline at $p$. Similarly let $H^{1}(\mathbb{Q}_{p},U)$ be the set of $U$-torsors over $\mathbb{Q}_{p}$. We have a localization map
+Let $S$ be a finite set of primes. Let $H_{f}^{1}(\mathbb{Z}_{S},U)$ be the set of $U$-torsors over $\mathbb{Q}$ which are unramified outside $S$ and crystalline at $p$ (see [[p-adic Hodge theory]] for the meaning of crystalline). Similarly let $H^{1}(\mathbb{Q}_{p},U)$ be the set of $U$-torsors over $\mathbb{Q}_{p}$. We have a localization map
 
 $$H_{f}^{1}(\mathbb{Z}_{S},U)\to\prod^{'}H^{1}(\mathbb{Q}_{v},U)$$
 
@@ -81,5 +81,9 @@ $$V(\mathbb{Q})=A_{p}^{-1}(Im(loc_{p})).$$
 ## References
 
 * {#Kim18} [[Minhyong Kim]], *Arithmetic Gauge Theory: A Brief Introduction*,  Modern Physics Letters A **33** 29 (2018) 1830012 &lbrack;[arxiv:1712.07602](https://arxiv.org/abs/1712.07602), [doi:10.1142/S0217732318300124](https://doi.org/10.1142/S0217732318300124)&rbrack;
+
+* [[Minhyong Kim]], _Recent Progress on the Effective Mordell Problem_, lecture at the Sydney Mathematical Research Institute [YouTube](https://www.youtube.com/watch?v=NDQ_aO7QDEU)
+
+* [[Minhyong Kim]], _Foundations of nonabelian Chabauty_, lectures at the Arizona Winter School 2020 [Slides1](https://swc-math.github.io/aws/2020/2020KimNotes1.pdf), [Slides2] (http://swc-alpha.math.arizona.edu/video/2020/2020KimLecture2Slides.pdf) [Slides3] (https://swc-math.github.io/aws/2020/2020KimNotes3.pdf) [Slides4] (https://swc-math.github.io/aws/2020/2020KimNotes4.pdf)
 
 [[!redirects arithmetic gauge theories]]
