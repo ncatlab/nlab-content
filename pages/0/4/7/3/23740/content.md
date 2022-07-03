@@ -150,7 +150,8 @@ In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization dom
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
-* {#Quinn2009} [[Frank Quinn]] (2009): *Proof Projects for Teachers* ([pdf](https://personal.math.vt.edu/fquinn/education/pfs4teachers0.pdf))
+* {#Quinn2009} [[Frank Quinn]], *Proof Projects for Teachers* (2009) &lbrack;[pdf](https://personal.math.vt.edu/fquinn/education/pfs4teachers0.pdf), [[Quinn-ProofProjects.pdf:file]]&rbrack;
+
 
 [[!redirects cancellative element]]
 [[!redirects cancellative elements]]
