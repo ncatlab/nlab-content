@@ -77,6 +77,8 @@ A modular form $f$ of weight $k$ over $\mathbb{C}$ is a function on lattices $\L
 
 3. $f(\mathbb{Z}+\tau\mathbb{Z})$ is bounded as $\tau\to i\infty$.
 
+If $f(\mathbb{Z}+\tau\mathbb{Z})\to 0$ as $\tau\to i\infty$, we say that $f$ is a _cusp form_.
+
 ### As functions on elliptic curves together with a choice of differential
 
 Again the reference for this definition  is [Calegari13](#Calegari13).
