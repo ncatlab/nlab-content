@@ -31,6 +31,14 @@ for abelian varieties $A$ and $B$ over $K$, to prove the Shafarevich conjecture.
 
 4. Showing that there are only finitely many abelian varieties (up to isomorphism) isogenous to a fixed abelian variety $A$ by relating the Faltings height to the moduli-theoretic height (for which there are only finitely many points of bounded height) then studying how the Faltings height changes under isogeny. This makes use of the Hodge-Tate decomposition from [[p-adic Hodge theory]].
 
+## Other proofs
+
+Other proofs of the Mordell conjecture using different methods have been given by [[Paul Vojta]] ([Vojta91](#Vojta91)) and [[Enrico Bombieri]] ([Bombieri90](#Bombieri90)). Recently another proof involving period mappings together with o-minimality methods was given by [[Brian Lawrence]] and [[Akshay Venkatesh]] ([LawrenceVenkatesh18](#LawrenceVenkatesh18)).
+
+## Effective Mordell conjcture
+
+Faltings' proof of the Mordell conjecture determines the finiteness of the rational points but it does not find the set of rational points. The latter problem is also known as the _effective Mordell conjecture_. An approach towards this has been proposed by [[Minhyong Kim]] and is related to his proposed [[arithmetic gauge theory]] (see also [Balakrishnan19]({#Balakrishnan19}) for a survey). 
+
 ## Relation to other statements
 
 The Mordell conjecture is implied by the [[abc conjecture]]. (See there.)
@@ -54,13 +62,24 @@ Seminar notes on Faltings' proof:
 
 * {#BhattSnowden} [[Bhargav Bhatt]] and [[Andrew Snowden]] (organizers) _Faltings' proof of the Mordell conjecture_ (seminar notes) [pdf](https://web.math.princeton.edu/~takumim/Mordell.pdf)
 
+Other proofs after Faltings:
+
+* {#Vojta91} [[Paul Vojta]], 1991, _Siegel's theorem in the compact case_, Ann. of Math. 133 (3): 509–548.
+
+* {#Bombieri90} [[Enrico Bombieri]], _The Mordell conjecture revisited_, _Annali della Scuola Normale Superiore di Pisa - Classe di Scienze_,  S&#233;r. 4, 17 no. 4 (1990), p. 615-640 ([Numdam](http://www.numdam.org/item?id=ASNSP_1990_4_17_4_615_0))
+
+
+* {#LawrenceVenkatesh18} [[Brian Lawrence]] and [[Akshay Venkatesh]] _Diophantine probkems and $p$-adic period mappings_, [arxiv:1807.02721(https://arxiv.org/abs/1807.02721)
+
 Reviews include
 
 * [[Spencer Bloch]], _The Proof of the Mordell Conjecture_, Math. Int. **6** no.2 (1984) p.41-47.
 
 * [[Barry Mazur]], _Abelian varieties and the Mordell-Lang conjecture_ ([pdf](http://library.msri.org/books/Book39/files/mazur.pdf))
 
-* Enrico Bombieri, _The Mordell conjecture revisited_, _Annali della Scuola Normale Superiore di Pisa - Classe di Scienze_,  S&#233;r. 4, 17 no. 4 (1990), p. 615-640 ([Numdam](http://www.numdam.org/item?id=ASNSP_1990_4_17_4_615_0))
+A survey of two approaches to the effective Mordell conjecture is
+
+* {#Balakrishnan19} [[Jennifer Balakrishnan]] et al, _Two recent $p$-adic approaches to the (effective) Mordell conjecture_ [arxiv:1910.12755](https://arxiv.org/abs/1910.12755) 
 
 Encyclopedia entries are in
 
